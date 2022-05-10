@@ -7,7 +7,6 @@ keywords: "Aspose.Tasks for .NET, Aspose Tasks, Aspose API Reference."
 description: Aspose.Tasks for .NET is a mature product that offers stability and flexibility.
 is_root: true
 ---
-# Aspose.Tasks
 ## Namespaces
 
 | Namespace | Description |
