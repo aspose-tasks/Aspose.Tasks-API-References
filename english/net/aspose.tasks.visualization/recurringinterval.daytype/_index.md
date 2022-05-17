@@ -3,7 +3,7 @@ title: RecurringInterval.DayType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2910
+weight: 2940
 url: /net/aspose.tasks.visualization/recurringinterval.daytype/
 ---
 ## RecurringInterval.DayType enumeration

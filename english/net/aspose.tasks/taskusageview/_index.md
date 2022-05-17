@@ -3,7 +3,7 @@ title: TaskUsageView
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2140
+weight: 2160
 url: /net/aspose.tasks/taskusageview/
 ---
 ## TaskUsageView class

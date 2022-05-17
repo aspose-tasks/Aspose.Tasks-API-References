@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1160
+weight: 1180
 url: /net/aspose.tasks/project/
 ---
 ## Project class
@@ -25,14 +25,12 @@ public class Project
 | [Project](project)(string) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file). |
 | [Project](project)(Stream, LoadOptions) | Initializes a new instance of the [`Project`](../project) class from the Stream with the specified instance of the [`LoadOptions`](../loadoptions) class. |
 | [Project](project)(Stream, ParseErrorCallback) | Initializes a new instance of the [`Project`](../project) class from a template(existent mpp or mpt file). |
-| [Project](project)(Stream, PrimaveraXmlReadingOptions) | Initializes a new instance of the [`Project`](../project) class from the Stream with the specified instance of the [`PrimaveraXmlReadingOptions`](../primaveraxmlreadingoptions) class. |
+| [Project](project)(Stream, PrimaveraReadOptions) | Initializes a new instance of the [`Project`](../project) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class. |
 | [Project](project)(Stream, string) | Initializes a new instance of the [`Project`](../project) class from a template(existent mpp or mpt file). |
 | [Project](project)(string, LoadOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../loadoptions) class. |
 | [Project](project)(string, ParseErrorCallback) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file). |
-| [Project](project)(string, PrimaveraXmlReadingOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraXmlReadingOptions`](../primaveraxmlreadingoptions) class. |
+| [Project](project)(string, PrimaveraReadOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class. |
 | [Project](project)(string, string) | Initializes a new instance of the [`Project`](../project) class from a password protected template (existent mpp or mpt file). |
-| [Project](project)(Stream, ParseErrorCallback, PrimaveraXmlReadingOptions) | Initializes a new instance of the [`Project`](../project) class from the Stream with the specified instance of the [`PrimaveraXmlReadingOptions`](../primaveraxmlreadingoptions) class. |
-| [Project](project)(string, ParseErrorCallback, PrimaveraXmlReadingOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file) with the specified instance of the [`PrimaveraXmlReadingOptions`](../primaveraxmlreadingoptions) class. |
 
 ## Properties
 

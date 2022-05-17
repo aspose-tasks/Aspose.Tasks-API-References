@@ -3,7 +3,7 @@ title: TasksException
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2180
+weight: 2200
 url: /net/aspose.tasks/tasksexception/
 ---
 ## TasksException class

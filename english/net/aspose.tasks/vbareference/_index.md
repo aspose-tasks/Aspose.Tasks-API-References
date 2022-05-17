@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2480
+weight: 2510
 url: /net/aspose.tasks/vbareference/
 ---
 ## VbaReference class

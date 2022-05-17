@@ -3,7 +3,7 @@ title: PdfPermissions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1820
+weight: 1840
 url: /net/aspose.tasks.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration

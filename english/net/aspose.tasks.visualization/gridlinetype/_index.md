@@ -3,7 +3,7 @@ title: GridlineType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2720
+weight: 2750
 url: /net/aspose.tasks.visualization/gridlinetype/
 ---
 ## GridlineType enumeration

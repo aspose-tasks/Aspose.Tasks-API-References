@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3240
+weight: 3270
 url: /net/aspose.tasks/workingtime/
 ---
 ## WorkingTime class

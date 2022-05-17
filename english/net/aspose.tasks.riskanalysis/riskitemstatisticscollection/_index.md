@@ -3,7 +3,7 @@ title: RiskItemStatisticsCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1620
+weight: 1640
 url: /net/aspose.tasks.riskanalysis/riskitemstatisticscollection/
 ---
 ## RiskItemStatisticsCollection class

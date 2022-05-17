@@ -1,9 +1,9 @@
 ---
-title: AndAllCondition<T>
+title: AndAllConditionT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2290
+weight: 2320
 url: /net/aspose.tasks.util/andallcondition-1/
 ---
 ## AndAllCondition&lt;T&gt; class
@@ -14,9 +14,9 @@ Applies logical AND to all conditions. For example: cond1 AND cond2 AND cond3...
 public class AndAllCondition<T> : ICondition<T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of object to apply method interface to. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply method interface to. |
 
 ## Constructors
 

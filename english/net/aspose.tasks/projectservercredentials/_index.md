@@ -3,7 +3,7 @@ title: ProjectServerCredentials
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1210
+weight: 1230
 url: /net/aspose.tasks/projectservercredentials/
 ---
 ## ProjectServerCredentials class

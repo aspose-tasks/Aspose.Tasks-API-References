@@ -3,7 +3,7 @@ title: PageViewSettings
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2850
+weight: 2880
 url: /net/aspose.tasks.visualization/pageviewsettings/
 ---
 ## PageViewSettings class

@@ -3,7 +3,7 @@ title: Rsc
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1670
+weight: 1690
 url: /net/aspose.tasks/rsc/
 ---
 ## Rsc class

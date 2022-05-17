@@ -14,9 +14,9 @@ Gets the Property associated with the specified key.
 public T this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name of the Property to get. |
+| Parameter | Description |
+| --- | --- |
+| name | The name of the Property to get. |
 
 ## Return Value
 

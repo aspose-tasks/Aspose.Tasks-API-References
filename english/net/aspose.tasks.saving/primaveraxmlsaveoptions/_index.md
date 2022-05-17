@@ -3,7 +3,7 @@ title: PrimaveraXmlSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1860
+weight: 1880
 url: /net/aspose.tasks.saving/primaveraxmlsaveoptions/
 ---
 ## PrimaveraXmlSaveOptions class

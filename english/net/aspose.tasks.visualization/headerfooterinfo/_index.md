@@ -3,7 +3,7 @@ title: HeaderFooterInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2770
 url: /net/aspose.tasks.visualization/headerfooterinfo/
 ---
 ## HeaderFooterInfo class

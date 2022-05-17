@@ -3,7 +3,7 @@ title: TaskBaseline
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2050
+weight: 2070
 url: /net/aspose.tasks/taskbaseline/
 ---
 ## TaskBaseline class

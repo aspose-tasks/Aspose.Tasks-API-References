@@ -1,9 +1,9 @@
 ---
-title: ITreeAlgorithm<T>
+title: ITreeAlgorithmT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2350
+weight: 2380
 url: /net/aspose.tasks.util/itreealgorithm-1/
 ---
 ## ITreeAlgorithm&lt;T&gt; interface
@@ -14,9 +14,9 @@ Represents an algorithm that can be applied to a tree of objects *T*.
 public interface ITreeAlgorithm<in T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of object to apply method interface to. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply method interface to. |
 
 ## Methods
 

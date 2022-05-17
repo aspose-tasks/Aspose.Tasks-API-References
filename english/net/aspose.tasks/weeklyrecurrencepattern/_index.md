@@ -3,7 +3,7 @@ title: WeeklyRecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3160
+weight: 3190
 url: /net/aspose.tasks/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern class

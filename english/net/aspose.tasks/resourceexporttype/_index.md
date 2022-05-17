@@ -3,7 +3,7 @@ title: ResourceExportType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1500
+weight: 1520
 url: /net/aspose.tasks/resourceexporttype/
 ---
 ## ResourceExportType enumeration

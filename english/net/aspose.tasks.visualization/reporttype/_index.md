@@ -3,7 +3,7 @@ title: ReportType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2920
+weight: 2950
 url: /net/aspose.tasks.visualization/reporttype/
 ---
 ## ReportType enumeration

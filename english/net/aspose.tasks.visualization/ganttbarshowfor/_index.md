@@ -3,7 +3,7 @@ title: GanttBarShowFor
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 2700
 url: /net/aspose.tasks.visualization/ganttbarshowfor/
 ---
 ## GanttBarShowFor enumeration

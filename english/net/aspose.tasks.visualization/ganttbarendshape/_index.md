@@ -3,7 +3,7 @@ title: GanttBarEndShape
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2640
+weight: 2670
 url: /net/aspose.tasks.visualization/ganttbarendshape/
 ---
 ## GanttBarEndShape enumeration

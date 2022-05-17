@@ -3,7 +3,7 @@ title: DateTimeConverter
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2600
+weight: 2630
 url: /net/aspose.tasks.visualization/datetimeconverter/
 ---
 ## DateTimeConverter delegate

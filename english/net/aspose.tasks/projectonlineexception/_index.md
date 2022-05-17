@@ -3,7 +3,7 @@ title: ProjectOnlineException
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1200
+weight: 1220
 url: /net/aspose.tasks/projectonlineexception/
 ---
 ## ProjectOnlineException class

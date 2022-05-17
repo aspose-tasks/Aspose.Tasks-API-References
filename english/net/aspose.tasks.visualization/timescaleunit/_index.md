@@ -3,7 +3,7 @@ title: TimescaleUnit
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3040
+weight: 3070
 url: /net/aspose.tasks.visualization/timescaleunit/
 ---
 ## TimescaleUnit enumeration

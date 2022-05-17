@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1810
+weight: 1830
 url: /net/aspose.tasks.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class

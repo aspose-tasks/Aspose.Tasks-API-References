@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.tasks/project/project/
 ---
-## Project constructor (1 of 15)
+## Project constructor (1 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class.
 
@@ -22,7 +22,7 @@ public Project()
 
 ---
 
-## Project constructor (2 of 15)
+## Project constructor (2 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a password protected template (existent mpp or mpt file).
 
@@ -47,7 +47,7 @@ Reading password protected files currently supported for MSP 2003 file format on
 
 ---
 
-## Project constructor (3 of 15)
+## Project constructor (3 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
 
@@ -67,54 +67,29 @@ public Project(string projectTemplate)
 
 ---
 
-## Project constructor (4 of 15)
+## Project constructor (4 of 13)
 
-Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions) class.
+Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
 
 ```csharp
-public Project(Stream stream, PrimaveraXmlReadingOptions options)
+public Project(Stream stream, PrimaveraReadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | Stream of the Project Streamclass |
-| options | PrimaveraXmlReadingOptions | the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions)class |
+| options | PrimaveraReadOptions | the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions)class which allows to customize reading of Primavera formats (XER or XML). |
 
 ### See Also
 
-* class [PrimaveraXmlReadingOptions](../../primaveraxmlreadingoptions)
+* class [PrimaveraReadOptions](../../primaverareadoptions)
 * class [Project](../../project)
 * namespace [Aspose.Tasks](../../project)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Project constructor (5 of 15)
-
-Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions) class.
-
-```csharp
-public Project(Stream stream, ParseErrorCallback parseErrorHandler, 
-    PrimaveraXmlReadingOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Stream of the Project Streamclass |
-| parseErrorHandler | ParseErrorCallback | the specified callback method to handle xml parse errors |
-| options | PrimaveraXmlReadingOptions | the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions)class |
-
-### See Also
-
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [PrimaveraXmlReadingOptions](../../primaveraxmlreadingoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
-* assembly [Aspose.Tasks](../../../)
-
----
-
-## Project constructor (6 of 15)
+## Project constructor (5 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
 
@@ -136,7 +111,7 @@ public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 
 ---
 
-## Project constructor (7 of 15)
+## Project constructor (6 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a stream.
 
@@ -156,7 +131,7 @@ public Project(Stream stream)
 
 ---
 
-## Project constructor (8 of 15)
+## Project constructor (7 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a StreamReader instance.
 
@@ -176,54 +151,29 @@ public Project(StreamReader reader)
 
 ---
 
-## Project constructor (9 of 15)
+## Project constructor (8 of 13)
 
-Initializes a new instance of the [`Project`](../../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions) class.
+Initializes a new instance of the [`Project`](../../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
 
 ```csharp
-public Project(string projectTemplate, PrimaveraXmlReadingOptions options)
+public Project(string projectTemplate, PrimaveraReadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | projectTemplate | String | Path to template to create project from |
-| options | PrimaveraXmlReadingOptions | the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions) class. |
+| options | PrimaveraReadOptions | the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class. |
 
 ### See Also
 
-* class [PrimaveraXmlReadingOptions](../../primaveraxmlreadingoptions)
+* class [PrimaveraReadOptions](../../primaverareadoptions)
 * class [Project](../../project)
 * namespace [Aspose.Tasks](../../project)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Project constructor (10 of 15)
-
-Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file) with the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions) class.
-
-```csharp
-public Project(string projectTemplate, ParseErrorCallback parseErrorHandler, 
-    PrimaveraXmlReadingOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| projectTemplate | String | Path to template to create project from |
-| parseErrorHandler | ParseErrorCallback | the specified callback method to handle xml parse errors |
-| options | PrimaveraXmlReadingOptions | the specified instance of the [`PrimaveraXmlReadingOptions`](../../primaveraxmlreadingoptions) class. |
-
-### See Also
-
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [PrimaveraXmlReadingOptions](../../primaveraxmlreadingoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
-* assembly [Aspose.Tasks](../../../)
-
----
-
-## Project constructor (11 of 15)
+## Project constructor (9 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class to read data from a database which is specified by the instance of the [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) class.
 
@@ -244,7 +194,7 @@ public Project(DbSettings settings)
 
 ---
 
-## Project constructor (12 of 15)
+## Project constructor (10 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a template(existent mpp or mpt file).
 
@@ -266,7 +216,7 @@ public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 
 ---
 
-## Project constructor (13 of 15)
+## Project constructor (11 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a template(existent mpp or mpt file).
 
@@ -291,7 +241,7 @@ Reading password protected files currently supported for MSP 2003 file format on
 
 ---
 
-## Project constructor (14 of 15)
+## Project constructor (12 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../../loadoptions) class.
 
@@ -313,7 +263,7 @@ public Project(string projectTemplate, LoadOptions options)
 
 ---
 
-## Project constructor (15 of 15)
+## Project constructor (13 of 13)
 
 Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`LoadOptions`](../../loadoptions) class.
 

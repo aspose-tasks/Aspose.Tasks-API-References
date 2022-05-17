@@ -14,11 +14,11 @@ Filter list elements by specified condition.
 public static IList<T> Filter<T>(IList<T> list, ICondition<T> cond)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T | IList`1 | The type of object to apply filter to. |
-| list | IList`1 | A list to process. |
-| cond | ICondition`1 | Condition used to filter the specified list. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply filter to. |
+| list | A list to process. |
+| cond | Condition used to filter the specified list. |
 
 ## Return Value
 

@@ -3,7 +3,7 @@ title: RecurringTaskInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1440
+weight: 1460
 url: /net/aspose.tasks/recurringtaskinfo/
 ---
 ## RecurringTaskInfo class

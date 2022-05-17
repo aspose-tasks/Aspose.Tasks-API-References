@@ -3,7 +3,7 @@ title: GanttBarFillPattern
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2650
+weight: 2680
 url: /net/aspose.tasks.visualization/ganttbarfillpattern/
 ---
 ## GanttBarFillPattern enumeration

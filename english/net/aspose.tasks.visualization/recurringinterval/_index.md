@@ -3,7 +3,7 @@ title: RecurringInterval
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2900
+weight: 2930
 url: /net/aspose.tasks.visualization/recurringinterval/
 ---
 ## RecurringInterval class

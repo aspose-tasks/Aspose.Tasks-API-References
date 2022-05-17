@@ -3,7 +3,7 @@ title: PrintOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1870
+weight: 1890
 url: /net/aspose.tasks.saving/printoptions/
 ---
 ## PrintOptions class

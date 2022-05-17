@@ -1,9 +1,9 @@
 ---
-title: ReadOnlyCollectionBase<T>
+title: ReadOnlyCollectionBaseT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1390
+weight: 1410
 url: /net/aspose.tasks/readonlycollectionbase-1/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt; class
@@ -14,9 +14,9 @@ Represents a read-only collection of objects.
 public abstract class ReadOnlyCollectionBase<T> : IList<T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | Type of collection items. |
+| Parameter | Description |
+| --- | --- |
+| T | Type of collection items. |
 
 ## Properties
 

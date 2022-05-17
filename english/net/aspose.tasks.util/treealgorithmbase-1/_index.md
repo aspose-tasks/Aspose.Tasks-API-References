@@ -1,9 +1,9 @@
 ---
-title: TreeAlgorithmBase<T>
+title: TreeAlgorithmBaseT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2430
 url: /net/aspose.tasks.util/treealgorithmbase-1/
 ---
 ## TreeAlgorithmBase&lt;T&gt; class
@@ -14,9 +14,9 @@ A base class for implementations of [`ITreeAlgorithm`](../itreealgorithm-1)
 public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of the elements. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of the elements. |
 
 ## Methods
 

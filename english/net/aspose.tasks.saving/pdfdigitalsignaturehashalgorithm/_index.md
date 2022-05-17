@@ -3,7 +3,7 @@ title: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1790
+weight: 1810
 url: /net/aspose.tasks.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration

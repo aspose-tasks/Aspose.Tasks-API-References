@@ -14,9 +14,9 @@ Gets the instance of the [`RiskPattern`](../../riskpattern) class for the specif
 public RiskPattern this[Task task] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| task |  | the specified task. |
+| Parameter | Description |
+| --- | --- |
+| task | the specified task. |
 
 ## Return Value
 

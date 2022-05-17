@@ -3,7 +3,7 @@ title: TaskValidationException
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2170
+weight: 2190
 url: /net/aspose.tasks/taskvalidationexception/
 ---
 ## TaskValidationException class

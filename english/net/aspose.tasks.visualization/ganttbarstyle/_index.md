@@ -3,7 +3,7 @@ title: GanttBarStyle
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2680
+weight: 2710
 url: /net/aspose.tasks.visualization/ganttbarstyle/
 ---
 ## GanttBarStyle class

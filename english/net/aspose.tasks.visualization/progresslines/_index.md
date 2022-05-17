@@ -3,7 +3,7 @@ title: ProgressLines
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2880
+weight: 2910
 url: /net/aspose.tasks.visualization/progresslines/
 ---
 ## ProgressLines class

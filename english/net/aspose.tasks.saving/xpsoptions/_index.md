@@ -3,7 +3,7 @@ title: XpsOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1960
+weight: 1980
 url: /net/aspose.tasks.saving/xpsoptions/
 ---
 ## XpsOptions class

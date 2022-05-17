@@ -3,7 +3,7 @@ title: CustomPropertyType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1300
 url: /net/aspose.tasks.properties/custompropertytype/
 ---
 ## CustomPropertyType enumeration

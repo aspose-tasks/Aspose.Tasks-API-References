@@ -3,7 +3,7 @@ title: PageSize
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2840
+weight: 2870
 url: /net/aspose.tasks.visualization/pagesize/
 ---
 ## PageSize enumeration

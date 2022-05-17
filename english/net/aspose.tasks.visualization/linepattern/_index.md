@@ -3,7 +3,7 @@ title: LinePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2790
+weight: 2820
 url: /net/aspose.tasks.visualization/linepattern/
 ---
 ## LinePattern enumeration

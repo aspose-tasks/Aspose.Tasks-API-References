@@ -3,7 +3,7 @@ title: RecurrenceRangeBase
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1430
+weight: 1450
 url: /net/aspose.tasks/recurrencerangebase/
 ---
 ## RecurrenceRangeBase class

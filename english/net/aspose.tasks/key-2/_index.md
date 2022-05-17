@@ -1,5 +1,5 @@
 ---
-title: Key<T,K>
+title: KeyTK
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
@@ -15,10 +15,10 @@ public struct Key<T, K>
     where K : struct
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of property value. |
-| K |  | The type of property key. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of property value. |
+| K | The type of property key. |
 
 ### See Also
 

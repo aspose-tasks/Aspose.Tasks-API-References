@@ -3,7 +3,7 @@ title: ProjectServerManager
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1220
+weight: 1240
 url: /net/aspose.tasks/projectservermanager/
 ---
 ## ProjectServerManager class

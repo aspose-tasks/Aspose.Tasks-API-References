@@ -3,7 +3,7 @@ title: ProjectUid
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.tasks/primaveraxmlreadingoptions/projectuid/
 ---
 ## PrimaveraXmlReadingOptions.ProjectUid property

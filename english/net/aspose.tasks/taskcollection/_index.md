@@ -3,7 +3,7 @@ title: TaskCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2070
+weight: 2090
 url: /net/aspose.tasks/taskcollection/
 ---
 ## TaskCollection class

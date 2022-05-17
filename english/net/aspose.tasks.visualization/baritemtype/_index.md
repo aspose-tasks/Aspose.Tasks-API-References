@@ -3,7 +3,7 @@ title: BarItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2550
+weight: 2580
 url: /net/aspose.tasks.visualization/baritemtype/
 ---
 ## BarItemType enumeration

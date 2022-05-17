@@ -3,7 +3,7 @@ title: ResourceUsageViewField
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1540
+weight: 1560
 url: /net/aspose.tasks/resourceusageviewfield/
 ---
 ## ResourceUsageViewField enumeration

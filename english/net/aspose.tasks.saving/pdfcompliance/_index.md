@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1770
+weight: 1790
 url: /net/aspose.tasks.saving/pdfcompliance/
 ---
 ## PdfCompliance enumeration

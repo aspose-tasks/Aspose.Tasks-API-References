@@ -3,7 +3,7 @@ title: FillPattern
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2610
+weight: 2640
 url: /net/aspose.tasks.visualization/fillpattern/
 ---
 ## FillPattern enumeration

@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2950
+weight: 2980
 url: /net/aspose.tasks.visualization/shape/
 ---
 ## Shape enumeration

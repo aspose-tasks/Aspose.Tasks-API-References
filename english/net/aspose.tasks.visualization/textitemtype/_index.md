@@ -3,7 +3,7 @@ title: TextItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3000
+weight: 3030
 url: /net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration

@@ -3,7 +3,7 @@ title: RecalculationValidationException
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1400
+weight: 1420
 url: /net/aspose.tasks/recalculationvalidationexception/
 ---
 ## RecalculationValidationException class

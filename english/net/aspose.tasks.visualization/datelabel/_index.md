@@ -3,7 +3,7 @@ title: DateLabel
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2590
+weight: 2620
 url: /net/aspose.tasks.visualization/datelabel/
 ---
 ## DateLabel enumeration

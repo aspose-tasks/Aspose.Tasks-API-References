@@ -3,7 +3,7 @@ title: TaskBarTextConverter
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2970
+weight: 3000
 url: /net/aspose.tasks.visualization/taskbartextconverter/
 ---
 ## TaskBarTextConverter delegate

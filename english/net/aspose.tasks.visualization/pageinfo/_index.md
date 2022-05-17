@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2800
+weight: 2830
 url: /net/aspose.tasks.visualization/pageinfo/
 ---
 ## PageInfo class

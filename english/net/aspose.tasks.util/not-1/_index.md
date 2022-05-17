@@ -1,9 +1,9 @@
 ---
-title: Not<T>
+title: NotT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2370
+weight: 2400
 url: /net/aspose.tasks.util/not-1/
 ---
 ## Not&lt;T&gt; class
@@ -14,9 +14,9 @@ Applies logical NOT to the specified condition.
 public class Not<T> : ICondition<T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of object to apply method interface to. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply method interface to. |
 
 ## Constructors
 

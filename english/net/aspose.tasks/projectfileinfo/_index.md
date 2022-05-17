@@ -3,7 +3,7 @@ title: ProjectFileInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1180
+weight: 1200
 url: /net/aspose.tasks/projectfileinfo/
 ---
 ## ProjectFileInfo class

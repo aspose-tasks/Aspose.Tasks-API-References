@@ -14,10 +14,10 @@ Returns the value to which the property is mapped in this container.
 public T Get<T>(Key<T, TaskKey> key)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T | Key`2 | the type of the mapped value. |
-| key | Key`2 | the specified property key. [`Tsk`](../../tsk) for getting the property key. |
+| Parameter | Description |
+| --- | --- |
+| T | the type of the mapped value. |
+| key | the specified property key. [`Tsk`](../../tsk) for getting the property key. |
 
 ## Return Value
 

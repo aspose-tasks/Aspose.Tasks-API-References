@@ -3,7 +3,7 @@ title: Rate
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 1350
 url: /net/aspose.tasks/rate/
 ---
 ## Rate class

@@ -3,7 +3,7 @@ title: RscKey
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1680
+weight: 1700
 url: /net/aspose.tasks/rsckey/
 ---
 ## RscKey enumeration

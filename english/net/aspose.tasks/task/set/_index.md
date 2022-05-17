@@ -14,11 +14,11 @@ Maps the specified property to the specified value in this container.
 public void Set<T>(Key<T, TaskKey> key, T val)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T | Key`2 | the type of the mapped value. |
-| key | Key`2 | the specified property key. [`Tsk`](../../tsk) for getting the property key. |
-| val | T | the value. |
+| Parameter | Description |
+| --- | --- |
+| T | the type of the mapped value. |
+| key | the specified property key. [`Tsk`](../../tsk) for getting the property key. |
+| val | the value. |
 
 ### See Also
 

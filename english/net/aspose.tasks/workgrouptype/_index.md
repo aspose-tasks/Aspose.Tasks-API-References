@@ -3,7 +3,7 @@ title: WorkGroupType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3200
+weight: 3230
 url: /net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration

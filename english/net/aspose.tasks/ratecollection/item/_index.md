@@ -14,9 +14,9 @@ Returns or sets the element at the specified index.
 public RateByDateCollection this[RateType key] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key |  | The zero-based index of the element to get or set. |
+| Parameter | Description |
+| --- | --- |
+| key | The zero-based index of the element to get or set. |
 
 ## Return Value
 

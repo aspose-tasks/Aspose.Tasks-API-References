@@ -3,7 +3,7 @@ title: BarStyle
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2570
+weight: 2600
 url: /net/aspose.tasks.visualization/barstyle/
 ---
 ## BarStyle class

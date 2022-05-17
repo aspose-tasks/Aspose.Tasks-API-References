@@ -1,9 +1,9 @@
 ---
-title: GenericProperty<TKey>
+title: GenericPropertyTKey
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1290
+weight: 1310
 url: /net/aspose.tasks.properties/genericproperty-1/
 ---
 ## GenericProperty&lt;TKey&gt; structure
@@ -15,9 +15,9 @@ public struct GenericProperty<TKey>
     where TKey : struct
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| TKey |  | The type of property value. |
+| Parameter | Description |
+| --- | --- |
+| TKey | The type of property value. |
 
 ## Constructors
 

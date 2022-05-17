@@ -3,7 +3,7 @@ title: XlsxOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1950
+weight: 1970
 url: /net/aspose.tasks.saving/xlsxoptions/
 ---
 ## XlsxOptions class

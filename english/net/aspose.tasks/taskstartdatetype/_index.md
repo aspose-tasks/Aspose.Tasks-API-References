@@ -3,7 +3,7 @@ title: TaskStartDateType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2120
+weight: 2140
 url: /net/aspose.tasks/taskstartdatetype/
 ---
 ## TaskStartDateType enumeration

@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1840
+weight: 1860
 url: /net/aspose.tasks.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration

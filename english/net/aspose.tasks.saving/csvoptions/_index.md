@@ -3,7 +3,7 @@ title: CsvOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1690
+weight: 1710
 url: /net/aspose.tasks.saving/csvoptions/
 ---
 ## CsvOptions class

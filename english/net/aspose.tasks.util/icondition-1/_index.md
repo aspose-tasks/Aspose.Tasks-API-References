@@ -1,9 +1,9 @@
 ---
-title: ICondition<T>
+title: IConditionT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2340
+weight: 2370
 url: /net/aspose.tasks.util/icondition-1/
 ---
 ## ICondition&lt;T&gt; interface
@@ -14,9 +14,9 @@ Represents a condition which can be used by filters or search methods.
 public interface ICondition<in T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of object to apply method interface to. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply method interface to. |
 
 ## Methods
 

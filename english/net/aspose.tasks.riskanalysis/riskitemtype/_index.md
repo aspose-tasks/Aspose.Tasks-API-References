@@ -3,7 +3,7 @@ title: RiskItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1630
+weight: 1650
 url: /net/aspose.tasks.riskanalysis/riskitemtype/
 ---
 ## RiskItemType enumeration

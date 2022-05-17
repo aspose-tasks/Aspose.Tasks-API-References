@@ -3,7 +3,7 @@ title: PrinterPaperSize
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2870
+weight: 2900
 url: /net/aspose.tasks.visualization/printerpapersize/
 ---
 ## PrinterPaperSize enumeration

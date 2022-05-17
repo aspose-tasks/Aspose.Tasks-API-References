@@ -3,7 +3,7 @@ title: ViewScreen
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2520
+weight: 2550
 url: /net/aspose.tasks/viewscreen/
 ---
 ## ViewScreen enumeration

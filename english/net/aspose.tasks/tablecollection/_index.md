@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2010
+weight: 2030
 url: /net/aspose.tasks/tablecollection/
 ---
 ## TableCollection class

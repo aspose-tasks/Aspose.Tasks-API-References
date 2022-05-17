@@ -3,7 +3,7 @@ title: TasksLoggedException
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2190
+weight: 2210
 url: /net/aspose.tasks/tasksloggedexception/
 ---
 ## TasksLoggedException class

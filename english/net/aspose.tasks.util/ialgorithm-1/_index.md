@@ -1,9 +1,9 @@
 ---
-title: IAlgorithm<T>
+title: IAlgorithmT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2330
+weight: 2360
 url: /net/aspose.tasks.util/ialgorithm-1/
 ---
 ## IAlgorithm&lt;T&gt; interface
@@ -14,9 +14,9 @@ Represents an algorithm that can be applied to a list of objects *T*.
 public interface IAlgorithm<in T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of object to apply method interface to. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply method interface to. |
 
 ## Methods
 

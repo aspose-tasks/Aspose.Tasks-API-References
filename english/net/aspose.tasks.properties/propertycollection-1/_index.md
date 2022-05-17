@@ -1,9 +1,9 @@
 ---
-title: PropertyCollection<T>
+title: PropertyCollectionT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1310
+weight: 1330
 url: /net/aspose.tasks.properties/propertycollection-1/
 ---
 ## PropertyCollection&lt;T&gt; class
@@ -14,9 +14,9 @@ A base class of collection of properties.
 public abstract class PropertyCollection<T> : IEnumerable<T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of property. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of property. |
 
 ### See Also
 

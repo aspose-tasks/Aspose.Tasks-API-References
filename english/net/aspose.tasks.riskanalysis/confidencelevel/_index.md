@@ -3,7 +3,7 @@ title: ConfidenceLevel
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1560
+weight: 1580
 url: /net/aspose.tasks.riskanalysis/confidencelevel/
 ---
 ## ConfidenceLevel enumeration

@@ -14,9 +14,9 @@ Retrieves a task's split part at the given index.
 public SplitPart this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The part index. |
+| Parameter | Description |
+| --- | --- |
+| index | The part index. |
 
 ## Return Value
 

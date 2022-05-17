@@ -3,7 +3,7 @@ title: WBSCodeDefinition
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3070
+weight: 3100
 url: /net/aspose.tasks/wbscodedefinition/
 ---
 ## WBSCodeDefinition class

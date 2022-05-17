@@ -3,7 +3,7 @@ title: Gridline
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2710
+weight: 2740
 url: /net/aspose.tasks.visualization/gridline/
 ---
 ## Gridline class

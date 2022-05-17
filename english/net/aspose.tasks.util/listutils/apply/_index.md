@@ -14,12 +14,12 @@ Apply algorithm for each list element starting from specified position.
 public static void Apply<T>(IList<T> list, IAlgorithm<T> algorithm, int startIndex)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T | IList`1 | The type of object to apply algorithm to. |
-| list | IList`1 | List to process. |
-| algorithm | IAlgorithm`1 | Applied algorithm. |
-| startIndex | Int32 | Start element position. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply algorithm to. |
+| list | List to process. |
+| algorithm | Applied algorithm. |
+| startIndex | Start element position. |
 
 ### See Also
 

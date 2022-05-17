@@ -3,7 +3,7 @@ title: TiffCompression
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1930
+weight: 1950
 url: /net/aspose.tasks.saving/tiffcompression/
 ---
 ## TiffCompression enumeration

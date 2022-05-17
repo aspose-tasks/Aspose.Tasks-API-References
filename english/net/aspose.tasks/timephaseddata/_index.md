@@ -3,7 +3,7 @@ title: TimephasedData
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2240
+weight: 2260
 url: /net/aspose.tasks/timephaseddata/
 ---
 ## TimephasedData class

@@ -3,7 +3,7 @@ title: CheckCircuit
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2310
+weight: 2340
 url: /net/aspose.tasks.util/checkcircuit/
 ---
 ## CheckCircuit class

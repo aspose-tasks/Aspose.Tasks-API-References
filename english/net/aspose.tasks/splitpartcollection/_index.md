@@ -3,7 +3,7 @@ title: SplitPartCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1980
+weight: 2000
 url: /net/aspose.tasks/splitpartcollection/
 ---
 ## SplitPartCollection class

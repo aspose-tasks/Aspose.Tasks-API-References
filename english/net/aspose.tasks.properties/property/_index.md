@@ -3,7 +3,7 @@ title: Property
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 1320
 url: /net/aspose.tasks.properties/property/
 ---
 ## Property class

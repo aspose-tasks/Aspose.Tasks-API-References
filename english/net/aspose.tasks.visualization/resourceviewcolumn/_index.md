@@ -3,7 +3,7 @@ title: ResourceViewColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2940
+weight: 2970
 url: /net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 ## ResourceViewColumn class

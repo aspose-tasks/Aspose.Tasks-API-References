@@ -3,7 +3,7 @@ title: TasksReadingException
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2200
+weight: 2220
 url: /net/aspose.tasks/tasksreadingexception/
 ---
 ## TasksReadingException class

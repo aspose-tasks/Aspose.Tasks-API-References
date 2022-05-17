@@ -3,7 +3,7 @@ title: SvgOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1920
+weight: 1940
 url: /net/aspose.tasks.saving/svgoptions/
 ---
 ## SvgOptions class

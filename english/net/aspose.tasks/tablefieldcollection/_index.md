@@ -3,7 +3,7 @@ title: TableFieldCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2030
+weight: 2050
 url: /net/aspose.tasks/tablefieldcollection/
 ---
 ## TableFieldCollection class

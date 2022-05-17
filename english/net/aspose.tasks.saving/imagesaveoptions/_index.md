@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1740
+weight: 1760
 url: /net/aspose.tasks.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class

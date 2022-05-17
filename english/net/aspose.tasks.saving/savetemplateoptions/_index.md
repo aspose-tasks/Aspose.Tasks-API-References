@@ -3,7 +3,7 @@ title: SaveTemplateOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1900
+weight: 1920
 url: /net/aspose.tasks.saving/savetemplateoptions/
 ---
 ## SaveTemplateOptions class

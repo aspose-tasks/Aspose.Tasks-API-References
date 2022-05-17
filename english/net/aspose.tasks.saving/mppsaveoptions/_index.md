@@ -3,7 +3,7 @@ title: MPPSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1750
+weight: 1770
 url: /net/aspose.tasks.saving/mppsaveoptions/
 ---
 ## MPPSaveOptions class

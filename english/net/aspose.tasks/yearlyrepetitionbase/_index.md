@@ -3,7 +3,7 @@ title: YearlyRepetitionBase
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3280
+weight: 3310
 url: /net/aspose.tasks/yearlyrepetitionbase/
 ---
 ## YearlyRepetitionBase class

@@ -3,7 +3,7 @@ title: WeekDay
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3120
+weight: 3150
 url: /net/aspose.tasks/weekday/
 ---
 ## WeekDay class

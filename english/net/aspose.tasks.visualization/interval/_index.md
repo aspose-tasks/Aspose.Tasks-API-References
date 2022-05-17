@@ -3,7 +3,7 @@ title: Interval
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2800
 url: /net/aspose.tasks.visualization/interval/
 ---
 ## Interval enumeration

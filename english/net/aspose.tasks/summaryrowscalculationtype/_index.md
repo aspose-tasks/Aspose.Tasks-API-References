@@ -3,7 +3,7 @@ title: SummaryRowsCalculationType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1990
+weight: 2010
 url: /net/aspose.tasks/summaryrowscalculationtype/
 ---
 ## SummaryRowsCalculationType enumeration

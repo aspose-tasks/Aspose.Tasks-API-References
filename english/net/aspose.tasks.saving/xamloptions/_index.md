@@ -3,7 +3,7 @@ title: XamlOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1940
+weight: 1960
 url: /net/aspose.tasks.saving/xamloptions/
 ---
 ## XamlOptions class

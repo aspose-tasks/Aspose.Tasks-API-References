@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1720
+weight: 1740
 url: /net/aspose.tasks.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

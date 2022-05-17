@@ -3,7 +3,7 @@ title: WebRequestEventArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3110
+weight: 3140
 url: /net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class

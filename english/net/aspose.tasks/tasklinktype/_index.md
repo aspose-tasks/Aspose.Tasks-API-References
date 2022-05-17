@@ -3,7 +3,7 @@ title: TaskLinkType
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2110
+weight: 2130
 url: /net/aspose.tasks/tasklinktype/
 ---
 ## TaskLinkType enumeration

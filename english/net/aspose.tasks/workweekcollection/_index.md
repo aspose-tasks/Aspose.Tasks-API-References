@@ -3,7 +3,7 @@ title: WorkWeekCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3230
+weight: 3260
 url: /net/aspose.tasks/workweekcollection/
 ---
 ## WorkWeekCollection class

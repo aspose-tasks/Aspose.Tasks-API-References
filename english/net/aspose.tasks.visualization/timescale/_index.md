@@ -3,7 +3,7 @@ title: Timescale
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3020
+weight: 3050
 url: /net/aspose.tasks.visualization/timescale/
 ---
 ## Timescale enumeration

@@ -14,11 +14,11 @@ Find first occurrence of an list element which satisfy specified condition.
 public static T Find<T>(IList<T> list, ICondition<T> cond)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T | IList`1 | The type of object to find. |
-| list | IList`1 | A list to process. |
-| cond | ICondition`1 | Condition used to find an element in the specified list. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to find. |
+| list | A list to process. |
+| cond | Condition used to find an element in the specified list. |
 
 ## Return Value
 

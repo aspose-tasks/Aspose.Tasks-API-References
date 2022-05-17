@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1730
+weight: 1750
 url: /net/aspose.tasks.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

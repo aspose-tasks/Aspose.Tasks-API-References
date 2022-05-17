@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3270
+weight: 3300
 url: /net/aspose.tasks/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern class

@@ -1,9 +1,9 @@
 ---
-title: And<T>
+title: AndT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2300
+weight: 2330
 url: /net/aspose.tasks.util/and-1/
 ---
 ## And&lt;T&gt; class
@@ -14,9 +14,9 @@ Applies logical AND to the specified conditions.
 public class And<T> : ICondition<T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of object to apply method interface to. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to apply method interface to. |
 
 ## Constructors
 

@@ -3,7 +3,7 @@ title: TaskTextStyleEventArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2980
+weight: 3010
 url: /net/aspose.tasks.visualization/tasktextstyleeventargs/
 ---
 ## TaskTextStyleEventArgs class

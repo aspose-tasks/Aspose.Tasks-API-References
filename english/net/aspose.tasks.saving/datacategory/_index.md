@@ -3,7 +3,7 @@ title: DataCategory
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1710
+weight: 1730
 url: /net/aspose.tasks.saving/datacategory/
 ---
 ## DataCategory enumeration

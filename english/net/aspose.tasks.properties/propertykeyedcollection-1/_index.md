@@ -1,9 +1,9 @@
 ---
-title: PropertyKeyedCollection<T>
+title: PropertyKeyedCollectionT
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1340
 url: /net/aspose.tasks.properties/propertykeyedcollection-1/
 ---
 ## PropertyKeyedCollection&lt;T&gt; class
@@ -15,9 +15,9 @@ public abstract class PropertyKeyedCollection<T> : PropertyCollection<T>, IColle
     where T : Property
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of property. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of property. |
 
 ## Properties
 

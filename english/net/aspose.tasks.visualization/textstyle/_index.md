@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 3010
+weight: 3040
 url: /net/aspose.tasks.visualization/textstyle/
 ---
 ## TextStyle class

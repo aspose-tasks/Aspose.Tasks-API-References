@@ -3,7 +3,7 @@ title: RiskAnalyzer
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1600
+weight: 1620
 url: /net/aspose.tasks.riskanalysis/riskanalyzer/
 ---
 ## RiskAnalyzer class

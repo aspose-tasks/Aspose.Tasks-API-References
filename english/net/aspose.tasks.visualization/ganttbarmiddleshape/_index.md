@@ -3,7 +3,7 @@ title: GanttBarMiddleShape
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 2660
+weight: 2690
 url: /net/aspose.tasks.visualization/ganttbarmiddleshape/
 ---
 ## GanttBarMiddleShape enumeration

@@ -3,7 +3,7 @@ title: PrjKey
 second_title: Aspose.Tasks for .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 1170
 url: /net/aspose.tasks/prjkey/
 ---
 ## PrjKey enumeration
