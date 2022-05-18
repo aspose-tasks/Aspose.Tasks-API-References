@@ -26,9 +26,9 @@ public sealed class FontDescriptor
 
 | Name | Description |
 | --- | --- |
-| [FontFamily](fontfamily) { get; } | Gets the name of the font's family. |
-| [Size](size) { get; } | Gets size of the font. |
-| [Style](style) { get; } | Gets style of the font. |
+| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily) { get; } | Gets the name of the font's family. |
+| [Size](../../aspose.tasks.visualization/fontdescriptor/size) { get; } | Gets size of the font. |
+| [Style](../../aspose.tasks.visualization/fontdescriptor/style) { get; } | Gets style of the font. |
 
 ### See Also
 

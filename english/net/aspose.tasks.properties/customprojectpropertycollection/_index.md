@@ -24,18 +24,23 @@ public sealed class CustomProjectPropertyCollection : PropertyKeyedCollection<Cu
 
 | Name | Description |
 | --- | --- |
-| override [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Count](../../aspose.tasks.properties/propertykeyedcollection`1/count) { get; } |  |
+| override [IsReadOnly](../../aspose.tasks.properties/customprojectpropertycollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks.properties/propertykeyedcollection`1/item) { get; } |  |
+| [Names](../../aspose.tasks.properties/propertykeyedcollection`1/names) { get; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, bool) | Creates a new custom property. |
-| [Add](add)(string, DateTime) | Creates a new custom property. |
-| [Add](add)(string, double) | Creates a new custom property. |
-| [Add](add)(string, string) | Creates a new custom property. |
-| [Clear](clear)() | Clears the PropertyCollection. |
-| [Remove](remove)(string) | Removes a property with the specified name from the collection. |
+| [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(CustomProjectProperty) |  |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add)(string, bool) | Creates a new custom property. |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add)(string, DateTime) | Creates a new custom property. |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add)(string, double) | Creates a new custom property. |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add)(string, string) | Creates a new custom property. |
+| [Clear](../../aspose.tasks.properties/customprojectpropertycollection/clear)() | Clears the PropertyCollection. |
+| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) |  |
+| [Remove](../../aspose.tasks.properties/customprojectpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
 
 ### See Also
 

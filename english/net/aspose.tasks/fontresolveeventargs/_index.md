@@ -18,8 +18,8 @@ public sealed class FontResolveEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [RequestedFontName](requestedfontname) { get; } | Gets the name of requested font. |
-| [ResolvedFontName](resolvedfontname) { get; set; } | Gets or sets the name of resolved font. Can be set to control fonts used to render a view. |
+| [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname) { get; } | Gets the name of requested font. |
+| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname) { get; set; } | Gets or sets the name of resolved font. Can be set to control fonts used to render a view. |
 
 ### See Also
 

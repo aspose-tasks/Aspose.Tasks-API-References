@@ -27,9 +27,13 @@ public class TableTextStyle : TextStyle
 
 | Name | Description |
 | --- | --- |
-| [Field](field) { get; set; } | Gets or sets a field the style is to be applied to. [`Field`](./field). |
-| override [ItemType](itemtype) { get; } | Returns a value of the [`TextItemType`](../textitemtype) enum. |
-| [RowUid](rowuid) { get; } | Gets a row unique id. Return -1 if the style is to be applied to all rows of a view. |
+| [BackgroundColor](../../aspose.tasks.visualization/textstyle/backgroundcolor) { get; set; } | Gets or sets background color of the text style. [`Color`](../textstyle/color). |
+| [BackgroundPattern](../../aspose.tasks.visualization/textstyle/backgroundpattern) { get; set; } | Gets or sets background pattern of the text style. [`BackgroundPattern`](../textstyle/backgroundpattern). |
+| [Color](../../aspose.tasks.visualization/textstyle/color) { get; set; } | Gets or sets color of the text. |
+| [Field](../../aspose.tasks.visualization/tabletextstyle/field) { get; set; } | Gets or sets a field the style is to be applied to. [`Field`](./field). |
+| [Font](../../aspose.tasks.visualization/textstyle/font) { get; set; } | Gets or sets font of the text style. |
+| override [ItemType](../../aspose.tasks.visualization/tabletextstyle/itemtype) { get; } | Returns a value of the [`TextItemType`](../textitemtype) enum. |
+| [RowUid](../../aspose.tasks.visualization/tabletextstyle/rowuid) { get; } | Gets a row unique id. Return -1 if the style is to be applied to all rows of a view. |
 
 ### See Also
 

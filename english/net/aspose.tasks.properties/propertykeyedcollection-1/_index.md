@@ -23,17 +23,17 @@ public abstract class PropertyKeyedCollection<T> : PropertyCollection<T>, IColle
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of properties in the collection. |
-| abstract [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Item](item) { get; } | Gets the Property associated with the specified key. |
-| [Names](names) { get; } | Gets the collection of all property names. |
+| [Count](../../aspose.tasks.properties/propertykeyedcollection`1/count) { get; } | Gets the number of properties in the collection. |
+| abstract [IsReadOnly](../../aspose.tasks.properties/propertykeyedcollection`1/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks.properties/propertykeyedcollection`1/item) { get; } | Gets the Property associated with the specified key. |
+| [Names](../../aspose.tasks.properties/propertykeyedcollection`1/names) { get; } | Gets the collection of all property names. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(T) | Creates a new custom property. |
-| [Contains](contains)(string) | Determines whether the [`PropertyCollection`](../propertycollection-1) contains a property with the specified name. |
+| [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(T) | Creates a new custom property. |
+| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) | Determines whether the [`PropertyCollection`](../propertycollection-1) contains a property with the specified name. |
 
 ### See Also
 

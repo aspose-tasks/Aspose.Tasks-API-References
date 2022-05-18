@@ -24,17 +24,17 @@ public class FilterCriteria
 
 | Name | Description |
 | --- | --- |
-| [CriteriaRows](criteriarows) { get; } | Gets the list of child [`FilterCriteria`](../filtercriteria) rows. If the filter contains more than one criterion row then the effect of an And operator is that the criteria for both rows must be met for the task or resource to be displayed as a result of this filter. The effect of an Or operator is that the criteria for one or the other row must be met. |
-| [Field](field) { get; set; } | Gets or sets a [`Field`](./field) to change. |
-| [Operation](operation) { get; set; } | Gets or sets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
-| [Test](test) { get; set; } | Gets or sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. [`FilterComparisonType`](../filtercomparisontype) |
-| [Values](values) { get; } | Gets the object values to compare with the value of the field specified with FieldName. |
+| [CriteriaRows](../../aspose.tasks/filtercriteria/criteriarows) { get; } | Gets the list of child [`FilterCriteria`](../filtercriteria) rows. If the filter contains more than one criterion row then the effect of an And operator is that the criteria for both rows must be met for the task or resource to be displayed as a result of this filter. The effect of an Or operator is that the criteria for one or the other row must be met. |
+| [Field](../../aspose.tasks/filtercriteria/field) { get; set; } | Gets or sets a [`Field`](./field) to change. |
+| [Operation](../../aspose.tasks/filtercriteria/operation) { get; set; } | Gets or sets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
+| [Test](../../aspose.tasks/filtercriteria/test) { get; set; } | Gets or sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. [`FilterComparisonType`](../filtercomparisontype) |
+| [Values](../../aspose.tasks/filtercriteria/values) { get; } | Gets the object values to compare with the value of the field specified with FieldName. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns string representation of the instance of the [`FilterCriteria`](../filtercriteria) class. |
+| override [ToString](../../aspose.tasks/filtercriteria/tostring)() | Returns string representation of the instance of the [`FilterCriteria`](../filtercriteria) class. |
 
 ### See Also
 

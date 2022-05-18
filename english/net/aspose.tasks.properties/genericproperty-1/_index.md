@@ -29,8 +29,8 @@ public struct GenericProperty<TKey>
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Gets a name of the property. |
-| [Value](value) { get; } | Gets a value of the property. |
+| [Name](../../aspose.tasks.properties/genericproperty`1/name) { get; } | Gets a name of the property. |
+| [Value](../../aspose.tasks.properties/genericproperty`1/value) { get; } | Gets a value of the property. |
 
 ### See Also
 

@@ -18,23 +18,23 @@ public class WeekDayCollection : IList<WeekDay>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this [`WeekDayCollection`](../weekdaycollection) object. |
-| [Item](item) { get; set; } | Gets or sets the item value at specified index. |
+| [Count](../../aspose.tasks/weekdaycollection/count) { get; } | Gets the number of objects contained in this [`WeekDayCollection`](../weekdaycollection) object. |
+| [Item](../../aspose.tasks/weekdaycollection/item) { get; set; } | Gets or sets the item value at specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(WeekDay) | Adds a [`WeekDay`](../weekday) instance to this object. |
-| [Clear](clear)() | Clear the WeekDayCollection object. |
-| [Contains](contains)(WeekDay) | Checks if collection contains [`WeekDay`](../weekday).specified. |
-| [CopyTo](copyto)(WeekDay[], int) | Copies collection content to an array at specified index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(WeekDay) | Returns index of [`WeekDay`](../weekday) specified. |
-| [Insert](insert)(int, WeekDay) | Inserts [`WeekDay`](../weekday) at specified index. |
-| [Remove](remove)(WeekDay) | Removes [`WeekDay`](../weekday) specified, if any. |
-| [RemoveAt](removeat)(int) | Removes an item at specified index. |
-| [ToList](tolist)() | Converts the WeekDayCollection object to a list of [`WeekDay`](../weekday) objects. |
+| [Add](../../aspose.tasks/weekdaycollection/add)(WeekDay) | Adds a [`WeekDay`](../weekday) instance to this object. |
+| [Clear](../../aspose.tasks/weekdaycollection/clear)() | Clear the WeekDayCollection object. |
+| [Contains](../../aspose.tasks/weekdaycollection/contains)(WeekDay) | Checks if collection contains [`WeekDay`](../weekday).specified. |
+| [CopyTo](../../aspose.tasks/weekdaycollection/copyto)(WeekDay[], int) | Copies collection content to an array at specified index. |
+| [GetEnumerator](../../aspose.tasks/weekdaycollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/weekdaycollection/indexof)(WeekDay) | Returns index of [`WeekDay`](../weekday) specified. |
+| [Insert](../../aspose.tasks/weekdaycollection/insert)(int, WeekDay) | Inserts [`WeekDay`](../weekday) at specified index. |
+| [Remove](../../aspose.tasks/weekdaycollection/remove)(WeekDay) | Removes [`WeekDay`](../weekday) specified, if any. |
+| [RemoveAt](../../aspose.tasks/weekdaycollection/removeat)(int) | Removes an item at specified index. |
+| [ToList](../../aspose.tasks/weekdaycollection/tolist)() | Converts the WeekDayCollection object to a list of [`WeekDay`](../weekday) objects. |
 
 ### See Also
 

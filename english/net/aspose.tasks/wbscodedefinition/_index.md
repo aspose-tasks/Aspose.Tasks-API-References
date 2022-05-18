@@ -24,10 +24,10 @@ public class WBSCodeDefinition
 
 | Name | Description |
 | --- | --- |
-| [CodeMaskCollection](codemaskcollection) { get; } | Gets the collection of WBSCodeMask objects. |
-| [CodePrefix](codeprefix) { get; set; } | Gets or sets the project code prefix. |
-| [GenerateWBSCode](generatewbscode) { get; set; } | Gets or sets a value indicating whether to generate WBS code for new task. |
-| [VerifyUniqueness](verifyuniqueness) { get; set; } | Gets or sets a value indicating whether to verify uniqueness of new WBS codes. |
+| [CodeMaskCollection](../../aspose.tasks/wbscodedefinition/codemaskcollection) { get; } | Gets the collection of WBSCodeMask objects. |
+| [CodePrefix](../../aspose.tasks/wbscodedefinition/codeprefix) { get; set; } | Gets or sets the project code prefix. |
+| [GenerateWBSCode](../../aspose.tasks/wbscodedefinition/generatewbscode) { get; set; } | Gets or sets a value indicating whether to generate WBS code for new task. |
+| [VerifyUniqueness](../../aspose.tasks/wbscodedefinition/verifyuniqueness) { get; set; } | Gets or sets a value indicating whether to verify uniqueness of new WBS codes. |
 
 ### See Also
 

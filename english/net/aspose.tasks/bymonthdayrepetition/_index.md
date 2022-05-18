@@ -24,7 +24,8 @@ public class ByMonthDayRepetition : MonthlyRepetitionBase
 
 | Name | Description |
 | --- | --- |
-| [DayPosition](dayposition) { get; set; } | Gets or sets a position of a day in a month on which the task must be recurring. |
+| [DayPosition](../../aspose.tasks/bymonthdayrepetition/dayposition) { get; set; } | Gets or sets a position of a day in a month on which the task must be recurring. |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval) { get; set; } | Gets or sets a number of month which represents the interval in months between occurrences. |
 
 ### See Also
 

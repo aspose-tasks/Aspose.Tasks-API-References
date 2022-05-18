@@ -24,7 +24,8 @@ public class WeeklyRepetition : WeeklyRepetitionBase
 
 | Name | Description |
 | --- | --- |
-| [WeekDays](weekdays) { get; set; } | Gets or sets a type of weekdays. |
+| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | Gets or sets a number of weeks which represents the interval in weeks between occurrences. |
+| [WeekDays](../../aspose.tasks/weeklyrepetition/weekdays) { get; set; } | Gets or sets a type of weekdays. |
 
 ### See Also
 

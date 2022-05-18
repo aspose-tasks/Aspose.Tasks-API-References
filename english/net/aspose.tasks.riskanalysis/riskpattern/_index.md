@@ -24,11 +24,11 @@ public class RiskPattern
 
 | Name | Description |
 | --- | --- |
-| [ConfidenceLevel](confidencelevel) { get; set; } | Gets or sets the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates. The default value is CL99. |
-| [Distribution](distribution) { get; set; } | Gets or sets the probability distribution used in Monte Carlo simulation. The default value is ProbabilityDistributionType.Normal. |
-| [Optimistic](optimistic) { get; set; } | Gets or sets the percentage of the most likely task duration which can happen in the best possible project scenario. The default value is 75, which means that if the estimated specified task duration is 4 days then the optimistic duration will be 3 days. |
-| [Pessimistic](pessimistic) { get; set; } | Gets or sets the percentage of the most likely task duration which can happen in the worst possible project scenario. The default value is 125, which means that if the estimated specified task duration is 4 days then the pessimistic duration will be 5 days. |
-| [Task](task) { get; } | Gets a project task to which this risk pattern is applied. |
+| [ConfidenceLevel](../../aspose.tasks.riskanalysis/riskpattern/confidencelevel) { get; set; } | Gets or sets the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates. The default value is CL99. |
+| [Distribution](../../aspose.tasks.riskanalysis/riskpattern/distribution) { get; set; } | Gets or sets the probability distribution used in Monte Carlo simulation. The default value is ProbabilityDistributionType.Normal. |
+| [Optimistic](../../aspose.tasks.riskanalysis/riskpattern/optimistic) { get; set; } | Gets or sets the percentage of the most likely task duration which can happen in the best possible project scenario. The default value is 75, which means that if the estimated specified task duration is 4 days then the optimistic duration will be 3 days. |
+| [Pessimistic](../../aspose.tasks.riskanalysis/riskpattern/pessimistic) { get; set; } | Gets or sets the percentage of the most likely task duration which can happen in the worst possible project scenario. The default value is 125, which means that if the estimated specified task duration is 4 days then the pessimistic duration will be 5 days. |
+| [Task](../../aspose.tasks.riskanalysis/riskpattern/task) { get; } | Gets a project task to which this risk pattern is applied. |
 
 ### See Also
 

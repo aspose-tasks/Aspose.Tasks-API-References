@@ -24,16 +24,16 @@ public class Gridline
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Gets or sets the [`Color`](./color) of a gridline. |
-| [GridlineType](gridlinetype) { get; set; } | Gets or sets the type of gridline ([`GridlineType`](./gridlinetype)). |
-| [Pattern](pattern) { get; set; } | Gets or sets the [`LinePattern`](../linepattern) of a gridline. |
+| [Color](../../aspose.tasks.visualization/gridline/color) { get; set; } | Gets or sets the [`Color`](./color) of a gridline. |
+| [GridlineType](../../aspose.tasks.visualization/gridline/gridlinetype) { get; set; } | Gets or sets the type of gridline ([`GridlineType`](./gridlinetype)). |
+| [Pattern](../../aspose.tasks.visualization/gridline/pattern) { get; set; } | Gets or sets the [`LinePattern`](../linepattern) of a gridline. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a flag indicating whether this instance is equal to the specified object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`Gridline`](../gridline) class. |
+| override [Equals](../../aspose.tasks.visualization/gridline/equals)(object) | Returns a flag indicating whether this instance is equal to the specified object. |
+| override [GetHashCode](../../aspose.tasks.visualization/gridline/gethashcode)() | Returns a hash code value for the instance of the [`Gridline`](../gridline) class. |
 
 ### See Also
 

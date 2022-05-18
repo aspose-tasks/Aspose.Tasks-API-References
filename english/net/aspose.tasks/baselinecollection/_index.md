@@ -18,18 +18,18 @@ public class BaselineCollection : IList<Baseline>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this BaselineCollection object. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
-| [ParentResource](parentresource) { get; } | Gets the parent [`Resource`](../resource) for this collection. |
+| [Count](../../aspose.tasks/baselinecollection/count) { get; } | Gets the number of objects contained in this BaselineCollection object. |
+| [Item](../../aspose.tasks/baselinecollection/item) { get; set; } | Returns the element at the specified index. |
+| [ParentResource](../../aspose.tasks/baselinecollection/parentresource) { get; } | Gets the parent [`Resource`](../resource) for this collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(Baseline) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(Baseline) | Removes baseline from this collection. |
-| [ToList](tolist)() | Converts the BaselineCollection object to a list of [`Baseline`](../baseline) objects. |
+| [Add](../../aspose.tasks/baselinecollection/add)(Baseline) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
+| [GetEnumerator](../../aspose.tasks/baselinecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/baselinecollection/remove)(Baseline) | Removes baseline from this collection. |
+| [ToList](../../aspose.tasks/baselinecollection/tolist)() | Converts the BaselineCollection object to a list of [`Baseline`](../baseline) objects. |
 
 ### See Also
 

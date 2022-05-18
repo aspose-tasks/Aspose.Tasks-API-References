@@ -22,16 +22,16 @@ public abstract class ReadOnlyCollectionBase<T> : IList<T>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in the object. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
+| [Count](../../aspose.tasks/readonlycollectionbase`1/count) { get; } | Gets the number of objects contained in the object. |
+| [Item](../../aspose.tasks/readonlycollectionbase`1/item) { get; set; } | Returns the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(T) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [ToList](tolist)() | Converts the collection object to a list of [`VbaModule`](../vbamodule) objects. |
+| [Add](../../aspose.tasks/readonlycollectionbase`1/add)(T) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
+| [GetEnumerator](../../aspose.tasks/readonlycollectionbase`1/getenumerator)() | Returns an enumerator for this collection. |
+| [ToList](../../aspose.tasks/readonlycollectionbase`1/tolist)() | Converts the collection object to a list of [`VbaModule`](../vbamodule) objects. |
 
 ### See Also
 

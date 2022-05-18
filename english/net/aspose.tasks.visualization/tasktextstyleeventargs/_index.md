@@ -18,9 +18,9 @@ public class TaskTextStyleEventArgs
 
 | Name | Description |
 | --- | --- |
-| [CellTextStyle](celltextstyle) { get; set; } | Gets or sets TextStyle which will be used to draw the cell's content. This object can be use to customize appearance of a table cell. |
-| [Column](column) { get; } | Gets [`ViewColumn`](../viewcolumn) to which the currently rendered cell belongs. |
-| [Task](task) { get; } | Gets [`Task`](./task) which corresponds to the currently rendered row. |
+| [CellTextStyle](../../aspose.tasks.visualization/tasktextstyleeventargs/celltextstyle) { get; set; } | Gets or sets TextStyle which will be used to draw the cell's content. This object can be use to customize appearance of a table cell. |
+| [Column](../../aspose.tasks.visualization/tasktextstyleeventargs/column) { get; } | Gets [`ViewColumn`](../viewcolumn) to which the currently rendered cell belongs. |
+| [Task](../../aspose.tasks.visualization/tasktextstyleeventargs/task) { get; } | Gets [`Task`](./task) which corresponds to the currently rendered row. |
 
 ### See Also
 

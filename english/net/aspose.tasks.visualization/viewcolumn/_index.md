@@ -18,11 +18,11 @@ public abstract class ViewColumn
 
 | Name | Description |
 | --- | --- |
-| abstract [Field](field) { get; set; } | Gets or sets column field. [`Field`](./field). |
-| [Name](name) { get; } | Gets the column name. |
-| [StringAlignment](stringalignment) { get; set; } | Gets or sets alignment of the text (can be one of the values of the [`StringAlignment`](./stringalignment) enumeration). |
-| [TextStyleModificationCallback](textstylemodificationcallback) { get; set; } | Gets or sets the callback which can be used to customize the appearance of the column's cells. |
-| [Width](width) { get; } | Gets the column width. |
+| abstract [Field](../../aspose.tasks.visualization/viewcolumn/field) { get; set; } | Gets or sets column field. [`Field`](./field). |
+| [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | Gets the column name. |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Gets or sets alignment of the text (can be one of the values of the [`StringAlignment`](./stringalignment) enumeration). |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | Gets or sets the callback which can be used to customize the appearance of the column's cells. |
+| [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | Gets the column width. |
 
 ### See Also
 

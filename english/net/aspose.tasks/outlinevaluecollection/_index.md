@@ -18,23 +18,23 @@ public class OutlineValueCollection : IList<OutlineValue>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
+| [Count](../../aspose.tasks/outlinevaluecollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/outlinevaluecollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only. |
+| [Item](../../aspose.tasks/outlinevaluecollection/item) { get; set; } | Returns or sets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(OutlineValue) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(OutlineValue) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(OutlineValue[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(OutlineValue) | Determines the index of the specified item in this collection. |
-| [Insert](insert)(int, OutlineValue) | Inserts the specified item at the specified index. |
-| [Remove](remove)(OutlineValue) | Removes the first occurrence of a specific object from this collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
+| [Add](../../aspose.tasks/outlinevaluecollection/add)(OutlineValue) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/outlinevaluecollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/outlinevaluecollection/contains)(OutlineValue) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/outlinevaluecollection/copyto)(OutlineValue[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/outlinevaluecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/outlinevaluecollection/indexof)(OutlineValue) | Determines the index of the specified item in this collection. |
+| [Insert](../../aspose.tasks/outlinevaluecollection/insert)(int, OutlineValue) | Inserts the specified item at the specified index. |
+| [Remove](../../aspose.tasks/outlinevaluecollection/remove)(OutlineValue) | Removes the first occurrence of a specific object from this collection. |
+| [RemoveAt](../../aspose.tasks/outlinevaluecollection/removeat)(int) | Removes an item at the specified index. |
 
 ### See Also
 

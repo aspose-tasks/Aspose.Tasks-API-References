@@ -18,38 +18,38 @@ public class Task : IEquatable<Task>
 
 | Name | Description |
 | --- | --- |
-| [Assignments](assignments) { get; } | Gets a collection of resource assignments for this object. |
-| [Baselines](baselines) { get; set; } | Gets or sets the collection of baseline values of the task. |
-| [Children](children) { get; } | Gets a child task collection of this object. TaskCollection object which represents children tasks. |
-| [ExtendedAttributes](extendedattributes) { get; } | Gets ExtendedAttributeCollection object containing the values of an extended attribute. |
-| [OutlineCodes](outlinecodes) { get; set; } | Gets or sets [`OutlineCodeCollection`](../outlinecodecollection) object. |
-| [ParentProject](parentproject) { get; } | Gets the parent project of a task. |
-| [ParentTask](parenttask) { get; } | Gets the parent task of a task. |
-| [Predecessors](predecessors) { get; } | Gets a [`TaskCollection`](../taskcollection) object which contains all predecessors of this Task object. |
-| [RecurringInfo](recurringinfo) { get; } | Gets the instance of [`RecurringTaskInfo`](../recurringtaskinfo) class for the task which is a recurring task; if the task is not a recurring one then returns null; The info for the instance of [`RecurringTaskInfo`](../recurringtaskinfo) is present in mpp file format only. |
-| [SplitParts](splitparts) { get; } | Gets a SplitPart collection that represents the portions of a task. |
-| [Successors](successors) { get; } | Gets a [`TaskCollection`](../taskcollection) object which contains all successors of this Task object. |
-| [TimephasedData](timephaseddata) { get; set; } | Gets or sets a TimephasedDataCollection object of this task. The time phased data block associated with a task. |
+| [Assignments](../../aspose.tasks/task/assignments) { get; } | Gets a collection of resource assignments for this object. |
+| [Baselines](../../aspose.tasks/task/baselines) { get; set; } | Gets or sets the collection of baseline values of the task. |
+| [Children](../../aspose.tasks/task/children) { get; } | Gets a child task collection of this object. TaskCollection object which represents children tasks. |
+| [ExtendedAttributes](../../aspose.tasks/task/extendedattributes) { get; } | Gets ExtendedAttributeCollection object containing the values of an extended attribute. |
+| [OutlineCodes](../../aspose.tasks/task/outlinecodes) { get; set; } | Gets or sets [`OutlineCodeCollection`](../outlinecodecollection) object. |
+| [ParentProject](../../aspose.tasks/task/parentproject) { get; } | Gets the parent project of a task. |
+| [ParentTask](../../aspose.tasks/task/parenttask) { get; } | Gets the parent task of a task. |
+| [Predecessors](../../aspose.tasks/task/predecessors) { get; } | Gets a [`TaskCollection`](../taskcollection) object which contains all predecessors of this Task object. |
+| [RecurringInfo](../../aspose.tasks/task/recurringinfo) { get; } | Gets the instance of [`RecurringTaskInfo`](../recurringtaskinfo) class for the task which is a recurring task; if the task is not a recurring one then returns null; The info for the instance of [`RecurringTaskInfo`](../recurringtaskinfo) is present in mpp file format only. |
+| [SplitParts](../../aspose.tasks/task/splitparts) { get; } | Gets a SplitPart collection that represents the portions of a task. |
+| [Successors](../../aspose.tasks/task/successors) { get; } | Gets a [`TaskCollection`](../taskcollection) object which contains all successors of this Task object. |
+| [TimephasedData](../../aspose.tasks/task/timephaseddata) { get; set; } | Gets or sets a TimephasedDataCollection object of this task. The time phased data block associated with a task. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](clone)() | Creates full copy of a task without subtasks. |
-| [Delete](delete)() | Deletes a task from parent project tasks collection and all its assignments. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](equals)(Task) | Returns a value indicating whether this instance is equal to a specified task. |
-| [Get&lt;T&gt;](get)(Key&lt;T, TaskKey&gt;) | Returns the value to which the property is mapped in this container. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for this Task. |
-| [GetTimephasedData](gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates. |
-| [GetTimephasedData](gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates of specified time-phased data type. |
-| [MoveToSibling](movetosibling)(int) | Moves the current task at the same Outline Level before a task with the specified Id. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
-| [MoveToSibling](movetosibling)(Task) | Moves the current task at the same Outline Level before the specified task. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
-| [OutlineIndent](outlineindent)() | Indents a task in the outline. |
-| [OutlineOutdent](outlineoutdent)() | Promotes a task in the outline. |
-| [SelectAllChildTasks](selectallchildtasks)() | Recursively collects all child tasks of this task. |
-| [Set&lt;T&gt;](set)(Key&lt;T, TaskKey&gt;, T) | Maps the specified property to the specified value in this container. |
-| override [ToString](tostring)() | Returns short string representation of a task. The exact details of the representation are unspecified and subject to change. |
+| [Clone](../../aspose.tasks/task/clone)() | Creates full copy of a task without subtasks. |
+| [Delete](../../aspose.tasks/task/delete)() | Deletes a task from parent project tasks collection and all its assignments. |
+| override [Equals](../../aspose.tasks/task/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/task/equals)(Task) | Returns a value indicating whether this instance is equal to a specified task. |
+| [Get&lt;T&gt;](../../aspose.tasks/task/get)(Key&lt;T, TaskKey&gt;) | Returns the value to which the property is mapped in this container. |
+| override [GetHashCode](../../aspose.tasks/task/gethashcode)() | Returns a hash code value for this Task. |
+| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates. |
+| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates of specified time-phased data type. |
+| [MoveToSibling](../../aspose.tasks/task/movetosibling)(int) | Moves the current task at the same Outline Level before a task with the specified Id. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
+| [MoveToSibling](../../aspose.tasks/task/movetosibling)(Task) | Moves the current task at the same Outline Level before the specified task. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
+| [OutlineIndent](../../aspose.tasks/task/outlineindent)() | Indents a task in the outline. |
+| [OutlineOutdent](../../aspose.tasks/task/outlineoutdent)() | Promotes a task in the outline. |
+| [SelectAllChildTasks](../../aspose.tasks/task/selectallchildtasks)() | Recursively collects all child tasks of this task. |
+| [Set&lt;T&gt;](../../aspose.tasks/task/set)(Key&lt;T, TaskKey&gt;, T) | Maps the specified property to the specified value in this container. |
+| override [ToString](../../aspose.tasks/task/tostring)() | Returns short string representation of a task. The exact details of the representation are unspecified and subject to change. |
 
 ### Remarks
 

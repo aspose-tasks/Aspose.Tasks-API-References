@@ -18,21 +18,21 @@ public class RateCollection : IDictionary<RateType, RateByDateCollection>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the RateCollection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read only. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
-| [ParentResource](parentresource) { get; } | Gets the parent [`Resource`](../resource) object for this collection. |
+| [Count](../../aspose.tasks/ratecollection/count) { get; } | Gets the number of elements contained in the RateCollection. |
+| [IsReadOnly](../../aspose.tasks/ratecollection/isreadonly) { get; } | Gets a value indicating whether this collection is read only. |
+| [Item](../../aspose.tasks/ratecollection/item) { get; set; } | Returns or sets the element at the specified index. |
+| [ParentResource](../../aspose.tasks/ratecollection/parentresource) { get; } | Gets the parent [`Resource`](../resource) object for this collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(DateTime) | Adds a new [`Rate`](../rate) instance to this collection. |
-| [Add](add)(DateTime, RateType) | Adds a new [`Rate`](../rate) instance to this collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(Rate) | Removes Rate instance from this collection. |
-| [ToList](tolist)() | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects. |
-| [ToList](tolist)(RateType) | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects filtered by specified [`RateType`](../ratetype) type. |
+| [Add](../../aspose.tasks/ratecollection/add)(DateTime) | Adds a new [`Rate`](../rate) instance to this collection. |
+| [Add](../../aspose.tasks/ratecollection/add)(DateTime, RateType) | Adds a new [`Rate`](../rate) instance to this collection. |
+| [GetEnumerator](../../aspose.tasks/ratecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/ratecollection/remove)(Rate) | Removes Rate instance from this collection. |
+| [ToList](../../aspose.tasks/ratecollection/tolist)() | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects. |
+| [ToList](../../aspose.tasks/ratecollection/tolist)(RateType) | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects filtered by specified [`RateType`](../ratetype) type. |
 
 ### See Also
 

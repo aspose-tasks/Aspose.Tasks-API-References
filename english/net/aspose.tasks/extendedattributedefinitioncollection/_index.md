@@ -18,26 +18,26 @@ public class ExtendedAttributeDefinitionCollection : IList<ExtendedAttributeDefi
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
-| [ParentProject](parentproject) { get; } | Gets a parent project for the [`ExtendedAttributeDefinitionCollection`](../extendedattributedefinitioncollection) instance. returns a parent project for this collection. |
+| [Count](../../aspose.tasks/extendedattributedefinitioncollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/extendedattributedefinitioncollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only. |
+| [Item](../../aspose.tasks/extendedattributedefinitioncollection/item) { get; set; } | Returns or sets the element at the specified index. |
+| [ParentProject](../../aspose.tasks/extendedattributedefinitioncollection/parentproject) { get; } | Gets a parent project for the [`ExtendedAttributeDefinitionCollection`](../extendedattributedefinitioncollection) instance. returns a parent project for this collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ExtendedAttributeDefinition) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(ExtendedAttributeDefinition) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(ExtendedAttributeDefinition[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetById](getbyid)(int) | Returns an extended attribute definition by id |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(ExtendedAttributeDefinition) | Determines the index of the specified item in this collection. |
-| [Insert](insert)(int, ExtendedAttributeDefinition) | Inserts the specified item at the specified index. |
-| [Remove](remove)(ExtendedAttributeDefinition) | Removes the first occurrence of a specific object from this collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
-| [ToList](tolist)() | Converts this ExtendedAttributeDefinitionCollection object to a list containing instances of the [`ExtendedAttributeDefinition`](../extendedattributedefinition) class. |
+| [Add](../../aspose.tasks/extendedattributedefinitioncollection/add)(ExtendedAttributeDefinition) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/extendedattributedefinitioncollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/extendedattributedefinitioncollection/contains)(ExtendedAttributeDefinition) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/extendedattributedefinitioncollection/copyto)(ExtendedAttributeDefinition[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetById](../../aspose.tasks/extendedattributedefinitioncollection/getbyid)(int) | Returns an extended attribute definition by id |
+| [GetEnumerator](../../aspose.tasks/extendedattributedefinitioncollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/extendedattributedefinitioncollection/indexof)(ExtendedAttributeDefinition) | Determines the index of the specified item in this collection. |
+| [Insert](../../aspose.tasks/extendedattributedefinitioncollection/insert)(int, ExtendedAttributeDefinition) | Inserts the specified item at the specified index. |
+| [Remove](../../aspose.tasks/extendedattributedefinitioncollection/remove)(ExtendedAttributeDefinition) | Removes the first occurrence of a specific object from this collection. |
+| [RemoveAt](../../aspose.tasks/extendedattributedefinitioncollection/removeat)(int) | Removes an item at the specified index. |
+| [ToList](../../aspose.tasks/extendedattributedefinitioncollection/tolist)() | Converts this ExtendedAttributeDefinitionCollection object to a list containing instances of the [`ExtendedAttributeDefinition`](../extendedattributedefinition) class. |
 
 ### See Also
 

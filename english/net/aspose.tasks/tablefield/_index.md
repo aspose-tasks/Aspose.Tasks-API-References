@@ -24,13 +24,13 @@ public class TableField
 
 | Name | Description |
 | --- | --- |
-| [AlignData](aligndata) { get; set; } | Gets or sets the alignment of data in a table field. |
-| [AlignTitle](aligntitle) { get; set; } | Gets or sets the alignment of the title in a table field. |
-| [Field](field) { get; set; } | Gets or sets the type of a table field. |
-| [Title](title) { get; set; } | Gets or sets the title of the field in a table. |
-| [Width](width) { get; set; } | Gets or sets the width in points of the field column in a table. |
-| [WrapHeader](wrapheader) { get; set; } | Gets or sets a value indicating whether the table column heading can wrap to multiple lines, or if it should be truncated when it exceeds the column width. |
-| [WrapText](wraptext) { get; set; } | Gets or sets a value indicating whether the column text can wrap to multiple lines, or if it should be truncated when it exceeds the column width. Supported by MSP 2010 version and later. |
+| [AlignData](../../aspose.tasks/tablefield/aligndata) { get; set; } | Gets or sets the alignment of data in a table field. |
+| [AlignTitle](../../aspose.tasks/tablefield/aligntitle) { get; set; } | Gets or sets the alignment of the title in a table field. |
+| [Field](../../aspose.tasks/tablefield/field) { get; set; } | Gets or sets the type of a table field. |
+| [Title](../../aspose.tasks/tablefield/title) { get; set; } | Gets or sets the title of the field in a table. |
+| [Width](../../aspose.tasks/tablefield/width) { get; set; } | Gets or sets the width in points of the field column in a table. |
+| [WrapHeader](../../aspose.tasks/tablefield/wrapheader) { get; set; } | Gets or sets a value indicating whether the table column heading can wrap to multiple lines, or if it should be truncated when it exceeds the column width. |
+| [WrapText](../../aspose.tasks/tablefield/wraptext) { get; set; } | Gets or sets a value indicating whether the column text can wrap to multiple lines, or if it should be truncated when it exceeds the column width. Supported by MSP 2010 version and later. |
 
 ### See Also
 

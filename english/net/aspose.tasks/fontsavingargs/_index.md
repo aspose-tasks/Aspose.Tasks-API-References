@@ -20,6 +20,21 @@ public class FontSavingArgs : ResourceSavingArgs
 | --- | --- |
 | [FontSavingArgs](fontsavingargs)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [FileName](../../aspose.tasks/resourcesavingargs/filename) { get; set; } | Gets or sets the supposed file name that goes from converter to code of custom method. Can be use in custom code to decide how to process or where save that file. |
+| [KeepStreamOpen](../../aspose.tasks/resourcesavingargs/keepstreamopen) { get; set; } | Gets or sets a value indicating whether the stream will be kept open after resource saving finishes. |
+| [Stream](../../aspose.tasks/resourcesavingargs/stream) { get; set; } | Gets or sets the binary content of saved file. |
+| [Uri](../../aspose.tasks/resourcesavingargs/uri) { get; set; } | Gets or sets the resource URI. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CloseStreamIfRequired](../../aspose.tasks/resourcesavingargs/closestreamifrequired)() | Close stream if KeepStreamOpen is false, else flush it. |
+
 ### See Also
 
 * class [ResourceSavingArgs](../resourcesavingargs)

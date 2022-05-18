@@ -18,23 +18,23 @@ public class ViewCollection : ICollection<View>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [ParentProject](parentproject) { get; } | Gets the parent of the View object. Read-only [`Project`](../project). |
+| [Count](../../aspose.tasks/viewcollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/viewcollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [ParentProject](../../aspose.tasks/viewcollection/parentproject) { get; } | Gets the parent of the View object. Read-only [`Project`](../project). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(View) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(View) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(View[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetByName](getbyname)(string) | Searches for a View with the name, and returns the first occurrence within the collection. |
-| [GetByViewScreen](getbyviewscreen)(ViewScreen) | Searches for a View with the specified Screen property, and returns the first occurrence within the collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(View) | Removes the first occurrence of a specific object from this collection. |
-| [ToList](tolist)() | Converts a view collection to a list of [`View`](../view) objects. |
+| [Add](../../aspose.tasks/viewcollection/add)(View) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/viewcollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/viewcollection/contains)(View) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/viewcollection/copyto)(View[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetByName](../../aspose.tasks/viewcollection/getbyname)(string) | Searches for a View with the name, and returns the first occurrence within the collection. |
+| [GetByViewScreen](../../aspose.tasks/viewcollection/getbyviewscreen)(ViewScreen) | Searches for a View with the specified Screen property, and returns the first occurrence within the collection. |
+| [GetEnumerator](../../aspose.tasks/viewcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/viewcollection/remove)(View) | Removes the first occurrence of a specific object from this collection. |
+| [ToList](../../aspose.tasks/viewcollection/tolist)() | Converts a view collection to a list of [`View`](../view) objects. |
 
 ### See Also
 

@@ -18,21 +18,21 @@ public class TableCollection : ICollection<Table>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [ParentProject](parentproject) { get; } | Gets the parent of the Table object. Read-only [`Project`](../project). |
+| [Count](../../aspose.tasks/tablecollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/tablecollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [ParentProject](../../aspose.tasks/tablecollection/parentproject) { get; } | Gets the parent of the Table object. Read-only [`Project`](../project). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(Table) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(Table) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(Table[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(Table) | Removes the first occurrence of a specific object from this collection. |
-| [ToList](tolist)() | Converts a table collection to a list of [`Table`](../table) objects. |
+| [Add](../../aspose.tasks/tablecollection/add)(Table) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/tablecollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/tablecollection/contains)(Table) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/tablecollection/copyto)(Table[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/tablecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/tablecollection/remove)(Table) | Removes the first occurrence of a specific object from this collection. |
+| [ToList](../../aspose.tasks/tablecollection/tolist)() | Converts a table collection to a list of [`Table`](../table) objects. |
 
 ### See Also
 

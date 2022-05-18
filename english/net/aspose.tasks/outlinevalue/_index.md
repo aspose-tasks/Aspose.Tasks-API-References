@@ -24,14 +24,14 @@ public class OutlineValue
 
 | Name | Description |
 | --- | --- |
-| [Description](description) { get; set; } | Gets or sets the description of an outline value. |
-| [DurationValue](durationvalue) { get; set; } | Gets or sets the duration if Type is Duration. |
-| [IsCollapsed](iscollapsed) { get; set; } | Gets or sets a value indicating whether outline value is collapsed or not. |
-| [ParentValueId](parentvalueid) { get; set; } | Gets or sets the Id of a parent node of an outline code. |
-| [Type](type) { get; set; } | Gets or sets the outline code type. |
-| [Value](value) { get; set; } | Gets or sets the actual value. |
-| [ValueGuid](valueguid) { get; } | Gets a GUID which identifies this value among others in the entire project. |
-| [ValueId](valueid) { get; set; } | Gets or sets the unique Id of an outline code value within a project. |
+| [Description](../../aspose.tasks/outlinevalue/description) { get; set; } | Gets or sets the description of an outline value. |
+| [DurationValue](../../aspose.tasks/outlinevalue/durationvalue) { get; set; } | Gets or sets the duration if Type is Duration. |
+| [IsCollapsed](../../aspose.tasks/outlinevalue/iscollapsed) { get; set; } | Gets or sets a value indicating whether outline value is collapsed or not. |
+| [ParentValueId](../../aspose.tasks/outlinevalue/parentvalueid) { get; set; } | Gets or sets the Id of a parent node of an outline code. |
+| [Type](../../aspose.tasks/outlinevalue/type) { get; set; } | Gets or sets the outline code type. |
+| [Value](../../aspose.tasks/outlinevalue/value) { get; set; } | Gets or sets the actual value. |
+| [ValueGuid](../../aspose.tasks/outlinevalue/valueguid) { get; } | Gets a GUID which identifies this value among others in the entire project. |
+| [ValueId](../../aspose.tasks/outlinevalue/valueid) { get; set; } | Gets or sets the unique Id of an outline code value within a project. |
 
 ### See Also
 

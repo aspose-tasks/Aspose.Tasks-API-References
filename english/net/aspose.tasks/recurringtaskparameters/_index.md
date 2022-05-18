@@ -24,16 +24,16 @@ public class RecurringTaskParameters
 
 | Name | Description |
 | --- | --- |
-| [Duration](duration) { get; set; } | Gets or sets the duration for one occurrence of the recurring task. The instance of [`Duration`](./duration) class. |
-| [IgnoreResourceCalendar](ignoreresourcecalendar) { get; set; } | Gets or sets a value indicating whether to schedule the recurring task even if it does not happen when any resources are available to work on it. |
-| [RecurrencePattern](recurrencepattern) { get; set; } | Gets or sets the recurrence pattern of the recurring task. Can be one of the values of [`RecurrencePattern`](./recurrencepattern) enumeration. |
-| [TaskName](taskname) { get; set; } | Gets or sets the name of the recurring task. |
+| [Duration](../../aspose.tasks/recurringtaskparameters/duration) { get; set; } | Gets or sets the duration for one occurrence of the recurring task. The instance of [`Duration`](./duration) class. |
+| [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar) { get; set; } | Gets or sets a value indicating whether to schedule the recurring task even if it does not happen when any resources are available to work on it. |
+| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern) { get; set; } | Gets or sets the recurrence pattern of the recurring task. Can be one of the values of [`RecurrencePattern`](./recurrencepattern) enumeration. |
+| [TaskName](../../aspose.tasks/recurringtaskparameters/taskname) { get; set; } | Gets or sets the name of the recurring task. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetCalendar](setcalendar)(Project, string) | Set a calendar for recurring task. The calendar is selected from project calendar collection. |
+| [SetCalendar](../../aspose.tasks/recurringtaskparameters/setcalendar)(Project, string) | Set a calendar for recurring task. The calendar is selected from project calendar collection. |
 
 ### See Also
 

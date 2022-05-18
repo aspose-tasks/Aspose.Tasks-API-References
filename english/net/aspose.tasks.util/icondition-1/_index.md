@@ -22,7 +22,7 @@ public interface ICondition<in T>
 
 | Name | Description |
 | --- | --- |
-| [Check](check)(T) | Returns true if the specified object satisfy the conditions. |
+| [Check](../../aspose.tasks.util/icondition`1/check)(T) | Returns true if the specified object satisfy the conditions. |
 
 ### See Also
 

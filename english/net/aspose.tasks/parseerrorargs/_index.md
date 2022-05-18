@@ -18,10 +18,10 @@ public class ParseErrorArgs
 
 | Name | Description |
 | --- | --- |
-| [Exception](exception) { get; } | Gets the raised exception during parsing string value. |
-| [FieldName](fieldname) { get; } | Gets the object field name. |
-| [FieldType](fieldtype) { get; } | Gets the object field type. |
-| [InvalidValue](invalidvalue) { get; } | Gets the string value which raised an exception. |
+| [Exception](../../aspose.tasks/parseerrorargs/exception) { get; } | Gets the raised exception during parsing string value. |
+| [FieldName](../../aspose.tasks/parseerrorargs/fieldname) { get; } | Gets the object field name. |
+| [FieldType](../../aspose.tasks/parseerrorargs/fieldtype) { get; } | Gets the object field type. |
+| [InvalidValue](../../aspose.tasks/parseerrorargs/invalidvalue) { get; } | Gets the string value which raised an exception. |
 
 ### See Also
 

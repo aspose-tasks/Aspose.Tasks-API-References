@@ -24,8 +24,10 @@ public class MspDbSettings : DbSettings
 
 | Name | Description |
 | --- | --- |
-| [ProjectGuid](projectguid) { get; } | Gets the guid of the project to read. |
-| [Schema](schema) { get; set; } | Gets or sets the schema of the MS Project Server. The default value is "pub". |
+| [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring) { get; set; } | Gets or sets the connection string. |
+| [ProjectGuid](../../aspose.tasks.connectivity/mspdbsettings/projectguid) { get; } | Gets the guid of the project to read. |
+| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | Gets or sets provider invariant name which is used to get an instance of the DbProviderFactory class. Default value is SqlClient. |
+| [Schema](../../aspose.tasks.connectivity/mspdbsettings/schema) { get; set; } | Gets or sets the schema of the MS Project Server. The default value is "pub". |
 
 ### See Also
 

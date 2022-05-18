@@ -24,30 +24,30 @@ public sealed class CalendarException
 
 | Name | Description |
 | --- | --- |
-| [DaysOfWeek](daysofweek) { get; } | Gets the DayTypeCollection for this object. The days of the week on which the exception is valid. |
-| [DayWorking](dayworking) { get; set; } | Gets or sets a value indicating whether the specified date or day type is working. |
-| [EnteredByOccurrences](enteredbyoccurrences) { get; set; } | Gets or sets a value indicating whether the range of recurrence is defined by entering a number of occurrences. False specifies that the range of recurrence is defined by entering a finish date. |
-| [FromDate](fromdate) { get; set; } | Gets or sets the beginning of the exception time. |
-| [Month](month) { get; set; } | Gets or sets the month for which an exception recurrence is scheduled. |
-| [MonthDay](monthday) { get; set; } | Gets or sets the day of a month on which an exception recurrence is scheduled. |
-| [MonthItem](monthitem) { get; set; } | Gets or sets the month item for which an exception recurrence is scheduled. |
-| [MonthPosition](monthposition) { get; set; } | Gets or sets the position of a month item within a month. |
-| [Name](name) { get; set; } | Gets or sets the name of the exception. |
-| [Occurrences](occurrences) { get; set; } | Gets or sets the number of occurrences for which the calendar exception is valid. |
-| [ParentCalendar](parentcalendar) { get; } | Gets the parent calendar for this object. |
-| [Period](period) { get; set; } | Gets or sets the period of recurrence for the exception. |
-| [ToDate](todate) { get; set; } | Gets or sets the end of the exception time. |
-| [Type](type) { get; set; } | Gets or sets the exception type. |
-| [WorkingTimes](workingtimes) { get; set; } | Gets or sets the WorkingTimeCollection object. The collection of working times that defines the time worked on the weekday.  At least one working time must present, and there can't be more than five. |
+| [DaysOfWeek](../../aspose.tasks/calendarexception/daysofweek) { get; } | Gets the DayTypeCollection for this object. The days of the week on which the exception is valid. |
+| [DayWorking](../../aspose.tasks/calendarexception/dayworking) { get; set; } | Gets or sets a value indicating whether the specified date or day type is working. |
+| [EnteredByOccurrences](../../aspose.tasks/calendarexception/enteredbyoccurrences) { get; set; } | Gets or sets a value indicating whether the range of recurrence is defined by entering a number of occurrences. False specifies that the range of recurrence is defined by entering a finish date. |
+| [FromDate](../../aspose.tasks/calendarexception/fromdate) { get; set; } | Gets or sets the beginning of the exception time. |
+| [Month](../../aspose.tasks/calendarexception/month) { get; set; } | Gets or sets the month for which an exception recurrence is scheduled. |
+| [MonthDay](../../aspose.tasks/calendarexception/monthday) { get; set; } | Gets or sets the day of a month on which an exception recurrence is scheduled. |
+| [MonthItem](../../aspose.tasks/calendarexception/monthitem) { get; set; } | Gets or sets the month item for which an exception recurrence is scheduled. |
+| [MonthPosition](../../aspose.tasks/calendarexception/monthposition) { get; set; } | Gets or sets the position of a month item within a month. |
+| [Name](../../aspose.tasks/calendarexception/name) { get; set; } | Gets or sets the name of the exception. |
+| [Occurrences](../../aspose.tasks/calendarexception/occurrences) { get; set; } | Gets or sets the number of occurrences for which the calendar exception is valid. |
+| [ParentCalendar](../../aspose.tasks/calendarexception/parentcalendar) { get; } | Gets the parent calendar for this object. |
+| [Period](../../aspose.tasks/calendarexception/period) { get; set; } | Gets or sets the period of recurrence for the exception. |
+| [ToDate](../../aspose.tasks/calendarexception/todate) { get; set; } | Gets or sets the end of the exception time. |
+| [Type](../../aspose.tasks/calendarexception/type) { get; set; } | Gets or sets the exception type. |
+| [WorkingTimes](../../aspose.tasks/calendarexception/workingtimes) { get; set; } | Gets or sets the WorkingTimeCollection object. The collection of working times that defines the time worked on the weekday.  At least one working time must present, and there can't be more than five. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CheckException](checkexception)(DateTime) | Returns true if the specified instance of the DateTime struct is the exception day. |
-| [Delete](delete)() | Deletes the Exception instance from parent calendar CalendarExceptionCollection object. |
-| [GetExceptionDates](getexceptiondates)() | Returns dates on which the calendar exception is applicable. |
-| [GetWorkingTime](getworkingtime)() | Returns the working time for a calendar exception. |
+| [CheckException](../../aspose.tasks/calendarexception/checkexception)(DateTime) | Returns true if the specified instance of the DateTime struct is the exception day. |
+| [Delete](../../aspose.tasks/calendarexception/delete)() | Deletes the Exception instance from parent calendar CalendarExceptionCollection object. |
+| [GetExceptionDates](../../aspose.tasks/calendarexception/getexceptiondates)() | Returns dates on which the calendar exception is applicable. |
+| [GetWorkingTime](../../aspose.tasks/calendarexception/getworkingtime)() | Returns the working time for a calendar exception. |
 
 ### See Also
 

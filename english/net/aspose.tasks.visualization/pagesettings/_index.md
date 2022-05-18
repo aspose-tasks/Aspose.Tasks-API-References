@@ -24,14 +24,14 @@ public class PageSettings
 
 | Name | Description |
 | --- | --- |
-| [AdjustToPercentOfNormalSize](adjusttopercentofnormalsize) { get; set; } | Gets or sets a value indicating whether to adjust printing to the specified percentage ([`PercentOfNormalSize`](./percentofnormalsize)) of normal size. |
-| [FirstPageNumber](firstpagenumber) { get; set; } | Gets or sets a first page number for printing. |
-| [IsPortrait](isportrait) { get; set; } | Gets or sets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape. |
-| [PagesInHeight](pagesinheight) { get; set; } | Gets or sets a number of pages in height to be printed. |
-| [PagesInWidth](pagesinwidth) { get; set; } | Gets or sets a number of pages in width to be printed. |
-| [PaperSize](papersize) { get; set; } | Gets or sets a paper size. Can be one of the values of the [`PrinterPaperSize`](../printerpapersize) enumeration. |
-| [PaperSizeId](papersizeid) { get; set; } | Gets or sets an integer representing one of the PrinterPaperSize values or a custom page size id. This value can be used to get PaperSize from OS settings . |
-| [PercentOfNormalSize](percentofnormalsize) { get; set; } | Gets or sets a percentage of normal size to adjust printing to. |
+| [AdjustToPercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize) { get; set; } | Gets or sets a value indicating whether to adjust printing to the specified percentage ([`PercentOfNormalSize`](./percentofnormalsize)) of normal size. |
+| [FirstPageNumber](../../aspose.tasks.visualization/pagesettings/firstpagenumber) { get; set; } | Gets or sets a first page number for printing. |
+| [IsPortrait](../../aspose.tasks.visualization/pagesettings/isportrait) { get; set; } | Gets or sets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape. |
+| [PagesInHeight](../../aspose.tasks.visualization/pagesettings/pagesinheight) { get; set; } | Gets or sets a number of pages in height to be printed. |
+| [PagesInWidth](../../aspose.tasks.visualization/pagesettings/pagesinwidth) { get; set; } | Gets or sets a number of pages in width to be printed. |
+| [PaperSize](../../aspose.tasks.visualization/pagesettings/papersize) { get; set; } | Gets or sets a paper size. Can be one of the values of the [`PrinterPaperSize`](../printerpapersize) enumeration. |
+| [PaperSizeId](../../aspose.tasks.visualization/pagesettings/papersizeid) { get; set; } | Gets or sets an integer representing one of the PrinterPaperSize values or a custom page size id. This value can be used to get PaperSize from OS settings . |
+| [PercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/percentofnormalsize) { get; set; } | Gets or sets a percentage of normal size to adjust printing to. |
 
 ### See Also
 

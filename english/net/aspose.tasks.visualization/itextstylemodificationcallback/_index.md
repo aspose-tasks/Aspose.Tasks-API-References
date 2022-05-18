@@ -18,7 +18,7 @@ public interface ITextStyleModificationCallback
 
 | Name | Description |
 | --- | --- |
-| [BeforeTaskTextStyleApplied](beforetasktextstyleapplied)(TaskTextStyleEventArgs) | The method to be called before rendering of a table cell for a task row in the following views: 'Gantt Chart', 'Task Sheet', 'Task Usage'. |
+| [BeforeTaskTextStyleApplied](../../aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied)(TaskTextStyleEventArgs) | The method to be called before rendering of a table cell for a task row in the following views: 'Gantt Chart', 'Task Sheet', 'Task Usage'. |
 
 ### See Also
 

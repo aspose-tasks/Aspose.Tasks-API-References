@@ -14,6 +14,13 @@ Represents the standard internal writing exception type.
 public class TasksWritingException : TasksLoggedException
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [LogText](../../aspose.tasks/tasksloggedexception/logtext) { get; } | Gets the exception logging information. |
+| [Operation](../../aspose.tasks/tasksloggedexception/operation) { get; } | Gets the exception operation information. |
+
 ### See Also
 
 * class [TasksLoggedException](../tasksloggedexception)

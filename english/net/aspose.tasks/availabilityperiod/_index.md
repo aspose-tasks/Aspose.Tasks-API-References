@@ -24,9 +24,9 @@ public class AvailabilityPeriod
 
 | Name | Description |
 | --- | --- |
-| [AvailableFrom](availablefrom) { get; set; } | Gets or sets the date when a resource becomes available for the specified period. |
-| [AvailableTo](availableto) { get; set; } | Gets or sets the last date when a resource is available for the specified period. |
-| [AvailableUnits](availableunits) { get; set; } | Gets or sets the percentage of a resource which is available during the specified period. |
+| [AvailableFrom](../../aspose.tasks/availabilityperiod/availablefrom) { get; set; } | Gets or sets the date when a resource becomes available for the specified period. |
+| [AvailableTo](../../aspose.tasks/availabilityperiod/availableto) { get; set; } | Gets or sets the last date when a resource is available for the specified period. |
+| [AvailableUnits](../../aspose.tasks/availabilityperiod/availableunits) { get; set; } | Gets or sets the percentage of a resource which is available during the specified period. |
 
 ### See Also
 

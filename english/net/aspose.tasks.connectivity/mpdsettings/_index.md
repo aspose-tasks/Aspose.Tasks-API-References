@@ -24,7 +24,9 @@ public class MpdSettings : DbSettings
 
 | Name | Description |
 | --- | --- |
-| [ProjectId](projectid) { get; } | Gets id of the project to read. |
+| [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring) { get; set; } | Gets or sets the connection string. |
+| [ProjectId](../../aspose.tasks.connectivity/mpdsettings/projectid) { get; } | Gets id of the project to read. |
+| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | Gets or sets provider invariant name which is used to get an instance of the DbProviderFactory class. Default value is SqlClient. |
 
 ### See Also
 

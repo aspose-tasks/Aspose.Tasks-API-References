@@ -18,28 +18,28 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 
 | Name | Description |
 | --- | --- |
-| [Baselines](baselines) { get; } | Gets AssignmentBaselineCollection object. The collection of baseline values associated with an assignment. |
-| [ExtendedAttributes](extendedattributes) { get; set; } | Gets or sets an instance of the ExtendedAttributeCollection class for this object. |
-| [Guid](guid) { get; set; } | Gets or sets unique identifier for this assignment. |
-| [ParentProject](parentproject) { get; } | Gets parent project for this assignment. |
-| [TimephasedData](timephaseddata) { get; set; } | Gets or sets the instance of [`TimephasedDataCollection`](../timephaseddatacollection) class containing elements of [`TimephasedData`](./timephaseddata) class. |
+| [Baselines](../../aspose.tasks/resourceassignment/baselines) { get; } | Gets AssignmentBaselineCollection object. The collection of baseline values associated with an assignment. |
+| [ExtendedAttributes](../../aspose.tasks/resourceassignment/extendedattributes) { get; set; } | Gets or sets an instance of the ExtendedAttributeCollection class for this object. |
+| [Guid](../../aspose.tasks/resourceassignment/guid) { get; set; } | Gets or sets unique identifier for this assignment. |
+| [ParentProject](../../aspose.tasks/resourceassignment/parentproject) { get; } | Gets parent project for this assignment. |
+| [TimephasedData](../../aspose.tasks/resourceassignment/timephaseddata) { get; set; } | Gets or sets the instance of [`TimephasedDataCollection`](../timephaseddatacollection) class containing elements of [`TimephasedData`](./timephaseddata) class. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Delete](delete)() | Deletes resource assignment from project assignments collection. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](equals)(ResourceAssignment) | Returns a value indicating whether this instance is equal to a specified instance of the [`ResourceAssignment`](../resourceassignment) class. |
-| [Get&lt;T&gt;](get)(Key&lt;T, AsnKey&gt;) | Returns the value to which the property is mapped in this container. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`ResourceAssignment`](../resourceassignment) class. |
-| [GetTimephasedData](gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with the instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of AssignmentWork. |
-| [GetTimephasedData](gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns the instance [`TimephasedDataCollection`](../timephaseddatacollection) class containing instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
-| [MakeTPs](maketps)(DateTime, TimeSpan, Calendar, List&lt;TimephasedData&gt;, bool, int) | Generates a list of time phased data. |
-| [Set&lt;T&gt;](set)(Key&lt;T, AsnKey&gt;, T) | Maps the specified property to the specified value in this container. |
-| [SplitTask](splittask)(DateTime, DateTime, Calendar) | Splits task into two parts. |
-| [TimephasedDataFromTaskDuration](timephaseddatafromtaskduration)(Calendar) | Generates list of time phased data based on the task duration and the scheduled start date. |
-| override [ToString](tostring)() | Returns short string representation of the instance of the [`ResourceAssignment`](../resourceassignment) class. The exact details of the representation are unspecified and subject to change. |
+| [Delete](../../aspose.tasks/resourceassignment/delete)() | Deletes resource assignment from project assignments collection. |
+| override [Equals](../../aspose.tasks/resourceassignment/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/resourceassignment/equals)(ResourceAssignment) | Returns a value indicating whether this instance is equal to a specified instance of the [`ResourceAssignment`](../resourceassignment) class. |
+| [Get&lt;T&gt;](../../aspose.tasks/resourceassignment/get)(Key&lt;T, AsnKey&gt;) | Returns the value to which the property is mapped in this container. |
+| override [GetHashCode](../../aspose.tasks/resourceassignment/gethashcode)() | Returns a hash code value for the instance of the [`ResourceAssignment`](../resourceassignment) class. |
+| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with the instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of AssignmentWork. |
+| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns the instance [`TimephasedDataCollection`](../timephaseddatacollection) class containing instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
+| [MakeTPs](../../aspose.tasks/resourceassignment/maketps)(DateTime, TimeSpan, Calendar, List&lt;TimephasedData&gt;, bool, int) | Generates a list of time phased data. |
+| [Set&lt;T&gt;](../../aspose.tasks/resourceassignment/set)(Key&lt;T, AsnKey&gt;, T) | Maps the specified property to the specified value in this container. |
+| [SplitTask](../../aspose.tasks/resourceassignment/splittask)(DateTime, DateTime, Calendar) | Splits task into two parts. |
+| [TimephasedDataFromTaskDuration](../../aspose.tasks/resourceassignment/timephaseddatafromtaskduration)(Calendar) | Generates list of time phased data based on the task duration and the scheduled start date. |
+| override [ToString](../../aspose.tasks/resourceassignment/tostring)() | Returns short string representation of the instance of the [`ResourceAssignment`](../resourceassignment) class. The exact details of the representation are unspecified and subject to change. |
 
 ### See Also
 

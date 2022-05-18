@@ -24,13 +24,13 @@ public class RiskAnalyzer
 
 | Name | Description |
 | --- | --- |
-| [Settings](settings) { get; set; } | Gets or sets the instance of the [`RiskAnalysisSettings`](../riskanalysissettings) class which defines necessary settings for risk analysis. |
+| [Settings](../../aspose.tasks.riskanalysis/riskanalyzer/settings) { get; set; } | Gets or sets the instance of the [`RiskAnalysisSettings`](../riskanalysissettings) class which defines necessary settings for risk analysis. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Analyze](analyze)(Project) | Performs risk analysis for the specified project. The analysis is based on Monte Carlo simulation and the result is an instance of the [`RiskAnalysisResult`](../riskanalysisresult) class. |
+| [Analyze](../../aspose.tasks.riskanalysis/riskanalyzer/analyze)(Project) | Performs risk analysis for the specified project. The analysis is based on Monte Carlo simulation and the result is an instance of the [`RiskAnalysisResult`](../riskanalysisresult) class. |
 
 ### See Also
 

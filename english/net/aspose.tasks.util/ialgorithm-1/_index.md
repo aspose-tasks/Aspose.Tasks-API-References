@@ -22,9 +22,9 @@ public interface IAlgorithm<in T>
 
 | Name | Description |
 | --- | --- |
-| [Alg](alg)(T, int) | Processes an object in the list. Called after [`PreAlg`](./prealg); |
-| [PostAlg](postalg)(T, int) | Called after processing of an object. |
-| [PreAlg](prealg)(T, int) | Called before processing of an object. |
+| [Alg](../../aspose.tasks.util/ialgorithm`1/alg)(T, int) | Processes an object in the list. Called after [`PreAlg`](./prealg); |
+| [PostAlg](../../aspose.tasks.util/ialgorithm`1/postalg)(T, int) | Called after processing of an object. |
+| [PreAlg](../../aspose.tasks.util/ialgorithm`1/prealg)(T, int) | Called before processing of an object. |
 
 ### See Also
 

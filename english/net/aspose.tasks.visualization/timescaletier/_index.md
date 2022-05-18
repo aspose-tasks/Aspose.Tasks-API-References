@@ -25,13 +25,13 @@ public sealed class TimescaleTier
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Gets or sets how to align labels within each time period of the tier (StringAlignment). |
-| [Count](count) { get; set; } | Gets or sets the time unit interval in which to show labels for the tier. The default value is 1. |
-| [DateTimeConverter](datetimeconverter) { get; set; } | Gets or sets a callback function for handling rendering date tick in this tier. |
-| [Label](label) { get; set; } | Gets or sets date label [`DateLabel`](../datelabel) for the timescale tier. |
-| [ShowTicks](showticks) { get; set; } | Gets or sets a value indicating whether whether to show tick marks that separate time periods in the tier. |
-| [Unit](unit) { get; set; } | Gets or sets timescale unit [`TimescaleUnit`](../timescaleunit) for the timescale tier. The default value is [`Days`](../timescaleunit). |
-| [UsesFiscalYear](usesfiscalyear) { get; set; } | Gets or sets a value indicating whether to base the tier labels on the fiscal year. |
+| [Alignment](../../aspose.tasks.visualization/timescaletier/alignment) { get; set; } | Gets or sets how to align labels within each time period of the tier (StringAlignment). |
+| [Count](../../aspose.tasks.visualization/timescaletier/count) { get; set; } | Gets or sets the time unit interval in which to show labels for the tier. The default value is 1. |
+| [DateTimeConverter](../../aspose.tasks.visualization/timescaletier/datetimeconverter) { get; set; } | Gets or sets a callback function for handling rendering date tick in this tier. |
+| [Label](../../aspose.tasks.visualization/timescaletier/label) { get; set; } | Gets or sets date label [`DateLabel`](../datelabel) for the timescale tier. |
+| [ShowTicks](../../aspose.tasks.visualization/timescaletier/showticks) { get; set; } | Gets or sets a value indicating whether whether to show tick marks that separate time periods in the tier. |
+| [Unit](../../aspose.tasks.visualization/timescaletier/unit) { get; set; } | Gets or sets timescale unit [`TimescaleUnit`](../timescaleunit) for the timescale tier. The default value is [`Days`](../timescaleunit). |
+| [UsesFiscalYear](../../aspose.tasks.visualization/timescaletier/usesfiscalyear) { get; set; } | Gets or sets a value indicating whether to base the tier labels on the fiscal year. |
 
 ### See Also
 

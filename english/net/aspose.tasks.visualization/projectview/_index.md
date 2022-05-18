@@ -24,17 +24,17 @@ public class ProjectView
 
 | Name | Description |
 | --- | --- |
-| [Columns](columns) { get; } | Gets the project view columns. |
+| [Columns](../../aspose.tasks.visualization/projectview/columns) { get; } | Gets the project view columns. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [GetDefaultAssignmentView](getdefaultassignmentview)() | Includes Uid, task name, resource name, work and duration assignment columns. |
-| static [GetDefaultGanttChartView](getdefaultganttchartview)() | Includes id, indicators, name, duration, start and finish task columns. |
-| static [GetDefaultResourceSheetView](getdefaultresourcesheetview)() | Includes Uid, resource name, type, material label, initials, group, max units, standard rate, overtime rate, cost per use, accrue at, base calendar and code resource columns. |
-| static [GetDefaultResourceUsageView](getdefaultresourceusageview)() | Includes Uid, name, start, finish and work resource columns. |
-| static [GetDefaultTaskSheetView](getdefaulttasksheetview)() | Includes id, indicators, name, duration, start, finish, predecessors and resource names task columns. |
+| static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview)() | Includes Uid, task name, resource name, work and duration assignment columns. |
+| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview)() | Includes id, indicators, name, duration, start and finish task columns. |
+| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview)() | Includes Uid, resource name, type, material label, initials, group, max units, standard rate, overtime rate, cost per use, accrue at, base calendar and code resource columns. |
+| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview)() | Includes Uid, name, start, finish and work resource columns. |
+| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview)() | Includes id, indicators, name, duration, start, finish, predecessors and resource names task columns. |
 
 ### See Also
 

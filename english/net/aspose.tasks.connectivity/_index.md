@@ -13,7 +13,7 @@ Contains classes for working with Databases.
 | Class | Description |
 | --- | --- |
 | [DbSettings](./dbsettings) | Allows to specify settings to read from project database. |
-| [MpdSettings](./mpdsettings) | Allows to set necessary options to read project data from MPD format (MS Access database file format). |
+| [MpdSettings](./mpdsettings) | Allows to set necessary options to read project data from MPD format (../MS Access database file format). |
 | [MspDbSettings](./mspdbsettings) | Allows to set necessary options to read project data from MS Project Server database. |
 | [PrimaveraDbSettings](./primaveradbsettings) | Allows to set necessary options to read project data from Primavera database. |
 

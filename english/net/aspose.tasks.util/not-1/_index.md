@@ -28,7 +28,7 @@ public class Not<T> : ICondition<T>
 
 | Name | Description |
 | --- | --- |
-| [Check](check)(T) | Returns true if the specified object satisfy the condition. |
+| [Check](../../aspose.tasks.util/not`1/check)(T) | Returns true if the specified object satisfy the condition. |
 
 ### See Also
 

@@ -24,7 +24,9 @@ public class CheckCircuit : TreeAlgorithmBase<Task>
 
 | Name | Description |
 | --- | --- |
-| override [Alg](alg)(Task, int) | Check if the specified object was already processed. |
+| override [Alg](../../aspose.tasks.util/checkcircuit/alg)(Task, int) | Check if the specified object was already processed. |
+| virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase`1/postalg)(Task, int) |  |
+| virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase`1/prealg)(Task, int) |  |
 
 ### See Also
 

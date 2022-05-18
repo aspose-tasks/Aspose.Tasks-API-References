@@ -18,14 +18,14 @@ public abstract class Property
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Gets a name of the property. |
-| [Value](value) { get; set; } | Gets or sets a value of the property. |
+| [Name](../../aspose.tasks.properties/property/name) { get; } | Gets a name of the property. |
+| [Value](../../aspose.tasks.properties/property/value) { get; set; } | Gets or sets a value of the property. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns the property value as string. |
+| override [ToString](../../aspose.tasks.properties/property/tostring)() | Returns the property value as string. |
 
 ### See Also
 

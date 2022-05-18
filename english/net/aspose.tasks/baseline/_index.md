@@ -24,26 +24,26 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 
 | Name | Description |
 | --- | --- |
-| [BaselineNumber](baselinenumber) { get; set; } | Gets or sets the unique number of a baseline data record. |
-| [Bcwp](bcwp) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
-| [Bcws](bcws) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
-| [Cost](cost) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
-| [Work](work) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Gets or sets the unique number of a baseline data record. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
+| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
+| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
+| [Work](../../aspose.tasks/baseline/work) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [Equals](equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the baseline. |
-| [operator ==](op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
-| [operator &gt;](op_greaterthan) | Returns a value indicating whether this instance is greater than a specified object. |
-| [operator &gt;=](op_greaterthanorequal) | Returns a value indicating whether this instance is greater than or equal to a specified object. |
-| [operator !=](op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
-| [operator &lt;](op_lessthan) | Returns a value indicating whether this instance is less than a specified object. |
-| [operator &lt;=](op_lessthanorequal) | Returns a value indicating whether this instance is less than or equal to a specified object. |
+| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/baseline/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Returns a hash code value for the baseline. |
+| [operator ==](../../aspose.tasks/baseline/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
+| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan) | Returns a value indicating whether this instance is greater than a specified object. |
+| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal) | Returns a value indicating whether this instance is greater than or equal to a specified object. |
+| [operator !=](../../aspose.tasks/baseline/op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
+| [operator &lt;](../../aspose.tasks/baseline/op_lessthan) | Returns a value indicating whether this instance is less than a specified object. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Returns a value indicating whether this instance is less than or equal to a specified object. |
 
 ### See Also
 

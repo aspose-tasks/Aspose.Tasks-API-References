@@ -18,28 +18,28 @@ public class RecurringTaskInfo
 
 | Name | Description |
 | --- | --- |
-| [DailyRepetitions](dailyrepetitions) { get; set; } | Gets or sets a number of repetitions for the daily recurrence pattern. |
-| [DailyUseWorkdays](dailyuseworkdays) { get; set; } | Gets or sets a value indicating whether to use workdays for the daily recurrence pattern. |
-| [Duration](duration) { get; set; } | Gets or sets the duration for one occurrence of the recurring task. the instance of [`Duration`](./duration) class. |
-| [EndDate](enddate) { get; set; } | Gets or sets the date for the occurrences to end. |
-| [MonthlyDay](monthlyday) { get; set; } | Gets or sets a number of day of the monthly recurrence pattern. |
-| [MonthlyOrdinalDay](monthlyordinalday) { get; set; } | Gets or sets a day of the monthly recurrence pattern when using ordinal day. Can be one of the values of DayOfWeek enumeration. |
-| [MonthlyOrdinalNumber](monthlyordinalnumber) { get; set; } | Gets or sets an ordinal number of the monthly recurrence pattern. Can be one of the values of [`OrdinalNumber`](../ordinalnumber) enumeration. |
-| [MonthlyOrdinalRepetitions](monthlyordinalrepetitions) { get; set; } | Gets or sets a number of repetitions for the monthly recurrence pattern when using ordinal day. |
-| [MonthlyRepetitions](monthlyrepetitions) { get; set; } | Gets or sets a number of repetitions for the monthly recurrence pattern. |
-| [MonthlyUseOrdinalDay](monthlyuseordinalday) { get; set; } | Gets or sets a value indicating whether to use ordinal day for the monthly recurrence pattern. |
-| [Occurrences](occurrences) { get; set; } | Gets or sets a number of occurrences of the recurring task. |
-| [RecurrencePattern](recurrencepattern) { get; set; } | Gets or sets a recurrence pattern of the recurring task. Can be one of the values of [`RecurrencePattern`](./recurrencepattern) enumeration. |
-| [StartDate](startdate) { get; set; } | Gets or sets the date for the occurrences to begin. |
-| [Task](task) { get; } | Gets the parent task of this instance of [`RecurringTaskInfo`](../recurringtaskinfo) class. |
-| [UseEndDate](useenddate) { get; set; } | Gets or sets a value indicating whether to use the end date or a number of occurrences for the recurring task. |
-| [WeeklyDays](weeklydays) { get; set; } | Gets or sets a collection of days used in the weekly recurrence pattern. |
-| [WeeklyRepetitions](weeklyrepetitions) { get; set; } | Gets or sets a number of repetitions for the weekly recurrence pattern. |
-| [YearlyDate](yearlydate) { get; set; } | Gets or sets a date for the yearly recurrence pattern. |
-| [YearlyOrdinalDay](yearlyordinalday) { get; set; } | Gets or sets a weekday of the yearly recurrence pattern when using ordinal day. Can be one of the values of DayOfWeek enumeration. |
-| [YearlyOrdinalMonth](yearlyordinalmonth) { get; set; } | Gets or sets a month of the yearly recurrence pattern when using ordinal day. Can be one of the values of [`Month`](../month) enumeration. |
-| [YearlyOrdinalNumber](yearlyordinalnumber) { get; set; } | Gets or sets an ordinal number of the yearly recurrence pattern. Can be one of the values of [`OrdinalNumber`](../ordinalnumber) enumeration. |
-| [YearlyUseOrdinalDay](yearlyuseordinalday) { get; set; } | Gets or sets a value indicating whether to use ordinal day for the yearly recurrence pattern. |
+| [DailyRepetitions](../../aspose.tasks/recurringtaskinfo/dailyrepetitions) { get; set; } | Gets or sets a number of repetitions for the daily recurrence pattern. |
+| [DailyUseWorkdays](../../aspose.tasks/recurringtaskinfo/dailyuseworkdays) { get; set; } | Gets or sets a value indicating whether to use workdays for the daily recurrence pattern. |
+| [Duration](../../aspose.tasks/recurringtaskinfo/duration) { get; set; } | Gets or sets the duration for one occurrence of the recurring task. the instance of [`Duration`](./duration) class. |
+| [EndDate](../../aspose.tasks/recurringtaskinfo/enddate) { get; set; } | Gets or sets the date for the occurrences to end. |
+| [MonthlyDay](../../aspose.tasks/recurringtaskinfo/monthlyday) { get; set; } | Gets or sets a number of day of the monthly recurrence pattern. |
+| [MonthlyOrdinalDay](../../aspose.tasks/recurringtaskinfo/monthlyordinalday) { get; set; } | Gets or sets a day of the monthly recurrence pattern when using ordinal day. Can be one of the values of DayOfWeek enumeration. |
+| [MonthlyOrdinalNumber](../../aspose.tasks/recurringtaskinfo/monthlyordinalnumber) { get; set; } | Gets or sets an ordinal number of the monthly recurrence pattern. Can be one of the values of [`OrdinalNumber`](../ordinalnumber) enumeration. |
+| [MonthlyOrdinalRepetitions](../../aspose.tasks/recurringtaskinfo/monthlyordinalrepetitions) { get; set; } | Gets or sets a number of repetitions for the monthly recurrence pattern when using ordinal day. |
+| [MonthlyRepetitions](../../aspose.tasks/recurringtaskinfo/monthlyrepetitions) { get; set; } | Gets or sets a number of repetitions for the monthly recurrence pattern. |
+| [MonthlyUseOrdinalDay](../../aspose.tasks/recurringtaskinfo/monthlyuseordinalday) { get; set; } | Gets or sets a value indicating whether to use ordinal day for the monthly recurrence pattern. |
+| [Occurrences](../../aspose.tasks/recurringtaskinfo/occurrences) { get; set; } | Gets or sets a number of occurrences of the recurring task. |
+| [RecurrencePattern](../../aspose.tasks/recurringtaskinfo/recurrencepattern) { get; set; } | Gets or sets a recurrence pattern of the recurring task. Can be one of the values of [`RecurrencePattern`](./recurrencepattern) enumeration. |
+| [StartDate](../../aspose.tasks/recurringtaskinfo/startdate) { get; set; } | Gets or sets the date for the occurrences to begin. |
+| [Task](../../aspose.tasks/recurringtaskinfo/task) { get; } | Gets the parent task of this instance of [`RecurringTaskInfo`](../recurringtaskinfo) class. |
+| [UseEndDate](../../aspose.tasks/recurringtaskinfo/useenddate) { get; set; } | Gets or sets a value indicating whether to use the end date or a number of occurrences for the recurring task. |
+| [WeeklyDays](../../aspose.tasks/recurringtaskinfo/weeklydays) { get; set; } | Gets or sets a collection of days used in the weekly recurrence pattern. |
+| [WeeklyRepetitions](../../aspose.tasks/recurringtaskinfo/weeklyrepetitions) { get; set; } | Gets or sets a number of repetitions for the weekly recurrence pattern. |
+| [YearlyDate](../../aspose.tasks/recurringtaskinfo/yearlydate) { get; set; } | Gets or sets a date for the yearly recurrence pattern. |
+| [YearlyOrdinalDay](../../aspose.tasks/recurringtaskinfo/yearlyordinalday) { get; set; } | Gets or sets a weekday of the yearly recurrence pattern when using ordinal day. Can be one of the values of DayOfWeek enumeration. |
+| [YearlyOrdinalMonth](../../aspose.tasks/recurringtaskinfo/yearlyordinalmonth) { get; set; } | Gets or sets a month of the yearly recurrence pattern when using ordinal day. Can be one of the values of [`Month`](../month) enumeration. |
+| [YearlyOrdinalNumber](../../aspose.tasks/recurringtaskinfo/yearlyordinalnumber) { get; set; } | Gets or sets an ordinal number of the yearly recurrence pattern. Can be one of the values of [`OrdinalNumber`](../ordinalnumber) enumeration. |
+| [YearlyUseOrdinalDay](../../aspose.tasks/recurringtaskinfo/yearlyuseordinalday) { get; set; } | Gets or sets a value indicating whether to use ordinal day for the yearly recurrence pattern. |
 
 ### See Also
 

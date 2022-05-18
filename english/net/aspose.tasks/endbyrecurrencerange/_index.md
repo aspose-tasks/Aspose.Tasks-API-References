@@ -24,7 +24,8 @@ public class EndByRecurrenceRange : RecurrenceRangeBase
 
 | Name | Description |
 | --- | --- |
-| [Finish](finish) { get; set; } | Gets or sets the date which limits the recurrence range of the recurring task. |
+| [Finish](../../aspose.tasks/endbyrecurrencerange/finish) { get; set; } | Gets or sets the date which limits the recurrence range of the recurring task. |
+| [Start](../../aspose.tasks/recurrencerangebase/start) { get; set; } | Gets or sets the start date of the recurrence range of the recurring task. |
 
 ### See Also
 

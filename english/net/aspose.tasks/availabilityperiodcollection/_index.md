@@ -18,24 +18,24 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
-| [ParentResource](parentresource) { get; } | Gets the parent [`Resource`](../resource) for this object. Parent [`Resource`](../resource) object for this collection. |
+| [Count](../../aspose.tasks/availabilityperiodcollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks/availabilityperiodcollection/item) { get; set; } | Returns or sets the element at the specified index. |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource) { get; } | Gets the parent [`Resource`](../resource) for this object. Parent [`Resource`](../resource) object for this collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(AvailabilityPeriod) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(AvailabilityPeriod) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(AvailabilityPeriod[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(AvailabilityPeriod) | Determines the index of the specified item in this collection. |
-| [Insert](insert)(int, AvailabilityPeriod) | Inserts the specified item at the specified index. |
-| [Remove](remove)(AvailabilityPeriod) | Removes the first occurrence of a specific object from this collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
+| [Add](../../aspose.tasks/availabilityperiodcollection/add)(AvailabilityPeriod) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/availabilityperiodcollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/availabilityperiodcollection/contains)(AvailabilityPeriod) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto)(AvailabilityPeriod[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof)(AvailabilityPeriod) | Determines the index of the specified item in this collection. |
+| [Insert](../../aspose.tasks/availabilityperiodcollection/insert)(int, AvailabilityPeriod) | Inserts the specified item at the specified index. |
+| [Remove](../../aspose.tasks/availabilityperiodcollection/remove)(AvailabilityPeriod) | Removes the first occurrence of a specific object from this collection. |
+| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat)(int) | Removes an item at the specified index. |
 
 ### See Also
 

@@ -18,23 +18,23 @@ public class DayTypeCollection : IList<DayType>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether if this collection is read-only; otherwise, false. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
+| [Count](../../aspose.tasks/daytypecollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/daytypecollection/isreadonly) { get; } | Gets a value indicating whether if this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks/daytypecollection/item) { get; set; } | Returns or sets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(DayType) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(DayType) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(DayType[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(DayType) | Determines the index of the specified item in this collection. |
-| [Insert](insert)(int, DayType) | Inserts the specified item at the specified index. |
-| [Remove](remove)(DayType) | Removes the first occurrence of a specific object from this collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
+| [Add](../../aspose.tasks/daytypecollection/add)(DayType) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/daytypecollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/daytypecollection/contains)(DayType) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/daytypecollection/copyto)(DayType[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/daytypecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/daytypecollection/indexof)(DayType) | Determines the index of the specified item in this collection. |
+| [Insert](../../aspose.tasks/daytypecollection/insert)(int, DayType) | Inserts the specified item at the specified index. |
+| [Remove](../../aspose.tasks/daytypecollection/remove)(DayType) | Removes the first occurrence of a specific object from this collection. |
+| [RemoveAt](../../aspose.tasks/daytypecollection/removeat)(int) | Removes an item at the specified index. |
 
 ### See Also
 

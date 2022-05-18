@@ -25,20 +25,20 @@ public struct NullableBool : IEquatable<NullableBool>
 
 | Name | Description |
 | --- | --- |
-| [IsDefined](isdefined) { get; } | Gets a value indicating whether the value was defined; otherwise, false. |
-| [Value](value) { get; set; } | Gets or sets a value indicating whether current value is true or false. |
+| [IsDefined](../../aspose.tasks/nullablebool/isdefined) { get; } | Gets a value indicating whether the value was defined; otherwise, false. |
+| [Value](../../aspose.tasks/nullablebool/value) { get; set; } | Gets or sets a value indicating whether current value is true or false. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(NullableBool) | Returns a flag indicating whether this instance is equal to the specified instance of the [`NullableBool`](../nullablebool) class. |
-| override [Equals](equals)(object) | Returns a flag indicating whether this instance is equal to the specified object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`NullableBool`](../nullablebool) class. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
-| [implicit operator](op_implicit) | Implicitly converts a [`NullableBool`](../nullablebool) instance to a boolean value. Returns true when [`Value`](./value) is true and [`IsDefined`](./isdefined) is true. (2 operators) |
-| [operator !=](op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
+| [Equals](../../aspose.tasks/nullablebool/equals)(NullableBool) | Returns a flag indicating whether this instance is equal to the specified instance of the [`NullableBool`](../nullablebool) class. |
+| override [Equals](../../aspose.tasks/nullablebool/equals)(object) | Returns a flag indicating whether this instance is equal to the specified object. |
+| override [GetHashCode](../../aspose.tasks/nullablebool/gethashcode)() | Returns a hash code value for the instance of the [`NullableBool`](../nullablebool) class. |
+| override [ToString](../../aspose.tasks/nullablebool/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.tasks/nullablebool/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
+| [implicit operator](../../aspose.tasks/nullablebool/op_implicit) | Implicitly converts a [`NullableBool`](../nullablebool) instance to a boolean value. Returns true when [`Value`](./value) is true and [`IsDefined`](./isdefined) is true. (2 operators) |
+| [operator !=](../../aspose.tasks/nullablebool/op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
 
 ### See Also
 

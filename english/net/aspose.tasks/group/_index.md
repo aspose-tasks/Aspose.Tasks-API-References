@@ -24,14 +24,14 @@ public class Group
 
 | Name | Description |
 | --- | --- |
-| [GroupCriteria](groupcriteria) { get; set; } | Gets or sets a GroupCriteria collection representing the fields in a group definition. |
-| [Index](index) { get; } | Gets the index of a [`Group`](../group) object in the Groups containing object. |
-| [MaintainHierarchy](maintainhierarchy) { get; set; } | Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
-| [Name](name) { get; set; } | Gets or sets a name of a Group object. |
-| [ParentProject](parentproject) { get; } | Gets the parent of the Group object. |
-| [ShowInMenu](showinmenu) { get; set; } | Gets or sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
-| [ShowSummary](showsummary) { get; set; } | Gets or sets a value indicating whether summary rows are displayed for the group. |
-| [Uid](uid) { get; } | Gets a unique identifier of a group. |
+| [GroupCriteria](../../aspose.tasks/group/groupcriteria) { get; set; } | Gets or sets a GroupCriteria collection representing the fields in a group definition. |
+| [Index](../../aspose.tasks/group/index) { get; } | Gets the index of a [`Group`](../group) object in the Groups containing object. |
+| [MaintainHierarchy](../../aspose.tasks/group/maintainhierarchy) { get; set; } | Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
+| [Name](../../aspose.tasks/group/name) { get; set; } | Gets or sets a name of a Group object. |
+| [ParentProject](../../aspose.tasks/group/parentproject) { get; } | Gets the parent of the Group object. |
+| [ShowInMenu](../../aspose.tasks/group/showinmenu) { get; set; } | Gets or sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
+| [ShowSummary](../../aspose.tasks/group/showsummary) { get; set; } | Gets or sets a value indicating whether summary rows are displayed for the group. |
+| [Uid](../../aspose.tasks/group/uid) { get; } | Gets a unique identifier of a group. |
 
 ### See Also
 

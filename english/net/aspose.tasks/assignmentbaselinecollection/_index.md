@@ -18,18 +18,18 @@ public class AssignmentBaselineCollection : IList<AssignmentBaseline>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this AssignmentBaselineCollection object. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
-| [ParentAssignment](parentassignment) { get; } | Gets the parent [`ResourceAssignment`](../resourceassignment) for this collection. |
+| [Count](../../aspose.tasks/assignmentbaselinecollection/count) { get; } | Gets the number of objects contained in this AssignmentBaselineCollection object. |
+| [Item](../../aspose.tasks/assignmentbaselinecollection/item) { get; set; } | Returns the element at the specified index. |
+| [ParentAssignment](../../aspose.tasks/assignmentbaselinecollection/parentassignment) { get; } | Gets the parent [`ResourceAssignment`](../resourceassignment) for this collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(AssignmentBaseline) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(AssignmentBaseline) | Removes baseline from this collection. |
-| [ToList](tolist)() | Converts the AssignmentBaselineCollection object to a list of [`AssignmentBaseline`](../assignmentbaseline) objects. |
+| [Add](../../aspose.tasks/assignmentbaselinecollection/add)(AssignmentBaseline) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
+| [GetEnumerator](../../aspose.tasks/assignmentbaselinecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/assignmentbaselinecollection/remove)(AssignmentBaseline) | Removes baseline from this collection. |
+| [ToList](../../aspose.tasks/assignmentbaselinecollection/tolist)() | Converts the AssignmentBaselineCollection object to a list of [`AssignmentBaseline`](../assignmentbaseline) objects. |
 
 ### See Also
 

@@ -18,7 +18,15 @@ public sealed class CustomProjectProperty : Property
 
 | Name | Description |
 | --- | --- |
-| [Type](type) { get; } | Gets a type of the property. |
+| [Name](../../aspose.tasks.properties/property/name) { get; } | Gets a name of the property. |
+| [Type](../../aspose.tasks.properties/customprojectproperty/type) { get; } | Gets a type of the property. |
+| [Value](../../aspose.tasks.properties/property/value) { get; set; } | Gets or sets a value of the property. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.tasks.properties/property/tostring)() | Returns the property value as string. |
 
 ### See Also
 

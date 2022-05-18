@@ -24,17 +24,17 @@ public class RecurringInterval
 
 | Name | Description |
 | --- | --- |
-| [DailyDayNumber](dailydaynumber) { get; set; } | Gets or sets the daily day number. |
-| [DailyWorkday](dailyworkday) { get; set; } | Gets or sets a value indicating whether a day is workday for daily progress lines. |
-| [Interval](interval) { get; set; } | Gets or sets the recurring interval. Can be any value of [`Interval`](./interval) type. |
-| [MonthlyDay](monthlyday) { get; set; } | Gets or sets a value indicating whether to show monthly progress lines by day. |
-| [MonthlyDayDayNumber](monthlydaydaynumber) { get; set; } | Gets or sets the day number of monthly progress lines. |
-| [MonthlyDayMonthNumber](monthlydaymonthnumber) { get; set; } | Gets or sets the month number of monthly progress lines. |
-| [MonthlyFirstLast](monthlyfirstlast) { get; set; } | Gets or sets a value indicating whether to show progress lines by first or last predefined day. |
-| [MonthlyFirstLastDay](monthlyfirstlastday) { get; set; } | Gets or sets the first or the last day type of monthly progress lines. |
-| [MonthlyFirstLastMonthNumber](monthlyfirstlastmonthnumber) { get; set; } | Gets or sets the month number of progress lines, which are shown by first or last predefined day. |
-| [WeeklyDays](weeklydays) { get; } | Gets a list of days for weekly progress lines. |
-| [WeeklyWeekNumber](weeklyweeknumber) { get; set; } | Gets or sets the week number for weekly progress lines. |
+| [DailyDayNumber](../../aspose.tasks.visualization/recurringinterval/dailydaynumber) { get; set; } | Gets or sets the daily day number. |
+| [DailyWorkday](../../aspose.tasks.visualization/recurringinterval/dailyworkday) { get; set; } | Gets or sets a value indicating whether a day is workday for daily progress lines. |
+| [Interval](../../aspose.tasks.visualization/recurringinterval/interval) { get; set; } | Gets or sets the recurring interval. Can be any value of [`Interval`](./interval) type. |
+| [MonthlyDay](../../aspose.tasks.visualization/recurringinterval/monthlyday) { get; set; } | Gets or sets a value indicating whether to show monthly progress lines by day. |
+| [MonthlyDayDayNumber](../../aspose.tasks.visualization/recurringinterval/monthlydaydaynumber) { get; set; } | Gets or sets the day number of monthly progress lines. |
+| [MonthlyDayMonthNumber](../../aspose.tasks.visualization/recurringinterval/monthlydaymonthnumber) { get; set; } | Gets or sets the month number of monthly progress lines. |
+| [MonthlyFirstLast](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlast) { get; set; } | Gets or sets a value indicating whether to show progress lines by first or last predefined day. |
+| [MonthlyFirstLastDay](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlastday) { get; set; } | Gets or sets the first or the last day type of monthly progress lines. |
+| [MonthlyFirstLastMonthNumber](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlastmonthnumber) { get; set; } | Gets or sets the month number of progress lines, which are shown by first or last predefined day. |
+| [WeeklyDays](../../aspose.tasks.visualization/recurringinterval/weeklydays) { get; } | Gets a list of days for weekly progress lines. |
+| [WeeklyWeekNumber](../../aspose.tasks.visualization/recurringinterval/weeklyweeknumber) { get; set; } | Gets or sets the week number for weekly progress lines. |
 
 ### See Also
 

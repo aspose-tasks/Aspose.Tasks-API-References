@@ -18,7 +18,14 @@ public sealed class BuiltInProjectProperty : Property
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets the value of the property. |
+| [Name](../../aspose.tasks.properties/property/name) { get; } | Gets a name of the property. |
+| [Value](../../aspose.tasks.properties/builtinprojectproperty/value) { get; set; } | Gets or sets the value of the property. (2 properties) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.tasks.properties/property/tostring)() | Returns the property value as string. |
 
 ### See Also
 

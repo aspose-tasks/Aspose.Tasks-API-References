@@ -18,7 +18,7 @@ public abstract class RecurrencePatternBase
 
 | Name | Description |
 | --- | --- |
-| [RecurrenceRange](recurrencerange) { get; set; } | Gets or sets the recurrence range. |
+| [RecurrenceRange](../../aspose.tasks/recurrencepatternbase/recurrencerange) { get; set; } | Gets or sets the recurrence range. |
 
 ### See Also
 

@@ -24,13 +24,13 @@ public sealed class ProjectInfo
 
 | Name | Description |
 | --- | --- |
-| [CreatedDate](createddate) { get; } | Gets the date and time when the project was created. |
-| [Description](description) { get; } | Gets the description of the project. |
-| [Id](id) { get; } | Gets the unique identifier of the project. |
-| [IsCheckedOut](ischeckedout) { get; } | Gets a value indicating whether the project is checked out. |
-| [LastPublishedDate](lastpublisheddate) { get; } | Gets the most recent date when the project was published. |
-| [LastSavedDate](lastsaveddate) { get; } | Gets the most recent date when the project was saved. |
-| [Name](name) { get; } | Gets the name of the project. |
+| [CreatedDate](../../aspose.tasks/projectinfo/createddate) { get; } | Gets the date and time when the project was created. |
+| [Description](../../aspose.tasks/projectinfo/description) { get; } | Gets the description of the project. |
+| [Id](../../aspose.tasks/projectinfo/id) { get; } | Gets the unique identifier of the project. |
+| [IsCheckedOut](../../aspose.tasks/projectinfo/ischeckedout) { get; } | Gets a value indicating whether the project is checked out. |
+| [LastPublishedDate](../../aspose.tasks/projectinfo/lastpublisheddate) { get; } | Gets the most recent date when the project was published. |
+| [LastSavedDate](../../aspose.tasks/projectinfo/lastsaveddate) { get; } | Gets the most recent date when the project was saved. |
+| [Name](../../aspose.tasks/projectinfo/name) { get; } | Gets the name of the project. |
 
 ### See Also
 

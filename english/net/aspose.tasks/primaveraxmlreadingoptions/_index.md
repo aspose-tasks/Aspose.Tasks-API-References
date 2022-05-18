@@ -18,7 +18,7 @@ public class PrimaveraXmlReadingOptions
 
 | Name | Description |
 | --- | --- |
-| [ProjectUid](projectuid) { get; set; } | Gets or sets the UID of a project to read from file containing multiple projects. |
+| [ProjectUid](../../aspose.tasks/primaveraxmlreadingoptions/projectuid) { get; set; } | Gets or sets the UID of a project to read from file containing multiple projects. |
 
 ### See Also
 

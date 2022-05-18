@@ -24,8 +24,8 @@ public class ByYearDayRepetition : YearlyRepetitionBase
 
 | Name | Description |
 | --- | --- |
-| [DayPosition](dayposition) { get; set; } | Gets or sets a position of day in a month on which the task must be recurring. |
-| [Month](month) { get; set; } | Gets or sets a month on which the task must be recurring. |
+| [DayPosition](../../aspose.tasks/byyeardayrepetition/dayposition) { get; set; } | Gets or sets a position of day in a month on which the task must be recurring. |
+| [Month](../../aspose.tasks/byyeardayrepetition/month) { get; set; } | Gets or sets a month on which the task must be recurring. |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public interface IVbaModule
 
 | Name | Description |
 | --- | --- |
-| [Attributes](attributes) { get; } | Gets a collection of [`VbaModuleAttributeCollection`](../vbamoduleattributecollection) |
-| [Name](name) { get; } | Gets a name of the VBA module |
-| [SourceCode](sourcecode) { get; } | Gets a source Code of the VBA module |
+| [Attributes](../../aspose.tasks/ivbamodule/attributes) { get; } | Gets a collection of [`VbaModuleAttributeCollection`](../vbamoduleattributecollection) |
+| [Name](../../aspose.tasks/ivbamodule/name) { get; } | Gets a name of the VBA module |
+| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode) { get; } | Gets a source Code of the VBA module |
 
 ### See Also
 

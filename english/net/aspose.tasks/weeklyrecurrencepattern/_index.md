@@ -24,7 +24,8 @@ public class WeeklyRecurrencePattern : RecurrencePatternBase
 
 | Name | Description |
 | --- | --- |
-| [Repetition](repetition) { get; set; } | Gets or sets the recurring repetition pattern. |
+| [RecurrenceRange](../../aspose.tasks/recurrencepatternbase/recurrencerange) { get; set; } | Gets or sets the recurrence range. |
+| [Repetition](../../aspose.tasks/weeklyrecurrencepattern/repetition) { get; set; } | Gets or sets the recurring repetition pattern. |
 
 ### See Also
 

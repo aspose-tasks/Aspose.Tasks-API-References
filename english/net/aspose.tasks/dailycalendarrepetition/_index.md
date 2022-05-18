@@ -20,6 +20,12 @@ public class DailyCalendarRepetition : DailyRepetitionBase
 | --- | --- |
 | [DailyCalendarRepetition](dailycalendarrepetition)() | Initializes a new instance of the [`DailyCalendarRepetition`](../dailycalendarrepetition) class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [RepetitionInterval](../../aspose.tasks/dailyrepetitionbase/repetitioninterval) { get; set; } | Gets or sets a number of days which represents the interval in days between occurrences. |
+
 ### See Also
 
 * class [DailyRepetitionBase](../dailyrepetitionbase)

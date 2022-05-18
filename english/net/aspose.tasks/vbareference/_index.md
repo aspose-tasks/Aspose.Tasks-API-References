@@ -24,16 +24,16 @@ public sealed class VbaReference : IEquatable<VbaReference>
 
 | Name | Description |
 | --- | --- |
-| [LibIdentifier](libidentifier) { get; } | Gets identifier of the library. |
-| [Name](name) { get; set; } | Gets or sets name of VBA reference. |
+| [LibIdentifier](../../aspose.tasks/vbareference/libidentifier) { get; } | Gets identifier of the library. |
+| [Name](../../aspose.tasks/vbareference/name) { get; set; } | Gets or sets name of VBA reference. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
-| [Equals](equals)(VbaReference) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for this [`VbaReference`](../vbareference). |
+| override [Equals](../../aspose.tasks/vbareference/equals)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
+| [Equals](../../aspose.tasks/vbareference/equals)(VbaReference) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
+| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode)() | Returns a hash code value for this [`VbaReference`](../vbareference). |
 
 ### See Also
 

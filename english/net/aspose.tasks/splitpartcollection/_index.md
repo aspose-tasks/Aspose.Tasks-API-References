@@ -18,15 +18,15 @@ public class SplitPartCollection : IList<SplitPart>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of parts in the collection. |
-| [Item](item) { get; set; } | Retrieves a task's split part at the given index. |
+| [Count](../../aspose.tasks/splitpartcollection/count) { get; } | Gets the number of parts in the collection. |
+| [Item](../../aspose.tasks/splitpartcollection/item) { get; set; } | Retrieves a task's split part at the given index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [ToArray](toarray)() | Copies all parts from the collection to a new array. |
+| [GetEnumerator](../../aspose.tasks/splitpartcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [ToArray](../../aspose.tasks/splitpartcollection/toarray)() | Copies all parts from the collection to a new array. |
 
 ### See Also
 

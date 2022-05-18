@@ -18,29 +18,29 @@ public class Resource : IEquatable<Resource>
 
 | Name | Description |
 | --- | --- |
-| [Assignments](assignments) { get; } | Gets a collection of resource assignments for this object. |
-| [AvailabilityPeriods](availabilityperiods) { get; } | Gets a the instance of the [`AvailabilityPeriodCollection`](../availabilityperiodcollection) class. The collection of periods during which a resource is available. |
-| [Baselines](baselines) { get; } | Gets a BaselineCollection instance for this object. The baseline values for a resource. |
-| [ExtendedAttributes](extendedattributes) { get; } | Gets the values of an extended attribute. |
-| [OutlineCode](outlinecode) { get; } | Gets an OutlineCodeCollection object. The value of an outline code. |
-| [ParentProject](parentproject) { get; } | Gets parent project for this container. |
-| [Rates](rates) { get; } | Gets a the instance of the [`RateCollection`](../ratecollection) class for this object. The collection of periods and rates associated with each one. |
-| [TimephasedData](timephaseddata) { get; set; } | Gets or sets an instance of [`TimephasedDataCollection`](../timephaseddatacollection) class for this object. |
+| [Assignments](../../aspose.tasks/resource/assignments) { get; } | Gets a collection of resource assignments for this object. |
+| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods) { get; } | Gets a the instance of the [`AvailabilityPeriodCollection`](../availabilityperiodcollection) class. The collection of periods during which a resource is available. |
+| [Baselines](../../aspose.tasks/resource/baselines) { get; } | Gets a BaselineCollection instance for this object. The baseline values for a resource. |
+| [ExtendedAttributes](../../aspose.tasks/resource/extendedattributes) { get; } | Gets the values of an extended attribute. |
+| [OutlineCode](../../aspose.tasks/resource/outlinecode) { get; } | Gets an OutlineCodeCollection object. The value of an outline code. |
+| [ParentProject](../../aspose.tasks/resource/parentproject) { get; } | Gets parent project for this container. |
+| [Rates](../../aspose.tasks/resource/rates) { get; } | Gets a the instance of the [`RateCollection`](../ratecollection) class for this object. The collection of periods and rates associated with each one. |
+| [TimephasedData](../../aspose.tasks/resource/timephaseddata) { get; set; } | Gets or sets an instance of [`TimephasedDataCollection`](../timephaseddatacollection) class for this object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Delete](delete)() | Deletes a resource and its assignments from project. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](equals)(Resource) | Returns a value indicating whether this instance is equal to a specified instance of the [`Resource`](../resource) class. |
-| [Get&lt;T&gt;](get)(Key&lt;T, RscKey&gt;) | Returns the value to which the property is mapped in this container. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
-| [GetTimephasedData](gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) for this object with [`TimephasedData`](./timephaseddata)values within given start and end dates. |
-| [GetTimephasedData](gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns an instance of the [`TimephasedDataCollection`](../timephaseddatacollection) class for this object with the [`TimephasedData`](./timephaseddata) values within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
-| [Set](set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Maps the specified property to the specified value in this container. |
-| [Set&lt;T&gt;](set)(Key&lt;T, RscKey&gt;, T) | Maps the specified property to the specified value in this container. |
-| override [ToString](tostring)() | Returns short string representation of the instance of the [`Resource`](../resource) class. The exact details of the representation are unspecified and subject to change. |
+| [Delete](../../aspose.tasks/resource/delete)() | Deletes a resource and its assignments from project. |
+| override [Equals](../../aspose.tasks/resource/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/resource/equals)(Resource) | Returns a value indicating whether this instance is equal to a specified instance of the [`Resource`](../resource) class. |
+| [Get&lt;T&gt;](../../aspose.tasks/resource/get)(Key&lt;T, RscKey&gt;) | Returns the value to which the property is mapped in this container. |
+| override [GetHashCode](../../aspose.tasks/resource/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) for this object with [`TimephasedData`](./timephaseddata)values within given start and end dates. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns an instance of the [`TimephasedDataCollection`](../timephaseddatacollection) class for this object with the [`TimephasedData`](./timephaseddata) values within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
+| [Set](../../aspose.tasks/resource/set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Maps the specified property to the specified value in this container. |
+| [Set&lt;T&gt;](../../aspose.tasks/resource/set)(Key&lt;T, RscKey&gt;, T) | Maps the specified property to the specified value in this container. |
+| override [ToString](../../aspose.tasks/resource/tostring)() | Returns short string representation of the instance of the [`Resource`](../resource) class. The exact details of the representation are unspecified and subject to change. |
 
 ### See Also
 

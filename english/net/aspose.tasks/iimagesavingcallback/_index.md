@@ -18,7 +18,7 @@ public interface IImageSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [ImageSaving](imagesaving)(ImageSavingArgs) | The method to be called while saving of images. |
+| [ImageSaving](../../aspose.tasks/iimagesavingcallback/imagesaving)(ImageSavingArgs) | The method to be called while saving of images. |
 
 ### See Also
 

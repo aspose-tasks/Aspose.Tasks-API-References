@@ -25,7 +25,7 @@ public class PrimaveraXerReader
 
 | Name | Description |
 | --- | --- |
-| [GetProjectUids](getprojectuids)() | Return a list of the projects' unique identifiers. |
+| [GetProjectUids](../../aspose.tasks/primaveraxerreader/getprojectuids)() | Return a list of the projects' unique identifiers. |
 
 ### See Also
 

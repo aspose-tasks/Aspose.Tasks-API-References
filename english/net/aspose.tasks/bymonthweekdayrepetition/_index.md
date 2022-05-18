@@ -24,8 +24,9 @@ public class ByMonthWeekDayRepetition : MonthlyRepetitionBase
 
 | Name | Description |
 | --- | --- |
-| [Position](position) { get; set; } | Gets or sets a position of weekday in a month on which the task must be recurring. |
-| [WeekDay](weekday) { get; set; } | Gets or sets a type of weekday on which the task must be recurring. |
+| [Position](../../aspose.tasks/bymonthweekdayrepetition/position) { get; set; } | Gets or sets a position of weekday in a month on which the task must be recurring. |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval) { get; set; } | Gets or sets a number of month which represents the interval in months between occurrences. |
+| [WeekDay](../../aspose.tasks/bymonthweekdayrepetition/weekday) { get; set; } | Gets or sets a type of weekday on which the task must be recurring. |
 
 ### See Also
 

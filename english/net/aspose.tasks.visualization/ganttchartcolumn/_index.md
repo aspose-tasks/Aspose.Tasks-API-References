@@ -27,13 +27,17 @@ public sealed class GanttChartColumn : ViewColumn
 
 | Name | Description |
 | --- | --- |
-| override [Field](field) { get; set; } | Column field. [`Field`](./field). |
+| override [Field](../../aspose.tasks.visualization/ganttchartcolumn/field) { get; set; } | Column field. [`Field`](./field). |
+| [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | Gets the column name. |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Gets or sets alignment of the text (can be one of the values of the [`StringAlignment`](../viewcolumn/stringalignment) enumeration). |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | Gets or sets the callback which can be used to customize the appearance of the column's cells. |
+| [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | Gets the column width. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetColumnText](getcolumntext)(Task) | Converts current task to the column text. |
+| [GetColumnText](../../aspose.tasks.visualization/ganttchartcolumn/getcolumntext)(Task) | Converts current task to the column text. |
 
 ### See Also
 

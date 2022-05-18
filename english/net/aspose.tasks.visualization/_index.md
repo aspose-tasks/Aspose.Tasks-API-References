@@ -39,7 +39,7 @@ Contains helper classes for rendering.
 | [TextStyle](./textstyle) | Change the visual style of the text for an item in the project view. |
 | [TimescaleTier](./timescaletier) | Represents a single tier of the timescale on a Gantt Chart. |
 | [ViewColumn](./viewcolumn) | Represents a column in a project view. |
-| [VisualObjectPlacement](./visualobjectplacement) | Represents placement and appearance of [`OleObject`](aspose.tasks/oleobject) in a view. |
+| [VisualObjectPlacement](./visualobjectplacement) | Represents placement and appearance of [`OleObject`](../aspose.tasks/oleobject) in a view. |
 ## Interfaces
 
 | Interface | Description |
@@ -69,7 +69,7 @@ Contains helper classes for rendering.
 | [PresentationFormat](./presentationformat) | Enumeration for presentation format. |
 | [PrinterPaperSize](./printerpapersize) | Specifies the paper size which is used for printing. |
 | [ReportType](./reporttype) | Type of the project's graphical report. |
-| [Shape](./shape) | Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of [`SaveFileFormat`](aspose.tasks.saving/savefileformat). |
+| [Shape](./shape) | Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of [`SaveFileFormat`](../aspose.tasks.saving/savefileformat). |
 | [TextItemType](./textitemtype) | Item type to change a text style for. |
 | [Timescale](./timescale) | Defines options which specifies how to render timescale in Gantt Chart, Task Usage or Resource Usage views when the project is exported to a graphic format. |
 | [TimescaleUnit](./timescaleunit) | Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view. |

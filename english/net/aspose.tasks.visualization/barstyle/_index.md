@@ -24,24 +24,24 @@ public class BarStyle
 
 | Name | Description |
 | --- | --- |
-| [BarColor](barcolor) { get; set; } | Gets or sets Color of the bar style. |
-| [BarShape](barshape) { get; set; } | Gets or sets [`BarShape`](./barshape) of the bar style. |
-| [BottomBarTextConverter](bottombartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of [`BottomField`](./bottomfield) property. |
-| [BottomField](bottomfield) { get; set; } | Gets or sets a field to be displayed on the bottom of the bar. |
-| [EndShape](endshape) { get; set; } | Gets or sets [`Shape`](../shape) at the end of the bar. |
-| [EndShapeColor](endshapecolor) { get; set; } | Gets or sets Color of the shape at the end of the bar. |
-| [InsideBarTextConverter](insidebartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render inside of the task's bar. Overrides the value of [`InsideField`](./insidefield) property. |
-| [InsideField](insidefield) { get; set; } | Gets or sets a field to be displayed inside of the bar. |
-| [ItemType](itemtype) { get; set; } | Gets or sets [`BarItemType`](../baritemtype) of the bar style. |
-| [LeftBarTextConverter](leftbartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the left of the task's bar. Overrides the value of [`LeftField`](./leftfield) property. |
-| [LeftField](leftfield) { get; set; } | Gets or sets a field to be displayed on the left of the bar. |
-| [RightBarTextConverter](rightbartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the right of the task's bar. Overrides the value of [`RightField`](./rightfield) property. |
-| [RightField](rightfield) { get; set; } | Gets or sets a field to be displayed on the right of the bar. |
-| [StartShape](startshape) { get; set; } | Gets or sets [`Shape`](../shape) at the beginning of the bar. |
-| [StartShapeColor](startshapecolor) { get; set; } | Gets or sets Color of the shape at the beginning of the bar. |
-| [TextStyle](textstyle) { get; set; } | Gets or sets style of the bar's text. |
-| [TopBarTextConverter](topbartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the top of the task's bar. Overrides the value of [`TopField`](./topfield) property. |
-| [TopField](topfield) { get; set; } | Gets or sets a field to be displayed on the top of the bar. |
+| [BarColor](../../aspose.tasks.visualization/barstyle/barcolor) { get; set; } | Gets or sets Color of the bar style. |
+| [BarShape](../../aspose.tasks.visualization/barstyle/barshape) { get; set; } | Gets or sets [`BarShape`](./barshape) of the bar style. |
+| [BottomBarTextConverter](../../aspose.tasks.visualization/barstyle/bottombartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of [`BottomField`](./bottomfield) property. |
+| [BottomField](../../aspose.tasks.visualization/barstyle/bottomfield) { get; set; } | Gets or sets a field to be displayed on the bottom of the bar. |
+| [EndShape](../../aspose.tasks.visualization/barstyle/endshape) { get; set; } | Gets or sets [`Shape`](../shape) at the end of the bar. |
+| [EndShapeColor](../../aspose.tasks.visualization/barstyle/endshapecolor) { get; set; } | Gets or sets Color of the shape at the end of the bar. |
+| [InsideBarTextConverter](../../aspose.tasks.visualization/barstyle/insidebartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render inside of the task's bar. Overrides the value of [`InsideField`](./insidefield) property. |
+| [InsideField](../../aspose.tasks.visualization/barstyle/insidefield) { get; set; } | Gets or sets a field to be displayed inside of the bar. |
+| [ItemType](../../aspose.tasks.visualization/barstyle/itemtype) { get; set; } | Gets or sets [`BarItemType`](../baritemtype) of the bar style. |
+| [LeftBarTextConverter](../../aspose.tasks.visualization/barstyle/leftbartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the left of the task's bar. Overrides the value of [`LeftField`](./leftfield) property. |
+| [LeftField](../../aspose.tasks.visualization/barstyle/leftfield) { get; set; } | Gets or sets a field to be displayed on the left of the bar. |
+| [RightBarTextConverter](../../aspose.tasks.visualization/barstyle/rightbartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the right of the task's bar. Overrides the value of [`RightField`](./rightfield) property. |
+| [RightField](../../aspose.tasks.visualization/barstyle/rightfield) { get; set; } | Gets or sets a field to be displayed on the right of the bar. |
+| [StartShape](../../aspose.tasks.visualization/barstyle/startshape) { get; set; } | Gets or sets [`Shape`](../shape) at the beginning of the bar. |
+| [StartShapeColor](../../aspose.tasks.visualization/barstyle/startshapecolor) { get; set; } | Gets or sets Color of the shape at the beginning of the bar. |
+| [TextStyle](../../aspose.tasks.visualization/barstyle/textstyle) { get; set; } | Gets or sets style of the bar's text. |
+| [TopBarTextConverter](../../aspose.tasks.visualization/barstyle/topbartextconverter) { get; set; } | Gets or sets user-defined converter to get text to render on the top of the task's bar. Overrides the value of [`TopField`](./topfield) property. |
+| [TopField](../../aspose.tasks.visualization/barstyle/topfield) { get; set; } | Gets or sets a field to be displayed on the top of the bar. |
 
 ### See Also
 

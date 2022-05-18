@@ -24,10 +24,10 @@ public class WBSCodeMask
 
 | Name | Description |
 | --- | --- |
-| [Length](length) { get; set; } | Gets or sets the number of characters of the code string. |
-| [Level](level) { get; } | Gets the mask level. |
-| [Separator](separator) { get; set; } | Gets or sets the separator of the code string. Default value is Period. |
-| [Sequence](sequence) { get; set; } | Gets or sets the type of character of the code string. |
+| [Length](../../aspose.tasks/wbscodemask/length) { get; set; } | Gets or sets the number of characters of the code string. |
+| [Level](../../aspose.tasks/wbscodemask/level) { get; } | Gets the mask level. |
+| [Separator](../../aspose.tasks/wbscodemask/separator) { get; set; } | Gets or sets the separator of the code string. Default value is Period. |
+| [Sequence](../../aspose.tasks/wbscodemask/sequence) { get; set; } | Gets or sets the type of character of the code string. |
 
 ### See Also
 

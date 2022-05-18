@@ -18,17 +18,17 @@ public class TaskBaselineCollection : IList<TaskBaseline>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this TaskBaselineCollection object. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
+| [Count](../../aspose.tasks/taskbaselinecollection/count) { get; } | Gets the number of objects contained in this TaskBaselineCollection object. |
+| [Item](../../aspose.tasks/taskbaselinecollection/item) { get; set; } | Returns the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(TaskBaseline) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(TaskBaseline) | Removes baseline from this collection. |
-| [ToList](tolist)() | Converts the TaskBaselineCollection object to a list of [`TaskBaseline`](../taskbaseline) objects. |
+| [Add](../../aspose.tasks/taskbaselinecollection/add)(TaskBaseline) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
+| [GetEnumerator](../../aspose.tasks/taskbaselinecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/taskbaselinecollection/remove)(TaskBaseline) | Removes baseline from this collection. |
+| [ToList](../../aspose.tasks/taskbaselinecollection/tolist)() | Converts the TaskBaselineCollection object to a list of [`TaskBaseline`](../taskbaseline) objects. |
 
 ### See Also
 

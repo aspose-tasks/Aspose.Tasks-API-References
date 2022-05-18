@@ -18,9 +18,9 @@ public static class ListUtils
 
 | Name | Description |
 | --- | --- |
-| static [Apply&lt;T&gt;](apply)(IList&lt;T&gt;, IAlgorithm&lt;T&gt;, int) | Apply algorithm for each list element starting from specified position. |
-| static [Filter&lt;T&gt;](filter)(IList&lt;T&gt;, ICondition&lt;T&gt;) | Filter list elements by specified condition. |
-| static [Find&lt;T&gt;](find)(IList&lt;T&gt;, ICondition&lt;T&gt;) | Find first occurrence of an list element which satisfy specified condition. |
+| static [Apply&lt;T&gt;](../../aspose.tasks.util/listutils/apply)(IList&lt;T&gt;, IAlgorithm&lt;T&gt;, int) | Apply algorithm for each list element starting from specified position. |
+| static [Filter&lt;T&gt;](../../aspose.tasks.util/listutils/filter)(IList&lt;T&gt;, ICondition&lt;T&gt;) | Filter list elements by specified condition. |
+| static [Find&lt;T&gt;](../../aspose.tasks.util/listutils/find)(IList&lt;T&gt;, ICondition&lt;T&gt;) | Find first occurrence of an list element which satisfy specified condition. |
 
 ### See Also
 

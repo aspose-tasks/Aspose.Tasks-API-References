@@ -18,14 +18,14 @@ public class Rate
 
 | Name | Description |
 | --- | --- |
-| [CostPerUse](costperuse) { get; set; } | Gets or sets the cost per use of a resource. This value retrieved from the current date if a rate table exists for a resource. |
-| [OvertimeRate](overtimerate) { get; set; } | Gets or sets the overtime rate per hour for a resource. |
-| [OvertimeRateFormat](overtimerateformat) { get; set; } | Gets or sets the units used by Microsoft Project to display the overtime rate. |
-| [RatesFrom](ratesfrom) { get; set; } | Gets or sets the date when a rate becomes effective. |
-| [RatesTo](ratesto) { get; set; } | Gets or sets the last date when a rate is effective. |
-| [RateTable](ratetable) { get; set; } | Gets or sets the unique identifier of a rate table for a resource. |
-| [StandardRate](standardrate) { get; set; } | Gets or sets the standard rate per hour for a resource. |
-| [StandardRateFormat](standardrateformat) { get; set; } | Gets or sets the units used by Microsoft Project to display the standard rate. |
+| [CostPerUse](../../aspose.tasks/rate/costperuse) { get; set; } | Gets or sets the cost per use of a resource. This value retrieved from the current date if a rate table exists for a resource. |
+| [OvertimeRate](../../aspose.tasks/rate/overtimerate) { get; set; } | Gets or sets the overtime rate per hour for a resource. |
+| [OvertimeRateFormat](../../aspose.tasks/rate/overtimerateformat) { get; set; } | Gets or sets the units used by Microsoft Project to display the overtime rate. |
+| [RatesFrom](../../aspose.tasks/rate/ratesfrom) { get; set; } | Gets or sets the date when a rate becomes effective. |
+| [RatesTo](../../aspose.tasks/rate/ratesto) { get; set; } | Gets or sets the last date when a rate is effective. |
+| [RateTable](../../aspose.tasks/rate/ratetable) { get; set; } | Gets or sets the unique identifier of a rate table for a resource. |
+| [StandardRate](../../aspose.tasks/rate/standardrate) { get; set; } | Gets or sets the standard rate per hour for a resource. |
+| [StandardRateFormat](../../aspose.tasks/rate/standardrateformat) { get; set; } | Gets or sets the units used by Microsoft Project to display the standard rate. |
 
 ### See Also
 

@@ -18,23 +18,23 @@ public class ResourceCollection : IList<Resource>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the ResourceCollection. Read-only Int32. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
-| [ParentProject](parentproject) { get; } | Gets the parent project of the ResourceCollection object. |
+| [Count](../../aspose.tasks/resourcecollection/count) { get; } | Gets the number of elements contained in the ResourceCollection. Read-only Int32. |
+| [Item](../../aspose.tasks/resourcecollection/item) { get; set; } | Returns the element at the specified index. |
+| [ParentProject](../../aspose.tasks/resourcecollection/parentproject) { get; } | Gets the parent project of the ResourceCollection object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)() | Adds new resource at the last position of a project resources collection. |
-| [Add](add)(string) | Adds new resource at the last position of a project resources collection. |
-| [Add](add)(string, int) | Adds new resource at the specified position of a project resources collection. |
-| [Clear](clear)() | Direct clearing is not supported, this method just throw NotSupportedException. |
-| [GetById](getbyid)(int) | Returns a resource with the specified id. |
-| [GetByUid](getbyuid)(int) | Returns a resource with the specified Uid. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(Resource) | This is the stub implementation of ICollection's Remove method, that only throws NotSupportedException |
-| [ToList](tolist)() | Converts the ResourceCollection object to a list of [`Resource`](../resource) objects. |
+| [Add](../../aspose.tasks/resourcecollection/add)() | Adds new resource at the last position of a project resources collection. |
+| [Add](../../aspose.tasks/resourcecollection/add)(string) | Adds new resource at the last position of a project resources collection. |
+| [Add](../../aspose.tasks/resourcecollection/add)(string, int) | Adds new resource at the specified position of a project resources collection. |
+| [Clear](../../aspose.tasks/resourcecollection/clear)() | Direct clearing is not supported, this method just throw NotSupportedException. |
+| [GetById](../../aspose.tasks/resourcecollection/getbyid)(int) | Returns a resource with the specified id. |
+| [GetByUid](../../aspose.tasks/resourcecollection/getbyuid)(int) | Returns a resource with the specified Uid. |
+| [GetEnumerator](../../aspose.tasks/resourcecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/resourcecollection/remove)(Resource) | This is the stub implementation of ICollection's Remove method, that only throws NotSupportedException |
+| [ToList](../../aspose.tasks/resourcecollection/tolist)() | Converts the ResourceCollection object to a list of [`Resource`](../resource) objects. |
 
 ### See Also
 

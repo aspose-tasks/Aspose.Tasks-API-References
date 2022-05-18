@@ -24,9 +24,9 @@ public class WorkUnit
 
 | Name | Description |
 | --- | --- |
-| [From](from) { get; set; } | Gets or sets the From date. |
-| [To](to) { get; set; } | Gets or sets the To date. |
-| [WorkingHours](workinghours) { get; set; } | Gets or sets the duration of working hours. |
+| [From](../../aspose.tasks/workunit/from) { get; set; } | Gets or sets the From date. |
+| [To](../../aspose.tasks/workunit/to) { get; set; } | Gets or sets the To date. |
+| [WorkingHours](../../aspose.tasks/workunit/workinghours) { get; set; } | Gets or sets the duration of working hours. |
 
 ### See Also
 

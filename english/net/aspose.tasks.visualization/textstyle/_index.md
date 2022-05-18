@@ -27,11 +27,11 @@ public class TextStyle
 
 | Name | Description |
 | --- | --- |
-| [BackgroundColor](backgroundcolor) { get; set; } | Gets or sets background color of the text style. [`Color`](./color). |
-| [BackgroundPattern](backgroundpattern) { get; set; } | Gets or sets background pattern of the text style. [`BackgroundPattern`](./backgroundpattern). |
-| [Color](color) { get; set; } | Gets or sets color of the text. |
-| [Font](font) { get; set; } | Gets or sets font of the text style. |
-| virtual [ItemType](itemtype) { get; set; } | Gets or sets [`TextItemType`](../textitemtype) of the text style. |
+| [BackgroundColor](../../aspose.tasks.visualization/textstyle/backgroundcolor) { get; set; } | Gets or sets background color of the text style. [`Color`](./color). |
+| [BackgroundPattern](../../aspose.tasks.visualization/textstyle/backgroundpattern) { get; set; } | Gets or sets background pattern of the text style. [`BackgroundPattern`](./backgroundpattern). |
+| [Color](../../aspose.tasks.visualization/textstyle/color) { get; set; } | Gets or sets color of the text. |
+| [Font](../../aspose.tasks.visualization/textstyle/font) { get; set; } | Gets or sets font of the text style. |
+| virtual [ItemType](../../aspose.tasks.visualization/textstyle/itemtype) { get; set; } | Gets or sets [`TextItemType`](../textitemtype) of the text style. |
 
 ### See Also
 

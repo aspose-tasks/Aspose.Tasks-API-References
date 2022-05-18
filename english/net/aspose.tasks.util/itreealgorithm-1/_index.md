@@ -22,9 +22,9 @@ public interface ITreeAlgorithm<in T>
 
 | Name | Description |
 | --- | --- |
-| [Alg](alg)(T, int) | Processes a node of a tree. |
-| [PostAlg](postalg)(T, int) | Called after processing of a node of a tree. |
-| [PreAlg](prealg)(T, int) | Called before processing of a node of a tree. |
+| [Alg](../../aspose.tasks.util/itreealgorithm`1/alg)(T, int) | Processes a node of a tree. |
+| [PostAlg](../../aspose.tasks.util/itreealgorithm`1/postalg)(T, int) | Called after processing of a node of a tree. |
+| [PreAlg](../../aspose.tasks.util/itreealgorithm`1/prealg)(T, int) | Called before processing of a node of a tree. |
 
 ### See Also
 

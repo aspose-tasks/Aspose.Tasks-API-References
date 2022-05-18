@@ -18,17 +18,17 @@ public class WorkWeekCollection : IList<WorkWeek>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this [`WorkWeekCollection`](../workweekcollection) object. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
-| [ParentCalendar](parentcalendar) { get; } | Gets the parent calendar. |
+| [Count](../../aspose.tasks/workweekcollection/count) { get; } | Gets the number of objects contained in this [`WorkWeekCollection`](../workweekcollection) object. |
+| [Item](../../aspose.tasks/workweekcollection/item) { get; set; } | Returns the element at the specified index. |
+| [ParentCalendar](../../aspose.tasks/workweekcollection/parentcalendar) { get; } | Gets the parent calendar. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(WorkWeek) | Adds WorkWeek instance to this collection object. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [ToList](tolist)() | Converts the WorkWeekCollection object to a list of [`WorkWeek`](../workweek) objects. |
+| [Add](../../aspose.tasks/workweekcollection/add)(WorkWeek) | Adds WorkWeek instance to this collection object. |
+| [GetEnumerator](../../aspose.tasks/workweekcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [ToList](../../aspose.tasks/workweekcollection/tolist)() | Converts the WorkWeekCollection object to a list of [`WorkWeek`](../workweek) objects. |
 
 ### See Also
 

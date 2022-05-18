@@ -16,9 +16,9 @@ Contains classes for creating Risk Analysis Report.
 | [RiskAnalysisSettings](./riskanalysissettings) | Specifies settings for performing risk analysis. |
 | [RiskAnalyzer](./riskanalyzer) | Performs a Monte Carlo simulation based on the specified risk analysis settings. |
 | [RiskItemStatistics](./riskitemstatistics) | Represents an item which stores statistical data for the task of the analyzed project. |
-| [RiskItemStatisticsCollection](./riskitemstatisticscollection) | Represents a collection containing the instances of the [`RiskItemStatistics`](aspose.tasks.riskanalysis/riskitemstatistics) class. |
+| [RiskItemStatisticsCollection](./riskitemstatisticscollection) | Represents a collection containing the instances of the [`RiskItemStatistics`](../aspose.tasks.riskanalysis/riskitemstatistics) class. |
 | [RiskPattern](./riskpattern) | Represents a risk pattern for a project task. |
-| [RiskPatternCollection](./riskpatterncollection) | Represents a collection containing the instances of the [`RiskPattern`](aspose.tasks.riskanalysis/riskpattern) class. |
+| [RiskPatternCollection](./riskpatterncollection) | Represents a collection containing the instances of the [`RiskPattern`](../aspose.tasks.riskanalysis/riskpattern) class. |
 ## Enumeration
 
 | Enumeration | Description |

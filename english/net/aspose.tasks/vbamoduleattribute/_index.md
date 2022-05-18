@@ -18,16 +18,16 @@ public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 
 | Name | Description |
 | --- | --- |
-| [Key](key) { get; } | Gets key of VBA module attribute. |
-| [Value](value) { get; } | Gets value of VBA module attribute. |
+| [Key](../../aspose.tasks/vbamoduleattribute/key) { get; } | Gets key of VBA module attribute. |
+| [Value](../../aspose.tasks/vbamoduleattribute/value) { get; } | Gets value of VBA module attribute. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
-| [Equals](equals)(VbaModuleAttribute) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for this [`VbaModuleAttribute`](../vbamoduleattribute). |
+| override [Equals](../../aspose.tasks/vbamoduleattribute/equals)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
+| [Equals](../../aspose.tasks/vbamoduleattribute/equals)(VbaModuleAttribute) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
+| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode)() | Returns a hash code value for this [`VbaModuleAttribute`](../vbamoduleattribute). |
 
 ### See Also
 

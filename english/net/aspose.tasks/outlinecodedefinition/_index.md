@@ -24,20 +24,20 @@ public class OutlineCodeDefinition
 
 | Name | Description |
 | --- | --- |
-| [Alias](alias) { get; set; } | Gets or sets the alias of a custom outline code. |
-| [AllLevelsRequired](alllevelsrequired) { get; set; } | Gets or sets a value indicating whether the new codes must have all levels. Not available for Enterprise Codes. |
-| [Enterprise](enterprise) { get; set; } | Gets or sets a value indicating whether a custom outline code is an enterprise custom outline code. |
-| [EnterpriseOutlineCodeAlias](enterpriseoutlinecodealias) { get; set; } | Gets or sets a reference to another custom field for which this outline code definition is an alias. |
-| [FieldId](fieldid) { get; set; } | Gets or sets the field number of an outline code. |
-| [FieldName](fieldname) { get; set; } | Gets or sets the name of a custom outline code. |
-| [Guid](guid) { get; set; } | Gets or sets the Guid of an outline code. |
-| [LeafOnly](leafonly) { get; set; } | Gets or sets a value indicating whether the values specified in this outline code field must be leaf values. |
-| [Masks](masks) { get; } | Gets the OutlineMaskCollection object. The table of entries that define the outline code mask. Read-only [`OutlineMaskCollection`](../outlinemaskcollection) instance. |
-| [OnlyTableValuesAllowed](onlytablevaluesallowed) { get; set; } | Gets or sets a value indicating whether the values specified must come from values table. |
-| [PhoneticAlias](phoneticalias) { get; set; } | Gets or sets the phonetic pronunciation of the alias of the custom outline code. |
-| [ResourceSubstitutionEnabled](resourcesubstitutionenabled) { get; set; } | Gets or sets a value indicating whether the custom outline code can be used by the Resource Substitution Wizard in Microsoft Project. |
-| [ShowIndent](showindent) { get; set; } | Gets or sets a value indicating whether the indents of this outline code must be shown. |
-| [Values](values) { get; } | Gets OutlineValueCollection object. The values of the table associated with this outline code. |
+| [Alias](../../aspose.tasks/outlinecodedefinition/alias) { get; set; } | Gets or sets the alias of a custom outline code. |
+| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired) { get; set; } | Gets or sets a value indicating whether the new codes must have all levels. Not available for Enterprise Codes. |
+| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise) { get; set; } | Gets or sets a value indicating whether a custom outline code is an enterprise custom outline code. |
+| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias) { get; set; } | Gets or sets a reference to another custom field for which this outline code definition is an alias. |
+| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid) { get; set; } | Gets or sets the field number of an outline code. |
+| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname) { get; set; } | Gets or sets the name of a custom outline code. |
+| [Guid](../../aspose.tasks/outlinecodedefinition/guid) { get; set; } | Gets or sets the Guid of an outline code. |
+| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly) { get; set; } | Gets or sets a value indicating whether the values specified in this outline code field must be leaf values. |
+| [Masks](../../aspose.tasks/outlinecodedefinition/masks) { get; } | Gets the OutlineMaskCollection object. The table of entries that define the outline code mask. Read-only [`OutlineMaskCollection`](../outlinemaskcollection) instance. |
+| [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed) { get; set; } | Gets or sets a value indicating whether the values specified must come from values table. |
+| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias) { get; set; } | Gets or sets the phonetic pronunciation of the alias of the custom outline code. |
+| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled) { get; set; } | Gets or sets a value indicating whether the custom outline code can be used by the Resource Substitution Wizard in Microsoft Project. |
+| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent) { get; set; } | Gets or sets a value indicating whether the indents of this outline code must be shown. |
+| [Values](../../aspose.tasks/outlinecodedefinition/values) { get; } | Gets OutlineValueCollection object. The values of the table associated with this outline code. |
 
 ### See Also
 

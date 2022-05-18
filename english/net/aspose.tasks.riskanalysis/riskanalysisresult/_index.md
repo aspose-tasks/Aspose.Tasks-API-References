@@ -18,9 +18,9 @@ public class RiskAnalysisResult
 
 | Name | Description |
 | --- | --- |
-| [GetRiskItems](getriskitems)(RiskItemType) | Returns an instance of the [`RiskItemStatisticsCollection`](../riskitemstatisticscollection) for the specified risk type. |
-| [SaveReport](savereport)(Stream) | Saves the risk analysis report to the stream in PDF format. |
-| [SaveReport](savereport)(string) | Saves the risk analysis report to the specified file path in PDF format. |
+| [GetRiskItems](../../aspose.tasks.riskanalysis/riskanalysisresult/getriskitems)(RiskItemType) | Returns an instance of the [`RiskItemStatisticsCollection`](../riskitemstatisticscollection) for the specified risk type. |
+| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport)(Stream) | Saves the risk analysis report to the stream in PDF format. |
+| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport)(string) | Saves the risk analysis report to the specified file path in PDF format. |
 
 ### See Also
 

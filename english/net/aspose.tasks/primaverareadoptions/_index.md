@@ -24,8 +24,8 @@ public class PrimaveraReadOptions
 
 | Name | Description |
 | --- | --- |
-| [ProjectUid](projectuid) { get; set; } | Gets or sets the UID of a project to read from file containing multiple projects. |
-| [UndefinedConstraintHandlingBehavior](undefinedconstrainthandlingbehavior) { get; set; } | Specifies the behavior used to process tasks with undefined constraints read from XER format. |
+| [ProjectUid](../../aspose.tasks/primaverareadoptions/projectuid) { get; set; } | Gets or sets the UID of a project to read from file containing multiple projects. |
+| [UndefinedConstraintHandlingBehavior](../../aspose.tasks/primaverareadoptions/undefinedconstrainthandlingbehavior) { get; set; } | Specifies the behavior used to process tasks with undefined constraints read from XER format. |
 
 ### See Also
 

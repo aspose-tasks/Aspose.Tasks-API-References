@@ -24,10 +24,10 @@ public class WorkWeek
 
 | Name | Description |
 | --- | --- |
-| [FromDate](fromdate) { get; set; } | Gets or sets start DateTime of work week |
-| [Name](name) { get; set; } | Gets or sets Name of work week |
-| [ToDate](todate) { get; set; } | Gets or sets Finish DateTime of work week |
-| [WeekDays](weekdays) { get; } | Gets week days. |
+| [FromDate](../../aspose.tasks/workweek/fromdate) { get; set; } | Gets or sets start DateTime of work week |
+| [Name](../../aspose.tasks/workweek/name) { get; set; } | Gets or sets Name of work week |
+| [ToDate](../../aspose.tasks/workweek/todate) { get; set; } | Gets or sets Finish DateTime of work week |
+| [WeekDays](../../aspose.tasks/workweek/weekdays) { get; } | Gets week days. |
 
 ### See Also
 

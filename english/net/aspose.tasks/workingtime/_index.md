@@ -26,15 +26,15 @@ public class WorkingTime
 
 | Name | Description |
 | --- | --- |
-| [From](from) { get; } | Gets the beginning of a working time. |
-| [To](to) { get; } | Gets the end of a working time. |
+| [From](../../aspose.tasks/workingtime/from) { get; } | Gets the beginning of a working time. |
+| [To](../../aspose.tasks/workingtime/to) { get; } | Gets the end of a working time. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Checks that the objects are equal. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`WorkingTime`](../workingtime) class. |
+| override [Equals](../../aspose.tasks/workingtime/equals)(object) | Checks that the objects are equal. |
+| override [GetHashCode](../../aspose.tasks/workingtime/gethashcode)() | Returns a hash code value for the instance of the [`WorkingTime`](../workingtime) class. |
 
 ### See Also
 

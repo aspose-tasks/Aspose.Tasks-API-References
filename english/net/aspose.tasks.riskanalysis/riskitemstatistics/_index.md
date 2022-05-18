@@ -18,18 +18,18 @@ public class RiskItemStatistics
 
 | Name | Description |
 | --- | --- |
-| [ExpectedValue](expectedvalue) { get; } | Gets the expected value of the risk item. |
-| [ItemType](itemtype) { get; } | Gets an instance of the [`RiskItemType`](../riskitemtype) enumeration. |
-| [Maximum](maximum) { get; } | Gets the maximum value which was generated during Monte Carlo simulation. |
-| [Minimum](minimum) { get; } | Gets the minimum value which was generated during Monte Carlo simulation. |
-| [StandardDeviation](standarddeviation) { get; } | Gets the standard deviation of the risk item. |
+| [ExpectedValue](../../aspose.tasks.riskanalysis/riskitemstatistics/expectedvalue) { get; } | Gets the expected value of the risk item. |
+| [ItemType](../../aspose.tasks.riskanalysis/riskitemstatistics/itemtype) { get; } | Gets an instance of the [`RiskItemType`](../riskitemtype) enumeration. |
+| [Maximum](../../aspose.tasks.riskanalysis/riskitemstatistics/maximum) { get; } | Gets the maximum value which was generated during Monte Carlo simulation. |
+| [Minimum](../../aspose.tasks.riskanalysis/riskitemstatistics/minimum) { get; } | Gets the minimum value which was generated during Monte Carlo simulation. |
+| [StandardDeviation](../../aspose.tasks.riskanalysis/riskitemstatistics/standarddeviation) { get; } | Gets the standard deviation of the risk item. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetPercentile](getpercentile)(int) | Gets a value below which a specified percentage of generated samples fall. |
-| override [ToString](tostring)() | Returns short string representation of a risk item. The exact details of the representation are unspecified and subject to change. |
+| [GetPercentile](../../aspose.tasks.riskanalysis/riskitemstatistics/getpercentile)(int) | Gets a value below which a specified percentage of generated samples fall. |
+| override [ToString](../../aspose.tasks.riskanalysis/riskitemstatistics/tostring)() | Returns short string representation of a risk item. The exact details of the representation are unspecified and subject to change. |
 
 ### See Also
 

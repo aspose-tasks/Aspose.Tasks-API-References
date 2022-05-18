@@ -24,9 +24,9 @@ public class RemoveTask : ITreeAlgorithm<Task>
 
 | Name | Description |
 | --- | --- |
-| [Alg](alg)(Task, int) | Do nothing. |
-| [PostAlg](postalg)(Task, int) | Do nothing. |
-| [PreAlg](prealg)(Task, int) | Removes the task from the specified parent task. |
+| [Alg](../../aspose.tasks.util/removetask/alg)(Task, int) | Do nothing. |
+| [PostAlg](../../aspose.tasks.util/removetask/postalg)(Task, int) | Do nothing. |
+| [PreAlg](../../aspose.tasks.util/removetask/prealg)(Task, int) | Removes the task from the specified parent task. |
 
 ### See Also
 

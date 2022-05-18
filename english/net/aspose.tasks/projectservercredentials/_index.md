@@ -26,15 +26,15 @@ public sealed class ProjectServerCredentials
 
 | Name | Description |
 | --- | --- |
-| [AuthToken](authtoken) { get; } | Gets the authorization token for the SharePoint instance. |
-| [SiteUrl](siteurl) { get; } | Gets the URL of PWA at SharePoint site or URL of on-premise Project Server. For example, https://your_company_name.sharepoint.com/sites/pwa"; |
-| [UserName](username) { get; } | Gets the user name for SharePoint site. |
+| [AuthToken](../../aspose.tasks/projectservercredentials/authtoken) { get; } | Gets the authorization token for the SharePoint instance. |
+| [SiteUrl](../../aspose.tasks/projectservercredentials/siteurl) { get; } | Gets the URL of PWA at SharePoint site or URL of on-premise Project Server. For example, https://your_company_name.sharepoint.com/sites/pwa"; |
+| [UserName](../../aspose.tasks/projectservercredentials/username) { get; } | Gets the user name for SharePoint site. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string representation of this instance. |
+| override [ToString](../../aspose.tasks/projectservercredentials/tostring)() | Returns a string representation of this instance. |
 
 ### See Also
 

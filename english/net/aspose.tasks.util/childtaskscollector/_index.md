@@ -24,13 +24,15 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 
 | Name | Description |
 | --- | --- |
-| [Tasks](tasks) { get; } | Gets a list collected child objects (tasks). |
+| [Tasks](../../aspose.tasks.util/childtaskscollector/tasks) { get; } | Gets a list collected child objects (tasks). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Alg](alg)(Task, int) | Processes the specified object. |
+| override [Alg](../../aspose.tasks.util/childtaskscollector/alg)(Task, int) | Processes the specified object. |
+| virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase`1/postalg)(Task, int) |  |
+| virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase`1/prealg)(Task, int) |  |
 
 ### See Also
 

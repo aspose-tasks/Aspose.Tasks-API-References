@@ -24,7 +24,8 @@ public class DailyRecurrencePattern : RecurrencePatternBase
 
 | Name | Description |
 | --- | --- |
-| [Repetition](repetition) { get; set; } | Gets or sets the pattern of repetitions in daily recurrence pattern. |
+| [RecurrenceRange](../../aspose.tasks/recurrencepatternbase/recurrencerange) { get; set; } | Gets or sets the recurrence range. |
+| [Repetition](../../aspose.tasks/dailyrecurrencepattern/repetition) { get; set; } | Gets or sets the pattern of repetitions in daily recurrence pattern. |
 
 ### See Also
 

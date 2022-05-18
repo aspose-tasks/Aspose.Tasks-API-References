@@ -24,10 +24,10 @@ public sealed class ProjectServerSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [PollingInterval](pollinginterval) { get; set; } | Gets or sets interval between queue job status requests. The default value is 2 seconds. |
-| [ProjectGuid](projectguid) { get; set; } | Gets or sets unique identifier of a project. Should be unique within Project Server \ Project Online instance. |
-| [ProjectName](projectname) { get; set; } | Gets or sets name of a project which is displayed in Project Server \ Project Online projects list. Should be unique within Project Server \ Project Online instance. Is the value is omitted, the value of Prj.Name property will be used instead. |
-| [Timeout](timeout) { get; set; } | Gets or sets timeout used when waiting for processing of save project request by a Project Server's queue processing service. The default value for this property is 1 minute. |
+| [PollingInterval](../../aspose.tasks/projectserversaveoptions/pollinginterval) { get; set; } | Gets or sets interval between queue job status requests. The default value is 2 seconds. |
+| [ProjectGuid](../../aspose.tasks/projectserversaveoptions/projectguid) { get; set; } | Gets or sets unique identifier of a project. Should be unique within Project Server \ Project Online instance. |
+| [ProjectName](../../aspose.tasks/projectserversaveoptions/projectname) { get; set; } | Gets or sets name of a project which is displayed in Project Server \ Project Online projects list. Should be unique within Project Server \ Project Online instance. Is the value is omitted, the value of Prj.Name property will be used instead. |
+| [Timeout](../../aspose.tasks/projectserversaveoptions/timeout) { get; set; } | Gets or sets timeout used when waiting for processing of save project request by a Project Server's queue processing service. The default value for this property is 1 minute. |
 
 ### See Also
 

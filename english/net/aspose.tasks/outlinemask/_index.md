@@ -24,10 +24,10 @@ public class OutlineMask
 
 | Name | Description |
 | --- | --- |
-| [Length](length) { get; set; } | Gets or sets the maximum length (in characters) of the outline code values. 0 if length is not defined. |
-| [Level](level) { get; set; } | Gets or sets the level of a mask. |
-| [Separator](separator) { get; set; } | Gets or sets the separator of code values. |
-| [Type](type) { get; set; } | Gets or sets the type of a mask. |
+| [Length](../../aspose.tasks/outlinemask/length) { get; set; } | Gets or sets the maximum length (in characters) of the outline code values. 0 if length is not defined. |
+| [Level](../../aspose.tasks/outlinemask/level) { get; set; } | Gets or sets the level of a mask. |
+| [Separator](../../aspose.tasks/outlinemask/separator) { get; set; } | Gets or sets the separator of code values. |
+| [Type](../../aspose.tasks/outlinemask/type) { get; set; } | Gets or sets the type of a mask. |
 
 ### See Also
 

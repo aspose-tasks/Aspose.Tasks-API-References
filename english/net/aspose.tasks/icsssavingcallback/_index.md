@@ -18,7 +18,7 @@ public interface ICssSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [CssSaving](csssaving)(CssSavingArgs) | The method to be called while saving of CSS. |
+| [CssSaving](../../aspose.tasks/icsssavingcallback/csssaving)(CssSavingArgs) | The method to be called while saving of CSS. |
 
 ### See Also
 

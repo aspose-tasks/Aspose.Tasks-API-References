@@ -25,18 +25,25 @@ public class AssignmentBaseline : Baseline, IComparable<AssignmentBaseline>,
 
 | Name | Description |
 | --- | --- |
-| [Finish](finish) { get; set; } | Gets or sets the scheduled finish date of the resource assignment when the baseline was saved. The finish date of the resource assignment when this baseline was saved. |
-| [Start](start) { get; set; } | Gets or sets the scheduled start date of the resource assignment when the baseline was saved. The start date of the resource assignment when this baseline was saved. |
-| [TimephasedData](timephaseddata) { get; set; } | Gets or sets the [`TimephasedDataCollection`](../timephaseddatacollection) instance for this object. The time phased data associated with the resource assignment baseline. returns [`TimephasedDataCollection`](../timephaseddatacollection) instance for this object.The collection of Time phased data associated with this baseline. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Gets or sets the unique number of a baseline data record. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
+| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
+| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
+| [Finish](../../aspose.tasks/assignmentbaseline/finish) { get; set; } | Gets or sets the scheduled finish date of the resource assignment when the baseline was saved. The finish date of the resource assignment when this baseline was saved. |
+| [Start](../../aspose.tasks/assignmentbaseline/start) { get; set; } | Gets or sets the scheduled start date of the resource assignment when the baseline was saved. The start date of the resource assignment when this baseline was saved. |
+| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata) { get; set; } | Gets or sets the [`TimephasedDataCollection`](../timephaseddatacollection) instance for this object. The time phased data associated with the resource assignment baseline. returns [`TimephasedDataCollection`](../timephaseddatacollection) instance for this object.The collection of Time phased data associated with this baseline. |
+| [Work](../../aspose.tasks/baseline/work) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](compareto)(AssignmentBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [Equals](equals)(AssignmentBaseline) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](gethashcode)() |  |
+| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto)(AssignmentBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [Equals](../../aspose.tasks/assignmentbaseline/equals)(AssignmentBaseline) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
+| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/assignmentbaseline/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode)() |  |
 
 ### See Also
 

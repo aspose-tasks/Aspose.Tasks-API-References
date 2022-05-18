@@ -22,9 +22,9 @@ public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
 
 | Name | Description |
 | --- | --- |
-| abstract [Alg](alg)(T, int) | Processes a node of a tree. |
-| virtual [PostAlg](postalg)(T, int) | Called after processing of a node of a tree. |
-| virtual [PreAlg](prealg)(T, int) | Called before processing of a node of a tree. |
+| abstract [Alg](../../aspose.tasks.util/treealgorithmbase`1/alg)(T, int) | Processes a node of a tree. |
+| virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase`1/postalg)(T, int) | Called after processing of a node of a tree. |
+| virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase`1/prealg)(T, int) | Called before processing of a node of a tree. |
 
 ### See Also
 

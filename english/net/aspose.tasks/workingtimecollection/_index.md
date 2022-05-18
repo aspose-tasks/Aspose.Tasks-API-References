@@ -18,20 +18,20 @@ public class WorkingTimeCollection : IList<WorkingTime>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this [`WorkingTimeCollection`](../workingtimecollection) object. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
+| [Count](../../aspose.tasks/workingtimecollection/count) { get; } | Gets the number of objects contained in this [`WorkingTimeCollection`](../workingtimecollection) object. |
+| [Item](../../aspose.tasks/workingtimecollection/item) { get; set; } | Returns the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(WorkingTime) | Adds a new WorkingTime instance to this collection. |
-| [Clear](clear)() | Removes all [`WorkingTime`](../workingtime) items from collection. |
-| [Contains](contains)(WorkingTime) | Checks if the specified element is in the List. Performs a linear O(n) search. |
-| [CopyTo](copyto)(WorkingTime[], int) | copies a collection content into an Array, starting at a particular index |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(WorkingTime) | Removes [`WorkingTime`](../workingtime) instance from this collection. |
-| [ToList](tolist)() | Converts the WorkingTimeCollection object to a list of [`WorkingTime`](../workingtime) objects. |
+| [Add](../../aspose.tasks/workingtimecollection/add)(WorkingTime) | Adds a new WorkingTime instance to this collection. |
+| [Clear](../../aspose.tasks/workingtimecollection/clear)() | Removes all [`WorkingTime`](../workingtime) items from collection. |
+| [Contains](../../aspose.tasks/workingtimecollection/contains)(WorkingTime) | Checks if the specified element is in the List. Performs a linear O(n) search. |
+| [CopyTo](../../aspose.tasks/workingtimecollection/copyto)(WorkingTime[], int) | copies a collection content into an Array, starting at a particular index |
+| [GetEnumerator](../../aspose.tasks/workingtimecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/workingtimecollection/remove)(WorkingTime) | Removes [`WorkingTime`](../workingtime) instance from this collection. |
+| [ToList](../../aspose.tasks/workingtimecollection/tolist)() | Converts the WorkingTimeCollection object to a list of [`WorkingTime`](../workingtime) objects. |
 
 ### See Also
 

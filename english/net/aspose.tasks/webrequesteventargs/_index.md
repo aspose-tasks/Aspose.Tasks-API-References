@@ -18,7 +18,7 @@ public sealed class WebRequestEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [WebRequest](webrequest) { get; } | Gets a web request to sent to the Project Server's web API. |
+| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest) { get; } | Gets a web request to sent to the Project Server's web API. |
 
 ### See Also
 

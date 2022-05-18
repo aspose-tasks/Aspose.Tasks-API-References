@@ -24,11 +24,11 @@ public class PageMargins
 
 | Name | Description |
 | --- | --- |
-| [Borders](borders) { get; set; } | Gets or sets a position where to print borders. Can be one of the values of the [`Border`](../border) enumeration. |
-| [Bottom](bottom) { get; set; } | Gets or sets the size of the bottom margin in inches or centimeters. |
-| [Left](left) { get; set; } | Gets or sets the size of the left margin in inches or centimeters. |
-| [Right](right) { get; set; } | Gets or sets the size of the right margin in inches or centimeters. |
-| [Top](top) { get; set; } | Gets or sets the size of the top margin in inches or centimeters. |
+| [Borders](../../aspose.tasks.visualization/pagemargins/borders) { get; set; } | Gets or sets a position where to print borders. Can be one of the values of the [`Border`](../border) enumeration. |
+| [Bottom](../../aspose.tasks.visualization/pagemargins/bottom) { get; set; } | Gets or sets the size of the bottom margin in inches or centimeters. |
+| [Left](../../aspose.tasks.visualization/pagemargins/left) { get; set; } | Gets or sets the size of the left margin in inches or centimeters. |
+| [Right](../../aspose.tasks.visualization/pagemargins/right) { get; set; } | Gets or sets the size of the right margin in inches or centimeters. |
+| [Top](../../aspose.tasks.visualization/pagemargins/top) { get; set; } | Gets or sets the size of the top margin in inches or centimeters. |
 
 ### See Also
 

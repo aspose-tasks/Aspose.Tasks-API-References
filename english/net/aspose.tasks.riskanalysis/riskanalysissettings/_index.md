@@ -24,8 +24,8 @@ public class RiskAnalysisSettings
 
 | Name | Description |
 | --- | --- |
-| [IterationsCount](iterationscount) { get; set; } | Gets or sets the number of iterations to use in Monte Carlo simulation. The default value is 100. |
-| [Patterns](patterns) { get; } | Gets a collection containing the instances of the [`RiskPattern`](../riskpattern) class. |
+| [IterationsCount](../../aspose.tasks.riskanalysis/riskanalysissettings/iterationscount) { get; set; } | Gets or sets the number of iterations to use in Monte Carlo simulation. The default value is 100. |
+| [Patterns](../../aspose.tasks.riskanalysis/riskanalysissettings/patterns) { get; } | Gets a collection containing the instances of the [`RiskPattern`](../riskpattern) class. |
 
 ### See Also
 

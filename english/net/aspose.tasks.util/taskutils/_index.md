@@ -18,10 +18,10 @@ public static class TaskUtils
 
 | Name | Description |
 | --- | --- |
-| static [Apply](apply)(Task, ITreeAlgorithm&lt;Task&gt;, int) | Applies specified algorithm to each task of a tree. |
-| static [Filter](filter)(Task, ICondition&lt;Task&gt;) | Builds new tree of tasks which satisfy the condition. |
-| static [Find](find)(Task, ICondition&lt;Task&gt;) | Finds a task which satisfy the condition in a tree of tasks. |
-| static [TaskChildrenCount](taskchildrencount)(Task) | Recursively calculates a number of task's children tasks through all levels. |
+| static [Apply](../../aspose.tasks.util/taskutils/apply)(Task, ITreeAlgorithm&lt;Task&gt;, int) | Applies specified algorithm to each task of a tree. |
+| static [Filter](../../aspose.tasks.util/taskutils/filter)(Task, ICondition&lt;Task&gt;) | Builds new tree of tasks which satisfy the condition. |
+| static [Find](../../aspose.tasks.util/taskutils/find)(Task, ICondition&lt;Task&gt;) | Finds a task which satisfy the condition in a tree of tasks. |
+| static [TaskChildrenCount](../../aspose.tasks.util/taskutils/taskchildrencount)(Task) | Recursively calculates a number of task's children tasks through all levels. |
 
 ### See Also
 

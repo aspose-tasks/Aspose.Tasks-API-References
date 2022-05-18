@@ -18,24 +18,24 @@ public class OutlineCodeDefinitionCollection : IList<OutlineCodeDefinition>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
+| [Count](../../aspose.tasks/outlinecodedefinitioncollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/outlinecodedefinitioncollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks/outlinecodedefinitioncollection/item) { get; set; } | Returns or sets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(OutlineCodeDefinition) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(OutlineCodeDefinition) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(OutlineCodeDefinition[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(OutlineCodeDefinition) | Determines the index of the specified item in this collection. |
-| [Insert](insert)(int, OutlineCodeDefinition) | Inserts the specified item at the specified index. |
-| [Remove](remove)(OutlineCodeDefinition) | Removes the first occurrence of a specific object from this collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
-| [ToList](tolist)() | Converts this OutlineCodeDefinitionCollection object to a list of [`OutlineCodeDefinition`](../outlinecodedefinition) objects. |
+| [Add](../../aspose.tasks/outlinecodedefinitioncollection/add)(OutlineCodeDefinition) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/outlinecodedefinitioncollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/outlinecodedefinitioncollection/contains)(OutlineCodeDefinition) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/outlinecodedefinitioncollection/copyto)(OutlineCodeDefinition[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/outlinecodedefinitioncollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/outlinecodedefinitioncollection/indexof)(OutlineCodeDefinition) | Determines the index of the specified item in this collection. |
+| [Insert](../../aspose.tasks/outlinecodedefinitioncollection/insert)(int, OutlineCodeDefinition) | Inserts the specified item at the specified index. |
+| [Remove](../../aspose.tasks/outlinecodedefinitioncollection/remove)(OutlineCodeDefinition) | Removes the first occurrence of a specific object from this collection. |
+| [RemoveAt](../../aspose.tasks/outlinecodedefinitioncollection/removeat)(int) | Removes an item at the specified index. |
+| [ToList](../../aspose.tasks/outlinecodedefinitioncollection/tolist)() | Converts this OutlineCodeDefinitionCollection object to a list of [`OutlineCodeDefinition`](../outlinecodedefinition) objects. |
 
 ### See Also
 

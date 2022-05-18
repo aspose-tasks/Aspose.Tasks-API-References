@@ -24,15 +24,15 @@ public class HeaderFooterInfo
 
 | Name | Description |
 | --- | --- |
-| [CenteredImage](centeredimage) { get; set; } | Gets or sets the centered image to be displayed in the header or footer. |
-| [CenteredImageSize](centeredimagesize) { get; set; } | Gets or sets the displayed size of the center image. |
-| [CenteredText](centeredtext) { get; set; } | Gets or sets the centered text to display in the header or footer . |
-| [LeftImage](leftimage) { get; set; } | Gets or sets the left aligned image to be displayed in the header or footer. |
-| [LeftImageSize](leftimagesize) { get; set; } | Gets or sets the displayed size of the left image. |
-| [LeftText](lefttext) { get; set; } | Gets or sets the left aligned text to display in the header or footer. |
-| [RightImage](rightimage) { get; set; } | Gets or sets the right aligned image to be displayed in the header or footer. |
-| [RightImageSize](rightimagesize) { get; set; } | Gets or sets the displayed size of the right image. |
-| [RightText](righttext) { get; set; } | Gets or sets the right aligned text to display in the header or footer. |
+| [CenteredImage](../../aspose.tasks.visualization/headerfooterinfo/centeredimage) { get; set; } | Gets or sets the centered image to be displayed in the header or footer. |
+| [CenteredImageSize](../../aspose.tasks.visualization/headerfooterinfo/centeredimagesize) { get; set; } | Gets or sets the displayed size of the center image. |
+| [CenteredText](../../aspose.tasks.visualization/headerfooterinfo/centeredtext) { get; set; } | Gets or sets the centered text to display in the header or footer . |
+| [LeftImage](../../aspose.tasks.visualization/headerfooterinfo/leftimage) { get; set; } | Gets or sets the left aligned image to be displayed in the header or footer. |
+| [LeftImageSize](../../aspose.tasks.visualization/headerfooterinfo/leftimagesize) { get; set; } | Gets or sets the displayed size of the left image. |
+| [LeftText](../../aspose.tasks.visualization/headerfooterinfo/lefttext) { get; set; } | Gets or sets the left aligned text to display in the header or footer. |
+| [RightImage](../../aspose.tasks.visualization/headerfooterinfo/rightimage) { get; set; } | Gets or sets the right aligned image to be displayed in the header or footer. |
+| [RightImageSize](../../aspose.tasks.visualization/headerfooterinfo/rightimagesize) { get; set; } | Gets or sets the displayed size of the right image. |
+| [RightText](../../aspose.tasks.visualization/headerfooterinfo/righttext) { get; set; } | Gets or sets the right aligned text to display in the header or footer. |
 
 ### See Also
 

@@ -24,7 +24,8 @@ public class EndAfterRecurrenceRange : RecurrenceRangeBase
 
 | Name | Description |
 | --- | --- |
-| [OccurrenceNumber](occurrencenumber) { get; set; } | Gets or sets the number of occurrences which limits the recurrence range of the recurring task. |
+| [OccurrenceNumber](../../aspose.tasks/endafterrecurrencerange/occurrencenumber) { get; set; } | Gets or sets the number of occurrences which limits the recurrence range of the recurring task. |
+| [Start](../../aspose.tasks/recurrencerangebase/start) { get; set; } | Gets or sets the start date of the recurrence range of the recurring task. |
 
 ### See Also
 

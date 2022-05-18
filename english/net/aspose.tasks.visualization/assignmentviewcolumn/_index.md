@@ -24,13 +24,17 @@ public class AssignmentViewColumn : ViewColumn
 
 | Name | Description |
 | --- | --- |
-| override [Field](field) { get; set; } | Column field. [`Field`](./field). |
+| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field) { get; set; } | Column field. [`Field`](./field). |
+| [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | Gets the column name. |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Gets or sets alignment of the text (can be one of the values of the [`StringAlignment`](../viewcolumn/stringalignment) enumeration). |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | Gets or sets the callback which can be used to customize the appearance of the column's cells. |
+| [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | Gets the column width. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetColumnText](getcolumntext)(ResourceAssignment) | Converts current resource assignment to the column text. |
+| [GetColumnText](../../aspose.tasks.visualization/assignmentviewcolumn/getcolumntext)(ResourceAssignment) | Converts current resource assignment to the column text. |
 
 ### See Also
 

@@ -24,23 +24,23 @@ public abstract class TimephasedDataCollection : IList<TimephasedData>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this [`TimephasedDataCollection`](../timephaseddatacollection) object. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. |
-| [Item](item) { get; set; } | Returns the element at the specified index. The set accessor is not supported. property to set timephased data. |
+| [Count](../../aspose.tasks/timephaseddatacollection/count) { get; } | Gets the number of objects contained in this [`TimephasedDataCollection`](../timephaseddatacollection) object. |
+| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. |
+| [Item](../../aspose.tasks/timephaseddatacollection/item) { get; set; } | Returns the element at the specified index. The set accessor is not supported. property to set timephased data. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(TimephasedData) | Adds [`TimephasedData`](../timephaseddata) instance to this collection object. |
-| [AddRange](addrange)(IEnumerable&lt;TimephasedData&gt;) | Adds a collection of [`TimephasedData`](../timephaseddata) instances to this collection object. |
-| [Clear](clear)() | Removes all items from the [`TimephasedDataCollection`](../timephaseddatacollection). |
-| [Contains](contains)(TimephasedData) | Determines whether the [`TimephasedDataCollection`](../timephaseddatacollection) contains a specific value. |
-| [CopyTo](copyto)(TimephasedData[], int) | Copies the elements of the [`TimephasedDataCollection`](../timephaseddatacollection) to an Array, starting at a particular Array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(TimephasedData) | Removes [`TimephasedData`](../timephaseddata) instance from this collection object. |
-| [SelectBetweenStartAndFinish](selectbetweenstartandfinish)(TimephasedDataType, DateTime, DateTime) | Selects all time phases between *startTime* and *finishTime*. Has O(log n) complexity in average case. |
-| [ToList](tolist)() | Converts the [`TimephasedDataCollection`](../timephaseddatacollection) object to a list of [`TimephasedData`](../timephaseddata) objects. |
+| [Add](../../aspose.tasks/timephaseddatacollection/add)(TimephasedData) | Adds [`TimephasedData`](../timephaseddata) instance to this collection object. |
+| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange)(IEnumerable&lt;TimephasedData&gt;) | Adds a collection of [`TimephasedData`](../timephaseddata) instances to this collection object. |
+| [Clear](../../aspose.tasks/timephaseddatacollection/clear)() | Removes all items from the [`TimephasedDataCollection`](../timephaseddatacollection). |
+| [Contains](../../aspose.tasks/timephaseddatacollection/contains)(TimephasedData) | Determines whether the [`TimephasedDataCollection`](../timephaseddatacollection) contains a specific value. |
+| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto)(TimephasedData[], int) | Copies the elements of the [`TimephasedDataCollection`](../timephaseddatacollection) to an Array, starting at a particular Array index. |
+| [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/timephaseddatacollection/remove)(TimephasedData) | Removes [`TimephasedData`](../timephaseddata) instance from this collection object. |
+| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish)(TimephasedDataType, DateTime, DateTime) | Selects all time phases between *startTime* and *finishTime*. Has O(log n) complexity in average case. |
+| [ToList](../../aspose.tasks/timephaseddatacollection/tolist)() | Converts the [`TimephasedDataCollection`](../timephaseddatacollection) object to a list of [`TimephasedData`](../timephaseddata) objects. |
 
 ### See Also
 

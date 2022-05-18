@@ -18,8 +18,8 @@ public class TaskUsageViewFieldCollection : IList<TaskUsageViewField>
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [ToList](tolist)() | Returns a list which contains all items from this collection. |
+| [GetEnumerator](../../aspose.tasks/taskusageviewfieldcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [ToList](../../aspose.tasks/taskusageviewfieldcollection/tolist)() | Returns a list which contains all items from this collection. |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public sealed class OleObjectCollection : IList<OleObject>
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)() | Clears the collection. In order to persist these changes project.Save should be called with new MPPSaveOptions { WriteViewData = true; } |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [ToList](tolist)() | Converts the instance of the [`OleObjectCollection`](../oleobjectcollection) class to a list containing the instances of the [`OleObject`](../oleobject) class. |
+| [Clear](../../aspose.tasks/oleobjectcollection/clear)() | Clears the collection. In order to persist these changes project.Save should be called with new MPPSaveOptions { WriteViewData = true; } |
+| [GetEnumerator](../../aspose.tasks/oleobjectcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [ToList](../../aspose.tasks/oleobjectcollection/tolist)() | Converts the instance of the [`OleObjectCollection`](../oleobjectcollection) class to a list containing the instances of the [`OleObject`](../oleobject) class. |
 
 ### See Also
 

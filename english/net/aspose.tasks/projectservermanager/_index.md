@@ -24,13 +24,13 @@ public sealed class ProjectServerManager
 
 | Name | Description |
 | --- | --- |
-| [CreateNewProject](createnewproject)(Project) | Creates new project in Project Server\Project Online instance using default save options. |
-| [CreateNewProject](createnewproject)(Project, ProjectServerSaveOptions) | Creates new project in Project Server\Project Online instance using the specified save options. |
-| [GetProject](getproject)(Guid) | Gets the project with the specified guid from the Project Online account \ Project Server instance. |
-| [GetProjectList](getprojectlist)() | Gets the list of projects from 'Working' store of the current Project Online account \ Project Server instance. |
-| [GetProjectRawData](getprojectrawdata)(Guid) | Gets the project's binary data for troubleshooting purposes. |
-| [UpdateProject](updateproject)(Project) | Updates existing project in Project Server\Project Online instance using default save options. The existing project will be overwritten. |
-| [UpdateProject](updateproject)(Project, ProjectServerSaveOptions) | Updates existing project in Project Server\Project Online instance using the specified save options. The existing project will be overwritten. |
+| [CreateNewProject](../../aspose.tasks/projectservermanager/createnewproject)(Project) | Creates new project in Project Server\Project Online instance using default save options. |
+| [CreateNewProject](../../aspose.tasks/projectservermanager/createnewproject)(Project, ProjectServerSaveOptions) | Creates new project in Project Server\Project Online instance using the specified save options. |
+| [GetProject](../../aspose.tasks/projectservermanager/getproject)(Guid) | Gets the project with the specified guid from the Project Online account \ Project Server instance. |
+| [GetProjectList](../../aspose.tasks/projectservermanager/getprojectlist)() | Gets the list of projects from 'Working' store of the current Project Online account \ Project Server instance. |
+| [GetProjectRawData](../../aspose.tasks/projectservermanager/getprojectrawdata)(Guid) | Gets the project's binary data for troubleshooting purposes. |
+| [UpdateProject](../../aspose.tasks/projectservermanager/updateproject)(Project) | Updates existing project in Project Server\Project Online instance using default save options. The existing project will be overwritten. |
+| [UpdateProject](../../aspose.tasks/projectservermanager/updateproject)(Project, ProjectServerSaveOptions) | Updates existing project in Project Server\Project Online instance using the specified save options. The existing project will be overwritten. |
 
 ## Other Members
 

@@ -18,8 +18,8 @@ public interface IPageSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [OnFinish](onfinish)() | Method which will be called when all pages are written. |
-| [PageSaving](pagesaving)(PageSavingArgs) | The method to be called when a page is saved to a stream. |
+| [OnFinish](../../aspose.tasks.saving/ipagesavingcallback/onfinish)() | Method which will be called when all pages are written. |
+| [PageSaving](../../aspose.tasks.saving/ipagesavingcallback/pagesaving)(PageSavingArgs) | The method to be called when a page is saved to a stream. |
 
 ### See Also
 

@@ -24,15 +24,15 @@ public class Value
 
 | Name | Description |
 | --- | --- |
-| [DateTimeValue](datetimevalue) { get; set; } | Gets or sets the actual value if it can be represented as DateTime. Default value is MinValue. |
-| [Description](description) { get; set; } | Gets or sets the description of a value. |
-| [Duration](duration) { get; set; } | Gets or sets the actual value which is used to represent Duration. |
-| [Id](id) { get; set; } | Gets or sets the unique identifier of a value across a project. |
-| [NumericValue](numericvalue) { get; set; } | Gets or sets the actual value which is used to represent number or cost value. |
-| [Phonetic](phonetic) { get; set; } | Gets or sets the phonetic information about custom field name. |
-| [StringValue](stringvalue) { get; set; } | Gets or sets the actual value which is used to represent Text string. |
-| [Val](val) { get; set; } | Gets or sets the actual value in internal representation. Prefer using strongly typed properties which are listed below. |
-| [ValueGuid](valueguid) { get; } | Gets a GUID which identifies this value among others in the entire project. |
+| [DateTimeValue](../../aspose.tasks/value/datetimevalue) { get; set; } | Gets or sets the actual value if it can be represented as DateTime. Default value is MinValue. |
+| [Description](../../aspose.tasks/value/description) { get; set; } | Gets or sets the description of a value. |
+| [Duration](../../aspose.tasks/value/duration) { get; set; } | Gets or sets the actual value which is used to represent Duration. |
+| [Id](../../aspose.tasks/value/id) { get; set; } | Gets or sets the unique identifier of a value across a project. |
+| [NumericValue](../../aspose.tasks/value/numericvalue) { get; set; } | Gets or sets the actual value which is used to represent number or cost value. |
+| [Phonetic](../../aspose.tasks/value/phonetic) { get; set; } | Gets or sets the phonetic information about custom field name. |
+| [StringValue](../../aspose.tasks/value/stringvalue) { get; set; } | Gets or sets the actual value which is used to represent Text string. |
+| [Val](../../aspose.tasks/value/val) { get; set; } | Gets or sets the actual value in internal representation. Prefer using strongly typed properties which are listed below. |
+| [ValueGuid](../../aspose.tasks/value/valueguid) { get; } | Gets a GUID which identifies this value among others in the entire project. |
 
 ### See Also
 

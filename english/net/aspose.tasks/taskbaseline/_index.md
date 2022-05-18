@@ -24,23 +24,30 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 
 | Name | Description |
 | --- | --- |
-| [Duration](duration) { get; set; } | Gets or sets the scheduled duration of the task when the baseline was saved. |
-| [DurationFormat](durationformat) { get; set; } | Gets or sets the format for expressing the duration of the task baseline. |
-| [EstimatedDuration](estimatedduration) { get; set; } | Gets or sets a value indicating whether the baseline duration of the task was estimated. |
-| [Finish](finish) { get; set; } | Gets or sets the scheduled finish date of the task when the baseline was saved. |
-| [FixedCost](fixedcost) { get; set; } | Gets or sets a fixed cost of the task when the baseline was saved. |
-| [Interim](interim) { get; set; } | Gets or sets a value indicating whether this is an Interim Baseline. |
-| [Start](start) { get; set; } | Gets or sets the scheduled start date of the task when the baseline was saved. |
-| [TimephasedData](timephaseddata) { get; set; } | Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the task baseline. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Gets or sets the unique number of a baseline data record. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
+| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
+| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
+| [Duration](../../aspose.tasks/taskbaseline/duration) { get; set; } | Gets or sets the scheduled duration of the task when the baseline was saved. |
+| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat) { get; set; } | Gets or sets the format for expressing the duration of the task baseline. |
+| [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration) { get; set; } | Gets or sets a value indicating whether the baseline duration of the task was estimated. |
+| [Finish](../../aspose.tasks/taskbaseline/finish) { get; set; } | Gets or sets the scheduled finish date of the task when the baseline was saved. |
+| [FixedCost](../../aspose.tasks/taskbaseline/fixedcost) { get; set; } | Gets or sets a fixed cost of the task when the baseline was saved. |
+| [Interim](../../aspose.tasks/taskbaseline/interim) { get; set; } | Gets or sets a value indicating whether this is an Interim Baseline. |
+| [Start](../../aspose.tasks/taskbaseline/start) { get; set; } | Gets or sets the scheduled start date of the task when the baseline was saved. |
+| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata) { get; set; } | Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the task baseline. |
+| [Work](../../aspose.tasks/baseline/work) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](compareto)(TaskBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](equals)(TaskBaseline) | Returns a value indicating whether this instance is equal to the specified TaskBaseline object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`TaskBaseline`](../taskbaseline) class. |
+| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [CompareTo](../../aspose.tasks/taskbaseline/compareto)(TaskBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/taskbaseline/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/taskbaseline/equals)(TaskBaseline) | Returns a value indicating whether this instance is equal to the specified TaskBaseline object. |
+| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode)() | Returns a hash code value for the instance of the [`TaskBaseline`](../taskbaseline) class. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public class ResourceUsageViewFieldCollection : IList<ResourceUsageViewField>
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [ToList](tolist)() | Converts the instance of the [`ResourceUsageViewFieldCollection`](../resourceusageviewfieldcollection) class to a list containing the instances of the [`ResourceUsageViewField`](../resourceusageviewfield) class. |
+| [GetEnumerator](../../aspose.tasks/resourceusageviewfieldcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [ToList](../../aspose.tasks/resourceusageviewfieldcollection/tolist)() | Converts the instance of the [`ResourceUsageViewFieldCollection`](../resourceusageviewfieldcollection) class to a list containing the instances of the [`ResourceUsageViewField`](../resourceusageviewfield) class. |
 
 ### See Also
 

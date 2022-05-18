@@ -24,7 +24,7 @@ public class CopyToOptions
 
 | Name | Description |
 | --- | --- |
-| [CopyViewData](copyviewdata) { get; set; } | Gets or sets a value indicating whether to copy view data while copying project data. Default value is true. |
+| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata) { get; set; } | Gets or sets a value indicating whether to copy view data while copying project data. Default value is true. |
 
 ### See Also
 

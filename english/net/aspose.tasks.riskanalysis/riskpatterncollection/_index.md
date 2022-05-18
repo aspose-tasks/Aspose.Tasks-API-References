@@ -18,20 +18,20 @@ public class RiskPatternCollection : ICollection<RiskPattern>, IDictionary<Task,
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Item](item) { get; } | Gets the instance of the [`RiskPattern`](../riskpattern) class for the specified task. |
+| [Count](../../aspose.tasks.riskanalysis/riskpatterncollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks.riskanalysis/riskpatterncollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks.riskanalysis/riskpatterncollection/item) { get; } | Gets the instance of the [`RiskPattern`](../riskpattern) class for the specified task. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(RiskPattern) | Adds an instance of the [`RiskPattern`](../riskpattern) class to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(RiskPattern) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(RiskPattern[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(RiskPattern) | Removes the first occurrence of a specific object from this collection. |
+| [Add](../../aspose.tasks.riskanalysis/riskpatterncollection/add)(RiskPattern) | Adds an instance of the [`RiskPattern`](../riskpattern) class to this collection. |
+| [Clear](../../aspose.tasks.riskanalysis/riskpatterncollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks.riskanalysis/riskpatterncollection/contains)(RiskPattern) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks.riskanalysis/riskpatterncollection/copyto)(RiskPattern[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks.riskanalysis/riskpatterncollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks.riskanalysis/riskpatterncollection/remove)(RiskPattern) | Removes the first occurrence of a specific object from this collection. |
 
 ### See Also
 

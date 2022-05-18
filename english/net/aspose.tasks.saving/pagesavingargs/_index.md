@@ -18,9 +18,9 @@ public sealed class PageSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [KeepStreamOpen](keepstreamopen) { get; set; } | Gets or sets a value indicating whether rendering routine should keep [`Stream`](./stream) opened after a page is written. |
-| [PageNumber](pagenumber) { get; } | Gets a number of page to be written. |
-| [Stream](stream) { get; set; } | Gets or sets a stream for writing a page. |
+| [KeepStreamOpen](../../aspose.tasks.saving/pagesavingargs/keepstreamopen) { get; set; } | Gets or sets a value indicating whether rendering routine should keep [`Stream`](./stream) opened after a page is written. |
+| [PageNumber](../../aspose.tasks.saving/pagesavingargs/pagenumber) { get; } | Gets a number of page to be written. |
+| [Stream](../../aspose.tasks.saving/pagesavingargs/stream) { get; set; } | Gets or sets a stream for writing a page. |
 
 ### See Also
 

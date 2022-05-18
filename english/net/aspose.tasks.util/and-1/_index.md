@@ -28,7 +28,7 @@ public class And<T> : ICondition<T>
 
 | Name | Description |
 | --- | --- |
-| [Check](check)(T) | Returns true if the specified object satisfy the conditions. |
+| [Check](../../aspose.tasks.util/and`1/check)(T) | Returns true if the specified object satisfy the conditions. |
 
 ### See Also
 

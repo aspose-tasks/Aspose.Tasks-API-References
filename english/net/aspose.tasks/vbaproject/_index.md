@@ -18,13 +18,13 @@ public class VbaProject
 
 | Name | Description |
 | --- | --- |
-| [CompilationArguments](compilationarguments) { get; } | Gets conditional Compilation Arguments |
-| [Description](description) { get; } | Gets a project description. |
-| [HelpContextId](helpcontextid) { get; } | Gets a project Help Context Id |
-| [HelpFile](helpfile) { get; } | Gets a help file name |
-| [Modules](modules) { get; } | Gets a collection of [`VbaModuleCollection`](../vbamodulecollection) |
-| [Name](name) { get; } | Gets project name |
-| [References](references) { get; } | Gets a collection of [`VbaReferenceCollection`](../vbareferencecollection) |
+| [CompilationArguments](../../aspose.tasks/vbaproject/compilationarguments) { get; } | Gets conditional Compilation Arguments |
+| [Description](../../aspose.tasks/vbaproject/description) { get; } | Gets a project description. |
+| [HelpContextId](../../aspose.tasks/vbaproject/helpcontextid) { get; } | Gets a project Help Context Id |
+| [HelpFile](../../aspose.tasks/vbaproject/helpfile) { get; } | Gets a help file name |
+| [Modules](../../aspose.tasks/vbaproject/modules) { get; } | Gets a collection of [`VbaModuleCollection`](../vbamodulecollection) |
+| [Name](../../aspose.tasks/vbaproject/name) { get; } | Gets project name |
+| [References](../../aspose.tasks/vbaproject/references) { get; } | Gets a collection of [`VbaReferenceCollection`](../vbareferencecollection) |
 
 ### See Also
 

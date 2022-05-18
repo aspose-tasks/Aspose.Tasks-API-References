@@ -18,21 +18,21 @@ public class TaskLinkCollection : IList<TaskLink>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this [`TaskLinkCollection`](../tasklinkcollection) object. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
-| [ParentProject](parentproject) { get; } | Gets the parent project of the ResourceAssignmentCollection object. parent [`Project`](../project) for this object. |
+| [Count](../../aspose.tasks/tasklinkcollection/count) { get; } | Gets the number of objects contained in this [`TaskLinkCollection`](../tasklinkcollection) object. |
+| [Item](../../aspose.tasks/tasklinkcollection/item) { get; set; } | Returns or sets the element at the specified index. |
+| [ParentProject](../../aspose.tasks/tasklinkcollection/parentproject) { get; } | Gets the parent project of the ResourceAssignmentCollection object. parent [`Project`](../project) for this object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(TaskLink) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
-| [Add](add)(Task, Task) | Returns an instance of Finish-Start [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
-| [Add](add)(Task, Task, TaskLinkType) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
-| [Add](add)(Task, Task, TaskLinkType, Duration) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(TaskLink) | Removes task link from a project. |
-| [ToList](tolist)() | Converts the TaskLinkCollection object to a list of [`TaskLink`](../tasklink) objects. |
+| [Add](../../aspose.tasks/tasklinkcollection/add)(TaskLink) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
+| [Add](../../aspose.tasks/tasklinkcollection/add)(Task, Task) | Returns an instance of Finish-Start [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
+| [Add](../../aspose.tasks/tasklinkcollection/add)(Task, Task, TaskLinkType) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
+| [Add](../../aspose.tasks/tasklinkcollection/add)(Task, Task, TaskLinkType, Duration) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
+| [GetEnumerator](../../aspose.tasks/tasklinkcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/tasklinkcollection/remove)(TaskLink) | Removes task link from a project. |
+| [ToList](../../aspose.tasks/tasklinkcollection/tolist)() | Converts the TaskLinkCollection object to a list of [`TaskLink`](../tasklink) objects. |
 
 ### See Also
 

@@ -19,8 +19,8 @@ public class RiskItemStatisticsCollection : IDictionary<Task, RiskItemStatistics
 
 | Name | Description |
 | --- | --- |
-| [Get](get)(Task) | Returns an instance of the [`RiskItemStatistics`](../riskitemstatistics) class containing in this collection which is associated with the specified Task object; null if the item is not found. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
+| [Get](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/get)(Task) | Returns an instance of the [`RiskItemStatistics`](../riskitemstatistics) class containing in this collection which is associated with the specified Task object; null if the item is not found. |
+| [GetEnumerator](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/getenumerator)() | Returns an enumerator for this collection. |
 
 ### See Also
 

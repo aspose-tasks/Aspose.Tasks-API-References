@@ -18,8 +18,8 @@ public class TasksLoggedException : ApplicationException
 
 | Name | Description |
 | --- | --- |
-| [LogText](logtext) { get; } | Gets the exception logging information. |
-| [Operation](operation) { get; } | Gets the exception operation information. |
+| [LogText](../../aspose.tasks/tasksloggedexception/logtext) { get; } | Gets the exception logging information. |
+| [Operation](../../aspose.tasks/tasksloggedexception/operation) { get; } | Gets the exception operation information. |
 
 ### See Also
 

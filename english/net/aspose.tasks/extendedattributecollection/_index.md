@@ -18,23 +18,23 @@ public class ExtendedAttributeCollection : IList<ExtendedAttribute>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Item](item) { get; set; } | Gets or sets the element at the specified index. |
+| [Count](../../aspose.tasks/extendedattributecollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/extendedattributecollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks/extendedattributecollection/item) { get; set; } | Gets or sets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ExtendedAttribute) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(ExtendedAttribute) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(ExtendedAttribute[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(ExtendedAttribute) | Determines the index of the specified item in this collection. |
-| [Insert](insert)(int, ExtendedAttribute) | Inserts the specified item at the specified index. |
-| [Remove](remove)(ExtendedAttribute) | Removes the first occurrence of a specific object from this collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
+| [Add](../../aspose.tasks/extendedattributecollection/add)(ExtendedAttribute) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/extendedattributecollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/extendedattributecollection/contains)(ExtendedAttribute) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/extendedattributecollection/copyto)(ExtendedAttribute[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/extendedattributecollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/extendedattributecollection/indexof)(ExtendedAttribute) | Determines the index of the specified item in this collection. |
+| [Insert](../../aspose.tasks/extendedattributecollection/insert)(int, ExtendedAttribute) | Inserts the specified item at the specified index. |
+| [Remove](../../aspose.tasks/extendedattributecollection/remove)(ExtendedAttribute) | Removes the first occurrence of a specific object from this collection. |
+| [RemoveAt](../../aspose.tasks/extendedattributecollection/removeat)(int) | Removes an item at the specified index. |
 
 ### See Also
 

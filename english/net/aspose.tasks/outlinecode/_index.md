@@ -24,9 +24,9 @@ public class OutlineCode
 
 | Name | Description |
 | --- | --- |
-| [FieldId](fieldid) { get; set; } | Gets or sets the number value of the project Id custom field. |
-| [ValueGuid](valueguid) { get; set; } | Gets or sets the GUID of the value in the value list. The ValueGuid matches the FieldGuid in the value list. |
-| [ValueId](valueid) { get; set; } | Gets or sets the Id in the value list associated with the definition in the outline code collection. |
+| [FieldId](../../aspose.tasks/outlinecode/fieldid) { get; set; } | Gets or sets the number value of the project Id custom field. |
+| [ValueGuid](../../aspose.tasks/outlinecode/valueguid) { get; set; } | Gets or sets the GUID of the value in the value list. The ValueGuid matches the FieldGuid in the value list. |
+| [ValueId](../../aspose.tasks/outlinecode/valueid) { get; set; } | Gets or sets the Id in the value list associated with the definition in the outline code collection. |
 
 ### Remarks
 

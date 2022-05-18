@@ -24,12 +24,12 @@ public class Gridlines
 
 | Name | Description |
 | --- | --- |
-| [Interval](interval) { get; set; } | Gets or sets the number from 0 to 99 that specifies the interval between gridlines. |
-| [IntervalColor](intervalcolor) { get; set; } | Gets or sets the color of secondary gridlines. |
-| [IntervalPattern](intervalpattern) { get; set; } | Gets or sets the line pattern for secondary gridlines. |
-| [NormalColor](normalcolor) { get; set; } | Gets or sets the color of normal gridlines. |
-| [NormalPattern](normalpattern) { get; set; } | Gets or sets the line pattern for normal gridlines. |
-| [Type](type) { get; set; } | Gets or sets the gridline type. |
+| [Interval](../../aspose.tasks.visualization/gridlines/interval) { get; set; } | Gets or sets the number from 0 to 99 that specifies the interval between gridlines. |
+| [IntervalColor](../../aspose.tasks.visualization/gridlines/intervalcolor) { get; set; } | Gets or sets the color of secondary gridlines. |
+| [IntervalPattern](../../aspose.tasks.visualization/gridlines/intervalpattern) { get; set; } | Gets or sets the line pattern for secondary gridlines. |
+| [NormalColor](../../aspose.tasks.visualization/gridlines/normalcolor) { get; set; } | Gets or sets the color of normal gridlines. |
+| [NormalPattern](../../aspose.tasks.visualization/gridlines/normalpattern) { get; set; } | Gets or sets the line pattern for normal gridlines. |
+| [Type](../../aspose.tasks.visualization/gridlines/type) { get; set; } | Gets or sets the gridline type. |
 
 ### See Also
 

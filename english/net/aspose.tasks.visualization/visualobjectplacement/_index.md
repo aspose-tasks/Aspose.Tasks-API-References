@@ -24,18 +24,18 @@ public sealed class VisualObjectPlacement
 
 | Name | Description |
 | --- | --- |
-| [AttachmentPoint](attachmentpoint) { get; set; } | Gets or sets alignment of visual object relative to a task when 'Attach to task' options is selected. |
-| [BorderLineColor](borderlinecolor) { get; set; } | Gets or sets border line color. |
-| [BorderLineThickness](borderlinethickness) { get; set; } | Gets or sets border line thickness (allowed values are 0 - 5). |
-| [FillColor](fillcolor) { get; set; } | Gets or sets fill color. |
-| [FillPattern](fillpattern) { get; set; } | Gets or sets fill pattern. |
-| [Height](height) { get; set; } | Gets or sets displayed height of visual object. |
-| [HorizontalOffset](horizontaloffset) { get; set; } | Gets or sets horizontal offset of visual object. |
-| [OleObjectId](oleobjectid) { get; set; } | Gets or sets Id of [`OleObject`](../../aspose.tasks/oleobject) object. |
-| [TaskId](taskid) { get; set; } | Gets or sets Id of task if 'Attach to task' options is selected, -1 otherwise. |
-| [TimescaleDate](timescaledate) { get; set; } | Gets or sets date placement of visual object when 'Attach to timescale' options is selected. |
-| [VerticalOffset](verticaloffset) { get; set; } | Gets or sets vertical offset of visual object. |
-| [Width](width) { get; set; } | Gets or sets displayed width of visual object. |
+| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint) { get; set; } | Gets or sets alignment of visual object relative to a task when 'Attach to task' options is selected. |
+| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor) { get; set; } | Gets or sets border line color. |
+| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness) { get; set; } | Gets or sets border line thickness (allowed values are 0 - 5). |
+| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor) { get; set; } | Gets or sets fill color. |
+| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern) { get; set; } | Gets or sets fill pattern. |
+| [Height](../../aspose.tasks.visualization/visualobjectplacement/height) { get; set; } | Gets or sets displayed height of visual object. |
+| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset) { get; set; } | Gets or sets horizontal offset of visual object. |
+| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid) { get; set; } | Gets or sets Id of [`OleObject`](../../aspose.tasks/oleobject) object. |
+| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid) { get; set; } | Gets or sets Id of task if 'Attach to task' options is selected, -1 otherwise. |
+| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate) { get; set; } | Gets or sets date placement of visual object when 'Attach to timescale' options is selected. |
+| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset) { get; set; } | Gets or sets vertical offset of visual object. |
+| [Width](../../aspose.tasks.visualization/visualobjectplacement/width) { get; set; } | Gets or sets displayed width of visual object. |
 
 ### See Also
 

@@ -18,18 +18,18 @@ public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
 
 | Name | Description |
 | --- | --- |
-| [CanRead](canread) { get; } | Gets a value indicating whether defines can Aspose.Tasks process the project file. |
-| [IsPasswordProtected](ispasswordprotected) { get; } | Gets a value indicating whether a project is password protected. |
-| [ProjectApplicationInfo](projectapplicationinfo) { get; } | Gets project file application info. |
-| [ProjectFileFormat](projectfileformat) { get; } | Gets project file format. |
+| [CanRead](../../aspose.tasks/projectfileinfo/canread) { get; } | Gets a value indicating whether defines can Aspose.Tasks process the project file. |
+| [IsPasswordProtected](../../aspose.tasks/projectfileinfo/ispasswordprotected) { get; } | Gets a value indicating whether a project is password protected. |
+| [ProjectApplicationInfo](../../aspose.tasks/projectfileinfo/projectapplicationinfo) { get; } | Gets project file application info. |
+| [ProjectFileFormat](../../aspose.tasks/projectfileinfo/projectfileformat) { get; } | Gets project file format. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](equals)(ProjectFileInfo) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`ProjectFileInfo`](../projectfileinfo) class. |
+| override [Equals](../../aspose.tasks/projectfileinfo/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/projectfileinfo/equals)(ProjectFileInfo) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode)() | Returns a hash code value for the instance of the [`ProjectFileInfo`](../projectfileinfo) class. |
 
 ### Remarks
 

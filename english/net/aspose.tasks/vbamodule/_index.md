@@ -18,9 +18,9 @@ public class VbaModule : IVbaModule
 
 | Name | Description |
 | --- | --- |
-| [Attributes](attributes) { get; } |  |
-| [Name](name) { get; } |  |
-| [SourceCode](sourcecode) { get; } |  |
+| [Attributes](../../aspose.tasks/vbamodule/attributes) { get; } |  |
+| [Name](../../aspose.tasks/vbamodule/name) { get; } |  |
+| [SourceCode](../../aspose.tasks/vbamodule/sourcecode) { get; } |  |
 
 ### See Also
 

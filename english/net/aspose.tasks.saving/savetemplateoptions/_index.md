@@ -24,10 +24,10 @@ public class SaveTemplateOptions
 
 | Name | Description |
 | --- | --- |
-| [RemoveActualValues](removeactualvalues) { get; set; } | Gets or sets a value indicating whether all actual values from a project template should be removed. |
-| [RemoveBaselineValues](removebaselinevalues) { get; set; } | Gets or sets a value indicating whether all baseline values from a project template should be removed. |
-| [RemoveFixedCosts](removefixedcosts) { get; set; } | Gets or sets a value indicating whether all fixed costs from a project template should be removed. |
-| [RemoveResourceRates](removeresourcerates) { get; set; } | Gets or sets a value indicating whether resource rates from a project template should be removed. |
+| [RemoveActualValues](../../aspose.tasks.saving/savetemplateoptions/removeactualvalues) { get; set; } | Gets or sets a value indicating whether all actual values from a project template should be removed. |
+| [RemoveBaselineValues](../../aspose.tasks.saving/savetemplateoptions/removebaselinevalues) { get; set; } | Gets or sets a value indicating whether all baseline values from a project template should be removed. |
+| [RemoveFixedCosts](../../aspose.tasks.saving/savetemplateoptions/removefixedcosts) { get; set; } | Gets or sets a value indicating whether all fixed costs from a project template should be removed. |
+| [RemoveResourceRates](../../aspose.tasks.saving/savetemplateoptions/removeresourcerates) { get; set; } | Gets or sets a value indicating whether resource rates from a project template should be removed. |
 
 ### See Also
 

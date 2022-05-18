@@ -18,7 +18,7 @@ public abstract class WeeklyRepetitionBase
 
 | Name | Description |
 | --- | --- |
-| [RepetitionInterval](repetitioninterval) { get; set; } | Gets or sets a number of weeks which represents the interval in weeks between occurrences. |
+| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | Gets or sets a number of weeks which represents the interval in weeks between occurrences. |
 
 ### See Also
 

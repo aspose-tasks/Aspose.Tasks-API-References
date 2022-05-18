@@ -18,21 +18,21 @@ public class GroupCriterionCollection : IList<GroupCriterion>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [ParentGroup](parentgroup) { get; } | Gets the parent of the GroupCriterion object. |
+| [Count](../../aspose.tasks/groupcriterioncollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [ParentGroup](../../aspose.tasks/groupcriterioncollection/parentgroup) { get; } | Gets the parent of the GroupCriterion object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(GroupCriterion) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(GroupCriterion) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(GroupCriterion[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(GroupCriterion) | Removes the first occurrence of a specific object from this collection. |
-| [ToList](tolist)() | Converts a GroupCriterion collection to a list of [`GroupCriterion`](../groupcriterion) objects. |
+| [Add](../../aspose.tasks/groupcriterioncollection/add)(GroupCriterion) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/groupcriterioncollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/groupcriterioncollection/contains)(GroupCriterion) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/groupcriterioncollection/copyto)(GroupCriterion[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/groupcriterioncollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/groupcriterioncollection/remove)(GroupCriterion) | Removes the first occurrence of a specific object from this collection. |
+| [ToList](../../aspose.tasks/groupcriterioncollection/tolist)() | Converts a GroupCriterion collection to a list of [`GroupCriterion`](../groupcriterion) objects. |
 
 ### See Also
 

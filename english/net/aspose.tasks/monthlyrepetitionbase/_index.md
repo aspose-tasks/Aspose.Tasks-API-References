@@ -18,7 +18,7 @@ public abstract class MonthlyRepetitionBase
 
 | Name | Description |
 | --- | --- |
-| [RepetitionInterval](repetitioninterval) { get; set; } | Gets or sets a number of month which represents the interval in months between occurrences. |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval) { get; set; } | Gets or sets a number of month which represents the interval in months between occurrences. |
 
 ### See Also
 

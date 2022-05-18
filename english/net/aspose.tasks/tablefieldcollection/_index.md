@@ -18,24 +18,24 @@ public class TableFieldCollection : IList<TableField>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in this collection. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Item](item) { get; set; } | Returns or sets the element at the specified index. |
-| [ParentProject](parentproject) { get; } | Gets the parent of the TableFields object. Read-only [`Project`](../project). |
+| [Count](../../aspose.tasks/tablefieldcollection/count) { get; } | Gets the number of elements contained in this collection. |
+| [IsReadOnly](../../aspose.tasks/tablefieldcollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks/tablefieldcollection/item) { get; set; } | Returns or sets the element at the specified index. |
+| [ParentProject](../../aspose.tasks/tablefieldcollection/parentproject) { get; } | Gets the parent of the TableFields object. Read-only [`Project`](../project). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(TableField) | Adds the specified item to this collection. |
-| [Clear](clear)() | Removes all items from this collection. |
-| [Contains](contains)(TableField) | Returns true if the specified item is found in this collection; otherwise, false. |
-| [CopyTo](copyto)(TableField[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [IndexOf](indexof)(TableField) | Determines the index of the specified item in this collection. |
-| [Insert](insert)(int, TableField) | Inserts the specified item at the specified index. |
-| [Remove](remove)(TableField) | Removes the first occurrence of a specific object from this collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
+| [Add](../../aspose.tasks/tablefieldcollection/add)(TableField) | Adds the specified item to this collection. |
+| [Clear](../../aspose.tasks/tablefieldcollection/clear)() | Removes all items from this collection. |
+| [Contains](../../aspose.tasks/tablefieldcollection/contains)(TableField) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [CopyTo](../../aspose.tasks/tablefieldcollection/copyto)(TableField[], int) | Copies the elements of this collection to the specified array, starting at the specified array index. |
+| [GetEnumerator](../../aspose.tasks/tablefieldcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [IndexOf](../../aspose.tasks/tablefieldcollection/indexof)(TableField) | Determines the index of the specified item in this collection. |
+| [Insert](../../aspose.tasks/tablefieldcollection/insert)(int, TableField) | Inserts the specified item at the specified index. |
+| [Remove](../../aspose.tasks/tablefieldcollection/remove)(TableField) | Removes the first occurrence of a specific object from this collection. |
+| [RemoveAt](../../aspose.tasks/tablefieldcollection/removeat)(int) | Removes an item at the specified index. |
 
 ### See Also
 

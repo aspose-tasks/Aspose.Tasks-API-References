@@ -24,24 +24,24 @@ public class GroupCriterion
 
 | Name | Description |
 | --- | --- |
-| [Ascending](ascending) { get; set; } | Gets or sets a value indicating whether a field used as a criterion in a group definition is sorted in ascending order. False if the field is sorted in descending order. |
-| [CellColor](cellcolor) { get; set; } | Gets or sets the color of the cell background for a field used as a criterion in a group definition. |
-| [Field](field) { get; set; } | Gets or sets the field being grouped by. |
-| [Font](font) { get; set; } | Gets or sets the font for a criterion in a group definition. |
-| [FontColor](fontcolor) { get; set; } | Gets or sets the color of the font for a field used as a criterion in a group definition. |
-| [GroupInterval](groupinterval) { get; set; } | Gets or sets the interval for a field used as a criterion in a group definition. |
-| [GroupOn](groupon) { get; set; } | Gets or sets the type of grouping for a field used as a criterion in a group definition. |
-| [Index](index) { get; } | Gets the index of a [`GroupCriterion`](../groupcriterion) object in the containing [`GroupCriterionCollection`](../groupcriterioncollection) collection. |
-| [ParentGroup](parentgroup) { get; } | Gets the parent of the [`GroupCriterion`](../groupcriterion) object. |
-| [Pattern](pattern) { get; set; } | Gets or sets the pattern of the cell for a field used as a criterion in a group definition. |
-| [StartAt](startat) { get; set; } | Gets or sets the start of the intervals for a field used as a criterion in a group definition. |
+| [Ascending](../../aspose.tasks/groupcriterion/ascending) { get; set; } | Gets or sets a value indicating whether a field used as a criterion in a group definition is sorted in ascending order. False if the field is sorted in descending order. |
+| [CellColor](../../aspose.tasks/groupcriterion/cellcolor) { get; set; } | Gets or sets the color of the cell background for a field used as a criterion in a group definition. |
+| [Field](../../aspose.tasks/groupcriterion/field) { get; set; } | Gets or sets the field being grouped by. |
+| [Font](../../aspose.tasks/groupcriterion/font) { get; set; } | Gets or sets the font for a criterion in a group definition. |
+| [FontColor](../../aspose.tasks/groupcriterion/fontcolor) { get; set; } | Gets or sets the color of the font for a field used as a criterion in a group definition. |
+| [GroupInterval](../../aspose.tasks/groupcriterion/groupinterval) { get; set; } | Gets or sets the interval for a field used as a criterion in a group definition. |
+| [GroupOn](../../aspose.tasks/groupcriterion/groupon) { get; set; } | Gets or sets the type of grouping for a field used as a criterion in a group definition. |
+| [Index](../../aspose.tasks/groupcriterion/index) { get; } | Gets the index of a [`GroupCriterion`](../groupcriterion) object in the containing [`GroupCriterionCollection`](../groupcriterioncollection) collection. |
+| [ParentGroup](../../aspose.tasks/groupcriterion/parentgroup) { get; } | Gets the parent of the [`GroupCriterion`](../groupcriterion) object. |
+| [Pattern](../../aspose.tasks/groupcriterion/pattern) { get; set; } | Gets or sets the pattern of the cell for a field used as a criterion in a group definition. |
+| [StartAt](../../aspose.tasks/groupcriterion/startat) { get; set; } | Gets or sets the start of the intervals for a field used as a criterion in a group definition. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.tasks/groupcriterion/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/groupcriterion/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

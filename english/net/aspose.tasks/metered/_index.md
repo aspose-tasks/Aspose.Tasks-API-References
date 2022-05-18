@@ -24,10 +24,10 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| [ResetMeteredKey](resetmeteredkey)() | Removes previously setup license. |
-| [SetMeteredKey](setmeteredkey)(string, string) | Sets metered public and private keys. |
-| static [GetConsumptionCredit](getconsumptioncredit)() | Gets consumption credit. |
-| static [GetConsumptionQuantity](getconsumptionquantity)() | Gets consumption file size. |
+| [ResetMeteredKey](../../aspose.tasks/metered/resetmeteredkey)() | Removes previously setup license. |
+| [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey)(string, string) | Sets metered public and private keys. |
+| static [GetConsumptionCredit](../../aspose.tasks/metered/getconsumptioncredit)() | Gets consumption credit. |
+| static [GetConsumptionQuantity](../../aspose.tasks/metered/getconsumptionquantity)() | Gets consumption file size. |
 
 ### Examples
 

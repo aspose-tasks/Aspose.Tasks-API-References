@@ -19,16 +19,26 @@ public sealed class BuiltInProjectPropertyCollection :
 
 | Name | Description |
 | --- | --- |
-| [Author](author) { get; set; } | Gets or sets the author of a project. |
-| [Category](category) { get; set; } | Gets or sets the category of a project. |
-| [Comments](comments) { get; set; } | Gets or sets the comments of a project. |
-| [Company](company) { get; set; } | Gets or sets the company of a project. |
-| [HyperlinkBase](hyperlinkbase) { get; set; } | Gets or sets the hyperlink base of a project. |
-| override [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Keywords](keywords) { get; set; } | Gets or sets the keywords of a project. |
-| [Manager](manager) { get; set; } | Gets or sets the manager of a project. |
-| [Subject](subject) { get; set; } | Gets or sets the subject of a project. |
-| [Title](title) { get; set; } | Gets or sets the title of a project. |
+| [Author](../../aspose.tasks.properties/builtinprojectpropertycollection/author) { get; set; } | Gets or sets the author of a project. |
+| [Category](../../aspose.tasks.properties/builtinprojectpropertycollection/category) { get; set; } | Gets or sets the category of a project. |
+| [Comments](../../aspose.tasks.properties/builtinprojectpropertycollection/comments) { get; set; } | Gets or sets the comments of a project. |
+| [Company](../../aspose.tasks.properties/builtinprojectpropertycollection/company) { get; set; } | Gets or sets the company of a project. |
+| [Count](../../aspose.tasks.properties/propertykeyedcollection`1/count) { get; } |  |
+| [HyperlinkBase](../../aspose.tasks.properties/builtinprojectpropertycollection/hyperlinkbase) { get; set; } | Gets or sets the hyperlink base of a project. |
+| override [IsReadOnly](../../aspose.tasks.properties/builtinprojectpropertycollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks.properties/propertykeyedcollection`1/item) { get; } |  |
+| [Keywords](../../aspose.tasks.properties/builtinprojectpropertycollection/keywords) { get; set; } | Gets or sets the keywords of a project. |
+| [Manager](../../aspose.tasks.properties/builtinprojectpropertycollection/manager) { get; set; } | Gets or sets the manager of a project. |
+| [Names](../../aspose.tasks.properties/propertykeyedcollection`1/names) { get; } |  |
+| [Subject](../../aspose.tasks.properties/builtinprojectpropertycollection/subject) { get; set; } | Gets or sets the subject of a project. |
+| [Title](../../aspose.tasks.properties/builtinprojectpropertycollection/title) { get; set; } | Gets or sets the title of a project. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(BuiltInProjectProperty) |  |
+| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) |  |
 
 ### See Also
 

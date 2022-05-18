@@ -24,13 +24,13 @@ public class PageInfo
 
 | Name | Description |
 | --- | --- |
-| [Footer](footer) { get; set; } | Gets or sets an instance of the [`HeaderFooterInfo`](../headerfooterinfo) class which represents a footer data. |
-| [Header](header) { get; set; } | Gets or sets the instance of the [`HeaderFooterInfo`](../headerfooterinfo) class which represents a header data. |
-| [Legend](legend) { get; set; } | Gets or sets an instance of the [`PageLegend`](../pagelegend) class which specifies page legend. |
-| [Margins](margins) { get; } | Gets an instance of the [`PageMargins`](../pagemargins) class which specifies page margins. |
-| [Name](name) { get; } | Gets the name of the view for which set-up data is used. |
-| [PageSettings](pagesettings) { get; } | Gets an instance of the [`PageSettings`](./pagesettings) class which specifies page printing settings. |
-| [PageViewSettings](pageviewsettings) { get; } | Gets an instance of the [`PageViewSettings`](./pageviewsettings) class which specifies page view printing settings. |
+| [Footer](../../aspose.tasks.visualization/pageinfo/footer) { get; set; } | Gets or sets an instance of the [`HeaderFooterInfo`](../headerfooterinfo) class which represents a footer data. |
+| [Header](../../aspose.tasks.visualization/pageinfo/header) { get; set; } | Gets or sets the instance of the [`HeaderFooterInfo`](../headerfooterinfo) class which represents a header data. |
+| [Legend](../../aspose.tasks.visualization/pageinfo/legend) { get; set; } | Gets or sets an instance of the [`PageLegend`](../pagelegend) class which specifies page legend. |
+| [Margins](../../aspose.tasks.visualization/pageinfo/margins) { get; } | Gets an instance of the [`PageMargins`](../pagemargins) class which specifies page margins. |
+| [Name](../../aspose.tasks.visualization/pageinfo/name) { get; } | Gets the name of the view for which set-up data is used. |
+| [PageSettings](../../aspose.tasks.visualization/pageinfo/pagesettings) { get; } | Gets an instance of the [`PageSettings`](./pagesettings) class which specifies page printing settings. |
+| [PageViewSettings](../../aspose.tasks.visualization/pageinfo/pageviewsettings) { get; } | Gets an instance of the [`PageViewSettings`](./pageviewsettings) class which specifies page view printing settings. |
 
 ### See Also
 

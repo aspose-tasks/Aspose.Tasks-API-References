@@ -18,20 +18,20 @@ public class CalendarExceptionCollection : IList<CalendarException>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this [`CalendarExceptionCollection`](../calendarexceptioncollection) object. |
-| [Item](item) { get; set; } | Returns the element at the specified index. |
-| [ParentCalendar](parentcalendar) { get; } | Gets the parent calendar for this object. |
+| [Count](../../aspose.tasks/calendarexceptioncollection/count) { get; } | Gets the number of objects contained in this [`CalendarExceptionCollection`](../calendarexceptioncollection) object. |
+| [Item](../../aspose.tasks/calendarexceptioncollection/item) { get; set; } | Returns the element at the specified index. |
+| [ParentCalendar](../../aspose.tasks/calendarexceptioncollection/parentcalendar) { get; } | Gets the parent calendar for this object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(CalendarException) | Adds CalendarException instance to this collection object. |
-| [AddRange](addrange)(IEnumerable&lt;CalendarException&gt;) | Adds range of exceptions to the internal list. |
-| [Clear](clear)() | Removes all items from the [`CalendarExceptionCollection`](../calendarexceptioncollection). |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(CalendarException) | Removes [`CalendarException`](../calendarexception) instance from this collection. |
-| [ToList](tolist)() | Converts the CalendarExceptionCollection object to a list of [`CalendarException`](../calendarexception) objects. |
+| [Add](../../aspose.tasks/calendarexceptioncollection/add)(CalendarException) | Adds CalendarException instance to this collection object. |
+| [AddRange](../../aspose.tasks/calendarexceptioncollection/addrange)(IEnumerable&lt;CalendarException&gt;) | Adds range of exceptions to the internal list. |
+| [Clear](../../aspose.tasks/calendarexceptioncollection/clear)() | Removes all items from the [`CalendarExceptionCollection`](../calendarexceptioncollection). |
+| [GetEnumerator](../../aspose.tasks/calendarexceptioncollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/calendarexceptioncollection/remove)(CalendarException) | Removes [`CalendarException`](../calendarexception) instance from this collection. |
+| [ToList](../../aspose.tasks/calendarexceptioncollection/tolist)() | Converts the CalendarExceptionCollection object to a list of [`CalendarException`](../calendarexception) objects. |
 
 ### See Also
 

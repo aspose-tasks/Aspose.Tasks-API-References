@@ -14,6 +14,13 @@ Represents the standard internal reading exception type.
 public class TasksReadingException : TasksLoggedException
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [LogText](../../aspose.tasks/tasksloggedexception/logtext) { get; } | Gets the exception logging information. |
+| [Operation](../../aspose.tasks/tasksloggedexception/operation) { get; } | Gets the exception operation information. |
+
 ### See Also
 
 * class [TasksLoggedException](../tasksloggedexception)

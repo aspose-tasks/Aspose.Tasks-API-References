@@ -18,15 +18,15 @@ public class SplitPart
 
 | Name | Description |
 | --- | --- |
-| [Finish](finish) { get; } | Gets the finish date of a SplitPart. |
-| [Start](start) { get; } | Gets the start date of a SplitPart. |
+| [Finish](../../aspose.tasks/splitpart/finish) { get; } | Gets the finish date of a SplitPart. |
+| [Start](../../aspose.tasks/splitpart/start) { get; } | Gets the start date of a SplitPart. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Compares two split parts. |
-| override [GetHashCode](gethashcode)() | Returns a hash code value for the instance of the [`SplitPart`](../splitpart) class. |
+| override [Equals](../../aspose.tasks/splitpart/equals)(object) | Compares two split parts. |
+| override [GetHashCode](../../aspose.tasks/splitpart/gethashcode)() | Returns a hash code value for the instance of the [`SplitPart`](../splitpart) class. |
 
 ### See Also
 

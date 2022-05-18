@@ -18,20 +18,20 @@ public class CalendarCollection : IList<Calendar>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of objects contained in this [`CalendarCollection`](../calendarcollection) object. |
-| [ParentProject](parentproject) { get; } | Gets a parent [`Project`](../project) of this object. |
+| [Count](../../aspose.tasks/calendarcollection/count) { get; } | Gets the number of objects contained in this [`CalendarCollection`](../calendarcollection) object. |
+| [ParentProject](../../aspose.tasks/calendarcollection/parentproject) { get; } | Gets a parent [`Project`](../project) of this object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string) | Adds a new base calendar to this CalendarCollection object and returns added calendar. |
-| [Add](add)(string, Calendar) | Adds a new calendar with specified base calendar to this CalendarCollection object and returns added calendar. |
-| [GetByName](getbyname)(string) | Returns a calendar with the specified name. |
-| [GetByUid](getbyuid)(int) | Returns a calendar with the specified UID. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](remove)(Calendar) | Removes Calendar from Project CalendarCollection. |
-| [ToList](tolist)() | Converts the CalendarCollection object to a list of [`Calendar`](../calendar) objects. |
+| [Add](../../aspose.tasks/calendarcollection/add)(string) | Adds a new base calendar to this CalendarCollection object and returns added calendar. |
+| [Add](../../aspose.tasks/calendarcollection/add)(string, Calendar) | Adds a new calendar with specified base calendar to this CalendarCollection object and returns added calendar. |
+| [GetByName](../../aspose.tasks/calendarcollection/getbyname)(string) | Returns a calendar with the specified name. |
+| [GetByUid](../../aspose.tasks/calendarcollection/getbyuid)(int) | Returns a calendar with the specified UID. |
+| [GetEnumerator](../../aspose.tasks/calendarcollection/getenumerator)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/calendarcollection/remove)(Calendar) | Removes Calendar from Project CalendarCollection. |
+| [ToList](../../aspose.tasks/calendarcollection/tolist)() | Converts the CalendarCollection object to a list of [`Calendar`](../calendar) objects. |
 
 ### See Also
 

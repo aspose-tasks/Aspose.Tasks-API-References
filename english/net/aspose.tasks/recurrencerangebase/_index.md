@@ -18,7 +18,7 @@ public abstract class RecurrenceRangeBase
 
 | Name | Description |
 | --- | --- |
-| [Start](start) { get; set; } | Gets or sets the start date of the recurrence range of the recurring task. |
+| [Start](../../aspose.tasks/recurrencerangebase/start) { get; set; } | Gets or sets the start date of the recurrence range of the recurring task. |
 
 ### See Also
 

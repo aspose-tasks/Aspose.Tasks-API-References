@@ -24,11 +24,11 @@ public class PdfDigitalSignatureDetails
 
 | Name | Description |
 | --- | --- |
-| [Certificate](certificate) { get; set; } | Gets or sets the certificate to sign with. |
-| [HashAlgorithm](hashalgorithm) { get; set; } | Gets or sets the hash algorithm. |
-| [Location](location) { get; set; } | Gets or sets the location of signing. |
-| [Reason](reason) { get; set; } | Gets or sets the reason of signing. |
-| [SignatureDate](signaturedate) { get; set; } | Gets or sets the date of signing. |
+| [Certificate](../../aspose.tasks.saving/pdfdigitalsignaturedetails/certificate) { get; set; } | Gets or sets the certificate to sign with. |
+| [HashAlgorithm](../../aspose.tasks.saving/pdfdigitalsignaturedetails/hashalgorithm) { get; set; } | Gets or sets the hash algorithm. |
+| [Location](../../aspose.tasks.saving/pdfdigitalsignaturedetails/location) { get; set; } | Gets or sets the location of signing. |
+| [Reason](../../aspose.tasks.saving/pdfdigitalsignaturedetails/reason) { get; set; } | Gets or sets the reason of signing. |
+| [SignatureDate](../../aspose.tasks.saving/pdfdigitalsignaturedetails/signaturedate) { get; set; } | Gets or sets the date of signing. |
 
 ### Remarks
 

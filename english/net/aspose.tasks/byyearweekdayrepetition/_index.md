@@ -24,9 +24,9 @@ public class ByYearWeekDayRepetition : YearlyRepetitionBase
 
 | Name | Description |
 | --- | --- |
-| [Month](month) { get; set; } | Gets or sets a month on which the task must be recurring. |
-| [Position](position) { get; set; } | Gets or sets a position of the day in a week of a month on which the task must be recurring. |
-| [WeekDay](weekday) { get; set; } | Gets or sets a type of week day on which the task must be recurring. |
+| [Month](../../aspose.tasks/byyearweekdayrepetition/month) { get; set; } | Gets or sets a month on which the task must be recurring. |
+| [Position](../../aspose.tasks/byyearweekdayrepetition/position) { get; set; } | Gets or sets a position of the day in a week of a month on which the task must be recurring. |
+| [WeekDay](../../aspose.tasks/byyearweekdayrepetition/weekday) { get; set; } | Gets or sets a type of week day on which the task must be recurring. |
 
 ### See Also
 
