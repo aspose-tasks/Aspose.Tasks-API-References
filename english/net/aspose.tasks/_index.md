@@ -86,7 +86,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [ProjectInfo](./projectinfo) | Brief info about the published project available on Project Online. |
 | [ProjectOnlineException](./projectonlineexception) | Represents an exception which is thrown when errors are found during interaction with Project Online or Project Server instance. |
 | [ProjectServerCredentials](./projectservercredentials) | Credentials which are used to connect to Project Online or on-premise instance of Project Server. |
-| [ProjectServerManager](./projectservermanager) | The class which provides the methods to read and to perform operations on projects in the specified Project Online account or in the specified on-premise Project Server instance (../Project Server's versions 2016 and 2019 are supported). |
+| [ProjectServerManager](./projectservermanager) | The class which provides the methods to read and to perform operations on projects in the specified Project Online account or in the specified on-premise Project Server instance (Project Server's versions 2016 and 2019 are supported). |
 | [ProjectServerSaveOptions](./projectserversaveoptions) | Allows to specify additional options when project is saved to Project Server or Project Online. |
 | [Rate](./rate) | Represents a definition of a time period and rates applicable for a resource during that period. |
 | [RateByDateCollection](./ratebydatecollection) | Represents a collection which mappings of DateTime to [`Rate`](../aspose.tasks/rate) objects. |
