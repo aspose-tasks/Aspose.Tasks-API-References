@@ -14,7 +14,7 @@ Gets a [`TaskCollection`](../../taskcollection) object which contains all succes
 public TaskCollection Successors { get; }
 ```
 
-## Return Value
+### Return Value
 
 Read-only instance of [`TaskCollection`](../../taskcollection) class.
 

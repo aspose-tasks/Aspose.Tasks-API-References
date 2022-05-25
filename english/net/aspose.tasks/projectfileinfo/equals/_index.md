@@ -18,7 +18,7 @@ public bool Equals(ProjectFileInfo other)
 | --- | --- | --- |
 | other | ProjectFileInfo | The specified object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if the specified ProjectFileInfo and this instance have equal file format and application info.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The specified object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if the specified ProjectFileInfo and this instance have equal file format and application info.
 

@@ -18,7 +18,7 @@ public Project GetProject(Guid projectGuid)
 | --- | --- | --- |
 | projectGuid | Guid | The Guid of the project to read. |
 
-## Return Value
+### Return Value
 
 Instance of [`Project`](../../project) class which represents project read from Project Online \ Project Server.
 

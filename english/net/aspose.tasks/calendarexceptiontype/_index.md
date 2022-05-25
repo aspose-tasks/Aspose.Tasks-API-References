@@ -14,7 +14,7 @@ Specifies the calendar exception type.
 public enum CalendarExceptionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

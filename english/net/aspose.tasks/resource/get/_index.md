@@ -19,7 +19,7 @@ public T Get<T>(Key<T, RscKey> key)
 | T | the type of the mapped value. |
 | key | the specified property key. [`Rsc`](../../rsc) for getting the property key. |
 
-## Return Value
+### Return Value
 
 the value to which the property is mapped in this container.
 

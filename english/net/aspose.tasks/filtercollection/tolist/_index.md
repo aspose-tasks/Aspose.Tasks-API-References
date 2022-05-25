@@ -14,7 +14,7 @@ Converts a filter collection to a list of [`Filter`](../../filter) objects.
 public List<Filter> ToList()
 ```
 
-## Return Value
+### Return Value
 
 Generic list of [`Filter`](../../filter) objects.
 

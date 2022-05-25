@@ -18,7 +18,7 @@ public static Calendar Make24HourCalendar(Calendar calendar)
 | --- | --- | --- |
 | calendar | Calendar | Calendar to make 24 Hours Calendar from. |
 
-## Return Value
+### Return Value
 
 24Hour Calendar.
 

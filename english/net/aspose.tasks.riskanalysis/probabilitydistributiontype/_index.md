@@ -14,7 +14,7 @@ Specifies types of supported probability distributions.
 public enum ProbabilityDistributionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

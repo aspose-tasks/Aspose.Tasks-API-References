@@ -14,7 +14,7 @@ Specifies the bar type.
 public enum GanttBarType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

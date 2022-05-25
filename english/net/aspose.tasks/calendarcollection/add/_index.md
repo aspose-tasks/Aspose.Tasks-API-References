@@ -18,7 +18,7 @@ public Calendar Add(string name)
 | --- | --- | --- |
 | name | String | Calendar name. |
 
-## Return Value
+### Return Value
 
 Added [`Calendar`](../../calendar) object.
 
@@ -50,7 +50,7 @@ public Calendar Add(string name, Calendar baseCalendar)
 | name | String | Specified name. |
 | baseCalendar | Calendar | Specified base calendar. |
 
-## Return Value
+### Return Value
 
 Added [`Calendar`](../../calendar) object.
 

@@ -14,7 +14,7 @@ Represents a day type used in progress lines.
 public enum DayType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

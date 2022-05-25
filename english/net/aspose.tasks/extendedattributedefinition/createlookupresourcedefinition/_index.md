@@ -20,7 +20,7 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 | fieldId | ExtendedAttributeResource | The specified [`ExtendedAttributeResource`](../../extendedattributeresource) field ID. |
 | alias | String | The specified String alias. |
 
-## Return Value
+### Return Value
 
 Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *fieldId* and *alias*.
 
@@ -59,7 +59,7 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 | fieldId | ExtendedAttributeResource | The specified [`ExtendedAttributeResource`](../../extendedattributeresource) field ID. |
 | alias | String | The specified String alias. |
 
-## Return Value
+### Return Value
 
 Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *customFieldType*, *fieldId* and *alias*.
 

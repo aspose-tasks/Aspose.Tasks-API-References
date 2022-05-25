@@ -21,7 +21,7 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType c
 | fieldId | ExtendedAttributeTask | The specified [`ExtendedAttributeTask`](../../extendedattributetask) field ID. |
 | alias | String | The specified String alias. |
 
-## Return Value
+### Return Value
 
 Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *customFieldType*, *fieldId* and *alias*.
 
@@ -58,7 +58,7 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttribute
 | fieldId | ExtendedAttributeTask | The specified [`ExtendedAttributeTask`](../../extendedattributetask) field ID. |
 | alias | String | The specified String alias. |
 
-## Return Value
+### Return Value
 
 Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *fieldId* and *alias*.
 

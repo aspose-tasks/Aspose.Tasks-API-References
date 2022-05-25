@@ -18,7 +18,7 @@ public Rate Add(DateTime ratesFrom)
 | --- | --- | --- |
 | ratesFrom | DateTime | The date the new rate comes into effect. |
 
-## Return Value
+### Return Value
 
 Added [`Rate`](../../rate) instance.
 
@@ -44,7 +44,7 @@ public Rate Add(DateTime ratesFrom, RateType type)
 | ratesFrom | DateTime | The date the new rate comes into effect. |
 | type | RateType | The rate table to add into. |
 
-## Return Value
+### Return Value
 
 Added [`Rate`](../../rate) instance.
 

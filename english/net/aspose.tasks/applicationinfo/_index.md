@@ -14,7 +14,7 @@ Specifies the project version where the file was created.
 public enum ApplicationInfo
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

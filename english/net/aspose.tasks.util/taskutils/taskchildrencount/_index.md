@@ -18,7 +18,7 @@ public static int TaskChildrenCount(Task task)
 | --- | --- | --- |
 | task | Task | The task which children calculate. |
 
-## Return Value
+### Return Value
 
 The number of children.
 

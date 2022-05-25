@@ -14,7 +14,7 @@ Includes id, indicators, name, duration, start and finish task columns.
 public static ProjectView GetDefaultGanttChartView()
 ```
 
-## Return Value
+### Return Value
 
 a view which contains a list of [`GanttChartColumn`](../../ganttchartcolumn).
 

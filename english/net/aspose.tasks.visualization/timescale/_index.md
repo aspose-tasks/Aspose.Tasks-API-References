@@ -14,7 +14,7 @@ Defines options which specifies how to render timescale in Gantt Chart, Task Usa
 public enum Timescale
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

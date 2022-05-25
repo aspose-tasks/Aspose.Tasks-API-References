@@ -14,7 +14,7 @@ Shape of a marker at the beginning or end of the bar style to be rendered when s
 public enum Shape
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies how an object or text is horizontally aligned relative to another obje
 public enum HorizontalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

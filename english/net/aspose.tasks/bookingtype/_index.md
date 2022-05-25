@@ -14,7 +14,7 @@ Specifies the booking type of a resource.
 public enum BookingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

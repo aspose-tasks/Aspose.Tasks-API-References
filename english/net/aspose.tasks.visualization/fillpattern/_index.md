@@ -14,7 +14,7 @@ Fill pattern used in middle shape of a gantt bar.
 public enum FillPattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public TaskLinkCollection GetPredecessors(Task task)
 | --- | --- | --- |
 | task | Task | The task to get predecessors for. |
 
-## Return Value
+### Return Value
 
 List of predecessors [`TaskLink`](../../tasklink).
 

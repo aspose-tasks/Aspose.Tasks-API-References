@@ -18,7 +18,7 @@ public string GetColumnText(Task task)
 | --- | --- | --- |
 | task | Task | Current task. |
 
-## Return Value
+### Return Value
 
 The column text.
 

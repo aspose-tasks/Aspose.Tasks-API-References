@@ -14,7 +14,7 @@ Represents possible fields in [`ResourceUsageView`](../resourceusageview) object
 public enum ResourceUsageViewField
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

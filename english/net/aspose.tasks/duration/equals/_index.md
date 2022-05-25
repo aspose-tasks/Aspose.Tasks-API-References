@@ -18,7 +18,7 @@ public bool Equals(Duration other)
 | --- | --- | --- |
 | other | Duration | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 Returns **True** if other Duration instance has the same TimeSpan and TimeUnit values as this instance; otherwise, **false**.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if the specified object is a Duration that has the same TimeSpan and TimeUnit values as this instance; otherwise, **false**.
 

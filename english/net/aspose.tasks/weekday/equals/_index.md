@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if the specified object is a WeekDay that has the same FromDate, ToDate values and WorkingTimes as this instance; otherwise, **false**.
 

@@ -14,7 +14,7 @@ Gets the list of projects from 'Working' store of the current Project Online acc
 public IEnumerable<ProjectInfo> GetProjectList()
 ```
 
-## Return Value
+### Return Value
 
 An enumeration of projects in the current Project Online account \ Project Server instance.
 

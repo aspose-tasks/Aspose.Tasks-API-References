@@ -14,7 +14,7 @@ Specifies the type of a resource.
 public enum ResourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public bool Equals(VbaReference other)
 | --- | --- | --- |
 | other | VbaReference | The specified [`VbaReference`](../../vbareference) object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 Returns true if this instance is equal to the specified [`VbaReference`](../../vbareference) object; otherwise, false.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The specified [`VbaReference`](../../vbareference) object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 Returns true if this instance is equal to the specified [`VbaReference`](../../vbareference) object; otherwise, false.
 

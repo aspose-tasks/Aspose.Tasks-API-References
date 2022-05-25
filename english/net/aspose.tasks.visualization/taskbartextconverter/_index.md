@@ -18,7 +18,7 @@ public delegate string TaskBarTextConverter(Task task);
 | --- | --- | --- |
 | task | Task | Task for which task bar's text will be rendered. |
 
-## Return Value
+### Return Value
 
 Text to render for a bar corresponding to the specified task.
 

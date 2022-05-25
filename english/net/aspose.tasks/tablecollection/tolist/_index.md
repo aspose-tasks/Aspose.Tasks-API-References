@@ -14,7 +14,7 @@ Converts a table collection to a list of [`Table`](../../table) objects.
 public List<Table> ToList()
 ```
 
-## Return Value
+### Return Value
 
 Generic list of [`Table`](../../table) objects.
 

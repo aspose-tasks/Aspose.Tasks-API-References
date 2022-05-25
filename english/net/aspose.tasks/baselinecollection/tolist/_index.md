@@ -14,7 +14,7 @@ Converts the BaselineCollection object to a list of [`Baseline`](../../baseline)
 public List<Baseline> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`Baseline`](../../baseline) objects.
 

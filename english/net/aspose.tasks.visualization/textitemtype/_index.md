@@ -14,7 +14,7 @@ Item type to change a text style for.
 public enum TextItemType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

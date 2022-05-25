@@ -18,7 +18,7 @@ public static implicit operator bool(NullableBool val)
 | --- | --- | --- |
 | val | NullableBool | The value to convert. |
 
-## Return Value
+### Return Value
 
 a boolean value.
 
@@ -42,7 +42,7 @@ public static implicit operator NullableBool(bool val)
 | --- | --- | --- |
 | val | Boolean | Value to convert. |
 
-## Return Value
+### Return Value
 
 Converted [`NullableBool`](../../nullablebool) instance.
 

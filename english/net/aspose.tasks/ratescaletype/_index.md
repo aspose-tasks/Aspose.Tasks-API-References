@@ -14,7 +14,7 @@ Specifies the rate scale type.
 public enum RateScaleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

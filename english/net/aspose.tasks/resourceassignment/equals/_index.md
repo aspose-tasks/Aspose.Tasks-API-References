@@ -18,7 +18,7 @@ public bool Equals(ResourceAssignment other)
 | --- | --- | --- |
 | other | ResourceAssignment | The specified instance of the [`ResourceAssignment`](../../resourceassignment) class to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if the specified instance of the [`ResourceAssignment`](../../resourceassignment) class has the same UID value as this instance; otherwise, **false**.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if o is a ResourceAssignment that assign the same resource and task as this instance; otherwise, **false**.
 

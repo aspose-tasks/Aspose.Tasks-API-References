@@ -14,7 +14,7 @@ Converts the instance of the [`ResourceUsageViewFieldCollection`](../../resource
 public IList<ResourceUsageViewField> ToList()
 ```
 
-## Return Value
+### Return Value
 
 The instance of the [`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection) class converted to list containing the instances of the [`ResourceUsageViewField`](../../resourceusageviewfield) class.
 

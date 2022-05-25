@@ -14,7 +14,7 @@ Returns an enumerator for this collection.
 public IEnumerator<WorkWeek> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 an enumerator for this collection.
 

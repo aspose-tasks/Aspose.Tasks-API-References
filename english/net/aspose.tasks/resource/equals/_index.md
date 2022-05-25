@@ -18,7 +18,7 @@ public bool Equals(Resource other)
 | --- | --- | --- |
 | other | Resource | The specified instance of the [`Resource`](../../resource) class to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if the specified instance of the [`Resource`](../../resource) class has the same Uid value as this instance; otherwise, **false**.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if the specified object is a Resource that has the same Uid value as this instance; otherwise, **false**.
 

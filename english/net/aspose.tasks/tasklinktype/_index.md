@@ -14,7 +14,7 @@ Specifies the type of tasks dependency.
 public enum TaskLinkType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

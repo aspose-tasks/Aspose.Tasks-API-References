@@ -18,7 +18,7 @@ public static DayType CastToDayType(DayOfWeek dw)
 | --- | --- | --- |
 | dw | DayOfWeek | The day of week to cast from. |
 
-## Return Value
+### Return Value
 
 A cast day type.
 

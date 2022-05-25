@@ -14,7 +14,7 @@ Includes Uid, name, start, finish and work resource columns.
 public static ProjectView GetDefaultResourceUsageView()
 ```
 
-## Return Value
+### Return Value
 
 a view which contains a list of [`ResourceViewColumn`](../../resourceviewcolumn).
 

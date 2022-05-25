@@ -14,7 +14,7 @@ Specifies the type of an element.
 public enum ElementType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

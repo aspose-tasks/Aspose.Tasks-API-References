@@ -14,7 +14,7 @@ Converts the instance of the [`OleObjectCollection`](../../oleobjectcollection) 
 public List<OleObject> ToList()
 ```
 
-## Return Value
+### Return Value
 
 Converted to list the instance of the [`OleObjectCollection`](../../oleobjectcollection) class containing the instances of the [`OleObject`](../../oleobject) class.
 

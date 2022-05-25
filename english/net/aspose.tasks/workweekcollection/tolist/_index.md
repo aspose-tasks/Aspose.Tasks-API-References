@@ -14,7 +14,7 @@ Converts the WorkWeekCollection object to a list of [`WorkWeek`](../../workweek)
 public List<WorkWeek> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`WorkWeek`](../../workweek) objects.
 

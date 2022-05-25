@@ -14,7 +14,7 @@ Enumeration for presentation format.
 public enum PresentationFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

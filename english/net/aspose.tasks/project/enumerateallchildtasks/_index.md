@@ -14,7 +14,7 @@ Recursively enumerates all project's tasks including root task.
 public IEnumerable<Task> EnumerateAllChildTasks()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable which can be used to iterate over all project's tasks.
 

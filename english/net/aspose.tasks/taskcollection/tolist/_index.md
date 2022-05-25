@@ -14,7 +14,7 @@ Converts the TaskCollection object to a list of [`Task`](../../task) objects.
 public List<Task> ToList()
 ```
 
-## Return Value
+### Return Value
 
 returns a list which contains the [`Task`](../../task) class instances of this collection.
 

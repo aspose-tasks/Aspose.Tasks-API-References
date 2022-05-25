@@ -14,7 +14,7 @@ Specifies recurring intervals to display progress lines at.
 public enum Interval
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

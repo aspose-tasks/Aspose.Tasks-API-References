@@ -14,7 +14,7 @@ Converts the [`RateCollection`](../../ratecollection) object to a list of [`Rate
 public List<Rate> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`Rate`](../../rate) objects.
 
@@ -39,7 +39,7 @@ public List<Rate> ToList(RateType type)
 | --- | --- | --- |
 | type | RateType | The type to filter on. |
 
-## Return Value
+### Return Value
 
 a list of [`Rate`](../../rate) objects.
 

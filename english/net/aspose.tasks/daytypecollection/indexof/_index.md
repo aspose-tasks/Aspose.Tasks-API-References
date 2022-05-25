@@ -18,7 +18,7 @@ public int IndexOf(DayType item)
 | --- | --- | --- |
 | item | DayType | the specified item to locate in this collection. |
 
-## Return Value
+### Return Value
 
 the index of the specified item if found; otherwise, -1.
 

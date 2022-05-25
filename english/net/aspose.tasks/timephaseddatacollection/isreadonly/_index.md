@@ -14,7 +14,7 @@ Gets a value indicating whether the ICollection is read-only.
 public bool IsReadOnly { get; }
 ```
 
-## Return Value
+### Return Value
 
 true if the ICollection is read-only; otherwise, false.
 

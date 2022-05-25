@@ -19,7 +19,7 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, Duration dura
 | finish | DateTime | The specified finish date. |
 | duration | Duration | The specified work duration. |
 
-## Return Value
+### Return Value
 
 Calculated StartDate.
 
@@ -45,7 +45,7 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, TimeSpan dura
 | finish | DateTime | The specified finish date. |
 | duration | TimeSpan | The specified work duration. |
 
-## Return Value
+### Return Value
 
 Calculated StartDate.
 

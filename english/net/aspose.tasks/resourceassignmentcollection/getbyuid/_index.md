@@ -18,7 +18,7 @@ public ResourceAssignment GetByUid(int uid)
 | --- | --- | --- |
 | uid | Int32 | The specified uid. |
 
-## Return Value
+### Return Value
 
 ResourceAssignment with the specified uid if present; otherwise, null.
 

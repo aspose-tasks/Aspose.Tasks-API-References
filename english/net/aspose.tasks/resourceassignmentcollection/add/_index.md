@@ -20,7 +20,7 @@ public ResourceAssignment Add(Task task, Resource resource, double units)
 | resource | Resource | A resource to be assigned. |
 | units | Double | The number of units for a new assignment. |
 
-## Return Value
+### Return Value
 
 Added assignment.
 
@@ -49,7 +49,7 @@ public ResourceAssignment Add(Task task, Resource resource, decimal cost)
 | resource | Resource | A cost resource to be assigned. |
 | cost | Decimal | The cost for a new assignment. |
 
-## Return Value
+### Return Value
 
 Added assignment.
 
@@ -77,7 +77,7 @@ public ResourceAssignment Add(Task task, Resource resource)
 | task | Task | A task to be assigned. |
 | resource | Resource | A resource to be assigned. |
 
-## Return Value
+### Return Value
 
 Added assignment.
 

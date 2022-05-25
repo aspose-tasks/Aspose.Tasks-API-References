@@ -14,7 +14,7 @@ Returns short string representation of an extended attribute.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 The string representation of the extended attribute.
 

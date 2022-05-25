@@ -18,7 +18,7 @@ public bool Remove(string name)
 | --- | --- | --- |
 | name | String | The case-insensitive name of the property. |
 
-## Return Value
+### Return Value
 
 True if the element is successfully found and removed; otherwise, false.
 

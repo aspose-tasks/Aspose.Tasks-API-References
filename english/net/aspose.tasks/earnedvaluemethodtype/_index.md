@@ -14,7 +14,7 @@ Specifies the method used for calculating earned value.
 public enum EarnedValueMethodType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

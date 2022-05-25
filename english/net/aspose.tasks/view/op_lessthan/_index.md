@@ -19,7 +19,7 @@ public static bool operator <(View a, View b)
 | a | View | The first filter. |
 | b | View | The second filter. |
 
-## Return Value
+### Return Value
 
 a value indicating whether this instance is less than a specified object
 

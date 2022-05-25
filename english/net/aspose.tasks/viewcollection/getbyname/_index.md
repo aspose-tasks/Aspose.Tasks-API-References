@@ -18,7 +18,7 @@ public View GetByName(string viewName)
 | --- | --- | --- |
 | viewName | String | Name of the View to search. |
 
-## Return Value
+### Return Value
 
 The first View in collection with the specified name, if found; otherwise, null.
 

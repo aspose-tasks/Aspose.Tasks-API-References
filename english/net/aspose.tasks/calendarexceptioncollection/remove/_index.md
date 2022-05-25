@@ -18,7 +18,7 @@ public bool Remove(CalendarException item)
 | --- | --- | --- |
 | item | CalendarException | The item to remove. |
 
-## Return Value
+### Return Value
 
 true if the specified exception was removed successfully.
 

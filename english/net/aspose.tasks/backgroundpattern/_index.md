@@ -14,7 +14,7 @@ Specifies the background pattern.
 public enum BackgroundPattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

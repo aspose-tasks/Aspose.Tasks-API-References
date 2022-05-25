@@ -18,7 +18,7 @@ public bool Contains(TimephasedData item)
 | --- | --- | --- |
 | item | TimephasedData | The object to locate in the collection. |
 
-## Return Value
+### Return Value
 
 true if *item* is found in the collection; otherwise, false.
 

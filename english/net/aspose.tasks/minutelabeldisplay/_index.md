@@ -14,7 +14,7 @@ Specifies how the minute label displays.
 public enum MinuteLabelDisplay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

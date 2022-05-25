@@ -14,7 +14,7 @@ Specifies the rollup type.
 public enum RollupType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

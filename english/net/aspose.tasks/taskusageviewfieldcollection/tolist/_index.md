@@ -14,7 +14,7 @@ Returns a list which contains all items from this collection.
 public IList<TaskUsageViewField> ToList()
 ```
 
-## Return Value
+### Return Value
 
 returns a list which contains all items from this collection.
 

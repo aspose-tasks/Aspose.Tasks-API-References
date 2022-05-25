@@ -14,7 +14,7 @@ Converts the WeekDayCollection object to a list of [`WeekDay`](../../weekday) ob
 public List<WeekDay> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`WeekDay`](../../weekday) objects.
 

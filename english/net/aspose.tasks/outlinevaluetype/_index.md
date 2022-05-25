@@ -14,7 +14,7 @@ Specifies the type of an outline value.
 public enum OutlineValueType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

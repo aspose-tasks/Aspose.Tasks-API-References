@@ -18,7 +18,7 @@ public static WeekDay CreateDefaultWorkingDay(DayType dayType)
 | --- | --- | --- |
 | dayType | DayType | The day type to create default working day from. |
 
-## Return Value
+### Return Value
 
 A created default working day.
 

@@ -18,7 +18,7 @@ public bool Remove(WorkingTime item)
 | --- | --- | --- |
 | item | WorkingTime | The item to remove. |
 
-## Return Value
+### Return Value
 
 true if WorkingTime instance was successfully removed from this collection; otherwise, false.
 

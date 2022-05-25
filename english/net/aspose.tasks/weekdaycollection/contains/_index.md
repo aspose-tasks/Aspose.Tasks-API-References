@@ -18,7 +18,7 @@ public bool Contains(WeekDay item)
 | --- | --- | --- |
 | item | WeekDay | The item to check against to. |
 
-## Return Value
+### Return Value
 
 true, if collection contains item specified, of false otherwise.
 

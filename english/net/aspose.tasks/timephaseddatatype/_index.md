@@ -14,7 +14,7 @@ Specifies the type of time phased data.
 public enum TimephasedDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

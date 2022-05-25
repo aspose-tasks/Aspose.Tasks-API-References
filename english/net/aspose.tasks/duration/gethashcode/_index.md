@@ -14,7 +14,7 @@ Returns a hash code value for this object.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 returns a hash code value for this duration instance.
 

@@ -14,7 +14,7 @@ Returns a deep copy of the week day.
 public WeekDay Clone()
 ```
 
-## Return Value
+### Return Value
 
 Returns the deep copy of the week day.
 

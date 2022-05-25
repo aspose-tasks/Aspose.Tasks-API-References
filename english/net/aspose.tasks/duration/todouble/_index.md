@@ -14,7 +14,7 @@ Converts Duration object to Double value.
 public double ToDouble()
 ```
 
-## Return Value
+### Return Value
 
 Converted value.
 

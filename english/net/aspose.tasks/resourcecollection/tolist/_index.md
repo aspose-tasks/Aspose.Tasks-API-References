@@ -14,7 +14,7 @@ Converts the ResourceCollection object to a list of [`Resource`](../../resource)
 public List<Resource> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`Resource`](../../resource) objects.
 

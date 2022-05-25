@@ -18,7 +18,7 @@ public RiskPattern this[Task task] { get; }
 | --- | --- |
 | task | the specified task. |
 
-## Return Value
+### Return Value
 
 the pattern for the specified task.
 

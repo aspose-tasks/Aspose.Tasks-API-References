@@ -19,7 +19,7 @@ public CustomProjectProperty Add(string name, string value)
 | name | String | The name of the property. |
 | value | String | The newly created property object value. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 
@@ -45,7 +45,7 @@ public CustomProjectProperty Add(string name, bool value)
 | name | String | The name of the property. |
 | value | Boolean | The newly created property object value. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 
@@ -71,7 +71,7 @@ public CustomProjectProperty Add(string name, double value)
 | name | String | The name of the property. |
 | value | Double | The newly created property object value. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 
@@ -97,7 +97,7 @@ public CustomProjectProperty Add(string name, DateTime value)
 | name | String | The name of the property. |
 | value | DateTime | The newly created property object value. |
 
-## Return Value
+### Return Value
 
 The newly created property object.
 

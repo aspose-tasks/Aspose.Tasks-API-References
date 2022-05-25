@@ -14,6 +14,15 @@ Contains build version and product information.
 public static class BuildVersionInfo
 ```
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| static readonly [AssemblyInformationalVersion](../../aspose.tasks/buildversioninfo/assemblyinformationalversion) | The informational version number of the assembly. |
+| static readonly [AssemblyVersion](../../aspose.tasks/buildversioninfo/assemblyversion) | Assembly version. |
+| static readonly [FileVersion](../../aspose.tasks/buildversioninfo/fileversion) | File version. |
+| static readonly [Product](../../aspose.tasks/buildversioninfo/product) | Product name. |
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

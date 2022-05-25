@@ -24,7 +24,7 @@ public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateT
 | timeUnit | TimeUnitType | Time unit type. |
 | type | TimephasedDataType | Time-phased data type. |
 
-## Return Value
+### Return Value
 
 A instance of the [`TimephasedData`](../../timephaseddata) class for cost-based time phased data.
 

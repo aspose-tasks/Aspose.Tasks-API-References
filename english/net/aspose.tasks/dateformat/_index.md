@@ -14,7 +14,7 @@ Specifies the date format.
 public enum DateFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

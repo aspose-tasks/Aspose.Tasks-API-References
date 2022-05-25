@@ -14,7 +14,7 @@ Returns a hash code value for this [`VbaReference`](../../vbareference).
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Returns a hash code value for this object.
 

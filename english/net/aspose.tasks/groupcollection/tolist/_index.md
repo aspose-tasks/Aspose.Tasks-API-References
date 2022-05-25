@@ -14,7 +14,7 @@ Converts a group collection to a list of [`Group`](../../group) objects.
 public List<Group> ToList()
 ```
 
-## Return Value
+### Return Value
 
 Generic list of [`Group`](../../group) objects.
 

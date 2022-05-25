@@ -14,7 +14,7 @@ Creates a new extended attribute with the field ID which equals to this object's
 public ExtendedAttribute CreateExtendedAttribute()
 ```
 
-## Return Value
+### Return Value
 
 returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
 
@@ -39,7 +39,7 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 | --- | --- | --- |
 | textValue | String | The specified text value. |
 
-## Return Value
+### Return Value
 
 returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
 
@@ -70,7 +70,7 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 | --- | --- | --- |
 | numericValue | Decimal | The specified numeric value. |
 
-## Return Value
+### Return Value
 
 returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
 
@@ -101,7 +101,7 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 | --- | --- | --- |
 | dateTimeValue | DateTime | The specified date time value. |
 
-## Return Value
+### Return Value
 
 returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
 
@@ -132,7 +132,7 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 | --- | --- | --- |
 | durationValue | Duration | The specified duration value. |
 
-## Return Value
+### Return Value
 
 returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
 
@@ -164,7 +164,7 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 | --- | --- | --- |
 | flagValue | Boolean | The specified flag value. |
 
-## Return Value
+### Return Value
 
 returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
 
@@ -195,7 +195,7 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 | --- | --- | --- |
 | lookupValue | Value | The specified [`Value`](../../value) item. |
 
-## Return Value
+### Return Value
 
 returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class linked with specified [`Value`](../../value) item.
 

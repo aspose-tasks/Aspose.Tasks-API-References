@@ -14,7 +14,7 @@ Returns a hash code for the instance of the [`Calendar`](../../calendar) class.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 a hash code for this object.
 

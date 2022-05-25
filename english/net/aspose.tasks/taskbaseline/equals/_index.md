@@ -18,7 +18,7 @@ public bool Equals(TaskBaseline other)
 | --- | --- | --- |
 | other | TaskBaseline | the specified AssignmentBaseline object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if this instance is equal to the specified TaskBaseline object; otherwise, false.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if the specified object is a TaskBaseline that has the same UID value as this instance; otherwise, **false**.
 

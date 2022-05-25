@@ -18,7 +18,7 @@ public bool Contains(Task item)
 | --- | --- | --- |
 | item | Task | The item to check. |
 
-## Return Value
+### Return Value
 
 true, if collection contains an item, false otherwise.
 

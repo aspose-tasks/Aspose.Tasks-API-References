@@ -14,7 +14,7 @@ Returns short string representation of a risk item. The exact details of the rep
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 short string which represents RiskItem object.
 

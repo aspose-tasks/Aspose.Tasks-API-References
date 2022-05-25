@@ -18,7 +18,7 @@ public Duration GetDuration(double val)
 | --- | --- | --- |
 | val | Double | specified number of units. |
 
-## Return Value
+### Return Value
 
 Duration object.
 
@@ -44,7 +44,7 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 | val | Double | specified number of units. |
 | timeUnit | TimeUnitType | specified TimeUnitType value. |
 
-## Return Value
+### Return Value
 
 Duration object.
 
@@ -71,7 +71,7 @@ public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
 | timeSpan | TimeSpan | specified TimeSpan value. |
 | timeUnit | TimeUnitType | specified TimeUnitType value. |
 
-## Return Value
+### Return Value
 
 Duration object.
 

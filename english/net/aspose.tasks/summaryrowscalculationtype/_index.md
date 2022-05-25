@@ -14,7 +14,7 @@ Specifies the type of a calculation of the custom attribute's value for summary 
 public enum SummaryRowsCalculationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

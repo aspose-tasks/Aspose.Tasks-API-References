@@ -18,7 +18,7 @@ public delegate string TaskToColumnTextConverter(Task task);
 | --- | --- | --- |
 | task | Task | Current task. |
 
-## Return Value
+### Return Value
 
 String data for the column.
 

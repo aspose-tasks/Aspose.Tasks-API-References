@@ -18,7 +18,7 @@ public bool Remove(View item)
 | --- | --- | --- |
 | item | View | the specified object to remove. |
 
-## Return Value
+### Return Value
 
 true if the specified object was successfully removed from this collection; otherwise, false.
 

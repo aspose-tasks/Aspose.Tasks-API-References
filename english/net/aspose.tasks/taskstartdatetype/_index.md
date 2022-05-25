@@ -14,7 +14,7 @@ Specifies the type of a task's start date.
 public enum TaskStartDateType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

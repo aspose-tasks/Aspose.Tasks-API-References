@@ -19,7 +19,7 @@ public static Task Filter(Task root, ICondition<Task> cond)
 | root | Task | Root of the tree. |
 | cond | ICondition`1 | Applied condition. |
 
-## Return Value
+### Return Value
 
 Root of a new tree.
 

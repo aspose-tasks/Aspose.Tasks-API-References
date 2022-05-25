@@ -14,7 +14,7 @@ Specifies the type of a task.
 public enum TaskType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

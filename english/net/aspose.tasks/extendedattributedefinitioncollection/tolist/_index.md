@@ -14,7 +14,7 @@ Converts this ExtendedAttributeDefinitionCollection object to a list containing 
 public List<ExtendedAttributeDefinition> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List containing instances of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class.
 

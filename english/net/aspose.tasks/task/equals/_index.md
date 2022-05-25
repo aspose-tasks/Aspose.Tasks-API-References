@@ -18,7 +18,7 @@ public bool Equals(Task other)
 | --- | --- | --- |
 | other | Task | The specified task to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if the specified task and this instance have equal unique ids.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The specified object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if the specified task and this instance have equal unique ids.
 

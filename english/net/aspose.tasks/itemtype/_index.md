@@ -14,7 +14,7 @@ Specifies the type of an item.
 public enum ItemType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | the specified object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if this instance is equal to the specified object; otherwise, false.
 
@@ -42,7 +42,7 @@ public bool Equals(AssignmentBaseline other)
 | --- | --- | --- |
 | other | AssignmentBaseline | the specified AssignmentBaseline object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if this instance is equal to the specified AssignmentBaseline object; otherwise, false.
 

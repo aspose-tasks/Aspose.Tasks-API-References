@@ -14,7 +14,7 @@ Creates full copy of a task without subtasks.
 public object Clone()
 ```
 
-## Return Value
+### Return Value
 
 Created copy of a task.
 

@@ -18,7 +18,7 @@ public DateTime GetBaselineSaveTime(BaselineType baselineNumber)
 | --- | --- | --- |
 | baselineNumber | BaselineType | The baseline's number [`BaselineType`](../../baselinetype). |
 
-## Return Value
+### Return Value
 
 The baseline's last save date and time.
 

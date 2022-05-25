@@ -14,7 +14,7 @@ Specifies how the month label displays.
 public enum MonthLabelDisplay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

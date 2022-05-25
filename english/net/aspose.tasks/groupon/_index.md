@@ -14,7 +14,7 @@ Specifies the type of grouping.
 public enum GroupOn
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

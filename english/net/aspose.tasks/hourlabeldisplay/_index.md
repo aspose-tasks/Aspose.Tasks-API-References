@@ -14,7 +14,7 @@ Specifies how the hour label displays.
 public enum HourLabelDisplay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

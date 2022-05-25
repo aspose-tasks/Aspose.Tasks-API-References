@@ -14,7 +14,7 @@ Specifies the position of a currency symbol.
 public enum CurrencySymbolPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

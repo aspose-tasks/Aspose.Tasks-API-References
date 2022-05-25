@@ -18,7 +18,7 @@ public Duration GetWork(double val)
 | --- | --- | --- |
 | val | Double | specified double value. |
 
-## Return Value
+### Return Value
 
 Duration object.
 

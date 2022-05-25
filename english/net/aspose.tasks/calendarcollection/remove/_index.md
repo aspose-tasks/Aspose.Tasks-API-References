@@ -18,7 +18,7 @@ public bool Remove(Calendar item)
 | --- | --- | --- |
 | item | Calendar | The calendar to remove. |
 
-## Return Value
+### Return Value
 
 If removed returns true, else returns false.
 

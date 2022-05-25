@@ -14,7 +14,7 @@ Includes Uid, resource name, type, material label, initials, group, max units, s
 public static ProjectView GetDefaultResourceSheetView()
 ```
 
-## Return Value
+### Return Value
 
 a view which contains a list of [`ResourceViewColumn`](../../resourceviewcolumn).
 

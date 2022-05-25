@@ -18,7 +18,7 @@ public bool Remove(Task item)
 | --- | --- | --- |
 | item | Task | The item to remove. |
 
-## Return Value
+### Return Value
 
 `true` if the item was removed; `false` otherwise.
 

@@ -14,7 +14,7 @@ Specifies the type of an accrual cost.
 public enum CostAccrualType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

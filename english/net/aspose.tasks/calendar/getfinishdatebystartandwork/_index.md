@@ -19,7 +19,7 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, Duration work)
 | start | DateTime | Start date. |
 | work | Duration | Work duration. |
 
-## Return Value
+### Return Value
 
 Finish date.
 
@@ -45,7 +45,7 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, TimeSpan work)
 | start | DateTime | Start date. |
 | work | TimeSpan | Work duration. |
 
-## Return Value
+### Return Value
 
 Finish date.
 

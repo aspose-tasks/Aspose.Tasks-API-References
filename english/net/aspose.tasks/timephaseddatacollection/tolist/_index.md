@@ -14,7 +14,7 @@ Converts the [`TimephasedDataCollection`](../../timephaseddatacollection) object
 public List<TimephasedData> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`TimephasedData`](../../timephaseddata) objects.
 

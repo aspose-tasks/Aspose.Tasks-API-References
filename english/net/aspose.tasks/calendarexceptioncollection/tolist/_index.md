@@ -14,7 +14,7 @@ Converts the CalendarExceptionCollection object to a list of [`CalendarException
 public List<CalendarException> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`CalendarException`](../../calendarexception) objects.
 

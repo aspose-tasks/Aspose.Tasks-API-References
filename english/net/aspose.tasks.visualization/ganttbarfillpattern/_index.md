@@ -14,7 +14,7 @@ A shape's fill pattern.
 public enum GanttBarFillPattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

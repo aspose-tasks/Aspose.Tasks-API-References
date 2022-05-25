@@ -18,7 +18,7 @@ public bool Equals(Filter other)
 | --- | --- | --- |
 | other | Filter | the specified AssignmentBaseline object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if this instance is equal to the specified AssignmentBaseline object; otherwise, false.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | the specified AssignmentBaseline object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 returns true if this instance is equal to the specified AssignmentBaseline object; otherwise, false.
 

@@ -14,7 +14,7 @@ Specifies how the week label displays.
 public enum WeekLabelDisplay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

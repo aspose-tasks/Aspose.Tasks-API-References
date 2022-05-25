@@ -18,7 +18,7 @@ public delegate string DateTimeConverter(DateTime date);
 | --- | --- | --- |
 | date | DateTime | the instance of the DateTime class to convert to string. |
 
-## Return Value
+### Return Value
 
 the string representation of the specified date.
 

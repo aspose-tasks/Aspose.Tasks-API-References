@@ -18,7 +18,7 @@ public bool Remove(WeekDay item)
 | --- | --- | --- |
 | item | WeekDay | The item to remove. |
 
-## Return Value
+### Return Value
 
 True, if [`WeekDay`](../../weekday) was removed, false if such item was not found.
 
