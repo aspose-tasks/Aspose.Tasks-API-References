@@ -14,7 +14,7 @@ Specifies the type of a custom field.
 public enum CustomFieldType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

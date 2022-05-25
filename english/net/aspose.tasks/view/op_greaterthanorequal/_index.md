@@ -19,7 +19,7 @@ public static bool operator >=(View a, View b)
 | a | View | The first view. |
 | b | View | The second view. |
 
-## Return Value
+### Return Value
 
 a value indicating whether this instance is greater than or equal to a specified object
 

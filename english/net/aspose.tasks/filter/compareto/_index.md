@@ -18,7 +18,7 @@ public int CompareTo(Filter other)
 | --- | --- | --- |
 | other | Filter | the specified instance of the [`Filter`](../../filter) class to compare to this object. |
 
-## Return Value
+### Return Value
 
 an indication of their relative order.
 

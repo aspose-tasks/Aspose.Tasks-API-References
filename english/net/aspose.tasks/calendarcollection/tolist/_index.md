@@ -14,7 +14,7 @@ Converts the CalendarCollection object to a list of [`Calendar`](../../calendar)
 public List<Calendar> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`Calendar`](../../calendar) objects.
 

@@ -14,7 +14,7 @@ Specifies the type borders.
 public enum Border
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public WorkingTimeCollection GetWorkingTimes(DateTime dt)
 | --- | --- | --- |
 | dt | DateTime | The date to get working times for. |
 
-## Return Value
+### Return Value
 
 List of [`WorkingTime`](../../workingtime).
 

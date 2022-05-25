@@ -14,7 +14,7 @@ Specifies how the day label displays.
 public enum DayLabelDisplay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public static TimeSpan ParseTimeSpan(string value)
 | --- | --- | --- |
 | value | String | the specified string to parse. |
 
-## Return Value
+### Return Value
 
 returns parsed instance of the [`TimeSpan`](../timespan) struct.
 

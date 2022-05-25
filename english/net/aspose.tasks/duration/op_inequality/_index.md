@@ -19,7 +19,7 @@ public static bool operator !=(Duration a, Duration b)
 | a | Duration | The first duration. |
 | b | Duration | The second duration. |
 
-## Return Value
+### Return Value
 
 a value indicating whether this instance is not equal to a specified object
 

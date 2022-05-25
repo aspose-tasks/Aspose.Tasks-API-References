@@ -14,7 +14,7 @@ Returns short string representation of a task. The exact details of the represen
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 short string which represents task object.
 

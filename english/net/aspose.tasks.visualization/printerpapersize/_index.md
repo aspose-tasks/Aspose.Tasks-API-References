@@ -14,7 +14,7 @@ Specifies the paper size which is used for printing.
 public enum PrinterPaperSize
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

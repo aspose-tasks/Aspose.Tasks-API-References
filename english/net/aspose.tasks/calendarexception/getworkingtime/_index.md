@@ -14,7 +14,7 @@ Returns the working time for a calendar exception.
 public TimeSpan GetWorkingTime()
 ```
 
-## Return Value
+### Return Value
 
 Returns working time for this calendar exception.
 

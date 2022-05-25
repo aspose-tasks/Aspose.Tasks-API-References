@@ -14,7 +14,7 @@ The type of comparison made between FieldName and Value that acts as selection c
 public enum FilterComparisonType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

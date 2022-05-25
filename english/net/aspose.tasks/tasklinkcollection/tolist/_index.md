@@ -14,7 +14,7 @@ Converts the TaskLinkCollection object to a list of [`TaskLink`](../../tasklink)
 public List<TaskLink> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`TaskLink`](../../tasklink) objects.
 

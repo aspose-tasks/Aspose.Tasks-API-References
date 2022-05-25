@@ -14,7 +14,7 @@ Specifies project calculation mode.
 public enum CalculationMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

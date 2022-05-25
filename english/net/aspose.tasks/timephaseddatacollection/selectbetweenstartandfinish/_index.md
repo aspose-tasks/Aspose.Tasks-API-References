@@ -21,7 +21,7 @@ public IList<TimephasedData> SelectBetweenStartAndFinish(TimephasedDataType time
 | startTime | DateTime | Interval's start. |
 | finishTime | DateTime | Interval's finish. |
 
-## Return Value
+### Return Value
 
 Returns new list instance of [`TimephasedDataCollection`](../../timephaseddatacollection) data ordered by Start property.
 

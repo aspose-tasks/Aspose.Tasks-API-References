@@ -14,7 +14,7 @@ Returns the working time for a week day.
 public TimeSpan GetWorkingTime()
 ```
 
-## Return Value
+### Return Value
 
 Working time.
 

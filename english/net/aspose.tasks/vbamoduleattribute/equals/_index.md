@@ -18,7 +18,7 @@ public bool Equals(VbaModuleAttribute other)
 | --- | --- | --- |
 | other | VbaModuleAttribute | The specified [`VbaModuleAttribute`](../../vbamoduleattribute) object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 Returns true if this instance is equal to the specified [`VbaModuleAttribute`](../../vbamoduleattribute) object; otherwise, false.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The specified [`VbaModuleAttribute`](../../vbamoduleattribute) object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 Returns true if this instance is equal to the specified [`VbaModuleAttribute`](../../vbamoduleattribute) object; otherwise, false.
 

@@ -18,7 +18,7 @@ public bool Remove(TimephasedData item)
 | --- | --- | --- |
 | item | TimephasedData | The item to remove. |
 
-## Return Value
+### Return Value
 
 true if *item* was successfully removed from the [`TimephasedDataCollection`](../../timephaseddatacollection); otherwise, false. This method also returns false if *item* is not found in the [`TimephasedDataCollection`](../../timephaseddatacollection).
 

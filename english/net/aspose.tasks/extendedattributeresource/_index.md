@@ -14,7 +14,7 @@ Specifies the extended attributes FieldId used in a resource.
 public enum ExtendedAttributeResource
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

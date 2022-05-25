@@ -19,7 +19,7 @@ public TaskLink Add(Task pred, Task succ)
 | pred | Task | Predecessor task. |
 | succ | Task | Successor task. |
 
-## Return Value
+### Return Value
 
 a task link instance which has been added to this object.
 
@@ -53,7 +53,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 | succ | Task | Successor task. |
 | linkType | TaskLinkType | Link type [`TaskLinkType`](../../tasklinktype) |
 
-## Return Value
+### Return Value
 
 a task link instance which has been added to this object.
 
@@ -89,7 +89,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 | linkType | TaskLinkType | Link type [`TaskLinkType`](../../tasklinktype) |
 | lag | Duration | Link lag [`Duration`](../../duration). |
 
-## Return Value
+### Return Value
 
 a task link which has been added to this object.
 

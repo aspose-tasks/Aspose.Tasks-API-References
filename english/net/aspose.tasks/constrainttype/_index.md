@@ -14,7 +14,7 @@ Specifies the constraint on the start or finish date of a task.
 public enum ConstraintType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

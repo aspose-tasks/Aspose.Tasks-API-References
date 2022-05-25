@@ -14,7 +14,7 @@ Specifies the day of a week.
 public enum DayType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets TimeSpan instance which represents string value of this object.
 public TimeSpan ValueToDuration { get; }
 ```
 
-## Return Value
+### Return Value
 
 a time span representation of the object.
 

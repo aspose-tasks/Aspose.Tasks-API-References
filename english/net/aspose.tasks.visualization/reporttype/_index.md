@@ -14,7 +14,7 @@ Type of the project's graphical report.
 public enum ReportType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

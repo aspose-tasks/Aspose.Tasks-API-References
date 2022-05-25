@@ -35,7 +35,7 @@ Adds new task to project tasks collection on the same outline level of the last 
 public Task Add()
 ```
 
-## Return Value
+### Return Value
 
 returns the newly added instance of the [`Task`](../../task) class.
 
@@ -60,7 +60,7 @@ public Task Add(string taskName)
 | --- | --- | --- |
 | taskName | String | the specified task name. |
 
-## Return Value
+### Return Value
 
 returns the newly added instance of the [`Task`](../../task) class.
 
@@ -86,7 +86,7 @@ public Task Add(string taskName, int beforeTaskId)
 | taskName | String | the specified task name. |
 | beforeTaskId | Int32 | The specified id of a task before which a new task will be inserted. |
 
-## Return Value
+### Return Value
 
 returns a task which was inserted before a task with the specified id.
 
@@ -117,7 +117,7 @@ public Task Add(RecurringTaskParameters parameters)
 | --- | --- | --- |
 | parameters | RecurringTaskParameters | The parameters the specified parameters for creation of recurring task. |
 
-## Return Value
+### Return Value
 
 returns the newly added instance of the [`Task`](../../task) class.
 

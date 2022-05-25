@@ -18,7 +18,7 @@ public Calendar GetByName(string name)
 | --- | --- | --- |
 | name | String | Name of a calendar. |
 
-## Return Value
+### Return Value
 
 If found returns calendar with a specified name else returns null.
 

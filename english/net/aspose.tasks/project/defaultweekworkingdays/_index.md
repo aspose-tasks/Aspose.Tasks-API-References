@@ -14,7 +14,7 @@ Gets the instance of [`WeekDayCollection`](../../weekdaycollection) class which 
 public WeekDayCollection DefaultWeekWorkingDays { get; }
 ```
 
-## Return Value
+### Return Value
 
 The instance of [`WeekDayCollection`](../../weekdaycollection) class which contains a list of [`WeekDay`](../../weekday) objects.
 

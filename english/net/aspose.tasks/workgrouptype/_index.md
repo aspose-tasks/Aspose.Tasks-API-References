@@ -14,7 +14,7 @@ Specifies the type of a workgroup.
 public enum WorkGroupType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

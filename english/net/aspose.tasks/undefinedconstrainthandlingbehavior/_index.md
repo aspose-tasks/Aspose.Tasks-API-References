@@ -14,7 +14,7 @@ Specifies the behavior used to handle tasks with undefined constraints.
 public enum UndefinedConstraintHandlingBehavior
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

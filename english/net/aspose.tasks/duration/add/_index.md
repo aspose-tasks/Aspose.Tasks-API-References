@@ -18,7 +18,7 @@ public Duration Add(Duration d)
 | --- | --- | --- |
 | d | Duration | specified [`Duration`](../../duration) to add to this instance. |
 
-## Return Value
+### Return Value
 
 New duration object that represents the value of this instance plus the specified duration value.
 
@@ -42,7 +42,7 @@ public Duration Add(double val)
 | --- | --- | --- |
 | val | Double | the specified Double value to add to this instance. |
 
-## Return Value
+### Return Value
 
 New duration object that represents the value of this instance plus the specified duration value.
 

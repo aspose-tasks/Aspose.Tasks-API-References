@@ -14,7 +14,7 @@ Converts the collection object to a list of [`VbaModule`](../../vbamodule) objec
 public List<T> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of objects.
 

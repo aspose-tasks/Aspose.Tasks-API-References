@@ -18,7 +18,7 @@ public bool Remove(Rate item)
 | --- | --- | --- |
 | item | Rate | The item to remove. |
 
-## Return Value
+### Return Value
 
 true if the specified Rate was removed successfully; otherwise, false.
 

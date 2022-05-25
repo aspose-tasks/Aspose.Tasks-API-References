@@ -14,7 +14,7 @@ Specifies the height of a bar in points.
 public enum GanttBarSize
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

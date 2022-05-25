@@ -18,7 +18,7 @@ public bool Remove(TaskBaseline item)
 | --- | --- | --- |
 | item | TaskBaseline | The item to remove. |
 
-## Return Value
+### Return Value
 
 true if the item has been removed successfully; otherwise, false
 

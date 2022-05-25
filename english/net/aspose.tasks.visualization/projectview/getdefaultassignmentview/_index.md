@@ -14,7 +14,7 @@ Includes Uid, task name, resource name, work and duration assignment columns.
 public static ProjectView GetDefaultAssignmentView()
 ```
 
-## Return Value
+### Return Value
 
 a view which contains a list of [`AssignmentViewColumn`](../../assignmentviewcolumn).
 

@@ -18,7 +18,7 @@ public static ProjectFileInfo GetProjectFileInfo(string filename)
 | --- | --- | --- |
 | filename | String | The project filename. |
 
-## Return Value
+### Return Value
 
 The project file info [`ProjectFileInfo`](../../projectfileinfo).
 
@@ -43,7 +43,7 @@ public static ProjectFileInfo GetProjectFileInfo(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The data stream. |
 
-## Return Value
+### Return Value
 
 The project file info [`ProjectFileInfo`](../../projectfileinfo).
 

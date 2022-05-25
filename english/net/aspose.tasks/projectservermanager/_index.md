@@ -32,12 +32,6 @@ public sealed class ProjectServerManager
 | [UpdateProject](../../aspose.tasks/projectservermanager/updateproject)(Project) | Updates existing project in Project Server\Project Online instance using default save options. The existing project will be overwritten. |
 | [UpdateProject](../../aspose.tasks/projectservermanager/updateproject)(Project, ProjectServerSaveOptions) | Updates existing project in Project Server\Project Online instance using the specified save options. The existing project will be overwritten. |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [ExecutingWebRequest](executingwebrequest) | An event that is raised when the web request is sent to Project Server's web API. |
-
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

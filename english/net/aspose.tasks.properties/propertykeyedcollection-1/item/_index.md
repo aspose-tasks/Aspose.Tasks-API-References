@@ -18,7 +18,7 @@ public T this[string name] { get; }
 | --- | --- |
 | name | The name of the Property to get. |
 
-## Return Value
+### Return Value
 
 The Property associated with the specified name.
 

@@ -14,7 +14,7 @@ Specifies the resource export type for HTML format.
 public enum ResourceExportType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

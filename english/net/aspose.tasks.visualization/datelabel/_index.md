@@ -14,7 +14,7 @@ Specifies the display format for date and time labels in a timescale.
 public enum DateLabel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

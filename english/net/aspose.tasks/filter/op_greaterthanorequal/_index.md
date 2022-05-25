@@ -19,7 +19,7 @@ public static bool operator >=(Filter a, Filter b)
 | a | Filter | The first filter. |
 | b | Filter | The second filter. |
 
-## Return Value
+### Return Value
 
 a value indicating whether this instance is greater than or equal to a specified object
 

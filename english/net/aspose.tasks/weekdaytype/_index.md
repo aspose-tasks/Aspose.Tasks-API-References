@@ -15,7 +15,7 @@ Represents a weekday of a project in the instance of [`RecurringTaskInfo`](../re
 public enum WeekdayType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

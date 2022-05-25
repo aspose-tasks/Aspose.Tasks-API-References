@@ -18,7 +18,7 @@ public int IndexOf(WeekDay item)
 | --- | --- | --- |
 | item | WeekDay | The item to check against to. |
 
-## Return Value
+### Return Value
 
 Zero-based index of [`WeekDay`](../../weekday) specified, if present, or -1 otherwise.
 

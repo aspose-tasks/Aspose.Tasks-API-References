@@ -14,7 +14,7 @@ Adds new resource at the last position of a project resources collection.
 public Resource Add()
 ```
 
-## Return Value
+### Return Value
 
 Added resource.
 
@@ -39,7 +39,7 @@ public Resource Add(string resourceName)
 | --- | --- | --- |
 | resourceName | String | Name of a resource. |
 
-## Return Value
+### Return Value
 
 Added resource.
 
@@ -65,7 +65,7 @@ public Resource Add(string resourceName, int beforeResourceId)
 | resourceName | String | Name of a resource. |
 | beforeResourceId | Int32 | Position of the previous resource in a project resources collection. |
 
-## Return Value
+### Return Value
 
 Added resource.
 

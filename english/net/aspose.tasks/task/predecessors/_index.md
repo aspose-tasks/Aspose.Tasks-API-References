@@ -14,7 +14,7 @@ Gets a [`TaskCollection`](../../taskcollection) object which contains all predec
 public TaskCollection Predecessors { get; }
 ```
 
-## Return Value
+### Return Value
 
 Read-only instance of [`TaskCollection`](../../taskcollection) class.
 

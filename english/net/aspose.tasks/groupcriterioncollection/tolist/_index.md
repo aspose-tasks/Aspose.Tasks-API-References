@@ -14,7 +14,7 @@ Converts a GroupCriterion collection to a list of [`GroupCriterion`](../../group
 public List<GroupCriterion> ToList()
 ```
 
-## Return Value
+### Return Value
 
 Generic list of [`GroupCriterion`](../../groupcriterion) objects.
 

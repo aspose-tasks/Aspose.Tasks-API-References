@@ -18,7 +18,7 @@ public string GetColumnText(ResourceAssignment assignment)
 | --- | --- | --- |
 | assignment | ResourceAssignment | Current assignment. |
 
-## Return Value
+### Return Value
 
 The column text.
 

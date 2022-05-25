@@ -18,7 +18,7 @@ public int CompareTo(AssignmentBaseline other)
 | --- | --- | --- |
 | other | AssignmentBaseline | the specified Baseline object to compare this instance to. |
 
-## Return Value
+### Return Value
 
 returns -1 if this instance is less than the specified object, 1 if this instance is greater than the specified object; otherwise returns 0
 

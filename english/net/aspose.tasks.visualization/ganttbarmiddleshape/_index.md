@@ -14,7 +14,7 @@ Specifies the middle shape of a bar.
 public enum GanttBarMiddleShape
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

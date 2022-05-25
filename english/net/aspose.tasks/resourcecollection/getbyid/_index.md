@@ -18,7 +18,7 @@ public Resource GetById(int id)
 | --- | --- | --- |
 | id | Int32 | The specified id. |
 
-## Return Value
+### Return Value
 
 Resource with the specified id if present; otherwise, null.
 

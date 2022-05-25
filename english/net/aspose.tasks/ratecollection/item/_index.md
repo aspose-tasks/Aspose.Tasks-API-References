@@ -18,7 +18,7 @@ public RateByDateCollection this[RateType key] { get; set; }
 | --- | --- |
 | key | The zero-based index of the element to get or set. |
 
-## Return Value
+### Return Value
 
 the element at the specified index.
 

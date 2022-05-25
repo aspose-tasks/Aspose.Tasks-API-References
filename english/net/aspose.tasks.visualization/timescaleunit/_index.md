@@ -14,7 +14,7 @@ Specifies the unit of time for any tier of a timescale in a Gantt chart or other
 public enum TimescaleUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

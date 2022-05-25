@@ -14,7 +14,7 @@ Item type to change a bar style for.
 public enum BarItemType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

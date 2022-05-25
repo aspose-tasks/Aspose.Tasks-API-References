@@ -18,7 +18,7 @@ public RiskItemStatisticsCollection GetRiskItems(RiskItemType itemType)
 | --- | --- | --- |
 | itemType | RiskItemType | the specified risk type; can be one of the values of the [`RiskItemType`](../../riskitemtype) enumeration. |
 
-## Return Value
+### Return Value
 
 an instance of the [`RiskItemStatisticsCollection`](../../riskitemstatisticscollection) for the specified risk type.
 

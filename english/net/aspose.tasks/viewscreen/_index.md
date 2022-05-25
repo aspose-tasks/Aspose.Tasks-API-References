@@ -14,7 +14,7 @@ Specifies the screen type for a view.
 public enum ViewScreen
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

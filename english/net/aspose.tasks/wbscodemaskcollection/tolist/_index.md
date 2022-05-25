@@ -14,7 +14,7 @@ Converts a WBSCodeMaskCollection to a list of [`WBSCodeMask`](../../wbscodemask)
 public List<WBSCodeMask> ToList()
 ```
 
-## Return Value
+### Return Value
 
 Generic list of [`WBSCodeMask`](../../wbscodemask) objects.
 

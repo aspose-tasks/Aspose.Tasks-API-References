@@ -14,7 +14,7 @@ Gets a collection which contains a list of Critical tasks which comprise Critica
 public TaskCollection CriticalPath { get; }
 ```
 
-## Return Value
+### Return Value
 
 a collection which represents a list of all critical tasks.
 

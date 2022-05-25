@@ -18,7 +18,7 @@ public bool Remove(Group item)
 | --- | --- | --- |
 | item | Group | the specified object to remove. |
 
-## Return Value
+### Return Value
 
 true if the specified object was successfully removed from this collection; otherwise, false.
 

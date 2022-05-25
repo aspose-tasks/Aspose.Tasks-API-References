@@ -14,7 +14,7 @@ Converts a view collection to a list of [`View`](../../view) objects.
 public List<View> ToList()
 ```
 
-## Return Value
+### Return Value
 
 Generic list of [`View`](../../view) objects.
 

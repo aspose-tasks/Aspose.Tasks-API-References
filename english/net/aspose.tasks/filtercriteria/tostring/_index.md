@@ -14,7 +14,7 @@ Returns string representation of the instance of the [`FilterCriteria`](../../fi
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 string representation of this object.
 

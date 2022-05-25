@@ -18,7 +18,7 @@ public delegate string ResourceToColumnTextConverter(Resource resource);
 | --- | --- | --- |
 | resource | Resource | Current resource. |
 
-## Return Value
+### Return Value
 
 String data for the column.
 

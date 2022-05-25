@@ -14,7 +14,7 @@ Returns dates on which the calendar exception is applicable.
 public IEnumerable<DateTime> GetExceptionDates()
 ```
 
-## Return Value
+### Return Value
 
 Returns a collection of exception dates the calendar exception is applicable for.
 

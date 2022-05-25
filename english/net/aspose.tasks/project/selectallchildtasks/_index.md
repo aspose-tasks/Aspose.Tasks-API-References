@@ -14,7 +14,7 @@ Recursively collects all child tasks of the root task.
 public IEnumerable<Task> SelectAllChildTasks()
 ```
 
-## Return Value
+### Return Value
 
 The collection of tasks.
 

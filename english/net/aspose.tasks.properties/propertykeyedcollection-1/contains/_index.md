@@ -18,7 +18,7 @@ public bool Contains(string name)
 | --- | --- | --- |
 | name | String | The name of a property |
 
-## Return Value
+### Return Value
 
 true if the [`PropertyCollection`](../../propertycollection-1) contains a property with the specified name; otherwise, false.
 

@@ -14,7 +14,7 @@ Return a list of the projects' unique identifiers.
 public List<int> GetProjectUids()
 ```
 
-## Return Value
+### Return Value
 
 List of projects' unique identifiers.
 

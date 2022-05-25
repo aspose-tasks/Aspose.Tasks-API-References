@@ -19,7 +19,7 @@ public static Duration Parse(Project p, string value)
 | p | Project | the specified instance of [`Project`](../../project) class to convert duration for. |
 | value | String | the specified string to convert. |
 
-## Return Value
+### Return Value
 
 Returns the converted instance of [`Duration`](../../duration) struct.
 

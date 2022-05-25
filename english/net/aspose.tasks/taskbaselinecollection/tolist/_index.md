@@ -14,7 +14,7 @@ Converts the TaskBaselineCollection object to a list of [`TaskBaseline`](../../t
 public List<TaskBaseline> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`TaskBaseline`](../../taskbaseline) objects.
 

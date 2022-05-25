@@ -15,7 +15,7 @@ Represents a type of recurrence pattern of a recurrent task.
 public enum RecurrencePattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

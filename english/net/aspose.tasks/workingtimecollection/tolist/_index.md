@@ -14,7 +14,7 @@ Converts the WorkingTimeCollection object to a list of [`WorkingTime`](../../wor
 public List<WorkingTime> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`WorkingTime`](../../workingtime) objects.
 

@@ -21,7 +21,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 | end | DateTime | The end date for the time phased data. |
 | timephasedType | TimephasedDataType | The type of time phased data ([`TimephasedDataType`](../../timephaseddatatype)). |
 
-## Return Value
+### Return Value
 
 A [`TimephasedDataCollection`](../../timephaseddatacollection) object with [`TimephasedData`](../timephaseddata) values within given start and end dates of specified timephased data type.
 
@@ -48,7 +48,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 | start | DateTime | The start date for the time phased data. |
 | end | DateTime | The end date for the time phased data. |
 
-## Return Value
+### Return Value
 
 List of [`TimephasedData`](../../timephaseddata) to be filled in.
 

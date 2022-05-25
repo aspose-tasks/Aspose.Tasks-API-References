@@ -18,7 +18,7 @@ public DateTime GetPreviousWorkingDayEnd(DateTime date)
 | --- | --- | --- |
 | date | DateTime | the specified instance of DateTime struct. |
 
-## Return Value
+### Return Value
 
 Previous working day start DateTime
 

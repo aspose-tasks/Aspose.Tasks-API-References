@@ -14,7 +14,7 @@ Specifies the month item for which an exception recurrence is scheduled.
 public enum MonthItemType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

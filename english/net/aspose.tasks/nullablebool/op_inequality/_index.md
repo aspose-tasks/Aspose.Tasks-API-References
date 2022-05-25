@@ -19,7 +19,7 @@ public static bool operator !=(NullableBool a, NullableBool b)
 | a | NullableBool | The first [`NullableBool`](../../nullablebool). |
 | b | NullableBool | The second [`NullableBool`](../../nullablebool). |
 
-## Return Value
+### Return Value
 
 a value indicating whether this instance is not equal to a specified object
 

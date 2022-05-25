@@ -20,7 +20,7 @@ public static IList<T> Filter<T>(IList<T> list, ICondition<T> cond)
 | list | A list to process. |
 | cond | Condition used to filter the specified list. |
 
-## Return Value
+### Return Value
 
 Filtered list.
 

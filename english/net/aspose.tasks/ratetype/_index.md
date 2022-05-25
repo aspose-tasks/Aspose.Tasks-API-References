@@ -14,7 +14,7 @@ Specifies the unique identifiers of a rate table.
 public enum RateType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

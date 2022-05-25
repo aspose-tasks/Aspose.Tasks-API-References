@@ -14,7 +14,7 @@ Represents categories of tasks used when customizing Bar Styles of Gantt chart.
 public enum GanttBarShowFor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

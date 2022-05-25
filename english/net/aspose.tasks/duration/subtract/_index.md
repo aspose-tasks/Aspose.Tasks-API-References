@@ -18,7 +18,7 @@ public Duration Subtract(Duration d)
 | --- | --- | --- |
 | d | Duration | the specified [`Duration`](../../duration) instance to subtract from this instance. |
 
-## Return Value
+### Return Value
 
 New duration object that represents the value of this instance minus the specified duration value.
 
@@ -42,7 +42,7 @@ public Duration Subtract(double val)
 | --- | --- | --- |
 | val | Double | specified Double value to subtract from this instance. |
 
-## Return Value
+### Return Value
 
 New duration object that represents the value of this instance minus the specified duration value.
 

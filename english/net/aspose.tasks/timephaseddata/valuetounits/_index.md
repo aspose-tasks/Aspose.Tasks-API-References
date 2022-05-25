@@ -14,7 +14,7 @@ Gets Double instance which represents string value of this object for unit-based
 public double ValueToUnits { get; }
 ```
 
-## Return Value
+### Return Value
 
 a floating point representation of this object.
 

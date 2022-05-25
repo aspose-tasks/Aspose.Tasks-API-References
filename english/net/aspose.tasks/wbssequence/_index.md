@@ -14,7 +14,7 @@ Specifies sequence for WBSCodeMask
 public enum WBSSequence
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

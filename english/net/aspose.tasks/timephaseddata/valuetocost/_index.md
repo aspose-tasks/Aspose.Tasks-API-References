@@ -14,7 +14,7 @@ Gets Double instance which represents string value of this object.
 public double ValueToCost { get; }
 ```
 
-## Return Value
+### Return Value
 
 a floating point representation of the object.
 

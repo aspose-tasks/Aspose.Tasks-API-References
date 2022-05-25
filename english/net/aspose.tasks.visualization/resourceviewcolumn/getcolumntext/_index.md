@@ -18,7 +18,7 @@ public string GetColumnText(Resource resource)
 | --- | --- | --- |
 | resource | Resource | Current resource. |
 
-## Return Value
+### Return Value
 
 The column text.
 

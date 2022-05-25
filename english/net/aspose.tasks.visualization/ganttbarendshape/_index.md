@@ -14,7 +14,7 @@ Represents end shape in bars and progress points in progress lines.
 public enum GanttBarEndShape
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

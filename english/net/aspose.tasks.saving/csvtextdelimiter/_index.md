@@ -14,7 +14,7 @@ Text delimiter for CSV format.
 public enum CsvTextDelimiter
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

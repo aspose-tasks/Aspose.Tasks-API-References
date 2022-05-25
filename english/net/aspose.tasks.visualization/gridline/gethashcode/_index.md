@@ -14,7 +14,7 @@ Returns a hash code value for the instance of the [`Gridline`](../../gridline) c
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 returns a hash code value for this object.
 

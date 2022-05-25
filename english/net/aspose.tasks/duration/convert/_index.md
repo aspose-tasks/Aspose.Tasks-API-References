@@ -18,7 +18,7 @@ public Duration Convert(TimeUnitType timeUnitType)
 | --- | --- | --- |
 | timeUnitType | TimeUnitType | the specified time unit type. |
 
-## Return Value
+### Return Value
 
 returns new duration with the specified unit type.
 

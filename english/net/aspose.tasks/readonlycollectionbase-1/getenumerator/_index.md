@@ -14,7 +14,7 @@ Returns an enumerator for this collection.
 public IEnumerator<T> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An enumerator for this collection.
 

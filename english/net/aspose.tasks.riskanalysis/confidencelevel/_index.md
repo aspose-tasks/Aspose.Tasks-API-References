@@ -14,7 +14,7 @@ Specifies supported confidence levels used in risk analysis that correspond to t
 public enum ConfidenceLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

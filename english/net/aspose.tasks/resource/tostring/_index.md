@@ -14,7 +14,7 @@ Returns short string representation of the instance of the [`Resource`](../../re
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 short string which represents resource object.
 

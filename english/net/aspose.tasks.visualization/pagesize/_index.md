@@ -14,7 +14,7 @@ Specifies page size.
 public enum PageSize
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

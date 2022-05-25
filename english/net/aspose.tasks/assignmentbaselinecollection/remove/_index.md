@@ -18,7 +18,7 @@ public bool Remove(AssignmentBaseline item)
 | --- | --- | --- |
 | item | AssignmentBaseline | The item to remove. |
 
-## Return Value
+### Return Value
 
 true if [`AssignmentBaseline`](../../assignmentbaseline) instance has been removed successfully; otherwise, false
 

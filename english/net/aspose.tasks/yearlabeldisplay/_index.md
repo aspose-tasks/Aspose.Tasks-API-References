@@ -14,7 +14,7 @@ Specifies how the year label displays.
 public enum YearLabelDisplay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

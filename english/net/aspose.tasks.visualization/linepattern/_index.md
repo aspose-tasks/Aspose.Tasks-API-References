@@ -14,7 +14,7 @@ Line pattern.
 public enum LinePattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Copies all parts from the collection to a new array.
 public SplitPart[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of [`SplitPart`](../../splitpart) objects.
 

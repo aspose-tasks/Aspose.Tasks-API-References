@@ -18,7 +18,7 @@ public bool Remove(ResourceAssignment item)
 | --- | --- | --- |
 | item | ResourceAssignment | The assignment to remove. |
 
-## Return Value
+### Return Value
 
 true, if specified item was removed, false otherwise.
 

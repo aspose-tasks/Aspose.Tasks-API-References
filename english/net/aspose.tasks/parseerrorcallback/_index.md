@@ -19,7 +19,7 @@ public delegate object ParseErrorCallback(object sender, ParseErrorArgs args);
 | sender | Object | the source object of the parsing error. |
 | args | ParseErrorArgs | the instance of the [`ParseErrorArgs`](../parseerrorargs) class that contains the event data. |
 
-## Return Value
+### Return Value
 
 the coerced value to set to the specified sender object.
 

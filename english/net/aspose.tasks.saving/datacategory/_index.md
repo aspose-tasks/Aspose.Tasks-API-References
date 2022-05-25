@@ -14,7 +14,7 @@ The category of data used when saving to CSV.
 public enum DataCategory
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

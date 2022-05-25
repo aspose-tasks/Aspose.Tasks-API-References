@@ -14,7 +14,7 @@ Specifies the units used by Microsoft Project to display a rate.
 public enum RateFormatType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

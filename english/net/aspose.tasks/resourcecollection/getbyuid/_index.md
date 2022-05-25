@@ -18,7 +18,7 @@ public Resource GetByUid(int uid)
 | --- | --- | --- |
 | uid | Int32 | The specified uid. |
 
-## Return Value
+### Return Value
 
 Resource with the specified uid if present; otherwise, null.
 

@@ -14,7 +14,7 @@ Specifies the pages on which the legend appears.
 public enum Legend
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

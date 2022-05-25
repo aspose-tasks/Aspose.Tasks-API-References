@@ -18,7 +18,7 @@ public DateTime GetPercentile(int percent)
 | --- | --- | --- |
 | percent | Int32 | the specified percent between 0 and 100. |
 
-## Return Value
+### Return Value
 
 a value below which a specified percentage of generated samples fall.
 

@@ -14,7 +14,7 @@ Shape of a bar rectangle.
 public enum BarShape
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

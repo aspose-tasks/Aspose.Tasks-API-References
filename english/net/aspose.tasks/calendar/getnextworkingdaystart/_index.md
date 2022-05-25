@@ -18,7 +18,7 @@ public DateTime GetNextWorkingDayStart(DateTime date)
 | --- | --- | --- |
 | date | DateTime | The date to get next working day start for. |
 
-## Return Value
+### Return Value
 
 Next working day start DateTime.
 

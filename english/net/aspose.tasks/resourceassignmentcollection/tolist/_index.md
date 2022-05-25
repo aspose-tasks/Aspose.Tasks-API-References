@@ -14,7 +14,7 @@ Converts the ResourceAssignmentCollection object to a list of [`ResourceAssignme
 public List<ResourceAssignment> ToList()
 ```
 
-## Return Value
+### Return Value
 
 List of [`ResourceAssignment`](../../resourceassignment) objects.
 

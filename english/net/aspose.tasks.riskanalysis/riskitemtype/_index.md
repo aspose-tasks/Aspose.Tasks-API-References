@@ -14,7 +14,7 @@ Specifies task fields for which the statistical information is gathered during r
 public enum RiskItemType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

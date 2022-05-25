@@ -18,7 +18,7 @@ public View GetByViewScreen(ViewScreen screen)
 | --- | --- | --- |
 | screen | ViewScreen | [`ViewScreen`](../../viewscreen) enumeration value. |
 
-## Return Value
+### Return Value
 
 The first View in collection which Screen property matches the specified screen argument, if found; otherwise, null.
 

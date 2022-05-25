@@ -24,7 +24,7 @@ public DateTime MakeTPs(DateTime start, TimeSpan time, Calendar calendar,
 | isWorking | Boolean | The specified flag which specifies whether time-phased data is working or not. |
 | type | Int32 | The specified time-phased data type. |
 
-## Return Value
+### Return Value
 
 A maximum date from list or start date if list is empty.
 

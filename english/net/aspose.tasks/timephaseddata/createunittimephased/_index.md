@@ -23,7 +23,7 @@ public static TimephasedData CreateUnitTimephased(int uid, DateTime start, DateT
 | units | Double | Number of units. |
 | type | TimephasedDataType | Time-phased data type. |
 
-## Return Value
+### Return Value
 
 A instance of the [`TimephasedData`](../../timephaseddata) class for cost-based time phased data.
 

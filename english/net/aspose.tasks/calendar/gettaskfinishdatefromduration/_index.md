@@ -19,7 +19,7 @@ public DateTime GetTaskFinishDateFromDuration(Task task, TimeSpan duration)
 | task | Task | The task to get finish date for. |
 | duration | TimeSpan | The task duration to split on. |
 
-## Return Value
+### Return Value
 
 Task's finish date.
 

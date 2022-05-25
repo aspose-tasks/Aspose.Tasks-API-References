@@ -14,7 +14,7 @@ Returns an enumerator for this collection.
 public IEnumerator<RiskPattern> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 an enumerator for this collection.
 

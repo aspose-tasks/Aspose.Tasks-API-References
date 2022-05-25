@@ -18,7 +18,7 @@ public bool CheckException(DateTime dt)
 | --- | --- | --- |
 | dt | DateTime | the specified instance of the DateTime struct. |
 
-## Return Value
+### Return Value
 
 Returns true if DateTime value is the exception day; otherwise, false.
 

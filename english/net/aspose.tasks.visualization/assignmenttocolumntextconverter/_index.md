@@ -18,7 +18,7 @@ public delegate string AssignmentToColumnTextConverter(ResourceAssignment assign
 | --- | --- | --- |
 | assignment | ResourceAssignment | The assignment to convert. |
 
-## Return Value
+### Return Value
 
 String data for the column.
 

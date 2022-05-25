@@ -14,7 +14,7 @@ Specifies the type of a mask.
 public enum MaskType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

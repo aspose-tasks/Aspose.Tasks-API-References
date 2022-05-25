@@ -18,7 +18,7 @@ public int GetPageCount(SaveOptions saveOptions)
 | --- | --- | --- |
 | saveOptions | SaveOptions | The save options to get page count for. |
 
-## Return Value
+### Return Value
 
 a page count to be rendered.
 
@@ -59,7 +59,7 @@ Returns page count for the project to be rendered using default [`Timescale`](..
 public int GetPageCount()
 ```
 
-## Return Value
+### Return Value
 
 Page count to be rendered.
 
@@ -83,7 +83,7 @@ public int GetPageCount(Timescale scale)
 | --- | --- | --- |
 | scale | Timescale | The scale to get page count for. |
 
-## Return Value
+### Return Value
 
 Page count to be rendered.
 
@@ -108,7 +108,7 @@ public int GetPageCount(PresentationFormat format)
 | --- | --- | --- |
 | format | PresentationFormat | The format to get page count for. |
 
-## Return Value
+### Return Value
 
 Page count to be rendered.
 
@@ -134,7 +134,7 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 | format | PresentationFormat | The format to get page count for. |
 | scale | Timescale | The scale to get page count for. |
 
-## Return Value
+### Return Value
 
 a page count to be rendered.
 
@@ -163,7 +163,7 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 | startDate | DateTime | The start date to get page count for. |
 | endDate | DateTime | The end date to get page count for. |
 
-## Return Value
+### Return Value
 
 Page count to be rendered.
 
@@ -190,7 +190,7 @@ public int GetPageCount(PageSize pageSize, Timescale scale)
 | pageSize | PageSize | The size to get page count for. |
 | scale | Timescale | The scale to get page count for. |
 
-## Return Value
+### Return Value
 
 Page count to be rendered.
 

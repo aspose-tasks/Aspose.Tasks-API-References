@@ -14,7 +14,7 @@ Specifies the baseline type used to calculate Variance values.
 public enum BaselineType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

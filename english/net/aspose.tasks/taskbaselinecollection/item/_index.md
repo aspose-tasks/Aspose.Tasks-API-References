@@ -18,7 +18,7 @@ public TaskBaseline this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the element to get. |
 
-## Return Value
+### Return Value
 
 the element at the specified index.
 

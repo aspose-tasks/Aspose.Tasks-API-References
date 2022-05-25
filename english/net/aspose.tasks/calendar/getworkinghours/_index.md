@@ -19,7 +19,7 @@ public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
 | start | DateTime | Start date. |
 | finish | DateTime | Finish date. |
 
-## Return Value
+### Return Value
 
 Working hours.
 
@@ -44,7 +44,7 @@ public TimeSpan GetWorkingHours(DateTime dt)
 | --- | --- | --- |
 | dt | DateTime | The date to get working hours for. |
 
-## Return Value
+### Return Value
 
 Working hours.
 

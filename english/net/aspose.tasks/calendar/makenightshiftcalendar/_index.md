@@ -18,7 +18,7 @@ public static Calendar MakeNightShiftCalendar(Calendar calendar)
 | --- | --- | --- |
 | calendar | Calendar | Calendar to make Night Shift Calendar. |
 
-## Return Value
+### Return Value
 
 Night Shift Calendar.
 

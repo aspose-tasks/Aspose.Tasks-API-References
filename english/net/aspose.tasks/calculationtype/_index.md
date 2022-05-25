@@ -14,7 +14,7 @@ Specifies the type of a calculation of the custom attribute's value.
 public enum CalculationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

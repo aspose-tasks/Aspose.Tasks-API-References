@@ -18,7 +18,7 @@ public Stream GetProjectRawData(Guid projectGuid)
 | --- | --- | --- |
 | projectGuid | Guid | The Guid of the project to read. |
 
-## Return Value
+### Return Value
 
 Stream containing raw project's data.
 

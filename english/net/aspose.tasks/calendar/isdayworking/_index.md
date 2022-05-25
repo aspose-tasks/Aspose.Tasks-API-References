@@ -18,7 +18,7 @@ public bool IsDayWorking(DateTime dt)
 | --- | --- | --- |
 | dt | DateTime | The date to check day is working for. |
 
-## Return Value
+### Return Value
 
 True if the day is working day.
 

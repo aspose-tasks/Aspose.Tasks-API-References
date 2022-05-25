@@ -14,7 +14,7 @@ Represents a custom property type enumeration.
 public enum CustomPropertyType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

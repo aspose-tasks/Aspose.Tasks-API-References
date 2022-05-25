@@ -14,7 +14,7 @@ Specifies the contour of a work.
 public enum WorkContourType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

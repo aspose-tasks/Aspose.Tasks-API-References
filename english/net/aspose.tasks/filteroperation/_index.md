@@ -14,7 +14,7 @@ Specifies how the criterion established with FieldName, FilterComparisonType, an
 public enum FilterOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
