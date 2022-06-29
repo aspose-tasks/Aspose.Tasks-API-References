@@ -1,0 +1,150 @@
+---
+title: Print
+second_title: Справочник по Aspose.Tasks для .NET API
+description: Печать проекта на принтер по умолчанию с настройками принтера по умолчанию с использованием стандартного без пользовательского интерфейса контроллера печати.
+type: docs
+weight: 330
+url: /ru/net/aspose.tasks/project/print/
+---
+## Print() {#print}
+
+Печать проекта на принтер по умолчанию с настройками принтера по умолчанию с использованием стандартного (без пользовательского интерфейса) контроллера печати.
+
+```csharp
+public void Print()
+```
+
+### Смотрите также
+
+* class [Project](../../project)
+* пространство имен [Aspose.Tasks](../../project)
+* сборка [Aspose.Tasks](../../../)
+
+---
+
+## Print(PrintOptions) {#print_1}
+
+Печать проекта на принтер по умолчанию с настройками принтера по умолчанию и пользовательскими параметрами сохранения с использованием стандартного (без пользовательского интерфейса) контроллера печати.
+
+```csharp
+public void Print(PrintOptions options)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| options | PrintOptions | указанный экземпляр класса[`PrintOptions`](../../../aspose.tasks.saving/printoptions). |
+
+### Смотрите также
+
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
+* class [Project](../../project)
+* пространство имен [Aspose.Tasks](../../project)
+* сборка [Aspose.Tasks](../../../)
+
+---
+
+## Print(string) {#print_6}
+
+Распечатывает проект на указанный принтер с настройками принтера по умолчанию, используя стандартный (без пользовательского интерфейса) контроллер печати.
+
+```csharp
+public void Print(string printerName)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| printerName | String | Заданное имя принтера. |
+
+### Смотрите также
+
+* class [Project](../../project)
+* пространство имен [Aspose.Tasks](../../project)
+* сборка [Aspose.Tasks](../../../)
+
+---
+
+## Print(PrinterSettings) {#print_2}
+
+Печать проекта в соответствии с заданными настройками принтера с использованием стандартного (без пользовательского интерфейса) контроллера печати.
+
+```csharp
+public void Print(PrinterSettings printerSettings)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| printerSettings | PrinterSettings | указанный экземпляр классаPrinterSettings. |
+
+### Смотрите также
+
+* class [Project](../../project)
+* пространство имен [Aspose.Tasks](../../project)
+* сборка [Aspose.Tasks](../../../)
+
+---
+
+## Print(PrinterSettings, string) {#print_5}
+
+Печать проекта в соответствии с заданными настройками принтера с использованием стандартного (без пользовательского интерфейса) контроллера печати.
+
+```csharp
+public void Print(PrinterSettings printerSettings, string documentName)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| printerSettings | PrinterSettings | указанный экземпляр классаPrinterSettings. |
+| documentName | String | имя документа для отображения (например, в диалоговом окне состояния печати или в очереди печати). |
+
+### Смотрите также
+
+* class [Project](../../project)
+* пространство имен [Aspose.Tasks](../../project)
+* сборка [Aspose.Tasks](../../../)
+
+---
+
+## Print(PrinterSettings, PrintOptions) {#print_3}
+
+Печать проекта в соответствии с заданными настройками принтера и пользовательскими параметрами сохранения с использованием стандартного (без пользовательского интерфейса) контроллера печати.
+
+```csharp
+public void Print(PrinterSettings printerSettings, PrintOptions options)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| printerSettings | PrinterSettings | указанный экземпляр классаPrinterSettings. |
+| options | PrintOptions | указанный экземпляр класса[`PrintOptions`](../../../aspose.tasks.saving/printoptions). |
+
+### Смотрите также
+
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
+* class [Project](../../project)
+* пространство имен [Aspose.Tasks](../../project)
+* сборка [Aspose.Tasks](../../../)
+
+---
+
+## Print(PrinterSettings, PrintOptions, string) {#print_4}
+
+Печать проекта в соответствии с указанными настройками принтера, пользовательскими параметрами сохранения и указанным именем документа с использованием стандартного (без пользовательского интерфейса) контроллера печати.
+
+```csharp
+public void Print(PrinterSettings printerSettings, PrintOptions options, string documentName)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| printerSettings | PrinterSettings | указанный экземпляр классаPrinterSettings. |
+| options | PrintOptions | указанный экземпляр класса[`PrintOptions`](../../../aspose.tasks.saving/printoptions). |
+| documentName | String | имя документа для отображения (например, в диалоговом окне состояния печати или в очереди печати). |
+
+### Смотрите также
+
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
+* class [Project](../../project)
+* пространство имен [Aspose.Tasks](../../project)
+* сборка [Aspose.Tasks](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
