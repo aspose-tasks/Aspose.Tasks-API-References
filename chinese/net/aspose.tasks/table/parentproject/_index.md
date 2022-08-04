@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取 Table 对象的父级 只读Projectaspose.tasks/project
+description: 获取 Table 对象的父对象 只读Projectaspose.tasks/project.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/table/parentproject/
 ---
 ## Table.ParentProject property
 
-获取 Table 对象的父级。 只读[`Project`](../../project)。
+获取 Table 对象的父对象。 只读[`Project`](../../project).
 
 ```csharp
 public Project ParentProject { get; }

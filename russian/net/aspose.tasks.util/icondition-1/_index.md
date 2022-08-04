@@ -3,7 +3,7 @@ title: IConditionT
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет условие которое может использоваться фильтрами или методами поиска.
 type: docs
-weight: 2370
+weight: 2380
 url: /ru/net/aspose.tasks.util/icondition-1/
 ---
 ## ICondition&lt;T&gt; interface

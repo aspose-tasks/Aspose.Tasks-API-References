@@ -1,14 +1,14 @@
 ---
 title: VbaModuleAttribute
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Атрибут объектаVbaModule./vbamodule
+description: АтрибутVbaModule./vbamodule объект
 type: docs
-weight: 2470
+weight: 2480
 url: /ru/net/aspose.tasks/vbamoduleattribute/
 ---
 ## VbaModuleAttribute class
 
-Атрибут объекта[`VbaModule`](../vbamodule)
+Атрибут[`VbaModule`](../vbamodule) объект
 
 ```csharp
 public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
@@ -25,9 +25,9 @@ public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту[`VbaModuleAttribute`](../vbamoduleattribute). |
-| [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals)(VbaModuleAttribute) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту[`VbaModuleAttribute`](../vbamoduleattribute). |
-| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode)() | Возвращает значение хэш-кода для этого[`VbaModuleAttribute`](../vbamoduleattribute). |
+| override [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaModuleAttribute`](../vbamoduleattribute) объект. |
+| [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals)(VbaModuleAttribute) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaModuleAttribute`](../vbamoduleattribute) объект. |
+| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode)() | Возвращает значение хеш-кода для этого[`VbaModuleAttribute`](../vbamoduleattribute) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OutlineIndent
 second_title: Aspose.Tasks for .NET API 参考
-description: 在大纲中缩进一个任务
+description: 在大纲中缩进任务
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/task/outlineindent/
 ---
 ## Task.OutlineIndent method
 
-在大纲中缩进一个任务。
+在大纲中缩进任务。
 
 ```csharp
 public void OutlineIndent()

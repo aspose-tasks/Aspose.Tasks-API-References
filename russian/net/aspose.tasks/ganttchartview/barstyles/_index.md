@@ -1,14 +1,14 @@
 ---
 title: BarStyles
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает список родительских общих стилей столбцов представления диаграммы Ганта. GanttBarStyleaspose.tasks.visualization/ganttbarstyle.
+description: Получает список родительских общих стилей столбцов представления диаграммы Ганта. GanttBarStyleaspose.tasks.visualization/ganttbarstyle .
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/ganttchartview/barstyles/
 ---
 ## GanttChartView.BarStyles property
 
-Получает список родительских (общих) стилей столбцов представления диаграммы Ганта. [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle).
+Получает список родительских (общих) стилей столбцов представления диаграммы Ганта. [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle) .
 
 ```csharp
 public List<GanttBarStyle> BarStyles { get; }

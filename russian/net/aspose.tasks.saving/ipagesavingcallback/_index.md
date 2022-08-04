@@ -18,7 +18,7 @@ public interface IPageSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [OnFinish](../../aspose.tasks.saving/ipagesavingcallback/onfinish)() | Метод, который будет вызван, когда все страницы будут записаны. |
+| [OnFinish](../../aspose.tasks.saving/ipagesavingcallback/onfinish)() | Метод, который будет вызываться при записи всех страниц. |
 | [PageSaving](../../aspose.tasks.saving/ipagesavingcallback/pagesaving)(PageSavingArgs) | Метод, вызываемый при сохранении страницы в поток. |
 
 ### Смотрите также

@@ -16,9 +16,9 @@ public void SplitTask(DateTime start, DateTime finish, Calendar calendar)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| start | DateTime | 工作中断以开始分割为依据。 |
-| finish | DateTime | 工作中断结束，以拆分为依据。 |
-| calendar | Calendar | 要分割的日历。 |
+| start | DateTime | 开始工作中断以拆分为基础。 |
+| finish | DateTime | 结束工作中断以拆分为基础。 |
+| calendar | Calendar | 要拆分的日历。 |
 
 ### 例外
 

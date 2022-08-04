@@ -24,9 +24,9 @@ public class MPPSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword) { get; set; } | Получает или устанавливает пароль, который используется для защиты полученного файла MPP. В настоящее время поддерживается для MS Project 2010 и более новых форматов.  Значение Null означает, что файл проекта не защищен. |
-| [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments) { get; set; } | Получает или задает значение, указывающее, следует ли удалять недопустимые назначения ресурсов при сохранении в MPP.  MS Project создает пустое назначение ресурсов для каждой задачи. Установите для этого флага значение true, чтобы удалить их при сохранении. |
-| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata) { get; set; } | Получает или задает значение, указывающее, следует ли записывать данные представления при сохранении в MPP.  Данные представления включают коллекции Project.Views, Filters и Tables. |
+| [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword) { get; set; } | Получает или устанавливает пароль, который используется для защиты результирующего файла MPP. В настоящее время поддерживается для MS Project 2010 и более новых форматов. Значение Null указывает, что файл проекта не защищен. |
+| [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments) { get; set; } | Получает или задает значение, указывающее, следует ли удалять недопустимые назначения ресурсов при сохранении в MPP. MS Project создает пустое назначение ресурсов для каждой задачи. Установите для этого флага значение true, чтобы удалить их при сохранении. |
+| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata) { get; set; } | Получает или задает значение, указывающее, следует ли записывать данные представления при сохранении в MPP. Данные представления включают коллекции Project.Views, Filters и Tables. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: WorkWeekCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示WorkWeek./workweek对象的集合
+description: 代表一个集合WorkWeek./workweek对象.
 type: docs
-weight: 3260
+weight: 3270
 url: /zh/net/aspose.tasks/workweekcollection/
 ---
 ## WorkWeekCollection class
 
-表示[`WorkWeek`](../workweek)对象的集合。
+代表一个集合[`WorkWeek`](../workweek)对象.
 
 ```csharp
 public class WorkWeekCollection : IList<WorkWeek>
@@ -18,7 +18,7 @@ public class WorkWeekCollection : IList<WorkWeek>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/workweekcollection/count) { get; } | 获取此[`WorkWeekCollection`](../workweekcollection)对象中包含的对象数。 |
+| [Count](../../aspose.tasks/workweekcollection/count) { get; } | 获取此包含的对象数[`WorkWeekCollection`](../workweekcollection)对象. |
 | [Item](../../aspose.tasks/workweekcollection/item) { get; set; } | 返回指定索引处的元素。 |
 | [ParentCalendar](../../aspose.tasks/workweekcollection/parentcalendar) { get; } | 获取父日历。 |
 
@@ -28,7 +28,7 @@ public class WorkWeekCollection : IList<WorkWeek>
 | --- | --- |
 | [Add](../../aspose.tasks/workweekcollection/add)(WorkWeek) | 将 WorkWeek 实例添加到此集合对象。 |
 | [GetEnumerator](../../aspose.tasks/workweekcollection/getenumerator)() | 返回此集合的枚举数。 |
-| [ToList](../../aspose.tasks/workweekcollection/tolist)() | 将 WorkWeekCollection 对象转换为[`WorkWeek`](../workweek)对象的列表。 |
+| [ToList](../../aspose.tasks/workweekcollection/tolist)() | 将 WorkWeekCollection 对象转换为[`WorkWeek`](../workweek)对象. |
 
 ### 也可以看看
 

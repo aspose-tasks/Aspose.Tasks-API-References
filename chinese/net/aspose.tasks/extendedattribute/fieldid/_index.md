@@ -1,14 +1,14 @@
 ---
 title: FieldId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取字段的 id
+description: 获取字段的id
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/extendedattribute/fieldid/
 ---
 ## ExtendedAttribute.FieldId property
 
-获取字段的 id。
+获取字段的id。
 
 ```csharp
 public string FieldId { get; }

@@ -16,7 +16,7 @@ public Duration? DurationValue { get; set; }
 
 ### 评论
 
-此属性优于[`Value`](../value)，当您需要为 OutlineValues 设置 Duration 类型的值时。
+更喜欢这个属性而不是[`Value`](../value)，当您需要为 OutlineValues 设置 Duration 类型的值时 .
 
 ### 也可以看看
 

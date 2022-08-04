@@ -1,14 +1,14 @@
 ---
 title: SvgOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化SvgOptionsaspose.tasks.saving/svgoptions类的新实例该类可用于以 SVG 格式保存项目
+description: 初始化SvgOptionsaspose.tasks.saving/svgoptions可用于以 SVG 格式保存项目的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/svgoptions/svgoptions/
 ---
 ## SvgOptions constructor
 
-初始化[`SvgOptions`](../../svgoptions)类的新实例，该类可用于以 SVG 格式保存项目。
+初始化[`SvgOptions`](../../svgoptions)可用于以 SVG 格式保存项目的类。
 
 ```csharp
 public SvgOptions()

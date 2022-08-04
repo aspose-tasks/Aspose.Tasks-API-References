@@ -1,14 +1,14 @@
 ---
 title: AddSpaceBeforeLabel
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否在数字值和时间缩写1周而不是1周之前添加空格
+description: 获取或设置一个值该值指示是否在数字值和时间缩写1周而不是1周前添加一个空格
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/projectdisplayoptions/addspacebeforelabel/
 ---
 ## ProjectDisplayOptions.AddSpaceBeforeLabel property
 
-获取或设置一个值，该值指示是否在数字值和时间缩写（1周而不是1周）之前添加空格。
+获取或设置一个值，该值指示是否在数字值和时间缩写（1周而不是1周）前添加一个空格。
 
 ```csharp
 public bool AddSpaceBeforeLabel { get; set; }

@@ -16,7 +16,7 @@ public Resource GetByUid(int uid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | Int32 | 指定的uid。 |
+| uid | Int32 | 指定的 uid。 |
 
 ### 返回值
 

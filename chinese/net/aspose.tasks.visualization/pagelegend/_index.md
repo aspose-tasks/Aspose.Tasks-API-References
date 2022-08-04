@@ -3,7 +3,7 @@ title: PageLegend
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示用于项目打印的页面图例
 type: docs
-weight: 2840
+weight: 2850
 url: /zh/net/aspose.tasks.visualization/pagelegend/
 ---
 ## PageLegend class
@@ -28,7 +28,7 @@ public class PageLegend
 | [CenteredText](../../aspose.tasks.visualization/pagelegend/centeredtext) { get; set; } | 获取或设置在页面图例中显示的居中文本。 |
 | [LeftImage](../../aspose.tasks.visualization/pagelegend/leftimage) { get; set; } | 获取或设置要在页面图例中显示的左对齐图像。 |
 | [LeftText](../../aspose.tasks.visualization/pagelegend/lefttext) { get; set; } | 获取或设置要在页面图例中显示的左对齐文本。 |
-| [LegendOn](../../aspose.tasks.visualization/pagelegend/legendon) { get; set; } | 获取或设置图例出现的页面。可以是[`Legend`](../legend)枚举的值之一。 |
+| [LegendOn](../../aspose.tasks.visualization/pagelegend/legendon) { get; set; } | 获取或设置图例出现的页面。可以是的值之一[`Legend`](../legend)枚举. |
 | [RightImage](../../aspose.tasks.visualization/pagelegend/rightimage) { get; set; } | 获取或设置要在页面图例中显示的右对齐图像。 |
 | [RightText](../../aspose.tasks.visualization/pagelegend/righttext) { get; set; } | 获取或设置要在页面图例中显示的右对齐文本。 |
 | [Width](../../aspose.tasks.visualization/pagelegend/width) { get; set; } | 获取或设置图例的宽度。 |

@@ -1,14 +1,14 @@
 ---
 title: KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет должны ли ручные задачи сохраняться в ближайшее рабочее время если они назначены автоматически запланированными.
+description: Определяет должны ли ручные задачи сохраняться в ближайшее рабочее время если они запланированы автоматически.
 type: docs
 weight: 390
 url: /ru/net/aspose.tasks/prj/keeptaskonnearestworkingtimewhenmadeautoscheduled/
 ---
 ## Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled field
 
-Определяет, должны ли ручные задачи сохраняться в ближайшее рабочее время, если они назначены автоматически запланированными.
+Определяет, должны ли ручные задачи сохраняться в ближайшее рабочее время, если они запланированы автоматически.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled;

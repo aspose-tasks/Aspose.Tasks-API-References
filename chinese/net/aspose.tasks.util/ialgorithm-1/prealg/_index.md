@@ -16,7 +16,7 @@ public void PreAlg(T el, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| el | T | 已处理对象。 |
+| el | T | 处理的对象。 |
 | index | Int32 | 对象的索引。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Сохраняет документ в формате файла mpp используя указанные параметры сохранения.
+description: Сохраняет документ в файл формата mpp используя указанные параметры сохранения.
 type: docs
 weight: 400
 url: /ru/net/aspose.tasks/project/save/
 ---
 ## Save(string, MPPSaveOptions) {#save_4}
 
-Сохраняет документ в формате файла mpp, используя указанные параметры сохранения.
+Сохраняет документ в файл формата mpp, используя указанные параметры сохранения.
 
 ```csharp
 public void Save(string filename, MPPSaveOptions options)
@@ -17,7 +17,7 @@ public void Save(string filename, MPPSaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filename | String | Имя файла. |
-| options | MPPSaveOptions | Параметры сохранения. |
+| options | MPPSaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 
@@ -39,7 +39,7 @@ public void Save(string filename, SaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filename | String | Имя файла. |
-| options | SaveOptions | Параметры сохранения. |
+| options | SaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 
@@ -103,7 +103,7 @@ public void Save(Stream stream, SaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| options | SaveOptions | Параметры сохранения. |
+| options | SaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 
@@ -125,7 +125,7 @@ public void Save(Stream stream, MPPSaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| options | MPPSaveOptions | Параметры сохранения. |
+| options | MPPSaveOptions | Варианты сохранения. |
 
 ### Смотрите также
 

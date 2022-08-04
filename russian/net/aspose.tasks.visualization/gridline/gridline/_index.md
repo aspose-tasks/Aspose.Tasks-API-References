@@ -1,14 +1,14 @@
 ---
 title: Gridline
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаGridlineaspose.tasks.visualization/gridline.
+description: Инициализирует новый экземплярGridlineaspose.tasks.visualization/gridline класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/gridline/gridline/
 ---
 ## Gridline constructor
 
-Инициализирует новый экземпляр класса[`Gridline`](../../gridline).
+Инициализирует новый экземпляр[`Gridline`](../../gridline) класс.
 
 ```csharp
 public Gridline()

@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-代表任务对象的短字符串。
+表示任务对象的短字符串。
 
 ### 也可以看看
 

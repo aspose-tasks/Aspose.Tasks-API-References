@@ -1,14 +1,14 @@
 ---
 title: IsBudget
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定工作材料或成本资源是否为预算资源
+description: 确定工时材料或成本资源是否为预算资源
 type: docs
 weight: 380
 url: /zh/net/aspose.tasks/rsc/isbudget/
 ---
 ## Rsc.IsBudget field
 
-确定工作、材料或成本资源是否为预算资源。
+确定工时、材料或成本资源是否为预算资源。
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> IsBudget;

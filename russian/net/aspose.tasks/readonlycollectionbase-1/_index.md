@@ -16,7 +16,7 @@ public abstract class ReadOnlyCollectionBase<T> : IList<T>
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип предметов коллекции. |
+| T | Тип коллекционных предметов. |
 
 ## Характеристики
 
@@ -29,9 +29,9 @@ public abstract class ReadOnlyCollectionBase<T> : IList<T>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase`1/add)(T) | Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException |
+| [Add](../../aspose.tasks/readonlycollectionbase`1/add)(T) | Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase`1/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [ToList](../../aspose.tasks/readonlycollectionbase`1/tolist)() | Преобразует объект коллекции в список объектов[`VbaModule`](../vbamodule). |
+| [ToList](../../aspose.tasks/readonlycollectionbase`1/tolist)() | Преобразует объект коллекции в список[`VbaModule`](../vbamodule) объекты. |
 
 ### Смотрите также
 

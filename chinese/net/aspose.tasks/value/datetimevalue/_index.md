@@ -1,14 +1,14 @@
 ---
 title: DateTimeValue
 second_title: Aspose.Tasks for .NET API 参考
-description: 如果可以表示为 DateTime则获取或设置实际值默认值为MinValue
+description: 如果可以表示为 DateTime则获取或设置实际值默认值为MinValue.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/value/datetimevalue/
 ---
 ## Value.DateTimeValue property
 
-如果可以表示为 DateTime，则获取或设置实际值。默认值为MinValue。
+如果可以表示为 DateTime，则获取或设置实际值。默认值为MinValue.
 
 ```csharp
 public DateTime DateTimeValue { get; set; }
@@ -16,7 +16,7 @@ public DateTime DateTimeValue { get; set; }
 
 ### 评论
 
-此属性优于[`Val`](../val)，当您需要设置 DateTime 值时。
+更喜欢这个属性而不是[`Val`](../val) 当你需要设置 DateTime 值时。
 
 ### 也可以看看
 

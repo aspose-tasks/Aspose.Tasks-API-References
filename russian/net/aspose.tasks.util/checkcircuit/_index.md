@@ -18,7 +18,7 @@ public class CheckCircuit : TreeAlgorithmBase<Task>
 
 | Имя | Описание |
 | --- | --- |
-| [CheckCircuit](checkcircuit)() | Инициализирует новый экземпляр класса[`CheckCircuit`](../checkcircuit). |
+| [CheckCircuit](checkcircuit)() | Инициализирует новый экземпляр[`CheckCircuit`](../checkcircuit) класс. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: Settings
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置RiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings类的实例该类定义了风险分析的必要设置
+description: 获取或设置RiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings定义风险分析的必要设置的类
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.riskanalysis/riskanalyzer/settings/
 ---
 ## RiskAnalyzer.Settings property
 
-获取或设置[`RiskAnalysisSettings`](../../riskanalysissettings)类的实例，该类定义了风险分析的必要设置。
+获取或设置[`RiskAnalysisSettings`](../../riskanalysissettings)定义风险分析的必要设置的类。
 
 ```csharp
 public RiskAnalysisSettings Settings { get; set; }

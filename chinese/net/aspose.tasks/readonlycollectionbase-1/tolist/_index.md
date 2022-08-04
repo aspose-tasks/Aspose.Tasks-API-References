@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将集合对象转换为VbaModuleaspose.tasks/vbamodule对象的列表
+description: 将集合对象转换为VbaModuleaspose.tasks/vbamodule对象.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/readonlycollectionbase-1/tolist/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.ToList method
 
-将集合对象转换为[`VbaModule`](../../vbamodule)对象的列表。
+将集合对象转换为[`VbaModule`](../../vbamodule)对象.
 
 ```csharp
 public List<T> ToList()

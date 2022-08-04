@@ -1,14 +1,14 @@
 ---
 title: GetTimephasedData
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ВозвращаетTimephasedDataCollectionaspose.tasks/timephaseddatacollectionобъект сTimephasedDataaspose.tasks/task/timephaseddataзначения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами.
+description: ВозвращаетTimephasedDataCollectionaspose.tasks/timephaseddatacollection объект сTimephasedDataaspose.tasks/task/timephaseddata значения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами.
 type: docs
 weight: 180
 url: /ru/net/aspose.tasks/task/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-Возвращает[`TimephasedDataCollection`](../../timephaseddatacollection)объект с[`TimephasedData`](../timephaseddata)значения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами.
+Возвращает[`TimephasedDataCollection`](../../timephaseddatacollection) объект с[`TimephasedData`](../timephaseddata) значения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -17,13 +17,13 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| start | DateTime | Начальная дата для поэтапных по времени данных. |
-| end | DateTime | Конечная дата для поэтапных по времени данных. |
-| timephasedType | TimephasedDataType | Тип повременных данных ([`TimephasedDataType`](../../timephaseddatatype)). |
+| start | DateTime | Дата начала для поэтапных по времени данных. |
+| end | DateTime | Дата окончания для поэтапных по времени данных. |
+| timephasedType | TimephasedDataType | Тип поэтапных данных ([`TimephasedDataType`](../../timephaseddatatype)). |
 
 ### Возвращаемое значение
 
-A[`TimephasedDataCollection`](../../timephaseddatacollection)объект с[`TimephasedData`](../timephaseddata)значения в пределах заданных дат начала и окончания указанного повременного типа данных.
+А[`TimephasedDataCollection`](../../timephaseddatacollection) объект с[`TimephasedData`](../timephaseddata) значения в пределах заданных дат начала и окончания указанного повременного типа данных.
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ A[`TimephasedDataCollection`](../../timephaseddatacollection)объект с[`Ti
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-Возвращает[`TimephasedDataCollection`](../../timephaseddatacollection)объект с[`TimephasedData`](../timephaseddata)значения в пределах заданных дат начала и окончания.
+Возвращает[`TimephasedDataCollection`](../../timephaseddatacollection) объект с[`TimephasedData`](../timephaseddata) значения в пределах заданных дат начала и окончания.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -45,12 +45,12 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| start | DateTime | Начальная дата для поэтапных по времени данных. |
-| end | DateTime | Конечная дата для поэтапных по времени данных. |
+| start | DateTime | Дата начала для поэтапных по времени данных. |
+| end | DateTime | Дата окончания для поэтапных по времени данных. |
 
 ### Возвращаемое значение
 
-Список[`TimephasedData`](../../timephaseddata)для заполнения.
+Список[`TimephasedData`](../../timephaseddata) заполнить.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EndShape
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置条形末尾的Shapeaspose.tasks.visualization/shape
+description: 获取或设置Shapeaspose.tasks.visualization/shape在栏的末尾
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks.visualization/barstyle/endshape/
 ---
 ## BarStyle.EndShape property
 
-获取或设置条形末尾的[`Shape`](../../shape)。
+获取或设置[`Shape`](../../shape)在栏的末尾。
 
 ```csharp
 public Shape EndShape { get; set; }

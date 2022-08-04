@@ -1,14 +1,14 @@
 ---
 title: TaskChildrenCount
 second_title: Aspose.Tasks for .NET API 参考
-description: 递归计算通过所有级别的任务的子任务数量
+description: 通过所有层级递归计算任务的子任务数
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.util/taskutils/taskchildrencount/
 ---
 ## TaskUtils.TaskChildrenCount method
 
-递归计算通过所有级别的任务的子任务数量。
+通过所有层级递归计算任务的子任务数。
 
 ```csharp
 public static int TaskChildrenCount(Task task)
@@ -16,7 +16,7 @@ public static int TaskChildrenCount(Task task)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| task | Task | 孩子计算的任务。 |
+| task | Task | 孩子们计算的任务。 |
 
 ### 返回值
 

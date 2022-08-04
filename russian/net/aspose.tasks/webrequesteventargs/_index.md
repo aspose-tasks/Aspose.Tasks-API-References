@@ -3,7 +3,7 @@ title: WebRequestEventArgs
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Предоставляет аргументы для события которое возникает когда клиент отправляет веб-запрос в веб-API Project Server.
 type: docs
-weight: 3140
+weight: 3150
 url: /ru/net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class

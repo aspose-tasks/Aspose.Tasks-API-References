@@ -8,7 +8,7 @@ url: /zh/net/aspose.tasks/extendedattributedefinition/valuelistsortorder/
 ---
 ## ExtendedAttributeDefinition.ValuelistSortOrder property
 
-获取或设置值列表的排序方式。值为:0=降序，1=升序。
+获取或设置值列表的排序方式。值为：0=降序，1=升序。
 
 ```csharp
 public int ValuelistSortOrder { get; set; }

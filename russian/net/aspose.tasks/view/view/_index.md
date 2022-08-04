@@ -1,14 +1,14 @@
 ---
 title: View
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаViewaspose.tasks/view.
+description: Инициализирует новый экземплярViewaspose.tasks/view класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/view/view/
 ---
 ## View() {#constructor}
 
-Инициализирует новый экземпляр класса[`View`](../../view).
+Инициализирует новый экземпляр[`View`](../../view) класс.
 
 ```csharp
 public View()
@@ -24,7 +24,7 @@ public View()
 
 ## View(ViewScreen) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`View`](../../view).
+Инициализирует новый экземпляр[`View`](../../view) класс.
 
 ```csharp
 public View(ViewScreen viewScreen)
@@ -32,7 +32,7 @@ public View(ViewScreen viewScreen)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| viewScreen | ViewScreen | Тип экрана, для которого может отображаться вид. |
+| viewScreen | ViewScreen | Тип экрана, для которого может отображаться представление. |
 
 ### Смотрите также
 

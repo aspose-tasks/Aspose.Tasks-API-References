@@ -1,14 +1,14 @@
 ---
 title: Maximum
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает максимальное значение сгенерированное при моделировании методом Монте-Карло.
+description: Получает максимальное значение которое было сгенерировано во время моделирования методом Монте-Карло.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.riskanalysis/riskitemstatistics/maximum/
 ---
 ## RiskItemStatistics.Maximum property
 
-Получает максимальное значение, сгенерированное при моделировании методом Монте-Карло.
+Получает максимальное значение, которое было сгенерировано во время моделирования методом Монте-Карло.
 
 ```csharp
 public DateTime Maximum { get; }

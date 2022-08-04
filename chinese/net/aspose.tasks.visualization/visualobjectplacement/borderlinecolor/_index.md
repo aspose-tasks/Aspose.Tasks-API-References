@@ -1,14 +1,14 @@
 ---
 title: BorderLineColor
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置边框颜色
+description: 获取或设置边框线颜色
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/borderlinecolor/
 ---
 ## VisualObjectPlacement.BorderLineColor property
 
-获取或设置边框颜色。
+获取或设置边框线颜色。
 
 ```csharp
 public Color BorderLineColor { get; set; }

@@ -16,7 +16,7 @@ public Stream GetProjectRawData(Guid projectGuid)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| projectGuid | Guid | Guid проекта для чтения. |
+| projectGuid | Guid | Гайд проекта читать. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配中实际发生的加班工作量
+description: 实际发生的加班工作量
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/asn/actualovertimework/
 ---
 ## Asn.ActualOvertimeWork field
 
-分配中实际发生的加班工作量。
+实际发生的加班工作量。
 
 ```csharp
 public static readonly Key<Duration, AsnKey> ActualOvertimeWork;

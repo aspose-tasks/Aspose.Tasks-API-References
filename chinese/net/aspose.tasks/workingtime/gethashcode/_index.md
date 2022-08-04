@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回WorkingTimeaspose.tasks/workingtime类实例的哈希码值
+description: 返回实例的哈希码值WorkingTimeaspose.tasks/workingtime类.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/workingtime/gethashcode/
 ---
 ## WorkingTime.GetHashCode method
 
-返回[`WorkingTime`](../../workingtime)类实例的哈希码值。
+返回实例的哈希码值[`WorkingTime`](../../workingtime)类.
 
 ```csharp
 public override int GetHashCode()

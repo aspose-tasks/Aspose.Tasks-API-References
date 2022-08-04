@@ -1,14 +1,14 @@
 ---
 title: HelpContextId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取项目帮助上下文 ID
+description: 获取项目帮助上下文 Id
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/vbaproject/helpcontextid/
 ---
 ## VbaProject.HelpContextId property
 
-获取项目帮助上下文 ID
+获取项目帮助上下文 Id
 
 ```csharp
 public int HelpContextId { get; }

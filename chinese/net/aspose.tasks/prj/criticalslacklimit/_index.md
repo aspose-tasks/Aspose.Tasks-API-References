@@ -1,14 +1,14 @@
 ---
 title: CriticalSlackLimit
 second_title: Aspose.Tasks for .NET API 参考
-description: 当 Microsoft Project 将该任务标记为关键任务时距离任务结束的天数
+description: Microsoft Project 将该任务标记为关键任务时的任务结束天数
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/prj/criticalslacklimit/
 ---
 ## Prj.CriticalSlackLimit field
 
-当 Microsoft Project 将该任务标记为关键任务时，距离任务结束的天数。
+Microsoft Project 将该任务标记为关键任务时的任务结束天数。
 
 ```csharp
 public static readonly Key<int, PrjKey> CriticalSlackLimit;

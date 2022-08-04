@@ -1,14 +1,14 @@
 ---
 title: CastToDayType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует .NetDayOfWeekвDayTypeaspose.tasks/weekday/daytype.
+description: Преобразует .NetDayOfWeek кDayTypeaspose.tasks/weekday/daytype .
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/weekday/casttodaytype/
 ---
 ## WeekDay.CastToDayType method
 
-Преобразует .NetDayOfWeekв[`DayType`](../daytype).
+Преобразует .NetDayOfWeek к[`DayType`](../daytype) .
 
 ```csharp
 public static DayType CastToDayType(DayOfWeek dw)
@@ -16,11 +16,11 @@ public static DayType CastToDayType(DayOfWeek dw)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dw | DayOfWeek | День недели, с которого выполняется кастинг. |
+| dw | DayOfWeek | День недели, с которого выполняется трансляция. |
 
 ### Возвращаемое значение
 
-Тип дня литья.
+Литой дневной тип.
 
 ### Смотрите также
 

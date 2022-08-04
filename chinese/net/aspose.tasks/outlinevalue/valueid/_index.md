@@ -1,14 +1,14 @@
 ---
 title: ValueId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置项目内大纲代码值的唯一 ID
+description: 获取或设置项目内大纲代码值的唯一ID
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/outlinevalue/valueid/
 ---
 ## OutlineValue.ValueId property
 
-获取或设置项目内大纲代码值的唯一 ID。
+获取或设置项目内大纲代码值的唯一ID。
 
 ```csharp
 public int ValueId { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CostVariance
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Разница между базовой стоимостью и общей стоимостью назначения.
+description: Разница между базовой стоимостью и общей стоимостью задания.
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks/asn/costvariance/
 ---
 ## Asn.CostVariance field
 
-Разница между базовой стоимостью и общей стоимостью назначения.
+Разница между базовой стоимостью и общей стоимостью задания.
 
 ```csharp
 public static readonly Key<double, AsnKey> CostVariance;

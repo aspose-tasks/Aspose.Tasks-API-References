@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение перечисленияTextItemTypeaspose.tasks.visualization/textitemtype.
+description: Возвращает значениеTextItemTypeaspose.tasks.visualization/textitemtype перечисление.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/tabletextstyle/itemtype/
 ---
 ## TableTextStyle.ItemType property
 
-Возвращает значение перечисления[`TextItemType`](../../textitemtype).
+Возвращает значение[`TextItemType`](../../textitemtype) перечисление.
 
 ```csharp
 public override TextItemType ItemType { get; }

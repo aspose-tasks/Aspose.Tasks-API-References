@@ -1,14 +1,14 @@
 ---
 title: PageViewSettings
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取PageViewSettingsaspose.tasks.visualization/pageinfo/pageviewsettings类的实例该类指定页面视图打印设置
+description: 获取一个实例PageViewSettingsaspose.tasks.visualization/pageinfo/pageviewsettings指定页面视图打印设置的类
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks.visualization/pageinfo/pageviewsettings/
 ---
 ## PageInfo.PageViewSettings property
 
-获取`PageViewSettings`类的实例，该类指定页面视图打印设置。
+获取一个实例`PageViewSettings`指定页面视图打印设置的类。
 
 ```csharp
 public PageViewSettings PageViewSettings { get; }

@@ -3,7 +3,7 @@ title: TextItemType
 second_title: Aspose.Tasks for .NET API 参考
 description: 更改文本样式的项目类型
 type: docs
-weight: 3030
+weight: 3040
 url: /zh/net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration
@@ -25,22 +25,22 @@ public enum TextItemType
 | InactiveTasks | `4` | 非活动任务。 |
 | SummaryTasks | `5` | 摘要任务。 |
 | AssignmentRow | `6` | 分配行。 |
-| TopTimescaleTier | `7` | 顶级时间尺度层。 |
+| TopTimescaleTier | `7` | 顶级时间刻度层。 |
 | BottomTimescaleTier | `8` | 底部时间刻度层。 |
 | MiddleTimescaleTier | `9` | 中间时间尺度层。 |
 | Resources | `10` | 资源表。 |
 | OverallocatedResources | `11` | 过度分配的资源。 |
 | TaskFilterHighlight | `12` | 任务过滤器突出显示文本项。 |
-| BarTextBottom | `13` | 条形文本 底部文本项。 |
+| BarTextBottom | `13` | 条形文本底部文本项。 |
 | BarTextInside | `14` | 文本项内的条形文本。 |
 | BarTextLeft | `15` | 条形文本 左侧文本项。 |
-| BarTextRight | `16` | 条形文本 右文本项。 |
-| BarTextTop | `17` | 条形文本 顶部文本项。 |
+| BarTextRight | `16` | 条形文本右文本项。 |
+| BarTextTop | `17` | 条形文本顶部文本项。 |
 | MarkedTasks | `18` | 标记的任务文本项。 |
 | ProjectSummary | `19` | 项目摘要任务文本项。 |
 | ExternalTasks | `20` | 外部任务文本项。 |
 | Allocated | `21` | 分配的文本项。 |
-| ChangedCells | `22` | 已更改单元格。 |
+| ChangedCells | `22` | 更改的单元格。 |
 
 ### 也可以看看
 

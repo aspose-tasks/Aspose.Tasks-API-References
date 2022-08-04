@@ -1,14 +1,14 @@
 ---
 title: Interval
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает повторяющиеся интервалы для отображения строк прогресса.
+description: Указывает повторяющиеся интервалы для отображения строк прогресса в.
 type: docs
-weight: 2800
+weight: 2810
 url: /ru/net/aspose.tasks.visualization/interval/
 ---
 ## Interval enumeration
 
-Указывает повторяющиеся интервалы для отображения строк прогресса.
+Указывает повторяющиеся интервалы для отображения строк прогресса в.
 
 ```csharp
 public enum Interval

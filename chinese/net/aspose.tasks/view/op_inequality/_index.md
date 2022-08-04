@@ -16,8 +16,8 @@ public static bool operator !=(View a, View b)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| a | View | 第一个视图。 |
-| b | View | 第二个视图。 |
+| a | View | 第一种观点。 |
+| b | View | 第二种观点。 |
 
 ### 返回值
 

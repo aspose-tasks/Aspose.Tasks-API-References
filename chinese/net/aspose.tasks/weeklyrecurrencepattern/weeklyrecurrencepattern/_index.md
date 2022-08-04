@@ -1,14 +1,14 @@
 ---
 title: WeeklyRecurrencePattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化WeeklyRecurrencePatternaspose.tasks/weeklyrecurrencepattern类的新实例
+description: 初始化WeeklyRecurrencePatternaspose.tasks/weeklyrecurrencepattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/weeklyrecurrencepattern/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern constructor
 
-初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类的新实例。
+初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类.
 
 ```csharp
 public WeeklyRecurrencePattern()

@@ -1,14 +1,14 @@
 ---
 title: HorizontalOffset
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置视觉对象的水平偏移
+description: 获取或设置视觉对象的水平偏移量
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/horizontaloffset/
 ---
 ## VisualObjectPlacement.HorizontalOffset property
 
-获取或设置视觉对象的水平偏移。
+获取或设置视觉对象的水平偏移量。
 
 ```csharp
 public double HorizontalOffset { get; set; }

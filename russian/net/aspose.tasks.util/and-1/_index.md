@@ -22,7 +22,7 @@ public class And<T> : ICondition<T>
 
 | Имя | Описание |
 | --- | --- |
-| [And](and)(ICondition&lt;T&gt;, ICondition&lt;T&gt;) | Инициализирует новый экземпляр класса[`And`](../and-1). |
+| [And](and)(ICondition&lt;T&gt;, ICondition&lt;T&gt;) | Инициализирует новый экземпляр[`And`](../and-1) класс. |
 
 ## Методы
 

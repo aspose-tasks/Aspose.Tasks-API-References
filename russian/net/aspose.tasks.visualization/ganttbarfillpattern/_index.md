@@ -3,7 +3,7 @@ title: GanttBarFillPattern
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Шаблон заливки фигуры.
 type: docs
-weight: 2680
+weight: 2690
 url: /ru/net/aspose.tasks.visualization/ganttbarfillpattern/
 ---
 ## GanttBarFillPattern enumeration
@@ -19,17 +19,17 @@ public enum GanttBarFillPattern
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Hollow | `0` | Полый узор. |
-| SolidFill | `1` | Сплошная заливка. |
-| LightFill | `2` | Светлая заливка. |
+| SolidFill | `1` | Сплошной узор заливки. |
+| LightFill | `2` | Легкая заливка. |
 | MediumFill | `3` | Средняя заливка. |
-| DarkFill | `4` | Темная заливка. |
-| DiagonalLeft | `5` | Диагональный левый узор (сверху слева вниз справа). |
-| DiagonalRight | `6` | Диагональный узор справа (от верхнего правого к нижнему левому). |
+| DarkFill | `4` | Темный узор заливки. |
+| DiagonalLeft | `5` | Диагональный левый узор (от верхнего левого угла к нижнему правому). |
+| DiagonalRight | `6` | Диагональный узор справа (от правого верхнего угла к левому нижнему). |
 | DiagonalCross | `7` | Диагональный крест. |
-| LineVertical | `8` | Линейный вертикальный узор. |
-| LineHorizontal | `9` | Линейный горизонтальный узор. |
+| LineVertical | `8` | Вертикальный узор линии. |
+| LineHorizontal | `9` | Горизонтальный шаблон линии. |
 | LineCross | `10` | Шаблон пересечения линий. |
-| SolidFillWithDashedBorder | `11` | Сплошной с пунктирной окантовкой. |
+| SolidFillWithDashedBorder | `11` | Сплошной рисунок с пунктирной рамкой. |
 
 ### Смотрите также
 

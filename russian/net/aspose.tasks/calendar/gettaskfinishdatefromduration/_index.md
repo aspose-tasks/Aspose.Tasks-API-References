@@ -16,7 +16,7 @@ public DateTime GetTaskFinishDateFromDuration(Task task, TimeSpan duration)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | Задача, для которой необходимо получить дату завершения. |
+| task | Task | Задача, для которой нужно получить дату окончания. |
 | duration | TimeSpan | Продолжительность задачи для разделения. |
 
 ### Возвращаемое значение
@@ -25,7 +25,7 @@ public DateTime GetTaskFinishDateFromDuration(Task task, TimeSpan duration)
 
 ### Примечания
 
-Возвращает DateTime.MinValue, если задача сводная, null или дата ее начала не установлена.
+Возвращает DateTime.MinValue, если задача является сводной, нулевой или дата ее начала не задана.
 
 ### Смотрите также
 

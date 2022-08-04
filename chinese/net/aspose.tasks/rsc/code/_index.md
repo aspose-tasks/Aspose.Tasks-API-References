@@ -1,14 +1,14 @@
 ---
 title: Code
 second_title: Aspose.Tasks for .NET API 参考
-description: 有关资源的代码或其他信息
+description: 资源的代码或其他信息
 type: docs
 weight: 210
 url: /zh/net/aspose.tasks/rsc/code/
 ---
 ## Rsc.Code field
 
-有关资源的代码或其他信息。
+资源的代码或其他信息。
 
 ```csharp
 public static readonly Key<string, RscKey> Code;

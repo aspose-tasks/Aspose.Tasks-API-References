@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет все предметыWorkingTimeaspose.tasks/workingtimeиз коллекции.
+description: Удаляет всеWorkingTimeaspose.tasks/workingtime предметы из коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/workingtimecollection/clear/
 ---
 ## WorkingTimeCollection.Clear method
 
-Удаляет все предметы[`WorkingTime`](../../workingtime)из коллекции.
+Удаляет все[`WorkingTime`](../../workingtime) предметы из коллекции.
 
 ```csharp
 public void Clear()

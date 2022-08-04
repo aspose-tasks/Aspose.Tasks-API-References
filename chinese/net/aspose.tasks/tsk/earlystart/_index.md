@@ -1,14 +1,14 @@
 ---
 title: EarlyStart
 second_title: Aspose.Tasks for .NET API 参考
-description: 任务可能开始的最早日期基于前任和后继任务的早期开始日期和其他限制
+description: 任务可能开始的最早日期基于前任和后继任务的最早开始日期和其他限制
 type: docs
 weight: 350
 url: /zh/net/aspose.tasks/tsk/earlystart/
 ---
 ## Tsk.EarlyStart field
 
-任务可能开始的最早日期，基于前任和后继任务的早期开始日期和其他限制。
+任务可能开始的最早日期，基于前任和后继任务的最早开始日期和其他限制。
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> EarlyStart;

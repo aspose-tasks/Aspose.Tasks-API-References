@@ -1,14 +1,14 @@
 ---
 title: DisplayOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаProjectDisplayOptionsaspose.tasks/projectdisplayoptions.
+description: Получает экземплярProjectDisplayOptionsaspose.tasks/projectdisplayoptions класс.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/project/displayoptions/
 ---
 ## Project.DisplayOptions property
 
-Получает экземпляр класса[`ProjectDisplayOptions`](../../projectdisplayoptions).
+Получает экземпляр[`ProjectDisplayOptions`](../../projectdisplayoptions) класс.
 
 ```csharp
 public ProjectDisplayOptions DisplayOptions { get; }

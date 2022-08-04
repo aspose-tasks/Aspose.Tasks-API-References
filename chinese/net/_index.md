@@ -11,7 +11,7 @@ is_root: true
 
 | 命名空间 | 描述 |
 | --- | --- |
-| [Aspose.Tasks](./aspose.tasks) | 包含用于在不使用 Microsoft Project 的情况下使用 Microsoft Project 文档的类。 |
+| [Aspose.Tasks](./aspose.tasks) | 包含在不使用 Microsoft Project 的情况下处理 Microsoft Project 文档的类。 |
 | [Aspose.Tasks.Connectivity](./aspose.tasks.connectivity) | 包含用于处理数据库的类。 |
 | [Aspose.Tasks.Properties](./aspose.tasks.properties) | 包含用于处理属性的类。 |
 | [Aspose.Tasks.RiskAnalysis](./aspose.tasks.riskanalysis) | 包含用于创建风险分析报告的类。 |

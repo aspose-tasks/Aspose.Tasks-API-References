@@ -1,14 +1,14 @@
 ---
 title: DurationValue
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置持续时间类型的属性的值
+description: 获取或设置具有持续时间类型的属性的值
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/extendedattribute/durationvalue/
 ---
 ## ExtendedAttribute.DurationValue property
 
-获取或设置“持续时间”类型的属性的值。
+获取或设置具有“持续时间”类型的属性的值。
 
 ```csharp
 public Duration DurationValue { get; set; }
@@ -18,7 +18,7 @@ public Duration DurationValue { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性则抛出未初始化或自定义字段类型[`AttributeDefinition`](../attributedefinition)属性不是[`Duration`](../../duration)实例。 |
+| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性未初始化或自定义字段类型[`AttributeDefinition`](../attributedefinition)财产不是[`Duration`](../../duration)实例。 |
 
 ### 也可以看看
 

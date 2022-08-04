@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配的资源计划开始处理任务的日期
+description: 计划分配的资源开始处理任务的日期
 type: docs
 weight: 650
 url: /zh/net/aspose.tasks/rsc/start/
 ---
 ## Rsc.Start field
 
-分配的资源计划开始处理任务的日期。
+计划分配的资源开始处理任务的日期。
 
 ```csharp
 public static readonly Key<DateTime, RscKey> Start;

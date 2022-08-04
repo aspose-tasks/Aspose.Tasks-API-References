@@ -1,14 +1,14 @@
 ---
 title: OvertimeCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Общая стоимость сверхурочной работы ресурса по всем назначенным задачам.
+description: Общая стоимость сверхурочной работы ресурса для всех назначенных задач.
 type: docs
 weight: 510
 url: /ru/net/aspose.tasks/rsc/overtimecost/
 ---
 ## Rsc.OvertimeCost field
 
-Общая стоимость сверхурочной работы ресурса по всем назначенным задачам.
+Общая стоимость сверхурочной работы ресурса для всех назначенных задач.
 
 ```csharp
 public static readonly Key<decimal, RscKey> OvertimeCost;

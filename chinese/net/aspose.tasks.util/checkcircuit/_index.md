@@ -1,14 +1,14 @@
 ---
 title: CheckCircuit
 second_title: Aspose.Tasks for .NET API 参考
-description: 检查任务的树是否包含电路
+description: 检查任务树是否包含电路
 type: docs
 weight: 2340
 url: /zh/net/aspose.tasks.util/checkcircuit/
 ---
 ## CheckCircuit class
 
-检查（任务的）树是否包含电路。
+检查（任务）树是否包含电路。
 
 ```csharp
 public class CheckCircuit : TreeAlgorithmBase<Task>
@@ -18,7 +18,7 @@ public class CheckCircuit : TreeAlgorithmBase<Task>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CheckCircuit](checkcircuit)() | 初始化[`CheckCircuit`](../checkcircuit)类的新实例。 |
+| [CheckCircuit](checkcircuit)() | 初始化[`CheckCircuit`](../checkcircuit)类. |
 
 ## 方法
 

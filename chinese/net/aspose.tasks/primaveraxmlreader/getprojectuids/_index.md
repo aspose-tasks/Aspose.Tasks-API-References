@@ -16,7 +16,7 @@ public List<int> GetProjectUids()
 
 ### 返回值
 
-项目唯一标识符列表。
+项目的唯一标识符列表。
 
 ### 也可以看看
 

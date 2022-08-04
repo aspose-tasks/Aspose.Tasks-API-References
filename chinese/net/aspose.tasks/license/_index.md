@@ -18,7 +18,7 @@ public class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [License](license)() | 初始化[`License`](../license)类的新实例。 |
+| [License](license)() | 初始化[`License`](../license)班级。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public class License
 
 ### 例子
 
-在本例中，将尝试查找名为 MyLicense.lic 的许可证文件在包含 的文件夹中 组件 在包含调用程序集的文件夹中 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
+在此示例中，将尝试在包含 的文件夹中查找名为 MyLicense.lic 的许可证文件 组件，在包含调用程序集的文件夹中， 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-组件 jar 文件:
+组件 jar 文件：
 
 ```csharp
 License license = new License();

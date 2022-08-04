@@ -1,14 +1,14 @@
 ---
 title: Operation
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置使用 FieldNameTest 和 Value 建立的条件与过滤器中的其他条件相关
+description: 获取或设置与 FieldNameTest 和 Value 建立的条件相关的过滤器中的其他条件
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/filtercriteria/operation/
 ---
 ## FilterCriteria.Operation property
 
-获取或设置使用 FieldName、Test 和 Value 建立的条件与过滤器中的其他条件相关。
+获取或设置与 FieldName、Test 和 Value 建立的条件相关的过滤器中的其他条件。
 
 ```csharp
 public FilterOperation Operation { get; set; }

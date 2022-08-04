@@ -3,7 +3,7 @@ title: NotT
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Применяет логическое НЕ к указанному условию.
 type: docs
-weight: 2400
+weight: 2410
 url: /ru/net/aspose.tasks.util/not-1/
 ---
 ## Not&lt;T&gt; class
@@ -22,7 +22,7 @@ public class Not<T> : ICondition<T>
 
 | Имя | Описание |
 | --- | --- |
-| [Not](not)(ICondition&lt;T&gt;) | Инициализирует новый экземпляр класса[`Not`](../not-1). |
+| [Not](not)(ICondition&lt;T&gt;) | Инициализирует новый экземпляр[`Not`](../not-1) класс. |
 
 ## Методы
 

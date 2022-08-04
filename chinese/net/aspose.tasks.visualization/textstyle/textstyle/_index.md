@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Aspose.Tasks for .NET API 参考
-description: 使用默认设置初始化TextStyleaspose.tasks.visualization/textstyle类的新实例
+description: 初始化TextStyleaspose.tasks.visualization/textstyle具有默认设置的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/textstyle/textstyle/
 ---
 ## TextStyle() {#constructor}
 
-使用默认设置初始化[`TextStyle`](../../textstyle)类的新实例。
+初始化[`TextStyle`](../../textstyle)具有默认设置的类。
 
 ```csharp
 public TextStyle()
@@ -24,7 +24,7 @@ public TextStyle()
 
 ## TextStyle(float, FontStyles) {#constructor_3}
 
-使用默认字体和指定的字体大小和样式初始化[`TextStyle`](../../textstyle)类的新实例。
+初始化[`TextStyle`](../../textstyle)具有默认字体和指定字体大小和样式的类。
 
 ```csharp
 public TextStyle(float fontSize, FontStyles fontStyle)
@@ -46,7 +46,7 @@ public TextStyle(float fontSize, FontStyles fontStyle)
 
 ## TextStyle(FontStyles) {#constructor_2}
 
-使用默认字体和指定字体样式初始化[`TextStyle`](../../textstyle)类的新实例。
+初始化[`TextStyle`](../../textstyle)具有默认字体和指定字体样式的类。
 
 ```csharp
 public TextStyle(FontStyles fontStyle)
@@ -67,7 +67,7 @@ public TextStyle(FontStyles fontStyle)
 
 ## TextStyle(FontDescriptor) {#constructor_1}
 
-使用指定的字体设置初始化[`TextStyle`](../../textstyle)类的新实例。
+初始化[`TextStyle`](../../textstyle)具有指定字体设置的类。
 
 ```csharp
 public TextStyle(FontDescriptor font)

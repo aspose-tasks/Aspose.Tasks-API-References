@@ -1,14 +1,14 @@
 ---
 title: AvailableFrom
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源可用于在当前时间段指定的单位工作的开始日期
+description: 资源可用于以为当前时间段指定的单位工作的开始日期
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/rsc/availablefrom/
 ---
 ## Rsc.AvailableFrom field
 
-资源可用于在当前时间段指定的单位工作的开始日期。
+资源可用于以为当前时间段指定的单位工作的开始日期。
 
 ```csharp
 public static readonly Key<DateTime, RscKey> AvailableFrom;

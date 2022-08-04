@@ -16,7 +16,7 @@ public ProbabilityDistributionType Distribution { get; set; }
 
 ### Примечания
 
-Может быть одним из значений, определенных в перечислении[`ProbabilityDistributionType`](../../probabilitydistributiontype).
+Может быть одним из значений, определенных в[`ProbabilityDistributionType`](../../probabilitydistributiontype) перечисление.
 
 ### Смотрите также
 

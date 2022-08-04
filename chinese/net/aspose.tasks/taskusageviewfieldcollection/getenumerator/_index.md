@@ -16,7 +16,7 @@ public IEnumerator<TaskUsageViewField> GetEnumerator()
 
 ### 返回值
 
-此集合的枚举数。
+此集合的枚举器。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Work
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置保存基线时分配给资源的工时  保存基线时分配给资源的工作量
+description: 获取或设置保存基线时分配给资源的工时 保存基线时分配给资源的工作量
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/baseline/work/
 ---
 ## Baseline.Work property
 
-获取或设置保存基线时分配给资源的工时。  保存基线时分配给资源的工作量。
+获取或设置保存基线时分配给资源的工时。 保存基线时分配给资源的工作量。
 
 ```csharp
 public Duration Work { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SiteUrl
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取 PWA 在 SharePoint 站点的 URL 或本地 Project Server 的 URL 例如 https//your_company_name.sharepoint.com/sites/pwa
+description: 获取 PWA 在 SharePoint 站点的 URL 或本地 Project Server 的 URL 例如https//your_company_name.sharepoint.com/sites/pwa
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/projectservercredentials/siteurl/
 ---
 ## ProjectServerCredentials.SiteUrl property
 
-获取 PWA 在 SharePoint 站点的 URL 或本地 Project Server 的 URL。 例如 https://your_company_name.sharepoint.com/sites/pwa";
+获取 PWA 在 SharePoint 站点的 URL 或本地 Project Server 的 URL。 例如，https://your_company_name.sharepoint.com/sites/pwa";
 
 ```csharp
 public string SiteUrl { get; }

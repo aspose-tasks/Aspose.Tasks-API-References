@@ -1,14 +1,14 @@
 ---
 title: LeftField
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要在栏左侧显示的数据 Fieldaspose.tasks/field
+description: 获取或设置要在栏左侧显示的数据 Fieldaspose.tasks/field.
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/leftfield/
 ---
 ## GanttBarStyle.LeftField property
 
-获取或设置要在栏左侧显示的数据。 [`Field`](../../../aspose.tasks/field)。
+获取或设置要在栏左侧显示的数据。 [`Field`](../../../aspose.tasks/field).
 
 ```csharp
 public Field LeftField { get; set; }

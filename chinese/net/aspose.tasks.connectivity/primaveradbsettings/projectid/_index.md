@@ -1,14 +1,14 @@
 ---
 title: ProjectId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取要读取的项目的 ID
+description: 获取要读取的项目 id
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.connectivity/primaveradbsettings/projectid/
 ---
 ## PrimaveraDbSettings.ProjectId property
 
-获取要读取的项目的 ID。
+获取要读取的项目 id。
 
 ```csharp
 public int ProjectId { get; }

@@ -16,7 +16,7 @@ public string ValueGuid { get; }
 
 ### 评论
 
-不应直接设置，而是使用 ExtendedAttributeDefinition.CreateExtendedAttribute(Value lookupValue) 创建扩展属性带有查找值。
+不应该直接设置，而是使用ExtendedAttributeDefinition.CreateExtendedAttribute(Value lookupValue) 创建一个带有查找值的扩展属性。
 
 ### 也可以看看
 

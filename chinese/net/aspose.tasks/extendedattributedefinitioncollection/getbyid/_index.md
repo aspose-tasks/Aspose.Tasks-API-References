@@ -1,14 +1,14 @@
 ---
 title: GetById
 second_title: Aspose.Tasks for .NET API 参考
-description: 通过 id 返回扩展属性定义
+description: 返回 id 的扩展属性定义
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/extendedattributedefinitioncollection/getbyid/
 ---
 ## ExtendedAttributeDefinitionCollection.GetById method
 
-通过 id 返回扩展属性定义
+返回 id 的扩展属性定义
 
 ```csharp
 public ExtendedAttributeDefinition GetById(int id)
@@ -16,11 +16,11 @@ public ExtendedAttributeDefinition GetById(int id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | 指定 id |
+| id | Int32 | 指定编号 |
 
 ### 返回值
 
-ExtendedAttributeDefinition 具有指定的 id。
+具有指定 id 的 ExtendedAttributeDefinition。
 
 ### 也可以看看
 

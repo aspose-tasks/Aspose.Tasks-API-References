@@ -1,14 +1,14 @@
 ---
 title: NullableBool
 second_title: Aspose.Tasks for .NET API 参考
-description: 使用指定的布尔值初始化NullableBoolaspose.tasks/nullablebool结构的新实例
+description: 初始化NullableBoolaspose.tasks/nullablebool具有指定布尔值的结构
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/nullablebool/nullablebool/
 ---
 ## NullableBool(bool) {#constructor}
 
-使用指定的布尔值初始化[`NullableBool`](../../nullablebool)结构的新实例。
+初始化[`NullableBool`](../../nullablebool)具有指定布尔值的结构。
 
 ```csharp
 public NullableBool(bool value)
@@ -28,7 +28,7 @@ public NullableBool(bool value)
 
 ## NullableBool(bool, bool) {#constructor_1}
 
-初始化[`NullableBool`](../../nullablebool)结构的新实例。
+初始化[`NullableBool`](../../nullablebool)struct.
 
 ```csharp
 public NullableBool(bool value, bool isDefined)
@@ -37,7 +37,7 @@ public NullableBool(bool value, bool isDefined)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | Boolean | 当前值。 |
-| isDefined | Boolean | 表示当前值是否已定义的值。 |
+| isDefined | Boolean | 指示当前值是否已定义的值。 |
 
 ### 也可以看看
 

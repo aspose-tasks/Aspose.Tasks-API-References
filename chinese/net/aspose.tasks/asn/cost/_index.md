@@ -1,14 +1,14 @@
 ---
 title: Cost
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配的预计或计划成本
+description: 任务的预计或计划成本
 type: docs
 weight: 180
 url: /zh/net/aspose.tasks/asn/cost/
 ---
 ## Asn.Cost field
 
-分配的预计或计划成本。
+任务的预计或计划成本。
 
 ```csharp
 public static readonly Key<decimal, AsnKey> Cost;

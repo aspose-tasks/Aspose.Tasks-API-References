@@ -16,7 +16,7 @@ public OutlineCodeCollection OutlineCode { get; }
 
 ### 评论
 
-需要两条数据 - 指向大纲代码表的指针 由 FieldID 指定，值由 ValueID 或指向值列表的 ValueGUID 指针指定。
+需要两条数据 - 指向大纲代码表的指针， 由 FieldID 指定，值由 ValueID 或指向值列表的 ValueGUID 指针指定。
 
 ### 也可以看看
 

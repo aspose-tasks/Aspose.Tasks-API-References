@@ -1,14 +1,14 @@
 ---
 title: ProjectServerCredentials
 second_title: Aspose.Tasks for .NET API 参考
-description: 使用 SharePoint 网站的 URL 和 SharePoint 的 PWA 的有效 SPOIDCRL 授权令牌初始化ProjectServerCredentialsaspose.tasks/projectservercredentials类的新实例项目 Web 访问网站
+description: 初始化ProjectServerCredentialsaspose.tasks/projectservercredentials类使用 SharePoint 网站的 URL 和 SharePoint 的 PWA项目 Web 访问网站的有效 SPOIDCRL 授权令牌
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/projectservercredentials/projectservercredentials/
 ---
 ## ProjectServerCredentials(string, string) {#constructor_1}
 
-使用 SharePoint 网站的 URL 和 SharePoint 的 PWA 的有效 SPOIDCRL 授权令牌初始化[`ProjectServerCredentials`](../../projectservercredentials)类的新实例（项目 Web 访问）网站。
+初始化[`ProjectServerCredentials`](../../projectservercredentials)类使用 SharePoint 网站的 URL 和 SharePoint 的 PWA（项目 Web 访问）网站的有效 SPOIDCRL 授权令牌。
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string authToken)
@@ -16,12 +16,12 @@ public ProjectServerCredentials(string siteUrl, string authToken)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| siteUrl | String | Project Online 的 PWA（Project Web Access）API 的 URL。 |
-| authToken | String | SharePoint 的 PWA（项目 Web 访问）网站的授权令牌 (SPOIDCRL)。 |
+| siteUrl | String | Project Online 的 PWA (Project Web Access) API 的 URL。 |
+| authToken | String | SharePoint 的 PWA (Project Web Access) 网站的授权令牌 (SPOIDCRL)。 |
 
 ### 评论
 
-如果您已经拥有 SharePoint Online 网站的 AuthToken，请使用此构造函数连接到 ProjectOnline。
+如果您的 SharePoint Online 网站已有 AuthToken，请使用此构造函数连接到 ProjectOnline。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public ProjectServerCredentials(string siteUrl, string authToken)
 
 ## ProjectServerCredentials(string, string, string) {#constructor_2}
 
-使用 SharePoint 站点的 URL、用户名和密码初始化[`ProjectServerCredentials`](../../projectservercredentials)类的新实例。
+初始化[`ProjectServerCredentials`](../../projectservercredentials)使用 SharePoint 网站的 URL、用户名和密码的类。
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string userName, string password)
@@ -41,7 +41,7 @@ public ProjectServerCredentials(string siteUrl, string userName, string password
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| siteUrl | String | Project Online 的 PWA（Project Web Access）API 的 URL。 |
+| siteUrl | String | Project Online 的 PWA (Project Web Access) API 的 URL。 |
 | userName | String | SharePoint 网站的用户名。 |
 | password | String | SharePoint 网站的密码。 |
 
@@ -59,7 +59,7 @@ public ProjectServerCredentials(string siteUrl, string userName, string password
 
 ## ProjectServerCredentials(string, NetworkCredential) {#constructor}
 
-使用 Project Web Access 端点的 URL 和网络凭据初始化[`ProjectServerCredentials`](../../projectservercredentials)类的新实例。
+初始化[`ProjectServerCredentials`](../../projectservercredentials)使用 Project Web Access 端点的 URL 和网络凭据的类。
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
@@ -76,7 +76,7 @@ public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
 
 ### 例子
 
-在此示例中，[`ProjectServerManager`](../../projectservermanager)类的实例用于读取来自位于 http://project_server_instance.local
+在这个例子中的实例[`ProjectServerManager`](../../projectservermanager)类用于从位于 http://project_server_instance.local 的 Project Server 实例中读取项目列表
 
 ```csharp
 string site = "http://project_server_instance.local/sites/pwa";

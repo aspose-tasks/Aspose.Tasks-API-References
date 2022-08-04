@@ -18,7 +18,7 @@ public class DailyCalendarRepetition : DailyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DailyCalendarRepetition](dailycalendarrepetition)() | 初始化[`DailyCalendarRepetition`](../dailycalendarrepetition)类的新实例。 |
+| [DailyCalendarRepetition](dailycalendarrepetition)() | 初始化[`DailyCalendarRepetition`](../dailycalendarrepetition)类. |
 
 ## 特性
 

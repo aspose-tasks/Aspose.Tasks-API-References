@@ -24,17 +24,17 @@ public class FilterCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CriteriaRows](../../aspose.tasks/filtercriteria/criteriarows) { get; } | 获取子列表[`FilterCriteria`](../filtercriteria)行。 如果过滤器包含多个条件行，则 And 运算符的效果是必须满足两行的条件，任务或资源才能作为此过滤器的结果显示。 Or 运算符的作用是必须满足某一行或另一行的条件。 |
-| [Field](../../aspose.tasks/filtercriteria/field) { get; set; } | 获取或设置要更改的[`Field`](./field)。 |
-| [Operation](../../aspose.tasks/filtercriteria/operation) { get; set; } | 获取或设置使用 FieldName、Test 和 Value 建立的条件与过滤器中的其他条件相关。 |
+| [CriteriaRows](../../aspose.tasks/filtercriteria/criteriarows) { get; } | 获取子列表[`FilterCriteria`](../filtercriteria)rows. 如果过滤器包含多个条件行，则 And 运算符的效果是必须满足两行的条件，任务或资源才能作为此过滤器的结果显示。 Or 的效果运算符是必须满足某一行或另一行的条件。 |
+| [Field](../../aspose.tasks/filtercriteria/field) { get; set; } | 获取或设置一个[`Field`](./field)改变. |
+| [Operation](../../aspose.tasks/filtercriteria/operation) { get; set; } | 获取或设置与 FieldName、Test 和 Value 建立的条件相关的过滤器中的其他条件。 |
 | [Test](../../aspose.tasks/filtercriteria/test) { get; set; } | 获取或设置作为筛选器选择标准的 FieldName 和 Value 之间的比较类型。 [`FilterComparisonType`](../filtercomparisontype) |
-| [Values](../../aspose.tasks/filtercriteria/values) { get; } | 获取对象值以与使用 FieldName 指定的字段的值进行比较。 |
+| [Values](../../aspose.tasks/filtercriteria/values) { get; } | 获取要与使用 FieldName 指定的字段的值进行比较的对象值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.tasks/filtercriteria/tostring)() | 返回[`FilterCriteria`](../filtercriteria)类实例的字符串表示形式。 |
+| override [ToString](../../aspose.tasks/filtercriteria/tostring)() | 返回实例的字符串表示[`FilterCriteria`](../filtercriteria)类. |
 
 ### 也可以看看
 

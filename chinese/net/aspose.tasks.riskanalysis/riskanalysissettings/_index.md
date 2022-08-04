@@ -18,14 +18,14 @@ public class RiskAnalysisSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RiskAnalysisSettings](riskanalysissettings)() | 初始化[`RiskAnalysisSettings`](../riskanalysissettings)类的新实例。 |
+| [RiskAnalysisSettings](riskanalysissettings)() | 初始化一个新的实例[`RiskAnalysisSettings`](../riskanalysissettings)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IterationsCount](../../aspose.tasks.riskanalysis/riskanalysissettings/iterationscount) { get; set; } | 获取或设置在蒙特卡罗模拟中使用的迭代次数。 默认值为 100。 |
-| [Patterns](../../aspose.tasks.riskanalysis/riskanalysissettings/patterns) { get; } | 获取包含[`RiskPattern`](../riskpattern)类实例的集合。 |
+| [IterationsCount](../../aspose.tasks.riskanalysis/riskanalysissettings/iterationscount) { get; set; } | 获取或设置在蒙特卡洛模拟中使用的迭代次数。 默认值为 100。 |
+| [Patterns](../../aspose.tasks.riskanalysis/riskanalysissettings/patterns) { get; } | 获取包含[`RiskPattern`](../riskpattern)类. |
 
 ### 也可以看看
 

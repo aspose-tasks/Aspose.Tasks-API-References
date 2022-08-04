@@ -16,11 +16,11 @@ public bool Equals(TaskLink other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | TaskLink | [`TaskLink`](../../tasklink)类的指定实例与此进行比较实例。 |
+| other | TaskLink | 的指定实例[`TaskLink`](../../tasklink)类与此实例进行比较。 |
 
 ### 返回值
 
-**True** 如果Tasks的指定实例。TaskLink类具有与此实例相同的前置任务和后继任务；否则， **false** 。
+**真的**如果指定的实例[`TaskLink`](../../tasklink)类具有与此实例相同的前置任务和后继任务；否则， **错误的**.
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果指定对象是具有相同前任和后继的TaskLink 作为这个例子；否则， **false** 。
+**真的**如果指定的对象是具有与此实例相同的前任和后继者 的TaskLink；否则， **错误的**.
 
 ### 也可以看看
 

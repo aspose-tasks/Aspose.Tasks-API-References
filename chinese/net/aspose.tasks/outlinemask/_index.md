@@ -18,7 +18,7 @@ public class OutlineMask
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OutlineMask](outlinemask)() | 初始化[`OutlineMask`](../outlinemask)类的新实例。 |
+| [OutlineMask](outlinemask)() | 初始化[`OutlineMask`](../outlinemask)班级。 |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public class OutlineMask
 | [Length](../../aspose.tasks/outlinemask/length) { get; set; } | 获取或设置大纲代码值的最大长度（以字符为单位）。如果未定义长度，则为 0。 |
 | [Level](../../aspose.tasks/outlinemask/level) { get; set; } | 获取或设置掩码的级别。 |
 | [Separator](../../aspose.tasks/outlinemask/separator) { get; set; } | 获取或设置代码值的分隔符。 |
-| [Type](../../aspose.tasks/outlinemask/type) { get; set; } | 获取或设置掩码类型。 |
+| [Type](../../aspose.tasks/outlinemask/type) { get; set; } | 获取或设置掩码的类型。 |
 
 ### 也可以看看
 

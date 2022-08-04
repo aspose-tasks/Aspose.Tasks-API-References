@@ -1,14 +1,14 @@
 ---
 title: FillColor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает цвет заливки.
+description: Получает или задает цвет заливки.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/fillcolor/
 ---
 ## VisualObjectPlacement.FillColor property
 
-Получает или устанавливает цвет заливки.
+Получает или задает цвет заливки.
 
 ```csharp
 public Color FillColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетViewColumnaspose.tasks.visualization/viewcolumnкоторому принадлежит отображаемая в данный момент ячейка.
+description: получаетViewColumnaspose.tasks.visualization/viewcolumn которому принадлежит отображаемая в данный момент ячейка.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/tasktextstyleeventargs/column/
 ---
 ## TaskTextStyleEventArgs.Column property
 
-Получает[`ViewColumn`](../../viewcolumn)которому принадлежит отображаемая в данный момент ячейка.
+получает[`ViewColumn`](../../viewcolumn) которому принадлежит отображаемая в данный момент ячейка.
 
 ```csharp
 public ViewColumn Column { get; }

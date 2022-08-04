@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает хэш-код экземпляра классаExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition.
+description: Возвращает хэш-код экземпляраExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition класс.
 type: docs
 weight: 320
 url: /ru/net/aspose.tasks/extendedattributedefinition/gethashcode/
 ---
 ## ExtendedAttributeDefinition.GetHashCode method
 
-Возвращает хэш-код экземпляра класса[`ExtendedAttributeDefinition`](../../extendedattributedefinition).
+Возвращает хэш-код экземпляра[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс.
 
 ```csharp
 public override int GetHashCode()

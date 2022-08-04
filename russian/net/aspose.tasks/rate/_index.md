@@ -19,13 +19,13 @@ public class Rate
 | Имя | Описание |
 | --- | --- |
 | [CostPerUse](../../aspose.tasks/rate/costperuse) { get; set; } | Получает или задает стоимость использования ресурса. Это значение извлекается из текущей даты, если для ресурса существует таблица ставок. |
-| [OvertimeRate](../../aspose.tasks/rate/overtimerate) { get; set; } | Получает или задает почасовую ставку сверхурочной работы для ресурса. |
+| [OvertimeRate](../../aspose.tasks/rate/overtimerate) { get; set; } | Получает или задает ставку сверхурочной работы в час для ресурса. |
 | [OvertimeRateFormat](../../aspose.tasks/rate/overtimerateformat) { get; set; } | Получает или задает единицы, используемые Microsoft Project для отображения ставки сверхурочной работы. |
-| [RatesFrom](../../aspose.tasks/rate/ratesfrom) { get; set; } | Получает или задает дату вступления в силу тарифа. |
+| [RatesFrom](../../aspose.tasks/rate/ratesfrom) { get; set; } | Получает или задает дату вступления курса в силу. |
 | [RatesTo](../../aspose.tasks/rate/ratesto) { get; set; } | Получает или задает последнюю дату вступления в силу тарифа. |
 | [RateTable](../../aspose.tasks/rate/ratetable) { get; set; } | Получает или задает уникальный идентификатор таблицы ставок для ресурса. |
 | [StandardRate](../../aspose.tasks/rate/standardrate) { get; set; } | Получает или задает стандартную почасовую ставку для ресурса. |
-| [StandardRateFormat](../../aspose.tasks/rate/standardrateformat) { get; set; } | Получает или задает единицы, используемые Microsoft Project для отображения стандартной ставки. |
+| [StandardRateFormat](../../aspose.tasks/rate/standardrateformat) { get; set; } | Получает или задает единицы измерения, используемые Microsoft Project для отображения стандартной ставки. |
 
 ### Смотрите также
 

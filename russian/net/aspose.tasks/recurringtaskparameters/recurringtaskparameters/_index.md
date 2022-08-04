@@ -1,14 +1,14 @@
 ---
 title: RecurringTaskParameters
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаRecurringTaskParametersaspose.tasks/recurringtaskparameters.
+description: Инициализирует новый экземплярRecurringTaskParametersaspose.tasks/recurringtaskparameters класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/recurringtaskparameters/recurringtaskparameters/
 ---
 ## RecurringTaskParameters constructor
 
-Инициализирует новый экземпляр класса[`RecurringTaskParameters`](../../recurringtaskparameters).
+Инициализирует новый экземпляр[`RecurringTaskParameters`](../../recurringtaskparameters) класс.
 
 ```csharp
 public RecurringTaskParameters()

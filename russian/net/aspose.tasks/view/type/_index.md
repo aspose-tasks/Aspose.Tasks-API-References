@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает тип элемента в отдельном представлении например задачи или ресурсы. Только для чтенияItemTypeaspose.tasks/itemtype.
+description: Получает тип элемента в отдельном представлении например задачи или ресурсы. Только для чтенияItemTypeaspose.tasks/itemtype .
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/view/type/
 ---
 ## View.Type property
 
-Получает тип элемента в отдельном представлении, например задачи или ресурсы. Только для чтения[`ItemType`](../../itemtype).
+Получает тип элемента в отдельном представлении, например задачи или ресурсы. Только для чтения[`ItemType`](../../itemtype) .
 
 ```csharp
 public ItemType Type { get; }

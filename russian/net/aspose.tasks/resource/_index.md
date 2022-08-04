@@ -19,14 +19,14 @@ public class Resource : IEquatable<Resource>
 | Имя | Описание |
 | --- | --- |
 | [Assignments](../../aspose.tasks/resource/assignments) { get; } | Получает набор назначений ресурсов для этого объекта. |
-| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods) { get; } | Получает экземпляр класса[`AvailabilityPeriodCollection`](../availabilityperiodcollection). Набор периодов, в течение которых ресурс доступен. |
-| [Baselines](../../aspose.tasks/resource/baselines) { get; } | Получает экземпляр BaselineCollection для этого объекта. Базовые значения ресурса. |
+| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods) { get; } | Получает экземпляр[`AvailabilityPeriodCollection`](../availabilityperiodcollection) class. Набор периодов, в течение которых ресурс доступен. |
+| [Baselines](../../aspose.tasks/resource/baselines) { get; } | Получает экземпляр BaselineCollection для этого объекта. Базовые значения для ресурса. |
 | [ExtendedAttributes](../../aspose.tasks/resource/extendedattributes) { get; } | Получает значения расширенного атрибута. |
-| virtual [IsRoot](../../aspose.tasks/resource/isroot) { get; } | Получает флаг, указывающий, является ли ресурс корневым ресурсом. Корневой ресурс - это специальный ресурс, который предназначен для поддержки внутренних компонентов форматов MS Project и не предназначен для использования непосредственно из пользовательского кода. |
+| virtual [IsRoot](../../aspose.tasks/resource/isroot) { get; } | Получает флаг, указывающий, является ли ресурс корневым ресурсом. Корневой ресурс — это специальный ресурс, который предназначен для поддержки внутренних форматов MS Project и не предназначен для использования непосредственно из пользовательского кода. |
 | [OutlineCode](../../aspose.tasks/resource/outlinecode) { get; } | Получает объект OutlineCodeCollection. Значение кода схемы. |
 | [ParentProject](../../aspose.tasks/resource/parentproject) { get; } | Получает родительский проект для этого контейнера. |
-| [Rates](../../aspose.tasks/resource/rates) { get; } | Получает экземпляр класса[`RateCollection`](../ratecollection)для этого объекта. Коллекция периодов и ставок, связанных с каждым из них. |
-| [TimephasedData](../../aspose.tasks/resource/timephaseddata) { get; set; } | Получает или задает экземпляр класса[`TimephasedDataCollection`](../timephaseddatacollection)для этого объекта. |
+| [Rates](../../aspose.tasks/resource/rates) { get; } | Получает экземпляр[`RateCollection`](../ratecollection) класс для этого объекта. Набор периодов и ставок, связанных с каждым из них. |
+| [TimephasedData](../../aspose.tasks/resource/timephaseddata) { get; set; } | Получает или задает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection) класс для этого объекта. |
 
 ## Методы
 
@@ -34,14 +34,14 @@ public class Resource : IEquatable<Resource>
 | --- | --- |
 | [Delete](../../aspose.tasks/resource/delete)() | Удаляет ресурс и его назначения из проекта. |
 | override [Equals](../../aspose.tasks/resource/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [Equals](../../aspose.tasks/resource/equals#equals)(Resource) | Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру класса[`Resource`](../resource). |
+| [Equals](../../aspose.tasks/resource/equals#equals)(Resource) | Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру[`Resource`](../resource) класс. |
 | [Get&lt;T&gt;](../../aspose.tasks/resource/get)(Key&lt;T, RscKey&gt;) | Возвращает значение, которому сопоставлено свойство в этом контейнере. |
-| override [GetHashCode](../../aspose.tasks/resource/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`Resource`](../resource). |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection)для этого объекта с[`TimephasedData`](./timephaseddata)значения в пределах заданных дат начала и окончания. |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает экземпляр класса[`TimephasedDataCollection`](../timephaseddatacollection)для этого объекта с[`TimephasedData`](./timephaseddata)значения в пределах заданных дат начала и окончания указанных[`TimephasedDataType`](../timephaseddatatype). |
+| override [GetHashCode](../../aspose.tasks/resource/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`Resource`](../resource) класс. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection) для этого объекта с[`TimephasedData`](./timephaseddata) значения в пределах заданных дат начала и окончания. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection) класс для этого объекта с[`TimephasedData`](./timephaseddata) значения в пределах заданных дат начала и окончания указанных[`TimephasedDataType`](../timephaseddatatype) . |
 | [Set](../../aspose.tasks/resource/set#set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Сопоставляет указанное свойство с указанным значением в этом контейнере. |
 | [Set&lt;T&gt;](../../aspose.tasks/resource/set#set_1)(Key&lt;T, RscKey&gt;, T) | Сопоставляет указанное свойство с указанным значением в этом контейнере. |
-| override [ToString](../../aspose.tasks/resource/tostring)() | Возвращает короткое строковое представление экземпляра класса[`Resource`](../resource). Точные детали представления не указаны и могут быть изменены. |
+| override [ToString](../../aspose.tasks/resource/tostring)() | Возвращает короткое строковое представление экземпляра[`Resource`](../resource) class. Точные детали представления не указаны и могут быть изменены. |
 
 ### Смотрите также
 

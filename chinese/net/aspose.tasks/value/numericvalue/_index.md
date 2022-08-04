@@ -16,7 +16,7 @@ public decimal NumericValue { get; set; }
 
 ### 评论
 
-此属性优于[`Val`](../val)，当您需要设置 Number 或 Cost 值时。
+更喜欢这个属性而不是[`Val`](../val) , 当你需要设置 Number 或 Cost 值时。
 
 ### 也可以看看
 

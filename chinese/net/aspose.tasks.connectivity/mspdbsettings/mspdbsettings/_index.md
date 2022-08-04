@@ -1,14 +1,14 @@
 ---
 title: MspDbSettings
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化MspDbSettingsaspose.tasks.connectivity/mspdbsettings类的新实例
+description: 初始化MspDbSettingsaspose.tasks.connectivity/mspdbsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.connectivity/mspdbsettings/mspdbsettings/
 ---
 ## MspDbSettings constructor
 
-初始化[`MspDbSettings`](../../mspdbsettings)类的新实例。
+初始化[`MspDbSettings`](../../mspdbsettings)类.
 
 ```csharp
 public MspDbSettings(string connectionString, Guid projectGuid)

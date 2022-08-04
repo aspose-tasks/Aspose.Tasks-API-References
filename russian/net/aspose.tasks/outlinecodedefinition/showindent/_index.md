@@ -16,7 +16,7 @@ public bool ShowIndent { get; set; }
 
 ### Примечания
 
-Это новое свойство для MS Project 2010.
+Это новое свойство MS Project 2010.
 
 ### Смотрите также
 

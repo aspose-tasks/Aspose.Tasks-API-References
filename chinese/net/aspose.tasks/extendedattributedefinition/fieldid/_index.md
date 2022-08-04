@@ -1,14 +1,14 @@
 ---
 title: FieldId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置对应于自定义字段的项目id 使用ExtendedAttributeTaskaspose.tasks/extendedattributetask类中常量的字符串表示来指定FieldIdaspose.tasks/extendedattributedefinition/fieldid属性.
+description: 获取或设置对应于自定义字段的项目 id 使用来自的常量的字符串表示ExtendedAttributeTaskaspose.tasks/extendedattributetask要指定的类FieldIdaspose.tasks/extendedattributedefinition/fieldid属性.
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/extendedattributedefinition/fieldid/
 ---
 ## ExtendedAttributeDefinition.FieldId property
 
-获取或设置对应于自定义字段的项目id。 使用[`ExtendedAttributeTask`](../../extendedattributetask)类中常量的字符串表示来指定`FieldId`属性.
+获取或设置对应于自定义字段的项目 id。 使用来自的常量的字符串表示[`ExtendedAttributeTask`](../../extendedattributetask)要指定的类`FieldId`属性.
 
 ```csharp
 public string FieldId { get; set; }
@@ -16,7 +16,7 @@ public string FieldId { get; set; }
 
 ### 评论
 
-设置的首选方法`FieldId`属性是创建[`ExtendedAttributeDefinition`](../../extendedattributedefinition) 使用专用工厂方法之一，例如[`CreateTaskDefinition`](../createtaskdefinition)或[`CreateLookupTaskDefinition`](../createlookuptaskdefinition)。
+首选的设置方式`FieldId`财产是创造[`ExtendedAttributeDefinition`](../../extendedattributedefinition) 使用一种专用的工厂方法，例如[`CreateTaskDefinition`](../createtaskdefinition)或者[`CreateLookupTaskDefinition`](../createlookuptaskdefinition).
 
 ### 例子
 

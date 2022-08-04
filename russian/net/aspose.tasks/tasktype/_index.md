@@ -1,14 +1,14 @@
 ---
 title: TaskType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает тип задачи.
+description: Определяет тип задачи.
 type: docs
 weight: 2150
 url: /ru/net/aspose.tasks/tasktype/
 ---
 ## TaskType enumeration
 
-Указывает тип задачи.
+Определяет тип задачи.
 
 ```csharp
 public enum TaskType
@@ -19,7 +19,7 @@ public enum TaskType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Undefined | `-1` | Неопределенное значение означает, что поле не было определено в исходном файле |
-| FixedUnits | `0` | Фиксированные блоки |
+| FixedUnits | `0` | Фиксированные единицы |
 | FixedDuration | `1` | Фиксированная продолжительность |
 | FixedWork | `2` | Исправлена работа |
 

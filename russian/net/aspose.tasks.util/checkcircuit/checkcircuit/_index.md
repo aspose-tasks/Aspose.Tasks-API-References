@@ -1,14 +1,14 @@
 ---
 title: CheckCircuit
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаCheckCircuitaspose.tasks.util/checkcircuit.
+description: Инициализирует новый экземплярCheckCircuitaspose.tasks.util/checkcircuit класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/checkcircuit/checkcircuit/
 ---
 ## CheckCircuit constructor
 
-Инициализирует новый экземпляр класса[`CheckCircuit`](../../checkcircuit).
+Инициализирует новый экземпляр[`CheckCircuit`](../../checkcircuit) класс.
 
 ```csharp
 public CheckCircuit()

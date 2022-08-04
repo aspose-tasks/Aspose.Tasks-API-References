@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取当前渲染单元所属的ViewColumnaspose.tasks.visualization/viewcolumn
+description: 获取ViewColumnaspose.tasks.visualization/viewcolumn当前渲染的单元格所属的.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/tasktextstyleeventargs/column/
 ---
 ## TaskTextStyleEventArgs.Column property
 
-获取当前渲染单元所属的[`ViewColumn`](../../viewcolumn)。
+获取[`ViewColumn`](../../viewcolumn)当前渲染的单元格所属的.
 
 ```csharp
 public ViewColumn Column { get; }

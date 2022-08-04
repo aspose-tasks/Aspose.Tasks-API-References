@@ -1,14 +1,14 @@
 ---
 title: Screen
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает тип экрана для одиночного представления. Только для чтенияViewScreenaspose.tasks/viewscreen.
+description: Получает тип экрана для одиночного представления. Только для чтенияViewScreenaspose.tasks/viewscreen .
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/view/screen/
 ---
 ## View.Screen property
 
-Получает тип экрана для одиночного представления. Только для чтения[`ViewScreen`](../../viewscreen).
+Получает тип экрана для одиночного представления. Только для чтения[`ViewScreen`](../../viewscreen) .
 
 ```csharp
 public ViewScreen Screen { get; }

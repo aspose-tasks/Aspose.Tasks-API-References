@@ -1,14 +1,14 @@
 ---
 title: DailyWorkRepetition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаDailyWorkRepetitionaspose.tasks/dailyworkrepetition.
+description: Инициализирует новый экземплярDailyWorkRepetitionaspose.tasks/dailyworkrepetition класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/dailyworkrepetition/dailyworkrepetition/
 ---
 ## DailyWorkRepetition constructor
 
-Инициализирует новый экземпляр класса[`DailyWorkRepetition`](../../dailyworkrepetition).
+Инициализирует новый экземпляр[`DailyWorkRepetition`](../../dailyworkrepetition) класс.
 
 ```csharp
 public DailyWorkRepetition()

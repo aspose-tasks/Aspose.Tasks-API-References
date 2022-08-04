@@ -1,14 +1,14 @@
 ---
 title: TimephasedDataFromTaskDuration
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Генерирует список поэтапных данных на основе продолжительности задачи и запланированной даты начала.
+description: Создает список поэтапных данных на основе продолжительности задачи и запланированной даты начала.
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/resourceassignment/timephaseddatafromtaskduration/
 ---
 ## ResourceAssignment.TimephasedDataFromTaskDuration method
 
-Генерирует список поэтапных данных на основе продолжительности задачи и запланированной даты начала.
+Создает список поэтапных данных на основе продолжительности задачи и запланированной даты начала.
 
 ```csharp
 public void TimephasedDataFromTaskDuration(Calendar calendar)

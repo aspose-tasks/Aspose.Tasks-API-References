@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置保存基线时资源分配的计划开始日期  保存此基线时资源分配的开始日期
+description: 获取或设置保存基线时资源分配的计划开始日期 保存此基线时资源分配的开始日期
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/assignmentbaseline/start/
 ---
 ## AssignmentBaseline.Start property
 
-获取或设置保存基线时资源分配的计划开始日期。  保存此基线时资源分配的开始日期。
+获取或设置保存基线时资源分配的计划开始日期。 保存此基线时资源分配的开始日期。
 
 ```csharp
 public DateTime? Start { get; set; }

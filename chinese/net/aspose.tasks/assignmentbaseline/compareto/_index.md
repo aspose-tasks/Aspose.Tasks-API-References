@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Aspose.Tasks for .NET API 参考
-description: IComparable 接口实现 将此实例与指定的 Baseline 对象进行比较
+description: IComparable 接口实现 将此实例与指定的基线对象进行比较
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/assignmentbaseline/compareto/
 ---
 ## AssignmentBaseline.CompareTo method
 
-IComparable 接口实现。 将此实例与指定的 Baseline 对象进行比较。
+IComparable 接口实现。 将此实例与指定的基线对象进行比较。
 
 ```csharp
 public int CompareTo(AssignmentBaseline other)
@@ -16,7 +16,7 @@ public int CompareTo(AssignmentBaseline other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | AssignmentBaseline | 要与此实例进行比较的指定基线对象。 |
+| other | AssignmentBaseline | 与此实例进行比较的指定 Baseline 对象。 |
 
 ### 返回值
 

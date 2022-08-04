@@ -1,14 +1,14 @@
 ---
 title: WeekDay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет день недели который определяет либо обычные дни недели либо дни исключения в календаре.
+description: Представляет день недели который определяет обычные дни недели или дни исключения в календаре.
 type: docs
-weight: 3150
+weight: 3160
 url: /ru/net/aspose.tasks/weekday/
 ---
 ## WeekDay class
 
-Представляет день недели, который определяет либо обычные дни недели, либо дни исключения в календаре.
+Представляет день недели, который определяет обычные дни недели или дни исключения в календаре.
 
 ```csharp
 public class WeekDay
@@ -18,9 +18,9 @@ public class WeekDay
 
 | Имя | Описание |
 | --- | --- |
-| [WeekDay](weekday#constructor)() | Инициализирует новый экземпляр класса[`WeekDay`](../weekday). |
-| [WeekDay](weekday#constructor_1)(DayType) | Инициализирует новый экземпляр класса[`WeekDay`](../weekday)с указанным типом дня. |
-| [WeekDay](weekday#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | Инициализирует новый экземпляр класса[`WeekDay`](../weekday)с указанным типом дня и списком периодов рабочего времени. |
+| [WeekDay](weekday#constructor)() | Инициализирует новый экземпляр[`WeekDay`](../weekday) класс. |
+| [WeekDay](weekday#constructor_1)(DayType) | Инициализирует новый экземпляр[`WeekDay`](../weekday) класс с указанным типом дня. |
+| [WeekDay](weekday#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | Инициализирует новый экземпляр[`WeekDay`](../weekday) класс с указанным типом дня и списком периодов рабочего времени. |
 
 ## Характеристики
 
@@ -30,7 +30,7 @@ public class WeekDay
 | [DayWorking](../../aspose.tasks/weekday/dayworking) { get; set; } | Получает или задает значение, указывающее, работает ли указанная дата или тип дня. |
 | [FromDate](../../aspose.tasks/weekday/fromdate) { get; set; } | Получает или задает начало времени исключения. |
 | [ToDate](../../aspose.tasks/weekday/todate) { get; set; } | Получает или задает время окончания исключения. |
-| [WorkingTimes](../../aspose.tasks/weekday/workingtimes) { get; } | Получает коллекцию WorkingTimeCollection для этого экземпляра WeekDay. Коллекция рабочего времени, определяющая рабочее время в будний день. |
+| [WorkingTimes](../../aspose.tasks/weekday/workingtimes) { get; } | Получает коллекцию WorkingTimeCollection для этого экземпляра WeekDay. Коллекция рабочего времени, определяющая время, отработанное в будний день. |
 
 ## Методы
 
@@ -39,9 +39,9 @@ public class WeekDay
 | static [CreateDefaultWorkingDay](../../aspose.tasks/weekday/createdefaultworkingday)(DayType) | Создает рабочий день по умолчанию. |
 | [Clone](../../aspose.tasks/weekday/clone)() | Возвращает полную копию дня недели. |
 | override [Equals](../../aspose.tasks/weekday/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/weekday/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`WeekDay`](../weekday). |
+| override [GetHashCode](../../aspose.tasks/weekday/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`WeekDay`](../weekday) класс. |
 | [GetWorkingTime](../../aspose.tasks/weekday/getworkingtime)() | Возвращает рабочее время для дня недели. |
-| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype)(DayOfWeek) | Преобразует .NetDayOfWeekв[`DayType`](./daytype). |
+| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype)(DayOfWeek) | Преобразует .NetDayOfWeek к[`DayType`](./daytype) . |
 | static [SetDefaultWorkingTime](../../aspose.tasks/weekday/setdefaultworkingtime)(WeekDay) | Устанавливает периоды времени по умолчанию для указанного дня недели. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化HeaderFooterInfoaspose.tasks.visualization/headerfooterinfo类的新实例
+description: 初始化一个新的实例HeaderFooterInfoaspose.tasks.visualization/headerfooterinfo班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/headerfooterinfo/headerfooterinfo/
 ---
 ## HeaderFooterInfo constructor
 
-初始化[`HeaderFooterInfo`](../../headerfooterinfo)类的新实例。
+初始化一个新的实例[`HeaderFooterInfo`](../../headerfooterinfo)班级。
 
 ```csharp
 public HeaderFooterInfo()

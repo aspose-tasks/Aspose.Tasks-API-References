@@ -1,14 +1,14 @@
 ---
 title: Duration
 second_title: Aspose.Tasks for .NET API 参考
-description: Microsoft Project 根据开始日期完成日期日历和其他计划因素输入或计算的任务的活动工作时间的总跨度
+description: 根据开始日期完成日期日历和其他计划因素输入或由 Microsoft Project 计算的任务的活动工作时间的总跨度
 type: docs
 weight: 300
 url: /zh/net/aspose.tasks/tsk/duration/
 ---
 ## Tsk.Duration field
 
-Microsoft Project 根据开始日期、完成日期、日历和其他计划因素输入或计算的任务的活动工作时间的总跨度。
+根据开始日期、完成日期、日历和其他计划因素输入或由 Microsoft Project 计算的任务的活动工作时间的总跨度。
 
 ```csharp
 public static readonly Key<Duration, TaskKey> Duration;

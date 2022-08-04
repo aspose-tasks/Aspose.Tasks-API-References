@@ -1,14 +1,14 @@
 ---
 title: LinePattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 线型
+description: 线条图案.
 type: docs
-weight: 2820
+weight: 2830
 url: /zh/net/aspose.tasks.visualization/linepattern/
 ---
 ## LinePattern enumeration
 
-线型。
+线条图案.
 
 ```csharp
 public enum LinePattern
@@ -18,11 +18,11 @@ public enum LinePattern
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示不会显示一行。 |
-| Solid | `1` | 表示实线模式。 |
-| CloseDot | `3` | 表示闭合点线模式。 |
-| Dotted | `4` | 表示虚线模式。 |
-| Dashed | `2` | 表示虚线模式。 |
+| None | `0` | 表示不显示一行。 |
+| Solid | `1` | 表示实线图案。 |
+| CloseDot | `3` | 表示闭合点线图案。 |
+| Dotted | `4` | 表示虚线图案。 |
+| Dashed | `2` | 表示虚线图案。 |
 
 ### 也可以看看
 

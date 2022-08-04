@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取对象值以与使用 FieldName 指定的字段的值进行比较
+description: 获取要与使用 FieldName 指定的字段的值进行比较的对象值
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/filtercriteria/values/
 ---
 ## FilterCriteria.Values property
 
-获取对象值以与使用 FieldName 指定的字段的值进行比较。
+获取要与使用 FieldName 指定的字段的值进行比较的对象值。
 
 ```csharp
 public object[] Values { get; }

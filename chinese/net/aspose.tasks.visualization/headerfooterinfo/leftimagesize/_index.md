@@ -1,14 +1,14 @@
 ---
 title: LeftImageSize
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置左图的显示尺寸
+description: 获取或设置左图的显示大小
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks.visualization/headerfooterinfo/leftimagesize/
 ---
 ## HeaderFooterInfo.LeftImageSize property
 
-获取或设置左图的显示尺寸。
+获取或设置左图的显示大小。
 
 ```csharp
 public Size LeftImageSize { get; set; }

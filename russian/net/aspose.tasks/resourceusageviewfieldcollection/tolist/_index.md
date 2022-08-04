@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует экземпляр классаResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollectionв список содержащий экземплярыResourceUsageViewFieldaspose.tasks/resourceusageviewfieldкласс.
+description: Преобразует экземплярResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollection class в список содержащий экземплярыResourceUsageViewFieldaspose.tasks/resourceusageviewfield класс.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/resourceusageviewfieldcollection/tolist/
 ---
 ## ResourceUsageViewFieldCollection.ToList method
 
-Преобразует экземпляр класса[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)в список, содержащий экземпляры[`ResourceUsageViewField`](../../resourceusageviewfield)класс.
+Преобразует экземпляр[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection) class в список, содержащий экземпляры[`ResourceUsageViewField`](../../resourceusageviewfield) класс.
 
 ```csharp
 public IList<ResourceUsageViewField> ToList()
@@ -16,7 +16,7 @@ public IList<ResourceUsageViewField> ToList()
 
 ### Возвращаемое значение
 
-Экземпляр класса[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)преобразован в список, содержащий экземпляры класс[`ResourceUsageViewField`](../../resourceusageviewfield).
+Экземпляр[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection) класс, преобразованный в список, содержащий экземпляры[`ResourceUsageViewField`](../../resourceusageviewfield) учебный класс.
 
 ### Смотрите также
 

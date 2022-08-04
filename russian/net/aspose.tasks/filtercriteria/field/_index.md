@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задаетFieldaspose.tasks/filtercriteria/fieldдля изменения.
+description: Получает или задаетFieldaspose.tasks/filtercriteria/field изменить.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/filtercriteria/field/
 ---
 ## FilterCriteria.Field property
 
-Получает или задает`Field`для изменения.
+Получает или задает`Field` изменить.
 
 ```csharp
 public Field Field { get; set; }

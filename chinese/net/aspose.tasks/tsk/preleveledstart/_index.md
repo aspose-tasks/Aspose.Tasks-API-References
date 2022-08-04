@@ -1,14 +1,14 @@
 ---
 title: PreleveledStart
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源调配完成前的任务开始日期
+description: 资源调配完成之前的任务开始日期
 type: docs
 weight: 930
 url: /zh/net/aspose.tasks/tsk/preleveledstart/
 ---
 ## Tsk.PreleveledStart field
 
-资源调配完成前的任务开始日期。
+资源调配完成之前的任务开始日期。
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> PreleveledStart;

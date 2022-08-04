@@ -1,14 +1,14 @@
 ---
 title: UndefinedConstraintHandlingBehavior
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Задает поведение используемое для обработки задач с неопределенными ограничениями.
+description: Определяет поведение используемое для обработки задач с неопределенными ограничениями.
 type: docs
 weight: 2300
 url: /ru/net/aspose.tasks/undefinedconstrainthandlingbehavior/
 ---
 ## UndefinedConstraintHandlingBehavior enumeration
 
-Задает поведение, используемое для обработки задач с неопределенными ограничениями.
+Определяет поведение, используемое для обработки задач с неопределенными ограничениями.
 
 ```csharp
 public enum UndefinedConstraintHandlingBehavior
@@ -19,7 +19,7 @@ public enum UndefinedConstraintHandlingBehavior
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Поведение по умолчанию для загрузки из формата XER. Никаких действий не предпринимается. Тип ограничения задачи установлен на «ConstraintType.Undefined». |
-| SubstituteWithStartNoEarlierThan | `1` | Для задач с ограничением Undefined добавлены ограничения с типом 'ConstraintType.StartNoEarlierThan' и date = Start. |
+| SubstituteWithStartNoEarlierThan | `1` | Ограничения с типом ConstraintType.StartNoEarlierThan и датой = Начало добавляются для задач с ограничением Undefined. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: LastPrinted
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Последнее время печати проекта.  Сохраняется в формате UTC в файлах mpp. DateTimeтип.
+description: Время последней печати проекта.  Сохранено в формате UTC в файлах mpp. DateTime тип.
 type: docs
 weight: 420
 url: /ru/net/aspose.tasks/prj/lastprinted/
 ---
 ## Prj.LastPrinted field
 
-Последнее время печати проекта.  Сохраняется в формате UTC в файлах mpp. DateTimeтип.
+Время последней печати проекта.  Сохранено в формате UTC в файлах mpp. DateTime тип.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> LastPrinted;

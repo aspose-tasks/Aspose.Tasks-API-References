@@ -1,14 +1,14 @@
 ---
 title: ActivityId
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет поле идентификатора активности - уникальный идентификатор задачи используемый Primavera. применимо только к проектам Primavera.
+description: Представляет поле идентификатора действия  уникальный идентификатор задачи используемый Primavera. применимо только к проектам Primavera.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/tsk/activityid/
 ---
 ## Tsk.ActivityId field
 
-Представляет поле идентификатора активности - уникальный идентификатор задачи, используемый Primavera. (применимо только к проектам Primavera).
+Представляет поле идентификатора действия — уникальный идентификатор задачи, используемый Primavera. (применимо только к проектам Primavera).
 
 ```csharp
 public static readonly Key<string, TaskKey> ActivityId;

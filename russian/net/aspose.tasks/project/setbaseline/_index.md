@@ -16,7 +16,7 @@ public void SetBaseline(BaselineType baselineType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baselineType | BaselineType | Базовый тип для сохранения базовых данных. |
+| baselineType | BaselineType | Тип базового плана для сохранения базовых данных. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollect
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baselineType | BaselineType | Базовый тип для сохранения базовых данных. |
+| baselineType | BaselineType | Тип базового плана для сохранения базовых данных. |
 | taskCollection | IEnumerable`1 | Список задач, для которых необходимо сохранить исходные данные. |
 
 ### Смотрите также

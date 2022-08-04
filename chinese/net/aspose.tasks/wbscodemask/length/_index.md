@@ -1,14 +1,14 @@
 ---
 title: Length
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置代码串的字符数
+description: 获取或设置码串的字符数
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/wbscodemask/length/
 ---
 ## WBSCodeMask.Length property
 
-获取或设置代码串的字符数。
+获取或设置码串的字符数。
 
 ```csharp
 public byte Length { get; set; }

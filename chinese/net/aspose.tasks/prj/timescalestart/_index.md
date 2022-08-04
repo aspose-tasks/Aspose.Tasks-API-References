@@ -1,14 +1,14 @@
 ---
 title: TimescaleStart
 second_title: Aspose.Tasks for .NET API 参考
-description: 视图中时间刻度的开始日期
+description: 视图中时间刻度开始的日期
 type: docs
 weight: 730
 url: /zh/net/aspose.tasks/prj/timescalestart/
 ---
 ## Prj.TimescaleStart field
 
-视图中时间刻度的开始日期。
+视图中时间刻度开始的日期。
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> TimescaleStart;

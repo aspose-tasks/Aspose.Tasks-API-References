@@ -1,14 +1,14 @@
 ---
 title: Apply
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Применяет заданный алгоритм к каждой задаче дерева.
+description: Применяет указанный алгоритм к каждой задаче дерева.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/taskutils/apply/
 ---
 ## TaskUtils.Apply method
 
-Применяет заданный алгоритм к каждой задаче дерева.
+Применяет указанный алгоритм к каждой задаче дерева.
 
 ```csharp
 public static void Apply(Task root, ITreeAlgorithm<Task> alg, int level)
@@ -17,8 +17,8 @@ public static void Apply(Task root, ITreeAlgorithm<Task> alg, int level)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | root | Task | Корень дерева |
-| alg | ITreeAlgorithm`1 | Примененный алгоритм. |
-| level | Int32 | Уровень корневой задачи. |
+| alg | ITreeAlgorithm`1 | Прикладной алгоритм. |
+| level | Int32 | Уровень основной задачи. |
 
 ### Смотрите также
 

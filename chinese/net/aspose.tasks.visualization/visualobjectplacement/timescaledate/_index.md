@@ -1,14 +1,14 @@
 ---
 title: TimescaleDate
 second_title: Aspose.Tasks for .NET API 参考
-description: 选择附加到时间刻度选项时获取或设置可视对象的日期位置
+description: 在选择附加到时间刻度选项时获取或设置可视对象的日期位置
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/timescaledate/
 ---
 ## VisualObjectPlacement.TimescaleDate property
 
-选择“附加到时间刻度”选项时获取或设置可视对象的日期位置。
+在选择“附加到时间刻度”选项时获取或设置可视对象的日期位置。
 
 ```csharp
 public DateTime TimescaleDate { get; set; }

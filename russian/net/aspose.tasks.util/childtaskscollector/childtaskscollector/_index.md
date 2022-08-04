@@ -1,14 +1,14 @@
 ---
 title: ChildTasksCollector
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаChildTasksCollectoraspose.tasks.util/childtaskscollector.
+description: Инициализирует новый экземплярChildTasksCollectoraspose.tasks.util/childtaskscollector класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/childtaskscollector/childtaskscollector/
 ---
 ## ChildTasksCollector constructor
 
-Инициализирует новый экземпляр класса[`ChildTasksCollector`](../../childtaskscollector).
+Инициализирует новый экземпляр[`ChildTasksCollector`](../../childtaskscollector) класс.
 
 ```csharp
 public ChildTasksCollector()

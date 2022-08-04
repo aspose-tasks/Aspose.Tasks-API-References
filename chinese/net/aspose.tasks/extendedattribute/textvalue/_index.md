@@ -1,14 +1,14 @@
 ---
 title: TextValue
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置 Text 类型的属性的值
+description: 获取或设置文本类型的属性值
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/extendedattribute/textvalue/
 ---
 ## ExtendedAttribute.TextValue property
 
-获取或设置 'Text' 类型的属性的值。
+获取或设置“文本”类型的属性值。
 
 ```csharp
 public string TextValue { get; set; }
@@ -18,7 +18,7 @@ public string TextValue { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性则抛出未初始化或当前属性不是文本属性。 |
+| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性未初始化或当前属性不是文本属性。 |
 
 ### 也可以看看
 

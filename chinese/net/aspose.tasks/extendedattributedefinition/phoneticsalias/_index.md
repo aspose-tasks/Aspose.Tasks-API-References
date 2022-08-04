@@ -1,14 +1,14 @@
 ---
 title: PhoneticsAlias
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置自定义字段别名的拼音
+description: 获取或设置自定义字段别名的拼音发音
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/extendedattributedefinition/phoneticsalias/
 ---
 ## ExtendedAttributeDefinition.PhoneticsAlias property
 
-获取或设置自定义字段别名的拼音。
+获取或设置自定义字段别名的拼音发音。
 
 ```csharp
 public string PhoneticsAlias { get; set; }

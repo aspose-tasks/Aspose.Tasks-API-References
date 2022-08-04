@@ -1,14 +1,14 @@
 ---
 title: TableFieldCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Содержит список объектовTableField./tablefield. Реализует IListltTableFieldgt интерфейс.
+description: Содержит списокTableField./tablefield objects. Реализует интерфейс IListltTableFieldgt.
 type: docs
 weight: 2050
 url: /ru/net/aspose.tasks/tablefieldcollection/
 ---
 ## TableFieldCollection class
 
-Содержит список объектов[`TableField`](../tablefield). Реализует IList&lt;TableField&gt; интерфейс.
+Содержит список[`TableField`](../tablefield) objects. Реализует интерфейс IList&lt;TableField&gt;.
 
 ```csharp
 public class TableFieldCollection : IList<TableField>
@@ -19,9 +19,9 @@ public class TableFieldCollection : IList<TableField>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/tablefieldcollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/tablefieldcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/tablefieldcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks/tablefieldcollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
-| [ParentProject](../../aspose.tasks/tablefieldcollection/parentproject) { get; } | Получает родителя объекта TableFields. Только чтение[`Project`](../project). |
+| [ParentProject](../../aspose.tasks/tablefieldcollection/parentproject) { get; } | Получает родителя объекта TableFields. Только для чтения[`Project`](../project) . |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public class TableFieldCollection : IList<TableField>
 | --- | --- |
 | [Add](../../aspose.tasks/tablefieldcollection/add)(TableField) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/tablefieldcollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/tablefieldcollection/contains)(TableField) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/tablefieldcollection/contains)(TableField) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/tablefieldcollection/copyto)(TableField[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/tablefieldcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/tablefieldcollection/indexof)(TableField) | Определяет индекс указанного элемента в этой коллекции. |

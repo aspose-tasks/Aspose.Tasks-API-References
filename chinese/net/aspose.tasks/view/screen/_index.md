@@ -1,14 +1,14 @@
 ---
 title: Screen
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取单个视图的屏幕类型 只读ViewScreenaspose.tasks/viewscreen
+description: 获取单个视图的屏幕类型 只读ViewScreenaspose.tasks/viewscreen.
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/view/screen/
 ---
 ## View.Screen property
 
-获取单个视图的屏幕类型。 只读[`ViewScreen`](../../viewscreen)。
+获取单个视图的屏幕类型。 只读[`ViewScreen`](../../viewscreen).
 
 ```csharp
 public ViewScreen Screen { get; }

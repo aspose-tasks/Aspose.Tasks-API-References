@@ -1,14 +1,14 @@
 ---
 title: AssignmentView
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает список столбцов представления назначений для отображения AssignmentViewColumnaspose.tasks.visualization/assignmentviewcolumn.
+description: Получает или задает список столбцов представления назначений для отображения AssignmentViewColumnaspose.tasks.visualization/assignmentviewcolumn .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.saving/spreadsheet2003saveoptions/assignmentview/
 ---
 ## Spreadsheet2003SaveOptions.AssignmentView property
 
-Получает или задает список столбцов представления назначений для отображения ([`AssignmentViewColumn`](../../../aspose.tasks.visualization/assignmentviewcolumn)).
+Получает или задает список столбцов представления назначений для отображения ([`AssignmentViewColumn`](../../../aspose.tasks.visualization/assignmentviewcolumn) ).
 
 ```csharp
 public ProjectView AssignmentView { get; set; }

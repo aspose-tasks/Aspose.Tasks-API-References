@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置网格线的Coloraspose.tasks.visualization/gridline/color
+description: 获取或设置Coloraspose.tasks.visualization/gridline/color网格线的.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/gridline/color/
 ---
 ## Gridline.Color property
 
-获取或设置网格线的`Color`。
+获取或设置`Color`网格线的.
 
 ```csharp
 public Color Color { get; set; }

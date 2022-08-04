@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Aspose.Tasks for .NET API 参考
-description: 将TimephasedDataaspose.tasks/timephaseddata实例的集合添加到此集合对象
+description: 添加一个集合TimephasedDataaspose.tasks/timephaseddata此集合对象的实例
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/timephaseddatacollection/addrange/
 ---
 ## TimephasedDataCollection.AddRange method
 
-将[`TimephasedData`](../../timephaseddata)实例的集合添加到此集合对象。
+添加一个集合[`TimephasedData`](../../timephaseddata)此集合对象的实例。
 
 ```csharp
 public void AddRange(IEnumerable<TimephasedData> timephasedCollection)
@@ -16,7 +16,7 @@ public void AddRange(IEnumerable<TimephasedData> timephasedCollection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| timephasedCollection | IEnumerable`1 | [`TimephasedData`](../../timephaseddata)要添加的对象的集合。 |
+| timephasedCollection | IEnumerable`1 | 一个集合[`TimephasedData`](../../timephaseddata)要添加的对象。 |
 
 ### 也可以看看
 

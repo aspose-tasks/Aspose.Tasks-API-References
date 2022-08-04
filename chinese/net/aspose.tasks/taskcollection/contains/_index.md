@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API 参考
-description: 检查集合是否包含指定项目
+description: 检查集合是否包含指定的项目
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/taskcollection/contains/
 ---
 ## TaskCollection.Contains method
 
-检查集合是否包含指定项目。
+检查集合是否包含指定的项目。
 
 ```csharp
 public bool Contains(Task item)

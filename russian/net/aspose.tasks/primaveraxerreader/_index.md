@@ -1,14 +1,14 @@
 ---
 title: PrimaveraXerReader
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет средство чтения для чтения UID проекта из файла Primavera XER
+description: Представляет считыватель для чтения UID проекта из файла Primavera XER
 type: docs
 weight: 1130
 url: /ru/net/aspose.tasks/primaveraxerreader/
 ---
 ## PrimaveraXerReader class
 
-Представляет средство чтения для чтения UID проекта из файла Primavera XER
+Представляет считыватель для чтения UID проекта из файла Primavera XER
 
 ```csharp
 public class PrimaveraXerReader
@@ -18,8 +18,8 @@ public class PrimaveraXerReader
 
 | Имя | Описание |
 | --- | --- |
-| [PrimaveraXerReader](primaveraxerreader#constructor)(Stream) | Инициализирует новый экземпляр класса[`PrimaveraXerReader`](../primaveraxerreader). |
-| [PrimaveraXerReader](primaveraxerreader#constructor_1)(string) | Инициализирует новый экземпляр класса[`PrimaveraXerReader`](../primaveraxerreader). |
+| [PrimaveraXerReader](primaveraxerreader#constructor)(Stream) | Инициализирует новый экземпляр[`PrimaveraXerReader`](../primaveraxerreader) класс. |
+| [PrimaveraXerReader](primaveraxerreader#constructor_1)(string) | Инициализирует новый экземпляр[`PrimaveraXerReader`](../primaveraxerreader) класс. |
 
 ## Методы
 

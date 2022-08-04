@@ -1,14 +1,14 @@
 ---
 title: AndAllConditionT
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Применяет логическое И ко всем условиям. Напримерcond1 И cond2 И cond3...
+description: Применяет логическое И ко всем условиям. Например cond1 AND cond2 AND cond3...
 type: docs
 weight: 2320
 url: /ru/net/aspose.tasks.util/andallcondition-1/
 ---
 ## AndAllCondition&lt;T&gt; class
 
-Применяет логическое И ко всем условиям. Например:cond1 И cond2 И cond3...
+Применяет логическое И ко всем условиям. Например: cond1 AND cond2 AND cond3...
 
 ```csharp
 public class AndAllCondition<T> : ICondition<T>
@@ -16,13 +16,13 @@ public class AndAllCondition<T> : ICondition<T>
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип объекта, к которому применяется метод интерфейс к. |
+| T | Тип объекта, к которому применяется интерфейс метода. |
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [AndAllCondition](andallcondition)(List&lt;ICondition&lt;T&gt;&gt;) | Инициализирует новый экземпляр класса[`AndAllCondition`](../andallcondition-1). |
+| [AndAllCondition](andallcondition)(List&lt;ICondition&lt;T&gt;&gt;) | Инициализирует новый экземпляр[`AndAllCondition`](../andallcondition-1) учебный класс. |
 
 ## Методы
 

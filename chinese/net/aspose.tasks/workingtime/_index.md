@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示工作日的工作时间
 type: docs
-weight: 3270
+weight: 3280
 url: /zh/net/aspose.tasks/workingtime/
 ---
 ## WorkingTime class
@@ -18,9 +18,9 @@ public class WorkingTime
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WorkingTime](workingtime#constructor_2)(DateTime, DateTime) | 初始化[`WorkingTime`](../workingtime)类的新实例，其间隔具有指定的开始和结束时间。 |
-| [WorkingTime](workingtime#constructor_1)(int, int) | 使用具有指定开始和结束时间的间隔项初始化[`WorkingTime`](../workingtime)类的新实例。 |
-| [WorkingTime](workingtime#constructor_3)(TimeSpan, TimeSpan) | 使用具有指定开始和结束时间的间隔项初始化[`WorkingTime`](../workingtime)类的新实例。 |
+| [WorkingTime](workingtime#constructor_2)(DateTime, DateTime) | 初始化[`WorkingTime`](../workingtime)具有指定开始和结束时间间隔的类。 |
+| [WorkingTime](workingtime#constructor_1)(int, int) | 初始化[`WorkingTime`](../workingtime)具有指定开始和结束时间的间隔项的类。 |
+| [WorkingTime](workingtime#constructor_3)(TimeSpan, TimeSpan) | 初始化[`WorkingTime`](../workingtime)具有指定开始和结束时间的间隔项的类。 |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public class WorkingTime
 | 姓名 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.tasks/workingtime/equals)(object) | 检查对象是否相等。 |
-| override [GetHashCode](../../aspose.tasks/workingtime/gethashcode)() | 返回[`WorkingTime`](../workingtime)类实例的哈希码值。 |
+| override [GetHashCode](../../aspose.tasks/workingtime/gethashcode)() | 返回实例的哈希码值[`WorkingTime`](../workingtime)类. |
 
 ### 也可以看看
 

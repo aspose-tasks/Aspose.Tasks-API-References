@@ -18,7 +18,7 @@ public enum ResourceExportType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoExport | `0` | 没有导出。 |
+| NoExport | `0` | 没有出口。 |
 | AsFile | `1` | 导出为文件。 |
 | AsEmbedded | `2` | 导出为嵌入资源。 |
 

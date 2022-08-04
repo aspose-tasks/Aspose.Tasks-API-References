@@ -3,7 +3,7 @@ title: TaskBarTextConverter
 second_title: Aspose.Tasks for .NET API 参考
 description: 任务数据到条形文本的自定义转换器
 type: docs
-weight: 3000
+weight: 3010
 url: /zh/net/aspose.tasks.visualization/taskbartextconverter/
 ---
 ## TaskBarTextConverter delegate

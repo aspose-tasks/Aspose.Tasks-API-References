@@ -18,9 +18,9 @@ public enum SummaryRowsCalculationType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示不计算汇总行的自定义属性值。 |
-| Rollup | `1` | 表示汇总行的自定义属性值是使用[`RollupType`](../extendedattributedefinition/rolluptype)中定义的汇总函数计算的。 |
-| UseFormula | `2` | 表示汇总行的自定义属性值是使用[`Formula`](../extendedattributedefinition/formula)中定义的公式计算的。 |
+| None | `0` | 表示未计算汇总行的自定义属性值。 |
+| Rollup | `1` | 表示汇总行的自定义属性值是使用定义在[`RollupType`](../extendedattributedefinition/rolluptype). |
+| UseFormula | `2` | 表示汇总行的自定义属性值是使用定义的公式计算的[`Formula`](../extendedattributedefinition/formula). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OutlineCodes
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置OutlineCodeCollectionaspose.tasks/outlinecodecollection对象
+description: 获取或设置OutlineCodeCollectionaspose.tasks/outlinecodecollection对象.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/task/outlinecodes/
 ---
 ## Task.OutlineCodes property
 
-获取或设置[`OutlineCodeCollection`](../../outlinecodecollection)对象。
+获取或设置[`OutlineCodeCollection`](../../outlinecodecollection)对象.
 
 ```csharp
 public OutlineCodeCollection OutlineCodes { get; set; }
@@ -16,7 +16,7 @@ public OutlineCodeCollection OutlineCodes { get; set; }
 
 ### 评论
 
-需要两条数据 - 指向大纲 代码的指针由 FieldID 指定的表，以及由指向值列表的 ValueID 或 ValueGUID 指针指定的值 。
+需要两条数据 - 指向由 FieldID 指定的 outline 代码表的指针，以及由指向值列表的 ValueID 或 ValueGUID 指针指定的 value 。
 
 ### 也可以看看
 

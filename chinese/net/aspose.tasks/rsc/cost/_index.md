@@ -1,14 +1,14 @@
 ---
 title: Cost
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源的计划或预计总成本基于分配给任务的资源执行的工作已经发生的成本以及剩余工作的计划成本.
+description: 资源的计划或预计总成本基于分配给任务的资源执行的工时已经产生的成本以及剩余工时的计划成本
 type: docs
 weight: 220
 url: /zh/net/aspose.tasks/rsc/cost/
 ---
 ## Rsc.Cost field
 
-资源的计划或预计总成本，基于分配给任务的资源执行的工作已经发生的成本，以及剩余工作的计划成本.
+资源的计划或预计总成本，基于分配给任务的资源执行的工时已经产生的成本，以及剩余工时的计划成本。
 
 ```csharp
 public static readonly Key<decimal, RscKey> Cost;

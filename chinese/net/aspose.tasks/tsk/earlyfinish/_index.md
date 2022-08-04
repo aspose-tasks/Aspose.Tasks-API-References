@@ -1,14 +1,14 @@
 ---
 title: EarlyFinish
 second_title: Aspose.Tasks for .NET API 参考
-description: 任务可能完成的最早日期基于前任和后继任务的提前完成日期其他约束和任何升级延迟
+description: 任务可能完成的最早日期基于前任和后续任务的提前完成日期其他限制和任何升级延迟
 type: docs
 weight: 340
 url: /zh/net/aspose.tasks/tsk/earlyfinish/
 ---
 ## Tsk.EarlyFinish field
 
-任务可能完成的最早日期，基于前任和后继任务的提前完成日期、其他约束和任何升级延迟。
+任务可能完成的最早日期，基于前任和后续任务的提前完成日期、其他限制和任何升级延迟。
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> EarlyFinish;

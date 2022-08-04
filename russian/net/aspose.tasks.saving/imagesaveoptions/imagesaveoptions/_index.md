@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаImageSaveOptionsaspose.tasks.saving/imagesaveoptions который можно использовать для сохранения обработанных изображений в формате TIFF Форматы PNG BMP или JPEG.
+description: Инициализирует новый экземплярImageSaveOptionsaspose.tasks.saving/imagesaveoptions класс который можно использовать для сохранения обработанных изображений в форматах TIFF PNG BMP или JPEG.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`ImageSaveOptions`](../../imagesaveoptions), который можно использовать для сохранения обработанных изображений в формате TIFF, Форматы PNG, BMP или JPEG.
+Инициализирует новый экземпляр[`ImageSaveOptions`](../../imagesaveoptions) класс, который можно использовать для сохранения обработанных изображений в форматах TIFF, PNG, BMP или JPEG.
 
 ```csharp
 public ImageSaveOptions(SaveFileFormat saveFormat)
@@ -22,7 +22,7 @@ public ImageSaveOptions(SaveFileFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Выброшен из*saveFormat*недопустимый формат изображения. Допустимые значения:TIFF, PNG, BMP или JPEG. |
+| ArgumentException | Брошенный из*saveFormat* не является допустимым форматом изображения. Допустимые значения: TIFF, PNG, BMP или JPEG. |
 
 ### Смотрите также
 

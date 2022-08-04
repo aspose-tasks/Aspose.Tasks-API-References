@@ -1,14 +1,14 @@
 ---
 title: CompilationArguments
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает аргументы условной компиляции
+description: Получает условные аргументы компиляции
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/vbaproject/compilationarguments/
 ---
 ## VbaProject.CompilationArguments property
 
-Получает аргументы условной компиляции
+Получает условные аргументы компиляции
 
 ```csharp
 public string CompilationArguments { get; }

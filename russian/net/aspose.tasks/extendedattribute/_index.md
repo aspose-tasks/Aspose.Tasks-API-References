@@ -20,14 +20,14 @@ public class ExtendedAttribute
 | --- | --- |
 | [AttributeDefinition](../../aspose.tasks/extendedattribute/attributedefinition) { get; } | Получает определение атрибута. |
 | [DateValue](../../aspose.tasks/extendedattribute/datevalue) { get; set; } | Получает или задает значение для атрибутов с типами дат (Дата, Начало, Окончание). |
-| [DurationValue](../../aspose.tasks/extendedattribute/durationvalue) { get; set; } | Получает или устанавливает значение для атрибутов с типом «Длительность». |
+| [DurationValue](../../aspose.tasks/extendedattribute/durationvalue) { get; set; } | Получает или задает значение для атрибутов с типом «Длительность». |
 | [FieldId](../../aspose.tasks/extendedattribute/fieldid) { get; } | Получает идентификатор поля. |
-| [FlagValue](../../aspose.tasks/extendedattribute/flagvalue) { get; set; } | Получает или задает значение, указывающее, установлен ли флаг для атрибута с типом «Флаг». |
-| [IsErrorValue](../../aspose.tasks/extendedattribute/iserrorvalue) { get; } | Возвращает, привело ли вычисление значения расширенного атрибута к ошибке. |
+| [FlagValue](../../aspose.tasks/extendedattribute/flagvalue) { get; set; } | Получает или задает значение, указывающее, установлен ли флаг для атрибута с типом 'Flag'. |
+| [IsErrorValue](../../aspose.tasks/extendedattribute/iserrorvalue) { get; } | Получает, привело ли вычисление значения расширенного атрибута к ошибке. |
 | [NumericValue](../../aspose.tasks/extendedattribute/numericvalue) { get; set; } | Получает или задает значение для атрибутов с числовыми типами (Cost, Number). |
 | [TextValue](../../aspose.tasks/extendedattribute/textvalue) { get; set; } | Получает или задает значение для атрибутов с типом «Текст». |
-| [ValueGuid](../../aspose.tasks/extendedattribute/valueguid) { get; } | Получает GUID искомого значения. |
-| [ValueReadOnly](../../aspose.tasks/extendedattribute/valuereadonly) { get; } | Получает значение, указывающее, доступно ли значение этого экземпляра[`ExtendedAttribute`](../extendedattribute)только для чтения.  возвращает значение true, если в[`ExtendedAttributeDefinition`](../extendedattributedefinition)для этого объекта определена формула или сводка. |
+| [ValueGuid](../../aspose.tasks/extendedattribute/valueguid) { get; } | Получает идентификатор искомого значения. |
+| [ValueReadOnly](../../aspose.tasks/extendedattribute/valuereadonly) { get; } | Получает значение, указывающее, является ли значение этого[`ExtendedAttribute`](../extendedattribute) экземпляр доступен только для чтения.  возвращает true, если формула или сводка определены в[`ExtendedAttributeDefinition`](../extendedattributedefinition) для этого объекта. |
 
 ## Методы
 

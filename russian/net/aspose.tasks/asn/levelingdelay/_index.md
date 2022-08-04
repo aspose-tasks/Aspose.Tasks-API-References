@@ -1,14 +1,14 @@
 ---
 title: LevelingDelay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Задержка вызванная прокачкой.
+description: Задержка вызванная выравниванием.
 type: docs
 weight: 310
 url: /ru/net/aspose.tasks/asn/levelingdelay/
 ---
 ## Asn.LevelingDelay field
 
-Задержка, вызванная прокачкой.
+Задержка, вызванная выравниванием.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> LevelingDelay;

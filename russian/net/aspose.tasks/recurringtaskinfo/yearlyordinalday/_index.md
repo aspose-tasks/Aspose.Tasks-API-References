@@ -1,14 +1,14 @@
 ---
 title: YearlyOrdinalDay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает день недели шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значений перечисленияDayOfWeek.
+description: Получает или задает день недели шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значенийDayOfWeek перечисление.
 type: docs
 weight: 190
 url: /ru/net/aspose.tasks/recurringtaskinfo/yearlyordinalday/
 ---
 ## RecurringTaskInfo.YearlyOrdinalDay property
 
-Получает или задает день недели шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значений перечисленияDayOfWeek.
+Получает или задает день недели шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значенийDayOfWeek перечисление.
 
 ```csharp
 public DayOfWeek YearlyOrdinalDay { get; set; }

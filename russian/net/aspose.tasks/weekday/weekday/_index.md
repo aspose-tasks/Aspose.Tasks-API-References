@@ -1,14 +1,14 @@
 ---
 title: WeekDay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаWeekDayaspose.tasks/weekdayс указанным типом дня.
+description: Инициализирует новый экземплярWeekDayaspose.tasks/weekday класс с указанным типом дня.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/weekday/weekday/
 ---
 ## WeekDay(DayType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WeekDay`](../../weekday)с указанным типом дня.
+Инициализирует новый экземпляр[`WeekDay`](../../weekday) класс с указанным типом дня.
 
 ```csharp
 public WeekDay(DayType dayType)
@@ -29,7 +29,7 @@ public WeekDay(DayType dayType)
 
 ## WeekDay(DayType, IEnumerable&lt;WorkingTime&gt;) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`WeekDay`](../../weekday)с указанным типом дня и списком периодов рабочего времени.
+Инициализирует новый экземпляр[`WeekDay`](../../weekday) класс с указанным типом дня и списком периодов рабочего времени.
 
 ```csharp
 public WeekDay(DayType dayType, IEnumerable<WorkingTime> workingTimes)
@@ -52,7 +52,7 @@ public WeekDay(DayType dayType, IEnumerable<WorkingTime> workingTimes)
 
 ## WeekDay() {#constructor}
 
-Инициализирует новый экземпляр класса[`WeekDay`](../../weekday).
+Инициализирует новый экземпляр[`WeekDay`](../../weekday) класс.
 
 ```csharp
 public WeekDay()

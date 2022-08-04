@@ -1,14 +1,14 @@
 ---
 title: RemoveLookupValue
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет значение из внутреннего списка поиска. Это предпочтительный способ для манипуляций сValueListaspose.tasks/extendedattributedefinition/valuelist.
+description: Удаляет значение из внутреннего списка поиска. Это предпочтительный способ для манипуляций сValueListaspose.tasks/extendedattributedefinition/valuelist .
 type: docs
 weight: 330
 url: /ru/net/aspose.tasks/extendedattributedefinition/removelookupvalue/
 ---
 ## ExtendedAttributeDefinition.RemoveLookupValue method
 
-Удаляет значение из внутреннего списка поиска. Это предпочтительный способ для манипуляций с[`ValueList`](../valuelist).
+Удаляет значение из внутреннего списка поиска. Это предпочтительный способ для манипуляций с[`ValueList`](../valuelist) .
 
 ```csharp
 public void RemoveLookupValue(Value value)
@@ -20,7 +20,7 @@ public void RemoveLookupValue(Value value)
 
 ### Примечания
 
-Этот метод работает только для[`ExtendedAttributeDefinition`](../../extendedattributedefinition)экземпляров которые имеют[`CalculationType`](../calculationtype)равноLookup.
+Этот метод работает только для[`ExtendedAttributeDefinition`](../../extendedattributedefinition) instances , которые имеют[`CalculationType`](../calculationtype) равноLookup .
 
 ### Смотрите также
 

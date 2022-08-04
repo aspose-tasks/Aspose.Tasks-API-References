@@ -1,14 +1,14 @@
 ---
 title: ViewSettings
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要渲染的视图Viewaspose.tasks.saving/saveoptions/view您可以使用此选项明确指定应将哪个视图保存为 PDFHTML 或图像格式 如果设置了此属性则保存项目时将忽略PresentationFormataspose.tasks.visualization/presentationformat属性 视图应来自以下屏幕之一Screenaspose.tasks/view/screen甘特图TaskSheetTaskUsageResourceSheetResourceUsage
+description: 获取或设置视图 Viewaspose.tasks.saving/saveoptions/view 渲染您可以使用此选项明确指定应将哪个视图保存为 PDFHTML 或图像格式 如果设置了此属性PresentationFormataspose.tasks.visualization/presentationformat保存项目时忽略属性 视图应来自以下屏幕之一Screenaspose.tasks/view/screen  甘特图TaskSheetTaskUsageResourceSheetResourceUsage
 type: docs
 weight: 230
 url: /zh/net/aspose.tasks.saving/saveoptions/viewsettings/
 ---
 ## SaveOptions.ViewSettings property
 
-获取或设置要渲染的视图（[`View`](../view)）。您可以使用此选项明确指定应将哪个视图保存为 PDF、HTML 或图像格式。 如果设置了此属性，则保存项目时将忽略[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)属性。 视图应来自以下屏幕之一（（[`Screen`](../../../aspose.tasks/view/screen)））:（甘特图，TaskSheet，TaskUsage，ResourceSheet，ResourceUsage）
+获取或设置视图 ([`View`](../view)） 渲染。您可以使用此选项明确指定应将哪个视图保存为 PDF、HTML 或图像格式。 如果设置了此属性，[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)保存项目时忽略属性。 视图应来自以下屏幕之一（（[`Screen`](../../../aspose.tasks/view/screen) )): (甘特图、TaskSheet、TaskUsage、ResourceSheet、ResourceUsage)
 
 ```csharp
 public View ViewSettings { get; set; }

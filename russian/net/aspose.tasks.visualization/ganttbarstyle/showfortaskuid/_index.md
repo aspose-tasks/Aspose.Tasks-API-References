@@ -1,14 +1,14 @@
 ---
 title: ShowForTaskUid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает уникальный идентификатор задачи для которой применяется стиль. Применяется для стилей столбцов диаграммы Ганта для конкретных задач см.CustomBarStylesaspose.tasks/ganttchartview/custombarstyles.
+description: Получает или задает уникальный идентификатор задачи для которой применяется стиль. Применяется для стилей столбцов диаграммы Ганта для конкретных задач см.CustomBarStylesaspose.tasks/ganttchartview/custombarstyles .
 type: docs
 weight: 210
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/showfortaskuid/
 ---
 ## GanttBarStyle.ShowForTaskUid property
 
-Получает или задает уникальный идентификатор задачи, для которой применяется стиль. Применяется для стилей столбцов диаграммы Ганта для конкретных задач (см.[`CustomBarStyles`](../../../aspose.tasks/ganttchartview/custombarstyles)).
+Получает или задает уникальный идентификатор задачи, для которой применяется стиль. Применяется для стилей столбцов диаграммы Ганта для конкретных задач (см.[`CustomBarStyles`](../../../aspose.tasks/ganttchartview/custombarstyles) ).
 
 ```csharp
 public int? ShowForTaskUid { get; set; }

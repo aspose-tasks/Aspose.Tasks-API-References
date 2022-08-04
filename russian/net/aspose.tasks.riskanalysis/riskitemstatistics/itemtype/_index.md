@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр перечисленияRiskItemTypeaspose.tasks.riskanalysis/riskitemtype.
+description: Получает экземплярRiskItemTypeaspose.tasks.riskanalysis/riskitemtype перечисление.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.riskanalysis/riskitemstatistics/itemtype/
 ---
 ## RiskItemStatistics.ItemType property
 
-Получает экземпляр перечисления[`RiskItemType`](../../riskitemtype).
+Получает экземпляр[`RiskItemType`](../../riskitemtype) перечисление.
 
 ```csharp
 public RiskItemType ItemType { get; }

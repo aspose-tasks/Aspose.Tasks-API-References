@@ -1,14 +1,14 @@
 ---
 title: GetWorkingTimes
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ВозвращаетWorkingTimeCollectionaspose.tasks/workingtimecollectionрабочего времени.
+description: ВозвращаетWorkingTimeCollectionaspose.tasks/workingtimecollection рабочего времени.
 type: docs
 weight: 220
 url: /ru/net/aspose.tasks/calendar/getworkingtimes/
 ---
 ## Calendar.GetWorkingTimes method
 
-Возвращает[`WorkingTimeCollection`](../../workingtimecollection)рабочего времени.
+Возвращает[`WorkingTimeCollection`](../../workingtimecollection) рабочего времени.
 
 ```csharp
 public WorkingTimeCollection GetWorkingTimes(DateTime dt)
@@ -16,7 +16,7 @@ public WorkingTimeCollection GetWorkingTimes(DateTime dt)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dt | DateTime | Дата, для которой нужно получить рабочее время. |
+| dt | DateTime | Дата, для которой необходимо получить рабочее время. |
 
 ### Возвращаемое значение
 

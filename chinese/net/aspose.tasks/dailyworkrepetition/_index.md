@@ -18,7 +18,7 @@ public class DailyWorkRepetition : DailyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DailyWorkRepetition](dailyworkrepetition)() | 初始化[`DailyWorkRepetition`](../dailyworkrepetition)类的新实例。 |
+| [DailyWorkRepetition](dailyworkrepetition)() | 初始化[`DailyWorkRepetition`](../dailyworkrepetition)类. |
 
 ## 特性
 

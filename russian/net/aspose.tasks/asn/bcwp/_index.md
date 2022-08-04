@@ -1,14 +1,14 @@
 ---
 title: BCWP
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Бюджетная стоимость работ выполненных по назначению на сегодняшний день.
+description: Сметная стоимость работ выполненных по заданию на сегодняшний день.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/asn/bcwp/
 ---
 ## Asn.BCWP field
 
-Бюджетная стоимость работ, выполненных по назначению на сегодняшний день.
+Сметная стоимость работ, выполненных по заданию на сегодняшний день.
 
 ```csharp
 public static readonly Key<double, AsnKey> BCWP;

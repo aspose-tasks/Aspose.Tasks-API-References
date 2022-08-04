@@ -1,14 +1,14 @@
 ---
 title: PagesInHeight
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает количество страниц в высоту для печати.
+description: Получает или задает количество печатаемых страниц в высоту.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/pagesettings/pagesinheight/
 ---
 ## PageSettings.PagesInHeight property
 
-Получает или задает количество страниц в высоту для печати.
+Получает или задает количество печатаемых страниц в высоту.
 
 ```csharp
 public int PagesInHeight { get; set; }

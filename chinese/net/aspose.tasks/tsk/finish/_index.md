@@ -1,14 +1,14 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API 参考
-description: 任务的计划完成日期
+description: 任务的预定完成日期
 type: docs
 weight: 390
 url: /zh/net/aspose.tasks/tsk/finish/
 ---
 ## Tsk.Finish field
 
-任务的计划完成日期。
+任务的预定完成日期。
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> Finish;

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将视图集合转换为Viewaspose.tasks/view对象列表
+description: 将视图集合转换为列表Viewaspose.tasks/view对象.
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/viewcollection/tolist/
 ---
 ## ViewCollection.ToList method
 
-将视图集合转换为[`View`](../../view)对象列表。
+将视图集合转换为列表[`View`](../../view)对象.
 
 ```csharp
 public List<View> ToList()
@@ -16,7 +16,7 @@ public List<View> ToList()
 
 ### 返回值
 
-[`View`](../../view)对象的通用列表。
+通用列表[`View`](../../view)对象。
 
 ### 也可以看看
 

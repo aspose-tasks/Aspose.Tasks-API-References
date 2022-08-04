@@ -1,14 +1,14 @@
 ---
 title: Not
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化Notaspose.tasks.util/not-1类的新实例
+description: 初始化Notaspose.tasks.util/not-1类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.util/not-1/not/
 ---
 ## Not&lt;T&gt; constructor
 
-初始化[`Not`](../../not-1)类的新实例。
+初始化[`Not`](../../not-1)类.
 
 ```csharp
 public Not(ICondition<T> condition)
@@ -16,7 +16,7 @@ public Not(ICondition<T> condition)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| condition | ICondition`1 | 指定条件。 |
+| condition | ICondition`1 | 规定的条件。 |
 
 ### 也可以看看
 

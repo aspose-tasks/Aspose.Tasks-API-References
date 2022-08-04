@@ -1,14 +1,14 @@
 ---
 title: RateByDateCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示DateTime到Rate./rate映射的集合对象
+description: 表示一个集合其中的映射DateTime至Rate./rate对象.
 type: docs
 weight: 1360
 url: /zh/net/aspose.tasks/ratebydatecollection/
 ---
 ## RateByDateCollection class
 
-表示DateTime到[`Rate`](../rate)映射的集合对象。
+表示一个集合，其中的映射DateTime至[`Rate`](../rate)对象.
 
 ```csharp
 public class RateByDateCollection : SortedDictionary<DateTime, Rate>

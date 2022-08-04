@@ -3,7 +3,7 @@ title: WorkContourType
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定作品的轮廓
 type: docs
-weight: 3220
+weight: 3230
 url: /zh/net/aspose.tasks/workcontourtype/
 ---
 ## WorkContourType enumeration
@@ -18,20 +18,20 @@ public enum WorkContourType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 该值未在原始项目文件中定义。 |
+| Undefined | `-1` | 原始项目文件中未定义该值。 |
 | Flat | `0` | 平面工作轮廓。 |
 | BackLoaded | `1` | BackLoaded 工作轮廓。 |
 | FrontLoaded | `2` | FrontLoaded 工作轮廓。 |
-| DoublePeak | `3` | DoublePeak 工作轮廓。 |
+| DoublePeak | `3` | 双峰工作轮廓。 |
 | EarlyPeak | `4` | EarlyPeak 工作轮廓。 |
 | LatePeak | `5` | LatePeak 工作轮廓。 |
-| Bell | `6` | 钟形工作轮廓。 |
-| Turtle | `7` | Turtle 工作轮廓。 |
+| Bell | `6` | 钟形工作轮廓. |
+| Turtle | `7` | 海龟工作轮廓. |
 | Contoured | `8` | 自定义工作轮廓。 |
 
 ### 评论
 
-在导出到 XML 时，未定义的值将从生成的 XML 中删除。
+导出到 XML 时，未定义的值将从生成的 XML 中删除。
 
 ### 也可以看看
 

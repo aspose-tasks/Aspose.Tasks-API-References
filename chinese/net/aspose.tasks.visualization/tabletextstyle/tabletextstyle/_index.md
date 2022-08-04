@@ -1,14 +1,14 @@
 ---
 title: TableTextStyle
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化TableTextStyleaspose.tasks.visualization/tabletextstyle类的新实例
+description: 初始化TableTextStyleaspose.tasks.visualization/tabletextstyle类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/tabletextstyle/tabletextstyle/
 ---
 ## TableTextStyle(int) {#constructor}
 
-初始化[`TableTextStyle`](../../tabletextstyle)类的新实例。
+初始化[`TableTextStyle`](../../tabletextstyle)类.
 
 ```csharp
 public TableTextStyle(int rowUid)
@@ -16,7 +16,7 @@ public TableTextStyle(int rowUid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowUid | Int32 | 指定的行唯一标识。 |
+| rowUid | Int32 | 指定的行唯一 ID。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public TableTextStyle(int rowUid)
 
 ## TableTextStyle(int, FontDescriptor) {#constructor_1}
 
-使用指定字体初始化[`TableTextStyle`](../../tabletextstyle)类的新实例。
+初始化[`TableTextStyle`](../../tabletextstyle)具有指定字体的类。
 
 ```csharp
 public TableTextStyle(int rowUid, FontDescriptor font)
@@ -36,7 +36,7 @@ public TableTextStyle(int rowUid, FontDescriptor font)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowUid | Int32 | 指定的行唯一标识。 |
+| rowUid | Int32 | 指定的行唯一 ID。 |
 | font | FontDescriptor | 文本样式所基于的字体。 |
 
 ### 也可以看看
@@ -50,7 +50,7 @@ public TableTextStyle(int rowUid, FontDescriptor font)
 
 ## TableTextStyle(int, float, FontStyles) {#constructor_3}
 
-使用指定的字体大小和字体样式初始化[`TableTextStyle`](../../tabletextstyle)类的新实例。
+初始化[`TableTextStyle`](../../tabletextstyle)具有指定字体大小和字体样式的类。
 
 ```csharp
 public TableTextStyle(int rowUid, float fontSize, FontStyles fontStyle)
@@ -58,7 +58,7 @@ public TableTextStyle(int rowUid, float fontSize, FontStyles fontStyle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowUid | Int32 | 指定的行唯一标识。 |
+| rowUid | Int32 | 指定的行唯一 ID。 |
 | fontSize | Single | 文本样式所基于的字体大小。 |
 | fontStyle | FontStyles | 文本样式所基于的字体样式。 |
 
@@ -73,7 +73,7 @@ public TableTextStyle(int rowUid, float fontSize, FontStyles fontStyle)
 
 ## TableTextStyle(int, FontStyles) {#constructor_2}
 
-使用默认字体设置和指定的字体样式初始化[`TableTextStyle`](../../tabletextstyle)类的新实例。
+初始化[`TableTextStyle`](../../tabletextstyle)具有默认字体设置和指定字体样式的类。
 
 ```csharp
 public TableTextStyle(int rowUid, FontStyles fontStyle)
@@ -81,7 +81,7 @@ public TableTextStyle(int rowUid, FontStyles fontStyle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowUid | Int32 | 指定的行唯一标识。 |
+| rowUid | Int32 | 指定的行唯一 ID。 |
 | fontStyle | FontStyles | 文本样式所基于的字体样式。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: PdfEncryptionDetails
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PdfEncryptionDetailsaspose.tasks.saving/pdfencryptiondetails类的新实例
+description: 初始化PdfEncryptionDetailsaspose.tasks.saving/pdfencryptiondetails类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails constructor
 
-初始化[`PdfEncryptionDetails`](../../pdfencryptiondetails)类的新实例。
+初始化[`PdfEncryptionDetails`](../../pdfencryptiondetails)类.
 
 ```csharp
 public PdfEncryptionDetails(string userPassword, string ownerPassword, 
@@ -19,7 +19,7 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword,
 | --- | --- | --- |
 | userPassword | String | 允许打开受保护文档的用户密码。 |
 | ownerPassword | String | 允许打开受保护文档的所有者密码。 |
-| encryptionAlgorithm | PdfEncryptionAlgorithm | [`PdfEncryptionAlgorithm`](../../pdfencryptionalgorithm)表示加密算法的实例。 |
+| encryptionAlgorithm | PdfEncryptionAlgorithm | 这[`PdfEncryptionAlgorithm`](../../pdfencryptionalgorithm)表示加密算法的实例。 |
 
 ### 也可以看看
 

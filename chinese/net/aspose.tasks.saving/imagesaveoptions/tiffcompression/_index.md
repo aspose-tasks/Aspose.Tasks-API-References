@@ -16,7 +16,7 @@ public TiffCompression TiffCompression { get; set; }
 
 ### 评论
 
-仅在保存到 TIFF 时有效。 默认值为`LZW` 。
+仅在保存到 TIFF 时有效。 默认值为`LZW`.
 
 ### 也可以看看
 

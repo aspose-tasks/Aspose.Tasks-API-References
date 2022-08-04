@@ -24,10 +24,10 @@ public class OutlineValue
 
 | Имя | Описание |
 | --- | --- |
-| [Description](../../aspose.tasks/outlinevalue/description) { get; set; } | Получает или задает описание значения структуры. |
+| [Description](../../aspose.tasks/outlinevalue/description) { get; set; } | Получает или задает описание значения схемы. |
 | [DurationValue](../../aspose.tasks/outlinevalue/durationvalue) { get; set; } | Получает или задает продолжительность, если Type имеет значение Duration. |
-| [IsCollapsed](../../aspose.tasks/outlinevalue/iscollapsed) { get; set; } | Получает или задает значение, указывающее, свернуто ли значение структуры или нет. |
-| [ParentValueId](../../aspose.tasks/outlinevalue/parentvalueid) { get; set; } | Получает или задает идентификатор родительского узла кода структуры. |
+| [IsCollapsed](../../aspose.tasks/outlinevalue/iscollapsed) { get; set; } | Получает или задает значение, указывающее, свернуто ли значение схемы. |
+| [ParentValueId](../../aspose.tasks/outlinevalue/parentvalueid) { get; set; } | Получает или задает идентификатор родительского узла кода схемы. |
 | [Type](../../aspose.tasks/outlinevalue/type) { get; set; } | Получает или задает тип кода схемы. |
 | [Value](../../aspose.tasks/outlinevalue/value) { get; set; } | Получает или задает фактическое значение. |
 | [ValueGuid](../../aspose.tasks/outlinevalue/valueguid) { get; } | Получает GUID, который идентифицирует это значение среди других во всем проекте. |

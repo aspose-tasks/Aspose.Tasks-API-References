@@ -1,14 +1,14 @@
 ---
 title: Attributes
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取VbaModuleAttributeCollectionaspose.tasks/vbamoduleattributecollection
+description: 获取一个集合VbaModuleAttributeCollectionaspose.tasks/vbamoduleattributecollection
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/ivbamodule/attributes/
 ---
 ## IVbaModule.Attributes property
 
-获取[`VbaModuleAttributeCollection`](../../vbamoduleattributecollection)
+获取一个集合[`VbaModuleAttributeCollection`](../../vbamoduleattributecollection)
 
 ```csharp
 public VbaModuleAttributeCollection Attributes { get; }

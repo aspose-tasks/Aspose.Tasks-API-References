@@ -1,14 +1,14 @@
 ---
 title: RemainingCost
 second_title: Aspose.Tasks for .NET API 参考
-description: 完成作业的剩余预计成本
+description: 完成任务的剩余预计成本
 type: docs
 weight: 430
 url: /zh/net/aspose.tasks/asn/remainingcost/
 ---
 ## Asn.RemainingCost field
 
-完成作业的剩余预计成本。
+完成任务的剩余预计成本。
 
 ```csharp
 public static readonly Key<decimal, AsnKey> RemainingCost;

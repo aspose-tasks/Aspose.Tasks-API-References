@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回Resourceaspose.tasks/resource类实例的短字符串表示形式 表示的确切细节未指定可能会发生变化
+description: 返回实例的短字符串表示Resourceaspose.tasks/resourceclass. 表示的确切细节未指定可能会发生变化
 type: docs
 weight: 160
 url: /zh/net/aspose.tasks/resource/tostring/
 ---
 ## Resource.ToString method
 
-返回[`Resource`](../../resource)类实例的短字符串表示形式。 表示的确切细节未指定，可能会发生变化。
+返回实例的短字符串表示[`Resource`](../../resource)class. 表示的确切细节未指定，可能会发生变化。
 
 ```csharp
 public override string ToString()

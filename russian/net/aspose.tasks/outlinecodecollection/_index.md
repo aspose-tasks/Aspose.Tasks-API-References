@@ -1,14 +1,14 @@
 ---
 title: OutlineCodeCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовOutlineCode./outlinecode.
+description: Представляет наборOutlineCode./outlinecode объекты.
 type: docs
 weight: 1020
 url: /ru/net/aspose.tasks/outlinecodecollection/
 ---
 ## OutlineCodeCollection class
 
-Представляет набор объектов[`OutlineCode`](../outlinecode).
+Представляет набор[`OutlineCode`](../outlinecode) объекты.
 
 ```csharp
 public class OutlineCodeCollection : IList<OutlineCode>
@@ -19,7 +19,7 @@ public class OutlineCodeCollection : IList<OutlineCode>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/outlinecodecollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/outlinecodecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/outlinecodecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks/outlinecodecollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
 
 ## Методы
@@ -28,7 +28,7 @@ public class OutlineCodeCollection : IList<OutlineCode>
 | --- | --- |
 | [Add](../../aspose.tasks/outlinecodecollection/add)(OutlineCode) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/outlinecodecollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/outlinecodecollection/contains)(OutlineCode) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/outlinecodecollection/contains)(OutlineCode) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/outlinecodecollection/copyto)(OutlineCode[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/outlinecodecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/outlinecodecollection/indexof)(OutlineCode) | Определяет индекс указанного элемента в этой коллекции. |

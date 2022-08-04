@@ -1,14 +1,14 @@
 ---
 title: ProjectFileInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Экземпляр класса содержит информацию о формате файла проекта и версии Microsoft Project в которой был создан файл.
+description: Экземпляр класса содержит информацию о формате файла проекта и версии Microsoft Project где был создан файл.
 type: docs
 weight: 1200
 url: /ru/net/aspose.tasks/projectfileinfo/
 ---
 ## ProjectFileInfo class
 
-Экземпляр класса содержит информацию о формате файла проекта и версии Microsoft Project, в которой был создан файл.
+Экземпляр класса содержит информацию о формате файла проекта и версии Microsoft Project, где был создан файл.
 
 ```csharp
 public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
@@ -29,7 +29,7 @@ public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
 | --- | --- |
 | override [Equals](../../aspose.tasks/projectfileinfo/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
 | [Equals](../../aspose.tasks/projectfileinfo/equals#equals)(ProjectFileInfo) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`ProjectFileInfo`](../projectfileinfo). |
+| override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`ProjectFileInfo`](../projectfileinfo) класс. |
 
 ### Примечания
 

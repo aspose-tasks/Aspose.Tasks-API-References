@@ -1,14 +1,14 @@
 ---
 title: RiskPattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化RiskPatternaspose.tasks.riskanalysis/riskpattern类的新实例
+description: 初始化RiskPatternaspose.tasks.riskanalysis/riskpattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.riskanalysis/riskpattern/riskpattern/
 ---
 ## RiskPattern constructor
 
-初始化[`RiskPattern`](../../riskpattern)类的新实例。
+初始化[`RiskPattern`](../../riskpattern)类.
 
 ```csharp
 public RiskPattern(Task task)

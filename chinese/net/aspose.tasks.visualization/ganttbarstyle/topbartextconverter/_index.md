@@ -1,14 +1,14 @@
 ---
 title: TopBarTextConverter
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用户定义的转换器以获取要在任务栏顶部呈现的文本覆盖TopFieldaspose.tasks.visualization/ganttbarstyle/topfield属性的值
+description: 获取或设置用户定义的转换器以获取要在任务栏顶部呈现的文本覆盖的值TopFieldaspose.tasks.visualization/ganttbarstyle/topfield属性.
 type: docs
 weight: 260
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/topbartextconverter/
 ---
 ## GanttBarStyle.TopBarTextConverter property
 
-获取或设置用户定义的转换器以获取要在任务栏顶部呈现的文本。覆盖[`TopField`](../topfield)属性的值。
+获取或设置用户定义的转换器以获取要在任务栏顶部呈现的文本。覆盖的值[`TopField`](../topfield)属性.
 
 ```csharp
 public TaskBarTextConverter TopBarTextConverter { get; set; }

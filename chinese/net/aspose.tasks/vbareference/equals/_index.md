@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回一个值指示此实例是否等于指定的VbaReferenceaspose.tasks/vbareference对象
+description: 返回一个值指示此实例是否等于指定的VbaReferenceaspose.tasks/vbareference对象.
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/vbareference/equals/
 ---
 ## Equals(VbaReference) {#equals}
 
-返回一个值，指示此实例是否等于指定的[`VbaReference`](../../vbareference)对象。
+返回一个值，指示此实例是否等于指定的[`VbaReference`](../../vbareference)对象.
 
 ```csharp
 public bool Equals(VbaReference other)
@@ -16,11 +16,11 @@ public bool Equals(VbaReference other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | VbaReference | 指定的[`VbaReference`](../../vbareference)对象与此实例进行比较。 |
+| other | VbaReference | 指定的[`VbaReference`](../../vbareference)要与此实例进行比较的对象。 |
 
 ### 返回值
 
-如果此实例等于指定的[`VbaReference`](../../vbareference)对象，则返回 true；否则为假。
+如果此实例等于指定的值，则返回 true[`VbaReference`](../../vbareference)目的;否则为假。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Equals(VbaReference other)
 
 ## Equals(object) {#equals_1}
 
-返回一个值，指示此实例是否等于指定的[`VbaReference`](../../vbareference)对象。
+返回一个值，指示此实例是否等于指定的[`VbaReference`](../../vbareference)对象.
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,11 +40,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 指定的[`VbaReference`](../../vbareference)对象与此实例进行比较。 |
+| obj | Object | 指定的[`VbaReference`](../../vbareference)要与此实例进行比较的对象。 |
 
 ### 返回值
 
-如果此实例等于指定的[`VbaReference`](../../vbareference)对象，则返回 true；否则为假。
+如果此实例等于指定的值，则返回 true[`VbaReference`](../../vbareference)目的;否则为假。
 
 ### 也可以看看
 

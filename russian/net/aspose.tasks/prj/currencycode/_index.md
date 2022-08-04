@@ -8,7 +8,7 @@ url: /ru/net/aspose.tasks/prj/currencycode/
 ---
 ## Prj.CurrencyCode field
 
-Трехбуквенный код валюты, как определено в ISO 4217. Примером допустимых значений является "USD".
+Трехбуквенный код валюты, как определено в ISO 4217. Примером допустимых значений является «USD».
 
 ```csharp
 public static readonly Key<string, PrjKey> CurrencyCode;

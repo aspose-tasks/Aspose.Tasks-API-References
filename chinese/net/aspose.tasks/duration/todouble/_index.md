@@ -1,14 +1,14 @@
 ---
 title: ToDouble
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 Duration 对象转换为Double值
+description: 将 Duration 对象转换为Double值.
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/duration/todouble/
 ---
 ## Duration.ToDouble method
 
-将 Duration 对象转换为Double值。
+将 Duration 对象转换为Double值.
 
 ```csharp
 public double ToDouble()
@@ -16,7 +16,7 @@ public double ToDouble()
 
 ### 返回值
 
-转换后的值。
+转换值。
 
 ### 也可以看看
 

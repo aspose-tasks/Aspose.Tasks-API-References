@@ -1,14 +1,14 @@
 ---
 title: Settings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает экземпляр классаRiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings который определяет необходимые настройки для анализа рисков.
+description: Получает или задает экземплярRiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings класс определяющий необходимые настройки для анализа рисков.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.riskanalysis/riskanalyzer/settings/
 ---
 ## RiskAnalyzer.Settings property
 
-Получает или задает экземпляр класса[`RiskAnalysisSettings`](../../riskanalysissettings), который определяет необходимые настройки для анализа рисков.
+Получает или задает экземпляр[`RiskAnalysisSettings`](../../riskanalysissettings) класс, определяющий необходимые настройки для анализа рисков.
 
 ```csharp
 public RiskAnalysisSettings Settings { get; set; }

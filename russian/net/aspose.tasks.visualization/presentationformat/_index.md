@@ -3,7 +3,7 @@ title: PresentationFormat
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Перечисление для формата презентации.
 type: docs
-weight: 2890
+weight: 2900
 url: /ru/net/aspose.tasks.visualization/presentationformat/
 ---
 ## PresentationFormat enumeration
@@ -19,7 +19,7 @@ public enum PresentationFormat
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | GanttChart | `0` | Формат представления диаграммы Ганта. |
-| TaskUsage | `1` | Формат представления использования задач. |
+| TaskUsage | `1` | Формат представления использования задачи. |
 | ResourceUsage | `2` | Формат представления использования ресурсов. |
 | ResourceSheet | `3` | Формат представления листа ресурсов. |
 | TaskSheet | `4` | Формат представления листа задач. |

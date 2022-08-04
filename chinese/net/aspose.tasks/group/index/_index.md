@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取包含对象的组中Groupaspose.tasks/group对象的索引
+description: 获取一个索引Groupaspose.tasks/group包含 object. 的组中的对象
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/group/index/
 ---
 ## Group.Index property
 
-获取包含对象的组中[`Group`](../../group)对象的索引。
+获取一个索引[`Group`](../../group)包含 object. 的组中的对象
 
 ```csharp
 public int Index { get; }

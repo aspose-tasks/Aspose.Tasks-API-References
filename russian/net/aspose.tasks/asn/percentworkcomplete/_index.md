@@ -1,14 +1,14 @@
 ---
 title: PercentWorkComplete
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Объем работы выполненной по заданию.
+description: Объем выполненной работы по заданию.
 type: docs
 weight: 400
 url: /ru/net/aspose.tasks/asn/percentworkcomplete/
 ---
 ## Asn.PercentWorkComplete field
 
-Объем работы, выполненной по заданию.
+Объем выполненной работы по заданию.
 
 ```csharp
 public static readonly Key<int, AsnKey> PercentWorkComplete;

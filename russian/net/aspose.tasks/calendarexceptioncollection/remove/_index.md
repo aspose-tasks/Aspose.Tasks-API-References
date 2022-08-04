@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет экземплярCalendarExceptionaspose.tasks/calendarexceptionиз этой коллекции.
+description: УдаляетCalendarExceptionaspose.tasks/calendarexception экземпляр из этой коллекции.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/calendarexceptioncollection/remove/
 ---
 ## CalendarExceptionCollection.Remove method
 
-Удаляет экземпляр[`CalendarException`](../../calendarexception)из этой коллекции.
+Удаляет[`CalendarException`](../../calendarexception) экземпляр из этой коллекции.
 
 ```csharp
 public bool Remove(CalendarException item)
@@ -16,7 +16,7 @@ public bool Remove(CalendarException item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | CalendarException | Элемент для удаления. |
+| item | CalendarException | Элемент, который необходимо удалить. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект коллекции в список объектовVbaModuleaspose.tasks/vbamodule.
+description: Преобразует объект коллекции в списокVbaModuleaspose.tasks/vbamodule объекты.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/readonlycollectionbase-1/tolist/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.ToList method
 
-Преобразует объект коллекции в список объектов[`VbaModule`](../../vbamodule).
+Преобразует объект коллекции в список[`VbaModule`](../../vbamodule) объекты.
 
 ```csharp
 public List<T> ToList()

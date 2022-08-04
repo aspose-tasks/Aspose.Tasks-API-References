@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置文本样式的背景颜色 Coloraspose.tasks.visualization/textstyle/color
+description: 获取或设置文本样式的背景颜色 Coloraspose.tasks.visualization/textstyle/color.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/textstyle/backgroundcolor/
 ---
 ## TextStyle.BackgroundColor property
 
-获取或设置文本样式的背景颜色。 [`Color`](../color)。
+获取或设置文本样式的背景颜色。 [`Color`](../color).
 
 ```csharp
 public Color BackgroundColor { get; set; }

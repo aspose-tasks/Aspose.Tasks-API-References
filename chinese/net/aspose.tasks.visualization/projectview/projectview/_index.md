@@ -1,14 +1,14 @@
 ---
 title: ProjectView
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ProjectViewaspose.tasks.visualization/projectview类的新实例
+description: 初始化ProjectViewaspose.tasks.visualization/projectview类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/projectview/projectview/
 ---
 ## ProjectView constructor
 
-初始化[`ProjectView`](../../projectview)类的新实例。
+初始化[`ProjectView`](../../projectview)类.
 
 ```csharp
 public ProjectView(IEnumerable<ViewColumn> columns)

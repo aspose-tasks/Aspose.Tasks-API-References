@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化LoadOptionsaspose.tasks/loadoptions类的新实例
+description: 初始化LoadOptionsaspose.tasks/loadoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/loadoptions/loadoptions/
 ---
 ## LoadOptions constructor
 
-初始化[`LoadOptions`](../../loadoptions)类的新实例。
+初始化[`LoadOptions`](../../loadoptions)类.
 
 ```csharp
 public LoadOptions()

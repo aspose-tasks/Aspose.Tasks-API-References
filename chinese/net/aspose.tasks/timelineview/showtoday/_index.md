@@ -1,14 +1,14 @@
 ---
 title: ShowToday
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否显示代表今天的行
+description: 获取或设置一个值该值指示是否显示代表今天的线条
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/timelineview/showtoday/
 ---
 ## TimelineView.ShowToday property
 
-获取或设置一个值，该值指示是否显示代表今天的行。
+获取或设置一个值，该值指示是否显示代表今天的线条。
 
 ```csharp
 public bool ShowToday { get; set; }

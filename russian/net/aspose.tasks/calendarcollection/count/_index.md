@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает количество объектов содержащихся в этом объектеCalendarCollectionaspose.tasks/calendarcollection.
+description: Получает количество объектов содержащихся в этомCalendarCollectionaspose.tasks/calendarcollection объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/calendarcollection/count/
 ---
 ## CalendarCollection.Count property
 
-Получает количество объектов, содержащихся в этом объекте[`CalendarCollection`](../../calendarcollection).
+Получает количество объектов, содержащихся в этом[`CalendarCollection`](../../calendarcollection) объект.
 
 ```csharp
 public int Count { get; }

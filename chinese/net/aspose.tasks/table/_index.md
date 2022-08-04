@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示项目中的一个表
+description: 表示 Project 中的一个表
 type: docs
 weight: 2020
 url: /zh/net/aspose.tasks/table/
 ---
 ## Table class
 
-表示项目中的一个表
+表示 Project 中的一个表
 
 ```csharp
 public class Table
@@ -18,24 +18,24 @@ public class Table
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Table](table)() | 初始化[`Table`](../table)类的新实例。 |
+| [Table](table)() | 初始化[`Table`](../table)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AdjustHeaderRowHeight](../../aspose.tasks/table/adjustheaderrowheight) { get; set; } | 获取或设置表头行高是否可以调整的值。 |
-| [DateFormat](../../aspose.tasks/table/dateformat) { get; set; } | 获取或设置表格的日期格式。 |
+| [DateFormat](../../aspose.tasks/table/dateformat) { get; set; } | 获取或设置表格的日期格式 |
 | [Index](../../aspose.tasks/table/index) { get; } | 获取 Tables 包含对象中的 Table 对象的索引。 |
 | [LockFirstColumn](../../aspose.tasks/table/lockfirstcolumn) { get; set; } | 获取或设置一个值，该值指示表的第一列是否被锁定或可编辑。 |
 | [Name](../../aspose.tasks/table/name) { get; set; } | 获取或设置 Table 对象的名称。 |
-| [ParentProject](../../aspose.tasks/table/parentproject) { get; } | 获取 Table 对象的父级。 只读[`Project`](../project)。 |
+| [ParentProject](../../aspose.tasks/table/parentproject) { get; } | 获取 Table 对象的父对象。 只读[`Project`](../project). |
 | [RowHeight](../../aspose.tasks/table/rowheight) { get; set; } | 获取或设置表格中的行高，其中行高是文本的行数。 |
-| [ShowAddNewColumn](../../aspose.tasks/table/showaddnewcolumn) { get; set; } | 获取或设置是否显示“新增列”界面的值。  MSP 2010 及更高版本支持。 |
-| [ShowInMenu](../../aspose.tasks/table/showinmenu) { get; set; } | 获取或设置一个值，该值指示项目是否在功能区视图选项卡的表下拉列表中显示表名。 |
+| [ShowAddNewColumn](../../aspose.tasks/table/showaddnewcolumn) { get; set; } | 获取或设置一个值，指示是否显示“添加新列”界面。 MSP 2010 及更高版本支持。 |
+| [ShowInMenu](../../aspose.tasks/table/showinmenu) { get; set; } | 获取或设置一个值，该值指示项目是否在功能区的视图选项卡上的表下拉列表中显示表名。 |
 | [TableFields](../../aspose.tasks/table/tablefields) { get; } | 获取代表表中字段的 TableFields 集合。 |
-| [TableType](../../aspose.tasks/table/tabletype) { get; } | 获取指定表的表类型。只读[`ItemType`](../itemtype)。 |
-| [Uid](../../aspose.tasks/table/uid) { get; } | 获取表的唯一标识符。 |
+| [TableType](../../aspose.tasks/table/tabletype) { get; } | 获取指定表的表类型。只读[`ItemType`](../itemtype). |
+| [Uid](../../aspose.tasks/table/uid) { get; } | 获取表的唯一标识。 |
 
 ## 方法
 

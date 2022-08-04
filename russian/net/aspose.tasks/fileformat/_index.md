@@ -20,7 +20,7 @@ public enum FileFormat
 | --- | --- | --- |
 | Undefined | `0` | Невозможно определить. |
 | P6XML | `1` | Представляет XML-формат Primavera P6. |
-| XML | `2` | Формат Microsoft Project XML. |
+| XML | `2` | XML-формат Microsoft Project. |
 | MPP8 | `3` | Формат Microsoft Project 2000. |
 | MPP9 | `4` | Формат Microsoft Project 2003. |
 | MPP12 | `5` | Формат Microsoft Project 2007. |

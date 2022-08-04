@@ -16,7 +16,7 @@ public string GetColumnText(ResourceAssignment assignment)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| assignment | ResourceAssignment | 当前分配。 |
+| assignment | ResourceAssignment | 当前任务。 |
 
 ### 返回值
 

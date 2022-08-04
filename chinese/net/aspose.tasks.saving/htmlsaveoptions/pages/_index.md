@@ -1,14 +1,14 @@
 ---
 title: Pages
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置渲染项目布局时要保存的页码列表  如果此列表为空则将保存所有项目页面
+description: 获取或设置渲染项目布局时要保存的页码列表 如果此列表为空则将保存所有项目页面
 type: docs
 weight: 140
 url: /zh/net/aspose.tasks.saving/htmlsaveoptions/pages/
 ---
 ## HtmlSaveOptions.Pages property
 
-获取或设置渲染项目布局时要保存的页码列表。  如果此列表为空，则将保存所有项目页面。
+获取或设置渲染项目布局时要保存的页码列表。 如果此列表为空，则将保存所有项目页面。
 
 ```csharp
 public List<int> Pages { get; set; }

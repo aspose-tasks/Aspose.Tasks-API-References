@@ -1,14 +1,14 @@
 ---
 title: Get
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает экземпляр классаRiskItemStatisticsaspose.tasks.riskanalysis/riskitemstatistics содержащегося в этой коллекции который связан с указанным объектом Task  null если элемент не найден.
+description: Возвращает экземплярRiskItemStatisticsaspose.tasks.riskanalysis/riskitemstatistics класс содержащийся в этой коллекции который связан с указанным объектом Task null если элемент не найден.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.riskanalysis/riskitemstatisticscollection/get/
 ---
 ## RiskItemStatisticsCollection.Get method
 
-Возвращает экземпляр класса[`RiskItemStatistics`](../../riskitemstatistics), содержащегося в этой коллекции, который связан с указанным объектом Task ; null, если элемент не найден.
+Возвращает экземпляр[`RiskItemStatistics`](../../riskitemstatistics) класс, содержащийся в этой коллекции, который связан с указанным объектом Task; null, если элемент не найден.
 
 ```csharp
 public RiskItemStatistics Get(Task task)
@@ -16,7 +16,7 @@ public RiskItemStatistics Get(Task task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | указанный экземпляр класса[`Task`](../../../aspose.tasks/task). |
+| task | Task | указанный экземпляр[`Task`](../../../aspose.tasks/task) учебный класс. |
 
 ### Возвращаемое значение
 

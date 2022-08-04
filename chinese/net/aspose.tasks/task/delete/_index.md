@@ -1,14 +1,14 @@
 ---
 title: Delete
 second_title: Aspose.Tasks for .NET API 参考
-description: 从父项目任务集合及其所有分配中删除任务
+description: 从父项目任务集合中删除任务及其所有分配
 type: docs
 weight: 140
 url: /zh/net/aspose.tasks/task/delete/
 ---
 ## Task.Delete method
 
-从父项目任务集合及其所有分配中删除任务。
+从父项目任务集合中删除任务及其所有分配。
 
 ```csharp
 public void Delete()

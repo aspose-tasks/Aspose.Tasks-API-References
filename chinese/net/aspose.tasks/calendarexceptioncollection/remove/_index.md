@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API 参考
-description: 从此集合中删除CalendarExceptionaspose.tasks/calendarexception实例
+description: 移除CalendarExceptionaspose.tasks/calendarexception此集合中的实例
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/calendarexceptioncollection/remove/
 ---
 ## CalendarExceptionCollection.Remove method
 
-从此集合中删除[`CalendarException`](../../calendarexception)实例。
+移除[`CalendarException`](../../calendarexception)此集合中的实例。
 
 ```csharp
 public bool Remove(CalendarException item)
@@ -20,7 +20,7 @@ public bool Remove(CalendarException item)
 
 ### 返回值
 
-如果指定的异常被成功删除，则为真。
+如果指定的异常已成功删除，则为 true。
 
 ### 也可以看看
 

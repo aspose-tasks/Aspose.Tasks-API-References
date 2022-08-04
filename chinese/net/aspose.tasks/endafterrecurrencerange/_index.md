@@ -18,7 +18,7 @@ public class EndAfterRecurrenceRange : RecurrenceRangeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EndAfterRecurrenceRange](endafterrecurrencerange)() | 初始化[`EndAfterRecurrenceRange`](../endafterrecurrencerange)类的新实例。 |
+| [EndAfterRecurrenceRange](endafterrecurrencerange)() | 初始化[`EndAfterRecurrenceRange`](../endafterrecurrencerange)类. |
 
 ## 特性
 

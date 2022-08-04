@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект WorkWeekCollection в список объектовWorkWeekaspose.tasks/workweek.
+description: Преобразует объект WorkWeekCollection в списокWorkWeekaspose.tasks/workweek объекты.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/workweekcollection/tolist/
 ---
 ## WorkWeekCollection.ToList method
 
-Преобразует объект WorkWeekCollection в список объектов[`WorkWeek`](../../workweek).
+Преобразует объект WorkWeekCollection в список[`WorkWeek`](../../workweek) объекты.
 
 ```csharp
 public List<WorkWeek> ToList()
@@ -16,7 +16,7 @@ public List<WorkWeek> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`WorkWeek`](../../workweek).
+Список[`WorkWeek`](../../workweek) объекты.
 
 ### Смотрите также
 

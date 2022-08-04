@@ -1,14 +1,14 @@
 ---
 title: NotesText
 second_title: Aspose.Tasks for .NET API 参考
-description: Notes 从 RTF 数据中提取的纯文本
+description: 从 RTF 数据中提取的 Notes 纯文本
 type: docs
 weight: 490
 url: /zh/net/aspose.tasks/rsc/notestext/
 ---
 ## Rsc.NotesText field
 
-Notes 从 RTF 数据中提取的纯文本。
+从 RTF 数据中提取的 Notes 纯文本。
 
 ```csharp
 public static readonly Key<string, RscKey> NotesText;

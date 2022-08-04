@@ -1,14 +1,14 @@
 ---
 title: ITreeAlgorithmT
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет алгоритм который можно применить к дереву объектов lttypeparamref nameT /gt.
+description: Представляет алгоритм который можно применить к дереву объектовT .
 type: docs
-weight: 2380
+weight: 2390
 url: /ru/net/aspose.tasks.util/itreealgorithm-1/
 ---
 ## ITreeAlgorithm&lt;T&gt; interface
 
-Представляет алгоритм, который можно применить к дереву объектов &lt;typeparamref name="T" /&gt;.
+Представляет алгоритм, который можно применить к дереву объектов*T* .
 
 ```csharp
 public interface ITreeAlgorithm<in T>

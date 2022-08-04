@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Сравнивает этот экземпляр с указанным экземпляром классаFilteraspose.tasks/filterи возвращает указание их относительного порядка.
+description: Сравнивает этот экземпляр с указанным экземпляромFilteraspose.tasks/filter class и возвращает указание их относительного порядка.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/filter/compareto/
 ---
 ## Filter.CompareTo method
 
-Сравнивает этот экземпляр с указанным экземпляром класса[`Filter`](../../filter)и возвращает указание их относительного порядка.
+Сравнивает этот экземпляр с указанным экземпляром[`Filter`](../../filter) class и возвращает указание их относительного порядка.
 
 ```csharp
 public int CompareTo(Filter other)
@@ -16,11 +16,11 @@ public int CompareTo(Filter other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Filter | указанный экземпляр класса[`Filter`](../../filter)для сравнения с этим объект. |
+| other | Filter | указанный экземпляр[`Filter`](../../filter) class для сравнения с этим объектом. |
 
 ### Возвращаемое значение
 
-указание их относительного порядка.
+указание на их относительный порядок.
 
 ### Смотрите также
 

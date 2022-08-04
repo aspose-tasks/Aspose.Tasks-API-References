@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект WorkingTimeCollection в список объектовWorkingTimeaspose.tasks/workingtime.
+description: Преобразует объект WorkingTimeCollection в списокWorkingTimeaspose.tasks/workingtime объекты.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/workingtimecollection/tolist/
 ---
 ## WorkingTimeCollection.ToList method
 
-Преобразует объект WorkingTimeCollection в список объектов[`WorkingTime`](../../workingtime).
+Преобразует объект WorkingTimeCollection в список[`WorkingTime`](../../workingtime) объекты.
 
 ```csharp
 public List<WorkingTime> ToList()
@@ -16,7 +16,7 @@ public List<WorkingTime> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`WorkingTime`](../../workingtime).
+Список[`WorkingTime`](../../workingtime) объекты.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: TaskUsageViewFieldCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示TaskUsageViewField./taskusageviewfield值的集合
+description: 代表一个集合TaskUsageViewField./taskusageviewfield值.
 type: docs
 weight: 2180
 url: /zh/net/aspose.tasks/taskusageviewfieldcollection/
 ---
 ## TaskUsageViewFieldCollection class
 
-表示[`TaskUsageViewField`](../taskusageviewfield)值的集合。
+代表一个集合[`TaskUsageViewField`](../taskusageviewfield)值.
 
 ```csharp
 public class TaskUsageViewFieldCollection : IList<TaskUsageViewField>
@@ -19,7 +19,7 @@ public class TaskUsageViewFieldCollection : IList<TaskUsageViewField>
 | 姓名 | 描述 |
 | --- | --- |
 | [GetEnumerator](../../aspose.tasks/taskusageviewfieldcollection/getenumerator)() | 返回此集合的枚举数。 |
-| [ToList](../../aspose.tasks/taskusageviewfieldcollection/tolist)() | 返回一个包含此集合中所有项目的列表。 |
+| [ToList](../../aspose.tasks/taskusageviewfieldcollection/tolist)() | 返回一个列表，其中包含此集合中的所有项目。 |
 
 ### 也可以看看
 

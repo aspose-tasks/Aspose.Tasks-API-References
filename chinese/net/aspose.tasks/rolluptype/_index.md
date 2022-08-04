@@ -25,7 +25,7 @@ public enum RollupType
 | Sum | `4` | 表示 Sum 汇总类型。 |
 | Average | `5` | 表示平均汇总类型。 |
 | AverageFirstSublevel | `6` | 表示平均第一个子级别汇总类型。 |
-| CountFirstSublevel | `7` | 表示 Count First Sublevel 汇总类型。 |
+| CountFirstSublevel | `7` | 表示计数第一个子级别汇总类型。 |
 | CountNonsummaries | `8` | 表示计数非汇总汇总类型。 |
 
 ### 也可以看看

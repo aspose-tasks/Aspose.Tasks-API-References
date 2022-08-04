@@ -1,14 +1,14 @@
 ---
 title: VbaReference
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет ссылку наVbaProject./vbaproject.
+description: Представляет ссылку наVbaProject./vbaproject .
 type: docs
-weight: 2510
+weight: 2520
 url: /ru/net/aspose.tasks/vbareference/
 ---
 ## VbaReference class
 
-Представляет ссылку на[`VbaProject`](../vbaproject).
+Представляет ссылку на[`VbaProject`](../vbaproject) .
 
 ```csharp
 public sealed class VbaReference : IEquatable<VbaReference>
@@ -31,9 +31,9 @@ public sealed class VbaReference : IEquatable<VbaReference>
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbareference/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../vbareference)объекту. |
-| [Equals](../../aspose.tasks/vbareference/equals#equals)(VbaReference) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../vbareference)объекту. |
-| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode)() | Возвращает значение хэш-кода для этого[`VbaReference`](../vbareference). |
+| override [Equals](../../aspose.tasks/vbareference/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../vbareference) объект. |
+| [Equals](../../aspose.tasks/vbareference/equals#equals)(VbaReference) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../vbareference) объект. |
+| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode)() | Возвращает значение хеш-кода для этого[`VbaReference`](../vbareference) . |
 
 ### Смотрите также
 

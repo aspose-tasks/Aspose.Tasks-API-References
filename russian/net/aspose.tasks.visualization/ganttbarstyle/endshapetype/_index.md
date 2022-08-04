@@ -1,14 +1,14 @@
 ---
 title: EndShapeType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает тип конечной формы. GanttBarTypeaspose.tasks.visualization/ganttbartype.
+description: Получает или задает тип конечной формы. GanttBarTypeaspose.tasks.visualization/ganttbartype .
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/endshapetype/
 ---
 ## GanttBarStyle.EndShapeType property
 
-Получает или задает тип конечной формы. [`GanttBarType`](../../ganttbartype).
+Получает или задает тип конечной формы. [`GanttBarType`](../../ganttbartype) .
 
 ```csharp
 public GanttBarType EndShapeType { get; set; }

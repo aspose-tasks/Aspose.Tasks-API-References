@@ -1,14 +1,14 @@
 ---
 title: PrimaveraDbSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPrimaveraDbSettingsaspose.tasks.connectivity/primaveradbsettings.
+description: Инициализирует новый экземплярPrimaveraDbSettingsaspose.tasks.connectivity/primaveradbsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.connectivity/primaveradbsettings/primaveradbsettings/
 ---
 ## PrimaveraDbSettings constructor
 
-Инициализирует новый экземпляр класса[`PrimaveraDbSettings`](../../primaveradbsettings).
+Инициализирует новый экземпляр[`PrimaveraDbSettings`](../../primaveradbsettings) класс.
 
 ```csharp
 public PrimaveraDbSettings(string connectionString, int projectId)

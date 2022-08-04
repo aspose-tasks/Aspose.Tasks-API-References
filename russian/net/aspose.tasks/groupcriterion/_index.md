@@ -1,14 +1,14 @@
 ---
 title: GroupCriterion
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет критерий в определении группы. Объект GroupCriterion является членом коллекцииGroupCriterionCollection./groupcriterioncollection.
+description: Представляет критерий в определении группы. Объект GroupCriterion является членомGroupCriterionCollection./groupcriterioncollection коллекция.
 type: docs
 weight: 720
 url: /ru/net/aspose.tasks/groupcriterion/
 ---
 ## GroupCriterion class
 
-Представляет критерий в определении группы. Объект GroupCriterion является членом коллекции[`GroupCriterionCollection`](../groupcriterioncollection).
+Представляет критерий в определении группы. Объект GroupCriterion является членом[`GroupCriterionCollection`](../groupcriterioncollection) коллекция.
 
 ```csharp
 public class GroupCriterion
@@ -26,13 +26,13 @@ public class GroupCriterion
 | --- | --- |
 | [Ascending](../../aspose.tasks/groupcriterion/ascending) { get; set; } | Получает или задает значение, указывающее, сортируется ли поле, используемое в качестве критерия в определении группы, в порядке возрастания. False, если поле отсортировано в порядке убывания. |
 | [CellColor](../../aspose.tasks/groupcriterion/cellcolor) { get; set; } | Получает или задает цвет фона ячейки для поля, используемого в качестве критерия в определении группы. |
-| [Field](../../aspose.tasks/groupcriterion/field) { get; set; } | Получает или задает поле, по которому выполняется группировка. |
+| [Field](../../aspose.tasks/groupcriterion/field) { get; set; } | Получает или задает поле, сгруппированное по. |
 | [Font](../../aspose.tasks/groupcriterion/font) { get; set; } | Получает или задает шрифт для критерия в определении группы. |
 | [FontColor](../../aspose.tasks/groupcriterion/fontcolor) { get; set; } | Получает или задает цвет шрифта для поля, используемого в качестве критерия в определении группы. |
 | [GroupInterval](../../aspose.tasks/groupcriterion/groupinterval) { get; set; } | Получает или задает интервал для поля, используемого в качестве критерия в определении группы. |
 | [GroupOn](../../aspose.tasks/groupcriterion/groupon) { get; set; } | Получает или задает тип группировки для поля, используемого в качестве критерия в определении группы. |
-| [Index](../../aspose.tasks/groupcriterion/index) { get; } | Получает индекс объекта[`GroupCriterion`](../groupcriterion)в содержащем[`GroupCriterionCollection`](../groupcriterioncollection)коллекция. |
-| [ParentGroup](../../aspose.tasks/groupcriterion/parentgroup) { get; } | Получает родителя объекта[`GroupCriterion`](../groupcriterion). |
+| [Index](../../aspose.tasks/groupcriterion/index) { get; } | Получает индекс[`GroupCriterion`](../groupcriterion) объект в содержании[`GroupCriterionCollection`](../groupcriterioncollection) коллекция. |
+| [ParentGroup](../../aspose.tasks/groupcriterion/parentgroup) { get; } | Получает родителя[`GroupCriterion`](../groupcriterion) объект. |
 | [Pattern](../../aspose.tasks/groupcriterion/pattern) { get; set; } | Получает или задает шаблон ячейки для поля, используемого в качестве критерия в определении группы. |
 | [StartAt](../../aspose.tasks/groupcriterion/startat) { get; set; } | Получает или задает начало интервалов для поля, используемого в качестве критерия в определении группы. |
 
@@ -41,7 +41,7 @@ public class GroupCriterion
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.tasks/groupcriterion/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/groupcriterion/gethashcode)() | Служит хеш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.tasks/groupcriterion/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
 ### Смотрите также
 

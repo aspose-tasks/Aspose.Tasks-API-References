@@ -1,14 +1,14 @@
 ---
 title: RestrictValues
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее ограничены ли значения настраиваемого поля значениями вValueListaspose.tasks/extendedattributedefinition/valuelist.
+description: Получает или задает значение указывающее ограничены ли значения настраиваемого поля значениями вValueListaspose.tasks/extendedattributedefinition/valuelist .
 type: docs
 weight: 210
 url: /ru/net/aspose.tasks/extendedattributedefinition/restrictvalues/
 ---
 ## ExtendedAttributeDefinition.RestrictValues property
 
-Получает или задает значение, указывающее, ограничены ли значения настраиваемого поля значениями в[`ValueList`](../valuelist).
+Получает или задает значение, указывающее, ограничены ли значения настраиваемого поля значениями в[`ValueList`](../valuelist) .
 
 ```csharp
 public bool RestrictValues { get; set; }

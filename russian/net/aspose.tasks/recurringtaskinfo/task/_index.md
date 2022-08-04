@@ -1,14 +1,14 @@
 ---
 title: Task
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родительскую задачу этого экземпляра классаRecurringTaskInfoaspose.tasks/recurringtaskinfo.
+description: Получает родительскую задачу этого экземпляраRecurringTaskInfoaspose.tasks/recurringtaskinfo класс.
 type: docs
 weight: 140
 url: /ru/net/aspose.tasks/recurringtaskinfo/task/
 ---
 ## RecurringTaskInfo.Task property
 
-Получает родительскую задачу этого экземпляра класса[`RecurringTaskInfo`](../../recurringtaskinfo).
+Получает родительскую задачу этого экземпляра[`RecurringTaskInfo`](../../recurringtaskinfo) класс.
 
 ```csharp
 public Task Task { get; }

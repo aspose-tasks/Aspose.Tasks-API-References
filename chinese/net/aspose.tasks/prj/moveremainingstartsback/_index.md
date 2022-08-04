@@ -1,14 +1,14 @@
 ---
 title: MoveRemainingStartsBack
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定在状态日期之后但更早开始的计划启动 任务的剩余部分的开始是否应移回状态日期
+description: 确定计划在状态日期之后 start 但更早开始的任务的剩余部分的开始是否应移回状态日期
 type: docs
 weight: 500
 url: /zh/net/aspose.tasks/prj/moveremainingstartsback/
 ---
 ## Prj.MoveRemainingStartsBack field
 
-确定在状态日期之后但更早开始的计划启动 任务的剩余部分的开始是否应移回状态日期。
+确定计划在状态日期之后 start 但更早开始的任务的剩余部分的开始是否应移回状态日期。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsBack;

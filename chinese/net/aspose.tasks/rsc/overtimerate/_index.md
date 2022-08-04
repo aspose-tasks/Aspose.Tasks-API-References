@@ -1,14 +1,14 @@
 ---
 title: OvertimeRate
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源加班费率
+description: 资源执行的加班费率
 type: docs
 weight: 520
 url: /zh/net/aspose.tasks/rsc/overtimerate/
 ---
 ## Rsc.OvertimeRate field
 
-资源加班费率。
+资源执行的加班费率。
 
 ```csharp
 public static readonly Key<decimal, RscKey> OvertimeRate;

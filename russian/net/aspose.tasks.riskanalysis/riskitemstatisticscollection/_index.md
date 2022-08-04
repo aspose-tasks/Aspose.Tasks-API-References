@@ -1,14 +1,14 @@
 ---
 title: RiskItemStatisticsCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет коллекцию содержащую экземпляры классаRiskItemStatistics./riskitemstatistics.
+description: Представляет коллекцию содержащую экземплярыRiskItemStatistics./riskitemstatistics класс.
 type: docs
 weight: 1640
 url: /ru/net/aspose.tasks.riskanalysis/riskitemstatisticscollection/
 ---
 ## RiskItemStatisticsCollection class
 
-Представляет коллекцию, содержащую экземпляры класса[`RiskItemStatistics`](../riskitemstatistics).
+Представляет коллекцию, содержащую экземпляры[`RiskItemStatistics`](../riskitemstatistics) класс.
 
 ```csharp
 public class RiskItemStatisticsCollection : IDictionary<Task, RiskItemStatistics>, 
@@ -19,7 +19,7 @@ public class RiskItemStatisticsCollection : IDictionary<Task, RiskItemStatistics
 
 | Имя | Описание |
 | --- | --- |
-| [Get](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/get)(Task) | Возвращает экземпляр класса[`RiskItemStatistics`](../riskitemstatistics), содержащегося в этой коллекции, который связан с указанным объектом Task ; null, если элемент не найден. |
+| [Get](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/get)(Task) | Возвращает экземпляр[`RiskItemStatistics`](../riskitemstatistics) класс, содержащийся в этой коллекции, который связан с указанным объектом Task; null, если элемент не найден. |
 | [GetEnumerator](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 
 ### Смотрите также

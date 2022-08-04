@@ -1,14 +1,14 @@
 ---
 title: MiddleTimescaleTier
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает настройки среднего уровня шкалы времени представления. TimescaleTieraspose.tasks.visualization/timescaletier.
+description: Получает или задает параметры среднего уровня шкалы времени представления. TimescaleTieraspose.tasks.visualization/timescaletier .
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/ganttchartview/middletimescaletier/
 ---
 ## GanttChartView.MiddleTimescaleTier property
 
-Получает или задает настройки среднего уровня шкалы времени представления. [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier).
+Получает или задает параметры среднего уровня шкалы времени представления. [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier) .
 
 ```csharp
 public TimescaleTier MiddleTimescaleTier { get; set; }

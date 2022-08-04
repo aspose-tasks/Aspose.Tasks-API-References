@@ -1,14 +1,14 @@
 ---
 title: Views
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает список объектовViewaspose.tasks/view.
+description: Получает списокViewaspose.tasks/view объекты.
 type: docs
 weight: 230
 url: /ru/net/aspose.tasks/project/views/
 ---
 ## Project.Views property
 
-Получает список объектов[`View`](../../view).
+Получает список[`View`](../../view) объекты.
 
 ```csharp
 public ViewCollection Views { get; }

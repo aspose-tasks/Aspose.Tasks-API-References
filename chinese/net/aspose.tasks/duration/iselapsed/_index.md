@@ -1,14 +1,14 @@
 ---
 title: IsElapsed
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取一个值该值指示是否经过时间单位  确定此 Duration 实例是否已过的标志
+description: 获取一个值指示是否经过时间单位 确定此 Duration 实例是否已过的标志
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/duration/iselapsed/
 ---
 ## Duration.IsElapsed property
 
-获取一个值，该值指示是否经过时间单位。  确定此 Duration 实例是否已过的标志。
+获取一个值，指示是否经过时间单位。 确定此 Duration 实例是否已过的标志。
 
 ```csharp
 public bool IsElapsed { get; }

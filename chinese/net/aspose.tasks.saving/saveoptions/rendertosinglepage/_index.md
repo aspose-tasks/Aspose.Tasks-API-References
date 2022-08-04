@@ -1,14 +1,14 @@
 ---
 title: RenderToSinglePage
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示在以图形格式保存项目时是否应将项目呈现到单个页面  页面大小将被更改因此渲染的项目可以放在一页上
+description: 获取或设置一个值该值指示项目是否应呈现为单个页面 当项目以图形格式保存时 页面大小将更改以便呈现的项目可以放在一页上
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks.saving/saveoptions/rendertosinglepage/
 ---
 ## SaveOptions.RenderToSinglePage property
 
-获取或设置一个值，该值指示在以图形格式保存项目时是否应将项目呈现到单个页面 。 页面大小将被更改，因此渲染的项目可以放在一页上。
+获取或设置一个值，该值指示项目是否应呈现为单个页面 当项目以图形格式保存时。 页面大小将更改，以便呈现的项目可以放在一页上。
 
 ```csharp
 public bool RenderToSinglePage { get; set; }

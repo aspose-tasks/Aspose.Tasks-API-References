@@ -3,7 +3,7 @@ title: PrinterPaperSize
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定用于打印的纸张尺寸
 type: docs
-weight: 2900
+weight: 2910
 url: /zh/net/aspose.tasks.visualization/printerpapersize/
 ---
 ## PrinterPaperSize enumeration
@@ -18,20 +18,20 @@ public enum PrinterPaperSize
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Custom | `1` | 表示纸张尺寸由用户定义。 |
+| Custom | `1` | 表示纸张大小由用户定义。 |
 | PaperLetter | `1` | 表示 Envelope Letter 打印机纸张尺寸（8.5 英寸 x 11 英寸）。 |
 | PaperLetterSmall | `2` | 表示 Small Letter 打印机纸张尺寸（8.5 英寸 x 11 英寸）。 |
 | PaperTabloid | `3` | 表示 Tabloid 打印机纸张尺寸（11 英寸 x 17 英寸）。 |
 | PaperLedger | `4` | 表示 Ledger 打印机纸张尺寸（17 英寸 x 11 英寸）。 |
-| PaperLegal | `5` | 表示信封合法打印机纸张尺寸（8.5 英寸 x 14 英寸）。 |
+| PaperLegal | `5` | 表示信封 Legal 打印机纸张尺寸（8.5 英寸 x 14 英寸）。 |
 | PaperStatement | `6` | 表示对帐单打印机纸张尺寸（5.5 英寸 x 8.5 英寸）。 |
 | PaperExecutive | `7` | 表示 Envelope 执行打印机纸张尺寸（7.25 英寸 x 10.5 英寸）。 |
 | PaperA3 | `8` | 表示 A3 打印纸尺寸（297 毫米 x 420 毫米）。 |
 | PaperA4 | `9` | 表示 A4 打印纸尺寸（210 毫米 x 297 毫米）。 |
 | PaperA4Small | `10` | 表示小 A4 打印纸尺寸（210 毫米 x 297 毫米）。 |
 | PaperA5 | `11` | 表示 A5 打印纸尺寸（148 毫米 x 210 毫米）。 |
-| PaperB4 | `12` | 表示 B4 打印纸尺寸（250 毫米 x 353 毫米）。 |
-| PaperB5 | `13` | 表示 B5 打印纸尺寸（176 毫米 x 250 毫米）。 |
+| PaperB4 | `12` | 表示 B4 打印机纸张尺寸（250 毫米 x 353 毫米）。 |
+| PaperB5 | `13` | 表示 B5 打印机纸张尺寸（176 毫米 x 250 毫米）。 |
 | PaperFolio | `14` | 表示 Folio 打印机纸张尺寸（8.5 英寸 x 13 英寸）。 |
 | PaperQuarto | `15` | 表示 Quato 打印机纸张尺寸（215 毫米 x 275 毫米）。 |
 | PaperStandard10x14 | `16` | 表示标准打印机纸张尺寸（10 英寸 x 14 英寸）。 |

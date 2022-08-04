@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置项目页数
+description: 获取或设置项目的页数
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks.saving/saveoptions/pagecount/
 ---
 ## SaveOptions.PageCount property
 
-获取或设置项目页数。
+获取或设置项目的页数。
 
 ```csharp
 public int PageCount { get; }

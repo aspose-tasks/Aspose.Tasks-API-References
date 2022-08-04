@@ -1,14 +1,14 @@
 ---
 title: RepetitionInterval
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает количество недель представляющее интервал в неделях между событиями.
+description: Получает или задает число недель представляющее интервал в неделях между событиями.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/weeklyrepetitionbase/repetitioninterval/
 ---
 ## WeeklyRepetitionBase.RepetitionInterval property
 
-Получает или задает количество недель, представляющее интервал в неделях между событиями.
+Получает или задает число недель, представляющее интервал в неделях между событиями.
 
 ```csharp
 public int RepetitionInterval { get; set; }

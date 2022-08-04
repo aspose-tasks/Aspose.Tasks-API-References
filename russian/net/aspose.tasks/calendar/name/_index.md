@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает имя календаря. Чтение/записьString.
+description: Получает или задает имя календаря. Чтение/записьString .
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/calendar/name/
 ---
 ## Calendar.Name property
 
-Получает или задает имя календаря. Чтение/записьString.
+Получает или задает имя календаря. Чтение/записьString .
 
 ```csharp
 public string Name { get; set; }

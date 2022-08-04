@@ -1,14 +1,14 @@
 ---
 title: WrapText
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示列文本是否可以换行为多行或者在超出列宽时是否应截断  MSP 2010 及更高版本支持
+description: 获取或设置一个值该值指示列文本是否可以换行或者超过列宽时是否应截断 MSP 2010 及更高版本支持
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/tablefield/wraptext/
 ---
 ## TableField.WrapText property
 
-获取或设置一个值，该值指示列文本是否可以换行为多行，或者在超出列宽时是否应截断。  MSP 2010 及更高版本支持。
+获取或设置一个值，该值指示列文本是否可以换行，或者超过列宽时是否应截断。 MSP 2010 及更高版本支持。
 
 ```csharp
 public bool WrapText { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: NoPrinterInstalledException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет собой исключение которое возникает когда в ОС нет установленного принтера.
+description: Представляет исключение которое возникает когда в ОС нет установленного принтера.
 type: docs
 weight: 960
 url: /ru/net/aspose.tasks/noprinterinstalledexception/
 ---
 ## NoPrinterInstalledException class
 
-Представляет собой исключение, которое возникает, когда в ОС нет установленного принтера.
+Представляет исключение, которое возникает, когда в ОС нет установленного принтера.
 
 ```csharp
 public class NoPrinterInstalledException : Exception

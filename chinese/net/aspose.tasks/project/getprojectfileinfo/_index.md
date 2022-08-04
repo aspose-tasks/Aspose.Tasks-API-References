@@ -20,7 +20,7 @@ public static ProjectFileInfo GetProjectFileInfo(string filename)
 
 ### 返回值
 
-项目文件信息[`ProjectFileInfo`](../../projectfileinfo)。
+项目文件信息[`ProjectFileInfo`](../../projectfileinfo).
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public static ProjectFileInfo GetProjectFileInfo(Stream stream)
 
 ### 返回值
 
-项目文件信息[`ProjectFileInfo`](../../projectfileinfo)。
+项目文件信息[`ProjectFileInfo`](../../projectfileinfo).
 
 ### 也可以看看
 

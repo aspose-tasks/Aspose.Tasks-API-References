@@ -1,14 +1,14 @@
 ---
 title: AvailableUnits
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置指定时间段内可用资源的百分比
+description: 获取或设置资源在指定时间段内可用的百分比
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/availabilityperiod/availableunits/
 ---
 ## AvailabilityPeriod.AvailableUnits property
 
-获取或设置指定时间段内可用资源的百分比。
+获取或设置资源在指定时间段内可用的百分比。
 
 ```csharp
 public double AvailableUnits { get; set; }

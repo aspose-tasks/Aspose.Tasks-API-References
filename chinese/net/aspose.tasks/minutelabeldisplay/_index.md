@@ -18,9 +18,9 @@ public enum MinuteLabelDisplay
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| M | `0` | 将 MS Project 中的 Minutes 列表设置为 m。 |
-| Min | `1` | 将 MS Project 中的 Minutes 列表设置为 min。 |
-| Minute | `2` | 将 MS Project 中的分钟列表设置为分钟。 |
+| M | `0` | 将 MS Project 中的 Minutes 列表设置为 m. |
+| Min | `1` | 将 MS Project 中的 Minutes 列表设置为 min. |
+| Minute | `2` | 将 MS Project 中的 Minutes 列表设置为 minute. |
 
 ### 也可以看看
 

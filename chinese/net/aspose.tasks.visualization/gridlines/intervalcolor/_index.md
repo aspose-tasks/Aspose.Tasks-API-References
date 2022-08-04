@@ -1,14 +1,14 @@
 ---
 title: IntervalColor
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置辅助网格线的颜色
+description: 获取或设置二级网格线的颜色
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/gridlines/intervalcolor/
 ---
 ## Gridlines.IntervalColor property
 
-获取或设置辅助网格线的颜色。
+获取或设置二级网格线的颜色。
 
 ```csharp
 public Color IntervalColor { get; set; }

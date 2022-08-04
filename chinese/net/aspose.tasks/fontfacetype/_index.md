@@ -20,7 +20,7 @@ public enum FontFaceType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotSpecified | `0` | 未指定字体类型。 |
-| Ttf | `1` | 真字体。 |
+| Ttf | `1` | 真正的字体。 |
 | Eot | `2` | EOT 字体。 |
 | Woff | `4` | WOFF 字体。 |
 

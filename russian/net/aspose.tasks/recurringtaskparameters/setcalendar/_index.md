@@ -17,7 +17,7 @@ public void SetCalendar(Project project, string calendarName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | project | Project | Проект с коллекцией календарей. |
-| calendarName | String | Имя календаря. |
+| calendarName | String | Название календаря. |
 
 ### Смотрите также
 

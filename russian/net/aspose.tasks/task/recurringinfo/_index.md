@@ -1,14 +1,14 @@
 ---
 title: RecurringInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаRecurringTaskInfoaspose.tasks/recurringtaskinfoдля повторяющейся задачи если задача не повторяющаяся то возвращает null  Информация об экземпляреRecurringTaskInfoaspose.tasks/recurringtaskinfoпредставлена только в формате файла mpp.
+description: Получает экземплярRecurringTaskInfoaspose.tasks/recurringtaskinfo класс для задачи которая является повторяющейся задачей если задача не повторяющаяся то возвращает null  Информация для экземпляраRecurringTaskInfoaspose.tasks/recurringtaskinfo присутствует только в формате файла mpp.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/task/recurringinfo/
 ---
 ## Task.RecurringInfo property
 
-Получает экземпляр класса[`RecurringTaskInfo`](../../recurringtaskinfo)для повторяющейся задачи; если задача не повторяющаяся, то возвращает null;  Информация об экземпляре[`RecurringTaskInfo`](../../recurringtaskinfo)представлена только в формате файла mpp.
+Получает экземпляр[`RecurringTaskInfo`](../../recurringtaskinfo) класс для задачи, которая является повторяющейся задачей; если задача не повторяющаяся, то возвращает null;  Информация для экземпляра[`RecurringTaskInfo`](../../recurringtaskinfo) присутствует только в формате файла mpp.
 
 ```csharp
 public RecurringTaskInfo RecurringInfo { get; }

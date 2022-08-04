@@ -1,14 +1,14 @@
 ---
 title: BottomTimescaleTier
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает настройки нижнего уровня временной шкалы представления. TimescaleTieraspose.tasks.visualization/timescaletier
+description: Получает или задает настройки нижнего уровня шкалы времени представления. TimescaleTieraspose.tasks.visualization/timescaletier
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/usageview/bottomtimescaletier/
 ---
 ## UsageView.BottomTimescaleTier property
 
-Получает или задает настройки нижнего уровня временной шкалы представления. [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier)
+Получает или задает настройки нижнего уровня шкалы времени представления. [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier)
 
 ```csharp
 public TimescaleTier BottomTimescaleTier { get; set; }

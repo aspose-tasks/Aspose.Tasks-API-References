@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeWorkProtected
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Продолжительность в течение которой фактическая сверхурочная работа защищена.  Чтение поддерживается только для формата XML. Durationaspose.tasks/tsk/durationtype.
+description: Продолжительность в течение которой фактическая сверхурочная работа защищена.  Чтение поддерживается только для формата XML. Durationaspose.tasks/tsk/duration тип.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/tsk/actualovertimeworkprotected/
 ---
 ## Tsk.ActualOvertimeWorkProtected field
 
-Продолжительность, в течение которой фактическая сверхурочная работа защищена.  Чтение поддерживается только для формата XML. [`Duration`](../duration)type.
+Продолжительность, в течение которой фактическая сверхурочная работа защищена.  Чтение поддерживается только для формата XML. [`Duration`](../duration) тип.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualOvertimeWorkProtected;

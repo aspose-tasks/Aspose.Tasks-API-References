@@ -18,14 +18,14 @@ public class DailyRecurrencePattern : RecurrencePatternBase
 
 | Имя | Описание |
 | --- | --- |
-| [DailyRecurrencePattern](dailyrecurrencepattern)() | Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../dailyrecurrencepattern). |
+| [DailyRecurrencePattern](dailyrecurrencepattern)() | Инициализирует новый экземпляр[`DailyRecurrencePattern`](../dailyrecurrencepattern) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [RecurrenceRange](../../aspose.tasks/recurrencepatternbase/recurrencerange) { get; set; } | Получает или задает диапазон повторения. |
-| [Repetition](../../aspose.tasks/dailyrecurrencepattern/repetition) { get; set; } | Получает или задает шаблон повторений в ежедневном шаблоне повторения. |
+| [Repetition](../../aspose.tasks/dailyrecurrencepattern/repetition) { get; set; } | Получает или задает шаблон повторений в шаблоне ежедневного повторения. |
 
 ### Смотрите также
 

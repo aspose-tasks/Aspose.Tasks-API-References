@@ -1,14 +1,14 @@
 ---
 title: Timescale
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значениеTimescaleaspose.tasks.saving/saveoptions/timescale которое используется для управления шкалой времени если имеется отображается при сохранении проекта в графическом формате.
+description: Получает или задаетTimescaleaspose.tasks.saving/saveoptions/timescale значение которое используется для управления визуализацией временной шкалы если она присутствует при сохранении проекта в графическом формате.
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks.saving/saveoptions/timescale/
 ---
 ## SaveOptions.Timescale property
 
-Получает или задает значение`Timescale`, которое используется для управления шкалой времени (если имеется) отображается при сохранении проекта в графическом формате.
+Получает или задает`Timescale` значение, которое используется для управления визуализацией временной шкалы (если она присутствует) при сохранении проекта в графическом формате.
 
 ```csharp
 public Timescale Timescale { get; set; }

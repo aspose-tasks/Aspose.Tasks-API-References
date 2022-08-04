@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Копирует элементыTimephasedDataCollectionaspose.tasks/timephaseddatacollectionвArray начиная с определенногоArrayindex.
+description: Копирует элементыTimephasedDataCollectionaspose.tasks/timephaseddatacollectionчтобыArray  начиная с определенногоArray индекс.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/timephaseddatacollection/copyto/
 ---
 ## TimephasedDataCollection.CopyTo method
 
-Копирует элементы[`TimephasedDataCollection`](../../timephaseddatacollection)вArray, начиная с определенногоArrayindex.
+Копирует элементы[`TimephasedDataCollection`](../../timephaseddatacollection)чтобыArray , начиная с определенногоArray индекс.
 
 ```csharp
 public void CopyTo(TimephasedData[] array, int arrayIndex)
@@ -16,16 +16,16 @@ public void CopyTo(TimephasedData[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | TimephasedData[] | ОдномерныйArrayкуда копируются элементы from[`TimephasedDataCollection`](../../timephaseddatacollection). Arrayиндексация должна начинаться с нуля. |
-| arrayIndex | Int32 | Отсчитываемый от нуля индекс в*array*с которого начинается копирование. |
+| array | TimephasedData[] | одномерныйArray это место назначения элементов, скопированных из[`TimephasedDataCollection`](../../timephaseddatacollection) . Array должны иметь индексацию с отсчетом от нуля. |
+| arrayIndex | Int32 | Индекс с отсчетом от нуля в*array* при котором начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array*равно нулю. |
-| ArgumentOutOfRangeException | *arrayIndex*меньше 0. |
-| ArgumentException | Количество элементов в источнике[`TimephasedDataCollection`](../../timephaseddatacollection) больше, чем доступное пространство из*arrayIndex*до конца адресата*array*. |
+| ArgumentNullException | *array* нулевой. |
+| ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
+| ArgumentException | Количество элементов в исходнике[`TimephasedDataCollection`](../../timephaseddatacollection) больше, чем доступное пространство от*arrayIndex* до конца пункта назначения*array* . |
 
 ### Смотрите также
 

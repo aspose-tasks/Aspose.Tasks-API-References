@@ -3,7 +3,7 @@ title: ITextStyleModificationCallback
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет обратный вызов который вызывается перед применением TextStyle к ячейке таблицы.
 type: docs
-weight: 2790
+weight: 2800
 url: /ru/net/aspose.tasks.visualization/itextstylemodificationcallback/
 ---
 ## ITextStyleModificationCallback interface
@@ -18,7 +18,7 @@ public interface ITextStyleModificationCallback
 
 | Имя | Описание |
 | --- | --- |
-| [BeforeTaskTextStyleApplied](../../aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied)(TaskTextStyleEventArgs) | Метод, вызываемый перед визуализацией ячейки таблицы для строки задачи в следующих представлениях: 'Диаграмма Ганта', 'Таблица задач ', 'Использование задач'. |
+| [BeforeTaskTextStyleApplied](../../aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied)(TaskTextStyleEventArgs) | Метод, вызываемый перед визуализацией ячейки таблицы для строки задачи в следующих представлениях: 'Диаграмма Ганта', 'Лист задач', 'Использование задачи'. |
 
 ### Смотрите также
 

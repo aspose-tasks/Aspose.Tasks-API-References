@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取TaskCollection对象的父项目
+description: 获取TaskCollection 对象的父项目
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/taskcollection/parentproject/
 ---
 ## TaskCollection.ParentProject property
 
-获取TaskCollection对象的父项目。
+获取TaskCollection 对象的父项目。
 
 ```csharp
 public Project ParentProject { get; }

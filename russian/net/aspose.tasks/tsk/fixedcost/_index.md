@@ -1,14 +1,14 @@
 ---
 title: FixedCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Показывает любые затраты на задачи не связанные с ресурсами.
+description: Показывает любые расходы на задачи не связанные с ресурсами.
 type: docs
 weight: 430
 url: /ru/net/aspose.tasks/tsk/fixedcost/
 ---
 ## Tsk.FixedCost field
 
-Показывает любые затраты на задачи, не связанные с ресурсами.
+Показывает любые расходы на задачи, не связанные с ресурсами.
 
 ```csharp
 public static readonly Key<double, TaskKey> FixedCost;

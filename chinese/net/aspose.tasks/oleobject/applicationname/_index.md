@@ -1,14 +1,14 @@
 ---
 title: ApplicationName
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用于打开嵌入对象的应用程序名称
+description: 获取或设置应用程序名称以打开嵌入对象
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/oleobject/applicationname/
 ---
 ## OleObject.ApplicationName property
 
-获取或设置用于打开嵌入对象的应用程序名称。
+获取或设置应用程序名称以打开嵌入对象。
 
 ```csharp
 public string ApplicationName { get; set; }

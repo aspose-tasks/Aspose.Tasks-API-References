@@ -1,14 +1,14 @@
 ---
 title: PhysicalPercentComplete
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Значение процента завершения которое можно использовать в качестве альтернативы для расчета сметной стоимости выполненных работ БСВР.
+description: Значение процента завершения которое можно использовать в качестве альтернативы для расчета бюджетной стоимости выполненных работ BCWP.
 type: docs
 weight: 910
 url: /ru/net/aspose.tasks/tsk/physicalpercentcomplete/
 ---
 ## Tsk.PhysicalPercentComplete field
 
-Значение процента завершения, которое можно использовать в качестве альтернативы для расчета сметной стоимости выполненных работ (БСВР).
+Значение процента завершения, которое можно использовать в качестве альтернативы для расчета бюджетной стоимости выполненных работ (BCWP).
 
 ```csharp
 public static readonly Key<int, TaskKey> PhysicalPercentComplete;

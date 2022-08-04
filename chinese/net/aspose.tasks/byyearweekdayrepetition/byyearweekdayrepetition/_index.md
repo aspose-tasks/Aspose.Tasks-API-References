@@ -1,14 +1,14 @@
 ---
 title: ByYearWeekDayRepetition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ByYearWeekDayRepetitionaspose.tasks/byyearweekdayrepetition类的新实例
+description: 初始化ByYearWeekDayRepetitionaspose.tasks/byyearweekdayrepetition班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/byyearweekdayrepetition/byyearweekdayrepetition/
 ---
 ## ByYearWeekDayRepetition constructor
 
-初始化[`ByYearWeekDayRepetition`](../../byyearweekdayrepetition)类的新实例。
+初始化[`ByYearWeekDayRepetition`](../../byyearweekdayrepetition)班级。
 
 ```csharp
 public ByYearWeekDayRepetition()

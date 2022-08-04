@@ -1,14 +1,14 @@
 ---
 title: EnterpriseOutlineCodeAlias
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает ссылку на другое настраиваемое поле для которого это определение кода структуры является псевдонимом.
+description: Получает или задает ссылку на другое настраиваемое поле псевдонимом которого является это определение кода схемы.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/
 ---
 ## OutlineCodeDefinition.EnterpriseOutlineCodeAlias property
 
-Получает или задает ссылку на другое настраиваемое поле, для которого это определение кода структуры является псевдонимом.
+Получает или задает ссылку на другое настраиваемое поле, псевдонимом которого является это определение кода схемы.
 
 ```csharp
 public int EnterpriseOutlineCodeAlias { get; set; }

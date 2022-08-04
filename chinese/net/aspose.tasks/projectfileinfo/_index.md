@@ -1,14 +1,14 @@
 ---
 title: ProjectFileInfo
 second_title: Aspose.Tasks for .NET API 参考
-description: 类实例包含有关项目文件格式和 Microsoft Project 版本的信息其中 文件被创建
+description: 类实例包含有关项目文件格式和 Microsoft Project 版本的信息 文件是在哪里创建的
 type: docs
 weight: 1200
 url: /zh/net/aspose.tasks/projectfileinfo/
 ---
 ## ProjectFileInfo class
 
-类实例包含有关项目文件格式和 Microsoft Project 版本的信息，其中 文件被创建。
+类实例包含有关项目文件格式和 Microsoft Project 版本的信息， 文件是在哪里创建的。
 
 ```csharp
 public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
@@ -18,7 +18,7 @@ public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CanRead](../../aspose.tasks/projectfileinfo/canread) { get; } | 获取一个值，该值指示定义是否可以 Aspose.Tasks 处理项目文件。 |
+| [CanRead](../../aspose.tasks/projectfileinfo/canread) { get; } | 获取一个值，表示定义是否可以 Aspose.Tasks 处理项目文件。 |
 | [IsPasswordProtected](../../aspose.tasks/projectfileinfo/ispasswordprotected) { get; } | 获取一个值，该值指示项目是否受密码保护。 |
 | [ProjectApplicationInfo](../../aspose.tasks/projectfileinfo/projectapplicationinfo) { get; } | 获取项目文件应用信息。 |
 | [ProjectFileFormat](../../aspose.tasks/projectfileinfo/projectfileformat) { get; } | 获取项目文件格式。 |
@@ -29,7 +29,7 @@ public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
 | --- | --- |
 | override [Equals](../../aspose.tasks/projectfileinfo/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定对象。 |
 | [Equals](../../aspose.tasks/projectfileinfo/equals#equals)(ProjectFileInfo) | 返回一个值，指示此实例是否等于指定对象。 |
-| override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode)() | 返回[`ProjectFileInfo`](../projectfileinfo)类实例的哈希码值。 |
+| override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode)() | 返回实例的哈希码值[`ProjectFileInfo`](../projectfileinfo)类. |
 
 ### 评论
 

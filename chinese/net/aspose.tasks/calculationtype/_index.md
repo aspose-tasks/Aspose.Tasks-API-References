@@ -21,8 +21,8 @@ public enum CalculationType
 | None | `0` | 表示扩展属性没有公式的查找表，只存储用户设置的值。 |
 | Lookup | `1` | 表示扩展属性的值仅限于查找表中的值。 |
 | Rollup | `2` | 表示扩展属性的值汇总到任务和组摘要行。 |
-| Formula | `3` | 表示扩展属性的值是使用[`Formula`](../extendedattributedefinition/formula)中定义的公式计算的。 |
-| Calculation | `3` | 表示扩展属性的值使用公式计算。 |
+| Formula | `3` | 表示扩展属性的值是使用定义的公式计算的[`Formula`](../extendedattributedefinition/formula). |
+| Calculation | `3` | 表示扩展属性的值是使用公式计算的。 |
 
 ### 也可以看看
 

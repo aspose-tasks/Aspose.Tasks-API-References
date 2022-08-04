@@ -1,14 +1,14 @@
 ---
 title: TaskBaselineCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示TaskBaseline./taskbaseline对象的集合
+description: 代表一个集合TaskBaseline./taskbaseline对象.
 type: docs
 weight: 2080
 url: /zh/net/aspose.tasks/taskbaselinecollection/
 ---
 ## TaskBaselineCollection class
 
-表示[`TaskBaseline`](../taskbaseline)对象的集合。
+代表一个集合[`TaskBaseline`](../taskbaseline)对象.
 
 ```csharp
 public class TaskBaselineCollection : IList<TaskBaseline>
@@ -28,7 +28,7 @@ public class TaskBaselineCollection : IList<TaskBaseline>
 | [Add](../../aspose.tasks/taskbaselinecollection/add)(TaskBaseline) | 这是 ICollection 的 Add 方法的存根实现，只抛出 NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/taskbaselinecollection/getenumerator)() | 返回此集合的枚举数。 |
 | [Remove](../../aspose.tasks/taskbaselinecollection/remove)(TaskBaseline) | 从此集合中删除基线。 |
-| [ToList](../../aspose.tasks/taskbaselinecollection/tolist)() | 将 TaskBaselineCollection 对象转换为[`TaskBaseline`](../taskbaseline)对象的列表。 |
+| [ToList](../../aspose.tasks/taskbaselinecollection/tolist)() | 将 TaskBaselineCollection 对象转换为[`TaskBaseline`](../taskbaseline)对象. |
 
 ### 也可以看看
 

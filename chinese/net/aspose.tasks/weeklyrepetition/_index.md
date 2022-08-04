@@ -3,7 +3,7 @@ title: WeeklyRepetition
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示基于工作日的模式
 type: docs
-weight: 3200
+weight: 3210
 url: /zh/net/aspose.tasks/weeklyrepetition/
 ---
 ## WeeklyRepetition class
@@ -18,13 +18,13 @@ public class WeeklyRepetition : WeeklyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WeeklyRepetition](weeklyrepetition)() | 初始化[`WeeklyRepetition`](../weeklyrepetition)类的新实例。 |
+| [WeeklyRepetition](weeklyrepetition)() | 初始化[`WeeklyRepetition`](../weeklyrepetition)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置表示事件之间的间隔（以周为单位）的周数。 |
+| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置周数，表示事件之间的间隔（以周为单位）。 |
 | [WeekDays](../../aspose.tasks/weeklyrepetition/weekdays) { get; set; } | 获取或设置工作日类型。 |
 
 ### 也可以看看

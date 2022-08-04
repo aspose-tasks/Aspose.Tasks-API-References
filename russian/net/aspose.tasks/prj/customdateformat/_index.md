@@ -1,14 +1,14 @@
 ---
 title: CustomDateFormat
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Пользовательский формат даты представления проекта. Используется для форматирования дат когда для свойстваDateFormataspose.tasks/prj/dateformatустановлено значениеCustom.
+description: Пользовательский формат даты представления проекта. Используется для форматирования дат когдаDateFormataspose.tasks/prj/dateformat свойство установлено наCustom .
 type: docs
 weight: 190
 url: /ru/net/aspose.tasks/prj/customdateformat/
 ---
 ## Prj.CustomDateFormat field
 
-Пользовательский формат даты представления проекта. Используется для форматирования дат, когда для свойства[`DateFormat`](../dateformat)установлено значениеCustom.
+Пользовательский формат даты представления проекта. Используется для форматирования дат, когда[`DateFormat`](../dateformat) свойство установлено наCustom .
 
 ```csharp
 public static readonly Key<string, PrjKey> CustomDateFormat;

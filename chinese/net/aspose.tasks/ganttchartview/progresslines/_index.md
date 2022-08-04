@@ -1,14 +1,14 @@
 ---
 title: ProgressLines
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置甘特图视图的进度线 ProgressLinesaspose.tasks/ganttchartview/progresslines
+description: 获取或设置甘特图视图的进度线 ProgressLinesaspose.tasks/ganttchartview/progresslines.
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/ganttchartview/progresslines/
 ---
 ## GanttChartView.ProgressLines property
 
-获取或设置甘特图视图的进度线。 `ProgressLines`。
+获取或设置甘特图视图的进度线。 `ProgressLines`.
 
 ```csharp
 public ProgressLines ProgressLines { get; set; }

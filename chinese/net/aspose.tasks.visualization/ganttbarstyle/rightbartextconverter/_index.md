@@ -1,14 +1,14 @@
 ---
 title: RightBarTextConverter
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本覆盖RightFieldaspose.tasks.visualization/ganttbarstyle/rightfield属性的值
+description: 获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本覆盖的值RightFieldaspose.tasks.visualization/ganttbarstyle/rightfield属性.
 type: docs
 weight: 170
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/rightbartextconverter/
 ---
 ## GanttBarStyle.RightBarTextConverter property
 
-获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本。覆盖[`RightField`](../rightfield)属性的值。
+获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本。覆盖的值[`RightField`](../rightfield)属性.
 
 ```csharp
 public TaskBarTextConverter RightBarTextConverter { get; set; }

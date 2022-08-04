@@ -1,14 +1,14 @@
 ---
 title: VbaModuleAttribute
 second_title: Aspose.Tasks for .NET API 参考
-description: VbaModule./vbamodule对象的属性
+description: 的属性VbaModule./vbamoduleobject
 type: docs
-weight: 2470
+weight: 2480
 url: /zh/net/aspose.tasks/vbamoduleattribute/
 ---
 ## VbaModuleAttribute class
 
-[`VbaModule`](../vbamodule)对象的属性
+的属性[`VbaModule`](../vbamodule)object
 
 ```csharp
 public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
@@ -25,9 +25,9 @@ public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../vbamoduleattribute)对象。 |
-| [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals)(VbaModuleAttribute) | 返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../vbamoduleattribute)对象。 |
-| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode)() | 返回此[`VbaModuleAttribute`](../vbamoduleattribute)的哈希码值。 |
+| override [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../vbamoduleattribute)对象. |
+| [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals)(VbaModuleAttribute) | 返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../vbamoduleattribute)对象. |
+| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode)() | 为此返回一个哈希码值[`VbaModuleAttribute`](../vbamoduleattribute). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回TextItemTypeaspose.tasks.visualization/textitemtype枚举的值
+description: 返回的值TextItemTypeaspose.tasks.visualization/textitemtype枚举.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/tabletextstyle/itemtype/
 ---
 ## TableTextStyle.ItemType property
 
-返回[`TextItemType`](../../textitemtype)枚举的值。
+返回的值[`TextItemType`](../../textitemtype)枚举.
 
 ```csharp
 public override TextItemType ItemType { get; }

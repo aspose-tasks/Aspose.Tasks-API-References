@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаLoadOptionsaspose.tasks/loadoptions.
+description: Инициализирует новый экземплярLoadOptionsaspose.tasks/loadoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/loadoptions/loadoptions/
 ---
 ## LoadOptions constructor
 
-Инициализирует новый экземпляр класса[`LoadOptions`](../../loadoptions).
+Инициализирует новый экземпляр[`LoadOptions`](../../loadoptions) класс.
 
 ```csharp
 public LoadOptions()

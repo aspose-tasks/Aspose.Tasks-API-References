@@ -1,14 +1,14 @@
 ---
 title: NullableBool
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр структурыNullableBoolaspose.tasks/nullableboolс указанным логическим значением.
+description: Инициализирует новый экземплярNullableBoolaspose.tasks/nullablebool структура с указанным логическим значением.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/nullablebool/nullablebool/
 ---
 ## NullableBool(bool) {#constructor}
 
-Инициализирует новый экземпляр структуры[`NullableBool`](../../nullablebool)с указанным логическим значением.
+Инициализирует новый экземпляр[`NullableBool`](../../nullablebool) структура с указанным логическим значением.
 
 ```csharp
 public NullableBool(bool value)
@@ -16,7 +16,7 @@ public NullableBool(bool value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Boolean | указанное логическое значение. |
+| value | Boolean | заданное логическое значение. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public NullableBool(bool value)
 
 ## NullableBool(bool, bool) {#constructor_1}
 
-Инициализирует новый экземпляр структуры[`NullableBool`](../../nullablebool).
+Инициализирует новый экземпляр[`NullableBool`](../../nullablebool) структура.
 
 ```csharp
 public NullableBool(bool value, bool isDefined)

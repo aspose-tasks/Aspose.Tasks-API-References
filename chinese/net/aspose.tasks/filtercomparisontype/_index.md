@@ -1,14 +1,14 @@
 ---
 title: FilterComparisonType
 second_title: Aspose.Tasks for .NET API 参考
-description: FieldName 和 Value 之间的比较类型用作过滤器的选择标准
+description: 在 FieldName 和 Value 之间进行的比较类型用作过滤器的选择标准
 type: docs
 weight: 610
 url: /zh/net/aspose.tasks/filtercomparisontype/
 ---
 ## FilterComparisonType enumeration
 
-FieldName 和 Value 之间的比较类型，用作过滤器的选择标准。
+在 FieldName 和 Value 之间进行的比较类型，用作过滤器的选择标准。
 
 ```csharp
 public enum FilterComparisonType
@@ -18,19 +18,19 @@ public enum FilterComparisonType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Equals | `6` | Field 的值等于 Value。 |
-| DoesNotEqual | `7` | Field 的值不等于 Value。 |
-| IsGreaterThan | `2` | Field 的值大于 Value。 |
-| IsGreaterThanOrEqualTo | `4` | Field的值大于等于Value。 |
-| IsLessThan | `3` | Field 的值小于 Value。 |
-| IsLessThanOrEqualTo | `5` | Field的值小于等于Value。 |
-| IsWithin | `1` | Field 的值在 Value 之内。 |
-| IsNotWithin | `9` | Field 的值不在 Value 中。 |
-| Contains | `8` | 字段的值包含值。 |
-| DoesNotContain | `10` | Field 的值不包含 Value。 |
-| ContainsExactly | `11` | Field的值正好包含Value。 |
-| IsOneOf | `12` | Field 的值等于指定的值之一。用于自动过滤器。 |
-| Undefined | `0` | 未定义值。 |
+| Equals | `6` | 字段的值等于Value. |
+| DoesNotEqual | `7` | Field 的值不等于 Value. |
+| IsGreaterThan | `2` | Field的值大于Value. |
+| IsGreaterThanOrEqualTo | `4` | Field的值大于等于Value. |
+| IsLessThan | `3` | Field的值小于Value. |
+| IsLessThanOrEqualTo | `5` | Field的值小于等于Value. |
+| IsWithin | `1` | Field的值在Value之内。 |
+| IsNotWithin | `9` | Field的值不在Value之内。 |
+| Contains | `8` | 字段的值包含Value. |
+| DoesNotContain | `10` | Field的值不包含Value. |
+| ContainsExactly | `11` | Field的值正好包含Value. |
+| IsOneOf | `12` | 字段的值等于指定的值之一。用于自动过滤器。 |
+| Undefined | `0` | 未定义的值。 |
 
 ### 也可以看看
 

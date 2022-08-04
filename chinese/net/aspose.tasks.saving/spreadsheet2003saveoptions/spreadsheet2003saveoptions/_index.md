@@ -1,14 +1,14 @@
 ---
 title: Spreadsheet2003SaveOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化Spreadsheet2003SaveOptionsaspose.tasks.saving/spreadsheet2003saveoptions类的新实例
+description: 初始化Spreadsheet2003SaveOptionsaspose.tasks.saving/spreadsheet2003saveoptions班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/spreadsheet2003saveoptions/spreadsheet2003saveoptions/
 ---
 ## Spreadsheet2003SaveOptions constructor
 
-初始化[`Spreadsheet2003SaveOptions`](../../spreadsheet2003saveoptions)类的新实例。
+初始化[`Spreadsheet2003SaveOptions`](../../spreadsheet2003saveoptions)班级。
 
 ```csharp
 public Spreadsheet2003SaveOptions()

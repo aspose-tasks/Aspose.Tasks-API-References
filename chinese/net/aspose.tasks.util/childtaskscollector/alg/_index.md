@@ -1,14 +1,14 @@
 ---
 title: Alg
 second_title: Aspose.Tasks for .NET API 参考
-description: 处理指定对象
+description: 处理指定的对象
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.util/childtaskscollector/alg/
 ---
 ## ChildTasksCollector.Alg method
 
-处理指定对象。
+处理指定的对象。
 
 ```csharp
 public override void Alg(Task el, int level)

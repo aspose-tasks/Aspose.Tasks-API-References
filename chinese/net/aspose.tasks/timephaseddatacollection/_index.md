@@ -1,14 +1,14 @@
 ---
 title: TimephasedDataCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示TimephasedData./timephaseddata对象的集合
+description: 代表一个集合TimephasedData./timephaseddata对象.
 type: docs
 weight: 2270
 url: /zh/net/aspose.tasks/timephaseddatacollection/
 ---
 ## TimephasedDataCollection class
 
-表示[`TimephasedData`](../timephaseddata)对象的集合。
+代表一个集合[`TimephasedData`](../timephaseddata)对象.
 
 ```csharp
 public abstract class TimephasedDataCollection : IList<TimephasedData>
@@ -18,29 +18,29 @@ public abstract class TimephasedDataCollection : IList<TimephasedData>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TimephasedDataCollection](timephaseddatacollection)() | 初始化[`TimephasedDataCollection`](../timephaseddatacollection)类的新实例。 |
+| [TimephasedDataCollection](timephaseddatacollection)() | 初始化一个新的实例[`TimephasedDataCollection`](../timephaseddatacollection)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/timephaseddatacollection/count) { get; } | 获取此[`TimephasedDataCollection`](../timephaseddatacollection)对象中包含的对象数。 |
-| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly) { get; } | 获取一个值，该值指示ICollection是否为只读。 |
-| [Item](../../aspose.tasks/timephaseddatacollection/item) { get; set; } | 返回指定索引处的元素。不支持 set 访问器。 属性来设置时间分段数据。 |
+| [Count](../../aspose.tasks/timephaseddatacollection/count) { get; } | 获取此包含的对象数[`TimephasedDataCollection`](../timephaseddatacollection)对象. |
+| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly) { get; } | 获取一个值，该值指示是否ICollection是只读的。 |
+| [Item](../../aspose.tasks/timephaseddatacollection/item) { get; set; } | 返回指定索引处的元素。不支持 set 访问器。 属性设置时间分段数据。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.tasks/timephaseddatacollection/add)(TimephasedData) | 将[`TimephasedData`](../timephaseddata)实例添加到此集合对象。 |
-| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange)(IEnumerable&lt;TimephasedData&gt;) | 将[`TimephasedData`](../timephaseddata)实例的集合添加到此集合对象。 |
-| [Clear](../../aspose.tasks/timephaseddatacollection/clear)() | 从[`TimephasedDataCollection`](../timephaseddatacollection)中删除所有项目。 |
-| [Contains](../../aspose.tasks/timephaseddatacollection/contains)(TimephasedData) | 确定[`TimephasedDataCollection`](../timephaseddatacollection)是否包含特定值。 |
-| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto)(TimephasedData[], int) | 将[`TimephasedDataCollection`](../timephaseddatacollection)的元素复制到Array, 从特定的Array索引开始。 |
+| [Add](../../aspose.tasks/timephaseddatacollection/add)(TimephasedData) | 添加[`TimephasedData`](../timephaseddata)此集合对象的实例。 |
+| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange)(IEnumerable&lt;TimephasedData&gt;) | 添加一个集合[`TimephasedData`](../timephaseddata)此集合对象的实例。 |
+| [Clear](../../aspose.tasks/timephaseddatacollection/clear)() | 从[`TimephasedDataCollection`](../timephaseddatacollection). |
+| [Contains](../../aspose.tasks/timephaseddatacollection/contains)(TimephasedData) | 确定是否[`TimephasedDataCollection`](../timephaseddatacollection)包含特定值。 |
+| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto)(TimephasedData[], int) | 复制元素[`TimephasedDataCollection`](../timephaseddatacollection)对一个Array, 从一个特定的开始Array索引. |
 | [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator)() | 返回此集合的枚举数。 |
-| [Remove](../../aspose.tasks/timephaseddatacollection/remove)(TimephasedData) | 从此集合对象中删除[`TimephasedData`](../timephaseddata)实例。 |
-| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish)(TimephasedDataType, DateTime, DateTime) | 选择*startTime*和*finishTime*之间的所有时间阶段。在平均情况下具有 O(log n) 复杂度。 |
-| [ToList](../../aspose.tasks/timephaseddatacollection/tolist)() | 将[`TimephasedDataCollection`](../timephaseddatacollection)对象转换为TimephasedData的列表对象。 |
+| [Remove](../../aspose.tasks/timephaseddatacollection/remove)(TimephasedData) | 移除[`TimephasedData`](../timephaseddata)此集合对象的实例。 |
+| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish)(TimephasedDataType, DateTime, DateTime) | 选择之间的所有时间阶段*startTime*和*finishTime*.在平均情况下具有 O(log n) 复杂度。 |
+| [ToList](../../aspose.tasks/timephaseddatacollection/tolist)() | 转换[`TimephasedDataCollection`](../timephaseddatacollection)反对列表[`TimephasedData`](../timephaseddata)对象. |
 
 ### 也可以看看
 

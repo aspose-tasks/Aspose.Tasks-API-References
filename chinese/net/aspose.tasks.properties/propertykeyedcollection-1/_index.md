@@ -17,7 +17,7 @@ public abstract class PropertyKeyedCollection<T> : PropertyCollection<T>, IColle
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 属性类型。 |
+| T | 财产的类型。 |
 
 ## 特性
 
@@ -32,8 +32,8 @@ public abstract class PropertyKeyedCollection<T> : PropertyCollection<T>, IColle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(T) | 创建新的自定义属性。 |
-| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) | 确定[`PropertyCollection`](../propertycollection-1)是否包含具有指定名称的属性。 |
+| [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(T) | 创建一个新的自定义属性。 |
+| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) | 确定是否[`PropertyCollection`](../propertycollection-1)包含具有指定名称的属性。 |
 
 ### 也可以看看
 

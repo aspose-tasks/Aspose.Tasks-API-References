@@ -18,7 +18,7 @@ public class TableField
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TableField](tablefield)() | 初始化[`TableField`](../tablefield)类的新实例。 |
+| [TableField](tablefield)() | 初始化[`TableField`](../tablefield)班级。 |
 
 ## 特性
 
@@ -28,9 +28,9 @@ public class TableField
 | [AlignTitle](../../aspose.tasks/tablefield/aligntitle) { get; set; } | 获取或设置表格字段中标题的对齐方式。 |
 | [Field](../../aspose.tasks/tablefield/field) { get; set; } | 获取或设置表字段的类型。 |
 | [Title](../../aspose.tasks/tablefield/title) { get; set; } | 获取或设置表中字段的标题。 |
-| [Width](../../aspose.tasks/tablefield/width) { get; set; } | 获取或设置表中字段列的宽度（以磅为单位）。 |
-| [WrapHeader](../../aspose.tasks/tablefield/wrapheader) { get; set; } | 获取或设置一个值，该值指示表列标题是否可以换行，或者是否应在超出列宽时截断。 |
-| [WrapText](../../aspose.tasks/tablefield/wraptext) { get; set; } | 获取或设置一个值，该值指示列文本是否可以换行为多行，或者在超出列宽时是否应截断。  MSP 2010 及更高版本支持。 |
+| [Width](../../aspose.tasks/tablefield/width) { get; set; } | 获取或设置表格中字段列的宽度。 |
+| [WrapHeader](../../aspose.tasks/tablefield/wrapheader) { get; set; } | 获取或设置一个值，该值指示表格列标题是否可以换行，或者超过列宽时是否应截断。 |
+| [WrapText](../../aspose.tasks/tablefield/wraptext) { get; set; } | 获取或设置一个值，该值指示列文本是否可以换行，或者超过列宽时是否应截断。 MSP 2010 及更高版本支持。 |
 
 ### 也可以看看
 

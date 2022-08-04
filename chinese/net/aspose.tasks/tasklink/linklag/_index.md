@@ -1,14 +1,14 @@
 ---
 title: LinkLag
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置以十分之一分钟为单位的滞后量
+description: 获取或设置以十分之一分钟为单位的延迟量
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/tasklink/linklag/
 ---
 ## TaskLink.LinkLag property
 
-获取或设置以十分之一分钟为单位的滞后量。
+获取或设置以十分之一分钟为单位的延迟量。
 
 ```csharp
 public int LinkLag { get; set; }

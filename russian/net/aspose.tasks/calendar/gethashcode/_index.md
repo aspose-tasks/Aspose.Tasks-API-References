@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает хэш-код экземпляра классаCalendaraspose.tasks/calendar.
+description: Возвращает хэш-код экземпляраCalendaraspose.tasks/calendar класс.
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/calendar/gethashcode/
 ---
 ## Calendar.GetHashCode method
 
-Возвращает хэш-код экземпляра класса[`Calendar`](../../calendar).
+Возвращает хэш-код экземпляра[`Calendar`](../../calendar) класс.
 
 ```csharp
 public override int GetHashCode()

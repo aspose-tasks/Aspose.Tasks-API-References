@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回此VbaReferenceaspose.tasks/vbareference的哈希码值
+description: 为此返回一个哈希码值VbaReferenceaspose.tasks/vbareference.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/vbareference/gethashcode/
 ---
 ## VbaReference.GetHashCode method
 
-返回此[`VbaReference`](../../vbareference)的哈希码值。
+为此返回一个哈希码值[`VbaReference`](../../vbareference).
 
 ```csharp
 public override int GetHashCode()

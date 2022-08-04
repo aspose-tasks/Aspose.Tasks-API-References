@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 创建新的自定义属性
+description: 创建一个新的自定义属性
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.properties/customprojectpropertycollection/add/
 ---
 ## Add(string, string) {#add_3}
 
-创建新的自定义属性。
+创建一个新的自定义属性。
 
 ```csharp
 public CustomProjectProperty Add(string name, string value)
@@ -34,7 +34,7 @@ public CustomProjectProperty Add(string name, string value)
 
 ## Add(string, bool) {#add}
 
-创建新的自定义属性。
+创建一个新的自定义属性。
 
 ```csharp
 public CustomProjectProperty Add(string name, bool value)
@@ -60,7 +60,7 @@ public CustomProjectProperty Add(string name, bool value)
 
 ## Add(string, double) {#add_1}
 
-创建新的自定义属性。
+创建一个新的自定义属性。
 
 ```csharp
 public CustomProjectProperty Add(string name, double value)
@@ -86,7 +86,7 @@ public CustomProjectProperty Add(string name, double value)
 
 ## Add(string, DateTime) {#add_2}
 
-创建新的自定义属性。
+创建一个新的自定义属性。
 
 ```csharp
 public CustomProjectProperty Add(string name, DateTime value)

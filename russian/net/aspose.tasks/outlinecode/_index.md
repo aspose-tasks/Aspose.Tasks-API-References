@@ -1,14 +1,14 @@
 ---
 title: OutlineCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет значение кода структуры.
+description: Представляет значение кода схемы.
 type: docs
 weight: 1010
 url: /ru/net/aspose.tasks/outlinecode/
 ---
 ## OutlineCode class
 
-Представляет значение кода структуры.
+Представляет значение кода схемы.
 
 ```csharp
 public class OutlineCode
@@ -18,20 +18,20 @@ public class OutlineCode
 
 | Имя | Описание |
 | --- | --- |
-| [OutlineCode](outlinecode#constructor)() | Инициализирует новый экземпляр класса[`OutlineCode`](../outlinecode). |
-| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) | Инициализирует новый экземпляр класса[`OutlineCode`](../outlinecode), используя указанный Outline Code и одно из его значений. |
+| [OutlineCode](outlinecode#constructor)() | Инициализирует новый экземпляр[`OutlineCode`](../outlinecode) учебный класс. |
+| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) | Инициализирует новый экземпляр[`OutlineCode`](../outlinecode) class, используя указанный Outline Code и одно из его значений. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FieldId](../../aspose.tasks/outlinecode/fieldid) { get; set; } | Получает или задает числовое значение пользовательского поля идентификатора проекта. |
+| [FieldId](../../aspose.tasks/outlinecode/fieldid) { get; set; } | Получает или задает числовое значение настраиваемого поля идентификатора проекта. |
 | [ValueGuid](../../aspose.tasks/outlinecode/valueguid) { get; set; } | Получает или задает GUID значения в списке значений. ValueGuid соответствует FieldGuid в списке значений. |
-| [ValueId](../../aspose.tasks/outlinecode/valueid) { get; set; } | Получает или задает идентификатор в списке значений, связанном с определением в коллекции кодов структуры. |
+| [ValueId](../../aspose.tasks/outlinecode/valueid) { get; set; } | Получает или задает идентификатор в списке значений, связанном с определением в коллекции структурных кодов. |
 
 ### Примечания
 
-Необходимы две части данных - указатель на кодовую таблицу структуры указанный FieldId, и значение, заданное указателем ValueId или ValueGuid на список значений.
+Необходимы два фрагмента данных: указатель на код структуры table , указанный FieldId, и значение, указанное либо указателем ValueId, либо указателем ValueGuid на список значений.
 
 ### Смотрите также
 

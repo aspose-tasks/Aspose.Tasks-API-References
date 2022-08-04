@@ -1,14 +1,14 @@
 ---
 title: ResourceAssignmentCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовResourceAssignment./resourceassignment.
+description: Представляет наборResourceAssignment./resourceassignment объекты.
 type: docs
 weight: 1500
 url: /ru/net/aspose.tasks/resourceassignmentcollection/
 ---
 ## ResourceAssignmentCollection class
 
-Представляет набор объектов[`ResourceAssignment`](../resourceassignment).
+Представляет набор[`ResourceAssignment`](../resourceassignment) объекты.
 
 ```csharp
 public class ResourceAssignmentCollection : IList<ResourceAssignment>
@@ -27,15 +27,15 @@ public class ResourceAssignmentCollection : IList<ResourceAssignment>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_3)(ResourceAssignment) | Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_3)(ResourceAssignment) | Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException |
 | [Add](../../aspose.tasks/resourceassignmentcollection/add#add)(Task, Resource) | Добавляет новое назначение в ResourceAssignmentCollection. |
 | [Add](../../aspose.tasks/resourceassignmentcollection/add#add_2)(Task, Resource, decimal) | Добавляет новое назначение в ResourceAssignmentCollection. |
 | [Add](../../aspose.tasks/resourceassignmentcollection/add#add_1)(Task, Resource, double) | Добавляет новое назначение в ResourceAssignmentCollection. |
 | [GetByUid](../../aspose.tasks/resourceassignmentcollection/getbyuid)(int) | Возвращает задание с указанным uid. |
 | [GetEnumerator](../../aspose.tasks/resourceassignmentcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [Remove](../../aspose.tasks/resourceassignmentcollection/remove)(ResourceAssignment) | Удаляет указанное назначение из коллекции, если оно не доступно только для чтения, в противном случае генерирует исключение NotSupportedException. |
+| [Remove](../../aspose.tasks/resourceassignmentcollection/remove)(ResourceAssignment) | Удаляет указанное назначение из коллекции, если оно не доступно только для чтения, в противном случае вызывает исключение NotSupportedException. |
 | [RemoveAt](../../aspose.tasks/resourceassignmentcollection/removeat)(int) | Удаляет присвоение по указанному индексу, если коллекция не доступна только для чтения, в противном случае генерирует исключение NotSupportedException. |
-| [ToList](../../aspose.tasks/resourceassignmentcollection/tolist)() | Преобразует объект ResourceAssignmentCollection в список объектов[`ResourceAssignment`](../resourceassignment). |
+| [ToList](../../aspose.tasks/resourceassignmentcollection/tolist)() | Преобразует объект ResourceAssignmentCollection в список[`ResourceAssignment`](../resourceassignment) объекты. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回 TaskLink 的字符串表示 表示的确切细节未指定可能会发生变化
+description: 返回 TaskLink 的字符串表示形式 表示形式的确切细节未指定可能会发生变化
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/tasklink/tostring/
 ---
 ## TaskLink.ToString method
 
-返回 TaskLink 的字符串表示。 表示的确切细节未指定，可能会发生变化。
+返回 TaskLink 的字符串表示形式。 表示形式的确切细节未指定，可能会发生变化。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-字符串，代表 TaskLink 对象。
+代表 TaskLink 对象的字符串。
 
 ### 也可以看看
 

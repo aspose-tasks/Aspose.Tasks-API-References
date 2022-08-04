@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает количество объектов содержащихся в этом объектеTimephasedDataCollectionaspose.tasks/timephaseddatacollection.
+description: Получает количество объектов содержащихся в этомTimephasedDataCollectionaspose.tasks/timephaseddatacollection объект.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/timephaseddatacollection/count/
 ---
 ## TimephasedDataCollection.Count property
 
-Получает количество объектов, содержащихся в этом объекте[`TimephasedDataCollection`](../../timephaseddatacollection).
+Получает количество объектов, содержащихся в этом[`TimephasedDataCollection`](../../timephaseddatacollection) объект.
 
 ```csharp
 public int Count { get; }

@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取 Filter 对象的父级
+description: 获取 Filter 对象的父对象
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/filter/parentproject/
 ---
 ## Filter.ParentProject property
 
-获取 Filter 对象的父级。
+获取 Filter 对象的父对象。
 
 ```csharp
 public Project ParentProject { get; }

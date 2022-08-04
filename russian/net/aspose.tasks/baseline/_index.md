@@ -27,14 +27,14 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 | [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Получает или задает уникальный номер записи базовых данных. |
 | [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Получает или задает сметную стоимость работы, выполненной ресурсом для проекта на сегодняшний день. |
 | [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Получает или задает бюджетную стоимость работы, запланированной для ресурса. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Получает или задает предполагаемую стоимость ресурса при сохранении базового плана. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Получает или задает работу, назначенную ресурсу при сохранении базового плана.  Объем назначенной работы для ресурса при сохранении базового плана. |
+| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Получает или задает прогнозируемую стоимость ресурса при сохранении базового плана. |
+| [Work](../../aspose.tasks/baseline/work) { get; set; } | Получает или задает работу, назначенную ресурсу при сохранении базового плана. Объем назначенной работы для ресурса при сохранении базового плана. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable реализация интерфейса. Сравнивает этот экземпляр с указанным базовым объектом. |
+| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом. |
 | [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
 | override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
 | override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Возвращает значение хэш-кода для базовой линии. |
@@ -43,7 +43,7 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 | [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal) | Возвращает значение, указывающее, является ли этот экземпляр большим или равным указанному объекту. |
 | [operator !=](../../aspose.tasks/baseline/op_inequality) | Возвращает значение, указывающее, не равен ли этот экземпляр указанному объекту. |
 | [operator &lt;](../../aspose.tasks/baseline/op_lessthan) | Возвращает значение, указывающее, меньше ли данный экземпляр указанного объекта. |
-| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Возвращает значение, указывающее, меньше ли этот экземпляр указанного объекта или равен ему. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Возвращает значение, указывающее, меньше ли этот экземпляр или равен указанному объекту. |
 
 ### Смотрите также
 

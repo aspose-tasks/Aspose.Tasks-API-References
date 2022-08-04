@@ -3,7 +3,7 @@ title: AssignmentToColumnTextConverter
 second_title: Aspose.Tasks for .NET API 参考
 description: ResourceAssignment 数据到列的字符串转换器
 type: docs
-weight: 2560
+weight: 2570
 url: /zh/net/aspose.tasks.visualization/assignmenttocolumntextconverter/
 ---
 ## AssignmentToColumnTextConverter delegate
@@ -16,7 +16,7 @@ public delegate string AssignmentToColumnTextConverter(ResourceAssignment assign
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| assignment | ResourceAssignment | 要转换的赋值。 |
+| assignment | ResourceAssignment | 要转换的作业。 |
 
 ### 返回值
 

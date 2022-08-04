@@ -19,7 +19,7 @@ public sealed class FontResolveEventArgs : EventArgs
 | Имя | Описание |
 | --- | --- |
 | [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname) { get; } | Получает имя запрошенного шрифта. |
-| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname) { get; set; } | Получает или задает имя разрешенного шрифта. Может быть установлен для управления шрифтами, используемыми для визуализации представления. |
+| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname) { get; set; } | Получает или задает имя разрешенного шрифта. Может быть установлен для управления шрифтами, используемыми для визуализации вида. |
 
 ### Смотрите также
 

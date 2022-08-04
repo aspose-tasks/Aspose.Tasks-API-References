@@ -1,14 +1,14 @@
 ---
 title: TimelineView
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTimelineViewaspose.tasks/timelineview.
+description: Инициализирует новый экземплярTimelineViewaspose.tasks/timelineview учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/timelineview/timelineview/
 ---
 ## TimelineView constructor
 
-Инициализирует новый экземпляр класса[`TimelineView`](../../timelineview).
+Инициализирует новый экземпляр[`TimelineView`](../../timelineview) учебный класс.
 
 ```csharp
 public TimelineView()

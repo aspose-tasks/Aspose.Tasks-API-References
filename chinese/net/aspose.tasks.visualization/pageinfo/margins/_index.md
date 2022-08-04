@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取PageMarginsaspose.tasks.visualization/pagemargins类的实例该类指定页边距
+description: 获取一个实例PageMarginsaspose.tasks.visualization/pagemargins指定页边距的类
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks.visualization/pageinfo/margins/
 ---
 ## PageInfo.Margins property
 
-获取[`PageMargins`](../../pagemargins)类的实例，该类指定页边距。
+获取一个实例[`PageMargins`](../../pagemargins)指定页边距的类。
 
 ```csharp
 public PageMargins Margins { get; }

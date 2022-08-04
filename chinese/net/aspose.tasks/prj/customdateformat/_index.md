@@ -1,14 +1,14 @@
 ---
 title: CustomDateFormat
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目视图自定义日期格式当DateFormataspose.tasks/prj/dateformat属性设置为Custom时用于格式化日期
+description: 项目视图自定义日期格式用于格式化日期DateFormataspose.tasks/prj/dateformat属性设置为Custom.
 type: docs
 weight: 190
 url: /zh/net/aspose.tasks/prj/customdateformat/
 ---
 ## Prj.CustomDateFormat field
 
-项目视图自定义日期格式。当[`DateFormat`](../dateformat)属性设置为Custom时，用于格式化日期。
+项目视图自定义日期格式。用于格式化日期[`DateFormat`](../dateformat)属性设置为Custom.
 
 ```csharp
 public static readonly Key<string, PrjKey> CustomDateFormat;

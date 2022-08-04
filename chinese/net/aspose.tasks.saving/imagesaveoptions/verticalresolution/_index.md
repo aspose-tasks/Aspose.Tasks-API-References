@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置 dpi 的垂直分辨率
+description: 获取或设置 dpi 中的垂直分辨率
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks.saving/imagesaveoptions/verticalresolution/
 ---
 ## ImageSaveOptions.VerticalResolution property
 
-获取或设置 dpi 的垂直分辨率。
+获取或设置 dpi 中的垂直分辨率。
 
 ```csharp
 public float VerticalResolution { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultFixedCostAccrual
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Тип по умолчанию при начислении фиксированных затрат.
+description: Тип по умолчанию при начислении постоянных затрат.
 type: docs
 weight: 230
 url: /ru/net/aspose.tasks/prj/defaultfixedcostaccrual/
 ---
 ## Prj.DefaultFixedCostAccrual field
 
-Тип по умолчанию при начислении фиксированных затрат.
+Тип по умолчанию при начислении постоянных затрат.
 
 ```csharp
 public static readonly Key<CostAccrualType, PrjKey> DefaultFixedCostAccrual;

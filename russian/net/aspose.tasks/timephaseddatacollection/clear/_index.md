@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет все элементы из коллекцииTimephasedDataCollectionaspose.tasks/timephaseddatacollection.
+description: Удаляет все элементы изTimephasedDataCollectionaspose.tasks/timephaseddatacollection .
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/timephaseddatacollection/clear/
 ---
 ## TimephasedDataCollection.Clear method
 
-Удаляет все элементы из коллекции[`TimephasedDataCollection`](../../timephaseddatacollection).
+Удаляет все элементы из[`TimephasedDataCollection`](../../timephaseddatacollection) .
 
 ```csharp
 public void Clear()

@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配的计划开始日期
+description: 作业的预定开始日期
 type: docs
 weight: 500
 url: /zh/net/aspose.tasks/asn/start/
 ---
 ## Asn.Start field
 
-分配的计划开始日期。
+作业的预定开始日期。
 
 ```csharp
 public static readonly Key<DateTime, AsnKey> Start;

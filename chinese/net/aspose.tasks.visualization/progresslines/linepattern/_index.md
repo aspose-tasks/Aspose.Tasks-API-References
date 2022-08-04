@@ -1,14 +1,14 @@
 ---
 title: LinePattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置当前进度线的线型 LinePatternaspose.tasks.visualization/progresslines/linepattern
+description: 获取或设置当前进度线的线型 LinePatternaspose.tasks.visualization/progresslines/linepattern.
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks.visualization/progresslines/linepattern/
 ---
 ## ProgressLines.LinePattern property
 
-获取或设置当前进度线的线型。 `LinePattern`。
+获取或设置当前进度线的线型。 `LinePattern`.
 
 ```csharp
 public LinePattern LinePattern { get; set; }

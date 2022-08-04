@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает количество объектов содержащихся в этом объектеWorkingTimeCollectionaspose.tasks/workingtimecollection.
+description: Получает количество объектов содержащихся в этомWorkingTimeCollectionaspose.tasks/workingtimecollection объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/workingtimecollection/count/
 ---
 ## WorkingTimeCollection.Count property
 
-Получает количество объектов, содержащихся в этом объекте[`WorkingTimeCollection`](../../workingtimecollection).
+Получает количество объектов, содержащихся в этом[`WorkingTimeCollection`](../../workingtimecollection) объект.
 
 ```csharp
 public int Count { get; }

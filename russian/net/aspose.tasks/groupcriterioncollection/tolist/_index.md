@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует коллекцию GroupCriterion в список объектовGroupCriterionaspose.tasks/groupcriterion.
+description: Преобразует коллекцию GroupCriterion в списокGroupCriterionaspose.tasks/groupcriterion объекты.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/groupcriterioncollection/tolist/
 ---
 ## GroupCriterionCollection.ToList method
 
-Преобразует коллекцию GroupCriterion в список объектов[`GroupCriterion`](../../groupcriterion).
+Преобразует коллекцию GroupCriterion в список[`GroupCriterion`](../../groupcriterion) объекты.
 
 ```csharp
 public List<GroupCriterion> ToList()
@@ -16,7 +16,7 @@ public List<GroupCriterion> ToList()
 
 ### Возвращаемое значение
 
-Общий список объектов[`GroupCriterion`](../../groupcriterion).
+Общий список[`GroupCriterion`](../../groupcriterion) объекты.
 
 ### Смотрите также
 

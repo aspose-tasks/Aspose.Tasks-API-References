@@ -1,14 +1,14 @@
 ---
 title: PresentationFormat
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置保存文档的PresentationFormataspose.tasks.saving/saveoptions/presentationformat
+description: 获取或设置PresentationFormataspose.tasks.saving/saveoptions/presentationformat文档将保存在其中
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks.saving/saveoptions/presentationformat/
 ---
 ## SaveOptions.PresentationFormat property
 
-获取或设置保存文档的`PresentationFormat`。
+获取或设置`PresentationFormat`文档将保存在其中。
 
 ```csharp
 public PresentationFormat PresentationFormat { get; set; }

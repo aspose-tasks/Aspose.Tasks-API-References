@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeWorkProtected
 second_title: Aspose.Tasks for .NET API 参考
-description: 保护实际加班工作的持续时间  仅支持 XML 格式的读取 Durationaspose.tasks/tsk/duration类型
+description: 保护实际加班工作的持续时间 仅支持 XML 格式的读取 Durationaspose.tasks/tsk/duration类型.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/tsk/actualovertimeworkprotected/
 ---
 ## Tsk.ActualOvertimeWorkProtected field
 
-保护实际加班工作的持续时间。  仅支持 XML 格式的读取。 [`Duration`](../duration)类型。
+保护实际加班工作的持续时间。 仅支持 XML 格式的读取。 [`Duration`](../duration)类型.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualOvertimeWorkProtected;

@@ -1,14 +1,14 @@
 ---
 title: BarStyles
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает список экземпляров классаBarStyleaspose.tasks.visualization/barstyle отображаемых в представлении проекта.
+description: Получает или задает список экземпляровBarStyleaspose.tasks.visualization/barstyle класс который отображается в представлении проекта.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/saveoptions/barstyles/
 ---
 ## SaveOptions.BarStyles property
 
-Получает или задает список экземпляров класса[`BarStyle`](../../../aspose.tasks.visualization/barstyle), отображаемых в представлении проекта.
+Получает или задает список экземпляров[`BarStyle`](../../../aspose.tasks.visualization/barstyle) класс, который отображается в представлении проекта.
 
 ```csharp
 public List<BarStyle> BarStyles { get; set; }

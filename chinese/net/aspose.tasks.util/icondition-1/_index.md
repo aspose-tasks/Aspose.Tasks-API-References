@@ -3,7 +3,7 @@ title: IConditionT
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示过滤器或搜索方法可以使用的条件
 type: docs
-weight: 2370
+weight: 2380
 url: /zh/net/aspose.tasks.util/icondition-1/
 ---
 ## ICondition&lt;T&gt; interface
@@ -22,7 +22,7 @@ public interface ICondition<in T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Check](../../aspose.tasks.util/icondition`1/check)(T) | 如果指定对象满足条件，则返回 true。 |
+| [Check](../../aspose.tasks.util/icondition`1/check)(T) | 如果指定的对象满足条件，则返回真。 |
 
 ### 也可以看看
 

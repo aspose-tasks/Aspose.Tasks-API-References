@@ -18,7 +18,7 @@ public AssignmentViewColumn(string name, int width, AssignmentToColumnTextConver
 | --- | --- | --- |
 | name | String | Имя столбца. |
 | width | Int32 | Ширина столбца в пикселях. |
-| converter | AssignmentToColumnTextConverter | Присвоение данных преобразователю текста столбца. |
+| converter | AssignmentToColumnTextConverter | Назначение данных в конвертер текста столбца. |
 
 ### Смотрите также
 

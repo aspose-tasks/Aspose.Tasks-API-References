@@ -1,14 +1,14 @@
 ---
 title: WeeklyRepetitions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает число повторений для шаблона еженедельного повторения.
+description: Получает или задает количество повторений для шаблона еженедельного повторения.
 type: docs
 weight: 170
 url: /ru/net/aspose.tasks/recurringtaskinfo/weeklyrepetitions/
 ---
 ## RecurringTaskInfo.WeeklyRepetitions property
 
-Получает или задает число повторений для шаблона еженедельного повторения.
+Получает или задает количество повторений для шаблона еженедельного повторения.
 
 ```csharp
 public int WeeklyRepetitions { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ValueList
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取列表lt值gt值列表
+description: 获取列表ltValuegt ValueList.
 type: docs
 weight: 270
 url: /zh/net/aspose.tasks/extendedattributedefinition/valuelist/
 ---
 ## ExtendedAttributeDefinition.ValueList property
 
-获取列表&lt;值&gt;值列表。
+获取列表&lt;Value&gt; ValueList.
 
 ```csharp
 public List<Value> ValueList { get; }
@@ -16,7 +16,7 @@ public List<Value> ValueList { get; }
 
 ### 评论
 
-当扩展属性的值被指定为模式中元素的属性时， 它们可以通过值指定，也可以通过引用此列表中包含的值指定。 应用程序可以通过此处指定的顺序来假定列表的顺序。 目前支持 MSP 2003/2007 Xml 和 MSP 2003 mpp 格式。 不要直接更改此列表。请改用 ExtendedAttributeDefinition.AddLookupValue/RemoveLookupValue 方法。
+当扩展属性的值被指定为模式中元素的属性时， 它们可以由值指定，也可以通过引用此列表中包含的值来指定。 应用程序可以通过此处指定的顺序来假定列表的顺序。 目前支持 MSP 2003/2007 Xml 和 MSP 2003 mpp 格式。 不要直接更改此列表。请改用 ExtendedAttributeDefinition.AddLookupValue/RemoveLookupValue 方法。
 
 ### 也可以看看
 

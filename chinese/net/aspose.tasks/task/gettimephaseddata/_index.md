@@ -23,7 +23,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 ### 返回值
 
-A[`TimephasedDataCollection`](../../timephaseddatacollection)对象与[`TimephasedData`](../timephaseddata)指定时间分段数据类型的给定开始和结束日期内的值。
+一个[`TimephasedDataCollection`](../../timephaseddatacollection)对象与[`TimephasedData`](../timephaseddata)指定时间分段数据类型的给定开始和结束日期内的值。
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 ### 返回值
 
-[`TimephasedData`](../../timephaseddata)待填写列表
+清单[`TimephasedData`](../../timephaseddata)要填写。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RatesFrom
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает дату вступления в силу тарифа.
+description: Получает или задает дату вступления курса в силу.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/rate/ratesfrom/
 ---
 ## Rate.RatesFrom property
 
-Получает или задает дату вступления в силу тарифа.
+Получает или задает дату вступления курса в силу.
 
 ```csharp
 public DateTime RatesFrom { get; set; }

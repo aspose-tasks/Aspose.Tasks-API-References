@@ -1,14 +1,14 @@
 ---
 title: IImageSavingCallback
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示一个回调用于创建存储图像的资源
+description: 表示为创建资源以存储图像而调用的回调
 type: docs
 weight: 790
 url: /zh/net/aspose.tasks/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-表示一个回调，用于创建存储图像的资源。
+表示为创建资源以存储图像而调用的回调。
 
 ```csharp
 public interface IImageSavingCallback

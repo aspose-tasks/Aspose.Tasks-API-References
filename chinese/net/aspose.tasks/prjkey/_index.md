@@ -26,15 +26,15 @@ public enum PrjKey
 | Category | `5` | 表示类别（项目）字段。 |
 | Company | `6` | 代表公司（项目）字段。 |
 | Manager | `7` | 代表经理（项目）字段。 |
-| Author | `8` | 表示作者（项目）字段。 |
+| Author | `8` | 代表作者（项目）字段。 |
 | CreationDate | `9` | 表示 CreationDate（项目）字段。 |
 | Revision | `10` | 表示修订（项目）字段。 |
 | LastSaved | `11` | 表示 LastSaved（项目）字段。 |
 | ScheduleFromStart | `12` | 表示 ScheduleFromStart（项目）字段。 |
 | StartDate | `13` | 表示 StartDate（项目）字段。 |
 | FinishDate | `14` | 表示 FinishDate（项目）字段。 |
-| FyStartDate | `15` | 表示（项目）字段。 |
-| CriticalSlackLimit | `16` | 表示CriticalSlackLimit（项目）字段。 |
+| FyStartDate | `15` | 代表 （项目）字段. |
+| CriticalSlackLimit | `16` | 表示 CriticalSlackLimit（项目）字段。 |
 | CurrencyDigits | `17` | 表示 CurrencyDigits（项目）字段。 |
 | CurrencySymbol | `18` | 表示 CurrencySymbol（项目）字段。 |
 | CurrencyCode | `19` | 表示 CurrencyCode（项目）字段。 |
@@ -52,17 +52,17 @@ public enum PrjKey
 | DefaultOvertimeRate | `31` | 表示 DefaultOvertimeRate（项目）字段。 |
 | DurationFormat | `32` | 表示 DurationFormat（项目）字段。 |
 | WorkFormat | `33` | 表示工作格式（项目）字段。 |
-| AreEditableActualCosts | `34` | 表示 AreEditableActualCosts (Project) 字段。 |
-| HonorConstraints | `35` | 表示 HonorConstraints (Project) 字段。 |
+| AreEditableActualCosts | `34` | 表示 AreEditableActualCosts（项目）字段。 |
+| HonorConstraints | `35` | 表示 HonorConstraints（项目）字段。 |
 | EarnedValueMethod | `36` | 表示 EarnedValueMethod（项目）字段。 |
 | InsertedProjectsLikeSummary | `37` | 表示 InsertedProjectsLikeSummary（项目）字段。 |
 | MultipleCriticalPaths | `38` | 表示 MultipleCriticalPaths（项目）字段。 |
 | NewTasksEffortDriven | `39` | 表示 NewTasksEffortDriven（项目）字段。 |
-| NewTasksEstimated | `40` | 表示 NewTasksEstimated (Project) 字段。 |
-| SplitsInProgressTasks | `41` | 表示SplitsInProgressTasks（项目）字段。 |
-| SpreadActualCosts | `42` | 表示SpreadActualCosts（项目）字段。 |
-| SpreadPercentComplete | `43` | 表示SpreadPercentComplete（项目）字段。 |
-| TaskUpdatesResource | `44` | 表示TaskUpdatesResource（项目）字段。 |
+| NewTasksEstimated | `40` | 表示 NewTasksEstimated（项目）字段。 |
+| SplitsInProgressTasks | `41` | 表示 SplitsInProgressTasks（项目）字段。 |
+| SpreadActualCosts | `42` | 表示 SpreadActualCosts（项目）字段。 |
+| SpreadPercentComplete | `43` | 表示 SpreadPercentComplete（项目）字段。 |
+| TaskUpdatesResource | `44` | 表示 TaskUpdatesResource（项目）字段。 |
 | FiscalYearStart | `45` | 表示 FiscalYearStart（项目）字段。 |
 | WeekStartDay | `46` | 表示 WeekStartDay（项目）字段。 |
 | MoveCompletedEndsBack | `47` | 表示 MoveCompletedEndsBack（项目）字段。 |
@@ -74,14 +74,14 @@ public enum PrjKey
 | StatusDate | `53` | 表示 StatusDate（项目）字段。 |
 | CurrentDate | `54` | 表示 CurrentDate（项目）字段。 |
 | MicrosoftProjectServerURL | `55` | 表示 MicrosoftProjectServerURL（项目）字段。 |
-| Autolink | `56` | 表示Autolink(Project) 字段。 |
+| Autolink | `56` | 代表Autolink （项目）字段. |
 | NewTaskStartDate | `57` | 表示 NewTaskStartDate（项目）字段。 |
 | DefaultTaskEVMethod | `58` | 表示 DefaultTaskEVMethod（项目）字段。 |
 | ExtendedCreationDate | `59` | 表示 ExtendedCreationDate（项目）字段。 |
 | ActualsInSync | `60` | 表示 ActualsInSync（项目）字段。 |
 | ProjectExternallyEdited | `61` | 表示 ProjectExternallyEdited（项目）字段。 |
 | RemoveFileProperties | `62` | 表示 RemoveFileProperties（项目）字段。 |
-| AdminProject | `63` | 表示AdminProject（项目）字段。 |
+| AdminProject | `63` | 表示 AdminProject（项目）字段。 |
 | Name | `64` | 表示名称（项目）字段。 |
 | TimescaleStart | `65` | 表示 TimescaleStart（项目）字段。 |
 | TimescaleFinish | `66` | 表示 TimescaleFinish（项目）字段。 |
@@ -92,10 +92,10 @@ public enum PrjKey
 | LastPrinted | `71` | 表示 LastPrinted（项目）字段。 |
 | HyperlinkBase | `72` | 表示 HyperlinkBase（项目）字段。 |
 | NewTasksAreManual | `73` | 表示 NewTasksAreManual（项目）字段。 |
-| UpdateManuallyScheduledTasksWhenEditingLinks | `74` | 表示 UpdateManuallyScheduledTasksWhenEditingLinks (Project) 字段。 |
+| UpdateManuallyScheduledTasksWhenEditingLinks | `74` | 表示 UpdateManuallyScheduledTasksWhenEditingLinks（项目）字段。 |
 | KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled | `75` | 表示 KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled (Project) 字段。 |
-| DefaultCalendarGuid | `76` | 默认日历 guid。 |
-| DefaultCalendarUid | `77` | 默认日历 uid。 |
+| DefaultCalendarGuid | `76` | 默认日历 guid. |
+| DefaultCalendarUid | `77` | 默认日历 uid. |
 | Guid | `78` | 表示项目的 guid。 |
 | CustomDateFormat | `79` | 表示用户定义的日期格式。 |
 | TemplateFullPath | `80` | 表示模板（项目）的完整文件名。 |

@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает начальную дату периода данных с поэтапным изменением времени.
+description: Получает или задает начальную дату периода данных с временными фазами.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/timephaseddata/start/
 ---
 ## TimephasedData.Start property
 
-Получает или задает начальную дату периода данных с поэтапным изменением времени.
+Получает или задает начальную дату периода данных с временными фазами.
 
 ```csharp
 public DateTime Start { get; set; }

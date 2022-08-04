@@ -18,24 +18,24 @@ public class OutlineCodeDefinition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OutlineCodeDefinition](outlinecodedefinition)() | 初始化[`OutlineCodeDefinition`](../outlinecodedefinition)类的新实例。 |
+| [OutlineCodeDefinition](outlinecodedefinition)() | 初始化[`OutlineCodeDefinition`](../outlinecodedefinition)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Alias](../../aspose.tasks/outlinecodedefinition/alias) { get; set; } | 获取或设置自定义大纲代码的别名。 |
-| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired) { get; set; } | 获取或设置一个值，该值指示新代码是否必须具有所有级别。 不适用于企业代码。 |
+| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired) { get; set; } | 获取或设置一个值，指示新代码是否必须具有所有级别。 不适用于企业代码。 |
 | [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise) { get; set; } | 获取或设置一个自定义大纲代码是否为企业自定义大纲代码的值。 |
 | [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias) { get; set; } | 获取或设置对另一个自定义字段的引用，此大纲代码定义为其别名。 |
 | [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid) { get; set; } | 获取或设置大纲代码的字段编号。 |
 | [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname) { get; set; } | 获取或设置自定义大纲代码的名称。 |
-| [Guid](../../aspose.tasks/outlinecodedefinition/guid) { get; set; } | 获取或设置大纲代码的 Guid。 |
-| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly) { get; set; } | 获取或设置一个值，该值指示此大纲代码字段中指定的值是否必须是叶值。 |
-| [Masks](../../aspose.tasks/outlinecodedefinition/masks) { get; } | 获取 OutlineMaskCollection 对象。 定义大纲代码掩码的条目表。 只读[`OutlineMaskCollection`](../outlinemaskcollection)实例。 |
+| [Guid](../../aspose.tasks/outlinecodedefinition/guid) { get; set; } | 获取或设置大纲代码的Guid。 |
+| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly) { get; set; } | 获取或设置一个值，该值指示此大纲代码字段中指定的值是否必须为叶值。 |
+| [Masks](../../aspose.tasks/outlinecodedefinition/masks) { get; } | 获取 OutlineMaskCollection 对象。 定义大纲代码掩码的条目表。 只读[`OutlineMaskCollection`](../outlinemaskcollection)实例. |
 | [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed) { get; set; } | 获取或设置一个值，该值指示指定的值是否必须来自值表。 |
-| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias) { get; set; } | 获取或设置自定义大纲代码别名的拼音。 |
-| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled) { get; set; } | 获取或设置一个值，该值指示自定义大纲代码是否可以由 Microsoft Project 中的资源替换向导使用 。 |
+| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias) { get; set; } | 获取或设置自定义大纲代码别名的拼音发音。 |
+| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled) { get; set; } | 获取或设置一个值，该值指示自定义大纲代码是否可以被 Microsoft Project 中的资源替换向导使用 。 |
 | [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent) { get; set; } | 获取或设置一个值，该值指示是否必须显示此大纲代码的缩进。 |
 | [Values](../../aspose.tasks/outlinecodedefinition/values) { get; } | 获取 OutlineValueCollection 对象。 与此大纲代码关联的表的值。 |
 

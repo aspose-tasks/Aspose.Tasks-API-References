@@ -1,14 +1,14 @@
 ---
 title: CalculationMode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает режим расчета проекта. Может быть одним из значений перечисленияCalculationModeaspose.tasks/project/calculationmode.
+description: Получает или задает режим расчета проекта. Может быть одним из значенийCalculationModeaspose.tasks/project/calculationmode перечисление.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/project/calculationmode/
 ---
 ## Project.CalculationMode property
 
-Получает или устанавливает режим расчета проекта. Может быть одним из значений перечисления`CalculationMode`.
+Получает или задает режим расчета проекта. Может быть одним из значений`CalculationMode` перечисление.
 
 ```csharp
 public CalculationMode CalculationMode { get; set; }

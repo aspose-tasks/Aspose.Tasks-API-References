@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Запланированная дата начала задания.
+description: Запланированная дата начала назначения.
 type: docs
 weight: 500
 url: /ru/net/aspose.tasks/asn/start/
 ---
 ## Asn.Start field
 
-Запланированная дата начала задания.
+Запланированная дата начала назначения.
 
 ```csharp
 public static readonly Key<DateTime, AsnKey> Start;

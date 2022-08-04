@@ -1,14 +1,14 @@
 ---
 title: CssSavingArgs
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Этот класс представляет собой набор данных относящихся к сохранению внешнего файла CSS который происходит при преобразовании в формат HTML.
+description: Этот класс представляет собой набор данных связанных с сохранением внешнего файла CSS который происходит при преобразовании в формат HTML.
 type: docs
 weight: 350
 url: /ru/net/aspose.tasks/csssavingargs/
 ---
 ## CssSavingArgs class
 
-Этот класс представляет собой набор данных, относящихся к сохранению внешнего файла CSS, который происходит при преобразовании в формат HTML.
+Этот класс представляет собой набор данных, связанных с сохранением внешнего файла CSS, который происходит при преобразовании в формат HTML.
 
 ```csharp
 public class CssSavingArgs : ResourceSavingArgs
@@ -18,13 +18,13 @@ public class CssSavingArgs : ResourceSavingArgs
 
 | Имя | Описание |
 | --- | --- |
-| [CssSavingArgs](csssavingargs)() | Инициализирует новый экземпляр класса[`CssSavingArgs`](../csssavingargs). |
+| [CssSavingArgs](csssavingargs)() | Инициализирует новый экземпляр[`CssSavingArgs`](../csssavingargs) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileName](../../aspose.tasks/resourcesavingargs/filename) { get; set; } | Получает или задает предполагаемое имя файла, которое идет от преобразователя к коду пользовательского метода. Можно использовать в пользовательском коде, чтобы решить, как обрабатывать или где сохранять этот файл. |
+| [FileName](../../aspose.tasks/resourcesavingargs/filename) { get; set; } | Получает или задает предполагаемое имя файла, которое переходит от преобразователя к коду пользовательского метода. Может использоваться в пользовательском коде, чтобы решить, как обрабатывать или где сохранять этот файл. |
 | [KeepStreamOpen](../../aspose.tasks/resourcesavingargs/keepstreamopen) { get; set; } | Получает или задает значение, указывающее, будет ли поток оставаться открытым после завершения сохранения ресурсов. |
 | [Stream](../../aspose.tasks/resourcesavingargs/stream) { get; set; } | Получает или задает двоичное содержимое сохраненного файла. |
 | [Uri](../../aspose.tasks/resourcesavingargs/uri) { get; set; } | Получает или задает URI ресурса. |

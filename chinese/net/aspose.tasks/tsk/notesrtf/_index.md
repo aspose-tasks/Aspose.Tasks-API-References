@@ -1,14 +1,14 @@
 ---
 title: NotesRTF
 second_title: Aspose.Tasks for .NET API 参考
-description: RTF 格式的文本注释
+description: RTF 格式的文字注释
 type: docs
 weight: 830
 url: /zh/net/aspose.tasks/tsk/notesrtf/
 ---
 ## Tsk.NotesRTF field
 
-RTF 格式的文本注释。
+RTF 格式的文字注释。
 
 ```csharp
 public static readonly Key<string, TaskKey> NotesRTF;

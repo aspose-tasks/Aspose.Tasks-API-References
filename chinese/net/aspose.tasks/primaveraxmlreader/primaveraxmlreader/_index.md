@@ -1,14 +1,14 @@
 ---
 title: PrimaveraXmlReader
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PrimaveraXmlReaderaspose.tasks/primaveraxmlreader类的新实例
+description: 初始化PrimaveraXmlReaderaspose.tasks/primaveraxmlreader类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/primaveraxmlreader/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader(string) {#constructor_1}
 
-初始化[`PrimaveraXmlReader`](../../primaveraxmlreader)类的新实例。
+初始化[`PrimaveraXmlReader`](../../primaveraxmlreader)类.
 
 ```csharp
 public PrimaveraXmlReader(string templatePath)
@@ -16,7 +16,7 @@ public PrimaveraXmlReader(string templatePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| templatePath | String | Primavera Xml 项目所在的模板路径 |
+| templatePath | String | Primavera Xml 项目所在模板的路径 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public PrimaveraXmlReader(string templatePath)
 
 ## PrimaveraXmlReader(Stream) {#constructor}
 
-初始化[`PrimaveraXmlReader`](../../primaveraxmlreader)类的新实例。
+初始化[`PrimaveraXmlReader`](../../primaveraxmlreader)类.
 
 ```csharp
 public PrimaveraXmlReader(Stream stream)

@@ -1,14 +1,14 @@
 ---
 title: ActualCost
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源已在其任务上执行的工作所产生的成本以及与任务相关的任何其他记录成本
+description: 资源已在其任务上执行的工作所产生的成本以及与该任务相关的任何其他记录成本
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/tsk/actualcost/
 ---
 ## Tsk.ActualCost field
 
-资源已在其任务上执行的工作所产生的成本，以及与任务相关的任何其他记录成本。
+资源已在其任务上执行的工作所产生的成本，以及与该任务相关的任何其他记录成本。
 
 ```csharp
 public static readonly Key<decimal, TaskKey> ActualCost;

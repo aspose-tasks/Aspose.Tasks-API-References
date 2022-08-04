@@ -1,14 +1,14 @@
 ---
 title: CreateUnitTimephased
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Создает и инициализирует новый экземпляр классаTimephasedDataaspose.tasks/timephaseddataдля повременных данных назначения материальный ресурс.
+description: Создает и инициализирует новый экземплярTimephasedDataaspose.tasks/timephaseddata класс для повременных данных назначения материального ресурса в единицах времени.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/timephaseddata/createunittimephased/
 ---
 ## TimephasedData.CreateUnitTimephased method
 
-Создает и инициализирует новый экземпляр класса[`TimephasedData`](../../timephaseddata)для повременных данных назначения материальный ресурс.
+Создает и инициализирует новый экземпляр[`TimephasedData`](../../timephaseddata) класс для повременных данных назначения материального ресурса в единицах времени.
 
 ```csharp
 public static TimephasedData CreateUnitTimephased(int uid, DateTime start, DateTime finish, 
@@ -18,14 +18,14 @@ public static TimephasedData CreateUnitTimephased(int uid, DateTime start, DateT
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uid | Int32 | UID задачи. |
-| start | DateTime | Дата и время начала. |
-| finish | DateTime | Дата-время окончания. |
-| units | Double | Количество юнитов. |
+| start | DateTime | Дата-время начала. |
+| finish | DateTime | Закончить дату-время. |
+| units | Double | Количество единиц. |
 | type | TimephasedDataType | Поэтапный тип данных. |
 
 ### Возвращаемое значение
 
-Экземпляр класса[`TimephasedData`](../../timephaseddata)для поэтапных данных на основе затрат по времени.
+Экземпляр[`TimephasedData`](../../timephaseddata) класс для поэтапных данных на основе затрат.
 
 ### Исключения
 

@@ -16,7 +16,7 @@ public void CopyTo(WeekDay[] array, int arrayIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | WeekDay[] | [`WeekDay`](../../weekday)的目标数组复制到 |
+| array | WeekDay[] | 目标数组[`WeekDay`](../../weekday)复制到 |
 | arrayIndex | Int32 | 复制操作的起始索引。 |
 
 ### 也可以看看

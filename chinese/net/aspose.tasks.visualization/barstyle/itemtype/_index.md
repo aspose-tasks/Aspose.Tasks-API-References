@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置条形样式的BarItemTypeaspose.tasks.visualization/baritemtype
+description: 获取或设置BarItemTypeaspose.tasks.visualization/baritemtype酒吧风格的.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks.visualization/barstyle/itemtype/
 ---
 ## BarStyle.ItemType property
 
-获取或设置条形样式的[`BarItemType`](../../baritemtype)。
+获取或设置[`BarItemType`](../../baritemtype)酒吧风格的.
 
 ```csharp
 public BarItemType ItemType { get; set; }

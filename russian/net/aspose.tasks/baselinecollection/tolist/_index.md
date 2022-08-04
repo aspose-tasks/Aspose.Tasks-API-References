@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект BaselineCollection в список объектовBaselineaspose.tasks/baseline.
+description: Преобразует объект BaselineCollection в списокBaselineaspose.tasks/baseline объекты.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/baselinecollection/tolist/
 ---
 ## BaselineCollection.ToList method
 
-Преобразует объект BaselineCollection в список объектов[`Baseline`](../../baseline).
+Преобразует объект BaselineCollection в список[`Baseline`](../../baseline) объекты.
 
 ```csharp
 public List<Baseline> ToList()
@@ -16,7 +16,7 @@ public List<Baseline> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`Baseline`](../../baseline).
+Список[`Baseline`](../../baseline) объекты.
 
 ### Смотрите также
 

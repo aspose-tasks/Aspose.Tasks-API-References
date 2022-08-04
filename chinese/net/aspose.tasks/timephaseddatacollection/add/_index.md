@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 将TimephasedDataaspose.tasks/timephaseddata实例添加到此集合对象
+description: 添加TimephasedDataaspose.tasks/timephaseddata此集合对象的实例
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/timephaseddatacollection/add/
 ---
 ## TimephasedDataCollection.Add method
 
-将[`TimephasedData`](../../timephaseddata)实例添加到此集合对象。
+添加[`TimephasedData`](../../timephaseddata)此集合对象的实例。
 
 ```csharp
 public void Add(TimephasedData item)

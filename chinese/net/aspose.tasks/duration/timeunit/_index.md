@@ -1,14 +1,14 @@
 ---
 title: TimeUnit
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此对象的时间单位类型  此 Duration 实例的时间单位类型
+description: 获取此对象的时间单位类型 此 Duration 实例的时间单位类型
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/duration/timeunit/
 ---
 ## Duration.TimeUnit property
 
-获取此对象的时间单位类型。  此 Duration 实例的时间单位类型。
+获取此对象的时间单位类型。 此 Duration 实例的时间单位类型。
 
 ```csharp
 public TimeUnitType TimeUnit { get; }

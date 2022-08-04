@@ -1,14 +1,14 @@
 ---
 title: CreateWorkTimephased
 second_title: Aspose.Tasks for .NET API 参考
-description: 为基于工作的时间分段数据创建并初始化TimephasedDataaspose.tasks/timephaseddata类的新实例
+description: 创建并初始化TimephasedDataaspose.tasks/timephaseddata基于工作的时间阶段数据的类
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/timephaseddata/createworktimephased/
 ---
 ## TimephasedData.CreateWorkTimephased method
 
-为基于工作的时间分段数据创建并初始化[`TimephasedData`](../../timephaseddata)类的新实例。
+创建并初始化[`TimephasedData`](../../timephaseddata)基于工作的时间阶段数据的类。
 
 ```csharp
 public static TimephasedData CreateWorkTimephased(int uid, DateTime start, DateTime finish, 
@@ -26,7 +26,7 @@ public static TimephasedData CreateWorkTimephased(int uid, DateTime start, DateT
 
 ### 返回值
 
-[`TimephasedData`](../../timephaseddata)类的实例，用于基于工作的时间分段数据。
+的一个实例[`TimephasedData`](../../timephaseddata)基于工作的时间阶段数据的类。
 
 ### 例外
 

@@ -16,7 +16,7 @@ public abstract class PropertyCollection<T> : IEnumerable<T>
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип свойства. |
+| T | Тип собственности. |
 
 ### Смотрите также
 

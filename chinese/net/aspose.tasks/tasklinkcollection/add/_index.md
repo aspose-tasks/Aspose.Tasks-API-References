@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回已添加到 TaskLinkCollection 对象的 Finish-StartTaskLinkaspose.tasks/tasklink实例
+description: 返回 Finish-Start 的一个实例TaskLinkaspose.tasks/tasklink已添加到 TaskLinkCollection 对象中
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-返回已添加到 TaskLinkCollection 对象的 Finish-Start[`TaskLink`](../../tasklink)实例。
+返回 Finish-Start 的一个实例[`TaskLink`](../../tasklink)已添加到 TaskLinkCollection 对象中。
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
@@ -17,7 +17,7 @@ public TaskLink Add(Task pred, Task succ)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pred | Task | 前任任务。 |
-| succ | Task | 后继任务。 |
+| succ | Task | 后续任务。 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public TaskLink Add(Task pred, Task succ)
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-返回已添加到 TaskLinkCollection 对象的[`TaskLink`](../../tasklink)的实例。
+返回一个实例[`TaskLink`](../../tasklink)已添加到 TaskLinkCollection 对象中。
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
@@ -50,7 +50,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pred | Task | 前任任务。 |
-| succ | Task | 后继任务。 |
+| succ | Task | 后续任务。 |
 | linkType | TaskLinkType | 链接类型[`TaskLinkType`](../../tasklinktype) |
 
 ### 返回值
@@ -76,7 +76,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-返回已添加到 TaskLinkCollection 对象的[`TaskLink`](../../tasklink)的实例。
+返回一个实例[`TaskLink`](../../tasklink)已添加到 TaskLinkCollection 对象中。
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
@@ -85,9 +85,9 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pred | Task | 前任任务。 |
-| succ | Task | 后继任务。 |
+| succ | Task | 后续任务。 |
 | linkType | TaskLinkType | 链接类型[`TaskLinkType`](../../tasklinktype) |
-| lag | Duration | 链接延迟[`Duration`](../../duration)。 |
+| lag | Duration | 链接滞后[`Duration`](../../duration). |
 
 ### 返回值
 

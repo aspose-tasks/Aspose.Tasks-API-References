@@ -18,15 +18,15 @@ public class RecurringTaskParameters
 
 | Имя | Описание |
 | --- | --- |
-| [RecurringTaskParameters](recurringtaskparameters)() | Инициализирует новый экземпляр класса[`RecurringTaskParameters`](../recurringtaskparameters). |
+| [RecurringTaskParameters](recurringtaskparameters)() | Инициализирует новый экземпляр[`RecurringTaskParameters`](../recurringtaskparameters) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Duration](../../aspose.tasks/recurringtaskparameters/duration) { get; set; } | Получает или задает длительность одного экземпляра повторяющейся задачи.  Экземпляр класса[`Duration`](./duration). |
+| [Duration](../../aspose.tasks/recurringtaskparameters/duration) { get; set; } | Получает или задает продолжительность одного экземпляра повторяющейся задачи.  Экземпляр[`Duration`](./duration) учебный класс. |
 | [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar) { get; set; } | Получает или задает значение, указывающее, следует ли планировать повторяющуюся задачу, даже если она не выполняется, когда для ее выполнения доступны какие-либо ресурсы. |
-| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern) { get; set; } | Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значений перечисления[`RecurrencePattern`](./recurrencepattern). |
+| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern) { get; set; } | Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значений[`RecurrencePattern`](./recurrencepattern) перечисление. |
 | [TaskName](../../aspose.tasks/recurringtaskparameters/taskname) { get; set; } | Получает или задает имя повторяющейся задачи. |
 
 ## Методы

@@ -1,14 +1,14 @@
 ---
 title: AssignmentOwner
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配所有者的名称
+description: 作业所有者的姓名
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/rsc/assignmentowner/
 ---
 ## Rsc.AssignmentOwner field
 
-分配所有者的名称。
+作业所有者的姓名。
 
 ```csharp
 public static readonly Key<string, RscKey> AssignmentOwner;

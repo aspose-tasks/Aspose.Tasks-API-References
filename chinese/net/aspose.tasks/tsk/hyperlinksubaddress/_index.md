@@ -1,14 +1,14 @@
 ---
 title: HyperlinkSubAddress
 second_title: Aspose.Tasks for .NET API 参考
-description: 与任务关联的超链接中文档中的特定位置
+description: 文档中与任务关联的超链接中的特定位置
 type: docs
 weight: 510
 url: /zh/net/aspose.tasks/tsk/hyperlinksubaddress/
 ---
 ## Tsk.HyperlinkSubAddress field
 
-与任务关联的超链接中文档中的特定位置。
+文档中与任务关联的超链接中的特定位置。
 
 ```csharp
 public static readonly Key<string, TaskKey> HyperlinkSubAddress;

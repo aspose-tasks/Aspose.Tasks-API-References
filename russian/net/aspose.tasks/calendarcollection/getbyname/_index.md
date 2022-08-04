@@ -16,7 +16,7 @@ public Calendar GetByName(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя календаря. |
+| name | String | Название календаря. |
 
 ### Возвращаемое значение
 

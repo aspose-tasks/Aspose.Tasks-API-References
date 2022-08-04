@@ -1,14 +1,14 @@
 ---
 title: GenericProperty
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化GenericPropertyaspose.tasks.properties/genericproperty-1结构的新实例
+description: 初始化一个新的实例GenericPropertyaspose.tasks.properties/genericproperty-1结构
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.properties/genericproperty-1/genericproperty/
 ---
 ## GenericProperty&lt;TKey&gt; constructor
 
-初始化[`GenericProperty`](../../genericproperty-1)结构的新实例。
+初始化一个新的实例[`GenericProperty`](../../genericproperty-1)结构。
 
 ```csharp
 public GenericProperty(string name)

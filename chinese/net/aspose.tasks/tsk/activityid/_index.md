@@ -1,14 +1,14 @@
 ---
 title: ActivityId
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示活动 ID 字段 - Primavera 使用的任务的唯一标识符 仅适用于 Primavera 项目
+description: 表示活动 ID 字段 - Primavera 使用的任务的唯一标识符 仅适用于 Primavera 项目.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/tsk/activityid/
 ---
 ## Tsk.ActivityId field
 
-表示活动 ID 字段 - Primavera 使用的任务的唯一标识符。 （仅适用于 Primavera 项目）。
+表示活动 ID 字段 - Primavera 使用的任务的唯一标识符。 （仅适用于 Primavera 项目）.
 
 ```csharp
 public static readonly Key<string, TaskKey> ActivityId;

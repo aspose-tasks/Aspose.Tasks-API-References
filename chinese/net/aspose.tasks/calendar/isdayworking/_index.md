@@ -16,7 +16,7 @@ public bool IsDayWorking(DateTime dt)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dt | DateTime | 检查日期的工作日期。 |
+| dt | DateTime | 检查日期的日期正在工作。 |
 
 ### 返回值
 

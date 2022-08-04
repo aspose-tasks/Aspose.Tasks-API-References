@@ -3,7 +3,7 @@ title: ResourceToColumnTextConverter
 second_title: Aspose.Tasks for .NET API 参考
 description: 资源数据到列的字符串转换器
 type: docs
-weight: 2960
+weight: 2970
 url: /zh/net/aspose.tasks.visualization/resourcetocolumntextconverter/
 ---
 ## ResourceToColumnTextConverter delegate

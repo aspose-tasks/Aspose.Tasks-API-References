@@ -1,14 +1,14 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置日期格式DateLabelaspose.tasks.visualization/datelabel
+description: 获取或设置日期格式DateLabelaspose.tasks.visualization/datelabel .
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.visualization/progresslines/dateformat/
 ---
 ## ProgressLines.DateFormat property
 
-获取或设置日期格式（[`DateLabel`](../../datelabel)）。
+获取或设置日期格式（[`DateLabel`](../../datelabel) ).
 
 ```csharp
 public DateLabel DateFormat { get; set; }

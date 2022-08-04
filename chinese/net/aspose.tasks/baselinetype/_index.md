@@ -33,7 +33,7 @@ public enum BaselineType
 
 ### 评论
 
-在导出到 XML 时，未定义的值将从生成的 XML 中删除。
+导出到 XML 时，未定义的值将从生成的 XML 中删除。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回一个值指示此实例是否等于指定的VbaModuleAttributeaspose.tasks/vbamoduleattribute对象
+description: 返回一个值指示此实例是否等于指定的VbaModuleAttributeaspose.tasks/vbamoduleattribute对象.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/vbamoduleattribute/equals/
 ---
 ## Equals(VbaModuleAttribute) {#equals}
 
-返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象。
+返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象.
 
 ```csharp
 public bool Equals(VbaModuleAttribute other)
@@ -16,11 +16,11 @@ public bool Equals(VbaModuleAttribute other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | VbaModuleAttribute | 指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象与此实例进行比较。 |
+| other | VbaModuleAttribute | 指定的[`VbaModuleAttribute`](../../vbamoduleattribute)要与此实例进行比较的对象。 |
 
 ### 返回值
 
-如果此实例等于指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象，则返回 true；否则为假。
+如果此实例等于指定的值，则返回 true[`VbaModuleAttribute`](../../vbamoduleattribute)目的;否则为假。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Equals(VbaModuleAttribute other)
 
 ## Equals(object) {#equals_1}
 
-返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象。
+返回一个值，指示此实例是否等于指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象.
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,11 +40,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象与此实例进行比较。 |
+| obj | Object | 指定的[`VbaModuleAttribute`](../../vbamoduleattribute)要与此实例进行比较的对象。 |
 
 ### 返回值
 
-如果此实例等于指定的[`VbaModuleAttribute`](../../vbamoduleattribute)对象，则返回 true；否则为假。
+如果此实例等于指定的值，则返回 true[`VbaModuleAttribute`](../../vbamoduleattribute)目的;否则为假。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CustomPropertyType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет перечисление пользовательских типов свойств.
+description: Представляет перечисление типов настраиваемых свойств.
 type: docs
 weight: 1300
 url: /ru/net/aspose.tasks.properties/custompropertytype/
 ---
 ## CustomPropertyType enumeration
 
-Представляет перечисление пользовательских типов свойств.
+Представляет перечисление типов настраиваемых свойств.
 
 ```csharp
 public enum CustomPropertyType

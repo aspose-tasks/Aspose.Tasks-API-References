@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTextStyleaspose.tasks.visualization/textstyleс настройками по умолчанию.
+description: Инициализирует новый экземплярTextStyleaspose.tasks.visualization/textstyleкласс с настройками по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/textstyle/textstyle/
 ---
 ## TextStyle() {#constructor}
 
-Инициализирует новый экземпляр класса[`TextStyle`](../../textstyle)с настройками по умолчанию.
+Инициализирует новый экземпляр[`TextStyle`](../../textstyle)класс с настройками по умолчанию.
 
 ```csharp
 public TextStyle()
@@ -24,7 +24,7 @@ public TextStyle()
 
 ## TextStyle(float, FontStyles) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`TextStyle`](../../textstyle)со шрифтом по умолчанию, указанным размером и стилем шрифта.
+Инициализирует новый экземпляр[`TextStyle`](../../textstyle) класс со шрифтом по умолчанию и указанным размером и стилем шрифта.
 
 ```csharp
 public TextStyle(float fontSize, FontStyles fontStyle)
@@ -46,7 +46,7 @@ public TextStyle(float fontSize, FontStyles fontStyle)
 
 ## TextStyle(FontStyles) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TextStyle`](../../textstyle)со шрифтом по умолчанию и указанным стилем шрифта.
+Инициализирует новый экземпляр[`TextStyle`](../../textstyle) класс со шрифтом по умолчанию и указанным стилем шрифта.
 
 ```csharp
 public TextStyle(FontStyles fontStyle)
@@ -67,7 +67,7 @@ public TextStyle(FontStyles fontStyle)
 
 ## TextStyle(FontDescriptor) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TextStyle`](../../textstyle)с указанными настройками шрифта.
+Инициализирует новый экземпляр[`TextStyle`](../../textstyle) класс с указанными настройками шрифта.
 
 ```csharp
 public TextStyle(FontDescriptor font)

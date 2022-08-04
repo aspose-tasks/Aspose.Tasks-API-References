@@ -16,7 +16,7 @@ public Duration Subtract(Duration d)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| d | Duration | 指定的[`Duration`](../../duration)实例要从此实例中减去。 |
+| d | Duration | 指定的[`Duration`](../../duration)要从此实例中减去的实例。 |
 
 ### 返回值
 
@@ -40,7 +40,7 @@ public Duration Subtract(double val)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| val | Double | 指定Double值要从此实例中减去。 |
+| val | Double | 指定的Double要从此实例中减去的值。 |
 
 ### 返回值
 

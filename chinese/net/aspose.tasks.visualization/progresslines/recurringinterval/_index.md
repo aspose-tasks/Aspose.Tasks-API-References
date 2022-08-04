@@ -1,14 +1,14 @@
 ---
 title: RecurringInterval
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置循环间隔 RecurringIntervalaspose.tasks.visualization/progresslines/recurringinterval
+description: 获取或设置循环间隔 RecurringIntervalaspose.tasks.visualization/progresslines/recurringinterval.
 type: docs
 weight: 180
 url: /zh/net/aspose.tasks.visualization/progresslines/recurringinterval/
 ---
 ## ProgressLines.RecurringInterval property
 
-获取或设置循环间隔。 `RecurringInterval`。
+获取或设置循环间隔。 `RecurringInterval`.
 
 ```csharp
 public RecurringInterval RecurringInterval { get; set; }

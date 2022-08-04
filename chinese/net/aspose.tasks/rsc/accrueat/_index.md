@@ -1,14 +1,14 @@
 ---
 title: AccrueAt
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定将资源标准和加班成本计入或累积到任务成本的方式和时间
+description: 确定如何以及何时将资源标准和加班成本计入或应计到任务成本中
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/rsc/accrueat/
 ---
 ## Rsc.AccrueAt field
 
-确定将资源标准和加班成本计入或累积到任务成本的方式和时间。
+确定如何以及何时将资源标准和加班成本计入或应计到任务成本中。
 
 ```csharp
 public static readonly Key<CostAccrualType, RscKey> AccrueAt;

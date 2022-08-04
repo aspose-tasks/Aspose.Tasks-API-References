@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定PropertyCollectionaspose.tasks.properties/propertycollection-1是否包含具有指定名称的属性
+description: 确定是否PropertyCollectionaspose.tasks.properties/propertycollection-1包含具有指定名称的属性
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks.properties/propertykeyedcollection-1/contains/
 ---
 ## PropertyKeyedCollection&lt;T&gt;.Contains method
 
-确定[`PropertyCollection`](../../propertycollection-1)是否包含具有指定名称的属性。
+确定是否[`PropertyCollection`](../../propertycollection-1)包含具有指定名称的属性。
 
 ```csharp
 public bool Contains(string name)
@@ -16,7 +16,7 @@ public bool Contains(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 属性名称 |
+| name | String | 物业名称 |
 
 ### 返回值
 

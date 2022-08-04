@@ -1,14 +1,14 @@
 ---
 title: ValueToUnits
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取Double实例该实例表示基于单位的时间分段数据的此对象的字符串值
+description: 获取Double表示此对象的字符串值的实例用于基于单位的时间分段数据
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/timephaseddata/valuetounits/
 ---
 ## TimephasedData.ValueToUnits property
 
-获取Double实例，该实例表示基于单位的时间分段数据的此对象的字符串值。
+获取Double表示此对象的字符串值的实例，用于基于单位的时间分段数据。
 
 ```csharp
 public double ValueToUnits { get; }
@@ -16,7 +16,7 @@ public double ValueToUnits { get; }
 
 ### 返回值
 
-该对象的浮点表示。
+此对象的浮点表示。
 
 ### 也可以看看
 

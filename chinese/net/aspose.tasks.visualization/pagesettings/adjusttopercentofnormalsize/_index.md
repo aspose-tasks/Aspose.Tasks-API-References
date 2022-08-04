@@ -1,14 +1,14 @@
 ---
 title: AdjustToPercentOfNormalSize
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值指示是否将打印调整为指定百分比PercentOfNormalSizeaspose.tasks.visualization/pagesettings/percentofnormalsize正常大小的
+description: 获取或设置一个值该值指示是否将打印调整到指定百分比PercentOfNormalSizeaspose.tasks.visualization/pagesettings/percentofnormalsize  正常大小.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize/
 ---
 ## PageSettings.AdjustToPercentOfNormalSize property
 
-获取或设置一个值，指示是否将打印调整为指定百分比（[`PercentOfNormalSize`](../percentofnormalsize)）正常大小的。
+获取或设置一个值，该值指示是否将打印调整到指定百分比（[`PercentOfNormalSize`](../percentofnormalsize) ) 正常大小.
 
 ```csharp
 public bool AdjustToPercentOfNormalSize { get; set; }
@@ -16,7 +16,7 @@ public bool AdjustToPercentOfNormalSize { get; set; }
 
 ### 评论
 
-项目以 HTML 格式呈现时无效。
+以 HTML 格式呈现项目时无效。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CalendarExceptionCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовCalendarException./calendarexception.
+description: Представляет наборCalendarException./calendarexception объекты.
 type: docs
 weight: 250
 url: /ru/net/aspose.tasks/calendarexceptioncollection/
 ---
 ## CalendarExceptionCollection class
 
-Представляет набор объектов[`CalendarException`](../calendarexception).
+Представляет набор[`CalendarException`](../calendarexception) объекты.
 
 ```csharp
 public class CalendarExceptionCollection : IList<CalendarException>
@@ -18,7 +18,7 @@ public class CalendarExceptionCollection : IList<CalendarException>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.tasks/calendarexceptioncollection/count) { get; } | Получает количество объектов, содержащихся в этом объекте[`CalendarExceptionCollection`](../calendarexceptioncollection). |
+| [Count](../../aspose.tasks/calendarexceptioncollection/count) { get; } | Получает количество объектов, содержащихся в этом[`CalendarExceptionCollection`](../calendarexceptioncollection) объект. |
 | [Item](../../aspose.tasks/calendarexceptioncollection/item) { get; set; } | Возвращает элемент по указанному индексу. |
 | [ParentCalendar](../../aspose.tasks/calendarexceptioncollection/parentcalendar) { get; } | Получает родительский календарь для этого объекта. |
 
@@ -28,10 +28,10 @@ public class CalendarExceptionCollection : IList<CalendarException>
 | --- | --- |
 | [Add](../../aspose.tasks/calendarexceptioncollection/add)(CalendarException) | Добавляет экземпляр CalendarException в этот объект коллекции. |
 | [AddRange](../../aspose.tasks/calendarexceptioncollection/addrange)(IEnumerable&lt;CalendarException&gt;) | Добавляет диапазон исключений во внутренний список. |
-| [Clear](../../aspose.tasks/calendarexceptioncollection/clear)() | Удаляет все элементы из коллекции[`CalendarExceptionCollection`](../calendarexceptioncollection). |
+| [Clear](../../aspose.tasks/calendarexceptioncollection/clear)() | Удаляет все элементы из[`CalendarExceptionCollection`](../calendarexceptioncollection) . |
 | [GetEnumerator](../../aspose.tasks/calendarexceptioncollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [Remove](../../aspose.tasks/calendarexceptioncollection/remove)(CalendarException) | Удаляет экземпляр[`CalendarException`](../calendarexception)из этой коллекции. |
-| [ToList](../../aspose.tasks/calendarexceptioncollection/tolist)() | Преобразует объект CalendarExceptionCollection в список объектов[`CalendarException`](../calendarexception). |
+| [Remove](../../aspose.tasks/calendarexceptioncollection/remove)(CalendarException) | Удаляет[`CalendarException`](../calendarexception) экземпляр из этой коллекции. |
+| [ToList](../../aspose.tasks/calendarexceptioncollection/tolist)() | Преобразует объект CalendarExceptionCollection в список[`CalendarException`](../calendarexception) объекты. |
 
 ### Смотрите также
 

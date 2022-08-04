@@ -1,14 +1,14 @@
 ---
 title: ExecutingWebRequest
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Событие которое возникает при отправке веб-запроса в веб-API Project Server.
+description: Событие возникающее при отправке веб-запроса в веб-API Project Server.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/projectservermanager/executingwebrequest/
 ---
 ## ProjectServerManager.ExecutingWebRequest event
 
-Событие, которое возникает при отправке веб-запроса в веб-API Project Server.
+Событие, возникающее при отправке веб-запроса в веб-API Project Server.
 
 ```csharp
 public event EventHandler<WebRequestEventArgs> ExecutingWebRequest;

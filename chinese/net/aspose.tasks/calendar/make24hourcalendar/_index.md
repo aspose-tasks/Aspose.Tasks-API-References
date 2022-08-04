@@ -1,14 +1,14 @@
 ---
 title: Make24HourCalendar
 second_title: Aspose.Tasks for .NET API 参考
-description: 使给定的日历成为 24 小时日历 24Hours Calendar 是一种日历其中一周中的每一天都在全天候工作
+description: 使给定的日历成为 24 小时日历 24 小时日历是一种日历其中一周中的每一天都在全天候工作
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/calendar/make24hourcalendar/
 ---
 ## Calendar.Make24HourCalendar method
 
-使给定的日历成为 24 小时日历。 24Hours Calendar 是一种日历，其中一周中的每一天都在全天候工作。
+使给定的日历成为 24 小时日历。 24 小时日历是一种日历，其中一周中的每一天都在全天候工作。
 
 ```csharp
 public static Calendar Make24HourCalendar(Calendar calendar)

@@ -17,14 +17,14 @@ public abstract class PropertyKeyedCollection<T> : PropertyCollection<T>, IColle
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип свойства. |
+| T | Тип собственности. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks.properties/propertykeyedcollection`1/count) { get; } | Получает количество свойств в коллекции. |
-| abstract [IsReadOnly](../../aspose.tasks.properties/propertykeyedcollection`1/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| abstract [IsReadOnly](../../aspose.tasks.properties/propertykeyedcollection`1/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks.properties/propertykeyedcollection`1/item) { get; } | Получает свойство, связанное с указанным ключом. |
 | [Names](../../aspose.tasks.properties/propertykeyedcollection`1/names) { get; } | Получает коллекцию всех имен свойств. |
 
@@ -33,7 +33,7 @@ public abstract class PropertyKeyedCollection<T> : PropertyCollection<T>, IColle
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(T) | Создает новое пользовательское свойство. |
-| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) | Определяет, содержит ли[`PropertyCollection`](../propertycollection-1)свойство с указанным именем. |
+| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) | Определяет,[`PropertyCollection`](../propertycollection-1) содержит свойство с указанным именем. |
 
 ### Смотрите также
 

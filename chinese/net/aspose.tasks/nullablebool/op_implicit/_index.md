@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Tasks for .NET API 参考
-description: 将NullableBoolaspose.tasks/nullablebool实例隐式转换为布尔值 当Valueaspose.tasks/nullablebool/value为真且IsDefinedaspose.tasks/nullablebool/isdefined为真时返回真
+description: 隐式转换一个NullableBoolaspose.tasks/nullablebool实例为布尔值 时返回 trueValueaspose.tasks/nullablebool/value是真的并且IsDefinedaspose.tasks/nullablebool/isdefined是真的
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/nullablebool/op_implicit/
 ---
 ## implicit operator {#op_implicit_1}
 
-将[`NullableBool`](../../nullablebool)实例隐式转换为布尔值。 当[`Value`](../value)为真且[`IsDefined`](../isdefined)为真时返回真。
+隐式转换一个[`NullableBool`](../../nullablebool)实例为布尔值。 时返回 true[`Value`](../value)是真的并且[`IsDefined`](../isdefined)是真的。
 
 ```csharp
 public static implicit operator bool(NullableBool val)
@@ -32,7 +32,7 @@ public static implicit operator bool(NullableBool val)
 
 ## implicit operator {#op_implicit}
 
-将布尔值隐式转换为[`NullableBool`](../../nullablebool)实例。
+将布尔值隐式转换为[`NullableBool`](../../nullablebool)实例.
 
 ```csharp
 public static implicit operator NullableBool(bool val)

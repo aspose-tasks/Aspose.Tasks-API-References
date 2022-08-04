@@ -1,14 +1,14 @@
 ---
 title: Distribution
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置蒙特卡罗模拟中使用的概率分布 默认值为 ProbabilityDistributionType.Normal
+description: 获取或设置蒙特卡罗模拟中使用的概率分布 默认值为ProbabilityDistributionType.Normal
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.riskanalysis/riskpattern/distribution/
 ---
 ## RiskPattern.Distribution property
 
-获取或设置蒙特卡罗模拟中使用的概率分布。 默认值为 ProbabilityDistributionType.Normal。
+获取或设置蒙特卡罗模拟中使用的概率分布。 默认值为ProbabilityDistributionType.Normal。
 
 ```csharp
 public ProbabilityDistributionType Distribution { get; set; }
@@ -16,7 +16,7 @@ public ProbabilityDistributionType Distribution { get; set; }
 
 ### 评论
 
-可以是[`ProbabilityDistributionType`](../../probabilitydistributiontype)枚举中定义的值之一.
+可以是定义的值之一[`ProbabilityDistributionType`](../../probabilitydistributiontype)枚举。
 
 ### 也可以看看
 

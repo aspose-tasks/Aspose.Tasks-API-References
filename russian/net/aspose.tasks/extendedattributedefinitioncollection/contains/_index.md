@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает true если указанный элемент найден в этой коллекции в противном случае ложно.
+description: Возвращает true если указанный элемент найден в этой коллекции в противном случае false.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/extendedattributedefinitioncollection/contains/
 ---
 ## ExtendedAttributeDefinitionCollection.Contains method
 
-Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false.
 
 ```csharp
 public bool Contains(ExtendedAttributeDefinition item)
@@ -16,11 +16,11 @@ public bool Contains(ExtendedAttributeDefinition item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | ExtendedAttributeDefinition | указанный предмет для поиска. |
+| item | ExtendedAttributeDefinition | указанный элемент для поиска. |
 
 ### Возвращаемое значение
 
-true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Значение true, если указанный элемент найден в этой коллекции; в противном случае ложно.
 
 ### Смотрите также
 

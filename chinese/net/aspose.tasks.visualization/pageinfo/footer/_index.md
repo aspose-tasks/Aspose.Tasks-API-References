@@ -1,14 +1,14 @@
 ---
 title: Footer
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置代表页脚数据的HeaderFooterInfoaspose.tasks.visualization/headerfooterinfo类的实例
+description: 获取或设置HeaderFooterInfoaspose.tasks.visualization/headerfooterinfo代表页脚数据的类
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/pageinfo/footer/
 ---
 ## PageInfo.Footer property
 
-获取或设置代表页脚数据的[`HeaderFooterInfo`](../../headerfooterinfo)类的实例。
+获取或设置[`HeaderFooterInfo`](../../headerfooterinfo)代表页脚数据的类。
 
 ```csharp
 public HeaderFooterInfo Footer { get; set; }

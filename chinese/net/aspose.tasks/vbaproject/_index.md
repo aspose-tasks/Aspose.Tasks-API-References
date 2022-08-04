@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 代表VbaProject./vbaproject
+description: 代表VbaProject./vbaproject.
 type: docs
-weight: 2500
+weight: 2510
 url: /zh/net/aspose.tasks/vbaproject/
 ---
 ## VbaProject class
 
-代表[`VbaProject`](../vbaproject)。
+代表[`VbaProject`](../vbaproject).
 
 ```csharp
 public class VbaProject
@@ -20,11 +20,11 @@ public class VbaProject
 | --- | --- |
 | [CompilationArguments](../../aspose.tasks/vbaproject/compilationarguments) { get; } | 获取条件编译参数 |
 | [Description](../../aspose.tasks/vbaproject/description) { get; } | 获取项目描述。 |
-| [HelpContextId](../../aspose.tasks/vbaproject/helpcontextid) { get; } | 获取项目帮助上下文 ID |
+| [HelpContextId](../../aspose.tasks/vbaproject/helpcontextid) { get; } | 获取项目帮助上下文 Id |
 | [HelpFile](../../aspose.tasks/vbaproject/helpfile) { get; } | 获取帮助文件名 |
-| [Modules](../../aspose.tasks/vbaproject/modules) { get; } | 获取[`VbaModuleCollection`](../vbamodulecollection) |
+| [Modules](../../aspose.tasks/vbaproject/modules) { get; } | 获取一个集合[`VbaModuleCollection`](../vbamodulecollection) |
 | [Name](../../aspose.tasks/vbaproject/name) { get; } | 获取项目名称 |
-| [References](../../aspose.tasks/vbaproject/references) { get; } | 获取[`VbaReferenceCollection`](../vbareferencecollection) |
+| [References](../../aspose.tasks/vbaproject/references) { get; } | 获取一个集合[`VbaReferenceCollection`](../vbareferencecollection) |
 
 ### 也可以看看
 

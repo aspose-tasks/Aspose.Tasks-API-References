@@ -1,14 +1,14 @@
 ---
 title: TimeSpan
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取TimeSpanaspose.tasks/duration/timespan此 Duration 对象的实例  此 Duration 对象的 TimeSpan 实例
+description: 获取TimeSpanaspose.tasks/duration/timespan此 Duration 对象的实例 此 Duration 对象的 TimeSpan 实例
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/duration/timespan/
 ---
 ## Duration.TimeSpan property
 
-获取`TimeSpan`此 Duration 对象的实例。  此 Duration 对象的 TimeSpan 实例。
+获取`TimeSpan`此 Duration 对象的实例。 此 Duration 对象的 TimeSpan 实例。
 
 ```csharp
 public TimeSpan TimeSpan { get; }

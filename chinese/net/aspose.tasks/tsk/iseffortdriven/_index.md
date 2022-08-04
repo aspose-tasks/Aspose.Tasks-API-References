@@ -1,14 +1,14 @@
 ---
 title: IsEffortDriven
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定任务的调度是否为努力驱动的调度
+description: 确定任务的计划是否为投入驱动计划
 type: docs
 weight: 570
 url: /zh/net/aspose.tasks/tsk/iseffortdriven/
 ---
 ## Tsk.IsEffortDriven field
 
-确定任务的调度是否为努力驱动的调度。
+确定任务的计划是否为投入驱动计划。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsEffortDriven;

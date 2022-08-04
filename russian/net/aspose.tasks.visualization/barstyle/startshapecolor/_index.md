@@ -1,14 +1,14 @@
 ---
 title: StartShapeColor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливаетColorфигуры в начале полосы.
+description: Получает или устанавливаетColor формы в начале такта.
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks.visualization/barstyle/startshapecolor/
 ---
 ## BarStyle.StartShapeColor property
 
-Получает или устанавливаетColorфигуры в начале полосы.
+Получает или устанавливаетColor формы в начале такта.
 
 ```csharp
 public Color StartShapeColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsPortrait
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置页面方向是否为纵向的值如果页面方向是横向则返回 false
+description: 获取或设置页面方向是否为纵向的值如果页面方向为横向则返回 false
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.visualization/pagesettings/isportrait/
 ---
 ## PageSettings.IsPortrait property
 
-获取或设置页面方向是否为纵向的值；如果页面方向是横向，则返回 false。
+获取或设置页面方向是否为纵向的值；如果页面方向为横向，则返回 false。
 
 ```csharp
 public bool IsPortrait { get; set; }

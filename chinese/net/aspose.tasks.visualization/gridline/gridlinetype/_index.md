@@ -1,14 +1,14 @@
 ---
 title: GridlineType
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置网格线的类型GridlineTypeaspose.tasks.visualization/gridline/gridlinetype
+description: 获取或设置网格线的类型GridlineTypeaspose.tasks.visualization/gridline/gridlinetype .
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/gridline/gridlinetype/
 ---
 ## Gridline.GridlineType property
 
-获取或设置网格线的类型（`GridlineType`）。
+获取或设置网格线的类型（`GridlineType` ).
 
 ```csharp
 public GridlineType GridlineType { get; set; }

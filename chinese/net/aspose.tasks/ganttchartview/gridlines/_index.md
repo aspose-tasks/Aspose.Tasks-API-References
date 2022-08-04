@@ -1,14 +1,14 @@
 ---
 title: Gridlines
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置甘特图视图的Gridlinesaspose.tasks/ganttchartview/gridlines列表
+description: 获取或设置列表Gridlinesaspose.tasks/ganttchartview/gridlines甘特图视图
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/ganttchartview/gridlines/
 ---
 ## GanttChartView.Gridlines property
 
-获取或设置甘特图视图的`Gridlines`列表。
+获取或设置列表`Gridlines`甘特图视图。
 
 ```csharp
 public List<Gridlines> Gridlines { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ShowInMenu
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示项目是否在功能区视图选项卡的过滤器下拉列表中显示过滤器名称
+description: 获取或设置一个值该值指示项目是否在功能区的视图选项卡的过滤器下拉列表中显示过滤器名称
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/filter/showinmenu/
 ---
 ## Filter.ShowInMenu property
 
-获取或设置一个值，该值指示项目是否在功能区视图选项卡的过滤器下拉列表中显示过滤器名称。
+获取或设置一个值，该值指示项目是否在功能区的视图选项卡的过滤器下拉列表中显示过滤器名称。
 
 ```csharp
 public bool ShowInMenu { get; set; }

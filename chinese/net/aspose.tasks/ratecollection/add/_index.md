@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 添加一个新的Rateaspose.tasks/rate实例到这个集合
+description: 添加一个新的Rateaspose.tasks/rate此集合的实例
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/ratecollection/add/
 ---
 ## Add(DateTime) {#add}
 
-添加一个新的[`Rate`](../../rate)实例到这个集合。
+添加一个新的[`Rate`](../../rate)此集合的实例。
 
 ```csharp
 public Rate Add(DateTime ratesFrom)
@@ -16,7 +16,7 @@ public Rate Add(DateTime ratesFrom)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ratesFrom | DateTime | 新汇率生效的日期。 |
+| ratesFrom | DateTime | 新费率生效的日期。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public Rate Add(DateTime ratesFrom)
 
 ## Add(DateTime, RateType) {#add_1}
 
-添加一个新的[`Rate`](../../rate)实例到这个集合。
+添加一个新的[`Rate`](../../rate)此集合的实例。
 
 ```csharp
 public Rate Add(DateTime ratesFrom, RateType type)
@@ -41,7 +41,7 @@ public Rate Add(DateTime ratesFrom, RateType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ratesFrom | DateTime | 新汇率生效的日期。 |
+| ratesFrom | DateTime | 新费率生效的日期。 |
 | type | RateType | 要添加到的费率表。 |
 
 ### 返回值

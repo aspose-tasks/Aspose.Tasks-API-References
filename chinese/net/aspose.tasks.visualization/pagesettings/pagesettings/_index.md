@@ -1,14 +1,14 @@
 ---
 title: PageSettings
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PageSettingsaspose.tasks.visualization/pagesettings类的新实例 表示项目视图页面的打印设置
+description: 初始化PageSettingsaspose.tasks.visualization/pagesettings班级 表示项目视图页面的打印设置
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/pagesettings/pagesettings/
 ---
 ## PageSettings constructor
 
-初始化[`PageSettings`](../../pagesettings)类的新实例。 表示项目视图页面的打印设置。
+初始化[`PageSettings`](../../pagesettings)班级。 表示项目视图页面的打印设置。
 
 ```csharp
 public PageSettings()

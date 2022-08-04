@@ -1,14 +1,14 @@
 ---
 title: VisualObjectsPlacements
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取表示OleObjectaspose.tasks/oleobject在视图中的位置和外观的对象集合
+description: 获取代表位置和外观的对象集合OleObjectaspose.tasks/oleobject在视图中
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/view/visualobjectsplacements/
 ---
 ## View.VisualObjectsPlacements property
 
-获取表示[`OleObject`](../../oleobject)在视图中的位置和外观的对象集合。
+获取代表位置和外观的对象集合[`OleObject`](../../oleobject)在视图中。
 
 ```csharp
 public IEnumerable<VisualObjectPlacement> VisualObjectsPlacements { get; }

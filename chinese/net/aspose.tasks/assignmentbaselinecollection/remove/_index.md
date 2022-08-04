@@ -20,7 +20,7 @@ public bool Remove(AssignmentBaseline item)
 
 ### 返回值
 
-如果[`AssignmentBaseline`](../../assignmentbaseline)实例已成功删除，则为真；否则，假
+如果为真[`AssignmentBaseline`](../../assignmentbaseline)实例已成功删除；否则为假
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RateByDateCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет коллекцию которая отображает сопоставленияDateTimeсRate./rateобъекты.
+description: Представляет коллекцию сопоставления которойDateTime кRate./rate объекты.
 type: docs
 weight: 1360
 url: /ru/net/aspose.tasks/ratebydatecollection/
 ---
 ## RateByDateCollection class
 
-Представляет коллекцию, которая отображает сопоставленияDateTimeс[`Rate`](../rate)объекты.
+Представляет коллекцию, сопоставления которойDateTime к[`Rate`](../rate) объекты.
 
 ```csharp
 public class RateByDateCollection : SortedDictionary<DateTime, Rate>

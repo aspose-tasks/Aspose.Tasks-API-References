@@ -3,7 +3,7 @@ title: WorkGroupType
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定工作组的类型
 type: docs
-weight: 3230
+weight: 3240
 url: /zh/net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration

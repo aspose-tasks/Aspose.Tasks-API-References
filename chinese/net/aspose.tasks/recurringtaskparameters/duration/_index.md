@@ -1,14 +1,14 @@
 ---
 title: Duration
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置重复任务发生一次的持续时间 Durationaspose.tasks/recurringtaskparameters/duration类的实例
+description: 获取或设置重复任务发生一次的持续时间 的实例Durationaspose.tasks/recurringtaskparameters/duration班级
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/recurringtaskparameters/duration/
 ---
 ## RecurringTaskParameters.Duration property
 
-获取或设置重复任务发生一次的持续时间。 `Duration`类的实例。
+获取或设置重复任务发生一次的持续时间。 的实例`Duration`班级。
 
 ```csharp
 public Duration Duration { get; set; }

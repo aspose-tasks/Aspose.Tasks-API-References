@@ -1,14 +1,14 @@
 ---
 title: TaskLinkCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовTask./task.
+description: Представляет наборTask./task объекты.
 type: docs
 weight: 2120
 url: /ru/net/aspose.tasks/tasklinkcollection/
 ---
 ## TaskLinkCollection class
 
-Представляет набор объектов[`Task`](../task).
+Представляет набор[`Task`](../task) объекты.
 
 ```csharp
 public class TaskLinkCollection : IList<TaskLink>
@@ -18,21 +18,21 @@ public class TaskLinkCollection : IList<TaskLink>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.tasks/tasklinkcollection/count) { get; } | Получает количество объектов, содержащихся в этом объекте[`TaskLinkCollection`](../tasklinkcollection). |
+| [Count](../../aspose.tasks/tasklinkcollection/count) { get; } | Получает количество объектов, содержащихся в этом[`TaskLinkCollection`](../tasklinkcollection) объект. |
 | [Item](../../aspose.tasks/tasklinkcollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
-| [ParentProject](../../aspose.tasks/tasklinkcollection/parentproject) { get; } | Получает родительский проект объекта ResourceAssignmentCollection.  parent[`Project`](../project)для этого объекта. |
+| [ParentProject](../../aspose.tasks/tasklinkcollection/parentproject) { get; } | Получает родительский проект объекта ResourceAssignmentCollection.  родитель[`Project`](../project) для этого объекта. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/tasklinkcollection/add#add_3)(TaskLink) | Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException |
-| [Add](../../aspose.tasks/tasklinkcollection/add#add)(Task, Task) | Возвращает экземпляр Finish-Start[`TaskLink`](../tasklink), который был добавлен в объект TaskLinkCollection. |
-| [Add](../../aspose.tasks/tasklinkcollection/add#add_1)(Task, Task, TaskLinkType) | Возвращает экземпляр[`TaskLink`](../tasklink), который был добавлен в объект TaskLinkCollection. |
-| [Add](../../aspose.tasks/tasklinkcollection/add#add_2)(Task, Task, TaskLinkType, Duration) | Возвращает экземпляр[`TaskLink`](../tasklink), который был добавлен в объект TaskLinkCollection. |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_3)(TaskLink) | Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add)(Task, Task) | Возвращает экземпляр Finish-Start[`TaskLink`](../tasklink) который был добавлен в объект TaskLinkCollection. |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_1)(Task, Task, TaskLinkType) | Возвращает экземпляр[`TaskLink`](../tasklink) который был добавлен в объект TaskLinkCollection. |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_2)(Task, Task, TaskLinkType, Duration) | Возвращает экземпляр[`TaskLink`](../tasklink) который был добавлен в объект TaskLinkCollection. |
 | [GetEnumerator](../../aspose.tasks/tasklinkcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/tasklinkcollection/remove)(TaskLink) | Удаляет ссылку на задачу из проекта. |
-| [ToList](../../aspose.tasks/tasklinkcollection/tolist)() | Преобразует объект TaskLinkCollection в список объектов[`TaskLink`](../tasklink). |
+| [ToList](../../aspose.tasks/tasklinkcollection/tolist)() | Преобразует объект TaskLinkCollection в список[`TaskLink`](../tasklink) объекты. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: NewTasksEffortDriven
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет являются ли новые задачи принудительными.
+description: Определяет являются ли новые задачи управляемыми усилиями.
 type: docs
 weight: 550
 url: /ru/net/aspose.tasks/prj/newtaskseffortdriven/
 ---
 ## Prj.NewTasksEffortDriven field
 
-Определяет, являются ли новые задачи принудительными.
+Определяет, являются ли новые задачи управляемыми усилиями.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksEffortDriven;

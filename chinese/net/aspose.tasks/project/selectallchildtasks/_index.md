@@ -8,7 +8,7 @@ url: /zh/net/aspose.tasks/project/selectallchildtasks/
 ---
 ## Project.SelectAllChildTasks method
 
-递归收集根任务的所有子任务。
+递归收集根任务的所有子任务
 
 ```csharp
 public IEnumerable<Task> SelectAllChildTasks()
@@ -16,7 +16,7 @@ public IEnumerable<Task> SelectAllChildTasks()
 
 ### 返回值
 
-任务集合。
+任务的集合。
 
 ### 也可以看看
 

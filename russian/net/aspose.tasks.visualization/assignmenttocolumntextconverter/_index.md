@@ -1,14 +1,14 @@
 ---
 title: AssignmentToColumnTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Данные ResourceAssignment в преобразователь строки столбца.
+description: Преобразователь данных ResourceAssignment в строку столбца.
 type: docs
-weight: 2560
+weight: 2570
 url: /ru/net/aspose.tasks.visualization/assignmenttocolumntextconverter/
 ---
 ## AssignmentToColumnTextConverter delegate
 
-Данные ResourceAssignment в преобразователь строки столбца.
+Преобразователь данных ResourceAssignment в строку столбца.
 
 ```csharp
 public delegate string AssignmentToColumnTextConverter(ResourceAssignment assignment);
@@ -16,7 +16,7 @@ public delegate string AssignmentToColumnTextConverter(ResourceAssignment assign
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| assignment | ResourceAssignment | Назначение для преобразования. |
+| assignment | ResourceAssignment | Задание на конвертацию. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: WorkingTimeCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示WorkingTimeCollection./workingtimecollection对象的集合
+description: 代表一个集合WorkingTimeCollection./workingtimecollection对象.
 type: docs
-weight: 3280
+weight: 3290
 url: /zh/net/aspose.tasks/workingtimecollection/
 ---
 ## WorkingTimeCollection class
 
-表示[`WorkingTimeCollection`](../workingtimecollection)对象的集合。
+代表一个集合[`WorkingTimeCollection`](../workingtimecollection)对象.
 
 ```csharp
 public class WorkingTimeCollection : IList<WorkingTime>
@@ -18,20 +18,20 @@ public class WorkingTimeCollection : IList<WorkingTime>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/workingtimecollection/count) { get; } | 获取此[`WorkingTimeCollection`](../workingtimecollection)对象中包含的对象数。 |
+| [Count](../../aspose.tasks/workingtimecollection/count) { get; } | 获取此包含的对象数[`WorkingTimeCollection`](../workingtimecollection)对象. |
 | [Item](../../aspose.tasks/workingtimecollection/item) { get; set; } | 返回指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.tasks/workingtimecollection/add)(WorkingTime) | 将新的 WorkingTime 实例添加到此集合。 |
-| [Clear](../../aspose.tasks/workingtimecollection/clear)() | 从集合中删除所有[`WorkingTime`](../workingtime)项目。 |
+| [Add](../../aspose.tasks/workingtimecollection/add)(WorkingTime) | 向此集合添加一个新的 WorkingTime 实例。 |
+| [Clear](../../aspose.tasks/workingtimecollection/clear)() | 删除所有[`WorkingTime`](../workingtime)集合中的项目. |
 | [Contains](../../aspose.tasks/workingtimecollection/contains)(WorkingTime) | 检查指定元素是否在列表中。 执行线性 O(n) 搜索。 |
-| [CopyTo](../../aspose.tasks/workingtimecollection/copyto)(WorkingTime[], int) | 将集合内容复制到数组中，从特定索引 |
+| [CopyTo](../../aspose.tasks/workingtimecollection/copyto)(WorkingTime[], int) | 将集合内容复制到一个数组中，从特定索引开始 |
 | [GetEnumerator](../../aspose.tasks/workingtimecollection/getenumerator)() | 返回此集合的枚举数。 |
-| [Remove](../../aspose.tasks/workingtimecollection/remove)(WorkingTime) | 从此集合中删除[`WorkingTime`](../workingtime)实例。 |
-| [ToList](../../aspose.tasks/workingtimecollection/tolist)() | 将 WorkingTimeCollection 对象转换为[`WorkingTime`](../workingtime)对象的列表。 |
+| [Remove](../../aspose.tasks/workingtimecollection/remove)(WorkingTime) | 移除[`WorkingTime`](../workingtime)此集合中的实例。 |
+| [ToList](../../aspose.tasks/workingtimecollection/tolist)() | 将 WorkingTimeCollection 对象转换为[`WorkingTime`](../workingtime)对象. |
 
 ### 也可以看看
 

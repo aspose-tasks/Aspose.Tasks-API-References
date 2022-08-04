@@ -1,14 +1,14 @@
 ---
 title: AdminProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет является ли проект административным проектом.
+description: Определяет является ли проект административным.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/prj/adminproject/
 ---
 ## Prj.AdminProject field
 
-Определяет, является ли проект административным проектом.
+Определяет, является ли проект административным.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> AdminProject;

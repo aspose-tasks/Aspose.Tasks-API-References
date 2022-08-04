@@ -18,7 +18,7 @@ public void Set<T>(Key<T, TaskKey> key, T val)
 | --- | --- |
 | T | 映射值的类型。 |
 | key | 指定的属性键。[`Tsk`](../../tsk)用于获取属性密钥。 |
-| val | 值。 |
+| val | 价值。 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public bool Equals(TaskBaseline other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | TaskBaseline | 指定的 AssignmentBaseline 对象与此实例进行比较。 |
+| other | TaskBaseline | 要与此实例进行比较的指定 AssignmentBaseline 对象。 |
 
 ### 返回值
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果指定的对象是与此实例具有相同 UID 值的 TaskBaseline；否则， **false** 。
+**真的**如果指定的对象是一个与此实例具有相同 UID 值的 TaskBaseline；否则， **错误的**.
 
 ### 也可以看看
 

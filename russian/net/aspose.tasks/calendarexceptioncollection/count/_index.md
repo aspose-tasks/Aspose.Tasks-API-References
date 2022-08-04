@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает количество объектов содержащихся в этом объектеCalendarExceptionCollectionaspose.tasks/calendarexceptioncollection.
+description: Получает количество объектов содержащихся в этомCalendarExceptionCollectionaspose.tasks/calendarexceptioncollection объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/calendarexceptioncollection/count/
 ---
 ## CalendarExceptionCollection.Count property
 
-Получает количество объектов, содержащихся в этом объекте[`CalendarExceptionCollection`](../../calendarexceptioncollection).
+Получает количество объектов, содержащихся в этом[`CalendarExceptionCollection`](../../calendarexceptioncollection) объект.
 
 ```csharp
 public int Count { get; }

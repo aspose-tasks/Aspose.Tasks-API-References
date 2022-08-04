@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение хэш-кода для экземпляра классаSplitPartaspose.tasks/splitpart.
+description: Возвращает значение хеш-кода для экземпляраSplitPartaspose.tasks/splitpart класс.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/splitpart/gethashcode/
 ---
 ## SplitPart.GetHashCode method
 
-Возвращает значение хэш-кода для экземпляра класса[`SplitPart`](../../splitpart).
+Возвращает значение хеш-кода для экземпляра[`SplitPart`](../../splitpart) класс.
 
 ```csharp
 public override int GetHashCode()

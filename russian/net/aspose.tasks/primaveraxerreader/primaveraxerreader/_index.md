@@ -1,14 +1,14 @@
 ---
 title: PrimaveraXerReader
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPrimaveraXerReaderaspose.tasks/primaveraxerreader.
+description: Инициализирует новый экземплярPrimaveraXerReaderaspose.tasks/primaveraxerreader класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/primaveraxerreader/primaveraxerreader/
 ---
 ## PrimaveraXerReader(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PrimaveraXerReader`](../../primaveraxerreader).
+Инициализирует новый экземпляр[`PrimaveraXerReader`](../../primaveraxerreader) класс.
 
 ```csharp
 public PrimaveraXerReader(string xerFilePath)
@@ -28,7 +28,7 @@ public PrimaveraXerReader(string xerFilePath)
 
 ## PrimaveraXerReader(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`PrimaveraXerReader`](../../primaveraxerreader).
+Инициализирует новый экземпляр[`PrimaveraXerReader`](../../primaveraxerreader) класс.
 
 ```csharp
 public PrimaveraXerReader(Stream stream)
@@ -36,7 +36,7 @@ public PrimaveraXerReader(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток с содержимым Primavera XER. |
+| stream | Stream | Стрим с контентом Primavera XER. |
 
 ### Смотрите также
 

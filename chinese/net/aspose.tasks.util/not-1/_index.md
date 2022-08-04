@@ -3,7 +3,7 @@ title: NotT
 second_title: Aspose.Tasks for .NET API 参考
 description: 对指定条件应用逻辑非
 type: docs
-weight: 2400
+weight: 2410
 url: /zh/net/aspose.tasks.util/not-1/
 ---
 ## Not&lt;T&gt; class
@@ -22,13 +22,13 @@ public class Not<T> : ICondition<T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Not](not)(ICondition&lt;T&gt;) | 初始化[`Not`](../not-1)类的新实例。 |
+| [Not](not)(ICondition&lt;T&gt;) | 初始化[`Not`](../not-1)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Check](../../aspose.tasks.util/not`1/check)(T) | 如果指定对象满足条件，则返回真。 |
+| [Check](../../aspose.tasks.util/not`1/check)(T) | 如果指定的对象满足条件，则返回真。 |
 
 ### 也可以看看
 

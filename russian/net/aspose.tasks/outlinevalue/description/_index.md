@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает описание значения структуры.
+description: Получает или задает описание значения схемы.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/outlinevalue/description/
 ---
 ## OutlineValue.Description property
 
-Получает или задает описание значения структуры.
+Получает или задает описание значения схемы.
 
 ```csharp
 public string Description { get; set; }

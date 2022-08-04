@@ -1,14 +1,14 @@
 ---
 title: YearlyOrdinalMonth
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает месяц ежегодного шаблона повторения при использовании порядкового дня.  Может быть одним из значений перечисленияMonthaspose.tasks/month.
+description: Получает или задает месяц шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значенийMonthaspose.tasks/month перечисление.
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks/recurringtaskinfo/yearlyordinalmonth/
 ---
 ## RecurringTaskInfo.YearlyOrdinalMonth property
 
-Получает или задает месяц ежегодного шаблона повторения при использовании порядкового дня.  Может быть одним из значений перечисления[`Month`](../../month).
+Получает или задает месяц шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значений[`Month`](../../month) перечисление.
 
 ```csharp
 public Month YearlyOrdinalMonth { get; set; }

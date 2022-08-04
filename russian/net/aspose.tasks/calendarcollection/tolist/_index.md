@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект CalendarCollection в список объектовCalendaraspose.tasks/calendar.
+description: Преобразует объект CalendarCollection в списокCalendaraspose.tasks/calendar объекты.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/calendarcollection/tolist/
 ---
 ## CalendarCollection.ToList method
 
-Преобразует объект CalendarCollection в список объектов[`Calendar`](../../calendar).
+Преобразует объект CalendarCollection в список[`Calendar`](../../calendar) объекты.
 
 ```csharp
 public List<Calendar> ToList()
@@ -16,7 +16,7 @@ public List<Calendar> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`Calendar`](../../calendar).
+Список[`Calendar`](../../calendar) объекты.
 
 ### Смотрите также
 

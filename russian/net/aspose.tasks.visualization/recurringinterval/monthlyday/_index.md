@@ -1,14 +1,14 @@
 ---
 title: MonthlyDay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее отображать ли ежемесячные строки прогресса по дням.
+description: Получает или задает значение указывающее показывать ли ежемесячные строки прогресса по дням.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/recurringinterval/monthlyday/
 ---
 ## RecurringInterval.MonthlyDay property
 
-Получает или задает значение, указывающее, отображать ли ежемесячные строки прогресса по дням.
+Получает или задает значение, указывающее, показывать ли ежемесячные строки прогресса по дням.
 
 ```csharp
 public bool MonthlyDay { get; set; }

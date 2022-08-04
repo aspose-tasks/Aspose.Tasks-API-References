@@ -1,14 +1,14 @@
 ---
 title: RateCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет коллекцию содержащую объектыRate./rate.
+description: Представляет коллекцию содержащуюRate./rate объекты.
 type: docs
 weight: 1370
 url: /ru/net/aspose.tasks/ratecollection/
 ---
 ## RateCollection class
 
-Представляет коллекцию, содержащую объекты[`Rate`](../rate).
+Представляет коллекцию, содержащую[`Rate`](../rate) объекты.
 
 ```csharp
 public class RateCollection : IDictionary<RateType, RateByDateCollection>
@@ -18,21 +18,21 @@ public class RateCollection : IDictionary<RateType, RateByDateCollection>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.tasks/ratecollection/count) { get; } | Получает количество элементов, содержащихся в коллекции RateCollection. |
+| [Count](../../aspose.tasks/ratecollection/count) { get; } | Получает количество элементов, содержащихся в RateCollection. |
 | [IsReadOnly](../../aspose.tasks/ratecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения. |
 | [Item](../../aspose.tasks/ratecollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
-| [ParentResource](../../aspose.tasks/ratecollection/parentresource) { get; } | Получает родительский объект[`Resource`](../resource)для этой коллекции. |
+| [ParentResource](../../aspose.tasks/ratecollection/parentresource) { get; } | Получает родителя[`Resource`](../resource) объект для этой коллекции. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/ratecollection/add#add)(DateTime) | Добавляет новый экземпляр[`Rate`](../rate)в эту коллекцию. |
-| [Add](../../aspose.tasks/ratecollection/add#add_1)(DateTime, RateType) | Добавляет новый экземпляр[`Rate`](../rate)в эту коллекцию. |
+| [Add](../../aspose.tasks/ratecollection/add#add)(DateTime) | Добавляет новый[`Rate`](../rate) экземпляр в эту коллекцию. |
+| [Add](../../aspose.tasks/ratecollection/add#add_1)(DateTime, RateType) | Добавляет новый[`Rate`](../rate) экземпляр в эту коллекцию. |
 | [GetEnumerator](../../aspose.tasks/ratecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/ratecollection/remove)(Rate) | Удаляет экземпляр Rate из этой коллекции. |
-| [ToList](../../aspose.tasks/ratecollection/tolist#tolist)() | Преобразует объект[`RateCollection`](../ratecollection)в список[`Rate`](../rate)объекты. |
-| [ToList](../../aspose.tasks/ratecollection/tolist#tolist_1)(RateType) | Преобразует объект[`RateCollection`](../ratecollection)в список[`Rate`](../rate)объекты, отфильтрованные по указанному[`RateType`](../ratetype)типу. |
+| [ToList](../../aspose.tasks/ratecollection/tolist#tolist)() | Преобразует[`RateCollection`](../ratecollection) возражать против списка[`Rate`](../rate) объекты. |
+| [ToList](../../aspose.tasks/ratecollection/tolist#tolist_1)(RateType) | Преобразует[`RateCollection`](../ratecollection) возражать против списка[`Rate`](../rate) объекты, отфильтрованные по указанным[`RateType`](../ratetype) тип. |
 
 ### Смотрите также
 

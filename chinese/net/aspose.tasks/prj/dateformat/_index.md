@@ -1,14 +1,14 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目视图日期格式
+description: 项目查看日期格式
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/prj/dateformat/
 ---
 ## Prj.DateFormat field
 
-项目视图日期格式。
+项目查看日期格式。
 
 ```csharp
 public static readonly Key<DateFormat, PrjKey> DateFormat;

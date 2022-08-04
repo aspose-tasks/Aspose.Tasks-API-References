@@ -1,14 +1,14 @@
 ---
 title: TemporaryFile
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает путь к временному файлу вставляемого объекта.
+description: Получает или задает путь к временному файлу вставленного объекта.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/oleobject/temporaryfile/
 ---
 ## OleObject.TemporaryFile property
 
-Получает или задает путь к временному файлу вставляемого объекта.
+Получает или задает путь к временному файлу вставленного объекта.
 
 ```csharp
 public string TemporaryFile { get; set; }

@@ -19,7 +19,7 @@ public class TasksReadingException : TasksLoggedException
 | 姓名 | 描述 |
 | --- | --- |
 | [LogText](../../aspose.tasks/tasksloggedexception/logtext) { get; } | 获取异常日志信息。 |
-| [Operation](../../aspose.tasks/tasksloggedexception/operation) { get; } | 获取异常操作信息。 |
+| [Operation](../../aspose.tasks/tasksloggedexception/operation) { get; } | 获取异常操作信息 |
 
 ### 也可以看看
 

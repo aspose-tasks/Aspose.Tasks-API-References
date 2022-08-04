@@ -1,14 +1,14 @@
 ---
 title: HideBar
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет будет ли полоса Ганта задачи скрыта при отображении в Microsoft Project.
+description: Определяет скрыта ли диаграмма Ганта задачи при отображении в Microsoft Project.
 type: docs
 weight: 480
 url: /ru/net/aspose.tasks/tsk/hidebar/
 ---
 ## Tsk.HideBar field
 
-Определяет, будет ли полоса Ганта задачи скрыта при отображении в Microsoft Project.
+Определяет, скрыта ли диаграмма Ганта задачи при отображении в Microsoft Project.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> HideBar;

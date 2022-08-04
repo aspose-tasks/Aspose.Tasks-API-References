@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置掩码类型
+description: 获取或设置掩码的类型
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/outlinemask/type/
 ---
 ## OutlineMask.Type property
 
-获取或设置掩码类型。
+获取或设置掩码的类型。
 
 ```csharp
 public MaskType Type { get; set; }

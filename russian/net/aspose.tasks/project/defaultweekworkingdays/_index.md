@@ -1,14 +1,14 @@
 ---
 title: DefaultWeekWorkingDays
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаWeekDayCollectionaspose.tasks/weekdaycollection который представляет набор рабочих дней и рабочего времени по умолчанию для проекта.
+description: Получает экземплярWeekDayCollectionaspose.tasks/weekdaycollection класс который представляет собой набор рабочих дней и рабочего времени по умолчанию для проекта.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/project/defaultweekworkingdays/
 ---
 ## Project.DefaultWeekWorkingDays property
 
-Получает экземпляр класса[`WeekDayCollection`](../../weekdaycollection), который представляет набор рабочих дней и рабочего времени по умолчанию для проекта.
+Получает экземпляр[`WeekDayCollection`](../../weekdaycollection) класс, который представляет собой набор рабочих дней и рабочего времени по умолчанию для проекта.
 
 ```csharp
 public WeekDayCollection DefaultWeekWorkingDays { get; }
@@ -16,7 +16,7 @@ public WeekDayCollection DefaultWeekWorkingDays { get; }
 
 ### Возвращаемое значение
 
-Экземпляр класса[`WeekDayCollection`](../../weekdaycollection), который содержит список[`WeekDay`](../../weekday)объекты.
+Экземпляр[`WeekDayCollection`](../../weekdaycollection) класс, содержащий список[`WeekDay`](../../weekday) объекты.
 
 ### Примечания
 

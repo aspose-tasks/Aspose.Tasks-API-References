@@ -1,14 +1,14 @@
 ---
 title: StringAlignment
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает выравнивание текста может быть одним из значенийStringAlignmentaspose.tasks.visualization/viewcolumn/stringalignmentперечисление.
+description: Получает или задает выравнивание текста может быть одним из значенийStringAlignmentaspose.tasks.visualization/viewcolumn/stringalignment перечисление.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/viewcolumn/stringalignment/
 ---
 ## ViewColumn.StringAlignment property
 
-Получает или задает выравнивание текста (может быть одним из значений`StringAlignment`перечисление).
+Получает или задает выравнивание текста (может быть одним из значений`StringAlignment` перечисление).
 
 ```csharp
 public StringAlignment StringAlignment { get; set; }

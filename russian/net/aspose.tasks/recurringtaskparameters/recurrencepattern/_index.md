@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значений перечисленияRecurrencePatternaspose.tasks/recurringtaskparameters/recurrencepattern.
+description: Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значенийRecurrencePatternaspose.tasks/recurringtaskparameters/recurrencepattern перечисление.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/recurringtaskparameters/recurrencepattern/
 ---
 ## RecurringTaskParameters.RecurrencePattern property
 
-Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значений перечисления`RecurrencePattern`.
+Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значений`RecurrencePattern` перечисление.
 
 ```csharp
 public RecurrencePatternBase RecurrencePattern { get; set; }

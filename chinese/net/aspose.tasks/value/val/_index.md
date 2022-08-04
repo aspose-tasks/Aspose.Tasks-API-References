@@ -16,15 +16,15 @@ public string Val { get; set; }
 
 ### 评论
 
-如果要设置文本值，请优先使用强类型[`StringValue`](../stringvalue)属性。
+如果你想设置 Text 值首选使用强类型[`StringValue`](../stringvalue)财产。
 
-如果要设置数字或成本值，请优先使用强类型[`NumericValue`](../numericvalue)属性。
+如果要设置 Number 或 Cost 值，则首选使用强类型[`NumericValue`](../numericvalue)财产。
 
-如果要设置日期/开始/完成值，最好使用强类型[`DateTimeValue`](../datetimevalue)属性.
+如果要设置日期/开始/完成值，最好使用强类型[`DateTimeValue`](../datetimevalue)财产。
 
-如果要设置 Duration 值，请优先使用强类型[`Duration`](../duration)属性。
+如果要设置 Duration 值，则首选使用强类型[`Duration`](../duration)财产。
 
-如果您的类型未列出，请使用`Val`属性。
+如果您的类型未列出，请使用`Val`财产。
 
 ### 也可以看看
 

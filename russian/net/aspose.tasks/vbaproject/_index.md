@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПредставляетVbaProject./vbaproject.
+description: ПредставляетVbaProject./vbaproject .
 type: docs
-weight: 2500
+weight: 2510
 url: /ru/net/aspose.tasks/vbaproject/
 ---
 ## VbaProject class
 
-Представляет[`VbaProject`](../vbaproject).
+Представляет[`VbaProject`](../vbaproject) .
 
 ```csharp
 public class VbaProject
@@ -18,8 +18,8 @@ public class VbaProject
 
 | Имя | Описание |
 | --- | --- |
-| [CompilationArguments](../../aspose.tasks/vbaproject/compilationarguments) { get; } | Получает аргументы условной компиляции |
-| [Description](../../aspose.tasks/vbaproject/description) { get; } | Получает описание проекта. |
+| [CompilationArguments](../../aspose.tasks/vbaproject/compilationarguments) { get; } | Получает условные аргументы компиляции |
+| [Description](../../aspose.tasks/vbaproject/description) { get; } | Получить описание проекта. |
 | [HelpContextId](../../aspose.tasks/vbaproject/helpcontextid) { get; } | Получает идентификатор контекста справки проекта |
 | [HelpFile](../../aspose.tasks/vbaproject/helpfile) { get; } | Получает имя файла справки |
 | [Modules](../../aspose.tasks/vbaproject/modules) { get; } | Получает коллекцию[`VbaModuleCollection`](../vbamodulecollection) |

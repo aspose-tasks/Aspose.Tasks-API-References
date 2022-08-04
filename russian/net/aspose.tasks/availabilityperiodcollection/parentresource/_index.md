@@ -1,14 +1,14 @@
 ---
 title: ParentResource
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родительский объектResourceaspose.tasks/resourceдля этого объекта.  ParentResourceaspose.tasks/resourceобъект для этой коллекции.
+description: Получает родителяResourceaspose.tasks/resource для этого объекта.  РодительResourceaspose.tasks/resource объект для этой коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/availabilityperiodcollection/parentresource/
 ---
 ## AvailabilityPeriodCollection.ParentResource property
 
-Получает родительский объект[`Resource`](../../resource)для этого объекта.  Parent[`Resource`](../../resource)объект для этой коллекции.
+Получает родителя[`Resource`](../../resource) для этого объекта.  Родитель[`Resource`](../../resource) объект для этой коллекции.
 
 ```csharp
 public Resource ParentResource { get; }

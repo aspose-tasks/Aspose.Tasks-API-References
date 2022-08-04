@@ -1,14 +1,14 @@
 ---
 title: IsRollup
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет будет ли информация о диаграммах Ганта для подзадач сводиться к сводной диаграмме задач.
+description: Определяет будет ли информация о диаграммах Ганта подзадачи сводиться к сводной диаграмме задач.
 type: docs
 weight: 690
 url: /ru/net/aspose.tasks/tsk/isrollup/
 ---
 ## Tsk.IsRollup field
 
-Определяет, будет ли информация о диаграммах Ганта для подзадач сводиться к сводной диаграмме задач.
+Определяет, будет ли информация о диаграммах Ганта подзадачи сводиться к сводной диаграмме задач.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsRollup;

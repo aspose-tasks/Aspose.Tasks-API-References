@@ -1,14 +1,14 @@
 ---
 title: Pessimistic
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置在最坏的项目场景中可能发生的最可能的任务持续时间的百分比 默认值为 125表示如果预计指定任务持续时间为 4 天那么悲观持续时间为 5 天
+description: 获取或设置在最坏的项目场景中最可能发生的任务工期的百分比 默认值为125这意味着如果估计的指定任务工期为4天则悲观工期为5天
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks.riskanalysis/riskpattern/pessimistic/
 ---
 ## RiskPattern.Pessimistic property
 
-获取或设置在最坏的项目场景中可能发生的最可能的任务持续时间的百分比。 默认值为 125，表示如果预计指定任务持续时间为 4 天，那么悲观持续时间为 5 天。
+获取或设置在最坏的项目场景中最可能发生的任务工期的百分比。 默认值为125，这意味着如果估计的指定任务工期为4天，则悲观工期为5天。
 
 ```csharp
 public int Pessimistic { get; set; }

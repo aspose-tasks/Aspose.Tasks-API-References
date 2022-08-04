@@ -1,14 +1,14 @@
 ---
 title: FontStyles
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает информацию о стиле применяемую к тексту.
+description: Определяет информацию о стиле применяемую к тексту.
 type: docs
-weight: 2660
+weight: 2670
 url: /ru/net/aspose.tasks.visualization/fontstyles/
 ---
 ## FontStyles enumeration
 
-Указывает информацию о стиле, применяемую к тексту.
+Определяет информацию о стиле, применяемую к тексту.
 
 ```csharp
 [Flags]
@@ -23,7 +23,7 @@ public enum FontStyles
 | Bold | `1` | Жирный текст. |
 | Italic | `2` | Курсив. |
 | Underline | `4` | Подчеркнутый текст. |
-| Strikeout | `8` | Текст с чертой посередине. |
+| Strikeout | `8` | Текст с линией посередине. |
 
 ### Смотрите также
 

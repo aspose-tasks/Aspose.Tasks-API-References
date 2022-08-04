@@ -1,14 +1,14 @@
 ---
 title: ResourceViewColumn
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаResourceViewColumnaspose.tasks.visualization/resourceviewcolumn.
+description: Инициализирует новый экземплярResourceViewColumnaspose.tasks.visualization/resourceviewcolumn класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/resourceviewcolumn/resourceviewcolumn/
 ---
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter, Field) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ResourceViewColumn`](../../resourceviewcolumn).
+Инициализирует новый экземпляр[`ResourceViewColumn`](../../resourceviewcolumn) класс.
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter, 
@@ -19,7 +19,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 | --- | --- | --- |
 | name | String | Имя столбца. |
 | width | Int32 | Ширина столбца в пикселях. |
-| converter | ResourceToColumnTextConverter | Преобразователь данных ресурса в текст столбца. |
+| converter | ResourceToColumnTextConverter | Конвертер данных ресурса в текст столбца. |
 | field | Field | Поле столбца. |
 
 ### Смотрите также
@@ -34,7 +34,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ResourceViewColumn`](../../resourceviewcolumn).
+Инициализирует новый экземпляр[`ResourceViewColumn`](../../resourceviewcolumn) класс.
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter)
@@ -44,7 +44,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 | --- | --- | --- |
 | name | String | Имя столбца. |
 | width | Int32 | Ширина столбца в пикселях. |
-| converter | ResourceToColumnTextConverter | Преобразователь данных ресурса в текст столбца. |
+| converter | ResourceToColumnTextConverter | Конвертер данных ресурса в текст столбца. |
 
 ### Смотрите также
 
@@ -57,7 +57,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 ## ResourceViewColumn(int, Field) {#constructor}
 
-Инициализирует новый экземпляр класса[`ResourceViewColumn`](../../resourceviewcolumn).
+Инициализирует новый экземпляр[`ResourceViewColumn`](../../resourceviewcolumn) класс.
 
 ```csharp
 public ResourceViewColumn(int width, Field field)

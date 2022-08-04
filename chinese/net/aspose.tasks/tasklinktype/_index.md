@@ -20,7 +20,7 @@ public enum TaskLinkType
 | --- | --- | --- |
 | FinishToFinish | `0` | 完成-完成关系 |
 | FinishToStart | `1` | 完成-开始关系 |
-| StartToFinish | `2` | 开始-完成关系 |
+| StartToFinish | `2` | 起点-终点关系 |
 | StartToStart | `3` | 开始-开始关系 |
 
 ### 也可以看看

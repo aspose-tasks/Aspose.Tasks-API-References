@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаHeaderFooterInfoaspose.tasks.visualization/headerfooterinfo.
+description: Инициализирует новый экземплярHeaderFooterInfoaspose.tasks.visualization/headerfooterinfo учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/headerfooterinfo/headerfooterinfo/
 ---
 ## HeaderFooterInfo constructor
 
-Инициализирует новый экземпляр класса[`HeaderFooterInfo`](../../headerfooterinfo).
+Инициализирует новый экземпляр[`HeaderFooterInfo`](../../headerfooterinfo) учебный класс.
 
 ```csharp
 public HeaderFooterInfo()

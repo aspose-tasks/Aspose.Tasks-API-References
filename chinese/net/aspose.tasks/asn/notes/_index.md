@@ -1,14 +1,14 @@
 ---
 title: Notes
 second_title: Aspose.Tasks for .NET API 参考
-description: 与作业关联的文本注释
+description: 与作业相关的文本注释
 type: docs
 weight: 350
 url: /zh/net/aspose.tasks/asn/notes/
 ---
 ## Asn.Notes field
 
-与作业关联的文本注释。
+与作业相关的文本注释。
 
 ```csharp
 public static readonly Key<string, AsnKey> Notes;

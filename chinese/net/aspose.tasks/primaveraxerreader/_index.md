@@ -18,8 +18,8 @@ public class PrimaveraXerReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PrimaveraXerReader](primaveraxerreader#constructor)(Stream) | 初始化[`PrimaveraXerReader`](../primaveraxerreader)类的新实例。 |
-| [PrimaveraXerReader](primaveraxerreader#constructor_1)(string) | 初始化[`PrimaveraXerReader`](../primaveraxerreader)类的新实例。 |
+| [PrimaveraXerReader](primaveraxerreader#constructor)(Stream) | 初始化[`PrimaveraXerReader`](../primaveraxerreader)类. |
+| [PrimaveraXerReader](primaveraxerreader#constructor_1)(string) | 初始化[`PrimaveraXerReader`](../primaveraxerreader)类. |
 
 ## 方法
 

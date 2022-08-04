@@ -1,14 +1,14 @@
 ---
 title: Footer
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает экземпляр классаHeaderFooterInfoaspose.tasks.visualization/headerfooterinfo который представляет данные нижнего колонтитула.
+description: Получает или задает экземплярHeaderFooterInfoaspose.tasks.visualization/headerfooterinfo класс который представляет данные нижнего колонтитула.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/pageinfo/footer/
 ---
 ## PageInfo.Footer property
 
-Получает или задает экземпляр класса[`HeaderFooterInfo`](../../headerfooterinfo), который представляет данные нижнего колонтитула.
+Получает или задает экземпляр[`HeaderFooterInfo`](../../headerfooterinfo) класс, который представляет данные нижнего колонтитула.
 
 ```csharp
 public HeaderFooterInfo Footer { get; set; }

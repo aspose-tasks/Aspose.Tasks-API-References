@@ -16,7 +16,7 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### 返回值
 
-返回创建的[`ExtendedAttribute`](../../extendedattribute)类实例，其 fieldID 等于此对象的 fieldID 值。
+返回创建的实例[`ExtendedAttribute`](../../extendedattribute)fieldID 等于该对象的 fieldID 值的类。
 
 ### 也可以看看
 
@@ -41,13 +41,13 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### 返回值
 
-返回创建的[`ExtendedAttribute`](../../extendedattribute)类实例，其 fieldID 等于该对象的 fieldID 值。
+返回创建的实例[`ExtendedAttribute`](../../extendedattribute)fieldID 等于该对象的 fieldID 值的类。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果当前[`CfType`](../cftype)不是 'Text' |
+| InvalidOperationException | 如果当前[`CfType`](../cftype)不是“文本” |
 
 ### 也可以看看
 
@@ -72,7 +72,7 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### 返回值
 
-返回创建的[`ExtendedAttribute`](../../extendedattribute)类实例，其 fieldID 等于该对象的 fieldID 值。
+返回创建的实例[`ExtendedAttribute`](../../extendedattribute)fieldID 等于该对象的 fieldID 值的类。
 
 ### 例外
 
@@ -103,13 +103,13 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### 返回值
 
-返回创建的[`ExtendedAttribute`](../../extendedattribute)类实例，其 fieldID 等于该对象的 fieldID 值。
+返回创建的实例[`ExtendedAttribute`](../../extendedattribute)fieldID 等于该对象的 fieldID 值的类。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果当前[`CfType`](../cftype)不是“日期”，“开始”或“完成” |
+| InvalidOperationException | 如果当前[`CfType`](../cftype)不是“日期”、“开始”或“完成” |
 
 ### 也可以看看
 
@@ -134,13 +134,13 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ### 返回值
 
-返回创建的[`ExtendedAttribute`](../../extendedattribute)类实例，其 fieldID 等于该对象的 fieldID 值。
+返回创建的实例[`ExtendedAttribute`](../../extendedattribute)fieldID 等于该对象的 fieldID 值的类。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果当前[`CfType`](../cftype)不是 'Duration' |
+| InvalidOperationException | 如果当前[`CfType`](../cftype)不是“持续时间” |
 
 ### 也可以看看
 
@@ -166,7 +166,7 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### 返回值
 
-返回创建的[`ExtendedAttribute`](../../extendedattribute)类实例，其 fieldID 等于该对象的 fieldID 值。
+返回创建的实例[`ExtendedAttribute`](../../extendedattribute)fieldID 等于该对象的 fieldID 值的类。
 
 ### 例外
 
@@ -185,7 +185,7 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-创建与指定[`Value`](../../value)项目链接的新扩展属性。
+创建与指定链接的新扩展属性[`Value`](../../value)项目.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -193,19 +193,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| lookupValue | Value | 指定的[`Value`](../../value)项。 |
+| lookupValue | Value | 指定的[`Value`](../../value)物品。 |
 
 ### 返回值
 
-返回与指定链接的[`ExtendedAttribute`](../../extendedattribute)类的创建实例[`Value`](../../value)项目。
+返回创建的实例[`ExtendedAttribute`](../../extendedattribute)与指定链接的类[`Value`](../../value)物品。
 
 ### 评论
 
-*lookupValue*应该预先添加到[`ExtendedAttributeDefinition`](../../extendedattributedefinition)使用[`AddLookupValue`](../addlookupvalue)方法。
+*lookupValue*应事先添加到[`ExtendedAttributeDefinition`](../../extendedattributedefinition)使用[`AddLookupValue`](../addlookupvalue)方法.
 
 ### 例子
 
-使用此代码创建新[`ExtendedAttribute`](../../extendedattribute)使用特定值:
+使用此代码创建新的[`ExtendedAttribute`](../../extendedattribute)使用特定值：
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);

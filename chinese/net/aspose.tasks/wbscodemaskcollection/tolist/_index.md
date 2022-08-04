@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 WBSCodeMaskCollection 转换为WBSCodeMaskaspose.tasks/wbscodemask对象的列表
+description: 将 WBSCodeMaskCollection 转换为WBSCodeMaskaspose.tasks/wbscodemask对象.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/wbscodemaskcollection/tolist/
 ---
 ## WBSCodeMaskCollection.ToList method
 
-将 WBSCodeMaskCollection 转换为[`WBSCodeMask`](../../wbscodemask)对象的列表。
+将 WBSCodeMaskCollection 转换为[`WBSCodeMask`](../../wbscodemask)对象.
 
 ```csharp
 public List<WBSCodeMask> ToList()
@@ -16,7 +16,7 @@ public List<WBSCodeMask> ToList()
 
 ### 返回值
 
-[`WBSCodeMask`](../../wbscodemask)对象的通用列表。
+通用列表[`WBSCodeMask`](../../wbscodemask)对象。
 
 ### 也可以看看
 

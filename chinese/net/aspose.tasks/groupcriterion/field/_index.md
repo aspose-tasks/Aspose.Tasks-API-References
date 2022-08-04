@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置分组依据的字段
+description: 获取或设置分组的字段
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/groupcriterion/field/
 ---
 ## GroupCriterion.Field property
 
-获取或设置分组依据的字段。
+获取或设置分组的字段。
 
 ```csharp
 public Field Field { get; set; }

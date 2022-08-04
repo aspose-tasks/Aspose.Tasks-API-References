@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливаетTextItemTypeaspose.tasks.visualization/textitemtypeстиля текста.
+description: Получает или устанавливаетTextItemTypeaspose.tasks.visualization/textitemtype стиля текста.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/textstyle/itemtype/
 ---
 ## TextStyle.ItemType property
 
-Получает или устанавливает[`TextItemType`](../../textitemtype)стиля текста.
+Получает или устанавливает[`TextItemType`](../../textitemtype) стиля текста.
 
 ```csharp
 public virtual TextItemType ItemType { get; set; }

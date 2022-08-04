@@ -1,14 +1,14 @@
 ---
 title: RiskPattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаRiskPatternaspose.tasks.riskanalysis/riskpattern.
+description: Инициализирует новый экземплярRiskPatternaspose.tasks.riskanalysis/riskpattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.riskanalysis/riskpattern/riskpattern/
 ---
 ## RiskPattern constructor
 
-Инициализирует новый экземпляр класса[`RiskPattern`](../../riskpattern).
+Инициализирует новый экземпляр[`RiskPattern`](../../riskpattern) класс.
 
 ```csharp
 public RiskPattern(Task task)

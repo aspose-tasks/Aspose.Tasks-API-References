@@ -16,7 +16,7 @@ public void Add(CalendarException item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | CalendarException | Добавляемый элемент. |
+| item | CalendarException | Элемент для добавления. |
 
 ### Смотрите также
 

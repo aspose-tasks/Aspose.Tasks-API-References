@@ -18,7 +18,7 @@ public DateTime DateValue { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性则抛出未初始化或当前属性不是日期属性。 |
+| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性未初始化或当前属性不是日期属性。 |
 
 ### 也可以看看
 

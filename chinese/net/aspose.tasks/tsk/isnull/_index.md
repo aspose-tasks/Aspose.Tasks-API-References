@@ -1,14 +1,14 @@
 ---
 title: IsNull
 second_title: Aspose.Tasks for .NET API 参考
-description: 判断任务是否为空任务
+description: 判断一个任务是否为空任务
 type: docs
 weight: 640
 url: /zh/net/aspose.tasks/tsk/isnull/
 ---
 ## Tsk.IsNull field
 
-判断任务是否为空任务。
+判断一个任务是否为空任务。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsNull;

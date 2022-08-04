@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定对象或文本相对于另一个对象的水平对齐方式
 type: docs
-weight: 2780
+weight: 2790
 url: /zh/net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

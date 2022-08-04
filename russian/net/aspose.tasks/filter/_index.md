@@ -26,18 +26,18 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 | --- | --- |
 | [Criteria](../../aspose.tasks/filter/criteria) { get; set; } | Получает или задает критерии, которым должны соответствовать задачи или ресурсы для отображения в представлении MSP. |
 | [FilterType](../../aspose.tasks/filter/filtertype) { get; } | Получает тип фильтра. |
-| [Index](../../aspose.tasks/filter/index) { get; } | Получает индекс объекта[`Filter`](../filter)в Фильтрах, содержащих объект. |
-| [Name](../../aspose.tasks/filter/name) { get; set; } | Получает или задает имя объекта Filter. |
+| [Index](../../aspose.tasks/filter/index) { get; } | Получает индекс[`Filter`](../filter) объект в Фильтрах, содержащий object. |
+| [Name](../../aspose.tasks/filter/name) { get; set; } | Получает или задает имя объекта фильтра. |
 | [ParentProject](../../aspose.tasks/filter/parentproject) { get; } | Получает родителя объекта Filter. |
-| [ShowInMenu](../../aspose.tasks/filter/showinmenu) { get; set; } | Получает или задает значение, указывающее, показывает ли проект имя фильтра в раскрывающемся списке «Фильтр» на вкладке «Вид» на ленте. |
-| [ShowRelatedSummaryRows](../../aspose.tasks/filter/showrelatedsummaryrows) { get; set; } | Получает или задает значение, указывающее, отображаются ли для фильтра связанные итоговые строки. |
+| [ShowInMenu](../../aspose.tasks/filter/showinmenu) { get; set; } | Получает или задает значение, указывающее, отображает ли проект имя фильтра в раскрывающемся списке «Фильтр» на вкладке «Вид» на ленте. |
+| [ShowRelatedSummaryRows](../../aspose.tasks/filter/showrelatedsummaryrows) { get; set; } | Получает или задает значение, указывающее, отображаются ли для фильтра связанные сводные строки. |
 | [Uid](../../aspose.tasks/filter/uid) { get; } | Получает уникальный идентификатор фильтра. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/filter/compareto)(Filter) | Сравнивает этот экземпляр с указанным экземпляром класса[`Filter`](../filter)и возвращает указание их относительного порядка. |
+| [CompareTo](../../aspose.tasks/filter/compareto)(Filter) | Сравнивает этот экземпляр с указанным экземпляром[`Filter`](../filter) class и возвращает указание их относительного порядка. |
 | [Equals](../../aspose.tasks/filter/equals#equals)(Filter) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту AssignmentBaseline. |
 | override [Equals](../../aspose.tasks/filter/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту AssignmentBaseline. |
 | override [GetHashCode](../../aspose.tasks/filter/gethashcode)() | Возвращает значение хэш-кода для фильтра. |
@@ -46,7 +46,7 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 | [operator &gt;=](../../aspose.tasks/filter/op_greaterthanorequal) | Возвращает значение, указывающее, является ли этот экземпляр большим или равным указанному объекту. |
 | [operator !=](../../aspose.tasks/filter/op_inequality) | Возвращает значение, указывающее, не равен ли этот экземпляр указанному объекту. |
 | [operator &lt;](../../aspose.tasks/filter/op_lessthan) | Возвращает значение, указывающее, меньше ли данный экземпляр указанного объекта. |
-| [operator &lt;=](../../aspose.tasks/filter/op_lessthanorequal) | Возвращает значение, указывающее, меньше ли этот экземпляр указанного объекта или равен ему. |
+| [operator &lt;=](../../aspose.tasks/filter/op_lessthanorequal) | Возвращает значение, указывающее, меньше ли этот экземпляр или равен указанному объекту. |
 
 ### Смотрите также
 

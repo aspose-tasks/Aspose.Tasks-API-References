@@ -18,14 +18,14 @@ public sealed class CustomProjectPropertyCollection : PropertyKeyedCollection<Cu
 
 | Имя | Описание |
 | --- | --- |
-| [CustomProjectPropertyCollection](customprojectpropertycollection)() | Инициализирует новый экземпляр класса[`CustomProjectPropertyCollection`](../customprojectpropertycollection). |
+| [CustomProjectPropertyCollection](customprojectpropertycollection)() | Инициализирует новый экземпляр[`CustomProjectPropertyCollection`](../customprojectpropertycollection) учебный класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks.properties/propertykeyedcollection`1/count) { get; } |  |
-| override [IsReadOnly](../../aspose.tasks.properties/customprojectpropertycollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| override [IsReadOnly](../../aspose.tasks.properties/customprojectpropertycollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks.properties/propertykeyedcollection`1/item) { get; } |  |
 | [Names](../../aspose.tasks.properties/propertykeyedcollection`1/names) { get; } |  |
 

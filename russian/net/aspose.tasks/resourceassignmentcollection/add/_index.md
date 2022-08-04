@@ -16,9 +16,9 @@ public ResourceAssignment Add(Task task, Resource resource, double units)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | Назначаемая задача. |
-| resource | Resource | Назначаемый ресурс. |
-| units | Double | Количество юнитов для нового назначения. |
+| task | Task | Задача, которую нужно поставить. |
+| resource | Resource | Ресурс, который необходимо назначить. |
+| units | Double | Количество единиц для нового задания. |
 
 ### Возвращаемое значение
 
@@ -45,9 +45,9 @@ public ResourceAssignment Add(Task task, Resource resource, decimal cost)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | Назначаемая задача. |
-| resource | Resource | Стоимость ресурса, который необходимо назначить. |
-| cost | Decimal | Стоимость нового назначения. |
+| task | Task | Задача, которую нужно поставить. |
+| resource | Resource | Назначаемый стоимостной ресурс. |
+| cost | Decimal | Стоимость нового задания. |
 
 ### Возвращаемое значение
 
@@ -74,8 +74,8 @@ public ResourceAssignment Add(Task task, Resource resource)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | Назначаемая задача. |
-| resource | Resource | Назначаемый ресурс. |
+| task | Task | Задача, которую нужно поставить. |
+| resource | Resource | Ресурс, который необходимо назначить. |
 
 ### Возвращаемое значение
 
@@ -94,7 +94,7 @@ public ResourceAssignment Add(Task task, Resource resource)
 
 ## Add(ResourceAssignment) {#add_3}
 
-Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException
+Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException
 
 ```csharp
 public void Add(ResourceAssignment item)
@@ -102,7 +102,7 @@ public void Add(ResourceAssignment item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | ResourceAssignment | Элемент для удаления. |
+| item | ResourceAssignment | Элемент, который необходимо удалить. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RiskItemStatisticsCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示包含RiskItemStatistics./riskitemstatistics类的实例的集合
+description: 表示包含RiskItemStatistics./riskitemstatistics类.
 type: docs
 weight: 1640
 url: /zh/net/aspose.tasks.riskanalysis/riskitemstatisticscollection/
 ---
 ## RiskItemStatisticsCollection class
 
-表示包含[`RiskItemStatistics`](../riskitemstatistics)类的实例的集合。
+表示包含[`RiskItemStatistics`](../riskitemstatistics)类.
 
 ```csharp
 public class RiskItemStatisticsCollection : IDictionary<Task, RiskItemStatistics>, 
@@ -19,7 +19,7 @@ public class RiskItemStatisticsCollection : IDictionary<Task, RiskItemStatistics
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Get](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/get)(Task) | 返回该集合中包含的[`RiskItemStatistics`](../riskitemstatistics)类的实例，该类与指定的任务对象相关联;如果未找到该项目，则为 null。 |
+| [Get](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/get)(Task) | 返回一个实例[`RiskItemStatistics`](../riskitemstatistics)包含在此集合中的与指定的 Task 对象相关联的类；如果未找到该项目，则为 null。 |
 | [GetEnumerator](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/getenumerator)() | 返回此集合的枚举数。 |
 
 ### 也可以看看

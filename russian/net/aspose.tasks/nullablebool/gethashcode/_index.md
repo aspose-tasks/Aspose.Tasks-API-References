@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение хэш-кода для экземпляра классаNullableBoolaspose.tasks/nullablebool.
+description: Возвращает значение хеш-кода для экземпляраNullableBoolaspose.tasks/nullablebool класс.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/nullablebool/gethashcode/
 ---
 ## NullableBool.GetHashCode method
 
-Возвращает значение хэш-кода для экземпляра класса[`NullableBool`](../../nullablebool).
+Возвращает значение хеш-кода для экземпляра[`NullableBool`](../../nullablebool) класс.
 
 ```csharp
 public override int GetHashCode()

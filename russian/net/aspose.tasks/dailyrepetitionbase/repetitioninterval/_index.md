@@ -1,14 +1,14 @@
 ---
 title: RepetitionInterval
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает количество дней которое представляет интервал в днях между вхождениями.
+description: Получает или задает количество дней представляющее интервал в днях между событиями.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/dailyrepetitionbase/repetitioninterval/
 ---
 ## DailyRepetitionBase.RepetitionInterval property
 
-Получает или задает количество дней, которое представляет интервал в днях между вхождениями.
+Получает или задает количество дней, представляющее интервал в днях между событиями.
 
 ```csharp
 public int RepetitionInterval { get; set; }

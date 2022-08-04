@@ -1,14 +1,14 @@
 ---
 title: VerifyUniqueness
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее следует ли проверять уникальность новых кодов СДР.
+description: Получает или задает значение указывающее следует ли проверять уникальность новых кодов СПП.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/wbscodedefinition/verifyuniqueness/
 ---
 ## WBSCodeDefinition.VerifyUniqueness property
 
-Получает или задает значение, указывающее, следует ли проверять уникальность новых кодов СДР.
+Получает или задает значение, указывающее, следует ли проверять уникальность новых кодов СПП.
 
 ```csharp
 public bool VerifyUniqueness { get; set; }

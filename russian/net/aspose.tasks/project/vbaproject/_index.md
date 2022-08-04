@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаVbaProjectaspose.tasks/project/vbaproject.
+description: Получает экземплярVbaProjectaspose.tasks/project/vbaproject класс.
 type: docs
 weight: 220
 url: /ru/net/aspose.tasks/project/vbaproject/
 ---
 ## Project.VbaProject property
 
-Получает экземпляр класса`VbaProject`.
+Получает экземпляр`VbaProject` класс.
 
 ```csharp
 public VbaProject VbaProject { get; }

@@ -16,7 +16,7 @@ public static ProjectView GetDefaultTaskSheetView()
 
 ### 返回值
 
-包含[`GanttChartColumn`](../../ganttchartcolumn)列表的视图。
+包含列表的视图[`GanttChartColumn`](../../ganttchartcolumn).
 
 ### 也可以看看
 

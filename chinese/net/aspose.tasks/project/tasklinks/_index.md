@@ -1,14 +1,14 @@
 ---
 title: TaskLinks
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取TaskLinkCollectionaspose.tasks/tasklinkcollection对象
+description: 获取TaskLinkCollectionaspose.tasks/tasklinkcollection对象.
 type: docs
 weight: 210
 url: /zh/net/aspose.tasks/project/tasklinks/
 ---
 ## Project.TaskLinks property
 
-获取[`TaskLinkCollection`](../../tasklinkcollection)对象。
+获取[`TaskLinkCollection`](../../tasklinkcollection)对象.
 
 ```csharp
 public TaskLinkCollection TaskLinks { get; }

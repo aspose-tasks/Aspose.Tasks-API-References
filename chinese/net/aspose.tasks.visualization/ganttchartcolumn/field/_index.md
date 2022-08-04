@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API 参考
-description: 列字段 Fieldaspose.tasks.visualization/ganttchartcolumn/field
+description: 列字段. Fieldaspose.tasks.visualization/ganttchartcolumn/field.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/ganttchartcolumn/field/
 ---
 ## GanttChartColumn.Field property
 
-列字段。 `Field`。
+列字段. `Field`.
 
 ```csharp
 public override Field Field { get; set; }

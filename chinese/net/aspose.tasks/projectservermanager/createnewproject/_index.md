@@ -22,7 +22,7 @@ public void CreateNewProject(Project project)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception) | 如果发生通信错误或服务器返回错误。 |
+| [ProjectOnlineException](../../projectonlineexception) | 在通信错误或服务器返回错误的情况下。 |
 
 ### 例子
 
@@ -56,13 +56,13 @@ public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptio
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | project | Project | 要保存到 Project Server\Project Online 实例的项目。 |
-| saveOptions | ProjectServerSaveOptions | [`ProjectServerSaveOptions`](../../projectserversaveoptions)类的实例。 |
+| saveOptions | ProjectServerSaveOptions | 实例[`ProjectServerSaveOptions`](../../projectserversaveoptions)班级。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception) | 如果发生通信错误或服务器返回错误。 |
+| [ProjectOnlineException](../../projectonlineexception) | 在通信错误或服务器返回错误的情况下。 |
 
 ### 例子
 

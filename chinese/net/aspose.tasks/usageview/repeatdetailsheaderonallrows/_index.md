@@ -1,14 +1,14 @@
 ---
 title: RepeatDetailsHeaderOnAllRows
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否在所有分配行上重复详细信息标题
+description: 获取或设置一个值该值指示是否在所有分配行上重复明细表头
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/usageview/repeatdetailsheaderonallrows/
 ---
 ## UsageView.RepeatDetailsHeaderOnAllRows property
 
-获取或设置一个值，该值指示是否在所有分配行上重复详细信息标题。
+获取或设置一个值，该值指示是否在所有分配行上重复明细表头。
 
 ```csharp
 public bool RepeatDetailsHeaderOnAllRows { get; set; }

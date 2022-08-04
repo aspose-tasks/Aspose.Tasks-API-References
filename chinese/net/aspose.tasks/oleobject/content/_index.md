@@ -1,14 +1,14 @@
 ---
 title: Content
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置嵌入文件的数据如果没有嵌入数据则返回 null
+description: 获取或设置嵌入文件的数据如果没有嵌入数据则为 null
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/oleobject/content/
 ---
 ## OleObject.Content property
 
-获取或设置嵌入文件的数据；如果没有嵌入数据，则返回 null。
+获取或设置嵌入文件的数据；如果没有嵌入数据，则为 null。
 
 ```csharp
 public byte[] Content { get; set; }

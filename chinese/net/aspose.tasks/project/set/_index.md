@@ -17,8 +17,8 @@ public void Set<T>(Key<T, PrjKey> key, T val)
 | 范围 | 描述 |
 | --- | --- |
 | T | 映射值的类型。 |
-| key | 指定的属性键。[`Prj`](../../prj)用于获取属性键。 |
-| val | 值。 |
+| key | 指定的属性键。[`Prj`](../../prj)用于获取属性密钥。 |
+| val | 价值。 |
 
 ### 也可以看看
 
@@ -40,8 +40,8 @@ public void Set(Key<DateTime, PrjKey> key, DateTime val)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | Key`2 | 指定的属性键。[`Prj`](../../prj)用于获取属性键。 |
-| val | DateTime | 值。 |
+| key | Key`2 | 指定的属性键。[`Prj`](../../prj)用于获取属性密钥。 |
+| val | DateTime | 价值。 |
 
 ### 也可以看看
 

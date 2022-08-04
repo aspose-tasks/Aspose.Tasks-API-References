@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает индекс объектаFilteraspose.tasks/filterв Фильтрах содержащих объект.
+description: Получает индексFilteraspose.tasks/filter объект в Фильтрах содержащий object.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/filter/index/
 ---
 ## Filter.Index property
 
-Получает индекс объекта[`Filter`](../../filter)в Фильтрах, содержащих объект.
+Получает индекс[`Filter`](../../filter) объект в Фильтрах, содержащий object.
 
 ```csharp
 public int Index { get; }

@@ -31,7 +31,7 @@ public class Metered
 
 ### 例子
 
-在本例中，将尝试设置计量公钥和私钥
+在此示例中，将尝试设置计量的公钥和私钥
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-组件jar文件:
+组件 jar 文件：
 
 ```csharp
 Metered metered = new Metered();

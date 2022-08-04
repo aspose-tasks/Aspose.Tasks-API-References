@@ -1,14 +1,14 @@
 ---
 title: CheckException
 second_title: Aspose.Tasks for .NET API 参考
-description: 如果DateTime结构的指定实例是异常日则返回 true
+description: 如果指定的实例返回 trueDateTime struct 是例外日
 type: docs
 weight: 170
 url: /zh/net/aspose.tasks/calendarexception/checkexception/
 ---
 ## CalendarException.CheckException method
 
-如果DateTime结构的指定实例是异常日，则返回 true。
+如果指定的实例返回 trueDateTime struct 是例外日。
 
 ```csharp
 public bool CheckException(DateTime dt)
@@ -16,11 +16,11 @@ public bool CheckException(DateTime dt)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dt | DateTime | DateTime结构的指定实例。 |
+| dt | DateTime | 的指定实例DateTime结构。 |
 
 ### 返回值
 
-如果DateTime值为异常日，则返回 true；否则为假。
+如果返回真DateTimevalue 是例外日；否则为假。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AndAllCondition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化AndAllConditionaspose.tasks.util/andallcondition-1类的新实例
+description: 初始化AndAllConditionaspose.tasks.util/andallcondition-1班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.util/andallcondition-1/andallcondition/
 ---
 ## AndAllCondition&lt;T&gt; constructor
 
-初始化[`AndAllCondition`](../../andallcondition-1)类的新实例。
+初始化[`AndAllCondition`](../../andallcondition-1)班级。
 
 ```csharp
 public AndAllCondition(List<ICondition<T>> conditions)

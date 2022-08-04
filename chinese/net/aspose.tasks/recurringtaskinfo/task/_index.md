@@ -1,14 +1,14 @@
 ---
 title: Task
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取RecurringTaskInfoaspose.tasks/recurringtaskinfo类实例的父任务
+description: 获取此实例的父任务RecurringTaskInfoaspose.tasks/recurringtaskinfo类.
 type: docs
 weight: 140
 url: /zh/net/aspose.tasks/recurringtaskinfo/task/
 ---
 ## RecurringTaskInfo.Task property
 
-获取[`RecurringTaskInfo`](../../recurringtaskinfo)类实例的父任务。
+获取此实例的父任务[`RecurringTaskInfo`](../../recurringtaskinfo)类.
 
 ```csharp
 public Task Task { get; }

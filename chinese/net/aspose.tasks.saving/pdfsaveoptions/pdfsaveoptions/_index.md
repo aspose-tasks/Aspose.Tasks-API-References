@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PdfSaveOptionsaspose.tasks.saving/pdfsaveoptions类的新实例该类可用于将文档保存在PDFaspose.tasks.saving/savefileformat 格式
+description: 初始化PdfSaveOptionsaspose.tasks.saving/pdfsaveoptions可用于将文档保存在PDF格式aspose.tasks.saving/savefileformat格式
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-初始化[`PdfSaveOptions`](../../pdfsaveoptions)类的新实例，该类可用于将文档保存在[`PDF`](../../savefileformat) 格式。
+初始化[`PdfSaveOptions`](../../pdfsaveoptions)可用于将文档保存在[`PDF格式`](../../savefileformat)格式。
 
 ```csharp
 public PdfSaveOptions()

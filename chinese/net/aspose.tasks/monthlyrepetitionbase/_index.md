@@ -1,14 +1,14 @@
 ---
 title: MonthlyRepetitionBase
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示月日位置的基本模式
+description: 表示月日头寸的基本模式
 type: docs
 weight: 950
 url: /zh/net/aspose.tasks/monthlyrepetitionbase/
 ---
 ## MonthlyRepetitionBase class
 
-表示月日位置的基本模式。
+表示月日头寸的基本模式。
 
 ```csharp
 public abstract class MonthlyRepetitionBase
@@ -18,7 +18,7 @@ public abstract class MonthlyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置月数，它表示两次事件之间的间隔（以月为单位）。 |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置月数，表示事件之间的月间隔。 |
 
 ### 也可以看看
 

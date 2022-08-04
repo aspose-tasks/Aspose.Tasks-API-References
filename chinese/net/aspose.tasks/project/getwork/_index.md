@@ -1,14 +1,14 @@
 ---
 title: GetWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取具有指定Double值的Durationaspose.tasks/duration对象和默认工作格式
+description: 获取Durationaspose.tasks/duration具有指定的对象Double值和默认工作格式
 type: docs
 weight: 320
 url: /zh/net/aspose.tasks/project/getwork/
 ---
 ## Project.GetWork method
 
-获取具有指定Double值的[`Duration`](../../duration)对象和默认工作格式。
+获取[`Duration`](../../duration)具有指定的对象Double值和默认工作格式。
 
 ```csharp
 public Duration GetWork(double val)

@@ -17,7 +17,7 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, Duration dura
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | finish | DateTime | Указанная дата окончания. |
-| duration | Duration | Указанная продолжительность работы. |
+| duration | Duration | Указанный срок работы. |
 
 ### Возвращаемое значение
 
@@ -43,7 +43,7 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, TimeSpan dura
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | finish | DateTime | Указанная дата окончания. |
-| duration | TimeSpan | Указанная продолжительность работы. |
+| duration | TimeSpan | Указанный срок работы. |
 
 ### Возвращаемое значение
 

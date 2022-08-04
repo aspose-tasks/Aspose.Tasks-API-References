@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要应用样式的字段 Fieldaspose.tasks.visualization/tabletextstyle/field
+description: 获取或设置要应用样式的字段 Fieldaspose.tasks.visualization/tabletextstyle/field.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/tabletextstyle/field/
 ---
 ## TableTextStyle.Field property
 
-获取或设置要应用样式的字段。 `Field`。
+获取或设置要应用样式的字段。 `Field`.
 
 ```csharp
 public Field Field { get; set; }

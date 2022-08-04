@@ -1,14 +1,14 @@
 ---
 title: TopBarTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает определяемый пользователем преобразователь для отображения текста в верхней части панели задач. Переопределяет значение свойстваTopFieldaspose.tasks.visualization/ganttbarstyle/topfield.
+description: Получает или задает определяемый пользователем преобразователь для отображения текста в верхней части панели задач. Переопределяет значениеTopFieldaspose.tasks.visualization/ganttbarstyle/topfield свойство.
 type: docs
 weight: 260
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/topbartextconverter/
 ---
 ## GanttBarStyle.TopBarTextConverter property
 
-Получает или задает определяемый пользователем преобразователь для отображения текста в верхней части панели задач. Переопределяет значение свойства[`TopField`](../topfield).
+Получает или задает определяемый пользователем преобразователь для отображения текста в верхней части панели задач. Переопределяет значение[`TopField`](../topfield) свойство.
 
 ```csharp
 public TaskBarTextConverter TopBarTextConverter { get; set; }

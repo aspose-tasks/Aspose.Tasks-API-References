@@ -1,14 +1,14 @@
 ---
 title: Gridline
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目视图中出现的水平或垂直线
+description: 项目视图中出现的水平线或垂直线
 type: docs
-weight: 2740
+weight: 2750
 url: /zh/net/aspose.tasks.visualization/gridline/
 ---
 ## Gridline class
 
-项目视图中出现的水平或垂直线。
+项目视图中出现的水平线或垂直线。
 
 ```csharp
 public class Gridline
@@ -18,22 +18,22 @@ public class Gridline
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Gridline](gridline)() | 初始化[`Gridline`](../gridline)类的新实例。 |
+| [Gridline](gridline)() | 初始化[`Gridline`](../gridline)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.tasks.visualization/gridline/color) { get; set; } | 获取或设置网格线的[`Color`](./color)。 |
-| [GridlineType](../../aspose.tasks.visualization/gridline/gridlinetype) { get; set; } | 获取或设置网格线的类型（[`GridlineType`](./gridlinetype)）。 |
-| [Pattern](../../aspose.tasks.visualization/gridline/pattern) { get; set; } | 获取或设置网格线的[`LinePattern`](../linepattern)。 |
+| [Color](../../aspose.tasks.visualization/gridline/color) { get; set; } | 获取或设置[`Color`](./color)网格线的. |
+| [GridlineType](../../aspose.tasks.visualization/gridline/gridlinetype) { get; set; } | 获取或设置网格线的类型（[`GridlineType`](./gridlinetype) ). |
+| [Pattern](../../aspose.tasks.visualization/gridline/pattern) { get; set; } | 获取或设置[`LinePattern`](../linepattern)网格线的. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.tasks.visualization/gridline/equals)(object) | 返回一个标志，指示此实例是否等于指定对象。 |
-| override [GetHashCode](../../aspose.tasks.visualization/gridline/gethashcode)() | 返回[`Gridline`](../gridline)类实例的哈希码值。 |
+| override [Equals](../../aspose.tasks.visualization/gridline/equals)(object) | 返回一个标志，指示此实例是否等于指定的对象。 |
+| override [GetHashCode](../../aspose.tasks.visualization/gridline/gethashcode)() | 返回实例的哈希码值[`Gridline`](../gridline)类. |
 
 ### 也可以看看
 

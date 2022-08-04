@@ -1,14 +1,14 @@
 ---
 title: MpdSettings
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化MpdSettingsaspose.tasks.connectivity/mpdsettings类的新实例
+description: 初始化MpdSettingsaspose.tasks.connectivity/mpdsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.connectivity/mpdsettings/mpdsettings/
 ---
 ## MpdSettings constructor
 
-初始化[`MpdSettings`](../../mpdsettings)类的新实例。
+初始化[`MpdSettings`](../../mpdsettings)类.
 
 ```csharp
 public MpdSettings(string connectionString, int projectId)
@@ -17,7 +17,7 @@ public MpdSettings(string connectionString, int projectId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connectionString | String | 指定的连接字符串。 |
-| projectId | Int32 | 要读取的项目的指定ID。 |
+| projectId | Int32 | 要读取的项目的指定 id。 |
 
 ### 也可以看看
 

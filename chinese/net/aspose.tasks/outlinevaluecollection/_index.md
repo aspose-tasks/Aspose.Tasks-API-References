@@ -1,14 +1,14 @@
 ---
 title: OutlineValueCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示OutlineValue./outlinevalue对象的集合
+description: 代表一个集合OutlineValue./outlinevalue对象.
 type: docs
 weight: 1080
 url: /zh/net/aspose.tasks/outlinevaluecollection/
 ---
 ## OutlineValueCollection class
 
-表示[`OutlineValue`](../outlinevalue)对象的集合。
+代表一个集合[`OutlineValue`](../outlinevalue)对象.
 
 ```csharp
 public class OutlineValueCollection : IList<OutlineValue>
@@ -27,7 +27,7 @@ public class OutlineValueCollection : IList<OutlineValue>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/outlinevaluecollection/add)(OutlineValue) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/outlinevaluecollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/outlinevaluecollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/outlinevaluecollection/contains)(OutlineValue) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/outlinevaluecollection/copyto)(OutlineValue[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/outlinevaluecollection/getenumerator)() | 返回此集合的枚举数。 |

@@ -1,14 +1,14 @@
 ---
 title: FirstColumnsCount
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает количество первых столбцов которые должны быть напечатаны на всех страницах.
+description: Получает или задает количество первых столбцов для печати на всех страницах.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/pageviewsettings/firstcolumnscount/
 ---
 ## PageViewSettings.FirstColumnsCount property
 
-Получает или задает количество первых столбцов, которые должны быть напечатаны на всех страницах.
+Получает или задает количество первых столбцов для печати на всех страницах.
 
 ```csharp
 public int FirstColumnsCount { get; set; }

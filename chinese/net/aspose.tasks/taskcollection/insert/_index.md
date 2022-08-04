@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Tasks for .NET API 参考
-description: 这是 IList 的 Insert 方法的存根实现它只抛出 NotSupportedException
+description: 这是 IList 的 Insert 方法的存根实现只抛出 NotSupportedException
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/taskcollection/insert/
 ---
 ## TaskCollection.Insert method
 
-这是 IList 的 Insert 方法的存根实现，它只抛出 NotSupportedException
+这是 IList 的 Insert 方法的存根实现，只抛出 NotSupportedException
 
 ```csharp
 public void Insert(int index, Task item)

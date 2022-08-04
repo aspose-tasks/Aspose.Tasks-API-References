@@ -1,14 +1,14 @@
 ---
 title: YearLabelDisplay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает способ отображения метки года.
+description: Указывает как отображается метка года.
 type: docs
-weight: 3290
+weight: 3300
 url: /ru/net/aspose.tasks/yearlabeldisplay/
 ---
 ## YearLabelDisplay enumeration
 
-Указывает способ отображения метки года.
+Указывает, как отображается метка года.
 
 ```csharp
 public enum YearLabelDisplay
@@ -19,7 +19,7 @@ public enum YearLabelDisplay
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Y | `0` | Устанавливает список лет в MS Project как mo. |
-| Yr | `1` | Устанавливает список лет в MS Project как мес. |
+| Yr | `1` | Устанавливает список лет в MS Project как mon. |
 | Year | `2` | Устанавливает список лет в MS Project как месяц. |
 
 ### Смотрите также

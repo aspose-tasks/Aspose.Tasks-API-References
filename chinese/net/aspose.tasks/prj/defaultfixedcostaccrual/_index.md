@@ -1,14 +1,14 @@
 ---
 title: DefaultFixedCostAccrual
 second_title: Aspose.Tasks for .NET API 参考
-description: 固定成本累计时的默认类型
+description: 固定成本计提时的默认类型
 type: docs
 weight: 230
 url: /zh/net/aspose.tasks/prj/defaultfixedcostaccrual/
 ---
 ## Prj.DefaultFixedCostAccrual field
 
-固定成本累计时的默认类型。
+固定成本计提时的默认类型。
 
 ```csharp
 public static readonly Key<CostAccrualType, PrjKey> DefaultFixedCostAccrual;

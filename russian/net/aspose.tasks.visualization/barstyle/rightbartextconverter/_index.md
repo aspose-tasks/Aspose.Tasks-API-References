@@ -1,14 +1,14 @@
 ---
 title: RightBarTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает определяемый пользователем преобразователь для отображения текста справа от панели задач. Переопределяет значение свойстваRightFieldaspose.tasks.visualization/barstyle/rightfield.
+description: Получает или задает определяемый пользователем преобразователь для отображения текста справа от панели задач. Переопределяет значениеRightFieldaspose.tasks.visualization/barstyle/rightfield свойство.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks.visualization/barstyle/rightbartextconverter/
 ---
 ## BarStyle.RightBarTextConverter property
 
-Получает или задает определяемый пользователем преобразователь для отображения текста справа от панели задач. Переопределяет значение свойства[`RightField`](../rightfield).
+Получает или задает определяемый пользователем преобразователь для отображения текста справа от панели задач. Переопределяет значение[`RightField`](../rightfield) свойство.
 
 ```csharp
 public TaskBarTextConverter RightBarTextConverter { get; set; }

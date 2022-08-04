@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回WeekDayaspose.tasks/weekday指定的索引
+description: 返回索引WeekDayaspose.tasks/weekday指定
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/weekdaycollection/indexof/
 ---
 ## WeekDayCollection.IndexOf method
 
-返回[`WeekDay`](../../weekday)指定的索引。
+返回索引[`WeekDay`](../../weekday)指定。
 
 ```csharp
 public int IndexOf(WeekDay item)
@@ -20,7 +20,7 @@ public int IndexOf(WeekDay item)
 
 ### 返回值
 
-[`WeekDay`](../../weekday)的从零开始的索引（如果存在），否则为 -1。
+从零开始的索引[`WeekDay`](../../weekday)如果存在，则指定，否则为 -1。
 
 ### 也可以看看
 

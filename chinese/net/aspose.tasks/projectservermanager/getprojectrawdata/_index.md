@@ -16,7 +16,7 @@ public Stream GetProjectRawData(Guid projectGuid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| projectGuid | Guid | 要读取的项目的 Guid。 |
+| projectGuid | Guid | 要阅读的项目指南。 |
 
 ### 返回值
 
@@ -28,7 +28,7 @@ public Stream GetProjectRawData(Guid projectGuid)
 In this example the debug info for the specific project is retrieved. You can pass the resulting "debug.zip" to the support team for troubleshooting purposes.
 [C#]
 var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "密码");
-// 您要获取的项目的指导。
+// 您要获取的项目指南。
 var projectGuid = new Guid("e0294bfb-5657-45c8-9cc5-82169fb95d69");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 using (var fileStream = File.OpenWrite(@"c:\debug.zip"))

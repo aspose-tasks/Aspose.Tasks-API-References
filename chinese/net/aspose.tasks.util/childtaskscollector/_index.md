@@ -18,19 +18,19 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ChildTasksCollector](childtaskscollector)() | 初始化[`ChildTasksCollector`](../childtaskscollector)类的新实例。 |
+| [ChildTasksCollector](childtaskscollector)() | 初始化[`ChildTasksCollector`](../childtaskscollector)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Tasks](../../aspose.tasks.util/childtaskscollector/tasks) { get; } | 获取收集的子对象（任务）的列表。 |
+| [Tasks](../../aspose.tasks.util/childtaskscollector/tasks) { get; } | 获取收集的子对象（任务）列表。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Alg](../../aspose.tasks.util/childtaskscollector/alg)(Task, int) | 处理指定对象。 |
+| override [Alg](../../aspose.tasks.util/childtaskscollector/alg)(Task, int) | 处理指定的对象。 |
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase`1/postalg)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase`1/prealg)(Task, int) |  |
 

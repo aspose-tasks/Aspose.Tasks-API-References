@@ -1,14 +1,14 @@
 ---
 title: RiskItemType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает поля задачи для которых собирается статистическая информация при анализе рисков.
+description: Указывает поля задачи для которых собирается статистическая информация во время анализа рисков.
 type: docs
 weight: 1650
 url: /ru/net/aspose.tasks.riskanalysis/riskitemtype/
 ---
 ## RiskItemType enumeration
 
-Указывает поля задачи, для которых собирается статистическая информация при анализе рисков.
+Указывает поля задачи, для которых собирается статистическая информация во время анализа рисков.
 
 ```csharp
 public enum RiskItemType
@@ -21,7 +21,7 @@ public enum RiskItemType
 | Start | `0` | Запуск задачи. |
 | Finish | `1` | Задача завершена. |
 | EarlyStart | `2` | Ранний старт задачи. |
-| EarlyFinish | `3` | Досрочное завершение задачи. |
+| EarlyFinish | `3` | Задача досрочного завершения. |
 | LateStart | `4` | Поздний старт задачи. |
 | LateFinish | `5` | Задание с опозданием. |
 

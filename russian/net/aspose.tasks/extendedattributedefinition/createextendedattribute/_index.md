@@ -16,7 +16,7 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр класса[`ExtendedAttribute`](../../extendedattribute)с fieldID, равным значение fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
 
 ### Смотрите также
 
@@ -41,13 +41,13 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр класса[`ExtendedAttribute`](../../extendedattribute)с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype)не 'Text' |
+| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Текст" |
 
 ### Смотрите также
 
@@ -72,13 +72,13 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр класса[`ExtendedAttribute`](../../extendedattribute)с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype)не является "Число" или "Стоимость" |
+| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Количество" или "Стоимость" |
 
 ### Смотрите также
 
@@ -103,13 +103,13 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр класса[`ExtendedAttribute`](../../extendedattribute)с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype)не "Дата", "Начало" или 'Готово' |
+| InvalidOperationException | Если текущий[`CfType`](../cftype) не «Дата», «Начало» или «Окончание» |
 
 ### Смотрите также
 
@@ -130,17 +130,17 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| durationValue | Duration | Указанное значение длительности. |
+| durationValue | Duration | Указанное значение продолжительности. |
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр класса[`ExtendedAttribute`](../../extendedattribute)с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype)не 'Duration' |
+| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Продолжительность" |
 
 ### Смотрите также
 
@@ -154,7 +154,7 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ## CreateExtendedAttribute(bool) {#createextendedattribute_3}
 
-Создает новый расширенный атрибут с идентификатором поля, равным значению идентификатора поля этого объекта и указанному значению флага.
+Создает новый расширенный атрибут с идентификатором поля, который равен значению идентификатора поля этого объекта и указанному значению флага.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
@@ -166,13 +166,13 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр класса[`ExtendedAttribute`](../../extendedattribute)с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype)не 'Flag' |
+| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Флаг" |
 
 ### Смотрите также
 
@@ -185,7 +185,7 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-Создает новый расширенный атрибут, связанный с указанным[`Value`](../../value)элементом.
+Создает новый расширенный атрибут, связанный с указанным[`Value`](../../value) пункт.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -193,19 +193,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| lookupValue | Value | Указанный[`Value`](../../value)элемент. |
+| lookupValue | Value | Указанный[`Value`](../../value) вещь. |
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр класса[`ExtendedAttribute`](../../extendedattribute), связанный с указанным[`Value`](../../value)item.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute) класс, связанный с указанным[`Value`](../../value) вещь.
 
 ### Примечания
 
-*lookupValue*следует предварительно добавить в[`ExtendedAttributeDefinition`](../../extendedattributedefinition)с помощью[`AddLookupValue`](../addlookupvalue)метод.
+*lookupValue* должны быть предварительно добавлены в[`ExtendedAttributeDefinition`](../../extendedattributedefinition) с использованием[`AddLookupValue`](../addlookupvalue) метод.
 
 ### Примеры
 
-Используйте этот код для создания нового[`ExtendedAttribute`](../../extendedattribute)с использованием определенного значения:
+Используйте этот код для создания новых[`ExtendedAttribute`](../../extendedattribute) используя конкретное значение:
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);

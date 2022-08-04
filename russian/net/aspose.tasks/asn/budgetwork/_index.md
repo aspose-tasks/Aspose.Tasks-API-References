@@ -1,14 +1,14 @@
 ---
 title: BudgetWork
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Сметный объем трудозатрат для работы или материальных ресурсов по заданию.
+description: Заложенный в бюджет объем работ или материальных ресурсов по заданию.
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/asn/budgetwork/
 ---
 ## Asn.BudgetWork field
 
-Сметный объем трудозатрат для работы или материальных ресурсов по заданию.
+Заложенный в бюджет объем работ или материальных ресурсов по заданию.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> BudgetWork;

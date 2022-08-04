@@ -22,7 +22,7 @@ public abstract class ReadOnlyCollectionBase<T> : IList<T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/readonlycollectionbase`1/count) { get; } | 获取对象中包含的对象个数。 |
+| [Count](../../aspose.tasks/readonlycollectionbase`1/count) { get; } | 获取对象中包含的对象数。 |
 | [Item](../../aspose.tasks/readonlycollectionbase`1/item) { get; set; } | 返回指定索引处的元素。 |
 
 ## 方法
@@ -31,7 +31,7 @@ public abstract class ReadOnlyCollectionBase<T> : IList<T>
 | --- | --- |
 | [Add](../../aspose.tasks/readonlycollectionbase`1/add)(T) | 这是 ICollection 的 Add 方法的存根实现，只抛出 NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase`1/getenumerator)() | 返回此集合的枚举数。 |
-| [ToList](../../aspose.tasks/readonlycollectionbase`1/tolist)() | 将集合对象转换为[`VbaModule`](../vbamodule)对象的列表。 |
+| [ToList](../../aspose.tasks/readonlycollectionbase`1/tolist)() | 将集合对象转换为[`VbaModule`](../vbamodule)对象. |
 
 ### 也可以看看
 

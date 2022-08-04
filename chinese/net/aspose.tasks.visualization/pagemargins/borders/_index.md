@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置打印边框的位置可以是Borderaspose.tasks.visualization/border枚举的值之一
+description: 获取或设置打印边框的位置可以是的值之一Borderaspose.tasks.visualization/border枚举.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/pagemargins/borders/
 ---
 ## PageMargins.Borders property
 
-获取或设置打印边框的位置。可以是[`Border`](../../border)枚举的值之一。
+获取或设置打印边框的位置。可以是的值之一[`Border`](../../border)枚举.
 
 ```csharp
 public Border Borders { get; set; }

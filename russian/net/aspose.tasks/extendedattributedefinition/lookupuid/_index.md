@@ -16,7 +16,7 @@ public string LookupUid { get; }
 
 ### Примечания
 
-Чтобы создать произвольное поле с поиском, используйте один из фабричных методов:[`CreateLookupTaskDefinition`](../createlookuptaskdefinition)или[`CreateLookupResourceDefinition`](../createlookupresourcedefinition).
+Чтобы создать произвольное поле с поиском, используйте один из фабричных методов:[`CreateLookupTaskDefinition`](../createlookuptaskdefinition) или же[`CreateLookupResourceDefinition`](../createlookupresourcedefinition) .
 
 ### Смотрите также
 

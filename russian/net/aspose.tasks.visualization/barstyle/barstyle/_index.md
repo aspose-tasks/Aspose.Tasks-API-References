@@ -1,14 +1,14 @@
 ---
 title: BarStyle
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаBarStyleaspose.tasks.visualization/barstyle.
+description: Инициализирует новый экземплярBarStyleaspose.tasks.visualization/barstyle класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/barstyle/barstyle/
 ---
 ## BarStyle constructor
 
-Инициализирует новый экземпляр класса[`BarStyle`](../../barstyle).
+Инициализирует новый экземпляр[`BarStyle`](../../barstyle) класс.
 
 ```csharp
 public BarStyle()

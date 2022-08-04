@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает положение начальной точки диаграммы Ганта. Fieldaspose.tasks/field.
+description: Получает или задает положение начальной точки диаграммы Ганта. Fieldaspose.tasks/field .
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/from/
 ---
 ## GanttBarStyle.From property
 
-Получает или задает положение начальной точки диаграммы Ганта. [`Field`](../../../aspose.tasks/field).
+Получает или задает положение начальной точки диаграммы Ганта. [`Field`](../../../aspose.tasks/field) .
 
 ```csharp
 public Field From { get; set; }

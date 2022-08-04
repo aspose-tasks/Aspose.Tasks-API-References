@@ -1,14 +1,14 @@
 ---
 title: BitmapInvalidSizeException
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示当没有足够的内存来创建位图实例时发生的异常
+description: 表示没有足够的内存来创建位图实例时发生的异常
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/bitmapinvalidsizeexception/
 ---
 ## BitmapInvalidSizeException class
 
-表示当没有足够的内存来创建位图实例时发生的异常。
+表示没有足够的内存来创建位图实例时发生的异常。
 
 ```csharp
 public class BitmapInvalidSizeException : Exception

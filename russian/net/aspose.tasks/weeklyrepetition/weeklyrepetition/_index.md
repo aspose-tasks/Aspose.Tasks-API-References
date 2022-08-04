@@ -1,14 +1,14 @@
 ---
 title: WeeklyRepetition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаWeeklyRepetitionaspose.tasks/weeklyrepetition.
+description: Инициализирует новый экземплярWeeklyRepetitionaspose.tasks/weeklyrepetition класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/weeklyrepetition/weeklyrepetition/
 ---
 ## WeeklyRepetition constructor
 
-Инициализирует новый экземпляр класса[`WeeklyRepetition`](../../weeklyrepetition).
+Инициализирует новый экземпляр[`WeeklyRepetition`](../../weeklyrepetition) класс.
 
 ```csharp
 public WeeklyRepetition()

@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用于进度线标签的字体
+description: 获取或设置进度线标签使用的字体
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks.visualization/progresslines/font/
 ---
 ## ProgressLines.Font property
 
-获取或设置用于进度线标签的字体。
+获取或设置进度线标签使用的字体。
 
 ```csharp
 public FontDescriptor Font { get; set; }

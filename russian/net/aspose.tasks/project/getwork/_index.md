@@ -1,14 +1,14 @@
 ---
 title: GetWork
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетDurationaspose.tasks/durationобъект с указаннымDoubleзначением и формат работы по умолчанию.
+description: получаетDurationaspose.tasks/duration объект с указаннымDouble значение и рабочий формат по умолчанию.
 type: docs
 weight: 320
 url: /ru/net/aspose.tasks/project/getwork/
 ---
 ## Project.GetWork method
 
-Получает[`Duration`](../../duration)объект с указаннымDoubleзначением и формат работы по умолчанию.
+получает[`Duration`](../../duration) объект с указаннымDouble значение и рабочий формат по умолчанию.
 
 ```csharp
 public Duration GetWork(double val)
@@ -16,7 +16,7 @@ public Duration GetWork(double val)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| val | Double | указано двойное значение. |
+| val | Double | заданное двойное значение. |
 
 ### Возвращаемое значение
 

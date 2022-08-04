@@ -1,14 +1,14 @@
 ---
 title: StartShape
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置Shapeaspose.tasks.visualization/shape在栏的开头
+description: 获取或设置Shapeaspose.tasks.visualization/shape在酒吧的开头
 type: docs
 weight: 150
 url: /zh/net/aspose.tasks.visualization/barstyle/startshape/
 ---
 ## BarStyle.StartShape property
 
-获取或设置[`Shape`](../../shape)在栏的开头。
+获取或设置[`Shape`](../../shape)在酒吧的开头。
 
 ```csharp
 public Shape StartShape { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SaveTemplateOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Позволяет указать дополнительные параметры при сохранении проекта в качестве шаблона.
+description: Позволяет указать дополнительные параметры при сохранении проекта в виде шаблона.
 type: docs
 weight: 1920
 url: /ru/net/aspose.tasks.saving/savetemplateoptions/
 ---
 ## SaveTemplateOptions class
 
-Позволяет указать дополнительные параметры при сохранении проекта в качестве шаблона.
+Позволяет указать дополнительные параметры при сохранении проекта в виде шаблона.
 
 ```csharp
 public class SaveTemplateOptions

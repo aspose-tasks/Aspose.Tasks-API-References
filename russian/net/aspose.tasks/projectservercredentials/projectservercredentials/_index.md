@@ -1,14 +1,14 @@
 ---
 title: ProjectServerCredentials
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаProjectServerCredentialsaspose.tasks/projectservercredentials используя URL-адрес сайта SharePoint и действительный токен авторизации POIDCRL для PWA SharePoint. веб-доступ к проекту.
+description: Инициализирует новый экземплярProjectServerCredentialsaspose.tasks/projectservercredentials класс использующий URL-адрес сайта SharePoint и действительный токен авторизации SPOYDCRL для сайта SharePoint PWA Project Web Access.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/projectservercredentials/projectservercredentials/
 ---
 ## ProjectServerCredentials(string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ProjectServerCredentials`](../../projectservercredentials), используя URL-адрес сайта SharePoint и действительный токен авторизации POIDCRL для PWA SharePoint. (веб-доступ к проекту).
+Инициализирует новый экземпляр[`ProjectServerCredentials`](../../projectservercredentials) класс, использующий URL-адрес сайта SharePoint и действительный токен авторизации SPOYDCRL для сайта SharePoint PWA (Project Web Access).
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string authToken)
@@ -17,7 +17,7 @@ public ProjectServerCredentials(string siteUrl, string authToken)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | siteUrl | String | URL-адрес API PWA (Project Web Access) Project Online. |
-| authToken | String | Маркер авторизации (SPOIDCRL) для сайта SharePoint PWA (Project Web Access). |
+| authToken | String | Маркер авторизации (SPOYDCRL) для сайта SharePoint PWA (Project Web Access). |
 
 ### Примечания
 
@@ -33,7 +33,7 @@ public ProjectServerCredentials(string siteUrl, string authToken)
 
 ## ProjectServerCredentials(string, string, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ProjectServerCredentials`](../../projectservercredentials), используя URL сайта SharePoint, имя пользователя и пароль.
+Инициализирует новый экземпляр[`ProjectServerCredentials`](../../projectservercredentials) класс, используя URL-адрес сайта SharePoint, имя пользователя и пароль.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string userName, string password)
@@ -43,7 +43,7 @@ public ProjectServerCredentials(string siteUrl, string userName, string password
 | --- | --- | --- |
 | siteUrl | String | URL-адрес API PWA (Project Web Access) Project Online. |
 | userName | String | Имя пользователя для сайта SharePoint. |
-| пароль | String | Пароль для сайта SharePoint. |
+| password | String | Пароль для сайта SharePoint. |
 
 ### Примечания
 
@@ -59,7 +59,7 @@ public ProjectServerCredentials(string siteUrl, string userName, string password
 
 ## ProjectServerCredentials(string, NetworkCredential) {#constructor}
 
-Инициализирует новый экземпляр класса[`ProjectServerCredentials`](../../projectservercredentials), используя URL-адрес конечной точки Project Web Access и сетевые учетные данные.
+Инициализирует новый экземпляр[`ProjectServerCredentials`](../../projectservercredentials) class с использованием URL-адреса конечной точки Project Web Access и сетевых учетных данных.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
@@ -76,7 +76,7 @@ public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
 
 ### Примеры
 
-В этом примере экземпляр класса[`ProjectServerManager`](../../projectservermanager)используется для чтения список проектов из экземпляра Project Server, расположенного по адресу http://project_server_instance.local
+В этом примере экземпляр[`ProjectServerManager`](../../projectservermanager)Класс используется для чтения списка проектов из экземпляра Project Server, расположенного по адресу http://project_server_instance.local .
 
 ```csharp
 string site = "http://project_server_instance.local/sites/pwa";

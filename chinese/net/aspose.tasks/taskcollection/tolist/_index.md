@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 TaskCollection 对象转换为Taskaspose.tasks/task对象的列表
+description: 将 TaskCollection 对象转换为Taskaspose.tasks/task对象.
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/taskcollection/tolist/
 ---
 ## TaskCollection.ToList method
 
-将 TaskCollection 对象转换为[`Task`](../../task)对象的列表。
+将 TaskCollection 对象转换为[`Task`](../../task)对象.
 
 ```csharp
 public List<Task> ToList()
@@ -16,7 +16,7 @@ public List<Task> ToList()
 
 ### 返回值
 
-返回一个列表，其中包含该集合的[`Task`](../../task)类实例。
+返回一个列表，其中包含[`Task`](../../task)此集合的类实例。
 
 ### 也可以看看
 

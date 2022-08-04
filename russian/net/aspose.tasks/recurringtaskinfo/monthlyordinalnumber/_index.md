@@ -1,14 +1,14 @@
 ---
 title: MonthlyOrdinalNumber
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает порядковый номер шаблона ежемесячного повторения.  Может быть одним из значений перечисленияOrdinalNumberaspose.tasks/ordinalnumber.
+description: Получает или задает порядковый номер шаблона ежемесячного повторения.  Может быть одним из значенийOrdinalNumberaspose.tasks/ordinalnumber перечисление.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/recurringtaskinfo/monthlyordinalnumber/
 ---
 ## RecurringTaskInfo.MonthlyOrdinalNumber property
 
-Получает или задает порядковый номер шаблона ежемесячного повторения.  Может быть одним из значений перечисления[`OrdinalNumber`](../../ordinalnumber).
+Получает или задает порядковый номер шаблона ежемесячного повторения.  Может быть одним из значений[`OrdinalNumber`](../../ordinalnumber) перечисление.
 
 ```csharp
 public OrdinalNumber MonthlyOrdinalNumber { get; set; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.tasks/table/dateformat/
 ---
 ## Table.DateFormat property
 
-获取或设置表格的日期格式。
+获取或设置表格的日期格式
 
 ```csharp
 public DateFormat DateFormat { get; set; }

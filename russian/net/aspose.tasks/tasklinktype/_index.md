@@ -18,10 +18,10 @@ public enum TaskLinkType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| FinishToFinish | `0` | Отношение "конец-финиш" |
+| FinishToFinish | `0` | Отношение «конец-конец» |
 | FinishToStart | `1` | Отношение "конец-начало" |
-| StartToFinish | `2` | Отношение Старт-Финиш |
-| StartToStart | `3` | Отношение Start-Start |
+| StartToFinish | `2` | Связь между началом и окончанием |
+| StartToStart | `3` | Связь между началом и началом |
 
 ### Смотрите также
 

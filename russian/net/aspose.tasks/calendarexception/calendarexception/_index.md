@@ -1,14 +1,14 @@
 ---
 title: CalendarException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаCalendarExceptionaspose.tasks/calendarexception.
+description: Инициализирует новый экземплярCalendarExceptionaspose.tasks/calendarexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/calendarexception/calendarexception/
 ---
 ## CalendarException constructor
 
-Инициализирует новый экземпляр класса[`CalendarException`](../../calendarexception).
+Инициализирует новый экземпляр[`CalendarException`](../../calendarexception) класс.
 
 ```csharp
 public CalendarException()

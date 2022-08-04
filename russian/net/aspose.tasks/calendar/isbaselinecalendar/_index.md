@@ -1,14 +1,14 @@
 ---
 title: IsBaselineCalendar
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее является ли календарь базовым календарем. Чтение/записьBoolean.
+description: Получает или задает значение указывающее является ли календарь базовым календарем. Чтение/записьBoolean .
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/calendar/isbaselinecalendar/
 ---
 ## Calendar.IsBaselineCalendar property
 
-Получает или задает значение, указывающее, является ли календарь базовым календарем. Чтение/записьBoolean.
+Получает или задает значение, указывающее, является ли календарь базовым календарем. Чтение/записьBoolean .
 
 ```csharp
 public bool IsBaselineCalendar { get; set; }
@@ -16,7 +16,7 @@ public bool IsBaselineCalendar { get; set; }
 
 ### Примечания
 
-Это новое свойство MS Project 2010. Чтение поддерживается только для формата XML. Возвращает false, если не определено.
+Это новое свойство для MS Project 2010. Чтение поддерживается только для формата XML. Возвращает false, если не определено.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: DurationValue
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает значение для атрибутов с типом Длительность.
+description: Получает или задает значение для атрибутов с типом Длительность.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/extendedattribute/durationvalue/
 ---
 ## ExtendedAttribute.DurationValue property
 
-Получает или устанавливает значение для атрибутов с типом «Длительность».
+Получает или задает значение для атрибутов с типом «Длительность».
 
 ```csharp
 public Duration DurationValue { get; set; }
@@ -18,7 +18,7 @@ public Duration DurationValue { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, если свойство[`AttributeDefinition`](../attributedefinition)не является инициализированным или настраиваемым типом поля[`AttributeDefinition`](../attributedefinition)свойство не является экземпляром[`Duration`](../../duration). |
+| InvalidOperationException | Брошен, если[`AttributeDefinition`](../attributedefinition) свойство не инициализировано или тип пользовательского поля[`AttributeDefinition`](../attributedefinition) имущество не является[`Duration`](../../duration) пример. |
 
 ### Смотрите также
 

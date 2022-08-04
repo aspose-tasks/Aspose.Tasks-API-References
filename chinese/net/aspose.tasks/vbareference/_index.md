@@ -1,14 +1,14 @@
 ---
 title: VbaReference
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示VbaProject./vbaproject的引用
+description: 代表一个引用VbaProject./vbaproject.
 type: docs
-weight: 2510
+weight: 2520
 url: /zh/net/aspose.tasks/vbareference/
 ---
 ## VbaReference class
 
-表示[`VbaProject`](../vbaproject)的引用。
+代表一个引用[`VbaProject`](../vbaproject).
 
 ```csharp
 public sealed class VbaReference : IEquatable<VbaReference>
@@ -31,9 +31,9 @@ public sealed class VbaReference : IEquatable<VbaReference>
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbareference/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`VbaReference`](../vbareference)对象。 |
-| [Equals](../../aspose.tasks/vbareference/equals#equals)(VbaReference) | 返回一个值，指示此实例是否等于指定的[`VbaReference`](../vbareference)对象。 |
-| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode)() | 返回此[`VbaReference`](../vbareference)的哈希码值。 |
+| override [Equals](../../aspose.tasks/vbareference/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`VbaReference`](../vbareference)对象. |
+| [Equals](../../aspose.tasks/vbareference/equals#equals)(VbaReference) | 返回一个值，指示此实例是否等于指定的[`VbaReference`](../vbareference)对象. |
+| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode)() | 为此返回一个哈希码值[`VbaReference`](../vbareference). |
 
 ### 也可以看看
 

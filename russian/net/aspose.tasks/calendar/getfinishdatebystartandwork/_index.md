@@ -17,7 +17,7 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, Duration work)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | start | DateTime | Дата начала. |
-| work | Duration | Длительность работы. |
+| work | Duration | Продолжительность работы. |
 
 ### Возвращаемое значение
 
@@ -43,7 +43,7 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, TimeSpan work)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | start | DateTime | Дата начала. |
-| work | TimeSpan | Длительность работы. |
+| work | TimeSpan | Продолжительность работы. |
 
 ### Возвращаемое значение
 

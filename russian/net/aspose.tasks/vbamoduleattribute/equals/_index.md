@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение указывающее равен ли этот экземпляр указанному объектуVbaModuleAttributeaspose.tasks/vbamoduleattribute.
+description: Возвращает значение указывающее равен ли этот экземпляр указанномуVbaModuleAttributeaspose.tasks/vbamoduleattribute объект.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/vbamoduleattribute/equals/
 ---
 ## Equals(VbaModuleAttribute) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту[`VbaModuleAttribute`](../../vbamoduleattribute).
+Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaModuleAttribute`](../../vbamoduleattribute) объект.
 
 ```csharp
 public bool Equals(VbaModuleAttribute other)
@@ -16,11 +16,11 @@ public bool Equals(VbaModuleAttribute other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | VbaModuleAttribute | Указанный объект[`VbaModuleAttribute`](../../vbamoduleattribute)для сравнения с этим экземпляром. |
+| other | VbaModuleAttribute | Указанный[`VbaModuleAttribute`](../../vbamoduleattribute) объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-Возвращает true, если этот экземпляр равен указанному объекту[`VbaModuleAttribute`](../../vbamoduleattribute); в противном случае ложно.
+Возвращает true, если этот экземпляр равен указанному[`VbaModuleAttribute`](../../vbamoduleattribute) объект; в противном случае ложно.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public bool Equals(VbaModuleAttribute other)
 
 ## Equals(object) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту[`VbaModuleAttribute`](../../vbamoduleattribute).
+Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaModuleAttribute`](../../vbamoduleattribute) объект.
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,11 +40,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Указанный объект[`VbaModuleAttribute`](../../vbamoduleattribute)для сравнения с этим экземпляром. |
+| obj | Object | Указанный[`VbaModuleAttribute`](../../vbamoduleattribute) объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-Возвращает true, если этот экземпляр равен указанному объекту[`VbaModuleAttribute`](../../vbamoduleattribute); в противном случае ложно.
+Возвращает true, если этот экземпляр равен указанному[`VbaModuleAttribute`](../../vbamoduleattribute) объект; в противном случае ложно.
 
 ### Смотрите также
 

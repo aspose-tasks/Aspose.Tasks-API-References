@@ -18,7 +18,7 @@ public sealed class CustomProjectPropertyCollection : PropertyKeyedCollection<Cu
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomProjectPropertyCollection](customprojectpropertycollection)() | 初始化[`CustomProjectPropertyCollection`](../customprojectpropertycollection)类的新实例。 |
+| [CustomProjectPropertyCollection](customprojectpropertycollection)() | 初始化[`CustomProjectPropertyCollection`](../customprojectpropertycollection)班级。 |
 
 ## 特性
 
@@ -34,10 +34,10 @@ public sealed class CustomProjectPropertyCollection : PropertyKeyedCollection<Cu
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(CustomProjectProperty) |  |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add)(string, bool) | 创建新的自定义属性。 |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add_2)(string, DateTime) | 创建新的自定义属性。 |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add_1)(string, double) | 创建新的自定义属性。 |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add_3)(string, string) | 创建新的自定义属性。 |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add)(string, bool) | 创建一个新的自定义属性。 |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add_2)(string, DateTime) | 创建一个新的自定义属性。 |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add_1)(string, double) | 创建一个新的自定义属性。 |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add#add_3)(string, string) | 创建一个新的自定义属性。 |
 | [Clear](../../aspose.tasks.properties/customprojectpropertycollection/clear)() | 清除 PropertyCollection。 |
 | [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) |  |
 | [Remove](../../aspose.tasks.properties/customprojectpropertycollection/remove)(string) | 从集合中删除具有指定名称的属性。 |

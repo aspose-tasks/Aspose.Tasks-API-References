@@ -1,14 +1,14 @@
 ---
 title: TableTextStyle
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTableTextStyleaspose.tasks.visualization/tabletextstyle.
+description: Инициализирует новый экземплярTableTextStyleaspose.tasks.visualization/tabletextstyle класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/tabletextstyle/tabletextstyle/
 ---
 ## TableTextStyle(int) {#constructor}
 
-Инициализирует новый экземпляр класса[`TableTextStyle`](../../tabletextstyle).
+Инициализирует новый экземпляр[`TableTextStyle`](../../tabletextstyle) класс.
 
 ```csharp
 public TableTextStyle(int rowUid)
@@ -28,7 +28,7 @@ public TableTextStyle(int rowUid)
 
 ## TableTextStyle(int, FontDescriptor) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TableTextStyle`](../../tabletextstyle)с указанным шрифтом.
+Инициализирует новый экземпляр[`TableTextStyle`](../../tabletextstyle) класс с указанным шрифтом.
 
 ```csharp
 public TableTextStyle(int rowUid, FontDescriptor font)
@@ -50,7 +50,7 @@ public TableTextStyle(int rowUid, FontDescriptor font)
 
 ## TableTextStyle(int, float, FontStyles) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`TableTextStyle`](../../tabletextstyle)с указанным размером и стилем шрифта.
+Инициализирует новый экземпляр[`TableTextStyle`](../../tabletextstyle) класс с указанным размером шрифта и стилем шрифта.
 
 ```csharp
 public TableTextStyle(int rowUid, float fontSize, FontStyles fontStyle)
@@ -73,7 +73,7 @@ public TableTextStyle(int rowUid, float fontSize, FontStyles fontStyle)
 
 ## TableTextStyle(int, FontStyles) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TableTextStyle`](../../tabletextstyle)с настройками шрифта по умолчанию и указанным стилем шрифта.
+Инициализирует новый экземпляр[`TableTextStyle`](../../tabletextstyle) класс с настройками шрифта по умолчанию и указанным стилем шрифта.
 
 ```csharp
 public TableTextStyle(int rowUid, FontStyles fontStyle)

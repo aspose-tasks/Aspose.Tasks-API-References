@@ -1,14 +1,14 @@
 ---
 title: XpsOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаXpsOptionsaspose.tasks.saving/xpsoptions.
+description: Инициализирует новый экземплярXpsOptionsaspose.tasks.saving/xpsoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/xpsoptions/xpsoptions/
 ---
 ## XpsOptions constructor
 
-Инициализирует новый экземпляр класса[`XpsOptions`](../../xpsoptions).
+Инициализирует новый экземпляр[`XpsOptions`](../../xpsoptions) класс.
 
 ```csharp
 public XpsOptions()

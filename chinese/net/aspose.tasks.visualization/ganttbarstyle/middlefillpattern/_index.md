@@ -1,14 +1,14 @@
 ---
 title: MiddleFillPattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置甘特条的填充模式
+description: 获取或设置甘特条的填充图案
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/middlefillpattern/
 ---
 ## GanttBarStyle.MiddleFillPattern property
 
-获取或设置甘特条的填充模式。
+获取或设置甘特条的填充图案。
 
 ```csharp
 public GanttBarFillPattern MiddleFillPattern { get; set; }

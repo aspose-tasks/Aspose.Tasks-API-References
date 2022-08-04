@@ -1,14 +1,14 @@
 ---
 title: VisualObjectsPlacements
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает коллекцию объектов представляющих размещение и внешний видOleObjectaspose.tasks/oleobjectв представлении.
+description: Получает коллекцию объектов представляющих размещение и внешний видOleObjectaspose.tasks/oleobject в представлении.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/view/visualobjectsplacements/
 ---
 ## View.VisualObjectsPlacements property
 
-Получает коллекцию объектов, представляющих размещение и внешний вид[`OleObject`](../../oleobject)в представлении.
+Получает коллекцию объектов, представляющих размещение и внешний вид[`OleObject`](../../oleobject) в представлении.
 
 ```csharp
 public IEnumerable<VisualObjectPlacement> VisualObjectsPlacements { get; }

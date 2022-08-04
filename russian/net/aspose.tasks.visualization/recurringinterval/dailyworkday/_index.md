@@ -1,14 +1,14 @@
 ---
 title: DailyWorkday
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее является ли день рабочим для ежедневных строк выполнения.
+description: Получает или задает значение указывающее является ли день рабочим днем для ежедневных строк прогресса.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/recurringinterval/dailyworkday/
 ---
 ## RecurringInterval.DailyWorkday property
 
-Получает или задает значение, указывающее, является ли день рабочим для ежедневных строк выполнения.
+Получает или задает значение, указывающее, является ли день рабочим днем для ежедневных строк прогресса.
 
 ```csharp
 public bool DailyWorkday { get; set; }

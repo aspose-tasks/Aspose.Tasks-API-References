@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API 参考
-description: 任务名称
+description: 任务的名称
 type: docs
 weight: 820
 url: /zh/net/aspose.tasks/tsk/name/
 ---
 ## Tsk.Name field
 
-任务名称。
+任务的名称。
 
 ```csharp
 public static readonly Key<string, TaskKey> Name;

@@ -1,0 +1,77 @@
+---
+title: Aspose.Tasks.Visualization
+second_title: Aspose.Tasks لمرجع .NET API
+description: يحتوي على فئات مساعدة للعرض .
+type: docs
+weight: 70
+url: /ar/net/aspose.tasks.visualization/
+---
+يحتوي على فئات مساعدة للعرض .
+
+## الطبقات
+
+| فصل | وصف |
+| --- | --- |
+| [AssignmentToColumnTextConverter](./assignmenttocolumntextconverter) | بيانات ResourceAssignment لمحول سلسلة العمود. |
+| [AssignmentViewColumn](./assignmentviewcolumn) | فئة عرض المشروع. |
+| [BarStyle](./barstyle) | تغيير النمط المرئي للشريط للعنصر في عرض المشروع. |
+| [DateTimeConverter](./datetimeconverter) | يمثل طريقة تحويل لتحويل التاريخ إلى سلسلة في عرض مستويات النطاق الزمني. |
+| [FontDescriptor](./fontdescriptor) | يمثل معلومات الخط. |
+| [GanttBarStyle](./ganttbarstyle) | يمثل نمط شريط يستخدمه MSP في عرض مخطط جانت. |
+| [GanttChartColumn](./ganttchartcolumn) | عرض المشروع class |
+| [Gridline](./gridline) | الخط الأفقي أو العمودي الذي يظهر في عرض المشروع . |
+| [Gridlines](./gridlines) | يمثل خطوط الشبكة التي تظهر في طريقة عرض GanttChart . |
+| [HeaderFooterInfo](./headerfooterinfo) | يمثل بيانات الرأس أو التذييل الموجودة في طرق العرض والمستخدمة للطباعة. |
+| [PageInfo](./pageinfo) | يمثل بيانات إعداد الصفحة الموجودة بتنسيق ملف MPP والمستخدمة للطباعة. |
+| [PageLegend](./pagelegend) | يمثل وسيلة إيضاح للصفحة تُستخدم لطباعة المشروع. |
+| [PageMargins](./pagemargins) | يمثل هوامش الصفحة للطباعة. |
+| [PageSettings](./pagesettings) | يمثل إعدادات الطباعة لصفحة عرض المشروع. |
+| [PageViewSettings](./pageviewsettings) | يمثل إعدادات الطباعة لعرض المشروع. |
+| [ProgressLines](./progresslines) | يمثل خطوط التقدم في طريقة عرض مخطط جانت . |
+| [ProjectView](./projectview) | عرض المشروع class |
+| [RecurringInterval](./recurringinterval) | يمثل الفواصل الزمنية المتكررة المستخدمة في أسطر التقدم لعرض مخطط جانت . |
+| [ResourceToColumnTextConverter](./resourcetocolumntextconverter) | بيانات المورد إلى محول سلسلة العمود. |
+| [ResourceViewColumn](./resourceviewcolumn) | فئة عرض المشروع المستخدمة في عرض ResourceUsage وعرض ResourceSheet. |
+| [TableTextStyle](./tabletextstyle) | يمثل نمط نص في جدول العرض. |
+| [TaskBarTextConverter](./taskbartextconverter) | محول مخصص لبيانات المهمة إلى شريط النص. |
+| [TaskTextStyleEventArgs](./tasktextstyleeventargs) | تمثل هذه الفئة مجموعة من البيانات ذات الصلة بعرض محتوى خلية الجدول. |
+| [TaskToColumnTextConverter](./tasktocolumntextconverter) | بيانات المهمة لتحويل سلسلة العمود. |
+| [TextStyle](./textstyle) | تغيير النمط المرئي للنص لعنصر في عرض المشروع. |
+| [TimescaleTier](./timescaletier) | يمثل مستوى واحدًا من مقياس الوقت في مخطط جانت. |
+| [ViewColumn](./viewcolumn) | يمثل عمودًا في طريقة عرض المشروع . |
+| [VisualObjectPlacement](./visualobjectplacement) | يمثل موضع ومظهر[`OleObject`](../aspose.tasks/oleobject) في العرض . |
+## واجهات
+
+| واجهه المستخدم | وصف |
+| --- | --- |
+| [ITextStyleModificationCallback](./itextstylemodificationcallback) | يمثل رد اتصال يتم استدعاؤه قبل تطبيق TextStyle على خلية جدول. |
+## تعداد
+
+| تعداد | وصف |
+| --- | --- |
+| [BarItemType](./baritemtype) | نوع العنصر المراد تغيير نمط شريطه لـ . |
+| [BarShape](./barshape) | شكل مستطيل شريطي . |
+| [Border](./border) | تحديد حدود النوع . |
+| [DateLabel](./datelabel) | يحدد تنسيق العرض لملصقات التاريخ والوقت بمقياس زمني. |
+| [FillPattern](./fillpattern) | نمط التعبئة المستخدم في الشكل الأوسط لشريط جانت. |
+| [FontStyles](./fontstyles) | تحديد معلومات النمط المطبقة على النص . |
+| [GanttBarEndShape](./ganttbarendshape) | يمثل شكل النهاية في الأشرطة ونقاط التقدم في خطوط التقدم . |
+| [GanttBarFillPattern](./ganttbarfillpattern) | نمط تعبئة الشكل . |
+| [GanttBarMiddleShape](./ganttbarmiddleshape) | يحدد الشكل الأوسط للشريط . |
+| [GanttBarShowFor](./ganttbarshowfor) | يمثل فئات المهام المستخدمة عند تخصيص الأنماط الشريطية لمخطط جانت. |
+| [GanttBarType](./ganttbartype) | يحدد نوع الشريط . |
+| [GridlineType](./gridlinetype) | نوع خط الشبكة . |
+| [HorizontalAlignment](./horizontalalignment) | يحدد كيفية محاذاة كائن أو نص أفقيًا بالنسبة لكائن آخر. |
+| [Interval](./interval) | يحدد فترات متكررة لعرض خطوط التقدم في . |
+| [Legend](./legend) | يحدد الصفحات التي تظهر عليها وسيلة الإيضاح. |
+| [LinePattern](./linepattern) | نمط الخط . |
+| [PageSize](./pagesize) | يحدد حجم الصفحة . |
+| [PresentationFormat](./presentationformat) | التعداد لتنسيق العرض التقديمي . |
+| [PrinterPaperSize](./printerpapersize) | يحدد حجم الورق المستخدم للطباعة. |
+| [ReportType](./reporttype) | نوع التقرير الرسومي للمشروع . |
+| [Shape](./shape) | شكل علامة في بداية أو نهاية نمط الشريط الذي سيتم عرضه عند حفظ بيانات العرض لبعض[`SaveFileFormat`](../aspose.tasks.saving/savefileformat) . |
+| [TextItemType](./textitemtype) | نوع العنصر المطلوب تغيير نمط النص لـ . |
+| [Timescale](./timescale) | يحدد الخيارات التي تحدد كيفية عرض مقياس الوقت في طرق عرض مخطط جانت أو استخدام المهام أو استخدام الموارد عند تصدير المشروع إلى تنسيق رسومي. |
+| [TimescaleUnit](./timescaleunit) | يحدد الوحدة الزمنية لأي طبقة من مقياس الوقت في مخطط جانت أو طريقة عرض زمنية أخرى مرحلية. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->

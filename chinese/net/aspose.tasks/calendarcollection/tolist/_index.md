@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 CalendarCollection 对象转换为Calendaraspose.tasks/calendar对象的列表
+description: 将 CalendarCollection 对象转换为Calendaraspose.tasks/calendar对象.
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/calendarcollection/tolist/
 ---
 ## CalendarCollection.ToList method
 
-将 CalendarCollection 对象转换为[`Calendar`](../../calendar)对象的列表。
+将 CalendarCollection 对象转换为[`Calendar`](../../calendar)对象.
 
 ```csharp
 public List<Calendar> ToList()
@@ -16,7 +16,7 @@ public List<Calendar> ToList()
 
 ### 返回值
 
-[`Calendar`](../../calendar)对象列表。
+清单[`Calendar`](../../calendar)对象。
 
 ### 也可以看看
 

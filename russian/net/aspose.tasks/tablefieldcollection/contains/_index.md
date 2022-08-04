@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает true если указанный элемент найден в этой коллекции в противном случае ложно.
+description: Возвращает true если указанный элемент найден в этой коллекции в противном случае false.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/tablefieldcollection/contains/
 ---
 ## TableFieldCollection.Contains method
 
-Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false.
 
 ```csharp
 public bool Contains(TableField item)
@@ -16,11 +16,11 @@ public bool Contains(TableField item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | TableField | указанный предмет для поиска. |
+| item | TableField | указанный элемент для поиска. |
 
 ### Возвращаемое значение
 
-true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Значение true, если указанный элемент найден в этой коллекции; в противном случае ложно.
 
 ### Смотрите также
 

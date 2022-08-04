@@ -1,14 +1,14 @@
 ---
 title: WBSLevel
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Самый правый СПП-уровень задачи.
+description: Самый правый уровень WBS задачи.
 type: docs
 weight: 1150
 url: /ru/net/aspose.tasks/tsk/wbslevel/
 ---
 ## Tsk.WBSLevel field
 
-Самый правый СПП-уровень задачи.
+Самый правый уровень WBS задачи.
 
 ```csharp
 public static readonly Key<string, TaskKey> WBSLevel;

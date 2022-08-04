@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает флаг указывающий равен ли этот экземпляр указанному экземпляру классаNullableBoolaspose.tasks/nullablebool.
+description: Возвращает флаг указывающий равен ли этот экземпляр указанному экземпляруNullableBoolaspose.tasks/nullablebool класс.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/nullablebool/equals/
 ---
 ## Equals(NullableBool) {#equals}
 
-Возвращает флаг, указывающий, равен ли этот экземпляр указанному экземпляру класса[`NullableBool`](../../nullablebool).
+Возвращает флаг, указывающий, равен ли этот экземпляр указанному экземпляру[`NullableBool`](../../nullablebool) класс.
 
 ```csharp
 public bool Equals(NullableBool other)
@@ -20,7 +20,7 @@ public bool Equals(NullableBool other)
 
 ### Возвращаемое значение
 
-флаг, указывающий, равен ли этот экземпляр указанному экземпляру класса[`NullableBool`](../../nullablebool).
+флаг, указывающий, равен ли этот экземпляр указанному экземпляру[`NullableBool`](../../nullablebool) учебный класс.
 
 ### Смотрите также
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-флаг, указывающий, равен ли данный экземпляр указанному объекту.
+флаг, указывающий, равен ли этот экземпляр указанному объекту.
 
 ### Смотрите также
 

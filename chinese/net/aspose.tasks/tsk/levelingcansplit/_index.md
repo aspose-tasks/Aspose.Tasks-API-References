@@ -1,14 +1,14 @@
 ---
 title: LevelingCanSplit
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定资源平衡功能是否会导致此任务的剩余工作拆分
+description: 确定资源调配功能是否会导致拆分此任务的剩余工作
 type: docs
 weight: 760
 url: /zh/net/aspose.tasks/tsk/levelingcansplit/
 ---
 ## Tsk.LevelingCanSplit field
 
-确定资源平衡功能是否会导致此任务的剩余工作拆分。
+确定资源调配功能是否会导致拆分此任务的剩余工作。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> LevelingCanSplit;

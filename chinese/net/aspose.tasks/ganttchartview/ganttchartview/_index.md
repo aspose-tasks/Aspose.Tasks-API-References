@@ -1,14 +1,14 @@
 ---
 title: GanttChartView
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化GanttChartViewaspose.tasks/ganttchartview类的新实例
+description: 初始化GanttChartViewaspose.tasks/ganttchartview类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/ganttchartview/ganttchartview/
 ---
 ## GanttChartView constructor
 
-初始化[`GanttChartView`](../../ganttchartview)类的新实例。
+初始化[`GanttChartView`](../../ganttchartview)类.
 
 ```csharp
 public GanttChartView()

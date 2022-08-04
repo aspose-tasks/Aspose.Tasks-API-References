@@ -1,14 +1,14 @@
 ---
 title: Units
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配的单位数
+description: 分配的单元数
 type: docs
 weight: 570
 url: /zh/net/aspose.tasks/asn/units/
 ---
 ## Asn.Units field
 
-分配的单位数。
+分配的单元数。
 
 ```csharp
 public static readonly Key<double, AsnKey> Units;

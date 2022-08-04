@@ -1,14 +1,14 @@
 ---
 title: CostCenter
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает на какой центр затрат должны быть отнесены затраты накопленные ресурсом.
+description: Указывает на какой центр затрат должны быть отнесены затраты начисленные ресурсом.
 type: docs
 weight: 230
 url: /ru/net/aspose.tasks/rsc/costcenter/
 ---
 ## Rsc.CostCenter field
 
-Указывает, на какой центр затрат должны быть отнесены затраты, накопленные ресурсом.
+Указывает, на какой центр затрат должны быть отнесены затраты, начисленные ресурсом.
 
 ```csharp
 public static readonly Key<string, RscKey> CostCenter;

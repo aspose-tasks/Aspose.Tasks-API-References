@@ -1,14 +1,14 @@
 ---
 title: WorkWeek
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示 WorkWeek 类
+description: 代表 WorkWeek 类
 type: docs
-weight: 3250
+weight: 3260
 url: /zh/net/aspose.tasks/workweek/
 ---
 ## WorkWeek class
 
-表示 WorkWeek 类
+代表 WorkWeek 类
 
 ```csharp
 public class WorkWeek
@@ -18,7 +18,7 @@ public class WorkWeek
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WorkWeek](workweek)() | 初始化[`WorkWeek`](../workweek)类的新实例。 |
+| [WorkWeek](workweek)() | 初始化[`WorkWeek`](../workweek)类. |
 
 ## 特性
 
@@ -26,7 +26,7 @@ public class WorkWeek
 | --- | --- |
 | [FromDate](../../aspose.tasks/workweek/fromdate) { get; set; } | 获取或设置工作周的开始日期时间 |
 | [Name](../../aspose.tasks/workweek/name) { get; set; } | 获取或设置工作周名称 |
-| [ToDate](../../aspose.tasks/workweek/todate) { get; set; } | 获取或设置工作周的完成日期时间 |
+| [ToDate](../../aspose.tasks/workweek/todate) { get; set; } | 获取或设置工作周的 Finish DateTime |
 | [WeekDays](../../aspose.tasks/workweek/weekdays) { get; } | 获取工作日。 |
 
 ### 也可以看看

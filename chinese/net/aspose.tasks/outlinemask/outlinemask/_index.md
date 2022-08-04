@@ -1,14 +1,14 @@
 ---
 title: OutlineMask
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化OutlineMaskaspose.tasks/outlinemask类的新实例
+description: 初始化OutlineMaskaspose.tasks/outlinemask班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/outlinemask/outlinemask/
 ---
 ## OutlineMask constructor
 
-初始化[`OutlineMask`](../../outlinemask)类的新实例。
+初始化[`OutlineMask`](../../outlinemask)班级。
 
 ```csharp
 public OutlineMask()

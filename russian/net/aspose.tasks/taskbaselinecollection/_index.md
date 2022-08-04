@@ -1,14 +1,14 @@
 ---
 title: TaskBaselineCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовTaskBaseline./taskbaseline.
+description: Представляет наборTaskBaseline./taskbaseline объекты.
 type: docs
 weight: 2080
 url: /ru/net/aspose.tasks/taskbaselinecollection/
 ---
 ## TaskBaselineCollection class
 
-Представляет набор объектов[`TaskBaseline`](../taskbaseline).
+Представляет набор[`TaskBaseline`](../taskbaseline) объекты.
 
 ```csharp
 public class TaskBaselineCollection : IList<TaskBaseline>
@@ -25,10 +25,10 @@ public class TaskBaselineCollection : IList<TaskBaseline>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/taskbaselinecollection/add)(TaskBaseline) | Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException |
+| [Add](../../aspose.tasks/taskbaselinecollection/add)(TaskBaseline) | Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/taskbaselinecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/taskbaselinecollection/remove)(TaskBaseline) | Удаляет базовый уровень из этой коллекции. |
-| [ToList](../../aspose.tasks/taskbaselinecollection/tolist)() | Преобразует объект TaskBaselineCollection в список объектов[`TaskBaseline`](../taskbaseline). |
+| [ToList](../../aspose.tasks/taskbaselinecollection/tolist)() | Преобразует объект TaskBaselineCollection в список[`TaskBaseline`](../taskbaseline) объекты. |
 
 ### Смотрите также
 

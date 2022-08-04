@@ -1,14 +1,14 @@
 ---
 title: ValueReadOnly
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取一个值该值指示此ExtendedAttributeaspose.tasks/extendedattribute实例的值是否为只读  如果在ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition中为此对象定义了公式或汇总则返回 true
+description: 获取一个值表示这个值是否ExtendedAttributeaspose.tasks/extendedattribute实例是只读的 如果公式或汇总在ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition对于这个对象
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/extendedattribute/valuereadonly/
 ---
 ## ExtendedAttribute.ValueReadOnly property
 
-获取一个值，该值指示此[`ExtendedAttribute`](../../extendedattribute)实例的值是否为只读。  如果在[`ExtendedAttributeDefinition`](../../extendedattributedefinition)中为此对象定义了公式或汇总，则返回 true。
+获取一个值，表示这个值是否[`ExtendedAttribute`](../../extendedattribute)实例是只读的。 如果公式或汇总在[`ExtendedAttributeDefinition`](../../extendedattributedefinition)对于这个对象。
 
 ```csharp
 public bool ValueReadOnly { get; }

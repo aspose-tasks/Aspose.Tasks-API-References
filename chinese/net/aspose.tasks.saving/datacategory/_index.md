@@ -20,7 +20,7 @@ public enum DataCategory
 | --- | --- | --- |
 | Tasks | `0` | 任务信息。 |
 | Resources | `1` | 资源信息。 |
-| Assignments | `2` | 分配信息。 |
+| Assignments | `2` | 作业信息。 |
 
 ### 也可以看看
 

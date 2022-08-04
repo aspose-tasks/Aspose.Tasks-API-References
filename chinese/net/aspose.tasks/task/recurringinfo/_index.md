@@ -1,14 +1,14 @@
 ---
 title: RecurringInfo
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取循环任务的RecurringTaskInfoaspose.tasks/recurringtaskinfo类的实例如果任务不是重复任务则返回 null RecurringTaskInfoaspose.tasks/recurringtaskinfo实例的信息仅以 mpp 文件格式存在
+description: 获取实例RecurringTaskInfoaspose.tasks/recurringtaskinfo重复任务的任务的类如果任务不是重复任务则返回 null 实例的信息RecurringTaskInfoaspose.tasks/recurringtaskinfo仅以 mpp 文件格式存在
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/task/recurringinfo/
 ---
 ## Task.RecurringInfo property
 
-获取循环任务的[`RecurringTaskInfo`](../../recurringtaskinfo)类的实例；如果任务不是重复任务，则返回 null； [`RecurringTaskInfo`](../../recurringtaskinfo)实例的信息仅以 mpp 文件格式存在。
+获取实例[`RecurringTaskInfo`](../../recurringtaskinfo)重复任务的任务的类；如果任务不是重复任务，则返回 null; 实例的信息[`RecurringTaskInfo`](../../recurringtaskinfo)仅以 mpp 文件格式存在。
 
 ```csharp
 public RecurringTaskInfo RecurringInfo { get; }

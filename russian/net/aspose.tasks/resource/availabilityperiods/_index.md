@@ -1,14 +1,14 @@
 ---
 title: AvailabilityPeriods
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаAvailabilityPeriodCollectionaspose.tasks/availabilityperiodcollection. Набор периодов в течение которых ресурс доступен.
+description: Получает экземплярAvailabilityPeriodCollectionaspose.tasks/availabilityperiodcollection class. Набор периодов в течение которых ресурс доступен.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/resource/availabilityperiods/
 ---
 ## Resource.AvailabilityPeriods property
 
-Получает экземпляр класса[`AvailabilityPeriodCollection`](../../availabilityperiodcollection). Набор периодов, в течение которых ресурс доступен.
+Получает экземпляр[`AvailabilityPeriodCollection`](../../availabilityperiodcollection) class. Набор периодов, в течение которых ресурс доступен.
 
 ```csharp
 public AvailabilityPeriodCollection AvailabilityPeriods { get; }

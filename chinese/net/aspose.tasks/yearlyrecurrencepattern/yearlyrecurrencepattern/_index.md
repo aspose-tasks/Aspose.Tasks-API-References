@@ -1,14 +1,14 @@
 ---
 title: YearlyRecurrencePattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化YearlyRecurrencePatternaspose.tasks/yearlyrecurrencepattern类的新实例
+description: 初始化YearlyRecurrencePatternaspose.tasks/yearlyrecurrencepattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/yearlyrecurrencepattern/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern constructor
 
-初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类的新实例。
+初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类.
 
 ```csharp
 public YearlyRecurrencePattern()

@@ -1,14 +1,14 @@
 ---
 title: Month
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает месяц для которого запланировано повторение исключения.
+description: Получает или задает месяц на который запланировано повторение исключения.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/calendarexception/month/
 ---
 ## CalendarException.Month property
 
-Получает или задает месяц, для которого запланировано повторение исключения.
+Получает или задает месяц, на который запланировано повторение исключения.
 
 ```csharp
 public Month Month { get; set; }

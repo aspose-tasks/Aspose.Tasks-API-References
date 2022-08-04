@@ -1,14 +1,14 @@
 ---
 title: CV
 second_title: Aspose.Tasks for .NET API 参考
-description: 任务的基线成本和总成本之间的差异 成本差异  成本 - 基准成本
+description: 任务的基准成本和总成本之间的差异 成本差异  成本 - 基准成本
 type: docs
 weight: 260
 url: /zh/net/aspose.tasks/tsk/cv/
 ---
 ## Tsk.CV field
 
-任务的基线成本和总成本之间的差异。 成本差异 = 成本 - 基准成本
+任务的基准成本和总成本之间的差异。 成本差异 = 成本 - 基准成本
 
 ```csharp
 public static readonly Key<double, TaskKey> CV;

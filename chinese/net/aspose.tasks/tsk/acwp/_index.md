@@ -1,14 +1,14 @@
 ---
 title: ACWP
 second_title: Aspose.Tasks for .NET API 参考
-description: 在项目状态日期或今天日期之前已完成任务的工作所产生的成本
+description: 截止到项目状态日期或今天日期已完成任务的工作所产生的成本
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/tsk/acwp/
 ---
 ## Tsk.ACWP field
 
-在项目状态日期或今天日期之前已完成任务的工作所产生的成本。
+截止到项目状态日期或今天日期，已完成任务的工作所产生的成本。
 
 ```csharp
 public static readonly Key<double, TaskKey> ACWP;

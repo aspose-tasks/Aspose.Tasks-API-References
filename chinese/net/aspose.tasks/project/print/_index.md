@@ -32,7 +32,7 @@ public void Print(PrintOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| options | PrintOptions | [`PrintOptions`](../../../aspose.tasks.saving/printoptions)类的指定实例。 |
+| options | PrintOptions | 的指定实例[`PrintOptions`](../../../aspose.tasks.saving/printoptions)班级。 |
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public void Print(PrintOptions options)
 
 ## Print(string) {#print_6}
 
-使用标准（无用户界面）打印控制器使用默认打印机设置将项目打印到指定的打印机。
+使用标准（无用户界面）打印控制器使用默认打印机设置将项目打印到指定打印机。
 
 ```csharp
 public void Print(string printerName)
@@ -73,7 +73,7 @@ public void Print(PrinterSettings printerSettings)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | PrinterSettings类的指定实例。 |
+| printerSettings | PrinterSettings | 的指定实例PrinterSettings班级。 |
 
 ### 也可以看看
 
@@ -93,7 +93,7 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | PrinterSettings类的指定实例。 |
+| printerSettings | PrinterSettings | 的指定实例PrinterSettings班级。 |
 | documentName | String | 要显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
 
 ### 也可以看看
@@ -114,8 +114,8 @@ public void Print(PrinterSettings printerSettings, PrintOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | PrinterSettings类的指定实例。 |
-| options | PrintOptions | [`PrintOptions`](../../../aspose.tasks.saving/printoptions)类的指定实例。 |
+| printerSettings | PrinterSettings | 的指定实例PrinterSettings班级。 |
+| options | PrintOptions | 的指定实例[`PrintOptions`](../../../aspose.tasks.saving/printoptions)班级。 |
 
 ### 也可以看看
 
@@ -136,8 +136,8 @@ public void Print(PrinterSettings printerSettings, PrintOptions options, string 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | PrinterSettings类的指定实例。 |
-| options | PrintOptions | [`PrintOptions`](../../../aspose.tasks.saving/printoptions)类的指定实例。 |
+| printerSettings | PrinterSettings | 的指定实例PrinterSettings班级。 |
+| options | PrintOptions | 的指定实例[`PrintOptions`](../../../aspose.tasks.saving/printoptions)班级。 |
 | documentName | String | 要显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: IsDefined
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает значение указывающее было ли значение определено в противном случае ложно.
+description: Получает значение указывающее было ли значение определено в противном случае false.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/nullablebool/isdefined/
 ---
 ## NullableBool.IsDefined property
 
-Получает значение, указывающее, было ли значение определено; в противном случае ложно.
+Получает значение, указывающее, было ли значение определено; в противном случае false.
 
 ```csharp
 public bool IsDefined { get; }

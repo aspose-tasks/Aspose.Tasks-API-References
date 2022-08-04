@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 与此实例比较的指定对象。 |
+| obj | Object | 要与此实例进行比较的指定对象。 |
 
 ### 返回值
 
@@ -40,7 +40,7 @@ public bool Equals(AssignmentBaseline other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | AssignmentBaseline | 指定的 AssignmentBaseline 对象与此实例进行比较。 |
+| other | AssignmentBaseline | 要与此实例进行比较的指定 AssignmentBaseline 对象。 |
 
 ### 返回值
 

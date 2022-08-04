@@ -18,7 +18,7 @@ public class MonthlyRecurrencePattern : RecurrencePatternBase
 
 | Имя | Описание |
 | --- | --- |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern)() | Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern). |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern)() | Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) класс. |
 
 ## Характеристики
 

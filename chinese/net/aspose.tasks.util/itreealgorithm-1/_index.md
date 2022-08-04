@@ -1,14 +1,14 @@
 ---
 title: ITreeAlgorithmT
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示可以应用于对象树 lttypeparamref nameT /gt 的算法
+description: 表示可以应用于对象树的算法T.
 type: docs
-weight: 2380
+weight: 2390
 url: /zh/net/aspose.tasks.util/itreealgorithm-1/
 ---
 ## ITreeAlgorithm&lt;T&gt; interface
 
-表示可以应用于对象树 &lt;typeparamref name="T" /&gt; 的算法。
+表示可以应用于对象树的算法*T*.
 
 ```csharp
 public interface ITreeAlgorithm<in T>
@@ -22,7 +22,7 @@ public interface ITreeAlgorithm<in T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alg](../../aspose.tasks.util/itreealgorithm`1/alg)(T, int) | 处理树的节点。 |
+| [Alg](../../aspose.tasks.util/itreealgorithm`1/alg)(T, int) | 处理树的一个节点。 |
 | [PostAlg](../../aspose.tasks.util/itreealgorithm`1/postalg)(T, int) | 在处理树的节点后调用。 |
 | [PreAlg](../../aspose.tasks.util/itreealgorithm`1/prealg)(T, int) | 在处理树的节点之前调用。 |
 

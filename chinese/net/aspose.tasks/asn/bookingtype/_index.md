@@ -1,14 +1,14 @@
 ---
 title: BookingType
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配的预订类型
+description: 任务的预订类型
 type: docs
 weight: 140
 url: /zh/net/aspose.tasks/asn/bookingtype/
 ---
 ## Asn.BookingType field
 
-分配的预订类型。
+任务的预订类型。
 
 ```csharp
 public static readonly Key<BookingType, AsnKey> BookingType;

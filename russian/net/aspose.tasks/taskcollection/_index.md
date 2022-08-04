@@ -1,14 +1,14 @@
 ---
 title: TaskCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовTask./task.
+description: Представляет наборTask./task объекты.
 type: docs
 weight: 2090
 url: /ru/net/aspose.tasks/taskcollection/
 ---
 ## TaskCollection class
 
-Представляет набор объектов[`Task`](../task).
+Представляет набор[`Task`](../task) объекты.
 
 ```csharp
 public class TaskCollection : IList<Task>
@@ -27,18 +27,18 @@ public class TaskCollection : IList<Task>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/taskcollection/add#add)() | Добавляет новую задачу в коллекцию задач проекта на том же уровне структуры последней задачи. |
+| [Add](../../aspose.tasks/taskcollection/add#add)() | Добавляет новую задачу в коллекцию задач проекта на том же уровне структуры, что и последняя задача. |
 | [Add](../../aspose.tasks/taskcollection/add#add_1)(RecurringTaskParameters) | Вставляет новую задачу перед задачей с указанным идентификатором и на том же уровне структуры. |
 | [Add](../../aspose.tasks/taskcollection/add#add_2)(string) | Добавляет новую задачу в коллекцию дочерних задач. |
-| [Add](../../aspose.tasks/taskcollection/add#add_4)(Task) | Добавить указанную задачу в экземпляр класса[`TaskCollection`](../taskcollection). Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты) и вычисляет зависимые поля, такие как как резервы, поля работы и затрат, идентификаторы и уровни структуры). Если ParentProject.CalculationMode имеет значение Manual, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. Если ParentProject.CalculationMode имеет значение Automatic, метод автоматически перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни контура). |
+| [Add](../../aspose.tasks/taskcollection/add#add_4)(Task) | Добавить указанную задачу в экземпляр[`TaskCollection`](../taskcollection)class. Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты) и вычисляет зависимые поля, такие как резервы, работа и поля затрат, идентификаторы и уровни структуры). Если ParentProject.CalculationMode имеет значение Manual, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. даты, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни структуры). |
 | [Add](../../aspose.tasks/taskcollection/add#add_3)(string, int) | Добавляет новую повторяющуюся задачу в коллекцию дочерних задач. |
 | [Contains](../../aspose.tasks/taskcollection/contains)(Task) | Проверяет, содержит ли коллекция указанный элемент. |
-| [GetById](../../aspose.tasks/taskcollection/getbyid)(int) | Возвращает задачу с указанным Id, чьим предком является родительская задача этой коллекции. |
-| [GetByUid](../../aspose.tasks/taskcollection/getbyuid)(int) | Возвращает задачу с указанным Uid, чьим предком является родительская задача этой коллекции. |
+| [GetById](../../aspose.tasks/taskcollection/getbyid)(int) | Возвращает задачу с указанным идентификатором, предком которой является родительская задача этой коллекции . |
+| [GetByUid](../../aspose.tasks/taskcollection/getbyuid)(int) | Возвращает задачу с указанным Uid, чьим предком является родительская задача этой коллекции . |
 | [GetEnumerator](../../aspose.tasks/taskcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [Insert](../../aspose.tasks/taskcollection/insert)(int, Task) | Это заглушка реализации метода IList Insert , который генерирует только исключение NotSupportedException |
-| [Remove](../../aspose.tasks/taskcollection/remove)(Task) | Это заглушка реализации метода ICollection Remove , который генерирует только исключение NotSupportedException |
-| [ToList](../../aspose.tasks/taskcollection/tolist)() | Преобразует объект TaskCollection в список объектов[`Task`](../task). |
+| [Insert](../../aspose.tasks/taskcollection/insert)(int, Task) | Это заглушка метода Insert из IList, которая выдает только NotSupportedException |
+| [Remove](../../aspose.tasks/taskcollection/remove)(Task) | Это заглушка метода Remove из ICollection, которая выдает только NotSupportedException |
+| [ToList](../../aspose.tasks/taskcollection/tolist)() | Преобразует объект TaskCollection в список[`Task`](../task) объекты. |
 
 ### Смотрите также
 

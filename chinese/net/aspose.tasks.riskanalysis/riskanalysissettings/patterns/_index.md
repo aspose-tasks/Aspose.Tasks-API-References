@@ -1,14 +1,14 @@
 ---
 title: Patterns
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取包含RiskPatternaspose.tasks.riskanalysis/riskpattern类实例的集合
+description: 获取包含RiskPatternaspose.tasks.riskanalysis/riskpattern类.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.riskanalysis/riskanalysissettings/patterns/
 ---
 ## RiskAnalysisSettings.Patterns property
 
-获取包含[`RiskPattern`](../../riskpattern)类实例的集合。
+获取包含[`RiskPattern`](../../riskpattern)类.
 
 ```csharp
 public RiskPatternCollection Patterns { get; }

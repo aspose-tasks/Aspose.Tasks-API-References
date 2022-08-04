@@ -3,7 +3,7 @@ title: WorkGroupType
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Указывает тип рабочей группы.
 type: docs
-weight: 3230
+weight: 3240
 url: /ru/net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration
@@ -19,7 +19,7 @@ public enum WorkGroupType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Default | `0` | Указывает тип рабочей группы по умолчанию. |
-| None | `1` | Указывает тип рабочей группы None. |
+| None | `1` | Указывает на тип рабочей группы "Нет". |
 | Email | `2` | Указывает тип рабочей группы электронной почты. |
 | Web | `3` | Указывает тип рабочей веб-группы. |
 

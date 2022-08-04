@@ -1,14 +1,14 @@
 ---
 title: TableType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает тип таблицы для указанной таблицы. Только для чтенияItemTypeaspose.tasks/itemtype.
+description: Получает тип таблицы для указанной таблицы. Только для чтенияItemTypeaspose.tasks/itemtype .
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/table/tabletype/
 ---
 ## Table.TableType property
 
-Получает тип таблицы для указанной таблицы. Только для чтения[`ItemType`](../../itemtype).
+Получает тип таблицы для указанной таблицы. Только для чтения[`ItemType`](../../itemtype) .
 
 ```csharp
 public ItemType TableType { get; }

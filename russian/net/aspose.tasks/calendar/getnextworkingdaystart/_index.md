@@ -1,14 +1,14 @@
 ---
 title: GetNextWorkingDayStart
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Вычисляет начало следующего рабочего дня с указанной даты.
+description: Рассчитывает начало следующего рабочего дня с даты.
 type: docs
 weight: 170
 url: /ru/net/aspose.tasks/calendar/getnextworkingdaystart/
 ---
 ## Calendar.GetNextWorkingDayStart method
 
-Вычисляет начало следующего рабочего дня с указанной даты.
+Рассчитывает начало следующего рабочего дня с даты.
 
 ```csharp
 public DateTime GetNextWorkingDayStart(DateTime date)
@@ -16,7 +16,7 @@ public DateTime GetNextWorkingDayStart(DateTime date)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| date | DateTime | Дата, для которой нужно получить начало следующего рабочего дня. |
+| date | DateTime | Дата начала следующего рабочего дня. |
 
 ### Возвращаемое значение
 

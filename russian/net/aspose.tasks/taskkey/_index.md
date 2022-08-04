@@ -18,24 +18,24 @@ public enum TaskKey
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Uid | `0` | Представляет полеUid(Задача). |
+| Uid | `0` | ПредставляетUid Поле (Задача). |
 | Id | `1` | Представляет поле идентификатора (задачи). |
-| Name | `2` | Представляет поле Имя (Задача). |
-| Type | `3` | Представляет поле Тип (Задача). |
+| Name | `2` | Представляет поле имени (задачи). |
+| Type | `3` | Представляет поле Тип (задача). |
 | IsNull | `4` | Представляет поле IsNull (задача). |
-| Created | `5` | Представляет поле Создано (Задание). |
-| Contact | `6` | Представляет поле Контакт (Задача). |
+| Created | `5` | Представляет поле «Создано (Задача)». |
+| Contact | `6` | Представляет поле контакта (задачи). |
 | WBS | `7` | Представляет поле WBS (задача). |
 | WBSLevel | `8` | Представляет поле WBSLevel (задача). |
 | OutlineNumber | `9` | Представляет поле OutlineNumber (задача). |
 | OutlineLevel | `10` | Представляет поле OutlineLevel (задача). |
-| Priority | `11` | Представляет поле "Приоритет (задача)". |
+| Priority | `11` | Представляет поле приоритета (задачи). |
 | Start | `12` | Представляет поле Start (Task). |
 | Finish | `13` | Представляет поле Finish (Task). |
 | Duration | `14` | Представляет поле «Продолжительность (задача)». |
 | DurationVariance | `15` | Представляет поле DurationVariance (Task). |
 | DurationFormat | `16` | Представляет поле DurationFormat (задача). |
-| Work | `17` | Представляет поле Работа (Задача). |
+| Work | `17` | Представляет поле Work (Task). |
 | Stop | `18` | Представляет поле Stop (Task). |
 | Resume | `19` | Представляет поле «Резюме (задача)». |
 | IsResumeValid | `20` | Представляет поле IsResumeValid (задача). |
@@ -51,9 +51,9 @@ public enum TaskKey
 | IsMarked | `30` | Представляет поле IsMarked (задача). |
 | IgnoreWarnings | `31` | Представляет поле IgnoreWarnings (задача). |
 | SubprojectName | `32` | Представляет поле SubprojectName (Task). |
-| IsExternalTask | `33` | Представляет поле IsExternalTask (Задача). |
+| IsExternalTask | `33` | Представляет поле IsExternalTask (задача). |
 | IsSummary | `34` | Представляет поле IsSummary (задача). |
-| ExternalTaskProject | `35` | Представляет поле ExternalTaskProject (Задача). |
+| ExternalTaskProject | `35` | Представляет поле ExternalTaskProject (задача). |
 | ExternalId | `36` | Представляет поле ExternalId (задача). |
 | ExternalKey | `37` | Представляет поле ExternalKey (задача). |
 | EarlyStart | `38` | Представляет поле EarlyStart (задача). |
@@ -63,7 +63,7 @@ public enum TaskKey
 | StartVariance | `42` | Представляет поле StartVariance (задача). |
 | FinishVariance | `43` | Представляет поле FinishVariance (задача). |
 | WorkVariance | `44` | Представляет поле WorkVariance (задача). |
-| CostVariance | `45` | Представляет поле CostVariance (Task). |
+| CostVariance | `45` | Представляет поле CostVariance (задача). |
 | FreeSlack | `46` | Представляет поле FreeSlack (задача). |
 | TotalSlack | `47` | Представляет поле TotalSlack (задача). |
 | StartSlack | `48` | Представляет поле StartSlack (задача). |
@@ -72,7 +72,7 @@ public enum TaskKey
 | FixedCostAccrual | `51` | Представляет поле FixedCostAccrual (задача). |
 | PercentComplete | `52` | Представляет поле PercentComplete (задача). |
 | PercentWorkComplete | `53` | Представляет поле PercentWorkComplete (задача). |
-| Cost | `54` | Представляет поле Стоимость (Задача). |
+| Cost | `54` | Представляет поле стоимости (задачи). |
 | OvertimeCost | `55` | Представляет поле OvertimeCost (задача). |
 | ActualStart | `56` | Представляет поле ActualStart (задача). |
 | ActualFinish | `57` | Представляет поле ActualFinish (задача). |
@@ -94,14 +94,14 @@ public enum TaskKey
 | ConstraintType | `73` | Представляет поле ConstraintType (задача). |
 | Calendar | `74` | Представляет поле календаря (задачи). |
 | ConstraintDate | `75` | Представляет поле ConstraintDate (Task). |
-| Deadline | `76` | Представляет поле «Крайний срок (задача)». |
+| Deadline | `76` | Представляет поле крайнего срока (задачи). |
 | LevelAssignments | `77` | Представляет поле LevelAssignments (задача). |
 | LevelingCanSplit | `78` | Представляет поле LevelingCanSplit (задача). |
 | LevelingDelay | `79` | Представляет поле LevelingDelay (задача). |
 | LevelingDelayFormat | `80` | Представляет поле LevelingDelayFormat (задача). |
 | PreleveledStart | `81` | Представляет поле PreleveledStart (задача). |
 | PreleveledFinish | `82` | Представляет поле PreleveledFinish (задача). |
-| Hyperlink | `83` | Представляет поле "Гиперссылка (задача)". |
+| Hyperlink | `83` | Представляет поле гиперссылки (задачи). |
 | HyperlinkAddress | `84` | Представляет поле HyperlinkAddress (Task). |
 | HyperlinkSubAddress | `85` | Представляет поле HyperlinkSubAddress (задача). |
 | IgnoreResourceCalendar | `86` | Представляет поле IgnoreResourceCalendar (задача). |
@@ -115,7 +115,7 @@ public enum TaskKey
 | ActualOvertimeWorkProtected | `94` | Представляет поле ActualOvertimeWorkProtected (задача). |
 | IsPublished | `95` | Представляет поле IsPublished (задача). |
 | IsScheduled | `96` | Представляет поле IsScheduled (задача). |
-| StatusManager | `97` | Представляет поле StatusManager (Задача). |
+| StatusManager | `97` | Представляет поле StatusManager (задача). |
 | CommitmentStart | `98` | Представляет поле CommitmentStart (задача). |
 | CommitmentFinish | `99` | Представляет поле CommitmentFinish (задача). |
 | CommitmentType | `100` | Представляет поле CommitmentType (задача). |
@@ -138,10 +138,10 @@ public enum TaskKey
 | CalendarUid | `117` | Представляет поле CalendarUid (задача). |
 | ParentTaskUid | `118` | Представляет поле ParentTaskUid (задача). |
 | DisplayOnTimeline | `119` | Представляет поле DisplayOnTimeline (задача). |
-| TaskIsAssigned | `120` | Представляет поле TaskIsAssigned (Задача). |
+| TaskIsAssigned | `120` | Представляет поле TaskIsAssigned (задача). |
 | TaskOriginalStart | `121` | Представляет исходное поле запуска (задачи). |
-| TaskOriginalFinish | `122` | Представляет исходное поле завершения (задачи). |
-| IsShowBeforeProjectStartDateWarning | `123` | Представляет флаг, который заставляет MSP показывать предупреждение о том, что задача запускается до даты начала проекта. |
+| TaskOriginalFinish | `122` | Представляет поле исходной отделки (задачи). |
+| IsShowBeforeProjectStartDateWarning | `123` | Представляет флаг, который заставляет MSP отображать предупреждение о том, что задача запускается до даты начала проекта. |
 | Warning | `124` | Представляет собой флаг, указывающий, что задача имеет расхождения в расписании. |
 | ParentTaskGuid | `125` | Представляет поле ParentTaskGuid (задача). |
 | ActivityId | `126` | Представляет поле ActivityId (применимо только к проектам Primavera). |

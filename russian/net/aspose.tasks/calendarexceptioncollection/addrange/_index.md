@@ -16,7 +16,7 @@ public void AddRange(IEnumerable<CalendarException> exceptionList)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| exceptionList | IEnumerable`1 | Диапазон добавляемых исключений. |
+| exceptionList | IEnumerable`1 | Диапазон исключений для добавления. |
 
 ### Смотрите также
 

@@ -17,7 +17,7 @@ public static bool operator ==(Baseline a, Baseline b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | Baseline | Первая базовая линия. |
-| b | Baseline | Вторая базовая линия. |
+| b | Baseline | Второй базовый уровень. |
 
 ### Возвращаемое значение
 

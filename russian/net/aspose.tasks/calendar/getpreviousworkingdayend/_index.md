@@ -16,7 +16,7 @@ public DateTime GetPreviousWorkingDayEnd(DateTime date)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| date | DateTime | указанный экземплярDateTimestruct. |
+| date | DateTime | указанный экземплярDateTime структура. |
 
 ### Возвращаемое значение
 

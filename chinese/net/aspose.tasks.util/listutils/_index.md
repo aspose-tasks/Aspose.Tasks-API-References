@@ -3,7 +3,7 @@ title: ListUtils
 second_title: Aspose.Tasks for .NET API 参考
 description: 用于列表处理的实用程序类
 type: docs
-weight: 2390
+weight: 2400
 url: /zh/net/aspose.tasks.util/listutils/
 ---
 ## ListUtils class
@@ -18,7 +18,7 @@ public static class ListUtils
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Apply&lt;T&gt;](../../aspose.tasks.util/listutils/apply)(IList&lt;T&gt;, IAlgorithm&lt;T&gt;, int) | 对从指定位置开始的每个列表元素应用算法。 |
+| static [Apply&lt;T&gt;](../../aspose.tasks.util/listutils/apply)(IList&lt;T&gt;, IAlgorithm&lt;T&gt;, int) | 从指定位置开始对每个列表元素应用算法。 |
 | static [Filter&lt;T&gt;](../../aspose.tasks.util/listutils/filter)(IList&lt;T&gt;, ICondition&lt;T&gt;) | 按指定条件过滤列表元素。 |
 | static [Find&lt;T&gt;](../../aspose.tasks.util/listutils/find)(IList&lt;T&gt;, ICondition&lt;T&gt;) | 查找满足指定条件的列表元素的第一次出现。 |
 

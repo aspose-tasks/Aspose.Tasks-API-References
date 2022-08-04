@@ -1,14 +1,14 @@
 ---
 title: IsGeneric
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定资源是否是通用的
+description: 确定资源是否为通用资源
 type: docs
 weight: 410
 url: /zh/net/aspose.tasks/rsc/isgeneric/
 ---
 ## Rsc.IsGeneric field
 
-确定资源是否是通用的。
+确定资源是否为通用资源。
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> IsGeneric;

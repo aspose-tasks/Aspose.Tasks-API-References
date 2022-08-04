@@ -1,14 +1,14 @@
 ---
 title: GetTimephasedData
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回实例TimephasedDataCollectionaspose.tasks/timephaseddatacollection包含ResourceAssignment实例的类TimephasedData类在指定TimephasedDataTypeaspose.tasks/timephaseddatatype的给定开始和结束日期内
+description: 返回实例TimephasedDataCollectionaspose.tasks/timephaseddatacollection包含实例的类TimephasedDataaspose.tasks/resourceassignment/timephaseddata在指定的给定开始和结束日期内上课TimephasedDataTypeaspose.tasks/timephaseddatatype.
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/resourceassignment/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-返回实例[`TimephasedDataCollection`](../../timephaseddatacollection)包含ResourceAssignment实例的类。TimephasedData类在指定[`TimephasedDataType`](../../timephaseddatatype)的给定开始和结束日期内。
+返回实例[`TimephasedDataCollection`](../../timephaseddatacollection)包含实例的类[`TimephasedData`](../timephaseddata)在指定的给定开始和结束日期内上课[`TimephasedDataType`](../../timephaseddatatype).
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -23,7 +23,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 ### 返回值
 
-返回一个列表，其中包含[`TimephasedData`](../../timephaseddata)类的实例。
+返回一个列表，其中包含[`TimephasedData`](../../timephaseddata)班级。
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-返回[`TimephasedDataCollection`](../../timephaseddatacollection)对象与TimephasedData的实例在AssignmentWork的给定开始和结束日期内的类。
+返回[`TimephasedDataCollection`](../../timephaseddatacollection)具有实例的对象[`TimephasedData`](../timephaseddata)在给定的开始和结束日期内上课AssignmentWork.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -50,7 +50,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 ### 返回值
 
-返回一个列表，其中包含[`TimephasedData`](../../timephaseddata)类的实例。
+返回一个包含实例的列表[`TimephasedData`](../../timephaseddata)班级。
 
 ### 也可以看看
 

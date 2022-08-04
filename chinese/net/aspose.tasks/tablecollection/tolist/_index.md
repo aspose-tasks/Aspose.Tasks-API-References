@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将表集合转换为Tableaspose.tasks/table对象的列表
+description: 将表集合转换为列表Tableaspose.tasks/table对象.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/tablecollection/tolist/
 ---
 ## TableCollection.ToList method
 
-将表集合转换为[`Table`](../../table)对象的列表。
+将表集合转换为列表[`Table`](../../table)对象.
 
 ```csharp
 public List<Table> ToList()
@@ -16,7 +16,7 @@ public List<Table> ToList()
 
 ### 返回值
 
-[`Table`](../../table)对象的通用列表。
+通用列表[`Table`](../../table)对象。
 
 ### 也可以看看
 

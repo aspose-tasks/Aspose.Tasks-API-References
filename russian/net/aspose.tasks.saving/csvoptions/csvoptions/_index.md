@@ -1,14 +1,14 @@
 ---
 title: CsvOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаCsvOptionsaspose.tasks.saving/csvoptions который можно использовать для сохранения проекта в формате CSV.
+description: Инициализирует новый экземплярCsvOptionsaspose.tasks.saving/csvoptions class который можно использовать для сохранения проекта в формате CSV.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/csvoptions/csvoptions/
 ---
 ## CsvOptions constructor
 
-Инициализирует новый экземпляр класса[`CsvOptions`](../../csvoptions), который можно использовать для сохранения проекта в формате CSV.
+Инициализирует новый экземпляр[`CsvOptions`](../../csvoptions) class, который можно использовать для сохранения проекта в формате CSV.
 
 ```csharp
 public CsvOptions()

@@ -1,14 +1,14 @@
 ---
 title: IsBaselineCalendar
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个指示日历是否为基线日历的值 读/写Boolean
+description: 获取或设置一个指示日历是否为基线日历的值 读/写Boolean.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/calendar/isbaselinecalendar/
 ---
 ## Calendar.IsBaselineCalendar property
 
-获取或设置一个指示日历是否为基线日历的值。 读/写Boolean。
+获取或设置一个指示日历是否为基线日历的值。 读/写Boolean.
 
 ```csharp
 public bool IsBaselineCalendar { get; set; }
@@ -16,7 +16,7 @@ public bool IsBaselineCalendar { get; set; }
 
 ### 评论
 
-这是 MS Project 2010 的新属性。 仅支持 XML 格式的读取。 如果未定义，则返回 false。
+这是 MS Project 2010 属性的新属性。 仅支持 XML 格式的读取。 如果未定义，则返回 false。
 
 ### 也可以看看
 

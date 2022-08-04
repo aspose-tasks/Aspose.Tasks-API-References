@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет экземплярWorkingTimeaspose.tasks/workingtimeиз этой коллекции.
+description: УдаляетWorkingTimeaspose.tasks/workingtime экземпляр из этой коллекции.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/workingtimecollection/remove/
 ---
 ## WorkingTimeCollection.Remove method
 
-Удаляет экземпляр[`WorkingTime`](../../workingtime)из этой коллекции.
+Удаляет[`WorkingTime`](../../workingtime) экземпляр из этой коллекции.
 
 ```csharp
 public bool Remove(WorkingTime item)
@@ -16,11 +16,11 @@ public bool Remove(WorkingTime item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | WorkingTime | Элемент для удаления. |
+| item | WorkingTime | Элемент, который необходимо удалить. |
 
 ### Возвращаемое значение
 
-true, если экземпляр WorkingTime был успешно удален из этой коллекции; в противном случае ложно.
+Значение true, если экземпляр WorkingTime был успешно удален из этой коллекции; в противном случае ложно.
 
 ### Смотрите также
 

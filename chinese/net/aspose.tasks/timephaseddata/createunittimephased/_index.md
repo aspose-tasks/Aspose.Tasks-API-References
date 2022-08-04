@@ -1,14 +1,14 @@
 ---
 title: CreateUnitTimephased
 second_title: Aspose.Tasks for .NET API 参考
-description: 创建并初始化TimephasedDataaspose.tasks/timephaseddata类的新实例用于分配的基于单位的时间阶段数据一种物质资源
+description: 创建并初始化TimephasedDataaspose.tasks/timephaseddata材料资源分配的基于单位的时间阶段数据的类
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/timephaseddata/createunittimephased/
 ---
 ## TimephasedData.CreateUnitTimephased method
 
-创建并初始化[`TimephasedData`](../../timephaseddata)类的新实例，用于分配的基于单位的时间阶段数据一种物质资源。
+创建并初始化[`TimephasedData`](../../timephaseddata)材料资源分配的基于单位的时间阶段数据的类。
 
 ```csharp
 public static TimephasedData CreateUnitTimephased(int uid, DateTime start, DateTime finish, 
@@ -20,12 +20,12 @@ public static TimephasedData CreateUnitTimephased(int uid, DateTime start, DateT
 | uid | Int32 | 任务的 UID。 |
 | start | DateTime | 开始日期时间。 |
 | finish | DateTime | 完成日期时间。 |
-| units | Double | 单位数。 |
+| units | Double | 单位数量。 |
 | type | TimephasedDataType | 时间分段数据类型。 |
 
 ### 返回值
 
-[`TimephasedData`](../../timephaseddata)类的实例，用于基于成本的时间分段数据。
+的一个实例[`TimephasedData`](../../timephaseddata)基于成本的时间阶段数据的类。
 
 ### 例外
 

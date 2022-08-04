@@ -1,14 +1,14 @@
 ---
 title: Interval
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置循环间隔 可以是Intervalaspose.tasks.visualization/recurringinterval/interval类型的任何值
+description: 获取或设置循环间隔 可以是任何值Intervalaspose.tasks.visualization/recurringinterval/interval类型.
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.visualization/recurringinterval/interval/
 ---
 ## RecurringInterval.Interval property
 
-获取或设置循环间隔。 可以是`Interval`类型的任何值。
+获取或设置循环间隔。 可以是任何值`Interval`类型.
 
 ```csharp
 public Interval Interval { get; set; }

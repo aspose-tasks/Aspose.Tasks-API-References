@@ -1,14 +1,14 @@
 ---
 title: Group
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化Groupaspose.tasks/group类的新实例
+description: 初始化Groupaspose.tasks/group类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/group/group/
 ---
 ## Group constructor
 
-初始化[`Group`](../../group)类的新实例。
+初始化[`Group`](../../group)类.
 
 ```csharp
 public Group()

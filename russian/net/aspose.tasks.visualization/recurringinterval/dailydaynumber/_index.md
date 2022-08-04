@@ -1,14 +1,14 @@
 ---
 title: DailyDayNumber
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает номер ежедневного дня.
+description: Получает или задает номер дня дня.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/recurringinterval/dailydaynumber/
 ---
 ## RecurringInterval.DailyDayNumber property
 
-Получает или задает номер ежедневного дня.
+Получает или задает номер дня дня.
 
 ```csharp
 public int DailyDayNumber { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: XamlOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаXamlOptionsaspose.tasks.saving/xamloptions который можно использовать для сохранения проекта в формате XAML.
+description: Инициализирует новый экземплярXamlOptionsaspose.tasks.saving/xamloptions класс который можно использовать для сохранения проекта в формате XAML.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/xamloptions/xamloptions/
 ---
 ## XamlOptions constructor
 
-Инициализирует новый экземпляр класса[`XamlOptions`](../../xamloptions), который можно использовать для сохранения проекта в формате XAML.
+Инициализирует новый экземпляр[`XamlOptions`](../../xamloptions) класс, который можно использовать для сохранения проекта в формате XAML.
 
 ```csharp
 public XamlOptions()

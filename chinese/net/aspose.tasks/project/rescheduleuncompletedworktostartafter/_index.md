@@ -16,7 +16,7 @@ public void RescheduleUncompletedWorkToStartAfter(DateTime after)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| after | DateTime | 重新安排未完成工作的日期。 |
+| after | DateTime | 之后重新安排未完成工作的日期。 |
 
 ### 评论
 
@@ -32,7 +32,7 @@ public void RescheduleUncompletedWorkToStartAfter(DateTime after)
 
 ## RescheduleUncompletedWorkToStartAfter(DateTime, List&lt;Task&gt;) {#rescheduleuncompletedworktostartafter_1}
 
-将指定任务列表的未完成工作重新安排在指定日期之后开始。
+重新安排指定任务列表的未完成工作，以便在指定日期之后开始。
 
 ```csharp
 public void RescheduleUncompletedWorkToStartAfter(DateTime after, List<Task> taskCollection)
@@ -40,8 +40,8 @@ public void RescheduleUncompletedWorkToStartAfter(DateTime after, List<Task> tas
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| after | DateTime | 重新安排未完成工作的日期。 |
-| taskCollection | List`1 | 列表&lt;任务&gt;重新安排未完成工作的任务。 |
+| after | DateTime | 之后重新安排未完成工作的日期。 |
+| taskCollection | List`1 | List&lt;Task&gt; 的任务，以重新安排未完成的工作。 |
 
 ### 评论
 

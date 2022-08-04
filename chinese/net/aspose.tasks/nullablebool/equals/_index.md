@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回一个标志指示此实例是否等于NullableBoolaspose.tasks/nullablebool类的指定实例
+description: 返回一个标志指示此实例是否等于指定的实例NullableBoolaspose.tasks/nullablebool类.
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/nullablebool/equals/
 ---
 ## Equals(NullableBool) {#equals}
 
-返回一个标志，指示此实例是否等于[`NullableBool`](../../nullablebool)类的指定实例。
+返回一个标志，指示此实例是否等于指定的实例[`NullableBool`](../../nullablebool)类.
 
 ```csharp
 public bool Equals(NullableBool other)
@@ -20,7 +20,7 @@ public bool Equals(NullableBool other)
 
 ### 返回值
 
-指示此实例是否等于[`NullableBool`](../../nullablebool)类的指定实例的标志。
+一个标志，指示此实例是否等于指定的实例[`NullableBool`](../../nullablebool)班级。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Equals(NullableBool other)
 
 ## Equals(object) {#equals_1}
 
-返回一个标志，指示此实例是否等于指定对象。
+返回一个标志，指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)

@@ -16,7 +16,7 @@ public bool Equals(Task other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Task | 与此实例进行比较的指定任务。 |
+| other | Task | 要与此实例进行比较的指定任务。 |
 
 ### 返回值
 

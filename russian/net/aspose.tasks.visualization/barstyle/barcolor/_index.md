@@ -1,14 +1,14 @@
 ---
 title: BarColor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задаетColorстиля полосы.
+description: Получает или устанавливаетColor стиля бара.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/barstyle/barcolor/
 ---
 ## BarStyle.BarColor property
 
-Получает или задаетColorстиля полосы.
+Получает или устанавливаетColor стиля бара.
 
 ```csharp
 public Color BarColor { get; set; }

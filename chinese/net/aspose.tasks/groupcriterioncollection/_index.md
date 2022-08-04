@@ -1,14 +1,14 @@
 ---
 title: GroupCriterionCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 包含GroupCriterion./groupcriterion对象的集合 实现 ICollectionltGroupCriteriongt界面
+description: 包含一个集合GroupCriterion./groupcriterionobjects. 实现 ICollectionltGroupCriteriongt 接口
 type: docs
 weight: 730
 url: /zh/net/aspose.tasks/groupcriterioncollection/
 ---
 ## GroupCriterionCollection class
 
-包含[`GroupCriterion`](../groupcriterion)对象的集合。 实现 ICollection&lt;GroupCriterion&gt;界面。
+包含一个集合[`GroupCriterion`](../groupcriterion)objects. 实现 ICollection&lt;GroupCriterion&gt; 接口。
 
 ```csharp
 public class GroupCriterionCollection : IList<GroupCriterion>
@@ -27,12 +27,12 @@ public class GroupCriterionCollection : IList<GroupCriterion>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/groupcriterioncollection/add)(GroupCriterion) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/groupcriterioncollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/groupcriterioncollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/groupcriterioncollection/contains)(GroupCriterion) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/groupcriterioncollection/copyto)(GroupCriterion[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/groupcriterioncollection/getenumerator)() | 返回此集合的枚举数。 |
 | [Remove](../../aspose.tasks/groupcriterioncollection/remove)(GroupCriterion) | 从此集合中删除特定对象的第一个匹配项。 |
-| [ToList](../../aspose.tasks/groupcriterioncollection/tolist)() | 将 GroupCriterion 集合转换为[`GroupCriterion`](../groupcriterion)对象列表。 |
+| [ToList](../../aspose.tasks/groupcriterioncollection/tolist)() | 将 GroupCriterion 集合转换为[`GroupCriterion`](../groupcriterion)对象. |
 
 ### 也可以看看
 

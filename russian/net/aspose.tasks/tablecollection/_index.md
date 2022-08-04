@@ -1,14 +1,14 @@
 ---
 title: TableCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Содержит список объектовTable./table. Реализует ICollectionltTablegt интерфейс.
+description: Содержит списокTable./table objects. Реализует интерфейс ICollectionltTablegt.
 type: docs
 weight: 2030
 url: /ru/net/aspose.tasks/tablecollection/
 ---
 ## TableCollection class
 
-Содержит список объектов[`Table`](../table). Реализует ICollection&lt;Table&gt; интерфейс.
+Содержит список[`Table`](../table) objects. Реализует интерфейс ICollection&lt;Table&gt;.
 
 ```csharp
 public class TableCollection : ICollection<Table>
@@ -19,8 +19,8 @@ public class TableCollection : ICollection<Table>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/tablecollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/tablecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
-| [ParentProject](../../aspose.tasks/tablecollection/parentproject) { get; } | Получает родителя объекта Table. Только чтение[`Project`](../project). |
+| [IsReadOnly](../../aspose.tasks/tablecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
+| [ParentProject](../../aspose.tasks/tablecollection/parentproject) { get; } | Получает родителя объекта Table. Только для чтения[`Project`](../project) . |
 
 ## Методы
 
@@ -28,11 +28,11 @@ public class TableCollection : ICollection<Table>
 | --- | --- |
 | [Add](../../aspose.tasks/tablecollection/add)(Table) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/tablecollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/tablecollection/contains)(Table) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/tablecollection/contains)(Table) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/tablecollection/copyto)(Table[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/tablecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/tablecollection/remove)(Table) | Удаляет первое вхождение определенного объекта из этой коллекции. |
-| [ToList](../../aspose.tasks/tablecollection/tolist)() | Преобразует коллекцию таблиц в список объектов[`Table`](../table). |
+| [ToList](../../aspose.tasks/tablecollection/tolist)() | Преобразует набор таблиц в список[`Table`](../table) объекты. |
 
 ### Смотрите также
 

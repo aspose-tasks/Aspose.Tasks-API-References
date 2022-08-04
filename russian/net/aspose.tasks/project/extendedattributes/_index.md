@@ -1,14 +1,14 @@
 ---
 title: ExtendedAttributes
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает объект ExtendedAttributeDefinitionCollection. Набор определений расширенных атрибутов настраиваемых полей связанных с проектом.
+description: Получает объект ExtendedAttributeDefinitionCollection. Коллекция определений расширенных атрибутов настраиваемых полей связанных с проектом.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/project/extendedattributes/
 ---
 ## Project.ExtendedAttributes property
 
-Получает объект ExtendedAttributeDefinitionCollection. Набор определений расширенных атрибутов (настраиваемых полей), связанных с проектом.
+Получает объект ExtendedAttributeDefinitionCollection. Коллекция определений расширенных атрибутов (настраиваемых полей), связанных с проектом.
 
 ```csharp
 public ExtendedAttributeDefinitionCollection ExtendedAttributes { get; }

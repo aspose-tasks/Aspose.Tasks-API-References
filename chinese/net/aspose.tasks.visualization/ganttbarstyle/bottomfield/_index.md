@@ -1,14 +1,14 @@
 ---
 title: BottomField
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要显示在栏底部的数据 Fieldaspose.tasks/field
+description: 获取或设置要显示在栏底部的数据 Fieldaspose.tasks/field.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/bottomfield/
 ---
 ## GanttBarStyle.BottomField property
 
-获取或设置要显示在栏底部的数据。 [`Field`](../../../aspose.tasks/field)。
+获取或设置要显示在栏底部的数据。 [`Field`](../../../aspose.tasks/field).
 
 ```csharp
 public Field BottomField { get; set; }

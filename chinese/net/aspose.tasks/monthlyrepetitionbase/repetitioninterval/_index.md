@@ -1,14 +1,14 @@
 ---
 title: RepetitionInterval
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置月数它表示两次事件之间的间隔以月为单位
+description: 获取或设置月数表示事件之间的月间隔
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/monthlyrepetitionbase/repetitioninterval/
 ---
 ## MonthlyRepetitionBase.RepetitionInterval property
 
-获取或设置月数，它表示两次事件之间的间隔（以月为单位）。
+获取或设置月数，表示事件之间的月间隔。
 
 ```csharp
 public int RepetitionInterval { get; set; }

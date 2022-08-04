@@ -1,14 +1,14 @@
 ---
 title: BCWS
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Совокупные поэтапные базовые затраты до даты состояния или сегодняшней даты.
+description: Совокупные поэтапные базовые затраты до даты отчета о состоянии или сегодняшней даты.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/tsk/bcws/
 ---
 ## Tsk.BCWS field
 
-Совокупные поэтапные базовые затраты до даты состояния или сегодняшней даты.
+Совокупные поэтапные базовые затраты до даты отчета о состоянии или сегодняшней даты.
 
 ```csharp
 public static readonly Key<double, TaskKey> BCWS;

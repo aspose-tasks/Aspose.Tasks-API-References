@@ -1,14 +1,14 @@
 ---
 title: RemainingOvertimeWork
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Сумма оставшегося запланированного сверхурочного времени.
+description: Количество оставшегося запланированного сверхурочного времени.
 type: docs
 weight: 990
 url: /ru/net/aspose.tasks/tsk/remainingovertimework/
 ---
 ## Tsk.RemainingOvertimeWork field
 
-Сумма оставшегося запланированного сверхурочного времени.
+Количество оставшегося запланированного сверхурочного времени.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> RemainingOvertimeWork;

@@ -1,14 +1,14 @@
 ---
 title: AssignmentOwnerGuid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Глобальный уникальный идентификатор владельца назначения.
+description: Глобальный уникальный идентификатор владельца задания.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/asn/assignmentownerguid/
 ---
 ## Asn.AssignmentOwnerGuid field
 
-Глобальный уникальный идентификатор владельца назначения.
+Глобальный уникальный идентификатор владельца задания.
 
 ```csharp
 public static readonly Key<string, AsnKey> AssignmentOwnerGuid;

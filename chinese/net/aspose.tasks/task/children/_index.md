@@ -1,14 +1,14 @@
 ---
 title: Children
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此对象的子任务集合 TaskCollection 对象代表子任务
+description: 获取此对象的子任务集合 代表子任务的 TaskCollection 对象
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/task/children/
 ---
 ## Task.Children property
 
-获取此对象的子任务集合。 TaskCollection 对象，代表子任务。
+获取此对象的子任务集合。 代表子任务的 TaskCollection 对象。
 
 ```csharp
 public TaskCollection Children { get; }

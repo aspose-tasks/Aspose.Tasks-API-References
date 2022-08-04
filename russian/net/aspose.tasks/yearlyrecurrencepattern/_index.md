@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет набор параметров используемых для создания ежегодно повторяющейся задачи в проекте.
 type: docs
-weight: 3300
+weight: 3310
 url: /ru/net/aspose.tasks/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern class
@@ -18,7 +18,7 @@ public class YearlyRecurrencePattern : RecurrencePatternBase
 
 | Имя | Описание |
 | --- | --- |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern)() | Инициализирует новый экземпляр класса[`YearlyRecurrencePattern`](../yearlyrecurrencepattern). |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern)() | Инициализирует новый экземпляр[`YearlyRecurrencePattern`](../yearlyrecurrencepattern) класс. |
 
 ## Характеристики
 

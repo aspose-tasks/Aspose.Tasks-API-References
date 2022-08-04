@@ -1,14 +1,14 @@
 ---
 title: PrimaveraReadOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置PrimaveraReadOptionsaspose.tasks/primaverareadoptions类的指定实例可用于自定义加载 Primavera 的行为格式Primavera P6 XER 或 Primavera P6 Xml
+description: 获取或设置PrimaveraReadOptionsaspose.tasks/primaverareadoptions可用于自定义加载 Primavera 格式Primavera P6 XER 或 Primavera P6 Xml的行为的类
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/loadoptions/primaverareadoptions/
 ---
 ## LoadOptions.PrimaveraReadOptions property
 
-获取或设置[`PrimaveraReadOptions`](../../primaverareadoptions)类的指定实例，可用于自定义加载 Primavera 的行为格式（Primavera P6 XER 或 Primavera P6 Xml）。
+获取或设置[`PrimaveraReadOptions`](../../primaverareadoptions)可用于自定义加载 Primavera 格式（Primavera P6 XER 或 Primavera P6 Xml）的行为的类。
 
 ```csharp
 public PrimaveraReadOptions PrimaveraReadOptions { get; set; }

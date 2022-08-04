@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要更改的Fieldaspose.tasks/filtercriteria/field
+description: 获取或设置一个Fieldaspose.tasks/filtercriteria/field改变.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/filtercriteria/field/
 ---
 ## FilterCriteria.Field property
 
-获取或设置要更改的`Field`。
+获取或设置一个`Field`改变.
 
 ```csharp
 public Field Field { get; set; }

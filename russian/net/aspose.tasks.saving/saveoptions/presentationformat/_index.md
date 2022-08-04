@@ -1,14 +1,14 @@
 ---
 title: PresentationFormat
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задаетPresentationFormataspose.tasks.saving/saveoptions/presentationformat в котором будет сохранен документ.
+description: Получает или задаетPresentationFormataspose.tasks.saving/saveoptions/presentationformat в котором документ будет сохранен.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks.saving/saveoptions/presentationformat/
 ---
 ## SaveOptions.PresentationFormat property
 
-Получает или задает`PresentationFormat`, в котором будет сохранен документ.
+Получает или задает`PresentationFormat` в котором документ будет сохранен.
 
 ```csharp
 public PresentationFormat PresentationFormat { get; set; }

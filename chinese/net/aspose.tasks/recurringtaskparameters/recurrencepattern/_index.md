@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置循环任务的循环模式  可以是RecurrencePatternaspose.tasks/recurringtaskparameters/recurrencepattern枚举的值之一
+description: 获取或设置循环任务的循环模式 可以是以下值之一RecurrencePatternaspose.tasks/recurringtaskparameters/recurrencepattern枚举
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/recurringtaskparameters/recurrencepattern/
 ---
 ## RecurringTaskParameters.RecurrencePattern property
 
-获取或设置循环任务的循环模式。  可以是`RecurrencePattern`枚举的值之一。
+获取或设置循环任务的循环模式。 可以是以下值之一`RecurrencePattern`枚举。
 
 ```csharp
 public RecurrencePatternBase RecurrencePattern { get; set; }

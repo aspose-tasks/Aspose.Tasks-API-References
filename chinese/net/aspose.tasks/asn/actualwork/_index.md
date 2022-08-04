@@ -1,14 +1,14 @@
 ---
 title: ActualWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配中发生的实际工作量
+description: 作业中实际发生的工作量
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/asn/actualwork/
 ---
 ## Asn.ActualWork field
 
-分配中发生的实际工作量。
+作业中实际发生的工作量。
 
 ```csharp
 public static readonly Key<Duration, AsnKey> ActualWork;

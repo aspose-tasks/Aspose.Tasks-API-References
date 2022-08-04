@@ -3,7 +3,7 @@ title: FillPattern
 second_title: Aspose.Tasks for .NET API 参考
 description: 用于甘特条中间形状的填充图案
 type: docs
-weight: 2640
+weight: 2650
 url: /zh/net/aspose.tasks.visualization/fillpattern/
 ---
 ## FillPattern enumeration
@@ -20,14 +20,14 @@ public enum FillPattern
 | --- | --- | --- |
 | Hollow | `0` | 空心图案。 |
 | SolidFill | `1` | 实心填充图案。 |
-| LightFill | `2` | 浅色填充图案。 |
+| LightFill | `2` | 光填充图案。 |
 | MediumFill | `3` | 中等填充图案。 |
 | DarkFill | `4` | 深色填充图案。 |
-| DiagonalLeft | `5` | 左对角线模式。 |
+| DiagonalLeft | `5` | 对角线左侧图案。 |
 | DiagonalRight | `6` | 对角线右模式。 |
-| DiagonalCross | `7` | 对角线交叉模式。 |
-| LineVertical | `8` | 线垂直模式。 |
-| LineHorizontal | `9` | 线水平模式。 |
+| DiagonalCross | `7` | 对角线交叉图案。 |
+| LineVertical | `8` | 线垂直图案。 |
+| LineHorizontal | `9` | 线水平图案。 |
 | LineCross | `10` | 线交叉模式。 |
 | SolidFillWithDashedBorder | `11` | 带有虚线边框图案的实心。 |
 

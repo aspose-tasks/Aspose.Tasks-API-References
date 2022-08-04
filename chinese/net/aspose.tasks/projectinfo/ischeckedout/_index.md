@@ -1,14 +1,14 @@
 ---
 title: IsCheckedOut
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取一个值该值指示项目是否已签出
+description: 获取项目是否签出的值
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/projectinfo/ischeckedout/
 ---
 ## ProjectInfo.IsCheckedOut property
 
-获取一个值，该值指示项目是否已签出。
+获取项目是否签出的值。
 
 ```csharp
 public bool IsCheckedOut { get; }

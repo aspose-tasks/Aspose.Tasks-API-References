@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение хэш-кода для экземпляра классаTaskBaselineaspose.tasks/taskbaseline.
+description: Возвращает значение хеш-кода для экземпляраTaskBaselineaspose.tasks/taskbaseline класс.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/taskbaseline/gethashcode/
 ---
 ## TaskBaseline.GetHashCode method
 
-Возвращает значение хэш-кода для экземпляра класса[`TaskBaseline`](../../taskbaseline).
+Возвращает значение хеш-кода для экземпляра[`TaskBaseline`](../../taskbaseline) класс.
 
 ```csharp
 public override int GetHashCode()

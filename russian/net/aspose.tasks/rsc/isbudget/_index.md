@@ -1,14 +1,14 @@
 ---
 title: IsBudget
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет является ли ресурс работы материала или затрат бюджетным ресурсом.
+description: Определяет является ли трудовой материальный или затратный ресурс бюджетным ресурсом.
 type: docs
 weight: 380
 url: /ru/net/aspose.tasks/rsc/isbudget/
 ---
 ## Rsc.IsBudget field
 
-Определяет, является ли ресурс работы, материала или затрат бюджетным ресурсом.
+Определяет, является ли трудовой, материальный или затратный ресурс бюджетным ресурсом.
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> IsBudget;

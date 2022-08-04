@@ -1,14 +1,14 @@
 ---
 title: MakeTPs
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Генерирует список поэтапных по времени данных.
+description: Генерирует список поэтапных данных по времени.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/resourceassignment/maketps/
 ---
 ## ResourceAssignment.MakeTPs method
 
-Генерирует список поэтапных по времени данных.
+Генерирует список поэтапных данных по времени.
 
 ```csharp
 public DateTime MakeTPs(DateTime start, TimeSpan time, Calendar calendar, 
@@ -22,7 +22,7 @@ public DateTime MakeTPs(DateTime start, TimeSpan time, Calendar calendar,
 | calendar | Calendar | Указанный рабочий календарь. |
 | list | List`1 | Список поэтапных по времени данных. |
 | isWorking | Boolean | Указанный флаг, указывающий, работают ли поэтапные данные. |
-| type | Int32 | Указанный повременной тип данных. |
+| type | Int32 | Указанный поэтапный тип данных. |
 
 ### Возвращаемое значение
 

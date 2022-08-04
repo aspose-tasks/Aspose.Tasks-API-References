@@ -1,14 +1,14 @@
 ---
 title: PostAlg
 second_title: Aspose.Tasks for .NET API 参考
-description: 在处理对象后调用
+description: 处理对象后调用
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.util/ialgorithm-1/postalg/
 ---
 ## IAlgorithm&lt;T&gt;.PostAlg method
 
-在处理对象后调用。
+处理对象后调用。
 
 ```csharp
 public void PostAlg(T el, int index)
@@ -16,7 +16,7 @@ public void PostAlg(T el, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| el | T | 已处理对象。 |
+| el | T | 处理的对象。 |
 | index | Int32 | 对象的索引。 |
 
 ### 也可以看看

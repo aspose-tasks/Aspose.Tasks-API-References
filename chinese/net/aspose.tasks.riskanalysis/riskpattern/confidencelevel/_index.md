@@ -1,14 +1,14 @@
 ---
 title: ConfidenceLevel
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置与实际生成的值在乐观和悲观估计范围内的时间百分比相对应的置信水平 默认值为 CL99
+description: 获取或设置与实际生成的值处于乐观和悲观估计范围内的时间百分比相对应的置信水平 默认值为 CL99
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.riskanalysis/riskpattern/confidencelevel/
 ---
 ## RiskPattern.ConfidenceLevel property
 
-获取或设置与实际生成的值在乐观和悲观估计范围内的时间百分比相对应的置信水平。 默认值为 CL99。
+获取或设置与实际生成的值处于乐观和悲观估计范围内的时间百分比相对应的置信水平。 默认值为 CL99。
 
 ```csharp
 public ConfidenceLevel ConfidenceLevel { get; set; }
@@ -16,7 +16,7 @@ public ConfidenceLevel ConfidenceLevel { get; set; }
 
 ### 评论
 
-可以是`ConfidenceLevel` 中定义的值之一枚举。
+可以是定义的值之一`ConfidenceLevel`枚举。
 
 ### 也可以看看
 

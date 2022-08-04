@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет календарь из коллекции календарей проекта.
+description: Удаляет календарь из Project CalendarCollection.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/calendarcollection/remove/
 ---
 ## CalendarCollection.Remove method
 
-Удаляет календарь из коллекции календарей проекта.
+Удаляет календарь из Project CalendarCollection.
 
 ```csharp
 public bool Remove(Calendar item)
@@ -16,17 +16,17 @@ public bool Remove(Calendar item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | Calendar | Календарь для удаления. |
+| item | Calendar | Календарь, который необходимо удалить. |
 
 ### Возвращаемое значение
 
-При удалении возвращает true, иначе возвращает false.
+Если удалено, возвращается истина, иначе возвращается ложь.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Создается, когда календарь не может быть удален. |
+| InvalidOperationException | Выбрасывается, когда календарь не может быть удален. |
 
 ### Смотрите также
 

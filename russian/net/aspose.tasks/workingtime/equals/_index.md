@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Проверяет равенство объектов.
+description: Проверяет что объекты равны.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/workingtime/equals/
 ---
 ## WorkingTime.Equals method
 
-Проверяет равенство объектов.
+Проверяет, что объекты равны.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-Истина, если объекты равны, иначе ложь.
+Истина, если объекты равны, в противном случае — ложь.
 
 ### Смотрите также
 

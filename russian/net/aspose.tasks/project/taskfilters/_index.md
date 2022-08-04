@@ -1,14 +1,14 @@
 ---
 title: TaskFilters
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает все определения фильтров на основе задач. TaskFilters  это набор объектовFilteraspose.tasks/filter.
+description: Получает все определения фильтров на основе задач. TaskFilters  это наборFilteraspose.tasks/filter объекты.
 type: docs
 weight: 190
 url: /ru/net/aspose.tasks/project/taskfilters/
 ---
 ## Project.TaskFilters property
 
-Получает все определения фильтров на основе задач. TaskFilters — это набор объектов[`Filter`](../../filter).
+Получает все определения фильтров на основе задач. TaskFilters — это набор[`Filter`](../../filter) объекты.
 
 ```csharp
 public FilterCollection TaskFilters { get; }

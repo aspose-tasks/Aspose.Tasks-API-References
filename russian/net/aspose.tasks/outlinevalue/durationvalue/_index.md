@@ -16,7 +16,7 @@ public Duration? DurationValue { get; set; }
 
 ### Примечания
 
-Предпочесть это свойство[`Value`](../value), когда вам нужно установить значение для OutlineValues с типом Duration.
+Предпочесть это свойство[`Value`](../value) , когда вам нужно установить значение для OutlineValues с типом Duration .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: GetById
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает определение расширенного атрибута по id
+description: Возвращает расширенное определение атрибута по id
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/extendedattributedefinitioncollection/getbyid/
 ---
 ## ExtendedAttributeDefinitionCollection.GetById method
 
-Возвращает определение расширенного атрибута по id
+Возвращает расширенное определение атрибута по id
 
 ```csharp
 public ExtendedAttributeDefinition GetById(int id)
@@ -16,7 +16,7 @@ public ExtendedAttributeDefinition GetById(int id)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | Int32 | указанный id |
+| id | Int32 | указанный идентификатор |
 
 ### Возвращаемое значение
 

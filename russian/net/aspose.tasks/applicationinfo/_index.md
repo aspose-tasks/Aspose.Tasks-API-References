@@ -19,7 +19,7 @@ public enum ApplicationInfo
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Undefined | `0` | Невозможно определить. |
-| MSP2000 | `1` | Файл был создан в Microsoft Project 2000/2002. |
+| MSP2000 | `1` | Файл создан в Microsoft Project 2000/2002. |
 | MSP2003 | `2` | Файл создан в Microsoft Project 2003. |
 | MSP2007 | `3` | Файл создан в Microsoft Project 2007. |
 | MSP2010 | `4` | Файл создан в Microsoft Project 2010. |

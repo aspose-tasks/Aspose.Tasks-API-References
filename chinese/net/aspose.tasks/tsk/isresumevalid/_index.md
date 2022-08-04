@@ -1,14 +1,14 @@
 ---
 title: IsResumeValid
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定是否可以恢复任务
+description: 确定任务是否可以恢复
 type: docs
 weight: 680
 url: /zh/net/aspose.tasks/tsk/isresumevalid/
 ---
 ## Tsk.IsResumeValid field
 
-确定是否可以恢复任务。
+确定任务是否可以恢复。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsResumeValid;

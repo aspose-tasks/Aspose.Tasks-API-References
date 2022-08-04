@@ -1,14 +1,14 @@
 ---
 title: Overallocated
 second_title: Aspose.Tasks for .NET API 参考
-description: 指示资源是否分配给特定任务或所有任务的工作量超过了正常工作能力所能完成的工作量
+description: 表示资源是否分配给特定任务或所有任务的工作量超过了正常工作能力所能完成的工作量
 type: docs
 weight: 500
 url: /zh/net/aspose.tasks/rsc/overallocated/
 ---
 ## Rsc.Overallocated field
 
-指示资源是否分配给特定任务或所有任务的工作量超过了正常工作能力所能完成的工作量。
+表示资源是否分配给特定任务或所有任务的工作量超过了正常工作能力所能完成的工作量。
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> Overallocated;

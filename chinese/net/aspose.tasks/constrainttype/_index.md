@@ -1,14 +1,14 @@
 ---
 title: ConstraintType
 second_title: Aspose.Tasks for .NET API 参考
-description: 指定任务开始或结束日期的约束
+description: 指定对任务开始或完成日期的限制
 type: docs
 weight: 320
 url: /zh/net/aspose.tasks/constrainttype/
 ---
 ## ConstraintType enumeration
 
-指定任务开始或结束日期的约束。
+指定对任务开始或完成日期的限制。
 
 ```csharp
 public enum ConstraintType
@@ -18,19 +18,19 @@ public enum ConstraintType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 该值未在原始项目文件中定义。 |
-| AsSoonAsPossible | `0` | [`Start`](../tsk/start)和[`Finish`](../tsk/finish) 的日期 [`Task`](../task) 相对于父[`Start`](../tsk/start)和尽快调度[`Finish`](../tsk/finish)日期并考虑[`TaskLinks`](../project/tasklinks)。 |
-| AsLateAsPossible | `1` | [`Start`](../tsk/start)和[`Finish`](../tsk/finish)的日期[`Task`](../task)计划 ALAP 相对于父[`Start`](../tsk/start)和[`Finish`](../tsk/finish)日期并考虑[`TaskLinks`](../project/tasklinks)。 |
-| MustStartOn | `2` | 必须开始于 |
-| MustFinishOn | `3` | 必须在 |
-| StartNoEarlierThan | `4` | 不早于 |
-| StartNoLaterThan | `5` | 开始不晚于 |
-| FinishNoEarlierThan | `6` | 不早于 |
-| FinishNoLaterThan | `7` | 不迟于 |
+| Undefined | `-1` | 原始项目文件中未定义该值。 |
+| AsSoonAsPossible | `0` | [`Start`](../tsk/start)和[`Finish`](../tsk/finish)日期[`Task`](../task)相对于父级安排了 ASAP [`Start`](../tsk/start)和[`Finish`](../tsk/finish)日期和考虑[`TaskLinks`](../project/tasklinks). |
+| AsLateAsPossible | `1` | [`Start`](../tsk/start)和[`Finish`](../tsk/finish)日期[`Task`](../task)相对于父级安排 ALAP [`Start`](../tsk/start)和[`Finish`](../tsk/finish)日期和考虑[`TaskLinks`](../project/tasklinks). |
+| MustStartOn | `2` | 必须开始 |
+| MustFinishOn | `3` | 必须在 上完成 |
+| StartNoEarlierThan | `4` | 开始时间不早于 |
+| StartNoLaterThan | `5` | 开始时间不晚于 |
+| FinishNoEarlierThan | `6` | 完成时间不早于 |
+| FinishNoLaterThan | `7` | 不迟于 完成 |
 
 ### 评论
 
-在导出到 XML 时，未定义的值将从生成的 XML 中删除。
+导出到 XML 时，未定义的值将从生成的 XML 中删除。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CastToDayType
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 .Net 的DayOfWeek转换为DayTypeaspose.tasks/weekday/daytype
+description: 投射 .Net 的DayOfWeek至DayTypeaspose.tasks/weekday/daytype.
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/weekday/casttodaytype/
 ---
 ## WeekDay.CastToDayType method
 
-将 .Net 的DayOfWeek转换为[`DayType`](../daytype)。
+投射 .Net 的DayOfWeek至[`DayType`](../daytype).
 
 ```csharp
 public static DayType CastToDayType(DayOfWeek dw)
@@ -20,7 +20,7 @@ public static DayType CastToDayType(DayOfWeek dw)
 
 ### 返回值
 
-施法日类型。
+演员日类型。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Поле столбца. Fieldaspose.tasks.visualization/resourceviewcolumn/field.
+description: Поле столбца. Fieldaspose.tasks.visualization/resourceviewcolumn/field .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/resourceviewcolumn/field/
 ---
 ## ResourceViewColumn.Field property
 
-Поле столбца. `Field`.
+Поле столбца. `Field` .
 
 ```csharp
 public override Field Field { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: View
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置插入对象所属的Viewaspose.tasks/oleobject/view类的实例
+description: 获取或设置Viewaspose.tasks/oleobject/view插入对象所属的类
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/oleobject/view/
 ---
 ## OleObject.View property
 
-获取或设置插入对象所属的`View`类的实例。
+获取或设置`View`插入对象所属的类。
 
 ```csharp
 public View View { get; set; }

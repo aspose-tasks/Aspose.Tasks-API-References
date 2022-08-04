@@ -1,14 +1,14 @@
 ---
 title: FlagValue
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее установлен ли флаг для атрибута с типом Флаг.
+description: Получает или задает значение указывающее установлен ли флаг для атрибута с типом Flag.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/extendedattribute/flagvalue/
 ---
 ## ExtendedAttribute.FlagValue property
 
-Получает или задает значение, указывающее, установлен ли флаг для атрибута с типом «Флаг».
+Получает или задает значение, указывающее, установлен ли флаг для атрибута с типом 'Flag'.
 
 ```csharp
 public bool FlagValue { get; set; }
@@ -18,7 +18,7 @@ public bool FlagValue { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, если свойство[`AttributeDefinition`](../attributedefinition)не инициализирован или текущий атрибут не является атрибутом флага. |
+| InvalidOperationException | Брошен, если[`AttributeDefinition`](../attributedefinition) свойство не инициализировано или текущий атрибут не является атрибутом флага. |
 
 ### Смотрите также
 

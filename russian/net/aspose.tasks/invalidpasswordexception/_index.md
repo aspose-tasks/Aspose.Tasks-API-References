@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет тип исключения которое возникает при открытии защищенного паролем файла с неверным паролем.
+description: Представляет тип исключения которое выдается при открытии защищенного паролем файла с неправильным паролем.
 type: docs
 weight: 820
 url: /ru/net/aspose.tasks/invalidpasswordexception/
 ---
 ## InvalidPasswordException class
 
-Представляет тип исключения, которое возникает при открытии защищенного паролем файла с неверным паролем.
+Представляет тип исключения, которое выдается при открытии защищенного паролем файла с неправильным паролем.
 
 ```csharp
 public class InvalidPasswordException : TasksException

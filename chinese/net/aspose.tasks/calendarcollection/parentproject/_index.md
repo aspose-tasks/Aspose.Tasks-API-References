@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此对象的父Projectaspose.tasks/project
+description: 获取父级Projectaspose.tasks/project这个对象的.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/calendarcollection/parentproject/
 ---
 ## CalendarCollection.ParentProject property
 
-获取此对象的父[`Project`](../../project)。
+获取父级[`Project`](../../project)这个对象的.
 
 ```csharp
 public Project ParentProject { get; }

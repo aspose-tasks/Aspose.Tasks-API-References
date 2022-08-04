@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает горизонтальное разрешение в dpi.
+description: Получает или задает разрешение по горизонтали в dpi.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.saving/imagesaveoptions/horizontalresolution/
 ---
 ## ImageSaveOptions.HorizontalResolution property
 
-Получает или задает горизонтальное разрешение в dpi.
+Получает или задает разрешение по горизонтали в dpi.
 
 ```csharp
 public float HorizontalResolution { get; set; }

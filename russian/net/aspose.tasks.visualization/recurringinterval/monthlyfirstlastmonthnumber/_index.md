@@ -1,14 +1,14 @@
 ---
 title: MonthlyFirstLastMonthNumber
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает номер месяца в строках прогресса которые отображаются первым или последним предопределенным днем.
+description: Получает или задает номер месяца в строках прогресса которые отображаются по первому или последнему заранее определенному дню.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks.visualization/recurringinterval/monthlyfirstlastmonthnumber/
 ---
 ## RecurringInterval.MonthlyFirstLastMonthNumber property
 
-Получает или задает номер месяца в строках прогресса, которые отображаются первым или последним предопределенным днем.
+Получает или задает номер месяца в строках прогресса, которые отображаются по первому или последнему заранее определенному дню.
 
 ```csharp
 public int MonthlyFirstLastMonthNumber { get; set; }

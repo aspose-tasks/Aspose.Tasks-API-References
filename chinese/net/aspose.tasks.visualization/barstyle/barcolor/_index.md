@@ -1,14 +1,14 @@
 ---
 title: BarColor
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置条形样式的Color
+description: 获取或设置Color酒吧风格的.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/barstyle/barcolor/
 ---
 ## BarStyle.BarColor property
 
-获取或设置条形样式的Color。
+获取或设置Color酒吧风格的.
 
 ```csharp
 public Color BarColor { get; set; }

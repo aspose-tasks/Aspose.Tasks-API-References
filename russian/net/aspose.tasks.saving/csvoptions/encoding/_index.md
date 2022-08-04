@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает кодировку для сохранения CSV.
+description: Получает или задает кодировку для сохранения CSV с помощью.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.saving/csvoptions/encoding/
 ---
 ## CsvOptions.Encoding property
 
-Получает или задает кодировку для сохранения CSV.
+Получает или задает кодировку для сохранения CSV с помощью.
 
 ```csharp
 public Encoding Encoding { get; set; }

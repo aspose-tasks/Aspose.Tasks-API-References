@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置签名的位置
+description: 获取或设置签名位置
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.saving/pdfdigitalsignaturedetails/location/
 ---
 ## PdfDigitalSignatureDetails.Location property
 
-获取或设置签名的位置。
+获取或设置签名位置。
 
 ```csharp
 public string Location { get; set; }

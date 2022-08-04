@@ -1,14 +1,14 @@
 ---
 title: FilterCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 包含Filter./filter对象的列表 实现 ICollectionltFiltergt界面
+description: 包含一个列表Filter./filterobjects. 实现 ICollectionltFiltergt 接口
 type: docs
 weight: 600
 url: /zh/net/aspose.tasks/filtercollection/
 ---
 ## FilterCollection class
 
-包含[`Filter`](../filter)对象的列表。 实现 ICollection&lt;Filter&gt;界面。
+包含一个列表[`Filter`](../filter)objects. 实现 ICollection&lt;Filter&gt; 接口。
 
 ```csharp
 public class FilterCollection : ICollection<Filter>
@@ -20,19 +20,19 @@ public class FilterCollection : ICollection<Filter>
 | --- | --- |
 | [Count](../../aspose.tasks/filtercollection/count) { get; } | 获取此集合中包含的元素数。 |
 | [IsReadOnly](../../aspose.tasks/filtercollection/isreadonly) { get; } | 获取一个值，表示这个集合是否是只读的；否则为假。 |
-| [ParentProject](../../aspose.tasks/filtercollection/parentproject) { get; } | 获取 Filters 对象的父级。 只读[`Project`](../project)。 |
+| [ParentProject](../../aspose.tasks/filtercollection/parentproject) { get; } | 获取 Filters 对象的父级。 只读[`Project`](../project). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/filtercollection/add)(Filter) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/filtercollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/filtercollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/filtercollection/contains)(Filter) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/filtercollection/copyto)(Filter[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/filtercollection/getenumerator)() | 返回此集合的枚举数。 |
 | [Remove](../../aspose.tasks/filtercollection/remove)(Filter) | 从此集合中删除特定对象的第一个匹配项。 |
-| [ToList](../../aspose.tasks/filtercollection/tolist)() | 将过滤器集合转换为[`Filter`](../filter)对象的列表。 |
+| [ToList](../../aspose.tasks/filtercollection/tolist)() | 将过滤器集合转换为[`Filter`](../filter)对象. |
 
 ### 也可以看看
 

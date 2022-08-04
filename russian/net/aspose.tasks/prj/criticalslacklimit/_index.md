@@ -1,14 +1,14 @@
 ---
 title: CriticalSlackLimit
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Количество дней до конца задачи когда Microsoft Project помечает эту задачу как критическую.
+description: Количество дней до окончания задачи когда Microsoft Project помечает эту задачу как критическую.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/prj/criticalslacklimit/
 ---
 ## Prj.CriticalSlackLimit field
 
-Количество дней до конца задачи, когда Microsoft Project помечает эту задачу как критическую.
+Количество дней до окончания задачи, когда Microsoft Project помечает эту задачу как критическую.
 
 ```csharp
 public static readonly Key<int, PrjKey> CriticalSlackLimit;

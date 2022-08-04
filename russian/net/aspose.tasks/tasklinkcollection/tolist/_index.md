@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект TaskLinkCollection в список объектовTaskLinkaspose.tasks/tasklink.
+description: Преобразует объект TaskLinkCollection в списокTaskLinkaspose.tasks/tasklink объекты.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/tasklinkcollection/tolist/
 ---
 ## TaskLinkCollection.ToList method
 
-Преобразует объект TaskLinkCollection в список объектов[`TaskLink`](../../tasklink).
+Преобразует объект TaskLinkCollection в список[`TaskLink`](../../tasklink) объекты.
 
 ```csharp
 public List<TaskLink> ToList()
@@ -16,7 +16,7 @@ public List<TaskLink> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`TaskLink`](../../tasklink).
+Список[`TaskLink`](../../tasklink) объекты.
 
 ### Смотрите также
 

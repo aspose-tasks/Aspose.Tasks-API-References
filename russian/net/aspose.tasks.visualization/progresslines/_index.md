@@ -3,7 +3,7 @@ title: ProgressLines
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет линии прогресса в представлении диаграммы Ганта.
 type: docs
-weight: 2910
+weight: 2920
 url: /ru/net/aspose.tasks.visualization/progresslines/
 ---
 ## ProgressLines class
@@ -24,23 +24,23 @@ public class ProgressLines
 
 | Имя | Описание |
 | --- | --- |
-| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate) { get; set; } | Получает или задает дату, с которой отображаются строки хода выполнения. |
+| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate) { get; set; } | Получает или задает дату для отображения строк прогресса от. |
 | [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart) { get; set; } | Получает или задает значение, указывающее, следует ли отображать строки хода выполнения с начала даты начала проекта. |
-| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat) { get; set; } | Получает или задает формат даты ([`DateLabel`](../datelabel)). |
-| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate) { get; set; } | Получает или задает значение, указывающее, отображать ли строку прогресса на текущую дату. |
-| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals) { get; set; } | Получает или задает значение, указывающее, отображать ли строку прогресса через повторяющиеся интервалы. |
-| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected) { get; set; } | Получает или задает значение, указывающее, отображать ли строки хода выполнения в выбранные даты. |
+| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat) { get; set; } | Получает или задает формат даты ([`DateLabel`](../datelabel) ). |
+| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate) { get; set; } | Получает или задает значение, указывающее, отображать ли строку хода выполнения на текущую дату. |
+| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals) { get; set; } | Получает или задает значение, указывающее, отображать ли строку хода выполнения через повторяющиеся интервалы. |
+| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected) { get; set; } | Получает или задает значение, указывающее, следует ли отображать строки хода выполнения в выбранные даты. |
 | [Font](../../aspose.tasks.visualization/progresslines/font) { get; set; } | Получает или задает шрифт, используемый для метки строки выполнения. |
 | [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan) { get; set; } | Получает или задает значение, указывающее, следует ли отображать строки хода выполнения для базового плана или фактического. |
-| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor) { get; set; } | Получает или устанавливает цвет линии для текущей строки выполнения. |
-| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern) { get; set; } | Получает или задает шаблон строки текущей строки выполнения. [`LinePattern`](./linepattern). |
-| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor) { get; set; } | Получает или устанавливает цвет другой линии прогресса. |
+| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor) { get; set; } | Получает или задает цвет линии для текущей строки выполнения. |
+| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern) { get; set; } | Получает или задает шаблон строки текущей строки выполнения. [`LinePattern`](./linepattern) . |
+| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor) { get; set; } | Получает или задает цвет другой линии прогресса. |
 | [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern) { get; set; } | Получает или задает шаблон строки для другой строки выполнения. |
-| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor) { get; set; } | Получает или устанавливает цвет другой точки прогресса. |
+| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor) { get; set; } | Получает или задает цвет другой точки прогресса. |
 | [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape) { get; set; } | Получает или задает форму точки выполнения другой строки выполнения. |
 | [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor) { get; set; } | Получает или задает цвет точки прогресса. |
-| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape) { get; set; } | Получает или задает форму точки прогресса. [`GanttBarEndShape`](../ganttbarendshape). |
-| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval) { get; set; } | Получает или задает повторяющийся интервал. [`RecurringInterval`](./recurringinterval). |
+| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape) { get; set; } | Получает или задает форму точки прогресса. [`GanttBarEndShape`](../ganttbarendshape) . |
+| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval) { get; set; } | Получает или задает повторяющийся интервал. [`RecurringInterval`](./recurringinterval) . |
 | [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates) { get; } | Получает список выбранных дат для отображения строк прогресса. |
 | [ShowDate](../../aspose.tasks.visualization/progresslines/showdate) { get; set; } | Получает или задает значение, указывающее, показывать ли дату для каждой строки выполнения. |
 

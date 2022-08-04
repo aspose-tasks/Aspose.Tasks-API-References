@@ -1,14 +1,14 @@
 ---
 title: ValueToDuration
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取TimeSpan实例该实例表示此对象的字符串值
+description: 获取TimeSpan表示此对象的字符串值的实例
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/timephaseddata/valuetoduration/
 ---
 ## TimephasedData.ValueToDuration property
 
-获取TimeSpan实例，该实例表示此对象的字符串值。
+获取TimeSpan表示此对象的字符串值的实例。
 
 ```csharp
 public TimeSpan ValueToDuration { get; }

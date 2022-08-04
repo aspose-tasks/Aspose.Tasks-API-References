@@ -1,14 +1,14 @@
 ---
 title: NewTasksEstimated
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет отображается ли расчетная продолжительность по умолчанию.
+description: Определяет отображается ли предполагаемая продолжительность по умолчанию.
 type: docs
 weight: 560
 url: /ru/net/aspose.tasks/prj/newtasksestimated/
 ---
 ## Prj.NewTasksEstimated field
 
-Определяет, отображается ли расчетная продолжительность по умолчанию.
+Определяет, отображается ли предполагаемая продолжительность по умолчанию.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksEstimated;

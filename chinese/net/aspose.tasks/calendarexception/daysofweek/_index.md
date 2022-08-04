@@ -1,14 +1,14 @@
 ---
 title: DaysOfWeek
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此对象的 DayTypeCollection 例外有效的星期几
+description: 获取此对象的 DayTypeCollection 异常有效的星期几
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/calendarexception/daysofweek/
 ---
 ## CalendarException.DaysOfWeek property
 
-获取此对象的 DayTypeCollection。 例外有效的星期几。
+获取此对象的 DayTypeCollection。 异常有效的星期几。
 
 ```csharp
 public DayTypeCollection DaysOfWeek { get; }

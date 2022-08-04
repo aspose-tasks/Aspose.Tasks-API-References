@@ -1,14 +1,14 @@
 ---
 title: IsResumeValid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет может ли задача быть возобновлена.
+description: Определяет можно ли возобновить задачу.
 type: docs
 weight: 680
 url: /ru/net/aspose.tasks/tsk/isresumevalid/
 ---
 ## Tsk.IsResumeValid field
 
-Определяет, может ли задача быть возобновлена.
+Определяет, можно ли возобновить задачу.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsResumeValid;

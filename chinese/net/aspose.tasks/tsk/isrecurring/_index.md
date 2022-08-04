@@ -1,14 +1,14 @@
 ---
 title: IsRecurring
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定任务是否是一系列重复任务的一部分
+description: 确定一个任务是否是一系列重复任务的一部分
 type: docs
 weight: 670
 url: /zh/net/aspose.tasks/tsk/isrecurring/
 ---
 ## Tsk.IsRecurring field
 
-确定任务是否是一系列重复任务的一部分。
+确定一个任务是否是一系列重复任务的一部分。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsRecurring;

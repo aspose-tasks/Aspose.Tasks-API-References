@@ -1,14 +1,14 @@
 ---
 title: CanLevel
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定是否可以对资源进行资源调平
+description: 确定是否可以对资源进行资源调配
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/rsc/canlevel/
 ---
 ## Rsc.CanLevel field
 
-确定是否可以对资源进行资源调平。
+确定是否可以对资源进行资源调配。
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> CanLevel;

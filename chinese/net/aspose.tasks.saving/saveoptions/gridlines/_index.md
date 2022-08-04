@@ -1,14 +1,14 @@
 ---
 title: Gridlines
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置项目视图中出现的Gridlineaspose.tasks.visualization/gridline列表
+description: 获取或设置列表Gridlineaspose.tasks.visualization/gridline出现在项目视图中
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks.saving/saveoptions/gridlines/
 ---
 ## SaveOptions.Gridlines property
 
-获取或设置项目视图中出现的[`Gridline`](../../../aspose.tasks.visualization/gridline)列表。
+获取或设置列表[`Gridline`](../../../aspose.tasks.visualization/gridline)出现在项目视图中。
 
 ```csharp
 public List<Gridline> Gridlines { get; set; }

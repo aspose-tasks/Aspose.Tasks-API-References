@@ -16,8 +16,8 @@ public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baselineNumber | BaselineType | Базовый номер[`BaselineType`](../../baselinetype). |
-| value | DateTime | Базовая дата и время последнего сохранения. |
+| baselineNumber | BaselineType | Номер базовой линии[`BaselineType`](../../baselinetype). |
+| value | DateTime | Дата и время последнего сохранения базового уровня. |
 
 ### Примечания
 

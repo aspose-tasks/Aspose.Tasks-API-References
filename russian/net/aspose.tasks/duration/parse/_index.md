@@ -1,14 +1,14 @@
 ---
 title: Parse
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует указанную строку в экземплярDurationaspose.tasks/durationstruct.
+description: Преобразует указанную строку в экземплярDurationaspose.tasks/duration структура.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/duration/parse/
 ---
 ## Duration.Parse method
 
-Преобразует указанную строку в экземпляр[`Duration`](../../duration)struct.
+Преобразует указанную строку в экземпляр[`Duration`](../../duration) структура.
 
 ```csharp
 public static Duration Parse(Project p, string value)
@@ -16,12 +16,12 @@ public static Duration Parse(Project p, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| p | Project | указанный экземпляр класса[`Project`](../../project)для преобразования длительности. |
+| p | Project | указанный экземпляр[`Project`](../../project) класс для преобразования продолжительности. |
 | value | String | указанная строка для преобразования. |
 
 ### Возвращаемое значение
 
-Возвращает преобразованный экземпляр[`Duration`](../../duration)struct.
+Возвращает преобразованный экземпляр[`Duration`](../../duration) структура.
 
 ### Смотрите также
 

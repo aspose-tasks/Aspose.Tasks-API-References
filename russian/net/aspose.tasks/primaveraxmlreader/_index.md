@@ -1,14 +1,14 @@
 ---
 title: PrimaveraXmlReader
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет программу чтения которая позволяет извлекать UID проекта из файла Primavera Xml.
+description: Представляет средство чтения которое позволяет извлекать UID проекта из файла Primavera Xml.
 type: docs
 weight: 1140
 url: /ru/net/aspose.tasks/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader class
 
-Представляет программу чтения, которая позволяет извлекать UID проекта из файла Primavera Xml.
+Представляет средство чтения, которое позволяет извлекать UID проекта из файла Primavera Xml.
 
 ```csharp
 public class PrimaveraXmlReader
@@ -18,8 +18,8 @@ public class PrimaveraXmlReader
 
 | Имя | Описание |
 | --- | --- |
-| [PrimaveraXmlReader](primaveraxmlreader#constructor)(Stream) | Инициализирует новый экземпляр класса[`PrimaveraXmlReader`](../primaveraxmlreader). |
-| [PrimaveraXmlReader](primaveraxmlreader#constructor_1)(string) | Инициализирует новый экземпляр класса[`PrimaveraXmlReader`](../primaveraxmlreader). |
+| [PrimaveraXmlReader](primaveraxmlreader#constructor)(Stream) | Инициализирует новый экземпляр[`PrimaveraXmlReader`](../primaveraxmlreader) класс. |
+| [PrimaveraXmlReader](primaveraxmlreader#constructor_1)(string) | Инициализирует новый экземпляр[`PrimaveraXmlReader`](../primaveraxmlreader) класс. |
 
 ## Методы
 

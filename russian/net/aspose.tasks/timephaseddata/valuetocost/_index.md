@@ -1,14 +1,14 @@
 ---
 title: ValueToCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетDoubleэкземпляр представляющий строковое значение этого объекта.
+description: получаетDouble экземпляр который представляет строковое значение этого объекта.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/timephaseddata/valuetocost/
 ---
 ## TimephasedData.ValueToCost property
 
-ПолучаетDoubleэкземпляр, представляющий строковое значение этого объекта.
+получаетDouble экземпляр, который представляет строковое значение этого объекта.
 
 ```csharp
 public double ValueToCost { get; }

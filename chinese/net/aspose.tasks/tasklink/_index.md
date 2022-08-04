@@ -21,7 +21,7 @@ public class TaskLink : IEquatable<TaskLink>
 | [CrossProjectName](../../aspose.tasks/tasklink/crossprojectname) { get; set; } | 获取或设置外部前置项目。 |
 | [IsCrossProject](../../aspose.tasks/tasklink/iscrossproject) { get; set; } | 获取或设置一个值，该值指示前驱是否是另一个项目的一部分。 |
 | [LagFormat](../../aspose.tasks/tasklink/lagformat) { get; set; } | 获取或设置表示滞后格式的格式。 |
-| [LinkLag](../../aspose.tasks/tasklink/linklag) { get; set; } | 获取或设置以十分之一分钟为单位的滞后量。 |
+| [LinkLag](../../aspose.tasks/tasklink/linklag) { get; set; } | 获取或设置以十分之一分钟为单位的延迟量。 |
 | [LinkType](../../aspose.tasks/tasklink/linktype) { get; set; } | 获取或设置链接的类型。 |
 | [PredTask](../../aspose.tasks/tasklink/predtask) { get; set; } | 获取或设置前置任务。 |
 | [SuccTask](../../aspose.tasks/tasklink/succtask) { get; set; } | 获取或设置后继任务。 |
@@ -32,8 +32,8 @@ public class TaskLink : IEquatable<TaskLink>
 | --- | --- |
 | override [Equals](../../aspose.tasks/tasklink/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定对象。 |
 | [Equals](../../aspose.tasks/tasklink/equals#equals)(TaskLink) | 返回一个值，指示此实例是否等于指定对象。 |
-| override [GetHashCode](../../aspose.tasks/tasklink/gethashcode)() | 返回[`TaskLink`](../tasklink)类实例的哈希码值。 |
-| override [ToString](../../aspose.tasks/tasklink/tostring)() | 返回 TaskLink 的字符串表示。 表示的确切细节未指定，可能会发生变化。 |
+| override [GetHashCode](../../aspose.tasks/tasklink/gethashcode)() | 返回实例的哈希码值[`TaskLink`](../tasklink)类. |
+| override [ToString](../../aspose.tasks/tasklink/tostring)() | 返回 TaskLink 的字符串表示形式。 表示形式的确切细节未指定，可能会发生变化。 |
 
 ### 也可以看看
 

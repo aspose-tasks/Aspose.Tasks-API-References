@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回此VbaModuleAttributeaspose.tasks/vbamoduleattribute的哈希码值
+description: 为此返回一个哈希码值VbaModuleAttributeaspose.tasks/vbamoduleattribute.
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/vbamoduleattribute/gethashcode/
 ---
 ## VbaModuleAttribute.GetHashCode method
 
-返回此[`VbaModuleAttribute`](../../vbamoduleattribute)的哈希码值。
+为此返回一个哈希码值[`VbaModuleAttribute`](../../vbamoduleattribute).
 
 ```csharp
 public override int GetHashCode()

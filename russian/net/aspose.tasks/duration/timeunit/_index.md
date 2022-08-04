@@ -1,14 +1,14 @@
 ---
 title: TimeUnit
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает тип единицы времени для этого объекта.  Тип единицы времени для этого экземпляра Duration.
+description: Получает тип единицы времени для этого объекта. Тип единицы времени этого экземпляра Duration.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/duration/timeunit/
 ---
 ## Duration.TimeUnit property
 
-Получает тип единицы времени для этого объекта.  Тип единицы времени для этого экземпляра Duration.
+Получает тип единицы времени для этого объекта. Тип единицы времени этого экземпляра Duration.
 
 ```csharp
 public TimeUnitType TimeUnit { get; }

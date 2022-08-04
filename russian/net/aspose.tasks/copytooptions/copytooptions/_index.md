@@ -1,14 +1,14 @@
 ---
 title: CopyToOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаCopyToOptionsaspose.tasks/copytooptions.
+description: Инициализирует новый экземплярCopyToOptionsaspose.tasks/copytooptions учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/copytooptions/copytooptions/
 ---
 ## CopyToOptions constructor
 
-Инициализирует новый экземпляр класса[`CopyToOptions`](../../copytooptions).
+Инициализирует новый экземпляр[`CopyToOptions`](../../copytooptions) учебный класс.
 
 ```csharp
 public CopyToOptions()

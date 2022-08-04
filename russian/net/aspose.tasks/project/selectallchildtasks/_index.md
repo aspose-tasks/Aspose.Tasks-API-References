@@ -16,7 +16,7 @@ public IEnumerable<Task> SelectAllChildTasks()
 
 ### Возвращаемое значение
 
-Коллекция заданий.
+Сборник задач.
 
 ### Смотрите также
 

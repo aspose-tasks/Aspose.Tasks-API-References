@@ -1,14 +1,14 @@
 ---
 title: CalendarCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовCalendar./calendar.
+description: Представляет наборCalendar./calendar объекты.
 type: docs
 weight: 230
 url: /ru/net/aspose.tasks/calendarcollection/
 ---
 ## CalendarCollection class
 
-Представляет набор объектов[`Calendar`](../calendar).
+Представляет набор[`Calendar`](../calendar) объекты.
 
 ```csharp
 public class CalendarCollection : IList<Calendar>
@@ -18,7 +18,7 @@ public class CalendarCollection : IList<Calendar>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.tasks/calendarcollection/count) { get; } | Получает количество объектов, содержащихся в этом объекте[`CalendarCollection`](../calendarcollection). |
+| [Count](../../aspose.tasks/calendarcollection/count) { get; } | Получает количество объектов, содержащихся в этом[`CalendarCollection`](../calendarcollection) объект. |
 | [ParentProject](../../aspose.tasks/calendarcollection/parentproject) { get; } | Получает родителя[`Project`](../project)этого объекта. |
 
 ## Методы
@@ -30,8 +30,8 @@ public class CalendarCollection : IList<Calendar>
 | [GetByName](../../aspose.tasks/calendarcollection/getbyname)(string) | Возвращает календарь с указанным именем. |
 | [GetByUid](../../aspose.tasks/calendarcollection/getbyuid)(int) | Возвращает календарь с указанным UID. |
 | [GetEnumerator](../../aspose.tasks/calendarcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [Remove](../../aspose.tasks/calendarcollection/remove)(Calendar) | Удаляет календарь из коллекции календарей проекта. |
-| [ToList](../../aspose.tasks/calendarcollection/tolist)() | Преобразует объект CalendarCollection в список объектов[`Calendar`](../calendar). |
+| [Remove](../../aspose.tasks/calendarcollection/remove)(Calendar) | Удаляет календарь из Project CalendarCollection. |
+| [ToList](../../aspose.tasks/calendarcollection/tolist)() | Преобразует объект CalendarCollection в список[`Calendar`](../calendar) объекты. |
 
 ### Смотрите также
 

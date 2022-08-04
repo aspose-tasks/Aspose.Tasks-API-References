@@ -16,7 +16,7 @@ public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | FontResolveEventArgs | [`FontResolveEventArgs`](../fontresolveeventargs)类的实例，包含回调数据. |
+| args | FontResolveEventArgs | 的实例[`FontResolveEventArgs`](../fontresolveeventargs)包含回调数据的类。 |
 
 ### 也可以看看
 

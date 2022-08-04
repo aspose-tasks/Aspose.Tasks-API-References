@@ -1,14 +1,14 @@
 ---
 title: CompoundDocumentHeaderException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет собой исключение которое выдается при повреждении заголовка файла MPP.
+description: Представляет исключение которое выдается при повреждении заголовка файла MPP.
 type: docs
 weight: 270
 url: /ru/net/aspose.tasks/compounddocumentheaderexception/
 ---
 ## CompoundDocumentHeaderException class
 
-Представляет собой исключение, которое выдается при повреждении заголовка файла MPP.
+Представляет исключение, которое выдается при повреждении заголовка файла MPP.
 
 ```csharp
 public class CompoundDocumentHeaderException : ApplicationException

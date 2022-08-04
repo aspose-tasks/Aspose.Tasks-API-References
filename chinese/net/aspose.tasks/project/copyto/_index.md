@@ -16,7 +16,7 @@ public void CopyTo(Project another)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| another | Project | 另一个要将数据复制到的项目。 |
+| another | Project | 另一个将数据复制到的项目。 |
 
 ### 也可以看看
 
@@ -36,8 +36,8 @@ public void CopyTo(Project another, CopyToOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| another | Project | 另一个要将数据复制到的项目。 |
-| options | CopyToOptions | 复制选项以控制复制过程。 |
+| another | Project | 另一个将数据复制到的项目。 |
+| options | CopyToOptions | 复制选项来控制复制过程。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ACWP
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фактическая стоимость работ выполненных по заданию на текущий момент.
+description: Фактическая стоимость работ выполненных по заданию на сегодняшний день.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/asn/acwp/
 ---
 ## Asn.ACWP field
 
-Фактическая стоимость работ, выполненных по заданию на текущий момент.
+Фактическая стоимость работ, выполненных по заданию на сегодняшний день.
 
 ```csharp
 public static readonly Key<double, AsnKey> ACWP;

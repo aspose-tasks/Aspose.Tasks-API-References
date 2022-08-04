@@ -1,14 +1,14 @@
 ---
 title: IsNull
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет является ли ресурс нулевым.
+description: Определяет является ли ресурс пустым.
 type: docs
 weight: 420
 url: /ru/net/aspose.tasks/rsc/isnull/
 ---
 ## Rsc.IsNull field
 
-Определяет, является ли ресурс нулевым.
+Определяет, является ли ресурс пустым.
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> IsNull;

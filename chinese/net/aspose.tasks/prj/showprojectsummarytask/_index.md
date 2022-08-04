@@ -1,14 +1,14 @@
 ---
 title: ShowProjectSummaryTask
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定是否在甘特图视图顶部使用自己的摘要任务栏在单行上显示整个项目的摘要信息
+description: 确定是否在单行上显示整个项目的摘要信息并在甘特图视图顶部使用自己的摘要任务栏
 type: docs
 weight: 630
 url: /zh/net/aspose.tasks/prj/showprojectsummarytask/
 ---
 ## Prj.ShowProjectSummaryTask field
 
-确定是否在甘特图视图顶部使用自己的摘要任务栏在单行上显示整个项目的摘要信息。
+确定是否在单行上显示整个项目的摘要信息，并在甘特图视图顶部使用自己的摘要任务栏。
 
 ```csharp
 public static readonly Key<bool, PrjKey> ShowProjectSummaryTask;

@@ -22,13 +22,13 @@ public class And<T> : ICondition<T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](and)(ICondition&lt;T&gt;, ICondition&lt;T&gt;) | 初始化[`And`](../and-1)类的新实例。 |
+| [And](and)(ICondition&lt;T&gt;, ICondition&lt;T&gt;) | 初始化[`And`](../and-1)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Check](../../aspose.tasks.util/and`1/check)(T) | 如果指定对象满足条件，则返回 true。 |
+| [Check](../../aspose.tasks.util/and`1/check)(T) | 如果指定的对象满足条件，则返回真。 |
 
 ### 也可以看看
 

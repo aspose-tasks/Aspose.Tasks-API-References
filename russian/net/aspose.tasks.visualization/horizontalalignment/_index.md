@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Указывает как объект или текст выравниваются по горизонтали относительно другого объекта.
 type: docs
-weight: 2780
+weight: 2790
 url: /ru/net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

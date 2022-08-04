@@ -16,7 +16,7 @@ public static readonly Key<DateTime, PrjKey> CreationDate;
 
 ### 评论
 
-以 UTC 格式保存在 mpp 文件中。 DateTime类型。
+以 UTC 格式保存在 mpp 文件中。 DateTime类型.
 
 ### 也可以看看
 

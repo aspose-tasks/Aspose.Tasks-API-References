@@ -1,14 +1,14 @@
 ---
 title: AssignmentBaselineCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示AssignmentBaseline./assignmentbaseline对象的集合
+description: 代表一个集合AssignmentBaseline./assignmentbaseline对象.
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/assignmentbaselinecollection/
 ---
 ## AssignmentBaselineCollection class
 
-表示[`AssignmentBaseline`](../assignmentbaseline)对象的集合。
+代表一个集合[`AssignmentBaseline`](../assignmentbaseline)对象.
 
 ```csharp
 public class AssignmentBaselineCollection : IList<AssignmentBaseline>
@@ -20,7 +20,7 @@ public class AssignmentBaselineCollection : IList<AssignmentBaseline>
 | --- | --- |
 | [Count](../../aspose.tasks/assignmentbaselinecollection/count) { get; } | 获取此 AssignmentBaselineCollection 对象中包含的对象数。 |
 | [Item](../../aspose.tasks/assignmentbaselinecollection/item) { get; set; } | 返回指定索引处的元素。 |
-| [ParentAssignment](../../aspose.tasks/assignmentbaselinecollection/parentassignment) { get; } | 获取此集合的父[`ResourceAssignment`](../resourceassignment)。 |
+| [ParentAssignment](../../aspose.tasks/assignmentbaselinecollection/parentassignment) { get; } | 获取父级[`ResourceAssignment`](../resourceassignment)对于这个集合。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public class AssignmentBaselineCollection : IList<AssignmentBaseline>
 | [Add](../../aspose.tasks/assignmentbaselinecollection/add)(AssignmentBaseline) | 这是 ICollection 的 Add 方法的存根实现，只抛出 NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/assignmentbaselinecollection/getenumerator)() | 返回此集合的枚举数。 |
 | [Remove](../../aspose.tasks/assignmentbaselinecollection/remove)(AssignmentBaseline) | 从此集合中删除基线。 |
-| [ToList](../../aspose.tasks/assignmentbaselinecollection/tolist)() | 将 AssignmentBaselineCollection 对象转换为[`AssignmentBaseline`](../assignmentbaseline)对象的列表。 |
+| [ToList](../../aspose.tasks/assignmentbaselinecollection/tolist)() | 将 AssignmentBaselineCollection 对象转换为[`AssignmentBaseline`](../assignmentbaseline)对象. |
 
 ### 也可以看看
 

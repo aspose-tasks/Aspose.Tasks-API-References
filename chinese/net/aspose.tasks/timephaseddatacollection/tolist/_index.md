@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将TimephasedDataCollectionaspose.tasks/timephaseddatacollection对象转换为TimephasedData的列表对象
+description: 转换TimephasedDataCollectionaspose.tasks/timephaseddatacollection反对列表TimephasedDataaspose.tasks/timephaseddata对象.
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/timephaseddatacollection/tolist/
 ---
 ## TimephasedDataCollection.ToList method
 
-将[`TimephasedDataCollection`](../../timephaseddatacollection)对象转换为TimephasedData的列表对象。
+转换[`TimephasedDataCollection`](../../timephaseddatacollection)反对列表[`TimephasedData`](../../timephaseddata)对象.
 
 ```csharp
 public List<TimephasedData> ToList()
@@ -16,7 +16,7 @@ public List<TimephasedData> ToList()
 
 ### 返回值
 
-[`TimephasedData`](../../timephaseddata)对象列表。
+清单[`TimephasedData`](../../timephaseddata)对象。
 
 ### 也可以看看
 

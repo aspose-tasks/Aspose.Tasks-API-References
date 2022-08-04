@@ -1,14 +1,14 @@
 ---
 title: And
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаAndaspose.tasks.util/and-1.
+description: Инициализирует новый экземплярAndaspose.tasks.util/and-1 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/and-1/and/
 ---
 ## And&lt;T&gt; constructor
 
-Инициализирует новый экземпляр класса[`And`](../../and-1).
+Инициализирует новый экземпляр[`And`](../../and-1) класс.
 
 ```csharp
 public And(ICondition<T> cond1, ICondition<T> cond2)

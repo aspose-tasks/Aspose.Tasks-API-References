@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ImageSavingArgsaspose.tasks/imagesavingargs类的新实例
+description: 初始化ImageSavingArgsaspose.tasks/imagesavingargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/imagesavingargs/imagesavingargs/
 ---
 ## ImageSavingArgs constructor
 
-初始化[`ImageSavingArgs`](../../imagesavingargs)类的新实例。
+初始化[`ImageSavingArgs`](../../imagesavingargs)类.
 
 ```csharp
 public ImageSavingArgs()

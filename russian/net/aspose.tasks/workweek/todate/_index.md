@@ -1,14 +1,14 @@
 ---
 title: ToDate
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает Finish DateTime рабочей недели
+description: Получает или задает дату окончания рабочей недели
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/workweek/todate/
 ---
 ## WorkWeek.ToDate property
 
-Получает или задает Finish DateTime рабочей недели
+Получает или задает дату окончания рабочей недели
 
 ```csharp
 public DateTime ToDate { get; set; }

@@ -18,7 +18,7 @@ public enum AsnKey
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Guid | `0` | Представляет полеGuid(ResourceAssignment). |
+| Guid | `0` | ПредставляетGuid Поле (назначение ресурсов). |
 | Uid | `1` | Представляет поле UID (ResourceAssignment). |
 | Task | `2` | Представляет поле Task (ResourceAssignment). |
 | Resource | `3` | Представляет поле Resource (ResourceAssignment). |
@@ -38,7 +38,7 @@ public enum AsnKey
 | Delay | `17` | Представляет поле Delay (ResourceAssignment). |
 | Finish | `18` | Представляет поле Finish (ResourceAssignment). |
 | FinishVariance | `19` | Представляет поле FinishVariance (ResourceAssignment). |
-| Hyperlink | `20` | Представляет поле "Гиперссылка (ResourceAssignment)". |
+| Hyperlink | `20` | Представляет поле Hyperlink (ResourceAssignment). |
 | HyperlinkAddress | `21` | Представляет поле HyperlinkAddress (ResourceAssignment). |
 | HyperlinkSubAddress | `22` | Представляет поле HyperlinkSubAddress (ResourceAssignment). |
 | WorkVariance | `23` | Представляет поле WorkVariance (ResourceAssignment). |
@@ -47,9 +47,9 @@ public enum AsnKey
 | LevelingDelay | `26` | Представляет поле LevelingDelay (ResourceAssignment). |
 | LevelingDelayFormat | `27` | Представляет поле LevelingDelayFormat (ResourceAssignment). |
 | LinkedFields | `28` | Представляет поле LinkedFields (ResourceAssignment). |
-| Milestone | `29` | Представляет поле Milestone (ResourceAssignment). |
+| Milestone | `29` | Представляет поле Веха (ResourceAssignment). |
 | Notes | `30` | Представляет поле Notes (ResourceAssignment). |
-| Overallocated | `31` | Представляет поле Превышение доступности (ResourceAssignment). |
+| Overallocated | `31` | Представляет поле Overlocated (ResourceAssignment). |
 | OvertimeCost | `32` | Представляет поле OvertimeCost (ResourceAssignment). |
 | OvertimeWork | `33` | Представляет поле OvertimeWork (ResourceAssignment). |
 | PeakUnits | `34` | Представляет поле PeakUnits (ResourceAssignment). |
@@ -63,7 +63,7 @@ public enum AsnKey
 | Stop | `42` | Представляет поле Stop (ResourceAssignment). |
 | Resume | `43` | Представляет поле Resume (ResourceAssignment). |
 | StartVariance | `44` | Представляет поле StartVariance (ResourceAssignment). |
-| Summary | `45` | Представляет поле сводки (назначение ресурсов). |
+| Summary | `45` | Представляет поле сводки (ResourceAssignment). |
 | SV | `46` | Представляет поле SV (ResourceAssignment). |
 | Units | `47` | Представляет поле Units (ResourceAssignment). |
 | UpdateNeeded | `48` | Представляет поле UpdateNeeded (ResourceAssignment). |

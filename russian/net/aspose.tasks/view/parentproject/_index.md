@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родителя объекта View. Только чтениеProjectaspose.tasks/project.
+description: Получает родителя объекта View. Только для чтенияProjectaspose.tasks/project .
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/view/parentproject/
 ---
 ## View.ParentProject property
 
-Получает родителя объекта View. Только чтение[`Project`](../../project).
+Получает родителя объекта View. Только для чтения[`Project`](../../project) .
 
 ```csharp
 public Project ParentProject { get; }

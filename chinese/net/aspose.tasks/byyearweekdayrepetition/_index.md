@@ -18,7 +18,7 @@ public class ByYearWeekDayRepetition : YearlyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByYearWeekDayRepetition](byyearweekdayrepetition)() | 初始化[`ByYearWeekDayRepetition`](../byyearweekdayrepetition)类的新实例。 |
+| [ByYearWeekDayRepetition](byyearweekdayrepetition)() | 初始化[`ByYearWeekDayRepetition`](../byyearweekdayrepetition)班级。 |
 
 ## 特性
 

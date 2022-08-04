@@ -1,14 +1,14 @@
 ---
 title: ResourceFilters
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取所有基于资源的过滤器定义 ResourceFilters 是Filteraspose.tasks/filter对象的集合
+description: 获取所有基于资源的过滤器定义 ResourceFilters 是一个集合Filteraspose.tasks/filter对象.
 type: docs
 weight: 140
 url: /zh/net/aspose.tasks/project/resourcefilters/
 ---
 ## Project.ResourceFilters property
 
-获取所有基于资源的过滤器定义。 ResourceFilters 是[`Filter`](../../filter)对象的集合。
+获取所有基于资源的过滤器定义。 ResourceFilters 是一个集合[`Filter`](../../filter)对象.
 
 ```csharp
 public FilterCollection ResourceFilters { get; }

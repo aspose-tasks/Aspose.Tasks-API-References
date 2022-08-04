@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаHtmlSaveOptionsaspose.tasks.saving/htmlsaveoptions.
+description: Инициализирует новый экземплярHtmlSaveOptionsaspose.tasks.saving/htmlsaveoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`HtmlSaveOptions`](../../htmlsaveoptions).
+Инициализирует новый экземпляр[`HtmlSaveOptions`](../../htmlsaveoptions) класс.
 
 ```csharp
 public HtmlSaveOptions()

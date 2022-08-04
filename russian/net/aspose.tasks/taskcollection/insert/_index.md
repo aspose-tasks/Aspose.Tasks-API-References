@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Это заглушка реализации метода IList Insert  который генерирует только исключение NotSupportedException
+description: Это заглушка метода Insert из IList которая выдает только NotSupportedException
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/taskcollection/insert/
 ---
 ## TaskCollection.Insert method
 
-Это заглушка реализации метода IList Insert , который генерирует только исключение NotSupportedException
+Это заглушка метода Insert из IList, которая выдает только NotSupportedException
 
 ```csharp
 public void Insert(int index, Task item)

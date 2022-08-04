@@ -1,14 +1,14 @@
 ---
 title: DaysPerMonth
 second_title: Aspose.Tasks for .NET API 参考
-description: 每月天数
+description: 每月的天数
 type: docs
 weight: 210
 url: /zh/net/aspose.tasks/prj/dayspermonth/
 ---
 ## Prj.DaysPerMonth field
 
-每月天数。
+每月的天数。
 
 ```csharp
 public static readonly Key<int, PrjKey> DaysPerMonth;

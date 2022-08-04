@@ -1,14 +1,14 @@
 ---
 title: OvertimeRate
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает почасовую ставку сверхурочной работы для ресурса.
+description: Получает или задает ставку сверхурочной работы в час для ресурса.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/rate/overtimerate/
 ---
 ## Rate.OvertimeRate property
 
-Получает или задает почасовую ставку сверхурочной работы для ресурса.
+Получает или задает ставку сверхурочной работы в час для ресурса.
 
 ```csharp
 public decimal OvertimeRate { get; set; }

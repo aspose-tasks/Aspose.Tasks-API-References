@@ -1,14 +1,14 @@
 ---
 title: PhysicalPercentComplete
 second_title: Aspose.Tasks for .NET API 参考
-description: 可用作计算已完成工作的预算成本 BCWP 的替代方法的百分比完成值
+description: 可用作计算已完成工作的预算成本 BCWP 的替代方法的完成百分比值
 type: docs
 weight: 910
 url: /zh/net/aspose.tasks/tsk/physicalpercentcomplete/
 ---
 ## Tsk.PhysicalPercentComplete field
 
-可用作计算已完成工作的预算成本 (BCWP) 的替代方法的百分比完成值。
+可用作计算已完成工作的预算成本 (BCWP) 的替代方法的完成百分比值。
 
 ```csharp
 public static readonly Key<int, TaskKey> PhysicalPercentComplete;

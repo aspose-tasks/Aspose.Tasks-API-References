@@ -1,14 +1,14 @@
 ---
 title: GetProjectList
 second_title: Aspose.Tasks for .NET API 参考
-description: 从当前 Project Online 帐户  Project Server 实例的工作存储中获取项目列表
+description: 从当前 Project Online 帐户Project Server 实例的工作存储中获取项目列表
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/projectservermanager/getprojectlist/
 ---
 ## ProjectServerManager.GetProjectList method
 
-从当前 Project Online 帐户 \ Project Server 实例的“工作”存储中获取项目列表。
+从当前 Project Online 帐户\Project Server 实例的“工作”存储中获取项目列表。
 
 ```csharp
 public IEnumerable<ProjectInfo> GetProjectList()

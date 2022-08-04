@@ -1,14 +1,14 @@
 ---
 title: Duration
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает длительность одного экземпляра повторяющейся задачи.  экземпляр классаDurationaspose.tasks/recurringtaskinfo/duration.
+description: Получает или задает продолжительность одного экземпляра повторяющейся задачи.  экземплярDurationaspose.tasks/recurringtaskinfo/duration учебный класс.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/recurringtaskinfo/duration/
 ---
 ## RecurringTaskInfo.Duration property
 
-Получает или задает длительность одного экземпляра повторяющейся задачи.  экземпляр класса`Duration`.
+Получает или задает продолжительность одного экземпляра повторяющейся задачи.  экземпляр`Duration` учебный класс.
 
 ```csharp
 public Duration Duration { get; set; }

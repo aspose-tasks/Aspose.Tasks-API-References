@@ -1,14 +1,14 @@
 ---
 title: AuthToken
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает маркер авторизации для экземпляра SharePoint.
+description: Получает токен авторизации для экземпляра SharePoint.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/projectservercredentials/authtoken/
 ---
 ## ProjectServerCredentials.AuthToken property
 
-Получает маркер авторизации для экземпляра SharePoint.
+Получает токен авторизации для экземпляра SharePoint.
 
 ```csharp
 public string AuthToken { get; }

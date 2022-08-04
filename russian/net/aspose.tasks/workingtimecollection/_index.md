@@ -1,14 +1,14 @@
 ---
 title: WorkingTimeCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовWorkingTimeCollection./workingtimecollection.
+description: Представляет наборWorkingTimeCollection./workingtimecollection объекты.
 type: docs
-weight: 3280
+weight: 3290
 url: /ru/net/aspose.tasks/workingtimecollection/
 ---
 ## WorkingTimeCollection class
 
-Представляет набор объектов[`WorkingTimeCollection`](../workingtimecollection).
+Представляет набор[`WorkingTimeCollection`](../workingtimecollection) объекты.
 
 ```csharp
 public class WorkingTimeCollection : IList<WorkingTime>
@@ -18,20 +18,20 @@ public class WorkingTimeCollection : IList<WorkingTime>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.tasks/workingtimecollection/count) { get; } | Получает количество объектов, содержащихся в этом объекте[`WorkingTimeCollection`](../workingtimecollection). |
+| [Count](../../aspose.tasks/workingtimecollection/count) { get; } | Получает количество объектов, содержащихся в этом[`WorkingTimeCollection`](../workingtimecollection) объект. |
 | [Item](../../aspose.tasks/workingtimecollection/item) { get; set; } | Возвращает элемент по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/workingtimecollection/add)(WorkingTime) | Добавляет в эту коллекцию новый экземпляр рабочего времени. |
-| [Clear](../../aspose.tasks/workingtimecollection/clear)() | Удаляет все предметы[`WorkingTime`](../workingtime)из коллекции. |
-| [Contains](../../aspose.tasks/workingtimecollection/contains)(WorkingTime) | Проверяет, есть ли указанный элемент в списке. Выполняет линейный поиск O(n). |
-| [CopyTo](../../aspose.tasks/workingtimecollection/copyto)(WorkingTime[], int) | копирует содержимое коллекции в массив, начиная с определенного индекса |
+| [Add](../../aspose.tasks/workingtimecollection/add)(WorkingTime) | Добавляет в эту коллекцию новый экземпляр WorkTime. |
+| [Clear](../../aspose.tasks/workingtimecollection/clear)() | Удаляет все[`WorkingTime`](../workingtime) предметы из коллекции. |
+| [Contains](../../aspose.tasks/workingtimecollection/contains)(WorkingTime) | Проверяет наличие указанного элемента в списке. Выполняет линейный поиск O(n). |
+| [CopyTo](../../aspose.tasks/workingtimecollection/copyto)(WorkingTime[], int) | копирует содержимое коллекции в массив, начиная с определенного index |
 | [GetEnumerator](../../aspose.tasks/workingtimecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [Remove](../../aspose.tasks/workingtimecollection/remove)(WorkingTime) | Удаляет экземпляр[`WorkingTime`](../workingtime)из этой коллекции. |
-| [ToList](../../aspose.tasks/workingtimecollection/tolist)() | Преобразует объект WorkingTimeCollection в список объектов[`WorkingTime`](../workingtime). |
+| [Remove](../../aspose.tasks/workingtimecollection/remove)(WorkingTime) | Удаляет[`WorkingTime`](../workingtime) экземпляр из этой коллекции. |
+| [ToList](../../aspose.tasks/workingtimecollection/tolist)() | Преобразует объект WorkingTimeCollection в список[`WorkingTime`](../workingtime) объекты. |
 
 ### Смотрите также
 

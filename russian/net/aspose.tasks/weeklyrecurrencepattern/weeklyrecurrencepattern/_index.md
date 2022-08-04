@@ -1,14 +1,14 @@
 ---
 title: WeeklyRecurrencePattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаWeeklyRecurrencePatternaspose.tasks/weeklyrecurrencepattern.
+description: Инициализирует новый экземплярWeeklyRecurrencePatternaspose.tasks/weeklyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/weeklyrecurrencepattern/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern constructor
 
-Инициализирует новый экземпляр класса[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern).
+Инициализирует новый экземпляр[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) класс.
 
 ```csharp
 public WeeklyRecurrencePattern()

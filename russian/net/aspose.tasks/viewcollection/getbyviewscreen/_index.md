@@ -16,7 +16,7 @@ public View GetByViewScreen(ViewScreen screen)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| screen | ViewScreen | [`ViewScreen`](../../viewscreen)значение перечисления. |
+| screen | ViewScreen | [`ViewScreen`](../../viewscreen) перечисляемое значение. |
 
 ### Возвращаемое значение
 

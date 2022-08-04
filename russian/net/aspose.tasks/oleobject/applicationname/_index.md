@@ -1,14 +1,14 @@
 ---
 title: ApplicationName
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает имя приложения для открытия внедренного объекта.
+description: Получает или задает имя приложения для открытия встроенного объекта с помощью.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/oleobject/applicationname/
 ---
 ## OleObject.ApplicationName property
 
-Получает или задает имя приложения для открытия внедренного объекта.
+Получает или задает имя приложения для открытия встроенного объекта с помощью.
 
 ```csharp
 public string ApplicationName { get; set; }

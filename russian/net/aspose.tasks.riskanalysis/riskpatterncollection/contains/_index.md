@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает true если указанный элемент найден в этой коллекции в противном случае ложно.
+description: Возвращает true если указанный элемент найден в этой коллекции в противном случае false.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.riskanalysis/riskpatterncollection/contains/
 ---
 ## RiskPatternCollection.Contains method
 
-Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false.
 
 ```csharp
 public bool Contains(RiskPattern item)
@@ -16,11 +16,11 @@ public bool Contains(RiskPattern item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | RiskPattern | указанный предмет для поиска. |
+| item | RiskPattern | указанный элемент для поиска. |
 
 ### Возвращаемое значение
 
-true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Значение true, если указанный элемент найден в этой коллекции; в противном случае ложно.
 
 ### Смотрите также
 

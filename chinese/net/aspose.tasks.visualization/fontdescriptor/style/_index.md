@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取字体样式
+description: 获取字体的样式
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.visualization/fontdescriptor/style/
 ---
 ## FontDescriptor.Style property
 
-获取字体样式。
+获取字体的样式。
 
 ```csharp
 public FontStyles Style { get; }

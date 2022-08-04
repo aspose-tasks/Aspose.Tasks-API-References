@@ -1,14 +1,14 @@
 ---
 title: RemainingOvertimeWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 为完成任务而安排的剩余加班时间
+description: 为完成一项任务而安排的剩余加班时间
 type: docs
 weight: 450
 url: /zh/net/aspose.tasks/asn/remainingovertimework/
 ---
 ## Asn.RemainingOvertimeWork field
 
-为完成任务而安排的剩余加班时间。
+为完成一项任务而安排的剩余加班时间。
 
 ```csharp
 public static readonly Key<Duration, AsnKey> RemainingOvertimeWork;

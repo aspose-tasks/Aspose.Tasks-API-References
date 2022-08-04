@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает метку датыDateLabelaspose.tasks.visualization/datelabelдля уровня шкалы времени.
+description: Получает или устанавливает метку датыDateLabelaspose.tasks.visualization/datelabel для уровня шкалы времени.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/timescaletier/label/
 ---
 ## TimescaleTier.Label property
 
-Получает или задает метку даты[`DateLabel`](../../datelabel)для уровня шкалы времени.
+Получает или устанавливает метку даты[`DateLabel`](../../datelabel) для уровня шкалы времени.
 
 ```csharp
 public DateLabel Label { get; set; }

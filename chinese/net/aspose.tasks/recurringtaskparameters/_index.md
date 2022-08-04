@@ -18,15 +18,15 @@ public class RecurringTaskParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RecurringTaskParameters](recurringtaskparameters)() | 初始化[`RecurringTaskParameters`](../recurringtaskparameters)类的新实例。 |
+| [RecurringTaskParameters](recurringtaskparameters)() | 初始化[`RecurringTaskParameters`](../recurringtaskparameters)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Duration](../../aspose.tasks/recurringtaskparameters/duration) { get; set; } | 获取或设置重复任务发生一次的持续时间。 [`Duration`](./duration)类的实例。 |
-| [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar) { get; set; } | 获取或设置一个值，该值指示是否安排重复任务，即使当有任何资源可用时它没有发生。 |
-| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern) { get; set; } | 获取或设置循环任务的循环模式。  可以是[`RecurrencePattern`](./recurrencepattern)枚举的值之一。 |
+| [Duration](../../aspose.tasks/recurringtaskparameters/duration) { get; set; } | 获取或设置重复任务发生一次的持续时间。 的实例[`Duration`](./duration)班级。 |
+| [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar) { get; set; } | 获取或设置一个值，该值指示是否安排重复任务，即使在任何资源可用于处理它时它没有发生。 |
+| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern) { get; set; } | 获取或设置循环任务的循环模式。 可以是以下值之一[`RecurrencePattern`](./recurrencepattern)枚举。 |
 | [TaskName](../../aspose.tasks/recurringtaskparameters/taskname) { get; set; } | 获取或设置循环任务的名称。 |
 
 ## 方法

@@ -1,14 +1,14 @@
 ---
 title: Apply
 second_title: Aspose.Tasks for .NET API 参考
-description: 对从指定位置开始的每个列表元素应用算法
+description: 从指定位置开始对每个列表元素应用算法
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.util/listutils/apply/
 ---
 ## ListUtils.Apply&lt;T&gt; method
 
-对从指定位置开始的每个列表元素应用算法。
+从指定位置开始对每个列表元素应用算法。
 
 ```csharp
 public static void Apply<T>(IList<T> list, IAlgorithm<T> algorithm, int startIndex)

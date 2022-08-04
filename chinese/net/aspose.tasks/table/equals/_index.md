@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果指定的对象是一个与此实例具有相同 UID 值的表；否则， **false** 。
+**真的**如果指定的对象是一个与此实例具有相同 UID 值的表；否则， **错误的**.
 
 ### 也可以看看
 

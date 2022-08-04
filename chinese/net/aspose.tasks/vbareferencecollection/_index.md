@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示VbaReference./vbareference对象的集合
+description: 代表一个集合VbaReference./vbareference对象.
 type: docs
-weight: 2520
+weight: 2530
 url: /zh/net/aspose.tasks/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-表示[`VbaReference`](../vbareference)对象的集合。
+代表一个集合[`VbaReference`](../vbareference)对象.
 
 ```csharp
 public class VbaReferenceCollection : ReadOnlyCollectionBase<VbaReference>

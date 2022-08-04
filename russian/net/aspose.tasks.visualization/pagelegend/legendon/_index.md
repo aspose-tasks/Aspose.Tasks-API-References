@@ -1,14 +1,14 @@
 ---
 title: LegendOn
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает страницы на которых появляется легенда. Может быть одним из значений перечисленияLegendaspose.tasks.visualization/legend.
+description: Получает или задает страницы на которых отображается легенда. Может быть одним из значенийLegendaspose.tasks.visualization/legend перечисление.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/pagelegend/legendon/
 ---
 ## PageLegend.LegendOn property
 
-Получает или задает страницы, на которых появляется легенда. Может быть одним из значений перечисления[`Legend`](../../legend).
+Получает или задает страницы, на которых отображается легенда. Может быть одним из значений[`Legend`](../../legend) перечисление.
 
 ```csharp
 public Legend LegendOn { get; set; }

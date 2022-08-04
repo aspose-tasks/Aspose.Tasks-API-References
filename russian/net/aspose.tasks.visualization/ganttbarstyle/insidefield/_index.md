@@ -1,14 +1,14 @@
 ---
 title: InsideField
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает данные для отображения внутри панели. Fieldaspose.tasks/field.
+description: Получает или задает данные для отображения внутри панели. Fieldaspose.tasks/field .
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/insidefield/
 ---
 ## GanttBarStyle.InsideField property
 
-Получает или задает данные для отображения внутри панели. [`Field`](../../../aspose.tasks/field).
+Получает или задает данные для отображения внутри панели. [`Field`](../../../aspose.tasks/field) .
 
 ```csharp
 public Field InsideField { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsEstimated
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取是否估计时间单位的值  确定是否估计此 Duration 实例的标志
+description: 获取一个值指示是否估计时间单位 确定是否估计此 Duration 实例的标志
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/duration/isestimated/
 ---
 ## Duration.IsEstimated property
 
-获取是否估计时间单位的值。  确定是否估计此 Duration 实例的标志。
+获取一个值，指示是否估计时间单位。 确定是否估计此 Duration 实例的标志。
 
 ```csharp
 public bool IsEstimated { get; }

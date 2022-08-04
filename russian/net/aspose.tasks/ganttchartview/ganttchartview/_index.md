@@ -1,14 +1,14 @@
 ---
 title: GanttChartView
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаGanttChartViewaspose.tasks/ganttchartview.
+description: Инициализирует новый экземплярGanttChartViewaspose.tasks/ganttchartview класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/ganttchartview/ganttchartview/
 ---
 ## GanttChartView constructor
 
-Инициализирует новый экземпляр класса[`GanttChartView`](../../ganttchartview).
+Инициализирует новый экземпляр[`GanttChartView`](../../ganttchartview) класс.
 
 ```csharp
 public GanttChartView()

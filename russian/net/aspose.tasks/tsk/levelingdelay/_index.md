@@ -1,14 +1,14 @@
 ---
 title: LevelingDelay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Время на которое задача должна быть отложена с даты раннего начала из-за выравнивания ресурсов.
+description: Время на которое задача должна быть отложена с даты ее раннего начала из-за выравнивания ресурсов.
 type: docs
 weight: 770
 url: /ru/net/aspose.tasks/tsk/levelingdelay/
 ---
 ## Tsk.LevelingDelay field
 
-Время, на которое задача должна быть отложена с даты раннего начала из-за выравнивания ресурсов.
+Время, на которое задача должна быть отложена с даты ее раннего начала из-за выравнивания ресурсов.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> LevelingDelay;

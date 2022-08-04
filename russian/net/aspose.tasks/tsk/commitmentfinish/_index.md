@@ -1,14 +1,14 @@
 ---
 title: CommitmentFinish
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Дата окончания доставки.  Чтение поддерживается только для формата XML. DateTimeтип.
+description: Дата окончания доставки.  Чтение поддерживается только для формата XML. DateTime тип.
 type: docs
 weight: 170
 url: /ru/net/aspose.tasks/tsk/commitmentfinish/
 ---
 ## Tsk.CommitmentFinish field
 
-Дата окончания доставки.  Чтение поддерживается только для формата XML. DateTimeтип.
+Дата окончания доставки.  Чтение поддерживается только для формата XML. DateTime тип.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> CommitmentFinish;

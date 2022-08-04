@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果指定对象是具有相同 FromDate、ToDate 值和 WorkingTimes 的 WeekDay作为这个例子；否则， **false** 。
+**真的**如果指定的对象是一个 WeekDay，它与此实例具有相同的 FromDate、ToDate 值和 WorkingTimes；否则， **错误的**.
 
 ### 也可以看看
 

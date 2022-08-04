@@ -8,7 +8,7 @@ url: /zh/net/aspose.tasks/tasksloggedexception/operation/
 ---
 ## TasksLoggedException.Operation property
 
-获取异常操作信息。
+获取异常操作信息
 
 ```csharp
 public string Operation { get; }

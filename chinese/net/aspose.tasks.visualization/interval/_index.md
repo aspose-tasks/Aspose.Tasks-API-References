@@ -3,7 +3,7 @@ title: Interval
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定显示进度线的重复间隔
 type: docs
-weight: 2800
+weight: 2810
 url: /zh/net/aspose.tasks.visualization/interval/
 ---
 ## Interval enumeration

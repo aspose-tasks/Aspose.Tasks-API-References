@@ -1,14 +1,14 @@
 ---
 title: TaskId
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает идентификатор задачи если выбрана опция Присоединить к задаче иначе -1.
+description: Получает или задает идентификатор задачи если выбран параметр Присоединить к задаче иначе -1.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/taskid/
 ---
 ## VisualObjectPlacement.TaskId property
 
-Получает или устанавливает идентификатор задачи, если выбрана опция «Присоединить к задаче», иначе -1.
+Получает или задает идентификатор задачи, если выбран параметр «Присоединить к задаче», иначе -1.
 
 ```csharp
 public int TaskId { get; set; }

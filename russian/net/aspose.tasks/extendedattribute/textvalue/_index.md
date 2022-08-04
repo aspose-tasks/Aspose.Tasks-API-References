@@ -18,7 +18,7 @@ public string TextValue { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, если свойство[`AttributeDefinition`](../attributedefinition)не инициализирован или текущий атрибут не является текстовым атрибутом. |
+| InvalidOperationException | Брошен, если[`AttributeDefinition`](../attributedefinition)свойство не инициализировано или текущий атрибут не является текстовым атрибутом. |
 
 ### Смотрите также
 

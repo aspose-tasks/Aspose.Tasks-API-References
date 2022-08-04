@@ -1,14 +1,14 @@
 ---
 title: ParentAssignment
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此集合的父ResourceAssignmentaspose.tasks/resourceassignment
+description: 获取父级ResourceAssignmentaspose.tasks/resourceassignment对于这个集合
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/assignmentbaselinecollection/parentassignment/
 ---
 ## AssignmentBaselineCollection.ParentAssignment property
 
-获取此集合的父[`ResourceAssignment`](../../resourceassignment)。
+获取父级[`ResourceAssignment`](../../resourceassignment)对于这个集合。
 
 ```csharp
 public ResourceAssignment ParentAssignment { get; }

@@ -1,14 +1,14 @@
 ---
 title: PagesInWidth
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает количество страниц в ширину для печати.
+description: Получает или задает количество страниц по ширине для печати.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/pagesettings/pagesinwidth/
 ---
 ## PageSettings.PagesInWidth property
 
-Получает или задает количество страниц в ширину для печати.
+Получает или задает количество страниц по ширине для печати.
 
 ```csharp
 public int PagesInWidth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FromDate
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает дату и время начала рабочей недели
+description: Получает или задает начальную дату и время рабочей недели
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/workweek/fromdate/
 ---
 ## WorkWeek.FromDate property
 
-Получает или устанавливает дату и время начала рабочей недели
+Получает или задает начальную дату и время рабочей недели
 
 ```csharp
 public DateTime FromDate { get; set; }

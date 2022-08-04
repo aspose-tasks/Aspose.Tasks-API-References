@@ -18,13 +18,13 @@ public enum EarnedValueMethodType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 该字段未在原始项目文件中定义。 |
+| Undefined | `-1` | 原始项目文件中未定义该字段。 |
 | PercentComplete | `0` | 完成百分比 |
 | PhysicalPercentComplete | `1` | 物理完成百分比 |
 
 ### 评论
 
-在导出到 XML 时，未定义的值将从生成的 XML 中删除。
+导出到 XML 时，未定义的值将从生成的 XML 中删除。
 
 ### 也可以看看
 

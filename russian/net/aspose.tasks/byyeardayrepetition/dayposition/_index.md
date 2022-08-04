@@ -1,14 +1,14 @@
 ---
 title: DayPosition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает позицию дня в месяце когда задача должна повторяться.
+description: Получает или задает позицию дня в месяце в который задача должна повторяться.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/byyeardayrepetition/dayposition/
 ---
 ## ByYearDayRepetition.DayPosition property
 
-Получает или задает позицию дня в месяце, когда задача должна повторяться.
+Получает или задает позицию дня в месяце, в который задача должна повторяться.
 
 ```csharp
 public int DayPosition { get; set; }

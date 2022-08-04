@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет экземплярTimephasedDataaspose.tasks/timephaseddataиз этого объекта коллекции.
+description: УдаляетTimephasedDataaspose.tasks/timephaseddata экземпляр из этого объекта коллекции.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/timephaseddatacollection/remove/
 ---
 ## TimephasedDataCollection.Remove method
 
-Удаляет экземпляр[`TimephasedData`](../../timephaseddata)из этого объекта коллекции.
+Удаляет[`TimephasedData`](../../timephaseddata) экземпляр из этого объекта коллекции.
 
 ```csharp
 public bool Remove(TimephasedData item)
@@ -16,11 +16,11 @@ public bool Remove(TimephasedData item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | TimephasedData | Элемент для удаления. |
+| item | TimephasedData | Элемент, который необходимо удалить. |
 
 ### Возвращаемое значение
 
-true, если*item*был успешно удален изСборданныхповремени; в противном случае ложно. Этот метод также возвращает false, если*item*не найден в[`TimephasedDataCollection`](../../timephaseddatacollection).
+верно, если*item* был успешно удален из[`TimephasedDataCollection`](../../timephaseddatacollection) ; в противном случае — false. Этот метод также возвращает false, если*item* не находится в[`TimephasedDataCollection`](../../timephaseddatacollection) .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CssSavingArgs
 second_title: Aspose.Tasks for .NET API 参考
-description: 此类表示与外部 CSS 文件保存相关的数据集 在转换为 HTML 格式期间发生
+description: 此类表示与外部 CSS 文件保存相关的数据集 在转换为 HTML 格式时发生
 type: docs
 weight: 350
 url: /zh/net/aspose.tasks/csssavingargs/
 ---
 ## CssSavingArgs class
 
-此类表示与外部 CSS 文件保存相关的数据集， 在转换为 HTML 格式期间发生。
+此类表示与外部 CSS 文件保存相关的数据集， 在转换为 HTML 格式时发生。
 
 ```csharp
 public class CssSavingArgs : ResourceSavingArgs
@@ -18,13 +18,13 @@ public class CssSavingArgs : ResourceSavingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CssSavingArgs](csssavingargs)() | 初始化[`CssSavingArgs`](../csssavingargs)类的新实例。 |
+| [CssSavingArgs](csssavingargs)() | 初始化[`CssSavingArgs`](../csssavingargs)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileName](../../aspose.tasks/resourcesavingargs/filename) { get; set; } | 获取或设置从转换器到自定义方法代码的假定文件名。 可用于自定义代码来决定如何处理或保存该文件的位置。 |
+| [FileName](../../aspose.tasks/resourcesavingargs/filename) { get; set; } | 获取或设置从转换器到自定义方法代码的假定文件名。 可在自定义代码中用于决定如何处理或保存该文件的位置。 |
 | [KeepStreamOpen](../../aspose.tasks/resourcesavingargs/keepstreamopen) { get; set; } | 获取或设置一个值，该值指示资源保存完成后流是否保持打开状态。 |
 | [Stream](../../aspose.tasks/resourcesavingargs/stream) { get; set; } | 获取或设置保存文件的二进制内容。 |
 | [Uri](../../aspose.tasks/resourcesavingargs/uri) { get; set; } | 获取或设置资源 URI。 |

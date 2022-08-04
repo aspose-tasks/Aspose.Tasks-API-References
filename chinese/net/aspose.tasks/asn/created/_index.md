@@ -1,14 +1,14 @@
 ---
 title: Created
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配的创建日期
+description: 作业的创建日期
 type: docs
 weight: 210
 url: /zh/net/aspose.tasks/asn/created/
 ---
 ## Asn.Created field
 
-分配的创建日期。
+作业的创建日期。
 
 ```csharp
 public static readonly Key<DateTime, AsnKey> Created;

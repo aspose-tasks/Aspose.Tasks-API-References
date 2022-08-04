@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает количество элементов содержащихся в коллекции RateCollection.
+description: Получает количество элементов содержащихся в RateCollection.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/ratecollection/count/
 ---
 ## RateCollection.Count property
 
-Получает количество элементов, содержащихся в коллекции RateCollection.
+Получает количество элементов, содержащихся в RateCollection.
 
 ```csharp
 public int Count { get; }

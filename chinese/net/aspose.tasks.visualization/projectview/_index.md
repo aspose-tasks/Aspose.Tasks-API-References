@@ -1,14 +1,14 @@
 ---
 title: ProjectView
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目的视图类
+description: 项目视图类
 type: docs
-weight: 2920
+weight: 2930
 url: /zh/net/aspose.tasks.visualization/projectview/
 ---
 ## ProjectView class
 
-项目的视图类
+项目视图类
 
 ```csharp
 public class ProjectView
@@ -18,7 +18,7 @@ public class ProjectView
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ProjectView](projectview)(IEnumerable&lt;ViewColumn&gt;) | 初始化[`ProjectView`](../projectview)类的新实例。 |
+| [ProjectView](projectview)(IEnumerable&lt;ViewColumn&gt;) | 初始化[`ProjectView`](../projectview)类. |
 
 ## 特性
 
@@ -32,7 +32,7 @@ public class ProjectView
 | --- | --- |
 | static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview)() | 包括 Uid、任务名称、资源名称、工作和工期分配列。 |
 | static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview)() | 包括 id、指标、名称、持续时间、开始和完成任务列。 |
-| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview)() | 包括 Uid、资源名称、类型、材料标签、首字母、组、最大单位、 标准费率、加班费率、每次使用成本、累积在、基准日历和代码资源列。 |
+| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview)() | 包括 Uid、资源名称、类型、材料标签、缩写、组、最大单位、 标准费率、加班费率、每次使用成本、累积时间、基准日历和代码资源列。 |
 | static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview)() | 包括 Uid、名称、开始、完成和工作资源列。 |
 | static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview)() | 包括 id、指标、名称、持续时间、开始、完成、前任和资源名称任务列。 |
 

@@ -18,9 +18,9 @@ public enum HourLabelDisplay
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| H | `0` | 将 MS Project 中的 Hours 列表设置为H。 |
-| Hr | `1` | 将 MS Project 中的 Hours 列表设置为Hr。 |
-| Hour | `2` | 将 MS Project 中的 Hours 列表设置为Hour。 |
+| H | `0` | 将 MS Project 中的 Hours 列表设置为H. |
+| Hr | `1` | 将 MS Project 中的 Hours 列表设置为Hr. |
+| Hour | `2` | 将 MS Project 中的 Hours 列表设置为Hour. |
 
 ### 也可以看看
 

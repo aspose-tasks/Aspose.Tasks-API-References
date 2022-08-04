@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает положение конечной точки отрезка диаграммы Ганта.
+description: Получает или задает положение конечной точки диаграммы Ганта.
 type: docs
 weight: 250
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/to/
 ---
 ## GanttBarStyle.To property
 
-Получает или задает положение конечной точки отрезка диаграммы Ганта.
+Получает или задает положение конечной точки диаграммы Ганта.
 
 ```csharp
 public Field To { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение хэш-кода для экземпляра классаWeekDayaspose.tasks/weekday.
+description: Возвращает значение хеш-кода для экземпляраWeekDayaspose.tasks/weekday класс.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/weekday/gethashcode/
 ---
 ## WeekDay.GetHashCode method
 
-Возвращает значение хэш-кода для экземпляра класса[`WeekDay`](../../weekday).
+Возвращает значение хеш-кода для экземпляра[`WeekDay`](../../weekday) класс.
 
 ```csharp
 public override int GetHashCode()

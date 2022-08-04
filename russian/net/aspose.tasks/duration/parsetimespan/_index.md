@@ -20,7 +20,7 @@ public static TimeSpan ParseTimeSpan(string value)
 
 ### Возвращаемое значение
 
-возвращает проанализированный экземпляр структуры[`TimeSpan`](../timespan).
+возвращает проанализированный экземпляр[`TimeSpan`](../timespan) структура.
 
 ### Смотрите также
 

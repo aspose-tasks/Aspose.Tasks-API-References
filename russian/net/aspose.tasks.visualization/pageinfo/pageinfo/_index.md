@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPageInfoaspose.tasks.visualization/pageinfo. Представляет данные настройки страницы которые представлены в формате файла MPP и используются для печати.
+description: Инициализирует новый экземплярPageInfoaspose.tasks.visualization/pageinfo учебный класс. Представляет данные настройки страницы которые представлены в формате файла MPP и используются для печати.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/pageinfo/pageinfo/
 ---
 ## PageInfo constructor
 
-Инициализирует новый экземпляр класса[`PageInfo`](../../pageinfo). Представляет данные настройки страницы, которые представлены в формате файла MPP и используются для печати.
+Инициализирует новый экземпляр[`PageInfo`](../../pageinfo) учебный класс. Представляет данные настройки страницы, которые представлены в формате файла MPP и используются для печати.
 
 ```csharp
 public PageInfo()

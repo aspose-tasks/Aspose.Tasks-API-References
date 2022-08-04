@@ -18,7 +18,7 @@ public decimal NumericValue { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性则抛出未初始化或自定义字段类型[`AttributeDefinition`](../attributedefinition)属性不是“成本”或“数字”。 |
+| InvalidOperationException | 如果[`AttributeDefinition`](../attributedefinition)属性未初始化或自定义字段类型[`AttributeDefinition`](../attributedefinition)属性不是“成本”或“数字”。 |
 
 ### 也可以看看
 

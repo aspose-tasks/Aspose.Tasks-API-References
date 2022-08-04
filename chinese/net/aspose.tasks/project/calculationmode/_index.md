@@ -1,14 +1,14 @@
 ---
 title: CalculationMode
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置工程的计算模式 可以是CalculationModeaspose.tasks/project/calculationmode枚举的值之一
+description: 获取或设置项目的计算模式 可以是以下值之一CalculationModeaspose.tasks/project/calculationmode枚举.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/project/calculationmode/
 ---
 ## Project.CalculationMode property
 
-获取或设置工程的计算模式。 可以是`CalculationMode`枚举的值之一。
+获取或设置项目的计算模式。 可以是以下值之一`CalculationMode`枚举.
 
 ```csharp
 public CalculationMode CalculationMode { get; set; }

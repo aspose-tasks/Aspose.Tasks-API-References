@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPdfSaveOptionsaspose.tasks.saving/pdfsaveoptions который можно использовать для сохранения документа вФормат PDFaspose.tasks.saving/savefileformat .
+description: Инициализирует новый экземплярPdfSaveOptionsaspose.tasks.saving/pdfsaveoptionsкласс который можно использовать для сохранения документа вPDFaspose.tasks.saving/savefileformat формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`PdfSaveOptions`](../../pdfsaveoptions), который можно использовать для сохранения документа в[`Формат PDF`](../../savefileformat) .
+Инициализирует новый экземпляр[`PdfSaveOptions`](../../pdfsaveoptions)класс, который можно использовать для сохранения документа в[`PDF`](../../savefileformat) формат.
 
 ```csharp
 public PdfSaveOptions()

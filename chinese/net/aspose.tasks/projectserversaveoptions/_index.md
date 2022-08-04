@@ -18,7 +18,7 @@ public sealed class ProjectServerSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ProjectServerSaveOptions](projectserversaveoptions)() | 初始化[`ProjectServerSaveOptions`](../projectserversaveoptions)类的新实例。 |
+| [ProjectServerSaveOptions](projectserversaveoptions)() | 初始化[`ProjectServerSaveOptions`](../projectserversaveoptions)类. |
 
 ## 特性
 
@@ -26,8 +26,8 @@ public sealed class ProjectServerSaveOptions
 | --- | --- |
 | [PollingInterval](../../aspose.tasks/projectserversaveoptions/pollinginterval) { get; set; } | 获取或设置队列作业状态请求之间的间隔。默认值为 2 秒。 |
 | [ProjectGuid](../../aspose.tasks/projectserversaveoptions/projectguid) { get; set; } | 获取或设置项目的唯一标识符。在 Project Server \ Project Online 实例中应该是唯一的。 |
-| [ProjectName](../../aspose.tasks/projectserversaveoptions/projectname) { get; set; } | 获取或设置在 Project Server \ Project Online 项目列表中显示的项目名称。在 Project Server \ Project Online 实例中应该是唯一的。 是否省略值，将使用 Prj.Name 属性的值代替。 |
-| [Timeout](../../aspose.tasks/projectserversaveoptions/timeout) { get; set; } | 获取或设置等待 Project Server 的队列处理服务处理保存项目请求时使用的超时。此属性的默认值为 1 分钟。 |
+| [ProjectName](../../aspose.tasks/projectserversaveoptions/projectname) { get; set; } | 获取或设置在 Project Server\Project Online 项目列表中显示的项目名称。在 Project Server\Project Online 实例中应该是唯一的。 的值是否被省略，将使用 Prj.Name 属性的值来代替。 |
+| [Timeout](../../aspose.tasks/projectserversaveoptions/timeout) { get; set; } | 获取或设置在等待 Project Server 的队列处理服务处理保存项目请求时使用的超时。此属性的默认值为 1 分钟。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Tasks for .NET API 参考
-description: 在指定索引处插入WeekDayaspose.tasks/weekday
+description: 插入WeekDayaspose.tasks/weekday在指定索引处
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/weekdaycollection/insert/
 ---
 ## WeekDayCollection.Insert method
 
-在指定索引处插入[`WeekDay`](../../weekday)。
+插入[`WeekDay`](../../weekday)在指定索引处。
 
 ```csharp
 public void Insert(int index, WeekDay item)

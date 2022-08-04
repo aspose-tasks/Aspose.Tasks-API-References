@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取VbaProjectaspose.tasks/project/vbaproject类的实例
+description: 获取一个实例VbaProjectaspose.tasks/project/vbaproject类.
 type: docs
 weight: 220
 url: /zh/net/aspose.tasks/project/vbaproject/
 ---
 ## Project.VbaProject property
 
-获取`VbaProject`类的实例。
+获取一个实例`VbaProject`类.
 
 ```csharp
 public VbaProject VbaProject { get; }

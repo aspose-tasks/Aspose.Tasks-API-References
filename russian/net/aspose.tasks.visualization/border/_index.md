@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Задает границы типа.
+description: Определяет границы типа.
 type: docs
-weight: 2610
+weight: 2620
 url: /ru/net/aspose.tasks.visualization/border/
 ---
 ## Border enumeration
 
-Задает границы типа.
+Определяет границы типа.
 
 ```csharp
 public enum Border

@@ -1,14 +1,14 @@
 ---
 title: WBSCodeMask
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет маску кода СДР.
+description: Представляет маску кода WBS.
 type: docs
-weight: 3110
+weight: 3120
 url: /ru/net/aspose.tasks/wbscodemask/
 ---
 ## WBSCodeMask class
 
-Представляет маску кода СДР.
+Представляет маску кода WBS.
 
 ```csharp
 public class WBSCodeMask
@@ -18,7 +18,7 @@ public class WBSCodeMask
 
 | Имя | Описание |
 | --- | --- |
-| [WBSCodeMask](wbscodemask)() | Инициализирует новый экземпляр класса[`WBSCodeMask`](../wbscodemask). |
+| [WBSCodeMask](wbscodemask)() | Инициализирует новый экземпляр[`WBSCodeMask`](../wbscodemask) класс. |
 
 ## Характеристики
 
@@ -26,7 +26,7 @@ public class WBSCodeMask
 | --- | --- |
 | [Length](../../aspose.tasks/wbscodemask/length) { get; set; } | Получает или задает количество символов строки кода. |
 | [Level](../../aspose.tasks/wbscodemask/level) { get; } | Получает уровень маски. |
-| [Separator](../../aspose.tasks/wbscodemask/separator) { get; set; } | Получает или задает разделитель строки кода.  Значение по умолчанию — Период. |
+| [Separator](../../aspose.tasks/wbscodemask/separator) { get; set; } | Получает или задает разделитель строки кода. Значение по умолчанию — Период. |
 | [Sequence](../../aspose.tasks/wbscodemask/sequence) { get; set; } | Получает или задает тип символа строки кода. |
 
 ### Смотрите также

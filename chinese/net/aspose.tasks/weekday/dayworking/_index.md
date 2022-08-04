@@ -1,14 +1,14 @@
 ---
 title: DayWorking
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示指定的日期或日期类型是否有效
+description: 获取或设置一个值指示指定的日期或日期类型是否有效
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/weekday/dayworking/
 ---
 ## WeekDay.DayWorking property
 
-获取或设置一个值，该值指示指定的日期或日期类型是否有效。
+获取或设置一个值，指示指定的日期或日期类型是否有效。
 
 ```csharp
 public bool DayWorking { get; set; }

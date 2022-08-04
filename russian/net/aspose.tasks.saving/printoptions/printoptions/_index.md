@@ -1,14 +1,14 @@
 ---
 title: PrintOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPrintOptionsaspose.tasks.saving/printoptions который можно использовать для установки различных параметров печати проекта. .
+description: Инициализирует новый экземплярPrintOptionsaspose.tasks.saving/printoptions класс который можно использовать для установки различных параметров печати проекта.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/printoptions/printoptions/
 ---
 ## PrintOptions constructor
 
-Инициализирует новый экземпляр класса[`PrintOptions`](../../printoptions), который можно использовать для установки различных параметров печати проекта. .
+Инициализирует новый экземпляр[`PrintOptions`](../../printoptions) класс, который можно использовать для установки различных параметров печати проекта.
 
 ```csharp
 public PrintOptions()

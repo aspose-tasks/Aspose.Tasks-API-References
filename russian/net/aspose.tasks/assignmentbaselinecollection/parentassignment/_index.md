@@ -1,14 +1,14 @@
 ---
 title: ParentAssignment
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родительский объектResourceAssignmentaspose.tasks/resourceassignmentдля этой коллекции.
+description: Получает родителяResourceAssignmentaspose.tasks/resourceassignment для этой коллекции.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/assignmentbaselinecollection/parentassignment/
 ---
 ## AssignmentBaselineCollection.ParentAssignment property
 
-Получает родительский объект[`ResourceAssignment`](../../resourceassignment)для этой коллекции.
+Получает родителя[`ResourceAssignment`](../../resourceassignment) для этой коллекции.
 
 ```csharp
 public ResourceAssignment ParentAssignment { get; }

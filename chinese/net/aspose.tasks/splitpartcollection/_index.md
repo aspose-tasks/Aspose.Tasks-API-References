@@ -1,14 +1,14 @@
 ---
 title: SplitPartCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示任务部分的集合
+description: 代表任务部分的集合
 type: docs
 weight: 2000
 url: /zh/net/aspose.tasks/splitpartcollection/
 ---
 ## SplitPartCollection class
 
-表示任务部分的集合。
+代表任务部分的集合。
 
 ```csharp
 public class SplitPartCollection : IList<SplitPart>
@@ -18,7 +18,7 @@ public class SplitPartCollection : IList<SplitPart>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/splitpartcollection/count) { get; } | 获取集合中的部分数量。 |
+| [Count](../../aspose.tasks/splitpartcollection/count) { get; } | 获取集合中的零件数。 |
 | [Item](../../aspose.tasks/splitpartcollection/item) { get; set; } | 在给定索引处检索任务的拆分部分。 |
 
 ## 方法

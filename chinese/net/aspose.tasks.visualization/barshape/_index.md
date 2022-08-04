@@ -3,7 +3,7 @@ title: BarShape
 second_title: Aspose.Tasks for .NET API 参考
 description: 条形矩形的形状
 type: docs
-weight: 2590
+weight: 2600
 url: /zh/net/aspose.tasks.visualization/barshape/
 ---
 ## BarShape enumeration
@@ -18,12 +18,12 @@ public enum BarShape
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Full | `0` | 表示完整的矩形条形。 |
+| Full | `0` | 表示完整的矩形条形状。 |
 | HalfHeight | `1` | 表示半高矩形条形状。 |
 | Thin | `2` | 表示细矩形条形状。 |
 | None | `3` | 表示无条形。 |
 | Middle | `4` | 表示矩形中间条形。 |
-| LineBottom | `5` | 指示线底条形状。 |
+| LineBottom | `5` | 表示线底条形状。 |
 
 ### 也可以看看
 

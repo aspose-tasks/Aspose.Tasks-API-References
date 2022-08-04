@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 将新的 WorkingTime 实例添加到此集合
+description: 向此集合添加一个新的 WorkingTime 实例
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/workingtimecollection/add/
 ---
 ## WorkingTimeCollection.Add method
 
-将新的 WorkingTime 实例添加到此集合。
+向此集合添加一个新的 WorkingTime 实例。
 
 ```csharp
 public bool Add(WorkingTime item)

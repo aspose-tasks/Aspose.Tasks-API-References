@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回NullableBoolaspose.tasks/nullablebool类实例的哈希码值
+description: 返回实例的哈希码值NullableBoolaspose.tasks/nullablebool类.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/nullablebool/gethashcode/
 ---
 ## NullableBool.GetHashCode method
 
-返回[`NullableBool`](../../nullablebool)类实例的哈希码值。
+返回实例的哈希码值[`NullableBool`](../../nullablebool)类.
 
 ```csharp
 public override int GetHashCode()

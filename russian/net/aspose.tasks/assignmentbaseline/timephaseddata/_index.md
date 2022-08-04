@@ -1,14 +1,14 @@
 ---
 title: TimephasedData
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает экземплярTimephasedDataCollectionaspose.tasks/timephaseddatacollectionдля этого объекта. Поэтапные данные связанные с базовым планом назначения ресурсов.  возвращает экземплярTimephasedDataCollectionaspose.tasks/timephaseddatacollectionдля этого объекта. Коллекция поэтапных по времени данных связанных с этим базовым планом.
+description: Получает или задаетTimephasedDataCollectionaspose.tasks/timephaseddatacollection экземпляр для этого объекта. Поэтапные данные связанные с базовым планом назначения ресурсов.  возвращаетсяTimephasedDataCollectionaspose.tasks/timephaseddatacollection экземпляр для этого объекта.Коллекция поэтапных по времени данных связанных с этим базовым планом.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/assignmentbaseline/timephaseddata/
 ---
 ## AssignmentBaseline.TimephasedData property
 
-Получает или задает экземпляр[`TimephasedDataCollection`](../../timephaseddatacollection)для этого объекта. Поэтапные данные, связанные с базовым планом назначения ресурсов.  возвращает экземпляр[`TimephasedDataCollection`](../../timephaseddatacollection)для этого объекта. Коллекция поэтапных по времени данных, связанных с этим базовым планом.
+Получает или задает[`TimephasedDataCollection`](../../timephaseddatacollection) экземпляр для этого объекта. Поэтапные данные, связанные с базовым планом назначения ресурсов.  возвращается[`TimephasedDataCollection`](../../timephaseddatacollection) экземпляр для этого объекта.Коллекция поэтапных по времени данных, связанных с этим базовым планом.
 
 ```csharp
 public TimephasedDataCollection TimephasedData { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PhoneticAlias
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает фонетическое произношение псевдонима пользовательского кода структуры.
+description: Получает или задает фонетическое произношение псевдонима пользовательского кода схемы.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/outlinecodedefinition/phoneticalias/
 ---
 ## OutlineCodeDefinition.PhoneticAlias property
 
-Получает или задает фонетическое произношение псевдонима пользовательского кода структуры.
+Получает или задает фонетическое произношение псевдонима пользовательского кода схемы.
 
 ```csharp
 public string PhoneticAlias { get; set; }

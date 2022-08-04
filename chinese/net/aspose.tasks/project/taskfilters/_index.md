@@ -1,14 +1,14 @@
 ---
 title: TaskFilters
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取所有基于任务的过滤器定义 TaskFilters 是Filteraspose.tasks/filter对象的集合
+description: 获取所有基于任务的过滤器定义 TaskFilters 是一个集合Filteraspose.tasks/filter对象.
 type: docs
 weight: 190
 url: /zh/net/aspose.tasks/project/taskfilters/
 ---
 ## Project.TaskFilters property
 
-获取所有基于任务的过滤器定义。 TaskFilters 是[`Filter`](../../filter)对象的集合。
+获取所有基于任务的过滤器定义。 TaskFilters 是一个集合[`Filter`](../../filter)对象.
 
 ```csharp
 public FilterCollection TaskFilters { get; }

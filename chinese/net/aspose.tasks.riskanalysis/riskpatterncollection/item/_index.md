@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取指定任务的RiskPatternaspose.tasks.riskanalysis/riskpattern类的实例
+description: 获取实例RiskPatternaspose.tasks.riskanalysis/riskpattern指定任务的类
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.riskanalysis/riskpatterncollection/item/
 ---
 ## RiskPatternCollection indexer
 
-获取指定任务的[`RiskPattern`](../../riskpattern)类的实例。
+获取实例[`RiskPattern`](../../riskpattern)指定任务的类。
 
 ```csharp
 public RiskPattern this[Task task] { get; }
@@ -16,7 +16,7 @@ public RiskPattern this[Task task] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| task | 指定任务。 |
+| task | 指定的任务。 |
 
 ### 返回值
 

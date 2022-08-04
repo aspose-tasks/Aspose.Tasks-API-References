@@ -1,14 +1,14 @@
 ---
 title: KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定手动任务在按照自动计划进行时是否必须保持在最近的工作时间
+description: 确定手动任务在自动计划时是否必须保持在最近的工作时间
 type: docs
 weight: 390
 url: /zh/net/aspose.tasks/prj/keeptaskonnearestworkingtimewhenmadeautoscheduled/
 ---
 ## Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled field
 
-确定手动任务在按照自动计划进行时是否必须保持在最近的工作时间。
+确定手动任务在自动计划时是否必须保持在最近的工作时间。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled;

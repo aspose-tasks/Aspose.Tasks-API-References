@@ -1,14 +1,14 @@
 ---
 title: BottomField
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает данные для отображения в нижней части панели. Fieldaspose.tasks/field.
+description: Получает или задает данные для отображения в нижней части панели. Fieldaspose.tasks/field .
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/bottomfield/
 ---
 ## GanttBarStyle.BottomField property
 
-Получает или задает данные для отображения в нижней части панели. [`Field`](../../../aspose.tasks/field).
+Получает или задает данные для отображения в нижней части панели. [`Field`](../../../aspose.tasks/field) .
 
 ```csharp
 public Field BottomField { get; set; }

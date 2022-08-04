@@ -20,7 +20,7 @@ public static TimeSpan ParseTimeSpan(string value)
 
 ### 返回值
 
-返回[`TimeSpan`](../timespan)结构的解析实例。
+返回解析的实例[`TimeSpan`](../timespan)结构。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TaskBaseline
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTaskBaselineaspose.tasks/taskbaseline.
+description: Инициализирует новый экземплярTaskBaselineaspose.tasks/taskbaseline класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/taskbaseline/taskbaseline/
 ---
 ## TaskBaseline constructor
 
-Инициализирует новый экземпляр класса[`TaskBaseline`](../../taskbaseline).
+Инициализирует новый экземпляр[`TaskBaseline`](../../taskbaseline) класс.
 
 ```csharp
 public TaskBaseline(Task task)

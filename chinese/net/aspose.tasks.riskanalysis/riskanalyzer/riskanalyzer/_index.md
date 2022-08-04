@@ -1,14 +1,14 @@
 ---
 title: RiskAnalyzer
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化RiskAnalyzeraspose.tasks.riskanalysis/riskanalyzer类的新实例
+description: 初始化RiskAnalyzeraspose.tasks.riskanalysis/riskanalyzer类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.riskanalysis/riskanalyzer/riskanalyzer/
 ---
 ## RiskAnalyzer constructor
 
-初始化[`RiskAnalyzer`](../../riskanalyzer)类的新实例。
+初始化[`RiskAnalyzer`](../../riskanalyzer)类.
 
 ```csharp
 public RiskAnalyzer(RiskAnalysisSettings settings)
@@ -16,7 +16,7 @@ public RiskAnalyzer(RiskAnalysisSettings settings)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| settings | RiskAnalysisSettings | [`RiskAnalysisSettings`](../../riskanalysissettings)类的指定实例。 |
+| settings | RiskAnalysisSettings | 的指定实例[`RiskAnalysisSettings`](../../riskanalysissettings)班级。 |
 
 ### 也可以看看
 

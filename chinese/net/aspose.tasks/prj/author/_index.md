@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目的作者
+description: 一个项目的作者
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/prj/author/
 ---
 ## Prj.Author field
 
-项目的作者。
+一个项目的作者。
 
 ```csharp
 public static readonly Key<string, PrjKey> Author;

@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果 o 是与此实例具有相同 UID 值的 GroupCriterion；否则， **false** 。
+**真的**如果 o 是与此实例具有相同 UID 值的 GroupCriterion；否则， **错误的**.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует коллекцию таблиц в список объектовTableaspose.tasks/table.
+description: Преобразует набор таблиц в списокTableaspose.tasks/table объекты.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/tablecollection/tolist/
 ---
 ## TableCollection.ToList method
 
-Преобразует коллекцию таблиц в список объектов[`Table`](../../table).
+Преобразует набор таблиц в список[`Table`](../../table) объекты.
 
 ```csharp
 public List<Table> ToList()
@@ -16,7 +16,7 @@ public List<Table> ToList()
 
 ### Возвращаемое значение
 
-Общий список объектов[`Table`](../../table).
+Общий список[`Table`](../../table) объекты.
 
 ### Смотрите также
 

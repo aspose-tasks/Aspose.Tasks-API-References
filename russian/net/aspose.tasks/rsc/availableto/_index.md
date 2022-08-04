@@ -1,14 +1,14 @@
 ---
 title: AvailableTo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Конечная дата когда ресурс доступен для работы в единицах указанных для текущего периода времени.
+description: Дата окончания когда ресурс доступен для работы в единицах указанных для текущего периода времени.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/rsc/availableto/
 ---
 ## Rsc.AvailableTo field
 
-Конечная дата, когда ресурс доступен для работы в единицах, указанных для текущего периода времени.
+Дата окончания, когда ресурс доступен для работы в единицах, указанных для текущего периода времени.
 
 ```csharp
 public static readonly Key<DateTime, RscKey> AvailableTo;

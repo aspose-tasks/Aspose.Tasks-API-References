@@ -1,14 +1,14 @@
 ---
 title: TextStyles
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает списокTextStyleaspose.tasks.visualization/textstyleпредставления диаграммы Ганта.
+description: Получает или задает списокTextStyleaspose.tasks.visualization/textstyle представления диаграммы Ганта.
 type: docs
 weight: 170
 url: /ru/net/aspose.tasks/ganttchartview/textstyles/
 ---
 ## GanttChartView.TextStyles property
 
-Получает или задает список[`TextStyle`](../../../aspose.tasks.visualization/textstyle)представления диаграммы Ганта.
+Получает или задает список[`TextStyle`](../../../aspose.tasks.visualization/textstyle) представления диаграммы Ганта.
 
 ```csharp
 public List<TextStyle> TextStyles { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将RateCollectionaspose.tasks/ratecollection对象转换为Rate的列表对象
+description: 转换RateCollectionaspose.tasks/ratecollection反对列表Rateaspose.tasks/rate对象.
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/ratecollection/tolist/
 ---
 ## ToList() {#tolist}
 
-将[`RateCollection`](../../ratecollection)对象转换为Rate的列表对象。
+转换[`RateCollection`](../../ratecollection)反对列表[`Rate`](../../rate)对象.
 
 ```csharp
 public List<Rate> ToList()
@@ -16,7 +16,7 @@ public List<Rate> ToList()
 
 ### 返回值
 
-[`Rate`](../../rate)对象列表。
+清单[`Rate`](../../rate)对象。
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public List<Rate> ToList()
 
 ## ToList(RateType) {#tolist_1}
 
-将[`RateCollection`](../../ratecollection)对象转换为Rate的列表由指定[`RateType`](../../ratetype)类型过滤的对象。
+转换[`RateCollection`](../../ratecollection)反对列表[`Rate`](../../rate)按指定过滤的对象[`RateType`](../../ratetype)类型.
 
 ```csharp
 public List<Rate> ToList(RateType type)
@@ -41,7 +41,7 @@ public List<Rate> ToList(RateType type)
 
 ### 返回值
 
-[`Rate`](../../rate)对象列表。
+的清单[`Rate`](../../rate)对象。
 
 ### 也可以看看
 

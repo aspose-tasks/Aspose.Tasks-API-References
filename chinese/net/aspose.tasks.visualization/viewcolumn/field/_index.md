@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置列字段 Fieldaspose.tasks.visualization/viewcolumn/field
+description: 获取或设置列字段 Fieldaspose.tasks.visualization/viewcolumn/field.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/viewcolumn/field/
 ---
 ## ViewColumn.Field property
 
-获取或设置列字段。 `Field`。
+获取或设置列字段。 `Field`.
 
 ```csharp
 public abstract Field Field { get; set; }

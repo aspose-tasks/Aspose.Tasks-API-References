@@ -1,14 +1,14 @@
 ---
 title: View
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要呈现的视图列的列表GanttChartColumnaspose.tasks.visualization/ganttchartcolumn 如果未设置则仅呈现任务 ID任务名称开始和完成 如果同时设置了 View 和ViewSettingsaspose.tasks.saving/saveoptions/viewsettings属性则 View 中的列将覆盖 ViewSettings 中的列
+description: 获取或设置要渲染的视图列列表 GanttChartColumnaspose.tasks.visualization/ganttchartcolumn . 如果未设置则仅呈现任务 ID任务名称开始和完成 如果查看和ViewSettingsaspose.tasks.saving/saveoptions/viewsettings属性已设置View 中的列会覆盖 ViewSettings. 中的列
 type: docs
 weight: 220
 url: /zh/net/aspose.tasks.saving/saveoptions/view/
 ---
 ## SaveOptions.View property
 
-获取或设置要呈现的视图列的列表（[`GanttChartColumn`](../../../aspose.tasks.visualization/ganttchartcolumn)）。 如果未设置，则仅呈现任务 ID、任务名称、开始和完成。 如果同时设置了 View 和[`ViewSettings`](../viewsettings)属性，则 View 中的列将覆盖 ViewSettings 中的列。
+获取或设置要渲染的视图列列表 ([`GanttChartColumn`](../../../aspose.tasks.visualization/ganttchartcolumn) ). 如果未设置，则仅呈现任务 ID、任务名称、开始和完成。 如果查看和[`ViewSettings`](../viewsettings)属性已设置，View 中的列会覆盖 ViewSettings. 中的列
 
 ```csharp
 public ProjectView View { get; set; }

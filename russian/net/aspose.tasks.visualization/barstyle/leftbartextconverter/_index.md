@@ -1,14 +1,14 @@
 ---
 title: LeftBarTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задач. Переопределяет значение свойстваLeftFieldaspose.tasks.visualization/barstyle/leftfield.
+description: Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значениеLeftFieldaspose.tasks.visualization/barstyle/leftfield свойство.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks.visualization/barstyle/leftbartextconverter/
 ---
 ## BarStyle.LeftBarTextConverter property
 
-Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задач. Переопределяет значение свойства[`LeftField`](../leftfield).
+Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значение[`LeftField`](../leftfield) свойство.
 
 ```csharp
 public TaskBarTextConverter LeftBarTextConverter { get; set; }

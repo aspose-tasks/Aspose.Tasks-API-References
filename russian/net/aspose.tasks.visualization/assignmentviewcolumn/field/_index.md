@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Поле столбца. Fieldaspose.tasks.visualization/assignmentviewcolumn/field.
+description: Поле столбца. Fieldaspose.tasks.visualization/assignmentviewcolumn/field .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/assignmentviewcolumn/field/
 ---
 ## AssignmentViewColumn.Field property
 
-Поле столбца. `Field`.
+Поле столбца. `Field` .
 
 ```csharp
 public override Field Field { get; set; }

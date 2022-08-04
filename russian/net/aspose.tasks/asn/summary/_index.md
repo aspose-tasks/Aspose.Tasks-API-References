@@ -1,14 +1,14 @@
 ---
 title: Summary
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет является ли задача сводной задачей.
+description: Определяет является ли задача сводной.
 type: docs
 weight: 530
 url: /ru/net/aspose.tasks/asn/summary/
 ---
 ## Asn.Summary field
 
-Определяет, является ли задача сводной задачей.
+Определяет, является ли задача сводной.
 
 ```csharp
 public static readonly Key<bool, AsnKey> Summary;

@@ -1,14 +1,14 @@
 ---
 title: GetProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает проект с указанным GUID из учетной записи Project Online  экземпляра Project Server.
+description: Получает проект с указанным GUID из учетной записи Project Online  Project Server instance.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/projectservermanager/getproject/
 ---
 ## ProjectServerManager.GetProject method
 
-Получает проект с указанным GUID из учетной записи Project Online \ экземпляра Project Server.
+Получает проект с указанным GUID из учетной записи Project Online \ Project Server instance.
 
 ```csharp
 public Project GetProject(Guid projectGuid)
@@ -16,11 +16,11 @@ public Project GetProject(Guid projectGuid)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| projectGuid | Guid | Guid проекта для чтения. |
+| projectGuid | Guid | Гайд проекта читать. |
 
 ### Возвращаемое значение
 
-Экземпляр класса[`Project`](../../project), который представляет проект, считанный из Project Online \ Project Сервер.
+Случай[`Project`](../../project) класс, представляющий проект, считанный из Project Online \ Project Server.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CommitmentType
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定任务是否具有关联的交付或 对关联交付的依赖  仅支持 XML 格式的读取 Int32类型
+description: 确定任务是否具有关联的交付或 对关联交付的依赖关系  仅支持 XML 格式的读取 Int32类型.
 type: docs
 weight: 190
 url: /zh/net/aspose.tasks/tsk/commitmenttype/
 ---
 ## Tsk.CommitmentType field
 
-确定任务是否具有关联的交付或 对关联交付的依赖。  仅支持 XML 格式的读取。 Int32类型。
+确定任务是否具有关联的交付或 对关联交付的依赖关系。  仅支持 XML 格式的读取。 Int32类型.
 
 ```csharp
 public static readonly Key<int, TaskKey> CommitmentType;

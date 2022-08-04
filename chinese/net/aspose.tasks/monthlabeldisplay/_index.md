@@ -18,8 +18,8 @@ public enum MonthLabelDisplay
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Mo | `0` | 将 MS Project 中的月份列表设置为 mo。 |
-| Mon | `1` | 将 MS Project 中的 Months 列表设置为 mon。 |
+| Mo | `0` | 将 MS Project 中的月份列表设置为 mo. |
+| Mon | `1` | 将 MS Project 中的 Months 列表设置为 mon. |
 | Month | `2` | 将 MS Project 中的月份列表设置为月份。 |
 
 ### 也可以看看

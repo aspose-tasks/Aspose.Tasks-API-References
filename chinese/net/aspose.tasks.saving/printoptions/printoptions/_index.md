@@ -1,14 +1,14 @@
 ---
 title: PrintOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PrintOptionsaspose.tasks.saving/printoptions类的新实例该类可用于设置打印项目的不同选项.
+description: 初始化PrintOptionsaspose.tasks.saving/printoptions可用于设置打印项目的不同选项的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/printoptions/printoptions/
 ---
 ## PrintOptions constructor
 
-初始化[`PrintOptions`](../../printoptions)类的新实例，该类可用于设置打印项目的不同选项.
+初始化[`PrintOptions`](../../printoptions)可用于设置打印项目的不同选项的类。
 
 ```csharp
 public PrintOptions()

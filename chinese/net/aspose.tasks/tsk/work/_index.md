@@ -1,14 +1,14 @@
 ---
 title: Work
 second_title: Aspose.Tasks for .NET API 参考
-description: 为所有已分配资源安排的任务总时间
+description: 为所有分配的资源安排任务的总时间
 type: docs
 weight: 1160
 url: /zh/net/aspose.tasks/tsk/work/
 ---
 ## Tsk.Work field
 
-为所有已分配资源安排的任务总时间。
+为所有分配的资源安排任务的总时间。
 
 ```csharp
 public static readonly Key<Duration, TaskKey> Work;

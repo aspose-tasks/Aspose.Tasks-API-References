@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示值列表中的值
+description: 表示值列表中的一个值
 type: docs
-weight: 2450
+weight: 2460
 url: /zh/net/aspose.tasks/value/
 ---
 ## Value class
 
-表示值列表中的值。
+表示值列表中的一个值。
 
 ```csharp
 public class Value
@@ -18,16 +18,16 @@ public class Value
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Value](value)() | 初始化[`Value`](../value)类的新实例。 |
+| [Value](value)() | 初始化[`Value`](../value)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DateTimeValue](../../aspose.tasks/value/datetimevalue) { get; set; } | 如果可以表示为 DateTime，则获取或设置实际值。默认值为MinValue。 |
-| [Description](../../aspose.tasks/value/description) { get; set; } | 获取或设置值的描述。 |
+| [DateTimeValue](../../aspose.tasks/value/datetimevalue) { get; set; } | 如果可以表示为 DateTime，则获取或设置实际值。默认值为MinValue. |
+| [Description](../../aspose.tasks/value/description) { get; set; } | 获取或设置一个值的描述。 |
 | [Duration](../../aspose.tasks/value/duration) { get; set; } | 获取或设置用于表示 Duration 的实际值。 |
-| [Id](../../aspose.tasks/value/id) { get; set; } | 获取或设置项目中值的唯一标识符。 |
+| [Id](../../aspose.tasks/value/id) { get; set; } | 获取或设置项目中某个值的唯一标识符。 |
 | [NumericValue](../../aspose.tasks/value/numericvalue) { get; set; } | 获取或设置用于表示数字或成本值的实际值。 |
 | [Phonetic](../../aspose.tasks/value/phonetic) { get; set; } | 获取或设置自定义字段名的拼音信息。 |
 | [StringValue](../../aspose.tasks/value/stringvalue) { get; set; } | 获取或设置用于表示文本字符串的实际值。 |

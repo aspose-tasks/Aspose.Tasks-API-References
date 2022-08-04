@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект ResourceAssignmentCollection в список объектовResourceAssignmentaspose.tasks/resourceassignment.
+description: Преобразует объект ResourceAssignmentCollection в списокResourceAssignmentaspose.tasks/resourceassignment объекты.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/resourceassignmentcollection/tolist/
 ---
 ## ResourceAssignmentCollection.ToList method
 
-Преобразует объект ResourceAssignmentCollection в список объектов[`ResourceAssignment`](../../resourceassignment).
+Преобразует объект ResourceAssignmentCollection в список[`ResourceAssignment`](../../resourceassignment) объекты.
 
 ```csharp
 public List<ResourceAssignment> ToList()
@@ -16,7 +16,7 @@ public List<ResourceAssignment> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`ResourceAssignment`](../../resourceassignment).
+Список[`ResourceAssignment`](../../resourceassignment) объекты.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EarnedValueMethod
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Метод по умолчанию для расчета освоенного объема.
+description: Метод расчета освоенного объема по умолчанию.
 type: docs
 weight: 300
 url: /ru/net/aspose.tasks/prj/earnedvaluemethod/
 ---
 ## Prj.EarnedValueMethod field
 
-Метод по умолчанию для расчета освоенного объема.
+Метод расчета освоенного объема по умолчанию.
 
 ```csharp
 public static readonly Key<EarnedValueMethodType, PrjKey> EarnedValueMethod;

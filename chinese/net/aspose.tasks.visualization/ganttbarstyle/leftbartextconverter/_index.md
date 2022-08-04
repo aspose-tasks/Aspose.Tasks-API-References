@@ -1,14 +1,14 @@
 ---
 title: LeftBarTextConverter
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用户定义的转换器以获取要在任务栏左侧呈现的文本覆盖LeftFieldaspose.tasks.visualization/ganttbarstyle/leftfield属性的值  不保留为 MPP 格式
+description: 获取或设置用户定义的转换器以获取要在任务栏左侧呈现的文本覆盖的值LeftFieldaspose.tasks.visualization/ganttbarstyle/leftfield属性. 不保留为 MPP 格式
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/leftbartextconverter/
 ---
 ## GanttBarStyle.LeftBarTextConverter property
 
-获取或设置用户定义的转换器以获取要在任务栏左侧呈现的文本。覆盖[`LeftField`](../leftfield)属性的值。  不保留为 MPP 格式。
+获取或设置用户定义的转换器以获取要在任务栏左侧呈现的文本。覆盖的值[`LeftField`](../leftfield)属性. 不保留为 MPP 格式。
 
 ```csharp
 public TaskBarTextConverter LeftBarTextConverter { get; set; }

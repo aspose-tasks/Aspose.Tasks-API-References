@@ -1,14 +1,14 @@
 ---
 title: BackgroundPattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置文本样式的背景图案 BackgroundPatternaspose.tasks.visualization/textstyle/backgroundpattern
+description: 获取或设置文本样式的背景图案 BackgroundPatternaspose.tasks.visualization/textstyle/backgroundpattern.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/textstyle/backgroundpattern/
 ---
 ## TextStyle.BackgroundPattern property
 
-获取或设置文本样式的背景图案。 `BackgroundPattern`。
+获取或设置文本样式的背景图案。 `BackgroundPattern`.
 
 ```csharp
 public BackgroundPattern BackgroundPattern { get; set; }

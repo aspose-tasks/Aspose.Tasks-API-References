@@ -1,14 +1,14 @@
 ---
 title: XamlOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化XamlOptionsaspose.tasks.saving/xamloptions类的新实例该类可用于以 XAML 格式保存项目
+description: 初始化XamlOptionsaspose.tasks.saving/xamloptions可用于以 XAML 格式保存项目的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/xamloptions/xamloptions/
 ---
 ## XamlOptions constructor
 
-初始化[`XamlOptions`](../../xamloptions)类的新实例，该类可用于以 XAML 格式保存项目。
+初始化[`XamlOptions`](../../xamloptions)可用于以 XAML 格式保存项目的类。
 
 ```csharp
 public XamlOptions()

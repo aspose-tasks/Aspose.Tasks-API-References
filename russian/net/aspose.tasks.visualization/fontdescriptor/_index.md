@@ -3,7 +3,7 @@ title: FontDescriptor
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет информацию о шрифте.
 type: docs
-weight: 2650
+weight: 2660
 url: /ru/net/aspose.tasks.visualization/fontdescriptor/
 ---
 ## FontDescriptor class
@@ -18,15 +18,15 @@ public sealed class FontDescriptor
 
 | Имя | Описание |
 | --- | --- |
-| [FontDescriptor](fontdescriptor#constructor)(FontDescriptor, FontStyles) | Инициализирует новый экземпляр класса[`FontDescriptor`](../fontdescriptor)с указанным шрифтом и стилем. |
-| [FontDescriptor](fontdescriptor#constructor_1)(string, float) | Инициализирует новый экземпляр класса[`FontDescriptor`](../fontdescriptor)с указанным семейством и размером шрифта. |
-| [FontDescriptor](fontdescriptor#constructor_2)(string, float, FontStyles) | Инициализирует новый экземпляр класса[`FontDescriptor`](../fontdescriptor)с указанным семейством шрифтов, размером и стилем. |
+| [FontDescriptor](fontdescriptor#constructor)(FontDescriptor, FontStyles) | Инициализирует новый экземпляр[`FontDescriptor`](../fontdescriptor) класс с указанным шрифтом и стилем. |
+| [FontDescriptor](fontdescriptor#constructor_1)(string, float) | Инициализирует новый экземпляр[`FontDescriptor`](../fontdescriptor) класс с указанным семейством шрифтов и размером. |
+| [FontDescriptor](fontdescriptor#constructor_2)(string, float, FontStyles) | Инициализирует новый экземпляр[`FontDescriptor`](../fontdescriptor) класс с указанным семейством шрифтов, размером и стилем. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily) { get; } | Получает имя семейства шрифтов. |
+| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily) { get; } | Получает название семейства шрифтов. |
 | [Size](../../aspose.tasks.visualization/fontdescriptor/size) { get; } | Получает размер шрифта. |
 | [Style](../../aspose.tasks.visualization/fontdescriptor/style) { get; } | Получает стиль шрифта. |
 

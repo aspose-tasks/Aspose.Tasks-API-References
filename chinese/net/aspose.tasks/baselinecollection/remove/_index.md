@@ -20,7 +20,7 @@ public bool Remove(Baseline item)
 
 ### 返回值
 
-如果[`Baseline`](../../baseline)实例已成功删除，则为 true；否则，假
+如果为真[`Baseline`](../../baseline)实例已成功删除；否则为假
 
 ### 也可以看看
 

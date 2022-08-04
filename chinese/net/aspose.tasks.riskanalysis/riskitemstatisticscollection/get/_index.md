@@ -1,14 +1,14 @@
 ---
 title: Get
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回该集合中包含的RiskItemStatisticsaspose.tasks.riskanalysis/riskitemstatistics类的实例该类与指定的任务对象相关联如果未找到该项目则为 null
+description: 返回一个实例RiskItemStatisticsaspose.tasks.riskanalysis/riskitemstatistics包含在此集合中的与指定的 Task 对象相关联的类如果未找到该项目则为 null
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.riskanalysis/riskitemstatisticscollection/get/
 ---
 ## RiskItemStatisticsCollection.Get method
 
-返回该集合中包含的[`RiskItemStatistics`](../../riskitemstatistics)类的实例，该类与指定的任务对象相关联;如果未找到该项目，则为 null。
+返回一个实例[`RiskItemStatistics`](../../riskitemstatistics)包含在此集合中的与指定的 Task 对象相关联的类；如果未找到该项目，则为 null。
 
 ```csharp
 public RiskItemStatistics Get(Task task)
@@ -16,11 +16,11 @@ public RiskItemStatistics Get(Task task)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| task | Task | [`Task`](../../../aspose.tasks/task)类的指定实例。 |
+| task | Task | 的指定实例[`Task`](../../../aspose.tasks/task)班级。 |
 
 ### 返回值
 
-与指定任务对象相关联的风险项（如果找到）；否则为空。
+如果找到与指定任务对象相关联的风险项；否则为空。
 
 ### 也可以看看
 

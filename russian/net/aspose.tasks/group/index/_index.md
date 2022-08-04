@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает индекс объектаGroupaspose.tasks/groupв группах содержащих объект.
+description: Получает индексGroupaspose.tasks/group объект в группах содержащих object.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/group/index/
 ---
 ## Group.Index property
 
-Получает индекс объекта[`Group`](../../group)в группах, содержащих объект.
+Получает индекс[`Group`](../../group) объект в группах, содержащих object.
 
 ```csharp
 public int Index { get; }

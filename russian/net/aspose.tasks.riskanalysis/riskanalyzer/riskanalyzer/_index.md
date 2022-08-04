@@ -1,14 +1,14 @@
 ---
 title: RiskAnalyzer
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаRiskAnalyzeraspose.tasks.riskanalysis/riskanalyzer.
+description: Инициализирует новый экземплярRiskAnalyzeraspose.tasks.riskanalysis/riskanalyzer класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.riskanalysis/riskanalyzer/riskanalyzer/
 ---
 ## RiskAnalyzer constructor
 
-Инициализирует новый экземпляр класса[`RiskAnalyzer`](../../riskanalyzer).
+Инициализирует новый экземпляр[`RiskAnalyzer`](../../riskanalyzer) класс.
 
 ```csharp
 public RiskAnalyzer(RiskAnalysisSettings settings)
@@ -16,7 +16,7 @@ public RiskAnalyzer(RiskAnalysisSettings settings)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| settings | RiskAnalysisSettings | указанный экземпляр класса[`RiskAnalysisSettings`](../../riskanalysissettings). |
+| settings | RiskAnalysisSettings | указанный экземпляр[`RiskAnalysisSettings`](../../riskanalysissettings) учебный класс. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: TaskLink
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет ссылку-предшественник.
+description: Представляет ссылку предшественника.
 type: docs
 weight: 2110
 url: /ru/net/aspose.tasks/tasklink/
 ---
 ## TaskLink class
 
-Представляет ссылку-предшественник.
+Представляет ссылку предшественника.
 
 ```csharp
 public class TaskLink : IEquatable<TaskLink>
@@ -32,7 +32,7 @@ public class TaskLink : IEquatable<TaskLink>
 | --- | --- |
 | override [Equals](../../aspose.tasks/tasklink/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
 | [Equals](../../aspose.tasks/tasklink/equals#equals)(TaskLink) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/tasklink/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`TaskLink`](../tasklink). |
+| override [GetHashCode](../../aspose.tasks/tasklink/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`TaskLink`](../tasklink) класс. |
 | override [ToString](../../aspose.tasks/tasklink/tostring)() | Возвращает строковое представление TaskLink. Точные детали представления не указаны и могут быть изменены. |
 
 ### Смотрите также

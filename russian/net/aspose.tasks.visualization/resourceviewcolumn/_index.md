@@ -1,14 +1,14 @@
 ---
 title: ResourceViewColumn
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Класс представления проекта используемый в представлениях ResourceUsage и ResourceSheet.
+description: Класс представления проекта используемый в представлении ResourceUsage и представлении ResourceSheet.
 type: docs
-weight: 2970
+weight: 2980
 url: /ru/net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 ## ResourceViewColumn class
 
-Класс представления проекта, используемый в представлениях ResourceUsage и ResourceSheet.
+Класс представления проекта, используемый в представлении ResourceUsage и представлении ResourceSheet.
 
 ```csharp
 public sealed class ResourceViewColumn : ViewColumn
@@ -18,17 +18,17 @@ public sealed class ResourceViewColumn : ViewColumn
 
 | Имя | Описание |
 | --- | --- |
-| [ResourceViewColumn](resourceviewcolumn#constructor)(int, Field) | Инициализирует новый экземпляр класса[`ResourceViewColumn`](../resourceviewcolumn). |
-| [ResourceViewColumn](resourceviewcolumn#constructor_1)(string, int, ResourceToColumnTextConverter) | Инициализирует новый экземпляр класса[`ResourceViewColumn`](../resourceviewcolumn). |
-| [ResourceViewColumn](resourceviewcolumn#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | Инициализирует новый экземпляр класса[`ResourceViewColumn`](../resourceviewcolumn). |
+| [ResourceViewColumn](resourceviewcolumn#constructor)(int, Field) | Инициализирует новый экземпляр[`ResourceViewColumn`](../resourceviewcolumn) класс. |
+| [ResourceViewColumn](resourceviewcolumn#constructor_1)(string, int, ResourceToColumnTextConverter) | Инициализирует новый экземпляр[`ResourceViewColumn`](../resourceviewcolumn) класс. |
+| [ResourceViewColumn](resourceviewcolumn#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | Инициализирует новый экземпляр[`ResourceViewColumn`](../resourceviewcolumn) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field) { get; set; } | Поле столбца. [`Field`](./field). |
+| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field) { get; set; } | Поле столбца. [`Field`](./field) . |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | Получает имя столбца. |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Получает или задает выравнивание текста (может быть одним из значений[`StringAlignment`](../viewcolumn/stringalignment)перечисление). |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Получает или задает выравнивание текста (может быть одним из значений[`StringAlignment`](../viewcolumn/stringalignment) перечисление). |
 | [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | Получает или задает обратный вызов, который можно использовать для настройки внешнего вида ячеек столбца. |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | Получает ширину столбца. |
 

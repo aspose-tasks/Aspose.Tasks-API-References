@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает количество объектов содержащихся в этом объектеTaskLinkCollectionaspose.tasks/tasklinkcollection.
+description: Получает количество объектов содержащихся в этомTaskLinkCollectionaspose.tasks/tasklinkcollection объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/tasklinkcollection/count/
 ---
 ## TaskLinkCollection.Count property
 
-Получает количество объектов, содержащихся в этом объекте[`TaskLinkCollection`](../../tasklinkcollection).
+Получает количество объектов, содержащихся в этом[`TaskLinkCollection`](../../tasklinkcollection) объект.
 
 ```csharp
 public int Count { get; }

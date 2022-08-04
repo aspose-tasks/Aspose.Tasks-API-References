@@ -3,7 +3,7 @@ title: TaskUtils
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Вспомогательный класс обеспечивающий полезные операции с задачами.
 type: docs
-weight: 2420
+weight: 2430
 url: /ru/net/aspose.tasks.util/taskutils/
 ---
 ## TaskUtils class
@@ -18,7 +18,7 @@ public static class TaskUtils
 
 | Имя | Описание |
 | --- | --- |
-| static [Apply](../../aspose.tasks.util/taskutils/apply)(Task, ITreeAlgorithm&lt;Task&gt;, int) | Применяет заданный алгоритм к каждой задаче дерева. |
+| static [Apply](../../aspose.tasks.util/taskutils/apply)(Task, ITreeAlgorithm&lt;Task&gt;, int) | Применяет указанный алгоритм к каждой задаче дерева. |
 | static [Filter](../../aspose.tasks.util/taskutils/filter)(Task, ICondition&lt;Task&gt;) | Строит новое дерево задач, удовлетворяющих условию. |
 | static [Find](../../aspose.tasks.util/taskutils/find)(Task, ICondition&lt;Task&gt;) | Находит задачу, удовлетворяющую условию в дереве задач. |
 | static [TaskChildrenCount](../../aspose.tasks.util/taskutils/taskchildrencount)(Task) | Рекурсивно вычисляет количество дочерних задач задачи на всех уровнях. |

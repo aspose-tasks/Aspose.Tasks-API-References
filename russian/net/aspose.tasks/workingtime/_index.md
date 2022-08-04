@@ -1,14 +1,14 @@
 ---
 title: WorkingTime
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет рабочее время в течение рабочего дня.
+description: Представляет рабочее время в будний день.
 type: docs
-weight: 3270
+weight: 3280
 url: /ru/net/aspose.tasks/workingtime/
 ---
 ## WorkingTime class
 
-Представляет рабочее время в течение рабочего дня.
+Представляет рабочее время в будний день.
 
 ```csharp
 public class WorkingTime
@@ -18,9 +18,9 @@ public class WorkingTime
 
 | Имя | Описание |
 | --- | --- |
-| [WorkingTime](workingtime#constructor_2)(DateTime, DateTime) | Инициализирует новый экземпляр класса[`WorkingTime`](../workingtime)с интервалом с указанным временем начала и окончания. |
-| [WorkingTime](workingtime#constructor_1)(int, int) | Инициализирует новый экземпляр класса[`WorkingTime`](../workingtime)с элементом интервала с указанным временем начала и окончания. |
-| [WorkingTime](workingtime#constructor_3)(TimeSpan, TimeSpan) | Инициализирует новый экземпляр класса[`WorkingTime`](../workingtime)с элементом интервала с указанным временем начала и окончания. |
+| [WorkingTime](workingtime#constructor_2)(DateTime, DateTime) | Инициализирует новый экземпляр[`WorkingTime`](../workingtime) класс с интервалом с указанным временем начала и окончания. |
+| [WorkingTime](workingtime#constructor_1)(int, int) | Инициализирует новый экземпляр[`WorkingTime`](../workingtime) класс с элементом интервала с указанным временем начала и окончания. |
+| [WorkingTime](workingtime#constructor_3)(TimeSpan, TimeSpan) | Инициализирует новый экземпляр[`WorkingTime`](../workingtime) класс с элементом интервала с указанным временем начала и окончания. |
 
 ## Характеристики
 
@@ -33,8 +33,8 @@ public class WorkingTime
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.tasks/workingtime/equals)(object) | Проверяет равенство объектов. |
-| override [GetHashCode](../../aspose.tasks/workingtime/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`WorkingTime`](../workingtime). |
+| override [Equals](../../aspose.tasks/workingtime/equals)(object) | Проверяет, что объекты равны. |
+| override [GetHashCode](../../aspose.tasks/workingtime/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`WorkingTime`](../workingtime) класс. |
 
 ### Смотрите также
 

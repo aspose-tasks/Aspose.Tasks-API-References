@@ -16,11 +16,11 @@ public DateTime GetBaselineSaveTime(BaselineType baselineNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| baselineNumber | BaselineType | 基线编号[`BaselineType`](../../baselinetype)。 |
+| baselineNumber | BaselineType | 基线编号[`BaselineType`](../../baselinetype). |
 
 ### 返回值
 
-基线的最后保存日期和时间。
+基线的上次保存日期和时间。
 
 ### 评论
 

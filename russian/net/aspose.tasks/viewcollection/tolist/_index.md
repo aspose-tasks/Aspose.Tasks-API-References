@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует коллекцию представлений в список объектовViewaspose.tasks/view.
+description: Преобразует набор представлений в списокViewaspose.tasks/view объекты.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/viewcollection/tolist/
 ---
 ## ViewCollection.ToList method
 
-Преобразует коллекцию представлений в список объектов[`View`](../../view).
+Преобразует набор представлений в список[`View`](../../view) объекты.
 
 ```csharp
 public List<View> ToList()
@@ -16,7 +16,7 @@ public List<View> ToList()
 
 ### Возвращаемое значение
 
-Общий список объектов[`View`](../../view).
+Общий список[`View`](../../view) объекты.
 
 ### Смотрите также
 

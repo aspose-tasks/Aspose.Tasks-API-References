@@ -1,14 +1,14 @@
 ---
 title: LinePattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает шаблон строки текущей строки выполнения. LinePatternaspose.tasks.visualization/progresslines/linepattern.
+description: Получает или задает шаблон строки текущей строки выполнения. LinePatternaspose.tasks.visualization/progresslines/linepattern .
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks.visualization/progresslines/linepattern/
 ---
 ## ProgressLines.LinePattern property
 
-Получает или задает шаблон строки текущей строки выполнения. `LinePattern`.
+Получает или задает шаблон строки текущей строки выполнения. `LinePattern` .
 
 ```csharp
 public LinePattern LinePattern { get; set; }

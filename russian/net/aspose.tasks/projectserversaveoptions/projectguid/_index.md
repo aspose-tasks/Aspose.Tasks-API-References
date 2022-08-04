@@ -1,14 +1,14 @@
 ---
 title: ProjectGuid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает уникальный идентификатор проекта. Должен быть уникальным в экземпляре Project ServerProject Online.
+description: Получает или задает уникальный идентификатор проекта. Должен быть уникальным в экземпляре Project Server  Project Online.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/projectserversaveoptions/projectguid/
 ---
 ## ProjectServerSaveOptions.ProjectGuid property
 
-Получает или устанавливает уникальный идентификатор проекта. Должен быть уникальным в экземпляре Project Server\Project Online.
+Получает или задает уникальный идентификатор проекта. Должен быть уникальным в экземпляре Project Server \ Project Online.
 
 ```csharp
 public Guid ProjectGuid { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RightField
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要在栏右侧显示的数据 Fieldaspose.tasks/field
+description: 获取或设置要在栏右侧显示的数据 Fieldaspose.tasks/field.
 type: docs
 weight: 180
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/rightfield/
 ---
 ## GanttBarStyle.RightField property
 
-获取或设置要在栏右侧显示的数据。 [`Field`](../../../aspose.tasks/field)。
+获取或设置要在栏右侧显示的数据。 [`Field`](../../../aspose.tasks/field).
 
 ```csharp
 public Field RightField { get; set; }

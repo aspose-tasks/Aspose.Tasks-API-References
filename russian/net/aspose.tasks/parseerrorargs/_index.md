@@ -1,14 +1,14 @@
 ---
 title: ParseErrorArgs
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Предоставляет данные для делегатаParseErrorCallback./parseerrorcallback.
+description: Предоставляет данные дляParseErrorCallback./parseerrorcallback делегат.
 type: docs
 weight: 1100
 url: /ru/net/aspose.tasks/parseerrorargs/
 ---
 ## ParseErrorArgs class
 
-Предоставляет данные для делегата[`ParseErrorCallback`](../parseerrorcallback).
+Предоставляет данные для[`ParseErrorCallback`](../parseerrorcallback) делегат.
 
 ```csharp
 public class ParseErrorArgs
@@ -18,7 +18,7 @@ public class ParseErrorArgs
 
 | Имя | Описание |
 | --- | --- |
-| [Exception](../../aspose.tasks/parseerrorargs/exception) { get; } | Получает исключение, возникшее при синтаксическом анализе строкового значения. |
+| [Exception](../../aspose.tasks/parseerrorargs/exception) { get; } | Получает возбужденное исключение во время синтаксического анализа строкового значения. |
 | [FieldName](../../aspose.tasks/parseerrorargs/fieldname) { get; } | Получает имя поля объекта. |
 | [FieldType](../../aspose.tasks/parseerrorargs/fieldtype) { get; } | Получает тип поля объекта. |
 | [InvalidValue](../../aspose.tasks/parseerrorargs/invalidvalue) { get; } | Получает строковое значение, вызвавшее исключение. |

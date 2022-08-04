@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目的标题
+description: 项目名称
 type: docs
 weight: 740
 url: /zh/net/aspose.tasks/prj/title/
 ---
 ## Prj.Title field
 
-项目的标题。
+项目名称。
 
 ```csharp
 public static readonly Key<string, PrjKey> Title;

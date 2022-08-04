@@ -1,14 +1,14 @@
 ---
 title: ActualCost
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配产生的实际成本
+description: 分配的实际成本
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/asn/actualcost/
 ---
 ## Asn.ActualCost field
 
-分配产生的实际成本。
+分配的实际成本。
 
 ```csharp
 public static readonly Key<decimal, AsnKey> ActualCost;

@@ -1,14 +1,14 @@
 ---
 title: KeyTK
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示指定类型的类的属性键 获取或设置容器属性时使用此类的实例
+description: 表示指定类型的类的属性键 获取或设置容器的属性时使用此类的实例
 type: docs
 weight: 840
 url: /zh/net/aspose.tasks/key-2/
 ---
 ## Key&lt;T,K&gt; structure
 
-表示指定类型的类的属性键。 获取或设置容器属性时使用此类的实例。
+表示指定类型的类的属性键。 获取或设置容器的属性时使用此类的实例。
 
 ```csharp
 public struct Key<T, K>
@@ -19,6 +19,12 @@ public struct Key<T, K>
 | --- | --- |
 | T | 属性值的类型。 |
 | K | 属性键的类型。 |
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [KeyType](../../aspose.tasks/key`2/keytype) { get; } | 获取属性的键。 |
 
 ### 也可以看看
 

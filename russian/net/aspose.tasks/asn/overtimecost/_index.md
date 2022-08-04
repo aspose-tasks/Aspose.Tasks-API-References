@@ -1,14 +1,14 @@
 ---
 title: OvertimeCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Сумма фактической и оставшейся стоимости сверхурочной работы по заданию.
+description: Сумма фактических и оставшихся затрат на сверхурочную работу по заданию.
 type: docs
 weight: 370
 url: /ru/net/aspose.tasks/asn/overtimecost/
 ---
 ## Asn.OvertimeCost field
 
-Сумма фактической и оставшейся стоимости сверхурочной работы по заданию.
+Сумма фактических и оставшихся затрат на сверхурочную работу по заданию.
 
 ```csharp
 public static readonly Key<decimal, AsnKey> OvertimeCost;

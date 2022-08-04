@@ -1,14 +1,14 @@
 ---
 title: RightImageSize
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置右图的显示尺寸
+description: 获取或设置右图的显示大小
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks.visualization/headerfooterinfo/rightimagesize/
 ---
 ## HeaderFooterInfo.RightImageSize property
 
-获取或设置右图的显示尺寸。
+获取或设置右图的显示大小。
 
 ```csharp
 public Size RightImageSize { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ToDouble
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект Duration вDoubleзначение.
+description: Преобразует объект Duration вDouble значение.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/duration/todouble/
 ---
 ## Duration.ToDouble method
 
-Преобразует объект Duration вDoubleзначение.
+Преобразует объект Duration вDouble значение.
 
 ```csharp
 public double ToDouble()

@@ -1,14 +1,14 @@
 ---
 title: TaskLinks
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает объектTaskLinkCollectionaspose.tasks/tasklinkcollection.
+description: получаетTaskLinkCollectionaspose.tasks/tasklinkcollection объект.
 type: docs
 weight: 210
 url: /ru/net/aspose.tasks/project/tasklinks/
 ---
 ## Project.TaskLinks property
 
-Получает объект[`TaskLinkCollection`](../../tasklinkcollection).
+получает[`TaskLinkCollection`](../../tasklinkcollection) объект.
 
 ```csharp
 public TaskLinkCollection TaskLinks { get; }

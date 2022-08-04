@@ -1,14 +1,14 @@
 ---
 title: GetDefaultAssignmentView
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Включает идентификатор пользователя имя задачи имя ресурса столбцы назначения работы и длительности.
+description: Включает Uid имя задачи имя ресурса работу и столбцы назначения продолжительности.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/projectview/getdefaultassignmentview/
 ---
 ## ProjectView.GetDefaultAssignmentView method
 
-Включает идентификатор пользователя, имя задачи, имя ресурса, столбцы назначения работы и длительности.
+Включает Uid, имя задачи, имя ресурса, работу и столбцы назначения продолжительности.
 
 ```csharp
 public static ProjectView GetDefaultAssignmentView()

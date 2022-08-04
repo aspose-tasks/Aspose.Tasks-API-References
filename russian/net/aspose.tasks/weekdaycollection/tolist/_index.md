@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект WeekDayCollection в список объектовWeekDayaspose.tasks/weekday.
+description: Преобразует объект WeekDayCollection в списокWeekDayaspose.tasks/weekday объекты.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/weekdaycollection/tolist/
 ---
 ## WeekDayCollection.ToList method
 
-Преобразует объект WeekDayCollection в список объектов[`WeekDay`](../../weekday).
+Преобразует объект WeekDayCollection в список[`WeekDay`](../../weekday) объекты.
 
 ```csharp
 public List<WeekDay> ToList()
@@ -16,7 +16,7 @@ public List<WeekDay> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`WeekDay`](../../weekday).
+Список[`WeekDay`](../../weekday) объекты.
 
 ### Смотрите также
 

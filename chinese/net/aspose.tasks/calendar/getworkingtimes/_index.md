@@ -1,14 +1,14 @@
 ---
 title: GetWorkingTimes
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回WorkingTimeCollectionaspose.tasks/workingtimecollection的工作时间
+description: 返回WorkingTimeCollectionaspose.tasks/workingtimecollection工作时间
 type: docs
 weight: 220
 url: /zh/net/aspose.tasks/calendar/getworkingtimes/
 ---
 ## Calendar.GetWorkingTimes method
 
-返回[`WorkingTimeCollection`](../../workingtimecollection)的工作时间。
+返回[`WorkingTimeCollection`](../../workingtimecollection)工作时间。
 
 ```csharp
 public WorkingTimeCollection GetWorkingTimes(DateTime dt)
@@ -20,7 +20,7 @@ public WorkingTimeCollection GetWorkingTimes(DateTime dt)
 
 ### 返回值
 
-[`WorkingTime`](../../workingtime)列表。
+清单[`WorkingTime`](../../workingtime).
 
 ### 也可以看看
 

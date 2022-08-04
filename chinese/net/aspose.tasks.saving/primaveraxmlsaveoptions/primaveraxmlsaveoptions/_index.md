@@ -1,14 +1,14 @@
 ---
 title: PrimaveraXmlSaveOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PrimaveraXmlSaveOptionsaspose.tasks.saving/primaveraxmlsaveoptions类的新实例
+description: 初始化PrimaveraXmlSaveOptionsaspose.tasks.saving/primaveraxmlsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/primaveraxmlsaveoptions/primaveraxmlsaveoptions/
 ---
 ## PrimaveraXmlSaveOptions constructor
 
-初始化[`PrimaveraXmlSaveOptions`](../../primaveraxmlsaveoptions)类的新实例。
+初始化[`PrimaveraXmlSaveOptions`](../../primaveraxmlsaveoptions)类.
 
 ```csharp
 public PrimaveraXmlSaveOptions()

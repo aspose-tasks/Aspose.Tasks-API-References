@@ -3,7 +3,7 @@ title: ViewColumn
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示项目视图中的列
 type: docs
-weight: 3080
+weight: 3090
 url: /zh/net/aspose.tasks.visualization/viewcolumn/
 ---
 ## ViewColumn class
@@ -18,9 +18,9 @@ public abstract class ViewColumn
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Field](../../aspose.tasks.visualization/viewcolumn/field) { get; set; } | 获取或设置列字段。 [`Field`](./field)。 |
+| abstract [Field](../../aspose.tasks.visualization/viewcolumn/field) { get; set; } | 获取或设置列字段。 [`Field`](./field). |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | 获取列名。 |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | 获取或设置文本的对齐方式（可以是[`StringAlignment`](./stringalignment)的值之一枚举）。 |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | 获取或设置文本的对齐方式（可以是[`StringAlignment`](./stringalignment)枚举）. |
 | [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | 获取或设置可用于自定义列单元格外观的回调。 |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | 获取列宽。 |
 

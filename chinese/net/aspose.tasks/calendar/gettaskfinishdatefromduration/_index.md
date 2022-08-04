@@ -1,14 +1,14 @@
 ---
 title: GetTaskFinishDateFromDuration
 second_title: Aspose.Tasks for .NET API 参考
-description: 从开始日期拆分部分和持续时间计算任务完成日期和时间
+description: 根据开始日期拆分部分和持续时间计算任务完成日期和时间
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/calendar/gettaskfinishdatefromduration/
 ---
 ## Calendar.GetTaskFinishDateFromDuration method
 
-从开始日期、拆分部分和持续时间计算任务完成日期和时间。
+根据开始日期、拆分部分和持续时间计算任务完成日期和时间。
 
 ```csharp
 public DateTime GetTaskFinishDateFromDuration(Task task, TimeSpan duration)
@@ -25,7 +25,7 @@ public DateTime GetTaskFinishDateFromDuration(Task task, TimeSpan duration)
 
 ### 评论
 
-如果任务是摘要、空或未设置其开始日期，则返回 DateTime.MinValue。
+如果任务是摘要、null 或未设置其开始日期，则返回 DateTime.MinValue。
 
 ### 也可以看看
 

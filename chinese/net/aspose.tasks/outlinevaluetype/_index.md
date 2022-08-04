@@ -20,7 +20,7 @@ public enum OutlineValueType
 | --- | --- | --- |
 | Null | `0` | 表示 Null 轮廓值类型。 |
 | Date | `1` | 表示日期大纲值类型。 |
-| Duration | `2` | 表示 Duration 大纲值类型。 |
+| Duration | `2` | 表示持续时间大纲值类型。 |
 | Cost | `3` | 表示成本大纲值类型。 |
 | Number | `4` | 表示数字轮廓值类型。 |
 | Flag | `5` | 表示标志轮廓值类型。 |

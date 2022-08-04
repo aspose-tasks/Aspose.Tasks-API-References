@@ -16,7 +16,7 @@ public ExtendedAttributeCollection ExtendedAttributes { get; }
 
 ### 评论
 
-需要两条数据 - 指向扩展属性表的指针 由唯一 ID 或字段 ID 指定，值 由值或返回值列表的指针指定。
+需要两条数据 - 指向扩展属性 table 的指针，由唯一 ID 或字段 ID 指定，以及 value 由值指定，或返回值列表的指针。
 
 ### 也可以看看
 

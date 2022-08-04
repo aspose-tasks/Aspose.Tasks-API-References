@@ -1,14 +1,14 @@
 ---
 title: NotesRTF
 second_title: Aspose.Tasks for .NET API 参考
-description: RTF 格式的文本注释  仅支持 MPP 格式 String类型
+description: RTF 格式的文字注释 仅支持 MPP 格式 String类型.
 type: docs
 weight: 480
 url: /zh/net/aspose.tasks/rsc/notesrtf/
 ---
 ## Rsc.NotesRTF field
 
-RTF 格式的文本注释。  仅支持 MPP 格式。 String类型。
+RTF 格式的文字注释。 仅支持 MPP 格式。 String类型.
 
 ```csharp
 public static readonly Key<string, RscKey> NotesRTF;

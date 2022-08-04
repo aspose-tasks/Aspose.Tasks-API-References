@@ -18,18 +18,18 @@ public sealed class CalendarException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CalendarException](calendarexception)() | 初始化[`CalendarException`](../calendarexception)类的新实例。 |
+| [CalendarException](calendarexception)() | 初始化[`CalendarException`](../calendarexception)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DaysOfWeek](../../aspose.tasks/calendarexception/daysofweek) { get; } | 获取此对象的 DayTypeCollection。 例外有效的星期几。 |
-| [DayWorking](../../aspose.tasks/calendarexception/dayworking) { get; set; } | 获取或设置一个值，该值指示指定的日期或日期类型是否有效。 |
-| [EnteredByOccurrences](../../aspose.tasks/calendarexception/enteredbyoccurrences) { get; set; } | 获取或设置一个值，该值指示是否通过输入出现次数来定义重复范围。 False 指定重复范围是通过输入完成日期来定义的。 |
+| [DaysOfWeek](../../aspose.tasks/calendarexception/daysofweek) { get; } | 获取此对象的 DayTypeCollection。 异常有效的星期几。 |
+| [DayWorking](../../aspose.tasks/calendarexception/dayworking) { get; set; } | 获取或设置一个值，指示指定的日期或日期类型是否有效。 |
+| [EnteredByOccurrences](../../aspose.tasks/calendarexception/enteredbyoccurrences) { get; set; } | 获取或设置一个值，该值指示是否通过输入出现次数来定义重复范围。 False 指定通过输入完成日期来定义重复范围。 |
 | [FromDate](../../aspose.tasks/calendarexception/fromdate) { get; set; } | 获取或设置异常开始时间。 |
 | [Month](../../aspose.tasks/calendarexception/month) { get; set; } | 获取或设置安排异常重复发生的月份。 |
-| [MonthDay](../../aspose.tasks/calendarexception/monthday) { get; set; } | 获取或设置安排异常重复发生的日期。 |
+| [MonthDay](../../aspose.tasks/calendarexception/monthday) { get; set; } | 获取或设置每月计划异常重复发生的日期。 |
 | [MonthItem](../../aspose.tasks/calendarexception/monthitem) { get; set; } | 获取或设置安排异常重复发生的月份项目。 |
 | [MonthPosition](../../aspose.tasks/calendarexception/monthposition) { get; set; } | 获取或设置月份项目在一个月内的位置。 |
 | [Name](../../aspose.tasks/calendarexception/name) { get; set; } | 获取或设置异常的名称。 |
@@ -38,13 +38,13 @@ public sealed class CalendarException
 | [Period](../../aspose.tasks/calendarexception/period) { get; set; } | 获取或设置异常的重复周期。 |
 | [ToDate](../../aspose.tasks/calendarexception/todate) { get; set; } | 获取或设置异常结束时间。 |
 | [Type](../../aspose.tasks/calendarexception/type) { get; set; } | 获取或设置异常类型。 |
-| [WorkingTimes](../../aspose.tasks/calendarexception/workingtimes) { get; set; } | 获取或设置 WorkingTimeCollection 对象。 定义工作日工作时间的工作时间集合。  至少要有一个工作时间，不能超过五个。 |
+| [WorkingTimes](../../aspose.tasks/calendarexception/workingtimes) { get; set; } | 获取或设置WorkingTimeCollection对象。 定义工作日工作时间的工作时间集合。  必须至少有一个工作时间，并且不能超过五个。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CheckException](../../aspose.tasks/calendarexception/checkexception)(DateTime) | 如果DateTime结构的指定实例是异常日，则返回 true。 |
+| [CheckException](../../aspose.tasks/calendarexception/checkexception)(DateTime) | 如果指定的实例返回 trueDateTime struct 是例外日。 |
 | [Delete](../../aspose.tasks/calendarexception/delete)() | 从父日历 CalendarExceptionCollection 对象中删除异常实例。 |
 | [GetExceptionDates](../../aspose.tasks/calendarexception/getexceptiondates)() | 返回日历例外适用的日期。 |
 | [GetWorkingTime](../../aspose.tasks/calendarexception/getworkingtime)() | 返回日历异常的工作时间。 |

@@ -1,0 +1,92 @@
+---
+title: AsnKey
+second_title: Aspose.Tasks لمرجع .NET API
+description: يمثل قائمة بحقول المهمة المدعومة.
+type: docs
+weight: 40
+url: /ar/net/aspose.tasks/asnkey/
+---
+## AsnKey enumeration
+
+يمثل قائمة بحقول المهمة المدعومة.
+
+```csharp
+public enum AsnKey
+```
+
+### قيم
+
+| اسم | قيمة | وصف |
+| --- | --- | --- |
+| Guid | `0` | يمثل ملفGuid حقل (تعيين المورد) . |
+| Uid | `1` | يمثل حقل UID (ResourceAssignment). |
+| Task | `2` | يمثل حقل المهمة (ResourceAssignment). |
+| Resource | `3` | يمثل حقل المورد (ResourceAssignment). |
+| PercentWorkComplete | `4` | يمثل الحقل PercentWorkComplete (ResourceAssignment). |
+| ActualCost | `5` | يمثل حقل التكلفة الفعلية (ResourceAssignment). |
+| ActualFinish | `6` | يمثل الحقل ActualFinish (ResourceAssignment). |
+| ActualOvertimeCost | `7` | يمثل الحقل ActualOvertimeCost (ResourceAssignment). |
+| ActualStart | `8` | يمثل الحقل ActualStart (ResourceAssignment). |
+| ActualWork | `9` | يمثل الحقل ActualWork (ResourceAssignment). |
+| ActualOvertimeWork | `10` | يمثل الحقل ActualOvertimeWork (ResourceAssignment). |
+| ACWP | `11` | يمثل حقل ACWP (ResourceAssignment). |
+| Confirmed | `12` | يمثل الحقل المؤكد (ResourceAssignment). |
+| Cost | `13` | يمثل حقل التكلفة (ResourceAssignment). |
+| CostRateTableType | `14` | يمثل الحقل CostRateTableType (ResourceAssignment). |
+| CostVariance | `15` | يمثل حقل تباين التكلفة (ResourceAssignment). |
+| CV | `16` | يمثل حقل السيرة الذاتية (ResourceAssignment). |
+| Delay | `17` | يمثل حقل التأخير (ResourceAssignment). |
+| Finish | `18` | يمثل حقل النهاية (ResourceAssignment). |
+| FinishVariance | `19` | يمثل الحقل FinishVariance (ResourceAssignment). |
+| Hyperlink | `20` | يمثل حقل الارتباط التشعبي (ResourceAssignment). |
+| HyperlinkAddress | `21` | يمثل حقل HyperlinkAddress (ResourceAssignment). |
+| HyperlinkSubAddress | `22` | يمثل الحقل HyperlinkSubAddress (ResourceAssignment). |
+| WorkVariance | `23` | يمثل الحقل WorkVariance (ResourceAssignment). |
+| HasFixedRateUnits | `24` | يمثل الحقل HasFixedRateUnits (ResourceAssignment). |
+| FixedMaterial | `25` | يمثل حقل المواد الثابتة (ResourceAssignment). |
+| LevelingDelay | `26` | يمثل حقل تأجيل التسوية (ResourceAssignment). |
+| LevelingDelayFormat | `27` | يمثل الحقل LevelingDelayFormat (ResourceAssignment). |
+| LinkedFields | `28` | يمثل الحقل LinkedFields (ResourceAssignment). |
+| Milestone | `29` | يمثل الحقل الرئيسي (ResourceAssignment). |
+| Notes | `30` | يمثل حقل الملاحظات (ResourceAssignment). |
+| Overallocated | `31` | يمثل الحقل الإجمالي (ResourceAssignment). |
+| OvertimeCost | `32` | يمثل حقل تكلفة الوقت الإضافي (ResourceAssignment). |
+| OvertimeWork | `33` | يمثل حقل العمل الإضافي (ResourceAssignment). |
+| PeakUnits | `34` | يمثل حقل PeakUnits (ResourceAssignment). |
+| RegularWork | `35` | يمثل الحقل "العمل العادي" (ResourceAssignment). |
+| RemainingCost | `36` | يمثل حقل التكلفة المتبقية (ResourceAssignment). |
+| RemainingOvertimeCost | `37` | يمثل الحقل RemainingOvertimeCost (ResourceAssignment). |
+| RemainingOvertimeWork | `38` | يمثل الحقل RemainingOvertimeWork (ResourceAssignment). |
+| RemainingWork | `39` | يمثل حقل العمل المتبقي (ResourceAssignment). |
+| ResponsePending | `40` | يمثل حقل ResponsePending (ResourceAssignment). |
+| Start | `41` | يمثل حقل البداية (ResourceAssignment). |
+| Stop | `42` | يمثل حقل الإيقاف (ResourceAssignment). |
+| Resume | `43` | يمثل حقل السيرة الذاتية (ResourceAssignment). |
+| StartVariance | `44` | يمثل حقل StartVariance (ResourceAssignment). |
+| Summary | `45` | يمثل حقل الملخص (ResourceAssignment). |
+| SV | `46` | يمثل الحقل SV (ResourceAssignment). |
+| Units | `47` | يمثل حقل الوحدات (ResourceAssignment). |
+| UpdateNeeded | `48` | يمثل الحقل UpdateNeeded (ResourceAssignment). |
+| VAC | `49` | يمثل حقل VAC (ResourceAssignment). |
+| Work | `50` | يمثل حقل العمل (ResourceAssignment). |
+| WorkContour | `51` | يمثل حقل WorkContour (ResourceAssignment). |
+| BCWS | `52` | يمثل حقل BCWS (ResourceAssignment). |
+| BCWP | `53` | يمثل حقل BCWP (ResourceAssignment). |
+| BookingType | `54` | يمثل حقل "نوع الحجز" (ResourceAssignment). |
+| ActualWorkProtected | `55` | يمثل الحقل ActualWorkProtected (ResourceAssignment). |
+| ActualOvertimeWorkProtected | `56` | يمثل الحقل ActualOvertimeWorkProtected (ResourceAssignment). |
+| Created | `57` | يمثل الحقل الذي تم إنشاؤه (ResourceAssignment). |
+| AssignmentOwner | `58` | يمثل حقل مالك التعيين (ResourceAssignment). |
+| AssignmentOwnerGuid | `59` | يمثل الحقل AssignmentOwnerGuid (ResourceAssignment). |
+| BudgetWork | `60` | يمثل حقل عمل الميزانية (ResourceAssignment). |
+| BudgetCost | `61` | يمثل حقل تكلفة الميزانية (ResourceAssignment). |
+| RateScale | `62` | يمثل حقل RateScale (ResourceAssignment). |
+| TaskUid | `63` | يمثل حقل TaskUid (ResourceAssignment). |
+| ResourceUid | `64` | يمثل حقل ResourceUid (ResourceAssignment). |
+
+### أنظر أيضا
+
+* مساحة الاسم [Aspose.Tasks](../../aspose.tasks)
+* المجسم [Aspose.Tasks](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->

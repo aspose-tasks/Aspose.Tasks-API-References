@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Прямая очистка не поддерживается этот метод просто генерирует исключение NotSupportedException.
+description: Прямая очистка не поддерживается этот метод просто вызывает исключение NotSupportedException.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/resourcecollection/clear/
 ---
 ## ResourceCollection.Clear method
 
-Прямая очистка не поддерживается, этот метод просто генерирует исключение NotSupportedException.
+Прямая очистка не поддерживается, этот метод просто вызывает исключение NotSupportedException.
 
 ```csharp
 public void Clear()

@@ -1,14 +1,14 @@
 ---
 title: WeekDayCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示WeekDay./weekday对象的集合
+description: 代表一个集合WeekDay./weekday对象.
 type: docs
-weight: 3160
+weight: 3170
 url: /zh/net/aspose.tasks/weekdaycollection/
 ---
 ## WeekDayCollection class
 
-表示[`WeekDay`](../weekday)对象的集合。
+代表一个集合[`WeekDay`](../weekday)对象.
 
 ```csharp
 public class WeekDayCollection : IList<WeekDay>
@@ -18,23 +18,23 @@ public class WeekDayCollection : IList<WeekDay>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/weekdaycollection/count) { get; } | 获取此[`WeekDayCollection`](../weekdaycollection)对象中包含的对象数。 |
+| [Count](../../aspose.tasks/weekdaycollection/count) { get; } | 获取此包含的对象数[`WeekDayCollection`](../weekdaycollection)对象. |
 | [Item](../../aspose.tasks/weekdaycollection/item) { get; set; } | 获取或设置指定索引处的项目值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.tasks/weekdaycollection/add)(WeekDay) | 向该对象添加[`WeekDay`](../weekday)实例。 |
+| [Add](../../aspose.tasks/weekdaycollection/add)(WeekDay) | 添加一个[`WeekDay`](../weekday)此对象的实例。 |
 | [Clear](../../aspose.tasks/weekdaycollection/clear)() | 清除 WeekDayCollection 对象。 |
-| [Contains](../../aspose.tasks/weekdaycollection/contains)(WeekDay) | 检查集合是否包含[`WeekDay`](../weekday).specified。 |
+| [Contains](../../aspose.tasks/weekdaycollection/contains)(WeekDay) | 检查集合是否包含[`WeekDay`](../weekday).specified. |
 | [CopyTo](../../aspose.tasks/weekdaycollection/copyto)(WeekDay[], int) | 将集合内容复制到指定索引处的数组。 |
 | [GetEnumerator](../../aspose.tasks/weekdaycollection/getenumerator)() | 返回此集合的枚举数。 |
-| [IndexOf](../../aspose.tasks/weekdaycollection/indexof)(WeekDay) | 返回[`WeekDay`](../weekday)指定的索引。 |
-| [Insert](../../aspose.tasks/weekdaycollection/insert)(int, WeekDay) | 在指定索引处插入[`WeekDay`](../weekday)。 |
-| [Remove](../../aspose.tasks/weekdaycollection/remove)(WeekDay) | 删除[`WeekDay`](../weekday)指定（如果有）。 |
+| [IndexOf](../../aspose.tasks/weekdaycollection/indexof)(WeekDay) | 返回索引[`WeekDay`](../weekday)指定。 |
+| [Insert](../../aspose.tasks/weekdaycollection/insert)(int, WeekDay) | 插入[`WeekDay`](../weekday)在指定索引处。 |
+| [Remove](../../aspose.tasks/weekdaycollection/remove)(WeekDay) | 移除[`WeekDay`](../weekday)指定，如果有的话。 |
 | [RemoveAt](../../aspose.tasks/weekdaycollection/removeat)(int) | 删除指定索引处的项目。 |
-| [ToList](../../aspose.tasks/weekdaycollection/tolist)() | 将 WeekDayCollection 对象转换为[`WeekDay`](../weekday)对象的列表。 |
+| [ToList](../../aspose.tasks/weekdaycollection/tolist)() | 将 WeekDayCollection 对象转换为[`WeekDay`](../weekday)对象. |
 
 ### 也可以看看
 

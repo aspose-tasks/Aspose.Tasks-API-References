@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回SplitPartaspose.tasks/splitpart类实例的哈希码值
+description: 返回实例的哈希码值SplitPartaspose.tasks/splitpart类.
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/splitpart/gethashcode/
 ---
 ## SplitPart.GetHashCode method
 
-返回[`SplitPart`](../../splitpart)类实例的哈希码值。
+返回实例的哈希码值[`SplitPart`](../../splitpart)类.
 
 ```csharp
 public override int GetHashCode()

@@ -18,7 +18,7 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TaskBaseline](taskbaseline)(Task) | 初始化[`TaskBaseline`](../taskbaseline)类的新实例。 |
+| [TaskBaseline](taskbaseline)(Task) | 初始化[`TaskBaseline`](../taskbaseline)类. |
 
 ## 特性
 
@@ -29,25 +29,25 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 | [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | 获取或设置为资源安排的工作的预算成本。 |
 | [Cost](../../aspose.tasks/baseline/cost) { get; set; } | 获取或设置保存基线时资源的预计成本。 |
 | [Duration](../../aspose.tasks/taskbaseline/duration) { get; set; } | 获取或设置保存基线时任务的计划持续时间。 |
-| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat) { get; set; } | 获取或设置用于表示任务基线持续时间的格式。 |
+| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat) { get; set; } | 获取或设置表示任务基线持续时间的格式。 |
 | [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration) { get; set; } | 获取或设置一个值，该值指示是否估计了任务的基线持续时间。 |
 | [Finish](../../aspose.tasks/taskbaseline/finish) { get; set; } | 获取或设置保存基线时任务的计划完成日期。 |
 | [FixedCost](../../aspose.tasks/taskbaseline/fixedcost) { get; set; } | 获取或设置保存基线时任务的固定成本。 |
 | [Interim](../../aspose.tasks/taskbaseline/interim) { get; set; } | 获取或设置一个值，指示这是否是临时基线。 |
 | [Start](../../aspose.tasks/taskbaseline/start) { get; set; } | 获取或设置保存基线时任务的计划开始日期。 |
 | [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata) { get; set; } | 获取或设置此对象的 TimephasedDataCollection 实例。 与任务基线关联的时间分段数据。 |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | 获取或设置保存基线时分配给资源的工时。  保存基线时分配给资源的工作量。 |
+| [Work](../../aspose.tasks/baseline/work) { get; set; } | 获取或设置保存基线时分配给资源的工时。 保存基线时分配给资源的工作量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable 接口实现。 将此实例与指定的 Baseline 对象进行比较。 |
-| [CompareTo](../../aspose.tasks/taskbaseline/compareto#compareto_1)(TaskBaseline) | IComparable 接口实现。 将此实例与指定的 Baseline 对象进行比较。 |
+| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable 接口实现。 将此实例与指定的基线对象进行比较。 |
+| [CompareTo](../../aspose.tasks/taskbaseline/compareto#compareto_1)(TaskBaseline) | IComparable 接口实现。 将此实例与指定的基线对象进行比较。 |
 | [Equals](../../aspose.tasks/baseline/equals)(Baseline) | 返回一个值，指示此实例是否等于指定对象。 |
 | override [Equals](../../aspose.tasks/taskbaseline/equals#equals_2)(object) | 返回一个值，指示此实例是否等于指定对象。 |
 | [Equals](../../aspose.tasks/taskbaseline/equals#equals_1)(TaskBaseline) | 返回一个值，指示此实例是否等于指定的 TaskBaseline 对象。 |
-| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode)() | 返回[`TaskBaseline`](../taskbaseline)类实例的哈希码值。 |
+| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode)() | 返回实例的哈希码值[`TaskBaseline`](../taskbaseline)类. |
 
 ### 也可以看看
 

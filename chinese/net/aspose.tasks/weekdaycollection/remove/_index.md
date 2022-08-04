@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API 参考
-description: 删除WeekDayaspose.tasks/weekday指定如果有
+description: 移除WeekDayaspose.tasks/weekday指定如果有的话
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/weekdaycollection/remove/
 ---
 ## WeekDayCollection.Remove method
 
-删除[`WeekDay`](../../weekday)指定（如果有）。
+移除[`WeekDay`](../../weekday)指定，如果有的话。
 
 ```csharp
 public bool Remove(WeekDay item)
@@ -20,7 +20,7 @@ public bool Remove(WeekDay item)
 
 ### 返回值
 
-如果[`WeekDay`](../../weekday)已删除，则为真，如果未找到此类项目，则为假。
+真的，如果[`WeekDay`](../../weekday)已删除，如果未找到此类项目，则为 false。
 
 ### 也可以看看
 

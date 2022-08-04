@@ -18,8 +18,8 @@ public enum ItemType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| TaskItem | `0` | 任务项。 |
-| ResourceItem | `1` | 资源项。 |
+| TaskItem | `0` | 任务项目. |
+| ResourceItem | `1` | 资源项目. |
 | OtherItem | `2` | 其他项目。 |
 
 ### 也可以看看

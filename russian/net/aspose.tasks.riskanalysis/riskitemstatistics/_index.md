@@ -19,9 +19,9 @@ public class RiskItemStatistics
 | Имя | Описание |
 | --- | --- |
 | [ExpectedValue](../../aspose.tasks.riskanalysis/riskitemstatistics/expectedvalue) { get; } | Получает ожидаемое значение элемента риска. |
-| [ItemType](../../aspose.tasks.riskanalysis/riskitemstatistics/itemtype) { get; } | Получает экземпляр перечисления[`RiskItemType`](../riskitemtype). |
-| [Maximum](../../aspose.tasks.riskanalysis/riskitemstatistics/maximum) { get; } | Получает максимальное значение, сгенерированное при моделировании методом Монте-Карло. |
-| [Minimum](../../aspose.tasks.riskanalysis/riskitemstatistics/minimum) { get; } | Получает минимальное значение, сгенерированное при моделировании методом Монте-Карло. |
+| [ItemType](../../aspose.tasks.riskanalysis/riskitemstatistics/itemtype) { get; } | Получает экземпляр[`RiskItemType`](../riskitemtype) перечисление. |
+| [Maximum](../../aspose.tasks.riskanalysis/riskitemstatistics/maximum) { get; } | Получает максимальное значение, которое было сгенерировано во время моделирования методом Монте-Карло. |
+| [Minimum](../../aspose.tasks.riskanalysis/riskitemstatistics/minimum) { get; } | Получает минимальное значение, которое было сгенерировано во время моделирования методом Монте-Карло. |
 | [StandardDeviation](../../aspose.tasks.riskanalysis/riskitemstatistics/standarddeviation) { get; } | Получает стандартное отклонение элемента риска. |
 
 ## Методы

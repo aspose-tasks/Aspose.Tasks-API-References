@@ -1,14 +1,14 @@
 ---
 title: ProviderInvariantName
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置提供者不变名称用于获取DbProviderFactory类的实例  默认值为SqlClient
+description: 获取或设置提供者不变名称用于获取DbProviderFactory类. 默认值为SqlClient.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.connectivity/dbsettings/providerinvariantname/
 ---
 ## DbSettings.ProviderInvariantName property
 
-获取或设置提供者不变名称，用于获取DbProviderFactory类的实例。  默认值为SqlClient。
+获取或设置提供者不变名称，用于获取DbProviderFactory类. 默认值为SqlClient.
 
 ```csharp
 public string ProviderInvariantName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RiskAnalysisSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаRiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings.
+description: Инициализирует новый экземплярRiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.riskanalysis/riskanalysissettings/riskanalysissettings/
 ---
 ## RiskAnalysisSettings constructor
 
-Инициализирует новый экземпляр класса[`RiskAnalysisSettings`](../../riskanalysissettings).
+Инициализирует новый экземпляр[`RiskAnalysisSettings`](../../riskanalysissettings) учебный класс.
 
 ```csharp
 public RiskAnalysisSettings()

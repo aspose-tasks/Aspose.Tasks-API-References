@@ -3,7 +3,7 @@ title: AssignmentViewColumn
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Класс представления проекта.
 type: docs
-weight: 2570
+weight: 2580
 url: /ru/net/aspose.tasks.visualization/assignmentviewcolumn/
 ---
 ## AssignmentViewColumn class
@@ -24,9 +24,9 @@ public class AssignmentViewColumn : ViewColumn
 
 | Имя | Описание |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field) { get; set; } | Поле столбца. [`Field`](./field). |
+| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field) { get; set; } | Поле столбца. [`Field`](./field) . |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | Получает имя столбца. |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Получает или задает выравнивание текста (может быть одним из значений[`StringAlignment`](../viewcolumn/stringalignment)перечисление). |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Получает или задает выравнивание текста (может быть одним из значений[`StringAlignment`](../viewcolumn/stringalignment) перечисление). |
 | [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | Получает или задает обратный вызов, который можно использовать для настройки внешнего вида ячеек столбца. |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | Получает ширину столбца. |
 

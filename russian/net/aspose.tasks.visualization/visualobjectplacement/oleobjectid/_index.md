@@ -1,14 +1,14 @@
 ---
 title: OleObjectId
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает идентификатор объектаOleObjectaspose.tasks/oleobject.
+description: Получает или задает идентификаторOleObjectaspose.tasks/oleobject объект.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/oleobjectid/
 ---
 ## VisualObjectPlacement.OleObjectId property
 
-Получает или задает идентификатор объекта[`OleObject`](../../../aspose.tasks/oleobject).
+Получает или задает идентификатор[`OleObject`](../../../aspose.tasks/oleobject) объект.
 
 ```csharp
 public int OleObjectId { get; set; }

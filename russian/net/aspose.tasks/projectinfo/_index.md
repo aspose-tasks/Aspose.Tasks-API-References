@@ -18,7 +18,7 @@ public sealed class ProjectInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ProjectInfo](projectinfo)() | Инициализирует новый экземпляр класса[`ProjectInfo`](../projectinfo). |
+| [ProjectInfo](projectinfo)() | Инициализирует новый экземпляр[`ProjectInfo`](../projectinfo) учебный класс. |
 
 ## Характеристики
 

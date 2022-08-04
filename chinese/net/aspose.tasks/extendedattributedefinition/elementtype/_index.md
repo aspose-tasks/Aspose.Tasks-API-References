@@ -1,14 +1,14 @@
 ---
 title: ElementType
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置扩展属性关联 与任务资源或分配
+description: 获取或设置扩展属性 is associated 与任务资源或分配
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/extendedattributedefinition/elementtype/
 ---
 ## ExtendedAttributeDefinition.ElementType property
 
-获取或设置扩展属性关联 与任务、资源或分配。
+获取或设置扩展属性 is associated 与任务、资源或分配。
 
 ```csharp
 public ElementType ElementType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 将RiskPatternaspose.tasks.riskanalysis/riskpattern类的实例添加到此集合
+description: 添加一个实例RiskPatternaspose.tasks.riskanalysis/riskpattern类到这个集合
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.riskanalysis/riskpatterncollection/add/
 ---
 ## RiskPatternCollection.Add method
 
-将[`RiskPattern`](../../riskpattern)类的实例添加到此集合。
+添加一个实例[`RiskPattern`](../../riskpattern)类到这个集合。
 
 ```csharp
 public void Add(RiskPattern item)
@@ -16,7 +16,7 @@ public void Add(RiskPattern item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | RiskPattern | [`RiskPattern`](../../riskpattern)类的实例添加到这个集合。 |
+| item | RiskPattern | 的一个实例[`RiskPattern`](../../riskpattern)要添加到此集合的类。 |
 
 ### 例外
 

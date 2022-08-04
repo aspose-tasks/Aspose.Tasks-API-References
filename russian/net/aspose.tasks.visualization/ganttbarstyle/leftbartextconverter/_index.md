@@ -1,14 +1,14 @@
 ---
 title: LeftBarTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задач. Переопределяет значение свойстваLeftFieldaspose.tasks.visualization/ganttbarstyle/leftfield.  Не сохраняется в формате MPP.
+description: Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значениеLeftFieldaspose.tasks.visualization/ganttbarstyle/leftfield свойство. Не сохраняется в формате MPP.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/leftbartextconverter/
 ---
 ## GanttBarStyle.LeftBarTextConverter property
 
-Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задач. Переопределяет значение свойства[`LeftField`](../leftfield).  Не сохраняется в формате MPP.
+Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значение[`LeftField`](../leftfield) свойство. Не сохраняется в формате MPP.
 
 ```csharp
 public TaskBarTextConverter LeftBarTextConverter { get; set; }

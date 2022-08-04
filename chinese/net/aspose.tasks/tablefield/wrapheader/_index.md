@@ -1,14 +1,14 @@
 ---
 title: WrapHeader
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示表列标题是否可以换行或者是否应在超出列宽时截断
+description: 获取或设置一个值该值指示表格列标题是否可以换行或者超过列宽时是否应截断
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/tablefield/wrapheader/
 ---
 ## TableField.WrapHeader property
 
-获取或设置一个值，该值指示表列标题是否可以换行，或者是否应在超出列宽时截断。
+获取或设置一个值，该值指示表格列标题是否可以换行，或者超过列宽时是否应截断。
 
 ```csharp
 public bool WrapHeader { get; set; }

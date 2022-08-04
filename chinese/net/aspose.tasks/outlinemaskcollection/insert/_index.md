@@ -17,7 +17,7 @@ public void Insert(int index, OutlineMask item)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 应插入项目的指定从零开始的索引。 |
-| item | OutlineMask | 要插入此集合的指定项目。 |
+| item | OutlineMask | 要插入此集合的指定项。 |
 
 ### 也可以看看
 

@@ -20,7 +20,7 @@ public DateTime GetPercentile(int percent)
 
 ### 返回值
 
-a低于指定百分比的生成样本的值。
+一个值，低于该值的生成样本的指定百分比。
 
 ### 也可以看看
 

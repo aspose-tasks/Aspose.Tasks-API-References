@@ -1,14 +1,14 @@
 ---
 title: FontFamily
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает имя семейства шрифтов.
+description: Получает название семейства шрифтов.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/fontdescriptor/fontfamily/
 ---
 ## FontDescriptor.FontFamily property
 
-Получает имя семейства шрифтов.
+Получает название семейства шрифтов.
 
 ```csharp
 public string FontFamily { get; }

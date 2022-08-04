@@ -1,14 +1,14 @@
 ---
 title: ActualWorkProtected
 second_title: Aspose.Tasks for .NET API 参考
-description: 实际工作受到保护的持续时间  仅支持 XML 格式的读取 Durationaspose.tasks/tsk/duration类型
+description: 实际工作受到保护的持续时间 仅支持 XML 格式的读取 Durationaspose.tasks/tsk/duration类型.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/tsk/actualworkprotected/
 ---
 ## Tsk.ActualWorkProtected field
 
-实际工作受到保护的持续时间。  仅支持 XML 格式的读取。 [`Duration`](../duration)类型。
+实际工作受到保护的持续时间。 仅支持 XML 格式的读取。 [`Duration`](../duration)类型.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualWorkProtected;

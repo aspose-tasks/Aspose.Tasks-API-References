@@ -18,19 +18,19 @@ public class RiskAnalyzer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RiskAnalyzer](riskanalyzer)(RiskAnalysisSettings) | 初始化[`RiskAnalyzer`](../riskanalyzer)类的新实例。 |
+| [RiskAnalyzer](riskanalyzer)(RiskAnalysisSettings) | 初始化[`RiskAnalyzer`](../riskanalyzer)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Settings](../../aspose.tasks.riskanalysis/riskanalyzer/settings) { get; set; } | 获取或设置[`RiskAnalysisSettings`](../riskanalysissettings)类的实例，该类定义了风险分析的必要设置。 |
+| [Settings](../../aspose.tasks.riskanalysis/riskanalyzer/settings) { get; set; } | 获取或设置[`RiskAnalysisSettings`](../riskanalysissettings)定义风险分析的必要设置的类。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Analyze](../../aspose.tasks.riskanalysis/riskanalyzer/analyze)(Project) | 对指定项目执行风险分析。分析基于蒙特卡罗模拟，结果是[`RiskAnalysisResult`](../riskanalysisresult)类的实例。 |
+| [Analyze](../../aspose.tasks.riskanalysis/riskanalyzer/analyze)(Project) | 对指定项目执行风险分析。分析基于蒙特卡罗模拟，结果是[`RiskAnalysisResult`](../riskanalysisresult)类. |
 
 ### 也可以看看
 

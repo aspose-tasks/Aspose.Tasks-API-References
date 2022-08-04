@@ -1,14 +1,14 @@
 ---
 title: FontDescriptor
 second_title: Aspose.Tasks for .NET API 参考
-description: 使用指定的字体系列和大小初始化FontDescriptoraspose.tasks.visualization/fontdescriptor类的新实例
+description: 初始化FontDescriptoraspose.tasks.visualization/fontdescriptor具有指定字体系列和大小的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/fontdescriptor/fontdescriptor/
 ---
 ## FontDescriptor(string, float) {#constructor_1}
 
-使用指定的字体系列和大小初始化[`FontDescriptor`](../../fontdescriptor)类的新实例。
+初始化[`FontDescriptor`](../../fontdescriptor)具有指定字体系列和大小的类。
 
 ```csharp
 public FontDescriptor(string fontFamily, float size)
@@ -17,7 +17,7 @@ public FontDescriptor(string fontFamily, float size)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontFamily | String | 字体系列的名称。 |
-| size | Single | 字体大小。 |
+| size | Single | 字体的大小。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public FontDescriptor(string fontFamily, float size)
 
 ## FontDescriptor(string, float, FontStyles) {#constructor_2}
 
-使用指定的字体系列、大小和样式初始化[`FontDescriptor`](../../fontdescriptor)类的新实例。
+初始化[`FontDescriptor`](../../fontdescriptor)具有指定字体系列、大小和样式的类。
 
 ```csharp
 public FontDescriptor(string fontFamily, float size, FontStyles style)
@@ -38,7 +38,7 @@ public FontDescriptor(string fontFamily, float size, FontStyles style)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontFamily | String | 字体系列的名称。 |
-| size | Single | 字体大小。 |
+| size | Single | 字体的大小。 |
 | style | FontStyles | 字体的样式。 |
 
 ### 也可以看看
@@ -52,7 +52,7 @@ public FontDescriptor(string fontFamily, float size, FontStyles style)
 
 ## FontDescriptor(FontDescriptor, FontStyles) {#constructor}
 
-使用指定的字体和样式初始化[`FontDescriptor`](../../fontdescriptor)类的新实例。
+初始化[`FontDescriptor`](../../fontdescriptor)具有指定字体和样式的类。
 
 ```csharp
 public FontDescriptor(FontDescriptor font, FontStyles style)
@@ -60,7 +60,7 @@ public FontDescriptor(FontDescriptor font, FontStyles style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| font | FontDescriptor | [`FontDescriptor`](../../fontdescriptor)的实例要复制。 |
+| font | FontDescriptor | 实例[`FontDescriptor`](../../fontdescriptor)复印。 |
 | style | FontStyles | 字体的样式。 |
 
 ### 也可以看看

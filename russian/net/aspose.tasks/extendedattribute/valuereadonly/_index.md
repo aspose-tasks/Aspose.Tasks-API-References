@@ -1,14 +1,14 @@
 ---
 title: ValueReadOnly
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает значение указывающее доступно ли значение этого экземпляраExtendedAttributeaspose.tasks/extendedattributeтолько для чтения.  возвращает значение true если вExtendedAttributeDefinitionaspose.tasks/extendedattributedefinitionдля этого объекта определена формула или сводка.
+description: Получает значение указывающее является ли значение этогоExtendedAttributeaspose.tasks/extendedattribute экземпляр доступен только для чтения.  возвращает true если формула или сводка определены вExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition для этого объекта.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/extendedattribute/valuereadonly/
 ---
 ## ExtendedAttribute.ValueReadOnly property
 
-Получает значение, указывающее, доступно ли значение этого экземпляра[`ExtendedAttribute`](../../extendedattribute)только для чтения.  возвращает значение true, если в[`ExtendedAttributeDefinition`](../../extendedattributedefinition)для этого объекта определена формула или сводка.
+Получает значение, указывающее, является ли значение этого[`ExtendedAttribute`](../../extendedattribute) экземпляр доступен только для чтения.  возвращает true, если формула или сводка определены в[`ExtendedAttributeDefinition`](../../extendedattributedefinition) для этого объекта.
 
 ```csharp
 public bool ValueReadOnly { get; }

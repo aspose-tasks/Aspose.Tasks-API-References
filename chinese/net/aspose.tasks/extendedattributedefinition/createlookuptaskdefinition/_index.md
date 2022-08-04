@@ -1,14 +1,14 @@
 ---
 title: CreateLookupTaskDefinition
 second_title: Aspose.Tasks for .NET API 参考
-description: 工厂方法它使用查找创建扩展属性定义 它有CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype等于Lookup并且可以用于仅限任务 调用该方法时需要指定fieldId和alias 字段类型是从字段 id 推断出来的
+description: 使用查找创建扩展属性定义的工厂方法 它有CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype等于Lookup并且只能在任务中使用 您需要指定fieldId和alias调用此方法时 字段类型由字段id推断
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/extendedattributedefinition/createlookuptaskdefinition/
 ---
 ## CreateLookupTaskDefinition(ExtendedAttributeTask, string) {#createlookuptaskdefinition_1}
 
-工厂方法，它使用查找创建扩展属性定义。 它有[`CalculationType`](../calculationtype)等于Lookup并且可以用于仅限任务。 调用该方法时需要指定*fieldId*和*alias*。 字段类型是从字段 id 推断出来的。
+使用查找创建扩展属性定义的工厂方法。 它有[`CalculationType`](../calculationtype)等于Lookup并且只能在任务中使用。 您需要指定*fieldId*和*alias*调用此方法时。 字段类型由字段id推断。
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -17,16 +17,16 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAtt
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | 指定的[`ExtendedAttributeTask`](../../extendedattributetask)字段 ID。 |
+| fieldId | ExtendedAttributeTask | 指定的[`ExtendedAttributeTask`](../../extendedattributetask)字段标识。 |
 | alias | String | 指定的String别名。 |
 
 ### 返回值
 
-创建[`ExtendedAttributeDefinition`](../../extendedattributedefinition)类的实例，指定*fieldId*和*别名*。
+创建的实例[`ExtendedAttributeDefinition`](../../extendedattributedefinition)指定的类*fieldId*和*alias*.
 
 ### 例子
 
-使用此示例为具有查找功能的任务创建自定义字段定义，然后用文本值填充它:
+使用此示例为具有查找的任务创建自定义字段定义，然后用文本值填充它：
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Text27, "My custom field");
@@ -46,7 +46,7 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ## CreateLookupTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createlookuptaskdefinition}
 
-工厂方法，它使用查找创建扩展属性定义。 它有[`CalculationType`](../calculationtype)等于Lookup并且可以用于仅限任务。 调用该方法时需要指定*customFieldType*,*fieldId*和*alias*。
+使用查找创建扩展属性定义的工厂方法。 它有[`CalculationType`](../calculationtype)等于Lookup并且只能在任务中使用。 您需要指定*customFieldType* ,*fieldId*和*alias*调用此方法时。
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
@@ -56,16 +56,16 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | customFieldType | CustomFieldType | 指定的[`CustomFieldType`](../../customfieldtype)类型。 |
-| fieldId | ExtendedAttributeTask | 指定的[`ExtendedAttributeTask`](../../extendedattributetask)字段 ID。 |
+| fieldId | ExtendedAttributeTask | 指定的[`ExtendedAttributeTask`](../../extendedattributetask)字段标识。 |
 | alias | String | 指定的String别名。 |
 
 ### 返回值
 
-创建[`ExtendedAttributeDefinition`](../../extendedattributedefinition)类的实例，指定*customFieldType*,*fieldId*和*alias*。
+创建的实例[`ExtendedAttributeDefinition`](../../extendedattributedefinition)指定的类*customFieldType* ,*fieldId*和*alias*.
 
 ### 例子
 
-使用此示例为具有查找功能的任务创建自定义字段定义，然后用文本值填充它:
+使用此示例为具有查找的任务创建自定义字段定义，然后用文本值填充它：
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text27, "My custom field");

@@ -1,14 +1,14 @@
 ---
 title: OutlineMaskCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示OutlineMask./outlinemask对象的集合
+description: 代表一个集合OutlineMask./outlinemask对象.
 type: docs
 weight: 1060
 url: /zh/net/aspose.tasks/outlinemaskcollection/
 ---
 ## OutlineMaskCollection class
 
-表示[`OutlineMask`](../outlinemask)对象的集合。
+代表一个集合[`OutlineMask`](../outlinemask)对象.
 
 ```csharp
 public class OutlineMaskCollection : IList<OutlineMask>
@@ -27,7 +27,7 @@ public class OutlineMaskCollection : IList<OutlineMask>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/outlinemaskcollection/add)(OutlineMask) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/outlinemaskcollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/outlinemaskcollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/outlinemaskcollection/contains)(OutlineMask) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/outlinemaskcollection/copyto)(OutlineMask[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/outlinemaskcollection/getenumerator)() | 返回此集合的枚举数。 |

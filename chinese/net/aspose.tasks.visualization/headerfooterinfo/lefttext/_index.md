@@ -1,14 +1,14 @@
 ---
 title: LeftText
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置在页眉或页脚中显示的左对齐文本
+description: 获取或设置要在页眉或页脚中显示的左对齐文本
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks.visualization/headerfooterinfo/lefttext/
 ---
 ## HeaderFooterInfo.LeftText property
 
-获取或设置在页眉或页脚中显示的左对齐文本。
+获取或设置要在页眉或页脚中显示的左对齐文本。
 
 ```csharp
 public string LeftText { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PercentComplete
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Текущее состояние задачи выраженное в процентах от продолжительности задачи которая была завершена.
+description: Текущий статус задачи выраженный в процентах от продолжительности задачи которая была завершена.
 type: docs
 weight: 890
 url: /ru/net/aspose.tasks/tsk/percentcomplete/
 ---
 ## Tsk.PercentComplete field
 
-Текущее состояние задачи, выраженное в процентах от продолжительности задачи, которая была завершена.
+Текущий статус задачи, выраженный в процентах от продолжительности задачи, которая была завершена.
 
 ```csharp
 public static readonly Key<int, TaskKey> PercentComplete;

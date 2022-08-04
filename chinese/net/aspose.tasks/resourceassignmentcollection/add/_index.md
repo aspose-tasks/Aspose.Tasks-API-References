@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 将新分配添加到 ResourceAssignmentCollection
+description: 将新分配添加到 ResourceAssignmentCollection.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/resourceassignmentcollection/add/
 ---
 ## Add(Task, Resource, double) {#add_1}
 
-将新分配添加到 ResourceAssignmentCollection。
+将新分配添加到 ResourceAssignmentCollection.
 
 ```csharp
 public ResourceAssignment Add(Task task, Resource resource, double units)
@@ -18,11 +18,11 @@ public ResourceAssignment Add(Task task, Resource resource, double units)
 | --- | --- | --- |
 | task | Task | 要分配的任务。 |
 | resource | Resource | 要分配的资源。 |
-| units | Double | 新分配的单元数。 |
+| units | Double | 新分配的单位数。 |
 
 ### 返回值
 
-添加分配。
+添加了任务。
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public ResourceAssignment Add(Task task, Resource resource, double units)
 
 ## Add(Task, Resource, decimal) {#add_2}
 
-将新分配添加到 ResourceAssignmentCollection。
+将新分配添加到 ResourceAssignmentCollection.
 
 ```csharp
 public ResourceAssignment Add(Task task, Resource resource, decimal cost)
@@ -47,11 +47,11 @@ public ResourceAssignment Add(Task task, Resource resource, decimal cost)
 | --- | --- | --- |
 | task | Task | 要分配的任务。 |
 | resource | Resource | 要分配的成本资源。 |
-| cost | Decimal | 新分配的成本。 |
+| cost | Decimal | 新任务的成本。 |
 
 ### 返回值
 
-添加分配。
+添加了任务。
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public ResourceAssignment Add(Task task, Resource resource, decimal cost)
 
 ## Add(Task, Resource) {#add}
 
-将新分配添加到 ResourceAssignmentCollection。
+将新分配添加到 ResourceAssignmentCollection.
 
 ```csharp
 public ResourceAssignment Add(Task task, Resource resource)
@@ -79,7 +79,7 @@ public ResourceAssignment Add(Task task, Resource resource)
 
 ### 返回值
 
-添加分配。
+添加了任务。
 
 ### 也可以看看
 

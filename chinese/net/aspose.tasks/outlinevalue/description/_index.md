@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置大纲值的描述
+description: 获取或设置轮廓值的描述
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/outlinevalue/description/
 ---
 ## OutlineValue.Description property
 
-获取或设置大纲值的描述。
+获取或设置轮廓值的描述。
 
 ```csharp
 public string Description { get; set; }

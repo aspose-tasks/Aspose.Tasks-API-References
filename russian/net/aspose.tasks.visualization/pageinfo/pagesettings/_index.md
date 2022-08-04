@@ -1,14 +1,14 @@
 ---
 title: PageSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаPageSettingsaspose.tasks.visualization/pageinfo/pagesettings который определяет параметры печати страницы.
+description: Получает экземплярPageSettingsaspose.tasks.visualization/pageinfo/pagesettings класс который определяет параметры печати страницы.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks.visualization/pageinfo/pagesettings/
 ---
 ## PageInfo.PageSettings property
 
-Получает экземпляр класса`PageSettings`, который определяет параметры печати страницы.
+Получает экземпляр`PageSettings` класс, который определяет параметры печати страницы.
 
 ```csharp
 public PageSettings PageSettings { get; }

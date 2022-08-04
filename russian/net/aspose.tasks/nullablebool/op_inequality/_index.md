@@ -17,11 +17,11 @@ public static bool operator !=(NullableBool a, NullableBool b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | NullableBool | Первый[`NullableBool`](../../nullablebool). |
-| b | NullableBool | Второй[`NullableBool`](../../nullablebool). |
+| b | NullableBool | Секунда[`NullableBool`](../../nullablebool). |
 
 ### Возвращаемое значение
 
-значение, указывающее, не равен ли данный экземпляр указанному объекту
+значение, указывающее, не равен ли этот экземпляр указанному объекту
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public class TimelineView : View
 
 | Имя | Описание |
 | --- | --- |
-| [TimelineView](timelineview)() | Инициализирует новый экземпляр класса[`TimelineView`](../timelineview). |
+| [TimelineView](timelineview)() | Инициализирует новый экземпляр[`TimelineView`](../timelineview) учебный класс. |
 
 ## Характеристики
 
@@ -30,27 +30,27 @@ public class TimelineView : View
 | [Group](../../aspose.tasks/view/group) { get; set; } | Получает или задает группу одного представления. |
 | [HighlightFilter](../../aspose.tasks/view/highlightfilter) { get; set; } | Получает или задает значение, указывающее, выделяет ли Microsoft Project фильтр для одного представления. |
 | [Name](../../aspose.tasks/view/name) { get; set; } | Получает или задает имя объекта View. |
-| [PageInfo](../../aspose.tasks/view/pageinfo) { get; } | Получает экземпляр класса[`PageInfo`](../view/pageinfo). Представляет данные настройки страницы, представленные в формате файла mpp. |
-| [ParentProject](../../aspose.tasks/view/parentproject) { get; } | Получает родителя объекта View. Только чтение[`Project`](../project). |
-| [Screen](../../aspose.tasks/view/screen) { get; } | Получает тип экрана для одиночного представления. Только для чтения[`ViewScreen`](../viewscreen). |
+| [PageInfo](../../aspose.tasks/view/pageinfo) { get; } | Получает экземпляр[`PageInfo`](../view/pageinfo)учебный класс. Представляет данные настройки страницы, представленные в формате файла mpp. |
+| [ParentProject](../../aspose.tasks/view/parentproject) { get; } | Получает родителя объекта View. Только для чтения[`Project`](../project) . |
+| [Screen](../../aspose.tasks/view/screen) { get; } | Получает тип экрана для одиночного представления. Только для чтения[`ViewScreen`](../viewscreen) . |
 | [ShowDates](../../aspose.tasks/timelineview/showdates) { get; } | Получает значение, указывающее, показывать ли даты. |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu) { get; set; } | Получает или задает значение, указывающее, показывает ли Microsoft Project одно имя представления в раскрывающихся списках Представление или Другие представления на ленте. |
-| [ShowPanZoom](../../aspose.tasks/timelineview/showpanzoom) { get; set; } | Получает или задает значение, указывающее, показывать ли управление панорамированием и масштабированием. |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu) { get; set; } | Получает или задает значение, указывающее, показывает ли Microsoft Project одно имя представления в раскрывающихся списках «Представление» или «Другие представления» на ленте. |
+| [ShowPanZoom](../../aspose.tasks/timelineview/showpanzoom) { get; set; } | Получает или задает значение, указывающее, показывать ли элементы управления панорамированием и масштабированием. |
 | [ShowTimescale](../../aspose.tasks/timelineview/showtimescale) { get; set; } | Получает или задает значение, указывающее, показывать ли шкалу времени. |
 | [ShowToday](../../aspose.tasks/timelineview/showtoday) { get; set; } | Получает или задает значение, указывающее, следует ли отображать строку, представляющую сегодняшний день. |
 | [Table](../../aspose.tasks/view/table) { get; set; } | Получает или задает таблицу одного представления. |
 | [TextLinesCount](../../aspose.tasks/timelineview/textlinescount) { get; set; } | Получает или задает значение, указывающее, сколько строк используется для отображения задачи на временной шкале. |
-| [Type](../../aspose.tasks/view/type) { get; } | Получает тип элемента в отдельном представлении, например задачи или ресурсы. Только для чтения[`ItemType`](../itemtype). |
+| [Type](../../aspose.tasks/view/type) { get; } | Получает тип элемента в отдельном представлении, например задачи или ресурсы. Только для чтения[`ItemType`](../itemtype) . |
 | [Uid](../../aspose.tasks/view/uid) { get; } | Получает уникальный идентификатор представления. |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements) { get; } | Получает коллекцию объектов, представляющих размещение и внешний вид[`OleObject`](../oleobject)в представлении. |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements) { get; } | Получает коллекцию объектов, представляющих размещение и внешний вид[`OleObject`](../oleobject) в представлении. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto)(View) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.tasks/view/compareto)(View) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | override [Equals](../../aspose.tasks/view/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`Resource`](../resource). |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`Resource`](../resource) класс. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BCWP
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Бюджетная стоимость работы выполненной ресурсом для проекта на сегодняшний день.
+description: Сметная стоимость работы выполненной ресурсом для проекта на сегодняшний день.
 type: docs
 weight: 140
 url: /ru/net/aspose.tasks/rsc/bcwp/
 ---
 ## Rsc.BCWP field
 
-Бюджетная стоимость работы, выполненной ресурсом для проекта на сегодняшний день.
+Сметная стоимость работы, выполненной ресурсом для проекта на сегодняшний день.
 
 ```csharp
 public static readonly Key<double, RscKey> BCWP;

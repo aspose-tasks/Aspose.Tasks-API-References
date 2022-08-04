@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition类实例的哈希码
+description: 返回实例的哈希码ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition类.
 type: docs
 weight: 320
 url: /zh/net/aspose.tasks/extendedattributedefinition/gethashcode/
 ---
 ## ExtendedAttributeDefinition.GetHashCode method
 
-返回[`ExtendedAttributeDefinition`](../../extendedattributedefinition)类实例的哈希码。
+返回实例的哈希码[`ExtendedAttributeDefinition`](../../extendedattributedefinition)类.
 
 ```csharp
 public override int GetHashCode()

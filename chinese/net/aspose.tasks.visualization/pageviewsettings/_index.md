@@ -3,7 +3,7 @@ title: PageViewSettings
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示项目视图的打印设置
 type: docs
-weight: 2880
+weight: 2890
 url: /zh/net/aspose.tasks.visualization/pageviewsettings/
 ---
 ## PageViewSettings class
@@ -24,7 +24,7 @@ public class PageViewSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FirstColumnsCount](../../aspose.tasks.visualization/pageviewsettings/firstcolumnscount) { get; set; } | 获取或设置要在所有页面上打印的第一列数。 |
+| [FirstColumnsCount](../../aspose.tasks.visualization/pageviewsettings/firstcolumnscount) { get; set; } | 获取或设置要在所有页面上打印的第一列的数量。 |
 | [FitTimescaleToEndOfPage](../../aspose.tasks.visualization/pageviewsettings/fittimescaletoendofpage) { get; set; } | 获取或设置一个值，该值指示打印时是否使时间刻度适合页尾。 |
 | [PrintAllSheetColumns](../../aspose.tasks.visualization/pageviewsettings/printallsheetcolumns) { get; set; } | 获取或设置一个值，该值指示是否打印视图的所有工作表列。 |
 | [PrintBlankPages](../../aspose.tasks.visualization/pageviewsettings/printblankpages) { get; set; } | 获取或设置一个值，该值指示是否打印视图的空白页。 |

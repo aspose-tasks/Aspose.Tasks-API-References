@@ -3,7 +3,7 @@ title: WBSSequence
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Указывает последовательность для WBSCodeMask
 type: docs
-weight: 3130
+weight: 3140
 url: /ru/net/aspose.tasks/wbssequence/
 ---
 ## WBSSequence enumeration
@@ -18,10 +18,10 @@ public enum WBSSequence
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| OrderedNumbers | `0` | Указывает числовую последовательность WBS. |
-| OrderedUppercaseLetters | `1` | Указывает последовательность СДР в верхнем регистре. |
-| OrderedLowercaseLetters | `2` | Указывает последовательность СДР строчных букв. |
-| UnorderedCharacters | `3` | Указывает последовательность WBS неупорядоченных символов. |
+| OrderedNumbers | `0` | Указывает последовательность номеров WBS. |
+| OrderedUppercaseLetters | `1` | Обозначает последовательность WBS в верхнем регистре. |
+| OrderedLowercaseLetters | `2` | Обозначает последовательность WBS строчных букв. |
+| UnorderedCharacters | `3` | Указывает последовательность WBS ненумерованных символов. |
 
 ### Смотрите также
 

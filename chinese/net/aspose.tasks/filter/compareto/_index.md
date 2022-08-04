@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Aspose.Tasks for .NET API 参考
-description: 将此实例与Filteraspose.tasks/filter类的指定实例进行比较并返回它们相对顺序的指示
+description: 将此实例与指定的实例进行比较Filteraspose.tasks/filter类并返回其相对顺序的指示
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/filter/compareto/
 ---
 ## Filter.CompareTo method
 
-将此实例与[`Filter`](../../filter)类的指定实例进行比较，并返回它们相对顺序的指示。
+将此实例与指定的实例进行比较[`Filter`](../../filter)类并返回其相对顺序的指示。
 
 ```csharp
 public int CompareTo(Filter other)
@@ -16,7 +16,7 @@ public int CompareTo(Filter other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Filter | [`Filter`](../../filter)类的指定实例与此进行比较目的。 |
+| other | Filter | 的指定实例[`Filter`](../../filter)类与此对象进行比较。 |
 
 ### 返回值
 

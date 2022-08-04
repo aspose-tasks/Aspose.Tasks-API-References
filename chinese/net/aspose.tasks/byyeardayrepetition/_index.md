@@ -18,7 +18,7 @@ public class ByYearDayRepetition : YearlyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByYearDayRepetition](byyeardayrepetition)() | 初始化[`ByYearDayRepetition`](../byyeardayrepetition)类的新实例。 |
+| [ByYearDayRepetition](byyeardayrepetition)() | 初始化[`ByYearDayRepetition`](../byyeardayrepetition)类. |
 
 ## 特性
 

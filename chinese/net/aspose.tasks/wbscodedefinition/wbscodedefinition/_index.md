@@ -1,14 +1,14 @@
 ---
 title: WBSCodeDefinition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化WBSCodeDefinitionaspose.tasks/wbscodedefinition类的新实例
+description: 初始化一个新的实例WBSCodeDefinitionaspose.tasks/wbscodedefinition班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/wbscodedefinition/wbscodedefinition/
 ---
 ## WBSCodeDefinition constructor
 
-初始化[`WBSCodeDefinition`](../../wbscodedefinition)类的新实例。
+初始化一个新的实例[`WBSCodeDefinition`](../../wbscodedefinition)班级。
 
 ```csharp
 public WBSCodeDefinition()

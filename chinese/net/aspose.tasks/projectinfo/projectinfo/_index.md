@@ -1,14 +1,14 @@
 ---
 title: ProjectInfo
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ProjectInfoaspose.tasks/projectinfo类的新实例
+description: 初始化一个新的实例ProjectInfoaspose.tasks/projectinfo班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/projectinfo/projectinfo/
 ---
 ## ProjectInfo constructor
 
-初始化[`ProjectInfo`](../../projectinfo)类的新实例。
+初始化一个新的实例[`ProjectInfo`](../../projectinfo)班级。
 
 ```csharp
 public ProjectInfo()

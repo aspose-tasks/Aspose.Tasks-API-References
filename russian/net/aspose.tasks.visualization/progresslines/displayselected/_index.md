@@ -1,14 +1,14 @@
 ---
 title: DisplaySelected
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее отображать ли строки хода выполнения в выбранные даты.
+description: Получает или задает значение указывающее следует ли отображать строки хода выполнения в выбранные даты.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks.visualization/progresslines/displayselected/
 ---
 ## ProgressLines.DisplaySelected property
 
-Получает или задает значение, указывающее, отображать ли строки хода выполнения в выбранные даты.
+Получает или задает значение, указывающее, следует ли отображать строки хода выполнения в выбранные даты.
 
 ```csharp
 public bool DisplaySelected { get; set; }

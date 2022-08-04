@@ -1,14 +1,14 @@
 ---
 title: OleObject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаOleObjectaspose.tasks/oleobject.
+description: Инициализирует новый экземплярOleObjectaspose.tasks/oleobject класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/oleobject/oleobject/
 ---
 ## OleObject constructor
 
-Инициализирует новый экземпляр класса[`OleObject`](../../oleobject).
+Инициализирует новый экземпляр[`OleObject`](../../oleobject) класс.
 
 ```csharp
 public OleObject()

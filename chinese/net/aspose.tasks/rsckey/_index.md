@@ -19,19 +19,19 @@ public enum RscKey
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Name | `0` | 表示名称（资源）字段。 |
-| AccrueAt | `1` | 表示 Accrue At (Resource) 字段。 |
+| AccrueAt | `1` | 表示应计于（资源）字段。 |
 | ActualCost | `2` | 表示实际成本（资源）字段。 |
 | ActualOvertimeCost | `3` | 表示实际加班成本（资源）字段。 |
-| ActualOvertimeWork | `4` | 表示实际加班（资源）字段。 |
+| ActualOvertimeWork | `4` | 表示实际加班工作（资源）字段。 |
 | ActualOvertimeWorkProtected | `5` | 表示受保护的实际加班（资源）字段。 |
 | ActualWork | `6` | 表示实际工时（资源）字段。 |
 | ActualWorkProtected | `7` | 表示受保护的实际工作（资源）字段。 |
 | ACWP | `8` | 表示 ACWP（资源）字段。 |
 | AssignmentOwner | `9` | 表示分配所有者（资源）字段。 |
-| AssignmentOwnerGuid | `10` | 表示分配所有者 Guid（资源）字段。 |
+| AssignmentOwnerGuid | `10` | 表示分配所有者指南（资源）字段。 |
 | AssignmentUnits | `11` | 表示分配单元（资源）字段。 |
 | AvailableFrom | `12` | 表示可从（资源）字段。 |
-| AvailableTo | `13` | 表示可用到（资源）字段。 |
+| AvailableTo | `13` | 表示可用于（资源）字段。 |
 | ActiveDirectoryGuid | `14` | 表示 Active Directory Guid（资源）字段。 |
 | BaseCalendar | `15` | 表示基准日历（资源）字段。 |
 | BCWP | `16` | 表示 BCWP（资源）字段。 |
@@ -40,7 +40,7 @@ public enum RscKey
 | BudgetWork | `19` | 表示预算工时（资源）字段。 |
 | BudgetCost | `20` | 表示预算成本（资源）字段。 |
 | Calendar | `21` | 表示日历 GUID（资源）字段。 |
-| CanLevel | `22` | 表示Can Level（资源）字段。 |
+| CanLevel | `22` | 表示 Can Level（资源）字段。 |
 | Code | `23` | 表示代码（资源）字段。 |
 | Confirmed | `24` | 表示已确认（资源）字段。 |
 | Cost | `25` | 表示成本（资源）字段。 |
@@ -54,7 +54,7 @@ public enum RscKey
 | EMailAddress | `33` | 表示电子邮件地址（资源）字段。 |
 | IsBudget | `34` | 表示预算（资源）字段。 |
 | IsGeneric | `35` | 表示通用（资源）字段。 |
-| IsEnterprise | `36` | 表示企业（资源）字段。 |
+| IsEnterprise | `36` | 代表企业（资源）字段。 |
 | IsCostResource | `37` | 表示 Is Cost (Resource) 字段。 |
 | Inactive | `38` | 表示非活动（资源）字段。 |
 | Finish | `39` | 表示完成（资源）字段。 |
@@ -76,8 +76,8 @@ public enum RscKey
 | MaxUnits | `55` | 表示最大单位（资源）字段。 |
 | Notes | `56` | 表示备注（资源）字段。 |
 | NotesRTF | `57` | 表示 Notes RTF（资源）字段。 |
-| NotesText | `58` | 表示备注文本（资源）字段。 |
-| Overallocated | `59` | 表示Overallocated(Resource) 字段。 |
+| NotesText | `58` | 表示注释文本（资源）字段。 |
+| Overallocated | `59` | 代表Overallocated （资源）字段. |
 | OvertimeCost | `60` | 表示加班成本（资源）字段。 |
 | OvertimeRate | `61` | 表示加班率（资源）字段。 |
 | OvertimeRateFormat | `62` | 表示加班费格式（资源）字段。 |
@@ -91,7 +91,7 @@ public enum RscKey
 | RemainingOvertimeCost | `70` | 表示剩余加班成本（资源）字段。 |
 | RemainingOvertimeWork | `71` | 表示剩余加班（资源）字段。 |
 | RemainingWork | `72` | 表示剩余工作（资源）字段。 |
-| ResponsePending | `73` | 表示 Response Pending (Resource) 字段。 |
+| ResponsePending | `73` | 表示响应挂起（资源）字段。 |
 | StandardRate | `74` | 表示标准费率（资源）字段。 |
 | StandardRateFormat | `75` | 表示标准速率格式（资源）字段。 |
 | Start | `76` | 表示开始（资源）字段。 |
