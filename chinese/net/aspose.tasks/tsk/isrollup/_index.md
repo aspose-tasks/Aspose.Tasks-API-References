@@ -1,14 +1,14 @@
 ---
 title: IsRollup
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定是否将有关子任务甘特条的信息汇总到摘要任务条
+description: 确定是否将有关子任务甘特条的信息汇总到摘要任务栏
 type: docs
 weight: 690
 url: /zh/net/aspose.tasks/tsk/isrollup/
 ---
 ## Tsk.IsRollup field
 
-确定是否将有关子任务甘特条的信息汇总到摘要任务条。
+确定是否将有关子任务甘特条的信息汇总到摘要任务栏。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsRollup;

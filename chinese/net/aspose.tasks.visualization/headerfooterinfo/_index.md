@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示出现在视图中并用于打印的页眉或页脚数据
+description: 表示视图中存在并用于打印的页眉或页脚数据
 type: docs
-weight: 2770
+weight: 2780
 url: /zh/net/aspose.tasks.visualization/headerfooterinfo/
 ---
 ## HeaderFooterInfo class
 
-表示出现在视图中并用于打印的页眉或页脚数据。
+表示视图中存在并用于打印的页眉或页脚数据。
 
 ```csharp
 public class HeaderFooterInfo
@@ -18,7 +18,7 @@ public class HeaderFooterInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HeaderFooterInfo](headerfooterinfo)() | 初始化[`HeaderFooterInfo`](../headerfooterinfo)类的新实例。 |
+| [HeaderFooterInfo](headerfooterinfo)() | 初始化一个新的实例[`HeaderFooterInfo`](../headerfooterinfo)班级。 |
 
 ## 特性
 
@@ -28,10 +28,10 @@ public class HeaderFooterInfo
 | [CenteredImageSize](../../aspose.tasks.visualization/headerfooterinfo/centeredimagesize) { get; set; } | 获取或设置中心图像的显示大小。 |
 | [CenteredText](../../aspose.tasks.visualization/headerfooterinfo/centeredtext) { get; set; } | 获取或设置在页眉或页脚中显示的居中文本。 |
 | [LeftImage](../../aspose.tasks.visualization/headerfooterinfo/leftimage) { get; set; } | 获取或设置要在页眉或页脚中显示的左对齐图像。 |
-| [LeftImageSize](../../aspose.tasks.visualization/headerfooterinfo/leftimagesize) { get; set; } | 获取或设置左图的显示尺寸。 |
-| [LeftText](../../aspose.tasks.visualization/headerfooterinfo/lefttext) { get; set; } | 获取或设置在页眉或页脚中显示的左对齐文本。 |
+| [LeftImageSize](../../aspose.tasks.visualization/headerfooterinfo/leftimagesize) { get; set; } | 获取或设置左图的显示大小。 |
+| [LeftText](../../aspose.tasks.visualization/headerfooterinfo/lefttext) { get; set; } | 获取或设置要在页眉或页脚中显示的左对齐文本。 |
 | [RightImage](../../aspose.tasks.visualization/headerfooterinfo/rightimage) { get; set; } | 获取或设置要在页眉或页脚中显示的右对齐图像。 |
-| [RightImageSize](../../aspose.tasks.visualization/headerfooterinfo/rightimagesize) { get; set; } | 获取或设置右图的显示尺寸。 |
+| [RightImageSize](../../aspose.tasks.visualization/headerfooterinfo/rightimagesize) { get; set; } | 获取或设置右图的显示大小。 |
 | [RightText](../../aspose.tasks.visualization/headerfooterinfo/righttext) { get; set; } | 获取或设置要在页眉或页脚中显示的右对齐文本。 |
 
 ### 也可以看看

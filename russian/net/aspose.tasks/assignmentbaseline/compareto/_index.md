@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: IComparable реализация интерфейса. Сравнивает этот экземпляр с указанным базовым объектом.
+description: Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/assignmentbaseline/compareto/
 ---
 ## AssignmentBaseline.CompareTo method
 
-IComparable реализация интерфейса. Сравнивает этот экземпляр с указанным базовым объектом.
+Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом.
 
 ```csharp
 public int CompareTo(AssignmentBaseline other)
@@ -16,7 +16,7 @@ public int CompareTo(AssignmentBaseline other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | AssignmentBaseline | указанный базовый объект для сравнения с этим экземпляром. |
+| other | AssignmentBaseline | указанный объект Baseline для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 

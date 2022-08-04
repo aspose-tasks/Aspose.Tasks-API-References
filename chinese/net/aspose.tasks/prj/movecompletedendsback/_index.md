@@ -1,14 +1,14 @@
 ---
 title: MoveCompletedEndsBack
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定计划在状态日期后开始 的任务的已完成部分的结束是否应移回状态日期
+description: 确定是否应将计划在状态日期之后 start 但更早开始的任务的已完成部分的结束时间移回状态日期
 type: docs
 weight: 480
 url: /zh/net/aspose.tasks/prj/movecompletedendsback/
 ---
 ## Prj.MoveCompletedEndsBack field
 
-确定计划在状态日期后开始 的任务的已完成部分的结束是否应移回状态日期。
+确定是否应将计划在状态日期之后 start 但更早开始的任务的已完成部分的结束时间移回状态日期。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveCompletedEndsBack;

@@ -1,14 +1,14 @@
 ---
 title: TaskGroups
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает все определения групп на основе задач. TaskGroups  это набор объектовGroupaspose.tasks/group.
+description: Получает все определения групп на основе задач. TaskGroups  это наборGroupaspose.tasks/group объекты.
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks/project/taskgroups/
 ---
 ## Project.TaskGroups property
 
-Получает все определения групп на основе задач. TaskGroups — это набор объектов[`Group`](../../group).
+Получает все определения групп на основе задач. TaskGroups — это набор[`Group`](../../group) объекты.
 
 ```csharp
 public GroupCollection TaskGroups { get; }

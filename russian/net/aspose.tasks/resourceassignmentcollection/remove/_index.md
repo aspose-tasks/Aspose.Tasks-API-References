@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет указанное назначение из коллекции если оно не доступно только для чтения в противном случае генерирует исключение NotSupportedException.
+description: Удаляет указанное назначение из коллекции если оно не доступно только для чтения в противном случае вызывает исключение NotSupportedException.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/resourceassignmentcollection/remove/
 ---
 ## ResourceAssignmentCollection.Remove method
 
-Удаляет указанное назначение из коллекции, если оно не доступно только для чтения, в противном случае генерирует исключение NotSupportedException.
+Удаляет указанное назначение из коллекции, если оно не доступно только для чтения, в противном случае вызывает исключение NotSupportedException.
 
 ```csharp
 public bool Remove(ResourceAssignment item)
@@ -16,7 +16,7 @@ public bool Remove(ResourceAssignment item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | ResourceAssignment | Назначение для удаления. |
+| item | ResourceAssignment | Задание удалить. |
 
 ### Возвращаемое значение
 

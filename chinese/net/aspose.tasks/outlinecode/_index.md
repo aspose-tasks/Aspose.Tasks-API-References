@@ -18,8 +18,8 @@ public class OutlineCode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OutlineCode](outlinecode#constructor)() | 初始化[`OutlineCode`](../outlinecode)类的新实例。 |
-| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) | 使用指定的大纲代码及其值之一初始化[`OutlineCode`](../outlinecode)类的新实例。 |
+| [OutlineCode](outlinecode#constructor)() | 初始化[`OutlineCode`](../outlinecode)班级。 |
+| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) | 初始化[`OutlineCode`](../outlinecode)类使用指定的大纲代码及其值之一。 |
 
 ## 特性
 
@@ -27,11 +27,11 @@ public class OutlineCode
 | --- | --- |
 | [FieldId](../../aspose.tasks/outlinecode/fieldid) { get; set; } | 获取或设置项目Id自定义字段的数值。 |
 | [ValueGuid](../../aspose.tasks/outlinecode/valueguid) { get; set; } | 获取或设置值列表中值的 GUID。 ValueGuid 与值列表中的 FieldGuid 匹配。 |
-| [ValueId](../../aspose.tasks/outlinecode/valueid) { get; set; } | 获取或设置与大纲代码集合中的定义关联的值列表中的 Id。 |
+| [ValueId](../../aspose.tasks/outlinecode/valueid) { get; set; } | 获取或设置与大纲代码集合中的定义关联的值列表中的Id。 |
 
 ### 评论
 
-需要两条数据 - 指向大纲代码表的指针 由 FieldId 指定，值由 ValueId 或 ValueGuid 指针指定的 指向值列表。
+需要两条数据——指向由FieldId 指定的大纲代码表 的指针，以及由ValueId 或ValueGuid 指定的值 指向值列表的指针
 
 ### 也可以看看
 

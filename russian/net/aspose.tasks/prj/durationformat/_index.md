@@ -1,14 +1,14 @@
 ---
 title: DurationFormat
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Формат для выражения общей продолжительности.
+description: Формат для выражения массовой продолжительности.
 type: docs
 weight: 290
 url: /ru/net/aspose.tasks/prj/durationformat/
 ---
 ## Prj.DurationFormat field
 
-Формат для выражения общей продолжительности.
+Формат для выражения массовой продолжительности.
 
 ```csharp
 public static readonly Key<TimeUnitType, PrjKey> DurationFormat;

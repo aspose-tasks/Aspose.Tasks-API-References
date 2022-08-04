@@ -1,14 +1,14 @@
 ---
 title: GanttBarSize
 second_title: Aspose.Tasks for .NET API 参考
-description: 指定条的高度以磅为单位
+description: 以点为单位指定条形的高度
 type: docs
 weight: 680
 url: /zh/net/aspose.tasks/ganttbarsize/
 ---
 ## GanttBarSize enumeration
 
-指定条的高度（以磅为单位）。
+以点为单位指定条形的高度。
 
 ```csharp
 public enum GanttBarSize
@@ -18,7 +18,7 @@ public enum GanttBarSize
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| BarSize6 | `0` | 条形尺寸 6 磅。 |
+| BarSize6 | `0` | 条形尺寸 6 点。 |
 | BarSize8 | `1` | 条形尺寸 8 点。 |
 | BarSize10 | `2` | 条形尺寸 10 点。 |
 | BarSize12 | `3` | 条形尺寸 12 点。 |

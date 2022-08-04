@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API 参考
-description: 从此集合中删除WorkingTimeaspose.tasks/workingtime实例
+description: 移除WorkingTimeaspose.tasks/workingtime此集合中的实例
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/workingtimecollection/remove/
 ---
 ## WorkingTimeCollection.Remove method
 
-从此集合中删除[`WorkingTime`](../../workingtime)实例。
+移除[`WorkingTime`](../../workingtime)此集合中的实例。
 
 ```csharp
 public bool Remove(WorkingTime item)
@@ -20,7 +20,7 @@ public bool Remove(WorkingTime item)
 
 ### 返回值
 
-如果 WorkingTime 实例已成功从该集合中移除，则为 true；否则为假。
+如果 WorkingTime 实例已成功从此集合中删除，则为 true；否则为假。
 
 ### 也可以看看
 

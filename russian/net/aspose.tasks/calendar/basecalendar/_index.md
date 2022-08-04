@@ -1,14 +1,14 @@
 ---
 title: BaseCalendar
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает базовый календарь от которого зависит этот календарь. Применимо только если календарь не является базовым. Чтение/записьCalendaraspose.tasks/calendar.
+description: Получает или задает базовый календарь от которого зависит этот календарь. Применяется только в том случае если календарь не является базовым. Чтение/записьCalendaraspose.tasks/calendar .
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/calendar/basecalendar/
 ---
 ## Calendar.BaseCalendar property
 
-Получает или задает базовый календарь, от которого зависит этот календарь. Применимо, только если календарь не является базовым. Чтение/запись[`Calendar`](../../calendar).
+Получает или задает базовый календарь, от которого зависит этот календарь. Применяется только в том случае, если календарь не является базовым. Чтение/запись[`Calendar`](../../calendar) .
 
 ```csharp
 public Calendar BaseCalendar { get; set; }

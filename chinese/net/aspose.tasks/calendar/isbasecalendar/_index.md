@@ -1,14 +1,14 @@
 ---
 title: IsBaseCalendar
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取指示日历是否为基准日历的值 只读Boolean
+description: 获取指示日历是否为基准日历的值 只读Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/calendar/isbasecalendar/
 ---
 ## Calendar.IsBaseCalendar property
 
-获取指示日历是否为基准日历的值。 只读Boolean。
+获取指示日历是否为基准日历的值。 只读Boolean.
 
 ```csharp
 public bool IsBaseCalendar { get; }

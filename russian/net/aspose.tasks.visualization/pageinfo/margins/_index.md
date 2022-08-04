@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаPageMarginsaspose.tasks.visualization/pagemargins который определяет поля страницы.
+description: Получает экземплярPageMarginsaspose.tasks.visualization/pagemargins класс определяющий поля страницы.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/pageinfo/margins/
 ---
 ## PageInfo.Margins property
 
-Получает экземпляр класса[`PageMargins`](../../pagemargins), который определяет поля страницы.
+Получает экземпляр[`PageMargins`](../../pagemargins) класс, определяющий поля страницы.
 
 ```csharp
 public PageMargins Margins { get; }

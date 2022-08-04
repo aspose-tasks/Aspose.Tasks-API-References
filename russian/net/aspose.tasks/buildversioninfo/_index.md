@@ -19,7 +19,7 @@ public static class BuildVersionInfo
 | Имя | Описание |
 | --- | --- |
 | static readonly [AssemblyInformationalVersion](../../aspose.tasks/buildversioninfo/assemblyinformationalversion) | Информационный номер версии сборки. |
-| static readonly [AssemblyVersion](../../aspose.tasks/buildversioninfo/assemblyversion) | Сборочная версия. |
+| static readonly [AssemblyVersion](../../aspose.tasks/buildversioninfo/assemblyversion) | Версия сборки. |
 | static readonly [FileVersion](../../aspose.tasks/buildversioninfo/fileversion) | Версия файла. |
 | static readonly [Product](../../aspose.tasks/buildversioninfo/product) | Название продукта. |
 

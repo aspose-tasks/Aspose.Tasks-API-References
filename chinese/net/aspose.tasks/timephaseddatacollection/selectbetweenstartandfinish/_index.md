@@ -1,14 +1,14 @@
 ---
 title: SelectBetweenStartAndFinish
 second_title: Aspose.Tasks for .NET API 参考
-description: 选择startTime和finishTime之间的所有时间阶段在平均情况下具有 Olog n 复杂度
+description: 选择之间的所有时间阶段startTime和finishTime.在平均情况下具有 Olog n 复杂度
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish/
 ---
 ## TimephasedDataCollection.SelectBetweenStartAndFinish method
 
-选择*startTime*和*finishTime*之间的所有时间阶段。在平均情况下具有 O(log n) 复杂度。
+选择之间的所有时间阶段*startTime*和*finishTime*.在平均情况下具有 O(log n) 复杂度。
 
 ```csharp
 public IList<TimephasedData> SelectBetweenStartAndFinish(TimephasedDataType timephasedDataType, 
@@ -18,12 +18,12 @@ public IList<TimephasedData> SelectBetweenStartAndFinish(TimephasedDataType time
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | timephasedDataType | TimephasedDataType | 要选择的时间阶段类型。 |
-| startTime | DateTime | 间隔的开始。 |
+| startTime | DateTime | 间隔开始。 |
 | finishTime | DateTime | 间隔结束。 |
 
 ### 返回值
 
-返回[`TimephasedDataCollection`](../../timephaseddatacollection)按 Start 属性排序的数据的新列表实例。
+返回新的列表实例[`TimephasedDataCollection`](../../timephaseddatacollection)按 Start 属性排序的数据。
 
 ### 也可以看看
 

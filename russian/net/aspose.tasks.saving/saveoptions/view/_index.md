@@ -1,14 +1,14 @@
 ---
 title: View
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает список столбцов представления для отображения GanttChartColumnaspose.tasks.visualization/ganttchartcolumn. Если не установлено то отображаются только идентификаторы задач имена задач начало и конец. Если заданы свойства View иViewSettingsaspose.tasks.saving/saveoptions/viewsettings столбцы из View переопределяют столбцы из ViewSettings.
+description: Получает или задает список столбцов представления для отображения GanttChartColumnaspose.tasks.visualization/ganttchartcolumn . Если не задано то визуализируются только идентификаторы задач имена задач начало и конец.ViewSettingsaspose.tasks.saving/saveoptions/viewsettings свойства установлены столбцы из View переопределяют столбцы из ViewSettings.
 type: docs
 weight: 220
 url: /ru/net/aspose.tasks.saving/saveoptions/view/
 ---
 ## SaveOptions.View property
 
-Получает или задает список столбцов представления для отображения ([`GanttChartColumn`](../../../aspose.tasks.visualization/ganttchartcolumn)). Если не установлено, то отображаются только идентификаторы задач, имена задач, начало и конец. Если заданы свойства View и[`ViewSettings`](../viewsettings), столбцы из View переопределяют столбцы из ViewSettings.
+Получает или задает список столбцов представления для отображения ([`GanttChartColumn`](../../../aspose.tasks.visualization/ganttchartcolumn) ). Если не задано, то визуализируются только идентификаторы задач, имена задач, начало и конец.[`ViewSettings`](../viewsettings) свойства установлены, столбцы из View переопределяют столбцы из ViewSettings.
 
 ```csharp
 public ProjectView View { get; set; }

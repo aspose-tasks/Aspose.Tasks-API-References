@@ -1,14 +1,14 @@
 ---
 title: ByMonthDayRepetition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаByMonthDayRepetitionaspose.tasks/bymonthdayrepetition.
+description: Инициализирует новый экземплярByMonthDayRepetitionaspose.tasks/bymonthdayrepetition класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/bymonthdayrepetition/bymonthdayrepetition/
 ---
 ## ByMonthDayRepetition constructor
 
-Инициализирует новый экземпляр класса[`ByMonthDayRepetition`](../../bymonthdayrepetition).
+Инициализирует новый экземпляр[`ByMonthDayRepetition`](../../bymonthdayrepetition) класс.
 
 ```csharp
 public ByMonthDayRepetition()

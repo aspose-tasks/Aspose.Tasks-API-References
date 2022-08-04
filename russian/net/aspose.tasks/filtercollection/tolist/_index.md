@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует коллекцию фильтров в список объектовFilteraspose.tasks/filter.
+description: Преобразует набор фильтров в списокFilteraspose.tasks/filter объекты.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/filtercollection/tolist/
 ---
 ## FilterCollection.ToList method
 
-Преобразует коллекцию фильтров в список объектов[`Filter`](../../filter).
+Преобразует набор фильтров в список[`Filter`](../../filter) объекты.
 
 ```csharp
 public List<Filter> ToList()
@@ -16,7 +16,7 @@ public List<Filter> ToList()
 
 ### Возвращаемое значение
 
-Общий список объектов[`Filter`](../../filter).
+Общий список[`Filter`](../../filter) объекты.
 
 ### Смотрите также
 

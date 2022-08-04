@@ -1,14 +1,14 @@
 ---
 title: RecalculationValidationException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет собой исключение которое выдается при обнаружении ошибок в проекте после пересчета.
+description: Представляет исключение которое возникает при обнаружении ошибок в проекте после пересчета.
 type: docs
 weight: 1420
 url: /ru/net/aspose.tasks/recalculationvalidationexception/
 ---
 ## RecalculationValidationException class
 
-Представляет собой исключение, которое выдается при обнаружении ошибок в проекте после пересчета.
+Представляет исключение, которое возникает при обнаружении ошибок в проекте после пересчета.
 
 ```csharp
 public abstract class RecalculationValidationException : ValidationException

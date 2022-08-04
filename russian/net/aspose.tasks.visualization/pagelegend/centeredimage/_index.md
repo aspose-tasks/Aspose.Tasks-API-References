@@ -1,14 +1,14 @@
 ---
 title: CenteredImage
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает центрированное изображение которое будет отображаться в легенде страницы.
+description: Получает или задает центрированное изображение для отображения в легенде страницы.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/pagelegend/centeredimage/
 ---
 ## PageLegend.CenteredImage property
 
-Получает или задает центрированное изображение, которое будет отображаться в легенде страницы.
+Получает или задает центрированное изображение для отображения в легенде страницы.
 
 ```csharp
 public Image CenteredImage { get; set; }

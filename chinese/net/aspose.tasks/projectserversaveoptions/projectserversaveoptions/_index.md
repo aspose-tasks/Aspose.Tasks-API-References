@@ -1,14 +1,14 @@
 ---
 title: ProjectServerSaveOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ProjectServerSaveOptionsaspose.tasks/projectserversaveoptions类的新实例
+description: 初始化ProjectServerSaveOptionsaspose.tasks/projectserversaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/projectserversaveoptions/projectserversaveoptions/
 ---
 ## ProjectServerSaveOptions constructor
 
-初始化[`ProjectServerSaveOptions`](../../projectserversaveoptions)类的新实例。
+初始化[`ProjectServerSaveOptions`](../../projectserversaveoptions)类.
 
 ```csharp
 public ProjectServerSaveOptions()

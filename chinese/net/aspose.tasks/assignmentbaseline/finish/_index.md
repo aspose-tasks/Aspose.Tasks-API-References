@@ -1,14 +1,14 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置保存基线时资源分配的计划完成日期  保存此基线时资源分配的完成日期
+description: 获取或设置保存比较基准时资源分配的计划完成日期 保存此基线时资源分配的完成日期
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/assignmentbaseline/finish/
 ---
 ## AssignmentBaseline.Finish property
 
-获取或设置保存基线时资源分配的计划完成日期。  保存此基线时资源分配的完成日期。
+获取或设置保存比较基准时资源分配的计划完成日期。 保存此基线时资源分配的完成日期。
 
 ```csharp
 public DateTime? Finish { get; set; }

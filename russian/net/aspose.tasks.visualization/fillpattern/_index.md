@@ -1,14 +1,14 @@
 ---
 title: FillPattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Шаблон заполнения используемый в средней форме стержня Ганта.
+description: Образец заливки используемый в средней форме отрезка Ганта.
 type: docs
-weight: 2640
+weight: 2650
 url: /ru/net/aspose.tasks.visualization/fillpattern/
 ---
 ## FillPattern enumeration
 
-Шаблон заполнения, используемый в средней форме стержня Ганта.
+Образец заливки, используемый в средней форме отрезка Ганта.
 
 ```csharp
 public enum FillPattern
@@ -19,17 +19,17 @@ public enum FillPattern
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Hollow | `0` | Полый узор. |
-| SolidFill | `1` | Сплошная заливка. |
-| LightFill | `2` | Светлая заливка. |
+| SolidFill | `1` | Сплошной узор заливки. |
+| LightFill | `2` | Легкая заливка. |
 | MediumFill | `3` | Средняя заливка. |
-| DarkFill | `4` | Темная заливка. |
+| DarkFill | `4` | Темный узор заливки. |
 | DiagonalLeft | `5` | Диагональный левый узор. |
 | DiagonalRight | `6` | Диагональный узор справа. |
 | DiagonalCross | `7` | Диагональный крест. |
-| LineVertical | `8` | Линейный вертикальный узор. |
-| LineHorizontal | `9` | Линейный горизонтальный узор. |
+| LineVertical | `8` | Вертикальный узор линии. |
+| LineHorizontal | `9` | Горизонтальный шаблон линии. |
 | LineCross | `10` | Шаблон пересечения линий. |
-| SolidFillWithDashedBorder | `11` | Сплошной с пунктирной окантовкой. |
+| SolidFillWithDashedBorder | `11` | Сплошной рисунок с пунктирной рамкой. |
 
 ### Смотрите также
 

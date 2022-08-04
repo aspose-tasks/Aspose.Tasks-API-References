@@ -1,14 +1,14 @@
 ---
 title: RegularWork
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Количество не сверхурочных работ запланированных для назначения.
+description: Сумма не сверхурочной работы запланированная для задания.
 type: docs
 weight: 420
 url: /ru/net/aspose.tasks/asn/regularwork/
 ---
 ## Asn.RegularWork field
 
-Количество не сверхурочных работ, запланированных для назначения.
+Сумма не сверхурочной работы, запланированная для задания.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> RegularWork;

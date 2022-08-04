@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回风险项的短字符串表示 表示的确切细节未指定可能会发生变化
+description: 返回风险项的短字符串表示 表示的确切细节未指定可能会更改
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks.riskanalysis/riskitemstatistics/tostring/
 ---
 ## RiskItemStatistics.ToString method
 
-返回风险项的短字符串表示。 表示的确切细节未指定，可能会发生变化。
+返回风险项的短字符串表示。 表示的确切细节未指定，可能会更改。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-短字符串，代表 RiskItem 对象。
+表示 RiskItem 对象的短字符串。
 
 ### 也可以看看
 

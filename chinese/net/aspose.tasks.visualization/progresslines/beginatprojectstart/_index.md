@@ -1,14 +1,14 @@
 ---
 title: BeginAtProjectStart
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否从项目开始日期开始显示进度线
+description: 获取或设置一个值该值指示是否显示从项目开始日期开始的进度线
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/progresslines/beginatprojectstart/
 ---
 ## ProgressLines.BeginAtProjectStart property
 
-获取或设置一个值，该值指示是否从项目开始日期开始显示进度线。
+获取或设置一个值，该值指示是否显示从项目开始日期开始的进度线。
 
 ```csharp
 public bool BeginAtProjectStart { get; set; }

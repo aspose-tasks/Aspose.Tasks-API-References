@@ -1,14 +1,14 @@
 ---
 title: NormalColor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает цвет обычных линий сетки.
+description: Получает или задает цвет линий сетки нормалей.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/gridlines/normalcolor/
 ---
 ## Gridlines.NormalColor property
 
-Получает или задает цвет обычных линий сетки.
+Получает или задает цвет линий сетки нормалей.
 
 ```csharp
 public Color NormalColor { get; set; }

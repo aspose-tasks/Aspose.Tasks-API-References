@@ -1,14 +1,14 @@
 ---
 title: CssSavingCallback
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置为创建存储 CSS 的资源而调用的回调
+description: 获取或设置为创建资源存储CSS而调用的回调
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.saving/htmlsaveoptions/csssavingcallback/
 ---
 ## HtmlSaveOptions.CssSavingCallback property
 
-获取或设置为创建存储 CSS 的资源而调用的回调。
+获取或设置为创建资源存储CSS而调用的回调。
 
 ```csharp
 public ICssSavingCallback CssSavingCallback { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BarStyles
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取甘特图视图的父常用条形样式列表 GanttBarStyleaspose.tasks.visualization/ganttbarstyle
+description: 获取甘特图视图的父常用条样式列表 GanttBarStyleaspose.tasks.visualization/ganttbarstyle.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/ganttchartview/barstyles/
 ---
 ## GanttChartView.BarStyles property
 
-获取甘特图视图的父（常用）条形样式列表。 [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle)。
+获取甘特图视图的父（常用）条样式列表。 [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle).
 
 ```csharp
 public List<GanttBarStyle> BarStyles { get; }

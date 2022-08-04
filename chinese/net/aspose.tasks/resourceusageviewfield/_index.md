@@ -1,14 +1,14 @@
 ---
 title: ResourceUsageViewField
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示ResourceUsageView./resourceusageview对象资源使用视图字段中的可能字段
+description: 表示可能的字段ResourceUsageView./resourceusageview对象资源使用视图字段.
 type: docs
 weight: 1560
 url: /zh/net/aspose.tasks/resourceusageviewfield/
 ---
 ## ResourceUsageViewField enumeration
 
-表示[`ResourceUsageView`](../resourceusageview)对象资源使用视图字段中的可能字段。
+表示可能的字段[`ResourceUsageView`](../resourceusageview)对象资源使用视图字段.
 
 ```csharp
 public enum ResourceUsageViewField
@@ -25,14 +25,14 @@ public enum ResourceUsageViewField
 | ActualOvertimeWork | `3` | 表示实际加班工作资源使用视图字段。 |
 | CumulativeWork | `4` | 表示累积工时资源使用视图字段。 |
 | BaselineWork | `5` | 表示基线工作资源使用视图字段。 |
-| Overallocation | `6` | 表示Overallocation资源使用视图字段。 |
+| Overallocation | `6` | 表示Overallocation资源使用视图字段. |
 | PercentAllocation | `7` | 表示百分比分配资源使用视图字段。 |
 | PeakUnits | `8` | 表示峰值单位资源使用视图字段。 |
 | Cost | `9` | 表示成本资源使用视图字段。 |
 | ActualCost | `10` | 表示实际成本资源使用视图字段。 |
 | BaselineCost | `11` | 表示基准成本资源使用视图字段。 |
 | CumulativeCost | `12` | 表示累计成本资源使用视图字段。 |
-| BCWS | `13` | 表示BCWS资源使用视图字段。 |
+| BCWS | `13` | 表示 BCWS 资源使用视图字段。 |
 | BCWP | `14` | 表示 BCWP 资源使用视图字段。 |
 | ACWP | `15` | 表示 ACWP 资源使用视图字段。 |
 | SV | `16` | 表示SV资源使用视图字段。 |
@@ -63,12 +63,12 @@ public enum ResourceUsageViewField
 | Baseline10Cost | `41` | 表示 Baseline10 成本资源使用视图字段。 |
 | BudgetWork | `42` | 表示预算工作资源使用视图字段。 |
 | BudgetCost | `43` | 表示预算成本资源使用视图字段。 |
-| BaselineBudgetWork | `44` | 表示基准预算工时资源使用视图字段。 |
-| BaselineBudgetCost | `45` | 表示基线预算成本资源使用视图字段。 |
+| BaselineBudgetWork | `44` | 表示基准预算工作资源使用视图字段。 |
+| BaselineBudgetCost | `45` | 表示基准预算成本资源使用视图字段。 |
 | Baseline1BudgetWork | `46` | 表示基线 1 预算工作资源使用视图字段。 |
-| Baseline1BudgetCost | `47` | 表示 Baseline1 预算成本资源使用视图字段。 |
+| Baseline1BudgetCost | `47` | 表示基线 1 预算成本资源使用视图字段。 |
 | Baseline2BudgetWork | `48` | 表示基线 2 预算工作资源使用视图字段。 |
-| Baseline2BudgetCost | `49` | 表示 Baseline2 预算成本资源使用视图字段。 |
+| Baseline2BudgetCost | `49` | 表示基线 2 预算成本资源使用视图字段。 |
 | Baseline3BudgetWork | `50` | 表示 Baseline3 预算工作资源使用视图字段。 |
 | Baseline3BudgetCost | `51` | 表示 Baseline3 预算成本资源使用视图字段。 |
 | Baseline4BudgetWork | `52` | 表示 Baseline4 预算工作资源使用视图字段。 |
@@ -77,15 +77,15 @@ public enum ResourceUsageViewField
 | Baseline5BudgetCost | `55` | 表示 Baseline5 预算成本资源使用视图字段。 |
 | Baseline6BudgetWork | `56` | 表示 Baseline6 预算工作资源使用视图字段。 |
 | Baseline6BudgetCost | `57` | 表示 Baseline6 预算成本资源使用视图字段。 |
-| Baseline7BudgetWork | `58` | 表示 Baseline7 预算工时资源使用视图字段。 |
+| Baseline7BudgetWork | `58` | 表示 Baseline7 预算工作资源使用视图字段。 |
 | Baseline7BudgetCost | `59` | 表示 Baseline7 预算成本资源使用视图字段。 |
 | Baseline8BudgetWork | `60` | 表示 Baseline8 预算工作资源使用视图字段。 |
 | Baseline8BudgetCost | `61` | 表示 Baseline8 预算成本资源使用视图字段。 |
-| Baseline9BudgetWork | `62` | 表示 Baseline9 预算工时资源使用视图字段。 |
+| Baseline9BudgetWork | `62` | 表示 Baseline9 预算工作资源使用视图字段。 |
 | Baseline9BudgetCost | `63` | 表示 Baseline9 预算成本资源使用视图字段。 |
 | Baseline10BudgetWork | `64` | 表示 Baseline10 预算工作资源使用视图字段。 |
 | Baseline10BudgetCost | `65` | 表示 Baseline10 预算成本资源使用视图字段。 |
-| AllResourceRows | `66` | 表示 All Resource Rows 资源使用视图字段。 |
+| AllResourceRows | `66` | 表示所有资源行资源使用视图字段。 |
 | AllAssignmentRows | `67` | 表示所有分配行资源使用视图字段。 |
 
 ### 也可以看看

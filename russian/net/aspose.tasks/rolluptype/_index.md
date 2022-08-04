@@ -1,14 +1,14 @@
 ---
 title: RollupType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает тип сведения.
+description: Указывает тип объединения.
 type: docs
 weight: 1680
 url: /ru/net/aspose.tasks/rolluptype/
 ---
 ## RollupType enumeration
 
-Указывает тип сведения.
+Указывает тип объединения.
 
 ```csharp
 public enum RollupType
@@ -19,14 +19,14 @@ public enum RollupType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Null | `0` | Указывает нулевой тип свертки. |
-| Maximum | `1` | Указывает максимальный тип сведения. |
-| Minimum | `2` | Указывает минимальный тип свертки. |
+| Maximum | `1` | Указывает максимальный тип объединения. |
+| Minimum | `2` | Указывает тип минимального набора. |
 | Count | `3` | Указывает тип сведения счетчика. |
-| Sum | `4` | Указывает тип сведения суммы. |
-| Average | `5` | Указывает средний тип сведения. |
-| AverageFirstSublevel | `6` | Указывает тип свертки среднего первого подуровня. |
-| CountFirstSublevel | `7` | Указывает тип свертки Count First Sublevel. |
-| CountNonsummaries | `8` | Указывает тип свертки Count Non-Summaries. |
+| Sum | `4` | Указывает тип сводки суммы. |
+| Average | `5` | Указывает средний тип сводки. |
+| AverageFirstSublevel | `6` | Указывает тип сводки среднего первого подуровня. |
+| CountFirstSublevel | `7` | Указывает тип свертывания Count First Sublevel. |
+| CountNonsummaries | `8` | Указывает тип свертки Count Non-Summary. |
 
 ### Смотрите также
 

@@ -17,7 +17,7 @@ public static Task Filter(Task root, ICondition<Task> cond)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | root | Task | Корень дерева. |
-| cond | ICondition`1 | Применяемое условие. |
+| cond | ICondition`1 | Прикладное состояние. |
 
 ### Возвращаемое значение
 

@@ -3,7 +3,7 @@ title: TaskToColumnTextConverter
 second_title: Aspose.Tasks for .NET API 参考
 description: 任务的数据到列的字符串转换器
 type: docs
-weight: 3020
+weight: 3030
 url: /zh/net/aspose.tasks.visualization/tasktocolumntextconverter/
 ---
 ## TaskToColumnTextConverter delegate

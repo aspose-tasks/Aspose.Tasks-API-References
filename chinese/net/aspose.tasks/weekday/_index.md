@@ -1,14 +1,14 @@
 ---
 title: WeekDay
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示工作日它定义了一周中的常规天数或日历中的异常天数
+description: 表示工作日它定义了一周中的常规日子或日历中的例外日
 type: docs
-weight: 3150
+weight: 3160
 url: /zh/net/aspose.tasks/weekday/
 ---
 ## WeekDay class
 
-表示工作日，它定义了一周中的常规天数或日历中的异常天数。
+表示工作日，它定义了一周中的常规日子或日历中的例外日。
 
 ```csharp
 public class WeekDay
@@ -18,17 +18,17 @@ public class WeekDay
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WeekDay](weekday#constructor)() | 初始化[`WeekDay`](../weekday)类的新实例。 |
-| [WeekDay](weekday#constructor_1)(DayType) | 使用指定的日期类型初始化[`WeekDay`](../weekday)类的新实例。 |
-| [WeekDay](weekday#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | 使用指定的日期类型和工作时间段列表初始化[`WeekDay`](../weekday)类的新实例。 |
+| [WeekDay](weekday#constructor)() | 初始化[`WeekDay`](../weekday)类. |
+| [WeekDay](weekday#constructor_1)(DayType) | 初始化[`WeekDay`](../weekday)具有指定日期类型的类。 |
+| [WeekDay](weekday#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | 初始化[`WeekDay`](../weekday)具有指定日期类型和工作时间段列表的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [DayType](../../aspose.tasks/weekday/daytype) { get; } | 获取一天的类型。 |
-| [DayWorking](../../aspose.tasks/weekday/dayworking) { get; set; } | 获取或设置一个值，该值指示指定的日期或日期类型是否有效。 |
-| [FromDate](../../aspose.tasks/weekday/fromdate) { get; set; } | 获取或设置异常时间的开始。 |
+| [DayWorking](../../aspose.tasks/weekday/dayworking) { get; set; } | 获取或设置一个值，指示指定的日期或日期类型是否有效。 |
+| [FromDate](../../aspose.tasks/weekday/fromdate) { get; set; } | 获取或设置异常开始时间。 |
 | [ToDate](../../aspose.tasks/weekday/todate) { get; set; } | 获取或设置异常结束时间。 |
 | [WorkingTimes](../../aspose.tasks/weekday/workingtimes) { get; } | 获取此 WeekDay 实例的 WorkingTimeCollection。 定义工作日工作时间的工作时间集合。 |
 
@@ -39,9 +39,9 @@ public class WeekDay
 | static [CreateDefaultWorkingDay](../../aspose.tasks/weekday/createdefaultworkingday)(DayType) | 创建默认工作日。 |
 | [Clone](../../aspose.tasks/weekday/clone)() | 返回工作日的深层副本。 |
 | override [Equals](../../aspose.tasks/weekday/equals)(object) | 返回一个值，指示此实例是否等于指定对象。 |
-| override [GetHashCode](../../aspose.tasks/weekday/gethashcode)() | 返回[`WeekDay`](../weekday)类实例的哈希码值。 |
+| override [GetHashCode](../../aspose.tasks/weekday/gethashcode)() | 返回实例的哈希码值[`WeekDay`](../weekday)类. |
 | [GetWorkingTime](../../aspose.tasks/weekday/getworkingtime)() | 返回工作日的工作时间。 |
-| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype)(DayOfWeek) | 将 .Net 的DayOfWeek转换为[`DayType`](./daytype)。 |
+| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype)(DayOfWeek) | 投射 .Net 的DayOfWeek至[`DayType`](./daytype). |
 | static [SetDefaultWorkingTime](../../aspose.tasks/weekday/setdefaultworkingtime)(WeekDay) | 设置指定工作日的默认时间段。 |
 
 ### 也可以看看

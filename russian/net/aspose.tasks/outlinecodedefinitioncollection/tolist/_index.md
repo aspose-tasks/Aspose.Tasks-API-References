@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует этот объект OutlineCodeDefinitionCollection в список объектовOutlineCodeDefinitionaspose.tasks/outlinecodedefinition.
+description: Преобразует этот объект OutlineCodeDefinitionCollection в списокOutlineCodeDefinitionaspose.tasks/outlinecodedefinition объекты.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/outlinecodedefinitioncollection/tolist/
 ---
 ## OutlineCodeDefinitionCollection.ToList method
 
-Преобразует этот объект OutlineCodeDefinitionCollection в список объектов[`OutlineCodeDefinition`](../../outlinecodedefinition).
+Преобразует этот объект OutlineCodeDefinitionCollection в список[`OutlineCodeDefinition`](../../outlinecodedefinition) объекты.
 
 ```csharp
 public List<OutlineCodeDefinition> ToList()
@@ -16,7 +16,7 @@ public List<OutlineCodeDefinition> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`OutlineCodeDefinition`](../../outlinecodedefinition).
+Список[`OutlineCodeDefinition`](../../outlinecodedefinition) объекты.
 
 ### Смотрите также
 

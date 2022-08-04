@@ -1,14 +1,14 @@
 ---
 title: InsideField
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要在栏内显示的数据 Fieldaspose.tasks/field
+description: 获取或设置要在栏内显示的数据 Fieldaspose.tasks/field.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/insidefield/
 ---
 ## GanttBarStyle.InsideField property
 
-获取或设置要在栏内显示的数据。 [`Field`](../../../aspose.tasks/field)。
+获取或设置要在栏内显示的数据。 [`Field`](../../../aspose.tasks/field).
 
 ```csharp
 public Field InsideField { get; set; }

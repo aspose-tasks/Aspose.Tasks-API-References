@@ -1,14 +1,14 @@
 ---
 title: Finish
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает дату окончания периода данных с поэтапной разбивкой по времени.
+description: Получает или задает дату окончания периода данных с разбивкой по времени.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/timephaseddata/finish/
 ---
 ## TimephasedData.Finish property
 
-Получает или задает дату окончания периода данных с поэтапной разбивкой по времени.
+Получает или задает дату окончания периода данных с разбивкой по времени.
 
 ```csharp
 public DateTime Finish { get; set; }

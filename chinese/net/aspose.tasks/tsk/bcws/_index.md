@@ -1,14 +1,14 @@
 ---
 title: BCWS
 second_title: Aspose.Tasks for .NET API 参考
-description: 截至状态日期或今天日期的累计时间阶段性基准成本
+description: 截至状态日期或今天日期的累计时间分段基准成本
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/tsk/bcws/
 ---
 ## Tsk.BCWS field
 
-截至状态日期或今天日期的累计时间阶段性基准成本。
+截至状态日期或今天日期的累计时间分段基准成本。
 
 ```csharp
 public static readonly Key<double, TaskKey> BCWS;

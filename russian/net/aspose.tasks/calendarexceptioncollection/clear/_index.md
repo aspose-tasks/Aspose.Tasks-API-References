@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет все элементы из коллекцииCalendarExceptionCollectionaspose.tasks/calendarexceptioncollection.
+description: Удаляет все элементы изCalendarExceptionCollectionaspose.tasks/calendarexceptioncollection .
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/calendarexceptioncollection/clear/
 ---
 ## CalendarExceptionCollection.Clear method
 
-Удаляет все элементы из коллекции[`CalendarExceptionCollection`](../../calendarexceptioncollection).
+Удаляет все элементы из[`CalendarExceptionCollection`](../../calendarexceptioncollection) .
 
 ```csharp
 public void Clear()

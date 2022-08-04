@@ -1,14 +1,14 @@
 ---
 title: BarItemType
 second_title: Aspose.Tasks for .NET API 参考
-description: 要更改条形样式的项目类型
+description: 更改条形样式的项目类型
 type: docs
-weight: 2580
+weight: 2590
 url: /zh/net/aspose.tasks.visualization/baritemtype/
 ---
 ## BarItemType enumeration
 
-要更改条形样式的项目类型。
+更改条形样式的项目类型。
 
 ```csharp
 public enum BarItemType
@@ -20,11 +20,11 @@ public enum BarItemType
 | --- | --- | --- |
 | Task | `0` | 指示任务栏项目类型。 |
 | Summary | `1` | 表示摘要栏项目类型。 |
-| ProjectSummary | `2` | 表示项目摘要栏项目类型。 |
+| ProjectSummary | `2` | 表示项目汇总栏项目类型。 |
 | ManualTask | `3` | 表示手动任务栏项目类型。 |
 | InactiveTask | `4` | 表示非活动任务栏项目类型。 |
 | CriticalTask | `5` | 表示关键任务栏项目类型。 |
-| Milestone | `6` | 指示里程碑任务栏项目类型。 |
+| Milestone | `6` | 表示里程碑任务栏项目类型。 |
 | ManualSummary | `7` | 表示手动汇总栏项目类型。 |
 | Split | `8` | 表示拆分栏项目类型。 |
 | ExternalTasks | `9` | 表示外部任务栏项目类型。 |

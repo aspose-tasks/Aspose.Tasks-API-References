@@ -1,14 +1,14 @@
 ---
 title: OleObjectCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет коллекцию содержащую экземпляры классаOleObject./oleobject.
+description: Представляет коллекцию содержащую экземплярыOleObject./oleobject класс.
 type: docs
 weight: 990
 url: /ru/net/aspose.tasks/oleobjectcollection/
 ---
 ## OleObjectCollection class
 
-Представляет коллекцию, содержащую экземпляры класса[`OleObject`](../oleobject).
+Представляет коллекцию, содержащую экземпляры[`OleObject`](../oleobject) класс.
 
 ```csharp
 public sealed class OleObjectCollection : IList<OleObject>
@@ -20,7 +20,7 @@ public sealed class OleObjectCollection : IList<OleObject>
 | --- | --- |
 | [Clear](../../aspose.tasks/oleobjectcollection/clear)() | Очищает коллекцию. Чтобы сохранить эти изменения, project.Save следует вызывать с помощью new MPPSaveOptions { WriteViewData = true; } |
 | [GetEnumerator](../../aspose.tasks/oleobjectcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [ToList](../../aspose.tasks/oleobjectcollection/tolist)() | Преобразует экземпляр класса[`OleObjectCollection`](../oleobjectcollection)в список, содержащий экземпляры[`OleObject`](../oleobject)класс. |
+| [ToList](../../aspose.tasks/oleobjectcollection/tolist)() | Преобразует экземпляр[`OleObjectCollection`](../oleobjectcollection) class в список, содержащий экземпляры[`OleObject`](../oleobject) класс. |
 
 ### Смотрите также
 

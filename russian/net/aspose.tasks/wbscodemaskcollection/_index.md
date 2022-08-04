@@ -3,7 +3,7 @@ title: WBSCodeMaskCollection
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет набор объектов WBSCodeMask.
 type: docs
-weight: 3120
+weight: 3130
 url: /ru/net/aspose.tasks/wbscodemaskcollection/
 ---
 ## WBSCodeMaskCollection class
@@ -19,7 +19,7 @@ public class WBSCodeMaskCollection : IList<WBSCodeMask>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/wbscodemaskcollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/wbscodemaskcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/wbscodemaskcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 
 ## Методы
 
@@ -27,11 +27,11 @@ public class WBSCodeMaskCollection : IList<WBSCodeMask>
 | --- | --- |
 | [Add](../../aspose.tasks/wbscodemaskcollection/add)(WBSCodeMask) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/wbscodemaskcollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/wbscodemaskcollection/contains)(WBSCodeMask) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/wbscodemaskcollection/contains)(WBSCodeMask) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/wbscodemaskcollection/copyto)(WBSCodeMask[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/wbscodemaskcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/wbscodemaskcollection/remove)(WBSCodeMask) | Удаляет первое вхождение определенного объекта из этой коллекции. |
-| [ToList](../../aspose.tasks/wbscodemaskcollection/tolist)() | Преобразует WBSCodeMaskCollection в список объектов[`WBSCodeMask`](../wbscodemask). |
+| [ToList](../../aspose.tasks/wbscodemaskcollection/tolist)() | Преобразует WBSCodeMaskCollection в список[`WBSCodeMask`](../wbscodemask) объекты. |
 
 ### Смотрите также
 

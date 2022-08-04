@@ -18,7 +18,7 @@ public static void Apply<T>(IList<T> list, IAlgorithm<T> algorithm, int startInd
 | --- | --- |
 | T | Тип объекта, к которому применяется алгоритм. |
 | list | Список для обработки. |
-| алгоритм | Примененный алгоритм. |
+| algorithm | Прикладной алгоритм. |
 | startIndex | Позиция начального элемента. |
 
 ### Смотрите также

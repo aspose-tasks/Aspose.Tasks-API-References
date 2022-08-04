@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回TaskLinkaspose.tasks/tasklink类实例的哈希码值
+description: 返回实例的哈希码值TaskLinkaspose.tasks/tasklink类.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/tasklink/gethashcode/
 ---
 ## TaskLink.GetHashCode method
 
-返回[`TaskLink`](../../tasklink)类实例的哈希码值。
+返回实例的哈希码值[`TaskLink`](../../tasklink)类.
 
 ```csharp
 public override int GetHashCode()

@@ -22,7 +22,7 @@ public enum ElementType
 | Task | `1` | 表示任务元素类型。 |
 | Resource | `2` | 表示资源元素类型。 |
 | Calendar | `3` | 表示日历元素类型。 |
-| Assignment | `4` | 表示赋值元素类型。 |
+| Assignment | `4` | 表示分配元素类型。 |
 
 ### 也可以看看
 

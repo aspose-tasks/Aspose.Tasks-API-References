@@ -1,14 +1,14 @@
 ---
 title: OutlineCodeDefinitionCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示OutlineCodeDefinition./outlinecodedefinition对象的集合
+description: 代表一个集合OutlineCodeDefinition./outlinecodedefinition对象.
 type: docs
 weight: 1040
 url: /zh/net/aspose.tasks/outlinecodedefinitioncollection/
 ---
 ## OutlineCodeDefinitionCollection class
 
-表示[`OutlineCodeDefinition`](../outlinecodedefinition)对象的集合。
+代表一个集合[`OutlineCodeDefinition`](../outlinecodedefinition)对象.
 
 ```csharp
 public class OutlineCodeDefinitionCollection : IList<OutlineCodeDefinition>
@@ -27,7 +27,7 @@ public class OutlineCodeDefinitionCollection : IList<OutlineCodeDefinition>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/outlinecodedefinitioncollection/add)(OutlineCodeDefinition) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/outlinecodedefinitioncollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/outlinecodedefinitioncollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/outlinecodedefinitioncollection/contains)(OutlineCodeDefinition) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/outlinecodedefinitioncollection/copyto)(OutlineCodeDefinition[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/outlinecodedefinitioncollection/getenumerator)() | 返回此集合的枚举数。 |
@@ -35,7 +35,7 @@ public class OutlineCodeDefinitionCollection : IList<OutlineCodeDefinition>
 | [Insert](../../aspose.tasks/outlinecodedefinitioncollection/insert)(int, OutlineCodeDefinition) | 在指定索引处插入指定项。 |
 | [Remove](../../aspose.tasks/outlinecodedefinitioncollection/remove)(OutlineCodeDefinition) | 从此集合中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.tasks/outlinecodedefinitioncollection/removeat)(int) | 删除指定索引处的项目。 |
-| [ToList](../../aspose.tasks/outlinecodedefinitioncollection/tolist)() | 将此 OutlineCodeDefinitionCollection 对象转换为[`OutlineCodeDefinition`](../outlinecodedefinition)对象的列表。 |
+| [ToList](../../aspose.tasks/outlinecodedefinitioncollection/tolist)() | 将此 OutlineCodeDefinitionCollection 对象转换为[`OutlineCodeDefinition`](../outlinecodedefinition)对象. |
 
 ### 也可以看看
 

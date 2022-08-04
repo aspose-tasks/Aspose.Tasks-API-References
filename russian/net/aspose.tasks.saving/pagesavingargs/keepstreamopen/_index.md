@@ -1,14 +1,14 @@
 ---
 title: KeepStreamOpen
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее должна ли процедура рендеринга сохранятьStreamaspose.tasks.saving/pagesavingargs/streamоткрытым после того как страница написано.
+description: Получает или задает значение указывающее должна ли процедура рендеринга сохранятьStreamaspose.tasks.saving/pagesavingargs/stream открывается после записи страницы.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/pagesavingargs/keepstreamopen/
 ---
 ## PageSavingArgs.KeepStreamOpen property
 
-Получает или задает значение, указывающее, должна ли процедура рендеринга сохранять[`Stream`](../stream)открытым после того, как страница написано.
+Получает или задает значение, указывающее, должна ли процедура рендеринга сохранять[`Stream`](../stream) открывается после записи страницы.
 
 ```csharp
 public bool KeepStreamOpen { get; set; }

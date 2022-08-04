@@ -24,7 +24,7 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 | [ParentProject](../../aspose.tasks/resourceassignment/parentproject) { get; } | Получает родительский проект для этого назначения. |
 | [Resource](../../aspose.tasks/resourceassignment/resource) { get; set; } | Ресурс, назначенный задаче. |
 | [Task](../../aspose.tasks/resourceassignment/task) { get; set; } | Задача, которой назначен ресурс. |
-| [TimephasedData](../../aspose.tasks/resourceassignment/timephaseddata) { get; set; } | Получает или задает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection)класса, содержащего элементы[`TimephasedData`](./timephaseddata)класс. |
+| [TimephasedData](../../aspose.tasks/resourceassignment/timephaseddata) { get; set; } | Получает или задает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection) класс, содержащий элементы[`TimephasedData`](./timephaseddata) класс. |
 
 ## Методы
 
@@ -32,16 +32,16 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 | --- | --- |
 | [Delete](../../aspose.tasks/resourceassignment/delete)() | Удаляет назначение ресурсов из коллекции назначений проекта. |
 | override [Equals](../../aspose.tasks/resourceassignment/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [Equals](../../aspose.tasks/resourceassignment/equals#equals)(ResourceAssignment) | Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру класса[`ResourceAssignment`](../resourceassignment). |
+| [Equals](../../aspose.tasks/resourceassignment/equals#equals)(ResourceAssignment) | Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру[`ResourceAssignment`](../resourceassignment) класс. |
 | [Get&lt;T&gt;](../../aspose.tasks/resourceassignment/get)(Key&lt;T, AsnKey&gt;) | Возвращает значение, которому сопоставлено свойство в этом контейнере. |
-| override [GetHashCode](../../aspose.tasks/resourceassignment/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`ResourceAssignment`](../resourceassignment). |
-| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection)объект с экземплярами[`TimephasedData`](./timephaseddata)класс в пределах заданных дат начала и окончанияAssignmentWork. |
-| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection)класс, содержащий экземпляры[`TimephasedData`](./timephaseddata)класс в пределах заданных дат начала и окончания указанного[`TimephasedDataType`](../timephaseddatatype). |
-| [MakeTPs](../../aspose.tasks/resourceassignment/maketps)(DateTime, TimeSpan, Calendar, List&lt;TimephasedData&gt;, bool, int) | Генерирует список поэтапных по времени данных. |
+| override [GetHashCode](../../aspose.tasks/resourceassignment/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`ResourceAssignment`](../resourceassignment) класс. |
+| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection) объект с экземплярами[`TimephasedData`](./timephaseddata) класс в пределах заданных дат начала и окончанияAssignmentWork . |
+| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection) класс, содержащий экземпляры[`TimephasedData`](./timephaseddata) класс в пределах заданных дат начала и окончания указанных[`TimephasedDataType`](../timephaseddatatype) . |
+| [MakeTPs](../../aspose.tasks/resourceassignment/maketps)(DateTime, TimeSpan, Calendar, List&lt;TimephasedData&gt;, bool, int) | Генерирует список поэтапных данных по времени. |
 | [Set&lt;T&gt;](../../aspose.tasks/resourceassignment/set)(Key&lt;T, AsnKey&gt;, T) | Сопоставляет указанное свойство с указанным значением в этом контейнере. |
 | [SplitTask](../../aspose.tasks/resourceassignment/splittask)(DateTime, DateTime, Calendar) | Разбивает задачу на две части. |
-| [TimephasedDataFromTaskDuration](../../aspose.tasks/resourceassignment/timephaseddatafromtaskduration)(Calendar) | Генерирует список поэтапных данных на основе продолжительности задачи и запланированной даты начала. |
-| override [ToString](../../aspose.tasks/resourceassignment/tostring)() | Возвращает короткое строковое представление экземпляра класса[`ResourceAssignment`](../resourceassignment). Точные детали представления не указаны и могут быть изменены. |
+| [TimephasedDataFromTaskDuration](../../aspose.tasks/resourceassignment/timephaseddatafromtaskduration)(Calendar) | Создает список поэтапных данных на основе продолжительности задачи и запланированной даты начала. |
+| override [ToString](../../aspose.tasks/resourceassignment/tostring)() | Возвращает короткое строковое представление экземпляра[`ResourceAssignment`](../resourceassignment) class. Точные детали представления не указаны и могут быть изменены. |
 
 ### Смотрите также
 

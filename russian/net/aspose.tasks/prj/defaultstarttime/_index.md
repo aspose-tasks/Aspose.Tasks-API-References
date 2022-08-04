@@ -1,14 +1,14 @@
 ---
 title: DefaultStartTime
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Время начала новых задач по умолчанию.
+description: Время запуска новых задач по умолчанию.
 type: docs
 weight: 260
 url: /ru/net/aspose.tasks/prj/defaultstarttime/
 ---
 ## Prj.DefaultStartTime field
 
-Время начала новых задач по умолчанию.
+Время запуска новых задач по умолчанию.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> DefaultStartTime;

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объект CalendarExceptionCollection в список объектовCalendarExceptionaspose.tasks/calendarexception.
+description: Преобразует объект CalendarExceptionCollection в списокCalendarExceptionaspose.tasks/calendarexception объекты.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/calendarexceptioncollection/tolist/
 ---
 ## CalendarExceptionCollection.ToList method
 
-Преобразует объект CalendarExceptionCollection в список объектов[`CalendarException`](../../calendarexception).
+Преобразует объект CalendarExceptionCollection в список[`CalendarException`](../../calendarexception) объекты.
 
 ```csharp
 public List<CalendarException> ToList()
@@ -16,7 +16,7 @@ public List<CalendarException> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`CalendarException`](../../calendarexception).
+Список[`CalendarException`](../../calendarexception) объекты.
 
 ### Смотрите также
 

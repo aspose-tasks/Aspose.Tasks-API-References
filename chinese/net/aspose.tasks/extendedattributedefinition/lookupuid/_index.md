@@ -16,7 +16,7 @@ public string LookupUid { get; }
 
 ### 评论
 
-为了使用查找创建自定义字段，请使用工厂方法之一:[`CreateLookupTaskDefinition`](../createlookuptaskdefinition)或[`CreateLookupResourceDefinition`](../createlookupresourcedefinition)。
+为了使用查找创建自定义字段，请使用工厂方法之一：[`CreateLookupTaskDefinition`](../createlookuptaskdefinition)或者[`CreateLookupResourceDefinition`](../createlookupresourcedefinition).
 
 ### 也可以看看
 

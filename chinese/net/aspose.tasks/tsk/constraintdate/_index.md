@@ -1,14 +1,14 @@
 ---
 title: ConstraintDate
 second_title: Aspose.Tasks for .NET API 参考
-description: 与约束类型关联的特定日期
+description: 与约束类型关联的具体日期
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/tsk/constraintdate/
 ---
 ## Tsk.ConstraintDate field
 
-与约束类型关联的特定日期。
+与约束类型关联的具体日期。
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> ConstraintDate;

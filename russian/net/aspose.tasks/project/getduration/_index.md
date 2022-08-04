@@ -1,14 +1,14 @@
 ---
 title: GetDuration
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетDurationaspose.tasks/durationобъект с указанным количеством единиц и форматом продолжительности по умолчанию который определен в настройках проектаDurationFormataspose.tasks/prj/durationformat.
+description: получаетDurationaspose.tasks/duration объект с указанным количеством единиц и форматом продолжительности по умолчанию который определяется в настройках проектаDurationFormataspose.tasks/prj/durationformat .
 type: docs
 weight: 290
 url: /ru/net/aspose.tasks/project/getduration/
 ---
 ## GetDuration(double) {#getduration}
 
-Получает[`Duration`](../../duration)объект с указанным количеством единиц и форматом продолжительности по умолчанию, который определен в настройках проекта[`DurationFormat`](../../prj/durationformat).
+получает[`Duration`](../../duration) объект с указанным количеством единиц и форматом продолжительности по умолчанию, который определяется в настройках проекта[`DurationFormat`](../../prj/durationformat) .
 
 ```csharp
 public Duration GetDuration(double val)
@@ -33,7 +33,7 @@ public Duration GetDuration(double val)
 
 ## GetDuration(double, TimeUnitType) {#getduration_1}
 
-Получает[`Duration`](../../duration)объект с указанным количеством[`TimeUnitType`](../../timeunittype)единицы.
+получает[`Duration`](../../duration) объект с указанным количеством[`TimeUnitType`](../../timeunittype) ед.
 
 ```csharp
 public Duration GetDuration(double val, TimeUnitType timeUnit)
@@ -42,7 +42,7 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | val | Double | указанное количество единиц. |
-| timeUnit | TimeUnitType | указано значение TimeUnitType. |
+| timeUnit | TimeUnitType | указанное значение TimeUnitType. |
 
 ### Возвращаемое значение
 
@@ -60,7 +60,7 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 
 ## GetDuration(TimeSpan, TimeUnitType) {#getduration_2}
 
-Получает[`Duration`](../../duration)объект с указаннымTimeSpanзначением и указанное[`TimeUnitType`](../../timeunittype)значение.
+получает[`Duration`](../../duration) объект с указаннымTimeSpan значение и указано[`TimeUnitType`](../../timeunittype) значение.
 
 ```csharp
 public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
@@ -68,8 +68,8 @@ public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| timeSpan | TimeSpan | указаноTimeSpanзначение. |
-| timeUnit | TimeUnitType | указано значение TimeUnitType. |
+| timeSpan | TimeSpan | указанныйTimeSpan ценность. |
+| timeUnit | TimeUnitType | указанное значение TimeUnitType. |
 
 ### Возвращаемое значение
 

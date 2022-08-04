@@ -20,7 +20,7 @@ public bool Remove(TaskLink item)
 
 ### Возвращаемое значение
 
-удалил TaskLink.
+удален тасклинк.
 
 ### Смотрите также
 

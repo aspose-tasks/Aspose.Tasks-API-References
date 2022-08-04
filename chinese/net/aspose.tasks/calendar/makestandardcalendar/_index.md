@@ -16,11 +16,11 @@ public static Calendar MakeStandardCalendar(Calendar calendar)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| calendar | Calendar | 用于制作标准日历的日历。 |
+| calendar | Calendar | 从中制作标准日历的日历。 |
 
 ### 返回值
 
-创建日历。
+创建的日历。
 
 ### 也可以看看
 

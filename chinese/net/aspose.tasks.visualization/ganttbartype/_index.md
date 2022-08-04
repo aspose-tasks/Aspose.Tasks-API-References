@@ -3,7 +3,7 @@ title: GanttBarType
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定条形类型
 type: docs
-weight: 2720
+weight: 2730
 url: /zh/net/aspose.tasks.visualization/ganttbartype/
 ---
 ## GanttBarType enumeration

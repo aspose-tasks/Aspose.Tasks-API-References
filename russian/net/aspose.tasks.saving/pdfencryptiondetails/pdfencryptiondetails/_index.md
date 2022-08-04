@@ -1,14 +1,14 @@
 ---
 title: PdfEncryptionDetails
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPdfEncryptionDetailsaspose.tasks.saving/pdfencryptiondetails.
+description: Инициализирует новый экземплярPdfEncryptionDetailsaspose.tasks.saving/pdfencryptiondetails класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails constructor
 
-Инициализирует новый экземпляр класса[`PdfEncryptionDetails`](../../pdfencryptiondetails).
+Инициализирует новый экземпляр[`PdfEncryptionDetails`](../../pdfencryptiondetails) класс.
 
 ```csharp
 public PdfEncryptionDetails(string userPassword, string ownerPassword, 
@@ -19,7 +19,7 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword,
 | --- | --- | --- |
 | userPassword | String | Пароль пользователя, позволяющий открывать защищенные документы. |
 | ownerPassword | String | Пароль владельца, позволяющий открывать защищенные документы. |
-| encryptionAlgorithm | PdfEncryptionAlgorithm | Экземпляр[`PdfEncryptionAlgorithm`](../../pdfencryptionalgorithm), указывающий алгоритм шифрования. |
+| encryptionAlgorithm | PdfEncryptionAlgorithm | [`PdfEncryptionAlgorithm`](../../pdfencryptionalgorithm) instance, которые указывают алгоритм шифрования. |
 
 ### Смотрите также
 

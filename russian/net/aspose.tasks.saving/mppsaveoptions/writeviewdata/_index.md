@@ -1,14 +1,14 @@
 ---
 title: WriteViewData
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее следует ли записывать данные представления при сохранении в MPP.  Данные представления включают коллекции Project.Views Filters и Tables.
+description: Получает или задает значение указывающее следует ли записывать данные представления при сохранении в MPP. Данные представления включают коллекции Project.Views Filters и Tables.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.saving/mppsaveoptions/writeviewdata/
 ---
 ## MPPSaveOptions.WriteViewData property
 
-Получает или задает значение, указывающее, следует ли записывать данные представления при сохранении в MPP.  Данные представления включают коллекции Project.Views, Filters и Tables.
+Получает или задает значение, указывающее, следует ли записывать данные представления при сохранении в MPP. Данные представления включают коллекции Project.Views, Filters и Tables.
 
 ```csharp
 public bool WriteViewData { get; set; }

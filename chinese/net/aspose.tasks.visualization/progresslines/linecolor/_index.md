@@ -1,14 +1,14 @@
 ---
 title: LineColor
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置当前进度线的线颜色
+description: 获取或设置当前进度线的线条颜色
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks.visualization/progresslines/linecolor/
 ---
 ## ProgressLines.LineColor property
 
-获取或设置当前进度线的线颜色。
+获取或设置当前进度线的线条颜色。
 
 ```csharp
 public Color LineColor { get; set; }

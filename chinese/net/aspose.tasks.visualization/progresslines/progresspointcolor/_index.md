@@ -1,14 +1,14 @@
 ---
 title: ProgressPointColor
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置进度点颜色
+description: 获取或设置进度点的颜色
 type: docs
 weight: 160
 url: /zh/net/aspose.tasks.visualization/progresslines/progresspointcolor/
 ---
 ## ProgressLines.ProgressPointColor property
 
-获取或设置进度点颜色。
+获取或设置进度点的颜色。
 
 ```csharp
 public Color ProgressPointColor { get; set; }

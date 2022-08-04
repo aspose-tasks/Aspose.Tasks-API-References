@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回一个标志指示此实例是否等于指定对象
+description: 返回一个标志指示此实例是否等于指定的对象
 type: docs
 weight: 310
 url: /zh/net/aspose.tasks/extendedattributedefinition/equals/
 ---
 ## ExtendedAttributeDefinition.Equals method
 
-返回一个标志，指示此实例是否等于指定对象。
+返回一个标志，指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)

@@ -1,14 +1,14 @@
 ---
 title: TreeAlgorithmBaseT
 second_title: Aspose.Tasks for .NET API 参考
-description: 实现的基类 ITreeAlgorithm./itreealgorithm-1
+description: 实现的基类ITreeAlgorithm./itreealgorithm-1
 type: docs
-weight: 2430
+weight: 2440
 url: /zh/net/aspose.tasks.util/treealgorithmbase-1/
 ---
 ## TreeAlgorithmBase&lt;T&gt; class
 
-实现的基类 [`ITreeAlgorithm`](../itreealgorithm-1)
+实现的基类[`ITreeAlgorithm`](../itreealgorithm-1)
 
 ```csharp
 public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
@@ -22,7 +22,7 @@ public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Alg](../../aspose.tasks.util/treealgorithmbase`1/alg)(T, int) | 处理树的节点。 |
+| abstract [Alg](../../aspose.tasks.util/treealgorithmbase`1/alg)(T, int) | 处理树的一个节点。 |
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase`1/postalg)(T, int) | 在处理树的节点后调用。 |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase`1/prealg)(T, int) | 在处理树的节点之前调用。 |
 

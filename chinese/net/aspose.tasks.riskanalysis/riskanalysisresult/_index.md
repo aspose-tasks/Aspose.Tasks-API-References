@@ -18,9 +18,9 @@ public class RiskAnalysisResult
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetRiskItems](../../aspose.tasks.riskanalysis/riskanalysisresult/getriskitems)(RiskItemType) | 返回指定风险类型的[`RiskItemStatisticsCollection`](../riskitemstatisticscollection)的实例。 |
+| [GetRiskItems](../../aspose.tasks.riskanalysis/riskanalysisresult/getriskitems)(RiskItemType) | 返回一个实例[`RiskItemStatisticsCollection`](../riskitemstatisticscollection)对于指定的风险类型。 |
 | [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport#savereport)(Stream) | 将风险分析报告以 PDF 格式保存到流中。 |
-| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport#savereport_1)(string) | 将风险分析报告以PDF格式保存到指定文件路径。 |
+| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport#savereport_1)(string) | 将风险分析报告以PDF格式保存到指定的文件路径。 |
 
 ### 也可以看看
 

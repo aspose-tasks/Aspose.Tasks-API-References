@@ -1,14 +1,14 @@
 ---
 title: RemoveTask
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаRemoveTaskaspose.tasks.util/removetask.
+description: Инициализирует новый экземплярRemoveTaskaspose.tasks.util/removetask класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/removetask/removetask/
 ---
 ## RemoveTask constructor
 
-Инициализирует новый экземпляр класса[`RemoveTask`](../../removetask).
+Инициализирует новый экземпляр[`RemoveTask`](../../removetask) класс.
 
 ```csharp
 public RemoveTask(Task task)
@@ -16,7 +16,7 @@ public RemoveTask(Task task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | Задача для удаления. |
+| task | Task | Задача удалить. |
 
 ### Смотрите также
 

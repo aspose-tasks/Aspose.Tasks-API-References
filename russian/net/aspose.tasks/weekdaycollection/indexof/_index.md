@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает индексWeekDayaspose.tasks/weekdayуказанного.
+description: Возвращает индексWeekDayaspose.tasks/weekday указано.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/weekdaycollection/indexof/
 ---
 ## WeekDayCollection.IndexOf method
 
-Возвращает индекс[`WeekDay`](../../weekday)указанного.
+Возвращает индекс[`WeekDay`](../../weekday) указано.
 
 ```csharp
 public int IndexOf(WeekDay item)
@@ -20,7 +20,7 @@ public int IndexOf(WeekDay item)
 
 ### Возвращаемое значение
 
-Отсчитываемый от нуля индекс[`WeekDay`](../../weekday)указан, если присутствует, или -1 в противном случае.
+Отсчитываемый от нуля индекс[`WeekDay`](../../weekday) указано, если присутствует, или -1 в противном случае.
 
 ### Смотрите также
 

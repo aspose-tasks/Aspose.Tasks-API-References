@@ -1,14 +1,14 @@
 ---
 title: Alg
 second_title: Aspose.Tasks for .NET API 参考
-description: 处理树的节点
+description: 处理树的一个节点
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.util/treealgorithmbase-1/alg/
 ---
 ## TreeAlgorithmBase&lt;T&gt;.Alg method
 
-处理树的节点。
+处理树的一个节点。
 
 ```csharp
 public abstract void Alg(T el, int level)

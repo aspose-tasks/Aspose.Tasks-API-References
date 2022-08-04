@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置如何在层的每个时间段内对齐标签StringAlignment
+description: 获取或设置如何在层的每个时间段内对齐标签StringAlignment .
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/timescaletier/alignment/
 ---
 ## TimescaleTier.Alignment property
 
-获取或设置如何在层的每个时间段内对齐标签（StringAlignment）。
+获取或设置如何在层的每个时间段内对齐标签（StringAlignment ).
 
 ```csharp
 public StringAlignment Alignment { get; set; }

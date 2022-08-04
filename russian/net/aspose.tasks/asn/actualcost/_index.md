@@ -1,14 +1,14 @@
 ---
 title: ActualCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фактические затраты на выполнение задания.
+description: Фактические затраты на задание.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/asn/actualcost/
 ---
 ## Asn.ActualCost field
 
-Фактические затраты на выполнение задания.
+Фактические затраты на задание.
 
 ```csharp
 public static readonly Key<decimal, AsnKey> ActualCost;

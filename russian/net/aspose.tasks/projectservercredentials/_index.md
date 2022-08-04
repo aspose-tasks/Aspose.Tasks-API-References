@@ -18,16 +18,16 @@ public sealed class ProjectServerCredentials
 
 | Имя | Описание |
 | --- | --- |
-| [ProjectServerCredentials](projectservercredentials#constructor)(string, NetworkCredential) | Инициализирует новый экземпляр класса[`ProjectServerCredentials`](../projectservercredentials), используя URL-адрес конечной точки Project Web Access и сетевые учетные данные. |
-| [ProjectServerCredentials](projectservercredentials#constructor_1)(string, string) | Инициализирует новый экземпляр класса[`ProjectServerCredentials`](../projectservercredentials), используя URL-адрес сайта SharePoint и действительный токен авторизации POIDCRL для PWA SharePoint. (веб-доступ к проекту). |
-| [ProjectServerCredentials](projectservercredentials#constructor_2)(string, string, string) | Инициализирует новый экземпляр класса[`ProjectServerCredentials`](../projectservercredentials), используя URL сайта SharePoint, имя пользователя и пароль. |
+| [ProjectServerCredentials](projectservercredentials#constructor)(string, NetworkCredential) | Инициализирует новый экземпляр[`ProjectServerCredentials`](../projectservercredentials) class с использованием URL-адреса конечной точки Project Web Access и сетевых учетных данных. |
+| [ProjectServerCredentials](projectservercredentials#constructor_1)(string, string) | Инициализирует новый экземпляр[`ProjectServerCredentials`](../projectservercredentials) класс, использующий URL-адрес сайта SharePoint и действительный токен авторизации SPOYDCRL для сайта SharePoint PWA (Project Web Access). |
+| [ProjectServerCredentials](projectservercredentials#constructor_2)(string, string, string) | Инициализирует новый экземпляр[`ProjectServerCredentials`](../projectservercredentials) класс, используя URL-адрес сайта SharePoint, имя пользователя и пароль. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AuthToken](../../aspose.tasks/projectservercredentials/authtoken) { get; } | Получает маркер авторизации для экземпляра SharePoint. |
-| [SiteUrl](../../aspose.tasks/projectservercredentials/siteurl) { get; } | Получает URL-адрес PWA на сайте SharePoint или URL-адрес локального Project Server. Например, https://имя_вашей_компании.sharepoint.com/sites/pwa"; |
+| [AuthToken](../../aspose.tasks/projectservercredentials/authtoken) { get; } | Получает токен авторизации для экземпляра SharePoint. |
+| [SiteUrl](../../aspose.tasks/projectservercredentials/siteurl) { get; } | Получает URL-адрес PWA на сайте SharePoint или URL-адрес локального сервера Project Server. Например, https://your_company_name.sharepoint.com/sites/pwa"; |
 | [UserName](../../aspose.tasks/projectservercredentials/username) { get; } | Получает имя пользователя для сайта SharePoint. |
 
 ## Методы

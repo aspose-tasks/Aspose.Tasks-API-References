@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置时间刻度层的日期标签DateLabelaspose.tasks.visualization/datelabel
+description: 获取或设置日期标签DateLabelaspose.tasks.visualization/datelabel对于时间尺度层
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks.visualization/timescaletier/label/
 ---
 ## TimescaleTier.Label property
 
-获取或设置时间刻度层的日期标签[`DateLabel`](../../datelabel)。
+获取或设置日期标签[`DateLabel`](../../datelabel)对于时间尺度层。
 
 ```csharp
 public DateLabel Label { get; set; }

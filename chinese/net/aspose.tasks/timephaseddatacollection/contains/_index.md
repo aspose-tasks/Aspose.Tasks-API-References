@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定TimephasedDataCollectionaspose.tasks/timephaseddatacollection是否包含特定值
+description: 确定是否TimephasedDataCollectionaspose.tasks/timephaseddatacollection包含特定值
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/timephaseddatacollection/contains/
 ---
 ## TimephasedDataCollection.Contains method
 
-确定[`TimephasedDataCollection`](../../timephaseddatacollection)是否包含特定值。
+确定是否[`TimephasedDataCollection`](../../timephaseddatacollection)包含特定值。
 
 ```csharp
 public bool Contains(TimephasedData item)
@@ -20,7 +20,7 @@ public bool Contains(TimephasedData item)
 
 ### 返回值
 
-如果在集合中找到*item*则为真；否则为假。
+如果为真*item*在集合中找到；否则为假。
 
 ### 也可以看看
 

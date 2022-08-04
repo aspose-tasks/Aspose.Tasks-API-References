@@ -1,14 +1,14 @@
 ---
 title: Timescale
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置Timescaleaspose.tasks.saving/saveoptions/timescale值用于控制时间刻度如果存在在项目保存为图形格式时呈现
+description: 获取或设置Timescaleaspose.tasks.saving/saveoptions/timescale用于控制将项目保存为图形格式时如何呈现时间刻度如果存在的值
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks.saving/saveoptions/timescale/
 ---
 ## SaveOptions.Timescale property
 
-获取或设置`Timescale`值，用于控制时间刻度（如果存在）在项目保存为图形格式时呈现。
+获取或设置`Timescale`用于控制将项目保存为图形格式时如何呈现时间刻度（如果存在）的值。
 
 ```csharp
 public Timescale Timescale { get; set; }

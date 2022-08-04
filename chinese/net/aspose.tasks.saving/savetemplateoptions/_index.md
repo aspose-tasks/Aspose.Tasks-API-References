@@ -1,14 +1,14 @@
 ---
 title: SaveTemplateOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 允许在将项目保存为模板时指定其他选项
+description: 允许在将项目另存为模板时指定其他选项
 type: docs
 weight: 1920
 url: /zh/net/aspose.tasks.saving/savetemplateoptions/
 ---
 ## SaveTemplateOptions class
 
-允许在将项目保存为模板时指定其他选项。
+允许在将项目另存为模板时指定其他选项。
 
 ```csharp
 public class SaveTemplateOptions

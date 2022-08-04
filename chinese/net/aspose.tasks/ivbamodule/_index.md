@@ -18,9 +18,9 @@ public interface IVbaModule
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Attributes](../../aspose.tasks/ivbamodule/attributes) { get; } | 获取[`VbaModuleAttributeCollection`](../vbamoduleattributecollection) |
+| [Attributes](../../aspose.tasks/ivbamodule/attributes) { get; } | 获取一个集合[`VbaModuleAttributeCollection`](../vbamoduleattributecollection) |
 | [Name](../../aspose.tasks/ivbamodule/name) { get; } | 获取 VBA 模块的名称 |
-| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode) { get; } | 获取 VBA 模块的源代码 |
+| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode) { get; } | 获取VBA模块的源代码 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: Border
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定类型边框
 type: docs
-weight: 2610
+weight: 2620
 url: /zh/net/aspose.tasks.visualization/border/
 ---
 ## Border enumeration

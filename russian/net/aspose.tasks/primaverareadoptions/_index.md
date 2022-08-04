@@ -18,7 +18,7 @@ public class PrimaveraReadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [PrimaveraReadOptions](primaverareadoptions)() | Инициализирует новый экземпляр класса[`PrimaveraReadOptions`](../primaverareadoptions). |
+| [PrimaveraReadOptions](primaverareadoptions)() | Инициализирует новый экземпляр[`PrimaveraReadOptions`](../primaverareadoptions) класс. |
 
 ## Характеристики
 

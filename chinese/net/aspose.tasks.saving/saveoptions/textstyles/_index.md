@@ -1,14 +1,14 @@
 ---
 title: TextStyles
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置项目视图中出现的TextStyleaspose.tasks.visualization/textstyle类的实例列表
+description: 获取或设置实例的列表TextStyleaspose.tasks.visualization/textstyle出现在项目视图中的类
 type: docs
 weight: 190
 url: /zh/net/aspose.tasks.saving/saveoptions/textstyles/
 ---
 ## SaveOptions.TextStyles property
 
-获取或设置项目视图中出现的[`TextStyle`](../../../aspose.tasks.visualization/textstyle)类的实例列表。
+获取或设置实例的列表[`TextStyle`](../../../aspose.tasks.visualization/textstyle)出现在项目视图中的类。
 
 ```csharp
 public List<TextStyle> TextStyles { get; set; }

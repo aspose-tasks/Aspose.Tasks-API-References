@@ -1,14 +1,14 @@
 ---
 title: OutlineCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化OutlineCodeaspose.tasks/outlinecode类的新实例
+description: 初始化OutlineCodeaspose.tasks/outlinecode班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/outlinecode/outlinecode/
 ---
 ## OutlineCode() {#constructor}
 
-初始化[`OutlineCode`](../../outlinecode)类的新实例。
+初始化[`OutlineCode`](../../outlinecode)班级。
 
 ```csharp
 public OutlineCode()
@@ -24,7 +24,7 @@ public OutlineCode()
 
 ## OutlineCode(OutlineCodeDefinition, OutlineValue) {#constructor_1}
 
-使用指定的大纲代码及其值之一初始化[`OutlineCode`](../../outlinecode)类的新实例。
+初始化[`OutlineCode`](../../outlinecode)类使用指定的大纲代码及其值之一。
 
 ```csharp
 public OutlineCode(OutlineCodeDefinition codeDefinition, OutlineValue outlineValue)

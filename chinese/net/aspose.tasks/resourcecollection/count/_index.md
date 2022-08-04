@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取 ResourceCollection 中包含的元素数  只读Int32
+description: 获取 ResourceCollection 中包含的元素数 只读Int32.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/resourcecollection/count/
 ---
 ## ResourceCollection.Count property
 
-获取 ResourceCollection 中包含的元素数。  只读Int32。
+获取 ResourceCollection 中包含的元素数。 只读Int32.
 
 ```csharp
 public int Count { get; }

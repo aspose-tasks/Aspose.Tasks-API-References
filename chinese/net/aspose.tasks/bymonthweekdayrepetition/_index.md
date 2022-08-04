@@ -18,14 +18,14 @@ public class ByMonthWeekDayRepetition : MonthlyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByMonthWeekDayRepetition](bymonthweekdayrepetition)() | 初始化[`ByMonthWeekDayRepetition`](../bymonthweekdayrepetition)类的新实例。 |
+| [ByMonthWeekDayRepetition](bymonthweekdayrepetition)() | 初始化[`ByMonthWeekDayRepetition`](../bymonthweekdayrepetition)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Position](../../aspose.tasks/bymonthweekdayrepetition/position) { get; set; } | 获取或设置该任务必须重复的一个月中工作日的位置。 |
-| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置月数，它表示两次事件之间的间隔（以月为单位）。 |
+| [Position](../../aspose.tasks/bymonthweekdayrepetition/position) { get; set; } | 获取或设置该任务必须重复的一个月中的工作日位置。 |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置月数，表示事件之间的月间隔。 |
 | [WeekDay](../../aspose.tasks/bymonthweekdayrepetition/weekday) { get; set; } | 获取或设置任务必须重复的工作日类型。 |
 
 ### 也可以看看

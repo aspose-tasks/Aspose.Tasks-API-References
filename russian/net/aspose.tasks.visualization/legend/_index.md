@@ -1,14 +1,14 @@
 ---
 title: Legend
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает страницы на которых появляется легенда.
+description: Определяет страницы на которых появляется легенда.
 type: docs
-weight: 2810
+weight: 2820
 url: /ru/net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration
 
-Указывает страницы, на которых появляется легенда.
+Определяет страницы, на которых появляется легенда.
 
 ```csharp
 public enum Legend

@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает true если указанный элемент найден в этой коллекции в противном случае ложно.
+description: Возвращает true если указанный элемент найден в этой коллекции в противном случае false.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/wbscodemaskcollection/contains/
 ---
 ## WBSCodeMaskCollection.Contains method
 
-Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false.
 
 ```csharp
 public bool Contains(WBSCodeMask item)
@@ -16,11 +16,11 @@ public bool Contains(WBSCodeMask item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | WBSCodeMask | указанный предмет для поиска. |
+| item | WBSCodeMask | указанный элемент для поиска. |
 
 ### Возвращаемое значение
 
-true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Значение true, если указанный элемент найден в этой коллекции; в противном случае ложно.
 
 ### Смотрите также
 

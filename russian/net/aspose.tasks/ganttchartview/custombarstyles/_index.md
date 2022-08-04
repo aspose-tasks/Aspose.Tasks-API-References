@@ -1,14 +1,14 @@
 ---
 title: CustomBarStyles
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает список настраиваемых стилей столбцов для конкретных задач в представлении диаграммы Ганта. GanttBarStyleaspose.tasks.visualization/ganttbarstyle.
+description: Получает список настраиваемых стилей столбцов представления диаграммы Ганта для конкретных задач. GanttBarStyleaspose.tasks.visualization/ganttbarstyle .
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/ganttchartview/custombarstyles/
 ---
 ## GanttChartView.CustomBarStyles property
 
-Получает список настраиваемых стилей столбцов для конкретных задач в представлении диаграммы Ганта. [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle).
+Получает список настраиваемых стилей столбцов представления диаграммы Ганта для конкретных задач. [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle) .
 
 ```csharp
 public List<GanttBarStyle> CustomBarStyles { get; }

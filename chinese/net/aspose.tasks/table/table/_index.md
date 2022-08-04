@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化Tableaspose.tasks/table类的新实例
+description: 初始化Tableaspose.tasks/table班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/table/table/
 ---
 ## Table constructor
 
-初始化[`Table`](../../table)类的新实例。
+初始化[`Table`](../../table)班级。
 
 ```csharp
 public Table()

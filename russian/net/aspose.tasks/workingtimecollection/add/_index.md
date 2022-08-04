@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавляет в эту коллекцию новый экземпляр рабочего времени.
+description: Добавляет в эту коллекцию новый экземпляр WorkTime.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/workingtimecollection/add/
 ---
 ## WorkingTimeCollection.Add method
 
-Добавляет в эту коллекцию новый экземпляр рабочего времени.
+Добавляет в эту коллекцию новый экземпляр WorkTime.
 
 ```csharp
 public bool Add(WorkingTime item)
@@ -16,11 +16,11 @@ public bool Add(WorkingTime item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | WorkingTime | Добавляемый элемент. |
+| item | WorkingTime | Элемент для добавления. |
 
 ### Возвращаемое значение
 
-true, если объект WorkTime успешно добавлен; в противном случае ложно.
+Значение true, если объект рабочего времени был успешно добавлен; в противном случае ложно.
 
 ### Смотрите также
 

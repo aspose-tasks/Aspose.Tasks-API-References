@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Этот класс представляет набор данных относящихся к сохранению внешнего файла изображения которое происходит при преобразовании в формат HTML.
+description: Этот класс представляет собой набор данных связанных с сохранением внешнего файла изображения которое происходит при преобразовании в формат HTML.
 type: docs
 weight: 810
 url: /ru/net/aspose.tasks/imagesavingargs/
 ---
 ## ImageSavingArgs class
 
-Этот класс представляет набор данных, относящихся к сохранению внешнего файла изображения, которое происходит при преобразовании в формат HTML.
+Этот класс представляет собой набор данных, связанных с сохранением внешнего файла изображения, которое происходит при преобразовании в формат HTML.
 
 ```csharp
 public class ImageSavingArgs : ResourceSavingArgs
@@ -18,13 +18,13 @@ public class ImageSavingArgs : ResourceSavingArgs
 
 | Имя | Описание |
 | --- | --- |
-| [ImageSavingArgs](imagesavingargs)() | Инициализирует новый экземпляр класса[`ImageSavingArgs`](../imagesavingargs). |
+| [ImageSavingArgs](imagesavingargs)() | Инициализирует новый экземпляр[`ImageSavingArgs`](../imagesavingargs) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileName](../../aspose.tasks/resourcesavingargs/filename) { get; set; } | Получает или задает предполагаемое имя файла, которое идет от преобразователя к коду пользовательского метода. Можно использовать в пользовательском коде, чтобы решить, как обрабатывать или где сохранять этот файл. |
+| [FileName](../../aspose.tasks/resourcesavingargs/filename) { get; set; } | Получает или задает предполагаемое имя файла, которое переходит от преобразователя к коду пользовательского метода. Может использоваться в пользовательском коде, чтобы решить, как обрабатывать или где сохранять этот файл. |
 | [ImageType](../../aspose.tasks/imagesavingargs/imagetype) { get; } | Получает тип изображения HTML. |
 | [KeepStreamOpen](../../aspose.tasks/resourcesavingargs/keepstreamopen) { get; set; } | Получает или задает значение, указывающее, будет ли поток оставаться открытым после завершения сохранения ресурсов. |
 | [Stream](../../aspose.tasks/resourcesavingargs/stream) { get; set; } | Получает или задает двоичное содержимое сохраненного файла. |

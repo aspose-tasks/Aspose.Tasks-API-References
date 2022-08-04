@@ -1,14 +1,14 @@
 ---
 title: PercentOfNormalSize
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置正常大小的百分比以调整打印
+description: 获取或设置正常大小的百分比以调整打印到
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks.visualization/pagesettings/percentofnormalsize/
 ---
 ## PageSettings.PercentOfNormalSize property
 
-获取或设置正常大小的百分比以调整打印。
+获取或设置正常大小的百分比以调整打印到。
 
 ```csharp
 public int PercentOfNormalSize { get; set; }

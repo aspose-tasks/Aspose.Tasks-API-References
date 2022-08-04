@@ -3,7 +3,7 @@ title: WBSSequence
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定 WBSCodeMask 的序列
 type: docs
-weight: 3130
+weight: 3140
 url: /zh/net/aspose.tasks/wbssequence/
 ---
 ## WBSSequence enumeration

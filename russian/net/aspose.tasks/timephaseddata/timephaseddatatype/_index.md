@@ -1,14 +1,14 @@
 ---
 title: TimephasedDataType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает тип поэтапных данных.
+description: Получает или задает тип данных с временной фазой.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/timephaseddata/timephaseddatatype/
 ---
 ## TimephasedData.TimephasedDataType property
 
-Получает или задает тип поэтапных данных.
+Получает или задает тип данных с временной фазой.
 
 ```csharp
 public TimephasedDataType TimephasedDataType { get; set; }
@@ -16,7 +16,7 @@ public TimephasedDataType TimephasedDataType { get; set; }
 
 ### Примечания
 
-[`Value`](../value)свойство будет очищено, если оно не подходит для типа, указанного здесь.
+[`Value`](../value) свойство будет очищено, если оно не подходит для указанного здесь типа.
 
 ### Смотрите также
 

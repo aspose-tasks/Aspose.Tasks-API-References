@@ -1,14 +1,14 @@
 ---
 title: AvailableTo
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源可用于当前时间段指定单位的工作的结束日期
+description: 资源可用于当前时间段指定单位工作的结束日期
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/rsc/availableto/
 ---
 ## Rsc.AvailableTo field
 
-资源可用于当前时间段指定单位的工作的结束日期。
+资源可用于当前时间段指定单位工作的结束日期。
 
 ```csharp
 public static readonly Key<DateTime, RscKey> AvailableTo;

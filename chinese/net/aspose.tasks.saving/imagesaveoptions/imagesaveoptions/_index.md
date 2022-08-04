@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ImageSaveOptionsaspose.tasks.saving/imagesaveoptions类的新实例该类可用于在 TIFF 中保存渲染图像 PNGBMP 或 JPEG 格式
+description: 初始化ImageSaveOptionsaspose.tasks.saving/imagesaveoptions可用于以 TIFFPNGBMP 或 JPEG 格式保存渲染图像的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-初始化[`ImageSaveOptions`](../../imagesaveoptions)类的新实例，该类可用于在 TIFF 中保存渲染图像， PNG、BMP 或 JPEG 格式。
+初始化[`ImageSaveOptions`](../../imagesaveoptions)可用于以 TIFF、PNG、BMP 或 JPEG 格式保存渲染图像的类。
 
 ```csharp
 public ImageSaveOptions(SaveFileFormat saveFormat)
@@ -22,7 +22,7 @@ public ImageSaveOptions(SaveFileFormat saveFormat)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *saveFormat*不是有效的图像格式。有效值为 TIFF、PNG、BMP 或 JPEG。 |
+| ArgumentException | 抛出的*saveFormat*不是有效的图像格式。有效值为 TIFF、PNG、BMP 或 JPEG。 |
 
 ### 也可以看看
 

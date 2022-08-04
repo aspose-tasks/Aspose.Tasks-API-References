@@ -1,14 +1,14 @@
 ---
 title: ParentResource
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此集合的父Resourceaspose.tasks/resource
+description: 获取父级Resourceaspose.tasks/resource对于这个集合
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/baselinecollection/parentresource/
 ---
 ## BaselineCollection.ParentResource property
 
-获取此集合的父[`Resource`](../../resource)。
+获取父级[`Resource`](../../resource)对于这个集合。
 
 ```csharp
 public Resource ParentResource { get; }

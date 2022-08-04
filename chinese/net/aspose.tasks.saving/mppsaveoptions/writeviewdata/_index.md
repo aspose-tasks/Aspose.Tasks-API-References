@@ -1,14 +1,14 @@
 ---
 title: WriteViewData
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置保存到MPP时是否写入视图数据的值  查看数据包括 Project.ViewsFilters 和 Tables 集合
+description: 获取或设置保存到MPP时是否写入视图数据的值 查看数据包括 Project.ViewsFilters 和 Tables 集合
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.saving/mppsaveoptions/writeviewdata/
 ---
 ## MPPSaveOptions.WriteViewData property
 
-获取或设置保存到MPP时是否写入视图数据的值。  查看数据包括 Project.Views、Filters 和 Tables 集合。
+获取或设置保存到MPP时是否写入视图数据的值。 查看数据包括 Project.Views、Filters 和 Tables 集合。
 
 ```csharp
 public bool WriteViewData { get; set; }

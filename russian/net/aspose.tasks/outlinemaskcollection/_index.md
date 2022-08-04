@@ -1,14 +1,14 @@
 ---
 title: OutlineMaskCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовOutlineMask./outlinemask.
+description: Представляет наборOutlineMask./outlinemask объекты.
 type: docs
 weight: 1060
 url: /ru/net/aspose.tasks/outlinemaskcollection/
 ---
 ## OutlineMaskCollection class
 
-Представляет набор объектов[`OutlineMask`](../outlinemask).
+Представляет набор[`OutlineMask`](../outlinemask) объекты.
 
 ```csharp
 public class OutlineMaskCollection : IList<OutlineMask>
@@ -19,7 +19,7 @@ public class OutlineMaskCollection : IList<OutlineMask>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/outlinemaskcollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/outlinemaskcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/outlinemaskcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks/outlinemaskcollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
 
 ## Методы
@@ -28,7 +28,7 @@ public class OutlineMaskCollection : IList<OutlineMask>
 | --- | --- |
 | [Add](../../aspose.tasks/outlinemaskcollection/add)(OutlineMask) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/outlinemaskcollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/outlinemaskcollection/contains)(OutlineMask) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/outlinemaskcollection/contains)(OutlineMask) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/outlinemaskcollection/copyto)(OutlineMask[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/outlinemaskcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/outlinemaskcollection/indexof)(OutlineMask) | Определяет индекс указанного элемента в этой коллекции. |

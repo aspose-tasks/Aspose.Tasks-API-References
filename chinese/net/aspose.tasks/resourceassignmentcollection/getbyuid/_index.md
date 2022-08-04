@@ -16,11 +16,11 @@ public ResourceAssignment GetByUid(int uid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | Int32 | 指定的uid。 |
+| uid | Int32 | 指定的 uid。 |
 
 ### 返回值
 
-具有指定 uid 的资源分配（如果存在）；否则为空。
+具有指定 uid 的 ResourceAssignment（如果存在）；否则为空。
 
 ### 评论
 

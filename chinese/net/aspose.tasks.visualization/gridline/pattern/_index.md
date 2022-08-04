@@ -1,14 +1,14 @@
 ---
 title: Pattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置网格线的LinePatternaspose.tasks.visualization/linepattern
+description: 获取或设置LinePatternaspose.tasks.visualization/linepattern网格线的.
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.visualization/gridline/pattern/
 ---
 ## Gridline.Pattern property
 
-获取或设置网格线的[`LinePattern`](../../linepattern)。
+获取或设置[`LinePattern`](../../linepattern)网格线的.
 
 ```csharp
 public LinePattern Pattern { get; set; }

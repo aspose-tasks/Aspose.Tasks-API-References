@@ -1,14 +1,14 @@
 ---
 title: PdfDigitalSignatureDetails
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPdfDigitalSignatureDetailsaspose.tasks.saving/pdfdigitalsignaturedetails.
+description: Инициализирует новый экземплярPdfDigitalSignatureDetailsaspose.tasks.saving/pdfdigitalsignaturedetails класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails constructor
 
-Инициализирует новый экземпляр класса[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails).
+Инициализирует новый экземпляр[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails) класс.
 
 ```csharp
 public PdfDigitalSignatureDetails(X509Certificate2 certificate, string reason, string location, 
@@ -17,7 +17,7 @@ public PdfDigitalSignatureDetails(X509Certificate2 certificate, string reason, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| certificate | X509Certificate2 | ЭкземплярX509Certificate2для подписи. |
+| certificate | X509Certificate2 | X509Certificate2 экземпляр для подписи. |
 | reason | String | Причина подписания. |
 | location | String | Место подписания. |
 | signatureDate | DateTime | Дата подписания. |

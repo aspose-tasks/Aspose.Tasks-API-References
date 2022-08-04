@@ -3,7 +3,7 @@ title: WorkUnit
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет рабочие часы.
 type: docs
-weight: 3240
+weight: 3250
 url: /ru/net/aspose.tasks/workunit/
 ---
 ## WorkUnit class
@@ -18,7 +18,7 @@ public class WorkUnit
 
 | Имя | Описание |
 | --- | --- |
-| [WorkUnit](workunit)(DateTime, DateTime) | Инициализирует новый экземпляр класса[`WorkUnit`](../workunit). Создает новый объект WorkUnit с указанными датами From и To. |
+| [WorkUnit](workunit)(DateTime, DateTime) | Инициализирует новый экземпляр[`WorkUnit`](../workunit) class. Создает новый объект WorkUnit с указанными датами From и To. |
 
 ## Характеристики
 

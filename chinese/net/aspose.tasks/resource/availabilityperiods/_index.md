@@ -1,14 +1,14 @@
 ---
 title: AvailabilityPeriods
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取AvailabilityPeriodCollectionaspose.tasks/availabilityperiodcollection类的实例 资源可用期间的集合
+description: 获取一个实例AvailabilityPeriodCollectionaspose.tasks/availabilityperiodcollectionclass. 资源可用期间的集合
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/resource/availabilityperiods/
 ---
 ## Resource.AvailabilityPeriods property
 
-获取[`AvailabilityPeriodCollection`](../../availabilityperiodcollection)类的实例。 资源可用期间的集合。
+获取一个实例[`AvailabilityPeriodCollection`](../../availabilityperiodcollection)class. 资源可用期间的集合。
 
 ```csharp
 public AvailabilityPeriodCollection AvailabilityPeriods { get; }

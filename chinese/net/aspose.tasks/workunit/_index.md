@@ -3,7 +3,7 @@ title: WorkUnit
 second_title: Aspose.Tasks for .NET API 参考
 description: 代表工作时间
 type: docs
-weight: 3240
+weight: 3250
 url: /zh/net/aspose.tasks/workunit/
 ---
 ## WorkUnit class
@@ -18,7 +18,7 @@ public class WorkUnit
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WorkUnit](workunit)(DateTime, DateTime) | 初始化[`WorkUnit`](../workunit)类的新实例。 使用指定的 From 和 To 日期创建新的 WorkUnit 对象。 |
+| [WorkUnit](workunit)(DateTime, DateTime) | 初始化[`WorkUnit`](../workunit) class. 使用指定的 From 和 To 日期创建新的 WorkUnit 对象。 |
 
 ## 特性
 

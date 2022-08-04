@@ -3,7 +3,7 @@ title: TextItemType
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Тип элемента для которого нужно изменить стиль текста.
 type: docs
-weight: 3030
+weight: 3040
 url: /ru/net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration
@@ -21,23 +21,23 @@ public enum TextItemType
 | RowColumnTitles | `0` | Заголовки строк и столбцов. |
 | CriticalTasks | `1` | Критические задачи. |
 | NoncriticalTasks | `2` | Некритические задачи. |
-| MilestoneTasks | `3` | Веховые задачи. |
+| MilestoneTasks | `3` | Вехи задач. |
 | InactiveTasks | `4` | Неактивные задачи. |
-| SummaryTasks | `5` | Сводные задачи. |
+| SummaryTasks | `5` | Суммарные задачи. |
 | AssignmentRow | `6` | Строка назначения. |
 | TopTimescaleTier | `7` | Верхний уровень шкалы времени. |
 | BottomTimescaleTier | `8` | Нижний уровень шкалы времени. |
 | MiddleTimescaleTier | `9` | Средний уровень шкалы времени. |
 | Resources | `10` | Лист ресурсов. |
 | OverallocatedResources | `11` | Перераспределенные ресурсы. |
-| TaskFilterHighlight | `12` | Фильтр задач Выделить текстовый элемент. |
+| TaskFilterHighlight | `12` | Текстовый элемент выделения фильтра задач. |
 | BarTextBottom | `13` | Bar Text Нижний текстовый элемент. |
-| BarTextInside | `14` | Bar Text Внутри текстового элемента. |
+| BarTextInside | `14` | Текст строки внутри текстового элемента. |
 | BarTextLeft | `15` | Bar Text Левый текстовый элемент. |
 | BarTextRight | `16` | Bar Text Правый текстовый элемент. |
 | BarTextTop | `17` | Bar Text Верхний текстовый элемент. |
-| MarkedTasks | `18` | Отмеченный элемент текста задачи. |
-| ProjectSummary | `19` | Текстовый элемент итоговой задачи проекта. |
+| MarkedTasks | `18` | Отмеченный текстовый элемент задачи. |
+| ProjectSummary | `19` | Текстовый элемент сводной задачи проекта. |
 | ExternalTasks | `20` | Текстовый элемент внешних задач. |
 | Allocated | `21` | Выделенный текстовый элемент. |
 | ChangedCells | `22` | Изменены ячейки. |

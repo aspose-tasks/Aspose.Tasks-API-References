@@ -1,14 +1,14 @@
 ---
 title: Phonetics
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фонетическое написание имени ресурса. Только для использования с японцами.
+description: Фонетическое написание имени ресурса. Только для японского языка.
 type: docs
 weight: 570
 url: /ru/net/aspose.tasks/rsc/phonetics/
 ---
 ## Rsc.Phonetics field
 
-Фонетическое написание имени ресурса. Только для использования с японцами.
+Фонетическое написание имени ресурса. Только для японского языка.
 
 ```csharp
 public static readonly Key<string, RscKey> Phonetics;

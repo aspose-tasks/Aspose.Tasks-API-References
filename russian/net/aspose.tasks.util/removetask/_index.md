@@ -3,7 +3,7 @@ title: RemoveTask
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Удаляет указанную задачу из дерева задач.
 type: docs
-weight: 2410
+weight: 2420
 url: /ru/net/aspose.tasks.util/removetask/
 ---
 ## RemoveTask class
@@ -18,7 +18,7 @@ public class RemoveTask : ITreeAlgorithm<Task>
 
 | Имя | Описание |
 | --- | --- |
-| [RemoveTask](removetask)(Task) | Инициализирует новый экземпляр класса[`RemoveTask`](../removetask). |
+| [RemoveTask](removetask)(Task) | Инициализирует новый экземпляр[`RemoveTask`](../removetask) класс. |
 
 ## Методы
 

@@ -3,7 +3,7 @@ title: PresentationFormat
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示格式的枚举
 type: docs
-weight: 2890
+weight: 2900
 url: /zh/net/aspose.tasks.visualization/presentationformat/
 ---
 ## PresentationFormat enumeration
@@ -19,10 +19,10 @@ public enum PresentationFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | GanttChart | `0` | 甘特图表示格式。 |
-| TaskUsage | `1` | 任务使用演示格式。 |
+| TaskUsage | `1` | 任务使用演示格式. |
 | ResourceUsage | `2` | 资源使用表示格式。 |
-| ResourceSheet | `3` | 资源表显示格式。 |
-| TaskSheet | `4` | 任务表演示格式。 |
+| ResourceSheet | `3` | 资源表演示格式。 |
+| TaskSheet | `4` | 任务表演示格式. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回扩展属性的短字符串表示
+description: 返回扩展属性的短字符串表示形式
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/extendedattribute/tostring/
 ---
 ## ExtendedAttribute.ToString method
 
-返回扩展属性的短字符串表示。
+返回扩展属性的短字符串表示形式。
 
 ```csharp
 public override string ToString()

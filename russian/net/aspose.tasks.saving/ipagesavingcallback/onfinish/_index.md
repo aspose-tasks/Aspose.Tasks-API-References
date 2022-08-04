@@ -1,14 +1,14 @@
 ---
 title: OnFinish
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Метод который будет вызван когда все страницы будут записаны.
+description: Метод который будет вызываться при записи всех страниц.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/ipagesavingcallback/onfinish/
 ---
 ## IPageSavingCallback.OnFinish method
 
-Метод, который будет вызван, когда все страницы будут записаны.
+Метод, который будет вызываться при записи всех страниц.
 
 ```csharp
 public void OnFinish()

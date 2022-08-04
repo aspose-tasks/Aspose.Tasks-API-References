@@ -1,14 +1,14 @@
 ---
 title: Exception
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает исключение возникшее при синтаксическом анализе строкового значения.
+description: Получает возбужденное исключение во время синтаксического анализа строкового значения.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/parseerrorargs/exception/
 ---
 ## ParseErrorArgs.Exception property
 
-Получает исключение, возникшее при синтаксическом анализе строкового значения.
+Получает возбужденное исключение во время синтаксического анализа строкового значения.
 
 ```csharp
 public Exception Exception { get; }

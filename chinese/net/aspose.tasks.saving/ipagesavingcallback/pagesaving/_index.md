@@ -1,14 +1,14 @@
 ---
 title: PageSaving
 second_title: Aspose.Tasks for .NET API 参考
-description: 页面保存到流时调用的方法
+description: 将页面保存到流时调用的方法
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.saving/ipagesavingcallback/pagesaving/
 ---
 ## IPageSavingCallback.PageSaving method
 
-页面保存到流时调用的方法。
+将页面保存到流时调用的方法。
 
 ```csharp
 public void PageSaving(PageSavingArgs args)

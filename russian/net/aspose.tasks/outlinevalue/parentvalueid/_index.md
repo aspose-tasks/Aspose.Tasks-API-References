@@ -1,14 +1,14 @@
 ---
 title: ParentValueId
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает идентификатор родительского узла кода структуры.
+description: Получает или задает идентификатор родительского узла кода схемы.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/outlinevalue/parentvalueid/
 ---
 ## OutlineValue.ParentValueId property
 
-Получает или задает идентификатор родительского узла кода структуры.
+Получает или задает идентификатор родительского узла кода схемы.
 
 ```csharp
 public int ParentValueId { get; set; }

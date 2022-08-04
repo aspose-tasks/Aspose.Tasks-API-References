@@ -23,7 +23,7 @@ public struct GenericProperty<TKey>
 
 | Имя | Описание |
 | --- | --- |
-| [GenericProperty](genericproperty)(string) | Инициализирует новый экземпляр структуры[`GenericProperty`](../genericproperty-1). |
+| [GenericProperty](genericproperty)(string) | Инициализирует новый экземпляр[`GenericProperty`](../genericproperty-1) структура. |
 
 ## Характеристики
 

@@ -1,14 +1,14 @@
 ---
 title: AddLookupValue
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавляет значение во внутренний список поиска. Это предпочтительный способ для манипуляций сValueListaspose.tasks/extendedattributedefinition/valuelist.
+description: Добавляет значение во внутренний список поиска. Это предпочтительный способ для манипуляций сValueListaspose.tasks/extendedattributedefinition/valuelist .
 type: docs
 weight: 290
 url: /ru/net/aspose.tasks/extendedattributedefinition/addlookupvalue/
 ---
 ## ExtendedAttributeDefinition.AddLookupValue method
 
-Добавляет значение во внутренний список поиска. Это предпочтительный способ для манипуляций с[`ValueList`](../valuelist).
+Добавляет значение во внутренний список поиска. Это предпочтительный способ для манипуляций с[`ValueList`](../valuelist) .
 
 ```csharp
 public void AddLookupValue(Value value)
@@ -20,7 +20,7 @@ public void AddLookupValue(Value value)
 
 ### Примечания
 
-Этот метод работает только для[`ExtendedAttributeDefinition`](../../extendedattributedefinition)экземпляров которые имеют[`CalculationType`](../calculationtype)равноLookup.
+Этот метод работает только для[`ExtendedAttributeDefinition`](../../extendedattributedefinition) instances , которые имеют[`CalculationType`](../calculationtype) равноLookup .
 
 ### Примеры
 

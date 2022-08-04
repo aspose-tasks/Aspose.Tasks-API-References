@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目的主题
+description: 一个项目的主题
 type: docs
 weight: 690
 url: /zh/net/aspose.tasks/prj/subject/
 ---
 ## Prj.Subject field
 
-项目的主题。
+一个项目的主题。
 
 ```csharp
 public static readonly Key<string, PrjKey> Subject;

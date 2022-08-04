@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取PageInfoaspose.tasks/view/pageinfo类的实例表示以 mpp 文件格式存在的页面设置数据
+description: 获取一个实例PageInfoaspose.tasks/view/pageinfo班级表示以 mpp 文件格式存在的页面设置数据
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/view/pageinfo/
 ---
 ## View.PageInfo property
 
-获取`PageInfo`类的实例。表示以 mpp 文件格式存在的页面设置数据。
+获取一个实例`PageInfo`班级。表示以 mpp 文件格式存在的页面设置数据。
 
 ```csharp
 public PageInfo PageInfo { get; }

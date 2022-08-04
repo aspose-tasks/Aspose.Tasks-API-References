@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 BaselineCollection 对象转换为Baselineaspose.tasks/baseline对象的列表
+description: 将 BaselineCollection 对象转换为Baselineaspose.tasks/baseline对象.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/baselinecollection/tolist/
 ---
 ## BaselineCollection.ToList method
 
-将 BaselineCollection 对象转换为[`Baseline`](../../baseline)对象的列表。
+将 BaselineCollection 对象转换为[`Baseline`](../../baseline)对象.
 
 ```csharp
 public List<Baseline> ToList()
@@ -16,7 +16,7 @@ public List<Baseline> ToList()
 
 ### 返回值
 
-[`Baseline`](../../baseline)对象列表。
+清单[`Baseline`](../../baseline)对象。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WorkingTime
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаWorkingTimeaspose.tasks/workingtimeс интервалом с указанным временем начала и окончания.
+description: Инициализирует новый экземплярWorkingTimeaspose.tasks/workingtime класс с интервалом с указанным временем начала и окончания.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/workingtime/workingtime/
 ---
 ## WorkingTime(DateTime, DateTime) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`WorkingTime`](../../workingtime)с интервалом с указанным временем начала и окончания.
+Инициализирует новый экземпляр[`WorkingTime`](../../workingtime) класс с интервалом с указанным временем начала и окончания.
 
 ```csharp
 public WorkingTime(DateTime fromTime, DateTime toTime)
@@ -29,7 +29,7 @@ public WorkingTime(DateTime fromTime, DateTime toTime)
 
 ## WorkingTime(TimeSpan, TimeSpan) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`WorkingTime`](../../workingtime)с элементом интервала с указанным временем начала и окончания.
+Инициализирует новый экземпляр[`WorkingTime`](../../workingtime) класс с элементом интервала с указанным временем начала и окончания.
 
 ```csharp
 public WorkingTime(TimeSpan fromTime, TimeSpan toTime)
@@ -37,14 +37,14 @@ public WorkingTime(TimeSpan fromTime, TimeSpan toTime)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fromTime | TimeSpan | Время начала интервала, представленноеTimeSpanstruct. |
-| toTime | TimeSpan | Время окончания интервала, представленноеTimeSpanstruct. |
+| fromTime | TimeSpan | Время начала интервала, представленноеTimeSpan структура. |
+| toTime | TimeSpan | Время окончания интервала, представленноеTimeSpan структура. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Когда toTime меньше или равно аргументу toTime или когда интервал между fromTime и toTime больше 24 часов. |
+| ArgumentException | Когда toTime меньше или равно toTime, аргумент или когда интервал между fromTime и toTime больше 24 часов. |
 
 ### Примеры
 
@@ -65,7 +65,7 @@ var wt = new WorkingTime(new TimeSpan(9, 0, 0), new TimeSpan(18, 0, 0));
 
 ## WorkingTime(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WorkingTime`](../../workingtime)с элементом интервала с указанным временем начала и окончания.
+Инициализирует новый экземпляр[`WorkingTime`](../../workingtime) класс с элементом интервала с указанным временем начала и окончания.
 
 ```csharp
 public WorkingTime(int fromHours, int toHours)
@@ -73,18 +73,18 @@ public WorkingTime(int fromHours, int toHours)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fromHours | Int32 | Время начала интервала, представленное целым числом часов (0-24). |
-| toHours | Int32 | Время окончания интервала, представленное целым числом часов (0-24). |
+| fromHours | Int32 | Время начала интервала представлено целым числом часов (0-24). |
+| toHours | Int32 | Время окончания интервала представлено целым числом часов (0-24). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Когда toTime меньше или равно аргументу toTime или когда интервал между fromTime и toTime больше 24 часов. |
+| ArgumentException | Когда toTime меньше или равно toTime, аргумент или когда интервал между fromTime и toTime больше 24 часов. |
 
 ### Примеры
 
-Перегрузка ctor WorkingTime может использоваться для инициализации начала и окончания интервала с помощью целых часов:
+Перегрузка ctor WorkingTime может использоваться для инициализации начала и окончания интервала с использованием целых часов:
 
 ```csharp
 [C#]

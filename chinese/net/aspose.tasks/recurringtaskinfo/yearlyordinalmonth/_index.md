@@ -1,14 +1,14 @@
 ---
 title: YearlyOrdinalMonth
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置使用序数日时每年重复模式的月份  可以是Monthaspose.tasks/month枚举的值之一
+description: 获取或设置使用序数日时每年重复模式的月份 可以是以下值之一Monthaspose.tasks/month枚举
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/recurringtaskinfo/yearlyordinalmonth/
 ---
 ## RecurringTaskInfo.YearlyOrdinalMonth property
 
-获取或设置使用序数日时每年重复模式的月份。  可以是[`Month`](../../month)枚举的值之一。
+获取或设置使用序数日时每年重复模式的月份。 可以是以下值之一[`Month`](../../month)枚举。
 
 ```csharp
 public Month YearlyOrdinalMonth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GroupCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 包含Group./group对象的列表 实现 ICollectionltGroupgt界面
+description: 包含一个列表Group./group objects. 实现 ICollectionltGroupgt 接口
 type: docs
 weight: 710
 url: /zh/net/aspose.tasks/groupcollection/
 ---
 ## GroupCollection class
 
-包含[`Group`](../group)对象的列表。 实现 ICollection&lt;Group&gt;界面。
+包含一个列表[`Group`](../group) objects. 实现 ICollection&lt;Group&gt; 接口。
 
 ```csharp
 public class GroupCollection : ICollection<Group>
@@ -20,19 +20,19 @@ public class GroupCollection : ICollection<Group>
 | --- | --- |
 | [Count](../../aspose.tasks/groupcollection/count) { get; } | 获取此集合中包含的元素数。 |
 | [IsReadOnly](../../aspose.tasks/groupcollection/isreadonly) { get; } | 获取一个值，该值指示此集合是否为只读。 |
-| [ParentProject](../../aspose.tasks/groupcollection/parentproject) { get; } | 获取 Group 对象的父级。 只读[`Project`](../project)。 |
+| [ParentProject](../../aspose.tasks/groupcollection/parentproject) { get; } | 获取 Group 对象的父级。 只读[`Project`](../project). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/groupcollection/add)(Group) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/groupcollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/groupcollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/groupcollection/contains)(Group) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/groupcollection/copyto)(Group[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/groupcollection/getenumerator)() | 返回此集合的枚举数。 |
 | [Remove](../../aspose.tasks/groupcollection/remove)(Group) | 从此集合中删除特定对象的第一个匹配项。 |
-| [ToList](../../aspose.tasks/groupcollection/tolist)() | 将组集合转换为[`Group`](../group)对象的列表。 |
+| [ToList](../../aspose.tasks/groupcollection/tolist)() | 将组集合转换为[`Group`](../group)对象. |
 
 ### 也可以看看
 

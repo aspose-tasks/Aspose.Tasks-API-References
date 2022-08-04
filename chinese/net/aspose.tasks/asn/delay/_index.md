@@ -1,14 +1,14 @@
 ---
 title: Delay
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配延迟
+description: 分配的延迟
 type: docs
 weight: 230
 url: /zh/net/aspose.tasks/asn/delay/
 ---
 ## Asn.Delay field
 
-分配延迟。
+分配的延迟。
 
 ```csharp
 public static readonly Key<Duration, AsnKey> Delay;

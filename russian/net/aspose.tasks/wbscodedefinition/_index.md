@@ -3,7 +3,7 @@ title: WBSCodeDefinition
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет определение кода WBS.
 type: docs
-weight: 3100
+weight: 3110
 url: /ru/net/aspose.tasks/wbscodedefinition/
 ---
 ## WBSCodeDefinition class
@@ -18,7 +18,7 @@ public class WBSCodeDefinition
 
 | Имя | Описание |
 | --- | --- |
-| [WBSCodeDefinition](wbscodedefinition)() | Инициализирует новый экземпляр класса[`WBSCodeDefinition`](../wbscodedefinition). |
+| [WBSCodeDefinition](wbscodedefinition)() | Инициализирует новый экземпляр[`WBSCodeDefinition`](../wbscodedefinition) учебный класс. |
 
 ## Характеристики
 
@@ -27,7 +27,7 @@ public class WBSCodeDefinition
 | [CodeMaskCollection](../../aspose.tasks/wbscodedefinition/codemaskcollection) { get; } | Получает коллекцию объектов WBSCodeMask. |
 | [CodePrefix](../../aspose.tasks/wbscodedefinition/codeprefix) { get; set; } | Получает или задает префикс кода проекта. |
 | [GenerateWBSCode](../../aspose.tasks/wbscodedefinition/generatewbscode) { get; set; } | Получает или задает значение, указывающее, следует ли генерировать СДР-код для новой задачи. |
-| [VerifyUniqueness](../../aspose.tasks/wbscodedefinition/verifyuniqueness) { get; set; } | Получает или задает значение, указывающее, следует ли проверять уникальность новых кодов СДР. |
+| [VerifyUniqueness](../../aspose.tasks/wbscodedefinition/verifyuniqueness) { get; set; } | Получает или задает значение, указывающее, следует ли проверять уникальность новых кодов СПП. |
 
 ### Смотрите также
 

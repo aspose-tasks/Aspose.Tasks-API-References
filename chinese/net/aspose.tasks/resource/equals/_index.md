@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回一个值指示此实例是否等于Resourceaspose.tasks/resource类的指定实例
+description: 返回一个值该值指示此实例是否等于Resourceaspose.tasks/resource类.
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/resource/equals/
 ---
 ## Equals(Resource) {#equals}
 
-返回一个值，指示此实例是否等于[`Resource`](../../resource)类的指定实例。
+返回一个值，该值指示此实例是否等于[`Resource`](../../resource)类.
 
 ```csharp
 public bool Equals(Resource other)
@@ -16,11 +16,11 @@ public bool Equals(Resource other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Resource | [`Resource`](../../resource)类的指定实例与此进行比较实例。 |
+| other | Resource | 的指定实例[`Resource`](../../resource)类与此实例进行比较。 |
 
 ### 返回值
 
-**True** 如果Tasks的指定实例。Resource类的 Uid 值与此实例相同；否则， **false** 。
+**真的**如果指定的实例[`Resource`](../../resource)类具有与此实例相同的 Uid 值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果指定的对象是与此实例具有相同 Uid 值的资源；否则， **false** 。
+**真的**如果指定的对象是与此实例具有相同 Uid 值的 Resource；否则， **错误的**.
 
 ### 也可以看看
 

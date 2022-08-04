@@ -1,14 +1,14 @@
 ---
 title: Group
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаGroupaspose.tasks/group.
+description: Инициализирует новый экземплярGroupaspose.tasks/group класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/group/group/
 ---
 ## Group constructor
 
-Инициализирует новый экземпляр класса[`Group`](../../group).
+Инициализирует новый экземпляр[`Group`](../../group) класс.
 
 ```csharp
 public Group()

@@ -1,14 +1,14 @@
 ---
 title: ProjectView
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаProjectViewaspose.tasks.visualization/projectview.
+description: Инициализирует новый экземплярProjectViewaspose.tasks.visualization/projectview класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/projectview/projectview/
 ---
 ## ProjectView constructor
 
-Инициализирует новый экземпляр класса[`ProjectView`](../../projectview).
+Инициализирует новый экземпляр[`ProjectView`](../../projectview) класс.
 
 ```csharp
 public ProjectView(IEnumerable<ViewColumn> columns)

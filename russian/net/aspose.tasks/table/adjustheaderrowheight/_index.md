@@ -1,14 +1,14 @@
 ---
 title: AdjustHeaderRowHeight
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее можно ли регулировать высоту строки заголовка таблицы.
+description: Получает или задает значение указывающее можно ли изменить высоту строки заголовка таблицы.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/table/adjustheaderrowheight/
 ---
 ## Table.AdjustHeaderRowHeight property
 
-Получает или задает значение, указывающее, можно ли регулировать высоту строки заголовка таблицы.
+Получает или задает значение, указывающее, можно ли изменить высоту строки заголовка таблицы.
 
 ```csharp
 public bool AdjustHeaderRowHeight { get; set; }

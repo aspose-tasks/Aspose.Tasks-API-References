@@ -1,14 +1,14 @@
 ---
 title: Patterns
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает коллекцию содержащую экземпляры классаRiskPatternaspose.tasks.riskanalysis/riskpattern.
+description: Получает коллекцию содержащую экземплярыRiskPatternaspose.tasks.riskanalysis/riskpattern класс.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.riskanalysis/riskanalysissettings/patterns/
 ---
 ## RiskAnalysisSettings.Patterns property
 
-Получает коллекцию, содержащую экземпляры класса[`RiskPattern`](../../riskpattern).
+Получает коллекцию, содержащую экземпляры[`RiskPattern`](../../riskpattern) класс.
 
 ```csharp
 public RiskPatternCollection Patterns { get; }

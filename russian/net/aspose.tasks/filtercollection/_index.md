@@ -1,14 +1,14 @@
 ---
 title: FilterCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Содержит список объектовFilter./filter. Реализует ICollectionltFiltergt интерфейс.
+description: Содержит списокFilter./filter objects. Реализует интерфейс ICollectionltFiltergt.
 type: docs
 weight: 600
 url: /ru/net/aspose.tasks/filtercollection/
 ---
 ## FilterCollection class
 
-Содержит список объектов[`Filter`](../filter). Реализует ICollection&lt;Filter&gt; интерфейс.
+Содержит список[`Filter`](../filter) objects. Реализует интерфейс ICollection&lt;Filter&gt;.
 
 ```csharp
 public class FilterCollection : ICollection<Filter>
@@ -19,8 +19,8 @@ public class FilterCollection : ICollection<Filter>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/filtercollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/filtercollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
-| [ParentProject](../../aspose.tasks/filtercollection/parentproject) { get; } | Получает родителя объекта Filters. Только чтение[`Project`](../project). |
+| [IsReadOnly](../../aspose.tasks/filtercollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
+| [ParentProject](../../aspose.tasks/filtercollection/parentproject) { get; } | Получает родителя объекта Filters. Только для чтения[`Project`](../project) . |
 
 ## Методы
 
@@ -28,11 +28,11 @@ public class FilterCollection : ICollection<Filter>
 | --- | --- |
 | [Add](../../aspose.tasks/filtercollection/add)(Filter) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/filtercollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/filtercollection/contains)(Filter) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/filtercollection/contains)(Filter) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/filtercollection/copyto)(Filter[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/filtercollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/filtercollection/remove)(Filter) | Удаляет первое вхождение определенного объекта из этой коллекции. |
-| [ToList](../../aspose.tasks/filtercollection/tolist)() | Преобразует коллекцию фильтров в список объектов[`Filter`](../filter). |
+| [ToList](../../aspose.tasks/filtercollection/tolist)() | Преобразует набор фильтров в список[`Filter`](../filter) объекты. |
 
 ### Смотрите также
 

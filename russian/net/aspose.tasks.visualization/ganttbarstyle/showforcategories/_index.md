@@ -1,14 +1,14 @@
 ---
 title: ShowForCategories
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает категории задач для которых применяется стиль. Применяется для родительских или общих стилей столбцов в диаграмме Ганта см.BarStylesaspose.tasks/ganttchartview/barstyles.
+description: Получает или задает категории задач для которых применяется стиль. Применяется для родительских или общих стилей столбцов в диаграмме Ганта см.BarStylesaspose.tasks/ganttchartview/barstyles .
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/showforcategories/
 ---
 ## GanttBarStyle.ShowForCategories property
 
-Получает или задает категории задач, для которых применяется стиль. Применяется для родительских (или общих) стилей столбцов в диаграмме Ганта (см.[`BarStyles`](../../../aspose.tasks/ganttchartview/barstyles)).
+Получает или задает категории задач, для которых применяется стиль. Применяется для родительских (или общих) стилей столбцов в диаграмме Ганта (см.[`BarStyles`](../../../aspose.tasks/ganttchartview/barstyles) ).
 
 ```csharp
 public IList<GanttBarShowFor> ShowForCategories { get; set; }

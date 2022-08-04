@@ -3,7 +3,7 @@ title: WeeklyRepetitionBase
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示每周重复模式中重复的基类
 type: docs
-weight: 3210
+weight: 3220
 url: /zh/net/aspose.tasks/weeklyrepetitionbase/
 ---
 ## WeeklyRepetitionBase class
@@ -18,7 +18,7 @@ public abstract class WeeklyRepetitionBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置表示事件之间的间隔（以周为单位）的周数。 |
+| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | 获取或设置周数，表示事件之间的间隔（以周为单位）。 |
 
 ### 也可以看看
 

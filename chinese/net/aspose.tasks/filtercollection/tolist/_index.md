@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将过滤器集合转换为Filteraspose.tasks/filter对象的列表
+description: 将过滤器集合转换为Filteraspose.tasks/filter对象.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/filtercollection/tolist/
 ---
 ## FilterCollection.ToList method
 
-将过滤器集合转换为[`Filter`](../../filter)对象的列表。
+将过滤器集合转换为[`Filter`](../../filter)对象.
 
 ```csharp
 public List<Filter> ToList()
@@ -16,7 +16,7 @@ public List<Filter> ToList()
 
 ### 返回值
 
-[`Filter`](../../filter)对象的通用列表。
+通用列表[`Filter`](../../filter)对象。
 
 ### 也可以看看
 

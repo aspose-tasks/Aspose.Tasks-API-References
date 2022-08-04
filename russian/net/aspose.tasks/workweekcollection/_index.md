@@ -1,14 +1,14 @@
 ---
 title: WorkWeekCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовWorkWeek./workweek.
+description: Представляет наборWorkWeek./workweek объекты.
 type: docs
-weight: 3260
+weight: 3270
 url: /ru/net/aspose.tasks/workweekcollection/
 ---
 ## WorkWeekCollection class
 
-Представляет набор объектов[`WorkWeek`](../workweek).
+Представляет набор[`WorkWeek`](../workweek) объекты.
 
 ```csharp
 public class WorkWeekCollection : IList<WorkWeek>
@@ -18,7 +18,7 @@ public class WorkWeekCollection : IList<WorkWeek>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.tasks/workweekcollection/count) { get; } | Получает количество объектов, содержащихся в этом объекте[`WorkWeekCollection`](../workweekcollection). |
+| [Count](../../aspose.tasks/workweekcollection/count) { get; } | Получает количество объектов, содержащихся в этом[`WorkWeekCollection`](../workweekcollection) объект. |
 | [Item](../../aspose.tasks/workweekcollection/item) { get; set; } | Возвращает элемент по указанному индексу. |
 | [ParentCalendar](../../aspose.tasks/workweekcollection/parentcalendar) { get; } | Получает родительский календарь. |
 
@@ -28,7 +28,7 @@ public class WorkWeekCollection : IList<WorkWeek>
 | --- | --- |
 | [Add](../../aspose.tasks/workweekcollection/add)(WorkWeek) | Добавляет экземпляр WorkWeek в этот объект коллекции. |
 | [GetEnumerator](../../aspose.tasks/workweekcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [ToList](../../aspose.tasks/workweekcollection/tolist)() | Преобразует объект WorkWeekCollection в список объектов[`WorkWeek`](../workweek). |
+| [ToList](../../aspose.tasks/workweekcollection/tolist)() | Преобразует объект WorkWeekCollection в список[`WorkWeek`](../workweek) объекты. |
 
 ### Смотрите также
 

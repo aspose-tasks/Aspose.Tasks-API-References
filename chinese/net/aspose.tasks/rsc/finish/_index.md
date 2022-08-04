@@ -1,14 +1,14 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源计划完成所有已分配任务工作的日期
+description: 资源计划完成所有分配任务的日期
 type: docs
 weight: 290
 url: /zh/net/aspose.tasks/rsc/finish/
 ---
 ## Rsc.Finish field
 
-资源计划完成所有已分配任务工作的日期。
+资源计划完成所有分配任务的日期。
 
 ```csharp
 public static readonly Key<DateTime, RscKey> Finish;

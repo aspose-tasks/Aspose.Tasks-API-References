@@ -3,7 +3,7 @@ title: PageMargins
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示打印的页边距
 type: docs
-weight: 2850
+weight: 2860
 url: /zh/net/aspose.tasks.visualization/pagemargins/
 ---
 ## PageMargins class
@@ -24,7 +24,7 @@ public class PageMargins
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Borders](../../aspose.tasks.visualization/pagemargins/borders) { get; set; } | 获取或设置打印边框的位置。可以是[`Border`](../border)枚举的值之一。 |
+| [Borders](../../aspose.tasks.visualization/pagemargins/borders) { get; set; } | 获取或设置打印边框的位置。可以是的值之一[`Border`](../border)枚举. |
 | [Bottom](../../aspose.tasks.visualization/pagemargins/bottom) { get; set; } | 获取或设置下边距的大小，以英寸或厘米为单位。 |
 | [Left](../../aspose.tasks.visualization/pagemargins/left) { get; set; } | 获取或设置左边距的大小，以英寸或厘米为单位。 |
 | [Right](../../aspose.tasks.visualization/pagemargins/right) { get; set; } | 获取或设置右边距的大小，以英寸或厘米为单位。 |

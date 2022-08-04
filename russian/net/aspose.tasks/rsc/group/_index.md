@@ -1,14 +1,14 @@
 ---
 title: Group
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Группа которой принадлежит ресурс.
+description: Группа к которой принадлежит ресурс.
 type: docs
 weight: 300
 url: /ru/net/aspose.tasks/rsc/group/
 ---
 ## Rsc.Group field
 
-Группа, которой принадлежит ресурс.
+Группа, к которой принадлежит ресурс.
 
 ```csharp
 public static readonly Key<string, RscKey> Group;

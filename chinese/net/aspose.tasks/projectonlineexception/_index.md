@@ -1,14 +1,14 @@
 ---
 title: ProjectOnlineException
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示在与 Project Online 或 Project Server 实例交互期间发现错误时引发的异常
+description: 表示在与 Project Online 或 Project Server 实例交互过程中发现错误时引发的异常
 type: docs
 weight: 1220
 url: /zh/net/aspose.tasks/projectonlineexception/
 ---
 ## ProjectOnlineException class
 
-表示在与 Project Online 或 Project Server 实例交互期间发现错误时引发的异常。
+表示在与 Project Online 或 Project Server 实例交互过程中发现错误时引发的异常。
 
 ```csharp
 public class ProjectOnlineException : TasksException

@@ -1,14 +1,14 @@
 ---
 title: GetById
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回具有指定 ID 的资源
+description: 返回具有指定 id 的资源
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/resourcecollection/getbyid/
 ---
 ## ResourceCollection.GetById method
 
-返回具有指定 ID 的资源。
+返回具有指定 id 的资源。
 
 ```csharp
 public Resource GetById(int id)
@@ -16,11 +16,11 @@ public Resource GetById(int id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | 指定的id。 |
+| id | Int32 | 指定的标识。 |
 
 ### 返回值
 
-具有指定 ID 的资源（如果存在）；否则为空。
+具有指定 id 的资源（如果存在）；否则为空。
 
 ### 评论
 

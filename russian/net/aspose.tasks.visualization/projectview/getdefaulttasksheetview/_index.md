@@ -1,14 +1,14 @@
 ---
 title: GetDefaultTaskSheetView
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Включает идентификатор индикаторы имя продолжительность начало конец предшественники и столбцы задач с именами ресурсов.
+description: Включает идентификатор индикаторы имя продолжительность начало окончание предшественники и столбцы задач с именами ресурсов.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/projectview/getdefaulttasksheetview/
 ---
 ## ProjectView.GetDefaultTaskSheetView method
 
-Включает идентификатор, индикаторы, имя, продолжительность, начало, конец, предшественники и столбцы задач с именами ресурсов.
+Включает идентификатор, индикаторы, имя, продолжительность, начало, окончание, предшественники и столбцы задач с именами ресурсов.
 
 ```csharp
 public static ProjectView GetDefaultTaskSheetView()

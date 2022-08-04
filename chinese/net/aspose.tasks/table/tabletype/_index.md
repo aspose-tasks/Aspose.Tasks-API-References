@@ -1,14 +1,14 @@
 ---
 title: TableType
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取指定表的表类型只读ItemTypeaspose.tasks/itemtype
+description: 获取指定表的表类型只读ItemTypeaspose.tasks/itemtype.
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/table/tabletype/
 ---
 ## Table.TableType property
 
-获取指定表的表类型。只读[`ItemType`](../../itemtype)。
+获取指定表的表类型。只读[`ItemType`](../../itemtype).
 
 ```csharp
 public ItemType TableType { get; }

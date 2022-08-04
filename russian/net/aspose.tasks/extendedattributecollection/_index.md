@@ -1,14 +1,14 @@
 ---
 title: ExtendedAttributeCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовExtendedAttribute./extendedattribute.
+description: Представляет наборExtendedAttribute./extendedattribute объекты.
 type: docs
 weight: 520
 url: /ru/net/aspose.tasks/extendedattributecollection/
 ---
 ## ExtendedAttributeCollection class
 
-Представляет набор объектов[`ExtendedAttribute`](../extendedattribute).
+Представляет набор[`ExtendedAttribute`](../extendedattribute) объекты.
 
 ```csharp
 public class ExtendedAttributeCollection : IList<ExtendedAttribute>
@@ -19,7 +19,7 @@ public class ExtendedAttributeCollection : IList<ExtendedAttribute>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/extendedattributecollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/extendedattributecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/extendedattributecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks/extendedattributecollection/item) { get; set; } | Получает или задает элемент по указанному индексу. |
 
 ## Методы
@@ -28,7 +28,7 @@ public class ExtendedAttributeCollection : IList<ExtendedAttribute>
 | --- | --- |
 | [Add](../../aspose.tasks/extendedattributecollection/add)(ExtendedAttribute) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/extendedattributecollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/extendedattributecollection/contains)(ExtendedAttribute) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/extendedattributecollection/contains)(ExtendedAttribute) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/extendedattributecollection/copyto)(ExtendedAttribute[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/extendedattributecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/extendedattributecollection/indexof)(ExtendedAttribute) | Определяет индекс указанного элемента в этой коллекции. |

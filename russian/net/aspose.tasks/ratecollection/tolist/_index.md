@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объектRateCollectionaspose.tasks/ratecollectionв списокRateaspose.tasks/rateобъекты.
+description: ПреобразуетRateCollectionaspose.tasks/ratecollection возражать против спискаRateaspose.tasks/rate объекты.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/ratecollection/tolist/
 ---
 ## ToList() {#tolist}
 
-Преобразует объект[`RateCollection`](../../ratecollection)в список[`Rate`](../../rate)объекты.
+Преобразует[`RateCollection`](../../ratecollection) возражать против списка[`Rate`](../../rate) объекты.
 
 ```csharp
 public List<Rate> ToList()
@@ -16,7 +16,7 @@ public List<Rate> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`Rate`](../../rate).
+Список[`Rate`](../../rate) объекты.
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public List<Rate> ToList()
 
 ## ToList(RateType) {#tolist_1}
 
-Преобразует объект[`RateCollection`](../../ratecollection)в список[`Rate`](../../rate)объекты, отфильтрованные по указанному[`RateType`](../../ratetype)типу.
+Преобразует[`RateCollection`](../../ratecollection) возражать против списка[`Rate`](../../rate) объекты, отфильтрованные по указанным[`RateType`](../../ratetype) тип.
 
 ```csharp
 public List<Rate> ToList(RateType type)
@@ -41,7 +41,7 @@ public List<Rate> ToList(RateType type)
 
 ### Возвращаемое значение
 
-список объектов[`Rate`](../../rate).
+список[`Rate`](../../rate) объекты.
 
 ### Смотрите также
 

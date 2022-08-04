@@ -1,14 +1,14 @@
 ---
 title: PageSavingCallback
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает определяемый пользователем обратный вызов который используется для получения выходного потока для каждой отображаемой страницы. Применяется когда используется опцияSaveToSeparateFilesaspose.tasks.saving/pdfsaveoptions/savetoseparatefiles.
+description: Получает или задает определяемый пользователем обратный вызов который используется для получения выходного потока для каждой отображаемой страницы. Применяется когдаSaveToSeparateFilesaspose.tasks.saving/pdfsaveoptions/savetoseparatefiles используется опция .
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks.saving/pdfsaveoptions/pagesavingcallback/
 ---
 ## PdfSaveOptions.PageSavingCallback property
 
-Получает или задает определяемый пользователем обратный вызов, который используется для получения выходного потока для каждой отображаемой страницы. Применяется, когда используется опция[`SaveToSeparateFiles`](../savetoseparatefiles).
+Получает или задает определяемый пользователем обратный вызов, который используется для получения выходного потока для каждой отображаемой страницы. Применяется, когда[`SaveToSeparateFiles`](../savetoseparatefiles) используется опция .
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }

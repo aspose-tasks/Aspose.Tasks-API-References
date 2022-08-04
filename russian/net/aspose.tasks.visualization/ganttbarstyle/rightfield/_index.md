@@ -1,14 +1,14 @@
 ---
 title: RightField
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает данные для отображения справа от панели. Fieldaspose.tasks/field.
+description: Получает или задает данные для отображения справа от панели. Fieldaspose.tasks/field .
 type: docs
 weight: 180
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/rightfield/
 ---
 ## GanttBarStyle.RightField property
 
-Получает или задает данные для отображения справа от панели. [`Field`](../../../aspose.tasks/field).
+Получает или задает данные для отображения справа от панели. [`Field`](../../../aspose.tasks/field) .
 
 ```csharp
 public Field RightField { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AdjustToPercentOfNormalSize
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее следует ли настраивать печать на указанный процент PercentOfNormalSizeaspose.tasks.visualization/pagesettings/percentofnormalsize нормального размера.
+description: Получает или задает значение указывающее следует ли настраивать печать на указанный процент PercentOfNormalSizeaspose.tasks.visualization/pagesettings/percentofnormalsize  нормального размера.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize/
 ---
 ## PageSettings.AdjustToPercentOfNormalSize property
 
-Получает или задает значение, указывающее, следует ли настраивать печать на указанный процент ([`PercentOfNormalSize`](../percentofnormalsize)) нормального размера.
+Получает или задает значение, указывающее, следует ли настраивать печать на указанный процент ([`PercentOfNormalSize`](../percentofnormalsize) ) нормального размера.
 
 ```csharp
 public bool AdjustToPercentOfNormalSize { get; set; }

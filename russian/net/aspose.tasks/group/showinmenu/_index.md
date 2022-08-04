@@ -8,7 +8,7 @@ url: /ru/net/aspose.tasks/group/showinmenu/
 ---
 ## Group.ShowInMenu property
 
-Получает или задает значение, указывающее, отображает ли Project имя группы в раскрывающемся списке Группа на ленте.
+Получает или задает значение, указывающее, отображает ли Project имя группы в раскрывающемся списке «Группа» на ленте.
 
 ```csharp
 public bool ShowInMenu { get; set; }

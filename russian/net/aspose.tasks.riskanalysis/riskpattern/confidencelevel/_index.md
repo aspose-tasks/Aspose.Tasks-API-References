@@ -16,7 +16,7 @@ public ConfidenceLevel ConfidenceLevel { get; set; }
 
 ### Примечания
 
-Может быть одним из значений, определенных в`ConfidenceLevel`перечисление.
+Может быть одним из значений, определенных в`ConfidenceLevel` перечисление.
 
 ### Смотрите также
 

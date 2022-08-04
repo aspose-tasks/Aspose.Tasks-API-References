@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Aspose.Tasks for .NET API 参考
-description: 将异常范围添加到内部列表
+description: 将异常范围添加到内部列表中
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/calendarexceptioncollection/addrange/
 ---
 ## CalendarExceptionCollection.AddRange method
 
-将异常范围添加到内部列表。
+将异常范围添加到内部列表中。
 
 ```csharp
 public void AddRange(IEnumerable<CalendarException> exceptionList)

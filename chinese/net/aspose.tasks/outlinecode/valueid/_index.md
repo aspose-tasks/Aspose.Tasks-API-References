@@ -1,14 +1,14 @@
 ---
 title: ValueId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置与大纲代码集合中的定义关联的值列表中的 Id
+description: 获取或设置与大纲代码集合中的定义关联的值列表中的Id
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/outlinecode/valueid/
 ---
 ## OutlineCode.ValueId property
 
-获取或设置与大纲代码集合中的定义关联的值列表中的 Id。
+获取或设置与大纲代码集合中的定义关联的值列表中的Id。
 
 ```csharp
 public int ValueId { get; set; }

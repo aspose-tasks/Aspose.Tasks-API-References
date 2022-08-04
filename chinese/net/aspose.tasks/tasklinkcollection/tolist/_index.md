@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 TaskLinkCollection 对象转换为TaskLinkaspose.tasks/tasklink对象的列表
+description: 将 TaskLinkCollection 对象转换为TaskLinkaspose.tasks/tasklink对象.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/tasklinkcollection/tolist/
 ---
 ## TaskLinkCollection.ToList method
 
-将 TaskLinkCollection 对象转换为[`TaskLink`](../../tasklink)对象的列表。
+将 TaskLinkCollection 对象转换为[`TaskLink`](../../tasklink)对象.
 
 ```csharp
 public List<TaskLink> ToList()
@@ -16,7 +16,7 @@ public List<TaskLink> ToList()
 
 ### 返回值
 
-[`TaskLink`](../../tasklink)对象列表。
+清单[`TaskLink`](../../tasklink)对象。
 
 ### 也可以看看
 

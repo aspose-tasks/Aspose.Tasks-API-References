@@ -1,14 +1,14 @@
 ---
 title: RiskAnalysisSettings
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化RiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings类的新实例
+description: 初始化一个新的实例RiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.riskanalysis/riskanalysissettings/riskanalysissettings/
 ---
 ## RiskAnalysisSettings constructor
 
-初始化[`RiskAnalysisSettings`](../../riskanalysissettings)类的新实例。
+初始化一个新的实例[`RiskAnalysisSettings`](../../riskanalysissettings)班级。
 
 ```csharp
 public RiskAnalysisSettings()

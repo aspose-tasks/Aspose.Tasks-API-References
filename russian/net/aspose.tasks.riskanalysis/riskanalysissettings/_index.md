@@ -1,14 +1,14 @@
 ---
 title: RiskAnalysisSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Задает параметры для выполнения анализа рисков.
+description: Указывает параметры для выполнения анализа рисков.
 type: docs
 weight: 1610
 url: /ru/net/aspose.tasks.riskanalysis/riskanalysissettings/
 ---
 ## RiskAnalysisSettings class
 
-Задает параметры для выполнения анализа рисков.
+Указывает параметры для выполнения анализа рисков.
 
 ```csharp
 public class RiskAnalysisSettings
@@ -18,14 +18,14 @@ public class RiskAnalysisSettings
 
 | Имя | Описание |
 | --- | --- |
-| [RiskAnalysisSettings](riskanalysissettings)() | Инициализирует новый экземпляр класса[`RiskAnalysisSettings`](../riskanalysissettings). |
+| [RiskAnalysisSettings](riskanalysissettings)() | Инициализирует новый экземпляр[`RiskAnalysisSettings`](../riskanalysissettings) учебный класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IterationsCount](../../aspose.tasks.riskanalysis/riskanalysissettings/iterationscount) { get; set; } | Получает или задает количество итераций для использования в моделировании методом Монте-Карло. Значение по умолчанию равно 100. |
-| [Patterns](../../aspose.tasks.riskanalysis/riskanalysissettings/patterns) { get; } | Получает коллекцию, содержащую экземпляры класса[`RiskPattern`](../riskpattern). |
+| [IterationsCount](../../aspose.tasks.riskanalysis/riskanalysissettings/iterationscount) { get; set; } | Получает или задает количество итераций для использования в моделировании методом Монте-Карло. Значение по умолчанию — 100. |
+| [Patterns](../../aspose.tasks.riskanalysis/riskanalysissettings/patterns) { get; } | Получает коллекцию, содержащую экземпляры[`RiskPattern`](../riskpattern) класс. |
 
 ### Смотрите также
 

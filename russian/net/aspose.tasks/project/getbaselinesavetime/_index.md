@@ -16,11 +16,11 @@ public DateTime GetBaselineSaveTime(BaselineType baselineNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baselineNumber | BaselineType | Базовый номер[`BaselineType`](../../baselinetype). |
+| baselineNumber | BaselineType | Номер базовой линии[`BaselineType`](../../baselinetype). |
 
 ### Возвращаемое значение
 
-Базовая дата и время последнего сохранения.
+Дата и время последнего сохранения базового уровня.
 
 ### Примечания
 

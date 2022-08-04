@@ -1,14 +1,14 @@
 ---
 title: TiffCompression
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает какой тип сжатия применять при сохранении страниц в формате TIFF.
+description: Указывает какой тип сжатия следует применять при сохранении страниц в формате TIFF.
 type: docs
 weight: 1950
 url: /ru/net/aspose.tasks.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
 
-Указывает, какой тип сжатия применять при сохранении страниц в формате TIFF.
+Указывает, какой тип сжатия следует применять при сохранении страниц в формате TIFF.
 
 ```csharp
 public enum TiffCompression

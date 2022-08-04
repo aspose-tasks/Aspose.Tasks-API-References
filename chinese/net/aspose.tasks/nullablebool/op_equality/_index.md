@@ -16,8 +16,8 @@ public static bool operator ==(NullableBool a, NullableBool b)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| a | NullableBool | 第一个[`NullableBool`](../../nullablebool)。 |
-| b | NullableBool | 第二个[`NullableBool`](../../nullablebool)。 |
+| a | NullableBool | 首先[`NullableBool`](../../nullablebool). |
+| b | NullableBool | 第二[`NullableBool`](../../nullablebool). |
 
 ### 返回值
 

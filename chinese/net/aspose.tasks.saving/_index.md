@@ -22,11 +22,11 @@ url: /zh/net/aspose.tasks.saving/
 | [PdfSaveOptions](./pdfsaveoptions) | 允许在将项目页面呈现为 PDF 时指定其他选项。 |
 | [PrimaveraSaveOptions](./primaverasaveoptions) | 允许在将项目保存为 Primavera XER 格式时指定其他选项。 |
 | [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions) | 允许在将项目保存为 Primavera xml 格式时指定其他选项。 |
-| [PrintOptions](./printoptions) | 允许在打印项目时指定附加选项。 |
+| [PrintOptions](./printoptions) | 允许在打印项目时指定其他选项。 |
 | [SaveOptions](./saveoptions) | 这是类的抽象基类，允许用户在将项目 保存为特定格式时指定其他选项。 |
-| [SaveTemplateOptions](./savetemplateoptions) | 允许在将项目保存为模板时指定其他选项。 |
-| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions) | 允许在将项目页面呈现到 Spreadsheet2003 时指定其他选项。 |
-| [SvgOptions](./svgoptions) | 允许在将项目页面呈现为 SVG 时指定其他选项。 |
+| [SaveTemplateOptions](./savetemplateoptions) | 允许在将项目另存为模板时指定其他选项。 |
+| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions) | 允许在将项目页面呈现为 Spreadsheet2003 时指定其他选项。 |
+| [SvgOptions](./svgoptions) | 允许在将项目页面渲染为 SVG 时指定其他选项。 |
 | [XamlOptions](./xamloptions) | /// 允许在将项目页面呈现为 XAML 时指定其他选项。 |
 | [XlsxOptions](./xlsxoptions) | 允许在将项目页面呈现为 XLSX 时指定其他选项。 |
 | [XpsOptions](./xpsoptions) | 允许在将项目页面渲染到 XPS 时指定其他选项。 |
@@ -34,7 +34,7 @@ url: /zh/net/aspose.tasks.saving/
 
 | 界面 | 描述 |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback) | 表示当多页文档中的每个页面保存到单独的流时调用的回调。 |
+| [IPageSavingCallback](./ipagesavingcallback) | 表示当多页文档中的每一页保存到单独的流时调用的回调。 |
 ## 枚举
 
 | 枚举 | 描述 |

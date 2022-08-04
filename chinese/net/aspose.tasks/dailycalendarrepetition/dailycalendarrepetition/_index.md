@@ -1,14 +1,14 @@
 ---
 title: DailyCalendarRepetition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化DailyCalendarRepetitionaspose.tasks/dailycalendarrepetition类的新实例
+description: 初始化DailyCalendarRepetitionaspose.tasks/dailycalendarrepetition类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/dailycalendarrepetition/dailycalendarrepetition/
 ---
 ## DailyCalendarRepetition constructor
 
-初始化[`DailyCalendarRepetition`](../../dailycalendarrepetition)类的新实例。
+初始化[`DailyCalendarRepetition`](../../dailycalendarrepetition)类.
 
 ```csharp
 public DailyCalendarRepetition()

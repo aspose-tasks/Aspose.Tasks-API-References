@@ -1,14 +1,14 @@
 ---
 title: CriticalPath
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取包含关键任务列表的集合这些关键任务构成该项目的关键路径  这是一个 On 操作其中 n 是项目中的任务数
+description: 获取包含关键任务列表的集合这些任务构成该项目的关键路径 这是一个 On 操作其中 n 是项目中的任务数
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/project/criticalpath/
 ---
 ## Project.CriticalPath property
 
-获取包含关键任务列表的集合，这些关键任务构成该项目的关键路径。  这是一个 O(n) 操作，其中 n 是项目中的任务数。
+获取包含关键任务列表的集合，这些任务构成该项目的关键路径。 这是一个 O(n) 操作，其中 n 是项目中的任务数。
 
 ```csharp
 public TaskCollection CriticalPath { get; }

@@ -8,7 +8,7 @@ url: /ru/net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-Возвращает экземпляр Finish-Start[`TaskLink`](../../tasklink), который был добавлен в объект TaskLinkCollection.
+Возвращает экземпляр Finish-Start[`TaskLink`](../../tasklink) который был добавлен в объект TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
@@ -16,8 +16,8 @@ public TaskLink Add(Task pred, Task succ)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pred | Task | Задача-предшественник. |
-| succ | Task | Последующая задача. |
+| pred | Task | Задача предшественника. |
+| succ | Task | Задача преемника. |
 
 ### Возвращаемое значение
 
@@ -27,7 +27,7 @@ public TaskLink Add(Task pred, Task succ)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если какая-либо из входных задач равна null, тоArgumentNullExceptionбудет сгенерировано. |
+| ArgumentNullException | Если какая-либо из входных задач равна нулю, тоArgumentNullException будет брошен. |
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public TaskLink Add(Task pred, Task succ)
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-Возвращает экземпляр[`TaskLink`](../../tasklink), который был добавлен в объект TaskLinkCollection.
+Возвращает экземпляр[`TaskLink`](../../tasklink) который был добавлен в объект TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
@@ -49,8 +49,8 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pred | Task | Задача-предшественник. |
-| succ | Task | Последующая задача. |
+| pred | Task | Задача предшественника. |
+| succ | Task | Задача преемника. |
 | linkType | TaskLinkType | Тип ссылки[`TaskLinkType`](../../tasklinktype) |
 
 ### Возвращаемое значение
@@ -61,7 +61,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если какая-либо из входных задач равна null, тоArgumentNullExceptionбудет сгенерировано. |
+| ArgumentNullException | Если какая-либо из входных задач равна нулю, тоArgumentNullException будет брошен. |
 
 ### Смотрите также
 
@@ -76,7 +76,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-Возвращает экземпляр[`TaskLink`](../../tasklink), который был добавлен в объект TaskLinkCollection.
+Возвращает экземпляр[`TaskLink`](../../tasklink) который был добавлен в объект TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
@@ -84,8 +84,8 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pred | Task | Задача-предшественник. |
-| succ | Task | Последующая задача. |
+| pred | Task | Задача предшественника. |
+| succ | Task | Задача преемника. |
 | linkType | TaskLinkType | Тип ссылки[`TaskLinkType`](../../tasklinktype) |
 | lag | Duration | Задержка связи[`Duration`](../../duration). |
 
@@ -97,7 +97,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если какая-либо из входных задач равна null, тоArgumentNullExceptionбудет сгенерировано. |
+| ArgumentNullException | Если какая-либо из входных задач равна нулю, тоArgumentNullException будет брошен. |
 
 ### Смотрите также
 
@@ -113,7 +113,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 
 ## Add(TaskLink) {#add_3}
 
-Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException
+Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException
 
 ```csharp
 public void Add(TaskLink item)
@@ -121,7 +121,7 @@ public void Add(TaskLink item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | TaskLink | Добавляемый элемент. |
+| item | TaskLink | Элемент для добавления. |
 
 ### Смотрите также
 

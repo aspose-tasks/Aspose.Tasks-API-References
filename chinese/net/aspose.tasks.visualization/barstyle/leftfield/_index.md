@@ -1,14 +1,14 @@
 ---
 title: LeftField
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要在栏左侧显示的字段
+description: 获取或设置要显示在栏左侧的字段
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks.visualization/barstyle/leftfield/
 ---
 ## BarStyle.LeftField property
 
-获取或设置要在栏左侧显示的字段。
+获取或设置要显示在栏左侧的字段。
 
 ```csharp
 public Field LeftField { get; set; }

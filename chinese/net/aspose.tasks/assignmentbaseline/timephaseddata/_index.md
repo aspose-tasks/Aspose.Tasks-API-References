@@ -1,14 +1,14 @@
 ---
 title: TimephasedData
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置此对象的TimephasedDataCollectionaspose.tasks/timephaseddatacollection实例 与资源分配基线关联的时间分段数据  返回此对象的TimephasedDataCollectionaspose.tasks/timephaseddatacollection实例 与此基线关联的时间分段数据的集合
+description: 获取或设置TimephasedDataCollectionaspose.tasks/timephaseddatacollection此对象的实例 与资源分配基线关联的时间分段数据 返回TimephasedDataCollectionaspose.tasks/timephaseddatacollection此对象的实例与此基线关联的时间分段数据的集合
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/assignmentbaseline/timephaseddata/
 ---
 ## AssignmentBaseline.TimephasedData property
 
-获取或设置此对象的[`TimephasedDataCollection`](../../timephaseddatacollection)实例。 与资源分配基线关联的时间分段数据。  返回此对象的[`TimephasedDataCollection`](../../timephaseddatacollection)实例。 与此基线关联的时间分段数据的集合。
+获取或设置[`TimephasedDataCollection`](../../timephaseddatacollection)此对象的实例。 与资源分配基线关联的时间分段数据。 返回[`TimephasedDataCollection`](../../timephaseddatacollection)此对象的实例。与此基线关联的时间分段数据的集合。
 
 ```csharp
 public TimephasedDataCollection TimephasedData { get; set; }

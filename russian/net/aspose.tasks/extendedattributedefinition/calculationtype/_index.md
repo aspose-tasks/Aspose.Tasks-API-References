@@ -1,14 +1,14 @@
 ---
 title: CalculationType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает тип расчета значения пользовательского атрибута.
+description: Получает или задает тип вычисления значения пользовательского атрибута.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/extendedattributedefinition/calculationtype/
 ---
 ## ExtendedAttributeDefinition.CalculationType property
 
-Получает или задает тип расчета значения пользовательского атрибута.
+Получает или задает тип вычисления значения пользовательского атрибута.
 
 ```csharp
 public CalculationType CalculationType { get; set; }

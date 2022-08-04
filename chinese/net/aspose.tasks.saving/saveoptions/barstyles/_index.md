@@ -1,14 +1,14 @@
 ---
 title: BarStyles
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置项目视图中出现的BarStyleaspose.tasks.visualization/barstyle类的实例列表
+description: 获取或设置实例的列表BarStyleaspose.tasks.visualization/barstyle出现在项目视图中的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/saveoptions/barstyles/
 ---
 ## SaveOptions.BarStyles property
 
-获取或设置项目视图中出现的[`BarStyle`](../../../aspose.tasks.visualization/barstyle)类的实例列表。
+获取或设置实例的列表[`BarStyle`](../../../aspose.tasks.visualization/barstyle)出现在项目视图中的类。
 
 ```csharp
 public List<BarStyle> BarStyles { get; set; }

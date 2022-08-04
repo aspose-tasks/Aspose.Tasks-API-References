@@ -1,14 +1,14 @@
 ---
 title: OutlineValueCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовOutlineValue./outlinevalue.
+description: Представляет наборOutlineValue./outlinevalue объекты.
 type: docs
 weight: 1080
 url: /ru/net/aspose.tasks/outlinevaluecollection/
 ---
 ## OutlineValueCollection class
 
-Представляет набор объектов[`OutlineValue`](../outlinevalue).
+Представляет набор[`OutlineValue`](../outlinevalue) объекты.
 
 ```csharp
 public class OutlineValueCollection : IList<OutlineValue>
@@ -28,7 +28,7 @@ public class OutlineValueCollection : IList<OutlineValue>
 | --- | --- |
 | [Add](../../aspose.tasks/outlinevaluecollection/add)(OutlineValue) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/outlinevaluecollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/outlinevaluecollection/contains)(OutlineValue) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/outlinevaluecollection/contains)(OutlineValue) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/outlinevaluecollection/copyto)(OutlineValue[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/outlinevaluecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/outlinevaluecollection/indexof)(OutlineValue) | Определяет индекс указанного элемента в этой коллекции. |

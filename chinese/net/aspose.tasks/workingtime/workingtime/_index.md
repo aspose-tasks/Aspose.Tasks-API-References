@@ -1,14 +1,14 @@
 ---
 title: WorkingTime
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化WorkingTimeaspose.tasks/workingtime类的新实例其间隔具有指定的开始和结束时间
+description: 初始化WorkingTimeaspose.tasks/workingtime具有指定开始和结束时间间隔的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/workingtime/workingtime/
 ---
 ## WorkingTime(DateTime, DateTime) {#constructor_2}
 
-初始化[`WorkingTime`](../../workingtime)类的新实例，其间隔具有指定的开始和结束时间。
+初始化[`WorkingTime`](../../workingtime)具有指定开始和结束时间间隔的类。
 
 ```csharp
 public WorkingTime(DateTime fromTime, DateTime toTime)
@@ -29,7 +29,7 @@ public WorkingTime(DateTime fromTime, DateTime toTime)
 
 ## WorkingTime(TimeSpan, TimeSpan) {#constructor_3}
 
-使用具有指定开始和结束时间的间隔项初始化[`WorkingTime`](../../workingtime)类的新实例。
+初始化[`WorkingTime`](../../workingtime)具有指定开始和结束时间的间隔项的类。
 
 ```csharp
 public WorkingTime(TimeSpan fromTime, TimeSpan toTime)
@@ -37,8 +37,8 @@ public WorkingTime(TimeSpan fromTime, TimeSpan toTime)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fromTime | TimeSpan | 间隔的开始时间由TimeSpan结构体表示。 |
-| toTime | TimeSpan | 间隔的结束时间，由TimeSpan结构体表示。 |
+| fromTime | TimeSpan | 间隔的开始时间由TimeSpan结构。 |
+| toTime | TimeSpan | 区间的结束时间由TimeSpan结构。 |
 
 ### 例外
 
@@ -48,7 +48,7 @@ public WorkingTime(TimeSpan fromTime, TimeSpan toTime)
 
 ### 例子
 
-WorkingTime ctor 的重载可用于初始化间隔的开始和结束，使用 TimeSpans:
+WorkingTime ctor 的重载可用于使用 TimeSpan 初始化间隔的开始和结束：
 
 ```csharp
 [C#]
@@ -65,7 +65,7 @@ var wt = new WorkingTime(new TimeSpan(9, 0, 0), new TimeSpan(18, 0, 0));
 
 ## WorkingTime(int, int) {#constructor_1}
 
-使用具有指定开始和结束时间的间隔项初始化[`WorkingTime`](../../workingtime)类的新实例。
+初始化[`WorkingTime`](../../workingtime)具有指定开始和结束时间的间隔项的类。
 
 ```csharp
 public WorkingTime(int fromHours, int toHours)
@@ -73,8 +73,8 @@ public WorkingTime(int fromHours, int toHours)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fromHours | Int32 | 以整数小时数 (0-24) 表示的间隔的开始时间。 |
-| toHours | Int32 | 以整数小时数 (0-24) 表示的间隔的结束时间。 |
+| fromHours | Int32 | 以整数小时数 (0-24) 表示的时间间隔的开始时间。 |
+| toHours | Int32 | 间隔的结束时间，以整数小时数 (0-24) 表示。 |
 
 ### 例外
 
@@ -84,7 +84,7 @@ public WorkingTime(int fromHours, int toHours)
 
 ### 例子
 
-WorkingTime ctor 的重载可用于使用整小时初始化间隔的开始和结束:
+WorkingTime ctor 的重载可用于使用整小时初始化间隔的开始和结束：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: SaveReport
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Сохраняет отчет об анализе рисков в поток в формате PDF.
+description: Сохраняет отчет анализа рисков в поток в формате PDF.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.riskanalysis/riskanalysisresult/savereport/
 ---
 ## SaveReport(Stream) {#savereport}
 
-Сохраняет отчет об анализе рисков в поток в формате PDF.
+Сохраняет отчет анализа рисков в поток в формате PDF.
 
 ```csharp
 public void SaveReport(Stream stream)
@@ -16,7 +16,7 @@ public void SaveReport(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, в который необходимо сохранить отчет об анализе рисков. |
+| stream | Stream | Поток, в который следует сохранить отчет об анализе рисков. |
 
 ### Смотрите также
 

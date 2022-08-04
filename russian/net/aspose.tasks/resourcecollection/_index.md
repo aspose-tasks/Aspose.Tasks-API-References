@@ -1,14 +1,14 @@
 ---
 title: ResourceCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовResource./resource.
+description: Представляет наборResource./resource объекты.
 type: docs
 weight: 1510
 url: /ru/net/aspose.tasks/resourcecollection/
 ---
 ## ResourceCollection class
 
-Представляет набор объектов[`Resource`](../resource).
+Представляет набор[`Resource`](../resource) объекты.
 
 ```csharp
 public class ResourceCollection : IList<Resource>
@@ -29,12 +29,12 @@ public class ResourceCollection : IList<Resource>
 | [Add](../../aspose.tasks/resourcecollection/add#add)() | Добавляет новый ресурс в последнюю позицию коллекции ресурсов проекта. |
 | [Add](../../aspose.tasks/resourcecollection/add#add_1)(string) | Добавляет новый ресурс в последнюю позицию коллекции ресурсов проекта. |
 | [Add](../../aspose.tasks/resourcecollection/add#add_2)(string, int) | Добавляет новый ресурс в указанную позицию коллекции ресурсов проекта. |
-| [Clear](../../aspose.tasks/resourcecollection/clear)() | Прямая очистка не поддерживается, этот метод просто генерирует исключение NotSupportedException. |
+| [Clear](../../aspose.tasks/resourcecollection/clear)() | Прямая очистка не поддерживается, этот метод просто вызывает исключение NotSupportedException. |
 | [GetById](../../aspose.tasks/resourcecollection/getbyid)(int) | Возвращает ресурс с указанным идентификатором. |
 | [GetByUid](../../aspose.tasks/resourcecollection/getbyuid)(int) | Возвращает ресурс с указанным Uid. |
 | [GetEnumerator](../../aspose.tasks/resourcecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [Remove](../../aspose.tasks/resourcecollection/remove)(Resource) | Это заглушка реализации метода ICollection Remove , который генерирует только исключение NotSupportedException |
-| [ToList](../../aspose.tasks/resourcecollection/tolist)() | Преобразует объект ResourceCollection в список объектов[`Resource`](../resource). |
+| [Remove](../../aspose.tasks/resourcecollection/remove)(Resource) | Это заглушка метода Remove из ICollection, которая выдает только NotSupportedException |
+| [ToList](../../aspose.tasks/resourcecollection/tolist)() | Преобразует объект ResourceCollection в список[`Resource`](../resource) объекты. |
 
 ### Смотрите также
 

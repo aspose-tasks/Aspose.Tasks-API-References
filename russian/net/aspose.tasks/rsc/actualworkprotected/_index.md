@@ -1,14 +1,14 @@
 ---
 title: ActualWorkProtected
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Объем работы посредством которой защищена фактическая работа.
+description: Объем работы посредством которой реальная работа защищена.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/rsc/actualworkprotected/
 ---
 ## Rsc.ActualWorkProtected field
 
-Объем работы, посредством которой защищена фактическая работа.
+Объем работы, посредством которой реальная работа защищена.
 
 ```csharp
 public static readonly Key<Duration, RscKey> ActualWorkProtected;

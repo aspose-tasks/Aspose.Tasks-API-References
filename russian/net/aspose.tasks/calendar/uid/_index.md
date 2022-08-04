@@ -1,14 +1,14 @@
 ---
 title: Uid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает уникальный идентификатор календаря. Чтение/записьInt32.
+description: Получает или задает уникальный идентификатор календаря. Чтение/записьInt32 .
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/calendar/uid/
 ---
 ## Calendar.Uid property
 
-Получает или задает уникальный идентификатор календаря. Чтение/записьInt32.
+Получает или задает уникальный идентификатор календаря. Чтение/записьInt32 .
 
 ```csharp
 public int Uid { get; set; }

@@ -16,7 +16,7 @@ public SplitPart[] ToArray()
 
 ### 返回值
 
-[`SplitPart`](../../splitpart)对象的数组。
+一个数组[`SplitPart`](../../splitpart)对象。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AppendNewValues
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее добавляются ли новые значения добавленные в проект в список автоматически.
+description: Получает или задает значение указывающее будут ли новые значения добавленные в проект автоматически добавляться в список.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/extendedattributedefinition/appendnewvalues/
 ---
 ## ExtendedAttributeDefinition.AppendNewValues property
 
-Получает или задает значение, указывающее, добавляются ли новые значения, добавленные в проект, в список автоматически.
+Получает или задает значение, указывающее, будут ли новые значения, добавленные в проект, автоматически добавляться в список.
 
 ```csharp
 public bool AppendNewValues { get; set; }

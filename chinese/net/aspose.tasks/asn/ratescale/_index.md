@@ -1,14 +1,14 @@
 ---
 title: RateScale
 second_title: Aspose.Tasks for .NET API 参考
-description: 材料资源分配使用率的时间单位 如果未定义则返回 0
+description: 材料资源分配使用率的时间单位 未定义返回0
 type: docs
 weight: 410
 url: /zh/net/aspose.tasks/asn/ratescale/
 ---
 ## Asn.RateScale field
 
-材料资源分配使用率的时间单位。 如果未定义，则返回 0。
+材料资源分配使用率的时间单位。 未定义返回0。
 
 ```csharp
 public static readonly Key<RateScaleType, AsnKey> RateScale;

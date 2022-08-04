@@ -3,7 +3,7 @@ title: WeeklyRecurrencePattern
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет набор параметров используемых для создания еженедельно повторяющейся задачи в проекте.
 type: docs
-weight: 3190
+weight: 3200
 url: /ru/net/aspose.tasks/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern class
@@ -18,7 +18,7 @@ public class WeeklyRecurrencePattern : RecurrencePatternBase
 
 | Имя | Описание |
 | --- | --- |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern)() | Инициализирует новый экземпляр класса[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern). |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern)() | Инициализирует новый экземпляр[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) класс. |
 
 ## Характеристики
 

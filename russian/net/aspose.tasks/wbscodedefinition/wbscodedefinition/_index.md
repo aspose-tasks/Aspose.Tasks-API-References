@@ -1,14 +1,14 @@
 ---
 title: WBSCodeDefinition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаWBSCodeDefinitionaspose.tasks/wbscodedefinition.
+description: Инициализирует новый экземплярWBSCodeDefinitionaspose.tasks/wbscodedefinition учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/wbscodedefinition/wbscodedefinition/
 ---
 ## WBSCodeDefinition constructor
 
-Инициализирует новый экземпляр класса[`WBSCodeDefinition`](../../wbscodedefinition).
+Инициализирует новый экземпляр[`WBSCodeDefinition`](../../wbscodedefinition) учебный класс.
 
 ```csharp
 public WBSCodeDefinition()

@@ -1,14 +1,14 @@
 ---
 title: ResourceUsageViewFieldCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор значенийResourceUsageViewField./resourceusageviewfield.
+description: Представляет наборResourceUsageViewField./resourceusageviewfield значения.
 type: docs
 weight: 1570
 url: /ru/net/aspose.tasks/resourceusageviewfieldcollection/
 ---
 ## ResourceUsageViewFieldCollection class
 
-Представляет набор значений[`ResourceUsageViewField`](../resourceusageviewfield).
+Представляет набор[`ResourceUsageViewField`](../resourceusageviewfield) значения.
 
 ```csharp
 public class ResourceUsageViewFieldCollection : IList<ResourceUsageViewField>
@@ -19,7 +19,7 @@ public class ResourceUsageViewFieldCollection : IList<ResourceUsageViewField>
 | Имя | Описание |
 | --- | --- |
 | [GetEnumerator](../../aspose.tasks/resourceusageviewfieldcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
-| [ToList](../../aspose.tasks/resourceusageviewfieldcollection/tolist)() | Преобразует экземпляр класса[`ResourceUsageViewFieldCollection`](../resourceusageviewfieldcollection)в список, содержащий экземпляры[`ResourceUsageViewField`](../resourceusageviewfield)класс. |
+| [ToList](../../aspose.tasks/resourceusageviewfieldcollection/tolist)() | Преобразует экземпляр[`ResourceUsageViewFieldCollection`](../resourceusageviewfieldcollection) class в список, содержащий экземпляры[`ResourceUsageViewField`](../resourceusageviewfield) класс. |
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public decimal NumericValue { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, если свойство[`AttributeDefinition`](../attributedefinition)не инициализирован или тип пользовательского поля[`AttributeDefinition`](../attributedefinition)свойство не является «Стоимостью» или «Число». |
+| InvalidOperationException | Брошен, если[`AttributeDefinition`](../attributedefinition) свойство не инициализировано или тип пользовательского поля[`AttributeDefinition`](../attributedefinition) свойство не является «Стоимостью» или «Числом». |
 
 ### Смотрите также
 

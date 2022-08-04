@@ -1,14 +1,14 @@
 ---
 title: MiddleTimescaleTier
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置视图的中间时间刻度层的设置 TimescaleTieraspose.tasks.visualization/timescaletier
+description: 获取或设置视图的中间时间刻度层的设置 TimescaleTieraspose.tasks.visualization/timescaletier.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/ganttchartview/middletimescaletier/
 ---
 ## GanttChartView.MiddleTimescaleTier property
 
-获取或设置视图的中间时间刻度层的设置。 [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier)。
+获取或设置视图的中间时间刻度层的设置。 [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier).
 
 ```csharp
 public TimescaleTier MiddleTimescaleTier { get; set; }

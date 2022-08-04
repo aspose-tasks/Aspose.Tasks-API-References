@@ -1,14 +1,14 @@
 ---
 title: TimephasedData
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化TimephasedDataaspose.tasks/timephaseddata类的新实例
+description: 初始化TimephasedDataaspose.tasks/timephaseddata类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/timephaseddata/timephaseddata/
 ---
 ## TimephasedData constructor
 
-初始化[`TimephasedData`](../../timephaseddata)类的新实例。
+初始化[`TimephasedData`](../../timephaseddata)类.
 
 ```csharp
 public TimephasedData()

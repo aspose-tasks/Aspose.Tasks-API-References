@@ -1,14 +1,14 @@
 ---
 title: IterationsCount
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает количество итераций для использования в моделировании методом Монте-Карло. Значение по умолчанию равно 100.
+description: Получает или задает количество итераций для использования в моделировании методом Монте-Карло. Значение по умолчанию  100.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.riskanalysis/riskanalysissettings/iterationscount/
 ---
 ## RiskAnalysisSettings.IterationsCount property
 
-Получает или задает количество итераций для использования в моделировании методом Монте-Карло. Значение по умолчанию равно 100.
+Получает или задает количество итераций для использования в моделировании методом Монте-Карло. Значение по умолчанию — 100.
 
 ```csharp
 public int IterationsCount { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: OleObjectCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示包含OleObject./oleobject类的实例的集合
+description: 表示包含OleObject./oleobject类.
 type: docs
 weight: 990
 url: /zh/net/aspose.tasks/oleobjectcollection/
 ---
 ## OleObjectCollection class
 
-表示包含[`OleObject`](../oleobject)类的实例的集合。
+表示包含[`OleObject`](../oleobject)类.
 
 ```csharp
 public sealed class OleObjectCollection : IList<OleObject>
@@ -20,7 +20,7 @@ public sealed class OleObjectCollection : IList<OleObject>
 | --- | --- |
 | [Clear](../../aspose.tasks/oleobjectcollection/clear)() | 清除集合。为了保持这些更改 project.Save 应该使用 new MPPSaveOptions { WriteViewData = true; 调用} |
 | [GetEnumerator](../../aspose.tasks/oleobjectcollection/getenumerator)() | 返回此集合的枚举数。 |
-| [ToList](../../aspose.tasks/oleobjectcollection/tolist)() | 将[`OleObjectCollection`](../oleobjectcollection)类的实例转换为包含T实例的列表:Aspose.Tasks.OleObject类。 |
+| [ToList](../../aspose.tasks/oleobjectcollection/tolist)() | 转换实例[`OleObjectCollection`](../oleobjectcollection)类到一个包含实例的列表[`OleObject`](../oleobject)类. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 GroupCriterion 集合转换为GroupCriterionaspose.tasks/groupcriterion对象列表
+description: 将 GroupCriterion 集合转换为GroupCriterionaspose.tasks/groupcriterion对象.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/groupcriterioncollection/tolist/
 ---
 ## GroupCriterionCollection.ToList method
 
-将 GroupCriterion 集合转换为[`GroupCriterion`](../../groupcriterion)对象列表。
+将 GroupCriterion 集合转换为[`GroupCriterion`](../../groupcriterion)对象.
 
 ```csharp
 public List<GroupCriterion> ToList()
@@ -16,7 +16,7 @@ public List<GroupCriterion> ToList()
 
 ### 返回值
 
-[`GroupCriterion`](../../groupcriterion)对象的通用列表。
+通用列表[`GroupCriterion`](../../groupcriterion)对象。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BarShape
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置条形样式的BarShapeaspose.tasks.visualization/barstyle/barshape
+description: 获取或设置BarShapeaspose.tasks.visualization/barstyle/barshape酒吧风格的.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/barstyle/barshape/
 ---
 ## BarStyle.BarShape property
 
-获取或设置条形样式的`BarShape`。
+获取或设置`BarShape`酒吧风格的.
 
 ```csharp
 public BarShape BarShape { get; set; }

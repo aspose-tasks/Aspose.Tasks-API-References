@@ -1,14 +1,14 @@
 ---
 title: ByMonthWeekDayRepetition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ByMonthWeekDayRepetitionaspose.tasks/bymonthweekdayrepetition类的新实例
+description: 初始化ByMonthWeekDayRepetitionaspose.tasks/bymonthweekdayrepetition班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/bymonthweekdayrepetition/bymonthweekdayrepetition/
 ---
 ## ByMonthWeekDayRepetition constructor
 
-初始化[`ByMonthWeekDayRepetition`](../../bymonthweekdayrepetition)类的新实例。
+初始化[`ByMonthWeekDayRepetition`](../../bymonthweekdayrepetition)班级。
 
 ```csharp
 public ByMonthWeekDayRepetition()

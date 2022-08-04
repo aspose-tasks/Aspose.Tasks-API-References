@@ -1,14 +1,14 @@
 ---
 title: OutlineCodeCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示OutlineCode./outlinecode对象的集合
+description: 代表一个集合OutlineCode./outlinecode对象.
 type: docs
 weight: 1020
 url: /zh/net/aspose.tasks/outlinecodecollection/
 ---
 ## OutlineCodeCollection class
 
-表示[`OutlineCode`](../outlinecode)对象的集合。
+代表一个集合[`OutlineCode`](../outlinecode)对象.
 
 ```csharp
 public class OutlineCodeCollection : IList<OutlineCode>
@@ -27,7 +27,7 @@ public class OutlineCodeCollection : IList<OutlineCode>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/outlinecodecollection/add)(OutlineCode) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/outlinecodecollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/outlinecodecollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/outlinecodecollection/contains)(OutlineCode) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/outlinecodecollection/copyto)(OutlineCode[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/outlinecodecollection/getenumerator)() | 返回此集合的枚举数。 |

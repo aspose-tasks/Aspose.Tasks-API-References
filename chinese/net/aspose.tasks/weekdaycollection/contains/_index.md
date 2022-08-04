@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API 参考
-description: 检查集合是否包含WeekDayaspose.tasks/weekday.specified
+description: 检查集合是否包含WeekDayaspose.tasks/weekday.specified.
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/weekdaycollection/contains/
 ---
 ## WeekDayCollection.Contains method
 
-检查集合是否包含[`WeekDay`](../../weekday).specified。
+检查集合是否包含[`WeekDay`](../../weekday).specified.
 
 ```csharp
 public bool Contains(WeekDay item)

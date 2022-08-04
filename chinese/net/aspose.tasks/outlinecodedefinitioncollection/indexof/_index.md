@@ -20,7 +20,7 @@ public int IndexOf(OutlineCodeDefinition item)
 
 ### 返回值
 
-指定项的索引（如果找到）；否则，-1。
+指定项目的索引（如果找到）；否则，-1。
 
 ### 也可以看看
 

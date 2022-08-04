@@ -1,14 +1,14 @@
 ---
 title: FinishVariance
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Отклонение даты окончания назначения от базовой даты окончания.
+description: Отклонение даты окончания задания от базовой даты окончания.
 type: docs
 weight: 250
 url: /ru/net/aspose.tasks/asn/finishvariance/
 ---
 ## Asn.FinishVariance field
 
-Отклонение даты окончания назначения от базовой даты окончания.
+Отклонение даты окончания задания от базовой даты окончания.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> FinishVariance;

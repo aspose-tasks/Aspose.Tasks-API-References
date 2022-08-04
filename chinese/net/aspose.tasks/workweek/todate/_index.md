@@ -1,14 +1,14 @@
 ---
 title: ToDate
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置工作周的完成日期时间
+description: 获取或设置工作周的 Finish DateTime
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/workweek/todate/
 ---
 ## WorkWeek.ToDate property
 
-获取或设置工作周的完成日期时间
+获取或设置工作周的 Finish DateTime
 
 ```csharp
 public DateTime ToDate { get; set; }

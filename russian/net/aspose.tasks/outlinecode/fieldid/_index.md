@@ -1,14 +1,14 @@
 ---
 title: FieldId
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает числовое значение пользовательского поля идентификатора проекта.
+description: Получает или задает числовое значение настраиваемого поля идентификатора проекта.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/outlinecode/fieldid/
 ---
 ## OutlineCode.FieldId property
 
-Получает или задает числовое значение пользовательского поля идентификатора проекта.
+Получает или задает числовое значение настраиваемого поля идентификатора проекта.
 
 ```csharp
 public string FieldId { get; set; }

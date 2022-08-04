@@ -1,14 +1,14 @@
 ---
 title: Not
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаNotaspose.tasks.util/not-1.
+description: Инициализирует новый экземплярNotaspose.tasks.util/not-1 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/not-1/not/
 ---
 ## Not&lt;T&gt; constructor
 
-Инициализирует новый экземпляр класса[`Not`](../../not-1).
+Инициализирует новый экземпляр[`Not`](../../not-1) класс.
 
 ```csharp
 public Not(ICondition<T> condition)
@@ -16,7 +16,7 @@ public Not(ICondition<T> condition)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| condition | ICondition`1 | Заданное условие. |
+| condition | ICondition`1 | Указанное состояние. |
 
 ### Смотрите также
 

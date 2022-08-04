@@ -1,14 +1,14 @@
 ---
 title: DailyRecurrencePattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаDailyRecurrencePatternaspose.tasks/dailyrecurrencepattern.
+description: Инициализирует новый экземплярDailyRecurrencePatternaspose.tasks/dailyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/dailyrecurrencepattern/dailyrecurrencepattern/
 ---
 ## DailyRecurrencePattern constructor
 
-Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../../dailyrecurrencepattern).
+Инициализирует новый экземпляр[`DailyRecurrencePattern`](../../dailyrecurrencepattern) класс.
 
 ```csharp
 public DailyRecurrencePattern()

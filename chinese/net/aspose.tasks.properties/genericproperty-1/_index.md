@@ -23,7 +23,7 @@ public struct GenericProperty<TKey>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GenericProperty](genericproperty)(string) | 初始化[`GenericProperty`](../genericproperty-1)结构的新实例。 |
+| [GenericProperty](genericproperty)(string) | 初始化一个新的实例[`GenericProperty`](../genericproperty-1)结构。 |
 
 ## 特性
 

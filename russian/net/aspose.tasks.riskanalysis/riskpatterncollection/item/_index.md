@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаRiskPatternaspose.tasks.riskanalysis/riskpatternдля указанной задачи.
+description: Получает экземплярRiskPatternaspose.tasks.riskanalysis/riskpattern класс для указанной задачи.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.riskanalysis/riskpatterncollection/item/
 ---
 ## RiskPatternCollection indexer
 
-Получает экземпляр класса[`RiskPattern`](../../riskpattern)для указанной задачи.
+Получает экземпляр[`RiskPattern`](../../riskpattern) класс для указанной задачи.
 
 ```csharp
 public RiskPattern this[Task task] { get; }
@@ -16,7 +16,7 @@ public RiskPattern this[Task task] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| task | указанная задача. |
+| task | указанную задачу. |
 
 ### Возвращаемое значение
 

@@ -3,7 +3,7 @@ title: PageSize
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定页面大小
 type: docs
-weight: 2870
+weight: 2880
 url: /zh/net/aspose.tasks.visualization/pagesize/
 ---
 ## PageSize enumeration
@@ -20,12 +20,12 @@ public enum PageSize
 | --- | --- | --- |
 | Letter | `0` | Letter 页面的大小（以磅为单位）为 792 × 612 |
 | Ledger | `1` | Ledger 页面的大小为 1224 × 792 |
-| A0 | `2` | A0 页面的大小为 3371 × 2384 |
+| A0 | `2` | A0页的大小为3371×2384 |
 | A1 | `3` | A1 页面大小为 2384 × 1685 |
 | A2 | `4` | A2 页面大小为 1684 × 1190 |
 | A3 | `5` | A3 页面大小为 1190 × 842 |
 | A4 | `6` | A4 页面大小为 842 × 595 |
-| DefinedInView | `7` | 使用 View 的[`PageSettings`](../pagesettings)(View.PageInfo.PageSettings) 中定义的页面大小。 |
+| DefinedInView | `7` | 使用视图中定义的页面大小[`PageSettings`](../pagesettings)(View.PageInfo.PageSettings). |
 
 ### 也可以看看
 

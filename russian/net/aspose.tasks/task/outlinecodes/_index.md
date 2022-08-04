@@ -1,14 +1,14 @@
 ---
 title: OutlineCodes
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает объектOutlineCodeCollectionaspose.tasks/outlinecodecollection.
+description: Получает или устанавливаетOutlineCodeCollectionaspose.tasks/outlinecodecollection объект.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/task/outlinecodes/
 ---
 ## Task.OutlineCodes property
 
-Получает или устанавливает объект[`OutlineCodeCollection`](../../outlinecodecollection).
+Получает или устанавливает[`OutlineCodeCollection`](../../outlinecodecollection) объект.
 
 ```csharp
 public OutlineCodeCollection OutlineCodes { get; set; }
@@ -16,7 +16,7 @@ public OutlineCodeCollection OutlineCodes { get; set; }
 
 ### Примечания
 
-Необходимы две части данных - указатель на схему code таблица, указанная FieldID, и значение , указанное указателем ValueID или ValueGUID на список значений.
+Необходимы две части данных — указатель на таблицу кодов layout , указанную FieldID, и value , указанную либо указателем ValueID, либо указателем ValueGUID на список значений.
 
 ### Смотрите также
 

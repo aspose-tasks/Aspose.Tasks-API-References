@@ -19,7 +19,7 @@ public abstract class DbSettings
 | 姓名 | 描述 |
 | --- | --- |
 | [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring) { get; set; } | 获取或设置连接字符串。 |
-| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | 获取或设置提供者不变名称，用于获取DbProviderFactory类的实例。  默认值为SqlClient。 |
+| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | 获取或设置提供者不变名称，用于获取DbProviderFactory类. 默认值为SqlClient. |
 
 ### 也可以看看
 

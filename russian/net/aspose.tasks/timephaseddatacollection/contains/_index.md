@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет содержит ли коллекцияTimephasedDataCollectionaspose.tasks/timephaseddatacollectionопределенное значение.
+description: ОпределяетTimephasedDataCollectionaspose.tasks/timephaseddatacollection содержит определенное значение.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/timephaseddatacollection/contains/
 ---
 ## TimephasedDataCollection.Contains method
 
-Определяет, содержит ли коллекция[`TimephasedDataCollection`](../../timephaseddatacollection)определенное значение.
+Определяет,[`TimephasedDataCollection`](../../timephaseddatacollection) содержит определенное значение.
 
 ```csharp
 public bool Contains(TimephasedData item)
@@ -16,11 +16,11 @@ public bool Contains(TimephasedData item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | TimephasedData | Объект для поиска в коллекции. |
+| item | TimephasedData | Объект, который нужно найти в коллекции. |
 
 ### Возвращаемое значение
 
-true если*item*найден в коллекции; в противном случае ложно.
+верно, если*item* находится в коллекции; в противном случае ложно.
 
 ### Смотрите также
 

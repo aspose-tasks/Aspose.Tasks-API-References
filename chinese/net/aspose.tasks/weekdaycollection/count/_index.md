@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此WeekDayCollectionaspose.tasks/weekdaycollection对象中包含的对象数
+description: 获取此包含的对象数WeekDayCollectionaspose.tasks/weekdaycollection对象.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/weekdaycollection/count/
 ---
 ## WeekDayCollection.Count property
 
-获取此[`WeekDayCollection`](../../weekdaycollection)对象中包含的对象数。
+获取此包含的对象数[`WeekDayCollection`](../../weekdaycollection)对象.
 
 ```csharp
 public int Count { get; }

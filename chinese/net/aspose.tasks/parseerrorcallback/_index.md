@@ -1,14 +1,14 @@
 ---
 title: ParseErrorCallback
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示方法回调用于处理读取 xml 数据时可能发生的解析错误
+description: 表示处理读取 xml 数据时可能发生的解析错误的方法回调
 type: docs
 weight: 1110
 url: /zh/net/aspose.tasks/parseerrorcallback/
 ---
 ## ParseErrorCallback delegate
 
-表示方法回调，用于处理读取 xml 数据时可能发生的解析错误。
+表示处理读取 xml 数据时可能发生的解析错误的方法回调。
 
 ```csharp
 public delegate object ParseErrorCallback(object sender, ParseErrorArgs args);
@@ -17,11 +17,11 @@ public delegate object ParseErrorCallback(object sender, ParseErrorArgs args);
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sender | Object | 解析错误的源对象。 |
-| args | ParseErrorArgs | [`ParseErrorArgs`](../parseerrorargs)类的实例，包含事件数据。 |
+| args | ParseErrorArgs | 的实例[`ParseErrorArgs`](../parseerrorargs)包含事件数据的类。 |
 
 ### 返回值
 
-设置为指定发送者对象的强制值。
+要设置为指定发送者对象的强制值。
 
 ### 也可以看看
 

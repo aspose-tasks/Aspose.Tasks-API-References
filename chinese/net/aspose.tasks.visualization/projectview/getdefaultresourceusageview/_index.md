@@ -16,7 +16,7 @@ public static ProjectView GetDefaultResourceUsageView()
 
 ### 返回值
 
-包含[`ResourceViewColumn`](../../resourceviewcolumn)列表的视图。
+包含列表的视图[`ResourceViewColumn`](../../resourceviewcolumn).
 
 ### 也可以看看
 

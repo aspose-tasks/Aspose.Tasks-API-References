@@ -1,14 +1,14 @@
 ---
 title: CustomBarStyles
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取甘特图视图的自定义任务特定条形样式列表 GanttBarStyleaspose.tasks.visualization/ganttbarstyle
+description: 获取甘特图视图的自定义任务特定条形样式列表 GanttBarStyleaspose.tasks.visualization/ganttbarstyle.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/ganttchartview/custombarstyles/
 ---
 ## GanttChartView.CustomBarStyles property
 
-获取甘特图视图的自定义任务特定条形样式列表。 [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle)。
+获取甘特图视图的自定义任务特定条形样式列表。 [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle).
 
 ```csharp
 public List<GanttBarStyle> CustomBarStyles { get; }

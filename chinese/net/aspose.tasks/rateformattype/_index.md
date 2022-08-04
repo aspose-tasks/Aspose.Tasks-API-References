@@ -18,10 +18,10 @@ public enum RateFormatType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 该值未在原始项目文件中定义。 |
+| Undefined | `-1` | 原始项目文件中未定义该值。 |
 | Minute | `0` | 分钟（“分钟”） |
 | Hour | `1` | 小时（“小时”） |
-| Day | `2` | 日（“天”） |
+| Day | `2` | 日（“日”） |
 | Week | `3` | 周（“周”） |
 | Month | `4` | 月（“mo”） |
 | Year | `5` | 年（“年”） |
@@ -29,7 +29,7 @@ public enum RateFormatType
 
 ### 评论
 
-在导出到 XML 时，未定义的值将从生成的 XML 中删除。
+导出到 XML 时，未定义的值将从生成的 XML 中删除。
 
 ### 也可以看看
 

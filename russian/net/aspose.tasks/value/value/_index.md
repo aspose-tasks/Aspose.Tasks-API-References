@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаValueaspose.tasks/value.
+description: Инициализирует новый экземплярValueaspose.tasks/value класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/value/value/
 ---
 ## Value constructor
 
-Инициализирует новый экземпляр класса[`Value`](../../value).
+Инициализирует новый экземпляр[`Value`](../../value) класс.
 
 ```csharp
 public Value()

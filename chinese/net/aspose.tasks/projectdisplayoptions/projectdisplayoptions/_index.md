@@ -1,14 +1,14 @@
 ---
 title: ProjectDisplayOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ProjectDisplayOptionsaspose.tasks/projectdisplayoptions类的新实例
+description: 初始化一个新的实例ProjectDisplayOptionsaspose.tasks/projectdisplayoptions班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/projectdisplayoptions/projectdisplayoptions/
 ---
 ## ProjectDisplayOptions constructor
 
-初始化[`ProjectDisplayOptions`](../../projectdisplayoptions)类的新实例。
+初始化一个新的实例[`ProjectDisplayOptions`](../../projectdisplayoptions)班级。
 
 ```csharp
 public ProjectDisplayOptions()

@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定显示图例的页面
 type: docs
-weight: 2810
+weight: 2820
 url: /zh/net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration
@@ -18,8 +18,8 @@ public enum Legend
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoLegend | `0` | 无图例。 |
-| AfterLastPage | `1` | 图例出现在最后一页之后。 |
+| NoLegend | `0` | 没有图例。 |
+| AfterLastPage | `1` | 最后一页之后出现的图例。 |
 | OnEveryPage | `2` | 图例出现在每一页上。 |
 
 ### 也可以看看

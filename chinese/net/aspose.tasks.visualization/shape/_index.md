@@ -1,14 +1,14 @@
 ---
 title: Shape
 second_title: Aspose.Tasks for .NET API 参考
-description: 将视图数据保存到某些SaveFileFormat
+description: 将视图数据保存到某些SaveFileFormat../aspose.tasks.saving/savefileformat.
 type: docs
-weight: 2980
+weight: 2990
 url: /zh/net/aspose.tasks.visualization/shape/
 ---
 ## Shape enumeration
 
-将视图数据保存到某些SaveFileFormat。
+将视图数据保存到某些[`SaveFileFormat`](../../aspose.tasks.saving/savefileformat).
 
 ```csharp
 public enum Shape
@@ -25,7 +25,7 @@ public enum Shape
 | LeftBracket | `4` | 表示左括号形状。 |
 | RightBracket | `5` | 表示右括号形状。 |
 | ArrowDown | `6` | 表示 ArrowDown 形状。 |
-| LeftFade | `7` | 表示左渐变形状。 |
+| LeftFade | `7` | 表示左淡入淡出形状。 |
 | RightFade | `8` | 表示右渐变形状。 |
 | Diamond | `9` | 表示菱形。 |
 

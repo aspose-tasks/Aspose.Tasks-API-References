@@ -16,7 +16,7 @@ public GanttChartColumn(string name, int width, TaskToColumnTextConverter conver
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 列名。 |
+| name | String | 列的名称。 |
 | width | Int32 | 列的宽度（以像素为单位）。 |
 | converter | TaskToColumnTextConverter | 任务数据到列文本转换器。 |
 | field | Field | 列字段。 |
@@ -41,7 +41,7 @@ public GanttChartColumn(string name, int width, TaskToColumnTextConverter conver
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 列名。 |
+| name | String | 列的名称。 |
 | width | Int32 | 列的宽度（以像素为单位）。 |
 | converter | TaskToColumnTextConverter | 任务数据到列文本转换器。 |
 
@@ -64,7 +64,7 @@ public GanttChartColumn(int width, Field field)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| width | Int32 | 列宽（以像素为单位）。 |
+| width | Int32 | 以像素为单位的列宽。 |
 | field | Field | 列字段。 |
 
 ### 也可以看看

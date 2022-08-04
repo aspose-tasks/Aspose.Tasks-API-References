@@ -1,14 +1,14 @@
 ---
 title: DefaultStandardRate
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Стандартная скорость по умолчанию для новых ресурсов.
+description: Стандартная ставка по умолчанию для новых ресурсов.
 type: docs
 weight: 250
 url: /ru/net/aspose.tasks/prj/defaultstandardrate/
 ---
 ## Prj.DefaultStandardRate field
 
-Стандартная скорость по умолчанию для новых ресурсов.
+Стандартная ставка по умолчанию для новых ресурсов.
 
 ```csharp
 public static readonly Key<double, PrjKey> DefaultStandardRate;

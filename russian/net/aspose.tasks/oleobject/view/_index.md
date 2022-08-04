@@ -1,14 +1,14 @@
 ---
 title: View
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает экземпляр классаViewaspose.tasks/oleobject/view которому принадлежит вставленный объект.
+description: Получает или задает экземплярViewaspose.tasks/oleobject/view класс которому принадлежит вставленный объект.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/oleobject/view/
 ---
 ## OleObject.View property
 
-Получает или задает экземпляр класса`View`, которому принадлежит вставленный объект.
+Получает или задает экземпляр`View` класс, которому принадлежит вставленный объект.
 
 ```csharp
 public View View { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GenericProperty
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр структурыGenericPropertyaspose.tasks.properties/genericproperty-1.
+description: Инициализирует новый экземплярGenericPropertyaspose.tasks.properties/genericproperty-1 структура.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.properties/genericproperty-1/genericproperty/
 ---
 ## GenericProperty&lt;TKey&gt; constructor
 
-Инициализирует новый экземпляр структуры[`GenericProperty`](../../genericproperty-1).
+Инициализирует новый экземпляр[`GenericProperty`](../../genericproperty-1) структура.
 
 ```csharp
 public GenericProperty(string name)

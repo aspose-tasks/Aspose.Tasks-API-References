@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение хэш-кода для экземпляра классаWorkingTimeaspose.tasks/workingtime.
+description: Возвращает значение хеш-кода для экземпляраWorkingTimeaspose.tasks/workingtime класс.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/workingtime/gethashcode/
 ---
 ## WorkingTime.GetHashCode method
 
-Возвращает значение хэш-кода для экземпляра класса[`WorkingTime`](../../workingtime).
+Возвращает значение хеш-кода для экземпляра[`WorkingTime`](../../workingtime) класс.
 
 ```csharp
 public override int GetHashCode()

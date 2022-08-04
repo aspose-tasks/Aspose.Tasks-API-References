@@ -1,14 +1,14 @@
 ---
 title: YearlyRecurrencePattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаYearlyRecurrencePatternaspose.tasks/yearlyrecurrencepattern.
+description: Инициализирует новый экземплярYearlyRecurrencePatternaspose.tasks/yearlyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/yearlyrecurrencepattern/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern constructor
 
-Инициализирует новый экземпляр класса[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern).
+Инициализирует новый экземпляр[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern) класс.
 
 ```csharp
 public YearlyRecurrencePattern()

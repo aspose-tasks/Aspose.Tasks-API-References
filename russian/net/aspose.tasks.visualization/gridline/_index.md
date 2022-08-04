@@ -3,7 +3,7 @@ title: Gridline
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Горизонтальная или вертикальная линия отображаемая в виде проекта.
 type: docs
-weight: 2740
+weight: 2750
 url: /ru/net/aspose.tasks.visualization/gridline/
 ---
 ## Gridline class
@@ -18,22 +18,22 @@ public class Gridline
 
 | Имя | Описание |
 | --- | --- |
-| [Gridline](gridline)() | Инициализирует новый экземпляр класса[`Gridline`](../gridline). |
+| [Gridline](gridline)() | Инициализирует новый экземпляр[`Gridline`](../gridline) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.tasks.visualization/gridline/color) { get; set; } | Получает или задает[`Color`](./color)линии сетки. |
-| [GridlineType](../../aspose.tasks.visualization/gridline/gridlinetype) { get; set; } | Получает или задает тип линии сетки ([`GridlineType`](./gridlinetype)). |
-| [Pattern](../../aspose.tasks.visualization/gridline/pattern) { get; set; } | Получает или задает[`LinePattern`](../linepattern)линии сетки. |
+| [Color](../../aspose.tasks.visualization/gridline/color) { get; set; } | Получает или задает[`Color`](./color) линии сетки. |
+| [GridlineType](../../aspose.tasks.visualization/gridline/gridlinetype) { get; set; } | Получает или задает тип линии сетки ([`GridlineType`](./gridlinetype) ). |
+| [Pattern](../../aspose.tasks.visualization/gridline/pattern) { get; set; } | Получает или задает[`LinePattern`](../linepattern) линии сетки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.tasks.visualization/gridline/equals)(object) | Возвращает флаг, указывающий, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks.visualization/gridline/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`Gridline`](../gridline). |
+| override [GetHashCode](../../aspose.tasks.visualization/gridline/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`Gridline`](../gridline) класс. |
 
 ### Смотрите также
 

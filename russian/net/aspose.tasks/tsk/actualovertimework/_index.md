@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeWork
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фактический объем сверхурочной работы уже выполненной ресурсами назначенными задачам.
+description: Фактическое количество сверхурочной работы уже выполненной ресурсами назначенными задачам.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/tsk/actualovertimework/
 ---
 ## Tsk.ActualOvertimeWork field
 
-Фактический объем сверхурочной работы, уже выполненной ресурсами, назначенными задачам.
+Фактическое количество сверхурочной работы, уже выполненной ресурсами, назначенными задачам.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualOvertimeWork;

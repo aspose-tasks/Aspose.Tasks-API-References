@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 WorkWeekCollection 对象转换为WorkWeekaspose.tasks/workweek对象的列表
+description: 将 WorkWeekCollection 对象转换为WorkWeekaspose.tasks/workweek对象.
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/workweekcollection/tolist/
 ---
 ## WorkWeekCollection.ToList method
 
-将 WorkWeekCollection 对象转换为[`WorkWeek`](../../workweek)对象的列表。
+将 WorkWeekCollection 对象转换为[`WorkWeek`](../../workweek)对象.
 
 ```csharp
 public List<WorkWeek> ToList()
@@ -16,7 +16,7 @@ public List<WorkWeek> ToList()
 
 ### 返回值
 
-[`WorkWeek`](../../workweek)对象列表。
+清单[`WorkWeek`](../../workweek)对象。
 
 ### 也可以看看
 

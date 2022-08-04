@@ -1,14 +1,14 @@
 ---
 title: Gridline
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化Gridlineaspose.tasks.visualization/gridline类的新实例
+description: 初始化Gridlineaspose.tasks.visualization/gridline类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/gridline/gridline/
 ---
 ## Gridline constructor
 
-初始化[`Gridline`](../../gridline)类的新实例。
+初始化[`Gridline`](../../gridline)类.
 
 ```csharp
 public Gridline()

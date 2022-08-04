@@ -1,14 +1,14 @@
 ---
 title: Minimum
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает минимальное значение сгенерированное при моделировании методом Монте-Карло.
+description: Получает минимальное значение которое было сгенерировано во время моделирования методом Монте-Карло.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.riskanalysis/riskitemstatistics/minimum/
 ---
 ## RiskItemStatistics.Minimum property
 
-Получает минимальное значение, сгенерированное при моделировании методом Монте-Карло.
+Получает минимальное значение, которое было сгенерировано во время моделирования методом Монте-Карло.
 
 ```csharp
 public DateTime Minimum { get; }

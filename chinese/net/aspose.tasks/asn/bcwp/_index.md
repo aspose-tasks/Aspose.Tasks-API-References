@@ -1,14 +1,14 @@
 ---
 title: BCWP
 second_title: Aspose.Tasks for .NET API 参考
-description: 迄今为止在分配中执行的工作的预算成本
+description: 迄今为止在分配上执行的工作的预算成本
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/asn/bcwp/
 ---
 ## Asn.BCWP field
 
-迄今为止在分配中执行的工作的预算成本。
+迄今为止在分配上执行的工作的预算成本。
 
 ```csharp
 public static readonly Key<double, AsnKey> BCWP;

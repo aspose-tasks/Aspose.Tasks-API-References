@@ -1,14 +1,14 @@
 ---
 title: Timeout
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置等待 Project Server 的队列处理服务处理保存项目请求时使用的超时此属性的默认值为 1 分钟
+description: 获取或设置在等待 Project Server 的队列处理服务处理保存项目请求时使用的超时此属性的默认值为 1 分钟
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/projectserversaveoptions/timeout/
 ---
 ## ProjectServerSaveOptions.Timeout property
 
-获取或设置等待 Project Server 的队列处理服务处理保存项目请求时使用的超时。此属性的默认值为 1 分钟。
+获取或设置在等待 Project Server 的队列处理服务处理保存项目请求时使用的超时。此属性的默认值为 1 分钟。
 
 ```csharp
 public TimeSpan Timeout { get; set; }
@@ -16,7 +16,7 @@ public TimeSpan Timeout { get; set; }
 
 ### 评论
 
-对于大型项目或 Project Server 实例太忙响应时，处理时间可能会更长其他请求。
+对于大型项目或 Project Server 实例忙于响应其他请求时，处理时间可能会更长。
 
 ### 也可以看看
 

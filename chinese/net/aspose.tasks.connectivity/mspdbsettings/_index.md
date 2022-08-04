@@ -18,7 +18,7 @@ public class MspDbSettings : DbSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MspDbSettings](mspdbsettings)(string, Guid) | 初始化[`MspDbSettings`](../mspdbsettings)类的新实例。 |
+| [MspDbSettings](mspdbsettings)(string, Guid) | 初始化[`MspDbSettings`](../mspdbsettings)类. |
 
 ## 特性
 
@@ -26,7 +26,7 @@ public class MspDbSettings : DbSettings
 | --- | --- |
 | [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring) { get; set; } | 获取或设置连接字符串。 |
 | [ProjectGuid](../../aspose.tasks.connectivity/mspdbsettings/projectguid) { get; } | 获取要读取的项目的 guid。 |
-| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | 获取或设置提供者不变名称，用于获取DbProviderFactory类的实例。  默认值为SqlClient。 |
+| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | 获取或设置提供者不变名称，用于获取DbProviderFactory类. 默认值为SqlClient. |
 | [Schema](../../aspose.tasks.connectivity/mspdbsettings/schema) { get; set; } | 获取或设置 MS Project Server 的架构。 默认值为“pub”。 |
 
 ### 也可以看看

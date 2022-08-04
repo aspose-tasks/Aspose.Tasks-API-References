@@ -1,14 +1,14 @@
 ---
 title: TaskTextStyleEventArgs
 second_title: Aspose.Tasks for .NET API 参考
-description: 此类表示与表格单元格内容的呈现相关的数据集
+description: 该类表示与表格单元格内容渲染相关的一组数据
 type: docs
-weight: 3010
+weight: 3020
 url: /zh/net/aspose.tasks.visualization/tasktextstyleeventargs/
 ---
 ## TaskTextStyleEventArgs class
 
-此类表示与表格单元格内容的呈现相关的数据集。
+该类表示与表格单元格内容渲染相关的一组数据。
 
 ```csharp
 public class TaskTextStyleEventArgs
@@ -19,7 +19,7 @@ public class TaskTextStyleEventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [CellTextStyle](../../aspose.tasks.visualization/tasktextstyleeventargs/celltextstyle) { get; set; } | 获取或设置用于绘制单元格内容的 TextStyle。此对象可用于自定义表格单元格的外观。 |
-| [Column](../../aspose.tasks.visualization/tasktextstyleeventargs/column) { get; } | 获取当前渲染单元所属的[`ViewColumn`](../viewcolumn)。 |
+| [Column](../../aspose.tasks.visualization/tasktextstyleeventargs/column) { get; } | 获取[`ViewColumn`](../viewcolumn)当前渲染的单元格所属的. |
 | [Task](../../aspose.tasks.visualization/tasktextstyleeventargs/task) { get; } | 获取[`Task`](./task)对应于当前渲染的行。 |
 
 ### 也可以看看

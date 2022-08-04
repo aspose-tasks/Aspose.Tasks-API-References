@@ -1,14 +1,14 @@
 ---
 title: DisplayOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取ProjectDisplayOptionsaspose.tasks/projectdisplayoptions类的实例
+description: 获取一个实例ProjectDisplayOptionsaspose.tasks/projectdisplayoptions类.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/project/displayoptions/
 ---
 ## Project.DisplayOptions property
 
-获取[`ProjectDisplayOptions`](../../projectdisplayoptions)类的实例。
+获取一个实例[`ProjectDisplayOptions`](../../projectdisplayoptions)类.
 
 ```csharp
 public ProjectDisplayOptions DisplayOptions { get; }

@@ -1,14 +1,14 @@
 ---
 title: GetTimephasedData
 second_title: Aspose.Tasks for .NET API 参考
-description: 使用返回此对象的 TimephasedDataCollectionaspose.tasks/timephaseddatacollection类的实例 TimephasedDataaspose.tasks/resource/timephaseddata指定TimephasedDataTypeaspose.tasks/timephaseddatatype的给定开始和结束日期内的值
+description: 返回一个实例TimephasedDataCollectionaspose.tasks/timephaseddatacollection此对象的类与TimephasedDataaspose.tasks/resource/timephaseddata指定的给定开始和结束日期内的值TimephasedDataTypeaspose.tasks/timephaseddatatype.
 type: docs
 weight: 140
 url: /zh/net/aspose.tasks/resource/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-使用返回此对象的 [`TimephasedDataCollection`](../../timephaseddatacollection)类的实例。 [`TimephasedData`](../timephaseddata)指定[`TimephasedDataType`](../../timephaseddatatype)的给定开始和结束日期内的值。
+返回一个实例[`TimephasedDataCollection`](../../timephaseddatacollection)此对象的类与[`TimephasedData`](../timephaseddata)指定的给定开始和结束日期内的值[`TimephasedDataType`](../../timephaseddatatype).
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -23,7 +23,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 ### 返回值
 
-[`TimephasedData`](../timephaseddata)列表。
+清单[`TimephasedData`](../timephaseddata).
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-为这个对象返回[`TimephasedDataCollection`](../../timephaseddatacollection)[`TimephasedData`](../timephaseddata)给定开始和结束日期内的值。
+返回[`TimephasedDataCollection`](../../timephaseddatacollection)对于这个对象[`TimephasedData`](../timephaseddata)给定开始日期和结束日期内的值。
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -50,7 +50,7 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 ### 返回值
 
-[`TimephasedData`](../../timephaseddata)列表。
+清单[`TimephasedData`](../../timephaseddata).
 
 ### 也可以看看
 

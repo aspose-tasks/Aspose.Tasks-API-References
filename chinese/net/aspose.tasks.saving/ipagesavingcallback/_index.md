@@ -1,14 +1,14 @@
 ---
 title: IPageSavingCallback
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示当多页文档中的每个页面保存到单独的流时调用的回调
+description: 表示当多页文档中的每一页保存到单独的流时调用的回调
 type: docs
 weight: 1750
 url: /zh/net/aspose.tasks.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
 
-表示当多页文档中的每个页面保存到单独的流时调用的回调。
+表示当多页文档中的每一页保存到单独的流时调用的回调。
 
 ```csharp
 public interface IPageSavingCallback
@@ -19,7 +19,7 @@ public interface IPageSavingCallback
 | 姓名 | 描述 |
 | --- | --- |
 | [OnFinish](../../aspose.tasks.saving/ipagesavingcallback/onfinish)() | 写入所有页面时将调用的方法。 |
-| [PageSaving](../../aspose.tasks.saving/ipagesavingcallback/pagesaving)(PageSavingArgs) | 页面保存到流时调用的方法。 |
+| [PageSaving](../../aspose.tasks.saving/ipagesavingcallback/pagesaving)(PageSavingArgs) | 将页面保存到流时调用的方法。 |
 
 ### 也可以看看
 

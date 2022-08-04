@@ -1,14 +1,14 @@
 ---
 title: SplitPart
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示任务部分 SplitPart 是任务的 SplitParts 集合的成员
+description: 代表一个任务部分 SplitPart 是任务的 SplitParts 集合的成员
 type: docs
 weight: 1990
 url: /zh/net/aspose.tasks/splitpart/
 ---
 ## SplitPart class
 
-表示任务部分。 SplitPart 是任务的 SplitParts 集合的成员。
+代表一个任务部分。 SplitPart 是任务的 SplitParts 集合的成员。
 
 ```csharp
 public class SplitPart
@@ -26,7 +26,7 @@ public class SplitPart
 | 姓名 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.tasks/splitpart/equals)(object) | 比较两个分割部分。 |
-| override [GetHashCode](../../aspose.tasks/splitpart/gethashcode)() | 返回[`SplitPart`](../splitpart)类实例的哈希码值。 |
+| override [GetHashCode](../../aspose.tasks/splitpart/gethashcode)() | 返回实例的哈希码值[`SplitPart`](../splitpart)类. |
 
 ### 也可以看看
 

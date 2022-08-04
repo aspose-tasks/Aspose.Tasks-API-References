@@ -1,14 +1,14 @@
 ---
 title: BarShape
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливаетBarShapeaspose.tasks.visualization/barstyle/barshapeстиля панели.
+description: Получает или устанавливаетBarShapeaspose.tasks.visualization/barstyle/barshape стиля бара.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/barstyle/barshape/
 ---
 ## BarStyle.BarShape property
 
-Получает или устанавливает`BarShape`стиля панели.
+Получает или устанавливает`BarShape` стиля бара.
 
 ```csharp
 public BarShape BarShape { get; set; }

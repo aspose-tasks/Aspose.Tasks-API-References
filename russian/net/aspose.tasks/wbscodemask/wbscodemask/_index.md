@@ -1,14 +1,14 @@
 ---
 title: WBSCodeMask
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаWBSCodeMaskaspose.tasks/wbscodemask.
+description: Инициализирует новый экземплярWBSCodeMaskaspose.tasks/wbscodemask класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/wbscodemask/wbscodemask/
 ---
 ## WBSCodeMask constructor
 
-Инициализирует новый экземпляр класса[`WBSCodeMask`](../../wbscodemask).
+Инициализирует новый экземпляр[`WBSCodeMask`](../../wbscodemask) класс.
 
 ```csharp
 public WBSCodeMask()

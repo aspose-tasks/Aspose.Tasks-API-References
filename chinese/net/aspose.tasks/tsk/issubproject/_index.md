@@ -1,14 +1,14 @@
 ---
 title: IsSubproject
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定任务是否为插入项目
+description: 判断任务是否为插入项目
 type: docs
 weight: 700
 url: /zh/net/aspose.tasks/tsk/issubproject/
 ---
 ## Tsk.IsSubproject field
 
-确定任务是否为插入项目。
+判断任务是否为插入项目。
 
 ```csharp
 public static readonly Key<bool, TaskKey> IsSubproject;

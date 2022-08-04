@@ -1,14 +1,14 @@
 ---
 title: DisplayAtRecurringIntervals
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее отображать ли строку прогресса через повторяющиеся интервалы.
+description: Получает или задает значение указывающее отображать ли строку хода выполнения через повторяющиеся интервалы.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/progresslines/displayatrecurringintervals/
 ---
 ## ProgressLines.DisplayAtRecurringIntervals property
 
-Получает или задает значение, указывающее, отображать ли строку прогресса через повторяющиеся интервалы.
+Получает или задает значение, указывающее, отображать ли строку хода выполнения через повторяющиеся интервалы.
 
 ```csharp
 public bool DisplayAtRecurringIntervals { get; set; }

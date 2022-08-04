@@ -3,7 +3,7 @@ title: WeekLabelDisplay
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定周标签的显示方式
 type: docs
-weight: 3170
+weight: 3180
 url: /zh/net/aspose.tasks/weeklabeldisplay/
 ---
 ## WeekLabelDisplay enumeration
@@ -18,9 +18,9 @@ public enum WeekLabelDisplay
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| W | `0` | 将 MS Project 中的周列表设置为W。 |
-| Wk | `1` | 将 MS Project 中的周列表设置为Wk。 |
-| Week | `2` | 将 MS Project 中的周列表设置为Week。 |
+| W | `0` | 将 MS Project 中的 Weeks 列表设置为W. |
+| Wk | `1` | 将 MS Project 中的 Weeks 列表设置为Wk. |
+| Week | `2` | 将 MS Project 中的 Weeks 列表设置为Week. |
 
 ### 也可以看看
 

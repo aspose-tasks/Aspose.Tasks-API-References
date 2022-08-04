@@ -1,14 +1,14 @@
 ---
 title: ResourceView
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要呈现的资源视图列的列表ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn
+description: 获取或设置要呈现的资源视图列的列表 ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn .
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.saving/xlsxoptions/resourceview/
 ---
 ## XlsxOptions.ResourceView property
 
-获取或设置要呈现的资源视图列的列表（[`ResourceViewColumn`](../../../aspose.tasks.visualization/resourceviewcolumn)）。
+获取或设置要呈现的资源视图列的列表 ([`ResourceViewColumn`](../../../aspose.tasks.visualization/resourceviewcolumn) ).
 
 ```csharp
 public ProjectView ResourceView { get; set; }

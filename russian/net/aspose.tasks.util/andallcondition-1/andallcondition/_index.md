@@ -1,14 +1,14 @@
 ---
 title: AndAllCondition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаAndAllConditionaspose.tasks.util/andallcondition-1.
+description: Инициализирует новый экземплярAndAllConditionaspose.tasks.util/andallcondition-1 учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/andallcondition-1/andallcondition/
 ---
 ## AndAllCondition&lt;T&gt; constructor
 
-Инициализирует новый экземпляр класса[`AndAllCondition`](../../andallcondition-1).
+Инициализирует новый экземпляр[`AndAllCondition`](../../andallcondition-1) учебный класс.
 
 ```csharp
 public AndAllCondition(List<ICondition<T>> conditions)

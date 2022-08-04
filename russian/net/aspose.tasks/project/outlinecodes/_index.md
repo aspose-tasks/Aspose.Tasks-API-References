@@ -1,14 +1,14 @@
 ---
 title: OutlineCodes
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает объект OutlineCodeDefinitionCollection. Коллекция определений кода структуры связанных с проектом.
+description: Получает объект OutlineCodeDefinitionCollection. Коллекция определений структурного кода связанных с проектом.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/project/outlinecodes/
 ---
 ## Project.OutlineCodes property
 
-Получает объект OutlineCodeDefinitionCollection. Коллекция определений кода структуры, связанных с проектом.
+Получает объект OutlineCodeDefinitionCollection. Коллекция определений структурного кода, связанных с проектом.
 
 ```csharp
 public OutlineCodeDefinitionCollection OutlineCodes { get; }

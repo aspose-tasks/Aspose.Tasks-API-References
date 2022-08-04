@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает короткое строковое представление экземпляра классаResourceaspose.tasks/resource. Точные детали представления не указаны и могут быть изменены.
+description: Возвращает короткое строковое представление экземпляраResourceaspose.tasks/resource class. Точные детали представления не указаны и могут быть изменены.
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/resource/tostring/
 ---
 ## Resource.ToString method
 
-Возвращает короткое строковое представление экземпляра класса[`Resource`](../../resource). Точные детали представления не указаны и могут быть изменены.
+Возвращает короткое строковое представление экземпляра[`Resource`](../../resource) class. Точные детали представления не указаны и могут быть изменены.
 
 ```csharp
 public override string ToString()

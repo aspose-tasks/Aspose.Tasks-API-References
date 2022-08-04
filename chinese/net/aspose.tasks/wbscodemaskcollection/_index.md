@@ -3,7 +3,7 @@ title: WBSCodeMaskCollection
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示 WBSCodeMask 对象的集合
 type: docs
-weight: 3120
+weight: 3130
 url: /zh/net/aspose.tasks/wbscodemaskcollection/
 ---
 ## WBSCodeMaskCollection class
@@ -26,12 +26,12 @@ public class WBSCodeMaskCollection : IList<WBSCodeMask>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/wbscodemaskcollection/add)(WBSCodeMask) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/wbscodemaskcollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/wbscodemaskcollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/wbscodemaskcollection/contains)(WBSCodeMask) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/wbscodemaskcollection/copyto)(WBSCodeMask[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/wbscodemaskcollection/getenumerator)() | 返回此集合的枚举数。 |
 | [Remove](../../aspose.tasks/wbscodemaskcollection/remove)(WBSCodeMask) | 从此集合中删除特定对象的第一个匹配项。 |
-| [ToList](../../aspose.tasks/wbscodemaskcollection/tolist)() | 将 WBSCodeMaskCollection 转换为[`WBSCodeMask`](../wbscodemask)对象的列表。 |
+| [ToList](../../aspose.tasks/wbscodemaskcollection/tolist)() | 将 WBSCodeMaskCollection 转换为[`WBSCodeMask`](../wbscodemask)对象. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает цвет фона стиля текста. Coloraspose.tasks.visualization/textstyle/color.
+description: Получает или задает цвет фона стиля текста. Coloraspose.tasks.visualization/textstyle/color .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/textstyle/backgroundcolor/
 ---
 ## TextStyle.BackgroundColor property
 
-Получает или задает цвет фона стиля текста. [`Color`](../color).
+Получает или задает цвет фона стиля текста. [`Color`](../color) .
 
 ```csharp
 public Color BackgroundColor { get; set; }

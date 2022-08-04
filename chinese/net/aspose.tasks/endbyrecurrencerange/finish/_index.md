@@ -1,14 +1,14 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置限制重复任务重复范围的日期
+description: 获取或设置限制循环任务循环范围的日期
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/endbyrecurrencerange/finish/
 ---
 ## EndByRecurrenceRange.Finish property
 
-获取或设置限制重复任务重复范围的日期。
+获取或设置限制循环任务循环范围的日期。
 
 ```csharp
 public DateTime Finish { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: OleObjectId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置OleObjectaspose.tasks/oleobject对象的 ID
+description: 获取或设置 IdOleObjectaspose.tasks/oleobject对象.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/oleobjectid/
 ---
 ## VisualObjectPlacement.OleObjectId property
 
-获取或设置[`OleObject`](../../../aspose.tasks/oleobject)对象的 ID。
+获取或设置 Id[`OleObject`](../../../aspose.tasks/oleobject)对象.
 
 ```csharp
 public int OleObjectId { get; set; }

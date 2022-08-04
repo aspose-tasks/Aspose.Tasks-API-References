@@ -26,10 +26,10 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 | --- | --- |
 | [Criteria](../../aspose.tasks/filter/criteria) { get; set; } | 获取或设置任务或资源必须满足才能在 MSP 视图中显示的条件。 |
 | [FilterType](../../aspose.tasks/filter/filtertype) { get; } | 获取过滤器的类型。 |
-| [Index](../../aspose.tasks/filter/index) { get; } | 获取包含对象的过滤器中的[`Filter`](../filter)对象的索引。 |
+| [Index](../../aspose.tasks/filter/index) { get; } | 获取一个索引[`Filter`](../filter)包含 object. 的过滤器中的对象 |
 | [Name](../../aspose.tasks/filter/name) { get; set; } | 获取或设置过滤器对象的名称。 |
-| [ParentProject](../../aspose.tasks/filter/parentproject) { get; } | 获取 Filter 对象的父级。 |
-| [ShowInMenu](../../aspose.tasks/filter/showinmenu) { get; set; } | 获取或设置一个值，该值指示项目是否在功能区视图选项卡的过滤器下拉列表中显示过滤器名称。 |
+| [ParentProject](../../aspose.tasks/filter/parentproject) { get; } | 获取 Filter 对象的父对象。 |
+| [ShowInMenu](../../aspose.tasks/filter/showinmenu) { get; set; } | 获取或设置一个值，该值指示项目是否在功能区的视图选项卡的过滤器下拉列表中显示过滤器名称。 |
 | [ShowRelatedSummaryRows](../../aspose.tasks/filter/showrelatedsummaryrows) { get; set; } | 获取或设置一个值，该值指示是否为过滤器显示相关的汇总行。 |
 | [Uid](../../aspose.tasks/filter/uid) { get; } | 获取过滤器的唯一标识符。 |
 
@@ -37,7 +37,7 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/filter/compareto)(Filter) | 将此实例与[`Filter`](../filter)类的指定实例进行比较，并返回它们相对顺序的指示。 |
+| [CompareTo](../../aspose.tasks/filter/compareto)(Filter) | 将此实例与指定的实例进行比较[`Filter`](../filter)类并返回其相对顺序的指示。 |
 | [Equals](../../aspose.tasks/filter/equals#equals)(Filter) | 返回一个值，指示此实例是否等于指定的 AssignmentBaseline 对象。 |
 | override [Equals](../../aspose.tasks/filter/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的 AssignmentBaseline 对象。 |
 | override [GetHashCode](../../aspose.tasks/filter/gethashcode)() | 返回过滤器的哈希码值。 |

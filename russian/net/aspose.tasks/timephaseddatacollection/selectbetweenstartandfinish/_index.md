@@ -1,14 +1,14 @@
 ---
 title: SelectBetweenStartAndFinish
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Выбирает все фазы времени междуstartTimeиfinishTime. В среднем имеет сложность Olog n.
+description: Выбирает все временные фазы междуstartTime а такжеfinishTime . В среднем имеет сложность Olog n.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish/
 ---
 ## TimephasedDataCollection.SelectBetweenStartAndFinish method
 
-Выбирает все фазы времени между*startTime*и*finishTime*. В среднем имеет сложность O(log n).
+Выбирает все временные фазы между*startTime* а также*finishTime* . В среднем имеет сложность O(log n).
 
 ```csharp
 public IList<TimephasedData> SelectBetweenStartAndFinish(TimephasedDataType timephasedDataType, 
@@ -19,11 +19,11 @@ public IList<TimephasedData> SelectBetweenStartAndFinish(TimephasedDataType time
 | --- | --- | --- |
 | timephasedDataType | TimephasedDataType | Тип временных фаз для выбора. |
 | startTime | DateTime | Начало интервала. |
-| finishTime | DateTime | Завершение интервала. |
+| finishTime | DateTime | Окончание интервала. |
 
 ### Возвращаемое значение
 
-Возвращает новый экземпляр списка[`TimephasedDataCollection`](../../timephaseddatacollection)данные, упорядоченные по свойству Start.
+Возвращает новый экземпляр списка[`TimephasedDataCollection`](../../timephaseddatacollection) данные, упорядоченные по свойству Start.
 
 ### Смотрите также
 

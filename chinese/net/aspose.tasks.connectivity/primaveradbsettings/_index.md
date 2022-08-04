@@ -18,15 +18,15 @@ public class PrimaveraDbSettings : DbSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PrimaveraDbSettings](primaveradbsettings)(string, int) | 初始化[`PrimaveraDbSettings`](../primaveradbsettings)类的新实例。 |
+| [PrimaveraDbSettings](primaveradbsettings)(string, int) | 初始化[`PrimaveraDbSettings`](../primaveradbsettings)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring) { get; set; } | 获取或设置连接字符串。 |
-| [ProjectId](../../aspose.tasks.connectivity/primaveradbsettings/projectid) { get; } | 获取要读取的项目的 ID。 |
-| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | 获取或设置提供者不变名称，用于获取DbProviderFactory类的实例。  默认值为SqlClient。 |
+| [ProjectId](../../aspose.tasks.connectivity/primaveradbsettings/projectid) { get; } | 获取要读取的项目 id。 |
+| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | 获取或设置提供者不变名称，用于获取DbProviderFactory类. 默认值为SqlClient. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ActivityIdPrefix
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用于重新编号活动 ID 的前缀
+description: 获取或设置活动 ID 重新编号时使用的前缀
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.saving/primaverasaveoptions/activityidprefix/
 ---
 ## PrimaveraSaveOptions.ActivityIdPrefix property
 
-获取或设置用于重新编号活动 ID 的前缀。
+获取或设置活动 ID 重新编号时使用的前缀。
 
 ```csharp
 public string ActivityIdPrefix { get; set; }

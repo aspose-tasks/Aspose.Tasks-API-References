@@ -1,14 +1,14 @@
 ---
 title: Successors
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取一个TaskCollectionaspose.tasks/taskcollection对象该对象包含此任务对象的所有后继对象
+description: 得到一个TaskCollectionaspose.tasks/taskcollection包含此任务对象的所有后继者的对象
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/task/successors/
 ---
 ## Task.Successors property
 
-获取一个[`TaskCollection`](../../taskcollection)对象，该对象包含此任务对象的所有后继对象。
+得到一个[`TaskCollection`](../../taskcollection)包含此任务对象的所有后继者的对象。
 
 ```csharp
 public TaskCollection Successors { get; }
@@ -16,7 +16,7 @@ public TaskCollection Successors { get; }
 
 ### 返回值
 
-[`TaskCollection`](../../taskcollection)类的只读实例。
+的只读实例[`TaskCollection`](../../taskcollection)班级。
 
 ### 也可以看看
 

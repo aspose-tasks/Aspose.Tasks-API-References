@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение хэш-кода для экземпляра классаProjectFileInfoaspose.tasks/projectfileinfo.
+description: Возвращает значение хеш-кода для экземпляраProjectFileInfoaspose.tasks/projectfileinfo класс.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/projectfileinfo/gethashcode/
 ---
 ## ProjectFileInfo.GetHashCode method
 
-Возвращает значение хэш-кода для экземпляра класса[`ProjectFileInfo`](../../projectfileinfo).
+Возвращает значение хеш-кода для экземпляра[`ProjectFileInfo`](../../projectfileinfo) класс.
 
 ```csharp
 public override int GetHashCode()

@@ -1,14 +1,14 @@
 ---
 title: TimephasedData
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает экземпляр классаTimephasedDataCollectionaspose.tasks/timephaseddatacollectionдля этого объекта.
+description: Получает или задает экземплярTimephasedDataCollectionaspose.tasks/timephaseddatacollection класс для этого объекта.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/resource/timephaseddata/
 ---
 ## Resource.TimephasedData property
 
-Получает или задает экземпляр класса[`TimephasedDataCollection`](../../timephaseddatacollection)для этого объекта.
+Получает или задает экземпляр[`TimephasedDataCollection`](../../timephaseddatacollection) класс для этого объекта.
 
 ```csharp
 public TimephasedDataCollection TimephasedData { get; set; }

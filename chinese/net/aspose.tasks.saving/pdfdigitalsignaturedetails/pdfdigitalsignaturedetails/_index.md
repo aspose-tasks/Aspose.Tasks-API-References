@@ -1,14 +1,14 @@
 ---
 title: PdfDigitalSignatureDetails
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PdfDigitalSignatureDetailsaspose.tasks.saving/pdfdigitalsignaturedetails类的新实例
+description: 初始化PdfDigitalSignatureDetailsaspose.tasks.saving/pdfdigitalsignaturedetails类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails constructor
 
-初始化[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails)类的新实例。
+初始化[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails)类.
 
 ```csharp
 public PdfDigitalSignatureDetails(X509Certificate2 certificate, string reason, string location, 
@@ -17,9 +17,9 @@ public PdfDigitalSignatureDetails(X509Certificate2 certificate, string reason, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificate | X509Certificate2 | X509Certificate2实例签名。 |
-| reason | String | 签名的原因。 |
-| location | String | 签名位置。 |
+| certificate | X509Certificate2 | 这X509Certificate2要签名的实例。 |
+| reason | String | 签约的原因。 |
+| location | String | 签约地点。 |
 | signatureDate | DateTime | 签署日期。 |
 | hashAlgorithm | PdfDigitalSignatureHashAlgorithm | 签名的哈希算法。 |
 

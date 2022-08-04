@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 向该对象添加WeekDayaspose.tasks/weekday实例
+description: 添加一个WeekDayaspose.tasks/weekday此对象的实例
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/weekdaycollection/add/
 ---
 ## WeekDayCollection.Add method
 
-向该对象添加[`WeekDay`](../../weekday)实例。
+添加一个[`WeekDay`](../../weekday)此对象的实例。
 
 ```csharp
 public void Add(WeekDay item)

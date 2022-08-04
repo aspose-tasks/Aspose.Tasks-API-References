@@ -1,14 +1,14 @@
 ---
 title: Calendars
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетCalendarCollectionaspose.tasks/calendarcollectionобъект этого экземпляра проекта.
+description: получаетCalendarCollectionaspose.tasks/calendarcollection объект этого экземпляра проекта.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/project/calendars/
 ---
 ## Project.Calendars property
 
-Получает[`CalendarCollection`](../../calendarcollection)объект этого экземпляра проекта.
+получает[`CalendarCollection`](../../calendarcollection) объект этого экземпляра проекта.
 
 ```csharp
 public CalendarCollection Calendars { get; }

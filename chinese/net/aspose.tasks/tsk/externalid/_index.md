@@ -1,14 +1,14 @@
 ---
 title: ExternalId
 second_title: Aspose.Tasks for .NET API 参考
-description: 如果任务是外部任务它包含任务的外部 ID
+description: 如果任务是外部任务则它包含任务的外部 ID
 type: docs
 weight: 370
 url: /zh/net/aspose.tasks/tsk/externalid/
 ---
 ## Tsk.ExternalId field
 
-如果任务是外部任务，它包含任务的外部 ID。
+如果任务是外部任务，则它包含任务的外部 ID。
 
 ```csharp
 public static readonly Key<int, TaskKey> ExternalId;

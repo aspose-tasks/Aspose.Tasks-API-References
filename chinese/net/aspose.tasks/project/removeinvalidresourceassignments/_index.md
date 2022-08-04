@@ -1,14 +1,14 @@
 ---
 title: RemoveInvalidResourceAssignments
 second_title: Aspose.Tasks for .NET API 参考
-description: 从项目资源分配列表中消除无效资源分配
+description: 从项目资源分配列表中消除无效的资源分配
 type: docs
 weight: 370
 url: /zh/net/aspose.tasks/project/removeinvalidresourceassignments/
 ---
 ## Project.RemoveInvalidResourceAssignments method
 
-从项目资源分配列表中消除无效资源分配。
+从项目资源分配列表中消除无效的资源分配。
 
 ```csharp
 public void RemoveInvalidResourceAssignments()

@@ -16,9 +16,9 @@ public AssignmentViewColumn(string name, int width, AssignmentToColumnTextConver
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 列名。 |
+| name | String | 列的名称。 |
 | width | Int32 | 列的宽度（以像素为单位）。 |
-| converter | AssignmentToColumnTextConverter | 分配数据到列文本转换器。 |
+| converter | AssignmentToColumnTextConverter | 将数据分配给列文本转换器。 |
 
 ### 也可以看看
 

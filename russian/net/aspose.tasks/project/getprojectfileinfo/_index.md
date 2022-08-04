@@ -1,14 +1,14 @@
 ---
 title: GetProjectFileInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Читать информацию о файле проекта из файла.
+description: Считать информацию о файле проекта из файла.
 type: docs
 weight: 480
 url: /ru/net/aspose.tasks/project/getprojectfileinfo/
 ---
 ## GetProjectFileInfo(string) {#getprojectfileinfo_1}
 
-Читать информацию о файле проекта из файла.
+Считать информацию о файле проекта из файла.
 
 ```csharp
 public static ProjectFileInfo GetProjectFileInfo(string filename)

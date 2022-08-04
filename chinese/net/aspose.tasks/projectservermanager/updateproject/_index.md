@@ -22,11 +22,11 @@ public void UpdateProject(Project project)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception) | 如果发生通信错误或服务器返回错误。 |
+| [ProjectOnlineException](../../projectonlineexception) | 在通信错误或服务器返回错误的情况下。 |
 
 ### 评论
 
-项目的属性 'project.Get(Prj.Guid)' 应该是 Project Server 帐户 \ Project Online 实例中存在的项目的有效 guid。
+项目的属性“project.Get(Prj.Guid)”应该是 Project Server 帐户\Project Online 实例中存在的项目的有效 guid。
 
 ### 例子
 
@@ -63,17 +63,17 @@ public void UpdateProject(Project project, ProjectServerSaveOptions saveOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | project | Project | 要保存到 Project Server\Project Online 实例的项目。 |
-| saveOptions | ProjectServerSaveOptions | [`ProjectServerSaveOptions`](../../projectserversaveoptions)类的实例。 |
+| saveOptions | ProjectServerSaveOptions | 实例[`ProjectServerSaveOptions`](../../projectserversaveoptions)班级。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception) | 如果发生通信错误或服务器返回错误。 |
+| [ProjectOnlineException](../../projectonlineexception) | 在通信错误或服务器返回错误的情况下。 |
 
 ### 评论
 
-saveOptions.ProjectGuid 应设置为 Project Server\ Project Online 实例上存在的项目的 guid。
+saveOptions.ProjectGuid 应设置为存在于 Project Server\ Project Online 实例上的项目的 guid。
 
 ### 例子
 

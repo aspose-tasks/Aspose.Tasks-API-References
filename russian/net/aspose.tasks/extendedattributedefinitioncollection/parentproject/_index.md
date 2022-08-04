@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родительский проект для экземпляраExtendedAttributeDefinitionCollectionaspose.tasks/extendedattributedefinitioncollection.  возвращает родительский проект для этой коллекции.
+description: Получает родительский проект дляExtendedAttributeDefinitionCollectionaspose.tasks/extendedattributedefinitioncollection экземпляр. возвращает родительский проект для этой коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/extendedattributedefinitioncollection/parentproject/
 ---
 ## ExtendedAttributeDefinitionCollection.ParentProject property
 
-Получает родительский проект для экземпляра[`ExtendedAttributeDefinitionCollection`](../../extendedattributedefinitioncollection).  возвращает родительский проект для этой коллекции.
+Получает родительский проект для[`ExtendedAttributeDefinitionCollection`](../../extendedattributedefinitioncollection) экземпляр. возвращает родительский проект для этой коллекции.
 
 ```csharp
 public Project ParentProject { get; }

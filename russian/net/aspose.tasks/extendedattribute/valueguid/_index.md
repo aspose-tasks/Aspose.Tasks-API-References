@@ -1,14 +1,14 @@
 ---
 title: ValueGuid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает GUID искомого значения.
+description: Получает идентификатор искомого значения.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/extendedattribute/valueguid/
 ---
 ## ExtendedAttribute.ValueGuid property
 
-Получает GUID искомого значения.
+Получает идентификатор искомого значения.
 
 ```csharp
 public string ValueGuid { get; }
@@ -16,7 +16,7 @@ public string ValueGuid { get; }
 
 ### Примечания
 
-Не следует устанавливать напрямую, вместо этого используйте ExtendedAttributeDefinition.CreateExtendedAttribute(Value lookupValue) для создания расширенного атрибута со значением поиска.
+Не следует задавать напрямую, вместо этого используйте ExtendedAttributeDefinition.CreateExtendedAttribute(Value lookupValue) для создания расширенного атрибута со значением поиска.
 
 ### Смотрите также
 

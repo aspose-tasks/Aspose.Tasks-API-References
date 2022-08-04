@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Tasks for .NET API 参考
-description: 删除指定索引处的赋值如果集合不是只读的 否则抛出 NotSupportedException
+description: 删除指定索引处的赋值如果集合不是只读的 否则抛出 NotSupportedException.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/resourceassignmentcollection/removeat/
 ---
 ## ResourceAssignmentCollection.RemoveAt method
 
-删除指定索引处的赋值，如果集合不是只读的， 否则抛出 NotSupportedException。
+删除指定索引处的赋值，如果集合不是只读的， 否则抛出 NotSupportedException.
 
 ```csharp
 public void RemoveAt(int index)

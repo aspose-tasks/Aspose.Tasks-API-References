@@ -1,14 +1,14 @@
 ---
 title: DailyCalendarRepetition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаDailyCalendarRepetitionaspose.tasks/dailycalendarrepetition.
+description: Инициализирует новый экземплярDailyCalendarRepetitionaspose.tasks/dailycalendarrepetition класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/dailycalendarrepetition/dailycalendarrepetition/
 ---
 ## DailyCalendarRepetition constructor
 
-Инициализирует новый экземпляр класса[`DailyCalendarRepetition`](../../dailycalendarrepetition).
+Инициализирует новый экземпляр[`DailyCalendarRepetition`](../../dailycalendarrepetition) класс.
 
 ```csharp
 public DailyCalendarRepetition()

@@ -3,7 +3,7 @@ title: ValidationException
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет исключение которое выдается при обнаружении ошибок во время проверки сущности.
 type: docs
-weight: 2440
+weight: 2450
 url: /ru/net/aspose.tasks/validationexception/
 ---
 ## ValidationException class

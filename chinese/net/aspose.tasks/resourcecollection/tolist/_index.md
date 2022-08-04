@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 ResourceCollection 对象转换为Resourceaspose.tasks/resource对象的列表
+description: 将 ResourceCollection 对象转换为Resourceaspose.tasks/resource对象.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/resourcecollection/tolist/
 ---
 ## ResourceCollection.ToList method
 
-将 ResourceCollection 对象转换为[`Resource`](../../resource)对象的列表。
+将 ResourceCollection 对象转换为[`Resource`](../../resource)对象.
 
 ```csharp
 public List<Resource> ToList()
@@ -16,7 +16,7 @@ public List<Resource> ToList()
 
 ### 返回值
 
-[`Resource`](../../resource)对象列表。
+清单[`Resource`](../../resource)对象。
 
 ### 也可以看看
 

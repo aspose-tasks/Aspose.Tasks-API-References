@@ -1,14 +1,14 @@
 ---
 title: ViewSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает представление Viewaspose.tasks.saving/saveoptions/view для рендеринга. Вы можете использовать эти параметры чтобы явно указать какое представление должно быть сохранено в форматах PDF HTML или изображения. Если установлено это свойство свойствоPresentationFormataspose.tasks.visualization/presentationformatигнорируется при сохранении проекта. Представление должно быть с одного из следующих экранов Screenaspose.tasks/view/screenGantt TaskSheet TaskUsage ResourceSheet ResourceUsage
+description: Получает или задает представление Viewaspose.tasks.saving/saveoptions/view для рендеринга. Вы можете использовать эти параметры чтобы явно указать какое представление должно быть сохранено в форматах PDF HTML или Image. Если это свойство установленоPresentationFormataspose.tasks.visualization/presentationformat свойство игнорируется при сохранении проекта. Вид должен быть на одном из следующих экранов Screenaspose.tasks/view/screen  Ганта TaskSheet TaskUsage ResourceSheet ResourceUsage
 type: docs
 weight: 230
 url: /ru/net/aspose.tasks.saving/saveoptions/viewsettings/
 ---
 ## SaveOptions.ViewSettings property
 
-Получает или задает представление ([`View`](../view)) для рендеринга. Вы можете использовать эти параметры, чтобы явно указать, какое представление должно быть сохранено в форматах PDF, HTML или изображения. Если установлено это свойство, свойство[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)игнорируется при сохранении проекта. Представление должно быть с одного из следующих экранов (([`Screen`](../../../aspose.tasks/view/screen))):(Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
+Получает или задает представление ([`View`](../view) для рендеринга. Вы можете использовать эти параметры, чтобы явно указать, какое представление должно быть сохранено в форматах PDF, HTML или Image. Если это свойство установлено,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) свойство игнорируется при сохранении проекта. Вид должен быть на одном из следующих экранов (([`Screen`](../../../aspose.tasks/view/screen) )): (Ганта, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
 
 ```csharp
 public View ViewSettings { get; set; }

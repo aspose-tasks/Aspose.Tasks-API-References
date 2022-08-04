@@ -3,7 +3,7 @@ title: WeeklyRepetition
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет шаблон основанный на днях недели.
 type: docs
-weight: 3200
+weight: 3210
 url: /ru/net/aspose.tasks/weeklyrepetition/
 ---
 ## WeeklyRepetition class
@@ -18,13 +18,13 @@ public class WeeklyRepetition : WeeklyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [WeeklyRepetition](weeklyrepetition)() | Инициализирует новый экземпляр класса[`WeeklyRepetition`](../weeklyrepetition). |
+| [WeeklyRepetition](weeklyrepetition)() | Инициализирует новый экземпляр[`WeeklyRepetition`](../weeklyrepetition) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает количество недель, представляющее интервал в неделях между событиями. |
+| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает число недель, представляющее интервал в неделях между событиями. |
 | [WeekDays](../../aspose.tasks/weeklyrepetition/weekdays) { get; set; } | Получает или задает тип дней недели. |
 
 ### Смотрите также

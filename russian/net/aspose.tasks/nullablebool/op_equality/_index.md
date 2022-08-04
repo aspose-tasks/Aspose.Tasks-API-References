@@ -17,7 +17,7 @@ public static bool operator ==(NullableBool a, NullableBool b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | NullableBool | Первый[`NullableBool`](../../nullablebool). |
-| b | NullableBool | Второй[`NullableBool`](../../nullablebool). |
+| b | NullableBool | Секунда[`NullableBool`](../../nullablebool). |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将 WorkingTimeCollection 对象转换为WorkingTimeaspose.tasks/workingtime对象的列表
+description: 将 WorkingTimeCollection 对象转换为WorkingTimeaspose.tasks/workingtime对象.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/workingtimecollection/tolist/
 ---
 ## WorkingTimeCollection.ToList method
 
-将 WorkingTimeCollection 对象转换为[`WorkingTime`](../../workingtime)对象的列表。
+将 WorkingTimeCollection 对象转换为[`WorkingTime`](../../workingtime)对象.
 
 ```csharp
 public List<WorkingTime> ToList()
@@ -16,7 +16,7 @@ public List<WorkingTime> ToList()
 
 ### 返回值
 
-[`WorkingTime`](../../workingtime)对象列表。
+清单[`WorkingTime`](../../workingtime)对象。
 
 ### 也可以看看
 

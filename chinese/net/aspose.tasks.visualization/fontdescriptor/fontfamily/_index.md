@@ -1,14 +1,14 @@
 ---
 title: FontFamily
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取字体系列的名称
+description: 获取字体家族的名称
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/fontdescriptor/fontfamily/
 ---
 ## FontDescriptor.FontFamily property
 
-获取字体系列的名称。
+获取字体家族的名称。
 
 ```csharp
 public string FontFamily { get; }

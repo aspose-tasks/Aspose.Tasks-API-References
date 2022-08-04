@@ -16,7 +16,7 @@ public bool Contains(WorkingTime item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | WorkingTime | 指定项目。 |
+| item | WorkingTime | 指定的项目。 |
 
 ### 返回值
 

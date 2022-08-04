@@ -1,14 +1,14 @@
 ---
 title: ParentGroup
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取GroupCriterionaspose.tasks/groupcriterion对象的父级
+description: 获取父级GroupCriterionaspose.tasks/groupcriterion对象.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/groupcriterion/parentgroup/
 ---
 ## GroupCriterion.ParentGroup property
 
-获取[`GroupCriterion`](../../groupcriterion)对象的父级。
+获取父级[`GroupCriterion`](../../groupcriterion)对象.
 
 ```csharp
 public Group ParentGroup { get; }

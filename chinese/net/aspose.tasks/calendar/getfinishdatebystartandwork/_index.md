@@ -1,14 +1,14 @@
 ---
 title: GetFinishDateByStartAndWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 根据日历计算将经过指定工作时间的日期
+description: 根据日历计算指定工作时间的日期
 type: docs
 weight: 150
 url: /zh/net/aspose.tasks/calendar/getfinishdatebystartandwork/
 ---
 ## GetFinishDateByStartAndWork(DateTime, Duration) {#getfinishdatebystartandwork}
 
-根据日历计算将经过指定工作时间的日期。
+根据日历计算指定工作时间的日期。
 
 ```csharp
 public DateTime GetFinishDateByStartAndWork(DateTime start, Duration work)
@@ -17,7 +17,7 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, Duration work)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | start | DateTime | 开始日期。 |
-| work | Duration | 工作持续时间。 |
+| work | Duration | 工作时间。 |
 
 ### 返回值
 
@@ -34,7 +34,7 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, Duration work)
 
 ## GetFinishDateByStartAndWork(DateTime, TimeSpan) {#getfinishdatebystartandwork_1}
 
-根据日历计算将经过指定工作时间的日期。
+根据日历计算指定工作时间的日期。
 
 ```csharp
 public DateTime GetFinishDateByStartAndWork(DateTime start, TimeSpan work)
@@ -43,7 +43,7 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, TimeSpan work)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | start | DateTime | 开始日期。 |
-| work | TimeSpan | 工作持续时间。 |
+| work | TimeSpan | 工作时间。 |
 
 ### 返回值
 

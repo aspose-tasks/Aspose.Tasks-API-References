@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取GroupCriterionaspose.tasks/groupcriterion对象在包含Tasks中的索引GroupCriterionCollection集合
+description: 获取一个索引GroupCriterionaspose.tasks/groupcriterion包含对象GroupCriterionCollectionaspose.tasks/groupcriterioncollection集合.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/groupcriterion/index/
 ---
 ## GroupCriterion.Index property
 
-获取[`GroupCriterion`](../../groupcriterion)对象在包含Tasks中的索引。GroupCriterionCollection集合。
+获取一个索引[`GroupCriterion`](../../groupcriterion)包含对象[`GroupCriterionCollection`](../../groupcriterioncollection)集合.
 
 ```csharp
 public int Index { get; }

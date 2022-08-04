@@ -16,7 +16,7 @@ public void CreateNewProject(Project project)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| project | Project | Проект для сохранения в экземпляре Project Server\Project Online. |
+| project | Project | Проект, который необходимо сохранить в экземпляре Project Server\Project Online. |
 
 ### Исключения
 
@@ -55,8 +55,8 @@ public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| project | Project | Проект для сохранения в экземпляре Project Server\Project Online. |
-| saveOptions | ProjectServerSaveOptions | Экземпляр класса[`ProjectServerSaveOptions`](../../projectserversaveoptions). |
+| project | Project | Проект, который необходимо сохранить в экземпляре Project Server\Project Online. |
+| saveOptions | ProjectServerSaveOptions | Случай[`ProjectServerSaveOptions`](../../projectserversaveoptions) учебный класс. |
 
 ### Исключения
 

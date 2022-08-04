@@ -1,14 +1,14 @@
 ---
 title: InsideBarTextConverter
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用户定义的转换器以获取要在任务栏内呈现的文本覆盖InsideFieldaspose.tasks.visualization/barstyle/insidefield属性的值
+description: 获取或设置用户定义的转换器以获取要在任务栏内呈现的文本覆盖的值InsideFieldaspose.tasks.visualization/barstyle/insidefield属性.
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks.visualization/barstyle/insidebartextconverter/
 ---
 ## BarStyle.InsideBarTextConverter property
 
-获取或设置用户定义的转换器以获取要在任务栏内呈现的文本。覆盖[`InsideField`](../insidefield)属性的值。
+获取或设置用户定义的转换器以获取要在任务栏内呈现的文本。覆盖的值[`InsideField`](../insidefield)属性.
 
 ```csharp
 public TaskBarTextConverter InsideBarTextConverter { get; set; }

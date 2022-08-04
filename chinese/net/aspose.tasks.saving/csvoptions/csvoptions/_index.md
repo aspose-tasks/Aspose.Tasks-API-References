@@ -1,14 +1,14 @@
 ---
 title: CsvOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化CsvOptionsaspose.tasks.saving/csvoptions类的新实例该类可用于以 CSV 格式保存项目
+description: 初始化CsvOptionsaspose.tasks.saving/csvoptions可用于以 CSV 格式保存项目的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/csvoptions/csvoptions/
 ---
 ## CsvOptions constructor
 
-初始化[`CsvOptions`](../../csvoptions)类的新实例，该类可用于以 CSV 格式保存项目。
+初始化[`CsvOptions`](../../csvoptions)可用于以 CSV 格式保存项目的类。
 
 ```csharp
 public CsvOptions()

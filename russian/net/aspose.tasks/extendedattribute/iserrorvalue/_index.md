@@ -1,14 +1,14 @@
 ---
 title: IsErrorValue
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает привело ли вычисление значения расширенного атрибута к ошибке.
+description: Получает привело ли вычисление значения расширенного атрибута к ошибке.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/extendedattribute/iserrorvalue/
 ---
 ## ExtendedAttribute.IsErrorValue property
 
-Возвращает, привело ли вычисление значения расширенного атрибута к ошибке.
+Получает, привело ли вычисление значения расширенного атрибута к ошибке.
 
 ```csharp
 public bool IsErrorValue { get; }

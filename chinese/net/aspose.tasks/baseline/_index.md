@@ -28,13 +28,13 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 | [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | 获取或设置项目迄今为止由资源执行的工作的预算成本。 |
 | [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | 获取或设置为资源安排的工作的预算成本。 |
 | [Cost](../../aspose.tasks/baseline/cost) { get; set; } | 获取或设置保存基线时资源的预计成本。 |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | 获取或设置保存基线时分配给资源的工时。  保存基线时分配给资源的工作量。 |
+| [Work](../../aspose.tasks/baseline/work) { get; set; } | 获取或设置保存基线时分配给资源的工时。 保存基线时分配给资源的工作量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable 接口实现。 将此实例与指定的 Baseline 对象进行比较。 |
+| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable 接口实现。 将此实例与指定的基线对象进行比较。 |
 | [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | 返回一个值，指示此实例是否等于指定对象。 |
 | override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定对象。 |
 | override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | 返回基线的哈希码值。 |

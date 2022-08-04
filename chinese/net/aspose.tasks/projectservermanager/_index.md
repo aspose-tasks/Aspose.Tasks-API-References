@@ -1,14 +1,14 @@
 ---
 title: ProjectServerManager
 second_title: Aspose.Tasks for .NET API 参考
-description: 该类提供对指定 Project Online 帐户中的项目或指定本地项目中的 中的项目进行读取和执行操作的方法服务器实例支持 Project Server 的 2016 和 2019 版本
+description: 提供对指定 Project Online 帐户中的项目或指定本地 Project Server 实例中的 中的项目进行读取和执行操作的方法的类支持 Project Server 的 2016 和 2019 版本
 type: docs
 weight: 1240
 url: /zh/net/aspose.tasks/projectservermanager/
 ---
 ## ProjectServerManager class
 
-该类提供对指定 Project Online 帐户中的项目或指定本地项目中的 中的项目进行读取和执行操作的方法服务器实例（支持 Project Server 的 2016 和 2019 版本）。
+提供对指定 Project Online 帐户中的项目或指定本地 Project Server 实例中的 中的项目进行读取和执行操作的方法的类（支持 Project Server 的 2016 和 2019 版本）。
 
 ```csharp
 public sealed class ProjectServerManager
@@ -18,7 +18,7 @@ public sealed class ProjectServerManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ProjectServerManager](projectservermanager)(ProjectServerCredentials) | 初始化[`ProjectServerManager`](../projectservermanager)类的新实例。 |
+| [ProjectServerManager](projectservermanager)(ProjectServerCredentials) | 初始化[`ProjectServerManager`](../projectservermanager)类. |
 
 ## 方法
 
@@ -26,8 +26,8 @@ public sealed class ProjectServerManager
 | --- | --- |
 | [CreateNewProject](../../aspose.tasks/projectservermanager/createnewproject#createnewproject)(Project) | 使用默认保存选项在 Project Server\Project Online 实例中创建新项目。 |
 | [CreateNewProject](../../aspose.tasks/projectservermanager/createnewproject#createnewproject_1)(Project, ProjectServerSaveOptions) | 使用指定的保存选项在 Project Server\Project Online 实例中创建新项目。 |
-| [GetProject](../../aspose.tasks/projectservermanager/getproject)(Guid) | 从 Project Online 帐户 \ Project Server 实例中获取具有指定 guid 的项目。 |
-| [GetProjectList](../../aspose.tasks/projectservermanager/getprojectlist)() | 从当前 Project Online 帐户 \ Project Server 实例的“工作”存储中获取项目列表。 |
+| [GetProject](../../aspose.tasks/projectservermanager/getproject)(Guid) | 从 Project Online 帐户\Project Server 实例中获取具有指定 guid 的项目。 |
+| [GetProjectList](../../aspose.tasks/projectservermanager/getprojectlist)() | 从当前 Project Online 帐户\Project Server 实例的“工作”存储中获取项目列表。 |
 | [GetProjectRawData](../../aspose.tasks/projectservermanager/getprojectrawdata)(Guid) | 获取项目的二进制数据以进行故障排除。 |
 | [UpdateProject](../../aspose.tasks/projectservermanager/updateproject#updateproject)(Project) | 使用默认保存选项更新 Project Server\Project Online 实例中的现有项目。现有项目将被覆盖。 |
 | [UpdateProject](../../aspose.tasks/projectservermanager/updateproject#updateproject_1)(Project, ProjectServerSaveOptions) | 使用指定的保存选项更新 Project Server\Project Online 实例中的现有项目。现有项目将被覆盖。 |

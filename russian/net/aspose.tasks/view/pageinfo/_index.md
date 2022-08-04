@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаPageInfoaspose.tasks/view/pageinfo. Представляет данные настройки страницы представленные в формате файла mpp.
+description: Получает экземплярPageInfoaspose.tasks/view/pageinfoучебный класс. Представляет данные настройки страницы представленные в формате файла mpp.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/view/pageinfo/
 ---
 ## View.PageInfo property
 
-Получает экземпляр класса`PageInfo`. Представляет данные настройки страницы, представленные в формате файла mpp.
+Получает экземпляр`PageInfo`учебный класс. Представляет данные настройки страницы, представленные в формате файла mpp.
 
 ```csharp
 public PageInfo PageInfo { get; }

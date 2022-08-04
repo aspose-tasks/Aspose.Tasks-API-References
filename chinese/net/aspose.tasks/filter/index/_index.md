@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取包含对象的过滤器中的Filteraspose.tasks/filter对象的索引
+description: 获取一个索引Filteraspose.tasks/filter包含 object. 的过滤器中的对象
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/filter/index/
 ---
 ## Filter.Index property
 
-获取包含对象的过滤器中的[`Filter`](../../filter)对象的索引。
+获取一个索引[`Filter`](../../filter)包含 object. 的过滤器中的对象
 
 ```csharp
 public int Index { get; }

@@ -1,14 +1,14 @@
 ---
 title: DisplayAsSummary
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет должна ли задача отображаться как сводная задача.  Чтение поддерживается только для формата XML. Booleanтип.
+description: Определяет должна ли задача отображаться как сводная задача.  Чтение поддерживается только для формата XML. Boolean тип.
 type: docs
 weight: 280
 url: /ru/net/aspose.tasks/tsk/displayassummary/
 ---
 ## Tsk.DisplayAsSummary field
 
-Определяет, должна ли задача отображаться как сводная задача.  Чтение поддерживается только для формата XML. Booleanтип.
+Определяет, должна ли задача отображаться как сводная задача.  Чтение поддерживается только для формата XML. Boolean тип.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> DisplayAsSummary;

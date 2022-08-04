@@ -1,14 +1,14 @@
 ---
 title: BarStyle
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化BarStyleaspose.tasks.visualization/barstyle类的新实例
+description: 初始化BarStyleaspose.tasks.visualization/barstyle类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/barstyle/barstyle/
 ---
 ## BarStyle constructor
 
-初始化[`BarStyle`](../../barstyle)类的新实例。
+初始化[`BarStyle`](../../barstyle)类.
 
 ```csharp
 public BarStyle()

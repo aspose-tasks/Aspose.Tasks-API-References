@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取一个值该值指示ICollection是否为只读
+description: 获取一个值该值指示是否ICollection是只读的
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/timephaseddatacollection/isreadonly/
 ---
 ## TimephasedDataCollection.IsReadOnly property
 
-获取一个值，该值指示ICollection是否为只读。
+获取一个值，该值指示是否ICollection是只读的。
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### 返回值
 
-如果ICollection是只读的，则为 true；否则为假。
+如果ICollection是只读的；否则为假。
 
 ### 也可以看看
 

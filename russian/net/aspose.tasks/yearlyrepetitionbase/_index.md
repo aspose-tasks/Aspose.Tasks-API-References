@@ -3,7 +3,7 @@ title: YearlyRepetitionBase
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет базовый шаблон для годовой дневной позиции.
 type: docs
-weight: 3310
+weight: 3320
 url: /ru/net/aspose.tasks/yearlyrepetitionbase/
 ---
 ## YearlyRepetitionBase class

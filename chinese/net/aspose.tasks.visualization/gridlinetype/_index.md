@@ -3,7 +3,7 @@ title: GridlineType
 second_title: Aspose.Tasks for .NET API 参考
 description: 网格线的类型
 type: docs
-weight: 2750
+weight: 2760
 url: /zh/net/aspose.tasks.visualization/gridlinetype/
 ---
 ## GridlineType enumeration
@@ -22,17 +22,17 @@ public enum GridlineType
 | TopTierColumn | `1` | 表示顶层柱网格线类型的网格线。 |
 | BottomTierColumn | `2` | 表示底层柱网格线类型的网格线。 |
 | SheetRow | `3` | 表示工作表行网格线类型的网格线。 |
-| SheetColumn | `4` | 表示表格列网格线类型的网格线。 |
+| SheetColumn | `4` | 表示工作表列网格线类型的网格线。 |
 | UsageRow | `5` | 表示使用行网格线类型的网格线。 |
 | UsageColumn | `6` | 表示使用列网格线类型的网格线。 |
 | GanttTitleVertical | `7` | 表示甘特图标题垂直网格线类型。 |
-| GanttTitleHorizontal | `8` | 表示甘特标题水平网格线类型。 |
-| BarRows | `9` | 指示条形行网格线类型。 |
+| GanttTitleHorizontal | `8` | 表示甘特图标题水平网格线类型。 |
+| BarRows | `9` | 表示条形网格线类型。 |
 | GanttProjectStart | `10` | 表示甘特图项目起始网格线类型。 |
 | GanttProjectFinish | `11` | 表示甘特图完成网格线类型。 |
 | GanttStatusDate | `12` | 表示甘特图状态日期网格线类型。 |
 | GanttCurrentDate | `13` | 表示甘特图当前日期网格线类型。 |
-| GanttPageBreaks | `14` | 表示甘特分页符网格线类型。 |
+| GanttPageBreaks | `14` | 表示甘特图分页网格线类型。 |
 | MiddleTierColumn | `15` | 表示中间层柱网格线类型的网格线。 |
 
 ### 也可以看看

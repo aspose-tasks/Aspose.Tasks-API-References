@@ -18,7 +18,7 @@ public class DailyRecurrencePattern : RecurrencePatternBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DailyRecurrencePattern](dailyrecurrencepattern)() | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类的新实例。 |
+| [DailyRecurrencePattern](dailyrecurrencepattern)() | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类. |
 
 ## 特性
 

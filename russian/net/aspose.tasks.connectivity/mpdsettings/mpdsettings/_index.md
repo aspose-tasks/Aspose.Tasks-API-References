@@ -1,14 +1,14 @@
 ---
 title: MpdSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаMpdSettingsaspose.tasks.connectivity/mpdsettings.
+description: Инициализирует новый экземплярMpdSettingsaspose.tasks.connectivity/mpdsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.connectivity/mpdsettings/mpdsettings/
 ---
 ## MpdSettings constructor
 
-Инициализирует новый экземпляр класса[`MpdSettings`](../../mpdsettings).
+Инициализирует новый экземпляр[`MpdSettings`](../../mpdsettings) класс.
 
 ```csharp
 public MpdSettings(string connectionString, int projectId)

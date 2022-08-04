@@ -1,14 +1,14 @@
 ---
 title: TimephasedData
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает объект TimephasedDataCollection этой задачи. Поэтапный блок данных связанный с задачей.
+description: Получает или задает объект TimephasedDataCollection этой задачи. Блок поэтапных данных связанный с задачей.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/task/timephaseddata/
 ---
 ## Task.TimephasedData property
 
-Получает или задает объект TimephasedDataCollection этой задачи. Поэтапный блок данных, связанный с задачей.
+Получает или задает объект TimephasedDataCollection этой задачи. Блок поэтапных данных, связанный с задачей.
 
 ```csharp
 public TimephasedDataCollection TimephasedData { get; set; }

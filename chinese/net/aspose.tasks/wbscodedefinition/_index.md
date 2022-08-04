@@ -3,7 +3,7 @@ title: WBSCodeDefinition
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示 WBS 代码定义
 type: docs
-weight: 3100
+weight: 3110
 url: /zh/net/aspose.tasks/wbscodedefinition/
 ---
 ## WBSCodeDefinition class
@@ -18,7 +18,7 @@ public class WBSCodeDefinition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WBSCodeDefinition](wbscodedefinition)() | 初始化[`WBSCodeDefinition`](../wbscodedefinition)类的新实例。 |
+| [WBSCodeDefinition](wbscodedefinition)() | 初始化一个新的实例[`WBSCodeDefinition`](../wbscodedefinition)班级。 |
 
 ## 特性
 

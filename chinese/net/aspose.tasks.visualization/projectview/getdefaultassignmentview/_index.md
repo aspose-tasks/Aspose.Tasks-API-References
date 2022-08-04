@@ -16,7 +16,7 @@ public static ProjectView GetDefaultAssignmentView()
 
 ### 返回值
 
-包含[`AssignmentViewColumn`](../../assignmentviewcolumn)列表的视图。
+包含列表的视图[`AssignmentViewColumn`](../../assignmentviewcolumn).
 
 ### 也可以看看
 

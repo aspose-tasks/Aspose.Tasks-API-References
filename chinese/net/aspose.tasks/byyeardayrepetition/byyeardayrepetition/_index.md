@@ -1,14 +1,14 @@
 ---
 title: ByYearDayRepetition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ByYearDayRepetitionaspose.tasks/byyeardayrepetition类的新实例
+description: 初始化ByYearDayRepetitionaspose.tasks/byyeardayrepetition类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/byyeardayrepetition/byyeardayrepetition/
 ---
 ## ByYearDayRepetition constructor
 
-初始化[`ByYearDayRepetition`](../../byyeardayrepetition)类的新实例。
+初始化[`ByYearDayRepetition`](../../byyeardayrepetition)类.
 
 ```csharp
 public ByYearDayRepetition()

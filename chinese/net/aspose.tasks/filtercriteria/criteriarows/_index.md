@@ -1,14 +1,14 @@
 ---
 title: CriteriaRows
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取子列表FilterCriteriaaspose.tasks/filtercriteria行 如果过滤器包含多个条件行则 And 运算符的效果是必须满足两行的条件任务或资源才能作为此过滤器的结果显示 Or 运算符的作用是必须满足某一行或另一行的条件
+description: 获取子列表FilterCriteriaaspose.tasks/filtercriteriarows. 如果过滤器包含多个条件行则 And 运算符的效果是必须满足两行的条件任务或资源才能作为此过滤器的结果显示 Or 的效果运算符是必须满足某一行或另一行的条件
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/filtercriteria/criteriarows/
 ---
 ## FilterCriteria.CriteriaRows property
 
-获取子列表[`FilterCriteria`](../../filtercriteria)行。 如果过滤器包含多个条件行，则 And 运算符的效果是必须满足两行的条件，任务或资源才能作为此过滤器的结果显示。 Or 运算符的作用是必须满足某一行或另一行的条件。
+获取子列表[`FilterCriteria`](../../filtercriteria)rows. 如果过滤器包含多个条件行，则 And 运算符的效果是必须满足两行的条件，任务或资源才能作为此过滤器的结果显示。 Or 的效果运算符是必须满足某一行或另一行的条件。
 
 ```csharp
 public List<FilterCriteria> CriteriaRows { get; }

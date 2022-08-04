@@ -1,14 +1,14 @@
 ---
 title: ProjectServerManager
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаProjectServerManageraspose.tasks/projectservermanager.
+description: Инициализирует новый экземплярProjectServerManageraspose.tasks/projectservermanager класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/projectservermanager/projectservermanager/
 ---
 ## ProjectServerManager constructor
 
-Инициализирует новый экземпляр класса[`ProjectServerManager`](../../projectservermanager).
+Инициализирует новый экземпляр[`ProjectServerManager`](../../projectservermanager) класс.
 
 ```csharp
 public ProjectServerManager(ProjectServerCredentials credentials)
@@ -30,13 +30,13 @@ var projectServerCredentials = new ProjectServerCredentials(site, windowsCredent
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
 ```
 
+В этом примере показано, как создать экземпляр ProjectServerManager для доступа к учетной записи в службе Project Online.
+
 ```csharp
 [C#]
 var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "пароль");
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
 ```
-
-В этом примере показано, как создать экземпляр ProjectServerManager для доступа к учетной записи в службе Project Online.
 
 ### Смотрите также
 

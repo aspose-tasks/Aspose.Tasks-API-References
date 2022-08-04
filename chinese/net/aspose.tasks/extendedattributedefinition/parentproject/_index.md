@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition实例的父项目
+description: 获取父项目的ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition实例.
 type: docs
 weight: 190
 url: /zh/net/aspose.tasks/extendedattributedefinition/parentproject/
 ---
 ## ExtendedAttributeDefinition.ParentProject property
 
-获取[`ExtendedAttributeDefinition`](../../extendedattributedefinition)实例的父项目。
+获取父项目的[`ExtendedAttributeDefinition`](../../extendedattributedefinition)实例.
 
 ```csharp
 public Project ParentProject { get; }

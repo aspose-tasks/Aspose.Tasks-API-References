@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родительский проект объекта ResourceAssignmentCollection.  parentProjectaspose.tasks/projectдля этого объекта.
+description: Получает родительский проект объекта ResourceAssignmentCollection.  родительProjectaspose.tasks/project для этого объекта.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/tasklinkcollection/parentproject/
 ---
 ## TaskLinkCollection.ParentProject property
 
-Получает родительский проект объекта ResourceAssignmentCollection.  parent[`Project`](../../project)для этого объекта.
+Получает родительский проект объекта ResourceAssignmentCollection.  родитель[`Project`](../../project) для этого объекта.
 
 ```csharp
 public Project ParentProject { get; }

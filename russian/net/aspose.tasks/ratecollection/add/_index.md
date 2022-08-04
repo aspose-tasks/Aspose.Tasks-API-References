@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавляет новый экземплярRateaspose.tasks/rateв эту коллекцию.
+description: Добавляет новыйRateaspose.tasks/rate экземпляр в эту коллекцию.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/ratecollection/add/
 ---
 ## Add(DateTime) {#add}
 
-Добавляет новый экземпляр[`Rate`](../../rate)в эту коллекцию.
+Добавляет новый[`Rate`](../../rate) экземпляр в эту коллекцию.
 
 ```csharp
 public Rate Add(DateTime ratesFrom)
@@ -16,11 +16,11 @@ public Rate Add(DateTime ratesFrom)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ratesFrom | DateTime | Дата вступления в силу новой ставки. |
+| ratesFrom | DateTime | Дата вступления в силу нового тарифа. |
 
 ### Возвращаемое значение
 
-Добавлен[`Rate`](../../rate)экземпляр.
+Добавлен[`Rate`](../../rate) пример.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public Rate Add(DateTime ratesFrom)
 
 ## Add(DateTime, RateType) {#add_1}
 
-Добавляет новый экземпляр[`Rate`](../../rate)в эту коллекцию.
+Добавляет новый[`Rate`](../../rate) экземпляр в эту коллекцию.
 
 ```csharp
 public Rate Add(DateTime ratesFrom, RateType type)
@@ -41,12 +41,12 @@ public Rate Add(DateTime ratesFrom, RateType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ratesFrom | DateTime | Дата вступления в силу новой ставки. |
-| type | RateType | Таблица ставок для добавления. |
+| ratesFrom | DateTime | Дата вступления в силу нового тарифа. |
+| type | RateType | Тарифная таблица для добавления. |
 
 ### Возвращаемое значение
 
-Добавлен[`Rate`](../../rate)экземпляр.
+Добавлен[`Rate`](../../rate) пример.
 
 ### Смотрите также
 

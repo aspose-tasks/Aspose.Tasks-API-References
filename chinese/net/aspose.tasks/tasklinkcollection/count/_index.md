@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此TaskLinkCollectionaspose.tasks/tasklinkcollection对象中包含的对象数
+description: 获取此包含的对象数TaskLinkCollectionaspose.tasks/tasklinkcollection对象.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/tasklinkcollection/count/
 ---
 ## TaskLinkCollection.Count property
 
-获取此[`TaskLinkCollection`](../../tasklinkcollection)对象中包含的对象数。
+获取此包含的对象数[`TaskLinkCollection`](../../tasklinkcollection)对象.
 
 ```csharp
 public int Count { get; }

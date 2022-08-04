@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取对象中包含的对象个数
+description: 获取对象中包含的对象数
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/readonlycollectionbase-1/count/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.Count property
 
-获取对象中包含的对象个数。
+获取对象中包含的对象数。
 
 ```csharp
 public int Count { get; }

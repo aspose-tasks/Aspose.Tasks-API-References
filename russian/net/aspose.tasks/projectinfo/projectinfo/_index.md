@@ -1,14 +1,14 @@
 ---
 title: ProjectInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаProjectInfoaspose.tasks/projectinfo.
+description: Инициализирует новый экземплярProjectInfoaspose.tasks/projectinfo учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/projectinfo/projectinfo/
 ---
 ## ProjectInfo constructor
 
-Инициализирует новый экземпляр класса[`ProjectInfo`](../../projectinfo).
+Инициализирует новый экземпляр[`ProjectInfo`](../../projectinfo) учебный класс.
 
 ```csharp
 public ProjectInfo()

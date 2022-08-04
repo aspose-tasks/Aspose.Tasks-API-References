@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение указывающее равен ли этот экземпляр указанному экземпляру классаResourceAssignmentaspose.tasks/resourceassignment.
+description: Возвращает значение указывающее равен ли этот экземпляр указанному экземпляруResourceAssignmentaspose.tasks/resourceassignment класс.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/resourceassignment/equals/
 ---
 ## Equals(ResourceAssignment) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру класса[`ResourceAssignment`](../../resourceassignment).
+Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру[`ResourceAssignment`](../../resourceassignment) класс.
 
 ```csharp
 public bool Equals(ResourceAssignment other)
@@ -16,11 +16,11 @@ public bool Equals(ResourceAssignment other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | ResourceAssignment | Указанный экземпляр класса[`ResourceAssignment`](../../resourceassignment)для сравнения с этим пример. |
+| other | ResourceAssignment | Указанный экземпляр[`ResourceAssignment`](../../resourceassignment) класс для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинно** , если указан экземплярКлассResourceAssignmentимеет то же значение UID, что и этот экземпляр; в противном случае **false** .
+**Истинный** если указанный экземпляр[`ResourceAssignment`](../../resourceassignment) класс имеет то же значение UID, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**True** если o является ResourceAssignment, который назначает тот же ресурс и задачу, что и этот экземпляр; в противном случае **false** .
+**Истинный** если o — это ResourceAssignment, который назначает тот же ресурс и задачу, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

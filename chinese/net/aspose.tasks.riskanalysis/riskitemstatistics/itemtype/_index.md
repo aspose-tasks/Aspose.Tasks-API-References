@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取RiskItemTypeaspose.tasks.riskanalysis/riskitemtype枚举的实例
+description: 获取一个实例RiskItemTypeaspose.tasks.riskanalysis/riskitemtype枚举.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.riskanalysis/riskitemstatistics/itemtype/
 ---
 ## RiskItemStatistics.ItemType property
 
-获取[`RiskItemType`](../../riskitemtype)枚举的实例。
+获取一个实例[`RiskItemType`](../../riskitemtype)枚举.
 
 ```csharp
 public RiskItemType ItemType { get; }

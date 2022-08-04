@@ -1,14 +1,14 @@
 ---
 title: Parse
 second_title: Aspose.Tasks for .NET API 参考
-description: 将指定字符串转换为Durationaspose.tasks/duration结构的实例
+description: 将指定的字符串转换为Durationaspose.tasks/durationstruct.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/duration/parse/
 ---
 ## Duration.Parse method
 
-将指定字符串转换为[`Duration`](../../duration)结构的实例。
+将指定的字符串转换为[`Duration`](../../duration)struct.
 
 ```csharp
 public static Duration Parse(Project p, string value)
@@ -16,12 +16,12 @@ public static Duration Parse(Project p, string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| p | Project | [`Project`](../../project)类的指定实例以转换其持续时间。 |
-| value | String | 指定要转换的字符串。 |
+| p | Project | 的指定实例[`Project`](../../project)转换持续时间的类。 |
+| value | String | 要转换的指定字符串。 |
 
 ### 返回值
 
-返回[`Duration`](../../duration)结构的转换实例。
+返回转换后的实例[`Duration`](../../duration)结构。
 
 ### 也可以看看
 

@@ -78,7 +78,7 @@ public void SaveAsTemplate(Stream stream, SaveTemplateOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения шаблона проекта. |
+| stream | Stream | Stream для сохранения шаблона проекта. |
 | options | SaveTemplateOptions | указанные параметры сохранения[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions). |
 
 ### Смотрите также

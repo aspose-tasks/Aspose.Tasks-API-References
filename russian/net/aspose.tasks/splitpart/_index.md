@@ -26,7 +26,7 @@ public class SplitPart
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.tasks/splitpart/equals)(object) | Сравнивает две разделенные части. |
-| override [GetHashCode](../../aspose.tasks/splitpart/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`SplitPart`](../splitpart). |
+| override [GetHashCode](../../aspose.tasks/splitpart/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`SplitPart`](../splitpart) класс. |
 
 ### Смотрите также
 

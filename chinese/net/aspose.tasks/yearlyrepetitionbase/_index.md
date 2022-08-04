@@ -3,7 +3,7 @@ title: YearlyRepetitionBase
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示年日位置的基本模式
 type: docs
-weight: 3310
+weight: 3320
 url: /zh/net/aspose.tasks/yearlyrepetitionbase/
 ---
 ## YearlyRepetitionBase class

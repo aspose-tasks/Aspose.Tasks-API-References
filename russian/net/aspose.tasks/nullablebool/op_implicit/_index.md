@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Неявно преобразует экземплярNullableBoolaspose.tasks/nullableboolв логическое значение. Возвращает true когдаValueaspose.tasks/nullablebool/valueимеет значение true иIsDefinedaspose.tasks/nullablebool/isdefinedимеет значение true.
+description: Неявно преобразуетNullableBoolaspose.tasks/nullablebool instance в логическое значение. Возвращает true когдаValueaspose.tasks/nullablebool/value верно иIsDefinedaspose.tasks/nullablebool/isdefined верно.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/nullablebool/op_implicit/
 ---
 ## implicit operator {#op_implicit_1}
 
-Неявно преобразует экземпляр[`NullableBool`](../../nullablebool)в логическое значение. Возвращает true, когда[`Value`](../value)имеет значение true и[`IsDefined`](../isdefined)имеет значение true.
+Неявно преобразует[`NullableBool`](../../nullablebool) instance в логическое значение. Возвращает true, когда[`Value`](../value) верно и[`IsDefined`](../isdefined) верно.
 
 ```csharp
 public static implicit operator bool(NullableBool val)
@@ -16,7 +16,7 @@ public static implicit operator bool(NullableBool val)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| val | NullableBool | Преобразуемое значение. |
+| val | NullableBool | Значение для преобразования. |
 
 ### Возвращаемое значение
 
@@ -32,7 +32,7 @@ public static implicit operator bool(NullableBool val)
 
 ## implicit operator {#op_implicit}
 
-Неявно преобразует логическое значение в экземпляр[`NullableBool`](../../nullablebool).
+Неявно преобразует логическое значение в[`NullableBool`](../../nullablebool) экземпляр.
 
 ```csharp
 public static implicit operator NullableBool(bool val)
@@ -44,7 +44,7 @@ public static implicit operator NullableBool(bool val)
 
 ### Возвращаемое значение
 
-Конвертировано[`NullableBool`](../../nullablebool)instance.
+Конвертировано[`NullableBool`](../../nullablebool) пример.
 
 ### Смотрите также
 

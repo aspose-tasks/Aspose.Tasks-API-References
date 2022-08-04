@@ -8,7 +8,7 @@ url: /ru/net/aspose.tasks/ganttchartview/barsize/
 ---
 ## GanttChartView.BarSize property
 
-Получает или задает высоту (в пунктах) столбцов Ганта на диаграмме Ганта.
+Получает или задает высоту в пунктах столбцов Ганта на диаграмме Ганта.
 
 ```csharp
 public GanttBarSize BarSize { get; set; }

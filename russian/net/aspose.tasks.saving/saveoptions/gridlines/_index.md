@@ -8,7 +8,7 @@ url: /ru/net/aspose.tasks.saving/saveoptions/gridlines/
 ---
 ## SaveOptions.Gridlines property
 
-Получает или задает список[`Gridline`](../../../aspose.tasks.visualization/gridline), которые отображаются в представлении проекта.
+Получает или задает список[`Gridline`](../../../aspose.tasks.visualization/gridline) которые отображаются в представлении проекта.
 
 ```csharp
 public List<Gridline> Gridlines { get; set; }

@@ -18,13 +18,13 @@ public class OleObject
 
 | Имя | Описание |
 | --- | --- |
-| [OleObject](oleobject)() | Инициализирует новый экземпляр класса[`OleObject`](../oleobject). |
+| [OleObject](oleobject)() | Инициализирует новый экземпляр[`OleObject`](../oleobject) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ApplicationName](../../aspose.tasks/oleobject/applicationname) { get; set; } | Получает или задает имя приложения для открытия внедренного объекта. |
+| [ApplicationName](../../aspose.tasks/oleobject/applicationname) { get; set; } | Получает или задает имя приложения для открытия встроенного объекта с помощью. |
 | [Content](../../aspose.tasks/oleobject/content) { get; set; } | Получает или устанавливает данные встроенного файла; null, если данные не были внедрены. |
 | [DisplayAsIcon](../../aspose.tasks/oleobject/displayasicon) { get; set; } | Получает или устанавливает флаг, указывающий, что объект OLE должен отображаться либо в виде значка, либо в виде его обычного изображения. |
 | [FileFormat](../../aspose.tasks/oleobject/fileformat) { get; set; } | Получает или задает формат файла внедренного объекта. |
@@ -33,8 +33,8 @@ public class OleObject
 | [Label](../../aspose.tasks/oleobject/label) { get; set; } | Получает или задает метку вставленного объекта. |
 | [Linked](../../aspose.tasks/oleobject/linked) { get; } | Получает значение, указывающее, содержит ли файл проекта только ссылку на фактические данные, хранящиеся в источнике ссылки. |
 | [Name](../../aspose.tasks/oleobject/name) { get; set; } | Получает или задает имя экземпляра объекта OLE. |
-| [TemporaryFile](../../aspose.tasks/oleobject/temporaryfile) { get; set; } | Получает или задает путь к временному файлу вставляемого объекта. |
-| [View](../../aspose.tasks/oleobject/view) { get; set; } | Получает или задает экземпляр класса[`View`](./view), которому принадлежит вставленный объект. |
+| [TemporaryFile](../../aspose.tasks/oleobject/temporaryfile) { get; set; } | Получает или задает путь к временному файлу вставленного объекта. |
+| [View](../../aspose.tasks/oleobject/view) { get; set; } | Получает или задает экземпляр[`View`](./view) класс, которому принадлежит вставленный объект. |
 
 ### Смотрите также
 

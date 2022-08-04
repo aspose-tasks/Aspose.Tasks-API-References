@@ -1,14 +1,14 @@
 ---
 title: PaperSize
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置纸张大小可以是PrinterPaperSizeaspose.tasks.visualization/printerpapersize枚举的值之一
+description: 获取或设置纸张大小可以是的值之一PrinterPaperSizeaspose.tasks.visualization/printerpapersize枚举.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks.visualization/pagesettings/papersize/
 ---
 ## PageSettings.PaperSize property
 
-获取或设置纸张大小。可以是[`PrinterPaperSize`](../../printerpapersize)枚举的值之一。
+获取或设置纸张大小。可以是的值之一[`PrinterPaperSize`](../../printerpapersize)枚举.
 
 ```csharp
 public PrinterPaperSize PaperSize { get; set; }

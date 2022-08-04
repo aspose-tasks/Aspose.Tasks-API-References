@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует коллекцию групп в список объектовGroupaspose.tasks/group.
+description: Преобразует коллекцию групп в списокGroupaspose.tasks/group объекты.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/groupcollection/tolist/
 ---
 ## GroupCollection.ToList method
 
-Преобразует коллекцию групп в список объектов[`Group`](../../group).
+Преобразует коллекцию групп в список[`Group`](../../group) объекты.
 
 ```csharp
 public List<Group> ToList()
@@ -16,7 +16,7 @@ public List<Group> ToList()
 
 ### Возвращаемое значение
 
-Общий список объектов[`Group`](../../group).
+Общий список[`Group`](../../group) объекты.
 
 ### Смотрите также
 

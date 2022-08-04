@@ -1,14 +1,14 @@
 ---
 title: Rates
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取该对象的RateCollectionaspose.tasks/ratecollection类的实例 与每个相关的期间和费率的集合
+description: 获取一个实例RateCollectionaspose.tasks/ratecollection此对象的类 与每个相关的周期和费率的集合
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/resource/rates/
 ---
 ## Resource.Rates property
 
-获取该对象的[`RateCollection`](../../ratecollection)类的实例。 与每个相关的期间和费率的集合。
+获取一个实例[`RateCollection`](../../ratecollection)此对象的类。 与每个相关的周期和费率的集合。
 
 ```csharp
 public RateCollection Rates { get; }

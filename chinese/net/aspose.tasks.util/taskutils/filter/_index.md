@@ -21,7 +21,7 @@ public static Task Filter(Task root, ICondition<Task> cond)
 
 ### 返回值
 
-新树的根。
+一棵新树的根。
 
 ### 也可以看看
 

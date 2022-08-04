@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化HtmlSaveOptionsaspose.tasks.saving/htmlsaveoptions类的新实例
+description: 初始化HtmlSaveOptionsaspose.tasks.saving/htmlsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions constructor
 
-初始化[`HtmlSaveOptions`](../../htmlsaveoptions)类的新实例。
+初始化[`HtmlSaveOptions`](../../htmlsaveoptions)类.
 
 ```csharp
 public HtmlSaveOptions()

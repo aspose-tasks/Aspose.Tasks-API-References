@@ -1,14 +1,14 @@
 ---
 title: RemoveLookupValue
 second_title: Aspose.Tasks for .NET API 参考
-description: 从内部查找列表中删除一个值对于使用ValueListaspose.tasks/extendedattributedefinition/valuelist进行操作这是一种更可取的方式
+description: 从内部查找列表中删除一个值这是使用ValueListaspose.tasks/extendedattributedefinition/valuelist.
 type: docs
 weight: 330
 url: /zh/net/aspose.tasks/extendedattributedefinition/removelookupvalue/
 ---
 ## ExtendedAttributeDefinition.RemoveLookupValue method
 
-从内部查找列表中删除一个值。对于使用[`ValueList`](../valuelist)进行操作，这是一种更可取的方式。
+从内部查找列表中删除一个值。这是使用[`ValueList`](../valuelist).
 
 ```csharp
 public void RemoveLookupValue(Value value)
@@ -20,7 +20,7 @@ public void RemoveLookupValue(Value value)
 
 ### 评论
 
-此方法仅适用于[`ExtendedAttributeDefinition`](../../extendedattributedefinition)实例 其中有[`CalculationType`](../calculationtype)等于Lookup。
+此方法仅适用于[`ExtendedAttributeDefinition`](../../extendedattributedefinition)instance 其中有[`CalculationType`](../calculationtype)等于Lookup.
 
 ### 也可以看看
 

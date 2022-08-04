@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение указывающее равен ли этот экземпляр заданной задаче.
+description: Возвращает значение указывающее соответствует ли этот экземпляр заданной задаче.
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/task/equals/
 ---
 ## Equals(Task) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр заданной задаче.
+Возвращает значение, указывающее, соответствует ли этот экземпляр заданной задаче.
 
 ```csharp
 public bool Equals(Task other)

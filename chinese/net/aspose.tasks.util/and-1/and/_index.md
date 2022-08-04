@@ -1,14 +1,14 @@
 ---
 title: And
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化Andaspose.tasks.util/and-1类的新实例
+description: 初始化Andaspose.tasks.util/and-1类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.util/and-1/and/
 ---
 ## And&lt;T&gt; constructor
 
-初始化[`And`](../../and-1)类的新实例。
+初始化[`And`](../../and-1)类.
 
 ```csharp
 public And(ICondition<T> cond1, ICondition<T> cond2)

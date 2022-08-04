@@ -24,9 +24,9 @@ public class MPPSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword) { get; set; } | 获取或设置用于保护生成的 MPP 文件的密码。目前支持 MS Project 2010 和更新的格式。  Null 值表示项目文件不受保护。 |
-| [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments) { get; set; } | 获取或设置一个值，该值指示在保存到 MPP 时是否删除无效资源分配。  MS Project 为每个任务创建一个空的资源分配。将此标志设置为 true 以在保存时将其删除。 |
-| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata) { get; set; } | 获取或设置保存到MPP时是否写入视图数据的值。  查看数据包括 Project.Views、Filters 和 Tables 集合。 |
+| [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword) { get; set; } | 获取或设置用于保护生成的 MPP 文件的密码。目前支持 MS Project 2010 和更新的格式。 空值表示项目文件不受保护。 |
+| [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments) { get; set; } | 获取或设置一个值，该值指示保存到 MPP 时是否删除无效的资源分配。 MS Project 为每个任务创建一个空的资源分配。将此标志设置为 true 以在保存时将其删除。 |
+| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata) { get; set; } | 获取或设置保存到MPP时是否写入视图数据的值。 查看数据包括 Project.Views、Filters 和 Tables 集合。 |
 
 ### 也可以看看
 

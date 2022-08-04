@@ -3,7 +3,7 @@ title: WebRequestEventArgs
 second_title: Aspose.Tasks for .NET API 参考
 description: 为客户端向 Project Server 的 Web API 发送 Web 请求时引发的事件提供参数
 type: docs
-weight: 3140
+weight: 3150
 url: /zh/net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class

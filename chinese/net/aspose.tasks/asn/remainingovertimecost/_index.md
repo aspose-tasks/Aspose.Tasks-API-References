@@ -1,14 +1,14 @@
 ---
 title: RemainingOvertimeCost
 second_title: Aspose.Tasks for .NET API 参考
-description: 完成任务的剩余预计加班成本
+description: 完成任务的剩余预计加班费用
 type: docs
 weight: 440
 url: /zh/net/aspose.tasks/asn/remainingovertimecost/
 ---
 ## Asn.RemainingOvertimeCost field
 
-完成任务的剩余预计加班成本。
+完成任务的剩余预计加班费用。
 
 ```csharp
 public static readonly Key<decimal, AsnKey> RemainingOvertimeCost;

@@ -1,14 +1,14 @@
 ---
 title: Workgroup
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源所属的工作组类型
+description: 资源所属的工作组的类型
 type: docs
 weight: 710
 url: /zh/net/aspose.tasks/rsc/workgroup/
 ---
 ## Rsc.Workgroup field
 
-资源所属的工作组类型。
+资源所属的工作组的类型。
 
 ```csharp
 public static readonly Key<WorkGroupType, RscKey> Workgroup;

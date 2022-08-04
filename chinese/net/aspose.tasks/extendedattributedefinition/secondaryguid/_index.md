@@ -1,14 +1,14 @@
 ---
 title: SecondaryGuid
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置扩展属性的辅助 guid
+description: 获取或设置扩展属性的辅助guid
 type: docs
 weight: 230
 url: /zh/net/aspose.tasks/extendedattributedefinition/secondaryguid/
 ---
 ## ExtendedAttributeDefinition.SecondaryGuid property
 
-获取或设置扩展属性的辅助 guid。
+获取或设置扩展属性的辅助guid。
 
 ```csharp
 public string SecondaryGuid { get; set; }

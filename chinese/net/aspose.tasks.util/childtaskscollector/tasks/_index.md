@@ -1,14 +1,14 @@
 ---
 title: Tasks
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取收集的子对象任务的列表
+description: 获取收集的子对象任务列表
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.util/childtaskscollector/tasks/
 ---
 ## ChildTasksCollector.Tasks property
 
-获取收集的子对象（任务）的列表。
+获取收集的子对象（任务）列表。
 
 ```csharp
 public List<Task> Tasks { get; }

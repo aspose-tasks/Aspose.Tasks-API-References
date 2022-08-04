@@ -18,7 +18,7 @@ public class PdfEncryptionDetails
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails)(string, string, PdfEncryptionAlgorithm) | 初始化[`PdfEncryptionDetails`](../pdfencryptiondetails)类的新实例。 |
+| [PdfEncryptionDetails](pdfencryptiondetails)(string, string, PdfEncryptionAlgorithm) | 初始化[`PdfEncryptionDetails`](../pdfencryptiondetails)类. |
 
 ## 特性
 

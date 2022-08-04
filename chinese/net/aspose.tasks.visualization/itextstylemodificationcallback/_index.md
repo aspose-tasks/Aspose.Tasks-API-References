@@ -3,7 +3,7 @@ title: ITextStyleModificationCallback
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示在将 TextStyle 应用于表格单元格之前调用的回调
 type: docs
-weight: 2790
+weight: 2800
 url: /zh/net/aspose.tasks.visualization/itextstylemodificationcallback/
 ---
 ## ITextStyleModificationCallback interface
@@ -18,7 +18,7 @@ public interface ITextStyleModificationCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BeforeTaskTextStyleApplied](../../aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied)(TaskTextStyleEventArgs) | 在以下视图中为任务行渲染表格单元格之前要调用的方法: '甘特图', '任务表', '任务使用情况'。 |
+| [BeforeTaskTextStyleApplied](../../aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied)(TaskTextStyleEventArgs) | 在以下视图中为任务行渲染表格单元格之前要调用的方法： '甘特图'、'任务表'、'任务使用情况'。 |
 
 ### 也可以看看
 

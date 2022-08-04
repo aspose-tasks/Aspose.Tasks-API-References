@@ -1,14 +1,14 @@
 ---
 title: ResourceToColumnTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Конвертер данных ресурса в строку столбца.
+description: Преобразователь данных ресурса в строку столбца.
 type: docs
-weight: 2960
+weight: 2970
 url: /ru/net/aspose.tasks.visualization/resourcetocolumntextconverter/
 ---
 ## ResourceToColumnTextConverter delegate
 
-Конвертер данных ресурса в строку столбца.
+Преобразователь данных ресурса в строку столбца.
 
 ```csharp
 public delegate string ResourceToColumnTextConverter(Resource resource);

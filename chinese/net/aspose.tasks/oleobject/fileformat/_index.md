@@ -8,7 +8,7 @@ url: /zh/net/aspose.tasks/oleobject/fileformat/
 ---
 ## OleObject.FileFormat property
 
-获取或设置嵌入对象的文件格式。
+获取或设置嵌入对象的文件格式
 
 ```csharp
 public string FileFormat { get; set; }

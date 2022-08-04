@@ -1,14 +1,14 @@
 ---
 title: StringAlignment
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置文本的对齐方式可以是StringAlignmentaspose.tasks.visualization/viewcolumn/stringalignment的值之一枚举
+description: 获取或设置文本的对齐方式可以是StringAlignmentaspose.tasks.visualization/viewcolumn/stringalignment枚举.
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/viewcolumn/stringalignment/
 ---
 ## ViewColumn.StringAlignment property
 
-获取或设置文本的对齐方式（可以是`StringAlignment`的值之一枚举）。
+获取或设置文本的对齐方式（可以是`StringAlignment`枚举）.
 
 ```csharp
 public StringAlignment StringAlignment { get; set; }

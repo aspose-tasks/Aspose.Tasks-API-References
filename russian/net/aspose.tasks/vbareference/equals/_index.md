@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуVbaReferenceaspose.tasks/vbareferenceобъекту.
+description: Возвращает значение указывающее равен ли этот экземпляр указанномуVbaReferenceaspose.tasks/vbareference объект.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/vbareference/equals/
 ---
 ## Equals(VbaReference) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../../vbareference)объекту.
+Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../../vbareference) объект.
 
 ```csharp
 public bool Equals(VbaReference other)
@@ -16,11 +16,11 @@ public bool Equals(VbaReference other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | VbaReference | Указанный объект[`VbaReference`](../../vbareference)для сравнения с этим экземпляром. |
+| other | VbaReference | Указанный[`VbaReference`](../../vbareference) объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-Возвращает true, если этот экземпляр равен указанному объекту[`VbaReference`](../../vbareference); в противном случае ложно.
+Возвращает true, если этот экземпляр равен указанному[`VbaReference`](../../vbareference) объект; в противном случае ложно.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public bool Equals(VbaReference other)
 
 ## Equals(object) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../../vbareference)объекту.
+Возвращает значение, указывающее, равен ли этот экземпляр указанному[`VbaReference`](../../vbareference) объект.
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,11 +40,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Указанный объект[`VbaReference`](../../vbareference)для сравнения с этим экземпляром. |
+| obj | Object | Указанный[`VbaReference`](../../vbareference) объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-Возвращает true, если этот экземпляр равен указанному объекту[`VbaReference`](../../vbareference); в противном случае ложно.
+Возвращает true, если этот экземпляр равен указанному[`VbaReference`](../../vbareference) объект; в противном случае ложно.
 
 ### Смотрите также
 

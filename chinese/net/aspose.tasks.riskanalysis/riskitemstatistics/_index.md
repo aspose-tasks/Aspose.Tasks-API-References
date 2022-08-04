@@ -1,14 +1,14 @@
 ---
 title: RiskItemStatistics
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示存储分析项目任务的统计数据的项
+description: 表示存储分析项目任务的统计数据的项目
 type: docs
 weight: 1630
 url: /zh/net/aspose.tasks.riskanalysis/riskitemstatistics/
 ---
 ## RiskItemStatistics class
 
-表示存储分析项目任务的统计数据的项。
+表示存储分析项目任务的统计数据的项目。
 
 ```csharp
 public class RiskItemStatistics
@@ -19,7 +19,7 @@ public class RiskItemStatistics
 | 姓名 | 描述 |
 | --- | --- |
 | [ExpectedValue](../../aspose.tasks.riskanalysis/riskitemstatistics/expectedvalue) { get; } | 获取风险项的期望值。 |
-| [ItemType](../../aspose.tasks.riskanalysis/riskitemstatistics/itemtype) { get; } | 获取[`RiskItemType`](../riskitemtype)枚举的实例。 |
+| [ItemType](../../aspose.tasks.riskanalysis/riskitemstatistics/itemtype) { get; } | 获取一个实例[`RiskItemType`](../riskitemtype)枚举. |
 | [Maximum](../../aspose.tasks.riskanalysis/riskitemstatistics/maximum) { get; } | 获取在蒙特卡洛模拟期间生成的最大值。 |
 | [Minimum](../../aspose.tasks.riskanalysis/riskitemstatistics/minimum) { get; } | 获取在蒙特卡洛模拟期间生成的最小值。 |
 | [StandardDeviation](../../aspose.tasks.riskanalysis/riskitemstatistics/standarddeviation) { get; } | 获取风险项的标准差。 |
@@ -29,7 +29,7 @@ public class RiskItemStatistics
 | 姓名 | 描述 |
 | --- | --- |
 | [GetPercentile](../../aspose.tasks.riskanalysis/riskitemstatistics/getpercentile)(int) | 获取一个值，低于该值的生成样本的指定百分比。 |
-| override [ToString](../../aspose.tasks.riskanalysis/riskitemstatistics/tostring)() | 返回风险项的短字符串表示。 表示的确切细节未指定，可能会发生变化。 |
+| override [ToString](../../aspose.tasks.riskanalysis/riskitemstatistics/tostring)() | 返回风险项的短字符串表示。 表示的确切细节未指定，可能会更改。 |
 
 ### 也可以看看
 

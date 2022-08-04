@@ -1,14 +1,14 @@
 ---
 title: Unit
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает единицу шкалы времениTimescaleUnitaspose.tasks.visualization/timescaleunitдля уровня шкалы времени. Значение по умолчаниюDaysaspose.tasks.visualization/timescaleunit .
+description: Получает или задает единицу шкалы времениTimescaleUnitaspose.tasks.visualization/timescaleunit для уровня шкалы времени. Значение по умолчаниюДнейaspose.tasks.visualization/timescaleunit .
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks.visualization/timescaletier/unit/
 ---
 ## TimescaleTier.Unit property
 
-Получает или задает единицу шкалы времени[`TimescaleUnit`](../../timescaleunit)для уровня шкалы времени. Значение по умолчанию:[`Days`](../../timescaleunit) .
+Получает или задает единицу шкалы времени[`TimescaleUnit`](../../timescaleunit) для уровня шкалы времени. Значение по умолчанию:[`Дней`](../../timescaleunit) .
 
 ```csharp
 public TimescaleUnit Unit { get; set; }

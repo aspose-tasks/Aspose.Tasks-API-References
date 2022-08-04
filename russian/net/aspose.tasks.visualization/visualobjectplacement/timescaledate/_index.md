@@ -1,14 +1,14 @@
 ---
 title: TimescaleDate
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает дату размещения визуального объекта когда выбрана опция Прикрепить к шкале времени.
+description: Получает или задает дату размещения визуального объекта когда выбрана опция Прикрепить к шкале времени.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/timescaledate/
 ---
 ## VisualObjectPlacement.TimescaleDate property
 
-Получает или устанавливает дату размещения визуального объекта, когда выбрана опция «Прикрепить к шкале времени».
+Получает или задает дату размещения визуального объекта, когда выбрана опция «Прикрепить к шкале времени».
 
 ```csharp
 public DateTime TimescaleDate { get; set; }

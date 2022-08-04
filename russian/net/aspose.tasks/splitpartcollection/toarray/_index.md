@@ -16,7 +16,7 @@ public SplitPart[] ToArray()
 
 ### Возвращаемое значение
 
-Массив объектов[`SplitPart`](../../splitpart).
+Массив[`SplitPart`](../../splitpart) объекты.
 
 ### Смотрите также
 

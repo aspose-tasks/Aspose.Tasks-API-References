@@ -18,9 +18,9 @@ public enum CustomPropertyType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 该属性没有类型。 |
+| None | `0` | 属性没有类型。 |
 | String | `1` | 该属性是一个字符串值。 |
-| DateTime | `2` | 该属性是日期时间值。 |
+| DateTime | `2` | 该属性是一个日期时间值。 |
 | Number | `3` | 该属性是一个整数。 |
 | Boolean | `4` | 该属性是一个布尔值。 |
 

@@ -18,7 +18,7 @@ public enum TaskKey
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Uid | `0` | 表示Uid(Task) 字段。 |
+| Uid | `0` | 代表Uid （任务）字段. |
 | Id | `1` | 表示 Id（任务）字段。 |
 | Name | `2` | 表示名称（任务）字段。 |
 | Type | `3` | 表示类型（任务）字段。 |
@@ -37,7 +37,7 @@ public enum TaskKey
 | DurationFormat | `16` | 表示 DurationFormat（任务）字段。 |
 | Work | `17` | 表示工作（任务）字段。 |
 | Stop | `18` | 表示停止（任务）字段。 |
-| Resume | `19` | 表示 Resume (Task) 字段。 |
+| Resume | `19` | 表示简历（任务）字段。 |
 | IsResumeValid | `20` | 表示 IsResumeValid（任务）字段。 |
 | IsEffortDriven | `21` | 表示 IsEffortDriven（任务）字段。 |
 | IsRecurring | `22` | 表示 IsRecurring（任务）字段。 |
@@ -70,7 +70,7 @@ public enum TaskKey
 | FinishSlack | `49` | 表示 FinishSlack（任务）字段。 |
 | FixedCost | `50` | 表示固定成本（任务）字段。 |
 | FixedCostAccrual | `51` | 表示 FixedCostAccrual（任务）字段。 |
-| PercentComplete | `52` | 表示百分比完成（任务）字段。 |
+| PercentComplete | `52` | 表示完成百分比（任务）字段。 |
 | PercentWorkComplete | `53` | 表示百分比工作完成（任务）字段。 |
 | Cost | `54` | 表示成本（任务）字段。 |
 | OvertimeCost | `55` | 表示 OvertimeCost（任务）字段。 |
@@ -81,8 +81,8 @@ public enum TaskKey
 | ActualOvertimeCost | `60` | 表示 ActualOvertimeCost（任务）字段。 |
 | ActualWork | `61` | 表示 ActualWork（任务）字段。 |
 | ActualOvertimeWork | `62` | 表示 ActualOvertimeWork（任务）字段。 |
-| OvertimeWork | `63` | 表示 OvertimeWork（任务）字段。 |
-| RegularWork | `64` | 表示RegularWork（任务）字段。 |
+| OvertimeWork | `63` | 表示加班（任务）字段。 |
+| RegularWork | `64` | 表示常规工作（任务）字段。 |
 | RemainingDuration | `65` | 表示 RemainingDuration（任务）字段。 |
 | RemainingCost | `66` | 表示剩余成本（任务）字段。 |
 | RemainingWork | `67` | 表示 RemainingWork（任务）字段。 |
@@ -97,7 +97,7 @@ public enum TaskKey
 | Deadline | `76` | 表示截止日期（任务）字段。 |
 | LevelAssignments | `77` | 表示 LevelAssignments（任务）字段。 |
 | LevelingCanSplit | `78` | 表示LevelingCanSplit（任务）字段。 |
-| LevelingDelay | `79` | 表示LevelingDelay（任务）字段。 |
+| LevelingDelay | `79` | 表示 LevelingDelay（任务）字段。 |
 | LevelingDelayFormat | `80` | 表示LevelingDelayFormat（任务）字段。 |
 | PreleveledStart | `81` | 表示 PreleveledStart（任务）字段。 |
 | PreleveledFinish | `82` | 表示 PreleveledFinish（任务）字段。 |
@@ -111,8 +111,8 @@ public enum TaskKey
 | BCWP | `90` | 表示 BCWP（任务）字段。 |
 | PhysicalPercentComplete | `91` | 表示 PhysicalPercentComplete（任务）字段。 |
 | EarnedValueMethod | `92` | 表示 EarnedValueMethod（任务）字段。 |
-| ActualWorkProtected | `93` | 表示 ActualWorkProtected (Task) 字段。 |
-| ActualOvertimeWorkProtected | `94` | 表示 ActualOvertimeWorkProtected（任务）字段。 |
+| ActualWorkProtected | `93` | 表示 ActualWorkProtected（任务）字段。 |
+| ActualOvertimeWorkProtected | `94` | 表示 ActualOvertimeWorkProtected (Task) 字段。 |
 | IsPublished | `95` | 表示 IsPublished（任务）字段。 |
 | IsScheduled | `96` | 表示 IsScheduled（任务）字段。 |
 | StatusManager | `97` | 表示 StatusManager（任务）字段。 |
@@ -138,7 +138,7 @@ public enum TaskKey
 | CalendarUid | `117` | 表示 CalendarUid（任务）字段。 |
 | ParentTaskUid | `118` | 表示 ParentTaskUid（任务）字段。 |
 | DisplayOnTimeline | `119` | 表示 DisplayOnTimeline（任务）字段。 |
-| TaskIsAssigned | `120` | 表示TaskIsAssigned（任务）字段。 |
+| TaskIsAssigned | `120` | 表示 TaskIsAssigned（任务）字段。 |
 | TaskOriginalStart | `121` | 表示原始开始（任务）字段。 |
 | TaskOriginalFinish | `122` | 表示原始完成（任务）字段。 |
 | IsShowBeforeProjectStartDateWarning | `123` | 表示使 MSP 显示任务在项目开始日期之前开始的警告的标志。 |

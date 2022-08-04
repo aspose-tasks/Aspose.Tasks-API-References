@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeWorkProtected
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Продолжительность в течение которой фактическая работа защищена.
+description: Продолжительность в течение которой реальная работа защищена.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/asn/actualovertimeworkprotected/
 ---
 ## Asn.ActualOvertimeWorkProtected field
 
-Продолжительность, в течение которой фактическая работа защищена.
+Продолжительность, в течение которой реальная работа защищена.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> ActualOvertimeWorkProtected;

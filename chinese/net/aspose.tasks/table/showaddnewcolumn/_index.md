@@ -1,14 +1,14 @@
 ---
 title: ShowAddNewColumn
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置是否显示新增列界面的值  MSP 2010 及更高版本支持
+description: 获取或设置一个值指示是否显示添加新列界面 MSP 2010 及更高版本支持
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/table/showaddnewcolumn/
 ---
 ## Table.ShowAddNewColumn property
 
-获取或设置是否显示“新增列”界面的值。  MSP 2010 及更高版本支持。
+获取或设置一个值，指示是否显示“添加新列”界面。 MSP 2010 及更高版本支持。
 
 ```csharp
 public bool ShowAddNewColumn { get; set; }

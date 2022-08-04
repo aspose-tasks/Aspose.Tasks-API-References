@@ -1,14 +1,14 @@
 ---
 title: Interval
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает повторяющийся интервал. Может быть любым значениемIntervalaspose.tasks.visualization/recurringinterval/intervaltype.
+description: Получает или задает повторяющийся интервал. Может быть любым значениемIntervalaspose.tasks.visualization/recurringinterval/interval тип.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.visualization/recurringinterval/interval/
 ---
 ## RecurringInterval.Interval property
 
-Получает или задает повторяющийся интервал. Может быть любым значением`Interval`type.
+Получает или задает повторяющийся интервал. Может быть любым значением`Interval` тип.
 
 ```csharp
 public Interval Interval { get; set; }

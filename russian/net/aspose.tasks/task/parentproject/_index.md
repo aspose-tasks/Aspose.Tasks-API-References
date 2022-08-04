@@ -16,7 +16,7 @@ public Project ParentProject { get; }
 
 ### Примечания
 
-Вызовите Project.UpdateReferences, чтобы обновить эти свойства.
+Вызовите Project.UpdateReferences для обновления этих свойств.
 
 ### Смотрите также
 

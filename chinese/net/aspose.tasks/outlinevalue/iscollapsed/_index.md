@@ -1,14 +1,14 @@
 ---
 title: IsCollapsed
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值指示大纲值是否折叠
+description: 获取或设置一个值该值指示大纲值是否折叠
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/outlinevalue/iscollapsed/
 ---
 ## OutlineValue.IsCollapsed property
 
-获取或设置一个值，指示大纲值是否折叠。
+获取或设置一个值，该值指示大纲值是否折叠。
 
 ```csharp
 public bool IsCollapsed { get; set; }

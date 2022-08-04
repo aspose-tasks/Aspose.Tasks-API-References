@@ -1,14 +1,14 @@
 ---
 title: TimescaleTier
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет один уровень шкалы времени на диаграмме Ганта.
+description: Представляет один уровень временной шкалы на диаграмме Ганта.
 type: docs
-weight: 3060
+weight: 3070
 url: /ru/net/aspose.tasks.visualization/timescaletier/
 ---
 ## TimescaleTier class
 
-Представляет один уровень шкалы времени на диаграмме Ганта.
+Представляет один уровень временной шкалы на диаграмме Ганта.
 
 ```csharp
 public sealed class TimescaleTier
@@ -18,19 +18,19 @@ public sealed class TimescaleTier
 
 | Имя | Описание |
 | --- | --- |
-| [TimescaleTier](timescaletier#constructor)() | Инициализирует новый экземпляр класса[`TimescaleTier`](../timescaletier). |
-| [TimescaleTier](timescaletier#constructor_1)(TimescaleUnit, int) | Инициализирует новый экземпляр класса[`TimescaleTier`](../timescaletier). |
+| [TimescaleTier](timescaletier#constructor)() | Инициализирует новый экземпляр[`TimescaleTier`](../timescaletier) класс. |
+| [TimescaleTier](timescaletier#constructor_1)(TimescaleUnit, int) | Инициализирует новый экземпляр[`TimescaleTier`](../timescaletier) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.tasks.visualization/timescaletier/alignment) { get; set; } | Получает или задает способ выравнивания меток в пределах каждого периода времени уровня (StringAlignment). |
-| [Count](../../aspose.tasks.visualization/timescaletier/count) { get; set; } | Получает или задает интервал единиц времени, в течение которого отображаются метки для уровня. Значение по умолчанию равно 1. |
+| [Alignment](../../aspose.tasks.visualization/timescaletier/alignment) { get; set; } | Получает или задает способ выравнивания меток в пределах каждого периода времени уровня (StringAlignment ). |
+| [Count](../../aspose.tasks.visualization/timescaletier/count) { get; set; } | Получает или задает временной интервал, в течение которого отображаются метки для уровня. Значение по умолчанию: 1. |
 | [DateTimeConverter](../../aspose.tasks.visualization/timescaletier/datetimeconverter) { get; set; } | Получает или задает функцию обратного вызова для обработки отметки даты рендеринга на этом уровне. |
-| [Label](../../aspose.tasks.visualization/timescaletier/label) { get; set; } | Получает или задает метку даты[`DateLabel`](../datelabel)для уровня шкалы времени. |
+| [Label](../../aspose.tasks.visualization/timescaletier/label) { get; set; } | Получает или устанавливает метку даты[`DateLabel`](../datelabel) для уровня шкалы времени. |
 | [ShowTicks](../../aspose.tasks.visualization/timescaletier/showticks) { get; set; } | Получает или задает значение, указывающее, следует ли отображать деления, разделяющие периоды времени на уровне. |
-| [Unit](../../aspose.tasks.visualization/timescaletier/unit) { get; set; } | Получает или задает единицу шкалы времени[`TimescaleUnit`](../timescaleunit)для уровня шкалы времени. Значение по умолчанию:[`Days`](../timescaleunit) . |
+| [Unit](../../aspose.tasks.visualization/timescaletier/unit) { get; set; } | Получает или задает единицу шкалы времени[`TimescaleUnit`](../timescaleunit) для уровня шкалы времени. Значение по умолчанию:[`Дней`](../timescaleunit) . |
 | [UsesFiscalYear](../../aspose.tasks.visualization/timescaletier/usesfiscalyear) { get; set; } | Получает или задает значение, указывающее, основывать ли метки уровней на финансовом году. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: YearlyUseOrdinalDay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее следует ли использовать порядковый день для ежегодного шаблона повторения.
+description: Получает или задает значение указывающее следует ли использовать порядковый номер дня для шаблона ежегодного повторения.
 type: docs
 weight: 220
 url: /ru/net/aspose.tasks/recurringtaskinfo/yearlyuseordinalday/
 ---
 ## RecurringTaskInfo.YearlyUseOrdinalDay property
 
-Получает или задает значение, указывающее, следует ли использовать порядковый день для ежегодного шаблона повторения.
+Получает или задает значение, указывающее, следует ли использовать порядковый номер дня для шаблона ежегодного повторения.
 
 ```csharp
 public bool YearlyUseOrdinalDay { get; set; }

@@ -3,7 +3,7 @@ title: TaskToColumnTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Конвертер данных задачи в строку столбца.
 type: docs
-weight: 3020
+weight: 3030
 url: /ru/net/aspose.tasks.visualization/tasktocolumntextconverter/
 ---
 ## TaskToColumnTextConverter delegate

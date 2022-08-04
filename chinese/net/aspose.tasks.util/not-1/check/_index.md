@@ -1,14 +1,14 @@
 ---
 title: Check
 second_title: Aspose.Tasks for .NET API 参考
-description: 如果指定对象满足条件则返回真
+description: 如果指定的对象满足条件则返回真
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.util/not-1/check/
 ---
 ## Not&lt;T&gt;.Check method
 
-如果指定对象满足条件，则返回真。
+如果指定的对象满足条件，则返回真。
 
 ```csharp
 public bool Check(T el)

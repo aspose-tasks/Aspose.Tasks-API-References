@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API 参考
-description: 从CalendarExceptionCollectionaspose.tasks/calendarexceptioncollection中删除所有项目
+description: 从CalendarExceptionCollectionaspose.tasks/calendarexceptioncollection.
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/calendarexceptioncollection/clear/
 ---
 ## CalendarExceptionCollection.Clear method
 
-从[`CalendarExceptionCollection`](../../calendarexceptioncollection)中删除所有项目。
+从[`CalendarExceptionCollection`](../../calendarexceptioncollection).
 
 ```csharp
 public void Clear()

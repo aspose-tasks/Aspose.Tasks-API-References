@@ -1,14 +1,14 @@
 ---
 title: RowUid
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取行唯一ID  如果样式要应用于视图的所有行则返回 -1
+description: 获取行唯一id 如果样式将应用于视图的所有行则返回 -1
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks.visualization/tabletextstyle/rowuid/
 ---
 ## TableTextStyle.RowUid property
 
-获取行唯一ID。  如果样式要应用于视图的所有行，则返回 -1。
+获取行唯一id。 如果样式将应用于视图的所有行，则返回 -1。
 
 ```csharp
 public int RowUid { get; }

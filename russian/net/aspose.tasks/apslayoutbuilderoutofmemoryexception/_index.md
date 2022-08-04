@@ -1,14 +1,14 @@
 ---
 title: ApsLayoutBuilderOutOfMemoryException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Исключение возникающее когда недостаточно памяти для продолжения построения макета изображения.
+description: Представляет исключение возникающее когда недостаточно памяти для продолжения построения макета изображения.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/apslayoutbuilderoutofmemoryexception/
 ---
 ## ApsLayoutBuilderOutOfMemoryException class
 
-Исключение, возникающее, когда недостаточно памяти для продолжения построения макета изображения.
+Представляет исключение, возникающее, когда недостаточно памяти для продолжения построения макета изображения.
 
 ```csharp
 public class ApsLayoutBuilderOutOfMemoryException : Exception

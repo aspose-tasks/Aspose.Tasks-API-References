@@ -1,14 +1,14 @@
 ---
 title: BeginAtDate
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает дату с которой отображаются строки хода выполнения.
+description: Получает или задает дату для отображения строк прогресса от.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/progresslines/beginatdate/
 ---
 ## ProgressLines.BeginAtDate property
 
-Получает или задает дату, с которой отображаются строки хода выполнения.
+Получает или задает дату для отображения строк прогресса от.
 
 ```csharp
 public DateTime BeginAtDate { get; set; }

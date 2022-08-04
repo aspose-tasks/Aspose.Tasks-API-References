@@ -18,7 +18,7 @@ public class EndAfterRecurrenceRange : RecurrenceRangeBase
 
 | Имя | Описание |
 | --- | --- |
-| [EndAfterRecurrenceRange](endafterrecurrencerange)() | Инициализирует новый экземпляр класса[`EndAfterRecurrenceRange`](../endafterrecurrencerange). |
+| [EndAfterRecurrenceRange](endafterrecurrencerange)() | Инициализирует новый экземпляр[`EndAfterRecurrenceRange`](../endafterrecurrencerange) класс. |
 
 ## Характеристики
 

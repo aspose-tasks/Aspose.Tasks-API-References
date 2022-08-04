@@ -1,14 +1,14 @@
 ---
 title: CustomProjectPropertyCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаCustomProjectPropertyCollectionaspose.tasks.properties/customprojectpropertycollection.
+description: Инициализирует новый экземплярCustomProjectPropertyCollectionaspose.tasks.properties/customprojectpropertycollection учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.properties/customprojectpropertycollection/customprojectpropertycollection/
 ---
 ## CustomProjectPropertyCollection constructor
 
-Инициализирует новый экземпляр класса[`CustomProjectPropertyCollection`](../../customprojectpropertycollection).
+Инициализирует новый экземпляр[`CustomProjectPropertyCollection`](../../customprojectpropertycollection) учебный класс.
 
 ```csharp
 public CustomProjectPropertyCollection()

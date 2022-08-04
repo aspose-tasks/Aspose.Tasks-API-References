@@ -1,14 +1,14 @@
 ---
 title: GetDuration
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取Durationaspose.tasks/duration具有指定单位数和项目设置中定义的默认持续时间格式的对象DurationFormataspose.tasks/prj/durationformat
+description: 获取Durationaspose.tasks/duration具有在项目设置中定义的指定单位数和默认持续时间格式的对象DurationFormataspose.tasks/prj/durationformat.
 type: docs
 weight: 290
 url: /zh/net/aspose.tasks/project/getduration/
 ---
 ## GetDuration(double) {#getduration}
 
-获取[`Duration`](../../duration)具有指定单位数和项目设置中定义的默认持续时间格式的对象[`DurationFormat`](../../prj/durationformat)。
+获取[`Duration`](../../duration)具有在项目设置中定义的指定单位数和默认持续时间格式的对象[`DurationFormat`](../../prj/durationformat).
 
 ```csharp
 public Duration GetDuration(double val)
@@ -16,7 +16,7 @@ public Duration GetDuration(double val)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| val | Double | 指定的单元数。 |
+| val | Double | 指定数量的单位。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public Duration GetDuration(double val)
 
 ## GetDuration(double, TimeUnitType) {#getduration_1}
 
-获取[`Duration`](../../duration)具有指定数量TimeUnitType的对象单位。
+获取[`Duration`](../../duration)具有指定数量的对象[`TimeUnitType`](../../timeunittype)单位.
 
 ```csharp
 public Duration GetDuration(double val, TimeUnitType timeUnit)
@@ -41,7 +41,7 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| val | Double | 指定的单元数。 |
+| val | Double | 指定数量的单位。 |
 | timeUnit | TimeUnitType | 指定的 TimeUnitType 值。 |
 
 ### 返回值
@@ -60,7 +60,7 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 
 ## GetDuration(TimeSpan, TimeUnitType) {#getduration_2}
 
-获取具有指定TimeSpan值的[`Duration`](../../duration)对象和指定[`TimeUnitType`](../../timeunittype)值。
+获取[`Duration`](../../duration)具有指定的对象TimeSpan值和指定[`TimeUnitType`](../../timeunittype)值.
 
 ```csharp
 public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
@@ -68,7 +68,7 @@ public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| timeSpan | TimeSpan | 指定TimeSpan值。 |
+| timeSpan | TimeSpan | 指定的TimeSpan价值。 |
 | timeUnit | TimeUnitType | 指定的 TimeUnitType 值。 |
 
 ### 返回值

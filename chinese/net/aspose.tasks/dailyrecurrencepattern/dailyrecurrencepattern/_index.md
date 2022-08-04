@@ -1,14 +1,14 @@
 ---
 title: DailyRecurrencePattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化DailyRecurrencePatternaspose.tasks/dailyrecurrencepattern类的新实例
+description: 初始化DailyRecurrencePatternaspose.tasks/dailyrecurrencepattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/dailyrecurrencepattern/dailyrecurrencepattern/
 ---
 ## DailyRecurrencePattern constructor
 
-初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类的新实例。
+初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类.
 
 ```csharp
 public DailyRecurrencePattern()

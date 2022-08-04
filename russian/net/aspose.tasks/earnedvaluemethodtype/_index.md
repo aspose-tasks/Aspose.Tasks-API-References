@@ -19,8 +19,8 @@ public enum EarnedValueMethodType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Undefined | `-1` | Поле не было определено в исходном файле проекта. |
-| PercentComplete | `0` | Процент выполнения |
-| PhysicalPercentComplete | `1` | Физический процент выполнения |
+| PercentComplete | `0` | Процент завершения |
+| PhysicalPercentComplete | `1` | Физический процент завершения |
 
 ### Примечания
 

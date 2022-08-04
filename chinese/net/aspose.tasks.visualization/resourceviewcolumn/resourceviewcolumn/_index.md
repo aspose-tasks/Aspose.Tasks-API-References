@@ -1,14 +1,14 @@
 ---
 title: ResourceViewColumn
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn类的新实例
+description: 初始化ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/resourceviewcolumn/resourceviewcolumn/
 ---
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter, Field) {#constructor_2}
 
-初始化[`ResourceViewColumn`](../../resourceviewcolumn)类的新实例。
+初始化[`ResourceViewColumn`](../../resourceviewcolumn)类.
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter, 
@@ -17,7 +17,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 列名。 |
+| name | String | 列的名称。 |
 | width | Int32 | 列的宽度（以像素为单位）。 |
 | converter | ResourceToColumnTextConverter | 资源数据到列文本转换器。 |
 | field | Field | 列字段。 |
@@ -34,7 +34,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter) {#constructor_1}
 
-初始化[`ResourceViewColumn`](../../resourceviewcolumn)类的新实例。
+初始化[`ResourceViewColumn`](../../resourceviewcolumn)类.
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter)
@@ -42,7 +42,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 列名。 |
+| name | String | 列的名称。 |
 | width | Int32 | 列的宽度（以像素为单位）。 |
 | converter | ResourceToColumnTextConverter | 资源数据到列文本转换器。 |
 
@@ -57,7 +57,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 ## ResourceViewColumn(int, Field) {#constructor}
 
-初始化[`ResourceViewColumn`](../../resourceviewcolumn)类的新实例。
+初始化[`ResourceViewColumn`](../../resourceviewcolumn)类.
 
 ```csharp
 public ResourceViewColumn(int width, Field field)
@@ -65,7 +65,7 @@ public ResourceViewColumn(int width, Field field)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| width | Int32 | 列宽（以像素为单位）。 |
+| width | Int32 | 以像素为单位的列宽。 |
 | field | Field | 列字段。 |
 
 ### 也可以看看

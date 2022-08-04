@@ -1,14 +1,14 @@
 ---
 title: GetExceptionDates
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает даты к которым применимо исключение календаря.
+description: Возвращает даты для которых применимо исключение календаря.
 type: docs
 weight: 190
 url: /ru/net/aspose.tasks/calendarexception/getexceptiondates/
 ---
 ## CalendarException.GetExceptionDates method
 
-Возвращает даты, к которым применимо исключение календаря.
+Возвращает даты, для которых применимо исключение календаря.
 
 ```csharp
 public IEnumerable<DateTime> GetExceptionDates()

@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置文本样式的TextItemTypeaspose.tasks.visualization/textitemtype
+description: 获取或设置TextItemTypeaspose.tasks.visualization/textitemtype文本样式的.
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks.visualization/textstyle/itemtype/
 ---
 ## TextStyle.ItemType property
 
-获取或设置文本样式的[`TextItemType`](../../textitemtype)。
+获取或设置[`TextItemType`](../../textitemtype)文本样式的.
 
 ```csharp
 public virtual TextItemType ItemType { get; set; }

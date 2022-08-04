@@ -1,14 +1,14 @@
 ---
 title: IgnoreResourceCalendar
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否安排重复任务即使当有任何资源可用时它没有发生
+description: 获取或设置一个值该值指示是否安排重复任务即使在任何资源可用于处理它时它没有发生
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/recurringtaskparameters/ignoreresourcecalendar/
 ---
 ## RecurringTaskParameters.IgnoreResourceCalendar property
 
-获取或设置一个值，该值指示是否安排重复任务，即使当有任何资源可用时它没有发生。
+获取或设置一个值，该值指示是否安排重复任务，即使在任何资源可用于处理它时它没有发生。
 
 ```csharp
 public bool IgnoreResourceCalendar { get; set; }

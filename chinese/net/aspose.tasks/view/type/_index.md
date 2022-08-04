@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取单个视图中item的类型例如任务或资源 只读ItemTypeaspose.tasks/itemtype
+description: 获取单个视图中项目的类型例如任务或资源 只读ItemTypeaspose.tasks/itemtype.
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/view/type/
 ---
 ## View.Type property
 
-获取单个视图中item的类型，例如任务或资源。 只读[`ItemType`](../../itemtype)。
+获取单个视图中项目的类型，例如任务或资源。 只读[`ItemType`](../../itemtype).
 
 ```csharp
 public ItemType Type { get; }

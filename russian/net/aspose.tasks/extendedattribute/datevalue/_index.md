@@ -18,7 +18,7 @@ public DateTime DateValue { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, если свойство[`AttributeDefinition`](../attributedefinition)не инициализирован или текущий атрибут не является атрибутом даты. |
+| InvalidOperationException | Брошен, если[`AttributeDefinition`](../attributedefinition) свойство не инициализировано или текущий атрибут не является атрибутом даты. |
 
 ### Смотрите также
 

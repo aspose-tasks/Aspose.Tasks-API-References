@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаImageSavingArgsaspose.tasks/imagesavingargs.
+description: Инициализирует новый экземплярImageSavingArgsaspose.tasks/imagesavingargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/imagesavingargs/imagesavingargs/
 ---
 ## ImageSavingArgs constructor
 
-Инициализирует новый экземпляр класса[`ImageSavingArgs`](../../imagesavingargs).
+Инициализирует новый экземпляр[`ImageSavingArgs`](../../imagesavingargs) класс.
 
 ```csharp
 public ImageSavingArgs()

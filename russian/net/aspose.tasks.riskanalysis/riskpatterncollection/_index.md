@@ -1,14 +1,14 @@
 ---
 title: RiskPatternCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет коллекцию содержащую экземпляры классаRiskPattern./riskpattern.
+description: Представляет коллекцию содержащую экземплярыRiskPattern./riskpattern класс.
 type: docs
 weight: 1670
 url: /ru/net/aspose.tasks.riskanalysis/riskpatterncollection/
 ---
 ## RiskPatternCollection class
 
-Представляет коллекцию, содержащую экземпляры класса[`RiskPattern`](../riskpattern).
+Представляет коллекцию, содержащую экземпляры[`RiskPattern`](../riskpattern) класс.
 
 ```csharp
 public class RiskPatternCollection : ICollection<RiskPattern>, IDictionary<Task, RiskPattern>
@@ -19,16 +19,16 @@ public class RiskPatternCollection : ICollection<RiskPattern>, IDictionary<Task,
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks.riskanalysis/riskpatterncollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks.riskanalysis/riskpatterncollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
-| [Item](../../aspose.tasks.riskanalysis/riskpatterncollection/item) { get; } | Получает экземпляр класса[`RiskPattern`](../riskpattern)для указанной задачи. |
+| [IsReadOnly](../../aspose.tasks.riskanalysis/riskpatterncollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
+| [Item](../../aspose.tasks.riskanalysis/riskpatterncollection/item) { get; } | Получает экземпляр[`RiskPattern`](../riskpattern) класс для указанной задачи. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks.riskanalysis/riskpatterncollection/add)(RiskPattern) | Добавляет экземпляр класса[`RiskPattern`](../riskpattern)в эту коллекцию. |
+| [Add](../../aspose.tasks.riskanalysis/riskpatterncollection/add)(RiskPattern) | Добавляет экземпляр[`RiskPattern`](../riskpattern) класс в эту коллекцию. |
 | [Clear](../../aspose.tasks.riskanalysis/riskpatterncollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks.riskanalysis/riskpatterncollection/contains)(RiskPattern) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks.riskanalysis/riskpatterncollection/contains)(RiskPattern) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks.riskanalysis/riskpatterncollection/copyto)(RiskPattern[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks.riskanalysis/riskpatterncollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks.riskanalysis/riskpatterncollection/remove)(RiskPattern) | Удаляет первое вхождение определенного объекта из этой коллекции. |

@@ -1,14 +1,14 @@
 ---
 title: SummaryRowsCalculationType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает тип расчета значения пользовательского атрибута для строк сводки.
+description: Получает или задает тип вычисления значения настраиваемого атрибута для итоговых строк.
 type: docs
 weight: 250
 url: /ru/net/aspose.tasks/extendedattributedefinition/summaryrowscalculationtype/
 ---
 ## ExtendedAttributeDefinition.SummaryRowsCalculationType property
 
-Получает или задает тип расчета значения пользовательского атрибута для строк сводки.
+Получает или задает тип вычисления значения настраиваемого атрибута для итоговых строк.
 
 ```csharp
 public SummaryRowsCalculationType SummaryRowsCalculationType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回一个值该值指示此实例是否等于ResourceAssignmentaspose.tasks/resourceassignment类的指定实例
+description: 返回一个值该值指示此实例是否等于ResourceAssignmentaspose.tasks/resourceassignment类.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/resourceassignment/equals/
 ---
 ## Equals(ResourceAssignment) {#equals}
 
-返回一个值，该值指示此实例是否等于[`ResourceAssignment`](../../resourceassignment)类的指定实例。
+返回一个值，该值指示此实例是否等于[`ResourceAssignment`](../../resourceassignment)类.
 
 ```csharp
 public bool Equals(ResourceAssignment other)
@@ -16,11 +16,11 @@ public bool Equals(ResourceAssignment other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | ResourceAssignment | [`ResourceAssignment`](../../resourceassignment)类的指定实例与此进行比较实例。 |
+| other | ResourceAssignment | 的指定实例[`ResourceAssignment`](../../resourceassignment)类与此实例进行比较。 |
 
 ### 返回值
 
-**True** 如果Tasks的指定实例。ResourceAssignment类具有与此实例相同的 UID 值；否则， **false** 。
+**真的**如果指定的实例[`ResourceAssignment`](../../resourceassignment)类具有与此实例相同的 UID 值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果 o 是分配与此实例相同的资源和任务的 ResourceAssignment；否则， **false** 。
+**真的**如果 o 是分配与此实例相同的资源和任务的 ResourceAssignment；否则， **错误的**.
 
 ### 也可以看看
 

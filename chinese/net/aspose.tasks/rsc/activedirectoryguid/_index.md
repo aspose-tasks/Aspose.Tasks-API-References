@@ -1,14 +1,14 @@
 ---
 title: ActiveDirectoryGuid
 second_title: Aspose.Tasks for .NET API 参考
-description: Active DirectoryGuid用于资源
+description: 活动目录Guid对于资源.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/rsc/activedirectoryguid/
 ---
 ## Rsc.ActiveDirectoryGuid field
 
-Active DirectoryGuid用于资源。
+活动目录Guid对于资源.
 
 ```csharp
 public static readonly Key<string, RscKey> ActiveDirectoryGuid;

@@ -1,14 +1,14 @@
 ---
 title: Compliance
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает желаемый уровень соответствия для сгенерированного PDF-документа. По умолчаниюPdf15.
+description: Получает или задает желаемый уровень соответствия для сгенерированного PDF-документа. Значение по умолчаниюPdf15 .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.saving/pdfsaveoptions/compliance/
 ---
 ## PdfSaveOptions.Compliance property
 
-Получает или задает желаемый уровень соответствия для сгенерированного PDF-документа. По умолчанию:Pdf15.
+Получает или задает желаемый уровень соответствия для сгенерированного PDF-документа. Значение по умолчанию:Pdf15 .
 
 ```csharp
 public PdfCompliance Compliance { get; set; }

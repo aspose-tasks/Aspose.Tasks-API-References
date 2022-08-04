@@ -18,7 +18,7 @@ public class MonthlyRecurrencePattern : RecurrencePatternBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern)() | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类的新实例。 |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern)() | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类. |
 
 ## 特性
 

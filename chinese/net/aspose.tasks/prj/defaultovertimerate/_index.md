@@ -1,14 +1,14 @@
 ---
 title: DefaultOvertimeRate
 second_title: Aspose.Tasks for .NET API 参考
-description: 新资源的默认超时率
+description: 新资源的默认加班率
 type: docs
 weight: 240
 url: /zh/net/aspose.tasks/prj/defaultovertimerate/
 ---
 ## Prj.DefaultOvertimeRate field
 
-新资源的默认超时率。
+新资源的默认加班率。
 
 ```csharp
 public static readonly Key<double, PrjKey> DefaultOvertimeRate;

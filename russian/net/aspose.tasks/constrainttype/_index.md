@@ -19,14 +19,14 @@ public enum ConstraintType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Undefined | `-1` | Значение не было определено в исходном файле проекта. |
-| AsSoonAsPossible | `0` | [`Start`](../tsk/start)и[`Finish`](../tsk/finish)даты[`Task`](../task)планируются как можно скорее относительно родителя[`Start`](../tsk/start)и[`Finish`](../tsk/finish)даты и учитывая[`TaskLinks`](../project/tasklinks). |
-| AsLateAsPossible | `1` | [`Start`](../tsk/start)и[`Finish`](../tsk/finish)даты[`Task`](../task)планируются ALAP относительно родителя[`Start`](../tsk/start)и[`Finish`](../tsk/finish)даты и учитывая[`TaskLinks`](../project/tasklinks). |
-| MustStartOn | `2` | Должен начаться |
-| MustFinishOn | `3` | Должен закончить |
+| AsSoonAsPossible | `0` | [`Start`](../tsk/start) а также[`Finish`](../tsk/finish) даты[`Task`](../task) запланированы ASAP по отношению к родительскому[`Start`](../tsk/start) а также[`Finish`](../tsk/finish) даты и учитывая[`TaskLinks`](../project/tasklinks) . |
+| AsLateAsPossible | `1` | [`Start`](../tsk/start) а также[`Finish`](../tsk/finish) даты[`Task`](../task) запланированы ALAP по отношению к родительскому[`Start`](../tsk/start) а также[`Finish`](../tsk/finish) даты и учитывая[`TaskLinks`](../project/tasklinks) . |
+| MustStartOn | `2` | Должен начаться с |
+| MustFinishOn | `3` | Должен закончиться на |
 | StartNoEarlierThan | `4` | Начать не ранее, чем |
-| StartNoLaterThan | `5` | Начать не позднее |
-| FinishNoEarlierThan | `6` | Завершить не раньше, чем |
-| FinishNoLaterThan | `7` | Завершить не позднее |
+| StartNoLaterThan | `5` | Начать не позднее, чем |
+| FinishNoEarlierThan | `6` | Завершить не ранее |
+| FinishNoLaterThan | `7` | Завершить не позже, чем |
 
 ### Примечания
 

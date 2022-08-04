@@ -25,7 +25,7 @@ public sealed class BuiltInProjectPropertyCollection :
 | [Company](../../aspose.tasks.properties/builtinprojectpropertycollection/company) { get; set; } | Получает или задает компанию проекта. |
 | [Count](../../aspose.tasks.properties/propertykeyedcollection`1/count) { get; } |  |
 | [HyperlinkBase](../../aspose.tasks.properties/builtinprojectpropertycollection/hyperlinkbase) { get; set; } | Получает или задает базу гиперссылок проекта. |
-| override [IsReadOnly](../../aspose.tasks.properties/builtinprojectpropertycollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| override [IsReadOnly](../../aspose.tasks.properties/builtinprojectpropertycollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks.properties/propertykeyedcollection`1/item) { get; } |  |
 | [Keywords](../../aspose.tasks.properties/builtinprojectpropertycollection/keywords) { get; set; } | Получает или задает ключевые слова проекта. |
 | [Manager](../../aspose.tasks.properties/builtinprojectpropertycollection/manager) { get; set; } | Получает или задает менеджера проекта. |

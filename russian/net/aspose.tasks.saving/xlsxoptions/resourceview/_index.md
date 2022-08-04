@@ -1,14 +1,14 @@
 ---
 title: ResourceView
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает список столбцов представления ресурсов для отображения ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn.
+description: Получает или задает список столбцов представления ресурсов для отображения ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn .
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.saving/xlsxoptions/resourceview/
 ---
 ## XlsxOptions.ResourceView property
 
-Получает или задает список столбцов представления ресурсов для отображения ([`ResourceViewColumn`](../../../aspose.tasks.visualization/resourceviewcolumn)).
+Получает или задает список столбцов представления ресурсов для отображения ([`ResourceViewColumn`](../../../aspose.tasks.visualization/resourceviewcolumn) ).
 
 ```csharp
 public ProjectView ResourceView { get; set; }

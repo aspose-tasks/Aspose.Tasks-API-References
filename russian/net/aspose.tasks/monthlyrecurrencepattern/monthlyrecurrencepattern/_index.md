@@ -1,14 +1,14 @@
 ---
 title: MonthlyRecurrencePattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаMonthlyRecurrencePatternaspose.tasks/monthlyrecurrencepattern.
+description: Инициализирует новый экземплярMonthlyRecurrencePatternaspose.tasks/monthlyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/monthlyrecurrencepattern/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern constructor
 
-Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern).
+Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern) класс.
 
 ```csharp
 public MonthlyRecurrencePattern()

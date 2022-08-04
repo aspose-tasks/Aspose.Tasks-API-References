@@ -18,26 +18,26 @@ public struct NullableBool : IEquatable<NullableBool>
 
 | Имя | Описание |
 | --- | --- |
-| [NullableBool](nullablebool#constructor)(bool) | Инициализирует новый экземпляр структуры[`NullableBool`](../nullablebool)с указанным логическим значением. |
-| [NullableBool](nullablebool#constructor_1)(bool, bool) | Инициализирует новый экземпляр структуры[`NullableBool`](../nullablebool). |
+| [NullableBool](nullablebool#constructor)(bool) | Инициализирует новый экземпляр[`NullableBool`](../nullablebool) структура с указанным логическим значением. |
+| [NullableBool](nullablebool#constructor_1)(bool, bool) | Инициализирует новый экземпляр[`NullableBool`](../nullablebool) структура. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IsDefined](../../aspose.tasks/nullablebool/isdefined) { get; } | Получает значение, указывающее, было ли значение определено; в противном случае ложно. |
+| [IsDefined](../../aspose.tasks/nullablebool/isdefined) { get; } | Получает значение, указывающее, было ли значение определено; в противном случае false. |
 | [Value](../../aspose.tasks/nullablebool/value) { get; set; } | Получает или задает значение, указывающее, является ли текущее значение истинным или ложным. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.tasks/nullablebool/equals#equals)(NullableBool) | Возвращает флаг, указывающий, равен ли этот экземпляр указанному экземпляру класса[`NullableBool`](../nullablebool). |
+| [Equals](../../aspose.tasks/nullablebool/equals#equals)(NullableBool) | Возвращает флаг, указывающий, равен ли этот экземпляр указанному экземпляру[`NullableBool`](../nullablebool) класс. |
 | override [Equals](../../aspose.tasks/nullablebool/equals#equals_1)(object) | Возвращает флаг, указывающий, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/nullablebool/gethashcode)() | Возвращает значение хэш-кода для экземпляра класса[`NullableBool`](../nullablebool). |
+| override [GetHashCode](../../aspose.tasks/nullablebool/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`NullableBool`](../nullablebool) класс. |
 | override [ToString](../../aspose.tasks/nullablebool/tostring)() | Возвращает строку, представляющую текущий объект. |
 | [operator ==](../../aspose.tasks/nullablebool/op_equality) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [implicit operator](../../aspose.tasks/nullablebool/op_implicit#op_implicit_1) | Неявно преобразует экземпляр[`NullableBool`](../nullablebool)в логическое значение. Возвращает true, когда[`Value`](./value)имеет значение true и[`IsDefined`](./isdefined)имеет значение true. (2 operators) |
+| [implicit operator](../../aspose.tasks/nullablebool/op_implicit#op_implicit_1) | Неявно преобразует[`NullableBool`](../nullablebool) instance в логическое значение. Возвращает true, когда[`Value`](./value) верно и[`IsDefined`](./isdefined) верно. (2 operators) |
 | [operator !=](../../aspose.tasks/nullablebool/op_inequality) | Возвращает значение, указывающее, не равен ли этот экземпляр указанному объекту. |
 
 ### Смотрите также

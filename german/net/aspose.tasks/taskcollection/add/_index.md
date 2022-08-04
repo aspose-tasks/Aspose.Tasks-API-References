@@ -1,0 +1,139 @@
+---
+title: Add
+second_title: Aspose.Tasks für .NET-API-Referenz
+description: Fügen Sie die angegebene Aufgabe der Instanz von hinzuTaskCollectionaspose.tasks/taskcollectionclass. Wenn ParentProject.CalculationMode None ist sollte der Benutzer Project.Recalculate aufrufen nachdem er diese Methode verwendet hat es wird alle Projektaufgaben neu planen Start-/Endtermine frühe/späte Termine festlegen und die abhängigen Felder wie Lücken Arbeit berechnen und Kostenfelder IDs und Gliederungsebenen. Wenn ParentProject.CalculationMode Manuell ist berechnet die Methode nur Aufgaben-ID Gliederungsebene und Gliederungsnummern automatisch. Wenn ParentProject.CalculationMode Automatisch ist plant die Methode alle Projektaufgaben automatisch neu Start/Ende Termine legt frühe/späte Termine fest berechnet Lücken Arbeits- und Kostenfelder berechnet IDs und Gliederungsebenen neu.
+type: docs
+weight: 50
+url: /de/net/aspose.tasks/taskcollection/add/
+---
+## Add(Task) {#add_4}
+
+Fügen Sie die angegebene Aufgabe der Instanz von hinzu[`TaskCollection`](../../taskcollection)class. Wenn ParentProject.CalculationMode None ist, sollte der Benutzer Project.Recalculate() aufrufen, nachdem er diese Methode verwendet hat (es wird alle Projektaufgaben neu planen (Start-/Endtermine, frühe/späte Termine festlegen) und die abhängigen Felder wie Lücken, Arbeit berechnen und Kostenfelder, IDs und Gliederungsebenen). Wenn ParentProject.CalculationMode Manuell ist, berechnet die Methode nur Aufgaben-ID, Gliederungsebene und Gliederungsnummern automatisch. Wenn ParentProject.CalculationMode Automatisch ist, plant die Methode alle Projektaufgaben automatisch neu (Start/Ende Termine, legt frühe/späte Termine fest, berechnet Lücken, Arbeits- und Kostenfelder, berechnet IDs und Gliederungsebenen neu).
+
+```csharp
+public void Add(Task item)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| item | Task | die angegebene Aufgabe, die dieser Aufgabensammlung hinzugefügt werden soll. |
+
+### Siehe auch
+
+* class [Task](../../task)
+* class [TaskCollection](../../taskcollection)
+* namensraum [Aspose.Tasks](../../taskcollection)
+* Montage [Aspose.Tasks](../../../)
+
+---
+
+## Add() {#add}
+
+Fügt der Projektaufgabensammlung eine neue Aufgabe auf derselben Gliederungsebene wie die letzte Aufgabe hinzu.
+
+```csharp
+public Task Add()
+```
+
+### Rückgabewert
+
+gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task) Klasse.
+
+### Siehe auch
+
+* class [Task](../../task)
+* class [TaskCollection](../../taskcollection)
+* namensraum [Aspose.Tasks](../../taskcollection)
+* Montage [Aspose.Tasks](../../../)
+
+---
+
+## Add(string) {#add_2}
+
+Fügt der Kinderaufgabensammlung eine neue Aufgabe hinzu.
+
+```csharp
+public Task Add(string taskName)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| taskName | String | der angegebene Aufgabenname. |
+
+### Rückgabewert
+
+gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task) Klasse.
+
+### Siehe auch
+
+* class [Task](../../task)
+* class [TaskCollection](../../taskcollection)
+* namensraum [Aspose.Tasks](../../taskcollection)
+* Montage [Aspose.Tasks](../../../)
+
+---
+
+## Add(string, int) {#add_3}
+
+Fügt eine neue wiederkehrende Aufgabe zur Sammlung untergeordneter Aufgaben hinzu.
+
+```csharp
+public Task Add(string taskName, int beforeTaskId)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| taskName | String | der angegebene Aufgabenname. |
+| beforeTaskId | Int32 | Die angegebene ID einer Aufgabe, vor der eine neue Aufgabe eingefügt wird. |
+
+### Rückgabewert
+
+gibt eine Aufgabe zurück, die vor einer Aufgabe mit der angegebenen ID eingefügt wurde.
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentOutOfRangeException | ArgumentOutOfRangeException wird ausgelöst, wenn die angegebene ID keine gültige Aufgaben-ID ist. |
+
+### Siehe auch
+
+* class [Task](../../task)
+* class [TaskCollection](../../taskcollection)
+* namensraum [Aspose.Tasks](../../taskcollection)
+* Montage [Aspose.Tasks](../../../)
+
+---
+
+## Add(RecurringTaskParameters) {#add_1}
+
+Fügt eine neue Aufgabe vor einer Aufgabe mit der angegebenen ID und auf derselben Gliederungsebene ein.
+
+```csharp
+public Task Add(RecurringTaskParameters parameters)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| parameters | RecurringTaskParameters | Die Parameter die angegebenen Parameter für die Erstellung einer wiederkehrenden Aufgabe. |
+
+### Rückgabewert
+
+gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task) Klasse.
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentNullException | Wird ausgelöst, wenn die angegebenen Parameter null sind. |
+| ArgumentException | Wird ausgelöst, wenn die angegebenen Parameter ungültig sind. |
+
+### Siehe auch
+
+* class [Task](../../task)
+* class [RecurringTaskParameters](../../recurringtaskparameters)
+* class [TaskCollection](../../taskcollection)
+* namensraum [Aspose.Tasks](../../taskcollection)
+* Montage [Aspose.Tasks](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->

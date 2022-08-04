@@ -3,7 +3,7 @@ title: ResourceViewColumn
 second_title: Aspose.Tasks for .NET API 参考
 description: ResourceUsage 视图和 ResourceSheet 视图中使用的项目视图类
 type: docs
-weight: 2970
+weight: 2980
 url: /zh/net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 ## ResourceViewColumn class
@@ -18,17 +18,17 @@ public sealed class ResourceViewColumn : ViewColumn
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ResourceViewColumn](resourceviewcolumn#constructor)(int, Field) | 初始化[`ResourceViewColumn`](../resourceviewcolumn)类的新实例。 |
-| [ResourceViewColumn](resourceviewcolumn#constructor_1)(string, int, ResourceToColumnTextConverter) | 初始化[`ResourceViewColumn`](../resourceviewcolumn)类的新实例。 |
-| [ResourceViewColumn](resourceviewcolumn#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | 初始化[`ResourceViewColumn`](../resourceviewcolumn)类的新实例。 |
+| [ResourceViewColumn](resourceviewcolumn#constructor)(int, Field) | 初始化[`ResourceViewColumn`](../resourceviewcolumn)类. |
+| [ResourceViewColumn](resourceviewcolumn#constructor_1)(string, int, ResourceToColumnTextConverter) | 初始化[`ResourceViewColumn`](../resourceviewcolumn)类. |
+| [ResourceViewColumn](resourceviewcolumn#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | 初始化[`ResourceViewColumn`](../resourceviewcolumn)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field) { get; set; } | 列字段。 [`Field`](./field)。 |
+| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field) { get; set; } | 列字段。 [`Field`](./field). |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | 获取列名。 |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | 获取或设置文本的对齐方式（可以是[`StringAlignment`](../viewcolumn/stringalignment)的值之一枚举）。 |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | 获取或设置文本的对齐方式（可以是[`StringAlignment`](../viewcolumn/stringalignment)枚举）. |
 | [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | 获取或设置可用于自定义列单元格外观的回调。 |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | 获取列宽。 |
 

@@ -19,7 +19,7 @@ public abstract class DbSettings
 | Имя | Описание |
 | --- | --- |
 | [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring) { get; set; } | Получает или задает строку подключения. |
-| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | Получает или задает инвариантное имя поставщика, которое используется для получения экземпляра классаDbProviderFactory.  Значение по умолчанию:SqlClient. |
+| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | Получает или задает инвариантное имя поставщика, которое используется для получения экземпляраDbProviderFactory класс.  Значение по умолчаниюSqlClient. |
 
 ### Смотрите также
 

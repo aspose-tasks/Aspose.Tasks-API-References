@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Это заглушка реализации метода ICollection Remove  который генерирует только исключение NotSupportedException
+description: Это заглушка метода Remove из ICollection которая выдает только NotSupportedException
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/resourcecollection/remove/
 ---
 ## ResourceCollection.Remove method
 
-Это заглушка реализации метода ICollection Remove , который генерирует только исключение NotSupportedException
+Это заглушка метода Remove из ICollection, которая выдает только NotSupportedException
 
 ```csharp
 public bool Remove(Resource item)
@@ -16,11 +16,11 @@ public bool Remove(Resource item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | Resource | элемент для удаления. |
+| item | Resource | элемент, который необходимо удалить. |
 
 ### Возвращаемое значение
 
-` true` если элемент был удален;` false` иначе.
+`истинный` если предмет был удален;`ЛОЖЬ` в противном случае.
 
 ### Смотрите также
 

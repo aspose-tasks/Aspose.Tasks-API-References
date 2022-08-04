@@ -1,14 +1,14 @@
 ---
 title: GroupCriterion
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示组定义中的标准 GroupCriterion 对象是GroupCriterionCollection./groupcriterioncollection集合的成员
+description: 表示组定义中的标准 GroupCriterion 对象是GroupCriterionCollection./groupcriterioncollection集合.
 type: docs
 weight: 720
 url: /zh/net/aspose.tasks/groupcriterion/
 ---
 ## GroupCriterion class
 
-表示组定义中的标准。 GroupCriterion 对象是[`GroupCriterionCollection`](../groupcriterioncollection)集合的成员。
+表示组定义中的标准。 GroupCriterion 对象是[`GroupCriterionCollection`](../groupcriterioncollection)集合.
 
 ```csharp
 public class GroupCriterion
@@ -26,13 +26,13 @@ public class GroupCriterion
 | --- | --- |
 | [Ascending](../../aspose.tasks/groupcriterion/ascending) { get; set; } | 获取或设置一个值，该值指示在组定义中用作标准的字段是否按升序排序。如果字段按降序排序，则为 False。 |
 | [CellColor](../../aspose.tasks/groupcriterion/cellcolor) { get; set; } | 获取或设置在组定义中用作标准的字段的单元格背景颜色。 |
-| [Field](../../aspose.tasks/groupcriterion/field) { get; set; } | 获取或设置分组依据的字段。 |
+| [Field](../../aspose.tasks/groupcriterion/field) { get; set; } | 获取或设置分组的字段。 |
 | [Font](../../aspose.tasks/groupcriterion/font) { get; set; } | 获取或设置组定义中标准的字体。 |
 | [FontColor](../../aspose.tasks/groupcriterion/fontcolor) { get; set; } | 获取或设置在组定义中用作标准的字段的字体颜色。 |
 | [GroupInterval](../../aspose.tasks/groupcriterion/groupinterval) { get; set; } | 获取或设置在组定义中用作标准的字段的间隔。 |
 | [GroupOn](../../aspose.tasks/groupcriterion/groupon) { get; set; } | 获取或设置在组定义中用作标准的字段的分组类型。 |
-| [Index](../../aspose.tasks/groupcriterion/index) { get; } | 获取[`GroupCriterion`](../groupcriterion)对象在包含Tasks中的索引。GroupCriterionCollection集合。 |
-| [ParentGroup](../../aspose.tasks/groupcriterion/parentgroup) { get; } | 获取[`GroupCriterion`](../groupcriterion)对象的父级。 |
+| [Index](../../aspose.tasks/groupcriterion/index) { get; } | 获取一个索引[`GroupCriterion`](../groupcriterion)包含对象[`GroupCriterionCollection`](../groupcriterioncollection)集合. |
+| [ParentGroup](../../aspose.tasks/groupcriterion/parentgroup) { get; } | 获取父级[`GroupCriterion`](../groupcriterion)对象. |
 | [Pattern](../../aspose.tasks/groupcriterion/pattern) { get; set; } | 获取或设置在组定义中用作标准的字段的单元格模式。 |
 | [StartAt](../../aspose.tasks/groupcriterion/startat) { get; set; } | 获取或设置在组定义中用作标准的字段的间隔开始。 |
 
@@ -41,7 +41,7 @@ public class GroupCriterion
 | 姓名 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.tasks/groupcriterion/equals)(object) | 返回一个值，指示此实例是否等于指定对象。 |
-| override [GetHashCode](../../aspose.tasks/groupcriterion/gethashcode)() | 用作特定类型的哈希函数。 |
+| override [GetHashCode](../../aspose.tasks/groupcriterion/gethashcode)() | 作为哈希函数的特定类型。 |
 
 ### 也可以看看
 

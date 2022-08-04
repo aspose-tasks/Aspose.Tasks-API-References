@@ -3,7 +3,7 @@ title: PageSettings
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет параметры печати для страницы представления проекта.
 type: docs
-weight: 2860
+weight: 2870
 url: /ru/net/aspose.tasks.visualization/pagesettings/
 ---
 ## PageSettings class
@@ -18,19 +18,19 @@ public class PageSettings
 
 | Имя | Описание |
 | --- | --- |
-| [PageSettings](pagesettings)() | Инициализирует новый экземпляр класса[`PageSettings`](../pagesettings). Представляет параметры печати для страницы представления проекта. |
+| [PageSettings](pagesettings)() | Инициализирует новый экземпляр[`PageSettings`](../pagesettings) учебный класс. Представляет параметры печати для страницы представления проекта. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AdjustToPercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize) { get; set; } | Получает или задает значение, указывающее, следует ли настраивать печать на указанный процент ([`PercentOfNormalSize`](./percentofnormalsize)) нормального размера. |
+| [AdjustToPercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize) { get; set; } | Получает или задает значение, указывающее, следует ли настраивать печать на указанный процент ([`PercentOfNormalSize`](./percentofnormalsize) ) нормального размера. |
 | [FirstPageNumber](../../aspose.tasks.visualization/pagesettings/firstpagenumber) { get; set; } | Получает или задает номер первой страницы для печати. |
 | [IsPortrait](../../aspose.tasks.visualization/pagesettings/isportrait) { get; set; } | Получает или задает значение, указывающее, является ли ориентация страницы книжной; возвращает false, если ориентация страницы альбомная. |
-| [PagesInHeight](../../aspose.tasks.visualization/pagesettings/pagesinheight) { get; set; } | Получает или задает количество страниц в высоту для печати. |
-| [PagesInWidth](../../aspose.tasks.visualization/pagesettings/pagesinwidth) { get; set; } | Получает или задает количество страниц в ширину для печати. |
-| [PaperSize](../../aspose.tasks.visualization/pagesettings/papersize) { get; set; } | Получает или задает размер бумаги. Может быть одним из значений перечисления[`PrinterPaperSize`](../printerpapersize). |
-| [PaperSizeId](../../aspose.tasks.visualization/pagesettings/papersizeid) { get; set; } | Получает или задает целое число, представляющее одно из значений PrinterPaperSize или идентификатор пользовательского размера страницы. Это значение можно использовать для получения PaperSize из настроек ОС. |
+| [PagesInHeight](../../aspose.tasks.visualization/pagesettings/pagesinheight) { get; set; } | Получает или задает количество печатаемых страниц в высоту. |
+| [PagesInWidth](../../aspose.tasks.visualization/pagesettings/pagesinwidth) { get; set; } | Получает или задает количество страниц по ширине для печати. |
+| [PaperSize](../../aspose.tasks.visualization/pagesettings/papersize) { get; set; } | Получает или задает размер бумаги. Может быть одним из значений[`PrinterPaperSize`](../printerpapersize) перечисление. |
+| [PaperSizeId](../../aspose.tasks.visualization/pagesettings/papersizeid) { get; set; } | Получает или задает целое число, представляющее одно из значений PrinterPaperSize или идентификатор пользовательского размера страницы. Это значение можно использовать для получения PaperSize из настроек ОС. . |
 | [PercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/percentofnormalsize) { get; set; } | Получает или задает процент от нормального размера для настройки печати. |
 
 ### Смотрите также

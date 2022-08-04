@@ -1,14 +1,14 @@
 ---
 title: ActiveDirectoryGuid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Active DirectoryGuidдля ресурса.
+description: Активный каталогGuid для ресурса.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/rsc/activedirectoryguid/
 ---
 ## Rsc.ActiveDirectoryGuid field
 
-Active DirectoryGuidдля ресурса.
+Активный каталогGuid для ресурса.
 
 ```csharp
 public static readonly Key<string, RscKey> ActiveDirectoryGuid;

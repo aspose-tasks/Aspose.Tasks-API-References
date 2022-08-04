@@ -16,7 +16,7 @@ public static bool operator ==(Duration a, Duration b)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| a | Duration | Первая длительность. |
+| a | Duration | Первая продолжительность. |
 | b | Duration | Вторая продолжительность. |
 
 ### Возвращаемое значение

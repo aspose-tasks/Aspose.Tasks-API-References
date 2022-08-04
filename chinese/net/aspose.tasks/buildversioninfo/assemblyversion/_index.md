@@ -1,14 +1,14 @@
 ---
 title: AssemblyVersion
 second_title: Aspose.Tasks for .NET API 参考
-description: 汇编版本
+description: 组装版本.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/buildversioninfo/assemblyversion/
 ---
 ## BuildVersionInfo.AssemblyVersion field
 
-汇编版本。
+组装版本.
 
 ```csharp
 public static readonly string AssemblyVersion;

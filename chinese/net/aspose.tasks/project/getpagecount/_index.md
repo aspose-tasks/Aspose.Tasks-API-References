@@ -1,14 +1,14 @@
 ---
 title: GetPageCount
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回要使用给定SaveOptionsaspose.tasks.saving/saveoptions呈现的项目的页数
+description: 返回要使用给定渲染的项目的页数SaveOptionsaspose.tasks.saving/saveoptions.
 type: docs
 weight: 300
 url: /zh/net/aspose.tasks/project/getpagecount/
 ---
 ## GetPageCount(SaveOptions) {#getpagecount_1}
 
-返回要使用给定[`SaveOptions`](../../../aspose.tasks.saving/saveoptions)呈现的项目的页数。
+返回要使用给定渲染的项目的页数[`SaveOptions`](../../../aspose.tasks.saving/saveoptions).
 
 ```csharp
 public int GetPageCount(SaveOptions saveOptions)
@@ -24,7 +24,7 @@ public int GetPageCount(SaveOptions saveOptions)
 
 ### 例子
 
-在此示例中，HtmlSaveOptions 实例和生成的 HTML 中的页数被写入控制台。
+在此示例中的 HtmlSaveOptions 实例和生成的 HTML 中的页数被写入控制台。
 
 ```csharp
 [C#]
@@ -53,7 +53,7 @@ Console.WriteLine(project.GetPageCount(saveOptions));
 
 ## GetPageCount() {#getpagecount}
 
-返回使用默认[`Timescale`](../../../aspose.tasks.visualization/timescale)（天）呈现的项目的页数。
+返回要使用默认值呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale)（天）.
 
 ```csharp
 public int GetPageCount()
@@ -73,7 +73,7 @@ public int GetPageCount()
 
 ## GetPageCount(Timescale) {#getpagecount_6}
 
-返回要使用给定[`Timescale`](../../../aspose.tasks.visualization/timescale)呈现的项目的页数。
+返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale).
 
 ```csharp
 public int GetPageCount(Timescale scale)
@@ -98,7 +98,7 @@ public int GetPageCount(Timescale scale)
 
 ## GetPageCount(PresentationFormat) {#getpagecount_4}
 
-使用默认[`Timescale`](../../../aspose.tasks.visualization/timescale)(Days) 返回要呈现的项目的页数并给出[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
+返回要使用默认值呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale) （天）并给出[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
 
 ```csharp
 public int GetPageCount(PresentationFormat format)
@@ -123,7 +123,7 @@ public int GetPageCount(PresentationFormat format)
 
 ## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
-返回使用给定[`Timescale`](../../../aspose.tasks.visualization/timescale)和T呈现的项目的页数:Aspose.Tasks.Visualization.PresentationFormat。
+返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale)和[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat).
 
 ```csharp
 public int GetPageCount(PresentationFormat format, Timescale scale)
@@ -150,7 +150,7 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 
 ## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
-返回使用给定[`Timescale`](../../../aspose.tasks.visualization/timescale)，T呈现的项目的页数:Aspose.Tasks.Visualization.PresentationFormat和日期范围。
+返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)和日期范围。
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, DateTime endDate)
@@ -179,7 +179,7 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 
 ## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
-返回使用给定[`Timescale`](../../../aspose.tasks.visualization/timescale)和T呈现的项目的页数:Aspose.Tasks.Visualization.PageSize。
+返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale)和[`PageSize`](../../../aspose.tasks.visualization/pagesize).
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale)

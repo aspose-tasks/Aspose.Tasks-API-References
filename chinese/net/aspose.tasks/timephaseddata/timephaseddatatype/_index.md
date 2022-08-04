@@ -16,7 +16,7 @@ public TimephasedDataType TimephasedDataType { get; set; }
 
 ### 评论
 
-[`Value`](../value)属性将被清除，如果不合适对于类型，在此处指定。
+[`Value`](../value)属性将被清除，如果它不适合类型，请在此处指定。
 
 ### 也可以看看
 

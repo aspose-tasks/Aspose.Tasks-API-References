@@ -1,14 +1,14 @@
 ---
 title: BaselineType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает базовый тип используемый для расчета значений дисперсии.
+description: Задает базовый тип используемый для расчета значений отклонения.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/baselinetype/
 ---
 ## BaselineType enumeration
 
-Указывает базовый тип, используемый для расчета значений дисперсии.
+Задает базовый тип, используемый для расчета значений отклонения.
 
 ```csharp
 public enum BaselineType
@@ -20,16 +20,16 @@ public enum BaselineType
 | --- | --- | --- |
 | Undefined | `-1` | Указывает, что поле не было определено в исходном файле проекта. |
 | Baseline | `0` | Указывает базовый тип. |
-| Baseline1 | `1` | Указывает тип Baseline1. |
+| Baseline1 | `1` | Указывает базовый тип1. |
 | Baseline2 | `2` | Указывает тип Baseline2. |
-| Baseline3 | `3` | Указывает тип Baseline3. |
-| Baseline4 | `4` | Указывает тип Baseline4. |
-| Baseline5 | `5` | Указывает тип Baseline5. |
-| Baseline6 | `6` | Указывает тип Baseline6. |
-| Baseline7 | `7` | Указывает тип Baseline7. |
-| Baseline8 | `8` | Указывает тип Baseline8. |
-| Baseline9 | `9` | Указывает тип Baseline9. |
-| Baseline10 | `10` | Указывает тип Baseline10. |
+| Baseline3 | `3` | Указывает базовый тип3. |
+| Baseline4 | `4` | Указывает базовый тип4. |
+| Baseline5 | `5` | Указывает базовый тип5. |
+| Baseline6 | `6` | Указывает базовый тип6. |
+| Baseline7 | `7` | Указывает базовый тип7. |
+| Baseline8 | `8` | Указывает базовый тип8. |
+| Baseline9 | `9` | Указывает базовый тип9. |
+| Baseline10 | `10` | Указывает базовый тип10. |
 
 ### Примечания
 

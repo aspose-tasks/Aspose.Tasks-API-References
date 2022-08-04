@@ -1,14 +1,14 @@
 ---
 title: ElementType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Задает тип элемента.
+description: Определяет тип элемента.
 type: docs
 weight: 480
 url: /ru/net/aspose.tasks/elementtype/
 ---
 ## ElementType enumeration
 
-Задает тип элемента.
+Определяет тип элемента.
 
 ```csharp
 public enum ElementType
@@ -19,7 +19,7 @@ public enum ElementType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Null | `0` | Указывает нулевой тип элемента. |
-| Task | `1` | Указывает тип элемента Task. |
+| Task | `1` | Указывает тип элемента задачи. |
 | Resource | `2` | Указывает тип элемента ресурса. |
 | Calendar | `3` | Указывает тип элемента календаря. |
 | Assignment | `4` | Указывает тип элемента назначения. |

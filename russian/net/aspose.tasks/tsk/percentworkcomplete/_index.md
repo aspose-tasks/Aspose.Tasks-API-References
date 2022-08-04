@@ -1,14 +1,14 @@
 ---
 title: PercentWorkComplete
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Текущее состояние задачи выраженное в процентах выполненной работы.
+description: Текущий статус задачи выраженный в процентах выполненной работы.
 type: docs
 weight: 900
 url: /ru/net/aspose.tasks/tsk/percentworkcomplete/
 ---
 ## Tsk.PercentWorkComplete field
 
-Текущее состояние задачи, выраженное в процентах выполненной работы.
+Текущий статус задачи, выраженный в процентах выполненной работы.
 
 ```csharp
 public static readonly Key<int, TaskKey> PercentWorkComplete;

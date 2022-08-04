@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует этот объект ExtendedAttributeDefinitionCollection в список содержащий экземпляры классаExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition.
+description: Преобразует этот объект ExtendedAttributeDefinitionCollection в список содержащий экземплярыExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition класс.
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/extendedattributedefinitioncollection/tolist/
 ---
 ## ExtendedAttributeDefinitionCollection.ToList method
 
-Преобразует этот объект ExtendedAttributeDefinitionCollection в список, содержащий экземпляры класса[`ExtendedAttributeDefinition`](../../extendedattributedefinition).
+Преобразует этот объект ExtendedAttributeDefinitionCollection в список, содержащий экземпляры[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс.
 
 ```csharp
 public List<ExtendedAttributeDefinition> ToList()
@@ -16,7 +16,7 @@ public List<ExtendedAttributeDefinition> ToList()
 
 ### Возвращаемое значение
 
-Список, содержащий экземпляры класса[`ExtendedAttributeDefinition`](../../extendedattributedefinition).
+Список, содержащий экземпляры[`ExtendedAttributeDefinition`](../../extendedattributedefinition) учебный класс.
 
 ### Смотрите также
 

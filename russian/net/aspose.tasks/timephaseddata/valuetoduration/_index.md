@@ -1,14 +1,14 @@
 ---
 title: ValueToDuration
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземплярTimeSpan представляющий строковое значение этого объекта.
+description: получаетTimeSpan экземпляр который представляет строковое значение этого объекта.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/timephaseddata/valuetoduration/
 ---
 ## TimephasedData.ValueToDuration property
 
-Получает экземплярTimeSpan, представляющий строковое значение этого объекта.
+получаетTimeSpan экземпляр, который представляет строковое значение этого объекта.
 
 ```csharp
 public TimeSpan ValueToDuration { get; }

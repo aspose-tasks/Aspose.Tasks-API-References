@@ -1,14 +1,14 @@
 ---
 title: TasksReadingException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет стандартный тип исключения внутреннего чтения.
+description: Представляет тип исключения стандартного внутреннего чтения.
 type: docs
 weight: 2220
 url: /ru/net/aspose.tasks/tasksreadingexception/
 ---
 ## TasksReadingException class
 
-Представляет стандартный тип исключения внутреннего чтения.
+Представляет тип исключения стандартного внутреннего чтения.
 
 ```csharp
 public class TasksReadingException : TasksLoggedException

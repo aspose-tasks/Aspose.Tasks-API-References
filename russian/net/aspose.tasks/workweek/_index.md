@@ -3,7 +3,7 @@ title: WorkWeek
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет класс WorkWeek
 type: docs
-weight: 3250
+weight: 3260
 url: /ru/net/aspose.tasks/workweek/
 ---
 ## WorkWeek class
@@ -18,15 +18,15 @@ public class WorkWeek
 
 | Имя | Описание |
 | --- | --- |
-| [WorkWeek](workweek)() | Инициализирует новый экземпляр класса[`WorkWeek`](../workweek). |
+| [WorkWeek](workweek)() | Инициализирует новый экземпляр[`WorkWeek`](../workweek) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FromDate](../../aspose.tasks/workweek/fromdate) { get; set; } | Получает или устанавливает дату и время начала рабочей недели |
-| [Name](../../aspose.tasks/workweek/name) { get; set; } | Получает или устанавливает название рабочей недели |
-| [ToDate](../../aspose.tasks/workweek/todate) { get; set; } | Получает или задает Finish DateTime рабочей недели |
+| [FromDate](../../aspose.tasks/workweek/fromdate) { get; set; } | Получает или задает начальную дату и время рабочей недели |
+| [Name](../../aspose.tasks/workweek/name) { get; set; } | Получает или задает название рабочей недели |
+| [ToDate](../../aspose.tasks/workweek/todate) { get; set; } | Получает или задает дату окончания рабочей недели |
 | [WeekDays](../../aspose.tasks/workweek/weekdays) { get; } | Получает дни недели. |
 
 ### Смотрите также

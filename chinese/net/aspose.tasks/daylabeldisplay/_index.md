@@ -18,9 +18,9 @@ public enum DayLabelDisplay
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| D | `0` | 将 MS Project 中的 Days 列表设置为 d。 |
-| Dy | `1` | 将 MS Project 中的 Days 列表设置为 dy。 |
-| Day | `2` | 将 MS Project 中的 Days 列表设置为 day。 |
+| D | `0` | 将 MS Project 中的 Days 列表设置为 d. |
+| Dy | `1` | 将 MS Project 中的 Days 列表设置为 dy. |
+| Day | `2` | 将 MS Project 中的 Days 列表设置为 day. |
 
 ### 也可以看看
 

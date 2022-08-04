@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родителя объекта TableFields. Только чтениеProjectaspose.tasks/project.
+description: Получает родителя объекта TableFields. Только для чтенияProjectaspose.tasks/project .
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/tablefieldcollection/parentproject/
 ---
 ## TableFieldCollection.ParentProject property
 
-Получает родителя объекта TableFields. Только чтение[`Project`](../../project).
+Получает родителя объекта TableFields. Только для чтения[`Project`](../../project) .
 
 ```csharp
 public Project ParentProject { get; }

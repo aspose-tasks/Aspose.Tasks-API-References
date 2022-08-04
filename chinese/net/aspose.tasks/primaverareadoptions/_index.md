@@ -18,7 +18,7 @@ public class PrimaveraReadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PrimaveraReadOptions](primaverareadoptions)() | 初始化[`PrimaveraReadOptions`](../primaverareadoptions)类的新实例。 |
+| [PrimaveraReadOptions](primaverareadoptions)() | 初始化[`PrimaveraReadOptions`](../primaverareadoptions)类. |
 
 ## 特性
 

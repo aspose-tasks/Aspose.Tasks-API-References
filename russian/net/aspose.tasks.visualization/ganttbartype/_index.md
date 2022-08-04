@@ -1,14 +1,14 @@
 ---
 title: GanttBarType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Задает тип стержня.
+description: Определяет тип стержня.
 type: docs
-weight: 2720
+weight: 2730
 url: /ru/net/aspose.tasks.visualization/ganttbartype/
 ---
 ## GanttBarType enumeration
 
-Задает тип стержня.
+Определяет тип стержня.
 
 ```csharp
 public enum GanttBarType
@@ -18,9 +18,9 @@ public enum GanttBarType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Dashed | `2` | Указывает тип штриховой диаграммы Ганта. |
-| Framed | `1` | Указывает тип стержня Ганта с рамкой. |
-| Solid | `0` | Указывает тип сплошного стержня Ганта. |
+| Dashed | `2` | Обозначает тип штриховой диаграммы Ганта. |
+| Framed | `1` | Указывает тип отрезка Ганта с рамкой. |
+| Solid | `0` | Указывает тип сплошной диаграммы Ганта. |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: TimescaleTier
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示甘特图上时间刻度的单层
 type: docs
-weight: 3060
+weight: 3070
 url: /zh/net/aspose.tasks.visualization/timescaletier/
 ---
 ## TimescaleTier class
@@ -18,19 +18,19 @@ public sealed class TimescaleTier
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TimescaleTier](timescaletier#constructor)() | 初始化[`TimescaleTier`](../timescaletier)类的新实例。 |
-| [TimescaleTier](timescaletier#constructor_1)(TimescaleUnit, int) | 初始化[`TimescaleTier`](../timescaletier)类的新实例。 |
+| [TimescaleTier](timescaletier#constructor)() | 初始化[`TimescaleTier`](../timescaletier)类. |
+| [TimescaleTier](timescaletier#constructor_1)(TimescaleUnit, int) | 初始化[`TimescaleTier`](../timescaletier)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.tasks.visualization/timescaletier/alignment) { get; set; } | 获取或设置如何在层的每个时间段内对齐标签（StringAlignment）。 |
+| [Alignment](../../aspose.tasks.visualization/timescaletier/alignment) { get; set; } | 获取或设置如何在层的每个时间段内对齐标签（StringAlignment ). |
 | [Count](../../aspose.tasks.visualization/timescaletier/count) { get; set; } | 获取或设置显示层标签的时间单位间隔。 默认值为 1。 |
 | [DateTimeConverter](../../aspose.tasks.visualization/timescaletier/datetimeconverter) { get; set; } | 获取或设置用于处理此层中的渲染日期刻度的回调函数。 |
-| [Label](../../aspose.tasks.visualization/timescaletier/label) { get; set; } | 获取或设置时间刻度层的日期标签[`DateLabel`](../datelabel)。 |
+| [Label](../../aspose.tasks.visualization/timescaletier/label) { get; set; } | 获取或设置日期标签[`DateLabel`](../datelabel)对于时间尺度层。 |
 | [ShowTicks](../../aspose.tasks.visualization/timescaletier/showticks) { get; set; } | 获取或设置一个值，该值指示是否显示在层中分隔时间段的刻度线。 |
-| [Unit](../../aspose.tasks.visualization/timescaletier/unit) { get; set; } | 获取或设置时间刻度单位[`TimescaleUnit`](../timescaleunit)用于时间刻度层。 默认值为[`Days`](../timescaleunit) 。 |
+| [Unit](../../aspose.tasks.visualization/timescaletier/unit) { get; set; } | 获取或设置时间刻度单位[`TimescaleUnit`](../timescaleunit)对于时间刻度层。 默认值为[`天`](../timescaleunit). |
 | [UsesFiscalYear](../../aspose.tasks.visualization/timescaletier/usesfiscalyear) { get; set; } | 获取或设置一个值，该值指示是否将层标签基于会计年度。 |
 
 ### 也可以看看

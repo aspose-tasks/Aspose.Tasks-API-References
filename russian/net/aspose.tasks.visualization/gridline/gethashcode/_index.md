@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает значение хэш-кода для экземпляра классаGridlineaspose.tasks.visualization/gridline.
+description: Возвращает значение хеш-кода для экземпляраGridlineaspose.tasks.visualization/gridline класс.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/gridline/gethashcode/
 ---
 ## Gridline.GetHashCode method
 
-Возвращает значение хэш-кода для экземпляра класса[`Gridline`](../../gridline).
+Возвращает значение хеш-кода для экземпляра[`Gridline`](../../gridline) класс.
 
 ```csharp
 public override int GetHashCode()

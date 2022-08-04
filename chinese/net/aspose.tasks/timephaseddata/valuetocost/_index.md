@@ -1,14 +1,14 @@
 ---
 title: ValueToCost
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取Double实例它表示此对象的字符串值
+description: 获取Double表示此对象的字符串值的实例
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/timephaseddata/valuetocost/
 ---
 ## TimephasedData.ValueToCost property
 
-获取Double实例，它表示此对象的字符串值。
+获取Double表示此对象的字符串值的实例。
 
 ```csharp
 public double ValueToCost { get; }

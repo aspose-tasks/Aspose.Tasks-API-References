@@ -16,7 +16,7 @@ public void TimephasedDataFromTaskDuration(Calendar calendar)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| calendar | Calendar | 生成时间分段数据的日历。 |
+| calendar | Calendar | 从中生成时间分段数据的日历。 |
 
 ### 也可以看看
 

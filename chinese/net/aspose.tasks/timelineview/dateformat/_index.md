@@ -1,14 +1,14 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示如何在时间轴视图上格式化日期
+description: 获取或设置一个值该值指示如何在时间轴视图中格式化日期
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/timelineview/dateformat/
 ---
 ## TimelineView.DateFormat property
 
-获取或设置一个值，该值指示如何在时间轴视图上格式化日期。
+获取或设置一个值，该值指示如何在时间轴视图中格式化日期。
 
 ```csharp
 public DateFormat DateFormat { get; set; }

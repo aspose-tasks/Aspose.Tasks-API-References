@@ -3,7 +3,7 @@ title: Value
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет значение в списке значений.
 type: docs
-weight: 2450
+weight: 2460
 url: /ru/net/aspose.tasks/value/
 ---
 ## Value class
@@ -18,18 +18,18 @@ public class Value
 
 | Имя | Описание |
 | --- | --- |
-| [Value](value)() | Инициализирует новый экземпляр класса[`Value`](../value). |
+| [Value](value)() | Инициализирует новый экземпляр[`Value`](../value) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DateTimeValue](../../aspose.tasks/value/datetimevalue) { get; set; } | Получает или задает фактическое значение, если оно может быть представлено как DateTime. Значение по умолчанию:MinValue. |
+| [DateTimeValue](../../aspose.tasks/value/datetimevalue) { get; set; } | Получает или задает фактическое значение, если оно может быть представлено как DateTime. Значение по умолчаниюMinValue . |
 | [Description](../../aspose.tasks/value/description) { get; set; } | Получает или задает описание значения. |
 | [Duration](../../aspose.tasks/value/duration) { get; set; } | Получает или задает фактическое значение, которое используется для представления продолжительности. |
 | [Id](../../aspose.tasks/value/id) { get; set; } | Получает или задает уникальный идентификатор значения в проекте. |
-| [NumericValue](../../aspose.tasks/value/numericvalue) { get; set; } | Получает или задает фактическое значение, которое используется для представления числа или стоимости. |
-| [Phonetic](../../aspose.tasks/value/phonetic) { get; set; } | Получает или задает фонетическую информацию об имени пользовательского поля. |
+| [NumericValue](../../aspose.tasks/value/numericvalue) { get; set; } | Получает или задает фактическое значение, которое используется для представления числа или значения стоимости. |
+| [Phonetic](../../aspose.tasks/value/phonetic) { get; set; } | Получает или задает фонетическую информацию об имени настраиваемого поля. |
 | [StringValue](../../aspose.tasks/value/stringvalue) { get; set; } | Получает или задает фактическое значение, которое используется для представления текстовой строки. |
 | [Val](../../aspose.tasks/value/val) { get; set; } | Получает или задает фактическое значение во внутреннем представлении. Предпочтительно использовать строго типизированные свойства, перечисленные ниже. |
 | [ValueGuid](../../aspose.tasks/value/valueguid) { get; } | Получает GUID, который идентифицирует это значение среди других во всем проекте. |

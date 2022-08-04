@@ -1,14 +1,14 @@
 ---
 title: CV
 second_title: Aspose.Tasks for .NET API 参考
-description: 挣值成本差异通过项目状态日期 CV 是任务的 BCWP已完成工作的预算成本和 ACWP已完成工作的实际成本之间的差值
+description: 挣值成本差异通过项目状态日期 CV 是任务的 BCWP已执行工作的预算成本和 ACWP已执行工作的实际成本之间的差值
 type: docs
 weight: 270
 url: /zh/net/aspose.tasks/rsc/cv/
 ---
 ## Rsc.CV field
 
-挣值成本差异，通过项目状态日期。 CV 是任务的 BCWP（已完成工作的预算成本）和 ACWP（已完成工作的实际成本）之间的差值。
+挣值成本差异，通过项目状态日期。 CV 是任务的 BCWP（已执行工作的预算成本）和 ACWP（已执行工作的实际成本）之间的差值。
 
 ```csharp
 public static readonly Key<double, RscKey> CV;

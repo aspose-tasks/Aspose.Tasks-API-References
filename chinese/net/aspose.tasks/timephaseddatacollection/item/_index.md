@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回指定索引处的元素不支持 set 访问器 属性来设置时间分段数据
+description: 返回指定索引处的元素不支持 set 访问器 属性设置时间分段数据
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/timephaseddatacollection/item/
 ---
 ## TimephasedDataCollection indexer
 
-返回指定索引处的元素。不支持 set 访问器。 属性来设置时间分段数据。
+返回指定索引处的元素。不支持 set 访问器。 属性设置时间分段数据。
 
 ```csharp
 public TimephasedData this[int index] { get; set; }

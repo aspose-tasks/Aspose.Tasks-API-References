@@ -1,14 +1,14 @@
 ---
 title: ResourceType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает тип ресурса.
+description: Определяет тип ресурса.
 type: docs
 weight: 1540
 url: /ru/net/aspose.tasks/resourcetype/
 ---
 ## ResourceType enumeration
 
-Указывает тип ресурса.
+Определяет тип ресурса.
 
 ```csharp
 public enum ResourceType

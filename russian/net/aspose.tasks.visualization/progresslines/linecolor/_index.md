@@ -1,14 +1,14 @@
 ---
 title: LineColor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает цвет линии для текущей строки выполнения.
+description: Получает или задает цвет линии для текущей строки выполнения.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks.visualization/progresslines/linecolor/
 ---
 ## ProgressLines.LineColor property
 
-Получает или устанавливает цвет линии для текущей строки выполнения.
+Получает или задает цвет линии для текущей строки выполнения.
 
 ```csharp
 public Color LineColor { get; set; }

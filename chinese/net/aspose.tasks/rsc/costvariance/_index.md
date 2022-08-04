@@ -1,14 +1,14 @@
 ---
 title: CostVariance
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源的基准成本和总成本之间的差异
+description: 资源的基准成本与总成本之间的差异
 type: docs
 weight: 250
 url: /zh/net/aspose.tasks/rsc/costvariance/
 ---
 ## Rsc.CostVariance field
 
-资源的基准成本和总成本之间的差异。
+资源的基准成本与总成本之间的差异。
 
 ```csharp
 public static readonly Key<double, RscKey> CostVariance;

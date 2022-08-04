@@ -1,14 +1,14 @@
 ---
 title: View
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化Viewaspose.tasks/view类的新实例
+description: 初始化Viewaspose.tasks/view类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/view/view/
 ---
 ## View() {#constructor}
 
-初始化[`View`](../../view)类的新实例。
+初始化[`View`](../../view)类.
 
 ```csharp
 public View()
@@ -24,7 +24,7 @@ public View()
 
 ## View(ViewScreen) {#constructor_1}
 
-初始化[`View`](../../view)类的新实例。
+初始化[`View`](../../view)类.
 
 ```csharp
 public View(ViewScreen viewScreen)

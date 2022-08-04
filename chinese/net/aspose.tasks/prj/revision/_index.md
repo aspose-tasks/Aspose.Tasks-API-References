@@ -1,14 +1,14 @@
 ---
 title: Revision
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目被保存的次数
+description: 项目保存的次数
 type: docs
 weight: 600
 url: /zh/net/aspose.tasks/prj/revision/
 ---
 ## Prj.Revision field
 
-项目被保存的次数。
+项目保存的次数。
 
 ```csharp
 public static readonly Key<int, PrjKey> Revision;

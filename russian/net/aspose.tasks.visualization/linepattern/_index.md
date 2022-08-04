@@ -3,7 +3,7 @@ title: LinePattern
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Шаблон линии.
 type: docs
-weight: 2820
+weight: 2830
 url: /ru/net/aspose.tasks.visualization/linepattern/
 ---
 ## LinePattern enumeration

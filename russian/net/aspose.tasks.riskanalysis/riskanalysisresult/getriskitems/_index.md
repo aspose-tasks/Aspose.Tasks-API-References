@@ -1,14 +1,14 @@
 ---
 title: GetRiskItems
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает экземплярRiskItemStatisticsCollectionaspose.tasks.riskanalysis/riskitemstatisticscollectionдля указанного типа риска.
+description: Возвращает экземплярRiskItemStatisticsCollectionaspose.tasks.riskanalysis/riskitemstatisticscollection для указанного типа риска.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.riskanalysis/riskanalysisresult/getriskitems/
 ---
 ## RiskAnalysisResult.GetRiskItems method
 
-Возвращает экземпляр[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection)для указанного типа риска.
+Возвращает экземпляр[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection) для указанного типа риска.
 
 ```csharp
 public RiskItemStatisticsCollection GetRiskItems(RiskItemType itemType)
@@ -16,11 +16,11 @@ public RiskItemStatisticsCollection GetRiskItems(RiskItemType itemType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemType | RiskItemType | указанный тип риска; может быть одним из значений перечисления[`RiskItemType`](../../riskitemtype). |
+| itemType | RiskItemType | указанный вид риска; может быть одним из значений[`RiskItemType`](../../riskitemtype) перечисление. |
 
 ### Возвращаемое значение
 
-экземпляр коллекции[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection)для указанного типа риска.
+экземпляр[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection) для указанного вида риска.
 
 ### Смотрите также
 

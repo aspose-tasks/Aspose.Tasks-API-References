@@ -18,7 +18,7 @@ public class CopyToOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CopyToOptions](copytooptions)() | Инициализирует новый экземпляр класса[`CopyToOptions`](../copytooptions). |
+| [CopyToOptions](copytooptions)() | Инициализирует новый экземпляр[`CopyToOptions`](../copytooptions) учебный класс. |
 
 ## Характеристики
 

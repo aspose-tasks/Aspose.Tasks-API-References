@@ -1,14 +1,14 @@
 ---
 title: LastPrinted
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目的最后打印时间  以 UTC 格式保存在 mpp 文件中 DateTime类型
+description: 项目的最后打印时间 以 UTC 格式保存在 mpp 文件中 DateTime类型.
 type: docs
 weight: 420
 url: /zh/net/aspose.tasks/prj/lastprinted/
 ---
 ## Prj.LastPrinted field
 
-项目的最后打印时间。  以 UTC 格式保存在 mpp 文件中。 DateTime类型。
+项目的最后打印时间。 以 UTC 格式保存在 mpp 文件中。 DateTime类型.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> LastPrinted;

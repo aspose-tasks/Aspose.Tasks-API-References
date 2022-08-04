@@ -1,14 +1,14 @@
 ---
 title: OutlineMask
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаOutlineMaskaspose.tasks/outlinemask.
+description: Инициализирует новый экземплярOutlineMaskaspose.tasks/outlinemask учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/outlinemask/outlinemask/
 ---
 ## OutlineMask constructor
 
-Инициализирует новый экземпляр класса[`OutlineMask`](../../outlinemask).
+Инициализирует новый экземпляр[`OutlineMask`](../../outlinemask) учебный класс.
 
 ```csharp
 public OutlineMask()

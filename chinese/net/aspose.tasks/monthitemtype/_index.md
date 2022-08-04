@@ -1,14 +1,14 @@
 ---
 title: MonthItemType
 second_title: Aspose.Tasks for .NET API 参考
-description: 指定为其安排异常重复的月份项目
+description: 指定安排异常重复发生的月份项目
 type: docs
 weight: 910
 url: /zh/net/aspose.tasks/monthitemtype/
 ---
 ## MonthItemType enumeration
 
-指定为其安排异常重复的月份项目。
+指定安排异常重复发生的月份项目。
 
 ```csharp
 public enum MonthItemType
@@ -27,7 +27,7 @@ public enum MonthItemType
 | Tuesday | `5` | 表示周二月份的项目类型。 |
 | Wednesday | `6` | 表示星期三月份的项目类型。 |
 | Thursday | `7` | 表示星期四月份的项目类型。 |
-| Friday | `8` | 表示星期五月份的项目类型。 |
+| Friday | `8` | 表示周五月份的项目类型。 |
 | Saturday | `9` | 表示星期六月份的项目类型。 |
 
 ### 也可以看看

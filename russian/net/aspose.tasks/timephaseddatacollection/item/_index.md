@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает элемент по указанному индексу. Метод доступа set не поддерживается. свойство для установки повременных данных.
+description: Возвращает элемент по указанному индексу. Метод доступа set не поддерживается. для установки повременных данных.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/timephaseddatacollection/item/
 ---
 ## TimephasedDataCollection indexer
 
-Возвращает элемент по указанному индексу. Метод доступа set не поддерживается. свойство для установки повременных данных.
+Возвращает элемент по указанному индексу. Метод доступа set не поддерживается. для установки повременных данных.
 
 ```csharp
 public TimephasedData this[int index] { get; set; }

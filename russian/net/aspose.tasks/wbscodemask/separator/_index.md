@@ -1,14 +1,14 @@
 ---
 title: Separator
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает разделитель строки кода.  Значение по умолчанию  Период.
+description: Получает или задает разделитель строки кода. Значение по умолчанию  Период.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/wbscodemask/separator/
 ---
 ## WBSCodeMask.Separator property
 
-Получает или задает разделитель строки кода.  Значение по умолчанию — Период.
+Получает или задает разделитель строки кода. Значение по умолчанию — Период.
 
 ```csharp
 public string Separator { get; set; }

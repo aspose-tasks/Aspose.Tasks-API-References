@@ -1,14 +1,14 @@
 ---
 title: SiteUrl
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает URL-адрес PWA на сайте SharePoint или URL-адрес локального Project Server. Например https//имя_вашей_компании.sharepoint.com/sites/pwa
+description: Получает URL-адрес PWA на сайте SharePoint или URL-адрес локального сервера Project Server. Например https//your_company_name.sharepoint.com/sites/pwa
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/projectservercredentials/siteurl/
 ---
 ## ProjectServerCredentials.SiteUrl property
 
-Получает URL-адрес PWA на сайте SharePoint или URL-адрес локального Project Server. Например, https://имя_вашей_компании.sharepoint.com/sites/pwa";
+Получает URL-адрес PWA на сайте SharePoint или URL-адрес локального сервера Project Server. Например, https://your_company_name.sharepoint.com/sites/pwa";
 
 ```csharp
 public string SiteUrl { get; }

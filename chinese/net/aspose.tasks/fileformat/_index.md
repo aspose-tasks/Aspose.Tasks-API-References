@@ -19,7 +19,7 @@ public enum FileFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Undefined | `0` | 无法定义。 |
-| P6XML | `1` | 表示 Primavera P6 XML 格式。 |
+| P6XML | `1` | 代表 Primavera P6 XML 格式。 |
 | XML | `2` | Microsoft Project XML 格式。 |
 | MPP8 | `3` | Microsoft Project 2000 格式。 |
 | MPP9 | `4` | Microsoft Project 2003 格式。 |
@@ -28,9 +28,9 @@ public enum FileFormat
 | MPT9 | `7` | Microsoft Project 2003 模板格式。 |
 | MPT12 | `8` | Microsoft Project 2007 模板格式。 |
 | MPT14 | `9` | Microsoft Project 2010 (2013) 模板格式。 |
-| MPX | `10` | Mpx 文件格式 |
+| MPX | `10` | mpx文件格式 |
 | XER | `11` | 代表 Primavera XER 格式 |
-| HTML | `12` | 表示 HTML 格式 |
+| HTML | `12` | 代表 HTML 格式 |
 
 ### 也可以看看
 

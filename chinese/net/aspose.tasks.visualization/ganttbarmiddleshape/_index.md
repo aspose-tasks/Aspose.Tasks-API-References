@@ -3,7 +3,7 @@ title: GanttBarMiddleShape
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定条的中间形状
 type: docs
-weight: 2690
+weight: 2700
 url: /zh/net/aspose.tasks.visualization/ganttbarmiddleshape/
 ---
 ## GanttBarMiddleShape enumeration

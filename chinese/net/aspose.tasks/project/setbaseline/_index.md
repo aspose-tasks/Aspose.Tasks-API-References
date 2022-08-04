@@ -38,7 +38,7 @@ public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollect
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | baselineType | BaselineType | 基线数据保存到的基线类型。 |
-| taskCollection | IEnumerable`1 | 保存基线数据的任务列表。 |
+| taskCollection | IEnumerable`1 | 要为其保存基线数据的任务列表。 |
 
 ### 也可以看看
 

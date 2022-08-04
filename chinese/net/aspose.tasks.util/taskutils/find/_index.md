@@ -1,14 +1,14 @@
 ---
 title: Find
 second_title: Aspose.Tasks for .NET API 参考
-description: 在任务树中找到满足条件的任务
+description: 在任务树中查找满足条件的任务
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.util/taskutils/find/
 ---
 ## TaskUtils.Find method
 
-在任务树中找到满足条件的任务。
+在任务树中查找满足条件的任务。
 
 ```csharp
 public static Task Find(Task root, ICondition<Task> cond)
@@ -21,7 +21,7 @@ public static Task Find(Task root, ICondition<Task> cond)
 
 ### 返回值
 
-任务如果找到任务，否则为空。
+如果找到任务则为任务，否则为空。
 
 ### 也可以看看
 

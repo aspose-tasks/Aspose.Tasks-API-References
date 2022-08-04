@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает описание проекта.
+description: Получить описание проекта.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/vbaproject/description/
 ---
 ## VbaProject.Description property
 
-Получает описание проекта.
+Получить описание проекта.
 
 ```csharp
 public string Description { get; }

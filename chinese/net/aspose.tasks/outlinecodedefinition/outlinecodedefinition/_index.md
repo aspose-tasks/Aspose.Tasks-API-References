@@ -1,14 +1,14 @@
 ---
 title: OutlineCodeDefinition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化OutlineCodeDefinitionaspose.tasks/outlinecodedefinition类的新实例
+description: 初始化OutlineCodeDefinitionaspose.tasks/outlinecodedefinition班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/outlinecodedefinition/outlinecodedefinition/
 ---
 ## OutlineCodeDefinition constructor
 
-初始化[`OutlineCodeDefinition`](../../outlinecodedefinition)类的新实例。
+初始化[`OutlineCodeDefinition`](../../outlinecodedefinition)班级。
 
 ```csharp
 public OutlineCodeDefinition()

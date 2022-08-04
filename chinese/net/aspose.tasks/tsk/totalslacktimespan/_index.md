@@ -1,14 +1,14 @@
 ---
 title: TotalSlackTimeSpan
 second_title: Aspose.Tasks for .NET API 参考
-description: 可以延迟任务完成日期而不延迟项目完成日期的时间
+description: 可以延迟任务的完成日期而不延迟项目的完成日期的时间
 type: docs
 weight: 1100
 url: /zh/net/aspose.tasks/tsk/totalslacktimespan/
 ---
 ## Tsk.TotalSlackTimeSpan field
 
-可以延迟任务完成日期而不延迟项目完成日期的时间。
+可以延迟任务的完成日期而不延迟项目的完成日期的时间。
 
 ```csharp
 public static readonly Key<TimeSpan, TaskKey> TotalSlackTimeSpan;

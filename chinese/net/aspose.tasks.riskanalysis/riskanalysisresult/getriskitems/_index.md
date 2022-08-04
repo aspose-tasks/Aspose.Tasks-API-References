@@ -1,14 +1,14 @@
 ---
 title: GetRiskItems
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回指定风险类型的RiskItemStatisticsCollectionaspose.tasks.riskanalysis/riskitemstatisticscollection的实例
+description: 返回一个实例RiskItemStatisticsCollectionaspose.tasks.riskanalysis/riskitemstatisticscollection对于指定的风险类型
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.riskanalysis/riskanalysisresult/getriskitems/
 ---
 ## RiskAnalysisResult.GetRiskItems method
 
-返回指定风险类型的[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection)的实例。
+返回一个实例[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection)对于指定的风险类型。
 
 ```csharp
 public RiskItemStatisticsCollection GetRiskItems(RiskItemType itemType)
@@ -16,11 +16,11 @@ public RiskItemStatisticsCollection GetRiskItems(RiskItemType itemType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemType | RiskItemType | 指定的风险类型；可以是[`RiskItemType`](../../riskitemtype)枚举的值之一。 |
+| itemType | RiskItemType | 指明的风险类型；可以是的值之一[`RiskItemType`](../../riskitemtype)枚举。 |
 
 ### 返回值
 
-[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection)的实例，用于指定的风险类型。
+的一个实例[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection)对于指定的风险类型。
 
 ### 也可以看看
 

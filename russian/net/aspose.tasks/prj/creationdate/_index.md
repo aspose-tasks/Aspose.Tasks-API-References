@@ -16,7 +16,7 @@ public static readonly Key<DateTime, PrjKey> CreationDate;
 
 ### Примечания
 
-Сохраняется в формате UTC в файлах mpp. DateTimeтип.
+Сохранено в формате UTC в файлах mpp. DateTime тип.
 
 ### Смотрите также
 

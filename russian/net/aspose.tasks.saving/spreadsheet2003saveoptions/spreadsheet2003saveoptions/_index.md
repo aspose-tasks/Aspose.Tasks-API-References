@@ -1,14 +1,14 @@
 ---
 title: Spreadsheet2003SaveOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаSpreadsheet2003SaveOptionsaspose.tasks.saving/spreadsheet2003saveoptions.
+description: Инициализирует новый экземплярSpreadsheet2003SaveOptionsaspose.tasks.saving/spreadsheet2003saveoptions учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/spreadsheet2003saveoptions/spreadsheet2003saveoptions/
 ---
 ## Spreadsheet2003SaveOptions constructor
 
-Инициализирует новый экземпляр класса[`Spreadsheet2003SaveOptions`](../../spreadsheet2003saveoptions).
+Инициализирует новый экземпляр[`Spreadsheet2003SaveOptions`](../../spreadsheet2003saveoptions) учебный класс.
 
 ```csharp
 public Spreadsheet2003SaveOptions()

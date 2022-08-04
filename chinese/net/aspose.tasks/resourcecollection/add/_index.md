@@ -16,7 +16,7 @@ public Resource Add()
 
 ### 返回值
 
-添加资源。
+添加了资源。
 
 ### 也可以看看
 
@@ -37,11 +37,11 @@ public Resource Add(string resourceName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| resourceName | String | 资源名称。 |
+| resourceName | String | 资源的名称。 |
 
 ### 返回值
 
-添加资源。
+添加了资源。
 
 ### 也可以看看
 
@@ -62,12 +62,12 @@ public Resource Add(string resourceName, int beforeResourceId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| resourceName | String | 资源名称。 |
-| beforeResourceId | Int32 | 项目资源集合中上一个资源的位置。 |
+| resourceName | String | 资源的名称。 |
+| beforeResourceId | Int32 | 上一个资源在项目资源集合中的位置。 |
 
 ### 返回值
 
-添加资源。
+添加了资源。
 
 ### 也可以看看
 

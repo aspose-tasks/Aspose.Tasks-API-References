@@ -1,14 +1,14 @@
 ---
 title: ParentGroup
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает родителя объектаGroupCriterionaspose.tasks/groupcriterion.
+description: Получает родителяGroupCriterionaspose.tasks/groupcriterion объект.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/groupcriterion/parentgroup/
 ---
 ## GroupCriterion.ParentGroup property
 
-Получает родителя объекта[`GroupCriterion`](../../groupcriterion).
+Получает родителя[`GroupCriterion`](../../groupcriterion) объект.
 
 ```csharp
 public Group ParentGroup { get; }

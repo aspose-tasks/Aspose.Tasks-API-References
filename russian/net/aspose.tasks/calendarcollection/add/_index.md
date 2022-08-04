@@ -20,13 +20,13 @@ public Calendar Add(string name)
 
 ### Возвращаемое значение
 
-Добавлен объект[`Calendar`](../../calendar).
+Добавлен[`Calendar`](../../calendar) объект.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Вызывается, когда имя календаря равно null. |
+| ArgumentException | Генерируется, когда имя календаря равно null. |
 
 ### Смотрите также
 
@@ -52,7 +52,7 @@ public Calendar Add(string name, Calendar baseCalendar)
 
 ### Возвращаемое значение
 
-Добавлен объект[`Calendar`](../../calendar).
+Добавлен[`Calendar`](../../calendar) объект.
 
 ### Смотрите также
 

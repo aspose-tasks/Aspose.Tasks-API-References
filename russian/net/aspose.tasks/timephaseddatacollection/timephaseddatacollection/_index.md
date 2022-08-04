@@ -1,14 +1,14 @@
 ---
 title: TimephasedDataCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTimephasedDataCollectionaspose.tasks/timephaseddatacollection.
+description: Инициализирует новый экземплярTimephasedDataCollectionaspose.tasks/timephaseddatacollection учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/timephaseddatacollection/timephaseddatacollection/
 ---
 ## TimephasedDataCollection constructor
 
-Инициализирует новый экземпляр класса[`TimephasedDataCollection`](../../timephaseddatacollection).
+Инициализирует новый экземпляр[`TimephasedDataCollection`](../../timephaseddatacollection) учебный класс.
 
 ```csharp
 public TimephasedDataCollection()

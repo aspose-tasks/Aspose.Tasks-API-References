@@ -3,7 +3,7 @@ title: RemoveTask
 second_title: Aspose.Tasks for .NET API 参考
 description: 从任务树中删除指定的任务
 type: docs
-weight: 2410
+weight: 2420
 url: /zh/net/aspose.tasks.util/removetask/
 ---
 ## RemoveTask class
@@ -18,7 +18,7 @@ public class RemoveTask : ITreeAlgorithm<Task>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RemoveTask](removetask)(Task) | 初始化[`RemoveTask`](../removetask)类的新实例。 |
+| [RemoveTask](removetask)(Task) | 初始化[`RemoveTask`](../removetask)类. |
 
 ## 方法
 

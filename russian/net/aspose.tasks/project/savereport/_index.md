@@ -16,7 +16,7 @@ public void SaveReport(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, в который необходимо сохранить отчет по проекту. |
+| stream | Stream | Поток, в который нужно сохранить отчет по проекту. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public void SaveReport(Stream stream)
 
 ## SaveReport(string) {#savereport_2}
 
-Сохраняет обзорный отчет по проекту в файл PDF.
+Сохраняет обзорный отчет проекта в файл PDF.
 
 ```csharp
 public void SaveReport(string fileName)
@@ -48,7 +48,7 @@ public void SaveReport(string fileName)
 
 ## SaveReport(Stream, ReportType) {#savereport_1}
 
-Сохраняет отчет по проекту указанного типа в указанный поток.
+Сохраняет отчет о проекте указанного типа в указанный поток.
 
 ```csharp
 public void SaveReport(Stream stream, ReportType reportType)
@@ -70,7 +70,7 @@ public void SaveReport(Stream stream, ReportType reportType)
 
 ## SaveReport(string, ReportType) {#savereport_3}
 
-Сохраняет отчет по проекту указанного типа в формате PDF по указанному пути к файлу.
+Сохраняет отчет о проекте указанного типа в формате PDF по указанному пути к файлу.
 
 ```csharp
 public void SaveReport(string fileName, ReportType reportType)

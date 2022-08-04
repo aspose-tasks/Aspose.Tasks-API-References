@@ -1,14 +1,14 @@
 ---
 title: FieldCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает объектResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollectionэтого ResourceUsageView.
+description: ПолучаетResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollection объект этого ResourceUsageView.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/resourceusageview/fieldcollection/
 ---
 ## ResourceUsageView.FieldCollection property
 
-Получает объект[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)этого ResourceUsageView.
+Получает[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection) объект этого ResourceUsageView.
 
 ```csharp
 public ResourceUsageViewFieldCollection FieldCollection { get; }

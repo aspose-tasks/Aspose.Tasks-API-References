@@ -1,14 +1,14 @@
 ---
 title: BeforeTaskTextStyleApplied
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Метод вызываемый перед визуализацией ячейки таблицы для строки задачи в следующих представлениях Диаграмма Ганта Таблица задач  Использование задач.
+description: Метод вызываемый перед визуализацией ячейки таблицы для строки задачи в следующих представлениях Диаграмма Ганта Лист задач Использование задачи.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied/
 ---
 ## ITextStyleModificationCallback.BeforeTaskTextStyleApplied method
 
-Метод, вызываемый перед визуализацией ячейки таблицы для строки задачи в следующих представлениях: 'Диаграмма Ганта', 'Таблица задач ', 'Использование задач'.
+Метод, вызываемый перед визуализацией ячейки таблицы для строки задачи в следующих представлениях: 'Диаграмма Ганта', 'Лист задач', 'Использование задачи'.
 
 ```csharp
 public void BeforeTaskTextStyleApplied(TaskTextStyleEventArgs args)
@@ -16,7 +16,7 @@ public void BeforeTaskTextStyleApplied(TaskTextStyleEventArgs args)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | TaskTextStyleEventArgs | Объект[`TaskTextStyleEventArgs`](../../tasktextstyleeventargs). |
+| args | TaskTextStyleEventArgs | [`TaskTextStyleEventArgs`](../../tasktextstyleeventargs) объект. |
 
 ### Смотрите также
 

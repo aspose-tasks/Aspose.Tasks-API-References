@@ -1,14 +1,14 @@
 ---
 title: ScheduleFromStart
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定是否从开始日期向前计算项目进度
+description: 确定是否从开始日期开始计算项目进度
 type: docs
 weight: 620
 url: /zh/net/aspose.tasks/prj/schedulefromstart/
 ---
 ## Prj.ScheduleFromStart field
 
-确定是否从开始日期向前计算项目进度。
+确定是否从开始日期开始计算项目进度。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> ScheduleFromStart;

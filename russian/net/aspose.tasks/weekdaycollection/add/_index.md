@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавляет экземплярWeekDayaspose.tasks/weekdayк этому объекту.
+description: ДобавляетWeekDayaspose.tasks/weekday экземпляр этого объекта.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/weekdaycollection/add/
 ---
 ## WeekDayCollection.Add method
 
-Добавляет экземпляр[`WeekDay`](../../weekday)к этому объекту.
+Добавляет[`WeekDay`](../../weekday) экземпляр этого объекта.
 
 ```csharp
 public void Add(WeekDay item)
@@ -16,7 +16,7 @@ public void Add(WeekDay item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | WeekDay | Добавляемый элемент. |
+| item | WeekDay | Элемент для добавления. |
 
 ### Смотрите также
 

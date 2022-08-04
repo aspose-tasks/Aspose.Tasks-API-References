@@ -1,14 +1,14 @@
 ---
 title: Delete
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Удаляет экземпляр Exception из объекта родительского календаря CalendarExceptionCollection.
+description: Удаляет экземпляр Exception из объекта CalendarExceptionCollection родительского календаря.
 type: docs
 weight: 180
 url: /ru/net/aspose.tasks/calendarexception/delete/
 ---
 ## CalendarException.Delete method
 
-Удаляет экземпляр Exception из объекта родительского календаря CalendarExceptionCollection.
+Удаляет экземпляр Exception из объекта CalendarExceptionCollection родительского календаря.
 
 ```csharp
 public void Delete()

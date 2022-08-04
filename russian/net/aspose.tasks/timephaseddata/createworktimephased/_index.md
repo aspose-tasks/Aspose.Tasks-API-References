@@ -1,14 +1,14 @@
 ---
 title: CreateWorkTimephased
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Создает и инициализирует новый экземпляр классаTimephasedDataaspose.tasks/timephaseddataдля поэтапных данных на основе работы.
+description: Создает и инициализирует новый экземплярTimephasedDataaspose.tasks/timephaseddata класс для поэтапных данных на основе работы.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/timephaseddata/createworktimephased/
 ---
 ## TimephasedData.CreateWorkTimephased method
 
-Создает и инициализирует новый экземпляр класса[`TimephasedData`](../../timephaseddata)для поэтапных данных на основе работы.
+Создает и инициализирует новый экземпляр[`TimephasedData`](../../timephaseddata) класс для поэтапных данных на основе работы.
 
 ```csharp
 public static TimephasedData CreateWorkTimephased(int uid, DateTime start, DateTime finish, 
@@ -19,14 +19,14 @@ public static TimephasedData CreateWorkTimephased(int uid, DateTime start, DateT
 | --- | --- | --- |
 | uid | Int32 | UID задачи. |
 | start | DateTime | дата-время начала. |
-| finish | DateTime | Дата-время окончания. |
-| value | TimeSpan | Значение временного интервала. |
+| finish | DateTime | Закончить дату-время. |
+| value | TimeSpan | Значение временного промежутка. |
 | timeUnit | TimeUnitType | Тип единицы времени. |
 | type | TimephasedDataType | Поэтапный тип данных. |
 
 ### Возвращаемое значение
 
-Экземпляр класса[`TimephasedData`](../../timephaseddata)для поэтапных данных на основе работы.
+Экземпляр[`TimephasedData`](../../timephaseddata) класс для поэтапных данных на основе работы.
 
 ### Исключения
 

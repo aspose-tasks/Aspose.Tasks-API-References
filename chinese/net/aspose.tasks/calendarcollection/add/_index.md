@@ -20,7 +20,7 @@ public Calendar Add(string name)
 
 ### 返回值
 
-添加[`Calendar`](../../calendar)对象。
+添加[`Calendar`](../../calendar)目的。
 
 ### 例外
 
@@ -47,12 +47,12 @@ public Calendar Add(string name, Calendar baseCalendar)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 指定名称。 |
+| name | String | 指定的名称。 |
 | baseCalendar | Calendar | 指定的基准日历。 |
 
 ### 返回值
 
-添加[`Calendar`](../../calendar)对象。
+添加[`Calendar`](../../calendar)目的。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: HeaderFooterInfo
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет данные верхнего или нижнего колонтитула которые присутствуют в представлениях и используются для печати.
 type: docs
-weight: 2770
+weight: 2780
 url: /ru/net/aspose.tasks.visualization/headerfooterinfo/
 ---
 ## HeaderFooterInfo class
@@ -18,15 +18,15 @@ public class HeaderFooterInfo
 
 | Имя | Описание |
 | --- | --- |
-| [HeaderFooterInfo](headerfooterinfo)() | Инициализирует новый экземпляр класса[`HeaderFooterInfo`](../headerfooterinfo). |
+| [HeaderFooterInfo](headerfooterinfo)() | Инициализирует новый экземпляр[`HeaderFooterInfo`](../headerfooterinfo) учебный класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CenteredImage](../../aspose.tasks.visualization/headerfooterinfo/centeredimage) { get; set; } | Получает или задает центрированное изображение, отображаемое в верхнем или нижнем колонтитуле. |
+| [CenteredImage](../../aspose.tasks.visualization/headerfooterinfo/centeredimage) { get; set; } | Получает или задает центрированное изображение для отображения в верхнем или нижнем колонтитуле. |
 | [CenteredImageSize](../../aspose.tasks.visualization/headerfooterinfo/centeredimagesize) { get; set; } | Получает или задает отображаемый размер центрального изображения. |
-| [CenteredText](../../aspose.tasks.visualization/headerfooterinfo/centeredtext) { get; set; } | Получает или задает центрированный текст для отображения в верхнем или нижнем колонтитуле. |
+| [CenteredText](../../aspose.tasks.visualization/headerfooterinfo/centeredtext) { get; set; } | Получает или задает центрированный текст для отображения в верхнем или нижнем колонтитуле . |
 | [LeftImage](../../aspose.tasks.visualization/headerfooterinfo/leftimage) { get; set; } | Получает или задает выровненное по левому краю изображение для отображения в верхнем или нижнем колонтитуле. |
 | [LeftImageSize](../../aspose.tasks.visualization/headerfooterinfo/leftimagesize) { get; set; } | Получает или задает отображаемый размер левого изображения. |
 | [LeftText](../../aspose.tasks.visualization/headerfooterinfo/lefttext) { get; set; } | Получает или задает выровненный по левому краю текст для отображения в верхнем или нижнем колонтитуле. |

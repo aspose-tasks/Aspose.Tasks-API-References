@@ -1,14 +1,14 @@
 ---
 title: LastSaved
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Дата последнего сохранения проекта.  Сохраняется в формате UTC в файлах mpp. DateTimeтип.
+description: Дата последнего сохранения проекта.  Сохранено в формате UTC в файлах mpp. DateTime тип.
 type: docs
 weight: 430
 url: /ru/net/aspose.tasks/prj/lastsaved/
 ---
 ## Prj.LastSaved field
 
-Дата последнего сохранения проекта.  Сохраняется в формате UTC в файлах mpp. DateTimeтип.
+Дата последнего сохранения проекта.  Сохранено в формате UTC в файлах mpp. DateTime тип.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> LastSaved;

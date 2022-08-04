@@ -1,14 +1,14 @@
 ---
 title: XlsxOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаXlsxOptionsaspose.tasks.saving/xlsxoptions который можно использовать для сохранения проекта в формате XLSX.
+description: Инициализирует новый экземплярXlsxOptionsaspose.tasks.saving/xlsxoptionsкласс который можно использовать для сохранения проекта в формате XLSX.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/xlsxoptions/xlsxoptions/
 ---
 ## XlsxOptions constructor
 
-Инициализирует новый экземпляр класса[`XlsxOptions`](../../xlsxoptions), который можно использовать для сохранения проекта в формате XLSX.
+Инициализирует новый экземпляр[`XlsxOptions`](../../xlsxoptions)класс, который можно использовать для сохранения проекта в формате XLSX.
 
 ```csharp
 public XlsxOptions()

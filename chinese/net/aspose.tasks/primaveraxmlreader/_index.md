@@ -18,8 +18,8 @@ public class PrimaveraXmlReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PrimaveraXmlReader](primaveraxmlreader#constructor)(Stream) | 初始化[`PrimaveraXmlReader`](../primaveraxmlreader)类的新实例。 |
-| [PrimaveraXmlReader](primaveraxmlreader#constructor_1)(string) | 初始化[`PrimaveraXmlReader`](../primaveraxmlreader)类的新实例。 |
+| [PrimaveraXmlReader](primaveraxmlreader#constructor)(Stream) | 初始化[`PrimaveraXmlReader`](../primaveraxmlreader)类. |
+| [PrimaveraXmlReader](primaveraxmlreader#constructor_1)(string) | 初始化[`PrimaveraXmlReader`](../primaveraxmlreader)类. |
 
 ## 方法
 

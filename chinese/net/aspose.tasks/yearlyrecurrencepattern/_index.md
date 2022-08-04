@@ -1,14 +1,14 @@
 ---
 title: YearlyRecurrencePattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示用于在项目中创建年度重复任务的参数集
+description: 表示用于在项目中创建年度循环任务的参数集
 type: docs
-weight: 3300
+weight: 3310
 url: /zh/net/aspose.tasks/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern class
 
-表示用于在项目中创建年度重复任务的参数集。
+表示用于在项目中创建年度循环任务的参数集。
 
 ```csharp
 public class YearlyRecurrencePattern : RecurrencePatternBase
@@ -18,7 +18,7 @@ public class YearlyRecurrencePattern : RecurrencePatternBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern)() | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类的新实例。 |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern)() | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类. |
 
 ## 特性
 

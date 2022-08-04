@@ -1,14 +1,14 @@
 ---
 title: WeekdayType
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示RecurringTaskInfo./recurringtaskinfo类实例中项目的工作日
+description: 代表项目实例中的工作日RecurringTaskInfo./recurringtaskinfo类.
 type: docs
-weight: 3180
+weight: 3190
 url: /zh/net/aspose.tasks/weekdaytype/
 ---
 ## WeekdayType enumeration
 
-表示[`RecurringTaskInfo`](../recurringtaskinfo)类实例中项目的工作日。
+代表项目实例中的工作日[`RecurringTaskInfo`](../recurringtaskinfo)类.
 
 ```csharp
 [Flags]
@@ -23,10 +23,10 @@ public enum WeekdayType
 | Sunday | `1` | 表示周日工作日类型。 |
 | Monday | `2` | 表示周一工作日类型。 |
 | Tuesday | `4` | 表示周二工作日类型。 |
-| Wednesday | `8` | 表示星期三的工作日类型。 |
+| Wednesday | `8` | 表示周三工作日类型。 |
 | Thursday | `10` | 表示星期四工作日类型。 |
-| Friday | `20` | 表示星期五工作日类型。 |
-| Saturday | `40` | 表示星期六工作日类型。 |
+| Friday | `20` | 表示周五工作日类型。 |
+| Saturday | `40` | 表示周六工作日类型。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API 参考
-description: 从 Project CalendarCollection 中删除日历
+description: 从项目 CalendarCollection 中删除日历
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/calendarcollection/remove/
 ---
 ## CalendarCollection.Remove method
 
-从 Project CalendarCollection 中删除日历。
+从项目 CalendarCollection 中删除日历。
 
 ```csharp
 public bool Remove(Calendar item)
@@ -26,7 +26,7 @@ public bool Remove(Calendar item)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 在无法删除日历时抛出。 |
+| InvalidOperationException | 无法删除日历时抛出。 |
 
 ### 也可以看看
 

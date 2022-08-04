@@ -1,14 +1,14 @@
 ---
 title: DurationFormat
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用于表示任务基线持续时间的格式
+description: 获取或设置表示任务基线持续时间的格式
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/taskbaseline/durationformat/
 ---
 ## TaskBaseline.DurationFormat property
 
-获取或设置用于表示任务基线持续时间的格式。
+获取或设置表示任务基线持续时间的格式。
 
 ```csharp
 public TimeUnitType DurationFormat { get; set; }

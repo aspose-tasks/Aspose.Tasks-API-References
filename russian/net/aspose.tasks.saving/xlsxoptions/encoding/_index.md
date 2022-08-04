@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает кодировку результирующего файла XLSX. Значение по умолчаниюUTF8.
+description: Получает или задает кодировку результирующего файла XLSX. Значение по умолчаниюUTF8 .
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.saving/xlsxoptions/encoding/
 ---
 ## XlsxOptions.Encoding property
 
-Получает или задает кодировку результирующего файла XLSX. Значение по умолчанию:UTF8.
+Получает или задает кодировку результирующего файла XLSX. Значение по умолчаниюUTF8 .
 
 ```csharp
 public Encoding Encoding { get; set; }

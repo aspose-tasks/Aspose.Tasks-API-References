@@ -3,7 +3,7 @@ title: AssignmentViewColumn
 second_title: Aspose.Tasks for .NET API 参考
 description: 项目的视图类
 type: docs
-weight: 2570
+weight: 2580
 url: /zh/net/aspose.tasks.visualization/assignmentviewcolumn/
 ---
 ## AssignmentViewColumn class
@@ -24,9 +24,9 @@ public class AssignmentViewColumn : ViewColumn
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field) { get; set; } | 列字段。 [`Field`](./field)。 |
+| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field) { get; set; } | 列字段. [`Field`](./field). |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | 获取列名。 |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | 获取或设置文本的对齐方式（可以是[`StringAlignment`](../viewcolumn/stringalignment)的值之一枚举）。 |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | 获取或设置文本的对齐方式（可以是[`StringAlignment`](../viewcolumn/stringalignment)枚举）. |
 | [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | 获取或设置可用于自定义列单元格外观的回调。 |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | 获取列宽。 |
 

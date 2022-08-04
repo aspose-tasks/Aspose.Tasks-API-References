@@ -1,14 +1,14 @@
 ---
 title: ProjectServerSaveOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаProjectServerSaveOptionsaspose.tasks/projectserversaveoptions.
+description: Инициализирует новый экземплярProjectServerSaveOptionsaspose.tasks/projectserversaveoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/projectserversaveoptions/projectserversaveoptions/
 ---
 ## ProjectServerSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`ProjectServerSaveOptions`](../../projectserversaveoptions).
+Инициализирует новый экземпляр[`ProjectServerSaveOptions`](../../projectserversaveoptions) класс.
 
 ```csharp
 public ProjectServerSaveOptions()

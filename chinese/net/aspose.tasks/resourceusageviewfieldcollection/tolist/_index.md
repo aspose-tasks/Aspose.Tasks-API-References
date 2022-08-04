@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将ResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollection类的实例转换为包含T实例的列表Aspose.Tasks.ResourceUsageViewField类
+description: 转换实例ResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollection类到一个包含实例的列表ResourceUsageViewFieldaspose.tasks/resourceusageviewfield类.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/resourceusageviewfieldcollection/tolist/
 ---
 ## ResourceUsageViewFieldCollection.ToList method
 
-将[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)类的实例转换为包含T实例的列表:Aspose.Tasks.ResourceUsageViewField类。
+转换实例[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)类到一个包含实例的列表[`ResourceUsageViewField`](../../resourceusageviewfield)类.
 
 ```csharp
 public IList<ResourceUsageViewField> ToList()
@@ -16,7 +16,7 @@ public IList<ResourceUsageViewField> ToList()
 
 ### 返回值
 
-[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)类的实例转换为包含以下实例的列表[`ResourceUsageViewField`](../../resourceusageviewfield)类。
+的实例[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)类转换为包含实例的列表[`ResourceUsageViewField`](../../resourceusageviewfield)班级。
 
 ### 也可以看看
 

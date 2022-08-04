@@ -1,14 +1,14 @@
 ---
 title: AvailabilityPeriodCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет коллекцию которая содержит объектыAvailabilityPeriod./availabilityperiod.
+description: Представляет коллекцию содержащуюAvailabilityPeriod./availabilityperiod объекты.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class
 
-Представляет коллекцию, которая содержит объекты[`AvailabilityPeriod`](../availabilityperiod).
+Представляет коллекцию, содержащую[`AvailabilityPeriod`](../availabilityperiod) объекты.
 
 ```csharp
 public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
@@ -19,9 +19,9 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/availabilityperiodcollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks/availabilityperiodcollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
-| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource) { get; } | Получает родительский объект[`Resource`](../resource)для этого объекта.  Parent[`Resource`](../resource)объект для этой коллекции. |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource) { get; } | Получает родителя[`Resource`](../resource) для этого объекта.  Родитель[`Resource`](../resource) объект для этой коллекции. |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 | --- | --- |
 | [Add](../../aspose.tasks/availabilityperiodcollection/add)(AvailabilityPeriod) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/availabilityperiodcollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/availabilityperiodcollection/contains)(AvailabilityPeriod) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/availabilityperiodcollection/contains)(AvailabilityPeriod) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto)(AvailabilityPeriod[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof)(AvailabilityPeriod) | Определяет индекс указанного элемента в этой коллекции. |

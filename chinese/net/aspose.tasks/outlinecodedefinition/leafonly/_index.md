@@ -1,14 +1,14 @@
 ---
 title: LeafOnly
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示此大纲代码字段中指定的值是否必须是叶值
+description: 获取或设置一个值该值指示此大纲代码字段中指定的值是否必须为叶值
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/outlinecodedefinition/leafonly/
 ---
 ## OutlineCodeDefinition.LeafOnly property
 
-获取或设置一个值，该值指示此大纲代码字段中指定的值是否必须是叶值。
+获取或设置一个值，该值指示此大纲代码字段中指定的值是否必须为叶值。
 
 ```csharp
 public bool LeafOnly { get; set; }

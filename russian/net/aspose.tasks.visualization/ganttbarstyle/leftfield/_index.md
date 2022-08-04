@@ -1,14 +1,14 @@
 ---
 title: LeftField
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает данные которые будут отображаться слева от панели. Fieldaspose.tasks/field.
+description: Получает или задает данные которые будут отображаться слева от панели. Fieldaspose.tasks/field .
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/leftfield/
 ---
 ## GanttBarStyle.LeftField property
 
-Получает или задает данные, которые будут отображаться слева от панели. [`Field`](../../../aspose.tasks/field).
+Получает или задает данные, которые будут отображаться слева от панели. [`Field`](../../../aspose.tasks/field) .
 
 ```csharp
 public Field LeftField { get; set; }

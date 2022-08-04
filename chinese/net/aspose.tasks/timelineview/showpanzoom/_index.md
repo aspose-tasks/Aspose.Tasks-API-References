@@ -1,14 +1,14 @@
 ---
 title: ShowPanZoom
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否显示平移和缩放控制
+description: 获取或设置是否显示平移和缩放控件的值
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/timelineview/showpanzoom/
 ---
 ## TimelineView.ShowPanZoom property
 
-获取或设置一个值，该值指示是否显示平移和缩放控制。
+获取或设置是否显示平移和缩放控件的值。
 
 ```csharp
 public bool ShowPanZoom { get; set; }

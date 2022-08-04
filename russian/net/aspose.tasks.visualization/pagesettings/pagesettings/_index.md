@@ -1,14 +1,14 @@
 ---
 title: PageSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPageSettingsaspose.tasks.visualization/pagesettings. Представляет параметры печати для страницы представления проекта.
+description: Инициализирует новый экземплярPageSettingsaspose.tasks.visualization/pagesettings учебный класс. Представляет параметры печати для страницы представления проекта.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/pagesettings/pagesettings/
 ---
 ## PageSettings constructor
 
-Инициализирует новый экземпляр класса[`PageSettings`](../../pagesettings). Представляет параметры печати для страницы представления проекта.
+Инициализирует новый экземпляр[`PageSettings`](../../pagesettings) учебный класс. Представляет параметры печати для страницы представления проекта.
 
 ```csharp
 public PageSettings()

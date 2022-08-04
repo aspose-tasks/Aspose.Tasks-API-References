@@ -1,14 +1,14 @@
 ---
 title: ExtendedAttributeCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示ExtendedAttribute./extendedattribute对象的集合
+description: 代表一个集合ExtendedAttribute./extendedattribute对象.
 type: docs
 weight: 520
 url: /zh/net/aspose.tasks/extendedattributecollection/
 ---
 ## ExtendedAttributeCollection class
 
-表示[`ExtendedAttribute`](../extendedattribute)对象的集合。
+代表一个集合[`ExtendedAttribute`](../extendedattribute)对象.
 
 ```csharp
 public class ExtendedAttributeCollection : IList<ExtendedAttribute>
@@ -27,7 +27,7 @@ public class ExtendedAttributeCollection : IList<ExtendedAttribute>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/extendedattributecollection/add)(ExtendedAttribute) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/extendedattributecollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/extendedattributecollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/extendedattributecollection/contains)(ExtendedAttribute) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/extendedattributecollection/copyto)(ExtendedAttribute[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/extendedattributecollection/getenumerator)() | 返回此集合的枚举数。 |

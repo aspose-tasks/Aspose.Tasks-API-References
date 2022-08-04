@@ -1,14 +1,14 @@
 ---
 title: SV
 second_title: Aspose.Tasks for .NET API 参考
-description: 挣值进度差异通过项目状态日期 进度偏差 SV 是 BCWP 和 BCWS 之间的差异
+description: 挣值进度差异通过项目状态日期 进度差异 SV 是 BCWP 和 BCWS 之间的差异
 type: docs
 weight: 1090
 url: /zh/net/aspose.tasks/tsk/sv/
 ---
 ## Tsk.SV field
 
-挣值进度差异，通过项目状态日期。 进度偏差 (SV) 是 BCWP 和 BCWS 之间的差异。
+挣值进度差异，通过项目状态日期。 进度差异 (SV) 是 BCWP 和 BCWS 之间的差异。
 
 ```csharp
 public static readonly Key<double, TaskKey> SV;

@@ -1,14 +1,14 @@
 ---
 title: Uid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает уникальный идентификатор данных с временной разбивкой
+description: Получает или задает уникальный идентификатор поэтапных по времени данных
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/timephaseddata/uid/
 ---
 ## TimephasedData.Uid property
 
-Получает или задает уникальный идентификатор данных с временной разбивкой
+Получает или задает уникальный идентификатор поэтапных по времени данных
 
 ```csharp
 public int Uid { get; set; }

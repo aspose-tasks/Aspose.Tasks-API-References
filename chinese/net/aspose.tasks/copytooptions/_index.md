@@ -18,13 +18,13 @@ public class CopyToOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CopyToOptions](copytooptions)() | 初始化[`CopyToOptions`](../copytooptions)类的新实例。 |
+| [CopyToOptions](copytooptions)() | 初始化一个新的实例[`CopyToOptions`](../copytooptions)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata) { get; set; } | 获取或设置一个值，该值指示是否在复制项目数据时复制视图数据。 默认值为真。 |
+| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata) { get; set; } | 获取或设置一个值，该值指示是否在复制项目数据时复制视图数据。 默认值为true。 |
 
 ### 也可以看看
 

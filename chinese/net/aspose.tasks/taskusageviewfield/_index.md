@@ -1,14 +1,14 @@
 ---
 title: TaskUsageViewField
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示TaskUsageView./taskusageview对象中的可能字段
+description: 表示可能的字段TaskUsageView./taskusageview对象.
 type: docs
 weight: 2170
 url: /zh/net/aspose.tasks/taskusageviewfield/
 ---
 ## TaskUsageViewField enumeration
 
-表示[`TaskUsageView`](../taskusageview)对象中的可能字段。
+表示可能的字段[`TaskUsageView`](../taskusageview)对象.
 
 ```csharp
 public enum TaskUsageViewField
@@ -25,7 +25,7 @@ public enum TaskUsageViewField
 | ActualOvertimeWork | `3` | 表示实际加班工作任务使用视图字段。 |
 | CumulativeWork | `4` | 表示累积工时任务使用视图字段。 |
 | BaselineWork | `5` | 表示基线工作任务使用视图字段。 |
-| Overallocation | `6` | 表示Overallocation任务使用视图字段。 |
+| Overallocation | `6` | 表示Overallocation任务使用视图字段. |
 | PercentAllocation | `7` | 表示百分比分配任务使用视图字段。 |
 | PeakUnits | `8` | 表示峰值单位任务使用视图字段。 |
 | Cost | `9` | 表示成本任务使用视图字段。 |
@@ -36,7 +36,7 @@ public enum TaskUsageViewField
 | BCWS | `14` | 表示 BCWS 任务使用视图字段。 |
 | BCWP | `15` | 表示 BCWP 任务使用视图字段。 |
 | ACWP | `16` | 表示 ACWP 任务使用视图字段。 |
-| SV | `17` | 表示SV任务使用视图字段。 |
+| SV | `17` | 表示 SV 任务使用视图字段。 |
 | CV | `18` | 表示 CV 任务使用视图字段。 |
 | RegularWork | `19` | 表示常规工作任务使用视图字段。 |
 | PercentComplete | `20` | 表示完成百分比任务使用视图字段。 |
@@ -51,7 +51,7 @@ public enum TaskUsageViewField
 | Baseline4Cost | `29` | 表示 Baseline4 成本任务使用视图字段。 |
 | Baseline5Work | `30` | 表示 Baseline5 工作任务使用视图字段。 |
 | Baseline5Cost | `31` | 表示 Baseline5 成本任务使用视图字段。 |
-| Baseline6Work | `32` | 表示 Baseline6 工作任务使用视图字段。 |
+| Baseline6Work | `32` | 表示 Baseline6 工作任务使用情况视图字段。 |
 | Baseline6Cost | `33` | 表示 Baseline6 成本任务使用视图字段。 |
 | Baseline7Work | `34` | 表示 Baseline7 工作任务使用视图字段。 |
 | Baseline7Cost | `35` | 表示 Baseline7 成本任务使用视图字段。 |
@@ -66,29 +66,29 @@ public enum TaskUsageViewField
 | SPI | `44` | 表示 SPI 任务使用视图字段。 |
 | CVPercent | `45` | 表示 CV 百分比任务使用视图字段。 |
 | SVPercent | `46` | 表示 SV 百分比任务使用视图字段。 |
-| BudgetWork | `47` | 表示预算工时任务使用视图字段。 |
+| BudgetWork | `47` | 表示预算工作任务使用视图字段。 |
 | BudgetCost | `48` | 表示预算成本任务使用视图字段。 |
-| BaselineBudgetWork | `49` | 表示基准预算工时任务使用视图字段。 |
+| BaselineBudgetWork | `49` | 表示基准预算工作任务使用视图字段。 |
 | BaselineBudgetCost | `50` | 表示基线预算成本任务使用视图字段。 |
-| Baseline1BudgetWork | `51` | 表示 Baseline1 预算工时任务使用视图字段。 |
-| Baseline1BudgetCost | `52` | 表示基线 1 预算成本任务使用视图字段。 |
-| Baseline2BudgetWork | `53` | 表示基线 2 预算工时任务使用视图字段。 |
-| Baseline2BudgetCost | `54` | 表示 Baseline2 预算成本任务使用视图字段。 |
-| Baseline3BudgetWork | `55` | 表示 Baseline3 预算工时任务使用视图字段。 |
+| Baseline1BudgetWork | `51` | 表示基线 1 预算工作任务使用视图字段。 |
+| Baseline1BudgetCost | `52` | 表示基线 1 预算成本任务使用情况视图字段。 |
+| Baseline2BudgetWork | `53` | 表示基线 2 预算工作任务使用视图字段。 |
+| Baseline2BudgetCost | `54` | 表示基线 2 预算成本任务使用视图字段。 |
+| Baseline3BudgetWork | `55` | 表示 Baseline3 预算工作任务使用视图字段。 |
 | Baseline3BudgetCost | `56` | 表示 Baseline3 预算成本任务使用视图字段。 |
-| Baseline4BudgetWork | `57` | 表示 Baseline4 预算工时任务使用视图字段。 |
-| Baseline4BudgetCost | `58` | 表示 Baseline4 预算成本任务使用视图字段。 |
-| Baseline5BudgetWork | `59` | 表示 Baseline5 预算工时任务使用视图字段。 |
+| Baseline4BudgetWork | `57` | 表示 Baseline4 预算工作任务使用视图字段。 |
+| Baseline4BudgetCost | `58` | 表示 Baseline4 预算成本任务使用情况视图字段。 |
+| Baseline5BudgetWork | `59` | 表示 Baseline5 预算工作任务使用视图字段。 |
 | Baseline5BudgetCost | `60` | 表示 Baseline5 预算成本任务使用视图字段。 |
-| Baseline6BudgetWork | `61` | 表示 Baseline6 预算工时任务使用视图字段。 |
+| Baseline6BudgetWork | `61` | 表示 Baseline6 预算工作任务使用视图字段。 |
 | Baseline6BudgetCost | `62` | 表示 Baseline6 预算成本任务使用视图字段。 |
-| Baseline7BudgetWork | `63` | 表示 Baseline7 预算工时任务使用视图字段。 |
+| Baseline7BudgetWork | `63` | 表示 Baseline7 预算工作任务使用视图字段。 |
 | Baseline7BudgetCost | `64` | 表示 Baseline7 预算成本任务使用视图字段。 |
-| Baseline8BudgetWork | `65` | 表示 Baseline8 预算工时任务使用视图字段。 |
+| Baseline8BudgetWork | `65` | 表示 Baseline8 预算工作任务使用视图字段。 |
 | Baseline8BudgetCost | `66` | 表示 Baseline8 预算成本任务使用视图字段。 |
-| Baseline9BudgetWork | `67` | 表示 Baseline9 预算工时任务使用视图字段。 |
+| Baseline9BudgetWork | `67` | 表示 Baseline9 预算工作任务使用视图字段。 |
 | Baseline9BudgetCost | `68` | 表示 Baseline9 预算成本任务使用视图字段。 |
-| Baseline10BudgetWork | `69` | 表示 Baseline10 预算工时任务使用视图字段。 |
+| Baseline10BudgetWork | `69` | 表示 Baseline10 预算工作任务使用视图字段。 |
 | Baseline10BudgetCost | `70` | 表示 Baseline10 预算成本任务使用视图字段。 |
 | AllTaskRows | `71` | 表示所有任务行任务使用视图字段。 |
 | AllAssignmentRows | `72` | 表示所有分配行任务使用视图字段。 |

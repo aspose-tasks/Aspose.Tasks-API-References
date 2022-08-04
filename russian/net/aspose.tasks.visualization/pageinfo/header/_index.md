@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает экземпляр классаHeaderFooterInfoaspose.tasks.visualization/headerfooterinfo который представляет данные заголовка.
+description: Получает или задает экземплярHeaderFooterInfoaspose.tasks.visualization/headerfooterinfo класс который представляет данные заголовка.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/pageinfo/header/
 ---
 ## PageInfo.Header property
 
-Получает или задает экземпляр класса[`HeaderFooterInfo`](../../headerfooterinfo), который представляет данные заголовка.
+Получает или задает экземпляр[`HeaderFooterInfo`](../../headerfooterinfo) класс, который представляет данные заголовка.
 
 ```csharp
 public HeaderFooterInfo Header { get; set; }

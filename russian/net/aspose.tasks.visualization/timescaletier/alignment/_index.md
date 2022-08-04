@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает способ выравнивания меток в пределах каждого периода времени уровня StringAlignment.
+description: Получает или задает способ выравнивания меток в пределах каждого периода времени уровня StringAlignment .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/timescaletier/alignment/
 ---
 ## TimescaleTier.Alignment property
 
-Получает или задает способ выравнивания меток в пределах каждого периода времени уровня (StringAlignment).
+Получает или задает способ выравнивания меток в пределах каждого периода времени уровня (StringAlignment ).
 
 ```csharp
 public StringAlignment Alignment { get; set; }

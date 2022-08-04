@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回Calendaraspose.tasks/calendar类实例的哈希码
+description: 返回实例的哈希码Calendaraspose.tasks/calendar类.
 type: docs
 weight: 160
 url: /zh/net/aspose.tasks/calendar/gethashcode/
 ---
 ## Calendar.GetHashCode method
 
-返回[`Calendar`](../../calendar)类实例的哈希码。
+返回实例的哈希码[`Calendar`](../../calendar)类.
 
 ```csharp
 public override int GetHashCode()

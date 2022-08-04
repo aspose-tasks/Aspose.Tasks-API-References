@@ -3,7 +3,7 @@ title: ListUtils
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Вспомогательный класс для обработки списка.
 type: docs
-weight: 2390
+weight: 2400
 url: /ru/net/aspose.tasks.util/listutils/
 ---
 ## ListUtils class
@@ -20,7 +20,7 @@ public static class ListUtils
 | --- | --- |
 | static [Apply&lt;T&gt;](../../aspose.tasks.util/listutils/apply)(IList&lt;T&gt;, IAlgorithm&lt;T&gt;, int) | Применить алгоритм для каждого элемента списка, начиная с указанной позиции. |
 | static [Filter&lt;T&gt;](../../aspose.tasks.util/listutils/filter)(IList&lt;T&gt;, ICondition&lt;T&gt;) | Фильтровать элементы списка по заданному условию. |
-| static [Find&lt;T&gt;](../../aspose.tasks.util/listutils/find)(IList&lt;T&gt;, ICondition&lt;T&gt;) | Найти первое вхождение элемента списка, удовлетворяющего заданному условию. |
+| static [Find&lt;T&gt;](../../aspose.tasks.util/listutils/find)(IList&lt;T&gt;, ICondition&lt;T&gt;) | Найти первое вхождение элемента списка, удовлетворяющего указанному условию. |
 
 ### Смотрите также
 

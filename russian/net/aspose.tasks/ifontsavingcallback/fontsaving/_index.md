@@ -1,14 +1,14 @@
 ---
 title: FontSaving
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Метод вызываемый при сохранении шрифтов.
+description: Метод который будет вызываться при сохранении шрифтов.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback.FontSaving method
 
-Метод, вызываемый при сохранении шрифтов.
+Метод, который будет вызываться при сохранении шрифтов.
 
 ```csharp
 public void FontSaving(FontSavingArgs args)

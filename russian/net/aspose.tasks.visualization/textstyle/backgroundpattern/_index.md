@@ -1,14 +1,14 @@
 ---
 title: BackgroundPattern
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает фоновый рисунок стиля текста. BackgroundPatternaspose.tasks.visualization/textstyle/backgroundpattern.
+description: Получает или задает фоновый рисунок стиля текста. BackgroundPatternaspose.tasks.visualization/textstyle/backgroundpattern .
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/textstyle/backgroundpattern/
 ---
 ## TextStyle.BackgroundPattern property
 
-Получает или задает фоновый рисунок стиля текста. `BackgroundPattern`.
+Получает или задает фоновый рисунок стиля текста. `BackgroundPattern` .
 
 ```csharp
 public BackgroundPattern BackgroundPattern { get; set; }

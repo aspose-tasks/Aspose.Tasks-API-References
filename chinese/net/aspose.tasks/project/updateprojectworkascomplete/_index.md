@@ -1,14 +1,14 @@
 ---
 title: UpdateProjectWorkAsComplete
 second_title: Aspose.Tasks for .NET API 参考
-description: 在整个项目的指定日期内将所有工作更新为已完成
+description: 将整个项目的指定日期内的所有工作更新为已完成
 type: docs
 weight: 470
 url: /zh/net/aspose.tasks/project/updateprojectworkascomplete/
 ---
 ## UpdateProjectWorkAsComplete(DateTime, bool) {#updateprojectworkascomplete}
 
-在整个项目的指定日期内将所有工作更新为已完成。
+将整个项目的指定日期内的所有工作更新为已完成。
 
 ```csharp
 public void UpdateProjectWorkAsComplete(DateTime completeThrough, 
@@ -17,8 +17,8 @@ public void UpdateProjectWorkAsComplete(DateTime completeThrough,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| completeThrough | DateTime | 完成工作的更新日期。 |
-| setZeroOrHundredPercentCompleteOnly | Boolean | 如果设置为 true，则仅将完成日期早于指定完成日期的那些任务更新为 100% 完成。 否则，根据计划的开始日期和完成日期计算完成百分比值。 |
+| completeThrough | DateTime | 更新工作完成的日期。 |
+| setZeroOrHundredPercentCompleteOnly | Boolean | 如果设置为 true，则仅将完成日期早于指定完成日期的任务更新为 100% 完成。 否则，根据计划的开始日期和完成日期计算完成百分比值。 |
 
 ### 也可以看看
 
@@ -39,9 +39,9 @@ public void UpdateProjectWorkAsComplete(DateTime completeThrough,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| completeThrough | DateTime | 完成工作的更新日期。 |
-| setZeroOrHundredPercentCompleteOnly | Boolean | 如果设置为 true，则仅将完成日期早于指定完成日期的那些任务更新为 100% 完成。 否则，根据计划的开始日期和完成日期计算完成百分比值。 |
-| taskCollection | List`1 | 列表&lt;任务&gt;更新工作的任务。 |
+| completeThrough | DateTime | 更新工作完成的日期。 |
+| setZeroOrHundredPercentCompleteOnly | Boolean | 如果设置为 true，则仅将完成日期早于指定完成日期的任务更新为 100% 完成。 否则，根据计划的开始日期和完成日期计算完成百分比值。 |
+| taskCollection | List`1 | 要为其更新工作的任务列表&lt;Task&gt;。 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public static Calendar MakeStandardCalendar(Calendar calendar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| calendar | Calendar | Календарь для создания стандартного календаря. |
+| calendar | Calendar | Календарь, из которого можно сделать стандартный календарь. |
 
 ### Возвращаемое значение
 

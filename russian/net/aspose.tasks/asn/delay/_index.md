@@ -1,14 +1,14 @@
 ---
 title: Delay
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Задержка задания.
+description: Задержка назначения.
 type: docs
 weight: 230
 url: /ru/net/aspose.tasks/asn/delay/
 ---
 ## Asn.Delay field
 
-Задержка задания.
+Задержка назначения.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> Delay;

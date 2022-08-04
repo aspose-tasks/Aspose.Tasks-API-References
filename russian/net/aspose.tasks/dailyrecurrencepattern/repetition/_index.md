@@ -1,14 +1,14 @@
 ---
 title: Repetition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает шаблон повторений в ежедневном шаблоне повторения.
+description: Получает или задает шаблон повторений в шаблоне ежедневного повторения.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/dailyrecurrencepattern/repetition/
 ---
 ## DailyRecurrencePattern.Repetition property
 
-Получает или задает шаблон повторений в ежедневном шаблоне повторения.
+Получает или задает шаблон повторений в шаблоне ежедневного повторения.
 
 ```csharp
 public DailyRepetitionBase Repetition { get; set; }

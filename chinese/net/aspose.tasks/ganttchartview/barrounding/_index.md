@@ -1,14 +1,14 @@
 ---
 title: BarRounding
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示条形是否舍入到最近的一天 默认值为 True
+description: 获取或设置一个值该值指示柱是否舍入到最近的一天 默认值为 True
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/ganttchartview/barrounding/
 ---
 ## GanttChartView.BarRounding property
 
-获取或设置一个值，该值指示条形是否舍入到最近的一天。 默认值为 True。
+获取或设置一个值，该值指示柱是否舍入到最近的一天。 默认值为 True。
 
 ```csharp
 public bool BarRounding { get; set; }

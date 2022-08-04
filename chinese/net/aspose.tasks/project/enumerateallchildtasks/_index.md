@@ -20,7 +20,7 @@ IEnumerable 可用于迭代所有项目的任务。
 
 ### 评论
 
-与[`SelectAllChildTasks`](../selectallchildtasks)方法相比，提供了一种更轻量级的方法来迭代任务，因为它不分配所有任务的内存。
+提供了一种更轻量级的方式来迭代任务[`SelectAllChildTasks`](../selectallchildtasks)方法，因为它不会为所有任务分配内存。
 
 ### 也可以看看
 

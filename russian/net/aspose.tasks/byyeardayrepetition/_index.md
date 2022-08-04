@@ -18,14 +18,14 @@ public class ByYearDayRepetition : YearlyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [ByYearDayRepetition](byyeardayrepetition)() | Инициализирует новый экземпляр класса[`ByYearDayRepetition`](../byyeardayrepetition). |
+| [ByYearDayRepetition](byyeardayrepetition)() | Инициализирует новый экземпляр[`ByYearDayRepetition`](../byyeardayrepetition) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DayPosition](../../aspose.tasks/byyeardayrepetition/dayposition) { get; set; } | Получает или задает позицию дня в месяце, когда задача должна повторяться. |
-| [Month](../../aspose.tasks/byyeardayrepetition/month) { get; set; } | Получает или задает месяц, в который задача должна повторяться. |
+| [DayPosition](../../aspose.tasks/byyeardayrepetition/dayposition) { get; set; } | Получает или задает позицию дня в месяце, в который задача должна повторяться. |
+| [Month](../../aspose.tasks/byyeardayrepetition/month) { get; set; } | Получает или задает месяц, в котором задача должна повторяться. |
 
 ### Смотрите также
 

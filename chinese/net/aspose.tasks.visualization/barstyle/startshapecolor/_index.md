@@ -1,14 +1,14 @@
 ---
 title: StartShapeColor
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置栏开头形状的Color
+description: 获取或设置Color条形开头的形状
 type: docs
 weight: 160
 url: /zh/net/aspose.tasks.visualization/barstyle/startshapecolor/
 ---
 ## BarStyle.StartShapeColor property
 
-获取或设置栏开头形状的Color。
+获取或设置Color条形开头的形状。
 
 ```csharp
 public Color StartShapeColor { get; set; }

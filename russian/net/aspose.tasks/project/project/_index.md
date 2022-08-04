@@ -1,14 +1,14 @@
 ---
 title: Project
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаProjectaspose.tasks/project.
+description: Инициализирует новый экземплярProjectaspose.tasks/project класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/project/project/
 ---
 ## Project() {#constructor}
 
-Инициализирует новый экземпляр класса[`Project`](../../project).
+Инициализирует новый экземпляр[`Project`](../../project) класс.
 
 ```csharp
 public Project()
@@ -24,7 +24,7 @@ public Project()
 
 ## Project(string, string) {#constructor_16}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из защищенного паролем шаблона (существующий файл mpp или mpt).
+Инициализирует новый экземпляр[`Project`](../../project) class из защищенного паролем шаблона (существующий файл mpp или mpt).
 
 ```csharp
 public Project(string projectTemplate, string protectionPassword)
@@ -32,8 +32,8 @@ public Project(string projectTemplate, string protectionPassword)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| projectTemplate | String | Путь к шаблону, из которого создается проект. |
-| парользащиты | String | Пароль защиты. |
+| projectTemplate | String | Путь к шаблону, из которого будет создан проект. |
+| protectionPassword | String | Пароль защиты. |
 
 ### Примечания
 
@@ -49,7 +49,7 @@ public Project(string projectTemplate, string protectionPassword)
 
 ## Project(string) {#constructor_10}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из шаблона (существующий файл mpp или mpt).
+Инициализирует новый экземпляр[`Project`](../../project) класс из шаблона (существующий файл mpp или mpt).
 
 ```csharp
 public Project(string projectTemplate)
@@ -57,7 +57,7 @@ public Project(string projectTemplate)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| projectTemplate | String | Путь к шаблону, из которого создается проект. |
+| projectTemplate | String | Путь к шаблону, из которого будет создан проект. |
 
 ### Смотрите также
 
@@ -69,7 +69,7 @@ public Project(string projectTemplate)
 
 ## Project(Stream, PrimaveraReadOptions) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из Stream с указанным экземпляр класса[`PrimaveraReadOptions`](../../primaverareadoptions).
+Инициализирует новый экземпляр[`Project`](../../project) класс из Stream с указанным экземпляром[`PrimaveraReadOptions`](../../primaverareadoptions) класс.
 
 ```csharp
 public Project(Stream stream, PrimaveraReadOptions options)
@@ -77,8 +77,8 @@ public Project(Stream stream, PrimaveraReadOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток проектаStreamclass |
-| options | PrimaveraReadOptions | указанный экземпляр класса[`PrimaveraReadOptions`](../../primaverareadoptions), который позволяет настраивать чтение форматов Primavera (XER или XML). |
+| stream | Stream | Поток проектаStreamучебный класс |
+| options | PrimaveraReadOptions | указанный экземпляр[`PrimaveraReadOptions`](../../primaverareadoptions)класс, который позволяет настроить чтение форматов Primavera (XER или XML). |
 
 ### Смотрите также
 
@@ -91,7 +91,7 @@ public Project(Stream stream, PrimaveraReadOptions options)
 
 ## Project(string, ParseErrorCallback) {#constructor_12}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из шаблона (существующий файл mpp или mpt).
+Инициализирует новый экземпляр[`Project`](../../project) класс из шаблона (существующий файл mpp или mpt).
 
 ```csharp
 public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
@@ -99,7 +99,7 @@ public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| projectTemplate | String | Путь к шаблону, из которого создается проект. |
+| projectTemplate | String | Путь к шаблону, из которого будет создан проект. |
 | parseErrorHandler | ParseErrorCallback | указанный метод обратного вызова для обработки ошибок синтаксического анализа xml. |
 
 ### Смотрите также
@@ -113,7 +113,7 @@ public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 
 ## Project(Stream) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из потока.
+Инициализирует новый экземпляр[`Project`](../../project) класс из потока.
 
 ```csharp
 public Project(Stream stream)
@@ -133,7 +133,7 @@ public Project(Stream stream)
 
 ## Project(StreamReader) {#constructor_9}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из экземпляра StreamReader.
+Инициализирует новый экземпляр[`Project`](../../project) класс из экземпляра StreamReader.
 
 ```csharp
 public Project(StreamReader reader)
@@ -141,7 +141,7 @@ public Project(StreamReader reader)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| reader | StreamReader | Читатель потока, из которого загружается шаблон. |
+| reader | StreamReader | Потоковое чтение, откуда загрузить шаблон. |
 
 ### Смотрите также
 
@@ -153,7 +153,7 @@ public Project(StreamReader reader)
 
 ## Project(string, PrimaveraReadOptions) {#constructor_14}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из шаблона (существующий файл MPP или MPT) с указанным экземпляром класса[`PrimaveraReadOptions`](../../primaverareadoptions).
+Инициализирует новый экземпляр[`Project`](../../project) class из шаблона (существующий файл MPP или MPT) с указанным экземпляром[`PrimaveraReadOptions`](../../primaverareadoptions) класс.
 
 ```csharp
 public Project(string projectTemplate, PrimaveraReadOptions options)
@@ -162,7 +162,7 @@ public Project(string projectTemplate, PrimaveraReadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | projectTemplate | String | Путь к шаблону для создания проекта из |
-| options | PrimaveraReadOptions | указанный экземпляр класса[`PrimaveraReadOptions`](../../primaverareadoptions). |
+| options | PrimaveraReadOptions | указанный экземпляр[`PrimaveraReadOptions`](../../primaverareadoptions) учебный класс. |
 
 ### Смотрите также
 
@@ -175,7 +175,7 @@ public Project(string projectTemplate, PrimaveraReadOptions options)
 
 ## Project(DbSettings) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)для чтения данных из базы данных, которая указана экземпляром класс[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings).
+Инициализирует новый экземпляр[`Project`](../../project) класс для чтения данных из базы данных, которая указана экземпляром класса[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) класс.
 
 ```csharp
 public Project(DbSettings settings)
@@ -183,7 +183,7 @@ public Project(DbSettings settings)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| settings | DbSettings | указанный экземпляр класса[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings). |
+| settings | DbSettings | указанный экземпляр[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) учебный класс. |
 
 ### Смотрите также
 
@@ -196,7 +196,7 @@ public Project(DbSettings settings)
 
 ## Project(Stream, ParseErrorCallback) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из шаблона (существующий файл mpp или mpt).
+Инициализирует новый экземпляр[`Project`](../../project) класс из шаблона (существующий файл mpp или mpt).
 
 ```csharp
 public Project(Stream stream, ParseErrorCallback parseErrorHandler)
@@ -218,7 +218,7 @@ public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 
 ## Project(Stream, string) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из шаблона (существующий файл mpp или mpt).
+Инициализирует новый экземпляр[`Project`](../../project) класс из шаблона (существующий файл mpp или mpt).
 
 ```csharp
 public Project(Stream stream, string protectionPassword)
@@ -227,7 +227,7 @@ public Project(Stream stream, string protectionPassword)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, из которого загружается шаблон. |
-| парользащиты | String | Пароль защиты. |
+| protectionPassword | String | Пароль защиты. |
 
 ### Примечания
 
@@ -243,7 +243,7 @@ public Project(Stream stream, string protectionPassword)
 
 ## Project(string, LoadOptions) {#constructor_11}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из шаблона (существующий файл mpp или mpt) с указанным экземпляром класса[`LoadOptions`](../../loadoptions).
+Инициализирует новый экземпляр[`Project`](../../project) class из шаблона (существующий файл mpp или mpt) с указанным экземпляром[`LoadOptions`](../../loadoptions) класс.
 
 ```csharp
 public Project(string projectTemplate, LoadOptions options)
@@ -252,7 +252,7 @@ public Project(string projectTemplate, LoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | projectTemplate | String | Путь к шаблону для создания проекта из |
-| options | LoadOptions | указанный экземпляр класса[`LoadOptions`](../../loadoptions). |
+| options | LoadOptions | указанный экземпляр[`LoadOptions`](../../loadoptions) учебный класс. |
 
 ### Смотрите также
 
@@ -265,7 +265,7 @@ public Project(string projectTemplate, LoadOptions options)
 
 ## Project(Stream, LoadOptions) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Project`](../../project)из Stream с указанным экземпляр класса[`LoadOptions`](../../loadoptions).
+Инициализирует новый экземпляр[`Project`](../../project) класс из Stream с указанным экземпляром[`LoadOptions`](../../loadoptions) класс.
 
 ```csharp
 public Project(Stream stream, LoadOptions options)
@@ -273,8 +273,8 @@ public Project(Stream stream, LoadOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток проектаStreamclass |
-| options | LoadOptions | указанный экземпляр класса[`LoadOptions`](../../loadoptions)class |
+| stream | Stream | Поток проектаStreamучебный класс |
+| options | LoadOptions | указанный экземпляр[`LoadOptions`](../../loadoptions)учебный класс |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RemainingWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 为完成分配而安排的剩余工作
+description: 为完成任务而安排的剩余工作
 type: docs
 weight: 460
 url: /zh/net/aspose.tasks/asn/remainingwork/
 ---
 ## Asn.RemainingWork field
 
-为完成分配而安排的剩余工作。
+为完成任务而安排的剩余工作。
 
 ```csharp
 public static readonly Key<Duration, AsnKey> RemainingWork;

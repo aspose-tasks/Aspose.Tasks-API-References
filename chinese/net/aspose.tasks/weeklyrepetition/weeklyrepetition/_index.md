@@ -1,14 +1,14 @@
 ---
 title: WeeklyRepetition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化WeeklyRepetitionaspose.tasks/weeklyrepetition类的新实例
+description: 初始化WeeklyRepetitionaspose.tasks/weeklyrepetition类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/weeklyrepetition/weeklyrepetition/
 ---
 ## WeeklyRepetition constructor
 
-初始化[`WeeklyRepetition`](../../weeklyrepetition)类的新实例。
+初始化[`WeeklyRepetition`](../../weeklyrepetition)类.
 
 ```csharp
 public WeeklyRepetition()

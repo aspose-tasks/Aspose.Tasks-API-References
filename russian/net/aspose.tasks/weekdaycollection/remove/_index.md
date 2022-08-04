@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Tasks для .NET API
-description: УдаляетWeekDayaspose.tasks/weekdayуказанный если есть.
+description: УдаляетWeekDayaspose.tasks/weekday указано если есть.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/weekdaycollection/remove/
 ---
 ## WeekDayCollection.Remove method
 
-Удаляет[`WeekDay`](../../weekday)указанный, если есть.
+Удаляет[`WeekDay`](../../weekday) указано, если есть.
 
 ```csharp
 public bool Remove(WeekDay item)
@@ -16,11 +16,11 @@ public bool Remove(WeekDay item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | WeekDay | Элемент для удаления. |
+| item | WeekDay | Элемент, который необходимо удалить. |
 
 ### Возвращаемое значение
 
-True, если был удален[`WeekDay`](../../weekday), false, если такой элемент не найден.
+Правда, если[`WeekDay`](../../weekday) был удален, false, если такой элемент не был найден.
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public GanttChartColumn(string name, int width, TaskToColumnTextConverter conver
 | --- | --- | --- |
 | name | String | Имя столбца. |
 | width | Int32 | Ширина столбца в пикселях. |
-| converter | TaskToColumnTextConverter | Преобразователь данных задачи в текст столбца. |
+| converter | TaskToColumnTextConverter | Конвертер данных задачи в текст столбца. |
 | field | Field | Поле столбца. |
 
 ### Смотрите также
@@ -43,7 +43,7 @@ public GanttChartColumn(string name, int width, TaskToColumnTextConverter conver
 | --- | --- | --- |
 | name | String | Имя столбца. |
 | width | Int32 | Ширина столбца в пикселях. |
-| converter | TaskToColumnTextConverter | Преобразователь данных задачи в текст столбца. |
+| converter | TaskToColumnTextConverter | Конвертер данных задачи в текст столбца. |
 
 ### Смотрите также
 

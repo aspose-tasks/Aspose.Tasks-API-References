@@ -3,7 +3,7 @@ title: TaskBarTextConverter
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Пользовательский конвертер данных задачи в текст строки.
 type: docs
-weight: 3000
+weight: 3010
 url: /ru/net/aspose.tasks.visualization/taskbartextconverter/
 ---
 ## TaskBarTextConverter delegate

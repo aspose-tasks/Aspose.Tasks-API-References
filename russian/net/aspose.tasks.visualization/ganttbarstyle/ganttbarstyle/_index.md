@@ -1,14 +1,14 @@
 ---
 title: GanttBarStyle
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаGanttBarStyleaspose.tasks.visualization/ganttbarstyle.
+description: Инициализирует новый экземплярGanttBarStyleaspose.tasks.visualization/ganttbarstyle класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/ganttbarstyle/ganttbarstyle/
 ---
 ## GanttBarStyle constructor
 
-Инициализирует новый экземпляр класса[`GanttBarStyle`](../../ganttbarstyle).
+Инициализирует новый экземпляр[`GanttBarStyle`](../../ganttbarstyle) класс.
 
 ```csharp
 public GanttBarStyle()

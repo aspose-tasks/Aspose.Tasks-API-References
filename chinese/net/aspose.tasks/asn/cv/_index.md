@@ -1,14 +1,14 @@
 ---
 title: CV
 second_title: Aspose.Tasks for .NET API 参考
-description: 挣值成本差异 CV 是分配的 BCWP已完成工作的预算成本与 ACWP已完成工作的实际成本之间的差值
+description: 挣值成本差异 CV 是分配的 BCWP已完成工作的预算成本和 ACWP已完成工作的实际成本之间的差值
 type: docs
 weight: 220
 url: /zh/net/aspose.tasks/asn/cv/
 ---
 ## Asn.CV field
 
-挣值成本差异。 CV 是分配的 BCWP（已完成工作的预算成本）与 ACWP（已完成工作的实际成本）之间的差值。
+挣值成本差异。 CV 是分配的 BCWP（已完成工作的预算成本）和 ACWP（已完成工作的实际成本）之间的差值。
 
 ```csharp
 public static readonly Key<double, AsnKey> CV;

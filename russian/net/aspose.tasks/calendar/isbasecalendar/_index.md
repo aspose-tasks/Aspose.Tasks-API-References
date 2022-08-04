@@ -1,14 +1,14 @@
 ---
 title: IsBaseCalendar
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает значение указывающее является ли календарь базовым календарем. Только чтениеBoolean.
+description: Получает значение указывающее является ли календарь базовым. Только для чтенияBoolean .
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/calendar/isbasecalendar/
 ---
 ## Calendar.IsBaseCalendar property
 
-Получает значение, указывающее, является ли календарь базовым календарем. Только чтениеBoolean.
+Получает значение, указывающее, является ли календарь базовым. Только для чтенияBoolean .
 
 ```csharp
 public bool IsBaseCalendar { get; }

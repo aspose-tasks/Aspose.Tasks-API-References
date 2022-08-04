@@ -1,14 +1,14 @@
 ---
 title: DailyDayNumber
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置每日天数
+description: 获取或设置每天的天数
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.visualization/recurringinterval/dailydaynumber/
 ---
 ## RecurringInterval.DailyDayNumber property
 
-获取或设置每日天数。
+获取或设置每天的天数。
 
 ```csharp
 public int DailyDayNumber { get; set; }

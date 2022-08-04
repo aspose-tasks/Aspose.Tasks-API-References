@@ -1,14 +1,14 @@
 ---
 title: TaskGroups
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取所有基于任务的组定义 TaskGroups 是Groupaspose.tasks/group对象的集合
+description: 获取所有基于任务的组定义 TaskGroups 是一个集合Groupaspose.tasks/group对象.
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks/project/taskgroups/
 ---
 ## Project.TaskGroups property
 
-获取所有基于任务的组定义。 TaskGroups 是[`Group`](../../group)对象的集合。
+获取所有基于任务的组定义。 TaskGroups 是一个集合[`Group`](../../group)对象.
 
 ```csharp
 public GroupCollection TaskGroups { get; }

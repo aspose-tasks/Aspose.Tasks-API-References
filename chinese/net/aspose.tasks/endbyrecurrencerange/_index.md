@@ -1,14 +1,14 @@
 ---
 title: EndByRecurrenceRange
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示重复任务的重复范围受完成天数限制
+description: 代表重复任务的重复范围受完成天数限制
 type: docs
 weight: 500
 url: /zh/net/aspose.tasks/endbyrecurrencerange/
 ---
 ## EndByRecurrenceRange class
 
-表示重复任务的重复范围，受完成天数限制。
+代表重复任务的重复范围，受完成天数限制。
 
 ```csharp
 public class EndByRecurrenceRange : RecurrenceRangeBase
@@ -18,13 +18,13 @@ public class EndByRecurrenceRange : RecurrenceRangeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EndByRecurrenceRange](endbyrecurrencerange)() | 初始化[`EndByRecurrenceRange`](../endbyrecurrencerange)类的新实例。 |
+| [EndByRecurrenceRange](endbyrecurrencerange)() | 初始化[`EndByRecurrenceRange`](../endbyrecurrencerange)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Finish](../../aspose.tasks/endbyrecurrencerange/finish) { get; set; } | 获取或设置限制重复任务重复范围的日期。 |
+| [Finish](../../aspose.tasks/endbyrecurrencerange/finish) { get; set; } | 获取或设置限制循环任务循环范围的日期。 |
 | [Start](../../aspose.tasks/recurrencerangebase/start) { get; set; } | 获取或设置循环任务的循环范围的开始日期。 |
 
 ### 也可以看看

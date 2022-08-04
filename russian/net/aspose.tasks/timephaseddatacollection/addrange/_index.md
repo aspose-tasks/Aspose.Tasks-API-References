@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавляет коллекцию экземпляровTimephasedDataaspose.tasks/timephaseddataк этому объекту коллекции.
+description: Добавляет коллекциюTimephasedDataaspose.tasks/timephaseddata экземпляров в этот объект коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/timephaseddatacollection/addrange/
 ---
 ## TimephasedDataCollection.AddRange method
 
-Добавляет коллекцию экземпляров[`TimephasedData`](../../timephaseddata)к этому объекту коллекции.
+Добавляет коллекцию[`TimephasedData`](../../timephaseddata) экземпляров в этот объект коллекции.
 
 ```csharp
 public void AddRange(IEnumerable<TimephasedData> timephasedCollection)
@@ -16,7 +16,7 @@ public void AddRange(IEnumerable<TimephasedData> timephasedCollection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| timephasedCollection | IEnumerable`1 | Набор объектов[`TimephasedData`](../../timephaseddata)для добавления. |
+| timephasedCollection | IEnumerable`1 | Коллекция[`TimephasedData`](../../timephaseddata) объекты для добавления. |
 
 ### Смотрите также
 

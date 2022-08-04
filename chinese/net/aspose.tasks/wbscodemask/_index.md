@@ -3,7 +3,7 @@ title: WBSCodeMask
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示 WBS 代码掩码
 type: docs
-weight: 3110
+weight: 3120
 url: /zh/net/aspose.tasks/wbscodemask/
 ---
 ## WBSCodeMask class
@@ -18,15 +18,15 @@ public class WBSCodeMask
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WBSCodeMask](wbscodemask)() | 初始化[`WBSCodeMask`](../wbscodemask)类的新实例。 |
+| [WBSCodeMask](wbscodemask)() | 初始化[`WBSCodeMask`](../wbscodemask)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Length](../../aspose.tasks/wbscodemask/length) { get; set; } | 获取或设置代码串的字符数。 |
+| [Length](../../aspose.tasks/wbscodemask/length) { get; set; } | 获取或设置码串的字符数。 |
 | [Level](../../aspose.tasks/wbscodemask/level) { get; } | 获取掩码级别。 |
-| [Separator](../../aspose.tasks/wbscodemask/separator) { get; set; } | 获取或设置代码字符串的分隔符。  默认值为期间。 |
+| [Separator](../../aspose.tasks/wbscodemask/separator) { get; set; } | 获取或设置代码串的分隔符 默认值为期间。 |
 | [Sequence](../../aspose.tasks/wbscodemask/sequence) { get; set; } | 获取或设置码串的字符类型。 |
 
 ### 也可以看看

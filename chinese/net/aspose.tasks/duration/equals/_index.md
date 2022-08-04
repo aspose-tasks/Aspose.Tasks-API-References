@@ -20,7 +20,7 @@ public bool Equals(Duration other)
 
 ### 返回值
 
-返回 **True** 如果其他 Duration 实例具有与此实例相同的 TimeSpan 和 TimeUnit 值；否则， **false** 。
+退货 **真的**如果其他 Duration 实例具有与此实例相同的 TimeSpan 和 TimeUnit 值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果指定的对象是一个与此具有相同 TimeSpan 和 TimeUnit 值的 Duration实例;否则， **false** 。
+**真的**如果指定的对象是与此实例具有相同 TimeSpan 和 TimeUnit 值的 Duration；否则， **错误的**.
 
 ### 也可以看看
 

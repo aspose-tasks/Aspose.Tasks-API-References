@@ -1,14 +1,14 @@
 ---
 title: ICssSavingCallback
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示一个回调该回调被调用以创建资源来存储 CSS
+description: 表示一个回调该回调被调用以创建资源以存储 CSS
 type: docs
 weight: 770
 url: /zh/net/aspose.tasks/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
 
-表示一个回调，该回调被调用以创建资源来存储 CSS。
+表示一个回调，该回调被调用以创建资源以存储 CSS。
 
 ```csharp
 public interface ICssSavingCallback

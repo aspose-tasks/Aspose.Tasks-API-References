@@ -1,14 +1,14 @@
 ---
 title: GetPageCount
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает количество страниц для проекта который будет отображаться с использованием заданногоSaveOptionsaspose.tasks.saving/saveoptions.
+description: Возвращает количество страниц для проекта который будет отображаться с использованием заданногоSaveOptionsaspose.tasks.saving/saveoptions .
 type: docs
 weight: 300
 url: /ru/net/aspose.tasks/project/getpagecount/
 ---
 ## GetPageCount(SaveOptions) {#getpagecount_1}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`SaveOptions`](../../../aspose.tasks.saving/saveoptions).
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`SaveOptions`](../../../aspose.tasks.saving/saveoptions) .
 
 ```csharp
 public int GetPageCount(SaveOptions saveOptions)
@@ -16,15 +16,15 @@ public int GetPageCount(SaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveOptions | SaveOptions | Параметры сохранения для получения количества страниц. |
+| saveOptions | SaveOptions | Параметры сохранения, для которых нужно получить количество страниц. |
 
 ### Возвращаемое значение
 
-число отображаемых страниц.
+количество страниц для отображения.
 
 ### Примеры
 
-В этом примере в консоль записывается экземпляр HtmlSaveOptions и количество страниц в результирующем HTML.
+В этом примере экземпляр HtmlSaveOptions и количество страниц в результирующем HTML записывается в консоль.
 
 ```csharp
 [C#]
@@ -53,7 +53,7 @@ Console.WriteLine(project.GetPageCount(saveOptions));
 
 ## GetPageCount() {#getpagecount}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием значения по умолчанию[`Timescale`](../../../aspose.tasks.visualization/timescale)(дни).
+Возвращает количество страниц для проекта, который будет отображаться по умолчанию.[`Timescale`](../../../aspose.tasks.visualization/timescale) (Дней).
 
 ```csharp
 public int GetPageCount()
@@ -61,7 +61,7 @@ public int GetPageCount()
 
 ### Возвращаемое значение
 
-Количество отображаемых страниц.
+Количество страниц для отображения.
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ public int GetPageCount()
 
 ## GetPageCount(Timescale) {#getpagecount_6}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale).
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) .
 
 ```csharp
 public int GetPageCount(Timescale scale)
@@ -81,11 +81,11 @@ public int GetPageCount(Timescale scale)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| scale | Timescale | Масштаб для получения количества страниц. |
+| scale | Timescale | Масштаб, для которого нужно получить количество страниц. |
 
 ### Возвращаемое значение
 
-Количество отображаемых страниц.
+Количество страниц для отображения.
 
 ### Смотрите также
 
@@ -98,7 +98,7 @@ public int GetPageCount(Timescale scale)
 
 ## GetPageCount(PresentationFormat) {#getpagecount_4}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием значения по умолчанию[`Timescale`](../../../aspose.tasks.visualization/timescale)(дней) и заданного[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
+Возвращает количество страниц для проекта, который будет отображаться по умолчанию.[`Timescale`](../../../aspose.tasks.visualization/timescale) (Дней) и дано[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
 
 ```csharp
 public int GetPageCount(PresentationFormat format)
@@ -110,7 +110,7 @@ public int GetPageCount(PresentationFormat format)
 
 ### Возвращаемое значение
 
-Количество отображаемых страниц.
+Количество страниц для отображения.
 
 ### Смотрите также
 
@@ -123,7 +123,7 @@ public int GetPageCount(PresentationFormat format)
 
 ## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданных[`Timescale`](../../../aspose.tasks.visualization/timescale)и[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat).
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) а также[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) .
 
 ```csharp
 public int GetPageCount(PresentationFormat format, Timescale scale)
@@ -132,11 +132,11 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | format | PresentationFormat | Формат, для которого нужно получить количество страниц. |
-| scale | Timescale | Масштаб, для которого необходимо получить количество страниц. |
+| scale | Timescale | Масштаб, для которого нужно получить количество страниц. |
 
 ### Возвращаемое значение
 
-число отображаемых страниц.
+количество страниц для отображения.
 
 ### Смотрите также
 
@@ -150,7 +150,7 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 
 ## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale),[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)и диапазон дат.
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) и диапазон дат.
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, DateTime endDate)
@@ -158,14 +158,14 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageSize | PageSize | Размер, для которого необходимо получить количество страниц. |
-| scale | Timescale | Масштаб, для которого необходимо получить количество страниц. |
-| startDate | DateTime | Дата начала, для которой необходимо получить количество страниц. |
-| endDate | DateTime | Дата окончания, для которой необходимо получить количество страниц. |
+| pageSize | PageSize | Размер, для которого нужно получить количество страниц. |
+| scale | Timescale | Масштаб, для которого нужно получить количество страниц. |
+| startDate | DateTime | Дата начала, для которой нужно получить количество страниц. |
+| endDate | DateTime | Дата окончания, для которой нужно получить количество страниц. |
 
 ### Возвращаемое значение
 
-Количество отображаемых страниц.
+Количество страниц для отображения.
 
 ### Смотрите также
 
@@ -179,7 +179,7 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 
 ## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданных[`Timescale`](../../../aspose.tasks.visualization/timescale)и[`PageSize`](../../../aspose.tasks.visualization/pagesize).
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) а также[`PageSize`](../../../aspose.tasks.visualization/pagesize) .
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale)
@@ -187,12 +187,12 @@ public int GetPageCount(PageSize pageSize, Timescale scale)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageSize | PageSize | Размер, для которого необходимо получить количество страниц. |
-| scale | Timescale | Масштаб, для которого необходимо получить количество страниц. |
+| pageSize | PageSize | Размер, для которого нужно получить количество страниц. |
+| scale | Timescale | Масштаб, для которого нужно получить количество страниц. |
 
 ### Возвращаемое значение
 
-Количество отображаемых страниц.
+Количество страниц для отображения.
 
 ### Смотрите также
 

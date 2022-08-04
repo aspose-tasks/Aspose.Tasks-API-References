@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ВставляетWeekDayaspose.tasks/weekdayпо указанному индексу.
+description: ВставкиWeekDayaspose.tasks/weekday по указанному индексу.
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/weekdaycollection/insert/
 ---
 ## WeekDayCollection.Insert method
 
-Вставляет[`WeekDay`](../../weekday)по указанному индексу.
+Вставки[`WeekDay`](../../weekday) по указанному индексу.
 
 ```csharp
 public void Insert(int index, WeekDay item)

@@ -1,14 +1,14 @@
 ---
 title: DayTypeCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовDayType./daytype.
+description: Представляет наборDayType./daytype объекты.
 type: docs
 weight: 450
 url: /ru/net/aspose.tasks/daytypecollection/
 ---
 ## DayTypeCollection class
 
-Представляет набор объектов[`DayType`](../daytype).
+Представляет набор[`DayType`](../daytype) объекты.
 
 ```csharp
 public class DayTypeCollection : IList<DayType>
@@ -19,7 +19,7 @@ public class DayTypeCollection : IList<DayType>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/daytypecollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/daytypecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/daytypecollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks/daytypecollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
 
 ## Методы
@@ -28,7 +28,7 @@ public class DayTypeCollection : IList<DayType>
 | --- | --- |
 | [Add](../../aspose.tasks/daytypecollection/add)(DayType) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/daytypecollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/daytypecollection/contains)(DayType) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/daytypecollection/contains)(DayType) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/daytypecollection/copyto)(DayType[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/daytypecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/daytypecollection/indexof)(DayType) | Определяет индекс указанного элемента в этой коллекции. |

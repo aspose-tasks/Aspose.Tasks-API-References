@@ -1,14 +1,14 @@
 ---
 title: GetProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 从 Project Online 帐户  Project Server 实例中获取具有指定 guid 的项目
+description: 从 Project Online 帐户Project Server 实例中获取具有指定 guid 的项目
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/projectservermanager/getproject/
 ---
 ## ProjectServerManager.GetProject method
 
-从 Project Online 帐户 \ Project Server 实例中获取具有指定 guid 的项目。
+从 Project Online 帐户\Project Server 实例中获取具有指定 guid 的项目。
 
 ```csharp
 public Project GetProject(Guid projectGuid)
@@ -16,11 +16,11 @@ public Project GetProject(Guid projectGuid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| projectGuid | Guid | 要读取的项目的 Guid。 |
+| projectGuid | Guid | 要阅读的项目指南。 |
 
 ### 返回值
 
-[`Project`](../../project)类的实例，代表从 Project Online \ Project 读取的项目服务器。
+实例[`Project`](../../project)代表从 Project Online \ Project Server 读取的项目的类。
 
 ### 也可以看看
 

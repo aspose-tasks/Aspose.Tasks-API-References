@@ -1,14 +1,14 @@
 ---
 title: TimeSpan
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетTimeSpanaspose.tasks/duration/timespanэкземпляр этого объекта Duration.  Экземпляр TimeSpan этого объекта Duration.
+description: получаетTimeSpanaspose.tasks/duration/timespan экземпляр этого объекта Duration. Экземпляр TimeSpan этого объекта Duration.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/duration/timespan/
 ---
 ## Duration.TimeSpan property
 
-Получает`TimeSpan`экземпляр этого объекта Duration.  Экземпляр TimeSpan этого объекта Duration.
+получает`TimeSpan` экземпляр этого объекта Duration. Экземпляр TimeSpan этого объекта Duration.
 
 ```csharp
 public TimeSpan TimeSpan { get; }

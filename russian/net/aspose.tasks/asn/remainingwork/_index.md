@@ -1,14 +1,14 @@
 ---
 title: RemainingWork
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Оставшаяся работа запланирована для выполнения задания.
+description: Оставшаяся работа запланированная для выполнения задания.
 type: docs
 weight: 460
 url: /ru/net/aspose.tasks/asn/remainingwork/
 ---
 ## Asn.RemainingWork field
 
-Оставшаяся работа запланирована для выполнения задания.
+Оставшаяся работа, запланированная для выполнения задания.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> RemainingWork;

@@ -1,14 +1,14 @@
 ---
 title: WeeklyDays
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置每周重复模式中使用的天数集合
+description: 获取或设置在每周重复模式中使用的天数集合
 type: docs
 weight: 160
 url: /zh/net/aspose.tasks/recurringtaskinfo/weeklydays/
 ---
 ## RecurringTaskInfo.WeeklyDays property
 
-获取或设置每周重复模式中使用的天数集合。
+获取或设置在每周重复模式中使用的天数集合。
 
 ```csharp
 public WeekdayType WeeklyDays { get; set; }

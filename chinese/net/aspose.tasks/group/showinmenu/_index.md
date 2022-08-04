@@ -1,14 +1,14 @@
 ---
 title: ShowInMenu
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示 Project 是否在功能区的组下拉列表中显示组名
+description: 获取或设置一个值该值指示 Project 是否在功能区的 Group 下拉列表中显示组名
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/group/showinmenu/
 ---
 ## Group.ShowInMenu property
 
-获取或设置一个值，该值指示 Project 是否在功能区的“组”下拉列表中显示组名。
+获取或设置一个值，该值指示 Project 是否在功能区的 Group 下拉列表中显示组名。
 
 ```csharp
 public bool ShowInMenu { get; set; }

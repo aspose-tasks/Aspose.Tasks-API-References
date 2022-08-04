@@ -1,14 +1,14 @@
 ---
 title: Contact
 second_title: Aspose.Tasks for .NET API 参考
-description: 负责某项任务的个人姓名
+description: 负责某项任务的个人的姓名
 type: docs
 weight: 220
 url: /zh/net/aspose.tasks/tsk/contact/
 ---
 ## Tsk.Contact field
 
-负责某项任务的个人姓名。
+负责某项任务的个人的姓名。
 
 ```csharp
 public static readonly Key<string, TaskKey> Contact;

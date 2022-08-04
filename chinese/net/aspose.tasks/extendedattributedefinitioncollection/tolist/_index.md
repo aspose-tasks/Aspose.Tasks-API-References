@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API 参考
-description: 将此 ExtendedAttributeDefinitionCollection 对象转换为包含ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition类实例的列表
+description: 将此 ExtendedAttributeDefinitionCollection 对象转换为包含ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition类.
 type: docs
 weight: 150
 url: /zh/net/aspose.tasks/extendedattributedefinitioncollection/tolist/
 ---
 ## ExtendedAttributeDefinitionCollection.ToList method
 
-将此 ExtendedAttributeDefinitionCollection 对象转换为包含[`ExtendedAttributeDefinition`](../../extendedattributedefinition)类实例的列表。
+将此 ExtendedAttributeDefinitionCollection 对象转换为包含[`ExtendedAttributeDefinition`](../../extendedattributedefinition)类.
 
 ```csharp
 public List<ExtendedAttributeDefinition> ToList()
@@ -16,7 +16,7 @@ public List<ExtendedAttributeDefinition> ToList()
 
 ### 返回值
 
-列表包含[`ExtendedAttributeDefinition`](../../extendedattributedefinition)类的实例。
+包含实例的列表[`ExtendedAttributeDefinition`](../../extendedattributedefinition)班级。
 
 ### 也可以看看
 

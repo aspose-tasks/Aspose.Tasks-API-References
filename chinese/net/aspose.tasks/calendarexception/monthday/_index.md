@@ -1,14 +1,14 @@
 ---
 title: MonthDay
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置安排异常重复发生的日期
+description: 获取或设置每月计划异常重复发生的日期
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/calendarexception/monthday/
 ---
 ## CalendarException.MonthDay property
 
-获取或设置安排异常重复发生的日期。
+获取或设置每月计划异常重复发生的日期。
 
 ```csharp
 public int MonthDay { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeWork
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фактический объем сверхурочной работы уже выполненной ресурсом назначенным задачам.
+description: Фактическое количество сверхурочных работ уже выполненных ресурсом назначенным задачам.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/rsc/actualovertimework/
 ---
 ## Rsc.ActualOvertimeWork field
 
-Фактический объем сверхурочной работы, уже выполненной ресурсом, назначенным задачам.
+Фактическое количество сверхурочных работ, уже выполненных ресурсом, назначенным задачам.
 
 ```csharp
 public static readonly Key<Duration, RscKey> ActualOvertimeWork;

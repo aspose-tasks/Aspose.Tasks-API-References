@@ -26,7 +26,7 @@ public class AvailabilityPeriod
 | --- | --- |
 | [AvailableFrom](../../aspose.tasks/availabilityperiod/availablefrom) { get; set; } | 获取或设置资源在指定时间段内可用的日期。 |
 | [AvailableTo](../../aspose.tasks/availabilityperiod/availableto) { get; set; } | 获取或设置资源在指定时间段内可用的最后日期。 |
-| [AvailableUnits](../../aspose.tasks/availabilityperiod/availableunits) { get; set; } | 获取或设置指定时间段内可用资源的百分比。 |
+| [AvailableUnits](../../aspose.tasks/availabilityperiod/availableunits) { get; set; } | 获取或设置资源在指定时间段内可用的百分比。 |
 
 ### 也可以看看
 

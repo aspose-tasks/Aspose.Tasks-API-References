@@ -1,14 +1,14 @@
 ---
 title: SpreadActualCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет распространяются ли фактические затраты на дату отчета о состоянии.
+description: Определяет распределяются ли фактические затраты на дату отчета о состоянии.
 type: docs
 weight: 650
 url: /ru/net/aspose.tasks/prj/spreadactualcost/
 ---
 ## Prj.SpreadActualCost field
 
-Определяет, распространяются ли фактические затраты на дату отчета о состоянии.
+Определяет, распределяются ли фактические затраты на дату отчета о состоянии.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadActualCost;

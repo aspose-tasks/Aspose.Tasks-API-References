@@ -1,14 +1,14 @@
 ---
 title: Analyze
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Выполняет анализ рисков для указанного проекта. Анализ основан на моделировании методом Монте-Карло и результатом является экземпляр классаRiskAnalysisResultaspose.tasks.riskanalysis/riskanalysisresult.
+description: Выполняет анализ рисков для указанного проекта. Анализ основан на моделировании Монте-Карло и результатом является примерRiskAnalysisResultaspose.tasks.riskanalysis/riskanalysisresult класс.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.riskanalysis/riskanalyzer/analyze/
 ---
 ## RiskAnalyzer.Analyze method
 
-Выполняет анализ рисков для указанного проекта. Анализ основан на моделировании методом Монте-Карло, и результатом является экземпляр класса[`RiskAnalysisResult`](../../riskanalysisresult).
+Выполняет анализ рисков для указанного проекта. Анализ основан на моделировании Монте-Карло, и результатом является пример[`RiskAnalysisResult`](../../riskanalysisresult) класс.
 
 ```csharp
 public RiskAnalysisResult Analyze(Project project)
@@ -16,11 +16,11 @@ public RiskAnalysisResult Analyze(Project project)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| project | Project | указанный экземпляр класса[`Project`](../../../aspose.tasks/project)для анализа. |
+| project | Project | указанный экземпляр[`Project`](../../../aspose.tasks/project) класс для анализа. |
 
 ### Возвращаемое значение
 
-экземпляр[`RiskAnalysisResult`](../../riskanalysisresult)который представляет результат анализа.
+экземпляр[`RiskAnalysisResult`](../../riskanalysisresult) который представляет собой результат анализа.
 
 ### Смотрите также
 

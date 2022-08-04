@@ -1,14 +1,14 @@
 ---
 title: WeeklyDays
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取每周进度行的天数列表
+description: 获取每周进度线的天数列表
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks.visualization/recurringinterval/weeklydays/
 ---
 ## RecurringInterval.WeeklyDays property
 
-获取每周进度行的天数列表。
+获取每周进度线的天数列表。
 
 ```csharp
 public List<DayType> WeeklyDays { get; }

@@ -1,14 +1,14 @@
 ---
 title: ExternalTaskProject
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Исходное местоположение и идентификатор задачи внешней задачи.
+description: Исходное расположение и идентификатор задачи внешней задачи.
 type: docs
 weight: 380
 url: /ru/net/aspose.tasks/tsk/externaltaskproject/
 ---
 ## Tsk.ExternalTaskProject field
 
-Исходное местоположение и идентификатор задачи внешней задачи.
+Исходное расположение и идентификатор задачи внешней задачи.
 
 ```csharp
 public static readonly Key<string, TaskKey> ExternalTaskProject;

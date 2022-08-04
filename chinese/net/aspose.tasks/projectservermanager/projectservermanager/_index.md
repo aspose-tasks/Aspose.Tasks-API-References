@@ -1,14 +1,14 @@
 ---
 title: ProjectServerManager
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ProjectServerManageraspose.tasks/projectservermanager类的新实例
+description: 初始化ProjectServerManageraspose.tasks/projectservermanager类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/projectservermanager/projectservermanager/
 ---
 ## ProjectServerManager constructor
 
-初始化[`ProjectServerManager`](../../projectservermanager)类的新实例。
+初始化[`ProjectServerManager`](../../projectservermanager)类.
 
 ```csharp
 public ProjectServerManager(ProjectServerCredentials credentials)
@@ -30,13 +30,13 @@ var projectServerCredentials = new ProjectServerCredentials(site, windowsCredent
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
 ```
 
+此示例演示如何创建 ProjectServerManager 实例以访问 Project Online 服务中的帐户。
+
 ```csharp
 [C#]
 var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "密码");
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
 ```
-
-此示例演示如何创建 ProjectServerManager 实例以访问 Project Online 服务中的帐户。
 
 ### 也可以看看
 

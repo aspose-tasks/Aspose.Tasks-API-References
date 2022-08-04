@@ -1,14 +1,14 @@
 ---
 title: MonthlyOrdinalNumber
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置每月重复模式的序数  可以是OrdinalNumberaspose.tasks/ordinalnumber枚举的值之一
+description: 获取或设置每月重复模式的序数 可以是以下值之一OrdinalNumberaspose.tasks/ordinalnumber枚举
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/recurringtaskinfo/monthlyordinalnumber/
 ---
 ## RecurringTaskInfo.MonthlyOrdinalNumber property
 
-获取或设置每月重复模式的序数。  可以是[`OrdinalNumber`](../../ordinalnumber)枚举的值之一。
+获取或设置每月重复模式的序数。 可以是以下值之一[`OrdinalNumber`](../../ordinalnumber)枚举。
 
 ```csharp
 public OrdinalNumber MonthlyOrdinalNumber { get; set; }

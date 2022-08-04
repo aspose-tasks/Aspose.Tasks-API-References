@@ -1,14 +1,14 @@
 ---
 title: StartSlackTimeSpan
 second_title: Aspose.Tasks for .NET API 参考
-description: Early Start 和 Late Start 日期之间的持续时间
+description: 提前开始日期和延迟开始日期之间的持续时间
 type: docs
 weight: 1030
 url: /zh/net/aspose.tasks/tsk/startslacktimespan/
 ---
 ## Tsk.StartSlackTimeSpan field
 
-Early Start 和 Late Start 日期之间的持续时间。
+提前开始日期和延迟开始日期之间的持续时间。
 
 ```csharp
 public static readonly Key<TimeSpan, TaskKey> StartSlackTimeSpan;

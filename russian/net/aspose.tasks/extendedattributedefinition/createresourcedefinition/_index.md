@@ -1,14 +1,14 @@
 ---
 title: CreateResourceDefinition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фабричный метод который создает простое расширенное определение атрибута которое Microsoft Project показывает как Нет. Он имеетCalculationTypeaspose.tasks/extendedattributedefinition/calculationtypeравноNoneи может использоваться в Только ресурс. Вы должны указатьcustomFieldTypefieldIdиaliasпри вызове этого метода.
+description: Фабричный метод который создает простое определение расширенного атрибута которое Microsoft Project показывает как Нет. Он имеетCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype равноNone и может использоваться только в Ресурсе. Необходимо указатьcustomFieldType fieldId а такжеalias при вызове этого метода.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/extendedattributedefinition/createresourcedefinition/
 ---
 ## CreateResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createresourcedefinition}
 
-Фабричный метод, который создает простое расширенное определение атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype)равноNoneи может использоваться в Только ресурс. Вы должны указать*customFieldType*,*fieldId*и*alias*при вызове этого метода.
+Фабричный метод, который создает простое определение расширенного атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype) равноNone и может использоваться только в Ресурсе. Необходимо указать*customFieldType* ,*fieldId* а также*alias* при вызове этого метода.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldType customFieldType, 
@@ -17,13 +17,13 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldTy
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Указанный[`CustomFieldType`](../../customfieldtype)тип. |
-| fieldId | ExtendedAttributeResource | Указанный[`ExtendedAttributeResource`](../../extendedattributeresource)идентификатор поля. |
-| alias | String | УказанныйStringпсевдоним. |
+| customFieldType | CustomFieldType | Указанный[`CustomFieldType`](../../customfieldtype) тип. |
+| fieldId | ExtendedAttributeResource | Указанный[`ExtendedAttributeResource`](../../extendedattributeresource) идентификатор поля. |
+| alias | String | УказанныйString псевдоним. |
 
 ### Возвращаемое значение
 
-Создан экземпляр класса[`ExtendedAttributeDefinition`](../../extendedattributedefinition)с указанным*customFieldType*,*fieldId*и*alias*.
+Созданный экземпляр[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс с указанным*customFieldType* ,*fieldId* а также*alias*.
 
 ### Примеры
 
@@ -46,7 +46,7 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ## CreateResourceDefinition(ExtendedAttributeResource, string) {#createresourcedefinition_1}
 
-Фабричный метод, который создает простое расширенное определение атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype)равноNoneи может использоваться в Только ресурс. Вы должны указать*fieldId*и*alias*при вызове этого метода. Тип поля выводится из идентификатора поля.
+Фабричный метод, который создает простое определение расширенного атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype) равноNone и может использоваться только в Ресурсе. Необходимо указать*fieldId* а также*alias* при вызове этого метода. Тип поля выводится из идентификатора поля.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(
@@ -55,12 +55,12 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | Указанный[`ExtendedAttributeResource`](../../extendedattributeresource)идентификатор поля. |
-| alias | String | УказанныйStringпсевдоним. |
+| fieldId | ExtendedAttributeResource | Указанный[`ExtendedAttributeResource`](../../extendedattributeresource) идентификатор поля. |
+| alias | String | УказанныйString псевдоним. |
 
 ### Возвращаемое значение
 
-Создан экземпляр класса[`ExtendedAttributeDefinition`](../../extendedattributedefinition)с указанным*fieldId*и*псевдоним*.
+Созданный экземпляр[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс с указанным*fieldId* а также*alias*.
 
 ### Примеры
 

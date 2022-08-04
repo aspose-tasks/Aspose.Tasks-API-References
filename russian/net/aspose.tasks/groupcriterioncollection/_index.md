@@ -1,14 +1,14 @@
 ---
 title: GroupCriterionCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Содержит набор объектовGroupCriterion./groupcriterion. Реализует ICollectionltGroupCriteriongt интерфейс.
+description: Содержит коллекциюGroupCriterion./groupcriterion objects. Реализует интерфейс ICollectionltGroupCriteriongt.
 type: docs
 weight: 730
 url: /ru/net/aspose.tasks/groupcriterioncollection/
 ---
 ## GroupCriterionCollection class
 
-Содержит набор объектов[`GroupCriterion`](../groupcriterion). Реализует ICollection&lt;GroupCriterion&gt; интерфейс.
+Содержит коллекцию[`GroupCriterion`](../groupcriterion) objects. Реализует интерфейс ICollection&lt;GroupCriterion&gt;.
 
 ```csharp
 public class GroupCriterionCollection : IList<GroupCriterion>
@@ -19,7 +19,7 @@ public class GroupCriterionCollection : IList<GroupCriterion>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/groupcriterioncollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [ParentGroup](../../aspose.tasks/groupcriterioncollection/parentgroup) { get; } | Получает родителя объекта GroupCriterion. |
 
 ## Методы
@@ -28,11 +28,11 @@ public class GroupCriterionCollection : IList<GroupCriterion>
 | --- | --- |
 | [Add](../../aspose.tasks/groupcriterioncollection/add)(GroupCriterion) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/groupcriterioncollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/groupcriterioncollection/contains)(GroupCriterion) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/groupcriterioncollection/contains)(GroupCriterion) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/groupcriterioncollection/copyto)(GroupCriterion[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/groupcriterioncollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/groupcriterioncollection/remove)(GroupCriterion) | Удаляет первое вхождение определенного объекта из этой коллекции. |
-| [ToList](../../aspose.tasks/groupcriterioncollection/tolist)() | Преобразует коллекцию GroupCriterion в список объектов[`GroupCriterion`](../groupcriterion). |
+| [ToList](../../aspose.tasks/groupcriterioncollection/tolist)() | Преобразует коллекцию GroupCriterion в список[`GroupCriterion`](../groupcriterion) объекты. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Проверяет есть ли указанный элемент в списке. Выполняет линейный поиск On.
+description: Проверяет наличие указанного элемента в списке. Выполняет линейный поиск On.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/workingtimecollection/contains/
 ---
 ## WorkingTimeCollection.Contains method
 
-Проверяет, есть ли указанный элемент в списке. Выполняет линейный поиск O(n).
+Проверяет наличие указанного элемента в списке. Выполняет линейный поиск O(n).
 
 ```csharp
 public bool Contains(WorkingTime item)
@@ -16,11 +16,11 @@ public bool Contains(WorkingTime item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | WorkingTime | указанный элемент. |
+| item | WorkingTime | указанный предмет. |
 
 ### Возвращаемое значение
 
-Истина, если указанный элемент найден в списке, иначе ложь.
+True, если указанный элемент найден в списке, иначе false.
 
 ### Смотрите также
 

@@ -1,0 +1,57 @@
+---
+title: ResourceUsageView
+second_title: Riferimento all'API di Aspose.Tasks per .NET
+description: Rappresenta la visualizzazione dellutilizzo delle risorse in un progetto.
+type: docs
+weight: 1550
+url: /it/net/aspose.tasks/resourceusageview/
+---
+## ResourceUsageView class
+
+Rappresenta la visualizzazione dell'utilizzo delle risorse in un progetto.
+
+```csharp
+public sealed class ResourceUsageView : UsageView
+```
+
+## Proprietà
+
+| Nome | Descrizione |
+| --- | --- |
+| [AlignDetailsData](../../aspose.tasks/usageview/aligndetailsdata) { get; set; } | Ottiene o imposta l'allineamento dei dati dei dettagli. |
+| [BottomTimescaleTier](../../aspose.tasks/usageview/bottomtimescaletier) { get; set; } | Ottiene o imposta le impostazioni del livello di scala temporale inferiore della vista. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier) |
+| [DisplayDetailsHeaderColumn](../../aspose.tasks/usageview/displaydetailsheadercolumn) { get; set; } | Ottiene o imposta un valore che indica se visualizzare o meno la colonna dell'intestazione dei dettagli nella vista. |
+| [DisplayShortDetailHeaderNames](../../aspose.tasks/usageview/displayshortdetailheadernames) { get; set; } | Ottiene o imposta un valore che indica se visualizzare o meno nomi di intestazione di dettagli brevi. |
+| [FieldCollection](../../aspose.tasks/resourceusageview/fieldcollection) { get; } | Ottiene il[`ResourceUsageViewFieldCollection`](../resourceusageviewfieldcollection) oggetto di questo ResourceUsageView. |
+| [Filter](../../aspose.tasks/view/filter) { get; set; } | Ottiene o imposta un filtro utilizzato in una singola vista. |
+| [Group](../../aspose.tasks/view/group) { get; set; } | Ottiene o imposta un gruppo della vista singola. |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter) { get; set; } | Ottiene o imposta un valore che indica se Microsoft Project evidenzia il filtro per una singola visualizzazione. |
+| [MiddleTimescaleTier](../../aspose.tasks/usageview/middletimescaletier) { get; set; } | Ottiene o imposta le impostazioni del livello di scala temporale intermedia della vista. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier) . |
+| [Name](../../aspose.tasks/view/name) { get; set; } | Ottiene o imposta il nome di un oggetto View. |
+| [PageInfo](../../aspose.tasks/view/pageinfo) { get; } | Ottiene un'istanza di[`PageInfo`](../view/pageinfo)classe. Rappresenta i dati di configurazione della pagina che sono presenti nel formato file MPP. |
+| [ParentProject](../../aspose.tasks/view/parentproject) { get; } | Ottiene il padre dell'oggetto View. Sola lettura[`Project`](../project) . |
+| [RepeatDetailsHeaderOnAllRows](../../aspose.tasks/usageview/repeatdetailsheaderonallrows) { get; set; } | Ottiene o imposta un valore che indica se ripetere o meno l'intestazione dei dettagli su tutte le righe di assegnazione. |
+| [Screen](../../aspose.tasks/view/screen) { get; } | Ottiene il tipo di schermo per la vista singola. Sola lettura[`ViewScreen`](../viewscreen) . |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu) { get; set; } | Ottiene o imposta un valore che indica se Microsoft Project mostra il nome della visualizzazione singola negli elenchi a discesa Visualizza o Altre visualizzazioni nella barra multifunzione. |
+| [Table](../../aspose.tasks/view/table) { get; set; } | Ottiene o imposta una tabella della vista singola. |
+| [TimescaleSizePercentage](../../aspose.tasks/usageview/timescalesizepercentage) { get; set; } |  |
+| [TopTimescaleTier](../../aspose.tasks/usageview/toptimescaletier) { get; set; } | Ottiene o imposta le impostazioni del livello di scala temporale superiore della vista. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier) . |
+| [Type](../../aspose.tasks/view/type) { get; } | Ottiene il tipo di elemento nella visualizzazione singola, ad esempio attività o risorse. Sola lettura[`ItemType`](../itemtype) . |
+| [Uid](../../aspose.tasks/view/uid) { get; } | Ottiene l'identificatore univoco di una vista. |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements) { get; } | Ottiene una raccolta di oggetti che rappresentano il posizionamento e l'aspetto di[`OleObject`](../oleobject) nella vista. |
+
+## Metodi
+
+| Nome | Descrizione |
+| --- | --- |
+| [CompareTo](../../aspose.tasks/view/compareto)(View) | Confronta l'istanza corrente con un altro oggetto dello stesso tipo e restituisce un numero intero che indica se l'istanza corrente precede, segue o si trova nella stessa posizione nell'ordinamento dell'altro oggetto. |
+| override [Equals](../../aspose.tasks/view/equals)(object) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Restituisce un valore di codice hash per l'istanza di[`Resource`](../resource) classe. |
+
+### Guarda anche
+
+* class [UsageView](../usageview)
+* spazio dei nomi [Aspose.Tasks](../../aspose.tasks)
+* assemblea [Aspose.Tasks](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->

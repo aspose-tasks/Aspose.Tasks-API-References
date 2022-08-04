@@ -3,7 +3,7 @@ title: FontStyles
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定应用于文本的样式信息
 type: docs
-weight: 2660
+weight: 2670
 url: /zh/net/aspose.tasks.visualization/fontstyles/
 ---
 ## FontStyles enumeration
@@ -21,9 +21,9 @@ public enum FontStyles
 | --- | --- | --- |
 | Regular | `0` | 普通文本。 |
 | Bold | `1` | 粗体字。 |
-| Italic | `2` | 斜体文本。 |
+| Italic | `2` | 斜体字。 |
 | Underline | `4` | 带下划线的文本。 |
-| Strikeout | `8` | 中间有一行的文本。 |
+| Strikeout | `8` | 中间有一条线的文本。 |
 
 ### 也可以看看
 

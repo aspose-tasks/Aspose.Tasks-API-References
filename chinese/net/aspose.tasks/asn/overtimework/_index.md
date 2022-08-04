@@ -1,14 +1,14 @@
 ---
 title: OvertimeWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 分配的计划加班工作
+description: 计划的加班工作
 type: docs
 weight: 380
 url: /zh/net/aspose.tasks/asn/overtimework/
 ---
 ## Asn.OvertimeWork field
 
-分配的计划加班工作。
+计划的加班工作。
 
 ```csharp
 public static readonly Key<Duration, AsnKey> OvertimeWork;

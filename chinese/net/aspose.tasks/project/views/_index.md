@@ -1,14 +1,14 @@
 ---
 title: Views
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取Viewaspose.tasks/view对象的列表
+description: 获取列表Viewaspose.tasks/view对象.
 type: docs
 weight: 230
 url: /zh/net/aspose.tasks/project/views/
 ---
 ## Project.Views property
 
-获取[`View`](../../view)对象的列表。
+获取列表[`View`](../../view)对象.
 
 ```csharp
 public ViewCollection Views { get; }

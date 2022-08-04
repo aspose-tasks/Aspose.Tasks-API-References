@@ -1,14 +1,14 @@
 ---
 title: Cost
 second_title: Aspose.Tasks for .NET API 参考
-description: 一项任务的计划或预计总成本基于分配给任务的资源执行的工作已经产生的成本以及剩余工作的计划成本
+description: 除剩余工时的计划成本外任务的计划或预计总成本基于分配给任务的资源执行的工时已产生的成本
 type: docs
 weight: 230
 url: /zh/net/aspose.tasks/tsk/cost/
 ---
 ## Tsk.Cost field
 
-一项任务的计划或预计总成本，基于分配给任务的资源执行的工作已经产生的成本，以及剩余工作的计划成本。
+除剩余工时的计划成本外，任务的计划或预计总成本基于分配给任务的资源执行的工时已产生的成本。
 
 ```csharp
 public static readonly Key<decimal, TaskKey> Cost;

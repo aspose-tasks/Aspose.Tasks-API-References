@@ -1,14 +1,14 @@
 ---
 title: UseGradientBrush
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定在渲染项目布局时是否使用渐变画笔  当前不支持使用渐变画笔渲染到 SVG
+description: 确定在渲染项目布局时是否使用渐变画笔 目前不支持使用渐变画笔渲染到 SVG
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.saving/svgoptions/usegradientbrush/
 ---
 ## SvgOptions.UseGradientBrush property
 
-确定在渲染项目布局时是否使用渐变画笔。  当前不支持使用渐变画笔渲染到 SVG。
+确定在渲染项目布局时是否使用渐变画笔。 目前不支持使用渐变画笔渲染到 SVG。
 
 ```csharp
 public override bool UseGradientBrush { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PaperSizeId
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个整数该整数表示 PrinterPaperSize 值之一或自定义页面大小 ID 该值可用于从操作系统设置中获取 PaperSize
+description: 获取或设置一个整数表示 PrinterPaperSize 值之一或自定义页面大小 id 此值可用于从操作系统设置中获取 PaperSize.
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks.visualization/pagesettings/papersizeid/
 ---
 ## PageSettings.PaperSizeId property
 
-获取或设置一个整数，该整数表示 PrinterPaperSize 值之一或自定义页面大小 ID。 该值可用于从操作系统设置中获取 PaperSize。
+获取或设置一个整数，表示 PrinterPaperSize 值之一或自定义页面大小 id。 此值可用于从操作系统设置中获取 PaperSize.
 
 ```csharp
 public int PaperSizeId { get; set; }

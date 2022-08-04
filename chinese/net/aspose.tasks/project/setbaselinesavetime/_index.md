@@ -16,12 +16,12 @@ public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| baselineNumber | BaselineType | 基线编号[`BaselineType`](../../baselinetype)。 |
-| value | DateTime | 基线的最后保存日期和时间。 |
+| baselineNumber | BaselineType | 基线编号[`BaselineType`](../../baselinetype). |
+| value | DateTime | 基线的上次保存日期和时间。 |
 
 ### 评论
 
-如果未保存基线，则将值设置为 DateTime.MinValue。
+如果未保存基线，请将值设置为 DateTime.MinValue。
 
 ### 也可以看看
 

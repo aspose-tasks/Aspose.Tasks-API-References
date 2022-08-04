@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задаетColoraspose.tasks.visualization/gridline/colorлинии сетки.
+description: Получает или задаетColoraspose.tasks.visualization/gridline/color линии сетки.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/gridline/color/
 ---
 ## Gridline.Color property
 
-Получает или задает`Color`линии сетки.
+Получает или задает`Color` линии сетки.
 
 ```csharp
 public Color Color { get; set; }

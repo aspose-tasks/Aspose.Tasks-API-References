@@ -8,7 +8,7 @@ url: /zh/net/aspose.tasks/prj/actualsinsync/
 ---
 ## Prj.ActualsInSync field
 
-判断所有实际作品是否已经与项目同步。
+判断所有实际作品是否已经与项目同步
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> ActualsInSync;

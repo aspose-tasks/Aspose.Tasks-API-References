@@ -1,14 +1,14 @@
 ---
 title: Successors
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает объектTaskCollectionaspose.tasks/taskcollection который содержит всех потомков этого объекта Task.
+description: ПолучаетTaskCollectionaspose.tasks/taskcollection объект который содержит всех преемников этого объекта Task.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/task/successors/
 ---
 ## Task.Successors property
 
-Получает объект[`TaskCollection`](../../taskcollection), который содержит всех потомков этого объекта Task.
+Получает[`TaskCollection`](../../taskcollection) объект, который содержит всех преемников этого объекта Task.
 
 ```csharp
 public TaskCollection Successors { get; }
@@ -16,7 +16,7 @@ public TaskCollection Successors { get; }
 
 ### Возвращаемое значение
 
-Доступный только для чтения экземпляр класса[`TaskCollection`](../../taskcollection).
+Доступный только для чтения экземпляр[`TaskCollection`](../../taskcollection) учебный класс.
 
 ### Смотрите также
 

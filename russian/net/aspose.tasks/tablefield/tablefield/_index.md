@@ -1,14 +1,14 @@
 ---
 title: TableField
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTableFieldaspose.tasks/tablefield.
+description: Инициализирует новый экземплярTableFieldaspose.tasks/tablefield учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/tablefield/tablefield/
 ---
 ## TableField constructor
 
-Инициализирует новый экземпляр класса[`TableField`](../../tablefield).
+Инициализирует новый экземпляр[`TableField`](../../tablefield) учебный класс.
 
 ```csharp
 public TableField()

@@ -1,14 +1,14 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置时间分段数据的唯一标识符
+description: 获取或设置时间分段数据的唯一标识
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/timephaseddata/uid/
 ---
 ## TimephasedData.Uid property
 
-获取或设置时间分段数据的唯一标识符
+获取或设置时间分段数据的唯一标识
 
 ```csharp
 public int Uid { get; set; }

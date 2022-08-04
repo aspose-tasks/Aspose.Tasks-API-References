@@ -18,7 +18,7 @@ public interface IFontSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [FontSaving](../../aspose.tasks/ifontsavingcallback/fontsaving)(FontSavingArgs) | Метод, вызываемый при сохранении шрифтов. |
+| [FontSaving](../../aspose.tasks/ifontsavingcallback/fontsaving)(FontSavingArgs) | Метод, который будет вызываться при сохранении шрифтов. |
 
 ### Смотрите также
 

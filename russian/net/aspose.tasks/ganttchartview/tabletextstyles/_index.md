@@ -1,14 +1,14 @@
 ---
 title: TableTextStyles
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает список стилей текста таблицы представления диаграммы Ганта. TableTextStyleaspose.tasks.visualization/tabletextstyle.
+description: Получает список стилей текста таблицы представления диаграммы Ганта. TableTextStyleaspose.tasks.visualization/tabletextstyle .
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/ganttchartview/tabletextstyles/
 ---
 ## GanttChartView.TableTextStyles property
 
-Получает список стилей текста таблицы представления диаграммы Ганта. [`TableTextStyle`](../../../aspose.tasks.visualization/tabletextstyle).
+Получает список стилей текста таблицы представления диаграммы Ганта. [`TableTextStyle`](../../../aspose.tasks.visualization/tabletextstyle) .
 
 ```csharp
 public List<TableTextStyle> TableTextStyles { get; }

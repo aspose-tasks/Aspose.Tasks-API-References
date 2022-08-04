@@ -1,14 +1,14 @@
 ---
 title: ConstraintType
 second_title: Aspose.Tasks for .NET API 参考
-description: 为可应用于调度任务的约束类型提供选择
+description: 提供可用于调度任务的约束类型的选择
 type: docs
 weight: 210
 url: /zh/net/aspose.tasks/tsk/constrainttype/
 ---
 ## Tsk.ConstraintType field
 
-为可应用于调度任务的约束类型提供选择。
+提供可用于调度任务的约束类型的选择。
 
 ```csharp
 public static readonly Key<ConstraintType, TaskKey> ConstraintType;

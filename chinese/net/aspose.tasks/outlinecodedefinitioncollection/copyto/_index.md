@@ -16,8 +16,8 @@ public void CopyTo(OutlineCodeDefinition[] array, int arrayIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | OutlineCodeDefinition[] | 指定一维数组复制元素到 |
-| arrayIndex | Int32 | 指定数组的从零开始的索引，从该索引开始复制。 |
+| array | OutlineCodeDefinition[] | 要将元素复制到的指定一维数组 |
+| arrayIndex | Int32 | 复制开始的指定数组的从零开始的索引。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Tables
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает список объектовTableaspose.tasks/table.
+description: Получает списокTableaspose.tasks/table объекты.
 type: docs
 weight: 180
 url: /ru/net/aspose.tasks/project/tables/
 ---
 ## Project.Tables property
 
-Получает список объектов[`Table`](../../table).
+Получает список[`Table`](../../table) объекты.
 
 ```csharp
 public TableCollection Tables { get; }

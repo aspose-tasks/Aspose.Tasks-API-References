@@ -1,14 +1,14 @@
 ---
 title: Task
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетTaskaspose.tasks.visualization/tasktextstyleeventargs/task что соответствует отображаемой в данный момент строке.
+description: получаетTaskaspose.tasks.visualization/tasktextstyleeventargs/task что соответствует текущей отображаемой строке.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/tasktextstyleeventargs/task/
 ---
 ## TaskTextStyleEventArgs.Task property
 
-Получает`Task`, что соответствует отображаемой в данный момент строке.
+получает`Task` что соответствует текущей отображаемой строке.
 
 ```csharp
 public Task Task { get; }

@@ -1,14 +1,14 @@
 ---
 title: VisualObjectPlacement
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示OleObject../aspose.tasks/oleobject在视图中的位置和外观
+description: 表示位置和外观OleObject../aspose.tasks/oleobject在视图中
 type: docs
-weight: 3090
+weight: 3100
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/
 ---
 ## VisualObjectPlacement class
 
-表示[`OleObject`](../../aspose.tasks/oleobject)在视图中的位置和外观。
+表示位置和外观[`OleObject`](../../aspose.tasks/oleobject)在视图中。
 
 ```csharp
 public sealed class VisualObjectPlacement
@@ -18,22 +18,22 @@ public sealed class VisualObjectPlacement
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VisualObjectPlacement](visualobjectplacement)() | 初始化[`VisualObjectPlacement`](../visualobjectplacement)类的新实例。 |
+| [VisualObjectPlacement](visualobjectplacement)() | 初始化[`VisualObjectPlacement`](../visualobjectplacement)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint) { get; set; } | 选择“附加到任务”选项时，获取或设置视觉对象相对于任务的对齐方式。 |
-| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor) { get; set; } | 获取或设置边框颜色。 |
+| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor) { get; set; } | 获取或设置边框线颜色。 |
 | [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness) { get; set; } | 获取或设置边框线粗细（允许值为 0 - 5）。 |
 | [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor) { get; set; } | 获取或设置填充颜色。 |
-| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern) { get; set; } | 获取或设置填充模式。 |
+| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern) { get; set; } | 获取或设置填充图案。 |
 | [Height](../../aspose.tasks.visualization/visualobjectplacement/height) { get; set; } | 获取或设置可视对象的显示高度。 |
-| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset) { get; set; } | 获取或设置视觉对象的水平偏移。 |
-| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid) { get; set; } | 获取或设置[`OleObject`](../../aspose.tasks/oleobject)对象的 ID。 |
+| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset) { get; set; } | 获取或设置视觉对象的水平偏移量。 |
+| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid) { get; set; } | 获取或设置 Id[`OleObject`](../../aspose.tasks/oleobject)对象. |
 | [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid) { get; set; } | 如果选择了“附加到任务”选项，则获取或设置任务 ID，否则为 -1。 |
-| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate) { get; set; } | 选择“附加到时间刻度”选项时获取或设置可视对象的日期位置。 |
+| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate) { get; set; } | 在选择“附加到时间刻度”选项时获取或设置可视对象的日期位置。 |
 | [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset) { get; set; } | 获取或设置视觉对象的垂直偏移量。 |
 | [Width](../../aspose.tasks.visualization/visualobjectplacement/width) { get; set; } | 获取或设置可视对象的显示宽度。 |
 

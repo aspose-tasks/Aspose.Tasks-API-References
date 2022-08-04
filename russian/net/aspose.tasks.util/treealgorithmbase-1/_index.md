@@ -3,7 +3,7 @@ title: TreeAlgorithmBaseT
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Базовый класс для реализацииITreeAlgorithm./itreealgorithm-1
 type: docs
-weight: 2430
+weight: 2440
 url: /ru/net/aspose.tasks.util/treealgorithmbase-1/
 ---
 ## TreeAlgorithmBase&lt;T&gt; class

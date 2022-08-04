@@ -1,14 +1,14 @@
 ---
 title: KeepStreamOpen
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示渲染例程是否应在页面打开后保持Streamaspose.tasks.saving/pagesavingargs/stream书面
+description: 获取或设置一个值指示渲染例程是否应保持Streamaspose.tasks.saving/pagesavingargs/stream写完一页后打开
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.saving/pagesavingargs/keepstreamopen/
 ---
 ## PageSavingArgs.KeepStreamOpen property
 
-获取或设置一个值，该值指示渲染例程是否应在页面打开后保持[`Stream`](../stream)书面。
+获取或设置一个值，指示渲染例程是否应保持[`Stream`](../stream)写完一页后打开。
 
 ```csharp
 public bool KeepStreamOpen { get; set; }

@@ -16,7 +16,7 @@ public void SaveReport(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 保存风险分析报告的流。 |
+| stream | Stream | 将风险分析报告保存到的流。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void SaveReport(Stream stream)
 
 ## SaveReport(string) {#savereport_1}
 
-将风险分析报告以PDF格式保存到指定文件路径。
+将风险分析报告以PDF格式保存到指定的文件路径。
 
 ```csharp
 public void SaveReport(string fileName)

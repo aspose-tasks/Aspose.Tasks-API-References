@@ -1,14 +1,14 @@
 ---
 title: IsMarked
 second_title: Aspose.Tasks for .NET API 参考
-description: 显示任务是否被标记为进一步操作或某种识别
+description: 显示任务是否被标记为进一步行动或某种识别
 type: docs
 weight: 620
 url: /zh/net/aspose.tasks/tsk/ismarked/
 ---
 ## Tsk.IsMarked field
 
-显示任务是否被标记为进一步操作或某种识别。
+显示任务是否被标记为进一步行动或某种识别。
 
 ```csharp
 public static readonly Key<bool, TaskKey> IsMarked;
@@ -16,7 +16,7 @@ public static readonly Key<bool, TaskKey> IsMarked;
 
 ### 评论
 
-仅适用于 mpp 文件格式。 Boolean类型。
+仅适用于 mpp 文件格式。 Boolean类型.
 
 ### 也可以看看
 

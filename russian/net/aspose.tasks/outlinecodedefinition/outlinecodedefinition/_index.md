@@ -1,14 +1,14 @@
 ---
 title: OutlineCodeDefinition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаOutlineCodeDefinitionaspose.tasks/outlinecodedefinition.
+description: Инициализирует новый экземплярOutlineCodeDefinitionaspose.tasks/outlinecodedefinition учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/outlinecodedefinition/outlinecodedefinition/
 ---
 ## OutlineCodeDefinition constructor
 
-Инициализирует новый экземпляр класса[`OutlineCodeDefinition`](../../outlinecodedefinition).
+Инициализирует новый экземпляр[`OutlineCodeDefinition`](../../outlinecodedefinition) учебный класс.
 
 ```csharp
 public OutlineCodeDefinition()

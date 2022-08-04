@@ -16,8 +16,8 @@ public void SplitTask(DateTime start, DateTime finish, Calendar calendar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| start | DateTime | Начало прерывания работы для разделения на основе. |
-| finish | DateTime | Окончание перерыва в работе для разделения на основе. |
+| start | DateTime | Начало перерыва в работе разделить на основе. |
+| finish | DateTime | Конец перерыва в работе разделить на основе. |
 | calendar | Calendar | Календарь для разделения на основе. |
 
 ### Исключения
@@ -25,7 +25,7 @@ public void SplitTask(DateTime start, DateTime finish, Calendar calendar)
 | исключение | условие |
 | --- | --- |
 | ArgumentOutOfRangeException | Выдает, когда дата начала меньше даты начала назначения. |
-| ArgumentOutOfRangeException | Выдает, когда дата окончания превышает дату окончания назначения. |
+| ArgumentOutOfRangeException | Генерируется, когда дата окончания больше, чем дата окончания задания. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BaselineForEarnedValue
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Конкретная базовая линия используемая для расчета значений дисперсии.
+description: Конкретный базовый уровень используемый для расчета значений отклонения.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/prj/baselineforearnedvalue/
 ---
 ## Prj.BaselineForEarnedValue field
 
-Конкретная базовая линия, используемая для расчета значений дисперсии.
+Конкретный базовый уровень, используемый для расчета значений отклонения.
 
 ```csharp
 public static readonly Key<BaselineType, PrjKey> BaselineForEarnedValue;

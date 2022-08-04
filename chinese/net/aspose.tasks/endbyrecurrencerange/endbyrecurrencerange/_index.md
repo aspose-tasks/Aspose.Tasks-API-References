@@ -1,14 +1,14 @@
 ---
 title: EndByRecurrenceRange
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化EndByRecurrenceRangeaspose.tasks/endbyrecurrencerange类的新实例
+description: 初始化EndByRecurrenceRangeaspose.tasks/endbyrecurrencerange类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/endbyrecurrencerange/endbyrecurrencerange/
 ---
 ## EndByRecurrenceRange constructor
 
-初始化[`EndByRecurrenceRange`](../../endbyrecurrencerange)类的新实例。
+初始化[`EndByRecurrenceRange`](../../endbyrecurrencerange)类.
 
 ```csharp
 public EndByRecurrenceRange()

@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此TimephasedDataCollectionaspose.tasks/timephaseddatacollection对象中包含的对象数
+description: 获取此包含的对象数TimephasedDataCollectionaspose.tasks/timephaseddatacollection对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/timephaseddatacollection/count/
 ---
 ## TimephasedDataCollection.Count property
 
-获取此[`TimephasedDataCollection`](../../timephaseddatacollection)对象中包含的对象数。
+获取此包含的对象数[`TimephasedDataCollection`](../../timephaseddatacollection)对象.
 
 ```csharp
 public int Count { get; }

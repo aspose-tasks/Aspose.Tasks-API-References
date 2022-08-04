@@ -1,14 +1,14 @@
 ---
 title: PrimaveraSaveOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPrimaveraSaveOptionsaspose.tasks.saving/primaverasaveoptions.
+description: Инициализирует новый экземплярPrimaveraSaveOptionsaspose.tasks.saving/primaverasaveoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/primaverasaveoptions/primaverasaveoptions/
 ---
 ## PrimaveraSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`PrimaveraSaveOptions`](../../primaverasaveoptions).
+Инициализирует новый экземпляр[`PrimaveraSaveOptions`](../../primaverasaveoptions) класс.
 
 ```csharp
 public PrimaveraSaveOptions()

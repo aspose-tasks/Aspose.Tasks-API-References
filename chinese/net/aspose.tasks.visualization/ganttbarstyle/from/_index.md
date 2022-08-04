@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置甘特图的起点位置 Fieldaspose.tasks/field
+description: 获取或设置甘特图的起点位置 Fieldaspose.tasks/field.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/from/
 ---
 ## GanttBarStyle.From property
 
-获取或设置甘特图的起点位置。 [`Field`](../../../aspose.tasks/field)。
+获取或设置甘特图的起点位置。 [`Field`](../../../aspose.tasks/field).
 
 ```csharp
 public Field From { get; set; }

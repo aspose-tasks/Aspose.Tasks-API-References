@@ -24,7 +24,7 @@ public class Rate
 | [RatesFrom](../../aspose.tasks/rate/ratesfrom) { get; set; } | 获取或设置汇率生效的日期。 |
 | [RatesTo](../../aspose.tasks/rate/ratesto) { get; set; } | 获取或设置汇率生效的最后日期。 |
 | [RateTable](../../aspose.tasks/rate/ratetable) { get; set; } | 获取或设置资源费率表的唯一标识符。 |
-| [StandardRate](../../aspose.tasks/rate/standardrate) { get; set; } | 获取或设置资源的标准每小时费率。 |
+| [StandardRate](../../aspose.tasks/rate/standardrate) { get; set; } | 获取或设置资源每小时的标准费率。 |
 | [StandardRateFormat](../../aspose.tasks/rate/standardrateformat) { get; set; } | 获取或设置 Microsoft Project 用于显示标准费率的单位。 |
 
 ### 也可以看看

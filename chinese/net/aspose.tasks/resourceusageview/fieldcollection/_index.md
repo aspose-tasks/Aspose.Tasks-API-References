@@ -1,14 +1,14 @@
 ---
 title: FieldCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此 ResourceUsageView 的ResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollection对象
+description: 获取ResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollection此 ResourceUsageView. 的对象
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/resourceusageview/fieldcollection/
 ---
 ## ResourceUsageView.FieldCollection property
 
-获取此 ResourceUsageView 的[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)对象。
+获取[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection)此 ResourceUsageView. 的对象
 
 ```csharp
 public ResourceUsageViewFieldCollection FieldCollection { get; }

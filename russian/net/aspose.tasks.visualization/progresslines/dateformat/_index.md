@@ -1,14 +1,14 @@
 ---
 title: DateFormat
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает формат даты DateLabelaspose.tasks.visualization/datelabel.
+description: Получает или задает формат даты DateLabelaspose.tasks.visualization/datelabel .
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.visualization/progresslines/dateformat/
 ---
 ## ProgressLines.DateFormat property
 
-Получает или задает формат даты ([`DateLabel`](../../datelabel)).
+Получает или задает формат даты ([`DateLabel`](../../datelabel) ).
 
 ```csharp
 public DateLabel DateFormat { get; set; }

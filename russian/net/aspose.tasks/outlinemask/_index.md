@@ -1,14 +1,14 @@
 ---
 title: OutlineMask
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет четыре элемента маски определяющей формат контурного кода.
+description: Представляет четыре элемента маски которая определяет формат кода схемы.
 type: docs
 weight: 1050
 url: /ru/net/aspose.tasks/outlinemask/
 ---
 ## OutlineMask class
 
-Представляет четыре элемента маски, определяющей формат контурного кода.
+Представляет четыре элемента маски, которая определяет формат кода схемы.
 
 ```csharp
 public class OutlineMask
@@ -18,13 +18,13 @@ public class OutlineMask
 
 | Имя | Описание |
 | --- | --- |
-| [OutlineMask](outlinemask)() | Инициализирует новый экземпляр класса[`OutlineMask`](../outlinemask). |
+| [OutlineMask](outlinemask)() | Инициализирует новый экземпляр[`OutlineMask`](../outlinemask) учебный класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Length](../../aspose.tasks/outlinemask/length) { get; set; } | Получает или задает максимальную длину (в символах) значений кода схемы. 0, если длина не определена. |
+| [Length](../../aspose.tasks/outlinemask/length) { get; set; } | Получает или задает максимальную длину (в символах) значений кода структуры. 0, если длина не определена. |
 | [Level](../../aspose.tasks/outlinemask/level) { get; set; } | Получает или устанавливает уровень маски. |
 | [Separator](../../aspose.tasks/outlinemask/separator) { get; set; } | Получает или задает разделитель кодовых значений. |
 | [Type](../../aspose.tasks/outlinemask/type) { get; set; } | Получает или задает тип маски. |

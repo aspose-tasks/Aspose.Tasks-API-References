@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTableaspose.tasks/table.
+description: Инициализирует новый экземплярTableaspose.tasks/table учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/table/table/
 ---
 ## Table constructor
 
-Инициализирует новый экземпляр класса[`Table`](../../table).
+Инициализирует новый экземпляр[`Table`](../../table) учебный класс.
 
 ```csharp
 public Table()

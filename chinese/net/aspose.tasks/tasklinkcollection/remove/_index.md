@@ -20,7 +20,7 @@ public bool Remove(TaskLink item)
 
 ### 返回值
 
-移除了TaskLink。
+删除了任务链接。
 
 ### 也可以看看
 

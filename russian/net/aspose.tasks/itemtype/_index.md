@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает тип элемента.
+description: Определяет тип элемента.
 type: docs
 weight: 830
 url: /ru/net/aspose.tasks/itemtype/
 ---
 ## ItemType enumeration
 
-Указывает тип элемента.
+Определяет тип элемента.
 
 ```csharp
 public enum ItemType
@@ -19,7 +19,7 @@ public enum ItemType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | TaskItem | `0` | Элемент задачи. |
-| ResourceItem | `1` | Ресурсный элемент. |
+| ResourceItem | `1` | Элемент ресурса. |
 | OtherItem | `2` | Другой предмет. |
 
 ### Смотрите также

@@ -21,7 +21,7 @@ public CustomProjectProperty Add(string name, string value)
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойств.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 
@@ -47,7 +47,7 @@ public CustomProjectProperty Add(string name, bool value)
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойств.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ public CustomProjectProperty Add(string name, double value)
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойств.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 
@@ -99,7 +99,7 @@ public CustomProjectProperty Add(string name, DateTime value)
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойств.
+Недавно созданный объект свойства.
 
 ### Смотрите также
 

@@ -26,7 +26,7 @@ public class AvailabilityPeriod
 | --- | --- |
 | [AvailableFrom](../../aspose.tasks/availabilityperiod/availablefrom) { get; set; } | Получает или задает дату, когда ресурс становится доступным на указанный период. |
 | [AvailableTo](../../aspose.tasks/availabilityperiod/availableto) { get; set; } | Получает или задает последнюю дату доступности ресурса в течение указанного периода. |
-| [AvailableUnits](../../aspose.tasks/availabilityperiod/availableunits) { get; set; } | Получает или задает процент ресурса, который доступен в течение указанного периода. |
+| [AvailableUnits](../../aspose.tasks/availabilityperiod/availableunits) { get; set; } | Получает или задает процент ресурса, доступного в течение указанного периода. |
 
 ### Смотрите также
 

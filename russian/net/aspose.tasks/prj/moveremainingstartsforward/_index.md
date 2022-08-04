@@ -1,14 +1,14 @@
 ---
 title: MoveRemainingStartsForward
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет следует ли переместить начало оставшихся частей задач запланированных на более позднее время до даты состояния.
+description: Определяет следует ли перенести начало оставшихся частей задач  запланированных на более позднее время до даты состояния.
 type: docs
 weight: 510
 url: /ru/net/aspose.tasks/prj/moveremainingstartsforward/
 ---
 ## Prj.MoveRemainingStartsForward field
 
-Определяет, следует ли переместить начало оставшихся частей задач запланированных на более позднее время до даты состояния.
+Определяет, следует ли перенести начало оставшихся частей задач , запланированных на более позднее время, до даты состояния.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsForward;

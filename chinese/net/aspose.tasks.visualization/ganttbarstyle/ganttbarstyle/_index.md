@@ -1,14 +1,14 @@
 ---
 title: GanttBarStyle
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化GanttBarStyleaspose.tasks.visualization/ganttbarstyle类的新实例
+description: 初始化GanttBarStyleaspose.tasks.visualization/ganttbarstyle类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/ganttbarstyle/
 ---
 ## GanttBarStyle constructor
 
-初始化[`GanttBarStyle`](../../ganttbarstyle)类的新实例。
+初始化[`GanttBarStyle`](../../ganttbarstyle)类.
 
 ```csharp
 public GanttBarStyle()

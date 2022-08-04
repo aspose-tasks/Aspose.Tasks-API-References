@@ -1,14 +1,14 @@
 ---
 title: ManualFinish
 second_title: Aspose.Tasks for .NET API 参考
-description: 定义任务的手动计划完成
+description: 定义任务的手动计划完成时间
 type: docs
 weight: 800
 url: /zh/net/aspose.tasks/tsk/manualfinish/
 ---
 ## Tsk.ManualFinish field
 
-定义任务的手动计划完成。
+定义任务的手动计划完成时间。
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> ManualFinish;

@@ -1,14 +1,14 @@
 ---
 title: VbaModuleAttributeCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示VbaModuleAttribute./vbamoduleattribute对象的集合
+description: 代表一个集合VbaModuleAttribute./vbamoduleattribute对象.
 type: docs
-weight: 2480
+weight: 2490
 url: /zh/net/aspose.tasks/vbamoduleattributecollection/
 ---
 ## VbaModuleAttributeCollection class
 
-表示[`VbaModuleAttribute`](../vbamoduleattribute)对象的集合。
+代表一个集合[`VbaModuleAttribute`](../vbamoduleattribute)对象.
 
 ```csharp
 public class VbaModuleAttributeCollection : ReadOnlyCollectionBase<VbaModuleAttribute>

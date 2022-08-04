@@ -1,14 +1,14 @@
 ---
 title: Rates
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр классаRateCollectionaspose.tasks/ratecollectionдля этого объекта. Коллекция периодов и ставок связанных с каждым из них.
+description: Получает экземплярRateCollectionaspose.tasks/ratecollection класс для этого объекта. Набор периодов и ставок связанных с каждым из них.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/resource/rates/
 ---
 ## Resource.Rates property
 
-Получает экземпляр класса[`RateCollection`](../../ratecollection)для этого объекта. Коллекция периодов и ставок, связанных с каждым из них.
+Получает экземпляр[`RateCollection`](../../ratecollection) класс для этого объекта. Набор периодов и ставок, связанных с каждым из них.
 
 ```csharp
 public RateCollection Rates { get; }

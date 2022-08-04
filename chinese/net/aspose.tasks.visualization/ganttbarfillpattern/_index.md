@@ -1,14 +1,14 @@
 ---
 title: GanttBarFillPattern
 second_title: Aspose.Tasks for .NET API 参考
-description: 形状的填充模式
+description: 形状的填充图案
 type: docs
-weight: 2680
+weight: 2690
 url: /zh/net/aspose.tasks.visualization/ganttbarfillpattern/
 ---
 ## GanttBarFillPattern enumeration
 
-形状的填充模式。
+形状的填充图案。
 
 ```csharp
 public enum GanttBarFillPattern
@@ -20,14 +20,14 @@ public enum GanttBarFillPattern
 | --- | --- | --- |
 | Hollow | `0` | 空心图案。 |
 | SolidFill | `1` | 实心填充图案。 |
-| LightFill | `2` | 浅色填充图案。 |
+| LightFill | `2` | 光填充图案。 |
 | MediumFill | `3` | 中等填充图案。 |
 | DarkFill | `4` | 深色填充图案。 |
-| DiagonalLeft | `5` | 对角线左侧模式（从左上角到右下角）。 |
-| DiagonalRight | `6` | 右斜线模式（从右上到左下）。 |
-| DiagonalCross | `7` | 对角线交叉模式。 |
-| LineVertical | `8` | 线垂直模式。 |
-| LineHorizontal | `9` | 线水平模式。 |
+| DiagonalLeft | `5` | 对角线左侧图案（从左上角到右下角）。 |
+| DiagonalRight | `6` | 对角线右侧图案（从右上到左下）。 |
+| DiagonalCross | `7` | 对角线交叉图案。 |
+| LineVertical | `8` | 线垂直图案。 |
+| LineHorizontal | `9` | 线水平图案。 |
 | LineCross | `10` | 线交叉模式。 |
 | SolidFillWithDashedBorder | `11` | 带有虚线边框图案的实心。 |
 

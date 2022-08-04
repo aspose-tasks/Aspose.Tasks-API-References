@@ -1,14 +1,14 @@
 ---
 title: ItemType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливаетBarItemTypeaspose.tasks.visualization/baritemtypeстиля панели.
+description: Получает или устанавливаетBarItemTypeaspose.tasks.visualization/baritemtype стиля бара.
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks.visualization/barstyle/itemtype/
 ---
 ## BarStyle.ItemType property
 
-Получает или устанавливает[`BarItemType`](../../baritemtype)стиля панели.
+Получает или устанавливает[`BarItemType`](../../baritemtype) стиля бара.
 
 ```csharp
 public BarItemType ItemType { get; set; }

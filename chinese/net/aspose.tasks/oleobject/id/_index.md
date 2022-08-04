@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置对象 ID
+description: 获取或设置对象id
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/oleobject/id/
 ---
 ## OleObject.Id property
 
-获取或设置对象 ID。
+获取或设置对象id。
 
 ```csharp
 public int Id { get; set; }

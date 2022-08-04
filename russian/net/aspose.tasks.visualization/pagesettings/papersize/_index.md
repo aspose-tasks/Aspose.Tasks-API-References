@@ -1,14 +1,14 @@
 ---
 title: PaperSize
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает размер бумаги. Может быть одним из значений перечисленияPrinterPaperSizeaspose.tasks.visualization/printerpapersize.
+description: Получает или задает размер бумаги. Может быть одним из значенийPrinterPaperSizeaspose.tasks.visualization/printerpapersize перечисление.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks.visualization/pagesettings/papersize/
 ---
 ## PageSettings.PaperSize property
 
-Получает или задает размер бумаги. Может быть одним из значений перечисления[`PrinterPaperSize`](../../printerpapersize).
+Получает или задает размер бумаги. Может быть одним из значений[`PrinterPaperSize`](../../printerpapersize) перечисление.
 
 ```csharp
 public PrinterPaperSize PaperSize { get; set; }

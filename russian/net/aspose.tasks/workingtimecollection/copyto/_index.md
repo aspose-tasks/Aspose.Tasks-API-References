@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: копирует содержимое коллекции в массив начиная с определенного индекса
+description: копирует содержимое коллекции в массив начиная с определенного index
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/workingtimecollection/copyto/
 ---
 ## WorkingTimeCollection.CopyTo method
 
-копирует содержимое коллекции в массив, начиная с определенного индекса
+копирует содержимое коллекции в массив, начиная с определенного index
 
 ```csharp
 public void CopyTo(WorkingTime[] array, int arrayIndex)
@@ -17,7 +17,7 @@ public void CopyTo(WorkingTime[] array, int arrayIndex)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | array | WorkingTime[] | массив для копирования. |
-| arrayIndex | Int32 | индекс начального массива |
+| arrayIndex | Int32 | начальный индекс массива |
 
 ### Смотрите также
 

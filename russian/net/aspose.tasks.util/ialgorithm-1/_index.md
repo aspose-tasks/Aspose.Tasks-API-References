@@ -1,14 +1,14 @@
 ---
 title: IAlgorithmT
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет алгоритм который можно применить к списку объектов lttypeparamref nameT /gt.
+description: Представляет алгоритм который можно применить к списку объектовT .
 type: docs
-weight: 2360
+weight: 2370
 url: /ru/net/aspose.tasks.util/ialgorithm-1/
 ---
 ## IAlgorithm&lt;T&gt; interface
 
-Представляет алгоритм, который можно применить к списку объектов &lt;typeparamref name="T" /&gt;.
+Представляет алгоритм, который можно применить к списку объектов*T* .
 
 ```csharp
 public interface IAlgorithm<in T>
@@ -22,7 +22,7 @@ public interface IAlgorithm<in T>
 
 | Имя | Описание |
 | --- | --- |
-| [Alg](../../aspose.tasks.util/ialgorithm`1/alg)(T, int) | Обрабатывает объект в списке. Вызывается после[`PreAlg`](./prealg); |
+| [Alg](../../aspose.tasks.util/ialgorithm`1/alg)(T, int) | Обрабатывает объект в списке. Вызывается после[`PreAlg`](./prealg) ; |
 | [PostAlg](../../aspose.tasks.util/ialgorithm`1/postalg)(T, int) | Вызывается после обработки объекта. |
 | [PreAlg](../../aspose.tasks.util/ialgorithm`1/prealg)(T, int) | Вызывается перед обработкой объекта. |
 

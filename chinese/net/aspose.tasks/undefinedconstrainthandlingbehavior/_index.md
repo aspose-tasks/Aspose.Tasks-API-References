@@ -18,8 +18,8 @@ public enum UndefinedConstraintHandlingBehavior
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 从 XER 格式加载的默认行为。 不采取任何行动。任务约束类型设置为“ConstraintType.Undefined”。 |
-| SubstituteWithStartNoEarlierThan | `1` | 为具有“未定义”约束的任务添加类型为“ConstraintType.StartNoEarlierThan”且日期=开始的约束。 |
+| None | `0` | 从 XER 格式加载的默认行为。 不采取任何措施。任务约束类型设置为“ConstraintType.Undefined”. |
+| SubstituteWithStartNoEarlierThan | `1` | 为具有“未定义”约束的任务添加类型为“ConstraintType.StartNoEarlierThan”且日期 = Start 的约束。 |
 
 ### 也可以看看
 

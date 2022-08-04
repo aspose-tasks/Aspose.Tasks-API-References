@@ -18,30 +18,30 @@ public enum DateFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DateMmDdYyHhMmAM | `0` | 示例:09/30/02 13:00 PM |
-| DateMmDdYy | `1` | 示例:2002 年 9 月 30 日 |
-| DateMmmmDdYyyyHhMmAM | `2` | 示例:2002 年 9 月 30 日 13:00 PM |
-| DateMmmmDdYyyy | `3` | 示例:2002 年 9 月 30 日 |
-| DateMmmDdHhMmAM | `4` | 示例:9 月 30 日 13:00 PM |
-| DateMmmDdYyy | `5` | 示例:02 年 9 月 30 日 |
-| DateMmmmDd | `6` | 示例:9 月 30 日 |
-| DateMmmDd | `7` | 示例:9 月 30 日 |
-| DateDddMmDdYyHhMmAM | `8` | 示例:2002 年 9 月 30 日星期二 13:00 PM |
-| DateDddMmDdYy | `9` | 示例:2002 年 9 月 30 日星期二 |
-| DateDddMmmDdYyy | `10` | 示例:2002 年 9 月 30 日星期二 |
-| DateDddHhMmAM | `11` | 示例:周二 13:00 PM |
-| DateMmDd | `12` | 示例:9/30 |
-| DateDd | `13` | 示例:30 |
-| DateHhMmAm | `14` | 示例:下午 13:00 |
-| DateDddMmmDd | `15` | 示例:9 月 30 日星期二 |
-| DateDddMmDd | `16` | 示例:9/30 星期二 |
-| DateDddDd | `17` | 示例:周二 30 |
-| DateWwwDd | `18` | 示例:W41/2 |
-| DateWwwDdYyHhMmAm | `19` | 示例:W41/2/02 13:00 PM |
-| DateMmDdYyyy | `20` | 示例:9/30/2002 |
-| Custom | `21` | DateTime 值使用设置为项目的[`CustomDateFormat`](../prj/customdateformat)属性的格式字符串进行格式化。 |
-| DateDdMmYyyy | `256` | 示例:19/07/2016 |
-| Default | `255` | 示例:默认日期格式。 |
+| DateMmDdYyHhMmAM | `0` | 示例：09/30/02 13:00 PM |
+| DateMmDdYy | `1` | 示例：9/30/02 |
+| DateMmmmDdYyyyHhMmAM | `2` | 示例：2002 年 9 月 30 日 13:00 PM |
+| DateMmmmDdYyyy | `3` | 示例：2002 年 9 月 30 日 |
+| DateMmmDdHhMmAM | `4` | 示例：9 月 30 日 13:00 PM |
+| DateMmmDdYyy | `5` | 示例：Sep 30, '02 |
+| DateMmmmDd | `6` | 示例：9 月 30 日 |
+| DateMmmDd | `7` | 示例：9 月 30 日 |
+| DateDddMmDdYyHhMmAM | `8` | 示例：2002 年 9 月 30 日星期二 13:00 PM |
+| DateDddMmDdYy | `9` | 示例：2002 年 9 月 30 日星期二 |
+| DateDddMmmDdYyy | `10` | 示例：9 月 30 日，星期二，'02 |
+| DateDddHhMmAM | `11` | 示例：周二 13:00 PM |
+| DateMmDd | `12` | 示例：9/30 |
+| DateDd | `13` | 示例：30 |
+| DateHhMmAm | `14` | 示例：下午 13:00 |
+| DateDddMmmDd | `15` | 示例：9 月 30 日星期二 |
+| DateDddMmDd | `16` | 示例：周二 9 月 30 日 |
+| DateDddDd | `17` | 示例：周二 30 |
+| DateWwwDd | `18` | 示例：W41/2 |
+| DateWwwDdYyHhMmAm | `19` | 示例：W41/2/02 13:00 PM |
+| DateMmDdYyyy | `20` | 示例：9/30/2002 |
+| Custom | `21` | DateTime 值使用设置为项目的格式字符串进行格式化[`CustomDateFormat`](../prj/customdateformat)财产。 |
+| DateDdMmYyyy | `256` | 示例：19/07/2016 |
+| Default | `255` | 示例：默认日期格式。 |
 
 ### 也可以看看
 

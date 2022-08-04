@@ -1,14 +1,14 @@
 ---
 title: PdfDigitalSignatureDetails
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Содержит детали цифровой подписи PDF.
+description: Содержит сведения для цифровой подписи PDF.
 type: docs
 weight: 1800
 url: /ru/net/aspose.tasks.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
 
-Содержит детали цифровой подписи PDF.
+Содержит сведения для цифровой подписи PDF.
 
 ```csharp
 public class PdfDigitalSignatureDetails
@@ -18,7 +18,7 @@ public class PdfDigitalSignatureDetails
 
 | Имя | Описание |
 | --- | --- |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails)(X509Certificate2, string, string, DateTime, PdfDigitalSignatureHashAlgorithm) | Инициализирует новый экземпляр класса[`PdfDigitalSignatureDetails`](../pdfdigitalsignaturedetails). |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails)(X509Certificate2, string, string, DateTime, PdfDigitalSignatureHashAlgorithm) | Инициализирует новый экземпляр[`PdfDigitalSignatureDetails`](../pdfdigitalsignaturedetails) класс. |
 
 ## Характеристики
 
@@ -32,7 +32,7 @@ public class PdfDigitalSignatureDetails
 
 ### Примечания
 
-На данный момент цифровая подпись документов PDF доступна только в .NET 2.0 или выше.
+В настоящее время цифровая подпись документов PDF доступна только в .NET 2.0 или выше.
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: TimescaleUnit
 second_title: Aspose.Tasks for .NET API 参考
 description: 指定甘特图或其他时间分段视图中时间刻度的任何层的时间单位
 type: docs
-weight: 3070
+weight: 3080
 url: /zh/net/aspose.tasks.visualization/timescaleunit/
 ---
 ## TimescaleUnit enumeration

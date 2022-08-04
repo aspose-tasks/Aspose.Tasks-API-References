@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PageInfoaspose.tasks.visualization/pageinfo类的新实例 表示以 MPP 文件格式存在并用于打印的页面设置数据
+description: 初始化PageInfoaspose.tasks.visualization/pageinfo班级 表示以 MPP 文件格式存在并用于打印的页面设置数据
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/pageinfo/pageinfo/
 ---
 ## PageInfo constructor
 
-初始化[`PageInfo`](../../pageinfo)类的新实例。 表示以 MPP 文件格式存在并用于打印的页面设置数据。
+初始化[`PageInfo`](../../pageinfo)班级。 表示以 MPP 文件格式存在并用于打印的页面设置数据。
 
 ```csharp
 public PageInfo()

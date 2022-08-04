@@ -24,14 +24,14 @@ public class OutlineValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Description](../../aspose.tasks/outlinevalue/description) { get; set; } | 获取或设置大纲值的描述。 |
+| [Description](../../aspose.tasks/outlinevalue/description) { get; set; } | 获取或设置轮廓值的描述。 |
 | [DurationValue](../../aspose.tasks/outlinevalue/durationvalue) { get; set; } | 如果 Type 为 Duration，则获取或设置持续时间。 |
-| [IsCollapsed](../../aspose.tasks/outlinevalue/iscollapsed) { get; set; } | 获取或设置一个值，指示大纲值是否折叠。 |
+| [IsCollapsed](../../aspose.tasks/outlinevalue/iscollapsed) { get; set; } | 获取或设置一个值，该值指示大纲值是否折叠。 |
 | [ParentValueId](../../aspose.tasks/outlinevalue/parentvalueid) { get; set; } | 获取或设置大纲代码的父节点的Id。 |
 | [Type](../../aspose.tasks/outlinevalue/type) { get; set; } | 获取或设置大纲代码类型。 |
 | [Value](../../aspose.tasks/outlinevalue/value) { get; set; } | 获取或设置实际值。 |
 | [ValueGuid](../../aspose.tasks/outlinevalue/valueguid) { get; } | 获取在整个项目中标识此值的 GUID。 |
-| [ValueId](../../aspose.tasks/outlinevalue/valueid) { get; set; } | 获取或设置项目内大纲代码值的唯一 ID。 |
+| [ValueId](../../aspose.tasks/outlinevalue/valueid) { get; set; } | 获取或设置项目内大纲代码值的唯一ID。 |
 
 ### 也可以看看
 

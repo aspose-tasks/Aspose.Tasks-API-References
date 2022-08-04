@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API 参考
-description: 从此集合对象中删除TimephasedDataaspose.tasks/timephaseddata实例
+description: 移除TimephasedDataaspose.tasks/timephaseddata此集合对象的实例
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/timephaseddatacollection/remove/
 ---
 ## TimephasedDataCollection.Remove method
 
-从此集合对象中删除[`TimephasedData`](../../timephaseddata)实例。
+移除[`TimephasedData`](../../timephaseddata)此集合对象的实例。
 
 ```csharp
 public bool Remove(TimephasedData item)
@@ -20,7 +20,7 @@ public bool Remove(TimephasedData item)
 
 ### 返回值
 
-如果*item*已成功从Tasks中删除，则为真。TimephasedDataCollection;否则为假。 如果*item*在[`TimephasedDataCollection`](../../timephaseddatacollection)中找不到，此方法也会返回 false。
+真如果*item*已成功从[`TimephasedDataCollection`](../../timephaseddatacollection);否则，false. 如果此方法也返回 false*item*中没有找到[`TimephasedDataCollection`](../../timephaseddatacollection).
 
 ### 也可以看看
 

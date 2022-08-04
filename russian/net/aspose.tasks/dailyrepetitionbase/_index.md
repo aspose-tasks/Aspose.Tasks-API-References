@@ -18,7 +18,7 @@ public abstract class DailyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/dailyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает количество дней, которое представляет интервал в днях между вхождениями. |
+| [RepetitionInterval](../../aspose.tasks/dailyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает количество дней, представляющее интервал в днях между событиями. |
 
 ### Смотрите также
 

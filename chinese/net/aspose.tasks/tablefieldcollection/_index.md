@@ -1,14 +1,14 @@
 ---
 title: TableFieldCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 包含TableField./tablefield对象的列表 实现 IListltTableFieldgt界面
+description: 包含一个列表TableField./tablefield objects. 实现 IListltTableFieldgt 接口
 type: docs
 weight: 2050
 url: /zh/net/aspose.tasks/tablefieldcollection/
 ---
 ## TableFieldCollection class
 
-包含[`TableField`](../tablefield)对象的列表。 实现 IList&lt;TableField&gt;界面。
+包含一个列表[`TableField`](../tablefield) objects. 实现 IList&lt;TableField&gt; 接口。
 
 ```csharp
 public class TableFieldCollection : IList<TableField>
@@ -21,14 +21,14 @@ public class TableFieldCollection : IList<TableField>
 | [Count](../../aspose.tasks/tablefieldcollection/count) { get; } | 获取此集合中包含的元素数。 |
 | [IsReadOnly](../../aspose.tasks/tablefieldcollection/isreadonly) { get; } | 获取一个值，表示这个集合是否是只读的；否则为假。 |
 | [Item](../../aspose.tasks/tablefieldcollection/item) { get; set; } | 返回或设置指定索引处的元素。 |
-| [ParentProject](../../aspose.tasks/tablefieldcollection/parentproject) { get; } | 获取 TableFields 对象的父级。 只读[`Project`](../project)。 |
+| [ParentProject](../../aspose.tasks/tablefieldcollection/parentproject) { get; } | 获取 TableFields 对象的父级。 只读[`Project`](../project). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/tablefieldcollection/add)(TableField) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/tablefieldcollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/tablefieldcollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/tablefieldcollection/contains)(TableField) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/tablefieldcollection/copyto)(TableField[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/tablefieldcollection/getenumerator)() | 返回此集合的枚举数。 |

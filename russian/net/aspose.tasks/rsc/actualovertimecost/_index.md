@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Затраты на сверхурочную работу уже выполненную по задачам назначенными ресурсами.
+description: Затраты на сверхурочную работу уже выполненную для задач назначенными ресурсами.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/rsc/actualovertimecost/
 ---
 ## Rsc.ActualOvertimeCost field
 
-Затраты на сверхурочную работу, уже выполненную по задачам назначенными ресурсами.
+Затраты на сверхурочную работу, уже выполненную для задач назначенными ресурсами.
 
 ```csharp
 public static readonly Key<decimal, RscKey> ActualOvertimeCost;

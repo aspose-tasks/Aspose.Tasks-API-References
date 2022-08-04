@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示 VBA 模块
 type: docs
-weight: 2460
+weight: 2470
 url: /zh/net/aspose.tasks/vbamodule/
 ---
 ## VbaModule class

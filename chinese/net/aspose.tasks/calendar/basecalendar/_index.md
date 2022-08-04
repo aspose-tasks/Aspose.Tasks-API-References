@@ -1,14 +1,14 @@
 ---
 title: BaseCalendar
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置此日历所依赖的基准日历 仅当日历不是基准日历时才适用 读/写Calendaraspose.tasks/calendar
+description: 获取或设置此日历所依赖的基准日历 仅在日历不是基准日历时适用 读/写Calendaraspose.tasks/calendar.
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/calendar/basecalendar/
 ---
 ## Calendar.BaseCalendar property
 
-获取或设置此日历所依赖的基准日历。 仅当日历不是基准日历时才适用。 读/写[`Calendar`](../../calendar)。
+获取或设置此日历所依赖的基准日历。 仅在日历不是基准日历时适用。 读/写[`Calendar`](../../calendar).
 
 ```csharp
 public Calendar BaseCalendar { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TextCompression
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает тип сжатия для всех потоков содержимого кроме изображений. По умолчаниюFlate.
+description: Получает или задает тип сжатия который будет использоваться для всех потоков содержимого кроме изображений. Значение по умолчаниюFlate .
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks.saving/pdfsaveoptions/textcompression/
 ---
 ## PdfSaveOptions.TextCompression property
 
-Получает или задает тип сжатия для всех потоков содержимого, кроме изображений. По умолчанию:Flate.
+Получает или задает тип сжатия, который будет использоваться для всех потоков содержимого, кроме изображений. Значение по умолчанию:Flate .
 
 ```csharp
 public PdfTextCompression TextCompression { get; set; }

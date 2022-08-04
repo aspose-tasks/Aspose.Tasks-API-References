@@ -29,17 +29,17 @@ public class AssignmentBaseline : Baseline, IComparable<AssignmentBaseline>,
 | [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | 获取或设置项目迄今为止由资源执行的工作的预算成本。 |
 | [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | 获取或设置为资源安排的工作的预算成本。 |
 | [Cost](../../aspose.tasks/baseline/cost) { get; set; } | 获取或设置保存基线时资源的预计成本。 |
-| [Finish](../../aspose.tasks/assignmentbaseline/finish) { get; set; } | 获取或设置保存基线时资源分配的计划完成日期。  保存此基线时资源分配的完成日期。 |
-| [Start](../../aspose.tasks/assignmentbaseline/start) { get; set; } | 获取或设置保存基线时资源分配的计划开始日期。  保存此基线时资源分配的开始日期。 |
-| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata) { get; set; } | 获取或设置此对象的[`TimephasedDataCollection`](../timephaseddatacollection)实例。 与资源分配基线关联的时间分段数据。  返回此对象的[`TimephasedDataCollection`](../timephaseddatacollection)实例。 与此基线关联的时间分段数据的集合。 |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | 获取或设置保存基线时分配给资源的工时。  保存基线时分配给资源的工作量。 |
+| [Finish](../../aspose.tasks/assignmentbaseline/finish) { get; set; } | 获取或设置保存比较基准时资源分配的计划完成日期。 保存此基线时资源分配的完成日期。 |
+| [Start](../../aspose.tasks/assignmentbaseline/start) { get; set; } | 获取或设置保存基线时资源分配的计划开始日期。 保存此基线时资源分配的开始日期。 |
+| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata) { get; set; } | 获取或设置[`TimephasedDataCollection`](../timephaseddatacollection)此对象的实例。 与资源分配基线关联的时间分段数据。 返回[`TimephasedDataCollection`](../timephaseddatacollection)此对象的实例。与此基线关联的时间分段数据的集合。 |
+| [Work](../../aspose.tasks/baseline/work) { get; set; } | 获取或设置保存基线时分配给资源的工时。 保存基线时分配给资源的工作量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto#compareto)(AssignmentBaseline) | IComparable 接口实现。 将此实例与指定的 Baseline 对象进行比较。 |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable 接口实现。 将此实例与指定的 Baseline 对象进行比较。 |
+| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto#compareto)(AssignmentBaseline) | IComparable 接口实现。 将此实例与指定的基线对象进行比较。 |
+| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable 接口实现。 将此实例与指定的基线对象进行比较。 |
 | [Equals](../../aspose.tasks/assignmentbaseline/equals#equals)(AssignmentBaseline) | 返回一个值，指示此实例是否等于指定的 AssignmentBaseline 对象。 |
 | [Equals](../../aspose.tasks/baseline/equals)(Baseline) | 返回一个值，指示此实例是否等于指定对象。 |
 | override [Equals](../../aspose.tasks/assignmentbaseline/equals#equals_2)(object) | 返回一个值，指示此实例是否等于指定对象。 |

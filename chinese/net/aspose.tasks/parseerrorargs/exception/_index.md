@@ -1,14 +1,14 @@
 ---
 title: Exception
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取解析字符串值期间引发的异常
+description: 获取解析字符串值时引发的异常
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/parseerrorargs/exception/
 ---
 ## ParseErrorArgs.Exception property
 
-获取解析字符串值期间引发的异常。
+获取解析字符串值时引发的异常。
 
 ```csharp
 public Exception Exception { get; }

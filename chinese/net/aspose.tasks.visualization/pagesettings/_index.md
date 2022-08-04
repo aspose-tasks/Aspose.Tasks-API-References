@@ -3,7 +3,7 @@ title: PageSettings
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示项目视图页面的打印设置
 type: docs
-weight: 2860
+weight: 2870
 url: /zh/net/aspose.tasks.visualization/pagesettings/
 ---
 ## PageSettings class
@@ -18,20 +18,20 @@ public class PageSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageSettings](pagesettings)() | 初始化[`PageSettings`](../pagesettings)类的新实例。 表示项目视图页面的打印设置。 |
+| [PageSettings](pagesettings)() | 初始化[`PageSettings`](../pagesettings)班级。 表示项目视图页面的打印设置。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AdjustToPercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize) { get; set; } | 获取或设置一个值，指示是否将打印调整为指定百分比（[`PercentOfNormalSize`](./percentofnormalsize)）正常大小的。 |
+| [AdjustToPercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize) { get; set; } | 获取或设置一个值，该值指示是否将打印调整到指定百分比（[`PercentOfNormalSize`](./percentofnormalsize) ) 正常大小. |
 | [FirstPageNumber](../../aspose.tasks.visualization/pagesettings/firstpagenumber) { get; set; } | 获取或设置打印的第一页码。 |
-| [IsPortrait](../../aspose.tasks.visualization/pagesettings/isportrait) { get; set; } | 获取或设置页面方向是否为纵向的值；如果页面方向是横向，则返回 false。 |
+| [IsPortrait](../../aspose.tasks.visualization/pagesettings/isportrait) { get; set; } | 获取或设置页面方向是否为纵向的值；如果页面方向为横向，则返回 false。 |
 | [PagesInHeight](../../aspose.tasks.visualization/pagesettings/pagesinheight) { get; set; } | 获取或设置要打印的页数。 |
 | [PagesInWidth](../../aspose.tasks.visualization/pagesettings/pagesinwidth) { get; set; } | 获取或设置要打印的宽度页数。 |
-| [PaperSize](../../aspose.tasks.visualization/pagesettings/papersize) { get; set; } | 获取或设置纸张大小。可以是[`PrinterPaperSize`](../printerpapersize)枚举的值之一。 |
-| [PaperSizeId](../../aspose.tasks.visualization/pagesettings/papersizeid) { get; set; } | 获取或设置一个整数，该整数表示 PrinterPaperSize 值之一或自定义页面大小 ID。 该值可用于从操作系统设置中获取 PaperSize。 |
-| [PercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/percentofnormalsize) { get; set; } | 获取或设置正常大小的百分比以调整打印。 |
+| [PaperSize](../../aspose.tasks.visualization/pagesettings/papersize) { get; set; } | 获取或设置纸张大小。可以是的值之一[`PrinterPaperSize`](../printerpapersize)枚举. |
+| [PaperSizeId](../../aspose.tasks.visualization/pagesettings/papersizeid) { get; set; } | 获取或设置一个整数，表示 PrinterPaperSize 值之一或自定义页面大小 id。 此值可用于从操作系统设置中获取 PaperSize. |
+| [PercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/percentofnormalsize) { get; set; } | 获取或设置正常大小的百分比以调整打印到。 |
 
 ### 也可以看看
 

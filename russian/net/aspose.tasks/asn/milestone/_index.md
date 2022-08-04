@@ -1,14 +1,14 @@
 ---
 title: Milestone
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет является ли задание вехой.
+description: Определяет является ли назначение вехой.
 type: docs
 weight: 340
 url: /ru/net/aspose.tasks/asn/milestone/
 ---
 ## Asn.Milestone field
 
-Определяет, является ли задание вехой.
+Определяет, является ли назначение вехой.
 
 ```csharp
 public static readonly Key<bool, AsnKey> Milestone;

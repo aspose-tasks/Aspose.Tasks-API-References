@@ -1,18 +1,18 @@
 ---
 title: Id
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置项目中值的唯一标识符
+description: 获取或设置项目中某个值的唯一标识符
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/value/id/
 ---
 ## Value.Id property
 
-获取或设置项目中值的唯一标识符。
+获取或设置项目中某个值的唯一标识符。
 
-不同的[`Value`](../../value)实例不能使用相同的标识符，这一点很重要。
+重要的是不要为不同的标识符使用相同的标识符[`Value`](../../value)实例。
 
-最小`Id`值为` 1` 。
+最小`Id`值为`1`.
 
 ```csharp
 public int Id { get; set; }

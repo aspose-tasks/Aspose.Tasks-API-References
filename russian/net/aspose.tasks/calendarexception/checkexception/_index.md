@@ -1,14 +1,14 @@
 ---
 title: CheckException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает true если указанный экземпляр структурыDateTimeявляется днем исключения.
+description: Возвращает true если указанный экземплярDateTime struct  это день исключения.
 type: docs
 weight: 170
 url: /ru/net/aspose.tasks/calendarexception/checkexception/
 ---
 ## CalendarException.CheckException method
 
-Возвращает true, если указанный экземпляр структурыDateTimeявляется днем исключения.
+Возвращает true, если указанный экземплярDateTime struct — это день исключения.
 
 ```csharp
 public bool CheckException(DateTime dt)
@@ -16,11 +16,11 @@ public bool CheckException(DateTime dt)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dt | DateTime | указанный экземпляр структурыDateTime. |
+| dt | DateTime | указанный экземплярDateTime структура. |
 
 ### Возвращаемое значение
 
-Возвращает true, если значениеDateTimeявляется днем исключения; в противном случае ложно.
+Возвращает истину, еслиDateTime значение — день исключения; в противном случае ложно.
 
 ### Смотрите также
 

@@ -16,11 +16,11 @@ public bool Remove(AssignmentBaseline item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | AssignmentBaseline | Элемент для удаления. |
+| item | AssignmentBaseline | Элемент, который необходимо удалить. |
 
 ### Возвращаемое значение
 
-true, если[`AssignmentBaseline`](../../assignmentbaseline)экземпляр успешно удален; в противном случае ложь
+верно, если[`AssignmentBaseline`](../../assignmentbaseline) экземпляр был успешно удален; в противном случае ложно
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: WorkWeek
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаWorkWeekaspose.tasks/workweek.
+description: Инициализирует новый экземплярWorkWeekaspose.tasks/workweek класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/workweek/workweek/
 ---
 ## WorkWeek constructor
 
-Инициализирует новый экземпляр класса[`WorkWeek`](../../workweek).
+Инициализирует новый экземпляр[`WorkWeek`](../../workweek) класс.
 
 ```csharp
 public WorkWeek()

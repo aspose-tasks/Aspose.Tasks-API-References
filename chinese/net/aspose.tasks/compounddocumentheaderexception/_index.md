@@ -1,14 +1,14 @@
 ---
 title: CompoundDocumentHeaderException
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示当 MPP 文件头损坏时抛出的异常
+description: 表示 MPP 文件头损坏时抛出的异常
 type: docs
 weight: 270
 url: /zh/net/aspose.tasks/compounddocumentheaderexception/
 ---
 ## CompoundDocumentHeaderException class
 
-表示当 MPP 文件头损坏时抛出的异常。
+表示 MPP 文件头损坏时抛出的异常。
 
 ```csharp
 public class CompoundDocumentHeaderException : ApplicationException

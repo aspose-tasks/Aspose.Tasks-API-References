@@ -16,7 +16,7 @@ public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | FontResolveEventArgs | экземпляр класса[`FontResolveEventArgs`](../fontresolveeventargs), который содержит данные обратного вызова . |
+| args | FontResolveEventArgs | экземпляр[`FontResolveEventArgs`](../fontresolveeventargs) класс, содержащий данные обратного вызова. |
 
 ### Смотрите также
 

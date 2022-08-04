@@ -1,14 +1,14 @@
 ---
 title: Overallocated
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет не перераспределено ли назначение.
+description: Определяет перераспределено ли назначение.
 type: docs
 weight: 360
 url: /ru/net/aspose.tasks/asn/overallocated/
 ---
 ## Asn.Overallocated field
 
-Определяет, не перераспределено ли назначение.
+Определяет, перераспределено ли назначение.
 
 ```csharp
 public static readonly Key<bool, AsnKey> Overallocated;

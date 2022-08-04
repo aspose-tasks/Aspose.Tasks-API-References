@@ -1,14 +1,14 @@
 ---
 title: CenteredImage
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает центрированное изображение отображаемое в верхнем или нижнем колонтитуле.
+description: Получает или задает центрированное изображение для отображения в верхнем или нижнем колонтитуле.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/headerfooterinfo/centeredimage/
 ---
 ## HeaderFooterInfo.CenteredImage property
 
-Получает или задает центрированное изображение, отображаемое в верхнем или нижнем колонтитуле.
+Получает или задает центрированное изображение для отображения в верхнем или нижнем колонтитуле.
 
 ```csharp
 public Image CenteredImage { get; set; }

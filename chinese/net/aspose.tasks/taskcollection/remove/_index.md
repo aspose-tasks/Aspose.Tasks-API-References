@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API 参考
-description: 这是 ICollection 的 Remove 方法的存根实现仅抛出 NotSupportedException
+description: 这是 ICollection 的 Remove 方法的存根实现它只抛出 NotSupportedException
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/taskcollection/remove/
 ---
 ## TaskCollection.Remove method
 
-这是 ICollection 的 Remove 方法的存根实现，仅抛出 NotSupportedException
+这是 ICollection 的 Remove 方法的存根实现，它只抛出 NotSupportedException
 
 ```csharp
 public bool Remove(Task item)
@@ -16,11 +16,11 @@ public bool Remove(Task item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | Task | 要移除的项目。 |
+| item | Task | 要删除的项目。 |
 
 ### 返回值
 
-` true` 如果项目被移除；` false` 否则。
+`真的`如果该项目已被移除；`错误的`否则。
 
 ### 也可以看看
 

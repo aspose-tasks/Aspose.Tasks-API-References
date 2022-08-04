@@ -24,7 +24,7 @@ public enum TimeUnitType
 | Hour | `2` | 表示小时时间单位类型。 |
 | ElapsedHour | `3` | 表示经过的小时时间单位类型。 |
 | Day | `4` | 表示日时间单位类型。 |
-| ElapsedDay | `5` | 表示经过日时间单位类型。 |
+| ElapsedDay | `5` | 表示经过的天时间单位类型。 |
 | Week | `6` | 表示周时间单位类型。 |
 | ElapsedWeek | `7` | 表示经过的周时间单位类型。 |
 | Month | `8` | 表示月份时间单位类型。 |
@@ -37,18 +37,18 @@ public enum TimeUnitType
 | HourEstimated | `15` | 表示 Hour 估计时间单位类型。 |
 | ElapsedHourEstimated | `16` | 表示经过的小时估计时间单位类型。 |
 | DayEstimated | `17` | 表示日估计时间单位类型。 |
-| ElapsedDayEstimated | `18` | 表示经过天数估计的时间单位类型。 |
+| ElapsedDayEstimated | `18` | 表示经过天数的估计时间单位类型。 |
 | WeekEstimated | `19` | 表示周估计时间单位类型。 |
-| ElapsedWeekEstimated | `20` | 表示经过周估计的时间单位类型。 |
+| ElapsedWeekEstimated | `20` | 表示经过的周估计时间单位类型。 |
 | MonthEstimated | `21` | 表示月份估计时间单位类型。 |
 | ElapsedMonthEstimated | `22` | 表示经过的月份估计时间单位类型。 |
-| PercentEstimated | `23` | 表示百分比估计时间单位类型。 |
-| ElapsedPercentEstimated | `24` | 表示经过的百分比估计时间单位类型。 |
+| PercentEstimated | `23` | 表示估计时间单位类型的百分比。 |
+| ElapsedPercentEstimated | `24` | 表示已用百分比估计时间单位类型。 |
 | Year | `25` | 表示年时间单位类型。 |
 
 ### 评论
 
-在导出到 XML 时，未定义的值将从生成的 XML 中删除。
+导出到 XML 时，未定义的值将从生成的 XML 中删除。
 
 ### 也可以看看
 

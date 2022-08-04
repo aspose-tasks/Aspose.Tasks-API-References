@@ -1,14 +1,14 @@
 ---
 title: Milestone
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定分配是否为里程碑
+description: 确定分配是否是里程碑
 type: docs
 weight: 340
 url: /zh/net/aspose.tasks/asn/milestone/
 ---
 ## Asn.Milestone field
 
-确定分配是否为里程碑。
+确定分配是否是里程碑。
 
 ```csharp
 public static readonly Key<bool, AsnKey> Milestone;

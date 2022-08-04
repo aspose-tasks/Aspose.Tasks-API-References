@@ -1,14 +1,14 @@
 ---
 title: GetNextWorkingDayStart
 second_title: Aspose.Tasks for .NET API 参考
-description: 从日期开始计算下一个工作日
+description: 计算从日期开始的下一个工作日
 type: docs
 weight: 170
 url: /zh/net/aspose.tasks/calendar/getnextworkingdaystart/
 ---
 ## Calendar.GetNextWorkingDayStart method
 
-从日期开始计算下一个工作日。
+计算从日期开始的下一个工作日。
 
 ```csharp
 public DateTime GetNextWorkingDayStart(DateTime date)
@@ -16,11 +16,11 @@ public DateTime GetNextWorkingDayStart(DateTime date)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| date | DateTime | 获取下一个工作日开始的日期。 |
+| date | DateTime | 获得下一个工作日开始的日期。 |
 
 ### 返回值
 
-下一个工作日开始DateTime。
+下一个工作日开始DateTime.
 
 ### 也可以看看
 

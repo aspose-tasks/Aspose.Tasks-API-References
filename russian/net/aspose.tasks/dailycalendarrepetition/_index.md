@@ -1,14 +1,14 @@
 ---
 title: DailyCalendarRepetition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет класс для повторений в шаблоне ежедневного повторения на основе календарных дней.
+description: Представляет класс повторений в шаблоне ежедневного повторения на основе календарных дней.
 type: docs
 weight: 380
 url: /ru/net/aspose.tasks/dailycalendarrepetition/
 ---
 ## DailyCalendarRepetition class
 
-Представляет класс для повторений в шаблоне ежедневного повторения на основе календарных дней.
+Представляет класс повторений в шаблоне ежедневного повторения на основе календарных дней.
 
 ```csharp
 public class DailyCalendarRepetition : DailyRepetitionBase
@@ -18,13 +18,13 @@ public class DailyCalendarRepetition : DailyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [DailyCalendarRepetition](dailycalendarrepetition)() | Инициализирует новый экземпляр класса[`DailyCalendarRepetition`](../dailycalendarrepetition). |
+| [DailyCalendarRepetition](dailycalendarrepetition)() | Инициализирует новый экземпляр[`DailyCalendarRepetition`](../dailycalendarrepetition) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/dailyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает количество дней, которое представляет интервал в днях между вхождениями. |
+| [RepetitionInterval](../../aspose.tasks/dailyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает количество дней, представляющее интервал в днях между событиями. |
 
 ### Смотрите также
 

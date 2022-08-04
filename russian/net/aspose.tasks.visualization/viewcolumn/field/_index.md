@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает поле столбца. Fieldaspose.tasks.visualization/viewcolumn/field.
+description: Получает или задает поле столбца. Fieldaspose.tasks.visualization/viewcolumn/field .
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/viewcolumn/field/
 ---
 ## ViewColumn.Field property
 
-Получает или устанавливает поле столбца. `Field`.
+Получает или задает поле столбца. `Field` .
 
 ```csharp
 public abstract Field Field { get; set; }

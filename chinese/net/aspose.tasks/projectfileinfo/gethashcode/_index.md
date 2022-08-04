@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回ProjectFileInfoaspose.tasks/projectfileinfo类实例的哈希码值
+description: 返回实例的哈希码值ProjectFileInfoaspose.tasks/projectfileinfo类.
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/projectfileinfo/gethashcode/
 ---
 ## ProjectFileInfo.GetHashCode method
 
-返回[`ProjectFileInfo`](../../projectfileinfo)类实例的哈希码值。
+返回实例的哈希码值[`ProjectFileInfo`](../../projectfileinfo)类.
 
 ```csharp
 public override int GetHashCode()

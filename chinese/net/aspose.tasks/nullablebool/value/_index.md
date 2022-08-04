@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个指示当前值是真还是假的值
+description: 获取或设置一个值指示当前值是真还是假
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/nullablebool/value/
 ---
 ## NullableBool.Value property
 
-获取或设置一个指示当前值是真还是假的值。
+获取或设置一个值，指示当前值是真还是假。
 
 ```csharp
 public bool Value { get; set; }

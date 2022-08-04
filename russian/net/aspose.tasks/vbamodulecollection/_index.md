@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовVbaModule./vbamodule.
+description: Представляет наборVbaModule./vbamodule объекты.
 type: docs
-weight: 2490
+weight: 2500
 url: /ru/net/aspose.tasks/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Представляет набор объектов[`VbaModule`](../vbamodule).
+Представляет набор[`VbaModule`](../vbamodule) объекты.
 
 ```csharp
 public class VbaModuleCollection : ReadOnlyCollectionBase<VbaModule>

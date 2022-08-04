@@ -1,14 +1,14 @@
 ---
 title: Alg
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Обрабатывает объект в списке. Вызывается послеPreAlgaspose.tasks.util/ialgorithm-1/prealg
+description: Обрабатывает объект в списке. Вызывается послеPreAlgaspose.tasks.util/ialgorithm-1/prealg 
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/ialgorithm-1/alg/
 ---
 ## IAlgorithm&lt;T&gt;.Alg method
 
-Обрабатывает объект в списке. Вызывается после[`PreAlg`](../prealg);
+Обрабатывает объект в списке. Вызывается после[`PreAlg`](../prealg) ;
 
 ```csharp
 public void Alg(T el, int index)

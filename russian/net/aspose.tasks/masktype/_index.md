@@ -1,14 +1,14 @@
 ---
 title: MaskType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Указывает тип маски.
+description: Определяет тип маски.
 type: docs
 weight: 870
 url: /ru/net/aspose.tasks/masktype/
 ---
 ## MaskType enumeration
 
-Указывает тип маски.
+Определяет тип маски.
 
 ```csharp
 public enum MaskType
@@ -23,11 +23,11 @@ public enum MaskType
 | UpperCaseLetters | `2` | Указывает тип маски UpperCaseLetters. |
 | LowerCaseLetters | `3` | Указывает тип маски LowerCaseLetters. |
 | Characters | `4` | Указывает тип маски символов. |
-| Val4 | `5` | Указывает поиск типа маски стоимости. |
+| Val4 | `5` | Указывает поиск типа маски затрат. |
 | Val5 | `6` | Указывает тип маски поиска дат. |
-| Val6 | `7` | Указывает тип маски Lookup for Durations. |
-| Val7 | `8` | Указывает тип маски Lookup for Numbers. |
-| Val8 | `9` | Указывает тип маски Lookup for Flags. |
+| Val6 | `7` | Указывает тип маски поиска длительности. |
+| Val7 | `8` | Указывает тип маски поиска номеров. |
+| Val8 | `9` | Указывает тип маски поиска флагов. |
 | Val9 | `10` | Указывает поиск типа маски FinishDate. |
 
 ### Смотрите также

@@ -19,7 +19,7 @@ public sealed class FontResolveEventArgs : EventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname) { get; } | 获取请求字体的名称。 |
-| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname) { get; set; } | 获取或设置解析字体的名称。可以设置控制用于渲染视图的字体。 |
+| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname) { get; set; } | 获取或设置已解析字体的名称。可以设置控制用于渲染视图的字体。 |
 
 ### 也可以看看
 

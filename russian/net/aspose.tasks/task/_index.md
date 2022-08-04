@@ -22,14 +22,14 @@ public class Task : IEquatable<Task>
 | [Baselines](../../aspose.tasks/task/baselines) { get; set; } | Получает или задает набор базовых значений задачи. |
 | [Children](../../aspose.tasks/task/children) { get; } | Получает коллекцию дочерних задач этого объекта. Объект TaskCollection, представляющий дочерние задачи. |
 | [ExtendedAttributes](../../aspose.tasks/task/extendedattributes) { get; } | Получает объект ExtendedAttributeCollection, содержащий значения расширенного атрибута. |
-| [OutlineCodes](../../aspose.tasks/task/outlinecodes) { get; set; } | Получает или устанавливает объект[`OutlineCodeCollection`](../outlinecodecollection). |
+| [OutlineCodes](../../aspose.tasks/task/outlinecodes) { get; set; } | Получает или устанавливает[`OutlineCodeCollection`](../outlinecodecollection) объект. |
 | [ParentProject](../../aspose.tasks/task/parentproject) { get; } | Получает родительский проект задачи. |
 | [ParentTask](../../aspose.tasks/task/parenttask) { get; } | Получает родительскую задачу задачи. |
-| [Predecessors](../../aspose.tasks/task/predecessors) { get; } | Получает объект[`TaskCollection`](../taskcollection), который содержит всех предшественников этого объекта Task. |
-| [RecurringInfo](../../aspose.tasks/task/recurringinfo) { get; } | Получает экземпляр класса[`RecurringTaskInfo`](../recurringtaskinfo)для повторяющейся задачи; если задача не повторяющаяся, то возвращает null;  Информация об экземпляре[`RecurringTaskInfo`](../recurringtaskinfo)представлена только в формате файла mpp. |
+| [Predecessors](../../aspose.tasks/task/predecessors) { get; } | Получает[`TaskCollection`](../taskcollection) объект, который содержит всех предшественников этого объекта Task. |
+| [RecurringInfo](../../aspose.tasks/task/recurringinfo) { get; } | Получает экземпляр[`RecurringTaskInfo`](../recurringtaskinfo) класс для задачи, которая является повторяющейся задачей; если задача не повторяющаяся, то возвращает null;  Информация для экземпляра[`RecurringTaskInfo`](../recurringtaskinfo) присутствует только в формате файла mpp. |
 | [SplitParts](../../aspose.tasks/task/splitparts) { get; } | Получает коллекцию SplitPart, представляющую части задачи. |
-| [Successors](../../aspose.tasks/task/successors) { get; } | Получает объект[`TaskCollection`](../taskcollection), который содержит всех потомков этого объекта Task. |
-| [TimephasedData](../../aspose.tasks/task/timephaseddata) { get; set; } | Получает или задает объект TimephasedDataCollection этой задачи. Поэтапный блок данных, связанный с задачей. |
+| [Successors](../../aspose.tasks/task/successors) { get; } | Получает[`TaskCollection`](../taskcollection) объект, который содержит всех преемников этого объекта Task. |
+| [TimephasedData](../../aspose.tasks/task/timephaseddata) { get; set; } | Получает или задает объект TimephasedDataCollection этой задачи. Блок поэтапных данных, связанный с задачей. |
 
 ## Методы
 
@@ -38,13 +38,13 @@ public class Task : IEquatable<Task>
 | [Clone](../../aspose.tasks/task/clone)() | Создает полную копию задачи без подзадач. |
 | [Delete](../../aspose.tasks/task/delete)() | Удаляет задачу из коллекции задач родительского проекта и все ее назначения. |
 | override [Equals](../../aspose.tasks/task/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [Equals](../../aspose.tasks/task/equals#equals)(Task) | Возвращает значение, указывающее, равен ли этот экземпляр заданной задаче. |
+| [Equals](../../aspose.tasks/task/equals#equals)(Task) | Возвращает значение, указывающее, соответствует ли этот экземпляр заданной задаче. |
 | [Get&lt;T&gt;](../../aspose.tasks/task/get)(Key&lt;T, TaskKey&gt;) | Возвращает значение, которому сопоставлено свойство в этом контейнере. |
 | override [GetHashCode](../../aspose.tasks/task/gethashcode)() | Возвращает значение хэш-кода для этой задачи. |
-| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection)объект с[`TimephasedData`](./timephaseddata)значения в пределах заданных дат начала и окончания. |
-| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection)объект с[`TimephasedData`](./timephaseddata)значения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами. |
-| [MoveToSibling](../../aspose.tasks/task/movetosibling#movetosibling_1)(int) | Перемещает текущую задачу на тот же уровень структуры перед задачей с указанным идентификатором. Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты) и вычисляет зависимые поля, такие как как слаксы, поля работ и затрат, уровни структуры). Если ParentProject.CalculationMode имеет значение Manual, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. Если ParentProject.CalculationMode имеет значение Automatic, метод автоматически перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни контура). |
-| [MoveToSibling](../../aspose.tasks/task/movetosibling#movetosibling)(Task) | Перемещает текущую задачу на тот же уровень структуры перед указанной задачей. Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты) и вычисляет зависимые поля, такие как как слаксы, поля работ и затрат, уровни структуры). Если ParentProject.CalculationMode имеет значение Manual, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. Если ParentProject.CalculationMode имеет значение Automatic, метод автоматически перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни контура). |
+| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection) объект с[`TimephasedData`](./timephaseddata) значения в пределах заданных дат начала и окончания. |
+| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection) объект с[`TimephasedData`](./timephaseddata) значения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами. |
+| [MoveToSibling](../../aspose.tasks/task/movetosibling#movetosibling_1)(int) | Перемещает текущую задачу на тот же уровень структуры перед задачей с указанным идентификатором. Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты) и вычисляет зависимые поля, такие как резервы, поля работы и затрат, уровни структуры). Если ParentProject.CalculationMode установлен вручную, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. Если ParentProject. CalculationMode — Automatic, метод автоматически перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни структуры). |
+| [MoveToSibling](../../aspose.tasks/task/movetosibling#movetosibling)(Task) | Перемещает текущую задачу на тот же уровень структуры перед указанной задачей. Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/ поздние даты) и вычислить зависимые поля, такие как резервы, поля работы и затрат, уровни структуры). Если ParentProject.CalculationMode имеет значение Manual, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. Если ParentProject.CalculationMode имеет значение Automatic метод автоматически перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни структуры). |
 | [OutlineIndent](../../aspose.tasks/task/outlineindent)() | Делает отступ задачи в структуре. |
 | [OutlineOutdent](../../aspose.tasks/task/outlineoutdent)() | Продвигает задачу в структуре. |
 | [SelectAllChildTasks](../../aspose.tasks/task/selectallchildtasks)() | Рекурсивно собирает все дочерние задачи этой задачи. |
@@ -53,11 +53,11 @@ public class Task : IEquatable<Task>
 
 ### Примечания
 
-Задача есть представляющий один атомный патрон работы.
+**Задача** представляет собой один атомный патрон работы.
 
-Можно использовать **Task** для планирования проекта путем создания задач и назначения им соответствующих ресурсов. Задачи в проекте организованы в виде корневой иерархической древовидной структуры с корневой задачей и поддеревьями дочерних задач.
+Можно использовать **Задача**для планирования проекта путем создания задач и назначения им соответствующих ресурсов. Задачи в проекте организованы в виде корневой иерархической древовидной структуры с корневой задачей и поддеревьями дочерних задач.
 
-Для построения дерева задач можно использовать специализированную коллекцию[`TaskCollection`](../taskcollection)обратившись к[`RootTask`](../project/roottask)свойство например:
+Для построения дерева задач можно использовать специализированную коллекцию[`TaskCollection`](../taskcollection) путем доступа[`RootTask`](../project/roottask) свойство, например:
 
 ```csharp
 Project project = new Project();

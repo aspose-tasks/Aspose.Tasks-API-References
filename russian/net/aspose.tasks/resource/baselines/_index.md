@@ -1,14 +1,14 @@
 ---
 title: Baselines
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает экземпляр BaselineCollection для этого объекта. Базовые значения ресурса.
+description: Получает экземпляр BaselineCollection для этого объекта. Базовые значения для ресурса.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/resource/baselines/
 ---
 ## Resource.Baselines property
 
-Получает экземпляр BaselineCollection для этого объекта. Базовые значения ресурса.
+Получает экземпляр BaselineCollection для этого объекта. Базовые значения для ресурса.
 
 ```csharp
 public BaselineCollection Baselines { get; }

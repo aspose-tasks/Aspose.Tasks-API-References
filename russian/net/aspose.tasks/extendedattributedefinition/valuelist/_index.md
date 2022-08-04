@@ -1,14 +1,14 @@
 ---
 title: ValueList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает списокltValuegt Список значений.
+description: Получает списокltзначениеgt ValueList.
 type: docs
 weight: 270
 url: /ru/net/aspose.tasks/extendedattributedefinition/valuelist/
 ---
 ## ExtendedAttributeDefinition.ValueList property
 
-Получает список&lt;Value&gt; Список значений.
+Получает список&lt;значение&gt; ValueList.
 
 ```csharp
 public List<Value> ValueList { get; }
@@ -16,7 +16,7 @@ public List<Value> ValueList { get; }
 
 ### Примечания
 
-Когда значения расширенных атрибутов указаны как свойства элементов схемы, они могут быть указаны значениями или ссылками на значения, содержащиеся в этом списке. Приложения могут предполагать упорядочение списка в порядке, указанном здесь. В настоящее время поддерживается для форматов MSP 2003/2007 Xml и MSP 2003 mpp. Не изменяйте этот список напрямую. Вместо этого используйте методы ExtendedAttributeDefinition.AddLookupValue/RemoveLookupValue.
+Когда значения расширенных атрибутов указаны как свойства элементов в схеме, они могут быть указаны значениями или ссылками на значения, содержащиеся в этом списке. Приложения могут предполагать упорядочение списка в порядке, указанном здесь. поддерживается для форматов MSP 2003/2007 Xml и MSP 2003 mpp. Не изменяйте этот список напрямую. Вместо этого используйте методы ExtendedAttributeDefinition.AddLookupValue/RemoveLookupValue.
 
 ### Смотрите также
 

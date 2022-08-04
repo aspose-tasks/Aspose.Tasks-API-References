@@ -1,14 +1,14 @@
 ---
 title: GridlineType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает тип линии сетки GridlineTypeaspose.tasks.visualization/gridline/gridlinetype.
+description: Получает или задает тип линии сетки GridlineTypeaspose.tasks.visualization/gridline/gridlinetype .
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/gridline/gridlinetype/
 ---
 ## Gridline.GridlineType property
 
-Получает или задает тип линии сетки (`GridlineType`).
+Получает или задает тип линии сетки (`GridlineType` ).
 
 ```csharp
 public GridlineType GridlineType { get; set; }

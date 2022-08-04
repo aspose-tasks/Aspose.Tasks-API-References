@@ -18,23 +18,23 @@ public class OleObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OleObject](oleobject)() | 初始化[`OleObject`](../oleobject)类的新实例。 |
+| [OleObject](oleobject)() | 初始化[`OleObject`](../oleobject)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApplicationName](../../aspose.tasks/oleobject/applicationname) { get; set; } | 获取或设置用于打开嵌入对象的应用程序名称。 |
-| [Content](../../aspose.tasks/oleobject/content) { get; set; } | 获取或设置嵌入文件的数据；如果没有嵌入数据，则返回 null。 |
+| [ApplicationName](../../aspose.tasks/oleobject/applicationname) { get; set; } | 获取或设置应用程序名称以打开嵌入对象。 |
+| [Content](../../aspose.tasks/oleobject/content) { get; set; } | 获取或设置嵌入文件的数据；如果没有嵌入数据，则为 null。 |
 | [DisplayAsIcon](../../aspose.tasks/oleobject/displayasicon) { get; set; } | 获取或设置一个标志，指示 OLE 对象应显示为图标或常规图片。 |
-| [FileFormat](../../aspose.tasks/oleobject/fileformat) { get; set; } | 获取或设置嵌入对象的文件格式。 |
+| [FileFormat](../../aspose.tasks/oleobject/fileformat) { get; set; } | 获取或设置嵌入对象的文件格式 |
 | [FullPath](../../aspose.tasks/oleobject/fullpath) { get; set; } | 获取或设置插入对象的完整路径。 |
-| [Id](../../aspose.tasks/oleobject/id) { get; set; } | 获取或设置对象 ID。 |
+| [Id](../../aspose.tasks/oleobject/id) { get; set; } | 获取或设置对象id。 |
 | [Label](../../aspose.tasks/oleobject/label) { get; set; } | 获取或设置插入对象的标签。 |
 | [Linked](../../aspose.tasks/oleobject/linked) { get; } | 获取一个值，该值指示项目文件是否仅包含指向存储在链接源中的实际数据的链接。 |
 | [Name](../../aspose.tasks/oleobject/name) { get; set; } | 获取或设置 OLE 对象实例的名称。 |
 | [TemporaryFile](../../aspose.tasks/oleobject/temporaryfile) { get; set; } | 获取或设置插入对象的临时文件的路径。 |
-| [View](../../aspose.tasks/oleobject/view) { get; set; } | 获取或设置插入对象所属的[`View`](./view)类的实例。 |
+| [View](../../aspose.tasks/oleobject/view) { get; set; } | 获取或设置[`View`](./view)插入对象所属的类。 |
 
 ### 也可以看看
 

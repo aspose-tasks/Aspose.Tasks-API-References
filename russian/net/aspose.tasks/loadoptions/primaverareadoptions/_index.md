@@ -1,14 +1,14 @@
 ---
 title: PrimaveraReadOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает указанный экземпляр классаPrimaveraReadOptionsaspose.tasks/primaverareadoptions который можно использовать для настройки поведения загрузки Primavera. форматы Primavera P6 XER или Primavera P6 Xml.
+description: Получает или задает указанный экземплярPrimaveraReadOptionsaspose.tasks/primaverareadoptions class который можно использовать для настройки поведения загрузки форматов Primavera Primavera P6 XER или Primavera P6 Xml.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/loadoptions/primaverareadoptions/
 ---
 ## LoadOptions.PrimaveraReadOptions property
 
-Получает или задает указанный экземпляр класса[`PrimaveraReadOptions`](../../primaverareadoptions), который можно использовать для настройки поведения загрузки Primavera. форматы (Primavera P6 XER или Primavera P6 Xml).
+Получает или задает указанный экземпляр[`PrimaveraReadOptions`](../../primaverareadoptions) class, который можно использовать для настройки поведения загрузки форматов Primavera (Primavera P6 XER или Primavera P6 Xml).
 
 ```csharp
 public PrimaveraReadOptions PrimaveraReadOptions { get; set; }

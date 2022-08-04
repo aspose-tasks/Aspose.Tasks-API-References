@@ -1,14 +1,14 @@
 ---
 title: OutlineCode
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаOutlineCodeaspose.tasks/outlinecode.
+description: Инициализирует новый экземплярOutlineCodeaspose.tasks/outlinecode учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/outlinecode/outlinecode/
 ---
 ## OutlineCode() {#constructor}
 
-Инициализирует новый экземпляр класса[`OutlineCode`](../../outlinecode).
+Инициализирует новый экземпляр[`OutlineCode`](../../outlinecode) учебный класс.
 
 ```csharp
 public OutlineCode()
@@ -24,7 +24,7 @@ public OutlineCode()
 
 ## OutlineCode(OutlineCodeDefinition, OutlineValue) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OutlineCode`](../../outlinecode), используя указанный Outline Code и одно из его значений.
+Инициализирует новый экземпляр[`OutlineCode`](../../outlinecode) class, используя указанный Outline Code и одно из его значений.
 
 ```csharp
 public OutlineCode(OutlineCodeDefinition codeDefinition, OutlineValue outlineValue)

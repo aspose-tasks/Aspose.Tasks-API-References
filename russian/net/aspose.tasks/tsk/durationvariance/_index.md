@@ -1,14 +1,14 @@
 ---
 title: DurationVariance
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Разница между базовой продолжительностью задачи и общей продолжительностью текущей оценкой задачи.
+description: Разница между базовой продолжительностью задачи и общей продолжительностью текущая оценка задачи.
 type: docs
 weight: 330
 url: /ru/net/aspose.tasks/tsk/durationvariance/
 ---
 ## Tsk.DurationVariance field
 
-Разница между базовой продолжительностью задачи и общей продолжительностью (текущей оценкой) задачи.
+Разница между базовой продолжительностью задачи и общей продолжительностью (текущая оценка) задачи.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> DurationVariance;

@@ -16,7 +16,7 @@ public void UpdateProject(Project project)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| project | Project | Проект для сохранения в экземпляре Project Server\Project Online. |
+| project | Project | Проект, который необходимо сохранить в экземпляре Project Server\Project Online. |
 
 ### Исключения
 
@@ -62,8 +62,8 @@ public void UpdateProject(Project project, ProjectServerSaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| project | Project | Проект для сохранения в экземпляре Project Server\Project Online. |
-| saveOptions | ProjectServerSaveOptions | Экземпляр класса[`ProjectServerSaveOptions`](../../projectserversaveoptions). |
+| project | Project | Проект, который необходимо сохранить в экземпляре Project Server\Project Online. |
+| saveOptions | ProjectServerSaveOptions | Случай[`ProjectServerSaveOptions`](../../projectserversaveoptions) учебный класс. |
 
 ### Исключения
 
@@ -73,7 +73,7 @@ public void UpdateProject(Project project, ProjectServerSaveOptions saveOptions)
 
 ### Примечания
 
-saveOptions.ProjectGuid должен быть установлен на GUID проекта, который существует в экземпляре Project Server\ Project Online.
+Для saveOptions.ProjectGuid следует указать идентификатор проекта, который существует в экземпляре Project Server\ Project Online.
 
 ### Примеры
 

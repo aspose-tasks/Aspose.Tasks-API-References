@@ -1,14 +1,14 @@
 ---
 title: DaysOfWeek
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает DayTypeCollection для этого объекта. Дни недели в которые действует исключение.
+description: Получает коллекцию DayTypeCollection для этого объекта. Дни недели в которые действует исключение.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/calendarexception/daysofweek/
 ---
 ## CalendarException.DaysOfWeek property
 
-Получает DayTypeCollection для этого объекта. Дни недели, в которые действует исключение.
+Получает коллекцию DayTypeCollection для этого объекта. Дни недели, в которые действует исключение.
 
 ```csharp
 public DayTypeCollection DaysOfWeek { get; }

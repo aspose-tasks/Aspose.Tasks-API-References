@@ -1,14 +1,14 @@
 ---
 title: UserDef
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает значение указывающее определено ли пользовательское поле пользователем.
+description: Получает или задает значение указывающее определяется ли пользовательское поле пользователем.
 type: docs
 weight: 260
 url: /ru/net/aspose.tasks/extendedattributedefinition/userdef/
 ---
 ## ExtendedAttributeDefinition.UserDef property
 
-Получает или задает значение, указывающее, определено ли пользовательское поле пользователем.
+Получает или задает значение, указывающее, определяется ли пользовательское поле пользователем.
 
 ```csharp
 public bool UserDef { get; set; }

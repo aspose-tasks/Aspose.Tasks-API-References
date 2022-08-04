@@ -1,14 +1,14 @@
 ---
 title: StandardRate
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源执行的常规非加班工作的报酬率
+description: 资源执行的常规非加班工作的工资率
 type: docs
 weight: 630
 url: /zh/net/aspose.tasks/rsc/standardrate/
 ---
 ## Rsc.StandardRate field
 
-资源执行的常规非加班工作的报酬率。
+资源执行的常规非加班工作的工资率。
 
 ```csharp
 public static readonly Key<decimal, RscKey> StandardRate;

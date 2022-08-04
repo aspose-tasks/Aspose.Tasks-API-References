@@ -1,14 +1,14 @@
 ---
 title: ResourceFilters
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает все определения фильтров на основе ресурсов. ResourceFilters  это набор объектовFilteraspose.tasks/filter.
+description: Получает все определения фильтров на основе ресурсов. ResourceFilters  это наборFilteraspose.tasks/filter объекты.
 type: docs
 weight: 140
 url: /ru/net/aspose.tasks/project/resourcefilters/
 ---
 ## Project.ResourceFilters property
 
-Получает все определения фильтров на основе ресурсов. ResourceFilters — это набор объектов[`Filter`](../../filter).
+Получает все определения фильтров на основе ресурсов. ResourceFilters — это набор[`Filter`](../../filter) объекты.
 
 ```csharp
 public FilterCollection ResourceFilters { get; }

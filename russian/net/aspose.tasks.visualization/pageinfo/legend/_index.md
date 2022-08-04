@@ -1,14 +1,14 @@
 ---
 title: Legend
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает экземпляр классаPageLegendaspose.tasks.visualization/pagelegend который определяет легенду страницы.
+description: Получает или задает экземплярPageLegendaspose.tasks.visualization/pagelegend класс который определяет легенду страницы.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.visualization/pageinfo/legend/
 ---
 ## PageInfo.Legend property
 
-Получает или задает экземпляр класса[`PageLegend`](../../pagelegend), который определяет легенду страницы.
+Получает или задает экземпляр[`PageLegend`](../../pagelegend) класс, который определяет легенду страницы.
 
 ```csharp
 public PageLegend Legend { get; set; }

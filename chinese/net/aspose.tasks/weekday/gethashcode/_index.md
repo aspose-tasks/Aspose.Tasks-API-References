@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回WeekDayaspose.tasks/weekday类实例的哈希码值
+description: 返回实例的哈希码值WeekDayaspose.tasks/weekday类.
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/weekday/gethashcode/
 ---
 ## WeekDay.GetHashCode method
 
-返回[`WeekDay`](../../weekday)类实例的哈希码值。
+返回实例的哈希码值[`WeekDay`](../../weekday)类.
 
 ```csharp
 public override int GetHashCode()

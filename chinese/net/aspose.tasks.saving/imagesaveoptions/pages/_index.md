@@ -1,14 +1,14 @@
 ---
 title: Pages
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置将项目布局保存到单独文件时要保存的页码列表  如果此列表为空则将保存所有页面
+description: 获取或设置将项目布局保存到单独文件时要保存的页码列表 如果此列表为空则将保存所有页面
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks.saving/imagesaveoptions/pages/
 ---
 ## ImageSaveOptions.Pages property
 
-获取或设置将项目布局保存到单独文件时要保存的页码列表。  如果此列表为空，则将保存所有页面。
+获取或设置将项目布局保存到单独文件时要保存的页码列表。 如果此列表为空，则将保存所有页面。
 
 ```csharp
 public List<int> Pages { get; set; }

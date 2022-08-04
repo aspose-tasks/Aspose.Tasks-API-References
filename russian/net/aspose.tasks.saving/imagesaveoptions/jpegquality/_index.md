@@ -1,14 +1,14 @@
 ---
 title: JpegQuality
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает качество JPEG. Допустимый диапазон значений0..100.
+description: Получает или задает качество JPEG. Допустимый диапазон значений 0..100.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.saving/imagesaveoptions/jpegquality/
 ---
 ## ImageSaveOptions.JpegQuality property
 
-Получает или задает качество JPEG. Допустимый диапазон значений:0..100.
+Получает или задает качество JPEG. Допустимый диапазон значений: 0..100.
 
 ```csharp
 public int JpegQuality { get; set; }

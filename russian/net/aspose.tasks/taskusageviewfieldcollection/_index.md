@@ -1,14 +1,14 @@
 ---
 title: TaskUsageViewFieldCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор значенийTaskUsageViewField./taskusageviewfield.
+description: Представляет наборTaskUsageViewField./taskusageviewfield значения.
 type: docs
 weight: 2180
 url: /ru/net/aspose.tasks/taskusageviewfieldcollection/
 ---
 ## TaskUsageViewFieldCollection class
 
-Представляет набор значений[`TaskUsageViewField`](../taskusageviewfield).
+Представляет набор[`TaskUsageViewField`](../taskusageviewfield) значения.
 
 ```csharp
 public class TaskUsageViewFieldCollection : IList<TaskUsageViewField>

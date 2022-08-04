@@ -16,7 +16,7 @@ public void CopyTo(WeekDay[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | WeekDay[] | Целевой массив[`WeekDay`](../../weekday)для копирования в |
+| array | WeekDay[] | Целевой массив[`WeekDay`](../../weekday) скопировать в |
 | arrayIndex | Int32 | Начальный индекс для операции копирования. |
 
 ### Смотрите также

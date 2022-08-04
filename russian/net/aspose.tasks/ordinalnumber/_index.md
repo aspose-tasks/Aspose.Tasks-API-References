@@ -1,14 +1,14 @@
 ---
 title: OrdinalNumber
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет порядковый номер в экземпляре классаRecurringTaskInfo./recurringtaskinfo.
+description: Представляет порядковый номер экземпляраRecurringTaskInfo./recurringtaskinfo класс.
 type: docs
 weight: 1000
 url: /ru/net/aspose.tasks/ordinalnumber/
 ---
 ## OrdinalNumber enumeration
 
-Представляет порядковый номер в экземпляре класса[`RecurringTaskInfo`](../recurringtaskinfo).
+Представляет порядковый номер экземпляра[`RecurringTaskInfo`](../recurringtaskinfo) класс.
 
 ```csharp
 public enum OrdinalNumber

@@ -3,7 +3,7 @@ title: ViewScreen
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Определяет тип экрана для представления.
 type: docs
-weight: 2550
+weight: 2560
 url: /ru/net/aspose.tasks/viewscreen/
 ---
 ## ViewScreen enumeration
@@ -22,16 +22,16 @@ public enum ViewScreen
 | Gantt | `1` | Представление Ганта. |
 | NetworkDiagram | `2` | Представление сетевой схемы. |
 | RelationshipDiagram | `3` | Представление диаграммы отношений. |
-| ResourceForm | `6` | Представление формы ресурсов. |
+| ResourceForm | `6` | Представление формы ресурса. |
 | ResourceGraph | `8` | Представление графика ресурсов. |
 | ResourceNameForm | `12` | Представление формы имени ресурса. |
-| ResourceSheet | `7` | Просмотр листа ресурсов. |
-| ResourceUsage | `15` | Просмотр использования ресурсов. |
+| ResourceSheet | `7` | Представление листа ресурсов. |
+| ResourceUsage | `15` | Представление использования ресурсов. |
 | TaskDetailsForm | `10` | Представление формы сведений о задаче. |
 | TaskForm | `4` | Представление формы задачи. |
 | TaskNameForm | `11` | Вид формы имени задачи. |
 | TaskSheet | `5` | Просмотр листа задач. |
-| TaskUsage | `14` | Просмотр использования задач. |
+| TaskUsage | `14` | Представление использования задач. |
 
 ### Смотрите также
 

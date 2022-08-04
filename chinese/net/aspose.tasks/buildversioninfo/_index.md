@@ -19,9 +19,9 @@ public static class BuildVersionInfo
 | 姓名 | 描述 |
 | --- | --- |
 | static readonly [AssemblyInformationalVersion](../../aspose.tasks/buildversioninfo/assemblyinformationalversion) | 程序集的信息版本号。 |
-| static readonly [AssemblyVersion](../../aspose.tasks/buildversioninfo/assemblyversion) | 汇编版本。 |
+| static readonly [AssemblyVersion](../../aspose.tasks/buildversioninfo/assemblyversion) | 组装版本. |
 | static readonly [FileVersion](../../aspose.tasks/buildversioninfo/fileversion) | 文件版本。 |
-| static readonly [Product](../../aspose.tasks/buildversioninfo/product) | 产品名称。 |
+| static readonly [Product](../../aspose.tasks/buildversioninfo/product) | 产品名称. |
 
 ### 也可以看看
 

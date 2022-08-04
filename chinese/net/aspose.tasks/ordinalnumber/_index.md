@@ -1,14 +1,14 @@
 ---
 title: OrdinalNumber
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示RecurringTaskInfo./recurringtaskinfo类实例中的序数
+description: 表示实例中的序数RecurringTaskInfo./recurringtaskinfo类.
 type: docs
 weight: 1000
 url: /zh/net/aspose.tasks/ordinalnumber/
 ---
 ## OrdinalNumber enumeration
 
-表示[`RecurringTaskInfo`](../recurringtaskinfo)类实例中的序数。
+表示实例中的序数[`RecurringTaskInfo`](../recurringtaskinfo)类.
 
 ```csharp
 public enum OrdinalNumber

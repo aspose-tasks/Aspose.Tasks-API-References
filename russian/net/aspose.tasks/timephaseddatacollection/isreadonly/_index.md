@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает значение указывающее является ли коллекцияICollectionдоступной только для чтения.
+description: Получает значение указывающее является лиICollection доступен только для чтения.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/timephaseddatacollection/isreadonly/
 ---
 ## TimephasedDataCollection.IsReadOnly property
 
-Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения.
+Получает значение, указывающее, является лиICollection доступен только для чтения.
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### Возвращаемое значение
 
-true, еслиICollectionдоступен только для чтения; в противном случае ложно.
+верно, еслиICollection доступен только для чтения; в противном случае ложно.
 
 ### Смотрите также
 

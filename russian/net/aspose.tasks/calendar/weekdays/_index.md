@@ -1,14 +1,14 @@
 ---
 title: WeekDays
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает WeekDaysCollection для этого календаря. Коллекция дней недели определяющая календарь.
+description: Получает WeekDaysCollection для этого календаря. Коллекция дней недели которая определяет календарь.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/calendar/weekdays/
 ---
 ## Calendar.WeekDays property
 
-Получает WeekDaysCollection для этого календаря. Коллекция дней недели, определяющая календарь.
+Получает WeekDaysCollection для этого календаря. Коллекция дней недели, которая определяет календарь.
 
 ```csharp
 public WeekDayCollection WeekDays { get; }

@@ -1,14 +1,14 @@
 ---
 title: YearlyOrdinalNumber
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает порядковый номер шаблона ежегодного повторения.  Может быть одним из значений перечисленияOrdinalNumberaspose.tasks/ordinalnumber.
+description: Получает или задает порядковый номер шаблона ежегодного повторения.  Может быть одним из значенийOrdinalNumberaspose.tasks/ordinalnumber перечисление.
 type: docs
 weight: 210
 url: /ru/net/aspose.tasks/recurringtaskinfo/yearlyordinalnumber/
 ---
 ## RecurringTaskInfo.YearlyOrdinalNumber property
 
-Получает или задает порядковый номер шаблона ежегодного повторения.  Может быть одним из значений перечисления[`OrdinalNumber`](../../ordinalnumber).
+Получает или задает порядковый номер шаблона ежегодного повторения.  Может быть одним из значений[`OrdinalNumber`](../../ordinalnumber) перечисление.
 
 ```csharp
 public OrdinalNumber YearlyOrdinalNumber { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует экземпляр классаOleObjectCollectionaspose.tasks/oleobjectcollectionв список содержащий экземплярыOleObjectaspose.tasks/oleobjectкласс.
+description: Преобразует экземплярOleObjectCollectionaspose.tasks/oleobjectcollection class в список содержащий экземплярыOleObjectaspose.tasks/oleobject класс.
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/oleobjectcollection/tolist/
 ---
 ## OleObjectCollection.ToList method
 
-Преобразует экземпляр класса[`OleObjectCollection`](../../oleobjectcollection)в список, содержащий экземпляры[`OleObject`](../../oleobject)класс.
+Преобразует экземпляр[`OleObjectCollection`](../../oleobjectcollection) class в список, содержащий экземпляры[`OleObject`](../../oleobject) класс.
 
 ```csharp
 public List<OleObject> ToList()
@@ -16,7 +16,7 @@ public List<OleObject> ToList()
 
 ### Возвращаемое значение
 
-Преобразуется в список экземпляров класса[`OleObjectCollection`](../../oleobjectcollection), содержащего экземпляры класс[`OleObject`](../../oleobject).
+Преобразовано, чтобы перечислить экземпляр[`OleObjectCollection`](../../oleobjectcollection) класс, содержащий экземпляры[`OleObject`](../../oleobject) учебный класс.
 
 ### Смотрите также
 

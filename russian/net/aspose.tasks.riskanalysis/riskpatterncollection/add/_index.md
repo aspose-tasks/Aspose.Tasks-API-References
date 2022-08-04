@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавляет экземпляр классаRiskPatternaspose.tasks.riskanalysis/riskpatternв эту коллекцию.
+description: Добавляет экземплярRiskPatternaspose.tasks.riskanalysis/riskpattern класс в эту коллекцию.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.riskanalysis/riskpatterncollection/add/
 ---
 ## RiskPatternCollection.Add method
 
-Добавляет экземпляр класса[`RiskPattern`](../../riskpattern)в эту коллекцию.
+Добавляет экземпляр[`RiskPattern`](../../riskpattern) класс в эту коллекцию.
 
 ```csharp
 public void Add(RiskPattern item)
@@ -16,13 +16,13 @@ public void Add(RiskPattern item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | RiskPattern | экземпляр класса[`RiskPattern`](../../riskpattern)для добавления в эта коллекция. |
+| item | RiskPattern | экземпляр[`RiskPattern`](../../riskpattern) класс для добавления в эту коллекцию. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *item*задача имеет значение null. |
+| ArgumentNullException | *item* задача нулевая. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: FitContent
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否应增加行高以适合其内容
+description: 获取或设置一个值该值指示是否应增加行高以适应其内容
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks.saving/saveoptions/fitcontent/
 ---
 ## SaveOptions.FitContent property
 
-获取或设置一个值，该值指示是否应增加行高以适合其内容。
+获取或设置一个值，该值指示是否应增加行高以适应其内容。
 
 ```csharp
 public bool FitContent { get; set; }

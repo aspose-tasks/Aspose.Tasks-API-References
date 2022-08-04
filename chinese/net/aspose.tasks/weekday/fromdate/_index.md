@@ -1,14 +1,14 @@
 ---
 title: FromDate
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置异常时间的开始
+description: 获取或设置异常开始时间
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/weekday/fromdate/
 ---
 ## WeekDay.FromDate property
 
-获取或设置异常时间的开始。
+获取或设置异常开始时间。
 
 ```csharp
 public DateTime FromDate { get; set; }

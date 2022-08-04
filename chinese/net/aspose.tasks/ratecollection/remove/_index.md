@@ -20,7 +20,7 @@ public bool Remove(Rate item)
 
 ### 返回值
 
-如果指定的速率被成功删除，则为真；否则为假。
+如果指定的 Rate 已成功删除，则为 true；否则为假。
 
 ### 也可以看看
 

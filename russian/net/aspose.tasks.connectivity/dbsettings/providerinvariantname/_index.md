@@ -1,14 +1,14 @@
 ---
 title: ProviderInvariantName
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает инвариантное имя поставщика которое используется для получения экземпляра классаDbProviderFactory.  Значение по умолчаниюSqlClient.
+description: Получает или задает инвариантное имя поставщика которое используется для получения экземпляраDbProviderFactory класс.  Значение по умолчаниюSqlClient.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.connectivity/dbsettings/providerinvariantname/
 ---
 ## DbSettings.ProviderInvariantName property
 
-Получает или задает инвариантное имя поставщика, которое используется для получения экземпляра классаDbProviderFactory.  Значение по умолчанию:SqlClient.
+Получает или задает инвариантное имя поставщика, которое используется для получения экземпляраDbProviderFactory класс.  Значение по умолчаниюSqlClient.
 
 ```csharp
 public string ProviderInvariantName { get; set; }

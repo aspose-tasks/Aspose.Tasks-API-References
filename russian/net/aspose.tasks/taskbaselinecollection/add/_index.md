@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Это заглушка реализации метода ICollection Add которая выдает только NotSupportedException
+description: Это заглушка реализации метода Add ICollection которая выдает только NotSupportedException
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/taskbaselinecollection/add/
 ---
 ## TaskBaselineCollection.Add method
 
-Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException
+Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException
 
 ```csharp
 public void Add(TaskBaseline item)
@@ -16,7 +16,7 @@ public void Add(TaskBaseline item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | TaskBaseline | Добавляемый элемент. |
+| item | TaskBaseline | Элемент для добавления. |
 
 ### Смотрите также
 

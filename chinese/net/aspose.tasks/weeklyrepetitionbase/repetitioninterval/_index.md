@@ -1,14 +1,14 @@
 ---
 title: RepetitionInterval
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置表示事件之间的间隔以周为单位的周数
+description: 获取或设置周数表示事件之间的间隔以周为单位
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/weeklyrepetitionbase/repetitioninterval/
 ---
 ## WeeklyRepetitionBase.RepetitionInterval property
 
-获取或设置表示事件之间的间隔（以周为单位）的周数。
+获取或设置周数，表示事件之间的间隔（以周为单位）。
 
 ```csharp
 public int RepetitionInterval { get; set; }

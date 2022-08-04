@@ -1,14 +1,14 @@
 ---
 title: TimephasedData
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTimephasedDataaspose.tasks/timephaseddata.
+description: Инициализирует новый экземплярTimephasedDataaspose.tasks/timephaseddata класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/timephaseddata/timephaseddata/
 ---
 ## TimephasedData constructor
 
-Инициализирует новый экземпляр класса[`TimephasedData`](../../timephaseddata).
+Инициализирует новый экземпляр[`TimephasedData`](../../timephaseddata) класс.
 
 ```csharp
 public TimephasedData()

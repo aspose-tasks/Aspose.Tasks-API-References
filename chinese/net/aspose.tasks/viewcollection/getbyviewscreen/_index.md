@@ -1,14 +1,14 @@
 ---
 title: GetByViewScreen
 second_title: Aspose.Tasks for .NET API 参考
-description: 搜索具有指定 Screen 属性的 View并返回集合中的第一个匹配项
+description: 搜索具有指定 Screen 属性的视图并返回集合中的第一个匹配项
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/viewcollection/getbyviewscreen/
 ---
 ## ViewCollection.GetByViewScreen method
 
-搜索具有指定 Screen 属性的 View，并返回集合中的第一个匹配项。
+搜索具有指定 Screen 属性的视图，并返回集合中的第一个匹配项。
 
 ```csharp
 public View GetByViewScreen(ViewScreen screen)
@@ -20,7 +20,7 @@ public View GetByViewScreen(ViewScreen screen)
 
 ### 返回值
 
-集合中 Screen 属性与指定屏幕参数匹配的第一个视图（如果找到）；否则为空。
+如果找到，集合中 Screen 属性与指定屏幕参数匹配的第一个视图；否则为空。
 
 ### 也可以看看
 

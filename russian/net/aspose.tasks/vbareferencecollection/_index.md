@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовVbaReference./vbareference.
+description: Представляет наборVbaReference./vbareference объекты.
 type: docs
-weight: 2520
+weight: 2530
 url: /ru/net/aspose.tasks/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Представляет набор объектов[`VbaReference`](../vbareference).
+Представляет набор[`VbaReference`](../vbareference) объекты.
 
 ```csharp
 public class VbaReferenceCollection : ReadOnlyCollectionBase<VbaReference>

@@ -1,14 +1,14 @@
 ---
 title: OutlineCodeDefinitionCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовOutlineCodeDefinition./outlinecodedefinition.
+description: Представляет наборOutlineCodeDefinition./outlinecodedefinition объекты.
 type: docs
 weight: 1040
 url: /ru/net/aspose.tasks/outlinecodedefinitioncollection/
 ---
 ## OutlineCodeDefinitionCollection class
 
-Представляет набор объектов[`OutlineCodeDefinition`](../outlinecodedefinition).
+Представляет набор[`OutlineCodeDefinition`](../outlinecodedefinition) объекты.
 
 ```csharp
 public class OutlineCodeDefinitionCollection : IList<OutlineCodeDefinition>
@@ -19,7 +19,7 @@ public class OutlineCodeDefinitionCollection : IList<OutlineCodeDefinition>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/outlinecodedefinitioncollection/count) { get; } | Получает количество элементов, содержащихся в этой коллекции. |
-| [IsReadOnly](../../aspose.tasks/outlinecodedefinitioncollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае ложно. |
+| [IsReadOnly](../../aspose.tasks/outlinecodedefinitioncollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли эта коллекция только для чтения; в противном случае false. |
 | [Item](../../aspose.tasks/outlinecodedefinitioncollection/item) { get; set; } | Возвращает или устанавливает элемент по указанному индексу. |
 
 ## Методы
@@ -28,14 +28,14 @@ public class OutlineCodeDefinitionCollection : IList<OutlineCodeDefinition>
 | --- | --- |
 | [Add](../../aspose.tasks/outlinecodedefinitioncollection/add)(OutlineCodeDefinition) | Добавляет указанный элемент в эту коллекцию. |
 | [Clear](../../aspose.tasks/outlinecodedefinitioncollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [Contains](../../aspose.tasks/outlinecodedefinitioncollection/contains)(OutlineCodeDefinition) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно. |
+| [Contains](../../aspose.tasks/outlinecodedefinitioncollection/contains)(OutlineCodeDefinition) | Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false. |
 | [CopyTo](../../aspose.tasks/outlinecodedefinitioncollection/copyto)(OutlineCodeDefinition[], int) | Копирует элементы этой коллекции в указанный массив, начиная с указанного индекса массива. |
 | [GetEnumerator](../../aspose.tasks/outlinecodedefinitioncollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [IndexOf](../../aspose.tasks/outlinecodedefinitioncollection/indexof)(OutlineCodeDefinition) | Определяет индекс указанного элемента в этой коллекции. |
 | [Insert](../../aspose.tasks/outlinecodedefinitioncollection/insert)(int, OutlineCodeDefinition) | Вставляет указанный элемент по указанному индексу. |
 | [Remove](../../aspose.tasks/outlinecodedefinitioncollection/remove)(OutlineCodeDefinition) | Удаляет первое вхождение определенного объекта из этой коллекции. |
 | [RemoveAt](../../aspose.tasks/outlinecodedefinitioncollection/removeat)(int) | Удаляет элемент по указанному индексу. |
-| [ToList](../../aspose.tasks/outlinecodedefinitioncollection/tolist)() | Преобразует этот объект OutlineCodeDefinitionCollection в список объектов[`OutlineCodeDefinition`](../outlinecodedefinition). |
+| [ToList](../../aspose.tasks/outlinecodedefinitioncollection/tolist)() | Преобразует этот объект OutlineCodeDefinitionCollection в список[`OutlineCodeDefinition`](../outlinecodedefinition) объекты. |
 
 ### Смотрите также
 

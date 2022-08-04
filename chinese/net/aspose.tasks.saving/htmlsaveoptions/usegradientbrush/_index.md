@@ -1,14 +1,14 @@
 ---
 title: UseGradientBrush
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示在渲染项目布局时是否使用渐变画笔  当前渲染为 HTML 时不支持使用渐变画笔
+description: 获取或设置一个值表示在渲染项目布局时是否使用渐变画笔 当前渲染为 HTML 时不支持使用渐变画笔
 type: docs
 weight: 170
 url: /zh/net/aspose.tasks.saving/htmlsaveoptions/usegradientbrush/
 ---
 ## HtmlSaveOptions.UseGradientBrush property
 
-获取或设置一个值，该值指示在渲染项目布局时是否使用渐变画笔。  当前渲染为 HTML 时不支持使用渐变画笔。
+获取或设置一个值，表示在渲染项目布局时是否使用渐变画笔。 当前渲染为 HTML 时不支持使用渐变画笔。
 
 ```csharp
 public override bool UseGradientBrush { get; set; }

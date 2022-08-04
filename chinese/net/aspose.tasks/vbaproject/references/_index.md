@@ -1,14 +1,14 @@
 ---
 title: References
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取VbaReferenceCollectionaspose.tasks/vbareferencecollection
+description: 获取一个集合VbaReferenceCollectionaspose.tasks/vbareferencecollection
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/vbaproject/references/
 ---
 ## VbaProject.References property
 
-获取[`VbaReferenceCollection`](../../vbareferencecollection)
+获取一个集合[`VbaReferenceCollection`](../../vbareferencecollection)
 
 ```csharp
 public VbaReferenceCollection References { get; }

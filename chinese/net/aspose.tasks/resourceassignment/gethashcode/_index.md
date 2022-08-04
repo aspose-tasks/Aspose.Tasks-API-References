@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回ResourceAssignmentaspose.tasks/resourceassignment类实例的哈希码值
+description: 返回实例的哈希码值ResourceAssignmentaspose.tasks/resourceassignment类.
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/resourceassignment/gethashcode/
 ---
 ## ResourceAssignment.GetHashCode method
 
-返回[`ResourceAssignment`](../../resourceassignment)类实例的哈希码值。
+返回实例的哈希码值[`ResourceAssignment`](../../resourceassignment)类.
 
 ```csharp
 public override int GetHashCode()

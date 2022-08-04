@@ -1,14 +1,14 @@
 ---
 title: EndShape
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливаетShapeaspose.tasks.visualization/shapeв конце строки.
+description: Получает или устанавливаетShapeaspose.tasks.visualization/shape в конце такта.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/barstyle/endshape/
 ---
 ## BarStyle.EndShape property
 
-Получает или устанавливает[`Shape`](../../shape)в конце строки.
+Получает или устанавливает[`Shape`](../../shape) в конце такта.
 
 ```csharp
 public Shape EndShape { get; set; }

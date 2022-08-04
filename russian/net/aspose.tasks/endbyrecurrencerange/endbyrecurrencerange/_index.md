@@ -1,14 +1,14 @@
 ---
 title: EndByRecurrenceRange
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаEndByRecurrenceRangeaspose.tasks/endbyrecurrencerange.
+description: Инициализирует новый экземплярEndByRecurrenceRangeaspose.tasks/endbyrecurrencerange класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/endbyrecurrencerange/endbyrecurrencerange/
 ---
 ## EndByRecurrenceRange constructor
 
-Инициализирует новый экземпляр класса[`EndByRecurrenceRange`](../../endbyrecurrencerange).
+Инициализирует новый экземпляр[`EndByRecurrenceRange`](../../endbyrecurrencerange) класс.
 
 ```csharp
 public EndByRecurrenceRange()

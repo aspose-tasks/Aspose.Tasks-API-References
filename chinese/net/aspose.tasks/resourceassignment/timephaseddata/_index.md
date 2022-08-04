@@ -1,14 +1,14 @@
 ---
 title: TimephasedData
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置TimephasedDataCollectionaspose.tasks/timephaseddatacollection类的实例该类包含TimephasedData类
+description: 获取或设置的实例TimephasedDataCollectionaspose.tasks/timephaseddatacollection包含元素的类TimephasedDataaspose.tasks/resourceassignment/timephaseddata类.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/resourceassignment/timephaseddata/
 ---
 ## ResourceAssignment.TimephasedData property
 
-获取或设置[`TimephasedDataCollection`](../../timephaseddatacollection)类的实例，该类包含TimephasedData类。
+获取或设置的实例[`TimephasedDataCollection`](../../timephaseddatacollection)包含元素的类`TimephasedData`类.
 
 ```csharp
 public TimephasedDataCollection TimephasedData { get; set; }

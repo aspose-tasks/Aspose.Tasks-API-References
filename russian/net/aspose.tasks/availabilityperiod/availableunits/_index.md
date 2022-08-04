@@ -1,14 +1,14 @@
 ---
 title: AvailableUnits
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает процент ресурса который доступен в течение указанного периода.
+description: Получает или задает процент ресурса доступного в течение указанного периода.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/availabilityperiod/availableunits/
 ---
 ## AvailabilityPeriod.AvailableUnits property
 
-Получает или задает процент ресурса, который доступен в течение указанного периода.
+Получает или задает процент ресурса, доступного в течение указанного периода.
 
 ```csharp
 public double AvailableUnits { get; set; }

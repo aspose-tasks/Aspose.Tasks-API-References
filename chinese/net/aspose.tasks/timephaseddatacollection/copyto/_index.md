@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Aspose.Tasks for .NET API 参考
-description: 将TimephasedDataCollectionaspose.tasks/timephaseddatacollection的元素复制到Array 从特定的Array索引开始
+description: 复制元素TimephasedDataCollectionaspose.tasks/timephaseddatacollection对一个Array 从一个特定的开始Array索引.
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/timephaseddatacollection/copyto/
 ---
 ## TimephasedDataCollection.CopyTo method
 
-将[`TimephasedDataCollection`](../../timephaseddatacollection)的元素复制到Array, 从特定的Array索引开始。
+复制元素[`TimephasedDataCollection`](../../timephaseddatacollection)对一个Array, 从一个特定的开始Array索引.
 
 ```csharp
 public void CopyTo(TimephasedData[] array, int arrayIndex)
@@ -16,16 +16,16 @@ public void CopyTo(TimephasedData[] array, int arrayIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | TimephasedData[] | 一维Array即复制元素的目的地来自[`TimephasedDataCollection`](../../timephaseddatacollection)。 Array必须具有从零开始的索引。 |
-| arrayIndex | Int32 | *array*中从零开始的索引，从这里开始复制。 |
+| array | TimephasedData[] | 一维的Array那是从中复制的元素的目的地[`TimephasedDataCollection`](../../timephaseddatacollection). 的Array必须具有从零开始的索引。 |
+| arrayIndex | Int32 | 从零开始的索引*array*复制开始的地方。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *array*为空。 |
+| ArgumentNullException | *array*一片空白。 |
 | ArgumentOutOfRangeException | *arrayIndex*小于 0。 |
-| ArgumentException | 源中的元素数量[`TimephasedDataCollection`](../../timephaseddatacollection) 大于*arrayIndex中的可用空间*到目的地*array*的末尾。 |
+| ArgumentException | 源中的元素数量[`TimephasedDataCollection`](../../timephaseddatacollection) 大于可用空间*arrayIndex*到目的地的尽头*array*. |
 
 ### 也可以看看
 

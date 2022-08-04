@@ -3,7 +3,7 @@ title: WeekLabelDisplay
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Указывает как отображается метка недели.
 type: docs
-weight: 3170
+weight: 3180
 url: /ru/net/aspose.tasks/weeklabeldisplay/
 ---
 ## WeekLabelDisplay enumeration
@@ -18,9 +18,9 @@ public enum WeekLabelDisplay
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| W | `0` | Устанавливает список недель в MS Project какW. |
-| Wk | `1` | Устанавливает список недель в MS Project какWk. |
-| Week | `2` | Устанавливает список недель в MS Project какWeek. |
+| W | `0` | Устанавливает список недель в MS Project какW . |
+| Wk | `1` | Устанавливает список недель в MS Project какWk . |
+| Week | `2` | Устанавливает список недель в MS Project какWeek . |
 
 ### Смотрите также
 

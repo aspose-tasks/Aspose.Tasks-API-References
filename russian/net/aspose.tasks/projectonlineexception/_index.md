@@ -1,14 +1,14 @@
 ---
 title: ProjectOnlineException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет исключение которое выдается при обнаружении ошибок во время взаимодействия с экземпляром Project Online или Project Server.
+description: Представляет исключение которое возникает при обнаружении ошибок во время взаимодействия с экземпляром Project Online или Project Server.
 type: docs
 weight: 1220
 url: /ru/net/aspose.tasks/projectonlineexception/
 ---
 ## ProjectOnlineException class
 
-Представляет исключение, которое выдается при обнаружении ошибок во время взаимодействия с экземпляром Project Online или Project Server.
+Представляет исключение, которое возникает при обнаружении ошибок во время взаимодействия с экземпляром Project Online или Project Server.
 
 ```csharp
 public class ProjectOnlineException : TasksException

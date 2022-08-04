@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回FilterCriteriaaspose.tasks/filtercriteria类实例的字符串表示形式
+description: 返回实例的字符串表示FilterCriteriaaspose.tasks/filtercriteria类.
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/filtercriteria/tostring/
 ---
 ## FilterCriteria.ToString method
 
-返回[`FilterCriteria`](../../filtercriteria)类实例的字符串表示形式。
+返回实例的字符串表示[`FilterCriteria`](../../filtercriteria)类.
 
 ```csharp
 public override string ToString()

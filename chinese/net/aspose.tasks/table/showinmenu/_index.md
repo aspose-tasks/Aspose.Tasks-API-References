@@ -1,14 +1,14 @@
 ---
 title: ShowInMenu
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示项目是否在功能区视图选项卡的表下拉列表中显示表名
+description: 获取或设置一个值该值指示项目是否在功能区的视图选项卡上的表下拉列表中显示表名
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks/table/showinmenu/
 ---
 ## Table.ShowInMenu property
 
-获取或设置一个值，该值指示项目是否在功能区视图选项卡的表下拉列表中显示表名。
+获取或设置一个值，该值指示项目是否在功能区的视图选项卡上的表下拉列表中显示表名。
 
 ```csharp
 public bool ShowInMenu { get; set; }

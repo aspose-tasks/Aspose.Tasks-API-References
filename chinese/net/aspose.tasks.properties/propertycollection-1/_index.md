@@ -16,7 +16,7 @@ public abstract class PropertyCollection<T> : IEnumerable<T>
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 属性类型。 |
+| T | 财产的类型。 |
 
 ### 也可以看看
 

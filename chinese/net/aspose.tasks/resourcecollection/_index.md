@@ -1,14 +1,14 @@
 ---
 title: ResourceCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示Resource./resource对象的集合
+description: 代表一个集合Resource./resource对象.
 type: docs
 weight: 1510
 url: /zh/net/aspose.tasks/resourcecollection/
 ---
 ## ResourceCollection class
 
-表示[`Resource`](../resource)对象的集合。
+代表一个集合[`Resource`](../resource)对象.
 
 ```csharp
 public class ResourceCollection : IList<Resource>
@@ -18,7 +18,7 @@ public class ResourceCollection : IList<Resource>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/resourcecollection/count) { get; } | 获取 ResourceCollection 中包含的元素数。  只读Int32。 |
+| [Count](../../aspose.tasks/resourcecollection/count) { get; } | 获取 ResourceCollection 中包含的元素数。 只读Int32. |
 | [Item](../../aspose.tasks/resourcecollection/item) { get; set; } | 返回指定索引处的元素。 |
 | [ParentProject](../../aspose.tasks/resourcecollection/parentproject) { get; } | 获取 ResourceCollection 对象的父项目。 |
 
@@ -29,12 +29,12 @@ public class ResourceCollection : IList<Resource>
 | [Add](../../aspose.tasks/resourcecollection/add#add)() | 在项目资源集合的最后位置添加新资源。 |
 | [Add](../../aspose.tasks/resourcecollection/add#add_1)(string) | 在项目资源集合的最后位置添加新资源。 |
 | [Add](../../aspose.tasks/resourcecollection/add#add_2)(string, int) | 在项目资源集合的指定位置添加新资源。 |
-| [Clear](../../aspose.tasks/resourcecollection/clear)() | 不支持直接清零，这个方法只是抛出NotSupportedException。 |
-| [GetById](../../aspose.tasks/resourcecollection/getbyid)(int) | 返回具有指定 ID 的资源。 |
+| [Clear](../../aspose.tasks/resourcecollection/clear)() | 不支持直接清零，这个方法只是抛出NotSupportedException. |
+| [GetById](../../aspose.tasks/resourcecollection/getbyid)(int) | 返回具有指定 id 的资源。 |
 | [GetByUid](../../aspose.tasks/resourcecollection/getbyuid)(int) | 返回具有指定 Uid 的资源。 |
 | [GetEnumerator](../../aspose.tasks/resourcecollection/getenumerator)() | 返回此集合的枚举数。 |
-| [Remove](../../aspose.tasks/resourcecollection/remove)(Resource) | 这是 ICollection 的 Remove 方法的存根实现，仅抛出 NotSupportedException |
-| [ToList](../../aspose.tasks/resourcecollection/tolist)() | 将 ResourceCollection 对象转换为[`Resource`](../resource)对象的列表。 |
+| [Remove](../../aspose.tasks/resourcecollection/remove)(Resource) | 这是 ICollection 的 Remove 方法的存根实现，它只抛出 NotSupportedException |
+| [ToList](../../aspose.tasks/resourcecollection/tolist)() | 将 ResourceCollection 对象转换为[`Resource`](../resource)对象. |
 
 ### 也可以看看
 

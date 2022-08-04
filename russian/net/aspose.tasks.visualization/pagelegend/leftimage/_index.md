@@ -1,14 +1,14 @@
 ---
 title: LeftImage
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает изображение выровненное по левому краю которое будет отображаться в легенде страницы.
+description: Получает или задает выровненное по левому краю изображение для отображения в легенде страницы.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.visualization/pagelegend/leftimage/
 ---
 ## PageLegend.LeftImage property
 
-Получает или задает изображение, выровненное по левому краю, которое будет отображаться в легенде страницы.
+Получает или задает выровненное по левому краю изображение для отображения в легенде страницы.
 
 ```csharp
 public Image LeftImage { get; set; }

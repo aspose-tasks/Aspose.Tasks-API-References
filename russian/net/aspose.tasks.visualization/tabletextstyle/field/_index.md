@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает поле к которому должен применяться стиль. Fieldaspose.tasks.visualization/tabletextstyle/field.
+description: Получает или задает поле к которому должен быть применен стиль. Fieldaspose.tasks.visualization/tabletextstyle/field .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/tabletextstyle/field/
 ---
 ## TableTextStyle.Field property
 
-Получает или задает поле, к которому должен применяться стиль. `Field`.
+Получает или задает поле, к которому должен быть применен стиль. `Field` .
 
 ```csharp
 public Field Field { get; set; }

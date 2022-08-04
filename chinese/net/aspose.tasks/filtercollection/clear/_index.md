@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API 参考
-description: 从此集合中删除所有项目
+description: 删除此集合中的所有项目
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/filtercollection/clear/
 ---
 ## FilterCollection.Clear method
 
-从此集合中删除所有项目。
+删除此集合中的所有项目。
 
 ```csharp
 public void Clear()

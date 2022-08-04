@@ -1,14 +1,14 @@
 ---
 title: MspDbSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Позволяет установить необходимые опции для чтения данных проекта из базы данных MS Project Server.
+description: Позволяет установить необходимые параметры для чтения данных проекта из базы данных MS Project Server.
 type: docs
 weight: 300
 url: /ru/net/aspose.tasks.connectivity/mspdbsettings/
 ---
 ## MspDbSettings class
 
-Позволяет установить необходимые опции для чтения данных проекта из базы данных MS Project Server.
+Позволяет установить необходимые параметры для чтения данных проекта из базы данных MS Project Server.
 
 ```csharp
 public class MspDbSettings : DbSettings
@@ -18,7 +18,7 @@ public class MspDbSettings : DbSettings
 
 | Имя | Описание |
 | --- | --- |
-| [MspDbSettings](mspdbsettings)(string, Guid) | Инициализирует новый экземпляр класса[`MspDbSettings`](../mspdbsettings). |
+| [MspDbSettings](mspdbsettings)(string, Guid) | Инициализирует новый экземпляр[`MspDbSettings`](../mspdbsettings) класс. |
 
 ## Характеристики
 
@@ -26,8 +26,8 @@ public class MspDbSettings : DbSettings
 | --- | --- |
 | [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring) { get; set; } | Получает или задает строку подключения. |
 | [ProjectGuid](../../aspose.tasks.connectivity/mspdbsettings/projectguid) { get; } | Получает руководство проекта для чтения. |
-| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | Получает или задает инвариантное имя поставщика, которое используется для получения экземпляра классаDbProviderFactory.  Значение по умолчанию:SqlClient. |
-| [Schema](../../aspose.tasks.connectivity/mspdbsettings/schema) { get; set; } | Получает или задает схему MS Project Server. Значение по умолчанию - "pub". |
+| [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname) { get; set; } | Получает или задает инвариантное имя поставщика, которое используется для получения экземпляраDbProviderFactory класс.  Значение по умолчаниюSqlClient. |
+| [Schema](../../aspose.tasks.connectivity/mspdbsettings/schema) { get; set; } | Получает или задает схему MS Project Server. Значение по умолчанию — "pub". |
 
 ### Смотрите также
 

@@ -18,16 +18,16 @@ public class LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [LoadOptions](loadoptions)() | Инициализирует новый экземпляр класса[`LoadOptions`](../loadoptions). |
+| [LoadOptions](loadoptions)() | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CancellationToken](../../aspose.tasks/loadoptions/cancellationtoken) { get; set; } | Получает или задает токен, который можно использовать для отмены операции загрузки проекта. |
-| [ErrorHandler](../../aspose.tasks/loadoptions/errorhandler) { get; set; } | Получает или задает метод обратного вызова для обработки ошибок синтаксического анализа xml. |
+| [ErrorHandler](../../aspose.tasks/loadoptions/errorhandler) { get; set; } | Получает или задает метод обратного вызова для обработки ошибок синтаксического анализа XML. |
 | [Password](../../aspose.tasks/loadoptions/password) { get; set; } | Получает или устанавливает пароль защиты. |
-| [PrimaveraReadOptions](../../aspose.tasks/loadoptions/primaverareadoptions) { get; set; } | Получает или задает указанный экземпляр класса[`PrimaveraReadOptions`](../primaverareadoptions), который можно использовать для настройки поведения загрузки Primavera. форматы (Primavera P6 XER или Primavera P6 Xml). |
+| [PrimaveraReadOptions](../../aspose.tasks/loadoptions/primaverareadoptions) { get; set; } | Получает или задает указанный экземпляр[`PrimaveraReadOptions`](../primaverareadoptions) class, который можно использовать для настройки поведения загрузки форматов Primavera (Primavera P6 XER или Primavera P6 Xml). |
 
 ### Смотрите также
 

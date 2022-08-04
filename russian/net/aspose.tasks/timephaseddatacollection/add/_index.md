@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавляет экземплярTimephasedDataaspose.tasks/timephaseddataк этому объекту коллекции.
+description: ДобавляетTimephasedDataaspose.tasks/timephaseddata экземпляр этого объекта коллекции.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/timephaseddatacollection/add/
 ---
 ## TimephasedDataCollection.Add method
 
-Добавляет экземпляр[`TimephasedData`](../../timephaseddata)к этому объекту коллекции.
+Добавляет[`TimephasedData`](../../timephaseddata) экземпляр этого объекта коллекции.
 
 ```csharp
 public void Add(TimephasedData item)
@@ -16,13 +16,13 @@ public void Add(TimephasedData item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | TimephasedData | Добавляемый элемент. |
+| item | TimephasedData | Элемент для добавления. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | , если параметр td равен нулю. |
+| ArgumentNullException | если параметр td равен нулю. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取此分配的父项目
+description: 获取此作业的父项目
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/resourceassignment/parentproject/
 ---
 ## ResourceAssignment.ParentProject property
 
-获取此分配的父项目。
+获取此作业的父项目。
 
 ```csharp
 public Project ParentProject { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsManual
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет планируется ли задача вручную.
+description: Определяет запланирована ли задача вручную.
 type: docs
 weight: 610
 url: /ru/net/aspose.tasks/tsk/ismanual/
 ---
 ## Tsk.IsManual field
 
-Определяет, планируется ли задача вручную.
+Определяет, запланирована ли задача вручную.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsManual;

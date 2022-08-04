@@ -16,7 +16,7 @@ public Duration Add(Duration d)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| d | Duration | 指定[`Duration`](../../duration)添加到此实例。 |
+| d | Duration | 指定的[`Duration`](../../duration)添加到此实例。 |
 
 ### 返回值
 
@@ -40,7 +40,7 @@ public Duration Add(double val)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| val | Double | 要添加到此实例的指定Double值。 |
+| val | Double | 指定的Double添加到此实例的值。 |
 
 ### 返回值
 

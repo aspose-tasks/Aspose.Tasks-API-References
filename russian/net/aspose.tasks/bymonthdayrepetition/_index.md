@@ -18,7 +18,7 @@ public class ByMonthDayRepetition : MonthlyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [ByMonthDayRepetition](bymonthdayrepetition)() | Инициализирует новый экземпляр класса[`ByMonthDayRepetition`](../bymonthdayrepetition). |
+| [ByMonthDayRepetition](bymonthdayrepetition)() | Инициализирует новый экземпляр[`ByMonthDayRepetition`](../bymonthdayrepetition) класс. |
 
 ## Характеристики
 

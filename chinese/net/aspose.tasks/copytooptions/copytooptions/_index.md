@@ -1,14 +1,14 @@
 ---
 title: CopyToOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化CopyToOptionsaspose.tasks/copytooptions类的新实例
+description: 初始化一个新的实例CopyToOptionsaspose.tasks/copytooptions班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/copytooptions/copytooptions/
 ---
 ## CopyToOptions constructor
 
-初始化[`CopyToOptions`](../../copytooptions)类的新实例。
+初始化一个新的实例[`CopyToOptions`](../../copytooptions)班级。
 
 ```csharp
 public CopyToOptions()

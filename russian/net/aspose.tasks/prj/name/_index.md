@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Имя проекта.
+description: Название проекта.
 type: docs
 weight: 530
 url: /ru/net/aspose.tasks/prj/name/
 ---
 ## Prj.Name field
 
-Имя проекта.
+Название проекта.
 
 ```csharp
 public static readonly Key<string, PrjKey> Name;

@@ -16,7 +16,7 @@ public static readonly Key<bool, TaskKey> IsMarked;
 
 ### Примечания
 
-Применяется только к формату файла mpp. Booleanтип.
+Применяется только к файлам формата mpp. Boolean тип.
 
 ### Смотрите также
 

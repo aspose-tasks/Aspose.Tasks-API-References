@@ -1,14 +1,14 @@
 ---
 title: Tables
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取Tableaspose.tasks/table对象的列表
+description: 获取列表Tableaspose.tasks/table对象.
 type: docs
 weight: 180
 url: /zh/net/aspose.tasks/project/tables/
 ---
 ## Project.Tables property
 
-获取[`Table`](../../table)对象的列表。
+获取列表[`Table`](../../table)对象.
 
 ```csharp
 public TableCollection Tables { get; }

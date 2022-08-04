@@ -1,14 +1,14 @@
 ---
 title: DisplayOnTimeline
 second_title: Aspose.Tasks for .NET API 参考
-description: 指定任务是否应显示在时间线视图上
+description: 指定是否应在时间线视图上显示任务
 type: docs
 weight: 290
 url: /zh/net/aspose.tasks/tsk/displayontimeline/
 ---
 ## Tsk.DisplayOnTimeline field
 
-指定任务是否应显示在时间线视图上。
+指定是否应在时间线视图上显示任务。
 
 ```csharp
 public static readonly Key<bool, TaskKey> DisplayOnTimeline;

@@ -1,14 +1,14 @@
 ---
 title: GetPreviousWorkingDayEnd
 second_title: Aspose.Tasks for .NET API 参考
-description: 从指定日期计算上一个工作日期结束
+description: 计算从指定日期开始的前一个工作日期结束
 type: docs
 weight: 180
 url: /zh/net/aspose.tasks/calendar/getpreviousworkingdayend/
 ---
 ## Calendar.GetPreviousWorkingDayEnd method
 
-从指定日期计算上一个工作日期结束。
+计算从指定日期开始的前一个工作日期结束。
 
 ```csharp
 public DateTime GetPreviousWorkingDayEnd(DateTime date)
@@ -16,11 +16,11 @@ public DateTime GetPreviousWorkingDayEnd(DateTime date)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| date | DateTime | DateTime结构的指定实例。 |
+| date | DateTime | 的指定实例DateTime结构。 |
 
 ### 返回值
 
-上一个工作日开始DateTime
+前一个工作日开始DateTime
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CssSavingArgs
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаCssSavingArgsaspose.tasks/csssavingargs.
+description: Инициализирует новый экземплярCssSavingArgsaspose.tasks/csssavingargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/csssavingargs/csssavingargs/
 ---
 ## CssSavingArgs constructor
 
-Инициализирует новый экземпляр класса[`CssSavingArgs`](../../csssavingargs).
+Инициализирует новый экземпляр[`CssSavingArgs`](../../csssavingargs) класс.
 
 ```csharp
 public CssSavingArgs()

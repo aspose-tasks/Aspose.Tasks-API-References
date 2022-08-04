@@ -1,14 +1,14 @@
 ---
 title: RiskItemType
 second_title: Aspose.Tasks for .NET API 参考
-description: 指定在风险分析期间收集统计信息的任务字段
+description: 指定在风险分析期间为其收集统计信息的任务字段
 type: docs
 weight: 1650
 url: /zh/net/aspose.tasks.riskanalysis/riskitemtype/
 ---
 ## RiskItemType enumeration
 
-指定在风险分析期间收集统计信息的任务字段。
+指定在风险分析期间为其收集统计信息的任务字段。
 
 ```csharp
 public enum RiskItemType
@@ -19,7 +19,7 @@ public enum RiskItemType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Start | `0` | 任务开始。 |
-| Finish | `1` | 任务完成。 |
+| Finish | `1` | 任务完成. |
 | EarlyStart | `2` | 任务提前开始。 |
 | EarlyFinish | `3` | 任务提前完成。 |
 | LateStart | `4` | 任务延迟开始。 |

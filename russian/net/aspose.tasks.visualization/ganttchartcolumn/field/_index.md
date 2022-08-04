@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Поле столбца. Fieldaspose.tasks.visualization/ganttchartcolumn/field.
+description: Поле столбца. Fieldaspose.tasks.visualization/ganttchartcolumn/field .
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/ganttchartcolumn/field/
 ---
 ## GanttChartColumn.Field property
 
-Поле столбца. `Field`.
+Поле столбца. `Field` .
 
 ```csharp
 public override Field Field { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ResourceGroups
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取所有基于资源的组定义 ResourceGroups 是Groupaspose.tasks/group对象的集合
+description: 获取所有基于资源的组定义 ResourceGroups 是一个集合Groupaspose.tasks/group对象.
 type: docs
 weight: 150
 url: /zh/net/aspose.tasks/project/resourcegroups/
 ---
 ## Project.ResourceGroups property
 
-获取所有基于资源的组定义。 ResourceGroups 是[`Group`](../../group)对象的集合。
+获取所有基于资源的组定义。 ResourceGroups 是一个集合[`Group`](../../group)对象.
 
 ```csharp
 public GroupCollection ResourceGroups { get; }

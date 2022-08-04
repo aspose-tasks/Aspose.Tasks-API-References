@@ -25,13 +25,13 @@ public class Metered
 | Имя | Описание |
 | --- | --- |
 | [ResetMeteredKey](../../aspose.tasks/metered/resetmeteredkey)() | Удаляет ранее установленную лицензию. |
-| [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey)(string, string) | Устанавливает лимитированные открытый и закрытый ключи. |
+| [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey)(string, string) | Устанавливает лимитированные открытые и закрытые ключи. |
 | static [GetConsumptionCredit](../../aspose.tasks/metered/getconsumptioncredit)() | Получает потребительский кредит. |
 | static [GetConsumptionQuantity](../../aspose.tasks/metered/getconsumptionquantity)() | Получает размер файла потребления. |
 
 ### Примеры
 
-В этом примере будет предпринята попытка установить дозированные открытый и закрытый ключ
+В этом примере будет предпринята попытка установить лимитированный открытый и закрытый ключ
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-jar-файл компонента:
+файл jar компонента:
 
 ```csharp
 Metered metered = new Metered();

@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取项目的唯一标识符
+description: 获取项目的唯一标识
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/projectinfo/id/
 ---
 ## ProjectInfo.Id property
 
-获取项目的唯一标识符。
+获取项目的唯一标识。
 
 ```csharp
 public Guid Id { get; }

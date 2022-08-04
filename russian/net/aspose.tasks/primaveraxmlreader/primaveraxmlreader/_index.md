@@ -1,14 +1,14 @@
 ---
 title: PrimaveraXmlReader
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаPrimaveraXmlReaderaspose.tasks/primaveraxmlreader.
+description: Инициализирует новый экземплярPrimaveraXmlReaderaspose.tasks/primaveraxmlreader класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/primaveraxmlreader/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PrimaveraXmlReader`](../../primaveraxmlreader).
+Инициализирует новый экземпляр[`PrimaveraXmlReader`](../../primaveraxmlreader) класс.
 
 ```csharp
 public PrimaveraXmlReader(string templatePath)
@@ -28,7 +28,7 @@ public PrimaveraXmlReader(string templatePath)
 
 ## PrimaveraXmlReader(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`PrimaveraXmlReader`](../../primaveraxmlreader).
+Инициализирует новый экземпляр[`PrimaveraXmlReader`](../../primaveraxmlreader) класс.
 
 ```csharp
 public PrimaveraXmlReader(Stream stream)

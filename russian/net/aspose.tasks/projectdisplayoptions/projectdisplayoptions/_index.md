@@ -1,14 +1,14 @@
 ---
 title: ProjectDisplayOptions
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаProjectDisplayOptionsaspose.tasks/projectdisplayoptions.
+description: Инициализирует новый экземплярProjectDisplayOptionsaspose.tasks/projectdisplayoptions учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/projectdisplayoptions/projectdisplayoptions/
 ---
 ## ProjectDisplayOptions constructor
 
-Инициализирует новый экземпляр класса[`ProjectDisplayOptions`](../../projectdisplayoptions).
+Инициализирует новый экземпляр[`ProjectDisplayOptions`](../../projectdisplayoptions) учебный класс.
 
 ```csharp
 public ProjectDisplayOptions()

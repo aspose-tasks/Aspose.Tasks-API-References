@@ -1,14 +1,14 @@
 ---
 title: CalendarException
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化CalendarExceptionaspose.tasks/calendarexception类的新实例
+description: 初始化CalendarExceptionaspose.tasks/calendarexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/calendarexception/calendarexception/
 ---
 ## CalendarException constructor
 
-初始化[`CalendarException`](../../calendarexception)类的新实例。
+初始化[`CalendarException`](../../calendarexception)类.
 
 ```csharp
 public CalendarException()

@@ -3,7 +3,7 @@ title: DateTimeConverter
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Представляет метод преобразователя для преобразования даты в строку на уровнях шкалы времени представления.
 type: docs
-weight: 2630
+weight: 2640
 url: /ru/net/aspose.tasks.visualization/datetimeconverter/
 ---
 ## DateTimeConverter delegate
@@ -16,7 +16,7 @@ public delegate string DateTimeConverter(DateTime date);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| date | DateTime | экземпляр классаDateTimeдля преобразования в строку. |
+| date | DateTime | экземплярDateTime класс для преобразования в строку. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ChildTasksCollector
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化ChildTasksCollectoraspose.tasks.util/childtaskscollector类的新实例
+description: 初始化ChildTasksCollectoraspose.tasks.util/childtaskscollector类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.util/childtaskscollector/childtaskscollector/
 ---
 ## ChildTasksCollector constructor
 
-初始化[`ChildTasksCollector`](../../childtaskscollector)类的新实例。
+初始化[`ChildTasksCollector`](../../childtaskscollector)类.
 
 ```csharp
 public ChildTasksCollector()

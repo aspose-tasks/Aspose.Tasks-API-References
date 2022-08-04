@@ -1,14 +1,14 @@
 ---
 title: CustomProjectPropertyCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化CustomProjectPropertyCollectionaspose.tasks.properties/customprojectpropertycollection类的新实例
+description: 初始化CustomProjectPropertyCollectionaspose.tasks.properties/customprojectpropertycollection班级
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.properties/customprojectpropertycollection/customprojectpropertycollection/
 ---
 ## CustomProjectPropertyCollection constructor
 
-初始化[`CustomProjectPropertyCollection`](../../customprojectpropertycollection)类的新实例。
+初始化[`CustomProjectPropertyCollection`](../../customprojectpropertycollection)班级。
 
 ```csharp
 public CustomProjectPropertyCollection()

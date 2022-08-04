@@ -1,14 +1,14 @@
 ---
 title: WeekDay
 second_title: Aspose.Tasks for .NET API 参考
-description: 使用指定的日期类型初始化WeekDayaspose.tasks/weekday类的新实例
+description: 初始化WeekDayaspose.tasks/weekday具有指定日期类型的类
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/weekday/weekday/
 ---
 ## WeekDay(DayType) {#constructor_1}
 
-使用指定的日期类型初始化[`WeekDay`](../../weekday)类的新实例。
+初始化[`WeekDay`](../../weekday)具有指定日期类型的类。
 
 ```csharp
 public WeekDay(DayType dayType)
@@ -29,7 +29,7 @@ public WeekDay(DayType dayType)
 
 ## WeekDay(DayType, IEnumerable&lt;WorkingTime&gt;) {#constructor_2}
 
-使用指定的日期类型和工作时间段列表初始化[`WeekDay`](../../weekday)类的新实例。
+初始化[`WeekDay`](../../weekday)具有指定日期类型和工作时间段列表的类。
 
 ```csharp
 public WeekDay(DayType dayType, IEnumerable<WorkingTime> workingTimes)
@@ -52,7 +52,7 @@ public WeekDay(DayType dayType, IEnumerable<WorkingTime> workingTimes)
 
 ## WeekDay() {#constructor}
 
-初始化[`WeekDay`](../../weekday)类的新实例。
+初始化[`WeekDay`](../../weekday)类.
 
 ```csharp
 public WeekDay()

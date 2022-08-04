@@ -1,14 +1,14 @@
 ---
 title: TimescaleTier
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаTimescaleTieraspose.tasks.visualization/timescaletier.
+description: Инициализирует новый экземплярTimescaleTieraspose.tasks.visualization/timescaletier класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/timescaletier/timescaletier/
 ---
 ## TimescaleTier() {#constructor}
 
-Инициализирует новый экземпляр класса[`TimescaleTier`](../../timescaletier).
+Инициализирует новый экземпляр[`TimescaleTier`](../../timescaletier) класс.
 
 ```csharp
 public TimescaleTier()
@@ -24,7 +24,7 @@ public TimescaleTier()
 
 ## TimescaleTier(TimescaleUnit, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TimescaleTier`](../../timescaletier).
+Инициализирует новый экземпляр[`TimescaleTier`](../../timescaletier) класс.
 
 ```csharp
 public TimescaleTier(TimescaleUnit unit, int count)
@@ -32,8 +32,8 @@ public TimescaleTier(TimescaleUnit unit, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| unit | TimescaleUnit | Единица шкалы времени[`TimescaleUnit`](../../timescaleunit). |
-| count | Int32 | Количество[`TimescaleUnit`](../../timescaleunit)единицы. |
+| unit | TimescaleUnit | Единица шкалы времени[`TimescaleUnit`](../../timescaleunit) . |
+| count | Int32 | Количество[`TimescaleUnit`](../../timescaleunit) ед. |
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public sealed class PageSavingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [KeepStreamOpen](../../aspose.tasks.saving/pagesavingargs/keepstreamopen) { get; set; } | 获取或设置一个值，该值指示渲染例程是否应在页面打开后保持[`Stream`](./stream)书面。 |
+| [KeepStreamOpen](../../aspose.tasks.saving/pagesavingargs/keepstreamopen) { get; set; } | 获取或设置一个值，指示渲染例程是否应保持[`Stream`](./stream)写完一页后打开。 |
 | [PageNumber](../../aspose.tasks.saving/pagesavingargs/pagenumber) { get; } | 获取要写入的页数。 |
 | [Stream](../../aspose.tasks.saving/pagesavingargs/stream) { get; set; } | 获取或设置用于写入页面的流。 |
 

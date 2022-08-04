@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API 参考
-description: 将指定任务添加到TaskCollectionaspose.tasks/taskcollection类的实例中 如果 ParentProject.CalculationMode 为 None 用户应在使用此方法后调用 Project.Recalculate 它将重新安排所有项目任务开始/结束日期设置早/晚日期并计算相关字段例如作为 slackswork 和 cost 字段ids 和大纲级别 如果 ParentProject.CalculationMode 为 Manual则该方法将仅自动计算任务 ID大纲级别和大纲编号 如果 ParentProject.CalculationMode 为 Automatic则该方法会自动重新安排所有项目的任务 开始/结束日期设置早/晚日期计算时差工作和成本字段重新计算 ID 和大纲级别
+description: 将指定任务添加到TaskCollectionaspose.tasks/taskcollectionclass. 如果 ParentProject.CalculationMode 为 None 用户应在使用此方法后调用 Project.Recalculate 它将重新安排所有项目任务开始/完成日期设置早/晚日期并计算相关字段例如 slackswork和成本字段ID 和大纲级别 如果 ParentProject.CalculationMode 为 Manual该方法将仅自动计算任务 ID大纲级别和大纲编号 如果 ParentProject.CalculationMode 为 Automatic该方法自动重新安排所有项目的任务 开始/完成日期设置早/晚日期计算时差工作和成本字段重新计算 ID 和大纲级别
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-将指定任务添加到[`TaskCollection`](../../taskcollection)类的实例中。 如果 ParentProject.CalculationMode 为 None 用户应在使用此方法后调用 Project.Recalculate() （它将重新安排所有项目任务（开始/结束日期，设置早/晚日期）并计算相关字段，例如作为 slacks、work 和 cost 字段、ids 和大纲级别）。 如果 ParentProject.CalculationMode 为 Manual，则该方法将仅自动计算任务 ID、大纲级别和大纲编号。 如果 ParentProject.CalculationMode 为 Automatic，则该方法会自动重新安排所有项目的任务 (开始/结束日期，设置早/晚日期，计算时差、工作和成本字段，重新计算 ID 和大纲级别）。
+将指定任务添加到[`TaskCollection`](../../taskcollection)class. 如果 ParentProject.CalculationMode 为 None 用户应在使用此方法后调用 Project.Recalculate() （它将重新安排所有项目任务（开始/完成日期，设置早/晚日期）并计算相关字段，例如 slacks，work和成本字段、ID 和大纲级别）。 如果 ParentProject.CalculationMode 为 Manual，该方法将仅自动计算任务 ID、大纲级别和大纲编号。 如果 ParentProject.CalculationMode 为 Automatic，该方法自动重新安排所有项目的任务 （开始/完成日期，设置早/晚日期，计算时差，工作和成本字段，重新计算 ID 和大纲级别）。
 
 ```csharp
 public void Add(Task item)
@@ -29,7 +29,7 @@ public void Add(Task item)
 
 ## Add() {#add}
 
-将新任务添加到与上一个任务相同的大纲级别的项目任务集合中。
+将新任务添加到与上一个任务相同大纲级别的项目任务集合中。
 
 ```csharp
 public Task Add()
@@ -37,7 +37,7 @@ public Task Add()
 
 ### 返回值
 
-返回[`Task`](../../task)类的新添加实例。
+返回新添加的实例[`Task`](../../task)班级。
 
 ### 也可以看看
 
@@ -62,7 +62,7 @@ public Task Add(string taskName)
 
 ### 返回值
 
-返回[`Task`](../../task)类的新添加实例。
+返回新添加的实例[`Task`](../../task)班级。
 
 ### 也可以看看
 
@@ -88,13 +88,13 @@ public Task Add(string taskName, int beforeTaskId)
 
 ### 返回值
 
-返回一个插入到具有指定 ID 的任务之前的任务。
+返回一个插入到具有指定 id 的任务之前的任务。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | ArgumentOutOfRangeException 如果指定的 id 不是有效的任务 id 则抛出。 |
+| ArgumentOutOfRangeException | 如果指定的 id 不是有效的任务 id，则会引发 ArgumentOutOfRangeException。 |
 
 ### 也可以看看
 
@@ -107,7 +107,7 @@ public Task Add(string taskName, int beforeTaskId)
 
 ## Add(RecurringTaskParameters) {#add_1}
 
-在具有指定 ID 且处于相同大纲级别的任务之前插入新任务。
+在具有指定 id 且大纲级别相同的任务之前插入新任务。
 
 ```csharp
 public Task Add(RecurringTaskParameters parameters)
@@ -119,13 +119,13 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### 返回值
 
-返回[`Task`](../../task)类的新添加实例。
+返回新添加的实例[`Task`](../../task)班级。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果指定参数为空则抛出。 |
+| ArgumentNullException | 如果指定的参数为空，则抛出。 |
 | ArgumentException | 如果指定的参数无效则抛出。 |
 
 ### 也可以看看

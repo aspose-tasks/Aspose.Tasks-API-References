@@ -1,14 +1,14 @@
 ---
 title: CostRateTableType
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Таблица норм затрат используемая для этого назначения.
+description: Таблица норм затрат используемая для этого задания.
 type: docs
 weight: 190
 url: /ru/net/aspose.tasks/asn/costratetabletype/
 ---
 ## Asn.CostRateTableType field
 
-Таблица норм затрат, используемая для этого назначения.
+Таблица норм затрат, используемая для этого задания.
 
 ```csharp
 public static readonly Key<RateType, AsnKey> CostRateTableType;

@@ -18,16 +18,16 @@ public struct Duration : IEquatable<Duration>
 
 | Имя | Описание |
 | --- | --- |
-| [IsElapsed](../../aspose.tasks/duration/iselapsed) { get; } | Получает значение, указывающее, истекла ли единица времени.  Флаг, который определяет, истек ли этот экземпляр Duration. |
-| [IsEstimated](../../aspose.tasks/duration/isestimated) { get; } | Получает значение, указывающее, оценивается ли единица времени.  Флаг, который определяет, оценивается ли этот экземпляр Duration. |
-| [TimeSpan](../../aspose.tasks/duration/timespan) { get; } | Получает[`TimeSpan`](./timespan)экземпляр этого объекта Duration.  Экземпляр TimeSpan этого объекта Duration. |
-| [TimeUnit](../../aspose.tasks/duration/timeunit) { get; } | Получает тип единицы времени для этого объекта.  Тип единицы времени для этого экземпляра Duration. |
+| [IsElapsed](../../aspose.tasks/duration/iselapsed) { get; } | Получает значение, указывающее, истекла ли единица времени. Флаг, который определяет, истек ли этот экземпляр Duration. |
+| [IsEstimated](../../aspose.tasks/duration/isestimated) { get; } | Получает значение, указывающее, оценивается ли единица времени. Флаг, который определяет, оценивается ли этот экземпляр Duration. |
+| [TimeSpan](../../aspose.tasks/duration/timespan) { get; } | получает[`TimeSpan`](./timespan) экземпляр этого объекта Duration. Экземпляр TimeSpan этого объекта Duration. |
+| [TimeUnit](../../aspose.tasks/duration/timeunit) { get; } | Получает тип единицы времени для этого объекта. Тип единицы времени этого экземпляра Duration. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [Parse](../../aspose.tasks/duration/parse)(Project, string) | Преобразует указанную строку в экземпляр[`Duration`](../duration)struct. |
+| static [Parse](../../aspose.tasks/duration/parse)(Project, string) | Преобразует указанную строку в экземпляр[`Duration`](../duration) структура. |
 | [Add](../../aspose.tasks/duration/add#add_1)(double) | Добавляет указанное двойное значение к этой длительности. |
 | [Add](../../aspose.tasks/duration/add#add)(Duration) | Добавляет указанную продолжительность к этой продолжительности. |
 | [Convert](../../aspose.tasks/duration/convert)(TimeUnitType) | Преобразует объект Duration в другую продолжительность с указанными единицами времени. |
@@ -36,7 +36,7 @@ public struct Duration : IEquatable<Duration>
 | override [GetHashCode](../../aspose.tasks/duration/gethashcode)() | Возвращает значение хэш-кода для этого объекта. |
 | [Subtract](../../aspose.tasks/duration/subtract#subtract_1)(double) | Вычитает указанное двойное значение из этого экземпляра длительности. |
 | [Subtract](../../aspose.tasks/duration/subtract#subtract)(Duration) | Вычитает указанную длительность из этого экземпляра длительности. |
-| [ToDouble](../../aspose.tasks/duration/todouble)() | Преобразует объект Duration вDoubleзначение. |
+| [ToDouble](../../aspose.tasks/duration/todouble)() | Преобразует объект Duration вDouble значение. |
 | override [ToString](../../aspose.tasks/duration/tostring)() | Возвращает строковое представление этого экземпляра. |
 | static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan)(string) | Разбирает строку длительности в формате "PT--H--M--S--". |
 | [operator ==](../../aspose.tasks/duration/op_equality) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |

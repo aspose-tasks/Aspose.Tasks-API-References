@@ -1,14 +1,14 @@
 ---
 title: ProtectionPassword
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置用于保护生成的 MPP 文件的密码目前支持 MS Project 2010 和更新的格式  Null 值表示项目文件不受保护
+description: 获取或设置用于保护生成的 MPP 文件的密码目前支持 MS Project 2010 和更新的格式 空值表示项目文件不受保护
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.saving/mppsaveoptions/protectionpassword/
 ---
 ## MPPSaveOptions.ProtectionPassword property
 
-获取或设置用于保护生成的 MPP 文件的密码。目前支持 MS Project 2010 和更新的格式。  Null 值表示项目文件不受保护。
+获取或设置用于保护生成的 MPP 文件的密码。目前支持 MS Project 2010 和更新的格式。 空值表示项目文件不受保护。
 
 ```csharp
 public string ProtectionPassword { get; set; }

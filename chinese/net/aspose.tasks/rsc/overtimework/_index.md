@@ -1,14 +1,14 @@
 ---
 title: OvertimeWork
 second_title: Aspose.Tasks for .NET API 参考
-description: 资源计划在任务上执行的加班量并按相关资源的加班费率收费
+description: 计划由资源在任务上执行的加班量并按所涉及资源的加班费率收费
 type: docs
 weight: 540
 url: /zh/net/aspose.tasks/rsc/overtimework/
 ---
 ## Rsc.OvertimeWork field
 
-资源计划在任务上执行的加班量，并按相关资源的加班费率收费。
+计划由资源在任务上执行的加班量，并按所涉及资源的加班费率收费。
 
 ```csharp
 public static readonly Key<Duration, RscKey> OvertimeWork;

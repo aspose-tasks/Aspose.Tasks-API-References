@@ -1,14 +1,14 @@
 ---
 title: WeeklyDays
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает список дней для еженедельных строк прогресса.
+description: Получает список дней для недельных строк прогресса.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks.visualization/recurringinterval/weeklydays/
 ---
 ## RecurringInterval.WeeklyDays property
 
-Получает список дней для еженедельных строк прогресса.
+Получает список дней для недельных строк прогресса.
 
 ```csharp
 public List<DayType> WeeklyDays { get; }

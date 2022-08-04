@@ -1,14 +1,14 @@
 ---
 title: RightField
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置要在栏右侧显示的字段
+description: 获取或设置要显示在栏右侧的字段
 type: docs
 weight: 140
 url: /zh/net/aspose.tasks.visualization/barstyle/rightfield/
 ---
 ## BarStyle.RightField property
 
-获取或设置要在栏右侧显示的字段。
+获取或设置要显示在栏右侧的字段。
 
 ```csharp
 public Field RightField { get; set; }

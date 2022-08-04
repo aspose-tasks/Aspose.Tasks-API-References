@@ -1,14 +1,14 @@
 ---
 title: PrimaveraReadOptions
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化PrimaveraReadOptionsaspose.tasks/primaverareadoptions类的新实例
+description: 初始化PrimaveraReadOptionsaspose.tasks/primaverareadoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/primaverareadoptions/primaverareadoptions/
 ---
 ## PrimaveraReadOptions constructor
 
-初始化[`PrimaveraReadOptions`](../../primaverareadoptions)类的新实例。
+初始化[`PrimaveraReadOptions`](../../primaverareadoptions)类.
 
 ```csharp
 public PrimaveraReadOptions()

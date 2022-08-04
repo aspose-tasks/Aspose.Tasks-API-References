@@ -3,7 +3,7 @@ title: GanttBarStyle
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示 MSP 在甘特图视图中使用的条形样式
 type: docs
-weight: 2710
+weight: 2720
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/
 ---
 ## GanttBarStyle class
@@ -18,37 +18,37 @@ public class GanttBarStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GanttBarStyle](ganttbarstyle)() | 初始化[`GanttBarStyle`](../ganttbarstyle)类的新实例。 |
+| [GanttBarStyle](ganttbarstyle)() | 初始化[`GanttBarStyle`](../ganttbarstyle)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BottomBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/bottombartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏底部呈现的文本。覆盖[`BottomField`](./bottomfield)属性的值。 |
-| [BottomField](../../aspose.tasks.visualization/ganttbarstyle/bottomfield) { get; set; } | 获取或设置要显示在栏底部的数据。 [`Field`](../../aspose.tasks/field)。 |
+| [BottomBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/bottombartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏底部呈现的文本。覆盖的值[`BottomField`](./bottomfield)属性. |
+| [BottomField](../../aspose.tasks.visualization/ganttbarstyle/bottomfield) { get; set; } | 获取或设置要显示在栏底部的数据。 [`Field`](../../aspose.tasks/field). |
 | [EndShape](../../aspose.tasks.visualization/ganttbarstyle/endshape) { get; set; } | 获取或设置条的末端形状。 |
 | [EndShapeColor](../../aspose.tasks.visualization/ganttbarstyle/endshapecolor) { get; set; } | 获取或设置结束形状的颜色。 |
-| [EndShapeType](../../aspose.tasks.visualization/ganttbarstyle/endshapetype) { get; set; } | 获取或设置结束形状的类型。 [`GanttBarType`](../ganttbartype)。 |
-| [From](../../aspose.tasks.visualization/ganttbarstyle/from) { get; set; } | 获取或设置甘特图的起点位置。 [`Field`](../../aspose.tasks/field)。 |
-| [InsideBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/insidebartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏内呈现的文本。覆盖[`InsideField`](./insidefield)属性的值。 |
-| [InsideField](../../aspose.tasks.visualization/ganttbarstyle/insidefield) { get; set; } | 获取或设置要在栏内显示的数据。 [`Field`](../../aspose.tasks/field)。 |
-| [LeftBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/leftbartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏左侧呈现的文本。覆盖[`LeftField`](./leftfield)属性的值。  不保留为 MPP 格式。 |
-| [LeftField](../../aspose.tasks.visualization/ganttbarstyle/leftfield) { get; set; } | 获取或设置要在栏左侧显示的数据。 [`Field`](../../aspose.tasks/field)。 |
-| [MiddleFillPattern](../../aspose.tasks.visualization/ganttbarstyle/middlefillpattern) { get; set; } | 获取或设置甘特条的填充模式。 |
+| [EndShapeType](../../aspose.tasks.visualization/ganttbarstyle/endshapetype) { get; set; } | 获取或设置结束形状的类型。 [`GanttBarType`](../ganttbartype). |
+| [From](../../aspose.tasks.visualization/ganttbarstyle/from) { get; set; } | 获取或设置甘特图的起点位置。 [`Field`](../../aspose.tasks/field). |
+| [InsideBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/insidebartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏内呈现的文本。覆盖的值[`InsideField`](./insidefield)属性. |
+| [InsideField](../../aspose.tasks.visualization/ganttbarstyle/insidefield) { get; set; } | 获取或设置要在栏内显示的数据。 [`Field`](../../aspose.tasks/field). |
+| [LeftBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/leftbartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏左侧呈现的文本。覆盖的值[`LeftField`](./leftfield)属性. 不保留为 MPP 格式。 |
+| [LeftField](../../aspose.tasks.visualization/ganttbarstyle/leftfield) { get; set; } | 获取或设置要在栏左侧显示的数据。 [`Field`](../../aspose.tasks/field). |
+| [MiddleFillPattern](../../aspose.tasks.visualization/ganttbarstyle/middlefillpattern) { get; set; } | 获取或设置甘特条的填充图案。 |
 | [MiddleShape](../../aspose.tasks.visualization/ganttbarstyle/middleshape) { get; set; } | 获取或设置条的中间形状。 |
 | [MiddleShapeColor](../../aspose.tasks.visualization/ganttbarstyle/middleshapecolor) { get; set; } | 获取或设置中间形状的颜色。 |
 | [Name](../../aspose.tasks.visualization/ganttbarstyle/name) { get; set; } | 获取或设置样式的名称。 |
 | [ParentStyle](../../aspose.tasks.visualization/ganttbarstyle/parentstyle) { get; set; } | 获取或设置自定义任务特定样式的父（或通用）样式。 |
-| [RightBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/rightbartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本。覆盖[`RightField`](./rightfield)属性的值。 |
-| [RightField](../../aspose.tasks.visualization/ganttbarstyle/rightfield) { get; set; } | 获取或设置要在栏右侧显示的数据。 [`Field`](../../aspose.tasks/field)。 |
-| [Row](../../aspose.tasks.visualization/ganttbarstyle/row) { get; set; } | 获取或设置行号。  可以是 1 到 4（1 是默认值）。 |
-| [ShowForCategories](../../aspose.tasks.visualization/ganttbarstyle/showforcategories) { get; set; } | 获取或设置应用样式的任务类别。适用于甘特图中的父（或常见）条形样式 （请参阅[`BarStyles`](../../aspose.tasks/ganttchartview/barstyles)）。 |
-| [ShowForTaskUid](../../aspose.tasks.visualization/ganttbarstyle/showfortaskuid) { get; set; } | 获取或设置应用样式的任务的唯一 ID。适用于甘特图中特定于任务的条形样式（请参阅[`CustomBarStyles`](../../aspose.tasks/ganttchartview/custombarstyles)）。 |
+| [RightBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/rightbartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本。覆盖的值[`RightField`](./rightfield)属性. |
+| [RightField](../../aspose.tasks.visualization/ganttbarstyle/rightfield) { get; set; } | 获取或设置要在栏右侧显示的数据。 [`Field`](../../aspose.tasks/field). |
+| [Row](../../aspose.tasks.visualization/ganttbarstyle/row) { get; set; } | 获取或设置行号。 可以是 1 到 4（1 是默认值）。 |
+| [ShowForCategories](../../aspose.tasks.visualization/ganttbarstyle/showforcategories) { get; set; } | 获取或设置应用样式的任务类别。适用于甘特图 中的父（或常见）条形样式（参见[`BarStyles`](../../aspose.tasks/ganttchartview/barstyles) ). |
+| [ShowForTaskUid](../../aspose.tasks.visualization/ganttbarstyle/showfortaskuid) { get; set; } | 获取或设置应用样式的任务的唯一 ID。适用于甘特图中特定于任务的条形样式（请参阅[`CustomBarStyles`](../../aspose.tasks/ganttchartview/custombarstyles) ). |
 | [StartShape](../../aspose.tasks.visualization/ganttbarstyle/startshape) { get; set; } | 获取或设置条形的起始形状。 |
 | [StartShapeColor](../../aspose.tasks.visualization/ganttbarstyle/startshapecolor) { get; set; } | 获取或设置起始形状的颜色。 |
 | [StartShapeType](../../aspose.tasks.visualization/ganttbarstyle/startshapetype) { get; set; } | 获取或设置起始形状的类型。 |
 | [To](../../aspose.tasks.visualization/ganttbarstyle/to) { get; set; } | 获取或设置甘特图的终点位置。 |
-| [TopBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/topbartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏顶部呈现的文本。覆盖[`TopField`](./topfield)属性的值。 |
+| [TopBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/topbartextconverter) { get; set; } | 获取或设置用户定义的转换器以获取要在任务栏顶部呈现的文本。覆盖的值[`TopField`](./topfield)属性. |
 | [TopField](../../aspose.tasks.visualization/ganttbarstyle/topfield) { get; set; } | 获取或设置要显示在栏顶部的数据。 |
 
 ### 也可以看看

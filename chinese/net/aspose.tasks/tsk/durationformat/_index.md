@@ -1,14 +1,14 @@
 ---
 title: DurationFormat
 second_title: Aspose.Tasks for .NET API 参考
-description: 任务持续时间格式
+description: 任务持续时间格式.
 type: docs
 weight: 310
 url: /zh/net/aspose.tasks/tsk/durationformat/
 ---
 ## Tsk.DurationFormat field
 
-任务持续时间格式。
+任务持续时间格式.
 
 ```csharp
 public static readonly Key<TimeUnitType, TaskKey> DurationFormat;

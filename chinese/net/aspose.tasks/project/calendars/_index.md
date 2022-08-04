@@ -1,14 +1,14 @@
 ---
 title: Calendars
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取CalendarCollectionaspose.tasks/calendarcollection此 Project 实例的对象
+description: 获取CalendarCollectionaspose.tasks/calendarcollection此项目实例的对象
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/project/calendars/
 ---
 ## Project.Calendars property
 
-获取[`CalendarCollection`](../../calendarcollection)此 Project 实例的对象。
+获取[`CalendarCollection`](../../calendarcollection)此项目实例的对象。
 
 ```csharp
 public CalendarCollection Calendars { get; }

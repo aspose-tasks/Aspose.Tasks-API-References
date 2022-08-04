@@ -16,7 +16,7 @@ public void SaveReport(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 保存项目报告的流。 |
+| stream | Stream | 将项目报告保存到的流。 |
 
 ### 也可以看看
 
@@ -48,7 +48,7 @@ public void SaveReport(string fileName)
 
 ## SaveReport(Stream, ReportType) {#savereport_1}
 
-将指定类型的项目报告保存到指定流。
+将指定类型的项目报告保存到指定流中。
 
 ```csharp
 public void SaveReport(Stream stream, ReportType reportType)

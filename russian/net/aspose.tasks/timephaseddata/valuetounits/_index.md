@@ -1,14 +1,14 @@
 ---
 title: ValueToUnits
 second_title: Справочник по Aspose.Tasks для .NET API
-description: ПолучаетDoubleэкземпляр который представляет строковое значение этого объекта для поэтапных данных на основе единиц времени.
+description: получаетDouble экземпляр который представляет строковое значение этого объекта для поэтапных данных на основе единиц времени.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/timephaseddata/valuetounits/
 ---
 ## TimephasedData.ValueToUnits property
 
-ПолучаетDoubleэкземпляр, который представляет строковое значение этого объекта для поэтапных данных на основе единиц времени.
+получаетDouble экземпляр, который представляет строковое значение этого объекта для поэтапных данных на основе единиц времени.
 
 ```csharp
 public double ValueToUnits { get; }

@@ -1,14 +1,14 @@
 ---
 title: OtherLineColor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или устанавливает цвет другой линии прогресса.
+description: Получает или задает цвет другой линии прогресса.
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks.visualization/progresslines/otherlinecolor/
 ---
 ## ProgressLines.OtherLineColor property
 
-Получает или устанавливает цвет другой линии прогресса.
+Получает или задает цвет другой линии прогресса.
 
 ```csharp
 public Color OtherLineColor { get; set; }

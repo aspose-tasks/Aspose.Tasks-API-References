@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает позицию дня недели в месяце в который задача должна повторяться.
+description: Получает или задает положение дня недели в месяце когда задача должна повторяться.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/bymonthweekdayrepetition/position/
 ---
 ## ByMonthWeekDayRepetition.Position property
 
-Получает или задает позицию дня недели в месяце, в который задача должна повторяться.
+Получает или задает положение дня недели в месяце, когда задача должна повторяться.
 
 ```csharp
 public OrdinalNumber Position { get; set; }

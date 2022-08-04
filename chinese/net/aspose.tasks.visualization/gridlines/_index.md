@@ -3,7 +3,7 @@ title: Gridlines
 second_title: Aspose.Tasks for .NET API 参考
 description: 表示出现在甘特图视图中的网格线
 type: docs
-weight: 2760
+weight: 2770
 url: /zh/net/aspose.tasks.visualization/gridlines/
 ---
 ## Gridlines class
@@ -24,8 +24,8 @@ public class Gridlines
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Interval](../../aspose.tasks.visualization/gridlines/interval) { get; set; } | 获取或设置从 0 到 99 的数字，用于指定网格线之间的间隔。 |
-| [IntervalColor](../../aspose.tasks.visualization/gridlines/intervalcolor) { get; set; } | 获取或设置辅助网格线的颜色。 |
+| [Interval](../../aspose.tasks.visualization/gridlines/interval) { get; set; } | 获取或设置从 0 到 99 的数字，指定网格线之间的间隔。 |
+| [IntervalColor](../../aspose.tasks.visualization/gridlines/intervalcolor) { get; set; } | 获取或设置二级网格线的颜色。 |
 | [IntervalPattern](../../aspose.tasks.visualization/gridlines/intervalpattern) { get; set; } | 获取或设置辅助网格线的线型。 |
 | [NormalColor](../../aspose.tasks.visualization/gridlines/normalcolor) { get; set; } | 获取或设置普通网格线的颜色。 |
 | [NormalPattern](../../aspose.tasks.visualization/gridlines/normalpattern) { get; set; } | 获取或设置普通网格线的线型。 |

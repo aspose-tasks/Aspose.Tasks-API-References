@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает позицию для печати границ. Может быть одним из значений перечисленияBorderaspose.tasks.visualization/border.
+description: Получает или задает позицию для печати границ. Может быть одним из значенийBorderaspose.tasks.visualization/border перечисление.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/pagemargins/borders/
 ---
 ## PageMargins.Borders property
 
-Получает или задает позицию для печати границ. Может быть одним из значений перечисления[`Border`](../../border).
+Получает или задает позицию для печати границ. Может быть одним из значений[`Border`](../../border) перечисление.
 
 ```csharp
 public Border Borders { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CanRead
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取一个值该值指示定义是否可以 Aspose.Tasks 处理项目文件
+description: 获取一个值表示定义是否可以 Aspose.Tasks 处理项目文件
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/projectfileinfo/canread/
 ---
 ## ProjectFileInfo.CanRead property
 
-获取一个值，该值指示定义是否可以 Aspose.Tasks 处理项目文件。
+获取一个值，表示定义是否可以 Aspose.Tasks 处理项目文件。
 
 ```csharp
 public bool CanRead { get; }

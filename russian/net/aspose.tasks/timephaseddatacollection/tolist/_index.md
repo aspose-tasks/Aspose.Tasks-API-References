@@ -1,14 +1,14 @@
 ---
 title: ToList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразует объектTimephasedDataCollectionaspose.tasks/timephaseddatacollectionв списокTimephasedDataaspose.tasks/timephaseddataобъекты.
+description: ПреобразуетTimephasedDataCollectionaspose.tasks/timephaseddatacollection возражать против спискаTimephasedDataaspose.tasks/timephaseddata объекты.
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/timephaseddatacollection/tolist/
 ---
 ## TimephasedDataCollection.ToList method
 
-Преобразует объект[`TimephasedDataCollection`](../../timephaseddatacollection)в список[`TimephasedData`](../../timephaseddata)объекты.
+Преобразует[`TimephasedDataCollection`](../../timephaseddatacollection) возражать против списка[`TimephasedData`](../../timephaseddata) объекты.
 
 ```csharp
 public List<TimephasedData> ToList()
@@ -16,7 +16,7 @@ public List<TimephasedData> ToList()
 
 ### Возвращаемое значение
 
-Список объектов[`TimephasedData`](../../timephaseddata).
+Список[`TimephasedData`](../../timephaseddata) объекты.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Calendar
 second_title: Aspose.Tasks for .NET API 参考
-description: 任务日历
+description: 任务日历.
 type: docs
 weight: 160
 url: /zh/net/aspose.tasks/tsk/calendar/
 ---
 ## Tsk.Calendar field
 
-任务日历。
+任务日历.
 
 ```csharp
 public static readonly Key<Calendar, TaskKey> Calendar;

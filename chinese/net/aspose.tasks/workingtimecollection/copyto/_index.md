@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Aspose.Tasks for .NET API 参考
-description: 将集合内容复制到数组中从特定索引
+description: 将集合内容复制到一个数组中从特定索引开始
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/workingtimecollection/copyto/
 ---
 ## WorkingTimeCollection.CopyTo method
 
-将集合内容复制到数组中，从特定索引
+将集合内容复制到一个数组中，从特定索引开始
 
 ```csharp
 public void CopyTo(WorkingTime[] array, int arrayIndex)

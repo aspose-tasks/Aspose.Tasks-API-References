@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置值的描述
+description: 获取或设置一个值的描述
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/value/description/
 ---
 ## Value.Description property
 
-获取或设置值的描述。
+获取或设置一个值的描述。
 
 ```csharp
 public string Description { get; set; }

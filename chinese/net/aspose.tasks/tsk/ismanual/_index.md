@@ -1,14 +1,14 @@
 ---
 title: IsManual
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定是否手动计划任务
+description: 判断任务是否手动调度
 type: docs
 weight: 610
 url: /zh/net/aspose.tasks/tsk/ismanual/
 ---
 ## Tsk.IsManual field
 
-确定是否手动计划任务。
+判断任务是否手动调度。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsManual;

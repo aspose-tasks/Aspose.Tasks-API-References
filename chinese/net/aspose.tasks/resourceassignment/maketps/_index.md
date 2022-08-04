@@ -18,10 +18,10 @@ public DateTime MakeTPs(DateTime start, TimeSpan time, Calendar calendar,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | start | DateTime | 指定的开始日期。 |
-| time | TimeSpan | 指定的工作时间。 |
+| time | TimeSpan | 规定的工作时间。 |
 | calendar | Calendar | 指定的工作日历。 |
 | list | List`1 | 时间分段数据列表。 |
-| isWorking | Boolean | 指定时间分段数据是否工作的指定标志。 |
+| isWorking | Boolean | 指定的标志，它指定时间分段数据是否工作。 |
 | type | Int32 | 指定的时间分段数据类型。 |
 
 ### 返回值

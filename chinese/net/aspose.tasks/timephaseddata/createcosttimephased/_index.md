@@ -1,14 +1,14 @@
 ---
 title: CreateCostTimephased
 second_title: Aspose.Tasks for .NET API 参考
-description: 为基于成本的时间分段数据创建并初始化TimephasedDataaspose.tasks/timephaseddata类的新实例
+description: 创建并初始化TimephasedDataaspose.tasks/timephaseddata基于成本的时间阶段数据的类
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/timephaseddata/createcosttimephased/
 ---
 ## TimephasedData.CreateCostTimephased method
 
-为基于成本的时间分段数据创建并初始化[`TimephasedData`](../../timephaseddata)类的新实例。
+创建并初始化[`TimephasedData`](../../timephaseddata)基于成本的时间阶段数据的类。
 
 ```csharp
 public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateTime finish, 
@@ -20,13 +20,13 @@ public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateT
 | uid | Int32 | 任务的 UID。 |
 | start | DateTime | 开始日期时间。 |
 | finish | DateTime | 完成日期时间。 |
-| value | Double | 成本值。 |
+| value | Double | 成本价值。 |
 | timeUnit | TimeUnitType | 时间单位类型。 |
 | type | TimephasedDataType | 时间分段数据类型。 |
 
 ### 返回值
 
-[`TimephasedData`](../../timephaseddata)类的实例，用于基于成本的时间分段数据。
+的一个实例[`TimephasedData`](../../timephaseddata)基于成本的时间阶段数据的类。
 
 ### 例外
 

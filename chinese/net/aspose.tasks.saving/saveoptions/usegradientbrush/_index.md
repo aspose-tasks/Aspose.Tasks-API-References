@@ -1,14 +1,14 @@
 ---
 title: UseGradientBrush
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示在渲染甘特图时是否应使用渐变画笔
+description: 获取或设置一个值该值指示渲染甘特图时是否应使用渐变画笔
 type: docs
 weight: 210
 url: /zh/net/aspose.tasks.saving/saveoptions/usegradientbrush/
 ---
 ## SaveOptions.UseGradientBrush property
 
-获取或设置一个值，该值指示在渲染甘特图时是否应使用渐变画笔。
+获取或设置一个值，该值指示渲染甘特图时是否应使用渐变画笔。
 
 ```csharp
 public virtual bool UseGradientBrush { get; set; }

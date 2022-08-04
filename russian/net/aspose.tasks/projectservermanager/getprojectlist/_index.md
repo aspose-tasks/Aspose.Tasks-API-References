@@ -1,14 +1,14 @@
 ---
 title: GetProjectList
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает список проектов из Рабочего хранилища текущей учетной записи Project Online  экземпляра Project Server.
+description: Получает список проектов из Рабочего хранилища текущей учетной записи Project Online  Project Server instance.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/projectservermanager/getprojectlist/
 ---
 ## ProjectServerManager.GetProjectList method
 
-Получает список проектов из «Рабочего» хранилища текущей учетной записи Project Online \ экземпляра Project Server.
+Получает список проектов из «Рабочего» хранилища текущей учетной записи Project Online \ Project Server instance.
 
 ```csharp
 public IEnumerable<ProjectInfo> GetProjectList()
@@ -16,7 +16,7 @@ public IEnumerable<ProjectInfo> GetProjectList()
 
 ### Возвращаемое значение
 
-Перечень проектов в текущей учетной записи Project Online \ экземпляре Project Server.
+Перечисление проектов в текущей учетной записи Project Online \ экземпляре Project Server.
 
 ### Смотрите также
 

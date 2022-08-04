@@ -1,14 +1,14 @@
 ---
 title: AvailabilityPeriodCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示包含AvailabilityPeriod./availabilityperiod对象的集合
+description: 表示一个集合其中包含AvailabilityPeriod./availabilityperiod对象.
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class
 
-表示包含[`AvailabilityPeriod`](../availabilityperiod)对象的集合。
+表示一个集合，其中包含[`AvailabilityPeriod`](../availabilityperiod)对象.
 
 ```csharp
 public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
@@ -21,14 +21,14 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 | [Count](../../aspose.tasks/availabilityperiodcollection/count) { get; } | 获取此集合中包含的元素数。 |
 | [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly) { get; } | 获取一个值，表示这个集合是否是只读的；否则为假。 |
 | [Item](../../aspose.tasks/availabilityperiodcollection/item) { get; set; } | 返回或设置指定索引处的元素。 |
-| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource) { get; } | 获取此对象的父[`Resource`](../resource)。  Parent[`Resource`](../resource)此集合的对象。 |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource) { get; } | 获取父级[`Resource`](../resource)对于这个对象. 家长[`Resource`](../resource)此集合的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/availabilityperiodcollection/add)(AvailabilityPeriod) | 将指定项目添加到此集合中。 |
-| [Clear](../../aspose.tasks/availabilityperiodcollection/clear)() | 从此集合中删除所有项目。 |
+| [Clear](../../aspose.tasks/availabilityperiodcollection/clear)() | 删除此集合中的所有项目。 |
 | [Contains](../../aspose.tasks/availabilityperiodcollection/contains)(AvailabilityPeriod) | 如果在此集合中找到指定的项目，则返回 true；否则为假。 |
 | [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto)(AvailabilityPeriod[], int) | 将此集合的元素复制到指定的数组，从指定的数组索引开始。 |
 | [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator)() | 返回此集合的枚举数。 |

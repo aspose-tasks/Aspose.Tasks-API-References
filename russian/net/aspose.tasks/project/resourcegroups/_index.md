@@ -1,14 +1,14 @@
 ---
 title: ResourceGroups
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает все определения групп на основе ресурсов. ResourceGroups  это набор объектовGroupaspose.tasks/group.
+description: Получает все определения групп на основе ресурсов. ResourceGroups  это наборGroupaspose.tasks/group объекты.
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/project/resourcegroups/
 ---
 ## Project.ResourceGroups property
 
-Получает все определения групп на основе ресурсов. ResourceGroups — это набор объектов[`Group`](../../group).
+Получает все определения групп на основе ресурсов. ResourceGroups — это набор[`Group`](../../group) объекты.
 
 ```csharp
 public GroupCollection ResourceGroups { get; }

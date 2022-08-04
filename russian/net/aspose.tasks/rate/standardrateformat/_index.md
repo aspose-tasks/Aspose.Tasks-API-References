@@ -1,14 +1,14 @@
 ---
 title: StandardRateFormat
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает единицы используемые Microsoft Project для отображения стандартной ставки.
+description: Получает или задает единицы измерения используемые Microsoft Project для отображения стандартной ставки.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/rate/standardrateformat/
 ---
 ## Rate.StandardRateFormat property
 
-Получает или задает единицы, используемые Microsoft Project для отображения стандартной ставки.
+Получает или задает единицы измерения, используемые Microsoft Project для отображения стандартной ставки.
 
 ```csharp
 public RateFormatType StandardRateFormat { get; set; }

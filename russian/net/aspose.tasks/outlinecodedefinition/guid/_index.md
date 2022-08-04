@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает Guid кода структуры.
+description: Получает или задает Guid кода схемы.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/outlinecodedefinition/guid/
 ---
 ## OutlineCodeDefinition.Guid property
 
-Получает или задает Guid кода структуры.
+Получает или задает Guid кода схемы.
 
 ```csharp
 public string Guid { get; set; }

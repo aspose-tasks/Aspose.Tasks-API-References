@@ -1,14 +1,14 @@
 ---
 title: UpdateNeeded
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定分配给任务的资源是否需要更新任务状态
+description: 确定分配给任务的资源是否需要根据任务的状态进行更新
 type: docs
 weight: 580
 url: /zh/net/aspose.tasks/asn/updateneeded/
 ---
 ## Asn.UpdateNeeded field
 
-确定分配给任务的资源是否需要更新任务状态。
+确定分配给任务的资源是否需要根据任务的状态进行更新。
 
 ```csharp
 public static readonly Key<bool, AsnKey> UpdateNeeded;

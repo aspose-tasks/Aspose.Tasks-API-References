@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置该任务必须重复的一个月中工作日的位置
+description: 获取或设置该任务必须重复的一个月中的工作日位置
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/bymonthweekdayrepetition/position/
 ---
 ## ByMonthWeekDayRepetition.Position property
 
-获取或设置该任务必须重复的一个月中工作日的位置。
+获取或设置该任务必须重复的一个月中的工作日位置。
 
 ```csharp
 public OrdinalNumber Position { get; set; }

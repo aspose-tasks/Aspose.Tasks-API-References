@@ -1,14 +1,14 @@
 ---
 title: ShowSummary
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置一个值该值指示是否为组显示摘要行
+description: 获取或设置一个值该值指示是否为组显示汇总行
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/group/showsummary/
 ---
 ## Group.ShowSummary property
 
-获取或设置一个值，该值指示是否为组显示摘要行。
+获取或设置一个值，该值指示是否为组显示汇总行。
 
 ```csharp
 public bool ShowSummary { get; set; }

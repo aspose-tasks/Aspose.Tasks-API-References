@@ -1,14 +1,14 @@
 ---
 title: Priority
 second_title: Aspose.Tasks for .NET API 参考
-description: 赋予任务的重要性级别这反过来表明任务或分配在资源调配期间延迟或拆分的难易程度
+description: 赋予任务的重要性级别这反过来表示在资源调配期间任务或分配可以延迟或拆分的难易程度
 type: docs
 weight: 940
 url: /zh/net/aspose.tasks/tsk/priority/
 ---
 ## Tsk.Priority field
 
-赋予任务的重要性级别，这反过来表明任务或分配在资源调配期间延迟或拆分的难易程度。
+赋予任务的重要性级别，这反过来表示在资源调配期间任务或分配可以延迟或拆分的难易程度。
 
 ```csharp
 public static readonly Key<int, TaskKey> Priority;

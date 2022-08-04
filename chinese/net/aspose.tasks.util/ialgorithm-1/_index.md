@@ -1,14 +1,14 @@
 ---
 title: IAlgorithmT
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示可以应用于对象列表lttypeparamref nameT /gt的算法
+description: 表示可以应用于对象列表的算法T.
 type: docs
-weight: 2360
+weight: 2370
 url: /zh/net/aspose.tasks.util/ialgorithm-1/
 ---
 ## IAlgorithm&lt;T&gt; interface
 
-表示可以应用于对象列表&lt;typeparamref name="T" /&gt;的算法。
+表示可以应用于对象列表的算法*T*.
 
 ```csharp
 public interface IAlgorithm<in T>
@@ -22,8 +22,8 @@ public interface IAlgorithm<in T>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alg](../../aspose.tasks.util/ialgorithm`1/alg)(T, int) | 处理列表中的对象。在[`PreAlg`](./prealg)之后调用 |
-| [PostAlg](../../aspose.tasks.util/ialgorithm`1/postalg)(T, int) | 在处理对象后调用。 |
+| [Alg](../../aspose.tasks.util/ialgorithm`1/alg)(T, int) | 处理列表中的对象。之后调用[`PreAlg`](./prealg); |
+| [PostAlg](../../aspose.tasks.util/ialgorithm`1/postalg)(T, int) | 处理对象后调用。 |
 | [PreAlg](../../aspose.tasks.util/ialgorithm`1/prealg)(T, int) | 在处理对象之前调用。 |
 
 ### 也可以看看

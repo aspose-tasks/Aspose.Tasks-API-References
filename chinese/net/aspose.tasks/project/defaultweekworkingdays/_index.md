@@ -1,14 +1,14 @@
 ---
 title: DefaultWeekWorkingDays
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取WeekDayCollectionaspose.tasks/weekdaycollection类的实例该类表示项目默认周工作日和工作时间的集合
+description: 获取实例WeekDayCollectionaspose.tasks/weekdaycollection代表项目默认周工作日和工作时间集合的类
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/project/defaultweekworkingdays/
 ---
 ## Project.DefaultWeekWorkingDays property
 
-获取[`WeekDayCollection`](../../weekdaycollection)类的实例，该类表示项目默认周工作日和工作时间的集合。
+获取实例[`WeekDayCollection`](../../weekdaycollection)代表项目默认周工作日和工作时间集合的类。
 
 ```csharp
 public WeekDayCollection DefaultWeekWorkingDays { get; }
@@ -16,7 +16,7 @@ public WeekDayCollection DefaultWeekWorkingDays { get; }
 
 ### 返回值
 
-[`WeekDayCollection`](../../weekdaycollection)类的实例，其中包含WeekDay对象。
+的实例[`WeekDayCollection`](../../weekdaycollection)包含列表的类[`WeekDay`](../../weekday)对象。
 
 ### 评论
 

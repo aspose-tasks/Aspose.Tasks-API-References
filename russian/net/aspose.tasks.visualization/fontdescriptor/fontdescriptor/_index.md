@@ -1,14 +1,14 @@
 ---
 title: FontDescriptor
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаFontDescriptoraspose.tasks.visualization/fontdescriptorс указанным семейством и размером шрифта.
+description: Инициализирует новый экземплярFontDescriptoraspose.tasks.visualization/fontdescriptor класс с указанным семейством шрифтов и размером.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/fontdescriptor/fontdescriptor/
 ---
 ## FontDescriptor(string, float) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`FontDescriptor`](../../fontdescriptor)с указанным семейством и размером шрифта.
+Инициализирует новый экземпляр[`FontDescriptor`](../../fontdescriptor) класс с указанным семейством шрифтов и размером.
 
 ```csharp
 public FontDescriptor(string fontFamily, float size)
@@ -16,7 +16,7 @@ public FontDescriptor(string fontFamily, float size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontFamily | String | Имя семейства шрифтов. |
+| fontFamily | String | Название семейства шрифтов. |
 | size | Single | Размер шрифта. |
 
 ### Смотрите также
@@ -29,7 +29,7 @@ public FontDescriptor(string fontFamily, float size)
 
 ## FontDescriptor(string, float, FontStyles) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`FontDescriptor`](../../fontdescriptor)с указанным семейством шрифтов, размером и стилем.
+Инициализирует новый экземпляр[`FontDescriptor`](../../fontdescriptor) класс с указанным семейством шрифтов, размером и стилем.
 
 ```csharp
 public FontDescriptor(string fontFamily, float size, FontStyles style)
@@ -37,7 +37,7 @@ public FontDescriptor(string fontFamily, float size, FontStyles style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontFamily | String | Имя семейства шрифтов. |
+| fontFamily | String | Название семейства шрифтов. |
 | size | Single | Размер шрифта. |
 | style | FontStyles | Стиль шрифта. |
 
@@ -52,7 +52,7 @@ public FontDescriptor(string fontFamily, float size, FontStyles style)
 
 ## FontDescriptor(FontDescriptor, FontStyles) {#constructor}
 
-Инициализирует новый экземпляр класса[`FontDescriptor`](../../fontdescriptor)с указанным шрифтом и стилем.
+Инициализирует новый экземпляр[`FontDescriptor`](../../fontdescriptor) класс с указанным шрифтом и стилем.
 
 ```csharp
 public FontDescriptor(FontDescriptor font, FontStyles style)
@@ -60,7 +60,7 @@ public FontDescriptor(FontDescriptor font, FontStyles style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| font | FontDescriptor | Экземпляр[`FontDescriptor`](../../fontdescriptor)для копирования. |
+| font | FontDescriptor | Случай[`FontDescriptor`](../../fontdescriptor) копировать. |
 | style | FontStyles | Стиль шрифта. |
 
 ### Смотрите также

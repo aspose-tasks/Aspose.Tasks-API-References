@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Проверяет содержит ли коллекцияWeekDayaspose.tasks/weekday.specified.
+description: Проверяет содержит ли коллекцияWeekDayaspose.tasks/weekday .указанный.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/weekdaycollection/contains/
 ---
 ## WeekDayCollection.Contains method
 
-Проверяет, содержит ли коллекция[`WeekDay`](../../weekday).specified.
+Проверяет, содержит ли коллекция[`WeekDay`](../../weekday) .указанный.
 
 ```csharp
 public bool Contains(WeekDay item)
@@ -20,7 +20,7 @@ public bool Contains(WeekDay item)
 
 ### Возвращаемое значение
 
-true, если коллекция содержит указанный элемент, иначе false.
+true, если коллекция содержит указанный элемент, или false в противном случае.
 
 ### Смотрите также
 

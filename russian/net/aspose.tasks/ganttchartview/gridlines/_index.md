@@ -1,14 +1,14 @@
 ---
 title: Gridlines
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает списокGridlinesaspose.tasks/ganttchartview/gridlinesпредставления диаграммы Ганта.
+description: Получает или задает списокGridlinesaspose.tasks/ganttchartview/gridlines представления диаграммы Ганта.
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/ganttchartview/gridlines/
 ---
 ## GanttChartView.Gridlines property
 
-Получает или задает список`Gridlines`представления диаграммы Ганта.
+Получает или задает список`Gridlines` представления диаграммы Ганта.
 
 ```csharp
 public List<Gridlines> Gridlines { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Определяет содержит лиPropertyCollectionaspose.tasks.properties/propertycollection-1свойство с указанным именем.
+description: ОпределяетPropertyCollectionaspose.tasks.properties/propertycollection-1 содержит свойство с указанным именем.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.properties/propertykeyedcollection-1/contains/
 ---
 ## PropertyKeyedCollection&lt;T&gt;.Contains method
 
-Определяет, содержит ли[`PropertyCollection`](../../propertycollection-1)свойство с указанным именем.
+Определяет,[`PropertyCollection`](../../propertycollection-1) содержит свойство с указанным именем.
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства |
+| name | String | Название свойства |
 
 ### Возвращаемое значение
 
-true, если[`PropertyCollection`](../../propertycollection-1)содержит свойство с указанным именем; в противном случае ложно.
+верно, если[`PropertyCollection`](../../propertycollection-1) содержит свойство с указанным именем; в противном случае ложно.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Manager
 second_title: Aspose.Tasks for .NET API 参考
-description: 项目经理
+description: 一个项目的经理
 type: docs
 weight: 440
 url: /zh/net/aspose.tasks/prj/manager/
 ---
 ## Prj.Manager field
 
-项目经理。
+一个项目的经理。
 
 ```csharp
 public static readonly Key<string, PrjKey> Manager;

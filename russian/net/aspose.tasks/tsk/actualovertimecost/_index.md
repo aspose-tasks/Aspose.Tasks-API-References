@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeCost
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Затраты на сверхурочную работу уже выполненную по задачам назначенными ресурсами.
+description: Затраты на сверхурочную работу уже выполненную для задач назначенными ресурсами.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/tsk/actualovertimecost/
 ---
 ## Tsk.ActualOvertimeCost field
 
-Затраты на сверхурочную работу, уже выполненную по задачам назначенными ресурсами.
+Затраты на сверхурочную работу, уже выполненную для задач назначенными ресурсами.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> ActualOvertimeCost;

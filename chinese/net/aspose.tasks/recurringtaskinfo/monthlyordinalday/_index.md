@@ -1,14 +1,14 @@
 ---
 title: MonthlyOrdinalDay
 second_title: Aspose.Tasks for .NET API 参考
-description: 使用序数日时获取或设置每月重复模式的一天  可以是DayOfWeek枚举的值之一
+description: 获取或设置使用序数日时每月重复模式的一天 可以是以下值之一DayOfWeek枚举
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/recurringtaskinfo/monthlyordinalday/
 ---
 ## RecurringTaskInfo.MonthlyOrdinalDay property
 
-使用序数日时获取或设置每月重复模式的一天。  可以是DayOfWeek枚举的值之一。
+获取或设置使用序数日时每月重复模式的一天。 可以是以下值之一DayOfWeek枚举。
 
 ```csharp
 public DayOfWeek MonthlyOrdinalDay { get; set; }

@@ -18,7 +18,7 @@ public class TimephasedData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TimephasedData](timephaseddata)() | 初始化[`TimephasedData`](../timephaseddata)类的新实例。 |
+| [TimephasedData](timephaseddata)() | 初始化[`TimephasedData`](../timephaseddata)类. |
 
 ## 特性
 
@@ -27,20 +27,20 @@ public class TimephasedData
 | [Finish](../../aspose.tasks/timephaseddata/finish) { get; set; } | 获取或设置时间分段数据周期的结束日期。 |
 | [Start](../../aspose.tasks/timephaseddata/start) { get; set; } | 获取或设置时间分段数据周期的开始日期。 |
 | [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype) { get; set; } | 获取或设置时间分段数据的类型。 |
-| [Uid](../../aspose.tasks/timephaseddata/uid) { get; set; } | 获取或设置时间分段数据的唯一标识符 |
+| [Uid](../../aspose.tasks/timephaseddata/uid) { get; set; } | 获取或设置时间分段数据的唯一标识 |
 | [Unit](../../aspose.tasks/timephaseddata/unit) { get; set; } | 获取或设置时间分段数据周期的时间单位。 |
-| [Value](../../aspose.tasks/timephaseddata/value) { get; set; } | 获取或设置时间分段数据周期的每单位时间值。 |
-| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost) { get; } | 获取Double实例，它表示此对象的字符串值。 |
-| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration) { get; } | 获取TimeSpan实例，该实例表示此对象的字符串值。 |
-| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits) { get; } | 获取Double实例，该实例表示基于单位的时间分段数据的此对象的字符串值。 |
+| [Value](../../aspose.tasks/timephaseddata/value) { get; set; } | 获取或设置时间分段数据周期的单位时间值。 |
+| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost) { get; } | 获取Double表示此对象的字符串值的实例。 |
+| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration) { get; } | 获取TimeSpan表示此对象的字符串值的实例。 |
+| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits) { get; } | 获取Double表示此对象的字符串值的实例，用于基于单位的时间分段数据。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | 为基于成本的时间分段数据创建并初始化[`TimephasedData`](../timephaseddata)类的新实例。 |
-| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased)(int, DateTime, DateTime, double, TimephasedDataType) | 创建并初始化[`TimephasedData`](../timephaseddata)类的新实例，用于分配的基于单位的时间阶段数据一种物质资源。 |
-| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | 为基于工作的时间分段数据创建并初始化[`TimephasedData`](../timephaseddata)类的新实例。 |
+| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | 创建并初始化[`TimephasedData`](../timephaseddata)基于成本的时间阶段数据的类。 |
+| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased)(int, DateTime, DateTime, double, TimephasedDataType) | 创建并初始化[`TimephasedData`](../timephaseddata)材料资源分配的基于单位的时间阶段数据的类。 |
+| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | 创建并初始化[`TimephasedData`](../timephaseddata)基于工作的时间阶段数据的类。 |
 
 ### 也可以看看
 

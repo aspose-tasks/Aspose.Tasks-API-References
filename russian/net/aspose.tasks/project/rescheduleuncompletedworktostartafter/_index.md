@@ -32,7 +32,7 @@ public void RescheduleUncompletedWorkToStartAfter(DateTime after)
 
 ## RescheduleUncompletedWorkToStartAfter(DateTime, List&lt;Task&gt;) {#rescheduleuncompletedworktostartafter_1}
 
-Перепланирует незавершенную работу для указанного списка задач, чтобы начать после указанной даты.
+Перепланирует незавершенную работу для указанного списка задач, чтобы начать ее после указанной даты.
 
 ```csharp
 public void RescheduleUncompletedWorkToStartAfter(DateTime after, List<Task> taskCollection)
@@ -41,7 +41,7 @@ public void RescheduleUncompletedWorkToStartAfter(DateTime after, List<Task> tas
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | after | DateTime | Дата переноса незавершенной работы после. |
-| taskCollection | List`1 | List&lt;Task&gt; задач, для которых необходимо перенести незавершенную работу. |
+| taskCollection | List`1 | Список&lt;Task&gt; задач, для которых необходимо перепланировать незавершенную работу. |
 
 ### Примечания
 

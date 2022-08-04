@@ -18,7 +18,7 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 
 | Имя | Описание |
 | --- | --- |
-| [ChildTasksCollector](childtaskscollector)() | Инициализирует новый экземпляр класса[`ChildTasksCollector`](../childtaskscollector). |
+| [ChildTasksCollector](childtaskscollector)() | Инициализирует новый экземпляр[`ChildTasksCollector`](../childtaskscollector) класс. |
 
 ## Характеристики
 

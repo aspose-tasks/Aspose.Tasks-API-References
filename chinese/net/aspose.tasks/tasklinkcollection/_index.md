@@ -1,14 +1,14 @@
 ---
 title: TaskLinkCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示Task./task对象的集合
+description: 代表一个集合Task./task对象.
 type: docs
 weight: 2120
 url: /zh/net/aspose.tasks/tasklinkcollection/
 ---
 ## TaskLinkCollection class
 
-表示[`Task`](../task)对象的集合。
+代表一个集合[`Task`](../task)对象.
 
 ```csharp
 public class TaskLinkCollection : IList<TaskLink>
@@ -18,21 +18,21 @@ public class TaskLinkCollection : IList<TaskLink>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/tasklinkcollection/count) { get; } | 获取此[`TaskLinkCollection`](../tasklinkcollection)对象中包含的对象数。 |
+| [Count](../../aspose.tasks/tasklinkcollection/count) { get; } | 获取此包含的对象数[`TaskLinkCollection`](../tasklinkcollection)对象. |
 | [Item](../../aspose.tasks/tasklinkcollection/item) { get; set; } | 返回或设置指定索引处的元素。 |
-| [ParentProject](../../aspose.tasks/tasklinkcollection/parentproject) { get; } | 获取 ResourceAssignmentCollection 对象的父项目。  parent[`Project`](../project)用于此对象。 |
+| [ParentProject](../../aspose.tasks/tasklinkcollection/parentproject) { get; } | 获取 ResourceAssignmentCollection 对象的父项目。 父母[`Project`](../project)对于这个对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/tasklinkcollection/add#add_3)(TaskLink) | 这是 ICollection 的 Add 方法的存根实现，只抛出 NotSupportedException |
-| [Add](../../aspose.tasks/tasklinkcollection/add#add)(Task, Task) | 返回已添加到 TaskLinkCollection 对象的 Finish-Start[`TaskLink`](../tasklink)实例。 |
-| [Add](../../aspose.tasks/tasklinkcollection/add#add_1)(Task, Task, TaskLinkType) | 返回已添加到 TaskLinkCollection 对象的[`TaskLink`](../tasklink)的实例。 |
-| [Add](../../aspose.tasks/tasklinkcollection/add#add_2)(Task, Task, TaskLinkType, Duration) | 返回已添加到 TaskLinkCollection 对象的[`TaskLink`](../tasklink)的实例。 |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add)(Task, Task) | 返回 Finish-Start 的一个实例[`TaskLink`](../tasklink)已添加到 TaskLinkCollection 对象中。 |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_1)(Task, Task, TaskLinkType) | 返回一个实例[`TaskLink`](../tasklink)已添加到 TaskLinkCollection 对象中。 |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_2)(Task, Task, TaskLinkType, Duration) | 返回一个实例[`TaskLink`](../tasklink)已添加到 TaskLinkCollection 对象中。 |
 | [GetEnumerator](../../aspose.tasks/tasklinkcollection/getenumerator)() | 返回此集合的枚举数。 |
 | [Remove](../../aspose.tasks/tasklinkcollection/remove)(TaskLink) | 从项目中删除任务链接。 |
-| [ToList](../../aspose.tasks/tasklinkcollection/tolist)() | 将 TaskLinkCollection 对象转换为[`TaskLink`](../tasklink)对象的列表。 |
+| [ToList](../../aspose.tasks/tasklinkcollection/tolist)() | 将 TaskLinkCollection 对象转换为[`TaskLink`](../tasklink)对象. |
 
 ### 也可以看看
 

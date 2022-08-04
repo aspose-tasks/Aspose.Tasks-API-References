@@ -16,13 +16,13 @@ public static T Find<T>(IList<T> list, ICondition<T> cond)
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 要查找的对象类型。 |
+| T | 要查找的对象的类型。 |
 | list | 要处理的列表。 |
 | cond | 用于在指定列表中查找元素的条件。 |
 
 ### 返回值
 
-列表元素或空。
+列表元素或 null。
 
 ### 也可以看看
 

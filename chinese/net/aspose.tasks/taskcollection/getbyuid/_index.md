@@ -16,11 +16,11 @@ public Task GetByUid(int uid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | Int32 | TaskEntity Uid。 |
+| uid | Int32 | 任务实体 Uid。 |
 
 ### 返回值
 
-返回具有指定 uid 的[`Task`](../../task)类的实例，其祖先是此集合的父任务。
+返回的实例[`Task`](../../task)具有指定 uid 的类，其祖先是此集合的父任务。
 
 ### 也可以看看
 

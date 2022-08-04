@@ -1,14 +1,14 @@
 ---
 title: Modules
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取VbaModuleCollectionaspose.tasks/vbamodulecollection
+description: 获取一个集合VbaModuleCollectionaspose.tasks/vbamodulecollection
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/vbaproject/modules/
 ---
 ## VbaProject.Modules property
 
-获取[`VbaModuleCollection`](../../vbamodulecollection)
+获取一个集合[`VbaModuleCollection`](../../vbamodulecollection)
 
 ```csharp
 public VbaModuleCollection Modules { get; }

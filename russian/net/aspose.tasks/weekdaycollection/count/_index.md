@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает количество объектов содержащихся в этом объектеWeekDayCollectionaspose.tasks/weekdaycollection.
+description: Получает количество объектов содержащихся в этомWeekDayCollectionaspose.tasks/weekdaycollection объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/weekdaycollection/count/
 ---
 ## WeekDayCollection.Count property
 
-Получает количество объектов, содержащихся в этом объекте[`WeekDayCollection`](../../weekdaycollection).
+Получает количество объектов, содержащихся в этом[`WeekDayCollection`](../../weekdaycollection) объект.
 
 ```csharp
 public int Count { get; }

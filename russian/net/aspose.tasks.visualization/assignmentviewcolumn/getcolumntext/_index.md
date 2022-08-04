@@ -16,7 +16,7 @@ public string GetColumnText(ResourceAssignment assignment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| назначение | ResourceAssignment | Текущее назначение. |
+| assignment | ResourceAssignment | Текущее задание. |
 
 ### Возвращаемое значение
 

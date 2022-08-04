@@ -1,14 +1,14 @@
 ---
 title: DailyWorkRepetition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет класс для повторений в шаблоне ежедневного повторения на основе рабочих дней.
+description: Представляет класс повторений в шаблоне ежедневного повторения на основе рабочих дней.
 type: docs
 weight: 410
 url: /ru/net/aspose.tasks/dailyworkrepetition/
 ---
 ## DailyWorkRepetition class
 
-Представляет класс для повторений в шаблоне ежедневного повторения на основе рабочих дней.
+Представляет класс повторений в шаблоне ежедневного повторения на основе рабочих дней.
 
 ```csharp
 public class DailyWorkRepetition : DailyRepetitionBase
@@ -18,13 +18,13 @@ public class DailyWorkRepetition : DailyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [DailyWorkRepetition](dailyworkrepetition)() | Инициализирует новый экземпляр класса[`DailyWorkRepetition`](../dailyworkrepetition). |
+| [DailyWorkRepetition](dailyworkrepetition)() | Инициализирует новый экземпляр[`DailyWorkRepetition`](../dailyworkrepetition) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/dailyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает количество дней, которое представляет интервал в днях между вхождениями. |
+| [RepetitionInterval](../../aspose.tasks/dailyrepetitionbase/repetitioninterval) { get; set; } | Получает или задает количество дней, представляющее интервал в днях между событиями. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置大纲代码的 Guid
+description: 获取或设置大纲代码的Guid
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/outlinecodedefinition/guid/
 ---
 ## OutlineCodeDefinition.Guid property
 
-获取或设置大纲代码的 Guid。
+获取或设置大纲代码的Guid。
 
 ```csharp
 public string Guid { get; set; }

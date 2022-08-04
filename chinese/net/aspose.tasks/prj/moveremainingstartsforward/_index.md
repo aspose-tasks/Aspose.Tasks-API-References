@@ -1,14 +1,14 @@
 ---
 title: MoveRemainingStartsForward
 second_title: Aspose.Tasks for .NET API 参考
-description: 确定是否应该将计划在以后开始的任务 的剩余部分的开始时间上移到状态日期
+description: 确定是否应该将计划稍后开始的任务 的剩余部分的开始时间移至状态日期
 type: docs
 weight: 510
 url: /zh/net/aspose.tasks/prj/moveremainingstartsforward/
 ---
 ## Prj.MoveRemainingStartsForward field
 
-确定是否应该将计划在以后开始的任务 的剩余部分的开始时间上移到状态日期。
+确定是否应该将计划稍后开始的任务 的剩余部分的开始时间移至状态日期。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsForward;

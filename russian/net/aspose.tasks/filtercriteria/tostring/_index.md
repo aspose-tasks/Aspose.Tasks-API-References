@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает строковое представление экземпляра классаFilterCriteriaaspose.tasks/filtercriteria.
+description: Возвращает строковое представление экземпляраFilterCriteriaaspose.tasks/filtercriteria класс.
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/filtercriteria/tostring/
 ---
 ## FilterCriteria.ToString method
 
-Возвращает строковое представление экземпляра класса[`FilterCriteria`](../../filtercriteria).
+Возвращает строковое представление экземпляра[`FilterCriteria`](../../filtercriteria) класс.
 
 ```csharp
 public override string ToString()

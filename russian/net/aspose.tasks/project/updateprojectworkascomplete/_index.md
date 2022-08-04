@@ -1,14 +1,14 @@
 ---
 title: UpdateProjectWorkAsComplete
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Обновляет всю работу как завершенную до указанной даты для всего проекта.
+description: Обновляет всю работу как выполненную до указанной даты для всего проекта.
 type: docs
 weight: 470
 url: /ru/net/aspose.tasks/project/updateprojectworkascomplete/
 ---
 ## UpdateProjectWorkAsComplete(DateTime, bool) {#updateprojectworkascomplete}
 
-Обновляет всю работу как завершенную до указанной даты для всего проекта.
+Обновляет всю работу как выполненную до указанной даты для всего проекта.
 
 ```csharp
 public void UpdateProjectWorkAsComplete(DateTime completeThrough, 
@@ -18,7 +18,7 @@ public void UpdateProjectWorkAsComplete(DateTime completeThrough,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | completeThrough | DateTime | Дата обновления работы как завершенной. |
-| setZeroOrHundredPercentCompleteOnly | Boolean | Если установлено значение true, обновляются только те задачи, завершенные на 100%, дата завершения которых предшествует указанной дате завершения. В противном случае вычисляется процент завершения на основе запланированных дат начала и завершения. |
+| setZeroOrHundredPercentCompleteOnly | Boolean | Если установлено значение true, обновляются только те задачи, завершенные на 100 %, дата окончания которых предшествует указанной дате завершения. В противном случае вычисляется значение процента завершения на основе запланированных дат начала и завершения. |
 
 ### Смотрите также
 
@@ -40,8 +40,8 @@ public void UpdateProjectWorkAsComplete(DateTime completeThrough,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | completeThrough | DateTime | Дата обновления работы как завершенной. |
-| setZeroOrHundredPercentCompleteOnly | Boolean | Если установлено значение true, обновляются только те задачи, завершенные на 100%, дата завершения которых предшествует указанной дате завершения. В противном случае вычисляется процент завершения на основе запланированных дат начала и завершения. |
-| taskCollection | List`1 | List&lt;Task&gt; задач для обновления работы. |
+| setZeroOrHundredPercentCompleteOnly | Boolean | Если установлено значение true, обновляются только те задачи, завершенные на 100 %, дата окончания которых предшествует указанной дате завершения. В противном случае вычисляется значение процента завершения на основе запланированных дат начала и завершения. |
+| taskCollection | List`1 | Список&lt;Task&gt; задач, для которых необходимо обновить работу. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: DailyWorkRepetition
 second_title: Aspose.Tasks for .NET API 参考
-description: 初始化DailyWorkRepetitionaspose.tasks/dailyworkrepetition类的新实例
+description: 初始化DailyWorkRepetitionaspose.tasks/dailyworkrepetition类.
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/dailyworkrepetition/dailyworkrepetition/
 ---
 ## DailyWorkRepetition constructor
 
-初始化[`DailyWorkRepetition`](../../dailyworkrepetition)类的新实例。
+初始化[`DailyWorkRepetition`](../../dailyworkrepetition)类.
 
 ```csharp
 public DailyWorkRepetition()

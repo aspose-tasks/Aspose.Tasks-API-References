@@ -1,14 +1,14 @@
 ---
 title: BaselineCollection
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет набор объектовBaseline./baseline.
+description: Представляет наборBaseline./baseline объекты.
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/baselinecollection/
 ---
 ## BaselineCollection class
 
-Представляет набор объектов[`Baseline`](../baseline).
+Представляет набор[`Baseline`](../baseline) объекты.
 
 ```csharp
 public class BaselineCollection : IList<Baseline>
@@ -20,16 +20,16 @@ public class BaselineCollection : IList<Baseline>
 | --- | --- |
 | [Count](../../aspose.tasks/baselinecollection/count) { get; } | Получает количество объектов, содержащихся в этом объекте BaselineCollection. |
 | [Item](../../aspose.tasks/baselinecollection/item) { get; set; } | Возвращает элемент по указанному индексу. |
-| [ParentResource](../../aspose.tasks/baselinecollection/parentresource) { get; } | Получает родительский элемент[`Resource`](../resource)для этой коллекции. |
+| [ParentResource](../../aspose.tasks/baselinecollection/parentresource) { get; } | Получает родителя[`Resource`](../resource) для этой коллекции. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/baselinecollection/add)(Baseline) | Это заглушка реализации метода ICollection Add, которая выдает только NotSupportedException |
+| [Add](../../aspose.tasks/baselinecollection/add)(Baseline) | Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/baselinecollection/getenumerator)() | Возвращает перечислитель для этой коллекции. |
 | [Remove](../../aspose.tasks/baselinecollection/remove)(Baseline) | Удаляет базовый уровень из этой коллекции. |
-| [ToList](../../aspose.tasks/baselinecollection/tolist)() | Преобразует объект BaselineCollection в список объектов[`Baseline`](../baseline). |
+| [ToList](../../aspose.tasks/baselinecollection/tolist)() | Преобразует объект BaselineCollection в список[`Baseline`](../baseline) объекты. |
 
 ### Смотрите также
 

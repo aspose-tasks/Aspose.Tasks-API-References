@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API 参考
-description: 获取或设置日历的名称 读/写String
+description: 获取或设置日历的名称 读/写String.
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/calendar/name/
 ---
 ## Calendar.Name property
 
-获取或设置日历的名称。 读/写String。
+获取或设置日历的名称。 读/写String.
 
 ```csharp
 public string Name { get; set; }

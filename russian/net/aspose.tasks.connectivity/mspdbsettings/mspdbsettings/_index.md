@@ -1,14 +1,14 @@
 ---
 title: MspDbSettings
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Инициализирует новый экземпляр классаMspDbSettingsaspose.tasks.connectivity/mspdbsettings.
+description: Инициализирует новый экземплярMspDbSettingsaspose.tasks.connectivity/mspdbsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.connectivity/mspdbsettings/mspdbsettings/
 ---
 ## MspDbSettings constructor
 
-Инициализирует новый экземпляр класса[`MspDbSettings`](../../mspdbsettings).
+Инициализирует новый экземпляр[`MspDbSettings`](../../mspdbsettings) класс.
 
 ```csharp
 public MspDbSettings(string connectionString, Guid projectGuid)
@@ -17,7 +17,7 @@ public MspDbSettings(string connectionString, Guid projectGuid)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connectionString | String | указанная строка подключения. |
-| projectGuid | Guid | указанный guid проекта для чтения. |
+| projectGuid | Guid | указанный гид проекта для чтения. |
 
 ### Смотрите также
 

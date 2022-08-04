@@ -1,14 +1,14 @@
 ---
 title: TextStyles
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Получает или задает список экземпляров классаTextStyleaspose.tasks.visualization/textstyle отображаемых в представлении проекта.
+description: Получает или задает список экземпляровTextStyleaspose.tasks.visualization/textstyle класс который отображается в представлении проекта.
 type: docs
 weight: 190
 url: /ru/net/aspose.tasks.saving/saveoptions/textstyles/
 ---
 ## SaveOptions.TextStyles property
 
-Получает или задает список экземпляров класса[`TextStyle`](../../../aspose.tasks.visualization/textstyle), отображаемых в представлении проекта.
+Получает или задает список экземпляров[`TextStyle`](../../../aspose.tasks.visualization/textstyle) класс, который отображается в представлении проекта.
 
 ```csharp
 public List<TextStyle> TextStyles { get; set; }

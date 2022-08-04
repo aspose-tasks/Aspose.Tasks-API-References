@@ -1,14 +1,14 @@
 ---
 title: CalendarExceptionCollection
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示CalendarException./calendarexception对象的集合
+description: 代表一个集合CalendarException./calendarexception对象.
 type: docs
 weight: 250
 url: /zh/net/aspose.tasks/calendarexceptioncollection/
 ---
 ## CalendarExceptionCollection class
 
-表示[`CalendarException`](../calendarexception)对象的集合。
+代表一个集合[`CalendarException`](../calendarexception)对象.
 
 ```csharp
 public class CalendarExceptionCollection : IList<CalendarException>
@@ -18,7 +18,7 @@ public class CalendarExceptionCollection : IList<CalendarException>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.tasks/calendarexceptioncollection/count) { get; } | 获取此[`CalendarExceptionCollection`](../calendarexceptioncollection)对象中包含的对象数。 |
+| [Count](../../aspose.tasks/calendarexceptioncollection/count) { get; } | 获取此包含的对象数[`CalendarExceptionCollection`](../calendarexceptioncollection)对象. |
 | [Item](../../aspose.tasks/calendarexceptioncollection/item) { get; set; } | 返回指定索引处的元素。 |
 | [ParentCalendar](../../aspose.tasks/calendarexceptioncollection/parentcalendar) { get; } | 获取此对象的父日历。 |
 
@@ -27,11 +27,11 @@ public class CalendarExceptionCollection : IList<CalendarException>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.tasks/calendarexceptioncollection/add)(CalendarException) | 将 CalendarException 实例添加到此集合对象。 |
-| [AddRange](../../aspose.tasks/calendarexceptioncollection/addrange)(IEnumerable&lt;CalendarException&gt;) | 将异常范围添加到内部列表。 |
-| [Clear](../../aspose.tasks/calendarexceptioncollection/clear)() | 从[`CalendarExceptionCollection`](../calendarexceptioncollection)中删除所有项目。 |
+| [AddRange](../../aspose.tasks/calendarexceptioncollection/addrange)(IEnumerable&lt;CalendarException&gt;) | 将异常范围添加到内部列表中。 |
+| [Clear](../../aspose.tasks/calendarexceptioncollection/clear)() | 从[`CalendarExceptionCollection`](../calendarexceptioncollection). |
 | [GetEnumerator](../../aspose.tasks/calendarexceptioncollection/getenumerator)() | 返回此集合的枚举数。 |
-| [Remove](../../aspose.tasks/calendarexceptioncollection/remove)(CalendarException) | 从此集合中删除[`CalendarException`](../calendarexception)实例。 |
-| [ToList](../../aspose.tasks/calendarexceptioncollection/tolist)() | 将 CalendarExceptionCollection 对象转换为[`CalendarException`](../calendarexception)对象的列表。 |
+| [Remove](../../aspose.tasks/calendarexceptioncollection/remove)(CalendarException) | 移除[`CalendarException`](../calendarexception)此集合中的实例。 |
+| [ToList](../../aspose.tasks/calendarexceptioncollection/tolist)() | 将 CalendarExceptionCollection 对象转换为[`CalendarException`](../calendarexception)对象. |
 
 ### 也可以看看
 

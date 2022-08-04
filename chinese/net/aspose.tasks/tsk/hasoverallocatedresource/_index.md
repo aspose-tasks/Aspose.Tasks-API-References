@@ -1,14 +1,14 @@
 ---
 title: HasOverallocatedResource
 second_title: Aspose.Tasks for .NET API 参考
-description: 指示任务是否分配了资源该资源在分配的任务上的工作量超过了正常工作能力所能完成的工作量
+description: 指示任务是否分配了资源该资源在分配的任务上的工作量超过了正常工作能力内所能完成的工作量
 type: docs
 weight: 470
 url: /zh/net/aspose.tasks/tsk/hasoverallocatedresource/
 ---
 ## Tsk.HasOverallocatedResource field
 
-指示任务是否分配了资源，该资源在分配的任务上的工作量超过了正常工作能力所能完成的工作量。
+指示任务是否分配了资源，该资源在分配的任务上的工作量超过了正常工作能力内所能完成的工作量。
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> HasOverallocatedResource;

@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает true если указанный элемент найден в этой коллекции в противном случае ложно.
+description: Возвращает true если указанный элемент найден в этой коллекции в противном случае false.
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/groupcriterioncollection/contains/
 ---
 ## GroupCriterionCollection.Contains method
 
-Возвращает true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Возвращает true, если указанный элемент найден в этой коллекции; в противном случае false.
 
 ```csharp
 public bool Contains(GroupCriterion item)
@@ -16,11 +16,11 @@ public bool Contains(GroupCriterion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | GroupCriterion | указанный предмет для поиска. |
+| item | GroupCriterion | указанный элемент для поиска. |
 
 ### Возвращаемое значение
 
-true, если указанный элемент найден в этой коллекции; в противном случае ложно.
+Значение true, если указанный элемент найден в этой коллекции; в противном случае ложно.
 
 ### Смотрите также
 

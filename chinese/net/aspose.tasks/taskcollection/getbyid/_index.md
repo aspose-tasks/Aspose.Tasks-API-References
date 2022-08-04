@@ -16,7 +16,7 @@ public Task GetById(int id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | TaskEntity Id |
+| id | Int32 | 任务实体 ID |
 
 ### 返回值
 

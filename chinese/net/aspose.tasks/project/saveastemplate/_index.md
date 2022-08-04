@@ -1,14 +1,14 @@
 ---
 title: SaveAsTemplate
 second_title: Aspose.Tasks for .NET API 参考
-description: 将项目保存为模板
+description: 将项目另存为模板
 type: docs
 weight: 410
 url: /zh/net/aspose.tasks/project/saveastemplate/
 ---
 ## SaveAsTemplate(string, SaveTemplateOptions) {#saveastemplate_3}
 
-将项目保存为模板。
+将项目另存为模板。
 
 ```csharp
 public void SaveAsTemplate(string fileName, SaveTemplateOptions options)
@@ -17,7 +17,7 @@ public void SaveAsTemplate(string fileName, SaveTemplateOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 文件名。 |
-| options | SaveTemplateOptions | 指定的保存选项[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions)。 |
+| options | SaveTemplateOptions | 指定的保存选项[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions). |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public void SaveAsTemplate(string fileName)
 
 ## SaveAsTemplate(Stream) {#saveastemplate}
 
-将项目作为模板保存到指定流。
+将项目作为模板保存到指定的流中。
 
 ```csharp
 public void SaveAsTemplate(Stream stream)
@@ -70,7 +70,7 @@ public void SaveAsTemplate(Stream stream)
 
 ## SaveAsTemplate(Stream, SaveTemplateOptions) {#saveastemplate_1}
 
-将项目作为模板保存到指定流。
+将项目作为模板保存到指定的流中。
 
 ```csharp
 public void SaveAsTemplate(Stream stream, SaveTemplateOptions options)
@@ -79,7 +79,7 @@ public void SaveAsTemplate(Stream stream, SaveTemplateOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 将项目模板保存到的流。 |
-| options | SaveTemplateOptions | 指定的保存选项[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions)。 |
+| options | SaveTemplateOptions | 指定的保存选项[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions). |
 
 ### 也可以看看
 
