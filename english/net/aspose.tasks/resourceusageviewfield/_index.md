@@ -1,7 +1,7 @@
 ---
 title: ResourceUsageViewField
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents possible fields in ResourceUsageView./resourceusageview object resource usage view field.
 type: docs
 weight: 1560
 url: /net/aspose.tasks/resourceusageviewfield/
@@ -87,6 +87,20 @@ public enum ResourceUsageViewField
 | Baseline10BudgetCost | `65` | Indicates Baseline10 Budget Cost resource usage view field. |
 | AllResourceRows | `66` | Indicates All Resource Rows resource usage view field. |
 | AllAssignmentRows | `67` | Indicates All Assignment Rows resource usage view field. |
+
+### Examples
+
+Shows how to read resource usage view fields.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
 
 ### See Also
 

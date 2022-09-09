@@ -1,9 +1,9 @@
 ---
 title: ProjectView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects view class
 type: docs
-weight: 2920
+weight: 2940
 url: /net/aspose.tasks.visualization/projectview/
 ---
 ## ProjectView class
@@ -35,6 +35,21 @@ public class ProjectView
 | static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview)() | Includes Uid, resource name, type, material label, initials, group, max units, standard rate, overtime rate, cost per use, accrue at, base calendar and code resource columns. |
 | static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview)() | Includes Uid, name, start, finish and work resource columns. |
 | static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview)() | Includes id, indicators, name, duration, start, finish, predecessors and resource names task columns. |
+
+### Examples
+
+Shows how to save a project with assignment view.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
 
 ### See Also
 

@@ -1,12 +1,12 @@
 ---
 title: SaveReport
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Saves the project overview report to the stream.
 type: docs
 weight: 420
 url: /net/aspose.tasks/project/savereport/
 ---
-## Project.SaveReport method (1 of 4)
+## SaveReport(Stream) {#savereport}
 
 Saves the project overview report to the stream.
 
@@ -18,6 +18,20 @@ public void SaveReport(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream to save project report to. |
 
+### Examples
+
+Shows how to save the project overview report to PDF file.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// save the overview report to PDF file to the specified stream.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream);
+}
+```
+
 ### See Also
 
 * class [Project](../../project)
@@ -26,7 +40,7 @@ public void SaveReport(Stream stream)
 
 ---
 
-## Project.SaveReport method (2 of 4)
+## SaveReport(string) {#savereport_2}
 
 Saves the project overview report to PDF file.
 
@@ -38,6 +52,17 @@ public void SaveReport(string fileName)
 | --- | --- | --- |
 | fileName | String | The file name. |
 
+### Examples
+
+Shows how to save the project overview report to PDF file into a stream.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// one can save the overview report to PDF file to the specified path
+project.SaveReport(OutDir + "SaveProjectOverviewReport_out.pdf");
+```
+
 ### See Also
 
 * class [Project](../../project)
@@ -46,7 +71,7 @@ public void SaveReport(string fileName)
 
 ---
 
-## Project.SaveReport method (3 of 4)
+## SaveReport(Stream, ReportType) {#savereport_1}
 
 Saves the project report of the specified type to the specified stream.
 
@@ -59,6 +84,20 @@ public void SaveReport(Stream stream, ReportType reportType)
 | stream | Stream | the specified stream to save project report to. |
 | reportType | ReportType | the specified report type.[`ReportType`](../../../aspose.tasks.visualization/reporttype) |
 
+### Examples
+
+Shows how to save the project report to PDF file for specific report type.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// save the overview report to PDF file to the specified stream.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
 ### See Also
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype)
@@ -68,7 +107,7 @@ public void SaveReport(Stream stream, ReportType reportType)
 
 ---
 
-## Project.SaveReport method (4 of 4)
+## SaveReport(string, ReportType) {#savereport_3}
 
 Saves the project report of the specified type in PDF format to the specified file path.
 
@@ -80,6 +119,15 @@ public void SaveReport(string fileName, ReportType reportType)
 | --- | --- | --- |
 | fileName | String | the specified file name. |
 | reportType | ReportType | the specified report type.[`ReportType`](../../../aspose.tasks.visualization/reporttype) |
+
+### Examples
+
+Shows how to save the project project report in PDF format.
+
+```csharp
+var project = new Project(DataDir + "OzBuild 16 Orig.mpp");
+project.SaveReport(OutDir + "CostOverview_out.pdf", ReportType.CostOverview);
+```
 
 ### See Also
 

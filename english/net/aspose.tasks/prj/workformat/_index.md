@@ -1,7 +1,7 @@
 ---
 title: WorkFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The format used to show the duration of the task.
 type: docs
 weight: 780
 url: /net/aspose.tasks/prj/workformat/
@@ -12,6 +12,21 @@ The format used to show the duration of the task.
 
 ```csharp
 public static readonly Key<TimeUnitType, PrjKey> WorkFormat;
+```
+
+### Examples
+
+Shows how to get a duration with default work format.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+Console.WriteLine("Project's work format: " + project.Get(Prj.WorkFormat));
+
+// create a work value with project's default work format
+var work = project.GetWork(2);
+Console.WriteLine("Work: " + work.TimeSpan);
+Console.WriteLine("Time unit: " + work.TimeUnit);
 ```
 
 ### See Also

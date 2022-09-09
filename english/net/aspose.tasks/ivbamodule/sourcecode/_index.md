@@ -1,7 +1,7 @@
 ---
 title: SourceCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a source Code of the VBA module
 type: docs
 weight: 30
 url: /net/aspose.tasks/ivbamodule/sourcecode/
@@ -12,6 +12,22 @@ Gets a source Code of the VBA module
 
 ```csharp
 public string SourceCode { get; }
+```
+
+### Examples
+
+Shows how to read modules of VBA project.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
 ```
 
 ### See Also

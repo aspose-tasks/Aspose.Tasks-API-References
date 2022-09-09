@@ -1,7 +1,7 @@
 ---
 title: Calendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The project calendar.
 type: docs
 weight: 80
 url: /net/aspose.tasks/prj/calendar/
@@ -12,6 +12,25 @@ The project calendar.
 
 ```csharp
 public static readonly Key<Calendar, PrjKey> Calendar;
+```
+
+### Examples
+
+Shows how to read/write Prj.Calendar property.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Standard");
+Calendar.MakeStandardCalendar(calendar);
+
+project.Set(Prj.Calendar, calendar);
+
+Console.WriteLine("Calendar: " + project.Get(Prj.Calendar).Name);
+foreach (var weekDay in calendar.WeekDays)
+{
+    Console.WriteLine(weekDay.FromDate);
+    Console.WriteLine(weekDay.ToDate);
+}
 ```
 
 ### See Also

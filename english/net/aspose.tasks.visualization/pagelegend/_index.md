@@ -1,9 +1,9 @@
 ---
 title: PageLegend
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a page legend which is used for project printing.
 type: docs
-weight: 2840
+weight: 2860
 url: /net/aspose.tasks.visualization/pagelegend/
 ---
 ## PageLegend class
@@ -32,6 +32,31 @@ public class PageLegend
 | [RightImage](../../aspose.tasks.visualization/pagelegend/rightimage) { get; set; } | Gets or sets the right aligned image to be displayed in the page legend. |
 | [RightText](../../aspose.tasks.visualization/pagelegend/righttext) { get; set; } | Gets or sets the right aligned text to display in the page legend. |
 | [Width](../../aspose.tasks.visualization/pagelegend/width) { get; set; } | Gets or sets the width of the legend. |
+
+### Examples
+
+Shows how to work with page legend information.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// lets read page legend information
+var legend = project.DefaultView.PageInfo.Legend;
+
+Console.WriteLine("Legend left text: {0} ", legend.LeftText);
+Console.WriteLine("Legend left image: {0} ", legend.LeftImage);
+Console.WriteLine("Legend center text: {0} ", legend.CenteredText);
+Console.WriteLine("Legend center image: {0} ", legend.CenteredImage);
+Console.WriteLine("Legend right text: {0} ", legend.RightText);
+Console.WriteLine("Legend right image: {0} ", legend.RightImage);
+Console.WriteLine("Legend On: {0} ", legend.LegendOn);
+Console.WriteLine("Legend Width: {0} ", legend.Width);
+
+// also modification of a legend is supported
+legend.LeftText = "New Left Text";
+
+project.Save(OutDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
+```
 
 ### See Also
 

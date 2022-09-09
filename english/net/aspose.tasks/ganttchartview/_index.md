@@ -1,7 +1,7 @@
 ---
 title: GanttChartView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a GanttChart view.
 type: docs
 weight: 690
 url: /net/aspose.tasks/ganttchartview/
@@ -62,6 +62,57 @@ public class GanttChartView : View
 | [CompareTo](../../aspose.tasks/view/compareto)(View) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
 | override [Equals](../../aspose.tasks/view/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
+
+### Examples
+
+Shows how to modify timescale tiers.
+
+```csharp
+var project = new Project();
+
+// Init Gantt Chart View
+var view = new GanttChartView
+{
+    TopTimescaleTier = new TimescaleTier(),
+    MiddleTimescaleTier = new TimescaleTier(),
+    BottomTimescaleTier = new TimescaleTier()
+};
+
+// set Time Scale count
+view.TopTimescaleTier.Count = 2;
+view.TopTimescaleTier.Unit = TimescaleUnit.Quarters;
+view.TopTimescaleTier.Label = DateLabel.QuarterQQyy;
+view.TopTimescaleTier.ShowTicks = false;
+
+view.MiddleTimescaleTier.Count = 2;
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddDd;
+view.MiddleTimescaleTier.ShowTicks = false;
+
+view.BottomTimescaleTier.Unit = TimescaleUnit.Days;
+view.BottomTimescaleTier.Label = DateLabel.DayDdd;
+view.BottomTimescaleTier.Count = 2;
+view.BottomTimescaleTier.ShowTicks = false;
+
+// add Gantt Chart View to project
+project.Views.Add(view);
+
+// add some test data to project
+var task1 = project.RootTask.Children.Add("Task 1");
+var task2 = project.RootTask.Children.Add("Task 2");
+task1.Set(Tsk.Duration, task1.ParentProject.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Duration, task1.ParentProject.GetDuration(40, TimeUnitType.Hour));
+
+// Use 'Timescale.DefinedInView' option to render timescales using timescale settings which we have set (view.TopTimescaleTier, view.MiddleTimescaleTier, view.BottomTimescaleTier). 
+var pdfSaveOptions = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView,
+    StartDate = DateTime.Now.AddDays(-30),
+    EndDate = DateTime.Now.AddDays(30)
+};
+
+project.Save(OutDir + "WorkWithTimescaleTier_out.pdf", pdfSaveOptions);
+```
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: Task
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a task in a project.
 type: docs
 weight: 2060
 url: /net/aspose.tasks/task/
@@ -37,14 +37,14 @@ public class Task : IEquatable<Task>
 | --- | --- |
 | [Clone](../../aspose.tasks/task/clone)() | Creates full copy of a task without subtasks. |
 | [Delete](../../aspose.tasks/task/delete)() | Deletes a task from parent project tasks collection and all its assignments. |
-| override [Equals](../../aspose.tasks/task/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](../../aspose.tasks/task/equals)(Task) | Returns a value indicating whether this instance is equal to a specified task. |
+| override [Equals](../../aspose.tasks/task/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/task/equals#equals)(Task) | Returns a value indicating whether this instance is equal to a specified task. |
 | [Get&lt;T&gt;](../../aspose.tasks/task/get)(Key&lt;T, TaskKey&gt;) | Returns the value to which the property is mapped in this container. |
 | override [GetHashCode](../../aspose.tasks/task/gethashcode)() | Returns a hash code value for this Task. |
-| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates. |
-| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates of specified time-phased data type. |
-| [MoveToSibling](../../aspose.tasks/task/movetosibling)(int) | Moves the current task at the same Outline Level before a task with the specified Id. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
-| [MoveToSibling](../../aspose.tasks/task/movetosibling)(Task) | Moves the current task at the same Outline Level before the specified task. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
+| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates. |
+| [GetTimephasedData](../../aspose.tasks/task/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with [`TimephasedData`](./timephaseddata) values within given start and end dates of specified time-phased data type. |
+| [MoveToSibling](../../aspose.tasks/task/movetosibling#movetosibling_1)(int) | Moves the current task at the same Outline Level before a task with the specified Id. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
+| [MoveToSibling](../../aspose.tasks/task/movetosibling#movetosibling)(Task) | Moves the current task at the same Outline Level before the specified task. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
 | [OutlineIndent](../../aspose.tasks/task/outlineindent)() | Indents a task in the outline. |
 | [OutlineOutdent](../../aspose.tasks/task/outlineoutdent)() | Promotes a task in the outline. |
 | [SelectAllChildTasks](../../aspose.tasks/task/selectallchildtasks)() | Recursively collects all child tasks of this task. |
@@ -79,6 +79,22 @@ childTask2.Set(Tsk.Finish, new DateTime(2020, 2, 14, 17, 0, 0));
 
 // save project in the one of available formats
 project.Save("Filled project.xml", SaveFileFormat.MPP);
+```
+
+### Examples
+
+Shows how to add a task into a project.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task1");
+task.Set(Tsk.DurationFormat, TimeUnitType.Day);
+task.Set(Tsk.Start, new DateTime(2012, 8, 23, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.ActualStart, new DateTime(2012, 8, 23, 8, 0, 0));
+
+project.Save(OutDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```
 
 ### See Also

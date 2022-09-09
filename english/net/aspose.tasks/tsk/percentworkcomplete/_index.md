@@ -1,7 +1,7 @@
 ---
 title: PercentWorkComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The current status of a task expressed as the percentage of work that has been completed.
 type: docs
 weight: 900
 url: /net/aspose.tasks/tsk/percentworkcomplete/
@@ -12,6 +12,20 @@ The current status of a task expressed as the percentage of work that has been c
 
 ```csharp
 public static readonly Key<int, TaskKey> PercentWorkComplete;
+```
+
+### Examples
+
+Shows how to read/write Tsk.PercentWorkComplete property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.PercentWorkComplete, 10);
+
+Console.WriteLine("Percent Work Complete: " + task.Get(Tsk.PercentWorkComplete));
 ```
 
 ### See Also

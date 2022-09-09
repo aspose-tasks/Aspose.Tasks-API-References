@@ -1,7 +1,7 @@
 ---
 title: WorkVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between baseline work of a task and the currently scheduled work.
 type: docs
 weight: 1170
 url: /net/aspose.tasks/tsk/workvariance/
@@ -12,6 +12,20 @@ The difference between baseline work of a task and the currently scheduled work.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> WorkVariance;
+```
+
+### Examples
+
+Shows how to read/write Tsk.WorkVariance property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.WorkVariance, project.GetDuration(1));
+
+Console.WriteLine("Work Variance: " + task.Get(Tsk.WorkVariance));
 ```
 
 ### See Also

@@ -1,7 +1,7 @@
 ---
 title: TaskId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Id of task if Attach to task options is selected 1 otherwise.
 type: docs
 weight: 100
 url: /net/aspose.tasks.visualization/visualobjectplacement/taskid/

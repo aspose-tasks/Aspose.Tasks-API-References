@@ -1,9 +1,9 @@
 ---
 title: AssignmentViewColumn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects view class.
 type: docs
-weight: 2570
+weight: 2590
 url: /net/aspose.tasks.visualization/assignmentviewcolumn/
 ---
 ## AssignmentViewColumn class
@@ -35,6 +35,32 @@ public class AssignmentViewColumn : ViewColumn
 | Name | Description |
 | --- | --- |
 | [GetColumnText](../../aspose.tasks.visualization/assignmentviewcolumn/getcolumntext)(ResourceAssignment) | Converts current resource assignment to the column text. |
+
+### Examples
+
+Shows how to add columns for assignment views.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.Notes); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
 
 ### See Also
 

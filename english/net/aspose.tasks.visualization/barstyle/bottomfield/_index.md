@@ -1,7 +1,7 @@
 ---
 title: BottomField
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a field to be displayed on the bottom of the bar.
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/barstyle/bottomfield/

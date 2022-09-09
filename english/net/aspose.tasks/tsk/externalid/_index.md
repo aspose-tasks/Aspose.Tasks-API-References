@@ -1,7 +1,7 @@
 ---
 title: ExternalId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: If a task is an external task it contains the tasks external Id.
 type: docs
 weight: 370
 url: /net/aspose.tasks/tsk/externalid/
@@ -12,6 +12,21 @@ If a task is an external task it contains the task's external Id.
 
 ```csharp
 public static readonly Key<int, TaskKey> ExternalId;
+```
+
+### Examples
+
+Shows how to identify cross project tasks.
+
+```csharp
+var project = new Project(DataDir + "External.mpp");
+var externalTask = project.RootTask.Children.GetByUid(1);
+
+// Show ID of the task in the external project
+Console.WriteLine(externalTask.Get(Tsk.Id).ToString());
+
+// Show ID of the task in the original project
+Console.WriteLine(externalTask.Get(Tsk.ExternalId).ToString());
 ```
 
 ### See Also

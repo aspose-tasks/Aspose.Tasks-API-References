@@ -1,7 +1,7 @@
 ---
 title: Group
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a group definition. A Group object is a member of the ResourceGroups collection or the TaskGroups collection.
 type: docs
 weight: 700
 url: /net/aspose.tasks/group/
@@ -32,6 +32,44 @@ public class Group
 | [ShowInMenu](../../aspose.tasks/group/showinmenu) { get; set; } | Gets or sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
 | [ShowSummary](../../aspose.tasks/group/showsummary) { get; set; } | Gets or sets a value indicating whether summary rows are displayed for the group. |
 | [Uid](../../aspose.tasks/group/uid) { get; } | Gets a unique identifier of a group. |
+
+### Examples
+
+Shows how to work with groups.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var group = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Uid: " + group.Uid);
+Console.WriteLine("Task Group Index: " + group.Index);
+Console.WriteLine("Task Group Name: " + group.Name);
+Console.WriteLine("Is Task Group Maintain Hierarchy?: " + group.MaintainHierarchy);
+Console.WriteLine("Is Task Group Show In Menu?: " + group.ShowInMenu);
+Console.WriteLine("Is Task Group Show Summary?: " + group.ShowSummary);
+Console.WriteLine("Task Group Parent Project: " + group.ParentProject.Get(Prj.Name));
+Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+
+foreach (var criterion in group.GroupCriteria)
+{
+    Console.WriteLine("Task Criterion Field: " + criterion.Field);
+    Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
+    Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
+    Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
+
+    if (group == criterion.ParentGroup)
+    {
+        Console.WriteLine("Parent Group is equal to task Group.");
+    }
+
+    Console.WriteLine("Font Name: " + criterion.Font.FontFamily);
+    Console.WriteLine("Font Size: " + criterion.Font.Size);
+    Console.WriteLine("Font Style: " + criterion.Font.Style);
+    Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
+}
+```
 
 ### See Also
 

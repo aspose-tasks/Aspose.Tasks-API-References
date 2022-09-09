@@ -1,7 +1,7 @@
 ---
 title: CustomFieldType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the type of a custom field.
 type: docs
 weight: 370
 url: /net/aspose.tasks/customfieldtype/
@@ -29,6 +29,20 @@ public enum CustomFieldType
 | Text | `8` | Indicates Text custom field type. |
 | OutlineCode | `9` | Indicates Outline Code custom field type. |
 | RBS | `10` | Indicates RBS (Resource Breakdown Structure) custom field type. |
+
+### Examples
+
+Shows how to use &lt;see cref="CustomFieldType" /&gt; (CustomFieldType.Text).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
+    CustomFieldType.Text,
+    ExtendedAttributeTask.Text1,
+    "MyText");
+project.ExtendedAttributes.Add(definition);
+// work with definitions...
+```
 
 ### See Also
 

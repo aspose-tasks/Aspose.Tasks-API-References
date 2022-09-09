@@ -1,7 +1,7 @@
 ---
 title: IsSubproject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a task is an inserted project.
 type: docs
 weight: 700
 url: /net/aspose.tasks/tsk/issubproject/
@@ -12,6 +12,20 @@ Determines whether a task is an inserted project.
 
 ```csharp
 public static readonly Key<bool, TaskKey> IsSubproject;
+```
+
+### Examples
+
+Shows how to read/write Tsk.IsSubproject property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSubproject, true);
+
+Console.WriteLine("Is Subproject: " + task.Get(Tsk.IsSubproject));
 ```
 
 ### See Also

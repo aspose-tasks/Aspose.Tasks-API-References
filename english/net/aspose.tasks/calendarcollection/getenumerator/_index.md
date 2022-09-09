@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an enumerator for this collection.
 type: docs
 weight: 60
 url: /net/aspose.tasks/calendarcollection/getenumerator/
@@ -17,6 +17,24 @@ public IEnumerator<Calendar> GetEnumerator()
 ### Return Value
 
 an enumerator for this collection.
+
+### Examples
+
+Shows how to add new calendars.
+
+```csharp
+var project = new Project();
+
+// new calendars can be added to a project's calendar collection by using the collection's Add overloads.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
 
 ### See Also
 

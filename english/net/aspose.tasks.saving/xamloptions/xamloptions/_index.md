@@ -1,7 +1,7 @@
 ---
 title: XamlOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the XamlOptionsaspose.tasks.saving/xamloptions class that can be used to save project in XAML format.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/xamloptions/xamloptions/
@@ -12,6 +12,19 @@ Initializes a new instance of the [`XamlOptions`](../../xamloptions) class that 
 
 ```csharp
 public XamlOptions()
+```
+
+### Examples
+
+Shows how to save a project in XAML format by using save options.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new XamlOptions();
+options.FitContent = true;
+options.LegendOnEachPage = false;
+options.Timescale = Timescale.ThirdsOfMonths;
+project.Save(OutDir + "RenderXAMLWithOptions_out.xaml", options);
 ```
 
 ### See Also

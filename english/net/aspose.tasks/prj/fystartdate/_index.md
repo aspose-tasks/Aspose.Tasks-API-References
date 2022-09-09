@@ -1,7 +1,7 @@
 ---
 title: FyStartDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The month when fiscal year is starting.
 type: docs
 weight: 340
 url: /net/aspose.tasks/prj/fystartdate/
@@ -12,6 +12,22 @@ The month when fiscal year is starting.
 
 ```csharp
 public static readonly Key<Month, PrjKey> FyStartDate;
+```
+
+### Examples
+
+Shows how to write fiscal year properties.
+
+```csharp
+var project = new Project(DataDir + "WriteFiscalYearProperties.mpp");
+
+// Set fiscal year properties
+project.Set(Prj.FyStartDate, Month.July);
+project.Set(Prj.FiscalYearStart, true);
+
+// Display fiscal year properties
+Console.WriteLine("Fiscal Year Start Date: " + project.Get(Prj.FyStartDate));
+Console.WriteLine("Fiscal Year Numbering: " + project.Get(Prj.FiscalYearStart));
 ```
 
 ### See Also

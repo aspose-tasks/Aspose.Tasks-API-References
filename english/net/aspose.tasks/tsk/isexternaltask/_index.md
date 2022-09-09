@@ -1,7 +1,7 @@
 ---
 title: IsExternalTask
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a task is external.
 type: docs
 weight: 600
 url: /net/aspose.tasks/tsk/isexternaltask/
@@ -12,6 +12,20 @@ Determines whether a task is external.
 
 ```csharp
 public static readonly Key<bool, TaskKey> IsExternalTask;
+```
+
+### Examples
+
+Shows how to read/write Tsk.IsExternalTask property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsExternalTask, true);
+
+Console.WriteLine("Is External Task: " + task.Get(Tsk.IsExternalTask));
 ```
 
 ### See Also

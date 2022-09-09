@@ -1,7 +1,7 @@
 ---
 title: HonorConstraints
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether tasks honor their constraint dates.
 type: docs
 weight: 360
 url: /net/aspose.tasks/prj/honorconstraints/
@@ -12,6 +12,18 @@ Determines whether tasks honor their constraint dates.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> HonorConstraints;
+```
+
+### Examples
+
+Shows how to read/write Prj.HonorConstraints property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.HonorConstraints, true);
+
+Console.WriteLine("Honor Constraints: " + project.Get(Prj.HonorConstraints));
 ```
 
 ### See Also

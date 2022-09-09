@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets displayed height of visual object.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/visualobjectplacement/height/

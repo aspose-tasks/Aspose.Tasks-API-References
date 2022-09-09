@@ -1,7 +1,7 @@
 ---
 title: SplitPartCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Collection that represents the portions of a task.
 type: docs
 weight: 2000
 url: /net/aspose.tasks/splitpartcollection/
@@ -27,6 +27,31 @@ public class SplitPartCollection : IList<SplitPart>
 | --- | --- |
 | [GetEnumerator](../../aspose.tasks/splitpartcollection/getenumerator)() | Returns an enumerator for this collection. |
 | [ToArray](../../aspose.tasks/splitpartcollection/toarray)() | Copies all parts from the collection to a new array. |
+
+### Examples
+
+Shows how to work with split part collections.
+
+```csharp
+var project = new Project(DataDir + "Splits.mpp");
+
+var task = project.RootTask.Children.GetById(1);
+
+// iterate over split parts
+Console.WriteLine("Iterate over split parts");
+Console.WriteLine("Split parts count:" + task.SplitParts.Count);
+foreach (var splitPart in task.SplitParts)
+{
+    Console.WriteLine("Start: " + splitPart.Start);
+    Console.WriteLine("Finish: " + splitPart.Finish);
+}
+
+// get the part by index
+var split = task.SplitParts[0];
+Console.WriteLine("Split start: " + split.Start);
+
+// make some work with the first split part of the task
+```
 
 ### See Also
 

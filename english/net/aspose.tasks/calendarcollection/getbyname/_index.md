@@ -1,7 +1,7 @@
 ---
 title: GetByName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a calendar with the specified name.
 type: docs
 weight: 40
 url: /net/aspose.tasks/calendarcollection/getbyname/
@@ -21,6 +21,21 @@ public Calendar GetByName(string name)
 ### Return Value
 
 If found returns calendar with a specified name else returns null.
+
+### Examples
+
+Shows how to get calendars by name or by id.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendarByName = project.Calendars.GetByName("TestCalendar");
+var calendarByUid = project.Calendars.GetByUid(4);
+
+Console.WriteLine("Calendar Name: " + calendarByName.Name);
+Console.WriteLine("Calendar Name: " + calendarByUid.Name);
+Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
+```
 
 ### See Also
 

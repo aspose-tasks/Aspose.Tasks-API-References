@@ -1,7 +1,7 @@
 ---
 title: MPPSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Allows to specify additional options when saving project data to MPP.
 type: docs
 weight: 1770
 url: /net/aspose.tasks.saving/mppsaveoptions/
@@ -27,6 +27,27 @@ public class MPPSaveOptions
 | [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword) { get; set; } | Gets or sets a password which is used to protect a resulting MPP file. Currently is supported for MS Project 2010 and newer formats. Null value indicates that the project file is not protected. |
 | [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments) { get; set; } | Gets or sets a value indicating whether to remove invalid resource assignments when saving to MPP. MS Project creates an empty resource assignment for each task. Set this flag to true to remove them on save. |
 | [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata) { get; set; } | Gets or sets a value indicating whether to write view data when saving to MPP. View data includes Project.Views, Filters and Tables collections. |
+
+### Examples
+
+Shows how to save project into a stream as an MPP file.
+
+```csharp
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+    // create save options
+    var options = new MPPSaveOptions
+    {
+        // sets a value indicating whether to remove invalid resource assignments when saving to MPP
+        RemoveInvalidAssignments = true
+    };
+
+    // save MPP with options
+    project.Save(stream, options);
+}
+```
 
 ### See Also
 

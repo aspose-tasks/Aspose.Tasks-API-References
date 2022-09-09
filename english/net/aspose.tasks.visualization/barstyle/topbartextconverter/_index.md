@@ -1,7 +1,7 @@
 ---
 title: TopBarTextConverter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets userdefined converter to get text to render on the top of the tasks bar. Overrides the value of TopFieldaspose.tasks.visualization/barstyle/topfield property.
 type: docs
 weight: 180
 url: /net/aspose.tasks.visualization/barstyle/topbartextconverter/

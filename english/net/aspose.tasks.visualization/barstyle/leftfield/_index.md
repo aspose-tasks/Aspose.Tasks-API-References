@@ -1,7 +1,7 @@
 ---
 title: LeftField
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a field to be displayed on the left of the bar.
 type: docs
 weight: 120
 url: /net/aspose.tasks.visualization/barstyle/leftfield/

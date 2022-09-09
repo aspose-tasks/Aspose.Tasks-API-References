@@ -1,7 +1,7 @@
 ---
 title: License
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Provides methods to license the component.
 type: docs
 weight: 850
 url: /net/aspose.tasks/license/
@@ -24,8 +24,8 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](../../aspose.tasks/license/setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../aspose.tasks/license/setlicense)(string) | Licenses the component. |
+| [SetLicense](../../aspose.tasks/license/setlicense#setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.tasks/license/setlicense#setlicense_1)(string) | Licenses the component. |
 
 ### Examples
 
@@ -49,6 +49,13 @@ the component jar file:
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
+```
+
+Shows how to apply a license of Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
 ```
 
 ### See Also

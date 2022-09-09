@@ -1,7 +1,7 @@
 ---
 title: ManualDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Defines manually scheduled duration of a task.
 type: docs
 weight: 790
 url: /net/aspose.tasks/tsk/manualduration/
@@ -12,6 +12,20 @@ Defines manually scheduled duration of a task.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ManualDuration;
+```
+
+### Examples
+
+Shows how to read/write Tsk.ManualDuration property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ManualDuration, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Manual Duration: " + task.Get(Tsk.ManualDuration));
 ```
 
 ### See Also

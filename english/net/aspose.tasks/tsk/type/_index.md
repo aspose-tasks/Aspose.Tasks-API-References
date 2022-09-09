@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The type of a task.
 type: docs
 weight: 1110
 url: /net/aspose.tasks/tsk/type/
@@ -12,6 +12,20 @@ The type of a task.
 
 ```csharp
 public static readonly Key<TaskType, TaskKey> Type;
+```
+
+### Examples
+
+Shows how to read/write Tsk.Type property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Type, TaskType.FixedDuration);
+
+Console.WriteLine("Type: " + task.Get(Tsk.Type));
 ```
 
 ### See Also

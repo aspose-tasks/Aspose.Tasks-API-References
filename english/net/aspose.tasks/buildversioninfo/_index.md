@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Contains build version and product information.
 type: docs
 weight: 150
 url: /net/aspose.tasks/buildversioninfo/
@@ -22,6 +22,18 @@ public static class BuildVersionInfo
 | static readonly [AssemblyVersion](../../aspose.tasks/buildversioninfo/assemblyversion) | Assembly version. |
 | static readonly [FileVersion](../../aspose.tasks/buildversioninfo/fileversion) | File version. |
 | static readonly [Product](../../aspose.tasks/buildversioninfo/product) | Product name. |
+
+### Examples
+
+Shows how to read build version info of Aspose.Tasks.
+
+```csharp
+// read common info about the current Aspose.Tasks version
+Console.WriteLine("Product: " + BuildVersionInfo.Product);
+Console.WriteLine("File Version: " + BuildVersionInfo.FileVersion);
+Console.WriteLine("Assembly Version: " + BuildVersionInfo.AssemblyVersion);
+Console.WriteLine("Assembly Informational Version: " + BuildVersionInfo.AssemblyInformationalVersion);
+```
 
 ### See Also
 

@@ -1,9 +1,9 @@
 ---
 title: TextItemType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Item type to change a text style for.
 type: docs
-weight: 3030
+weight: 3050
 url: /net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration
@@ -41,6 +41,31 @@ public enum TextItemType
 | ExternalTasks | `20` | External tasks text item. |
 | Allocated | `21` | Allocated text item. |
 | ChangedCells | `22` | Changed cells. |
+
+### Examples
+
+Shows how to work with text item types.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle(FontStyles.Italic | FontStyles.Bold)
+{
+    Color = Color.OrangeRed
+};
+
+style.ItemType = TextItemType.OverallocatedResources;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
 
 ### See Also
 

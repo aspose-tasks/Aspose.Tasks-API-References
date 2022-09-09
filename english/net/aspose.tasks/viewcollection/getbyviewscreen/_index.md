@@ -1,7 +1,7 @@
 ---
 title: GetByViewScreen
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Searches for a View with the specified Screen property and returns the first occurrence within the collection.
 type: docs
 weight: 90
 url: /net/aspose.tasks/viewcollection/getbyviewscreen/

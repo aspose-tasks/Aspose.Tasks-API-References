@@ -1,12 +1,12 @@
 ---
 title: OutlineCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.tasks/outlinecode/outlinecode/
 ---
-## OutlineCode constructor
+## OutlineCode() {#constructor}
 
 The default constructor.
 
@@ -16,6 +16,22 @@ public OutlineCode()
 
 ### See Also
 
+* class [OutlineCode](../../outlinecode)
+* namespace [Aspose.Tasks](../../outlinecode)
+* assembly [Aspose.Tasks](../../../)
+
+---
+
+## OutlineCode(OutlineCodeDefinition, OutlineValue) {#constructor_1}
+
+```csharp
+public OutlineCode(OutlineCodeDefinition codeDefinition, OutlineValue outlineValue)
+```
+
+### See Also
+
+* class [OutlineCodeDefinition](../../outlinecodedefinition)
+* class [OutlineValue](../../outlinevalue)
 * class [OutlineCode](../../outlinecode)
 * namespace [Aspose.Tasks](../../outlinecode)
 * assembly [Aspose.Tasks](../../../)

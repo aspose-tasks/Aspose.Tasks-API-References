@@ -1,7 +1,7 @@
 ---
 title: NullableBool
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: A class for boolean values with possibility to check whether the value was defined or not.
 type: docs
 weight: 970
 url: /net/aspose.tasks/nullablebool/
@@ -18,8 +18,8 @@ public struct NullableBool : IEquatable<NullableBool>
 
 | Name | Description |
 | --- | --- |
-| [NullableBool](nullablebool)(bool) | Initializes a new instance of the [`NullableBool`](../nullablebool) struct with the specified boolean value. |
-| [NullableBool](nullablebool)(bool, bool) | Initializes a new instance of the [`NullableBool`](../nullablebool) struct. |
+| [NullableBool](nullablebool#constructor)(bool) | Initializes a new instance of the [`NullableBool`](../nullablebool) struct with the specified boolean value. |
+| [NullableBool](nullablebool#constructor_1)(bool, bool) | Initializes a new instance of the [`NullableBool`](../nullablebool) struct. |
 
 ## Properties
 
@@ -32,13 +32,42 @@ public struct NullableBool : IEquatable<NullableBool>
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.tasks/nullablebool/equals)(NullableBool) | Returns a flag indicating whether this instance is equal to the specified instance of the [`NullableBool`](../nullablebool) class. |
-| override [Equals](../../aspose.tasks/nullablebool/equals)(object) | Returns a flag indicating whether this instance is equal to the specified object. |
+| [Equals](../../aspose.tasks/nullablebool/equals#equals)(NullableBool) | Returns a flag indicating whether this instance is equal to the specified instance of the [`NullableBool`](../nullablebool) class. |
+| override [Equals](../../aspose.tasks/nullablebool/equals#equals_1)(object) | Returns a flag indicating whether this instance is equal to the specified object. |
 | override [GetHashCode](../../aspose.tasks/nullablebool/gethashcode)() | Returns a hash code value for the instance of the [`NullableBool`](../nullablebool) class. |
 | override [ToString](../../aspose.tasks/nullablebool/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.tasks/nullablebool/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
-| [implicit operator](../../aspose.tasks/nullablebool/op_implicit) | Implicitly converts a [`NullableBool`](../nullablebool) instance to a boolean value. Returns true when [`Value`](./value) is true and [`IsDefined`](./isdefined) is true. (2 operators) |
+| [implicit operator](../../aspose.tasks/nullablebool/op_implicit#op_implicit_1) | Implicitly converts a [`NullableBool`](../nullablebool) instance to a boolean value. Returns true when [`Value`](./value) is true and [`IsDefined`](./isdefined) is true. (2 operators) |
 | [operator !=](../../aspose.tasks/nullablebool/op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
+
+### Examples
+
+Shows how to work with &lt;see cref="NullableBool" /&gt; class.
+
+```csharp
+var project = new Project();
+
+// lets check where the <see cref="Aspose.Tasks.NullableBool" /> class is used
+// the main advantage of <see cref="Aspose.Tasks.NullableBool" /> that 
+// one can set it as undefined through constructing
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// use nullable bool instance
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// use nullable bool instance
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
 
 ### See Also
 

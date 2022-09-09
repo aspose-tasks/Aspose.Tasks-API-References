@@ -1,7 +1,7 @@
 ---
 title: GetDefaultAssignmentView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Includes Uid task name resource name work and duration assignment columns.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/projectview/getdefaultassignmentview/
@@ -17,6 +17,21 @@ public static ProjectView GetDefaultAssignmentView()
 ### Return Value
 
 a view which contains a list of [`AssignmentViewColumn`](../../assignmentviewcolumn).
+
+### Examples
+
+Shows how to save a project with assignment view.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
 
 ### See Also
 

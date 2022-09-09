@@ -1,7 +1,7 @@
 ---
 title: Baselines
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a BaselineCollection instance for this object. The baseline values for a resource.
 type: docs
 weight: 30
 url: /net/aspose.tasks/resource/baselines/
@@ -12,6 +12,26 @@ Gets a BaselineCollection instance for this object. The baseline values for a re
 
 ```csharp
 public BaselineCollection Baselines { get; }
+```
+
+### Examples
+
+Shows how to read resource's baselines.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+foreach (var resource in project.Resources)
+{
+    foreach (var baseline in resource.Baselines)
+    {
+        Console.WriteLine("BaselineNumber: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+    }
+}
 ```
 
 ### See Also

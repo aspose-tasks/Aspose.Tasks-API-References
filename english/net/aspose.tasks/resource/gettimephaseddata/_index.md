@@ -1,12 +1,12 @@
 ---
 title: GetTimephasedData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an instance of the TimephasedDataCollectionaspose.tasks/timephaseddatacollection class for this object with the TimephasedDataaspose.tasks/resource/timephaseddata values within given start and end dates of specified TimephasedDataTypeaspose.tasks/timephaseddatatype.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.tasks/resource/gettimephaseddata/
 ---
-## Resource.GetTimephasedData method (1 of 2)
+## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
 Returns an instance of the [`TimephasedDataCollection`](../../timephaseddatacollection) class for this object with the [`TimephasedData`](../timephaseddata) values within given start and end dates of specified [`TimephasedDataType`](../../timephaseddatatype).
 
@@ -25,6 +25,33 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 List of [`TimephasedData`](../timephaseddata).
 
+### Examples
+
+Shows how to read timephased data of work/cost resources.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Get the Resource by its ID
+var resource = project.Resources.GetByUid(1);
+
+// Print Timephased data of ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Print Timephased data of ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
+
 ### See Also
 
 * class [TimephasedDataCollection](../../timephaseddatacollection)
@@ -35,7 +62,7 @@ List of [`TimephasedData`](../timephaseddata).
 
 ---
 
-## Resource.GetTimephasedData method (2 of 2)
+## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
 Returns [`TimephasedDataCollection`](../../timephaseddatacollection) for this object with [`TimephasedData`](../timephaseddata)values within given start and end dates.
 
@@ -51,6 +78,33 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 ### Return Value
 
 List of [`TimephasedData`](../../timephaseddata).
+
+### Examples
+
+Shows how to read timephased data of work/cost resources.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Get the Resource by its ID
+var resource = project.Resources.GetByUid(1);
+
+// Print Timephased data of ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Print Timephased data of ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
 
 ### See Also
 

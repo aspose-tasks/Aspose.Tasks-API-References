@@ -1,7 +1,7 @@
 ---
 title: ActualWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of work that has already been done by resource assigned to tasks.
 type: docs
 weight: 70
 url: /net/aspose.tasks/rsc/actualwork/
@@ -12,6 +12,21 @@ The amount of work that has already been done by resource assigned to tasks.
 
 ```csharp
 public static readonly Key<Duration, RscKey> ActualWork;
+```
+
+### Examples
+
+Shows how to read/write Rsc.ActualWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualWork, project.GetWork(1));
+
+Console.WriteLine("Actual Work: " + resource.Get(Rsc.ActualWork));
 ```
 
 ### See Also

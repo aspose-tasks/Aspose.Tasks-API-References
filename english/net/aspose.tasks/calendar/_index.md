@@ -1,7 +1,7 @@
 ---
 title: Calendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a calendar used in a project.
 type: docs
 weight: 220
 url: /net/aspose.tasks/calendar/
@@ -37,16 +37,16 @@ public class Calendar
 | static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar)(Calendar) | Creates default standard calendar. |
 | [Delete](../../aspose.tasks/calendar/delete)() | Removes calendar from project. |
 | override [Equals](../../aspose.tasks/calendar/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork)(DateTime, Duration) | Calculates the date when the specified amount of work time will pass according to the calendar. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork)(DateTime, TimeSpan) | Calculates the date when the specified amount of work time will pass according to the calendar. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork)(DateTime, Duration) | Calculates the date when the specified amount of work time will pass according to the calendar. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Calculates the date when the specified amount of work time will pass according to the calendar. |
 | override [GetHashCode](../../aspose.tasks/calendar/gethashcode)() | Returns a hash code for the instance of the [`Calendar`](../calendar) class. |
 | [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart)(DateTime) | Calculates next working day start from the date. |
 | [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend)(DateTime) | Calculates previous working date end from the specified date. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration)(DateTime, Duration) | Returns StartDate based on specified FinishDate and Duration. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration)(DateTime, TimeSpan) | Returns StartDate based on specified FinishDate and Duration. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration)(DateTime, Duration) | Returns StartDate based on specified FinishDate and Duration. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Returns StartDate based on specified FinishDate and Duration. |
 | [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration)(Task, TimeSpan) | Calculates the task finish date and time from its start date, split parts and the duration. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours)(DateTime) | Returns amount of working hours at the date. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours)(DateTime, DateTime) | Return working hours for the specified dates. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours_1)(DateTime) | Returns amount of working hours at the date. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours)(DateTime, DateTime) | Return working hours for the specified dates. |
 | [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes)(DateTime) | Returns [`WorkingTimeCollection`](../workingtimecollection) of working times. |
 | [IsDayWorking](../../aspose.tasks/calendar/isdayworking)(DateTime) | Determines whether the day is working day. |
 
@@ -110,6 +110,36 @@ calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday))
 ' adds weekend
 calendar.Days.Add(New WeekDay(DayType.Saturday))
 calendar.Days.Add(New WeekDay(DayType.Sunday))
+```
+
+Shows how to define a new calendar, add week days to it and define working times for days.
+
+```csharp
+var project = new Project();
+
+// Define a calendar
+var calendar = project.Calendars.Add("Calendar1");
+
+// Add working days monday through thursday with default timings
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(new WeekDay(DayType.Saturday));
+calendar.WeekDays.Add(new WeekDay(DayType.Sunday));
+
+// Set friday as short working day
+var weekDay = new WeekDay(DayType.Friday);
+
+// Sets working time. Only time part of DateTime is important
+var workingTime = new WorkingTime(9, 12);
+var workingTime2 = new WorkingTime(13, 16);
+weekDay.WorkingTimes.Add(workingTime);
+weekDay.WorkingTimes.Add(workingTime2);
+weekDay.DayWorking = true;
+calendar.WeekDays.Add(weekDay);
+
+// working with the project...
 ```
 
 ### See Also

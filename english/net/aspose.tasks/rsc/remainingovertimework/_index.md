@@ -1,7 +1,7 @@
 ---
 title: RemainingOvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of remaining scheduled overtime.
 type: docs
 weight: 610
 url: /net/aspose.tasks/rsc/remainingovertimework/
@@ -12,6 +12,21 @@ The amount of remaining scheduled overtime.
 
 ```csharp
 public static readonly Key<Duration, RscKey> RemainingOvertimeWork;
+```
+
+### Examples
+
+Shows how to read/write Rsc.RemainingOvertimeWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingOvertimeWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Overtime Work: " + resource.Get(Rsc.RemainingOvertimeWork));
 ```
 
 ### See Also

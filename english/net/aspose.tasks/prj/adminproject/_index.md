@@ -1,7 +1,7 @@
 ---
 title: AdminProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a project is an administrative project.
 type: docs
 weight: 20
 url: /net/aspose.tasks/prj/adminproject/
@@ -12,6 +12,18 @@ Determines whether a project is an administrative project.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> AdminProject;
+```
+
+### Examples
+
+Shows how to read/write Prj.AdminProject property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AdminProject, true);
+
+Console.WriteLine("Admin Project: " + project.Get(Prj.AdminProject));
 ```
 
 ### See Also

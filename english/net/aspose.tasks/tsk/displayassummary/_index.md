@@ -1,7 +1,7 @@
 ---
 title: DisplayAsSummary
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the task should be displayed as a summary task.  Reading supported for XML format only. Boolean type.
 type: docs
 weight: 280
 url: /net/aspose.tasks/tsk/displayassummary/
@@ -12,6 +12,20 @@ Determines whether the task should be displayed as a summary task.  Reading supp
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> DisplayAsSummary;
+```
+
+### Examples
+
+Shows how to read/write Tsk.DisplayAsSummary property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DisplayAsSummary, true);
+
+Console.WriteLine("Display As Summary: " + task.Get(Tsk.DisplayAsSummary));
 ```
 
 ### See Also

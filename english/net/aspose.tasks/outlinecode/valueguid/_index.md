@@ -1,7 +1,7 @@
 ---
 title: ValueGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the GUID of the value in the value list. The ValueGuid matches the FieldGuid in the value list.
 type: docs
 weight: 30
 url: /net/aspose.tasks/outlinecode/valueguid/
@@ -12,6 +12,31 @@ Gets or sets the GUID of the value in the value list. The ValueGuid matches the 
 
 ```csharp
 public string ValueGuid { get; set; }
+```
+
+### Examples
+
+Shows how to read task's outline codes.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// read outline codes
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
 ```
 
 ### See Also

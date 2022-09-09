@@ -1,7 +1,7 @@
 ---
 title: CalendarCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of Calendar./calendar objects.
 type: docs
 weight: 230
 url: /net/aspose.tasks/calendarcollection/
@@ -25,13 +25,31 @@ public class CalendarCollection : IList<Calendar>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/calendarcollection/add)(string) | Adds a new base calendar to this CalendarCollection object and returns added calendar. |
-| [Add](../../aspose.tasks/calendarcollection/add)(string, Calendar) | Adds a new calendar with specified base calendar to this CalendarCollection object and returns added calendar. |
+| [Add](../../aspose.tasks/calendarcollection/add#add)(string) | Adds a new base calendar to this CalendarCollection object and returns added calendar. |
+| [Add](../../aspose.tasks/calendarcollection/add#add_1)(string, Calendar) | Adds a new calendar with specified base calendar to this CalendarCollection object and returns added calendar. |
 | [GetByName](../../aspose.tasks/calendarcollection/getbyname)(string) | Returns a calendar with the specified name. |
 | [GetByUid](../../aspose.tasks/calendarcollection/getbyuid)(int) | Returns a calendar with the specified UID. |
 | [GetEnumerator](../../aspose.tasks/calendarcollection/getenumerator)() | Returns an enumerator for this collection. |
 | [Remove](../../aspose.tasks/calendarcollection/remove)(Calendar) | Removes Calendar from Project CalendarCollection. |
 | [ToList](../../aspose.tasks/calendarcollection/tolist)() | Converts the CalendarCollection object to a list of [`Calendar`](../calendar) objects. |
+
+### Examples
+
+Shows how to add new calendars.
+
+```csharp
+var project = new Project();
+
+// new calendars can be added to a project's calendar collection by using the collection's Add overloads.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
 
 ### See Also
 

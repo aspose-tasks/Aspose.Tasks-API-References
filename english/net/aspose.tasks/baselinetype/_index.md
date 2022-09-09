@@ -1,7 +1,7 @@
 ---
 title: BaselineType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the baseline type used to calculate Variance values.
 type: docs
 weight: 120
 url: /net/aspose.tasks/baselinetype/
@@ -34,6 +34,17 @@ public enum BaselineType
 ### Remarks
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
+
+### Examples
+
+Shows how to set baseline for the project (BaselineType.Baseline).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// save baseline fields to the specified baseline for the entire project.
+project.SetBaseline(BaselineType.Baseline);
+// work with project's baselines...
+```
 
 ### See Also
 

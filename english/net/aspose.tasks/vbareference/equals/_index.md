@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to the specified VbaReferenceaspose.tasks/vbareference object.
 type: docs
 weight: 40
 url: /net/aspose.tasks/vbareference/equals/
 ---
-## VbaReference.Equals method (1 of 2)
+## Equals(VbaReference) {#equals}
 
 Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../../vbareference) object.
 
@@ -22,6 +22,22 @@ public bool Equals(VbaReference other)
 
 Returns true if this instance is equal to the specified [`VbaReference`](../../vbareference) object; otherwise, false.
 
+### Examples
+
+Shows how to check VBA reference equality.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// the equality of references is checked against to reference's name.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
+
 ### See Also
 
 * class [VbaReference](../../vbareference)
@@ -30,7 +46,7 @@ Returns true if this instance is equal to the specified [`VbaReference`](../../v
 
 ---
 
-## VbaReference.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../../vbareference) object.
 
@@ -45,6 +61,22 @@ public override bool Equals(object obj)
 ### Return Value
 
 Returns true if this instance is equal to the specified [`VbaReference`](../../vbareference) object; otherwise, false.
+
+### Examples
+
+Shows how to check VBA reference equality.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// the equality of references is checked against to reference's name.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
 
 ### See Also
 

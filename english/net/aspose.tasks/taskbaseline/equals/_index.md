@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to the specified TaskBaseline object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/taskbaseline/equals/
 ---
-## TaskBaseline.Equals method (1 of 2)
+## Equals(TaskBaseline) {#equals_1}
 
 Returns a value indicating whether this instance is equal to the specified TaskBaseline object.
 
@@ -22,6 +22,27 @@ public bool Equals(TaskBaseline other)
 
 returns true if this instance is equal to the specified TaskBaseline object; otherwise, false.
 
+### Examples
+
+Shows how to check equality of baselines.
+
+```csharp
+var project = new Project();
+
+// creating TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// display task baseline duration
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// the equality of baselines is checked against to baseline's numbers.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
+
 ### See Also
 
 * class [TaskBaseline](../../taskbaseline)
@@ -30,7 +51,7 @@ returns true if this instance is equal to the specified TaskBaseline object; oth
 
 ---
 
-## TaskBaseline.Equals method (2 of 2)
+## Equals(object) {#equals_2}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -45,6 +66,27 @@ public override bool Equals(object obj)
 ### Return Value
 
 **True** if the specified object is a TaskBaseline that has the same UID value as this instance; otherwise, **false**.
+
+### Examples
+
+Shows how to check equality of baselines.
+
+```csharp
+var project = new Project();
+
+// creating TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// display task baseline duration
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// the equality of baselines is checked against to baseline's numbers.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: LevelingCanSplit
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the resource leveling function can cause splits on remaining work on this task.
 type: docs
 weight: 760
 url: /net/aspose.tasks/tsk/levelingcansplit/
@@ -12,6 +12,20 @@ Determines whether the resource leveling function can cause splits on remaining 
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> LevelingCanSplit;
+```
+
+### Examples
+
+Shows how to read/write Tsk.LevelingCanSplit property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingCanSplit, true);
+
+Console.WriteLine("Leveling Can Split: " + task.Get(Tsk.LevelingCanSplit));
 ```
 
 ### See Also

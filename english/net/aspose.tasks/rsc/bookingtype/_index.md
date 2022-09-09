@@ -1,7 +1,7 @@
 ---
 title: BookingType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The booking type of a resource.
 type: docs
 weight: 160
 url: /net/aspose.tasks/rsc/bookingtype/
@@ -12,6 +12,20 @@ The booking type of a resource.
 
 ```csharp
 public static readonly Key<BookingType, RscKey> BookingType;
+```
+
+### Examples
+
+Shows how to read/write Rsc.BookingType property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.BookingType, BookingType.Committed);
+
+Console.WriteLine("Booking Type: " + resource.Get(Rsc.BookingType));
 ```
 
 ### See Also

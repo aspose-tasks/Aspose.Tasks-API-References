@@ -1,7 +1,7 @@
 ---
 title: DurationVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between the baseline duration of a task and the total duration current estimate of a task.
 type: docs
 weight: 330
 url: /net/aspose.tasks/tsk/durationvariance/
@@ -12,6 +12,21 @@ The difference between the baseline duration of a task and the total duration (c
 
 ```csharp
 public static readonly Key<Duration, TaskKey> DurationVariance;
+```
+
+### Examples
+
+Shows how to read/write Tsk.DurationVariance property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Hour);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DurationVariance, project.GetWork(1));
+
+Console.WriteLine("Duration Variance: " + task.Get(Tsk.DurationVariance));
 ```
 
 ### See Also

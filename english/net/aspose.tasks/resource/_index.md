@@ -1,7 +1,7 @@
 ---
 title: Resource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a resource in a project.
 type: docs
 weight: 1480
 url: /net/aspose.tasks/resource/
@@ -22,6 +22,7 @@ public class Resource : IEquatable<Resource>
 | [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods) { get; } | Gets a the instance of the [`AvailabilityPeriodCollection`](../availabilityperiodcollection) class. The collection of periods during which a resource is available. |
 | [Baselines](../../aspose.tasks/resource/baselines) { get; } | Gets a BaselineCollection instance for this object. The baseline values for a resource. |
 | [ExtendedAttributes](../../aspose.tasks/resource/extendedattributes) { get; } | Gets the values of an extended attribute. |
+| virtual [IsRoot](../../aspose.tasks/resource/isroot) { get; } |  |
 | [OutlineCode](../../aspose.tasks/resource/outlinecode) { get; } | Gets an OutlineCodeCollection object. The value of an outline code. |
 | [ParentProject](../../aspose.tasks/resource/parentproject) { get; } | Gets parent project for this container. |
 | [Rates](../../aspose.tasks/resource/rates) { get; } | Gets a the instance of the [`RateCollection`](../ratecollection) class for this object. The collection of periods and rates associated with each one. |
@@ -32,15 +33,28 @@ public class Resource : IEquatable<Resource>
 | Name | Description |
 | --- | --- |
 | [Delete](../../aspose.tasks/resource/delete)() | Deletes a resource and its assignments from project. |
-| override [Equals](../../aspose.tasks/resource/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](../../aspose.tasks/resource/equals)(Resource) | Returns a value indicating whether this instance is equal to a specified instance of the [`Resource`](../resource) class. |
+| override [Equals](../../aspose.tasks/resource/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/resource/equals#equals)(Resource) | Returns a value indicating whether this instance is equal to a specified instance of the [`Resource`](../resource) class. |
 | [Get&lt;T&gt;](../../aspose.tasks/resource/get)(Key&lt;T, RscKey&gt;) | Returns the value to which the property is mapped in this container. |
 | override [GetHashCode](../../aspose.tasks/resource/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) for this object with [`TimephasedData`](./timephaseddata)values within given start and end dates. |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns an instance of the [`TimephasedDataCollection`](../timephaseddatacollection) class for this object with the [`TimephasedData`](./timephaseddata) values within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
-| [Set](../../aspose.tasks/resource/set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Maps the specified property to the specified value in this container. |
-| [Set&lt;T&gt;](../../aspose.tasks/resource/set)(Key&lt;T, RscKey&gt;, T) | Maps the specified property to the specified value in this container. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) for this object with [`TimephasedData`](./timephaseddata)values within given start and end dates. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Returns an instance of the [`TimephasedDataCollection`](../timephaseddatacollection) class for this object with the [`TimephasedData`](./timephaseddata) values within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
+| [Set](../../aspose.tasks/resource/set#set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Maps the specified property to the specified value in this container. |
+| [Set&lt;T&gt;](../../aspose.tasks/resource/set#set_1)(Key&lt;T, RscKey&gt;, T) | Maps the specified property to the specified value in this container. |
 | override [ToString](../../aspose.tasks/resource/tostring)() | Returns short string representation of the instance of the [`Resource`](../resource) class. The exact details of the representation are unspecified and subject to change. |
+
+### Examples
+
+Shows how to add project resources.
+
+```csharp
+var project = new Project();
+
+// Add resources
+project.Resources.Add("Resource");
+
+project.Save(OutDir + "CreateResources_out.xml", SaveFileFormat.Xml);
+```
 
 ### See Also
 

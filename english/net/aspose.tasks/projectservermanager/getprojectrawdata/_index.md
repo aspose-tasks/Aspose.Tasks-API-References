@@ -1,7 +1,7 @@
 ---
 title: GetProjectRawData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the projects binary data for troubleshooting purposes.
 type: docs
 weight: 60
 url: /net/aspose.tasks/projectservermanager/getprojectrawdata/
@@ -37,6 +37,36 @@ using (var fileStream = File.OpenWrite(@"c:\debug.zip"))
     {
         stream.CopyTo(fileStream);
     }
+}
+```
+
+Shows how to retrieve project's raw data from Microsoft Project Online for troubleshooting purposes.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+var manager = new ProjectServerManager(credentials);
+IEnumerable<ProjectInfo> list = manager.GetProjectList();
+
+foreach (var info in list)
+{
+    var project = manager.GetProject(info.Id);
+    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
+    Console.WriteLine("Resources count: {0}", project.Resources.Count);
+
+    // The user can read the project as raw data stream for troubleshooting purposes.
+    using (FileStream fs = File.Create(OutDir + "projectRawData.zip"))
+    {
+        using (var stream = manager.GetProjectRawData(info.Id))
+        {
+            stream.CopyTo(fs);
+        }
+    }
+
+    // you can pass the resulting file to support.
 }
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: TaskUsageView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents task usage view in a project.
 type: docs
 weight: 2160
 url: /net/aspose.tasks/taskusageview/
@@ -47,6 +47,65 @@ public class TaskUsageView : UsageView
 | [CompareTo](../../aspose.tasks/view/compareto)(View) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
 | override [Equals](../../aspose.tasks/view/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
+
+### Examples
+
+Shows how to render task usage view with timescale settings defined in view settings.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = project.Views.ToList()[2] as TaskUsageView;
+
+view.TopTimescaleTier.Unit = TimescaleUnit.None;
+
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddMDd;
+view.MiddleTimescaleTier.Count = 1;
+
+view.BottomTimescaleTier.Unit = TimescaleUnit.Days;
+view.BottomTimescaleTier.Label = DateLabel.DayMmDd;
+view.BottomTimescaleTier.Count = 1;
+
+// Define the SaveOptions and specify that TaskUsageView timescale settings should be used.
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+
+project.Save(OutDir + "TaskUsageView_CustomTimescale_out.pdf", options);
+```
+
+Shows how to render task usage view with predefined timescale settings.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+// Define the SaveOptions and specify predefined TimeScale settings 'Days'.
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Days,
+
+    // Set the Presentation format to TaskUsage
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+
+var outputProject = "TaskUsageView_result_days_out.pdf";
+project.Save(OutDir + outputProject, options);
+
+// Set the Timescale settings to ThirdsOfMonths
+options.Timescale = Timescale.ThirdsOfMonths;
+
+outputProject = "TaskUsageView_result_thirdsOfMonths_out.pdf";
+project.Save(OutDir + outputProject, options);
+
+// Set the Timescale settings to Months
+options.Timescale = Timescale.Months;
+
+outputProject = "TaskUsageView_result_months_out.pdf";
+project.Save(OutDir + outputProject, options);
+```
 
 ### See Also
 

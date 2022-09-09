@@ -1,7 +1,7 @@
 ---
 title: CustomDateFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Project view custom date format. Used to format dates when DateFormataspose.tasks/prj/dateformat property is set to Custom.
 type: docs
 weight: 190
 url: /net/aspose.tasks/prj/customdateformat/
@@ -12,6 +12,18 @@ Project view custom date format. Used to format dates when [`DateFormat`](../dat
 
 ```csharp
 public static readonly Key<string, PrjKey> CustomDateFormat;
+```
+
+### Examples
+
+Shows how to read/write Prj.CustomDateFormat property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CustomDateFormat, "dd MMMM yyyy H:mm");
+
+Console.WriteLine("Custom Date Format: " + project.Get(Prj.CustomDateFormat));
 ```
 
 ### See Also

@@ -1,9 +1,9 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns short string representation of the instance of the ResourceAssignmentaspose.tasks/resourceassignment class. The exact details of the representation are unspecified and subject to change.
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.tasks/resourceassignment/tostring/
 ---
 ## ResourceAssignment.ToString method
@@ -17,6 +17,25 @@ public override string ToString()
 ### Return Value
 
 short string which represents assignment object.
+
+### Examples
+
+Shows how to print common assignment info.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // display task's assignments
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
 
 ### See Also
 

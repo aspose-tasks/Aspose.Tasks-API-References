@@ -1,12 +1,12 @@
 ---
 title: SetLicense
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Licenses the component.
 type: docs
 weight: 20
 url: /net/aspose.tasks/license/setlicense/
 ---
-## License.SetLicense method (1 of 2)
+## SetLicense(string) {#setlicense_1}
 
 Licenses the component.
 
@@ -60,6 +60,13 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
+Shows how to apply a license of Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
 ### See Also
 
 * class [License](../../license)
@@ -68,7 +75,7 @@ license.setLicense("MyLicense.lic");
 
 ---
 
-## License.SetLicense method (2 of 2)
+## SetLicense(Stream) {#setlicense}
 
 Licenses the component.
 
@@ -100,6 +107,16 @@ license.SetLicense(myStream)
 
 License license = new License();
 license.setLicense(myStream);
+```
+
+Shows how to apply a license of Aspose.Tasks read from &lt;see cref="System.IO.FileStream" /&gt;.
+
+```csharp
+var license = new License();
+using (var stream = new FileStream("Aspose.Tasks.lic", FileMode.Open))
+{
+    license.SetLicense(stream);
+}
 ```
 
 ### See Also

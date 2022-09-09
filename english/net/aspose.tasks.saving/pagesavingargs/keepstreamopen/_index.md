@@ -1,7 +1,7 @@
 ---
 title: KeepStreamOpen
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether rendering routine should keep Streamaspose.tasks.saving/pagesavingargs/stream opened after a page is written.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/pagesavingargs/keepstreamopen/

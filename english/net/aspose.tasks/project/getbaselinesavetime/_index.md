@@ -1,7 +1,7 @@
 ---
 title: GetBaselineSaveTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns the baseline save time.
 type: docs
 weight: 280
 url: /net/aspose.tasks/project/getbaselinesavetime/
@@ -25,6 +25,22 @@ The baseline's last save date and time.
 ### Remarks
 
 Returns DateTime.MinValue if the baseline was not saved.
+
+### Examples
+
+Shows how to read/write project's baseline save time.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// set baseline save time
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
 
 ### See Also
 

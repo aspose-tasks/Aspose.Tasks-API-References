@@ -1,7 +1,7 @@
 ---
 title: GetColumnText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts current resource assignment to the column text.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/
@@ -21,6 +21,32 @@ public string GetColumnText(ResourceAssignment assignment)
 ### Return Value
 
 The column text.
+
+### Examples
+
+Shows how to add columns for assignment views.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.Notes); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
 
 ### See Also
 

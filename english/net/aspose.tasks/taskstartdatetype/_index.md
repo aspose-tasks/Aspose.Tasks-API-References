@@ -1,7 +1,7 @@
 ---
 title: TaskStartDateType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the type of a tasks start date.
 type: docs
 weight: 2140
 url: /net/aspose.tasks/taskstartdatetype/
@@ -25,6 +25,16 @@ public enum TaskStartDateType
 ### Remarks
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
+
+### Examples
+
+Shows how to set task's default start date as 'CurrentDate'.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
 
 ### See Also
 

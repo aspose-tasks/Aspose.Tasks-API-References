@@ -1,7 +1,7 @@
 ---
 title: CostPerUse
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The cost that accrues every time that a resource is used.
 type: docs
 weight: 240
 url: /net/aspose.tasks/rsc/costperuse/
@@ -12,6 +12,20 @@ The cost that accrues every time that a resource is used.
 
 ```csharp
 public static readonly Key<decimal, RscKey> CostPerUse;
+```
+
+### Examples
+
+Shows how to read/write Rsc.CostPerUse property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostPerUse, 9);
+
+Console.WriteLine("Cost Per Use: " + resource.Get(Rsc.CostPerUse));
 ```
 
 ### See Also

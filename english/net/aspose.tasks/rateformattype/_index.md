@@ -1,7 +1,7 @@
 ---
 title: RateFormatType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the units used by Microsoft Project to display a rate.
 type: docs
 weight: 1380
 url: /net/aspose.tasks/rateformattype/
@@ -30,6 +30,20 @@ public enum RateFormatType
 ### Remarks
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
+
+### Examples
+
+Shows how to read/write Rsc.StandardRateFormat property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.StandardRateFormat, RateFormatType.Hour);
+
+Console.WriteLine("Standard Rate Format: " + resource.Get(Rsc.StandardRateFormat));
+```
 
 ### See Also
 

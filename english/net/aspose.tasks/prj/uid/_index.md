@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The unique Id of a project.
 type: docs
 weight: 750
 url: /net/aspose.tasks/prj/uid/
@@ -12,6 +12,18 @@ The unique Id of a project.
 
 ```csharp
 public static readonly Key<string, PrjKey> Uid;
+```
+
+### Examples
+
+Shows how to read/write Prj.Uid property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Uid, "1234");
+
+Console.WriteLine("Uid: " + project.Get(Prj.Uid));
 ```
 
 ### See Also

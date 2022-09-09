@@ -1,7 +1,7 @@
 ---
 title: SaveOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format.
 type: docs
 weight: 1910
 url: /net/aspose.tasks.saving/saveoptions/
@@ -45,6 +45,22 @@ public abstract class SaveOptions
 ### Remarks
 
 An instance of any derived class from SaveOptions class is passed to the stream Save or string Save overloads for the user to define custom options when saving a document.
+
+### Examples
+
+Shows how to set the option whether row height should be increased to fit its content.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    // Set option fit content to true
+    FitContent = true,
+    Timescale = Timescale.Months,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+project.Save(OutDir + "FitContentsToCellSize_out.pdf", options);
+```
 
 ### See Also
 

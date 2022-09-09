@@ -1,7 +1,7 @@
 ---
 title: OvertimeCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The total overtime cost for a task for a resource on all assigned tasks or for a resource assignment.
 type: docs
 weight: 870
 url: /net/aspose.tasks/tsk/overtimecost/
@@ -12,6 +12,27 @@ The total overtime cost for a task, for a resource on all assigned tasks, or for
 
 ```csharp
 public static readonly Key<decimal, TaskKey> OvertimeCost;
+```
+
+### Examples
+
+Shows how to read task overtimes.
+
+```csharp
+var project = new Project(DataDir + "TaskOvertimes.mpp");
+
+// Read overtime and percentage completion for tasks
+foreach (var task in project.RootTask.Children)
+{
+    Console.WriteLine(task.Get(Tsk.OvertimeCost));
+    Console.WriteLine(task.Get(Tsk.OvertimeWork));
+    Console.WriteLine(task.Get(Tsk.PercentComplete));
+    Console.WriteLine(task.Get(Tsk.PercentWorkComplete));
+    Console.WriteLine(task.Get(Tsk.PhysicalPercentComplete));
+
+    // Set percent complete
+    task.Set(Tsk.PercentComplete, 100);
+}
 ```
 
 ### See Also

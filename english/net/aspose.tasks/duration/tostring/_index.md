@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a string representation of this instance.
 type: docs
 weight: 120
 url: /net/aspose.tasks/duration/tostring/
@@ -17,6 +17,19 @@ public override string ToString()
 ### Return Value
 
 a string representation of this instance.
+
+### Examples
+
+Shows how to convert a duration to a string.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// get the task duration
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("The duration as a string: " + duration.ToString());
+```
 
 ### See Also
 

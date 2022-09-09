@@ -1,7 +1,7 @@
 ---
 title: DefaultFontName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the default font for rendering.
 type: docs
 weight: 40
 url: /net/aspose.tasks.saving/htmlsaveoptions/defaultfontname/
@@ -12,6 +12,23 @@ Gets or sets the default font for rendering.
 
 ```csharp
 public string DefaultFontName { get; set; }
+```
+
+### Examples
+
+Shows how to set custom font that will be used to export the project in HTML file.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new HtmlSaveOptions
+                  {
+                      PresentationFormat = PresentationFormat.GanttChart,
+                      FitContent = true,
+                      UseProjectDefaultFont = false,
+                      DefaultFontName = "Segoe UI Black"
+                  };
+project.Save(OutDir + "AddDefaultFontDuringSavingAsHtml_out.html", options);
 ```
 
 ### See Also

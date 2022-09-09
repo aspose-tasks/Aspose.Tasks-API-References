@@ -1,7 +1,7 @@
 ---
 title: Prj
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents supported properties of Project./project object.
 type: docs
 weight: 1160
 url: /net/aspose.tasks/prj/
@@ -96,6 +96,18 @@ public static class Prj
 | static readonly [UpdateManuallyScheduledTasksWhenEditingLinks](../../aspose.tasks/prj/updatemanuallyscheduledtaskswheneditinglinks) | Determines whether manual tasks must be updated when links were edited. |
 | static readonly [WeekStartDay](../../aspose.tasks/prj/weekstartday) | First day of a week. |
 | static readonly [WorkFormat](../../aspose.tasks/prj/workformat) | The format used to show the duration of the task. |
+
+### Examples
+
+Shows how to read/write project name.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+project.Set(Prj.Name, "Custom Project Name");
+
+Console.WriteLine("Project name: " + project.Get(Prj.Name));
+```
 
 ### See Also
 

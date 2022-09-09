@@ -1,7 +1,7 @@
 ---
 title: BaselineForEarnedValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The specific baseline used to calculate Variance values.
 type: docs
 weight: 70
 url: /net/aspose.tasks/prj/baselineforearnedvalue/
@@ -12,6 +12,18 @@ The specific baseline used to calculate Variance values.
 
 ```csharp
 public static readonly Key<BaselineType, PrjKey> BaselineForEarnedValue;
+```
+
+### Examples
+
+Shows how to read/write Prj.BaselineForEarnedValue property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.BaselineForEarnedValue, BaselineType.Baseline);
+
+Console.WriteLine("Baseline For Earned Value: " + project.Get(Prj.BaselineForEarnedValue));
 ```
 
 ### See Also

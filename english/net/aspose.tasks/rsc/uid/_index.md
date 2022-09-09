@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The unique identifier of a resource.
 type: docs
 weight: 680
 url: /net/aspose.tasks/rsc/uid/
@@ -12,6 +12,20 @@ The unique identifier of a resource.
 
 ```csharp
 public static readonly Key<int, RscKey> Uid;
+```
+
+### Examples
+
+Shows how to read/write Rsc.Uid property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Uid, 99);
+
+Console.WriteLine("Uid: " + resource.Get(Rsc.Uid));
 ```
 
 ### See Also

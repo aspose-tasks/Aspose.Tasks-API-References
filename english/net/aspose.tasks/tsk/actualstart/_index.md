@@ -1,7 +1,7 @@
 ---
 title: ActualStart
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date and time that a task actually began.
 type: docs
 weight: 80
 url: /net/aspose.tasks/tsk/actualstart/
@@ -12,6 +12,25 @@ The date and time that a task actually began.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> ActualStart;
+```
+
+### Examples
+
+Shows that project' dates are reset in an evaluation mode.
+
+```csharp
+var project = new Project();
+
+// create new tasks
+var task1 = project.RootTask.Children.Add("Task1");
+task1.Set(Tsk.ActualStart, new DateTime(2000, 2, 10, 8, 0, 0));
+task1.Set(Tsk.ActualFinish, new DateTime(2000, 2, 10, 17, 0, 0));
+
+var task2 = project.RootTask.Children.Add("Task2");
+task2.Set(Tsk.ActualStart, new DateTime(2000, 2, 10, 8, 0, 0));
+task2.Set(Tsk.ActualFinish, new DateTime(2000, 2, 10, 17, 0, 0));
+
+project.Save(OutDir + "EvaluationDateTimeLimitations_out.xml", SaveFileFormat.Xml);
 ```
 
 ### See Also

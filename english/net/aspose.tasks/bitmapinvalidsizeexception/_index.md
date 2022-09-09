@@ -1,7 +1,7 @@
 ---
 title: BitmapInvalidSizeException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents exception which occurs when there is not enough memory to create a bitmap instance.
 type: docs
 weight: 130
 url: /net/aspose.tasks/bitmapinvalidsizeexception/
@@ -12,6 +12,32 @@ Represents exception which occurs when there is not enough memory to create a bi
 
 ```csharp
 public class BitmapInvalidSizeException : Exception
+```
+
+### Examples
+
+Shows how to save project as an image and catch invalid size exception.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Blank2010.mpp");
+
+    GanttChartView view = (GanttChartView) project.Views.ToList()[0];
+    var options = new ImageSaveOptions(SaveFileFormat.Png)
+    {
+        Timescale = Timescale.DefinedInView
+    };
+
+    view.MiddleTimescaleTier.Unit = TimescaleUnit.Minutes;
+    view.MiddleTimescaleTier.Count = 1;
+
+    project.Save(OutDir + "SaveToStreamAndCatchException_out.mpp", options);
+}
+catch (BitmapInvalidSizeException ex)
+{
+    Console.WriteLine(ex.Message);
+}
 ```
 
 ### See Also

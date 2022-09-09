@@ -1,7 +1,7 @@
 ---
 title: RecurringInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the instance of RecurringTaskInfoaspose.tasks/recurringtaskinfo class for the task which is a recurring task if the task is not a recurring one then returns null The info for the instance of RecurringTaskInfoaspose.tasks/recurringtaskinfo is present in mpp file format only.
 type: docs
 weight: 90
 url: /net/aspose.tasks/task/recurringinfo/
@@ -12,6 +12,24 @@ Gets the instance of [`RecurringTaskInfo`](../../recurringtaskinfo) class for th
 
 ```csharp
 public RecurringTaskInfo RecurringInfo { get; }
+```
+
+### Examples
+
+Shows how to read task's recurring info.
+
+```csharp
+var project = new Project(DataDir + "TestRecurringTask2016.mpp");
+
+var task = project.RootTask.Children.GetById(1);
+
+Console.WriteLine("Recurrence Pattern: " + task.RecurringInfo.RecurrencePattern);
+Console.WriteLine("Start Date: " + task.RecurringInfo.StartDate);
+Console.WriteLine("End Date: " + task.RecurringInfo.EndDate);
+Console.WriteLine("Duration: " + task.RecurringInfo.Duration);
+Console.WriteLine("Occurrences: " + task.RecurringInfo.Occurrences);
+Console.WriteLine("Weekly Days: " + task.RecurringInfo.WeeklyDays);
+Console.WriteLine("WeeklyRepetitions: " + task.RecurringInfo.WeeklyRepetitions);
 ```
 
 ### See Also

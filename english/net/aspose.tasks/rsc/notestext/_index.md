@@ -1,7 +1,7 @@
 ---
 title: NotesText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Notes plain text extracted from RTF data.
 type: docs
 weight: 490
 url: /net/aspose.tasks/rsc/notestext/
@@ -12,6 +12,20 @@ Notes' plain text extracted from RTF data.
 
 ```csharp
 public static readonly Key<string, RscKey> NotesText;
+```
+
+### Examples
+
+Shows how to read/write Rsc.NotesText property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.NotesText, "Notes");
+
+Console.WriteLine("Notes Text: " + resource.Get(Rsc.NotesText));
 ```
 
 ### See Also

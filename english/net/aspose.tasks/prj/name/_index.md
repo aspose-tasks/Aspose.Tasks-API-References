@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The name of the project.
 type: docs
 weight: 530
 url: /net/aspose.tasks/prj/name/
@@ -12,6 +12,18 @@ The name of the project.
 
 ```csharp
 public static readonly Key<string, PrjKey> Name;
+```
+
+### Examples
+
+Shows how to read/write project name.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+project.Set(Prj.Name, "Custom Project Name");
+
+Console.WriteLine("Project name: " + project.Get(Prj.Name));
 ```
 
 ### See Also

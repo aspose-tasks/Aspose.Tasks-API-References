@@ -1,7 +1,7 @@
 ---
 title: LoadOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the LoadOptionsaspose.tasks/loadoptions class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/loadoptions/loadoptions/

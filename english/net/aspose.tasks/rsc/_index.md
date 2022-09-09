@@ -1,7 +1,7 @@
 ---
 title: Rsc
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents supported properties of Resource./resource object.
 type: docs
 weight: 1690
 url: /net/aspose.tasks/rsc/
@@ -90,6 +90,20 @@ public static class Rsc
 | static readonly [Work](../../aspose.tasks/rsc/work) | The total amount of time scheduled for a resource on a task. |
 | static readonly [Workgroup](../../aspose.tasks/rsc/workgroup) | The type of a workgroup to which a resource belongs. |
 | static readonly [WorkVariance](../../aspose.tasks/rsc/workvariance) | The difference between baseline work of a resource and the currently scheduled work. |
+
+### Examples
+
+Shows how to read/write Rsc.Name property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
 
 ### See Also
 

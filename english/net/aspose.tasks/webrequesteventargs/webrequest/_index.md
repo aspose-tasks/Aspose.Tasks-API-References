@@ -1,7 +1,7 @@
 ---
 title: WebRequest
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a web request to sent to the Project Servers web API.
 type: docs
 weight: 10
 url: /net/aspose.tasks/webrequesteventargs/webrequest/

@@ -1,7 +1,7 @@
 ---
 title: AssignmentView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a list of the assignments view columns to render AssignmentViewColumnaspose.tasks.visualization/assignmentviewcolumn.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/spreadsheet2003saveoptions/assignmentview/
@@ -12,6 +12,26 @@ Gets or sets a list of the assignments view columns to render ([`AssignmentViewC
 
 ```csharp
 public ProjectView AssignmentView { get; set; }
+```
+
+### Examples
+
+Shows how to add columns to be exported during export project into Spreadsheet2003 format.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+var ganttChartColumn = new GanttChartColumn("WBS", 100, delegate(Task task) { return task.Get(Tsk.WBS); });
+options.View.Columns.Add(ganttChartColumn);
+
+var resourceViewColumn = new ResourceViewColumn("Cost center", 100, delegate(Resource resource) { return resource.Get(Rsc.CostCenter); });
+options.ResourceView.Columns.Add(resourceViewColumn);
+
+var assignmentViewColumn = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.Notes); });
+options.AssignmentView.Columns.Add(assignmentViewColumn);
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ```
 
 ### See Also

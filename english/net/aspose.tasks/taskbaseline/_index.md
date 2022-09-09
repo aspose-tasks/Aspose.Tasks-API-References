@@ -1,7 +1,7 @@
 ---
 title: TaskBaseline
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents Baseline of a Task.
 type: docs
 weight: 2070
 url: /net/aspose.tasks/taskbaseline/
@@ -43,11 +43,44 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [CompareTo](../../aspose.tasks/taskbaseline/compareto)(TaskBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [CompareTo](../../aspose.tasks/taskbaseline/compareto#compareto_1)(TaskBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
 | [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](../../aspose.tasks/taskbaseline/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](../../aspose.tasks/taskbaseline/equals)(TaskBaseline) | Returns a value indicating whether this instance is equal to the specified TaskBaseline object. |
+| override [Equals](../../aspose.tasks/taskbaseline/equals#equals_2)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/taskbaseline/equals#equals_1)(TaskBaseline) | Returns a value indicating whether this instance is equal to the specified TaskBaseline object. |
 | override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode)() | Returns a hash code value for the instance of the [`TaskBaseline`](../taskbaseline) class. |
+
+### Examples
+
+Shows how to get access to a baseline information.
+
+```csharp
+var project = new Project();
+
+// Creating TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// Display task baseline duration
+var baseline = task.Baselines.ToList()[0];
+Console.WriteLine("Baseline Start: {0}", baseline.Start);
+Console.WriteLine("Baseline duration: {0}", baseline.Duration);
+Console.WriteLine("Baseline duration format: {0}", baseline.DurationFormat);
+Console.WriteLine("Is it estimated duration?: {0}", baseline.EstimatedDuration);
+Console.WriteLine("Baseline Finish: {0}", baseline.Finish);
+
+// value indicating whether this is an Interim Baseline
+Console.WriteLine("Interim: {0}", baseline.Interim);
+Console.WriteLine("Fixed Cost: {0}", baseline.FixedCost);
+
+// print timephased data of task baseline
+Console.WriteLine("Number of timephased items: " + baseline.TimephasedData.Count);
+foreach (var data in baseline.TimephasedData)
+{
+    Console.WriteLine(" Uid: " + data.Uid);
+    Console.WriteLine(" Start: " + data.Start);
+    Console.WriteLine(" Finish: " + data.Finish);
+}
+```
 
 ### See Also
 

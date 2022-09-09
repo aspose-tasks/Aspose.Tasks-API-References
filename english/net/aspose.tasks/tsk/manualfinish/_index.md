@@ -1,7 +1,7 @@
 ---
 title: ManualFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Defines manually scheduled finish of a task.
 type: docs
 weight: 800
 url: /net/aspose.tasks/tsk/manualfinish/
@@ -12,6 +12,20 @@ Defines manually scheduled finish of a task.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> ManualFinish;
+```
+
+### Examples
+
+Shows how to read/write Tsk.ManualFinish property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ManualFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Manual Finish: " + task.Get(Tsk.ManualFinish));
 ```
 
 ### See Also

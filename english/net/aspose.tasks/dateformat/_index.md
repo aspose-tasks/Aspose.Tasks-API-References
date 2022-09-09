@@ -1,7 +1,7 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the date format.
 type: docs
 weight: 420
 url: /net/aspose.tasks/dateformat/
@@ -42,6 +42,23 @@ public enum DateFormat
 | Custom | `21` | DateTime values are formatted using format string which is set to the project's [`CustomDateFormat`](../prj/customdateformat) property. |
 | DateDdMmYyyy | `256` | The example: 19/07/2016 |
 | Default | `255` | The example: Default date format. |
+
+### Examples
+
+Shows how to customize date format of all dates in the project to be exported.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+project.Set(Prj.StartDate, new DateTime(2014, 9, 22));
+
+// By default project.DateFormat == DateFormat.Date_ddd_mm_dd_yy (Mon 09/22/14) customize DateFormat (September 22, 2014)
+project.Set(Prj.DateFormat, DateFormat.DateMmmmDdYyyy);
+project.Save(OutDir + "CustomizeDateFormats1_out.pdf", SaveFileFormat.Pdf);
+
+// Export to date format 19/07/2016
+project.Set(Prj.DateFormat, DateFormat.DateDdMmYyyy);
+project.Save(OutDir + "CustomizeDateFormats2_out.pdf", SaveFileFormat.Pdf);
+```
 
 ### See Also
 

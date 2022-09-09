@@ -1,7 +1,7 @@
 ---
 title: ResolvedFontName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the name of resolved font. Can be set to control fonts used to render a view.
 type: docs
 weight: 20
 url: /net/aspose.tasks/fontresolveeventargs/resolvedfontname/

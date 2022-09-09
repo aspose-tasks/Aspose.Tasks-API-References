@@ -1,7 +1,7 @@
 ---
 title: ProjectServerCredentials
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Credentials which are used to connect to Project Online or onpremise instance of Project Server.
 type: docs
 weight: 1230
 url: /net/aspose.tasks/projectservercredentials/
@@ -18,9 +18,9 @@ public sealed class ProjectServerCredentials
 
 | Name | Description |
 | --- | --- |
-| [ProjectServerCredentials](projectservercredentials)(string, NetworkCredential) | Initializes a new instance of the [`ProjectServerCredentials`](../projectservercredentials) class using URL of Project Web Access endpoint and network credentials. |
-| [ProjectServerCredentials](projectservercredentials)(string, string) | Initializes a new instance of the [`ProjectServerCredentials`](../projectservercredentials) class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoint's PWA (Project Web Access) site. |
-| [ProjectServerCredentials](projectservercredentials)(string, string, string) | Initializes a new instance of the [`ProjectServerCredentials`](../projectservercredentials) class using URL of SharePoint site, user name and password. |
+| [ProjectServerCredentials](projectservercredentials#constructor)(string, NetworkCredential) | Initializes a new instance of the [`ProjectServerCredentials`](../projectservercredentials) class using URL of Project Web Access endpoint and network credentials. |
+| [ProjectServerCredentials](projectservercredentials#constructor_1)(string, string) | Initializes a new instance of the [`ProjectServerCredentials`](../projectservercredentials) class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoint's PWA (Project Web Access) site. |
+| [ProjectServerCredentials](projectservercredentials#constructor_2)(string, string, string) | Initializes a new instance of the [`ProjectServerCredentials`](../projectservercredentials) class using URL of SharePoint site, user name and password. |
 
 ## Properties
 
@@ -35,6 +35,39 @@ public sealed class ProjectServerCredentials
 | Name | Description |
 | --- | --- |
 | override [ToString](../../aspose.tasks/projectservercredentials/tostring)() | Returns a string representation of this instance. |
+
+### Examples
+
+Shows how to use project server credentials to retrieve list of project from Microsoft Project Online.
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var newProject = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(newProject);
+
+    IEnumerable<ProjectInfo> list = manager.GetProjectList();
+
+    foreach (var info in list)
+    {
+        var project = manager.GetProject(info.Id);
+        Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
+        Console.WriteLine("Resources count: {0}", project.Resources.Count);
+    }
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
 
 ### See Also
 

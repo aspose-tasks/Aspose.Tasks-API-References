@@ -1,7 +1,7 @@
 ---
 title: SpreadPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a percent complete is spread to the status date.
 type: docs
 weight: 660
 url: /net/aspose.tasks/prj/spreadpercentcomplete/
@@ -12,6 +12,18 @@ Determines whether a percent complete is spread to the status date.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadPercentComplete;
+```
+
+### Examples
+
+Shows how to read/write Prj.SpreadPercentComplete property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadPercentComplete, true);
+
+Console.WriteLine("Spread Percent Complete: " + project.Get(Prj.SpreadPercentComplete));
 ```
 
 ### See Also

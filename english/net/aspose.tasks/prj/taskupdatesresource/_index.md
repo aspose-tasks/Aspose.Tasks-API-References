@@ -1,7 +1,7 @@
 ---
 title: TaskUpdatesResource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether updates to tasks update resources.
 type: docs
 weight: 700
 url: /net/aspose.tasks/prj/taskupdatesresource/
@@ -12,6 +12,18 @@ Determines whether updates to tasks update resources.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> TaskUpdatesResource;
+```
+
+### Examples
+
+Shows how to read/write Prj.TaskUpdatesResource property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.TaskUpdatesResource, true);
+
+Console.WriteLine("Task Updates Resource: " + project.Get(Prj.TaskUpdatesResource));
 ```
 
 ### See Also

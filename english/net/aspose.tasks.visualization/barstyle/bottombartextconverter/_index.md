@@ -1,7 +1,7 @@
 ---
 title: BottomBarTextConverter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets userdefined converter to get text to render on the bottom of the tasks bar. Overrides the value of BottomFieldaspose.tasks.visualization/barstyle/bottomfield property.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/barstyle/bottombartextconverter/

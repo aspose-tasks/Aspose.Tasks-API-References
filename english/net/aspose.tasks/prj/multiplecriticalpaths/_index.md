@@ -1,7 +1,7 @@
 ---
 title: MultipleCriticalPaths
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether multiple critical paths are calculated.
 type: docs
 weight: 520
 url: /net/aspose.tasks/prj/multiplecriticalpaths/
@@ -12,6 +12,18 @@ Determines whether multiple critical paths are calculated.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MultipleCriticalPaths;
+```
+
+### Examples
+
+Shows how to read/write Prj.MultipleCriticalPaths property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MultipleCriticalPaths, true);
+
+Console.WriteLine("Multiple Critical Paths: " + project.Get(Prj.MultipleCriticalPaths));
 ```
 
 ### See Also

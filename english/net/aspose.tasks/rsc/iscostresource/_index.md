@@ -1,7 +1,7 @@
 ---
 title: IsCostResource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a resource is a cost resource.
 type: docs
 weight: 390
 url: /net/aspose.tasks/rsc/iscostresource/
@@ -12,6 +12,20 @@ Determines whether a resource is a cost resource.
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> IsCostResource;
+```
+
+### Examples
+
+Shows how to read/write Rsc.IsCostResource property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsCostResource, true);
+
+Console.WriteLine("Is Cost Resource: " + resource.Get(Rsc.IsCostResource));
 ```
 
 ### See Also

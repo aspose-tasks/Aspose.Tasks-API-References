@@ -1,7 +1,7 @@
 ---
 title: EarlyFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The earliest date that a task could possibly finish based on early finish dates of predecessor and successor tasks other constraints and any leveling delay.
 type: docs
 weight: 340
 url: /net/aspose.tasks/tsk/earlyfinish/
@@ -12,6 +12,20 @@ The earliest date that a task could possibly finish, based on early finish dates
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> EarlyFinish;
+```
+
+### Examples
+
+Shows how to read/write Tsk.EarlyFinish property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.EarlyFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Early Finish: " + task.Get(Tsk.EarlyFinish));
 ```
 
 ### See Also

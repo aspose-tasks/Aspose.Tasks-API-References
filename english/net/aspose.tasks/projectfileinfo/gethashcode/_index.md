@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code value for the instance of the ProjectFileInfoaspose.tasks/projectfileinfo class.
 type: docs
 weight: 60
 url: /net/aspose.tasks/projectfileinfo/gethashcode/
@@ -17,6 +17,17 @@ public override int GetHashCode()
 ### Return Value
 
 returns a hash code value for this object.
+
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### See Also
 

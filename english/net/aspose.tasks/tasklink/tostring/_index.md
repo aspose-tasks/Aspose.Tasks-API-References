@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns string representation of a TaskLink. The exact details of the representation are unspecified and subject to change.
 type: docs
 weight: 100
 url: /net/aspose.tasks/tasklink/tostring/
@@ -17,6 +17,24 @@ public override string ToString()
 ### Return Value
 
 string which represents TaskLink object.
+
+### Examples
+
+Shows how to find cross project task links.
+
+```csharp
+var project = new Project(DataDir + "GetCrossProjectTaskLinks.mpp");
+
+// Check cross project task links
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Task Link: " + taskLink.ToString());
+    if (taskLink.IsCrossProject)
+    {
+        Console.WriteLine(taskLink.CrossProjectName);
+    }
+}
+```
 
 ### See Also
 

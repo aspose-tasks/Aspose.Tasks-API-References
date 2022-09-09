@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The text notes associated with an assignment.
 type: docs
 weight: 350
 url: /net/aspose.tasks/asn/notes/
@@ -12,6 +12,24 @@ The text notes associated with an assignment.
 
 ```csharp
 public static readonly Key<string, AsnKey> Notes;
+```
+
+### Examples
+
+Shows how to get/set resource assignment notes.
+
+```csharp
+var project = new Project(DataDir + "UpdateResourceAssignment.mpp");
+var task = project.RootTask.Children.GetById(1);
+var rsc = project.Resources.GetById(1);
+
+// create resource assignment
+var assn = project.ResourceAssignments.Add(task, rsc);
+
+// set resource assignment notes 
+assn.Set(Asn.Notes, "Newly added assignment");
+
+Console.WriteLine("Notes: " + assn.Get(Asn.Notes));
 ```
 
 ### See Also

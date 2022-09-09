@@ -1,7 +1,7 @@
 ---
 title: DefaultView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets default view of the project.
 type: docs
 weight: 70
 url: /net/aspose.tasks/project/defaultview/
@@ -12,6 +12,31 @@ Gets or sets default view of the project.
 
 ```csharp
 public View DefaultView { get; set; }
+```
+
+### Examples
+
+Shows how to work with default view of a project.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageViewWithDetails.mpp");
+
+// Get Default view
+UsageView view = (TaskUsageView)project.DefaultView;
+
+// Details header column will not be displayed
+view.DisplayDetailsHeaderColumn = false;
+view.RepeatDetailsHeaderOnAllRows = false;
+view.AlignDetailsData = StringAlignment.Near;
+project.Save(OutDir + "task usage1_out.pdf", SaveFileFormat.Pdf);
+
+// Display details header column
+view.DisplayDetailsHeaderColumn = true;
+
+// Repeat details header on all assignments rows
+view.RepeatDetailsHeaderOnAllRows = true;
+view.AlignDetailsData = StringAlignment.Far;
+project.Save(OutDir + "task usage2_out.pdf", SaveFileFormat.Pdf);
 ```
 
 ### See Also

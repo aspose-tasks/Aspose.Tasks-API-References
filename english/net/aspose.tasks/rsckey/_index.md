@@ -1,7 +1,7 @@
 ---
 title: RscKey
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a list of supported resource fields.
 type: docs
 weight: 1700
 url: /net/aspose.tasks/rsckey/
@@ -104,6 +104,20 @@ public enum RscKey
 | WorkContour | `83` | Represents the Work Contour (Resource) field. |
 | Workgroup | `84` | Represents the Workgroup (Resource) field. |
 | WorkVariance | `85` | Represents the Work Variance (Resource) field. |
+
+### Examples
+
+Shows how to read/write Rsc.Name property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
 
 ### See Also
 

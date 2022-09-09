@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the CalendarCollection object to a list of Calendaraspose.tasks/calendar objects.
 type: docs
 weight: 80
 url: /net/aspose.tasks/calendarcollection/tolist/
@@ -17,6 +17,21 @@ public List<Calendar> ToList()
 ### Return Value
 
 List of [`Calendar`](../../calendar) objects.
+
+### Examples
+
+Shows how to iterate over calendar collection.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
+List<Calendar> calendars = project.Calendars.ToList();
+foreach (var calendar in calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
 
 ### See Also
 

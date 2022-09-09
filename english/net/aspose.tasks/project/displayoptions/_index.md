@@ -1,7 +1,7 @@
 ---
 title: DisplayOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets an instance of the ProjectDisplayOptionsaspose.tasks/projectdisplayoptions class.
 type: docs
 weight: 90
 url: /net/aspose.tasks/project/displayoptions/
@@ -12,6 +12,18 @@ Gets an instance of the [`ProjectDisplayOptions`](../../projectdisplayoptions) c
 
 ```csharp
 public ProjectDisplayOptions DisplayOptions { get; }
+```
+
+### Examples
+
+Shows how to tune project's display options.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// Set a value indicating whether to show warnings when Project identifies a possible scheduling conflict with a manually scheduled task.
+// This option is available for Project 2010 version and later.
+project.DisplayOptions.ShowTaskScheduleWarnings = false;
 ```
 
 ### See Also

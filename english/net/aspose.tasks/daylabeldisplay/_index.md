@@ -1,7 +1,7 @@
 ---
 title: DayLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies how the day label displays.
 type: docs
 weight: 430
 url: /net/aspose.tasks/daylabeldisplay/
@@ -21,6 +21,20 @@ public enum DayLabelDisplay
 | D | `0` | Sets the Days list in MS Project as d. |
 | Dy | `1` | Sets the Days list in MS Project as dy. |
 | Day | `2` | Sets the Days list in MS Project as day. |
+
+### Examples
+
+Shows how to set the day label of project's display options (case 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// set how the day label is displayed
+project.DisplayOptions.DayLabel = DayLabelDisplay.D;
+
+// ...
+```
 
 ### See Also
 

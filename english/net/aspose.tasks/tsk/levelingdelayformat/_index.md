@@ -1,7 +1,7 @@
 ---
 title: LevelingDelayFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The format of expressing the duration of a delay.
 type: docs
 weight: 780
 url: /net/aspose.tasks/tsk/levelingdelayformat/
@@ -12,6 +12,20 @@ The format of expressing the duration of a delay.
 
 ```csharp
 public static readonly Key<TimeUnitType, TaskKey> LevelingDelayFormat;
+```
+
+### Examples
+
+Shows how to read/write Tsk.LevelingDelayFormat property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingDelayFormat, TimeUnitType.Hour);
+
+Console.WriteLine("Leveling Delay Format: " + task.Get(Tsk.LevelingDelayFormat));
 ```
 
 ### See Also

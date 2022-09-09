@@ -1,7 +1,7 @@
 ---
 title: OleObjectId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Id of OleObjectaspose.tasks/oleobject object.
 type: docs
 weight: 90
 url: /net/aspose.tasks.visualization/visualobjectplacement/oleobjectid/

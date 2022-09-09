@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the name of the calendar. Read/write String.
 type: docs
 weight: 80
 url: /net/aspose.tasks/calendar/name/
@@ -12,6 +12,26 @@ Gets or sets the name of the calendar. Read/write String.
 
 ```csharp
 public string Name { get; set; }
+```
+
+### Examples
+
+Shows how to retrieve calendar info.
+
+```csharp
+var project = new Project(DataDir + "RetrieveCalendarInfo.mpp");
+
+// Retrieve Calendars Information
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Calendar UID: " + calendar.Uid);
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
 ```
 
 ### See Also

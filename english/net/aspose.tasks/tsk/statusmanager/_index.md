@@ -1,7 +1,7 @@
 ---
 title: StatusManager
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The name of the enterprise resource who is to receive status updates for the current task from resources.
 type: docs
 weight: 1060
 url: /net/aspose.tasks/tsk/statusmanager/
@@ -12,6 +12,20 @@ The name of the enterprise resource who is to receive status updates for the cur
 
 ```csharp
 public static readonly Key<string, TaskKey> StatusManager;
+```
+
+### Examples
+
+Shows how to read/write Tsk.StatusManager property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StatusManager, "John Smith");
+
+Console.WriteLine("Status Manager: " + task.Get(Tsk.StatusManager));
 ```
 
 ### See Also

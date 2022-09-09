@@ -1,7 +1,7 @@
 ---
 title: IsPublished
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the current task should be published to Project Server with the rest of the project.
 type: docs
 weight: 660
 url: /net/aspose.tasks/tsk/ispublished/
@@ -12,6 +12,20 @@ Determines whether the current task should be published to Project Server with t
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsPublished;
+```
+
+### Examples
+
+Shows how to read/write Tsk.IsPublished property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsPublished, true);
+
+Console.WriteLine("Is Published: " + task.Get(Tsk.IsPublished));
 ```
 
 ### See Also

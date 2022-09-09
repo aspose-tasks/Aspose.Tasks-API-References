@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date when an assigned resource is scheduled to begin working on a task.
 type: docs
 weight: 650
 url: /net/aspose.tasks/rsc/start/
@@ -12,6 +12,20 @@ The date when an assigned resource is scheduled to begin working on a task.
 
 ```csharp
 public static readonly Key<DateTime, RscKey> Start;
+```
+
+### Examples
+
+Shows how to read/write Rsc.Start property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Start, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Start: " + resource.Get(Rsc.Start));
 ```
 
 ### See Also

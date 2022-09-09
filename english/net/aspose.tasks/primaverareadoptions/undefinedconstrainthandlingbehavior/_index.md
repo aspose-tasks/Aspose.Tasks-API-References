@@ -1,7 +1,7 @@
 ---
 title: UndefinedConstraintHandlingBehavior
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the behavior used to process tasks with undefined constraints read from XER format.
 type: docs
 weight: 30
 url: /net/aspose.tasks/primaverareadoptions/undefinedconstrainthandlingbehavior/
@@ -12,6 +12,28 @@ Specifies the behavior used to process tasks with undefined constraints read fro
 
 ```csharp
 public UndefinedConstraintHandlingBehavior UndefinedConstraintHandlingBehavior { get; set; }
+```
+
+### Examples
+
+Shows how to load Primavera project with the specified Id using &lt;see cref="LoadOptions" /&gt;.
+
+```csharp
+var loadOptions = new LoadOptions();
+
+var primaveraOptions = new PrimaveraReadOptions()
+{
+    ProjectUid = 3882,
+    UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None
+};
+
+// set Primavera reading options
+loadOptions.PrimaveraReadOptions = primaveraOptions;
+
+var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
+Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+
+// work with the project...
 ```
 
 ### See Also

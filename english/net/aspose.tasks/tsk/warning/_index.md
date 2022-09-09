@@ -1,7 +1,7 @@
 ---
 title: Warning
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the flag which indicates that task has schedule discrepancies.
 type: docs
 weight: 1130
 url: /net/aspose.tasks/tsk/warning/
@@ -12,6 +12,16 @@ Represents the flag which indicates that task has schedule discrepancies.
 
 ```csharp
 public static readonly Key<bool, TaskKey> Warning;
+```
+
+### Examples
+
+Shows how to read a task warning.
+
+```csharp
+var project = new Project(DataDir + "schedule-conflict.mpp");
+var task = project.RootTask.Children.GetById(1);
+Console.WriteLine(task.Get(Tsk.Warning));
 ```
 
 ### See Also

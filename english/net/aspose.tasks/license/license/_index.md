@@ -1,7 +1,7 @@
 ---
 title: License
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the Licenseaspose.tasks/license class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/license/license/
@@ -36,6 +36,13 @@ the component jar file:
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
+```
+
+Shows how to apply a license of Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
 ```
 
 ### See Also

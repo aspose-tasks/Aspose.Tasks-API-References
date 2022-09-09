@@ -1,12 +1,12 @@
 ---
 title: Set
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Maps the specified property to the specified value in this container.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.tasks/resource/set/
 ---
-## Resource.Set&lt;T&gt; method (1 of 2)
+## Set&lt;T&gt;(Key&lt;T, RscKey&gt;, T) {#set_1}
 
 Maps the specified property to the specified value in this container.
 
@@ -20,6 +20,28 @@ public void Set<T>(Key<T, RscKey> key, T val)
 | key | the specified property key. [`Rsc`](../../rsc) for getting the property key. |
 | val | the value. |
 
+### Examples
+
+Shows how to read/write common resource properties.
+
+```csharp
+var project = new Project(DataDir + "UpdateResourceData.mpp");
+
+// Add resource and set some properties
+var resource = project.Resources.Add("Rsc");
+resource.Set(Rsc.Start, new DateTime(2020, 4, 1, 8, 0, 0));
+resource.Set(Rsc.StandardRate, 30);
+resource.Set(Rsc.OvertimeRate, 45);
+resource.Set(Rsc.Group, "Workgroup1");
+
+Console.WriteLine("Resource Start: " + resource.Get(Rsc.Start));
+Console.WriteLine("Resource Standard Rate: " + resource.Get(Rsc.StandardRate));
+Console.WriteLine("Resource Overtime Rate: " + resource.Get(Rsc.OvertimeRate));
+Console.WriteLine("Resource Group: " + resource.Get(Rsc.Group));
+
+project.Save(OutDir + "UpdateResourceData_out.mpp", SaveFileFormat.Mpp);
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)
@@ -30,7 +52,7 @@ public void Set<T>(Key<T, RscKey> key, T val)
 
 ---
 
-## Resource.Set method (2 of 2)
+## Set(Key&lt;DateTime, RscKey&gt;, DateTime) {#set}
 
 Maps the specified property to the specified value in this container.
 
@@ -42,6 +64,28 @@ public void Set(Key<DateTime, RscKey> key, DateTime val)
 | --- | --- | --- |
 | key | Key`2 | the specified property key. [`Rsc`](../../rsc) for getting the property key. |
 | val | DateTime | the value. |
+
+### Examples
+
+Shows how to read/write common resource properties.
+
+```csharp
+var project = new Project(DataDir + "UpdateResourceData.mpp");
+
+// Add resource and set some properties
+var resource = project.Resources.Add("Rsc");
+resource.Set(Rsc.Start, new DateTime(2020, 4, 1, 8, 0, 0));
+resource.Set(Rsc.StandardRate, 30);
+resource.Set(Rsc.OvertimeRate, 45);
+resource.Set(Rsc.Group, "Workgroup1");
+
+Console.WriteLine("Resource Start: " + resource.Get(Rsc.Start));
+Console.WriteLine("Resource Standard Rate: " + resource.Get(Rsc.StandardRate));
+Console.WriteLine("Resource Overtime Rate: " + resource.Get(Rsc.OvertimeRate));
+Console.WriteLine("Resource Group: " + resource.Get(Rsc.Group));
+
+project.Save(OutDir + "UpdateResourceData_out.mpp", SaveFileFormat.Mpp);
+```
 
 ### See Also
 

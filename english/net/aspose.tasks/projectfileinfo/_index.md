@@ -1,7 +1,7 @@
 ---
 title: ProjectFileInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The class instance contains information about project file format and version of Microsoft Project where the file was created.
 type: docs
 weight: 1200
 url: /net/aspose.tasks/projectfileinfo/
@@ -27,13 +27,24 @@ public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.tasks/projectfileinfo/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](../../aspose.tasks/projectfileinfo/equals)(ProjectFileInfo) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/projectfileinfo/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/projectfileinfo/equals#equals)(ProjectFileInfo) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode)() | Returns a hash code value for the instance of the [`ProjectFileInfo`](../projectfileinfo) class. |
 
 ### Remarks
 
 Use CanRead property to define that the library can process the project file.
+
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### See Also
 

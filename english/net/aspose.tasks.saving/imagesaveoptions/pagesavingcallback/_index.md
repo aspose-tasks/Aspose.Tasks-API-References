@@ -1,7 +1,7 @@
 ---
 title: PageSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a userdefined callback which is used to get an output stream for each rendered page.
 type: docs
 weight: 70
 url: /net/aspose.tasks.saving/imagesaveoptions/pagesavingcallback/

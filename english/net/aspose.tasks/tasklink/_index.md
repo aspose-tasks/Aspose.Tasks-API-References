@@ -1,7 +1,7 @@
 ---
 title: TaskLink
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a predecessor link.
 type: docs
 weight: 2110
 url: /net/aspose.tasks/tasklink/
@@ -30,10 +30,28 @@ public class TaskLink : IEquatable<TaskLink>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.tasks/tasklink/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](../../aspose.tasks/tasklink/equals)(TaskLink) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/tasklink/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/tasklink/equals#equals)(TaskLink) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/tasklink/gethashcode)() | Returns a hash code value for the instance of the [`TaskLink`](../tasklink) class. |
 | override [ToString](../../aspose.tasks/tasklink/tostring)() | Returns string representation of a TaskLink. The exact details of the representation are unspecified and subject to change. |
+
+### Examples
+
+Shows how to read project task links.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+// Display names of predecessor and successor tasks
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Predecessor: " + taskLink.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor: " + taskLink.SuccTask.Get(Tsk.Name));
+    Console.WriteLine("Lag Format: " + taskLink.LagFormat);
+    Console.WriteLine("Link Lag: " + taskLink.LinkLag);
+    Console.WriteLine();
+}
+```
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: LastPrinted
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects last print time. Saved in UTC format in mpp files. DateTime type.
 type: docs
 weight: 420
 url: /net/aspose.tasks/prj/lastprinted/
@@ -12,6 +12,18 @@ Project's last print time. Saved in UTC format in mpp files. DateTime type.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> LastPrinted;
+```
+
+### Examples
+
+Shows how to read/write Prj.LastPrinted property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.LastPrinted, new DateTime(2020, 4, 10, 13, 0, 0));
+
+Console.WriteLine("Last Printed: " + project.Get(Prj.LastPrinted));
 ```
 
 ### See Also

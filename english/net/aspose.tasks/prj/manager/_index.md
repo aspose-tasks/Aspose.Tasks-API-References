@@ -1,7 +1,7 @@
 ---
 title: Manager
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The manager of a project.
 type: docs
 weight: 440
 url: /net/aspose.tasks/prj/manager/
@@ -12,6 +12,18 @@ The manager of a project.
 
 ```csharp
 public static readonly Key<string, PrjKey> Manager;
+```
+
+### Examples
+
+Shows how to read/write Prj.Manager property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Manager, "Steve");
+
+Console.WriteLine("Manager: " + project.Get(Prj.Manager));
 ```
 
 ### See Also

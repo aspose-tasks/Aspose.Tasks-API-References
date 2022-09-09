@@ -1,12 +1,12 @@
 ---
 title: GetDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets Durationaspose.tasks/duration object with the specified number of units and default duration format which is defined in projects settings DurationFormataspose.tasks/prj/durationformat.
 type: docs
 weight: 290
 url: /net/aspose.tasks/project/getduration/
 ---
-## Project.GetDuration method (1 of 3)
+## GetDuration(double) {#getduration}
 
 Gets [`Duration`](../../duration) object with the specified number of units and default duration format which is defined in project's settings [`DurationFormat`](../../prj/durationformat).
 
@@ -22,6 +22,20 @@ public Duration GetDuration(double val)
 
 Duration object.
 
+### Examples
+
+Shows how to create a &lt;see cref="Aspose.Tasks.Duration" /&gt; instance with default project's duration format by using project fabric methods.
+
+```csharp
+var project = new Project();
+
+// get a duration with default project format.
+var duration = project.GetDuration(1);
+
+Console.WriteLine("Default project duration time unit type: " + project.Get(Prj.DurationFormat));
+Console.WriteLine("Created duration time unit type: " + duration.TimeUnit);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)
@@ -31,7 +45,7 @@ Duration object.
 
 ---
 
-## Project.GetDuration method (2 of 3)
+## GetDuration(double, TimeUnitType) {#getduration_1}
 
 Gets [`Duration`](../../duration) object with the specified number of [`TimeUnitType`](../../timeunittype) units.
 
@@ -48,6 +62,19 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 
 Duration object.
 
+### Examples
+
+Shows how to create a &lt;see cref="Aspose.Tasks.Duration" /&gt; instance by using project fabric methods.
+
+```csharp
+var project = new Project();
+
+// get a duration with default project format.
+var duration = project.GetDuration(1, TimeUnitType.Minute);
+
+Console.WriteLine("Created duration: " + duration);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)
@@ -58,7 +85,7 @@ Duration object.
 
 ---
 
-## Project.GetDuration method (3 of 3)
+## GetDuration(TimeSpan, TimeUnitType) {#getduration_2}
 
 Gets [`Duration`](../../duration) object with the specified TimeSpan value and specified [`TimeUnitType`](../../timeunittype) value.
 

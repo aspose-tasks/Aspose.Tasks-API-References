@@ -1,7 +1,7 @@
 ---
 title: HourLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies how the hour label displays.
 type: docs
 weight: 750
 url: /net/aspose.tasks/hourlabeldisplay/
@@ -21,6 +21,20 @@ public enum HourLabelDisplay
 | H | `0` | Sets the Hours list in MS Project as H. |
 | Hr | `1` | Sets the Hours list in MS Project as Hr. |
 | Hour | `2` | Sets the Hours list in MS Project as Hour. |
+
+### Examples
+
+Shows how to set the hour label of project's display options (case 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// set how the hour label is displayed
+project.DisplayOptions.HourLabel = HourLabelDisplay.H;
+
+// ...
+```
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: Category
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The category of a project.
 type: docs
 weight: 90
 url: /net/aspose.tasks/prj/category/
@@ -12,6 +12,18 @@ The category of a project.
 
 ```csharp
 public static readonly Key<string, PrjKey> Category;
+```
+
+### Examples
+
+Shows how to read/write Prj.Category property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Category, "Special");
+
+Console.WriteLine("Category: " + project.Get(Prj.Category));
 ```
 
 ### See Also

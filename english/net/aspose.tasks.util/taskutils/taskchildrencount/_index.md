@@ -1,7 +1,7 @@
 ---
 title: TaskChildrenCount
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Recursively calculates a number of tasks children tasks through all levels.
 type: docs
 weight: 40
 url: /net/aspose.tasks.util/taskutils/taskchildrencount/
@@ -21,6 +21,19 @@ public static int TaskChildrenCount(Task task)
 ### Return Value
 
 The number of children.
+
+### Examples
+
+Shows how to use &lt;see cref="Aspose.Tasks.Util.TaskUtils.TaskChildrenCount" /&gt; method.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// recursively calculates a number of task's children tasks through all levels
+var count = TaskUtils.TaskChildrenCount(project.RootTask);
+
+Console.WriteLine("Number of tasks: " + count);
+```
 
 ### See Also
 

@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified task.
 type: docs
 weight: 150
 url: /net/aspose.tasks/task/equals/
 ---
-## Task.Equals method (1 of 2)
+## Equals(Task) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified task.
 
@@ -22,6 +22,25 @@ public bool Equals(Task other)
 
 returns true if the specified task and this instance have equal unique ids.
 
+### Examples
+
+Shows how to iterate over task's assignments.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // display task's assignments
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
 ### See Also
 
 * class [Task](../../task)
@@ -30,7 +49,7 @@ returns true if the specified task and this instance have equal unique ids.
 
 ---
 
-## Task.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -45,6 +64,25 @@ public override bool Equals(object obj)
 ### Return Value
 
 returns true if the specified task and this instance have equal unique ids.
+
+### Examples
+
+Shows how to iterate over task's assignments.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // display task's assignments
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
 
 ### See Also
 

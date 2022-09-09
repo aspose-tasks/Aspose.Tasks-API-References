@@ -1,7 +1,7 @@
 ---
 title: SV
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The earned value schedule variance through the project status date. Schedule variance SV is the difference between the BCWP and the BCWS.
 type: docs
 weight: 1090
 url: /net/aspose.tasks/tsk/sv/

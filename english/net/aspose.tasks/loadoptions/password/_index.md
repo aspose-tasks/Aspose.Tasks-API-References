@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a protection password.
 type: docs
 weight: 40
 url: /net/aspose.tasks/loadoptions/password/
@@ -12,6 +12,22 @@ Gets or sets a protection password.
 
 ```csharp
 public string Password { get; set; }
+```
+
+### Examples
+
+Shows how to load the password-protected project using &lt;see cref="Aspose.Tasks.LoadOptions"/&gt; instance.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
 ```
 
 ### See Also

@@ -1,12 +1,12 @@
 ---
 title: GetPageCount
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns page count for the project to be rendered using given SaveOptionsaspose.tasks.saving/saveoptions.
 type: docs
 weight: 300
 url: /net/aspose.tasks/project/getpagecount/
 ---
-## Project.GetPageCount method (1 of 7)
+## GetPageCount(SaveOptions) {#getpagecount_1}
 
 Returns page count for the project to be rendered using given [`SaveOptions`](../../../aspose.tasks.saving/saveoptions).
 
@@ -42,6 +42,23 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 Console.WriteLine(project.GetPageCount(saveOptions));
 ```
 
+Shows how to get page count for specific save options.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+var options = new HtmlSaveOptions
+                  {
+                      IncludeProjectNameInPageHeader = false,
+                      IncludeProjectNameInTitle = false,
+                      PageSize = PageSize.A4,
+                      Timescale = Timescale.Days,
+                      StartDate = project.Get(Prj.StartDate).Date,
+                      EndDate = project.Get(Prj.FinishDate).Date
+                  };
+
+Console.WriteLine(project.GetPageCount(options));
+```
+
 ### See Also
 
 * class [SaveOptions](../../../aspose.tasks.saving/saveoptions)
@@ -51,7 +68,7 @@ Console.WriteLine(project.GetPageCount(saveOptions));
 
 ---
 
-## Project.GetPageCount method (2 of 7)
+## GetPageCount() {#getpagecount}
 
 Returns page count for the project to be rendered using default [`Timescale`](../../../aspose.tasks.visualization/timescale)(Days).
 
@@ -63,6 +80,22 @@ public int GetPageCount()
 
 Page count to be rendered.
 
+### Examples
+
+Shows how to get page count for different timescales.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+
+// Get number of pages, Timescale.Months, Timescale.ThirdsOfMonths
+var pageCount = project.GetPageCount();
+Console.WriteLine("Page count: " + pageCount);
+pageCount = project.GetPageCount(Timescale.Months);
+Console.WriteLine("Page count (Month): " + pageCount);
+pageCount = project.GetPageCount(Timescale.ThirdsOfMonths);
+Console.WriteLine("Page count (Thirds of Months): " + pageCount);
+```
+
 ### See Also
 
 * class [Project](../../project)
@@ -71,7 +104,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (3 of 7)
+## GetPageCount(Timescale) {#getpagecount_6}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale).
 
@@ -87,6 +120,22 @@ public int GetPageCount(Timescale scale)
 
 Page count to be rendered.
 
+### Examples
+
+Shows how to get page count for different timescales.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+
+// Get number of pages, Timescale.Months, Timescale.ThirdsOfMonths
+var pageCount = project.GetPageCount();
+Console.WriteLine("Page count: " + pageCount);
+pageCount = project.GetPageCount(Timescale.Months);
+Console.WriteLine("Page count (Month): " + pageCount);
+pageCount = project.GetPageCount(Timescale.ThirdsOfMonths);
+Console.WriteLine("Page count (Thirds of Months): " + pageCount);
+```
+
 ### See Also
 
 * enum [Timescale](../../../aspose.tasks.visualization/timescale)
@@ -96,7 +145,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (4 of 7)
+## GetPageCount(PresentationFormat) {#getpagecount_4}
 
 Returns page count for the project to be rendered using default [`Timescale`](../../../aspose.tasks.visualization/timescale)(Days) and given [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
 
@@ -112,6 +161,20 @@ public int GetPageCount(PresentationFormat format)
 
 Page count to be rendered.
 
+### Examples
+
+Shows how to get count of pages by presentation format and timescale.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPagesForViews.mpp");
+
+// Get number of pages for Days (by default), Months and ThirdsOfMonths
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Days));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Months));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.ThirdsOfMonths));
+```
+
 ### See Also
 
 * enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
@@ -121,7 +184,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (5 of 7)
+## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale) and [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat).
 
@@ -138,6 +201,20 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 
 a page count to be rendered.
 
+### Examples
+
+Shows how to get count of pages by presentation format and timescale.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPagesForViews.mpp");
+
+// Get number of pages for Days (by default), Months and ThirdsOfMonths
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Days));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Months));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.ThirdsOfMonths));
+```
+
 ### See Also
 
 * enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
@@ -148,7 +225,7 @@ a page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (6 of 7)
+## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale), [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) and date range.
 
@@ -167,6 +244,21 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 
 Page count to be rendered.
 
+### Examples
+
+Shows how to get count of pages by page size, timescale, start and finish dates.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+var pageCount = project.GetPageCount(
+    PageSize.A3,
+    Timescale.Months,
+    project.Get(Prj.StartDate) - TimeSpan.FromDays(10),
+    project.Get(Prj.FinishDate) + TimeSpan.FromDays(30));
+
+Console.WriteLine(pageCount);
+```
+
 ### See Also
 
 * enum [PageSize](../../../aspose.tasks.visualization/pagesize)
@@ -177,7 +269,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (7 of 7)
+## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale) and [`PageSize`](../../../aspose.tasks.visualization/pagesize).
 
@@ -193,6 +285,17 @@ public int GetPageCount(PageSize pageSize, Timescale scale)
 ### Return Value
 
 Page count to be rendered.
+
+### Examples
+
+Shows how to get count of pages by a page size and a timescale.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+var pageCount = project.GetPageCount(PageSize.A3, Timescale.Months);
+
+Console.WriteLine(pageCount);
+```
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code for the instance of the Calendaraspose.tasks/calendar class.
 type: docs
 weight: 160
 url: /net/aspose.tasks/calendar/gethashcode/
@@ -17,6 +17,21 @@ public override int GetHashCode()
 ### Return Value
 
 a hash code for this object.
+
+### Examples
+
+Shows how to get a hash code of a calendar.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var calendar1 = project.Calendars.GetByUid(1);
+var calendar2 = project.Calendars.GetByUid(3);
+
+// the hash code of a calendar is equal to calendar UID 
+Console.WriteLine("Calendar UID: {0} Hash Code: {1}", calendar1.Uid, calendar1.GetHashCode());
+Console.WriteLine("Calendar UID: {0} Hash Code: {1}", calendar2.Uid, calendar2.GetHashCode());
+```
 
 ### See Also
 

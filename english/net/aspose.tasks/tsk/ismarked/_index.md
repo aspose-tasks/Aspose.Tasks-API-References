@@ -1,7 +1,7 @@
 ---
 title: IsMarked
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Shows whether a task is marked for further action or identification of some kind.
 type: docs
 weight: 620
 url: /net/aspose.tasks/tsk/ismarked/
@@ -17,6 +17,20 @@ public static readonly Key<bool, TaskKey> IsMarked;
 ### Remarks
 
 Applies to mpp file format only. Boolean type.
+
+### Examples
+
+Shows how to read/write Tsk.IsMarked property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsMarked, true);
+
+Console.WriteLine("Is Marked: " + task.Get(Tsk.IsMarked));
+```
 
 ### See Also
 

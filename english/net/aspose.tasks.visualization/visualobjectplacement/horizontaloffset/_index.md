@@ -1,7 +1,7 @@
 ---
 title: HorizontalOffset
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets horizontal offset of visual object.
 type: docs
 weight: 80
 url: /net/aspose.tasks.visualization/visualobjectplacement/horizontaloffset/

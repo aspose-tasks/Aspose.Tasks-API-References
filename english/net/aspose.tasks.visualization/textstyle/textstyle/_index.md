@@ -1,17 +1,42 @@
 ---
 title: TextStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the TextStyleaspose.tasks.visualization/textstyle class with default settings.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/textstyle/textstyle/
 ---
-## TextStyle constructor (1 of 4)
+## TextStyle() {#constructor}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with default settings.
 
 ```csharp
 public TextStyle()
+```
+
+### Examples
+
+Shows how to customize text styles which are used to style different text items in a project.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
 ```
 
 ### See Also
@@ -22,7 +47,7 @@ public TextStyle()
 
 ---
 
-## TextStyle constructor (2 of 4)
+## TextStyle(float, FontStyles) {#constructor_3}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with the default font and specified font size and style.
 
@@ -44,7 +69,7 @@ public TextStyle(float fontSize, FontStyles fontStyle)
 
 ---
 
-## TextStyle constructor (3 of 4)
+## TextStyle(FontStyles) {#constructor_2}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with the default font and specified font style.
 
@@ -65,7 +90,7 @@ public TextStyle(FontStyles fontStyle)
 
 ---
 
-## TextStyle constructor (4 of 4)
+## TextStyle(FontDescriptor) {#constructor_1}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with the specified font settings.
 

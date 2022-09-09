@@ -1,9 +1,9 @@
 ---
 title: VbaModuleAttributeCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of VbaModuleAttribute./vbamoduleattribute objects.
 type: docs
-weight: 2480
+weight: 2500
 url: /net/aspose.tasks/vbamoduleattributecollection/
 ---
 ## VbaModuleAttributeCollection class
@@ -28,6 +28,24 @@ public class VbaModuleAttributeCollection : ReadOnlyCollectionBase<VbaModuleAttr
 | [Add](../../aspose.tasks/readonlycollectionbase`1/add)(VbaModuleAttribute) |  |
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase`1/getenumerator)() |  |
 | [ToList](../../aspose.tasks/readonlycollectionbase`1/tolist)() |  |
+
+### Examples
+
+Shows how to iterate over VBA module collection.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("VB Name: " + attribute.Key);
+        Console.WriteLine("Module: " + attribute.Value);
+    }
+}
+```
 
 ### See Also
 

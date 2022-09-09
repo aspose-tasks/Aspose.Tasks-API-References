@@ -1,7 +1,7 @@
 ---
 title: VerticalOffset
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets vertical offset of visual object.
 type: docs
 weight: 120
 url: /net/aspose.tasks.visualization/visualobjectplacement/verticaloffset/

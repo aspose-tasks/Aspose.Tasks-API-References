@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The title of a project.
 type: docs
 weight: 740
 url: /net/aspose.tasks/prj/title/
@@ -12,6 +12,18 @@ The title of a project.
 
 ```csharp
 public static readonly Key<string, PrjKey> Title;
+```
+
+### Examples
+
+Shows how to read/write Prj.Title property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Title, "MS Project");
+
+Console.WriteLine("Title: " + project.Get(Prj.Title));
 ```
 
 ### See Also

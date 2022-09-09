@@ -1,7 +1,7 @@
 ---
 title: Make24HourCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Makes a given Calendar to be a 24Hour Calendar. 24Hours Calendar is a Calendar in which every day of week is working with Roundtheclock working hours.
 type: docs
 weight: 10
 url: /net/aspose.tasks/calendar/make24hourcalendar/
@@ -21,6 +21,35 @@ public static Calendar Make24HourCalendar(Calendar calendar)
 ### Return Value
 
 24Hour Calendar.
+
+### Examples
+
+Shows how to create a 24 hours calendar.
+
+```csharp
+Project project = new Project();
+var calendar = project.Calendars.Add("New calendar");
+Calendar.Make24HourCalendar(calendar);
+
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// 24 hours will be printed
+Console.WriteLine("Hours: " + workingHours.TotalHours);
+```
+
+Shows how to transform a new calendar into a 24 hours calendar.
+
+```csharp
+var project = new Project();
+
+var calendar = project.Calendars.Add("24 Hours");
+calendar = Calendar.Make24HourCalendar(calendar);
+
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// 24 hours will be printed
+Console.WriteLine("Hours: " + workingHours.TotalHours);
+```
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets displayed width of visual object.
 type: docs
 weight: 130
 url: /net/aspose.tasks.visualization/visualobjectplacement/width/

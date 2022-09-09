@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code value for the instance of the WeekDayaspose.tasks/weekday class.
 type: docs
 weight: 100
 url: /net/aspose.tasks/weekday/gethashcode/
@@ -17,6 +17,38 @@ public override int GetHashCode()
 ### Return Value
 
 returns a hash code value for this object.
+
+### Examples
+
+Shows how to get a hash code of a week day.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+var weekDay1 = calendar.WeekDays[1];
+var weekDay2 = calendar.WeekDays[2];
+
+// the hash code of a calendar is based on:
+// weekday.DayType
+// weekday.FromDate
+// weekday.ToDate
+// weekday.WorkingTimes
+Console.WriteLine("WeekDay 1 Day Type: " + weekDay1.DayType);
+Console.WriteLine("WeekDay 1 Day Working: " + weekDay1.DayWorking);
+Console.WriteLine("WeekDay 1 From Date: " + weekDay1.FromDate);
+Console.WriteLine("WeekDay 1 From Date: " + weekDay1.ToDate);
+Console.WriteLine("WeekDay 1 WorkingTimes: " + weekDay1.WorkingTimes);
+Console.WriteLine();
+Console.WriteLine("WeekDay 2 Day Type: " + weekDay2.DayType);
+Console.WriteLine("WeekDay 2 Day Working: " + weekDay2.DayWorking);
+Console.WriteLine("WeekDay 2 From Date: " + weekDay2.FromDate);
+Console.WriteLine("WeekDay 2 From Date: " + weekDay2.ToDate);
+Console.WriteLine("WeekDay 2 WorkingTimes: " + weekDay2.WorkingTimes);
+Console.WriteLine();
+Console.WriteLine("Week Day 1 Hash Code: {0}", weekDay1.GetHashCode());
+Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
+```
 
 ### See Also
 

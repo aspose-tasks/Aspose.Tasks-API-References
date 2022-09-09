@@ -1,9 +1,9 @@
 ---
 title: VbaReference
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a reference of the VbaProject./vbaproject.
 type: docs
-weight: 2510
+weight: 2530
 url: /net/aspose.tasks/vbareference/
 ---
 ## VbaReference class
@@ -31,9 +31,25 @@ public sealed class VbaReference : IEquatable<VbaReference>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbareference/equals)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
-| [Equals](../../aspose.tasks/vbareference/equals)(VbaReference) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
+| override [Equals](../../aspose.tasks/vbareference/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
+| [Equals](../../aspose.tasks/vbareference/equals#equals)(VbaReference) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
 | override [GetHashCode](../../aspose.tasks/vbareference/gethashcode)() | Returns a hash code value for this [`VbaReference`](../vbareference). |
+
+### Examples
+
+Shows how to read VBA references.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
 
 ### See Also
 

@@ -1,12 +1,12 @@
 ---
 title: Set
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Maps the specified property to the specified value in this container.
 type: docs
 weight: 440
 url: /net/aspose.tasks/project/set/
 ---
-## Project.Set&lt;T&gt; method (1 of 2)
+## Set&lt;T&gt;(Key&lt;T, PrjKey&gt;, T) {#set_1}
 
 Maps the specified property to the specified value in this container.
 
@@ -20,6 +20,16 @@ public void Set<T>(Key<T, PrjKey> key, T val)
 | key | the specified property key. [`Prj`](../../prj) for getting the property key. |
 | val | the value. |
 
+### Examples
+
+Shows how to set task's attributes.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)
@@ -30,7 +40,7 @@ public void Set<T>(Key<T, PrjKey> key, T val)
 
 ---
 
-## Project.Set method (2 of 2)
+## Set(Key&lt;DateTime, PrjKey&gt;, DateTime) {#set}
 
 Maps the specified property to the specified value in this container.
 
@@ -42,6 +52,16 @@ public void Set(Key<DateTime, PrjKey> key, DateTime val)
 | --- | --- | --- |
 | key | Key`2 | the specified property key. [`Prj`](../../prj) for getting the property key. |
 | val | DateTime | the value. |
+
+### Examples
+
+Shows how to set task's attributes.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
 
 ### See Also
 

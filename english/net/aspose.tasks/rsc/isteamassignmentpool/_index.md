@@ -1,7 +1,7 @@
 ---
 title: IsTeamAssignmentPool
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Shows whether the current resource is a team resource.
 type: docs
 weight: 430
 url: /net/aspose.tasks/rsc/isteamassignmentpool/
@@ -12,6 +12,20 @@ Shows whether the current resource is a team resource.
 
 ```csharp
 public static readonly Key<bool, RscKey> IsTeamAssignmentPool;
+```
+
+### Examples
+
+Shows how to read/write Rsc.IsTeamAssignmentPool property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsTeamAssignmentPool, true);
+
+Console.WriteLine("Is Team Assignment Pool: " + resource.Get(Rsc.IsTeamAssignmentPool));
 ```
 
 ### See Also

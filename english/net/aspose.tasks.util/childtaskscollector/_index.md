@@ -1,9 +1,9 @@
 ---
 title: ChildTasksCollector
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Collects all child tasks.
 type: docs
-weight: 2350
+weight: 2360
 url: /net/aspose.tasks.util/childtaskscollector/
 ---
 ## ChildTasksCollector class
@@ -33,6 +33,23 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 | override [Alg](../../aspose.tasks.util/childtaskscollector/alg)(Task, int) | Processes the specified object. |
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase`1/postalg)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase`1/prealg)(Task, int) |  |
+
+### Examples
+
+Shows how to iterate over all tasks in a project as a plain list.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Parse through all the collected tasks
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
 
 ### See Also
 

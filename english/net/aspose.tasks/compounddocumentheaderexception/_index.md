@@ -1,7 +1,7 @@
 ---
 title: CompoundDocumentHeaderException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an exception which is thrown when the header of MPP file is broken.
 type: docs
 weight: 270
 url: /net/aspose.tasks/compounddocumentheaderexception/
@@ -12,6 +12,23 @@ Represents an exception which is thrown when the header of MPP file is broken.
 
 ```csharp
 public class CompoundDocumentHeaderException : ApplicationException
+```
+
+### Examples
+
+Shows how to catch &lt;see cref=\"CompoundDocumentHeaderException\" /&gt; exception.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Project1.mpp");
+
+    Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+}
+catch (CompoundDocumentHeaderException e)
+{
+    Console.WriteLine(e.Message);
+}
 ```
 
 ### See Also

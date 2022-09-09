@@ -1,7 +1,7 @@
 ---
 title: Autolink
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether inserted or moved tasks are auto linked.
 type: docs
 weight: 60
 url: /net/aspose.tasks/prj/autolink/
@@ -12,6 +12,18 @@ Determines whether inserted or moved tasks are auto linked.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> Autolink;
+```
+
+### Examples
+
+Shows how to read/write Prj.Autolink property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Autolink, true);
+
+Console.WriteLine("Autolink: " + project.Get(Prj.Autolink));
 ```
 
 ### See Also

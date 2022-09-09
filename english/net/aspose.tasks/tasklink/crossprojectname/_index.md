@@ -1,7 +1,7 @@
 ---
 title: CrossProjectName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the external predecessor project.
 type: docs
 weight: 10
 url: /net/aspose.tasks/tasklink/crossprojectname/
@@ -12,6 +12,24 @@ Gets or sets the external predecessor project.
 
 ```csharp
 public string CrossProjectName { get; set; }
+```
+
+### Examples
+
+Shows how to find cross project task links.
+
+```csharp
+var project = new Project(DataDir + "GetCrossProjectTaskLinks.mpp");
+
+// Check cross project task links
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Task Link: " + taskLink.ToString());
+    if (taskLink.IsCrossProject)
+    {
+        Console.WriteLine(taskLink.CrossProjectName);
+    }
+}
 ```
 
 ### See Also

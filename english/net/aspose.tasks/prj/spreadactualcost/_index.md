@@ -1,7 +1,7 @@
 ---
 title: SpreadActualCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether actual costs are spread to the status date.
 type: docs
 weight: 650
 url: /net/aspose.tasks/prj/spreadactualcost/
@@ -12,6 +12,18 @@ Determines whether actual costs are spread to the status date.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadActualCost;
+```
+
+### Examples
+
+Shows how to read/write Prj.SpreadActualCost property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadActualCost, true);
+
+Console.WriteLine("Spread Actual Cost: " + project.Get(Prj.SpreadActualCost));
 ```
 
 ### See Also

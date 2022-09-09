@@ -1,9 +1,9 @@
 ---
 title: YearLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies how the year label displays.
 type: docs
-weight: 3290
+weight: 3310
 url: /net/aspose.tasks/yearlabeldisplay/
 ---
 ## YearLabelDisplay enumeration
@@ -21,6 +21,20 @@ public enum YearLabelDisplay
 | Y | `0` | Sets the Years list in MS Project as mo. |
 | Yr | `1` | Sets the Years list in MS Project as mon. |
 | Year | `2` | Sets the Years list in MS Project as month. |
+
+### Examples
+
+Shows how to set the year label of project's display options (case 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// set how the year label is displayed
+project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
+
+// ...
+```
 
 ### See Also
 

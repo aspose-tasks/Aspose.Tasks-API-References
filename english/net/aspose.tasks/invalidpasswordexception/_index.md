@@ -1,7 +1,7 @@
 ---
 title: InvalidPasswordException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the exception type which is thrown when password protected file opening with wrong password.
 type: docs
 weight: 820
 url: /net/aspose.tasks/invalidpasswordexception/
@@ -12,6 +12,25 @@ Represents the exception type which is thrown when password protected file openi
 
 ```csharp
 public class InvalidPasswordException : TasksException
+```
+
+### Examples
+
+Shows how to handle &lt;see cref="InvalidPasswordException"/&gt; while reading a password protected project files.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "PasswordProtected.mpp");
+
+    // working with project ...
+    Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+}
+catch (TasksReadingException e)
+{
+    // the message is "The project is password protected. The password is not provided or incorrect."
+    Console.WriteLine(e.Message);
+}
 ```
 
 ### See Also

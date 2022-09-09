@@ -1,9 +1,9 @@
 ---
 title: UsageView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represent a usage view in a project.
 type: docs
-weight: 2310
+weight: 2320
 url: /net/aspose.tasks/usageview/
 ---
 ## UsageView class
@@ -46,6 +46,32 @@ public abstract class UsageView : View
 | [CompareTo](../../aspose.tasks/view/compareto)(View) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
 | override [Equals](../../aspose.tasks/view/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
+
+### Examples
+
+Shows how to render task usage view with details.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageViewWithDetails.mpp");
+
+// get the view
+UsageView view = (TaskUsageView)project.DefaultView;
+
+// details header column will not be displayed
+view.DisplayDetailsHeaderColumn = false;
+view.RepeatDetailsHeaderOnAllRows = false;
+view.DisplayShortDetailHeaderNames = false;
+view.AlignDetailsData = StringAlignment.Near;
+project.Save(OutDir + "task usage1_out.pdf", SaveFileFormat.Pdf);
+
+// display details header column
+view.DisplayDetailsHeaderColumn = true;
+
+// repeat details header on all assignments rows
+view.RepeatDetailsHeaderOnAllRows = true;
+view.AlignDetailsData = StringAlignment.Far;
+project.Save(OutDir + "task usage2_out.pdf", SaveFileFormat.Pdf);
+```
 
 ### See Also
 

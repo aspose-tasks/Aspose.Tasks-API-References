@@ -1,7 +1,7 @@
 ---
 title: RemoveFileProperties
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether all file properties will be removed on save.
 type: docs
 weight: 590
 url: /net/aspose.tasks/prj/removefileproperties/
@@ -12,6 +12,18 @@ Determines whether all file properties will be removed on save.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> RemoveFileProperties;
+```
+
+### Examples
+
+Shows how to read/write Prj.RemoveFileProperties property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.RemoveFileProperties, true);
+
+Console.WriteLine("Remove File Properties: " + project.Get(Prj.RemoveFileProperties));
 ```
 
 ### See Also

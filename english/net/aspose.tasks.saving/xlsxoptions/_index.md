@@ -1,7 +1,7 @@
 ---
 title: XlsxOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Allows to specify additional options when rendering project pages to XLSX.
 type: docs
 weight: 1970
 url: /net/aspose.tasks.saving/xlsxoptions/
@@ -50,6 +50,33 @@ public class XlsxOptions : SaveOptions
 | virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush) { get; set; } | Gets or sets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
 | [View](../../aspose.tasks.saving/saveoptions/view) { get; set; } | Gets or sets a list of the view columns to render ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn)). If not set then task ids, task names, start and finish are rendered only. If both View and [`ViewSettings`](../saveoptions/viewsettings) properties are set, columns from View overrides columns from ViewSettings. |
 | [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings) { get; set; } | Gets or sets a view ([`View`](../saveoptions/view)) to render. You can use this options to explicitly specify which view should be saved to PDF, HTML or Image formats. If this property is set, [`PresentationFormat`](../../aspose.tasks.visualization/presentationformat) property is ignored when project is saved. View should be from one of the following screen (([`Screen`](../../aspose.tasks/view/screen))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |
+
+### Examples
+
+Shows how to save a project into XLSX file by using &lt;see cref="P:Aspose.Tasks.Saving.XlsxOptions"&gt;Days&lt;/see&gt; options.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new XlsxOptions();
+
+// Add desired Gantt Chart columns
+var col = new GanttChartColumn("WBS", 100, delegate(Task task) { return task.Get(Tsk.WBS); });
+options.View.Columns.Add(col);
+
+// Add desired resource view columns
+var rscCol = new ResourceViewColumn("Cost center", 100, delegate(Resource resource) { return resource.Get(Rsc.CostCenter); });
+options.ResourceView.Columns.Add(rscCol);
+
+// Add desired assignment view columns
+var assnCol = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.Notes); });
+options.AssignmentView.Columns.Add(assnCol);
+
+// set encoding
+options.Encoding = Encoding.Unicode;
+
+project.Save(OutDir + "UsingXlsxOptions_out.xlsx", options);
+```
 
 ### See Also
 

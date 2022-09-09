@@ -1,7 +1,7 @@
 ---
 title: ParseTimeSpan
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Parses duration string in format PTHMS.
 type: docs
 weight: 130
 url: /net/aspose.tasks/duration/parsetimespan/
@@ -21,6 +21,15 @@ public static TimeSpan ParseTimeSpan(string value)
 ### Return Value
 
 returns parsed instance of the [`TimeSpan`](../timespan) struct.
+
+### Examples
+
+Shows how to convert a string into a time span.
+
+```csharp
+var timeSpan = Duration.ParseTimeSpan("PT1H10M30S");
+Console.WriteLine("The parsed time span: " + timeSpan);
+```
 
 ### See Also
 

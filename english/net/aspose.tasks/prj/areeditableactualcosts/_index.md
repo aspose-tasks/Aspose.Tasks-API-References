@@ -1,7 +1,7 @@
 ---
 title: AreEditableActualCosts
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether actual costs are editable.
 type: docs
 weight: 30
 url: /net/aspose.tasks/prj/areeditableactualcosts/
@@ -12,6 +12,18 @@ Determines whether actual costs are editable.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> AreEditableActualCosts;
+```
+
+### Examples
+
+Shows how to read/write Prj.AreEditableActualCosts property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AreEditableActualCosts, true);
+
+Console.WriteLine("Are Editable Actual Costs: " + project.Get(Prj.AreEditableActualCosts));
 ```
 
 ### See Also

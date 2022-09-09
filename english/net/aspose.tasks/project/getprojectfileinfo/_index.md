@@ -1,12 +1,12 @@
 ---
 title: GetProjectFileInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Read project file info from the file.
 type: docs
 weight: 480
 url: /net/aspose.tasks/project/getprojectfileinfo/
 ---
-## Project.GetProjectFileInfo method (1 of 2)
+## GetProjectFileInfo(string) {#getprojectfileinfo_1}
 
 Read project file info from the file.
 
@@ -22,6 +22,17 @@ public static ProjectFileInfo GetProjectFileInfo(string filename)
 
 The project file info [`ProjectFileInfo`](../../projectfileinfo).
 
+### Examples
+
+Shows how to read project file info were read from an XML file.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
 ### See Also
 
 * class [ProjectFileInfo](../../projectfileinfo)
@@ -31,7 +42,7 @@ The project file info [`ProjectFileInfo`](../../projectfileinfo).
 
 ---
 
-## Project.GetProjectFileInfo method (2 of 2)
+## GetProjectFileInfo(Stream) {#getprojectfileinfo}
 
 Gets project file info from the stream.
 
@@ -46,6 +57,20 @@ public static ProjectFileInfo GetProjectFileInfo(Stream stream)
 ### Return Value
 
 The project file info [`ProjectFileInfo`](../../projectfileinfo).
+
+### Examples
+
+Shows how to read project file info of XML file read from a stream.
+
+```csharp
+using (var stream = new FileStream(DataDir + "Project.xml", FileMode.Open))
+{
+    var info = Project.GetProjectFileInfo(stream);
+    Console.WriteLine("CanRead: " + info.CanRead);
+    Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+    Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+}
+```
 
 ### See Also
 

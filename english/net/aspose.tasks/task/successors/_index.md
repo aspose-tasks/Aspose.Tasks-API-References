@@ -1,7 +1,7 @@
 ---
 title: Successors
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a TaskCollectionaspose.tasks/taskcollection object which contains all successors of this Task object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/task/successors/
@@ -17,6 +17,23 @@ public TaskCollection Successors { get; }
 ### Return Value
 
 Read-only instance of [`TaskCollection`](../../taskcollection) class.
+
+### Examples
+
+Shows how to read task's successors.
+
+```csharp
+var project = new Project();
+var pred = project.RootTask.Children.Add("Predecessor");
+var succ = project.RootTask.Children.Add("Successor");
+
+project.TaskLinks.Add(pred, succ);
+
+foreach (var successor in pred.Successors)
+{
+    Console.WriteLine("{0} {1}", successor.Get(Tsk.Id), successor.Get(Tsk.Name));
+}
+```
 
 ### See Also
 

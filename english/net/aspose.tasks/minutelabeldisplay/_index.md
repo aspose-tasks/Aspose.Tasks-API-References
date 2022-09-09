@@ -1,7 +1,7 @@
 ---
 title: MinuteLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies how the minute label displays.
 type: docs
 weight: 890
 url: /net/aspose.tasks/minutelabeldisplay/
@@ -21,6 +21,20 @@ public enum MinuteLabelDisplay
 | M | `0` | Sets the Minutes list in MS Project as m. |
 | Min | `1` | Sets the Minutes list in MS Project as min. |
 | Minute | `2` | Sets the Minutes list in MS Project as minute. |
+
+### Examples
+
+Shows how to set the minute label of project's display options (case 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// set how the minute label is displayed
+project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
+
+// ...
+```
 
 ### See Also
 

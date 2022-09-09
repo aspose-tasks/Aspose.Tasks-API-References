@@ -1,7 +1,7 @@
 ---
 title: ProjectApplicationInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets project file application info.
 type: docs
 weight: 30
 url: /net/aspose.tasks/projectfileinfo/projectapplicationinfo/
@@ -12,6 +12,17 @@ Gets project file application info.
 
 ```csharp
 public ApplicationInfo ProjectApplicationInfo { get; }
+```
+
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 ```
 
 ### See Also

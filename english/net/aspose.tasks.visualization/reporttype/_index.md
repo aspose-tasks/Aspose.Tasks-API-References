@@ -1,9 +1,9 @@
 ---
 title: ReportType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Type of the projects graphical report.
 type: docs
-weight: 2950
+weight: 2970
 url: /net/aspose.tasks.visualization/reporttype/
 ---
 ## ReportType enumeration
@@ -34,6 +34,18 @@ public enum ReportType
 | BestPracticeAnalyzer | `13` | Shows tasks with no actual work, not assigned tasks, tasks with duration less than 8 hours and summaries assigned with the resources. |
 | Burndown | `14` | Includes work burndown and task burndown charts. The work burndown chart shows how much work people have finished, how much is scheduled to be finished before the project finish date, and the baseline estimate of how much work would be completed at this point in the project. The task burndown chart shows the number of tasks finished, the number remaining, and the baseline estimate of how many would be finished at this point in the project. |
 | CashFlow | `15` | Shows the costs and cumulative costs per quarter for all top-level tasks. |
+
+### Examples
+
+Shows how to save the project burndown report in PDF format to the specified stream.
+
+```csharp
+var project = new Project(DataDir + @"Homemoveplan.mpp");
+using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
 
 ### See Also
 

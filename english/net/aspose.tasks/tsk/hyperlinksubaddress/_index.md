@@ -1,7 +1,7 @@
 ---
 title: HyperlinkSubAddress
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The specific location in a document in a hyperlink associated with a task.
 type: docs
 weight: 510
 url: /net/aspose.tasks/tsk/hyperlinksubaddress/
@@ -12,6 +12,24 @@ The specific location in a document in a hyperlink associated with a task.
 
 ```csharp
 public static readonly Key<string, TaskKey> HyperlinkSubAddress;
+```
+
+### Examples
+
+Shows how to read/write Tsk.Hyperlink properties.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Hyperlink, "aspose.com");
+task.Set(Tsk.HyperlinkAddress, "products.aspose.com");
+task.Set(Tsk.HyperlinkSubAddress, "/total/net");
+
+Console.WriteLine("Hyperlink: " + task.Get(Tsk.Hyperlink));
+Console.WriteLine("Hyperlink Address: " + task.Get(Tsk.HyperlinkAddress));
+Console.WriteLine("Hyperlink Sub Address: " + task.Get(Tsk.HyperlinkSubAddress));
 ```
 
 ### See Also

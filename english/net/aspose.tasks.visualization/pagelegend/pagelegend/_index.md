@@ -1,7 +1,7 @@
 ---
 title: PageLegend
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/pagelegend/pagelegend/

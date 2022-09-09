@@ -1,7 +1,7 @@
 ---
 title: CommitmentType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a task has an associated delivery or a dependency on an associated delivery.  Reading supported for XML format only. Int32 type.
 type: docs
 weight: 190
 url: /net/aspose.tasks/tsk/commitmenttype/
@@ -12,6 +12,20 @@ Determines whether a task has an associated delivery or a dependency on an assoc
 
 ```csharp
 public static readonly Key<int, TaskKey> CommitmentType;
+```
+
+### Examples
+
+Shows how to read/write Tsk.CommitmentType property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.CommitmentType, 2);
+
+Console.WriteLine("Commitment Type: " + task.Get(Tsk.CommitmentType));
 ```
 
 ### See Also

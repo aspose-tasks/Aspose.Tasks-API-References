@@ -1,7 +1,7 @@
 ---
 title: FileFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the projects file format.
 type: docs
 weight: 580
 url: /net/aspose.tasks/fileformat/
@@ -31,6 +31,18 @@ public enum FileFormat
 | MPX | `10` | Mpx file format |
 | XER | `11` | Represents Primavera XER format |
 | HTML | `12` | Represents HTML format |
+| ProjectServer | `13` |  |
+
+### Examples
+
+Shows how to read check project file format.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code value for the instance of the NullableBoolaspose.tasks/nullablebool class.
 type: docs
 weight: 50
 url: /net/aspose.tasks/nullablebool/gethashcode/
@@ -17,6 +17,19 @@ public override int GetHashCode()
 ### Return Value
 
 returns a hash code value for this object.
+
+### Examples
+
+Shows how to work with &lt;see cref="Aspose.Tasks.NullableBool" /&gt;.GetHashCode method.
+
+```csharp
+var bool1 = new NullableBool(true);
+var bool2 = new NullableBool(true, false);
+
+// the hash code of bools is based on 'IsDefined' and 'Value' properties
+Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
+Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
+```
 
 ### See Also
 

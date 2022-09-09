@@ -1,7 +1,7 @@
 ---
 title: SplitParts
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a SplitPart collection that represents the portions of a task.
 type: docs
 weight: 100
 url: /net/aspose.tasks/task/splitparts/
@@ -12,6 +12,24 @@ Gets a SplitPart collection that represents the portions of a task.
 
 ```csharp
 public SplitPartCollection SplitParts { get; }
+```
+
+### Examples
+
+Shows how to display task's split parts.
+
+```csharp
+var project = new Project(DataDir + "ViewSplitTasks.mpp");
+
+// Access task 
+var task = project.RootTask.Children.GetById(4);
+
+// Display split parts of task
+var collection = task.SplitParts;
+foreach (var splitPart in collection)
+{
+    Console.WriteLine("Start: " + splitPart.Start + "\nFinish: " + splitPart.Finish + "\n");
+}
 ```
 
 ### See Also

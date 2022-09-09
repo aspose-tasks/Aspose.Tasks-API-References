@@ -1,7 +1,7 @@
 ---
 title: NewTasksEstimated
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether an estimated duration is shown by default.
 type: docs
 weight: 560
 url: /net/aspose.tasks/prj/newtasksestimated/
@@ -12,6 +12,18 @@ Determines whether an estimated duration is shown by default.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksEstimated;
+```
+
+### Examples
+
+Shows how to read/write Prj.NewTasksEstimated property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksEstimated, true);
+
+Console.WriteLine("New Tasks Estimated: " + project.Get(Prj.NewTasksEstimated));
 ```
 
 ### See Also

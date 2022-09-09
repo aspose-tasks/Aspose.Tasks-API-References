@@ -1,7 +1,7 @@
 ---
 title: GetWorkingTimes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns WorkingTimeCollectionaspose.tasks/workingtimecollection of working times.
 type: docs
 weight: 220
 url: /net/aspose.tasks/calendar/getworkingtimes/
@@ -21,6 +21,26 @@ public WorkingTimeCollection GetWorkingTimes(DateTime dt)
 ### Return Value
 
 List of [`WorkingTime`](../../workingtime).
+
+### Examples
+
+Shows how to get working times for a specific date.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// get working times for specific date
+var workingTimes = calendar.GetWorkingTimes(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// 16 hours will be printed
+foreach (var workingTime in workingTimes)
+{
+    Console.WriteLine("From: " + workingTime.From);
+    Console.WriteLine("To: " + workingTime.To);
+}
+```
 
 ### See Also
 

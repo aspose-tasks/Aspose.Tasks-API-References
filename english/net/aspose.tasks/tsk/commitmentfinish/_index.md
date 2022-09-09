@@ -1,7 +1,7 @@
 ---
 title: CommitmentFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The finish date of a delivery.  Reading supported for XML format only. DateTime type.
 type: docs
 weight: 170
 url: /net/aspose.tasks/tsk/commitmentfinish/
@@ -12,6 +12,20 @@ The finish date of a delivery.  Reading supported for XML format only. DateTime 
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> CommitmentFinish;
+```
+
+### Examples
+
+Shows how to read/write Tsk.CommitmentFinish property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.CommitmentFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Commitment Finish: " + task.Get(Tsk.CommitmentFinish));
 ```
 
 ### See Also

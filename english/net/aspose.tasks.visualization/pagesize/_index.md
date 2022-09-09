@@ -1,9 +1,9 @@
 ---
 title: PageSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies page size.
 type: docs
-weight: 2870
+weight: 2890
 url: /net/aspose.tasks.visualization/pagesize/
 ---
 ## PageSize enumeration
@@ -26,6 +26,31 @@ public enum PageSize
 | A3 | `5` | The size of the A3 page in points is 1190 × 842 |
 | A4 | `6` | The size of the A4 page in points is 842 × 595 |
 | DefinedInView | `7` | Use page size defined in View's [`PageSettings`](../pagesettings) (View.PageInfo.PageSettings). |
+
+### Examples
+
+Shows how to set a value indicating that subtasks on the summary task bar must be rolled up.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+project.DisplayOptions.ShowProjectSummaryTask = true;
+project.Set(Prj.ShowProjectSummaryTask, true);
+
+var options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.GanttChart,
+    FitContent = true,
+    RollUpGanttBars = true,
+
+    // OR
+    // options.RollUpGanttBars = false;
+    // DrawNonWorkingTime = true,
+    PageSize = PageSize.A3
+};
+
+project.Save(OutDir + "RenderGanttChartWithBarsRolledUp_out.pdf", options);
+```
 
 ### See Also
 

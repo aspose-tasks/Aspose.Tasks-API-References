@@ -1,7 +1,7 @@
 ---
 title: WriteViewData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to write view data when saving to MPP. View data includes Project.Views Filters and Tables collections.
 type: docs
 weight: 40
 url: /net/aspose.tasks.saving/mppsaveoptions/writeviewdata/
@@ -12,6 +12,27 @@ Gets or sets a value indicating whether to write view data when saving to MPP. V
 
 ```csharp
 public bool WriteViewData { get; set; }
+```
+
+### Examples
+
+Shows how to save project into a stream as an MPP file.
+
+```csharp
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+    // create save options
+    var options = new MPPSaveOptions
+    {
+        // sets a value indicating whether to remove invalid resource assignments when saving to MPP
+        RemoveInvalidAssignments = true
+    };
+
+    // save MPP with options
+    project.Save(stream, options);
+}
 ```
 
 ### See Also

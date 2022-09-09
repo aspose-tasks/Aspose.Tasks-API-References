@@ -1,7 +1,7 @@
 ---
 title: EarnedValueMethodType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the method used for calculating earned value.
 type: docs
 weight: 470
 url: /net/aspose.tasks/earnedvaluemethodtype/
@@ -25,6 +25,17 @@ public enum EarnedValueMethodType
 ### Remarks
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
+
+### Examples
+
+Shows how to specify the method used for calculating earned value (EarnedValueMethodType.PercentComplete).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// set earned value method type to 'PercentComplete'
+project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
+// work with the project...
+```
 
 ### See Also
 

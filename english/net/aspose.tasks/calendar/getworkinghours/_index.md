@@ -1,12 +1,12 @@
 ---
 title: GetWorkingHours
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Return working hours for the specified dates.
 type: docs
 weight: 210
 url: /net/aspose.tasks/calendar/getworkinghours/
 ---
-## Calendar.GetWorkingHours method (1 of 2)
+## GetWorkingHours(DateTime, DateTime) {#getworkinghours}
 
 Return working hours for the specified dates.
 
@@ -23,6 +23,22 @@ public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
 
 Working hours.
 
+### Examples
+
+Shows how to get working hours for specific dates.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// get working hours for specific date
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+// 16 hours will be printed
+Console.WriteLine(workUnit.WorkingHours);
+```
+
 ### See Also
 
 * class [WorkUnit](../../workunit)
@@ -32,7 +48,7 @@ Working hours.
 
 ---
 
-## Calendar.GetWorkingHours method (2 of 2)
+## GetWorkingHours(DateTime) {#getworkinghours_1}
 
 Returns amount of working hours at the date.
 
@@ -47,6 +63,22 @@ public TimeSpan GetWorkingHours(DateTime dt)
 ### Return Value
 
 Working hours.
+
+### Examples
+
+Shows how to get working hours for a specific date.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// get working hours for specific date
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 10));
+
+// 8 hours will be printed
+Console.WriteLine(workingHours.Hours);
+```
 
 ### See Also
 

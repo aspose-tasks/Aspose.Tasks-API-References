@@ -1,7 +1,7 @@
 ---
 title: PrimaveraXmlSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the PrimaveraXmlSaveOptionsaspose.tasks.saving/primaveraxmlsaveoptions class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/primaveraxmlsaveoptions/primaveraxmlsaveoptions/
@@ -12,6 +12,18 @@ Initializes a new instance of the [`PrimaveraXmlSaveOptions`](../../primaveraxml
 
 ```csharp
 public PrimaveraXmlSaveOptions()
+```
+
+### Examples
+
+Shows how to export the to Primavera XML file.
+
+```csharp
+var project = new Project(DataDir + "project.xml");
+
+var options = new PrimaveraXmlSaveOptions();
+options.SaveRootTask = false;
+project.Save(OutDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
 ```
 
 ### See Also

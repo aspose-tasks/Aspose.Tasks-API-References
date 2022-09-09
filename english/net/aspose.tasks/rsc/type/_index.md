@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The type of a resource.
 type: docs
 weight: 670
 url: /net/aspose.tasks/rsc/type/
@@ -12,6 +12,20 @@ The type of a resource.
 
 ```csharp
 public static readonly Key<ResourceType, RscKey> Type;
+```
+
+### Examples
+
+Shows how to read/write Rsc.Type property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Type, ResourceType.Work);
+
+Console.WriteLine("Type: " + resource.Get(Rsc.Type));
 ```
 
 ### See Also

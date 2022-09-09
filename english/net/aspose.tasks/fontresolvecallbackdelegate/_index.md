@@ -1,7 +1,7 @@
 ---
 title: FontResolveCallbackDelegate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a method callback to handle font resolve event.
 type: docs
 weight: 650
 url: /net/aspose.tasks/fontresolvecallbackdelegate/

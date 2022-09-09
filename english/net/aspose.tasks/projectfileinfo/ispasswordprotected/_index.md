@@ -1,7 +1,7 @@
 ---
 title: IsPasswordProtected
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether a project is password protected.
 type: docs
 weight: 20
 url: /net/aspose.tasks/projectfileinfo/ispasswordprotected/

@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the unique identifier of the calendar. Read/write Int32.
 type: docs
 weight: 100
 url: /net/aspose.tasks/calendar/uid/
@@ -12,6 +12,26 @@ Gets or sets the unique identifier of the calendar. Read/write Int32.
 
 ```csharp
 public int Uid { get; set; }
+```
+
+### Examples
+
+Shows how to retrieve calendar info.
+
+```csharp
+var project = new Project(DataDir + "RetrieveCalendarInfo.mpp");
+
+// Retrieve Calendars Information
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Calendar UID: " + calendar.Uid);
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
 ```
 
 ### See Also

@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The text notes associated with a resource.
 type: docs
 weight: 470
 url: /net/aspose.tasks/rsc/notes/
@@ -12,6 +12,20 @@ The text notes associated with a resource.
 
 ```csharp
 public static readonly Key<string, RscKey> Notes;
+```
+
+### Examples
+
+Shows how to read/write Rsc.Notes property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Notes, "Resource Notes");
+
+Console.WriteLine("Notes: " + resource.Get(Rsc.Notes));
 ```
 
 ### See Also

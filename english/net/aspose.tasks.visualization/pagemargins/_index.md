@@ -1,9 +1,9 @@
 ---
 title: PageMargins
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents page margins for printing.
 type: docs
-weight: 2850
+weight: 2870
 url: /net/aspose.tasks.visualization/pagemargins/
 ---
 ## PageMargins class
@@ -29,6 +29,26 @@ public class PageMargins
 | [Left](../../aspose.tasks.visualization/pagemargins/left) { get; set; } | Gets or sets the size of the left margin in inches or centimeters. |
 | [Right](../../aspose.tasks.visualization/pagemargins/right) { get; set; } | Gets or sets the size of the right margin in inches or centimeters. |
 | [Top](../../aspose.tasks.visualization/pagemargins/top) { get; set; } | Gets or sets the size of the top margin in inches or centimeters. |
+
+### Examples
+
+Shows how to work with page margins.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// lets modify the default view
+var margins = project.DefaultView.PageInfo.Margins;
+
+// lets modify margins
+margins.Left = 10d;
+margins.Top = 10d;
+margins.Right = 10d;
+margins.Bottom = 10d;
+margins.Borders = Border.OutsidePages;
+
+project.Save(OutDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
+```
 
 ### See Also
 

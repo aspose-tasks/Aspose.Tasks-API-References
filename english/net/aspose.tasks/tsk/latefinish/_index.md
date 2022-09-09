@@ -1,7 +1,7 @@
 ---
 title: LateFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The latest date that a task can finish without delaying the finish of the project.
 type: docs
 weight: 730
 url: /net/aspose.tasks/tsk/latefinish/
@@ -12,6 +12,20 @@ The latest date that a task can finish without delaying the finish of the projec
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> LateFinish;
+```
+
+### Examples
+
+Shows how to read/write Tsk.LateFinish property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LateFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Late Finish: " + task.Get(Tsk.LateFinish));
 ```
 
 ### See Also

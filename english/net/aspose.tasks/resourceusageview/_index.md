@@ -1,7 +1,7 @@
 ---
 title: ResourceUsageView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents resource usage view in a project.
 type: docs
 weight: 1550
 url: /net/aspose.tasks/resourceusageview/
@@ -47,6 +47,25 @@ public sealed class ResourceUsageView : UsageView
 | [CompareTo](../../aspose.tasks/view/compareto)(View) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
 | override [Equals](../../aspose.tasks/view/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
+
+### Examples
+
+Shows how to render resource usage view.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+// Define the SaveOptions with required TimeScale settings as Days
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Days,
+
+    // Set the Presentation format to ResourceUsage
+    PresentationFormat = PresentationFormat.ResourceUsage
+};
+
+project.Save(OutDir + "ResourceUsage_days_out.pdf", options);
+```
 
 ### See Also
 

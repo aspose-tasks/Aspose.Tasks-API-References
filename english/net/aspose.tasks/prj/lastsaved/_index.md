@@ -1,7 +1,7 @@
 ---
 title: LastSaved
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date when a project was saved last time. Saved in UTC format in mpp files. DateTime type.
 type: docs
 weight: 430
 url: /net/aspose.tasks/prj/lastsaved/
@@ -12,6 +12,18 @@ The date when a project was saved last time. Saved in UTC format in mpp files. D
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> LastSaved;
+```
+
+### Examples
+
+Shows how to check project's save version and save date.
+
+```csharp
+var project = new Project(DataDir + "DetermineProjectVersion.mpp");
+
+// Display project version
+Console.WriteLine("Project Version : " + project.Get(Prj.SaveVersion));
+Console.WriteLine("Last Saved : " + project.Get(Prj.LastSaved).ToShortDateString());
 ```
 
 ### See Also

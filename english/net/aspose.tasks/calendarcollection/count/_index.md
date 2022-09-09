@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the number of objects contained in this CalendarCollectionaspose.tasks/calendarcollection object.
 type: docs
 weight: 10
 url: /net/aspose.tasks/calendarcollection/count/
@@ -12,6 +12,21 @@ Gets the number of objects contained in this [`CalendarCollection`](../../calend
 
 ```csharp
 public int Count { get; }
+```
+
+### Examples
+
+Shows how to iterate over calendar collection.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
+List<Calendar> calendars = project.Calendars.ToList();
+foreach (var calendar in calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
 ```
 
 ### See Also

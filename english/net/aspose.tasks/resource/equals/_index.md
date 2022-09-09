@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified instance of the Resourceaspose.tasks/resource class.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.tasks/resource/equals/
 ---
-## Resource.Equals method (1 of 2)
+## Equals(Resource) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified instance of the [`Resource`](../../resource) class.
 
@@ -22,6 +22,19 @@ public bool Equals(Resource other)
 
 **True** if the specified instance of the [`Resource`](../../resource) class has the same Uid value as this instance; otherwise, **false**.
 
+### Examples
+
+Shows how to check resource equality.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
 ### See Also
 
 * class [Resource](../../resource)
@@ -30,7 +43,7 @@ public bool Equals(Resource other)
 
 ---
 
-## Resource.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -45,6 +58,19 @@ public override bool Equals(object obj)
 ### Return Value
 
 **True** if the specified object is a Resource that has the same Uid value as this instance; otherwise, **false**.
+
+### Examples
+
+Shows how to check resource equality.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
 
 ### See Also
 

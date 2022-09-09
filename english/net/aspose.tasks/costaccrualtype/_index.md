@@ -1,7 +1,7 @@
 ---
 title: CostAccrualType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the type of an accrual cost.
 type: docs
 weight: 340
 url: /net/aspose.tasks/costaccrualtype/
@@ -27,6 +27,19 @@ public enum CostAccrualType
 ### Remarks
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
+
+### Examples
+
+Shows how and when resource standard and overtime costs are to be charged, or accrued (accrual method: Determines when the cost for a resource is incurred and when actual costs are charged to a project. You can incur costs at the start [Start] or finish [End] of a task or prorate them [Prorated] during the task.), to the cost of a task (CostAccrualType.End).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+// set cost accrual type
+// if you select the End option, costs are not accrued until remaining work is zero.
+resource.Set(Rsc.AccrueAt, CostAccrualType.End);
+// work with the project...
+```
 
 ### See Also
 

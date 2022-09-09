@@ -1,7 +1,7 @@
 ---
 title: PrjKey
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a list of supported project fields.
 type: docs
 weight: 1170
 url: /net/aspose.tasks/prjkey/
@@ -99,6 +99,17 @@ public enum PrjKey
 | Guid | `78` | Represents the guid of a project. |
 | CustomDateFormat | `79` | Represents user-defined date format. |
 | TemplateFullPath | `80` | Represents the Template (Project) full file name. |
+
+### Examples
+
+Shows how to set attributes for new tasks.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
 
 ### See Also
 

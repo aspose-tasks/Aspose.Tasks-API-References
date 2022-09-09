@@ -1,7 +1,7 @@
 ---
 title: Stream
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a stream for writing a page.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/pagesavingargs/stream/

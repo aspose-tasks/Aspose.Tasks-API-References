@@ -120,6 +120,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [TasksException](./tasksexception) | Represents the standard internal exception type. |
 | [TasksLoggedException](./tasksloggedexception) | Represents the standard internal exception type. |
 | [TasksReadingException](./tasksreadingexception) | Represents the standard internal reading exception type. |
+| [TasksRenderingException](./tasksrenderingexception) |  |
 | [TasksWritingException](./taskswritingexception) | Represents the standard internal writing exception type. |
 | [TaskUsageView](./taskusageview) | Represents task usage view in a project. |
 | [TaskUsageViewFieldCollection](./taskusageviewfieldcollection) | Represents a collection of [`TaskUsageViewField`](../aspose.tasks/taskusageviewfield) values. |

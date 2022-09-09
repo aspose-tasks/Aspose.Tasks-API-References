@@ -1,12 +1,12 @@
 ---
 title: GetStartDateFromFinishAndDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns StartDate based on specified FinishDate and Duration.
 type: docs
 weight: 190
 url: /net/aspose.tasks/calendar/getstartdatefromfinishandduration/
 ---
-## Calendar.GetStartDateFromFinishAndDuration method (1 of 2)
+## GetStartDateFromFinishAndDuration(DateTime, Duration) {#getstartdatefromfinishandduration}
 
 Returns StartDate based on specified FinishDate and Duration.
 
@@ -23,6 +23,22 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, Duration dura
 
 Calculated StartDate.
 
+### Examples
+
+Shows how to get a start date by finish date and duration.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// get start date by finish date and a duration
+var startDate = calendar.GetStartDateFromFinishAndDuration(new DateTime(2020, 4, 10, 9, 0, 0), project.GetDuration(16, TimeUnitType.Hour));
+
+// 8 April 2020 9:00 AM will be printed
+Console.WriteLine(startDate);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)
@@ -32,7 +48,7 @@ Calculated StartDate.
 
 ---
 
-## Calendar.GetStartDateFromFinishAndDuration method (2 of 2)
+## GetStartDateFromFinishAndDuration(DateTime, TimeSpan) {#getstartdatefromfinishandduration_1}
 
 Returns StartDate based on specified FinishDate and Duration.
 
@@ -48,6 +64,22 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, TimeSpan dura
 ### Return Value
 
 Calculated StartDate.
+
+### Examples
+
+Shows how to get a start date by finish date and duration (as a time span).
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// get start date by finish date and a duration
+var startDate = calendar.GetStartDateFromFinishAndDuration(new DateTime(2020, 4, 10, 9, 0, 0), TimeSpan.FromHours(16));
+
+// 8 April 2020 9:00 AM will be printed
+Console.WriteLine(startDate);
+```
 
 ### See Also
 

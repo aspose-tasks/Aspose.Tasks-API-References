@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/filter/equals/
 ---
-## Filter.Equals method (1 of 2)
+## Equals(Filter) {#equals}
 
 Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object.
 
@@ -22,6 +22,23 @@ public bool Equals(Filter other)
 
 returns true if this instance is equal to the specified AssignmentBaseline object; otherwise, false.
 
+### Examples
+
+Shows how to check filter equality.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// the equality of filters is checked against to filter's UID.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
 ### See Also
 
 * class [Filter](../../filter)
@@ -30,7 +47,7 @@ returns true if this instance is equal to the specified AssignmentBaseline objec
 
 ---
 
-## Filter.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object.
 
@@ -45,6 +62,23 @@ public override bool Equals(object obj)
 ### Return Value
 
 returns true if this instance is equal to the specified AssignmentBaseline object; otherwise, false.
+
+### Examples
+
+Shows how to check filter equality.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// the equality of filters is checked against to filter's UID.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
 
 ### See Also
 

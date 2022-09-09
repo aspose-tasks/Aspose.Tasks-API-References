@@ -1,7 +1,7 @@
 ---
 title: Views
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a list of Viewaspose.tasks/view objects.
 type: docs
 weight: 230
 url: /net/aspose.tasks/project/views/
@@ -12,6 +12,28 @@ Gets a list of [`View`](../../view) objects.
 
 ```csharp
 public ViewCollection Views { get; }
+```
+
+### Examples
+
+Shows how to set a default project view.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+View view = null;
+foreach (var v in project.Views)
+{
+    if (v.Name == "&Gantt Chart")
+    {
+        view = v;
+    }
+}
+
+// set default view
+project.DefaultView = view;
+
+project.Save(OutDir + @"SaveGantChartView_out.mpp", new MPPSaveOptions { WriteViewData = true });
 ```
 
 ### See Also

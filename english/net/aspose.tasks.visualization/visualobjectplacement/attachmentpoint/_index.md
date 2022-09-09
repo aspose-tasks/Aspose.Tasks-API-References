@@ -1,7 +1,7 @@
 ---
 title: AttachmentPoint
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets alignment of visual object relative to a task when Attach to task options is selected.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/visualobjectplacement/attachmentpoint/

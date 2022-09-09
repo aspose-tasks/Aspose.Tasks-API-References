@@ -1,7 +1,7 @@
 ---
 title: ParentCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent calendar for this object.
 type: docs
 weight: 120
 url: /net/aspose.tasks/calendarexception/parentcalendar/
@@ -12,6 +12,32 @@ Gets the parent calendar for this object.
 
 ```csharp
 public Calendar ParentCalendar { get; }
+```
+
+### Examples
+
+Shows how to define calendar exception by week day.
+
+```csharp
+var project = new Project(DataDir + "project_test.mpp");
+
+// create a calendar
+var calendar = project.Calendars.Add("Calendar1");
+
+// create calendar exception for every friday
+var exception = new CalendarException();
+exception.Type = CalendarExceptionType.Weekly;
+exception.FromDate = new DateTime(2020, 4, 6);
+exception.ToDate = new DateTime(2020, 4, 12);
+exception.DaysOfWeek.Add(DayType.Friday);
+
+// check that aa friday is exceptional
+Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2020, 4, 10)));
+
+// add the exception to the calendar
+calendar.Exceptions.Add(exception);
+
+Console.WriteLine("Parent calendar name: " + exception.ParentCalendar.Name);
 ```
 
 ### See Also

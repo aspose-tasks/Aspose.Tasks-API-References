@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code value for the instance of the TaskLinkaspose.tasks/tasklink class.
 type: docs
 weight: 90
 url: /net/aspose.tasks/tasklink/gethashcode/
@@ -17,6 +17,29 @@ public override int GetHashCode()
 ### Return Value
 
 returns a hash code value for this object.
+
+### Examples
+
+Shows how to get a hash code of a task link.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// the hash code of a task link is based on hashes of predecessor and successor task 
+Console.WriteLine(
+    "Task Link 1 Pred Hash Code: {0} Succ Hash Code: {1} Hash Code: {2}",
+    link1.PredTask.GetHashCode(),
+    link1.SuccTask.GetHashCode(),
+    link1.GetHashCode());
+Console.WriteLine(
+    "Task Link 2 Pred Hash Code: {0} Succ Hash Code: {1} Hash Code: {2}",
+    link2.PredTask.GetHashCode(),
+    link2.SuccTask.GetHashCode(),
+    link2.GetHashCode());
+```
 
 ### See Also
 

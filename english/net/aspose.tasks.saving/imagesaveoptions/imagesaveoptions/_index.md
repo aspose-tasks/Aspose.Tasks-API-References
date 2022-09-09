@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the ImageSaveOptionsaspose.tasks.saving/imagesaveoptions class which can be used to save rendered images in TIFF PNG BMP or JPEG formats.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/imagesaveoptions/imagesaveoptions/
@@ -23,6 +23,22 @@ public ImageSaveOptions(SaveFileFormat saveFormat)
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown of *saveFormat* is not a valid image format. The valid values are TIFF, PNG, BMP or JPEG. |
+
+### Examples
+
+Shows how to save project into a stream as an image.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // by using of ImageSaveOptions we save the project into image format
+    project.Save(stream, options);
+}
+```
 
 ### See Also
 

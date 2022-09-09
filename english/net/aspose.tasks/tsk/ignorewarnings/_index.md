@@ -1,7 +1,7 @@
 ---
 title: IgnoreWarnings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Indicates whether to hide the schedule conflict warning indicator in Microsoft Project.
 type: docs
 weight: 540
 url: /net/aspose.tasks/tsk/ignorewarnings/
@@ -12,6 +12,20 @@ Indicates whether to hide the schedule conflict warning indicator in Microsoft P
 
 ```csharp
 public static readonly Key<bool, TaskKey> IgnoreWarnings;
+```
+
+### Examples
+
+Shows how to read/write Tsk.IgnoreWarnings property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IgnoreWarnings, true);
+
+Console.WriteLine("Ignore Warnings: " + task.Get(Tsk.IgnoreWarnings));
 ```
 
 ### See Also

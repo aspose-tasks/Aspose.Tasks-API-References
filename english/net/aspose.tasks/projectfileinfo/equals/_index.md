@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified object.
 type: docs
 weight: 50
 url: /net/aspose.tasks/projectfileinfo/equals/
 ---
-## ProjectFileInfo.Equals method (1 of 2)
+## Equals(ProjectFileInfo) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -22,6 +22,17 @@ public bool Equals(ProjectFileInfo other)
 
 returns true if the specified ProjectFileInfo and this instance have equal file format and application info.
 
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
 ### See Also
 
 * class [ProjectFileInfo](../../projectfileinfo)
@@ -30,7 +41,7 @@ returns true if the specified ProjectFileInfo and this instance have equal file 
 
 ---
 
-## ProjectFileInfo.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -45,6 +56,17 @@ public override bool Equals(object obj)
 ### Return Value
 
 returns true if the specified ProjectFileInfo and this instance have equal file format and application info.
+
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### See Also
 

@@ -1,12 +1,12 @@
 ---
 title: UpdateProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Updates existing project in Project ServerProject Online instance using default save options. The existing project will be overwritten.
 type: docs
 weight: 70
 url: /net/aspose.tasks/projectservermanager/updateproject/
 ---
-## ProjectServerManager.UpdateProject method (1 of 2)
+## UpdateProject(Project) {#updateproject}
 
 Updates existing project in Project Server\Project Online instance using default save options. The existing project will be overwritten.
 
@@ -43,6 +43,50 @@ var task = project.RootTask.Children.Add("New task");
 manager.UpdateProject(project);
 ```
 
+Shows how to update project on Microsoft Project Online.
+
+```csharp
+const string URL = "https://contoso.sharepoint.com/sites/pwa";
+const string Domain = "CONTOSO.COM";
+const string UserName = "Administrator";
+const string Password = "MyPassword";
+
+var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+try
+{
+    var manager = new ProjectServerManager(projectServerCredentials);
+
+    ProjectInfo projectInfo = null;
+    foreach (var info in manager.GetProjectList())
+    {
+        if (info.Name == "My project")
+        {
+            projectInfo = info;
+        }
+    }
+
+    if (projectInfo == null)
+    {
+        Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
+        return;
+    }
+
+    var project = manager.GetProject(projectInfo.Id);
+    project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
+
+    var task = project.RootTask.Children.Add("New task");
+    task.Set(Tsk.Start, new DateTime(2020, 02, 26));
+    task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
+
+    manager.UpdateProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine("Failed to update the project. Error: " + ex);
+}
+```
+
 ### See Also
 
 * class [Project](../../project)
@@ -52,7 +96,7 @@ manager.UpdateProject(project);
 
 ---
 
-## ProjectServerManager.UpdateProject method (2 of 2)
+## UpdateProject(Project, ProjectServerSaveOptions) {#updateproject_1}
 
 Updates existing project in Project Server\Project Online instance using the specified save options. The existing project will be overwritten.
 
@@ -91,6 +135,51 @@ manager.UpdateProject(project, new ProjectServerSaveOptions
 {
     ProjectGuid = projectGuid
 });
+```
+
+Shows how to update project on Microsoft Project Online with an usage of Project Server save options.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+try
+{
+    var manager = new ProjectServerManager(credentials);
+
+    ProjectInfo projectInfo = null;
+    foreach (var info in manager.GetProjectList())
+    {
+        if (info.Name == "My project")
+        {
+            projectInfo = info;
+        }
+    }
+
+    if (projectInfo == null)
+    {
+        Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
+        return;
+    }
+
+    var project = manager.GetProject(projectInfo.Id);
+    project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
+
+    var task = project.RootTask.Children.Add("New task");
+    task.Set(Tsk.Start, new DateTime(2020, 02, 26));
+    task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
+
+    var options = new ProjectServerSaveOptions { Timeout = TimeSpan.FromMinutes(5) };
+
+    manager.UpdateProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine("Failed to update the project. Error: " + ex);
+}
 ```
 
 ### See Also

@@ -1,7 +1,7 @@
 ---
 title: Template
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects template.
 type: docs
 weight: 710
 url: /net/aspose.tasks/prj/template/
@@ -12,6 +12,18 @@ Project's template.
 
 ```csharp
 public static readonly Key<string, PrjKey> Template;
+```
+
+### Examples
+
+Shows how to read/write Prj.Template property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Template, "Custom Template");
+
+Console.WriteLine("Template: " + project.Get(Prj.Template));
 ```
 
 ### See Also

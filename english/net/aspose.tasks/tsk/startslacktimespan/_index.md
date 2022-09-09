@@ -1,7 +1,7 @@
 ---
 title: StartSlackTimeSpan
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The duration between the Early Start and Late Start dates.
 type: docs
 weight: 1030
 url: /net/aspose.tasks/tsk/startslacktimespan/
@@ -12,6 +12,18 @@ The duration between the Early Start and Late Start dates.
 
 ```csharp
 public static readonly Key<TimeSpan, TaskKey> StartSlackTimeSpan;
+```
+
+### Examples
+
+Shows how to read Tsk.StartSlackTimeSpan property. The property is calculated, so usually there is no need to set it explicitly.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Start Slack: " + task.Get(Tsk.StartSlackTimeSpan));
 ```
 
 ### See Also

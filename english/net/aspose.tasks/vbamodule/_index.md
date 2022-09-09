@@ -1,9 +1,9 @@
 ---
 title: VbaModule
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a VBA module.
 type: docs
-weight: 2460
+weight: 2480
 url: /net/aspose.tasks/vbamodule/
 ---
 ## VbaModule class
@@ -21,6 +21,22 @@ public class VbaModule : IVbaModule
 | [Attributes](../../aspose.tasks/vbamodule/attributes) { get; } |  |
 | [Name](../../aspose.tasks/vbamodule/name) { get; } |  |
 | [SourceCode](../../aspose.tasks/vbamodule/sourcecode) { get; } |  |
+
+### Examples
+
+Shows how to read modules of VBA project.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
 
 ### See Also
 

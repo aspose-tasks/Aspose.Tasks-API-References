@@ -1,7 +1,7 @@
 ---
 title: TimescaleStart
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date that the timescale in the view starts.
 type: docs
 weight: 730
 url: /net/aspose.tasks/prj/timescalestart/
@@ -12,6 +12,17 @@ The date that the timescale in the view starts.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> TimescaleStart;
+```
+
+### Examples
+
+Shows how to set timescale start date to tune the date where the view should start.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.TimescaleStart, new DateTime(2012, 4, 30));
+
+Console.WriteLine("Timescale Start: " + project.Get(Prj.TimescaleStart));
 ```
 
 ### See Also

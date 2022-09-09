@@ -1,7 +1,7 @@
 ---
 title: GetByName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Searches for a View with the name and returns the first occurrence within the collection.
 type: docs
 weight: 80
 url: /net/aspose.tasks/viewcollection/getbyname/
