@@ -1,7 +1,7 @@
 ---
 title: Work
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of scheduled work for an assignment.
 type: docs
 weight: 600
 url: /net/aspose.tasks/asn/work/

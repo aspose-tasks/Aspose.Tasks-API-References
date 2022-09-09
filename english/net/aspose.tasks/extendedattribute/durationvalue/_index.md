@@ -1,7 +1,7 @@
 ---
 title: DurationValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets value for attributes with Duration type.
 type: docs
 weight: 30
 url: /net/aspose.tasks/extendedattribute/durationvalue/

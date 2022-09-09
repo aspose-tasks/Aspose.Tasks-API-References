@@ -1,12 +1,12 @@
 ---
 title: ResourceViewColumn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/resourceviewcolumn/resourceviewcolumn/
 ---
-## ResourceViewColumn constructor (1 of 3)
+## ResourceViewColumn(string, int, ResourceToColumnTextConverter, Field) {#constructor_2}
 
 Initializes a new instance of the [`ResourceViewColumn`](../../resourceviewcolumn) class.
 
@@ -32,7 +32,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 ---
 
-## ResourceViewColumn constructor (2 of 3)
+## ResourceViewColumn(string, int, ResourceToColumnTextConverter) {#constructor_1}
 
 Initializes a new instance of the [`ResourceViewColumn`](../../resourceviewcolumn) class.
 
@@ -55,7 +55,7 @@ public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter 
 
 ---
 
-## ResourceViewColumn constructor (3 of 3)
+## ResourceViewColumn(int, Field) {#constructor}
 
 Initializes a new instance of the [`ResourceViewColumn`](../../resourceviewcolumn) class.
 

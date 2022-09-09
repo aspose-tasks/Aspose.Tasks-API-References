@@ -1,7 +1,7 @@
 ---
 title: CostPerUse
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the cost per use of a resource. This value retrieved from the current date if a rate table exists for a resource.
 type: docs
 weight: 10
 url: /net/aspose.tasks/rate/costperuse/

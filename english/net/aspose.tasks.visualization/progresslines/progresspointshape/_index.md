@@ -1,7 +1,7 @@
 ---
 title: ProgressPointShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the progress point shape. GanttBarEndShapeaspose.tasks.visualization/ganttbarendshape.
 type: docs
 weight: 170
 url: /net/aspose.tasks.visualization/progresslines/progresspointshape/

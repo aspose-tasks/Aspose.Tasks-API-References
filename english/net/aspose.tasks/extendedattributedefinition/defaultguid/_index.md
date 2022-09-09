@@ -1,7 +1,7 @@
 ---
 title: DefaultGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the Guid of the default lookup table entry.
 type: docs
 weight: 110
 url: /net/aspose.tasks/extendedattributedefinition/defaultguid/

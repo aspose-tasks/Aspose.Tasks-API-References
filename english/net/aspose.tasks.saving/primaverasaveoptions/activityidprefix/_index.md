@@ -1,7 +1,7 @@
 ---
 title: ActivityIdPrefix
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the prefix used in renumbering of activity IDs.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/primaverasaveoptions/activityidprefix/

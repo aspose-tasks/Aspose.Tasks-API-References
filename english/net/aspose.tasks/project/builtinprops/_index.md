@@ -1,7 +1,7 @@
 ---
 title: BuiltInProps
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets projects builtin properties collection.
 type: docs
 weight: 20
 url: /net/aspose.tasks/project/builtinprops/

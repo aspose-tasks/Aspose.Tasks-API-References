@@ -1,9 +1,9 @@
 ---
 title: Shape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of SaveFileFormat../aspose.tasks.saving/savefileformat.
 type: docs
-weight: 2980
+weight: 3000
 url: /net/aspose.tasks.visualization/shape/
 ---
 ## Shape enumeration

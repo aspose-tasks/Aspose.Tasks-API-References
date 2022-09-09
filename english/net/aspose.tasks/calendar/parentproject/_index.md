@@ -1,7 +1,7 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets parent project for this calendar.
 type: docs
 weight: 90
 url: /net/aspose.tasks/calendar/parentproject/

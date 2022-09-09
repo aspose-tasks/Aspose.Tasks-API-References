@@ -1,7 +1,7 @@
 ---
 title: BudgetCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Budget costs for budget cost resources. Budget resources are assigned only to the project summary task.
 type: docs
 weight: 170
 url: /net/aspose.tasks/rsc/budgetcost/

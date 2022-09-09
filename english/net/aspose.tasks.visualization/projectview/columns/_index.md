@@ -1,7 +1,7 @@
 ---
 title: Columns
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the project view columns.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/projectview/columns/

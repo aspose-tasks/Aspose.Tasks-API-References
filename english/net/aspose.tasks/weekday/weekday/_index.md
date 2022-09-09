@@ -1,12 +1,12 @@
 ---
 title: WeekDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the WeekDayaspose.tasks/weekday class with the specified day type.
 type: docs
 weight: 10
 url: /net/aspose.tasks/weekday/weekday/
 ---
-## WeekDay constructor (1 of 3)
+## WeekDay(DayType) {#constructor_1}
 
 Initializes a new instance of the [`WeekDay`](../../weekday) class with the specified day type.
 
@@ -27,7 +27,7 @@ public WeekDay(DayType dayType)
 
 ---
 
-## WeekDay constructor (2 of 3)
+## WeekDay(DayType, IEnumerable&lt;WorkingTime&gt;) {#constructor_2}
 
 Initializes a new instance of the [`WeekDay`](../../weekday) class with the specified day type and list of working time periods.
 
@@ -50,7 +50,7 @@ public WeekDay(DayType dayType, IEnumerable<WorkingTime> workingTimes)
 
 ---
 
-## WeekDay constructor (3 of 3)
+## WeekDay() {#constructor}
 
 Initializes a new instance of the [`WeekDay`](../../weekday) class.
 

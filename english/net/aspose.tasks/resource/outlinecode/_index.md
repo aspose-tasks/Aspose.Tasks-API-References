@@ -1,9 +1,9 @@
 ---
 title: OutlineCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets an OutlineCodeCollection object. The value of an outline code.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.tasks/resource/outlinecode/
 ---
 ## Resource.OutlineCode property

@@ -1,7 +1,7 @@
 ---
 title: Not
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the Notaspose.tasks.util/not1 class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.util/not-1/not/

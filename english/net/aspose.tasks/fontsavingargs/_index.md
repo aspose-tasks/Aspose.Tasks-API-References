@@ -1,7 +1,7 @@
 ---
 title: FontSavingArgs
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: This class represents set of data that related to external fonts files saving that occurs during conversion to HTML format.
 type: docs
 weight: 670
 url: /net/aspose.tasks/fontsavingargs/

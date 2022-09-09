@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the gridline type.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/gridlines/type/

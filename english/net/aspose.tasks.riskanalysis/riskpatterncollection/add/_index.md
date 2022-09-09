@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds an instance of the RiskPatternaspose.tasks.riskanalysis/riskpattern class to this collection.
 type: docs
 weight: 40
 url: /net/aspose.tasks.riskanalysis/riskpatterncollection/add/

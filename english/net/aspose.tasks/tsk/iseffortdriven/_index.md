@@ -1,7 +1,7 @@
 ---
 title: IsEffortDriven
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the scheduling for the task is effortdriven scheduling.
 type: docs
 weight: 570
 url: /net/aspose.tasks/tsk/iseffortdriven/

@@ -1,7 +1,7 @@
 ---
 title: SetMeteredKey
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Sets metered public and private keys.
 type: docs
 weight: 30
 url: /net/aspose.tasks/metered/setmeteredkey/

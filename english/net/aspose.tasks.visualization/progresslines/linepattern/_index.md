@@ -1,7 +1,7 @@
 ---
 title: LinePattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the line pattern of current progress line. LinePatternaspose.tasks.visualization/progresslines/linepattern.
 type: docs
 weight: 110
 url: /net/aspose.tasks.visualization/progresslines/linepattern/

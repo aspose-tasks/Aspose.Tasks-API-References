@@ -1,7 +1,7 @@
 ---
 title: Filter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a filter in Project.
 type: docs
 weight: 590
 url: /net/aspose.tasks/filter/
@@ -38,8 +38,8 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../aspose.tasks/filter/compareto)(Filter) | Compares this instance to the specified instance of the [`Filter`](../filter) class and returns an indication of their relative order. |
-| [Equals](../../aspose.tasks/filter/equals)(Filter) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
-| override [Equals](../../aspose.tasks/filter/equals)(object) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
+| [Equals](../../aspose.tasks/filter/equals#equals)(Filter) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
+| override [Equals](../../aspose.tasks/filter/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
 | override [GetHashCode](../../aspose.tasks/filter/gethashcode)() | Returns a hash code value for the filter. |
 | [operator ==](../../aspose.tasks/filter/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
 | [operator &gt;](../../aspose.tasks/filter/op_greaterthan) | Returns a value indicating whether this instance is greater than a specified object. |

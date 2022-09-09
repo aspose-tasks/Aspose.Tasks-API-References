@@ -1,12 +1,12 @@
 ---
 title: NullableBool
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the NullableBoolaspose.tasks/nullablebool struct with the specified boolean value.
 type: docs
 weight: 10
 url: /net/aspose.tasks/nullablebool/nullablebool/
 ---
-## NullableBool constructor (1 of 2)
+## NullableBool(bool) {#constructor}
 
 Initializes a new instance of the [`NullableBool`](../../nullablebool) struct with the specified boolean value.
 
@@ -26,7 +26,7 @@ public NullableBool(bool value)
 
 ---
 
-## NullableBool constructor (2 of 2)
+## NullableBool(bool, bool) {#constructor_1}
 
 Initializes a new instance of the [`NullableBool`](../../nullablebool) struct.
 

@@ -1,7 +1,7 @@
 ---
 title: Val
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the actual value in internal representation. Prefer using strongly typed properties which are listed below.
 type: docs
 weight: 90
 url: /net/aspose.tasks/value/val/

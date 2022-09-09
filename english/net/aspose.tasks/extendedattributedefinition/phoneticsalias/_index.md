@@ -1,7 +1,7 @@
 ---
 title: PhoneticsAlias
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the phonetic pronunciation of the alias of a custom field.
 type: docs
 weight: 200
 url: /net/aspose.tasks/extendedattributedefinition/phoneticsalias/

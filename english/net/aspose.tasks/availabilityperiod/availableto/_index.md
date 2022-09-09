@@ -1,7 +1,7 @@
 ---
 title: AvailableTo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the last date when a resource is available for the specified period.
 type: docs
 weight: 30
 url: /net/aspose.tasks/availabilityperiod/availableto/

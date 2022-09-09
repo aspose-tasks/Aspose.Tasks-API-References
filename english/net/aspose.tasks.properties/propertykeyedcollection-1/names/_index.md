@@ -1,7 +1,7 @@
 ---
 title: Names
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the collection of all property names.
 type: docs
 weight: 40
 url: /net/aspose.tasks.properties/propertykeyedcollection-1/names/

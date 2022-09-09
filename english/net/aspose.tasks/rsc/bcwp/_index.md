@@ -1,7 +1,7 @@
 ---
 title: BCWP
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The budgeted cost of a work performed by a resource for the project todate.
 type: docs
 weight: 140
 url: /net/aspose.tasks/rsc/bcwp/

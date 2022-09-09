@@ -1,7 +1,7 @@
 ---
 title: OutlineNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The number that represents a tasks position in the hierarchical outline structure.
 type: docs
 weight: 860
 url: /net/aspose.tasks/tsk/outlinenumber/

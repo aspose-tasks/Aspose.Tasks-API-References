@@ -1,7 +1,7 @@
 ---
 title: BarShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets BarShapeaspose.tasks.visualization/barstyle/barshape of the bar style.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/barstyle/barshape/

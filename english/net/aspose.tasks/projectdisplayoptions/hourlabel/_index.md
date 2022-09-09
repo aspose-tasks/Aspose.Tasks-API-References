@@ -1,7 +1,7 @@
 ---
 title: HourLabel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets how the hour label displays.
 type: docs
 weight: 40
 url: /net/aspose.tasks/projectdisplayoptions/hourlabel/

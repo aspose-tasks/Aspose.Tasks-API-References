@@ -1,7 +1,7 @@
 ---
 title: TasksReadingException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the standard internal reading exception type.
 type: docs
 weight: 2220
 url: /net/aspose.tasks/tasksreadingexception/

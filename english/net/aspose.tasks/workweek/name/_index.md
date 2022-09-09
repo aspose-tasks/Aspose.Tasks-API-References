@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Name of work week
 type: docs
 weight: 30
 url: /net/aspose.tasks/workweek/name/

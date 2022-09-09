@@ -1,7 +1,7 @@
 ---
 title: AreEditableActualCosts
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether actual costs are editable.
 type: docs
 weight: 30
 url: /net/aspose.tasks/prj/areeditableactualcosts/

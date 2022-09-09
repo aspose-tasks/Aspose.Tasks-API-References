@@ -1,12 +1,12 @@
 ---
 title: CreateExtendedAttribute
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates a new extended attribute with the field ID which equals to this objects field ID value.
 type: docs
 weight: 300
 url: /net/aspose.tasks/extendedattributedefinition/createextendedattribute/
 ---
-## ExtendedAttributeDefinition.CreateExtendedAttribute method (1 of 7)
+## CreateExtendedAttribute() {#createextendedattribute}
 
 Creates a new extended attribute with the field ID which equals to this object's field ID value.
 
@@ -27,7 +27,7 @@ returns created instance of the [`ExtendedAttribute`](../../extendedattribute) c
 
 ---
 
-## ExtendedAttributeDefinition.CreateExtendedAttribute method (2 of 7)
+## CreateExtendedAttribute(string) {#createextendedattribute_6}
 
 Creates a new extended attribute with the field ID which equals to this object's field ID value and the specified text value.
 
@@ -58,7 +58,7 @@ returns created instance of the [`ExtendedAttribute`](../../extendedattribute) c
 
 ---
 
-## ExtendedAttributeDefinition.CreateExtendedAttribute method (3 of 7)
+## CreateExtendedAttribute(decimal) {#createextendedattribute_5}
 
 Creates a new extended attribute with the field ID which equals to this object's field ID value and the specified numeric value.
 
@@ -89,7 +89,7 @@ returns created instance of the [`ExtendedAttribute`](../../extendedattribute) c
 
 ---
 
-## ExtendedAttributeDefinition.CreateExtendedAttribute method (4 of 7)
+## CreateExtendedAttribute(DateTime) {#createextendedattribute_4}
 
 Creates a new extended attribute with the field ID which equals to this object's field ID value and the specified date value.
 
@@ -120,7 +120,7 @@ returns created instance of the [`ExtendedAttribute`](../../extendedattribute) c
 
 ---
 
-## ExtendedAttributeDefinition.CreateExtendedAttribute method (5 of 7)
+## CreateExtendedAttribute(Duration) {#createextendedattribute_1}
 
 Creates a new extended attribute with the field ID which equals to this object's field ID value and the specified duration value.
 
@@ -152,7 +152,7 @@ returns created instance of the [`ExtendedAttribute`](../../extendedattribute) c
 
 ---
 
-## ExtendedAttributeDefinition.CreateExtendedAttribute method (6 of 7)
+## CreateExtendedAttribute(bool) {#createextendedattribute_3}
 
 Creates a new extended attribute with the field ID which equals to this object's field ID value and the specified flag value.
 
@@ -183,7 +183,7 @@ returns created instance of the [`ExtendedAttribute`](../../extendedattribute) c
 
 ---
 
-## ExtendedAttributeDefinition.CreateExtendedAttribute method (7 of 7)
+## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
 Creates new extended attribute linked with specified [`Value`](../../value) item.
 

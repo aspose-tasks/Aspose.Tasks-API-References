@@ -1,7 +1,7 @@
 ---
 title: CostVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between the baseline cost and total cost for a resource.
 type: docs
 weight: 250
 url: /net/aspose.tasks/rsc/costvariance/

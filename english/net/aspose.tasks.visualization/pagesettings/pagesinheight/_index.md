@@ -1,7 +1,7 @@
 ---
 title: PagesInHeight
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of pages in height to be printed.
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/pagesettings/pagesinheight/

@@ -1,9 +1,9 @@
 ---
 title: ResourceViewColumn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects view class used in ResourceUsage view and ResourceSheet view.
 type: docs
-weight: 2970
+weight: 2990
 url: /net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 ## ResourceViewColumn class
@@ -18,9 +18,9 @@ public sealed class ResourceViewColumn : ViewColumn
 
 | Name | Description |
 | --- | --- |
-| [ResourceViewColumn](resourceviewcolumn)(int, Field) | Initializes a new instance of the [`ResourceViewColumn`](../resourceviewcolumn) class. |
-| [ResourceViewColumn](resourceviewcolumn)(string, int, ResourceToColumnTextConverter) | Initializes a new instance of the [`ResourceViewColumn`](../resourceviewcolumn) class. |
-| [ResourceViewColumn](resourceviewcolumn)(string, int, ResourceToColumnTextConverter, Field) | Initializes a new instance of the [`ResourceViewColumn`](../resourceviewcolumn) class. |
+| [ResourceViewColumn](resourceviewcolumn#constructor)(int, Field) | Initializes a new instance of the [`ResourceViewColumn`](../resourceviewcolumn) class. |
+| [ResourceViewColumn](resourceviewcolumn#constructor_1)(string, int, ResourceToColumnTextConverter) | Initializes a new instance of the [`ResourceViewColumn`](../resourceviewcolumn) class. |
+| [ResourceViewColumn](resourceviewcolumn#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | Initializes a new instance of the [`ResourceViewColumn`](../resourceviewcolumn) class. |
 
 ## Properties
 

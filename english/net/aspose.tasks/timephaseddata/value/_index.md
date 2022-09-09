@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the value per unit of time for a time phased data period.
 type: docs
 weight: 100
 url: /net/aspose.tasks/timephaseddata/value/

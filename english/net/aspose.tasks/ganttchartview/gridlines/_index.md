@@ -1,7 +1,7 @@
 ---
 title: Gridlines
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a list of Gridlinesaspose.tasks/ganttchartview/gridlines of the Gantt Chart view.
 type: docs
 weight: 80
 url: /net/aspose.tasks/ganttchartview/gridlines/

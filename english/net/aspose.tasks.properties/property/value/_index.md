@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value of the property.
 type: docs
 weight: 20
 url: /net/aspose.tasks.properties/property/value/

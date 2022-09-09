@@ -1,9 +1,9 @@
 ---
 title: UsageView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represent a usage view in a project.
 type: docs
-weight: 2310
+weight: 2320
 url: /net/aspose.tasks/usageview/
 ---
 ## UsageView class

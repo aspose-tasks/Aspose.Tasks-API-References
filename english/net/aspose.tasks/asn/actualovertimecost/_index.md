@@ -1,7 +1,7 @@
 ---
 title: ActualOvertimeCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The actual overtime cost incurred on an assignment.
 type: docs
 weight: 30
 url: /net/aspose.tasks/asn/actualovertimecost/

@@ -1,7 +1,7 @@
 ---
 title: WorkVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between baseline work of a task and the currently scheduled work.
 type: docs
 weight: 1170
 url: /net/aspose.tasks/tsk/workvariance/

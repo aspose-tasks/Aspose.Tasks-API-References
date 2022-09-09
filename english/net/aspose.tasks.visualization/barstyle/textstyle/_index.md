@@ -1,7 +1,7 @@
 ---
 title: TextStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets style of the bars text.
 type: docs
 weight: 170
 url: /net/aspose.tasks.visualization/barstyle/textstyle/

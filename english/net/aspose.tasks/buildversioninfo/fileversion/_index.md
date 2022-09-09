@@ -1,7 +1,7 @@
 ---
 title: FileVersion
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: File version.
 type: docs
 weight: 30
 url: /net/aspose.tasks/buildversioninfo/fileversion/

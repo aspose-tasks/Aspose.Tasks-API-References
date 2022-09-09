@@ -1,7 +1,7 @@
 ---
 title: TableType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the table type for the specified table. Readonly ItemTypeaspose.tasks/itemtype.
 type: docs
 weight: 120
 url: /net/aspose.tasks/table/tabletype/

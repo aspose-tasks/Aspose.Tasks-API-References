@@ -1,7 +1,7 @@
 ---
 title: BaseCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the base calendar on which this calendar depends. Only applicable if the calendar is not a base calendar. Read/write Calendaraspose.tasks/calendar.
 type: docs
 weight: 40
 url: /net/aspose.tasks/calendar/basecalendar/

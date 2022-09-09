@@ -1,9 +1,9 @@
 ---
 title: Delete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Deletes a resource and its assignments from project.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.tasks/resource/delete/
 ---
 ## Resource.Delete method

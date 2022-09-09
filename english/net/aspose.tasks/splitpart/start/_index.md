@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the start date of a SplitPart.
 type: docs
 weight: 20
 url: /net/aspose.tasks/splitpart/start/

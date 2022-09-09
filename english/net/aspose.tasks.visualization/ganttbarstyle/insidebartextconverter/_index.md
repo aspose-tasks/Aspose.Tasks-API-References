@@ -1,7 +1,7 @@
 ---
 title: InsideBarTextConverter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets userdefined converter to get text to render inside of the tasks bar. Overrides the value of InsideFieldaspose.tasks.visualization/ganttbarstyle/insidefield property.
 type: docs
 weight: 80
 url: /net/aspose.tasks.visualization/ganttbarstyle/insidebartextconverter/

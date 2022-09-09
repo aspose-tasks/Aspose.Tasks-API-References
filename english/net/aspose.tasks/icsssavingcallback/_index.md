@@ -1,7 +1,7 @@
 ---
 title: ICssSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a callback that is called to create resource to store CSS.
 type: docs
 weight: 770
 url: /net/aspose.tasks/icsssavingcallback/

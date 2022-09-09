@@ -1,12 +1,12 @@
 ---
 title: PrimaveraXmlReader
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the PrimaveraXmlReaderaspose.tasks/primaveraxmlreader class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/primaveraxmlreader/primaveraxmlreader/
 ---
-## PrimaveraXmlReader constructor (1 of 2)
+## PrimaveraXmlReader(string) {#constructor_1}
 
 Initializes a new instance of the [`PrimaveraXmlReader`](../../primaveraxmlreader) class.
 
@@ -26,7 +26,7 @@ public PrimaveraXmlReader(string templatePath)
 
 ---
 
-## PrimaveraXmlReader constructor (2 of 2)
+## PrimaveraXmlReader(Stream) {#constructor}
 
 Initializes a new instance of the [`PrimaveraXmlReader`](../../primaveraxmlreader) class.
 

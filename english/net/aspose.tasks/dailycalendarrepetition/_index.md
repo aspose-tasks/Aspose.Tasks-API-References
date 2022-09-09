@@ -1,7 +1,7 @@
 ---
 title: DailyCalendarRepetition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a class for repetitions in daily recurrence pattern based on calendar days.
 type: docs
 weight: 380
 url: /net/aspose.tasks/dailycalendarrepetition/

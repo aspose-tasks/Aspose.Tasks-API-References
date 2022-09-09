@@ -1,7 +1,7 @@
 ---
 title: RateCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection which contains Rate./rate objects.
 type: docs
 weight: 1370
 url: /net/aspose.tasks/ratecollection/
@@ -27,12 +27,12 @@ public class RateCollection : IDictionary<RateType, RateByDateCollection>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/ratecollection/add)(DateTime) | Adds a new [`Rate`](../rate) instance to this collection. |
-| [Add](../../aspose.tasks/ratecollection/add)(DateTime, RateType) | Adds a new [`Rate`](../rate) instance to this collection. |
+| [Add](../../aspose.tasks/ratecollection/add#add)(DateTime) | Adds a new [`Rate`](../rate) instance to this collection. |
+| [Add](../../aspose.tasks/ratecollection/add#add_1)(DateTime, RateType) | Adds a new [`Rate`](../rate) instance to this collection. |
 | [GetEnumerator](../../aspose.tasks/ratecollection/getenumerator)() | Returns an enumerator for this collection. |
 | [Remove](../../aspose.tasks/ratecollection/remove)(Rate) | Removes Rate instance from this collection. |
-| [ToList](../../aspose.tasks/ratecollection/tolist)() | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects. |
-| [ToList](../../aspose.tasks/ratecollection/tolist)(RateType) | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects filtered by specified [`RateType`](../ratetype) type. |
+| [ToList](../../aspose.tasks/ratecollection/tolist#tolist)() | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects. |
+| [ToList](../../aspose.tasks/ratecollection/tolist#tolist_1)(RateType) | Converts the [`RateCollection`](../ratecollection) object to a list of [`Rate`](../rate) objects filtered by specified [`RateType`](../ratetype) type. |
 
 ### See Also
 

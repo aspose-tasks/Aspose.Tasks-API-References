@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts a view collection to a list of Viewaspose.tasks/view objects.
 type: docs
 weight: 120
 url: /net/aspose.tasks/viewcollection/tolist/

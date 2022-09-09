@@ -1,7 +1,7 @@
 ---
 title: CreateWorkTimephased
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates and initializes a new instance of the TimephasedDataaspose.tasks/timephaseddata class for workbased time phased data.
 type: docs
 weight: 40
 url: /net/aspose.tasks/timephaseddata/createworktimephased/

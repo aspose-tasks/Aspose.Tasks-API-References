@@ -1,7 +1,7 @@
 ---
 title: Alg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Processes an object in the list. Called after PreAlgaspose.tasks.util/ialgorithm1/prealg
 type: docs
 weight: 10
 url: /net/aspose.tasks.util/ialgorithm-1/alg/

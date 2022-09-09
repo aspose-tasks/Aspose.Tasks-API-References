@@ -1,7 +1,7 @@
 ---
 title: ExternalId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: If a task is an external task it contains the tasks external Id.
 type: docs
 weight: 370
 url: /net/aspose.tasks/tsk/externalid/

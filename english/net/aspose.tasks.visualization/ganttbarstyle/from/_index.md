@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a start point position of the gantt bar. Fieldaspose.tasks/field.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/ganttbarstyle/from/

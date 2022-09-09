@@ -1,7 +1,7 @@
 ---
 title: Created
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date when a task was created.
 type: docs
 weight: 250
 url: /net/aspose.tasks/tsk/created/

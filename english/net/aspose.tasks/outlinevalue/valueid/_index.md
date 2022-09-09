@@ -1,7 +1,7 @@
 ---
 title: ValueId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the unique Id of an outline code value within a project.
 type: docs
 weight: 90
 url: /net/aspose.tasks/outlinevalue/valueid/

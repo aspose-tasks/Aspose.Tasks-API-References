@@ -1,12 +1,12 @@
 ---
 title: Set
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Maps the specified property to the specified value in this container.
 type: docs
 weight: 440
 url: /net/aspose.tasks/project/set/
 ---
-## Project.Set&lt;T&gt; method (1 of 2)
+## Set&lt;T&gt;(Key&lt;T, PrjKey&gt;, T) {#set_1}
 
 Maps the specified property to the specified value in this container.
 
@@ -30,7 +30,7 @@ public void Set<T>(Key<T, PrjKey> key, T val)
 
 ---
 
-## Project.Set method (2 of 2)
+## Set(Key&lt;DateTime, PrjKey&gt;, DateTime) {#set}
 
 Maps the specified property to the specified value in this container.
 

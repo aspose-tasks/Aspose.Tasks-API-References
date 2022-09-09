@@ -1,7 +1,7 @@
 ---
 title: MonthlyOrdinalRepetitions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of repetitions for the monthly recurrence pattern when using ordinal day.
 type: docs
 weight: 80
 url: /net/aspose.tasks/recurringtaskinfo/monthlyordinalrepetitions/

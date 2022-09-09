@@ -1,7 +1,7 @@
 ---
 title: IncludeHeaders
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to include headers or not default value is TRUE.
 type: docs
 weight: 40
 url: /net/aspose.tasks.saving/csvoptions/includeheaders/

@@ -1,7 +1,7 @@
 ---
 title: RightField
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a field to be displayed on the right of the bar.
 type: docs
 weight: 140
 url: /net/aspose.tasks.visualization/barstyle/rightfield/

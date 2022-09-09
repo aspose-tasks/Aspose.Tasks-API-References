@@ -1,7 +1,7 @@
 ---
 title: Group
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The group to which a resource belongs.
 type: docs
 weight: 300
 url: /net/aspose.tasks/rsc/group/

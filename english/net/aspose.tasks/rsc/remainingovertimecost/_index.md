@@ -1,7 +1,7 @@
 ---
 title: RemainingOvertimeCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The remaining scheduled overtime expense for a resource.
 type: docs
 weight: 600
 url: /net/aspose.tasks/rsc/remainingovertimecost/

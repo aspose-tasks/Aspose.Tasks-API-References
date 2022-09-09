@@ -1,7 +1,7 @@
 ---
 title: ParseTimeSpan
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Parses duration string in format PTHMS.
 type: docs
 weight: 130
 url: /net/aspose.tasks/duration/parsetimespan/

@@ -1,12 +1,12 @@
 ---
 title: GanttChartColumn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the GanttChartColumn class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/ganttchartcolumn/ganttchartcolumn/
 ---
-## GanttChartColumn constructor (1 of 4)
+## GanttChartColumn(string, int, TaskToColumnTextConverter, Field) {#constructor_3}
 
 Initializes a new instance of the GanttChartColumn class.
 
@@ -31,7 +31,7 @@ public GanttChartColumn(string name, int width, TaskToColumnTextConverter conver
 
 ---
 
-## GanttChartColumn constructor (2 of 4)
+## GanttChartColumn(string, int, TaskToColumnTextConverter) {#constructor_2}
 
 Initializes a new instance of the GanttChartColumn class.
 
@@ -54,7 +54,7 @@ public GanttChartColumn(string name, int width, TaskToColumnTextConverter conver
 
 ---
 
-## GanttChartColumn constructor (3 of 4)
+## GanttChartColumn(int, Field) {#constructor}
 
 Initializes a new instance of the GanttChartColumn class.
 
@@ -76,7 +76,7 @@ public GanttChartColumn(int width, Field field)
 
 ---
 
-## GanttChartColumn constructor (4 of 4)
+## GanttChartColumn(string, int, Field) {#constructor_1}
 
 Initializes a new instance of the GanttChartColumn class.
 

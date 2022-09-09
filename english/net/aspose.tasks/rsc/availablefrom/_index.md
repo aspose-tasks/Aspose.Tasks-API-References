@@ -1,7 +1,7 @@
 ---
 title: AvailableFrom
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The starting date that a resource is available for work at the units specified for the current time period.
 type: docs
 weight: 120
 url: /net/aspose.tasks/rsc/availablefrom/

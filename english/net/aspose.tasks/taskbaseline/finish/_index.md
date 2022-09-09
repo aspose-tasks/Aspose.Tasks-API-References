@@ -1,7 +1,7 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the scheduled finish date of the task when the baseline was saved.
 type: docs
 weight: 50
 url: /net/aspose.tasks/taskbaseline/finish/

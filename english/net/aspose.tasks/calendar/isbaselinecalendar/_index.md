@@ -1,7 +1,7 @@
 ---
 title: IsBaselineCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the calendar is a baseline calendar. Read/write Boolean.
 type: docs
 weight: 70
 url: /net/aspose.tasks/calendar/isbaselinecalendar/

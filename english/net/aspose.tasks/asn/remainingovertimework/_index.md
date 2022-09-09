@@ -1,7 +1,7 @@
 ---
 title: RemainingOvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The remaining overtime work scheduled to complete an assignment.
 type: docs
 weight: 450
 url: /net/aspose.tasks/asn/remainingovertimework/

@@ -1,7 +1,7 @@
 ---
 title: ParentGroup
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent of the GroupCriterion object.
 type: docs
 weight: 30
 url: /net/aspose.tasks/groupcriterioncollection/parentgroup/

@@ -16,6 +16,7 @@ Contains useful static methods.
 | [AndAllCondition&lt;T&gt;](./andallcondition-1) | Applies logical AND to all conditions. For example: cond1 AND cond2 AND cond3... |
 | [CheckCircuit](./checkcircuit) | Checks a tree (of tasks) whether it contains a circuit. |
 | [ChildTasksCollector](./childtaskscollector) | Collects all child tasks. |
+| [FieldHelper](./fieldhelper) | Helper class which provides useful operations with fields. |
 | [ListUtils](./listutils) | Utility class for list processing. |
 | [Not&lt;T&gt;](./not-1) | Applies logical NOT to the specified condition. |
 | [RemoveTask](./removetask) | Removes the specified task from a tree of tasks. |

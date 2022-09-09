@@ -1,7 +1,7 @@
 ---
 title: Bcwp
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the budgeted cost of a work performed by a resource for a project todate.
 type: docs
 weight: 30
 url: /net/aspose.tasks/baseline/bcwp/

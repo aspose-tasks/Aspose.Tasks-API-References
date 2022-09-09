@@ -1,7 +1,7 @@
 ---
 title: IncludeProjectNameInPageHeader
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to include project name in HTML page header.
 type: docs
 weight: 120
 url: /net/aspose.tasks.saving/htmlsaveoptions/includeprojectnameinpageheader/

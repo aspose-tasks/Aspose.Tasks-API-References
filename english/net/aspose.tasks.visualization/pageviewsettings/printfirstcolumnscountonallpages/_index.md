@@ -1,7 +1,7 @@
 ---
 title: PrintFirstColumnsCountOnAllPages
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to print a specified number of first columns on all pages.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/pageviewsettings/printfirstcolumnscountonallpages/

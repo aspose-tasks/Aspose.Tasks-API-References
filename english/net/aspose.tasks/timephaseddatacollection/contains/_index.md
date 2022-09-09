@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the TimephasedDataCollectionaspose.tasks/timephaseddatacollection contains a specific value.
 type: docs
 weight: 80
 url: /net/aspose.tasks/timephaseddatacollection/contains/

@@ -1,7 +1,7 @@
 ---
 title: Operation
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the criterion established with FieldName Test and Value relates to other criteria in the filter.
 type: docs
 weight: 40
 url: /net/aspose.tasks/filtercriteria/operation/

@@ -1,7 +1,7 @@
 ---
 title: KeyTK
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a property key of a class of the specified type. An instance of this class is used when getting or setting property of a container.
 type: docs
 weight: 840
 url: /net/aspose.tasks/key-2/
@@ -19,6 +19,12 @@ public struct Key<T, K>
 | --- | --- |
 | T | The type of property value. |
 | K | The type of property key. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [KeyType](../../aspose.tasks/key`2/keytype) { get; } | Gets the key of the property. |
 
 ### See Also
 

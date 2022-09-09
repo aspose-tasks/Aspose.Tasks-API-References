@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the start date of the recurrence range of the recurring task.
 type: docs
 weight: 10
 url: /net/aspose.tasks/recurrencerangebase/start/

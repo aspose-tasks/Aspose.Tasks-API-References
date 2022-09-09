@@ -1,7 +1,7 @@
 ---
 title: LagFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the format for expressing the lag format.
 type: docs
 weight: 30
 url: /net/aspose.tasks/tasklink/lagformat/

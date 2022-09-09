@@ -1,7 +1,7 @@
 ---
 title: RowUid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a row unique id. Return 1 if the style is to be applied to all rows of a view.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/tabletextstyle/rowuid/

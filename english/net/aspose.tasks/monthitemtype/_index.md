@@ -1,7 +1,7 @@
 ---
 title: MonthItemType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the month item for which an exception recurrence is scheduled.
 type: docs
 weight: 910
 url: /net/aspose.tasks/monthitemtype/

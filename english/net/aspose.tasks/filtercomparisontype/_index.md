@@ -1,7 +1,7 @@
 ---
 title: FilterComparisonType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The type of comparison made between FieldName and Value that acts as selection criteria for the filter.
 type: docs
 weight: 610
 url: /net/aspose.tasks/filtercomparisontype/

@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the type of item in the single view such as tasks or resources. Readonly ItemTypeaspose.tasks/itemtype.
 type: docs
 weight: 110
 url: /net/aspose.tasks/view/type/

@@ -1,7 +1,7 @@
 ---
 title: DefaultStartTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The default start time of new tasks.
 type: docs
 weight: 260
 url: /net/aspose.tasks/prj/defaultstarttime/

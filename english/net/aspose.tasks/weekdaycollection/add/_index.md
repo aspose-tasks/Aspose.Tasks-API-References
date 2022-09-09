@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds a WeekDayaspose.tasks/weekday instance to this object.
 type: docs
 weight: 30
 url: /net/aspose.tasks/weekdaycollection/add/

@@ -1,7 +1,7 @@
 ---
 title: Table
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a table in Project
 type: docs
 weight: 2020
 url: /net/aspose.tasks/table/

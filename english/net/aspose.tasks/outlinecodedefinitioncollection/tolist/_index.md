@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts this OutlineCodeDefinitionCollection object to a list of OutlineCodeDefinitionaspose.tasks/outlinecodedefinition objects.
 type: docs
 weight: 130
 url: /net/aspose.tasks/outlinecodedefinitioncollection/tolist/

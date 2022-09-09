@@ -1,7 +1,7 @@
 ---
 title: OvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of overtime scheduled to be performed by a resource on a task and charged at the overtime rates of the resources involved.
 type: docs
 weight: 540
 url: /net/aspose.tasks/rsc/overtimework/

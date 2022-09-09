@@ -1,7 +1,7 @@
 ---
 title: GetTaskFinishDateFromDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Calculates the task finish date and time from its start date split parts and the duration.
 type: docs
 weight: 200
 url: /net/aspose.tasks/calendar/gettaskfinishdatefromduration/

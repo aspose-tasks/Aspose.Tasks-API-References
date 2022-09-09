@@ -1,7 +1,7 @@
 ---
 title: MiddleShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a middle shape of the bar.
 type: docs
 weight: 130
 url: /net/aspose.tasks.visualization/ganttbarstyle/middleshape/

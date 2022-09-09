@@ -1,9 +1,9 @@
 ---
 title: TaskUtils
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Helper class which provides useful operations with tasks.
 type: docs
-weight: 2420
+weight: 2440
 url: /net/aspose.tasks.util/taskutils/
 ---
 ## TaskUtils class

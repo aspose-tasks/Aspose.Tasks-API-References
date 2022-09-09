@@ -1,7 +1,7 @@
 ---
 title: DailyDayNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the daily day number.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/recurringinterval/dailydaynumber/

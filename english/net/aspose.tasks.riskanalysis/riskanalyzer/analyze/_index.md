@@ -1,7 +1,7 @@
 ---
 title: Analyze
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Performs risk analysis for the specified project. The analysis is based on Monte Carlo simulation and the result is an instance of the RiskAnalysisResultaspose.tasks.riskanalysis/riskanalysisresult class.
 type: docs
 weight: 30
 url: /net/aspose.tasks.riskanalysis/riskanalyzer/analyze/

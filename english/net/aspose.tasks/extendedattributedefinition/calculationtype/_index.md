@@ -1,7 +1,7 @@
 ---
 title: CalculationType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the type of calculation of the custom attributes value.
 type: docs
 weight: 80
 url: /net/aspose.tasks/extendedattributedefinition/calculationtype/

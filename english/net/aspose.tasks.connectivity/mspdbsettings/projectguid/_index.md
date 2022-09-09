@@ -1,7 +1,7 @@
 ---
 title: ProjectGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the guid of the project to read.
 type: docs
 weight: 20
 url: /net/aspose.tasks.connectivity/mspdbsettings/projectguid/

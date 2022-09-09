@@ -1,7 +1,7 @@
 ---
 title: LeftImage
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the left aligned image to be displayed in the page legend.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/pagelegend/leftimage/

@@ -1,7 +1,7 @@
 ---
 title: RollUpGanttBars
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether bars on the Gantt Chart must be rolled up.
 type: docs
 weight: 130
 url: /net/aspose.tasks/ganttchartview/rollupganttbars/

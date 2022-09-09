@@ -1,7 +1,7 @@
 ---
 title: Column
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets ViewColumnaspose.tasks.visualization/viewcolumn to which the currently rendered cell belongs.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/tasktextstyleeventargs/column/

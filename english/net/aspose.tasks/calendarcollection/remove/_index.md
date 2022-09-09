@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes Calendar from Project CalendarCollection.
 type: docs
 weight: 70
 url: /net/aspose.tasks/calendarcollection/remove/

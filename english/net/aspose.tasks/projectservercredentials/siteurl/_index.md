@@ -1,7 +1,7 @@
 ---
 title: SiteUrl
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the URL of PWA at SharePoint site or URL of onpremise Project Server. For example https//your_company_name.sharepoint.com/sites/pwa
 type: docs
 weight: 30
 url: /net/aspose.tasks/projectservercredentials/siteurl/

@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the index of a Filteraspose.tasks/filter object in the Filters containing object.
 type: docs
 weight: 40
 url: /net/aspose.tasks/filter/index/

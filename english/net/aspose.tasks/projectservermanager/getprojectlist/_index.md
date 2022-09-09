@@ -1,7 +1,7 @@
 ---
 title: GetProjectList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the list of projects from Working store of the current Project Online account  Project Server instance.
 type: docs
 weight: 50
 url: /net/aspose.tasks/projectservermanager/getprojectlist/

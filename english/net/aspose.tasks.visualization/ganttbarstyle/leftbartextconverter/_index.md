@@ -1,7 +1,7 @@
 ---
 title: LeftBarTextConverter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets userdefined converter to get text to render on the left of the tasks bar. Overrides the value of LeftFieldaspose.tasks.visualization/ganttbarstyle/leftfield property. Is not persisted to MPP format.
 type: docs
 weight: 100
 url: /net/aspose.tasks.visualization/ganttbarstyle/leftbartextconverter/

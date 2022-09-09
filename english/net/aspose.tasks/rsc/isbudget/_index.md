@@ -1,7 +1,7 @@
 ---
 title: IsBudget
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a work material or cost resource is a budget resource.
 type: docs
 weight: 380
 url: /net/aspose.tasks/rsc/isbudget/

@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents duration in a project.
 type: docs
 weight: 460
 url: /net/aspose.tasks/duration/
@@ -28,14 +28,14 @@ public struct Duration : IEquatable<Duration>
 | Name | Description |
 | --- | --- |
 | static [Parse](../../aspose.tasks/duration/parse)(Project, string) | Converts the specified string to the instance of [`Duration`](../duration) struct. |
-| [Add](../../aspose.tasks/duration/add)(double) | Adds specified double value to this duration. |
-| [Add](../../aspose.tasks/duration/add)(Duration) | Adds specified duration to this duration. |
+| [Add](../../aspose.tasks/duration/add#add_1)(double) | Adds specified double value to this duration. |
+| [Add](../../aspose.tasks/duration/add#add)(Duration) | Adds specified duration to this duration. |
 | [Convert](../../aspose.tasks/duration/convert)(TimeUnitType) | Converts Duration object to another duration with specified time units. |
-| [Equals](../../aspose.tasks/duration/equals)(Duration) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](../../aspose.tasks/duration/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/duration/equals#equals)(Duration) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/duration/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/duration/gethashcode)() | Returns a hash code value for this object. |
-| [Subtract](../../aspose.tasks/duration/subtract)(double) | Subtracts specified double value from this duration instance. |
-| [Subtract](../../aspose.tasks/duration/subtract)(Duration) | Subtracts specified duration from this duration instance. |
+| [Subtract](../../aspose.tasks/duration/subtract#subtract_1)(double) | Subtracts specified double value from this duration instance. |
+| [Subtract](../../aspose.tasks/duration/subtract#subtract)(Duration) | Subtracts specified duration from this duration instance. |
 | [ToDouble](../../aspose.tasks/duration/todouble)() | Converts Duration object to Double value. |
 | override [ToString](../../aspose.tasks/duration/tostring)() | Returns a string representation of this instance. |
 | static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan)(string) | Parses duration string in format "PT--H--M--S--". |

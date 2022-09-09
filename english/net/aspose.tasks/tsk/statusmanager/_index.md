@@ -1,7 +1,7 @@
 ---
 title: StatusManager
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The name of the enterprise resource who is to receive status updates for the current task from resources.
 type: docs
 weight: 1060
 url: /net/aspose.tasks/tsk/statusmanager/

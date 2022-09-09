@@ -1,7 +1,7 @@
 ---
 title: Inactive
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a resource was made inactive by a user who has administrative rights.
 type: docs
 weight: 360
 url: /net/aspose.tasks/rsc/inactive/

@@ -1,7 +1,7 @@
 ---
 title: FieldType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the object field type.
 type: docs
 weight: 30
 url: /net/aspose.tasks/parseerrorargs/fieldtype/

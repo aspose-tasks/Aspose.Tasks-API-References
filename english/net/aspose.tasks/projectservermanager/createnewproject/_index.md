@@ -1,12 +1,12 @@
 ---
 title: CreateNewProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates new project in Project ServerProject Online instance using default save options.
 type: docs
 weight: 30
 url: /net/aspose.tasks/projectservermanager/createnewproject/
 ---
-## ProjectServerManager.CreateNewProject method (1 of 2)
+## CreateNewProject(Project) {#createnewproject}
 
 Creates new project in Project Server\Project Online instance using default save options.
 
@@ -45,7 +45,7 @@ manager.CreateNewProject(project);
 
 ---
 
-## ProjectServerManager.CreateNewProject method (2 of 2)
+## CreateNewProject(Project, ProjectServerSaveOptions) {#createnewproject_1}
 
 Creates new project in Project Server\Project Online instance using the specified save options.
 

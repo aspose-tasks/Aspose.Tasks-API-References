@@ -1,7 +1,7 @@
 ---
 title: YearlyOrdinalMonth
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a month of the yearly recurrence pattern when using ordinal day. Can be one of the values of Monthaspose.tasks/month enumeration.
 type: docs
 weight: 200
 url: /net/aspose.tasks/recurringtaskinfo/yearlyordinalmonth/

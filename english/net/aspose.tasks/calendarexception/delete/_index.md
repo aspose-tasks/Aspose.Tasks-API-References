@@ -1,7 +1,7 @@
 ---
 title: Delete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Deletes the Exception instance from parent calendar CalendarExceptionCollection object.
 type: docs
 weight: 180
 url: /net/aspose.tasks/calendarexception/delete/

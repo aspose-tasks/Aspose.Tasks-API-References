@@ -1,7 +1,7 @@
 ---
 title: ShowForTaskUid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Unique Id of a task for which the style is applied. Is applicable for taskspecific styles of bars in Gantt chart see CustomBarStylesaspose.tasks/ganttchartview/custombarstyles.
 type: docs
 weight: 210
 url: /net/aspose.tasks.visualization/ganttbarstyle/showfortaskuid/

@@ -1,7 +1,7 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies a field in the Microsoft Office Project.
 type: docs
 weight: 570
 url: /net/aspose.tasks/field/

@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts a table collection to a list of Tableaspose.tasks/table objects.
 type: docs
 weight: 100
 url: /net/aspose.tasks/tablecollection/tolist/

@@ -1,7 +1,7 @@
 ---
 title: ActualWorkProtected
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of work through which actual work is protected.
 type: docs
 weight: 80
 url: /net/aspose.tasks/rsc/actualworkprotected/

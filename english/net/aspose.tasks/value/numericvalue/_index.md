@@ -1,7 +1,7 @@
 ---
 title: NumericValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the actual value which is used to represent number or cost value.
 type: docs
 weight: 60
 url: /net/aspose.tasks/value/numericvalue/

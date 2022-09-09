@@ -1,7 +1,7 @@
 ---
 title: NewTasksEstimated
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether an estimated duration is shown by default.
 type: docs
 weight: 560
 url: /net/aspose.tasks/prj/newtasksestimated/

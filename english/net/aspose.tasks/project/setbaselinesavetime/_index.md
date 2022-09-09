@@ -1,7 +1,7 @@
 ---
 title: SetBaselineSaveTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Sets the baseline save time.
 type: docs
 weight: 460
 url: /net/aspose.tasks/project/setbaselinesavetime/

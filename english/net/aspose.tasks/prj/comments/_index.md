@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects comments.
 type: docs
 weight: 100
 url: /net/aspose.tasks/prj/comments/

@@ -1,7 +1,7 @@
 ---
 title: CenteredImageSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the displayed size of the center image.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/headerfooterinfo/centeredimagesize/

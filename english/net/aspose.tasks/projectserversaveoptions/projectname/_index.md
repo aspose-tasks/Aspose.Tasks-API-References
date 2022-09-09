@@ -1,7 +1,7 @@
 ---
 title: ProjectName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets name of a project which is displayed in Project Server  Project Online projects list. Should be unique within Project Server  Project Online instance. Is the value is omitted the value of Prj.Name property will be used instead.
 type: docs
 weight: 40
 url: /net/aspose.tasks/projectserversaveoptions/projectname/

@@ -1,12 +1,12 @@
 ---
 title: Project
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the Projectaspose.tasks/project class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/project/project/
 ---
-## Project constructor (1 of 13)
+## Project() {#constructor}
 
 Initializes a new instance of the [`Project`](../../project) class.
 
@@ -22,7 +22,7 @@ public Project()
 
 ---
 
-## Project constructor (2 of 13)
+## Project(string, string) {#constructor_16}
 
 Initializes a new instance of the [`Project`](../../project) class from a password protected template (existent mpp or mpt file).
 
@@ -47,7 +47,7 @@ Reading password protected files currently supported for MSP 2003 file format on
 
 ---
 
-## Project constructor (3 of 13)
+## Project(string) {#constructor_10}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
 
@@ -67,7 +67,7 @@ public Project(string projectTemplate)
 
 ---
 
-## Project constructor (4 of 13)
+## Project(Stream, PrimaveraReadOptions) {#constructor_6}
 
 Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
 
@@ -89,7 +89,7 @@ public Project(Stream stream, PrimaveraReadOptions options)
 
 ---
 
-## Project constructor (5 of 13)
+## Project(string, ParseErrorCallback) {#constructor_12}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
 
@@ -111,7 +111,7 @@ public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 
 ---
 
-## Project constructor (6 of 13)
+## Project(Stream) {#constructor_2}
 
 Initializes a new instance of the [`Project`](../../project) class from a stream.
 
@@ -131,7 +131,7 @@ public Project(Stream stream)
 
 ---
 
-## Project constructor (7 of 13)
+## Project(StreamReader) {#constructor_9}
 
 Initializes a new instance of the [`Project`](../../project) class from a StreamReader instance.
 
@@ -151,7 +151,7 @@ public Project(StreamReader reader)
 
 ---
 
-## Project constructor (8 of 13)
+## Project(string, PrimaveraReadOptions) {#constructor_14}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
 
@@ -173,7 +173,7 @@ public Project(string projectTemplate, PrimaveraReadOptions options)
 
 ---
 
-## Project constructor (9 of 13)
+## Project(DbSettings) {#constructor_1}
 
 Initializes a new instance of the [`Project`](../../project) class to read data from a database which is specified by the instance of the [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) class.
 
@@ -194,7 +194,7 @@ public Project(DbSettings settings)
 
 ---
 
-## Project constructor (10 of 13)
+## Project(Stream, ParseErrorCallback) {#constructor_4}
 
 Initializes a new instance of the [`Project`](../../project) class from a template(existent mpp or mpt file).
 
@@ -216,7 +216,7 @@ public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 
 ---
 
-## Project constructor (11 of 13)
+## Project(Stream, string) {#constructor_8}
 
 Initializes a new instance of the [`Project`](../../project) class from a template(existent mpp or mpt file).
 
@@ -241,7 +241,7 @@ Reading password protected files currently supported for MSP 2003 file format on
 
 ---
 
-## Project constructor (12 of 13)
+## Project(string, LoadOptions) {#constructor_11}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../../loadoptions) class.
 
@@ -263,7 +263,7 @@ public Project(string projectTemplate, LoadOptions options)
 
 ---
 
-## Project constructor (13 of 13)
+## Project(Stream, LoadOptions) {#constructor_3}
 
 Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`LoadOptions`](../../loadoptions) class.
 

@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the PdfSaveOptionsaspose.tasks.saving/pdfsaveoptions class that can be used to save a document in the PDFaspose.tasks.saving/savefileformat format.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/pdfsaveoptions/pdfsaveoptions/

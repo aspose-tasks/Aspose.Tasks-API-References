@@ -1,7 +1,7 @@
 ---
 title: TopTimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets settings of views top timescale tier. TimescaleTieraspose.tasks.visualization/timescaletier.
 type: docs
 weight: 190
 url: /net/aspose.tasks/ganttchartview/toptimescaletier/

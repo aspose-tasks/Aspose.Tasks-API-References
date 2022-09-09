@@ -1,7 +1,7 @@
 ---
 title: FillPattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets fill pattern.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/visualobjectplacement/fillpattern/

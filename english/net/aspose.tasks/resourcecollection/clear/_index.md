@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Direct clearing is not supported this method just throw NotSupportedException.
 type: docs
 weight: 50
 url: /net/aspose.tasks/resourcecollection/clear/

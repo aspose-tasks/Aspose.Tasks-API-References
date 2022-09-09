@@ -1,7 +1,7 @@
 ---
 title: CenteredText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the centered text to display in the page legend.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/pagelegend/centeredtext/

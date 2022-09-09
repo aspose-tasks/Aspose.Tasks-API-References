@@ -1,7 +1,7 @@
 ---
 title: DurationFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Task duration format.
 type: docs
 weight: 310
 url: /net/aspose.tasks/tsk/durationformat/

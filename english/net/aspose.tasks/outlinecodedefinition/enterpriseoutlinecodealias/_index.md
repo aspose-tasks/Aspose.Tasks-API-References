@@ -1,7 +1,7 @@
 ---
 title: EnterpriseOutlineCodeAlias
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a reference to another custom field for which this outline code definition is an alias.
 type: docs
 weight: 50
 url: /net/aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/

@@ -1,7 +1,7 @@
 ---
 title: Margins
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets an instance of the PageMarginsaspose.tasks.visualization/pagemargins class which specifies page margins.
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/pageinfo/margins/

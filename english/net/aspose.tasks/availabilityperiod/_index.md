@@ -1,7 +1,7 @@
 ---
 title: AvailabilityPeriod
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a period when a resource is available.
 type: docs
 weight: 70
 url: /net/aspose.tasks/availabilityperiod/

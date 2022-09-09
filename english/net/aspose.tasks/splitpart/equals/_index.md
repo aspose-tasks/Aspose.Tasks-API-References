@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Compares two split parts.
 type: docs
 weight: 30
 url: /net/aspose.tasks/splitpart/equals/

@@ -1,7 +1,7 @@
 ---
 title: Occurrences
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the number of occurrences for which the calendar exception is valid.
 type: docs
 weight: 110
 url: /net/aspose.tasks/calendarexception/occurrences/

@@ -1,7 +1,7 @@
 ---
 title: ParentCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent calendar for this object.
 type: docs
 weight: 120
 url: /net/aspose.tasks/calendarexception/parentcalendar/

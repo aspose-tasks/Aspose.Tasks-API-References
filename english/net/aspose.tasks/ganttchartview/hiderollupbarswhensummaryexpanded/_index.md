@@ -1,7 +1,7 @@
 ---
 title: HideRollupBarsWhenSummaryExpanded
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether rollup bars will be hidden when expanding summary task.
 type: docs
 weight: 90
 url: /net/aspose.tasks/ganttchartview/hiderollupbarswhensummaryexpanded/

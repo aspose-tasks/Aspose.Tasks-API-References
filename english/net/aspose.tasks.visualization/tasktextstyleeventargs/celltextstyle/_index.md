@@ -1,7 +1,7 @@
 ---
 title: CellTextStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets TextStyle which will be used to draw the cells content. This object can be use to customize appearance of a table cell.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/tasktextstyleeventargs/celltextstyle/

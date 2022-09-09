@@ -1,7 +1,7 @@
 ---
 title: Top
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the size of the top margin in inches or centimeters.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/pagemargins/top/

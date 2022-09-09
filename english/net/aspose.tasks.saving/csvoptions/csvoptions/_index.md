@@ -1,7 +1,7 @@
 ---
 title: CsvOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the CsvOptionsaspose.tasks.saving/csvoptions class which can be used to save project in CSV format.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/csvoptions/csvoptions/

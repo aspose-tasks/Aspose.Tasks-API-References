@@ -1,7 +1,7 @@
 ---
 title: UseGradientBrush
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to use gradient brush when rendering project layout. Currently using of gradient brush is not supported when rendering to HTML.
 type: docs
 weight: 170
 url: /net/aspose.tasks.saving/htmlsaveoptions/usegradientbrush/

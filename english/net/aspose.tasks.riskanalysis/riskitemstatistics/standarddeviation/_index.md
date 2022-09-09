@@ -1,7 +1,7 @@
 ---
 title: StandardDeviation
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the standard deviation of the risk item.
 type: docs
 weight: 50
 url: /net/aspose.tasks.riskanalysis/riskitemstatistics/standarddeviation/

@@ -1,7 +1,7 @@
 ---
 title: GetDefaultTaskSheetView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Includes id indicators name duration start finish predecessors and resource names task columns.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/projectview/getdefaulttasksheetview/

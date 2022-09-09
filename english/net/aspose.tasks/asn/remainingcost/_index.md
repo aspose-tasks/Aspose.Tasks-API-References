@@ -1,7 +1,7 @@
 ---
 title: RemainingCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The remaining projected cost of completing an assignment.
 type: docs
 weight: 430
 url: /net/aspose.tasks/asn/remainingcost/

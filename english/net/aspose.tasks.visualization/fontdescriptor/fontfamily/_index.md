@@ -1,7 +1,7 @@
 ---
 title: FontFamily
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the name of the fonts family.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/fontdescriptor/fontfamily/

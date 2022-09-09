@@ -1,7 +1,7 @@
 ---
 title: OccurrenceNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the number of occurrences which limits the recurrence range of the recurring task.
 type: docs
 weight: 20
 url: /net/aspose.tasks/endafterrecurrencerange/occurrencenumber/

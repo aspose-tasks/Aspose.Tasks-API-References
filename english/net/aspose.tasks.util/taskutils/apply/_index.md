@@ -1,7 +1,7 @@
 ---
 title: Apply
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Applies specified algorithm to each task of a tree.
 type: docs
 weight: 10
 url: /net/aspose.tasks.util/taskutils/apply/

@@ -1,7 +1,7 @@
 ---
 title: ActualOvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The actual amount of an overtime work incurred on an assignment.
 type: docs
 weight: 40
 url: /net/aspose.tasks/asn/actualovertimework/

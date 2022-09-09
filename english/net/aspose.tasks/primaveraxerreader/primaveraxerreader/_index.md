@@ -1,12 +1,12 @@
 ---
 title: PrimaveraXerReader
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the PrimaveraXerReaderaspose.tasks/primaveraxerreader class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/primaveraxerreader/primaveraxerreader/
 ---
-## PrimaveraXerReader constructor (1 of 2)
+## PrimaveraXerReader(string) {#constructor_1}
 
 Initializes a new instance of the [`PrimaveraXerReader`](../../primaveraxerreader) class.
 
@@ -26,7 +26,7 @@ public PrimaveraXerReader(string xerFilePath)
 
 ---
 
-## PrimaveraXerReader constructor (2 of 2)
+## PrimaveraXerReader(Stream) {#constructor}
 
 Initializes a new instance of the [`PrimaveraXerReader`](../../primaveraxerreader) class.
 

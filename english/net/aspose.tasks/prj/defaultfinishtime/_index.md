@@ -1,7 +1,7 @@
 ---
 title: DefaultFinishTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The default finish time of new tasks.
 type: docs
 weight: 220
 url: /net/aspose.tasks/prj/defaultfinishtime/

@@ -1,7 +1,7 @@
 ---
 title: StandardRate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The rate of pay for regular nonovertime work performed by a resource.
 type: docs
 weight: 630
 url: /net/aspose.tasks/rsc/standardrate/

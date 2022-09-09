@@ -1,12 +1,12 @@
 ---
 title: CreateTaskDefinition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Factory method which creates a simple extended attribute definition which Microsoft Project shows as None. It has CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype equals to None and can be used in Tasks only. You are required to specify customFieldType fieldId and alias when calling this method.
 type: docs
 weight: 40
 url: /net/aspose.tasks/extendedattributedefinition/createtaskdefinition/
 ---
-## ExtendedAttributeDefinition.CreateTaskDefinition method (1 of 2)
+## CreateTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createtaskdefinition}
 
 Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype) equals to None and can be used in Tasks only. You are required to specify *customFieldType*, *fieldId* and *alias* when calling this method.
 
@@ -44,7 +44,7 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ---
 
-## ExtendedAttributeDefinition.CreateTaskDefinition method (2 of 2)
+## CreateTaskDefinition(ExtendedAttributeTask, string) {#createtaskdefinition_1}
 
 Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype) equals to None and can be used in Tasks only. You are required to specify *fieldId* and *alias* when calling this method. The field type is inferred from field id.
 

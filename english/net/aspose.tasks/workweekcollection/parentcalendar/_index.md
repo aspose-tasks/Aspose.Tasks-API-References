@@ -1,7 +1,7 @@
 ---
 title: ParentCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent calendar.
 type: docs
 weight: 30
 url: /net/aspose.tasks/workweekcollection/parentcalendar/

@@ -1,7 +1,7 @@
 ---
 title: AssignmentView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a list of the assignments view columns to render AssignmentViewColumnaspose.tasks.visualization/assignmentviewcolumn.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/spreadsheet2003saveoptions/assignmentview/

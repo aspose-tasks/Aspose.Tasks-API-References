@@ -1,12 +1,12 @@
 ---
 title: SaveAsTemplate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Saves the project as a template.
 type: docs
 weight: 410
 url: /net/aspose.tasks/project/saveastemplate/
 ---
-## Project.SaveAsTemplate method (1 of 4)
+## SaveAsTemplate(string, SaveTemplateOptions) {#saveastemplate_3}
 
 Saves the project as a template.
 
@@ -28,7 +28,7 @@ public void SaveAsTemplate(string fileName, SaveTemplateOptions options)
 
 ---
 
-## Project.SaveAsTemplate method (2 of 4)
+## SaveAsTemplate(string) {#saveastemplate_2}
 
 Saves the project as a template to the specified file path.
 
@@ -48,7 +48,7 @@ public void SaveAsTemplate(string fileName)
 
 ---
 
-## Project.SaveAsTemplate method (3 of 4)
+## SaveAsTemplate(Stream) {#saveastemplate}
 
 Saves the project as a template to a specified stream.
 
@@ -68,7 +68,7 @@ public void SaveAsTemplate(Stream stream)
 
 ---
 
-## Project.SaveAsTemplate method (4 of 4)
+## SaveAsTemplate(Stream, SaveTemplateOptions) {#saveastemplate_1}
 
 Saves the project as a template to a specified stream.
 

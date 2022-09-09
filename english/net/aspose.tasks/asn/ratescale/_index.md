@@ -1,7 +1,7 @@
 ---
 title: RateScale
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The time unit for the usage rate of the material resource assignment. Returns 0 if not defined.
 type: docs
 weight: 410
 url: /net/aspose.tasks/asn/ratescale/

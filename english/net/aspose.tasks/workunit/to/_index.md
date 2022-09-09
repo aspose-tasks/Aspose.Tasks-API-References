@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the To date.
 type: docs
 weight: 30
 url: /net/aspose.tasks/workunit/to/

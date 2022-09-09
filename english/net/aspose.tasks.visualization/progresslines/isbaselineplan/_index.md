@@ -1,7 +1,7 @@
 ---
 title: IsBaselinePlan
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display progress lines for baseline plan or actual.
 type: docs
 weight: 90
 url: /net/aspose.tasks.visualization/progresslines/isbaselineplan/

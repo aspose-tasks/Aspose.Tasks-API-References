@@ -1,7 +1,7 @@
 ---
 title: RemoveLookupValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes a value from the internal lookup list. This is a preferable way for manipulations with the ValueListaspose.tasks/extendedattributedefinition/valuelist.
 type: docs
 weight: 330
 url: /net/aspose.tasks/extendedattributedefinition/removelookupvalue/

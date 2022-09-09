@@ -1,7 +1,7 @@
 ---
 title: BarColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Color of the bar style.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/barstyle/barcolor/

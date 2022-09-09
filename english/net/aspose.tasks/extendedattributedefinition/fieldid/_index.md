@@ -1,7 +1,7 @@
 ---
 title: FieldId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets corresponds to the project id of a custom field. Use string representation of a constant from ExtendedAttributeTaskaspose.tasks/extendedattributetask class to specify FieldIdaspose.tasks/extendedattributedefinition/fieldid property.
 type: docs
 weight: 130
 url: /net/aspose.tasks/extendedattributedefinition/fieldid/

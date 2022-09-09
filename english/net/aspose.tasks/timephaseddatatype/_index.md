@@ -1,9 +1,9 @@
 ---
 title: TimephasedDataType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the type of time phased data.
 type: docs
-weight: 2280
+weight: 2290
 url: /net/aspose.tasks/timephaseddatatype/
 ---
 ## TimephasedDataType enumeration

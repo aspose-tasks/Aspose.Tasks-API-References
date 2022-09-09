@@ -1,7 +1,7 @@
 ---
 title: Find
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Find first occurrence of an list element which satisfy specified condition.
 type: docs
 weight: 30
 url: /net/aspose.tasks.util/listutils/find/

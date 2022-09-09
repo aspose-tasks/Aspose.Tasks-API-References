@@ -1,7 +1,7 @@
 ---
 title: WindowsUserAccount
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The NT account associated with a resource.
 type: docs
 weight: 690
 url: /net/aspose.tasks/rsc/windowsuseraccount/

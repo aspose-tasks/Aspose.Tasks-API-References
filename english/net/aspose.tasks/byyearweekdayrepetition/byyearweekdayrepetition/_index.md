@@ -1,7 +1,7 @@
 ---
 title: ByYearWeekDayRepetition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the ByYearWeekDayRepetitionaspose.tasks/byyearweekdayrepetition class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/byyearweekdayrepetition/byyearweekdayrepetition/

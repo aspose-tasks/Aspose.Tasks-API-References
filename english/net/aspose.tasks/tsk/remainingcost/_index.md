@@ -1,7 +1,7 @@
 ---
 title: RemainingCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The remaining scheduled expense that will be incurred in completing the remaining scheduled work.
 type: docs
 weight: 960
 url: /net/aspose.tasks/tsk/remainingcost/

@@ -1,7 +1,7 @@
 ---
 title: PagesInWidth
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of pages in width to be printed.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/pagesettings/pagesinwidth/

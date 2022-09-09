@@ -1,7 +1,7 @@
 ---
 title: DataCategory
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The category of data used when saving to CSV.
 type: docs
 weight: 1730
 url: /net/aspose.tasks.saving/datacategory/

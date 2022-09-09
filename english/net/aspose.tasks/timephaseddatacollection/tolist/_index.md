@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the TimephasedDataCollectionaspose.tasks/timephaseddatacollection object to a list of TimephasedDataaspose.tasks/timephaseddata objects.
 type: docs
 weight: 130
 url: /net/aspose.tasks/timephaseddatacollection/tolist/

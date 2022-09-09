@@ -1,7 +1,7 @@
 ---
 title: RenderToSinglePage
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. The page size will be changed so the rendered project can be fit on one page.
 type: docs
 weight: 130
 url: /net/aspose.tasks.saving/saveoptions/rendertosinglepage/

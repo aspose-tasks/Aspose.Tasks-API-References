@@ -1,7 +1,7 @@
 ---
 title: HtmlImageType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents HTML image type.
 type: docs
 weight: 760
 url: /net/aspose.tasks/htmlimagetype/

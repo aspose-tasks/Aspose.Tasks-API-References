@@ -1,7 +1,7 @@
 ---
 title: RightImageSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the displayed size of the right image.
 type: docs
 weight: 90
 url: /net/aspose.tasks.visualization/headerfooterinfo/rightimagesize/

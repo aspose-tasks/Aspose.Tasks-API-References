@@ -1,7 +1,7 @@
 ---
 title: OvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The scheduled overtime work of an assignment.
 type: docs
 weight: 380
 url: /net/aspose.tasks/asn/overtimework/

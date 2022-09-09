@@ -1,7 +1,7 @@
 ---
 title: TimeUnit
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets time unit type for this object. The time unit type of this Duration instance.
 type: docs
 weight: 50
 url: /net/aspose.tasks/duration/timeunit/

@@ -1,7 +1,7 @@
 ---
 title: OutlineCodeCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of OutlineCode./outlinecode objects.
 type: docs
 weight: 1020
 url: /net/aspose.tasks/outlinecodecollection/

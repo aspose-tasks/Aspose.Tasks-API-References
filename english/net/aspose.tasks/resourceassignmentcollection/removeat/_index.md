@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes assignment at specified index if collection is not readonly otherwise throws NotSupportedException.
 type: docs
 weight: 90
 url: /net/aspose.tasks/resourceassignmentcollection/removeat/

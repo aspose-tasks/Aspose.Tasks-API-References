@@ -1,7 +1,7 @@
 ---
 title: Patterns
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a collection containing the instances of the RiskPatternaspose.tasks.riskanalysis/riskpattern class.
 type: docs
 weight: 30
 url: /net/aspose.tasks.riskanalysis/riskanalysissettings/patterns/

@@ -1,7 +1,7 @@
 ---
 title: TaskUpdatesResource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether updates to tasks update resources.
 type: docs
 weight: 700
 url: /net/aspose.tasks/prj/taskupdatesresource/

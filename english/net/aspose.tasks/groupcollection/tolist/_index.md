@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts a group collection to a list of Groupaspose.tasks/group objects.
 type: docs
 weight: 100
 url: /net/aspose.tasks/groupcollection/tolist/

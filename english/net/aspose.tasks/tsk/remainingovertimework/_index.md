@@ -1,7 +1,7 @@
 ---
 title: RemainingOvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of remaining scheduled overtime time.
 type: docs
 weight: 990
 url: /net/aspose.tasks/tsk/remainingovertimework/

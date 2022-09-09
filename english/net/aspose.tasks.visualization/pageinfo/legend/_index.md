@@ -1,7 +1,7 @@
 ---
 title: Legend
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets an instance of the PageLegendaspose.tasks.visualization/pagelegend class which specifies page legend.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/pageinfo/legend/

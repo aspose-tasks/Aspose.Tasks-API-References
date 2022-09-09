@@ -1,9 +1,9 @@
 ---
 title: TaskBarTextConverter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Custom converter of tasks data to bar text.
 type: docs
-weight: 3000
+weight: 3020
 url: /net/aspose.tasks.visualization/taskbartextconverter/
 ---
 ## TaskBarTextConverter delegate

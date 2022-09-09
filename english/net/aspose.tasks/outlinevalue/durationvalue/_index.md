@@ -1,7 +1,7 @@
 ---
 title: DurationValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the duration if Type is Duration.
 type: docs
 weight: 30
 url: /net/aspose.tasks/outlinevalue/durationvalue/

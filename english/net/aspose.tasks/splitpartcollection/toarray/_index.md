@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Copies all parts from the collection to a new array.
 type: docs
 weight: 40
 url: /net/aspose.tasks/splitpartcollection/toarray/

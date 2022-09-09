@@ -1,7 +1,7 @@
 ---
 title: LoadOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Allows to specify additional load parameters when loading a project from file or stream.
 type: docs
 weight: 860
 url: /net/aspose.tasks/loadoptions/

@@ -1,7 +1,7 @@
 ---
 title: ConstraintType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Provides choices for the type of constraint that can be applied for scheduling a task.
 type: docs
 weight: 210
 url: /net/aspose.tasks/tsk/constrainttype/

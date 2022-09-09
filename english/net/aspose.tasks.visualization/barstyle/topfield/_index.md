@@ -1,7 +1,7 @@
 ---
 title: TopField
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a field to be displayed on the top of the bar.
 type: docs
 weight: 190
 url: /net/aspose.tasks.visualization/barstyle/topfield/

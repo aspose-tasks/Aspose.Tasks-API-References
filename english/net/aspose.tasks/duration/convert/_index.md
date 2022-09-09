@@ -1,7 +1,7 @@
 ---
 title: Convert
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts Duration object to another duration with specified time units.
 type: docs
 weight: 70
 url: /net/aspose.tasks/duration/convert/

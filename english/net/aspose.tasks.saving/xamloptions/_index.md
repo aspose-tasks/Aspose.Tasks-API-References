@@ -1,7 +1,7 @@
 ---
 title: XamlOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: /// Allows to specify additional options when rendering project pages to XAML.
 type: docs
 weight: 1960
 url: /net/aspose.tasks.saving/xamloptions/

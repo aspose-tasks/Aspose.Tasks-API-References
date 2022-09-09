@@ -1,7 +1,7 @@
 ---
 title: FinishVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The time that represents the difference between the baseline finish date of a task or assignment and its current finish date.
 type: docs
 weight: 420
 url: /net/aspose.tasks/tsk/finishvariance/

@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Inserts the specified item at the specified index.
 type: docs
 weight: 100
 url: /net/aspose.tasks/outlinecodecollection/insert/

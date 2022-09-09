@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns string representation of a TaskLink. The exact details of the representation are unspecified and subject to change.
 type: docs
 weight: 100
 url: /net/aspose.tasks/tasklink/tostring/

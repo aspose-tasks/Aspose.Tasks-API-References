@@ -1,7 +1,7 @@
 ---
 title: PhoneticAlias
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the phonetic pronunciation of the alias of the custom outline code.
 type: docs
 weight: 120
 url: /net/aspose.tasks/outlinecodedefinition/phoneticalias/

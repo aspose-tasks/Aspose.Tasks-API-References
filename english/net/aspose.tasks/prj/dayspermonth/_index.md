@@ -1,7 +1,7 @@
 ---
 title: DaysPerMonth
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The number of days per month.
 type: docs
 weight: 210
 url: /net/aspose.tasks/prj/dayspermonth/

@@ -1,7 +1,7 @@
 ---
 title: NotesRTF
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The text notes in RTF format.
 type: docs
 weight: 830
 url: /net/aspose.tasks/tsk/notesrtf/

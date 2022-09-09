@@ -1,12 +1,12 @@
 ---
 title: UpdateProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Updates existing project in Project ServerProject Online instance using default save options. The existing project will be overwritten.
 type: docs
 weight: 70
 url: /net/aspose.tasks/projectservermanager/updateproject/
 ---
-## ProjectServerManager.UpdateProject method (1 of 2)
+## UpdateProject(Project) {#updateproject}
 
 Updates existing project in Project Server\Project Online instance using default save options. The existing project will be overwritten.
 
@@ -52,7 +52,7 @@ manager.UpdateProject(project);
 
 ---
 
-## ProjectServerManager.UpdateProject method (2 of 2)
+## UpdateProject(Project, ProjectServerSaveOptions) {#updateproject_1}
 
 Updates existing project in Project Server\Project Online instance using the specified save options. The existing project will be overwritten.
 

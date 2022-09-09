@@ -1,7 +1,7 @@
 ---
 title: IsNull
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a resource is null.
 type: docs
 weight: 420
 url: /net/aspose.tasks/rsc/isnull/

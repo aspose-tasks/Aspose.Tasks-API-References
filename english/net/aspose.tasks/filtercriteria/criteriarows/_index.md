@@ -1,7 +1,7 @@
 ---
 title: CriteriaRows
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the list of child FilterCriteriaaspose.tasks/filtercriteria rows. If the filter contains more than one criterion row then the effect of an And operator is that the criteria for both rows must be met for the task or resource to be displayed as a result of this filter. The effect of an Or operator is that the criteria for one or the other row must be met.
 type: docs
 weight: 20
 url: /net/aspose.tasks/filtercriteria/criteriarows/

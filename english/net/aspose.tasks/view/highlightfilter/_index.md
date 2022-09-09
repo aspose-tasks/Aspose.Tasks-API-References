@@ -1,7 +1,7 @@
 ---
 title: HighlightFilter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether Microsoft Project highlights the filter for a single view.
 type: docs
 weight: 40
 url: /net/aspose.tasks/view/highlightfilter/

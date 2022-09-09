@@ -1,7 +1,7 @@
 ---
 title: ShowForCategories
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets task categories for which the style is applied. Is applicable for parent or common styles of bars in Gantt chart see BarStylesaspose.tasks/ganttchartview/barstyles.
 type: docs
 weight: 200
 url: /net/aspose.tasks.visualization/ganttbarstyle/showforcategories/

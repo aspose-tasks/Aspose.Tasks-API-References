@@ -1,7 +1,7 @@
 ---
 title: SaveVersion
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The version of Microsoft Office Project from which a project file was saved.
 type: docs
 weight: 610
 url: /net/aspose.tasks/prj/saveversion/

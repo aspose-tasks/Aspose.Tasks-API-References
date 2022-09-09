@@ -1,7 +1,7 @@
 ---
 title: Phonetic
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the phonetic information about custom field name.
 type: docs
 weight: 70
 url: /net/aspose.tasks/value/phonetic/

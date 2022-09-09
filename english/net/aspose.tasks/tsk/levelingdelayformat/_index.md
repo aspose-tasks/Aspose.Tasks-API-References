@@ -1,7 +1,7 @@
 ---
 title: LevelingDelayFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The format of expressing the duration of a delay.
 type: docs
 weight: 780
 url: /net/aspose.tasks/tsk/levelingdelayformat/

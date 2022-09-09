@@ -1,12 +1,12 @@
 ---
 title: View
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the Viewaspose.tasks/view class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/view/view/
 ---
-## View constructor (1 of 2)
+## View() {#constructor}
 
 Initializes a new instance of the [`View`](../../view) class.
 
@@ -22,7 +22,7 @@ public View()
 
 ---
 
-## View constructor (2 of 2)
+## View(ViewScreen) {#constructor_1}
 
 Initializes a new instance of the [`View`](../../view) class.
 

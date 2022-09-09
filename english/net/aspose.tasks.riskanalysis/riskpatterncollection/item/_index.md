@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the instance of the RiskPatternaspose.tasks.riskanalysis/riskpattern class for the specified task.
 type: docs
 weight: 30
 url: /net/aspose.tasks.riskanalysis/riskpatterncollection/item/

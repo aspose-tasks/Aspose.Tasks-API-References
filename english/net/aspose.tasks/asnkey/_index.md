@@ -1,7 +1,7 @@
 ---
 title: AsnKey
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a list of supported assignment fields.
 type: docs
 weight: 40
 url: /net/aspose.tasks/asnkey/

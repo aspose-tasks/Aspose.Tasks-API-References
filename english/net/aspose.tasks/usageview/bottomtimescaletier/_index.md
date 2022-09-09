@@ -1,7 +1,7 @@
 ---
 title: BottomTimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets settings of views bottom timescale tier. TimescaleTieraspose.tasks.visualization/timescaletier
 type: docs
 weight: 20
 url: /net/aspose.tasks/usageview/bottomtimescaletier/

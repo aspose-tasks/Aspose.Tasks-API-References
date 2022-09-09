@@ -1,7 +1,7 @@
 ---
 title: StartShapeType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a type of the start shape.
 type: docs
 weight: 240
 url: /net/aspose.tasks.visualization/ganttbarstyle/startshapetype/

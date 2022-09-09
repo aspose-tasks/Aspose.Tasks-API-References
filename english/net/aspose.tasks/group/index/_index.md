@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the index of a Groupaspose.tasks/group object in the Groups containing object.
 type: docs
 weight: 30
 url: /net/aspose.tasks/group/index/

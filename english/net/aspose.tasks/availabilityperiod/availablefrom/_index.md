@@ -1,7 +1,7 @@
 ---
 title: AvailableFrom
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the date when a resource becomes available for the specified period.
 type: docs
 weight: 20
 url: /net/aspose.tasks/availabilityperiod/availablefrom/

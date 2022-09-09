@@ -1,7 +1,7 @@
 ---
 title: ShowTicks
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether whether to show tick marks that separate time periods in the tier.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/timescaletier/showticks/

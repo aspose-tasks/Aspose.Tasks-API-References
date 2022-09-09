@@ -1,9 +1,9 @@
 ---
 title: Legend
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the pages on which the legend appears.
 type: docs
-weight: 2810
+weight: 2830
 url: /net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration

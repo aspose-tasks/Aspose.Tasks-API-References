@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the actual value which is used to represent Duration.
 type: docs
 weight: 40
 url: /net/aspose.tasks/value/duration/

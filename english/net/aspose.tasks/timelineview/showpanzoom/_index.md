@@ -1,7 +1,7 @@
 ---
 title: ShowPanZoom
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to show pan and zoom control.
 type: docs
 weight: 50
 url: /net/aspose.tasks/timelineview/showpanzoom/

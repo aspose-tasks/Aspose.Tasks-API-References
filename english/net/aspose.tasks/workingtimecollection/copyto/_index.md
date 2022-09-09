@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: copies a collection content into an Array starting at a particular index
 type: docs
 weight: 60
 url: /net/aspose.tasks/workingtimecollection/copyto/

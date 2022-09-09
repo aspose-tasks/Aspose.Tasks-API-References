@@ -1,7 +1,7 @@
 ---
 title: Encoding
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the encoding of the resulting XLSX file. The default value is UTF8.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/xlsxoptions/encoding/

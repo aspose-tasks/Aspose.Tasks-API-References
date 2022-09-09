@@ -1,7 +1,7 @@
 ---
 title: DisplayShortDetailHeaderNames
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display short detail header names or not.
 type: docs
 weight: 40
 url: /net/aspose.tasks/usageview/displayshortdetailheadernames/

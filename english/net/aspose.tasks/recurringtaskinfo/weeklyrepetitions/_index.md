@@ -1,7 +1,7 @@
 ---
 title: WeeklyRepetitions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of repetitions for the weekly recurrence pattern.
 type: docs
 weight: 170
 url: /net/aspose.tasks/recurringtaskinfo/weeklyrepetitions/

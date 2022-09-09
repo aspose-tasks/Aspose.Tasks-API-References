@@ -1,7 +1,7 @@
 ---
 title: DaysOfWeek
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the DayTypeCollection for this object. The days of the week on which the exception is valid.
 type: docs
 weight: 20
 url: /net/aspose.tasks/calendarexception/daysofweek/

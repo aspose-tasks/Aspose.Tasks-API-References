@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the duration for one occurrence of the recurring task. The instance of Durationaspose.tasks/recurringtaskparameters/duration class.
 type: docs
 weight: 20
 url: /net/aspose.tasks/recurringtaskparameters/duration/

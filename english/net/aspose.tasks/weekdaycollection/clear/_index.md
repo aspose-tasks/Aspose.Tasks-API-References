@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Clear the WeekDayCollection object.
 type: docs
 weight: 40
 url: /net/aspose.tasks/weekdaycollection/clear/

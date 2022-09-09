@@ -1,7 +1,7 @@
 ---
 title: CustomProps
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets projects custom properties collection.
 type: docs
 weight: 60
 url: /net/aspose.tasks/project/customprops/

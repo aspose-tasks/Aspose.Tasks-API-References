@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The total span of active working time for a task as entered or as calculated by Microsoft Project based on start date finish date calendars and other scheduling factors.
 type: docs
 weight: 300
 url: /net/aspose.tasks/tsk/duration/

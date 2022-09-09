@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The position identifier of a resource within the list of resources.
 type: docs
 weight: 350
 url: /net/aspose.tasks/rsc/id/

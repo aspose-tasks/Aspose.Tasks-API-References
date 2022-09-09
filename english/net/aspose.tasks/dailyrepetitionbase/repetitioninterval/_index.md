@@ -1,7 +1,7 @@
 ---
 title: RepetitionInterval
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of days which represents the interval in days between occurrences.
 type: docs
 weight: 10
 url: /net/aspose.tasks/dailyrepetitionbase/repetitioninterval/

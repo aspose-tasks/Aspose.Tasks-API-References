@@ -1,7 +1,7 @@
 ---
 title: ActualsInSync
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether all actual works have been synchronized with the project.
 type: docs
 weight: 10
 url: /net/aspose.tasks/prj/actualsinsync/

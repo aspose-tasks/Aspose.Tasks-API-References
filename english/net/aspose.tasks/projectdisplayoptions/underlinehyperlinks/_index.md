@@ -1,7 +1,7 @@
 ---
 title: UnderlineHyperlinks
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to underline hyperlinks.
 type: docs
 weight: 100
 url: /net/aspose.tasks/projectdisplayoptions/underlinehyperlinks/

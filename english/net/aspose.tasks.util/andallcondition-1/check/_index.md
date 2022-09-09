@@ -1,7 +1,7 @@
 ---
 title: Check
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns true if the specified object satisfy the conditions.
 type: docs
 weight: 20
 url: /net/aspose.tasks.util/andallcondition-1/check/

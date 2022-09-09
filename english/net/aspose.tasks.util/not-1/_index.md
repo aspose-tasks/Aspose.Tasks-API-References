@@ -1,9 +1,9 @@
 ---
 title: NotT
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Applies logical NOT to the specified condition.
 type: docs
-weight: 2400
+weight: 2420
 url: /net/aspose.tasks.util/not-1/
 ---
 ## Not&lt;T&gt; class

@@ -1,7 +1,7 @@
 ---
 title: BottomField
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets data to be displayed on the bottom of the bar. Fieldaspose.tasks/field.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/ganttbarstyle/bottomfield/

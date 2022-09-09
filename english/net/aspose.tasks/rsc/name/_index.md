@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The name of a resource.
 type: docs
 weight: 460
 url: /net/aspose.tasks/rsc/name/

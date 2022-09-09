@@ -1,7 +1,7 @@
 ---
 title: Filter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Builds new tree of tasks which satisfy the condition.
 type: docs
 weight: 20
 url: /net/aspose.tasks.util/taskutils/filter/

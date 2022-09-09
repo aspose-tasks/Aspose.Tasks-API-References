@@ -1,7 +1,7 @@
 ---
 title: WeekDays
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets WeekDaysCollection for this calendar. The collection of weekdays that defines the calendar.
 type: docs
 weight: 110
 url: /net/aspose.tasks/calendar/weekdays/

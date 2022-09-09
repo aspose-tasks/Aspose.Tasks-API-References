@@ -1,7 +1,7 @@
 ---
 title: FilterType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the type of the filter.
 type: docs
 weight: 30
 url: /net/aspose.tasks/filter/filtertype/

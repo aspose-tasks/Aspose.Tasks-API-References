@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The unique identifier of an assignment.
 type: docs
 weight: 560
 url: /net/aspose.tasks/asn/uid/

@@ -1,7 +1,7 @@
 ---
 title: AdjustHeaderRowHeight
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the header row height of the table can be adjusted.
 type: docs
 weight: 20
 url: /net/aspose.tasks/table/adjustheaderrowheight/

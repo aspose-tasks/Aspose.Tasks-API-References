@@ -1,9 +1,9 @@
 ---
 title: TimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a single tier of the timescale on a Gantt Chart.
 type: docs
-weight: 3060
+weight: 3080
 url: /net/aspose.tasks.visualization/timescaletier/
 ---
 ## TimescaleTier class
@@ -18,8 +18,8 @@ public sealed class TimescaleTier
 
 | Name | Description |
 | --- | --- |
-| [TimescaleTier](timescaletier)() | Initializes a new instance of the [`TimescaleTier`](../timescaletier) class. |
-| [TimescaleTier](timescaletier)(TimescaleUnit, int) | Initializes a new instance of the [`TimescaleTier`](../timescaletier) class. |
+| [TimescaleTier](timescaletier#constructor)() | Initializes a new instance of the [`TimescaleTier`](../timescaletier) class. |
+| [TimescaleTier](timescaletier#constructor_1)(TimescaleUnit, int) | Initializes a new instance of the [`TimescaleTier`](../timescaletier) class. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: YearlyOrdinalDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a weekday of the yearly recurrence pattern when using ordinal day. Can be one of the values of DayOfWeek enumeration.
 type: docs
 weight: 190
 url: /net/aspose.tasks/recurringtaskinfo/yearlyordinalday/

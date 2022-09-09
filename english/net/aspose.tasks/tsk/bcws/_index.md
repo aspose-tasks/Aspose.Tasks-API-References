@@ -1,7 +1,7 @@
 ---
 title: BCWS
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The cumulative time phased baseline costs up to the status date or todays date.
 type: docs
 weight: 130
 url: /net/aspose.tasks/tsk/bcws/

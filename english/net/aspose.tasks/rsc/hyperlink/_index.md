@@ -1,7 +1,7 @@
 ---
 title: Hyperlink
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The title of a hyperlink associated with a resource.
 type: docs
 weight: 320
 url: /net/aspose.tasks/rsc/hyperlink/

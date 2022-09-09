@@ -1,7 +1,7 @@
 ---
 title: OvertimeRate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The rate of pay for overtime work performed by a resource.
 type: docs
 weight: 520
 url: /net/aspose.tasks/rsc/overtimerate/

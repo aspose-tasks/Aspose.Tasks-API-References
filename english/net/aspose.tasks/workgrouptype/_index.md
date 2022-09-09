@@ -1,9 +1,9 @@
 ---
 title: WorkGroupType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the type of a workgroup.
 type: docs
-weight: 3230
+weight: 3250
 url: /net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration

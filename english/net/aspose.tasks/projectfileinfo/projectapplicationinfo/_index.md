@@ -1,7 +1,7 @@
 ---
 title: ProjectApplicationInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets project file application info.
 type: docs
 weight: 30
 url: /net/aspose.tasks/projectfileinfo/projectapplicationinfo/

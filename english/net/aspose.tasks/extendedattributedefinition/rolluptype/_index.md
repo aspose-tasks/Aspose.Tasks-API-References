@@ -1,7 +1,7 @@
 ---
 title: RollupType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the way rollups are calculated.
 type: docs
 weight: 220
 url: /net/aspose.tasks/extendedattributedefinition/rolluptype/

@@ -1,7 +1,7 @@
 ---
 title: FilterCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Contains a list of Filter./filter objects. Implements ICollectionltFiltergt interface.
 type: docs
 weight: 600
 url: /net/aspose.tasks/filtercollection/

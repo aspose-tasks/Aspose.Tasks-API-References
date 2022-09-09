@@ -1,7 +1,7 @@
 ---
 title: EncryptionDetails
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a encryption details. If not set then no encryption will be performed.
 type: docs
 weight: 50
 url: /net/aspose.tasks.saving/pdfsaveoptions/encryptiondetails/

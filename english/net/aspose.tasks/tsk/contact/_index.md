@@ -1,7 +1,7 @@
 ---
 title: Contact
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The name of an individual responsible for a task.
 type: docs
 weight: 220
 url: /net/aspose.tasks/tsk/contact/

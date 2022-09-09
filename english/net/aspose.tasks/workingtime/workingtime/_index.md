@@ -1,12 +1,12 @@
 ---
 title: WorkingTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the WorkingTimeaspose.tasks/workingtime class with a interval with the specified start and finish times.
 type: docs
 weight: 10
 url: /net/aspose.tasks/workingtime/workingtime/
 ---
-## WorkingTime constructor (1 of 3)
+## WorkingTime(DateTime, DateTime) {#constructor_2}
 
 Initializes a new instance of the [`WorkingTime`](../../workingtime) class with a interval with the specified start and finish times.
 
@@ -27,7 +27,7 @@ public WorkingTime(DateTime fromTime, DateTime toTime)
 
 ---
 
-## WorkingTime constructor (2 of 3)
+## WorkingTime(TimeSpan, TimeSpan) {#constructor_3}
 
 Initializes a new instance of the [`WorkingTime`](../../workingtime) class with an interval item with the specified start and finish times.
 
@@ -63,7 +63,7 @@ var wt = new WorkingTime(new TimeSpan(9, 0, 0), new TimeSpan(18, 0, 0));
 
 ---
 
-## WorkingTime constructor (3 of 3)
+## WorkingTime(int, int) {#constructor_1}
 
 Initializes a new instance of the [`WorkingTime`](../../workingtime) class with an interval item with the specified start and finish times.
 

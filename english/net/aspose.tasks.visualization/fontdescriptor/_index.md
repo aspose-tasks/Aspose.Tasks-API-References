@@ -1,9 +1,9 @@
 ---
 title: FontDescriptor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents font information.
 type: docs
-weight: 2650
+weight: 2670
 url: /net/aspose.tasks.visualization/fontdescriptor/
 ---
 ## FontDescriptor class
@@ -18,9 +18,9 @@ public sealed class FontDescriptor
 
 | Name | Description |
 | --- | --- |
-| [FontDescriptor](fontdescriptor)(FontDescriptor, FontStyles) | Initializes a new instance of the [`FontDescriptor`](../fontdescriptor) class with the specified font and style. |
-| [FontDescriptor](fontdescriptor)(string, float) | Initializes a new instance of the [`FontDescriptor`](../fontdescriptor) class with the specified font family and size. |
-| [FontDescriptor](fontdescriptor)(string, float, FontStyles) | Initializes a new instance of the [`FontDescriptor`](../fontdescriptor) class with the specified font family, size and style. |
+| [FontDescriptor](fontdescriptor#constructor)(FontDescriptor, FontStyles) | Initializes a new instance of the [`FontDescriptor`](../fontdescriptor) class with the specified font and style. |
+| [FontDescriptor](fontdescriptor#constructor_1)(string, float) | Initializes a new instance of the [`FontDescriptor`](../fontdescriptor) class with the specified font family and size. |
+| [FontDescriptor](fontdescriptor#constructor_2)(string, float, FontStyles) | Initializes a new instance of the [`FontDescriptor`](../fontdescriptor) class with the specified font family, size and style. |
 
 ## Properties
 

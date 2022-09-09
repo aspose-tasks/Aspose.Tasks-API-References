@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether the ICollection is readonly.
 type: docs
 weight: 30
 url: /net/aspose.tasks/timephaseddatacollection/isreadonly/

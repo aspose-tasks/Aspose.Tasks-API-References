@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates a new custom property.
 type: docs
 weight: 50
 url: /net/aspose.tasks.properties/propertykeyedcollection-1/add/

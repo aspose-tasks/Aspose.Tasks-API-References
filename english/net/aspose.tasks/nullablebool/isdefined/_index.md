@@ -1,7 +1,7 @@
 ---
 title: IsDefined
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether the value was defined otherwise false.
 type: docs
 weight: 20
 url: /net/aspose.tasks/nullablebool/isdefined/

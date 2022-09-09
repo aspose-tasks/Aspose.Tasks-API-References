@@ -1,7 +1,7 @@
 ---
 title: PostAlg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Called after processing of a node of a tree.
 type: docs
 weight: 20
 url: /net/aspose.tasks.util/itreealgorithm-1/postalg/

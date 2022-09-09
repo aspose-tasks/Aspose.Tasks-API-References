@@ -1,7 +1,7 @@
 ---
 title: WeekDays
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a type of weekdays.
 type: docs
 weight: 20
 url: /net/aspose.tasks/weeklyrepetition/weekdays/

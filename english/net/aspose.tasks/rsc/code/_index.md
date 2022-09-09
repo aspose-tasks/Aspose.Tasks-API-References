@@ -1,7 +1,7 @@
 ---
 title: Code
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The code or other information about a resource.
 type: docs
 weight: 210
 url: /net/aspose.tasks/rsc/code/

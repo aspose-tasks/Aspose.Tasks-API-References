@@ -1,7 +1,7 @@
 ---
 title: MonthlyFirstLastMonthNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the month number of progress lines which are shown by first or last predefined day.
 type: docs
 weight: 100
 url: /net/aspose.tasks.visualization/recurringinterval/monthlyfirstlastmonthnumber/

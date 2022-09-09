@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the unique identifier of a view.
 type: docs
 weight: 120
 url: /net/aspose.tasks/view/uid/

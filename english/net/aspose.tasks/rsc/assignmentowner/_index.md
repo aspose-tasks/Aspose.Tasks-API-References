@@ -1,7 +1,7 @@
 ---
 title: AssignmentOwner
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The name of an assignment owner.
 type: docs
 weight: 100
 url: /net/aspose.tasks/rsc/assignmentowner/

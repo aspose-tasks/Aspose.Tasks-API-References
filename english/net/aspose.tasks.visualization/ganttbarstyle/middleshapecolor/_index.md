@@ -1,7 +1,7 @@
 ---
 title: MiddleShapeColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a color of the middle shape.
 type: docs
 weight: 140
 url: /net/aspose.tasks.visualization/ganttbarstyle/middleshapecolor/

@@ -1,7 +1,7 @@
 ---
 title: PercentWorkComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The current status of a task expressed as the percentage of work that has been completed.
 type: docs
 weight: 900
 url: /net/aspose.tasks/tsk/percentworkcomplete/

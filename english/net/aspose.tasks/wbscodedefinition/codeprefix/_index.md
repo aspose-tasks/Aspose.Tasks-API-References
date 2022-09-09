@@ -1,7 +1,7 @@
 ---
 title: CodePrefix
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the project code prefix.
 type: docs
 weight: 30
 url: /net/aspose.tasks/wbscodedefinition/codeprefix/

@@ -1,7 +1,7 @@
 ---
 title: StartVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The variance of an assignment start date from a baseline start date.
 type: docs
 weight: 510
 url: /net/aspose.tasks/asn/startvariance/

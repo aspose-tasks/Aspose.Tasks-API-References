@@ -1,7 +1,7 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a Fieldaspose.tasks/filtercriteria/field to change.
 type: docs
 weight: 30
 url: /net/aspose.tasks/filtercriteria/field/

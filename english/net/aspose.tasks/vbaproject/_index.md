@@ -1,9 +1,9 @@
 ---
 title: VbaProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents VbaProject./vbaproject.
 type: docs
-weight: 2500
+weight: 2520
 url: /net/aspose.tasks/vbaproject/
 ---
 ## VbaProject class

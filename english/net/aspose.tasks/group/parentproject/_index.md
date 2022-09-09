@@ -1,7 +1,7 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent of the Group object.
 type: docs
 weight: 60
 url: /net/aspose.tasks/group/parentproject/

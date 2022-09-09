@@ -1,9 +1,9 @@
 ---
 title: WeekDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a weekday which either defines regular days of a week or exception days in a calendar.
 type: docs
-weight: 3150
+weight: 3170
 url: /net/aspose.tasks/weekday/
 ---
 ## WeekDay class
@@ -18,9 +18,9 @@ public class WeekDay
 
 | Name | Description |
 | --- | --- |
-| [WeekDay](weekday)() | Initializes a new instance of the [`WeekDay`](../weekday) class. |
-| [WeekDay](weekday)(DayType) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type. |
-| [WeekDay](weekday)(DayType, IEnumerable&lt;WorkingTime&gt;) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type and list of working time periods. |
+| [WeekDay](weekday#constructor)() | Initializes a new instance of the [`WeekDay`](../weekday) class. |
+| [WeekDay](weekday#constructor_1)(DayType) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type. |
+| [WeekDay](weekday#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type and list of working time periods. |
 
 ## Properties
 

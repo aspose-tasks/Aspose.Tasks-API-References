@@ -1,7 +1,7 @@
 ---
 title: Left
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the size of the left margin in inches or centimeters.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/pagemargins/left/

@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the title of the field in a table.
 type: docs
 weight: 50
 url: /net/aspose.tasks/tablefield/title/

@@ -1,7 +1,7 @@
 ---
 title: LastSavedDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the most recent date when the project was saved.
 type: docs
 weight: 70
 url: /net/aspose.tasks/projectinfo/lastsaveddate/

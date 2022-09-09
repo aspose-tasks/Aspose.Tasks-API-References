@@ -1,7 +1,7 @@
 ---
 title: Borders
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a position where to print borders. Can be one of the values of the Borderaspose.tasks.visualization/border enumeration.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/pagemargins/borders/

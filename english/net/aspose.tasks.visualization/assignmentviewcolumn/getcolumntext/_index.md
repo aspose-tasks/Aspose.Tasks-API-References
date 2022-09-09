@@ -1,7 +1,7 @@
 ---
 title: GetColumnText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts current resource assignment to the column text.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/

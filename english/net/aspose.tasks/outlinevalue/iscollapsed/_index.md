@@ -1,7 +1,7 @@
 ---
 title: IsCollapsed
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether outline value is collapsed or not.
 type: docs
 weight: 40
 url: /net/aspose.tasks/outlinevalue/iscollapsed/

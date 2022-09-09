@@ -1,7 +1,7 @@
 ---
 title: ExternalTaskProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The source location and task identifier of an external task.
 type: docs
 weight: 380
 url: /net/aspose.tasks/tsk/externaltaskproject/

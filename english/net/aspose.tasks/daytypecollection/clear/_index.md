@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes all items from this collection.
 type: docs
 weight: 50
 url: /net/aspose.tasks/daytypecollection/clear/

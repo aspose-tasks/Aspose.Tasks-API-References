@@ -1,7 +1,7 @@
 ---
 title: Make24HourCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Makes a given Calendar to be a 24Hour Calendar. 24Hours Calendar is a Calendar in which every day of week is working with Roundtheclock working hours.
 type: docs
 weight: 10
 url: /net/aspose.tasks/calendar/make24hourcalendar/

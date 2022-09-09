@@ -1,7 +1,7 @@
 ---
 title: WeeklyDays
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a list of days for weekly progress lines.
 type: docs
 weight: 110
 url: /net/aspose.tasks.visualization/recurringinterval/weeklydays/

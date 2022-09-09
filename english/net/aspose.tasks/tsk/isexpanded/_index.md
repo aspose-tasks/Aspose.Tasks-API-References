@@ -1,7 +1,7 @@
 ---
 title: IsExpanded
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a summary task is expanded or not in GanttChart view.
 type: docs
 weight: 590
 url: /net/aspose.tasks/tsk/isexpanded/

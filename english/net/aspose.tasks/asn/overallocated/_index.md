@@ -1,7 +1,7 @@
 ---
 title: Overallocated
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the assignment is overallocated.
 type: docs
 weight: 360
 url: /net/aspose.tasks/asn/overallocated/

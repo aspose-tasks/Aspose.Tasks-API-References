@@ -1,7 +1,7 @@
 ---
 title: ApsLayoutBuilderOutOfMemoryException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents exception which occurs when there is not enough memory to continue an image layout building.
 type: docs
 weight: 20
 url: /net/aspose.tasks/apslayoutbuilderoutofmemoryexception/

@@ -1,7 +1,7 @@
 ---
 title: IsEstimated
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a task is estimated.
 type: docs
 weight: 580
 url: /net/aspose.tasks/tsk/isestimated/

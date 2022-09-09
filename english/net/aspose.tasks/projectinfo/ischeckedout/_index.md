@@ -1,7 +1,7 @@
 ---
 title: IsCheckedOut
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether the project is checked out.
 type: docs
 weight: 50
 url: /net/aspose.tasks/projectinfo/ischeckedout/

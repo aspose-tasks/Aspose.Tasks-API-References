@@ -1,7 +1,7 @@
 ---
 title: GetConsumptionQuantity
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets consumption file size.
 type: docs
 weight: 50
 url: /net/aspose.tasks/metered/getconsumptionquantity/

@@ -1,7 +1,7 @@
 ---
 title: RenumberActivityIds
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether is need to renumbers activity IDs.
 type: docs
 weight: 50
 url: /net/aspose.tasks.saving/primaverasaveoptions/renumberactivityids/

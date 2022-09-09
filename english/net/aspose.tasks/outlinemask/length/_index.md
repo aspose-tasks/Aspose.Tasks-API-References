@@ -1,7 +1,7 @@
 ---
 title: Length
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the maximum length in characters of the outline code values. 0 if length is not defined.
 type: docs
 weight: 20
 url: /net/aspose.tasks/outlinemask/length/

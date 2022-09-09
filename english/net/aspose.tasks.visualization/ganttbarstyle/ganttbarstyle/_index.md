@@ -1,7 +1,7 @@
 ---
 title: GanttBarStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the GanttBarStyleaspose.tasks.visualization/ganttbarstyle class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/ganttbarstyle/ganttbarstyle/

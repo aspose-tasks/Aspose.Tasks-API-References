@@ -1,7 +1,7 @@
 ---
 title: IFontSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a callback that is called to create resource to store fonts.
 type: docs
 weight: 780
 url: /net/aspose.tasks/ifontsavingcallback/

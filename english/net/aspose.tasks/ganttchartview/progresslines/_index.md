@@ -1,7 +1,7 @@
 ---
 title: ProgressLines
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets progress lines for the Gantt Chart view. ProgressLinesaspose.tasks/ganttchartview/progresslines.
 type: docs
 weight: 120
 url: /net/aspose.tasks/ganttchartview/progresslines/

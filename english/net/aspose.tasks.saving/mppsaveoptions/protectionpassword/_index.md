@@ -1,7 +1,7 @@
 ---
 title: ProtectionPassword
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a password which is used to protect a resulting MPP file. Currently is supported for MS Project 2010 and newer formats. Null value indicates that the project file is not protected.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/mppsaveoptions/protectionpassword/

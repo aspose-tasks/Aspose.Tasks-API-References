@@ -1,7 +1,7 @@
 ---
 title: ShowBarSplits
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether task splits on the Gantt Chart must be shown.
 type: docs
 weight: 140
 url: /net/aspose.tasks/ganttchartview/showbarsplits/

@@ -1,12 +1,12 @@
 ---
 title: SaveReport
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Saves the project overview report to the stream.
 type: docs
 weight: 420
 url: /net/aspose.tasks/project/savereport/
 ---
-## Project.SaveReport method (1 of 4)
+## SaveReport(Stream) {#savereport}
 
 Saves the project overview report to the stream.
 
@@ -26,7 +26,7 @@ public void SaveReport(Stream stream)
 
 ---
 
-## Project.SaveReport method (2 of 4)
+## SaveReport(string) {#savereport_2}
 
 Saves the project overview report to PDF file.
 
@@ -46,7 +46,7 @@ public void SaveReport(string fileName)
 
 ---
 
-## Project.SaveReport method (3 of 4)
+## SaveReport(Stream, ReportType) {#savereport_1}
 
 Saves the project report of the specified type to the specified stream.
 
@@ -68,7 +68,7 @@ public void SaveReport(Stream stream, ReportType reportType)
 
 ---
 
-## Project.SaveReport method (4 of 4)
+## SaveReport(string, ReportType) {#savereport_3}
 
 Saves the project report of the specified type in PDF format to the specified file path.
 

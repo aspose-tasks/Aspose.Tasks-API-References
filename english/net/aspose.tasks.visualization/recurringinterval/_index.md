@@ -1,9 +1,9 @@
 ---
 title: RecurringInterval
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents recurring intervals used in progress lines of a Gantt Chart view.
 type: docs
-weight: 2930
+weight: 2950
 url: /net/aspose.tasks.visualization/recurringinterval/
 ---
 ## RecurringInterval class

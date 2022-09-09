@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the description of an outline value.
 type: docs
 weight: 20
 url: /net/aspose.tasks/outlinevalue/description/

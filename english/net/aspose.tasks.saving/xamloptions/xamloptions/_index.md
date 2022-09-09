@@ -1,7 +1,7 @@
 ---
 title: XamlOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the XamlOptionsaspose.tasks.saving/xamloptions class that can be used to save project in XAML format.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/xamloptions/xamloptions/

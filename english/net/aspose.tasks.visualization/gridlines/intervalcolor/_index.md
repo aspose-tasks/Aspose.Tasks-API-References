@@ -1,7 +1,7 @@
 ---
 title: IntervalColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the color of secondary gridlines.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/gridlines/intervalcolor/

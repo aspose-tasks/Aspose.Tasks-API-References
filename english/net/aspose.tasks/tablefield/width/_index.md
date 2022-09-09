@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the width in points of the field column in a table.
 type: docs
 weight: 60
 url: /net/aspose.tasks/tablefield/width/

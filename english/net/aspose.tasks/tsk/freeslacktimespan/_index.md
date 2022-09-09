@@ -1,7 +1,7 @@
 ---
 title: FreeSlackTimeSpan
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The time that a task can be delayed without delaying any successor tasks.
 type: docs
 weight: 450
 url: /net/aspose.tasks/tsk/freeslacktimespan/

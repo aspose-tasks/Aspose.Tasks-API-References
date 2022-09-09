@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the PropertyCollectionaspose.tasks.properties/propertycollection1 contains a property with the specified name.
 type: docs
 weight: 60
 url: /net/aspose.tasks.properties/propertykeyedcollection-1/contains/

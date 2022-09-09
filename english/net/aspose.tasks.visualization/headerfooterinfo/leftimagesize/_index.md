@@ -1,7 +1,7 @@
 ---
 title: LeftImageSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the displayed size of the left image.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/headerfooterinfo/leftimagesize/

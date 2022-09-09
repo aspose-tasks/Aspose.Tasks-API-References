@@ -1,7 +1,7 @@
 ---
 title: DefaultWeekWorkingDays
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the instance of WeekDayCollectionaspose.tasks/weekdaycollection class which represents a collection of project default week working days and working times.
 type: docs
 weight: 80
 url: /net/aspose.tasks/project/defaultweekworkingdays/

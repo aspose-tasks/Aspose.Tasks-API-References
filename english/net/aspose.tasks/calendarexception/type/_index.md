@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the exception type.
 type: docs
 weight: 150
 url: /net/aspose.tasks/calendarexception/type/

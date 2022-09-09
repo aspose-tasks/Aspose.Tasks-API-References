@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a deep copy of the week day.
 type: docs
 weight: 80
 url: /net/aspose.tasks/weekday/clone/

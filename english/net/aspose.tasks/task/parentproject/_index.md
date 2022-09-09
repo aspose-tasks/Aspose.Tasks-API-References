@@ -1,7 +1,7 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent project of a task.
 type: docs
 weight: 60
 url: /net/aspose.tasks/task/parentproject/

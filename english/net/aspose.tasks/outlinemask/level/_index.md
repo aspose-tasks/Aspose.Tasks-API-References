@@ -1,7 +1,7 @@
 ---
 title: Level
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the level of a mask.
 type: docs
 weight: 30
 url: /net/aspose.tasks/outlinemask/level/

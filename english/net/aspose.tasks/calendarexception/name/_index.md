@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the name of the exception.
 type: docs
 weight: 100
 url: /net/aspose.tasks/calendarexception/name/

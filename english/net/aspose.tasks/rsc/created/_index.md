@@ -1,7 +1,7 @@
 ---
 title: Created
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date and time when a resource was added to the project.
 type: docs
 weight: 260
 url: /net/aspose.tasks/rsc/created/

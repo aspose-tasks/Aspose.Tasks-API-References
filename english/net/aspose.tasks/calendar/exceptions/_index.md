@@ -1,7 +1,7 @@
 ---
 title: Exceptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets CalendarExceptionCollection object. The collection of exceptions that is associated with the calendar.
 type: docs
 weight: 50
 url: /net/aspose.tasks/calendar/exceptions/

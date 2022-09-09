@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the time unit interval in which to show labels for the tier. The default value is 1.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/timescaletier/count/

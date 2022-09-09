@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the From date.
 type: docs
 weight: 20
 url: /net/aspose.tasks/workunit/from/

@@ -1,12 +1,12 @@
 ---
 title: TimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the TimescaleTieraspose.tasks.visualization/timescaletier class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/timescaletier/timescaletier/
 ---
-## TimescaleTier constructor (1 of 2)
+## TimescaleTier() {#constructor}
 
 Initializes a new instance of the [`TimescaleTier`](../../timescaletier) class.
 
@@ -22,7 +22,7 @@ public TimescaleTier()
 
 ---
 
-## TimescaleTier constructor (2 of 2)
+## TimescaleTier(TimescaleUnit, int) {#constructor_1}
 
 Initializes a new instance of the [`TimescaleTier`](../../timescaletier) class.
 

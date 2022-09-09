@@ -1,7 +1,7 @@
 ---
 title: ACWP
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Costs incurred for work already done on a task up to the project status date or todays date.
 type: docs
 weight: 110
 url: /net/aspose.tasks/tsk/acwp/

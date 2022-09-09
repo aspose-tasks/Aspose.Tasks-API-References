@@ -1,7 +1,7 @@
 ---
 title: StartDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The start date of a project.
 type: docs
 weight: 670
 url: /net/aspose.tasks/prj/startdate/

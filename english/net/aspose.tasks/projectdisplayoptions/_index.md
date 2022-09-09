@@ -1,7 +1,7 @@
 ---
 title: ProjectDisplayOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the display options for a project instance.
 type: docs
 weight: 1190
 url: /net/aspose.tasks/projectdisplayoptions/

@@ -1,7 +1,7 @@
 ---
 title: Initials
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The initials of a resource.
 type: docs
 weight: 370
 url: /net/aspose.tasks/rsc/initials/

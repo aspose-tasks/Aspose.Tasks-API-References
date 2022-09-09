@@ -1,7 +1,7 @@
 ---
 title: FieldId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the id of a field.
 type: docs
 weight: 40
 url: /net/aspose.tasks/extendedattribute/fieldid/

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkSubAddress
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The document bookmark of the hyperlink associated with an assignment.
 type: docs
 weight: 300
 url: /net/aspose.tasks/asn/hyperlinksubaddress/

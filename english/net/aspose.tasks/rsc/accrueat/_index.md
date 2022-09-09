@@ -1,7 +1,7 @@
 ---
 title: AccrueAt
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines how and when resource standard and overtime costs are to be charged or accrued to the cost of a task.
 type: docs
 weight: 10
 url: /net/aspose.tasks/rsc/accrueat/

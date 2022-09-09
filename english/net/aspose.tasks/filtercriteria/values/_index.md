@@ -1,7 +1,7 @@
 ---
 title: Values
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the object values to compare with the value of the field specified with FieldName.
 type: docs
 weight: 60
 url: /net/aspose.tasks/filtercriteria/values/

@@ -1,7 +1,7 @@
 ---
 title: UpdateNeeded
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the resource assigned to a task needs to be updated as to the status of the task.
 type: docs
 weight: 580
 url: /net/aspose.tasks/asn/updateneeded/

@@ -1,12 +1,12 @@
 ---
 title: GetTimephasedData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an instance of the TimephasedDataCollectionaspose.tasks/timephaseddatacollection class for this object with the TimephasedDataaspose.tasks/resource/timephaseddata values within given start and end dates of specified TimephasedDataTypeaspose.tasks/timephaseddatatype.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.tasks/resource/gettimephaseddata/
 ---
-## Resource.GetTimephasedData method (1 of 2)
+## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
 Returns an instance of the [`TimephasedDataCollection`](../../timephaseddatacollection) class for this object with the [`TimephasedData`](../timephaseddata) values within given start and end dates of specified [`TimephasedDataType`](../../timephaseddatatype).
 
@@ -35,7 +35,7 @@ List of [`TimephasedData`](../timephaseddata).
 
 ---
 
-## Resource.GetTimephasedData method (2 of 2)
+## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
 Returns [`TimephasedDataCollection`](../../timephaseddatacollection) for this object with [`TimephasedData`](../timephaseddata)values within given start and end dates.
 

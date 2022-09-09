@@ -1,7 +1,7 @@
 ---
 title: Group
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a group of the single view.
 type: docs
 weight: 30
 url: /net/aspose.tasks/view/group/

@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes all items from the CalendarExceptionCollectionaspose.tasks/calendarexceptioncollection.
 type: docs
 weight: 60
 url: /net/aspose.tasks/calendarexceptioncollection/clear/

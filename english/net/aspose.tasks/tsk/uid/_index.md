@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The unique Id of a task.
 type: docs
 weight: 1120
 url: /net/aspose.tasks/tsk/uid/

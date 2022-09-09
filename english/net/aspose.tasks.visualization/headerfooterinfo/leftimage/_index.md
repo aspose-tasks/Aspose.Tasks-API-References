@@ -1,7 +1,7 @@
 ---
 title: LeftImage
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the left aligned image to be displayed in the header or footer.
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/headerfooterinfo/leftimage/

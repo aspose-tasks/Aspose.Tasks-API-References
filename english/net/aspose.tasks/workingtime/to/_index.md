@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the end of a working time.
 type: docs
 weight: 30
 url: /net/aspose.tasks/workingtime/to/

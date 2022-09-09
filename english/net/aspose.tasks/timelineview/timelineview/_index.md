@@ -1,7 +1,7 @@
 ---
 title: TimelineView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the TimelineViewaspose.tasks/timelineview class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/timelineview/timelineview/

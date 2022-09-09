@@ -1,7 +1,7 @@
 ---
 title: Key
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets key of VBA module attribute.
 type: docs
 weight: 10
 url: /net/aspose.tasks/vbamoduleattribute/key/

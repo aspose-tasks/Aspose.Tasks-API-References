@@ -1,7 +1,7 @@
 ---
 title: StatusDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: the status date to display progress or to calculate earned value totals. The status date is the same as the current date todays date unless a different status date is specified.
 type: docs
 weight: 680
 url: /net/aspose.tasks/prj/statusdate/

@@ -1,7 +1,7 @@
 ---
 title: ElementType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the extended attribute is associated with a task a resource or an assignment.
 type: docs
 weight: 120
 url: /net/aspose.tasks/extendedattributedefinition/elementtype/

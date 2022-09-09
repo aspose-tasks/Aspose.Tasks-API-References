@@ -1,7 +1,7 @@
 ---
 title: TasksException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the standard internal exception type.
 type: docs
 weight: 2200
 url: /net/aspose.tasks/tasksexception/

@@ -1,7 +1,7 @@
 ---
 title: Resources
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets ResourceCollection object.
 type: docs
 weight: 160
 url: /net/aspose.tasks/project/resources/

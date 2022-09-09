@@ -1,7 +1,7 @@
 ---
 title: GetRiskItems
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an instance of the RiskItemStatisticsCollectionaspose.tasks.riskanalysis/riskitemstatisticscollection for the specified risk type.
 type: docs
 weight: 10
 url: /net/aspose.tasks.riskanalysis/riskanalysisresult/getriskitems/

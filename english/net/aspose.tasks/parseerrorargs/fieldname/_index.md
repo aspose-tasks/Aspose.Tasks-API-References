@@ -1,7 +1,7 @@
 ---
 title: FieldName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the object field name.
 type: docs
 weight: 20
 url: /net/aspose.tasks/parseerrorargs/fieldname/

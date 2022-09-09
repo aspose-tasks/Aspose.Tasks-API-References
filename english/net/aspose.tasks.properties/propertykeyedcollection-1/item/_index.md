@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the Property associated with the specified key.
 type: docs
 weight: 30
 url: /net/aspose.tasks.properties/propertykeyedcollection-1/item/

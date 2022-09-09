@@ -1,7 +1,7 @@
 ---
 title: GroupCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Contains a list of Group./group objects. Implements ICollectionltGroupgt interface.
 type: docs
 weight: 710
 url: /net/aspose.tasks/groupcollection/

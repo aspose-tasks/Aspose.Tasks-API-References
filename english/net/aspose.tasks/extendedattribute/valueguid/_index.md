@@ -1,7 +1,7 @@
 ---
 title: ValueGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the guid of a lookup value.
 type: docs
 weight: 90
 url: /net/aspose.tasks/extendedattribute/valueguid/

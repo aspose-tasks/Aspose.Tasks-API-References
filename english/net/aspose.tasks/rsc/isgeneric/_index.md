@@ -1,7 +1,7 @@
 ---
 title: IsGeneric
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a resource is generic or not.
 type: docs
 weight: 410
 url: /net/aspose.tasks/rsc/isgeneric/

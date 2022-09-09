@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to the specified VbaModuleAttributeaspose.tasks/vbamoduleattribute object.
 type: docs
 weight: 30
 url: /net/aspose.tasks/vbamoduleattribute/equals/
 ---
-## VbaModuleAttribute.Equals method (1 of 2)
+## Equals(VbaModuleAttribute) {#equals}
 
 Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../../vbamoduleattribute) object.
 
@@ -30,7 +30,7 @@ Returns true if this instance is equal to the specified [`VbaModuleAttribute`](.
 
 ---
 
-## VbaModuleAttribute.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../../vbamoduleattribute) object.
 

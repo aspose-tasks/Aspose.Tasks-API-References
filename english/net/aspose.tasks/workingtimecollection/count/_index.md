@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the number of objects contained in this WorkingTimeCollectionaspose.tasks/workingtimecollection object.
 type: docs
 weight: 10
 url: /net/aspose.tasks/workingtimecollection/count/

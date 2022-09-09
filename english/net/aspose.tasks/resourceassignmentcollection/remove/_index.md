@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes specified assignment from collection if it is not readonly otherwise throws NotSupportedException.
 type: docs
 weight: 80
 url: /net/aspose.tasks/resourceassignmentcollection/remove/

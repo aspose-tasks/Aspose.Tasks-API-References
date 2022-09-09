@@ -1,7 +1,7 @@
 ---
 title: RatesTo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the last date when a rate is effective.
 type: docs
 weight: 50
 url: /net/aspose.tasks/rate/ratesto/

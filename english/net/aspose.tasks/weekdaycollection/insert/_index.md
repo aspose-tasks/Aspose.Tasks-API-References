@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Inserts WeekDayaspose.tasks/weekday at specified index.
 type: docs
 weight: 90
 url: /net/aspose.tasks/weekdaycollection/insert/

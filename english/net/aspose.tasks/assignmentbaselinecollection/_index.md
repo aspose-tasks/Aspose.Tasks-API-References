@@ -1,7 +1,7 @@
 ---
 title: AssignmentBaselineCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of AssignmentBaseline./assignmentbaseline objects.
 type: docs
 weight: 60
 url: /net/aspose.tasks/assignmentbaselinecollection/

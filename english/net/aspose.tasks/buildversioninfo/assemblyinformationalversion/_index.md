@@ -1,7 +1,7 @@
 ---
 title: AssemblyInformationalVersion
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The informational version number of the assembly.
 type: docs
 weight: 10
 url: /net/aspose.tasks/buildversioninfo/assemblyinformationalversion/

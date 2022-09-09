@@ -1,7 +1,7 @@
 ---
 title: EndShapeColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a color of the end shape.
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/ganttbarstyle/endshapecolor/

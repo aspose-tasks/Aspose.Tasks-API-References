@@ -1,7 +1,7 @@
 ---
 title: FieldName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the name of a custom field.
 type: docs
 weight: 140
 url: /net/aspose.tasks/extendedattributedefinition/fieldname/

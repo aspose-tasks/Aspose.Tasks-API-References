@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether this collection is readonly otherwise false.
 type: docs
 weight: 20
 url: /net/aspose.tasks/viewcollection/isreadonly/

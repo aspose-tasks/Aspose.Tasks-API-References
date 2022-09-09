@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the outline code type.
 type: docs
 weight: 60
 url: /net/aspose.tasks/outlinevalue/type/

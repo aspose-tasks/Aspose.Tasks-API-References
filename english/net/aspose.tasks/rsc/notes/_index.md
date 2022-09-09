@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The text notes associated with a resource.
 type: docs
 weight: 470
 url: /net/aspose.tasks/rsc/notes/

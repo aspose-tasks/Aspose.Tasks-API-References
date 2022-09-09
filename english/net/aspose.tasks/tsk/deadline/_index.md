@@ -1,7 +1,7 @@
 ---
 title: Deadline
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: A target date that indicates when a task is to be completed.
 type: docs
 weight: 270
 url: /net/aspose.tasks/tsk/deadline/

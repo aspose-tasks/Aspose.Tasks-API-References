@@ -1,7 +1,7 @@
 ---
 title: OtherLineColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the color of other progress line.
 type: docs
 weight: 120
 url: /net/aspose.tasks.visualization/progresslines/otherlinecolor/

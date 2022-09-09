@@ -1,7 +1,7 @@
 ---
 title: RemoveActualValues
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether all actual values from a project template should be removed.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/savetemplateoptions/removeactualvalues/

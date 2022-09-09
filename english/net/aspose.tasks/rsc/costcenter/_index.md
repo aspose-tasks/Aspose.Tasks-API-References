@@ -1,7 +1,7 @@
 ---
 title: CostCenter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Indicates which cost center the costs accrued by the resource should be charged to.
 type: docs
 weight: 230
 url: /net/aspose.tasks/rsc/costcenter/

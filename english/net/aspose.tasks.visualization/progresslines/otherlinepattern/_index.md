@@ -1,7 +1,7 @@
 ---
 title: OtherLinePattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the line pattern for other progress line.
 type: docs
 weight: 130
 url: /net/aspose.tasks.visualization/progresslines/otherlinepattern/

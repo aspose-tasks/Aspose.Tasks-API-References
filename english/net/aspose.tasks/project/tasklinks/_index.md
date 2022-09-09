@@ -1,7 +1,7 @@
 ---
 title: TaskLinks
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets TaskLinkCollectionaspose.tasks/tasklinkcollection object.
 type: docs
 weight: 210
 url: /net/aspose.tasks/project/tasklinks/

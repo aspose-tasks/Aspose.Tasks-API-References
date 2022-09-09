@@ -1,7 +1,7 @@
 ---
 title: Content
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the embedded files data null if no data was embedded.
 type: docs
 weight: 30
 url: /net/aspose.tasks/oleobject/content/

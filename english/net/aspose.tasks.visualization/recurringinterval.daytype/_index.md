@@ -1,9 +1,9 @@
 ---
 title: RecurringInterval.DayType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a day type used in progress lines.
 type: docs
-weight: 2940
+weight: 2960
 url: /net/aspose.tasks.visualization/recurringinterval.daytype/
 ---
 ## RecurringInterval.DayType enumeration

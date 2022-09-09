@@ -1,7 +1,7 @@
 ---
 title: Units
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The number of units for an assignment.
 type: docs
 weight: 570
 url: /net/aspose.tasks/asn/units/

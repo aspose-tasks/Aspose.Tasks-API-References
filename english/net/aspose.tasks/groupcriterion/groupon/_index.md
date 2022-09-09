@@ -1,7 +1,7 @@
 ---
 title: GroupOn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the type of grouping for a field used as a criterion in a group definition.
 type: docs
 weight: 80
 url: /net/aspose.tasks/groupcriterion/groupon/

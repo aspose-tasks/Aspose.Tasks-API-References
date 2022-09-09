@@ -1,7 +1,7 @@
 ---
 title: GenerateWBSCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to generate WBS code for new task.
 type: docs
 weight: 40
 url: /net/aspose.tasks/wbscodedefinition/generatewbscode/

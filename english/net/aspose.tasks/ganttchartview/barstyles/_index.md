@@ -1,7 +1,7 @@
 ---
 title: BarStyles
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a list of parent common bar styles of the Gantt Chart view. GanttBarStyleaspose.tasks.visualization/ganttbarstyle.
 type: docs
 weight: 50
 url: /net/aspose.tasks/ganttchartview/barstyles/

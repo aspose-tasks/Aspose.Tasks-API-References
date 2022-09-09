@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the BaselineCollection object to a list of Baselineaspose.tasks/baseline objects.
 type: docs
 weight: 70
 url: /net/aspose.tasks/baselinecollection/tolist/

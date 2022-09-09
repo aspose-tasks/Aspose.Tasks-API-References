@@ -1,7 +1,7 @@
 ---
 title: LegendOnEachPage
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether legend should be shown on each page Default value is TRUE.
 type: docs
 weight: 70
 url: /net/aspose.tasks.saving/saveoptions/legendoneachpage/

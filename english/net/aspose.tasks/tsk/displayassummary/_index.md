@@ -1,7 +1,7 @@
 ---
 title: DisplayAsSummary
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the task should be displayed as a summary task.  Reading supported for XML format only. Boolean type.
 type: docs
 weight: 280
 url: /net/aspose.tasks/tsk/displayassummary/

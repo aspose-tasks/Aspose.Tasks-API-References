@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code for the instance of the Calendaraspose.tasks/calendar class.
 type: docs
 weight: 160
 url: /net/aspose.tasks/calendar/gethashcode/

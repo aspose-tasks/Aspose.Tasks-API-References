@@ -1,7 +1,7 @@
 ---
 title: LastAuthor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects last author.
 type: docs
 weight: 410
 url: /net/aspose.tasks/prj/lastauthor/

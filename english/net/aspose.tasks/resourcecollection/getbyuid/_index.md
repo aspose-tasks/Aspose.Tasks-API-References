@@ -1,7 +1,7 @@
 ---
 title: GetByUid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a resource with the specified Uid.
 type: docs
 weight: 70
 url: /net/aspose.tasks/resourcecollection/getbyuid/

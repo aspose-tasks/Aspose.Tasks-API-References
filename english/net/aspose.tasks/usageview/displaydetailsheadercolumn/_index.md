@@ -1,7 +1,7 @@
 ---
 title: DisplayDetailsHeaderColumn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display details header column in the view or not.
 type: docs
 weight: 30
 url: /net/aspose.tasks/usageview/displaydetailsheadercolumn/

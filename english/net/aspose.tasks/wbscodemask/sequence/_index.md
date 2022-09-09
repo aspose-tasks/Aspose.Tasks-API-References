@@ -1,7 +1,7 @@
 ---
 title: Sequence
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the type of character of the code string.
 type: docs
 weight: 50
 url: /net/aspose.tasks/wbscodemask/sequence/

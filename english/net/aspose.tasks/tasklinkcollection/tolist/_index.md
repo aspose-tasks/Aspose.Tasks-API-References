@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the TaskLinkCollection object to a list of TaskLinkaspose.tasks/tasklink objects.
 type: docs
 weight: 70
 url: /net/aspose.tasks/tasklinkcollection/tolist/

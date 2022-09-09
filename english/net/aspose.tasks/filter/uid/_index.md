@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the unique identifier of a filter.
 type: docs
 weight: 90
 url: /net/aspose.tasks/filter/uid/

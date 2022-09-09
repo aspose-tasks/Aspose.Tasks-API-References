@@ -1,7 +1,7 @@
 ---
 title: Unit
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the time unit of a time phased data period.
 type: docs
 weight: 90
 url: /net/aspose.tasks/timephaseddata/unit/

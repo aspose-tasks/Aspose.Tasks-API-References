@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets how to align labels within each time period of the tier StringAlignment.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/timescaletier/alignment/

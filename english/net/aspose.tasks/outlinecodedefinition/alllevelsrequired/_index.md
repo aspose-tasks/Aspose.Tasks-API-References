@@ -1,7 +1,7 @@
 ---
 title: AllLevelsRequired
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the new codes must have all levels. Not available for Enterprise Codes.
 type: docs
 weight: 30
 url: /net/aspose.tasks/outlinecodedefinition/alllevelsrequired/

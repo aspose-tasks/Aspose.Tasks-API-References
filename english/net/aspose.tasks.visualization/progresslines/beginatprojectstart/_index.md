@@ -1,7 +1,7 @@
 ---
 title: BeginAtProjectStart
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display progress lines from the beginning of the project start date.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/progresslines/beginatprojectstart/

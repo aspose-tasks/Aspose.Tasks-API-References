@@ -1,7 +1,7 @@
 ---
 title: Distribution
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the probability distribution used in Monte Carlo simulation. The default value is ProbabilityDistributionType.Normal.
 type: docs
 weight: 30
 url: /net/aspose.tasks.riskanalysis/riskpattern/distribution/

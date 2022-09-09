@@ -1,7 +1,7 @@
 ---
 title: GetByUid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a task with the specified Uid whose ancestor is parent task of this collection .
 type: docs
 weight: 80
 url: /net/aspose.tasks/taskcollection/getbyuid/

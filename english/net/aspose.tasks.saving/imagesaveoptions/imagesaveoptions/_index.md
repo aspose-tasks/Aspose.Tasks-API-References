@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the ImageSaveOptionsaspose.tasks.saving/imagesaveoptions class which can be used to save rendered images in TIFF PNG BMP or JPEG formats.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/imagesaveoptions/imagesaveoptions/

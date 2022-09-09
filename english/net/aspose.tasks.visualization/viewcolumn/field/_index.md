@@ -1,7 +1,7 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets column field. Fieldaspose.tasks.visualization/viewcolumn/field.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/viewcolumn/field/

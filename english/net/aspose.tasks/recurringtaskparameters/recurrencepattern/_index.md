@@ -1,7 +1,7 @@
 ---
 title: RecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the recurrence pattern of the recurring task. Can be one of the values of RecurrencePatternaspose.tasks/recurringtaskparameters/recurrencepattern enumeration.
 type: docs
 weight: 40
 url: /net/aspose.tasks/recurringtaskparameters/recurrencepattern/

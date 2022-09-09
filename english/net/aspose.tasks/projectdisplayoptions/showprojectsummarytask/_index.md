@@ -1,7 +1,7 @@
 ---
 title: ShowProjectSummaryTask
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display summary information about an entire project on a single row with its own summary task bar at the top of the Gantt Chart view.
 type: docs
 weight: 70
 url: /net/aspose.tasks/projectdisplayoptions/showprojectsummarytask/

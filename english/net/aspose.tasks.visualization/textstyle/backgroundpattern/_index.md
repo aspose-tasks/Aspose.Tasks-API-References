@@ -1,7 +1,7 @@
 ---
 title: BackgroundPattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets background pattern of the text style. BackgroundPatternaspose.tasks.visualization/textstyle/backgroundpattern.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/textstyle/backgroundpattern/

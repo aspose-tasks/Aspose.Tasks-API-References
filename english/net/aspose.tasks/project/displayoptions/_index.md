@@ -1,7 +1,7 @@
 ---
 title: DisplayOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets an instance of the ProjectDisplayOptionsaspose.tasks/projectdisplayoptions class.
 type: docs
 weight: 90
 url: /net/aspose.tasks/project/displayoptions/

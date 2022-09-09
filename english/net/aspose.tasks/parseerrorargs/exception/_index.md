@@ -1,7 +1,7 @@
 ---
 title: Exception
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the raised exception during parsing string value.
 type: docs
 weight: 10
 url: /net/aspose.tasks/parseerrorargs/exception/

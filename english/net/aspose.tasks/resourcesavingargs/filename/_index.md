@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the supposed file name that goes from converter to code of custom method. Can be use in custom code to decide how to process or where save that file.
 type: docs
 weight: 20
 url: /net/aspose.tasks/resourcesavingargs/filename/

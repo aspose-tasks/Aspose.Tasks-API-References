@@ -1,7 +1,7 @@
 ---
 title: BudgetWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: budget work for budget work and material resources. Budget resources are assigned only to the project summary task.
 type: docs
 weight: 180
 url: /net/aspose.tasks/rsc/budgetwork/

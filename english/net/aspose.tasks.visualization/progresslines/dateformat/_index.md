@@ -1,7 +1,7 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the date format DateLabelaspose.tasks.visualization/datelabel.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/progresslines/dateformat/

@@ -1,7 +1,7 @@
 ---
 title: PrintNotes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to print notes.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/pageviewsettings/printnotes/

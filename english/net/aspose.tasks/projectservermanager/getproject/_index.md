@@ -1,7 +1,7 @@
 ---
 title: GetProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the project with the specified guid from the Project Online account  Project Server instance.
 type: docs
 weight: 40
 url: /net/aspose.tasks/projectservermanager/getproject/

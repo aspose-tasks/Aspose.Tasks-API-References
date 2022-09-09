@@ -1,7 +1,7 @@
 ---
 title: ActivityId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents activity id field  a tasks unique identifier used by Primavera. only applicable to Primavera projects.
 type: docs
 weight: 10
 url: /net/aspose.tasks/tsk/activityid/

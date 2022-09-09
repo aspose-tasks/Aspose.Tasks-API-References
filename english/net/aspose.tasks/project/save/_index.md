@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Saves the document to mpp file format using the specified save options.
 type: docs
 weight: 400
 url: /net/aspose.tasks/project/save/
 ---
-## Project.Save method (1 of 7)
+## Save(string, MPPSaveOptions) {#save_4}
 
 Saves the document to mpp file format using the specified save options.
 
@@ -28,7 +28,7 @@ public void Save(string filename, MPPSaveOptions options)
 
 ---
 
-## Project.Save method (2 of 7)
+## Save(string, SaveOptions) {#save_6}
 
 Saves the document to a file using the specified save options.
 
@@ -50,7 +50,7 @@ public void Save(string filename, SaveOptions options)
 
 ---
 
-## Project.Save method (3 of 7)
+## Save(string, SaveFileFormat) {#save_5}
 
 Saves the project data to the file.
 
@@ -72,7 +72,7 @@ public void Save(string filename, SaveFileFormat format)
 
 ---
 
-## Project.Save method (4 of 7)
+## Save(string) {#save_3}
 
 Saves the project data to the file in mpp format.
 
@@ -92,7 +92,7 @@ public void Save(string filename)
 
 ---
 
-## Project.Save method (5 of 7)
+## Save(Stream, SaveOptions) {#save_2}
 
 Saves the project to a stream using the specified save options.
 
@@ -114,7 +114,7 @@ public void Save(Stream stream, SaveOptions options)
 
 ---
 
-## Project.Save method (6 of 7)
+## Save(Stream, MPPSaveOptions) {#save}
 
 Saves the project to a stream using the specified save options.
 
@@ -136,7 +136,7 @@ public void Save(Stream stream, MPPSaveOptions options)
 
 ---
 
-## Project.Save method (7 of 7)
+## Save(Stream, SaveFileFormat) {#save_1}
 
 Saves the project data to the stream.
 

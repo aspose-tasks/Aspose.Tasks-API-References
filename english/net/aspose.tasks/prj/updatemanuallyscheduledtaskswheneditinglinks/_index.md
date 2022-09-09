@@ -1,7 +1,7 @@
 ---
 title: UpdateManuallyScheduledTasksWhenEditingLinks
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether manual tasks must be updated when links were edited.
 type: docs
 weight: 760
 url: /net/aspose.tasks/prj/updatemanuallyscheduledtaskswheneditinglinks/

@@ -1,7 +1,7 @@
 ---
 title: KeepStreamOpen
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the stream will be kept open after resource saving finishes.
 type: docs
 weight: 30
 url: /net/aspose.tasks/resourcesavingargs/keepstreamopen/

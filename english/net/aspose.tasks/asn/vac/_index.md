@@ -1,7 +1,7 @@
 ---
 title: VAC
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between baseline cost and total cost.
 type: docs
 weight: 590
 url: /net/aspose.tasks/asn/vac/

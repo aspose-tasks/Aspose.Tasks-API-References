@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a flag indicating whether this instance is equal to the specified instance of the NullableBoolaspose.tasks/nullablebool class.
 type: docs
 weight: 40
 url: /net/aspose.tasks/nullablebool/equals/
 ---
-## NullableBool.Equals method (1 of 2)
+## Equals(NullableBool) {#equals}
 
 Returns a flag indicating whether this instance is equal to the specified instance of the [`NullableBool`](../../nullablebool) class.
 
@@ -30,7 +30,7 @@ a flag indicating whether this instance is equal to the specified instance of th
 
 ---
 
-## NullableBool.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a flag indicating whether this instance is equal to the specified object.
 

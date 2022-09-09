@@ -1,7 +1,7 @@
 ---
 title: RequestedFontName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the name of requested font.
 type: docs
 weight: 10
 url: /net/aspose.tasks/fontresolveeventargs/requestedfontname/

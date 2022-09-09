@@ -1,7 +1,7 @@
 ---
 title: ShowInMenu
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views dropdown lists in the Ribbon.
 type: docs
 weight: 90
 url: /net/aspose.tasks/view/showinmenu/

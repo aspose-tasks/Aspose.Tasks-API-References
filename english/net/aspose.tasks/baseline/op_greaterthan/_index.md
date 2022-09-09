@@ -1,7 +1,7 @@
 ---
 title: op_GreaterThan
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is greater than a specified object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/baseline/op_greaterthan/

@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code value for the instance of the SplitPartaspose.tasks/splitpart class.
 type: docs
 weight: 40
 url: /net/aspose.tasks/splitpart/gethashcode/

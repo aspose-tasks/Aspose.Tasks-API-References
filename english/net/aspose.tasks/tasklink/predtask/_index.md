@@ -1,7 +1,7 @@
 ---
 title: PredTask
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the predecessor task.
 type: docs
 weight: 60
 url: /net/aspose.tasks/tasklink/predtask/

@@ -1,7 +1,7 @@
 ---
 title: Screen
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the screen type for the single view. Readonly ViewScreenaspose.tasks/viewscreen.
 type: docs
 weight: 80
 url: /net/aspose.tasks/view/screen/

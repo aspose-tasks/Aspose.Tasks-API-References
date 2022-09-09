@@ -1,7 +1,7 @@
 ---
 title: EndShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets an end shape of the bar.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/ganttbarstyle/endshape/

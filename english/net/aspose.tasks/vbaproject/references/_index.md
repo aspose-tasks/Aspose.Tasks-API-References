@@ -1,7 +1,7 @@
 ---
 title: References
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a collection of VbaReferenceCollectionaspose.tasks/vbareferencecollection
 type: docs
 weight: 70
 url: /net/aspose.tasks/vbaproject/references/

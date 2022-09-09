@@ -1,7 +1,7 @@
 ---
 title: CustomBarStyles
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a list of custom taskspecific bar styles of the Gantt Chart view. GanttBarStyleaspose.tasks.visualization/ganttbarstyle.
 type: docs
 weight: 70
 url: /net/aspose.tasks/ganttchartview/custombarstyles/

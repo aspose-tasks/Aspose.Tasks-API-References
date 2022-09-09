@@ -1,7 +1,7 @@
 ---
 title: IgnoreResourceCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to schedule the recurring task even if it does not happen when any resources are available to work on it.
 type: docs
 weight: 30
 url: /net/aspose.tasks/recurringtaskparameters/ignoreresourcecalendar/

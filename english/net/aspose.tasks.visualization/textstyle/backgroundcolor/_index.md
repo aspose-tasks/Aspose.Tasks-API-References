@@ -1,7 +1,7 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets background color of the text style. Coloraspose.tasks.visualization/textstyle/color.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/textstyle/backgroundcolor/

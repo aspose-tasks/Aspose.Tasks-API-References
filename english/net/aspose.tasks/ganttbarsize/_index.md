@@ -1,7 +1,7 @@
 ---
 title: GanttBarSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the height of a bar in points.
 type: docs
 weight: 680
 url: /net/aspose.tasks/ganttbarsize/

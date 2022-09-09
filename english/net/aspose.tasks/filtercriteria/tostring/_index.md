@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns string representation of the instance of the FilterCriteriaaspose.tasks/filtercriteria class.
 type: docs
 weight: 70
 url: /net/aspose.tasks/filtercriteria/tostring/

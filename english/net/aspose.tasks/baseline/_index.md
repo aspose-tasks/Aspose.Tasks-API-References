@@ -1,7 +1,7 @@
 ---
 title: Baseline
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents baseline values of a resource.
 type: docs
 weight: 100
 url: /net/aspose.tasks/baseline/
@@ -35,8 +35,8 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](../../aspose.tasks/baseline/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Returns a hash code value for the baseline. |
 | [operator ==](../../aspose.tasks/baseline/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
 | [operator &gt;](../../aspose.tasks/baseline/op_greaterthan) | Returns a value indicating whether this instance is greater than a specified object. |

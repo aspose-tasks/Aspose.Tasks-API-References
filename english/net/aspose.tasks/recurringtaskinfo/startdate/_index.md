@@ -1,7 +1,7 @@
 ---
 title: StartDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the date for the occurrences to begin.
 type: docs
 weight: 130
 url: /net/aspose.tasks/recurringtaskinfo/startdate/

@@ -1,7 +1,7 @@
 ---
 title: OutlineMaskCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of OutlineMask./outlinemask objects.
 type: docs
 weight: 1060
 url: /net/aspose.tasks/outlinemaskcollection/

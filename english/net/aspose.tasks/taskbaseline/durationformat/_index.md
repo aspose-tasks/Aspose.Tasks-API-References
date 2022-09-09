@@ -1,7 +1,7 @@
 ---
 title: DurationFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the format for expressing the duration of the task baseline.
 type: docs
 weight: 30
 url: /net/aspose.tasks/taskbaseline/durationformat/

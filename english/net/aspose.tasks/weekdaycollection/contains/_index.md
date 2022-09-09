@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Checks if collection contains WeekDayaspose.tasks/weekday.specified.
 type: docs
 weight: 50
 url: /net/aspose.tasks/weekdaycollection/contains/

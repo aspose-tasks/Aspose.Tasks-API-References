@@ -1,7 +1,7 @@
 ---
 title: OvertimeCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The total overtime cost for a task for a resource on all assigned tasks or for a resource assignment.
 type: docs
 weight: 870
 url: /net/aspose.tasks/tsk/overtimecost/

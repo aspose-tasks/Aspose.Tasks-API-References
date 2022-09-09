@@ -1,7 +1,7 @@
 ---
 title: Milestone
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the assignment is a milestone.
 type: docs
 weight: 340
 url: /net/aspose.tasks/asn/milestone/

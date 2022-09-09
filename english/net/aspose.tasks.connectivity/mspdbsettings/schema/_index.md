@@ -1,7 +1,7 @@
 ---
 title: Schema
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the schema of the MS Project Server. The default value is pub.
 type: docs
 weight: 30
 url: /net/aspose.tasks.connectivity/mspdbsettings/schema/

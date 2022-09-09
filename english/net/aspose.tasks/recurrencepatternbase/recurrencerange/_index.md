@@ -1,7 +1,7 @@
 ---
 title: RecurrenceRange
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the recurrence range.
 type: docs
 weight: 10
 url: /net/aspose.tasks/recurrencepatternbase/recurrencerange/

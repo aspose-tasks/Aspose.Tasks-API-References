@@ -1,7 +1,7 @@
 ---
 title: DisplayOverlapped
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display overlapped tasks on multiple rows.
 type: docs
 weight: 30
 url: /net/aspose.tasks/timelineview/displayoverlapped/

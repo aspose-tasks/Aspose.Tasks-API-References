@@ -1,7 +1,7 @@
 ---
 title: CssStylePrefix
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets CSS style prefix.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/htmlsaveoptions/cssstyleprefix/

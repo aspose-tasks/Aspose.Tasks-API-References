@@ -1,7 +1,7 @@
 ---
 title: ActiveDirectoryGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The Active Directory Guid for a resource.
 type: docs
 weight: 20
 url: /net/aspose.tasks/rsc/activedirectoryguid/

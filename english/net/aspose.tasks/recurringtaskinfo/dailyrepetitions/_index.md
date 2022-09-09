@@ -1,7 +1,7 @@
 ---
 title: DailyRepetitions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of repetitions for the daily recurrence pattern.
 type: docs
 weight: 10
 url: /net/aspose.tasks/recurringtaskinfo/dailyrepetitions/

@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the WorkWeekCollection object to a list of WorkWeekaspose.tasks/workweek objects.
 type: docs
 weight: 60
 url: /net/aspose.tasks/workweekcollection/tolist/

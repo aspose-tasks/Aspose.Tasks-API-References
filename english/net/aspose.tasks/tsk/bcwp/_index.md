@@ -1,7 +1,7 @@
 ---
 title: BCWP
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The cumulative value of the tasks percent complete multiplied by the time phased baseline costs.
 type: docs
 weight: 120
 url: /net/aspose.tasks/tsk/bcwp/

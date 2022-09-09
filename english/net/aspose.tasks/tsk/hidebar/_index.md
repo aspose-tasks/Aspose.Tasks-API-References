@@ -1,7 +1,7 @@
 ---
 title: HideBar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the Gantt bar of a task is hidden when displayed in Microsoft Project.
 type: docs
 weight: 480
 url: /net/aspose.tasks/tsk/hidebar/

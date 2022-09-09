@@ -1,7 +1,7 @@
 ---
 title: WeeklyWeekNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the week number for weekly progress lines.
 type: docs
 weight: 120
 url: /net/aspose.tasks.visualization/recurringinterval/weeklyweeknumber/

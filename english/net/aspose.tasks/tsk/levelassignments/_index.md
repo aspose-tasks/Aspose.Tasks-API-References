@@ -1,7 +1,7 @@
 ---
 title: LevelAssignments
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the leveling function can delay and split individual assignments in order to resolve over allocations.
 type: docs
 weight: 750
 url: /net/aspose.tasks/tsk/levelassignments/

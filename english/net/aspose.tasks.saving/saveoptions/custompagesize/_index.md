@@ -1,7 +1,7 @@
 ---
 title: CustomPageSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the custom page size in points 1 point  1/72 of inch.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/saveoptions/custompagesize/

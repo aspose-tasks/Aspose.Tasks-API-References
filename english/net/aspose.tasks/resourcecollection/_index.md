@@ -1,7 +1,7 @@
 ---
 title: ResourceCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of Resource./resource objects.
 type: docs
 weight: 1510
 url: /net/aspose.tasks/resourcecollection/
@@ -26,9 +26,9 @@ public class ResourceCollection : IList<Resource>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/resourcecollection/add)() | Adds new resource at the last position of a project resources collection. |
-| [Add](../../aspose.tasks/resourcecollection/add)(string) | Adds new resource at the last position of a project resources collection. |
-| [Add](../../aspose.tasks/resourcecollection/add)(string, int) | Adds new resource at the specified position of a project resources collection. |
+| [Add](../../aspose.tasks/resourcecollection/add#add)() | Adds new resource at the last position of a project resources collection. |
+| [Add](../../aspose.tasks/resourcecollection/add#add_1)(string) | Adds new resource at the last position of a project resources collection. |
+| [Add](../../aspose.tasks/resourcecollection/add#add_2)(string, int) | Adds new resource at the specified position of a project resources collection. |
 | [Clear](../../aspose.tasks/resourcecollection/clear)() | Direct clearing is not supported, this method just throw NotSupportedException. |
 | [GetById](../../aspose.tasks/resourcecollection/getbyid)(int) | Returns a resource with the specified id. |
 | [GetByUid](../../aspose.tasks/resourcecollection/getbyuid)(int) | Returns a resource with the specified Uid. |

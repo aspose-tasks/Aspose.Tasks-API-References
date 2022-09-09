@@ -1,7 +1,7 @@
 ---
 title: Category
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The category of a project.
 type: docs
 weight: 90
 url: /net/aspose.tasks/prj/category/

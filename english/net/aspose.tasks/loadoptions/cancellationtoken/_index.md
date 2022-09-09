@@ -1,7 +1,7 @@
 ---
 title: CancellationToken
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a token which can be used to cancel a project loading operation.
 type: docs
 weight: 20
 url: /net/aspose.tasks/loadoptions/cancellationtoken/

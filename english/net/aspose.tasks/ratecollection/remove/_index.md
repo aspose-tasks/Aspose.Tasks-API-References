@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes Rate instance from this collection.
 type: docs
 weight: 70
 url: /net/aspose.tasks/ratecollection/remove/

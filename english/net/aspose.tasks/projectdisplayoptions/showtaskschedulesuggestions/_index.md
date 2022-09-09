@@ -1,7 +1,7 @@
 ---
 title: ShowTaskScheduleSuggestions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to show suggestions when Project identifies a possible scheduling conflict with a manually scheduled task. This option is available for Project 2010 version and later.
 type: docs
 weight: 80
 url: /net/aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions/

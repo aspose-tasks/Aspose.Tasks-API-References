@@ -1,7 +1,7 @@
 ---
 title: LinkedFields
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the Project is linked to another OLE object.
 type: docs
 weight: 330
 url: /net/aspose.tasks/asn/linkedfields/

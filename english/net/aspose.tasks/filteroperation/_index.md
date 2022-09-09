@@ -1,7 +1,7 @@
 ---
 title: FilterOperation
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies how the criterion established with FieldName FilterComparisonType and Value relates to other criteria in the filter.
 type: docs
 weight: 630
 url: /net/aspose.tasks/filteroperation/

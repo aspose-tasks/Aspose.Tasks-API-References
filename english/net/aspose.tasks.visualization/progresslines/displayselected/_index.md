@@ -1,7 +1,7 @@
 ---
 title: DisplaySelected
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display progress lines at the selected dates.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/progresslines/displayselected/

@@ -1,7 +1,7 @@
 ---
 title: FontFaceTypes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the font face types.
 type: docs
 weight: 80
 url: /net/aspose.tasks.saving/htmlsaveoptions/fontfacetypes/

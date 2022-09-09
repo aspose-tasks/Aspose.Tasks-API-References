@@ -1,7 +1,7 @@
 ---
 title: UseGradientBrush
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether to use gradient brush when rendering project layout. Currently using of gradient brush is not supported for rendering to SVG.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/svgoptions/usegradientbrush/

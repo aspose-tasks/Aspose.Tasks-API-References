@@ -1,7 +1,7 @@
 ---
 title: SubprojectName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The source location of a subproject.
 type: docs
 weight: 1080
 url: /net/aspose.tasks/tsk/subprojectname/

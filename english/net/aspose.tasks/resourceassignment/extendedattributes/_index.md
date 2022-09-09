@@ -1,7 +1,7 @@
 ---
 title: ExtendedAttributes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets an instance of the ExtendedAttributeCollection class for this object.
 type: docs
 weight: 20
 url: /net/aspose.tasks/resourceassignment/extendedattributes/

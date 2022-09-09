@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the WorkingTimeCollection object to a list of WorkingTimeaspose.tasks/workingtime objects.
 type: docs
 weight: 90
 url: /net/aspose.tasks/workingtimecollection/tolist/

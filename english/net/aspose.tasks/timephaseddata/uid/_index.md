@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the unique identifier of a time phased data
 type: docs
 weight: 80
 url: /net/aspose.tasks/timephaseddata/uid/

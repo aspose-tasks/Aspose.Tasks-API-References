@@ -1,7 +1,7 @@
 ---
 title: FieldId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the number value of the project Id custom field.
 type: docs
 weight: 20
 url: /net/aspose.tasks/outlinecode/fieldid/

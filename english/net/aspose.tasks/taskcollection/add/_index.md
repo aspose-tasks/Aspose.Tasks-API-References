@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Add the specified task to the instance of the TaskCollectionaspose.tasks/taskcollection class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate after using this method It will reschedule all project tasks start/finish dates sets early/late dates and calculate the dependent fields such as slacks work and cost fields ids and outline levels. If ParentProject.CalculationMode is Manual the method will calculate only task id outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all projects tasks automatically start/finish dates sets early/late dates calculates slacks work and cost fields recalculates ids and outline levels.
 type: docs
 weight: 50
 url: /net/aspose.tasks/taskcollection/add/
 ---
-## TaskCollection.Add method (1 of 5)
+## Add(Task) {#add_4}
 
 Add the specified task to the instance of the [`TaskCollection`](../../taskcollection) class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, ids and outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels).
 
@@ -27,7 +27,7 @@ public void Add(Task item)
 
 ---
 
-## TaskCollection.Add method (2 of 5)
+## Add() {#add}
 
 Adds new task to project tasks collection on the same outline level of the last task.
 
@@ -48,7 +48,7 @@ returns the newly added instance of the [`Task`](../../task) class.
 
 ---
 
-## TaskCollection.Add method (3 of 5)
+## Add(string) {#add_2}
 
 Adds a new task to children tasks collection.
 
@@ -73,7 +73,7 @@ returns the newly added instance of the [`Task`](../../task) class.
 
 ---
 
-## TaskCollection.Add method (4 of 5)
+## Add(string, int) {#add_3}
 
 Adds a new recurring task to children tasks collection.
 
@@ -105,7 +105,7 @@ returns a task which was inserted before a task with the specified id.
 
 ---
 
-## TaskCollection.Add method (5 of 5)
+## Add(RecurringTaskParameters) {#add_1}
 
 Inserts a new task before a task with the specified id and on the same outline level.
 

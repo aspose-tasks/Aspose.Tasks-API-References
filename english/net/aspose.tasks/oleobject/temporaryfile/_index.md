@@ -1,7 +1,7 @@
 ---
 title: TemporaryFile
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the path to the temporary file of the inserted object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/oleobject/temporaryfile/

@@ -1,7 +1,7 @@
 ---
 title: WorkingTimes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the WorkingTimeCollection object. The collection of working times that defines the time worked on the weekday.  At least one working time must present and there cant be more than five.
 type: docs
 weight: 160
 url: /net/aspose.tasks/calendarexception/workingtimes/

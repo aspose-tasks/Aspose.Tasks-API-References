@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Copies the elements of this collection to the specified array starting at the specified array index.
 type: docs
 weight: 70
 url: /net/aspose.tasks/extendedattributecollection/copyto/

@@ -1,7 +1,7 @@
 ---
 title: ShowToday
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to display a line representing today.
 type: docs
 weight: 70
 url: /net/aspose.tasks/timelineview/showtoday/

@@ -1,7 +1,7 @@
 ---
 title: PreleveledFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The finish date of a task as it was before resource leveling was done.
 type: docs
 weight: 920
 url: /net/aspose.tasks/tsk/preleveledfinish/

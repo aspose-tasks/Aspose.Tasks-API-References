@@ -1,7 +1,7 @@
 ---
 title: Revision
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The number of times a project was saved.
 type: docs
 weight: 600
 url: /net/aspose.tasks/prj/revision/

@@ -1,7 +1,7 @@
 ---
 title: FixedMaterial
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the consumption of an assigned material resource occurs in a single fixed amount.
 type: docs
 weight: 260
 url: /net/aspose.tasks/asn/fixedmaterial/

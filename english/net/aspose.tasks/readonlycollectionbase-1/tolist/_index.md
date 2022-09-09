@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the collection object to a list of VbaModuleaspose.tasks/vbamodule objects.
 type: docs
 weight: 50
 url: /net/aspose.tasks/readonlycollectionbase-1/tolist/

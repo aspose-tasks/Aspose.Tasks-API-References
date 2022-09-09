@@ -1,7 +1,7 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the finish date of a time phased data period.
 type: docs
 weight: 50
 url: /net/aspose.tasks/timephaseddata/finish/

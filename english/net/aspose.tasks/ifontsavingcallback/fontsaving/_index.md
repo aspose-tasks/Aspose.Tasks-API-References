@@ -1,7 +1,7 @@
 ---
 title: FontSaving
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The method to be called while saving of fonts.
 type: docs
 weight: 10
 url: /net/aspose.tasks/ifontsavingcallback/fontsaving/

@@ -1,7 +1,7 @@
 ---
 title: OutlineIndent
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Indents a task in the outline.
 type: docs
 weight: 200
 url: /net/aspose.tasks/task/outlineindent/

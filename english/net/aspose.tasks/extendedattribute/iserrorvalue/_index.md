@@ -1,7 +1,7 @@
 ---
 title: IsErrorValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets whether calculation of extended attributes value resulted in an error.
 type: docs
 weight: 60
 url: /net/aspose.tasks/extendedattribute/iserrorvalue/

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the name of the view for which setup data is used.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/pageinfo/name/

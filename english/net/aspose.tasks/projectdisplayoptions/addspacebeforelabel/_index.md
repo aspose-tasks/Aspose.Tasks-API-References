@@ -1,7 +1,7 @@
 ---
 title: AddSpaceBeforeLabel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to add a space before the number value and the time abbreviation 1 wk as opposed to 1wk.
 type: docs
 weight: 20
 url: /net/aspose.tasks/projectdisplayoptions/addspacebeforelabel/

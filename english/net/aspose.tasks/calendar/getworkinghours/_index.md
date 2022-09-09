@@ -1,12 +1,12 @@
 ---
 title: GetWorkingHours
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Return working hours for the specified dates.
 type: docs
 weight: 210
 url: /net/aspose.tasks/calendar/getworkinghours/
 ---
-## Calendar.GetWorkingHours method (1 of 2)
+## GetWorkingHours(DateTime, DateTime) {#getworkinghours}
 
 Return working hours for the specified dates.
 
@@ -32,7 +32,7 @@ Working hours.
 
 ---
 
-## Calendar.GetWorkingHours method (2 of 2)
+## GetWorkingHours(DateTime) {#getworkinghours_1}
 
 Returns amount of working hours at the date.
 

@@ -1,7 +1,7 @@
 ---
 title: CompilationArguments
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets conditional Compilation Arguments
 type: docs
 weight: 10
 url: /net/aspose.tasks/vbaproject/compilationarguments/

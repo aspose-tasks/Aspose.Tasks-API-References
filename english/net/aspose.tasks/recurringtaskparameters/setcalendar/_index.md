@@ -1,7 +1,7 @@
 ---
 title: SetCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Set a calendar for recurring task. The calendar is selected from project calendar collection.
 type: docs
 weight: 60
 url: /net/aspose.tasks/recurringtaskparameters/setcalendar/

@@ -1,7 +1,7 @@
 ---
 title: Cost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The projected or scheduled cost of an assignment.
 type: docs
 weight: 180
 url: /net/aspose.tasks/asn/cost/

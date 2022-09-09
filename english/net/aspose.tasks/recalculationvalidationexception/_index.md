@@ -1,7 +1,7 @@
 ---
 title: RecalculationValidationException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an exception which is thrown when errors are found in project after recalculation.
 type: docs
 weight: 1420
 url: /net/aspose.tasks/recalculationvalidationexception/

@@ -1,7 +1,7 @@
 ---
 title: Alias
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the alias of a custom outline code.
 type: docs
 weight: 20
 url: /net/aspose.tasks/outlinecodedefinition/alias/

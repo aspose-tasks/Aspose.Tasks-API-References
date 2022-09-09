@@ -1,7 +1,7 @@
 ---
 title: AlignData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the alignment of data in a table field.
 type: docs
 weight: 20
 url: /net/aspose.tasks/tablefield/aligndata/

@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets color of the text.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/textstyle/color/

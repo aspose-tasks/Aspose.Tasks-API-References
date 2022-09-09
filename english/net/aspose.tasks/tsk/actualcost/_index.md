@@ -1,7 +1,7 @@
 ---
 title: ActualCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Costs incurred for work already performed by resources on their tasks together with any other recorded costs associated with the task.
 type: docs
 weight: 20
 url: /net/aspose.tasks/tsk/actualcost/

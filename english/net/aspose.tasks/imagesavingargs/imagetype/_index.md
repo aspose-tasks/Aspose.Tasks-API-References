@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a HTML image type.
 type: docs
 weight: 20
 url: /net/aspose.tasks/imagesavingargs/imagetype/

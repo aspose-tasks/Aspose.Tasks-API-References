@@ -1,7 +1,7 @@
 ---
 title: RecalculateResourceStartFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Recalculates Start and Finish of resources.
 type: docs
 weight: 360
 url: /net/aspose.tasks/project/recalculateresourcestartfinish/

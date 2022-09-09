@@ -1,7 +1,7 @@
 ---
 title: Created
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date that the assignment was created.
 type: docs
 weight: 210
 url: /net/aspose.tasks/asn/created/

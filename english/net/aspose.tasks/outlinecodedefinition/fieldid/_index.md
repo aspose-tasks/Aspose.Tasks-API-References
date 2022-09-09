@@ -1,7 +1,7 @@
 ---
 title: FieldId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the field number of an outline code.
 type: docs
 weight: 60
 url: /net/aspose.tasks/outlinecodedefinition/fieldid/

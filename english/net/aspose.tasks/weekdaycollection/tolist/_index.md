@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the WeekDayCollection object to a list of WeekDayaspose.tasks/weekday objects.
 type: docs
 weight: 120
 url: /net/aspose.tasks/weekdaycollection/tolist/

@@ -1,7 +1,7 @@
 ---
 title: ActualOvertimeWorkProtected
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The duration through which actual work is protected.
 type: docs
 weight: 50
 url: /net/aspose.tasks/asn/actualovertimeworkprotected/

@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to the specified TaskBaseline object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/taskbaseline/equals/
 ---
-## TaskBaseline.Equals method (1 of 2)
+## Equals(TaskBaseline) {#equals_1}
 
 Returns a value indicating whether this instance is equal to the specified TaskBaseline object.
 
@@ -30,7 +30,7 @@ returns true if this instance is equal to the specified TaskBaseline object; oth
 
 ---
 
-## TaskBaseline.Equals method (2 of 2)
+## Equals(object) {#equals_2}
 
 Returns a value indicating whether this instance is equal to a specified object.
 

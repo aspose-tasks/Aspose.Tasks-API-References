@@ -1,7 +1,7 @@
 ---
 title: Work
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The total amount of time scheduled for a resource on a task.
 type: docs
 weight: 700
 url: /net/aspose.tasks/rsc/work/

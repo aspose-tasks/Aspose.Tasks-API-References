@@ -1,9 +1,9 @@
 ---
 title: ProgressLines
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents progress lines in a Gantt Chart view.
 type: docs
-weight: 2910
+weight: 2930
 url: /net/aspose.tasks.visualization/progresslines/
 ---
 ## ProgressLines class

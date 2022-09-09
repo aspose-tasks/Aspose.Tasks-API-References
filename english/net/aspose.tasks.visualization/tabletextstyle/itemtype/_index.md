@@ -1,7 +1,7 @@
 ---
 title: ItemType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value of the TextItemTypeaspose.tasks.visualization/textitemtype enum.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/tabletextstyle/itemtype/

@@ -1,7 +1,7 @@
 ---
 title: TaskCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of Task./task objects.
 type: docs
 weight: 2090
 url: /net/aspose.tasks/taskcollection/
@@ -27,11 +27,11 @@ public class TaskCollection : IList<Task>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/taskcollection/add)() | Adds new task to project tasks collection on the same outline level of the last task. |
-| [Add](../../aspose.tasks/taskcollection/add)(RecurringTaskParameters) | Inserts a new task before a task with the specified id and on the same outline level. |
-| [Add](../../aspose.tasks/taskcollection/add)(string) | Adds a new task to children tasks collection. |
-| [Add](../../aspose.tasks/taskcollection/add)(Task) | Add the specified task to the instance of the [`TaskCollection`](../taskcollection) class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, ids and outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
-| [Add](../../aspose.tasks/taskcollection/add)(string, int) | Adds a new recurring task to children tasks collection. |
+| [Add](../../aspose.tasks/taskcollection/add#add)() | Adds new task to project tasks collection on the same outline level of the last task. |
+| [Add](../../aspose.tasks/taskcollection/add#add_1)(RecurringTaskParameters) | Inserts a new task before a task with the specified id and on the same outline level. |
+| [Add](../../aspose.tasks/taskcollection/add#add_2)(string) | Adds a new task to children tasks collection. |
+| [Add](../../aspose.tasks/taskcollection/add#add_4)(Task) | Add the specified task to the instance of the [`TaskCollection`](../taskcollection) class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, ids and outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
+| [Add](../../aspose.tasks/taskcollection/add#add_3)(string, int) | Adds a new recurring task to children tasks collection. |
 | [Contains](../../aspose.tasks/taskcollection/contains)(Task) | Checks if collection contains specified item. |
 | [GetById](../../aspose.tasks/taskcollection/getbyid)(int) | Returns a task with the specified Id whose ancestor is parent task of this collection . |
 | [GetByUid](../../aspose.tasks/taskcollection/getbyuid)(int) | Returns a task with the specified Uid whose ancestor is parent task of this collection . |

@@ -1,7 +1,7 @@
 ---
 title: CurrencyDigits
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The number of digits after a decimal symbol.
 type: docs
 weight: 150
 url: /net/aspose.tasks/prj/currencydigits/

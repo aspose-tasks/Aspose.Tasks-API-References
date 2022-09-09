@@ -1,7 +1,7 @@
 ---
 title: Values
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets OutlineValueCollection object. The values of the table associated with this outline code.
 type: docs
 weight: 150
 url: /net/aspose.tasks/outlinecodedefinition/values/

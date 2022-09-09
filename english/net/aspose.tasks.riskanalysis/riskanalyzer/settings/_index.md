@@ -1,7 +1,7 @@
 ---
 title: Settings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the instance of the RiskAnalysisSettingsaspose.tasks.riskanalysis/riskanalysissettings class which defines necessary settings for risk analysis.
 type: docs
 weight: 20
 url: /net/aspose.tasks.riskanalysis/riskanalyzer/settings/

@@ -1,7 +1,7 @@
 ---
 title: RecurringInterval
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the recurring interval. RecurringIntervalaspose.tasks.visualization/progresslines/recurringinterval.
 type: docs
 weight: 180
 url: /net/aspose.tasks.visualization/progresslines/recurringinterval/

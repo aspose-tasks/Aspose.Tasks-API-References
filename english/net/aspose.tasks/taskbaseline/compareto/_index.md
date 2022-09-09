@@ -1,7 +1,7 @@
 ---
 title: CompareTo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: IComparable interface implementation. Compares this instance to the specified Baseline object.
 type: docs
 weight: 100
 url: /net/aspose.tasks/taskbaseline/compareto/

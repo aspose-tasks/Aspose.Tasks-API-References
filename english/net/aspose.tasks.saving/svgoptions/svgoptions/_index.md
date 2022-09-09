@@ -1,7 +1,7 @@
 ---
 title: SvgOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the SvgOptionsaspose.tasks.saving/svgoptions class that can be used to save project in SVG format.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/svgoptions/svgoptions/

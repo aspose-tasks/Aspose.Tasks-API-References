@@ -1,7 +1,7 @@
 ---
 title: Pages
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a list of page numbers to save when saving project layout to separate files. All pages will be saved if this list is empty.
 type: docs
 weight: 60
 url: /net/aspose.tasks.saving/imagesaveoptions/pages/

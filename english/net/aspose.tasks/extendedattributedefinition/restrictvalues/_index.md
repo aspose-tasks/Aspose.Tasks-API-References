@@ -1,7 +1,7 @@
 ---
 title: RestrictValues
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the custom field values are restricted to values in the ValueListaspose.tasks/extendedattributedefinition/valuelist.
 type: docs
 weight: 210
 url: /net/aspose.tasks/extendedattributedefinition/restrictvalues/

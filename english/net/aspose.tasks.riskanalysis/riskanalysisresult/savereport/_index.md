@@ -1,12 +1,12 @@
 ---
 title: SaveReport
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Saves the risk analysis report to the stream in PDF format.
 type: docs
 weight: 20
 url: /net/aspose.tasks.riskanalysis/riskanalysisresult/savereport/
 ---
-## RiskAnalysisResult.SaveReport method (1 of 2)
+## SaveReport(Stream) {#savereport}
 
 Saves the risk analysis report to the stream in PDF format.
 
@@ -26,7 +26,7 @@ public void SaveReport(Stream stream)
 
 ---
 
-## RiskAnalysisResult.SaveReport method (2 of 2)
+## SaveReport(string) {#savereport_1}
 
 Saves the risk analysis report to the specified file path in PDF format.
 

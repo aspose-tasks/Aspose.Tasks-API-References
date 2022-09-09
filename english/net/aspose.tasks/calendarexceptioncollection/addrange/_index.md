@@ -1,7 +1,7 @@
 ---
 title: AddRange
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds range of exceptions to the internal list.
 type: docs
 weight: 50
 url: /net/aspose.tasks/calendarexceptioncollection/addrange/

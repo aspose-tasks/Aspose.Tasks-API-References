@@ -1,7 +1,7 @@
 ---
 title: Row
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a row number.  Can be from 1 to 4 1 is default value.
 type: docs
 weight: 190
 url: /net/aspose.tasks.visualization/ganttbarstyle/row/

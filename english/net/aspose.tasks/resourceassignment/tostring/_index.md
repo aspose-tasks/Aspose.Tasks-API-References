@@ -1,9 +1,9 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns short string representation of the instance of the ResourceAssignmentaspose.tasks/resourceassignment class. The exact details of the representation are unspecified and subject to change.
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.tasks/resourceassignment/tostring/
 ---
 ## ResourceAssignment.ToString method

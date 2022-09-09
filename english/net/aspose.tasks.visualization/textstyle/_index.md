@@ -1,9 +1,9 @@
 ---
 title: TextStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Change the visual style of the text for an item in the project view.
 type: docs
-weight: 3040
+weight: 3060
 url: /net/aspose.tasks.visualization/textstyle/
 ---
 ## TextStyle class
@@ -18,10 +18,10 @@ public class TextStyle
 
 | Name | Description |
 | --- | --- |
-| [TextStyle](textstyle)() | Initializes a new instance of the [`TextStyle`](../textstyle) class with default settings. |
-| [TextStyle](textstyle)(FontDescriptor) | Initializes a new instance of the [`TextStyle`](../textstyle) class with the specified font settings. |
-| [TextStyle](textstyle)(FontStyles) | Initializes a new instance of the [`TextStyle`](../textstyle) class with the default font and specified font style. |
-| [TextStyle](textstyle)(float, FontStyles) | Initializes a new instance of the [`TextStyle`](../textstyle) class with the default font and specified font size and style. |
+| [TextStyle](textstyle#constructor)() | Initializes a new instance of the [`TextStyle`](../textstyle) class with default settings. |
+| [TextStyle](textstyle#constructor_1)(FontDescriptor) | Initializes a new instance of the [`TextStyle`](../textstyle) class with the specified font settings. |
+| [TextStyle](textstyle#constructor_2)(FontStyles) | Initializes a new instance of the [`TextStyle`](../textstyle) class with the default font and specified font style. |
+| [TextStyle](textstyle#constructor_3)(float, FontStyles) | Initializes a new instance of the [`TextStyle`](../textstyle) class with the default font and specified font size and style. |
 
 ## Properties
 

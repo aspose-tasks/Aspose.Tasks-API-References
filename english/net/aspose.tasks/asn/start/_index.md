@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The scheduled start date of an assignment.
 type: docs
 weight: 500
 url: /net/aspose.tasks/asn/start/

@@ -1,7 +1,7 @@
 ---
 title: AuthToken
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the authorization token for the SharePoint instance.
 type: docs
 weight: 20
 url: /net/aspose.tasks/projectservercredentials/authtoken/

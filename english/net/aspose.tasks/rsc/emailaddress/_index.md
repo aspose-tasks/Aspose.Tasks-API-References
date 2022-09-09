@@ -1,7 +1,7 @@
 ---
 title: EMailAddress
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The email address of a resource.
 type: docs
 weight: 280
 url: /net/aspose.tasks/rsc/emailaddress/

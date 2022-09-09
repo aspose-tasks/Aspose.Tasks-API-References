@@ -1,7 +1,7 @@
 ---
 title: StringAlignment
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets alignment of the text can be one of the values of the StringAlignmentaspose.tasks.visualization/viewcolumn/stringalignment enumeration.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/viewcolumn/stringalignment/

@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Checks that the objects are equal.
 type: docs
 weight: 40
 url: /net/aspose.tasks/workingtime/equals/

@@ -1,7 +1,7 @@
 ---
 title: ResourceAssignment
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a resource assignment in a project.
 type: docs
 weight: 1490
 url: /net/aspose.tasks/resourceassignment/
@@ -22,6 +22,8 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 | [ExtendedAttributes](../../aspose.tasks/resourceassignment/extendedattributes) { get; set; } | Gets or sets an instance of the ExtendedAttributeCollection class for this object. |
 | [Guid](../../aspose.tasks/resourceassignment/guid) { get; set; } | Gets or sets unique identifier for this assignment. |
 | [ParentProject](../../aspose.tasks/resourceassignment/parentproject) { get; } | Gets parent project for this assignment. |
+| [Resource](../../aspose.tasks/resourceassignment/resource) { get; set; } | The resource assigned to a task. |
+| [Task](../../aspose.tasks/resourceassignment/task) { get; set; } | The task to which a resource is assigned. |
 | [TimephasedData](../../aspose.tasks/resourceassignment/timephaseddata) { get; set; } | Gets or sets the instance of [`TimephasedDataCollection`](../timephaseddatacollection) class containing elements of [`TimephasedData`](./timephaseddata) class. |
 
 ## Methods
@@ -29,12 +31,12 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 | Name | Description |
 | --- | --- |
 | [Delete](../../aspose.tasks/resourceassignment/delete)() | Deletes resource assignment from project assignments collection. |
-| override [Equals](../../aspose.tasks/resourceassignment/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](../../aspose.tasks/resourceassignment/equals)(ResourceAssignment) | Returns a value indicating whether this instance is equal to a specified instance of the [`ResourceAssignment`](../resourceassignment) class. |
+| override [Equals](../../aspose.tasks/resourceassignment/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.tasks/resourceassignment/equals#equals)(ResourceAssignment) | Returns a value indicating whether this instance is equal to a specified instance of the [`ResourceAssignment`](../resourceassignment) class. |
 | [Get&lt;T&gt;](../../aspose.tasks/resourceassignment/get)(Key&lt;T, AsnKey&gt;) | Returns the value to which the property is mapped in this container. |
 | override [GetHashCode](../../aspose.tasks/resourceassignment/gethashcode)() | Returns a hash code value for the instance of the [`ResourceAssignment`](../resourceassignment) class. |
-| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with the instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of AssignmentWork. |
-| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata)(DateTime, DateTime, TimephasedDataType) | Returns the instance [`TimephasedDataCollection`](../timephaseddatacollection) class containing instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
+| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata#gettimephaseddata)(DateTime, DateTime) | Returns [`TimephasedDataCollection`](../timephaseddatacollection) object with the instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of AssignmentWork. |
+| [GetTimephasedData](../../aspose.tasks/resourceassignment/gettimephaseddata#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Returns the instance [`TimephasedDataCollection`](../timephaseddatacollection) class containing instances of [`TimephasedData`](./timephaseddata) class within given start and end dates of specified [`TimephasedDataType`](../timephaseddatatype). |
 | [MakeTPs](../../aspose.tasks/resourceassignment/maketps)(DateTime, TimeSpan, Calendar, List&lt;TimephasedData&gt;, bool, int) | Generates a list of time phased data. |
 | [Set&lt;T&gt;](../../aspose.tasks/resourceassignment/set)(Key&lt;T, AsnKey&gt;, T) | Maps the specified property to the specified value in this container. |
 | [SplitTask](../../aspose.tasks/resourceassignment/splittask)(DateTime, DateTime, Calendar) | Splits task into two parts. |

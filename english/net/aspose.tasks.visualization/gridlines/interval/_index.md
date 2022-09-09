@@ -1,7 +1,7 @@
 ---
 title: Interval
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the number from 0 to 99 that specifies the interval between gridlines.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/gridlines/interval/

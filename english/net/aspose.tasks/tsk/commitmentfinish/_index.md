@@ -1,7 +1,7 @@
 ---
 title: CommitmentFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The finish date of a delivery.  Reading supported for XML format only. DateTime type.
 type: docs
 weight: 170
 url: /net/aspose.tasks/tsk/commitmentfinish/

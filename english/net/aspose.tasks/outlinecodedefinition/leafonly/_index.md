@@ -1,7 +1,7 @@
 ---
 title: LeafOnly
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the values specified in this outline code field must be leaf values.
 type: docs
 weight: 90
 url: /net/aspose.tasks/outlinecodedefinition/leafonly/

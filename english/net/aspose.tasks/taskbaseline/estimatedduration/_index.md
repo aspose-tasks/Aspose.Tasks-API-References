@@ -1,7 +1,7 @@
 ---
 title: EstimatedDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the baseline duration of the task was estimated.
 type: docs
 weight: 40
 url: /net/aspose.tasks/taskbaseline/estimatedduration/

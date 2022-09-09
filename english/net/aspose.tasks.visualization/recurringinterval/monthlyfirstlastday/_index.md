@@ -1,7 +1,7 @@
 ---
 title: MonthlyFirstLastDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the first or the last day type of monthly progress lines.
 type: docs
 weight: 90
 url: /net/aspose.tasks.visualization/recurringinterval/monthlyfirstlastday/

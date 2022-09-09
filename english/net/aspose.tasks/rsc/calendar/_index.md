@@ -1,7 +1,7 @@
 ---
 title: Calendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The calendar of a resource.
 type: docs
 weight: 190
 url: /net/aspose.tasks/rsc/calendar/

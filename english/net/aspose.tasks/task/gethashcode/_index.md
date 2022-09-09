@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code value for this Task.
 type: docs
 weight: 170
 url: /net/aspose.tasks/task/gethashcode/

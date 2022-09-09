@@ -1,7 +1,7 @@
 ---
 title: Maximum
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the maximum value which was generated during Monte Carlo simulation.
 type: docs
 weight: 30
 url: /net/aspose.tasks.riskanalysis/riskitemstatistics/maximum/

@@ -1,7 +1,7 @@
 ---
 title: AlignTitle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the alignment of the title in a table field.
 type: docs
 weight: 30
 url: /net/aspose.tasks/tablefield/aligntitle/

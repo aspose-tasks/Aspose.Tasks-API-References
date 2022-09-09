@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes TimephasedDataaspose.tasks/timephaseddata instance from this collection object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/timephaseddatacollection/remove/

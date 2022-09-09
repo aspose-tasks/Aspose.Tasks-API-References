@@ -1,7 +1,7 @@
 ---
 title: LookupUid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a Guid of the lookup table associated with a custom field.
 type: docs
 weight: 170
 url: /net/aspose.tasks/extendedattributedefinition/lookupuid/

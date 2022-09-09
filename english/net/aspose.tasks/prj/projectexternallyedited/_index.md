@@ -1,7 +1,7 @@
 ---
 title: ProjectExternallyEdited
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the project was externally edited.
 type: docs
 weight: 580
 url: /net/aspose.tasks/prj/projectexternallyedited/

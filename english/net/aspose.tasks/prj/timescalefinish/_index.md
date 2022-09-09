@@ -1,7 +1,7 @@
 ---
 title: TimescaleFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date that the timescale in the view finishes.
 type: docs
 weight: 720
 url: /net/aspose.tasks/prj/timescalefinish/

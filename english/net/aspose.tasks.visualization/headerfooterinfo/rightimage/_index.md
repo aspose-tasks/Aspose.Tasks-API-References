@@ -1,7 +1,7 @@
 ---
 title: RightImage
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the right aligned image to be displayed in the header or footer.
 type: docs
 weight: 80
 url: /net/aspose.tasks.visualization/headerfooterinfo/rightimage/

@@ -1,7 +1,7 @@
 ---
 title: IsTeamAssignmentPool
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Shows whether the current resource is a team resource.
 type: docs
 weight: 430
 url: /net/aspose.tasks/rsc/isteamassignmentpool/

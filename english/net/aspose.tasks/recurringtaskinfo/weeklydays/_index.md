@@ -1,7 +1,7 @@
 ---
 title: WeeklyDays
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a collection of days used in the weekly recurrence pattern.
 type: docs
 weight: 160
 url: /net/aspose.tasks/recurringtaskinfo/weeklydays/

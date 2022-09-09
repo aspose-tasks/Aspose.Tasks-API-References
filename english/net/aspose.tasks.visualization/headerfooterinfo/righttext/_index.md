@@ -1,7 +1,7 @@
 ---
 title: RightText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the right aligned text to display in the header or footer.
 type: docs
 weight: 100
 url: /net/aspose.tasks.visualization/headerfooterinfo/righttext/

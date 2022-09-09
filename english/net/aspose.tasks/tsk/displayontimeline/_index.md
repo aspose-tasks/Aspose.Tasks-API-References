@@ -1,7 +1,7 @@
 ---
 title: DisplayOnTimeline
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies whether a task should be displayed on a timeline view.
 type: docs
 weight: 290
 url: /net/aspose.tasks/tsk/displayontimeline/

@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the instance of the ResourceUsageViewFieldCollectionaspose.tasks/resourceusageviewfieldcollection class to a list containing the instances of the ResourceUsageViewFieldaspose.tasks/resourceusageviewfield class.
 type: docs
 weight: 20
 url: /net/aspose.tasks/resourceusageviewfieldcollection/tolist/

@@ -1,7 +1,7 @@
 ---
 title: Filter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a filter used in a single view.
 type: docs
 weight: 20
 url: /net/aspose.tasks/view/filter/

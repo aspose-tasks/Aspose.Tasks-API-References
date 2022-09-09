@@ -1,7 +1,7 @@
 ---
 title: And
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the Andaspose.tasks.util/and1 class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.util/and-1/and/

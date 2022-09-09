@@ -1,7 +1,7 @@
 ---
 title: GetDefaultGanttChartView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Includes id indicators name duration start and finish task columns.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/projectview/getdefaultganttchartview/

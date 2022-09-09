@@ -1,7 +1,7 @@
 ---
 title: StartShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a start shape of the bar.
 type: docs
 weight: 220
 url: /net/aspose.tasks.visualization/ganttbarstyle/startshape/

@@ -1,7 +1,7 @@
 ---
 title: ShowDrawings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether drawings on the Gantt Chart must be shown.
 type: docs
 weight: 150
 url: /net/aspose.tasks/ganttchartview/showdrawings/

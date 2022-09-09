@@ -1,7 +1,7 @@
 ---
 title: ExtendedAttributeResource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the extended attributes FieldId used in a resource.
 type: docs
 weight: 550
 url: /net/aspose.tasks/extendedattributeresource/

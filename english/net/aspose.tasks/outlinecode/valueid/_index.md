@@ -1,7 +1,7 @@
 ---
 title: ValueId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the Id in the value list associated with the definition in the outline code collection.
 type: docs
 weight: 40
 url: /net/aspose.tasks/outlinecode/valueid/

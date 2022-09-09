@@ -1,7 +1,7 @@
 ---
 title: HasFixedRateUnits
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the Units have Fixed Rate.
 type: docs
 weight: 270
 url: /net/aspose.tasks/asn/hasfixedrateunits/

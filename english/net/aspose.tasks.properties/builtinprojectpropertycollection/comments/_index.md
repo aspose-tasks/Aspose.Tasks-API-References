@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the comments of a project.
 type: docs
 weight: 30
 url: /net/aspose.tasks.properties/builtinprojectpropertycollection/comments/

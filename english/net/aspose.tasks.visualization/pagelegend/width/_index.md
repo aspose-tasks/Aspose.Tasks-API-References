@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the width of the legend.
 type: docs
 weight: 90
 url: /net/aspose.tasks.visualization/pagelegend/width/

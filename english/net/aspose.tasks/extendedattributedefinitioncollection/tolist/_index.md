@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts this ExtendedAttributeDefinitionCollection object to a list containing instances of the ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition class.
 type: docs
 weight: 150
 url: /net/aspose.tasks/extendedattributedefinitioncollection/tolist/

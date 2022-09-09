@@ -1,7 +1,7 @@
 ---
 title: MaintainHierarchy
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group.
 type: docs
 weight: 40
 url: /net/aspose.tasks/group/maintainhierarchy/

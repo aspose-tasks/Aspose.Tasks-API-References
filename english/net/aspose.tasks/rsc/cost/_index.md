@@ -1,7 +1,7 @@
 ---
 title: Cost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The total scheduled or projected cost for a resource based on costs already incurred for work performed by resources assigned to the tasks in addition to the costs planned for the remaining work.
 type: docs
 weight: 220
 url: /net/aspose.tasks/rsc/cost/

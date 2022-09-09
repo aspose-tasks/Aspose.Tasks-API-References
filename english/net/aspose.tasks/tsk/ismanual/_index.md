@@ -1,7 +1,7 @@
 ---
 title: IsManual
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a task is manually scheduled.
 type: docs
 weight: 610
 url: /net/aspose.tasks/tsk/ismanual/

@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a hash code value for this VbaReferenceaspose.tasks/vbareference.
 type: docs
 weight: 50
 url: /net/aspose.tasks/vbareference/gethashcode/

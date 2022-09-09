@@ -1,7 +1,7 @@
 ---
 title: MiddleTimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets settings of views middle timescale tier. TimescaleTieraspose.tasks.visualization/timescaletier.
 type: docs
 weight: 50
 url: /net/aspose.tasks/usageview/middletimescaletier/

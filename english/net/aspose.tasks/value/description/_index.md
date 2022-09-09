@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the description of a value.
 type: docs
 weight: 30
 url: /net/aspose.tasks/value/description/

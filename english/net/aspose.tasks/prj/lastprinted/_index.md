@@ -1,7 +1,7 @@
 ---
 title: LastPrinted
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects last print time. Saved in UTC format in mpp files. DateTime type.
 type: docs
 weight: 420
 url: /net/aspose.tasks/prj/lastprinted/

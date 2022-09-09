@@ -1,7 +1,7 @@
 ---
 title: Overallocated
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Indicates whether a resource is assigned to more work on a specific task or all tasks than can be completed within normal working capacity.
 type: docs
 weight: 500
 url: /net/aspose.tasks/rsc/overallocated/

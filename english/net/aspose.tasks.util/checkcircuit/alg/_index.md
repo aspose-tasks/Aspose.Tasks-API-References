@@ -1,7 +1,7 @@
 ---
 title: Alg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Check if the specified object was already processed.
 type: docs
 weight: 20
 url: /net/aspose.tasks.util/checkcircuit/alg/

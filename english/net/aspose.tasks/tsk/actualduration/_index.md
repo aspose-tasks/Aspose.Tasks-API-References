@@ -1,7 +1,7 @@
 ---
 title: ActualDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The span of actual working time for a task based on the scheduled duration and current remaining work or percent complete.
 type: docs
 weight: 30
 url: /net/aspose.tasks/tsk/actualduration/

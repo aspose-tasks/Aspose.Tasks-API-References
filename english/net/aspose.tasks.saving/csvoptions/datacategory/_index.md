@@ -1,7 +1,7 @@
 ---
 title: DataCategory
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a data category to be saved.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/csvoptions/datacategory/

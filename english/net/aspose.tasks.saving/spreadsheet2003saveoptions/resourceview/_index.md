@@ -1,7 +1,7 @@
 ---
 title: ResourceView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a list of the resource view columns to render ResourceViewColumnaspose.tasks.visualization/resourceviewcolumn.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/spreadsheet2003saveoptions/resourceview/

@@ -1,7 +1,7 @@
 ---
 title: ValueList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the ListltValuegt ValueList.
 type: docs
 weight: 270
 url: /net/aspose.tasks/extendedattributedefinition/valuelist/

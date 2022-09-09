@@ -1,7 +1,7 @@
 ---
 title: Optimistic
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the percentage of the most likely task duration which can happen in the best possible project scenario. The default value is 75 which means that if the estimated specified task duration is 4 days then the optimistic duration will be 3 days.
 type: docs
 weight: 40
 url: /net/aspose.tasks.riskanalysis/riskpattern/optimistic/

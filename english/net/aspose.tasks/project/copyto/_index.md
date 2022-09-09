@@ -1,12 +1,12 @@
 ---
 title: CopyTo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Copies projects main data and properties to another project.
 type: docs
 weight: 250
 url: /net/aspose.tasks/project/copyto/
 ---
-## Project.CopyTo method (1 of 2)
+## CopyTo(Project) {#copyto}
 
 Copies project's main data and properties to another project.
 
@@ -26,7 +26,7 @@ public void CopyTo(Project another)
 
 ---
 
-## Project.CopyTo method (2 of 2)
+## CopyTo(Project, CopyToOptions) {#copyto_1}
 
 Copies project's main data and properties to another project.
 

@@ -1,7 +1,7 @@
 ---
 title: EndShapeType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a type of the end shape. GanttBarTypeaspose.tasks.visualization/ganttbartype.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/ganttbarstyle/endshapetype/

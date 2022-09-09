@@ -1,7 +1,7 @@
 ---
 title: RemoveInvalidResourceAssignments
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Eliminates invalid resource assignments from the project resource assignments list.
 type: docs
 weight: 370
 url: /net/aspose.tasks/project/removeinvalidresourceassignments/

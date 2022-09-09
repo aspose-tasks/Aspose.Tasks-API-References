@@ -1,7 +1,7 @@
 ---
 title: Ascending
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a field used as a criterion in a group definition is sorted in ascending order. False if the field is sorted in descending order.
 type: docs
 weight: 20
 url: /net/aspose.tasks/groupcriterion/ascending/

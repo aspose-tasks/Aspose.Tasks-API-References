@@ -1,7 +1,7 @@
 ---
 title: Workgroup
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The type of a workgroup to which a resource belongs.
 type: docs
 weight: 710
 url: /net/aspose.tasks/rsc/workgroup/

@@ -1,9 +1,9 @@
 ---
 title: VbaModuleAttribute
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The attribute of the VbaModule./vbamodule object
 type: docs
-weight: 2470
+weight: 2490
 url: /net/aspose.tasks/vbamoduleattribute/
 ---
 ## VbaModuleAttribute class
@@ -25,8 +25,8 @@ public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbamoduleattribute/equals)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
-| [Equals](../../aspose.tasks/vbamoduleattribute/equals)(VbaModuleAttribute) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
+| override [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
+| [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals)(VbaModuleAttribute) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
 | override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode)() | Returns a hash code value for this [`VbaModuleAttribute`](../vbamoduleattribute). |
 
 ### See Also

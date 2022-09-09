@@ -1,7 +1,7 @@
 ---
 title: ValueReadOnly
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether a value of this ExtendedAttributeaspose.tasks/extendedattribute instance is readonly. returns true if a formula or rollup is defined in the ExtendedAttributeDefinitionaspose.tasks/extendedattributedefinition for this object.
 type: docs
 weight: 100
 url: /net/aspose.tasks/extendedattribute/valuereadonly/

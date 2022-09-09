@@ -1,7 +1,7 @@
 ---
 title: OutlineLevel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The outline level of a task.
 type: docs
 weight: 850
 url: /net/aspose.tasks/tsk/outlinelevel/

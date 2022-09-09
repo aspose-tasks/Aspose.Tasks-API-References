@@ -1,7 +1,7 @@
 ---
 title: DefaultTaskEVMethod
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The default earned value method for tasks.
 type: docs
 weight: 270
 url: /net/aspose.tasks/prj/defaulttaskevmethod/

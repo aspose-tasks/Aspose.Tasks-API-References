@@ -1,7 +1,7 @@
 ---
 title: RenderMetafileAsBitmap
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a metafile should be rendered as bitmap.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/xpsoptions/rendermetafileasbitmap/

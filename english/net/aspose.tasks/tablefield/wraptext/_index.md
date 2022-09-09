@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the column text can wrap to multiple lines or if it should be truncated when it exceeds the column width. Supported by MSP 2010 version and later.
 type: docs
 weight: 80
 url: /net/aspose.tasks/tablefield/wraptext/

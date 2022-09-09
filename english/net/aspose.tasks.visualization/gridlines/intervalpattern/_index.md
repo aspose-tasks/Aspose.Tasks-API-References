@@ -1,7 +1,7 @@
 ---
 title: IntervalPattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the line pattern for secondary gridlines.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/gridlines/intervalpattern/

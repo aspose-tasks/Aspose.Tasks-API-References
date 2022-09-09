@@ -1,7 +1,7 @@
 ---
 title: MoveCompletedEndsBack
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the end of completed portions of tasks scheduled to start after the status date but started earlier should be moved back to the status date.
 type: docs
 weight: 480
 url: /net/aspose.tasks/prj/movecompletedendsback/

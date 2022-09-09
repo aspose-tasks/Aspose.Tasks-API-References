@@ -1,7 +1,7 @@
 ---
 title: PercentOfNormalSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a percentage of normal size to adjust printing to.
 type: docs
 weight: 90
 url: /net/aspose.tasks.visualization/pagesettings/percentofnormalsize/

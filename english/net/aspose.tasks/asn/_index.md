@@ -1,7 +1,7 @@
 ---
 title: Asn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents properties of ResourceAssignment./resourceassignment object.
 type: docs
 weight: 30
 url: /net/aspose.tasks/asn/

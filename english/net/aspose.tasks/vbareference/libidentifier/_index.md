@@ -1,7 +1,7 @@
 ---
 title: LibIdentifier
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets identifier of the library.
 type: docs
 weight: 20
 url: /net/aspose.tasks/vbareference/libidentifier/

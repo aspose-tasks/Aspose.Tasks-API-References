@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the name of a Table object.
 type: docs
 weight: 60
 url: /net/aspose.tasks/table/name/

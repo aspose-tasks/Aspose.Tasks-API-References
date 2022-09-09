@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the Coloraspose.tasks.visualization/gridline/color of a gridline.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/gridline/color/

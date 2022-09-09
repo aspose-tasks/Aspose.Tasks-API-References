@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a unique identifier of a group.
 type: docs
 weight: 90
 url: /net/aspose.tasks/group/uid/

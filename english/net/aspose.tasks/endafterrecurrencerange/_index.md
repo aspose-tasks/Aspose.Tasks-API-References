@@ -1,7 +1,7 @@
 ---
 title: EndAfterRecurrenceRange
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the recurrence range of recurring task which is limited by occurrence number.
 type: docs
 weight: 490
 url: /net/aspose.tasks/endafterrecurrencerange/

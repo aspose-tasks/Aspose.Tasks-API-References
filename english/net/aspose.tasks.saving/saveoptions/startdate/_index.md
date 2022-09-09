@@ -1,7 +1,7 @@
 ---
 title: StartDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the date to start rendering from.
 type: docs
 weight: 160
 url: /net/aspose.tasks.saving/saveoptions/startdate/

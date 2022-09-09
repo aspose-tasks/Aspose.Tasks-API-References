@@ -1,7 +1,7 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent project of the ResourceAssignmentCollection object. parent Projectaspose.tasks/project for this object.
 type: docs
 weight: 30
 url: /net/aspose.tasks/tasklinkcollection/parentproject/

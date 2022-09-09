@@ -1,7 +1,7 @@
 ---
 title: PrimaveraXerReader
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a reader to read Project UIDs from Primavera XER file
 type: docs
 weight: 1130
 url: /net/aspose.tasks/primaveraxerreader/
@@ -18,8 +18,8 @@ public class PrimaveraXerReader
 
 | Name | Description |
 | --- | --- |
-| [PrimaveraXerReader](primaveraxerreader)(Stream) | Initializes a new instance of the [`PrimaveraXerReader`](../primaveraxerreader) class. |
-| [PrimaveraXerReader](primaveraxerreader)(string) | Initializes a new instance of the [`PrimaveraXerReader`](../primaveraxerreader) class. |
+| [PrimaveraXerReader](primaveraxerreader#constructor)(Stream) | Initializes a new instance of the [`PrimaveraXerReader`](../primaveraxerreader) class. |
+| [PrimaveraXerReader](primaveraxerreader#constructor_1)(string) | Initializes a new instance of the [`PrimaveraXerReader`](../primaveraxerreader) class. |
 
 ## Methods
 

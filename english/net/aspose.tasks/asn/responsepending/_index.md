@@ -1,7 +1,7 @@
 ---
 title: ResponsePending
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the response has been received for a TeamAssign message.
 type: docs
 weight: 480
 url: /net/aspose.tasks/asn/responsepending/

@@ -1,7 +1,7 @@
 ---
 title: IsExternalTask
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a task is external.
 type: docs
 weight: 600
 url: /net/aspose.tasks/tsk/isexternaltask/

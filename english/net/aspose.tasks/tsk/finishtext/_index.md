@@ -1,7 +1,7 @@
 ---
 title: FinishText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns the tasks finish text.
 type: docs
 weight: 410
 url: /net/aspose.tasks/tsk/finishtext/

@@ -1,7 +1,7 @@
 ---
 title: ManualDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Defines manually scheduled duration of a task.
 type: docs
 weight: 790
 url: /net/aspose.tasks/tsk/manualduration/

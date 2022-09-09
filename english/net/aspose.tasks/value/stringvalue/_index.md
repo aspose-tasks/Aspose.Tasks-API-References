@@ -1,7 +1,7 @@
 ---
 title: StringValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the actual value which is used to represent Text string.
 type: docs
 weight: 80
 url: /net/aspose.tasks/value/stringvalue/

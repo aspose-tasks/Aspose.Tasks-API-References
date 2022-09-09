@@ -1,7 +1,7 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the finish date of a SplitPart.
 type: docs
 weight: 10
 url: /net/aspose.tasks/splitpart/finish/

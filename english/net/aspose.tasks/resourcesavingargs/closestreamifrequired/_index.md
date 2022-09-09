@@ -1,7 +1,7 @@
 ---
 title: CloseStreamIfRequired
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Close stream if KeepStreamOpen is false else flush it.
 type: docs
 weight: 60
 url: /net/aspose.tasks/resourcesavingargs/closestreamifrequired/

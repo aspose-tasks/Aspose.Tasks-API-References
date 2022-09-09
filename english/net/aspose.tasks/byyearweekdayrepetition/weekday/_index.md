@@ -1,7 +1,7 @@
 ---
 title: WeekDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a type of week day on which the task must be recurring.
 type: docs
 weight: 40
 url: /net/aspose.tasks/byyearweekdayrepetition/weekday/

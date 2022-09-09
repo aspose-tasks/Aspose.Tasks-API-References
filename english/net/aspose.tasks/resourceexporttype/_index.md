@@ -1,7 +1,7 @@
 ---
 title: ResourceExportType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the resource export type for HTML format.
 type: docs
 weight: 1520
 url: /net/aspose.tasks/resourceexporttype/

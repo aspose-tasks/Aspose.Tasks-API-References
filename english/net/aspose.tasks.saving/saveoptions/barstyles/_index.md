@@ -1,7 +1,7 @@
 ---
 title: BarStyles
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the list of the instances of the BarStyleaspose.tasks.visualization/barstyle class that appear in project view.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/saveoptions/barstyles/

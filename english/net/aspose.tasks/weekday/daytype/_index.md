@@ -1,7 +1,7 @@
 ---
 title: DayType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the type of a day.
 type: docs
 weight: 30
 url: /net/aspose.tasks/weekday/daytype/

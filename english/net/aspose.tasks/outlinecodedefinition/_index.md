@@ -1,7 +1,7 @@
 ---
 title: OutlineCodeDefinition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an outline code definition.
 type: docs
 weight: 1030
 url: /net/aspose.tasks/outlinecodedefinition/

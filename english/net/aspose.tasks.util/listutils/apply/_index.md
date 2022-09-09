@@ -1,7 +1,7 @@
 ---
 title: Apply
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Apply algorithm for each list element starting from specified position.
 type: docs
 weight: 10
 url: /net/aspose.tasks.util/listutils/apply/

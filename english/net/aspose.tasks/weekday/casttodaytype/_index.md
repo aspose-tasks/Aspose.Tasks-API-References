@@ -1,7 +1,7 @@
 ---
 title: CastToDayType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Casts .Nets DayOfWeek to DayTypeaspose.tasks/weekday/daytype.
 type: docs
 weight: 120
 url: /net/aspose.tasks/weekday/casttodaytype/

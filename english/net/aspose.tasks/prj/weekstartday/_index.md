@@ -1,7 +1,7 @@
 ---
 title: WeekStartDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: First day of a week.
 type: docs
 weight: 770
 url: /net/aspose.tasks/prj/weekstartday/

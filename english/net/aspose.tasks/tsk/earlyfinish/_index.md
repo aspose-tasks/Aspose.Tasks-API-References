@@ -1,7 +1,7 @@
 ---
 title: EarlyFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The earliest date that a task could possibly finish based on early finish dates of predecessor and successor tasks other constraints and any leveling delay.
 type: docs
 weight: 340
 url: /net/aspose.tasks/tsk/earlyfinish/

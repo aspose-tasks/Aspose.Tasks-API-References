@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the scheduled start date of the resource assignment when the baseline was saved. The start date of the resource assignment when this baseline was saved.
 type: docs
 weight: 30
 url: /net/aspose.tasks/assignmentbaseline/start/

@@ -1,7 +1,7 @@
 ---
 title: XpsOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Allows to specify additional options when rendering project pages to XPS.
 type: docs
 weight: 1980
 url: /net/aspose.tasks.saving/xpsoptions/

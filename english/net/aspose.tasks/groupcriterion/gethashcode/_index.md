@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Serves as a hash function for a particular type.
 type: docs
 weight: 140
 url: /net/aspose.tasks/groupcriterion/gethashcode/

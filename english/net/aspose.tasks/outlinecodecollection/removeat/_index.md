@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes an item at the specified index.
 type: docs
 weight: 120
 url: /net/aspose.tasks/outlinecodecollection/removeat/

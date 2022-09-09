@@ -1,7 +1,7 @@
 ---
 title: YearlyUseOrdinalDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to use ordinal day for the yearly recurrence pattern.
 type: docs
 weight: 220
 url: /net/aspose.tasks/recurringtaskinfo/yearlyuseordinalday/

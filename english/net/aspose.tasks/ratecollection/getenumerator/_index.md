@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an enumerator for this collection.
 type: docs
 weight: 60
 url: /net/aspose.tasks/ratecollection/getenumerator/

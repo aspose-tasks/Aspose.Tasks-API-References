@@ -1,7 +1,7 @@
 ---
 title: MarkCriticalTasks
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether critical tasks should be displayed in red color Default value is FALSE.
 type: docs
 weight: 80
 url: /net/aspose.tasks.saving/saveoptions/markcriticaltasks/

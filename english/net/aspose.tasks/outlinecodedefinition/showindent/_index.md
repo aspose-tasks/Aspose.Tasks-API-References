@@ -1,7 +1,7 @@
 ---
 title: ShowIndent
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the indents of this outline code must be shown.
 type: docs
 weight: 140
 url: /net/aspose.tasks/outlinecodedefinition/showindent/

@@ -1,7 +1,7 @@
 ---
 title: UseProjectDefaultFont
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the default font must be used for rendering.
 type: docs
 weight: 120
 url: /net/aspose.tasks.saving/pdfsaveoptions/useprojectdefaultfont/

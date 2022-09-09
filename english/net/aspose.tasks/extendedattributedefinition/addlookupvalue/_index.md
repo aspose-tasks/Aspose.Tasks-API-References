@@ -1,7 +1,7 @@
 ---
 title: AddLookupValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds a value to the internal lookup list. This is a preferable way for manipulations with the ValueListaspose.tasks/extendedattributedefinition/valuelist.
 type: docs
 weight: 290
 url: /net/aspose.tasks/extendedattributedefinition/addlookupvalue/

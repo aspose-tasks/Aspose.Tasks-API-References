@@ -1,7 +1,7 @@
 ---
 title: RateFormatType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the units used by Microsoft Project to display a rate.
 type: docs
 weight: 1380
 url: /net/aspose.tasks/rateformattype/

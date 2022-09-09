@@ -1,7 +1,7 @@
 ---
 title: RateTable
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the unique identifier of a rate table for a resource.
 type: docs
 weight: 60
 url: /net/aspose.tasks/rate/ratetable/

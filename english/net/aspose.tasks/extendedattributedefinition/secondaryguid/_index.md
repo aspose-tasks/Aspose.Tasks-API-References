@@ -1,7 +1,7 @@
 ---
 title: SecondaryGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the secondary guid of extended attribute.
 type: docs
 weight: 230
 url: /net/aspose.tasks/extendedattributedefinition/secondaryguid/

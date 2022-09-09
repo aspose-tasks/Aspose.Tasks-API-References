@@ -1,7 +1,7 @@
 ---
 title: PostAlg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Called after processing of an object.
 type: docs
 weight: 20
 url: /net/aspose.tasks.util/ialgorithm-1/postalg/

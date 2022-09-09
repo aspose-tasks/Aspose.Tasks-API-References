@@ -1,7 +1,7 @@
 ---
 title: RemainingWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The remaining work scheduled to complete an assignment.
 type: docs
 weight: 460
 url: /net/aspose.tasks/asn/remainingwork/

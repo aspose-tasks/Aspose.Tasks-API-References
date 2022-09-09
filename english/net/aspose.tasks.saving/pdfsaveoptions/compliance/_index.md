@@ -1,7 +1,7 @@
 ---
 title: Compliance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a desired compliance level for generated PDF document. Default is Pdf15.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/pdfsaveoptions/compliance/

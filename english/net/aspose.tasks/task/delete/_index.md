@@ -1,7 +1,7 @@
 ---
 title: Delete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Deletes a task from parent project tasks collection and all its assignments.
 type: docs
 weight: 140
 url: /net/aspose.tasks/task/delete/

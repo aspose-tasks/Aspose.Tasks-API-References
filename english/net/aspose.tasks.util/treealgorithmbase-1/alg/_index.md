@@ -1,7 +1,7 @@
 ---
 title: Alg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Processes a node of a tree.
 type: docs
 weight: 10
 url: /net/aspose.tasks.util/treealgorithmbase-1/alg/

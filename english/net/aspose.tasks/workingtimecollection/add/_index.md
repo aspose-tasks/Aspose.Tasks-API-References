@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds a new WorkingTime instance to this collection.
 type: docs
 weight: 30
 url: /net/aspose.tasks/workingtimecollection/add/

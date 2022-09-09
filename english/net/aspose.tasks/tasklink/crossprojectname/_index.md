@@ -1,7 +1,7 @@
 ---
 title: CrossProjectName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the external predecessor project.
 type: docs
 weight: 10
 url: /net/aspose.tasks/tasklink/crossprojectname/

@@ -1,7 +1,7 @@
 ---
 title: LevelingDelay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The time that a task is to be delayed from its early start date because of resource leveling.
 type: docs
 weight: 770
 url: /net/aspose.tasks/tsk/levelingdelay/

@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an instance of FinishStart TaskLinkaspose.tasks/tasklink which has been added to the TaskLinkCollection object.
 type: docs
 weight: 40
 url: /net/aspose.tasks/tasklinkcollection/add/
 ---
-## TaskLinkCollection.Add method (1 of 4)
+## Add(Task, Task) {#add}
 
 Returns an instance of Finish-Start [`TaskLink`](../../tasklink) which has been added to the TaskLinkCollection object.
 
@@ -39,7 +39,7 @@ a task link instance which has been added to this object.
 
 ---
 
-## TaskLinkCollection.Add method (2 of 4)
+## Add(Task, Task, TaskLinkType) {#add_1}
 
 Returns an instance of [`TaskLink`](../../tasklink) which has been added to the TaskLinkCollection object.
 
@@ -74,7 +74,7 @@ a task link instance which has been added to this object.
 
 ---
 
-## TaskLinkCollection.Add method (3 of 4)
+## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
 Returns an instance of [`TaskLink`](../../tasklink) which has been added to the TaskLinkCollection object.
 
@@ -111,7 +111,7 @@ a task link which has been added to this object.
 
 ---
 
-## TaskLinkCollection.Add method (4 of 4)
+## Add(TaskLink) {#add_3}
 
 This is the stub implementation of ICollection's Add method, that only throws NotSupportedException
 

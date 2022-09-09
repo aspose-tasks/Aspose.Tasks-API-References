@@ -1,7 +1,7 @@
 ---
 title: LastSaved
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date when a project was saved last time. Saved in UTC format in mpp files. DateTime type.
 type: docs
 weight: 430
 url: /net/aspose.tasks/prj/lastsaved/

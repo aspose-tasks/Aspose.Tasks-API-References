@@ -1,7 +1,7 @@
 ---
 title: BaselineNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the unique number of a baseline data record.
 type: docs
 weight: 20
 url: /net/aspose.tasks/baseline/baselinenumber/

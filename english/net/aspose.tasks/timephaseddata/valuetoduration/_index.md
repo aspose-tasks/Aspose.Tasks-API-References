@@ -1,7 +1,7 @@
 ---
 title: ValueToDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets TimeSpan instance which represents string value of this object.
 type: docs
 weight: 120
 url: /net/aspose.tasks/timephaseddata/valuetoduration/

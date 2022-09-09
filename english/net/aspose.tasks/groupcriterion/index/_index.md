@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the index of a GroupCriterionaspose.tasks/groupcriterion object in the containing GroupCriterionCollectionaspose.tasks/groupcriterioncollection collection.
 type: docs
 weight: 90
 url: /net/aspose.tasks/groupcriterion/index/

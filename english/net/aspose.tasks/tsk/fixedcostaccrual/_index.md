@@ -1,7 +1,7 @@
 ---
 title: FixedCostAccrual
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines choices for how and when fixed costs are to be charged or accrued to the cost of a task.
 type: docs
 weight: 440
 url: /net/aspose.tasks/tsk/fixedcostaccrual/

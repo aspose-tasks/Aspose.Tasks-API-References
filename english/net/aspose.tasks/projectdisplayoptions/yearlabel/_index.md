@@ -1,7 +1,7 @@
 ---
 title: YearLabel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets how the year label displays.
 type: docs
 weight: 120
 url: /net/aspose.tasks/projectdisplayoptions/yearlabel/

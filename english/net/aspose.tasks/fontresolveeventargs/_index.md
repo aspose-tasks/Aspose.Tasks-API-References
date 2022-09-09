@@ -1,7 +1,7 @@
 ---
 title: FontResolveEventArgs
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Provides arguments for the callback that is invoked when font is resolved.
 type: docs
 weight: 660
 url: /net/aspose.tasks/fontresolveeventargs/

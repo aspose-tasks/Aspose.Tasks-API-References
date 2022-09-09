@@ -1,7 +1,7 @@
 ---
 title: Timeout
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets timeout used when waiting for processing of save project request by a Project Servers queue processing service. The default value for this property is 1 minute.
 type: docs
 weight: 50
 url: /net/aspose.tasks/projectserversaveoptions/timeout/

@@ -1,7 +1,7 @@
 ---
 title: IsElapsed
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether time unit is elapsed. The flag which determines whether this Duration instance is elapsed.
 type: docs
 weight: 20
 url: /net/aspose.tasks/duration/iselapsed/

@@ -1,7 +1,7 @@
 ---
 title: MonthlyDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of day of the monthly recurrence pattern.
 type: docs
 weight: 50
 url: /net/aspose.tasks/recurringtaskinfo/monthlyday/

@@ -1,7 +1,7 @@
 ---
 title: Delay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The delay of an assignment.
 type: docs
 weight: 230
 url: /net/aspose.tasks/asn/delay/

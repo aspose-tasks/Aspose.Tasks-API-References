@@ -1,9 +1,9 @@
 ---
 title: TimephasedData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets an instance of TimephasedDataCollectionaspose.tasks/timephaseddatacollection class for this object.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks/resource/timephaseddata/
 ---
 ## Resource.TimephasedData property

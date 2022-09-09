@@ -1,7 +1,7 @@
 ---
 title: TextCompression
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a compression type to be used for all content streams except images. Default is Flate.
 type: docs
 weight: 110
 url: /net/aspose.tasks.saving/pdfsaveoptions/textcompression/

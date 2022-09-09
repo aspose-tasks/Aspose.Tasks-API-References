@@ -1,7 +1,7 @@
 ---
 title: OleObjectCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection containing the instances of the OleObject./oleobject class.
 type: docs
 weight: 990
 url: /net/aspose.tasks/oleobjectcollection/

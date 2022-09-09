@@ -1,7 +1,7 @@
 ---
 title: AssignmentOwnerGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The GUID of an assignment owner.
 type: docs
 weight: 110
 url: /net/aspose.tasks/rsc/assignmentownerguid/

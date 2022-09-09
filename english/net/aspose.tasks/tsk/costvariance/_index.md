@@ -1,7 +1,7 @@
 ---
 title: CostVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between the baseline cost and total cost for a task resource or assignment.
 type: docs
 weight: 240
 url: /net/aspose.tasks/tsk/costvariance/

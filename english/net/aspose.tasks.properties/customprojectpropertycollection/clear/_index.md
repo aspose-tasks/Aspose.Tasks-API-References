@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Clears the PropertyCollection.
 type: docs
 weight: 40
 url: /net/aspose.tasks.properties/customprojectpropertycollection/clear/

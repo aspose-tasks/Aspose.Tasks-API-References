@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns short string representation of a risk item. The exact details of the representation are unspecified and subject to change.
 type: docs
 weight: 70
 url: /net/aspose.tasks.riskanalysis/riskitemstatistics/tostring/

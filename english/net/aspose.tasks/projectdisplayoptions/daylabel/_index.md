@@ -1,7 +1,7 @@
 ---
 title: DayLabel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets how the day label displays.
 type: docs
 weight: 30
 url: /net/aspose.tasks/projectdisplayoptions/daylabel/

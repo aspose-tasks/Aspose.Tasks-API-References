@@ -1,7 +1,7 @@
 ---
 title: AddRange
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds a collection of TimephasedDataaspose.tasks/timephaseddata instances to this collection object.
 type: docs
 weight: 60
 url: /net/aspose.tasks/timephaseddatacollection/addrange/

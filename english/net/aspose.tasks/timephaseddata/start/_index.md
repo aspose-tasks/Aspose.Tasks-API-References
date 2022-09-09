@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the start date of a time phased data period.
 type: docs
 weight: 60
 url: /net/aspose.tasks/timephaseddata/start/

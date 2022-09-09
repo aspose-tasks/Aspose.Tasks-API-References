@@ -1,7 +1,7 @@
 ---
 title: TextValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value for attributes with Text type.
 type: docs
 weight: 80
 url: /net/aspose.tasks/extendedattribute/textvalue/

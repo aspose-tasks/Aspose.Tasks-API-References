@@ -1,7 +1,7 @@
 ---
 title: PrimaveraDbSettings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Allows to set necessary options to read project data from Primavera database.
 type: docs
 weight: 310
 url: /net/aspose.tasks.connectivity/primaveradbsettings/

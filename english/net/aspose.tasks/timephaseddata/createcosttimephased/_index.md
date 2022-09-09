@@ -1,7 +1,7 @@
 ---
 title: CreateCostTimephased
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates and initializes a new instance of the TimephasedDataaspose.tasks/timephaseddata class for costbased time phased data.
 type: docs
 weight: 20
 url: /net/aspose.tasks/timephaseddata/createcosttimephased/

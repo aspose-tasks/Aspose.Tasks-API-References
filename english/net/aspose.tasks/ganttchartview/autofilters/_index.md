@@ -1,7 +1,7 @@
 ---
 title: AutoFilters
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a list of auto filters of a Gantt Chart view.
 type: docs
 weight: 20
 url: /net/aspose.tasks/ganttchartview/autofilters/

@@ -1,7 +1,7 @@
 ---
 title: SpreadPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a percent complete is spread to the status date.
 type: docs
 weight: 660
 url: /net/aspose.tasks/prj/spreadpercentcomplete/

@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the scheduled duration of the task when the baseline was saved.
 type: docs
 weight: 20
 url: /net/aspose.tasks/taskbaseline/duration/

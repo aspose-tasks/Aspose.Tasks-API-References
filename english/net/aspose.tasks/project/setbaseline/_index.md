@@ -1,12 +1,12 @@
 ---
 title: SetBaseline
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Saves baseline fields to the specified baseline for the entire project.
 type: docs
 weight: 450
 url: /net/aspose.tasks/project/setbaseline/
 ---
-## Project.SetBaseline method (1 of 2)
+## SetBaseline(BaselineType) {#setbaseline}
 
 Saves baseline fields to the specified baseline for the entire project.
 
@@ -27,7 +27,7 @@ public void SetBaseline(BaselineType baselineType)
 
 ---
 
-## Project.SetBaseline method (2 of 2)
+## SetBaseline(BaselineType, IEnumerable&lt;Task&gt;) {#setbaseline_1}
 
 Saves baseline fields to the specified baseline for the selected tasks.
 

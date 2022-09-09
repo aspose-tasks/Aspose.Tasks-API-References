@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the default value in the list.
 type: docs
 weight: 100
 url: /net/aspose.tasks/extendedattributedefinition/default/

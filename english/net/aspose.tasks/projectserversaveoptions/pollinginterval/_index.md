@@ -1,7 +1,7 @@
 ---
 title: PollingInterval
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets interval between queue job status requests. The default value is 2 seconds.
 type: docs
 weight: 20
 url: /net/aspose.tasks/projectserversaveoptions/pollinginterval/

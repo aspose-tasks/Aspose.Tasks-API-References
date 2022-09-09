@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified object.
 type: docs
 weight: 80
 url: /net/aspose.tasks/duration/equals/
 ---
-## Duration.Equals method (1 of 2)
+## Equals(Duration) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -30,7 +30,7 @@ Returns **True** if other Duration instance has the same TimeSpan and TimeUnit v
 
 ---
 
-## Duration.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 

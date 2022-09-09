@@ -1,7 +1,7 @@
 ---
 title: FlagValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a flag is set for an attribute with Flag type.
 type: docs
 weight: 50
 url: /net/aspose.tasks/extendedattribute/flagvalue/

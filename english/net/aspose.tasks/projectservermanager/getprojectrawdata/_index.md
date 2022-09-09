@@ -1,7 +1,7 @@
 ---
 title: GetProjectRawData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the projects binary data for troubleshooting purposes.
 type: docs
 weight: 60
 url: /net/aspose.tasks/projectservermanager/getprojectrawdata/

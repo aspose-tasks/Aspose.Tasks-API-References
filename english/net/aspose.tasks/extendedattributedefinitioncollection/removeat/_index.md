@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes an item at the specified index.
 type: docs
 weight: 140
 url: /net/aspose.tasks/extendedattributedefinitioncollection/removeat/

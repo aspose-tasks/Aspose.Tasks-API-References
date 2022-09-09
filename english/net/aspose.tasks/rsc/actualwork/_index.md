@@ -1,7 +1,7 @@
 ---
 title: ActualWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of work that has already been done by resource assigned to tasks.
 type: docs
 weight: 70
 url: /net/aspose.tasks/rsc/actualwork/

@@ -1,7 +1,7 @@
 ---
 title: MaxUnits
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The maximum number of units representing the maximum capacity for which a resource is available to accomplish any tasks during the current time period.
 type: docs
 weight: 450
 url: /net/aspose.tasks/rsc/maxunits/

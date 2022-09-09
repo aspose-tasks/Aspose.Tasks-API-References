@@ -1,7 +1,7 @@
 ---
 title: ACWP
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The actual cost of a work performed by a resource for the project todate.
 type: docs
 weight: 90
 url: /net/aspose.tasks/rsc/acwp/

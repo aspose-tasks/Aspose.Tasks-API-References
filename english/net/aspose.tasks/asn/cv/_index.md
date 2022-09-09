@@ -1,7 +1,7 @@
 ---
 title: CV
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The earned value cost variance. CV is the difference between the assignments BCWP budgeted cost of work performed and ACWP actual cost of work performed.
 type: docs
 weight: 220
 url: /net/aspose.tasks/asn/cv/

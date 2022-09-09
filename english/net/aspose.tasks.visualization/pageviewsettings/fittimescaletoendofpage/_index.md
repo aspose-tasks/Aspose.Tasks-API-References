@@ -1,7 +1,7 @@
 ---
 title: FitTimescaleToEndOfPage
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to fit timescale to the end of a page when printing.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/pageviewsettings/fittimescaletoendofpage/

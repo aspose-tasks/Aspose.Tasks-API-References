@@ -1,7 +1,7 @@
 ---
 title: Phonetics
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The phonetic spelling of the resource name. For use with Japanese only.
 type: docs
 weight: 570
 url: /net/aspose.tasks/rsc/phonetics/

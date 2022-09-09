@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the object id.
 type: docs
 weight: 70
 url: /net/aspose.tasks/oleobject/id/

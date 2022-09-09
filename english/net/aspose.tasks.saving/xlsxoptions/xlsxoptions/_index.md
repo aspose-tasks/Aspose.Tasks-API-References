@@ -1,7 +1,7 @@
 ---
 title: XlsxOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the XlsxOptionsaspose.tasks.saving/xlsxoptions class that can be used to save project in XLSX format.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/xlsxoptions/xlsxoptions/

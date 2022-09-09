@@ -1,7 +1,7 @@
 ---
 title: ToDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the end of an exception time.
 type: docs
 weight: 60
 url: /net/aspose.tasks/weekday/todate/

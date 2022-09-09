@@ -1,7 +1,7 @@
 ---
 title: DateTimeConverter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a callback function for handling rendering date tick in this tier.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/timescaletier/datetimeconverter/

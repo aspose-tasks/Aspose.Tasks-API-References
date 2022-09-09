@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the instance of the OleObjectCollectionaspose.tasks/oleobjectcollection class to a list containing the instances of the OleObjectaspose.tasks/oleobject class.
 type: docs
 weight: 30
 url: /net/aspose.tasks/oleobjectcollection/tolist/

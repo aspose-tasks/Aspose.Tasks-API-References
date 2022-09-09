@@ -1,7 +1,7 @@
 ---
 title: Minimum
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the minimum value which was generated during Monte Carlo simulation.
 type: docs
 weight: 40
 url: /net/aspose.tasks.riskanalysis/riskitemstatistics/minimum/

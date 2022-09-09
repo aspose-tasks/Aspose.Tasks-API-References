@@ -1,7 +1,7 @@
 ---
 title: OrdinalNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an ordinal number in the instance of RecurringTaskInfo./recurringtaskinfo class.
 type: docs
 weight: 1000
 url: /net/aspose.tasks/ordinalnumber/

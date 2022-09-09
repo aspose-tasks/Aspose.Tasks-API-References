@@ -1,7 +1,7 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Project view date format.
 type: docs
 weight: 200
 url: /net/aspose.tasks/prj/dateformat/

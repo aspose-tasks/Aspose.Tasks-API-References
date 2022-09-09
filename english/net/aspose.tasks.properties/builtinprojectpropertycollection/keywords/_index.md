@@ -1,7 +1,7 @@
 ---
 title: Keywords
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the keywords of a project.
 type: docs
 weight: 70
 url: /net/aspose.tasks.properties/builtinprojectpropertycollection/keywords/

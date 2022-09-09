@@ -1,7 +1,7 @@
 ---
 title: InsertedProjectsLikeSummary
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether subtasks are calculated as summary tasks.
 type: docs
 weight: 380
 url: /net/aspose.tasks/prj/insertedprojectslikesummary/

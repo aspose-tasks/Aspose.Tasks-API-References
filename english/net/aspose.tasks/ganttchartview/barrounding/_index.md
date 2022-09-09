@@ -1,7 +1,7 @@
 ---
 title: BarRounding
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the bars round to the nearest day. The default value is True.
 type: docs
 weight: 30
 url: /net/aspose.tasks/ganttchartview/barrounding/

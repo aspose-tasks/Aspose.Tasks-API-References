@@ -1,7 +1,7 @@
 ---
 title: Resume
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date when assignment is resumed.
 type: docs
 weight: 490
 url: /net/aspose.tasks/asn/resume/

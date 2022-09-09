@@ -1,7 +1,7 @@
 ---
 title: PrintAllSheetColumns
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to print all sheet columns of a view.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/pageviewsettings/printallsheetcolumns/

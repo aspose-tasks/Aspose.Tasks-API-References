@@ -1,7 +1,7 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the date format of the table.
 type: docs
 weight: 30
 url: /net/aspose.tasks/table/dateformat/

@@ -1,7 +1,7 @@
 ---
 title: LogText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the exception logging information.
 type: docs
 weight: 10
 url: /net/aspose.tasks/tasksloggedexception/logtext/

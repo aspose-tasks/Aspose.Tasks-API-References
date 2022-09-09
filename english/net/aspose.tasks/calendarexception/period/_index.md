@@ -1,7 +1,7 @@
 ---
 title: Period
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the period of recurrence for the exception.
 type: docs
 weight: 130
 url: /net/aspose.tasks/calendarexception/period/

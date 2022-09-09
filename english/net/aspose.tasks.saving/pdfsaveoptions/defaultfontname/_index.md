@@ -1,7 +1,7 @@
 ---
 title: DefaultFontName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the default font for rendering.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/pdfsaveoptions/defaultfontname/

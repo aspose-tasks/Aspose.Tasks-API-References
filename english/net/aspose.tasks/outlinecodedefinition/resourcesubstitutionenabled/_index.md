@@ -1,7 +1,7 @@
 ---
 title: ResourceSubstitutionEnabled
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the custom outline code can be used by the Resource Substitution Wizard in Microsoft Project.
 type: docs
 weight: 130
 url: /net/aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled/

@@ -1,7 +1,7 @@
 ---
 title: FinishDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The finish date of a project.
 type: docs
 weight: 320
 url: /net/aspose.tasks/prj/finishdate/

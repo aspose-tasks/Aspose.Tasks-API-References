@@ -1,7 +1,7 @@
 ---
 title: Gridlines
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a list of Gridlineaspose.tasks.visualization/gridline that appear in project view.
 type: docs
 weight: 60
 url: /net/aspose.tasks.saving/saveoptions/gridlines/

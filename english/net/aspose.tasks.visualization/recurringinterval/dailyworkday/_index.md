@@ -1,7 +1,7 @@
 ---
 title: DailyWorkday
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a day is workday for daily progress lines.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/recurringinterval/dailyworkday/

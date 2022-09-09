@@ -1,7 +1,7 @@
 ---
 title: Field
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a field the style is to be applied to. Fieldaspose.tasks.visualization/tabletextstyle/field.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/tabletextstyle/field/

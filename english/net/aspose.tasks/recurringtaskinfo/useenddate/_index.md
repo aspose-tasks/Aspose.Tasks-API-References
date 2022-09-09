@@ -1,7 +1,7 @@
 ---
 title: UseEndDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to use the end date or a number of occurrences for the recurring task.
 type: docs
 weight: 150
 url: /net/aspose.tasks/recurringtaskinfo/useenddate/

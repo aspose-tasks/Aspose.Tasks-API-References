@@ -1,7 +1,7 @@
 ---
 title: RightText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the right aligned text to display in the page legend.
 type: docs
 weight: 80
 url: /net/aspose.tasks.visualization/pagelegend/righttext/

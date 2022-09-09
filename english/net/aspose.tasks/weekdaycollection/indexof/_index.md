@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns index of WeekDayaspose.tasks/weekday specified.
 type: docs
 weight: 80
 url: /net/aspose.tasks/weekdaycollection/indexof/

@@ -1,7 +1,7 @@
 ---
 title: CurrencySymbolPosition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The placement of the currency symbol.
 type: docs
 weight: 170
 url: /net/aspose.tasks/prj/currencysymbolposition/

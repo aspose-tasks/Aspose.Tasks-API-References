@@ -1,7 +1,7 @@
 ---
 title: PercentWorkComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The amount of a work completed on an assignment.
 type: docs
 weight: 400
 url: /net/aspose.tasks/asn/percentworkcomplete/

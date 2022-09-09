@@ -1,7 +1,7 @@
 ---
 title: ImageSavingArgs
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: This class represents set of data that related to external image files saving that occurs during conversion to HTML format.
 type: docs
 weight: 810
 url: /net/aspose.tasks/imagesavingargs/

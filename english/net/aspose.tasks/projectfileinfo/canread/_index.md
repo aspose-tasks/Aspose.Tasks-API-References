@@ -1,7 +1,7 @@
 ---
 title: CanRead
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether defines can Aspose.Tasks process the project file.
 type: docs
 weight: 10
 url: /net/aspose.tasks/projectfileinfo/canread/

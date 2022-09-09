@@ -1,7 +1,7 @@
 ---
 title: ImageSaving
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The method to be called while saving of images.
 type: docs
 weight: 10
 url: /net/aspose.tasks/iimagesavingcallback/imagesaving/

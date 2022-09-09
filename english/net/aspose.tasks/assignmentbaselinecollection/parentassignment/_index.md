@@ -1,7 +1,7 @@
 ---
 title: ParentAssignment
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent ResourceAssignmentaspose.tasks/resourceassignment for this collection.
 type: docs
 weight: 30
 url: /net/aspose.tasks/assignmentbaselinecollection/parentassignment/

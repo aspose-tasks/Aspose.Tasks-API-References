@@ -1,7 +1,7 @@
 ---
 title: ApplicationName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the application name to open the embedded object with.
 type: docs
 weight: 20
 url: /net/aspose.tasks/oleobject/applicationname/

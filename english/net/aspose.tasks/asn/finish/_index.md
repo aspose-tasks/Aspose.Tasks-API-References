@@ -1,7 +1,7 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The scheduled finish date of an assignment.
 type: docs
 weight: 240
 url: /net/aspose.tasks/asn/finish/

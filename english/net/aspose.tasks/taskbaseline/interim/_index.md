@@ -1,7 +1,7 @@
 ---
 title: Interim
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether this is an Interim Baseline.
 type: docs
 weight: 70
 url: /net/aspose.tasks/taskbaseline/interim/

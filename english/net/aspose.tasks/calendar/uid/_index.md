@@ -1,7 +1,7 @@
 ---
 title: Uid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the unique identifier of the calendar. Read/write Int32.
 type: docs
 weight: 100
 url: /net/aspose.tasks/calendar/uid/

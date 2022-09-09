@@ -1,7 +1,7 @@
 ---
 title: TimephasedData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the TimephasedDataCollectionaspose.tasks/timephaseddatacollection instance for this object. The time phased data associated with the resource assignment baseline. returns TimephasedDataCollectionaspose.tasks/timephaseddatacollection instance for this object.The collection of Time phased data associated with this baseline.
 type: docs
 weight: 40
 url: /net/aspose.tasks/assignmentbaseline/timephaseddata/

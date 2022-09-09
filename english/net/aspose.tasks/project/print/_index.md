@@ -1,12 +1,12 @@
 ---
 title: Print
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Prints project to the default printer with default printer settings using the standard no User Interface print controller.
 type: docs
 weight: 330
 url: /net/aspose.tasks/project/print/
 ---
-## Project.Print method (1 of 7)
+## Print() {#print}
 
 Prints project to the default printer with default printer settings using the standard (no User Interface) print controller.
 
@@ -22,7 +22,7 @@ public void Print()
 
 ---
 
-## Project.Print method (2 of 7)
+## Print(PrintOptions) {#print_1}
 
 Prints project to the default printer with default printer settings and custom save options using the standard (no User Interface) print controller.
 
@@ -43,7 +43,7 @@ public void Print(PrintOptions options)
 
 ---
 
-## Project.Print method (3 of 7)
+## Print(string) {#print_6}
 
 Prints project to the specified printer with default printer settings using the standard (no User Interface) print controller.
 
@@ -63,7 +63,7 @@ public void Print(string printerName)
 
 ---
 
-## Project.Print method (4 of 7)
+## Print(PrinterSettings) {#print_2}
 
 Prints project according to the specified printer settings using the standard (no User Interface) print controller.
 
@@ -83,7 +83,7 @@ public void Print(PrinterSettings printerSettings)
 
 ---
 
-## Project.Print method (5 of 7)
+## Print(PrinterSettings, string) {#print_5}
 
 Prints project according to the specified printer settings using the standard (no User Interface) print controller.
 
@@ -104,7 +104,7 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 ---
 
-## Project.Print method (6 of 7)
+## Print(PrinterSettings, PrintOptions) {#print_3}
 
 Prints project according to the specified printer settings and custom save options using the standard (no User Interface) print controller.
 
@@ -126,7 +126,7 @@ public void Print(PrinterSettings printerSettings, PrintOptions options)
 
 ---
 
-## Project.Print method (7 of 7)
+## Print(PrinterSettings, PrintOptions, string) {#print_4}
 
 Prints project according to the specified printer settings, custom save options and the specified document name using the standard (no User Interface) print controller.
 

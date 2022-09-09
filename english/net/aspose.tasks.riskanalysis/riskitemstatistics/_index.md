@@ -1,7 +1,7 @@
 ---
 title: RiskItemStatistics
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an item which stores statistical data for the task of the analyzed project.
 type: docs
 weight: 1630
 url: /net/aspose.tasks.riskanalysis/riskitemstatistics/

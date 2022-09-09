@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes baseline from this collection.
 type: docs
 weight: 50
 url: /net/aspose.tasks/taskbaselinecollection/remove/

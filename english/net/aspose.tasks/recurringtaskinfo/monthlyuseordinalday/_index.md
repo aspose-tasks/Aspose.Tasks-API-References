@@ -1,7 +1,7 @@
 ---
 title: MonthlyUseOrdinalDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to use ordinal day for the monthly recurrence pattern.
 type: docs
 weight: 100
 url: /net/aspose.tasks/recurringtaskinfo/monthlyuseordinalday/

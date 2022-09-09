@@ -1,7 +1,7 @@
 ---
 title: TimeSpan
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets TimeSpanaspose.tasks/duration/timespan instance of this Duration object. The TimeSpan instance of this Duration object.
 type: docs
 weight: 40
 url: /net/aspose.tasks/duration/timespan/

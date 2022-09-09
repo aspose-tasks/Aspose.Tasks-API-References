@@ -1,12 +1,12 @@
 ---
 title: UpdateProjectWorkAsComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Updates all work as complete through a specified date for the entire project.
 type: docs
 weight: 470
 url: /net/aspose.tasks/project/updateprojectworkascomplete/
 ---
-## Project.UpdateProjectWorkAsComplete method (1 of 2)
+## UpdateProjectWorkAsComplete(DateTime, bool) {#updateprojectworkascomplete}
 
 Updates all work as complete through a specified date for the entire project.
 
@@ -28,7 +28,7 @@ public void UpdateProjectWorkAsComplete(DateTime completeThrough,
 
 ---
 
-## Project.UpdateProjectWorkAsComplete method (2 of 2)
+## UpdateProjectWorkAsComplete(DateTime, bool, List&lt;Task&gt;) {#updateprojectworkascomplete_1}
 
 Updates all work as complete through a specified date for the specified list of tasks.
 

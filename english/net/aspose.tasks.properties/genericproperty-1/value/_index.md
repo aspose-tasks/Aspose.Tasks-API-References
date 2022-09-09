@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value of the property.
 type: docs
 weight: 30
 url: /net/aspose.tasks.properties/genericproperty-1/value/

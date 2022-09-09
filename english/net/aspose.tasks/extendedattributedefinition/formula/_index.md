@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the formula that Microsoft Project uses to populate a custom task field.
 type: docs
 weight: 150
 url: /net/aspose.tasks/extendedattributedefinition/formula/

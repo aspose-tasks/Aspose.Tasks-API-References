@@ -1,12 +1,12 @@
 ---
 title: CreateResourceDefinition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Factory method which creates a simple extended attribute definition which Microsoft Project shows as None. It has CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype equals to None and can be used in Resource only. You are required to specify customFieldType fieldId and alias when call this method.
 type: docs
 weight: 30
 url: /net/aspose.tasks/extendedattributedefinition/createresourcedefinition/
 ---
-## ExtendedAttributeDefinition.CreateResourceDefinition method (1 of 2)
+## CreateResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createresourcedefinition}
 
 Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype) equals to None and can be used in Resource only. You are required to specify *customFieldType*, *fieldId* and *alias* when call this method.
 
@@ -44,7 +44,7 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ---
 
-## ExtendedAttributeDefinition.CreateResourceDefinition method (2 of 2)
+## CreateResourceDefinition(ExtendedAttributeResource, string) {#createresourcedefinition_1}
 
 Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype) equals to None and can be used in Resource only. You are required to specify *fieldId* and *alias* when call this method. The field type is inferred from field id.
 

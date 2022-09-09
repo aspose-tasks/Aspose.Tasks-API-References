@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Checks if collection contains specified item.
 type: docs
 weight: 60
 url: /net/aspose.tasks/taskcollection/contains/

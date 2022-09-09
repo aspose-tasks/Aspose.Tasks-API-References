@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The text notes associated with an assignment.
 type: docs
 weight: 350
 url: /net/aspose.tasks/asn/notes/

@@ -1,7 +1,7 @@
 ---
 title: EnteredByOccurrences
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the range of recurrence is defined by entering a number of occurrences. False specifies that the range of recurrence is defined by entering a finish date.
 type: docs
 weight: 40
 url: /net/aspose.tasks/calendarexception/enteredbyoccurrences/

@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes all items from the TimephasedDataCollectionaspose.tasks/timephaseddatacollection.
 type: docs
 weight: 70
 url: /net/aspose.tasks/timephaseddatacollection/clear/

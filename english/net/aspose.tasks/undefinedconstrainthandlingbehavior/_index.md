@@ -1,9 +1,9 @@
 ---
 title: UndefinedConstraintHandlingBehavior
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the behavior used to handle tasks with undefined constraints.
 type: docs
-weight: 2300
+weight: 2310
 url: /net/aspose.tasks/undefinedconstrainthandlingbehavior/
 ---
 ## UndefinedConstraintHandlingBehavior enumeration

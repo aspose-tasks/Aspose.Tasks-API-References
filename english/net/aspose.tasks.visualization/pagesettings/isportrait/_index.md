@@ -1,7 +1,7 @@
 ---
 title: IsPortrait
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the page orientation is portrait returns false if the page orientation is landscape.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/pagesettings/isportrait/

@@ -1,7 +1,7 @@
 ---
 title: PrjKey
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a list of supported project fields.
 type: docs
 weight: 1170
 url: /net/aspose.tasks/prjkey/

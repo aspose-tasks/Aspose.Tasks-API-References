@@ -1,9 +1,9 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of VbaModule./vbamodule objects.
 type: docs
-weight: 2490
+weight: 2510
 url: /net/aspose.tasks/vbamodulecollection/
 ---
 ## VbaModuleCollection class

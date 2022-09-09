@@ -1,7 +1,7 @@
 ---
 title: HashAlgorithm
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the hash algorithm.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/pdfdigitalsignaturedetails/hashalgorithm/

@@ -1,7 +1,7 @@
 ---
 title: Bcws
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the budget cost of a work scheduled for a resource.
 type: docs
 weight: 40
 url: /net/aspose.tasks/baseline/bcws/

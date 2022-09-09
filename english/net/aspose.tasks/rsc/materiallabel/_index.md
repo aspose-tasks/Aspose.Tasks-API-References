@@ -1,7 +1,7 @@
 ---
 title: MaterialLabel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The unit of measure for the material resource.
 type: docs
 weight: 440
 url: /net/aspose.tasks/rsc/materiallabel/

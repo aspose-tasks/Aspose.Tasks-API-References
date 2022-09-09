@@ -1,7 +1,7 @@
 ---
 title: PreAlg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes the task from the specified parent task.
 type: docs
 weight: 40
 url: /net/aspose.tasks.util/removetask/prealg/

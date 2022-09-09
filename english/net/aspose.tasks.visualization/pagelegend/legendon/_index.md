@@ -1,7 +1,7 @@
 ---
 title: LegendOn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the pages on which the legend appears. Can be one of the values of the Legendaspose.tasks.visualization/legend enumeration.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/pagelegend/legendon/

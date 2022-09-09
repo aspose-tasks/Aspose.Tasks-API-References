@@ -1,7 +1,7 @@
 ---
 title: RiskAnalysisResult
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a result of risk analysis.
 type: docs
 weight: 1600
 url: /net/aspose.tasks.riskanalysis/riskanalysisresult/
@@ -19,8 +19,8 @@ public class RiskAnalysisResult
 | Name | Description |
 | --- | --- |
 | [GetRiskItems](../../aspose.tasks.riskanalysis/riskanalysisresult/getriskitems)(RiskItemType) | Returns an instance of the [`RiskItemStatisticsCollection`](../riskitemstatisticscollection) for the specified risk type. |
-| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport)(Stream) | Saves the risk analysis report to the stream in PDF format. |
-| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport)(string) | Saves the risk analysis report to the specified file path in PDF format. |
+| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport#savereport)(Stream) | Saves the risk analysis report to the stream in PDF format. |
+| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport#savereport_1)(string) | Saves the risk analysis report to the specified file path in PDF format. |
 
 ### See Also
 

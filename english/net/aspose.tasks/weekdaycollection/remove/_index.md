@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes WeekDayaspose.tasks/weekday specified if any.
 type: docs
 weight: 100
 url: /net/aspose.tasks/weekdaycollection/remove/

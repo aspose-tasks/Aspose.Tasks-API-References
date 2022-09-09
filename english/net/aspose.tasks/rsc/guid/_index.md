@@ -1,7 +1,7 @@
 ---
 title: Guid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Contains the generated unique identification code for the resource.
 type: docs
 weight: 310
 url: /net/aspose.tasks/rsc/guid/

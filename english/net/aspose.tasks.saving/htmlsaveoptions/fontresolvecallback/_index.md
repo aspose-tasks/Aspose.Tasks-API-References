@@ -1,7 +1,7 @@
 ---
 title: FontResolveCallback
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a callback which can be used to customize resolved fonts.
 type: docs
 weight: 90
 url: /net/aspose.tasks.saving/htmlsaveoptions/fontresolvecallback/

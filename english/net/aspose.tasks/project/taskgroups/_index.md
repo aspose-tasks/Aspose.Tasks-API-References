@@ -1,7 +1,7 @@
 ---
 title: TaskGroups
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets all the taskbased group definitions. TaskGroups is a collection of Groupaspose.tasks/group objects.
 type: docs
 weight: 200
 url: /net/aspose.tasks/project/taskgroups/

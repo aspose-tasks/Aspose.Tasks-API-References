@@ -1,7 +1,7 @@
 ---
 title: YearlyOrdinalNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets an ordinal number of the yearly recurrence pattern. Can be one of the values of OrdinalNumberaspose.tasks/ordinalnumber enumeration.
 type: docs
 weight: 210
 url: /net/aspose.tasks/recurringtaskinfo/yearlyordinalnumber/

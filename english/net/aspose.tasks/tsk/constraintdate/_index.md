@@ -1,7 +1,7 @@
 ---
 title: ConstraintDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The specific date associated with the constraint type.
 type: docs
 weight: 200
 url: /net/aspose.tasks/tsk/constraintdate/

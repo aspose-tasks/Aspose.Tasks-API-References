@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Clears the collection. In order to persist these changes project.Save should be called with new MPPSaveOptions  WriteViewData  true 
 type: docs
 weight: 10
 url: /net/aspose.tasks/oleobjectcollection/clear/

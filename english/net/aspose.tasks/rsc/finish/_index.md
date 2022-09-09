@@ -1,7 +1,7 @@
 ---
 title: Finish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date when a resource is scheduled to complete work on all assigned tasks.
 type: docs
 weight: 290
 url: /net/aspose.tasks/rsc/finish/

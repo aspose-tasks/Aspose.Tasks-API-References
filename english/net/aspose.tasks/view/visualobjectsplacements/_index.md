@@ -1,7 +1,7 @@
 ---
 title: VisualObjectsPlacements
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a collection of objects representing placement and appearance of OleObjectaspose.tasks/oleobject in the view.
 type: docs
 weight: 130
 url: /net/aspose.tasks/view/visualobjectsplacements/

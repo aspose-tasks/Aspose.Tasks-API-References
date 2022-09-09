@@ -1,7 +1,7 @@
 ---
 title: BudgetWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The budgeted work amount for a work or material resources on an assignment.
 type: docs
 weight: 160
 url: /net/aspose.tasks/asn/budgetwork/

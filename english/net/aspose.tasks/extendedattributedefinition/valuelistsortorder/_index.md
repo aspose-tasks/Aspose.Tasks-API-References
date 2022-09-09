@@ -1,7 +1,7 @@
 ---
 title: ValuelistSortOrder
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the way value lists are sorted. Values are 0Descending 1Ascending.
 type: docs
 weight: 280
 url: /net/aspose.tasks/extendedattributedefinition/valuelistsortorder/

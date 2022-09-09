@@ -1,7 +1,7 @@
 ---
 title: Template
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects template.
 type: docs
 weight: 710
 url: /net/aspose.tasks/prj/template/

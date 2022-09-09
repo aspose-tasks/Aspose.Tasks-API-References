@@ -1,7 +1,7 @@
 ---
 title: Enterprise
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a custom outline code is an enterprise custom outline code.
 type: docs
 weight: 40
 url: /net/aspose.tasks/outlinecodedefinition/enterprise/

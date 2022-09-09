@@ -1,7 +1,7 @@
 ---
 title: FirstPageNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a first page number for printing.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/pagesettings/firstpagenumber/

@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes all WorkingTimeaspose.tasks/workingtime items from collection.
 type: docs
 weight: 40
 url: /net/aspose.tasks/workingtimecollection/clear/

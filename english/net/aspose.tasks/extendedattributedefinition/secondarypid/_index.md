@@ -1,7 +1,7 @@
 ---
 title: SecondaryPid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the secondary PID of a custom field.
 type: docs
 weight: 240
 url: /net/aspose.tasks/extendedattributedefinition/secondarypid/

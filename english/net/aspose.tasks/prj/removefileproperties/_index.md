@@ -1,7 +1,7 @@
 ---
 title: RemoveFileProperties
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether all file properties will be removed on save.
 type: docs
 weight: 590
 url: /net/aspose.tasks/prj/removefileproperties/

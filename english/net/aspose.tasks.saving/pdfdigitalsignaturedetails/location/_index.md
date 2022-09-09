@@ -1,7 +1,7 @@
 ---
 title: Location
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the location of signing.
 type: docs
 weight: 40
 url: /net/aspose.tasks.saving/pdfdigitalsignaturedetails/location/

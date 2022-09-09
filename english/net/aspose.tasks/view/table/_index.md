@@ -1,7 +1,7 @@
 ---
 title: Table
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a table of the single view.
 type: docs
 weight: 100
 url: /net/aspose.tasks/view/table/

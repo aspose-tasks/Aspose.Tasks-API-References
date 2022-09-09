@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific object from this collection.
 type: docs
 weight: 110
 url: /net/aspose.tasks/outlinevaluecollection/remove/

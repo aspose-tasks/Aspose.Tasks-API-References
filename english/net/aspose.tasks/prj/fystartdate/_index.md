@@ -1,7 +1,7 @@
 ---
 title: FyStartDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The month when fiscal year is starting.
 type: docs
 weight: 340
 url: /net/aspose.tasks/prj/fystartdate/

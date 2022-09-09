@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates a new custom property.
 type: docs
 weight: 30
 url: /net/aspose.tasks.properties/customprojectpropertycollection/add/
 ---
-## CustomProjectPropertyCollection.Add method (1 of 4)
+## Add(string, string) {#add_3}
 
 Creates a new custom property.
 
@@ -32,7 +32,7 @@ The newly created property object.
 
 ---
 
-## CustomProjectPropertyCollection.Add method (2 of 4)
+## Add(string, bool) {#add}
 
 Creates a new custom property.
 
@@ -58,7 +58,7 @@ The newly created property object.
 
 ---
 
-## CustomProjectPropertyCollection.Add method (3 of 4)
+## Add(string, double) {#add_1}
 
 Creates a new custom property.
 
@@ -84,7 +84,7 @@ The newly created property object.
 
 ---
 
-## CustomProjectPropertyCollection.Add method (4 of 4)
+## Add(string, DateTime) {#add_2}
 
 Creates a new custom property.
 

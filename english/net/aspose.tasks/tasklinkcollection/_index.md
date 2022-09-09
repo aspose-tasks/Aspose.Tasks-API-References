@@ -1,7 +1,7 @@
 ---
 title: TaskLinkCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of Task./task objects.
 type: docs
 weight: 2120
 url: /net/aspose.tasks/tasklinkcollection/
@@ -26,10 +26,10 @@ public class TaskLinkCollection : IList<TaskLink>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/tasklinkcollection/add)(TaskLink) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
-| [Add](../../aspose.tasks/tasklinkcollection/add)(Task, Task) | Returns an instance of Finish-Start [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
-| [Add](../../aspose.tasks/tasklinkcollection/add)(Task, Task, TaskLinkType) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
-| [Add](../../aspose.tasks/tasklinkcollection/add)(Task, Task, TaskLinkType, Duration) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_3)(TaskLink) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add)(Task, Task) | Returns an instance of Finish-Start [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_1)(Task, Task, TaskLinkType) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
+| [Add](../../aspose.tasks/tasklinkcollection/add#add_2)(Task, Task, TaskLinkType, Duration) | Returns an instance of [`TaskLink`](../tasklink) which has been added to the TaskLinkCollection object. |
 | [GetEnumerator](../../aspose.tasks/tasklinkcollection/getenumerator)() | Returns an enumerator for this collection. |
 | [Remove](../../aspose.tasks/tasklinkcollection/remove)(TaskLink) | Removes task link from a project. |
 | [ToList](../../aspose.tasks/tasklinkcollection/tolist)() | Converts the TaskLinkCollection object to a list of [`TaskLink`](../tasklink) objects. |

@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Contains build version and product information.
 type: docs
 weight: 150
 url: /net/aspose.tasks/buildversioninfo/

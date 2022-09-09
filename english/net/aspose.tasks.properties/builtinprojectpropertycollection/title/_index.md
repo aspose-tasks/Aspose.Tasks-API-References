@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the title of a project.
 type: docs
 weight: 100
 url: /net/aspose.tasks.properties/builtinprojectpropertycollection/title/

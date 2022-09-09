@@ -1,7 +1,7 @@
 ---
 title: CalculationMode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies project calculation mode.
 type: docs
 weight: 200
 url: /net/aspose.tasks/calculationmode/

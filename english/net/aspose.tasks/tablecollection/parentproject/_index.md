@@ -1,7 +1,7 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent of the Table object. Readonly Projectaspose.tasks/project.
 type: docs
 weight: 30
 url: /net/aspose.tasks/tablecollection/parentproject/

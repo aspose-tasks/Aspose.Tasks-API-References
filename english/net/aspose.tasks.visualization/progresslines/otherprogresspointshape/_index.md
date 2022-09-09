@@ -1,7 +1,7 @@
 ---
 title: OtherProgressPointShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the progress point shape of other progress line.
 type: docs
 weight: 150
 url: /net/aspose.tasks.visualization/progresslines/otherprogresspointshape/

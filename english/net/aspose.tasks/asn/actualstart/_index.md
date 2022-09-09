@@ -1,7 +1,7 @@
 ---
 title: ActualStart
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The actual start date of an assignment.
 type: docs
 weight: 60
 url: /net/aspose.tasks/asn/actualstart/

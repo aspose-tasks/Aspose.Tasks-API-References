@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds new assignment to the ResourceAssignmentCollection.
 type: docs
 weight: 50
 url: /net/aspose.tasks/resourceassignmentcollection/add/
 ---
-## ResourceAssignmentCollection.Add method (1 of 4)
+## Add(Task, Resource, double) {#add_1}
 
 Adds new assignment to the ResourceAssignmentCollection.
 
@@ -35,7 +35,7 @@ Added assignment.
 
 ---
 
-## ResourceAssignmentCollection.Add method (2 of 4)
+## Add(Task, Resource, decimal) {#add_2}
 
 Adds new assignment to the ResourceAssignmentCollection.
 
@@ -64,7 +64,7 @@ Added assignment.
 
 ---
 
-## ResourceAssignmentCollection.Add method (3 of 4)
+## Add(Task, Resource) {#add}
 
 Adds new assignment to the ResourceAssignmentCollection.
 
@@ -92,7 +92,7 @@ Added assignment.
 
 ---
 
-## ResourceAssignmentCollection.Add method (4 of 4)
+## Add(ResourceAssignment) {#add_3}
 
 This is the stub implementation of ICollection's Add method, that only throws NotSupportedException
 

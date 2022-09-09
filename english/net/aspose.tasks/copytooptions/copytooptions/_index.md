@@ -1,7 +1,7 @@
 ---
 title: CopyToOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the CopyToOptionsaspose.tasks/copytooptions class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/copytooptions/copytooptions/

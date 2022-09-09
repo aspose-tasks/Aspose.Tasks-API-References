@@ -1,7 +1,7 @@
 ---
 title: CssSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the callback that is called to create resource to store CSS.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/htmlsaveoptions/csssavingcallback/

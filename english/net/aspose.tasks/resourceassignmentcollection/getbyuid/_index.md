@@ -1,7 +1,7 @@
 ---
 title: GetByUid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an assignment with the specified uid.
 type: docs
 weight: 60
 url: /net/aspose.tasks/resourceassignmentcollection/getbyuid/

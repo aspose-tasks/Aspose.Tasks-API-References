@@ -1,7 +1,7 @@
 ---
 title: ShowInMenu
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether Project shows the group name in the Group dropdown list in the Ribbon.
 type: docs
 weight: 70
 url: /net/aspose.tasks/group/showinmenu/

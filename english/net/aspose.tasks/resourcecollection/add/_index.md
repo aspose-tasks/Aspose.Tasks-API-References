@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds new resource at the last position of a project resources collection.
 type: docs
 weight: 40
 url: /net/aspose.tasks/resourcecollection/add/
 ---
-## ResourceCollection.Add method (1 of 3)
+## Add() {#add}
 
 Adds new resource at the last position of a project resources collection.
 
@@ -27,7 +27,7 @@ Added resource.
 
 ---
 
-## ResourceCollection.Add method (2 of 3)
+## Add(string) {#add_1}
 
 Adds new resource at the last position of a project resources collection.
 
@@ -52,7 +52,7 @@ Added resource.
 
 ---
 
-## ResourceCollection.Add method (3 of 3)
+## Add(string, int) {#add_2}
 
 Adds new resource at the specified position of a project resources collection.
 

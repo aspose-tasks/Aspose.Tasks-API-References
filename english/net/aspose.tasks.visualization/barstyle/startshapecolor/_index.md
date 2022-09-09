@@ -1,7 +1,7 @@
 ---
 title: StartShapeColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Color of the shape at the beginning of the bar.
 type: docs
 weight: 160
 url: /net/aspose.tasks.visualization/barstyle/startshapecolor/

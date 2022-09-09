@@ -1,7 +1,7 @@
 ---
 title: RepetitionInterval
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of month which represents the interval in months between occurrences.
 type: docs
 weight: 10
 url: /net/aspose.tasks/monthlyrepetitionbase/repetitioninterval/

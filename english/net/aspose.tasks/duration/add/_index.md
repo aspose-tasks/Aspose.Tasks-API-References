@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds specified duration to this duration.
 type: docs
 weight: 60
 url: /net/aspose.tasks/duration/add/
 ---
-## Duration.Add method (1 of 2)
+## Add(Duration) {#add}
 
 Adds specified duration to this duration.
 
@@ -30,7 +30,7 @@ New duration object that represents the value of this instance plus the specifie
 
 ---
 
-## Duration.Add method (2 of 2)
+## Add(double) {#add_1}
 
 Adds specified double value to this duration.
 

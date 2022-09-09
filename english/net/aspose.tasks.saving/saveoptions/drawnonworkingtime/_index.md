@@ -1,7 +1,7 @@
 ---
 title: DrawNonWorkingTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether nonworking time should be drawn Default value is TRUE.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/saveoptions/drawnonworkingtime/

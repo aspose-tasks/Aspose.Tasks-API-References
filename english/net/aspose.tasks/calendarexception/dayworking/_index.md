@@ -1,7 +1,7 @@
 ---
 title: DayWorking
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the specified date or day type is working.
 type: docs
 weight: 30
 url: /net/aspose.tasks/calendarexception/dayworking/

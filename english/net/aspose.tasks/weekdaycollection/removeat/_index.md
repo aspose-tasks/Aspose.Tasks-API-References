@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes an item at specified index.
 type: docs
 weight: 110
 url: /net/aspose.tasks/weekdaycollection/removeat/

@@ -1,7 +1,7 @@
 ---
 title: MonthLabel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets how the month label displays.
 type: docs
 weight: 60
 url: /net/aspose.tasks/projectdisplayoptions/monthlabel/

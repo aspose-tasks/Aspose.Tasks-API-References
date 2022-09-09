@@ -1,7 +1,7 @@
 ---
 title: SignatureDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the date of signing.
 type: docs
 weight: 60
 url: /net/aspose.tasks.saving/pdfdigitalsignaturedetails/signaturedate/

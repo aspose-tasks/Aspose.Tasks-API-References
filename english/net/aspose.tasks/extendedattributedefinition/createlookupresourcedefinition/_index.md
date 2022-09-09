@@ -1,12 +1,12 @@
 ---
 title: CreateLookupResourceDefinition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Factory method which creates an extended attribute definition with lookup. It has CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype equals to Lookup and can be used in Resources only. You are required to specify fieldId and alias when call this method. The field type is inferred from field id.
 type: docs
 weight: 10
 url: /net/aspose.tasks/extendedattributedefinition/createlookupresourcedefinition/
 ---
-## ExtendedAttributeDefinition.CreateLookupResourceDefinition method (1 of 2)
+## CreateLookupResourceDefinition(ExtendedAttributeResource, string) {#createlookupresourcedefinition_1}
 
 Factory method which creates an extended attribute definition with lookup. It has [`CalculationType`](../calculationtype) equals to Lookup and can be used in Resources only. You are required to specify *fieldId* and *alias* when call this method. The field type is inferred from field id.
 
@@ -44,7 +44,7 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ---
 
-## ExtendedAttributeDefinition.CreateLookupResourceDefinition method (2 of 2)
+## CreateLookupResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createlookupresourcedefinition}
 
 Factory method which creates an extended attribute definition with lookup. It has [`CalculationType`](../calculationtype) equals to Lookup and can be used in Resources only. You are required to specify *customFieldType*, *fieldId* and *alias* when call this method.
 

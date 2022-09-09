@@ -1,7 +1,7 @@
 ---
 title: EndByRecurrenceRange
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the EndByRecurrenceRangeaspose.tasks/endbyrecurrencerange class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/endbyrecurrencerange/endbyrecurrencerange/

@@ -1,7 +1,7 @@
 ---
 title: BCWS
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The budgeted cost of a work on assignment.
 type: docs
 weight: 130
 url: /net/aspose.tasks/asn/bcws/

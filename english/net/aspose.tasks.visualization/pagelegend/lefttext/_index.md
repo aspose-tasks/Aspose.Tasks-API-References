@@ -1,7 +1,7 @@
 ---
 title: LeftText
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the left aligned text to display in the page legend.
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/pagelegend/lefttext/

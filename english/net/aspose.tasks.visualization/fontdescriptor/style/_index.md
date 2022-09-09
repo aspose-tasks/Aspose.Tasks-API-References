@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets style of the font.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/fontdescriptor/style/

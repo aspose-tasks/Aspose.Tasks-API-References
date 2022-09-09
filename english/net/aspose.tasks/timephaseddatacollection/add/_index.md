@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds TimephasedDataaspose.tasks/timephaseddata instance to this collection object.
 type: docs
 weight: 50
 url: /net/aspose.tasks/timephaseddatacollection/add/

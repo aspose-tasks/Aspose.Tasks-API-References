@@ -1,7 +1,7 @@
 ---
 title: Alias
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the alias of a custom field.
 type: docs
 weight: 50
 url: /net/aspose.tasks/extendedattributedefinition/alias/

@@ -1,7 +1,7 @@
 ---
 title: FromDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets start DateTime of work week
 type: docs
 weight: 20
 url: /net/aspose.tasks/workweek/fromdate/

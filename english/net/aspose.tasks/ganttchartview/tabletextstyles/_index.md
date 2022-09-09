@@ -1,7 +1,7 @@
 ---
 title: TableTextStyles
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a list of table text styles of the Gantt Chart view. TableTextStyleaspose.tasks.visualization/tabletextstyle.
 type: docs
 weight: 160
 url: /net/aspose.tasks/ganttchartview/tabletextstyles/

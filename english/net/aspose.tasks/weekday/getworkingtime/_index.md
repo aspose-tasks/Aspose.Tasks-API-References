@@ -1,7 +1,7 @@
 ---
 title: GetWorkingTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns the working time for a week day.
 type: docs
 weight: 110
 url: /net/aspose.tasks/weekday/getworkingtime/

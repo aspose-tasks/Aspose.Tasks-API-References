@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes CalendarExceptionaspose.tasks/calendarexception instance from this collection.
 type: docs
 weight: 80
 url: /net/aspose.tasks/calendarexceptioncollection/remove/

@@ -1,7 +1,7 @@
 ---
 title: RemoveBaselineValues
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether all baseline values from a project template should be removed.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/savetemplateoptions/removebaselinevalues/

@@ -1,7 +1,7 @@
 ---
 title: Assignments
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a collection of resource assignments for this object.
 type: docs
 weight: 10
 url: /net/aspose.tasks/resource/assignments/

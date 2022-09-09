@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets date label DateLabelaspose.tasks.visualization/datelabel for the timescale tier.
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/timescaletier/label/

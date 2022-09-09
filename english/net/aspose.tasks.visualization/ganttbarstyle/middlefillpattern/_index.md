@@ -1,7 +1,7 @@
 ---
 title: MiddleFillPattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a fill pattern of the gantt bar.
 type: docs
 weight: 120
 url: /net/aspose.tasks.visualization/ganttbarstyle/middlefillpattern/

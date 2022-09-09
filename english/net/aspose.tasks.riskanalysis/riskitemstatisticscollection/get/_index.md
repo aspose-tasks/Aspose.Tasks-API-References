@@ -1,7 +1,7 @@
 ---
 title: Get
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns an instance of the RiskItemStatisticsaspose.tasks.riskanalysis/riskitemstatistics class containing in this collection which is associated with the specified Task object null if the item is not found.
 type: docs
 weight: 10
 url: /net/aspose.tasks.riskanalysis/riskitemstatisticscollection/get/

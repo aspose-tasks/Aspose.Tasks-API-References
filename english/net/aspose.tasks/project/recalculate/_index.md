@@ -1,12 +1,12 @@
 ---
 title: Recalculate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Reschedules all project tasks ids outline levels start/finish dates sets early/late dates calculates slacks work and cost fields.
 type: docs
 weight: 340
 url: /net/aspose.tasks/project/recalculate/
 ---
-## Project.Recalculate method (1 of 2)
+## Recalculate() {#recalculate}
 
 Reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields.
 
@@ -22,7 +22,7 @@ public void Recalculate()
 
 ---
 
-## Project.Recalculate method (2 of 2)
+## Recalculate(bool) {#recalculate_1}
 
 Reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields with optional validation.
 

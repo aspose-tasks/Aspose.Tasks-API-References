@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified instance of the Resourceaspose.tasks/resource class.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.tasks/resource/equals/
 ---
-## Resource.Equals method (1 of 2)
+## Equals(Resource) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified instance of the [`Resource`](../../resource) class.
 
@@ -30,7 +30,7 @@ public bool Equals(Resource other)
 
 ---
 
-## Resource.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 

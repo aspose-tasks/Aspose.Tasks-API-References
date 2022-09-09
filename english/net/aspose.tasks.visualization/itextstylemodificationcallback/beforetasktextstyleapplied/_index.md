@@ -1,7 +1,7 @@
 ---
 title: BeforeTaskTextStyleApplied
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The method to be called before rendering of a table cell for a task row in the following views Gantt Chart Task Sheet Task Usage.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied/

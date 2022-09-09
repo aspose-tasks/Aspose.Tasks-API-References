@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The position identifier of a task within the list of tasks.
 type: docs
 weight: 520
 url: /net/aspose.tasks/tsk/id/

@@ -1,12 +1,12 @@
 ---
 title: TextStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the TextStyleaspose.tasks.visualization/textstyle class with default settings.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/textstyle/textstyle/
 ---
-## TextStyle constructor (1 of 4)
+## TextStyle() {#constructor}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with default settings.
 
@@ -22,7 +22,7 @@ public TextStyle()
 
 ---
 
-## TextStyle constructor (2 of 4)
+## TextStyle(float, FontStyles) {#constructor_3}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with the default font and specified font size and style.
 
@@ -44,7 +44,7 @@ public TextStyle(float fontSize, FontStyles fontStyle)
 
 ---
 
-## TextStyle constructor (3 of 4)
+## TextStyle(FontStyles) {#constructor_2}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with the default font and specified font style.
 
@@ -65,7 +65,7 @@ public TextStyle(FontStyles fontStyle)
 
 ---
 
-## TextStyle constructor (4 of 4)
+## TextStyle(FontDescriptor) {#constructor_1}
 
 Initializes a new instance of the [`TextStyle`](../../textstyle) class with the specified font settings.
 

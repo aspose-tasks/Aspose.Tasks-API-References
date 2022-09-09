@@ -1,7 +1,7 @@
 ---
 title: ApplicationInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the project version where the file was created.
 type: docs
 weight: 10
 url: /net/aspose.tasks/applicationinfo/

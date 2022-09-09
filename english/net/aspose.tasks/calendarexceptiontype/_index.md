@@ -1,7 +1,7 @@
 ---
 title: CalendarExceptionType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the calendar exception type.
 type: docs
 weight: 260
 url: /net/aspose.tasks/calendarexceptiontype/

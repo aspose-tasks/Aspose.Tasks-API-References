@@ -1,7 +1,7 @@
 ---
 title: EndDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a date to finish rendering to.
 type: docs
 weight: 40
 url: /net/aspose.tasks.saving/saveoptions/enddate/

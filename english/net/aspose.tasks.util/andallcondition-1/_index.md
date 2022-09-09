@@ -1,9 +1,9 @@
 ---
 title: AndAllConditionT
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Applies logical AND to all conditions. For example cond1 AND cond2 AND cond3...
 type: docs
-weight: 2320
+weight: 2330
 url: /net/aspose.tasks.util/andallcondition-1/
 ---
 ## AndAllCondition&lt;T&gt; class

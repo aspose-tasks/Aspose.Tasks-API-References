@@ -1,7 +1,7 @@
 ---
 title: WBSCodeDefinition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets WBS Code Definition for the project.
 type: docs
 weight: 240
 url: /net/aspose.tasks/project/wbscodedefinition/

@@ -1,7 +1,7 @@
 ---
 title: ValueToUnits
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets Double instance which represents string value of this object for unitbased time phased data.
 type: docs
 weight: 130
 url: /net/aspose.tasks/timephaseddata/valuetounits/

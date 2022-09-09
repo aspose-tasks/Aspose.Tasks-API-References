@@ -1,7 +1,7 @@
 ---
 title: Permissions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the permissions.
 type: docs
 weight: 40
 url: /net/aspose.tasks.saving/pdfencryptiondetails/permissions/

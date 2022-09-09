@@ -1,7 +1,7 @@
 ---
 title: StartShapeColor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a color of the start shape.
 type: docs
 weight: 230
 url: /net/aspose.tasks.visualization/ganttbarstyle/startshapecolor/

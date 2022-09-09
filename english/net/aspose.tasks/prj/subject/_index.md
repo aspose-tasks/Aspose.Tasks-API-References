@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The subject of a project.
 type: docs
 weight: 690
 url: /net/aspose.tasks/prj/subject/

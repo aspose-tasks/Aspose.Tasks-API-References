@@ -1,7 +1,7 @@
 ---
 title: GroupCriteria
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a GroupCriteria collection representing the fields in a group definition.
 type: docs
 weight: 20
 url: /net/aspose.tasks/group/groupcriteria/

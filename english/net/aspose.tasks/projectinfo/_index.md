@@ -1,7 +1,7 @@
 ---
 title: ProjectInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Brief info about the published project available on Project Online.
 type: docs
 weight: 1210
 url: /net/aspose.tasks/projectinfo/

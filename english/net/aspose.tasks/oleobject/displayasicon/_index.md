@@ -1,7 +1,7 @@
 ---
 title: DisplayAsIcon
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a flag indicating that OLE object should be shown either as an icon or as its regular picture.
 type: docs
 weight: 40
 url: /net/aspose.tasks/oleobject/displayasicon/

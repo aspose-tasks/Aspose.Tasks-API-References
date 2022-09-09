@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns true if the specified item is found in this collection otherwise false.
 type: docs
 weight: 60
 url: /net/aspose.tasks/outlinevaluecollection/contains/

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the name of a Filter object.
 type: docs
 weight: 50
 url: /net/aspose.tasks/filter/name/

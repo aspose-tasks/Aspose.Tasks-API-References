@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a name of the property.
 type: docs
 weight: 10
 url: /net/aspose.tasks.properties/property/name/

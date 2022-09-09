@@ -1,7 +1,7 @@
 ---
 title: Find
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Finds a task which satisfy the condition in a tree of tasks.
 type: docs
 weight: 30
 url: /net/aspose.tasks.util/taskutils/find/

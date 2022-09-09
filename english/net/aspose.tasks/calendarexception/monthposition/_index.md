@@ -1,7 +1,7 @@
 ---
 title: MonthPosition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the position of a month item within a month.
 type: docs
 weight: 90
 url: /net/aspose.tasks/calendarexception/monthposition/

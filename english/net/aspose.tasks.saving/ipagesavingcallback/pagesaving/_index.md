@@ -1,7 +1,7 @@
 ---
 title: PageSaving
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The method to be called when a page is saved to a stream.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/ipagesavingcallback/pagesaving/

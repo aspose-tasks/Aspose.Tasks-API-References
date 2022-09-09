@@ -1,7 +1,7 @@
 ---
 title: NumericValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value for attributes with numeric types Cost Number.
 type: docs
 weight: 70
 url: /net/aspose.tasks/extendedattribute/numericvalue/

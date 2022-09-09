@@ -1,7 +1,7 @@
 ---
 title: DurationFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The format for expressing the bulk duration.
 type: docs
 weight: 290
 url: /net/aspose.tasks/prj/durationformat/

@@ -1,7 +1,7 @@
 ---
 title: ConfidenceLevel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates. The default value is CL99.
 type: docs
 weight: 20
 url: /net/aspose.tasks.riskanalysis/riskpattern/confidencelevel/

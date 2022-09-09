@@ -1,7 +1,7 @@
 ---
 title: HelpContextId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a project Help Context Id
 type: docs
 weight: 30
 url: /net/aspose.tasks/vbaproject/helpcontextid/

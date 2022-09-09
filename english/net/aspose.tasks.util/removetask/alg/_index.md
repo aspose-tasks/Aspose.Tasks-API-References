@@ -1,7 +1,7 @@
 ---
 title: Alg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Do nothing.
 type: docs
 weight: 20
 url: /net/aspose.tasks.util/removetask/alg/

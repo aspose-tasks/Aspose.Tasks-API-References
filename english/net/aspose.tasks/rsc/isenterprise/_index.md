@@ -1,7 +1,7 @@
 ---
 title: IsEnterprise
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Shows whether a resource is from the enterprise resource pool true or the local resource pool false.
 type: docs
 weight: 400
 url: /net/aspose.tasks/rsc/isenterprise/

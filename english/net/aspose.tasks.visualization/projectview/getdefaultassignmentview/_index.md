@@ -1,7 +1,7 @@
 ---
 title: GetDefaultAssignmentView
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Includes Uid task name resource name work and duration assignment columns.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/projectview/getdefaultassignmentview/

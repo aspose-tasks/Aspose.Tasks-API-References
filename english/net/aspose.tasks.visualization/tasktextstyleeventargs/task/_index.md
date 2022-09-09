@@ -1,7 +1,7 @@
 ---
 title: Task
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets Taskaspose.tasks.visualization/tasktextstyleeventargs/task which corresponds to the currently rendered row.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/tasktextstyleeventargs/task/

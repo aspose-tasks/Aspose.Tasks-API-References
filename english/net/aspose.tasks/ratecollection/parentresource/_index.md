@@ -1,7 +1,7 @@
 ---
 title: ParentResource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent Resourceaspose.tasks/resource object for this collection.
 type: docs
 weight: 40
 url: /net/aspose.tasks/ratecollection/parentresource/

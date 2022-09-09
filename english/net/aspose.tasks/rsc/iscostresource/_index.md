@@ -1,7 +1,7 @@
 ---
 title: IsCostResource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a resource is a cost resource.
 type: docs
 weight: 390
 url: /net/aspose.tasks/rsc/iscostresource/

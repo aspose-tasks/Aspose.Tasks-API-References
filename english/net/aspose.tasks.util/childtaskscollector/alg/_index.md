@@ -1,7 +1,7 @@
 ---
 title: Alg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Processes the specified object.
 type: docs
 weight: 30
 url: /net/aspose.tasks.util/childtaskscollector/alg/

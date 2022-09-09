@@ -1,7 +1,7 @@
 ---
 title: AdminProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a project is an administrative project.
 type: docs
 weight: 20
 url: /net/aspose.tasks/prj/adminproject/

@@ -1,7 +1,7 @@
 ---
 title: PageSettings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets an instance of the PageSettingsaspose.tasks.visualization/pageinfo/pagesettings class which specifies page printing settings.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/pageinfo/pagesettings/

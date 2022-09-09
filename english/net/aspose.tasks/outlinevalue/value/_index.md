@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the actual value.
 type: docs
 weight: 70
 url: /net/aspose.tasks/outlinevalue/value/

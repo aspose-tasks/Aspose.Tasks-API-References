@@ -1,7 +1,7 @@
 ---
 title: CostPerUse
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The cost that accrues every time that a resource is used.
 type: docs
 weight: 240
 url: /net/aspose.tasks/rsc/costperuse/

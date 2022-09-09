@@ -1,7 +1,7 @@
 ---
 title: GroupOn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the type of grouping.
 type: docs
 weight: 740
 url: /net/aspose.tasks/groupon/

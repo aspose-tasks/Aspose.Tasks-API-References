@@ -1,7 +1,7 @@
 ---
 title: SetDefaultWorkingTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Sets default time periods for the specified week day.
 type: docs
 weight: 130
 url: /net/aspose.tasks/weekday/setdefaultworkingtime/

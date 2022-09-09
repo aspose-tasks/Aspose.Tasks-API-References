@@ -1,7 +1,7 @@
 ---
 title: PeakUnits
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The maximum number of units that a resource is assigned for a task.
 type: docs
 weight: 390
 url: /net/aspose.tasks/asn/peakunits/

@@ -1,7 +1,7 @@
 ---
 title: TextStyles
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a list of TextStyleaspose.tasks.visualization/textstyle of the Gantt Chart view.
 type: docs
 weight: 170
 url: /net/aspose.tasks/ganttchartview/textstyles/

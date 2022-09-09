@@ -1,7 +1,7 @@
 ---
 title: YearlyDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a date for the yearly recurrence pattern.
 type: docs
 weight: 180
 url: /net/aspose.tasks/recurringtaskinfo/yearlydate/

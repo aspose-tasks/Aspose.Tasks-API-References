@@ -1,7 +1,7 @@
 ---
 title: MonthlyRepetitions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a number of repetitions for the monthly recurrence pattern.
 type: docs
 weight: 90
 url: /net/aspose.tasks/recurringtaskinfo/monthlyrepetitions/

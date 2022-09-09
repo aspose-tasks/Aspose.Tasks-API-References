@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets size of the font.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/fontdescriptor/size/

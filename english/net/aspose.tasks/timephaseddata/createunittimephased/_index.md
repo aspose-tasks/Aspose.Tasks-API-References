@@ -1,7 +1,7 @@
 ---
 title: CreateUnitTimephased
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates and initializes a new instance of the TimephasedDataaspose.tasks/timephaseddata class for unitbased time phased data of an assignment of a material resource.
 type: docs
 weight: 30
 url: /net/aspose.tasks/timephaseddata/createunittimephased/

@@ -1,7 +1,7 @@
 ---
 title: CreateDefaultWorkingDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Creates default working day.
 type: docs
 weight: 20
 url: /net/aspose.tasks/weekday/createdefaultworkingday/

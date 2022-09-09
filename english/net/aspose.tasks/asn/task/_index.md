@@ -1,7 +1,7 @@
 ---
 title: Task
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The task to which a resource is assigned.
 type: docs
 weight: 550
 url: /net/aspose.tasks/asn/task/

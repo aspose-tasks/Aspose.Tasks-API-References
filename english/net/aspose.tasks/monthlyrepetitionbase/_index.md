@@ -1,7 +1,7 @@
 ---
 title: MonthlyRepetitionBase
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a base pattern for monthly day position.
 type: docs
 weight: 950
 url: /net/aspose.tasks/monthlyrepetitionbase/

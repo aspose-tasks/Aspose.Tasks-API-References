@@ -1,7 +1,7 @@
 ---
 title: IterationsCount
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the number of iterations to use in Monte Carlo simulation. The default value is 100.
 type: docs
 weight: 20
 url: /net/aspose.tasks.riskanalysis/riskanalysissettings/iterationscount/

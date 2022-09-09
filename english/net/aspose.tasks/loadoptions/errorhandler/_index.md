@@ -1,7 +1,7 @@
 ---
 title: ErrorHandler
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a callback method to handle xml parse errors.
 type: docs
 weight: 30
 url: /net/aspose.tasks/loadoptions/errorhandler/

@@ -1,7 +1,7 @@
 ---
 title: ShowTimescale
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to show timescale.
 type: docs
 weight: 60
 url: /net/aspose.tasks/timelineview/showtimescale/

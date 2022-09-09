@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the label of the inserted object.
 type: docs
 weight: 80
 url: /net/aspose.tasks/oleobject/label/

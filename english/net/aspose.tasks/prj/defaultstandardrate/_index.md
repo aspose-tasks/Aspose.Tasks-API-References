@@ -1,7 +1,7 @@
 ---
 title: DefaultStandardRate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The default standard rate for new resources.
 type: docs
 weight: 250
 url: /net/aspose.tasks/prj/defaultstandardrate/

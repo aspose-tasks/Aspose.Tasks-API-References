@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Removes task link from a project.
 type: docs
 weight: 60
 url: /net/aspose.tasks/tasklinkcollection/remove/

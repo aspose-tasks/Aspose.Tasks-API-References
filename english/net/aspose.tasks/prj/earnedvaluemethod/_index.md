@@ -1,7 +1,7 @@
 ---
 title: EarnedValueMethod
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The default method for calculating earned value.
 type: docs
 weight: 300
 url: /net/aspose.tasks/prj/earnedvaluemethod/

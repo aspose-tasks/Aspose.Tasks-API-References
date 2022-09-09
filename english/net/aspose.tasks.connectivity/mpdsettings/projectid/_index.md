@@ -1,7 +1,7 @@
 ---
 title: ProjectId
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets id of the project to read.
 type: docs
 weight: 20
 url: /net/aspose.tasks.connectivity/mpdsettings/projectid/

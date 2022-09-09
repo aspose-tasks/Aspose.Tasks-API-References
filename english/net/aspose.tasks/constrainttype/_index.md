@@ -1,7 +1,7 @@
 ---
 title: ConstraintType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the constraint on the start or finish date of a task.
 type: docs
 weight: 320
 url: /net/aspose.tasks/constrainttype/

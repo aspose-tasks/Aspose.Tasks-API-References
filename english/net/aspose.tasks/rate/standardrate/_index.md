@@ -1,7 +1,7 @@
 ---
 title: StandardRate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the standard rate per hour for a resource.
 type: docs
 weight: 70
 url: /net/aspose.tasks/rate/standardrate/

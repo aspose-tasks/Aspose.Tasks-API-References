@@ -1,7 +1,7 @@
 ---
 title: UseGradientBrush
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether gradient brush should be used when rendering Gantt Chart.
 type: docs
 weight: 210
 url: /net/aspose.tasks.saving/saveoptions/usegradientbrush/

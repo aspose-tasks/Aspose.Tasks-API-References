@@ -1,9 +1,9 @@
 ---
 title: GridlineType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Type of gridline.
 type: docs
-weight: 2750
+weight: 2770
 url: /net/aspose.tasks.visualization/gridlinetype/
 ---
 ## GridlineType enumeration

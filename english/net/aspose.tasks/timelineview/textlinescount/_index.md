@@ -1,7 +1,7 @@
 ---
 title: TextLinesCount
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating how many lines are used to display task in a timeline.
 type: docs
 weight: 80
 url: /net/aspose.tasks/timelineview/textlinescount/

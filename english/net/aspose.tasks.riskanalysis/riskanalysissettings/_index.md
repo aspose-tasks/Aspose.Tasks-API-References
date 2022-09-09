@@ -1,7 +1,7 @@
 ---
 title: RiskAnalysisSettings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies settings for performing risk analysis.
 type: docs
 weight: 1610
 url: /net/aspose.tasks.riskanalysis/riskanalysissettings/

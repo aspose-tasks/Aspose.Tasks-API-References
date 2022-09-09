@@ -1,7 +1,7 @@
 ---
 title: ItemType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets TextItemTypeaspose.tasks.visualization/textitemtype of the text style.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/textstyle/itemtype/

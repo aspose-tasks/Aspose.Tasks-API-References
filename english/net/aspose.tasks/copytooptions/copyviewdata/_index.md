@@ -1,7 +1,7 @@
 ---
 title: CopyViewData
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to copy view data while copying project data. Default value is true.
 type: docs
 weight: 20
 url: /net/aspose.tasks/copytooptions/copyviewdata/

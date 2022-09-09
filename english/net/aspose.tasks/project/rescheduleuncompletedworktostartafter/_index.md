@@ -1,12 +1,12 @@
 ---
 title: RescheduleUncompletedWorkToStartAfter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Reschedules uncompleted project work to start after a specified date.
 type: docs
 weight: 390
 url: /net/aspose.tasks/project/rescheduleuncompletedworktostartafter/
 ---
-## Project.RescheduleUncompletedWorkToStartAfter method (1 of 2)
+## RescheduleUncompletedWorkToStartAfter(DateTime) {#rescheduleuncompletedworktostartafter}
 
 Reschedules uncompleted project work to start after a specified date.
 
@@ -30,7 +30,7 @@ Ensure that Project.CanSplitsInProgressTasks flag is set to true before using th
 
 ---
 
-## Project.RescheduleUncompletedWorkToStartAfter method (2 of 2)
+## RescheduleUncompletedWorkToStartAfter(DateTime, List&lt;Task&gt;) {#rescheduleuncompletedworktostartafter_1}
 
 Reschedules uncompleted work for a specified list of tasks to start after a specified date.
 

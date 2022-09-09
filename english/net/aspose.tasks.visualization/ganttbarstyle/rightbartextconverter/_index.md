@@ -1,7 +1,7 @@
 ---
 title: RightBarTextConverter
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets userdefined converter to get text to render on the right of the tasks bar. Overrides the value of RightFieldaspose.tasks.visualization/ganttbarstyle/rightfield property.
 type: docs
 weight: 170
 url: /net/aspose.tasks.visualization/ganttbarstyle/rightbartextconverter/

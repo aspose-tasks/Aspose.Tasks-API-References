@@ -1,7 +1,7 @@
 ---
 title: StartAt
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the start of the intervals for a field used as a criterion in a group definition.
 type: docs
 weight: 120
 url: /net/aspose.tasks/groupcriterion/startat/

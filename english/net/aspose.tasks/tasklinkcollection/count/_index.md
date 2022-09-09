@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the number of objects contained in this TaskLinkCollectionaspose.tasks/tasklinkcollection object.
 type: docs
 weight: 10
 url: /net/aspose.tasks/tasklinkcollection/count/

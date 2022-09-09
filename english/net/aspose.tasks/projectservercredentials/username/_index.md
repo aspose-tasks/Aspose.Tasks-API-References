@@ -1,7 +1,7 @@
 ---
 title: UserName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the user name for SharePoint site.
 type: docs
 weight: 40
 url: /net/aspose.tasks/projectservercredentials/username/

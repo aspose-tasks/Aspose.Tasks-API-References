@@ -1,7 +1,7 @@
 ---
 title: WorkingTimes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets WorkingTimeCollection for this WeekDay instance. The collection of working times that define the time worked on the weekday.
 type: docs
 weight: 70
 url: /net/aspose.tasks/weekday/workingtimes/

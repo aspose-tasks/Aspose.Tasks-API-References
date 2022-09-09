@@ -1,7 +1,7 @@
 ---
 title: TasksLoggedException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the standard internal exception type.
 type: docs
 weight: 2210
 url: /net/aspose.tasks/tasksloggedexception/

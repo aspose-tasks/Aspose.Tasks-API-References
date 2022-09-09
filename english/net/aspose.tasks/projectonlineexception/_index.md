@@ -1,7 +1,7 @@
 ---
 title: ProjectOnlineException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an exception which is thrown when errors are found during interaction with Project Online or Project Server instance.
 type: docs
 weight: 1220
 url: /net/aspose.tasks/projectonlineexception/

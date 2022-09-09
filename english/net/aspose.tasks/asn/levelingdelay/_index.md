@@ -1,7 +1,7 @@
 ---
 title: LevelingDelay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The delay caused by leveling.
 type: docs
 weight: 310
 url: /net/aspose.tasks/asn/levelingdelay/

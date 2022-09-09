@@ -1,7 +1,7 @@
 ---
 title: MonthlyDayDayNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the day number of monthly progress lines.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/recurringinterval/monthlydaydaynumber/

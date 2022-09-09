@@ -1,7 +1,7 @@
 ---
 title: Unit
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets timescale unit TimescaleUnitaspose.tasks.visualization/timescaleunit for the timescale tier. The default value is Daysaspose.tasks.visualization/timescaleunit.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/timescaletier/unit/

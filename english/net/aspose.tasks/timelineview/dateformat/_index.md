@@ -1,7 +1,7 @@
 ---
 title: DateFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating how to format dates on the Timeline view.
 type: docs
 weight: 20
 url: /net/aspose.tasks/timelineview/dateformat/

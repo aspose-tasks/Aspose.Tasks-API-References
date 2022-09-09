@@ -1,7 +1,7 @@
 ---
 title: PostAlg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Do nothing.
 type: docs
 weight: 30
 url: /net/aspose.tasks.util/removetask/postalg/

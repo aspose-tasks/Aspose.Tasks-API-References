@@ -1,7 +1,7 @@
 ---
 title: MakeNightShiftCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Makes a given Calendar as Night Shift Calendar.
 type: docs
 weight: 20
 url: /net/aspose.tasks/calendar/makenightshiftcalendar/

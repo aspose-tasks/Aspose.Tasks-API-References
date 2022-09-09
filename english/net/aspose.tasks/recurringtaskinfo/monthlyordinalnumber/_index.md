@@ -1,7 +1,7 @@
 ---
 title: MonthlyOrdinalNumber
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets an ordinal number of the monthly recurrence pattern. Can be one of the values of OrdinalNumberaspose.tasks/ordinalnumber enumeration.
 type: docs
 weight: 70
 url: /net/aspose.tasks/recurringtaskinfo/monthlyordinalnumber/

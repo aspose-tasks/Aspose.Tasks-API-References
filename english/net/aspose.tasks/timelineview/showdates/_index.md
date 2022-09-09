@@ -1,7 +1,7 @@
 ---
 title: ShowDates
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether to show dates.
 type: docs
 weight: 40
 url: /net/aspose.tasks/timelineview/showdates/

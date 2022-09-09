@@ -1,7 +1,7 @@
 ---
 title: Timescale
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the Timescaleaspose.tasks.saving/saveoptions/timescale value which is used to control how timescale if present is rendered when project is saved to graphical format.
 type: docs
 weight: 200
 url: /net/aspose.tasks.saving/saveoptions/timescale/

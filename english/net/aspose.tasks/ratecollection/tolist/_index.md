@@ -1,12 +1,12 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the RateCollectionaspose.tasks/ratecollection object to a list of Rateaspose.tasks/rate objects.
 type: docs
 weight: 80
 url: /net/aspose.tasks/ratecollection/tolist/
 ---
-## RateCollection.ToList method (1 of 2)
+## ToList() {#tolist}
 
 Converts the [`RateCollection`](../../ratecollection) object to a list of [`Rate`](../../rate) objects.
 
@@ -27,7 +27,7 @@ List of [`Rate`](../../rate) objects.
 
 ---
 
-## RateCollection.ToList method (2 of 2)
+## ToList(RateType) {#tolist_1}
 
 Converts the [`RateCollection`](../../ratecollection) object to a list of [`Rate`](../../rate) objects filtered by specified [`RateType`](../../ratetype) type.
 

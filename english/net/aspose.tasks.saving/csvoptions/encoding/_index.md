@@ -1,7 +1,7 @@
 ---
 title: Encoding
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets an encoding to save CSV with.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/csvoptions/encoding/

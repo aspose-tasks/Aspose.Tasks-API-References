@@ -1,7 +1,7 @@
 ---
 title: ByMonthWeekDayRepetition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a pattern which is based on the position of weekday in a month.
 type: docs
 weight: 170
 url: /net/aspose.tasks/bymonthweekdayrepetition/

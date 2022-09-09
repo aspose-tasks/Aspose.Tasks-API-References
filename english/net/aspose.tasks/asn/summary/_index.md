@@ -1,7 +1,7 @@
 ---
 title: Summary
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the task is a summary task.
 type: docs
 weight: 530
 url: /net/aspose.tasks/asn/summary/

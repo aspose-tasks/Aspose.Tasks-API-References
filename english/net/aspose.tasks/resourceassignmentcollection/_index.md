@@ -1,7 +1,7 @@
 ---
 title: ResourceAssignmentCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a collection of ResourceAssignment./resourceassignment objects.
 type: docs
 weight: 1500
 url: /net/aspose.tasks/resourceassignmentcollection/
@@ -27,10 +27,10 @@ public class ResourceAssignmentCollection : IList<ResourceAssignment>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add)(ResourceAssignment) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add)(Task, Resource) | Adds new assignment to the ResourceAssignmentCollection. |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add)(Task, Resource, decimal) | Adds new assignment to the ResourceAssignmentCollection. |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add)(Task, Resource, double) | Adds new assignment to the ResourceAssignmentCollection. |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_3)(ResourceAssignment) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add#add)(Task, Resource) | Adds new assignment to the ResourceAssignmentCollection. |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_2)(Task, Resource, decimal) | Adds new assignment to the ResourceAssignmentCollection. |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_1)(Task, Resource, double) | Adds new assignment to the ResourceAssignmentCollection. |
 | [GetByUid](../../aspose.tasks/resourceassignmentcollection/getbyuid)(int) | Returns an assignment with the specified uid. |
 | [GetEnumerator](../../aspose.tasks/resourceassignmentcollection/getenumerator)() | Returns an enumerator for this collection. |
 | [Remove](../../aspose.tasks/resourceassignmentcollection/remove)(ResourceAssignment) | Removes specified assignment from collection, if it is not read-only, otherwise throws NotSupportedException. |

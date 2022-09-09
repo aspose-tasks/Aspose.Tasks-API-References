@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the ResourceAssignmentCollection object to a list of ResourceAssignmentaspose.tasks/resourceassignment objects.
 type: docs
 weight: 100
 url: /net/aspose.tasks/resourceassignmentcollection/tolist/

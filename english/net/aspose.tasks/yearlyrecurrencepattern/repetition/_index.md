@@ -1,7 +1,7 @@
 ---
 title: Repetition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the recurring position pattern.
 type: docs
 weight: 20
 url: /net/aspose.tasks/yearlyrecurrencepattern/repetition/

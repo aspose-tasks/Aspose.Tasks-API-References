@@ -1,7 +1,7 @@
 ---
 title: AppendNewValues
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether new values added to a project are automatically added to the list.
 type: docs
 weight: 60
 url: /net/aspose.tasks/extendedattributedefinition/appendnewvalues/

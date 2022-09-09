@@ -1,7 +1,7 @@
 ---
 title: ValueGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the GUID of the value in the value list. The ValueGuid matches the FieldGuid in the value list.
 type: docs
 weight: 30
 url: /net/aspose.tasks/outlinecode/valueguid/

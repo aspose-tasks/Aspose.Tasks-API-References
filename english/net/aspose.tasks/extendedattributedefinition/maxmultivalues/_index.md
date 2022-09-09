@@ -1,7 +1,7 @@
 ---
 title: MaxMultiValues
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the maximum number of values you can set in a pick list.
 type: docs
 weight: 180
 url: /net/aspose.tasks/extendedattributedefinition/maxmultivalues/

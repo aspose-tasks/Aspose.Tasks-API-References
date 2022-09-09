@@ -1,7 +1,7 @@
 ---
 title: SummaryRowsCalculationType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the type of calculation of the custom attributes value for summary rows.
 type: docs
 weight: 250
 url: /net/aspose.tasks/extendedattributedefinition/summaryrowscalculationtype/

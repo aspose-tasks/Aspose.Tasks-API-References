@@ -1,7 +1,7 @@
 ---
 title: IsRollup
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether information about the subtask Gantt bars will be rolled up to the summary task bar.
 type: docs
 weight: 690
 url: /net/aspose.tasks/tsk/isrollup/

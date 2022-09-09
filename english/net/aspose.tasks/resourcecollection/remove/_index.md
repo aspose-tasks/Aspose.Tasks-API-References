@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: This is the stub implementation of ICollections Remove method that only throws NotSupportedException
 type: docs
 weight: 90
 url: /net/aspose.tasks/resourcecollection/remove/

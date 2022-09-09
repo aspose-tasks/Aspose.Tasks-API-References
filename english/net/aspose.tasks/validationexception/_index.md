@@ -1,9 +1,9 @@
 ---
 title: ValidationException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an exception which is thrown when errors are found during validation of entity.
 type: docs
-weight: 2440
+weight: 2460
 url: /net/aspose.tasks/validationexception/
 ---
 ## ValidationException class

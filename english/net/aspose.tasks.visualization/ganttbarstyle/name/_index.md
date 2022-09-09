@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a name of the style.
 type: docs
 weight: 150
 url: /net/aspose.tasks.visualization/ganttbarstyle/name/

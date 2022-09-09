@@ -1,9 +1,9 @@
 ---
 title: WBSCodeMask
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents WBS Code mask.
 type: docs
-weight: 3110
+weight: 3130
 url: /net/aspose.tasks/wbscodemask/
 ---
 ## WBSCodeMask class

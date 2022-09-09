@@ -1,7 +1,7 @@
 ---
 title: ProjectUid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the UID of a project to read from file containing multiple projects.
 type: docs
 weight: 10
 url: /net/aspose.tasks/primaveraxmlreadingoptions/projectuid/

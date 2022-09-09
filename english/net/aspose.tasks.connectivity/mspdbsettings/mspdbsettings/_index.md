@@ -1,7 +1,7 @@
 ---
 title: MspDbSettings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the MspDbSettingsaspose.tasks.connectivity/mspdbsettings class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.connectivity/mspdbsettings/mspdbsettings/

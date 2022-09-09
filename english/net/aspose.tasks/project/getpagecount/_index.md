@@ -1,12 +1,12 @@
 ---
 title: GetPageCount
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns page count for the project to be rendered using given SaveOptionsaspose.tasks.saving/saveoptions.
 type: docs
 weight: 300
 url: /net/aspose.tasks/project/getpagecount/
 ---
-## Project.GetPageCount method (1 of 7)
+## GetPageCount(SaveOptions) {#getpagecount_1}
 
 Returns page count for the project to be rendered using given [`SaveOptions`](../../../aspose.tasks.saving/saveoptions).
 
@@ -51,7 +51,7 @@ Console.WriteLine(project.GetPageCount(saveOptions));
 
 ---
 
-## Project.GetPageCount method (2 of 7)
+## GetPageCount() {#getpagecount}
 
 Returns page count for the project to be rendered using default [`Timescale`](../../../aspose.tasks.visualization/timescale)(Days).
 
@@ -71,7 +71,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (3 of 7)
+## GetPageCount(Timescale) {#getpagecount_6}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale).
 
@@ -96,7 +96,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (4 of 7)
+## GetPageCount(PresentationFormat) {#getpagecount_4}
 
 Returns page count for the project to be rendered using default [`Timescale`](../../../aspose.tasks.visualization/timescale)(Days) and given [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
 
@@ -121,7 +121,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (5 of 7)
+## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale) and [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat).
 
@@ -148,7 +148,7 @@ a page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (6 of 7)
+## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale), [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) and date range.
 
@@ -177,7 +177,7 @@ Page count to be rendered.
 
 ---
 
-## Project.GetPageCount method (7 of 7)
+## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
 Returns page count for the project to be rendered using given [`Timescale`](../../../aspose.tasks.visualization/timescale) and [`PageSize`](../../../aspose.tasks.visualization/pagesize).
 

@@ -1,7 +1,7 @@
 ---
 title: CfType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the type of a custom field.
 type: docs
 weight: 90
 url: /net/aspose.tasks/extendedattributedefinition/cftype/

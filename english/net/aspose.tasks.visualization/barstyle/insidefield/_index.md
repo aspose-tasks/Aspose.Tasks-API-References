@@ -1,7 +1,7 @@
 ---
 title: InsideField
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a field to be displayed inside of the bar.
 type: docs
 weight: 90
 url: /net/aspose.tasks.visualization/barstyle/insidefield/

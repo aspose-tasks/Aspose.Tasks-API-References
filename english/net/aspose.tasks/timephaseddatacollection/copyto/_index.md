@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Copies the elements of the TimephasedDataCollectionaspose.tasks/timephaseddatacollection to an Array starting at a particular Array index.
 type: docs
 weight: 90
 url: /net/aspose.tasks/timephaseddatacollection/copyto/

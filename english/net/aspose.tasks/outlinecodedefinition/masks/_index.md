@@ -1,7 +1,7 @@
 ---
 title: Masks
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the OutlineMaskCollection object. The table of entries that define the outline code mask. Readonly OutlineMaskCollectionaspose.tasks/outlinemaskcollection instance.
 type: docs
 weight: 100
 url: /net/aspose.tasks/outlinecodedefinition/masks/

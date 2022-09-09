@@ -1,7 +1,7 @@
 ---
 title: CanLevel
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether resource leveling can be done on a resource.
 type: docs
 weight: 200
 url: /net/aspose.tasks/rsc/canlevel/

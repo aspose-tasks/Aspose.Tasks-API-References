@@ -1,9 +1,9 @@
 ---
 title: MakeTPs
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Generates a list of time phased data.
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.tasks/resourceassignment/maketps/
 ---
 ## ResourceAssignment.MakeTPs method

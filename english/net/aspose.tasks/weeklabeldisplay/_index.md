@@ -1,9 +1,9 @@
 ---
 title: WeekLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies how the week label displays.
 type: docs
-weight: 3170
+weight: 3190
 url: /net/aspose.tasks/weeklabeldisplay/
 ---
 ## WeekLabelDisplay enumeration

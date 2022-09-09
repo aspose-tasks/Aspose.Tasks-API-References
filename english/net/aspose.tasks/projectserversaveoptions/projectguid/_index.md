@@ -1,7 +1,7 @@
 ---
 title: ProjectGuid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets unique identifier of a project. Should be unique within Project Server  Project Online instance.
 type: docs
 weight: 30
 url: /net/aspose.tasks/projectserversaveoptions/projectguid/

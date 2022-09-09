@@ -1,7 +1,7 @@
 ---
 title: PaperSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a paper size. Can be one of the values of the PrinterPaperSizeaspose.tasks.visualization/printerpapersize enumeration.
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/pagesettings/papersize/

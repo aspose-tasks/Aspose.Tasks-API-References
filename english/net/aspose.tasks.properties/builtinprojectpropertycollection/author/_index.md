@@ -1,7 +1,7 @@
 ---
 title: Author
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the author of a project.
 type: docs
 weight: 10
 url: /net/aspose.tasks.properties/builtinprojectpropertycollection/author/

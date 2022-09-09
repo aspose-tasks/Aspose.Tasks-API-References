@@ -1,12 +1,12 @@
 ---
 title: ProjectServerCredentials
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the ProjectServerCredentialsaspose.tasks/projectservercredentials class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoints PWA Project Web Access site.
 type: docs
 weight: 10
 url: /net/aspose.tasks/projectservercredentials/projectservercredentials/
 ---
-## ProjectServerCredentials constructor (1 of 3)
+## ProjectServerCredentials(string, string) {#constructor_1}
 
 Initializes a new instance of the [`ProjectServerCredentials`](../../projectservercredentials) class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoint's PWA (Project Web Access) site.
 
@@ -31,7 +31,7 @@ Use this constructor to connect to ProjectOnline when you already have AuthToken
 
 ---
 
-## ProjectServerCredentials constructor (2 of 3)
+## ProjectServerCredentials(string, string, string) {#constructor_2}
 
 Initializes a new instance of the [`ProjectServerCredentials`](../../projectservercredentials) class using URL of SharePoint site, user name and password.
 
@@ -57,7 +57,7 @@ Use this constructor to connect to ProjectOnline. Please note that legacy authen
 
 ---
 
-## ProjectServerCredentials constructor (3 of 3)
+## ProjectServerCredentials(string, NetworkCredential) {#constructor}
 
 Initializes a new instance of the [`ProjectServerCredentials`](../../projectservercredentials) class using URL of Project Web Access endpoint and network credentials.
 

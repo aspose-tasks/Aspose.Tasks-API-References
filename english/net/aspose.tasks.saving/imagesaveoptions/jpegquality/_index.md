@@ -1,7 +1,7 @@
 ---
 title: JpegQuality
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a JPEG quality. The allowed value range is 0..100.
 type: docs
 weight: 50
 url: /net/aspose.tasks.saving/imagesaveoptions/jpegquality/

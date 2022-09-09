@@ -1,7 +1,7 @@
 ---
 title: Guid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the Guid of an outline code.
 type: docs
 weight: 80
 url: /net/aspose.tasks/outlinecodedefinition/guid/

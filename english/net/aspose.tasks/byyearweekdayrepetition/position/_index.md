@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a position of the day in a week of a month on which the task must be recurring.
 type: docs
 weight: 30
 url: /net/aspose.tasks/byyearweekdayrepetition/position/

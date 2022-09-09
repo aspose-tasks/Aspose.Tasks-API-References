@@ -1,7 +1,7 @@
 ---
 title: GetWorkingTime
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns the working time for a calendar exception.
 type: docs
 weight: 200
 url: /net/aspose.tasks/calendarexception/getworkingtime/

@@ -1,7 +1,7 @@
 ---
 title: ActualFinish
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The actual finish date of an assignment.
 type: docs
 weight: 20
 url: /net/aspose.tasks/asn/actualfinish/

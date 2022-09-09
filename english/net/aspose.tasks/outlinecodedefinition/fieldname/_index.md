@@ -1,7 +1,7 @@
 ---
 title: FieldName
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the name of a custom outline code.
 type: docs
 weight: 70
 url: /net/aspose.tasks/outlinecodedefinition/fieldname/

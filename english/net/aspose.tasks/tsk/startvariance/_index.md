@@ -1,7 +1,7 @@
 ---
 title: StartVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The time that represents the difference between a baseline start date of a task or assignment and its currently scheduled start date.
 type: docs
 weight: 1050
 url: /net/aspose.tasks/tsk/startvariance/

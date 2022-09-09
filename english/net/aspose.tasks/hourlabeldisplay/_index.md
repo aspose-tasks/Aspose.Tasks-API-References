@@ -1,7 +1,7 @@
 ---
 title: HourLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies how the hour label displays.
 type: docs
 weight: 750
 url: /net/aspose.tasks/hourlabeldisplay/

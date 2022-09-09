@@ -1,12 +1,12 @@
 ---
 title: op_Implicit
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Implicitly converts a NullableBoolaspose.tasks/nullablebool instance to a boolean value. Returns true when Valueaspose.tasks/nullablebool/value is true and IsDefinedaspose.tasks/nullablebool/isdefined is true.
 type: docs
 weight: 80
 url: /net/aspose.tasks/nullablebool/op_implicit/
 ---
-## NullableBool Implicit operator (1 of 2)
+## implicit operator {#op_implicit_1}
 
 Implicitly converts a [`NullableBool`](../../nullablebool) instance to a boolean value. Returns true when [`Value`](../value) is true and [`IsDefined`](../isdefined) is true.
 
@@ -30,7 +30,7 @@ a boolean value.
 
 ---
 
-## NullableBool Implicit operator (2 of 2)
+## implicit operator {#op_implicit}
 
 Implicitly converts boolean value to the [`NullableBool`](../../nullablebool) instance.
 

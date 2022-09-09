@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a list which contains all items from this collection.
 type: docs
 weight: 20
 url: /net/aspose.tasks/taskusageviewfieldcollection/tolist/

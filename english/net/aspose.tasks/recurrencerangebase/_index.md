@@ -1,7 +1,7 @@
 ---
 title: RecurrenceRangeBase
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents the recurrence range of recurring task.
 type: docs
 weight: 1450
 url: /net/aspose.tasks/recurrencerangebase/

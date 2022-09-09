@@ -1,7 +1,7 @@
 ---
 title: ActualWork
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The actual amount of a work incurred on an assignment.
 type: docs
 weight: 70
 url: /net/aspose.tasks/asn/actualwork/

@@ -1,7 +1,7 @@
 ---
 title: ExpectedValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the expected value of the risk item.
 type: docs
 weight: 10
 url: /net/aspose.tasks.riskanalysis/riskitemstatistics/expectedvalue/

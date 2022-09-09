@@ -1,9 +1,9 @@
 ---
 title: GanttBarShowFor
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents categories of tasks used when customizing Bar Styles of Gantt chart.
 type: docs
-weight: 2700
+weight: 2720
 url: /net/aspose.tasks.visualization/ganttbarshowfor/
 ---
 ## GanttBarShowFor enumeration

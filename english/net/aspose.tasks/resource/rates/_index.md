@@ -1,9 +1,9 @@
 ---
 title: Rates
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a the instance of the RateCollectionaspose.tasks/ratecollection class for this object. The collection of periods and rates associated with each one.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks/resource/rates/
 ---
 ## Resource.Rates property

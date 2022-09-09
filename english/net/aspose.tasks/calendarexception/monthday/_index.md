@@ -1,7 +1,7 @@
 ---
 title: MonthDay
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the day of a month on which an exception recurrence is scheduled.
 type: docs
 weight: 70
 url: /net/aspose.tasks/calendarexception/monthday/

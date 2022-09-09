@@ -1,7 +1,7 @@
 ---
 title: ScheduleFromStart
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether to calculate the project schedule forward from the start date.
 type: docs
 weight: 620
 url: /net/aspose.tasks/prj/schedulefromstart/

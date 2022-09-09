@@ -1,7 +1,7 @@
 ---
 title: Header
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the instance of the HeaderFooterInfoaspose.tasks.visualization/headerfooterinfo class which represents a header data.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/pageinfo/header/

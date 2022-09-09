@@ -1,7 +1,7 @@
 ---
 title: CreationDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date and time when a project was created.
 type: docs
 weight: 120
 url: /net/aspose.tasks/prj/creationdate/

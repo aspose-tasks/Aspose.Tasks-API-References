@@ -1,7 +1,7 @@
 ---
 title: ItemType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets BarItemTypeaspose.tasks.visualization/baritemtype of the bar style.
 type: docs
 weight: 100
 url: /net/aspose.tasks.visualization/barstyle/itemtype/

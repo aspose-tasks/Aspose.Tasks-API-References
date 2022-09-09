@@ -1,7 +1,7 @@
 ---
 title: RemoveInvalidAssignments
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to remove invalid resource assignments when saving to MPP. MS Project creates an empty resource assignment for each task. Set this flag to true to remove them on save.
 type: docs
 weight: 30
 url: /net/aspose.tasks.saving/mppsaveoptions/removeinvalidassignments/

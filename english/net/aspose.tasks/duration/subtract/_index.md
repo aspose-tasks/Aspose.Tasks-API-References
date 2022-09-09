@@ -1,12 +1,12 @@
 ---
 title: Subtract
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Subtracts specified duration from this duration instance.
 type: docs
 weight: 100
 url: /net/aspose.tasks/duration/subtract/
 ---
-## Duration.Subtract method (1 of 2)
+## Subtract(Duration) {#subtract}
 
 Subtracts specified duration from this duration instance.
 
@@ -30,7 +30,7 @@ New duration object that represents the value of this instance minus the specifi
 
 ---
 
-## Duration.Subtract method (2 of 2)
+## Subtract(double) {#subtract_1}
 
 Subtracts specified double value from this duration instance.
 

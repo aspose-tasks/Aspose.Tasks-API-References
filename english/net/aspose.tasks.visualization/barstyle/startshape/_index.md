@@ -1,7 +1,7 @@
 ---
 title: StartShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Shapeaspose.tasks.visualization/shape at the beginning of the bar.
 type: docs
 weight: 150
 url: /net/aspose.tasks.visualization/barstyle/startshape/

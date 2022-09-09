@@ -1,7 +1,7 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a parent project for the ExtendedAttributeDefinitionCollectionaspose.tasks/extendedattributedefinitioncollection instance. returns a parent project for this collection.
 type: docs
 weight: 40
 url: /net/aspose.tasks/extendedattributedefinitioncollection/parentproject/

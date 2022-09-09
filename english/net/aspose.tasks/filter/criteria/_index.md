@@ -1,7 +1,7 @@
 ---
 title: Criteria
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the criteria that tasks or resources must meet to be displayed in MSP view.
 type: docs
 weight: 20
 url: /net/aspose.tasks/filter/criteria/

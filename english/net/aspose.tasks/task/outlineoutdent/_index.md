@@ -1,7 +1,7 @@
 ---
 title: OutlineOutdent
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Promotes a task in the outline.
 type: docs
 weight: 210
 url: /net/aspose.tasks/task/outlineoutdent/

@@ -1,7 +1,7 @@
 ---
 title: Attributes
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a collection of VbaModuleAttributeCollectionaspose.tasks/vbamoduleattributecollection
 type: docs
 weight: 10
 url: /net/aspose.tasks/ivbamodule/attributes/

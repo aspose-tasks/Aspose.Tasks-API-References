@@ -1,7 +1,7 @@
 ---
 title: IncludeProjectNameInTitle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to include project name in HTML title.
 type: docs
 weight: 130
 url: /net/aspose.tasks.saving/htmlsaveoptions/includeprojectnameintitle/

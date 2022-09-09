@@ -1,9 +1,9 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns short string representation of the instance of the Resourceaspose.tasks/resource class. The exact details of the representation are unspecified and subject to change.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.tasks/resource/tostring/
 ---
 ## Resource.ToString method

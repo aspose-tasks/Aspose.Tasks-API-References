@@ -1,7 +1,7 @@
 ---
 title: Parse
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the specified string to the instance of Durationaspose.tasks/duration struct.
 type: docs
 weight: 10
 url: /net/aspose.tasks/duration/parse/

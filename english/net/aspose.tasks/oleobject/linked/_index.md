@@ -1,7 +1,7 @@
 ---
 title: Linked
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value indicating whether the project file contains only a link to the actual data stored at the link source.
 type: docs
 weight: 90
 url: /net/aspose.tasks/oleobject/linked/

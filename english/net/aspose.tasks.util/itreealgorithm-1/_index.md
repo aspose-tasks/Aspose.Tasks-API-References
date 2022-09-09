@@ -1,9 +1,9 @@
 ---
 title: ITreeAlgorithmT
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents an algorithm that can be applied to a tree of objects T.
 type: docs
-weight: 2380
+weight: 2400
 url: /net/aspose.tasks.util/itreealgorithm-1/
 ---
 ## ITreeAlgorithm&lt;T&gt; interface

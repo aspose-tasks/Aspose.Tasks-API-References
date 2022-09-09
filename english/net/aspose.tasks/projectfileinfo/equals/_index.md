@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified object.
 type: docs
 weight: 50
 url: /net/aspose.tasks/projectfileinfo/equals/
 ---
-## ProjectFileInfo.Equals method (1 of 2)
+## Equals(ProjectFileInfo) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -30,7 +30,7 @@ returns true if the specified ProjectFileInfo and this instance have equal file 
 
 ---
 
-## ProjectFileInfo.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 

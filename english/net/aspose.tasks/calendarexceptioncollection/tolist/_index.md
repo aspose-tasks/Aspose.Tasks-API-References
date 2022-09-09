@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts the CalendarExceptionCollection object to a list of CalendarExceptionaspose.tasks/calendarexception objects.
 type: docs
 weight: 90
 url: /net/aspose.tasks/calendarexceptioncollection/tolist/

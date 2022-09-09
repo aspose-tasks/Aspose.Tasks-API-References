@@ -1,7 +1,7 @@
 ---
 title: WeekDays
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets week days.
 type: docs
 weight: 50
 url: /net/aspose.tasks/workweek/weekdays/

@@ -1,7 +1,7 @@
 ---
 title: ParentStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets parent or common style for custom taskspecific style.
 type: docs
 weight: 160
 url: /net/aspose.tasks.visualization/ganttbarstyle/parentstyle/

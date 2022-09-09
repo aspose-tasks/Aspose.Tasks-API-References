@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the index of a Table object in the Tables containing object.
 type: docs
 weight: 40
 url: /net/aspose.tasks/table/index/

@@ -1,7 +1,7 @@
 ---
 title: ActualStart
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date and time that a task actually began.
 type: docs
 weight: 80
 url: /net/aspose.tasks/tsk/actualstart/

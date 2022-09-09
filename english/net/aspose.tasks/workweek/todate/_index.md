@@ -1,7 +1,7 @@
 ---
 title: ToDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets Finish DateTime of work week
 type: docs
 weight: 40
 url: /net/aspose.tasks/workweek/todate/

@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts a WBSCodeMaskCollection to a list of WBSCodeMaskaspose.tasks/wbscodemask objects.
 type: docs
 weight: 90
 url: /net/aspose.tasks/wbscodemaskcollection/tolist/

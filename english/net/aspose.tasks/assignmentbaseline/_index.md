@@ -1,7 +1,7 @@
 ---
 title: AssignmentBaseline
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents Baseline of a resource assignment.
 type: docs
 weight: 50
 url: /net/aspose.tasks/assignmentbaseline/
@@ -38,11 +38,11 @@ public class AssignmentBaseline : Baseline, IComparable<AssignmentBaseline>,
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto)(AssignmentBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto#compareto)(AssignmentBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
 | [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [Equals](../../aspose.tasks/assignmentbaseline/equals)(AssignmentBaseline) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
+| [Equals](../../aspose.tasks/assignmentbaseline/equals#equals)(AssignmentBaseline) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
 | [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](../../aspose.tasks/assignmentbaseline/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/assignmentbaseline/equals#equals_2)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode)() |  |
 
 ### See Also

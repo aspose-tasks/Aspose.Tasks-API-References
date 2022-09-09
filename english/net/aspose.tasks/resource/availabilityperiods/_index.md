@@ -1,7 +1,7 @@
 ---
 title: AvailabilityPeriods
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a the instance of the AvailabilityPeriodCollectionaspose.tasks/availabilityperiodcollection class. The collection of periods during which a resource is available.
 type: docs
 weight: 20
 url: /net/aspose.tasks/resource/availabilityperiods/

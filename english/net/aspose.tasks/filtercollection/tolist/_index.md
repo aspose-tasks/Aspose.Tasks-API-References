@@ -1,7 +1,7 @@
 ---
 title: ToList
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Converts a filter collection to a list of Filteraspose.tasks/filter objects.
 type: docs
 weight: 100
 url: /net/aspose.tasks/filtercollection/tolist/

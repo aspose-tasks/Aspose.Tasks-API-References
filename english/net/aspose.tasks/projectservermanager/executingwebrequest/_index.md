@@ -1,7 +1,7 @@
 ---
 title: ExecutingWebRequest
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: An event that is raised when the web request is sent to Project Servers web API.
 type: docs
 weight: 20
 url: /net/aspose.tasks/projectservermanager/executingwebrequest/

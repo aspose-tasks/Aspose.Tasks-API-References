@@ -1,7 +1,7 @@
 ---
 title: FiscalYearStart
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether the fiscal year numbering is used.
 type: docs
 weight: 330
 url: /net/aspose.tasks/prj/fiscalyearstart/

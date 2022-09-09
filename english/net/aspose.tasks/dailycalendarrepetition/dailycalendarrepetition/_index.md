@@ -1,7 +1,7 @@
 ---
 title: DailyCalendarRepetition
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the DailyCalendarRepetitionaspose.tasks/dailycalendarrepetition class.
 type: docs
 weight: 10
 url: /net/aspose.tasks/dailycalendarrepetition/dailycalendarrepetition/

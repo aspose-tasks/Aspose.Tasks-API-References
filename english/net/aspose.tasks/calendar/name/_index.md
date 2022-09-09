@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the name of the calendar. Read/write String.
 type: docs
 weight: 80
 url: /net/aspose.tasks/calendar/name/

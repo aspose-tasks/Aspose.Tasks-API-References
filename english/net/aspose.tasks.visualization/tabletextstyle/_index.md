@@ -1,9 +1,9 @@
 ---
 title: TableTextStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a text style in a view table.
 type: docs
-weight: 2990
+weight: 3010
 url: /net/aspose.tasks.visualization/tabletextstyle/
 ---
 ## TableTextStyle class
@@ -18,10 +18,10 @@ public class TableTextStyle : TextStyle
 
 | Name | Description |
 | --- | --- |
-| [TableTextStyle](tabletextstyle)(int) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class. |
-| [TableTextStyle](tabletextstyle)(int, FontDescriptor) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class with the specified font. |
-| [TableTextStyle](tabletextstyle)(int, FontStyles) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class with the default font settings and the specified font style. |
-| [TableTextStyle](tabletextstyle)(int, float, FontStyles) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class with the specified font size and font style. |
+| [TableTextStyle](tabletextstyle#constructor)(int) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class. |
+| [TableTextStyle](tabletextstyle#constructor_1)(int, FontDescriptor) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class with the specified font. |
+| [TableTextStyle](tabletextstyle#constructor_2)(int, FontStyles) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class with the default font settings and the specified font style. |
+| [TableTextStyle](tabletextstyle#constructor_3)(int, float, FontStyles) | Initializes a new instance of the [`TableTextStyle`](../tabletextstyle) class with the specified font size and font style. |
 
 ## Properties
 

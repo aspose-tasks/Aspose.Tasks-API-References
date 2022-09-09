@@ -1,9 +1,9 @@
 ---
 title: View
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represents a view in Project.
 type: docs
-weight: 2530
+weight: 2550
 url: /net/aspose.tasks/view/
 ---
 ## View class
@@ -18,8 +18,8 @@ public class View : IComparable<View>
 
 | Name | Description |
 | --- | --- |
-| [View](view)() | Initializes a new instance of the [`View`](../view) class. |
-| [View](view)(ViewScreen) | Initializes a new instance of the [`View`](../view) class. |
+| [View](view#constructor)() | Initializes a new instance of the [`View`](../view) class. |
+| [View](view#constructor_1)(ViewScreen) | Initializes a new instance of the [`View`](../view) class. |
 
 ## Properties
 

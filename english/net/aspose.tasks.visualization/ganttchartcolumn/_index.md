@@ -1,9 +1,9 @@
 ---
 title: GanttChartColumn
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Projects view class
 type: docs
-weight: 2730
+weight: 2750
 url: /net/aspose.tasks.visualization/ganttchartcolumn/
 ---
 ## GanttChartColumn class
@@ -18,10 +18,10 @@ public sealed class GanttChartColumn : ViewColumn
 
 | Name | Description |
 | --- | --- |
-| [GanttChartColumn](ganttchartcolumn)(int, Field) | Initializes a new instance of the GanttChartColumn class. |
-| [GanttChartColumn](ganttchartcolumn)(string, int, Field) | Initializes a new instance of the GanttChartColumn class. |
-| [GanttChartColumn](ganttchartcolumn)(string, int, TaskToColumnTextConverter) | Initializes a new instance of the GanttChartColumn class. |
-| [GanttChartColumn](ganttchartcolumn)(string, int, TaskToColumnTextConverter, Field) | Initializes a new instance of the GanttChartColumn class. |
+| [GanttChartColumn](ganttchartcolumn#constructor)(int, Field) | Initializes a new instance of the GanttChartColumn class. |
+| [GanttChartColumn](ganttchartcolumn#constructor_1)(string, int, Field) | Initializes a new instance of the GanttChartColumn class. |
+| [GanttChartColumn](ganttchartcolumn#constructor_2)(string, int, TaskToColumnTextConverter) | Initializes a new instance of the GanttChartColumn class. |
+| [GanttChartColumn](ganttchartcolumn#constructor_3)(string, int, TaskToColumnTextConverter, Field) | Initializes a new instance of the GanttChartColumn class. |
 
 ## Properties
 

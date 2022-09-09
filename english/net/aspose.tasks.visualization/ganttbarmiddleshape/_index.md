@@ -1,9 +1,9 @@
 ---
 title: GanttBarMiddleShape
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the middle shape of a bar.
 type: docs
-weight: 2690
+weight: 2710
 url: /net/aspose.tasks.visualization/ganttbarmiddleshape/
 ---
 ## GanttBarMiddleShape enumeration

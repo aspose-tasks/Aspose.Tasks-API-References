@@ -1,7 +1,7 @@
 ---
 title: CV
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between the baseline cost and total cost for a task. Cost Variance  Cost  Baseline Cost
 type: docs
 weight: 260
 url: /net/aspose.tasks/tsk/cv/

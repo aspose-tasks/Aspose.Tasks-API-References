@@ -1,7 +1,7 @@
 ---
 title: FinishVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The variance of an assignment finish date from a baseline finish date.
 type: docs
 weight: 250
 url: /net/aspose.tasks/asn/finishvariance/

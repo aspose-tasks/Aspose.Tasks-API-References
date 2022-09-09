@@ -1,7 +1,7 @@
 ---
 title: Stop
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The date when assignment is stopped.
 type: docs
 weight: 520
 url: /net/aspose.tasks/asn/stop/

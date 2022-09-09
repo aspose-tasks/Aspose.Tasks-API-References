@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a flag indicating whether this instance is equal to the specified object.
 type: docs
 weight: 310
 url: /net/aspose.tasks/extendedattributedefinition/equals/

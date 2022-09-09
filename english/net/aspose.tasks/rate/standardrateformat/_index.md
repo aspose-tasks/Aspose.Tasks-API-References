@@ -1,7 +1,7 @@
 ---
 title: StandardRateFormat
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the units used by Microsoft Project to display the standard rate.
 type: docs
 weight: 80
 url: /net/aspose.tasks/rate/standardrateformat/

@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified task.
 type: docs
 weight: 150
 url: /net/aspose.tasks/task/equals/
 ---
-## Task.Equals method (1 of 2)
+## Equals(Task) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified task.
 
@@ -30,7 +30,7 @@ returns true if the specified task and this instance have equal unique ids.
 
 ---
 
-## Task.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 

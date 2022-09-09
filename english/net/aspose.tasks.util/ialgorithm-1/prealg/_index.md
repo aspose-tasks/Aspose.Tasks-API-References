@@ -1,7 +1,7 @@
 ---
 title: PreAlg
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Called before processing of an object.
 type: docs
 weight: 30
 url: /net/aspose.tasks.util/ialgorithm-1/prealg/

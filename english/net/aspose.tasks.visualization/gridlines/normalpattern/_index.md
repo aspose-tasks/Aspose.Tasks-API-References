@@ -1,7 +1,7 @@
 ---
 title: NormalPattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the line pattern for normal gridlines.
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/gridlines/normalpattern/

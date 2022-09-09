@@ -1,7 +1,7 @@
 ---
 title: FullPath
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the full path of the inserted object.
 type: docs
 weight: 60
 url: /net/aspose.tasks/oleobject/fullpath/

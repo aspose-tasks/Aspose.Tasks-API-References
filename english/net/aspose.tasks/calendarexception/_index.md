@@ -1,7 +1,7 @@
 ---
 title: CalendarException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Represent exceptional time periods in a calendar.
 type: docs
 weight: 240
 url: /net/aspose.tasks/calendarexception/

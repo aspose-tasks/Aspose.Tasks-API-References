@@ -1,7 +1,7 @@
 ---
 title: RemainingDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The time that is required to complete the unfinished part of a task.
 type: docs
 weight: 970
 url: /net/aspose.tasks/tsk/remainingduration/

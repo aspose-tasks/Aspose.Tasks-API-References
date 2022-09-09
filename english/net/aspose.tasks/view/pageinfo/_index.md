@@ -1,7 +1,7 @@
 ---
 title: PageInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets an instance of the PageInfoaspose.tasks/view/pageinfo class. Represents page setup data which is present in mpp file format.
 type: docs
 weight: 60
 url: /net/aspose.tasks/view/pageinfo/

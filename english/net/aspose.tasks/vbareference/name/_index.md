@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets name of VBA reference.
 type: docs
 weight: 30
 url: /net/aspose.tasks/vbareference/name/

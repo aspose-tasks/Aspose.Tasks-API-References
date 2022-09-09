@@ -1,7 +1,7 @@
 ---
 title: Autolink
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether inserted or moved tasks are auto linked.
 type: docs
 weight: 60
 url: /net/aspose.tasks/prj/autolink/

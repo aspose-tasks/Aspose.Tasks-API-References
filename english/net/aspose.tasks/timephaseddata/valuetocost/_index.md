@@ -1,7 +1,7 @@
 ---
 title: ValueToCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets Double instance which represents string value of this object.
 type: docs
 weight: 110
 url: /net/aspose.tasks/timephaseddata/valuetocost/

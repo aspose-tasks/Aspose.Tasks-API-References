@@ -1,7 +1,7 @@
 ---
 title: PrintOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the PrintOptionsaspose.tasks.saving/printoptions class that can be used to set different options to print project.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/printoptions/printoptions/

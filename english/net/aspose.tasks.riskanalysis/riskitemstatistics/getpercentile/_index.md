@@ -1,7 +1,7 @@
 ---
 title: GetPercentile
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a value below which a specified percentage of generated samples fall.
 type: docs
 weight: 60
 url: /net/aspose.tasks.riskanalysis/riskitemstatistics/getpercentile/

@@ -1,7 +1,7 @@
 ---
 title: CurrentDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The system date.
 type: docs
 weight: 180
 url: /net/aspose.tasks/prj/currentdate/

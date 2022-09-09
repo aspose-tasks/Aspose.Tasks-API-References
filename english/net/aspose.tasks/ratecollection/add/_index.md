@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Adds a new Rateaspose.tasks/rate instance to this collection.
 type: docs
 weight: 50
 url: /net/aspose.tasks/ratecollection/add/
 ---
-## RateCollection.Add method (1 of 2)
+## Add(DateTime) {#add}
 
 Adds a new [`Rate`](../../rate) instance to this collection.
 
@@ -31,7 +31,7 @@ Added [`Rate`](../../rate) instance.
 
 ---
 
-## RateCollection.Add method (2 of 2)
+## Add(DateTime, RateType) {#add_1}
 
 Adds a new [`Rate`](../../rate) instance to this collection.
 

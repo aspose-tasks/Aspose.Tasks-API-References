@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the font used for progress line label.
 type: docs
 weight: 80
 url: /net/aspose.tasks.visualization/progresslines/font/

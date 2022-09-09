@@ -1,7 +1,7 @@
 ---
 title: IsRecurring
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a task is part of a series of recurring tasks.
 type: docs
 weight: 670
 url: /net/aspose.tasks/tsk/isrecurring/

@@ -1,7 +1,7 @@
 ---
 title: SourceCode
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a source Code of the VBA module
 type: docs
 weight: 30
 url: /net/aspose.tasks/ivbamodule/sourcecode/

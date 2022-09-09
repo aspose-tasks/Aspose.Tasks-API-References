@@ -1,7 +1,7 @@
 ---
 title: Pattern
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the pattern of the cell for a field used as a criterion in a group definition.
 type: docs
 weight: 110
 url: /net/aspose.tasks/groupcriterion/pattern/

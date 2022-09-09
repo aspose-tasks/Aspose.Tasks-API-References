@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is not equal to a specified object.
 type: docs
 weight: 150
 url: /net/aspose.tasks/duration/op_inequality/

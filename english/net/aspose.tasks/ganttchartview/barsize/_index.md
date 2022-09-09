@@ -1,7 +1,7 @@
 ---
 title: BarSize
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the height in points of the Gantt bars in the Gantt Chart.
 type: docs
 weight: 40
 url: /net/aspose.tasks/ganttchartview/barsize/

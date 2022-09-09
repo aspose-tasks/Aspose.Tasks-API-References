@@ -1,7 +1,7 @@
 ---
 title: RemainingOvertimeCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The remaining projected overtime cost of completing an assignment.
 type: docs
 weight: 440
 url: /net/aspose.tasks/asn/remainingovertimecost/

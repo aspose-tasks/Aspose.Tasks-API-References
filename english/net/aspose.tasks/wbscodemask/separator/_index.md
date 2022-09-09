@@ -1,7 +1,7 @@
 ---
 title: Separator
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the separator of the code string. Default value is Period.
 type: docs
 weight: 40
 url: /net/aspose.tasks/wbscodemask/separator/

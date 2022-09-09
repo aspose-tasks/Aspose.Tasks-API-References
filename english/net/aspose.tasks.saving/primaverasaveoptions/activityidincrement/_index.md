@@ -1,7 +1,7 @@
 ---
 title: ActivityIdIncrement
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the increment used in renumbering of activity IDs.
 type: docs
 weight: 20
 url: /net/aspose.tasks.saving/primaverasaveoptions/activityidincrement/

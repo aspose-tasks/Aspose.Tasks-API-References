@@ -1,7 +1,7 @@
 ---
 title: WorkContour
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The work contour of an assignment.
 type: docs
 weight: 610
 url: /net/aspose.tasks/asn/workcontour/

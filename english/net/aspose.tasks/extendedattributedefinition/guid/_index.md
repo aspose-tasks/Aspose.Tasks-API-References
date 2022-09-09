@@ -1,7 +1,7 @@
 ---
 title: Guid
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the Guid of a custom field.
 type: docs
 weight: 160
 url: /net/aspose.tasks/extendedattributedefinition/guid/

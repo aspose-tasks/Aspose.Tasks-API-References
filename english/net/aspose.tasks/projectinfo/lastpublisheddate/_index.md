@@ -1,7 +1,7 @@
 ---
 title: LastPublishedDate
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the most recent date when the project was published.
 type: docs
 weight: 60
 url: /net/aspose.tasks/projectinfo/lastpublisheddate/

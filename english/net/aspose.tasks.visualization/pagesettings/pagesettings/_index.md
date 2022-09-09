@@ -1,7 +1,7 @@
 ---
 title: PageSettings
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the PageSettingsaspose.tasks.visualization/pagesettings class. Represents printing settings for a page of project view.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/pagesettings/pagesettings/

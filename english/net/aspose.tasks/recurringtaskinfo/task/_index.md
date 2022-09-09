@@ -1,7 +1,7 @@
 ---
 title: Task
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the parent task of this instance of RecurringTaskInfoaspose.tasks/recurringtaskinfo class.
 type: docs
 weight: 140
 url: /net/aspose.tasks/recurringtaskinfo/task/

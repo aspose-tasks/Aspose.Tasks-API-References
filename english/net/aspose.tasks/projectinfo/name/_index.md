@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the name of the project.
 type: docs
 weight: 80
 url: /net/aspose.tasks/projectinfo/name/

@@ -1,7 +1,7 @@
 ---
 title: DurationVariance
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The difference between the baseline duration of a task and the total duration current estimate of a task.
 type: docs
 weight: 330
 url: /net/aspose.tasks/tsk/durationvariance/

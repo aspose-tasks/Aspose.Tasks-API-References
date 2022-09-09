@@ -1,12 +1,12 @@
 ---
 title: TableTextStyle
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the TableTextStyleaspose.tasks.visualization/tabletextstyle class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.visualization/tabletextstyle/tabletextstyle/
 ---
-## TableTextStyle constructor (1 of 4)
+## TableTextStyle(int) {#constructor}
 
 Initializes a new instance of the [`TableTextStyle`](../../tabletextstyle) class.
 
@@ -26,7 +26,7 @@ public TableTextStyle(int rowUid)
 
 ---
 
-## TableTextStyle constructor (2 of 4)
+## TableTextStyle(int, FontDescriptor) {#constructor_1}
 
 Initializes a new instance of the [`TableTextStyle`](../../tabletextstyle) class with the specified font.
 
@@ -48,7 +48,7 @@ public TableTextStyle(int rowUid, FontDescriptor font)
 
 ---
 
-## TableTextStyle constructor (3 of 4)
+## TableTextStyle(int, float, FontStyles) {#constructor_3}
 
 Initializes a new instance of the [`TableTextStyle`](../../tabletextstyle) class with the specified font size and font style.
 
@@ -71,7 +71,7 @@ public TableTextStyle(int rowUid, float fontSize, FontStyles fontStyle)
 
 ---
 
-## TableTextStyle constructor (4 of 4)
+## TableTextStyle(int, FontStyles) {#constructor_2}
 
 Initializes a new instance of the [`TableTextStyle`](../../tabletextstyle) class with the default font settings and the specified font style.
 

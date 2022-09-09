@@ -1,7 +1,7 @@
 ---
 title: FixedCost
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets a fixed cost of the task when the baseline was saved.
 type: docs
 weight: 60
 url: /net/aspose.tasks/taskbaseline/fixedcost/

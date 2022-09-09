@@ -1,7 +1,7 @@
 ---
 title: Month
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the month.
 type: docs
 weight: 900
 url: /net/aspose.tasks/month/

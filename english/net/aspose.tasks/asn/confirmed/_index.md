@@ -1,7 +1,7 @@
 ---
 title: Confirmed
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Determines whether a resource has accepted all of its assignments.
 type: docs
 weight: 170
 url: /net/aspose.tasks/asn/confirmed/

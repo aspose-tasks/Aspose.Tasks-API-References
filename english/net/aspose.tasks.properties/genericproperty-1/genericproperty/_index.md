@@ -1,7 +1,7 @@
 ---
 title: GenericProperty
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Initializes a new instance of the GenericPropertyaspose.tasks.properties/genericproperty1 struct.
 type: docs
 weight: 10
 url: /net/aspose.tasks.properties/genericproperty-1/genericproperty/

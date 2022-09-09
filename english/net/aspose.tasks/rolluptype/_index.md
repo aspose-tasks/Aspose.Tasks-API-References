@@ -1,7 +1,7 @@
 ---
 title: RollupType
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Specifies the rollup type.
 type: docs
 weight: 1680
 url: /net/aspose.tasks/rolluptype/

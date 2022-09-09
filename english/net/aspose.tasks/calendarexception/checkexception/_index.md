@@ -1,7 +1,7 @@
 ---
 title: CheckException
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns true if the specified instance of the DateTime struct is the exception day.
 type: docs
 weight: 170
 url: /net/aspose.tasks/calendarexception/checkexception/

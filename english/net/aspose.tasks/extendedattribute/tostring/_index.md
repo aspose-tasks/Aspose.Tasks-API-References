@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Returns short string representation of an extended attribute.
 type: docs
 weight: 110
 url: /net/aspose.tasks/extendedattribute/tostring/

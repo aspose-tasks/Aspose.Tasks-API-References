@@ -1,7 +1,7 @@
 ---
 title: InvalidValue
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets the string value which raised an exception.
 type: docs
 weight: 40
 url: /net/aspose.tasks/parseerrorargs/invalidvalue/

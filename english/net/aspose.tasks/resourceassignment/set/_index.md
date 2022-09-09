@@ -1,9 +1,9 @@
 ---
 title: Set
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Maps the specified property to the specified value in this container.
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.tasks/resourceassignment/set/
 ---
 ## ResourceAssignment.Set&lt;T&gt; method

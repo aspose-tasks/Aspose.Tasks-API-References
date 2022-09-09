@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets a name of the VBA module
 type: docs
 weight: 20
 url: /net/aspose.tasks/ivbamodule/name/

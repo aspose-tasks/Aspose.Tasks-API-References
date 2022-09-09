@@ -1,7 +1,7 @@
 ---
 title: Pessimistic
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: Gets or sets the percentage of the most likely task duration which can happen in the worst possible project scenario. The default value is 125 which means that if the estimated specified task duration is 4 days then the pessimistic duration will be 5 days.
 type: docs
 weight: 50
 url: /net/aspose.tasks.riskanalysis/riskpattern/pessimistic/
