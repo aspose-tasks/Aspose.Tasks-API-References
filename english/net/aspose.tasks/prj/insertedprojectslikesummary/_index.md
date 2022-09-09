@@ -14,6 +14,18 @@ Determines whether subtasks are calculated as summary tasks.
 public static readonly Key<NullableBool, PrjKey> InsertedProjectsLikeSummary;
 ```
 
+### Examples
+
+Shows how to read/write Prj.InsertedProjectsLikeSummary property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.InsertedProjectsLikeSummary, true);
+
+Console.WriteLine("Inserted Projects Like Summary: " + project.Get(Prj.InsertedProjectsLikeSummary));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

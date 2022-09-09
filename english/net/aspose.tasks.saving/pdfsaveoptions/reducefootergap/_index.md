@@ -14,6 +14,18 @@ Gets or sets a value indicating whether a gap between last task and the footer m
 public bool ReduceFooterGap { get; set; }
 ```
 
+### Examples
+
+Shows how to set a value indicating whether a gap between last task and the footer must be reduced in PDF output files.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions { ReduceFooterGap = true, PageSize = PageSize.A0, Timescale = Timescale.Days };
+
+project.Save(OutDir + "ReducingGapBetweenTasksListAndFooter_out.pdf", options);
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../../pdfsaveoptions)

@@ -14,6 +14,18 @@ The format for expressing the bulk duration.
 public static readonly Key<TimeUnitType, PrjKey> DurationFormat;
 ```
 
+### Examples
+
+Shows how to read/write Prj.DurationFormat property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.DurationFormat, TimeUnitType.Day);
+
+Console.WriteLine("Duration Format: " + project.Get(Prj.DurationFormat));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

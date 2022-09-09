@@ -14,6 +14,20 @@ The format of expressing the duration of a delay.
 public static readonly Key<TimeUnitType, TaskKey> LevelingDelayFormat;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.LevelingDelayFormat property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingDelayFormat, TimeUnitType.Hour);
+
+Console.WriteLine("Leveling Delay Format: " + task.Get(Tsk.LevelingDelayFormat));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

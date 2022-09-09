@@ -14,6 +14,19 @@ Gets a child task collection of this object. TaskCollection object which represe
 public TaskCollection Children { get; }
 ```
 
+### Examples
+
+Shows how to use task collection to add a task.
+
+```csharp
+var project = new Project();
+
+// Add task, sub task and save project
+var task = project.RootTask.Children.Add("Summary1");
+task.Children.Add("Subtask1");
+project.Save(OutDir + "CreateTasks_out.xml", SaveFileFormat.Xml);
+```
+
 ### See Also
 
 * class [TaskCollection](../../taskcollection)

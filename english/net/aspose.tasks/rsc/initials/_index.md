@@ -14,6 +14,20 @@ The initials of a resource.
 public static readonly Key<string, RscKey> Initials;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Initials property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Initials, "R");
+
+Console.WriteLine("Initials: " + resource.Get(Rsc.Initials));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

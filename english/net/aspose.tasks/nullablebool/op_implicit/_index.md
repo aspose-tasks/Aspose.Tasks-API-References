@@ -22,6 +22,51 @@ public static implicit operator bool(NullableBool val)
 
 a boolean value.
 
+### Examples
+
+Shows how to compare &lt;see cref="Aspose.Tasks.NullableBool" /&gt; instances.
+
+```csharp
+var bool1 = new NullableBool(true);
+var bool2 = new NullableBool(true, false);
+
+// the equality of bools is checked against to 'IsDefined' and 'Value' properties.
+Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
+Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
+
+// checks implicit conversion to bool: bool1 is True because it is defined and Value is set to True.
+if (bool1)
+{
+    Console.WriteLine("Nullable Bool 1 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 1 is False");
+}
+
+// checks implicit conversion to bool: bool2 is False because it is not defined.
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+
+Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
+
+// checks implicit conversion to bool
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+```
+
 ### See Also
 
 * struct [NullableBool](../../nullablebool)
@@ -45,6 +90,51 @@ public static implicit operator NullableBool(bool val)
 ### Return Value
 
 Converted [`NullableBool`](../../nullablebool) instance.
+
+### Examples
+
+Shows how to compare &lt;see cref="Aspose.Tasks.NullableBool" /&gt; instances.
+
+```csharp
+var bool1 = new NullableBool(true);
+var bool2 = new NullableBool(true, false);
+
+// the equality of bools is checked against to 'IsDefined' and 'Value' properties.
+Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
+Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
+
+// checks implicit conversion to bool: bool1 is True because it is defined and Value is set to True.
+if (bool1)
+{
+    Console.WriteLine("Nullable Bool 1 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 1 is False");
+}
+
+// checks implicit conversion to bool: bool2 is False because it is not defined.
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+
+Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
+
+// checks implicit conversion to bool
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+```
 
 ### See Also
 

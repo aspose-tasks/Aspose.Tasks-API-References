@@ -14,6 +14,18 @@ Project view date format.
 public static readonly Key<DateFormat, PrjKey> DateFormat;
 ```
 
+### Examples
+
+Shows how to read/write Prj.DateFormat property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.DateFormat, DateFormat.DateDd);
+
+Console.WriteLine("Date Format: " + project.Get(Prj.DateFormat));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

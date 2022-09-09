@@ -18,6 +18,18 @@ public bool IsBaselineCalendar { get; set; }
 
 This is a new for MS Project 2010 property. Reading supported for XML format only. Returns false if not defined.
 
+### Examples
+
+Shows how to check whether a calendar is baseline calendar or not.
+
+```csharp
+var project = new Project(DataDir + "IsBaselineCalendar.mpp");
+
+var calendar = project.Calendars.GetByUid(3);
+
+Console.WriteLine("Is baseline calendar: " + calendar.IsBaselineCalendar);
+```
+
 ### See Also
 
 * class [Calendar](../../calendar)

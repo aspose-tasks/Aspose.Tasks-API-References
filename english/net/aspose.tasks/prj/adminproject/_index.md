@@ -14,6 +14,18 @@ Determines whether a project is an administrative project.
 public static readonly Key<NullableBool, PrjKey> AdminProject;
 ```
 
+### Examples
+
+Shows how to read/write Prj.AdminProject property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AdminProject, true);
+
+Console.WriteLine("Admin Project: " + project.Get(Prj.AdminProject));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

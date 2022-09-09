@@ -14,6 +14,31 @@ Gets a the instance of the [`AvailabilityPeriodCollection`](../../availabilitype
 public AvailabilityPeriodCollection AvailabilityPeriods { get; }
 ```
 
+### Examples
+
+Shows how to add availability period for a resource.
+
+```csharp
+var project = new Project();
+var resource = project.Resources.Add("Resource");
+
+var availabilityPeriod = new AvailabilityPeriod
+{
+    AvailableFrom = new DateTime(2020, 4, 1, 8, 0, 0),
+    AvailableTo = new DateTime(2020, 4, 1, 17, 0, 0),
+    AvailableUnits = 2d
+};
+resource.AvailabilityPeriods.Add(availabilityPeriod);
+
+var availabilityPeriod2 = new AvailabilityPeriod
+{
+    AvailableFrom = new DateTime(2020, 4, 2, 8, 0, 0),
+    AvailableTo = new DateTime(2020, 4, 2, 17, 0, 0),
+    AvailableUnits = 3d
+};
+resource.AvailabilityPeriods.Add(availabilityPeriod2);
+```
+
 ### See Also
 
 * class [AvailabilityPeriodCollection](../../availabilityperiodcollection)

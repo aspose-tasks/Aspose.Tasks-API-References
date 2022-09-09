@@ -14,6 +14,18 @@ The category of a project.
 public static readonly Key<string, PrjKey> Category;
 ```
 
+### Examples
+
+Shows how to read/write Prj.Category property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Category, "Special");
+
+Console.WriteLine("Category: " + project.Get(Prj.Category));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

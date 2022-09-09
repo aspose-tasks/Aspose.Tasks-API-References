@@ -14,6 +14,24 @@ Promotes a task in the outline.
 public void OutlineOutdent()
 ```
 
+### Examples
+
+Shows how to outdent a task.
+
+```csharp
+var project = new Project();
+var task1 = project.RootTask.Children.Add("Parent");
+var task2 = task1.Children.Add("Task");
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+
+// outdent the task
+task2.OutlineOutdent();
+
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+```
+
 ### See Also
 
 * class [Task](../../task)

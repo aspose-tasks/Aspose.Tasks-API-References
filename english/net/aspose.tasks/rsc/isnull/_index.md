@@ -14,6 +14,20 @@ Determines whether a resource is null.
 public static readonly Key<NullableBool, RscKey> IsNull;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.IsNull property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsNull, true);
+
+Console.WriteLine("Is Null: " + resource.Get(Rsc.IsNull));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

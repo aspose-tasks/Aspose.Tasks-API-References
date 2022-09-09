@@ -24,6 +24,22 @@ public ImageSaveOptions(SaveFileFormat saveFormat)
 | --- | --- |
 | ArgumentException | Thrown of *saveFormat* is not a valid image format. The valid values are TIFF, PNG, BMP or JPEG. |
 
+### Examples
+
+Shows how to save project into a stream as an image.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // by using of ImageSaveOptions we save the project into image format
+    project.Save(stream, options);
+}
+```
+
 ### See Also
 
 * enum [SaveFileFormat](../../savefileformat)

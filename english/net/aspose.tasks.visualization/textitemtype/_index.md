@@ -42,6 +42,31 @@ public enum TextItemType
 | Allocated | `21` | Allocated text item. |
 | ChangedCells | `22` | Changed cells. |
 
+### Examples
+
+Shows how to work with text item types.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle(FontStyles.Italic | FontStyles.Bold)
+{
+    Color = Color.OrangeRed
+};
+
+style.ItemType = TextItemType.OverallocatedResources;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)

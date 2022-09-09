@@ -14,6 +14,20 @@ The time that a task is to be delayed from its early start date because of resou
 public static readonly Key<Duration, TaskKey> LevelingDelay;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.LevelingDelay property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingDelay, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Leveling Delay: " + task.Get(Tsk.LevelingDelay));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

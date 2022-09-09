@@ -14,6 +14,20 @@ The current status of a task expressed as the percentage of work that has been c
 public static readonly Key<int, TaskKey> PercentWorkComplete;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.PercentWorkComplete property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.PercentWorkComplete, 10);
+
+Console.WriteLine("Percent Work Complete: " + task.Get(Tsk.PercentWorkComplete));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

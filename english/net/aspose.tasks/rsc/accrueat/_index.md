@@ -14,6 +14,20 @@ Determines how and when resource standard and overtime costs are to be charged, 
 public static readonly Key<CostAccrualType, RscKey> AccrueAt;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.AccrueAt property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.AccrueAt, CostAccrualType.End);
+
+Console.WriteLine("Accrue At: " + resource.Get(Rsc.AccrueAt));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

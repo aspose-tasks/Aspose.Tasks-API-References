@@ -14,6 +14,20 @@ The unique identifier of a resource.
 public static readonly Key<int, RscKey> Uid;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Uid property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Uid, 99);
+
+Console.WriteLine("Uid: " + resource.Get(Rsc.Uid));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

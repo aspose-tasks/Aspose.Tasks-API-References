@@ -14,6 +14,24 @@ Deletes the Exception instance from parent calendar CalendarExceptionCollection 
 public void Delete()
 ```
 
+### Examples
+
+Shows how to delete a calendar exception.
+
+```csharp
+var project = new Project(DataDir + "CalendarExceptions.mpp");
+
+var calendar = project.Calendars.ToList()[0];
+
+Console.WriteLine("Calendar Name: " + calendar.Name);
+Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
+
+// remove the exception
+calendar.Exceptions.ToList()[0].Delete();
+
+Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
+```
+
 ### See Also
 
 * class [CalendarException](../../calendarexception)

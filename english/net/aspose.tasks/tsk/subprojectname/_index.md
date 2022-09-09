@@ -14,6 +14,22 @@ The source location of a subproject.
 public static readonly Key<string, TaskKey> SubprojectName;
 ```
 
+### Examples
+
+Shows how to create a subproject task.
+
+```csharp
+var project = new Project(DataDir + "SubProjectTask.mpp");
+
+// Add task
+var task = project.RootTask.Children.Add("Task 1");
+
+// Setting new subproject link
+task.Set(Tsk.SubprojectName, DataDir + "subProject.mpp");
+
+project.Save(OutDir + "CreateSubProjectTask_out.mpp", SaveFileFormat.Mpp);
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

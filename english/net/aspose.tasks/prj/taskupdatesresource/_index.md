@@ -14,6 +14,18 @@ Determines whether updates to tasks update resources.
 public static readonly Key<NullableBool, PrjKey> TaskUpdatesResource;
 ```
 
+### Examples
+
+Shows how to read/write Prj.TaskUpdatesResource property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.TaskUpdatesResource, true);
+
+Console.WriteLine("Task Updates Resource: " + project.Get(Prj.TaskUpdatesResource));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

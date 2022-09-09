@@ -18,8 +18,8 @@ public class OutlineCode
 
 | Name | Description |
 | --- | --- |
-| [OutlineCode](outlinecode#constructor)() | Initializes a new instance of the [`OutlineCode`](../outlinecode) class. |
-| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) | Initializes a new instance of the [`OutlineCode`](../outlinecode) class using the specified Outline Code and one of its values. |
+| [OutlineCode](outlinecode#constructor)() | The default constructor. |
+| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) |  |
 
 ## Properties
 
@@ -32,6 +32,31 @@ public class OutlineCode
 ### Remarks
 
 Two pieces of data are necessary - a pointer to the outline code table that is specified by the FieldId, and the value that is specified either by the ValueId or ValueGuid pointer to the value list.
+
+### Examples
+
+Shows how to read task's outline codes.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// read outline codes
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
 
 ### See Also
 

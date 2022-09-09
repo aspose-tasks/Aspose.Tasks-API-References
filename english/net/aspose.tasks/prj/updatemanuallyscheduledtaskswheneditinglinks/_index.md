@@ -14,6 +14,18 @@ Determines whether manual tasks must be updated when links were edited.
 public static readonly Key<NullableBool, PrjKey> UpdateManuallyScheduledTasksWhenEditingLinks;
 ```
 
+### Examples
+
+Shows how to read/write Prj.UpdateManuallyScheduledTasksWhenEditingLinks property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.UpdateManuallyScheduledTasksWhenEditingLinks, true);
+
+Console.WriteLine("Update Manually Scheduled Tasks When Editing Links: " + project.Get(Prj.UpdateManuallyScheduledTasksWhenEditingLinks));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

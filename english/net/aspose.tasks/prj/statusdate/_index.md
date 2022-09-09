@@ -14,6 +14,18 @@ the status date to display progress or to calculate earned value totals. The sta
 public static readonly Key<DateTime, PrjKey> StatusDate;
 ```
 
+### Examples
+
+Shows how to read/write Prj.StatusDate property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.StatusDate, new DateTime(2020, 4, 19, 8, 0, 0));
+
+Console.WriteLine("Status Date: " + project.Get(Prj.StatusDate));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

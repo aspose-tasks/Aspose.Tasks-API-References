@@ -14,6 +14,20 @@ Determines choices for how and when fixed costs are to be charged, or accrued, t
 public static readonly Key<CostAccrualType, TaskKey> FixedCostAccrual;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.FixedCostAccrual property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.FixedCostAccrual, CostAccrualType.Prorated);
+
+Console.WriteLine("Fixed Cost Accrual: " + task.Get(Tsk.FixedCostAccrual));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

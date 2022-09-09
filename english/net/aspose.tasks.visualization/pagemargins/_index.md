@@ -30,6 +30,26 @@ public class PageMargins
 | [Right](../../aspose.tasks.visualization/pagemargins/right) { get; set; } | Gets or sets the size of the right margin in inches or centimeters. |
 | [Top](../../aspose.tasks.visualization/pagemargins/top) { get; set; } | Gets or sets the size of the top margin in inches or centimeters. |
 
+### Examples
+
+Shows how to work with page margins.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// lets modify the default view
+var margins = project.DefaultView.PageInfo.Margins;
+
+// lets modify margins
+margins.Left = 10d;
+margins.Top = 10d;
+margins.Right = 10d;
+margins.Bottom = 10d;
+margins.Borders = Border.OutsidePages;
+
+project.Save(OutDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)

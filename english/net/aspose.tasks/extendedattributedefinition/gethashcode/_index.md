@@ -18,6 +18,21 @@ public override int GetHashCode()
 
 a hash code for this object.
 
+### Examples
+
+Shows how to get a hash code of a extended attribute definition.
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+var attributeDefinition1 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Start3);
+var attributeDefinition2 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Duration2);
+
+// the hash code of a extended attribute definition is equal to a field id.
+Console.WriteLine("Extended Attribute Field Id: {0} Hash Code: {1}", attributeDefinition1.FieldId, attributeDefinition1.GetHashCode());
+Console.WriteLine("Extended Attribute Field Id: {0} Hash Code: {1}", attributeDefinition2.FieldId, attributeDefinition2.GetHashCode());
+```
+
 ### See Also
 
 * class [ExtendedAttributeDefinition](../../extendedattributedefinition)

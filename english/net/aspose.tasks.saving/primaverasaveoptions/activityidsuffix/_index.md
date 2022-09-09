@@ -14,6 +14,28 @@ Gets or sets the suffix used in renumbering of activity IDs.
 public int ActivityIdSuffix { get; set; }
 ```
 
+### Examples
+
+Shows how to work with &lt;see cref="Aspose.Tasks.Saving.PrimaveraSaveOptions" /&gt;.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// create Primavera save options and tune them
+var options = new PrimaveraSaveOptions
+                  {
+                      // define prefix and suffix of an activity
+                      ActivityIdPrefix = "TEST",
+                      ActivityIdSuffix = 10000,
+
+                      // control renumbering of activities
+                      ActivityIdIncrement = 5,
+                      RenumberActivityIds = true
+                  };
+
+project.Save(OutDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
+```
+
 ### See Also
 
 * class [PrimaveraSaveOptions](../../primaverasaveoptions)

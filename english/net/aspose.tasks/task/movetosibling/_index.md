@@ -18,6 +18,25 @@ public void MoveToSibling(Task beforeTask)
 | --- | --- | --- |
 | beforeTask | Task | Task before which the current task will be inserted. |
 
+### Examples
+
+Shows how to move the task under the same parent.
+
+```csharp
+var project = new Project(DataDir + "MoveTask.mpp");
+
+// Move tasks with id 5 before task with id 3
+var task = project.RootTask.Children.GetById(5);
+
+var targetTask = project.RootTask.Children.First(t => t.Get(Tsk.Name) == "Task4");
+task.MoveToSibling(targetTask);
+
+// OR
+// Move task to the end of the collection
+// task.MoveToSibling(null);
+project.Save(OutDir + "MoveTaskUnderSameParent_out.mpp", SaveFileFormat.Mpp);
+```
+
 ### See Also
 
 * class [Task](../../task)
@@ -37,6 +56,24 @@ public void MoveToSibling(int beforeTaskId)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | beforeTaskId | Int32 | Id ([`Id`](../../tsk/id)) of a task before which the current task will be inserted. |
+
+### Examples
+
+Shows how to move the task under the same parent using task's Id.
+
+```csharp
+var project = new Project(DataDir + "MoveTask.mpp");
+
+// Move tasks with id 5 before task with id 3
+var task = project.RootTask.Children.GetById(5);
+
+task.MoveToSibling(3);
+
+// OR
+// Move task to the end of the collection
+// task.MoveToSibling(-1);
+project.Save(OutDir + "MoveTaskUnderSameParent_out.mpp", SaveFileFormat.Mpp);
+```
 
 ### See Also
 

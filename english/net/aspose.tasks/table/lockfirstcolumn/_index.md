@@ -14,6 +14,44 @@ Gets or sets a value indicating whether the first column of a table is locked or
 public bool LockFirstColumn { get; set; }
 ```
 
+### Examples
+
+Shows how to define a new table (using for views).
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+// get a table to edit
+var table = project.Tables.ToList()[0];
+Console.WriteLine("Uid of the table: " + table.Uid);
+Console.WriteLine("Index of the table: " + table.Index);
+Console.WriteLine("Name of the table: " + table.Name);
+Console.WriteLine("Parent project of the table: " + table.ParentProject.Get(Prj.Name));
+Console.WriteLine("Type of the table: " + table.TableType);
+
+// tune some properties
+// set a value indicating whether the header row height of the table can be adjusted
+table.AdjustHeaderRowHeight = true;
+
+// set the date format of the table.
+table.DateFormat = DateFormat.DateDdMmYyyy;
+
+// set a value indicating whether the first column of a table is locked or editable
+table.LockFirstColumn = true;
+
+// set the row height in a table, where the row height is the number of lines of text
+table.RowHeight = 10;
+
+// sets a value indicating whether to show 'Add New Column' interface
+table.ShowAddNewColumn = true;
+
+// set a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon
+table.ShowInMenu = true;
+
+// lets save the updated table
+project.Save(OutDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
+```
+
 ### See Also
 
 * class [Table](../../table)

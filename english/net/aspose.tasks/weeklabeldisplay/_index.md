@@ -22,6 +22,20 @@ public enum WeekLabelDisplay
 | Wk | `1` | Sets the Weeks list in MS Project as Wk. |
 | Week | `2` | Sets the Weeks list in MS Project as Week. |
 
+### Examples
+
+Shows how to set the week label of project's display options (case 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// set how the week label is displayed
+project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
+
+// ...
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

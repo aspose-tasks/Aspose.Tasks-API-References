@@ -14,6 +14,20 @@ Returns the task's start text.
 public static readonly Key<string, TaskKey> StartText;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.StartText property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StartText, "Start Task Text");
+
+Console.WriteLine("Start Text: " + task.Get(Tsk.StartText));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

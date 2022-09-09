@@ -14,6 +14,22 @@ Gets a name of the VBA module
 public string Name { get; }
 ```
 
+### Examples
+
+Shows how to read modules of VBA project.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
 ### See Also
 
 * interface [IVbaModule](../../ivbamodule)

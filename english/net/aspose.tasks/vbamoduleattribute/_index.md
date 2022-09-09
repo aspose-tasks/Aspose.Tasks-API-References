@@ -29,6 +29,24 @@ public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 | [Equals](../../aspose.tasks/vbamoduleattribute/equals#equals)(VbaModuleAttribute) | Returns a value indicating whether this instance is equal to the specified [`VbaModuleAttribute`](../vbamoduleattribute) object. |
 | override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode)() | Returns a hash code value for this [`VbaModuleAttribute`](../vbamoduleattribute). |
 
+### Examples
+
+Shows how to work with VBA module attributes.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

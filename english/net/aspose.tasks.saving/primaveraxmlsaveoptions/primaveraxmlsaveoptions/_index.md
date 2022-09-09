@@ -14,6 +14,18 @@ Initializes a new instance of the [`PrimaveraXmlSaveOptions`](../../primaveraxml
 public PrimaveraXmlSaveOptions()
 ```
 
+### Examples
+
+Shows how to export the to Primavera XML file.
+
+```csharp
+var project = new Project(DataDir + "project.xml");
+
+var options = new PrimaveraXmlSaveOptions();
+options.SaveRootTask = false;
+project.Save(OutDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
+```
+
 ### See Also
 
 * class [PrimaveraXmlSaveOptions](../../primaveraxmlsaveoptions)

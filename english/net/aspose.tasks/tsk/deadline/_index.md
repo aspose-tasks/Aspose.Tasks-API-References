@@ -14,6 +14,20 @@ A target date that indicates when a task is to be completed.
 public static readonly Key<DateTime, TaskKey> Deadline;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.Deadline property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Deadline, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Deadline: " + task.Get(Tsk.Deadline));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

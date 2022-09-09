@@ -14,6 +14,19 @@ Gets the parent task of a task.
 public Task ParentTask { get; }
 ```
 
+### Examples
+
+Shows how to use the parent task of a task.
+
+```csharp
+var project = new Project();
+var parent = project.RootTask.Children.Add("Parent");
+var child1 = parent.Children.Add("Child1");
+var child2 = child1.ParentTask.Children.Add("Child2");
+
+Console.WriteLine("Is parent is equal to the root task: " + child2.ParentTask.Equals(parent));
+```
+
 ### See Also
 
 * class [Task](../../task)

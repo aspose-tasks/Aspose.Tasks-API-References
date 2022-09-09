@@ -1,26 +1,16 @@
 ---
 title: GetDefaultTaskFieldTitle
 second_title: Aspose.Tasks for .NET API Reference
-description: Returns a default title of the specific task field.
+description: 
 type: docs
 weight: 10
 url: /net/aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/
 ---
 ## FieldHelper.GetDefaultTaskFieldTitle method
 
-Returns a default title of the specific task field.
-
 ```csharp
 public static string GetDefaultTaskFieldTitle(TaskKey taskKey)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| taskKey | TaskKey | Task field to get a default title. |
-
-### Return Value
-
-A default title of the specific task field if the field can be displayed in MS Project's view, null otherwise.
 
 ### See Also
 

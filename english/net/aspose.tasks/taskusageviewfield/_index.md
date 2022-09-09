@@ -93,6 +93,27 @@ public enum TaskUsageViewField
 | AllTaskRows | `71` | Indicates All Task Rows task usage view field. |
 | AllAssignmentRows | `72` | Indicates All Assignment Rows task usage view field. |
 
+### Examples
+
+Shows how to work field collection of a TaskUsageView instance.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = (TaskUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// one can transform collection into a list of TaskUsageViewField
+IList<TaskUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

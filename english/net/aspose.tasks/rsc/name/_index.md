@@ -14,6 +14,20 @@ The name of a resource.
 public static readonly Key<string, RscKey> Name;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Name property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

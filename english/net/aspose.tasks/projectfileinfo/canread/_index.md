@@ -14,6 +14,17 @@ Gets a value indicating whether defines can Aspose.Tasks process the project fil
 public bool CanRead { get; }
 ```
 
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
 ### See Also
 
 * class [ProjectFileInfo](../../projectfileinfo)

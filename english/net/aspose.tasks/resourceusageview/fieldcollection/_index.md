@@ -14,6 +14,20 @@ Gets the [`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollec
 public ResourceUsageViewFieldCollection FieldCollection { get; }
 ```
 
+### Examples
+
+Shows how to read resource usage view fields.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+
 ### See Also
 
 * class [ResourceUsageViewFieldCollection](../../resourceusageviewfieldcollection)

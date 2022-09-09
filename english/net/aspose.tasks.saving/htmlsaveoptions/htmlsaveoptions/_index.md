@@ -14,6 +14,23 @@ Initializes a new instance of the [`HtmlSaveOptions`](../../htmlsaveoptions) cla
 public HtmlSaveOptions()
 ```
 
+### Examples
+
+Shows how to save a project in HTML format.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var option = new HtmlSaveOptions();
+project.Save(OutDir + "SaveProjectDataAsHTML_out.html", option);
+
+// OR
+
+// Adding only one page (page number 2)
+option = new HtmlSaveOptions();
+option.Pages.Add(2);
+project.Save(OutDir + "SaveProjectDataAsHTML2_out.html", option);
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

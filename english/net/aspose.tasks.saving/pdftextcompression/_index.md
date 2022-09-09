@@ -21,6 +21,28 @@ public enum PdfTextCompression
 | None | `0` | No compression. |
 | Flate | `1` | Flate compression. |
 
+### Examples
+
+Shows how to set a compression type to be used for all content streams except images.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions();
+
+// set compression type to be used for all content streams except images
+options.TextCompression = PdfTextCompression.Flate;
+
+// tune additional properties
+// set the <see cref="P:Aspose.Tasks.Saving.SaveOptions.PresentationFormat" /> in which the document will be saved.
+options.PresentationFormat = PresentationFormat.GanttChart;
+
+// set a desired conformance level for generated PDF document
+options.Compliance = PdfCompliance.PdfA1b;
+
+project.Save(OutDir + "WorkWithTextCompression_out.pdf", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving)

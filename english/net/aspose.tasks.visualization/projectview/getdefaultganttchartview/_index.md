@@ -18,6 +18,21 @@ public static ProjectView GetDefaultGanttChartView()
 
 a view which contains a list of [`GanttChartColumn`](../../ganttchartcolumn).
 
+### Examples
+
+Shows how to save a project with Gantt chart view.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultGanttChartView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_GanttChartView_out.pdf", options);
+```
+
 ### See Also
 
 * class [ProjectView](../../projectview)

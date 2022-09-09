@@ -18,6 +18,24 @@ public override string ToString()
 
 string which represents TaskLink object.
 
+### Examples
+
+Shows how to find cross project task links.
+
+```csharp
+var project = new Project(DataDir + "GetCrossProjectTaskLinks.mpp");
+
+// Check cross project task links
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Task Link: " + taskLink.ToString());
+    if (taskLink.IsCrossProject)
+    {
+        Console.WriteLine(taskLink.CrossProjectName);
+    }
+}
+```
+
 ### See Also
 
 * class [TaskLink](../../tasklink)

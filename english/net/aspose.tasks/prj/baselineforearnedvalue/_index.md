@@ -14,6 +14,18 @@ The specific baseline used to calculate Variance values.
 public static readonly Key<BaselineType, PrjKey> BaselineForEarnedValue;
 ```
 
+### Examples
+
+Shows how to read/write Prj.BaselineForEarnedValue property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.BaselineForEarnedValue, BaselineType.Baseline);
+
+Console.WriteLine("Baseline For Earned Value: " + project.Get(Prj.BaselineForEarnedValue));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

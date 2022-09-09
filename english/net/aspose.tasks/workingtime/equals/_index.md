@@ -22,6 +22,23 @@ public override bool Equals(object obj)
 
 True if the objects are equal, false otherwise.
 
+### Examples
+
+Shows how to check working time equality.
+
+```csharp
+var workingTime1 = new WorkingTime(9, 12);
+var workingTime2 = new WorkingTime(13, 17);
+
+// the equality of calendars is checked against to working time's from and to dates.
+Console.WriteLine("Working Time 1 (From): " + workingTime1.From);
+Console.WriteLine("Working Time 1 (To): " + workingTime1.To);
+
+Console.WriteLine("Working Time 2 (From): " + workingTime2.From);
+Console.WriteLine("Working Time 2 (To): " + workingTime2.To);
+Console.WriteLine("Are working times equal: " + workingTime1.Equals(workingTime2));
+```
+
 ### See Also
 
 * class [WorkingTime](../../workingtime)

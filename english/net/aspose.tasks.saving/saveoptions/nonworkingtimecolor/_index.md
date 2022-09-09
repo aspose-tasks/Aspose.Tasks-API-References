@@ -14,6 +14,16 @@ Gets or sets the non-working time color.
 public Color NonWorkingTimeColor { get; set; }
 ```
 
+### Examples
+
+Shows how to set custom color for non working time.
+
+```csharp
+var project = new Project(DataDir + "ReadCurrencyProperties.mpp");
+SaveOptions options = new PdfSaveOptions { NonWorkingTimeColor = Color.LightGray };
+project.Save(OutDir + "ReadCurrencyProperties_out.pdf", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

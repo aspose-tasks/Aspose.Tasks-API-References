@@ -23,6 +23,23 @@ public static bool operator <(Filter a, Filter b)
 
 a value indicating whether this instance is less than a specified object
 
+### Examples
+
+Shows how to check filter equality.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// the equality of filters is checked against to filter's UID.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
 ### See Also
 
 * class [Filter](../../filter)

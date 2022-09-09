@@ -14,6 +14,18 @@ Determines whether the beginning of remaining portions of tasks scheduled to hav
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsForward;
 ```
 
+### Examples
+
+Shows how to read/write Prj.MoveRemainingStartsForward property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveRemainingStartsForward, true);
+
+Console.WriteLine("Move Remaining Starts Forward: " + project.Get(Prj.MoveRemainingStartsForward));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

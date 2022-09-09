@@ -14,6 +14,20 @@ The difference between the baseline cost and total cost for a resource.
 public static readonly Key<double, RscKey> CostVariance;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.CostVariance property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostVariance, 10);
+
+Console.WriteLine("Cost Variance: " + resource.Get(Rsc.CostVariance));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

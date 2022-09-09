@@ -14,6 +14,27 @@ The total overtime cost for a task, for a resource on all assigned tasks, or for
 public static readonly Key<decimal, TaskKey> OvertimeCost;
 ```
 
+### Examples
+
+Shows how to read task overtimes.
+
+```csharp
+var project = new Project(DataDir + "TaskOvertimes.mpp");
+
+// Read overtime and percentage completion for tasks
+foreach (var task in project.RootTask.Children)
+{
+    Console.WriteLine(task.Get(Tsk.OvertimeCost));
+    Console.WriteLine(task.Get(Tsk.OvertimeWork));
+    Console.WriteLine(task.Get(Tsk.PercentComplete));
+    Console.WriteLine(task.Get(Tsk.PercentWorkComplete));
+    Console.WriteLine(task.Get(Tsk.PhysicalPercentComplete));
+
+    // Set percent complete
+    task.Set(Tsk.PercentComplete, 100);
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

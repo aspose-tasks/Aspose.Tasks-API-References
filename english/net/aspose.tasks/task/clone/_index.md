@@ -18,6 +18,19 @@ public object Clone()
 
 Created copy of a task.
 
+### Examples
+
+Shows how to clone a task.
+
+```csharp
+var project = new Project();
+
+var originalTask = project.RootTask.Children.Add("Task");
+var cloneTask = (Task)originalTask.Clone();
+
+Console.WriteLine("Are tasks equal: " + cloneTask.Equals(originalTask));
+```
+
 ### See Also
 
 * class [Task](../../task)

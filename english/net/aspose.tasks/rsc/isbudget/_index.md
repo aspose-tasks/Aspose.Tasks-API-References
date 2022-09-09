@@ -14,6 +14,20 @@ Determines whether a work, material, or cost resource is a budget resource.
 public static readonly Key<NullableBool, RscKey> IsBudget;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.IsBudget property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsBudget, true);
+
+Console.WriteLine("Is Budget: " + resource.Get(Rsc.IsBudget));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

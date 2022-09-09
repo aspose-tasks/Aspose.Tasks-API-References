@@ -32,6 +32,23 @@ public enum ConstraintType
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
 
+### Examples
+
+Shows how to set constraint &lt;see cref="Aspose.Tasks.ConstraintType" /&gt; ConstraintType.AsSoonAsPossible constraint for a task.
+
+```csharp
+var project = new Project(DataDir + "Constraints/ConstraintAsLateAsPossible.mpp");
+
+// Set constraint As Soon As Possible for task with Id 11
+var task = project.RootTask.Children.GetById(11);
+task.Set(Tsk.ConstraintType, ConstraintType.AsSoonAsPossible);
+
+SaveOptions options = new PdfSaveOptions();
+options.StartDate = project.Get(Prj.StartDate);
+options.Timescale = Timescale.ThirdsOfMonths;
+project.Save(OutDir + "AsSoonAsPossible_out.pdf", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

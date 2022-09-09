@@ -22,6 +22,25 @@ public bool Equals(Task other)
 
 returns true if the specified task and this instance have equal unique ids.
 
+### Examples
+
+Shows how to iterate over task's assignments.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // display task's assignments
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
 ### See Also
 
 * class [Task](../../task)
@@ -45,6 +64,25 @@ public override bool Equals(object obj)
 ### Return Value
 
 returns true if the specified task and this instance have equal unique ids.
+
+### Examples
+
+Shows how to iterate over task's assignments.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // display task's assignments
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
 
 ### See Also
 

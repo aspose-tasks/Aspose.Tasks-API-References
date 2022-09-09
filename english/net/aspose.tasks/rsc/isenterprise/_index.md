@@ -14,6 +14,20 @@ Shows whether a resource is from the enterprise resource pool (true) or the loca
 public static readonly Key<NullableBool, RscKey> IsEnterprise;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.IsEnterprise property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsEnterprise, true);
+
+Console.WriteLine("Is Enterprise: " + resource.Get(Rsc.IsEnterprise));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

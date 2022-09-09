@@ -26,6 +26,17 @@ public enum ApplicationInfo
 | MSP2013 | `5` | File was created in Microsoft Project 2013. |
 | MSP2016 | `6` | File was created in Microsoft Project 2016. |
 
+### Examples
+
+Shows how to check project application info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

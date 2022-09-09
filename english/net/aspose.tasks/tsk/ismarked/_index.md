@@ -18,6 +18,20 @@ public static readonly Key<bool, TaskKey> IsMarked;
 
 Applies to mpp file format only. Boolean type.
 
+### Examples
+
+Shows how to read/write Tsk.IsMarked property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsMarked, true);
+
+Console.WriteLine("Is Marked: " + task.Get(Tsk.IsMarked));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

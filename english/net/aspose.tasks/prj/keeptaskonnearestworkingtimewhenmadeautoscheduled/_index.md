@@ -14,6 +14,18 @@ Determines whether manual tasks must be kept on nearest working time when made a
 public static readonly Key<NullableBool, PrjKey> KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled;
 ```
 
+### Examples
+
+Shows how to read/write Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled, true);
+
+Console.WriteLine("Keep Task On Nearest Working Time When Made Auto Scheduled: " + project.Get(Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

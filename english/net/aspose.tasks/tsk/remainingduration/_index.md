@@ -14,6 +14,20 @@ The time that is required to complete the unfinished part of a task.
 public static readonly Key<Duration, TaskKey> RemainingDuration;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.RemainingDuration property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.RemainingDuration, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Remaining Duration: " + task.Get(Tsk.RemainingDuration));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

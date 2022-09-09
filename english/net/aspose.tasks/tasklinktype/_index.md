@@ -23,6 +23,27 @@ public enum TaskLinkType
 | StartToFinish | `2` | Start-Finish relationship |
 | StartToStart | `3` | Start-Start relationship |
 
+### Examples
+
+Shows how to get/set a link type of a task link.
+
+```csharp
+var project = new Project();
+
+// Add new tasks
+var pred = project.RootTask.Children.Add("Task 1");
+var succ = project.RootTask.Children.Add("Task 2");
+
+// Link tasks with link type set to Start to Start
+var newLink = project.TaskLinks.Add(pred, succ);
+newLink.LinkType = TaskLinkType.StartToStart;
+
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("Task Link Type: " + link.LinkType.ToString());
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

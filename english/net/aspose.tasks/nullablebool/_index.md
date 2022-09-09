@@ -40,6 +40,35 @@ public struct NullableBool : IEquatable<NullableBool>
 | [implicit operator](../../aspose.tasks/nullablebool/op_implicit#op_implicit_1) | Implicitly converts a [`NullableBool`](../nullablebool) instance to a boolean value. Returns true when [`Value`](./value) is true and [`IsDefined`](./isdefined) is true. (2 operators) |
 | [operator !=](../../aspose.tasks/nullablebool/op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
 
+### Examples
+
+Shows how to work with &lt;see cref="NullableBool" /&gt; class.
+
+```csharp
+var project = new Project();
+
+// lets check where the <see cref="Aspose.Tasks.NullableBool" /> class is used
+// the main advantage of <see cref="Aspose.Tasks.NullableBool" /> that 
+// one can set it as undefined through constructing
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// use nullable bool instance
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// use nullable bool instance
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

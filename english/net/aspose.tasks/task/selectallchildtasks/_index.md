@@ -18,6 +18,21 @@ public IEnumerable<Task> SelectAllChildTasks()
 
 A list of child tasks of this task.
 
+### Examples
+
+Shows how to iterate over child tasks.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task 1");
+task.Children.Add("Task 2");
+
+foreach (var tsk in project.RootTask.SelectAllChildTasks())
+{
+    Console.WriteLine("{0} {1}", tsk.Get(Tsk.Id), tsk.Get(Tsk.Name));
+}
+```
+
 ### See Also
 
 * class [Task](../../task)

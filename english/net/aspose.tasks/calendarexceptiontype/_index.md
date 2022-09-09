@@ -28,6 +28,28 @@ public enum CalendarExceptionType
 | ByWeekDayCount | `7` | Indicates By weekday count exception type. |
 | NoExceptionType | `8` | Indicates No exception type. |
 
+### Examples
+
+Shows how to define a calendar exception by occurrences.
+
+```csharp
+var project = new Project();
+
+// Define a calendar
+var calendar = project.Calendars.Add("Calendar1");
+
+// Define exception and specify occurrences
+var exception = new CalendarException();
+exception.EnteredByOccurrences = true;
+exception.Occurrences = 5;
+exception.Type = CalendarExceptionType.YearlyByDay;
+exception.MonthDay = 22;
+exception.Month = Month.April;
+
+// Add exception to calendar
+calendar.Exceptions.Add(exception);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

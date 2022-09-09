@@ -14,6 +14,20 @@ Costs incurred for work already performed by resources on their tasks, along wit
 public static readonly Key<decimal, RscKey> ActualCost;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.ActualCost property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualCost, 10m);
+
+Console.WriteLine("Actual Cost: " + resource.Get(Rsc.ActualCost));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

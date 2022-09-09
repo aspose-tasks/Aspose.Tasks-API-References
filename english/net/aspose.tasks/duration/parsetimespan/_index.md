@@ -22,6 +22,15 @@ public static TimeSpan ParseTimeSpan(string value)
 
 returns parsed instance of the [`TimeSpan`](../timespan) struct.
 
+### Examples
+
+Shows how to convert a string into a time span.
+
+```csharp
+var timeSpan = Duration.ParseTimeSpan("PT1H10M30S");
+Console.WriteLine("The parsed time span: " + timeSpan);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)

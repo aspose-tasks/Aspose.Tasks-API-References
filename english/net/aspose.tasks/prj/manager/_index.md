@@ -14,6 +14,18 @@ The manager of a project.
 public static readonly Key<string, PrjKey> Manager;
 ```
 
+### Examples
+
+Shows how to read/write Prj.Manager property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Manager, "Steve");
+
+Console.WriteLine("Manager: " + project.Get(Prj.Manager));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

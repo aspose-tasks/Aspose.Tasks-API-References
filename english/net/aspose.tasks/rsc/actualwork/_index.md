@@ -14,6 +14,21 @@ The amount of work that has already been done by resource assigned to tasks.
 public static readonly Key<Duration, RscKey> ActualWork;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.ActualWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualWork, project.GetWork(1));
+
+Console.WriteLine("Actual Work: " + resource.Get(Rsc.ActualWork));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

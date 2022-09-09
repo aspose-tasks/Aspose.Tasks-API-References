@@ -14,6 +14,18 @@ Determines whether actual costs are spread to the status date.
 public static readonly Key<NullableBool, PrjKey> SpreadActualCost;
 ```
 
+### Examples
+
+Shows how to read/write Prj.SpreadActualCost property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadActualCost, true);
+
+Console.WriteLine("Spread Actual Cost: " + project.Get(Prj.SpreadActualCost));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

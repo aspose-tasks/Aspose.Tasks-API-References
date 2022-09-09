@@ -14,6 +14,20 @@ The booking type of a resource.
 public static readonly Key<BookingType, RscKey> BookingType;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.BookingType property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.BookingType, BookingType.Committed);
+
+Console.WriteLine("Booking Type: " + resource.Get(Rsc.BookingType));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

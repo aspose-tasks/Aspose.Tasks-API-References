@@ -14,6 +14,20 @@ Determines whether the task should be displayed as a summary task.  Reading supp
 public static readonly Key<NullableBool, TaskKey> DisplayAsSummary;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.DisplayAsSummary property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DisplayAsSummary, true);
+
+Console.WriteLine("Display As Summary: " + task.Get(Tsk.DisplayAsSummary));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

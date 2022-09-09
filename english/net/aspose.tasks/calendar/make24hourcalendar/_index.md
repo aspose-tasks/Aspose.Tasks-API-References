@@ -22,6 +22,35 @@ public static Calendar Make24HourCalendar(Calendar calendar)
 
 24Hour Calendar.
 
+### Examples
+
+Shows how to create a 24 hours calendar.
+
+```csharp
+Project project = new Project();
+var calendar = project.Calendars.Add("New calendar");
+Calendar.Make24HourCalendar(calendar);
+
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// 24 hours will be printed
+Console.WriteLine("Hours: " + workingHours.TotalHours);
+```
+
+Shows how to transform a new calendar into a 24 hours calendar.
+
+```csharp
+var project = new Project();
+
+var calendar = project.Calendars.Add("24 Hours");
+calendar = Calendar.Make24HourCalendar(calendar);
+
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// 24 hours will be printed
+Console.WriteLine("Hours: " + workingHours.TotalHours);
+```
+
 ### See Also
 
 * class [Calendar](../../calendar)

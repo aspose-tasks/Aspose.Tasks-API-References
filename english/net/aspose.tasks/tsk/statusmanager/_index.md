@@ -14,6 +14,20 @@ The name of the enterprise resource who is to receive status updates for the cur
 public static readonly Key<string, TaskKey> StatusManager;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.StatusManager property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StatusManager, "John Smith");
+
+Console.WriteLine("Status Manager: " + task.Get(Tsk.StatusManager));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

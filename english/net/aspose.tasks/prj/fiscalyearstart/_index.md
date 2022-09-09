@@ -14,6 +14,22 @@ Determines whether the fiscal year numbering is used.
 public static readonly Key<NullableBool, PrjKey> FiscalYearStart;
 ```
 
+### Examples
+
+Shows how to write fiscal year properties.
+
+```csharp
+var project = new Project(DataDir + "WriteFiscalYearProperties.mpp");
+
+// Set fiscal year properties
+project.Set(Prj.FyStartDate, Month.July);
+project.Set(Prj.FiscalYearStart, true);
+
+// Display fiscal year properties
+Console.WriteLine("Fiscal Year Start Date: " + project.Get(Prj.FyStartDate));
+Console.WriteLine("Fiscal Year Numbering: " + project.Get(Prj.FiscalYearStart));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

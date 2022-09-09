@@ -21,6 +21,30 @@ public class TasksReadingException : TasksLoggedException
 | [LogText](../../aspose.tasks/tasksloggedexception/logtext) { get; } | Gets the exception logging information. |
 | [Operation](../../aspose.tasks/tasksloggedexception/operation) { get; } | Gets the exception operation information. |
 
+### Examples
+
+Shows how to handle project' reading/writing exceptions.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "project.mpp");
+    project.Save(OutDir + "HandleExceptions_out.mpp", SaveFileFormat.Mpp);
+}
+catch (TasksReadingException ex)
+{
+    Console.WriteLine("Message: ");
+    Console.WriteLine(ex.Message);
+    Console.WriteLine("Log: ");
+    Console.WriteLine(ex.LogText);
+    if (ex.InnerException != null)
+    {
+        Console.WriteLine("Inner exception message: ");
+        Console.WriteLine(ex.InnerException.Message);
+    }
+}
+```
+
 ### See Also
 
 * class [TasksLoggedException](../tasksloggedexception)

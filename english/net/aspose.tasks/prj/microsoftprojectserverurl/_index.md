@@ -14,6 +14,18 @@ Determines whether a project was created by a Project Server user as opposed to 
 public static readonly Key<NullableBool, PrjKey> MicrosoftProjectServerURL;
 ```
 
+### Examples
+
+Shows how to read/write Prj.MicrosoftProjectServerURL property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MicrosoftProjectServerURL, true);
+
+Console.WriteLine("Microsoft Project Server U R L: " + project.Get(Prj.MicrosoftProjectServerURL));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

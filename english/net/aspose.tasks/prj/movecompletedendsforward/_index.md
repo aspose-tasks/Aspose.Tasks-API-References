@@ -14,6 +14,18 @@ Determines whether the end of completed portions of tasks scheduled to have been
 public static readonly Key<NullableBool, PrjKey> MoveCompletedEndsForward;
 ```
 
+### Examples
+
+Shows how to read/write Prj.MoveCompletedEndsForward property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveCompletedEndsForward, true);
+
+Console.WriteLine("Move Completed Ends Forward: " + project.Get(Prj.MoveCompletedEndsForward));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

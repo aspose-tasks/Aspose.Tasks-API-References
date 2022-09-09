@@ -14,6 +14,22 @@ Gets or sets a protection password.
 public string Password { get; set; }
 ```
 
+### Examples
+
+Shows how to load the password-protected project using &lt;see cref="Aspose.Tasks.LoadOptions"/&gt; instance.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../../loadoptions)

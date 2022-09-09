@@ -14,6 +14,21 @@ The time still required to complete a task or set of tasks.
 public static readonly Key<Duration, RscKey> RemainingWork;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.RemainingWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Work: " + resource.Get(Rsc.RemainingWork));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

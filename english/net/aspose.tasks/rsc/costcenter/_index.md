@@ -14,6 +14,20 @@ Indicates which cost center the costs accrued by the resource should be charged 
 public static readonly Key<string, RscKey> CostCenter;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.CostCenter property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostCenter, "Center");
+
+Console.WriteLine("Cost Center: " + resource.Get(Rsc.CostCenter));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

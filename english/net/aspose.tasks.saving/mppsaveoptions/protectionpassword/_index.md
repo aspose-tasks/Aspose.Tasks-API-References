@@ -14,6 +14,29 @@ Gets or sets a password which is used to protect a resulting MPP file. Currently
 public string ProtectionPassword { get; set; }
 ```
 
+### Examples
+
+Shows how to save a project to password protected MPP file.
+
+```csharp
+try
+{
+
+    var project = new Project(DataDir + "Project1.mpp");
+
+    var options = new MPPSaveOptions
+    {
+        ProtectionPassword = "password!234"
+    };
+
+    project.Save(OutDir + "PasswordProtected.mpp", options);
+}
+catch (NotSupportedException ex)
+{
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+}
+```
+
 ### See Also
 
 * class [MPPSaveOptions](../../mppsaveoptions)

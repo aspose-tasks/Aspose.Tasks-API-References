@@ -14,6 +14,18 @@ Determines whether all actual works have been synchronized with the project.
 public static readonly Key<NullableBool, PrjKey> ActualsInSync;
 ```
 
+### Examples
+
+Shows how to read/write Prj.ActualsInSync property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ActualsInSync, true);
+
+Console.WriteLine("Actuals In Sync: " + project.Get(Prj.ActualsInSync));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -22,7 +22,7 @@ public class Resource : IEquatable<Resource>
 | [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods) { get; } | Gets a the instance of the [`AvailabilityPeriodCollection`](../availabilityperiodcollection) class. The collection of periods during which a resource is available. |
 | [Baselines](../../aspose.tasks/resource/baselines) { get; } | Gets a BaselineCollection instance for this object. The baseline values for a resource. |
 | [ExtendedAttributes](../../aspose.tasks/resource/extendedattributes) { get; } | Gets the values of an extended attribute. |
-| virtual [IsRoot](../../aspose.tasks/resource/isroot) { get; } | Gets the flag indicating whether resource is a root resource. Root resource is a special resource which is intended to support internals of MS Project's formats and is not intended to be used directly from the user's code. |
+| virtual [IsRoot](../../aspose.tasks/resource/isroot) { get; } |  |
 | [OutlineCode](../../aspose.tasks/resource/outlinecode) { get; } | Gets an OutlineCodeCollection object. The value of an outline code. |
 | [ParentProject](../../aspose.tasks/resource/parentproject) { get; } | Gets parent project for this container. |
 | [Rates](../../aspose.tasks/resource/rates) { get; } | Gets a the instance of the [`RateCollection`](../ratecollection) class for this object. The collection of periods and rates associated with each one. |
@@ -42,6 +42,19 @@ public class Resource : IEquatable<Resource>
 | [Set](../../aspose.tasks/resource/set#set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Maps the specified property to the specified value in this container. |
 | [Set&lt;T&gt;](../../aspose.tasks/resource/set#set_1)(Key&lt;T, RscKey&gt;, T) | Maps the specified property to the specified value in this container. |
 | override [ToString](../../aspose.tasks/resource/tostring)() | Returns short string representation of the instance of the [`Resource`](../resource) class. The exact details of the representation are unspecified and subject to change. |
+
+### Examples
+
+Shows how to add project resources.
+
+```csharp
+var project = new Project();
+
+// Add resources
+project.Resources.Add("Resource");
+
+project.Save(OutDir + "CreateResources_out.xml", SaveFileFormat.Xml);
+```
 
 ### See Also
 

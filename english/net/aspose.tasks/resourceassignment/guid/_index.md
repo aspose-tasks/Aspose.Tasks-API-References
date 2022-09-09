@@ -14,6 +14,19 @@ Gets or sets unique identifier for this assignment.
 public Guid? Guid { get; set; }
 ```
 
+### Examples
+
+Shows how to read an resource assignment GUID.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Resource");
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+Console.WriteLine(assignment.Guid);
+```
+
 ### See Also
 
 * class [ResourceAssignment](../../resourceassignment)

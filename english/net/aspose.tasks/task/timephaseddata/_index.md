@@ -18,6 +18,22 @@ public TimephasedDataCollection TimephasedData { get; set; }
 
 Reading supported for XML format only.
 
+### Examples
+
+Shows how to iterate over task's timephased data.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+foreach (var td in task.TimephasedData)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
 ### See Also
 
 * class [TimephasedDataCollection](../../timephaseddatacollection)

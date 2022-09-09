@@ -14,6 +14,20 @@ The text notes associated with a resource.
 public static readonly Key<string, RscKey> Notes;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Notes property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Notes, "Resource Notes");
+
+Console.WriteLine("Notes: " + resource.Get(Rsc.Notes));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

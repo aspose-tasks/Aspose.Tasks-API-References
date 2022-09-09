@@ -14,6 +14,20 @@ Gets or sets the custom page size in points (1 point = 1/72 of inch).
 public SizeF CustomPageSize { get; set; }
 ```
 
+### Examples
+
+Shows how to set custom page size when project is saved to PDF.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions();
+options.PresentationFormat = PresentationFormat.GanttChart;
+options.CustomPageSize = new SizeF(5.8F * 72, 8.3F * 72);
+
+project.Save(OutDir + "WorkWithCustomPageSize_out.pdf", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

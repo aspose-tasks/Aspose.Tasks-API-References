@@ -14,6 +14,20 @@ The phonetic spelling of the resource name. For use with Japanese only.
 public static readonly Key<string, RscKey> Phonetics;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Phonetics property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Phonetics, "Phonetics");
+
+Console.WriteLine("Phonetics: " + resource.Get(Rsc.Phonetics));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

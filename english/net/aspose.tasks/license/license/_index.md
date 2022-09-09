@@ -38,6 +38,13 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
+Shows how to apply a license of Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
 ### See Also
 
 * class [License](../../license)

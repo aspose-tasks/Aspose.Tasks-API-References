@@ -14,6 +14,21 @@ The actual amount of overtime work already performed by resource assigned to tas
 public static readonly Key<Duration, RscKey> ActualOvertimeWork;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.ActualOvertimeWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualOvertimeWork, project.GetWork(1));
+
+Console.WriteLine("Actual Overtime Work: " + resource.Get(Rsc.ActualOvertimeWork));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

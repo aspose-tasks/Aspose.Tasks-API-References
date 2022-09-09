@@ -14,6 +14,20 @@ Gets an instance of `VbaProject` class.
 public VbaProject VbaProject { get; }
 ```
 
+### Examples
+
+Shows how to read VBA project information.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("VbaProject.Name " + project.VbaProject.Name);
+Console.WriteLine("VbaProject.Description " + project.VbaProject.Description);
+Console.WriteLine("VbaProject.CompilationArguments" + project.VbaProject.CompilationArguments);
+Console.WriteLine("VbaProject.HelpContextId" + project.VbaProject.HelpContextId);
+Console.WriteLine("VbaProject.HelpFile" + project.VbaProject.HelpFile);
+```
+
 ### See Also
 
 * class [VbaProject](../../vbaproject)

@@ -14,6 +14,31 @@ Represents an exception which is thrown when errors are found during interaction
 public class ProjectOnlineException : TasksException
 ```
 
+### Examples
+
+Shows how to catch exception while reading a project from MS Project Online.
+
+```csharp
+try
+{
+    const string URL = "https://project_server.local/sites/pwa";
+    const string Domain = "CONTOSO.COM";
+    const string UserName = "Administrator";
+    const string Password = "MyPassword";
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+    var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+    var manager = new ProjectServerManager(projectServerCredentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
 ### See Also
 
 * class [TasksException](../tasksexception)

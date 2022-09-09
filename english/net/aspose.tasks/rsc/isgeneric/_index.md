@@ -14,6 +14,20 @@ Determines whether a resource is generic or not.
 public static readonly Key<NullableBool, RscKey> IsGeneric;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.IsGeneric property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsGeneric, true);
+
+Console.WriteLine("Is Generic: " + resource.Get(Rsc.IsGeneric));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

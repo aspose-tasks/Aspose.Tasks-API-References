@@ -14,6 +14,18 @@ The name of the project.
 public static readonly Key<string, PrjKey> Name;
 ```
 
+### Examples
+
+Shows how to read/write project name.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+project.Set(Prj.Name, "Custom Project Name");
+
+Console.WriteLine("Project name: " + project.Get(Prj.Name));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

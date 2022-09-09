@@ -14,6 +14,18 @@ The GUID of the project.
 public static readonly Key<Guid, PrjKey> Guid;
 ```
 
+### Examples
+
+Shows how to read/write Prj.Guid property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Guid, new Guid("efcc0d63-d8e0-4a34-9f3e-9f973f50238a"));
+
+Console.WriteLine("Guid: " + project.Get(Prj.Guid));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

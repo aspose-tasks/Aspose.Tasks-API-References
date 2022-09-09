@@ -100,6 +100,17 @@ public enum PrjKey
 | CustomDateFormat | `79` | Represents user-defined date format. |
 | TemplateFullPath | `80` | Represents the Template (Project) full file name. |
 
+### Examples
+
+Shows how to set attributes for new tasks.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

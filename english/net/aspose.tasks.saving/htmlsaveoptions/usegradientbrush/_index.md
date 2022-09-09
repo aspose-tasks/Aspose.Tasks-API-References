@@ -14,6 +14,23 @@ Gets or sets a value indicating whether to use gradient brush when rendering pro
 public override bool UseGradientBrush { get; set; }
 ```
 
+### Examples
+
+Shows how to set custom font that will be used to export the project in HTML file.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new HtmlSaveOptions
+                  {
+                      PresentationFormat = PresentationFormat.GanttChart,
+                      FitContent = true,
+                      UseProjectDefaultFont = false,
+                      DefaultFontName = "Segoe UI Black"
+                  };
+project.Save(OutDir + "AddDefaultFontDuringSavingAsHtml_out.html", options);
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

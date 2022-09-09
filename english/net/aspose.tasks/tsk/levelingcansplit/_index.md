@@ -14,6 +14,20 @@ Determines whether the resource leveling function can cause splits on remaining 
 public static readonly Key<NullableBool, TaskKey> LevelingCanSplit;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.LevelingCanSplit property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingCanSplit, true);
+
+Console.WriteLine("Leveling Can Split: " + task.Get(Tsk.LevelingCanSplit));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

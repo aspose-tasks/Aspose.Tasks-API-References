@@ -14,6 +14,20 @@ Notes' plain text extracted from RTF data.
 public static readonly Key<string, TaskKey> NotesText;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.NotesText property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.NotesText, "Notes");
+
+Console.WriteLine("Notes Text: " + task.Get(Tsk.NotesText));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

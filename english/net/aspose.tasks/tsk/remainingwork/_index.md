@@ -14,6 +14,21 @@ The time still required to complete a task or set of tasks.
 public static readonly Key<Duration, TaskKey> RemainingWork;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.RemainingWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Hour);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.RemainingWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Work: " + task.Get(Tsk.RemainingWork));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

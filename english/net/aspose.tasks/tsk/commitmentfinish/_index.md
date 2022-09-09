@@ -14,6 +14,20 @@ The finish date of a delivery.  Reading supported for XML format only. DateTime 
 public static readonly Key<DateTime, TaskKey> CommitmentFinish;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.CommitmentFinish property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.CommitmentFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Commitment Finish: " + task.Get(Tsk.CommitmentFinish));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

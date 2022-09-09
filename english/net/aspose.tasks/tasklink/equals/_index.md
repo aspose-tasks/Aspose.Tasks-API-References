@@ -22,6 +22,24 @@ public bool Equals(TaskLink other)
 
 **True** if the specified instance of the [`TaskLink`](../../tasklink) class has the same predecessor and successor tasks as this instance; otherwise, **false**.
 
+### Examples
+
+Shows how to check equality of task links.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// the equality of task links is based on pred and succ tasks.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
 ### See Also
 
 * class [TaskLink](../../tasklink)
@@ -45,6 +63,24 @@ public override bool Equals(object obj)
 ### Return Value
 
 **True** if the specified object is a TaskLink that has the same predecessor and successor as this instance; otherwise, **false**.
+
+### Examples
+
+Shows how to check equality of task links.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// the equality of task links is based on pred and succ tasks.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
 
 ### See Also
 

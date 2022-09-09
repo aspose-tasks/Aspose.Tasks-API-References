@@ -81,6 +81,22 @@ childTask2.Set(Tsk.Finish, new DateTime(2020, 2, 14, 17, 0, 0));
 project.Save("Filled project.xml", SaveFileFormat.MPP);
 ```
 
+### Examples
+
+Shows how to add a task into a project.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task1");
+task.Set(Tsk.DurationFormat, TimeUnitType.Day);
+task.Set(Tsk.Start, new DateTime(2012, 8, 23, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.ActualStart, new DateTime(2012, 8, 23, 8, 0, 0));
+
+project.Save(OutDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

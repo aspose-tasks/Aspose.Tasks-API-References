@@ -14,6 +14,20 @@ Determines whether a task is an inserted project.
 public static readonly Key<bool, TaskKey> IsSubproject;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsSubproject property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSubproject, true);
+
+Console.WriteLine("Is Subproject: " + task.Get(Tsk.IsSubproject));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,24 @@ Indents a task in the outline.
 public void OutlineIndent()
 ```
 
+### Examples
+
+Shows how to indent a task.
+
+```csharp
+var project = new Project();
+var task1 = project.RootTask.Children.Add("Parent");
+var task2 = project.RootTask.Children.Add("Task");
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+
+// indent the task
+task2.OutlineIndent();
+
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+```
+
 ### See Also
 
 * class [Task](../../task)

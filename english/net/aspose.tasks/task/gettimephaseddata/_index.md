@@ -25,6 +25,24 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 A [`TimephasedDataCollection`](../../timephaseddatacollection) object with [`TimephasedData`](../timephaseddata) values within given start and end dates of specified timephased data type.
 
+### Examples
+
+Shows how to get timephased data (with specific type) of the task.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate).AddDays(2), TimephasedDataType.TaskBaselineWork)
+    .ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
 ### See Also
 
 * class [TimephasedDataCollection](../../timephaseddatacollection)
@@ -51,6 +69,22 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 ### Return Value
 
 List of [`TimephasedData`](../../timephaseddata) to be filled in.
+
+### Examples
+
+Shows how to get timephased data (with TaskWork type) of the task.
+
+```csharp
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)).ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
 
 ### See Also
 

@@ -18,6 +18,60 @@ public override string ToString()
 
 short string which represents task object.
 
+### Examples
+
+Shows how to sort tasks by name.
+
+```csharp
+public void SortTasksByName()
+{
+    var project = new Project(DataDir + "project-sort.mpp");
+    var collector = new ChildTasksCollector();
+    TaskUtils.Apply(project.RootTask, collector, 0);
+    List<Task> tasks = collector.Tasks;
+
+    tasks.Sort(new TaskNameComparer());
+
+    foreach (var task in tasks)
+    {
+        Console.WriteLine(task.ToString());
+    }
+}
+
+private class TaskNameComparer : IComparer<Task>
+{
+    public int Compare(Task x, Task y)
+    {
+        if (x == null && y == null)
+        {
+            return 0;
+        }
+
+        if (x == null)
+        {
+            return -1;
+        }
+
+        if (y == null)
+        {
+            return 1;
+        }
+
+        if (string.IsNullOrEmpty(x.Get(Tsk.Name)))
+        {
+            return 1;
+        }
+
+        if (string.IsNullOrEmpty(y.Get(Tsk.Name)))
+        {
+            return -1;
+        }
+
+        return string.Compare(x.Get(Tsk.Name), y.Get(Tsk.Name), StringComparison.Ordinal);
+    }
+}
+```
+
 ### See Also
 
 * class [Task](../../task)

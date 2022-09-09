@@ -14,6 +14,18 @@ Determines whether in-progress tasks can be split.
 public static readonly Key<NullableBool, PrjKey> SplitsInProgressTasks;
 ```
 
+### Examples
+
+Shows how to read/write Prj.SplitsInProgressTasks property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SplitsInProgressTasks, true);
+
+Console.WriteLine("Splits In Progress Tasks: " + project.Get(Prj.SplitsInProgressTasks));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

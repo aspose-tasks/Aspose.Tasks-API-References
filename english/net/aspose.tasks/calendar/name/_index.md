@@ -14,6 +14,26 @@ Gets or sets the name of the calendar. Read/write String.
 public string Name { get; set; }
 ```
 
+### Examples
+
+Shows how to retrieve calendar info.
+
+```csharp
+var project = new Project(DataDir + "RetrieveCalendarInfo.mpp");
+
+// Retrieve Calendars Information
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Calendar UID: " + calendar.Uid);
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
 ### See Also
 
 * class [Calendar](../../calendar)

@@ -18,6 +18,20 @@ public Project ParentProject { get; }
 
 Call Project.UpdateReferences to update these properties.
 
+### Examples
+
+Shows how to use parent project of task.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Parent");
+
+// set a duration for the task by using default project time unit type.
+task.Set(Tsk.Duration, task.ParentProject.GetDuration(1));
+
+Console.WriteLine(task.Get(Tsk.Duration));
+```
+
 ### See Also
 
 * class [Project](../../project)

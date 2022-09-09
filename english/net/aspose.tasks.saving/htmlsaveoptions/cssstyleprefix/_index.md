@@ -14,6 +14,18 @@ Gets or sets CSS style prefix.
 public string CssStylePrefix { get; set; }
 ```
 
+### Examples
+
+Shows how to set a common prefix for CSS styles are used during export to HTML.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new HtmlSaveOptions { CssStylePrefix = "test_prefix" };
+
+project.Save(OutDir + "TestCssStylePrefix_out.html", options);
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

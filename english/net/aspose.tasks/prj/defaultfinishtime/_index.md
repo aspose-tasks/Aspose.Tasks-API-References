@@ -14,6 +14,18 @@ The default finish time of new tasks.
 public static readonly Key<DateTime, PrjKey> DefaultFinishTime;
 ```
 
+### Examples
+
+Shows how to read/write Prj.DefaultFinishTime property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.DefaultFinishTime, new DateTime(2000, 1, 3, 10, 0, 0));
+
+Console.WriteLine("Default Finish Time: " + project.Get(Prj.DefaultFinishTime));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

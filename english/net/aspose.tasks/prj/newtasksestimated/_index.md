@@ -14,6 +14,18 @@ Determines whether an estimated duration is shown by default.
 public static readonly Key<NullableBool, PrjKey> NewTasksEstimated;
 ```
 
+### Examples
+
+Shows how to read/write Prj.NewTasksEstimated property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksEstimated, true);
+
+Console.WriteLine("New Tasks Estimated: " + project.Get(Prj.NewTasksEstimated));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

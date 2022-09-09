@@ -14,6 +14,18 @@ Project view custom date format. Used to format dates when [`DateFormat`](../dat
 public static readonly Key<string, PrjKey> CustomDateFormat;
 ```
 
+### Examples
+
+Shows how to read/write Prj.CustomDateFormat property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CustomDateFormat, "dd MMMM yyyy H:mm");
+
+Console.WriteLine("Custom Date Format: " + project.Get(Prj.CustomDateFormat));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

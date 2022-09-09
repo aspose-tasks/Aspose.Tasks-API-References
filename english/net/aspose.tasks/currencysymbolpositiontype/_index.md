@@ -28,6 +28,18 @@ public enum CurrencySymbolPositionType
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
 
+### Examples
+
+Shows how to specify the placement of the currency symbol (CurrencySymbolPositionType.Before).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// set the placement of the currency symbol
+// Before, no space ($0).
+project.Set(Prj.CurrencySymbolPosition, CurrencySymbolPositionType.Before);
+// work with the project...
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

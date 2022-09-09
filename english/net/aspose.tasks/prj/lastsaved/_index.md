@@ -14,6 +14,18 @@ The date when a project was saved last time. Saved in UTC format in mpp files. D
 public static readonly Key<DateTime, PrjKey> LastSaved;
 ```
 
+### Examples
+
+Shows how to check project's save version and save date.
+
+```csharp
+var project = new Project(DataDir + "DetermineProjectVersion.mpp");
+
+// Display project version
+Console.WriteLine("Project Version : " + project.Get(Prj.SaveVersion));
+Console.WriteLine("Last Saved : " + project.Get(Prj.LastSaved).ToShortDateString());
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

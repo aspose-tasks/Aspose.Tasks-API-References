@@ -14,6 +14,20 @@ Determines whether a task is external.
 public static readonly Key<bool, TaskKey> IsExternalTask;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsExternalTask property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsExternalTask, true);
+
+Console.WriteLine("Is External Task: " + task.Get(Tsk.IsExternalTask));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

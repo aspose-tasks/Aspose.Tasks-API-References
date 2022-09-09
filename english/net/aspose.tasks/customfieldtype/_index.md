@@ -30,6 +30,20 @@ public enum CustomFieldType
 | OutlineCode | `9` | Indicates Outline Code custom field type. |
 | RBS | `10` | Indicates RBS (Resource Breakdown Structure) custom field type. |
 
+### Examples
+
+Shows how to use &lt;see cref="CustomFieldType" /&gt; (CustomFieldType.Text).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
+    CustomFieldType.Text,
+    ExtendedAttributeTask.Text1,
+    "MyText");
+project.ExtendedAttributes.Add(definition);
+// work with definitions...
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

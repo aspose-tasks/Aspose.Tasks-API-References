@@ -23,6 +23,22 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, Duration dura
 
 Calculated StartDate.
 
+### Examples
+
+Shows how to get a start date by finish date and duration.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// get start date by finish date and a duration
+var startDate = calendar.GetStartDateFromFinishAndDuration(new DateTime(2020, 4, 10, 9, 0, 0), project.GetDuration(16, TimeUnitType.Hour));
+
+// 8 April 2020 9:00 AM will be printed
+Console.WriteLine(startDate);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)
@@ -48,6 +64,22 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, TimeSpan dura
 ### Return Value
 
 Calculated StartDate.
+
+### Examples
+
+Shows how to get a start date by finish date and duration (as a time span).
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// get start date by finish date and a duration
+var startDate = calendar.GetStartDateFromFinishAndDuration(new DateTime(2020, 4, 10, 9, 0, 0), TimeSpan.FromHours(16));
+
+// 8 April 2020 9:00 AM will be printed
+Console.WriteLine(startDate);
+```
 
 ### See Also
 

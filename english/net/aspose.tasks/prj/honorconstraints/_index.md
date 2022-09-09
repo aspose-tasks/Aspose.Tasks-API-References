@@ -14,6 +14,18 @@ Determines whether tasks honor their constraint dates.
 public static readonly Key<NullableBool, PrjKey> HonorConstraints;
 ```
 
+### Examples
+
+Shows how to read/write Prj.HonorConstraints property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.HonorConstraints, true);
+
+Console.WriteLine("Honor Constraints: " + project.Get(Prj.HonorConstraints));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -36,6 +36,28 @@ ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project);
 ```
 
+Shows how to use ProjectServerManager to create a new project on Microsoft Project Online.
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
 ### See Also
 
 * class [Project](../../project)
@@ -77,6 +99,32 @@ manager.CreateNewProject(project, new ProjectServerSaveOptions
 {
     ProjectName = "My new project"
 });
+```
+
+Shows how to use Project Server manager to create a new project with predefined save options on Microsoft Project Online.
+
+```csharp
+try
+{
+    const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    var options = new ProjectServerSaveOptions
+    {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
 ```
 
 ### See Also

@@ -22,6 +22,19 @@ public static int TaskChildrenCount(Task task)
 
 The number of children.
 
+### Examples
+
+Shows how to use &lt;see cref="Aspose.Tasks.Util.TaskUtils.TaskChildrenCount" /&gt; method.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// recursively calculates a number of task's children tasks through all levels
+var count = TaskUtils.TaskChildrenCount(project.RootTask);
+
+Console.WriteLine("Number of tasks: " + count);
+```
+
 ### See Also
 
 * class [Task](../../../aspose.tasks/task)

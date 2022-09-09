@@ -14,6 +14,20 @@ The time that represents the difference between a baseline start date of a task 
 public static readonly Key<Duration, TaskKey> StartVariance;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.StartVariance property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StartVariance, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Start Variance: " + task.Get(Tsk.StartVariance));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

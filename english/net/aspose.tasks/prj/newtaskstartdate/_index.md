@@ -14,6 +14,17 @@ The default start date type for new tasks.
 public static readonly Key<TaskStartDateType, PrjKey> NewTaskStartDate;
 ```
 
+### Examples
+
+Shows how to set attributes for new tasks.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

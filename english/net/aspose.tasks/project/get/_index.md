@@ -23,6 +23,18 @@ public T Get<T>(Key<T, PrjKey> key)
 
 the value to which the property is mapped in this container.
 
+### Examples
+
+Shows how to check a project version.
+
+```csharp
+var project = new Project(DataDir + "DetermineProjectVersion.mpp");
+
+// Display project version
+Console.WriteLine("Project Version : " + project.Get(Prj.SaveVersion));
+Console.WriteLine("Last Saved : " + project.Get(Prj.LastSaved).ToShortDateString());
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

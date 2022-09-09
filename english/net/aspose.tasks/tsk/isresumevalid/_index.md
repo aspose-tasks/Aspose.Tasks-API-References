@@ -14,6 +14,20 @@ Determines whether a task can be resumed.
 public static readonly Key<NullableBool, TaskKey> IsResumeValid;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsResumeValid property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsResumeValid, true);
+
+Console.WriteLine("Is Resume Valid: " + task.Get(Tsk.IsResumeValid));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,18 @@ Project's hyperlink base.
 public static readonly Key<string, PrjKey> HyperlinkBase;
 ```
 
+### Examples
+
+Shows how to read/write Prj.HyperlinkBase property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.HyperlinkBase, "www.aspose.com");
+
+Console.WriteLine("Hyperlink Base: " + project.Get(Prj.HyperlinkBase));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,25 @@ Gets CalendarExceptionCollection object. The collection of exceptions that is as
 public CalendarExceptionCollection Exceptions { get; }
 ```
 
+### Examples
+
+Shows how to retrieve info about calendar exceptions.
+
+```csharp
+var project = new Project(DataDir + "project_RetrieveExceptions_test.mpp");
+
+// Iterate over calendars
+foreach (var calendar in project.Calendars)
+{
+    // Access calendar exceptions
+    foreach (var exception in calendar.Exceptions)
+    {
+        Console.WriteLine("From: " + exception.FromDate.ToShortDateString());
+        Console.WriteLine("To: " + exception.ToDate.ToShortDateString());
+    }
+}
+```
+
 ### See Also
 
 * class [CalendarExceptionCollection](../../calendarexceptioncollection)

@@ -14,6 +14,31 @@ Gets all of the resource-based group definitions. ResourceGroups is a collection
 public GroupCollection ResourceGroups { get; }
 ```
 
+### Examples
+
+Shows how to read resource groups.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Resource Groups Count: " + project.ResourceGroups.Count);
+var resGroup = project.TaskGroups.ToList()[1];
+Console.WriteLine("Resource Group Name: " + resGroup.Name);
+Console.WriteLine("Resource Group Criteria count: " + resGroup.GroupCriteria.Count);
+Console.WriteLine("\n************* Retrieving Resource Group's Criterion information *************");
+var resCriterion = resGroup.GroupCriteria.ToList()[0];
+Console.WriteLine("Resource Criterion Field: " + resCriterion.Field);
+Console.WriteLine("Resource Criterion GroupOn: " + resCriterion.GroupOn);
+Console.WriteLine("Resource Criterion Cell Color: " + resCriterion.CellColor);
+Console.WriteLine("Resource Criterion Pattern: " + resCriterion.Pattern);
+
+Console.WriteLine("\n*********** Retrieving Resource Criterion's Font Information ***********");
+Console.WriteLine("Resource Font Name: " + resCriterion.Font.FontFamily);
+Console.WriteLine("Resource Font Size: " + resCriterion.Font.Size);
+Console.WriteLine("Resource Font Style: " + resCriterion.Font.Style);
+Console.WriteLine("Resource Ascending/Descending: " + resCriterion.Ascending);
+```
+
 ### See Also
 
 * class [GroupCollection](../../groupcollection)

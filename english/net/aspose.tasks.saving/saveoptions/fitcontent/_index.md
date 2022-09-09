@@ -14,6 +14,22 @@ Gets or sets a value indicating whether row height should be increased to fit it
 public bool FitContent { get; set; }
 ```
 
+### Examples
+
+Shows how to set the option whether row height should be increased to fit its content.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    // Set option fit content to true
+    FitContent = true,
+    Timescale = Timescale.Months,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+project.Save(OutDir + "FitContentsToCellSize_out.pdf", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

@@ -14,6 +14,20 @@ The amount of a work completed on an assignment.
 public static readonly Key<int, AsnKey> PercentWorkComplete;
 ```
 
+### Examples
+
+Shows how to read percent work complete of an assignment.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentPercentWorkComplete.mpp");
+
+// Print assignment percent completion
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.PercentWorkComplete).ToString());
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -49,6 +49,30 @@ public class SvgOptions : SaveOptions
 | [View](../../aspose.tasks.saving/saveoptions/view) { get; set; } | Gets or sets a list of the view columns to render ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn)). If not set then task ids, task names, start and finish are rendered only. If both View and [`ViewSettings`](../saveoptions/viewsettings) properties are set, columns from View overrides columns from ViewSettings. |
 | [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings) { get; set; } | Gets or sets a view ([`View`](../saveoptions/view)) to render. You can use this options to explicitly specify which view should be saved to PDF, HTML or Image formats. If this property is set, [`PresentationFormat`](../../aspose.tasks.visualization/presentationformat) property is ignored when project is saved. View should be from one of the following screen (([`Screen`](../../aspose.tasks/view/screen))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |
 
+### Examples
+
+Shows how to save project as SVG file.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+SaveOptions options = new SvgOptions
+                        {
+                            // set the <see cref="P:Aspose.Tasks.Saving.SaveOptions.PresentationFormat" /> in which the document will be saved
+                            PresentationFormat = PresentationFormat.GanttChart,
+
+                            // set a value indicating whether row height should be increased to fit its content
+                            FitContent = true,
+
+                            // set the minimal time period to render. The default value is <see cref="P:Aspose.Tasks.Saving.SaveOptions.Timescale">Days</see>
+                            Timescale = Timescale.ThirdsOfMonths,
+
+                            // determines whether to use gradient brush when rendering project layout
+                            // Currently using of gradient brush is not supported for rendering to SVG.
+                            // UseGradientBrush = true
+                        };
+project.Save(OutDir + "UseSvgOptions_out.svg", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

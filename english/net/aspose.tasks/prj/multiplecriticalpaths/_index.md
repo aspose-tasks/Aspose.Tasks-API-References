@@ -14,6 +14,18 @@ Determines whether multiple critical paths are calculated.
 public static readonly Key<NullableBool, PrjKey> MultipleCriticalPaths;
 ```
 
+### Examples
+
+Shows how to read/write Prj.MultipleCriticalPaths property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MultipleCriticalPaths, true);
+
+Console.WriteLine("Multiple Critical Paths: " + project.Get(Prj.MultipleCriticalPaths));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

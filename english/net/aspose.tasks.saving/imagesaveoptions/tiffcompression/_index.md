@@ -18,6 +18,22 @@ public TiffCompression TiffCompression { get; set; }
 
 Has effect only when saving to TIFF. The default value is `LZW`.
 
+### Examples
+
+Shows how to set TIFF compression of the output TIFF files.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// in order to manipulate TIFF compression we can use ImageSaveOptions.TiffCompression property.
+var options = new ImageSaveOptions(SaveFileFormat.Tiff)
+{
+    TiffCompression = TiffCompression.Lzw
+};
+
+project.Save(OutDir + "SaveProjectAsTiff_out.tif", options);
+```
+
 ### See Also
 
 * enum [TiffCompression](../../tiffcompression)

@@ -67,6 +67,69 @@ public class ExtendedAttributeDefinition
 | override [GetHashCode](../../aspose.tasks/extendedattributedefinition/gethashcode)() | Returns a hash code for the instance of the [`ExtendedAttributeDefinition`](../extendedattributedefinition) class. |
 | [RemoveLookupValue](../../aspose.tasks/extendedattributedefinition/removelookupvalue)(Value) | Removes a value from the internal lookup list. This is a preferable way for manipulations with the [`ValueList`](./valuelist). |
 
+### Examples
+
+Shows how to use common math functions with extended attributes.
+
+```csharp
+public static void EvaluateChoose()
+{
+    var project = CreateTestProjectWithCustomField();
+
+    // Set Formula
+    project.ExtendedAttributes[0].Formula = "Choose(3, \"This is a\", \"right\", \"choice\")";
+
+    // Print extended attribute value
+    var task = project.RootTask.Children.GetById(1);
+    Console.WriteLine(task.ExtendedAttributes[0].TextValue);
+}
+
+public static void EvaluateIsNumeric()
+{
+    string[] numericFormulas =
+        {
+            "IsNumeric('AAA')", @"IsNUmeric(1)", "IsNumeric(1<0)", "IsNumeric(\"1.1\")", "IsNumeric(Choose((2 + Sgn(2^-3)), 123, \"one two three\"))"
+        };
+
+    var project = CreateTestProjectWithCustomField();
+
+    foreach (var numericFormula in numericFormulas)
+    {
+        // Set Formula
+        project.ExtendedAttributes[0].Formula = numericFormula;
+
+        // Print extended attribute value
+        var task = project.RootTask.Children.GetById(1);
+        Console.WriteLine(task.ExtendedAttributes[0].TextValue);
+    }
+}
+
+public static void EvaluateSwitch()
+{
+    var project = CreateTestProjectWithCustomField();
+
+    // Set Formula
+    project.ExtendedAttributes[0].Formula = "Switch( 0 < 1, \"0 is lesser than 1\", 0 > 1, \"0 is greater than 1\")";
+
+    // Print extended attribute value
+    var task = project.RootTask.Children.GetById(1);
+    Console.WriteLine(task.ExtendedAttributes[0].TextValue);
+}
+
+public static Project CreateTestProjectWithCustomField()
+{
+    var project = new Project();
+    var definition = ExtendedAttributeDefinition.CreateTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text1, "Custom Field");
+    project.ExtendedAttributes.Add(definition);
+
+    var task = project.RootTask.Children.Add("Task");
+
+    var attribute = definition.CreateExtendedAttribute();
+    task.ExtendedAttributes.Add(attribute);
+    return project;
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

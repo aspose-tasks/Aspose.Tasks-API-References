@@ -36,6 +36,21 @@ public class ProjectView
 | static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview)() | Includes Uid, name, start, finish and work resource columns. |
 | static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview)() | Includes id, indicators, name, duration, start, finish, predecessors and resource names task columns. |
 
+### Examples
+
+Shows how to save a project with assignment view.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)

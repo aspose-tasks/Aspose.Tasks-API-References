@@ -18,6 +18,24 @@ public override string ToString()
 
 The string representation of the extended attribute.
 
+### Examples
+
+Shows how to read extended attributes.
+
+```csharp
+var project = new Project(DataDir + "ReadTaskExtendedAttributes.mpp");
+
+// Read extended attributes for tasks
+foreach (var task in project.RootTask.Children)
+{
+    foreach (var attribute in task.ExtendedAttributes)
+    {
+        // read common info about extended attribute
+        Console.WriteLine("Extended Attribute: " + attribute.ToString());
+    }
+}
+```
+
 ### See Also
 
 * class [ExtendedAttribute](../../extendedattribute)

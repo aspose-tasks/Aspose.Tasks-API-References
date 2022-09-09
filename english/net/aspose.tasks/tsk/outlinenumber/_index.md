@@ -14,6 +14,24 @@ The number that represents a task's position in the hierarchical outline structu
 public static readonly Key<string, TaskKey> OutlineNumber;
 ```
 
+### Examples
+
+Shows how to read task outline properties.
+
+```csharp
+var project = new Project(DataDir + "TaskOutlineProperties.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Parse through all the collected tasks
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name) + " - Outline Level : " + task.Get(Tsk.OutlineLevel));
+    Console.WriteLine(task.Get(Tsk.Name) + " - Outline Number : " + task.Get(Tsk.OutlineNumber));
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

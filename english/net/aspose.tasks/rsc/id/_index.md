@@ -14,6 +14,20 @@ The position identifier of a resource within the list of resources.
 public static readonly Key<int, RscKey> Id;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Id property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Id, 987);
+
+Console.WriteLine("Id: " + resource.Get(Rsc.Id));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

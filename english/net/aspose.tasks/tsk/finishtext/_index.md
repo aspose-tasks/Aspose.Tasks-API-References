@@ -14,6 +14,20 @@ Returns the task's finish text.
 public static readonly Key<string, TaskKey> FinishText;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.FinishText property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.FinishText, "Not A Finish");
+
+Console.WriteLine("Finish Text: " + task.Get(Tsk.FinishText));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -33,6 +33,24 @@ public class CalendarCollection : IList<Calendar>
 | [Remove](../../aspose.tasks/calendarcollection/remove)(Calendar) | Removes Calendar from Project CalendarCollection. |
 | [ToList](../../aspose.tasks/calendarcollection/tolist)() | Converts the CalendarCollection object to a list of [`Calendar`](../calendar) objects. |
 
+### Examples
+
+Shows how to add new calendars.
+
+```csharp
+var project = new Project();
+
+// new calendars can be added to a project's calendar collection by using the collection's Add overloads.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
 ### See Also
 
 * class [Calendar](../calendar)

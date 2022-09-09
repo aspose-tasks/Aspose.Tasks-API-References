@@ -14,6 +14,29 @@ The document bookmark of the hyperlink associated with an assignment.
 public static readonly Key<string, AsnKey> HyperlinkSubAddress;
 ```
 
+### Examples
+
+Shows how to read/write hyperlink properties.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Hyperlink, "aspose.com");
+assignment.Set(Asn.HyperlinkAddress, "products.aspose.com");
+assignment.Set(Asn.HyperlinkSubAddress, "/total/net");
+
+Console.WriteLine("Hyperlink: " + assignment.Get(Asn.Hyperlink));
+Console.WriteLine("Hyperlink Address: " + assignment.Get(Asn.HyperlinkAddress));
+Console.WriteLine("Hyperlink Sub Address: " + assignment.Get(Asn.HyperlinkSubAddress));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -18,6 +18,31 @@ public TimeSpan GetWorkingTime()
 
 Returns working time for this calendar exception.
 
+### Examples
+
+Shows how to get a working time of a calendar exception.
+
+```csharp
+var project = new Project(DataDir + "CalendarExceptions.mpp");
+
+var calendar = project.Calendars.ToList()[0];
+var exception = calendar.Exceptions.ToList()[0];
+
+Console.WriteLine("Calendar Name: " + calendar.Name);
+Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
+Console.WriteLine("Calendar Exception Name: " + exception.Name);
+Console.WriteLine();
+
+var workingTime = exception.GetWorkingTime();
+Console.WriteLine("Exception Working Time: " + workingTime);
+
+foreach (var time in exception.WorkingTimes)
+{
+    Console.WriteLine("Working Time Start: " + time.From);
+    Console.WriteLine("Working Time Finish: " + time.To);
+}
+```
+
 ### See Also
 
 * class [CalendarException](../../calendarexception)

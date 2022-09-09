@@ -35,6 +35,17 @@ public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
 
 Use CanRead property to define that the library can process the project file.
 
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

@@ -22,6 +22,19 @@ public bool Equals(ResourceAssignment other)
 
 **True** if the specified instance of the [`ResourceAssignment`](../../resourceassignment) class has the same UID value as this instance; otherwise, **false**.
 
+### Examples
+
+Shows how to check resource assignment equality.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
 ### See Also
 
 * class [ResourceAssignment](../../resourceassignment)
@@ -45,6 +58,19 @@ public override bool Equals(object obj)
 ### Return Value
 
 **True** if o is a ResourceAssignment that assign the same resource and task as this instance; otherwise, **false**.
+
+### Examples
+
+Shows how to check resource assignment equality.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
 
 ### See Also
 

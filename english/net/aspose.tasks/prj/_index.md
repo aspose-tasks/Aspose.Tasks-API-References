@@ -97,6 +97,18 @@ public static class Prj
 | static readonly [WeekStartDay](../../aspose.tasks/prj/weekstartday) | First day of a week. |
 | static readonly [WorkFormat](../../aspose.tasks/prj/workformat) | The format used to show the duration of the task. |
 
+### Examples
+
+Shows how to read/write project name.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+project.Set(Prj.Name, "Custom Project Name");
+
+Console.WriteLine("Project name: " + project.Get(Prj.Name));
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

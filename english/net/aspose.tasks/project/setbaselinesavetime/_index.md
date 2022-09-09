@@ -23,6 +23,22 @@ public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
 
 Set value to DateTime.MinValue if the baseline was not saved.
 
+### Examples
+
+Shows how to read/write project's baseline save time.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// set baseline save time
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
+
 ### See Also
 
 * enum [BaselineType](../../baselinetype)

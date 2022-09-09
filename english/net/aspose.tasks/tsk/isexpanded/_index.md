@@ -14,6 +14,20 @@ Determines whether a summary task is expanded or not in GanttChart view.
 public static readonly Key<NullableBool, TaskKey> IsExpanded;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsExpanded property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsExpanded, true);
+
+Console.WriteLine("Is Expanded: " + task.Get(Tsk.IsExpanded));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

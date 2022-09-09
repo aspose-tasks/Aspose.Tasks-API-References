@@ -22,6 +22,20 @@ public enum MonthLabelDisplay
 | Mon | `1` | Sets the Months list in MS Project as mon. |
 | Month | `2` | Sets the Months list in MS Project as month. |
 
+### Examples
+
+Shows how to set the month label of project's display options (case 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// set how the month label is displayed
+project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
+
+// ...
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

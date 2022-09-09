@@ -14,6 +14,39 @@ The time unit for the usage rate of the material resource assignment. Returns 0 
 public static readonly Key<RateScaleType, AsnKey> RateScale;
 ```
 
+### Examples
+
+Shows how to work with assignment's rate scale.
+
+```csharp
+var project = new Project(DataDir + "New project 2013.mpp");
+
+var task = project.RootTask.Children.Add("t1");
+
+var materialResource = project.Resources.Add("materialResource");
+materialResource.Set(Rsc.Type, ResourceType.Material);
+
+var nonMaterialResource = project.Resources.Add("nonMaterialResource");
+nonMaterialResource.Set(Rsc.Type, ResourceType.Work);
+
+var materialResourceAssignment = project.ResourceAssignments.Add(task, materialResource);
+materialResourceAssignment.Set(Asn.RateScale, RateScaleType.Week);
+
+var nonMaterialResourceAssignment = project.ResourceAssignments.Add(task, nonMaterialResource);
+nonMaterialResourceAssignment.Set(Asn.RateScale, RateScaleType.Week);
+
+project.Save(OutDir + "ReadWriteRateScaleForResourceAssignment_out.mpp", SaveFileFormat.Mpp);
+
+var resavedProject = new Project(OutDir + "ReadWriteRateScaleForResourceAssignment_out.mpp");
+
+var resavedMaterialResourceAssignment = resavedProject.ResourceAssignments.GetByUid(2);
+Console.WriteLine(resavedMaterialResourceAssignment.Get(Asn.RateScale));
+
+// only material resource assignments can have non-zero rate scale value.
+var resavedNonMaterialResourceAssignment = resavedProject.ResourceAssignments.GetByUid(3);
+Console.WriteLine(resavedNonMaterialResourceAssignment.Get(Asn.RateScale));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

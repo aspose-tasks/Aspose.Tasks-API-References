@@ -14,6 +14,21 @@ Gets the number of objects contained in this [`CalendarCollection`](../../calend
 public int Count { get; }
 ```
 
+### Examples
+
+Shows how to iterate over calendar collection.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
+List<Calendar> calendars = project.Calendars.ToList();
+foreach (var calendar in calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
 ### See Also
 
 * class [CalendarCollection](../../calendarcollection)

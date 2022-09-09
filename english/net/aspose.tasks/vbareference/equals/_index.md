@@ -22,6 +22,22 @@ public bool Equals(VbaReference other)
 
 Returns true if this instance is equal to the specified [`VbaReference`](../../vbareference) object; otherwise, false.
 
+### Examples
+
+Shows how to check VBA reference equality.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// the equality of references is checked against to reference's name.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
+
 ### See Also
 
 * class [VbaReference](../../vbareference)
@@ -45,6 +61,22 @@ public override bool Equals(object obj)
 ### Return Value
 
 Returns true if this instance is equal to the specified [`VbaReference`](../../vbareference) object; otherwise, false.
+
+### Examples
+
+Shows how to check VBA reference equality.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// the equality of references is checked against to reference's name.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
 
 ### See Also
 

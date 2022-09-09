@@ -14,6 +14,20 @@ Determines whether a subproject is read-only.
 public static readonly Key<NullableBool, TaskKey> IsSubprojectReadOnly;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsSubprojectReadOnly property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSubprojectReadOnly, true);
+
+Console.WriteLine("Is Subproject Read Only: " + task.Get(Tsk.IsSubprojectReadOnly));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

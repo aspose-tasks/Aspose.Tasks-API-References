@@ -149,6 +149,24 @@ public enum ExtendedAttributeResource
 | OutlineCode9 | `205521190` | OutlineCode9 (Resource) custom field. |
 | OutlineCode10 | `205521192` | OutlineCode10 (Resource) custom field. |
 
+### Examples
+
+Shows how to create extended attribute definition and set a value of a flag while its constructing.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Cost);
+
+// create a definition for a boolean custom field
+var definition = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Flag7, "My Custom Flag");
+
+// create an attribute and set the initial value to 'true'
+var attribute = definition.CreateExtendedAttribute(true);
+resource.ExtendedAttributes.Add(attribute);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

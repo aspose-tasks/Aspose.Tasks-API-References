@@ -14,6 +14,18 @@ The title of a project.
 public static readonly Key<string, PrjKey> Title;
 ```
 
+### Examples
+
+Shows how to read/write Prj.Title property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Title, "MS Project");
+
+Console.WriteLine("Title: " + project.Get(Prj.Title));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

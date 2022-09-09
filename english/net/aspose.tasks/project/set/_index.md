@@ -20,6 +20,16 @@ public void Set<T>(Key<T, PrjKey> key, T val)
 | key | the specified property key. [`Prj`](../../prj) for getting the property key. |
 | val | the value. |
 
+### Examples
+
+Shows how to set task's attributes.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)
@@ -42,6 +52,16 @@ public void Set(Key<DateTime, PrjKey> key, DateTime val)
 | --- | --- | --- |
 | key | Key`2 | the specified property key. [`Prj`](../../prj) for getting the property key. |
 | val | DateTime | the value. |
+
+### Examples
+
+Shows how to set task's attributes.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
 
 ### See Also
 

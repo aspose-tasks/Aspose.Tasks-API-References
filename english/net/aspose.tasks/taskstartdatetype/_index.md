@@ -26,6 +26,16 @@ public enum TaskStartDateType
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
 
+### Examples
+
+Shows how to set task's default start date as 'CurrentDate'.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

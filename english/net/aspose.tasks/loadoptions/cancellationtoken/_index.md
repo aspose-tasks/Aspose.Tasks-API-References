@@ -14,6 +14,21 @@ Gets or sets a token which can be used to cancel a project loading operation.
 public CancellationToken CancellationToken { get; set; }
 ```
 
+### Examples
+
+Shows how to pass CancellationToken to cancel long-running Project loading operation.
+
+```csharp
+var loadOptions = new LoadOptions();
+
+CancellationTokenSource cts = new CancellationTokenSource();
+loadOptions.CancellationToken = cts.Token;
+
+// cts can be passed to another thread where method cts.Cancel() can be called to cancel project loading operation.
+// cts.Cancel();
+var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
+```
+
 ### See Also
 
 * class [LoadOptions](../../loadoptions)

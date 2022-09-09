@@ -14,6 +14,20 @@ Removes calendar from project.
 public void Delete()
 ```
 
+### Examples
+
+Shows how to delete a calendar from a project.
+
+```csharp
+var project = new Project(DataDir + "BrokenCalendar.mpp");
+
+// get the calendar by name
+var calendar = project.Calendars.GetByName("Broken Calendar");
+
+// delete the calendar
+calendar.Delete();
+```
+
 ### See Also
 
 * class [Calendar](../../calendar)

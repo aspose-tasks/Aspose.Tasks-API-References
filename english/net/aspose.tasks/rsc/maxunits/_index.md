@@ -14,6 +14,20 @@ The maximum number of units representing the maximum capacity for which a resour
 public static readonly Key<double, RscKey> MaxUnits;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.MaxUnits property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.MaxUnits, 2);
+
+Console.WriteLine("Max Units: " + resource.Get(Rsc.MaxUnits));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

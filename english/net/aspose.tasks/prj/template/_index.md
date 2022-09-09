@@ -14,6 +14,18 @@ Project's template.
 public static readonly Key<string, PrjKey> Template;
 ```
 
+### Examples
+
+Shows how to read/write Prj.Template property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Template, "Custom Template");
+
+Console.WriteLine("Template: " + project.Get(Prj.Template));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

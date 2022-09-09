@@ -23,6 +23,26 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, Duration work)
 
 Finish date.
 
+### Examples
+
+Shows how to calculate a finish date by start date and work using a calendar instance.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+var calendar = project.Calendars.GetByName("Standard");
+
+var start = new DateTime(2017, 10, 26, 8, 0, 0);
+var work = project.GetWork(7);
+
+// calculate finish date by using a standard calendar
+var finish = calendar.GetFinishDateByStartAndWork(start, work);
+
+Console.WriteLine("Task start date: " + start);
+Console.WriteLine("Task work: " + work);
+Console.WriteLine("Task finish date: " + finish);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)
@@ -48,6 +68,26 @@ public DateTime GetFinishDateByStartAndWork(DateTime start, TimeSpan work)
 ### Return Value
 
 Finish date.
+
+### Examples
+
+Shows how to calculate a finish date by start date and work (as a time span) using a calendar instance.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+var calendar = project.Calendars.GetByName("Standard");
+
+var start = new DateTime(2017, 10, 26, 8, 0, 0);
+var work = project.GetWork(7);
+
+// calculate finish date by using a standard calendar
+var finish = calendar.GetFinishDateByStartAndWork(start, work.TimeSpan);
+
+Console.WriteLine("Task start date: " + start);
+Console.WriteLine("Task work: " + work);
+Console.WriteLine("Task finish date: " + finish);
+```
 
 ### See Also
 

@@ -14,6 +14,18 @@ The subject of a project.
 public static readonly Key<string, PrjKey> Subject;
 ```
 
+### Examples
+
+Shows how to read/write Prj.Subject property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Subject, "Subject");
+
+Console.WriteLine("Subject: " + project.Get(Prj.Subject));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,20 @@ The end date that a resource is available for work at the units specified for th
 public static readonly Key<DateTime, RscKey> AvailableTo;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.AvailableTo property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.AvailableTo, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Available To: " + resource.Get(Rsc.AvailableTo));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

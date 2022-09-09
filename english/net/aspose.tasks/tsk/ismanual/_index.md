@@ -14,6 +14,20 @@ Determines whether a task is manually scheduled.
 public static readonly Key<NullableBool, TaskKey> IsManual;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsManual property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsManual, true);
+
+Console.WriteLine("Is Manual: " + task.Get(Tsk.IsManual));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

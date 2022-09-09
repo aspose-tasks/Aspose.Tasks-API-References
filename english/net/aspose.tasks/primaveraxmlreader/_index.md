@@ -27,6 +27,19 @@ public class PrimaveraXmlReader
 | --- | --- |
 | [GetProjectUids](../../aspose.tasks/primaveraxmlreader/getprojectuids)() | Return a list of the projects' unique identifiers. |
 
+### Examples
+
+Shows how to import a project from a Primavera XML file.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "primavera.xml");
+List<int> projectUids = reader.GetProjectUids();
+foreach (var projectUid in projectUids)
+{
+    Console.WriteLine("Project UID: " + projectUid);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

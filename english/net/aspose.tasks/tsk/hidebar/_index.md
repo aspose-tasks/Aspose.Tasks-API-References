@@ -14,6 +14,20 @@ Determines whether the Gantt bar of a task is hidden when displayed in Microsoft
 public static readonly Key<NullableBool, TaskKey> HideBar;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.HideBar property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.HideBar, true);
+
+Console.WriteLine("Hide Bar: " + task.Get(Tsk.HideBar));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

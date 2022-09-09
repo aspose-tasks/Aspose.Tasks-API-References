@@ -14,6 +14,22 @@ Initializes a new instance of the [`XpsOptions`](../../xpsoptions) class.
 public XpsOptions()
 ```
 
+### Examples
+
+Shows how to save project as XPS file.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// create XPS save options and tune the parameters
+var options = new XpsOptions
+{
+    RenderMetafileAsBitmap = true
+};
+
+project.Save(OutDir + "UseSvgOptions_out.xps", options);
+```
+
 ### See Also
 
 * class [XpsOptions](../../xpsoptions)

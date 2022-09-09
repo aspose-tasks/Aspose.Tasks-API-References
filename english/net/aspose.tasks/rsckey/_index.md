@@ -105,6 +105,20 @@ public enum RscKey
 | Workgroup | `84` | Represents the Workgroup (Resource) field. |
 | WorkVariance | `85` | Represents the Work Variance (Resource) field. |
 
+### Examples
+
+Shows how to read/write Rsc.Name property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

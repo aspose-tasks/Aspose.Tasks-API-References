@@ -14,6 +14,24 @@ The text notes associated with an assignment.
 public static readonly Key<string, AsnKey> Notes;
 ```
 
+### Examples
+
+Shows how to get/set resource assignment notes.
+
+```csharp
+var project = new Project(DataDir + "UpdateResourceAssignment.mpp");
+var task = project.RootTask.Children.GetById(1);
+var rsc = project.Resources.GetById(1);
+
+// create resource assignment
+var assn = project.ResourceAssignments.Add(task, rsc);
+
+// set resource assignment notes 
+assn.Set(Asn.Notes, "Newly added assignment");
+
+Console.WriteLine("Notes: " + assn.Get(Asn.Notes));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

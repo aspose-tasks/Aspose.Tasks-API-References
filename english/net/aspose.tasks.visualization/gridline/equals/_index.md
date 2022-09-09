@@ -22,6 +22,25 @@ public override bool Equals(object obj)
 
 a flag indicating whether this instance is equal to the specified object.
 
+### Examples
+
+Shows how to check an equality of gridlines.
+
+```csharp
+var gridline1 = new Gridline();
+var gridline2 = new Gridline();
+
+// the equality of gridlines is checked against to gridline type.
+Console.WriteLine("Gridline 1 Type: " + gridline1.GridlineType);
+Console.WriteLine("Gridline 2 Type: " + gridline2.GridlineType);
+Console.WriteLine("Are gridlines equal: " + gridline1.Equals(gridline2));
+
+// change the type
+gridline1.GridlineType = GridlineType.BarRows;
+Console.WriteLine("Gridline 1 Type: " + gridline1.GridlineType);
+Console.WriteLine("Are gridlines equal: " + gridline1.Equals(gridline2));
+```
+
 ### See Also
 
 * class [Gridline](../../gridline)

@@ -24,6 +24,20 @@ public enum TiffCompression
 | Ccitt4 | `4` | Specifies the CCITT4 compression scheme. |
 | Lzw | `5` | Specifies the LZW compression scheme. |
 
+### Examples
+
+Shows how to render in TIFF format by using RLE compression mode.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var options = new ImageSaveOptions(SaveFileFormat.Tiff);
+
+// Save the project with Rle compression
+options.TiffCompression = TiffCompression.Rle;
+project.Save(OutDir + "RenderMultipageTIFF_comp_rle_out.tif", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving)

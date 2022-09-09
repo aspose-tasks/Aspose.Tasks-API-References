@@ -14,6 +14,20 @@ The earliest date that a task could possibly begin, based on the early start dat
 public static readonly Key<DateTime, TaskKey> EarlyStart;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.EarlyStart property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.EarlyStart, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Early Start: " + task.Get(Tsk.EarlyStart));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -18,6 +18,31 @@ public bool RollUpGanttBars { get; set; }
 
 Is only applicable when Gantt chart view is rendered.
 
+### Examples
+
+Shows how to set a value indicating that subtasks on the summary task bar must be rolled up.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+project.DisplayOptions.ShowProjectSummaryTask = true;
+project.Set(Prj.ShowProjectSummaryTask, true);
+
+var options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.GanttChart,
+    FitContent = true,
+    RollUpGanttBars = true,
+
+    // OR
+    // options.RollUpGanttBars = false;
+    // DrawNonWorkingTime = true,
+    PageSize = PageSize.A3
+};
+
+project.Save(OutDir + "RenderGanttChartWithBarsRolledUp_out.pdf", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

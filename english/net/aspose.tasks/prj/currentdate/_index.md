@@ -14,6 +14,18 @@ The system date.
 public static readonly Key<DateTime, PrjKey> CurrentDate;
 ```
 
+### Examples
+
+Shows how to read/write Prj.CurrentDate property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CurrentDate, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Current Date: " + project.Get(Prj.CurrentDate));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

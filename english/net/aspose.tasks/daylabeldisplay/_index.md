@@ -22,6 +22,20 @@ public enum DayLabelDisplay
 | Dy | `1` | Sets the Days list in MS Project as dy. |
 | Day | `2` | Sets the Days list in MS Project as day. |
 
+### Examples
+
+Shows how to set the day label of project's display options (case 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// set how the day label is displayed
+project.DisplayOptions.DayLabel = DayLabelDisplay.D;
+
+// ...
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

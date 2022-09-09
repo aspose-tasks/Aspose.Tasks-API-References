@@ -22,6 +22,24 @@ public TaskLinkCollection GetPredecessors(Task task)
 
 List of predecessors [`TaskLink`](../../tasklink).
 
+### Examples
+
+Shows how to get predecessors for the specific task.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+var task = project.RootTask.Children.GetById(10);
+
+var predecessors = project.GetPredecessors(task);
+
+// Display names of predecessor and successor tasks
+foreach (var predecessor in predecessors)
+{
+    Console.WriteLine("Predecessor " + predecessor.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor " + predecessor.SuccTask.Get(Tsk.Name));
+}
+```
+
 ### See Also
 
 * class [TaskLinkCollection](../../tasklinkcollection)

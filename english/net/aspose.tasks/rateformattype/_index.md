@@ -31,6 +31,20 @@ public enum RateFormatType
 
 While exporting into XML the Undefined values will be eliminated from resulting XML.
 
+### Examples
+
+Shows how to read/write Rsc.StandardRateFormat property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.StandardRateFormat, RateFormatType.Hour);
+
+Console.WriteLine("Standard Rate Format: " + resource.Get(Rsc.StandardRateFormat));
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

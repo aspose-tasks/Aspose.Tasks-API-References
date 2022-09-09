@@ -14,6 +14,18 @@ Determines whether to display summary information about an entire project on a s
 public static readonly Key<bool, PrjKey> ShowProjectSummaryTask;
 ```
 
+### Examples
+
+Shows how to read/write Prj.ShowProjectSummaryTask property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ShowProjectSummaryTask, true);
+
+Console.WriteLine("Show Project Summary Task: " + project.Get(Prj.ShowProjectSummaryTask));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,20 @@ Determines whether resource leveling can be done on a resource.
 public static readonly Key<NullableBool, RscKey> CanLevel;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.CanLevel property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CanLevel, true);
+
+Console.WriteLine("Can Level: " + resource.Get(Rsc.CanLevel));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,18 @@ Determines whether new tasks are effort driven.
 public static readonly Key<NullableBool, PrjKey> NewTasksEffortDriven;
 ```
 
+### Examples
+
+Shows how to read/write Prj.NewTasksEffortDriven property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksEffortDriven, true);
+
+Console.WriteLine("New Tasks Effort Driven: " + project.Get(Prj.NewTasksEffortDriven));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

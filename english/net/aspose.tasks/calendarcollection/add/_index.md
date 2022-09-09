@@ -28,6 +28,20 @@ Added [`Calendar`](../../calendar) object.
 | --- | --- |
 | ArgumentException | Thrown when calendar name is null. |
 
+### Examples
+
+Shows how to make a standard calendar.
+
+```csharp
+var project = new Project();
+
+// Define a calendar and make it standard
+var calendar = project.Calendars.Add("New Standard Calendar");
+Calendar.MakeStandardCalendar(calendar);
+
+project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
+```
+
 ### See Also
 
 * class [Calendar](../../calendar)
@@ -53,6 +67,24 @@ public Calendar Add(string name, Calendar baseCalendar)
 ### Return Value
 
 Added [`Calendar`](../../calendar) object.
+
+### Examples
+
+Shows how to add new calendars.
+
+```csharp
+var project = new Project();
+
+// new calendars can be added to a project's calendar collection by using the collection's Add overloads.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
 
 ### See Also
 

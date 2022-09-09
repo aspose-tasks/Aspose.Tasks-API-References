@@ -14,6 +14,23 @@ Deletes a task from parent project tasks collection and all its assignments.
 public void Delete()
 ```
 
+### Examples
+
+Shows how to delete a task.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
+
+// delete a task
+task.Delete();
+
+Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
+```
+
 ### See Also
 
 * class [Task](../../task)

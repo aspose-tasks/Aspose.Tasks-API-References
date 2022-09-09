@@ -14,6 +14,18 @@ The number of days to the end of a task when Microsoft Project marks that task a
 public static readonly Key<int, PrjKey> CriticalSlackLimit;
 ```
 
+### Examples
+
+Shows how to read/write Prj.CriticalSlackLimit property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CriticalSlackLimit, 2);
+
+Console.WriteLine("Critical Slack Limit: " + project.Get(Prj.CriticalSlackLimit));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -18,6 +18,34 @@ public IEnumerable<Task> SelectAllChildTasks()
 
 The collection of tasks.
 
+### Examples
+
+Shows how to renumber selected tasks' WBS codes.
+
+```csharp
+var project = new Project(DataDir + "RenumberExample.mpp");
+
+var tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+
+Console.WriteLine("WBS codes before: ");
+
+// output: ""; "1"; "2"; "4"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+
+project.RenumberWBSCode(new List<int> { 1, 2, 3 });
+
+Console.WriteLine("\nWBS codes after: ");
+
+// output: ""; "1"; "2"; "3"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+```
+
 ### See Also
 
 * class [Task](../../task)

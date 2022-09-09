@@ -14,6 +14,20 @@ The type of a resource.
 public static readonly Key<ResourceType, RscKey> Type;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Type property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Type, ResourceType.Work);
+
+Console.WriteLine("Type: " + resource.Get(Rsc.Type));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

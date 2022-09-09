@@ -14,6 +14,16 @@ Represents the flag which indicates that task has schedule discrepancies.
 public static readonly Key<bool, TaskKey> Warning;
 ```
 
+### Examples
+
+Shows how to read a task warning.
+
+```csharp
+var project = new Project(DataDir + "schedule-conflict.mpp");
+var task = project.RootTask.Children.GetById(1);
+Console.WriteLine(task.Get(Tsk.Warning));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

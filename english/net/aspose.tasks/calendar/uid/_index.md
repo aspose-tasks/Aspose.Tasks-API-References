@@ -14,6 +14,26 @@ Gets or sets the unique identifier of the calendar. Read/write Int32.
 public int Uid { get; set; }
 ```
 
+### Examples
+
+Shows how to retrieve calendar info.
+
+```csharp
+var project = new Project(DataDir + "RetrieveCalendarInfo.mpp");
+
+// Retrieve Calendars Information
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Calendar UID: " + calendar.Uid);
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
 ### See Also
 
 * class [Calendar](../../calendar)

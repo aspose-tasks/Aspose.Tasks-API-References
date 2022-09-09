@@ -14,6 +14,20 @@ Determines whether a task is part of a series of recurring tasks.
 public static readonly Key<NullableBool, TaskKey> IsRecurring;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsRecurring property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsRecurring, true);
+
+Console.WriteLine("Is Recurring: " + task.Get(Tsk.IsRecurring));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

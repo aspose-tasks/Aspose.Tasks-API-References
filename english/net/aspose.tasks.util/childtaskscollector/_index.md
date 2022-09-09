@@ -34,6 +34,23 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase`1/postalg)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase`1/prealg)(Task, int) |  |
 
+### Examples
+
+Shows how to iterate over all tasks in a project as a plain list.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Parse through all the collected tasks
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
 ### See Also
 
 * class [TreeAlgorithmBase&lt;T&gt;](../treealgorithmbase-1)

@@ -1,17 +1,35 @@
 ---
 title: LinkLag
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets the amount of lag in tenths of a minute or percentage.
+description: Gets or sets the amount of lag in tenths of a minute.
 type: docs
 weight: 40
 url: /net/aspose.tasks/tasklink/linklag/
 ---
 ## TaskLink.LinkLag property
 
-Gets or sets the amount of lag in tenths of a minute or percentage.
+Gets or sets the amount of lag in tenths of a minute.
 
 ```csharp
 public int LinkLag { get; set; }
+```
+
+### Examples
+
+Shows how to read project task links.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+// Display names of predecessor and successor tasks
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Predecessor: " + taskLink.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor: " + taskLink.SuccTask.Get(Tsk.Name));
+    Console.WriteLine("Lag Format: " + taskLink.LagFormat);
+    Console.WriteLine("Link Lag: " + taskLink.LinkLag);
+    Console.WriteLine();
+}
 ```
 
 ### See Also

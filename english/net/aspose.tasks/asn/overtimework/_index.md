@@ -14,6 +14,25 @@ The scheduled overtime work of an assignment.
 public static readonly Key<Duration, AsnKey> OvertimeWork;
 ```
 
+### Examples
+
+Shows how to read overtime/remaining works/costs of an assignment.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentOvertimes.mpp");
+
+// Print assignment overtimes
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.OvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.OvertimeCost));
+    Console.WriteLine(ra.Get(Asn.RemainingWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingCost));
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeCost));
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

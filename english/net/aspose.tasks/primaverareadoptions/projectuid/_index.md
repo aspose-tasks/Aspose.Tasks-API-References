@@ -14,6 +14,19 @@ Gets or sets the UID of a project to read from file containing multiple projects
 public int ProjectUid { get; set; }
 ```
 
+### Examples
+
+Shows how to read a project from a Primavera XML or Primavera XER file containing multiple projects.
+
+```csharp
+var options = new PrimaveraReadOptions();
+options.ProjectUid = 4557;
+
+// Returns project with special Uid
+var project = new Project(DataDir + "Project.xml", options);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
 ### See Also
 
 * class [PrimaveraReadOptions](../../primaverareadoptions)

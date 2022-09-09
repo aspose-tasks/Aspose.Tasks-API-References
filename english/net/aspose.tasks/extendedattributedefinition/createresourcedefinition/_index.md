@@ -34,6 +34,52 @@ var resourceTextAttr = ExtendedAttributeDefinition.CreateResourceDefinition(Cust
 project.ExtendedAttributes.Add(resourceTextAttr);
 ```
 
+Shows how to add extended attribute to a resource assignment.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// Add new task and resource
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Rsc");
+var assignment = project.ResourceAssignments.Add(task, resource);
+{
+    // Custom attributes which is visible in "Resource Usage" view can be created with ExtendedAttributeDefinition.CreateResourceDefinition method.
+    var resCostAttributeDefinition = ExtendedAttributeDefinition.CreateResourceDefinition(
+        CustomFieldType.Cost,
+        ExtendedAttributeResource.Cost5,
+        "My cost");
+
+    project.ExtendedAttributes.Add(resCostAttributeDefinition);
+
+    var value = resCostAttributeDefinition.CreateExtendedAttribute();
+
+    // The type of the attribute is "Cost", so we need to use "NumericValue" property.
+    value.NumericValue = 1500;
+
+    assignment.ExtendedAttributes.Add(value);
+}
+
+{
+    // Custom attributes which is visible in "Task Usage" view can be created with ExtendedAttributeDefinition.CreateTaskDefinition method
+    var taskCostAttributeDefinition = ExtendedAttributeDefinition.CreateTaskDefinition(
+        CustomFieldType.Cost,
+        ExtendedAttributeTask.Cost5,
+        "My cost for task");
+
+    project.ExtendedAttributes.Add(taskCostAttributeDefinition);
+
+    var value = taskCostAttributeDefinition.CreateExtendedAttribute();
+
+    // The type of the attribute is "Cost", so we need to use "NumericValue" property.
+    value.NumericValue = 2300;
+
+    assignment.ExtendedAttributes.Add(value);
+}
+
+project.Save(OutDir + "AddExtendedAttributesToResourceAssignment_out.mpp", SaveFileFormat.Mpp);
+```
+
 ### See Also
 
 * enum [CustomFieldType](../../customfieldtype)
@@ -69,6 +115,22 @@ Use this example to create a custom text field definition:
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
 project.ExtendedAttributes.Add(resourceTextAttr);
+```
+
+Shows how to create extended attribute definition and set a value of a flag while its constructing.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Cost);
+
+// create a definition for a boolean custom field
+var definition = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Flag7, "My Custom Flag");
+
+// create an attribute and set the initial value to 'true'
+var attribute = definition.CreateExtendedAttribute(true);
+resource.ExtendedAttributes.Add(attribute);
 ```
 
 ### See Also

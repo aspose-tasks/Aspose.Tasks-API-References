@@ -14,6 +14,21 @@ Gets or sets a value indicating whether legend should be shown on each page (Def
 public bool LegendOnEachPage { get; set; }
 ```
 
+### Examples
+
+Shows how to hide page legends.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    // Set the LegendOnEachPage property to false to hide legends
+    LegendOnEachPage = false
+};
+
+project.Save(OutDir + "HideLegendsDuringSave_out.pdf", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

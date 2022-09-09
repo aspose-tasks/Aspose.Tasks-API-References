@@ -48,6 +48,25 @@ public sealed class ResourceUsageView : UsageView
 | override [Equals](../../aspose.tasks/view/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
 
+### Examples
+
+Shows how to render resource usage view.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+// Define the SaveOptions with required TimeScale settings as Days
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Days,
+
+    // Set the Presentation format to ResourceUsage
+    PresentationFormat = PresentationFormat.ResourceUsage
+};
+
+project.Save(OutDir + "ResourceUsage_days_out.pdf", options);
+```
+
 ### See Also
 
 * class [UsageView](../usageview)

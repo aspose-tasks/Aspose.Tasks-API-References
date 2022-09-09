@@ -20,6 +20,27 @@ public View ViewSettings { get; set; }
 | --- | --- |
 | ArgumentException | When set method is called and instance of View class with not supported value of Screen property is provided. |
 
+### Examples
+
+Shows how to use 'SaveOptions.ViewSettings' to specify view that should be rendered to PDf.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var view = project.Views.First(v => v.Screen == ViewScreen.Gantt);
+Console.WriteLine("Page size specified in view settings: " + view.PageInfo.PageSettings.PaperSize);
+Console.WriteLine("Page orientation: {0}", view.PageInfo.PageSettings.IsPortrait ? "Portrait" : "Landscape");
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.PageSize = PageSize.DefinedInView;
+saveOptions.Timescale = Timescale.DefinedInView;
+saveOptions.StartDate = new DateTime(2012, 12, 22);
+saveOptions.EndDate = new DateTime(2013, 05, 10);
+saveOptions.ViewSettings = view;
+
+project.Save(OutDir + "SaveToPdfUsingSpecificView_out.pdf", saveOptions);
+```
+
 ### See Also
 
 * class [View](../../../aspose.tasks/view)

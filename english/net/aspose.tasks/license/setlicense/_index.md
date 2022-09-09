@@ -60,6 +60,13 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
+Shows how to apply a license of Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
 ### See Also
 
 * class [License](../../license)
@@ -100,6 +107,16 @@ license.SetLicense(myStream)
 
 License license = new License();
 license.setLicense(myStream);
+```
+
+Shows how to apply a license of Aspose.Tasks read from &lt;see cref="System.IO.FileStream" /&gt;.
+
+```csharp
+var license = new License();
+using (var stream = new FileStream("Aspose.Tasks.lic", FileMode.Open))
+{
+    license.SetLicense(stream);
+}
 ```
 
 ### See Also

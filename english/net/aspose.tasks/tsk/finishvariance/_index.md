@@ -14,6 +14,20 @@ The time that represents the difference between the baseline finish date of a ta
 public static readonly Key<Duration, TaskKey> FinishVariance;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.FinishVariance property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.FinishVariance, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Finish Variance: " + task.Get(Tsk.FinishVariance));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

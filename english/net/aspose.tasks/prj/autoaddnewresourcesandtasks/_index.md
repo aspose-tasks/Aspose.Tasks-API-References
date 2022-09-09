@@ -14,6 +14,18 @@ Determines whether new resources or tasks automatically added to a resource or t
 public static readonly Key<NullableBool, PrjKey> AutoAddNewResourcesAndTasks;
 ```
 
+### Examples
+
+Shows how to read/write Prj.AutoAddNewResourcesAndTasks property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AutoAddNewResourcesAndTasks, true);
+
+Console.WriteLine("Auto Add New Resources And Tasks: " + project.Get(Prj.AutoAddNewResourcesAndTasks));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,20 @@ Determines whether the current task should be published to Project Server with t
 public static readonly Key<NullableBool, TaskKey> IsPublished;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsPublished property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsPublished, true);
+
+Console.WriteLine("Is Published: " + task.Get(Tsk.IsPublished));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,20 @@ Determines whether the scheduling of the task considers the calendars of the res
 public static readonly Key<NullableBool, TaskKey> IgnoreResourceCalendar;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IgnoreResourceCalendar property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IgnoreResourceCalendar, true);
+
+Console.WriteLine("Ignore Resource Calendar: " + task.Get(Tsk.IgnoreResourceCalendar));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

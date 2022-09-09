@@ -14,6 +14,19 @@ Gets `TimeSpan` instance of this Duration object. The TimeSpan instance of this 
 public TimeSpan TimeSpan { get; }
 ```
 
+### Examples
+
+Shows how to convert a duration to a time span.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// get the task duration
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("Time span of duration: " + duration.TimeSpan);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)

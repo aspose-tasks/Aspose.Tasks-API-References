@@ -14,6 +14,23 @@ The percentage of work completed across all tasks.
 public static readonly Key<int, RscKey> PercentWorkComplete;
 ```
 
+### Examples
+
+Shows how to read resource percent work complete.
+
+```csharp
+var project = new Project(DataDir + "ResourcePercentWorkComplete.mpp");
+
+// Display work percentage completion for all resources
+foreach (var res in project.Resources)
+{
+    if (res.Get(Rsc.Name) != null)
+    {
+        Console.WriteLine(res.Get(Rsc.PercentWorkComplete));
+    }
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

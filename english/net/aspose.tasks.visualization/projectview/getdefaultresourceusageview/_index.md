@@ -18,6 +18,21 @@ public static ProjectView GetDefaultResourceUsageView()
 
 a view which contains a list of [`ResourceViewColumn`](../../resourceviewcolumn).
 
+### Examples
+
+Shows how to save a project with resource usage view.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultResourceUsageView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_ResourceUsageView_out.pdf", options);
+```
+
 ### See Also
 
 * class [ProjectView](../../projectview)

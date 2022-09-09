@@ -32,6 +32,34 @@ public sealed class ProjectServerManager
 | [UpdateProject](../../aspose.tasks/projectservermanager/updateproject#updateproject)(Project) | Updates existing project in Project Server\Project Online instance using default save options. The existing project will be overwritten. |
 | [UpdateProject](../../aspose.tasks/projectservermanager/updateproject#updateproject_1)(Project, ProjectServerSaveOptions) | Updates existing project in Project Server\Project Online instance using the specified save options. The existing project will be overwritten. |
 
+### Examples
+
+Shows how to use Project Server manager to create a new project with predefined save options on Microsoft Project Online.
+
+```csharp
+try
+{
+    const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    var options = new ProjectServerSaveOptions
+    {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

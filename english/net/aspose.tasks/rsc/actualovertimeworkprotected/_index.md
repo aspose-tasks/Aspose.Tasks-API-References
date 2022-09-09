@@ -14,6 +14,21 @@ The amount of work through which actual overtime work is protected.
 public static readonly Key<Duration, RscKey> ActualOvertimeWorkProtected;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.ActualOvertimeWorkProtected property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualOvertimeWorkProtected, project.GetWork(1));
+
+Console.WriteLine("Actual Overtime Work Protected: " + resource.Get(Rsc.ActualOvertimeWorkProtected));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

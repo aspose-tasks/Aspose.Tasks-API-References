@@ -31,7 +31,18 @@ public enum FileFormat
 | MPX | `10` | Mpx file format |
 | XER | `11` | Represents Primavera XER format |
 | HTML | `12` | Represents HTML format |
-| ProjectServer | `13` | Project was read from Project Server or Project Online |
+| ProjectServer | `13` |  |
+
+### Examples
+
+Shows how to read check project file format.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### See Also
 

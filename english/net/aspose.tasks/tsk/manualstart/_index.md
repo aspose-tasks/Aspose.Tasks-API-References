@@ -14,6 +14,20 @@ Defines manually scheduled start of a task.
 public static readonly Key<DateTime, TaskKey> ManualStart;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.ManualStart property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ManualStart, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Manual Start: " + task.Get(Tsk.ManualStart));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

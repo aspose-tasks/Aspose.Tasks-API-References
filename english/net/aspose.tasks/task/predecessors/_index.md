@@ -18,6 +18,23 @@ public TaskCollection Predecessors { get; }
 
 Read-only instance of [`TaskCollection`](../../taskcollection) class.
 
+### Examples
+
+Shows how to read task's predecessors.
+
+```csharp
+var project = new Project();
+var pred = project.RootTask.Children.Add("Predecessor");
+var succ = project.RootTask.Children.Add("Successor");
+
+project.TaskLinks.Add(pred, succ);
+
+foreach (var predecessor in succ.Predecessors)
+{
+    Console.WriteLine("{0} {1}", predecessor.Get(Tsk.Id), predecessor.Get(Tsk.Name));
+}
+```
+
 ### See Also
 
 * class [TaskCollection](../../taskcollection)

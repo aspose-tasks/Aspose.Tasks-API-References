@@ -14,6 +14,19 @@ Gets id of the project to read.
 public int ProjectId { get; }
 ```
 
+### Examples
+
+Shows how to use MPD settings to control import of project from the database.
+
+```csharp
+var settings = new MpdSettings("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + DataDir + "MpdFileToRead.mpd", 1);
+
+Console.WriteLine("Project ID to load: " + settings.ProjectId);
+
+var project = new Project(settings);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
 ### See Also
 
 * class [MpdSettings](../../mpdsettings)

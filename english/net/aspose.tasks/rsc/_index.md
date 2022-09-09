@@ -91,6 +91,20 @@ public static class Rsc
 | static readonly [Workgroup](../../aspose.tasks/rsc/workgroup) | The type of a workgroup to which a resource belongs. |
 | static readonly [WorkVariance](../../aspose.tasks/rsc/workvariance) | The difference between baseline work of a resource and the currently scheduled work. |
 
+### Examples
+
+Shows how to read/write Rsc.Name property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

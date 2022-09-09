@@ -14,6 +14,20 @@ The type of a workgroup to which a resource belongs.
 public static readonly Key<WorkGroupType, RscKey> Workgroup;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.Workgroup property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Workgroup, WorkGroupType.Email);
+
+Console.WriteLine("Workgroup: " + resource.Get(Rsc.Workgroup));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -18,6 +18,19 @@ public override string ToString()
 
 a string representation of this instance.
 
+### Examples
+
+Shows how to convert a duration to a string.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// get the task duration
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("The duration as a string: " + duration.ToString());
+```
+
 ### See Also
 
 * struct [Duration](../../duration)

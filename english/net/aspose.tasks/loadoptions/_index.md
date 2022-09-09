@@ -29,6 +29,22 @@ public class LoadOptions
 | [Password](../../aspose.tasks/loadoptions/password) { get; set; } | Gets or sets a protection password. |
 | [PrimaveraReadOptions](../../aspose.tasks/loadoptions/primaverareadoptions) { get; set; } | Gets or sets a specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml). |
 
+### Examples
+
+Shows how to load the password-protected project using &lt;see cref="Aspose.Tasks.LoadOptions"/&gt; instance.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

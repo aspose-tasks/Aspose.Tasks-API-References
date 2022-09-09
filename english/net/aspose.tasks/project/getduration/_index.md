@@ -22,6 +22,20 @@ public Duration GetDuration(double val)
 
 Duration object.
 
+### Examples
+
+Shows how to create a &lt;see cref="Aspose.Tasks.Duration" /&gt; instance with default project's duration format by using project fabric methods.
+
+```csharp
+var project = new Project();
+
+// get a duration with default project format.
+var duration = project.GetDuration(1);
+
+Console.WriteLine("Default project duration time unit type: " + project.Get(Prj.DurationFormat));
+Console.WriteLine("Created duration time unit type: " + duration.TimeUnit);
+```
+
 ### See Also
 
 * struct [Duration](../../duration)
@@ -47,6 +61,19 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 ### Return Value
 
 Duration object.
+
+### Examples
+
+Shows how to create a &lt;see cref="Aspose.Tasks.Duration" /&gt; instance by using project fabric methods.
+
+```csharp
+var project = new Project();
+
+// get a duration with default project format.
+var duration = project.GetDuration(1, TimeUnitType.Minute);
+
+Console.WriteLine("Created duration: " + duration);
+```
 
 ### See Also
 

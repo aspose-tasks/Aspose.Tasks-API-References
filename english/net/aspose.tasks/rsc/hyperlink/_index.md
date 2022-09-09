@@ -14,6 +14,24 @@ The title of a hyperlink associated with a resource.
 public static readonly Key<string, RscKey> Hyperlink;
 ```
 
+### Examples
+
+Shows how to read/write resources hyperlink properties.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Hyperlink, "aspose.com");
+resource.Set(Rsc.HyperlinkAddress, "products.aspose.com");
+resource.Set(Rsc.HyperlinkSubAddress, "/total/net");
+
+Console.WriteLine("Hyperlink: " + resource.Get(Rsc.Hyperlink));
+Console.WriteLine("Hyperlink Address: " + resource.Get(Rsc.HyperlinkAddress));
+Console.WriteLine("Hyperlink Sub Address: " + resource.Get(Rsc.HyperlinkSubAddress));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

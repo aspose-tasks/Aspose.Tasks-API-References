@@ -14,6 +14,18 @@ Determines whether a percent complete is spread to the status date.
 public static readonly Key<NullableBool, PrjKey> SpreadPercentComplete;
 ```
 
+### Examples
+
+Shows how to read/write Prj.SpreadPercentComplete property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadPercentComplete, true);
+
+Console.WriteLine("Spread Percent Complete: " + project.Get(Prj.SpreadPercentComplete));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

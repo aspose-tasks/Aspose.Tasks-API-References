@@ -14,6 +14,20 @@ Determines whether a task is a null task.
 public static readonly Key<NullableBool, TaskKey> IsNull;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsNull property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsNull, true);
+
+Console.WriteLine("Is Null: " + task.Get(Tsk.IsNull));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

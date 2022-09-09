@@ -18,6 +18,19 @@ public List<int> GetProjectUids()
 
 List of projects' unique identifiers.
 
+### Examples
+
+Shows how to import a project from a Primavera XML file.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "primavera.xml");
+List<int> projectUids = reader.GetProjectUids();
+foreach (var projectUid in projectUids)
+{
+    Console.WriteLine("Project UID: " + projectUid);
+}
+```
+
 ### See Also
 
 * class [PrimaveraXmlReader](../../primaveraxmlreader)

@@ -14,6 +14,35 @@ Gets a value indicating whether the value was defined; otherwise, false.
 public bool IsDefined { get; }
 ```
 
+### Examples
+
+Shows how to work with &lt;see cref="NullableBool" /&gt; class.
+
+```csharp
+var project = new Project();
+
+// lets check where the <see cref="Aspose.Tasks.NullableBool" /> class is used
+// the main advantage of <see cref="Aspose.Tasks.NullableBool" /> that 
+// one can set it as undefined through constructing
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// use nullable bool instance
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// use nullable bool instance
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
+
 ### See Also
 
 * struct [NullableBool](../../nullablebool)

@@ -14,6 +14,34 @@ The earned value schedule variance, through the project status date. SV is the d
 public static readonly Key<double, RscKey> SV;
 ```
 
+### Examples
+
+Shows how to read resource costs.
+
+```csharp
+var project = new Project(DataDir + "ResourceCosts.mpp");
+
+// Display all resources costs
+foreach (var res in project.Resources)
+{
+    if (res.Get(Rsc.Name) == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine(res.Get(Rsc.Cost));
+    Console.WriteLine(res.Get(Rsc.ACWP));
+    Console.WriteLine(res.Get(Rsc.BCWS));
+    Console.WriteLine(res.Get(Rsc.BCWP));
+
+    // CV = BCWP - ACWP
+    Console.WriteLine(res.Get(Rsc.CV));
+
+    // SV = BCWP - BCWS
+    Console.WriteLine(res.Get(Rsc.SV));
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

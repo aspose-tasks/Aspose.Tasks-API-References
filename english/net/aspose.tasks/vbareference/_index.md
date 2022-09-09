@@ -35,6 +35,22 @@ public sealed class VbaReference : IEquatable<VbaReference>
 | [Equals](../../aspose.tasks/vbareference/equals#equals)(VbaReference) | Returns a value indicating whether this instance is equal to the specified [`VbaReference`](../vbareference) object. |
 | override [GetHashCode](../../aspose.tasks/vbareference/gethashcode)() | Returns a hash code value for this [`VbaReference`](../vbareference). |
 
+### Examples
+
+Shows how to read VBA references.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks)

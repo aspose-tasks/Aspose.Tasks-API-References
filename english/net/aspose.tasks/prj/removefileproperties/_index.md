@@ -14,6 +14,18 @@ Determines whether all file properties will be removed on save.
 public static readonly Key<NullableBool, PrjKey> RemoveFileProperties;
 ```
 
+### Examples
+
+Shows how to read/write Prj.RemoveFileProperties property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.RemoveFileProperties, true);
+
+Console.WriteLine("Remove File Properties: " + project.Get(Prj.RemoveFileProperties));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

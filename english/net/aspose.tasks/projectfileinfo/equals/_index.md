@@ -22,6 +22,17 @@ public bool Equals(ProjectFileInfo other)
 
 returns true if the specified ProjectFileInfo and this instance have equal file format and application info.
 
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
 ### See Also
 
 * class [ProjectFileInfo](../../projectfileinfo)
@@ -45,6 +56,17 @@ public override bool Equals(object obj)
 ### Return Value
 
 returns true if the specified ProjectFileInfo and this instance have equal file format and application info.
+
+### Examples
+
+Shows how to read project file info.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### See Also
 

@@ -18,6 +18,18 @@ public override string ToString()
 
 short string which represents resource object.
 
+### Examples
+
+Shows how to use resource ToString method.
+
+```csharp
+var project = new Project();
+var resource = project.Resources.Add("Resource");
+
+// print resource common information
+Console.WriteLine(resource.ToString());
+```
+
 ### See Also
 
 * class [Resource](../../resource)

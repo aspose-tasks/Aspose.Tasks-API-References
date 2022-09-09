@@ -24,7 +24,19 @@ public struct Key<T, K>
 
 | Name | Description |
 | --- | --- |
-| [KeyType](../../aspose.tasks/key`2/keytype) { get; } | Gets the key of the property. |
+| [KeyType](../../aspose.tasks/key`2/keytype) { get; } |  |
+
+### Examples
+
+Shows how to read/write Prj.ActualsInSync property.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ActualsInSync, true);
+
+Console.WriteLine("Actuals In Sync: " + project.Get(Prj.ActualsInSync));
+```
 
 ### See Also
 

@@ -14,6 +14,24 @@ The rightmost WBS level of a task.
 public static readonly Key<string, TaskKey> WBSLevel;
 ```
 
+### Examples
+
+Shows how to read task's WBS codes.
+
+```csharp
+var project = new Project(DataDir + "TaskWBS.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Parse through all the collected tasks
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.WBS));
+    Console.WriteLine(task.Get(Tsk.WBSLevel));
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

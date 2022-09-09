@@ -14,6 +14,23 @@ The difference between baseline work of a resource and the currently scheduled w
 public static readonly Key<double, RscKey> WorkVariance;
 ```
 
+### Examples
+
+Shows how to read resource work variance.
+
+```csharp
+var project = new Project(DataDir + "WorkVariance.mpp");
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    var resource = assignment.Get(Asn.Resource);
+
+    var workVariance = resource.Get(Rsc.WorkVariance);
+
+    Console.WriteLine(workVariance);
+}
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

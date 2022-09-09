@@ -14,6 +14,20 @@ Determines whether a task is active. Inactive tasks no longer affect other tasks
 public static readonly Key<NullableBool, TaskKey> IsActive;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.IsActive property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsActive, true);
+
+Console.WriteLine("Is Active: " + task.Get(Tsk.IsActive));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

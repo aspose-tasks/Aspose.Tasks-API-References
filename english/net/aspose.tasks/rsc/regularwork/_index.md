@@ -14,6 +14,21 @@ The total amount of non overtime work scheduled to be performed by resource.
 public static readonly Key<Duration, RscKey> RegularWork;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.RegularWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RegularWork, project.GetWork(1));
+
+Console.WriteLine("Regular Work: " + resource.Get(Rsc.RegularWork));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

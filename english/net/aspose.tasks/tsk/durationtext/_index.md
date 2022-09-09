@@ -14,6 +14,20 @@ Returns the task's duration text.
 public static readonly Key<string, TaskKey> DurationText;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.DurationText property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DurationText, "Not A Duration");
+
+Console.WriteLine("Duration Text: " + task.Get(Tsk.DurationText));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

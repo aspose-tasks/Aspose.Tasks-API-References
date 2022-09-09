@@ -18,6 +18,25 @@ public override string ToString()
 
 short string which represents assignment object.
 
+### Examples
+
+Shows how to print common assignment info.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // display task's assignments
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
 ### See Also
 
 * class [ResourceAssignment](../../resourceassignment)

@@ -14,6 +14,20 @@ The unit of measure for the material resource.
 public static readonly Key<string, RscKey> MaterialLabel;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.MaterialLabel property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.MaterialLabel, "kg");
+
+Console.WriteLine("Material Label: " + resource.Get(Rsc.MaterialLabel));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

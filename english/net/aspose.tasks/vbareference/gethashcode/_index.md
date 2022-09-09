@@ -18,6 +18,21 @@ public override int GetHashCode()
 
 Returns a hash code value for this object.
 
+### Examples
+
+Shows how to get a hash code of a VBA reference.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// the hash code of a reference is a hash code of internal reference's GUID
+Console.WriteLine("VBA reference Hash Code: {0}", reference1.GetHashCode());
+Console.WriteLine("VBA reference Hash Code: {0}", reference2.GetHashCode());
+```
+
 ### See Also
 
 * class [VbaReference](../../vbareference)

@@ -14,6 +14,21 @@ The amount of remaining scheduled overtime.
 public static readonly Key<Duration, RscKey> RemainingOvertimeWork;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.RemainingOvertimeWork property.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingOvertimeWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Overtime Work: " + resource.Get(Rsc.RemainingOvertimeWork));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

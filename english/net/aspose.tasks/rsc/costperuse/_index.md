@@ -14,6 +14,20 @@ The cost that accrues every time that a resource is used.
 public static readonly Key<decimal, RscKey> CostPerUse;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.CostPerUse property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostPerUse, 9);
+
+Console.WriteLine("Cost Per Use: " + resource.Get(Rsc.CostPerUse));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

@@ -14,6 +14,20 @@ Notes' plain text extracted from RTF data.
 public static readonly Key<string, RscKey> NotesText;
 ```
 
+### Examples
+
+Shows how to read/write Rsc.NotesText property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.NotesText, "Notes");
+
+Console.WriteLine("Notes Text: " + resource.Get(Rsc.NotesText));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)

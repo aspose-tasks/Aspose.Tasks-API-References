@@ -46,6 +46,22 @@ public abstract class SaveOptions
 
 An instance of any derived class from SaveOptions class is passed to the stream Save or string Save overloads for the user to define custom options when saving a document.
 
+### Examples
+
+Shows how to set the option whether row height should be increased to fit its content.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    // Set option fit content to true
+    FitContent = true,
+    Timescale = Timescale.Months,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+project.Save(OutDir + "FitContentsToCellSize_out.pdf", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving)

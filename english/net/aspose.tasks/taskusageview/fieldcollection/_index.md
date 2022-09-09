@@ -14,6 +14,20 @@ Gets [`TaskUsageViewFieldCollection`](../../taskusageviewfieldcollection) object
 public TaskUsageViewFieldCollection FieldCollection { get; }
 ```
 
+### Examples
+
+Shows how to read task usage view fields.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = (TaskUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+
 ### See Also
 
 * class [TaskUsageViewFieldCollection](../../taskusageviewfieldcollection)

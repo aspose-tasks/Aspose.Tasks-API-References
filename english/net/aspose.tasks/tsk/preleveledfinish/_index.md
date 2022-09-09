@@ -14,6 +14,20 @@ The finish date of a task as it was before resource leveling was done.
 public static readonly Key<DateTime, TaskKey> PreleveledFinish;
 ```
 
+### Examples
+
+Shows how to read/write Tsk.PreleveledFinish property.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.PreleveledFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Preleveled Finish: " + task.Get(Tsk.PreleveledFinish));
+```
+
 ### See Also
 
 * struct [Key&lt;T,K&gt;](../../key-2)
