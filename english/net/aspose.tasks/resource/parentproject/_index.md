@@ -3,7 +3,7 @@ title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets parent project for this container.
 type: docs
-weight: 70
+weight: 610
 url: /net/aspose.tasks/resource/parentproject/
 ---
 ## Resource.ParentProject property

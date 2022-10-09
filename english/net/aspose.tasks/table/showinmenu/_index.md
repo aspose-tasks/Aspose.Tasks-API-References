@@ -3,7 +3,7 @@ title: ShowInMenu
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether project shows the table name in the Tables dropdown list on the View tab of the Ribbon.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/table/showinmenu/
 ---
 ## Table.ShowInMenu property

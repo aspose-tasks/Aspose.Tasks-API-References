@@ -3,7 +3,7 @@ title: DailyWorkRepetition
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a class for repetitions in daily recurrence pattern based on work days.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.tasks/dailyworkrepetition/
 ---
 ## DailyWorkRepetition class

@@ -3,7 +3,7 @@ title: Baselines
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a BaselineCollection instance for this object. The baseline values for a resource.
 type: docs
-weight: 30
+weight: 160
 url: /net/aspose.tasks/resource/baselines/
 ---
 ## Resource.Baselines property

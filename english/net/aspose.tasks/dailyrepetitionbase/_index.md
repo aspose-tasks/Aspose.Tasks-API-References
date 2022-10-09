@@ -3,7 +3,7 @@ title: DailyRepetitionBase
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a base class for repetitions in daily recurrence pattern.
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.tasks/dailyrepetitionbase/
 ---
 ## DailyRepetitionBase class

@@ -1,22 +1,18 @@
 ---
 title: IsBaselineCalendar
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets a value indicating whether the calendar is a baseline calendar. Read/write Boolean.
+description: Gets or sets a value indicating whether the calendar is a baseline calendar.
 type: docs
 weight: 70
 url: /net/aspose.tasks/calendar/isbaselinecalendar/
 ---
 ## Calendar.IsBaselineCalendar property
 
-Gets or sets a value indicating whether the calendar is a baseline calendar. Read/write Boolean.
+Gets or sets a value indicating whether the calendar is a baseline calendar.
 
 ```csharp
 public bool IsBaselineCalendar { get; set; }
 ```
-
-### Remarks
-
-This is a new for MS Project 2010 property. Reading supported for XML format only. Returns false if not defined.
 
 ### Examples
 

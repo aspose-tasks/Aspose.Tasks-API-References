@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format.
 type: docs
-weight: 1910
+weight: 1920
 url: /net/aspose.tasks.saving/saveoptions/
 ---
 ## SaveOptions class

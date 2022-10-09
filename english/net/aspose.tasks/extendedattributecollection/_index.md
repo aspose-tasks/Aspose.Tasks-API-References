@@ -3,7 +3,7 @@ title: ExtendedAttributeCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of ExtendedAttribute./extendedattribute objects.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.tasks/extendedattributecollection/
 ---
 ## ExtendedAttributeCollection class

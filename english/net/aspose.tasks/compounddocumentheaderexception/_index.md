@@ -3,7 +3,7 @@ title: CompoundDocumentHeaderException
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an exception which is thrown when the header of MPP file is broken.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.tasks/compounddocumentheaderexception/
 ---
 ## CompoundDocumentHeaderException class

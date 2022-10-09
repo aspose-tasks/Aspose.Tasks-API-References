@@ -3,7 +3,7 @@ title: DailyRecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents the set of parameters are used to create a daily recurring task in a project.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.tasks/dailyrecurrencepattern/
 ---
 ## DailyRecurrencePattern class

@@ -3,7 +3,7 @@ title: CalculationType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of a calculation of the custom attributes value.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.tasks/calculationtype/
 ---
 ## CalculationType enumeration
@@ -20,8 +20,7 @@ public enum CalculationType
 | --- | --- | --- |
 | None | `0` | Means the extended attribute has no lookup table of formula and simply stores value set by the user. |
 | Lookup | `1` | Means the value of the extended attribute is restricted to values from a lookup table. |
-| Rollup | `2` | Means the value of the extended attribute are rolled up to task and group summary rows. |
-| Formula | `3` | Means the value of the extended attribute is calculated using formula defined in [`Formula`](../extendedattributedefinition/formula). |
+| Formula | `2` | Means the value of the extended attribute is calculated using formula defined in [`Formula`](../extendedattributedefinition/formula). |
 
 ### Examples
 

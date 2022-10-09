@@ -3,7 +3,7 @@ title: FilterCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains a list of Filter./filter objects. Implements ICollectionltFiltergt interface.
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.tasks/filtercollection/
 ---
 ## FilterCollection class
@@ -20,7 +20,6 @@ public class FilterCollection : ICollection<Filter>
 | --- | --- |
 | [Count](../../aspose.tasks/filtercollection/count) { get; } | Gets the number of elements contained in this collection. |
 | [IsReadOnly](../../aspose.tasks/filtercollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [ParentProject](../../aspose.tasks/filtercollection/parentproject) { get; } | Gets the parent of the Filters object. Read-only [`Project`](../project). |
 
 ## Methods
 

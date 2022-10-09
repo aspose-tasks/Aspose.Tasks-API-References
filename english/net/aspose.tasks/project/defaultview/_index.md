@@ -3,7 +3,7 @@ title: DefaultView
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets default view of the project.
 type: docs
-weight: 70
+weight: 350
 url: /net/aspose.tasks/project/defaultview/
 ---
 ## Project.DefaultView property

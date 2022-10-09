@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an extended attribute definition associated with a project.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.tasks/extendedattributedefinition/
 ---
 ## ExtendedAttributeDefinition class

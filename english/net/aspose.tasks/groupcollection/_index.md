@@ -3,7 +3,7 @@ title: GroupCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains a list of Group./group objects. Implements ICollectionltGroupgt interface.
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.tasks/groupcollection/
 ---
 ## GroupCollection class
@@ -20,7 +20,6 @@ public class GroupCollection : ICollection<Group>
 | --- | --- |
 | [Count](../../aspose.tasks/groupcollection/count) { get; } | Gets the number of elements contained in this collection. |
 | [IsReadOnly](../../aspose.tasks/groupcollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only. |
-| [ParentProject](../../aspose.tasks/groupcollection/parentproject) { get; } | Gets the parent of the Group object. Read-only [`Project`](../project). |
 
 ## Methods
 

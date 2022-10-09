@@ -3,7 +3,7 @@ title: ByYearDayRepetition
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a pattern which is based on the absolute position of a day in a month.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.tasks/byyeardayrepetition/
 ---
 ## ByYearDayRepetition class

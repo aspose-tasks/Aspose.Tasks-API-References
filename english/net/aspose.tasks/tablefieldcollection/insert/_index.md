@@ -3,7 +3,7 @@ title: Insert
 second_title: Aspose.Tasks for .NET API Reference
 description: Inserts the specified item at the specified index.
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.tasks/tablefieldcollection/insert/
 ---
 ## TableFieldCollection.Insert method

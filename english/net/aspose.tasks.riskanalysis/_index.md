@@ -3,7 +3,7 @@ title: Aspose.Tasks.RiskAnalysis
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains classes for creating Risk Analysis Report.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.tasks.riskanalysis/
 ---
 Contains classes for creating Risk Analysis Report.

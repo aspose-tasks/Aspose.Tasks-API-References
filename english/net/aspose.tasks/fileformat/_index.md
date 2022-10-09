@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the projects file format.
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.tasks/fileformat/
 ---
 ## FileFormat enumeration
@@ -31,7 +31,7 @@ public enum FileFormat
 | MPX | `10` | Mpx file format |
 | XER | `11` | Represents Primavera XER format |
 | HTML | `12` | Represents HTML format |
-| ProjectServer | `13` |  |
+| ProjectServer | `13` | Project was read from Project Server or Project Online |
 
 ### Examples
 

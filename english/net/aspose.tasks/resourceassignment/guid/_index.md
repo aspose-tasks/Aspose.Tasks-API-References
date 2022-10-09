@@ -3,7 +3,7 @@ title: Guid
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets unique identifier for this assignment.
 type: docs
-weight: 30
+weight: 290
 url: /net/aspose.tasks/resourceassignment/guid/
 ---
 ## ResourceAssignment.Guid property

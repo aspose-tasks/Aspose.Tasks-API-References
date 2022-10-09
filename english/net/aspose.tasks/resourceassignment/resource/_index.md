@@ -1,12 +1,14 @@
 ---
 title: Resource
 second_title: Aspose.Tasks for .NET API Reference
-description: 
+description: The resource assigned to a task.
 type: docs
-weight: 50
+weight: 510
 url: /net/aspose.tasks/resourceassignment/resource/
 ---
 ## ResourceAssignment.Resource property
+
+The resource assigned to a task.
 
 ```csharp
 public Resource Resource { get; set; }

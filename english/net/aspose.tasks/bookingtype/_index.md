@@ -3,7 +3,7 @@ title: BookingType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the booking type of a resource.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.tasks/bookingtype/
 ---
 ## BookingType enumeration

@@ -3,7 +3,7 @@ title: GetByName
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns a calendar with the specified name.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks/calendarcollection/getbyname/
 ---
 ## CalendarCollection.GetByName method

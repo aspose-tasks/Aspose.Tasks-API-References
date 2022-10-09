@@ -3,7 +3,7 @@ title: Get
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns the value to which the property is mapped in this container.
 type: docs
-weight: 120
+weight: 840
 url: /net/aspose.tasks/resource/get/
 ---
 ## Resource.Get&lt;T&gt; method

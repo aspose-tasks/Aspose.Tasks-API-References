@@ -3,7 +3,7 @@ title: View
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a view in Project.
 type: docs
-weight: 2550
+weight: 2560
 url: /net/aspose.tasks/view/
 ---
 ## View class

@@ -3,7 +3,7 @@ title: CriticalPath
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a collection which contains a list of Critical tasks which comprise Critical Path of this project. This is an On operation where n is the number of tasks in the project.
 type: docs
-weight: 50
+weight: 170
 url: /net/aspose.tasks/project/criticalpath/
 ---
 ## Project.CriticalPath property

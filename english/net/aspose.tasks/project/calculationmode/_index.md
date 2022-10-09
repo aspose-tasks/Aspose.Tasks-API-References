@@ -3,7 +3,7 @@ title: CalculationMode
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets calculation mode of a project. Can be one of the values of CalculationModeaspose.tasks/project/calculationmode enumeration.
 type: docs
-weight: 30
+weight: 100
 url: /net/aspose.tasks/project/calculationmode/
 ---
 ## Project.CalculationMode property

@@ -3,7 +3,7 @@ title: GanttChartView
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a GanttChart view.
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.tasks/ganttchartview/
 ---
 ## GanttChartView class

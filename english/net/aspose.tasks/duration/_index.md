@@ -3,7 +3,7 @@ title: Duration
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents duration in a project.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.tasks/duration/
 ---
 ## Duration structure
