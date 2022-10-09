@@ -3,7 +3,7 @@ title: Baseline
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents baseline values of a resource.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.tasks/baseline/
 ---
 ## Baseline class

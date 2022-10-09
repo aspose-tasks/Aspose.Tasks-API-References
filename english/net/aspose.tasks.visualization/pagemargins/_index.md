@@ -3,7 +3,7 @@ title: PageMargins
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents page margins for printing.
 type: docs
-weight: 2870
+weight: 2880
 url: /net/aspose.tasks.visualization/pagemargins/
 ---
 ## PageMargins class

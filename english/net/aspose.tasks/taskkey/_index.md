@@ -3,7 +3,7 @@ title: TaskKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a list of supported task fields.
 type: docs
-weight: 2100
+weight: 2110
 url: /net/aspose.tasks/taskkey/
 ---
 ## TaskKey enumeration
@@ -18,7 +18,7 @@ public enum TaskKey
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Uid | `0` | Represents the Uid (Task) field. |
+| Uid | `0` | Represents the Unique ID (Task) field. |
 | Id | `1` | Represents the Id (Task) field. |
 | Name | `2` | Represents the Name (Task) field. |
 | Type | `3` | Represents the Type (Task) field. |

@@ -3,7 +3,7 @@ title: GetStartDateFromFinishAndDuration
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns StartDate based on specified FinishDate and Duration.
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.tasks/calendar/getstartdatefromfinishandduration/
 ---
 ## GetStartDateFromFinishAndDuration(DateTime, Duration) {#getstartdatefromfinishandduration}

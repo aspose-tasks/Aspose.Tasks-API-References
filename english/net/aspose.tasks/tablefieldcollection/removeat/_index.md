@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Tasks for .NET API Reference
 description: Removes an item at the specified index.
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.tasks/tablefieldcollection/removeat/
 ---
 ## TableFieldCollection.RemoveAt method

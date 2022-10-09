@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Tasks for .NET API Reference
 description: Adds the specified item to this collection.
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/tablefieldcollection/add/
 ---
 ## TableFieldCollection.Add method

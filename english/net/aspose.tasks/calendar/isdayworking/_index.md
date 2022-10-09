@@ -3,7 +3,7 @@ title: IsDayWorking
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether the day is working day.
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.tasks/calendar/isdayworking/
 ---
 ## Calendar.IsDayWorking method

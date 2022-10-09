@@ -3,7 +3,7 @@ title: GetPreviousWorkingDayEnd
 second_title: Aspose.Tasks for .NET API Reference
 description: Calculates previous working date end from the specified date.
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.tasks/calendar/getpreviousworkingdayend/
 ---
 ## Calendar.GetPreviousWorkingDayEnd method

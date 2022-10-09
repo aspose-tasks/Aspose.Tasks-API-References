@@ -3,7 +3,7 @@ title: TimephasedData
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a TimephasedDataCollection object of this task. The time phased data block associated with a task.
 type: docs
-weight: 120
+weight: 1180
 url: /net/aspose.tasks/task/timephaseddata/
 ---
 ## Task.TimephasedData property

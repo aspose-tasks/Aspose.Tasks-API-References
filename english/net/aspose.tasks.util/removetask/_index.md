@@ -3,7 +3,7 @@ title: RemoveTask
 second_title: Aspose.Tasks for .NET API Reference
 description: Removes the specified task from a tree of tasks.
 type: docs
-weight: 2430
+weight: 2440
 url: /net/aspose.tasks.util/removetask/
 ---
 ## RemoveTask class

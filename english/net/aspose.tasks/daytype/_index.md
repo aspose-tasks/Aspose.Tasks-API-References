@@ -3,7 +3,7 @@ title: DayType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the day of a week.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.tasks/daytype/
 ---
 ## DayType enumeration

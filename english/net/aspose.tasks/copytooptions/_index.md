@@ -3,7 +3,7 @@ title: CopyToOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when copying project data.
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.tasks/copytooptions/
 ---
 ## CopyToOptions class

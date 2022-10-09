@@ -3,7 +3,7 @@ title: BaselineCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of Baseline./baseline objects.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.tasks/baselinecollection/
 ---
 ## BaselineCollection class

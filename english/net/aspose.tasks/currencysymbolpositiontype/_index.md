@@ -3,7 +3,7 @@ title: CurrencySymbolPositionType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the position of a currency symbol.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.tasks/currencysymbolpositiontype/
 ---
 ## CurrencySymbolPositionType enumeration

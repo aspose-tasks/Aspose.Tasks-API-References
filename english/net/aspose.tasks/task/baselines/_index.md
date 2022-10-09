@@ -3,7 +3,7 @@ title: Baselines
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the collection of baseline values of the task.
 type: docs
-weight: 20
+weight: 120
 url: /net/aspose.tasks/task/baselines/
 ---
 ## Task.Baselines property

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.tasks/workingtime/workingtime/
 ---
-## WorkingTime(DateTime, DateTime) {#constructor_2}
+## WorkingTime(DateTime, DateTime) {#constructor_1}
 
 Initializes a new instance of the [`WorkingTime`](../../workingtime) class with a interval with the specified start and finish times.
 
@@ -76,7 +76,7 @@ public static Calendar CreateCalendar(Project project)
 
 ---
 
-## WorkingTime(TimeSpan, TimeSpan) {#constructor_3}
+## WorkingTime(TimeSpan, TimeSpan) {#constructor_2}
 
 Initializes a new instance of the [`WorkingTime`](../../workingtime) class with an interval item with the specified start and finish times.
 
@@ -112,7 +112,7 @@ var wt = new WorkingTime(new TimeSpan(9, 0, 0), new TimeSpan(18, 0, 0));
 
 ---
 
-## WorkingTime(int, int) {#constructor_1}
+## WorkingTime(int, int) {#constructor}
 
 Initializes a new instance of the [`WorkingTime`](../../workingtime) class with an interval item with the specified start and finish times.
 

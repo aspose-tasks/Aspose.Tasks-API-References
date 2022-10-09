@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Tasks for .NET API Reference
 description: Adds a new base calendar to this CalendarCollection object and returns added calendar.
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.tasks/calendarcollection/add/
 ---
 ## Add(string) {#add}

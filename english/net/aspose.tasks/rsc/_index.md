@@ -3,7 +3,7 @@ title: Rsc
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents supported properties of Resource./resource object.
 type: docs
-weight: 1690
+weight: 1700
 url: /net/aspose.tasks/rsc/
 ---
 ## Rsc class
@@ -65,7 +65,7 @@ public static class Rsc
 | static readonly [MaxUnits](../../aspose.tasks/rsc/maxunits) | The maximum number of units representing the maximum capacity for which a resource is available to accomplish any tasks during the current time period. |
 | static readonly [Name](../../aspose.tasks/rsc/name) | The name of a resource. |
 | static readonly [Notes](../../aspose.tasks/rsc/notes) | The text notes associated with a resource. |
-| static readonly [NotesRTF](../../aspose.tasks/rsc/notesrtf) | The text notes in RTF format. Supported for MPP formats only. String type. |
+| static readonly [NotesRTF](../../aspose.tasks/rsc/notesrtf) | The text notes in RTF format. Supported for MPP formats only. |
 | static readonly [NotesText](../../aspose.tasks/rsc/notestext) | Notes' plain text extracted from RTF data. |
 | static readonly [Overallocated](../../aspose.tasks/rsc/overallocated) | Indicates whether a resource is assigned to more work on a specific task or all tasks than can be completed within normal working capacity. |
 | static readonly [OvertimeCost](../../aspose.tasks/rsc/overtimecost) | The total overtime cost for a resource on all assigned tasks. |

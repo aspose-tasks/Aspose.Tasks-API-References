@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies a type of compression applied to all content in the PDF file except images.
 type: docs
-weight: 1860
+weight: 1870
 url: /net/aspose.tasks.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration

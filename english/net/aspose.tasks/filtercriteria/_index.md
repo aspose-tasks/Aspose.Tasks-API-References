@@ -3,7 +3,7 @@ title: FilterCriteria
 second_title: Aspose.Tasks for .NET API Reference
 description: Defines the criteria that tasks or resources must meet to be displayed in MSP view.
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.tasks/filtercriteria/
 ---
 ## FilterCriteria class

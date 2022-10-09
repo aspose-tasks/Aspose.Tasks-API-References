@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns an enumerator for this collection.
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.tasks/tablefieldcollection/getenumerator/
 ---
 ## TableFieldCollection.GetEnumerator method

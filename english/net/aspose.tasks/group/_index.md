@@ -3,7 +3,7 @@ title: Group
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a group definition. A Group object is a member of the ResourceGroups collection or the TaskGroups collection.
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.tasks/group/
 ---
 ## Group class
@@ -28,7 +28,6 @@ public class Group
 | [Index](../../aspose.tasks/group/index) { get; } | Gets the index of a [`Group`](../group) object in the Groups containing object. |
 | [MaintainHierarchy](../../aspose.tasks/group/maintainhierarchy) { get; set; } | Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
 | [Name](../../aspose.tasks/group/name) { get; set; } | Gets or sets a name of a Group object. |
-| [ParentProject](../../aspose.tasks/group/parentproject) { get; } | Gets the parent of the Group object. |
 | [ShowInMenu](../../aspose.tasks/group/showinmenu) { get; set; } | Gets or sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
 | [ShowSummary](../../aspose.tasks/group/showsummary) { get; set; } | Gets or sets a value indicating whether summary rows are displayed for the group. |
 | [Uid](../../aspose.tasks/group/uid) { get; } | Gets a unique identifier of a group. |

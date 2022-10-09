@@ -3,7 +3,7 @@ title: RateType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the unique identifiers of a rate table.
 type: docs
-weight: 1400
+weight: 1410
 url: /net/aspose.tasks/ratetype/
 ---
 ## RateType enumeration

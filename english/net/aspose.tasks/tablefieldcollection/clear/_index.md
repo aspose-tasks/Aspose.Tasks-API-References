@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Tasks for .NET API Reference
 description: Removes all items from this collection.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/tablefieldcollection/clear/
 ---
 ## TableFieldCollection.Clear method

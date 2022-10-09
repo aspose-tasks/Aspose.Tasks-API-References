@@ -3,7 +3,7 @@ title: CalendarExceptionCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of CalendarException./calendarexception objects.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.tasks/calendarexceptioncollection/
 ---
 ## CalendarExceptionCollection class

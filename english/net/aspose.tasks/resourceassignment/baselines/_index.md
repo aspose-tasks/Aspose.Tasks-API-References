@@ -3,7 +3,7 @@ title: Baselines
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets AssignmentBaselineCollection object. The collection of baseline values associated with an assignment.
 type: docs
-weight: 10
+weight: 120
 url: /net/aspose.tasks/resourceassignment/baselines/
 ---
 ## ResourceAssignment.Baselines property

@@ -3,7 +3,7 @@ title: ExtendedAttributes
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets ExtendedAttributeDefinitionCollection object. The collection of extended attribute custom fields definitions associated with a project.
 type: docs
-weight: 100
+weight: 400
 url: /net/aspose.tasks/project/extendedattributes/
 ---
 ## Project.ExtendedAttributes property

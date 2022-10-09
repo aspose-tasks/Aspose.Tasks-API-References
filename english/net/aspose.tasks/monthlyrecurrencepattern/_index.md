@@ -3,7 +3,7 @@ title: MonthlyRecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents the set of parameters are used to create a monthly recurring task in a project.
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.tasks/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern class

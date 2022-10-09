@@ -3,7 +3,7 @@ title: MpdSettings
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to set necessary options to read project data from MPD format MS Access database file format.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.tasks.connectivity/mpdsettings/
 ---
 ## MpdSettings class

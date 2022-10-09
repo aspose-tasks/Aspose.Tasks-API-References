@@ -3,7 +3,7 @@ title: CalendarCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of Calendar./calendar objects.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.tasks/calendarcollection/
 ---
 ## CalendarCollection class
@@ -19,7 +19,6 @@ public class CalendarCollection : IList<Calendar>
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.tasks/calendarcollection/count) { get; } | Gets the number of objects contained in this [`CalendarCollection`](../calendarcollection) object. |
-| [ParentProject](../../aspose.tasks/calendarcollection/parentproject) { get; } | Gets a parent [`Project`](../project) of this object. |
 
 ## Methods
 

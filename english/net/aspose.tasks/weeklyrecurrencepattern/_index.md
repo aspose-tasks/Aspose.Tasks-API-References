@@ -3,7 +3,7 @@ title: WeeklyRecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents the set of parameters are used to create a weekly recurring task in a project.
 type: docs
-weight: 3210
+weight: 3220
 url: /net/aspose.tasks/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern class

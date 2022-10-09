@@ -3,7 +3,7 @@ title: Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the unique identifier of a table.
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.tasks/table/uid/
 ---
 ## Table.Uid property

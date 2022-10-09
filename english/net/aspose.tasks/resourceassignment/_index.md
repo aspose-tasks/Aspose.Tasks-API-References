@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 1490
+weight: 1500
 url: /net/aspose.tasks/resourceassignment/
 ---
 ## ResourceAssignment class
@@ -18,13 +18,73 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 
 | Name | Description |
 | --- | --- |
+| [ActualCost](../../aspose.tasks/resourceassignment/actualcost) { get; set; } | Gets or sets a value of ActualCost. |
+| [ActualFinish](../../aspose.tasks/resourceassignment/actualfinish) { get; set; } | Gets or sets a value of ActualFinish. |
+| [ActualOvertimeCost](../../aspose.tasks/resourceassignment/actualovertimecost) { get; set; } | Gets or sets a value of ActualOvertimeCost. |
+| [ActualOvertimeWork](../../aspose.tasks/resourceassignment/actualovertimework) { get; set; } | Gets or sets a value of ActualOvertimeWork. |
+| [ActualOvertimeWorkProtected](../../aspose.tasks/resourceassignment/actualovertimeworkprotected) { get; set; } | Gets or sets a value of ActualOvertimeWorkProtected. |
+| [ActualStart](../../aspose.tasks/resourceassignment/actualstart) { get; set; } | Gets or sets a value of ActualStart. |
+| [ActualWork](../../aspose.tasks/resourceassignment/actualwork) { get; set; } | Gets or sets a value of ActualWork. |
+| [ActualWorkProtected](../../aspose.tasks/resourceassignment/actualworkprotected) { get; set; } | Gets or sets a value of ActualWorkProtected. |
+| [ACWP](../../aspose.tasks/resourceassignment/acwp) { get; set; } | Gets or sets a value of ACWP. |
+| [AssignmentOwner](../../aspose.tasks/resourceassignment/assignmentowner) { get; set; } | Gets or sets a value of AssignmentOwner. |
+| [AssignmentOwnerGuid](../../aspose.tasks/resourceassignment/assignmentownerguid) { get; set; } | Gets or sets a value of AssignmentOwnerGuid. |
 | [Baselines](../../aspose.tasks/resourceassignment/baselines) { get; } | Gets AssignmentBaselineCollection object. The collection of baseline values associated with an assignment. |
+| [BCWP](../../aspose.tasks/resourceassignment/bcwp) { get; set; } | Gets or sets a value of BCWP. |
+| [BCWS](../../aspose.tasks/resourceassignment/bcws) { get; set; } | Gets or sets a value of BCWS. |
+| [BookingType](../../aspose.tasks/resourceassignment/bookingtype) { get; set; } | Gets or sets a value of BookingType. |
+| [BudgetCost](../../aspose.tasks/resourceassignment/budgetcost) { get; set; } | Gets or sets a value of BudgetCost. |
+| [BudgetWork](../../aspose.tasks/resourceassignment/budgetwork) { get; set; } | Gets or sets a value of BudgetWork. |
+| [Confirmed](../../aspose.tasks/resourceassignment/confirmed) { get; set; } | Gets or sets a value indicating whether Confirmed is set or not. |
+| [Cost](../../aspose.tasks/resourceassignment/cost) { get; set; } | Gets or sets a value of Cost. |
+| [CostRateTableType](../../aspose.tasks/resourceassignment/costratetabletype) { get; set; } | Gets or sets a value of CostRateTableType. |
+| [CostVariance](../../aspose.tasks/resourceassignment/costvariance) { get; set; } | Gets or sets a value of CostVariance. |
+| [Created](../../aspose.tasks/resourceassignment/created) { get; set; } | Gets or sets a value of Created. |
+| [CV](../../aspose.tasks/resourceassignment/cv) { get; set; } | Gets or sets a value of CV. |
+| [Delay](../../aspose.tasks/resourceassignment/delay) { get; set; } | Gets or sets a value of Delay. |
 | [ExtendedAttributes](../../aspose.tasks/resourceassignment/extendedattributes) { get; set; } | Gets or sets an instance of the ExtendedAttributeCollection class for this object. |
+| [Finish](../../aspose.tasks/resourceassignment/finish) { get; set; } | Gets or sets a value of Finish. |
+| [FinishVariance](../../aspose.tasks/resourceassignment/finishvariance) { get; set; } | Gets or sets a value of FinishVariance. |
+| [FixedMaterial](../../aspose.tasks/resourceassignment/fixedmaterial) { get; set; } | Gets or sets a value indicating whether FixedMaterial is set or not. |
 | [Guid](../../aspose.tasks/resourceassignment/guid) { get; set; } | Gets or sets unique identifier for this assignment. |
+| [HasFixedRateUnits](../../aspose.tasks/resourceassignment/hasfixedrateunits) { get; set; } | Gets or sets a value indicating whether HasFixedRateUnits is set or not. |
+| [Hyperlink](../../aspose.tasks/resourceassignment/hyperlink) { get; set; } | Gets or sets a value of Hyperlink. |
+| [HyperlinkAddress](../../aspose.tasks/resourceassignment/hyperlinkaddress) { get; set; } | Gets or sets a value of HyperlinkAddress. |
+| [HyperlinkSubAddress](../../aspose.tasks/resourceassignment/hyperlinksubaddress) { get; set; } | Gets or sets a value of HyperlinkSubAddress. |
+| [LevelingDelay](../../aspose.tasks/resourceassignment/levelingdelay) { get; set; } | Gets or sets a value of LevelingDelay. |
+| [LevelingDelayFormat](../../aspose.tasks/resourceassignment/levelingdelayformat) { get; set; } | Gets or sets a value of LevelingDelayFormat. |
+| [LinkedFields](../../aspose.tasks/resourceassignment/linkedfields) { get; set; } | Gets or sets a value indicating whether LinkedFields is set or not. |
+| [Milestone](../../aspose.tasks/resourceassignment/milestone) { get; set; } | Gets or sets a value indicating whether Milestone is set or not. |
+| [Notes](../../aspose.tasks/resourceassignment/notes) { get; set; } | Gets or sets a value of Notes. |
+| [Overallocated](../../aspose.tasks/resourceassignment/overallocated) { get; set; } | Gets or sets a value indicating whether Overallocated is set or not. |
+| [OvertimeCost](../../aspose.tasks/resourceassignment/overtimecost) { get; set; } | Gets or sets a value of OvertimeCost. |
+| [OvertimeWork](../../aspose.tasks/resourceassignment/overtimework) { get; set; } | Gets or sets a value of OvertimeWork. |
 | [ParentProject](../../aspose.tasks/resourceassignment/parentproject) { get; } | Gets parent project for this assignment. |
-| [Resource](../../aspose.tasks/resourceassignment/resource) { get; set; } |  |
-| [Task](../../aspose.tasks/resourceassignment/task) { get; set; } |  |
+| [PeakUnits](../../aspose.tasks/resourceassignment/peakunits) { get; set; } | Gets or sets a value of PeakUnits. |
+| [PercentWorkComplete](../../aspose.tasks/resourceassignment/percentworkcomplete) { get; set; } | Gets or sets a value of PercentWorkComplete. |
+| [RateScale](../../aspose.tasks/resourceassignment/ratescale) { get; set; } | Gets or sets a value of RateScale. |
+| [RegularWork](../../aspose.tasks/resourceassignment/regularwork) { get; set; } | Gets or sets a value of RegularWork. |
+| [RemainingCost](../../aspose.tasks/resourceassignment/remainingcost) { get; set; } | Gets or sets a value of RemainingCost. |
+| [RemainingOvertimeCost](../../aspose.tasks/resourceassignment/remainingovertimecost) { get; set; } | Gets or sets a value of RemainingOvertimeCost. |
+| [RemainingOvertimeWork](../../aspose.tasks/resourceassignment/remainingovertimework) { get; set; } | Gets or sets a value of RemainingOvertimeWork. |
+| [RemainingWork](../../aspose.tasks/resourceassignment/remainingwork) { get; set; } | Gets or sets a value of RemainingWork. |
+| [Resource](../../aspose.tasks/resourceassignment/resource) { get; set; } | The resource assigned to a task. |
+| [ResponsePending](../../aspose.tasks/resourceassignment/responsepending) { get; set; } | Gets or sets a value indicating whether ResponsePending is set or not. |
+| [Resume](../../aspose.tasks/resourceassignment/resume) { get; set; } | Gets or sets a value of Resume. |
+| [Start](../../aspose.tasks/resourceassignment/start) { get; set; } | Gets or sets a value of Start. |
+| [StartVariance](../../aspose.tasks/resourceassignment/startvariance) { get; set; } | Gets or sets a value of StartVariance. |
+| [Stop](../../aspose.tasks/resourceassignment/stop) { get; set; } | Gets or sets a value of Stop. |
+| [Summary](../../aspose.tasks/resourceassignment/summary) { get; set; } | Gets or sets a value indicating whether Summary is set or not. |
+| [SV](../../aspose.tasks/resourceassignment/sv) { get; set; } | Gets or sets a value of SV. |
+| [Task](../../aspose.tasks/resourceassignment/task) { get; set; } | The task to which a resource is assigned. |
 | [TimephasedData](../../aspose.tasks/resourceassignment/timephaseddata) { get; set; } | Gets or sets the instance of [`TimephasedDataCollection`](../timephaseddatacollection) class containing elements of [`TimephasedData`](./timephaseddata) class. |
+| [Uid](../../aspose.tasks/resourceassignment/uid) { get; set; } | Gets or sets a value of Uid. |
+| [Units](../../aspose.tasks/resourceassignment/units) { get; set; } | Gets or sets a value of Units. |
+| [UpdateNeeded](../../aspose.tasks/resourceassignment/updateneeded) { get; set; } | Gets or sets a value indicating whether UpdateNeeded is set or not. |
+| [VAC](../../aspose.tasks/resourceassignment/vac) { get; set; } | Gets or sets a value of VAC. |
+| [Work](../../aspose.tasks/resourceassignment/work) { get; set; } | Gets or sets a value of Work. |
+| [WorkContour](../../aspose.tasks/resourceassignment/workcontour) { get; set; } | Gets or sets a value of WorkContour. |
+| [WorkVariance](../../aspose.tasks/resourceassignment/workvariance) { get; set; } | Gets or sets a value of WorkVariance. |
 
 ## Methods
 

@@ -1,14 +1,14 @@
 ---
 title: ActualOvertimeWorkProtected
 second_title: Aspose.Tasks for .NET API Reference
-description: The duration through which actual overtime work is protected. Reading supported for XML format only. Durationaspose.tasks/tsk/duration type.
+description: The duration through which actual overtime work is protected.
 type: docs
 weight: 70
 url: /net/aspose.tasks/tsk/actualovertimeworkprotected/
 ---
 ## Tsk.ActualOvertimeWorkProtected field
 
-The duration through which actual overtime work is protected. Reading supported for XML format only. [`Duration`](../duration) type.
+The duration through which actual overtime work is protected.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualOvertimeWorkProtected;

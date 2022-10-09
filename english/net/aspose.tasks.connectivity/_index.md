@@ -3,7 +3,7 @@ title: Aspose.Tasks.Connectivity
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains classes for working with Databases.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.tasks.connectivity/
 ---
 Contains classes for working with Databases.

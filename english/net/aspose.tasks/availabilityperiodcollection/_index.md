@@ -3,7 +3,7 @@ title: AvailabilityPeriodCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection which contains AvailabilityPeriod./availabilityperiod objects.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class

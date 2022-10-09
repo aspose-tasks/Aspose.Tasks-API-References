@@ -3,7 +3,7 @@ title: EarnedValueMethodType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the method used for calculating earned value.
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.tasks/earnedvaluemethodtype/
 ---
 ## EarnedValueMethodType enumeration

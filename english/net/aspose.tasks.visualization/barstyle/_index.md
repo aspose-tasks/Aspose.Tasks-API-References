@@ -3,7 +3,7 @@ title: BarStyle
 second_title: Aspose.Tasks for .NET API Reference
 description: Change the visual style of the bar for the item in the project view.
 type: docs
-weight: 2620
+weight: 2630
 url: /net/aspose.tasks.visualization/barstyle/
 ---
 ## BarStyle class

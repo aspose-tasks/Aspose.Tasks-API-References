@@ -3,7 +3,7 @@ title: RiskItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies task fields for which the statistical information is gathered during risk analysis.
 type: docs
-weight: 1650
+weight: 1660
 url: /net/aspose.tasks.riskanalysis/riskitemtype/
 ---
 ## RiskItemType enumeration
