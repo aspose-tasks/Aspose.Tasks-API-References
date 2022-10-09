@@ -1,14 +1,14 @@
 ---
 title: ActualWorkProtected
 second_title: Aspose.Tasks for .NET API Reference
-description: The duration through which actual work is protected. Reading supported for XML format only. Durationaspose.tasks/tsk/duration type.
+description: The duration through which actual work is protected. Reading supported for XML format only.
 type: docs
 weight: 100
 url: /net/aspose.tasks/tsk/actualworkprotected/
 ---
 ## Tsk.ActualWorkProtected field
 
-The duration through which actual work is protected. Reading supported for XML format only. [`Duration`](../duration) type.
+The duration through which actual work is protected. Reading supported for XML format only.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualWorkProtected;

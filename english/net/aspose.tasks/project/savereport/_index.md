@@ -3,7 +3,7 @@ title: SaveReport
 second_title: Aspose.Tasks for .NET API Reference
 description: Saves the project overview report to the stream.
 type: docs
-weight: 420
+weight: 1200
 url: /net/aspose.tasks/project/savereport/
 ---
 ## SaveReport(Stream) {#savereport}

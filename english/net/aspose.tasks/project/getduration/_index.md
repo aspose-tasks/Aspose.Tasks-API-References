@@ -3,7 +3,7 @@ title: GetDuration
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets Durationaspose.tasks/duration object with the specified number of units and default duration format which is defined in projects settings DurationFormataspose.tasks/prj/durationformat.
 type: docs
-weight: 290
+weight: 1070
 url: /net/aspose.tasks/project/getduration/
 ---
 ## GetDuration(double) {#getduration}

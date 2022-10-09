@@ -3,7 +3,7 @@ title: CssSavingArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: This class represents set of data that related to external CSS files saving that occurs during conversion to HTML format.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.tasks/csssavingargs/
 ---
 ## CssSavingArgs class

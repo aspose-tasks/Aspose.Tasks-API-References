@@ -3,7 +3,7 @@ title: OutlineCode
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a value of an outline code.
 type: docs
-weight: 1010
+weight: 1020
 url: /net/aspose.tasks/outlinecode/
 ---
 ## OutlineCode class
@@ -18,8 +18,8 @@ public class OutlineCode
 
 | Name | Description |
 | --- | --- |
-| [OutlineCode](outlinecode#constructor)() | The default constructor. |
-| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) |  |
+| [OutlineCode](outlinecode#constructor)() | Initializes a new instance of the [`OutlineCode`](../outlinecode) class. |
+| [OutlineCode](outlinecode#constructor_1)(OutlineCodeDefinition, OutlineValue) | Initializes a new instance of the [`OutlineCode`](../outlinecode) class using the specified Outline Code and one of its values. |
 
 ## Properties
 

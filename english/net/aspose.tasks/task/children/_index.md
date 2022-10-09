@@ -3,7 +3,7 @@ title: Children
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a child task collection of this object. TaskCollection object which represents children tasks.
 type: docs
-weight: 30
+weight: 180
 url: /net/aspose.tasks/task/children/
 ---
 ## Task.Children property

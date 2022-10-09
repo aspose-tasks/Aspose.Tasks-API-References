@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when rendering project pages to PDF.
 type: docs
-weight: 1850
+weight: 1860
 url: /net/aspose.tasks.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

@@ -3,7 +3,7 @@ title: ShowRelatedSummaryRows
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether related summary rows are displayed for the filter.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/filter/showrelatedsummaryrows/
 ---
 ## Filter.ShowRelatedSummaryRows property

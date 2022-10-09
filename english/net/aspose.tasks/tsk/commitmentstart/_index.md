@@ -1,14 +1,14 @@
 ---
 title: CommitmentStart
 second_title: Aspose.Tasks for .NET API Reference
-description: The start date of a delivery.  Reading supported for XML format only. DateTime type.
+description: The start date of a delivery. Reading supported for XML format only.
 type: docs
 weight: 180
 url: /net/aspose.tasks/tsk/commitmentstart/
 ---
 ## Tsk.CommitmentStart field
 
-The start date of a delivery.  Reading supported for XML format only. DateTime type.
+The start date of a delivery. Reading supported for XML format only.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> CommitmentStart;

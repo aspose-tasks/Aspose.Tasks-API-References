@@ -3,7 +3,7 @@ title: HourLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies how the hour label displays.
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.tasks/hourlabeldisplay/
 ---
 ## HourLabelDisplay enumeration
@@ -18,9 +18,9 @@ public enum HourLabelDisplay
 
 | Name | Value | Description |
 | --- | --- | --- |
-| H | `0` | Sets the Hours list in MS Project as H. |
-| Hr | `1` | Sets the Hours list in MS Project as Hr. |
-| Hour | `2` | Sets the Hours list in MS Project as Hour. |
+| H | `0` | "h" label. |
+| Hr | `1` | "hr" label. |
+| Hour | `2` | "hour(s)" label. |
 
 ### Examples
 

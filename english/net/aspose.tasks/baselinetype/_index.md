@@ -3,7 +3,7 @@ title: BaselineType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the baseline type used to calculate Variance values.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.tasks/baselinetype/
 ---
 ## BaselineType enumeration

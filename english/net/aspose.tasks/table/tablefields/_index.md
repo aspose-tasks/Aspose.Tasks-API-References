@@ -3,7 +3,7 @@ title: TableFields
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a TableFields collection representing the fields in the table.
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.tasks/table/tablefields/
 ---
 ## Table.TableFields property

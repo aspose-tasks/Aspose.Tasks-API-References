@@ -3,7 +3,7 @@ title: Filter
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a filter in Project.
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.tasks/filter/
 ---
 ## Filter class
@@ -28,7 +28,6 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 | [FilterType](../../aspose.tasks/filter/filtertype) { get; } | Gets the type of the filter. |
 | [Index](../../aspose.tasks/filter/index) { get; } | Gets the index of a [`Filter`](../filter) object in the Filters containing object. |
 | [Name](../../aspose.tasks/filter/name) { get; set; } | Gets or sets the name of a Filter object. |
-| [ParentProject](../../aspose.tasks/filter/parentproject) { get; } | Gets the parent of the Filter object. |
 | [ShowInMenu](../../aspose.tasks/filter/showinmenu) { get; set; } | Gets or sets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
 | [ShowRelatedSummaryRows](../../aspose.tasks/filter/showrelatedsummaryrows) { get; set; } | Gets or sets a value indicating whether related summary rows are displayed for the filter. |
 | [Uid](../../aspose.tasks/filter/uid) { get; } | Gets the unique identifier of a filter. |

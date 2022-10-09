@@ -3,7 +3,7 @@ title: ProjectUid
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the UID of a project to read from file containing multiple projects.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.tasks/primaverareadoptions/projectuid/
 ---
 ## PrimaveraReadOptions.ProjectUid property

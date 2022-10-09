@@ -3,7 +3,7 @@ title: ElementType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of an element.
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.tasks/elementtype/
 ---
 ## ElementType enumeration

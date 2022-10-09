@@ -3,7 +3,7 @@ title: DayTypeCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of DayType./daytype objects.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.tasks/daytypecollection/
 ---
 ## DayTypeCollection class

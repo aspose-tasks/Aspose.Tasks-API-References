@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a project.
 type: docs
-weight: 1180
+weight: 1190
 url: /net/aspose.tasks/project/
 ---
 ## Project class
@@ -36,29 +36,107 @@ public class Project
 
 | Name | Description |
 | --- | --- |
+| [ActualsInSync](../../aspose.tasks/project/actualsinsync) { get; set; } | Gets or sets a value indicating whether ActualsInSync is set or not. |
+| [AdminProject](../../aspose.tasks/project/adminproject) { get; set; } | Gets or sets a value indicating whether AdminProject is set or not. |
+| [AreEditableActualCosts](../../aspose.tasks/project/areeditableactualcosts) { get; set; } | Gets or sets a value indicating whether AreEditableActualCosts is set or not. |
+| [Author](../../aspose.tasks/project/author) { get; set; } | Gets or sets a value of Author. |
+| [AutoAddNewResourcesAndTasks](../../aspose.tasks/project/autoaddnewresourcesandtasks) { get; set; } | Gets or sets a value indicating whether AutoAddNewResourcesAndTasks is set or not. |
+| [Autolink](../../aspose.tasks/project/autolink) { get; set; } | Gets or sets a value indicating whether Autolink is set or not. |
+| [BaselineForEarnedValue](../../aspose.tasks/project/baselineforearnedvalue) { get; set; } | Gets or sets a value of BaselineForEarnedValue. |
 | [BuiltInProps](../../aspose.tasks/project/builtinprops) { get; } | Gets project's built-in properties collection. |
 | [CalculationMode](../../aspose.tasks/project/calculationmode) { get; set; } | Gets or sets calculation mode of a project. Can be one of the values of [`CalculationMode`](./calculationmode) enumeration. |
+| [Calendar](../../aspose.tasks/project/calendar) { get; set; } | Gets or sets a value of Calendar. |
 | [Calendars](../../aspose.tasks/project/calendars) { get; } | Gets [`CalendarCollection`](../calendarcollection) object of this Project instance. |
+| [Category](../../aspose.tasks/project/category) { get; set; } | Gets or sets a value of Category. |
+| [Comments](../../aspose.tasks/project/comments) { get; set; } | Gets or sets a value of Comments. |
+| [Company](../../aspose.tasks/project/company) { get; set; } | Gets or sets a value of Company. |
+| [CreationDate](../../aspose.tasks/project/creationdate) { get; set; } | Gets or sets a value of CreationDate. |
 | [CriticalPath](../../aspose.tasks/project/criticalpath) { get; } | Gets a collection which contains a list of Critical tasks which comprise Critical Path of this project. This is an O(n) operation, where n is the number of tasks in the project. |
+| [CriticalSlackLimit](../../aspose.tasks/project/criticalslacklimit) { get; set; } | Gets or sets a value of CriticalSlackLimit. |
+| [CurrencyCode](../../aspose.tasks/project/currencycode) { get; set; } | Gets or sets a value of CurrencyCode. |
+| [CurrencyDigits](../../aspose.tasks/project/currencydigits) { get; set; } | Gets or sets a value of CurrencyDigits. |
+| [CurrencySymbol](../../aspose.tasks/project/currencysymbol) { get; set; } | Gets or sets a value of CurrencySymbol. |
+| [CurrencySymbolPosition](../../aspose.tasks/project/currencysymbolposition) { get; set; } | Gets or sets a value of CurrencySymbolPosition. |
+| [CurrentDate](../../aspose.tasks/project/currentdate) { get; set; } | Gets or sets a value of CurrentDate. |
+| [CustomDateFormat](../../aspose.tasks/project/customdateformat) { get; set; } | Gets or sets a value of CustomDateFormat. |
 | [CustomProps](../../aspose.tasks/project/customprops) { get; } | Gets project's custom properties collection. |
+| [DateFormat](../../aspose.tasks/project/dateformat) { get; set; } | Gets or sets a value of DateFormat. |
+| [DaysPerMonth](../../aspose.tasks/project/dayspermonth) { get; set; } | Gets or sets a value of DaysPerMonth. |
+| [DefaultFinishTime](../../aspose.tasks/project/defaultfinishtime) { get; set; } | Gets or sets a value of DefaultFinishTime. |
+| [DefaultFixedCostAccrual](../../aspose.tasks/project/defaultfixedcostaccrual) { get; set; } | Gets or sets a value of DefaultFixedCostAccrual. |
+| [DefaultOvertimeRate](../../aspose.tasks/project/defaultovertimerate) { get; set; } | Gets or sets a value of DefaultOvertimeRate. |
+| [DefaultStandardRate](../../aspose.tasks/project/defaultstandardrate) { get; set; } | Gets or sets a value of DefaultStandardRate. |
+| [DefaultStartTime](../../aspose.tasks/project/defaultstarttime) { get; set; } | Gets or sets a value of DefaultStartTime. |
+| [DefaultTaskEVMethod](../../aspose.tasks/project/defaulttaskevmethod) { get; set; } | Gets or sets a value of DefaultTaskEVMethod. |
+| [DefaultTaskType](../../aspose.tasks/project/defaulttasktype) { get; set; } | Gets or sets a value of DefaultTaskType. |
 | [DefaultView](../../aspose.tasks/project/defaultview) { get; set; } | Gets or sets default view of the project. |
 | [DefaultWeekWorkingDays](../../aspose.tasks/project/defaultweekworkingdays) { get; } | Gets the instance of [`WeekDayCollection`](../weekdaycollection) class which represents a collection of project default week working days and working times. |
 | [DisplayOptions](../../aspose.tasks/project/displayoptions) { get; } | Gets an instance of the [`ProjectDisplayOptions`](../projectdisplayoptions) class. |
+| [DurationFormat](../../aspose.tasks/project/durationformat) { get; set; } | Gets or sets a value of DurationFormat. |
+| [EarnedValueMethod](../../aspose.tasks/project/earnedvaluemethod) { get; set; } | Gets or sets a value of EarnedValueMethod. |
 | [ExtendedAttributes](../../aspose.tasks/project/extendedattributes) { get; } | Gets ExtendedAttributeDefinitionCollection object. The collection of extended attribute (custom fields) definitions associated with a project. |
+| [ExtendedCreationDate](../../aspose.tasks/project/extendedcreationdate) { get; set; } | Gets or sets a value of ExtendedCreationDate. |
+| [FinishDate](../../aspose.tasks/project/finishdate) { get; set; } | Gets or sets a value of FinishDate. |
+| [FiscalYearStart](../../aspose.tasks/project/fiscalyearstart) { get; set; } | Gets or sets a value indicating whether FiscalYearStart is set or not. |
+| [FyStartDate](../../aspose.tasks/project/fystartdate) { get; set; } | Gets or sets a value of FyStartDate. |
+| [Guid](../../aspose.tasks/project/guid) { get; set; } | Gets or sets a value of Guid. |
+| [HonorConstraints](../../aspose.tasks/project/honorconstraints) { get; set; } | Gets or sets a value indicating whether HonorConstraints is set or not. |
+| [HyperlinkBase](../../aspose.tasks/project/hyperlinkbase) { get; set; } | Gets or sets a value of HyperlinkBase. |
+| [InsertedProjectsLikeSummary](../../aspose.tasks/project/insertedprojectslikesummary) { get; set; } | Gets or sets a value indicating whether InsertedProjectsLikeSummary is set or not. |
+| [KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled](../../aspose.tasks/project/keeptaskonnearestworkingtimewhenmadeautoscheduled) { get; set; } | Gets or sets a value indicating whether KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled is set or not. |
+| [Keywords](../../aspose.tasks/project/keywords) { get; set; } | Gets or sets a value of Keywords. |
+| [LastAuthor](../../aspose.tasks/project/lastauthor) { get; set; } | Gets or sets a value of LastAuthor. |
+| [LastPrinted](../../aspose.tasks/project/lastprinted) { get; set; } | Gets or sets a value of LastPrinted. |
+| [LastSaved](../../aspose.tasks/project/lastsaved) { get; set; } | Gets or sets a value of LastSaved. |
+| [Manager](../../aspose.tasks/project/manager) { get; set; } | Gets or sets a value of Manager. |
+| [MicrosoftProjectServerURL](../../aspose.tasks/project/microsoftprojectserverurl) { get; set; } | Gets or sets a value indicating whether MicrosoftProjectServerURL is set or not. |
+| [MinutesPerDay](../../aspose.tasks/project/minutesperday) { get; set; } | Gets or sets a value of MinutesPerDay. |
+| [MinutesPerWeek](../../aspose.tasks/project/minutesperweek) { get; set; } | Gets or sets a value of MinutesPerWeek. |
+| [MoveCompletedEndsBack](../../aspose.tasks/project/movecompletedendsback) { get; set; } | Gets or sets a value indicating whether MoveCompletedEndsBack is set or not. |
+| [MoveCompletedEndsForward](../../aspose.tasks/project/movecompletedendsforward) { get; set; } | Gets or sets a value indicating whether MoveCompletedEndsForward is set or not. |
+| [MoveRemainingStartsBack](../../aspose.tasks/project/moveremainingstartsback) { get; set; } | Gets or sets a value indicating whether MoveRemainingStartsBack is set or not. |
+| [MoveRemainingStartsForward](../../aspose.tasks/project/moveremainingstartsforward) { get; set; } | Gets or sets a value indicating whether MoveRemainingStartsForward is set or not. |
+| [MultipleCriticalPaths](../../aspose.tasks/project/multiplecriticalpaths) { get; set; } | Gets or sets a value indicating whether MultipleCriticalPaths is set or not. |
+| [Name](../../aspose.tasks/project/name) { get; set; } | Gets or sets a value of Name. |
+| [NewTasksAreManual](../../aspose.tasks/project/newtasksaremanual) { get; set; } | Gets or sets a value indicating whether NewTasksAreManual is set or not. |
+| [NewTasksEffortDriven](../../aspose.tasks/project/newtaskseffortdriven) { get; set; } | Gets or sets a value indicating whether NewTasksEffortDriven is set or not. |
+| [NewTasksEstimated](../../aspose.tasks/project/newtasksestimated) { get; set; } | Gets or sets a value indicating whether NewTasksEstimated is set or not. |
+| [NewTaskStartDate](../../aspose.tasks/project/newtaskstartdate) { get; set; } | Gets or sets a value of NewTaskStartDate. |
 | [OleObjects](../../aspose.tasks/project/oleobjects) { get; } | Gets a collection containing the instances of the [`OleObject`](../oleobject) class which are linked or embedded to this project file. Available for mpp file format only. This collection is read-only except for 'Clear' operation. |
 | [OutlineCodes](../../aspose.tasks/project/outlinecodes) { get; } | Gets OutlineCodeDefinitionCollection object. The collection of outline code definitions associated with a project. |
+| [ProjectExternallyEdited](../../aspose.tasks/project/projectexternallyedited) { get; set; } | Gets or sets a value indicating whether ProjectExternallyEdited is set or not. |
+| [RemoveFileProperties](../../aspose.tasks/project/removefileproperties) { get; set; } | Gets or sets a value indicating whether RemoveFileProperties is set or not. |
 | [ResourceAssignments](../../aspose.tasks/project/resourceassignments) { get; } | Gets ResourceAssignmentCollection object. |
 | [ResourceFilters](../../aspose.tasks/project/resourcefilters) { get; } | Gets all the resource-based filter definitions. ResourceFilters is a collection of [`Filter`](../filter) objects. |
 | [ResourceGroups](../../aspose.tasks/project/resourcegroups) { get; } | Gets all of the resource-based group definitions. ResourceGroups is a collection of [`Group`](../group) objects. |
 | [Resources](../../aspose.tasks/project/resources) { get; } | Gets ResourceCollection object. |
+| [Revision](../../aspose.tasks/project/revision) { get; set; } | Gets or sets a value of Revision. |
 | [RootTask](../../aspose.tasks/project/roottask) { get; } | Gets the root of the tree of tasks. |
+| [SaveVersion](../../aspose.tasks/project/saveversion) { get; set; } | Gets or sets a value of SaveVersion. |
+| [ScheduleFromStart](../../aspose.tasks/project/schedulefromstart) { get; set; } | Gets or sets a value indicating whether ScheduleFromStart is set or not. |
+| [ShowProjectSummaryTask](../../aspose.tasks/project/showprojectsummarytask) { get; set; } | Gets or sets a value indicating whether ShowProjectSummaryTask is set or not. |
+| [SplitsInProgressTasks](../../aspose.tasks/project/splitsinprogresstasks) { get; set; } | Gets or sets a value indicating whether SplitsInProgressTasks is set or not. |
+| [SpreadActualCost](../../aspose.tasks/project/spreadactualcost) { get; set; } | Gets or sets a value indicating whether SpreadActualCost is set or not. |
+| [SpreadPercentComplete](../../aspose.tasks/project/spreadpercentcomplete) { get; set; } | Gets or sets a value indicating whether SpreadPercentComplete is set or not. |
+| [StartDate](../../aspose.tasks/project/startdate) { get; set; } | Gets or sets a value of StartDate. |
+| [StatusDate](../../aspose.tasks/project/statusdate) { get; set; } | Gets or sets a value of StatusDate. |
+| [Subject](../../aspose.tasks/project/subject) { get; set; } | Gets or sets a value of Subject. |
 | [Tables](../../aspose.tasks/project/tables) { get; } | Gets a list of [`Table`](../table) objects. |
 | [TaskFilters](../../aspose.tasks/project/taskfilters) { get; } | Gets all the task-based filter definitions. TaskFilters is a collection of [`Filter`](../filter) objects. |
 | [TaskGroups](../../aspose.tasks/project/taskgroups) { get; } | Gets all the task-based group definitions. TaskGroups is a collection of [`Group`](../group) objects. |
 | [TaskLinks](../../aspose.tasks/project/tasklinks) { get; } | Gets [`TaskLinkCollection`](../tasklinkcollection) object. |
+| [TaskUpdatesResource](../../aspose.tasks/project/taskupdatesresource) { get; set; } | Gets or sets a value indicating whether TaskUpdatesResource is set or not. |
+| [Template](../../aspose.tasks/project/template) { get; set; } | Gets or sets a value of Template. |
+| [TimescaleFinish](../../aspose.tasks/project/timescalefinish) { get; set; } | Gets or sets a value of TimescaleFinish. |
+| [TimescaleStart](../../aspose.tasks/project/timescalestart) { get; set; } | Gets or sets a value of TimescaleStart. |
+| [Title](../../aspose.tasks/project/title) { get; set; } | Gets or sets a value of Title. |
+| [Uid](../../aspose.tasks/project/uid) { get; set; } | Gets or sets a value of Uid. |
+| [UpdateManuallyScheduledTasksWhenEditingLinks](../../aspose.tasks/project/updatemanuallyscheduledtaskswheneditinglinks) { get; set; } | Gets or sets a value indicating whether UpdateManuallyScheduledTasksWhenEditingLinks is set or not. |
 | [VbaProject](../../aspose.tasks/project/vbaproject) { get; } | Gets an instance of [`VbaProject`](./vbaproject) class. |
 | [Views](../../aspose.tasks/project/views) { get; } | Gets a list of [`View`](../view) objects. |
 | [WBSCodeDefinition](../../aspose.tasks/project/wbscodedefinition) { get; set; } | Gets or sets WBS Code Definition for the project. |
+| [WeekStartDay](../../aspose.tasks/project/weekstartday) { get; set; } | Gets or sets a value of WeekStartDay. |
+| [WorkFormat](../../aspose.tasks/project/workformat) { get; set; } | Gets or sets a value of WorkFormat. |
 
 ## Methods
 

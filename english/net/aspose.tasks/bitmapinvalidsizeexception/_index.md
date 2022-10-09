@@ -3,7 +3,7 @@ title: BitmapInvalidSizeException
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents exception which occurs when there is not enough memory to create a bitmap instance.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.tasks/bitmapinvalidsizeexception/
 ---
 ## BitmapInvalidSizeException class

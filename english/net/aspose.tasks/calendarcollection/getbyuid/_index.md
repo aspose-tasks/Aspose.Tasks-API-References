@@ -3,7 +3,7 @@ title: GetByUid
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns a calendar with the specified UID.
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/calendarcollection/getbyuid/
 ---
 ## CalendarCollection.GetByUid method

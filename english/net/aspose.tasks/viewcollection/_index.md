@@ -3,7 +3,7 @@ title: ViewCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains a list of View./view objects. Implements ICollectionltViewgt interface.
 type: docs
-weight: 2560
+weight: 2570
 url: /net/aspose.tasks/viewcollection/
 ---
 ## ViewCollection class

@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a working time during a weekday.
 type: docs
-weight: 3290
+weight: 3300
 url: /net/aspose.tasks/workingtime/
 ---
 ## WorkingTime class
@@ -18,9 +18,9 @@ public class WorkingTime
 
 | Name | Description |
 | --- | --- |
-| [WorkingTime](workingtime#constructor_2)(DateTime, DateTime) | Initializes a new instance of the [`WorkingTime`](../workingtime) class with a interval with the specified start and finish times. |
-| [WorkingTime](workingtime#constructor_1)(int, int) | Initializes a new instance of the [`WorkingTime`](../workingtime) class with an interval item with the specified start and finish times. |
-| [WorkingTime](workingtime#constructor_3)(TimeSpan, TimeSpan) | Initializes a new instance of the [`WorkingTime`](../workingtime) class with an interval item with the specified start and finish times. |
+| [WorkingTime](workingtime#constructor_1)(DateTime, DateTime) | Initializes a new instance of the [`WorkingTime`](../workingtime) class with a interval with the specified start and finish times. |
+| [WorkingTime](workingtime#constructor)(int, int) | Initializes a new instance of the [`WorkingTime`](../workingtime) class with an interval item with the specified start and finish times. |
+| [WorkingTime](workingtime#constructor_2)(TimeSpan, TimeSpan) | Initializes a new instance of the [`WorkingTime`](../workingtime) class with an interval item with the specified start and finish times. |
 
 ## Properties
 

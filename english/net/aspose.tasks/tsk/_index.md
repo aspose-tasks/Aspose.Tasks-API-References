@@ -3,7 +3,7 @@ title: Tsk
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents properties of Task./task object.
 type: docs
-weight: 2300
+weight: 2310
 url: /net/aspose.tasks/tsk/
 ---
 ## Tsk class
@@ -24,19 +24,19 @@ public static class Tsk
 | static readonly [ActualFinish](../../aspose.tasks/tsk/actualfinish) | The date when a task was completed. |
 | static readonly [ActualOvertimeCost](../../aspose.tasks/tsk/actualovertimecost) | Costs incurred for overtime work already performed on tasks by assigned resources. |
 | static readonly [ActualOvertimeWork](../../aspose.tasks/tsk/actualovertimework) | The actual amount of overtime work already performed by resources assigned to tasks. |
-| static readonly [ActualOvertimeWorkProtected](../../aspose.tasks/tsk/actualovertimeworkprotected) | The duration through which actual overtime work is protected. Reading supported for XML format only. [`Duration`](./duration) type. |
+| static readonly [ActualOvertimeWorkProtected](../../aspose.tasks/tsk/actualovertimeworkprotected) | The duration through which actual overtime work is protected. |
 | static readonly [ActualStart](../../aspose.tasks/tsk/actualstart) | The date and time that a task actually began. |
 | static readonly [ActualWork](../../aspose.tasks/tsk/actualwork) | The amount of work that has already been done by resources assigned to tasks. |
-| static readonly [ActualWorkProtected](../../aspose.tasks/tsk/actualworkprotected) | The duration through which actual work is protected. Reading supported for XML format only. [`Duration`](./duration) type. |
+| static readonly [ActualWorkProtected](../../aspose.tasks/tsk/actualworkprotected) | The duration through which actual work is protected. Reading supported for XML format only. |
 | static readonly [ACWP](../../aspose.tasks/tsk/acwp) | Costs incurred for work already done on a task, up to the project status date or today's date. |
 | static readonly [BCWP](../../aspose.tasks/tsk/bcwp) | The cumulative value of the task's percent complete multiplied by the time phased baseline costs. |
 | static readonly [BCWS](../../aspose.tasks/tsk/bcws) | The cumulative time phased baseline costs up to the status date or today's date. |
 | static readonly [BudgetCost](../../aspose.tasks/tsk/budgetcost) | Budget costs for budget cost resources. Budget resources are assigned only to the project summary task. |
 | static readonly [BudgetWork](../../aspose.tasks/tsk/budgetwork) | Budget work for budget work and material resources. Budget resources are assigned only to the project summary task. |
 | static readonly [Calendar](../../aspose.tasks/tsk/calendar) | The task calendar. |
-| static readonly [CommitmentFinish](../../aspose.tasks/tsk/commitmentfinish) | The finish date of a delivery.  Reading supported for XML format only. DateTime type. |
-| static readonly [CommitmentStart](../../aspose.tasks/tsk/commitmentstart) | The start date of a delivery.  Reading supported for XML format only. DateTime type. |
-| static readonly [CommitmentType](../../aspose.tasks/tsk/commitmenttype) | Determines whether a task has an associated delivery or a dependency on an associated delivery.  Reading supported for XML format only. Int32 type. |
+| static readonly [CommitmentFinish](../../aspose.tasks/tsk/commitmentfinish) | The finish date of a delivery.  Reading supported for XML format only. |
+| static readonly [CommitmentStart](../../aspose.tasks/tsk/commitmentstart) | The start date of a delivery. Reading supported for XML format only. |
+| static readonly [CommitmentType](../../aspose.tasks/tsk/commitmenttype) | Determines whether a task has an associated delivery or a dependency on an associated delivery.  Reading supported for XML format only. |
 | static readonly [ConstraintDate](../../aspose.tasks/tsk/constraintdate) | The specific date associated with the constraint type. |
 | static readonly [ConstraintType](../../aspose.tasks/tsk/constrainttype) | Provides choices for the type of constraint that can be applied for scheduling a task. |
 | static readonly [Contact](../../aspose.tasks/tsk/contact) | The name of an individual responsible for a task. |
@@ -45,7 +45,7 @@ public static class Tsk
 | static readonly [Created](../../aspose.tasks/tsk/created) | The date when a task was created. |
 | static readonly [CV](../../aspose.tasks/tsk/cv) | The difference between the baseline cost and total cost for a task. Cost Variance = Cost - Baseline Cost |
 | static readonly [Deadline](../../aspose.tasks/tsk/deadline) | A target date that indicates when a task is to be completed. |
-| static readonly [DisplayAsSummary](../../aspose.tasks/tsk/displayassummary) | Determines whether the task should be displayed as a summary task.  Reading supported for XML format only. Boolean type. |
+| static readonly [DisplayAsSummary](../../aspose.tasks/tsk/displayassummary) | Determines whether the task should be displayed as a summary task. Reading supported for XML format only. |
 | static readonly [DisplayOnTimeline](../../aspose.tasks/tsk/displayontimeline) | Specifies whether a task should be displayed on a timeline view. |
 | static readonly [Duration](../../aspose.tasks/tsk/duration) | The total span of active working time for a task as entered or as calculated by Microsoft Project based on start date, finish date, calendars, and other scheduling factors. |
 | static readonly [DurationFormat](../../aspose.tasks/tsk/durationformat) | Task duration format. |

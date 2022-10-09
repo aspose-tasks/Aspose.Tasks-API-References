@@ -3,7 +3,7 @@ title: op_LessThan
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns a value indicating whether this instance is less than a specified object.
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.tasks/filter/op_lessthan/
 ---
 ## Filter LessThan operator

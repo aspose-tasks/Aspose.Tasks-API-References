@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns true if the specified item is found in this collection otherwise false.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/groupcollection/contains/
 ---
 ## GroupCollection.Contains method

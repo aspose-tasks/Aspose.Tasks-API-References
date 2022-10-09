@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Tasks for .NET API Reference
 description: Removes the first occurrence of a specific object from this collection.
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.tasks/groupcollection/remove/
 ---
 ## GroupCollection.Remove method

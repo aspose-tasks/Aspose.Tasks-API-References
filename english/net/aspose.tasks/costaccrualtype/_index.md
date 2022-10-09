@@ -3,7 +3,7 @@ title: CostAccrualType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of an accrual cost.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.tasks/costaccrualtype/
 ---
 ## CostAccrualType enumeration

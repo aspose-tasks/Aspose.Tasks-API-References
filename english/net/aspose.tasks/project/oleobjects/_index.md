@@ -3,7 +3,7 @@ title: OleObjects
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a collection containing the instances of the OleObjectaspose.tasks/oleobject class which are linked or embedded to this project file. Available for mpp file format only. This collection is readonly except for Clear operation.
 type: docs
-weight: 110
+weight: 680
 url: /net/aspose.tasks/project/oleobjects/
 ---
 ## Project.OleObjects property

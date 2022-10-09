@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines the index of the specified item in this collection.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/tablefieldcollection/indexof/
 ---
 ## TableFieldCollection.IndexOf method
