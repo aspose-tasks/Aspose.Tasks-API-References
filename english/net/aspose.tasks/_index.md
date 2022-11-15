@@ -76,9 +76,9 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [ParseErrorArgs](./parseerrorargs) | Provides data for the [`ParseErrorCallback`](../aspose.tasks/parseerrorcallback) delegate. |
 | [ParseErrorCallback](./parseerrorcallback) | Represents a method callback to handle parse errors that can happen when reading xml data. |
 | [PrimaveraReadOptions](./primaverareadoptions) | Allows to specify additional options when reading Primavera Xml or Primavera Xer files. |
+| [PrimaveraTaskProperties](./primaverataskproperties) | Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML). |
 | [PrimaveraXerReader](./primaveraxerreader) | Represents a reader to read Project UIDs from Primavera XER file |
 | [PrimaveraXmlReader](./primaveraxmlreader) | Represents a reader which allows to retrieve Project UIDs from Primavera Xml file. |
-| [PrimaveraXmlReadingOptions](./primaveraxmlreadingoptions) | Allows to specify additional options when reading Primavera Xml files. |
 | [Prj](./prj) | Represents supported properties of [`Project`](../aspose.tasks/project) object. |
 | [Project](./project) | Represents a project. |
 | [ProjectDisplayOptions](./projectdisplayoptions) | Represents the display options for a project instance. |

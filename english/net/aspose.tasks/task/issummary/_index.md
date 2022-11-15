@@ -3,7 +3,7 @@ title: IsSummary
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsSummary is set or not.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.tasks/task/issummary/
 ---
 ## Task.IsSummary property

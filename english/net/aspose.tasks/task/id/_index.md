@@ -3,7 +3,7 @@ title: Id
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Id.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.tasks/task/id/
 ---
 ## Task.Id property

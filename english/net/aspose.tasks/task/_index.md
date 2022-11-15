@@ -18,6 +18,7 @@ public class Task : IEquatable<Task>
 
 | Name | Description |
 | --- | --- |
+| [ActivityId](../../aspose.tasks/task/activityid) { get; set; } | Represents activity id field - a task's unique identifier used by Primavera. (only applicable to Primavera projects). |
 | [ActualCost](../../aspose.tasks/task/actualcost) { get; set; } | Gets or sets a value of ActualCost. |
 | [ActualDuration](../../aspose.tasks/task/actualduration) { get; set; } | Gets or sets a value of ActualDuration. |
 | [ActualFinish](../../aspose.tasks/task/actualfinish) { get; set; } | Gets or sets a value of ActualFinish. |
@@ -117,6 +118,7 @@ public class Task : IEquatable<Task>
 | [Predecessors](../../aspose.tasks/task/predecessors) { get; } | Gets a [`TaskCollection`](../taskcollection) object which contains all predecessors of this Task object. |
 | [PreleveledFinish](../../aspose.tasks/task/preleveledfinish) { get; set; } | Gets or sets a value of PreleveledFinish. |
 | [PreleveledStart](../../aspose.tasks/task/preleveledstart) { get; set; } | Gets or sets a value of PreleveledStart. |
+| [PrimaveraProperties](../../aspose.tasks/task/primaveraproperties) { get; } | Gets an object containing Primavera-specific properties for a task read from Primavera format. |
 | [Priority](../../aspose.tasks/task/priority) { get; set; } | Gets or sets a value of Priority. |
 | [RecurringInfo](../../aspose.tasks/task/recurringinfo) { get; } | Gets the instance of [`RecurringTaskInfo`](../recurringtaskinfo) class for the task which is a recurring task; if the task is not a recurring one then returns null; The info for the instance of [`RecurringTaskInfo`](../recurringtaskinfo) is present in mpp file format only. |
 | [RegularWork](../../aspose.tasks/task/regularwork) { get; set; } | Gets or sets a value of RegularWork. |
@@ -135,6 +137,7 @@ public class Task : IEquatable<Task>
 | [Stop](../../aspose.tasks/task/stop) { get; set; } | Gets or sets a value of Stop. |
 | [SubprojectName](../../aspose.tasks/task/subprojectname) { get; set; } | Gets or sets a value of SubprojectName. |
 | [Successors](../../aspose.tasks/task/successors) { get; } | Gets a [`TaskCollection`](../taskcollection) object which contains all successors of this Task object. |
+| [SV](../../aspose.tasks/task/sv) { get; set; } | The earned value schedule variance, through the project status date. Schedule variance (SV) is the difference between the BCWP and the BCWS. |
 | [TimephasedData](../../aspose.tasks/task/timephaseddata) { get; set; } | Gets or sets a TimephasedDataCollection object of this task. The time phased data block associated with a task. |
 | [TotalSlack](../../aspose.tasks/task/totalslack) { get; set; } | Gets or sets a value of TotalSlack. |
 | [Type](../../aspose.tasks/task/type) { get; set; } | Gets or sets a value of Type. |

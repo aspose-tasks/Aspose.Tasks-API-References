@@ -3,7 +3,7 @@ title: ConstraintType
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ConstraintType.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.tasks/task/constrainttype/
 ---
 ## Task.ConstraintType property

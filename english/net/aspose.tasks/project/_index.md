@@ -21,16 +21,16 @@ public class Project
 | [Project](project#constructor)() | Initializes a new instance of the [`Project`](../project) class. |
 | [Project](project#constructor_1)(DbSettings) | Initializes a new instance of the [`Project`](../project) class to read data from a database which is specified by the instance of the [`DbSettings`](../../aspose.tasks.connectivity/dbsettings) class. |
 | [Project](project#constructor_2)(Stream) | Initializes a new instance of the [`Project`](../project) class from a stream. |
-| [Project](project#constructor_9)(StreamReader) | Initializes a new instance of the [`Project`](../project) class from a StreamReader instance. |
-| [Project](project#constructor_10)(string) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file). |
+| [Project](project#constructor_7)(StreamReader) | Initializes a new instance of the [`Project`](../project) class from a StreamReader instance. |
+| [Project](project#constructor_8)(string) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file). |
 | [Project](project#constructor_3)(Stream, LoadOptions) | Initializes a new instance of the [`Project`](../project) class from the Stream with the specified instance of the [`LoadOptions`](../loadoptions) class. |
 | [Project](project#constructor_4)(Stream, ParseErrorCallback) | Initializes a new instance of the [`Project`](../project) class from a template(existent mpp or mpt file). |
-| [Project](project#constructor_6)(Stream, PrimaveraReadOptions) | Initializes a new instance of the [`Project`](../project) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class. |
-| [Project](project#constructor_8)(Stream, string) | Initializes a new instance of the [`Project`](../project) class from a template(existent mpp or mpt file). |
-| [Project](project#constructor_11)(string, LoadOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../loadoptions) class. |
-| [Project](project#constructor_12)(string, ParseErrorCallback) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file). |
-| [Project](project#constructor_14)(string, PrimaveraReadOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class. |
-| [Project](project#constructor_16)(string, string) | Initializes a new instance of the [`Project`](../project) class from a password protected template (existent mpp or mpt file). |
+| [Project](project#constructor_5)(Stream, PrimaveraReadOptions) | Initializes a new instance of the [`Project`](../project) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class. |
+| [Project](project#constructor_6)(Stream, string) | Initializes a new instance of the [`Project`](../project) class from a template(existent mpp or mpt file). |
+| [Project](project#constructor_9)(string, LoadOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../loadoptions) class. |
+| [Project](project#constructor_10)(string, ParseErrorCallback) | Initializes a new instance of the [`Project`](../project) class from a template (existent mpp or mpt file). |
+| [Project](project#constructor_11)(string, PrimaveraReadOptions) | Initializes a new instance of the [`Project`](../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class. |
+| [Project](project#constructor_12)(string, string) | Initializes a new instance of the [`Project`](../project) class from a password protected template (existent mpp or mpt file). |
 
 ## Properties
 

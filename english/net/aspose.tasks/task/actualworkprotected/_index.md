@@ -3,7 +3,7 @@ title: ActualWorkProtected
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ActualWorkProtected.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.tasks/task/actualworkprotected/
 ---
 ## Task.ActualWorkProtected property

@@ -3,7 +3,7 @@ title: DurationText
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DurationText.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.tasks/task/durationtext/
 ---
 ## Task.DurationText property

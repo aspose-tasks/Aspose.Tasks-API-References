@@ -3,7 +3,7 @@ title: Contact
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Contact.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.tasks/task/contact/
 ---
 ## Task.Contact property

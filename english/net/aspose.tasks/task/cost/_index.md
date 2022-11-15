@@ -3,7 +3,7 @@ title: Cost
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Cost.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.tasks/task/cost/
 ---
 ## Task.Cost property

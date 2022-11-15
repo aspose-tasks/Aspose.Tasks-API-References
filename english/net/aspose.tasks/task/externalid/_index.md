@@ -3,7 +3,7 @@ title: ExternalId
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ExternalId.
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.tasks/task/externalid/
 ---
 ## Task.ExternalId property

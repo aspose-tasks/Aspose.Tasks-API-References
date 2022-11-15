@@ -3,7 +3,7 @@ title: Set
 second_title: Aspose.Tasks for .NET API Reference
 description: Maps the specified property to the specified value in this container.
 type: docs
-weight: 1370
+weight: 1400
 url: /net/aspose.tasks/task/set/
 ---
 ## Task.Set&lt;T&gt; method

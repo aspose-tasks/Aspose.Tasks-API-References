@@ -3,7 +3,7 @@ title: ActualWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ActualWork.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks/task/actualwork/
 ---
 ## Task.ActualWork property

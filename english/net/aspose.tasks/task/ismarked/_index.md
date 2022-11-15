@@ -3,7 +3,7 @@ title: IsMarked
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsMarked is set or not.
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.tasks/task/ismarked/
 ---
 ## Task.IsMarked property

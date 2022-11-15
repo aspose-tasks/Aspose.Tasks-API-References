@@ -3,7 +3,7 @@ title: BudgetCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of BudgetCost.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.tasks/task/budgetcost/
 ---
 ## Task.BudgetCost property

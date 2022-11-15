@@ -3,7 +3,7 @@ title: EarlyFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of EarlyFinish.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.tasks/task/earlyfinish/
 ---
 ## Task.EarlyFinish property

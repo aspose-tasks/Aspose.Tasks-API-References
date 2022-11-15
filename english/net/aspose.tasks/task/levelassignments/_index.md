@@ -3,7 +3,7 @@ title: LevelAssignments
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether LevelAssignments is set or not.
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.tasks/task/levelassignments/
 ---
 ## Task.LevelAssignments property

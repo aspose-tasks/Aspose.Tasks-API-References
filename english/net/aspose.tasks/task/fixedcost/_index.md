@@ -3,7 +3,7 @@ title: FixedCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of FixedCost.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.tasks/task/fixedcost/
 ---
 ## Task.FixedCost property

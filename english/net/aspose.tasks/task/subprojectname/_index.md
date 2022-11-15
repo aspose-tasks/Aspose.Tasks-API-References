@@ -3,7 +3,7 @@ title: SubprojectName
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of SubprojectName.
 type: docs
-weight: 1160
+weight: 1180
 url: /net/aspose.tasks/task/subprojectname/
 ---
 ## Task.SubprojectName property
