@@ -3,7 +3,7 @@ title: ActualStart
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ActualStart.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks/task/actualstart/
 ---
 ## Task.ActualStart property

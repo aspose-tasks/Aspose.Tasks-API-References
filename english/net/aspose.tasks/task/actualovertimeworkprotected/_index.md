@@ -3,7 +3,7 @@ title: ActualOvertimeWorkProtected
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ActualOvertimeWorkProtected.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.tasks/task/actualovertimeworkprotected/
 ---
 ## Task.ActualOvertimeWorkProtected property

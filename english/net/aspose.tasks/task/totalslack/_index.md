@@ -3,7 +3,7 @@ title: TotalSlack
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of TotalSlack.
 type: docs
-weight: 1190
+weight: 1220
 url: /net/aspose.tasks/task/totalslack/
 ---
 ## Task.TotalSlack property

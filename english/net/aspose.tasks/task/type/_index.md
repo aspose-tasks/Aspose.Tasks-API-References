@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Type.
 type: docs
-weight: 1200
+weight: 1230
 url: /net/aspose.tasks/task/type/
 ---
 ## Task.Type property

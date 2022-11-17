@@ -3,7 +3,7 @@ title: LevelingDelayFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of LevelingDelayFormat.
 type: docs
-weight: 800
+weight: 810
 url: /net/aspose.tasks/task/levelingdelayformat/
 ---
 ## Task.LevelingDelayFormat property

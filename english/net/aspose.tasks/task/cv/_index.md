@@ -3,7 +3,7 @@ title: CV
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CV.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.tasks/task/cv/
 ---
 ## Task.CV property

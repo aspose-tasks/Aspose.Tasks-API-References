@@ -3,7 +3,7 @@ title: ActualDuration
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ActualDuration.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.tasks/task/actualduration/
 ---
 ## Task.ActualDuration property

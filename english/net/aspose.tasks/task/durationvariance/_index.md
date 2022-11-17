@@ -3,7 +3,7 @@ title: DurationVariance
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DurationVariance.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.tasks/task/durationvariance/
 ---
 ## Task.DurationVariance property

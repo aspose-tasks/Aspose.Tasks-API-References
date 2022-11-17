@@ -3,7 +3,7 @@ title: Deadline
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Deadline.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.tasks/task/deadline/
 ---
 ## Task.Deadline property

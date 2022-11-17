@@ -3,7 +3,7 @@ title: IsOverallocated
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsOverallocated is set or not.
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.tasks/task/isoverallocated/
 ---
 ## Task.IsOverallocated property

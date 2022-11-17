@@ -3,7 +3,7 @@ title: Duration
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Duration.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.tasks/task/duration/
 ---
 ## Task.Duration property

@@ -33,7 +33,7 @@ project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
 
 ---
 
-## Project(string, string) {#constructor_16}
+## Project(string, string) {#constructor_12}
 
 Initializes a new instance of the [`Project`](../../project) class from a password protected template (existent mpp or mpt file).
 
@@ -67,7 +67,7 @@ Console.WriteLine(project.Get(Prj.Name));
 
 ---
 
-## Project(string) {#constructor_10}
+## Project(string) {#constructor_8}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
 
@@ -96,7 +96,7 @@ project.Save(OutDir + "ReadProjectFiles_out.mpp", SaveFileFormat.Xml);
 
 ---
 
-## Project(Stream, PrimaveraReadOptions) {#constructor_6}
+## Project(Stream, PrimaveraReadOptions) {#constructor_5}
 
 Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
 
@@ -135,7 +135,7 @@ using (var stream = new FileStream(DataDir + "Project.xml", FileMode.Open, FileA
 
 ---
 
-## Project(string, ParseErrorCallback) {#constructor_12}
+## Project(string, ParseErrorCallback) {#constructor_10}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
 
@@ -217,7 +217,7 @@ using (Stream stream = new FileStream(DataDir + "Project.xml", FileMode.Open))
 
 ---
 
-## Project(StreamReader) {#constructor_9}
+## Project(StreamReader) {#constructor_7}
 
 Initializes a new instance of the [`Project`](../../project) class from a StreamReader instance.
 
@@ -250,7 +250,7 @@ using (var streamReader = new StreamReader(DataDir + "EUC-KR-encoding.mpx", Syst
 
 ---
 
-## Project(string, PrimaveraReadOptions) {#constructor_14}
+## Project(string, PrimaveraReadOptions) {#constructor_11}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
 
@@ -386,7 +386,7 @@ public static object CustomDurationHandlerForStream2(object sender, ParseErrorAr
 
 ---
 
-## Project(Stream, string) {#constructor_8}
+## Project(Stream, string) {#constructor_6}
 
 Initializes a new instance of the [`Project`](../../project) class from a template(existent mpp or mpt file).
 
@@ -430,7 +430,7 @@ using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", Fil
 
 ---
 
-## Project(string, LoadOptions) {#constructor_11}
+## Project(string, LoadOptions) {#constructor_9}
 
 Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../../loadoptions) class.
 

@@ -3,7 +3,7 @@ title: BudgetWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of BudgetWork.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.tasks/task/budgetwork/
 ---
 ## Task.BudgetWork property

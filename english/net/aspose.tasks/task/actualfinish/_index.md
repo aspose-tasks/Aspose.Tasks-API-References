@@ -3,7 +3,7 @@ title: ActualFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ActualFinish.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.tasks/task/actualfinish/
 ---
 ## Task.ActualFinish property

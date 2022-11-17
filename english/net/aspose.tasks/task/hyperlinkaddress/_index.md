@@ -3,7 +3,7 @@ title: HyperlinkAddress
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of HyperlinkAddress.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.tasks/task/hyperlinkaddress/
 ---
 ## Task.HyperlinkAddress property

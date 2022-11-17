@@ -63,7 +63,6 @@ foreach (var filter in filters)
     Console.WriteLine("Type: " + filter.FilterType);
     Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
     Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
-    Console.WriteLine("Parent project: " + filter.ParentProject.Get(Prj.Name));
 }
 
 // check resource filters

@@ -3,7 +3,7 @@ title: IsNull
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsNull is set or not.
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.tasks/task/isnull/
 ---
 ## Task.IsNull property

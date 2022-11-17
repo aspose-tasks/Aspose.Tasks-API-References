@@ -3,7 +3,7 @@ title: Created
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Created.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.tasks/task/created/
 ---
 ## Task.Created property

@@ -3,7 +3,7 @@ title: ManualFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ManualFinish.
 type: docs
-weight: 820
+weight: 830
 url: /net/aspose.tasks/task/manualfinish/
 ---
 ## Task.ManualFinish property

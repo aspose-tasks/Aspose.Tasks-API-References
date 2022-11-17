@@ -3,7 +3,7 @@ title: CommitmentType
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CommitmentType.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.tasks/task/commitmenttype/
 ---
 ## Task.CommitmentType property

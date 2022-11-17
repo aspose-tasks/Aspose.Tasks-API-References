@@ -26,7 +26,6 @@ var table = project.Tables.ToList()[0];
 Console.WriteLine("Uid of the table: " + table.Uid);
 Console.WriteLine("Index of the table: " + table.Index);
 Console.WriteLine("Name of the table: " + table.Name);
-Console.WriteLine("Parent project of the table: " + table.ParentProject.Get(Prj.Name));
 Console.WriteLine("Type of the table: " + table.TableType);
 
 // tune some properties

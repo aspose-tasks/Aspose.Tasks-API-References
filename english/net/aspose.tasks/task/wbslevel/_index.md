@@ -3,7 +3,7 @@ title: WBSLevel
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of WBSLevel.
 type: docs
-weight: 1240
+weight: 1270
 url: /net/aspose.tasks/task/wbslevel/
 ---
 ## Task.WBSLevel property

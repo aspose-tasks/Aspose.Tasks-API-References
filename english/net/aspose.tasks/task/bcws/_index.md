@@ -3,7 +3,7 @@ title: BCWS
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of BCWS.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.tasks/task/bcws/
 ---
 ## Task.BCWS property
