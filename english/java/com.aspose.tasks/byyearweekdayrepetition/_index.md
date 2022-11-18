@@ -24,10 +24,10 @@ Represents a pattern which is based on position of a weekday in a month.
 | Method | Description |
 | --- | --- |
 | [getMonth()](#getMonth--) | Gets a month on which the task must be recurring. |
-| [setMonth(int value)](#setMonth-int-) | Sets a month on which the task must be recurring. |
 | [getPosition()](#getPosition--) | Gets a position of the day in a week of a month on which the task must be recurring. |
-| [setPosition(int value)](#setPosition-int-) | Sets a position of the day in a week of a month on which the task must be recurring. |
 | [getWeekDay()](#getWeekDay--) | Gets a type of week day on which the task must be recurring. |
+| [setMonth(int value)](#setMonth-int-) | Sets a month on which the task must be recurring. |
+| [setPosition(int value)](#setPosition-int-) | Sets a position of the day in a week of a month on which the task must be recurring. |
 | [setWeekDay(int value)](#setWeekDay-int-) | Sets a type of week day on which the task must be recurring. |
 ### ByYearWeekDayRepetition() {#ByYearWeekDayRepetition--}
 ```
@@ -49,6 +49,30 @@ Read/Write  Month .
 
 **Returns:**
 int - a month on which the task must be recurring.
+### getPosition() {#getPosition--}
+```
+public final int getPosition()
+```
+
+
+Gets a position of the day in a week of a month on which the task must be recurring.
+
+Read/Write  OrdinalNumber .
+
+**Returns:**
+int - a position of the day in a week of a month on which the task must be recurring.
+### getWeekDay() {#getWeekDay--}
+```
+public final int getWeekDay()
+```
+
+
+Gets a type of week day on which the task must be recurring.
+
+Read/Write  DayOfWeek .
+
+**Returns:**
+int - a type of week day on which the task must be recurring.
 ### setMonth(int value) {#setMonth-int-}
 ```
 public final void setMonth(int value)
@@ -64,18 +88,6 @@ Read/Write  Month .
 | --- | --- | --- |
 | value | int | a month on which the task must be recurring. |
 
-### getPosition() {#getPosition--}
-```
-public final int getPosition()
-```
-
-
-Gets a position of the day in a week of a month on which the task must be recurring.
-
-Read/Write  OrdinalNumber .
-
-**Returns:**
-int - a position of the day in a week of a month on which the task must be recurring.
 ### setPosition(int value) {#setPosition-int-}
 ```
 public final void setPosition(int value)
@@ -91,18 +103,6 @@ Read/Write  OrdinalNumber .
 | --- | --- | --- |
 | value | int | a position of the day in a week of a month on which the task must be recurring. |
 
-### getWeekDay() {#getWeekDay--}
-```
-public final int getWeekDay()
-```
-
-
-Gets a type of week day on which the task must be recurring.
-
-Read/Write  DayOfWeek .
-
-**Returns:**
-int - a type of week day on which the task must be recurring.
 ### setWeekDay(int value) {#setWeekDay-int-}
 ```
 public final void setWeekDay(int value)

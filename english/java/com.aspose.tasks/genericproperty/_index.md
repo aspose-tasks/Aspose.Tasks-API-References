@@ -20,17 +20,17 @@ Represents a container property.
 
 | Constructor | Description |
 | --- | --- |
-| [GenericProperty()](#GenericProperty--) | Initializes a new instance of the  GenericProperty\{T\}  class. |
-| [GenericProperty(Class&lt;TKey&gt; typeOfTKey, String name)](#GenericProperty-java.lang.Class-TKey--java.lang.String-) | Initializes a new instance of the  GenericProperty\{TKey\}  struct. |
+| [GenericProperty()](#GenericProperty--) | Initializes a new instance of the GenericProperty&lt;T&gt; class. |
+| [GenericProperty(Class&lt;TKey&gt; typeOfTKey, String name)](#GenericProperty-java.lang.Class-TKey--java.lang.String-) | Initializes a new instance of the GenericProperty&lt;TKey&gt; struct. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [&lt;TKey&gt;equals(GenericProperty&lt;TKey&gt; obj1, GenericProperty&lt;TKey&gt; obj2)](#-TKey-equals-com.aspose.tasks.GenericProperty-TKey--com.aspose.tasks.GenericProperty-TKey--) | Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance. |
 | [Clone()](#Clone--) | Creates and returns a deep copy of this instance. |
 | [CloneTo(GenericProperty&lt;TKey&gt; that)](#CloneTo-com.aspose.tasks.GenericProperty-TKey--) | Makes a deep copy of the instance into another instance. |
 | [clone()](#clone--) | \{@inheritDoc\} |
 | [equals(Object obj)](#equals-java.lang.Object-) | \{@inheritDoc\} |
-| [&lt;TKey&gt;equals(GenericProperty&lt;TKey&gt; obj1, GenericProperty&lt;TKey&gt; obj2)](#-TKey-equals-com.aspose.tasks.GenericProperty-TKey--com.aspose.tasks.GenericProperty-TKey--) | Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance. |
 | [getName()](#getName--) | Gets a name of the property. |
 | [getValue()](#getValue--) | Gets a value of the property. |
 ### GenericProperty() {#GenericProperty--}
@@ -39,7 +39,7 @@ public GenericProperty()
 ```
 
 
-Initializes a new instance of the  GenericProperty\{T\}  class.
+Initializes a new instance of the GenericProperty&lt;T&gt; class.
 
 ### GenericProperty(Class&lt;TKey&gt; typeOfTKey, String name) {#GenericProperty-java.lang.Class-TKey--java.lang.String-}
 ```
@@ -47,7 +47,7 @@ public GenericProperty(Class<TKey> typeOfTKey, String name)
 ```
 
 
-Initializes a new instance of the  GenericProperty\{TKey\}  struct.
+Initializes a new instance of the GenericProperty&lt;TKey&gt; struct.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -55,6 +55,22 @@ Initializes a new instance of the  GenericProperty\{TKey\}  struct.
 | typeOfTKey | java.lang.Class&lt;TKey&gt; |  |
 | name | java.lang.String | The name of the property. |
 
+### &lt;TKey&gt;equals(GenericProperty&lt;TKey&gt; obj1, GenericProperty&lt;TKey&gt; obj2) {#-TKey-equals-com.aspose.tasks.GenericProperty-TKey--com.aspose.tasks.GenericProperty-TKey--}
+```
+public static boolean <TKey>equals(GenericProperty<TKey> obj1, GenericProperty<TKey> obj2)
+```
+
+
+Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj1 | [GenericProperty](../../com.aspose.tasks/genericproperty) | the first object to compare. |
+| obj2 | [GenericProperty](../../com.aspose.tasks/genericproperty) | the second object to compare. |
+
+**Returns:**
+boolean - returns true if specified  obj1  instance is equal to the specified  obj2  instance; otherwise, false.
 ### Clone() {#Clone--}
 ```
 public GenericProperty<TKey> Clone()
@@ -103,22 +119,6 @@ public boolean equals(Object obj)
 
 **Returns:**
 boolean - \{@inheritDoc\}
-### &lt;TKey&gt;equals(GenericProperty&lt;TKey&gt; obj1, GenericProperty&lt;TKey&gt; obj2) {#-TKey-equals-com.aspose.tasks.GenericProperty-TKey--com.aspose.tasks.GenericProperty-TKey--}
-```
-public static boolean <TKey>equals(GenericProperty<TKey> obj1, GenericProperty<TKey> obj2)
-```
-
-
-Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [GenericProperty](../../com.aspose.tasks/genericproperty) | the first object to compare. |
-| obj2 | [GenericProperty](../../com.aspose.tasks/genericproperty) | the second object to compare. |
-
-**Returns:**
-boolean - returns true if specified  obj1  instance is equal to the specified  obj2  instance; otherwise, false.
 ### getName() {#getName--}
 ```
 public final String getName()

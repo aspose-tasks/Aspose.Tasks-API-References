@@ -23,9 +23,9 @@ Represents a collection of custom project properties.
 
 | Method | Description |
 | --- | --- |
-| [add(String name, String value)](#add-java.lang.String-java.lang.String-) | Creates a new custom property. |
 | [add(String name, boolean value)](#add-java.lang.String-boolean-) | Creates a new custom property. |
 | [add(String name, double value)](#add-java.lang.String-double-) | Creates a new custom property. |
+| [add(String name, String value)](#add-java.lang.String-java.lang.String-) | Creates a new custom property. |
 | [add(String name, Date value)](#add-java.lang.String-java.util.Date-) | Creates a new custom property. |
 | [clear()](#clear--) | Clears the PropertyCollection. |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether this collection is read-only; otherwise, false. |
@@ -38,22 +38,6 @@ public CustomProjectPropertyCollection()
 
 Initializes a new instance of the [CustomProjectPropertyCollection](../../com.aspose.tasks/customprojectpropertycollection) class.
 
-### add(String name, String value) {#add-java.lang.String-java.lang.String-}
-```
-public final CustomProjectProperty add(String name, String value)
-```
-
-
-Creates a new custom property.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| value | java.lang.String | The newly created property object value. |
-
-**Returns:**
-[CustomProjectProperty](../../com.aspose.tasks/customprojectproperty) - The newly created property object.
 ### add(String name, boolean value) {#add-java.lang.String-boolean-}
 ```
 public final CustomProjectProperty add(String name, boolean value)
@@ -83,6 +67,22 @@ Creates a new custom property.
 | --- | --- | --- |
 | name | java.lang.String | The name of the property. |
 | value | double | The newly created property object value. |
+
+**Returns:**
+[CustomProjectProperty](../../com.aspose.tasks/customprojectproperty) - The newly created property object.
+### add(String name, String value) {#add-java.lang.String-java.lang.String-}
+```
+public final CustomProjectProperty add(String name, String value)
+```
+
+
+Creates a new custom property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the property. |
+| value | java.lang.String | The newly created property object value. |
 
 **Returns:**
 [CustomProjectProperty](../../com.aspose.tasks/customprojectproperty) - The newly created property object.

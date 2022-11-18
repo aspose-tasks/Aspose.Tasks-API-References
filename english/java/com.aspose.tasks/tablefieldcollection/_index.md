@@ -21,10 +21,11 @@ Contains a list of [TableField](../../com.aspose.tasks/tablefield) objects. Impl
 
 | Method | Description |
 | --- | --- |
+| [&lt;T&gt;toArray(T[] a)](#-T-toArray-T---) |  |
 | [add(TableField item)](#add-com.aspose.tasks.TableField-) |  |
 | [add(int index, TableField element)](#add-int-com.aspose.tasks.TableField-) |  |
-| [addAll(Collection&lt;? extends TableField&gt; c)](#addAll-java.util.Collection---extends-com.aspose.tasks.TableField--) |  |
 | [addAll(int index, Collection&lt;? extends TableField&gt; c)](#addAll-int-java.util.Collection---extends-com.aspose.tasks.TableField--) |  |
+| [addAll(Collection&lt;? extends TableField&gt; c)](#addAll-java.util.Collection---extends-com.aspose.tasks.TableField--) |  |
 | [clear()](#clear--) |  |
 | [contains(Object o)](#contains-java.lang.Object-) |  |
 | [containsAll(Collection&lt;?&gt; c)](#containsAll-java.util.Collection----) |  |
@@ -37,15 +38,29 @@ Contains a list of [TableField](../../com.aspose.tasks/tablefield) objects. Impl
 | [lastIndexOf(Object o)](#lastIndexOf-java.lang.Object-) |  |
 | [listIterator()](#listIterator--) |  |
 | [listIterator(int index)](#listIterator-int-) |  |
-| [remove(Object o)](#remove-java.lang.Object-) |  |
 | [remove(int index)](#remove-int-) |  |
+| [remove(Object o)](#remove-java.lang.Object-) |  |
 | [removeAll(Collection&lt;?&gt; c)](#removeAll-java.util.Collection----) |  |
 | [retainAll(Collection&lt;?&gt; c)](#retainAll-java.util.Collection----) |  |
 | [set(int index, TableField element)](#set-int-com.aspose.tasks.TableField-) |  |
 | [size()](#size--) |  |
 | [subList(int fromIndex, int toIndex)](#subList-int-int-) |  |
 | [toArray()](#toArray--) |  |
-| [&lt;T&gt;toArray(T[] a)](#-T-toArray-T---) |  |
+### &lt;T&gt;toArray(T[] a) {#-T-toArray-T---}
+```
+public T[] <T>toArray(T[] a)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | T[] |  |
+
+**Returns:**
+T[]
 ### add(TableField item) {#add-com.aspose.tasks.TableField-}
 ```
 public boolean add(TableField item)
@@ -75,21 +90,6 @@ public final void add(int index, TableField element)
 | index | int |  |
 | element | [TableField](../../com.aspose.tasks/tablefield) |  |
 
-### addAll(Collection&lt;? extends TableField&gt; c) {#addAll-java.util.Collection---extends-com.aspose.tasks.TableField--}
-```
-public boolean addAll(Collection<? extends TableField> c)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| c | java.util.Collection&lt;? extends com.aspose.tasks.TableField&gt; |  |
-
-**Returns:**
-boolean
 ### addAll(int index, Collection&lt;? extends TableField&gt; c) {#addAll-int-java.util.Collection---extends-com.aspose.tasks.TableField--}
 ```
 public boolean addAll(int index, Collection<? extends TableField> c)
@@ -102,6 +102,21 @@ public boolean addAll(int index, Collection<? extends TableField> c)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
+| c | java.util.Collection&lt;? extends com.aspose.tasks.TableField&gt; |  |
+
+**Returns:**
+boolean
+### addAll(Collection&lt;? extends TableField&gt; c) {#addAll-java.util.Collection---extends-com.aspose.tasks.TableField--}
+```
+public boolean addAll(Collection<? extends TableField> c)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
 | c | java.util.Collection&lt;? extends com.aspose.tasks.TableField&gt; |  |
 
 **Returns:**
@@ -161,7 +176,7 @@ public TableField get(int index)
 [TableField](../../com.aspose.tasks/tablefield)
 ### getParentProject() {#getParentProject--}
 ```
-public Project getParentProject()
+public final Project getParentProject()
 ```
 
 
@@ -259,21 +274,6 @@ public ListIterator<TableField> listIterator(int index)
 
 **Returns:**
 java.util.ListIterator&lt;com.aspose.tasks.TableField&gt;
-### remove(Object o) {#remove-java.lang.Object-}
-```
-public boolean remove(Object o)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| o | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### remove(int index) {#remove-int-}
 ```
 public TableField remove(int index)
@@ -289,6 +289,21 @@ public TableField remove(int index)
 
 **Returns:**
 [TableField](../../com.aspose.tasks/tablefield)
+### remove(Object o) {#remove-java.lang.Object-}
+```
+public boolean remove(Object o)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### removeAll(Collection&lt;?&gt; c) {#removeAll-java.util.Collection----}
 ```
 public boolean removeAll(Collection<?> c)
@@ -371,18 +386,3 @@ public Object[] toArray()
 
 **Returns:**
 java.lang.Object[]
-### &lt;T&gt;toArray(T[] a) {#-T-toArray-T---}
-```
-public T[] <T>toArray(T[] a)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| a | T[] |  |
-
-**Returns:**
-T[]

@@ -18,34 +18,18 @@ Specifies supported confidence levels used in risk analysis that correspond to t
 
 | Field | Description |
 | --- | --- |
-| [CL99](#CL99) | 99 % Confidence Level. |
-| [CL95](#CL95) | 95 % Confidence Level. |
-| [CL90](#CL90) | 90 % Confidence Level. |
-| [CL85](#CL85) | 85 % Confidence Level. |
 | [CL75](#CL75) | 75 % Confidence Level. |
-### CL99 {#CL99}
+| [CL85](#CL85) | 85 % Confidence Level. |
+| [CL90](#CL90) | 90 % Confidence Level. |
+| [CL95](#CL95) | 95 % Confidence Level. |
+| [CL99](#CL99) | 99 % Confidence Level. |
+### CL75 {#CL75}
 ```
-public static final int CL99
-```
-
-
-99 % Confidence Level.
-
-### CL95 {#CL95}
-```
-public static final int CL95
+public static final int CL75
 ```
 
 
-95 % Confidence Level.
-
-### CL90 {#CL90}
-```
-public static final int CL90
-```
-
-
-90 % Confidence Level.
+75 % Confidence Level.
 
 ### CL85 {#CL85}
 ```
@@ -55,11 +39,27 @@ public static final int CL85
 
 85 % Confidence Level.
 
-### CL75 {#CL75}
+### CL90 {#CL90}
 ```
-public static final int CL75
+public static final int CL90
 ```
 
 
-75 % Confidence Level.
+90 % Confidence Level.
+
+### CL95 {#CL95}
+```
+public static final int CL95
+```
+
+
+95 % Confidence Level.
+
+### CL99 {#CL99}
+```
+public static final int CL99
+```
+
+
+99 % Confidence Level.
 

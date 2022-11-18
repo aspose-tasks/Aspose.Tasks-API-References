@@ -18,25 +18,17 @@ Specifies the type of a custom field.
 
 | Field | Description |
 | --- | --- |
-| [Null](#Null) | Indicates Null custom field type. |
 | [Cost](#Cost) | Indicates Cost custom field type. |
 | [Date](#Date) | Indicates Date custom field type. |
 | [Duration](#Duration) | Indicates Duration custom field type. |
 | [Finish](#Finish) | Indicates Finish custom field type. |
 | [Flag](#Flag) | Indicates Flag custom field type. |
+| [Null](#Null) | Indicates Null custom field type. |
 | [Number](#Number) | Indicates Number custom field type. |
-| [Start](#Start) | Indicates Start custom field type. |
-| [Text](#Text) | Indicates Text custom field type. |
 | [OutlineCode](#OutlineCode) | Indicates Outline Code custom field type. |
 | [RBS](#RBS) | Indicates RBS (Resource Breakdown Structure) custom field type. |
-### Null {#Null}
-```
-public static final int Null
-```
-
-
-Indicates Null custom field type.
-
+| [Start](#Start) | Indicates Start custom field type. |
+| [Text](#Text) | Indicates Text custom field type. |
 ### Cost {#Cost}
 ```
 public static final int Cost
@@ -77,6 +69,14 @@ public static final int Flag
 
 Indicates Flag custom field type.
 
+### Null {#Null}
+```
+public static final int Null
+```
+
+
+Indicates Null custom field type.
+
 ### Number {#Number}
 ```
 public static final int Number
@@ -84,22 +84,6 @@ public static final int Number
 
 
 Indicates Number custom field type.
-
-### Start {#Start}
-```
-public static final int Start
-```
-
-
-Indicates Start custom field type.
-
-### Text {#Text}
-```
-public static final int Text
-```
-
-
-Indicates Text custom field type.
 
 ### OutlineCode {#OutlineCode}
 ```
@@ -116,4 +100,20 @@ public static final int RBS
 
 
 Indicates RBS (Resource Breakdown Structure) custom field type.
+
+### Start {#Start}
+```
+public static final int Start
+```
+
+
+Indicates Start custom field type.
+
+### Text {#Text}
+```
+public static final int Text
+```
+
+
+Indicates Text custom field type.
 

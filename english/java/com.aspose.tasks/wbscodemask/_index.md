@@ -24,11 +24,11 @@ Represents WBS Code mask.
 | Method | Description |
 | --- | --- |
 | [getLength()](#getLength--) | Gets the number of characters of the code string. |
-| [setLength(byte value)](#setLength-byte-) | Sets the number of characters of the code string. |
 | [getLevel()](#getLevel--) | Gets the mask level. |
 | [getSeparator()](#getSeparator--) | Gets the separator of the code string. |
-| [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets the separator of the code string. |
 | [getSequence()](#getSequence--) | Gets the type of character of the code string. |
+| [setLength(byte value)](#setLength-byte-) | Sets the number of characters of the code string. |
+| [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets the separator of the code string. |
 | [setSequence(int value)](#setSequence-int-) | Sets the type of character of the code string. |
 ### WBSCodeMask() {#WBSCodeMask--}
 ```
@@ -48,19 +48,6 @@ Gets the number of characters of the code string.
 
 **Returns:**
 byte - the number of characters of the code string.
-### setLength(byte value) {#setLength-byte-}
-```
-public final void setLength(byte value)
-```
-
-
-Sets the number of characters of the code string.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte | the number of characters of the code string. |
-
 ### getLevel() {#getLevel--}
 ```
 public final int getLevel()
@@ -85,6 +72,29 @@ Default value is Period.
 
 **Returns:**
 java.lang.String - the separator of the code string.
+### getSequence() {#getSequence--}
+```
+public final int getSequence()
+```
+
+
+Gets the type of character of the code string.
+
+**Returns:**
+int - the type of character of the code string.
+### setLength(byte value) {#setLength-byte-}
+```
+public final void setLength(byte value)
+```
+
+
+Sets the number of characters of the code string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte | the number of characters of the code string. |
+
 ### setSeparator(String value) {#setSeparator-java.lang.String-}
 ```
 public final void setSeparator(String value)
@@ -102,16 +112,6 @@ Default value is Period.
 | --- | --- | --- |
 | value | java.lang.String | the separator of the code string. |
 
-### getSequence() {#getSequence--}
-```
-public final int getSequence()
-```
-
-
-Gets the type of character of the code string.
-
-**Returns:**
-int - the type of character of the code string.
 ### setSequence(int value) {#setSequence-int-}
 ```
 public final void setSequence(int value)

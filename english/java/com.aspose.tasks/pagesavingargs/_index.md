@@ -19,9 +19,9 @@ This class represents set of data that related to saving of document's page to a
 | Method | Description |
 | --- | --- |
 | [getKeepStreamOpen()](#getKeepStreamOpen--) | Gets a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written. |
-| [setKeepStreamOpen(boolean value)](#setKeepStreamOpen-boolean-) | Sets a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written. |
 | [getPageNumber()](#getPageNumber--) | Gets a number of page to be written. |
 | [getStream()](#getStream--) | Gets a stream for writing a page. |
+| [setKeepStreamOpen(boolean value)](#setKeepStreamOpen-boolean-) | Sets a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written. |
 | [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | Sets a stream for writing a page. |
 ### getKeepStreamOpen() {#getKeepStreamOpen--}
 ```
@@ -33,19 +33,6 @@ Gets a value indicating whether rendering routine should keep  Stream ([getStrea
 
 **Returns:**
 boolean - a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written.
-### setKeepStreamOpen(boolean value) {#setKeepStreamOpen-boolean-}
-```
-public final void setKeepStreamOpen(boolean value)
-```
-
-
-Sets a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written. |
-
 ### getPageNumber() {#getPageNumber--}
 ```
 public final int getPageNumber()
@@ -66,6 +53,19 @@ Gets a stream for writing a page.
 
 **Returns:**
 java.io.OutputStream - a stream for writing a page.
+### setKeepStreamOpen(boolean value) {#setKeepStreamOpen-boolean-}
+```
+public final void setKeepStreamOpen(boolean value)
+```
+
+
+Sets a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether rendering routine should keep  Stream ([getStream()](../../com.aspose.tasks/pagesavingargs\#getStream--)/[setStream(java.io.OutputStream)](../../com.aspose.tasks/pagesavingargs\#setStream-java.io.OutputStream-)) opened after a page is written. |
+
 ### setStream(OutputStream value) {#setStream-java.io.OutputStream-}
 ```
 public final void setStream(OutputStream value)

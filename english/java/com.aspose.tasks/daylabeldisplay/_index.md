@@ -19,8 +19,8 @@ Specifies how the day label displays.
 | Field | Description |
 | --- | --- |
 | [D](#D) | Sets the Days list in MS Project as d. |
-| [Dy](#Dy) | Sets the Days list in MS Project as dy. |
 | [Day](#Day) | Sets the Days list in MS Project as day. |
+| [Dy](#Dy) | Sets the Days list in MS Project as dy. |
 ### D {#D}
 ```
 public static final int D
@@ -29,14 +29,6 @@ public static final int D
 
 Sets the Days list in MS Project as d.
 
-### Dy {#Dy}
-```
-public static final int Dy
-```
-
-
-Sets the Days list in MS Project as dy.
-
 ### Day {#Day}
 ```
 public static final int Day
@@ -44,4 +36,12 @@ public static final int Day
 
 
 Sets the Days list in MS Project as day.
+
+### Dy {#Dy}
+```
+public static final int Dy
+```
+
+
+Sets the Days list in MS Project as dy.
 

@@ -24,16 +24,16 @@ Represents gridlines that appear in a GanttChart view.
 | Method | Description |
 | --- | --- |
 | [getInterval()](#getInterval--) | Gets the number from 0 to 99 that specifies the interval between gridlines. |
-| [setInterval(int value)](#setInterval-int-) | Sets the number from 0 to 99 that specifies the interval between gridlines. |
 | [getIntervalColor()](#getIntervalColor--) | Gets the color of secondary gridlines. |
-| [setIntervalColor(Color value)](#setIntervalColor-java.awt.Color-) | Sets the color of secondary gridlines. |
 | [getIntervalPattern()](#getIntervalPattern--) | Gets the line pattern for secondary gridlines. |
-| [setIntervalPattern(int value)](#setIntervalPattern-int-) | Sets the line pattern for secondary gridlines. |
 | [getNormalColor()](#getNormalColor--) | Gets the color of normal gridlines. |
-| [setNormalColor(Color value)](#setNormalColor-java.awt.Color-) | Sets the color of normal gridlines. |
 | [getNormalPattern()](#getNormalPattern--) | Gets the line pattern for normal gridlines. |
-| [setNormalPattern(int value)](#setNormalPattern-int-) | Sets the line pattern for normal gridlines. |
 | [getType()](#getType--) | Gets the gridline type. |
+| [setInterval(int value)](#setInterval-int-) | Sets the number from 0 to 99 that specifies the interval between gridlines. |
+| [setIntervalColor(Color value)](#setIntervalColor-java.awt.Color-) | Sets the color of secondary gridlines. |
+| [setIntervalPattern(int value)](#setIntervalPattern-int-) | Sets the line pattern for secondary gridlines. |
+| [setNormalColor(Color value)](#setNormalColor-java.awt.Color-) | Sets the color of normal gridlines. |
+| [setNormalPattern(int value)](#setNormalPattern-int-) | Sets the line pattern for normal gridlines. |
 | [setType(int value)](#setType-int-) | Sets the gridline type. |
 ### Gridlines() {#Gridlines--}
 ```
@@ -51,6 +51,56 @@ Gets the number from 0 to 99 that specifies the interval between gridlines.
 
 **Returns:**
 int - the number from 0 to 99 that specifies the interval between gridlines.
+### getIntervalColor() {#getIntervalColor--}
+```
+public final Color getIntervalColor()
+```
+
+
+Gets the color of secondary gridlines.
+
+**Returns:**
+java.awt.Color - the color of secondary gridlines.
+### getIntervalPattern() {#getIntervalPattern--}
+```
+public final int getIntervalPattern()
+```
+
+
+Gets the line pattern for secondary gridlines.
+
+**Returns:**
+int - the line pattern for secondary gridlines.
+### getNormalColor() {#getNormalColor--}
+```
+public final Color getNormalColor()
+```
+
+
+Gets the color of normal gridlines.
+
+**Returns:**
+java.awt.Color - the color of normal gridlines.
+### getNormalPattern() {#getNormalPattern--}
+```
+public final int getNormalPattern()
+```
+
+
+Gets the line pattern for normal gridlines.
+
+**Returns:**
+int - the line pattern for normal gridlines.
+### getType() {#getType--}
+```
+public final int getType()
+```
+
+
+Gets the gridline type.
+
+**Returns:**
+int - the gridline type.
 ### setInterval(int value) {#setInterval-int-}
 ```
 public final void setInterval(int value)
@@ -64,16 +114,6 @@ Sets the number from 0 to 99 that specifies the interval between gridlines.
 | --- | --- | --- |
 | value | int | the number from 0 to 99 that specifies the interval between gridlines. |
 
-### getIntervalColor() {#getIntervalColor--}
-```
-public final Color getIntervalColor()
-```
-
-
-Gets the color of secondary gridlines.
-
-**Returns:**
-java.awt.Color - the color of secondary gridlines.
 ### setIntervalColor(Color value) {#setIntervalColor-java.awt.Color-}
 ```
 public final void setIntervalColor(Color value)
@@ -87,16 +127,6 @@ Sets the color of secondary gridlines.
 | --- | --- | --- |
 | value | java.awt.Color | the color of secondary gridlines. |
 
-### getIntervalPattern() {#getIntervalPattern--}
-```
-public final int getIntervalPattern()
-```
-
-
-Gets the line pattern for secondary gridlines.
-
-**Returns:**
-int - the line pattern for secondary gridlines.
 ### setIntervalPattern(int value) {#setIntervalPattern-int-}
 ```
 public final void setIntervalPattern(int value)
@@ -110,16 +140,6 @@ Sets the line pattern for secondary gridlines.
 | --- | --- | --- |
 | value | int | the line pattern for secondary gridlines. |
 
-### getNormalColor() {#getNormalColor--}
-```
-public final Color getNormalColor()
-```
-
-
-Gets the color of normal gridlines.
-
-**Returns:**
-java.awt.Color - the color of normal gridlines.
 ### setNormalColor(Color value) {#setNormalColor-java.awt.Color-}
 ```
 public final void setNormalColor(Color value)
@@ -133,16 +153,6 @@ Sets the color of normal gridlines.
 | --- | --- | --- |
 | value | java.awt.Color | the color of normal gridlines. |
 
-### getNormalPattern() {#getNormalPattern--}
-```
-public final int getNormalPattern()
-```
-
-
-Gets the line pattern for normal gridlines.
-
-**Returns:**
-int - the line pattern for normal gridlines.
 ### setNormalPattern(int value) {#setNormalPattern-int-}
 ```
 public final void setNormalPattern(int value)
@@ -156,16 +166,6 @@ Sets the line pattern for normal gridlines.
 | --- | --- | --- |
 | value | int | the line pattern for normal gridlines. |
 
-### getType() {#getType--}
-```
-public final int getType()
-```
-
-
-Gets the gridline type.
-
-**Returns:**
-int - the gridline type.
 ### setType(int value) {#setType-int-}
 ```
 public final void setType(int value)

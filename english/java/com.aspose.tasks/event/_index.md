@@ -13,6 +13,8 @@ public interface Event<TArgs>
 An event.
 
  TArgs : event arguments.
+
+ TArgs : 
 ## Methods
 
 | Method | Description |

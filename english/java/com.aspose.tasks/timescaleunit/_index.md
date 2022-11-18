@@ -18,31 +18,31 @@ Specifies the unit of time for any tier of a timescale in a Gantt chart or other
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Indicates None. |
-| [Minutes](#Minutes) | Indicates Minutes timescale unit. |
-| [Hours](#Hours) | Indicates Hours timescale unit. |
 | [Days](#Days) | Indicates Days timescale unit. |
-| [Weeks](#Weeks) | Indicates Weeks timescale unit. |
-| [ThirdsOfMonths](#ThirdsOfMonths) | Indicates Thirds of months timescale unit. |
-| [Months](#Months) | Indicates Months timescale unit. |
-| [Quarters](#Quarters) | Indicates Quarters of years timescale unit. |
 | [HalfYears](#HalfYears) | Indicates Half years timescale unit. |
+| [Hours](#Hours) | Indicates Hours timescale unit. |
+| [Minutes](#Minutes) | Indicates Minutes timescale unit. |
+| [Months](#Months) | Indicates Months timescale unit. |
+| [None](#None) | Indicates None. |
+| [Quarters](#Quarters) | Indicates Quarters of years timescale unit. |
+| [ThirdsOfMonths](#ThirdsOfMonths) | Indicates Thirds of months timescale unit. |
+| [Weeks](#Weeks) | Indicates Weeks timescale unit. |
 | [Years](#Years) | Indicates Years timescale unit. |
-### None {#None}
+### Days {#Days}
 ```
-public static final int None
-```
-
-
-Indicates None. The timescale tier is hidden.
-
-### Minutes {#Minutes}
-```
-public static final int Minutes
+public static final int Days
 ```
 
 
-Indicates Minutes timescale unit.
+Indicates Days timescale unit.
+
+### HalfYears {#HalfYears}
+```
+public static final int HalfYears
+```
+
+
+Indicates Half years timescale unit.
 
 ### Hours {#Hours}
 ```
@@ -52,29 +52,13 @@ public static final int Hours
 
 Indicates Hours timescale unit.
 
-### Days {#Days}
+### Minutes {#Minutes}
 ```
-public static final int Days
-```
-
-
-Indicates Days timescale unit.
-
-### Weeks {#Weeks}
-```
-public static final int Weeks
+public static final int Minutes
 ```
 
 
-Indicates Weeks timescale unit.
-
-### ThirdsOfMonths {#ThirdsOfMonths}
-```
-public static final int ThirdsOfMonths
-```
-
-
-Indicates Thirds of months timescale unit.
+Indicates Minutes timescale unit.
 
 ### Months {#Months}
 ```
@@ -84,6 +68,14 @@ public static final int Months
 
 Indicates Months timescale unit.
 
+### None {#None}
+```
+public static final int None
+```
+
+
+Indicates None. The timescale tier is hidden.
+
 ### Quarters {#Quarters}
 ```
 public static final int Quarters
@@ -92,13 +84,21 @@ public static final int Quarters
 
 Indicates Quarters of years timescale unit.
 
-### HalfYears {#HalfYears}
+### ThirdsOfMonths {#ThirdsOfMonths}
 ```
-public static final int HalfYears
+public static final int ThirdsOfMonths
 ```
 
 
-Indicates Half years timescale unit.
+Indicates Thirds of months timescale unit.
+
+### Weeks {#Weeks}
+```
+public static final int Weeks
+```
+
+
+Indicates Weeks timescale unit.
 
 ### Years {#Years}
 ```

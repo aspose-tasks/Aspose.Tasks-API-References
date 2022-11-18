@@ -24,10 +24,10 @@ Represents working hours.
 | Method | Description |
 | --- | --- |
 | [getFrom()](#getFrom--) | Gets the From date. |
-| [setFrom(Date value)](#setFrom-java.util.Date-) | Sets the From date. |
 | [getTo()](#getTo--) | Gets the To date. |
-| [setTo(Date value)](#setTo-java.util.Date-) | Sets the To date. |
 | [getWorkingHours()](#getWorkingHours--) | Gets the duration of working hours. |
+| [setFrom(Date value)](#setFrom-java.util.Date-) | Sets the From date. |
+| [setTo(Date value)](#setTo-java.util.Date-) | Sets the To date. |
 | [setWorkingHours(double value)](#setWorkingHours-double-) | Sets the duration of working hours. |
 ### WorkUnit(Date from, Date to) {#WorkUnit-java.util.Date-java.util.Date-}
 ```
@@ -53,6 +53,26 @@ Gets the From date.
 
 **Returns:**
 java.util.Date - the From date.
+### getTo() {#getTo--}
+```
+public final Date getTo()
+```
+
+
+Gets the To date.
+
+**Returns:**
+java.util.Date - the To date.
+### getWorkingHours() {#getWorkingHours--}
+```
+public final double getWorkingHours()
+```
+
+
+Gets the duration of working hours.
+
+**Returns:**
+double - the duration of working hours.
 ### setFrom(Date value) {#setFrom-java.util.Date-}
 ```
 public void setFrom(Date value)
@@ -66,16 +86,6 @@ Sets the From date.
 | --- | --- | --- |
 | value | java.util.Date | the From date. |
 
-### getTo() {#getTo--}
-```
-public final Date getTo()
-```
-
-
-Gets the To date.
-
-**Returns:**
-java.util.Date - the To date.
 ### setTo(Date value) {#setTo-java.util.Date-}
 ```
 public final void setTo(Date value)
@@ -89,16 +99,6 @@ Sets the To date.
 | --- | --- | --- |
 | value | java.util.Date | the To date. |
 
-### getWorkingHours() {#getWorkingHours--}
-```
-public final double getWorkingHours()
-```
-
-
-Gets the duration of working hours.
-
-**Returns:**
-double - the duration of working hours.
 ### setWorkingHours(double value) {#setWorkingHours-double-}
 ```
 public final void setWorkingHours(double value)

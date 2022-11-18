@@ -18,47 +18,31 @@ Shape of a marker at the beginning or end of the bar style to be rendered when s
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Indicates None shape. |
-| [VerticalLine](#VerticalLine) | Indicates Vertical line shape. |
-| [Pentagon](#Pentagon) | Indicates Pentagon shape. |
-| [Triangle](#Triangle) | Indicates Triangle shape. |
-| [LeftBracket](#LeftBracket) | Indicates Left bracket shape. |
-| [RightBracket](#RightBracket) | Indicates Right bracket shape. |
 | [ArrowDown](#ArrowDown) | Indicates ArrowDown shape. |
-| [LeftFade](#LeftFade) | Indicates Left fade shape. |
-| [RightFade](#RightFade) | Indicates Right fade shape. |
 | [Diamond](#Diamond) | Indicates Diamond shape. |
-### None {#None}
+| [LeftBracket](#LeftBracket) | Indicates Left bracket shape. |
+| [LeftFade](#LeftFade) | Indicates Left fade shape. |
+| [None](#None) | Indicates None shape. |
+| [Pentagon](#Pentagon) | Indicates Pentagon shape. |
+| [RightBracket](#RightBracket) | Indicates Right bracket shape. |
+| [RightFade](#RightFade) | Indicates Right fade shape. |
+| [Triangle](#Triangle) | Indicates Triangle shape. |
+| [VerticalLine](#VerticalLine) | Indicates Vertical line shape. |
+### ArrowDown {#ArrowDown}
 ```
-public static final int None
-```
-
-
-Indicates None shape.
-
-### VerticalLine {#VerticalLine}
-```
-public static final int VerticalLine
-```
-
-
-Indicates Vertical line shape.
-
-### Pentagon {#Pentagon}
-```
-public static final int Pentagon
+public static final int ArrowDown
 ```
 
 
-Indicates Pentagon shape.
+Indicates ArrowDown shape.
 
-### Triangle {#Triangle}
+### Diamond {#Diamond}
 ```
-public static final int Triangle
+public static final int Diamond
 ```
 
 
-Indicates Triangle shape.
+Indicates Diamond shape.
 
 ### LeftBracket {#LeftBracket}
 ```
@@ -68,22 +52,6 @@ public static final int LeftBracket
 
 Indicates Left bracket shape.
 
-### RightBracket {#RightBracket}
-```
-public static final int RightBracket
-```
-
-
-Indicates Right bracket shape.
-
-### ArrowDown {#ArrowDown}
-```
-public static final int ArrowDown
-```
-
-
-Indicates ArrowDown shape.
-
 ### LeftFade {#LeftFade}
 ```
 public static final int LeftFade
@@ -91,6 +59,30 @@ public static final int LeftFade
 
 
 Indicates Left fade shape.
+
+### None {#None}
+```
+public static final int None
+```
+
+
+Indicates None shape.
+
+### Pentagon {#Pentagon}
+```
+public static final int Pentagon
+```
+
+
+Indicates Pentagon shape.
+
+### RightBracket {#RightBracket}
+```
+public static final int RightBracket
+```
+
+
+Indicates Right bracket shape.
 
 ### RightFade {#RightFade}
 ```
@@ -100,11 +92,19 @@ public static final int RightFade
 
 Indicates Right fade shape.
 
-### Diamond {#Diamond}
+### Triangle {#Triangle}
 ```
-public static final int Diamond
+public static final int Triangle
 ```
 
 
-Indicates Diamond shape.
+Indicates Triangle shape.
+
+### VerticalLine {#VerticalLine}
+```
+public static final int VerticalLine
+```
+
+
+Indicates Vertical line shape.
 

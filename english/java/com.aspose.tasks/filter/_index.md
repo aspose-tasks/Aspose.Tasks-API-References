@@ -30,16 +30,12 @@ Represents a filter in Project.
 | [equals(Filter other)](#equals-com.aspose.tasks.Filter-) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
 | [getCriteria()](#getCriteria--) | Gets the criteria that tasks or resources must meet to be displayed in MSP view. |
-| [setCriteria(FilterCriteria value)](#setCriteria-com.aspose.tasks.FilterCriteria-) | Sets the criteria that tasks or resources must meet to be displayed in MSP view. |
 | [getFilterType()](#getFilterType--) | Gets the type of the filter. |
 | [getIndex()](#getIndex--) | Gets the index of a [Filter](../../com.aspose.tasks/filter) object in the Filters containing object. |
 | [getName()](#getName--) | Gets the name of a Filter object. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of a Filter object. |
 | [getParentProject()](#getParentProject--) | Gets the parent of the Filter object. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
-| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
 | [getShowRelatedSummaryRows()](#getShowRelatedSummaryRows--) | Gets a value indicating whether related summary rows are displayed for the filter. |
-| [setShowRelatedSummaryRows(boolean value)](#setShowRelatedSummaryRows-boolean-) | Sets a value indicating whether related summary rows are displayed for the filter. |
 | [getUid()](#getUid--) | Gets the unique identifier of a filter. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the filter. |
 | [op_Equality(Filter a, Filter b)](#op-Equality-com.aspose.tasks.Filter-com.aspose.tasks.Filter-) | Returns a value indicating whether this instance is equal to a specified object. |
@@ -48,6 +44,10 @@ Represents a filter in Project.
 | [op_Inequality(Filter a, Filter b)](#op-Inequality-com.aspose.tasks.Filter-com.aspose.tasks.Filter-) | Returns a value indicating whether this instance is not equal to a specified object. |
 | [op_LessThan(Filter a, Filter b)](#op-LessThan-com.aspose.tasks.Filter-com.aspose.tasks.Filter-) | Returns a value indicating whether this instance is less than a specified object. |
 | [op_LessThanOrEqual(Filter a, Filter b)](#op-LessThanOrEqual-com.aspose.tasks.Filter-com.aspose.tasks.Filter-) | Returns a value indicating whether this instance is less than or equal to a specified object. |
+| [setCriteria(FilterCriteria value)](#setCriteria-com.aspose.tasks.FilterCriteria-) | Sets the criteria that tasks or resources must meet to be displayed in MSP view. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of a Filter object. |
+| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
+| [setShowRelatedSummaryRows(boolean value)](#setShowRelatedSummaryRows-boolean-) | Sets a value indicating whether related summary rows are displayed for the filter. |
 ### Filter() {#Filter--}
 ```
 public Filter()
@@ -109,19 +109,6 @@ Gets the criteria that tasks or resources must meet to be displayed in MSP view.
 
 **Returns:**
 [FilterCriteria](../../com.aspose.tasks/filtercriteria) - the criteria that tasks or resources must meet to be displayed in MSP view.
-### setCriteria(FilterCriteria value) {#setCriteria-com.aspose.tasks.FilterCriteria-}
-```
-public final void setCriteria(FilterCriteria value)
-```
-
-
-Sets the criteria that tasks or resources must meet to be displayed in MSP view.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [FilterCriteria](../../com.aspose.tasks/filtercriteria) | the criteria that tasks or resources must meet to be displayed in MSP view. |
-
 ### getFilterType() {#getFilterType--}
 ```
 public final int getFilterType()
@@ -152,19 +139,6 @@ Gets the name of a Filter object.
 
 **Returns:**
 java.lang.String - the name of a Filter object.
-### setName(String value) {#setName-java.lang.String-}
-```
-public final void setName(String value)
-```
-
-
-Sets the name of a Filter object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | the name of a Filter object. |
-
 ### getParentProject() {#getParentProject--}
 ```
 public final Project getParentProject()
@@ -185,19 +159,6 @@ Gets a value indicating whether project shows the filter name in the Filter drop
 
 **Returns:**
 boolean - a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon.
-### setShowInMenu(boolean value) {#setShowInMenu-boolean-}
-```
-public final void setShowInMenu(boolean value)
-```
-
-
-Sets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
-
 ### getShowRelatedSummaryRows() {#getShowRelatedSummaryRows--}
 ```
 public final boolean getShowRelatedSummaryRows()
@@ -208,19 +169,6 @@ Gets a value indicating whether related summary rows are displayed for the filte
 
 **Returns:**
 boolean - a value indicating whether related summary rows are displayed for the filter.
-### setShowRelatedSummaryRows(boolean value) {#setShowRelatedSummaryRows-boolean-}
-```
-public final void setShowRelatedSummaryRows(boolean value)
-```
-
-
-Sets a value indicating whether related summary rows are displayed for the filter.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether related summary rows are displayed for the filter. |
-
 ### getUid() {#getUid--}
 ```
 public final int getUid()
@@ -337,3 +285,55 @@ Returns a value indicating whether this instance is less than or equal to a spec
 
 **Returns:**
 boolean - a value indicating whether this instance is less than or equal to a specified object
+### setCriteria(FilterCriteria value) {#setCriteria-com.aspose.tasks.FilterCriteria-}
+```
+public final void setCriteria(FilterCriteria value)
+```
+
+
+Sets the criteria that tasks or resources must meet to be displayed in MSP view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [FilterCriteria](../../com.aspose.tasks/filtercriteria) | the criteria that tasks or resources must meet to be displayed in MSP view. |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public final void setName(String value)
+```
+
+
+Sets the name of a Filter object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | the name of a Filter object. |
+
+### setShowInMenu(boolean value) {#setShowInMenu-boolean-}
+```
+public final void setShowInMenu(boolean value)
+```
+
+
+Sets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
+
+### setShowRelatedSummaryRows(boolean value) {#setShowRelatedSummaryRows-boolean-}
+```
+public final void setShowRelatedSummaryRows(boolean value)
+```
+
+
+Sets a value indicating whether related summary rows are displayed for the filter.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether related summary rows are displayed for the filter. |
+

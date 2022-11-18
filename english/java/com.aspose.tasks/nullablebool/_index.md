@@ -32,14 +32,14 @@ A class for boolean values with possibility to check whether the value was defin
 | [CloneTo(NullableBool that)](#CloneTo-com.aspose.tasks.NullableBool-) | Makes a deep copy of the instance into another instance. |
 | [clone()](#clone--) | \{@inheritDoc\} |
 | [equals(NullableBool other)](#equals-com.aspose.tasks.NullableBool-) | Returns a flag indicating whether this instance is equal to the specified instance of the [NullableBool](../../com.aspose.tasks/nullablebool) class. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a flag indicating whether this instance is equal to the specified object. |
 | [equals(NullableBool obj1, NullableBool obj2)](#equals-com.aspose.tasks.NullableBool-com.aspose.tasks.NullableBool-) | Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a flag indicating whether this instance is equal to the specified object. |
 | [getValue()](#getValue--) | Gets a value indicating whether current value is true or false. |
-| [setValue(boolean value)](#setValue-boolean-) | Sets a value indicating whether current value is true or false. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the instance of the [NullableBool](../../com.aspose.tasks/nullablebool) class. |
 | [isDefined()](#isDefined--) | Gets a value indicating whether the value was defined; otherwise, false. |
 | [op_Equality(NullableBool a, NullableBool b)](#op-Equality-com.aspose.tasks.NullableBool-com.aspose.tasks.NullableBool-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [op_Inequality(NullableBool a, NullableBool b)](#op-Inequality-com.aspose.tasks.NullableBool-com.aspose.tasks.NullableBool-) | Returns a value indicating whether this instance is not equal to a specified object. |
+| [setValue(boolean value)](#setValue-boolean-) | Sets a value indicating whether current value is true or false. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [to_Boolean(NullableBool val)](#to-Boolean-com.aspose.tasks.NullableBool-) | Implicitly converts a [NullableBool](../../com.aspose.tasks/nullablebool) instance to a boolean value. |
 | [to_NullableBool(boolean val)](#to-NullableBool-boolean-) | Implicitly converts boolean value to the [NullableBool](../../com.aspose.tasks/nullablebool) instance. |
@@ -126,21 +126,6 @@ Returns a flag indicating whether this instance is equal to the specified instan
 
 **Returns:**
 boolean - a flag indicating whether this instance is equal to the specified instance of the [NullableBool](../../com.aspose.tasks/nullablebool) class.
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Returns a flag indicating whether this instance is equal to the specified object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | the specified object to compare to this instance. |
-
-**Returns:**
-boolean - a flag indicating whether this instance is equal to the specified object.
 ### equals(NullableBool obj1, NullableBool obj2) {#equals-com.aspose.tasks.NullableBool-com.aspose.tasks.NullableBool-}
 ```
 public static boolean equals(NullableBool obj1, NullableBool obj2)
@@ -157,6 +142,21 @@ Returns a value indicating whether specified  obj1  instance is equal to the spe
 
 **Returns:**
 boolean - returns true if specified  obj1  instance is equal to the specified  obj2  instance; otherwise, false.
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Returns a flag indicating whether this instance is equal to the specified object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | the specified object to compare to this instance. |
+
+**Returns:**
+boolean - a flag indicating whether this instance is equal to the specified object.
 ### getValue() {#getValue--}
 ```
 public final boolean getValue()
@@ -167,19 +167,6 @@ Gets a value indicating whether current value is true or false.
 
 **Returns:**
 boolean - a value indicating whether current value is true or false.
-### setValue(boolean value) {#setValue-boolean-}
-```
-public final void setValue(boolean value)
-```
-
-
-Sets a value indicating whether current value is true or false.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether current value is true or false. |
-
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -232,6 +219,19 @@ Returns a value indicating whether this instance is not equal to a specified obj
 
 **Returns:**
 boolean - a value indicating whether this instance is not equal to a specified object
+### setValue(boolean value) {#setValue-boolean-}
+```
+public final void setValue(boolean value)
+```
+
+
+Sets a value indicating whether current value is true or false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether current value is true or false. |
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -248,7 +248,7 @@ public static boolean to_Boolean(NullableBool val)
 ```
 
 
-Implicitly converts a [NullableBool](../../com.aspose.tasks/nullablebool) instance to a boolean value. Returns true when  Value ([getValue()](../../com.aspose.tasks/nullablebool\#getValue--)/[setValue(boolean)](../../com.aspose.tasks/nullablebool\#setValue-boolean-)) is true and  IsDefined (\#isDefined.isDefined) is true.
+Implicitly converts a [NullableBool](../../com.aspose.tasks/nullablebool) instance to a boolean value. Returns true when  Value ([getValue()](../../com.aspose.tasks/nullablebool\#getValue--)/[setValue(boolean)](../../com.aspose.tasks/nullablebool\#setValue-boolean-)) is true and  IsDefined ([isDefined](../../com.aspose.tasks/nullablebool\#isDefined)) is true.
 
 **Parameters:**
 | Parameter | Type | Description |

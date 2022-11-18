@@ -18,21 +18,21 @@ Specifies the type of an outline value.
 
 | Field | Description |
 | --- | --- |
-| [Null](#Null) | Indicates Null outline value type. |
+| [Cost](#Cost) | Indicates Cost outline value type. |
 | [Date](#Date) | Indicates Date outline value type. |
 | [Duration](#Duration) | Indicates Duration outline value type. |
-| [Cost](#Cost) | Indicates Cost outline value type. |
-| [Number](#Number) | Indicates Number outline value type. |
-| [Flag](#Flag) | Indicates Flag outline value type. |
-| [Text](#Text) | Indicates Text outline value type. |
 | [FinishDate](#FinishDate) | Indicates Finish Date outline value type. |
-### Null {#Null}
+| [Flag](#Flag) | Indicates Flag outline value type. |
+| [Null](#Null) | Indicates Null outline value type. |
+| [Number](#Number) | Indicates Number outline value type. |
+| [Text](#Text) | Indicates Text outline value type. |
+### Cost {#Cost}
 ```
-public static final int Null
+public static final int Cost
 ```
 
 
-Indicates Null outline value type.
+Indicates Cost outline value type.
 
 ### Date {#Date}
 ```
@@ -50,21 +50,13 @@ public static final int Duration
 
 Indicates Duration outline value type.
 
-### Cost {#Cost}
+### FinishDate {#FinishDate}
 ```
-public static final int Cost
-```
-
-
-Indicates Cost outline value type.
-
-### Number {#Number}
-```
-public static final int Number
+public static final int FinishDate
 ```
 
 
-Indicates Number outline value type.
+Indicates Finish Date outline value type.
 
 ### Flag {#Flag}
 ```
@@ -74,6 +66,22 @@ public static final int Flag
 
 Indicates Flag outline value type.
 
+### Null {#Null}
+```
+public static final int Null
+```
+
+
+Indicates Null outline value type.
+
+### Number {#Number}
+```
+public static final int Number
+```
+
+
+Indicates Number outline value type.
+
 ### Text {#Text}
 ```
 public static final int Text
@@ -81,12 +89,4 @@ public static final int Text
 
 
 Indicates Text outline value type.
-
-### FinishDate {#FinishDate}
-```
-public static final int FinishDate
-```
-
-
-Indicates Finish Date outline value type.
 

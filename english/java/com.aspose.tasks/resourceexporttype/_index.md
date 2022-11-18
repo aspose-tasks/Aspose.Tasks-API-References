@@ -18,16 +18,16 @@ Specifies the resource export type for HTML format.
 
 | Field | Description |
 | --- | --- |
-| [NoExport](#NoExport) | No export. |
-| [AsFile](#AsFile) | Export as a file. |
 | [AsEmbedded](#AsEmbedded) | Exported as an embedded resource. |
-### NoExport {#NoExport}
+| [AsFile](#AsFile) | Export as a file. |
+| [NoExport](#NoExport) | No export. |
+### AsEmbedded {#AsEmbedded}
 ```
-public static final int NoExport
+public static final int AsEmbedded
 ```
 
 
-No export.
+Exported as an embedded resource.
 
 ### AsFile {#AsFile}
 ```
@@ -37,11 +37,11 @@ public static final int AsFile
 
 Export as a file.
 
-### AsEmbedded {#AsEmbedded}
+### NoExport {#NoExport}
 ```
-public static final int AsEmbedded
+public static final int NoExport
 ```
 
 
-Exported as an embedded resource.
+No export.
 

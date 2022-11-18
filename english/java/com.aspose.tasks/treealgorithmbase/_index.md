@@ -1,7 +1,7 @@
 ---
 title: TreeAlgorithmBase
 second_title: Aspose.Tasks for Java API Reference
-description: A base class for implementations of ITreeAlgorithmT
+description: A base class for implementations of ITreeAlgorithmltTgt
 type: docs
 weight: 297
 url: /java/com.aspose.tasks/treealgorithmbase/
@@ -16,7 +16,7 @@ com.aspose.tasks.ITreeAlgorithm
 public abstract class TreeAlgorithmBase<T> implements ITreeAlgorithm<T>
 ```
 
-A base class for implementations of  ITreeAlgorithm\{T\} 
+A base class for implementations of ITreeAlgorithm&lt;T&gt;
 
  T : The type of the elements.
 ## Constructors

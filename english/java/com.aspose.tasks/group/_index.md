@@ -24,18 +24,18 @@ Represents a group definition. A Group object is a member of the ResourceGroups 
 | Method | Description |
 | --- | --- |
 | [getGroupCriteria()](#getGroupCriteria--) | Gets a GroupCriteria collection representing the fields in a group definition. |
-| [setGroupCriteria(GroupCriterionCollection value)](#setGroupCriteria-com.aspose.tasks.GroupCriterionCollection-) | Sets a GroupCriteria collection representing the fields in a group definition. |
 | [getIndex()](#getIndex--) | Gets the index of a [Group](../../com.aspose.tasks/group) object in the Groups containing object. |
 | [getMaintainHierarchy()](#getMaintainHierarchy--) | Gets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
-| [setMaintainHierarchy(boolean value)](#setMaintainHierarchy-boolean-) | Sets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
 | [getName()](#getName--) | Gets a name of a Group object. |
-| [setName(String value)](#setName-java.lang.String-) | Sets a name of a Group object. |
 | [getParentProject()](#getParentProject--) | Gets the parent of the Group object. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
-| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
 | [getShowSummary()](#getShowSummary--) | Gets a value indicating whether summary rows are displayed for the group. |
-| [setShowSummary(boolean value)](#setShowSummary-boolean-) | Sets a value indicating whether summary rows are displayed for the group. |
 | [getUid()](#getUid--) | Gets a unique identifier of a group. |
+| [setGroupCriteria(GroupCriterionCollection value)](#setGroupCriteria-com.aspose.tasks.GroupCriterionCollection-) | Sets a GroupCriteria collection representing the fields in a group definition. |
+| [setMaintainHierarchy(boolean value)](#setMaintainHierarchy-boolean-) | Sets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
+| [setName(String value)](#setName-java.lang.String-) | Sets a name of a Group object. |
+| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
+| [setShowSummary(boolean value)](#setShowSummary-boolean-) | Sets a value indicating whether summary rows are displayed for the group. |
 ### Group() {#Group--}
 ```
 public Group()
@@ -54,19 +54,6 @@ Gets a GroupCriteria collection representing the fields in a group definition.
 
 **Returns:**
 [GroupCriterionCollection](../../com.aspose.tasks/groupcriterioncollection) - a GroupCriteria collection representing the fields in a group definition.
-### setGroupCriteria(GroupCriterionCollection value) {#setGroupCriteria-com.aspose.tasks.GroupCriterionCollection-}
-```
-public final void setGroupCriteria(GroupCriterionCollection value)
-```
-
-
-Sets a GroupCriteria collection representing the fields in a group definition.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [GroupCriterionCollection](../../com.aspose.tasks/groupcriterioncollection) | a GroupCriteria collection representing the fields in a group definition. |
-
 ### getIndex() {#getIndex--}
 ```
 public final int getIndex()
@@ -87,19 +74,6 @@ Gets a value indicating whether to show all the levels of summary tasks for subt
 
 **Returns:**
 boolean - a value indicating whether to show all the levels of summary tasks for subtasks within group.
-### setMaintainHierarchy(boolean value) {#setMaintainHierarchy-boolean-}
-```
-public final void setMaintainHierarchy(boolean value)
-```
-
-
-Sets a value indicating whether to show all the levels of summary tasks for subtasks within group.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether to show all the levels of summary tasks for subtasks within group. |
-
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -110,19 +84,6 @@ Gets a name of a Group object.
 
 **Returns:**
 java.lang.String - a name of a Group object.
-### setName(String value) {#setName-java.lang.String-}
-```
-public final void setName(String value)
-```
-
-
-Sets a name of a Group object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | a name of a Group object. |
-
 ### getParentProject() {#getParentProject--}
 ```
 public final Project getParentProject()
@@ -143,6 +104,65 @@ Gets a value indicating whether Project shows the group name in the Group drop-d
 
 **Returns:**
 boolean - a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon.
+### getShowSummary() {#getShowSummary--}
+```
+public final boolean getShowSummary()
+```
+
+
+Gets a value indicating whether summary rows are displayed for the group.
+
+**Returns:**
+boolean - a value indicating whether summary rows are displayed for the group.
+### getUid() {#getUid--}
+```
+public final int getUid()
+```
+
+
+Gets a unique identifier of a group.
+
+**Returns:**
+int - a unique identifier of a group.
+### setGroupCriteria(GroupCriterionCollection value) {#setGroupCriteria-com.aspose.tasks.GroupCriterionCollection-}
+```
+public final void setGroupCriteria(GroupCriterionCollection value)
+```
+
+
+Sets a GroupCriteria collection representing the fields in a group definition.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [GroupCriterionCollection](../../com.aspose.tasks/groupcriterioncollection) | a GroupCriteria collection representing the fields in a group definition. |
+
+### setMaintainHierarchy(boolean value) {#setMaintainHierarchy-boolean-}
+```
+public final void setMaintainHierarchy(boolean value)
+```
+
+
+Sets a value indicating whether to show all the levels of summary tasks for subtasks within group.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether to show all the levels of summary tasks for subtasks within group. |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public final void setName(String value)
+```
+
+
+Sets a name of a Group object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | a name of a Group object. |
+
 ### setShowInMenu(boolean value) {#setShowInMenu-boolean-}
 ```
 public final void setShowInMenu(boolean value)
@@ -156,16 +176,6 @@ Sets a value indicating whether Project shows the group name in the Group drop-d
 | --- | --- | --- |
 | value | boolean | a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
 
-### getShowSummary() {#getShowSummary--}
-```
-public final boolean getShowSummary()
-```
-
-
-Gets a value indicating whether summary rows are displayed for the group.
-
-**Returns:**
-boolean - a value indicating whether summary rows are displayed for the group.
 ### setShowSummary(boolean value) {#setShowSummary-boolean-}
 ```
 public final void setShowSummary(boolean value)
@@ -179,13 +189,3 @@ Sets a value indicating whether summary rows are displayed for the group.
 | --- | --- | --- |
 | value | boolean | a value indicating whether summary rows are displayed for the group. |
 
-### getUid() {#getUid--}
-```
-public final int getUid()
-```
-
-
-Gets a unique identifier of a group.
-
-**Returns:**
-int - a unique identifier of a group.

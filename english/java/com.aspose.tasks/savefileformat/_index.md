@@ -18,49 +18,25 @@ Enumeration for saving project format selection.
 
 | Field | Description |
 | --- | --- |
-| [Mpp](#Mpp) | MPP format. |
-| [Xml](#Xml) | XML format. |
-| [Html](#Html) | HTML format. |
 | [Bmp](#Bmp) | BMP format. |
-| [Png](#Png) | PNG format. |
-| [Jpeg](#Jpeg) | JPEG format. |
-| [Pdf](#Pdf) | PDF format. |
-| [Tiff](#Tiff) | TIFF format. |
-| [Xps](#Xps) | XPS format. |
-| [Xaml](#Xaml) | XAML format. |
-| [Svg](#Svg) | SVG format. |
 | [Csv](#Csv) | CSV format. |
-| [Txt](#Txt) | Text format (tab delimited). |
-| [Spreadsheet2003](#Spreadsheet2003) | Spreadsheet XML (Excel 2003). |
-| [Xlsx](#Xlsx) | OOXML (Office Open XML, Excel 2007+). |
+| [GdHtml](#GdHtml) | Html format for saving project data in a set of html tables. |
+| [Html](#Html) | HTML format. |
+| [Jpeg](#Jpeg) | JPEG format. |
+| [Mpp](#Mpp) | MPP format. |
+| [Mpx](#Mpx) | MPX format. |
+| [Pdf](#Pdf) | PDF format. |
+| [Png](#Png) | PNG format. |
 | [PrimaveraP6Xml](#PrimaveraP6Xml) | Primavera P6 Xml format. |
 | [PrimaveraXer](#PrimaveraXer) | Primavera PM XER format. |
-| [Mpx](#Mpx) | MPX format. |
-| [GdHtml](#GdHtml) | Html format for saving project data in a set of html tables. |
-### Mpp {#Mpp}
-```
-public static final int Mpp
-```
-
-
-MPP format.
-
-### Xml {#Xml}
-```
-public static final int Xml
-```
-
-
-XML format.
-
-### Html {#Html}
-```
-public static final int Html
-```
-
-
-HTML format.
-
+| [Spreadsheet2003](#Spreadsheet2003) | Spreadsheet XML (Excel 2003). |
+| [Svg](#Svg) | SVG format. |
+| [Tiff](#Tiff) | TIFF format. |
+| [Txt](#Txt) | Text format (tab delimited). |
+| [Xaml](#Xaml) | XAML format. |
+| [Xlsx](#Xlsx) | OOXML (Office Open XML, Excel 2007+). |
+| [Xml](#Xml) | XML format. |
+| [Xps](#Xps) | XPS format. |
 ### Bmp {#Bmp}
 ```
 public static final int Bmp
@@ -68,62 +44,6 @@ public static final int Bmp
 
 
 BMP format.
-
-### Png {#Png}
-```
-public static final int Png
-```
-
-
-PNG format.
-
-### Jpeg {#Jpeg}
-```
-public static final int Jpeg
-```
-
-
-JPEG format.
-
-### Pdf {#Pdf}
-```
-public static final int Pdf
-```
-
-
-PDF format.
-
-### Tiff {#Tiff}
-```
-public static final int Tiff
-```
-
-
-TIFF format.
-
-### Xps {#Xps}
-```
-public static final int Xps
-```
-
-
-XPS format.
-
-### Xaml {#Xaml}
-```
-public static final int Xaml
-```
-
-
-XAML format.
-
-### Svg {#Svg}
-```
-public static final int Svg
-```
-
-
-SVG format.
 
 ### Csv {#Csv}
 ```
@@ -133,29 +53,61 @@ public static final int Csv
 
 CSV format.
 
-### Txt {#Txt}
+### GdHtml {#GdHtml}
 ```
-public static final int Txt
-```
-
-
-Text format (tab delimited).
-
-### Spreadsheet2003 {#Spreadsheet2003}
-```
-public static final int Spreadsheet2003
+public static final int GdHtml
 ```
 
 
-Spreadsheet XML (Excel 2003).
+Html format for saving project data in a set of html tables.
 
-### Xlsx {#Xlsx}
+### Html {#Html}
 ```
-public static final int Xlsx
+public static final int Html
 ```
 
 
-OOXML (Office Open XML, Excel 2007+).
+HTML format.
+
+### Jpeg {#Jpeg}
+```
+public static final int Jpeg
+```
+
+
+JPEG format.
+
+### Mpp {#Mpp}
+```
+public static final int Mpp
+```
+
+
+MPP format.
+
+### Mpx {#Mpx}
+```
+public static final int Mpx
+```
+
+
+MPX format.
+
+### Pdf {#Pdf}
+```
+public static final int Pdf
+```
+
+
+PDF format.
+
+### Png {#Png}
+```
+public static final int Png
+```
+
+
+PNG format.
 
 ### PrimaveraP6Xml {#PrimaveraP6Xml}
 ```
@@ -173,19 +125,67 @@ public static final int PrimaveraXer
 
 Primavera PM XER format.
 
-### Mpx {#Mpx}
+### Spreadsheet2003 {#Spreadsheet2003}
 ```
-public static final int Mpx
-```
-
-
-MPX format.
-
-### GdHtml {#GdHtml}
-```
-public static final int GdHtml
+public static final int Spreadsheet2003
 ```
 
 
-Html format for saving project data in a set of html tables.
+Spreadsheet XML (Excel 2003).
+
+### Svg {#Svg}
+```
+public static final int Svg
+```
+
+
+SVG format.
+
+### Tiff {#Tiff}
+```
+public static final int Tiff
+```
+
+
+TIFF format.
+
+### Txt {#Txt}
+```
+public static final int Txt
+```
+
+
+Text format (tab delimited).
+
+### Xaml {#Xaml}
+```
+public static final int Xaml
+```
+
+
+XAML format.
+
+### Xlsx {#Xlsx}
+```
+public static final int Xlsx
+```
+
+
+OOXML (Office Open XML, Excel 2007+).
+
+### Xml {#Xml}
+```
+public static final int Xml
+```
+
+
+XML format.
+
+### Xps {#Xps}
+```
+public static final int Xps
+```
+
+
+XPS format.
 

@@ -25,12 +25,12 @@ Defines the criteria that tasks or resources must meet to be displayed in MSP vi
 | --- | --- |
 | [getCriteriaRows()](#getCriteriaRows--) | Gets the list of child [FilterCriteria](../../com.aspose.tasks/filtercriteria) rows. |
 | [getField()](#getField--) | Gets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
-| [setField(int value)](#setField-int-) | Sets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
 | [getOperation()](#getOperation--) | Gets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
-| [setOperation(int value)](#setOperation-int-) | Sets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
 | [getTest()](#getTest--) | Gets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
-| [setTest(int value)](#setTest-int-) | Sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
 | [getValues()](#getValues--) | Gets the object values to compare with the value of the field specified with FieldName. |
+| [setField(int value)](#setField-int-) | Sets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
+| [setOperation(int value)](#setOperation-int-) | Sets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
+| [setTest(int value)](#setTest-int-) | Sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
 | [toString()](#toString--) | Returns string representation of the instance of the [FilterCriteria](../../com.aspose.tasks/filtercriteria) class. |
 ### FilterCriteria() {#FilterCriteria--}
 ```
@@ -58,6 +58,36 @@ Gets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[
 
 **Returns:**
 int - a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change.
+### getOperation() {#getOperation--}
+```
+public final int getOperation()
+```
+
+
+Gets the criterion established with FieldName, Test, and Value relates to other criteria in the filter.
+
+**Returns:**
+int - the criterion established with FieldName, Test, and Value relates to other criteria in the filter.
+### getTest() {#getTest--}
+```
+public final int getTest()
+```
+
+
+Gets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. [FilterComparisonType](../../com.aspose.tasks/filtercomparisontype)
+
+**Returns:**
+int - the type of comparison made between FieldName and Value that acts as selection criteria for the filter.
+### getValues() {#getValues--}
+```
+public final Object[] getValues()
+```
+
+
+Gets the object values to compare with the value of the field specified with FieldName.
+
+**Returns:**
+java.lang.Object[] - the object values to compare with the value of the field specified with FieldName.
 ### setField(int value) {#setField-int-}
 ```
 public final void setField(int value)
@@ -71,16 +101,6 @@ Sets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[
 | --- | --- | --- |
 | value | int | a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
 
-### getOperation() {#getOperation--}
-```
-public final int getOperation()
-```
-
-
-Gets the criterion established with FieldName, Test, and Value relates to other criteria in the filter.
-
-**Returns:**
-int - the criterion established with FieldName, Test, and Value relates to other criteria in the filter.
 ### setOperation(int value) {#setOperation-int-}
 ```
 public final void setOperation(int value)
@@ -94,16 +114,6 @@ Sets the criterion established with FieldName, Test, and Value relates to other 
 | --- | --- | --- |
 | value | int | the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
 
-### getTest() {#getTest--}
-```
-public final int getTest()
-```
-
-
-Gets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. [FilterComparisonType](../../com.aspose.tasks/filtercomparisontype)
-
-**Returns:**
-int - the type of comparison made between FieldName and Value that acts as selection criteria for the filter.
 ### setTest(int value) {#setTest-int-}
 ```
 public final void setTest(int value)
@@ -117,16 +127,6 @@ Sets the type of comparison made between FieldName and Value that acts as select
 | --- | --- | --- |
 | value | int | the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
 
-### getValues() {#getValues--}
-```
-public final Object[] getValues()
-```
-
-
-Gets the object values to compare with the value of the field specified with FieldName.
-
-**Returns:**
-java.lang.Object[] - the object values to compare with the value of the field specified with FieldName.
 ### toString() {#toString--}
 ```
 public String toString()

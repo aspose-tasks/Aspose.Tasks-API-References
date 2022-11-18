@@ -21,8 +21,8 @@ Represents a collection of [Baseline](../../com.aspose.tasks/baseline) objects.
 | [add(Baseline item)](#add-com.aspose.tasks.Baseline-) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
 | [get(int index)](#get-int-) | Returns the baseline at the specified position. |
 | [getParentResource()](#getParentResource--) | Gets the parent [Resource](../../com.aspose.tasks/resource) for this collection. |
-| [remove(Object item)](#remove-java.lang.Object-) | Removes baseline from this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
+| [remove(Object item)](#remove-java.lang.Object-) | Removes baseline from this collection. |
 | [size()](#size--) | Gets the number of objects contained in this BaselineCollection object. |
 | [toList()](#toList--) | Converts the BaselineCollection object to a list of [Baseline](../../com.aspose.tasks/baseline) objects. |
 ### add(Baseline item) {#add-com.aspose.tasks.Baseline-}
@@ -65,21 +65,6 @@ Gets the parent [Resource](../../com.aspose.tasks/resource) for this collection.
 
 **Returns:**
 [Resource](../../com.aspose.tasks/resource) - the parent [Resource](../../com.aspose.tasks/resource) for this collection.
-### remove(Object item) {#remove-java.lang.Object-}
-```
-public final boolean remove(Object item)
-```
-
-
-Removes baseline from this collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| item | java.lang.Object | [Baseline](../../com.aspose.tasks/baseline) instance to remove. |
-
-**Returns:**
-boolean - true if [Baseline](../../com.aspose.tasks/baseline) instance has been removed successfully; otherwise, false
 ### remove(int index) {#remove-int-}
 ```
 public Baseline remove(int index)
@@ -95,6 +80,21 @@ Removes the element at the specified position in this list.
 
 **Returns:**
 [Baseline](../../com.aspose.tasks/baseline) - \{@inheritDoc\}
+### remove(Object item) {#remove-java.lang.Object-}
+```
+public final boolean remove(Object item)
+```
+
+
+Removes baseline from this collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | java.lang.Object | [Baseline](../../com.aspose.tasks/baseline) instance to remove. |
+
+**Returns:**
+boolean - true if [Baseline](../../com.aspose.tasks/baseline) instance has been removed successfully; otherwise, false
 ### size() {#size--}
 ```
 public final int size()

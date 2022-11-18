@@ -18,34 +18,18 @@ Specifies the type of an element.
 
 | Field | Description |
 | --- | --- |
-| [Null](#Null) | Indicates Null element type. |
-| [Task](#Task) | Indicates Task element type. |
-| [Resource](#Resource) | Indicates Resource element type. |
-| [Calendar](#Calendar) | Indicates Calendar element type. |
 | [Assignment](#Assignment) | Indicates Assignment element type. |
-### Null {#Null}
+| [Calendar](#Calendar) | Indicates Calendar element type. |
+| [Null](#Null) | Indicates Null element type. |
+| [Resource](#Resource) | Indicates Resource element type. |
+| [Task](#Task) | Indicates Task element type. |
+### Assignment {#Assignment}
 ```
-public static final int Null
-```
-
-
-Indicates Null element type.
-
-### Task {#Task}
-```
-public static final int Task
+public static final int Assignment
 ```
 
 
-Indicates Task element type.
-
-### Resource {#Resource}
-```
-public static final int Resource
-```
-
-
-Indicates Resource element type.
+Indicates Assignment element type.
 
 ### Calendar {#Calendar}
 ```
@@ -55,11 +39,27 @@ public static final int Calendar
 
 Indicates Calendar element type.
 
-### Assignment {#Assignment}
+### Null {#Null}
 ```
-public static final int Assignment
+public static final int Null
 ```
 
 
-Indicates Assignment element type.
+Indicates Null element type.
+
+### Resource {#Resource}
+```
+public static final int Resource
+```
+
+
+Indicates Resource element type.
+
+### Task {#Task}
+```
+public static final int Task
+```
+
+
+Indicates Task element type.
 

@@ -19,8 +19,8 @@ Specifies the type of a workgroup.
 | Field | Description |
 | --- | --- |
 | [Default](#Default) | Indicates Default work group type. |
-| [None](#None) | Indicates None work group type. |
 | [Email](#Email) | Indicates Email work group type. |
+| [None](#None) | Indicates None work group type. |
 | [Web](#Web) | Indicates Web work group type. |
 ### Default {#Default}
 ```
@@ -30,14 +30,6 @@ public static final int Default
 
 Indicates Default work group type.
 
-### None {#None}
-```
-public static final int None
-```
-
-
-Indicates None work group type.
-
 ### Email {#Email}
 ```
 public static final int Email
@@ -45,6 +37,14 @@ public static final int Email
 
 
 Indicates Email work group type.
+
+### None {#None}
+```
+public static final int None
+```
+
+
+Indicates None work group type.
 
 ### Web {#Web}
 ```

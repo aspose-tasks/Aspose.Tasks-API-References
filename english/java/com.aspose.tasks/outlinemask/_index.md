@@ -24,12 +24,12 @@ Represents four elements of a mask which defines an outline code format.
 | Method | Description |
 | --- | --- |
 | [getLength()](#getLength--) | Gets the maximum length (in characters) of the outline code values. 0 if length is not defined. |
-| [setLength(int value)](#setLength-int-) | Sets the maximum length (in characters) of the outline code values. 0 if length is not defined. |
 | [getLevel()](#getLevel--) | Gets the level of a mask. |
-| [setLevel(int value)](#setLevel-int-) | Sets the level of a mask. |
 | [getSeparator()](#getSeparator--) | Gets the separator of code values. |
-| [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets the separator of code values. |
 | [getType()](#getType--) | Gets the type of a mask. |
+| [setLength(int value)](#setLength-int-) | Sets the maximum length (in characters) of the outline code values. 0 if length is not defined. |
+| [setLevel(int value)](#setLevel-int-) | Sets the level of a mask. |
+| [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets the separator of code values. |
 | [setType(int value)](#setType-int-) | Sets the type of a mask. |
 ### OutlineMask() {#OutlineMask--}
 ```
@@ -49,6 +49,36 @@ Gets the maximum length (in characters) of the outline code values. 0 if length 
 
 **Returns:**
 int - the maximum length (in characters) of the outline code values.
+### getLevel() {#getLevel--}
+```
+public final int getLevel()
+```
+
+
+Gets the level of a mask.
+
+**Returns:**
+int - the level of a mask.
+### getSeparator() {#getSeparator--}
+```
+public final String getSeparator()
+```
+
+
+Gets the separator of code values.
+
+**Returns:**
+java.lang.String - the separator of code values.
+### getType() {#getType--}
+```
+public final int getType()
+```
+
+
+Gets the type of a mask.
+
+**Returns:**
+int - the type of a mask.
 ### setLength(int value) {#setLength-int-}
 ```
 public final void setLength(int value)
@@ -62,16 +92,6 @@ Sets the maximum length (in characters) of the outline code values. 0 if length 
 | --- | --- | --- |
 | value | int | the maximum length (in characters) of the outline code values. |
 
-### getLevel() {#getLevel--}
-```
-public final int getLevel()
-```
-
-
-Gets the level of a mask.
-
-**Returns:**
-int - the level of a mask.
 ### setLevel(int value) {#setLevel-int-}
 ```
 public final void setLevel(int value)
@@ -85,16 +105,6 @@ Sets the level of a mask.
 | --- | --- | --- |
 | value | int | the level of a mask. |
 
-### getSeparator() {#getSeparator--}
-```
-public final String getSeparator()
-```
-
-
-Gets the separator of code values.
-
-**Returns:**
-java.lang.String - the separator of code values.
 ### setSeparator(String value) {#setSeparator-java.lang.String-}
 ```
 public final void setSeparator(String value)
@@ -108,16 +118,6 @@ Sets the separator of code values.
 | --- | --- | --- |
 | value | java.lang.String | the separator of code values. |
 
-### getType() {#getType--}
-```
-public final int getType()
-```
-
-
-Gets the type of a mask.
-
-**Returns:**
-int - the type of a mask.
 ### setType(int value) {#setType-int-}
 ```
 public final void setType(int value)

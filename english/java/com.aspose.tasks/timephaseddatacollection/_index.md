@@ -28,13 +28,13 @@ Represents a collection of [TimephasedData](../../com.aspose.tasks/timephaseddat
 | [clear()](#clear--) | Removes all items from the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection). |
 | [containsItem(TimephasedData item)](#containsItem-com.aspose.tasks.TimephasedData-) | Determines whether the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) contains a specific value. |
 | [copyToTArray(TimephasedData[] array, int arrayIndex)](#copyToTArray-com.aspose.tasks.TimephasedData---int-) | Copies the elements of the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) to an Array, starting at a particular Array index. |
-| [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the  System.Collections.Generic.ICollection\{T\}  is read-only. |
+| [get(int index)](#get-int-) | \{@inheritDoc\} |
+| [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the System.Collections.Generic.ICollection&lt;T&gt; is read-only. |
 | [iterator()](#iterator--) | Returns an iterator for this collection. |
 | [remove(TimephasedData item)](#remove-com.aspose.tasks.TimephasedData-) | Removes [TimephasedData](../../com.aspose.tasks/timephaseddata) instance from this collection object. |
 | [selectBetweenStartAndFinish(int timephasedDataType, Date startTime, Date finishTime)](#selectBetweenStartAndFinish-int-java.util.Date-java.util.Date-) | Selects all time phases between  startTime  and  finishTime . |
 | [size()](#size--) | Gets the number of objects contained in this [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object. |
 | [toList()](#toList--) | Converts the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object to a list of [TimephasedData](../../com.aspose.tasks/timephaseddata) objects. |
-| [get(int index)](#get-int-) | \{@inheritDoc\} |
 ### TimephasedDataCollection() {#TimephasedDataCollection--}
 ```
 public TimephasedDataCollection()
@@ -108,16 +108,31 @@ Copies the elements of the [TimephasedDataCollection](../../com.aspose.tasks/tim
 | array | [TimephasedData\[\]](../../com.aspose.tasks/timephaseddata) | The one-dimensional Array that is the destination of the elements copied from [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in  array  at which copying begins. |
 
+### get(int index) {#get-int-}
+```
+public TimephasedData get(int index)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[TimephasedData](../../com.aspose.tasks/timephaseddata) - \{@inheritDoc\}
 ### isReadOnly() {#isReadOnly--}
 ```
 public final boolean isReadOnly()
 ```
 
 
-Gets a value indicating whether the  System.Collections.Generic.ICollection\{T\}  is read-only.
+Gets a value indicating whether the System.Collections.Generic.ICollection&lt;T&gt; is read-only.
 
 **Returns:**
-boolean - true if the  System.Collections.Generic.ICollection\{T\}  is read-only; otherwise, false.
+boolean - true if the System.Collections.Generic.ICollection&lt;T&gt; is read-only; otherwise, false.
 ### iterator() {#iterator--}
 ```
 public final Iterator<TimephasedData> iterator()
@@ -180,18 +195,3 @@ Converts the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacol
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.TimephasedData&gt; - List of [TimephasedData](../../com.aspose.tasks/timephaseddata) objects.
-### get(int index) {#get-int-}
-```
-public TimephasedData get(int index)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[TimephasedData](../../com.aspose.tasks/timephaseddata) - \{@inheritDoc\}

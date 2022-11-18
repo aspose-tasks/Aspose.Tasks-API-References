@@ -22,17 +22,17 @@ Represents a collection of [WorkingTimeCollection](../../com.aspose.tasks/workin
 | Method | Description |
 | --- | --- |
 | [add(WorkingTime e)](#add-com.aspose.tasks.WorkingTime-) | \{@inheritDoc\} |
+| [add(int index, WorkingTime element)](#add-int-com.aspose.tasks.WorkingTime-) | Inserts the specified element at the specified position in this list. |
 | [clear()](#clear--) | Removes all [WorkingTime](../../com.aspose.tasks/workingtime) items from collection. |
 | [contains(Object item)](#contains-java.lang.Object-) | Checks if the specified element is in the List. |
+| [get(int index)](#get-int-) | (@inheritDoc\} |
 | [indexOf(WorkingTime item)](#indexOf-com.aspose.tasks.WorkingTime-) | Returns the index of the first occurrence of a given item in a list |
 | [insert(int index, WorkingTime item)](#insert-int-com.aspose.tasks.WorkingTime-) | Inserts an element into this list at a given index |
+| [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes  WorkingTime  instance from this collection. |
 | [size()](#size--) | Gets the number of objects contained in this [WorkingTimeCollection](../../com.aspose.tasks/workingtimecollection) object. |
 | [sort(Comparator&lt;? super WorkingTime&gt; c)](#sort-java.util.Comparator---super-com.aspose.tasks.WorkingTime--) | \{@inheritDoc\} |
 | [toList()](#toList--) | Converts the WorkingTimeCollection object to a list of [WorkingTime](../../com.aspose.tasks/workingtime) objects. |
-| [add(int index, WorkingTime element)](#add-int-com.aspose.tasks.WorkingTime-) | Inserts the specified element at the specified position in this list. |
-| [get(int index)](#get-int-) | (@inheritDoc\} |
-| [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
 ### add(WorkingTime e) {#add-com.aspose.tasks.WorkingTime-}
 ```
 public final boolean add(WorkingTime e)
@@ -48,6 +48,20 @@ public final boolean add(WorkingTime e)
 
 **Returns:**
 boolean - \{@inheritDoc\}
+### add(int index, WorkingTime element) {#add-int-com.aspose.tasks.WorkingTime-}
+```
+public void add(int index, WorkingTime element)
+```
+
+
+Inserts the specified element at the specified position in this list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+| element | [WorkingTime](../../com.aspose.tasks/workingtime) | \{@inheritDoc\} |
+
 ### clear() {#clear--}
 ```
 public final void clear()
@@ -71,6 +85,21 @@ Checks if the specified element is in the List. Performs a linear O(n) search.
 
 **Returns:**
 boolean - True, if specified element found in the list, false otherwise.
+### get(int index) {#get-int-}
+```
+public WorkingTime get(int index)
+```
+
+
+(@inheritDoc\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[WorkingTime](../../com.aspose.tasks/workingtime) - \{@inheritDoc\}
 ### indexOf(WorkingTime item) {#indexOf-com.aspose.tasks.WorkingTime-}
 ```
 public final int indexOf(WorkingTime item)
@@ -100,6 +129,21 @@ Inserts an element into this list at a given index
 | index | int | an index to insert to |
 | item | [WorkingTime](../../com.aspose.tasks/workingtime) | an element to insert |
 
+### remove(int index) {#remove-int-}
+```
+public WorkingTime remove(int index)
+```
+
+
+Removes the element at the specified position in this list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[WorkingTime](../../com.aspose.tasks/workingtime) - \{@inheritDoc\}
 ### remove(Object item) {#remove-java.lang.Object-}
 ```
 public final boolean remove(Object item)
@@ -148,47 +192,3 @@ Converts the WorkingTimeCollection object to a list of [WorkingTime](../../com.a
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.WorkingTime&gt; - List of [WorkingTime](../../com.aspose.tasks/workingtime) objects.
-### add(int index, WorkingTime element) {#add-int-com.aspose.tasks.WorkingTime-}
-```
-public void add(int index, WorkingTime element)
-```
-
-
-Inserts the specified element at the specified position in this list.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-| element | [WorkingTime](../../com.aspose.tasks/workingtime) | \{@inheritDoc\} |
-
-### get(int index) {#get-int-}
-```
-public WorkingTime get(int index)
-```
-
-
-(@inheritDoc\}
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[WorkingTime](../../com.aspose.tasks/workingtime) - \{@inheritDoc\}
-### remove(int index) {#remove-int-}
-```
-public WorkingTime remove(int index)
-```
-
-
-Removes the element at the specified position in this list.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[WorkingTime](../../com.aspose.tasks/workingtime) - \{@inheritDoc\}

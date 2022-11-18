@@ -19,11 +19,12 @@ Represents a collection of [Resource](../../com.aspose.tasks/resource) objects.
 | Method | Description |
 | --- | --- |
 | [add()](#add--) | Adds new resource at the last position of a project resources collection. |
+| [add(Resource e)](#add-com.aspose.tasks.Resource-) | \{@inheritDoc\} |
 | [add(String resourceName)](#add-java.lang.String-) | Adds new resource at the last position of a project resources collection. |
 | [add(String resourceName, int beforeResourceId)](#add-java.lang.String-int-) | Adds new resource at the specified position of a project resources collection. |
-| [add(Resource e)](#add-com.aspose.tasks.Resource-) | \{@inheritDoc\} |
 | [clear()](#clear--) | Direct clearing is not supported, this method just throw UnsupportedOperationException. |
 | [contains(Object o)](#contains-java.lang.Object-) | \{@inheritDoc\} |
+| [get(int index)](#get-int-) | (@inheritDoc\} |
 | [getById(int id)](#getById-int-) | Returns a resource with the specified id. |
 | [getByUid(int uid)](#getByUid-int-) | Returns a resource with the specified Uid. |
 | [getParentProject()](#getParentProject--) | Gets the parent project of the ResourceCollection object. |
@@ -34,7 +35,6 @@ Represents a collection of [Resource](../../com.aspose.tasks/resource) objects.
 | [size()](#size--) | Gets the number of elements contained in the ResourceCollection. |
 | [sort(Comparator&lt;? super Resource&gt; comparer)](#sort-java.util.Comparator---super-com.aspose.tasks.Resource--) | \{@inheritDoc\} |
 | [toList()](#toList--) | Converts the ResourceCollection object to a list of [Resource](../../com.aspose.tasks/resource) objects. |
-| [get(int index)](#get-int-) | (@inheritDoc\} |
 ### add() {#add--}
 ```
 public final Resource add()
@@ -45,6 +45,21 @@ Adds new resource at the last position of a project resources collection.
 
 **Returns:**
 [Resource](../../com.aspose.tasks/resource) - Added resource.
+### add(Resource e) {#add-com.aspose.tasks.Resource-}
+```
+public final boolean add(Resource e)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| e | [Resource](../../com.aspose.tasks/resource) | \{@inheritDoc\} |
+
+**Returns:**
+boolean - \{@inheritDoc\}
 ### add(String resourceName) {#add-java.lang.String-}
 ```
 public final Resource add(String resourceName)
@@ -76,21 +91,6 @@ Adds new resource at the specified position of a project resources collection.
 
 **Returns:**
 [Resource](../../com.aspose.tasks/resource) - Added resource.
-### add(Resource e) {#add-com.aspose.tasks.Resource-}
-```
-public final boolean add(Resource e)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| e | [Resource](../../com.aspose.tasks/resource) | \{@inheritDoc\} |
-
-**Returns:**
-boolean - \{@inheritDoc\}
 ### clear() {#clear--}
 ```
 public final void clear()
@@ -114,6 +114,21 @@ public final boolean contains(Object o)
 
 **Returns:**
 boolean - \{@inheritDoc\}
+### get(int index) {#get-int-}
+```
+public Resource get(int index)
+```
+
+
+(@inheritDoc\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[Resource](../../com.aspose.tasks/resource) - \{@inheritDoc\}
 ### getById(int id) {#getById-int-}
 ```
 public final Resource getById(int id)
@@ -249,18 +264,3 @@ Converts the ResourceCollection object to a list of [Resource](../../com.aspose.
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.Resource&gt; - List of [Resource](../../com.aspose.tasks/resource) objects.
-### get(int index) {#get-int-}
-```
-public Resource get(int index)
-```
-
-
-(@inheritDoc\}
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[Resource](../../com.aspose.tasks/resource) - \{@inheritDoc\}

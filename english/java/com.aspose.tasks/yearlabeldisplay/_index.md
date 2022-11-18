@@ -19,8 +19,8 @@ Specifies how the year label displays.
 | Field | Description |
 | --- | --- |
 | [Y](#Y) | Sets the Years list in MS Project as mo. |
-| [Yr](#Yr) | Sets the Years list in MS Project as mon. |
 | [Year](#Year) | Sets the Years list in MS Project as month. |
+| [Yr](#Yr) | Sets the Years list in MS Project as mon. |
 ### Y {#Y}
 ```
 public static final int Y
@@ -29,14 +29,6 @@ public static final int Y
 
 Sets the Years list in MS Project as mo.
 
-### Yr {#Yr}
-```
-public static final int Yr
-```
-
-
-Sets the Years list in MS Project as mon.
-
 ### Year {#Year}
 ```
 public static final int Year
@@ -44,4 +36,12 @@ public static final int Year
 
 
 Sets the Years list in MS Project as month.
+
+### Yr {#Yr}
+```
+public static final int Yr
+```
+
+
+Sets the Years list in MS Project as mon.
 

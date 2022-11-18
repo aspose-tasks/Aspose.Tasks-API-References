@@ -22,18 +22,26 @@ While exporting into XML the Undefined values will be eliminated from resulting 
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Indicates undefined value means that the field was not defined in original project file. |
-| [Before](#Before) | Indicates Before currency symbol position type. |
 | [After](#After) | Indicates After currency symbol position type. |
-| [BeforeWithSpace](#BeforeWithSpace) | Indicates BeforeWithSpace currency symbol position type. |
 | [AfterWithSpace](#AfterWithSpace) | Indicates AfterWithSpace currency symbol position type. |
-### Undefined {#Undefined}
+| [Before](#Before) | Indicates Before currency symbol position type. |
+| [BeforeWithSpace](#BeforeWithSpace) | Indicates BeforeWithSpace currency symbol position type. |
+| [Undefined](#Undefined) | Indicates undefined value means that the field was not defined in original project file. |
+### After {#After}
 ```
-public static final int Undefined
+public static final int After
 ```
 
 
-Indicates undefined value means that the field was not defined in original project file.
+Indicates After currency symbol position type.
+
+### AfterWithSpace {#AfterWithSpace}
+```
+public static final int AfterWithSpace
+```
+
+
+Indicates AfterWithSpace currency symbol position type.
 
 ### Before {#Before}
 ```
@@ -43,14 +51,6 @@ public static final int Before
 
 Indicates Before currency symbol position type.
 
-### After {#After}
-```
-public static final int After
-```
-
-
-Indicates After currency symbol position type.
-
 ### BeforeWithSpace {#BeforeWithSpace}
 ```
 public static final int BeforeWithSpace
@@ -59,11 +59,11 @@ public static final int BeforeWithSpace
 
 Indicates BeforeWithSpace currency symbol position type.
 
-### AfterWithSpace {#AfterWithSpace}
+### Undefined {#Undefined}
 ```
-public static final int AfterWithSpace
+public static final int Undefined
 ```
 
 
-Indicates AfterWithSpace currency symbol position type.
+Indicates undefined value means that the field was not defined in original project file.
 

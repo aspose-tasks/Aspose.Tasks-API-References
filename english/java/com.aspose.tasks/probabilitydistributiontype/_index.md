@@ -18,16 +18,8 @@ Specifies types of supported probability distributions.
 
 | Field | Description |
 | --- | --- |
-| [Uniform](#Uniform) | The distribution when every value is chosen with equal probability. |
 | [Normal](#Normal) | The distribution which is sometimes informally called the bell curve (Gaussian distribution). |
-### Uniform {#Uniform}
-```
-public static final int Uniform
-```
-
-
-The distribution when every value is chosen with equal probability.
-
+| [Uniform](#Uniform) | The distribution when every value is chosen with equal probability. |
 ### Normal {#Normal}
 ```
 public static final int Normal
@@ -35,4 +27,12 @@ public static final int Normal
 
 
 The distribution which is sometimes informally called the bell curve (Gaussian distribution).
+
+### Uniform {#Uniform}
+```
+public static final int Uniform
+```
+
+
+The distribution when every value is chosen with equal probability.
 

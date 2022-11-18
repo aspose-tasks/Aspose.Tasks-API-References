@@ -18,10 +18,18 @@ Specifies sequence for WBSCodeMask
 
 | Field | Description |
 | --- | --- |
+| [OrderedLowercaseLetters](#OrderedLowercaseLetters) | Indicates Lowercase letters WBS sequence. |
 | [OrderedNumbers](#OrderedNumbers) | Indicates Numbers WBS sequence. |
 | [OrderedUppercaseLetters](#OrderedUppercaseLetters) | Indicates Uppercase letters WBS sequence. |
-| [OrderedLowercaseLetters](#OrderedLowercaseLetters) | Indicates Lowercase letters WBS sequence. |
 | [UnorderedCharacters](#UnorderedCharacters) | Indicates Unordered characters WBS sequence. |
+### OrderedLowercaseLetters {#OrderedLowercaseLetters}
+```
+public static final int OrderedLowercaseLetters
+```
+
+
+Indicates Lowercase letters WBS sequence.
+
 ### OrderedNumbers {#OrderedNumbers}
 ```
 public static final int OrderedNumbers
@@ -37,14 +45,6 @@ public static final int OrderedUppercaseLetters
 
 
 Indicates Uppercase letters WBS sequence.
-
-### OrderedLowercaseLetters {#OrderedLowercaseLetters}
-```
-public static final int OrderedLowercaseLetters
-```
-
-
-Indicates Lowercase letters WBS sequence.
 
 ### UnorderedCharacters {#UnorderedCharacters}
 ```

@@ -18,13 +18,14 @@ Represents a collection of [Task](../../com.aspose.tasks/task) objects.
 
 | Method | Description |
 | --- | --- |
-| [add(Task item)](#add-com.aspose.tasks.Task-) | Add the specified task to the instance of the [TaskCollection](../../com.aspose.tasks/taskcollection) class. |
 | [add()](#add--) | Adds new task to project tasks collection on the same outline level of the last task. |
+| [add(RecurringTaskParameters parameters)](#add-com.aspose.tasks.RecurringTaskParameters-) | Inserts a new task before a task with the specified id and on the same outline level. |
+| [add(Task item)](#add-com.aspose.tasks.Task-) | Add the specified task to the instance of the [TaskCollection](../../com.aspose.tasks/taskcollection) class. |
 | [add(String taskName)](#add-java.lang.String-) | Adds a new task to children tasks collection. |
 | [add(String taskName, int beforeTaskId)](#add-java.lang.String-int-) | Adds a new recurring task to children tasks collection. |
-| [add(RecurringTaskParameters parameters)](#add-com.aspose.tasks.RecurringTaskParameters-) | Inserts a new task before a task with the specified id and on the same outline level. |
 | [clear()](#clear--) | \{@inheritDoc\} |
 | [contains(Task item)](#contains-com.aspose.tasks.Task-) | Checks if collection contains specified item. |
+| [get(int index)](#get-int-) | (@inheritDoc\} |
 | [getById(int id)](#getById-int-) | Returns a task with the specified Id whose ancestor is parent task of this collection . |
 | [getByUid(int uid)](#getByUid-int-) | Returns a task with the specified Uid whose ancestor is parent task of this collection . |
 | [getParentProject()](#getParentProject--) | Gets the parent project of the TaskCollection object. |
@@ -35,7 +36,31 @@ Represents a collection of [Task](../../com.aspose.tasks/task) objects.
 | [size()](#size--) | Gets the number of objects contained in the TaskCollection. |
 | [sort(Comparator&lt;? super Task&gt; c)](#sort-java.util.Comparator---super-com.aspose.tasks.Task--) | \{@inheritDoc\} |
 | [toList()](#toList--) | Converts the TaskCollection object to a list of [Task](../../com.aspose.tasks/task) objects. |
-| [get(int index)](#get-int-) | (@inheritDoc\} |
+### add() {#add--}
+```
+public final Task add()
+```
+
+
+Adds new task to project tasks collection on the same outline level of the last task.
+
+**Returns:**
+[Task](../../com.aspose.tasks/task) - returns the newly added instance of the [Task](../../com.aspose.tasks/task) class.
+### add(RecurringTaskParameters parameters) {#add-com.aspose.tasks.RecurringTaskParameters-}
+```
+public final Task add(RecurringTaskParameters parameters)
+```
+
+
+Inserts a new task before a task with the specified id and on the same outline level.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | [RecurringTaskParameters](../../com.aspose.tasks/recurringtaskparameters) | The parameters the specified parameters for creation of recurring task. |
+
+**Returns:**
+[Task](../../com.aspose.tasks/task) - returns the newly added instance of the [Task](../../com.aspose.tasks/task) class.
 ### add(Task item) {#add-com.aspose.tasks.Task-}
 ```
 public final boolean add(Task item)
@@ -51,16 +76,6 @@ Add the specified task to the instance of the [TaskCollection](../../com.aspose.
 
 **Returns:**
 boolean - true if operation was successful.
-### add() {#add--}
-```
-public final Task add()
-```
-
-
-Adds new task to project tasks collection on the same outline level of the last task.
-
-**Returns:**
-[Task](../../com.aspose.tasks/task) - returns the newly added instance of the [Task](../../com.aspose.tasks/task) class.
 ### add(String taskName) {#add-java.lang.String-}
 ```
 public final Task add(String taskName)
@@ -92,21 +107,6 @@ Adds a new recurring task to children tasks collection.
 
 **Returns:**
 [Task](../../com.aspose.tasks/task) - returns a task which was inserted before a task with the specified id.
-### add(RecurringTaskParameters parameters) {#add-com.aspose.tasks.RecurringTaskParameters-}
-```
-public final Task add(RecurringTaskParameters parameters)
-```
-
-
-Inserts a new task before a task with the specified id and on the same outline level.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parameters | [RecurringTaskParameters](../../com.aspose.tasks/recurringtaskparameters) | The parameters the specified parameters for creation of recurring task. |
-
-**Returns:**
-[Task](../../com.aspose.tasks/task) - returns the newly added instance of the [Task](../../com.aspose.tasks/task) class.
 ### clear() {#clear--}
 ```
 public final void clear()
@@ -130,6 +130,21 @@ Checks if collection contains specified item.
 
 **Returns:**
 boolean - true, if collection contains an item, false otherwise.
+### get(int index) {#get-int-}
+```
+public Task get(int index)
+```
+
+
+(@inheritDoc\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[Task](../../com.aspose.tasks/task) - \{@inheritDoc\}
 ### getById(int id) {#getById-int-}
 ```
 public final Task getById(int id)
@@ -253,18 +268,3 @@ Converts the TaskCollection object to a list of [Task](../../com.aspose.tasks/ta
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.Task&gt; - returns a list which contains the [Task](../../com.aspose.tasks/task) class instances of this collection.
-### get(int index) {#get-int-}
-```
-public Task get(int index)
-```
-
-
-(@inheritDoc\}
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[Task](../../com.aspose.tasks/task) - \{@inheritDoc\}

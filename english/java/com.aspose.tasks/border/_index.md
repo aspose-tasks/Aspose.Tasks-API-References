@@ -18,17 +18,9 @@ Specifies the border types.
 
 | Field | Description |
 | --- | --- |
-| [NoBorder](#NoBorder) | No border. |
 | [AroundEveryPage](#AroundEveryPage) | Around every page. |
+| [NoBorder](#NoBorder) | No border. |
 | [OutsidePages](#OutsidePages) | On the outside pages. |
-### NoBorder {#NoBorder}
-```
-public static final int NoBorder
-```
-
-
-No border.
-
 ### AroundEveryPage {#AroundEveryPage}
 ```
 public static final int AroundEveryPage
@@ -36,6 +28,14 @@ public static final int AroundEveryPage
 
 
 Around every page.
+
+### NoBorder {#NoBorder}
+```
+public static final int NoBorder
+```
+
+
+No border.
 
 ### OutsidePages {#OutsidePages}
 ```

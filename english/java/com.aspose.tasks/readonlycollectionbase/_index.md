@@ -21,15 +21,15 @@ Represents a read-only collection of objects.
 | Method | Description |
 | --- | --- |
 | [add(T item)](#add-T-) | This is the stub implementation of ICollection's Add method, that only throws UnsupportedOperationException |
+| [add(int index, T element)](#add-int-T-) | \{@inheritDoc\} |
 | [clear()](#clear--) | \{@inheritDoc\} |
 | [contains(Object o)](#contains-java.lang.Object-) | \{@inheritDoc\} |
 | [get(int index)](#get-int-) | Returns the element at the specified index. |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | \{@inheritDoc\} |
-| [add(int index, T element)](#add-int-T-) | \{@inheritDoc\} |
 | [isReadOnly()](#isReadOnly--) | Determines, if collection read-only. |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
-| [remove(Object o)](#remove-java.lang.Object-) | \{@inheritDoc\} |
 | [remove(int index)](#remove-int-) | \{@inheritDoc\} |
+| [remove(Object o)](#remove-java.lang.Object-) | \{@inheritDoc\} |
 | [set(int index, T value)](#set-int-T-) | Returns the element at the specified index. |
 | [size()](#size--) | Gets the number of objects contained in the object. |
 | [toList()](#toList--) | Converts the collection object to a list of [VbaModule](../../com.aspose.tasks/vbamodule) objects. |
@@ -48,6 +48,20 @@ This is the stub implementation of ICollection's Add method, that only throws Un
 
 **Returns:**
 boolean
+### add(int index, T element) {#add-int-T-}
+```
+public final void add(int index, T element)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+| element | T | \{@inheritDoc\} |
+
 ### clear() {#clear--}
 ```
 public final void clear()
@@ -101,20 +115,6 @@ public final int indexOf(Object o)
 
 **Returns:**
 int - \{@inheritDoc\}
-### add(int index, T element) {#add-int-T-}
-```
-public final void add(int index, T element)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-| element | T | \{@inheritDoc\} |
-
 ### isReadOnly() {#isReadOnly--}
 ```
 public final boolean isReadOnly()
@@ -135,21 +135,6 @@ Returns an enumerator for this collection.
 
 **Returns:**
 java.util.Iterator&lt;T&gt; - An enumerator for this collection.
-### remove(Object o) {#remove-java.lang.Object-}
-```
-public final boolean remove(Object o)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| o | java.lang.Object | \{@inheritDoc\} |
-
-**Returns:**
-boolean - \{@inheritDoc\}
 ### remove(int index) {#remove-int-}
 ```
 public final T remove(int index)
@@ -165,6 +150,21 @@ public final T remove(int index)
 
 **Returns:**
 T - \{@inheritDoc\}
+### remove(Object o) {#remove-java.lang.Object-}
+```
+public final boolean remove(Object o)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | \{@inheritDoc\} |
+
+**Returns:**
+boolean - \{@inheritDoc\}
 ### set(int index, T value) {#set-int-T-}
 ```
 public final T set(int index, T value)

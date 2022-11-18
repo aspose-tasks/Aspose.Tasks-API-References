@@ -18,19 +18,11 @@ Specifies style information applied to text.
 
 | Field | Description |
 | --- | --- |
-| [Regular](#Regular) | Normal text. |
 | [Bold](#Bold) | Bold text. |
 | [Italic](#Italic) | Italic text. |
-| [Underline](#Underline) | Underlined text. |
+| [Regular](#Regular) | Normal text. |
 | [Strikeout](#Strikeout) | Text with a line through the middle. |
-### Regular {#Regular}
-```
-public static final int Regular
-```
-
-
-Normal text.
-
+| [Underline](#Underline) | Underlined text. |
 ### Bold {#Bold}
 ```
 public static final int Bold
@@ -47,13 +39,13 @@ public static final int Italic
 
 Italic text.
 
-### Underline {#Underline}
+### Regular {#Regular}
 ```
-public static final int Underline
+public static final int Regular
 ```
 
 
-Underlined text.
+Normal text.
 
 ### Strikeout {#Strikeout}
 ```
@@ -62,4 +54,12 @@ public static final int Strikeout
 
 
 Text with a line through the middle.
+
+### Underline {#Underline}
+```
+public static final int Underline
+```
+
+
+Underlined text.
 

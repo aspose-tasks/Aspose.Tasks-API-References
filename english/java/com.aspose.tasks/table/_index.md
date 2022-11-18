@@ -25,25 +25,25 @@ Represents a table in Project
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [getAdjustHeaderRowHeight()](#getAdjustHeaderRowHeight--) | Gets a value indicating whether the header row height of the table can be adjusted. |
-| [setAdjustHeaderRowHeight(boolean value)](#setAdjustHeaderRowHeight-boolean-) | Sets a value indicating whether the header row height of the table can be adjusted. |
 | [getDateFormat()](#getDateFormat--) | Gets the date format of the table. |
-| [setDateFormat(int value)](#setDateFormat-int-) | Sets the date format of the table. |
 | [getIndex()](#getIndex--) | Gets the index of a Table object in the Tables containing object. |
 | [getLockFirstColumn()](#getLockFirstColumn--) | Gets a value indicating whether the first column of a table is locked or editable. |
-| [setLockFirstColumn(boolean value)](#setLockFirstColumn-boolean-) | Sets a value indicating whether the first column of a table is locked or editable. |
 | [getName()](#getName--) | Gets the name of a Table object. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of a Table object. |
 | [getParentProject()](#getParentProject--) | Gets the parent of the Table object. |
 | [getRowHeight()](#getRowHeight--) | Gets the row height in a table, where the row height is the number of lines of text. |
-| [setRowHeight(int value)](#setRowHeight-int-) | Sets the row height in a table, where the row height is the number of lines of text. |
 | [getShowAddNewColumn()](#getShowAddNewColumn--) | Gets a value indicating whether to show 'Add New Column' interface. |
-| [setShowAddNewColumn(boolean value)](#setShowAddNewColumn-boolean-) | Sets a value indicating whether to show 'Add New Column' interface. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
-| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
 | [getTableFields()](#getTableFields--) | Gets a TableFields collection representing the fields in the table. |
 | [getTableType()](#getTableType--) | Gets the table type for the specified table. |
 | [getUid()](#getUid--) | Gets the unique identifier of a table. |
 | [hashCode()](#hashCode--) | Returns a hash code for this Table. |
+| [setAdjustHeaderRowHeight(boolean value)](#setAdjustHeaderRowHeight-boolean-) | Sets a value indicating whether the header row height of the table can be adjusted. |
+| [setDateFormat(int value)](#setDateFormat-int-) | Sets the date format of the table. |
+| [setLockFirstColumn(boolean value)](#setLockFirstColumn-boolean-) | Sets a value indicating whether the first column of a table is locked or editable. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of a Table object. |
+| [setRowHeight(int value)](#setRowHeight-int-) | Sets the row height in a table, where the row height is the number of lines of text. |
+| [setShowAddNewColumn(boolean value)](#setShowAddNewColumn-boolean-) | Sets a value indicating whether to show 'Add New Column' interface. |
+| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
 ### Table() {#Table--}
 ```
 public Table()
@@ -77,19 +77,6 @@ Gets a value indicating whether the header row height of the table can be adjust
 
 **Returns:**
 boolean - a value indicating whether the header row height of the table can be adjusted.
-### setAdjustHeaderRowHeight(boolean value) {#setAdjustHeaderRowHeight-boolean-}
-```
-public final void setAdjustHeaderRowHeight(boolean value)
-```
-
-
-Sets a value indicating whether the header row height of the table can be adjusted.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether the header row height of the table can be adjusted. |
-
 ### getDateFormat() {#getDateFormat--}
 ```
 public final int getDateFormat()
@@ -100,19 +87,6 @@ Gets the date format of the table.
 
 **Returns:**
 int - the date format of the table.
-### setDateFormat(int value) {#setDateFormat-int-}
-```
-public final void setDateFormat(int value)
-```
-
-
-Sets the date format of the table.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | the date format of the table. |
-
 ### getIndex() {#getIndex--}
 ```
 public final int getIndex()
@@ -133,19 +107,6 @@ Gets a value indicating whether the first column of a table is locked or editabl
 
 **Returns:**
 boolean - a value indicating whether the first column of a table is locked or editable.
-### setLockFirstColumn(boolean value) {#setLockFirstColumn-boolean-}
-```
-public final void setLockFirstColumn(boolean value)
-```
-
-
-Sets a value indicating whether the first column of a table is locked or editable.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether the first column of a table is locked or editable. |
-
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -156,19 +117,6 @@ Gets the name of a Table object.
 
 **Returns:**
 java.lang.String - the name of a Table object.
-### setName(String value) {#setName-java.lang.String-}
-```
-public final void setName(String value)
-```
-
-
-Sets the name of a Table object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | the name of a Table object. |
-
 ### getParentProject() {#getParentProject--}
 ```
 public final Project getParentProject()
@@ -189,19 +137,6 @@ Gets the row height in a table, where the row height is the number of lines of t
 
 **Returns:**
 int - the row height in a table, where the row height is the number of lines of text.
-### setRowHeight(int value) {#setRowHeight-int-}
-```
-public final void setRowHeight(int value)
-```
-
-
-Sets the row height in a table, where the row height is the number of lines of text.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | the row height in a table, where the row height is the number of lines of text. |
-
 ### getShowAddNewColumn() {#getShowAddNewColumn--}
 ```
 public final boolean getShowAddNewColumn()
@@ -216,23 +151,6 @@ Supported by MSP 2010 version and later.
 
 **Returns:**
 boolean - a value indicating whether to show 'Add New Column' interface.
-### setShowAddNewColumn(boolean value) {#setShowAddNewColumn-boolean-}
-```
-public final void setShowAddNewColumn(boolean value)
-```
-
-
-Sets a value indicating whether to show 'Add New Column' interface.
-
---------------------
-
-Supported by MSP 2010 version and later.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether to show 'Add New Column' interface. |
-
 ### getShowInMenu() {#getShowInMenu--}
 ```
 public final boolean getShowInMenu()
@@ -243,19 +161,6 @@ Gets a value indicating whether project shows the table name in the Tables drop-
 
 **Returns:**
 boolean - a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon.
-### setShowInMenu(boolean value) {#setShowInMenu-boolean-}
-```
-public final void setShowInMenu(boolean value)
-```
-
-
-Sets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
-
 ### getTableFields() {#getTableFields--}
 ```
 public final TableFieldCollection getTableFields()
@@ -296,3 +201,98 @@ Returns a hash code for this Table.
 
 **Returns:**
 int - Returns a hash code value for this object.
+### setAdjustHeaderRowHeight(boolean value) {#setAdjustHeaderRowHeight-boolean-}
+```
+public final void setAdjustHeaderRowHeight(boolean value)
+```
+
+
+Sets a value indicating whether the header row height of the table can be adjusted.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether the header row height of the table can be adjusted. |
+
+### setDateFormat(int value) {#setDateFormat-int-}
+```
+public final void setDateFormat(int value)
+```
+
+
+Sets the date format of the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the date format of the table. |
+
+### setLockFirstColumn(boolean value) {#setLockFirstColumn-boolean-}
+```
+public final void setLockFirstColumn(boolean value)
+```
+
+
+Sets a value indicating whether the first column of a table is locked or editable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether the first column of a table is locked or editable. |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public final void setName(String value)
+```
+
+
+Sets the name of a Table object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | the name of a Table object. |
+
+### setRowHeight(int value) {#setRowHeight-int-}
+```
+public final void setRowHeight(int value)
+```
+
+
+Sets the row height in a table, where the row height is the number of lines of text.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the row height in a table, where the row height is the number of lines of text. |
+
+### setShowAddNewColumn(boolean value) {#setShowAddNewColumn-boolean-}
+```
+public final void setShowAddNewColumn(boolean value)
+```
+
+
+Sets a value indicating whether to show 'Add New Column' interface.
+
+--------------------
+
+Supported by MSP 2010 version and later.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether to show 'Add New Column' interface. |
+
+### setShowInMenu(boolean value) {#setShowInMenu-boolean-}
+```
+public final void setShowInMenu(boolean value)
+```
+
+
+Sets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
+

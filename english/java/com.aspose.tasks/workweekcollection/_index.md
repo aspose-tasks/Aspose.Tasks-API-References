@@ -19,8 +19,10 @@ Represents a collection of [WorkWeek](../../com.aspose.tasks/workweek) objects.
 | Method | Description |
 | --- | --- |
 | [add(WorkWeek e)](#add-com.aspose.tasks.WorkWeek-) | Adds WorkWeek instance to this collection object. |
+| [add(int index, WorkWeek element)](#add-int-com.aspose.tasks.WorkWeek-) | Inserts the specified element at the specified position in this list. |
 | [clear()](#clear--) | \{@inheritDoc\} |
 | [contains(Object o)](#contains-java.lang.Object-) | \{@inheritDoc\} |
+| [get(int index)](#get-int-) | Returns the element at the specified index. |
 | [getParentCalendar()](#getParentCalendar--) | Gets the parent calendar. |
 | [indexOf(Object item)](#indexOf-java.lang.Object-) |  |
 | [isReadOnly()](#isReadOnly--) | \{@inheritDoc\} |
@@ -28,8 +30,6 @@ Represents a collection of [WorkWeek](../../com.aspose.tasks/workweek) objects.
 | [remove(Object item)](#remove-java.lang.Object-) |  |
 | [size()](#size--) | Gets the number of objects contained in this [WorkWeekCollection](../../com.aspose.tasks/workweekcollection) object. |
 | [toList()](#toList--) | Converts the WorkWeekCollection object to a list of [WorkWeek](../../com.aspose.tasks/workweek) objects. |
-| [add(int index, WorkWeek element)](#add-int-com.aspose.tasks.WorkWeek-) | Inserts the specified element at the specified position in this list. |
-| [get(int index)](#get-int-) | Returns the element at the specified index. |
 ### add(WorkWeek e) {#add-com.aspose.tasks.WorkWeek-}
 ```
 public final boolean add(WorkWeek e)
@@ -45,6 +45,20 @@ Adds WorkWeek instance to this collection object.
 
 **Returns:**
 boolean - \{@inheritDoc\}
+### add(int index, WorkWeek element) {#add-int-com.aspose.tasks.WorkWeek-}
+```
+public void add(int index, WorkWeek element)
+```
+
+
+Inserts the specified element at the specified position in this list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+| element | [WorkWeek](../../com.aspose.tasks/workweek) | \{@inheritDoc\} |
+
 ### clear() {#clear--}
 ```
 public final void clear()
@@ -68,6 +82,21 @@ public final boolean contains(Object o)
 
 **Returns:**
 boolean - \{@inheritDoc\}
+### get(int index) {#get-int-}
+```
+public WorkWeek get(int index)
+```
+
+
+Returns the element at the specified index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the element to get. |
+
+**Returns:**
+[WorkWeek](../../com.aspose.tasks/workweek) - the element at the specified index.
 ### getParentCalendar() {#getParentCalendar--}
 ```
 public final Calendar getParentCalendar()
@@ -148,32 +177,3 @@ Converts the WorkWeekCollection object to a list of [WorkWeek](../../com.aspose.
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.WorkWeek&gt; - List of [WorkWeek](../../com.aspose.tasks/workweek) objects.
-### add(int index, WorkWeek element) {#add-int-com.aspose.tasks.WorkWeek-}
-```
-public void add(int index, WorkWeek element)
-```
-
-
-Inserts the specified element at the specified position in this list.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-| element | [WorkWeek](../../com.aspose.tasks/workweek) | \{@inheritDoc\} |
-
-### get(int index) {#get-int-}
-```
-public WorkWeek get(int index)
-```
-
-
-Returns the element at the specified index.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the element to get. |
-
-**Returns:**
-[WorkWeek](../../com.aspose.tasks/workweek) - the element at the specified index.

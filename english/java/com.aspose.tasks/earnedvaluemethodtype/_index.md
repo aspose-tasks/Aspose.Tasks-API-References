@@ -18,17 +18,9 @@ Specifies the method used for calculating earned value. While exporting into XML
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | The field was not defined in original project file. |
 | [PercentComplete](#PercentComplete) | Percent complete |
 | [PhysicalPercentComplete](#PhysicalPercentComplete) | Physical percent complete |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-The field was not defined in original project file.
-
+| [Undefined](#Undefined) | The field was not defined in original project file. |
 ### PercentComplete {#PercentComplete}
 ```
 public static final int PercentComplete
@@ -44,4 +36,12 @@ public static final int PhysicalPercentComplete
 
 
 Physical percent complete
+
+### Undefined {#Undefined}
+```
+public static final int Undefined
+```
+
+
+The field was not defined in original project file.
 

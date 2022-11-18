@@ -27,9 +27,9 @@ Represents a text style in a view table.
 | Method | Description |
 | --- | --- |
 | [getField()](#getField--) | Gets a field the style is to be applied to. |
-| [setField(int value)](#setField-int-) | Sets a field the style is to be applied to. |
 | [getItemType()](#getItemType--) | Returns text item type. |
 | [getRowUid()](#getRowUid--) | Gets a row unique id. |
+| [setField(int value)](#setField-int-) | Sets a field the style is to be applied to. |
 ### TableTextStyle(int rowUid) {#TableTextStyle-int-}
 ```
 public TableTextStyle(int rowUid)
@@ -96,19 +96,6 @@ Gets a field the style is to be applied to.  Field ([getField()](../../com.aspos
 
 **Returns:**
 int - a field the style is to be applied to.
-### setField(int value) {#setField-int-}
-```
-public final void setField(int value)
-```
-
-
-Sets a field the style is to be applied to.  Field ([getField()](../../com.aspose.tasks/tabletextstyle\#getField--)/[setField(int)](../../com.aspose.tasks/tabletextstyle\#setField-int-)).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | a field the style is to be applied to. |
-
 ### getItemType() {#getItemType--}
 ```
 public int getItemType()
@@ -133,3 +120,16 @@ Return -1 if the style is to be applied to all rows of a view.
 
 **Returns:**
 int - a row unique id.
+### setField(int value) {#setField-int-}
+```
+public final void setField(int value)
+```
+
+
+Sets a field the style is to be applied to.  Field ([getField()](../../com.aspose.tasks/tabletextstyle\#getField--)/[setField(int)](../../com.aspose.tasks/tabletextstyle\#setField-int-)).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a field the style is to be applied to. |
+

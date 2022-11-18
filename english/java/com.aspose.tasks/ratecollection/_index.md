@@ -25,17 +25,17 @@ Represents a collection which contains [Rate](../../com.aspose.tasks/rate) objec
 | [add(Date ratesFrom, int type)](#add-java.util.Date-int-) | Adds a new [Rate](../../com.aspose.tasks/rate) instance to this collection. |
 | [clear()](#clear--) | \{@inheritDoc\} |
 | [entrySet()](#entrySet--) | (@inheritDoc\} |
+| [get(Object key)](#get-java.lang.Object-) | (@inheritDoc\} |
 | [getByRateType(int key)](#getByRateType-int-) | Returns the element at the specified index. |
 | [getParentResource()](#getParentResource--) | Gets the parent [Resource](../../com.aspose.tasks/resource) object for this collection. |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether this collection is read only. |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
+| [put(Integer key, RateByDateCollection value)](#put-java.lang.Integer-com.aspose.tasks.RateByDateCollection-) | (@inheritDoc\} |
 | [remove(Rate item)](#remove-com.aspose.tasks.Rate-) | Removes Rate instance from this collection. |
 | [setByRateType(int key, RateByDateCollection value)](#setByRateType-int-com.aspose.tasks.RateByDateCollection-) | Sets the element at the specified index. |
 | [size()](#size--) | Gets the number of elements contained in the RateCollection. |
 | [toList()](#toList--) | Converts the [RateCollection](../../com.aspose.tasks/ratecollection) object to a list of [Rate](../../com.aspose.tasks/rate) objects. |
 | [toList(int type)](#toList-int-) | Converts the [RateCollection](../../com.aspose.tasks/ratecollection) object to a list of [Rate](../../com.aspose.tasks/rate) objects filtered by specified [RateType](../../com.aspose.tasks/ratetype) type. |
-| [get(Object key)](#get-java.lang.Object-) | (@inheritDoc\} |
-| [put(Integer key, RateByDateCollection value)](#put-java.lang.Integer-com.aspose.tasks.RateByDateCollection-) | (@inheritDoc\} |
 ### add(Date ratesFrom) {#add-java.util.Date-}
 ```
 public final Rate add(Date ratesFrom)
@@ -85,6 +85,21 @@ public Set<Map.Entry<Integer,RateByDateCollection>> entrySet()
 
 **Returns:**
 java.util.Set&lt;java.util.Map.Entry&lt;java.lang.Integer,com.aspose.tasks.RateByDateCollection&gt;&gt; - \{@inheritDoc\}
+### get(Object key) {#get-java.lang.Object-}
+```
+public final RateByDateCollection get(Object key)
+```
+
+
+(@inheritDoc\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | java.lang.Object | \{@inheritDoc\} |
+
+**Returns:**
+[RateByDateCollection](../../com.aspose.tasks/ratebydatecollection) - \{@inheritDoc\}
 ### getByRateType(int key) {#getByRateType-int-}
 ```
 public final RateByDateCollection getByRateType(int key)
@@ -130,6 +145,22 @@ Returns an enumerator for this collection.
 
 **Returns:**
 com.aspose.ms.System.Collections.IEnumerator - an enumerator for this collection.
+### put(Integer key, RateByDateCollection value) {#put-java.lang.Integer-com.aspose.tasks.RateByDateCollection-}
+```
+public final RateByDateCollection put(Integer key, RateByDateCollection value)
+```
+
+
+(@inheritDoc\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | java.lang.Integer | \{@inheritDoc\} |
+| value | [RateByDateCollection](../../com.aspose.tasks/ratebydatecollection) | \{@inheritDoc\} |
+
+**Returns:**
+[RateByDateCollection](../../com.aspose.tasks/ratebydatecollection) - \{@inheritDoc\}
 ### remove(Rate item) {#remove-com.aspose.tasks.Rate-}
 ```
 public final boolean remove(Rate item)
@@ -194,34 +225,3 @@ Converts the [RateCollection](../../com.aspose.tasks/ratecollection) object to a
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.Rate&gt; - a list of [Rate](../../com.aspose.tasks/rate) objects.
-### get(Object key) {#get-java.lang.Object-}
-```
-public final RateByDateCollection get(Object key)
-```
-
-
-(@inheritDoc\}
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | java.lang.Object | \{@inheritDoc\} |
-
-**Returns:**
-[RateByDateCollection](../../com.aspose.tasks/ratebydatecollection) - \{@inheritDoc\}
-### put(Integer key, RateByDateCollection value) {#put-java.lang.Integer-com.aspose.tasks.RateByDateCollection-}
-```
-public final RateByDateCollection put(Integer key, RateByDateCollection value)
-```
-
-
-(@inheritDoc\}
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | java.lang.Integer | \{@inheritDoc\} |
-| value | [RateByDateCollection](../../com.aspose.tasks/ratebydatecollection) | \{@inheritDoc\} |
-
-**Returns:**
-[RateByDateCollection](../../com.aspose.tasks/ratebydatecollection) - \{@inheritDoc\}

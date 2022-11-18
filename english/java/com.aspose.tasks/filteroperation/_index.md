@@ -18,17 +18,9 @@ Specifies how the criterion established with FieldName, FilterComparisonType, an
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Undefined. |
 | [And](#And) | AND operator. |
 | [Or](#Or) | OR operator. |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-Undefined.
-
+| [Undefined](#Undefined) | Undefined. |
 ### And {#And}
 ```
 public static final int And
@@ -44,4 +36,12 @@ public static final int Or
 
 
 OR operator.
+
+### Undefined {#Undefined}
+```
+public static final int Undefined
+```
+
+
+Undefined.
 

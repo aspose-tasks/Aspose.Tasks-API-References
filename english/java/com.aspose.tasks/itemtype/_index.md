@@ -18,16 +18,16 @@ Specifies the type of an item.
 
 | Field | Description |
 | --- | --- |
-| [TaskItem](#TaskItem) | Task item. |
-| [ResourceItem](#ResourceItem) | Resource item. |
 | [OtherItem](#OtherItem) | Other item. |
-### TaskItem {#TaskItem}
+| [ResourceItem](#ResourceItem) | Resource item. |
+| [TaskItem](#TaskItem) | Task item. |
+### OtherItem {#OtherItem}
 ```
-public static final int TaskItem
+public static final int OtherItem
 ```
 
 
-Task item.
+Other item.
 
 ### ResourceItem {#ResourceItem}
 ```
@@ -37,11 +37,11 @@ public static final int ResourceItem
 
 Resource item.
 
-### OtherItem {#OtherItem}
+### TaskItem {#TaskItem}
 ```
-public static final int OtherItem
+public static final int TaskItem
 ```
 
 
-Other item.
+Task item.
 

@@ -23,14 +23,22 @@ Signals to a CancellationToken that it should be canceled.
 
 | Method | Description |
 | --- | --- |
+| [cancel()](#cancel--) | Communicates a request for cancellation. |
 | [getToken()](#getToken--) | Creates the new CancellationToken associated with this CancellationTokenSource. |
 | [isCancellationRequested()](#isCancellationRequested--) | Gets whether cancellation has been requested for this CancellationTokenSource. |
-| [cancel()](#cancel--) | Communicates a request for cancellation. |
 ### CancellationTokenSource() {#CancellationTokenSource--}
 ```
 public CancellationTokenSource()
 ```
 
+
+### cancel() {#cancel--}
+```
+public void cancel()
+```
+
+
+Communicates a request for cancellation.
 
 ### getToken() {#getToken--}
 ```
@@ -52,11 +60,3 @@ Gets whether cancellation has been requested for this CancellationTokenSource.
 
 **Returns:**
 boolean - true, if cancellation has been requested; false otherwise.
-### cancel() {#cancel--}
-```
-public void cancel()
-```
-
-
-Communicates a request for cancellation.
-

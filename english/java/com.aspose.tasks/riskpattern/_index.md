@@ -24,14 +24,14 @@ Represents a risk pattern for a project task.
 | Method | Description |
 | --- | --- |
 | [getConfidenceLevel()](#getConfidenceLevel--) | Gets the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates. |
-| [setConfidenceLevel(int value)](#setConfidenceLevel-int-) | Sets the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates. |
 | [getDistribution()](#getDistribution--) | Gets the probability distribution used in Monte Carlo simulation. |
-| [setDistribution(int value)](#setDistribution-int-) | Sets the probability distribution used in Monte Carlo simulation. |
 | [getOptimistic()](#getOptimistic--) | Gets the percentage of the most likely task duration which can happen in the best possible project scenario. |
-| [setOptimistic(int value)](#setOptimistic-int-) | Sets the percentage of the most likely task duration which can happen in the best possible project scenario. |
 | [getPessimistic()](#getPessimistic--) | Gets the percentage of the most likely task duration which can happen in the worst possible project scenario. |
-| [setPessimistic(int value)](#setPessimistic-int-) | Sets the percentage of the most likely task duration which can happen in the worst possible project scenario. |
 | [getTask()](#getTask--) | Gets a project task to which this risk pattern is applied. |
+| [setConfidenceLevel(int value)](#setConfidenceLevel-int-) | Sets the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates. |
+| [setDistribution(int value)](#setDistribution-int-) | Sets the probability distribution used in Monte Carlo simulation. |
+| [setOptimistic(int value)](#setOptimistic-int-) | Sets the percentage of the most likely task duration which can happen in the best possible project scenario. |
+| [setPessimistic(int value)](#setPessimistic-int-) | Sets the percentage of the most likely task duration which can happen in the worst possible project scenario. |
 ### RiskPattern(Task task) {#RiskPattern-com.aspose.tasks.Task-}
 ```
 public RiskPattern(Task task)
@@ -59,6 +59,50 @@ Can be one of the values defined in the  ConfidenceLevel ([getConfidenceLevel()]
 
 **Returns:**
 int - the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates.
+### getDistribution() {#getDistribution--}
+```
+public final int getDistribution()
+```
+
+
+Gets the probability distribution used in Monte Carlo simulation. The default value is ProbabilityDistributionType.Normal.
+
+--------------------
+
+Can be one of the values defined in the [ProbabilityDistributionType](../../com.aspose.tasks/probabilitydistributiontype) enumeration.
+
+**Returns:**
+int - the probability distribution used in Monte Carlo simulation.
+### getOptimistic() {#getOptimistic--}
+```
+public final int getOptimistic()
+```
+
+
+Gets the percentage of the most likely task duration which can happen in the best possible project scenario. The default value is 75, which means that if the estimated specified task duration is 4 days then the optimistic duration will be 3 days.
+
+**Returns:**
+int - the percentage of the most likely task duration which can happen in the best possible project scenario.
+### getPessimistic() {#getPessimistic--}
+```
+public final int getPessimistic()
+```
+
+
+Gets the percentage of the most likely task duration which can happen in the worst possible project scenario. The default value is 125, which means that if the estimated specified task duration is 4 days then the pessimistic duration will be 5 days.
+
+**Returns:**
+int - the percentage of the most likely task duration which can happen in the worst possible project scenario.
+### getTask() {#getTask--}
+```
+public final Task getTask()
+```
+
+
+Gets a project task to which this risk pattern is applied.
+
+**Returns:**
+[Task](../../com.aspose.tasks/task) - a project task to which this risk pattern is applied.
 ### setConfidenceLevel(int value) {#setConfidenceLevel-int-}
 ```
 public final void setConfidenceLevel(int value)
@@ -76,20 +120,6 @@ Can be one of the values defined in the  ConfidenceLevel ([getConfidenceLevel()]
 | --- | --- | --- |
 | value | int | the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates. |
 
-### getDistribution() {#getDistribution--}
-```
-public final int getDistribution()
-```
-
-
-Gets the probability distribution used in Monte Carlo simulation. The default value is ProbabilityDistributionType.Normal.
-
---------------------
-
-Can be one of the values defined in the [ProbabilityDistributionType](../../com.aspose.tasks/probabilitydistributiontype) enumeration.
-
-**Returns:**
-int - the probability distribution used in Monte Carlo simulation.
 ### setDistribution(int value) {#setDistribution-int-}
 ```
 public final void setDistribution(int value)
@@ -107,16 +137,6 @@ Can be one of the values defined in the [ProbabilityDistributionType](../../com.
 | --- | --- | --- |
 | value | int | the probability distribution used in Monte Carlo simulation. |
 
-### getOptimistic() {#getOptimistic--}
-```
-public final int getOptimistic()
-```
-
-
-Gets the percentage of the most likely task duration which can happen in the best possible project scenario. The default value is 75, which means that if the estimated specified task duration is 4 days then the optimistic duration will be 3 days.
-
-**Returns:**
-int - the percentage of the most likely task duration which can happen in the best possible project scenario.
 ### setOptimistic(int value) {#setOptimistic-int-}
 ```
 public final void setOptimistic(int value)
@@ -130,16 +150,6 @@ Sets the percentage of the most likely task duration which can happen in the bes
 | --- | --- | --- |
 | value | int | the percentage of the most likely task duration which can happen in the best possible project scenario. |
 
-### getPessimistic() {#getPessimistic--}
-```
-public final int getPessimistic()
-```
-
-
-Gets the percentage of the most likely task duration which can happen in the worst possible project scenario. The default value is 125, which means that if the estimated specified task duration is 4 days then the pessimistic duration will be 5 days.
-
-**Returns:**
-int - the percentage of the most likely task duration which can happen in the worst possible project scenario.
 ### setPessimistic(int value) {#setPessimistic-int-}
 ```
 public final void setPessimistic(int value)
@@ -153,13 +163,3 @@ Sets the percentage of the most likely task duration which can happen in the wor
 | --- | --- | --- |
 | value | int | the percentage of the most likely task duration which can happen in the worst possible project scenario. |
 
-### getTask() {#getTask--}
-```
-public final Task getTask()
-```
-
-
-Gets a project task to which this risk pattern is applied.
-
-**Returns:**
-[Task](../../com.aspose.tasks/task) - a project task to which this risk pattern is applied.

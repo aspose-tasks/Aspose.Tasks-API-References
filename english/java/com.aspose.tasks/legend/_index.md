@@ -18,17 +18,9 @@ Specifies the pages on which the legend appears.
 
 | Field | Description |
 | --- | --- |
-| [NoLegend](#NoLegend) | No legend. |
 | [AfterLastPage](#AfterLastPage) | Legend appears after the last page. |
+| [NoLegend](#NoLegend) | No legend. |
 | [OnEveryPage](#OnEveryPage) | Legend appears on every page. |
-### NoLegend {#NoLegend}
-```
-public static final int NoLegend
-```
-
-
-No legend.
-
 ### AfterLastPage {#AfterLastPage}
 ```
 public static final int AfterLastPage
@@ -36,6 +28,14 @@ public static final int AfterLastPage
 
 
 Legend appears after the last page.
+
+### NoLegend {#NoLegend}
+```
+public static final int NoLegend
+```
+
+
+No legend.
 
 ### OnEveryPage {#OnEveryPage}
 ```

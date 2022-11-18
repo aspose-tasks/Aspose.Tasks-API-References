@@ -24,12 +24,12 @@ Allows to specify additional options when saving project to CSV.
 | Method | Description |
 | --- | --- |
 | [getDataCategory()](#getDataCategory--) | Gets a data category to be saved. |
-| [setDataCategory(int value)](#setDataCategory-int-) | Sets a data category to be saved. |
 | [getEncoding()](#getEncoding--) | Gets an encoding to save CSV with. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets an encoding to save CSV with. |
 | [getIncludeHeaders()](#getIncludeHeaders--) | Gets a value indicating whether to include headers or not (default value is TRUE). |
-| [setIncludeHeaders(boolean value)](#setIncludeHeaders-boolean-) | Sets a value indicating whether to include headers or not (default value is TRUE). |
 | [getTextDelimiter()](#getTextDelimiter--) | Gets a text delimiter. |
+| [setDataCategory(int value)](#setDataCategory-int-) | Sets a data category to be saved. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets an encoding to save CSV with. |
+| [setIncludeHeaders(boolean value)](#setIncludeHeaders-boolean-) | Sets a value indicating whether to include headers or not (default value is TRUE). |
 | [setTextDelimiter(int value)](#setTextDelimiter-int-) | Sets a text delimiter. |
 ### CsvOptions() {#CsvOptions--}
 ```
@@ -49,6 +49,36 @@ Gets a data category to be saved.
 
 **Returns:**
 int - a data category to be saved.
+### getEncoding() {#getEncoding--}
+```
+public final Charset getEncoding()
+```
+
+
+Gets an encoding to save CSV with.
+
+**Returns:**
+java.nio.charset.Charset - an encoding to save CSV with.
+### getIncludeHeaders() {#getIncludeHeaders--}
+```
+public final boolean getIncludeHeaders()
+```
+
+
+Gets a value indicating whether to include headers or not (default value is TRUE).
+
+**Returns:**
+boolean - a value indicating whether to include headers or not (default value is TRUE).
+### getTextDelimiter() {#getTextDelimiter--}
+```
+public final int getTextDelimiter()
+```
+
+
+Gets a text delimiter.
+
+**Returns:**
+int - a text delimiter.
 ### setDataCategory(int value) {#setDataCategory-int-}
 ```
 public final void setDataCategory(int value)
@@ -62,16 +92,6 @@ Sets a data category to be saved.
 | --- | --- | --- |
 | value | int | a data category to be saved. |
 
-### getEncoding() {#getEncoding--}
-```
-public final Charset getEncoding()
-```
-
-
-Gets an encoding to save CSV with.
-
-**Returns:**
-java.nio.charset.Charset - an encoding to save CSV with.
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
 public final void setEncoding(Charset value)
@@ -85,16 +105,6 @@ Sets an encoding to save CSV with.
 | --- | --- | --- |
 | value | java.nio.charset.Charset | an encoding to save CSV with. |
 
-### getIncludeHeaders() {#getIncludeHeaders--}
-```
-public final boolean getIncludeHeaders()
-```
-
-
-Gets a value indicating whether to include headers or not (default value is TRUE).
-
-**Returns:**
-boolean - a value indicating whether to include headers or not (default value is TRUE).
 ### setIncludeHeaders(boolean value) {#setIncludeHeaders-boolean-}
 ```
 public final void setIncludeHeaders(boolean value)
@@ -108,16 +118,6 @@ Sets a value indicating whether to include headers or not (default value is TRUE
 | --- | --- | --- |
 | value | boolean | a value indicating whether to include headers or not (default value is TRUE). |
 
-### getTextDelimiter() {#getTextDelimiter--}
-```
-public final int getTextDelimiter()
-```
-
-
-Gets a text delimiter.
-
-**Returns:**
-int - a text delimiter.
 ### setTextDelimiter(int value) {#setTextDelimiter-int-}
 ```
 public final void setTextDelimiter(int value)

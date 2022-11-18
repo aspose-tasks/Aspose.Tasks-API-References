@@ -18,27 +18,19 @@ Specifies task fields for which the statistical information is gathered during r
 
 | Field | Description |
 | --- | --- |
-| [Start](#Start) | Task Start. |
-| [Finish](#Finish) | Task Finish. |
-| [EarlyStart](#EarlyStart) | Task Early Start. |
 | [EarlyFinish](#EarlyFinish) | Task Early Finish. |
-| [LateStart](#LateStart) | Task Late Start. |
+| [EarlyStart](#EarlyStart) | Task Early Start. |
+| [Finish](#Finish) | Task Finish. |
 | [LateFinish](#LateFinish) | Task Late Finish. |
-### Start {#Start}
+| [LateStart](#LateStart) | Task Late Start. |
+| [Start](#Start) | Task Start. |
+### EarlyFinish {#EarlyFinish}
 ```
-public static final int Start
-```
-
-
-Task Start.
-
-### Finish {#Finish}
-```
-public static final int Finish
+public static final int EarlyFinish
 ```
 
 
-Task Finish.
+Task Early Finish.
 
 ### EarlyStart {#EarlyStart}
 ```
@@ -48,13 +40,21 @@ public static final int EarlyStart
 
 Task Early Start.
 
-### EarlyFinish {#EarlyFinish}
+### Finish {#Finish}
 ```
-public static final int EarlyFinish
+public static final int Finish
 ```
 
 
-Task Early Finish.
+Task Finish.
+
+### LateFinish {#LateFinish}
+```
+public static final int LateFinish
+```
+
+
+Task Late Finish.
 
 ### LateStart {#LateStart}
 ```
@@ -64,11 +64,11 @@ public static final int LateStart
 
 Task Late Start.
 
-### LateFinish {#LateFinish}
+### Start {#Start}
 ```
-public static final int LateFinish
+public static final int Start
 ```
 
 
-Task Late Finish.
+Task Start.
 

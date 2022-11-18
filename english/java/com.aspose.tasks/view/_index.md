@@ -28,21 +28,16 @@ Represents a view in Project.
 | --- | --- |
 | [compareTo(View other)](#compareTo-com.aspose.tasks.View-) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
+| [forViewScreen(int viewScreen)](#forViewScreen-int-) | Constructs a new instance of the [View](../../com.aspose.tasks/view) class. |
 | [getFilter()](#getFilter--) | Gets a filter used in a single view. |
-| [setFilter(Filter value)](#setFilter-com.aspose.tasks.Filter-) | Sets a filter used in a single view. |
 | [getGroup()](#getGroup--) | Gets a group of the single view. |
-| [setGroup(Group value)](#setGroup-com.aspose.tasks.Group-) | Sets a group of the single view. |
 | [getHighlightFilter()](#getHighlightFilter--) | Gets a value indicating whether Microsoft Project highlights the filter for a single view. |
-| [setHighlightFilter(boolean value)](#setHighlightFilter-boolean-) | Sets a value indicating whether Microsoft Project highlights the filter for a single view. |
 | [getName()](#getName--) | Gets the name of a View object. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of a View object. |
 | [getPageInfo()](#getPageInfo--) | Gets an instance of the  PageInfo ([getPageInfo()](../../com.aspose.tasks/view\#getPageInfo--)) class. |
 | [getParentProject()](#getParentProject--) | Gets the parent of the View object. |
 | [getScreen()](#getScreen--) | Gets the screen type for the single view. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
-| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
 | [getTable()](#getTable--) | Gets a table of the single view. |
-| [setTable(Table value)](#setTable-com.aspose.tasks.Table-) | Sets a table of the single view. |
 | [getType()](#getType--) | Gets the type of item in the single view, such as tasks or resources. |
 | [getUid()](#getUid--) | Gets the unique identifier of a view. |
 | [getVisualObjectsPlacements()](#getVisualObjectsPlacements--) | Gets a collection of objects representing placement and appearance of [OleObject](../../com.aspose.tasks/oleobject) in the view. |
@@ -53,7 +48,12 @@ Represents a view in Project.
 | [op_Inequality(View a, View b)](#op-Inequality-com.aspose.tasks.View-com.aspose.tasks.View-) | Returns a value indicating whether this instance is not equal to a specified object. |
 | [op_LessThan(View a, View b)](#op-LessThan-com.aspose.tasks.View-com.aspose.tasks.View-) | Returns a value indicating whether this instance is less than a specified object. |
 | [op_LessThanOrEqual(View a, View b)](#op-LessThanOrEqual-com.aspose.tasks.View-com.aspose.tasks.View-) | Returns a value indicating whether this instance is less than or equal to a specified object. |
-| [forViewScreen(int viewScreen)](#forViewScreen-int-) | Constructs a new instance of the [View](../../com.aspose.tasks/view) class. |
+| [setFilter(Filter value)](#setFilter-com.aspose.tasks.Filter-) | Sets a filter used in a single view. |
+| [setGroup(Group value)](#setGroup-com.aspose.tasks.Group-) | Sets a group of the single view. |
+| [setHighlightFilter(boolean value)](#setHighlightFilter-boolean-) | Sets a value indicating whether Microsoft Project highlights the filter for a single view. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of a View object. |
+| [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
+| [setTable(Table value)](#setTable-com.aspose.tasks.Table-) | Sets a table of the single view. |
 ### View() {#View--}
 ```
 public View()
@@ -92,6 +92,21 @@ Returns a value indicating whether this instance is equal to a specified object.
 
 **Returns:**
 boolean - **True** if the specified object is a View that has the same Uid value as this instance; otherwise, **false**.
+### forViewScreen(int viewScreen) {#forViewScreen-int-}
+```
+public static View forViewScreen(int viewScreen)
+```
+
+
+Constructs a new instance of the [View](../../com.aspose.tasks/view) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| viewScreen | int | The screen type for which the view can be displayed. |
+
+**Returns:**
+[View](../../com.aspose.tasks/view) - Constructed view.
 ### getFilter() {#getFilter--}
 ```
 public final Filter getFilter()
@@ -102,19 +117,6 @@ Gets a filter used in a single view.
 
 **Returns:**
 [Filter](../../com.aspose.tasks/filter) - a filter used in a single view.
-### setFilter(Filter value) {#setFilter-com.aspose.tasks.Filter-}
-```
-public final void setFilter(Filter value)
-```
-
-
-Sets a filter used in a single view.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Filter](../../com.aspose.tasks/filter) | a filter used in a single view. |
-
 ### getGroup() {#getGroup--}
 ```
 public final Group getGroup()
@@ -125,19 +127,6 @@ Gets a group of the single view.
 
 **Returns:**
 [Group](../../com.aspose.tasks/group) - a group of the single view.
-### setGroup(Group value) {#setGroup-com.aspose.tasks.Group-}
-```
-public final void setGroup(Group value)
-```
-
-
-Sets a group of the single view.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Group](../../com.aspose.tasks/group) | a group of the single view. |
-
 ### getHighlightFilter() {#getHighlightFilter--}
 ```
 public final boolean getHighlightFilter()
@@ -148,19 +137,6 @@ Gets a value indicating whether Microsoft Project highlights the filter for a si
 
 **Returns:**
 boolean - a value indicating whether Microsoft Project highlights the filter for a single view.
-### setHighlightFilter(boolean value) {#setHighlightFilter-boolean-}
-```
-public final void setHighlightFilter(boolean value)
-```
-
-
-Sets a value indicating whether Microsoft Project highlights the filter for a single view.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether Microsoft Project highlights the filter for a single view. |
-
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -171,19 +147,6 @@ Gets the name of a View object.
 
 **Returns:**
 java.lang.String - the name of a View object.
-### setName(String value) {#setName-java.lang.String-}
-```
-public final void setName(String value)
-```
-
-
-Sets the name of a View object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | the name of a View object. |
-
 ### getPageInfo() {#getPageInfo--}
 ```
 public final PageInfo getPageInfo()
@@ -224,19 +187,6 @@ Gets a value indicating whether Microsoft Project shows the single view name in 
 
 **Returns:**
 boolean - a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon.
-### setShowInMenu(boolean value) {#setShowInMenu-boolean-}
-```
-public final void setShowInMenu(boolean value)
-```
-
-
-Sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
-
 ### getTable() {#getTable--}
 ```
 public final Table getTable()
@@ -247,19 +197,6 @@ Gets a table of the single view.
 
 **Returns:**
 [Table](../../com.aspose.tasks/table) - a table of the single view.
-### setTable(Table value) {#setTable-com.aspose.tasks.Table-}
-```
-public final void setTable(Table value)
-```
-
-
-Sets a table of the single view.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Table](../../com.aspose.tasks/table) | a table of the single view. |
-
 ### getType() {#getType--}
 ```
 public final int getType()
@@ -396,18 +333,81 @@ Returns a value indicating whether this instance is less than or equal to a spec
 
 **Returns:**
 boolean - a value indicating whether this instance is less than or equal to a specified object
-### forViewScreen(int viewScreen) {#forViewScreen-int-}
+### setFilter(Filter value) {#setFilter-com.aspose.tasks.Filter-}
 ```
-public static View forViewScreen(int viewScreen)
+public final void setFilter(Filter value)
 ```
 
 
-Constructs a new instance of the [View](../../com.aspose.tasks/view) class.
+Sets a filter used in a single view.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| viewScreen | int | The screen type for which the view can be displayed. |
+| value | [Filter](../../com.aspose.tasks/filter) | a filter used in a single view. |
 
-**Returns:**
-[View](../../com.aspose.tasks/view) - Constructed view.
+### setGroup(Group value) {#setGroup-com.aspose.tasks.Group-}
+```
+public final void setGroup(Group value)
+```
+
+
+Sets a group of the single view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Group](../../com.aspose.tasks/group) | a group of the single view. |
+
+### setHighlightFilter(boolean value) {#setHighlightFilter-boolean-}
+```
+public final void setHighlightFilter(boolean value)
+```
+
+
+Sets a value indicating whether Microsoft Project highlights the filter for a single view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether Microsoft Project highlights the filter for a single view. |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public final void setName(String value)
+```
+
+
+Sets the name of a View object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | the name of a View object. |
+
+### setShowInMenu(boolean value) {#setShowInMenu-boolean-}
+```
+public final void setShowInMenu(boolean value)
+```
+
+
+Sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
+
+### setTable(Table value) {#setTable-com.aspose.tasks.Table-}
+```
+public final void setTable(Table value)
+```
+
+
+Sets a table of the single view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Table](../../com.aspose.tasks/table) | a table of the single view. |
+

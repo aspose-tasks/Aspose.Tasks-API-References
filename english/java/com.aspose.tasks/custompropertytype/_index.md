@@ -18,26 +18,18 @@ Represents a custom property type enumeration.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | The property has no type. |
-| [String](#String) | The property is a string value. |
-| [DateTime](#DateTime) | The property is a date time value. |
-| [Number](#Number) | The property is an integer number. |
 | [Boolean](#Boolean) | The property is a boolean value. |
-### None {#None}
+| [DateTime](#DateTime) | The property is a date time value. |
+| [None](#None) | The property has no type. |
+| [Number](#Number) | The property is an integer number. |
+| [String](#String) | The property is a string value. |
+### Boolean {#Boolean}
 ```
-public static final int None
-```
-
-
-The property has no type.
-
-### String {#String}
-```
-public static final int String
+public static final int Boolean
 ```
 
 
-The property is a string value.
+The property is a boolean value.
 
 ### DateTime {#DateTime}
 ```
@@ -47,6 +39,14 @@ public static final int DateTime
 
 The property is a date time value.
 
+### None {#None}
+```
+public static final int None
+```
+
+
+The property has no type.
+
 ### Number {#Number}
 ```
 public static final int Number
@@ -55,11 +55,11 @@ public static final int Number
 
 The property is an integer number.
 
-### Boolean {#Boolean}
+### String {#String}
 ```
-public static final int Boolean
+public static final int String
 ```
 
 
-The property is a boolean value.
+The property is a string value.
 

@@ -18,18 +18,10 @@ Contains build version and product information.
 
 | Field | Description |
 | --- | --- |
-| [ASSEMBLY_VERSION](#ASSEMBLY-VERSION) | Assembly version. |
 | [ASSEMBLY_INFORMATIONAL_VERSION](#ASSEMBLY-INFORMATIONAL-VERSION) | The informational version number of the assembly. |
+| [ASSEMBLY_VERSION](#ASSEMBLY-VERSION) | Assembly version. |
 | [FILE_VERSION](#FILE-VERSION) | File version. |
 | [PRODUCT](#PRODUCT) | Product name. |
-### ASSEMBLY_VERSION {#ASSEMBLY-VERSION}
-```
-public static final String ASSEMBLY_VERSION
-```
-
-
-Assembly version.
-
 ### ASSEMBLY_INFORMATIONAL_VERSION {#ASSEMBLY-INFORMATIONAL-VERSION}
 ```
 public static final String ASSEMBLY_INFORMATIONAL_VERSION
@@ -37,6 +29,14 @@ public static final String ASSEMBLY_INFORMATIONAL_VERSION
 
 
 The informational version number of the assembly.
+
+### ASSEMBLY_VERSION {#ASSEMBLY-VERSION}
+```
+public static final String ASSEMBLY_VERSION
+```
+
+
+Assembly version.
 
 ### FILE_VERSION {#FILE-VERSION}
 ```

@@ -18,8 +18,8 @@ Specifies a field in the Microsoft Office Project.
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Undefined field. |
 | [ImportResource](#ImportResource) | Represents the Import (Resource) field. |
+| [ResourceACWP](#ResourceACWP) | Represents the ACWP (Resource) field. |
 | [ResourceAccrueAt](#ResourceAccrueAt) | Represents the Accrue At (Resource) field. |
 | [ResourceActualCost](#ResourceActualCost) | Represents the Actual Cost (Resource) field. |
 | [ResourceActualOvertimeCost](#ResourceActualOvertimeCost) | Represents the Actual Overtime Cost (Resource) field. |
@@ -27,11 +27,18 @@ Specifies a field in the Microsoft Office Project.
 | [ResourceActualOvertimeWorkProtected](#ResourceActualOvertimeWorkProtected) | Represents the Actual Overtime Work Protected (Resource) field. |
 | [ResourceActualWork](#ResourceActualWork) | Represents the Actual Work (Resource) field. |
 | [ResourceActualWorkProtected](#ResourceActualWorkProtected) | Represents the Actual Work Protected (Resource) field. |
-| [ResourceACWP](#ResourceACWP) | Represents the ACWP (Resource) field. |
+| [ResourceAssignmentBaseLineCost](#ResourceAssignmentBaseLineCost) | Represents the Baseline Cost (Assignment) field. |
+| [ResourceAssignmentBaseLineCostPerUse](#ResourceAssignmentBaseLineCostPerUse) | Represents the Baseline Cost Per Use (Assignment) field. |
+| [ResourceAssignmentBaseLineFinish](#ResourceAssignmentBaseLineFinish) | Represents the Baseline Finish (Assignment) field. |
+| [ResourceAssignmentBaseLineStart](#ResourceAssignmentBaseLineStart) | Represents the Baseline Start (Assignment) field. |
+| [ResourceAssignmentBaseLineWork](#ResourceAssignmentBaseLineWork) | Represents the Baseline Work (Assignment) field. |
 | [ResourceAssignmentDelay](#ResourceAssignmentDelay) | Represents the Assignment Delay (Resource) field. |
+| [ResourceAssignmentGuid](#ResourceAssignmentGuid) | Represents the GUID (Assignment) field. |
 | [ResourceAssignmentUnits](#ResourceAssignmentUnits) | Represents the Assignment Units (Resource) field. |
 | [ResourceAvailableFrom](#ResourceAvailableFrom) | Represents the Available From (Resource) field. |
 | [ResourceAvailableTo](#ResourceAvailableTo) | Represents the Available To (Resource) field. |
+| [ResourceBCWP](#ResourceBCWP) | Represents the BCWP (Resource) field. |
+| [ResourceBCWS](#ResourceBCWS) | Represents the BCWS (Resource) field. |
 | [ResourceBaseCalendar](#ResourceBaseCalendar) | Represents the Base Calendar (Resource) field. |
 | [ResourceBaseline10BudgetCost](#ResourceBaseline10BudgetCost) | Represents the Baseline10 Budget Cost (Resource) field. |
 | [ResourceBaseline10BudgetWork](#ResourceBaseline10BudgetWork) | Represents the Baseline10 Budget Work (Resource) field. |
@@ -99,12 +106,11 @@ Specifies a field in the Microsoft Office Project.
 | [ResourceBaselineFinish](#ResourceBaselineFinish) | Represents the Baseline Finish (Resource) field. |
 | [ResourceBaselineStart](#ResourceBaselineStart) | Represents the Baseline Start (Resource) field. |
 | [ResourceBaselineWork](#ResourceBaselineWork) | Represents the Baseline Work (Resource) field. |
-| [ResourceBCWP](#ResourceBCWP) | Represents the BCWP (Resource) field. |
-| [ResourceBCWS](#ResourceBCWS) | Represents the BCWS (Resource) field. |
 | [ResourceBookingType](#ResourceBookingType) | Represents the Booking Type (Resource) field. |
 | [ResourceBudget](#ResourceBudget) | Represents the Budget (Resource) field. |
 | [ResourceBudgetCost](#ResourceBudgetCost) | Represents the Budget Cost (Resource) field. |
 | [ResourceBudgetWork](#ResourceBudgetWork) | Represents the Budget Work (Resource) field. |
+| [ResourceCV](#ResourceCV) | Represents the CV (Resource) field. |
 | [ResourceCalendarGuid](#ResourceCalendarGuid) | Represents the Calendar GUID (Resource) field. |
 | [ResourceCanLevel](#ResourceCanLevel) | Represents the Can Level (Resource) field. |
 | [ResourceCode](#ResourceCode) | Represents the Code (Resource) field. |
@@ -125,7 +131,6 @@ Specifies a field in the Microsoft Office Project.
 | [ResourceCostRateTable](#ResourceCostRateTable) | Represents the Cost Rate Table (Resource) field. |
 | [ResourceCostVariance](#ResourceCostVariance) | Represents the Cost Variance (Resource) field. |
 | [ResourceCreated](#ResourceCreated) | Represents the Created (Resource) field. |
-| [ResourceCV](#ResourceCV) | Represents the CV (Resource) field. |
 | [ResourceDate1](#ResourceDate1) | Represents the Date1 (Resource) field. |
 | [ResourceDate10](#ResourceDate10) | Represents the Date10 (Resource) field. |
 | [ResourceDate2](#ResourceDate2) | Represents the Date2 (Resource) field. |
@@ -447,6 +452,7 @@ Specifies a field in the Microsoft Office Project.
 | [ResourceRemainingOvertimeWork](#ResourceRemainingOvertimeWork) | Represents the Remaining Overtime Work (Resource) field. |
 | [ResourceRemainingWork](#ResourceRemainingWork) | Represents the Remaining Work (Resource) field. |
 | [ResourceResponsePending](#ResourceResponsePending) | Represents the Response Pending (Resource) field. |
+| [ResourceSV](#ResourceSV) | Represents the SV (Resource) field. |
 | [ResourceSheetNotes](#ResourceSheetNotes) | Represents the Sheet Notes (Resource) field. |
 | [ResourceStandardRate](#ResourceStandardRate) | Represents the Standard Rate (Resource) field. |
 | [ResourceStart](#ResourceStart) | Represents the Start (Resource) field. |
@@ -460,7 +466,6 @@ Specifies a field in the Microsoft Office Project.
 | [ResourceStart7](#ResourceStart7) | Represents the Start7 (Resource) field. |
 | [ResourceStart8](#ResourceStart8) | Represents the Start8 (Resource) field. |
 | [ResourceStart9](#ResourceStart9) | Represents the Start9 (Resource) field. |
-| [ResourceSV](#ResourceSV) | Represents the SV (Resource) field. |
 | [ResourceTaskSummaryName](#ResourceTaskSummaryName) | Represents the Task Summary Name (Resource) field. |
 | [ResourceTeamStatusPending](#ResourceTeamStatusPending) | Represents the Team Status Pending (Resource) field. |
 | [ResourceText1](#ResourceText1) | Represents the Text1 (Resource) field. |
@@ -502,8 +507,9 @@ Specifies a field in the Microsoft Office Project.
 | [ResourceWindowsUserAccount](#ResourceWindowsUserAccount) | Represents the Windows User Account (Resource) field. |
 | [ResourceWork](#ResourceWork) | Represents the Work (Resource) field. |
 | [ResourceWorkContour](#ResourceWorkContour) | Represents the Work Contour (Resource) field. |
-| [ResourceWorkgroup](#ResourceWorkgroup) | Represents the Workgroup (Resource) field. |
 | [ResourceWorkVariance](#ResourceWorkVariance) | Represents the Work Variance (Resource) field. |
+| [ResourceWorkgroup](#ResourceWorkgroup) | Represents the Workgroup (Resource) field. |
+| [TaskACWP](#TaskACWP) | Represents the ACWP (Task) field. |
 | [TaskActive](#TaskActive) | Represents the Active Task (Task) field. |
 | [TaskActualCost](#TaskActualCost) | Represents the ActualCost (Task) field. |
 | [TaskActualDuration](#TaskActualDuration) | Represents the Actual Duration (Task) field. |
@@ -514,11 +520,13 @@ Specifies a field in the Microsoft Office Project.
 | [TaskActualStart](#TaskActualStart) | Represents the Actual Start (Task) field. |
 | [TaskActualWork](#TaskActualWork) | Represents the Actual Work (Task) field. |
 | [TaskActualWorkProtected](#TaskActualWorkProtected) | Represents the Actual Work Protected (Task) field. |
-| [TaskACWP](#TaskACWP) | Represents the ACWP (Task) field. |
 | [TaskAssignmentDelay](#TaskAssignmentDelay) | Represents the Assignment Delay (Task) field. |
 | [TaskAssignmentOwner](#TaskAssignmentOwner) | Represents the Assignment Owner (Task) field. |
 | [TaskAssignmentPeakUnits](#TaskAssignmentPeakUnits) | Represents the Assignment Peak Units (Task) field. |
 | [TaskAssignmentUnits](#TaskAssignmentUnits) | Represents the Assignment Units (Task) field. |
+| [TaskBCWP](#TaskBCWP) | Represents the BCWP (Task) field. |
+| [TaskBCWS](#TaskBCWS) | Represents the BCWS (Task) field. |
+| [TaskBaseLineFixedCost](#TaskBaseLineFixedCost) | Represents the Baseline Fixed Cost (Task) field. |
 | [TaskBaseline10BudgetCost](#TaskBaseline10BudgetCost) | Represents the Baseline10 Budget Cost (Task) field. |
 | [TaskBaseline10BudgetWork](#TaskBaseline10BudgetWork) | Represents the Baseline10 Budget Work (Task) field. |
 | [TaskBaseline10Cost](#TaskBaseline10Cost) | Represents the Baseline10 Cost (Task) field |
@@ -673,12 +681,14 @@ Specifies a field in the Microsoft Office Project.
 | [TaskBaselineStart](#TaskBaselineStart) | Represents the Baseline Start (Task) field. |
 | [TaskBaselineStartText](#TaskBaselineStartText) | Represents the Baseline Start Text (Task) field. |
 | [TaskBaselineWork](#TaskBaselineWork) | Represents the Baseline Work (Task) field. |
-| [TaskBCWP](#TaskBCWP) | Represents the BCWP (Task) field. |
-| [TaskBCWS](#TaskBCWS) | Represents the BCWS (Task) field. |
 | [TaskBudgetCost](#TaskBudgetCost) | Represents the Budget Cost (Task) field. |
 | [TaskBudgetWork](#TaskBudgetWork) | Represents the Budget Work (Task) field. |
+| [TaskCPI](#TaskCPI) | Represents the CPI (Task) field. |
+| [TaskCV](#TaskCV) | Represents the CV (Task) field. |
+| [TaskCVPercent](#TaskCVPercent) | Represents the CV Percent (Task) field. |
 | [TaskCalendar](#TaskCalendar) | Represents the Calendar (Task) field. |
 | [TaskCalendarGuid](#TaskCalendarGuid) | Represents the Calendar GUID (Task) field. |
+| [TaskCompleteThrough](#TaskCompleteThrough) | Available only in the Bar Styles dialog box in MSP and is represented as a bar on the Gantt Chart. |
 | [TaskConfirmed](#TaskConfirmed) | Represents the Confirmed (Task) field. |
 | [TaskConstraintDate](#TaskConstraintDate) | Represents the Constraint Date (Task) field. |
 | [TaskConstraintType](#TaskConstraintType) | Represents the Constraint Type (Task) field. |
@@ -696,11 +706,8 @@ Specifies a field in the Microsoft Office Project.
 | [TaskCost9](#TaskCost9) | Represents the Cost9 (Task) field. |
 | [TaskCostRateTable](#TaskCostRateTable) | Represents the Cost Rate Table (Task) field. |
 | [TaskCostVariance](#TaskCostVariance) | Represents the Cost Variance (Task) field. |
-| [TaskCPI](#TaskCPI) | Represents the CPI (Task) field. |
 | [TaskCreated](#TaskCreated) | Represents the Created (Task) field. |
 | [TaskCritical](#TaskCritical) | Represents the Critical (Task) field. |
-| [TaskCV](#TaskCV) | Represents the CV (Task) field. |
-| [TaskCVPercent](#TaskCVPercent) | Represents the CV Percent (Task) field. |
 | [TaskDate1](#TaskDate1) | Represents the Date1 (Task) field. |
 | [TaskDate10](#TaskDate10) | Represents the Date10 (Task) field. |
 | [TaskDate2](#TaskDate2) | Represents the Date2 (Task) field. |
@@ -1151,10 +1158,10 @@ Specifies a field in the Microsoft Office Project.
 | [TaskGroupBySummary](#TaskGroupBySummary) | Represents the Group By Summary (Task) field. |
 | [TaskGuid](#TaskGuid) | Represents the Task GUID (Task) field. |
 | [TaskHideBar](#TaskHideBar) | Represents the Hide Bar (Task) field. |
-| [TaskHyperlinkId](#TaskHyperlinkId) | Represents the Hyperlink ID (Task) field. |
 | [TaskHyperlink](#TaskHyperlink) | Represents the Hyperlink (Task) field. |
 | [TaskHyperlinkAddress](#TaskHyperlinkAddress) | Represents the Hyperlink Address (Task) field. |
 | [TaskHyperlinkHref](#TaskHyperlinkHref) | Represents the Hyperlink HRef (Task) field. |
+| [TaskHyperlinkId](#TaskHyperlinkId) | Represents the Hyperlink ID (Task) field. |
 | [TaskHyperlinkScreenTip](#TaskHyperlinkScreenTip) | Represents the Hyperlink ScreenTip (Task) field. |
 | [TaskHyperlinkSubAddress](#TaskHyperlinkSubAddress) | Represents the Hyperlink Sub Address (Task) field. |
 | [TaskID](#TaskID) | Represents the ID (Task) field. |
@@ -1165,8 +1172,8 @@ Specifies a field in the Microsoft Office Project.
 | [TaskIsAssignment](#TaskIsAssignment) | Represents the Is Assignment (Task) field. |
 | [TaskIsDurationValid](#TaskIsDurationValid) | Represents the field that shows whether task duration is valid, when converting from a manual to an automatically scheduled task. |
 | [TaskIsFinishValid](#TaskIsFinishValid) | Represents the field that shows whether task finish date is valid, when converting from a manual to an automatically scheduled task. |
-| [TaskIsStartValid](#TaskIsStartValid) | Represents the field that shows whether task start date is valid, when converting from a manual to an automatically scheduled task. |
 | [TaskIsPublished](#TaskIsPublished) | Represents the Is Published (Task) field. |
+| [TaskIsStartValid](#TaskIsStartValid) | Represents the field that shows whether task start date is valid, when converting from a manual to an automatically scheduled task. |
 | [TaskLateFinish](#TaskLateFinish) | Represents the Late Finish (Task) field. |
 | [TaskLateStart](#TaskLateStart) | Represents the Late Start (Task) field. |
 | [TaskLevelAssignments](#TaskLevelAssignments) | Represents the Level Assignments (Task) field. |
@@ -1214,12 +1221,11 @@ Specifies a field in the Microsoft Office Project.
 | [TaskOverallocated](#TaskOverallocated) | Represents the Overallocated (Task) field. |
 | [TaskOvertimeCost](#TaskOvertimeCost) | Represents the Overtime Cost (Task) field. |
 | [TaskOvertimeWork](#TaskOvertimeWork) | Represents the Overtime Work (Task) field. |
+| [TaskParentTask](#TaskParentTask) | Represents the Parent Task (Task) field. |
 | [TaskPathDrivenSuccessor](#TaskPathDrivenSuccessor) | The driven successor field for a task path. |
 | [TaskPathDrivingPredecessor](#TaskPathDrivingPredecessor) | The driving predecessor field for a task path. |
 | [TaskPathPredecessor](#TaskPathPredecessor) | The predecessor field for a task path. |
 | [TaskPathSuccessor](#TaskPathSuccessor) | The successor field for a task path. |
-| [TaskSummaryName](#TaskSummaryName) | The name of the summary task associated with the task. |
-| [TaskParentTask](#TaskParentTask) | Represents the Parent Task (Task) field. |
 | [TaskPercentComplete](#TaskPercentComplete) | Represents the Percent Complete (Task) field. |
 | [TaskPercentWorkComplete](#TaskPercentWorkComplete) | Represents the Percent Work Complete (Task) field. |
 | [TaskPhysicalPercentComplete](#TaskPhysicalPercentComplete) | Represents the Physical Percent Complete (Task) field. |
@@ -1286,11 +1292,13 @@ Specifies a field in the Microsoft Office Project.
 | [TaskResume](#TaskResume) | Represents the Resume (Task) field. |
 | [TaskResumeNoEarlierThan](#TaskResumeNoEarlierThan) | Represents the Resume No Earlier Than (Task) field. |
 | [TaskRollup](#TaskRollup) | Represents the Rollup (Task) field. |
+| [TaskSPI](#TaskSPI) | Represents the SPI (Task) field. |
+| [TaskSV](#TaskSV) | Represents the SV (Task) field. |
+| [TaskSVPercent](#TaskSVPercent) | Represents the SV Percent (Task) field. |
 | [TaskScheduledDuration](#TaskScheduledDuration) | Represents the Task Scheduled Duration (Task) field. |
 | [TaskScheduledFinish](#TaskScheduledFinish) | Represents the Task Scheduled Finish (Task) field. |
 | [TaskScheduledStart](#TaskScheduledStart) | Represents the Task Scheduled Start (Task) field. |
 | [TaskSheetNotes](#TaskSheetNotes) | Represents the Sheet Notes (Task) field. |
-| [TaskSPI](#TaskSPI) | Represents the SPI (Task) field. |
 | [TaskStart](#TaskStart) | Represents the Start (Task) field. |
 | [TaskStart1](#TaskStart1) | Represents the Start1 (Task) field. |
 | [TaskStart10](#TaskStart10) | Represents the Start10 (Task) field. |
@@ -1313,8 +1321,7 @@ Specifies a field in the Microsoft Office Project.
 | [TaskSubprojectReadOnly](#TaskSubprojectReadOnly) | Represents the Subproject Read Only (Task) field. |
 | [TaskSuccessors](#TaskSuccessors) | Represents the Successors (Task) field. |
 | [TaskSummary](#TaskSummary) | Represents the Summary (Task) field. |
-| [TaskSV](#TaskSV) | Represents the SV (Task) field. |
-| [TaskSVPercent](#TaskSVPercent) | Represents the SV Percent (Task) field. |
+| [TaskSummaryName](#TaskSummaryName) | The name of the summary task associated with the task. |
 | [TaskTCPI](#TaskTCPI) | Represents the TCPI (Task) field. |
 | [TaskTeamStatusPending](#TaskTeamStatusPending) | Represents the Team Status Pending (Task) field. |
 | [TaskText1](#TaskText1) | Represents the Text1 (Task) field. |
@@ -1354,29 +1361,14 @@ Specifies a field in the Microsoft Office Project.
 | [TaskUniqueSuccessors](#TaskUniqueSuccessors) | Represents the Unique ID Successors (Task) field. |
 | [TaskUpdateNeeded](#TaskUpdateNeeded) | Represents the Update Needed (Task) field. |
 | [TaskVAC](#TaskVAC) | Represents the VAC (Task) field. |
-| [TaskWarning](#TaskWarning) | Represents the Task Warning (Task) field. |
 | [TaskWBS](#TaskWBS) | Represents the WBS (Task) field. |
 | [TaskWBSPredecessors](#TaskWBSPredecessors) | Represents the WBS Predecessors (Task) field. |
 | [TaskWBSSuccessors](#TaskWBSSuccessors) | Represents the WBS Successors (Task) field. |
+| [TaskWarning](#TaskWarning) | Represents the Task Warning (Task) field. |
 | [TaskWork](#TaskWork) | Represents the Work (Task) field. |
 | [TaskWorkContour](#TaskWorkContour) | Represents the Work Contour (Task) field. |
 | [TaskWorkVariance](#TaskWorkVariance) | Represents the Work Variance (Task) field. |
-| [TaskCompleteThrough](#TaskCompleteThrough) | Available only in the Bar Styles dialog box in MSP and is represented as a bar on the Gantt Chart. |
-| [TaskBaseLineFixedCost](#TaskBaseLineFixedCost) | Represents the Baseline Fixed Cost (Task) field. |
-| [ResourceAssignmentGuid](#ResourceAssignmentGuid) | Represents the GUID (Assignment) field. |
-| [ResourceAssignmentBaseLineStart](#ResourceAssignmentBaseLineStart) | Represents the Baseline Start (Assignment) field. |
-| [ResourceAssignmentBaseLineFinish](#ResourceAssignmentBaseLineFinish) | Represents the Baseline Finish (Assignment) field. |
-| [ResourceAssignmentBaseLineCost](#ResourceAssignmentBaseLineCost) | Represents the Baseline Cost (Assignment) field. |
-| [ResourceAssignmentBaseLineWork](#ResourceAssignmentBaseLineWork) | Represents the Baseline Work (Assignment) field. |
-| [ResourceAssignmentBaseLineCostPerUse](#ResourceAssignmentBaseLineCostPerUse) | Represents the Baseline Cost Per Use (Assignment) field. |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-Undefined field.
-
+| [Undefined](#Undefined) | Undefined field. |
 ### ImportResource {#ImportResource}
 ```
 public static final int ImportResource
@@ -1384,6 +1376,14 @@ public static final int ImportResource
 
 
 Represents the Import (Resource) field.
+
+### ResourceACWP {#ResourceACWP}
+```
+public static final int ResourceACWP
+```
+
+
+Represents the ACWP (Resource) field.
 
 ### ResourceAccrueAt {#ResourceAccrueAt}
 ```
@@ -1441,13 +1441,45 @@ public static final int ResourceActualWorkProtected
 
 Represents the Actual Work Protected (Resource) field.
 
-### ResourceACWP {#ResourceACWP}
+### ResourceAssignmentBaseLineCost {#ResourceAssignmentBaseLineCost}
 ```
-public static final int ResourceACWP
+public static final int ResourceAssignmentBaseLineCost
 ```
 
 
-Represents the ACWP (Resource) field.
+Represents the Baseline Cost (Assignment) field.
+
+### ResourceAssignmentBaseLineCostPerUse {#ResourceAssignmentBaseLineCostPerUse}
+```
+public static final int ResourceAssignmentBaseLineCostPerUse
+```
+
+
+Represents the Baseline Cost Per Use (Assignment) field.
+
+### ResourceAssignmentBaseLineFinish {#ResourceAssignmentBaseLineFinish}
+```
+public static final int ResourceAssignmentBaseLineFinish
+```
+
+
+Represents the Baseline Finish (Assignment) field.
+
+### ResourceAssignmentBaseLineStart {#ResourceAssignmentBaseLineStart}
+```
+public static final int ResourceAssignmentBaseLineStart
+```
+
+
+Represents the Baseline Start (Assignment) field.
+
+### ResourceAssignmentBaseLineWork {#ResourceAssignmentBaseLineWork}
+```
+public static final int ResourceAssignmentBaseLineWork
+```
+
+
+Represents the Baseline Work (Assignment) field.
 
 ### ResourceAssignmentDelay {#ResourceAssignmentDelay}
 ```
@@ -1456,6 +1488,14 @@ public static final int ResourceAssignmentDelay
 
 
 Represents the Assignment Delay (Resource) field.
+
+### ResourceAssignmentGuid {#ResourceAssignmentGuid}
+```
+public static final int ResourceAssignmentGuid
+```
+
+
+Represents the GUID (Assignment) field.
 
 ### ResourceAssignmentUnits {#ResourceAssignmentUnits}
 ```
@@ -1480,6 +1520,22 @@ public static final int ResourceAvailableTo
 
 
 Represents the Available To (Resource) field.
+
+### ResourceBCWP {#ResourceBCWP}
+```
+public static final int ResourceBCWP
+```
+
+
+Represents the BCWP (Resource) field.
+
+### ResourceBCWS {#ResourceBCWS}
+```
+public static final int ResourceBCWS
+```
+
+
+Represents the BCWS (Resource) field.
 
 ### ResourceBaseCalendar {#ResourceBaseCalendar}
 ```
@@ -2017,22 +2073,6 @@ public static final int ResourceBaselineWork
 
 Represents the Baseline Work (Resource) field.
 
-### ResourceBCWP {#ResourceBCWP}
-```
-public static final int ResourceBCWP
-```
-
-
-Represents the BCWP (Resource) field.
-
-### ResourceBCWS {#ResourceBCWS}
-```
-public static final int ResourceBCWS
-```
-
-
-Represents the BCWS (Resource) field.
-
 ### ResourceBookingType {#ResourceBookingType}
 ```
 public static final int ResourceBookingType
@@ -2064,6 +2104,14 @@ public static final int ResourceBudgetWork
 
 
 Represents the Budget Work (Resource) field.
+
+### ResourceCV {#ResourceCV}
+```
+public static final int ResourceCV
+```
+
+
+Represents the CV (Resource) field.
 
 ### ResourceCalendarGuid {#ResourceCalendarGuid}
 ```
@@ -2224,14 +2272,6 @@ public static final int ResourceCreated
 
 
 Represents the Created (Resource) field.
-
-### ResourceCV {#ResourceCV}
-```
-public static final int ResourceCV
-```
-
-
-Represents the CV (Resource) field.
 
 ### ResourceDate1 {#ResourceDate1}
 ```
@@ -4801,6 +4841,14 @@ public static final int ResourceResponsePending
 
 Represents the Response Pending (Resource) field.
 
+### ResourceSV {#ResourceSV}
+```
+public static final int ResourceSV
+```
+
+
+Represents the SV (Resource) field.
+
 ### ResourceSheetNotes {#ResourceSheetNotes}
 ```
 public static final int ResourceSheetNotes
@@ -4904,14 +4952,6 @@ public static final int ResourceStart9
 
 
 Represents the Start9 (Resource) field.
-
-### ResourceSV {#ResourceSV}
-```
-public static final int ResourceSV
-```
-
-
-Represents the SV (Resource) field.
 
 ### ResourceTaskSummaryName {#ResourceTaskSummaryName}
 ```
@@ -5241,6 +5281,14 @@ public static final int ResourceWorkContour
 
 Represents the Work Contour (Resource) field.
 
+### ResourceWorkVariance {#ResourceWorkVariance}
+```
+public static final int ResourceWorkVariance
+```
+
+
+Represents the Work Variance (Resource) field.
+
 ### ResourceWorkgroup {#ResourceWorkgroup}
 ```
 public static final int ResourceWorkgroup
@@ -5249,13 +5297,13 @@ public static final int ResourceWorkgroup
 
 Represents the Workgroup (Resource) field.
 
-### ResourceWorkVariance {#ResourceWorkVariance}
+### TaskACWP {#TaskACWP}
 ```
-public static final int ResourceWorkVariance
+public static final int TaskACWP
 ```
 
 
-Represents the Work Variance (Resource) field.
+Represents the ACWP (Task) field.
 
 ### TaskActive {#TaskActive}
 ```
@@ -5337,14 +5385,6 @@ public static final int TaskActualWorkProtected
 
 Represents the Actual Work Protected (Task) field.
 
-### TaskACWP {#TaskACWP}
-```
-public static final int TaskACWP
-```
-
-
-Represents the ACWP (Task) field.
-
 ### TaskAssignmentDelay {#TaskAssignmentDelay}
 ```
 public static final int TaskAssignmentDelay
@@ -5376,6 +5416,30 @@ public static final int TaskAssignmentUnits
 
 
 Represents the Assignment Units (Task) field.
+
+### TaskBCWP {#TaskBCWP}
+```
+public static final int TaskBCWP
+```
+
+
+Represents the BCWP (Task) field.
+
+### TaskBCWS {#TaskBCWS}
+```
+public static final int TaskBCWS
+```
+
+
+Represents the BCWS (Task) field.
+
+### TaskBaseLineFixedCost {#TaskBaseLineFixedCost}
+```
+public static final int TaskBaseLineFixedCost
+```
+
+
+Represents the Baseline Fixed Cost (Task) field.
 
 ### TaskBaseline10BudgetCost {#TaskBaseline10BudgetCost}
 ```
@@ -6609,22 +6673,6 @@ public static final int TaskBaselineWork
 
 Represents the Baseline Work (Task) field.
 
-### TaskBCWP {#TaskBCWP}
-```
-public static final int TaskBCWP
-```
-
-
-Represents the BCWP (Task) field.
-
-### TaskBCWS {#TaskBCWS}
-```
-public static final int TaskBCWS
-```
-
-
-Represents the BCWS (Task) field.
-
 ### TaskBudgetCost {#TaskBudgetCost}
 ```
 public static final int TaskBudgetCost
@@ -6641,6 +6689,30 @@ public static final int TaskBudgetWork
 
 Represents the Budget Work (Task) field.
 
+### TaskCPI {#TaskCPI}
+```
+public static final int TaskCPI
+```
+
+
+Represents the CPI (Task) field.
+
+### TaskCV {#TaskCV}
+```
+public static final int TaskCV
+```
+
+
+Represents the CV (Task) field.
+
+### TaskCVPercent {#TaskCVPercent}
+```
+public static final int TaskCVPercent
+```
+
+
+Represents the CV Percent (Task) field.
+
 ### TaskCalendar {#TaskCalendar}
 ```
 public static final int TaskCalendar
@@ -6656,6 +6728,14 @@ public static final int TaskCalendarGuid
 
 
 Represents the Calendar GUID (Task) field.
+
+### TaskCompleteThrough {#TaskCompleteThrough}
+```
+public static final int TaskCompleteThrough
+```
+
+
+Available only in the Bar Styles dialog box in MSP and is represented as a bar on the Gantt Chart.
 
 ### TaskConfirmed {#TaskConfirmed}
 ```
@@ -6793,14 +6873,6 @@ public static final int TaskCostVariance
 
 Represents the Cost Variance (Task) field.
 
-### TaskCPI {#TaskCPI}
-```
-public static final int TaskCPI
-```
-
-
-Represents the CPI (Task) field.
-
 ### TaskCreated {#TaskCreated}
 ```
 public static final int TaskCreated
@@ -6816,22 +6888,6 @@ public static final int TaskCritical
 
 
 Represents the Critical (Task) field.
-
-### TaskCV {#TaskCV}
-```
-public static final int TaskCV
-```
-
-
-Represents the CV (Task) field.
-
-### TaskCVPercent {#TaskCVPercent}
-```
-public static final int TaskCVPercent
-```
-
-
-Represents the CV Percent (Task) field.
 
 ### TaskDate1 {#TaskDate1}
 ```
@@ -10433,14 +10489,6 @@ public static final int TaskHideBar
 
 Represents the Hide Bar (Task) field.
 
-### TaskHyperlinkId {#TaskHyperlinkId}
-```
-public static final int TaskHyperlinkId
-```
-
-
-Represents the Hyperlink ID (Task) field.
-
 ### TaskHyperlink {#TaskHyperlink}
 ```
 public static final int TaskHyperlink
@@ -10464,6 +10512,14 @@ public static final int TaskHyperlinkHref
 
 
 Represents the Hyperlink HRef (Task) field.
+
+### TaskHyperlinkId {#TaskHyperlinkId}
+```
+public static final int TaskHyperlinkId
+```
+
+
+Represents the Hyperlink ID (Task) field.
 
 ### TaskHyperlinkScreenTip {#TaskHyperlinkScreenTip}
 ```
@@ -10545,14 +10601,6 @@ public static final int TaskIsFinishValid
 
 Represents the field that shows whether task finish date is valid, when converting from a manual to an automatically scheduled task.
 
-### TaskIsStartValid {#TaskIsStartValid}
-```
-public static final int TaskIsStartValid
-```
-
-
-Represents the field that shows whether task start date is valid, when converting from a manual to an automatically scheduled task.
-
 ### TaskIsPublished {#TaskIsPublished}
 ```
 public static final int TaskIsPublished
@@ -10560,6 +10608,14 @@ public static final int TaskIsPublished
 
 
 Represents the Is Published (Task) field.
+
+### TaskIsStartValid {#TaskIsStartValid}
+```
+public static final int TaskIsStartValid
+```
+
+
+Represents the field that shows whether task start date is valid, when converting from a manual to an automatically scheduled task.
 
 ### TaskLateFinish {#TaskLateFinish}
 ```
@@ -10937,6 +10993,14 @@ public static final int TaskOvertimeWork
 
 Represents the Overtime Work (Task) field.
 
+### TaskParentTask {#TaskParentTask}
+```
+public static final int TaskParentTask
+```
+
+
+Represents the Parent Task (Task) field.
+
 ### TaskPathDrivenSuccessor {#TaskPathDrivenSuccessor}
 ```
 public static final int TaskPathDrivenSuccessor
@@ -10968,22 +11032,6 @@ public static final int TaskPathSuccessor
 
 
 The successor field for a task path. See the Task.PathSuccessor property.
-
-### TaskSummaryName {#TaskSummaryName}
-```
-public static final int TaskSummaryName
-```
-
-
-The name of the summary task associated with the task.
-
-### TaskParentTask {#TaskParentTask}
-```
-public static final int TaskParentTask
-```
-
-
-Represents the Parent Task (Task) field.
 
 ### TaskPercentComplete {#TaskPercentComplete}
 ```
@@ -11513,6 +11561,30 @@ public static final int TaskRollup
 
 Represents the Rollup (Task) field.
 
+### TaskSPI {#TaskSPI}
+```
+public static final int TaskSPI
+```
+
+
+Represents the SPI (Task) field.
+
+### TaskSV {#TaskSV}
+```
+public static final int TaskSV
+```
+
+
+Represents the SV (Task) field.
+
+### TaskSVPercent {#TaskSVPercent}
+```
+public static final int TaskSVPercent
+```
+
+
+Represents the SV Percent (Task) field.
+
 ### TaskScheduledDuration {#TaskScheduledDuration}
 ```
 public static final int TaskScheduledDuration
@@ -11544,14 +11616,6 @@ public static final int TaskSheetNotes
 
 
 Represents the Sheet Notes (Task) field.
-
-### TaskSPI {#TaskSPI}
-```
-public static final int TaskSPI
-```
-
-
-Represents the SPI (Task) field.
 
 ### TaskStart {#TaskStart}
 ```
@@ -11729,21 +11793,13 @@ public static final int TaskSummary
 
 Represents the Summary (Task) field.
 
-### TaskSV {#TaskSV}
+### TaskSummaryName {#TaskSummaryName}
 ```
-public static final int TaskSV
-```
-
-
-Represents the SV (Task) field.
-
-### TaskSVPercent {#TaskSVPercent}
-```
-public static final int TaskSVPercent
+public static final int TaskSummaryName
 ```
 
 
-Represents the SV Percent (Task) field.
+The name of the summary task associated with the task.
 
 ### TaskTCPI {#TaskTCPI}
 ```
@@ -12057,14 +12113,6 @@ public static final int TaskVAC
 
 Represents the VAC (Task) field.
 
-### TaskWarning {#TaskWarning}
-```
-public static final int TaskWarning
-```
-
-
-Represents the Task Warning (Task) field.
-
 ### TaskWBS {#TaskWBS}
 ```
 public static final int TaskWBS
@@ -12088,6 +12136,14 @@ public static final int TaskWBSSuccessors
 
 
 Represents the WBS Successors (Task) field.
+
+### TaskWarning {#TaskWarning}
+```
+public static final int TaskWarning
+```
+
+
+Represents the Task Warning (Task) field.
 
 ### TaskWork {#TaskWork}
 ```
@@ -12113,67 +12169,11 @@ public static final int TaskWorkVariance
 
 Represents the Work Variance (Task) field.
 
-### TaskCompleteThrough {#TaskCompleteThrough}
+### Undefined {#Undefined}
 ```
-public static final int TaskCompleteThrough
-```
-
-
-Available only in the Bar Styles dialog box in MSP and is represented as a bar on the Gantt Chart.
-
-### TaskBaseLineFixedCost {#TaskBaseLineFixedCost}
-```
-public static final int TaskBaseLineFixedCost
+public static final int Undefined
 ```
 
 
-Represents the Baseline Fixed Cost (Task) field.
-
-### ResourceAssignmentGuid {#ResourceAssignmentGuid}
-```
-public static final int ResourceAssignmentGuid
-```
-
-
-Represents the GUID (Assignment) field.
-
-### ResourceAssignmentBaseLineStart {#ResourceAssignmentBaseLineStart}
-```
-public static final int ResourceAssignmentBaseLineStart
-```
-
-
-Represents the Baseline Start (Assignment) field.
-
-### ResourceAssignmentBaseLineFinish {#ResourceAssignmentBaseLineFinish}
-```
-public static final int ResourceAssignmentBaseLineFinish
-```
-
-
-Represents the Baseline Finish (Assignment) field.
-
-### ResourceAssignmentBaseLineCost {#ResourceAssignmentBaseLineCost}
-```
-public static final int ResourceAssignmentBaseLineCost
-```
-
-
-Represents the Baseline Cost (Assignment) field.
-
-### ResourceAssignmentBaseLineWork {#ResourceAssignmentBaseLineWork}
-```
-public static final int ResourceAssignmentBaseLineWork
-```
-
-
-Represents the Baseline Work (Assignment) field.
-
-### ResourceAssignmentBaseLineCostPerUse {#ResourceAssignmentBaseLineCostPerUse}
-```
-public static final int ResourceAssignmentBaseLineCostPerUse
-```
-
-
-Represents the Baseline Cost Per Use (Assignment) field.
+Undefined field.
 

@@ -24,8 +24,8 @@ Specifies settings for performing risk analysis.
 | Method | Description |
 | --- | --- |
 | [getIterationsCount()](#getIterationsCount--) | Gets the number of iterations to use in Monte Carlo simulation. |
-| [setIterationsCount(int value)](#setIterationsCount-int-) | Sets the number of iterations to use in Monte Carlo simulation. |
 | [getPatterns()](#getPatterns--) | Gets a collection containing the instances of the [RiskPattern](../../com.aspose.tasks/riskpattern) class. |
+| [setIterationsCount(int value)](#setIterationsCount-int-) | Sets the number of iterations to use in Monte Carlo simulation. |
 ### RiskAnalysisSettings() {#RiskAnalysisSettings--}
 ```
 public RiskAnalysisSettings()
@@ -44,6 +44,16 @@ Gets the number of iterations to use in Monte Carlo simulation. The default valu
 
 **Returns:**
 int - the number of iterations to use in Monte Carlo simulation.
+### getPatterns() {#getPatterns--}
+```
+public final RiskPatternCollection getPatterns()
+```
+
+
+Gets a collection containing the instances of the [RiskPattern](../../com.aspose.tasks/riskpattern) class.
+
+**Returns:**
+[RiskPatternCollection](../../com.aspose.tasks/riskpatterncollection) - a collection containing the instances of the [RiskPattern](../../com.aspose.tasks/riskpattern) class.
 ### setIterationsCount(int value) {#setIterationsCount-int-}
 ```
 public final void setIterationsCount(int value)
@@ -57,13 +67,3 @@ Sets the number of iterations to use in Monte Carlo simulation. The default valu
 | --- | --- | --- |
 | value | int | the number of iterations to use in Monte Carlo simulation. |
 
-### getPatterns() {#getPatterns--}
-```
-public final RiskPatternCollection getPatterns()
-```
-
-
-Gets a collection containing the instances of the [RiskPattern](../../com.aspose.tasks/riskpattern) class.
-
-**Returns:**
-[RiskPatternCollection](../../com.aspose.tasks/riskpatterncollection) - a collection containing the instances of the [RiskPattern](../../com.aspose.tasks/riskpattern) class.

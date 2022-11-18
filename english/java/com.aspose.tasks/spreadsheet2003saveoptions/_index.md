@@ -24,8 +24,8 @@ Allows to specify additional options when rendering project pages to Spreadsheet
 | Method | Description |
 | --- | --- |
 | [getAssignmentView()](#getAssignmentView--) | Gets a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
-| [setAssignmentView(ProjectView value)](#setAssignmentView-com.aspose.tasks.ProjectView-) | Sets a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
 | [getResourceView()](#getResourceView--) | Gets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)). |
+| [setAssignmentView(ProjectView value)](#setAssignmentView-com.aspose.tasks.ProjectView-) | Sets a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
 | [setResourceView(ProjectView value)](#setResourceView-com.aspose.tasks.ProjectView-) | Sets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)). |
 ### Spreadsheet2003SaveOptions() {#Spreadsheet2003SaveOptions--}
 ```
@@ -45,6 +45,16 @@ Gets a list of the assignments view columns to render ([AssignmentViewColumn](..
 
 **Returns:**
 [ProjectView](../../com.aspose.tasks/projectview) - a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)).
+### getResourceView() {#getResourceView--}
+```
+public final ProjectView getResourceView()
+```
+
+
+Gets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
+
+**Returns:**
+[ProjectView](../../com.aspose.tasks/projectview) - a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
 ### setAssignmentView(ProjectView value) {#setAssignmentView-com.aspose.tasks.ProjectView-}
 ```
 public final void setAssignmentView(ProjectView value)
@@ -58,16 +68,6 @@ Sets a list of the assignments view columns to render ([AssignmentViewColumn](..
 | --- | --- | --- |
 | value | [ProjectView](../../com.aspose.tasks/projectview) | a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
 
-### getResourceView() {#getResourceView--}
-```
-public final ProjectView getResourceView()
-```
-
-
-Gets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
-
-**Returns:**
-[ProjectView](../../com.aspose.tasks/projectview) - a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
 ### setResourceView(ProjectView value) {#setResourceView-com.aspose.tasks.ProjectView-}
 ```
 public final void setResourceView(ProjectView value)

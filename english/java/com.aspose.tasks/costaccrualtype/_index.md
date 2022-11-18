@@ -22,35 +22,11 @@ While exporting into XML the Undefined values will be eliminated from resulting 
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Indicates undefined value means that the field was not defined in original project file. |
-| [Start](#Start) | Indicates Start cost accrual type. |
-| [Prorated](#Prorated) | Indicates Prorated cost accrual type. |
 | [End](#End) | Indicates End cost accrual type. |
 | [Invalid](#Invalid) | Indicates Invalid cost accrual type. |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-Indicates undefined value means that the field was not defined in original project file.
-
-### Start {#Start}
-```
-public static final int Start
-```
-
-
-Indicates Start cost accrual type.
-
-### Prorated {#Prorated}
-```
-public static final int Prorated
-```
-
-
-Indicates Prorated cost accrual type.
-
+| [Prorated](#Prorated) | Indicates Prorated cost accrual type. |
+| [Start](#Start) | Indicates Start cost accrual type. |
+| [Undefined](#Undefined) | Indicates undefined value means that the field was not defined in original project file. |
 ### End {#End}
 ```
 public static final int End
@@ -66,4 +42,28 @@ public static final int Invalid
 
 
 Indicates Invalid cost accrual type.
+
+### Prorated {#Prorated}
+```
+public static final int Prorated
+```
+
+
+Indicates Prorated cost accrual type.
+
+### Start {#Start}
+```
+public static final int Start
+```
+
+
+Indicates Start cost accrual type.
+
+### Undefined {#Undefined}
+```
+public static final int Undefined
+```
+
+
+Indicates undefined value means that the field was not defined in original project file.
 
