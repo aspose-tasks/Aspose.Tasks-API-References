@@ -24,12 +24,12 @@ Allows to specify additional options when saving project to Primavera XER format
 | Method | Description |
 | --- | --- |
 | [getActivityIdIncrement()](#getActivityIdIncrement--) | Gets the increment used in renumbering of activity IDs. |
-| [setActivityIdIncrement(int value)](#setActivityIdIncrement-int-) | Sets the increment used in renumbering of activity IDs. |
 | [getActivityIdPrefix()](#getActivityIdPrefix--) | Gets the prefix used in renumbering of activity IDs. |
-| [setActivityIdPrefix(String value)](#setActivityIdPrefix-java.lang.String-) | Sets the prefix used in renumbering of activity IDs. |
 | [getActivityIdSuffix()](#getActivityIdSuffix--) | Gets the suffix used in renumbering of activity IDs. |
-| [setActivityIdSuffix(int value)](#setActivityIdSuffix-int-) | Sets the suffix used in renumbering of activity IDs. |
 | [getRenumberActivityIds()](#getRenumberActivityIds--) | Gets a value indicating whether is need to renumbers activity IDs. |
+| [setActivityIdIncrement(int value)](#setActivityIdIncrement-int-) | Sets the increment used in renumbering of activity IDs. |
+| [setActivityIdPrefix(String value)](#setActivityIdPrefix-java.lang.String-) | Sets the prefix used in renumbering of activity IDs. |
+| [setActivityIdSuffix(int value)](#setActivityIdSuffix-int-) | Sets the suffix used in renumbering of activity IDs. |
 | [setRenumberActivityIds(boolean value)](#setRenumberActivityIds-boolean-) | Sets a value indicating whether is need to renumbers activity IDs. |
 ### PrimaveraSaveOptions() {#PrimaveraSaveOptions--}
 ```
@@ -49,6 +49,36 @@ Gets the increment used in renumbering of activity IDs.
 
 **Returns:**
 int - the increment used in renumbering of activity IDs.
+### getActivityIdPrefix() {#getActivityIdPrefix--}
+```
+public final String getActivityIdPrefix()
+```
+
+
+Gets the prefix used in renumbering of activity IDs.
+
+**Returns:**
+java.lang.String - the prefix used in renumbering of activity IDs.
+### getActivityIdSuffix() {#getActivityIdSuffix--}
+```
+public final int getActivityIdSuffix()
+```
+
+
+Gets the suffix used in renumbering of activity IDs.
+
+**Returns:**
+int - the suffix used in renumbering of activity IDs.
+### getRenumberActivityIds() {#getRenumberActivityIds--}
+```
+public final boolean getRenumberActivityIds()
+```
+
+
+Gets a value indicating whether is need to renumbers activity IDs.
+
+**Returns:**
+boolean - a value indicating whether is need to renumbers activity IDs.
 ### setActivityIdIncrement(int value) {#setActivityIdIncrement-int-}
 ```
 public final void setActivityIdIncrement(int value)
@@ -62,16 +92,6 @@ Sets the increment used in renumbering of activity IDs.
 | --- | --- | --- |
 | value | int | the increment used in renumbering of activity IDs. |
 
-### getActivityIdPrefix() {#getActivityIdPrefix--}
-```
-public final String getActivityIdPrefix()
-```
-
-
-Gets the prefix used in renumbering of activity IDs.
-
-**Returns:**
-java.lang.String - the prefix used in renumbering of activity IDs.
 ### setActivityIdPrefix(String value) {#setActivityIdPrefix-java.lang.String-}
 ```
 public final void setActivityIdPrefix(String value)
@@ -85,16 +105,6 @@ Sets the prefix used in renumbering of activity IDs.
 | --- | --- | --- |
 | value | java.lang.String | the prefix used in renumbering of activity IDs. |
 
-### getActivityIdSuffix() {#getActivityIdSuffix--}
-```
-public final int getActivityIdSuffix()
-```
-
-
-Gets the suffix used in renumbering of activity IDs.
-
-**Returns:**
-int - the suffix used in renumbering of activity IDs.
 ### setActivityIdSuffix(int value) {#setActivityIdSuffix-int-}
 ```
 public final void setActivityIdSuffix(int value)
@@ -108,16 +118,6 @@ Sets the suffix used in renumbering of activity IDs.
 | --- | --- | --- |
 | value | int | the suffix used in renumbering of activity IDs. |
 
-### getRenumberActivityIds() {#getRenumberActivityIds--}
-```
-public final boolean getRenumberActivityIds()
-```
-
-
-Gets a value indicating whether is need to renumbers activity IDs.
-
-**Returns:**
-boolean - a value indicating whether is need to renumbers activity IDs.
 ### setRenumberActivityIds(boolean value) {#setRenumberActivityIds-boolean-}
 ```
 public final void setRenumberActivityIds(boolean value)

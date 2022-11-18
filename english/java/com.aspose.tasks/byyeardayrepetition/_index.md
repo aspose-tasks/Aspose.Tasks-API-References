@@ -24,8 +24,8 @@ Represents a pattern which is based on the absolute position of a day in a month
 | Method | Description |
 | --- | --- |
 | [getDayPosition()](#getDayPosition--) | Gets a position of day in a month on which the task must be recurring. |
-| [setDayPosition(int value)](#setDayPosition-int-) | Sets a position of day in a month on which the task must be recurring. |
 | [getMonth()](#getMonth--) | Gets a month on which the task must be recurring. |
+| [setDayPosition(int value)](#setDayPosition-int-) | Sets a position of day in a month on which the task must be recurring. |
 | [setMonth(int value)](#setMonth-int-) | Sets a month on which the task must be recurring. |
 ### ByYearDayRepetition() {#ByYearDayRepetition--}
 ```
@@ -45,6 +45,18 @@ Gets a position of day in a month on which the task must be recurring.
 
 **Returns:**
 int - a position of day in a month on which the task must be recurring.
+### getMonth() {#getMonth--}
+```
+public final int getMonth()
+```
+
+
+Gets a month on which the task must be recurring.
+
+Read/Write  Month .
+
+**Returns:**
+int - a month on which the task must be recurring.
 ### setDayPosition(int value) {#setDayPosition-int-}
 ```
 public final void setDayPosition(int value)
@@ -58,18 +70,6 @@ Sets a position of day in a month on which the task must be recurring.
 | --- | --- | --- |
 | value | int | a position of day in a month on which the task must be recurring. |
 
-### getMonth() {#getMonth--}
-```
-public final int getMonth()
-```
-
-
-Gets a month on which the task must be recurring.
-
-Read/Write  Month .
-
-**Returns:**
-int - a month on which the task must be recurring.
 ### setMonth(int value) {#setMonth-int-}
 ```
 public final void setMonth(int value)

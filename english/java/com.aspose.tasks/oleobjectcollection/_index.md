@@ -48,16 +48,16 @@ Clears the collection. In order to persist these changes project.Save should be 
 
 --------------------
 
-> ```
-> How to clear OLE objects and persist these changes.
->  ```
-> 
->  [C#]
->  project.OleObjects.Clear();
->  project.Save("output.mpp", new MPPSaveOptions {WriteViewData = true;} )
->  
-> ```
-> ```
+&gt; ```
+&gt; How to clear OLE objects and persist these changes.
+&gt;  ```
+&gt; 
+&gt;  [C#]
+&gt;  project.OleObjects.Clear();
+&gt;  project.Save("output.mpp", new MPPSaveOptions {WriteViewData = true;} )
+&gt;  
+&gt; ```
+&gt; ```
 
 ### get(int index) {#get-int-}
 ```

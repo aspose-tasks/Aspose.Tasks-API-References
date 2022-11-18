@@ -18,15 +18,31 @@ Specifies the calendar exception type.
 
 | Field | Description |
 | --- | --- |
-| [Daily](#Daily) | Indicates Daily exception type. |
-| [YearlyByDay](#YearlyByDay) | Indicates Yearly by day of the month exception type. |
-| [YearlyByPosition](#YearlyByPosition) | Indicates Yearly by position exception type. |
-| [MonthlyByDay](#MonthlyByDay) | Indicates Monthly by day of the month exception type. |
-| [MonthlyByPosition](#MonthlyByPosition) | Indicates Monthly by position exception type. |
-| [Weekly](#Weekly) | Indicates Weekly exception type. |
 | [ByDayCount](#ByDayCount) | Indicates By day count exception type. |
 | [ByWeekDayCount](#ByWeekDayCount) | Indicates By weekday count exception type. |
+| [Daily](#Daily) | Indicates Daily exception type. |
+| [MonthlyByDay](#MonthlyByDay) | Indicates Monthly by day of the month exception type. |
+| [MonthlyByPosition](#MonthlyByPosition) | Indicates Monthly by position exception type. |
 | [NoExceptionType](#NoExceptionType) | Indicates No exception type. |
+| [Weekly](#Weekly) | Indicates Weekly exception type. |
+| [YearlyByDay](#YearlyByDay) | Indicates Yearly by day of the month exception type. |
+| [YearlyByPosition](#YearlyByPosition) | Indicates Yearly by position exception type. |
+### ByDayCount {#ByDayCount}
+```
+public static final int ByDayCount
+```
+
+
+Indicates By day count exception type.
+
+### ByWeekDayCount {#ByWeekDayCount}
+```
+public static final int ByWeekDayCount
+```
+
+
+Indicates By weekday count exception type.
+
 ### Daily {#Daily}
 ```
 public static final int Daily
@@ -34,22 +50,6 @@ public static final int Daily
 
 
 Indicates Daily exception type.
-
-### YearlyByDay {#YearlyByDay}
-```
-public static final int YearlyByDay
-```
-
-
-Indicates Yearly by day of the month exception type.
-
-### YearlyByPosition {#YearlyByPosition}
-```
-public static final int YearlyByPosition
-```
-
-
-Indicates Yearly by position exception type.
 
 ### MonthlyByDay {#MonthlyByDay}
 ```
@@ -67,6 +67,14 @@ public static final int MonthlyByPosition
 
 Indicates Monthly by position exception type.
 
+### NoExceptionType {#NoExceptionType}
+```
+public static final int NoExceptionType
+```
+
+
+Indicates No exception type.
+
 ### Weekly {#Weekly}
 ```
 public static final int Weekly
@@ -75,27 +83,19 @@ public static final int Weekly
 
 Indicates Weekly exception type.
 
-### ByDayCount {#ByDayCount}
+### YearlyByDay {#YearlyByDay}
 ```
-public static final int ByDayCount
-```
-
-
-Indicates By day count exception type.
-
-### ByWeekDayCount {#ByWeekDayCount}
-```
-public static final int ByWeekDayCount
+public static final int YearlyByDay
 ```
 
 
-Indicates By weekday count exception type.
+Indicates Yearly by day of the month exception type.
 
-### NoExceptionType {#NoExceptionType}
+### YearlyByPosition {#YearlyByPosition}
 ```
-public static final int NoExceptionType
+public static final int YearlyByPosition
 ```
 
 
-Indicates No exception type.
+Indicates Yearly by position exception type.
 

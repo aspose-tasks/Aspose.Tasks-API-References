@@ -18,76 +18,36 @@ Item type to change a text style for.
 
 | Field | Description |
 | --- | --- |
-| [RowColumnTitles](#RowColumnTitles) | Row and column titles. |
-| [CriticalTasks](#CriticalTasks) | Critical tasks. |
-| [NoncriticalTasks](#NoncriticalTasks) | Noncritical tasks. |
-| [MilestoneTasks](#MilestoneTasks) | Milestone tasks. |
-| [InactiveTasks](#InactiveTasks) | Inactive tasks. |
-| [SummaryTasks](#SummaryTasks) | Summary tasks. |
+| [Allocated](#Allocated) | Allocated text item. |
 | [AssignmentRow](#AssignmentRow) | Assignment row. |
-| [TopTimescaleTier](#TopTimescaleTier) | Top timescale tier. |
-| [BottomTimescaleTier](#BottomTimescaleTier) | Bottom timescale tier. |
-| [MiddleTimescaleTier](#MiddleTimescaleTier) | Middle timescale tier. |
-| [Resources](#Resources) | Resource sheet. |
-| [OverallocatedResources](#OverallocatedResources) | Over allocated resources. |
-| [TaskFilterHighlight](#TaskFilterHighlight) | Task Filter Highlight text item. |
 | [BarTextBottom](#BarTextBottom) | Bar Text Bottom text item. |
 | [BarTextInside](#BarTextInside) | Bar Text Inside text item. |
 | [BarTextLeft](#BarTextLeft) | Bar Text Left text item. |
 | [BarTextRight](#BarTextRight) | Bar Text Right text item. |
 | [BarTextTop](#BarTextTop) | Bar Text Top text item. |
-| [MarkedTasks](#MarkedTasks) | Marked task text item. |
-| [ProjectSummary](#ProjectSummary) | Project summary task text item. |
-| [ExternalTasks](#ExternalTasks) | External tasks text item. |
-| [Allocated](#Allocated) | Allocated text item. |
+| [BottomTimescaleTier](#BottomTimescaleTier) | Bottom timescale tier. |
 | [ChangedCells](#ChangedCells) | Changed cells. |
-### RowColumnTitles {#RowColumnTitles}
+| [CriticalTasks](#CriticalTasks) | Critical tasks. |
+| [ExternalTasks](#ExternalTasks) | External tasks text item. |
+| [InactiveTasks](#InactiveTasks) | Inactive tasks. |
+| [MarkedTasks](#MarkedTasks) | Marked task text item. |
+| [MiddleTimescaleTier](#MiddleTimescaleTier) | Middle timescale tier. |
+| [MilestoneTasks](#MilestoneTasks) | Milestone tasks. |
+| [NoncriticalTasks](#NoncriticalTasks) | Noncritical tasks. |
+| [OverallocatedResources](#OverallocatedResources) | Over allocated resources. |
+| [ProjectSummary](#ProjectSummary) | Project summary task text item. |
+| [Resources](#Resources) | Resource sheet. |
+| [RowColumnTitles](#RowColumnTitles) | Row and column titles. |
+| [SummaryTasks](#SummaryTasks) | Summary tasks. |
+| [TaskFilterHighlight](#TaskFilterHighlight) | Task Filter Highlight text item. |
+| [TopTimescaleTier](#TopTimescaleTier) | Top timescale tier. |
+### Allocated {#Allocated}
 ```
-public static final int RowColumnTitles
-```
-
-
-Row and column titles.
-
-### CriticalTasks {#CriticalTasks}
-```
-public static final int CriticalTasks
-```
-
-
-Critical tasks.
-
-### NoncriticalTasks {#NoncriticalTasks}
-```
-public static final int NoncriticalTasks
+public static final int Allocated
 ```
 
 
-Noncritical tasks.
-
-### MilestoneTasks {#MilestoneTasks}
-```
-public static final int MilestoneTasks
-```
-
-
-Milestone tasks.
-
-### InactiveTasks {#InactiveTasks}
-```
-public static final int InactiveTasks
-```
-
-
-Inactive tasks.
-
-### SummaryTasks {#SummaryTasks}
-```
-public static final int SummaryTasks
-```
-
-
-Summary tasks.
+Allocated text item.
 
 ### AssignmentRow {#AssignmentRow}
 ```
@@ -96,54 +56,6 @@ public static final int AssignmentRow
 
 
 Assignment row.
-
-### TopTimescaleTier {#TopTimescaleTier}
-```
-public static final int TopTimescaleTier
-```
-
-
-Top timescale tier.
-
-### BottomTimescaleTier {#BottomTimescaleTier}
-```
-public static final int BottomTimescaleTier
-```
-
-
-Bottom timescale tier.
-
-### MiddleTimescaleTier {#MiddleTimescaleTier}
-```
-public static final int MiddleTimescaleTier
-```
-
-
-Middle timescale tier.
-
-### Resources {#Resources}
-```
-public static final int Resources
-```
-
-
-Resource sheet.
-
-### OverallocatedResources {#OverallocatedResources}
-```
-public static final int OverallocatedResources
-```
-
-
-Over allocated resources.
-
-### TaskFilterHighlight {#TaskFilterHighlight}
-```
-public static final int TaskFilterHighlight
-```
-
-
-Task Filter Highlight text item.
 
 ### BarTextBottom {#BarTextBottom}
 ```
@@ -185,21 +97,29 @@ public static final int BarTextTop
 
 Bar Text Top text item.
 
-### MarkedTasks {#MarkedTasks}
+### BottomTimescaleTier {#BottomTimescaleTier}
 ```
-public static final int MarkedTasks
-```
-
-
-Marked task text item.
-
-### ProjectSummary {#ProjectSummary}
-```
-public static final int ProjectSummary
+public static final int BottomTimescaleTier
 ```
 
 
-Project summary task text item.
+Bottom timescale tier.
+
+### ChangedCells {#ChangedCells}
+```
+public static final int ChangedCells
+```
+
+
+Changed cells.
+
+### CriticalTasks {#CriticalTasks}
+```
+public static final int CriticalTasks
+```
+
+
+Critical tasks.
 
 ### ExternalTasks {#ExternalTasks}
 ```
@@ -209,19 +129,99 @@ public static final int ExternalTasks
 
 External tasks text item.
 
-### Allocated {#Allocated}
+### InactiveTasks {#InactiveTasks}
 ```
-public static final int Allocated
-```
-
-
-Allocated text item.
-
-### ChangedCells {#ChangedCells}
-```
-public static final int ChangedCells
+public static final int InactiveTasks
 ```
 
 
-Changed cells.
+Inactive tasks.
+
+### MarkedTasks {#MarkedTasks}
+```
+public static final int MarkedTasks
+```
+
+
+Marked task text item.
+
+### MiddleTimescaleTier {#MiddleTimescaleTier}
+```
+public static final int MiddleTimescaleTier
+```
+
+
+Middle timescale tier.
+
+### MilestoneTasks {#MilestoneTasks}
+```
+public static final int MilestoneTasks
+```
+
+
+Milestone tasks.
+
+### NoncriticalTasks {#NoncriticalTasks}
+```
+public static final int NoncriticalTasks
+```
+
+
+Noncritical tasks.
+
+### OverallocatedResources {#OverallocatedResources}
+```
+public static final int OverallocatedResources
+```
+
+
+Over allocated resources.
+
+### ProjectSummary {#ProjectSummary}
+```
+public static final int ProjectSummary
+```
+
+
+Project summary task text item.
+
+### Resources {#Resources}
+```
+public static final int Resources
+```
+
+
+Resource sheet.
+
+### RowColumnTitles {#RowColumnTitles}
+```
+public static final int RowColumnTitles
+```
+
+
+Row and column titles.
+
+### SummaryTasks {#SummaryTasks}
+```
+public static final int SummaryTasks
+```
+
+
+Summary tasks.
+
+### TaskFilterHighlight {#TaskFilterHighlight}
+```
+public static final int TaskFilterHighlight
+```
+
+
+Task Filter Highlight text item.
+
+### TopTimescaleTier {#TopTimescaleTier}
+```
+public static final int TopTimescaleTier
+```
+
+
+Top timescale tier.
 

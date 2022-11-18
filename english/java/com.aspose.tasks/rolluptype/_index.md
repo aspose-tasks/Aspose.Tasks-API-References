@@ -18,22 +18,54 @@ Specifies the rollup type.
 
 | Field | Description |
 | --- | --- |
-| [Null](#Null) | Indicates Null rollup type. |
-| [Maximum](#Maximum) | Indicates Maximum rollup type. |
-| [Minimum](#Minimum) | Indicates Minimum rollup type. |
-| [Count](#Count) | Indicates Count rollup type. |
-| [Sum](#Sum) | Indicates Sum rollup type. |
 | [Average](#Average) | Indicates Average rollup type. |
 | [AverageFirstSublevel](#AverageFirstSublevel) | Indicates Average First Sublevel rollup type. |
+| [Count](#Count) | Indicates Count rollup type. |
 | [CountFirstSublevel](#CountFirstSublevel) | Indicates Count First Sublevel rollup type. |
 | [CountNonsummaries](#CountNonsummaries) | Indicates Count Non-Summaries rollup type. |
-### Null {#Null}
+| [Maximum](#Maximum) | Indicates Maximum rollup type. |
+| [Minimum](#Minimum) | Indicates Minimum rollup type. |
+| [Null](#Null) | Indicates Null rollup type. |
+| [Sum](#Sum) | Indicates Sum rollup type. |
+### Average {#Average}
 ```
-public static final int Null
+public static final int Average
 ```
 
 
-Indicates Null rollup type.
+Indicates Average rollup type.
+
+### AverageFirstSublevel {#AverageFirstSublevel}
+```
+public static final int AverageFirstSublevel
+```
+
+
+Indicates Average First Sublevel rollup type.
+
+### Count {#Count}
+```
+public static final int Count
+```
+
+
+Indicates Count rollup type.
+
+### CountFirstSublevel {#CountFirstSublevel}
+```
+public static final int CountFirstSublevel
+```
+
+
+Indicates Count First Sublevel rollup type.
+
+### CountNonsummaries {#CountNonsummaries}
+```
+public static final int CountNonsummaries
+```
+
+
+Indicates Count Non-Summaries rollup type.
 
 ### Maximum {#Maximum}
 ```
@@ -51,13 +83,13 @@ public static final int Minimum
 
 Indicates Minimum rollup type.
 
-### Count {#Count}
+### Null {#Null}
 ```
-public static final int Count
+public static final int Null
 ```
 
 
-Indicates Count rollup type.
+Indicates Null rollup type.
 
 ### Sum {#Sum}
 ```
@@ -66,36 +98,4 @@ public static final int Sum
 
 
 Indicates Sum rollup type.
-
-### Average {#Average}
-```
-public static final int Average
-```
-
-
-Indicates Average rollup type.
-
-### AverageFirstSublevel {#AverageFirstSublevel}
-```
-public static final int AverageFirstSublevel
-```
-
-
-Indicates Average First Sublevel rollup type.
-
-### CountFirstSublevel {#CountFirstSublevel}
-```
-public static final int CountFirstSublevel
-```
-
-
-Indicates Count First Sublevel rollup type.
-
-### CountNonsummaries {#CountNonsummaries}
-```
-public static final int CountNonsummaries
-```
-
-
-Indicates Count Non-Summaries rollup type.
 

@@ -18,11 +18,19 @@ Specifies digital hash algorithm used by digital signature.
 
 | Field | Description |
 | --- | --- |
+| [Md5](#Md5) | Specifies a digital hash algorithm used by a digital signature. |
 | [Sha1](#Sha1) | Specifies a digital hash algorithm used by a digital signature. |
 | [Sha256](#Sha256) | Specifies a digital hash algorithm used by a digital signature. |
 | [Sha384](#Sha384) | Specifies a digital hash algorithm used by a digital signature. |
 | [Sha512](#Sha512) | Specifies a digital hash algorithm used by a digital signature. |
-| [Md5](#Md5) | Specifies a digital hash algorithm used by a digital signature. |
+### Md5 {#Md5}
+```
+public static final int Md5
+```
+
+
+Specifies a digital hash algorithm used by a digital signature.
+
 ### Sha1 {#Sha1}
 ```
 public static final int Sha1
@@ -50,14 +58,6 @@ Specifies a digital hash algorithm used by a digital signature.
 ### Sha512 {#Sha512}
 ```
 public static final int Sha512
-```
-
-
-Specifies a digital hash algorithm used by a digital signature.
-
-### Md5 {#Md5}
-```
-public static final int Md5
 ```
 
 

@@ -29,10 +29,10 @@ Two pieces of data are necessary - a pointer to the outline code table that is s
 | Method | Description |
 | --- | --- |
 | [getFieldId()](#getFieldId--) | Gets the number value of the project Id custom field. |
-| [setFieldId(String value)](#setFieldId-java.lang.String-) | Sets the number value of the project Id custom field. |
 | [getValueGuid()](#getValueGuid--) | Gets the GUID of the value in the value list. |
-| [setValueGuid(String value)](#setValueGuid-java.lang.String-) | Sets the GUID of the value in the value list. |
 | [getValueId()](#getValueId--) | Gets the Id in the value list associated with the definition in the outline code collection. |
+| [setFieldId(String value)](#setFieldId-java.lang.String-) | Sets the number value of the project Id custom field. |
+| [setValueGuid(String value)](#setValueGuid-java.lang.String-) | Sets the GUID of the value in the value list. |
 | [setValueId(int value)](#setValueId-int-) | Sets the Id in the value list associated with the definition in the outline code collection. |
 ### OutlineCode() {#OutlineCode--}
 ```
@@ -66,6 +66,26 @@ Gets the number value of the project Id custom field.
 
 **Returns:**
 java.lang.String - the number value of the project Id custom field.
+### getValueGuid() {#getValueGuid--}
+```
+public final String getValueGuid()
+```
+
+
+Gets the GUID of the value in the value list. The ValueGuid matches the FieldGuid in the value list.
+
+**Returns:**
+java.lang.String - the GUID of the value in the value list.
+### getValueId() {#getValueId--}
+```
+public final int getValueId()
+```
+
+
+Gets the Id in the value list associated with the definition in the outline code collection.
+
+**Returns:**
+int - the Id in the value list associated with the definition in the outline code collection.
 ### setFieldId(String value) {#setFieldId-java.lang.String-}
 ```
 public final void setFieldId(String value)
@@ -79,16 +99,6 @@ Sets the number value of the project Id custom field.
 | --- | --- | --- |
 | value | java.lang.String | the number value of the project Id custom field. |
 
-### getValueGuid() {#getValueGuid--}
-```
-public final String getValueGuid()
-```
-
-
-Gets the GUID of the value in the value list. The ValueGuid matches the FieldGuid in the value list.
-
-**Returns:**
-java.lang.String - the GUID of the value in the value list.
 ### setValueGuid(String value) {#setValueGuid-java.lang.String-}
 ```
 public final void setValueGuid(String value)
@@ -102,16 +112,6 @@ Sets the GUID of the value in the value list. The ValueGuid matches the FieldGui
 | --- | --- | --- |
 | value | java.lang.String | the GUID of the value in the value list. |
 
-### getValueId() {#getValueId--}
-```
-public final int getValueId()
-```
-
-
-Gets the Id in the value list associated with the definition in the outline code collection.
-
-**Returns:**
-int - the Id in the value list associated with the definition in the outline code collection.
 ### setValueId(int value) {#setValueId-int-}
 ```
 public final void setValueId(int value)

@@ -19,8 +19,8 @@ Represents a type of recurrence pattern of a recurrent task.
 | Field | Description |
 | --- | --- |
 | [Daily](#Daily) | Daily pattern. |
-| [Weekly](#Weekly) | Weekly pattern. |
 | [Monthly](#Monthly) | Monthly pattern. |
+| [Weekly](#Weekly) | Weekly pattern. |
 | [Yearly](#Yearly) | Yearly pattern. |
 ### Daily {#Daily}
 ```
@@ -30,14 +30,6 @@ public static final int Daily
 
 Daily pattern.
 
-### Weekly {#Weekly}
-```
-public static final int Weekly
-```
-
-
-Weekly pattern.
-
 ### Monthly {#Monthly}
 ```
 public static final int Monthly
@@ -45,6 +37,14 @@ public static final int Monthly
 
 
 Monthly pattern.
+
+### Weekly {#Weekly}
+```
+public static final int Weekly
+```
+
+
+Weekly pattern.
 
 ### Yearly {#Yearly}
 ```

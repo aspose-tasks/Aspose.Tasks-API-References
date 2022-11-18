@@ -23,7 +23,7 @@ Applies logical AND to the specified conditions.
 
 | Constructor | Description |
 | --- | --- |
-| [And(ICondition&lt;T&gt; cond1, ICondition&lt;T&gt; cond2)](#And-com.aspose.tasks.ICondition-T--com.aspose.tasks.ICondition-T--) | Initializes a new instance of the  And\{T\}  class. |
+| [And(ICondition&lt;T&gt; cond1, ICondition&lt;T&gt; cond2)](#And-com.aspose.tasks.ICondition-T--com.aspose.tasks.ICondition-T--) | Initializes a new instance of the And&lt;T&gt; class. |
 ## Methods
 
 | Method | Description |
@@ -35,7 +35,7 @@ public And(ICondition<T> cond1, ICondition<T> cond2)
 ```
 
 
-Initializes a new instance of the  And\{T\}  class.
+Initializes a new instance of the And&lt;T&gt; class.
 
 **Parameters:**
 | Parameter | Type | Description |

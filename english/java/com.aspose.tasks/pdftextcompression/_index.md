@@ -18,16 +18,8 @@ Specifies a type of compression applied to all content in the PDF file except im
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | No compression. |
 | [Flate](#Flate) | Flate compression. |
-### None {#None}
-```
-public static final int None
-```
-
-
-No compression.
-
+| [None](#None) | No compression. |
 ### Flate {#Flate}
 ```
 public static final int Flate
@@ -35,4 +27,12 @@ public static final int Flate
 
 
 Flate compression.
+
+### None {#None}
+```
+public static final int None
+```
+
+
+No compression.
 

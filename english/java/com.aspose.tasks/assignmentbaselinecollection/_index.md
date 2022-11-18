@@ -22,10 +22,10 @@ Represents a collection of [AssignmentBaseline](../../com.aspose.tasks/assignmen
 | [clear()](#clear--) | \{@inheritDoc\} |
 | [contains(Object item)](#contains-java.lang.Object-) |  |
 | [copyTo(AssignmentBaseline[] array, int arrayIndex)](#copyTo-com.aspose.tasks.AssignmentBaseline---int-) | \{@inheritDoc\} |
-| [getParentAssignment()](#getParentAssignment--) | Gets the parent [ResourceAssignment](../../com.aspose.tasks/resourceassignment) for this collection. |
 | [get(int index)](#get-int-) | (@inheritDoc\} |
-| [remove(Object item)](#remove-java.lang.Object-) | Removes baseline from this collection. |
+| [getParentAssignment()](#getParentAssignment--) | Gets the parent [ResourceAssignment](../../com.aspose.tasks/resourceassignment) for this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
+| [remove(Object item)](#remove-java.lang.Object-) | Removes baseline from this collection. |
 | [size()](#size--) | Gets the number of objects contained in this AssignmentBaselineCollection object. |
 | [toList()](#toList--) | Converts the AssignmentBaselineCollection object to a list of [AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) objects. |
 ### add(AssignmentBaseline item) {#add-com.aspose.tasks.AssignmentBaseline-}
@@ -80,6 +80,21 @@ public final void copyTo(AssignmentBaseline[] array, int arrayIndex)
 | array | [AssignmentBaseline\[\]](../../com.aspose.tasks/assignmentbaseline) | \{@inheritDoc\} |
 | arrayIndex | int | \{@inheritDoc\} |
 
+### get(int index) {#get-int-}
+```
+public AssignmentBaseline get(int index)
+```
+
+
+(@inheritDoc\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) - \{@inheritDoc\}
 ### getParentAssignment() {#getParentAssignment--}
 ```
 public final ResourceAssignment getParentAssignment()
@@ -90,13 +105,13 @@ Gets the parent [ResourceAssignment](../../com.aspose.tasks/resourceassignment) 
 
 **Returns:**
 [ResourceAssignment](../../com.aspose.tasks/resourceassignment) - the parent [ResourceAssignment](../../com.aspose.tasks/resourceassignment) for this collection.
-### get(int index) {#get-int-}
+### remove(int index) {#remove-int-}
 ```
-public AssignmentBaseline get(int index)
+public AssignmentBaseline remove(int index)
 ```
 
 
-(@inheritDoc\}
+Removes the element at the specified position in this list.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,21 +135,6 @@ Removes baseline from this collection.
 
 **Returns:**
 boolean - true if [AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) instance has been removed successfully; otherwise, false
-### remove(int index) {#remove-int-}
-```
-public AssignmentBaseline remove(int index)
-```
-
-
-Removes the element at the specified position in this list.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) - \{@inheritDoc\}
 ### size() {#size--}
 ```
 public final int size()

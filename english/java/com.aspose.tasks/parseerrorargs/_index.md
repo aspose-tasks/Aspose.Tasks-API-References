@@ -19,9 +19,9 @@ Provides data for the [ParseErrorCallback](../../com.aspose.tasks/parseerrorcall
 | Method | Description |
 | --- | --- |
 | [getException()](#getException--) | Gets the raised exception during parsing string value. |
+| [getFieldClass()](#getFieldClass--) | The object field class. |
 | [getFieldName()](#getFieldName--) | Gets the object field name. |
 | [getInvalidValue()](#getInvalidValue--) | Gets the string value which raised an exception. |
-| [getFieldClass()](#getFieldClass--) | The object field class. |
 ### getException() {#getException--}
 ```
 public final RuntimeException getException()
@@ -32,6 +32,16 @@ Gets the raised exception during parsing string value.
 
 **Returns:**
 java.lang.RuntimeException - the raised exception during parsing string value.
+### getFieldClass() {#getFieldClass--}
+```
+public Class getFieldClass()
+```
+
+
+The object field class.
+
+**Returns:**
+java.lang.Class - returns the object field class.
 ### getFieldName() {#getFieldName--}
 ```
 public final String getFieldName()
@@ -52,13 +62,3 @@ Gets the string value which raised an exception.
 
 **Returns:**
 java.lang.String - the string value which raised an exception.
-### getFieldClass() {#getFieldClass--}
-```
-public Class getFieldClass()
-```
-
-
-The object field class.
-
-**Returns:**
-java.lang.Class - returns the object field class.

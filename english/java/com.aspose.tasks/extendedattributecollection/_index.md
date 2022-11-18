@@ -26,8 +26,8 @@ Represents a collection of [ExtendedAttribute](../../com.aspose.tasks/extendedat
 | [indexOf(ExtendedAttribute item)](#indexOf-com.aspose.tasks.ExtendedAttribute-) | Determines the index of the specified item in this collection. |
 | [insert(int index, ExtendedAttribute item)](#insert-int-com.aspose.tasks.ExtendedAttribute-) | Inserts the specified item at the specified index. |
 | [iterator()](#iterator--) | Returns an iterator over elements from this collection. |
-| [remove(Object item)](#remove-java.lang.Object-) | Removes the element from the collection. |
 | [remove(int index)](#remove-int-) | Removes an item at the specified index. |
+| [remove(Object item)](#remove-java.lang.Object-) | Removes the element from the collection. |
 | [set(int index, ExtendedAttribute value)](#set-int-com.aspose.tasks.ExtendedAttribute-) | Replaces the element at the specified position in this list with the specified element. |
 | [size()](#size--) | Gets the number of elements contained in this collection. |
 ### add(ExtendedAttribute item) {#add-com.aspose.tasks.ExtendedAttribute-}
@@ -136,21 +136,6 @@ Returns an iterator over elements from this collection.
 
 **Returns:**
 java.util.Iterator&lt;com.aspose.tasks.ExtendedAttribute&gt; - an iterator over elements from this collection.
-### remove(Object item) {#remove-java.lang.Object-}
-```
-public final boolean remove(Object item)
-```
-
-
-Removes the element from the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| item | java.lang.Object | the element to remove. |
-
-**Returns:**
-boolean - true if element was removed from the collection; otherwise false.
 ### remove(int index) {#remove-int-}
 ```
 public final ExtendedAttribute remove(int index)
@@ -166,6 +151,21 @@ Removes an item at the specified index.
 
 **Returns:**
 [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) - the element that was removed from the collection.
+### remove(Object item) {#remove-java.lang.Object-}
+```
+public final boolean remove(Object item)
+```
+
+
+Removes the element from the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | java.lang.Object | the element to remove. |
+
+**Returns:**
+boolean - true if element was removed from the collection; otherwise false.
 ### set(int index, ExtendedAttribute value) {#set-int-com.aspose.tasks.ExtendedAttribute-}
 ```
 public final ExtendedAttribute set(int index, ExtendedAttribute value)

@@ -30,8 +30,8 @@ Represents a reference of the [VbaProject](../../com.aspose.tasks/vbaproject).
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to the specified [VbaReference](../../com.aspose.tasks/vbareference) object. |
 | [getLibIdentifier()](#getLibIdentifier--) | Gets identifier of the library. |
 | [getName()](#getName--) | Gets name of VBA reference. |
-| [setName(String value)](#setName-java.lang.String-) | Sets name of VBA reference. |
 | [hashCode()](#hashCode--) | Returns a hash code value for this [VbaReference](../../com.aspose.tasks/vbareference). |
+| [setName(String value)](#setName-java.lang.String-) | Sets name of VBA reference. |
 ### VbaReference() {#VbaReference--}
 ```
 public VbaReference()
@@ -88,6 +88,16 @@ Gets name of VBA reference.
 
 **Returns:**
 java.lang.String - name of VBA reference.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Returns a hash code value for this [VbaReference](../../com.aspose.tasks/vbareference).
+
+**Returns:**
+int - Returns a hash code value for this object.
 ### setName(String value) {#setName-java.lang.String-}
 ```
 public final void setName(String value)
@@ -101,13 +111,3 @@ Sets name of VBA reference.
 | --- | --- | --- |
 | value | java.lang.String | name of VBA reference. |
 
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Returns a hash code value for this [VbaReference](../../com.aspose.tasks/vbareference).
-
-**Returns:**
-int - Returns a hash code value for this object.

@@ -18,10 +18,18 @@ Enumerates font face types
 
 | Field | Description |
 | --- | --- |
+| [Eot](#Eot) | The EOT font. |
 | [NotSpecified](#NotSpecified) | Font type is not specified. |
 | [Ttf](#Ttf) | The true type font. |
-| [Eot](#Eot) | The EOT font. |
 | [Woff](#Woff) | The WOFF font. |
+### Eot {#Eot}
+```
+public static final int Eot
+```
+
+
+The EOT font.
+
 ### NotSpecified {#NotSpecified}
 ```
 public static final int NotSpecified
@@ -37,14 +45,6 @@ public static final int Ttf
 
 
 The true type font.
-
-### Eot {#Eot}
-```
-public static final int Eot
-```
-
-
-The EOT font.
 
 ### Woff {#Woff}
 ```

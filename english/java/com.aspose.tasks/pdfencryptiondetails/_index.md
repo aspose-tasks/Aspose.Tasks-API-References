@@ -24,12 +24,12 @@ Contains details for a PDF encryption.
 | Method | Description |
 | --- | --- |
 | [getEncryptionAlgorithm()](#getEncryptionAlgorithm--) | Gets the encryption mode. |
-| [setEncryptionAlgorithm(int value)](#setEncryptionAlgorithm-int-) | Sets the encryption mode. |
 | [getOwnerPassword()](#getOwnerPassword--) | Gets the Owner password. |
-| [setOwnerPassword(String value)](#setOwnerPassword-java.lang.String-) | Sets the Owner password. |
 | [getPermissions()](#getPermissions--) | Gets the permissions. |
-| [setPermissions(int value)](#setPermissions-int-) | Sets the permissions. |
 | [getUserPassword()](#getUserPassword--) | Gets the User password. |
+| [setEncryptionAlgorithm(int value)](#setEncryptionAlgorithm-int-) | Sets the encryption mode. |
+| [setOwnerPassword(String value)](#setOwnerPassword-java.lang.String-) | Sets the Owner password. |
+| [setPermissions(int value)](#setPermissions-int-) | Sets the permissions. |
 | [setUserPassword(String value)](#setUserPassword-java.lang.String-) | Sets the User password. |
 ### PdfEncryptionDetails(String userPassword, String ownerPassword, int encryptionAlgorithm) {#PdfEncryptionDetails-java.lang.String-java.lang.String-int-}
 ```
@@ -56,19 +56,6 @@ Gets the encryption mode.
 
 **Returns:**
 int - the encryption mode.
-### setEncryptionAlgorithm(int value) {#setEncryptionAlgorithm-int-}
-```
-public final void setEncryptionAlgorithm(int value)
-```
-
-
-Sets the encryption mode.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | the encryption mode. |
-
 ### getOwnerPassword() {#getOwnerPassword--}
 ```
 public final String getOwnerPassword()
@@ -83,6 +70,43 @@ Opening the document with the correct owner password (assuming it is not the sam
 
 **Returns:**
 java.lang.String - the Owner password.
+### getPermissions() {#getPermissions--}
+```
+public final int getPermissions()
+```
+
+
+Gets the permissions.
+
+**Returns:**
+int - the permissions.
+### getUserPassword() {#getUserPassword--}
+```
+public final String getUserPassword()
+```
+
+
+Gets the User password.
+
+--------------------
+
+Opening the document with the correct user password (or opening a document that does not have a user password) allows additional operations to be performed according to the user access permissions specified in the document\\u2019s encryption dictionary.
+
+**Returns:**
+java.lang.String - the User password.
+### setEncryptionAlgorithm(int value) {#setEncryptionAlgorithm-int-}
+```
+public final void setEncryptionAlgorithm(int value)
+```
+
+
+Sets the encryption mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the encryption mode. |
+
 ### setOwnerPassword(String value) {#setOwnerPassword-java.lang.String-}
 ```
 public final void setOwnerPassword(String value)
@@ -100,16 +124,6 @@ Opening the document with the correct owner password (assuming it is not the sam
 | --- | --- | --- |
 | value | java.lang.String | the Owner password. |
 
-### getPermissions() {#getPermissions--}
-```
-public final int getPermissions()
-```
-
-
-Gets the permissions.
-
-**Returns:**
-int - the permissions.
 ### setPermissions(int value) {#setPermissions-int-}
 ```
 public final void setPermissions(int value)
@@ -123,20 +137,6 @@ Sets the permissions.
 | --- | --- | --- |
 | value | int | the permissions. |
 
-### getUserPassword() {#getUserPassword--}
-```
-public final String getUserPassword()
-```
-
-
-Gets the User password.
-
---------------------
-
-Opening the document with the correct user password (or opening a document that does not have a user password) allows additional operations to be performed according to the user access permissions specified in the document\\u2019s encryption dictionary.
-
-**Returns:**
-java.lang.String - the User password.
 ### setUserPassword(String value) {#setUserPassword-java.lang.String-}
 ```
 public final void setUserPassword(String value)

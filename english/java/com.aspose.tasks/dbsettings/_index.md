@@ -19,8 +19,8 @@ Allows to specify settings to read from project database.
 | Method | Description |
 | --- | --- |
 | [getConnectionString()](#getConnectionString--) | Gets the connection string. |
-| [setConnectionString(String value)](#setConnectionString-java.lang.String-) | Sets the connection string. |
 | [getDriverClassName()](#getDriverClassName--) | Returns a name of JDBC driver class. |
+| [setConnectionString(String value)](#setConnectionString-java.lang.String-) | Sets the connection string. |
 | [setDriverClassName(String value)](#setDriverClassName-java.lang.String-) | Sets a name of JDBC driver class. |
 ### getConnectionString() {#getConnectionString--}
 ```
@@ -32,6 +32,16 @@ Gets the connection string.
 
 **Returns:**
 java.lang.String - the connection string.
+### getDriverClassName() {#getDriverClassName--}
+```
+public final String getDriverClassName()
+```
+
+
+Returns a name of JDBC driver class. The default driver class name is "com.microsoft.jdbc.sqlserver.SQLServerDriver"
+
+**Returns:**
+java.lang.String - driver class string.
 ### setConnectionString(String value) {#setConnectionString-java.lang.String-}
 ```
 public final void setConnectionString(String value)
@@ -45,16 +55,6 @@ Sets the connection string.
 | --- | --- | --- |
 | value | java.lang.String | the connection string. |
 
-### getDriverClassName() {#getDriverClassName--}
-```
-public final String getDriverClassName()
-```
-
-
-Returns a name of JDBC driver class. The default driver class name is "com.microsoft.jdbc.sqlserver.SQLServerDriver"
-
-**Returns:**
-java.lang.String - driver class string.
 ### setDriverClassName(String value) {#setDriverClassName-java.lang.String-}
 ```
 public final void setDriverClassName(String value)

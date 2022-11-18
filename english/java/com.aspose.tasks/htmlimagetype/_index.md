@@ -18,30 +18,14 @@ Represents HTML image type.
 
 | Field | Description |
 | --- | --- |
-| [Jpeg](#Jpeg) | JPEG JFIF. |
-| [Png](#Png) | Portable Network Graphics. |
 | [Bmp](#Bmp) | Windows Bitmap. |
 | [Gif](#Gif) | Gif image format |
-| [Tiff](#Tiff) | Tiff image format |
+| [Jpeg](#Jpeg) | JPEG JFIF. |
+| [Png](#Png) | Portable Network Graphics. |
 | [Svg](#Svg) | SVG image format |
 | [Svgz](#Svgz) | Compressed SVG |
+| [Tiff](#Tiff) | Tiff image format |
 | [Unknown](#Unknown) | Unknown format |
-### Jpeg {#Jpeg}
-```
-public static final int Jpeg
-```
-
-
-JPEG JFIF.
-
-### Png {#Png}
-```
-public static final int Png
-```
-
-
-Portable Network Graphics.
-
 ### Bmp {#Bmp}
 ```
 public static final int Bmp
@@ -58,13 +42,21 @@ public static final int Gif
 
 Gif image format
 
-### Tiff {#Tiff}
+### Jpeg {#Jpeg}
 ```
-public static final int Tiff
+public static final int Jpeg
 ```
 
 
-Tiff image format
+JPEG JFIF.
+
+### Png {#Png}
+```
+public static final int Png
+```
+
+
+Portable Network Graphics.
 
 ### Svg {#Svg}
 ```
@@ -81,6 +73,14 @@ public static final int Svgz
 
 
 Compressed SVG
+
+### Tiff {#Tiff}
+```
+public static final int Tiff
+```
+
+
+Tiff image format
 
 ### Unknown {#Unknown}
 ```

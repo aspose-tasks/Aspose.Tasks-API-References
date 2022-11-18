@@ -18,17 +18,16 @@ Specifies the type of a calculation of the custom attribute's value.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Means the extended attribute has no lookup table of formula and simply stores value set by the user. |
-| [Lookup](#Lookup) | Means the value of the extended attribute is restricted to values from a lookup table. |
-| [Rollup](#Rollup) | Means the value of the extended attribute are rolled up to task and group summary rows. |
 | [Formula](#Formula) | Means the value of the extended attribute is calculated using formula defined in  ExtendedAttributeDefinition.Formula ([ExtendedAttributeDefinition.getFormula()](../../com.aspose.tasks/extendedattributedefinition\#getFormula--)/[ExtendedAttributeDefinition.setFormula(String)](../../com.aspose.tasks/extendedattributedefinition\#setFormula-String-)). |
-### None {#None}
+| [Lookup](#Lookup) | Means the value of the extended attribute is restricted to values from a lookup table. |
+| [None](#None) | Means the extended attribute has no lookup table of formula and simply stores value set by the user. |
+### Formula {#Formula}
 ```
-public static final int None
+public static final int Formula
 ```
 
 
-Means the extended attribute has no lookup table of formula and simply stores value set by the user.
+Means the value of the extended attribute is calculated using formula defined in  ExtendedAttributeDefinition.Formula ([ExtendedAttributeDefinition.getFormula()](../../com.aspose.tasks/extendedattributedefinition\#getFormula--)/[ExtendedAttributeDefinition.setFormula(String)](../../com.aspose.tasks/extendedattributedefinition\#setFormula-String-)).
 
 ### Lookup {#Lookup}
 ```
@@ -38,19 +37,11 @@ public static final int Lookup
 
 Means the value of the extended attribute is restricted to values from a lookup table.
 
-### Rollup {#Rollup}
+### None {#None}
 ```
-public static final int Rollup
-```
-
-
-Means the value of the extended attribute are rolled up to task and group summary rows.
-
-### Formula {#Formula}
-```
-public static final int Formula
+public static final int None
 ```
 
 
-Means the value of the extended attribute is calculated using formula defined in  ExtendedAttributeDefinition.Formula ([ExtendedAttributeDefinition.getFormula()](../../com.aspose.tasks/extendedattributedefinition\#getFormula--)/[ExtendedAttributeDefinition.setFormula(String)](../../com.aspose.tasks/extendedattributedefinition\#setFormula-String-)).
+Means the extended attribute has no lookup table of formula and simply stores value set by the user.
 

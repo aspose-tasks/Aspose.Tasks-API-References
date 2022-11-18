@@ -18,19 +18,19 @@ Specifies the encryption algorithm to use for encrypting a PDF document.
 
 | Field | Description |
 | --- | --- |
-| [RC4_40](#RC4-40) | Specifies the encryption algorithm to use for encrypting a PDF document. |
 | [RC4_128](#RC4-128) | Specifies the encryption algorithm to use for encrypting a PDF document. |
-### RC4_40 {#RC4-40}
+| [RC4_40](#RC4-40) | Specifies the encryption algorithm to use for encrypting a PDF document. |
+### RC4_128 {#RC4-128}
 ```
-public static final int RC4_40
+public static final int RC4_128
 ```
 
 
 Specifies the encryption algorithm to use for encrypting a PDF document.
 
-### RC4_128 {#RC4-128}
+### RC4_40 {#RC4-40}
 ```
-public static final int RC4_128
+public static final int RC4_40
 ```
 
 

@@ -18,9 +18,17 @@ Specifies the type of a resource.
 
 | Field | Description |
 | --- | --- |
+| [Cost](#Cost) | Indicates Cost resource type. |
 | [Material](#Material) | Indicates Material resource type. |
 | [Work](#Work) | Indicates Work resource type. |
-| [Cost](#Cost) | Indicates Cost resource type. |
+### Cost {#Cost}
+```
+public static final int Cost
+```
+
+
+Indicates Cost resource type.
+
 ### Material {#Material}
 ```
 public static final int Material
@@ -36,12 +44,4 @@ public static final int Work
 
 
 Indicates Work resource type.
-
-### Cost {#Cost}
-```
-public static final int Cost
-```
-
-
-Indicates Cost resource type.
 

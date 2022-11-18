@@ -23,7 +23,7 @@ Applies logical NOT to the specified condition.
 
 | Constructor | Description |
 | --- | --- |
-| [Not(ICondition&lt;T&gt; condition)](#Not-com.aspose.tasks.ICondition-T--) | Initializes a new instance of the  Not\{T\}  class. |
+| [Not(ICondition&lt;T&gt; condition)](#Not-com.aspose.tasks.ICondition-T--) | Initializes a new instance of the Not&lt;T&gt; class. |
 ## Methods
 
 | Method | Description |
@@ -35,7 +35,7 @@ public Not(ICondition<T> condition)
 ```
 
 
-Initializes a new instance of the  Not\{T\}  class.
+Initializes a new instance of the Not&lt;T&gt; class.
 
 **Parameters:**
 | Parameter | Type | Description |

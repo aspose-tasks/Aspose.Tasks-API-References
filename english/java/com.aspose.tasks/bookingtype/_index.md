@@ -22,17 +22,9 @@ While exporting into XML the Undefined values will be eliminated from resulting 
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Indicates the value was not defined in original project file. |
 | [Committed](#Committed) | Indicates Committed booking type. |
 | [Proposed](#Proposed) | Indicates Proposed booking type. |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-Indicates the value was not defined in original project file.
-
+| [Undefined](#Undefined) | Indicates the value was not defined in original project file. |
 ### Committed {#Committed}
 ```
 public static final int Committed
@@ -48,4 +40,12 @@ public static final int Proposed
 
 
 Indicates Proposed booking type.
+
+### Undefined {#Undefined}
+```
+public static final int Undefined
+```
+
+
+Indicates the value was not defined in original project file.
 

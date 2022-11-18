@@ -26,7 +26,7 @@ public abstract void alg(T el, int index)
 ```
 
 
-Processes an object in the list. Called after [preAlg(T,int)](../../com.aspose.tasks/ialgorithm\#preAlg-T-int-);
+Processes an object in the list. Called after [preAlg(T, int)](../../com.aspose.tasks/ialgorithm\#preAlg-T--int-);
 
 **Parameters:**
 | Parameter | Type | Description |

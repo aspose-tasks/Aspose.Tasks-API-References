@@ -18,20 +18,12 @@ Specifies the unique identifiers of a rate table.
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Indicates Undefined rate type. |
 | [A](#A) | Indicates A rate type. |
 | [B](#B) | Indicates B rate type. |
 | [C](#C) | Indicates C rate type. |
 | [D](#D) | Indicates D rate type. |
 | [E](#E) | Indicates E rate type. |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-Indicates Undefined rate type.
-
+| [Undefined](#Undefined) | Indicates Undefined rate type. |
 ### A {#A}
 ```
 public static final int A
@@ -71,4 +63,12 @@ public static final int E
 
 
 Indicates E rate type.
+
+### Undefined {#Undefined}
+```
+public static final int Undefined
+```
+
+
+Indicates Undefined rate type.
 

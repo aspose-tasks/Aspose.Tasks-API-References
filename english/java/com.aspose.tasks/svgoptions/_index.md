@@ -29,8 +29,8 @@ Allows to specify additional options when rendering project pages to SVG.
 | [copyOutputPropertiesFrom(SaveOptions source)](#copyOutputPropertiesFrom-com.aspose.tasks.SaveOptions-) | \{@inheritDoc\} |
 | [deepClone()](#deepClone--) | \{@inheritDoc\} |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Gets a user-defined implementation callback which is used to get an output stream for each rendered page. |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.tasks.IPageSavingCallback-) | Sets a user-defined implementation callback which is used to get an output stream for each rendered page. |
 | [getUseGradientBrush()](#getUseGradientBrush--) | Determines whether to use gradient brush when rendering project layout. |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.tasks.IPageSavingCallback-) | Sets a user-defined implementation callback which is used to get an output stream for each rendered page. |
 | [setUseGradientBrush(boolean value)](#setUseGradientBrush-boolean-) | Determines whether to use gradient brush when rendering project layout. |
 ### SvgOptions() {#SvgOptions--}
 ```
@@ -73,19 +73,6 @@ Gets a user-defined implementation callback which is used to get an output strea
 
 **Returns:**
 [IPageSavingCallback](../../com.aspose.tasks/ipagesavingcallback) - a user-defined implementation callback which is used to get an output stream for each rendered page.
-### setPageSavingCallback(IPageSavingCallback value) {#setPageSavingCallback-com.aspose.tasks.IPageSavingCallback-}
-```
-public final void setPageSavingCallback(IPageSavingCallback value)
-```
-
-
-Sets a user-defined implementation callback which is used to get an output stream for each rendered page.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [IPageSavingCallback](../../com.aspose.tasks/ipagesavingcallback) | a user-defined implementation callback which is used to get an output stream for each rendered page. |
-
 ### getUseGradientBrush() {#getUseGradientBrush--}
 ```
 public boolean getUseGradientBrush()
@@ -100,6 +87,19 @@ Currently using of gradient brush is not supported for rendering to SVG.
 
 **Returns:**
 boolean - value indicating whether to use gradient brush when rendering project layout.
+### setPageSavingCallback(IPageSavingCallback value) {#setPageSavingCallback-com.aspose.tasks.IPageSavingCallback-}
+```
+public final void setPageSavingCallback(IPageSavingCallback value)
+```
+
+
+Sets a user-defined implementation callback which is used to get an output stream for each rendered page.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IPageSavingCallback](../../com.aspose.tasks/ipagesavingcallback) | a user-defined implementation callback which is used to get an output stream for each rendered page. |
+
 ### setUseGradientBrush(boolean value) {#setUseGradientBrush-boolean-}
 ```
 public void setUseGradientBrush(boolean value)

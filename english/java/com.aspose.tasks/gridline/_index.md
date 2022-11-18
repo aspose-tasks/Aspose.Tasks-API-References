@@ -25,12 +25,12 @@ The horizontal or vertical line that appears in the project view.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a flag indicating whether this instance is equal to the specified object. |
 | [getColor()](#getColor--) | Gets the  Color ([getColor()](../../com.aspose.tasks/gridline\#getColor--)/[setColor(java.awt.Color)](../../com.aspose.tasks/gridline\#setColor-java.awt.Color-)) of a gridline. |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the  Color ([getColor()](../../com.aspose.tasks/gridline\#getColor--)/[setColor(java.awt.Color)](../../com.aspose.tasks/gridline\#setColor-java.awt.Color-)) of a gridline. |
 | [getGridlineType()](#getGridlineType--) | Gets the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))). |
-| [setGridlineType(int value)](#setGridlineType-int-) | Sets the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))). |
 | [getPattern()](#getPattern--) | Gets the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline. |
-| [setPattern(int value)](#setPattern-int-) | Sets the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the instance of the [Gridline](../../com.aspose.tasks/gridline) class. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the  Color ([getColor()](../../com.aspose.tasks/gridline\#getColor--)/[setColor(java.awt.Color)](../../com.aspose.tasks/gridline\#setColor-java.awt.Color-)) of a gridline. |
+| [setGridlineType(int value)](#setGridlineType-int-) | Sets the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))). |
+| [setPattern(int value)](#setPattern-int-) | Sets the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline. |
 ### Gridline() {#Gridline--}
 ```
 public Gridline()
@@ -64,6 +64,36 @@ Gets the  Color ([getColor()](../../com.aspose.tasks/gridline\#getColor--)/[setC
 
 **Returns:**
 java.awt.Color - the  Color ([getColor()](../../com.aspose.tasks/gridline\#getColor--)/[setColor(java.awt.Color)](../../com.aspose.tasks/gridline\#setColor-java.awt.Color-)) of a gridline.
+### getGridlineType() {#getGridlineType--}
+```
+public final int getGridlineType()
+```
+
+
+Gets the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))).
+
+**Returns:**
+int - the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))).
+### getPattern() {#getPattern--}
+```
+public final int getPattern()
+```
+
+
+Gets the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline.
+
+**Returns:**
+int - the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Returns a hash code value for the instance of the [Gridline](../../com.aspose.tasks/gridline) class.
+
+**Returns:**
+int - returns a hash code value for this object.
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
 public final void setColor(Color value)
@@ -77,16 +107,6 @@ Sets the  Color ([getColor()](../../com.aspose.tasks/gridline\#getColor--)/[setC
 | --- | --- | --- |
 | value | java.awt.Color | the  Color ([getColor()](../../com.aspose.tasks/gridline\#getColor--)/[setColor(java.awt.Color)](../../com.aspose.tasks/gridline\#setColor-java.awt.Color-)) of a gridline. |
 
-### getGridlineType() {#getGridlineType--}
-```
-public final int getGridlineType()
-```
-
-
-Gets the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))).
-
-**Returns:**
-int - the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))).
 ### setGridlineType(int value) {#setGridlineType-int-}
 ```
 public final void setGridlineType(int value)
@@ -100,16 +120,6 @@ Sets the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.t
 | --- | --- | --- |
 | value | int | the type of gridline ( GridlineType ([getGridlineType()](../../com.aspose.tasks/gridline\#getGridlineType--)/[setGridlineType(int)](../../com.aspose.tasks/gridline\#setGridlineType-int-))). |
 
-### getPattern() {#getPattern--}
-```
-public final int getPattern()
-```
-
-
-Gets the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline.
-
-**Returns:**
-int - the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline.
 ### setPattern(int value) {#setPattern-int-}
 ```
 public final void setPattern(int value)
@@ -123,13 +133,3 @@ Sets the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline.
 | --- | --- | --- |
 | value | int | the [LinePattern](../../com.aspose.tasks/linepattern) of a gridline. |
 
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Returns a hash code value for the instance of the [Gridline](../../com.aspose.tasks/gridline) class.
-
-**Returns:**
-int - returns a hash code value for this object.

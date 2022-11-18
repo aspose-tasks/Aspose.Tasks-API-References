@@ -48,9 +48,7 @@ Filter list elements by specified condition.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | list | java.util.List&lt;T&gt; | A list to process. |
-| cond | [ICondition](../../com.aspose.tasks/icondition) | Condition used to filter the specified list.
-
- T : The type of object to apply filter to. |
+| cond | [ICondition](../../com.aspose.tasks/icondition) | Condition used to filter the specified list. |
 
 **Returns:**
 java.util.List&lt;T&gt; - Filtered list.

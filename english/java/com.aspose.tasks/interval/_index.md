@@ -19,8 +19,8 @@ Specifies recurring intervals to display progress lines at.
 | Field | Description |
 | --- | --- |
 | [Daily](#Daily) | Indicates Daily interval. |
-| [Weekly](#Weekly) | Indicates Weekly interval. |
 | [Monthly](#Monthly) | Indicates Monthly interval. |
+| [Weekly](#Weekly) | Indicates Weekly interval. |
 ### Daily {#Daily}
 ```
 public static final int Daily
@@ -29,14 +29,6 @@ public static final int Daily
 
 Indicates Daily interval.
 
-### Weekly {#Weekly}
-```
-public static final int Weekly
-```
-
-
-Indicates Weekly interval.
-
 ### Monthly {#Monthly}
 ```
 public static final int Monthly
@@ -44,4 +36,12 @@ public static final int Monthly
 
 
 Indicates Monthly interval.
+
+### Weekly {#Weekly}
+```
+public static final int Weekly
+```
+
+
+Indicates Weekly interval.
 

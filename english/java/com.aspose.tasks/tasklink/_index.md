@@ -24,20 +24,20 @@ Represents a predecessor link.
 | [equals(TaskLink other)](#equals-com.aspose.tasks.TaskLink-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [getCrossProjectName()](#getCrossProjectName--) | Gets the external predecessor project. |
-| [setCrossProjectName(String value)](#setCrossProjectName-java.lang.String-) | Sets the external predecessor project. |
 | [getLagFormat()](#getLagFormat--) | Gets the format for expressing the lag format. |
-| [setLagFormat(int value)](#setLagFormat-int-) | Sets the format for expressing the lag format. |
 | [getLinkLag()](#getLinkLag--) | Gets the amount of lag in tenths of a minute or percentage. |
-| [setLinkLag(int value)](#setLinkLag-int-) | Sets the amount of lag in tenths of a minute or percentage. |
 | [getLinkType()](#getLinkType--) | Gets the type of a link. |
-| [setLinkType(int value)](#setLinkType-int-) | Sets the type of a link. |
 | [getPredTask()](#getPredTask--) | Gets the predecessor task. |
-| [setPredTask(Task value)](#setPredTask-com.aspose.tasks.Task-) | Sets the predecessor task. |
 | [getSuccTask()](#getSuccTask--) | Gets the successor task. |
-| [setSuccTask(Task value)](#setSuccTask-com.aspose.tasks.Task-) | Sets the successor task. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the instance of the [TaskLink](../../com.aspose.tasks/tasklink) class. |
 | [isCrossProject()](#isCrossProject--) | Gets a value indicating whether a predecessor is part of another project. |
 | [setCrossProject(boolean value)](#setCrossProject-boolean-) | Sets a value indicating whether a predecessor is part of another project. |
+| [setCrossProjectName(String value)](#setCrossProjectName-java.lang.String-) | Sets the external predecessor project. |
+| [setLagFormat(int value)](#setLagFormat-int-) | Sets the format for expressing the lag format. |
+| [setLinkLag(int value)](#setLinkLag-int-) | Sets the amount of lag in tenths of a minute or percentage. |
+| [setLinkType(int value)](#setLinkType-int-) | Sets the type of a link. |
+| [setPredTask(Task value)](#setPredTask-com.aspose.tasks.Task-) | Sets the predecessor task. |
+| [setSuccTask(Task value)](#setSuccTask-com.aspose.tasks.Task-) | Sets the successor task. |
 | [toString()](#toString--) | Returns string representation of a TaskLink. |
 ### equals(TaskLink other) {#equals-com.aspose.tasks.TaskLink-}
 ```
@@ -79,19 +79,6 @@ Gets the external predecessor project.
 
 **Returns:**
 java.lang.String - the external predecessor project.
-### setCrossProjectName(String value) {#setCrossProjectName-java.lang.String-}
-```
-public final void setCrossProjectName(String value)
-```
-
-
-Sets the external predecessor project.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | the external predecessor project. |
-
 ### getLagFormat() {#getLagFormat--}
 ```
 public final int getLagFormat()
@@ -102,19 +89,6 @@ Gets the format for expressing the lag format.
 
 **Returns:**
 int - the format for expressing the lag format.
-### setLagFormat(int value) {#setLagFormat-int-}
-```
-public final void setLagFormat(int value)
-```
-
-
-Sets the format for expressing the lag format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | the format for expressing the lag format. |
-
 ### getLinkLag() {#getLinkLag--}
 ```
 public final int getLinkLag()
@@ -125,19 +99,6 @@ Gets the amount of lag in tenths of a minute or percentage.
 
 **Returns:**
 int - the amount of lag in tenths of a minute or percentage.
-### setLinkLag(int value) {#setLinkLag-int-}
-```
-public final void setLinkLag(int value)
-```
-
-
-Sets the amount of lag in tenths of a minute or percentage.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | the amount of lag in tenths of a minute or percentage. |
-
 ### getLinkType() {#getLinkType--}
 ```
 public final int getLinkType()
@@ -148,19 +109,6 @@ Gets the type of a link.
 
 **Returns:**
 int - the type of a link.
-### setLinkType(int value) {#setLinkType-int-}
-```
-public final void setLinkType(int value)
-```
-
-
-Sets the type of a link.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | the type of a link. |
-
 ### getPredTask() {#getPredTask--}
 ```
 public final Task getPredTask()
@@ -171,19 +119,6 @@ Gets the predecessor task.
 
 **Returns:**
 [Task](../../com.aspose.tasks/task) - the predecessor task.
-### setPredTask(Task value) {#setPredTask-com.aspose.tasks.Task-}
-```
-public final void setPredTask(Task value)
-```
-
-
-Sets the predecessor task.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Task](../../com.aspose.tasks/task) | the predecessor task. |
-
 ### getSuccTask() {#getSuccTask--}
 ```
 public final Task getSuccTask()
@@ -194,19 +129,6 @@ Gets the successor task.
 
 **Returns:**
 [Task](../../com.aspose.tasks/task) - the successor task.
-### setSuccTask(Task value) {#setSuccTask-com.aspose.tasks.Task-}
-```
-public final void setSuccTask(Task value)
-```
-
-
-Sets the successor task.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Task](../../com.aspose.tasks/task) | the successor task. |
-
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -239,6 +161,84 @@ Sets a value indicating whether a predecessor is part of another project.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether a predecessor is part of another project. |
+
+### setCrossProjectName(String value) {#setCrossProjectName-java.lang.String-}
+```
+public final void setCrossProjectName(String value)
+```
+
+
+Sets the external predecessor project.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | the external predecessor project. |
+
+### setLagFormat(int value) {#setLagFormat-int-}
+```
+public final void setLagFormat(int value)
+```
+
+
+Sets the format for expressing the lag format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the format for expressing the lag format. |
+
+### setLinkLag(int value) {#setLinkLag-int-}
+```
+public final void setLinkLag(int value)
+```
+
+
+Sets the amount of lag in tenths of a minute or percentage.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the amount of lag in tenths of a minute or percentage. |
+
+### setLinkType(int value) {#setLinkType-int-}
+```
+public final void setLinkType(int value)
+```
+
+
+Sets the type of a link.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the type of a link. |
+
+### setPredTask(Task value) {#setPredTask-com.aspose.tasks.Task-}
+```
+public final void setPredTask(Task value)
+```
+
+
+Sets the predecessor task.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Task](../../com.aspose.tasks/task) | the predecessor task. |
+
+### setSuccTask(Task value) {#setSuccTask-com.aspose.tasks.Task-}
+```
+public final void setSuccTask(Task value)
+```
+
+
+Sets the successor task.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Task](../../com.aspose.tasks/task) | the successor task. |
 
 ### toString() {#toString--}
 ```

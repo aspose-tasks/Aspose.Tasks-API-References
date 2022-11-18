@@ -22,8 +22,8 @@ Represents supported properties of [Project](../../com.aspose.tasks/project) obj
 | [ADMIN_PROJECT](#ADMIN-PROJECT) | Determines whether a project is an administrative project. |
 | [ARE_EDITABLE_ACTUAL_COSTS](#ARE-EDITABLE-ACTUAL-COSTS) | Determines whether actual costs are editable. |
 | [AUTHOR](#AUTHOR) | The author of a project. |
-| [AUTO_ADD_NEW_RESOURCES_AND_TASKS](#AUTO-ADD-NEW-RESOURCES-AND-TASKS) | Determines whether new resources or tasks automatically added to a resource or task pool. |
 | [AUTOLINK](#AUTOLINK) | Determines whether inserted or moved tasks are auto linked. |
+| [AUTO_ADD_NEW_RESOURCES_AND_TASKS](#AUTO-ADD-NEW-RESOURCES-AND-TASKS) | Determines whether new resources or tasks automatically added to a resource or task pool. |
 | [BASELINE_FOR_EARNED_VALUE](#BASELINE-FOR-EARNED-VALUE) | The specific baseline used to calculate Variance values. |
 | [CALENDAR](#CALENDAR) | The project calendar. |
 | [CATEGORY](#CATEGORY) | The category of a project. |
@@ -36,8 +36,8 @@ Represents supported properties of [Project](../../com.aspose.tasks/project) obj
 | [CURRENCY_SYMBOL](#CURRENCY-SYMBOL) | The currency symbol used in a project. |
 | [CURRENCY_SYMBOL_POSITION](#CURRENCY-SYMBOL-POSITION) | The placement of the currency symbol. |
 | [CURRENT_DATE](#CURRENT-DATE) | The system date. |
-| [DATE_FORMAT](#DATE-FORMAT) | Project view date format. |
 | [CUSTOM_DATE_FORMAT](#CUSTOM-DATE-FORMAT) | Project view custom date format. |
+| [DATE_FORMAT](#DATE-FORMAT) | Project view date format. |
 | [DAYS_PER_MONTH](#DAYS-PER-MONTH) | The number of days per month. |
 | [DEFAULT_FINISH_TIME](#DEFAULT-FINISH-TIME) | The default finish time of new tasks. |
 | [DEFAULT_FIXED_COST_ACCRUAL](#DEFAULT-FIXED-COST-ACCRUAL) | The default type when fixed costs are accrued. |
@@ -52,6 +52,7 @@ Represents supported properties of [Project](../../com.aspose.tasks/project) obj
 | [FINISH_DATE](#FINISH-DATE) | The finish date of a project. |
 | [FISCAL_YEAR_START](#FISCAL-YEAR-START) | Determines whether the fiscal year numbering is used. |
 | [FY_START_DATE](#FY-START-DATE) | The month when fiscal year is starting. |
+| [GUID](#GUID) | The GUID of the project. |
 | [HONOR_CONSTRAINTS](#HONOR-CONSTRAINTS) | Determines whether tasks honor their constraint dates. |
 | [HYPERLINK_BASE](#HYPERLINK-BASE) | Project's hyperlink base. |
 | [INSERTED_PROJECTS_LIKE_SUMMARY](#INSERTED-PROJECTS-LIKE-SUMMARY) | Determines whether subtasks are calculated as summary tasks. |
@@ -95,7 +96,6 @@ Represents supported properties of [Project](../../com.aspose.tasks/project) obj
 | [UPDATE_MANUALLY_SCHEDULED_TASKS_WHEN_EDITING_LINKS](#UPDATE-MANUALLY-SCHEDULED-TASKS-WHEN-EDITING-LINKS) | Determines whether manual tasks must be updated when links were edited. |
 | [WEEK_START_DAY](#WEEK-START-DAY) | First day of a week. |
 | [WORK_FORMAT](#WORK-FORMAT) | The format used to show the duration of the task. |
-| [GUID](#GUID) | The GUID of the project. |
 ### ACTUALS_IN_SYNC {#ACTUALS-IN-SYNC}
 ```
 public static final Key<NullableBool,Integer> ACTUALS_IN_SYNC
@@ -128,14 +128,6 @@ public static final Key<String,Integer> AUTHOR
 
 The author of a project.
 
-### AUTO_ADD_NEW_RESOURCES_AND_TASKS {#AUTO-ADD-NEW-RESOURCES-AND-TASKS}
-```
-public static final Key<NullableBool,Integer> AUTO_ADD_NEW_RESOURCES_AND_TASKS
-```
-
-
-Determines whether new resources or tasks automatically added to a resource or task pool.
-
 ### AUTOLINK {#AUTOLINK}
 ```
 public static final Key<NullableBool,Integer> AUTOLINK
@@ -143,6 +135,14 @@ public static final Key<NullableBool,Integer> AUTOLINK
 
 
 Determines whether inserted or moved tasks are auto linked.
+
+### AUTO_ADD_NEW_RESOURCES_AND_TASKS {#AUTO-ADD-NEW-RESOURCES-AND-TASKS}
+```
+public static final Key<NullableBool,Integer> AUTO_ADD_NEW_RESOURCES_AND_TASKS
+```
+
+
+Determines whether new resources or tasks automatically added to a resource or task pool.
 
 ### BASELINE_FOR_EARNED_VALUE {#BASELINE-FOR-EARNED-VALUE}
 ```
@@ -244,14 +244,6 @@ public static final Key<Date,Integer> CURRENT_DATE
 
 The system date.
 
-### DATE_FORMAT {#DATE-FORMAT}
-```
-public static final Key<Integer,Integer> DATE_FORMAT
-```
-
-
-Project view date format.
-
 ### CUSTOM_DATE_FORMAT {#CUSTOM-DATE-FORMAT}
 ```
 public static final Key<String,Integer> CUSTOM_DATE_FORMAT
@@ -259,6 +251,14 @@ public static final Key<String,Integer> CUSTOM_DATE_FORMAT
 
 
 Project view custom date format. Used to format dates when [DATE\_FORMAT](../../com.aspose.tasks/prj\#DATE-FORMAT) property is set to [DateFormat.Custom](../../com.aspose.tasks/dateformat\#Custom).
+
+### DATE_FORMAT {#DATE-FORMAT}
+```
+public static final Key<Integer,Integer> DATE_FORMAT
+```
+
+
+Project view date format.
 
 ### DAYS_PER_MONTH {#DAYS-PER-MONTH}
 ```
@@ -371,6 +371,14 @@ public static final Key<Integer,Integer> FY_START_DATE
 
 
 The month when fiscal year is starting.
+
+### GUID {#GUID}
+```
+public static final Key<UUID,Integer> GUID
+```
+
+
+The GUID of the project.
 
 ### HONOR_CONSTRAINTS {#HONOR-CONSTRAINTS}
 ```
@@ -723,12 +731,4 @@ public static final Key<Integer,Integer> WORK_FORMAT
 
 
 The format used to show the duration of the task.
-
-### GUID {#GUID}
-```
-public static final Key<UUID,Integer> GUID
-```
-
-
-The GUID of the project.
 

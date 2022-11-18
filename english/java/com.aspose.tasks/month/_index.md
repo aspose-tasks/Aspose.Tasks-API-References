@@ -22,51 +22,19 @@ While exporting into XML the Undefined values will be eliminated from resulting 
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Indicates the value was not defined in original project file. |
-| [January](#January) | Indicates January month. |
-| [February](#February) | Indicates February month. |
-| [March](#March) | Indicates March month. |
 | [April](#April) | Indicates April month. |
-| [May](#May) | Indicates May month. |
-| [June](#June) | Indicates June month. |
-| [July](#July) | Indicates July month. |
 | [August](#August) | Indicates August month. |
-| [September](#September) | Indicates September month. |
-| [October](#October) | Indicates October month. |
-| [November](#November) | Indicates November month. |
 | [December](#December) | Indicates December month. |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-Indicates the value was not defined in original project file.
-
-### January {#January}
-```
-public static final int January
-```
-
-
-Indicates January month.
-
-### February {#February}
-```
-public static final int February
-```
-
-
-Indicates February month.
-
-### March {#March}
-```
-public static final int March
-```
-
-
-Indicates March month.
-
+| [February](#February) | Indicates February month. |
+| [January](#January) | Indicates January month. |
+| [July](#July) | Indicates July month. |
+| [June](#June) | Indicates June month. |
+| [March](#March) | Indicates March month. |
+| [May](#May) | Indicates May month. |
+| [November](#November) | Indicates November month. |
+| [October](#October) | Indicates October month. |
+| [September](#September) | Indicates September month. |
+| [Undefined](#Undefined) | Indicates the value was not defined in original project file. |
 ### April {#April}
 ```
 public static final int April
@@ -74,30 +42,6 @@ public static final int April
 
 
 Indicates April month.
-
-### May {#May}
-```
-public static final int May
-```
-
-
-Indicates May month.
-
-### June {#June}
-```
-public static final int June
-```
-
-
-Indicates June month.
-
-### July {#July}
-```
-public static final int July
-```
-
-
-Indicates July month.
 
 ### August {#August}
 ```
@@ -107,21 +51,61 @@ public static final int August
 
 Indicates August month.
 
-### September {#September}
+### December {#December}
 ```
-public static final int September
-```
-
-
-Indicates September month.
-
-### October {#October}
-```
-public static final int October
+public static final int December
 ```
 
 
-Indicates October month.
+Indicates December month.
+
+### February {#February}
+```
+public static final int February
+```
+
+
+Indicates February month.
+
+### January {#January}
+```
+public static final int January
+```
+
+
+Indicates January month.
+
+### July {#July}
+```
+public static final int July
+```
+
+
+Indicates July month.
+
+### June {#June}
+```
+public static final int June
+```
+
+
+Indicates June month.
+
+### March {#March}
+```
+public static final int March
+```
+
+
+Indicates March month.
+
+### May {#May}
+```
+public static final int May
+```
+
+
+Indicates May month.
 
 ### November {#November}
 ```
@@ -131,11 +115,27 @@ public static final int November
 
 Indicates November month.
 
-### December {#December}
+### October {#October}
 ```
-public static final int December
+public static final int October
 ```
 
 
-Indicates December month.
+Indicates October month.
+
+### September {#September}
+```
+public static final int September
+```
+
+
+Indicates September month.
+
+### Undefined {#Undefined}
+```
+public static final int Undefined
+```
+
+
+Indicates the value was not defined in original project file.
 

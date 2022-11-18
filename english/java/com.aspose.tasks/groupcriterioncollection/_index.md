@@ -22,8 +22,8 @@ Contains a collection of [GroupCriterion](../../com.aspose.tasks/groupcriterion)
 | [add(int index, GroupCriterion element)](#add-int-com.aspose.tasks.GroupCriterion-) | Inserts the specified element at the specified position in this list. |
 | [get(int index)](#get-int-) | (@inheritDoc\} |
 | [getParentGroup()](#getParentGroup--) | Gets the parent of the GroupCriterion object. |
-| [remove(Object item)](#remove-java.lang.Object-) | Removes a single instance of the specified element from this collection, if it is present. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this collection and returns the element that was removed from the collection. |
+| [remove(Object item)](#remove-java.lang.Object-) | Removes a single instance of the specified element from this collection, if it is present. |
 | [size()](#size--) | Gets the number of elements contained in this collection. |
 | [toList()](#toList--) | Converts a GroupCriterion collection to a list of [GroupCriterion](../../com.aspose.tasks/groupcriterion) objects. |
 ### add(GroupCriterion item) {#add-com.aspose.tasks.GroupCriterion-}
@@ -80,21 +80,6 @@ Gets the parent of the GroupCriterion object.
 
 **Returns:**
 [Group](../../com.aspose.tasks/group) - the parent of the GroupCriterion object.
-### remove(Object item) {#remove-java.lang.Object-}
-```
-public final boolean remove(Object item)
-```
-
-
-Removes a single instance of the specified element from this collection, if it is present.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| item | java.lang.Object | element to be removed from this collection, if present. |
-
-**Returns:**
-boolean - true if an element was removed as a result of this call.
 ### remove(int index) {#remove-int-}
 ```
 public final GroupCriterion remove(int index)
@@ -110,6 +95,21 @@ Removes the element at the specified position in this collection and returns the
 
 **Returns:**
 [GroupCriterion](../../com.aspose.tasks/groupcriterion) - the element that was removed from the collection.
+### remove(Object item) {#remove-java.lang.Object-}
+```
+public final boolean remove(Object item)
+```
+
+
+Removes a single instance of the specified element from this collection, if it is present.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | java.lang.Object | element to be removed from this collection, if present. |
+
+**Returns:**
+boolean - true if an element was removed as a result of this call.
 ### size() {#size--}
 ```
 public final int size()

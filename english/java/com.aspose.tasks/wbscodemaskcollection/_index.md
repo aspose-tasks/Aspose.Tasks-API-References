@@ -19,17 +19,17 @@ Represents a collection of WBSCodeMask objects.
 | Method | Description |
 | --- | --- |
 | [add(WBSCodeMask item)](#add-com.aspose.tasks.WBSCodeMask-) | Adds the specified item to this collection. |
+| [add(int index, WBSCodeMask element)](#add-int-com.aspose.tasks.WBSCodeMask-) | Inserts the specified element at the specified position in this list. |
 | [clear()](#clear--) | Removes all items from this collection. |
 | [contains(Object item)](#contains-java.lang.Object-) | Returns true if the specified item is found in this collection; otherwise, false. |
+| [get(int index)](#get-int-) | \{@inheritDoc\} |
 | [indexOf(Object item)](#indexOf-java.lang.Object-) |  |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether this collection is read-only; otherwise, false. |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
+| [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes the first occurrence of a specific object from this collection. |
 | [size()](#size--) | Gets the number of elements contained in this collection. |
 | [toList()](#toList--) | Converts a WBSCodeMaskCollection to a list of [WBSCodeMask](../../com.aspose.tasks/wbscodemask) objects. |
-| [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
-| [add(int index, WBSCodeMask element)](#add-int-com.aspose.tasks.WBSCodeMask-) | Inserts the specified element at the specified position in this list. |
-| [get(int index)](#get-int-) | \{@inheritDoc\} |
 ### add(WBSCodeMask item) {#add-com.aspose.tasks.WBSCodeMask-}
 ```
 public boolean add(WBSCodeMask item)
@@ -45,6 +45,20 @@ Adds the specified item to this collection.
 
 **Returns:**
 boolean - Returns true is the item was added successfully.
+### add(int index, WBSCodeMask element) {#add-int-com.aspose.tasks.WBSCodeMask-}
+```
+public void add(int index, WBSCodeMask element)
+```
+
+
+Inserts the specified element at the specified position in this list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+| element | [WBSCodeMask](../../com.aspose.tasks/wbscodemask) | \{@inheritDoc\} |
+
 ### clear() {#clear--}
 ```
 public final void clear()
@@ -68,6 +82,21 @@ Returns true if the specified item is found in this collection; otherwise, false
 
 **Returns:**
 boolean - true if the specified item is found in this collection; otherwise, false.
+### get(int index) {#get-int-}
+```
+public WBSCodeMask get(int index)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[WBSCodeMask](../../com.aspose.tasks/wbscodemask) - \{@inheritDoc\}
 ### indexOf(Object item) {#indexOf-java.lang.Object-}
 ```
 public final int indexOf(Object item)
@@ -103,6 +132,21 @@ Returns an enumerator for this collection.
 
 **Returns:**
 java.util.Iterator&lt;com.aspose.tasks.WBSCodeMask&gt; - an enumerator for this collection.
+### remove(int index) {#remove-int-}
+```
+public WBSCodeMask remove(int index)
+```
+
+
+Removes the element at the specified position in this list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[WBSCodeMask](../../com.aspose.tasks/wbscodemask) - \{@inheritDoc\}
 ### remove(Object item) {#remove-java.lang.Object-}
 ```
 public final boolean remove(Object item)
@@ -138,47 +182,3 @@ Converts a WBSCodeMaskCollection to a list of [WBSCodeMask](../../com.aspose.tas
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.WBSCodeMask&gt; - Generic list of [WBSCodeMask](../../com.aspose.tasks/wbscodemask) objects.
-### remove(int index) {#remove-int-}
-```
-public WBSCodeMask remove(int index)
-```
-
-
-Removes the element at the specified position in this list.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[WBSCodeMask](../../com.aspose.tasks/wbscodemask) - \{@inheritDoc\}
-### add(int index, WBSCodeMask element) {#add-int-com.aspose.tasks.WBSCodeMask-}
-```
-public void add(int index, WBSCodeMask element)
-```
-
-
-Inserts the specified element at the specified position in this list.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-| element | [WBSCodeMask](../../com.aspose.tasks/wbscodemask) | \{@inheritDoc\} |
-
-### get(int index) {#get-int-}
-```
-public WBSCodeMask get(int index)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[WBSCodeMask](../../com.aspose.tasks/wbscodemask) - \{@inheritDoc\}

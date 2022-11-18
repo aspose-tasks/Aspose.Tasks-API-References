@@ -18,17 +18,9 @@ Specifies project calculation mode.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | None. |
 | [Automatic](#Automatic) | Automatic mode. |
 | [Manual](#Manual) | Manual mode. |
-### None {#None}
-```
-public static final int None
-```
-
-
-None. Project dates and costs are not recalculated in this mode.
-
+| [None](#None) | None. |
 ### Automatic {#Automatic}
 ```
 public static final int Automatic
@@ -44,4 +36,12 @@ public static final int Manual
 
 
 Manual mode. Only necessary fields are recalculated in this mode, for example UIDs and IDs of objects.
+
+### None {#None}
+```
+public static final int None
+```
+
+
+None. Project dates and costs are not recalculated in this mode.
 

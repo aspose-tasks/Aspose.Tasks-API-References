@@ -18,9 +18,9 @@ Specifies the baseline type used to calculate Variance values. While exporting i
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Indicates the field was not defined in original project file. |
 | [Baseline](#Baseline) | Indicates Baseline type. |
 | [Baseline1](#Baseline1) | Indicates Baseline1 type. |
+| [Baseline10](#Baseline10) | Indicates Baseline10 type. |
 | [Baseline2](#Baseline2) | Indicates Baseline2 type. |
 | [Baseline3](#Baseline3) | Indicates Baseline3 type. |
 | [Baseline4](#Baseline4) | Indicates Baseline4 type. |
@@ -29,15 +29,7 @@ Specifies the baseline type used to calculate Variance values. While exporting i
 | [Baseline7](#Baseline7) | Indicates Baseline7 type. |
 | [Baseline8](#Baseline8) | Indicates Baseline8 type. |
 | [Baseline9](#Baseline9) | Indicates Baseline9 type. |
-| [Baseline10](#Baseline10) | Indicates Baseline10 type. |
-### Undefined {#Undefined}
-```
-public static final int Undefined
-```
-
-
-Indicates the field was not defined in original project file.
-
+| [Undefined](#Undefined) | Indicates the field was not defined in original project file. |
 ### Baseline {#Baseline}
 ```
 public static final int Baseline
@@ -53,6 +45,14 @@ public static final int Baseline1
 
 
 Indicates Baseline1 type.
+
+### Baseline10 {#Baseline10}
+```
+public static final int Baseline10
+```
+
+
+Indicates Baseline10 type.
 
 ### Baseline2 {#Baseline2}
 ```
@@ -118,11 +118,11 @@ public static final int Baseline9
 
 Indicates Baseline9 type.
 
-### Baseline10 {#Baseline10}
+### Undefined {#Undefined}
 ```
-public static final int Baseline10
+public static final int Undefined
 ```
 
 
-Indicates Baseline10 type.
+Indicates the field was not defined in original project file.
 

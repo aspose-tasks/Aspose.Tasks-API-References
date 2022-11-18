@@ -187,9 +187,9 @@ url: /java/com.aspose.tasks/
 | [PrimaveraDbSettings](../com.aspose.tasks/primaveradbsettings) | Allows to set necessary options to read project data from Primavera database. |
 | [PrimaveraReadOptions](../com.aspose.tasks/primaverareadoptions) | Allows to specify additional options when reading Primavera Xml or Primavera Xer files. |
 | [PrimaveraSaveOptions](../com.aspose.tasks/primaverasaveoptions) | Allows to specify additional options when saving project to Primavera XER format. |
+| [PrimaveraTaskProperties](../com.aspose.tasks/primaverataskproperties) | Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML). |
 | [PrimaveraXerReader](../com.aspose.tasks/primaveraxerreader) | Represents a reader to read Project UIDs from Primavera XER file |
 | [PrimaveraXmlReader](../com.aspose.tasks/primaveraxmlreader) | Represents a reader which allows to retrieve Project UIDs from Primavera Xml file. |
-| [PrimaveraXmlReadingOptions](../com.aspose.tasks/primaveraxmlreadingoptions) | Allows to specify additional options when reading Primavera Xml files. |
 | [PrimaveraXmlSaveOptions](../com.aspose.tasks/primaveraxmlsaveoptions) | Allows to specify additional options when saving project to Primavera xml format. |
 | [PrintOptions](../com.aspose.tasks/printoptions) | Allows to specify additional options when printing project. |
 | [PrinterPaperSize](../com.aspose.tasks/printerpapersize) | Specifies the paper size which is used for printing. |
@@ -300,7 +300,7 @@ url: /java/com.aspose.tasks/
 | [Timescale](../com.aspose.tasks/timescale) | Defines options which specifies how to render timescale in Gantt Chart, Task Usage or Resource Usage views when the project is exported to a graphic format. |
 | [TimescaleTier](../com.aspose.tasks/timescaletier) | Represents a single tier of the timescale on a Gantt Chart. |
 | [TimescaleUnit](../com.aspose.tasks/timescaleunit) | Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view. |
-| [TreeAlgorithmBase&lt;T&gt;](../com.aspose.tasks/treealgorithmbase) | A base class for implementations of  ITreeAlgorithm\{T\} |
+| [TreeAlgorithmBase&lt;T&gt;](../com.aspose.tasks/treealgorithmbase) | A base class for implementations of ITreeAlgorithm&lt;T&gt; |
 | [Tsk](../com.aspose.tasks/tsk) | Represents properties of [Task](../com.aspose.tasks/task) object. |
 | [UndefinedConstraintHandlingBehavior](../com.aspose.tasks/undefinedconstrainthandlingbehavior) | Specifies the behavior used to handle tasks with undefined constraints. |
 | [UsageView](../com.aspose.tasks/usageview) | Represent a usage view in a project. |

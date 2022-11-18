@@ -23,9 +23,11 @@ Allows to specify additional options when reading Primavera Xml or Primavera Xer
 
 | Method | Description |
 | --- | --- |
+| [getPreserveUids()](#getPreserveUids--) | Gets a flag that specifies whether original unique identifiers of entities should be preserved. |
 | [getProjectUid()](#getProjectUid--) | Gets the UID of a project to read from file containing multiple projects. |
-| [setProjectUid(int value)](#setProjectUid-int-) | Sets the UID of a project to read from file containing multiple projects. |
 | [getUndefinedConstraintHandlingBehavior()](#getUndefinedConstraintHandlingBehavior--) | Specifies the behavior used to process tasks with undefined constraints read from XER format. |
+| [setPreserveUids(boolean value)](#setPreserveUids-boolean-) | Sets a flag that specifies whether original unique identifiers of entities should be preserved. |
+| [setProjectUid(int value)](#setProjectUid-int-) | Sets the UID of a project to read from file containing multiple projects. |
 | [setUndefinedConstraintHandlingBehavior(int value)](#setUndefinedConstraintHandlingBehavior-int-) | Specifies the behavior used to process tasks with undefined constraints read from XER format. |
 ### PrimaveraReadOptions() {#PrimaveraReadOptions--}
 ```
@@ -35,6 +37,16 @@ public PrimaveraReadOptions()
 
 Initializes a new instance of the [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) class.
 
+### getPreserveUids() {#getPreserveUids--}
+```
+public final boolean getPreserveUids()
+```
+
+
+Gets a flag that specifies whether original unique identifiers of entities should be preserved.
+
+**Returns:**
+boolean - a flag that specifies whether original unique identifiers of entities should be preserved.
 ### getProjectUid() {#getProjectUid--}
 ```
 public final int getProjectUid()
@@ -45,6 +57,29 @@ Gets the UID of a project to read from file containing multiple projects.
 
 **Returns:**
 int - the UID of a project to read from file containing multiple projects.
+### getUndefinedConstraintHandlingBehavior() {#getUndefinedConstraintHandlingBehavior--}
+```
+public final int getUndefinedConstraintHandlingBehavior()
+```
+
+
+Specifies the behavior used to process tasks with undefined constraints read from XER format.
+
+**Returns:**
+int - the behavior used to process tasks with undefined constraints read from XER format.
+### setPreserveUids(boolean value) {#setPreserveUids-boolean-}
+```
+public final void setPreserveUids(boolean value)
+```
+
+
+Sets a flag that specifies whether original unique identifiers of entities should be preserved.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a flag that specifies whether original unique identifiers of entities should be preserved. |
+
 ### setProjectUid(int value) {#setProjectUid-int-}
 ```
 public final void setProjectUid(int value)
@@ -58,16 +93,6 @@ Sets the UID of a project to read from file containing multiple projects.
 | --- | --- | --- |
 | value | int | the UID of a project to read from file containing multiple projects. |
 
-### getUndefinedConstraintHandlingBehavior() {#getUndefinedConstraintHandlingBehavior--}
-```
-public final int getUndefinedConstraintHandlingBehavior()
-```
-
-
-Specifies the behavior used to process tasks with undefined constraints read from XER format.
-
-**Returns:**
-int - the behavior used to process tasks with undefined constraints read from XER format.
 ### setUndefinedConstraintHandlingBehavior(int value) {#setUndefinedConstraintHandlingBehavior-int-}
 ```
 public final void setUndefinedConstraintHandlingBehavior(int value)

@@ -18,17 +18,17 @@ Specifies the type of a task. While exporting into XML the Undefined values will
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Undefined value means that the field was not defined in original file |
-| [FixedUnits](#FixedUnits) | Fixed units |
 | [FixedDuration](#FixedDuration) | Fixed duration |
+| [FixedUnits](#FixedUnits) | Fixed units |
 | [FixedWork](#FixedWork) | Fixed work |
-### Undefined {#Undefined}
+| [Undefined](#Undefined) | Undefined value means that the field was not defined in original file |
+### FixedDuration {#FixedDuration}
 ```
-public static final int Undefined
+public static final int FixedDuration
 ```
 
 
-Undefined value means that the field was not defined in original file
+Fixed duration
 
 ### FixedUnits {#FixedUnits}
 ```
@@ -38,14 +38,6 @@ public static final int FixedUnits
 
 Fixed units
 
-### FixedDuration {#FixedDuration}
-```
-public static final int FixedDuration
-```
-
-
-Fixed duration
-
 ### FixedWork {#FixedWork}
 ```
 public static final int FixedWork
@@ -53,4 +45,12 @@ public static final int FixedWork
 
 
 Fixed work
+
+### Undefined {#Undefined}
+```
+public static final int Undefined
+```
+
+
+Undefined value means that the field was not defined in original file
 

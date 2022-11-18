@@ -18,22 +18,22 @@ Specifies the constraint on the start or finish date of a task. While exporting 
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | The value was not defined in original project file. |
-| [AsSoonAsPossible](#AsSoonAsPossible) |  Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ASAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks . |
 | [AsLateAsPossible](#AsLateAsPossible) |  Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ALAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks . |
-| [MustStartOn](#MustStartOn) | Must Start On |
-| [MustFinishOn](#MustFinishOn) | Must Finish On |
-| [StartNoEarlierThan](#StartNoEarlierThan) | Start No Earlier Than |
-| [StartNoLaterThan](#StartNoLaterThan) | Start No Later Than |
+| [AsSoonAsPossible](#AsSoonAsPossible) |  Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ASAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks . |
 | [FinishNoEarlierThan](#FinishNoEarlierThan) | Finish No Earlier Than |
 | [FinishNoLaterThan](#FinishNoLaterThan) | Finish No Later Than |
-### Undefined {#Undefined}
+| [MustFinishOn](#MustFinishOn) | Must Finish On |
+| [MustStartOn](#MustStartOn) | Must Start On |
+| [StartNoEarlierThan](#StartNoEarlierThan) | Start No Earlier Than |
+| [StartNoLaterThan](#StartNoLaterThan) | Start No Later Than |
+| [Undefined](#Undefined) | The value was not defined in original project file. |
+### AsLateAsPossible {#AsLateAsPossible}
 ```
-public static final int Undefined
+public static final int AsLateAsPossible
 ```
 
 
-The value was not defined in original project file.
+ Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ALAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks .
 
 ### AsSoonAsPossible {#AsSoonAsPossible}
 ```
@@ -43,21 +43,21 @@ public static final int AsSoonAsPossible
 
  Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ASAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks .
 
-### AsLateAsPossible {#AsLateAsPossible}
+### FinishNoEarlierThan {#FinishNoEarlierThan}
 ```
-public static final int AsLateAsPossible
-```
-
-
- Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ALAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks .
-
-### MustStartOn {#MustStartOn}
-```
-public static final int MustStartOn
+public static final int FinishNoEarlierThan
 ```
 
 
-Must Start On
+Finish No Earlier Than
+
+### FinishNoLaterThan {#FinishNoLaterThan}
+```
+public static final int FinishNoLaterThan
+```
+
+
+Finish No Later Than
 
 ### MustFinishOn {#MustFinishOn}
 ```
@@ -66,6 +66,14 @@ public static final int MustFinishOn
 
 
 Must Finish On
+
+### MustStartOn {#MustStartOn}
+```
+public static final int MustStartOn
+```
+
+
+Must Start On
 
 ### StartNoEarlierThan {#StartNoEarlierThan}
 ```
@@ -83,19 +91,11 @@ public static final int StartNoLaterThan
 
 Start No Later Than
 
-### FinishNoEarlierThan {#FinishNoEarlierThan}
+### Undefined {#Undefined}
 ```
-public static final int FinishNoEarlierThan
-```
-
-
-Finish No Earlier Than
-
-### FinishNoLaterThan {#FinishNoLaterThan}
-```
-public static final int FinishNoLaterThan
+public static final int Undefined
 ```
 
 
-Finish No Later Than
+The value was not defined in original project file.
 

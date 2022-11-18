@@ -19,10 +19,10 @@ Enumeration for presentation format.
 | Field | Description |
 | --- | --- |
 | [GanttChart](#GanttChart) | Gantt Chart presentation format. |
-| [TaskUsage](#TaskUsage) | Task usage presentation format. |
-| [ResourceUsage](#ResourceUsage) | Resource usage presentation format. |
 | [ResourceSheet](#ResourceSheet) | Resource sheet presentation format. |
+| [ResourceUsage](#ResourceUsage) | Resource usage presentation format. |
 | [TaskSheet](#TaskSheet) | Task sheet presentation format. |
+| [TaskUsage](#TaskUsage) | Task usage presentation format. |
 ### GanttChart {#GanttChart}
 ```
 public static final int GanttChart
@@ -30,22 +30,6 @@ public static final int GanttChart
 
 
 Gantt Chart presentation format.
-
-### TaskUsage {#TaskUsage}
-```
-public static final int TaskUsage
-```
-
-
-Task usage presentation format.
-
-### ResourceUsage {#ResourceUsage}
-```
-public static final int ResourceUsage
-```
-
-
-Resource usage presentation format.
 
 ### ResourceSheet {#ResourceSheet}
 ```
@@ -55,6 +39,14 @@ public static final int ResourceSheet
 
 Resource sheet presentation format.
 
+### ResourceUsage {#ResourceUsage}
+```
+public static final int ResourceUsage
+```
+
+
+Resource usage presentation format.
+
 ### TaskSheet {#TaskSheet}
 ```
 public static final int TaskSheet
@@ -62,4 +54,12 @@ public static final int TaskSheet
 
 
 Task sheet presentation format.
+
+### TaskUsage {#TaskUsage}
+```
+public static final int TaskUsage
+```
+
+
+Task usage presentation format.
 

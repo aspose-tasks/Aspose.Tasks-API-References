@@ -18,17 +18,73 @@ Specifies the month item for which an exception recurrence is scheduled.
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Indicates Undefined month item type. |
 | [Day](#Day) | Indicates Day month item type. |
+| [Friday](#Friday) | Indicates Friday month item type. |
+| [Monday](#Monday) | Indicates Monday month item type. |
+| [Saturday](#Saturday) | Indicates Saturday month item type. |
+| [Sunday](#Sunday) | Indicates Sunday month item type. |
+| [Thursday](#Thursday) | Indicates Thursday month item type. |
+| [Tuesday](#Tuesday) | Indicates Tuesday month item type. |
+| [Undefined](#Undefined) | Indicates Undefined month item type. |
+| [Wednesday](#Wednesday) | Indicates Wednesday month item type. |
 | [Weekday](#Weekday) | Indicates Weekday month item type. |
 | [WeekendDay](#WeekendDay) | Indicates WeekendDay month item type. |
-| [Sunday](#Sunday) | Indicates Sunday month item type. |
-| [Monday](#Monday) | Indicates Monday month item type. |
-| [Tuesday](#Tuesday) | Indicates Tuesday month item type. |
-| [Wednesday](#Wednesday) | Indicates Wednesday month item type. |
-| [Thursday](#Thursday) | Indicates Thursday month item type. |
-| [Friday](#Friday) | Indicates Friday month item type. |
-| [Saturday](#Saturday) | Indicates Saturday month item type. |
+### Day {#Day}
+```
+public static final int Day
+```
+
+
+Indicates Day month item type.
+
+### Friday {#Friday}
+```
+public static final int Friday
+```
+
+
+Indicates Friday month item type.
+
+### Monday {#Monday}
+```
+public static final int Monday
+```
+
+
+Indicates Monday month item type.
+
+### Saturday {#Saturday}
+```
+public static final int Saturday
+```
+
+
+Indicates Saturday month item type.
+
+### Sunday {#Sunday}
+```
+public static final int Sunday
+```
+
+
+Indicates Sunday month item type.
+
+### Thursday {#Thursday}
+```
+public static final int Thursday
+```
+
+
+Indicates Thursday month item type.
+
+### Tuesday {#Tuesday}
+```
+public static final int Tuesday
+```
+
+
+Indicates Tuesday month item type.
+
 ### Undefined {#Undefined}
 ```
 public static final int Undefined
@@ -37,13 +93,13 @@ public static final int Undefined
 
 Indicates Undefined month item type.
 
-### Day {#Day}
+### Wednesday {#Wednesday}
 ```
-public static final int Day
+public static final int Wednesday
 ```
 
 
-Indicates Day month item type.
+Indicates Wednesday month item type.
 
 ### Weekday {#Weekday}
 ```
@@ -60,60 +116,4 @@ public static final int WeekendDay
 
 
 Indicates WeekendDay month item type.
-
-### Sunday {#Sunday}
-```
-public static final int Sunday
-```
-
-
-Indicates Sunday month item type.
-
-### Monday {#Monday}
-```
-public static final int Monday
-```
-
-
-Indicates Monday month item type.
-
-### Tuesday {#Tuesday}
-```
-public static final int Tuesday
-```
-
-
-Indicates Tuesday month item type.
-
-### Wednesday {#Wednesday}
-```
-public static final int Wednesday
-```
-
-
-Indicates Wednesday month item type.
-
-### Thursday {#Thursday}
-```
-public static final int Thursday
-```
-
-
-Indicates Thursday month item type.
-
-### Friday {#Friday}
-```
-public static final int Friday
-```
-
-
-Indicates Friday month item type.
-
-### Saturday {#Saturday}
-```
-public static final int Saturday
-```
-
-
-Indicates Saturday month item type.
 

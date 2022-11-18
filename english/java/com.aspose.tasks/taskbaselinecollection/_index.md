@@ -20,12 +20,12 @@ Represents a collection of [TaskBaseline](../../com.aspose.tasks/taskbaseline) o
 | --- | --- |
 | [add(TaskBaseline e)](#add-com.aspose.tasks.TaskBaseline-) | This is the stub implementation of ICollection's Add method, that only throws UnsupportedOperationException |
 | [clear()](#clear--) | \{@inheritDoc\} |
+| [get(int index)](#get-int-) | (@inheritDoc\} |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
+| [remove(int index)](#remove-int-) | Removes the element at the specified position in this collection and returns the element that was removed from the collection. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes baseline from this collection. |
 | [size()](#size--) | Gets the number of objects contained in this TaskBaselineCollection object. |
 | [toList()](#toList--) | Converts the TaskBaselineCollection object to a list of [TaskBaseline](../../com.aspose.tasks/taskbaseline) objects. |
-| [get(int index)](#get-int-) | (@inheritDoc\} |
-| [remove(int index)](#remove-int-) | Removes the element at the specified position in this collection and returns the element that was removed from the collection. |
 ### add(TaskBaseline e) {#add-com.aspose.tasks.TaskBaseline-}
 ```
 public final boolean add(TaskBaseline e)
@@ -49,6 +49,21 @@ public final void clear()
 
 
 
+### get(int index) {#get-int-}
+```
+public final TaskBaseline get(int index)
+```
+
+
+(@inheritDoc\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | \{@inheritDoc\} |
+
+**Returns:**
+[TaskBaseline](../../com.aspose.tasks/taskbaseline) - \{@inheritDoc\}
 ### iterator() {#iterator--}
 ```
 public final Iterator<TaskBaseline> iterator()
@@ -59,6 +74,21 @@ Returns an enumerator for this collection.
 
 **Returns:**
 java.util.Iterator&lt;com.aspose.tasks.TaskBaseline&gt; - an enumerator for this collection.
+### remove(int index) {#remove-int-}
+```
+public final TaskBaseline remove(int index)
+```
+
+
+Removes the element at the specified position in this collection and returns the element that was removed from the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | the specified position to remove the element at. |
+
+**Returns:**
+[TaskBaseline](../../com.aspose.tasks/taskbaseline) - the element that was removed from the collection.
 ### remove(Object item) {#remove-java.lang.Object-}
 ```
 public final boolean remove(Object item)
@@ -94,33 +124,3 @@ Converts the TaskBaselineCollection object to a list of [TaskBaseline](../../com
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.TaskBaseline&gt; - List of [TaskBaseline](../../com.aspose.tasks/taskbaseline) objects.
-### get(int index) {#get-int-}
-```
-public final TaskBaseline get(int index)
-```
-
-
-(@inheritDoc\}
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | \{@inheritDoc\} |
-
-**Returns:**
-[TaskBaseline](../../com.aspose.tasks/taskbaseline) - \{@inheritDoc\}
-### remove(int index) {#remove-int-}
-```
-public final TaskBaseline remove(int index)
-```
-
-
-Removes the element at the specified position in this collection and returns the element that was removed from the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | the specified position to remove the element at. |
-
-**Returns:**
-[TaskBaseline](../../com.aspose.tasks/taskbaseline) - the element that was removed from the collection.

@@ -18,17 +18,9 @@ Specifies the alignment of a text.
 
 | Field | Description |
 | --- | --- |
-| [Near](#Near) | Specifies left alignment of a text. |
 | [Center](#Center) | Specifies centered alignment of a text. |
 | [Far](#Far) | Specifies right alignment of a text. |
-### Near {#Near}
-```
-public static final int Near
-```
-
-
-Specifies left alignment of a text.
-
+| [Near](#Near) | Specifies left alignment of a text. |
 ### Center {#Center}
 ```
 public static final int Center
@@ -44,4 +36,12 @@ public static final int Far
 
 
 Specifies right alignment of a text.
+
+### Near {#Near}
+```
+public static final int Near
+```
+
+
+Specifies left alignment of a text.
 

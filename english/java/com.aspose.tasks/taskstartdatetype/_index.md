@@ -18,16 +18,16 @@ Specifies the type of a task's start date. While exporting into XML the Undefine
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | The field's value was not defined in original project file. |
-| [ProjectStartDate](#ProjectStartDate) | Project start date |
 | [CurrentDate](#CurrentDate) | Current date |
-### Undefined {#Undefined}
+| [ProjectStartDate](#ProjectStartDate) | Project start date |
+| [Undefined](#Undefined) | The field's value was not defined in original project file. |
+### CurrentDate {#CurrentDate}
 ```
-public static final int Undefined
+public static final int CurrentDate
 ```
 
 
-The field's value was not defined in original project file.
+Current date
 
 ### ProjectStartDate {#ProjectStartDate}
 ```
@@ -37,11 +37,11 @@ public static final int ProjectStartDate
 
 Project start date
 
-### CurrentDate {#CurrentDate}
+### Undefined {#Undefined}
 ```
-public static final int CurrentDate
+public static final int Undefined
 ```
 
 
-Current date
+The field's value was not defined in original project file.
 

@@ -24,10 +24,10 @@ Allows to specify additional options when rendering project pages to XLSX.
 | Method | Description |
 | --- | --- |
 | [getAssignmentView()](#getAssignmentView--) | Gets a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
-| [setAssignmentView(ProjectView value)](#setAssignmentView-com.aspose.tasks.ProjectView-) | Sets a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
 | [getEncoding()](#getEncoding--) | Gets the encoding of the resulting XLSX file. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding of the resulting XLSX file. |
 | [getResourceView()](#getResourceView--) | Gets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)). |
+| [setAssignmentView(ProjectView value)](#setAssignmentView-com.aspose.tasks.ProjectView-) | Sets a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding of the resulting XLSX file. |
 | [setResourceView(ProjectView value)](#setResourceView-com.aspose.tasks.ProjectView-) | Sets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)). |
 ### XlsxOptions() {#XlsxOptions--}
 ```
@@ -47,6 +47,26 @@ Gets a list of the assignments view columns to render ([AssignmentViewColumn](..
 
 **Returns:**
 [ProjectView](../../com.aspose.tasks/projectview) - a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)).
+### getEncoding() {#getEncoding--}
+```
+public final Charset getEncoding()
+```
+
+
+Gets the encoding of the resulting XLSX file. The default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8.
+
+**Returns:**
+java.nio.charset.Charset - the encoding of the resulting XLSX file.
+### getResourceView() {#getResourceView--}
+```
+public final ProjectView getResourceView()
+```
+
+
+Gets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
+
+**Returns:**
+[ProjectView](../../com.aspose.tasks/projectview) - a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
 ### setAssignmentView(ProjectView value) {#setAssignmentView-com.aspose.tasks.ProjectView-}
 ```
 public final void setAssignmentView(ProjectView value)
@@ -60,16 +80,6 @@ Sets a list of the assignments view columns to render ([AssignmentViewColumn](..
 | --- | --- | --- |
 | value | [ProjectView](../../com.aspose.tasks/projectview) | a list of the assignments view columns to render ([AssignmentViewColumn](../../com.aspose.tasks/assignmentviewcolumn)). |
 
-### getEncoding() {#getEncoding--}
-```
-public final Charset getEncoding()
-```
-
-
-Gets the encoding of the resulting XLSX file. The default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8.
-
-**Returns:**
-java.nio.charset.Charset - the encoding of the resulting XLSX file.
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
 public final void setEncoding(Charset value)
@@ -83,16 +93,6 @@ Sets the encoding of the resulting XLSX file. The default value is java.nio.char
 | --- | --- | --- |
 | value | java.nio.charset.Charset | the encoding of the resulting XLSX file. |
 
-### getResourceView() {#getResourceView--}
-```
-public final ProjectView getResourceView()
-```
-
-
-Gets a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
-
-**Returns:**
-[ProjectView](../../com.aspose.tasks/projectview) - a list of the resource view columns to render ([ResourceViewColumn](../../com.aspose.tasks/resourceviewcolumn)).
 ### setResourceView(ProjectView value) {#setResourceView-com.aspose.tasks.ProjectView-}
 ```
 public final void setResourceView(ProjectView value)

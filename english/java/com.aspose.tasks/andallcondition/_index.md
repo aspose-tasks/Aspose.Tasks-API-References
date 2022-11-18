@@ -23,7 +23,7 @@ Applies logical AND to all conditions. For example: cond1 AND cond2 AND cond3...
 
 | Constructor | Description |
 | --- | --- |
-| [AndAllCondition(List&lt;ICondition&lt;T&gt;&gt; conditions)](#AndAllCondition-java.util.List-com.aspose.tasks.ICondition-T---) | Initializes a new instance of the  AndAllCondition\{T\}  class. |
+| [AndAllCondition(List&lt;ICondition&lt;T&gt;&gt; conditions)](#AndAllCondition-java.util.List-com.aspose.tasks.ICondition-T---) | Initializes a new instance of the AndAllCondition&lt;T&gt; class. |
 ## Methods
 
 | Method | Description |
@@ -35,7 +35,7 @@ public AndAllCondition(List<ICondition<T>> conditions)
 ```
 
 
-Initializes a new instance of the  AndAllCondition\{T\}  class.
+Initializes a new instance of the AndAllCondition&lt;T&gt; class.
 
 **Parameters:**
 | Parameter | Type | Description |

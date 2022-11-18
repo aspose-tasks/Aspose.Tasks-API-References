@@ -18,24 +18,16 @@ Specifies how the hour label displays.
 
 | Field | Description |
 | --- | --- |
-| [H](#H) | Sets the Hours list in MS Project as [H](../../com.aspose.tasks/hourlabeldisplay\#H). |
-| [Hr](#Hr) | Sets the Hours list in MS Project as [Hr](../../com.aspose.tasks/hourlabeldisplay\#Hr). |
-| [Hour](#Hour) | Sets the Hours list in MS Project as [Hour](../../com.aspose.tasks/hourlabeldisplay\#Hour). |
+| [H](#H) | "h" label. |
+| [Hour](#Hour) | "hour(s)" label. |
+| [Hr](#Hr) | "hr" label. |
 ### H {#H}
 ```
 public static final int H
 ```
 
 
-Sets the Hours list in MS Project as [H](../../com.aspose.tasks/hourlabeldisplay\#H).
-
-### Hr {#Hr}
-```
-public static final int Hr
-```
-
-
-Sets the Hours list in MS Project as [Hr](../../com.aspose.tasks/hourlabeldisplay\#Hr).
+"h" label.
 
 ### Hour {#Hour}
 ```
@@ -43,5 +35,13 @@ public static final int Hour
 ```
 
 
-Sets the Hours list in MS Project as [Hour](../../com.aspose.tasks/hourlabeldisplay\#Hour).
+"hour(s)" label.
+
+### Hr {#Hr}
+```
+public static final int Hr
+```
+
+
+"hr" label.
 

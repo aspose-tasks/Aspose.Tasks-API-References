@@ -25,13 +25,13 @@ The class which provides the methods to read and to perform operations on projec
 | --- | --- |
 | [createNewProject(Project project)](#createNewProject-com.aspose.tasks.Project-) | Creates new project in Project Server\\Project Online instance using default save options. |
 | [createNewProject(Project project, ProjectServerSaveOptions saveOptions)](#createNewProject-com.aspose.tasks.Project-com.aspose.tasks.ProjectServerSaveOptions-) | Creates new project in Project Server\\Project Online instance using the specified save options. |
+| [getExecutingWebRequest()](#getExecutingWebRequest--) | Gets an event that is raised when the web request is sent to Project Server's web API. |
 | [getProject(UUID projectGuid)](#getProject-java.util.UUID-) | Gets the project with the specified guid from the Project Online account \\ Project Server instance. |
 | [getProjectList()](#getProjectList--) | Gets the list of projects from 'Working' store of the current Project Online account \\ Project Server instance. |
 | [getProjectRawData(UUID projectGuid)](#getProjectRawData-java.util.UUID-) | Gets the project's binary data for troubleshooting purposes. |
+| [setExecutingWebRequest(Event&lt;WebRequestEventArgs&gt; value)](#setExecutingWebRequest-com.aspose.tasks.Event-com.aspose.tasks.WebRequestEventArgs--) | Sets an event that is raised when the web request is sent to Project Server's web API. |
 | [updateProject(Project project)](#updateProject-com.aspose.tasks.Project-) | Updates existing project in Project Server\\Project Online instance using default save options. |
 | [updateProject(Project project, ProjectServerSaveOptions saveOptions)](#updateProject-com.aspose.tasks.Project-com.aspose.tasks.ProjectServerSaveOptions-) | Updates existing project in Project Server\\Project Online instance using the specified save options. |
-| [getExecutingWebRequest()](#getExecutingWebRequest--) | Gets an event that is raised when the web request is sent to Project Server's web API. |
-| [setExecutingWebRequest(Event&lt;WebRequestEventArgs&gt; value)](#setExecutingWebRequest-com.aspose.tasks.Event-com.aspose.tasks.WebRequestEventArgs--) | Sets an event that is raised when the web request is sent to Project Server's web API. |
 ### ProjectServerManager(ProjectServerCredentials credentials) {#ProjectServerManager-com.aspose.tasks.ProjectServerCredentials-}
 ```
 public ProjectServerManager(ProjectServerCredentials credentials)
@@ -42,31 +42,31 @@ Initializes a new instance of the [ProjectServerManager](../../com.aspose.tasks/
 
 --------------------
 
-> ```
-> This example shows how to create instance of ProjectServerManager to access on-premise instance of Project Server.
->  ```
-> 
->  [C#]
->  string site = "http://project_server_instance.local/";
->  var windowsCredentials = new NetworkCredential("Administrator", "my_password", "DOMAIN");
->  var projectServerCredentials = new ProjectServerCredentials(site, windowsCredentials);
->  ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
->  
-> ```
-> ```
+&gt; ```
+&gt; This example shows how to create instance of ProjectServerManager to access on-premise instance of Project Server.
+&gt;  ```
+&gt; 
+&gt;  [C#]
+&gt;  string site = "http://project_server_instance.local/";
+&gt;  var windowsCredentials = new NetworkCredential("Administrator", "my_password", "DOMAIN");
+&gt;  var projectServerCredentials = new ProjectServerCredentials(site, windowsCredentials);
+&gt;  ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
+&gt;  
+&gt; ```
+&gt; ```
 
 --------------------
 
-> ```
-> This example shows how to create instance of ProjectServerManager to access account in Project Online service.
->  ```
-> 
->  [C#]
->  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
->  ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
->  
-> ```
-> ```
+&gt; ```
+&gt; This example shows how to create instance of ProjectServerManager to access account in Project Online service.
+&gt;  ```
+&gt; 
+&gt;  [C#]
+&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+&gt;  ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
+&gt;  
+&gt; ```
+&gt; ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -83,18 +83,18 @@ Creates new project in Project Server\\Project Online instance using default sav
 
 --------------------
 
-> ```
-> In this example the project is loaded from .mpp file and saved to Project Online account.
->  ```
-> 
->  [C#]
->  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
->  var project = new Project(@"sample.mpp");
->  ProjectServerManager manager = new ProjectServerManager(credentials);
->  manager.CreateNewProject(project);
->  
-> ```
-> ```
+&gt; ```
+&gt; In this example the project is loaded from .mpp file and saved to Project Online account.
+&gt;  ```
+&gt; 
+&gt;  [C#]
+&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+&gt;  var project = new Project(@"sample.mpp");
+&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
+&gt;  manager.CreateNewProject(project);
+&gt;  
+&gt; ```
+&gt; ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,21 +111,21 @@ Creates new project in Project Server\\Project Online instance using the specifi
 
 --------------------
 
-> ```
-> In this example the project is loaded from .mpp file and saved to Project Online account.
->  ```
-> 
->  [C#]
->  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
->  var project = new Project(@"sample.mpp");
->  ProjectServerManager manager = new ProjectServerManager(credentials);
->  manager.CreateNewProject(project, new ProjectServerSaveOptions
->  {
->      ProjectName = "My new project"
->  });
->  
-> ```
-> ```
+&gt; ```
+&gt; In this example the project is loaded from .mpp file and saved to Project Online account.
+&gt;  ```
+&gt; 
+&gt;  [C#]
+&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+&gt;  var project = new Project(@"sample.mpp");
+&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
+&gt;  manager.CreateNewProject(project, new ProjectServerSaveOptions
+&gt;  {
+&gt;      ProjectName = "My new project"
+&gt;  });
+&gt;  
+&gt; ```
+&gt; ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,6 +133,16 @@ Creates new project in Project Server\\Project Online instance using the specifi
 | project | [Project](../../com.aspose.tasks/project) | The project to save to Project Server\\Project Online instance. |
 | saveOptions | [ProjectServerSaveOptions](../../com.aspose.tasks/projectserversaveoptions) | Instance of [ProjectServerSaveOptions](../../com.aspose.tasks/projectserversaveoptions) class. |
 
+### getExecutingWebRequest() {#getExecutingWebRequest--}
+```
+public final Event<WebRequestEventArgs> getExecutingWebRequest()
+```
+
+
+Gets an event that is raised when the web request is sent to Project Server's web API.
+
+**Returns:**
+[Event](../../com.aspose.tasks/event) - an event that is raised when the web request is sent to Project Server's web API.
 ### getProject(UUID projectGuid) {#getProject-java.util.UUID-}
 ```
 public final Project getProject(UUID projectGuid)
@@ -168,25 +178,25 @@ Gets the project's binary data for troubleshooting purposes.
 
 --------------------
 
-> ```
-> ```
-> 
->  In this example the debug info for the specific project is retrieved. You can pass the resulting "debug.zip" to the support team for troubleshooting purposes.
->  [C#]
->  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
->  // Guid of project you are trying to get.
->  var projectGuid = new Guid("e0294bfb-5657-45c8-9cc5-82169fb95d69");
->  ProjectServerManager manager = new ProjectServerManager(credentials);
->  using (var fileStream = File.OpenWrite(@"c:\debug.zip"))
->  {
->      using (var stream = manager.GetProjectRawData(projectGuid))
->      {
->          stream.CopyTo(fileStream);
->      }
->  }
->  
-> ```
-> ```
+&gt; ```
+&gt; ```
+&gt; 
+&gt;  In this example the debug info for the specific project is retrieved. You can pass the resulting "debug.zip" to the support team for troubleshooting purposes.
+&gt;  [C#]
+&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+&gt;  // Guid of project you are trying to get.
+&gt;  var projectGuid = new Guid("e0294bfb-5657-45c8-9cc5-82169fb95d69");
+&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
+&gt;  using (var fileStream = File.OpenWrite(@"c:\debug.zip"))
+&gt;  {
+&gt;      using (var stream = manager.GetProjectRawData(projectGuid))
+&gt;      {
+&gt;          stream.CopyTo(fileStream);
+&gt;      }
+&gt;  }
+&gt;  
+&gt; ```
+&gt; ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,6 +205,19 @@ Gets the project's binary data for troubleshooting purposes.
 
 **Returns:**
 java.io.InputStream - Stream containing raw project's data.
+### setExecutingWebRequest(Event&lt;WebRequestEventArgs&gt; value) {#setExecutingWebRequest-com.aspose.tasks.Event-com.aspose.tasks.WebRequestEventArgs--}
+```
+public final void setExecutingWebRequest(Event<WebRequestEventArgs> value)
+```
+
+
+Sets an event that is raised when the web request is sent to Project Server's web API.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.tasks.Event&lt;com.aspose.tasks.WebRequestEventArgs&gt; | an event that is raised when the web request is sent to Project Server's web API. |
+
 ### updateProject(Project project) {#updateProject-com.aspose.tasks.Project-}
 ```
 public final void updateProject(Project project)
@@ -205,21 +228,21 @@ Updates existing project in Project Server\\Project Online instance using defaul
 
 --------------------
 
-> ```
-> In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
->  ```
-> 
->  [C#]
->  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
->  ProjectServerManager manager = new ProjectServerManager(credentials);
->  var projectList = manager.GetProjectList();
->  var projectGuid = projectList.First().Id;
->  var project = manager.GetProject(projectGuid);
->  var task = project.RootTask.Children.Add("New task");
->  manager.UpdateProject(project);
->  
-> ```
-> ```
+&gt; ```
+&gt; In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
+&gt;  ```
+&gt; 
+&gt;  [C#]
+&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
+&gt;  var projectList = manager.GetProjectList();
+&gt;  var projectGuid = projectList.First().Id;
+&gt;  var project = manager.GetProject(projectGuid);
+&gt;  var task = project.RootTask.Children.Add("New task");
+&gt;  manager.UpdateProject(project);
+&gt;  
+&gt; ```
+&gt; ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -240,24 +263,24 @@ Updates existing project in Project Server\\Project Online instance using the sp
 
 --------------------
 
-> ```
-> In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
->  ```
-> 
->  [C#]
->  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
->  ProjectServerManager manager = new ProjectServerManager(credentials);
->  var projectList = manager.GetProjectList();
->  var projectGuid = projectList.First().Id;
->  var project = manager.GetProject(projectGuid);
->  var task = project.RootTask.Children.Add("New task");
->  manager.UpdateProject(project, new ProjectServerSaveOptions
->  {
->      ProjectGuid = projectGuid
->  });
->  
-> ```
-> ```
+&gt; ```
+&gt; In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
+&gt;  ```
+&gt; 
+&gt;  [C#]
+&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
+&gt;  var projectList = manager.GetProjectList();
+&gt;  var projectGuid = projectList.First().Id;
+&gt;  var project = manager.GetProject(projectGuid);
+&gt;  var task = project.RootTask.Children.Add("New task");
+&gt;  manager.UpdateProject(project, new ProjectServerSaveOptions
+&gt;  {
+&gt;      ProjectGuid = projectGuid
+&gt;  });
+&gt;  
+&gt; ```
+&gt; ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,27 +291,4 @@ Updates existing project in Project Server\\Project Online instance using the sp
 --------------------
 
 saveOptions.ProjectGuid should be set to a guid of a project which exists on Project Server\\ Project Online instance. |
-
-### getExecutingWebRequest() {#getExecutingWebRequest--}
-```
-public final Event<WebRequestEventArgs> getExecutingWebRequest()
-```
-
-
-Gets an event that is raised when the web request is sent to Project Server's web API.
-
-**Returns:**
-[Event](../../com.aspose.tasks/event) - an event that is raised when the web request is sent to Project Server's web API.
-### setExecutingWebRequest(Event&lt;WebRequestEventArgs&gt; value) {#setExecutingWebRequest-com.aspose.tasks.Event-com.aspose.tasks.WebRequestEventArgs--}
-```
-public final void setExecutingWebRequest(Event<WebRequestEventArgs> value)
-```
-
-
-Sets an event that is raised when the web request is sent to Project Server's web API.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.tasks.Event&lt;com.aspose.tasks.WebRequestEventArgs&gt; | an event that is raised when the web request is sent to Project Server's web API. |
 

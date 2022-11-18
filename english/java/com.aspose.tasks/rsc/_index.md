@@ -19,7 +19,7 @@ Represents supported properties of  Resource  object.
 | Field | Description |
 | --- | --- |
 | [ACCRUE_AT](#ACCRUE-AT) | Determines how and when resource standard and overtime costs are to be charged, or accrued, to the cost of a task. |
-| [ACTIVE_DIRECTORY_GUID](#ACTIVE-DIRECTORY-GUID) | The Active Directory java.util.UUID for a resource. |
+| [ACTIVE_DIRECTORY_GUID](#ACTIVE-DIRECTORY-GUID) | The Active Directory Guid for a resource. |
 | [ACTUAL_COST](#ACTUAL-COST) | Costs incurred for work already performed by resources on their tasks, along with any other recorded costs associated with the task. |
 | [ACTUAL_OVERTIME_COST](#ACTUAL-OVERTIME-COST) | Costs incurred for overtime work already performed on tasks by assigned resources. |
 | [ACTUAL_OVERTIME_WORK](#ACTUAL-OVERTIME-WORK) | The actual amount of overtime work already performed by resource assigned to tasks. |
@@ -104,7 +104,7 @@ public static final Key<String,Integer> ACTIVE_DIRECTORY_GUID
 ```
 
 
-The Active Directory java.util.UUID for a resource.
+The Active Directory Guid for a resource.
 
 ### ACTUAL_COST {#ACTUAL-COST}
 ```
@@ -476,7 +476,7 @@ The text notes in RTF format.
 
 --------------------
 
-Supported for MPP formats only. String type.
+Supported for MPP formats only.
 
 ### NOTES_TEXT {#NOTES-TEXT}
 ```

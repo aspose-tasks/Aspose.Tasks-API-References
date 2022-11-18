@@ -24,19 +24,19 @@ Currently supported all types of Extended attributes reading from MSP Xml 2003/2
 | --- | --- |
 | [getAttributeDefinition()](#getAttributeDefinition--) | Gets the attribute definition. |
 | [getDateValue()](#getDateValue--) | Gets a value for attributes with date types (Date, Start, Finish). |
-| [setDateValue(Date value)](#setDateValue-java.util.Date-) | Sets a value for attributes with date types (Date, Start, Finish). |
 | [getDurationValue()](#getDurationValue--) | Gets value for attributes with 'Duration' type. |
-| [setDurationValue(Duration value)](#setDurationValue-com.aspose.tasks.Duration-) | Sets value for attributes with 'Duration' type. |
 | [getFieldId()](#getFieldId--) | Gets the id of a field. |
 | [getFlagValue()](#getFlagValue--) | Gets a value indicating whether a flag is set for an attribute with 'Flag' type. |
-| [setFlagValue(boolean value)](#setFlagValue-boolean-) | Sets a value indicating whether a flag is set for an attribute with 'Flag' type. |
 | [getNumericValue()](#getNumericValue--) | Gets a value for attributes with numeric types (Cost, Number). |
-| [setNumericValue(BigDecimal value)](#setNumericValue-java.math.BigDecimal-) | Sets a value for attributes with numeric types (Cost, Number). |
 | [getTextValue()](#getTextValue--) | Gets a value for attributes with 'Text' type. |
-| [setTextValue(String value)](#setTextValue-java.lang.String-) | Sets a value for attributes with 'Text' type. |
 | [getValueGuid()](#getValueGuid--) | Gets the guid of a lookup value. |
 | [getValueReadOnly()](#getValueReadOnly--) | Gets a value indicating whether a value of this [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) instance is read-only. |
 | [isErrorValue()](#isErrorValue--) | Gets whether calculation of extended attribute's value resulted in an error. |
+| [setDateValue(Date value)](#setDateValue-java.util.Date-) | Sets a value for attributes with date types (Date, Start, Finish). |
+| [setDurationValue(Duration value)](#setDurationValue-com.aspose.tasks.Duration-) | Sets value for attributes with 'Duration' type. |
+| [setFlagValue(boolean value)](#setFlagValue-boolean-) | Sets a value indicating whether a flag is set for an attribute with 'Flag' type. |
+| [setNumericValue(BigDecimal value)](#setNumericValue-java.math.BigDecimal-) | Sets a value for attributes with numeric types (Cost, Number). |
+| [setTextValue(String value)](#setTextValue-java.lang.String-) | Sets a value for attributes with 'Text' type. |
 | [toString()](#toString--) | Returns short string representation of an extended attribute. |
 ### getAttributeDefinition() {#getAttributeDefinition--}
 ```
@@ -58,19 +58,6 @@ Gets a value for attributes with date types (Date, Start, Finish).
 
 **Returns:**
 java.util.Date - a value for attributes with date types (Date, Start, Finish).
-### setDateValue(Date value) {#setDateValue-java.util.Date-}
-```
-public final void setDateValue(Date value)
-```
-
-
-Sets a value for attributes with date types (Date, Start, Finish).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date | a value for attributes with date types (Date, Start, Finish). |
-
 ### getDurationValue() {#getDurationValue--}
 ```
 public final Duration getDurationValue()
@@ -81,19 +68,6 @@ Gets value for attributes with 'Duration' type.
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - value for attributes with 'Duration' type.
-### setDurationValue(Duration value) {#setDurationValue-com.aspose.tasks.Duration-}
-```
-public final void setDurationValue(Duration value)
-```
-
-
-Sets value for attributes with 'Duration' type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Duration](../../com.aspose.tasks/duration) | value for attributes with 'Duration' type. |
-
 ### getFieldId() {#getFieldId--}
 ```
 public final String getFieldId()
@@ -114,19 +88,6 @@ Gets a value indicating whether a flag is set for an attribute with 'Flag' type.
 
 **Returns:**
 boolean - a value indicating whether a flag is set for an attribute with 'Flag' type.
-### setFlagValue(boolean value) {#setFlagValue-boolean-}
-```
-public final void setFlagValue(boolean value)
-```
-
-
-Sets a value indicating whether a flag is set for an attribute with 'Flag' type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether a flag is set for an attribute with 'Flag' type. |
-
 ### getNumericValue() {#getNumericValue--}
 ```
 public final BigDecimal getNumericValue()
@@ -137,19 +98,6 @@ Gets a value for attributes with numeric types (Cost, Number).
 
 **Returns:**
 java.math.BigDecimal - a value for attributes with numeric types (Cost, Number).
-### setNumericValue(BigDecimal value) {#setNumericValue-java.math.BigDecimal-}
-```
-public final void setNumericValue(BigDecimal value)
-```
-
-
-Sets a value for attributes with numeric types (Cost, Number).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.math.BigDecimal | a value for attributes with numeric types (Cost, Number). |
-
 ### getTextValue() {#getTextValue--}
 ```
 public final String getTextValue()
@@ -160,19 +108,6 @@ Gets a value for attributes with 'Text' type.
 
 **Returns:**
 java.lang.String - a value for attributes with 'Text' type.
-### setTextValue(String value) {#setTextValue-java.lang.String-}
-```
-public final void setTextValue(String value)
-```
-
-
-Sets a value for attributes with 'Text' type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | a value for attributes with 'Text' type. |
-
 ### getValueGuid() {#getValueGuid--}
 ```
 public final String getValueGuid()
@@ -209,6 +144,71 @@ Gets whether calculation of extended attribute's value resulted in an error.
 
 **Returns:**
 boolean - whether calculation of extended attribute's value resulted in an error.
+### setDateValue(Date value) {#setDateValue-java.util.Date-}
+```
+public final void setDateValue(Date value)
+```
+
+
+Sets a value for attributes with date types (Date, Start, Finish).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date | a value for attributes with date types (Date, Start, Finish). |
+
+### setDurationValue(Duration value) {#setDurationValue-com.aspose.tasks.Duration-}
+```
+public final void setDurationValue(Duration value)
+```
+
+
+Sets value for attributes with 'Duration' type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Duration](../../com.aspose.tasks/duration) | value for attributes with 'Duration' type. |
+
+### setFlagValue(boolean value) {#setFlagValue-boolean-}
+```
+public final void setFlagValue(boolean value)
+```
+
+
+Sets a value indicating whether a flag is set for an attribute with 'Flag' type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether a flag is set for an attribute with 'Flag' type. |
+
+### setNumericValue(BigDecimal value) {#setNumericValue-java.math.BigDecimal-}
+```
+public final void setNumericValue(BigDecimal value)
+```
+
+
+Sets a value for attributes with numeric types (Cost, Number).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.math.BigDecimal | a value for attributes with numeric types (Cost, Number). |
+
+### setTextValue(String value) {#setTextValue-java.lang.String-}
+```
+public final void setTextValue(String value)
+```
+
+
+Sets a value for attributes with 'Text' type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | a value for attributes with 'Text' type. |
+
 ### toString() {#toString--}
 ```
 public String toString()

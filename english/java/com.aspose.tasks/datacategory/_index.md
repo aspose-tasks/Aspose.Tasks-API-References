@@ -18,16 +18,16 @@ The category of data used when saving to CSV.
 
 | Field | Description |
 | --- | --- |
-| [Tasks](#Tasks) | Tasks information. |
-| [Resources](#Resources) | Resources information. |
 | [Assignments](#Assignments) | Assignments information. |
-### Tasks {#Tasks}
+| [Resources](#Resources) | Resources information. |
+| [Tasks](#Tasks) | Tasks information. |
+### Assignments {#Assignments}
 ```
-public static final int Tasks
+public static final int Assignments
 ```
 
 
-Tasks information.
+Assignments information.
 
 ### Resources {#Resources}
 ```
@@ -37,11 +37,11 @@ public static final int Resources
 
 Resources information.
 
-### Assignments {#Assignments}
+### Tasks {#Tasks}
 ```
-public static final int Assignments
+public static final int Tasks
 ```
 
 
-Assignments information.
+Tasks information.
 

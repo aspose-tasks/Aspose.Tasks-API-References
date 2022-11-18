@@ -23,8 +23,8 @@ Represents a base class for repetitions in daily recurrence pattern.
 | --- | --- |
 | [getCalculator(Calendar calendar, Duration duration)](#getCalculator-com.aspose.tasks.Calendar-com.aspose.tasks.Duration-) | \{@inheritDoc\} |
 | [getRepetitionInterval()](#getRepetitionInterval--) | Gets a number of days which represents the interval in days between occurrences. |
-| [setRepetitionInterval(int value)](#setRepetitionInterval-int-) | Sets a number of days which represents the interval in days between occurrences. |
 | [getValidator(Calendar calendar)](#getValidator-com.aspose.tasks.Calendar-) | \{@inheritDoc\} |
+| [setRepetitionInterval(int value)](#setRepetitionInterval-int-) | Sets a number of days which represents the interval in days between occurrences. |
 ### getCalculator(Calendar calendar, Duration duration) {#getCalculator-com.aspose.tasks.Calendar-com.aspose.tasks.Duration-}
 ```
 public final RecurrenceDateCalculatorBase getCalculator(Calendar calendar, Duration duration)
@@ -51,19 +51,6 @@ Gets a number of days which represents the interval in days between occurrences.
 
 **Returns:**
 int - a number of days which represents the interval in days between occurrences.
-### setRepetitionInterval(int value) {#setRepetitionInterval-int-}
-```
-public final void setRepetitionInterval(int value)
-```
-
-
-Sets a number of days which represents the interval in days between occurrences.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | a number of days which represents the interval in days between occurrences. |
-
 ### getValidator(Calendar calendar) {#getValidator-com.aspose.tasks.Calendar-}
 ```
 public final RecurrencePatternValidatorBase getValidator(Calendar calendar)
@@ -79,3 +66,16 @@ Gets a validator for recurrence pattern.
 
 **Returns:**
 com.aspose.tasks.RecurrencePatternValidatorBase - \{@inheritDoc\}
+### setRepetitionInterval(int value) {#setRepetitionInterval-int-}
+```
+public final void setRepetitionInterval(int value)
+```
+
+
+Sets a number of days which represents the interval in days between occurrences.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a number of days which represents the interval in days between occurrences. |
+

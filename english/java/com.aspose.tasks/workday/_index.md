@@ -24,8 +24,8 @@ Represents a work day.
 | Method | Description |
 | --- | --- |
 | [getDayType()](#getDayType--) | Returns the type of a day. |
-| [setDayType(int value)](#setDayType-int-) | Sets the type of a day. |
 | [getDayWorking()](#getDayWorking--) | Determines whether the specified date or day type is working. |
+| [setDayType(int value)](#setDayType-int-) | Sets the type of a day. |
 | [setDayWorking(boolean value)](#setDayWorking-boolean-) | Determines whether the specified date or day type is working. |
 ### WorkDay() {#WorkDay--}
 ```
@@ -43,6 +43,16 @@ Returns the type of a day.
 
 **Returns:**
 int - the type of a day ( Aspose.Tasks.DayType ).
+### getDayWorking() {#getDayWorking--}
+```
+public final boolean getDayWorking()
+```
+
+
+Determines whether the specified date or day type is working. Read/write  bool .
+
+**Returns:**
+boolean - true if the day is working.
 ### setDayType(int value) {#setDayType-int-}
 ```
 public final void setDayType(int value)
@@ -56,16 +66,6 @@ Sets the type of a day.
 | --- | --- | --- |
 | value | int | the type of a day  Aspose.Tasks.DayType . |
 
-### getDayWorking() {#getDayWorking--}
-```
-public final boolean getDayWorking()
-```
-
-
-Determines whether the specified date or day type is working. Read/write  bool .
-
-**Returns:**
-boolean - true if the day is working.
 ### setDayWorking(boolean value) {#setDayWorking-boolean-}
 ```
 public final void setDayWorking(boolean value)

@@ -23,18 +23,42 @@ Specifies the day of week.
 
 | Field | Description |
 | --- | --- |
-| [Sunday](#Sunday) | Indicates Sunday. |
+| [Friday](#Friday) | Indicates Friday. |
 | [Monday](#Monday) | Indicates Monday. |
+| [Saturday](#Saturday) | Indicates Saturday. |
+| [Sunday](#Sunday) | Indicates Sunday. |
+| [Thursday](#Thursday) | Indicates Thursday. |
 | [Tuesday](#Tuesday) | Indicates Tuesday. |
 | [Wednesday](#Wednesday) | Indicates Wednesday. |
-| [Thursday](#Thursday) | Indicates Thursday. |
-| [Friday](#Friday) | Indicates Friday. |
-| [Saturday](#Saturday) | Indicates Saturday. |
 ### DayOfWeek() {#DayOfWeek--}
 ```
 public DayOfWeek()
 ```
 
+
+### Friday {#Friday}
+```
+public static final int Friday
+```
+
+
+Indicates Friday.
+
+### Monday {#Monday}
+```
+public static final int Monday
+```
+
+
+Indicates Monday.
+
+### Saturday {#Saturday}
+```
+public static final int Saturday
+```
+
+
+Indicates Saturday.
 
 ### Sunday {#Sunday}
 ```
@@ -44,13 +68,13 @@ public static final int Sunday
 
 Indicates Sunday.
 
-### Monday {#Monday}
+### Thursday {#Thursday}
 ```
-public static final int Monday
+public static final int Thursday
 ```
 
 
-Indicates Monday.
+Indicates Thursday.
 
 ### Tuesday {#Tuesday}
 ```
@@ -67,28 +91,4 @@ public static final int Wednesday
 
 
 Indicates Wednesday.
-
-### Thursday {#Thursday}
-```
-public static final int Thursday
-```
-
-
-Indicates Thursday.
-
-### Friday {#Friday}
-```
-public static final int Friday
-```
-
-
-Indicates Friday.
-
-### Saturday {#Saturday}
-```
-public static final int Saturday
-```
-
-
-Indicates Saturday.
 

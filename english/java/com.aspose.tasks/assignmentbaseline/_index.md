@@ -24,15 +24,15 @@ Represents Baseline of a resource assignment.
 | Method | Description |
 | --- | --- |
 | [compareTo(AssignmentBaseline other)](#compareTo-com.aspose.tasks.AssignmentBaseline-) | IComparable interface implementation. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [equals(AssignmentBaseline other)](#equals-com.aspose.tasks.AssignmentBaseline-) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [getFinish()](#getFinish--) | Gets the scheduled finish date of the resource assignment when the baseline was saved. |
-| [setFinish(Date value)](#setFinish-java.util.Date-) | Sets the scheduled finish date of the resource assignment when the baseline was saved. |
 | [getStart()](#getStart--) | Gets the scheduled start date of the resource assignment when the baseline was saved. |
-| [setStart(Date value)](#setStart-java.util.Date-) | Sets the scheduled start date of the resource assignment when the baseline was saved. |
 | [getTimephasedData()](#getTimephasedData--) | Gets the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. |
-| [setTimephasedData(TimephasedDataCollection value)](#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-) | Sets the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. |
 | [hashCode()](#hashCode--) | Returns a hash code value for this AssignmentBaseline. |
+| [setFinish(Date value)](#setFinish-java.util.Date-) | Sets the scheduled finish date of the resource assignment when the baseline was saved. |
+| [setStart(Date value)](#setStart-java.util.Date-) | Sets the scheduled start date of the resource assignment when the baseline was saved. |
+| [setTimephasedData(TimephasedDataCollection value)](#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-) | Sets the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. |
 ### AssignmentBaseline() {#AssignmentBaseline--}
 ```
 public AssignmentBaseline()
@@ -54,21 +54,6 @@ IComparable interface implementation. Compares this instance to the specified Ba
 
 **Returns:**
 int - returns -1 if this instance is less than the specified object, 1 if this instance is greater than the specified object; otherwise returns 0
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Returns a value indicating whether this instance is equal to a specified object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | the specified object to compare with this instance. |
-
-**Returns:**
-boolean - returns true if this instance is equal to the specified object; otherwise, false.
 ### equals(AssignmentBaseline other) {#equals-com.aspose.tasks.AssignmentBaseline-}
 ```
 public final boolean equals(AssignmentBaseline other)
@@ -84,6 +69,21 @@ Returns a value indicating whether this instance is equal to the specified Assig
 
 **Returns:**
 boolean - returns true if this instance is equal to the specified AssignmentBaseline object; otherwise, false.
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Returns a value indicating whether this instance is equal to a specified object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | the specified object to compare with this instance. |
+
+**Returns:**
+boolean - returns true if this instance is equal to the specified object; otherwise, false.
 ### getFinish() {#getFinish--}
 ```
 public final Date getFinish()
@@ -96,6 +96,38 @@ Value: The finish date of the resource assignment when this baseline was saved.
 
 **Returns:**
 java.util.Date - the scheduled finish date of the resource assignment when the baseline was saved.
+### getStart() {#getStart--}
+```
+public final Date getStart()
+```
+
+
+Gets the scheduled start date of the resource assignment when the baseline was saved.
+
+Value: The start date of the resource assignment when this baseline was saved.
+
+**Returns:**
+java.util.Date - the scheduled start date of the resource assignment when the baseline was saved.
+### getTimephasedData() {#getTimephasedData--}
+```
+public final TimephasedDataCollection getTimephasedData()
+```
+
+
+Gets the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. The time phased data associated with the resource assignment baseline.
+
+**Returns:**
+[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. Value: The collection of Time phased data associated with this baseline.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Returns a hash code value for this AssignmentBaseline.
+
+**Returns:**
+int - returns a hash code value for this object.
 ### setFinish(Date value) {#setFinish-java.util.Date-}
 ```
 public final void setFinish(Date value)
@@ -111,18 +143,6 @@ Value: The finish date of the resource assignment when this baseline was saved.
 | --- | --- | --- |
 | value | java.util.Date | the scheduled finish date of the resource assignment when the baseline was saved. |
 
-### getStart() {#getStart--}
-```
-public final Date getStart()
-```
-
-
-Gets the scheduled start date of the resource assignment when the baseline was saved.
-
-Value: The start date of the resource assignment when this baseline was saved.
-
-**Returns:**
-java.util.Date - the scheduled start date of the resource assignment when the baseline was saved.
 ### setStart(Date value) {#setStart-java.util.Date-}
 ```
 public final void setStart(Date value)
@@ -138,16 +158,6 @@ Value: The start date of the resource assignment when this baseline was saved.
 | --- | --- | --- |
 | value | java.util.Date | the scheduled start date of the resource assignment when the baseline was saved. |
 
-### getTimephasedData() {#getTimephasedData--}
-```
-public final TimephasedDataCollection getTimephasedData()
-```
-
-
-Gets the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. The time phased data associated with the resource assignment baseline.
-
-**Returns:**
-[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. Value: The collection of Time phased data associated with this baseline.
 ### setTimephasedData(TimephasedDataCollection value) {#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-}
 ```
 public final void setTimephasedData(TimephasedDataCollection value)
@@ -161,13 +171,3 @@ Sets the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollect
 | --- | --- | --- |
 | value | [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) | the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. |
 
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Returns a hash code value for this AssignmentBaseline.
-
-**Returns:**
-int - returns a hash code value for this object.

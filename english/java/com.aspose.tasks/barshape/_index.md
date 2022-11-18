@@ -20,10 +20,10 @@ Shape of a bar rectangle.
 | --- | --- |
 | [Full](#Full) | Indicates Full rectangle bar shape. |
 | [HalfHeight](#HalfHeight) | Indicates Half height rectangle bar shape. |
-| [Thin](#Thin) | Indicates Thin rectangle bar shape. |
-| [None](#None) | Indicates None bar shape. |
-| [Middle](#Middle) | Indicates Rectangle middle bar shape. |
 | [LineBottom](#LineBottom) | Indicates Line bottom bar shape. |
+| [Middle](#Middle) | Indicates Rectangle middle bar shape. |
+| [None](#None) | Indicates None bar shape. |
+| [Thin](#Thin) | Indicates Thin rectangle bar shape. |
 ### Full {#Full}
 ```
 public static final int Full
@@ -40,21 +40,13 @@ public static final int HalfHeight
 
 Indicates Half height rectangle bar shape.
 
-### Thin {#Thin}
+### LineBottom {#LineBottom}
 ```
-public static final int Thin
-```
-
-
-Indicates Thin rectangle bar shape.
-
-### None {#None}
-```
-public static final int None
+public static final int LineBottom
 ```
 
 
-Indicates None bar shape.
+Indicates Line bottom bar shape.
 
 ### Middle {#Middle}
 ```
@@ -64,11 +56,19 @@ public static final int Middle
 
 Indicates Rectangle middle bar shape.
 
-### LineBottom {#LineBottom}
+### None {#None}
 ```
-public static final int LineBottom
+public static final int None
 ```
 
 
-Indicates Line bottom bar shape.
+Indicates None bar shape.
+
+### Thin {#Thin}
+```
+public static final int Thin
+```
+
+
+Indicates Thin rectangle bar shape.
 

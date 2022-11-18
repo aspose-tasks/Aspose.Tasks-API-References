@@ -18,17 +18,33 @@ Specifies the type of a mask.
 
 | Field | Description |
 | --- | --- |
+| [Characters](#Characters) | Indicates Characters mask type. |
+| [LowerCaseLetters](#LowerCaseLetters) | Indicates LowerCaseLetters mask type. |
 | [Null](#Null) | Indicates Null mask type. |
 | [Numbers](#Numbers) | Indicates Numbers mask type. |
 | [UpperCaseLetters](#UpperCaseLetters) | Indicates UpperCaseLetters mask type. |
-| [LowerCaseLetters](#LowerCaseLetters) | Indicates LowerCaseLetters mask type. |
-| [Characters](#Characters) | Indicates Characters mask type. |
 | [Val4](#Val4) | Indicates Lookup for Cost mask type. |
 | [Val5](#Val5) | Indicates Lookup for Dates mask type. |
 | [Val6](#Val6) | Indicates Lookup for Durations mask type. |
 | [Val7](#Val7) | Indicates Lookup for Numbers mask type. |
 | [Val8](#Val8) | Indicates Lookup for Flags mask type. |
 | [Val9](#Val9) | Indicates Lookup for FinishDate mask type. |
+### Characters {#Characters}
+```
+public static final int Characters
+```
+
+
+Indicates Characters mask type.
+
+### LowerCaseLetters {#LowerCaseLetters}
+```
+public static final int LowerCaseLetters
+```
+
+
+Indicates LowerCaseLetters mask type.
+
 ### Null {#Null}
 ```
 public static final int Null
@@ -52,22 +68,6 @@ public static final int UpperCaseLetters
 
 
 Indicates UpperCaseLetters mask type.
-
-### LowerCaseLetters {#LowerCaseLetters}
-```
-public static final int LowerCaseLetters
-```
-
-
-Indicates LowerCaseLetters mask type.
-
-### Characters {#Characters}
-```
-public static final int Characters
-```
-
-
-Indicates Characters mask type.
 
 ### Val4 {#Val4}
 ```

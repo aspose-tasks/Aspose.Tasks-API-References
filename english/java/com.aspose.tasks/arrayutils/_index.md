@@ -18,13 +18,13 @@ Utility class for ArrayList processing.
 
 | Method | Description |
 | --- | --- |
-| [&lt;T&gt;concat(Class&lt;T&gt; typeOfT, T[]... arrays)](#-T-concat-java.lang.Class-T--T--...-) |  |
+| [&lt;T&gt;concat(Class&lt;T&gt; typeOfT, T[][] arrays)](#-T-concat-java.lang.Class-T--T--...-) |  |
 | [apply(List array, IAlgorithm algorithm, int startIndex)](#apply-java.util.List-com.aspose.tasks.IAlgorithm-int-) | Apply algorithm for each List element starting from specified position. |
 | [filter(List array, ICondition cond)](#filter-java.util.List-com.aspose.tasks.ICondition-) | Filter ArrayList elements by specified condition. |
 | [find(List array, ICondition cond)](#find-java.util.List-com.aspose.tasks.ICondition-) | Find first occurrence of an ArrayList element which satisfy specified condition. |
-### &lt;T&gt;concat(Class&lt;T&gt; typeOfT, T[]... arrays) {#-T-concat-java.lang.Class-T--T--...-}
+### &lt;T&gt;concat(Class&lt;T&gt; typeOfT, T[][] arrays) {#-T-concat-java.lang.Class-T--T--...-}
 ```
-public static T[] <T>concat(Class<T> typeOfT, T[]... arrays)
+public static T[] <T>concat(Class<T> typeOfT, T[][] arrays)
 ```
 
 
@@ -34,7 +34,7 @@ public static T[] <T>concat(Class<T> typeOfT, T[]... arrays)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | typeOfT | java.lang.Class&lt;T&gt; |  |
-| arrays | T[]... |  |
+| arrays | T[][] |  |
 
 **Returns:**
 T[]

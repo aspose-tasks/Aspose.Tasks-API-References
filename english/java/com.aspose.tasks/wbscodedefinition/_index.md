@@ -25,10 +25,10 @@ Represents a WBS Code Definition.
 | --- | --- |
 | [getCodeMaskCollection()](#getCodeMaskCollection--) | Gets the collection of WBSCodeMask objects. |
 | [getCodePrefix()](#getCodePrefix--) | Gets the project code prefix. |
-| [setCodePrefix(String value)](#setCodePrefix-java.lang.String-) | Sets the project code prefix. |
 | [getGenerateWBSCode()](#getGenerateWBSCode--) | Gets a value indicating whether to generate WBS code for new task. |
-| [setGenerateWBSCode(boolean value)](#setGenerateWBSCode-boolean-) | Sets a value indicating whether to generate WBS code for new task. |
 | [getVerifyUniqueness()](#getVerifyUniqueness--) | Gets a value indicating whether to verify uniqueness of new WBS codes. |
+| [setCodePrefix(String value)](#setCodePrefix-java.lang.String-) | Sets the project code prefix. |
+| [setGenerateWBSCode(boolean value)](#setGenerateWBSCode-boolean-) | Sets a value indicating whether to generate WBS code for new task. |
 | [setVerifyUniqueness(boolean value)](#setVerifyUniqueness-boolean-) | Sets a value indicating whether to verify uniqueness of new WBS codes. |
 ### WBSCodeDefinition() {#WBSCodeDefinition--}
 ```
@@ -58,6 +58,26 @@ Gets the project code prefix.
 
 **Returns:**
 java.lang.String - the project code prefix.
+### getGenerateWBSCode() {#getGenerateWBSCode--}
+```
+public final boolean getGenerateWBSCode()
+```
+
+
+Gets a value indicating whether to generate WBS code for new task.
+
+**Returns:**
+boolean - a value indicating whether to generate WBS code for new task.
+### getVerifyUniqueness() {#getVerifyUniqueness--}
+```
+public final boolean getVerifyUniqueness()
+```
+
+
+Gets a value indicating whether to verify uniqueness of new WBS codes.
+
+**Returns:**
+boolean - a value indicating whether to verify uniqueness of new WBS codes.
 ### setCodePrefix(String value) {#setCodePrefix-java.lang.String-}
 ```
 public final void setCodePrefix(String value)
@@ -71,16 +91,6 @@ Sets the project code prefix.
 | --- | --- | --- |
 | value | java.lang.String | the project code prefix. |
 
-### getGenerateWBSCode() {#getGenerateWBSCode--}
-```
-public final boolean getGenerateWBSCode()
-```
-
-
-Gets a value indicating whether to generate WBS code for new task.
-
-**Returns:**
-boolean - a value indicating whether to generate WBS code for new task.
 ### setGenerateWBSCode(boolean value) {#setGenerateWBSCode-boolean-}
 ```
 public final void setGenerateWBSCode(boolean value)
@@ -94,16 +104,6 @@ Sets a value indicating whether to generate WBS code for new task.
 | --- | --- | --- |
 | value | boolean | a value indicating whether to generate WBS code for new task. |
 
-### getVerifyUniqueness() {#getVerifyUniqueness--}
-```
-public final boolean getVerifyUniqueness()
-```
-
-
-Gets a value indicating whether to verify uniqueness of new WBS codes.
-
-**Returns:**
-boolean - a value indicating whether to verify uniqueness of new WBS codes.
 ### setVerifyUniqueness(boolean value) {#setVerifyUniqueness-boolean-}
 ```
 public final void setVerifyUniqueness(boolean value)

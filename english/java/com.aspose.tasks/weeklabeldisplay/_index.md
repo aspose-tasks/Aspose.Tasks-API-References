@@ -18,24 +18,16 @@ Specifies how the week label displays.
 
 | Field | Description |
 | --- | --- |
-| [W](#W) | Sets the Weeks list in MS Project as [W](../../com.aspose.tasks/weeklabeldisplay\#W). |
-| [Wk](#Wk) | Sets the Weeks list in MS Project as [Wk](../../com.aspose.tasks/weeklabeldisplay\#Wk). |
-| [Week](#Week) | Sets the Weeks list in MS Project as [Week](../../com.aspose.tasks/weeklabeldisplay\#Week). |
+| [W](#W) | "w" label. |
+| [Week](#Week) | "week" label. |
+| [Wk](#Wk) | "wk" label. |
 ### W {#W}
 ```
 public static final int W
 ```
 
 
-Sets the Weeks list in MS Project as [W](../../com.aspose.tasks/weeklabeldisplay\#W).
-
-### Wk {#Wk}
-```
-public static final int Wk
-```
-
-
-Sets the Weeks list in MS Project as [Wk](../../com.aspose.tasks/weeklabeldisplay\#Wk).
+"w" label.
 
 ### Week {#Week}
 ```
@@ -43,5 +35,13 @@ public static final int Week
 ```
 
 
-Sets the Weeks list in MS Project as [Week](../../com.aspose.tasks/weeklabeldisplay\#Week).
+"week" label.
+
+### Wk {#Wk}
+```
+public static final int Wk
+```
+
+
+"wk" label.
 

@@ -19,10 +19,10 @@ Represents an ordinal number in the instance of  RecurringTaskInfo  class.
 | Field | Description |
 | --- | --- |
 | [First](#First) | The first element. |
-| [Second](#Second) | The second element. |
-| [Third](#Third) | The third element. |
 | [Fourth](#Fourth) | The fourth element. |
 | [Last](#Last) | The last element. |
+| [Second](#Second) | The second element. |
+| [Third](#Third) | The third element. |
 ### First {#First}
 ```
 public static final int First
@@ -30,22 +30,6 @@ public static final int First
 
 
 The first element.
-
-### Second {#Second}
-```
-public static final int Second
-```
-
-
-The second element.
-
-### Third {#Third}
-```
-public static final int Third
-```
-
-
-The third element.
 
 ### Fourth {#Fourth}
 ```
@@ -62,4 +46,20 @@ public static final int Last
 
 
 The last element.
+
+### Second {#Second}
+```
+public static final int Second
+```
+
+
+The second element.
+
+### Third {#Third}
+```
+public static final int Third
+```
+
+
+The third element.
 

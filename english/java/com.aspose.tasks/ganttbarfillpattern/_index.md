@@ -18,50 +18,18 @@ A shape's fill pattern.
 
 | Field | Description |
 | --- | --- |
-| [Hollow](#Hollow) | Hollow pattern. |
-| [SolidFill](#SolidFill) | Solid fill pattern. |
-| [LightFill](#LightFill) | Light fill pattern. |
-| [MediumFill](#MediumFill) | Medium fill pattern. |
 | [DarkFill](#DarkFill) | Dark fill pattern. |
+| [DiagonalCross](#DiagonalCross) | Diagonal cross pattern. |
 | [DiagonalLeft](#DiagonalLeft) | Diagonal left pattern (from the upper left to the lower right). |
 | [DiagonalRight](#DiagonalRight) | Diagonal right pattern (from the upper right to the lower left). |
-| [DiagonalCross](#DiagonalCross) | Diagonal cross pattern. |
-| [LineVertical](#LineVertical) | Line vertical pattern. |
-| [LineHorizontal](#LineHorizontal) | Line horizontal pattern. |
+| [Hollow](#Hollow) | Hollow pattern. |
+| [LightFill](#LightFill) | Light fill pattern. |
 | [LineCross](#LineCross) | Line cross pattern. |
+| [LineHorizontal](#LineHorizontal) | Line horizontal pattern. |
+| [LineVertical](#LineVertical) | Line vertical pattern. |
+| [MediumFill](#MediumFill) | Medium fill pattern. |
+| [SolidFill](#SolidFill) | Solid fill pattern. |
 | [SolidFillWithDashedBorder](#SolidFillWithDashedBorder) | Solid with dashed border pattern. |
-### Hollow {#Hollow}
-```
-public static final int Hollow
-```
-
-
-Hollow pattern.
-
-### SolidFill {#SolidFill}
-```
-public static final int SolidFill
-```
-
-
-Solid fill pattern.
-
-### LightFill {#LightFill}
-```
-public static final int LightFill
-```
-
-
-Light fill pattern.
-
-### MediumFill {#MediumFill}
-```
-public static final int MediumFill
-```
-
-
-Medium fill pattern.
-
 ### DarkFill {#DarkFill}
 ```
 public static final int DarkFill
@@ -69,6 +37,14 @@ public static final int DarkFill
 
 
 Dark fill pattern.
+
+### DiagonalCross {#DiagonalCross}
+```
+public static final int DiagonalCross
+```
+
+
+Diagonal cross pattern.
 
 ### DiagonalLeft {#DiagonalLeft}
 ```
@@ -86,21 +62,29 @@ public static final int DiagonalRight
 
 Diagonal right pattern (from the upper right to the lower left).
 
-### DiagonalCross {#DiagonalCross}
+### Hollow {#Hollow}
 ```
-public static final int DiagonalCross
-```
-
-
-Diagonal cross pattern.
-
-### LineVertical {#LineVertical}
-```
-public static final int LineVertical
+public static final int Hollow
 ```
 
 
-Line vertical pattern.
+Hollow pattern.
+
+### LightFill {#LightFill}
+```
+public static final int LightFill
+```
+
+
+Light fill pattern.
+
+### LineCross {#LineCross}
+```
+public static final int LineCross
+```
+
+
+Line cross pattern.
 
 ### LineHorizontal {#LineHorizontal}
 ```
@@ -110,13 +94,29 @@ public static final int LineHorizontal
 
 Line horizontal pattern.
 
-### LineCross {#LineCross}
+### LineVertical {#LineVertical}
 ```
-public static final int LineCross
+public static final int LineVertical
 ```
 
 
-Line cross pattern.
+Line vertical pattern.
+
+### MediumFill {#MediumFill}
+```
+public static final int MediumFill
+```
+
+
+Medium fill pattern.
+
+### SolidFill {#SolidFill}
+```
+public static final int SolidFill
+```
+
+
+Solid fill pattern.
 
 ### SolidFillWithDashedBorder {#SolidFillWithDashedBorder}
 ```

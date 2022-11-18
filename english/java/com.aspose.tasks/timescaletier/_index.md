@@ -25,18 +25,18 @@ Represents a single tier of the timescale on a Gantt Chart.
 | Method | Description |
 | --- | --- |
 | [getAlignment()](#getAlignment--) | Gets how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)). |
-| [setAlignment(int value)](#setAlignment-int-) | Sets how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)). |
 | [getCount()](#getCount--) | Gets the time unit interval in which to show labels for the tier. |
-| [setCount(int value)](#setCount-int-) | Sets the time unit interval in which to show labels for the tier. |
 | [getDateTimeConverter()](#getDateTimeConverter--) | Gets a callback function for handling rendering date tick in this tier. |
-| [setDateTimeConverter(DateTimeConverter value)](#setDateTimeConverter-com.aspose.tasks.DateTimeConverter-) | Sets a callback function for handling rendering date tick in this tier. |
 | [getLabel()](#getLabel--) | Gets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
-| [setLabel(int value)](#setLabel-int-) | Sets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
 | [getShowTicks()](#getShowTicks--) | Gets a value indicating whether whether to show tick marks that separate time periods in the tier. |
-| [setShowTicks(boolean value)](#setShowTicks-boolean-) | Sets a value indicating whether whether to show tick marks that separate time periods in the tier. |
 | [getUnit()](#getUnit--) | Gets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. |
-| [setUnit(int value)](#setUnit-int-) | Sets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. |
 | [getUsesFiscalYear()](#getUsesFiscalYear--) | Gets a value indicating whether to base the tier labels on the fiscal year. |
+| [setAlignment(int value)](#setAlignment-int-) | Sets how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)). |
+| [setCount(int value)](#setCount-int-) | Sets the time unit interval in which to show labels for the tier. |
+| [setDateTimeConverter(DateTimeConverter value)](#setDateTimeConverter-com.aspose.tasks.DateTimeConverter-) | Sets a callback function for handling rendering date tick in this tier. |
+| [setLabel(int value)](#setLabel-int-) | Sets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
+| [setShowTicks(boolean value)](#setShowTicks-boolean-) | Sets a value indicating whether whether to show tick marks that separate time periods in the tier. |
+| [setUnit(int value)](#setUnit-int-) | Sets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. |
 | [setUsesFiscalYear(boolean value)](#setUsesFiscalYear-boolean-) | Sets a value indicating whether to base the tier labels on the fiscal year. |
 ### TimescaleTier() {#TimescaleTier--}
 ```
@@ -70,6 +70,66 @@ Gets how to align labels within each time period of the tier ([StringAlignment](
 
 **Returns:**
 int - how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)).
+### getCount() {#getCount--}
+```
+public final int getCount()
+```
+
+
+Gets the time unit interval in which to show labels for the tier. The default value is 1.
+
+**Returns:**
+int - the time unit interval in which to show labels for the tier.
+### getDateTimeConverter() {#getDateTimeConverter--}
+```
+public final DateTimeConverter getDateTimeConverter()
+```
+
+
+Gets a callback function for handling rendering date tick in this tier.
+
+**Returns:**
+[DateTimeConverter](../../com.aspose.tasks/datetimeconverter) - a callback function for handling rendering date tick in this tier.
+### getLabel() {#getLabel--}
+```
+public final int getLabel()
+```
+
+
+Gets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier.
+
+**Returns:**
+int - date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier.
+### getShowTicks() {#getShowTicks--}
+```
+public final boolean getShowTicks()
+```
+
+
+Gets a value indicating whether whether to show tick marks that separate time periods in the tier.
+
+**Returns:**
+boolean - a value indicating whether whether to show tick marks that separate time periods in the tier.
+### getUnit() {#getUnit--}
+```
+public final int getUnit()
+```
+
+
+Gets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. The default value is [TimescaleUnit](../../com.aspose.tasks/timescaleunit).
+
+**Returns:**
+int - timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier.
+### getUsesFiscalYear() {#getUsesFiscalYear--}
+```
+public final boolean getUsesFiscalYear()
+```
+
+
+Gets a value indicating whether to base the tier labels on the fiscal year.
+
+**Returns:**
+boolean - a value indicating whether to base the tier labels on the fiscal year.
 ### setAlignment(int value) {#setAlignment-int-}
 ```
 public final void setAlignment(int value)
@@ -83,16 +143,6 @@ Sets how to align labels within each time period of the tier ([StringAlignment](
 | --- | --- | --- |
 | value | int | how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)). |
 
-### getCount() {#getCount--}
-```
-public final int getCount()
-```
-
-
-Gets the time unit interval in which to show labels for the tier. The default value is 1.
-
-**Returns:**
-int - the time unit interval in which to show labels for the tier.
 ### setCount(int value) {#setCount-int-}
 ```
 public final void setCount(int value)
@@ -106,16 +156,6 @@ Sets the time unit interval in which to show labels for the tier. The default va
 | --- | --- | --- |
 | value | int | the time unit interval in which to show labels for the tier. |
 
-### getDateTimeConverter() {#getDateTimeConverter--}
-```
-public final DateTimeConverter getDateTimeConverter()
-```
-
-
-Gets a callback function for handling rendering date tick in this tier.
-
-**Returns:**
-[DateTimeConverter](../../com.aspose.tasks/datetimeconverter) - a callback function for handling rendering date tick in this tier.
 ### setDateTimeConverter(DateTimeConverter value) {#setDateTimeConverter-com.aspose.tasks.DateTimeConverter-}
 ```
 public final void setDateTimeConverter(DateTimeConverter value)
@@ -129,16 +169,6 @@ Sets a callback function for handling rendering date tick in this tier.
 | --- | --- | --- |
 | value | [DateTimeConverter](../../com.aspose.tasks/datetimeconverter) | a callback function for handling rendering date tick in this tier. |
 
-### getLabel() {#getLabel--}
-```
-public final int getLabel()
-```
-
-
-Gets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier.
-
-**Returns:**
-int - date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier.
 ### setLabel(int value) {#setLabel-int-}
 ```
 public final void setLabel(int value)
@@ -152,16 +182,6 @@ Sets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale 
 | --- | --- | --- |
 | value | int | date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
 
-### getShowTicks() {#getShowTicks--}
-```
-public final boolean getShowTicks()
-```
-
-
-Gets a value indicating whether whether to show tick marks that separate time periods in the tier.
-
-**Returns:**
-boolean - a value indicating whether whether to show tick marks that separate time periods in the tier.
 ### setShowTicks(boolean value) {#setShowTicks-boolean-}
 ```
 public final void setShowTicks(boolean value)
@@ -175,16 +195,6 @@ Sets a value indicating whether whether to show tick marks that separate time pe
 | --- | --- | --- |
 | value | boolean | a value indicating whether whether to show tick marks that separate time periods in the tier. |
 
-### getUnit() {#getUnit--}
-```
-public final int getUnit()
-```
-
-
-Gets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. The default value is [TimescaleUnit](../../com.aspose.tasks/timescaleunit).
-
-**Returns:**
-int - timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier.
 ### setUnit(int value) {#setUnit-int-}
 ```
 public final void setUnit(int value)
@@ -198,16 +208,6 @@ Sets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for th
 | --- | --- | --- |
 | value | int | timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. |
 
-### getUsesFiscalYear() {#getUsesFiscalYear--}
-```
-public final boolean getUsesFiscalYear()
-```
-
-
-Gets a value indicating whether to base the tier labels on the fiscal year.
-
-**Returns:**
-boolean - a value indicating whether to base the tier labels on the fiscal year.
 ### setUsesFiscalYear(boolean value) {#setUsesFiscalYear-boolean-}
 ```
 public final void setUsesFiscalYear(boolean value)
