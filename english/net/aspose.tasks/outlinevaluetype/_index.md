@@ -3,7 +3,7 @@ title: OutlineValueType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of an outline value.
 type: docs
-weight: 1090
+weight: 1100
 url: /net/aspose.tasks/outlinevaluetype/
 ---
 ## OutlineValueType enumeration

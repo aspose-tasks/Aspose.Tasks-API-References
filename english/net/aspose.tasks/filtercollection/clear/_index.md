@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Tasks for .NET API Reference
 description: Removes all items from this collection.
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/filtercollection/clear/
 ---
 ## FilterCollection.Clear method
@@ -22,7 +22,7 @@ Shows how to work with filter collections.
 var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
 
 // iterate over task filters
-Console.WriteLine("Print task filters of {0} project: ", project.TaskFilters.ParentProject.Get(Prj.Name));
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
 foreach (var filter in project.TaskFilters)
 {

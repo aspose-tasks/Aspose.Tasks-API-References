@@ -76,9 +76,9 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [ParseErrorArgs](./parseerrorargs) | Provides data for the [`ParseErrorCallback`](../aspose.tasks/parseerrorcallback) delegate. |
 | [ParseErrorCallback](./parseerrorcallback) | Represents a method callback to handle parse errors that can happen when reading xml data. |
 | [PrimaveraReadOptions](./primaverareadoptions) | Allows to specify additional options when reading Primavera Xml or Primavera Xer files. |
+| [PrimaveraTaskProperties](./primaverataskproperties) | Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML). |
 | [PrimaveraXerReader](./primaveraxerreader) | Represents a reader to read Project UIDs from Primavera XER file |
 | [PrimaveraXmlReader](./primaveraxmlreader) | Represents a reader which allows to retrieve Project UIDs from Primavera Xml file. |
-| [PrimaveraXmlReadingOptions](./primaveraxmlreadingoptions) | Allows to specify additional options when reading Primavera Xml files. |
 | [Prj](./prj) | Represents supported properties of [`Project`](../aspose.tasks/project) object. |
 | [Project](./project) | Represents a project. |
 | [ProjectDisplayOptions](./projectdisplayoptions) | Represents the display options for a project instance. |
@@ -120,7 +120,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [TasksException](./tasksexception) | Represents the standard internal exception type. |
 | [TasksLoggedException](./tasksloggedexception) | Represents the standard internal exception type. |
 | [TasksReadingException](./tasksreadingexception) | Represents the standard internal reading exception type. |
-| [TasksRenderingException](./tasksrenderingexception) |  |
+| [TasksRenderingException](./tasksrenderingexception) | Represents the exception that can occur when rendering a project's view to a graphical format. |
 | [TasksWritingException](./taskswritingexception) | Represents the standard internal writing exception type. |
 | [TaskUsageView](./taskusageview) | Represents task usage view in a project. |
 | [TaskUsageViewFieldCollection](./taskusageviewfieldcollection) | Represents a collection of [`TaskUsageViewField`](../aspose.tasks/taskusageviewfield) values. |

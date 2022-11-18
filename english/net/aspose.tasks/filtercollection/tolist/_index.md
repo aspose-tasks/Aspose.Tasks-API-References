@@ -3,7 +3,7 @@ title: ToList
 second_title: Aspose.Tasks for .NET API Reference
 description: Converts a filter collection to a list of Filteraspose.tasks/filter objects.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/filtercollection/tolist/
 ---
 ## FilterCollection.ToList method
@@ -26,7 +26,7 @@ Shows how to work with filter collections.
 var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
 
 // iterate over task filters
-Console.WriteLine("Print task filters of {0} project: ", project.TaskFilters.ParentProject.Get(Prj.Name));
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
 foreach (var filter in project.TaskFilters)
 {

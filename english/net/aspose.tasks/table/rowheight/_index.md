@@ -3,7 +3,7 @@ title: RowHeight
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the row height in a table where the row height is the number of lines of text.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/table/rowheight/
 ---
 ## Table.RowHeight property
@@ -26,7 +26,6 @@ var table = project.Tables.ToList()[0];
 Console.WriteLine("Uid of the table: " + table.Uid);
 Console.WriteLine("Index of the table: " + table.Index);
 Console.WriteLine("Name of the table: " + table.Name);
-Console.WriteLine("Parent project of the table: " + table.ParentProject.Get(Prj.Name));
 Console.WriteLine("Type of the table: " + table.TableType);
 
 // tune some properties

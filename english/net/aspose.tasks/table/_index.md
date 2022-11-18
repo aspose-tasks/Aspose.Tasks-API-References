@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a table in Project
 type: docs
-weight: 2020
+weight: 2030
 url: /net/aspose.tasks/table/
 ---
 ## Table class
@@ -29,7 +29,6 @@ public class Table
 | [Index](../../aspose.tasks/table/index) { get; } | Gets the index of a Table object in the Tables containing object. |
 | [LockFirstColumn](../../aspose.tasks/table/lockfirstcolumn) { get; set; } | Gets or sets a value indicating whether the first column of a table is locked or editable. |
 | [Name](../../aspose.tasks/table/name) { get; set; } | Gets or sets the name of a Table object. |
-| [ParentProject](../../aspose.tasks/table/parentproject) { get; } | Gets the parent of the Table object. Read-only [`Project`](../project). |
 | [RowHeight](../../aspose.tasks/table/rowheight) { get; set; } | Gets or sets the row height in a table, where the row height is the number of lines of text. |
 | [ShowAddNewColumn](../../aspose.tasks/table/showaddnewcolumn) { get; set; } | Gets or sets a value indicating whether to show 'Add New Column' interface. Supported by MSP 2010 version and later. |
 | [ShowInMenu](../../aspose.tasks/table/showinmenu) { get; set; } | Gets or sets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
@@ -56,7 +55,6 @@ var table = project.Tables.ToList()[0];
 Console.WriteLine("Uid of the table: " + table.Uid);
 Console.WriteLine("Index of the table: " + table.Index);
 Console.WriteLine("Name of the table: " + table.Name);
-Console.WriteLine("Parent project of the table: " + table.ParentProject.Get(Prj.Name));
 Console.WriteLine("Type of the table: " + table.TableType);
 
 // tune some properties

@@ -3,7 +3,7 @@ title: BackgroundPattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the background pattern.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.tasks/backgroundpattern/
 ---
 ## BackgroundPattern enumeration

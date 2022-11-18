@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains a list of Table./table objects. Implements ICollectionltTablegt interface.
 type: docs
-weight: 2030
+weight: 2040
 url: /net/aspose.tasks/tablecollection/
 ---
 ## TableCollection class
@@ -20,7 +20,6 @@ public class TableCollection : ICollection<Table>
 | --- | --- |
 | [Count](../../aspose.tasks/tablecollection/count) { get; } | Gets the number of elements contained in this collection. |
 | [IsReadOnly](../../aspose.tasks/tablecollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [ParentProject](../../aspose.tasks/tablecollection/parentproject) { get; } | Gets the parent of the Table object. Read-only [`Project`](../project). |
 
 ## Methods
 
@@ -44,7 +43,7 @@ var project = new Project(DataDir + "Project1.mpp");
 Console.WriteLine("Is collection of tables read-only?: " + project.Tables.IsReadOnly);
 
 // iterate over tables
-Console.WriteLine("Print tables of " + project.Tables.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Print tables of " + project.Get(Prj.Name) + " project.");
 Console.WriteLine("Table count: " + project.Tables.Count);
 foreach (var tbl in project.Tables)
 {

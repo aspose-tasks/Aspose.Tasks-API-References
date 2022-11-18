@@ -3,7 +3,7 @@ title: FontFaceType
 second_title: Aspose.Tasks for .NET API Reference
 description: Enumerates font face types
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.tasks/fontfacetype/
 ---
 ## FontFaceType enumeration

@@ -3,7 +3,7 @@ title: CopyTo
 second_title: Aspose.Tasks for .NET API Reference
 description: Copies the elements of this collection to the specified array starting at the specified array index.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/tablefieldcollection/copyto/
 ---
 ## TableFieldCollection.CopyTo method
@@ -32,7 +32,7 @@ foreach (var tbl in project.Tables)
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
 
     // iterate over table fields
-    Console.WriteLine("Print table fields of " + tbl.TableFields.ParentProject.Get(Prj.Name) + " project.");
+    Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
     {

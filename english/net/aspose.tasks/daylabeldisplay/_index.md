@@ -3,7 +3,7 @@ title: DayLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies how the day label displays.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.tasks/daylabeldisplay/
 ---
 ## DayLabelDisplay enumeration

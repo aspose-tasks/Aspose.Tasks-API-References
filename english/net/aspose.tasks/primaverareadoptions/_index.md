@@ -3,7 +3,7 @@ title: PrimaveraReadOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when reading Primavera Xml or Primavera Xer files.
 type: docs
-weight: 1120
+weight: 1130
 url: /net/aspose.tasks/primaverareadoptions/
 ---
 ## PrimaveraReadOptions class
@@ -24,6 +24,7 @@ public class PrimaveraReadOptions
 
 | Name | Description |
 | --- | --- |
+| [PreserveUids](../../aspose.tasks/primaverareadoptions/preserveuids) { get; set; } | Gets or sets a flag that specifies whether original unique identifiers of entities should be preserved. |
 | [ProjectUid](../../aspose.tasks/primaverareadoptions/projectuid) { get; set; } | Gets or sets the UID of a project to read from file containing multiple projects. |
 | [UndefinedConstraintHandlingBehavior](../../aspose.tasks/primaverareadoptions/undefinedconstrainthandlingbehavior) { get; set; } | Specifies the behavior used to process tasks with undefined constraints read from XER format. |
 

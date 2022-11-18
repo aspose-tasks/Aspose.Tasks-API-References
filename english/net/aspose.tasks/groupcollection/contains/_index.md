@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns true if the specified item is found in this collection otherwise false.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/groupcollection/contains/
 ---
 ## GroupCollection.Contains method
@@ -30,7 +30,7 @@ Shows how to work with collection of groups.
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 
 // iterate over task groups
-Console.WriteLine("Print task groups of {0} project: ", project.TaskGroups.ParentProject.Get(Prj.Name));
+Console.WriteLine("Print task groups of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Group Count: " + project.TaskGroups.Count);
 foreach (var group in project.TaskGroups)
 {

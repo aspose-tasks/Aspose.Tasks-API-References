@@ -3,7 +3,7 @@ title: SplitParts
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a SplitPart collection that represents the portions of a task.
 type: docs
-weight: 100
+weight: 1110
 url: /net/aspose.tasks/task/splitparts/
 ---
 ## Task.SplitParts property

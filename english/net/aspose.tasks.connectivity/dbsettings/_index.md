@@ -3,7 +3,7 @@ title: DbSettings
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify settings to read from project database.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.tasks.connectivity/dbsettings/
 ---
 ## DbSettings class

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets the name of the calendar. Read/write String.
+description: Gets or sets the name of the calendar.
 type: docs
 weight: 80
 url: /net/aspose.tasks/calendar/name/
 ---
 ## Calendar.Name property
 
-Gets or sets the name of the calendar. Read/write String.
+Gets or sets the name of the calendar.
 
 ```csharp
 public string Name { get; set; }

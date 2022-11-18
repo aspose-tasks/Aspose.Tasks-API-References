@@ -3,7 +3,7 @@ title: MspDbSettings
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to set necessary options to read project data from MS Project Server database.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.tasks.connectivity/mspdbsettings/
 ---
 ## MspDbSettings class

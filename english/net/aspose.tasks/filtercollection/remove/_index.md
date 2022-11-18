@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Tasks for .NET API Reference
 description: Removes the first occurrence of a specific object from this collection.
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.tasks/filtercollection/remove/
 ---
 ## FilterCollection.Remove method
@@ -30,7 +30,7 @@ Shows how to work with filter collections.
 var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
 
 // iterate over task filters
-Console.WriteLine("Print task filters of {0} project: ", project.TaskFilters.ParentProject.Get(Prj.Name));
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
 foreach (var filter in project.TaskFilters)
 {

@@ -3,7 +3,7 @@ title: ShowSummary
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether summary rows are displayed for the group.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/group/showsummary/
 ---
 ## Group.ShowSummary property
@@ -29,7 +29,6 @@ Console.WriteLine("Task Group Name: " + group.Name);
 Console.WriteLine("Is Task Group Maintain Hierarchy?: " + group.MaintainHierarchy);
 Console.WriteLine("Is Task Group Show In Menu?: " + group.ShowInMenu);
 Console.WriteLine("Is Task Group Show Summary?: " + group.ShowSummary);
-Console.WriteLine("Task Group Parent Project: " + group.ParentProject.Get(Prj.Name));
 Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
 Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
 

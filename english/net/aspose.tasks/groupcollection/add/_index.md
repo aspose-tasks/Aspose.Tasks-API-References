@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Tasks for .NET API Reference
 description: Adds the specified item to this collection.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks/groupcollection/add/
 ---
 ## GroupCollection.Add method
@@ -26,7 +26,7 @@ Shows how to work with collection of groups.
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 
 // iterate over task groups
-Console.WriteLine("Print task groups of {0} project: ", project.TaskGroups.ParentProject.Get(Prj.Name));
+Console.WriteLine("Print task groups of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Group Count: " + project.TaskGroups.Count);
 foreach (var group in project.TaskGroups)
 {

@@ -3,7 +3,7 @@ title: GroupOn
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of grouping.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.tasks/groupon/
 ---
 ## GroupOn enumeration

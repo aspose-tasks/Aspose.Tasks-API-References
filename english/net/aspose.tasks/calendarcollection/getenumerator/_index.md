@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns an enumerator for this collection.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/calendarcollection/getenumerator/
 ---
 ## CalendarCollection.GetEnumerator method

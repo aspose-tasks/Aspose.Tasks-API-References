@@ -3,7 +3,7 @@ title: CompareTo
 second_title: Aspose.Tasks for .NET API Reference
 description: Compares this instance to the specified instance of the Filteraspose.tasks/filter class and returns an indication of their relative order.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/filter/compareto/
 ---
 ## Filter.CompareTo method

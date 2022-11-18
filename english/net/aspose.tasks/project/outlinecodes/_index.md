@@ -3,7 +3,7 @@ title: OutlineCodes
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets OutlineCodeDefinitionCollection object. The collection of outline code definitions associated with a project.
 type: docs
-weight: 120
+weight: 690
 url: /net/aspose.tasks/project/outlinecodes/
 ---
 ## Project.OutlineCodes property

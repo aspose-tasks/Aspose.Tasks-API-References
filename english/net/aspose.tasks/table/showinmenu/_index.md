@@ -3,7 +3,7 @@ title: ShowInMenu
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether project shows the table name in the Tables dropdown list on the View tab of the Ribbon.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/table/showinmenu/
 ---
 ## Table.ShowInMenu property
@@ -26,7 +26,6 @@ var table = project.Tables.ToList()[0];
 Console.WriteLine("Uid of the table: " + table.Uid);
 Console.WriteLine("Index of the table: " + table.Index);
 Console.WriteLine("Name of the table: " + table.Name);
-Console.WriteLine("Parent project of the table: " + table.ParentProject.Get(Prj.Name));
 Console.WriteLine("Type of the table: " + table.TableType);
 
 // tune some properties

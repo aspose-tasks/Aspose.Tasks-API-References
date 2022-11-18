@@ -3,7 +3,7 @@ title: RecurringInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the instance of RecurringTaskInfoaspose.tasks/recurringtaskinfo class for the task which is a recurring task if the task is not a recurring one then returns null The info for the instance of RecurringTaskInfoaspose.tasks/recurringtaskinfo is present in mpp file format only.
 type: docs
-weight: 90
+weight: 1030
 url: /net/aspose.tasks/task/recurringinfo/
 ---
 ## Task.RecurringInfo property

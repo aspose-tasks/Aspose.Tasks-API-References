@@ -3,7 +3,7 @@ title: Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the unique identifier of a filter.
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.tasks/filter/uid/
 ---
 ## Filter.Uid property
@@ -30,7 +30,6 @@ foreach (var filter in filters)
     Console.WriteLine("Type: " + filter.FilterType);
     Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
     Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
-    Console.WriteLine("Parent project: " + filter.ParentProject.Get(Prj.Name));
 }
 
 // check resource filters

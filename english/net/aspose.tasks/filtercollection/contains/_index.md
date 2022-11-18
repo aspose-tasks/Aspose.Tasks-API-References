@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns true if the specified item is found in this collection otherwise false.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/filtercollection/contains/
 ---
 ## FilterCollection.Contains method
@@ -30,7 +30,7 @@ Shows how to work with filter collections.
 var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
 
 // iterate over task filters
-Console.WriteLine("Print task filters of {0} project: ", project.TaskFilters.ParentProject.Get(Prj.Name));
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
 foreach (var filter in project.TaskFilters)
 {

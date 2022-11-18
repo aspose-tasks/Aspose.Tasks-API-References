@@ -3,7 +3,7 @@ title: ItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of an item.
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.tasks/itemtype/
 ---
 ## ItemType enumeration
@@ -38,7 +38,6 @@ foreach (var filter in filters)
     Console.WriteLine("Type: " + filter.FilterType);
     Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
     Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
-    Console.WriteLine("Parent project: " + filter.ParentProject.Get(Prj.Name));
 }
 
 // check resource filters

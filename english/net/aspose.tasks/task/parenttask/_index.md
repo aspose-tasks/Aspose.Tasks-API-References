@@ -3,7 +3,7 @@ title: ParentTask
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the parent task of a task.
 type: docs
-weight: 70
+weight: 940
 url: /net/aspose.tasks/task/parenttask/
 ---
 ## Task.ParentTask property

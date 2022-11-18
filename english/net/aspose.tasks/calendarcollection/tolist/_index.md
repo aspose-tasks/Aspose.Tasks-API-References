@@ -3,7 +3,7 @@ title: ToList
 second_title: Aspose.Tasks for .NET API Reference
 description: Converts the CalendarCollection object to a list of Calendaraspose.tasks/calendar objects.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/calendarcollection/tolist/
 ---
 ## CalendarCollection.ToList method

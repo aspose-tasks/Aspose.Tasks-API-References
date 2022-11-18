@@ -3,7 +3,7 @@ title: TaskUsageViewField
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents possible fields in TaskUsageView./taskusageview object.
 type: docs
-weight: 2170
+weight: 2180
 url: /net/aspose.tasks/taskusageviewfield/
 ---
 ## TaskUsageViewField enumeration

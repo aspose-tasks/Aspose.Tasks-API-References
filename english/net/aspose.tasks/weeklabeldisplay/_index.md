@@ -3,7 +3,7 @@ title: WeekLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies how the week label displays.
 type: docs
-weight: 3190
+weight: 3200
 url: /net/aspose.tasks/weeklabeldisplay/
 ---
 ## WeekLabelDisplay enumeration
@@ -18,9 +18,9 @@ public enum WeekLabelDisplay
 
 | Name | Value | Description |
 | --- | --- | --- |
-| W | `0` | Sets the Weeks list in MS Project as W. |
-| Wk | `1` | Sets the Weeks list in MS Project as Wk. |
-| Week | `2` | Sets the Weeks list in MS Project as Week. |
+| W | `0` | "w" label. |
+| Wk | `1` | "wk" label. |
+| Week | `2` | "week" label. |
 
 ### Examples
 

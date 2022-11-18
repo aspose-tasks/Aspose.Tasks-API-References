@@ -3,7 +3,7 @@ title: SaveFileFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Enumeration for saving project format selection.
 type: docs
-weight: 1900
+weight: 1910
 url: /net/aspose.tasks.saving/savefileformat/
 ---
 ## SaveFileFormat enumeration
@@ -18,11 +18,11 @@ public enum SaveFileFormat
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Mpp | `0` | MPP format - file format used by MS Project. |
-| Xml | `1` | XML format used by MS Project for exchanging project data with other applications. |
-| Html | `2` | HTML format - graphical representation of one of project's views saved in HTML format. |
-| Bmp | `3` | BMP format - graphical representation of one of project's views saved in BMP format. |
-| Png | `4` | PNG format - graphical representation of one of project's views saved in PNG format.. |
+| Mpp | `0` | MPP format. |
+| Xml | `1` | XML format. |
+| Html | `2` | HTML format. |
+| Bmp | `3` | BMP format. |
+| Png | `4` | PNG format. |
 | Jpeg | `5` | JPEG format. |
 | Pdf | `6` | PDF format. |
 | Tiff | `7` | TIFF format. |
@@ -32,7 +32,7 @@ public enum SaveFileFormat
 | Csv | `11` | CSV format. |
 | Txt | `12` | Text format (tab delimited). |
 | Spreadsheet2003 | `13` | Spreadsheet XML (Excel 2003). |
-| Xlsx | `14` | OOXML (Excel 2007). |
+| Xlsx | `14` | OOXML (Office Open XML, Excel 2007+). |
 | PrimaveraP6Xml | `15` | Primavera P6 Xml format. |
 | PrimaveraXer | `16` | Primavera PM XER format. |
 | Mpx | `17` | MPX format. |

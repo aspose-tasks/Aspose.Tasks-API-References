@@ -3,7 +3,7 @@ title: DateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the date format.
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.tasks/dateformat/
 ---
 ## DateFormat enumeration

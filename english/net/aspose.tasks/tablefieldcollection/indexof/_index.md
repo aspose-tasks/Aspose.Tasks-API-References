@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines the index of the specified item in this collection.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/tablefieldcollection/indexof/
 ---
 ## TableFieldCollection.IndexOf method
@@ -35,7 +35,7 @@ foreach (var tbl in project.Tables)
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
 
     // iterate over table fields
-    Console.WriteLine("Print table fields of " + tbl.TableFields.ParentProject.Get(Prj.Name) + " project.");
+    Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
     {

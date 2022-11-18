@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Tasks for .NET API Reference
 description: Adds the specified item to this collection.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks/tablecollection/add/
 ---
 ## TableCollection.Add method
@@ -28,7 +28,7 @@ var project = new Project(DataDir + "Project1.mpp");
 Console.WriteLine("Is collection of tables read-only?: " + project.Tables.IsReadOnly);
 
 // iterate over tables
-Console.WriteLine("Print tables of " + project.Tables.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Print tables of " + project.Get(Prj.Name) + " project.");
 Console.WriteLine("Table count: " + project.Tables.Count);
 foreach (var tbl in project.Tables)
 {

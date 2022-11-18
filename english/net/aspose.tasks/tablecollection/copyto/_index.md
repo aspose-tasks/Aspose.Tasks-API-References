@@ -3,7 +3,7 @@ title: CopyTo
 second_title: Aspose.Tasks for .NET API Reference
 description: Copies the elements of this collection to the specified array starting at the specified array index.
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.tasks/tablecollection/copyto/
 ---
 ## TableCollection.CopyTo method
@@ -29,7 +29,7 @@ var project = new Project(DataDir + "Project1.mpp");
 Console.WriteLine("Is collection of tables read-only?: " + project.Tables.IsReadOnly);
 
 // iterate over tables
-Console.WriteLine("Print tables of " + project.Tables.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Print tables of " + project.Get(Prj.Name) + " project.");
 Console.WriteLine("Table count: " + project.Tables.Count);
 foreach (var tbl in project.Tables)
 {

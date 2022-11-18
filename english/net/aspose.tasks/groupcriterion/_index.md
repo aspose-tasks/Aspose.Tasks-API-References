@@ -3,7 +3,7 @@ title: GroupCriterion
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a criterion in a group definition. The GroupCriterion object is a member of the GroupCriterionCollection./groupcriterioncollection collection.
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.tasks/groupcriterion/
 ---
 ## GroupCriterion class

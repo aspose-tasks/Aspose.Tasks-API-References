@@ -3,7 +3,7 @@ title: ExtendedAttributeTask
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the extended attributes FieldId used in a task.
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.tasks/extendedattributetask/
 ---
 ## ExtendedAttributeTask enumeration

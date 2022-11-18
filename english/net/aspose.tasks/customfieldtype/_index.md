@@ -3,7 +3,7 @@ title: CustomFieldType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of a custom field.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.tasks/customfieldtype/
 ---
 ## CustomFieldType enumeration

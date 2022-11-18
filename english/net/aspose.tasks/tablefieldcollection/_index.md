@@ -3,7 +3,7 @@ title: TableFieldCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains a list of TableField./tablefield objects. Implements IListltTableFieldgt interface.
 type: docs
-weight: 2050
+weight: 2060
 url: /net/aspose.tasks/tablefieldcollection/
 ---
 ## TableFieldCollection class
@@ -21,7 +21,6 @@ public class TableFieldCollection : IList<TableField>
 | [Count](../../aspose.tasks/tablefieldcollection/count) { get; } | Gets the number of elements contained in this collection. |
 | [IsReadOnly](../../aspose.tasks/tablefieldcollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
 | [Item](../../aspose.tasks/tablefieldcollection/item) { get; set; } | Returns or sets the element at the specified index. |
-| [ParentProject](../../aspose.tasks/tablefieldcollection/parentproject) { get; } | Gets the parent of the TableFields object. Read-only [`Project`](../project). |
 
 ## Methods
 
@@ -50,7 +49,7 @@ foreach (var tbl in project.Tables)
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
 
     // iterate over table fields
-    Console.WriteLine("Print table fields of " + tbl.TableFields.ParentProject.Get(Prj.Name) + " project.");
+    Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
     {

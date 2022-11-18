@@ -1,7 +1,7 @@
 ---
 title: ParentProject
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets parent project for this calendar.
+description: 
 type: docs
 weight: 90
 url: /net/aspose.tasks/calendar/parentproject/
@@ -12,22 +12,6 @@ Gets parent project for this calendar.
 
 ```csharp
 public Project ParentProject { get; }
-```
-
-### Examples
-
-Shows how to use parent project of a calendar.
-
-```csharp
-var project = new Project();
-var calendar = project.Calendars.Add("Calendar");
-
-var task = project.RootTask.Children.Add("Task");
-
-// set a duration for the task by using default project time unit type.
-task.Set(Tsk.Duration, calendar.ParentProject.GetDuration(1));
-
-Console.WriteLine(task.Get(Tsk.Duration));
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: ExtendedAttributes
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets ExtendedAttributeCollection object containing the values of an extended attribute.
 type: docs
-weight: 40
+weight: 400
 url: /net/aspose.tasks/task/extendedattributes/
 ---
 ## Task.ExtendedAttributes property

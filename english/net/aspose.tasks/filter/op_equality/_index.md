@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns a value indicating whether this instance is equal to a specified object.
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.tasks/filter/op_equality/
 ---
 ## Filter Equality operator

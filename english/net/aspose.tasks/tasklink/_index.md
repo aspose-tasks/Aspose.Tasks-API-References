@@ -3,7 +3,7 @@ title: TaskLink
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a predecessor link.
 type: docs
-weight: 2110
+weight: 2120
 url: /net/aspose.tasks/tasklink/
 ---
 ## TaskLink class
@@ -21,7 +21,7 @@ public class TaskLink : IEquatable<TaskLink>
 | [CrossProjectName](../../aspose.tasks/tasklink/crossprojectname) { get; set; } | Gets or sets the external predecessor project. |
 | [IsCrossProject](../../aspose.tasks/tasklink/iscrossproject) { get; set; } | Gets or sets a value indicating whether a predecessor is part of another project. |
 | [LagFormat](../../aspose.tasks/tasklink/lagformat) { get; set; } | Gets or sets the format for expressing the lag format. |
-| [LinkLag](../../aspose.tasks/tasklink/linklag) { get; set; } | Gets or sets the amount of lag in tenths of a minute. |
+| [LinkLag](../../aspose.tasks/tasklink/linklag) { get; set; } | Gets or sets the amount of lag in tenths of a minute or percentage. |
 | [LinkType](../../aspose.tasks/tasklink/linktype) { get; set; } | Gets or sets the type of a link. |
 | [PredTask](../../aspose.tasks/tasklink/predtask) { get; set; } | Gets or sets the predecessor task. |
 | [SuccTask](../../aspose.tasks/tasklink/succtask) { get; set; } | Gets or sets the successor task. |

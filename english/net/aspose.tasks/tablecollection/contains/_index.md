@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns true if the specified item is found in this collection otherwise false.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/tablecollection/contains/
 ---
 ## TableCollection.Contains method
@@ -32,7 +32,7 @@ var project = new Project(DataDir + "Project1.mpp");
 Console.WriteLine("Is collection of tables read-only?: " + project.Tables.IsReadOnly);
 
 // iterate over tables
-Console.WriteLine("Print tables of " + project.Tables.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Print tables of " + project.Get(Prj.Name) + " project.");
 Console.WriteLine("Table count: " + project.Tables.Count);
 foreach (var tbl in project.Tables)
 {

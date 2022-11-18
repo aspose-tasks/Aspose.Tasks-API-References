@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Tasks for .NET API Reference
 description: Adds the specified item to this collection.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks/filtercollection/add/
 ---
 ## FilterCollection.Add method
@@ -26,7 +26,7 @@ Shows how to work with filter collections.
 var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
 
 // iterate over task filters
-Console.WriteLine("Print task filters of {0} project: ", project.TaskFilters.ParentProject.Get(Prj.Name));
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
 foreach (var filter in project.TaskFilters)
 {

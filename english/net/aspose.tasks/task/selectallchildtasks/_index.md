@@ -3,7 +3,7 @@ title: SelectAllChildTasks
 second_title: Aspose.Tasks for .NET API Reference
 description: Recursively collects all child tasks of this task.
 type: docs
-weight: 220
+weight: 1390
 url: /net/aspose.tasks/task/selectallchildtasks/
 ---
 ## Task.SelectAllChildTasks method

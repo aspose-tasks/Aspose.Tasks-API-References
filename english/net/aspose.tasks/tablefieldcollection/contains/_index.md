@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns true if the specified item is found in this collection otherwise false.
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.tasks/tablefieldcollection/contains/
 ---
 ## TableFieldCollection.Contains method
@@ -35,7 +35,7 @@ foreach (var tbl in project.Tables)
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
 
     // iterate over table fields
-    Console.WriteLine("Print table fields of " + tbl.TableFields.ParentProject.Get(Prj.Name) + " project.");
+    Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
     {
