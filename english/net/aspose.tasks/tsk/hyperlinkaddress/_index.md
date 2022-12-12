@@ -3,7 +3,7 @@ title: HyperlinkAddress
 second_title: Aspose.Tasks for .NET API Reference
 description: The address for a hyperlink associated with a task.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.tasks/tsk/hyperlinkaddress/
 ---
 ## Tsk.HyperlinkAddress field

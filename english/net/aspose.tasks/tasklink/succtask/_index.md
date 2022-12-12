@@ -3,7 +3,7 @@ title: SuccTask
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the successor task.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks/tasklink/succtask/
 ---
 ## TaskLink.SuccTask property

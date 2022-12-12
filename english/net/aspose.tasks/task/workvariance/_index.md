@@ -3,7 +3,7 @@ title: WorkVariance
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of WorkVariance.
 type: docs
-weight: 1290
+weight: 1300
 url: /net/aspose.tasks/task/workvariance/
 ---
 ## Task.WorkVariance property

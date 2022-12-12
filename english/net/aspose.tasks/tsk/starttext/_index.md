@@ -3,7 +3,7 @@ title: StartText
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns the tasks start text.
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.tasks/tsk/starttext/
 ---
 ## Tsk.StartText field

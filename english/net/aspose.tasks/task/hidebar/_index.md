@@ -3,7 +3,7 @@ title: HideBar
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether HideBar is set or not.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.tasks/task/hidebar/
 ---
 ## Task.HideBar property

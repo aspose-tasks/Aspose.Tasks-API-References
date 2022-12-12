@@ -3,7 +3,7 @@ title: IsManual
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsManual is set or not.
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.tasks/task/ismanual/
 ---
 ## Task.IsManual property

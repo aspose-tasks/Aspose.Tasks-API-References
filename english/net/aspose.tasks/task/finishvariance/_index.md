@@ -3,7 +3,7 @@ title: FinishVariance
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of FinishVariance.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.tasks/task/finishvariance/
 ---
 ## Task.FinishVariance property

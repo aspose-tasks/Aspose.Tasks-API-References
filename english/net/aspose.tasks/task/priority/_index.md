@@ -3,7 +3,7 @@ title: Priority
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Priority.
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.tasks/task/priority/
 ---
 ## Task.Priority property

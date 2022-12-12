@@ -3,7 +3,7 @@ title: LateFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: The latest date that a task can finish without delaying the finish of the project.
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.tasks/tsk/latefinish/
 ---
 ## Tsk.LateFinish field

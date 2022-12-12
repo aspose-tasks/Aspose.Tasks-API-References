@@ -3,7 +3,7 @@ title: FixedCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Shows any non resource task expense.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.tasks/tsk/fixedcost/
 ---
 ## Tsk.FixedCost field

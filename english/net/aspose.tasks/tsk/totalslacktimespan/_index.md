@@ -3,7 +3,7 @@ title: TotalSlackTimeSpan
 second_title: Aspose.Tasks for .NET API Reference
 description: The time a tasks finish date can be delayed without delaying the projects finish date.
 type: docs
-weight: 1100
+weight: 1110
 url: /net/aspose.tasks/tsk/totalslacktimespan/
 ---
 ## Tsk.TotalSlackTimeSpan field

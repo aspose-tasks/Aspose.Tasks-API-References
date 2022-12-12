@@ -3,7 +3,7 @@ title: IsRollup
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsRollup is set or not.
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.tasks/task/isrollup/
 ---
 ## Task.IsRollup property

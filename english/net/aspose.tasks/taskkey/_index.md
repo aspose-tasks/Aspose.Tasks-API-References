@@ -149,6 +149,7 @@ public enum TaskKey
 | TotalSlackTimeSpan | `128` | Represents the TotalSlack (Task) field. |
 | StartSlackTimeSpan | `129` | Represents the StartSlack (Task) field. |
 | FinishSlackTimeSpan | `130` | Represents the FinishSlack (Task) field. |
+| ExternalUid | `131` | Represents the Unique Id of external task. |
 
 ### Examples
 

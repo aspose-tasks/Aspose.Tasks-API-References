@@ -3,7 +3,7 @@ title: WBS
 second_title: Aspose.Tasks for .NET API Reference
 description: Work breakdown structure WBS codes.
 type: docs
-weight: 1140
+weight: 1150
 url: /net/aspose.tasks/tsk/wbs/
 ---
 ## Tsk.WBS field

@@ -56,6 +56,7 @@ public static class Tsk
 | static readonly [EarnedValueMethod](../../aspose.tasks/tsk/earnedvaluemethod) | Determines whether the % Complete or Physical % Complete field should be used to calculate budgeted cost of work performed (BCWP). |
 | static readonly [ExternalId](../../aspose.tasks/tsk/externalid) | If a task is an external task it contains the task's external Id. |
 | static readonly [ExternalTaskProject](../../aspose.tasks/tsk/externaltaskproject) | The source location and task identifier of an external task. |
+| static readonly [ExternalUid](../../aspose.tasks/tsk/externaluid) | Contains the external task's Unique identifier when the task is external. |
 | static readonly [Finish](../../aspose.tasks/tsk/finish) | The scheduled finish date of a task. |
 | static readonly [FinishSlackTimeSpan](../../aspose.tasks/tsk/finishslacktimespan) | The duration between the Early Finish and Late Finish dates. |
 | static readonly [FinishText](../../aspose.tasks/tsk/finishtext) | Returns the task's finish text. |

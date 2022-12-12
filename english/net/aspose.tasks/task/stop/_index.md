@@ -3,7 +3,7 @@ title: Stop
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Stop.
 type: docs
-weight: 1170
+weight: 1180
 url: /net/aspose.tasks/task/stop/
 ---
 ## Task.Stop property

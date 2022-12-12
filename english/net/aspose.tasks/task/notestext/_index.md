@@ -3,7 +3,7 @@ title: NotesText
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of NotesText.
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.tasks/task/notestext/
 ---
 ## Task.NotesText property

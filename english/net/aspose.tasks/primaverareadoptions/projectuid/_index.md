@@ -20,10 +20,10 @@ Shows how to read a project from a Primavera XML or Primavera XER file containin
 
 ```csharp
 var options = new PrimaveraReadOptions();
-options.ProjectUid = 4557;
+options.ProjectUid = 3881;
 
 // Returns project with special Uid
-var project = new Project(DataDir + "Project.xml", options);
+var project = new Project(DataDir + "PrimaveraProject.xml", options);
 Console.WriteLine(project.Get(Prj.Name));
 ```
 

@@ -3,7 +3,7 @@ title: LevelingCanSplit
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether the resource leveling function can cause splits on remaining work on this task.
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.tasks/tsk/levelingcansplit/
 ---
 ## Tsk.LevelingCanSplit field
