@@ -3,7 +3,7 @@ title: LevelingCanSplit
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether LevelingCanSplit is set or not.
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.tasks/task/levelingcansplit/
 ---
 ## Task.LevelingCanSplit property

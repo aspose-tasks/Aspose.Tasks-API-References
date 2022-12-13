@@ -60,6 +60,7 @@ public class Task : IEquatable<Task>
 | [ExtendedAttributes](../../aspose.tasks/task/extendedattributes) { get; } | Gets ExtendedAttributeCollection object containing the values of an extended attribute. |
 | [ExternalId](../../aspose.tasks/task/externalid) { get; set; } | Gets or sets a value of ExternalId. |
 | [ExternalTaskProject](../../aspose.tasks/task/externaltaskproject) { get; set; } | Gets or sets a value of ExternalTaskProject. |
+| [ExternalUid](../../aspose.tasks/task/externaluid) { get; set; } | Gets or set the external task's Unique identifier when the task is external. |
 | [Finish](../../aspose.tasks/task/finish) { get; set; } | Gets or sets a value of Finish. |
 | [FinishSlack](../../aspose.tasks/task/finishslack) { get; set; } | Gets or sets a value of FinishSlack. |
 | [FinishText](../../aspose.tasks/task/finishtext) { get; set; } | Gets or sets a value of FinishText. |

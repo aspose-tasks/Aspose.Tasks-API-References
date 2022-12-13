@@ -24,7 +24,8 @@ var loadOptions = new LoadOptions();
 var primaveraOptions = new PrimaveraReadOptions()
 {
     ProjectUid = 3882,
-    UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None
+    UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
+    PreserveUids = true
 };
 
 // set Primavera reading options

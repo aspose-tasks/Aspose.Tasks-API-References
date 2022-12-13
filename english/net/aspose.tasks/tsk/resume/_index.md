@@ -3,7 +3,7 @@ title: Resume
 second_title: Aspose.Tasks for .NET API Reference
 description: The date that the remaining part of a task is scheduled to resume after entering any progress.
 type: docs
-weight: 1010
+weight: 1020
 url: /net/aspose.tasks/tsk/resume/
 ---
 ## Tsk.Resume field

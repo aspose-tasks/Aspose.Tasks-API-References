@@ -3,7 +3,7 @@ title: IsEstimated
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsEstimated is set or not.
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.tasks/task/isestimated/
 ---
 ## Task.IsEstimated property

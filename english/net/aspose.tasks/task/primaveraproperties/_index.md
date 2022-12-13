@@ -3,7 +3,7 @@ title: PrimaveraProperties
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets an object containing Primaveraspecific properties for a task read from Primavera format.
 type: docs
-weight: 1010
+weight: 1020
 url: /net/aspose.tasks/task/primaveraproperties/
 ---
 ## Task.PrimaveraProperties property
@@ -12,6 +12,35 @@ Gets an object containing Primavera-specific properties for a task read from Pri
 
 ```csharp
 public PrimaveraTaskProperties PrimaveraProperties { get; }
+```
+
+### Examples
+
+Shows how to read a project from a Primavera XML and examine tasks' Primavera-specific properties.
+
+```csharp
+var options = new PrimaveraReadOptions();
+options.ProjectUid = 3883;
+
+// Returns project with special Uid
+var project = new Project(DataDir + "PrimaveraProject.xml", options);
+
+foreach (Task task in project.EnumerateAllChildTasks())
+{
+    Console.WriteLine("Task '{0}'", task.Name);
+
+    if (task.IsSummary)
+    {
+        Console.WriteLine("WBS Sequence number: {0}", task.PrimaveraProperties.SequenceNumber);
+    }
+    else
+    {
+        Console.WriteLine("Task ActivityId: {0}", task.PrimaveraProperties.ActivityId);
+    }
+
+    Console.WriteLine("Task RemainingEarlyStart: {0}", task.PrimaveraProperties.RemainingEarlyStart);
+    Console.WriteLine("Task RemainingEarlyFinish: {0}", task.PrimaveraProperties.RemainingEarlyFinish);
+}
 ```
 
 ### See Also

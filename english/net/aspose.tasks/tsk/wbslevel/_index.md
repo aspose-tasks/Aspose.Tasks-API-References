@@ -3,7 +3,7 @@ title: WBSLevel
 second_title: Aspose.Tasks for .NET API Reference
 description: The rightmost WBS level of a task.
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.tasks/tsk/wbslevel/
 ---
 ## Tsk.WBSLevel field

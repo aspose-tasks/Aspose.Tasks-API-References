@@ -3,7 +3,7 @@ title: Work
 second_title: Aspose.Tasks for .NET API Reference
 description: The total time scheduled on a task for all assigned resources.
 type: docs
-weight: 1160
+weight: 1170
 url: /net/aspose.tasks/tsk/work/
 ---
 ## Tsk.Work field

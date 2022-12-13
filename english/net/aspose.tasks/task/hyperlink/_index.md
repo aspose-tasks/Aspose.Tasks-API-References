@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Hyperlink.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.tasks/task/hyperlink/
 ---
 ## Task.Hyperlink property

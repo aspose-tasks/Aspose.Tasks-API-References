@@ -3,7 +3,7 @@ title: IgnoreWarnings
 second_title: Aspose.Tasks for .NET API Reference
 description: Indicates whether to hide the schedule conflict warning indicator in Microsoft Project.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.tasks/tsk/ignorewarnings/
 ---
 ## Tsk.IgnoreWarnings field

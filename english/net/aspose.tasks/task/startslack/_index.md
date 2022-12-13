@@ -3,7 +3,7 @@ title: StartSlack
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of StartSlack.
 type: docs
-weight: 1130
+weight: 1140
 url: /net/aspose.tasks/task/startslack/
 ---
 ## Task.StartSlack property

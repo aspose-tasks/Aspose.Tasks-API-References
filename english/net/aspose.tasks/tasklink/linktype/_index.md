@@ -3,7 +3,7 @@ title: LinkType
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the type of a link.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.tasks/tasklink/linktype/
 ---
 ## TaskLink.LinkType property

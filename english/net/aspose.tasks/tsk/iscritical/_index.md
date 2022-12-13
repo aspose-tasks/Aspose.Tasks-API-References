@@ -3,7 +3,7 @@ title: IsCritical
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a task is on the critical path.
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.tasks/tsk/iscritical/
 ---
 ## Tsk.IsCritical field

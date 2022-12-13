@@ -3,7 +3,7 @@ title: IsResumeValid
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a task can be resumed.
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.tasks/tsk/isresumevalid/
 ---
 ## Tsk.IsResumeValid field

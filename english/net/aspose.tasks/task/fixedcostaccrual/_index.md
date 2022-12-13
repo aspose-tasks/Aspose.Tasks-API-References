@@ -3,7 +3,7 @@ title: FixedCostAccrual
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of FixedCostAccrual.
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.tasks/task/fixedcostaccrual/
 ---
 ## Task.FixedCostAccrual property
