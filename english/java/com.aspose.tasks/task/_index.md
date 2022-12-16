@@ -100,6 +100,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [getExtendedAttributes()](#getExtendedAttributes--) | Gets ExtendedAttributeCollection object containing the values of an extended attribute. |
 | [getExternalId()](#getExternalId--) | Gets a value of ExternalId. |
 | [getExternalTaskProject()](#getExternalTaskProject--) | Gets a value of ExternalTaskProject. |
+| [getExternalUid()](#getExternalUid--) | Gets the external task's Unique identifier when the task is external. |
 | [getFinish()](#getFinish--) | Gets a value of Finish. |
 | [getFinishSlack()](#getFinishSlack--) | Gets a value of FinishSlack. |
 | [getFinishText()](#getFinishText--) | Gets a value of FinishText. |
@@ -243,6 +244,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [setExternalId(int value)](#setExternalId-int-) | Sets a value of ExternalId. |
 | [setExternalTask(boolean value)](#setExternalTask-boolean-) | Sets a value indicating whether IsExternalTask is set or not. |
 | [setExternalTaskProject(String value)](#setExternalTaskProject-java.lang.String-) | Sets a value of ExternalTaskProject. |
+| [setExternalUid(int value)](#setExternalUid-int-) | Set the external task's Unique identifier when the task is external. |
 | [setFinish(Date value)](#setFinish-java.util.Date-) | Sets a value of Finish. |
 | [setFinishSlack(double value)](#setFinishSlack-double-) | Sets a value of FinishSlack. |
 | [setFinishText(String value)](#setFinishText-java.lang.String-) | Sets a value of FinishText. |
@@ -819,6 +821,16 @@ Gets a value of ExternalTaskProject.
 
 **Returns:**
 java.lang.String - a value of ExternalTaskProject.
+### getExternalUid() {#getExternalUid--}
+```
+public final int getExternalUid()
+```
+
+
+Gets the external task's Unique identifier when the task is external.
+
+**Returns:**
+int - the external task's Unique identifier when the task is external.
 ### getFinish() {#getFinish--}
 ```
 public final Date getFinish()
@@ -2418,6 +2430,19 @@ Sets a value of ExternalTaskProject.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | a value of ExternalTaskProject. |
+
+### setExternalUid(int value) {#setExternalUid-int-}
+```
+public final void setExternalUid(int value)
+```
+
+
+Set the external task's Unique identifier when the task is external.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the external task's Unique identifier when the task is external. |
 
 ### setFinish(Date value) {#setFinish-java.util.Date-}
 ```

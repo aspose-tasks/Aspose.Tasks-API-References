@@ -61,6 +61,7 @@ Represents properties of [Task](../../com.aspose.tasks/task) object.
 | [EARNED_VALUE_METHOD](#EARNED-VALUE-METHOD) | Determines whether the % Complete or Physical % Complete field should be used to calculate budgeted cost of work performed (BCWP). |
 | [EXTERNAL_ID](#EXTERNAL-ID) | If a task is an external task it contains the task's external Id. |
 | [EXTERNAL_TASK_PROJECT](#EXTERNAL-TASK-PROJECT) | The source location and task identifier of an external task. |
+| [EXTERNAL_UID](#EXTERNAL-UID) | Contains the external task's Unique identifier when the task is external. |
 | [FINISH](#FINISH) | The scheduled finish date of a task. |
 | [FINISH_SLACK_TIME_SPAN](#FINISH-SLACK-TIME-SPAN) | The duration (in seconds) between the Early Finish and Late Finish dates. |
 | [FINISH_TEXT](#FINISH-TEXT) | Returns the task's finish text. |
@@ -469,6 +470,14 @@ public static final Key<String,Integer> EXTERNAL_TASK_PROJECT
 
 
 The source location and task identifier of an external task.
+
+### EXTERNAL_UID {#EXTERNAL-UID}
+```
+public static final Key<Integer,Integer> EXTERNAL_UID
+```
+
+
+Contains the external task's Unique identifier when the task is external.
 
 ### FINISH {#FINISH}
 ```

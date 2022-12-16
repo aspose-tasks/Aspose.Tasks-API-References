@@ -58,6 +58,7 @@ Represents a list of supported task fields.
 | [ExternalId](#ExternalId) | Represents the ExternalId (Task) field. |
 | [ExternalKey](#ExternalKey) | Represents the ExternalKey (Task) field. |
 | [ExternalTaskProject](#ExternalTaskProject) | Represents the ExternalTaskProject (Task) field. |
+| [ExternalUid](#ExternalUid) | Represents the Unique Id of external task. |
 | [Finish](#Finish) | Represents the Finish (Task) field. |
 | [FinishSlack](#FinishSlack) | Represents the FinishSlack (Task) field. |
 | [FinishSlackTimeSpan](#FinishSlackTimeSpan) | Represents the FinishSlack (Task) field. |
@@ -468,6 +469,14 @@ public static final int ExternalTaskProject
 
 
 Represents the ExternalTaskProject (Task) field.
+
+### ExternalUid {#ExternalUid}
+```
+public static final int ExternalUid
+```
+
+
+Represents the Unique Id of external task.
 
 ### Finish {#Finish}
 ```
