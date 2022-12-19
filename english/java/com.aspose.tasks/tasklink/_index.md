@@ -25,7 +25,8 @@ Represents a predecessor link.
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [getCrossProjectName()](#getCrossProjectName--) | Gets the external predecessor project. |
 | [getLagFormat()](#getLagFormat--) | Gets the format for expressing the lag format. |
-| [getLinkLag()](#getLinkLag--) | Gets the amount of lag in tenths of a minute or percentage. |
+| [getLinkLag()](#getLinkLag--) | Gets the lag in tenths of a minute or percentage. |
+| [getLinkLagTimeSpan()](#getLinkLagTimeSpan--) | Gets lag duration, depending on LagFormat. |
 | [getLinkType()](#getLinkType--) | Gets the type of a link. |
 | [getPredTask()](#getPredTask--) | Gets the predecessor task. |
 | [getSuccTask()](#getSuccTask--) | Gets the successor task. |
@@ -34,7 +35,8 @@ Represents a predecessor link.
 | [setCrossProject(boolean value)](#setCrossProject-boolean-) | Sets a value indicating whether a predecessor is part of another project. |
 | [setCrossProjectName(String value)](#setCrossProjectName-java.lang.String-) | Sets the external predecessor project. |
 | [setLagFormat(int value)](#setLagFormat-int-) | Sets the format for expressing the lag format. |
-| [setLinkLag(int value)](#setLinkLag-int-) | Sets the amount of lag in tenths of a minute or percentage. |
+| [setLinkLag(int value)](#setLinkLag-int-) | Sets the lag in tenths of a minute or percentage. |
+| [setLinkLagTimeSpan(double value)](#setLinkLagTimeSpan-double-) | Sets lag duration, depending on LagFormat. |
 | [setLinkType(int value)](#setLinkType-int-) | Sets the type of a link. |
 | [setPredTask(Task value)](#setPredTask-com.aspose.tasks.Task-) | Sets the predecessor task. |
 | [setSuccTask(Task value)](#setSuccTask-com.aspose.tasks.Task-) | Sets the successor task. |
@@ -95,10 +97,20 @@ public final int getLinkLag()
 ```
 
 
-Gets the amount of lag in tenths of a minute or percentage.
+Gets the lag in tenths of a minute or percentage.
 
 **Returns:**
-int - the amount of lag in tenths of a minute or percentage.
+int - the lag in tenths of a minute or percentage.
+### getLinkLagTimeSpan() {#getLinkLagTimeSpan--}
+```
+public final double getLinkLagTimeSpan()
+```
+
+
+Gets lag duration, depending on LagFormat.
+
+**Returns:**
+double - lag duration, depending on LagFormat.
 ### getLinkType() {#getLinkType--}
 ```
 public final int getLinkType()
@@ -194,12 +206,25 @@ public final void setLinkLag(int value)
 ```
 
 
-Sets the amount of lag in tenths of a minute or percentage.
+Sets the lag in tenths of a minute or percentage.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the amount of lag in tenths of a minute or percentage. |
+| value | int | the lag in tenths of a minute or percentage. |
+
+### setLinkLagTimeSpan(double value) {#setLinkLagTimeSpan-double-}
+```
+public final void setLinkLagTimeSpan(double value)
+```
+
+
+Sets lag duration, depending on LagFormat.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | lag duration, depending on LagFormat. |
 
 ### setLinkType(int value) {#setLinkType-int-}
 ```
