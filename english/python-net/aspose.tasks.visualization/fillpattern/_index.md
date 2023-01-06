@@ -29,6 +29,6 @@ Fill pattern used in middle shape of a gantt bar.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](../../aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

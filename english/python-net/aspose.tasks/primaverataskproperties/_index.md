@@ -28,6 +28,6 @@ The PrimaveraTaskProperties type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/python-net/aspose.tasks/)
+* namespace [aspose.tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

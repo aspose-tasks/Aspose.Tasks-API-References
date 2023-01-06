@@ -19,6 +19,6 @@ Specifies the encryption algorithm to use for encrypting a PDF document.
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](../../aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

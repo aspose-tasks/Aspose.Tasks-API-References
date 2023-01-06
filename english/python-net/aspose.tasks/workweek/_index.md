@@ -15,7 +15,7 @@ The WorkWeek type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WorkWeek()|Initializes a new instance of the [WorkWeek](/python-net/aspose.tasks/workweek/) class.|
+|WorkWeek()|Initializes a new instance of the [WorkWeek](../../aspose.tasks/workweek/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The WorkWeek type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/python-net/aspose.tasks/)
+* namespace [aspose.tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

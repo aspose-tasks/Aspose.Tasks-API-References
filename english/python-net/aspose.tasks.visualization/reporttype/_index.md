@@ -33,6 +33,6 @@ Type of the project's graphical report.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](../../aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

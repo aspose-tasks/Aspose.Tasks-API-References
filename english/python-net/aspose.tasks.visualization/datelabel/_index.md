@@ -167,6 +167,6 @@ Specifies the display format for date and time labels in a timescale.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](../../aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

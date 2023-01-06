@@ -26,6 +26,6 @@ Specifies the calendar exception type.
 
 ### See Also
 
-* namespace [aspose.tasks](/python-net/aspose.tasks/)
+* namespace [aspose.tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -22,6 +22,6 @@ Represents an ordinal number in the instance of
 
 ### See Also
 
-* namespace [aspose.tasks](/python-net/aspose.tasks/)
+* namespace [aspose.tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

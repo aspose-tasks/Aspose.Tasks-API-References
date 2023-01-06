@@ -15,7 +15,7 @@ The Project type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Project()|Initializes a new instance of the [Project](/python-net/aspose.tasks/project/) class.|
+|Project()|Initializes a new instance of the [Project](../../aspose.tasks/project/) class.|
 |Project(project_template, protection_password)|Initializes a new instance of the Project class|
 |Project(project_template)|Initializes a new instance of the Project class|
 |Project(stream, options)|Initializes a new instance of the Project class|
@@ -190,6 +190,6 @@ The Project type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/python-net/aspose.tasks/)
+* namespace [aspose.tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

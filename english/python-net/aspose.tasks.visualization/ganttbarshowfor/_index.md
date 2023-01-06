@@ -115,6 +115,6 @@ Represents categories of tasks used when customizing Bar Styles of Gantt chart.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](../../aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 
