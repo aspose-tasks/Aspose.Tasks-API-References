@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 200
-url: /tasks/python-net/aspose.tasks.saving/csvtextdelimiter/
+url: /python-net/aspose.tasks.saving/csvtextdelimiter/
 ---
 
 ## CsvTextDelimiter enumeration
@@ -21,6 +21,6 @@ Text delimiter for CSV format.
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

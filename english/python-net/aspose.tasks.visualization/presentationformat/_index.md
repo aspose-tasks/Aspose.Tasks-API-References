@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 430
-url: /tasks/python-net/aspose.tasks.visualization/presentationformat/
+url: /python-net/aspose.tasks.visualization/presentationformat/
 ---
 
 ## PresentationFormat enumeration
@@ -22,6 +22,6 @@ Enumeration for presentation format.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

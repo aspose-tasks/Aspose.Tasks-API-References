@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2190
-url: /tasks/python-net/aspose.tasks/bookingtype/
+url: /python-net/aspose.tasks/bookingtype/
 ---
 
 ## BookingType enumeration
@@ -20,6 +20,6 @@ Specifies the booking type of a resource.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

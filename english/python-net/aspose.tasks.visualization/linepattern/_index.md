@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 410
-url: /tasks/python-net/aspose.tasks.visualization/linepattern/
+url: /python-net/aspose.tasks.visualization/linepattern/
 ---
 
 ## LinePattern enumeration
@@ -22,6 +22,6 @@ Line pattern.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

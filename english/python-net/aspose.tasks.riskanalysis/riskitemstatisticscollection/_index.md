@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /tasks/python-net/aspose.tasks.riskanalysis/riskitemstatisticscollection/
+url: /python-net/aspose.tasks.riskanalysis/riskitemstatisticscollection/
 ---
 
 ## RiskItemStatisticsCollection class
@@ -19,6 +19,6 @@ The RiskItemStatisticsCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.riskanalysis](/tasks/python-net/aspose.tasks.riskanalysis/)
+* namespace [aspose.tasks.riskanalysis](/python-net/aspose.tasks.riskanalysis/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2260
-url: /tasks/python-net/aspose.tasks/customfieldtype/
+url: /python-net/aspose.tasks/customfieldtype/
 ---
 
 ## CustomFieldType enumeration
@@ -28,6 +28,6 @@ Specifies the type of a custom field.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

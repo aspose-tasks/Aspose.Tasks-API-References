@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /tasks/python-net/aspose.tasks.properties/custompropertytype/
+url: /python-net/aspose.tasks.properties/custompropertytype/
 ---
 
 ## CustomPropertyType enumeration
@@ -22,6 +22,6 @@ Represents a custom property type enumeration.
 
 ### See Also
 
-* namespace [aspose.tasks.properties](/tasks/python-net/aspose.tasks.properties/)
+* namespace [aspose.tasks.properties](/python-net/aspose.tasks.properties/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

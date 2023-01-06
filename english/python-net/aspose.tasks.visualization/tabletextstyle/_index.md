@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 190
-url: /tasks/python-net/aspose.tasks.visualization/tabletextstyle/
+url: /python-net/aspose.tasks.visualization/tabletextstyle/
 ---
 
 ## TableTextStyle class
@@ -24,7 +24,7 @@ The TableTextStyle type exposes the following members:
 | :- | :- |
 |font|Gets or sets font of the text style.|
 |color|Gets or sets color of the text.|
-|item_type|Returns a value of the [TextItemType](/tasks/python-net/aspose.tasks.visualization/textitemtype/) enum.|
+|item_type|Returns a value of the [TextItemType](/python-net/aspose.tasks.visualization/textitemtype/) enum.|
 |background_pattern|Gets or sets background pattern of the text style.|
 |background_color|Gets or sets background color of the text style.|
 |row_uid|Gets a row unique id.|
@@ -32,6 +32,6 @@ The TableTextStyle type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

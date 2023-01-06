@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2210
-url: /tasks/python-net/aspose.tasks/calculationtype/
+url: /python-net/aspose.tasks/calculationtype/
 ---
 
 ## CalculationType enumeration
@@ -20,6 +20,6 @@ Specifies the type of a calculation of the custom attribute's value.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

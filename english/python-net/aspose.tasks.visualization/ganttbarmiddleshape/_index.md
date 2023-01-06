@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 340
-url: /tasks/python-net/aspose.tasks.visualization/ganttbarmiddleshape/
+url: /python-net/aspose.tasks.visualization/ganttbarmiddleshape/
 ---
 
 ## GanttBarMiddleShape enumeration
@@ -25,6 +25,6 @@ Specifies the middle shape of a bar.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

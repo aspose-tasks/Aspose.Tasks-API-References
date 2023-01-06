@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /tasks/python-net/aspose.tasks.saving/imagesaveoptions/
+url: /python-net/aspose.tasks.saving/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class
@@ -53,6 +53,6 @@ The ImageSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

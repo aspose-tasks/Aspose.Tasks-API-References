@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2680
-url: /tasks/python-net/aspose.tasks/timeunittype/
+url: /python-net/aspose.tasks/timeunittype/
 ---
 
 ## TimeUnitType enumeration
@@ -44,6 +44,6 @@ Specifies the type of a time unit.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

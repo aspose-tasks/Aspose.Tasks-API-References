@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 300
-url: /tasks/python-net/aspose.tasks.visualization/fillpattern/
+url: /python-net/aspose.tasks.visualization/fillpattern/
 ---
 
 ## FillPattern enumeration
@@ -29,6 +29,6 @@ Fill pattern used in middle shape of a gantt bar.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

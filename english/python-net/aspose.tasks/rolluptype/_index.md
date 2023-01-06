@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2600
-url: /tasks/python-net/aspose.tasks/rolluptype/
+url: /python-net/aspose.tasks/rolluptype/
 ---
 
 ## RollupType enumeration
@@ -26,6 +26,6 @@ Specifies the rollup type.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

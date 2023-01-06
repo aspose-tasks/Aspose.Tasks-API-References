@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /tasks/python-net/aspose.tasks.properties/customprojectproperty/
+url: /python-net/aspose.tasks.properties/customprojectproperty/
 ---
 
 ## CustomProjectProperty class
@@ -21,6 +21,6 @@ The CustomProjectProperty type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.properties](/tasks/python-net/aspose.tasks.properties/)
+* namespace [aspose.tasks.properties](/python-net/aspose.tasks.properties/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

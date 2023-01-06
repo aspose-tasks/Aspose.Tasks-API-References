@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 760
-url: /tasks/python-net/aspose.tasks/projectinfo/
+url: /python-net/aspose.tasks/projectinfo/
 ---
 
 ## ProjectInfo class
@@ -15,7 +15,7 @@ The ProjectInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectInfo()|Initializes a new instance of the [ProjectInfo](/tasks/python-net/aspose.tasks/projectinfo/) class.|
+|ProjectInfo()|Initializes a new instance of the [ProjectInfo](/python-net/aspose.tasks/projectinfo/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -29,6 +29,6 @@ The ProjectInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

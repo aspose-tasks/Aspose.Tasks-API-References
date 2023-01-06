@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /tasks/python-net/aspose.tasks.connectivity/mspdbsettings/
+url: /python-net/aspose.tasks.connectivity/mspdbsettings/
 ---
 
 ## MspDbSettings class
@@ -26,6 +26,6 @@ The MspDbSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.connectivity](/tasks/python-net/aspose.tasks.connectivity/)
+* namespace [aspose.tasks.connectivity](/python-net/aspose.tasks.connectivity/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

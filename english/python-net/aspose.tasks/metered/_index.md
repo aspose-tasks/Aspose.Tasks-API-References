@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 520
-url: /tasks/python-net/aspose.tasks/metered/
+url: /python-net/aspose.tasks/metered/
 ---
 
 ## Metered class
@@ -26,6 +26,6 @@ The Metered type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

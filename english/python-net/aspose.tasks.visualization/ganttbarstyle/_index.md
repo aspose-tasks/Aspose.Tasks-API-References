@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /tasks/python-net/aspose.tasks.visualization/ganttbarstyle/
+url: /python-net/aspose.tasks.visualization/ganttbarstyle/
 ---
 
 ## GanttBarStyle class
@@ -15,7 +15,7 @@ The GanttBarStyle type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GanttBarStyle()|Initializes a new instance of the [GanttBarStyle](/tasks/python-net/aspose.tasks.visualization/ganttbarstyle/) class.|
+|GanttBarStyle()|Initializes a new instance of the [GanttBarStyle](/python-net/aspose.tasks.visualization/ganttbarstyle/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -43,6 +43,6 @@ The GanttBarStyle type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

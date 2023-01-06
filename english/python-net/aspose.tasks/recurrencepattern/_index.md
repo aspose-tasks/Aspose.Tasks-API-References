@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2560
-url: /tasks/python-net/aspose.tasks/recurrencepattern/
+url: /python-net/aspose.tasks/recurrencepattern/
 ---
 
 ## RecurrencePattern enumeration
@@ -21,6 +21,6 @@ Represents a type of recurrence pattern of a recurrent task.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

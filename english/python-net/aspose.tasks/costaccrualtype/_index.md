@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2240
-url: /tasks/python-net/aspose.tasks/costaccrualtype/
+url: /python-net/aspose.tasks/costaccrualtype/
 ---
 
 ## CostAccrualType enumeration
@@ -22,6 +22,6 @@ Specifies the type of an accrual cost.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

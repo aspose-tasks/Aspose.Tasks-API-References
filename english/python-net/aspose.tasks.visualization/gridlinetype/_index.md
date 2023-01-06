@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 370
-url: /tasks/python-net/aspose.tasks.visualization/gridlinetype/
+url: /python-net/aspose.tasks.visualization/gridlinetype/
 ---
 
 ## GridlineType enumeration
@@ -33,6 +33,6 @@ Type of gridline.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /tasks/python-net/aspose.tasks.util/checkcircuit/
+url: /python-net/aspose.tasks.util/checkcircuit/
 ---
 
 ## CheckCircuit class
@@ -25,6 +25,6 @@ The CheckCircuit type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.util](/tasks/python-net/aspose.tasks.util/)
+* namespace [aspose.tasks.util](/python-net/aspose.tasks.util/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

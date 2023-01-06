@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 220
-url: /tasks/python-net/aspose.tasks.saving/pdfcompliance/
+url: /python-net/aspose.tasks.saving/pdfcompliance/
 ---
 
 ## PdfCompliance enumeration
@@ -20,6 +20,6 @@ Specifies the PDF compliance level to output file.
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

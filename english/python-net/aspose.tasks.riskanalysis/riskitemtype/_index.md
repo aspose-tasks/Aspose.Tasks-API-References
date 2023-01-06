@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /tasks/python-net/aspose.tasks.riskanalysis/riskitemtype/
+url: /python-net/aspose.tasks.riskanalysis/riskitemtype/
 ---
 
 ## RiskItemType enumeration
@@ -23,6 +23,6 @@ Specifies task fields for which the statistical information is gathered during r
 
 ### See Also
 
-* namespace [aspose.tasks.riskanalysis](/tasks/python-net/aspose.tasks.riskanalysis/)
+* namespace [aspose.tasks.riskanalysis](/python-net/aspose.tasks.riskanalysis/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2300
-url: /tasks/python-net/aspose.tasks/earnedvaluemethodtype/
+url: /python-net/aspose.tasks/earnedvaluemethodtype/
 ---
 
 ## EarnedValueMethodType enumeration
@@ -20,6 +20,6 @@ Specifies the method used for calculating earned value.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

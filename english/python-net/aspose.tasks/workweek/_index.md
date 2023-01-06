@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 1430
-url: /tasks/python-net/aspose.tasks/workweek/
+url: /python-net/aspose.tasks/workweek/
 ---
 
 ## WorkWeek class
@@ -15,7 +15,7 @@ The WorkWeek type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WorkWeek()|Initializes a new instance of the [WorkWeek](/tasks/python-net/aspose.tasks/workweek/) class.|
+|WorkWeek()|Initializes a new instance of the [WorkWeek](/python-net/aspose.tasks/workweek/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The WorkWeek type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

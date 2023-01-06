@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 700
-url: /tasks/python-net/aspose.tasks/primaveraxerreader/
+url: /python-net/aspose.tasks/primaveraxerreader/
 ---
 
 ## PrimaveraXerReader class
@@ -24,6 +24,6 @@ The PrimaveraXerReader type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

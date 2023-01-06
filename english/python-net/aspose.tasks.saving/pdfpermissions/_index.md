@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 250
-url: /tasks/python-net/aspose.tasks.saving/pdfpermissions/
+url: /python-net/aspose.tasks.saving/pdfpermissions/
 ---
 
 ## PdfPermissions enumeration
@@ -27,6 +27,6 @@ Specifies permissions to use for accessing a PDF document.
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

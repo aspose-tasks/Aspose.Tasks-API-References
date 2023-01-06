@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 480
-url: /tasks/python-net/aspose.tasks.visualization/timescale/
+url: /python-net/aspose.tasks.visualization/timescale/
 ---
 
 ## Timescale enumeration
@@ -21,6 +21,6 @@ Defines options which specifies how to render timescale in Gantt Chart, Task Usa
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

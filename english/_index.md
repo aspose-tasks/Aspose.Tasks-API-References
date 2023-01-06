@@ -1,7 +1,7 @@
 ---
 title: Aspose.Tasks Product Family
 additionalTitle: Aspose API References
-description: "Aspose.Tasks Product Family is a set of libraries that enables .NET/Java/C++ applications to create, modify, convert, and print MPP, Primavera XML files."
+description: "Aspose.Tasks Product Family is a set of libraries that enables .NET/Java/C++/Python applications to create, modify, convert, and print MPP, Primavera XML files."
 type: docs
 weight: 10
 url: /
@@ -20,7 +20,7 @@ With Aspose.Tasks for .NET, it is possible to program with Microsoft Project (MP
 {{% /alert %}}
 
 These are links to some useful resources:
-- [Aspose.Tasks for .NET API Reference](/tasks/net/)
+- [Aspose.Tasks for .NET API Reference](./net/)
 
 ## Aspose.Tasks for Java
 
@@ -33,7 +33,7 @@ Aspose.Tasks for Java is a class library that enables Java application developer
 {{% /alert %}}
 
 These are links to some useful resources:
-- [Aspose.Tasks for Java API Reference](/tasks/java/)
+- [Aspose.Tasks for Java API Reference](./java/)
 
 ## Aspose.Tasks for C++
 
@@ -46,18 +46,18 @@ Aspose.Tasks for C++ is a native class library that enables C++ applications to 
 {{% /alert %}}
 
 These are links to some useful resources:
-- [Aspose.Tasks for C++ API Reference](/tasks/cpp/)
+- [Aspose.Tasks for C++ API Reference](./cpp/)
 
 ## Aspose.Tasks for Python via .NET
 
 {{% alert color="primary" %}}
 
-![Aspose.Tasks for Python via .NET Product Logo](home_4.png)
+![Aspose.Tasks for Python via .NET Product Logo](https://docs.aspose.com/tasks/home_4.png)
 
 Aspose.Tasks for Python via .NET is a native class library that enables Python applications to read and write MPP/XML files without using Microsoft Project. The component provides an easy to use API for manipulating project files, saving time and money compared to developing similar features from scratch.
 
 {{% /alert %}}
 
 These are links to some useful resources:
-- [Aspose.Tasks for Python via .NET API Reference](/tasks/python-net/)
+- [Aspose.Tasks for Python via .NET API Reference](./python-net/)
 

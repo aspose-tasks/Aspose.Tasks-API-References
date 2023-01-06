@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 240
-url: /tasks/python-net/aspose.tasks/dailyrepetitionbase/
+url: /python-net/aspose.tasks/dailyrepetitionbase/
 ---
 
 ## DailyRepetitionBase class
@@ -19,6 +19,6 @@ The DailyRepetitionBase type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

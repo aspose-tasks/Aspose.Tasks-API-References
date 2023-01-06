@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 1180
-url: /tasks/python-net/aspose.tasks/timephaseddata/
+url: /python-net/aspose.tasks/timephaseddata/
 ---
 
 ## TimephasedData class
@@ -37,6 +37,6 @@ The TimephasedData type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

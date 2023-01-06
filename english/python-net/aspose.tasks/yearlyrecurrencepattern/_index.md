@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 1470
-url: /tasks/python-net/aspose.tasks/yearlyrecurrencepattern/
+url: /python-net/aspose.tasks/yearlyrecurrencepattern/
 ---
 
 ## YearlyRecurrencePattern class
@@ -15,7 +15,7 @@ The YearlyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|YearlyRecurrencePattern()|Initializes a new instance of the [YearlyRecurrencePattern](/tasks/python-net/aspose.tasks/yearlyrecurrencepattern/) class.|
+|YearlyRecurrencePattern()|Initializes a new instance of the [YearlyRecurrencePattern](/python-net/aspose.tasks/yearlyrecurrencepattern/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The YearlyRecurrencePattern type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

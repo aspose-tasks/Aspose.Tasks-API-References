@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2360
-url: /tasks/python-net/aspose.tasks/filtercomparisontype/
+url: /python-net/aspose.tasks/filtercomparisontype/
 ---
 
 ## FilterComparisonType enumeration
@@ -30,6 +30,6 @@ The type of comparison made between FieldName and Value that acts as selection c
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

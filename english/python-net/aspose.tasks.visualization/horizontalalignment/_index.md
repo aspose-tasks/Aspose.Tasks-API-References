@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 380
-url: /tasks/python-net/aspose.tasks.visualization/horizontalalignment/
+url: /python-net/aspose.tasks.visualization/horizontalalignment/
 ---
 
 ## HorizontalAlignment enumeration
@@ -19,6 +19,6 @@ Specifies how an object or text is horizontally aligned relative to another obje
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

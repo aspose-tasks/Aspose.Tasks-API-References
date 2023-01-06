@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 290
-url: /tasks/python-net/aspose.tasks.visualization/datelabel/
+url: /python-net/aspose.tasks.visualization/datelabel/
 ---
 
 ## DateLabel enumeration
@@ -167,6 +167,6 @@ Specifies the display format for date and time labels in a timescale.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

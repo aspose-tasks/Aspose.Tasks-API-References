@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2500
-url: /tasks/python-net/aspose.tasks/ordinalnumber/
+url: /python-net/aspose.tasks/ordinalnumber/
 ---
 
 ## OrdinalNumber enumeration
@@ -22,6 +22,6 @@ Represents an ordinal number in the instance of
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

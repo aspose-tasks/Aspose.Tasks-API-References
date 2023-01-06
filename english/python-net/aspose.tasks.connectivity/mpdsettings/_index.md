@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /tasks/python-net/aspose.tasks.connectivity/mpdsettings/
+url: /python-net/aspose.tasks.connectivity/mpdsettings/
 ---
 
 ## MpdSettings class
@@ -25,6 +25,6 @@ The MpdSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.connectivity](/tasks/python-net/aspose.tasks.connectivity/)
+* namespace [aspose.tasks.connectivity](/python-net/aspose.tasks.connectivity/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

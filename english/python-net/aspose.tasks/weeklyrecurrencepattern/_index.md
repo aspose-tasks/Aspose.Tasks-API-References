@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 1390
-url: /tasks/python-net/aspose.tasks/weeklyrecurrencepattern/
+url: /python-net/aspose.tasks/weeklyrecurrencepattern/
 ---
 
 ## WeeklyRecurrencePattern class
@@ -24,6 +24,6 @@ The WeeklyRecurrencePattern type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /tasks/python-net/aspose.tasks.riskanalysis/riskanalysisresult/
+url: /python-net/aspose.tasks.riskanalysis/riskanalysisresult/
 ---
 
 ## RiskAnalysisResult class
@@ -21,6 +21,6 @@ The RiskAnalysisResult type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.riskanalysis](/tasks/python-net/aspose.tasks.riskanalysis/)
+* namespace [aspose.tasks.riskanalysis](/python-net/aspose.tasks.riskanalysis/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

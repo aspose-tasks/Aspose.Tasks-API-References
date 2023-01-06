@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /tasks/python-net/aspose.tasks.connectivity/dbsettings/
+url: /python-net/aspose.tasks.connectivity/dbsettings/
 ---
 
 ## DbSettings class
@@ -20,6 +20,6 @@ The DbSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.connectivity](/tasks/python-net/aspose.tasks.connectivity/)
+* namespace [aspose.tasks.connectivity](/python-net/aspose.tasks.connectivity/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

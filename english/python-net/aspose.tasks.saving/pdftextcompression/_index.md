@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 260
-url: /tasks/python-net/aspose.tasks.saving/pdftextcompression/
+url: /python-net/aspose.tasks.saving/pdftextcompression/
 ---
 
 ## PdfTextCompression enumeration
@@ -19,6 +19,6 @@ Specifies a type of compression applied to all content in the PDF file except im
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

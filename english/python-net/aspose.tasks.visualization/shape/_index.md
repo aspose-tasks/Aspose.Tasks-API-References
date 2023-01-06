@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 460
-url: /tasks/python-net/aspose.tasks.visualization/shape/
+url: /python-net/aspose.tasks.visualization/shape/
 ---
 
 ## Shape enumeration
@@ -27,6 +27,6 @@ Shape of a marker at the beginning or end of the bar style to be rendered when s
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

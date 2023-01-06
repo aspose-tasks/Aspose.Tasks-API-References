@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 210
-url: /tasks/python-net/aspose.tasks.saving/datacategory/
+url: /python-net/aspose.tasks.saving/datacategory/
 ---
 
 ## DataCategory enumeration
@@ -20,6 +20,6 @@ The category of data used when saving to CSV.
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

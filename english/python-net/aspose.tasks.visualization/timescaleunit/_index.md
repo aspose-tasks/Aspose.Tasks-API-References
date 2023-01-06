@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 490
-url: /tasks/python-net/aspose.tasks.visualization/timescaleunit/
+url: /python-net/aspose.tasks.visualization/timescaleunit/
 ---
 
 ## TimescaleUnit enumeration
@@ -27,6 +27,6 @@ Specifies the unit of time for any tier of a timescale in a Gantt chart or other
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

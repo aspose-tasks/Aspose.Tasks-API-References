@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /tasks/python-net/aspose.tasks.visualization/barstyle/
+url: /python-net/aspose.tasks.visualization/barstyle/
 ---
 
 ## BarStyle class
@@ -35,6 +35,6 @@ The BarStyle type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

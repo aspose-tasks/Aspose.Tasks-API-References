@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 420
-url: /tasks/python-net/aspose.tasks.visualization/pagesize/
+url: /python-net/aspose.tasks.visualization/pagesize/
 ---
 
 ## PageSize enumeration
@@ -25,6 +25,6 @@ Specifies page size.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

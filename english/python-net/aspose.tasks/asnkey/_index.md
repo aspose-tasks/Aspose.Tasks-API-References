@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2160
-url: /tasks/python-net/aspose.tasks/asnkey/
+url: /python-net/aspose.tasks/asnkey/
 ---
 
 ## AsnKey enumeration
@@ -82,6 +82,6 @@ Represents a list of supported  assignment fields.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

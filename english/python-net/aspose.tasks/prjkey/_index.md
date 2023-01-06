@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2520
-url: /tasks/python-net/aspose.tasks/prjkey/
+url: /python-net/aspose.tasks/prjkey/
 ---
 
 ## PrjKey enumeration
@@ -98,6 +98,6 @@ Represents a list of supported project fields.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

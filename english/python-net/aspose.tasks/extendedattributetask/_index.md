@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2330
-url: /tasks/python-net/aspose.tasks/extendedattributetask/
+url: /python-net/aspose.tasks/extendedattributetask/
 ---
 
 ## ExtendedAttributeTask enumeration
@@ -147,6 +147,6 @@ Specifies the extended attributes FieldId used in a task.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

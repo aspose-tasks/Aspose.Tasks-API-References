@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /tasks/python-net/aspose.tasks.riskanalysis/probabilitydistributiontype/
+url: /python-net/aspose.tasks.riskanalysis/probabilitydistributiontype/
 ---
 
 ## ProbabilityDistributionType enumeration
@@ -19,6 +19,6 @@ Specifies types of supported probability distributions.
 
 ### See Also
 
-* namespace [aspose.tasks.riskanalysis](/tasks/python-net/aspose.tasks.riskanalysis/)
+* namespace [aspose.tasks.riskanalysis](/python-net/aspose.tasks.riskanalysis/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

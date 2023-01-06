@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2340
-url: /tasks/python-net/aspose.tasks/field/
+url: /python-net/aspose.tasks/field/
 ---
 
 ## Field enumeration
@@ -1368,6 +1368,6 @@ Specifies a field in the Microsoft Office Project.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

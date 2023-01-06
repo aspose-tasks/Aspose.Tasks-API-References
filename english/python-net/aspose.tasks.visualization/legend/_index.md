@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 400
-url: /tasks/python-net/aspose.tasks.visualization/legend/
+url: /python-net/aspose.tasks.visualization/legend/
 ---
 
 ## Legend enumeration
@@ -20,6 +20,6 @@ Specifies the pages on which the legend appears.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

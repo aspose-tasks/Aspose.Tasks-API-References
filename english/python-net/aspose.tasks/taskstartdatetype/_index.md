@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 2650
-url: /tasks/python-net/aspose.tasks/taskstartdatetype/
+url: /python-net/aspose.tasks/taskstartdatetype/
 ---
 
 ## TaskStartDateType enumeration
@@ -20,6 +20,6 @@ Specifies the type of a task's start date.
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

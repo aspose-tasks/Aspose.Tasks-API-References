@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 800
-url: /tasks/python-net/aspose.tasks/projectserversaveoptions/
+url: /python-net/aspose.tasks/projectserversaveoptions/
 ---
 
 ## ProjectServerSaveOptions class
@@ -26,6 +26,6 @@ The ProjectServerSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
 weight: 280
-url: /tasks/python-net/aspose.tasks.saving/tiffcompression/
+url: /python-net/aspose.tasks.saving/tiffcompression/
 ---
 
 ## TiffCompression enumeration
@@ -22,6 +22,6 @@ Specifies what type of compression to apply when saving pages to the TIFF format
 
 ### See Also
 
-* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 
