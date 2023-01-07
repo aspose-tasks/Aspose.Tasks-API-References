@@ -1,0 +1,25 @@
+---
+title: DayLabelDisplay
+second_title: Aspose.Sildes for Python via .NET API Reference
+description: 
+type: docs
+weight: 2280
+url: /python-net/aspose.tasks/daylabeldisplay/
+---
+
+## DayLabelDisplay enumeration
+
+Specifies how the day label displays.
+
+## Members
+| Member name | Description |
+| :- | :- |
+|D|Sets the Days list in MS Project as d.|
+|DY|Sets the Days list in MS Project as dy.|
+|DAY|Sets the Days list in MS Project as day.|
+
+### See Also
+
+* namespace [aspose.tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](/tasks/python-net/)
+

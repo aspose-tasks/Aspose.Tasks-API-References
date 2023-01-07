@@ -1,0 +1,25 @@
+---
+title: FilterOperation
+second_title: Aspose.Sildes for Python via .NET API Reference
+description: 
+type: docs
+weight: 2370
+url: /python-net/aspose.tasks/filteroperation/
+---
+
+## FilterOperation enumeration
+
+Specifies how the criterion established with FieldName, FilterComparisonType, and Value relates to other criteria in the filter.
+
+## Members
+| Member name | Description |
+| :- | :- |
+|UNDEFINED|Undefined.|
+|AND|AND operator.|
+|OR|OR operator.|
+
+### See Also
+
+* namespace [aspose.tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](/tasks/python-net/)
+
