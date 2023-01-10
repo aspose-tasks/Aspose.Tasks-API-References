@@ -25,6 +25,6 @@ The MpdSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.connectivity](/python-net/aspose.tasks.connectivity/)
+* namespace [aspose.tasks.connectivity](/tasks/python-net/aspose.tasks.connectivity/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -15,7 +15,7 @@ The CopyToOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CopyToOptions()|Initializes a new instance of the [CopyToOptions](/python-net/aspose.tasks/copytooptions/) class.|
+|CopyToOptions()|Initializes a new instance of the [CopyToOptions](/tasks/python-net/aspose.tasks/copytooptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -23,6 +23,6 @@ The CopyToOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

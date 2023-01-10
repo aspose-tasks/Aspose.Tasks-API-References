@@ -11,9 +11,9 @@ url: /python-net/
 | Namespace | Description |
 | :- | :- |
 |[aspose.tasks](/tasks/python-net/aspose.tasks/)|Contains classes for work with Microsoft Project documents without utilizing Microsoft Project.|
-|[aspose.tasks.connectivity](/python-net/aspose.tasks.connectivity/)|Contains classes for working with Databases.|
-|[aspose.tasks.properties](/python-net/aspose.tasks.properties/)|Contains classes for working with properties.|
-|[aspose.tasks.riskanalysis](/python-net/aspose.tasks.riskanalysis/)|Contains classes for creating Risk Analysis Report.|
-|[aspose.tasks.saving](/python-net/aspose.tasks.saving/)|Contains classes for saving a project to different formats.|
-|[aspose.tasks.util](/python-net/aspose.tasks.util/)|Contains useful static methods.|
-|[aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)|Contains helper classes for rendering.|
+|[aspose.tasks.connectivity](/tasks/python-net/aspose.tasks.connectivity/)|Contains classes for working with Databases.|
+|[aspose.tasks.properties](/tasks/python-net/aspose.tasks.properties/)|Contains classes for working with properties.|
+|[aspose.tasks.riskanalysis](/tasks/python-net/aspose.tasks.riskanalysis/)|Contains classes for creating Risk Analysis Report.|
+|[aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)|Contains classes for saving a project to different formats.|
+|[aspose.tasks.util](/tasks/python-net/aspose.tasks.util/)|Contains useful static methods.|
+|[aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)|Contains helper classes for rendering.|

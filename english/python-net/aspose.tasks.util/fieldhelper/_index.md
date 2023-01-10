@@ -19,6 +19,6 @@ The FieldHelper type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.util](/python-net/aspose.tasks.util/)
+* namespace [aspose.tasks.util](/tasks/python-net/aspose.tasks.util/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

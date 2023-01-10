@@ -21,6 +21,6 @@ Defines options which specifies how to render timescale in Gantt Chart, Task Usa
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

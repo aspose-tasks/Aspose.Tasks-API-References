@@ -20,6 +20,6 @@ Specifies the type of a calculation of the custom attribute's value.
 
 ### See Also
 
-* namespace [aspose.tasks](/python-net/aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

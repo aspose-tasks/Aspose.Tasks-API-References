@@ -13,12 +13,12 @@ Contains classes for working with properties.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[BuiltInProjectProperty](/python-net/aspose.tasks.properties/builtinprojectproperty/)|Represents a built-in property.|
-|[BuiltInProjectPropertyCollection](/python-net/aspose.tasks.properties/builtinprojectpropertycollection/)|Represents a collection of built-in project properties.|
-|[CustomProjectProperty](/python-net/aspose.tasks.properties/customprojectproperty/)|Represents a custom property.|
-|[CustomProjectPropertyCollection](/python-net/aspose.tasks.properties/customprojectpropertycollection/)|Represents a collection of custom project properties.|
-|[Property](/python-net/aspose.tasks.properties/property/)|Represents a base class of a property.|
+|[BuiltInProjectProperty](/tasks/python-net/aspose.tasks.properties/builtinprojectproperty/)|Represents a built-in property.|
+|[BuiltInProjectPropertyCollection](/tasks/python-net/aspose.tasks.properties/builtinprojectpropertycollection/)|Represents a collection of built-in project properties.|
+|[CustomProjectProperty](/tasks/python-net/aspose.tasks.properties/customprojectproperty/)|Represents a custom property.|
+|[CustomProjectPropertyCollection](/tasks/python-net/aspose.tasks.properties/customprojectpropertycollection/)|Represents a collection of custom project properties.|
+|[Property](/tasks/python-net/aspose.tasks.properties/property/)|Represents a base class of a property.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[CustomPropertyType](/python-net/aspose.tasks.properties/custompropertytype/)|Represents a custom property type enumeration.|
+|[CustomPropertyType](/tasks/python-net/aspose.tasks.properties/custompropertytype/)|Represents a custom property type enumeration.|

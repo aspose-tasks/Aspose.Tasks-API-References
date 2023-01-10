@@ -15,7 +15,7 @@ The HeaderFooterInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|HeaderFooterInfo()|Initializes a new instance of the [HeaderFooterInfo](/python-net/aspose.tasks.visualization/headerfooterinfo/) class.|
+|HeaderFooterInfo()|Initializes a new instance of the [HeaderFooterInfo](/tasks/python-net/aspose.tasks.visualization/headerfooterinfo/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -31,6 +31,6 @@ The HeaderFooterInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/tasks/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

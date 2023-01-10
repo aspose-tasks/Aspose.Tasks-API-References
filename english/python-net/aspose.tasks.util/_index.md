@@ -13,9 +13,9 @@ Contains useful static methods.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[CheckCircuit](/python-net/aspose.tasks.util/checkcircuit/)|Checks a tree (of tasks) whether it contains a circuit.|
-|[ChildTasksCollector](/python-net/aspose.tasks.util/childtaskscollector/)|Collects all child tasks.|
-|[FieldHelper](/python-net/aspose.tasks.util/fieldhelper/)|Helper class which provides useful operations with fields.|
-|[ListUtils](/python-net/aspose.tasks.util/listutils/)|Utility class for list processing.|
-|[RemoveTask](/python-net/aspose.tasks.util/removetask/)|Removes the specified task from a tree of tasks.|
-|[TaskUtils](/python-net/aspose.tasks.util/taskutils/)|Helper class which provides useful operations with tasks.|
+|[CheckCircuit](/tasks/python-net/aspose.tasks.util/checkcircuit/)|Checks a tree (of tasks) whether it contains a circuit.|
+|[ChildTasksCollector](/tasks/python-net/aspose.tasks.util/childtaskscollector/)|Collects all child tasks.|
+|[FieldHelper](/tasks/python-net/aspose.tasks.util/fieldhelper/)|Helper class which provides useful operations with fields.|
+|[ListUtils](/tasks/python-net/aspose.tasks.util/listutils/)|Utility class for list processing.|
+|[RemoveTask](/tasks/python-net/aspose.tasks.util/removetask/)|Removes the specified task from a tree of tasks.|
+|[TaskUtils](/tasks/python-net/aspose.tasks.util/taskutils/)|Helper class which provides useful operations with tasks.|
