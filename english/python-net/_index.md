@@ -10,7 +10,7 @@ url: /python-net/
 ## Namespaces
 | Namespace | Description |
 | :- | :- |
-|[aspose.tasks](/python-net/aspose.tasks/)|Contains classes for work with Microsoft Project documents without utilizing Microsoft Project.|
+|[aspose.tasks](/tasks/python-net/aspose.tasks/)|Contains classes for work with Microsoft Project documents without utilizing Microsoft Project.|
 |[aspose.tasks.connectivity](/python-net/aspose.tasks.connectivity/)|Contains classes for working with Databases.|
 |[aspose.tasks.properties](/python-net/aspose.tasks.properties/)|Contains classes for working with properties.|
 |[aspose.tasks.riskanalysis](/python-net/aspose.tasks.riskanalysis/)|Contains classes for creating Risk Analysis Report.|

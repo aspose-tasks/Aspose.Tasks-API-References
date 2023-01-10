@@ -13,7 +13,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 ## Classes
 | Class | Description |
 | :- | :- |
-|[ApsLayoutBuilderOutOfMemoryException](/python-net/aspose.tasks/apslayoutbuilderoutofmemoryexception/)|Represents exception which occurs when there is not enough memory to continue an image layout building.|
+|[ApsLayoutBuilderOutOfMemoryException](/tasks/python-net/aspose.tasks/apslayoutbuilderoutofmemoryexception/)|Represents exception which occurs when there is not enough memory to continue an image layout building.|
 |[Asn](/python-net/aspose.tasks/asn/)|Represents properties of|
 |[AssignmentBaseline](/python-net/aspose.tasks/assignmentbaseline/)|Represents Baseline of a resource assignment.|
 |[AssignmentBaselineCollection](/python-net/aspose.tasks/assignmentbaselinecollection/)|Represents a collection of|
