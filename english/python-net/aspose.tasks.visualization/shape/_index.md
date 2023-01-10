@@ -27,6 +27,6 @@ Shape of a marker at the beginning or end of the bar style to be rendered when s
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](../../aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

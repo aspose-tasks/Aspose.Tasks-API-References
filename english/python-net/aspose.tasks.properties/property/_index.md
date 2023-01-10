@@ -20,6 +20,6 @@ The Property type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.properties](../../aspose.tasks.properties/)
+* namespace [aspose.tasks.properties](/python-net/aspose.tasks.properties/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

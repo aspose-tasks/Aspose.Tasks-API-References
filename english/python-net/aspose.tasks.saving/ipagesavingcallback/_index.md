@@ -20,6 +20,6 @@ The IPageSavingCallback type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.saving](../../aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

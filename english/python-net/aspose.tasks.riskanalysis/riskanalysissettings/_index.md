@@ -15,7 +15,7 @@ The RiskAnalysisSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RiskAnalysisSettings()|Initializes a new instance of the [RiskAnalysisSettings](../../aspose.tasks.riskanalysis/riskanalysissettings/) class.|
+|RiskAnalysisSettings()|Initializes a new instance of the [RiskAnalysisSettings](/python-net/aspose.tasks.riskanalysis/riskanalysissettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The RiskAnalysisSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.riskanalysis](../../aspose.tasks.riskanalysis/)
+* namespace [aspose.tasks.riskanalysis](/python-net/aspose.tasks.riskanalysis/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

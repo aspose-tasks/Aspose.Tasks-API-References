@@ -15,7 +15,7 @@ The ProjectDisplayOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectDisplayOptions()|Initializes a new instance of the [ProjectDisplayOptions](../../aspose.tasks/projectdisplayoptions/) class.|
+|ProjectDisplayOptions()|Initializes a new instance of the [ProjectDisplayOptions](/python-net/aspose.tasks/projectdisplayoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -33,6 +33,6 @@ The ProjectDisplayOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

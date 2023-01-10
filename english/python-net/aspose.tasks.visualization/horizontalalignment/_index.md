@@ -19,6 +19,6 @@ Specifies how an object or text is horizontally aligned relative to another obje
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](../../aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -15,7 +15,7 @@ The YearlyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|YearlyRecurrencePattern()|Initializes a new instance of the [YearlyRecurrencePattern](../../aspose.tasks/yearlyrecurrencepattern/) class.|
+|YearlyRecurrencePattern()|Initializes a new instance of the [YearlyRecurrencePattern](/python-net/aspose.tasks/yearlyrecurrencepattern/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The YearlyRecurrencePattern type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

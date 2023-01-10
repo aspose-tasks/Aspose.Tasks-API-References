@@ -15,7 +15,7 @@ The WBSCodeDefinition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WBSCodeDefinition()|Initializes a new instance of the [WBSCodeDefinition](../../aspose.tasks/wbscodedefinition/) class.|
+|WBSCodeDefinition()|Initializes a new instance of the [WBSCodeDefinition](/python-net/aspose.tasks/wbscodedefinition/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The WBSCodeDefinition type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

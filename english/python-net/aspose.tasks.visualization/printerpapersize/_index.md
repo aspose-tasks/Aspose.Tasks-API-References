@@ -45,6 +45,6 @@ Specifies the paper size which is used for printing.
 
 ### See Also
 
-* namespace [aspose.tasks.visualization](../../aspose.tasks.visualization/)
+* namespace [aspose.tasks.visualization](/python-net/aspose.tasks.visualization/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

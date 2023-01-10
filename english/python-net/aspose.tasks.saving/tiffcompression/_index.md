@@ -22,6 +22,6 @@ Specifies what type of compression to apply when saving pages to the TIFF format
 
 ### See Also
 
-* namespace [aspose.tasks.saving](../../aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 
