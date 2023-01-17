@@ -3,7 +3,7 @@ title: RawStatus
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets raw text representation as in source file of Status field of the activity.
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.tasks/primaverataskproperties/rawstatus/
 ---
 ## PrimaveraTaskProperties.RawStatus property

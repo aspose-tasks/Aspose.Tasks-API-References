@@ -1,17 +1,17 @@
 ---
-title: RemainingLateStart
+title: RemainingNonLaborUnits
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets remaining late start date.
+description: Gets the value of remaining non labor units.
 type: docs
-weight: 140
-url: /net/aspose.tasks/primaverataskproperties/remaininglatestart/
+weight: 150
+url: /net/aspose.tasks/primaverataskproperties/remainingnonlaborunits/
 ---
-## PrimaveraTaskProperties.RemainingLateStart property
+## PrimaveraTaskProperties.RemainingNonLaborUnits property
 
-Gets remaining late start date.
+Gets the value of remaining non labor units.
 
 ```csharp
-public DateTime RemainingLateStart { get; }
+public double RemainingNonLaborUnits { get; }
 ```
 
 ### See Also
