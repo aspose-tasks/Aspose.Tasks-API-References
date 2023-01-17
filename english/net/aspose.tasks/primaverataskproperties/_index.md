@@ -19,15 +19,22 @@ public sealed class PrimaveraTaskProperties
 | Name | Description |
 | --- | --- |
 | [ActivityId](../../aspose.tasks/primaverataskproperties/activityid) { get; } | Gets an activity id field - a task's unique identifier used by Primavera. |
+| [ActualLaborUnits](../../aspose.tasks/primaverataskproperties/actuallaborunits) { get; } | Gets the value of actual labor units. |
+| [ActualNonLaborUnits](../../aspose.tasks/primaverataskproperties/actualnonlaborunits) { get; } | Gets the value of actual non labor units. |
+| [DurationPercentComplete](../../aspose.tasks/primaverataskproperties/durationpercentcomplete) { get; } | Gets the value of duration percent complete. |
+| [PhysicalPercentComplete](../../aspose.tasks/primaverataskproperties/physicalpercentcomplete) { get; } | Gets the value of Physical Percent Complete. |
 | [RawActivityType](../../aspose.tasks/primaverataskproperties/rawactivitytype) { get; } | Gets raw text representation (as in source file) of 'Activity Type' field of the activity. |
 | [RawCompletePercentType](../../aspose.tasks/primaverataskproperties/rawcompletepercenttype) { get; } | Gets raw text representation (as in source file) of '% Complete Type' field of the activity. |
 | [RawDurationType](../../aspose.tasks/primaverataskproperties/rawdurationtype) { get; } | Gets raw text representation (as in source file) of 'Duration Type' field of the activity. |
 | [RawStatus](../../aspose.tasks/primaverataskproperties/rawstatus) { get; } | Gets raw text representation (as in source file) of 'Status' field of the activity. |
 | [RemainingEarlyFinish](../../aspose.tasks/primaverataskproperties/remainingearlyfinish) { get; } | Gets remaining early finish date - the date when the remaining work for the activity is scheduled to be finished. |
 | [RemainingEarlyStart](../../aspose.tasks/primaverataskproperties/remainingearlystart) { get; } | Gets remaining early start date - the date when the remaining work for the activity is scheduled to begin. |
+| [RemainingLaborUnits](../../aspose.tasks/primaverataskproperties/remaininglaborunits) { get; } | Gets the value of remaining labor units. |
 | [RemainingLateFinish](../../aspose.tasks/primaverataskproperties/remaininglatefinish) { get; } | Gets remaining late finish date. |
 | [RemainingLateStart](../../aspose.tasks/primaverataskproperties/remaininglatestart) { get; } | Gets remaining late start date. |
+| [RemainingNonLaborUnits](../../aspose.tasks/primaverataskproperties/remainingnonlaborunits) { get; } | Gets the value of remaining non labor units. |
 | [SequenceNumber](../../aspose.tasks/primaverataskproperties/sequencenumber) { get; } | Gets or sets the sequence number of the WBS item (summary tasks). It is used to sort summary tasks in Primavera. |
+| [UnitsPercentComplete](../../aspose.tasks/primaverataskproperties/unitspercentcomplete) { get; } | Gets the value of units percent complete. |
 
 ### See Also
 

@@ -1,17 +1,17 @@
 ---
-title: RemainingLateStart
+title: UnitsPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets remaining late start date.
+description: Gets the value of units percent complete.
 type: docs
-weight: 140
-url: /net/aspose.tasks/primaverataskproperties/remaininglatestart/
+weight: 170
+url: /net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 ---
-## PrimaveraTaskProperties.RemainingLateStart property
+## PrimaveraTaskProperties.UnitsPercentComplete property
 
-Gets remaining late start date.
+Gets the value of units percent complete.
 
 ```csharp
-public DateTime RemainingLateStart { get; }
+public double UnitsPercentComplete { get; }
 ```
 
 ### See Also

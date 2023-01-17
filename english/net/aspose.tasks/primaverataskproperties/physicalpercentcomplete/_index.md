@@ -1,17 +1,17 @@
 ---
-title: RawDurationType
+title: PhysicalPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets raw text representation as in source file of Duration Type field of the activity.
+description: Gets the value of Physical Percent Complete.
 type: docs
-weight: 80
-url: /net/aspose.tasks/primaverataskproperties/rawdurationtype/
+weight: 50
+url: /net/aspose.tasks/primaverataskproperties/physicalpercentcomplete/
 ---
-## PrimaveraTaskProperties.RawDurationType property
+## PrimaveraTaskProperties.PhysicalPercentComplete property
 
-Gets raw text representation (as in source file) of 'Duration Type' field of the activity.
+Gets the value of Physical Percent Complete.
 
 ```csharp
-public string RawDurationType { get; }
+public double PhysicalPercentComplete { get; }
 ```
 
 ### Remarks
