@@ -3,7 +3,7 @@ title: OleObjectCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 570
 url: /python-net/aspose.tasks/oleobjectcollection/
 ---
 
@@ -19,6 +19,6 @@ The OleObjectCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

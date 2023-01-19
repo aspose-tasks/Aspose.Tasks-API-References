@@ -15,6 +15,6 @@ The ListUtils type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.util](../../aspose.tasks.util/)
+* namespace [aspose.tasks.util](/tasks/python-net/aspose.tasks.util/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: TimephasedDataCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1190
+weight: 1160
 url: /python-net/aspose.tasks/timephaseddatacollection/
 ---
 
@@ -16,11 +16,11 @@ The TimephasedDataCollection type exposes the following members:
 | Name | Description |
 | :- | :- |
 |add_range(timephased_collection)|  |
-|to_list()|Converts the [TimephasedDataCollection](../../aspose.tasks/timephaseddatacollection/) object to a list of|
+|to_list()|Converts the [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) object to a list of|
 |select_between_start_and_finish(timephased_data_type, start_time, finish_time)|Selects all time phases between|
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

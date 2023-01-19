@@ -3,7 +3,7 @@ title: TaskUsageViewField
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 2590
 url: /python-net/aspose.tasks/taskusageviewfield/
 ---
 
@@ -91,6 +91,6 @@ Represents possible fields in
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

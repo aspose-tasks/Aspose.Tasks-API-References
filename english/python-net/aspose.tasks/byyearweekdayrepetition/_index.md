@@ -3,7 +3,7 @@ title: ByYearWeekDayRepetition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 130
 url: /python-net/aspose.tasks/byyearweekdayrepetition/
 ---
 
@@ -24,6 +24,6 @@ The ByYearWeekDayRepetition type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

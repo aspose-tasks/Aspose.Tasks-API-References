@@ -3,7 +3,7 @@ title: EndAfterRecurrenceRange
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 270
 url: /python-net/aspose.tasks/endafterrecurrencerange/
 ---
 
@@ -24,6 +24,6 @@ The EndAfterRecurrenceRange type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

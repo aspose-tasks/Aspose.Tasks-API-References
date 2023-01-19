@@ -3,7 +3,7 @@ title: TimephasedDataType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2690
+weight: 2610
 url: /python-net/aspose.tasks/timephaseddatatype/
 ---
 
@@ -96,6 +96,6 @@ Specifies the type of time phased data.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

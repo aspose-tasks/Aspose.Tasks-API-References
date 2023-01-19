@@ -3,7 +3,7 @@ title: ImageSavingArgs
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 470
 url: /python-net/aspose.tasks/imagesavingargs/
 ---
 
@@ -15,7 +15,7 @@ The ImageSavingArgs type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ImageSavingArgs()|Initializes a new instance of the [ImageSavingArgs](../../aspose.tasks/imagesavingargs/) class.|
+|ImageSavingArgs()|Initializes a new instance of the [ImageSavingArgs](/tasks/python-net/aspose.tasks/imagesavingargs/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -31,6 +31,6 @@ The ImageSavingArgs type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

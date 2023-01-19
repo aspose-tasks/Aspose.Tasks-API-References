@@ -3,7 +3,7 @@ title: WBSCodeDefinition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 1290
 url: /python-net/aspose.tasks/wbscodedefinition/
 ---
 
@@ -15,7 +15,7 @@ The WBSCodeDefinition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WBSCodeDefinition()|Initializes a new instance of the [WBSCodeDefinition](../../aspose.tasks/wbscodedefinition/) class.|
+|WBSCodeDefinition()|Initializes a new instance of the [WBSCodeDefinition](/tasks/python-net/aspose.tasks/wbscodedefinition/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The WBSCodeDefinition type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 440
 url: /python-net/aspose.tasks/ifontsavingcallback/
 ---
 
@@ -19,6 +19,6 @@ The IFontSavingCallback type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 900
+weight: 880
 url: /python-net/aspose.tasks/resourceassignment/
 ---
 
@@ -95,6 +95,6 @@ The ResourceAssignment type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

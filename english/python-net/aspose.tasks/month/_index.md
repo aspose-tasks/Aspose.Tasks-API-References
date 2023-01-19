@@ -3,7 +3,7 @@ title: Month
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2460
+weight: 2400
 url: /python-net/aspose.tasks/month/
 ---
 
@@ -30,6 +30,6 @@ Specifies the month.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

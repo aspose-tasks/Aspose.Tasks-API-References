@@ -3,7 +3,7 @@ title: DayLabelDisplay
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2280
+weight: 2220
 url: /python-net/aspose.tasks/daylabeldisplay/
 ---
 
@@ -20,6 +20,6 @@ Specifies how the day label displays.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

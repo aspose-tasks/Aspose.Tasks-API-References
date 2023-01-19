@@ -3,7 +3,7 @@ title: MonthItemType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2470
+weight: 2410
 url: /python-net/aspose.tasks/monthitemtype/
 ---
 
@@ -28,6 +28,6 @@ Specifies the month item for which an exception recurrence is scheduled.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

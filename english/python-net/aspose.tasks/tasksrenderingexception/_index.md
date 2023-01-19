@@ -3,7 +3,7 @@ title: TasksRenderingException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 1120
 url: /python-net/aspose.tasks/tasksrenderingexception/
 ---
 
@@ -15,6 +15,6 @@ The TasksRenderingException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

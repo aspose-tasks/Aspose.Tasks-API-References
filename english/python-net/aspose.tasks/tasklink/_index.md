@@ -3,7 +3,7 @@ title: TaskLink
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1070
+weight: 1040
 url: /python-net/aspose.tasks/tasklink/
 ---
 
@@ -30,6 +30,6 @@ The TaskLink type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

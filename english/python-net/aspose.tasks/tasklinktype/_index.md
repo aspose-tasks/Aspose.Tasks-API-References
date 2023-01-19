@@ -3,7 +3,7 @@ title: TaskLinkType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2640
+weight: 2560
 url: /python-net/aspose.tasks/tasklinktype/
 ---
 
@@ -21,6 +21,6 @@ Specifies the type of tasks dependency.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

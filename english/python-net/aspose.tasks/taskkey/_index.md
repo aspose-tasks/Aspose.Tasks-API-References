@@ -3,7 +3,7 @@ title: TaskKey
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2630
+weight: 2550
 url: /python-net/aspose.tasks/taskkey/
 ---
 
@@ -149,6 +149,6 @@ Represents a list of supported  task fields.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

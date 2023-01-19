@@ -3,7 +3,7 @@ title: MonthlyRecurrencePattern
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 520
 url: /python-net/aspose.tasks/monthlyrecurrencepattern/
 ---
 
@@ -24,6 +24,6 @@ The MonthlyRecurrencePattern type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

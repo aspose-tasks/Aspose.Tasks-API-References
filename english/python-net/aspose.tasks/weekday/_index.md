@@ -3,7 +3,7 @@ title: WeekDay
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1370
+weight: 1330
 url: /python-net/aspose.tasks/weekday/
 ---
 
@@ -17,7 +17,7 @@ The WeekDay type exposes the following members:
 | :- | :- |
 |WeekDay(day_type)|Initializes a new instance of the WeekDay class|
 |WeekDay(day_type, working_times)|Initializes a new instance of the WeekDay class|
-|WeekDay()|Initializes a new instance of the [WeekDay](../../aspose.tasks/weekday/) class.|
+|WeekDay()|Initializes a new instance of the [WeekDay](/tasks/python-net/aspose.tasks/weekday/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -36,6 +36,6 @@ The WeekDay type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

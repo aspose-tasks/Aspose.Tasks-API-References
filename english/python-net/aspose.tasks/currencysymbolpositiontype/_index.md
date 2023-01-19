@@ -3,7 +3,7 @@ title: CurrencySymbolPositionType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2250
+weight: 2190
 url: /python-net/aspose.tasks/currencysymbolpositiontype/
 ---
 
@@ -22,6 +22,6 @@ Specifies the position of a currency symbol.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

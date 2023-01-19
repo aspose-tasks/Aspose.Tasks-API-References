@@ -3,7 +3,7 @@ title: FilterOperation
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2370
+weight: 2310
 url: /python-net/aspose.tasks/filteroperation/
 ---
 
@@ -20,6 +20,6 @@ Specifies how the criterion established with FieldName, FilterComparisonType, an
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: RateType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2550
+weight: 2480
 url: /python-net/aspose.tasks/ratetype/
 ---
 
@@ -23,6 +23,6 @@ Specifies the unique identifiers of a rate table.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

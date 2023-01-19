@@ -22,6 +22,6 @@ Represents a custom property type enumeration.
 
 ### See Also
 
-* namespace [aspose.tasks.properties](../../aspose.tasks.properties/)
+* namespace [aspose.tasks.properties](/tasks/python-net/aspose.tasks.properties/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

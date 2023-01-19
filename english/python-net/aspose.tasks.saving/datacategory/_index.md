@@ -20,6 +20,6 @@ The category of data used when saving to CSV.
 
 ### See Also
 
-* namespace [aspose.tasks.saving](../../aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

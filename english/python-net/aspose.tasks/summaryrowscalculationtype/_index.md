@@ -3,7 +3,7 @@ title: SummaryRowsCalculationType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 2540
 url: /python-net/aspose.tasks/summaryrowscalculationtype/
 ---
 
@@ -20,6 +20,6 @@ Specifies the type of a calculation of the custom attribute's value for summary 
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

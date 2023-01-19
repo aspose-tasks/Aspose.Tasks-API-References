@@ -3,7 +3,7 @@ title: RecurrenceRangeBase
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 860
+weight: 840
 url: /python-net/aspose.tasks/recurrencerangebase/
 ---
 
@@ -19,6 +19,6 @@ The RecurrenceRangeBase type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

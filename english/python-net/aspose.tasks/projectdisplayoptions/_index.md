@@ -3,7 +3,7 @@ title: ProjectDisplayOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 720
 url: /python-net/aspose.tasks/projectdisplayoptions/
 ---
 
@@ -15,7 +15,7 @@ The ProjectDisplayOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectDisplayOptions()|Initializes a new instance of the [ProjectDisplayOptions](../../aspose.tasks/projectdisplayoptions/) class.|
+|ProjectDisplayOptions()|Initializes a new instance of the [ProjectDisplayOptions](/tasks/python-net/aspose.tasks/projectdisplayoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -33,6 +33,6 @@ The ProjectDisplayOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

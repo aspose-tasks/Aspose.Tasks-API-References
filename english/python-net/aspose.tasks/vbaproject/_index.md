@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1240
 url: /python-net/aspose.tasks/vbaproject/
 ---
 
@@ -25,6 +25,6 @@ The VbaProject type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

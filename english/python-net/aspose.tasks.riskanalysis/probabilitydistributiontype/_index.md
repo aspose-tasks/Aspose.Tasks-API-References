@@ -19,6 +19,6 @@ Specifies types of supported probability distributions.
 
 ### See Also
 
-* namespace [aspose.tasks.riskanalysis](../../aspose.tasks.riskanalysis/)
+* namespace [aspose.tasks.riskanalysis](/tasks/python-net/aspose.tasks.riskanalysis/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

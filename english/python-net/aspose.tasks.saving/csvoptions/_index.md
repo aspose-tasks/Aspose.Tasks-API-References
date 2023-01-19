@@ -15,7 +15,7 @@ The CsvOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CsvOptions()|Initializes a new instance of the [CsvOptions](../../aspose.tasks.saving/csvoptions/) class which can be used to save project in CSV format.|
+|CsvOptions()|Initializes a new instance of the [CsvOptions](/tasks/python-net/aspose.tasks.saving/csvoptions/) class which can be used to save project in CSV format.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -47,6 +47,6 @@ The CsvOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks.saving](../../aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

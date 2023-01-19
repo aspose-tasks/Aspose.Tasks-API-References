@@ -3,7 +3,7 @@ title: Rate
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 810
+weight: 790
 url: /python-net/aspose.tasks/rate/
 ---
 
@@ -26,6 +26,6 @@ The Rate type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

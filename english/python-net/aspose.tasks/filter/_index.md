@@ -3,7 +3,7 @@ title: Filter
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 330
 url: /python-net/aspose.tasks/filter/
 ---
 
@@ -35,6 +35,6 @@ The Filter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

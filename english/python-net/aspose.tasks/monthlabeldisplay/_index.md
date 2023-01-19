@@ -3,7 +3,7 @@ title: MonthLabelDisplay
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2480
+weight: 2420
 url: /python-net/aspose.tasks/monthlabeldisplay/
 ---
 
@@ -20,6 +20,6 @@ Specifies how the month label displays.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: RecurrencePatternBase
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 830
 url: /python-net/aspose.tasks/recurrencepatternbase/
 ---
 
@@ -19,6 +19,6 @@ The RecurrencePatternBase type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

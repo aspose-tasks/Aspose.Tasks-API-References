@@ -3,7 +3,7 @@ title: BackgroundPattern
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2170
+weight: 2110
 url: /python-net/aspose.tasks/backgroundpattern/
 ---
 
@@ -31,6 +31,6 @@ Specifies the background pattern.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

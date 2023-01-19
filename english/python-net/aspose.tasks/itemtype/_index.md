@@ -3,7 +3,7 @@ title: ItemType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 2370
 url: /python-net/aspose.tasks/itemtype/
 ---
 
@@ -20,6 +20,6 @@ Specifies the type of an item.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: ElementType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2310
+weight: 2250
 url: /python-net/aspose.tasks/elementtype/
 ---
 
@@ -22,6 +22,6 @@ Specifies the type of an element.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: TaskBaselineCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1020
 url: /python-net/aspose.tasks/taskbaselinecollection/
 ---
 
@@ -19,6 +19,6 @@ The TaskBaselineCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

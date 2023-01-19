@@ -3,7 +3,7 @@ title: FontFaceType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2380
+weight: 2320
 url: /python-net/aspose.tasks/fontfacetype/
 ---
 
@@ -21,6 +21,6 @@ Enumerates font face types
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

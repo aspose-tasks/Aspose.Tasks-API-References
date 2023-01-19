@@ -3,7 +3,7 @@ title: TaskUsageViewFieldCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1100
+weight: 1070
 url: /python-net/aspose.tasks/taskusageviewfieldcollection/
 ---
 
@@ -19,6 +19,6 @@ The TaskUsageViewFieldCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

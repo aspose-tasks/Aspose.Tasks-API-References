@@ -3,7 +3,7 @@ title: MinuteLabelDisplay
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2450
+weight: 2390
 url: /python-net/aspose.tasks/minutelabeldisplay/
 ---
 
@@ -20,6 +20,6 @@ Specifies how the minute label displays.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

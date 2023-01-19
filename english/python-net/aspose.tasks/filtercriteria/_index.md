@@ -3,7 +3,7 @@ title: FilterCriteria
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 350
 url: /python-net/aspose.tasks/filtercriteria/
 ---
 
@@ -27,6 +27,6 @@ The FilterCriteria type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

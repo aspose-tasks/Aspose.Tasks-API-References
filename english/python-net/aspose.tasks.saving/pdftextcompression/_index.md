@@ -19,6 +19,6 @@ Specifies a type of compression applied to all content in the PDF file except im
 
 ### See Also
 
-* namespace [aspose.tasks.saving](../../aspose.tasks.saving/)
+* namespace [aspose.tasks.saving](/tasks/python-net/aspose.tasks.saving/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 

@@ -3,7 +3,7 @@ title: TaskType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2660
+weight: 2580
 url: /python-net/aspose.tasks/tasktype/
 ---
 
@@ -21,6 +21,6 @@ Specifies the type of a task.
 
 ### See Also
 
-* namespace [aspose.tasks](../../aspose.tasks/)
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
 * assembly [Aspose.Tasks](/tasks/python-net/)
 
