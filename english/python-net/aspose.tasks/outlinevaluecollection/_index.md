@@ -3,7 +3,7 @@ title: OutlineValueCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 660
+weight: 650
 url: /python-net/aspose.tasks/outlinevaluecollection/
 ---
 

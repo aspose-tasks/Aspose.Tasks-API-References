@@ -3,7 +3,7 @@ title: ByYearDayRepetition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /python-net/aspose.tasks/byyeardayrepetition/
 ---
 

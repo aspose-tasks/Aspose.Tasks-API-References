@@ -3,7 +3,7 @@ title: TimelineView
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1170
+weight: 1140
 url: /python-net/aspose.tasks/timelineview/
 ---
 

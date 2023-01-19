@@ -3,7 +3,7 @@ title: OutlineMask
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 620
 url: /python-net/aspose.tasks/outlinemask/
 ---
 

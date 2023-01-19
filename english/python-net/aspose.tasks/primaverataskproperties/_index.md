@@ -3,7 +3,7 @@ title: PrimaveraTaskProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 680
 url: /python-net/aspose.tasks/primaverataskproperties/
 ---
 
@@ -25,6 +25,13 @@ The PrimaveraTaskProperties type exposes the following members:
 |raw_activity_type|Gets raw text representation (as in source file) of 'Activity Type' field of the activity.|
 |raw_complete_percent_type|Gets raw text representation (as in source file) of '% Complete Type' field of the activity.|
 |raw_status|Gets raw text representation (as in source file) of 'Status' field of the activity.|
+|physical_percent_complete|Gets the value of Physical Percent Complete.|
+|duration_percent_complete|Gets the value of duration percent complete.|
+|units_percent_complete|Gets the value of units percent complete.|
+|actual_labor_units|Gets the value of actual labor units.|
+|actual_non_labor_units|Gets the value of actual non labor units.|
+|remaining_labor_units|Gets the value of remaining labor units.|
+|remaining_non_labor_units|Gets the value of remaining non labor units.|
 
 ### See Also
 

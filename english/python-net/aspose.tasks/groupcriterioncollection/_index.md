@@ -3,7 +3,7 @@ title: GroupCriterionCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 420
 url: /python-net/aspose.tasks/groupcriterioncollection/
 ---
 

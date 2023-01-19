@@ -3,7 +3,7 @@ title: Calendar
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 140
 url: /python-net/aspose.tasks/calendar/
 ---
 

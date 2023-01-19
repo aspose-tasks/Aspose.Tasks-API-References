@@ -3,7 +3,7 @@ title: WorkWeekCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1440
+weight: 1400
 url: /python-net/aspose.tasks/workweekcollection/
 ---
 

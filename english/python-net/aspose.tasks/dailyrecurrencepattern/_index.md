@@ -3,7 +3,7 @@ title: DailyRecurrencePattern
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /python-net/aspose.tasks/dailyrecurrencepattern/
 ---
 

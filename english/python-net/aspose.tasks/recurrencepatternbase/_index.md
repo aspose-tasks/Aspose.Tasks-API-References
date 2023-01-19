@@ -3,7 +3,7 @@ title: RecurrencePatternBase
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 830
 url: /python-net/aspose.tasks/recurrencepatternbase/
 ---
 

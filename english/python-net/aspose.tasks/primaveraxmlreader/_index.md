@@ -3,7 +3,7 @@ title: PrimaveraXmlReader
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 700
 url: /python-net/aspose.tasks/primaveraxmlreader/
 ---
 

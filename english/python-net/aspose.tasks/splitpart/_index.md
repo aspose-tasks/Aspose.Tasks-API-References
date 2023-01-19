@@ -3,7 +3,7 @@ title: SplitPart
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 970
+weight: 940
 url: /python-net/aspose.tasks/splitpart/
 ---
 

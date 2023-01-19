@@ -3,7 +3,7 @@ title: PrimaveraReadOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 670
 url: /python-net/aspose.tasks/primaverareadoptions/
 ---
 

@@ -3,7 +3,7 @@ title: TableFieldCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1020
+weight: 990
 url: /python-net/aspose.tasks/tablefieldcollection/
 ---
 

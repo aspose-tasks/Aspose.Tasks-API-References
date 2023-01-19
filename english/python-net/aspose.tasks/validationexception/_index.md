@@ -3,7 +3,7 @@ title: ValidationException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1220
+weight: 1180
 url: /python-net/aspose.tasks/validationexception/
 ---
 

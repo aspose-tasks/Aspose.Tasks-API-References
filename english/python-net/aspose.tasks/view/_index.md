@@ -3,7 +3,7 @@ title: View
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1310
+weight: 1270
 url: /python-net/aspose.tasks/view/
 ---
 

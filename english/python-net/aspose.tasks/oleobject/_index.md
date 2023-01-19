@@ -3,7 +3,7 @@ title: OleObject
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 560
 url: /python-net/aspose.tasks/oleobject/
 ---
 

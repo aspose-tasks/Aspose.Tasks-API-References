@@ -3,7 +3,7 @@ title: FontResolveEventArgs
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 360
 url: /python-net/aspose.tasks/fontresolveeventargs/
 ---
 

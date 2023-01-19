@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 480
 url: /python-net/aspose.tasks/invalidpasswordexception/
 ---
 

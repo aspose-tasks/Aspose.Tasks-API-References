@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1450
+weight: 1410
 url: /python-net/aspose.tasks/workingtime/
 ---
 

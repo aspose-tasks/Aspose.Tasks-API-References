@@ -3,7 +3,7 @@ title: ByMonthWeekDayRepetition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 110
 url: /python-net/aspose.tasks/bymonthweekdayrepetition/
 ---
 

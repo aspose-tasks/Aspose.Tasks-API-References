@@ -3,7 +3,7 @@ title: DailyCalendarRepetition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 210
 url: /python-net/aspose.tasks/dailycalendarrepetition/
 ---
 

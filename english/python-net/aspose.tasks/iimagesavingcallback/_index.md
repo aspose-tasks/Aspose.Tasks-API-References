@@ -3,7 +3,7 @@ title: IImageSavingCallback
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 450
 url: /python-net/aspose.tasks/iimagesavingcallback/
 ---
 

@@ -3,7 +3,7 @@ title: AvailabilityPeriod
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /python-net/aspose.tasks/availabilityperiod/
 ---
 

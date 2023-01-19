@@ -3,7 +3,7 @@ title: GroupOn
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2340
 url: /python-net/aspose.tasks/groupon/
 ---
 

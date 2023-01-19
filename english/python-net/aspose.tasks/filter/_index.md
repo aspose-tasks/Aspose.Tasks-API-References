@@ -3,7 +3,7 @@ title: Filter
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 330
 url: /python-net/aspose.tasks/filter/
 ---
 

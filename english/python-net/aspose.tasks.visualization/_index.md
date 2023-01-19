@@ -3,7 +3,7 @@ title: aspose.tasks.visualization
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /python-net/aspose.tasks.visualization/
 ---
 

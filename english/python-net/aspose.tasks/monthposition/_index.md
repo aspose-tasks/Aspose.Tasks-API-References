@@ -3,7 +3,7 @@ title: MonthPosition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2490
+weight: 2430
 url: /python-net/aspose.tasks/monthposition/
 ---
 

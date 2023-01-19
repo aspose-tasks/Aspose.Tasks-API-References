@@ -3,7 +3,7 @@ title: CalendarException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 160
 url: /python-net/aspose.tasks/calendarexception/
 ---
 

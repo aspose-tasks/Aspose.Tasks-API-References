@@ -14,7 +14,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | Class | Description |
 | :- | :- |
 |[ApsLayoutBuilderOutOfMemoryException](/tasks/python-net/aspose.tasks/apslayoutbuilderoutofmemoryexception/)|Represents exception which occurs when there is not enough memory to continue an image layout building.|
-|[Asn](/tasks/python-net/aspose.tasks/asn/)|Represents properties of|
 |[AssignmentBaseline](/tasks/python-net/aspose.tasks/assignmentbaseline/)|Represents Baseline of a resource assignment.|
 |[AssignmentBaselineCollection](/tasks/python-net/aspose.tasks/assignmentbaselinecollection/)|Represents a collection of|
 |[AvailabilityPeriod](/tasks/python-net/aspose.tasks/availabilityperiod/)|Represents a period when a resource is available.|
@@ -84,7 +83,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[PrimaveraTaskProperties](/tasks/python-net/aspose.tasks/primaverataskproperties/)|Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML).|
 |[PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/)|Represents a reader to read Project UIDs from Primavera XER file|
 |[PrimaveraXmlReader](/tasks/python-net/aspose.tasks/primaveraxmlreader/)|Represents a reader which allows to retrieve Project UIDs from Primavera Xml file.|
-|[Prj](/tasks/python-net/aspose.tasks/prj/)|Represents supported properties of|
 |[Project](/tasks/python-net/aspose.tasks/project/)|Represents a project.|
 |[ProjectDisplayOptions](/tasks/python-net/aspose.tasks/projectdisplayoptions/)|Represents the display options for a project instance.|
 |[ProjectFileInfo](/tasks/python-net/aspose.tasks/projectfileinfo/)|The class instance contains information about project file format and version of Microsoft Project where<br/>            the file was created.|
@@ -108,7 +106,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[ResourceSavingArgs](/tasks/python-net/aspose.tasks/resourcesavingargs/)|This class represents set of data that related to external resource file's saving that<br/>              occurs during conversion to HTML format.|
 |[ResourceUsageView](/tasks/python-net/aspose.tasks/resourceusageview/)|Represents resource usage view in a project.|
 |[ResourceUsageViewFieldCollection](/tasks/python-net/aspose.tasks/resourceusageviewfieldcollection/)|Represent a collection of|
-|[Rsc](/tasks/python-net/aspose.tasks/rsc/)|Represents supported properties of|
 |[SplitPart](/tasks/python-net/aspose.tasks/splitpart/)|Represents a task portion. The SplitPart is a member of the task's SplitParts collection.|
 |[SplitPartCollection](/tasks/python-net/aspose.tasks/splitpartcollection/)|Collection that represents the portions of a task.|
 |[Table](/tasks/python-net/aspose.tasks/table/)|Represents a table in Project|
@@ -132,7 +129,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[TimelineView](/tasks/python-net/aspose.tasks/timelineview/)|Represents a timeline view of a project.|
 |[TimephasedData](/tasks/python-net/aspose.tasks/timephaseddata/)|Represents a time phased data.|
 |[TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/)|Represents a collection of|
-|[Tsk](/tasks/python-net/aspose.tasks/tsk/)|Represents properties of|
 |[UsageView](/tasks/python-net/aspose.tasks/usageview/)|Represent a usage view in a project.|
 |[ValidationException](/tasks/python-net/aspose.tasks/validationexception/)|Represents an exception which is thrown when errors are found during validation of entity.|
 |[Value](/tasks/python-net/aspose.tasks/value/)|Represents a value in a value list.|
@@ -165,7 +161,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | Enumeration | Description |
 | :- | :- |
 |[ApplicationInfo](/tasks/python-net/aspose.tasks/applicationinfo/)|Specifies the project version where the file was created.|
-|[AsnKey](/tasks/python-net/aspose.tasks/asnkey/)|Represents a list of supported  assignment fields.|
 |[BackgroundPattern](/tasks/python-net/aspose.tasks/backgroundpattern/)|Specifies the background pattern.|
 |[BaselineType](/tasks/python-net/aspose.tasks/baselinetype/)|Specifies the baseline type used to calculate Variance values.|
 |[BookingType](/tasks/python-net/aspose.tasks/bookingtype/)|Specifies the booking type of a resource.|
@@ -201,7 +196,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[MonthPosition](/tasks/python-net/aspose.tasks/monthposition/)|Specifies the position of a month item within a month.|
 |[OrdinalNumber](/tasks/python-net/aspose.tasks/ordinalnumber/)|Represents an ordinal number in the instance of|
 |[OutlineValueType](/tasks/python-net/aspose.tasks/outlinevaluetype/)|Specifies the type of an outline value.|
-|[PrjKey](/tasks/python-net/aspose.tasks/prjkey/)|Represents a list of supported project fields.|
 |[RateFormatType](/tasks/python-net/aspose.tasks/rateformattype/)|Specifies the units used by Microsoft Project to display a rate.|
 |[RateScaleType](/tasks/python-net/aspose.tasks/ratescaletype/)|Specifies the rate scale type.|
 |[RateType](/tasks/python-net/aspose.tasks/ratetype/)|Specifies the unique identifiers of a rate table.|
@@ -210,7 +204,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[ResourceType](/tasks/python-net/aspose.tasks/resourcetype/)|Specifies the type of a resource.|
 |[ResourceUsageViewField](/tasks/python-net/aspose.tasks/resourceusageviewfield/)|Represents possible fields in|
 |[RollupType](/tasks/python-net/aspose.tasks/rolluptype/)|Specifies the rollup type.|
-|[RscKey](/tasks/python-net/aspose.tasks/rsckey/)|Represents a list of supported  resource fields.|
 |[SummaryRowsCalculationType](/tasks/python-net/aspose.tasks/summaryrowscalculationtype/)|Specifies the type of a calculation of the custom attribute's value for summary rows.|
 |[TaskKey](/tasks/python-net/aspose.tasks/taskkey/)|Represents a list of supported  task fields.|
 |[TaskLinkType](/tasks/python-net/aspose.tasks/tasklinktype/)|Specifies the type of tasks dependency.|

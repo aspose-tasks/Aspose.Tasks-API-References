@@ -3,7 +3,7 @@ title: ElementType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2310
+weight: 2250
 url: /python-net/aspose.tasks/elementtype/
 ---
 

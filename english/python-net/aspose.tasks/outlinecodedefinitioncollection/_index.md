@@ -3,7 +3,7 @@ title: OutlineCodeDefinitionCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 610
 url: /python-net/aspose.tasks/outlinecodedefinitioncollection/
 ---
 

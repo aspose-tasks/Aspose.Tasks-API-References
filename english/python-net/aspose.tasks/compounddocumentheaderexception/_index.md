@@ -3,7 +3,7 @@ title: CompoundDocumentHeaderException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 180
 url: /python-net/aspose.tasks/compounddocumentheaderexception/
 ---
 

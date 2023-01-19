@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 900
+weight: 880
 url: /python-net/aspose.tasks/resourceassignment/
 ---
 

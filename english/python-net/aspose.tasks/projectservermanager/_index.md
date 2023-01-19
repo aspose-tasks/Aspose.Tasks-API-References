@@ -3,7 +3,7 @@ title: ProjectServerManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 770
 url: /python-net/aspose.tasks/projectservermanager/
 ---
 

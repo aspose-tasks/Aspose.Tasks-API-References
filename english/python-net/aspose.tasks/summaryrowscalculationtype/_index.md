@@ -3,7 +3,7 @@ title: SummaryRowsCalculationType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 2540
 url: /python-net/aspose.tasks/summaryrowscalculationtype/
 ---
 
