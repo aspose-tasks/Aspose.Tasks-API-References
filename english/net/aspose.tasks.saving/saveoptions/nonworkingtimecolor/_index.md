@@ -3,7 +3,7 @@ title: NonWorkingTimeColor
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the nonworking time color.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.tasks.saving/saveoptions/nonworkingtimecolor/
 ---
 ## SaveOptions.NonWorkingTimeColor property

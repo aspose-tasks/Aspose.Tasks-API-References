@@ -3,7 +3,7 @@ title: ViewSettings
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a view Viewaspose.tasks.saving/saveoptions/view to render. You can use this options to explicitly specify which view should be saved to PDF HTML or Image formats. If this property is set PresentationFormataspose.tasks.visualization/presentationformat property is ignored when project is saved. View should be from one of the following screen Screenaspose.tasks/view/screen Gantt TaskSheet TaskUsage ResourceSheet ResourceUsage
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.tasks.saving/saveoptions/viewsettings/
 ---
 ## SaveOptions.ViewSettings property

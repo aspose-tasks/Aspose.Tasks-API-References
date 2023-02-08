@@ -20,7 +20,7 @@ public static WeekDay CreateDefaultWorkingDay(DayType dayType)
 
 ### Return Value
 
-A created default working day.
+A default working day with working times 8-12 and 13-17.
 
 ### Examples
 

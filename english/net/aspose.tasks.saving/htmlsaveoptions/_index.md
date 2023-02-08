@@ -35,6 +35,7 @@ public class HtmlSaveOptions : SaveOptions
 | [ExportFonts](../../aspose.tasks.saving/htmlsaveoptions/exportfonts) { get; set; } | Gets or sets the way fonts are exported. |
 | [ExportImages](../../aspose.tasks.saving/htmlsaveoptions/exportimages) { get; set; } | Gets or sets the way images are exported. |
 | [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent) { get; set; } | Gets or sets a value indicating whether row height should be increased to fit its content. |
+| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage) { get; set; } | Gets or sets whether a calendar section of a view should be rendered to the end (right side) of the last page. If value is false, calendar section is rendered exactly to EndDate, even there is an empty space on a page. |
 | [FontFaceTypes](../../aspose.tasks.saving/htmlsaveoptions/fontfacetypes) { get; set; } | Gets or sets the font face types. |
 | [FontResolveCallback](../../aspose.tasks.saving/htmlsaveoptions/fontresolvecallback) { get; set; } | Gets or sets a callback which can be used to customize resolved fonts. |
 | [FontSavingCallback](../../aspose.tasks.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | Gets or sets the callback that is called to create resource to store font. |
