@@ -3,7 +3,7 @@ title: PageCount
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the number of pages of project.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.tasks.saving/saveoptions/pagecount/
 ---
 ## SaveOptions.PageCount property

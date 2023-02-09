@@ -3,7 +3,7 @@ title: TasksFilter
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the condition which is used to filter tasks rendered on Gantt Task Sheet and Task Usage charts.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.tasks.saving/saveoptions/tasksfilter/
 ---
 ## SaveOptions.TasksFilter property

@@ -3,7 +3,7 @@ title: PageSize
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the size of page to be rendered Default value is PageSize.A4.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.tasks.saving/saveoptions/pagesize/
 ---
 ## SaveOptions.PageSize property

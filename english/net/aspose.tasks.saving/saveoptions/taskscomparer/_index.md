@@ -3,7 +3,7 @@ title: TasksComparer
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the comparer to sort tasks on Gantt chart and Task Sheet chart.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.tasks.saving/saveoptions/taskscomparer/
 ---
 ## SaveOptions.TasksComparer property

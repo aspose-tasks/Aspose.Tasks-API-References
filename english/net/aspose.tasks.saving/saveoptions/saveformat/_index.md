@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the format in which the document will be saved if this save options object is used.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.tasks.saving/saveoptions/saveformat/
 ---
 ## SaveOptions.SaveFormat property

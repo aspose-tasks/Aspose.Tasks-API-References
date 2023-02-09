@@ -20,7 +20,7 @@ public static Calendar MakeStandardCalendar(Calendar calendar)
 
 ### Return Value
 
-Created calendar.
+Calendar with 5 working days (Monday-Friday) with working times 8-12 and 13-17.
 
 ### Examples
 
