@@ -27,6 +27,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getDrawNonWorkingTime()](#getDrawNonWorkingTime--) | Gets a value indicating whether non-working time should be drawn (Default value is TRUE). |
 | [getEndDate()](#getEndDate--) | Gets a date to finish rendering to. |
 | [getFitContent()](#getFitContent--) | Gets a value indicating whether row height should be increased to fit its content. |
+| [getFitTimescaleToEndOfPage()](#getFitTimescaleToEndOfPage--) | Gets whether a calendar section of a view should be rendered to the end (right side) of the last page. |
 | [getGridlines()](#getGridlines--) | Gets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view. |
 | [getLegendOnEachPage()](#getLegendOnEachPage--) | Gets a value indicating whether legend should be shown on each page (Default value is TRUE). |
 | [getMarkCriticalTasks()](#getMarkCriticalTasks--) | Gets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
@@ -50,6 +51,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setDrawNonWorkingTime(boolean value)](#setDrawNonWorkingTime-boolean-) | Sets a value indicating whether non-working time should be drawn (Default value is TRUE). |
 | [setEndDate(Date value)](#setEndDate-java.util.Date-) | Sets a date to finish rendering to. |
 | [setFitContent(boolean value)](#setFitContent-boolean-) | Sets a value indicating whether row height should be increased to fit its content. |
+| [setFitTimescaleToEndOfPage(boolean value)](#setFitTimescaleToEndOfPage-boolean-) | Sets whether a calendar section of a view should be rendered to the end (right side) of the last page. |
 | [setGridlines(List&lt;Gridline&gt; value)](#setGridlines-java.util.List-com.aspose.tasks.Gridline--) | Sets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view. |
 | [setLegendOnEachPage(boolean value)](#setLegendOnEachPage-boolean-) | Sets a value indicating whether legend should be shown on each page (Default value is TRUE). |
 | [setMarkCriticalTasks(boolean value)](#setMarkCriticalTasks-boolean-) | Sets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
@@ -116,6 +118,16 @@ Gets a value indicating whether row height should be increased to fit its conten
 
 **Returns:**
 boolean - a value indicating whether row height should be increased to fit its content.
+### getFitTimescaleToEndOfPage() {#getFitTimescaleToEndOfPage--}
+```
+public final boolean getFitTimescaleToEndOfPage()
+```
+
+
+Gets whether a calendar section of a view should be rendered to the end (right side) of the last page. If value is false, calendar section is rendered exactly to EndDate, even there is an empty space on a page.
+
+**Returns:**
+boolean - whether a calendar section of a view should be rendered to the end (right side) of the last page.
 ### getGridlines() {#getGridlines--}
 ```
 public final List<Gridline> getGridlines()
@@ -372,6 +384,19 @@ Sets a value indicating whether row height should be increased to fit its conten
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether row height should be increased to fit its content. |
+
+### setFitTimescaleToEndOfPage(boolean value) {#setFitTimescaleToEndOfPage-boolean-}
+```
+public final void setFitTimescaleToEndOfPage(boolean value)
+```
+
+
+Sets whether a calendar section of a view should be rendered to the end (right side) of the last page. If value is false, calendar section is rendered exactly to EndDate, even there is an empty space on a page.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | whether a calendar section of a view should be rendered to the end (right side) of the last page. |
 
 ### setGridlines(List&lt;Gridline&gt; value) {#setGridlines-java.util.List-com.aspose.tasks.Gridline--}
 ```

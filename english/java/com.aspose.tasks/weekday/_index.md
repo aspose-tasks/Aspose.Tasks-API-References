@@ -104,7 +104,7 @@ Creates default working day.
 | dayType | int | The day type to create default working day from. |
 
 **Returns:**
-[WeekDay](../../com.aspose.tasks/weekday) - A created default working day.
+[WeekDay](../../com.aspose.tasks/weekday) - A default working day with working times 8-12 and 13-17.
 ### deepClone() {#deepClone--}
 ```
 public final WeekDay deepClone()
