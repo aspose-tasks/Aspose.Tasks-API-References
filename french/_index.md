@@ -47,3 +47,16 @@ Aspose.Tasks pour C++ est une bibliothèque de classes native qui permet aux app
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Tasks pour C++](/tasks/cpp/)
+
+## Aspose.Tasks pour Python via .NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Tasks pour Python via le logo du produit .NET](../home_4.png)
+
+Aspose.Tasks pour Python via .NET est une bibliothèque de classes native qui permet aux applications Python de lire et d'écrire des fichiers MPP/XML sans utiliser Microsoft Project. Le composant fournit une API facile à utiliser pour manipuler les fichiers de projet, ce qui permet d'économiser du temps et de l'argent par rapport au développement de fonctionnalités similaires à partir de zéro.
+
+{{% /alert %}}
+
+Voici des liens vers des ressources utiles :
+- [Aspose.Tasks pour Python via la référence de l'API .NET](/tasks/python-net/)

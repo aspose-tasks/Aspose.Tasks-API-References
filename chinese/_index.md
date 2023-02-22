@@ -47,3 +47,16 @@ Aspose.Tasks for C++ 是一个原生类库，它使 C++ 应用程序无需使用
 
 这些是一些有用资源的链接：
 - [Aspose.Tasks for C++ API 参考](/tasks/cpp/)
+
+## Aspose.Tasks for Python 通过.NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Tasks for Python 通过 .NET 产品标志](../home_4.png)
+
+Aspose.Tasks for Python via .NET 是一个本地类库，它使 Python 应用程序无需使用 Microsoft Project 即可读写 MPP/XML 文件。 该组件提供了一个易于使用的 API 来操作项目文件，与从头开发类似功能相比节省了时间和金钱。
+
+{{% /alert %}}
+
+这些是一些有用资源的链接：
+- [Aspose.Tasks for Python 通过 .NET API 参考](/tasks/python-net/)

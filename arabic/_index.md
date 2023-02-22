@@ -47,3 +47,16 @@ Aspose.Tasks for C ++ هي مكتبة فئة أصلية تمكن تطبيقات 
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Tasks لمرجع API C ++](/tasks/cpp/)
+
+## Aspose.Tasks for Python عبر .NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Tasks for Python عبر .NET Product Logo](../home_4.png)
+
+Aspose.Tasks for Python عبر .NET هي مكتبة فئة أصلية تمكن تطبيقات Python من قراءة وكتابة ملفات MPP / XML دون استخدام Microsoft Project. يوفر المكون واجهة برمجة تطبيقات سهلة الاستخدام لمعالجة ملفات المشروع ، مما يوفر الوقت والمال مقارنة بتطوير ميزات مماثلة من البداية.
+
+{{% /alert %}}
+
+هذه روابط لبعض المصادر المفيدة:
+- [Aspose.Tasks for Python عبر .NET API Reference](/tasks/python-net/)
