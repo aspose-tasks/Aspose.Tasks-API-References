@@ -1,0 +1,23 @@
+---
+title: ProgressLines.DisplayAtCurrentDate
+second_title: Aspose.Tasks for .NET API 参考
+description: ProgressLines 财产. 获取或设置一个值指示是否显示当前日期的进度线
+type: docs
+weight: 50
+url: /zh/net/aspose.tasks.visualization/progresslines/displayatcurrentdate/
+---
+## ProgressLines.DisplayAtCurrentDate property
+
+获取或设置一个值，指示是否显示当前日期的进度线。
+
+```csharp
+public bool DisplayAtCurrentDate { get; set; }
+```
+
+### 也可以看看
+
+* class [ProgressLines](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../progresslines/)
+* 部件 [Aspose.Tasks](../../../)
+
+

@@ -1,0 +1,24 @@
+---
+title: PageInfo.PageSettings
+second_title: Aspose.Tasks for .NET API 参考
+description: PageInfo 财产. 获取一个实例PageSettings指定页面打印设置的类
+type: docs
+weight: 70
+url: /zh/net/aspose.tasks.visualization/pageinfo/pagesettings/
+---
+## PageInfo.PageSettings property
+
+获取一个实例`PageSettings`指定页面打印设置的类。
+
+```csharp
+public PageSettings PageSettings { get; }
+```
+
+### 也可以看看
+
+* class [PageSettings](../../pagesettings/)
+* class [PageInfo](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../pageinfo/)
+* 部件 [Aspose.Tasks](../../../)
+
+

@@ -1,0 +1,31 @@
+---
+title: Delegate ResourceToColumnTextConverter
+second_title: Aspose.Tasks for .NET API 参考
+description: 资源的数据到列的字符串转换器
+type: docs
+weight: 2990
+url: /zh/net/aspose.tasks.visualization/resourcetocolumntextconverter/
+---
+## ResourceToColumnTextConverter delegate
+
+资源的数据到列的字符串转换器。
+
+```csharp
+public delegate string ResourceToColumnTextConverter(Resource resource);
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| resource | Resource | 当前资源。 |
+
+### 返回值
+
+列的字符串数据。
+
+### 也可以看看
+
+* class [Resource](../../aspose.tasks/resource/)
+* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* 部件 [Aspose.Tasks](../../)
+
+

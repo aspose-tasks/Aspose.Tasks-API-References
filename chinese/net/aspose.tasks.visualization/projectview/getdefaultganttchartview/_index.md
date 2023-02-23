@@ -1,0 +1,27 @@
+---
+title: ProjectView.GetDefaultGanttChartView
+second_title: Aspose.Tasks for .NET API 参考
+description: ProjectView 方法. 包括 id指标名称持续时间开始和完成任务列
+type: docs
+weight: 30
+url: /zh/net/aspose.tasks.visualization/projectview/getdefaultganttchartview/
+---
+## ProjectView.GetDefaultGanttChartView method
+
+包括 id、指标、名称、持续时间、开始和完成任务列。
+
+```csharp
+public static ProjectView GetDefaultGanttChartView()
+```
+
+### 返回值
+
+包含列表的视图[`GanttChartColumn`](../../ganttchartcolumn/).
+
+### 也可以看看
+
+* class [ProjectView](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../projectview/)
+* 部件 [Aspose.Tasks](../../../)
+
+

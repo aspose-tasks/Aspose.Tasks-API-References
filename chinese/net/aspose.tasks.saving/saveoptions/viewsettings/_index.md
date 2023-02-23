@@ -1,0 +1,30 @@
+---
+title: SaveOptions.ViewSettings
+second_title: Aspose.Tasks for .NET API 参考
+description: SaveOptions 财产. 获取或设置视图View  渲染您可以使用此选项明确指定应将哪个视图保存为 PDFHTML 或图像格式 如果设置了此属性PresentationFormat保存项目时忽略属性 视图应来自以下屏幕之一Screen  甘特图 TaskSheet TaskUsage ResourceSheet ResourceUsage
+type: docs
+weight: 240
+url: /zh/net/aspose.tasks.saving/saveoptions/viewsettings/
+---
+## SaveOptions.ViewSettings property
+
+获取或设置视图（[`View`](../view/) ） 渲染。您可以使用此选项明确指定应将哪个视图保存为 PDF、HTML 或图像格式。 如果设置了此属性，[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)保存项目时忽略属性。 视图应来自以下屏幕之一（（[`Screen`](../../../aspose.tasks/view/screen/) )): (甘特图, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
+
+```csharp
+public View ViewSettings { get; set; }
+```
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentException | 当调用 set 方法并提供不支持 Screen 属性值的 View 类实例时。 |
+
+### 也可以看看
+
+* class [View](../../../aspose.tasks/view/)
+* class [SaveOptions](../)
+* 命名空间 [Aspose.Tasks.Saving](../../saveoptions/)
+* 部件 [Aspose.Tasks](../../../)
+
+

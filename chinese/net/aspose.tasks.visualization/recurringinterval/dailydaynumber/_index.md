@@ -1,0 +1,23 @@
+---
+title: RecurringInterval.DailyDayNumber
+second_title: Aspose.Tasks for .NET API 参考
+description: RecurringInterval 财产. 获取或设置每天的天数
+type: docs
+weight: 20
+url: /zh/net/aspose.tasks.visualization/recurringinterval/dailydaynumber/
+---
+## RecurringInterval.DailyDayNumber property
+
+获取或设置每天的天数。
+
+```csharp
+public int DailyDayNumber { get; set; }
+```
+
+### 也可以看看
+
+* class [RecurringInterval](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../recurringinterval/)
+* 部件 [Aspose.Tasks](../../../)
+
+

@@ -1,0 +1,37 @@
+---
+title: Enum TimescaleUnit
+second_title: Aspose.Tasks for .NET API 参考
+description: Aspose.Tasks.Visualization.TimescaleUnit 枚举. 指定甘特图或其他时间分段视图中时间刻度的任何层的时间单位
+type: docs
+weight: 3100
+url: /zh/net/aspose.tasks.visualization/timescaleunit/
+---
+## TimescaleUnit enumeration
+
+指定甘特图或其他时间分段视图中时间刻度的任何层的时间单位。
+
+```csharp
+public enum TimescaleUnit
+```
+
+### 价值观
+
+| 姓名 | 价值 | 描述 |
+| --- | --- | --- |
+| None | `-1` | 表示无。时间刻度层是隐藏的。 |
+| Minutes | `0` | 表示分钟时间刻度单位。 |
+| Hours | `1` | 表示小时时间刻度单位。 |
+| Days | `2` | 表示天时间刻度单位。 |
+| Weeks | `3` | 表示周时间刻度单位。 |
+| ThirdsOfMonths | `4` | 表示三分之一个月的时间刻度单位。 |
+| Months | `5` | 表示月时间刻度单位。 |
+| Quarters | `6` | 表示季度时间刻度单位。 |
+| HalfYears | `7` | 表示半年时间刻度单位。 |
+| Years | `8` | 表示年时间刻度单位。 |
+
+### 也可以看看
+
+* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* 部件 [Aspose.Tasks](../../)
+
+

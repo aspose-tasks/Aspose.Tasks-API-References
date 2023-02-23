@@ -1,0 +1,23 @@
+---
+title: SaveOptions.PageCount
+second_title: Aspose.Tasks for .NET API 参考
+description: SaveOptions 财产. 获取或设置项目的页数
+type: docs
+weight: 110
+url: /zh/net/aspose.tasks.saving/saveoptions/pagecount/
+---
+## SaveOptions.PageCount property
+
+获取或设置项目的页数。
+
+```csharp
+public int PageCount { get; }
+```
+
+### 也可以看看
+
+* class [SaveOptions](../)
+* 命名空间 [Aspose.Tasks.Saving](../../saveoptions/)
+* 部件 [Aspose.Tasks](../../../)
+
+

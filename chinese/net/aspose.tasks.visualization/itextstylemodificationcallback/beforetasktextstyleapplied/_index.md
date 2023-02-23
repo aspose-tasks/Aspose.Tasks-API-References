@@ -1,0 +1,28 @@
+---
+title: ITextStyleModificationCallback.BeforeTaskTextStyleApplied
+second_title: Aspose.Tasks for .NET API 参考
+description: ITextStyleModificationCallback 方法. 在以下视图中呈现任务行的表格单元格之前调用的方法 甘特图任务表任务使用情况.
+type: docs
+weight: 10
+url: /zh/net/aspose.tasks.visualization/itextstylemodificationcallback/beforetasktextstyleapplied/
+---
+## ITextStyleModificationCallback.BeforeTaskTextStyleApplied method
+
+在以下视图中呈现任务行的表格单元格之前调用的方法： '甘特图'、'任务表'、'任务使用情况'.
+
+```csharp
+public void BeforeTaskTextStyleApplied(TaskTextStyleEventArgs args)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| args | TaskTextStyleEventArgs | 这[`TaskTextStyleEventArgs`](../../tasktextstyleeventargs/)目的。 |
+
+### 也可以看看
+
+* class [TaskTextStyleEventArgs](../../tasktextstyleeventargs/)
+* interface [ITextStyleModificationCallback](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../itextstylemodificationcallback/)
+* 部件 [Aspose.Tasks](../../../)
+
+

@@ -1,0 +1,28 @@
+---
+title: IAlgorithm1.Alg
+second_title: Aspose.Tasks for .NET API 参考
+description: IAlgorithm 方法. 处理列表中的对象之后调用PreAlg
+type: docs
+weight: 10
+url: /zh/net/aspose.tasks.util/ialgorithm-1/alg/
+---
+## IAlgorithm&lt;T&gt;.Alg method
+
+处理列表中的对象。之后调用[`PreAlg`](../prealg/);
+
+```csharp
+public void Alg(T el, int index)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| el | T | 处理对象。 |
+| index | Int32 | 对象的索引。 |
+
+### 也可以看看
+
+* interface [IAlgorithm&lt;T&gt;](../)
+* 命名空间 [Aspose.Tasks.Util](../../ialgorithm-1/)
+* 部件 [Aspose.Tasks](../../../)
+
+

@@ -1,0 +1,24 @@
+---
+title: RiskAnalyzer.Settings
+second_title: Aspose.Tasks for .NET API 参考
+description: RiskAnalyzer 财产. 获取或设置的实例RiskAnalysisSettings定义风险分析的必要设置的类
+type: docs
+weight: 20
+url: /zh/net/aspose.tasks.riskanalysis/riskanalyzer/settings/
+---
+## RiskAnalyzer.Settings property
+
+获取或设置的实例[`RiskAnalysisSettings`](../../riskanalysissettings/)定义风险分析的必要设置的类。
+
+```csharp
+public RiskAnalysisSettings Settings { get; set; }
+```
+
+### 也可以看看
+
+* class [RiskAnalysisSettings](../../riskanalysissettings/)
+* class [RiskAnalyzer](../)
+* 命名空间 [Aspose.Tasks.RiskAnalysis](../../riskanalyzer/)
+* 部件 [Aspose.Tasks](../../../)
+
+

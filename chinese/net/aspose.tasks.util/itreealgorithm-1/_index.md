@@ -1,0 +1,34 @@
+---
+title: Interface ITreeAlgorithmT
+second_title: Aspose.Tasks for .NET API 参考
+description: Aspose.Tasks.Util.ITreeAlgorithm1T 界面. 表示可以应用于对象树的算法T.
+type: docs
+weight: 2410
+url: /zh/net/aspose.tasks.util/itreealgorithm-1/
+---
+## ITreeAlgorithm&lt;T&gt; interface
+
+表示可以应用于对象树的算法*T*.
+
+```csharp
+public interface ITreeAlgorithm<in T>
+```
+
+| 范围 | 描述 |
+| --- | --- |
+| T | 应用方法接口的对象类型。 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [Alg](../../aspose.tasks.util/itreealgorithm-1/alg/)(T, int) | 处理树的一个节点。 |
+| [PostAlg](../../aspose.tasks.util/itreealgorithm-1/postalg/)(T, int) | 在处理树的节点后调用。 |
+| [PreAlg](../../aspose.tasks.util/itreealgorithm-1/prealg/)(T, int) | 在处理树的节点之前调用。 |
+
+### 也可以看看
+
+* 命名空间 [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* 部件 [Aspose.Tasks](../../)
+
+

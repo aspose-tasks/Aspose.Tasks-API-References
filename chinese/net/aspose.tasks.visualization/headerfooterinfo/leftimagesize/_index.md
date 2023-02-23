@@ -1,0 +1,23 @@
+---
+title: HeaderFooterInfo.LeftImageSize
+second_title: Aspose.Tasks for .NET API 参考
+description: HeaderFooterInfo 财产. 获取或设置左图显示尺寸
+type: docs
+weight: 60
+url: /zh/net/aspose.tasks.visualization/headerfooterinfo/leftimagesize/
+---
+## HeaderFooterInfo.LeftImageSize property
+
+获取或设置左图显示尺寸。
+
+```csharp
+public Size LeftImageSize { get; set; }
+```
+
+### 也可以看看
+
+* class [HeaderFooterInfo](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../headerfooterinfo/)
+* 部件 [Aspose.Tasks](../../../)
+
+

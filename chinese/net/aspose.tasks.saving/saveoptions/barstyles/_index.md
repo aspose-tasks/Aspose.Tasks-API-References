@@ -1,0 +1,24 @@
+---
+title: SaveOptions.BarStyles
+second_title: Aspose.Tasks for .NET API 参考
+description: SaveOptions 财产. 获取或设置实例的列表BarStyle出现在项目视图中的类
+type: docs
+weight: 10
+url: /zh/net/aspose.tasks.saving/saveoptions/barstyles/
+---
+## SaveOptions.BarStyles property
+
+获取或设置实例的列表[`BarStyle`](../../../aspose.tasks.visualization/barstyle/)出现在项目视图中的类。
+
+```csharp
+public List<BarStyle> BarStyles { get; set; }
+```
+
+### 也可以看看
+
+* class [BarStyle](../../../aspose.tasks.visualization/barstyle/)
+* class [SaveOptions](../)
+* 命名空间 [Aspose.Tasks.Saving](../../saveoptions/)
+* 部件 [Aspose.Tasks](../../../)
+
+

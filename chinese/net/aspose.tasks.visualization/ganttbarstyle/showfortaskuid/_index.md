@@ -1,0 +1,23 @@
+---
+title: GanttBarStyle.ShowForTaskUid
+second_title: Aspose.Tasks for .NET API 参考
+description: GanttBarStyle 财产. 获取或设置应用样式的任务的唯一 ID适用于甘特图中特定于任务的条形样式请参阅CustomBarStyles .
+type: docs
+weight: 210
+url: /zh/net/aspose.tasks.visualization/ganttbarstyle/showfortaskuid/
+---
+## GanttBarStyle.ShowForTaskUid property
+
+获取或设置应用样式的任务的唯一 ID。适用于甘特图中特定于任务的条形样式（请参阅[`CustomBarStyles`](../../../aspose.tasks/ganttchartview/custombarstyles/) ).
+
+```csharp
+public int? ShowForTaskUid { get; set; }
+```
+
+### 也可以看看
+
+* class [GanttBarStyle](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../ganttbarstyle/)
+* 部件 [Aspose.Tasks](../../../)
+
+

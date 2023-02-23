@@ -1,0 +1,27 @@
+---
+title: ProjectView.GetDefaultResourceUsageView
+second_title: Aspose.Tasks for .NET API 参考
+description: ProjectView 方法. 包括 Uid名称开始完成和工作资源列
+type: docs
+weight: 50
+url: /zh/net/aspose.tasks.visualization/projectview/getdefaultresourceusageview/
+---
+## ProjectView.GetDefaultResourceUsageView method
+
+包括 Uid、名称、开始、完成和工作资源列。
+
+```csharp
+public static ProjectView GetDefaultResourceUsageView()
+```
+
+### 返回值
+
+包含列表的视图[`ResourceViewColumn`](../../resourceviewcolumn/).
+
+### 也可以看看
+
+* class [ProjectView](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../projectview/)
+* 部件 [Aspose.Tasks](../../../)
+
+

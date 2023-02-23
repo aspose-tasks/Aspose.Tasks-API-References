@@ -1,0 +1,28 @@
+---
+title: TreeAlgorithmBase1.Alg
+second_title: Aspose.Tasks for .NET API 参考
+description: TreeAlgorithmBase 方法. 处理树的一个节点
+type: docs
+weight: 10
+url: /zh/net/aspose.tasks.util/treealgorithmbase-1/alg/
+---
+## TreeAlgorithmBase&lt;T&gt;.Alg method
+
+处理树的一个节点。
+
+```csharp
+public abstract void Alg(T el, int level)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| el | T | 要处理的节点。 |
+| level | Int32 | 树节点级别。 |
+
+### 也可以看看
+
+* class [TreeAlgorithmBase&lt;T&gt;](../)
+* 命名空间 [Aspose.Tasks.Util](../../treealgorithmbase-1/)
+* 部件 [Aspose.Tasks](../../../)
+
+

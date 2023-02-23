@@ -1,0 +1,23 @@
+---
+title: PdfDigitalSignatureDetails.Certificate
+second_title: Aspose.Tasks for .NET API 参考
+description: PdfDigitalSignatureDetails 财产. 获取或设置要签名的证书
+type: docs
+weight: 20
+url: /zh/net/aspose.tasks.saving/pdfdigitalsignaturedetails/certificate/
+---
+## PdfDigitalSignatureDetails.Certificate property
+
+获取或设置要签名的证书。
+
+```csharp
+public X509Certificate2 Certificate { get; set; }
+```
+
+### 也可以看看
+
+* class [PdfDigitalSignatureDetails](../)
+* 命名空间 [Aspose.Tasks.Saving](../../pdfdigitalsignaturedetails/)
+* 部件 [Aspose.Tasks](../../../)
+
+

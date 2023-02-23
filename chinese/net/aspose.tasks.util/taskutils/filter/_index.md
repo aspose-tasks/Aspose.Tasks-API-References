@@ -1,0 +1,34 @@
+---
+title: TaskUtils.Filter
+second_title: Aspose.Tasks for .NET API 参考
+description: TaskUtils 方法. 构建满足条件的新任务树
+type: docs
+weight: 20
+url: /zh/net/aspose.tasks.util/taskutils/filter/
+---
+## TaskUtils.Filter method
+
+构建满足条件的新任务树。
+
+```csharp
+public static Task Filter(Task root, ICondition<Task> cond)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| root | Task | 树的根。 |
+| cond | ICondition`1 | 适用条件。 |
+
+### 返回值
+
+一棵新树的根。
+
+### 也可以看看
+
+* class [Task](../../../aspose.tasks/task/)
+* interface [ICondition&lt;T&gt;](../../icondition-1/)
+* class [TaskUtils](../)
+* 命名空间 [Aspose.Tasks.Util](../../taskutils/)
+* 部件 [Aspose.Tasks](../../../)
+
+

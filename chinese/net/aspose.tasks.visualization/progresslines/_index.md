@@ -1,0 +1,52 @@
+---
+title: Class ProgressLines
+second_title: Aspose.Tasks for .NET API 参考
+description: Aspose.Tasks.Visualization.ProgressLines 班级. 表示甘特图视图中的进度线
+type: docs
+weight: 2940
+url: /zh/net/aspose.tasks.visualization/progresslines/
+---
+## ProgressLines class
+
+表示甘特图视图中的进度线。
+
+```csharp
+public class ProgressLines
+```
+
+## 构造函数
+
+| 姓名 | 描述 |
+| --- | --- |
+| [ProgressLines](progresslines/)() | 默认构造函数。 |
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate/) { get; set; } | 获取或设置显示进度线的日期。 |
+| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart/) { get; set; } | 获取或设置一个值，该值指示是否从项目开始日期开始显示进度线。 |
+| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat/) { get; set; } | 获取或设置日期格式（[`DateLabel`](../datelabel/) ). |
+| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate/) { get; set; } | 获取或设置一个值，指示是否显示当前日期的进度线。 |
+| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals/) { get; set; } | 获取或设置一个值，该值指示是否以循环间隔显示进度线。 |
+| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected/) { get; set; } | 获取或设置一个值，该值指示是否在选定日期显示进度线。 |
+| [Font](../../aspose.tasks.visualization/progresslines/font/) { get; set; } | 获取或设置用于进度线标签的字体。 |
+| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan/) { get; set; } | 获取或设置一个值，指示是否显示基准计划或实际的进度线。 |
+| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor/) { get; set; } | 获取或设置当前进度线的线条颜色。 |
+| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern/) { get; set; } | 获取或设置当前进度线的线型。 [`LinePattern`](./linepattern/). |
+| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor/) { get; set; } | 获取或设置其他进度条的颜色。 |
+| [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern/) { get; set; } | 获取或设置其他进度线的线条模式。 |
+| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor/) { get; set; } | 获取或设置其他进度点的颜色。 |
+| [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape/) { get; set; } | 获取或设置其他进度线的进度点形状。 |
+| [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor/) { get; set; } | 获取或设置进度点的颜色。 |
+| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape/) { get; set; } | 获取或设置进度点形状。 [`GanttBarEndShape`](../ganttbarendshape/). |
+| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval/) { get; set; } | 获取或设置循环间隔。 [`RecurringInterval`](./recurringinterval/). |
+| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates/) { get; } | 获取选定日期的列表以显示其进度线。 |
+| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate/) { get; set; } | 获取或设置一个值，该值指示是否显示每个进度线的日期。 |
+
+### 也可以看看
+
+* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* 部件 [Aspose.Tasks](../../)
+
+

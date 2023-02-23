@@ -1,0 +1,23 @@
+---
+title: BarStyle.EndShapeColor
+second_title: Aspose.Tasks for .NET API 参考
+description: BarStyle 财产. 获取或设置Color条形末端的形状.
+type: docs
+weight: 70
+url: /zh/net/aspose.tasks.visualization/barstyle/endshapecolor/
+---
+## BarStyle.EndShapeColor property
+
+获取或设置Color条形末端的形状.
+
+```csharp
+public Color EndShapeColor { get; set; }
+```
+
+### 也可以看看
+
+* class [BarStyle](../)
+* 命名空间 [Aspose.Tasks.Visualization](../../barstyle/)
+* 部件 [Aspose.Tasks](../../../)
+
+
