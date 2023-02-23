@@ -1,0 +1,205 @@
+---
+title: GetPageCount
+second_title: .NET API 참조용 Aspose.Tasks
+description: 주어진 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.SaveOptionsaspose.tasks.saving/saveoptions/ .
+type: docs
+weight: 1080
+url: /ko/net/aspose.tasks/project/getpagecount/
+---
+## GetPageCount(SaveOptions) {#getpagecount_1}
+
+주어진 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.[`SaveOptions`](../../../aspose.tasks.saving/saveoptions/) .
+
+```csharp
+public int GetPageCount(SaveOptions saveOptions)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| saveOptions | SaveOptions | 페이지 수를 가져오는 저장 옵션입니다. |
+
+### 반환 값
+
+렌더링할 페이지 수.
+
+### 예
+
+HtmlSaveOptions의 이 예제 인스턴스와 결과 HTML의 페이지 수가 콘솔에 기록됩니다.
+
+```csharp
+[C#]
+Project project = new Project(@"test.mpp");
+HtmlSaveOptions saveOptions = new HtmlSaveOptions
+{
+    IncludeProjectNameInPageHeader = false,
+    IncludeProjectNameInTitle = false,
+    PageSize = PageSize.A4,
+    Timescale = Timescale.Days,
+    StartDate = project.Get(Prj.StartDate).Date,
+    EndDate = project.Get(Prj.FinishDate).Date
+};
+
+Console.WriteLine(project.GetPageCount(saveOptions));
+```
+
+### 또한보십시오
+
+* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+* class [Project](../)
+* 네임스페이스 [Aspose.Tasks](../../project/)
+* 집회 [Aspose.Tasks](../../../)
+
+---
+
+## GetPageCount() {#getpagecount}
+
+기본값을 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.[`Timescale`](../../../aspose.tasks.visualization/timescale/) (일).
+
+```csharp
+public int GetPageCount()
+```
+
+### 반환 값
+
+렌더링할 페이지 수입니다.
+
+### 또한보십시오
+
+* class [Project](../)
+* 네임스페이스 [Aspose.Tasks](../../project/)
+* 집회 [Aspose.Tasks](../../../)
+
+---
+
+## GetPageCount(Timescale) {#getpagecount_6}
+
+주어진 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.[`Timescale`](../../../aspose.tasks.visualization/timescale/) .
+
+```csharp
+public int GetPageCount(Timescale scale)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| scale | Timescale | 페이지 수를 가져올 배율입니다. |
+
+### 반환 값
+
+렌더링할 페이지 수입니다.
+
+### 또한보십시오
+
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 네임스페이스 [Aspose.Tasks](../../project/)
+* 집회 [Aspose.Tasks](../../../)
+
+---
+
+## GetPageCount(PresentationFormat) {#getpagecount_4}
+
+기본값을 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.[`Timescale`](../../../aspose.tasks.visualization/timescale/) (일) 및 주어진[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)
+
+```csharp
+public int GetPageCount(PresentationFormat format)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| format | PresentationFormat | 페이지 수를 가져올 형식입니다. |
+
+### 반환 값
+
+렌더링할 페이지 수입니다.
+
+### 또한보십시오
+
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* class [Project](../)
+* 네임스페이스 [Aspose.Tasks](../../project/)
+* 집회 [Aspose.Tasks](../../../)
+
+---
+
+## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
+
+주어진 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.[`Timescale`](../../../aspose.tasks.visualization/timescale/) 그리고[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) .
+
+```csharp
+public int GetPageCount(PresentationFormat format, Timescale scale)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| format | PresentationFormat | 페이지 수를 가져올 형식입니다. |
+| scale | Timescale | 페이지 수를 가져올 배율입니다. |
+
+### 반환 값
+
+렌더링할 페이지 수.
+
+### 또한보십시오
+
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 네임스페이스 [Aspose.Tasks](../../project/)
+* 집회 [Aspose.Tasks](../../../)
+
+---
+
+## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
+
+주어진 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.[`Timescale`](../../../aspose.tasks.visualization/timescale/) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) 및 날짜 범위.
+
+```csharp
+public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, DateTime endDate)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| pageSize | PageSize | 페이지 수를 가져올 크기입니다. |
+| scale | Timescale | 페이지 수를 가져올 배율입니다. |
+| startDate | DateTime | 페이지 수를 가져올 시작 날짜입니다. |
+| endDate | DateTime | 페이지 수를 가져올 종료 날짜입니다. |
+
+### 반환 값
+
+렌더링할 페이지 수입니다.
+
+### 또한보십시오
+
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 네임스페이스 [Aspose.Tasks](../../project/)
+* 집회 [Aspose.Tasks](../../../)
+
+---
+
+## GetPageCount(PageSize, Timescale) {#getpagecount_2}
+
+주어진 사용하여 렌더링할 프로젝트의 페이지 수를 반환합니다.[`Timescale`](../../../aspose.tasks.visualization/timescale/) 그리고[`PageSize`](../../../aspose.tasks.visualization/pagesize/) .
+
+```csharp
+public int GetPageCount(PageSize pageSize, Timescale scale)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| pageSize | PageSize | 페이지 수를 가져올 크기입니다. |
+| scale | Timescale | 페이지 수를 가져올 배율입니다. |
+
+### 반환 값
+
+렌더링할 페이지 수입니다.
+
+### 또한보십시오
+
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 네임스페이스 [Aspose.Tasks](../../project/)
+* 집회 [Aspose.Tasks](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
