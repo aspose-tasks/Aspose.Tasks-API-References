@@ -1,9 +1,9 @@
 ---
-title: RecurringInterval
+title: Class RecurringInterval
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет повторяющиеся интервалы используемые в строках прогресса представления диаграммы Ганта.
+description: Aspose.Tasks.Visualization.RecurringInterval сорт. Представляет повторяющиеся интервалы используемые в строках прогресса представления диаграммы Ганта.
 type: docs
-weight: 2940
+weight: 2960
 url: /ru/net/aspose.tasks.visualization/recurringinterval/
 ---
 ## RecurringInterval class
@@ -18,27 +18,27 @@ public class RecurringInterval
 
 | Имя | Описание |
 | --- | --- |
-| [RecurringInterval](recurringinterval)() | Конструктор по умолчанию. |
+| [RecurringInterval](recurringinterval/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DailyDayNumber](../../aspose.tasks.visualization/recurringinterval/dailydaynumber) { get; set; } | Получает или задает номер дня дня. |
-| [DailyWorkday](../../aspose.tasks.visualization/recurringinterval/dailyworkday) { get; set; } | Получает или задает значение, указывающее, является ли день рабочим днем для ежедневных строк прогресса. |
-| [Interval](../../aspose.tasks.visualization/recurringinterval/interval) { get; set; } | Получает или задает повторяющийся интервал. Может быть любым значением[`Interval`](./interval) тип. |
-| [MonthlyDay](../../aspose.tasks.visualization/recurringinterval/monthlyday) { get; set; } | Получает или задает значение, указывающее, показывать ли ежемесячные строки прогресса по дням. |
-| [MonthlyDayDayNumber](../../aspose.tasks.visualization/recurringinterval/monthlydaydaynumber) { get; set; } | Получает или задает номер дня в ежемесячных строках прогресса. |
-| [MonthlyDayMonthNumber](../../aspose.tasks.visualization/recurringinterval/monthlydaymonthnumber) { get; set; } | Получает или задает номер месяца в ежемесячных строках прогресса. |
-| [MonthlyFirstLast](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlast) { get; set; } | Получает или задает значение, указывающее, отображать ли строки прогресса по первому или последнему заранее определенному дню. |
-| [MonthlyFirstLastDay](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlastday) { get; set; } | Получает или задает тип первого или последнего дня ежемесячных строк прогресса. |
-| [MonthlyFirstLastMonthNumber](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlastmonthnumber) { get; set; } | Получает или задает номер месяца в строках прогресса, которые отображаются по первому или последнему заранее определенному дню. |
-| [WeeklyDays](../../aspose.tasks.visualization/recurringinterval/weeklydays) { get; } | Получает список дней для недельных строк прогресса. |
-| [WeeklyWeekNumber](../../aspose.tasks.visualization/recurringinterval/weeklyweeknumber) { get; set; } | Получает или задает номер недели для недельных строк прогресса. |
+| [DailyDayNumber](../../aspose.tasks.visualization/recurringinterval/dailydaynumber/) { get; set; } | Получает или задает номер дня дня. |
+| [DailyWorkday](../../aspose.tasks.visualization/recurringinterval/dailyworkday/) { get; set; } | Получает или задает значение, указывающее, является ли день рабочим днем для ежедневных строк прогресса. |
+| [Interval](../../aspose.tasks.visualization/recurringinterval/interval/) { get; set; } | Получает или задает повторяющийся интервал. Может быть любым значением[`Interval`](./interval/) тип. |
+| [MonthlyDay](../../aspose.tasks.visualization/recurringinterval/monthlyday/) { get; set; } | Получает или задает значение, указывающее, показывать ли ежемесячные строки прогресса по дням. |
+| [MonthlyDayDayNumber](../../aspose.tasks.visualization/recurringinterval/monthlydaydaynumber/) { get; set; } | Получает или задает номер дня в ежемесячных строках прогресса. |
+| [MonthlyDayMonthNumber](../../aspose.tasks.visualization/recurringinterval/monthlydaymonthnumber/) { get; set; } | Получает или задает номер месяца в ежемесячных строках прогресса. |
+| [MonthlyFirstLast](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlast/) { get; set; } | Получает или задает значение, указывающее, отображать ли строки прогресса по первому или последнему заранее определенному дню. |
+| [MonthlyFirstLastDay](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlastday/) { get; set; } | Получает или задает тип первого или последнего дня ежемесячных строк прогресса. |
+| [MonthlyFirstLastMonthNumber](../../aspose.tasks.visualization/recurringinterval/monthlyfirstlastmonthnumber/) { get; set; } | Получает или задает номер месяца в строках прогресса, которые отображаются по первому или последнему заранее определенному дню. |
+| [WeeklyDays](../../aspose.tasks.visualization/recurringinterval/weeklydays/) { get; } | Получает список дней для недельных строк прогресса. |
+| [WeeklyWeekNumber](../../aspose.tasks.visualization/recurringinterval/weeklyweeknumber/) { get; set; } | Получает или задает номер недели для недельных строк прогресса. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

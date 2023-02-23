@@ -1,14 +1,14 @@
 ---
-title: GetPageCount
+title: Project.GetPageCount
 second_title: Aspose.Tasks for .NET API 参考
-description: 返回要使用给定渲染的项目的页数SaveOptionsaspose.tasks.saving/saveoptions.
+description: Project 方法. 返回要使用给定呈现的项目的页数SaveOptions.
 type: docs
-weight: 300
+weight: 1080
 url: /zh/net/aspose.tasks/project/getpagecount/
 ---
 ## GetPageCount(SaveOptions) {#getpagecount_1}
 
-返回要使用给定渲染的项目的页数[`SaveOptions`](../../../aspose.tasks.saving/saveoptions).
+返回要使用给定呈现的项目的页数[`SaveOptions`](../../../aspose.tasks.saving/saveoptions/).
 
 ```csharp
 public int GetPageCount(SaveOptions saveOptions)
@@ -24,7 +24,7 @@ public int GetPageCount(SaveOptions saveOptions)
 
 ### 例子
 
-在此示例中的 HtmlSaveOptions 实例和生成的 HTML 中的页数被写入控制台。
+在这个 HtmlSaveOptions 示例实例中，结果 HTML 中的页数被写入控制台。
 
 ```csharp
 [C#]
@@ -44,16 +44,16 @@ Console.WriteLine(project.GetPageCount(saveOptions));
 
 ### 也可以看看
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions)
-* class [Project](../../project)
-* 命名空间 [Aspose.Tasks](../../project)
+* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+* class [Project](../)
+* 命名空间 [Aspose.Tasks](../../project/)
 * 部件 [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount() {#getpagecount}
 
-返回要使用默认值呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale)（天）.
+返回要使用默认呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale/)（天）.
 
 ```csharp
 public int GetPageCount()
@@ -65,15 +65,15 @@ public int GetPageCount()
 
 ### 也可以看看
 
-* class [Project](../../project)
-* 命名空间 [Aspose.Tasks](../../project)
+* class [Project](../)
+* 命名空间 [Aspose.Tasks](../../project/)
 * 部件 [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(Timescale) {#getpagecount_6}
 
-返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale).
+返回要使用给定呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale/).
 
 ```csharp
 public int GetPageCount(Timescale scale)
@@ -89,16 +89,16 @@ public int GetPageCount(Timescale scale)
 
 ### 也可以看看
 
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* 命名空间 [Aspose.Tasks](../../project)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 命名空间 [Aspose.Tasks](../../project/)
 * 部件 [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat) {#getpagecount_4}
 
-返回要使用默认值呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale) （天）并给出[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
+返回要使用默认呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale/) （天）并给予[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)
 
 ```csharp
 public int GetPageCount(PresentationFormat format)
@@ -114,16 +114,16 @@ public int GetPageCount(PresentationFormat format)
 
 ### 也可以看看
 
-* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
-* class [Project](../../project)
-* 命名空间 [Aspose.Tasks](../../project)
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* class [Project](../)
+* 命名空间 [Aspose.Tasks](../../project/)
 * 部件 [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
-返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale)和[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat).
+返回要使用给定呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale/)和[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/).
 
 ```csharp
 public int GetPageCount(PresentationFormat format, Timescale scale)
@@ -140,17 +140,17 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 
 ### 也可以看看
 
-* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* 命名空间 [Aspose.Tasks](../../project)
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 命名空间 [Aspose.Tasks](../../project/)
 * 部件 [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
-返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)和日期范围。
+返回要使用给定呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale/),[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)和日期范围.
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, DateTime endDate)
@@ -169,17 +169,17 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 
 ### 也可以看看
 
-* enum [PageSize](../../../aspose.tasks.visualization/pagesize)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* 命名空间 [Aspose.Tasks](../../project)
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 命名空间 [Aspose.Tasks](../../project/)
 * 部件 [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
-返回要使用给定渲染的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale)和[`PageSize`](../../../aspose.tasks.visualization/pagesize).
+返回要使用给定呈现的项目的页数[`Timescale`](../../../aspose.tasks.visualization/timescale/)和[`PageSize`](../../../aspose.tasks.visualization/pagesize/).
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale)
@@ -196,10 +196,10 @@ public int GetPageCount(PageSize pageSize, Timescale scale)
 
 ### 也可以看看
 
-* enum [PageSize](../../../aspose.tasks.visualization/pagesize)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* 命名空间 [Aspose.Tasks](../../project)
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* 命名空间 [Aspose.Tasks](../../project/)
 * 部件 [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

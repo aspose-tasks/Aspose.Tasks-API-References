@@ -1,9 +1,9 @@
 ---
-title: Baseline
+title: Class Baseline
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет базовые значения ресурса.
+description: Aspose.Tasks.Baseline сорт. Представляет базовые значения ресурса.
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.tasks/baseline/
 ---
 ## Baseline class
@@ -18,36 +18,36 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 
 | Имя | Описание |
 | --- | --- |
-| [Baseline](baseline)() | Конструктор по умолчанию. |
+| [Baseline](baseline/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Получает или задает уникальный номер записи базовых данных. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Получает или задает сметную стоимость работы, выполненной ресурсом для проекта на сегодняшний день. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Получает или задает бюджетную стоимость работы, запланированной для ресурса. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Получает или задает прогнозируемую стоимость ресурса при сохранении базового плана. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Получает или задает работу, назначенную ресурсу при сохранении базового плана. Объем назначенной работы для ресурса при сохранении базового плана. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Получает или задает уникальный номер записи базовых данных. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Получает или задает сметную стоимость работы, выполненной ресурсом для проекта на сегодняшний день. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Получает или задает бюджетную стоимость работы, запланированной для ресурса. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Получает или задает прогнозируемую стоимость ресурса при сохранении базового плана. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Получает или задает работу, назначенную ресурсу при сохранении базового плана. Объем назначенной работы для ресурса при сохранении базового плана. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом. |
-| [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Возвращает значение хэш-кода для базовой линии. |
-| [operator ==](../../aspose.tasks/baseline/op_equality) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan) | Возвращает значение, указывающее, больше ли этот экземпляр, чем указанный объект. |
-| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal) | Возвращает значение, указывающее, является ли этот экземпляр большим или равным указанному объекту. |
-| [operator !=](../../aspose.tasks/baseline/op_inequality) | Возвращает значение, указывающее, не равен ли этот экземпляр указанному объекту. |
-| [operator &lt;](../../aspose.tasks/baseline/op_lessthan) | Возвращает значение, указывающее, меньше ли данный экземпляр указанного объекта. |
-| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Возвращает значение, указывающее, меньше ли этот экземпляр или равен указанному объекту. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом. |
+| [Equals](../../aspose.tasks/baseline/equals/#equals)(Baseline) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| override [Equals](../../aspose.tasks/baseline/equals/#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| override [GetHashCode](../../aspose.tasks/baseline/gethashcode/)() | Возвращает значение хэш-кода для базовой линии. |
+| [operator ==](../../aspose.tasks/baseline/op_equality/) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan/) | Возвращает значение, указывающее, больше ли этот экземпляр, чем указанный объект. |
+| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal/) | Возвращает значение, указывающее, является ли этот экземпляр большим или равным указанному объекту. |
+| [operator !=](../../aspose.tasks/baseline/op_inequality/) | Возвращает значение, указывающее, не равен ли этот экземпляр указанному объекту. |
+| [operator &lt;](../../aspose.tasks/baseline/op_lessthan/) | Возвращает значение, указывающее, меньше ли данный экземпляр указанного объекта. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal/) | Возвращает значение, указывающее, меньше ли этот экземпляр или равен указанному объекту. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks)
+* пространство имен [Aspose.Tasks](../../aspose.tasks/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

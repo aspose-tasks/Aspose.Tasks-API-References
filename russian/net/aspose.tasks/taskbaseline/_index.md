@@ -1,9 +1,9 @@
 ---
-title: TaskBaseline
+title: Class TaskBaseline
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет базовый план задачи.
+description: Aspose.Tasks.TaskBaseline сорт. Представляет базовый план задачи.
 type: docs
-weight: 2070
+weight: 2080
 url: /ru/net/aspose.tasks/taskbaseline/
 ---
 ## TaskBaseline class
@@ -18,41 +18,41 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 
 | Имя | Описание |
 | --- | --- |
-| [TaskBaseline](taskbaseline)(Task) | Инициализирует новый экземпляр[`TaskBaseline`](../taskbaseline) класс. |
+| [TaskBaseline](taskbaseline/)(Task) | Инициализирует новый экземпляр`TaskBaseline` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Получает или задает уникальный номер записи базовых данных. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Получает или задает сметную стоимость работы, выполненной ресурсом для проекта на сегодняшний день. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Получает или задает бюджетную стоимость работы, запланированной для ресурса. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Получает или задает прогнозируемую стоимость ресурса при сохранении базового плана. |
-| [Duration](../../aspose.tasks/taskbaseline/duration) { get; set; } | Получает или задает запланированную продолжительность задачи при сохранении базового плана. |
-| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat) { get; set; } | Получает или задает формат для выражения продолжительности базового плана задачи. |
-| [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration) { get; set; } | Получает или задает значение, указывающее, была ли оценена базовая продолжительность задачи. |
-| [Finish](../../aspose.tasks/taskbaseline/finish) { get; set; } | Получает или задает запланированную дату окончания задачи при сохранении базового плана. |
-| [FixedCost](../../aspose.tasks/taskbaseline/fixedcost) { get; set; } | Получает или задает фиксированную стоимость задачи при сохранении базового плана. |
-| [Interim](../../aspose.tasks/taskbaseline/interim) { get; set; } | Получает или задает значение, указывающее, является ли это промежуточным базовым планом. |
-| [Start](../../aspose.tasks/taskbaseline/start) { get; set; } | Получает или задает запланированную дату начала задачи при сохранении базового плана. |
-| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata) { get; set; } | Получает или задает экземпляр TimephasedDataCollection для этого объекта. Поэтапные данные, связанные с базовым планом задачи. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Получает или задает работу, назначенную ресурсу при сохранении базового плана. Объем назначенной работы для ресурса при сохранении базового плана. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Получает или задает уникальный номер записи базовых данных. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Получает или задает сметную стоимость работы, выполненной ресурсом для проекта на сегодняшний день. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Получает или задает бюджетную стоимость работы, запланированной для ресурса. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Получает или задает прогнозируемую стоимость ресурса при сохранении базового плана. |
+| [Duration](../../aspose.tasks/taskbaseline/duration/) { get; set; } | Получает или задает запланированную продолжительность задачи при сохранении базового плана. |
+| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat/) { get; set; } | Получает или задает формат для выражения продолжительности базового плана задачи. |
+| [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration/) { get; set; } | Получает или задает значение, указывающее, была ли оценена базовая продолжительность задачи. |
+| [Finish](../../aspose.tasks/taskbaseline/finish/) { get; set; } | Получает или задает запланированную дату окончания задачи при сохранении базового плана. |
+| [FixedCost](../../aspose.tasks/taskbaseline/fixedcost/) { get; set; } | Получает или задает фиксированную стоимость задачи при сохранении базового плана. |
+| [Interim](../../aspose.tasks/taskbaseline/interim/) { get; set; } | Получает или задает значение, указывающее, является ли это промежуточным базовым планом. |
+| [Start](../../aspose.tasks/taskbaseline/start/) { get; set; } | Получает или задает запланированную дату начала задачи при сохранении базового плана. |
+| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata/) { get; set; } | Получает или задает экземпляр TimephasedDataCollection для этого объекта. Поэтапные данные, связанные с базовым планом задачи. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Получает или задает работу, назначенную ресурсу при сохранении базового плана. Объем назначенной работы для ресурса при сохранении базового плана. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом. |
-| [CompareTo](../../aspose.tasks/taskbaseline/compareto#compareto_1)(TaskBaseline) | Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом. |
-| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| override [Equals](../../aspose.tasks/taskbaseline/equals#equals_2)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [Equals](../../aspose.tasks/taskbaseline/equals#equals_1)(TaskBaseline) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту TaskBaseline. |
-| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode)() | Возвращает значение хеш-кода для экземпляра[`TaskBaseline`](../taskbaseline) класс. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом. |
+| [CompareTo](../../aspose.tasks/taskbaseline/compareto/#compareto_1)(TaskBaseline) | Реализация интерфейса IComparable. Сравнивает этот экземпляр с указанным базовым объектом. |
+| [Equals](../../aspose.tasks/baseline/equals/)(Baseline) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| override [Equals](../../aspose.tasks/taskbaseline/equals/#equals_2)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| [Equals](../../aspose.tasks/taskbaseline/equals/#equals_1)(TaskBaseline) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту TaskBaseline. |
+| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode/)() | Возвращает значение хеш-кода для экземпляра`TaskBaseline` класс. |
 
 ### Смотрите также
 
-* class [Baseline](../baseline)
-* пространство имен [Aspose.Tasks](../../aspose.tasks)
+* class [Baseline](../baseline/)
+* пространство имен [Aspose.Tasks](../../aspose.tasks/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

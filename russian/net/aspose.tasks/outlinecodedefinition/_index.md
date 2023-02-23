@@ -1,9 +1,9 @@
 ---
-title: OutlineCodeDefinition
+title: Class OutlineCodeDefinition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет определение структурного кода.
+description: Aspose.Tasks.OutlineCodeDefinition сорт. Представляет определение структурного кода.
 type: docs
-weight: 1030
+weight: 1040
 url: /ru/net/aspose.tasks/outlinecodedefinition/
 ---
 ## OutlineCodeDefinition class
@@ -18,30 +18,30 @@ public class OutlineCodeDefinition
 
 | Имя | Описание |
 | --- | --- |
-| [OutlineCodeDefinition](outlinecodedefinition)() | Инициализирует новый экземпляр[`OutlineCodeDefinition`](../outlinecodedefinition) учебный класс. |
+| [OutlineCodeDefinition](outlinecodedefinition/)() | Инициализирует новый экземпляр`OutlineCodeDefinition` сорт. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alias](../../aspose.tasks/outlinecodedefinition/alias) { get; set; } | Получает или задает псевдоним пользовательского кода схемы. |
-| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired) { get; set; } | Получает или задает значение, указывающее, должны ли новые коды иметь все уровни. Недоступно для корпоративных кодов. |
-| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise) { get; set; } | Получает или задает значение, указывающее, является ли настраиваемый код структуры корпоративным настраиваемым кодом структуры. |
-| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias) { get; set; } | Получает или задает ссылку на другое настраиваемое поле, псевдонимом которого является это определение кода схемы. |
-| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid) { get; set; } | Получает или задает номер поля кода схемы. |
-| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname) { get; set; } | Получает или задает имя пользовательского кода схемы. |
-| [Guid](../../aspose.tasks/outlinecodedefinition/guid) { get; set; } | Получает или задает Guid кода схемы. |
-| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly) { get; set; } | Получает или задает значение, указывающее, должны ли значения, указанные в этом поле кода схемы, быть конечными значениями. |
-| [Masks](../../aspose.tasks/outlinecodedefinition/masks) { get; } | Получает объект OutlineMaskCollection. Таблица записей, определяющих маску кода схемы. Только для чтения[`OutlineMaskCollection`](../outlinemaskcollection) экземпляр. |
-| [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed) { get; set; } | Получает или задает значение, указывающее, должны ли указанные значения поступать из таблицы значений. |
-| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias) { get; set; } | Получает или задает фонетическое произношение псевдонима пользовательского кода схемы. |
-| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled) { get; set; } | Получает или задает значение, указывающее, может ли пользовательский код схемы использоваться мастером замены ресурсов в Microsoft Project. |
-| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent) { get; set; } | Получает или задает значение, указывающее, должны ли отображаться отступы этого кода схемы. |
-| [Values](../../aspose.tasks/outlinecodedefinition/values) { get; } | Получает объект OutlineValueCollection. Значения таблицы, связанные с этим кодом схемы. |
+| [Alias](../../aspose.tasks/outlinecodedefinition/alias/) { get; set; } | Получает или задает псевдоним пользовательского кода схемы. |
+| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired/) { get; set; } | Получает или задает значение, указывающее, должны ли новые коды иметь все уровни. Недоступно для корпоративных кодов. |
+| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise/) { get; set; } | Получает или задает значение, указывающее, является ли настраиваемый код структуры корпоративным настраиваемым кодом структуры. |
+| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/) { get; set; } | Получает или задает ссылку на другое настраиваемое поле, псевдонимом которого является это определение кода схемы. |
+| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid/) { get; set; } | Получает или задает номер поля кода схемы. |
+| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname/) { get; set; } | Получает или задает имя пользовательского кода схемы. |
+| [Guid](../../aspose.tasks/outlinecodedefinition/guid/) { get; set; } | Получает или задает Guid кода схемы. |
+| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly/) { get; set; } | Получает или задает значение, указывающее, должны ли значения, указанные в этом поле кода схемы, быть конечными значениями. |
+| [Masks](../../aspose.tasks/outlinecodedefinition/masks/) { get; } | Получает объект OutlineMaskCollection. Таблица записей, определяющих маску кода схемы. Только для чтения[`OutlineMaskCollection`](../outlinemaskcollection/) экземпляр. |
+| [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed/) { get; set; } | Получает или задает значение, указывающее, должны ли указанные значения поступать из таблицы значений. |
+| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias/) { get; set; } | Получает или задает фонетическое произношение псевдонима пользовательского кода схемы. |
+| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled/) { get; set; } | Получает или задает значение, указывающее, может ли пользовательский код схемы использоваться мастером замены ресурсов в Microsoft Project. |
+| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent/) { get; set; } | Получает или задает значение, указывающее, должны ли отображаться отступы этого кода схемы. |
+| [Values](../../aspose.tasks/outlinecodedefinition/values/) { get; } | Получает объект OutlineValueCollection. Значения таблицы, связанные с этим кодом схемы. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks)
+* пространство имен [Aspose.Tasks](../../aspose.tasks/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

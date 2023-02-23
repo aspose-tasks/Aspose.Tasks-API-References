@@ -1,9 +1,9 @@
 ---
-title: Calendar
+title: Class Calendar
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет календарь используемый в проекте.
+description: Aspose.Tasks.Calendar сорт. Представляет календарь используемый в проекте.
 type: docs
-weight: 220
+weight: 230
 url: /ru/net/aspose.tasks/calendar/
 ---
 ## Calendar class
@@ -18,37 +18,36 @@ public class Calendar
 
 | Имя | Описание |
 | --- | --- |
-| [BaseCalendar](../../aspose.tasks/calendar/basecalendar) { get; set; } | Получает или задает базовый календарь, от которого зависит этот календарь. Применяется только в том случае, если календарь не является базовым. Чтение/запись[`Calendar`](../calendar) . |
-| [Exceptions](../../aspose.tasks/calendar/exceptions) { get; } | Получает объект CalendarExceptionCollection. Коллекция исключений, связанных с календарем. |
-| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar) { get; } | Получает значение, указывающее, является ли календарь базовым. Только для чтенияBoolean . |
-| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar) { get; set; } | Получает или задает значение, указывающее, является ли календарь базовым календарем. Чтение/записьBoolean . |
-| [Name](../../aspose.tasks/calendar/name) { get; set; } | Получает или задает имя календаря. Чтение/записьString . |
-| [ParentProject](../../aspose.tasks/calendar/parentproject) { get; } | Получает родительский проект для этого календаря. |
-| [Uid](../../aspose.tasks/calendar/uid) { get; set; } | Получает или задает уникальный идентификатор календаря. Чтение/записьInt32 . |
-| [WeekDays](../../aspose.tasks/calendar/weekdays) { get; } | Получает WeekDaysCollection для этого календаря. Коллекция дней недели, которая определяет календарь. |
-| [WorkWeeks](../../aspose.tasks/calendar/workweeks) { get; } | Получает объект WorkWeekCollections. Коллекция рабочих недель, связанная с календарем. |
+| [BaseCalendar](../../aspose.tasks/calendar/basecalendar/) { get; set; } | Получает или задает базовый календарь, от которого зависит этот календарь. Применяется только в том случае, если календарь не является базовым. |
+| [Exceptions](../../aspose.tasks/calendar/exceptions/) { get; } | Получает объект CalendarExceptionCollection. Коллекция исключений, связанных с календарем. |
+| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar/) { get; } | Получает значение, указывающее, является ли календарь базовым календарем. |
+| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar/) { get; set; } | Получает или задает значение, указывающее, является ли календарь базовым календарем. |
+| [Name](../../aspose.tasks/calendar/name/) { get; set; } | Получает или задает имя календаря. |
+| [Uid](../../aspose.tasks/calendar/uid/) { get; set; } | Получает или задает уникальный идентификатор календаря. |
+| [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Получает WeekDaysCollection для этого календаря. Коллекция дней недели, которая определяет календарь. |
+| [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Получает объект WorkWeekCollections. Коллекция рабочих недель, связанная с календарем. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar)(Calendar) | Делает данный календарь 24-часовым календарем. 24-часовой календарь — это календарь, в котором каждый день недели работает с круглосуточным рабочим временем. |
-| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar)(Calendar) | Делает данный календарь календарем ночной смены. |
-| static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar)(Calendar) | Создает стандартный календарь по умолчанию. |
-| [Delete](../../aspose.tasks/calendar/delete)() | Удаляет календарь из проекта. |
-| override [Equals](../../aspose.tasks/calendar/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork)(DateTime, Duration) | Вычисляет дату, когда пройдет указанное количество рабочего времени по календарю. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Вычисляет дату, когда пройдет указанное количество рабочего времени по календарю. |
-| override [GetHashCode](../../aspose.tasks/calendar/gethashcode)() | Возвращает хэш-код экземпляра[`Calendar`](../calendar) класс. |
-| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart)(DateTime) | Рассчитывает начало следующего рабочего дня с даты. |
-| [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend)(DateTime) | Вычисляет конец предыдущей рабочей даты от указанной даты. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration)(DateTime, Duration) | Возвращает StartDate на основе указанных FinishDate и Duration. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Возвращает StartDate на основе указанных FinishDate и Duration. |
-| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration)(Task, TimeSpan) | Вычисляет дату и время окончания задачи, исходя из даты ее начала, разделенных частей и продолжительности. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours_1)(DateTime) | Возвращает количество рабочих часов на дату. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours)(DateTime, DateTime) | Возврат рабочего времени для указанных дат. |
-| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes)(DateTime) | Возвращает[`WorkingTimeCollection`](../workingtimecollection) рабочего времени. |
-| [IsDayWorking](../../aspose.tasks/calendar/isdayworking)(DateTime) | Определяет, является ли день рабочим. |
+| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar/)(Calendar) | Делает данный календарь 24-часовым календарем. 24-часовой календарь — это календарь, в котором каждый день недели работает с круглосуточным рабочим временем. |
+| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar/)(Calendar) | Делает данный календарь календарем ночной смены. |
+| static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar/)(Calendar) | Создает стандартный календарь по умолчанию. |
+| [Delete](../../aspose.tasks/calendar/delete/)() | Удаляет календарь из проекта. |
+| override [Equals](../../aspose.tasks/calendar/equals/)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork)(DateTime, Duration) | Вычисляет дату, когда пройдет указанное количество рабочего времени по календарю. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Вычисляет дату, когда пройдет указанное количество рабочего времени по календарю. |
+| override [GetHashCode](../../aspose.tasks/calendar/gethashcode/)() | Возвращает хэш-код экземпляра класса. |
+| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart/)(DateTime) | Рассчитывает начало следующего рабочего дня с даты. |
+| [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend/)(DateTime) | Вычисляет конец предыдущей рабочей даты от указанной даты. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration)(DateTime, Duration) | Возвращает StartDate на основе указанных FinishDate и Duration. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Возвращает StartDate на основе указанных FinishDate и Duration. |
+| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Вычисляет дату и время окончания задачи, исходя из даты ее начала, разделенных частей и продолжительности. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Возвращает количество рабочих часов на дату. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Возврат рабочего времени для указанных дат. |
+| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Возвращает[`WorkingTimeCollection`](../workingtimecollection/) рабочего времени на указанную дату. |
+| [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Определяет, является ли день рабочим. |
 
 ### Примечания
 
@@ -114,7 +113,7 @@ calendar.Days.Add(New WeekDay(DayType.Sunday))
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks)
+* пространство имен [Aspose.Tasks](../../aspose.tasks/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: GetPageCount
+title: Project.GetPageCount
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Возвращает количество страниц для проекта который будет отображаться с использованием заданногоSaveOptionsaspose.tasks.saving/saveoptions .
+description: Project метод. Возвращает количество страниц для проекта который будет отображаться с использованием заданногоSaveOptions .
 type: docs
-weight: 300
+weight: 1080
 url: /ru/net/aspose.tasks/project/getpagecount/
 ---
 ## GetPageCount(SaveOptions) {#getpagecount_1}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`SaveOptions`](../../../aspose.tasks.saving/saveoptions) .
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`SaveOptions`](../../../aspose.tasks.saving/saveoptions/) .
 
 ```csharp
 public int GetPageCount(SaveOptions saveOptions)
@@ -20,7 +20,7 @@ public int GetPageCount(SaveOptions saveOptions)
 
 ### Возвращаемое значение
 
-количество страниц для отображения.
+количество отображаемых страниц.
 
 ### Примеры
 
@@ -44,16 +44,16 @@ Console.WriteLine(project.GetPageCount(saveOptions));
 
 ### Смотрите также
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount() {#getpagecount}
 
-Возвращает количество страниц для проекта, который будет отображаться по умолчанию.[`Timescale`](../../../aspose.tasks.visualization/timescale) (Дней).
+Возвращает количество страниц для проекта, который будет отображаться по умолчанию.[`Timescale`](../../../aspose.tasks.visualization/timescale/) (Дней).
 
 ```csharp
 public int GetPageCount()
@@ -65,15 +65,15 @@ public int GetPageCount()
 
 ### Смотрите также
 
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(Timescale) {#getpagecount_6}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) .
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale/) .
 
 ```csharp
 public int GetPageCount(Timescale scale)
@@ -89,16 +89,16 @@ public int GetPageCount(Timescale scale)
 
 ### Смотрите также
 
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat) {#getpagecount_4}
 
-Возвращает количество страниц для проекта, который будет отображаться по умолчанию.[`Timescale`](../../../aspose.tasks.visualization/timescale) (Дней) и дано[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
+Возвращает количество страниц для проекта, который будет отображаться по умолчанию.[`Timescale`](../../../aspose.tasks.visualization/timescale/) (Дней) и дано[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)
 
 ```csharp
 public int GetPageCount(PresentationFormat format)
@@ -114,16 +114,16 @@ public int GetPageCount(PresentationFormat format)
 
 ### Смотрите также
 
-* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) а также[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) .
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale/) и[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) .
 
 ```csharp
 public int GetPageCount(PresentationFormat format, Timescale scale)
@@ -136,21 +136,21 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 
 ### Возвращаемое значение
 
-количество страниц для отображения.
+количество отображаемых страниц.
 
 ### Смотрите также
 
-* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) и диапазон дат.
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale/) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) и диапазон дат.
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, DateTime endDate)
@@ -169,17 +169,17 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 
 ### Смотрите также
 
-* enum [PageSize](../../../aspose.tasks.visualization/pagesize)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
-Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale) а также[`PageSize`](../../../aspose.tasks.visualization/pagesize) .
+Возвращает количество страниц для проекта, который будет отображаться с использованием заданного[`Timescale`](../../../aspose.tasks.visualization/timescale/) и[`PageSize`](../../../aspose.tasks.visualization/pagesize/) .
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale)
@@ -196,10 +196,10 @@ public int GetPageCount(PageSize pageSize, Timescale scale)
 
 ### Смотрите также
 
-* enum [PageSize](../../../aspose.tasks.visualization/pagesize)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: CalendarException
+title: Class CalendarException
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляют исключительные периоды времени в календаре.
+description: Aspose.Tasks.CalendarException сорт. Представляют исключительные периоды времени в календаре.
 type: docs
-weight: 240
+weight: 250
 url: /ru/net/aspose.tasks/calendarexception/
 ---
 ## CalendarException class
@@ -18,40 +18,40 @@ public sealed class CalendarException
 
 | Имя | Описание |
 | --- | --- |
-| [CalendarException](calendarexception)() | Инициализирует новый экземпляр[`CalendarException`](../calendarexception) класс. |
+| [CalendarException](calendarexception/)() | Инициализирует новый экземпляр`CalendarException` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DaysOfWeek](../../aspose.tasks/calendarexception/daysofweek) { get; } | Получает коллекцию DayTypeCollection для этого объекта. Дни недели, в которые действует исключение. |
-| [DayWorking](../../aspose.tasks/calendarexception/dayworking) { get; set; } | Получает или задает значение, указывающее, работает ли указанная дата или тип дня. |
-| [EnteredByOccurrences](../../aspose.tasks/calendarexception/enteredbyoccurrences) { get; set; } | Получает или задает значение, указывающее, определяется ли диапазон повторения путем ввода количества вхождений. False указывает, что диапазон повторения определяется путем ввода даты окончания. |
-| [FromDate](../../aspose.tasks/calendarexception/fromdate) { get; set; } | Получает или задает начало времени исключения. |
-| [Month](../../aspose.tasks/calendarexception/month) { get; set; } | Получает или задает месяц, на который запланировано повторение исключения. |
-| [MonthDay](../../aspose.tasks/calendarexception/monthday) { get; set; } | Получает или задает день месяца, на который запланировано повторение исключения. |
-| [MonthItem](../../aspose.tasks/calendarexception/monthitem) { get; set; } | Получает или задает элемент месяца, для которого запланировано повторение исключения. |
-| [MonthPosition](../../aspose.tasks/calendarexception/monthposition) { get; set; } | Получает или задает позицию элемента месяца в месяце. |
-| [Name](../../aspose.tasks/calendarexception/name) { get; set; } | Получает или задает имя исключения. |
-| [Occurrences](../../aspose.tasks/calendarexception/occurrences) { get; set; } | Получает или задает количество вхождений, для которых допустимо исключение календаря. |
-| [ParentCalendar](../../aspose.tasks/calendarexception/parentcalendar) { get; } | Получает родительский календарь для этого объекта. |
-| [Period](../../aspose.tasks/calendarexception/period) { get; set; } | Получает или задает период повторения исключения. |
-| [ToDate](../../aspose.tasks/calendarexception/todate) { get; set; } | Получает или задает время окончания исключения. |
-| [Type](../../aspose.tasks/calendarexception/type) { get; set; } | Получает или задает тип исключения. |
-| [WorkingTimes](../../aspose.tasks/calendarexception/workingtimes) { get; set; } | Получает или задает объект WorkingTimeCollection. Коллекция рабочего времени, определяющая время, отработанное в будний день.  Должно быть хотя бы одно рабочее время, и их не может быть больше пяти. |
+| [DaysOfWeek](../../aspose.tasks/calendarexception/daysofweek/) { get; } | Получает коллекцию DayTypeCollection для этого объекта. Дни недели, в которые действует исключение. |
+| [DayWorking](../../aspose.tasks/calendarexception/dayworking/) { get; set; } | Получает или задает значение, указывающее, работает ли указанная дата или тип дня. |
+| [EnteredByOccurrences](../../aspose.tasks/calendarexception/enteredbyoccurrences/) { get; set; } | Получает или задает значение, указывающее, определяется ли диапазон повторения путем ввода количества вхождений. False указывает, что диапазон повторения определяется путем ввода даты окончания. |
+| [FromDate](../../aspose.tasks/calendarexception/fromdate/) { get; set; } | Получает или задает начало времени исключения. |
+| [Month](../../aspose.tasks/calendarexception/month/) { get; set; } | Получает или задает месяц, на который запланировано повторение исключения. |
+| [MonthDay](../../aspose.tasks/calendarexception/monthday/) { get; set; } | Получает или задает день месяца, на который запланировано повторение исключения. |
+| [MonthItem](../../aspose.tasks/calendarexception/monthitem/) { get; set; } | Получает или задает элемент месяца, для которого запланировано повторение исключения. |
+| [MonthPosition](../../aspose.tasks/calendarexception/monthposition/) { get; set; } | Получает или задает позицию элемента месяца в месяце. |
+| [Name](../../aspose.tasks/calendarexception/name/) { get; set; } | Получает или задает имя исключения. |
+| [Occurrences](../../aspose.tasks/calendarexception/occurrences/) { get; set; } | Получает или задает количество вхождений, для которых допустимо исключение календаря. |
+| [ParentCalendar](../../aspose.tasks/calendarexception/parentcalendar/) { get; } | Получает родительский календарь для этого объекта. |
+| [Period](../../aspose.tasks/calendarexception/period/) { get; set; } | Получает или задает период повторения исключения. |
+| [ToDate](../../aspose.tasks/calendarexception/todate/) { get; set; } | Получает или задает время окончания исключения. |
+| [Type](../../aspose.tasks/calendarexception/type/) { get; set; } | Получает или задает тип исключения. |
+| [WorkingTimes](../../aspose.tasks/calendarexception/workingtimes/) { get; set; } | Получает или задает объект WorkingTimeCollection. Коллекция рабочего времени, определяющая время, отработанное в будний день.  Должно быть хотя бы одно рабочее время, и их не может быть больше пяти. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CheckException](../../aspose.tasks/calendarexception/checkexception)(DateTime) | Возвращает true, если указанный экземплярDateTime struct — это день исключения. |
-| [Delete](../../aspose.tasks/calendarexception/delete)() | Удаляет экземпляр Exception из объекта CalendarExceptionCollection родительского календаря. |
-| [GetExceptionDates](../../aspose.tasks/calendarexception/getexceptiondates)() | Возвращает даты, для которых применимо исключение календаря. |
-| [GetWorkingTime](../../aspose.tasks/calendarexception/getworkingtime)() | Возвращает рабочее время для исключения календаря. |
+| [CheckException](../../aspose.tasks/calendarexception/checkexception/)(DateTime) | Возвращает true, если указанный экземплярDateTime struct — это день исключения. |
+| [Delete](../../aspose.tasks/calendarexception/delete/)() | Удаляет экземпляр Exception из объекта CalendarExceptionCollection родительского календаря. |
+| [GetExceptionDates](../../aspose.tasks/calendarexception/getexceptiondates/)() | Возвращает даты, для которых применимо исключение календаря. |
+| [GetWorkingTime](../../aspose.tasks/calendarexception/getworkingtime/)() | Возвращает рабочее время для исключения календаря. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks)
+* пространство имен [Aspose.Tasks](../../aspose.tasks/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

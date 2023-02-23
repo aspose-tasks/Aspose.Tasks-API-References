@@ -1,9 +1,9 @@
 ---
-title: RecurringTaskInfo
+title: Class RecurringTaskInfo
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет сведения о повторяющейся задаче в проекте.
+description: Aspose.Tasks.RecurringTaskInfo сорт. Представляет сведения о повторяющейся задаче в проекте.
 type: docs
-weight: 1460
+weight: 1470
 url: /ru/net/aspose.tasks/recurringtaskinfo/
 ---
 ## RecurringTaskInfo class
@@ -18,32 +18,32 @@ public class RecurringTaskInfo
 
 | Имя | Описание |
 | --- | --- |
-| [DailyRepetitions](../../aspose.tasks/recurringtaskinfo/dailyrepetitions) { get; set; } | Получает или задает количество повторений для шаблона ежедневного повторения. |
-| [DailyUseWorkdays](../../aspose.tasks/recurringtaskinfo/dailyuseworkdays) { get; set; } | Получает или задает значение, указывающее, следует ли использовать рабочие дни для шаблона ежедневного повторения. |
-| [Duration](../../aspose.tasks/recurringtaskinfo/duration) { get; set; } | Получает или задает продолжительность одного экземпляра повторяющейся задачи.  экземпляр[`Duration`](./duration) учебный класс. |
-| [EndDate](../../aspose.tasks/recurringtaskinfo/enddate) { get; set; } | Получает или задает дату окончания вхождений. |
-| [MonthlyDay](../../aspose.tasks/recurringtaskinfo/monthlyday) { get; set; } | Получает или задает номер дня ежемесячного шаблона повторения. |
-| [MonthlyOrdinalDay](../../aspose.tasks/recurringtaskinfo/monthlyordinalday) { get; set; } | Получает или задает день ежемесячного шаблона повторения при использовании порядкового дня.  Может быть одним из значенийDayOfWeek перечисление. |
-| [MonthlyOrdinalNumber](../../aspose.tasks/recurringtaskinfo/monthlyordinalnumber) { get; set; } | Получает или задает порядковый номер шаблона ежемесячного повторения.  Может быть одним из значений[`OrdinalNumber`](../ordinalnumber) перечисление. |
-| [MonthlyOrdinalRepetitions](../../aspose.tasks/recurringtaskinfo/monthlyordinalrepetitions) { get; set; } | Получает или задает количество повторений для шаблона ежемесячного повторения при использовании порядкового дня. |
-| [MonthlyRepetitions](../../aspose.tasks/recurringtaskinfo/monthlyrepetitions) { get; set; } | Получает или задает количество повторений для шаблона ежемесячного повторения. |
-| [MonthlyUseOrdinalDay](../../aspose.tasks/recurringtaskinfo/monthlyuseordinalday) { get; set; } | Получает или задает значение, указывающее, следует ли использовать порядковый номер дня для шаблона ежемесячного повторения. |
-| [Occurrences](../../aspose.tasks/recurringtaskinfo/occurrences) { get; set; } | Получает или задает количество повторений повторяющейся задачи. |
-| [RecurrencePattern](../../aspose.tasks/recurringtaskinfo/recurrencepattern) { get; set; } | Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значений[`RecurrencePattern`](./recurrencepattern) перечисление. |
-| [StartDate](../../aspose.tasks/recurringtaskinfo/startdate) { get; set; } | Получает или задает дату начала вхождений. |
-| [Task](../../aspose.tasks/recurringtaskinfo/task) { get; } | Получает родительскую задачу этого экземпляра[`RecurringTaskInfo`](../recurringtaskinfo) класс. |
-| [UseEndDate](../../aspose.tasks/recurringtaskinfo/useenddate) { get; set; } | Получает или задает значение, указывающее, следует ли использовать дату окончания или количество повторений для повторяющейся задачи. |
-| [WeeklyDays](../../aspose.tasks/recurringtaskinfo/weeklydays) { get; set; } | Получает или задает набор дней, используемых в шаблоне еженедельного повторения. |
-| [WeeklyRepetitions](../../aspose.tasks/recurringtaskinfo/weeklyrepetitions) { get; set; } | Получает или задает количество повторений для шаблона еженедельного повторения. |
-| [YearlyDate](../../aspose.tasks/recurringtaskinfo/yearlydate) { get; set; } | Получает или задает дату для шаблона ежегодного повторения. |
-| [YearlyOrdinalDay](../../aspose.tasks/recurringtaskinfo/yearlyordinalday) { get; set; } | Получает или задает день недели шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значенийDayOfWeek перечисление. |
-| [YearlyOrdinalMonth](../../aspose.tasks/recurringtaskinfo/yearlyordinalmonth) { get; set; } | Получает или задает месяц шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значений[`Month`](../month) перечисление. |
-| [YearlyOrdinalNumber](../../aspose.tasks/recurringtaskinfo/yearlyordinalnumber) { get; set; } | Получает или задает порядковый номер шаблона ежегодного повторения.  Может быть одним из значений[`OrdinalNumber`](../ordinalnumber) перечисление. |
-| [YearlyUseOrdinalDay](../../aspose.tasks/recurringtaskinfo/yearlyuseordinalday) { get; set; } | Получает или задает значение, указывающее, следует ли использовать порядковый номер дня для шаблона ежегодного повторения. |
+| [DailyRepetitions](../../aspose.tasks/recurringtaskinfo/dailyrepetitions/) { get; set; } | Получает или задает количество повторений для шаблона ежедневного повторения. |
+| [DailyUseWorkdays](../../aspose.tasks/recurringtaskinfo/dailyuseworkdays/) { get; set; } | Получает или задает значение, указывающее, следует ли использовать рабочие дни для шаблона ежедневного повторения. |
+| [Duration](../../aspose.tasks/recurringtaskinfo/duration/) { get; set; } | Получает или задает продолжительность одного экземпляра повторяющейся задачи.  экземпляр[`Duration`](./duration/) сорт. |
+| [EndDate](../../aspose.tasks/recurringtaskinfo/enddate/) { get; set; } | Получает или задает дату окончания вхождений. |
+| [MonthlyDay](../../aspose.tasks/recurringtaskinfo/monthlyday/) { get; set; } | Получает или задает номер дня ежемесячного шаблона повторения. |
+| [MonthlyOrdinalDay](../../aspose.tasks/recurringtaskinfo/monthlyordinalday/) { get; set; } | Получает или задает день ежемесячного шаблона повторения при использовании порядкового дня.  Может быть одним из значенийDayOfWeek перечисление. |
+| [MonthlyOrdinalNumber](../../aspose.tasks/recurringtaskinfo/monthlyordinalnumber/) { get; set; } | Получает или задает порядковый номер шаблона ежемесячного повторения.  Может быть одним из значений[`OrdinalNumber`](../ordinalnumber/) перечисление. |
+| [MonthlyOrdinalRepetitions](../../aspose.tasks/recurringtaskinfo/monthlyordinalrepetitions/) { get; set; } | Получает или задает количество повторений для шаблона ежемесячного повторения при использовании порядкового дня. |
+| [MonthlyRepetitions](../../aspose.tasks/recurringtaskinfo/monthlyrepetitions/) { get; set; } | Получает или задает количество повторений для шаблона ежемесячного повторения. |
+| [MonthlyUseOrdinalDay](../../aspose.tasks/recurringtaskinfo/monthlyuseordinalday/) { get; set; } | Получает или задает значение, указывающее, следует ли использовать порядковый номер дня для шаблона ежемесячного повторения. |
+| [Occurrences](../../aspose.tasks/recurringtaskinfo/occurrences/) { get; set; } | Получает или задает количество повторений повторяющейся задачи. |
+| [RecurrencePattern](../../aspose.tasks/recurringtaskinfo/recurrencepattern/) { get; set; } | Получает или задает шаблон повторения повторяющейся задачи.  Может быть одним из значений[`RecurrencePattern`](./recurrencepattern/) перечисление. |
+| [StartDate](../../aspose.tasks/recurringtaskinfo/startdate/) { get; set; } | Получает или задает дату начала вхождений. |
+| [Task](../../aspose.tasks/recurringtaskinfo/task/) { get; } | Получает родительскую задачу этого экземпляра`RecurringTaskInfo` класс. |
+| [UseEndDate](../../aspose.tasks/recurringtaskinfo/useenddate/) { get; set; } | Получает или задает значение, указывающее, следует ли использовать дату окончания или количество повторений для повторяющейся задачи. |
+| [WeeklyDays](../../aspose.tasks/recurringtaskinfo/weeklydays/) { get; set; } | Получает или задает набор дней, используемых в шаблоне еженедельного повторения. |
+| [WeeklyRepetitions](../../aspose.tasks/recurringtaskinfo/weeklyrepetitions/) { get; set; } | Получает или задает количество повторений для шаблона еженедельного повторения. |
+| [YearlyDate](../../aspose.tasks/recurringtaskinfo/yearlydate/) { get; set; } | Получает или задает дату для шаблона ежегодного повторения. |
+| [YearlyOrdinalDay](../../aspose.tasks/recurringtaskinfo/yearlyordinalday/) { get; set; } | Получает или задает день недели шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значенийDayOfWeek перечисление. |
+| [YearlyOrdinalMonth](../../aspose.tasks/recurringtaskinfo/yearlyordinalmonth/) { get; set; } | Получает или задает месяц шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значений[`Month`](../month/) перечисление. |
+| [YearlyOrdinalNumber](../../aspose.tasks/recurringtaskinfo/yearlyordinalnumber/) { get; set; } | Получает или задает порядковый номер шаблона ежегодного повторения.  Может быть одним из значений[`OrdinalNumber`](../ordinalnumber/) перечисление. |
+| [YearlyUseOrdinalDay](../../aspose.tasks/recurringtaskinfo/yearlyuseordinalday/) { get; set; } | Получает или задает значение, указывающее, следует ли использовать порядковый номер дня для шаблона ежегодного повторения. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks)
+* пространство имен [Aspose.Tasks](../../aspose.tasks/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

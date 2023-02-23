@@ -1,14 +1,14 @@
 ---
-title: TaskUsageViewField
+title: Enum TaskUsageViewField
 second_title: Aspose.Tasks for .NET API 参考
-description: 表示可能的字段TaskUsageView./taskusageview对象.
+description: Aspose.Tasks.TaskUsageViewField 枚举. 代表可能的字段在TaskUsageView对象.
 type: docs
-weight: 2170
+weight: 2180
 url: /zh/net/aspose.tasks/taskusageviewfield/
 ---
 ## TaskUsageViewField enumeration
 
-表示可能的字段[`TaskUsageView`](../taskusageview)对象.
+代表可能的字段在[`TaskUsageView`](../taskusageview/)对象.
 
 ```csharp
 public enum TaskUsageViewField
@@ -22,80 +22,80 @@ public enum TaskUsageViewField
 | Work | `0` | 表示工作任务使用视图字段。 |
 | OvertimeWork | `1` | 表示加班工作任务使用视图字段。 |
 | ActualWork | `2` | 表示实际工时任务使用视图字段。 |
-| ActualOvertimeWork | `3` | 表示实际加班工作任务使用视图字段。 |
-| CumulativeWork | `4` | 表示累积工时任务使用视图字段。 |
+| ActualOvertimeWork | `3` | 表示实际加班工时任务使用视图字段。 |
+| CumulativeWork | `4` | 表示 Cumulative Work 任务使用视图字段。 |
 | BaselineWork | `5` | 表示基线工作任务使用视图字段。 |
-| Overallocation | `6` | 表示Overallocation任务使用视图字段. |
+| Overallocation | `6` | 表示过度分配任务使用视图字段。 |
 | PercentAllocation | `7` | 表示百分比分配任务使用视图字段。 |
 | PeakUnits | `8` | 表示峰值单位任务使用视图字段。 |
 | Cost | `9` | 表示成本任务使用视图字段。 |
 | FixedCost | `10` | 表示固定成本任务使用视图字段。 |
 | ActualCost | `11` | 表示实际成本任务使用视图字段。 |
-| BaselineCost | `12` | 表示基准成本任务使用视图字段。 |
-| CumulativeCost | `13` | 表示累计成本任务使用视图字段。 |
-| BCWS | `14` | 表示 BCWS 任务使用视图字段。 |
+| BaselineCost | `12` | 表示基线成本任务使用视图字段。 |
+| CumulativeCost | `13` | 表示 Cumulative Cost 任务使用视图字段。 |
+| BCWS | `14` | 表示BCWS任务使用视图字段。 |
 | BCWP | `15` | 表示 BCWP 任务使用视图字段。 |
 | ACWP | `16` | 表示 ACWP 任务使用视图字段。 |
-| SV | `17` | 表示 SV 任务使用视图字段。 |
-| CV | `18` | 表示 CV 任务使用视图字段。 |
+| SV | `17` | 表示SV任务使用视图字段。 |
+| CV | `18` | 表示CV任务使用视图字段。 |
 | RegularWork | `19` | 表示常规工作任务使用视图字段。 |
 | PercentComplete | `20` | 表示完成百分比任务使用视图字段。 |
 | CumulativePercentComplete | `21` | 表示累计完成百分比任务使用视图字段。 |
 | Baseline1Work | `22` | 表示 Baseline1 工作任务使用视图字段。 |
 | Baseline1Cost | `23` | 表示 Baseline1 成本任务使用视图字段。 |
-| Baseline2Work | `24` | 表示 Baseline2 工作任务使用视图字段。 |
+| Baseline2Work | `24` | 表示Baseline2工作任务使用视图字段。 |
 | Baseline2Cost | `25` | 表示 Baseline2 成本任务使用视图字段。 |
-| Baseline3Work | `26` | 表示 Baseline3 工作任务使用视图字段。 |
+| Baseline3Work | `26` | 表示Baseline3工作任务使用视图字段。 |
 | Baseline3Cost | `27` | 表示 Baseline3 成本任务使用视图字段。 |
-| Baseline4Work | `28` | 表示 Baseline4 工作任务使用视图字段。 |
+| Baseline4Work | `28` | 表示Baseline4工作任务使用视图字段。 |
 | Baseline4Cost | `29` | 表示 Baseline4 成本任务使用视图字段。 |
 | Baseline5Work | `30` | 表示 Baseline5 工作任务使用视图字段。 |
 | Baseline5Cost | `31` | 表示 Baseline5 成本任务使用视图字段。 |
-| Baseline6Work | `32` | 表示 Baseline6 工作任务使用情况视图字段。 |
+| Baseline6Work | `32` | 表示Baseline6工作任务使用视图字段。 |
 | Baseline6Cost | `33` | 表示 Baseline6 成本任务使用视图字段。 |
-| Baseline7Work | `34` | 表示 Baseline7 工作任务使用视图字段。 |
+| Baseline7Work | `34` | 表示Baseline7工作任务使用视图字段。 |
 | Baseline7Cost | `35` | 表示 Baseline7 成本任务使用视图字段。 |
-| Baseline8Work | `36` | 表示 Baseline8 工作任务使用视图字段。 |
+| Baseline8Work | `36` | 表示Baseline8工作任务使用视图字段。 |
 | Baseline8Cost | `37` | 表示 Baseline8 成本任务使用视图字段。 |
-| Baseline9Work | `38` | 表示 Baseline9 工作任务使用视图字段。 |
+| Baseline9Work | `38` | 表示Baseline9工作任务使用视图字段。 |
 | Baseline9Cost | `39` | 表示 Baseline9 成本任务使用视图字段。 |
 | Baseline10Work | `40` | 表示 Baseline10 工作任务使用视图字段。 |
 | Baseline10Cost | `41` | 表示 Baseline10 成本任务使用视图字段。 |
 | ActualFixedCost | `42` | 表示实际固定成本任务使用视图字段。 |
-| CPI | `43` | 表示 CPI 任务使用视图字段。 |
-| SPI | `44` | 表示 SPI 任务使用视图字段。 |
+| CPI | `43` | 表示CPI任务使用视图字段。 |
+| SPI | `44` | 表示SPI任务使用视图字段。 |
 | CVPercent | `45` | 表示 CV 百分比任务使用视图字段。 |
 | SVPercent | `46` | 表示 SV 百分比任务使用视图字段。 |
 | BudgetWork | `47` | 表示预算工作任务使用视图字段。 |
 | BudgetCost | `48` | 表示预算成本任务使用视图字段。 |
-| BaselineBudgetWork | `49` | 表示基准预算工作任务使用视图字段。 |
-| BaselineBudgetCost | `50` | 表示基线预算成本任务使用视图字段。 |
-| Baseline1BudgetWork | `51` | 表示基线 1 预算工作任务使用视图字段。 |
-| Baseline1BudgetCost | `52` | 表示基线 1 预算成本任务使用情况视图字段。 |
-| Baseline2BudgetWork | `53` | 表示基线 2 预算工作任务使用视图字段。 |
-| Baseline2BudgetCost | `54` | 表示基线 2 预算成本任务使用视图字段。 |
-| Baseline3BudgetWork | `55` | 表示 Baseline3 预算工作任务使用视图字段。 |
+| BaselineBudgetWork | `49` | 表示基线预算工作任务使用视图字段。 |
+| BaselineBudgetCost | `50` | 表示比较基准预算成本任务使用视图字段。 |
+| Baseline1BudgetWork | `51` | 表示 Baseline1 Budget Work 任务使用视图字段。 |
+| Baseline1BudgetCost | `52` | 表示 Baseline1 Budget Cost 任务使用视图字段。 |
+| Baseline2BudgetWork | `53` | 表示 Baseline2 Budget Work 任务使用视图字段。 |
+| Baseline2BudgetCost | `54` | 表示 Baseline2 预算成本任务使用视图字段。 |
+| Baseline3BudgetWork | `55` | 表示 Baseline3 Budget Work 任务使用视图字段。 |
 | Baseline3BudgetCost | `56` | 表示 Baseline3 预算成本任务使用视图字段。 |
-| Baseline4BudgetWork | `57` | 表示 Baseline4 预算工作任务使用视图字段。 |
-| Baseline4BudgetCost | `58` | 表示 Baseline4 预算成本任务使用情况视图字段。 |
-| Baseline5BudgetWork | `59` | 表示 Baseline5 预算工作任务使用视图字段。 |
+| Baseline4BudgetWork | `57` | 表示 Baseline4 Budget Work 任务使用视图字段。 |
+| Baseline4BudgetCost | `58` | 表示 Baseline4 Budget Cost 任务使用视图字段。 |
+| Baseline5BudgetWork | `59` | 表示 Baseline5 Budget Work 任务使用视图字段。 |
 | Baseline5BudgetCost | `60` | 表示 Baseline5 预算成本任务使用视图字段。 |
-| Baseline6BudgetWork | `61` | 表示 Baseline6 预算工作任务使用视图字段。 |
+| Baseline6BudgetWork | `61` | 表示 Baseline6 Budget Work 任务使用视图字段。 |
 | Baseline6BudgetCost | `62` | 表示 Baseline6 预算成本任务使用视图字段。 |
-| Baseline7BudgetWork | `63` | 表示 Baseline7 预算工作任务使用视图字段。 |
+| Baseline7BudgetWork | `63` | 表示 Baseline7 Budget Work 任务使用视图字段。 |
 | Baseline7BudgetCost | `64` | 表示 Baseline7 预算成本任务使用视图字段。 |
-| Baseline8BudgetWork | `65` | 表示 Baseline8 预算工作任务使用视图字段。 |
+| Baseline8BudgetWork | `65` | 表示 Baseline8 Budget Work 任务使用视图字段。 |
 | Baseline8BudgetCost | `66` | 表示 Baseline8 预算成本任务使用视图字段。 |
-| Baseline9BudgetWork | `67` | 表示 Baseline9 预算工作任务使用视图字段。 |
+| Baseline9BudgetWork | `67` | 表示 Baseline9 Budget Work 任务使用视图字段。 |
 | Baseline9BudgetCost | `68` | 表示 Baseline9 预算成本任务使用视图字段。 |
 | Baseline10BudgetWork | `69` | 表示 Baseline10 预算工作任务使用视图字段。 |
 | Baseline10BudgetCost | `70` | 表示 Baseline10 预算成本任务使用视图字段。 |
-| AllTaskRows | `71` | 表示所有任务行任务使用视图字段。 |
+| AllTaskRows | `71` | 表示All Task Rows任务使用视图字段。 |
 | AllAssignmentRows | `72` | 表示所有分配行任务使用视图字段。 |
 
 ### 也可以看看
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks)
+* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
 * 部件 [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
