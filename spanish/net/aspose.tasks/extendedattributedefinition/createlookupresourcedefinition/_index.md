@@ -1,14 +1,14 @@
 ---
-title: CreateLookupResourceDefinition
+title: ExtendedAttributeDefinition.CreateLookupResourceDefinition
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Método de fábrica que crea una definición de atributo extendida con búsqueda. TieneCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype igual aLookup y solo se puede usar en Recursos. Debe especificarfieldId yalias cuando llame a este método. El tipo de campo se deduce del campo id.
+description: ExtendedAttributeDefinition método. Método de fábrica que crea una definición de atributo extendida con búsqueda. TieneCalculationType igual aLookup y solo se puede usar en Recursos. Debe especificarfieldId yalias cuando llame a este método. El tipo de campo se deduce del campo id.
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/extendedattributedefinition/createlookupresourcedefinition/
 ---
 ## CreateLookupResourceDefinition(ExtendedAttributeResource, string) {#createlookupresourcedefinition_1}
 
-Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype) igual aLookup y solo se puede usar en Recursos. Debe especificar*fieldId* y*alias* cuando llame a este método. El tipo de campo se deduce del campo id.
+Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype/) igual aLookup y solo se puede usar en Recursos. Debe especificar*fieldId* y*alias* cuando llame a este método. El tipo de campo se deduce del campo id.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -17,12 +17,12 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | El especificado[`ExtendedAttributeResource`](../../extendedattributeresource) identificación de campo |
+| fieldId | ExtendedAttributeResource | El especificado[`ExtendedAttributeResource`](../../extendedattributeresource/) identificación de campo |
 | alias | String | El especificadoString alias. |
 
 ### Valor_devuelto
 
-Instancia creada del[`ExtendedAttributeDefinition`](../../extendedattributedefinition) clase con especificado*fieldId* y*alias*.
+Instancia creada del[`ExtendedAttributeDefinition`](../) clase con especificado*fieldId* y*alias*.
 
 ### Ejemplos
 
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Ver también
 
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createlookupresourcedefinition}
 
-Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype) igual aLookup y solo se puede usar en Recursos. Debe especificar*customFieldType* ,*fieldId* y*alias* cuando llame a este método.
+Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype/) igual aLookup y solo se puede usar en Recursos. Debe especificar*customFieldType* ,*fieldId* y*alias* cuando llame a este método.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -55,13 +55,13 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | El especificado[`CustomFieldType`](../../customfieldtype) escribe. |
-| fieldId | ExtendedAttributeResource | El especificado[`ExtendedAttributeResource`](../../extendedattributeresource) identificación de campo |
+| customFieldType | CustomFieldType | El especificado[`CustomFieldType`](../../customfieldtype/) tipo. |
+| fieldId | ExtendedAttributeResource | El especificado[`ExtendedAttributeResource`](../../extendedattributeresource/) identificación de campo |
 | alias | String | El especificadoString alias. |
 
 ### Valor_devuelto
 
-Instancia creada del[`ExtendedAttributeDefinition`](../../extendedattributedefinition) clase con especificado*customFieldType* ,*fieldId* y*alias*.
+Instancia creada del[`ExtendedAttributeDefinition`](../) clase con especificado*customFieldType* ,*fieldId* y*alias*.
 
 ### Ejemplos
 
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Ver también
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

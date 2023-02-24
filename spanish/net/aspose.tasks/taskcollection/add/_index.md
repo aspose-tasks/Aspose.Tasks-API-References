@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Agrega la tarea especificada a la instancia delTaskCollectionaspose.tasks/taskcollectionclass. Si ParentProject.CalculationMode es None el usuario debe invocar Project.Recalculate después de usar este método reprogramará todas las tareas del proyecto fechas de inicio/finalización establece fechas tempranas/tardías y calculará los campos dependientes como holguras trabajo y campos de costo ID y niveles de esquema. Si ParentProject.CalculationMode es Manual el método calculará automáticamente solo el ID de la tarea el nivel de esquema y los números de esquema. Si ParentProject.CalculationMode es Automático el método reprograma todas las tareas del proyecto automáticamente inicio/fin fechas establece fechas tempranas/tardías calcula slacks campos de trabajo y costo recalcula ids y niveles de esquema.
+description: TaskCollection método. Agrega la tarea especificada a la instancia delTaskCollectionclass. Si ParentProject.CalculationMode es Ninguno el usuario debe invocar Project.Recalculate después de usar este método reprogramará todas las tareas del proyecto fechas de inicio/finalización establece fechas tempranas/tardías y calculará los campos dependientes como horas libres trabajo y campos de costos ID y niveles de esquema. Si ParentProject.CalculationMode es Manual el método calculará automáticamente solo el ID de tarea el nivel de esquema y los números de esquema. Si ParentProject.CalculationMode es Automático el método reprograma todas las tareas del proyecto automáticamente inicio/fin fechas establece fechas tempranas/tardías calcula slacks campos de trabajo y costo recalcula ids y niveles de esquema.
 type: docs
 weight: 50
 url: /es/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Agrega la tarea especificada a la instancia del[`TaskCollection`](../../taskcollection)class. Si ParentProject.CalculationMode es None, el usuario debe invocar Project.Recalculate() después de usar este método (reprogramará todas las tareas del proyecto (fechas de inicio/finalización, establece fechas tempranas/tardías) y calculará los campos dependientes, como holguras, trabajo y campos de costo, ID y niveles de esquema). Si ParentProject.CalculationMode es Manual, el método calculará automáticamente solo el ID de la tarea, el nivel de esquema y los números de esquema. Si ParentProject.CalculationMode es Automático, el método reprograma todas las tareas del proyecto automáticamente (inicio/fin fechas, establece fechas tempranas/tardías, calcula slacks, campos de trabajo y costo, recalcula ids y niveles de esquema).
+Agrega la tarea especificada a la instancia del[`TaskCollection`](../)class. Si ParentProject.CalculationMode es Ninguno, el usuario debe invocar Project.Recalculate() después de usar este método (reprogramará todas las tareas del proyecto (fechas de inicio/finalización, establece fechas tempranas/tardías) y calculará los campos dependientes, como horas libres, trabajo y campos de costos, ID y niveles de esquema). Si ParentProject.CalculationMode es Manual, el método calculará automáticamente solo el ID de tarea, el nivel de esquema y los números de esquema. Si ParentProject.CalculationMode es Automático, el método reprograma todas las tareas del proyecto automáticamente (inicio/fin fechas, establece fechas tempranas/tardías, calcula slacks, campos de trabajo y costo, recalcula ids y niveles de esquema).
 
 ```csharp
 public void Add(Task item)
@@ -20,9 +20,9 @@ public void Add(Task item)
 
 ### Ver también
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espacio de nombres [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espacio de nombres [Aspose.Tasks](../../taskcollection/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -37,13 +37,13 @@ public Task Add()
 
 ### Valor_devuelto
 
-devuelve la instancia recién agregada del[`Task`](../../task) clase.
+devuelve la instancia recién agregada del[`Task`](../../task/) clase.
 
 ### Ver también
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espacio de nombres [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espacio de nombres [Aspose.Tasks](../../taskcollection/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -62,13 +62,13 @@ public Task Add(string taskName)
 
 ### Valor_devuelto
 
-devuelve la instancia recién agregada del[`Task`](../../task) clase.
+devuelve la instancia recién agregada del[`Task`](../../task/) clase.
 
 ### Ver también
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espacio de nombres [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espacio de nombres [Aspose.Tasks](../../taskcollection/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -98,9 +98,9 @@ devuelve una tarea que se insertó antes de una tarea con la identificación esp
 
 ### Ver también
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espacio de nombres [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espacio de nombres [Aspose.Tasks](../../taskcollection/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -119,7 +119,7 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Valor_devuelto
 
-devuelve la instancia recién agregada del[`Task`](../../task) clase.
+devuelve la instancia recién agregada del[`Task`](../../task/) clase.
 
 ### Excepciones
 
@@ -130,10 +130,10 @@ devuelve la instancia recién agregada del[`Task`](../../task) clase.
 
 ### Ver también
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* espacio de nombres [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* espacio de nombres [Aspose.Tasks](../../taskcollection/)
 * asamblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

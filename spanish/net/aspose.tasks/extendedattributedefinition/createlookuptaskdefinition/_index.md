@@ -1,14 +1,14 @@
 ---
-title: CreateLookupTaskDefinition
+title: ExtendedAttributeDefinition.CreateLookupTaskDefinition
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Método de fábrica que crea una definición de atributo extendida con búsqueda. TieneCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype igual aLookup y solo se puede usar en Tareas. Debe especificarfieldId yalias cuando llame a este método. El tipo de campo se deduce del campo id.
+description: ExtendedAttributeDefinition método. Método de fábrica que crea una definición de atributo extendida con búsqueda. TieneCalculationType igual aLookup y solo se puede usar en Tareas. Debe especificarfieldId yalias cuando llame a este método. El tipo de campo se deduce del campo id.
 type: docs
 weight: 20
 url: /es/net/aspose.tasks/extendedattributedefinition/createlookuptaskdefinition/
 ---
 ## CreateLookupTaskDefinition(ExtendedAttributeTask, string) {#createlookuptaskdefinition_1}
 
-Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype) igual aLookup y solo se puede usar en Tareas. Debe especificar*fieldId* y*alias* cuando llame a este método. El tipo de campo se deduce del campo id.
+Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype/) igual aLookup y solo se puede usar en Tareas. Debe especificar*fieldId* y*alias* cuando llame a este método. El tipo de campo se deduce del campo id.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -17,16 +17,16 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAtt
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | El especificado[`ExtendedAttributeTask`](../../extendedattributetask) identificación de campo |
+| fieldId | ExtendedAttributeTask | El especificado[`ExtendedAttributeTask`](../../extendedattributetask/) identificación de campo |
 | alias | String | El especificadoString alias. |
 
 ### Valor_devuelto
 
-Instancia creada del[`ExtendedAttributeDefinition`](../../extendedattributedefinition) clase con especificado*fieldId* y*alias*.
+Instancia creada del[`ExtendedAttributeDefinition`](../) clase con especificado*fieldId* y*alias*.
 
 ### Ejemplos
 
-Utilice este ejemplo para crear una definición de campo personalizada para una tarea con búsqueda y luego rellénela con valores de texto:
+Use este ejemplo para crear una definición de campo personalizada para una tarea con búsqueda y luego rellénela con valores de texto:
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Text27, "My custom field");
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Ver también
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createlookuptaskdefinition}
 
-Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype) igual aLookup y solo se puede usar en Tareas. Debe especificar*customFieldType* ,*fieldId* y*alias* cuando llame a este método.
+Método de fábrica que crea una definición de atributo extendida con búsqueda. Tiene[`CalculationType`](../calculationtype/) igual aLookup y solo se puede usar en Tareas. Debe especificar*customFieldType* ,*fieldId* y*alias* cuando llame a este método.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
@@ -55,17 +55,17 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | El especificado[`CustomFieldType`](../../customfieldtype) escribe. |
-| fieldId | ExtendedAttributeTask | El especificado[`ExtendedAttributeTask`](../../extendedattributetask) identificación de campo |
+| customFieldType | CustomFieldType | El especificado[`CustomFieldType`](../../customfieldtype/) tipo. |
+| fieldId | ExtendedAttributeTask | El especificado[`ExtendedAttributeTask`](../../extendedattributetask/) identificación de campo |
 | alias | String | El especificadoString alias. |
 
 ### Valor_devuelto
 
-Instancia creada del[`ExtendedAttributeDefinition`](../../extendedattributedefinition) clase con especificado*customFieldType* ,*fieldId* y*alias*.
+Instancia creada del[`ExtendedAttributeDefinition`](../) clase con especificado*customFieldType* ,*fieldId* y*alias*.
 
 ### Ejemplos
 
-Utilice este ejemplo para crear una definición de campo personalizada para una tarea con búsqueda y luego rellénela con valores de texto:
+Use este ejemplo para crear una definición de campo personalizada para una tarea con búsqueda y luego rellénela con valores de texto:
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text27, "My custom field");
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Ver también
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
