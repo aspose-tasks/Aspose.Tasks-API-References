@@ -1,14 +1,14 @@
 ---
-title: CreateLookupTaskDefinition
+title: ExtendedAttributeDefinition.CreateLookupTaskDefinition
 second_title: Aspose.Tasks لمرجع .NET API
-description: طريقة المصنع التي تنشئ تعريف سمة موسع مع البحث. لديهاCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype يساويLookup ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديدfieldId وalias عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
+description: ExtendedAttributeDefinition طريقة. طريقة المصنع التي تنشئ تعريف سمة موسع مع البحث. لديهاCalculationType يساويLookup ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديدfieldId وalias عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/extendedattributedefinition/createlookuptaskdefinition/
 ---
 ## CreateLookupTaskDefinition(ExtendedAttributeTask, string) {#createlookuptaskdefinition_1}
 
-طريقة المصنع التي تنشئ تعريف سمة موسع مع البحث. لديها[`CalculationType`](../calculationtype) يساويLookup ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*fieldId* و*alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
+طريقة المصنع التي تنشئ تعريف سمة موسع مع البحث. لديها[`CalculationType`](../calculationtype/) يساويLookup ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*fieldId* و*alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -17,16 +17,16 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAtt
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask) معرف المجال. |
+| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask/) معرف المجال. |
 | alias | String | المحددString الاسم المستعار. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../../extendedattributedefinition) فئة مع المحدد*fieldId* و*alias*.
+تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*fieldId* و*alias*.
 
 ### أمثلة
 
-استخدم هذا المثال لإنشاء تعريف حقل مخصص لمهمة مع البحث ثم قم بتعبئته بقيم نصية:
+استخدم هذا المثال لإنشاء تعريف حقل مخصص لمهمة بالبحث ثم قم بتعبئته بقيم نصية:
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Text27, "My custom field");
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### أنظر أيضا
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createlookuptaskdefinition}
 
-طريقة المصنع التي تنشئ تعريف سمة موسع مع البحث. لديها[`CalculationType`](../calculationtype) يساويLookup ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*customFieldType* و*fieldId* و*alias* عند استدعاء هذه الطريقة.
+طريقة المصنع التي تنشئ تعريف سمة موسع مع البحث. لديها[`CalculationType`](../calculationtype/) يساويLookup ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*customFieldType* و*fieldId* و*alias* عند استدعاء هذه الطريقة.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
@@ -55,17 +55,17 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | المحدد[`CustomFieldType`](../../customfieldtype) يكتب. |
-| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask) معرف المجال. |
+| customFieldType | CustomFieldType | المحدد[`CustomFieldType`](../../customfieldtype/) يكتب. |
+| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask/) معرف المجال. |
 | alias | String | المحددString الاسم المستعار. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../../extendedattributedefinition) فئة مع المحدد*customFieldType* و*fieldId* و*alias*.
+تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*customFieldType* و*fieldId* و*alias*.
 
 ### أمثلة
 
-استخدم هذا المثال لإنشاء تعريف حقل مخصص لمهمة مع البحث ثم قم بتعبئته بقيم نصية:
+استخدم هذا المثال لإنشاء تعريف حقل مخصص لمهمة بالبحث ثم قم بتعبئته بقيم نصية:
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text27, "My custom field");
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### أنظر أيضا
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: CreateExtendedAttribute
+title: ExtendedAttributeDefinition.CreateExtendedAttribute
 second_title: Aspose.Tasks لمرجع .NET API
-description: ينشئ سمة موسعة جديدة بمعرف الحقل الذي يساوي قيمة معرف حقل هذا الكائن.
+description: ExtendedAttributeDefinition طريقة. ينشئ سمة موسعة جديدة بمعرف الحقل الذي يساوي قيمة معرف حقل هذا الكائن.
 type: docs
 weight: 300
 url: /ar/net/aspose.tasks/extendedattributedefinition/createextendedattribute/
@@ -16,13 +16,13 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### قيمة الإرجاع
 
-إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
+إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute/)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
 
 ### أنظر أيضا
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -41,19 +41,19 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### قيمة الإرجاع
 
-إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
+إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute/)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype) ليس "نصًا" |
+| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype/) ليس "نصًا" |
 
 ### أنظر أيضا
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -72,19 +72,19 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### قيمة الإرجاع
 
-إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
+إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute/)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype) ليس "رقم" أو "تكلفة" |
+| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype/) ليس "رقم" أو "تكلفة" |
 
 ### أنظر أيضا
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -103,19 +103,19 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### قيمة الإرجاع
 
-إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
+إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute/)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype) ليس "تاريخ" أو "بداية" أو "إنهاء" |
+| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype/) ليس "تاريخ" أو "بداية" أو "إنهاء" |
 
 ### أنظر أيضا
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -134,20 +134,20 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ### قيمة الإرجاع
 
-إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
+إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute/)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype) ليست "المدة" |
+| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype/) ليست "المدة" |
 
 ### أنظر أيضا
 
-* class [ExtendedAttribute](../../extendedattribute)
-* struct [Duration](../../duration)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* struct [Duration](../../duration/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -166,26 +166,26 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### قيمة الإرجاع
 
-إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
+إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute/)فئة مع fieldID والتي تساوي قيمة fieldID لهذا الكائن.
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype) ليس "علم" |
+| InvalidOperationException | إذا كانت الحالية[`CfType`](../cftype/) ليس "علم" |
 
 ### أنظر أيضا
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-إنشاء سمة موسعة جديدة مرتبطة بالسمة المحددة[`Value`](../../value) item.
+إنشاء سمة موسعة جديدة مرتبطة بالسمة المحددة[`Value`](../../value/) item.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -193,19 +193,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| lookupValue | Value | المحدد[`Value`](../../value) العنصر. |
+| lookupValue | Value | المحدد[`Value`](../../value/) غرض. |
 
 ### قيمة الإرجاع
 
-إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute) فئة مرتبطة مع المحدد[`Value`](../../value) العنصر.
+إرجاع إنشاء مثيل[`ExtendedAttribute`](../../extendedattribute/) فئة مرتبطة مع المحدد[`Value`](../../value/) غرض.
 
 ### ملاحظات
 
-*lookupValue* يجب أن تضاف مسبقًا إلى[`ExtendedAttributeDefinition`](../../extendedattributedefinition) استخدام[`AddLookupValue`](../addlookupvalue) طريقة .
+*lookupValue* يجب أن تضاف مسبقًا إلى[`ExtendedAttributeDefinition`](../) استخدام[`AddLookupValue`](../addlookupvalue/) طريقة .
 
 ### أمثلة
 
-استخدم هذا الرمز لإنشاء ملف جديد[`ExtendedAttribute`](../../extendedattribute) باستخدام قيمة محددة:
+استخدم هذا الرمز لإنشاء ملف جديد[`ExtendedAttribute`](../../extendedattribute/) باستخدام قيمة محددة:
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);
@@ -215,10 +215,10 @@ var extendedAttribute = taskTextAttr.CreateExtendedAttribute(value2);
 
 ### أنظر أيضا
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [Value](../../value)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [Value](../../value/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

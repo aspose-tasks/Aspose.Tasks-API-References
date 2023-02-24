@@ -1,0 +1,24 @@
+---
+title: Task.IsSubprojectReadOnly
+second_title: Aspose.Tasks لمرجع .NET API
+description: Task ملكية. الحصول على أو تحديد قيمة تشير إلى ما إذا كان IsSubprojectReadOnly معينًا أم لا.
+type: docs
+weight: 750
+url: /ar/net/aspose.tasks/task/issubprojectreadonly/
+---
+## Task.IsSubprojectReadOnly property
+
+الحصول على أو تحديد قيمة تشير إلى ما إذا كان IsSubprojectReadOnly معينًا أم لا.
+
+```csharp
+public NullableBool IsSubprojectReadOnly { get; set; }
+```
+
+### أنظر أيضا
+
+* struct [NullableBool](../../nullablebool/)
+* class [Task](../)
+* مساحة الاسم [Aspose.Tasks](../../task/)
+* المجسم [Aspose.Tasks](../../../)
+
+

@@ -1,14 +1,14 @@
 ---
-title: GroupCriterion
+title: Class GroupCriterion
 second_title: Aspose.Tasks لمرجع .NET API
-description: يمثل معيارًا في تعريف المجموعة . كائن GroupCriterion هو عضو فيGroupCriterionCollection./groupcriterioncollection جمع .
+description: Aspose.Tasks.GroupCriterion فصل. يمثل معيارًا في تعريف المجموعة . كائن GroupCriterion هو عضو فيGroupCriterionCollection جمع.
 type: docs
-weight: 720
+weight: 730
 url: /ar/net/aspose.tasks/groupcriterion/
 ---
 ## GroupCriterion class
 
-يمثل معيارًا في تعريف المجموعة . كائن GroupCriterion هو عضو في[`GroupCriterionCollection`](../groupcriterioncollection) جمع .
+يمثل معيارًا في تعريف المجموعة . كائن GroupCriterion هو عضو في[`GroupCriterionCollection`](../groupcriterioncollection/) جمع.
 
 ```csharp
 public class GroupCriterion
@@ -18,34 +18,34 @@ public class GroupCriterion
 
 | اسم | وصف |
 | --- | --- |
-| [GroupCriterion](groupcriterion)() | Default_Constructor |
+| [GroupCriterion](groupcriterion/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Ascending](../../aspose.tasks/groupcriterion/ascending) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحقل المستخدم كمعيار في تعريف مجموعة يتم فرزه بترتيب تصاعدي. خطأ إذا تم فرز الحقل بترتيب تنازلي. |
-| [CellColor](../../aspose.tasks/groupcriterion/cellcolor) { get; set; } | الحصول على أو تعيين لون خلفية الخلية للحقل المستخدم كمعيار في تعريف المجموعة. |
-| [Field](../../aspose.tasks/groupcriterion/field) { get; set; } | الحصول على أو تعيين الحقل الذي يتم تجميعه حسب . |
-| [Font](../../aspose.tasks/groupcriterion/font) { get; set; } | الحصول على الخط أو تعيينه لمعيار ما في تعريف المجموعة. |
-| [FontColor](../../aspose.tasks/groupcriterion/fontcolor) { get; set; } | الحصول على أو تحديد لون الخط للحقل المستخدم كمعيار في تعريف المجموعة. |
-| [GroupInterval](../../aspose.tasks/groupcriterion/groupinterval) { get; set; } | الحصول على أو تعيين الفاصل الزمني للحقل المستخدم كمعيار في تعريف المجموعة. |
-| [GroupOn](../../aspose.tasks/groupcriterion/groupon) { get; set; } | الحصول على نوع التجميع للحقل المستخدم كمعيار في تعريف المجموعة أو تعيينه. |
-| [Index](../../aspose.tasks/groupcriterion/index) { get; } | يحصل على فهرس ملف[`GroupCriterion`](../groupcriterion) كائن في[`GroupCriterionCollection`](../groupcriterioncollection) جمع . |
-| [ParentGroup](../../aspose.tasks/groupcriterion/parentgroup) { get; } | يحصل على والد[`GroupCriterion`](../groupcriterion) الكائن . |
-| [Pattern](../../aspose.tasks/groupcriterion/pattern) { get; set; } | الحصول على أو تعيين نمط الخلية للحقل المستخدم كمعيار في تعريف المجموعة. |
-| [StartAt](../../aspose.tasks/groupcriterion/startat) { get; set; } | الحصول على أو تعيين بداية الفواصل الزمنية للحقل المستخدم كمعيار في تعريف المجموعة. |
+| [Ascending](../../aspose.tasks/groupcriterion/ascending/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحقل المستخدم كمعيار في تعريف مجموعة يتم فرزه بترتيب تصاعدي. خطأ إذا تم فرز الحقل بترتيب تنازلي. |
+| [CellColor](../../aspose.tasks/groupcriterion/cellcolor/) { get; set; } | الحصول على أو تعيين لون خلفية الخلية للحقل المستخدم كمعيار في تعريف المجموعة. |
+| [Field](../../aspose.tasks/groupcriterion/field/) { get; set; } | الحصول على أو تعيين الحقل الذي يتم تجميعه حسب . |
+| [Font](../../aspose.tasks/groupcriterion/font/) { get; set; } | الحصول على الخط أو تعيينه لمعيار ما في تعريف المجموعة. |
+| [FontColor](../../aspose.tasks/groupcriterion/fontcolor/) { get; set; } | الحصول على أو تحديد لون الخط للحقل المستخدم كمعيار في تعريف المجموعة. |
+| [GroupInterval](../../aspose.tasks/groupcriterion/groupinterval/) { get; set; } | الحصول على أو تعيين الفاصل الزمني للحقل المستخدم كمعيار في تعريف المجموعة. |
+| [GroupOn](../../aspose.tasks/groupcriterion/groupon/) { get; set; } | الحصول على نوع التجميع للحقل المستخدم كمعيار في تعريف المجموعة أو تعيينه. |
+| [Index](../../aspose.tasks/groupcriterion/index/) { get; } | يحصل على فهرس ملف`GroupCriterion` الكائن في[`GroupCriterionCollection`](../groupcriterioncollection/) جمع. |
+| [ParentGroup](../../aspose.tasks/groupcriterion/parentgroup/) { get; } | يحصل على والد`GroupCriterion` الكائن . |
+| [Pattern](../../aspose.tasks/groupcriterion/pattern/) { get; set; } | الحصول على أو تعيين نمط الخلية للحقل المستخدم كمعيار في تعريف المجموعة. |
+| [StartAt](../../aspose.tasks/groupcriterion/startat/) { get; set; } | الحصول على أو تعيين بداية الفواصل الزمنية للحقل المستخدم كمعيار في تعريف المجموعة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.tasks/groupcriterion/equals)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| override [GetHashCode](../../aspose.tasks/groupcriterion/gethashcode)() | يعمل كدالة تجزئة لنوع معين. |
+| override [Equals](../../aspose.tasks/groupcriterion/equals/)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
+| override [GetHashCode](../../aspose.tasks/groupcriterion/gethashcode/)() | يعمل كدالة تجزئة لنوع معين. |
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks)
+* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
 * المجسم [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

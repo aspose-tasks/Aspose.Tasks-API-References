@@ -1,9 +1,9 @@
 ---
-title: Filter
+title: Class Filter
 second_title: Aspose.Tasks لمرجع .NET API
-description: يمثل عامل تصفية في المشروع .
+description: Aspose.Tasks.Filter فصل. يمثل عامل تصفية في المشروع .
 type: docs
-weight: 590
+weight: 600
 url: /ar/net/aspose.tasks/filter/
 ---
 ## Filter class
@@ -18,39 +18,38 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 
 | اسم | وصف |
 | --- | --- |
-| [Filter](filter)() | Default_Constructor |
+| [Filter](filter/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Criteria](../../aspose.tasks/filter/criteria) { get; set; } | الحصول على أو تعيين المعايير التي يجب أن تلبيها المهام أو الموارد ليتم عرضها في طريقة عرض MSP. |
-| [FilterType](../../aspose.tasks/filter/filtertype) { get; } | يحصل على نوع المرشح . |
-| [Index](../../aspose.tasks/filter/index) { get; } | يحصل على فهرس ملف[`Filter`](../filter) الكائن في المرشحات التي تحتوي على كائن. |
-| [Name](../../aspose.tasks/filter/name) { get; set; } | الحصول على أو تحديد اسم كائن عامل التصفية . |
-| [ParentProject](../../aspose.tasks/filter/parentproject) { get; } | الحصول على أصل كائن Filter . |
-| [ShowInMenu](../../aspose.tasks/filter/showinmenu) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان المشروع يعرض اسم عامل التصفية في القائمة المنسدلة تصفية في علامة التبويب عرض على الشريط. |
-| [ShowRelatedSummaryRows](../../aspose.tasks/filter/showrelatedsummaryrows) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفوف التلخيص ذات الصلة معروضة للفلتر. |
-| [Uid](../../aspose.tasks/filter/uid) { get; } | الحصول على المعرف الفريد للمرشح . |
+| [Criteria](../../aspose.tasks/filter/criteria/) { get; set; } | الحصول على أو تعيين المعايير التي يجب أن تلبيها المهام أو الموارد ليتم عرضها في طريقة عرض MSP. |
+| [FilterType](../../aspose.tasks/filter/filtertype/) { get; } | يحصل على نوع المرشح . |
+| [Index](../../aspose.tasks/filter/index/) { get; } | يحصل على فهرس ملف`Filter` الكائن في المرشحات التي تحتوي على كائن. |
+| [Name](../../aspose.tasks/filter/name/) { get; set; } | الحصول على أو تحديد اسم كائن عامل التصفية . |
+| [ShowInMenu](../../aspose.tasks/filter/showinmenu/) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان المشروع يعرض اسم عامل التصفية في القائمة المنسدلة تصفية في علامة التبويب عرض على الشريط. |
+| [ShowRelatedSummaryRows](../../aspose.tasks/filter/showrelatedsummaryrows/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفوف الملخصات ذات الصلة معروضة لعامل التصفية. |
+| [Uid](../../aspose.tasks/filter/uid/) { get; } | الحصول على المعرف الفريد للمرشح . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/filter/compareto)(Filter) | يقارن هذا المثيل بالمثيل المحدد لملف[`Filter`](../filter) فئة وإرجاع إشارة إلى ترتيبها النسبي. |
-| [Equals](../../aspose.tasks/filter/equals#equals)(Filter) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن AssignmentBaseline المحدد. |
-| override [Equals](../../aspose.tasks/filter/equals#equals_1)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن AssignmentBaseline المحدد. |
-| override [GetHashCode](../../aspose.tasks/filter/gethashcode)() | إرجاع قيمة رمز تجزئة لعامل التصفية. |
-| [operator ==](../../aspose.tasks/filter/op_equality) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| [operator &gt;](../../aspose.tasks/filter/op_greaterthan) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من كائن محدد. |
-| [operator &gt;=](../../aspose.tasks/filter/op_greaterthanorequal) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من أو يساوي كائنًا محددًا. |
-| [operator !=](../../aspose.tasks/filter/op_inequality) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل لا يساوي كائنًا محددًا. |
-| [operator &lt;](../../aspose.tasks/filter/op_lessthan) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من كائن محدد. |
-| [operator &lt;=](../../aspose.tasks/filter/op_lessthanorequal) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من أو يساوي كائنًا محددًا. |
+| [CompareTo](../../aspose.tasks/filter/compareto/)(Filter) | يقارن هذا المثيل بالمثيل المحدد لملف`Filter` فئة وإرجاع إشارة إلى ترتيبها النسبي. |
+| [Equals](../../aspose.tasks/filter/equals/#equals)(Filter) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن AssignmentBaseline المحدد. |
+| override [Equals](../../aspose.tasks/filter/equals/#equals_1)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن AssignmentBaseline المحدد. |
+| override [GetHashCode](../../aspose.tasks/filter/gethashcode/)() | إرجاع قيمة رمز تجزئة لعامل التصفية. |
+| [operator ==](../../aspose.tasks/filter/op_equality/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
+| [operator &gt;](../../aspose.tasks/filter/op_greaterthan/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من كائن محدد. |
+| [operator &gt;=](../../aspose.tasks/filter/op_greaterthanorequal/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من أو يساوي كائنًا محددًا. |
+| [operator !=](../../aspose.tasks/filter/op_inequality/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل لا يساوي كائنًا محددًا. |
+| [operator &lt;](../../aspose.tasks/filter/op_lessthan/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من كائن محدد. |
+| [operator &lt;=](../../aspose.tasks/filter/op_lessthanorequal/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من أو يساوي كائنًا محددًا. |
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks)
+* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
 * المجسم [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

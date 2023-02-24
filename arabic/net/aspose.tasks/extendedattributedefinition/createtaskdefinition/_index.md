@@ -1,14 +1,14 @@
 ---
-title: CreateTaskDefinition
+title: ExtendedAttributeDefinition.CreateTaskDefinition
 second_title: Aspose.Tasks لمرجع .NET API
-description: طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا  والذي يظهره Microsoft Project على أنه بلا. يحتوي علىCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype يساويNone ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديدcustomFieldType وfieldId وalias عند استدعاء هذه الطريقة.
+description: ExtendedAttributeDefinition طريقة. طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا  والذي يظهره Microsoft Project على أنه بلا. يحتوي علىCalculationType يساويNone ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديدcustomFieldType وfieldId وalias عند استدعاء هذه الطريقة.
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/extendedattributedefinition/createtaskdefinition/
 ---
 ## CreateTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createtaskdefinition}
 
-طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype) يساويNone ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*customFieldType* و*fieldId* و*alias* عند استدعاء هذه الطريقة.
+طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype/) يساويNone ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*customFieldType* و*fieldId* و*alias* عند استدعاء هذه الطريقة.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType customFieldType, 
@@ -17,13 +17,13 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType c
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | المحدد[`CustomFieldType`](../../customfieldtype) يكتب. |
-| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask) معرف المجال. |
+| customFieldType | CustomFieldType | المحدد[`CustomFieldType`](../../customfieldtype/) يكتب. |
+| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask/) معرف المجال. |
 | alias | String | المحددString الاسم المستعار. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../../extendedattributedefinition) فئة مع المحدد*customFieldType* و*fieldId* و*alias*.
+تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*customFieldType* و*fieldId* و*alias*.
 
 ### أمثلة
 
@@ -36,17 +36,17 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### أنظر أيضا
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateTaskDefinition(ExtendedAttributeTask, string) {#createtaskdefinition_1}
 
-طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype) يساويNone ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*fieldId* و*alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
+طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype/) يساويNone ويمكن استخدامها في المهام فقط. أنت مطالب بالتحديد*fieldId* و*alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -55,12 +55,12 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttribute
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask) معرف المجال. |
+| fieldId | ExtendedAttributeTask | المحدد[`ExtendedAttributeTask`](../../extendedattributetask/) معرف المجال. |
 | alias | String | المحددString الاسم المستعار. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../../extendedattributedefinition) فئة مع المحدد*fieldId* و*alias*.
+تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*fieldId* و*alias*.
 
 ### أمثلة
 
@@ -73,9 +73,9 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### أنظر أيضا
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

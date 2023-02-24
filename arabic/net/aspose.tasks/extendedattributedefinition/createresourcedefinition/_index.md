@@ -1,14 +1,14 @@
 ---
-title: CreateResourceDefinition
+title: ExtendedAttributeDefinition.CreateResourceDefinition
 second_title: Aspose.Tasks لمرجع .NET API
-description: طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا  والذي يظهره Microsoft Project على أنه بلا. يحتوي علىCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديدcustomFieldType وfieldId وalias عند استدعاء هذه الطريقة.
+description: ExtendedAttributeDefinition طريقة. طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا  والذي يظهره Microsoft Project على أنه بلا. يحتوي علىCalculationType يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديدcustomFieldType وfieldId وalias عند استدعاء هذه الطريقة.
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/extendedattributedefinition/createresourcedefinition/
 ---
 ## CreateResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createresourcedefinition}
 
-طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype) يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديد*customFieldType* و*fieldId* و*alias* عند استدعاء هذه الطريقة.
+طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype/) يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديد*customFieldType* و*fieldId* و*alias* عند استدعاء هذه الطريقة.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldType customFieldType, 
@@ -17,13 +17,13 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldTy
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | المحدد[`CustomFieldType`](../../customfieldtype) يكتب. |
-| fieldId | ExtendedAttributeResource | المحدد[`ExtendedAttributeResource`](../../extendedattributeresource) معرف المجال. |
+| customFieldType | CustomFieldType | المحدد[`CustomFieldType`](../../customfieldtype/) يكتب. |
+| fieldId | ExtendedAttributeResource | المحدد[`ExtendedAttributeResource`](../../extendedattributeresource/) معرف المجال. |
 | alias | String | المحددString الاسم المستعار. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../../extendedattributedefinition) فئة مع المحدد*customFieldType* و*fieldId* و*alias*.
+تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*customFieldType* و*fieldId* و*alias*.
 
 ### أمثلة
 
@@ -36,17 +36,17 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### أنظر أيضا
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateResourceDefinition(ExtendedAttributeResource, string) {#createresourcedefinition_1}
 
-طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype) يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديد*fieldId* و*alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
+طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype/) يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديد*fieldId* و*alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(
@@ -55,12 +55,12 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | المحدد[`ExtendedAttributeResource`](../../extendedattributeresource) معرف المجال. |
+| fieldId | ExtendedAttributeResource | المحدد[`ExtendedAttributeResource`](../../extendedattributeresource/) معرف المجال. |
 | alias | String | المحددString الاسم المستعار. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../../extendedattributedefinition) فئة مع المحدد*fieldId* و*alias*.
+تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*fieldId* و*alias*.
 
 ### أمثلة
 
@@ -73,9 +73,9 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### أنظر أيضا
 
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
 * المجسم [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

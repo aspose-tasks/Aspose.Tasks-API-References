@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Aspose.Tasks لمرجع .NET API
-description: أضف المهمة المحددة إلى مثيل ملفTaskCollectionaspose.tasks/taskcollectionclass. إذا كان ParentProject.CalculationMode هو لا شيء  يجب على المستخدم استدعاء Project.Recalculate  بعد استخدام هذه الطريقة ستعيد جدولة جميع مهام المشروع تواريخ البدء / الانتهاء  وتعيين التواريخ المبكرة / المتأخرة وحساب الحقول التابعة مثل فترات العمل  والعمل وحقول التكلفة والمعرفات ومستويات المخطط التفصيلي . إذا كان ParentProject.CalculationMode هو يدوي  فستقوم الطريقة بحساب معرف المهمة فقط  ومستوى المخطط التفصيلي وأرقام المخطط التفصيلي تلقائيًا. التواريخ  وتعيين التواريخ المبكرة / المتأخرة  وتحسب فترات الركود  وحقول العمل والتكلفة  وإعادة حساب المعرفات ومستويات المخطط التفصيلي.
+description: TaskCollection طريقة. أضف المهمة المحددة إلى مثيل ملفTaskCollectionclass. إذا كان ParentProject.CalculationMode هو لا شيء يجب على المستخدم استدعاء Project.Recalculate  بعد استخدام هذه الطريقة ستعيد جدولة جميع مهام المشروع تواريخ البدء / الانتهاء  وتعيين التواريخ المبكرة / المتأخرة وحساب الحقول التابعة مثل فترات العمل  والعمل وحقول التكلفة والمعرفات ومستويات المخطط التفصيلي . إذا كان ParentProject.CalculationMode هو يدوي  فستقوم الطريقة بحساب معرف المهمة فقط  ومستوى المخطط التفصيلي وأرقام المخطط التفصيلي تلقائيًا. التواريخ  وتعيين التواريخ المبكرة / المتأخرة  وتحسب فترات الركود  وحقول العمل والتكلفة  وإعادة حساب المعرفات ومستويات المخطط التفصيلي.
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-أضف المهمة المحددة إلى مثيل ملف[`TaskCollection`](../../taskcollection)class. إذا كان ParentProject.CalculationMode هو لا شيء ، يجب على المستخدم استدعاء Project.Recalculate () بعد استخدام هذه الطريقة (ستعيد جدولة جميع مهام المشروع (تواريخ البدء / الانتهاء ، وتعيين التواريخ المبكرة / المتأخرة) وحساب الحقول التابعة مثل فترات العمل ، والعمل وحقول التكلفة والمعرفات ومستويات المخطط التفصيلي) . إذا كان ParentProject.CalculationMode هو يدوي ، فستقوم الطريقة بحساب معرف المهمة فقط ، ومستوى المخطط التفصيلي وأرقام المخطط التفصيلي تلقائيًا. التواريخ ، وتعيين التواريخ المبكرة / المتأخرة ، وتحسب فترات الركود ، وحقول العمل والتكلفة ، وإعادة حساب المعرفات ومستويات المخطط التفصيلي).
+أضف المهمة المحددة إلى مثيل ملف[`TaskCollection`](../)class. إذا كان ParentProject.CalculationMode هو لا شيء يجب على المستخدم استدعاء Project.Recalculate () بعد استخدام هذه الطريقة (ستعيد جدولة جميع مهام المشروع (تواريخ البدء / الانتهاء ، وتعيين التواريخ المبكرة / المتأخرة) وحساب الحقول التابعة مثل فترات العمل ، والعمل وحقول التكلفة والمعرفات ومستويات المخطط التفصيلي) . إذا كان ParentProject.CalculationMode هو يدوي ، فستقوم الطريقة بحساب معرف المهمة فقط ، ومستوى المخطط التفصيلي وأرقام المخطط التفصيلي تلقائيًا. التواريخ ، وتعيين التواريخ المبكرة / المتأخرة ، وتحسب فترات الركود ، وحقول العمل والتكلفة ، وإعادة حساب المعرفات ومستويات المخطط التفصيلي).
 
 ```csharp
 public void Add(Task item)
@@ -20,16 +20,16 @@ public void Add(Task item)
 
 ### أنظر أيضا
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
 
 ## Add() {#add}
 
-إضافة مهمة جديدة إلى مجموعة مهام المشروع على نفس مستوى المخطط التفصيلي للمهمة الأخيرة.
+يضيف مهمة جديدة إلى مجموعة مهام المشروع على نفس مستوى المخطط التفصيلي للمهمة الأخيرة.
 
 ```csharp
 public Task Add()
@@ -37,13 +37,13 @@ public Task Add()
 
 ### قيمة الإرجاع
 
-تُرجع النسخة المضافة حديثًا من[`Task`](../../task) صف دراسي.
+يُرجع المثيل المضاف حديثًا لـ[`Task`](../../task/) فصل.
 
 ### أنظر أيضا
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -62,13 +62,13 @@ public Task Add(string taskName)
 
 ### قيمة الإرجاع
 
-تُرجع النسخة المضافة حديثًا من[`Task`](../../task) صف دراسي.
+يُرجع المثيل المضاف حديثًا لـ[`Task`](../../task/) فصل.
 
 ### أنظر أيضا
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -98,9 +98,9 @@ public Task Add(string taskName, int beforeTaskId)
 
 ### أنظر أيضا
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -119,7 +119,7 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### قيمة الإرجاع
 
-تُرجع النسخة المضافة حديثًا من[`Task`](../../task) صف دراسي.
+يُرجع المثيل المضاف حديثًا لـ[`Task`](../../task/) فصل.
 
 ### استثناءات
 
@@ -130,10 +130,10 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### أنظر أيضا
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
 * المجسم [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

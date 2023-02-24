@@ -1,9 +1,9 @@
 ---
-title: TaskBaseline
+title: Class TaskBaseline
 second_title: Aspose.Tasks لمرجع .NET API
-description: يمثل خط الأساس للمهمة .
+description: Aspose.Tasks.TaskBaseline فصل. يمثل خط الأساس للمهمة .
 type: docs
-weight: 2070
+weight: 2080
 url: /ar/net/aspose.tasks/taskbaseline/
 ---
 ## TaskBaseline class
@@ -18,41 +18,41 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 
 | اسم | وصف |
 | --- | --- |
-| [TaskBaseline](taskbaseline)(Task) | يقوم بتهيئة مثيل جديد لملف[`TaskBaseline`](../taskbaseline) فئة . |
+| [TaskBaseline](taskbaseline/)(Task) | يقوم بتهيئة مثيل جديد لملف`TaskBaseline` فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | الحصول على أو تعيين الرقم الفريد لسجل البيانات الأساسية. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | الحصول على أو تعيين التكلفة المدرجة في الموازنة لعمل تم تنفيذه بواسطة مورد لمشروع حتى الآن. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | الحصول على أو تعيين تكلفة الموازنة لعمل مجدول لمورد. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | الحصول على التكلفة المتوقعة للمورد أو تعيينها عند حفظ الأساس. |
-| [Duration](../../aspose.tasks/taskbaseline/duration) { get; set; } | الحصول على أو تعيين المدة المجدولة للمهمة عند حفظ الأساس. |
-| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat) { get; set; } | الحصول على تنسيق للتعبير عن مدة خط الأساس للمهمة أو تعيينه. |
-| [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان قد تم تقدير المدة الأساسية للمهمة. |
-| [Finish](../../aspose.tasks/taskbaseline/finish) { get; set; } | الحصول على أو تعيين تاريخ الانتهاء المجدول للمهمة عندما تم حفظ الأساس. |
-| [FixedCost](../../aspose.tasks/taskbaseline/fixedcost) { get; set; } | الحصول على تكلفة ثابتة للمهمة أو تعيينها عند حفظ الأساس. |
-| [Interim](../../aspose.tasks/taskbaseline/interim) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا هو خط الأساس المؤقت. |
-| [Start](../../aspose.tasks/taskbaseline/start) { get; set; } | الحصول على أو تعيين تاريخ البدء المجدول للمهمة عندما تم حفظ الأساس. |
-| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata) { get; set; } | الحصول على مثيل TimephasedDataCollection لهذا الكائن أو تعيينه . البيانات الزمنية على مراحل المرتبطة بخط الأساس للمهمة. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | الحصول على أو تعيين العمل المعين إلى مورد عند حفظ الأساس.مقدار العمل المعين لمورد عندما تم حفظ الأساس. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | الحصول على أو تعيين الرقم الفريد لسجل البيانات الأساسية. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | الحصول على أو تعيين التكلفة المدرجة في الموازنة لعمل تم تنفيذه بواسطة مورد لمشروع حتى الآن. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | الحصول على أو تعيين تكلفة الموازنة لعمل مجدول لمورد. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | الحصول على التكلفة المتوقعة للمورد أو تعيينها عند حفظ الأساس. |
+| [Duration](../../aspose.tasks/taskbaseline/duration/) { get; set; } | الحصول على أو تعيين المدة المجدولة للمهمة عند حفظ الأساس. |
+| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat/) { get; set; } | الحصول على التنسيق للتعبير عن مدة خط الأساس للمهمة أو تعيينه. |
+| [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان قد تم تقدير المدة الأساسية للمهمة. |
+| [Finish](../../aspose.tasks/taskbaseline/finish/) { get; set; } | الحصول على أو تعيين تاريخ الانتهاء المجدول للمهمة عندما تم حفظ الأساس. |
+| [FixedCost](../../aspose.tasks/taskbaseline/fixedcost/) { get; set; } | الحصول على تكلفة ثابتة للمهمة أو تعيينها عند حفظ الأساس. |
+| [Interim](../../aspose.tasks/taskbaseline/interim/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان هذا هو خط الأساس المؤقت. |
+| [Start](../../aspose.tasks/taskbaseline/start/) { get; set; } | الحصول على أو تعيين تاريخ البدء المجدول للمهمة عندما تم حفظ الأساس. |
+| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata/) { get; set; } | الحصول على مثيل TimephasedDataCollection لهذا الكائن أو تعيينه . البيانات الزمنية على مراحل المرتبطة بخط أساس المهمة. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | الحصول على أو تعيين العمل المعين لمورد عند حفظ الأساس.مقدار العمل المعين لمورد عندما تم حفظ الأساس. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
-| [CompareTo](../../aspose.tasks/taskbaseline/compareto#compareto_1)(TaskBaseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
-| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| override [Equals](../../aspose.tasks/taskbaseline/equals#equals_2)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| [Equals](../../aspose.tasks/taskbaseline/equals#equals_1)(TaskBaseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن TaskBaseline المحدد. |
-| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode)() | إرجاع قيمة رمز تجزئة لمثيل[`TaskBaseline`](../taskbaseline) فئة . |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
+| [CompareTo](../../aspose.tasks/taskbaseline/compareto/#compareto_1)(TaskBaseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
+| [Equals](../../aspose.tasks/baseline/equals/)(Baseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
+| override [Equals](../../aspose.tasks/taskbaseline/equals/#equals_2)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
+| [Equals](../../aspose.tasks/taskbaseline/equals/#equals_1)(TaskBaseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن TaskBaseline المحدد. |
+| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode/)() | إرجاع قيمة رمز تجزئة لمثيل`TaskBaseline` فئة . |
 
 ### أنظر أيضا
 
-* class [Baseline](../baseline)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks)
+* class [Baseline](../baseline/)
+* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
 * المجسم [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
