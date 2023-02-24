@@ -1,14 +1,14 @@
 ---
-title: CreateLookupTaskDefinition
+title: ExtendedAttributeDefinition.CreateLookupTaskDefinition
 second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Méthode dusine qui crée une définition dattribut étendue avec recherche. Elle aCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype est égal àLookup et ne peut être utilisé que dans les tâches. Vous devez spécifierfieldId etalias lors de lappel de cette méthode. Le type de champ est déduit de lID de champ.
+description: ExtendedAttributeDefinition méthode. Méthode dusine qui crée une définition dattribut étendue avec recherche. Elle aCalculationType est égal àLookup et ne peut être utilisé que dans les tâches. Vous devez spécifierfieldId etalias lors de lappel de cette méthode. Le type de champ est déduit de lID de champ.
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/extendedattributedefinition/createlookuptaskdefinition/
 ---
 ## CreateLookupTaskDefinition(ExtendedAttributeTask, string) {#createlookuptaskdefinition_1}
 
-Méthode d'usine qui crée une définition d'attribut étendue avec recherche. Elle a[`CalculationType`](../calculationtype) est égal àLookup et ne peut être utilisé que dans les tâches. Vous devez spécifier*fieldId* et*alias* lors de l'appel de cette méthode. Le type de champ est déduit de l'ID de champ.
+Méthode d'usine qui crée une définition d'attribut étendue avec recherche. Elle a[`CalculationType`](../calculationtype/) est égal àLookup et ne peut être utilisé que dans les tâches. Vous devez spécifier*fieldId* et*alias* lors de l'appel de cette méthode. Le type de champ est déduit de l'ID de champ.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -17,12 +17,12 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAtt
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | Le spécifié[`ExtendedAttributeTask`](../../extendedattributetask) ID de champ. |
+| fieldId | ExtendedAttributeTask | Le spécifié[`ExtendedAttributeTask`](../../extendedattributetask/) ID de champ. |
 | alias | String | Le spécifiéString alias. |
 
 ### Return_Value
 
-Instance créée du[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe avec spécifié*fieldId* et*alias*.
+Instance créée du[`ExtendedAttributeDefinition`](../) classe avec spécifié*fieldId* et*alias*.
 
 ### Exemples
 
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Voir également
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espace de noms [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* espace de noms [Aspose.Tasks](../../extendedattributedefinition/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createlookuptaskdefinition}
 
-Méthode d'usine qui crée une définition d'attribut étendue avec recherche. Elle a[`CalculationType`](../calculationtype) est égal àLookup et ne peut être utilisé que dans les tâches. Vous devez spécifier*customFieldType* ,*fieldId* et*alias* lors de l'appel de cette méthode.
+Méthode d'usine qui crée une définition d'attribut étendue avec recherche. Elle a[`CalculationType`](../calculationtype/) est égal àLookup et ne peut être utilisé que dans les tâches. Vous devez spécifier*customFieldType* ,*fieldId* et*alias* lors de l'appel de cette méthode.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
@@ -55,13 +55,13 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Le spécifié[`CustomFieldType`](../../customfieldtype) taper. |
-| fieldId | ExtendedAttributeTask | Le spécifié[`ExtendedAttributeTask`](../../extendedattributetask) ID de champ. |
+| customFieldType | CustomFieldType | Le spécifié[`CustomFieldType`](../../customfieldtype/) taper. |
+| fieldId | ExtendedAttributeTask | Le spécifié[`ExtendedAttributeTask`](../../extendedattributetask/) ID de champ. |
 | alias | String | Le spécifiéString alias. |
 
 ### Return_Value
 
-Instance créée du[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe avec spécifié*customFieldType* ,*fieldId* et*alias*.
+Instance créée du[`ExtendedAttributeDefinition`](../) classe avec spécifié*customFieldType* ,*fieldId* et*alias*.
 
 ### Exemples
 
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Voir également
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espace de noms [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* espace de noms [Aspose.Tasks](../../extendedattributedefinition/)
 * Assemblée [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

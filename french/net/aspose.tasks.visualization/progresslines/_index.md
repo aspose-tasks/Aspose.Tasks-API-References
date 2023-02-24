@@ -1,9 +1,9 @@
 ---
-title: ProgressLines
+title: Class ProgressLines
 second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Représente les lignes de progression dans une vue Diagramme de Gantt.
+description: Aspose.Tasks.Visualization.ProgressLines classe. Représente les lignes de progression dans une vue Diagramme de Gantt.
 type: docs
-weight: 2920
+weight: 2940
 url: /fr/net/aspose.tasks.visualization/progresslines/
 ---
 ## ProgressLines class
@@ -18,35 +18,35 @@ public class ProgressLines
 
 | Nom | La description |
 | --- | --- |
-| [ProgressLines](progresslines)() | Default_Constructor |
+| [ProgressLines](progresslines/)() | Default_Constructor |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate) { get; set; } | Obtient ou définit la date à partir de laquelle afficher les lignes de progression. |
-| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher les lignes de progression à partir du début de la date de début du projet. |
-| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat) { get; set; } | Obtient ou définit le format de date ([`DateLabel`](../datelabel) ). |
-| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher la ligne de progression à la date actuelle. |
-| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher la ligne de progression à intervalles récurrents. |
-| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher les courbes de progression aux dates sélectionnées. |
-| [Font](../../aspose.tasks.visualization/progresslines/font) { get; set; } | Obtient ou définit la police utilisée pour l'étiquette de la ligne de progression. |
-| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher les courbes de progression pour le plan de base ou réel. |
-| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor) { get; set; } | Obtient ou définit la couleur de la ligne de progression actuelle. |
-| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern) { get; set; } | Obtient ou définit le motif de ligne de la ligne de progression actuelle. [`LinePattern`](./linepattern) . |
-| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor) { get; set; } | Obtient ou définit la couleur d'une autre ligne de progression. |
-| [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern) { get; set; } | Obtient ou définit le modèle de ligne pour une autre ligne de progression. |
-| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor) { get; set; } | Obtient ou définit la couleur d'un autre point de progression. |
-| [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape) { get; set; } | Obtient ou définit la forme du point de progression d'une autre ligne de progression. |
-| [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor) { get; set; } | Obtient ou définit la couleur du point de progression. |
-| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape) { get; set; } | Obtient ou définit la forme du point de progression. [`GanttBarEndShape`](../ganttbarendshape) . |
-| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval) { get; set; } | Obtient ou définit l'intervalle récurrent. [`RecurringInterval`](./recurringinterval) . |
-| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates) { get; } | Obtient la liste des dates sélectionnées pour afficher les lignes de progression. |
-| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher la date pour chaque ligne de progression. |
+| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate/) { get; set; } | Obtient ou définit la date à partir de laquelle afficher les lignes de progression. |
+| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher les lignes de progression à partir du début de la date de début du projet. |
+| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat/) { get; set; } | Obtient ou définit le format de date ([`DateLabel`](../datelabel/) ). |
+| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher la ligne de progression à la date actuelle. |
+| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher la ligne de progression à intervalles récurrents. |
+| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher les courbes de progression aux dates sélectionnées. |
+| [Font](../../aspose.tasks.visualization/progresslines/font/) { get; set; } | Obtient ou définit la police utilisée pour l'étiquette de la ligne de progression. |
+| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher les courbes de progression pour le plan de base ou réel. |
+| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor/) { get; set; } | Obtient ou définit la couleur de la ligne de progression actuelle. |
+| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern/) { get; set; } | Obtient ou définit le motif de ligne de la ligne de progression actuelle. [`LinePattern`](./linepattern/) . |
+| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor/) { get; set; } | Obtient ou définit la couleur d'une autre ligne de progression. |
+| [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern/) { get; set; } | Obtient ou définit le modèle de ligne pour une autre ligne de progression. |
+| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor/) { get; set; } | Obtient ou définit la couleur d'un autre point de progression. |
+| [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape/) { get; set; } | Obtient ou définit la forme du point de progression d'une autre ligne de progression. |
+| [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor/) { get; set; } | Obtient ou définit la couleur du point de progression. |
+| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape/) { get; set; } | Obtient ou définit la forme du point de progression. [`GanttBarEndShape`](../ganttbarendshape/) . |
+| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval/) { get; set; } | Obtient ou définit l'intervalle récurrent. [`RecurringInterval`](./recurringinterval/) . |
+| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates/) { get; } | Obtient la liste des dates sélectionnées pour afficher les lignes de progression. |
+| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut afficher la date pour chaque ligne de progression. |
 
 ### Voir également
 
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * Assemblée [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

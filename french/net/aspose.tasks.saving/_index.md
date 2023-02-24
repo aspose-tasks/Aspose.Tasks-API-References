@@ -3,7 +3,7 @@ title: Aspose.Tasks.Saving
 second_title: Référence de l'API Aspose.Tasks pour .NET
 description: Contient des classes pour enregistrer un projet dans différents formats.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.tasks.saving/
 ---
 Contient des classes pour enregistrer un projet dans différents formats.
@@ -12,41 +12,41 @@ Contient des classes pour enregistrer un projet dans différents formats.
 
 | Classer | La description |
 | --- | --- |
-| [CsvOptions](./csvoptions) | Permet de spécifier des options supplémentaires lors de l'enregistrement du projet au format CSV. |
-| [HtmlSaveOptions](./htmlsaveoptions) | Permet de spécifier des options supplémentaires lors du rendu des pages de projet au format HTML. |
-| [ImageSaveOptions](./imagesaveoptions) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet en images. |
-| [MPPSaveOptions](./mppsaveoptions) | Permet de spécifier des options supplémentaires lors de l'enregistrement des données du projet dans MPP. |
-| [PageSavingArgs](./pagesavingargs) | Cette classe représente un ensemble de données liées à l'enregistrement de la page du document dans un flux. |
-| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails) | Contient les détails d'une signature numérique PDF. |
-| [PdfEncryptionDetails](./pdfencryptiondetails) | Contient les détails d'un cryptage PDF. |
-| [PdfSaveOptions](./pdfsaveoptions) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet au format PDF. |
-| [PrimaveraSaveOptions](./primaverasaveoptions) | Permet de spécifier des options supplémentaires lors de l'enregistrement du projet au format Primavera XER. |
-| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions) | Permet de spécifier des options supplémentaires lors de l'enregistrement du projet au format Primavera xml. |
-| [PrintOptions](./printoptions) | Permet de spécifier des options supplémentaires lors de l'impression du projet. |
-| [SaveOptions](./saveoptions) | Il s'agit d'une classe de base abstraite pour les classes qui permettent à l'utilisateur de spécifier des options supplémentaires lors de l'enregistrement d'un projet dans un format particulier. |
-| [SaveTemplateOptions](./savetemplateoptions) | Permet de spécifier des options supplémentaires lors de l'enregistrement d'un projet en tant que modèle. |
-| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet dans Spreadsheet2003. |
-| [SvgOptions](./svgoptions) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet en SVG. |
-| [XamlOptions](./xamloptions) | /// Permet de spécifier des options supplémentaires lors du rendu des pages de projet en XAML. |
-| [XlsxOptions](./xlsxoptions) | Permet de spécifier des options supplémentaires lors du rendu des pages de projet au format XLSX. |
-| [XpsOptions](./xpsoptions) | Permet de spécifier des options supplémentaires lors du rendu des pages de projet en XPS. |
+| [CsvOptions](./csvoptions/) | Permet de spécifier des options supplémentaires lors de l'enregistrement du projet au format CSV. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Permet de spécifier des options supplémentaires lors du rendu des pages de projet au format HTML. |
+| [ImageSaveOptions](./imagesaveoptions/) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet en images. |
+| [MPPSaveOptions](./mppsaveoptions/) | Permet de spécifier des options supplémentaires lors de l'enregistrement des données du projet dans MPP. |
+| [PageSavingArgs](./pagesavingargs/) | Cette classe représente un ensemble de données liées à l'enregistrement de la page du document dans un flux. |
+| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | Contient les détails d'une signature numérique PDF. |
+| [PdfEncryptionDetails](./pdfencryptiondetails/) | Contient les détails d'un cryptage PDF. |
+| [PdfSaveOptions](./pdfsaveoptions/) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet au format PDF. |
+| [PrimaveraSaveOptions](./primaverasaveoptions/) | Permet de spécifier des options supplémentaires lors de l'enregistrement du projet au format Primavera XER. |
+| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions/) | Permet de spécifier des options supplémentaires lors de l'enregistrement du projet au format Primavera xml. |
+| [PrintOptions](./printoptions/) | Permet de spécifier des options supplémentaires lors de l'impression du projet. |
+| [SaveOptions](./saveoptions/) | Il s'agit d'une classe de base abstraite pour les classes qui permettent à l'utilisateur de spécifier des options supplémentaires lors de l'enregistrement d'un projet dans un format particulier. |
+| [SaveTemplateOptions](./savetemplateoptions/) | Permet de spécifier des options supplémentaires lors de l'enregistrement d'un projet en tant que modèle. |
+| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet dans Spreadsheet2003. |
+| [SvgOptions](./svgoptions/) | Permet de spécifier des options supplémentaires lors du rendu des pages du projet en SVG. |
+| [XamlOptions](./xamloptions/) | /// Permet de spécifier des options supplémentaires lors du rendu des pages de projet en XAML. |
+| [XlsxOptions](./xlsxoptions/) | Permet de spécifier des options supplémentaires lors du rendu des pages de projet au format XLSX. |
+| [XpsOptions](./xpsoptions/) | Permet de spécifier des options supplémentaires lors du rendu des pages de projet en XPS. |
 ## Interfaces
 
 | Interface | La description |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback) | Représente un rappel appelé lorsque chaque page d'un document de plusieurs pages est enregistrée dans un flux distinct. |
+| [IPageSavingCallback](./ipagesavingcallback/) | Représente un rappel appelé lorsque chaque page d'un document de plusieurs pages est enregistrée dans un flux distinct. |
 ## Énumération
 
 | Énumération | La description |
 | --- | --- |
-| [CsvTextDelimiter](./csvtextdelimiter) | Délimiteur de texte pour le format CSV. |
-| [DataCategory](./datacategory) | La catégorie de données utilisée lors de l'enregistrement au format CSV. |
-| [PdfCompliance](./pdfcompliance) | Spécifie le niveau de conformité PDF du fichier de sortie. |
-| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm) | Spécifie l'algorithme de hachage numérique utilisé par la signature numérique. |
-| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm) | Spécifie l'algorithme de chiffrement à utiliser pour chiffrer un document PDF. |
-| [PdfPermissions](./pdfpermissions) | Spécifie les autorisations à utiliser pour accéder à un document PDF. |
-| [PdfTextCompression](./pdftextcompression) | Spécifie un type de compression appliqué à tout le contenu du fichier PDF à l'exception des images. |
-| [SaveFileFormat](./savefileformat) | Enumération pour enregistrer la sélection du format de projet. |
-| [TiffCompression](./tiffcompression) | Spécifie le type de compression à appliquer lors de l'enregistrement de pages au format TIFF. |
+| [CsvTextDelimiter](./csvtextdelimiter/) | Délimiteur de texte pour le format CSV. |
+| [DataCategory](./datacategory/) | La catégorie de données utilisée lors de l'enregistrement au format CSV. |
+| [PdfCompliance](./pdfcompliance/) | Spécifie le niveau de conformité PDF du fichier de sortie. |
+| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | Spécifie l'algorithme de hachage numérique utilisé par la signature numérique. |
+| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm/) | Spécifie l'algorithme de chiffrement à utiliser pour chiffrer un document PDF. |
+| [PdfPermissions](./pdfpermissions/) | Spécifie les autorisations à utiliser pour accéder à un document PDF. |
+| [PdfTextCompression](./pdftextcompression/) | Spécifie un type de compression appliqué à tout le contenu du fichier PDF à l'exception des images. |
+| [SaveFileFormat](./savefileformat/) | Enumération pour enregistrer la sélection du format de projet. |
+| [TiffCompression](./tiffcompression/) | Spécifie le type de compression à appliquer lors de l'enregistrement de pages au format TIFF. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

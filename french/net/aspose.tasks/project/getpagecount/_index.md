@@ -1,14 +1,14 @@
 ---
-title: GetPageCount
+title: Project.GetPageCount
 second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Renvoie le nombre de pages pour le projet à rendre en utilisantSaveOptionsaspose.tasks.saving/saveoptions .
+description: Project méthode. Renvoie le nombre de pages pour le projet à rendre en utilisantSaveOptions .
 type: docs
-weight: 300
+weight: 1080
 url: /fr/net/aspose.tasks/project/getpagecount/
 ---
 ## GetPageCount(SaveOptions) {#getpagecount_1}
 
-Renvoie le nombre de pages pour le projet à rendre en utilisant[`SaveOptions`](../../../aspose.tasks.saving/saveoptions) .
+Renvoie le nombre de pages pour le projet à rendre en utilisant[`SaveOptions`](../../../aspose.tasks.saving/saveoptions/) .
 
 ```csharp
 public int GetPageCount(SaveOptions saveOptions)
@@ -44,16 +44,16 @@ Console.WriteLine(project.GetPageCount(saveOptions));
 
 ### Voir également
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount() {#getpagecount}
 
-Renvoie le nombre de pages pour le projet à rendre en utilisant la valeur par défaut[`Timescale`](../../../aspose.tasks.visualization/timescale) (Jours).
+Renvoie le nombre de pages pour le projet à rendre en utilisant la valeur par défaut[`Timescale`](../../../aspose.tasks.visualization/timescale/) (Jours).
 
 ```csharp
 public int GetPageCount()
@@ -65,15 +65,15 @@ Nombre de pages à afficher.
 
 ### Voir également
 
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(Timescale) {#getpagecount_6}
 
-Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale) .
+Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale/) .
 
 ```csharp
 public int GetPageCount(Timescale scale)
@@ -89,16 +89,16 @@ Nombre de pages à afficher.
 
 ### Voir également
 
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat) {#getpagecount_4}
 
-Renvoie le nombre de pages pour le projet à rendre en utilisant la valeur par défaut[`Timescale`](../../../aspose.tasks.visualization/timescale) (Jours) et donné[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat)
+Renvoie le nombre de pages pour le projet à rendre en utilisant la valeur par défaut[`Timescale`](../../../aspose.tasks.visualization/timescale/) (Jours) et donné[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)
 
 ```csharp
 public int GetPageCount(PresentationFormat format)
@@ -114,16 +114,16 @@ Nombre de pages à afficher.
 
 ### Voir également
 
-* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
-Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale) et[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) .
+Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale/) et[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) .
 
 ```csharp
 public int GetPageCount(PresentationFormat format, Timescale scale)
@@ -140,17 +140,17 @@ un nombre de pages à rendre.
 
 ### Voir également
 
-* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
-Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat) et plage de dates.
+Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale/) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) et plage de dates.
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, DateTime endDate)
@@ -169,17 +169,17 @@ Nombre de pages à afficher.
 
 ### Voir également
 
-* enum [PageSize](../../../aspose.tasks.visualization/pagesize)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
-Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale) et[`PageSize`](../../../aspose.tasks.visualization/pagesize) .
+Renvoie le nombre de pages pour le projet à rendre en utilisant[`Timescale`](../../../aspose.tasks.visualization/timescale/) et[`PageSize`](../../../aspose.tasks.visualization/pagesize/) .
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale)
@@ -196,10 +196,10 @@ Nombre de pages à afficher.
 
 ### Voir également
 
-* enum [PageSize](../../../aspose.tasks.visualization/pagesize)
-* enum [Timescale](../../../aspose.tasks.visualization/timescale)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
+* enum [Timescale](../../../aspose.tasks.visualization/timescale/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
