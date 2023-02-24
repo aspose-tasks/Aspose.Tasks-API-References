@@ -1,14 +1,14 @@
 ---
-title: Baseline
+title: Class Baseline
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rappresenta i valori di base di una risorsa.
+description: Aspose.Tasks.Baseline classe. Rappresenta i valori di riferimento di una risorsa.
 type: docs
-weight: 100
+weight: 110
 url: /it/net/aspose.tasks/baseline/
 ---
 ## Baseline class
 
-Rappresenta i valori di base di una risorsa.
+Rappresenta i valori di riferimento di una risorsa.
 
 ```csharp
 public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
@@ -18,36 +18,36 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Baseline](baseline)() | Default_Costruttore |
+| [Baseline](baseline/)() | Default_Costruttore |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Ottiene o imposta il numero univoco di un record di dati di base. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Ottiene o imposta il costo preventivato di un lavoro eseguito da una risorsa per un progetto fino ad oggi. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Ottiene o imposta il costo del budget di un lavoro pianificato per una risorsa. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Ottiene o imposta il costo previsto di una risorsa quando viene salvata la linea di base. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Ottiene o imposta il lavoro assegnato a una risorsa quando viene salvata la linea di base. La quantità di lavoro assegnato a una risorsa quando è stata salvata la previsione. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Ottiene o imposta il numero univoco di un record di dati di riferimento. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Ottiene o imposta il costo preventivato di un lavoro eseguito da una risorsa per un progetto fino ad oggi. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Ottiene o imposta il costo del budget di un lavoro pianificato per una risorsa. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Ottiene o imposta il costo previsto di una risorsa quando la baseline viene salvata. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Ottiene o imposta il lavoro assegnato a una risorsa quando la baseline viene salvata. La quantità di lavoro assegnato a una risorsa quando la baseline è stata salvata. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | Implementazione dell'interfaccia IComparable. Confronta questa istanza con l'oggetto Baseline specificato. |
-| [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
-| override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
-| override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Restituisce un valore di codice hash per la linea di base. |
-| [operator ==](../../aspose.tasks/baseline/op_equality) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
-| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan) | Restituisce un valore che indica se questa istanza è maggiore di un oggetto specificato. |
-| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal) | Restituisce un valore che indica se questa istanza è maggiore o uguale a un oggetto specificato. |
-| [operator !=](../../aspose.tasks/baseline/op_inequality) | Restituisce un valore che indica se questa istanza non è uguale a un oggetto specificato. |
-| [operator &lt;](../../aspose.tasks/baseline/op_lessthan) | Restituisce un valore che indica se questa istanza è minore di un oggetto specificato. |
-| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Restituisce un valore che indica se questa istanza è minore o uguale a un oggetto specificato. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | Implementazione dell'interfaccia comparabile. Confronta questa istanza con l'oggetto Baseline specificato. |
+| [Equals](../../aspose.tasks/baseline/equals/#equals)(Baseline) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| override [Equals](../../aspose.tasks/baseline/equals/#equals_1)(object) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| override [GetHashCode](../../aspose.tasks/baseline/gethashcode/)() | Restituisce un valore di codice hash per la linea di base. |
+| [operator ==](../../aspose.tasks/baseline/op_equality/) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan/) | Restituisce un valore che indica se questa istanza è maggiore di un oggetto specificato. |
+| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal/) | Restituisce un valore che indica se questa istanza è maggiore o uguale a un oggetto specificato. |
+| [operator !=](../../aspose.tasks/baseline/op_inequality/) | Restituisce un valore che indica se questa istanza non è uguale a un oggetto specificato. |
+| [operator &lt;](../../aspose.tasks/baseline/op_lessthan/) | Restituisce un valore che indica se questa istanza è minore di un oggetto specificato. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal/) | Restituisce un valore che indica se questa istanza è minore o uguale a un oggetto specificato. |
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks)
+* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
 * assemblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

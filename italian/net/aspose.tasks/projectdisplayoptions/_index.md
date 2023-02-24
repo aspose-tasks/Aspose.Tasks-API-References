@@ -1,9 +1,9 @@
 ---
-title: ProjectDisplayOptions
+title: Class ProjectDisplayOptions
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rappresenta le opzioni di visualizzazione per unistanza del progetto.
+description: Aspose.Tasks.ProjectDisplayOptions classe. Rappresenta le opzioni di visualizzazione per unistanza del progetto.
 type: docs
-weight: 1190
+weight: 1200
 url: /it/net/aspose.tasks/projectdisplayoptions/
 ---
 ## ProjectDisplayOptions class
@@ -18,27 +18,27 @@ public class ProjectDisplayOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [ProjectDisplayOptions](projectdisplayoptions)() | Inizializza una nuova istanza di[`ProjectDisplayOptions`](../projectdisplayoptions) classe. |
+| [ProjectDisplayOptions](projectdisplayoptions/)() | Inizializza una nuova istanza di`ProjectDisplayOptions` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel) { get; set; } | Ottiene o imposta un valore che indica se aggiungere uno spazio prima del valore numerico e dell'abbreviazione del tempo (1 settimana invece di 1 settimana). |
-| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta del giorno. |
-| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta dell'ora. |
-| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta dei minuti. |
-| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta del mese. |
-| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask) { get; set; } | Ottiene o imposta un valore che indica se visualizzare le informazioni di riepilogo su un intero progetto su una singola riga con la propria barra delle attività di riepilogo nella parte superiore della visualizzazione Diagramma di Gantt. |
-| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions) { get; set; } | Ottiene o imposta un valore che indica se mostrare i suggerimenti quando Project identifica un possibile conflitto di pianificazione con un'attività pianificata manualmente. Questa opzione è disponibile per la versione Project 2010 e successive. |
-| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings) { get; set; } | Ottiene o imposta un valore che indica se mostrare gli avvisi quando Project identifica un possibile conflitto di pianificazione con un'attività pianificata manualmente. Questa opzione è disponibile per la versione Project 2010 e successive. |
-| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks) { get; set; } | Ottiene o imposta un valore che indica se sottolineare i collegamenti ipertestuali. |
-| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta della settimana. |
-| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta dell'anno. |
+| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel/) { get; set; } | Ottiene o imposta un valore che indica se aggiungere uno spazio prima del valore numerico e dell'abbreviazione dell'ora (1 wk anziché 1wk). |
+| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel/) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta del giorno. |
+| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel/) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta dell'ora. |
+| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel/) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta dei minuti. |
+| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel/) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta del mese. |
+| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask/) { get; set; } | Ottiene o imposta un valore che indica se visualizzare le informazioni di riepilogo su un intero progetto su una singola riga con la propria barra delle attività di riepilogo nella parte superiore della visualizzazione Diagramma di Gantt. |
+| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions/) { get; set; } | Ottiene o imposta un valore che indica se mostrare suggerimenti quando Project identifica un possibile conflitto di pianificazione con un'attività pianificata manualmente. Questa opzione è disponibile per la versione Project 2010 e successive. |
+| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings/) { get; set; } | Ottiene o imposta un valore che indica se mostrare avvisi quando Project identifica un possibile conflitto di pianificazione con un'attività pianificata manualmente. Questa opzione è disponibile per la versione Project 2010 e successive. |
+| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks/) { get; set; } | Ottiene o imposta un valore che indica se sottolineare i collegamenti ipertestuali. |
+| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel/) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta della settimana. |
+| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel/) { get; set; } | Ottiene o imposta la modalità di visualizzazione dell'etichetta dell'anno. |
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks)
+* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
 * assemblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

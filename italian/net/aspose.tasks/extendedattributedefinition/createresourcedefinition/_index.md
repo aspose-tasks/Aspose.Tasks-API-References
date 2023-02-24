@@ -1,14 +1,14 @@
 ---
-title: CreateResourceDefinition
+title: ExtendedAttributeDefinition.CreateResourceDefinition
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Metodo Factory che crea una definizione di attributo estesa semplice che Microsoft Project mostra come Nessuno. HaCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype è uguale aNone e può essere utilizzato solo in Risorsa. È necessario specificarecustomFieldType fieldId ealias quando chiama questo metodo.
+description: ExtendedAttributeDefinition metodo. Metodo Factory che crea una semplice definizione di attributo esteso che Microsoft Project mostra come None. HaCalculationType uguale aNone e può essere utilizzato solo in Risorsa. È necessario specificarecustomFieldType fieldId Ealias quando chiami questo metodo.
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/extendedattributedefinition/createresourcedefinition/
 ---
 ## CreateResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createresourcedefinition}
 
-Metodo Factory che crea una definizione di attributo estesa semplice, che Microsoft Project mostra come "Nessuno". Ha[`CalculationType`](../calculationtype) è uguale aNone e può essere utilizzato solo in Risorsa. È necessario specificare*customFieldType* ,*fieldId* e*alias* quando chiama questo metodo.
+Metodo Factory che crea una semplice definizione di attributo esteso, che Microsoft Project mostra come "None". Ha[`CalculationType`](../calculationtype/) uguale aNone e può essere utilizzato solo in Risorsa. È necessario specificare*customFieldType* ,*fieldId* E*alias* quando chiami questo metodo.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldType customFieldType, 
@@ -17,17 +17,17 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldTy
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Il specificato[`CustomFieldType`](../../customfieldtype) genere. |
-| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource) ID campo. |
+| customFieldType | CustomFieldType | Il specificato[`CustomFieldType`](../../customfieldtype/) tipo. |
+| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource/) ID campo. |
 | alias | String | Il specificatoString alias. |
 
 ### Valore di ritorno
 
-Istanza creata di[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe con specificato*customFieldType* ,*fieldId* e*alias*.
+Istanza creata di[`ExtendedAttributeDefinition`](../) classe con specificato*customFieldType* ,*fieldId* E*alias*.
 
 ### Esempi
 
-Utilizzare questo esempio per creare una definizione di campo di testo personalizzata:
+Utilizza questo esempio per creare una definizione di campo di testo personalizzato:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateResourceDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
@@ -36,17 +36,17 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Guarda anche
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateResourceDefinition(ExtendedAttributeResource, string) {#createresourcedefinition_1}
 
-Metodo Factory che crea una definizione di attributo estesa semplice, che Microsoft Project mostra come "Nessuno". Ha[`CalculationType`](../calculationtype) è uguale aNone e può essere utilizzato solo in Risorsa. È necessario specificare*fieldId* e*alias* quando si chiama questo metodo. Il tipo di campo viene dedotto da ID campo.
+Metodo Factory che crea una semplice definizione di attributo esteso, che Microsoft Project mostra come "None". Ha[`CalculationType`](../calculationtype/) uguale aNone e può essere utilizzato solo in Risorsa. È necessario specificare*fieldId* E*alias* quando si chiama questo metodo. Il tipo di campo viene dedotto dal campo id.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(
@@ -55,16 +55,16 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource) ID campo. |
+| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource/) ID campo. |
 | alias | String | Il specificatoString alias. |
 
 ### Valore di ritorno
 
-Istanza creata di[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe con specificato*fieldId* e*alias*.
+Istanza creata di[`ExtendedAttributeDefinition`](../) classe con specificato*fieldId* E*alias*.
 
 ### Esempi
 
-Utilizzare questo esempio per creare una definizione di campo di testo personalizzata:
+Utilizza questo esempio per creare una definizione di campo di testo personalizzato:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
@@ -73,9 +73,9 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Guarda anche
 
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
 * assemblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
