@@ -1,9 +1,9 @@
 ---
-title: TimelineView
+title: Class TimelineView
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar en tidslinjevy av ett projekt.
+description: Aspose.Tasks.TimelineView klass. Representerar en tidslinjevy av ett projekt.
 type: docs
-weight: 2250
+weight: 2270
 url: /sv/net/aspose.tasks/timelineview/
 ---
 ## TimelineView class
@@ -18,44 +18,44 @@ public class TimelineView : View
 
 | namn | Beskrivning |
 | --- | --- |
-| [TimelineView](timelineview)() | Initierar en ny instans av[`TimelineView`](../timelineview) klass. |
+| [TimelineView](timelineview/)() | Initierar en ny instans av`TimelineView` klass. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [DateFormat](../../aspose.tasks/timelineview/dateformat) { get; set; } | Hämtar eller ställer in ett värde som anger hur datum formateras i tidslinjevyn. |
-| [DisplayOverlapped](../../aspose.tasks/timelineview/displayoverlapped) { get; set; } | Hämtar eller ställer in ett värde som anger om överlappande uppgifter ska visas på flera rader. |
-| [Filter](../../aspose.tasks/view/filter) { get; set; } | Hämtar eller ställer in ett filter som används i en enda vy. |
-| [Group](../../aspose.tasks/view/group) { get; set; } | Hämtar eller ställer in en grupp av den enda vyn. |
-| [HighlightFilter](../../aspose.tasks/view/highlightfilter) { get; set; } | Hämtar eller ställer in ett värde som anger om Microsoft Project markerar filtret för en enskild vy. |
-| [Name](../../aspose.tasks/view/name) { get; set; } | Hämtar eller ställer in namnet på ett View-objekt. |
-| [PageInfo](../../aspose.tasks/view/pageinfo) { get; } | Hämtar en instans av[`PageInfo`](../view/pageinfo)klass. Representerar sidinställningar som finns i mpp-filformat. |
-| [ParentProject](../../aspose.tasks/view/parentproject) { get; } | Hämtar föräldern till View-objektet. Skrivskyddad[`Project`](../project) . |
-| [Screen](../../aspose.tasks/view/screen) { get; } | Hämtar skärmtypen för den enskilda vyn. Skrivskyddad[`ViewScreen`](../viewscreen) . |
-| [ShowDates](../../aspose.tasks/timelineview/showdates) { get; } | Får ett värde som anger om datum ska visas. |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu) { get; set; } | Hämtar eller ställer in ett värde som anger om Microsoft Project visar namnet på enstaka vy i rullgardinslistorna View eller Other Views i menyfliksområdet. |
-| [ShowPanZoom](../../aspose.tasks/timelineview/showpanzoom) { get; set; } | Hämtar eller ställer in ett värde som anger om panorerings- och zoomkontroll ska visas. |
-| [ShowTimescale](../../aspose.tasks/timelineview/showtimescale) { get; set; } | Hämtar eller ställer in ett värde som anger om tidsskala ska visas. |
-| [ShowToday](../../aspose.tasks/timelineview/showtoday) { get; set; } | Hämtar eller ställer in ett värde som anger om en linje som representerar idag ska visas. |
-| [Table](../../aspose.tasks/view/table) { get; set; } | Hämtar eller ställer in en tabell över den enskilda vyn. |
-| [TextLinesCount](../../aspose.tasks/timelineview/textlinescount) { get; set; } | Hämtar eller ställer in ett värde som anger hur många rader som används för att visa uppgiften i en tidslinje. |
-| [Type](../../aspose.tasks/view/type) { get; } | Hämtar typen av objekt i den enda vyn, till exempel uppgifter eller resurser. Skrivskyddad[`ItemType`](../itemtype) . |
-| [Uid](../../aspose.tasks/view/uid) { get; } | Får den unika identifieraren för en vy. |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements) { get; } | Får en samling objekt som representerar placering och utseende av[`OleObject`](../oleobject) i vyn. |
+| [DateFormat](../../aspose.tasks/timelineview/dateformat/) { get; set; } | Hämtar eller ställer in ett värde som anger hur datum formateras i tidslinjevyn. |
+| [DisplayOverlapped](../../aspose.tasks/timelineview/displayoverlapped/) { get; set; } | Hämtar eller ställer in ett värde som anger om överlappande uppgifter ska visas på flera rader. |
+| [Filter](../../aspose.tasks/view/filter/) { get; set; } | Hämtar eller ställer in ett filter som används i en enda vy. |
+| [Group](../../aspose.tasks/view/group/) { get; set; } | Hämtar eller ställer in en grupp av den enda vyn. |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Hämtar eller ställer in ett värde som anger om Microsoft Project markerar filtret för en enskild vy. |
+| [Name](../../aspose.tasks/view/name/) { get; set; } | Hämtar eller ställer in namnet på ett View-objekt. |
+| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | Hämtar en instans av[`PageInfo`](../view/pageinfo/)klass. Representerar sidinställningar som finns i mpp-filformat. |
+| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | Hämtar föräldern till View-objektet. Skrivskyddad[`Project`](../project/) . |
+| [Screen](../../aspose.tasks/view/screen/) { get; } | Hämtar skärmtypen för den enskilda vyn. Skrivskyddad[`ViewScreen`](../viewscreen/) . |
+| [ShowDates](../../aspose.tasks/timelineview/showdates/) { get; } | Får ett värde som anger om datum ska visas. |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Hämtar eller ställer in ett värde som anger om Microsoft Project visar namnet på enstaka vy i rullgardinslistorna View eller Other Views i menyfliksområdet. |
+| [ShowPanZoom](../../aspose.tasks/timelineview/showpanzoom/) { get; set; } | Hämtar eller ställer in ett värde som anger om panorerings- och zoomkontroll ska visas. |
+| [ShowTimescale](../../aspose.tasks/timelineview/showtimescale/) { get; set; } | Hämtar eller ställer in ett värde som anger om tidsskala ska visas. |
+| [ShowToday](../../aspose.tasks/timelineview/showtoday/) { get; set; } | Hämtar eller ställer in ett värde som anger om en linje som representerar idag ska visas. |
+| [Table](../../aspose.tasks/view/table/) { get; set; } | Hämtar eller ställer in en tabell över den enskilda vyn. |
+| [TextLinesCount](../../aspose.tasks/timelineview/textlinescount/) { get; set; } | Hämtar eller ställer in ett värde som anger hur många rader som används för att visa uppgiften i en tidslinje. |
+| [Type](../../aspose.tasks/view/type/) { get; } | Hämtar typen av objekt i den enda vyn, till exempel uppgifter eller resurser. Skrivskyddad[`ItemType`](../itemtype/) . |
+| [Uid](../../aspose.tasks/view/uid/) { get; } | Får den unika identifieraren för en vy. |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | Får en samling objekt som representerar placering och utseende av[`OleObject`](../oleobject/) i vyn. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto)(View) | Jämför den aktuella instansen med ett annat objekt av samma typ och returnerar ett heltal som anger om den aktuella instansen föregår, följer efter eller förekommer på samma position i sorteringsordningen som det andra objektet. |
-| override [Equals](../../aspose.tasks/view/equals)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Returnerar ett hashkodvärde för instansen av[`Resource`](../resource) class. |
+| [CompareTo](../../aspose.tasks/view/compareto/)(View) | Jämför den aktuella instansen med ett annat objekt av samma typ och returnerar ett heltal som indikerar om den aktuella instansen föregår, följer efter eller förekommer i samma position i sorteringsordningen som det andra objektet. |
+| override [Equals](../../aspose.tasks/view/equals/)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | Returnerar ett hashkodvärde för instansen av[`Resource`](../resource/) class. |
 
 ### Se även
 
-* class [View](../view)
-* namnutrymme [Aspose.Tasks](../../aspose.tasks)
+* class [View](../view/)
+* namnutrymme [Aspose.Tasks](../../aspose.tasks/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

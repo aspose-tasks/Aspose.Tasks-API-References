@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Aspose.Tasks för .NET API-referens
-description: Lägg till den angivna uppgiften till instansen avTaskCollectionaspose.tasks/taskcollectionclass. Om ParentProject.CalculationMode är None bör användaren anropa Project.Recalculate efter att ha använt den här metoden den kommer att omschemalägga alla projektuppgifter start-/slutdatum ställer in tidiga/sena datum och beräkna de beroende fälten som slacks work och kostnadsfält id och dispositionsnivåer. Om ParentProject.CalculationMode är Manuellt kommer metoden endast att beräkna uppgifts-id dispositionsnivå och dispositionsnummer automatiskt. Om ParentProject.CalculationMode är Automatic omplanerar metoden alla projektets uppgifter automatiskt_x000. datum sätter tidiga/sena datum beräknar slacks arbets- och kostnadsfält räknar om id och dispositionsnivåer.
+description: TaskCollection metod. Lägg till den angivna uppgiften till instansen avTaskCollectionclass. Om ParentProject.CalculationMode är None ska användaren anropa Project.Recalculate efter att ha använt den här metoden Det kommer att omplanera alla projektuppgifter start/slutdatum ställer in tidiga/sena datum och beräkna de beroende fälten som slacks work och kostnadsfält id och dispositionsnivåer. Om ParentProject.CalculationMode är Manuell kommer metoden endast att beräkna uppgiftsid dispositionsnivå och dispositionsnummer automatiskt. Om ParentProject.CalculationMode är Automatic omplanerar metoden alla projekts uppgifter automatiskt_x000. datum sätter tidiga/sena datum beräknar slacks arbets och kostnadsfält räknar om id och dispositionsnivåer.
 type: docs
 weight: 50
 url: /sv/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Lägg till den angivna uppgiften till instansen av[`TaskCollection`](../../taskcollection)class. Om ParentProject.CalculationMode är None bör användaren anropa Project.Recalculate() efter att ha använt den här metoden (den kommer att omschemalägga alla projektuppgifter (start-/slutdatum, ställer in tidiga/sena datum) och beräkna de beroende fälten som slacks, work och kostnadsfält, id och dispositionsnivåer). Om ParentProject.CalculationMode är Manuellt kommer metoden endast att beräkna uppgifts-id, dispositionsnivå och dispositionsnummer automatiskt. Om ParentProject.CalculationMode är Automatic omplanerar metoden alla projektets uppgifter automatiskt_x000. datum, sätter tidiga/sena datum, beräknar slacks, arbets- och kostnadsfält, räknar om id och dispositionsnivåer).
+Lägg till den angivna uppgiften till instansen av[`TaskCollection`](../)class. Om ParentProject.CalculationMode är None ska användaren anropa Project.Recalculate() efter att ha använt den här metoden (Det kommer att omplanera alla projektuppgifter (start-/slutdatum, ställer in tidiga/sena datum) och beräkna de beroende fälten som slacks, work och kostnadsfält, id och dispositionsnivåer). Om ParentProject.CalculationMode är Manuell kommer metoden endast att beräkna uppgifts-id, dispositionsnivå och dispositionsnummer automatiskt. Om ParentProject.CalculationMode är Automatic omplanerar metoden alla projekts uppgifter automatiskt_x000. datum, sätter tidiga/sena datum, beräknar slacks, arbets- och kostnadsfält, räknar om id och dispositionsnivåer).
 
 ```csharp
 public void Add(Task item)
@@ -20,9 +20,9 @@ public void Add(Task item)
 
 ### Se även
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namnutrymme [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namnutrymme [Aspose.Tasks](../../taskcollection/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -37,13 +37,13 @@ public Task Add()
 
 ### Returvärde
 
-returnerar den nyligen tillagda instansen av[`Task`](../../task) klass.
+returnerar den nyligen tillagda instansen av[`Task`](../../task/) klass.
 
 ### Se även
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namnutrymme [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namnutrymme [Aspose.Tasks](../../taskcollection/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -62,13 +62,13 @@ public Task Add(string taskName)
 
 ### Returvärde
 
-returnerar den nyligen tillagda instansen av[`Task`](../../task) klass.
+returnerar den nyligen tillagda instansen av[`Task`](../../task/) klass.
 
 ### Se även
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namnutrymme [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namnutrymme [Aspose.Tasks](../../taskcollection/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -98,9 +98,9 @@ returnerar en uppgift som infogades före en uppgift med angivet ID.
 
 ### Se även
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namnutrymme [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namnutrymme [Aspose.Tasks](../../taskcollection/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -119,7 +119,7 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Returvärde
 
-returnerar den nyligen tillagda instansen av[`Task`](../../task) klass.
+returnerar den nyligen tillagda instansen av[`Task`](../../task/) klass.
 
 ### Undantag
 
@@ -130,10 +130,10 @@ returnerar den nyligen tillagda instansen av[`Task`](../../task) klass.
 
 ### Se även
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* namnutrymme [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* namnutrymme [Aspose.Tasks](../../taskcollection/)
 * hopsättning [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

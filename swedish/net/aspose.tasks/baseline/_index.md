@@ -1,9 +1,9 @@
 ---
-title: Baseline
+title: Class Baseline
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar baslinjevärden för en resurs.
+description: Aspose.Tasks.Baseline klass. Representerar baslinjevärden för en resurs.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.tasks/baseline/
 ---
 ## Baseline class
@@ -18,36 +18,36 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Baseline](baseline)() | Default_Constructor |
+| [Baseline](baseline/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Hämtar eller ställer in det unika numret för en baslinjedatapost. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Hämtar eller ställer in den budgeterade kostnaden för ett arbete som utförts av en resurs för ett projekt hittills. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Hämtar eller ställer in budgetkostnaden för ett arbete som är schemalagt för en resurs. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Hämtar eller ställer in den beräknade kostnaden för en resurs när baslinjen sparas. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Hämtar eller ställer in arbetet som tilldelats en resurs när baslinjen sparas. Mängden tilldelat arbete till en resurs när baslinjen sparades. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Hämtar eller ställer in det unika numret för en baslinjedatapost. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Hämtar eller ställer in den budgeterade kostnaden för ett arbete som utförts av en resurs för ett projekt hittills. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Hämtar eller ställer in budgetkostnaden för ett arbete som är schemalagt för en resurs. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Hämtar eller ställer in den beräknade kostnaden för en resurs när baslinjen sparas. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Hämtar eller ställer in arbetet som tilldelats en resurs när baslinjen sparas. Mängden tilldelat arbete till en resurs när baslinjen sparades. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Jämför denna instans med det angivna Baseline-objektet. |
-| [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Returnerar ett hashkodvärde för baslinjen. |
-| [operator ==](../../aspose.tasks/baseline/op_equality) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan) | Returnerar ett värde som anger om denna instans är större än ett angivet objekt. |
-| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal) | Returnerar ett värde som anger om denna instans är större än eller lika med ett angivet objekt. |
-| [operator !=](../../aspose.tasks/baseline/op_inequality) | Returnerar ett värde som anger om denna instans inte är lika med ett angivet objekt. |
-| [operator &lt;](../../aspose.tasks/baseline/op_lessthan) | Returnerar ett värde som anger om denna instans är mindre än ett angivet objekt. |
-| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Returnerar ett värde som anger om denna instans är mindre än eller lika med ett angivet objekt. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | IComparable interface implementation. Jämför denna instans med det angivna Baseline-objektet. |
+| [Equals](../../aspose.tasks/baseline/equals/#equals)(Baseline) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| override [Equals](../../aspose.tasks/baseline/equals/#equals_1)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| override [GetHashCode](../../aspose.tasks/baseline/gethashcode/)() | Returnerar ett hashkodvärde för baslinjen. |
+| [operator ==](../../aspose.tasks/baseline/op_equality/) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan/) | Returnerar ett värde som anger om denna instans är större än ett angivet objekt. |
+| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal/) | Returnerar ett värde som anger om denna instans är större än eller lika med ett angivet objekt. |
+| [operator !=](../../aspose.tasks/baseline/op_inequality/) | Returnerar ett värde som anger om denna instans inte är lika med ett angivet objekt. |
+| [operator &lt;](../../aspose.tasks/baseline/op_lessthan/) | Returnerar ett värde som anger om denna instans är mindre än ett angivet objekt. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal/) | Returnerar ett värde som anger om denna instans är mindre än eller lika med ett angivet objekt. |
 
 ### Se även
 
-* namnutrymme [Aspose.Tasks](../../aspose.tasks)
+* namnutrymme [Aspose.Tasks](../../aspose.tasks/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

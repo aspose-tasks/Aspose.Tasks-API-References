@@ -1,9 +1,9 @@
 ---
-title: Calendar
+title: Class Calendar
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar en kalender som används i ett projekt.
+description: Aspose.Tasks.Calendar klass. Representerar en kalender som används i ett projekt.
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.tasks/calendar/
 ---
 ## Calendar class
@@ -18,37 +18,36 @@ public class Calendar
 
 | namn | Beskrivning |
 | --- | --- |
-| [BaseCalendar](../../aspose.tasks/calendar/basecalendar) { get; set; } | Hämtar eller ställer in baskalendern som denna kalender beror på. Endast tillämpligt om kalendern inte är en baskalender. Läs/skriv[`Calendar`](../calendar) . |
-| [Exceptions](../../aspose.tasks/calendar/exceptions) { get; } | Hämtar CalendarExceptionCollection-objekt. Samlingen av undantag som är associerad med kalendern. |
-| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar) { get; } | Får ett värde som indikerar om kalendern är en baskalender. SkrivskyddadBoolean . |
-| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar) { get; set; } | Hämtar eller ställer in ett värde som anger om kalendern är en baslinjekalender. Läs/skrivBoolean . |
-| [Name](../../aspose.tasks/calendar/name) { get; set; } | Hämtar eller ställer in namnet på kalendern. Läs/skrivString . |
-| [ParentProject](../../aspose.tasks/calendar/parentproject) { get; } | Får överordnat projekt för den här kalendern. |
-| [Uid](../../aspose.tasks/calendar/uid) { get; set; } | Hämtar eller ställer in den unika identifieraren för kalendern. Läs/skrivInt32 . |
-| [WeekDays](../../aspose.tasks/calendar/weekdays) { get; } | Får WeekDaysCollection för denna kalender. Samlingen av veckodagar som definierar kalendern. |
-| [WorkWeeks](../../aspose.tasks/calendar/workweeks) { get; } | Hämtar WorkWeekCollections-objekt. Samlingen av arbetsveckor som är kopplad till kalendern. |
+| [BaseCalendar](../../aspose.tasks/calendar/basecalendar/) { get; set; } | Hämtar eller ställer in baskalendern som denna kalender beror på. Endast tillämpligt om kalendern inte är en baskalender. |
+| [Exceptions](../../aspose.tasks/calendar/exceptions/) { get; } | Hämtar CalendarExceptionCollection-objekt. Samlingen av undantag som är associerad med kalendern. |
+| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar/) { get; } | Får ett värde som indikerar om kalendern är en baskalender. |
+| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar/) { get; set; } | Hämtar eller ställer in ett värde som anger om kalendern är en baslinjekalender. |
+| [Name](../../aspose.tasks/calendar/name/) { get; set; } | Hämtar eller ställer in namnet på kalendern. |
+| [Uid](../../aspose.tasks/calendar/uid/) { get; set; } | Hämtar eller ställer in den unika identifieraren för kalendern. |
+| [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Får WeekDaysCollection för denna kalender. Samlingen av veckodagar som definierar kalendern. |
+| [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Hämtar WorkWeekCollections-objekt. Samlingen av arbetsveckor som är kopplad till kalendern. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar)(Calendar) | Gör en given kalender till en 24-timmarskalender. 24-timmarskalender är en kalender där varje veckodag arbetar med dygnet-runt-arbetstider. |
-| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar)(Calendar) | Gör en given kalender som Night Shift Calendar. |
-| static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar)(Calendar) | Skapar standard standardkalender. |
-| [Delete](../../aspose.tasks/calendar/delete)() | Tar bort kalender från projektet. |
-| override [Equals](../../aspose.tasks/calendar/equals)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork)(DateTime, Duration) | Beräknar datumet då den angivna arbetstiden kommer att passera enligt kalendern. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Beräknar datumet då den angivna arbetstiden kommer att passera enligt kalendern. |
-| override [GetHashCode](../../aspose.tasks/calendar/gethashcode)() | Returnerar en hash-kod för instansen av[`Calendar`](../calendar) class. |
-| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart)(DateTime) | Beräknar nästa arbetsdag från och med datumet. |
-| [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend)(DateTime) | Beräknar föregående arbetsdatum slut från det angivna datumet. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration)(DateTime, Duration) | Returnerar startdatum baserat på specificerat slutdatum och varaktighet. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Returnerar startdatum baserat på specificerat slutdatum och varaktighet. |
-| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration)(Task, TimeSpan) | Beräknar uppgiftens slutdatum och tid från dess startdatum, delade delar och varaktigheten. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours_1)(DateTime) | Returnerar antalet arbetstimmar vid datumet. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours)(DateTime, DateTime) | Returarbetstid för de angivna datumen. |
-| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes)(DateTime) | Returnerar[`WorkingTimeCollection`](../workingtimecollection) av arbetstider. |
-| [IsDayWorking](../../aspose.tasks/calendar/isdayworking)(DateTime) | Bestämmer om dagen är arbetsdag. |
+| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar/)(Calendar) | Gör en given kalender till en 24-timmarskalender. 24-timmarskalender är en kalender där varje veckodag arbetar med dygnet-runt-arbetstid. |
+| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar/)(Calendar) | Gör en given kalender som Night Shift Calendar. |
+| static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar/)(Calendar) | Skapar standard standardkalender. |
+| [Delete](../../aspose.tasks/calendar/delete/)() | Tar bort kalender från projektet. |
+| override [Equals](../../aspose.tasks/calendar/equals/)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork)(DateTime, Duration) | Beräknar datumet då den angivna arbetstiden kommer att passera enligt kalendern. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Beräknar datumet då den angivna arbetstiden kommer att passera enligt kalendern. |
+| override [GetHashCode](../../aspose.tasks/calendar/gethashcode/)() | Returnerar en hashkod för instansen av klassen. |
+| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart/)(DateTime) | Beräknar nästa arbetsdag från och med datumet. |
+| [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend/)(DateTime) | Beräknar föregående arbetsdatum slut från det angivna datumet. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration)(DateTime, Duration) | Returnerar startdatum baserat på specificerat slutdatum och varaktighet. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Returnerar startdatum baserat på specificerat slutdatum och varaktighet. |
+| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Beräknar uppgiftens slutdatum och tid från dess startdatum, delade delar och varaktigheten. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Returnerar antalet arbetstimmar vid datumet. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Returarbetstid för de angivna datumen. |
+| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Returnerar[`WorkingTimeCollection`](../workingtimecollection/) av arbetstider för det angivna datumet. |
+| [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Bestämmer om dagen är arbetsdag. |
 
 ### Anmärkningar
 
@@ -114,7 +113,7 @@ calendar.Days.Add(New WeekDay(DayType.Sunday))
 
 ### Se även
 
-* namnutrymme [Aspose.Tasks](../../aspose.tasks)
+* namnutrymme [Aspose.Tasks](../../aspose.tasks/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

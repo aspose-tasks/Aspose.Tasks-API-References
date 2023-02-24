@@ -1,7 +1,7 @@
 ---
-title: CreateExtendedAttribute
+title: ExtendedAttributeDefinition.CreateExtendedAttribute
 second_title: Aspose.Tasks för .NET API-referens
-description: Skapar ett nytt utökat attribut med fält-ID som är lika med detta objekts fält-ID-värde.
+description: ExtendedAttributeDefinition metod. Skapar ett nytt utökat attribut med fältID som är lika med detta objekts fältIDvärde.
 type: docs
 weight: 300
 url: /sv/net/aspose.tasks/extendedattributedefinition/createextendedattribute/
@@ -16,13 +16,13 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### Returvärde
 
-returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute)klass med fieldID som är lika med detta objekts fieldID-värde.
+returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute/)klass med fieldID som är lika med detta objekts fieldID-värde.
 
 ### Se även
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -41,19 +41,19 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### Returvärde
 
-returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute)klass med fieldID som är lika med detta objekts fieldID-värde.
+returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute/)klass med fieldID som är lika med detta objekts fieldID-värde.
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Om aktuell[`CfType`](../cftype) är inte "Text" |
+| InvalidOperationException | Om aktuell[`CfType`](../cftype/) är inte "Text" |
 
 ### Se även
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -72,19 +72,19 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### Returvärde
 
-returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute)klass med fieldID som är lika med detta objekts fieldID-värde.
+returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute/)klass med fieldID som är lika med detta objekts fieldID-värde.
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Om aktuell[`CfType`](../cftype) är inte "Nummer" eller "Kostnad" |
+| InvalidOperationException | Om aktuell[`CfType`](../cftype/) är inte "Nummer" eller "Kostnad" |
 
 ### Se även
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -103,19 +103,19 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### Returvärde
 
-returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute)klass med fieldID som är lika med detta objekts fieldID-värde.
+returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute/)klass med fieldID som är lika med detta objekts fieldID-värde.
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Om aktuell[`CfType`](../cftype) är inte "Datum", "Start" eller "Slutför" |
+| InvalidOperationException | Om aktuell[`CfType`](../cftype/) är inte "Datum", "Start" eller "Slutför" |
 
 ### Se även
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -134,20 +134,20 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ### Returvärde
 
-returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute)klass med fieldID som är lika med detta objekts fieldID-värde.
+returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute/)klass med fieldID som är lika med detta objekts fieldID-värde.
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Om aktuell[`CfType`](../cftype) är inte "varaktighet" |
+| InvalidOperationException | Om aktuell[`CfType`](../cftype/) är inte "varaktighet" |
 
 ### Se även
 
-* class [ExtendedAttribute](../../extendedattribute)
-* struct [Duration](../../duration)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* struct [Duration](../../duration/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
@@ -166,26 +166,26 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### Returvärde
 
-returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute)klass med fieldID som är lika med detta objekts fieldID-värde.
+returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute/)klass med fieldID som är lika med detta objekts fieldID-värde.
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Om aktuell[`CfType`](../cftype) är inte "flagga" |
+| InvalidOperationException | Om aktuell[`CfType`](../cftype/) är inte "flagga" |
 
 ### Se även
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-Skapar nytt utökat attribut kopplat till specificerad[`Value`](../../value) item.
+Skapar nytt utökat attribut kopplat till specificerad[`Value`](../../value/) item.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -193,19 +193,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| lookupValue | Value | Den angivna[`Value`](../../value) Artikel. |
+| lookupValue | Value | Den angivna[`Value`](../../value/) Artikel. |
 
 ### Returvärde
 
-returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute) klass kopplad till specificerad[`Value`](../../value) Artikel.
+returnerar skapad instans av[`ExtendedAttribute`](../../extendedattribute/) klass kopplad till specificerad[`Value`](../../value/) Artikel.
 
 ### Anmärkningar
 
-*lookupValue* bör tidigare läggas till[`ExtendedAttributeDefinition`](../../extendedattributedefinition) använder sig av[`AddLookupValue`](../addlookupvalue) metod.
+*lookupValue* bör tidigare läggas till[`ExtendedAttributeDefinition`](../) använder sig av[`AddLookupValue`](../addlookupvalue/) metod.
 
 ### Exempel
 
-Använd den här koden för att skapa nya[`ExtendedAttribute`](../../extendedattribute) använder specifikt värde:
+Använd den här koden för att skapa nya[`ExtendedAttribute`](../../extendedattribute/) använder specifikt värde:
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);
@@ -215,10 +215,10 @@ var extendedAttribute = taskTextAttr.CreateExtendedAttribute(value2);
 
 ### Se även
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [Value](../../value)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [Value](../../value/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

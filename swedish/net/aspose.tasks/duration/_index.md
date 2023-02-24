@@ -1,9 +1,9 @@
 ---
-title: Duration
+title: Struct Duration
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar varaktighet i ett projekt.
+description: Aspose.Tasks.Duration struktur. Representerar varaktighet i ett projekt.
 type: docs
-weight: 460
+weight: 470
 url: /sv/net/aspose.tasks/duration/
 ---
 ## Duration structure
@@ -18,33 +18,33 @@ public struct Duration : IEquatable<Duration>
 
 | namn | Beskrivning |
 | --- | --- |
-| [IsElapsed](../../aspose.tasks/duration/iselapsed) { get; } | Får ett värde som indikerar om tidsenhet har förflutit. Flaggan som avgör om denna Duration-instans har förflutit. |
-| [IsEstimated](../../aspose.tasks/duration/isestimated) { get; } | Får ett värde som indikerar om tidsenhet är uppskattad. Flaggan som bestämmer om denna Duration-instans är uppskattad. |
-| [TimeSpan](../../aspose.tasks/duration/timespan) { get; } | Blir[`TimeSpan`](./timespan) instans av detta Duration-objekt. TimeSpan-instansen av detta Duration-objekt. |
-| [TimeUnit](../../aspose.tasks/duration/timeunit) { get; } | Hämtar tidsenhetstyp för detta objekt. Tidsenhetstypen för denna Duration-instans. |
+| [IsElapsed](../../aspose.tasks/duration/iselapsed/) { get; } | Får ett värde som indikerar om tidsenhet har förflutit. Flaggan som avgör om denna Duration-instans har förflutit. |
+| [IsEstimated](../../aspose.tasks/duration/isestimated/) { get; } | Får ett värde som indikerar om tidsenhet är uppskattad. Flaggan som bestämmer om denna Duration-instans är uppskattad. |
+| [TimeSpan](../../aspose.tasks/duration/timespan/) { get; } | Blir[`TimeSpan`](./timespan/) instans av detta Duration-objekt. TimeSpan-instansen av detta Duration-objekt. |
+| [TimeUnit](../../aspose.tasks/duration/timeunit/) { get; } | Hämtar tidsenhetstyp för detta objekt. Tidsenhetstypen för denna Duration-instans. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| static [Parse](../../aspose.tasks/duration/parse)(Project, string) | Konverterar den angivna strängen till instansen av[`Duration`](../duration) struct. |
-| [Add](../../aspose.tasks/duration/add#add_1)(double) | Lägger till specificerat dubbelvärde till denna varaktighet. |
-| [Add](../../aspose.tasks/duration/add#add)(Duration) | Lägger till angiven varaktighet till denna varaktighet. |
-| [Convert](../../aspose.tasks/duration/convert)(TimeUnitType) | Konverterar Duration-objekt till en annan varaktighet med specificerade tidsenheter. |
-| [Equals](../../aspose.tasks/duration/equals#equals)(Duration) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| override [Equals](../../aspose.tasks/duration/equals#equals_1)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| override [GetHashCode](../../aspose.tasks/duration/gethashcode)() | Returnerar ett hashkodvärde för detta objekt. |
-| [Subtract](../../aspose.tasks/duration/subtract#subtract_1)(double) | Subtraherar angivet dubbelvärde från denna varaktighetsinstans. |
-| [Subtract](../../aspose.tasks/duration/subtract#subtract)(Duration) | Subtraherar angiven varaktighet från denna varaktighetsinstans. |
-| [ToDouble](../../aspose.tasks/duration/todouble)() | Konverterar Duration-objekt tillDouble värde. |
-| override [ToString](../../aspose.tasks/duration/tostring)() | Returnerar en strängrepresentation av denna instans. |
-| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan)(string) | Analyserar varaktighetssträngen i formatet "PT--H--M--S--". |
-| [operator ==](../../aspose.tasks/duration/op_equality) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| [operator !=](../../aspose.tasks/duration/op_inequality) | Returnerar ett värde som anger om denna instans inte är lika med ett angivet objekt. |
+| static [Parse](../../aspose.tasks/duration/parse/)(Project, string) | Konverterar den angivna strängen till instansen av`Duration` struct. |
+| [Add](../../aspose.tasks/duration/add/#add_1)(double) | Lägger till specificerat dubbelvärde till denna varaktighet. |
+| [Add](../../aspose.tasks/duration/add/#add)(Duration) | Lägger till angiven varaktighet till denna varaktighet. |
+| [Convert](../../aspose.tasks/duration/convert/)(TimeUnitType) | Konverterar Duration-objekt till en annan varaktighet med specificerade tidsenheter. |
+| [Equals](../../aspose.tasks/duration/equals/#equals)(Duration) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| override [Equals](../../aspose.tasks/duration/equals/#equals_1)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| override [GetHashCode](../../aspose.tasks/duration/gethashcode/)() | Returnerar ett hashkodvärde för detta objekt. |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract_1)(double) | Subtraherar angivet dubbelvärde från denna varaktighetsinstans. |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract)(Duration) | Subtraherar angiven varaktighet från denna varaktighetsinstans. |
+| [ToDouble](../../aspose.tasks/duration/todouble/)() | Konverterar Duration-objekt tillDouble värde. |
+| override [ToString](../../aspose.tasks/duration/tostring/)() | Returnerar en strängrepresentation av denna instans. |
+| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan/)(string) | Analyserar varaktighetssträngen i formatet "PT--H--M--S--". |
+| [operator ==](../../aspose.tasks/duration/op_equality/) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| [operator !=](../../aspose.tasks/duration/op_inequality/) | Returnerar ett värde som anger om denna instans inte är lika med ett angivet objekt. |
 
 ### Se även
 
-* namnutrymme [Aspose.Tasks](../../aspose.tasks)
+* namnutrymme [Aspose.Tasks](../../aspose.tasks/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: TaskBaseline
+title: Class TaskBaseline
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar baslinjen för en uppgift.
+description: Aspose.Tasks.TaskBaseline klass. Representerar baslinjen för en uppgift.
 type: docs
-weight: 2070
+weight: 2080
 url: /sv/net/aspose.tasks/taskbaseline/
 ---
 ## TaskBaseline class
@@ -18,41 +18,41 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 
 | namn | Beskrivning |
 | --- | --- |
-| [TaskBaseline](taskbaseline)(Task) | Initierar en ny instans av[`TaskBaseline`](../taskbaseline) class. |
+| [TaskBaseline](taskbaseline/)(Task) | Initierar en ny instans av`TaskBaseline` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Hämtar eller ställer in det unika numret för en baslinjedatapost. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Hämtar eller ställer in den budgeterade kostnaden för ett arbete som utförts av en resurs för ett projekt hittills. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Hämtar eller ställer in budgetkostnaden för ett arbete som är schemalagt för en resurs. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Hämtar eller ställer in den beräknade kostnaden för en resurs när baslinjen sparas. |
-| [Duration](../../aspose.tasks/taskbaseline/duration) { get; set; } | Hämtar eller ställer in den schemalagda varaktigheten för uppgiften när baslinjen sparades. |
-| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat) { get; set; } | Hämtar eller ställer in formatet för att uttrycka varaktigheten av uppgiftens baslinje. |
-| [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration) { get; set; } | Hämtar eller ställer in ett värde som indikerar om uppgiftens baslinjevaraktighet uppskattades. |
-| [Finish](../../aspose.tasks/taskbaseline/finish) { get; set; } | Hämtar eller ställer in det schemalagda slutdatumet för uppgiften när baslinjen sparades. |
-| [FixedCost](../../aspose.tasks/taskbaseline/fixedcost) { get; set; } | Får eller ställer in en fast kostnad för uppgiften när baslinjen sparades. |
-| [Interim](../../aspose.tasks/taskbaseline/interim) { get; set; } | Hämtar eller ställer in ett värde som anger om detta är en Interim Baseline. |
-| [Start](../../aspose.tasks/taskbaseline/start) { get; set; } | Hämtar eller ställer in det schemalagda startdatumet för uppgiften när baslinjen sparades. |
-| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata) { get; set; } | Hämtar eller ställer in en TimephasedDataCollection-instans för detta objekt. Tidsfasdata som är kopplade till uppgiftens baslinje. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Hämtar eller ställer in arbetet som tilldelats en resurs när baslinjen sparas. Mängden tilldelat arbete till en resurs när baslinjen sparades. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Hämtar eller ställer in det unika numret för en baslinjedatapost. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Hämtar eller ställer in den budgeterade kostnaden för ett arbete som utförts av en resurs för ett projekt hittills. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Hämtar eller ställer in budgetkostnaden för ett arbete som är schemalagt för en resurs. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Hämtar eller ställer in den beräknade kostnaden för en resurs när baslinjen sparas. |
+| [Duration](../../aspose.tasks/taskbaseline/duration/) { get; set; } | Hämtar eller ställer in den schemalagda varaktigheten för uppgiften när baslinjen sparades. |
+| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat/) { get; set; } | Hämtar eller ställer in formatet för att uttrycka varaktigheten av uppgiftens baslinje. |
+| [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration/) { get; set; } | Hämtar eller ställer in ett värde som indikerar om uppgiftens baslinjevaraktighet uppskattades. |
+| [Finish](../../aspose.tasks/taskbaseline/finish/) { get; set; } | Hämtar eller ställer in det schemalagda slutdatumet för uppgiften när baslinjen sparades. |
+| [FixedCost](../../aspose.tasks/taskbaseline/fixedcost/) { get; set; } | Får eller ställer in en fast kostnad för uppgiften när baslinjen sparades. |
+| [Interim](../../aspose.tasks/taskbaseline/interim/) { get; set; } | Hämtar eller ställer in ett värde som anger om detta är en Interim Baseline. |
+| [Start](../../aspose.tasks/taskbaseline/start/) { get; set; } | Hämtar eller ställer in det schemalagda startdatumet för uppgiften när baslinjen sparades. |
+| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata/) { get; set; } | Hämtar eller ställer in en TimephasedDataCollection-instans för detta objekt. Tidsfasdata som är kopplade till uppgiftens baslinje. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Hämtar eller ställer in arbetet som tilldelats en resurs när baslinjen sparas. Mängden tilldelat arbete till en resurs när baslinjen sparades. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Jämför denna instans med det angivna Baseline-objektet. |
-| [CompareTo](../../aspose.tasks/taskbaseline/compareto#compareto_1)(TaskBaseline) | IComparable interface implementation. Jämför denna instans med det angivna Baseline-objektet. |
-| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| override [Equals](../../aspose.tasks/taskbaseline/equals#equals_2)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
-| [Equals](../../aspose.tasks/taskbaseline/equals#equals_1)(TaskBaseline) | Returnerar ett värde som anger om denna instans är lika med det angivna TaskBaseline-objektet. |
-| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode)() | Returnerar ett hashkodvärde för instansen av[`TaskBaseline`](../taskbaseline) class. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | IComparable interface implementation. Jämför denna instans med det angivna Baseline-objektet. |
+| [CompareTo](../../aspose.tasks/taskbaseline/compareto/#compareto_1)(TaskBaseline) | IComparable interface implementation. Jämför denna instans med det angivna Baseline-objektet. |
+| [Equals](../../aspose.tasks/baseline/equals/)(Baseline) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| override [Equals](../../aspose.tasks/taskbaseline/equals/#equals_2)(object) | Returnerar ett värde som anger om denna instans är lika med ett angivet objekt. |
+| [Equals](../../aspose.tasks/taskbaseline/equals/#equals_1)(TaskBaseline) | Returnerar ett värde som anger om denna instans är lika med det angivna TaskBaseline-objektet. |
+| override [GetHashCode](../../aspose.tasks/taskbaseline/gethashcode/)() | Returnerar ett hashkodvärde för instansen av`TaskBaseline` class. |
 
 ### Se även
 
-* class [Baseline](../baseline)
-* namnutrymme [Aspose.Tasks](../../aspose.tasks)
+* class [Baseline](../baseline/)
+* namnutrymme [Aspose.Tasks](../../aspose.tasks/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
