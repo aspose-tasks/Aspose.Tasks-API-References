@@ -1,14 +1,14 @@
 ---
-title: View
+title: Class View
 second_title: Aspose.Tasks for .NET API Referansı
-description: Projectte bir görünümü temsil eder.
+description: Aspose.Tasks.View sınıf. Project. deki bir görünümü temsil eder
 type: docs
-weight: 2540
+weight: 2560
 url: /tr/net/aspose.tasks/view/
 ---
 ## View class
 
-Project'te bir görünümü temsil eder.
+Project. 'deki bir görünümü temsil eder
 
 ```csharp
 public class View : IComparable<View>
@@ -18,43 +18,43 @@ public class View : IComparable<View>
 
 | İsim | Tanım |
 | --- | --- |
-| [View](view#constructor)() | Yeni bir örneğini başlatır[`View`](../view) sınıf. |
-| [View](view#constructor_1)(ViewScreen) | Yeni bir örneğini başlatır[`View`](../view) sınıf. |
+| [View](view/#constructor)() | Yeni bir örneğini başlatır.`View` sınıf. |
+| [View](view/#constructor_1)(ViewScreen) | Yeni bir örneğini başlatır.`View` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Filter](../../aspose.tasks/view/filter) { get; set; } | Tek bir görünümde kullanılan bir filtreyi alır veya ayarlar. |
-| [Group](../../aspose.tasks/view/group) { get; set; } | Tek görünümün bir grubunu alır veya ayarlar. |
-| [HighlightFilter](../../aspose.tasks/view/highlightfilter) { get; set; } | Microsoft Project'in tek bir görünüm için filtreyi vurgulayıp vurgulamadığını belirten bir değer alır veya ayarlar. |
-| [Name](../../aspose.tasks/view/name) { get; set; } | Bir Görünüm nesnesinin adını alır veya ayarlar. |
-| [PageInfo](../../aspose.tasks/view/pageinfo) { get; } | Şunun bir örneğini alır:[`PageInfo`](./pageinfo)sınıf. mpp dosya biçiminde bulunan sayfa kurulum verilerini temsil eder. |
-| [ParentProject](../../aspose.tasks/view/parentproject) { get; } | View nesnesinin üst öğesini alır. Salt okunur[`Project`](../project) . |
-| [Screen](../../aspose.tasks/view/screen) { get; } | Tek görünüm için ekran türünü alır. Salt okunur[`ViewScreen`](../viewscreen) . |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu) { get; set; } | Microsoft Project'in Şeritte Görünüm veya Diğer Görünümler açılır listelerinde tek görünüm adını gösterip göstermediğini belirten bir değer alır veya ayarlar. |
-| [Table](../../aspose.tasks/view/table) { get; set; } | Tek görünümün bir tablosunu alır veya ayarlar. |
-| [Type](../../aspose.tasks/view/type) { get; } | Görevler veya kaynaklar gibi tek görünümdeki öğenin türünü alır. Salt okunur[`ItemType`](../itemtype) . |
-| [Uid](../../aspose.tasks/view/uid) { get; } | Bir görünümün benzersiz tanımlayıcısını alır. |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements) { get; } | Yerleşimi ve görünümünü temsil eden bir nesne koleksiyonu alır.[`OleObject`](../oleobject) görünümde. |
+| [Filter](../../aspose.tasks/view/filter/) { get; set; } | Tek bir görünümde kullanılan bir filtreyi alır veya ayarlar. |
+| [Group](../../aspose.tasks/view/group/) { get; set; } | Tek görünümün bir grubunu alır veya ayarlar. |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Microsoft Project'in filtreyi tek bir görünüm için vurgulayıp vurgulamadığını gösteren bir değer alır veya ayarlar. |
+| [Name](../../aspose.tasks/view/name/) { get; set; } | Bir Görünüm nesnesinin adını alır veya ayarlar. |
+| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | Bir örneğini alır[`PageInfo`](./pageinfo/)sınıf. mpp dosya biçiminde mevcut olan sayfa kurulum verilerini temsil eder. |
+| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | View nesnesinin üst öğesini alır. Salt okunur[`Project`](../project/) . |
+| [Screen](../../aspose.tasks/view/screen/) { get; } | Tek görünüm için ekran tipini alır. Salt okunur[`ViewScreen`](../viewscreen/) . |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Microsoft Project'in Şeritteki Görünüm veya Diğer Görünümler açılır listelerinde tek görünüm adını gösterip göstermediğini belirten bir değer alır veya ayarlar. |
+| [Table](../../aspose.tasks/view/table/) { get; set; } | Tek görünümün bir tablosunu alır veya ayarlar. |
+| [Type](../../aspose.tasks/view/type/) { get; } | Görevler veya kaynaklar gibi öğe türünü tek görünümde alır. Salt okunur[`ItemType`](../itemtype/) . |
+| [Uid](../../aspose.tasks/view/uid/) { get; } | Bir görünümün benzersiz tanımlayıcısını alır. |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | Yerleşimi ve görünümünü temsil eden nesnelerin bir koleksiyonunu alır.[`OleObject`](../oleobject/) görünümde. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto)(View) | Geçerli örneği aynı türdeki başka bir nesneyle karşılaştırır ve geçerli örneğin diğer nesneyle sıralama düzeninde aynı konumda olup olmadığını belirten bir tamsayı döndürür. |
-| override [Equals](../../aspose.tasks/view/equals)(object) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Örnek için bir karma kod değeri döndürür[`Resource`](../resource) sınıf. |
-| [operator ==](../../aspose.tasks/view/op_equality) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| [operator &gt;](../../aspose.tasks/view/op_greaterthan) | Bu örneğin belirtilen bir nesneden büyük olup olmadığını gösteren bir değer döndürür. |
-| [operator &gt;=](../../aspose.tasks/view/op_greaterthanorequal) | Bu örneğin belirtilen bir nesneden büyük veya ona eşit olduğunu gösteren bir değer döndürür. |
-| [operator !=](../../aspose.tasks/view/op_inequality) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| [operator &lt;](../../aspose.tasks/view/op_lessthan) | Bu örneğin belirtilen bir nesneden küçük olup olmadığını gösteren bir değer döndürür. |
-| [operator &lt;=](../../aspose.tasks/view/op_lessthanorequal) | Bu örneğin belirtilen bir nesneden küçük veya ona eşit olup olmadığını gösteren bir değer döndürür. |
+| [CompareTo](../../aspose.tasks/view/compareto/)(View) | Geçerli örneği aynı türden başka bir nesneyle karşılaştırır ve geçerli örneğin diğer nesneyle sıralama düzeninde aynı konumda olup olmadığını gösteren bir tamsayı döndürür. |
+| override [Equals](../../aspose.tasks/view/equals/)(object) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | Örneği için bir karma kod değeri döndürür[`Resource`](../resource/) sınıf. |
+| [operator ==](../../aspose.tasks/view/op_equality/) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| [operator &gt;](../../aspose.tasks/view/op_greaterthan/) | Bu örneğin belirtilen bir nesneden daha büyük olup olmadığını gösteren bir değer döndürür. |
+| [operator &gt;=](../../aspose.tasks/view/op_greaterthanorequal/) | Bu örneğin belirtilen bir nesneden büyük veya ona eşit olup olmadığını gösteren bir değer döndürür. |
+| [operator !=](../../aspose.tasks/view/op_inequality/) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| [operator &lt;](../../aspose.tasks/view/op_lessthan/) | Bu örneğin belirtilen bir nesneden küçük olup olmadığını gösteren bir değer döndürür. |
+| [operator &lt;=](../../aspose.tasks/view/op_lessthanorequal/) | Bu örneğin belirtilen bir nesneden küçük veya ona eşit olup olmadığını gösteren bir değer döndürür. |
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks)
+* ad alanı [Aspose.Tasks](../../aspose.tasks/)
 * toplantı [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: ResourceAssignmentCollection
+title: Class ResourceAssignmentCollection
 second_title: Aspose.Tasks for .NET API Referansı
-description: Bir koleksiyonu temsil ederResourceAssignment./resourceassignment nesneler.
+description: Aspose.Tasks.ResourceAssignmentCollection sınıf. Bir koleksiyonu temsil ederResourceAssignment nesneler.
 type: docs
-weight: 1500
+weight: 1510
 url: /tr/net/aspose.tasks/resourceassignmentcollection/
 ---
 ## ResourceAssignmentCollection class
 
-Bir koleksiyonu temsil eder[`ResourceAssignment`](../resourceassignment) nesneler.
+Bir koleksiyonu temsil eder[`ResourceAssignment`](../resourceassignment/) nesneler.
 
 ```csharp
 public class ResourceAssignmentCollection : IList<ResourceAssignment>
@@ -18,29 +18,29 @@ public class ResourceAssignmentCollection : IList<ResourceAssignment>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.tasks/resourceassignmentcollection/count) { get; } | ResourceAssignmentCollection. içinde bulunan nesnelerin sayısını alır |
-| [IsReadOnly](../../aspose.tasks/resourceassignmentcollection/isreadonly) { get; } | Bu koleksiyonun salt okunur olup olmadığını gösteren bir değer alır. |
-| [Item](../../aspose.tasks/resourceassignmentcollection/item) { get; set; } | Belirtilen dizindeki öğeyi döndürür. |
-| [ParentProject](../../aspose.tasks/resourceassignmentcollection/parentproject) { get; } | ResourceAssignmentCollection nesnesinin üst projesini alır. |
+| [Count](../../aspose.tasks/resourceassignmentcollection/count/) { get; } | ResourceAssignmentCollection. içinde bulunan nesnelerin sayısını alır |
+| [IsReadOnly](../../aspose.tasks/resourceassignmentcollection/isreadonly/) { get; } | Bu koleksiyonun salt okunur olup olmadığını gösteren bir değer alır. |
+| [Item](../../aspose.tasks/resourceassignmentcollection/item/) { get; set; } | Belirtilen dizindeki öğeyi döndürür. |
+| [ParentProject](../../aspose.tasks/resourceassignmentcollection/parentproject/) { get; } | ResourceAssignmentCollection nesnesinin üst projesini alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_3)(ResourceAssignment) | Bu, yalnızca NotSupportedException atan ICollection'ın Add yönteminin saplama uygulamasıdır. |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add#add)(Task, Resource) | ResourceAssignmentCollection'a yeni atama ekler. |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_2)(Task, Resource, decimal) | ResourceAssignmentCollection'a yeni atama ekler. |
-| [Add](../../aspose.tasks/resourceassignmentcollection/add#add_1)(Task, Resource, double) | ResourceAssignmentCollection'a yeni atama ekler. |
-| [GetByUid](../../aspose.tasks/resourceassignmentcollection/getbyuid)(int) | Belirtilen kullanıcı kimliğine sahip bir atama döndürür. |
-| [GetEnumerator](../../aspose.tasks/resourceassignmentcollection/getenumerator)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
-| [Remove](../../aspose.tasks/resourceassignmentcollection/remove)(ResourceAssignment) | Salt okunur değilse, belirtilen atamayı koleksiyondan kaldırır, aksi takdirde NotSupportedException'ı atar. |
-| [RemoveAt](../../aspose.tasks/resourceassignmentcollection/removeat)(int) | Koleksiyon salt okunur değilse, belirtilen dizindeki atamayı kaldırır, aksi takdirde NotSupportedException'ı atar. |
-| [ToList](../../aspose.tasks/resourceassignmentcollection/tolist)() | ResourceAssignmentCollection nesnesini bir listeye dönüştürür.[`ResourceAssignment`](../resourceassignment) nesneler. |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add/#add_3)(ResourceAssignment) | Bu, ICollection'ın Add yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar. |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add/#add)(Task, Resource) | ResourceAssignmentCollection'a yeni atama ekler. |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add/#add_2)(Task, Resource, decimal) | ResourceAssignmentCollection'a yeni atama ekler. |
+| [Add](../../aspose.tasks/resourceassignmentcollection/add/#add_1)(Task, Resource, double) | ResourceAssignmentCollection'a yeni atama ekler. |
+| [GetByUid](../../aspose.tasks/resourceassignmentcollection/getbyuid/)(int) | Belirtilen kullanıcı kimliğine sahip bir atama döndürür. |
+| [GetEnumerator](../../aspose.tasks/resourceassignmentcollection/getenumerator/)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
+| [Remove](../../aspose.tasks/resourceassignmentcollection/remove/)(ResourceAssignment) | Salt okunur değilse, belirtilen atamayı koleksiyondan kaldırır, aksi takdirde NotSupportedException. öğesini atar. |
+| [RemoveAt](../../aspose.tasks/resourceassignmentcollection/removeat/)(int) | Koleksiyon salt okunur değilse, belirtilen dizindeki atamayı kaldırır, aksi takdirde NotSupportedException. öğesini atar. |
+| [ToList](../../aspose.tasks/resourceassignmentcollection/tolist/)() | ResourceAssignmentCollection nesnesini şu listeye dönüştürür:[`ResourceAssignment`](../resourceassignment/) nesneler. |
 
 ### Ayrıca bakınız
 
-* class [ResourceAssignment](../resourceassignment)
-* ad alanı [Aspose.Tasks](../../aspose.tasks)
+* class [ResourceAssignment](../resourceassignment/)
+* ad alanı [Aspose.Tasks](../../aspose.tasks/)
 * toplantı [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

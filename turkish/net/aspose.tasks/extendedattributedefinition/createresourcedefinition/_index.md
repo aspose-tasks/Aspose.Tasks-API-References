@@ -1,14 +1,14 @@
 ---
-title: CreateResourceDefinition
+title: ExtendedAttributeDefinition.CreateResourceDefinition
 second_title: Aspose.Tasks for .NET API Referansı
-description: Microsoft Projectin Yok olarak gösterdiği basit bir genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi. CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype eşittirNone ve yalnızca Kaynakta kullanılabilir. Belirtmeniz gerekircustomFieldType fieldId vealias bu yöntemi çağırdığınızda.
+description: ExtendedAttributeDefinition yöntem. Microsoft Projectin Yok olarak gösterdiği basit bir genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi. CalculationType eşittirNone ve yalnızca Kaynakta kullanılabilir. Belirtmeniz gerekiyorcustomFieldType fieldId Vealias bu yöntemi çağırdığınızda.
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/extendedattributedefinition/createresourcedefinition/
 ---
 ## CreateResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createresourcedefinition}
 
-Microsoft Project'in "Yok" olarak gösterdiği basit bir genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi. [`CalculationType`](../calculationtype) eşittirNone ve yalnızca Kaynakta kullanılabilir. Belirtmeniz gerekir*customFieldType* ,*fieldId* ve*alias* bu yöntemi çağırdığınızda.
+Microsoft Project'in "Yok" olarak gösterdiği, basit bir genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi. [`CalculationType`](../calculationtype/) eşittirNone ve yalnızca Kaynakta kullanılabilir. Belirtmeniz gerekiyor*customFieldType* ,*fieldId* Ve*alias* bu yöntemi çağırdığınızda.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldType customFieldType, 
@@ -17,13 +17,13 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldTy
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Belirtilmiş[`CustomFieldType`](../../customfieldtype) tip. |
-| fieldId | ExtendedAttributeResource | Belirtilmiş[`ExtendedAttributeResource`](../../extendedattributeresource) alan kimliği. |
-| alias | String | BelirtilmişString takma ad. |
+| customFieldType | CustomFieldType | Belirtilen[`CustomFieldType`](../../customfieldtype/) tip. |
+| fieldId | ExtendedAttributeResource | Belirtilen[`ExtendedAttributeResource`](../../extendedattributeresource/) alan kimliği. |
+| alias | String | BelirtilenString takma ad. |
 
 ### Geri dönüş değeri
 
-Oluşturulan örneği[`ExtendedAttributeDefinition`](../../extendedattributedefinition) belirtilen sınıf*customFieldType* ,*fieldId* ve*alias*.
+Oluşturulan örnek[`ExtendedAttributeDefinition`](../) belirtilen sınıf*customFieldType* ,*fieldId* Ve*alias*.
 
 ### Örnekler
 
@@ -36,17 +36,17 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Ayrıca bakınız
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* ad alanı [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* ad alanı [Aspose.Tasks](../../extendedattributedefinition/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateResourceDefinition(ExtendedAttributeResource, string) {#createresourcedefinition_1}
 
-Microsoft Project'in "Yok" olarak gösterdiği basit bir genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi. [`CalculationType`](../calculationtype) eşittirNone ve yalnızca Kaynakta kullanılabilir. Belirtmeniz gerekir*fieldId* ve*alias* bu yöntemi çağırdığınızda. Alan türü alan kimliğinden çıkarılır.
+Microsoft Project'in "Yok" olarak gösterdiği, basit bir genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi. [`CalculationType`](../calculationtype/) eşittirNone ve yalnızca Kaynakta kullanılabilir. Belirtmeniz gerekiyor*fieldId* Ve*alias* bu yöntem çağrıldığında. Alan türü, id. alanından çıkarılır.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(
@@ -55,12 +55,12 @@ public static ExtendedAttributeDefinition CreateResourceDefinition(
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | Belirtilmiş[`ExtendedAttributeResource`](../../extendedattributeresource) alan kimliği. |
-| alias | String | BelirtilmişString takma ad. |
+| fieldId | ExtendedAttributeResource | Belirtilen[`ExtendedAttributeResource`](../../extendedattributeresource/) alan kimliği. |
+| alias | String | BelirtilenString takma ad. |
 
 ### Geri dönüş değeri
 
-Oluşturulan örneği[`ExtendedAttributeDefinition`](../../extendedattributedefinition) belirtilen sınıf*fieldId* ve*alias*.
+Oluşturulan örnek[`ExtendedAttributeDefinition`](../) belirtilen sınıf*fieldId* Ve*alias*.
 
 ### Örnekler
 
@@ -73,9 +73,9 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Ayrıca bakınız
 
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* ad alanı [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* ad alanı [Aspose.Tasks](../../extendedattributedefinition/)
 * toplantı [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: ExtendedAttributeResource
+title: Enum ExtendedAttributeResource
 second_title: Aspose.Tasks for .NET API Referansı
-description: Bir kaynakta kullanılan FieldId genişletilmiş özniteliklerini belirtir.
+description: Aspose.Tasks.ExtendedAttributeResource Sıralama. FieldIdnin bir kaynakta kullanılan genişletilmiş özniteliklerini belirtir.
 type: docs
-weight: 550
+weight: 560
 url: /tr/net/aspose.tasks/extendedattributeresource/
 ---
 ## ExtendedAttributeResource enumeration
 
-Bir kaynakta kullanılan FieldId genişletilmiş özniteliklerini belirtir.
+FieldId'nin bir kaynakta kullanılan genişletilmiş özniteliklerini belirtir.
 
 ```csharp
 public enum ExtendedAttributeResource
@@ -48,7 +48,7 @@ public enum ExtendedAttributeResource
 | Duration8 | `205521083` | Süre8 (Kaynak) özel alanı. |
 | Duration9 | `205521084` | Süre9 (Kaynak) özel alanı. |
 | Duration10 | `205521085` | Süre10 (Kaynak) özel alanı. |
-| Finish1 | `205521003` | Finish1 (Kaynak) özel alanı. |
+| Finish1 | `205521003` | Bitir1 (Kaynak) özel alanı. |
 | Finish2 | `205521004` | Finish2 (Kaynak) özel alanı. |
 | Finish3 | `205521005` | Finish3 (Kaynak) özel alanı. |
 | Finish4 | `205521006` | Finish4 (Kaynak) özel alanı. |
@@ -59,11 +59,11 @@ public enum ExtendedAttributeResource
 | Finish9 | `205521089` | Finish9 (Kaynak) özel alanı. |
 | Finish10 | `205521090` | Finish10 (Kaynak) özel alanı. |
 | Flag1 | `205521023` | Bayrak1 (Kaynak) özel alanı. |
-| Flag2 | `205521024` | Bayrak2 (Kaynak) özel alanı. |
-| Flag3 | `205521025` | Bayrak3 (Kaynak) özel alanı. |
-| Flag4 | `205521026` | Bayrak4 (Kaynak) özel alanı. |
-| Flag5 | `205521027` | Bayrak5 (Kaynak) özel alanı. |
-| Flag6 | `205521028` | Bayrak6 (Kaynak) özel alanı. |
+| Flag2 | `205521024` | Flag2 (Kaynak) özel alanı. |
+| Flag3 | `205521025` | Flag3 (Kaynak) özel alanı. |
+| Flag4 | `205521026` | Flag4 (Kaynak) özel alanı. |
+| Flag5 | `205521027` | Flag5 (Kaynak) özel alanı. |
+| Flag6 | `205521028` | Flag6 (Kaynak) özel alanı. |
 | Flag7 | `205521029` | Flag7 (Kaynak) özel alanı. |
 | Flag8 | `205521030` | Flag8 (Kaynak) özel alanı. |
 | Flag9 | `205521031` | Flag9 (Kaynak) özel alanı. |
@@ -78,9 +78,9 @@ public enum ExtendedAttributeResource
 | Flag18 | `205521098` | Flag18 (Kaynak) özel alanı. |
 | Flag19 | `205521099` | Flag19 (Kaynak) özel alanı. |
 | Flag20 | `205521100` | Flag20 (Kaynak) özel alanı. |
-| Number1 | `205521008` | Number1 (Kaynak) özel alanı. |
-| Number2 | `205521009` | Number2 (Kaynak) özel alanı. |
-| Number3 | `205521010` | Number3 (Kaynak) özel alanı. |
+| Number1 | `205521008` | Sayı1 (Kaynak) özel alanı. |
+| Number2 | `205521009` | Sayı2 (Kaynak) özel alanı. |
+| Number3 | `205521010` | Sayı3 (Kaynak) özel alanı. |
 | Number4 | `205521011` | Number4 (Kaynak) özel alanı. |
 | Number5 | `205521012` | Number5 (Kaynak) özel alanı. |
 | Number6 | `205521101` | Number6 (Kaynak) özel alanı. |
@@ -111,22 +111,22 @@ public enum ExtendedAttributeResource
 | Text1 | `205520904` | Metin1 (Kaynak) özel alanı. |
 | Text2 | `205520905` | Metin2 (Kaynak) özel alanı. |
 | Text3 | `205520926` | Metin3 (Kaynak) özel alanı. |
-| Text4 | `205520927` | Text4 (Kaynak) özel alanı. |
+| Text4 | `205520927` | Metin4 (Kaynak) özel alanı. |
 | Text5 | `205520928` | Metin5 (Kaynak) özel alanı. |
-| Text6 | `205520993` | Text6 (Kaynak) özel alanı. |
-| Text7 | `205520994` | Text7 (Kaynak) özel alanı. |
-| Text8 | `205520995` | Text8 (Kaynak) özel alanı. |
-| Text9 | `205520996` | Text9 (Kaynak) özel alanı. |
-| Text10 | `205520997` | Text10 (Kaynak) özel alanı. |
-| Text11 | `205521121` | Text11 (Kaynak) özel alanı. |
-| Text12 | `205521122` | Text12 (Kaynak) özel alanı. |
-| Text13 | `205521123` | Text13 (Kaynak) özel alanı. |
-| Text14 | `205521124` | Text14 (Kaynak) özel alanı. |
+| Text6 | `205520993` | Metin6 (Kaynak) özel alanı. |
+| Text7 | `205520994` | Metin7 (Kaynak) özel alanı. |
+| Text8 | `205520995` | Metin8 (Kaynak) özel alanı. |
+| Text9 | `205520996` | Metin9 (Kaynak) özel alanı. |
+| Text10 | `205520997` | Metin10 (Kaynak) özel alanı. |
+| Text11 | `205521121` | Metin11 (Kaynak) özel alanı. |
+| Text12 | `205521122` | Metin12 (Kaynak) özel alanı. |
+| Text13 | `205521123` | Metin13 (Kaynak) özel alanı. |
+| Text14 | `205521124` | Metin14 (Kaynak) özel alanı. |
 | Text15 | `205521125` | Metin15 (Kaynak) özel alanı. |
-| Text16 | `205521126` | Text16 (Kaynak) özel alanı. |
-| Text17 | `205521127` | Text17 (Kaynak) özel alanı. |
-| Text18 | `205521128` | Text18 (Kaynak) özel alanı. |
-| Text19 | `205521129` | Text19 (Kaynak) özel alanı. |
+| Text16 | `205521126` | Metin16 (Kaynak) özel alanı. |
+| Text17 | `205521127` | Metin17 (Kaynak) özel alanı. |
+| Text18 | `205521128` | Metin18 (Kaynak) özel alanı. |
+| Text19 | `205521129` | Metin19 (Kaynak) özel alanı. |
 | Text20 | `205521130` | Text20 (Kaynak) özel alanı. |
 | Text21 | `205521131` | Text21 (Kaynak) özel alanı. |
 | Text22 | `205521132` | Text22 (Kaynak) özel alanı. |
@@ -138,20 +138,20 @@ public enum ExtendedAttributeResource
 | Text28 | `205521138` | Text28 (Kaynak) özel alanı. |
 | Text29 | `205521139` | Text29 (Kaynak) özel alanı. |
 | Text30 | `205521140` | Text30 (Kaynak) özel alanı. |
-| OutlineCode1 | `205521174` | AnahatKodu1 (Kaynak) özel alanı. |
-| OutlineCode2 | `205521176` | AnahatKodu2 (Kaynak) özel alanı. |
-| OutlineCode3 | `205521178` | AnahatKodu3 (Kaynak) özel alanı. |
+| OutlineCode1 | `205521174` | OutlineCode1 (Kaynak) özel alanı. |
+| OutlineCode2 | `205521176` | OutlineCode2 (Kaynak) özel alanı. |
+| OutlineCode3 | `205521178` | OutlineCode3 (Kaynak) özel alanı. |
 | OutlineCode4 | `205521180` | OutlineCode4 (Kaynak) özel alanı. |
-| OutlineCode5 | `205521182` | AnahatKodu5 (Kaynak) özel alanı. |
-| OutlineCode6 | `205521184` | AnahatKodu6 (Kaynak) özel alanı. |
-| OutlineCode7 | `205521186` | AnahatKodu7 (Kaynak) özel alanı. |
+| OutlineCode5 | `205521182` | OutlineCode5 (Kaynak) özel alanı. |
+| OutlineCode6 | `205521184` | OutlineCode6 (Kaynak) özel alanı. |
+| OutlineCode7 | `205521186` | OutlineCode7 (Kaynak) özel alanı. |
 | OutlineCode8 | `205521188` | OutlineCode8 (Kaynak) özel alanı. |
 | OutlineCode9 | `205521190` | OutlineCode9 (Kaynak) özel alanı. |
 | OutlineCode10 | `205521192` | OutlineCode10 (Kaynak) özel alanı. |
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks)
+* ad alanı [Aspose.Tasks](../../aspose.tasks/)
 * toplantı [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

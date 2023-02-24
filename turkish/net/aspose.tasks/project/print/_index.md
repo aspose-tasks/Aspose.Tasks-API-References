@@ -1,9 +1,9 @@
 ---
-title: Print
+title: Project.Print
 second_title: Aspose.Tasks for .NET API Referansı
-description: Standart Kullanıcı Arayüzü yok yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarlarıyla varsayılan yazıcıya yazdırır.
+description: Project yöntem. Standart Kullanıcı Arayüzü yok yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarlarıyla varsayılan yazıcıya yazdırır.
 type: docs
-weight: 330
+weight: 1110
 url: /tr/net/aspose.tasks/project/print/
 ---
 ## Print() {#print}
@@ -16,15 +16,15 @@ public void Print()
 
 ### Ayrıca bakınız
 
-* class [Project](../../project)
-* ad alanı [Aspose.Tasks](../../project)
+* class [Project](../)
+* ad alanı [Aspose.Tasks](../../project/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrintOptions) {#print_1}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak varsayılan yazıcı ayarları ve özel kaydetme seçenekleriyle projeyi varsayılan yazıcıya yazdırır.
+Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarları ve özel kaydetme seçenekleriyle varsayılan yazıcıya yazdırır.
 
 ```csharp
 public void Print(PrintOptions options)
@@ -32,20 +32,20 @@ public void Print(PrintOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions) sınıf. |
+| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıf. |
 
 ### Ayrıca bakınız
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* ad alanı [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* ad alanı [Aspose.Tasks](../../project/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(string) {#print_6}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak varsayılan yazıcı ayarlarıyla projeyi belirtilen yazıcıya yazdırır.
+Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarlarıyla belirtilen yazıcıya yazdırır.
 
 ```csharp
 public void Print(string printerName)
@@ -57,8 +57,8 @@ public void Print(string printerName)
 
 ### Ayrıca bakınız
 
-* class [Project](../../project)
-* ad alanı [Aspose.Tasks](../../project)
+* class [Project](../)
+* ad alanı [Aspose.Tasks](../../project/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
@@ -77,8 +77,8 @@ public void Print(PrinterSettings printerSettings)
 
 ### Ayrıca bakınız
 
-* class [Project](../../project)
-* ad alanı [Aspose.Tasks](../../project)
+* class [Project](../)
+* ad alanı [Aspose.Tasks](../../project/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
@@ -98,8 +98,8 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 ### Ayrıca bakınız
 
-* class [Project](../../project)
-* ad alanı [Aspose.Tasks](../../project)
+* class [Project](../)
+* ad alanı [Aspose.Tasks](../../project/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
@@ -115,20 +115,20 @@ public void Print(PrinterSettings printerSettings, PrintOptions options)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | belirtilen örneğiPrinterSettings sınıf. |
-| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions) sınıf. |
+| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıf. |
 
 ### Ayrıca bakınız
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* ad alanı [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* ad alanı [Aspose.Tasks](../../project/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, PrintOptions, string) {#print_4}
 
-Projeyi belirtilen yazıcı ayarlarına, özel kaydetme seçeneklerine ve standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak belirtilen belge adına göre yazdırır.
+Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi belirtilen yazıcı ayarlarına, özel kaydetme seçeneklerine ve belirtilen belge adına göre yazdırır.
 
 ```csharp
 public void Print(PrinterSettings printerSettings, PrintOptions options, string documentName)
@@ -137,14 +137,14 @@ public void Print(PrinterSettings printerSettings, PrintOptions options, string 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | belirtilen örneğiPrinterSettings sınıf. |
-| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions) sınıf. |
+| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıf. |
 | documentName | String | görüntülenecek belge adı (örneğin, bir yazdırma durumu iletişim kutusunda veya yazıcı kuyruğunda). |
 
 ### Ayrıca bakınız
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* ad alanı [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* ad alanı [Aspose.Tasks](../../project/)
 * toplantı [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

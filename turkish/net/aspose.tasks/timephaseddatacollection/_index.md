@@ -1,14 +1,14 @@
 ---
-title: TimephasedDataCollection
+title: Class TimephasedDataCollection
 second_title: Aspose.Tasks for .NET API Referansı
-description: Bir koleksiyonu temsil ederTimephasedData./timephaseddata nesneler.
+description: Aspose.Tasks.TimephasedDataCollection sınıf. Bir koleksiyonu temsil ederTimephasedData nesneler.
 type: docs
-weight: 2270
+weight: 2290
 url: /tr/net/aspose.tasks/timephaseddatacollection/
 ---
 ## TimephasedDataCollection class
 
-Bir koleksiyonu temsil eder[`TimephasedData`](../timephaseddata) nesneler.
+Bir koleksiyonu temsil eder[`TimephasedData`](../timephaseddata/) nesneler.
 
 ```csharp
 public abstract class TimephasedDataCollection : IList<TimephasedData>
@@ -18,34 +18,34 @@ public abstract class TimephasedDataCollection : IList<TimephasedData>
 
 | İsim | Tanım |
 | --- | --- |
-| [TimephasedDataCollection](timephaseddatacollection)() | Yeni bir örneğini başlatır[`TimephasedDataCollection`](../timephaseddatacollection) sınıf. |
+| [TimephasedDataCollection](timephaseddatacollection/)() | Yeni bir örneğini başlatır`TimephasedDataCollection` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.tasks/timephaseddatacollection/count) { get; } | Burada bulunan nesnelerin sayısını alır[`TimephasedDataCollection`](../timephaseddatacollection) nesne. |
-| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly) { get; } | olup olmadığını gösteren bir değer alır.ICollection salt okunurdur. |
-| [Item](../../aspose.tasks/timephaseddatacollection/item) { get; set; } | Belirtilen dizindeki öğeyi döndürür. Set erişimcisi desteklenmiyor. zaman aşamalı verileri ayarlamak için özellik. |
+| [Count](../../aspose.tasks/timephaseddatacollection/count/) { get; } | Bu dosyada bulunan nesnelerin sayısını alır.`TimephasedDataCollection` nesne. |
+| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly/) { get; } | olup olmadığını gösteren bir değer alır.ICollection salt okunurdur. |
+| [Item](../../aspose.tasks/timephaseddatacollection/item/) { get; set; } | Belirtilen dizindeki öğeyi döndürür. Ayarlanan erişimci desteklenmiyor. Zaman aşamalı verileri ayarlamak için özelliği. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.tasks/timephaseddatacollection/add)(TimephasedData) | Ekler[`TimephasedData`](../timephaseddata) bu koleksiyon nesnesinin örneği. |
-| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange)(IEnumerable&lt;TimephasedData&gt;) | Bir koleksiyon ekler[`TimephasedData`](../timephaseddata) bu koleksiyon nesnesinin örnekleri. |
-| [Clear](../../aspose.tasks/timephaseddatacollection/clear)() | Dosyadaki tüm öğeleri kaldırır.[`TimephasedDataCollection`](../timephaseddatacollection) . |
-| [Contains](../../aspose.tasks/timephaseddatacollection/contains)(TimephasedData) | [`TimephasedDataCollection`](../timephaseddatacollection) belirli bir değer içeriyor. |
-| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto)(TimephasedData[], int) | Öğenin öğelerini kopyalar.[`TimephasedDataCollection`](../timephaseddatacollection)birArray , belirli bir noktadan başlayarakArray dizin. |
-| [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
-| [Remove](../../aspose.tasks/timephaseddatacollection/remove)(TimephasedData) | Kaldırır[`TimephasedData`](../timephaseddata) bu koleksiyon nesnesinden örnek. |
-| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish)(TimephasedDataType, DateTime, DateTime) | Arasındaki tüm zaman aşamalarını seçer*startTime* ve*finishTime* . Ortalama durumda O(log n) karmaşıklığına sahiptir. |
-| [ToList](../../aspose.tasks/timephaseddatacollection/tolist)() | [`TimephasedDataCollection`](../timephaseddatacollection) bir listeye itiraz etmek[`TimephasedData`](../timephaseddata) nesneler. |
+| [Add](../../aspose.tasks/timephaseddatacollection/add/)(TimephasedData) | ekler[`TimephasedData`](../timephaseddata/) bu koleksiyon nesnesine örnek. |
+| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange/)(IEnumerable&lt;TimephasedData&gt;) | Bir koleksiyon ekler[`TimephasedData`](../timephaseddata/) bu koleksiyon nesnesine örnekler. |
+| [Clear](../../aspose.tasks/timephaseddatacollection/clear/)() | Tüm öğeleri kaldırır.`TimephasedDataCollection` . |
+| [Contains](../../aspose.tasks/timephaseddatacollection/contains/)(TimephasedData) | olup olmadığını belirler.`TimephasedDataCollection` belirli bir değer içerir. |
+| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto/)(TimephasedData[], int) | öğesinin öğelerini kopyalar.`TimephasedDataCollection` birArray , belirli bir noktadan başlayarakArray dizin. |
+| [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator/)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
+| [Remove](../../aspose.tasks/timephaseddatacollection/remove/)(TimephasedData) | Kaldırır[`TimephasedData`](../timephaseddata/) bu koleksiyon nesnesinden örnek. |
+| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish/)(TimephasedDataType, DateTime, DateTime) | Arasındaki tüm zaman aşamalarını seçer*startTime* Ve*finishTime* . Ortalama durumda O(log n) karmaşıklığına sahiptir. |
+| [ToList](../../aspose.tasks/timephaseddatacollection/tolist/)() | dönüştürür`TimephasedDataCollection` listesine itiraz[`TimephasedData`](../timephaseddata/) nesneler. |
 
 ### Ayrıca bakınız
 
-* class [TimephasedData](../timephaseddata)
-* ad alanı [Aspose.Tasks](../../aspose.tasks)
+* class [TimephasedData](../timephaseddata/)
+* ad alanı [Aspose.Tasks](../../aspose.tasks/)
 * toplantı [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
