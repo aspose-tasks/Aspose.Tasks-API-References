@@ -1,14 +1,14 @@
 ---
-title: Project
+title: Project.Project
 second_title: Aspose.Tasks für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonProjectaspose.tasks/project Klasse.
+description: Project constructeur. Initialisiert eine neue Instanz vonProject Klasse.
 type: docs
 weight: 10
 url: /de/net/aspose.tasks/project/project/
 ---
 ## Project() {#constructor}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse.
 
 ```csharp
 public Project()
@@ -16,15 +16,15 @@ public Project()
 
 ### Siehe auch
 
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, string) {#constructor_16}
+## Project(string, string) {#constructor_12}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer passwortgeschützten Vorlage (vorhandene mpp- oder mpt-Datei).
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus einer passwortgeschützten Vorlage (vorhandene mpp- oder mpt-Datei).
 
 ```csharp
 public Project(string projectTemplate, string protectionPassword)
@@ -41,15 +41,15 @@ Lesen von kennwortgeschützten Dateien, die derzeit nur für das Dateiformat MSP
 
 ### Siehe auch
 
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string) {#constructor_10}
+## Project(string) {#constructor_8}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
 
 ```csharp
 public Project(string projectTemplate)
@@ -61,15 +61,15 @@ public Project(string projectTemplate)
 
 ### Siehe auch
 
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(Stream, PrimaveraReadOptions) {#constructor_6}
+## Project(Stream, PrimaveraReadOptions) {#constructor_5}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus Stream mit der angegebenen Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions) Klasse.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus Stream mit der angegebenen Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions/) Klasse.
 
 ```csharp
 public Project(Stream stream, PrimaveraReadOptions options)
@@ -78,20 +78,20 @@ public Project(Stream stream, PrimaveraReadOptions options)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Stream des ProjektsStreamKlasse |
-| options | PrimaveraReadOptions | die angegebene Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions)Klasse, die es ermöglicht, das Lesen von Primavera-Formaten (XER oder XML) anzupassen. |
+| options | PrimaveraReadOptions | die angegebene Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions/)Klasse, die es ermöglicht, das Lesen von Primavera-Formaten (XER oder XML) anzupassen. |
 
 ### Siehe auch
 
-* class [PrimaveraReadOptions](../../primaverareadoptions)
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [PrimaveraReadOptions](../../primaverareadoptions/)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, ParseErrorCallback) {#constructor_12}
+## Project(string, ParseErrorCallback) {#constructor_10}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
 
 ```csharp
 public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
@@ -104,16 +104,16 @@ public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 
 ### Siehe auch
 
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* delegate [ParseErrorCallback](../../parseerrorcallback/)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream) {#constructor_2}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einem Stream.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus einem Stream.
 
 ```csharp
 public Project(Stream stream)
@@ -125,15 +125,15 @@ public Project(Stream stream)
 
 ### Siehe auch
 
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(StreamReader) {#constructor_9}
+## Project(StreamReader) {#constructor_7}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer StreamReader-Instanz.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus einer StreamReader-Instanz.
 
 ```csharp
 public Project(StreamReader reader)
@@ -145,15 +145,15 @@ public Project(StreamReader reader)
 
 ### Siehe auch
 
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, PrimaveraReadOptions) {#constructor_14}
+## Project(string, PrimaveraReadOptions) {#constructor_11}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer Vorlage (vorhandene MPP- oder MPT-Datei) mit der angegebenen Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions) Klasse.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus einer Vorlage (vorhandene MPP- oder MPT-Datei) mit der angegebenen Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions/) Klasse.
 
 ```csharp
 public Project(string projectTemplate, PrimaveraReadOptions options)
@@ -162,20 +162,20 @@ public Project(string projectTemplate, PrimaveraReadOptions options)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | projectTemplate | String | Pfad zur Vorlage, aus der ein Projekt erstellt werden soll |
-| options | PrimaveraReadOptions | die angegebene Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions) Klasse. |
+| options | PrimaveraReadOptions | die angegebene Instanz der[`PrimaveraReadOptions`](../../primaverareadoptions/) Klasse. |
 
 ### Siehe auch
 
-* class [PrimaveraReadOptions](../../primaverareadoptions)
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [PrimaveraReadOptions](../../primaverareadoptions/)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(DbSettings) {#constructor_1}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse zum Lesen von Daten aus einer Datenbank, die durch die Instanz von angegeben wird[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) Klasse.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse zum Lesen von Daten aus einer Datenbank, die durch die Instanz von angegeben wird[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) Klasse.
 
 ```csharp
 public Project(DbSettings settings)
@@ -183,20 +183,20 @@ public Project(DbSettings settings)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| settings | DbSettings | die angegebene Instanz der[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) Klasse. |
+| settings | DbSettings | die angegebene Instanz der[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) Klasse. |
 
 ### Siehe auch
 
-* class [DbSettings](../../../aspose.tasks.connectivity/dbsettings)
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [DbSettings](../../../aspose.tasks.connectivity/dbsettings/)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, ParseErrorCallback) {#constructor_4}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
+Initialisiert eine neue Instanz von[`Project`](../)Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
 
 ```csharp
 public Project(Stream stream, ParseErrorCallback parseErrorHandler)
@@ -209,16 +209,16 @@ public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 
 ### Siehe auch
 
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* delegate [ParseErrorCallback](../../parseerrorcallback/)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(Stream, string) {#constructor_8}
+## Project(Stream, string) {#constructor_6}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
+Initialisiert eine neue Instanz von[`Project`](../)Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei).
 
 ```csharp
 public Project(Stream stream, string protectionPassword)
@@ -235,15 +235,15 @@ Lesen von kennwortgeschützten Dateien, die derzeit nur für das Dateiformat MSP
 
 ### Siehe auch
 
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, LoadOptions) {#constructor_11}
+## Project(string, LoadOptions) {#constructor_9}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei) mit der angegebenen Instanz der[`LoadOptions`](../../loadoptions) Klasse.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus einer Vorlage (vorhandene mpp- oder mpt-Datei) mit der angegebenen Instanz der[`LoadOptions`](../../loadoptions/) Klasse.
 
 ```csharp
 public Project(string projectTemplate, LoadOptions options)
@@ -252,20 +252,20 @@ public Project(string projectTemplate, LoadOptions options)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | projectTemplate | String | Pfad zur Vorlage, aus der ein Projekt erstellt werden soll |
-| options | LoadOptions | die angegebene Instanz der[`LoadOptions`](../../loadoptions) Klasse. |
+| options | LoadOptions | die angegebene Instanz der[`LoadOptions`](../../loadoptions/) Klasse. |
 
 ### Siehe auch
 
-* class [LoadOptions](../../loadoptions)
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [LoadOptions](../../loadoptions/)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, LoadOptions) {#constructor_3}
 
-Initialisiert eine neue Instanz von[`Project`](../../project) Klasse aus Stream mit der angegebenen Instanz der[`LoadOptions`](../../loadoptions) Klasse.
+Initialisiert eine neue Instanz von[`Project`](../) Klasse aus Stream mit der angegebenen Instanz der[`LoadOptions`](../../loadoptions/) Klasse.
 
 ```csharp
 public Project(Stream stream, LoadOptions options)
@@ -274,13 +274,13 @@ public Project(Stream stream, LoadOptions options)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Stream des ProjektsStreamKlasse |
-| options | LoadOptions | die angegebene Instanz der[`LoadOptions`](../../loadoptions)Klasse |
+| options | LoadOptions | die angegebene Instanz der[`LoadOptions`](../../loadoptions/)Klasse |
 
 ### Siehe auch
 
-* class [LoadOptions](../../loadoptions)
-* class [Project](../../project)
-* namensraum [Aspose.Tasks](../../project)
+* class [LoadOptions](../../loadoptions/)
+* class [Project](../)
+* namensraum [Aspose.Tasks](../../project/)
 * Montage [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

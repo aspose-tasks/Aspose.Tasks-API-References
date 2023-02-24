@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Aspose.Tasks für .NET-API-Referenz
-description: Fügen Sie die angegebene Aufgabe der Instanz von hinzuTaskCollectionaspose.tasks/taskcollectionclass. Wenn ParentProject.CalculationMode None ist sollte der Benutzer Project.Recalculate aufrufen nachdem er diese Methode verwendet hat es wird alle Projektaufgaben neu planen Start-/Endtermine frühe/späte Termine festlegen und die abhängigen Felder wie Lücken Arbeit berechnen und Kostenfelder IDs und Gliederungsebenen. Wenn ParentProject.CalculationMode Manuell ist berechnet die Methode nur Aufgaben-ID Gliederungsebene und Gliederungsnummern automatisch. Wenn ParentProject.CalculationMode Automatisch ist plant die Methode alle Projektaufgaben automatisch neu Start/Ende Termine legt frühe/späte Termine fest berechnet Lücken Arbeits- und Kostenfelder berechnet IDs und Gliederungsebenen neu.
+description: TaskCollection methode. Fügen Sie die angegebene Aufgabe der Instanz von hinzuTaskCollectionclass. Wenn ParentProject.CalculationMode None ist sollte der Benutzer Project.Recalculate aufrufen nachdem er diese Methode verwendet hat es wird alle Projektaufgaben neu planen Start/Endtermine frühe/späte Termine festlegen und die abhängigen Felder wie Lücken Arbeit berechnen und Kostenfelder IDs und Gliederungsebenen. Wenn ParentProject.CalculationMode Manuell ist berechnet die Methode nur AufgabenID Gliederungsebene und Gliederungsnummern automatisch. Wenn ParentProject.CalculationMode Automatisch ist plant die Methode alle Projektaufgaben automatisch neu Start/Ende Termine legt frühe/späte Termine fest berechnet Lücken Arbeits und Kostenfelder berechnet IDs und Gliederungsebenen neu.
 type: docs
 weight: 50
 url: /de/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Fügen Sie die angegebene Aufgabe der Instanz von hinzu[`TaskCollection`](../../taskcollection)class. Wenn ParentProject.CalculationMode None ist, sollte der Benutzer Project.Recalculate() aufrufen, nachdem er diese Methode verwendet hat (es wird alle Projektaufgaben neu planen (Start-/Endtermine, frühe/späte Termine festlegen) und die abhängigen Felder wie Lücken, Arbeit berechnen und Kostenfelder, IDs und Gliederungsebenen). Wenn ParentProject.CalculationMode Manuell ist, berechnet die Methode nur Aufgaben-ID, Gliederungsebene und Gliederungsnummern automatisch. Wenn ParentProject.CalculationMode Automatisch ist, plant die Methode alle Projektaufgaben automatisch neu (Start/Ende Termine, legt frühe/späte Termine fest, berechnet Lücken, Arbeits- und Kostenfelder, berechnet IDs und Gliederungsebenen neu).
+Fügen Sie die angegebene Aufgabe der Instanz von hinzu[`TaskCollection`](../)class. Wenn ParentProject.CalculationMode None ist, sollte der Benutzer Project.Recalculate() aufrufen, nachdem er diese Methode verwendet hat (es wird alle Projektaufgaben neu planen (Start-/Endtermine, frühe/späte Termine festlegen) und die abhängigen Felder wie Lücken, Arbeit berechnen und Kostenfelder, IDs und Gliederungsebenen). Wenn ParentProject.CalculationMode Manuell ist, berechnet die Methode nur Aufgaben-ID, Gliederungsebene und Gliederungsnummern automatisch. Wenn ParentProject.CalculationMode Automatisch ist, plant die Methode alle Projektaufgaben automatisch neu (Start/Ende Termine, legt frühe/späte Termine fest, berechnet Lücken, Arbeits- und Kostenfelder, berechnet IDs und Gliederungsebenen neu).
 
 ```csharp
 public void Add(Task item)
@@ -20,9 +20,9 @@ public void Add(Task item)
 
 ### Siehe auch
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namensraum [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namensraum [Aspose.Tasks](../../taskcollection/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -37,13 +37,13 @@ public Task Add()
 
 ### Rückgabewert
 
-gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task) Klasse.
+gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task/) Klasse.
 
 ### Siehe auch
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namensraum [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namensraum [Aspose.Tasks](../../taskcollection/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -62,13 +62,13 @@ public Task Add(string taskName)
 
 ### Rückgabewert
 
-gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task) Klasse.
+gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task/) Klasse.
 
 ### Siehe auch
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namensraum [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namensraum [Aspose.Tasks](../../taskcollection/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -98,9 +98,9 @@ gibt eine Aufgabe zurück, die vor einer Aufgabe mit der angegebenen ID eingefü
 
 ### Siehe auch
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namensraum [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namensraum [Aspose.Tasks](../../taskcollection/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -119,7 +119,7 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Rückgabewert
 
-gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task) Klasse.
+gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task/) Klasse.
 
 ### Ausnahmen
 
@@ -130,10 +130,10 @@ gibt die neu hinzugefügte Instanz von zurück[`Task`](../../task) Klasse.
 
 ### Siehe auch
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* namensraum [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* namensraum [Aspose.Tasks](../../taskcollection/)
 * Montage [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

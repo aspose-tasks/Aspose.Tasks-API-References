@@ -1,7 +1,7 @@
 ---
-title: CreateExtendedAttribute
+title: ExtendedAttributeDefinition.CreateExtendedAttribute
 second_title: Aspose.Tasks für .NET-API-Referenz
-description: Erstellt ein neues erweitertes Attribut mit der Feld-ID die dem Feld-ID-Wert dieses Objekts entspricht.
+description: ExtendedAttributeDefinition methode. Erstellt ein neues erweitertes Attribut mit der FeldID die dem FeldIDWert dieses Objekts entspricht.
 type: docs
 weight: 300
 url: /de/net/aspose.tasks/extendedattributedefinition/createextendedattribute/
@@ -16,13 +16,13 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### Rückgabewert
 
-gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
+gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute/)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
 
 ### Siehe auch
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namensraum [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namensraum [Aspose.Tasks](../../extendedattributedefinition/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -41,19 +41,19 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### Rückgabewert
 
-gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
+gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute/)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wenn aktuell[`CfType`](../cftype) ist nicht 'Text' |
+| InvalidOperationException | Wenn aktuell[`CfType`](../cftype/) ist nicht 'Text' |
 
 ### Siehe auch
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namensraum [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namensraum [Aspose.Tasks](../../extendedattributedefinition/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -72,19 +72,19 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### Rückgabewert
 
-gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
+gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute/)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wenn aktuell[`CfType`](../cftype) ist nicht 'Anzahl' oder 'Kosten' |
+| InvalidOperationException | Wenn aktuell[`CfType`](../cftype/) ist nicht 'Anzahl' oder 'Kosten' |
 
 ### Siehe auch
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namensraum [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namensraum [Aspose.Tasks](../../extendedattributedefinition/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -103,19 +103,19 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### Rückgabewert
 
-gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
+gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute/)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wenn aktuell[`CfType`](../cftype) ist nicht 'Datum', 'Start' oder 'Ende' |
+| InvalidOperationException | Wenn aktuell[`CfType`](../cftype/) ist nicht 'Datum', 'Start' oder 'Ende' |
 
 ### Siehe auch
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namensraum [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namensraum [Aspose.Tasks](../../extendedattributedefinition/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -134,20 +134,20 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ### Rückgabewert
 
-gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
+gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute/)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wenn aktuell[`CfType`](../cftype) ist nicht 'Dauer' |
+| InvalidOperationException | Wenn aktuell[`CfType`](../cftype/) ist nicht 'Dauer' |
 
 ### Siehe auch
 
-* class [ExtendedAttribute](../../extendedattribute)
-* struct [Duration](../../duration)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namensraum [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* struct [Duration](../../duration/)
+* class [ExtendedAttributeDefinition](../)
+* namensraum [Aspose.Tasks](../../extendedattributedefinition/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
@@ -166,26 +166,26 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### Rückgabewert
 
-gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
+gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute/)Klasse mit der fieldID, die gleich dem fieldID-Wert dieses Objekts ist.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wenn aktuell[`CfType`](../cftype) ist nicht 'Flagge' |
+| InvalidOperationException | Wenn aktuell[`CfType`](../cftype/) ist nicht 'Flagge' |
 
 ### Siehe auch
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namensraum [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namensraum [Aspose.Tasks](../../extendedattributedefinition/)
 * Montage [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-Erstellt ein neues erweitertes Attribut, das mit dem angegebenen verknüpft ist[`Value`](../../value) Artikel.
+Erstellt ein neues erweitertes Attribut, das mit dem angegebenen verknüpft ist[`Value`](../../value/) Artikel.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -193,19 +193,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| lookupValue | Value | Die angegebene[`Value`](../../value) Artikel. |
+| lookupValue | Value | Die angegebene[`Value`](../../value/) Artikel. |
 
 ### Rückgabewert
 
-gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute) Klasse verknüpft mit angegeben[`Value`](../../value) Artikel.
+gibt die erstellte Instanz von zurück[`ExtendedAttribute`](../../extendedattribute/) Klasse verknüpft mit angegeben[`Value`](../../value/) Artikel.
 
 ### Bemerkungen
 
-*lookupValue* sollte vorher hinzugefügt werden[`ExtendedAttributeDefinition`](../../extendedattributedefinition) verwenden[`AddLookupValue`](../addlookupvalue) Methode.
+*lookupValue* sollte vorher hinzugefügt werden[`ExtendedAttributeDefinition`](../) verwenden[`AddLookupValue`](../addlookupvalue/) Methode.
 
 ### Beispiele
 
-Verwenden Sie diesen Code, um neue zu erstellen[`ExtendedAttribute`](../../extendedattribute) mit spezifischem Wert:
+Verwenden Sie diesen Code, um neue zu erstellen[`ExtendedAttribute`](../../extendedattribute/) mit spezifischem Wert:
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);
@@ -215,10 +215,10 @@ var extendedAttribute = taskTextAttr.CreateExtendedAttribute(value2);
 
 ### Siehe auch
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [Value](../../value)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namensraum [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [Value](../../value/)
+* class [ExtendedAttributeDefinition](../)
+* namensraum [Aspose.Tasks](../../extendedattributedefinition/)
 * Montage [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

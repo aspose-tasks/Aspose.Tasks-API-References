@@ -1,9 +1,9 @@
 ---
-title: Baseline
+title: Class Baseline
 second_title: Aspose.Tasks für .NET-API-Referenz
-description: Stellt Basiswerte einer Ressource dar.
+description: Aspose.Tasks.Baseline klas. Stellt Basiswerte einer Ressource dar.
 type: docs
-weight: 100
+weight: 110
 url: /de/net/aspose.tasks/baseline/
 ---
 ## Baseline class
@@ -18,36 +18,36 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Baseline](baseline)() | Default_Constructor |
+| [Baseline](baseline/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Ruft die eindeutige Nummer eines Basisdatensatzes ab oder setzt sie. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Ruft die budgetierten Kosten einer Arbeit ab, die bis dato von einer Ressource für ein Projekt ausgeführt wurde, oder legt diese fest. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Ruft die Budgetkosten einer für eine Ressource geplanten Arbeit ab oder legt sie fest. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Ruft die voraussichtlichen Kosten einer Ressource ab oder legt sie fest, wenn der Basisplan gespeichert wird. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Ruft die einer Ressource zugewiesene Arbeit ab oder legt sie fest, wenn die Baseline gespeichert wird. Der Umfang der einer Ressource zugewiesenen Arbeit beim Speichern des Basisplans. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Ruft die eindeutige Nummer eines Basisdatensatzes ab oder setzt sie. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Ruft die budgetierten Kosten einer Arbeit ab, die bis dato von einer Ressource für ein Projekt ausgeführt wurde, oder legt diese fest. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Ruft die Budgetkosten einer für eine Ressource geplanten Arbeit ab oder legt sie fest. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Ruft die voraussichtlichen Kosten einer Ressource ab oder legt sie fest, wenn der Basisplan gespeichert wird. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Ruft die einer Ressource zugewiesene Arbeit ab oder legt sie fest, wenn die Baseline gespeichert wird. Der Umfang der einer Ressource zugewiesenen Arbeit beim Speichern des Basisplans. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable-Schnittstellenimplementierung. Vergleicht diese Instanz mit dem angegebenen Baseline-Objekt. |
-| [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem angegebenen Objekt ist. |
-| override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem angegebenen Objekt ist. |
-| override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Gibt einen Hash-Code-Wert für die Baseline zurück. |
-| [operator ==](../../aspose.tasks/baseline/op_equality) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem angegebenen Objekt ist. |
-| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan) | Gibt einen Wert zurück, der angibt, ob diese Instanz größer als ein angegebenes Objekt ist. |
-| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal) | Gibt einen Wert zurück, der angibt, ob diese Instanz größer oder gleich einem angegebenen Objekt ist. |
-| [operator !=](../../aspose.tasks/baseline/op_inequality) | Gibt einen Wert zurück, der angibt, ob diese Instanz nicht gleich einem angegebenen Objekt ist. |
-| [operator &lt;](../../aspose.tasks/baseline/op_lessthan) | Gibt einen Wert zurück, der angibt, ob diese Instanz kleiner als ein angegebenes Objekt ist. |
-| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Gibt einen Wert zurück, der angibt, ob diese Instanz kleiner oder gleich einem angegebenen Objekt ist. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | IComparable-Schnittstellenimplementierung. Vergleicht diese Instanz mit dem angegebenen Baseline-Objekt. |
+| [Equals](../../aspose.tasks/baseline/equals/#equals)(Baseline) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem angegebenen Objekt ist. |
+| override [Equals](../../aspose.tasks/baseline/equals/#equals_1)(object) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem angegebenen Objekt ist. |
+| override [GetHashCode](../../aspose.tasks/baseline/gethashcode/)() | Gibt einen Hash-Code-Wert für die Baseline zurück. |
+| [operator ==](../../aspose.tasks/baseline/op_equality/) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem angegebenen Objekt ist. |
+| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan/) | Gibt einen Wert zurück, der angibt, ob diese Instanz größer als ein angegebenes Objekt ist. |
+| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal/) | Gibt einen Wert zurück, der angibt, ob diese Instanz größer oder gleich einem angegebenen Objekt ist. |
+| [operator !=](../../aspose.tasks/baseline/op_inequality/) | Gibt einen Wert zurück, der angibt, ob diese Instanz nicht gleich einem angegebenen Objekt ist. |
+| [operator &lt;](../../aspose.tasks/baseline/op_lessthan/) | Gibt einen Wert zurück, der angibt, ob diese Instanz kleiner als ein angegebenes Objekt ist. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal/) | Gibt einen Wert zurück, der angibt, ob diese Instanz kleiner oder gleich einem angegebenen Objekt ist. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Tasks](../../aspose.tasks)
+* namensraum [Aspose.Tasks](../../aspose.tasks/)
 * Montage [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

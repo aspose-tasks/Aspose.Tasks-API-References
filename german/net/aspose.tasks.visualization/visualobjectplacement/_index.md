@@ -1,14 +1,14 @@
 ---
-title: VisualObjectPlacement
+title: Class VisualObjectPlacement
 second_title: Aspose.Tasks für .NET-API-Referenz
-description: Repräsentiert Platzierung und Aussehen vonOleObject../aspose.tasks/oleobject in einer Ansicht.
+description: Aspose.Tasks.Visualization.VisualObjectPlacement klas. Repräsentiert Platzierung und Aussehen vonOleObject in einer Ansicht.
 type: docs
-weight: 3100
+weight: 3120
 url: /de/net/aspose.tasks.visualization/visualobjectplacement/
 ---
 ## VisualObjectPlacement class
 
-Repräsentiert Platzierung und Aussehen von[`OleObject`](../../aspose.tasks/oleobject) in einer Ansicht.
+Repräsentiert Platzierung und Aussehen von[`OleObject`](../../aspose.tasks/oleobject/) in einer Ansicht.
 
 ```csharp
 public sealed class VisualObjectPlacement
@@ -18,28 +18,28 @@ public sealed class VisualObjectPlacement
 
 | Name | Beschreibung |
 | --- | --- |
-| [VisualObjectPlacement](visualobjectplacement)() | Initialisiert eine neue Instanz von[`VisualObjectPlacement`](../visualobjectplacement) Klasse. |
+| [VisualObjectPlacement](visualobjectplacement/)() | Initialisiert eine neue Instanz von`VisualObjectPlacement` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint) { get; set; } | Ruft die Ausrichtung eines visuellen Objekts relativ zu einer Aufgabe ab oder legt sie fest, wenn die Option „An Aufgabe anhängen“ ausgewählt ist. |
-| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor) { get; set; } | Ruft die Farbe der Rahmenlinie ab oder legt sie fest. |
-| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness) { get; set; } | Liest oder setzt die Dicke der Rahmenlinie (erlaubte Werte sind 0 - 5). |
-| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor) { get; set; } | Ruft die Füllfarbe ab oder legt sie fest. |
-| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern) { get; set; } | Ruft das Füllmuster ab oder legt es fest. |
-| [Height](../../aspose.tasks.visualization/visualobjectplacement/height) { get; set; } | Ruft die angezeigte Höhe des visuellen Objekts ab oder legt sie fest. |
-| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset) { get; set; } | Ruft den horizontalen Versatz des visuellen Objekts ab oder legt ihn fest. |
-| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid) { get; set; } | Ruft die ID von ab oder legt sie fest[`OleObject`](../../aspose.tasks/oleobject) Objekt. |
-| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid) { get; set; } | Ruft die ID der Aufgabe ab oder legt sie fest, wenn die Option „An Aufgabe anhängen“ ausgewählt ist, andernfalls -1. |
-| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate) { get; set; } | Ruft die Datumsposition des visuellen Objekts ab oder legt sie fest, wenn die Option „An Zeitskala anhängen“ ausgewählt ist. |
-| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset) { get; set; } | Ruft den vertikalen Versatz des visuellen Objekts ab oder legt ihn fest. |
-| [Width](../../aspose.tasks.visualization/visualobjectplacement/width) { get; set; } | Ermittelt oder setzt die angezeigte Breite des visuellen Objekts. |
+| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint/) { get; set; } | Ruft die Ausrichtung eines visuellen Objekts relativ zu einer Aufgabe ab oder legt sie fest, wenn die Option „An Aufgabe anhängen“ ausgewählt ist. |
+| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor/) { get; set; } | Ruft die Farbe der Rahmenlinie ab oder legt sie fest. |
+| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness/) { get; set; } | Liest oder setzt die Dicke der Rahmenlinie (erlaubte Werte sind 0 - 5). |
+| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor/) { get; set; } | Ruft die Füllfarbe ab oder legt sie fest. |
+| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern/) { get; set; } | Ruft das Füllmuster ab oder legt es fest. |
+| [Height](../../aspose.tasks.visualization/visualobjectplacement/height/) { get; set; } | Ruft die angezeigte Höhe des visuellen Objekts ab oder legt sie fest. |
+| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset/) { get; set; } | Ruft den horizontalen Versatz des visuellen Objekts ab oder legt ihn fest. |
+| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid/) { get; set; } | Ruft die ID von ab oder legt sie fest[`OleObject`](../../aspose.tasks/oleobject/) Objekt. |
+| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid/) { get; set; } | Ruft die ID der Aufgabe ab oder legt sie fest, wenn die Option „An Aufgabe anhängen“ ausgewählt ist, andernfalls -1. |
+| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate/) { get; set; } | Ruft die Datumsposition des visuellen Objekts ab oder legt sie fest, wenn die Option „An Zeitskala anhängen“ ausgewählt ist. |
+| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset/) { get; set; } | Ruft den vertikalen Versatz des visuellen Objekts ab oder legt ihn fest. |
+| [Width](../../aspose.tasks.visualization/visualobjectplacement/width/) { get; set; } | Ermittelt oder setzt die angezeigte Breite des visuellen Objekts. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* namensraum [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * Montage [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
