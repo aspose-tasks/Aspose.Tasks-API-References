@@ -1,0 +1,96 @@
+---
+title: ResourceUsageViewField
+second_title: Aspose.Tasks for .NET API リファレンス
+description: で可能なフィールドを表しますResourceUsageView./resourceusageview/オブジェクト リソース使用ビュー フィールド.
+type: docs
+weight: 1570
+url: /ja/net/aspose.tasks/resourceusageviewfield/
+---
+## ResourceUsageViewField enumeration
+
+で可能なフィールドを表します[`ResourceUsageView`](../resourceusageview/)オブジェクト リソース使用ビュー フィールド.
+
+```csharp
+public enum ResourceUsageViewField
+```
+
+### 値
+
+| 名前 | 価値 | 説明 |
+| --- | --- | --- |
+| Undefined | `-1` | 未定義のリソース使用状況ビュー フィールドを示します リソース使用状況ビュー フィールド. |
+| Work | `0` | 作業リソース使用状況ビュー フィールドを示します。 |
+| OvertimeWork | `1` | 時間外作業リソース使用ビュー フィールドを示します。 |
+| ActualWork | `2` | 実績作業時間のリソース使用ビュー フィールドを示します。 |
+| ActualOvertimeWork | `3` | 実績残業時間のリソース使用ビュー フィールドを示します。 |
+| CumulativeWork | `4` | 累積作業時間リソース使用ビュー フィールドを示します。 |
+| BaselineWork | `5` | ベースライン作業時間のリソース使用状況ビュー フィールドを示します。 |
+| Overallocation | `6` | はOverallocationリソース使用ビュー field. |
+| PercentAllocation | `7` | パーセント割り当てリソース使用ビュー フィールドを示します。 |
+| PeakUnits | `8` | ピーク ユニットのリソース使用状況ビュー フィールドを示します。 |
+| Cost | `9` | コスト リソース使用ビュー フィールドを示します。 |
+| ActualCost | `10` | 実際のコスト リソースの使用状況ビュー フィールドを示します。 |
+| BaselineCost | `11` | ベースライン コスト リソース使用状況ビュー フィールドを示します。 |
+| CumulativeCost | `12` | 累積コスト リソース使用状況ビュー フィールドを示します。 |
+| BCWS | `13` | BCWS リソース使用ビュー フィールドを示します。 |
+| BCWP | `14` | BCWP リソース使用ビュー フィールドを示します。 |
+| ACWP | `15` | ACWP リソース使用ビュー フィールドを示します。 |
+| SV | `16` | SV リソース使用ビュー フィールドを示します。 |
+| CV | `17` | CV リソース使用ビュー フィールドを示します。 |
+| RegularWork | `18` | 通常の作業リソース使用ビュー フィールドを示します。 |
+| RemainingAvailability | `19` | 残りの利用可能リソースの使用状況ビュー フィールドを示します。 |
+| UnitAvailability | `20` | Unit Availability リソース使用状況ビュー フィールドを示します。 |
+| WorkAvailability | `21` | 作業可能リソースの使用状況ビュー フィールドを示します。 |
+| Baseline1Work | `22` | Baseline1 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline1Cost | `23` | ベースライン 1 コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline2Work | `24` | ベースライン 2 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline2Cost | `25` | ベースライン 2 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline3Work | `26` | Baseline3 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline3Cost | `27` | ベースライン 3 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline4Work | `28` | Baseline4 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline4Cost | `29` | ベースライン 4 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline5Work | `30` | ベースライン 5 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline5Cost | `31` | ベースライン 5 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline6Work | `32` | ベースライン 6 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline6Cost | `33` | ベースライン 6 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline7Work | `34` | Baseline7 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline7Cost | `35` | ベースライン 7 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline8Work | `36` | Baseline8 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline8Cost | `37` | ベースライン 8 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline9Work | `38` | Baseline9 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline9Cost | `39` | ベースライン 9 コスト リソース使用ビュー フィールドを示します。 |
+| Baseline10Work | `40` | Baseline10 作業リソース使用状況ビュー フィールドを示します。 |
+| Baseline10Cost | `41` | ベースライン 10 コスト リソース使用ビュー フィールドを示します。 |
+| BudgetWork | `42` | 予算作業時間のリソース使用ビュー フィールドを示します。 |
+| BudgetCost | `43` | 予算コスト リソース使用ビュー フィールドを示します。 |
+| BaselineBudgetWork | `44` | ベースライン予算作業時間のリソース使用状況ビュー フィールドを示します。 |
+| BaselineBudgetCost | `45` | ベースライン予算コストのリソース使用状況ビュー フィールドを示します。 |
+| Baseline1BudgetWork | `46` | ベースライン 1 予算作業時間リソース使用状況ビュー フィールドを示します。 |
+| Baseline1BudgetCost | `47` | ベースライン 1 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline2BudgetWork | `48` | Baseline2 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline2BudgetCost | `49` | ベースライン 2 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline3BudgetWork | `50` | Baseline3 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline3BudgetCost | `51` | ベースライン 3 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline4BudgetWork | `52` | Baseline4 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline4BudgetCost | `53` | ベースライン 4 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline5BudgetWork | `54` | Baseline5 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline5BudgetCost | `55` | ベースライン 5 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline6BudgetWork | `56` | Baseline6 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline6BudgetCost | `57` | Baseline6 Budget Cost リソース使用状況ビュー フィールドを示します。 |
+| Baseline7BudgetWork | `58` | Baseline7 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline7BudgetCost | `59` | ベースライン 7 予算コストのリソース使用状況ビュー フィールドを示します。 |
+| Baseline8BudgetWork | `60` | Baseline8 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline8BudgetCost | `61` | ベースライン 8 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline9BudgetWork | `62` | Baseline9 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline9BudgetCost | `63` | ベースライン 9 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| Baseline10BudgetWork | `64` | Baseline10 Budget Work リソース使用状況ビュー フィールドを示します。 |
+| Baseline10BudgetCost | `65` | ベースライン 10 予算コスト リソース使用状況ビュー フィールドを示します。 |
+| AllResourceRows | `66` | すべてのリソース行のリソース使用ビュー フィールドを示します。 |
+| AllAssignmentRows | `67` | すべての割り当て行のリソース使用状況ビュー フィールドを示します。 |
+
+### 関連項目
+
+* 名前空間 [Aspose.Tasks](../../aspose.tasks/)
+* 組み立て [Aspose.Tasks](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->

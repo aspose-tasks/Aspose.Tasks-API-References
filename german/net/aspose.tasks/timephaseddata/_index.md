@@ -1,9 +1,9 @@
 ---
-title: TimephasedData
+title: Class TimephasedData
 second_title: Aspose.Tasks für .NET-API-Referenz
-description: Repräsentiert Zeitphasendaten.
+description: Aspose.Tasks.TimephasedData klas. Repräsentiert Zeitphasendaten.
 type: docs
-weight: 2260
+weight: 2280
 url: /de/net/aspose.tasks/timephaseddata/
 ---
 ## TimephasedData class
@@ -18,33 +18,33 @@ public class TimephasedData
 
 | Name | Beschreibung |
 | --- | --- |
-| [TimephasedData](timephaseddata)() | Initialisiert eine neue Instanz von[`TimephasedData`](../timephaseddata) Klasse. |
+| [TimephasedData](timephaseddata/)() | Initialisiert eine neue Instanz von`TimephasedData` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Finish](../../aspose.tasks/timephaseddata/finish) { get; set; } | Ruft das Enddatum einer Zeitphasen-Datenperiode ab oder legt es fest. |
-| [Start](../../aspose.tasks/timephaseddata/start) { get; set; } | Ruft das Startdatum eines zeitgesteuerten Datenzeitraums ab oder legt es fest. |
-| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype) { get; set; } | Ruft den Typ von Zeitphasendaten ab oder legt ihn fest. |
-| [Uid](../../aspose.tasks/timephaseddata/uid) { get; set; } | Ruft die eindeutige Kennung einer Zeitphasen-Daten ab oder legt sie fest |
-| [Unit](../../aspose.tasks/timephaseddata/unit) { get; set; } | Ruft die Zeiteinheit einer zeitgesteuerten Datenperiode ab oder legt sie fest. |
-| [Value](../../aspose.tasks/timephaseddata/value) { get; set; } | Ruft den Wert pro Zeiteinheit für eine zeitgesteuerte Datenperiode ab oder legt ihn fest. |
-| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost) { get; } | erhältDouble Instanz, die den Zeichenfolgenwert dieses Objekts darstellt. |
-| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration) { get; } | erhältTimeSpan Instanz, die den Zeichenfolgenwert dieses Objekts darstellt. |
-| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits) { get; } | erhältDouble Instanz, die den Zeichenfolgenwert dieses Objekts für einheitsbasierte Zeitphasendaten darstellt. |
+| [Finish](../../aspose.tasks/timephaseddata/finish/) { get; set; } | Ruft das Enddatum einer Zeitphasen-Datenperiode ab oder legt es fest. |
+| [Start](../../aspose.tasks/timephaseddata/start/) { get; set; } | Ruft das Startdatum eines zeitgesteuerten Datenzeitraums ab oder legt es fest. |
+| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype/) { get; set; } | Ruft den Typ von Zeitphasendaten ab oder legt ihn fest. |
+| [Uid](../../aspose.tasks/timephaseddata/uid/) { get; set; } | Ruft die eindeutige Kennung einer Zeitphasen-Daten ab oder legt sie fest |
+| [Unit](../../aspose.tasks/timephaseddata/unit/) { get; set; } | Ruft die Zeiteinheit einer zeitgesteuerten Datenperiode ab oder legt sie fest. |
+| [Value](../../aspose.tasks/timephaseddata/value/) { get; set; } | Ruft den Wert pro Zeiteinheit für eine zeitgesteuerte Datenperiode ab oder legt ihn fest. |
+| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost/) { get; } | erhältDouble Instanz, die den Zeichenfolgenwert dieses Objekts darstellt. |
+| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration/) { get; } | erhältTimeSpan Instanz, die den Zeichenfolgenwert dieses Objekts darstellt. |
+| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits/) { get; } | erhältDouble Instanz, die den Zeichenfolgenwert dieses Objekts für einheitsbasierte Zeitphasendaten darstellt. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | Erstellt und initialisiert eine neue Instanz der[`TimephasedData`](../timephaseddata) Klasse für kostenbasierte Zeitphasendaten. |
-| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased)(int, DateTime, DateTime, double, TimephasedDataType) | Erstellt und initialisiert eine neue Instanz der[`TimephasedData`](../timephaseddata) Klasse für einheitenbasierte Zeitphasendaten einer Zuordnung einer Materialressource. |
-| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | Erstellt und initialisiert eine neue Instanz der[`TimephasedData`](../timephaseddata) Klasse für arbeitsbasierte Zeitphasendaten. |
+| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased/)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | Erstellt und initialisiert eine neue Instanz der`TimephasedData` Klasse für kostenbasierte Zeitphasendaten. |
+| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased/)(int, DateTime, DateTime, double, TimephasedDataType) | Erstellt und initialisiert eine neue Instanz der`TimephasedData` Klasse für einheitenbasierte Zeitphasendaten einer Zuordnung einer Materialressource. |
+| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased/)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | Erstellt und initialisiert eine neue Instanz der`TimephasedData` Klasse für arbeitsbasierte Zeitphasendaten. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Tasks](../../aspose.tasks)
+* namensraum [Aspose.Tasks](../../aspose.tasks/)
 * Montage [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

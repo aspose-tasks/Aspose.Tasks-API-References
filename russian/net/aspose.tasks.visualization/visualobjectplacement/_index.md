@@ -1,14 +1,14 @@
 ---
-title: VisualObjectPlacement
+title: Class VisualObjectPlacement
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет размещение и внешний видOleObject../aspose.tasks/oleobject в представлении.
+description: Aspose.Tasks.Visualization.VisualObjectPlacement сорт. Представляет размещение и внешний видOleObject в представлении.
 type: docs
-weight: 3100
+weight: 3120
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/
 ---
 ## VisualObjectPlacement class
 
-Представляет размещение и внешний вид[`OleObject`](../../aspose.tasks/oleobject) в представлении.
+Представляет размещение и внешний вид[`OleObject`](../../aspose.tasks/oleobject/) в представлении.
 
 ```csharp
 public sealed class VisualObjectPlacement
@@ -18,28 +18,28 @@ public sealed class VisualObjectPlacement
 
 | Имя | Описание |
 | --- | --- |
-| [VisualObjectPlacement](visualobjectplacement)() | Инициализирует новый экземпляр[`VisualObjectPlacement`](../visualobjectplacement) класс. |
+| [VisualObjectPlacement](visualobjectplacement/)() | Инициализирует новый экземпляр`VisualObjectPlacement` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint) { get; set; } | Получает или задает выравнивание визуального объекта относительно задачи, когда выбраны параметры «Присоединить к задаче». |
-| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor) { get; set; } | Получает или задает цвет линии границы. |
-| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness) { get; set; } | Получает или задает толщину линии границы (допустимые значения: 0–5). |
-| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor) { get; set; } | Получает или задает цвет заливки. |
-| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern) { get; set; } | Получает или задает шаблон заливки. |
-| [Height](../../aspose.tasks.visualization/visualobjectplacement/height) { get; set; } | Получает или задает отображаемую высоту визуального объекта. |
-| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset) { get; set; } | Получает или задает горизонтальное смещение визуального объекта. |
-| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid) { get; set; } | Получает или задает идентификатор[`OleObject`](../../aspose.tasks/oleobject) объект. |
-| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid) { get; set; } | Получает или задает идентификатор задачи, если выбран параметр «Присоединить к задаче», иначе -1. |
-| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate) { get; set; } | Получает или задает дату размещения визуального объекта, когда выбрана опция «Прикрепить к шкале времени». |
-| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset) { get; set; } | Получает или задает вертикальное смещение визуального объекта. |
-| [Width](../../aspose.tasks.visualization/visualobjectplacement/width) { get; set; } | Получает или задает отображаемую ширину визуального объекта. |
+| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint/) { get; set; } | Получает или задает выравнивание визуального объекта относительно задачи, когда выбраны параметры «Присоединить к задаче». |
+| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor/) { get; set; } | Получает или задает цвет линии границы. |
+| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness/) { get; set; } | Получает или задает толщину линии границы (допустимые значения: 0–5). |
+| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor/) { get; set; } | Получает или задает цвет заливки. |
+| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern/) { get; set; } | Получает или задает шаблон заливки. |
+| [Height](../../aspose.tasks.visualization/visualobjectplacement/height/) { get; set; } | Получает или задает отображаемую высоту визуального объекта. |
+| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset/) { get; set; } | Получает или задает горизонтальное смещение визуального объекта. |
+| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid/) { get; set; } | Получает или задает идентификатор[`OleObject`](../../aspose.tasks/oleobject/) объект. |
+| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid/) { get; set; } | Получает или задает идентификатор задачи, если выбран параметр «Присоединить к задаче», иначе -1. |
+| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate/) { get; set; } | Получает или задает дату размещения визуального объекта, когда выбрана опция «Прикрепить к шкале времени». |
+| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset/) { get; set; } | Получает или задает вертикальное смещение визуального объекта. |
+| [Width](../../aspose.tasks.visualization/visualobjectplacement/width/) { get; set; } | Получает или задает отображаемую ширину визуального объекта. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

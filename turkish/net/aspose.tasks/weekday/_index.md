@@ -1,14 +1,14 @@
 ---
-title: WeekDay
+title: Class WeekDay
 second_title: Aspose.Tasks for .NET API Referansı
-description: Bir takvimde haftanın normal günlerini veya istisna günlerini tanımlayan bir hafta içi gününü temsil eder.
+description: Aspose.Tasks.WeekDay sınıf. Bir takvimde haftanın normal günlerini veya istisna günlerini tanımlayan bir hafta içi günü temsil eder.
 type: docs
-weight: 3160
+weight: 3180
 url: /tr/net/aspose.tasks/weekday/
 ---
 ## WeekDay class
 
-Bir takvimde haftanın normal günlerini veya istisna günlerini tanımlayan bir hafta içi gününü temsil eder.
+Bir takvimde haftanın normal günlerini veya istisna günlerini tanımlayan bir hafta içi günü temsil eder.
 
 ```csharp
 public class WeekDay
@@ -18,35 +18,35 @@ public class WeekDay
 
 | İsim | Tanım |
 | --- | --- |
-| [WeekDay](weekday#constructor)() | Yeni bir örneğini başlatır[`WeekDay`](../weekday) sınıf. |
-| [WeekDay](weekday#constructor_1)(DayType) | Yeni bir örneğini başlatır[`WeekDay`](../weekday) belirtilen gün tipine sahip sınıf. |
-| [WeekDay](weekday#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | Yeni bir örneğini başlatır[`WeekDay`](../weekday) belirtilen gün türü ve çalışma süreleri listesi ile sınıf. |
+| [WeekDay](weekday/#constructor)() | Yeni bir örneğini başlatır.`WeekDay` sınıf. |
+| [WeekDay](weekday/#constructor_1)(DayType) | Yeni bir örneğini başlatır.`WeekDay` belirtilen gün tipine sahip sınıf. |
+| [WeekDay](weekday/#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | Yeni bir örneğini başlatır.`WeekDay` belirtilen gün türü ve çalışma zaman dilimlerinin listesi ile sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [DayType](../../aspose.tasks/weekday/daytype) { get; } | Bir günün türünü alır. |
-| [DayWorking](../../aspose.tasks/weekday/dayworking) { get; set; } | Belirtilen tarih veya gün türünün çalışıp çalışmadığını gösteren bir değer alır veya ayarlar. |
-| [FromDate](../../aspose.tasks/weekday/fromdate) { get; set; } | Bir istisna zamanının başlangıcını alır veya ayarlar. |
-| [ToDate](../../aspose.tasks/weekday/todate) { get; set; } | Bir istisna zamanının sonunu alır veya ayarlar. |
-| [WorkingTimes](../../aspose.tasks/weekday/workingtimes) { get; } | Bu WeekDay örneği için WorkingTimeCollection alır. Hafta içi çalışılan zamanı tanımlayan çalışma süreleri koleksiyonu. |
+| [DayType](../../aspose.tasks/weekday/daytype/) { get; } | Bir günün türünü alır. |
+| [DayWorking](../../aspose.tasks/weekday/dayworking/) { get; set; } | Belirtilen tarih veya gün türünün çalışıp çalışmadığını gösteren bir değer alır veya ayarlar. |
+| [FromDate](../../aspose.tasks/weekday/fromdate/) { get; set; } | Bir istisna süresinin başlangıcını alır veya ayarlar. |
+| [ToDate](../../aspose.tasks/weekday/todate/) { get; set; } | Bir istisna süresinin sonunu alır veya ayarlar. |
+| [WorkingTimes](../../aspose.tasks/weekday/workingtimes/) { get; } | Bu WeekDay örneği için WorkingTimeCollection'ı alır. Hafta içi çalışılan zamanı tanımlayan çalışma saatleri koleksiyonu. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| static [CreateDefaultWorkingDay](../../aspose.tasks/weekday/createdefaultworkingday)(DayType) | Varsayılan çalışma gününü oluşturur. |
-| [Clone](../../aspose.tasks/weekday/clone)() | Haftanın gününün ayrıntılı bir kopyasını döndürür. |
-| override [Equals](../../aspose.tasks/weekday/equals)(object) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| override [GetHashCode](../../aspose.tasks/weekday/gethashcode)() | Örnek için bir karma kod değeri döndürür[`WeekDay`](../weekday) sınıf. |
-| [GetWorkingTime](../../aspose.tasks/weekday/getworkingtime)() | Haftanın bir günü için çalışma süresini döndürür. |
-| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype)(DayOfWeek) | .Net'leri YayınlarDayOfWeek ile[`DayType`](./daytype) . |
-| static [SetDefaultWorkingTime](../../aspose.tasks/weekday/setdefaultworkingtime)(WeekDay) | Haftanın belirtilen günü için varsayılan zaman dilimlerini ayarlar. |
+| static [CreateDefaultWorkingDay](../../aspose.tasks/weekday/createdefaultworkingday/)(DayType) | Varsayılan çalışma günü oluşturur. |
+| [Clone](../../aspose.tasks/weekday/clone/)() | Haftanın gününün derin bir kopyasını döndürür. |
+| override [Equals](../../aspose.tasks/weekday/equals/)(object) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.tasks/weekday/gethashcode/)() | Örneği için bir karma kod değeri döndürür`WeekDay` sınıf. |
+| [GetWorkingTime](../../aspose.tasks/weekday/getworkingtime/)() | Haftanın bir günü için çalışma süresini verir. |
+| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype/)(DayOfWeek) | .Net yayınlarDayOfWeek ile[`DayType`](./daytype/) . |
+| static [SetDefaultWorkingTime](../../aspose.tasks/weekday/setdefaultworkingtime/)(WeekDay) | Belirtilen hafta günü için varsayılan zaman dilimlerini ayarlar. |
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks)
+* ad alanı [Aspose.Tasks](../../aspose.tasks/)
 * toplantı [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

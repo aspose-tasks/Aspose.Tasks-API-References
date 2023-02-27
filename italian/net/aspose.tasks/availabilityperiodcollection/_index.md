@@ -1,14 +1,14 @@
 ---
-title: AvailabilityPeriodCollection
+title: Class AvailabilityPeriodCollection
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rappresenta una raccolta che contieneAvailabilityPeriod./availabilityperiod oggetti.
+description: Aspose.Tasks.AvailabilityPeriodCollection classe. Rappresenta una raccolta che contieneAvailabilityPeriod oggetti.
 type: docs
-weight: 80
+weight: 90
 url: /it/net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class
 
-Rappresenta una raccolta che contiene[`AvailabilityPeriod`](../availabilityperiod) oggetti.
+Rappresenta una raccolta che contiene[`AvailabilityPeriod`](../availabilityperiod/) oggetti.
 
 ```csharp
 public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
@@ -18,29 +18,29 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.tasks/availabilityperiodcollection/count) { get; } | Ottiene il numero di elementi contenuti in questa raccolta. |
-| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly) { get; } | Ottiene un valore che indica se questa raccolta è di sola lettura; in caso contrario, falso. |
-| [Item](../../aspose.tasks/availabilityperiodcollection/item) { get; set; } | Restituisce o imposta l'elemento all'indice specificato. |
-| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource) { get; } | Ottiene il genitore[`Resource`](../resource) per questo oggetto.  Genitore[`Resource`](../resource) oggetto per questa collezione. |
+| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | Ottiene il numero di elementi contenuti in questa raccolta. |
+| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | Ottiene un valore che indica se questa raccolta è di sola lettura; altrimenti, falso. |
+| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | Restituisce o imposta l'elemento all'indice specificato. |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | Ottiene il genitore[`Resource`](../resource/) per questo oggetto.  Genitore[`Resource`](../resource/) oggetto per questa collezione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.tasks/availabilityperiodcollection/add)(AvailabilityPeriod) | Aggiunge l'elemento specificato a questa raccolta. |
-| [Clear](../../aspose.tasks/availabilityperiodcollection/clear)() | Rimuove tutti gli elementi da questa raccolta. |
-| [Contains](../../aspose.tasks/availabilityperiodcollection/contains)(AvailabilityPeriod) | Restituisce true se l'elemento specificato viene trovato in questa raccolta; in caso contrario, falso. |
-| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto)(AvailabilityPeriod[], int) | Copia gli elementi di questa raccolta nell'array specificato, a partire dall'indice dell'array specificato. |
-| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator)() | Restituisce un enumeratore per questa raccolta. |
-| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof)(AvailabilityPeriod) | Determina l'indice dell'elemento specificato in questa raccolta. |
-| [Insert](../../aspose.tasks/availabilityperiodcollection/insert)(int, AvailabilityPeriod) | Inserisce l'elemento specificato nell'indice specificato. |
-| [Remove](../../aspose.tasks/availabilityperiodcollection/remove)(AvailabilityPeriod) | Rimuove la prima occorrenza di un oggetto specifico da questa raccolta. |
-| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat)(int) | Rimuove un elemento all'indice specificato. |
+| [Add](../../aspose.tasks/availabilityperiodcollection/add/)(AvailabilityPeriod) | Aggiunge l'elemento specificato a questa raccolta. |
+| [Clear](../../aspose.tasks/availabilityperiodcollection/clear/)() | Rimuove tutti gli elementi da questa raccolta. |
+| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | Restituisce true se l'elemento specificato viene trovato in questa raccolta; altrimenti, falso. |
+| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | Copia gli elementi di questa raccolta nell'array specificato, a partire dall'indice dell'array specificato. |
+| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator/)() | Restituisce un enumeratore per questa raccolta. |
+| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof/)(AvailabilityPeriod) | Determina l'indice dell'elemento specificato in questa raccolta. |
+| [Insert](../../aspose.tasks/availabilityperiodcollection/insert/)(int, AvailabilityPeriod) | Inserisce l'elemento specificato nell'indice specificato. |
+| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | Rimuove la prima occorrenza di un oggetto specifico da questa raccolta. |
+| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat/)(int) | Rimuove un elemento all'indice specificato. |
 
 ### Guarda anche
 
-* class [AvailabilityPeriod](../availabilityperiod)
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks)
+* class [AvailabilityPeriod](../availabilityperiod/)
+* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
 * assemblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

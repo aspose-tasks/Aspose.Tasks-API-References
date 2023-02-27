@@ -1,7 +1,7 @@
 ---
-title: CreateExtendedAttribute
+title: ExtendedAttributeDefinition.CreateExtendedAttribute
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Создает новый расширенный атрибут с идентификатором поля равным значению идентификатора поля этого объекта.
+description: ExtendedAttributeDefinition метод. Создает новый расширенный атрибут с идентификатором поля равным значению идентификатора поля этого объекта.
 type: docs
 weight: 300
 url: /ru/net/aspose.tasks/extendedattributedefinition/createextendedattribute/
@@ -16,13 +16,13 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute/)class с fieldID, равным значению fieldID этого объекта.
 
 ### Смотрите также
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -41,19 +41,19 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute/)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Текст" |
+| InvalidOperationException | Если текущий[`CfType`](../cftype/) не "Текст" |
 
 ### Смотрите также
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -72,19 +72,19 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute/)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Количество" или "Стоимость" |
+| InvalidOperationException | Если текущий[`CfType`](../cftype/) не "Количество" или "Стоимость" |
 
 ### Смотрите также
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -103,19 +103,19 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute/)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype) не «Дата», «Начало» или «Окончание» |
+| InvalidOperationException | Если текущий[`CfType`](../cftype/) не «Дата», «Начало» или «Окончание» |
 
 ### Смотрите также
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -134,20 +134,20 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute/)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Продолжительность" |
+| InvalidOperationException | Если текущий[`CfType`](../cftype/) не "Продолжительность" |
 
 ### Смотрите также
 
-* class [ExtendedAttribute](../../extendedattribute)
-* struct [Duration](../../duration)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* struct [Duration](../../duration/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -166,26 +166,26 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute)class с fieldID, равным значению fieldID этого объекта.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute/)class с fieldID, равным значению fieldID этого объекта.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Если текущий[`CfType`](../cftype) не "Флаг" |
+| InvalidOperationException | Если текущий[`CfType`](../cftype/) не "Флаг" |
 
 ### Смотрите также
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-Создает новый расширенный атрибут, связанный с указанным[`Value`](../../value) пункт.
+Создает новый расширенный атрибут, связанный с указанным[`Value`](../../value/) пункт.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -193,19 +193,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| lookupValue | Value | Указанный[`Value`](../../value) вещь. |
+| lookupValue | Value | Указанный[`Value`](../../value/) элемент. |
 
 ### Возвращаемое значение
 
-возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute) класс, связанный с указанным[`Value`](../../value) вещь.
+возвращает созданный экземпляр[`ExtendedAttribute`](../../extendedattribute/) класс, связанный с указанным[`Value`](../../value/) элемент.
 
 ### Примечания
 
-*lookupValue* должны быть предварительно добавлены в[`ExtendedAttributeDefinition`](../../extendedattributedefinition) с использованием[`AddLookupValue`](../addlookupvalue) метод.
+*lookupValue* должны быть предварительно добавлены в[`ExtendedAttributeDefinition`](../) с использованием[`AddLookupValue`](../addlookupvalue/) метод.
 
 ### Примеры
 
-Используйте этот код для создания новых[`ExtendedAttribute`](../../extendedattribute) используя конкретное значение:
+Используйте этот код для создания новых[`ExtendedAttribute`](../../extendedattribute/) используя конкретное значение:
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);
@@ -215,10 +215,10 @@ var extendedAttribute = taskTextAttr.CreateExtendedAttribute(value2);
 
 ### Смотрите также
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [Value](../../value)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [Value](../../value/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

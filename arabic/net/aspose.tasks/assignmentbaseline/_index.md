@@ -1,7 +1,7 @@
 ---
-title: AssignmentBaseline
+title: Class AssignmentBaseline
 second_title: Aspose.Tasks لمرجع .NET API
-description: يمثل خط الأساس لتعيين الموارد .
+description: Aspose.Tasks.AssignmentBaseline فصل. يمثل خط الأساس لتعيين الموارد .
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/assignmentbaseline/
@@ -19,36 +19,36 @@ public class AssignmentBaseline : Baseline, IComparable<AssignmentBaseline>,
 
 | اسم | وصف |
 | --- | --- |
-| [AssignmentBaseline](assignmentbaseline)() | Default_Constructor |
+| [AssignmentBaseline](assignmentbaseline/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | الحصول على أو تعيين الرقم الفريد لسجل البيانات الأساسية. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | الحصول على أو تعيين التكلفة المدرجة في الموازنة لعمل تم تنفيذه بواسطة مورد لمشروع حتى الآن. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | الحصول على أو تعيين تكلفة الموازنة لعمل مجدول لمورد. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | الحصول على التكلفة المتوقعة للمورد أو تعيينها عند حفظ الأساس. |
-| [Finish](../../aspose.tasks/assignmentbaseline/finish) { get; set; } | الحصول على أو تعيين تاريخ الانتهاء المجدول لتعيين المورد عندما تم حفظ الأساس.تاريخ انتهاء تعيين المورد عندما تم حفظ هذا الأساس. |
-| [Start](../../aspose.tasks/assignmentbaseline/start) { get; set; } | الحصول على أو تعيين تاريخ البدء المجدول لتعيين المورد عندما تم حفظ الأساس.تاريخ بدء تعيين المورد عندما تم حفظ هذا الأساس. |
-| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata) { get; set; } | يحصل أو يحدد ملف[`TimephasedDataCollection`](../timephaseddatacollection) مثال لهذا الكائن . البيانات الزمنية على مراحل المرتبطة بخط الأساس لتعيين الموارد. عائدات[`TimephasedDataCollection`](../timephaseddatacollection) مثال على هذا الكائن.جمع البيانات على مراحل زمنية المرتبطة بخط الأساس هذا. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | الحصول على أو تعيين العمل المعين إلى مورد عند حفظ الأساس.مقدار العمل المعين لمورد عندما تم حفظ الأساس. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | الحصول على أو تعيين الرقم الفريد لسجل البيانات الأساسية. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | الحصول على أو تعيين التكلفة المدرجة في الموازنة لعمل تم تنفيذه بواسطة مورد لمشروع حتى الآن. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | الحصول على أو تعيين تكلفة الموازنة لعمل مجدول لمورد. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | الحصول على التكلفة المتوقعة للمورد أو تعيينها عند حفظ الأساس. |
+| [Finish](../../aspose.tasks/assignmentbaseline/finish/) { get; set; } | الحصول على أو تعيين تاريخ الانتهاء المجدول لتعيين المورد عندما تم حفظ الأساس.تاريخ انتهاء تعيين المورد عندما تم حفظ هذا الأساس. |
+| [Start](../../aspose.tasks/assignmentbaseline/start/) { get; set; } | الحصول على أو تعيين تاريخ البدء المجدول لتعيين المورد عندما تم حفظ الأساس.تاريخ بدء تعيين المورد عندما تم حفظ هذا الأساس. |
+| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata/) { get; set; } | يحصل أو يحدد ملف[`TimephasedDataCollection`](../timephaseddatacollection/) مثيل لهذا الكائن . البيانات الزمنية على مراحل المرتبطة بخط الأساس لتخصيص الموارد. عائدات[`TimephasedDataCollection`](../timephaseddatacollection/) مثال على هذا الكائن.جمع البيانات على مراحل زمنية المرتبطة بخط الأساس هذا. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | الحصول على أو تعيين العمل المعين لمورد عند حفظ الأساس.مقدار العمل المعين لمورد عندما تم حفظ الأساس. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto#compareto)(AssignmentBaseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
-| [Equals](../../aspose.tasks/assignmentbaseline/equals#equals)(AssignmentBaseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن AssignmentBaseline المحدد. |
-| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| override [Equals](../../aspose.tasks/assignmentbaseline/equals#equals_2)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode)() |  |
+| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto/#compareto)(AssignmentBaseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
+| [Equals](../../aspose.tasks/assignmentbaseline/equals/#equals)(AssignmentBaseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائن AssignmentBaseline المحدد. |
+| [Equals](../../aspose.tasks/baseline/equals/)(Baseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
+| override [Equals](../../aspose.tasks/assignmentbaseline/equals/#equals_2)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
+| override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode/)() |  |
 
 ### أنظر أيضا
 
-* class [Baseline](../baseline)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks)
+* class [Baseline](../baseline/)
+* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
 * المجسم [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

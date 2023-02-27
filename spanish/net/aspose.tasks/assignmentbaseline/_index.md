@@ -1,7 +1,7 @@
 ---
-title: AssignmentBaseline
+title: Class AssignmentBaseline
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Representa la línea base de una asignación de recursos.
+description: Aspose.Tasks.AssignmentBaseline clase. Representa la línea base de una asignación de recursos.
 type: docs
 weight: 50
 url: /es/net/aspose.tasks/assignmentbaseline/
@@ -19,36 +19,36 @@ public class AssignmentBaseline : Baseline, IComparable<AssignmentBaseline>,
 
 | Nombre | Descripción |
 | --- | --- |
-| [AssignmentBaseline](assignmentbaseline)() | Constructor predeterminado |
+| [AssignmentBaseline](assignmentbaseline/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Obtiene o establece el número único de un registro de datos de referencia. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Obtiene o establece el costo presupuestado de un trabajo realizado por un recurso para un proyecto hasta la fecha. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Obtiene o establece el coste presupuestario de un trabajo programado para un recurso. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Obtiene o establece el costo proyectado de un recurso cuando se guarda la línea base. |
-| [Finish](../../aspose.tasks/assignmentbaseline/finish) { get; set; } | Obtiene o establece la fecha de finalización programada de la asignación de recursos cuando se guardó la línea base. La fecha de finalización de la asignación de recursos cuando se guardó esta línea base. |
-| [Start](../../aspose.tasks/assignmentbaseline/start) { get; set; } | Obtiene o establece la fecha de inicio programada de la asignación de recursos cuando se guardó la línea base. La fecha de inicio de la asignación de recursos cuando se guardó esta línea base. |
-| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata) { get; set; } | Obtiene o establece el[`TimephasedDataCollection`](../timephaseddatacollection) instancia para este objeto. Los datos de fase temporal asociados con la línea base de asignación de recursos.  devoluciones[`TimephasedDataCollection`](../timephaseddatacollection) instancia para este objeto.La recopilación de datos de fase temporal asociados con esta línea base. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Obtiene o establece el trabajo asignado a un recurso cuando se guarda la línea base. La cantidad de trabajo asignado a un recurso cuando se guardó la línea base. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Obtiene o establece el número único de un registro de datos de referencia. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Obtiene o establece el costo presupuestado de un trabajo realizado por un recurso para un proyecto hasta la fecha. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Obtiene o establece el coste presupuestario de un trabajo programado para un recurso. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Obtiene o establece el costo proyectado de un recurso cuando se guarda la línea base. |
+| [Finish](../../aspose.tasks/assignmentbaseline/finish/) { get; set; } | Obtiene o establece la fecha de finalización programada de la asignación de recursos cuando se guardó la línea base. La fecha de finalización de la asignación de recursos cuando se guardó esta línea base. |
+| [Start](../../aspose.tasks/assignmentbaseline/start/) { get; set; } | Obtiene o establece la fecha de inicio programada de la asignación de recursos cuando se guardó la línea base. La fecha de inicio de la asignación de recursos cuando se guardó esta línea base. |
+| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata/) { get; set; } | Obtiene o establece el[`TimephasedDataCollection`](../timephaseddatacollection/) instancia para este objeto. Los datos de fase temporal asociados con la línea base de asignación de recursos.  devoluciones[`TimephasedDataCollection`](../timephaseddatacollection/) instancia para este objeto.La recopilación de datos de fase temporal asociados con esta línea base. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Obtiene o establece el trabajo asignado a un recurso cuando se guarda la línea base. La cantidad de trabajo asignado a un recurso cuando se guardó la línea base. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto#compareto)(AssignmentBaseline) | IImplementación de interfaz comparable. Compara esta instancia con el objeto de línea base especificado. |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IImplementación de interfaz comparable. Compara esta instancia con el objeto de línea base especificado. |
-| [Equals](../../aspose.tasks/assignmentbaseline/equals#equals)(AssignmentBaseline) | Devuelve un valor que indica si esta instancia es igual al objeto AssignmentBaseline especificado. |
-| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
-| override [Equals](../../aspose.tasks/assignmentbaseline/equals#equals_2)(object) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
-| override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode)() |  |
+| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto/#compareto)(AssignmentBaseline) | IImplementación de interfaz comparable. Compara esta instancia con el objeto de línea base especificado. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | IImplementación de interfaz comparable. Compara esta instancia con el objeto de línea base especificado. |
+| [Equals](../../aspose.tasks/assignmentbaseline/equals/#equals)(AssignmentBaseline) | Devuelve un valor que indica si esta instancia es igual al objeto AssignmentBaseline especificado. |
+| [Equals](../../aspose.tasks/baseline/equals/)(Baseline) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
+| override [Equals](../../aspose.tasks/assignmentbaseline/equals/#equals_2)(object) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
+| override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode/)() |  |
 
 ### Ver también
 
-* class [Baseline](../baseline)
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks)
+* class [Baseline](../baseline/)
+* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
 * asamblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

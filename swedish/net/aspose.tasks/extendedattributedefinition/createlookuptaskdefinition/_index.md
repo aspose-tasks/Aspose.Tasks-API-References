@@ -1,14 +1,14 @@
 ---
-title: CreateLookupTaskDefinition
+title: ExtendedAttributeDefinition.CreateLookupTaskDefinition
 second_title: Aspose.Tasks för .NET API-referens
-description: Fabriksmetod som skapar en utökad attributdefinition med lookup. Den harCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype är lika medLookup och kan endast användas i Tasks. Du måste specificerafieldId ochalias när anropa denna metod. Fälttypen härleds från fält-id.
+description: ExtendedAttributeDefinition metod. Fabriksmetod som skapar en utökad attributdefinition med lookup. Den harCalculationType är lika medLookup och kan endast användas i Tasks. Du måste specificerafieldId ochalias när anropa denna metod. Fälttypen härleds från fältid.
 type: docs
 weight: 20
 url: /sv/net/aspose.tasks/extendedattributedefinition/createlookuptaskdefinition/
 ---
 ## CreateLookupTaskDefinition(ExtendedAttributeTask, string) {#createlookuptaskdefinition_1}
 
-Fabriksmetod som skapar en utökad attributdefinition med lookup. Den har[`CalculationType`](../calculationtype) är lika medLookup och kan endast användas i Tasks. Du måste specificera*fieldId* och*alias* när anropa denna metod. Fälttypen härleds från fält-id.
+Fabriksmetod som skapar en utökad attributdefinition med lookup. Den har[`CalculationType`](../calculationtype/) är lika medLookup och kan endast användas i Tasks. Du måste specificera*fieldId* och*alias* när anropa denna metod. Fälttypen härleds från fält-id.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -17,12 +17,12 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAtt
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | Den angivna[`ExtendedAttributeTask`](../../extendedattributetask) fält-ID. |
+| fieldId | ExtendedAttributeTask | Den angivna[`ExtendedAttributeTask`](../../extendedattributetask/) fält-ID. |
 | alias | String | Den angivnaString alias. |
 
 ### Returvärde
 
-Skapade instans av[`ExtendedAttributeDefinition`](../../extendedattributedefinition) klass med specificerad*fieldId* och*alias*.
+Skapade instans av[`ExtendedAttributeDefinition`](../) klass med specificerad*fieldId* och*alias*.
 
 ### Exempel
 
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Se även
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createlookuptaskdefinition}
 
-Fabriksmetod som skapar en utökad attributdefinition med lookup. Den har[`CalculationType`](../calculationtype) är lika medLookup och kan endast användas i Tasks. Du måste specificera*customFieldType* ,*fieldId* och*alias* när anropa denna metod.
+Fabriksmetod som skapar en utökad attributdefinition med lookup. Den har[`CalculationType`](../calculationtype/) är lika medLookup och kan endast användas i Tasks. Du måste specificera*customFieldType* ,*fieldId* och*alias* när anropa den här metoden.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
@@ -55,13 +55,13 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Den angivna[`CustomFieldType`](../../customfieldtype) typ. |
-| fieldId | ExtendedAttributeTask | Den angivna[`ExtendedAttributeTask`](../../extendedattributetask) fält-ID. |
+| customFieldType | CustomFieldType | Den angivna[`CustomFieldType`](../../customfieldtype/) typ. |
+| fieldId | ExtendedAttributeTask | Den angivna[`ExtendedAttributeTask`](../../extendedattributetask/) fält-ID. |
 | alias | String | Den angivnaString alias. |
 
 ### Returvärde
 
-Skapade instans av[`ExtendedAttributeDefinition`](../../extendedattributedefinition) klass med specificerad*customFieldType* ,*fieldId* och*alias*.
+Skapade instans av[`ExtendedAttributeDefinition`](../) klass med specificerad*customFieldType* ,*fieldId* och*alias*.
 
 ### Exempel
 
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Se även
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namnutrymme [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* namnutrymme [Aspose.Tasks](../../extendedattributedefinition/)
 * hopsättning [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

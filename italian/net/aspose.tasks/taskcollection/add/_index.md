@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aggiungi lattività specificata allistanza diTaskCollectionaspose.tasks/taskcollectionclass. Se ParentProject.CalculationMode è None lutente deve richiamare Project.Recalculate dopo aver utilizzato questo metodo ripianificherà tutte le attività del progetto date di inizio/fine imposta date di inizio/fine e calcolerà i campi dipendenti come slacks lavoro e campi di costo ID e livelli di struttura. Se ParentProject.CalculationMode è Manuale il metodo calcolerà automaticamente solo lID attività il livello di struttura e i numeri di struttura. Se ParentProject.CalculationMode è Automatico il metodo riprogramma automaticamente tutte le attività del progetto inizio/fine date imposta date anticipate/tardive calcola slack campi di lavoro e costi ricalcola ID e livelli di struttura.
+description: TaskCollection metodo. Aggiunge lattività specificata allistanza diTaskCollectionclass. Se ParentProject.CalculationMode è None lutente deve richiamare Project.Recalculate dopo aver utilizzato questo metodo ripianificherà tutte le attività del progetto date di inizio/fine imposta date anticipate/ritardate e calcolerà i campi dipendenti come tempi di attesa lavoro e campi di costo ID e livelli di struttura. Se ParentProject.CalculationMode è Manuale il metodo calcolerà automaticamente solo lID attività il livello di struttura e i numeri di struttura. Se ParentProject.CalculationMode è Automatico il metodo ripianifica automaticamente tutte le attività del progetto inizio/fine date imposta le date anticipate/posteriori calcola gli spazi vuoti i campi di lavoro e di costo ricalcola gli ID e i livelli di struttura.
 type: docs
 weight: 50
 url: /it/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Aggiungi l'attività specificata all'istanza di[`TaskCollection`](../../taskcollection)class. Se ParentProject.CalculationMode è None l'utente deve richiamare Project.Recalculate() dopo aver utilizzato questo metodo (ripianificherà tutte le attività del progetto (date di inizio/fine, imposta date di inizio/fine) e calcolerà i campi dipendenti come slacks, lavoro e campi di costo, ID e livelli di struttura). Se ParentProject.CalculationMode è Manuale, il metodo calcolerà automaticamente solo l'ID attività, il livello di struttura e i numeri di struttura. Se ParentProject.CalculationMode è Automatico, il metodo riprogramma automaticamente tutte le attività del progetto (inizio/fine date, imposta date anticipate/tardive, calcola slack, campi di lavoro e costi, ricalcola ID e livelli di struttura).
+Aggiunge l'attività specificata all'istanza di[`TaskCollection`](../)class. Se ParentProject.CalculationMode è None, l'utente deve richiamare Project.Recalculate() dopo aver utilizzato questo metodo (ripianificherà tutte le attività del progetto (date di inizio/fine, imposta date anticipate/ritardate) e calcolerà i campi dipendenti come tempi di attesa, lavoro e campi di costo, ID e livelli di struttura). Se ParentProject.CalculationMode è Manuale, il metodo calcolerà automaticamente solo l'ID attività, il livello di struttura e i numeri di struttura. Se ParentProject.CalculationMode è Automatico, il metodo ripianifica automaticamente tutte le attività del progetto (inizio/fine date, imposta le date anticipate/posteriori, calcola gli spazi vuoti, i campi di lavoro e di costo, ricalcola gli ID e i livelli di struttura).
 
 ```csharp
 public void Add(Task item)
@@ -20,9 +20,9 @@ public void Add(Task item)
 
 ### Guarda anche
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* spazio dei nomi [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../taskcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
@@ -37,20 +37,20 @@ public Task Add()
 
 ### Valore di ritorno
 
-restituisce l'istanza appena aggiunta di[`Task`](../../task) classe.
+restituisce l'istanza appena aggiunta di[`Task`](../../task/) classe.
 
 ### Guarda anche
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* spazio dei nomi [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../taskcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(string) {#add_2}
 
-Aggiunge una nuova attività alla raccolta di attività per bambini.
+Aggiunge una nuova attività alla raccolta di attività figlio.
 
 ```csharp
 public Task Add(string taskName)
@@ -62,13 +62,13 @@ public Task Add(string taskName)
 
 ### Valore di ritorno
 
-restituisce l'istanza appena aggiunta di[`Task`](../../task) classe.
+restituisce l'istanza appena aggiunta di[`Task`](../../task/) classe.
 
 ### Guarda anche
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* spazio dei nomi [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../taskcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
@@ -88,26 +88,26 @@ public Task Add(string taskName, int beforeTaskId)
 
 ### Valore di ritorno
 
-restituisce un'attività che è stata inserita prima di un'attività con l'ID specificato.
+restituisce un'attività che è stata inserita prima di un'attività con l'id specificato.
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentOutOfRangeException | Viene generata ArgumentOutOfRangeException se l'ID specificato non è un ID attività valido. |
+| ArgumentOutOfRangeException | ArgumentOutOfRangeException viene generata se l'ID specificato non è un ID attività valido. |
 
 ### Guarda anche
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* spazio dei nomi [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../taskcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(RecurringTaskParameters) {#add_1}
 
-Inserisce una nuova attività prima di un'attività con l'ID specificato e sullo stesso livello di struttura.
+Inserisce una nuova attività prima di un'attività con l'id specificato e sullo stesso livello di struttura.
 
 ```csharp
 public Task Add(RecurringTaskParameters parameters)
@@ -115,11 +115,11 @@ public Task Add(RecurringTaskParameters parameters)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| parameters | RecurringTaskParameters | I parametri i parametri specificati per la creazione di attività ricorrenti. |
+| parameters | RecurringTaskParameters | I parametri i parametri specificati per la creazione dell'attività ricorrente. |
 
 ### Valore di ritorno
 
-restituisce l'istanza appena aggiunta di[`Task`](../../task) classe.
+restituisce l'istanza appena aggiunta di[`Task`](../../task/) classe.
 
 ### Eccezioni
 
@@ -130,10 +130,10 @@ restituisce l'istanza appena aggiunta di[`Task`](../../task) classe.
 
 ### Guarda anche
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* spazio dei nomi [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../taskcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

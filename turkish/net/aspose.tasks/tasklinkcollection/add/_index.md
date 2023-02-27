@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskLinkCollection.Add
 second_title: Aspose.Tasks for .NET API Referansı
-description: Bitir-Başlat örneğini döndürürTaskLinkaspose.tasks/tasklink TaskLinkCollection nesnesine eklendi.
+description: TaskLinkCollection yöntem. FinishStart örneğini döndürürTaskLink TaskLinkCollection nesnesine eklendi.
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-Bitir-Başlat örneğini döndürür[`TaskLink`](../../tasklink) TaskLinkCollection nesnesine eklendi.
+Finish-Start örneğini döndürür[`TaskLink`](../../tasklink/) TaskLinkCollection nesnesine eklendi.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
@@ -17,7 +17,7 @@ public TaskLink Add(Task pred, Task succ)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pred | Task | Önceki görev. |
-| succ | Task | Halef görevi. |
+| succ | Task | Ardıl görev. |
 
 ### Geri dönüş değeri
 
@@ -31,17 +31,17 @@ bu nesneye eklenmiş bir görev bağlantısı örneği.
 
 ### Ayrıca bakınız
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* ad alanı [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* class [TaskLinkCollection](../)
+* ad alanı [Aspose.Tasks](../../tasklinkcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-Bir örneğini döndürür[`TaskLink`](../../tasklink) TaskLinkCollection nesnesine eklendi.
+örneğini döndürür[`TaskLink`](../../tasklink/) TaskLinkCollection nesnesine eklendi.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
@@ -50,8 +50,8 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pred | Task | Önceki görev. |
-| succ | Task | Halef görevi. |
-| linkType | TaskLinkType | Bağlantı türü[`TaskLinkType`](../../tasklinktype) |
+| succ | Task | Ardıl görev. |
+| linkType | TaskLinkType | Bağlantı türü[`TaskLinkType`](../../tasklinktype/) |
 
 ### Geri dönüş değeri
 
@@ -65,18 +65,18 @@ bu nesneye eklenmiş bir görev bağlantısı örneği.
 
 ### Ayrıca bakınız
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* enum [TaskLinkType](../../tasklinktype)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* ad alanı [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* enum [TaskLinkType](../../tasklinktype/)
+* class [TaskLinkCollection](../)
+* ad alanı [Aspose.Tasks](../../tasklinkcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-Bir örneğini döndürür[`TaskLink`](../../tasklink) TaskLinkCollection nesnesine eklendi.
+örneğini döndürür[`TaskLink`](../../tasklink/) TaskLinkCollection nesnesine eklendi.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
@@ -85,13 +85,13 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pred | Task | Önceki görev. |
-| succ | Task | Halef görevi. |
-| linkType | TaskLinkType | Bağlantı türü[`TaskLinkType`](../../tasklinktype) |
-| lag | Duration | Bağlantı gecikmesi[`Duration`](../../duration). |
+| succ | Task | Ardıl görev. |
+| linkType | TaskLinkType | Bağlantı türü[`TaskLinkType`](../../tasklinktype/) |
+| lag | Duration | Bağlantı gecikmesi[`Duration`](../../duration/). |
 
 ### Geri dönüş değeri
 
-bu nesneye eklenen bir görev bağlantısı.
+bu nesneye eklenmiş bir görev bağlantısı.
 
 ### istisnalar
 
@@ -101,19 +101,19 @@ bu nesneye eklenen bir görev bağlantısı.
 
 ### Ayrıca bakınız
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* enum [TaskLinkType](../../tasklinktype)
-* struct [Duration](../../duration)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* ad alanı [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* enum [TaskLinkType](../../tasklinktype/)
+* struct [Duration](../../duration/)
+* class [TaskLinkCollection](../)
+* ad alanı [Aspose.Tasks](../../tasklinkcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(TaskLink) {#add_3}
 
-Bu, yalnızca NotSupportedException atan ICollection'ın Add yönteminin saplama uygulamasıdır.
+Bu, ICollection'ın Add yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
 
 ```csharp
 public void Add(TaskLink item)
@@ -125,9 +125,9 @@ public void Add(TaskLink item)
 
 ### Ayrıca bakınız
 
-* class [TaskLink](../../tasklink)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* ad alanı [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [TaskLinkCollection](../)
+* ad alanı [Aspose.Tasks](../../tasklinkcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

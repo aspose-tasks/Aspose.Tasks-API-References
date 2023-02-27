@@ -1,9 +1,9 @@
 ---
-title: Calendar
+title: Class Calendar
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Representa un calendario utilizado en un proyecto.
+description: Aspose.Tasks.Calendar clase. Representa un calendario utilizado en un proyecto.
 type: docs
-weight: 220
+weight: 230
 url: /es/net/aspose.tasks/calendar/
 ---
 ## Calendar class
@@ -18,37 +18,36 @@ public class Calendar
 
 | Nombre | Descripción |
 | --- | --- |
-| [BaseCalendar](../../aspose.tasks/calendar/basecalendar) { get; set; } | Obtiene o establece el calendario base del que depende este calendario. Solo aplicable si el calendario no es un calendario base. Lectura/escritura[`Calendar`](../calendar) . |
-| [Exceptions](../../aspose.tasks/calendar/exceptions) { get; } | Obtiene el objeto CalendarExceptionCollection. La colección de excepciones que está asociada con el calendario. |
-| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar) { get; } | Obtiene un valor que indica si el calendario es un calendario base. Solo lecturaBoolean . |
-| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar) { get; set; } | Obtiene o establece un valor que indica si el calendario es un calendario de referencia. Lectura/escrituraBoolean . |
-| [Name](../../aspose.tasks/calendar/name) { get; set; } | Obtiene o establece el nombre del calendario. Lectura/escrituraString . |
-| [ParentProject](../../aspose.tasks/calendar/parentproject) { get; } | Obtiene el proyecto principal para este calendario. |
-| [Uid](../../aspose.tasks/calendar/uid) { get; set; } | Obtiene o establece el identificador único del calendario. Lectura/escrituraInt32 . |
-| [WeekDays](../../aspose.tasks/calendar/weekdays) { get; } | Obtiene WeekDaysCollection para este calendario. La colección de días de la semana que define el calendario. |
-| [WorkWeeks](../../aspose.tasks/calendar/workweeks) { get; } | Obtiene el objeto WorkWeekCollections. La colección de semanas laborales que está asociada con el calendario. |
+| [BaseCalendar](../../aspose.tasks/calendar/basecalendar/) { get; set; } | Obtiene o establece el calendario base del que depende este calendario. Solo aplicable si el calendario no es un calendario base. |
+| [Exceptions](../../aspose.tasks/calendar/exceptions/) { get; } | Obtiene el objeto CalendarExceptionCollection. La colección de excepciones que está asociada con el calendario. |
+| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar/) { get; } | Obtiene un valor que indica si el calendario es un calendario base. |
+| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar/) { get; set; } | Obtiene o establece un valor que indica si el calendario es un calendario de referencia. |
+| [Name](../../aspose.tasks/calendar/name/) { get; set; } | Obtiene o establece el nombre del calendario. |
+| [Uid](../../aspose.tasks/calendar/uid/) { get; set; } | Obtiene o establece el identificador único del calendario. |
+| [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Obtiene WeekDaysCollection para este calendario. La colección de días de la semana que define el calendario. |
+| [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Obtiene el objeto WorkWeekCollections. La colección de semanas laborales que está asociada con el calendario. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar)(Calendar) | Hace que un calendario determinado sea un calendario de 24 horas. El calendario de 24 horas es un calendario en el que todos los días de la semana funcionan con horario de trabajo las 24 horas. |
-| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar)(Calendar) | Convierte un Calendario determinado en Turno Nocturno. |
-| static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar)(Calendar) | Crea un calendario estándar predeterminado. |
-| [Delete](../../aspose.tasks/calendar/delete)() | Elimina el calendario del proyecto. |
-| override [Equals](../../aspose.tasks/calendar/equals)(object) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork)(DateTime, Duration) | Calcula la fecha en la que pasará la cantidad especificada de tiempo de trabajo según el calendario. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Calcula la fecha en la que pasará la cantidad especificada de tiempo de trabajo según el calendario. |
-| override [GetHashCode](../../aspose.tasks/calendar/gethashcode)() | Devuelve un código hash para la instancia del[`Calendar`](../calendar) clase. |
-| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart)(DateTime) | Calcula el inicio del siguiente día hábil a partir de la fecha. |
-| [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend)(DateTime) | Calcula el fin de la fecha de trabajo anterior a partir de la fecha especificada. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration)(DateTime, Duration) | Devuelve la fecha de inicio en función de la fecha de finalización y la duración especificadas. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Devuelve la fecha de inicio en función de la fecha de finalización y la duración especificadas. |
-| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration)(Task, TimeSpan) | Calcula la fecha y hora de finalización de la tarea a partir de su fecha de inicio, las partes divididas y la duración. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours_1)(DateTime) | Devuelve la cantidad de horas de trabajo en la fecha. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours#getworkinghours)(DateTime, DateTime) | Devolver horas de trabajo para las fechas especificadas. |
-| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes)(DateTime) | Devoluciones[`WorkingTimeCollection`](../workingtimecollection) de los tiempos de trabajo. |
-| [IsDayWorking](../../aspose.tasks/calendar/isdayworking)(DateTime) | Determina si el día es laborable. |
+| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar/)(Calendar) | Hace que un calendario determinado sea un calendario de 24 horas. El calendario de 24 horas es un calendario en el que todos los días de la semana funcionan con horario de trabajo las 24 horas. |
+| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar/)(Calendar) | Convierte un Calendario determinado en Turno Nocturno. |
+| static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar/)(Calendar) | Crea un calendario estándar predeterminado. |
+| [Delete](../../aspose.tasks/calendar/delete/)() | Elimina el calendario del proyecto. |
+| override [Equals](../../aspose.tasks/calendar/equals/)(object) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork)(DateTime, Duration) | Calcula la fecha en la que pasará la cantidad especificada de tiempo de trabajo según el calendario. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Calcula la fecha en la que pasará la cantidad especificada de tiempo de trabajo según el calendario. |
+| override [GetHashCode](../../aspose.tasks/calendar/gethashcode/)() | Devuelve un código hash para la instancia de la clase. |
+| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart/)(DateTime) | Calcula el inicio del siguiente día hábil a partir de la fecha. |
+| [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend/)(DateTime) | Calcula el fin de la fecha de trabajo anterior a partir de la fecha especificada. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration)(DateTime, Duration) | Devuelve la fecha de inicio en función de la fecha de finalización y la duración especificadas. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Devuelve la fecha de inicio en función de la fecha de finalización y la duración especificadas. |
+| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Calcula la fecha y hora de finalización de la tarea a partir de su fecha de inicio, las partes divididas y la duración. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Devuelve la cantidad de horas de trabajo en la fecha. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Devolver horas de trabajo para las fechas especificadas. |
+| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Devoluciones[`WorkingTimeCollection`](../workingtimecollection/) de horas de trabajo para la fecha especificada. |
+| [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Determina si el día es laborable. |
 
 ### Observaciones
 
@@ -114,7 +113,7 @@ calendar.Days.Add(New WeekDay(DayType.Sunday))
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks)
+* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
 * asamblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

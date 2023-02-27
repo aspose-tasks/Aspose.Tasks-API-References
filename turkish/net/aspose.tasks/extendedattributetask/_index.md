@@ -1,14 +1,14 @@
 ---
-title: ExtendedAttributeTask
+title: Enum ExtendedAttributeTask
 second_title: Aspose.Tasks for .NET API Referansı
-description: Bir görevde kullanılan FieldId genişletilmiş özniteliklerini belirtir.
+description: Aspose.Tasks.ExtendedAttributeTask Sıralama. Bir görevde kullanılan genişletilmiş FieldId özniteliklerini belirtir.
 type: docs
-weight: 560
+weight: 570
 url: /tr/net/aspose.tasks/extendedattributetask/
 ---
 ## ExtendedAttributeTask enumeration
 
-Bir görevde kullanılan FieldId genişletilmiş özniteliklerini belirtir.
+Bir görevde kullanılan genişletilmiş FieldId özniteliklerini belirtir.
 
 ```csharp
 public enum ExtendedAttributeTask
@@ -48,8 +48,8 @@ public enum ExtendedAttributeTask
 | Duration8 | `188743959` | Süre8 (Görev) özel alanı. |
 | Duration9 | `188743960` | Süre9 (Görev) özel alanı. |
 | Duration10 | `188743961` | Süre10 (Görev) özel alanı. |
-| Finish1 | `188743733` | Finish1 (Görev) özel alanı. |
-| Finish2 | `188743736` | Finish2 (Görev) özel alanı. |
+| Finish1 | `188743733` | Bitir1 (Görev) özel alanı. |
+| Finish2 | `188743736` | Bitir2 (Görev) özel alanı. |
 | Finish3 | `188743739` | Finish3 (Görev) özel alanı. |
 | Finish4 | `188743742` | Finish4 (Görev) özel alanı. |
 | Finish5 | `188743745` | Finish5 (Görev) özel alanı. |
@@ -58,29 +58,29 @@ public enum ExtendedAttributeTask
 | Finish8 | `188743967` | Finish8 (Görev) özel alanı. |
 | Finish9 | `188743969` | Finish9 (Görev) özel alanı. |
 | Finish10 | `188743971` | Finish10 (Görev) özel alanı. |
-| Flag1 | `188743752` | Bayrak1 (Görev) özel alanı. |
-| Flag2 | `188743753` | Bayrak2 (Görev) özel alanı. |
-| Flag3 | `188743754` | Bayrak3 (Görev) özel alanı. |
-| Flag4 | `188743755` | Bayrak4 (Görev) özel alanı. |
-| Flag5 | `188743756` | Bayrak5 (Görev) özel alanı. |
-| Flag6 | `188743757` | Bayrak6 (Görev) özel alanı. |
+| Flag1 | `188743752` | Flag1 (Görev) özel alanı. |
+| Flag2 | `188743753` | Flag2 (Görev) özel alanı. |
+| Flag3 | `188743754` | Flag3 (Görev) özel alanı. |
+| Flag4 | `188743755` | Flag4 (Görev) özel alanı. |
+| Flag5 | `188743756` | Flag5 (Görev) özel alanı. |
+| Flag6 | `188743757` | Flag6 (Görev) özel alanı. |
 | Flag7 | `188743758` | Flag7 (Görev) özel alanı. |
 | Flag8 | `188743759` | Flag8 (Görev) özel alanı. |
 | Flag9 | `188743760` | Flag9 (Görev) özel alanı. |
 | Flag10 | `188743761` | Flag10 (Görev) özel alanı. |
 | Flag11 | `188743972` | Flag11 (Görev) özel alanı. |
 | Flag12 | `188743973` | Flag12 (Görev) özel alanı. |
-| Flag13 | `188743974` | Bayrak13 (Görev) özel alanı. |
+| Flag13 | `188743974` | Flag13 (Görev) özel alanı. |
 | Flag14 | `188743975` | Flag14 (Görev) özel alanı. |
-| Flag15 | `188743976` | Bayrak15 (Görev) özel alanı. |
-| Flag16 | `188743977` | Bayrak16 (Görev) özel alanı. |
-| Flag17 | `188743978` | Bayrak17 (Görev) özel alanı. |
+| Flag15 | `188743976` | Flag15 (Görev) özel alanı. |
+| Flag16 | `188743977` | Flag16 (Görev) özel alanı. |
+| Flag17 | `188743978` | Flag17 (Görev) özel alanı. |
 | Flag18 | `188743979` | Flag18 (Görev) özel alanı. |
 | Flag19 | `188743980` | Flag19 (Görev) özel alanı. |
 | Flag20 | `188743981` | Flag20 (Görev) özel alanı. |
 | Number1 | `188743767` | Number1 (Görev) özel alanı. |
-| Number2 | `188743768` | Number2 (Görev) özel alanı. |
-| Number3 | `188743769` | Number3 (Görev) özel alanı. |
+| Number2 | `188743768` | Sayı2 (Görev) özel alanı. |
+| Number3 | `188743769` | Sayı3 (Görev) özel alanı. |
 | Number4 | `188743770` | Number4 (Görev) özel alanı. |
 | Number5 | `188743771` | Number5 (Görev) özel alanı. |
 | Number6 | `188743982` | Number6 (Görev) özel alanı. |
@@ -98,13 +98,13 @@ public enum ExtendedAttributeTask
 | Number18 | `188743994` | Number18 (Görev) özel alanı. |
 | Number19 | `188743995` | Number19 (Görev) özel alanı. |
 | Number20 | `188743996` | Number20 (Görev) özel alanı. |
-| Start1 | `188743732` | Başlangıç1 (Görev) özel alanı. |
+| Start1 | `188743732` | Başlat1 (Görev) özel alanı. |
 | Start2 | `188743735` | Start2 (Görev) özel alanı. |
 | Start3 | `188743738` | Start3 (Görev) özel alanı. |
 | Start4 | `188743741` | Start4 (Görev) özel alanı. |
-| Start5 | `188743744` | Başlat5 (Görev) özel alanı. |
+| Start5 | `188743744` | Start5 (Görev) özel alanı. |
 | Start6 | `188743962` | Start6 (Görev) özel alanı. |
-| Start7 | `188743964` | Start7 (Görev) özel alanı. |
+| Start7 | `188743964` | Başlat7 (Görev) özel alanı. |
 | Start8 | `188743966` | Start8 (Görev) özel alanı. |
 | Start9 | `188743968` | Start9 (Görev) özel alanı. |
 | Start10 | `188743970` | Start10 (Görev) özel alanı. |
@@ -114,44 +114,44 @@ public enum ExtendedAttributeTask
 | Text4 | `188743740` | Metin4 (Görev) özel alanı. |
 | Text5 | `188743743` | Metin5 (Görev) özel alanı. |
 | Text6 | `188743746` | Metin6 (Görev) özel alanı. |
-| Text7 | `188743747` | Text7 (Görev) özel alanı. |
-| Text8 | `188743748` | Text8 (Görev) özel alanı. |
-| Text9 | `188743749` | Text9 (Görev) özel alanı. |
+| Text7 | `188743747` | Metin7 (Görev) özel alanı. |
+| Text8 | `188743748` | Metin8 (Görev) özel alanı. |
+| Text9 | `188743749` | Metin9 (Görev) özel alanı. |
 | Text10 | `188743750` | Metin10 (Görev) özel alanı. |
 | Text11 | `188743997` | Metin11 (Görev) özel alanı. |
 | Text12 | `188743998` | Metin12 (Görev) özel alanı. |
 | Text13 | `188743999` | Metin13 (Görev) özel alanı. |
-| Text14 | `188744000` | Text14 (Görev) özel alanı. |
+| Text14 | `188744000` | Metin14 (Görev) özel alanı. |
 | Text15 | `188744001` | Metin15 (Görev) özel alanı. |
 | Text16 | `188744002` | Metin16 (Görev) özel alanı. |
 | Text17 | `188744003` | Metin17 (Görev) özel alanı. |
 | Text18 | `188744004` | Metin18 (Görev) özel alanı. |
 | Text19 | `188744005` | Metin19 (Görev) özel alanı. |
-| Text20 | `188744006` | Metin20 (Görev) özel alanı. |
-| Text21 | `188744007` | Metin21 (Görev) özel alanı. |
-| Text22 | `188744008` | Metin22 (Görev) özel alanı. |
-| Text23 | `188744009` | Metin23 (Görev) özel alanı. |
+| Text20 | `188744006` | Text20 (Görev) özel alanı. |
+| Text21 | `188744007` | Text21 (Görev) özel alanı. |
+| Text22 | `188744008` | Text22 (Görev) özel alanı. |
+| Text23 | `188744009` | Text23 (Görev) özel alanı. |
 | Text24 | `188744010` | Text24 (Görev) özel alanı. |
-| Text25 | `188744011` | Metin25 (Görev) özel alanı. |
-| Text26 | `188744012` | Metin26 (Görev) özel alanı. |
-| Text27 | `188744013` | Metin27 (Görev) özel alanı. |
-| Text28 | `188744014` | Metin28 (Görev) özel alanı. |
+| Text25 | `188744011` | Text25 (Görev) özel alanı. |
+| Text26 | `188744012` | Text26 (Görev) özel alanı. |
+| Text27 | `188744013` | Text27 (Görev) özel alanı. |
+| Text28 | `188744014` | Text28 (Görev) özel alanı. |
 | Text29 | `188744015` | Text29 (Görev) özel alanı. |
-| Text30 | `188744016` | Metin30 (Görev) özel alanı. |
-| OutlineCode1 | `188744096` | AnahatKodu1 (Görev) özel alanı. |
-| OutlineCode2 | `188744098` | AnahatKodu2 (Görev) özel alanı. |
-| OutlineCode3 | `188744100` | AnahatKodu3 (Görev) özel alanı. |
-| OutlineCode4 | `188744102` | AnahatKodu4 (Görev) özel alanı. |
-| OutlineCode5 | `188744104` | AnahatKodu5 (Görev) özel alanı. |
-| OutlineCode6 | `188744106` | AnahatKodu6 (Görev) özel alanı. |
-| OutlineCode7 | `188744108` | AnahatKodu7 (Görev) özel alanı. |
+| Text30 | `188744016` | Text30 (Görev) özel alanı. |
+| OutlineCode1 | `188744096` | OutlineCode1 (Görev) özel alanı. |
+| OutlineCode2 | `188744098` | OutlineCode2 (Görev) özel alanı. |
+| OutlineCode3 | `188744100` | OutlineCode3 (Görev) özel alanı. |
+| OutlineCode4 | `188744102` | OutlineCode4 (Görev) özel alanı. |
+| OutlineCode5 | `188744104` | OutlineCode5 (Görev) özel alanı. |
+| OutlineCode6 | `188744106` | OutlineCode6 (Görev) özel alanı. |
+| OutlineCode7 | `188744108` | OutlineCode7 (Görev) özel alanı. |
 | OutlineCode8 | `188744110` | OutlineCode8 (Görev) özel alanı. |
-| OutlineCode9 | `188744112` | AnahatKodu9 (Görev) özel alanı. |
+| OutlineCode9 | `188744112` | OutlineCode9 (Görev) özel alanı. |
 | OutlineCode10 | `188744114` | OutlineCode10 (Görev) özel alanı. |
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks)
+* ad alanı [Aspose.Tasks](../../aspose.tasks/)
 * toplantı [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

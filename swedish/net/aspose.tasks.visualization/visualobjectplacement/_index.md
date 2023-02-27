@@ -1,14 +1,14 @@
 ---
-title: VisualObjectPlacement
+title: Class VisualObjectPlacement
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar placering och utseende avOleObject../aspose.tasks/oleobject i en vy.
+description: Aspose.Tasks.Visualization.VisualObjectPlacement klass. Representerar placering och utseende avOleObject i en vy.
 type: docs
-weight: 3100
+weight: 3120
 url: /sv/net/aspose.tasks.visualization/visualobjectplacement/
 ---
 ## VisualObjectPlacement class
 
-Representerar placering och utseende av[`OleObject`](../../aspose.tasks/oleobject) i en vy.
+Representerar placering och utseende av[`OleObject`](../../aspose.tasks/oleobject/) i en vy.
 
 ```csharp
 public sealed class VisualObjectPlacement
@@ -18,28 +18,28 @@ public sealed class VisualObjectPlacement
 
 | namn | Beskrivning |
 | --- | --- |
-| [VisualObjectPlacement](visualobjectplacement)() | Initierar en ny instans av[`VisualObjectPlacement`](../visualobjectplacement) class. |
+| [VisualObjectPlacement](visualobjectplacement/)() | Initierar en ny instans av`VisualObjectPlacement` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint) { get; set; } | Hämtar eller ställer in justering av visuellt objekt i förhållande till en uppgift när alternativen "Bifoga till uppgift" är valda. |
-| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor) { get; set; } | Hämtar eller ställer in gränslinjefärg. |
-| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness) { get; set; } | Hämtar eller ställer in gränslinjens tjocklek (tillåtna värden är 0 - 5). |
-| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor) { get; set; } | Hämtar eller ställer in fyllningsfärg. |
-| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern) { get; set; } | Hämtar eller sätter fyllningsmönster. |
-| [Height](../../aspose.tasks.visualization/visualobjectplacement/height) { get; set; } | Hämtar eller ställer in visad höjd på visuellt objekt. |
-| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset) { get; set; } | Får eller ställer in horisontell förskjutning av visuellt objekt. |
-| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid) { get; set; } | Hämtar eller sätter Id för[`OleObject`](../../aspose.tasks/oleobject) objekt. |
-| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid) { get; set; } | Hämtar eller ställer in ID för uppgiften om alternativen 'Bifoga till uppgift' har valts, -1 annars. |
-| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate) { get; set; } | Hämtar eller ställer in datumplacering av visuellt objekt när alternativen "Bifoga till tidsskala" är valda. |
-| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset) { get; set; } | Hämtar eller ställer in vertikal förskjutning av visuellt objekt. |
-| [Width](../../aspose.tasks.visualization/visualobjectplacement/width) { get; set; } | Hämtar eller ställer in visad bredd på visuellt objekt. |
+| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint/) { get; set; } | Hämtar eller ställer in justering av visuellt objekt i förhållande till en uppgift när alternativen "Bifoga till uppgift" är valda. |
+| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor/) { get; set; } | Hämtar eller ställer in gränslinjefärg. |
+| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness/) { get; set; } | Hämtar eller ställer in gränslinjens tjocklek (tillåtna värden är 0 - 5). |
+| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor/) { get; set; } | Hämtar eller ställer in fyllningsfärg. |
+| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern/) { get; set; } | Hämtar eller sätter fyllningsmönster. |
+| [Height](../../aspose.tasks.visualization/visualobjectplacement/height/) { get; set; } | Hämtar eller ställer in visad höjd på visuellt objekt. |
+| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset/) { get; set; } | Får eller ställer in horisontell förskjutning av visuellt objekt. |
+| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid/) { get; set; } | Hämtar eller sätter Id för[`OleObject`](../../aspose.tasks/oleobject/) objekt. |
+| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid/) { get; set; } | Hämtar eller ställer in ID för uppgiften om alternativen 'Bifoga till uppgift' har valts, -1 annars. |
+| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate/) { get; set; } | Hämtar eller ställer in datumplacering av visuellt objekt när alternativen "Bifoga till tidsskala" är valda. |
+| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset/) { get; set; } | Hämtar eller ställer in vertikal förskjutning av visuellt objekt. |
+| [Width](../../aspose.tasks.visualization/visualobjectplacement/width/) { get; set; } | Hämtar eller ställer in visad bredd på visuellt objekt. |
 
 ### Se även
 
-* namnutrymme [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* namnutrymme [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

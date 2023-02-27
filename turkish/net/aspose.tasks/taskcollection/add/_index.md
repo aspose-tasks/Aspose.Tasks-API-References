@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Aspose.Tasks for .NET API Referansı
-description: Belirtilen göreviTaskCollectionaspose.tasks/taskcollectionclass. ParentProject.CalculationMode Yok ise kullanıcı bu yöntemi kullandıktan sonra Project.Recalculate öğesini çağırmalıdır Tüm proje görevlerini yeniden planlar başlangıç/bitiş tarihleri erken/geç tarihleri ayarlar ve bolluk iş gibi bağımlı alanları hesaplar. ve maliyet alanları kimlikler ve anahat düzeyleri. ParentProject.CalculationMode Manual ise yöntem yalnızca görev kimliğini anahat düzeyini ve anahat numaralarını otomatik olarak hesaplar. ParentProject.CalculationMode Otomatik ise yöntem tüm projenin görevlerini otomatik olarak yeniden planlar başlama/bitiş tarihler erken/geç tarihleri ayarlar bollukları iş ve maliyet alanlarını hesaplar kimlikleri ve anahat düzeylerini yeniden hesaplar.
+description: TaskCollection yöntem. Belirtilen görevi örneğine ekleyin.TaskCollectionclass. Eğer ParentProject.CalculationMode Yok ise kullanıcı bu yöntemi kullandıktan sonra Project.Recalculatei çağırmalıdır Tüm proje görevlerini yeniden planlar başlangıç/bitiş tarihleri erken/geç tarihleri ayarlar ve bolluklar iş gibi bağımlı alanları hesaplar ve maliyet alanları kimlikler ve anahat seviyeleri. ParentProject.CalculationMode Manual ise yöntem yalnızca görev kimliğini anahat seviyesini ve anahat numaralarını otomatik olarak hesaplar. ParentProject.CalculationMode Otomatik ise yöntem tüm projenin görevlerini otomatik olarak yeniden planlar başlangıç/bitiş tarihler erken/geç tarihleri ayarlar bollukları çalışma ve maliyet alanlarını hesaplar kimlikleri ve anahat düzeylerini yeniden hesaplar.
 type: docs
 weight: 50
 url: /tr/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Belirtilen görevi,[`TaskCollection`](../../taskcollection)class. ParentProject.CalculationMode Yok ise, kullanıcı bu yöntemi kullandıktan sonra Project.Recalculate() öğesini çağırmalıdır (Tüm proje görevlerini yeniden planlar (başlangıç/bitiş tarihleri, erken/geç tarihleri ayarlar) ve bolluk, iş gibi bağımlı alanları hesaplar. ve maliyet alanları, kimlikler ve anahat düzeyleri). ParentProject.CalculationMode Manual ise, yöntem yalnızca görev kimliğini, anahat düzeyini ve anahat numaralarını otomatik olarak hesaplar. ParentProject.CalculationMode Otomatik ise, yöntem tüm projenin görevlerini otomatik olarak yeniden planlar (başlama/bitiş tarihler, erken/geç tarihleri ayarlar, bollukları, iş ve maliyet alanlarını hesaplar, kimlikleri ve anahat düzeylerini yeniden hesaplar).
+Belirtilen görevi örneğine ekleyin.[`TaskCollection`](../)class. Eğer ParentProject.CalculationMode Yok ise, kullanıcı bu yöntemi kullandıktan sonra Project.Recalculate()'i çağırmalıdır (Tüm proje görevlerini yeniden planlar (başlangıç/bitiş tarihleri, erken/geç tarihleri ayarlar) ve bolluklar, iş gibi bağımlı alanları hesaplar) ve maliyet alanları, kimlikler ve anahat seviyeleri). ParentProject.CalculationMode Manual ise, yöntem yalnızca görev kimliğini, anahat seviyesini ve anahat numaralarını otomatik olarak hesaplar. ParentProject.CalculationMode Otomatik ise, yöntem tüm projenin görevlerini otomatik olarak yeniden planlar (başlangıç/bitiş) tarihler, erken/geç tarihleri ayarlar, bollukları, çalışma ve maliyet alanlarını hesaplar, kimlikleri ve anahat düzeylerini yeniden hesaplar).
 
 ```csharp
 public void Add(Task item)
@@ -20,16 +20,16 @@ public void Add(Task item)
 
 ### Ayrıca bakınız
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* ad alanı [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ad alanı [Aspose.Tasks](../../taskcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Add() {#add}
 
-Son görevin aynı anahat düzeyinde proje görevleri koleksiyonuna yeni görev ekler.
+Proje görevleri koleksiyonuna, son görevin aynı ana hat düzeyinde yeni görev ekler.
 
 ```csharp
 public Task Add()
@@ -37,13 +37,13 @@ public Task Add()
 
 ### Geri dönüş değeri
 
-yeni eklenen örneğini döndürür[`Task`](../../task) sınıf.
+yeni eklenen örneğini döndürür[`Task`](../../task/) sınıf.
 
 ### Ayrıca bakınız
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* ad alanı [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ad alanı [Aspose.Tasks](../../taskcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
@@ -62,20 +62,20 @@ public Task Add(string taskName)
 
 ### Geri dönüş değeri
 
-yeni eklenen örneğini döndürür[`Task`](../../task) sınıf.
+yeni eklenen örneğini döndürür[`Task`](../../task/) sınıf.
 
 ### Ayrıca bakınız
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* ad alanı [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ad alanı [Aspose.Tasks](../../taskcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(string, int) {#add_3}
 
-Alt görevler koleksiyonuna yeni bir yinelenen görev ekler.
+Alt görev koleksiyonuna yeni bir yinelenen görev ekler.
 
 ```csharp
 public Task Add(string taskName, int beforeTaskId)
@@ -94,20 +94,20 @@ belirtilen kimliğe sahip bir görevden önce eklenen bir görevi döndürür.
 
 | istisna | şart |
 | --- | --- |
-| ArgumentOutOfRangeException | Belirtilen kimlik geçerli bir görev kimliği değilse ArgumentOutOfRangeException oluşturulur. |
+| ArgumentOutOfRangeException | Belirtilen kimlik geçerli bir görev kimliği değilse ArgumentOutOfRangeException atılır. |
 
 ### Ayrıca bakınız
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* ad alanı [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ad alanı [Aspose.Tasks](../../taskcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(RecurringTaskParameters) {#add_1}
 
-Belirtilen kimliğe sahip ve aynı anahat düzeyindeki bir görevden önce yeni bir görev ekler.
+Belirtilen kimliğe sahip ve aynı ana hat seviyesindeki bir görevin önüne yeni bir görev ekler.
 
 ```csharp
 public Task Add(RecurringTaskParameters parameters)
@@ -119,21 +119,21 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Geri dönüş değeri
 
-yeni eklenen örneğini döndürür[`Task`](../../task) sınıf.
+yeni eklenen örneğini döndürür[`Task`](../../task/) sınıf.
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | Belirtilen parametreler null ise atılır. |
+| ArgumentNullException | Belirtilen parametreler boşsa atılır. |
 | ArgumentException | Belirtilen parametreler geçersizse atılır. |
 
 ### Ayrıca bakınız
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* ad alanı [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* ad alanı [Aspose.Tasks](../../taskcollection/)
 * toplantı [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

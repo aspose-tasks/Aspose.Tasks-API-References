@@ -1,9 +1,9 @@
 ---
-title: TimephasedData
+title: Class TimephasedData
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar tidsfasdata.
+description: Aspose.Tasks.TimephasedData klass. Representerar tidsfasdata.
 type: docs
-weight: 2260
+weight: 2280
 url: /sv/net/aspose.tasks/timephaseddata/
 ---
 ## TimephasedData class
@@ -18,33 +18,33 @@ public class TimephasedData
 
 | namn | Beskrivning |
 | --- | --- |
-| [TimephasedData](timephaseddata)() | Initierar en ny instans av[`TimephasedData`](../timephaseddata) class. |
+| [TimephasedData](timephaseddata/)() | Initierar en ny instans av`TimephasedData` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Finish](../../aspose.tasks/timephaseddata/finish) { get; set; } | Hämtar eller ställer in slutdatumet för en tidsfasad dataperiod. |
-| [Start](../../aspose.tasks/timephaseddata/start) { get; set; } | Hämtar eller ställer in startdatumet för en tidsfasad dataperiod. |
-| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype) { get; set; } | Hämtar eller ställer in typen av tidsfasdata. |
-| [Uid](../../aspose.tasks/timephaseddata/uid) { get; set; } | Hämtar eller ställer in den unika identifieraren för en tidsfasad data |
-| [Unit](../../aspose.tasks/timephaseddata/unit) { get; set; } | Hämtar eller ställer in tidsenheten för en tidsfasad dataperiod. |
-| [Value](../../aspose.tasks/timephaseddata/value) { get; set; } | Hämtar eller ställer in värdet per tidsenhet för en tidsfasad dataperiod. |
-| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost) { get; } | BlirDouble instans som representerar strängvärdet för detta objekt. |
-| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration) { get; } | BlirTimeSpan instans som representerar strängvärdet för detta objekt. |
-| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits) { get; } | BlirDouble instans som representerar strängvärdet för detta objekt för enhetsbaserad tidsfasad data. |
+| [Finish](../../aspose.tasks/timephaseddata/finish/) { get; set; } | Hämtar eller ställer in slutdatumet för en tidsfasad dataperiod. |
+| [Start](../../aspose.tasks/timephaseddata/start/) { get; set; } | Hämtar eller ställer in startdatumet för en tidsfasad dataperiod. |
+| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype/) { get; set; } | Hämtar eller ställer in typen av tidsfasdata. |
+| [Uid](../../aspose.tasks/timephaseddata/uid/) { get; set; } | Hämtar eller ställer in den unika identifieraren för en tidsfasad data |
+| [Unit](../../aspose.tasks/timephaseddata/unit/) { get; set; } | Hämtar eller ställer in tidsenheten för en tidsfasad dataperiod. |
+| [Value](../../aspose.tasks/timephaseddata/value/) { get; set; } | Hämtar eller ställer in värdet per tidsenhet för en tidsfasad dataperiod. |
+| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost/) { get; } | BlirDouble instans som representerar strängvärdet för detta objekt. |
+| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration/) { get; } | BlirTimeSpan instans som representerar strängvärdet för detta objekt. |
+| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits/) { get; } | BlirDouble instans som representerar strängvärdet för detta objekt för enhetsbaserad tidsfasad data. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | Skapar och initierar en ny instans av[`TimephasedData`](../timephaseddata) klass för kostnadsbaserad tidsfasad data. |
-| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased)(int, DateTime, DateTime, double, TimephasedDataType) | Skapar och initierar en ny instans av[`TimephasedData`](../timephaseddata) klass för enhetsbaserad tidsfasdata för en tilldelning av en materialresurs. |
-| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | Skapar och initierar en ny instans av[`TimephasedData`](../timephaseddata) klass för arbetsbaserad tidsfasad data. |
+| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased/)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | Skapar och initierar en ny instans av`TimephasedData` klass för kostnadsbaserad tidsfasad data. |
+| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased/)(int, DateTime, DateTime, double, TimephasedDataType) | Skapar och initierar en ny instans av`TimephasedData` klass för enhetsbaserad tidsfasdata för en tilldelning av en materialresurs. |
+| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased/)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | Skapar och initierar en ny instans av`TimephasedData` klass för arbetsbaserad tidsfasad data. |
 
 ### Se även
 
-* namnutrymme [Aspose.Tasks](../../aspose.tasks)
+* namnutrymme [Aspose.Tasks](../../aspose.tasks/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -3,7 +3,7 @@ title: Aspose.Tasks.Saving
 second_title: Справочник по Aspose.Tasks для .NET API
 description: Содержит классы для сохранения проекта в разные форматы.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.tasks.saving/
 ---
 Содержит классы для сохранения проекта в разные форматы.
@@ -12,41 +12,41 @@ url: /ru/net/aspose.tasks.saving/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [CsvOptions](./csvoptions) | Позволяет указать дополнительные параметры при сохранении проекта в CSV. |
-| [HtmlSaveOptions](./htmlsaveoptions) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в HTML. |
-| [ImageSaveOptions](./imagesaveoptions) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в изображения. |
-| [MPPSaveOptions](./mppsaveoptions) | Позволяет указать дополнительные параметры при сохранении данных проекта в MPP. |
-| [PageSavingArgs](./pagesavingargs) | Этот класс представляет набор данных, связанных с сохранением страницы документа в поток. |
-| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails) | Содержит сведения для цифровой подписи PDF. |
-| [PdfEncryptionDetails](./pdfencryptiondetails) | Содержит детали для шифрования PDF. |
-| [PdfSaveOptions](./pdfsaveoptions) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в PDF. |
-| [PrimaveraSaveOptions](./primaverasaveoptions) | Позволяет указать дополнительные параметры при сохранении проекта в формате Primavera XER. |
-| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions) | Позволяет указать дополнительные параметры при сохранении проекта в формате Primavera xml. |
-| [PrintOptions](./printoptions) | Позволяет указать дополнительные параметры при печати проекта. |
-| [SaveOptions](./saveoptions) | Это абстрактный базовый класс для классов, которые позволяют пользователю указывать дополнительные параметры при сохранении проекта в определенном формате. |
-| [SaveTemplateOptions](./savetemplateoptions) | Позволяет указать дополнительные параметры при сохранении проекта в виде шаблона. |
-| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в Spreadsheet2003. |
-| [SvgOptions](./svgoptions) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в SVG. |
-| [XamlOptions](./xamloptions) | /// Позволяет указать дополнительные параметры при рендеринге страниц проекта в XAML. |
-| [XlsxOptions](./xlsxoptions) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в XLSX. |
-| [XpsOptions](./xpsoptions) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в XPS. |
+| [CsvOptions](./csvoptions/) | Позволяет указать дополнительные параметры при сохранении проекта в CSV. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в HTML. |
+| [ImageSaveOptions](./imagesaveoptions/) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в изображения. |
+| [MPPSaveOptions](./mppsaveoptions/) | Позволяет указать дополнительные параметры при сохранении данных проекта в MPP. |
+| [PageSavingArgs](./pagesavingargs/) | Этот класс представляет набор данных, связанных с сохранением страницы документа в поток. |
+| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | Содержит сведения для цифровой подписи PDF. |
+| [PdfEncryptionDetails](./pdfencryptiondetails/) | Содержит детали для шифрования PDF. |
+| [PdfSaveOptions](./pdfsaveoptions/) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в PDF. |
+| [PrimaveraSaveOptions](./primaverasaveoptions/) | Позволяет указать дополнительные параметры при сохранении проекта в формате Primavera XER. |
+| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions/) | Позволяет указать дополнительные параметры при сохранении проекта в формате Primavera xml. |
+| [PrintOptions](./printoptions/) | Позволяет указать дополнительные параметры при печати проекта. |
+| [SaveOptions](./saveoptions/) | Это абстрактный базовый класс для классов, которые позволяют пользователю указывать дополнительные параметры при сохранении проекта в определенном формате. |
+| [SaveTemplateOptions](./savetemplateoptions/) | Позволяет указать дополнительные параметры при сохранении проекта в виде шаблона. |
+| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в Spreadsheet2003. |
+| [SvgOptions](./svgoptions/) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в SVG. |
+| [XamlOptions](./xamloptions/) | /// Позволяет указать дополнительные параметры при рендеринге страниц проекта в XAML. |
+| [XlsxOptions](./xlsxoptions/) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в XLSX. |
+| [XpsOptions](./xpsoptions/) | Позволяет указать дополнительные параметры при рендеринге страниц проекта в XPS. |
 ## Интерфейсы
 
 | Интерфейс | Описание |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback) | Представляет обратный вызов, который вызывается, когда каждая страница многостраничного документа сохраняется в отдельный поток. |
+| [IPageSavingCallback](./ipagesavingcallback/) | Представляет обратный вызов, который вызывается, когда каждая страница многостраничного документа сохраняется в отдельный поток. |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
-| [CsvTextDelimiter](./csvtextdelimiter) | Разделитель текста для формата CSV. |
-| [DataCategory](./datacategory) | Категория данных, используемая при сохранении в CSV. |
-| [PdfCompliance](./pdfcompliance) | Указывает уровень соответствия PDF для выходного файла. |
-| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm) | Определяет алгоритм цифрового хеширования, используемый цифровой подписью. |
-| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm) | Указывает алгоритм шифрования, используемый для шифрования документа PDF. |
-| [PdfPermissions](./pdfpermissions) | Определяет разрешения для доступа к документу PDF. |
-| [PdfTextCompression](./pdftextcompression) | Определяет тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений. |
-| [SaveFileFormat](./savefileformat) | Перечисление для сохранения выбора формата проекта. |
-| [TiffCompression](./tiffcompression) | Указывает, какой тип сжатия следует применять при сохранении страниц в формате TIFF. |
+| [CsvTextDelimiter](./csvtextdelimiter/) | Разделитель текста для формата CSV. |
+| [DataCategory](./datacategory/) | Категория данных, используемая при сохранении в CSV. |
+| [PdfCompliance](./pdfcompliance/) | Указывает уровень соответствия PDF для выходного файла. |
+| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | Определяет алгоритм цифрового хеширования, используемый цифровой подписью. |
+| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm/) | Указывает алгоритм шифрования, используемый для шифрования документа PDF. |
+| [PdfPermissions](./pdfpermissions/) | Определяет разрешения для доступа к документу PDF. |
+| [PdfTextCompression](./pdftextcompression/) | Определяет тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений. |
+| [SaveFileFormat](./savefileformat/) | Перечисление для сохранения выбора формата проекта. |
+| [TiffCompression](./tiffcompression/) | Указывает, какой тип сжатия следует применять при сохранении страниц в формате TIFF. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

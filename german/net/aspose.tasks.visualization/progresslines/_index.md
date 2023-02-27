@@ -1,9 +1,9 @@
 ---
-title: ProgressLines
+title: Class ProgressLines
 second_title: Aspose.Tasks für .NET-API-Referenz
-description: Stellt Fortschrittslinien in einer Gantt-Diagrammansicht dar.
+description: Aspose.Tasks.Visualization.ProgressLines klas. Stellt Fortschrittslinien in einer GanttDiagrammansicht dar.
 type: docs
-weight: 2920
+weight: 2940
 url: /de/net/aspose.tasks.visualization/progresslines/
 ---
 ## ProgressLines class
@@ -18,35 +18,35 @@ public class ProgressLines
 
 | Name | Beschreibung |
 | --- | --- |
-| [ProgressLines](progresslines)() | Default_Constructor |
+| [ProgressLines](progresslines/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate) { get; set; } | Ruft das Datum ab, ab dem Fortschrittslinien angezeigt werden sollen, oder legt es fest. |
-| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Fortschrittslinien ab Beginn des Projektstartdatums angezeigt werden sollen. |
-| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat) { get; set; } | Ruft das Datumsformat ab oder legt es fest ([`DateLabel`](../datelabel) ). |
-| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Fortschrittslinie am aktuellen Datum angezeigt werden soll. |
-| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Fortschrittslinie in wiederkehrenden Intervallen angezeigt werden soll. |
-| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Fortschrittslinien an den ausgewählten Daten angezeigt werden sollen. |
-| [Font](../../aspose.tasks.visualization/progresslines/font) { get; set; } | Ruft die für die Fortschrittszeilenbeschriftung verwendete Schriftart ab oder legt sie fest. |
-| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Fortschrittslinien für Basisplan oder Ist angezeigt werden sollen. |
-| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor) { get; set; } | Ruft die Linienfarbe für die aktuelle Fortschrittslinie ab oder legt sie fest. |
-| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern) { get; set; } | Ruft das Linienmuster der aktuellen Fortschrittslinie ab oder legt es fest. [`LinePattern`](./linepattern) . |
-| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor) { get; set; } | Ruft die Farbe einer anderen Fortschrittslinie ab oder legt sie fest. |
-| [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern) { get; set; } | Ruft das Linienmuster für andere Fortschrittslinien ab oder legt es fest. |
-| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor) { get; set; } | Ruft die Farbe anderer Fortschrittspunkte ab oder legt sie fest. |
-| [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape) { get; set; } | Ruft die Fortschrittspunktform einer anderen Fortschrittslinie ab oder legt sie fest. |
-| [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor) { get; set; } | Ruft die Farbe des Fortschrittspunkts ab oder legt sie fest. |
-| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape) { get; set; } | Ruft die Fortschrittspunktform ab oder legt sie fest. [`GanttBarEndShape`](../ganttbarendshape) . |
-| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval) { get; set; } | Ruft das Wiederholungsintervall ab oder legt es fest. [`RecurringInterval`](./recurringinterval) . |
-| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates) { get; } | Ruft die Liste der ausgewählten Daten ab, für die Fortschrittslinien angezeigt werden sollen. |
-| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Datum für jede Fortschrittslinie angezeigt werden soll. |
+| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate/) { get; set; } | Ruft das Datum ab, ab dem Fortschrittslinien angezeigt werden sollen, oder legt es fest. |
+| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Fortschrittslinien ab Beginn des Projektstartdatums angezeigt werden sollen. |
+| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat/) { get; set; } | Ruft das Datumsformat ab oder legt es fest ([`DateLabel`](../datelabel/) ). |
+| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Fortschrittslinie am aktuellen Datum angezeigt werden soll. |
+| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Fortschrittslinie in wiederkehrenden Intervallen angezeigt werden soll. |
+| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Fortschrittslinien an den ausgewählten Daten angezeigt werden sollen. |
+| [Font](../../aspose.tasks.visualization/progresslines/font/) { get; set; } | Ruft die für die Fortschrittszeilenbeschriftung verwendete Schriftart ab oder legt sie fest. |
+| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Fortschrittslinien für Basisplan oder Ist angezeigt werden sollen. |
+| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor/) { get; set; } | Ruft die Linienfarbe für die aktuelle Fortschrittslinie ab oder legt sie fest. |
+| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern/) { get; set; } | Ruft das Linienmuster der aktuellen Fortschrittslinie ab oder legt es fest. [`LinePattern`](./linepattern/) . |
+| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor/) { get; set; } | Ruft die Farbe einer anderen Fortschrittslinie ab oder legt sie fest. |
+| [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern/) { get; set; } | Ruft das Linienmuster für andere Fortschrittslinien ab oder legt es fest. |
+| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor/) { get; set; } | Ruft die Farbe anderer Fortschrittspunkte ab oder legt sie fest. |
+| [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape/) { get; set; } | Ruft die Fortschrittspunktform einer anderen Fortschrittslinie ab oder legt sie fest. |
+| [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor/) { get; set; } | Ruft die Farbe des Fortschrittspunkts ab oder legt sie fest. |
+| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape/) { get; set; } | Ruft die Fortschrittspunktform ab oder legt sie fest. [`GanttBarEndShape`](../ganttbarendshape/) . |
+| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval/) { get; set; } | Ruft das Wiederholungsintervall ab oder legt es fest. [`RecurringInterval`](./recurringinterval/) . |
+| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates/) { get; } | Ruft die Liste der ausgewählten Daten ab, für die Fortschrittslinien angezeigt werden sollen. |
+| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Datum für jede Fortschrittslinie angezeigt werden soll. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* namensraum [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * Montage [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

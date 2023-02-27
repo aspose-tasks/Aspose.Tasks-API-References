@@ -1,14 +1,14 @@
 ---
-title: Field
+title: Enum Field
 second_title: Aspose.Tasks for .NET API Referansı
-description: Microsoft Office Projesinde bir alan belirtir.
+description: Aspose.Tasks.Field Sıralama. Microsoft Office Projectte bir alanı belirtir.
 type: docs
-weight: 570
+weight: 580
 url: /tr/net/aspose.tasks/field/
 ---
 ## Field enumeration
 
-Microsoft Office Projesi'nde bir alan belirtir.
+Microsoft Office Project'te bir alanı belirtir.
 
 ```csharp
 public enum Field
@@ -20,25 +20,25 @@ public enum Field
 | --- | --- | --- |
 | Undefined | `0` | Tanımsız alan. |
 | ImportResource | `205521651` | İçe Aktarma (Kaynak) alanını temsil eder. |
-| ResourceAccrueAt | `205520915` | Tahakkuk (Kaynak) alanını temsil eder. |
+| ResourceAccrueAt | `205520915` | (Kaynak) Yerinde Birikme alanını temsil eder. |
 | ResourceActualCost | `205520907` | Fiili Maliyet (Kaynak) alanını temsil eder. |
 | ResourceActualOvertimeCost | `205520944` | Fiili Fazla Mesai Maliyeti (Kaynak) alanını temsil eder. |
 | ResourceActualOvertimeWork | `205520935` | Fiili Fazla Mesai (Kaynak) alanını temsil eder. |
-| ResourceActualOvertimeWorkProtected | `205521617` | Fiili Fazla Mesai Korumalı (Kaynak) alanını temsil eder. |
+| ResourceActualOvertimeWorkProtected | `205521617` | Korunan Fiili Fazla Mesai (Kaynak) alanını temsil eder. |
 | ResourceActualWork | `205520910` | Fiili Çalışma (Kaynak) alanını temsil eder. |
 | ResourceActualWorkProtected | `205521616` | Korunan Fiili Çalışma (Kaynak) alanını temsil eder. |
 | ResourceACWP | `205520949` | ACWP (Kaynak) alanını temsil eder. |
 | ResourceAssignmentDelay | `205521153` | Atama Gecikmesi (Kaynak) alanını temsil eder. |
 | ResourceAssignmentUnits | `205521154` | Atama Birimleri (Kaynak) alanını temsil eder. |
-| ResourceAvailableFrom | `205520953` | Kullanılabilir Kaynak (Kaynak) alanını temsil eder. |
+| ResourceAvailableFrom | `205520953` | Şuradan Kullanılabilir (Kaynak) alanını temsil eder. |
 | ResourceAvailableTo | `205520954` | Kullanılabilir (Kaynak) alanını temsil eder. |
 | ResourceBaseCalendar | `205520901` | Temel Takvim (Kaynak) alanını temsil eder. |
 | ResourceBaseline10BudgetCost | `205521693` | Temel 10 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
 | ResourceBaseline10BudgetWork | `205521692` | Temel 10 Bütçe Çalışması (Kaynak) alanını temsil eder. |
-| ResourceBaseline10Cost | `205521329` | Temel 10 Maliyet (Kaynak) alanını temsil eder. |
-| ResourceBaseline10Finish | `205521335` | Baseline10 Finish (Kaynak) alanını temsil eder. |
-| ResourceBaseline10Start | `205521334` | Baseline10 Start (Kaynak) alanını temsil eder. |
-| ResourceBaseline10Work | `205521328` | Temel 10 Çalışma (Kaynak) alanını temsil eder. |
+| ResourceBaseline10Cost | `205521329` | Temel10 Maliyet (Kaynak) alanını temsil eder. |
+| ResourceBaseline10Finish | `205521335` | Temel10 Bitiş (Kaynak) alanını temsil eder. |
+| ResourceBaseline10Start | `205521334` | Baseline10 Başlangıç (Kaynak) alanını temsil eder. |
+| ResourceBaseline10Work | `205521328` | Temel10 Çalışma (Kaynak) alanını temsil eder. |
 | ResourceBaseline1BudgetCost | `205521657` | Temel1 Maliyet Bütçesi (Kaynak) alanını temsil eder. |
 | ResourceBaseline1BudgetWork | `205521656` | Temel1 Bütçe Çalışması (Kaynak) alanını temsil eder. |
 | ResourceBaseline1Cost | `205521239` | Temel1 Maliyet (Kaynak) alanını temsil eder. |
@@ -52,46 +52,46 @@ public enum Field
 | ResourceBaseline2Start | `205521254` | Temel2 Başlangıç (Kaynak) alanını temsil eder. |
 | ResourceBaseline2Work | `205521248` | Temel2 Çalışma (Kaynak) alanını temsil eder. |
 | ResourceBaseline3BudgetCost | `205521665` | Temel3 Maliyet Bütçesi (Kaynak) alanını temsil eder. |
-| ResourceBaseline3BudgetWork | `205521664` | Temel3 Bütçe Çalışması (Kaynak) alanını temsil eder. |
+| ResourceBaseline3BudgetWork | `205521664` | Temel 3 Bütçe Çalışması (Kaynak) alanını temsil eder. |
 | ResourceBaseline3Cost | `205521259` | Temel3 Maliyet (Kaynak) alanını temsil eder. |
 | ResourceBaseline3Finish | `205521265` | Temel3 Bitiş (Kaynak) alanını temsil eder. |
 | ResourceBaseline3Start | `205521264` | Temel3 Başlangıç (Kaynak) alanını temsil eder. |
 | ResourceBaseline3Work | `205521258` | Temel3 Çalışma (Kaynak) alanını temsil eder. |
-| ResourceBaseline4BudgetCost | `205521669` | Temel 4 Maliyet Bütçesi (Kaynak) alanını temsil eder. |
-| ResourceBaseline4BudgetWork | `205521668` | Temel 4 Bütçe Çalışması (Kaynak) alanını temsil eder. |
-| ResourceBaseline4Cost | `205521269` | Temel 4 Maliyet (Kaynak) alanını temsil eder. |
-| ResourceBaseline4Finish | `205521275` | Temel 4 Bitiş (Kaynak) alanını temsil eder. |
-| ResourceBaseline4Start | `205521274` | Temel 4 Başlangıç (Kaynak) alanını temsil eder. |
-| ResourceBaseline4Work | `205521268` | Temel 5 Çalışma (Kaynak) alanını temsil eder. |
-| ResourceBaseline5BudgetCost | `205521673` | Temel 5 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
+| ResourceBaseline4BudgetCost | `205521669` | Temel4 Maliyet Bütçesi (Kaynak) alanını temsil eder. |
+| ResourceBaseline4BudgetWork | `205521668` | Temel4 Bütçe Çalışması (Kaynak) alanını temsil eder. |
+| ResourceBaseline4Cost | `205521269` | Temel4 Maliyet (Kaynak) alanını temsil eder. |
+| ResourceBaseline4Finish | `205521275` | Temel4 Bitiş (Kaynak) alanını temsil eder. |
+| ResourceBaseline4Start | `205521274` | Baseline4 Başlangıç (Kaynak) alanını temsil eder. |
+| ResourceBaseline4Work | `205521268` | Temel5 Çalışma (Kaynak) alanını temsil eder. |
+| ResourceBaseline5BudgetCost | `205521673` | Temel5 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
 | ResourceBaseline5BudgetWork | `205521672` | Temel 5 Bütçe Çalışması (Kaynak) alanını temsil eder. |
-| ResourceBaseline5Cost | `205521279` | Temel 5 Maliyet (Kaynak) alanını temsil eder. |
-| ResourceBaseline5Finish | `205521285` | Temel 5 Bitiş (Kaynak) alanını temsil eder. |
-| ResourceBaseline5Start | `205521284` | Temel 5 Başlangıç (Kaynak) alanını temsil eder. |
-| ResourceBaseline5Work | `205521278` | Temel 5 Çalışma (Kaynak) alanını temsil eder. |
+| ResourceBaseline5Cost | `205521279` | Temel5 Maliyet (Kaynak) alanını temsil eder. |
+| ResourceBaseline5Finish | `205521285` | Temel5 Bitiş (Kaynak) alanını temsil eder. |
+| ResourceBaseline5Start | `205521284` | Temel5 Başlangıç (Kaynak) alanını temsil eder. |
+| ResourceBaseline5Work | `205521278` | Temel5 Çalışma (Kaynak) alanını temsil eder. |
 | ResourceBaseline6BudgetCost | `205521677` | Temel6 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
-| ResourceBaseline6BudgetWork | `205521676` | Temel 6 Bütçe Çalışması (Kaynak) alanını temsil eder. |
+| ResourceBaseline6BudgetWork | `205521676` | Temel6 Bütçe Çalışması (Kaynak) alanını temsil eder. |
 | ResourceBaseline6Cost | `205521289` | Temel6 Maliyet (Kaynak) alanını temsil eder. |
 | ResourceBaseline6Finish | `205521295` | Temel6 Bitiş (Kaynak) alanını temsil eder. |
-| ResourceBaseline6Start | `205521294` | Temel6 Başlangıç (Kaynak) alanını temsil eder. |
+| ResourceBaseline6Start | `205521294` | Baseline6 Başlangıç (Kaynak) alanını temsil eder. |
 | ResourceBaseline6Work | `205521288` | Temel6 Çalışma (Kaynak) alanını temsil eder. |
-| ResourceBaseline7BudgetCost | `205521681` | Temel 7 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
-| ResourceBaseline7BudgetWork | `205521680` | Temel 7 Bütçe Çalışması (Kaynak) alanını temsil eder. |
+| ResourceBaseline7BudgetCost | `205521681` | Temel7 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
+| ResourceBaseline7BudgetWork | `205521680` | Temel7 Bütçe Çalışması (Kaynak) alanını temsil eder. |
 | ResourceBaseline7Cost | `205521299` | Temel7 Maliyet (Kaynak) alanını temsil eder. |
-| ResourceBaseline7Finish | `205521305` | Baseline7 Finish (Kaynak) alanını temsil eder. |
-| ResourceBaseline7Start | `205521304` | Baseline7 Start (Kaynak) alanını temsil eder. |
+| ResourceBaseline7Finish | `205521305` | Temel7 Bitiş (Kaynak) alanını temsil eder. |
+| ResourceBaseline7Start | `205521304` | Temel7 Başlangıç (Kaynak) alanını temsil eder. |
 | ResourceBaseline7Work | `205521298` | Temel7 Çalışma (Kaynak) alanını temsil eder. |
-| ResourceBaseline8BudgetCost | `205521685` | Temel 8 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
-| ResourceBaseline8BudgetWork | `205521684` | Temel 8 Bütçe Çalışması (Kaynak) alanını temsil eder. |
+| ResourceBaseline8BudgetCost | `205521685` | Temel8 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
+| ResourceBaseline8BudgetWork | `205521684` | Temel8 Bütçe Çalışması (Kaynak) alanını temsil eder. |
 | ResourceBaseline8Cost | `205521309` | Temel8 Maliyet (Kaynak) alanını temsil eder. |
-| ResourceBaseline8Finish | `205521315` | Baseline8 Finish (Kaynak) alanını temsil eder. |
-| ResourceBaseline8Start | `205521314` | Baseline8 Start (Kaynak) alanını temsil eder. |
-| ResourceBaseline8Work | `205521308` | Temel 8 Çalışma (Kaynak) alanını temsil eder. |
+| ResourceBaseline8Finish | `205521315` | Temel8 Bitiş (Kaynak) alanını temsil eder. |
+| ResourceBaseline8Start | `205521314` | Baseline8 Başlangıç (Kaynak) alanını temsil eder. |
+| ResourceBaseline8Work | `205521308` | Temel8 Çalışma (Kaynak) alanını temsil eder. |
 | ResourceBaseline9BudgetCost | `205521689` | Temel9 Bütçe Maliyeti (Kaynak) alanını temsil eder. |
 | ResourceBaseline9BudgetWork | `205521688` | Temel9 Bütçe Çalışması (Kaynak) alanını temsil eder. |
 | ResourceBaseline9Cost | `205521319` | Temel9 Maliyet (Kaynak) alanını temsil eder. |
 | ResourceBaseline9Finish | `205521325` | Temel9 Bitiş (Kaynak) alanını temsil eder. |
-| ResourceBaseline9Start | `205521324` | Temel9 Başlangıç (Kaynak) alanını temsil eder. |
+| ResourceBaseline9Start | `205521324` | Baseline9 Başlangıç (Kaynak) alanını temsil eder. |
 | ResourceBaseline9Work | `205521318` | Temel9 Çalışma (Kaynak) alanını temsil eder. |
 | ResourceBaselineBudgetCost | `205521653` | Temel Bütçe Maliyeti (Kaynak) alanını temsil eder. |
 | ResourceBaselineBudgetWork | `205521652` | Temel Bütçe Çalışması (Kaynak) alanını temsil eder. |
@@ -100,15 +100,15 @@ public enum Field
 | ResourceBaselineStart | `205521155` | Temel Başlangıç (Kaynak) alanını temsil eder. |
 | ResourceBaselineWork | `205520911` | Temel Çalışma (Kaynak) alanını temsil eder. |
 | ResourceBCWP | `205520948` | GÇBM (Kaynak) alanını temsil eder. |
-| ResourceBCWS | `205520947` | BCWS (Kaynak) alanını temsil eder. |
+| ResourceBCWS | `205520947` | ZÇBM (Kaynak) alanını temsil eder. |
 | ResourceBookingType | `205521595` | Ayırma Türü (Kaynak) alanını temsil eder. |
 | ResourceBudget | `205521648` | Bütçe (Kaynak) alanını temsil eder. |
 | ResourceBudgetCost | `205521650` | Bütçe Maliyeti (Kaynak) alanını temsil eder. |
 | ResourceBudgetWork | `205521649` | Bütçe Çalışması (Kaynak) alanını temsil eder. |
 | ResourceCalendarGuid | `205521625` | Takvim GUID (Kaynak) alanını temsil eder. |
-| ResourceCanLevel | `205521059` | Kutu Düzeyi (Kaynak) alanını temsil eder. |
+| ResourceCanLevel | `205521059` | Yapabilir Düzey (Kaynak) alanını temsil eder. |
 | ResourceCode | `205520906` | Kod (Kaynak) alanını temsil eder. |
-| ResourceConfirmed | `205521157` | Onaylandı (Kaynak) alanını temsil eder. |
+| ResourceConfirmed | `205521157` | Onaylanmış (Kaynak) alanını temsil eder. |
 | ResourceCost | `205520908` | Maliyet (Kaynak) alanını temsil eder. |
 | ResourceCost1 | `205521019` | Maliyet1 (Kaynak) alanını temsil eder. |
 | ResourceCost10 | `205521068` | Maliyet10 (Kaynak) alanını temsil eder. |
@@ -125,11 +125,11 @@ public enum Field
 | ResourceCostRateTable | `205521165` | Maliyet Oranı Tablosu (Kaynak) alanını temsil eder. |
 | ResourceCostVariance | `205520920` | Maliyet Farkı (Kaynak) alanını temsil eder. |
 | ResourceCreated | `205521622` | Oluşturulan (Kaynak) alanını temsil eder. |
-| ResourceCV | `205521164` | Özgeçmiş (Kaynak) alanını temsil eder. |
+| ResourceCV | `205521164` | CV (Kaynak) alanını temsil eder. |
 | ResourceDate1 | `205521069` | Tarih1 (Kaynak) alanını temsil eder. |
 | ResourceDate10 | `205521078` | Date10 (Kaynak) alanını temsil eder. |
-| ResourceDate2 | `205521070` | Tarih2 (Kaynak) alanını temsil eder. |
-| ResourceDate3 | `205521071` | Tarih3 (Kaynak) alanını temsil eder. |
+| ResourceDate2 | `205521070` | Date2 (Kaynak) alanını temsil eder. |
+| ResourceDate3 | `205521071` | Date3 (Kaynak) alanını temsil eder. |
 | ResourceDate4 | `205521072` | Date4 (Kaynak) alanını temsil eder. |
 | ResourceDate5 | `205521073` | Date5 (Kaynak) alanını temsil eder. |
 | ResourceDate6 | `205521074` | Date6 (Kaynak) alanını temsil eder. |
@@ -137,7 +137,7 @@ public enum Field
 | ResourceDate8 | `205521076` | Date8 (Kaynak) alanını temsil eder. |
 | ResourceDate9 | `205521077` | Date9 (Kaynak) alanını temsil eder. |
 | ResourceDefaultAssignmentOwner | `205521636` | Varsayılan Atama Sahibi (Kaynak) alanını temsil eder. |
-| ResourceDemandedRequested | `205521586` | Talep Edilen İstenen (Kaynak) alanını temsil eder. |
+| ResourceDemandedRequested | `205521586` | Talep Edilen Talep (Kaynak) alanını temsil eder. |
 | ResourceDuration1 | `205521013` | Süre1 (Kaynak) alanını temsil eder. |
 | ResourceDuration10 | `205521085` | Süre10 (Kaynak) alanını temsil eder. |
 | ResourceDuration2 | `205521014` | Süre2 (Kaynak) alanını temsil eder. |
@@ -149,9 +149,9 @@ public enum Field
 | ResourceDuration8 | `205521083` | Süre8 (Kaynak) alanını temsil eder. |
 | ResourceDuration9 | `205521084` | Süre9 (Kaynak) alanını temsil eder. |
 | ResourceEMailAddress | `205520931` | E-posta Adresi (Kaynak) alanını temsil eder. |
-| ResourceEnterprise | `205521587` | Kurumsal (Kaynak) alanını temsil eder. |
+| ResourceEnterprise | `205521587` | Kuruluş (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseBaseCalendar | `205521583` | Kurumsal Temel Takvim (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseCheckedOutBy | `205521589` | Kuruluş Tarafından Teslim Edilen (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseCheckedOutBy | `205521589` | Kuruluşu Teslim Alan (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseCost1 | `205521342` | Kurumsal Maliyet1 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseCost10 | `205521351` | Kurumsal Maliyet10 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseCost2 | `205521343` | Kurumsal Maliyet2 (Kaynak) alanını temsil eder. |
@@ -162,47 +162,47 @@ public enum Field
 | ResourceEnterpriseCost7 | `205521348` | Kurumsal Maliyet7 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseCost8 | `205521349` | Kurumsal Maliyet8 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseCost9 | `205521350` | Kurumsal Maliyet9 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate1 | `205521352` | Kurumsal Tarih1 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate10 | `205521361` | Enterprise Date10 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate11 | `205521362` | Kurumsal Tarih11 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate12 | `205521363` | Kurumsal Tarih12 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate13 | `205521364` | Kurumsal Tarih13 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate14 | `205521365` | Kurumsal Tarih14 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate15 | `205521366` | Kurumsal Tarih15 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate16 | `205521367` | Kurumsal Tarih16 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate17 | `205521368` | Kurumsal Tarih17 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate18 | `205521369` | Kurumsal Tarih18 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate19 | `205521370` | Kurumsal Tarih19 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate2 | `205521353` | Kurumsal Tarih2 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate1 | `205521352` | Kuruluş Tarihi1 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate10 | `205521361` | Kuruluş Tarihi10 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate11 | `205521362` | Kuruluş Tarihi11 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate12 | `205521363` | Kuruluş Tarihi12 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate13 | `205521364` | Kuruluş Tarihi13 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate14 | `205521365` | Kuruluş Tarihi14 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate15 | `205521366` | Kuruluş Tarihi15 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate16 | `205521367` | Kuruluş Tarihi16 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate17 | `205521368` | Kuruluş Tarihi17 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate18 | `205521369` | Kuruluş Tarihi18 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate19 | `205521370` | Kuruluş Tarihi19 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate2 | `205521353` | Kuruluş Tarihi2 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseDate20 | `205521371` | Enterprise Date20 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate21 | `205521372` | Enterprise Date21 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate21 | `205521372` | Kuruluş Tarihi21 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseDate22 | `205521373` | Enterprise Date22 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate23 | `205521374` | Enterprise Date23 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate23 | `205521374` | Kuruluş Tarihi23 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseDate24 | `205521375` | Enterprise Date24 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate25 | `205521376` | Kurumsal Tarih25 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate26 | `205521377` | Enterprise Date26 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate27 | `205521378` | Kurumsal Tarih27 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate28 | `205521379` | Enterprise Date28 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate29 | `205521380` | Enterprise Date29 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate3 | `205521354` | Kurumsal Tarih3 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate25 | `205521376` | Kuruluş Tarihi25 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate26 | `205521377` | Kuruluş Tarihi26 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate27 | `205521378` | Kuruluş Tarihi27 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate28 | `205521379` | Kuruluş Tarihi28 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate29 | `205521380` | Kuruluş Tarihi29 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate3 | `205521354` | Kuruluş Tarihi3 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseDate30 | `205521381` | Enterprise Date30 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate4 | `205521355` | Kurumsal Tarih4 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate5 | `205521356` | Kurumsal Tarih5 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate6 | `205521357` | Kurumsal Tarih6 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate7 | `205521358` | Kurumsal Tarih7 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate4 | `205521355` | Kuruluş Tarihi4 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate5 | `205521356` | Kuruluş Tarihi5 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate6 | `205521357` | Kuruluş Tarihi6 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate7 | `205521358` | Kuruluş Tarihi7 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseDate8 | `205521359` | Enterprise Date8 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDate9 | `205521360` | Kurumsal Tarih9 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration1 | `205521382` | Kurumsal Süre1 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration10 | `205521391` | Enterprise Duration10 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration2 | `205521383` | Kurumsal Süre2 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration3 | `205521384` | Kurumsal Süre3 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration4 | `205521385` | Kurumsal Süre4 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration5 | `205521386` | Kurumsal Süre5 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration6 | `205521387` | Kurumsal Süre6 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration7 | `205521388` | Kurumsal Süre7 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration8 | `205521389` | Kurumsal Süre8 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseDuration9 | `205521390` | Kurumsal Süre9 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseFlag1 | `205521402` | Enterprise Flag1 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDate9 | `205521360` | Kuruluş Tarihi9 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration1 | `205521382` | Kuruluş Süresi1 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration10 | `205521391` | Kuruluş Süresi10 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration2 | `205521383` | Kuruluş Süresi2 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration3 | `205521384` | Kuruluş Süresi3 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration4 | `205521385` | Kuruluş Süresi4 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration5 | `205521386` | Kuruluş Süresi5 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration6 | `205521387` | Kuruluş Süresi6 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration7 | `205521388` | Kuruluş Süresi7 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration8 | `205521389` | Kuruluş Süresi8 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseDuration9 | `205521390` | Kuruluş Süresi9 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseFlag1 | `205521402` | Kurumsal Bayrak1 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseFlag10 | `205521411` | Enterprise Flag10 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseFlag11 | `205521412` | Enterprise Flag11 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseFlag12 | `205521413` | Enterprise Flag12 (Kaynak) alanını temsil eder. |
@@ -222,10 +222,10 @@ public enum Field
 | ResourceEnterpriseFlag7 | `205521408` | Enterprise Flag7 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseFlag8 | `205521409` | Enterprise Flag8 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseFlag9 | `205521410` | Enterprise Flag9 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseGeneric | `205521582` | Enterprise Generic (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseInactive | `205521592` | Kurumsal Etkin Değil (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseIsCheckedOut | `205521588` | Kuruluş Teslim Alındı (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseLastModifiedDate | `205521590` | Kurumsal Tarih1 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseGeneric | `205521582` | Kurumsal Genel (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseInactive | `205521592` | Etkin Olmayan Kuruluş (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseIsCheckedOut | `205521588` | Kuruluşun Teslim Alındı (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseLastModifiedDate | `205521590` | Kuruluş Tarihi1 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseMultiValue20 | `205521596` | Enterprise MultiValue20 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseMultiValue21 | `205521598` | Enterprise MultiValue21 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseMultiValue22 | `205521600` | Enterprise MultiValue22 (Kaynak) alanını temsil eder. |
@@ -237,78 +237,78 @@ public enum Field
 | ResourceEnterpriseMultiValue28 | `205521612` | Enterprise MultiValue28 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseMultiValue29 | `205521614` | Enterprise MultiValue29 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNameUsed | `205521585` | Kullanılan Kuruluş Adı (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber1 | `205521442` | Enterprise Number1 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber1 | `205521442` | Kuruluş Numarası1 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber10 | `205521451` | Enterprise Number10 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber11 | `205521452` | Enterprise Number11 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber11 | `205521452` | Kuruluş Numarası11 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber12 | `205521453` | Kuruluş Numarası12 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber13 | `205521454` | Kuruluş Numarası13 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber14 | `205521455` | Kuruluş Numarası14 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber15 | `205521456` | Kuruluş Numarası15 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber16 | `205521457` | Kuruluş Numarası16 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber17 | `205521458` | Kuruluş Numarası17 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber18 | `205521459` | Kuruluş Numarası18 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber19 | `205521460` | Kuruluş Numarası19 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber15 | `205521456` | Enterprise Number15 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber16 | `205521457` | Enterprise Number16 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber17 | `205521458` | Enterprise Number17 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber18 | `205521459` | Enterprise Number18 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber19 | `205521460` | Enterprise Number19 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber2 | `205521443` | Enterprise Number2 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber20 | `205521461` | Kuruluş Numarası20 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber20 | `205521461` | Enterprise Number20 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber21 | `205521462` | Kuruluş Numarası21 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber22 | `205521463` | Kuruluş Numarası22 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber23 | `205521464` | Kuruluş Numarası23 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber24 | `205521465` | Enterprise Number24 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber25 | `205521466` | Kuruluş Numarası25 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber26 | `205521467` | Enterprise Number26 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber27 | `205521468` | Enterprise Number27 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber28 | `205521469` | Kuruluş Numarası28 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber29 | `205521470` | Enterprise Number29 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber3 | `205521444` | Enterprise Number3 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber30 | `205521471` | Enterprise Number30 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber27 | `205521468` | Kuruluş Numarası27 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber28 | `205521469` | Enterprise Number28 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber29 | `205521470` | Kuruluş Numarası29 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber3 | `205521444` | Kuruluş Numarası3 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber30 | `205521471` | Kuruluş Numarası30 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber31 | `205521472` | Kuruluş Numarası31 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber32 | `205521473` | Enterprise Number32 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber33 | `205521474` | Enterprise Number33 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber32 | `205521473` | Kuruluş Numarası32 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber33 | `205521474` | Kuruluş Numarası33 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber34 | `205521475` | Kuruluş Numarası34 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber35 | `205521476` | Enterprise Number35 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber36 | `205521477` | Enterprise Number36 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber37 | `205521478` | Enterprise Number37 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber35 | `205521476` | Kuruluş Numarası35 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber36 | `205521477` | Kuruluş Numarası36 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber37 | `205521478` | Kuruluş Numarası37 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber38 | `205521479` | Kuruluş Numarası38 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber39 | `205521480` | Kuruluş Numarası39 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber4 | `205521445` | Kuruluş Numarası4 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber4 | `205521445` | Enterprise Number4 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber40 | `205521481` | Enterprise Number40 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber5 | `205521446` | Kuruluş Numarası5 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseNumber6 | `205521447` | Kuruluş Numarası6 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber5 | `205521446` | Enterprise Number5 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseNumber6 | `205521447` | Enterprise Number6 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber7 | `205521448` | Kuruluş Numarası7 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber8 | `205521449` | Enterprise Number8 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseNumber9 | `205521450` | Enterprise Number9 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode1 | `205521482` | Enterprise Outline Code1 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode10 | `205521500` | Enterprise Outline Code10 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode11 | `205521502` | Enterprise Outline Code11 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode12 | `205521504` | Enterprise Outline Code12 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode13 | `205521506` | Enterprise Outline Code13 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode14 | `205521508` | Enterprise Outline Code14 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode15 | `205521510` | Enterprise Outline Code15 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode16 | `205521512` | Enterprise Outline Code16 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode17 | `205521514` | Enterprise Outline Code17 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode18 | `205521516` | Enterprise Outline Code18 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode19 | `205521518` | Enterprise Outline Code19 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode2 | `205521484` | Enterprise Outline Code2 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode1 | `205521482` | Kurumsal Anahat Kodu1 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode10 | `205521500` | Kurumsal Anahat Kodu10 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode11 | `205521502` | Kurumsal Anahat Kodu11 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode12 | `205521504` | Kurumsal Anahat Kodu12 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode13 | `205521506` | Kurumsal Anahat Kodu13 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode14 | `205521508` | Kurumsal Anahat Kodu14 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode15 | `205521510` | Kurumsal Anahat Kodu15 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode16 | `205521512` | Kurumsal Anahat Kodu16 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode17 | `205521514` | Kurumsal Anahat Kodu17 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode18 | `205521516` | Kurumsal Anahat Kodu18 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode19 | `205521518` | Kurumsal Anahat Kodu19 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode2 | `205521484` | Kurumsal Anahat Kodu2 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode20 | `205521520` | Enterprise Outline Code20 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode21 | `205521522` | Enterprise Outline Code21 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode21 | `205521522` | Kurumsal Anahat Kodu21 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode22 | `205521524` | Enterprise Outline Code22 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode23 | `205521526` | Enterprise Outline Code23 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode23 | `205521526` | Kurumsal Anahat Kodu23 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode24 | `205521528` | Enterprise Outline Code24 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode25 | `205521530` | Enterprise Outline Code25 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode26 | `205521532` | Enterprise Outline Code26 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode27 | `205521534` | Enterprise Outline Code27 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode28 | `205521536` | Enterprise Outline Code28 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode29 | `205521538` | Enterprise Outline Code29 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode3 | `205521486` | Enterprise Outline Code3 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode4 | `205521488` | Enterprise Outline Code4 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode5 | `205521490` | Enterprise Outline Code5 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode3 | `205521486` | Kurumsal Anahat Kodu3 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode4 | `205521488` | Kurumsal Anahat Kodu4 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode5 | `205521490` | Kurumsal Anahat Kodu5 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode6 | `205521492` | Enterprise Outline Code6 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseOutlineCode7 | `205521494` | Enterprise Outline Code7 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseOutlineCode7 | `205521494` | Kurumsal Anahat Kodu7 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode8 | `205521496` | Enterprise Outline Code8 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseOutlineCode9 | `205521498` | Enterprise Outline Code9 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseRBS | `205521540` | Kurumsal RBS (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseRequiredValues | `205521584` | Kurumsal Gerekli Değerler (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseTeamMember | `205521591` | Kurumsal Ekip Üyesi (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseTeamMember | `205521591` | Enterprise Team Üyesi (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText1 | `205521542` | Kurumsal Metin1 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText10 | `205521551` | Enterprise Text10 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText11 | `205521552` | Kurumsal Metin11 (Kaynak) alanını temsil eder. |
@@ -322,37 +322,37 @@ public enum Field
 | ResourceEnterpriseText19 | `205521560` | Kurumsal Metin19 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText2 | `205521543` | Kurumsal Metin2 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText20 | `205521561` | Enterprise Text20 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText21 | `205521562` | Kurumsal Metin21 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText21 | `205521562` | Enterprise Text21 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText22 | `205521563` | Enterprise Text22 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText23 | `205521564` | Kurumsal Metin23 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText23 | `205521564` | Enterprise Text23 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText24 | `205521565` | Enterprise Text24 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText25 | `205521566` | Kurumsal Metin25 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText26 | `205521567` | Kurumsal Metin26 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText27 | `205521568` | Kurumsal Metin27 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText28 | `205521569` | Kurumsal Metin28 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText29 | `205521570` | Kurumsal Metin29 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText3 | `205521544` | Kurumsal Metin3 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText25 | `205521566` | Enterprise Text25 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText26 | `205521567` | Enterprise Text26 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText27 | `205521568` | Enterprise Text27 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText28 | `205521569` | Enterprise Text28 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText29 | `205521570` | Enterprise Text29 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText3 | `205521544` | Enterprise Text3 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText30 | `205521571` | Enterprise Text30 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText31 | `205521572` | Kurumsal Metin31 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText31 | `205521572` | Enterprise Text31 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText32 | `205521573` | Enterprise Text32 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText33 | `205521574` | Kurumsal Metin33 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText33 | `205521574` | Enterprise Text33 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText34 | `205521575` | Enterprise Text34 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText35 | `205521576` | Enterprise Text35 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText36 | `205521577` | Enterprise Text36 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText37 | `205521578` | Kurumsal Metin37 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText38 | `205521579` | Kurumsal Metin38 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText39 | `205521580` | Kurumsal Metin39 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText37 | `205521578` | Enterprise Text37 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText38 | `205521579` | Enterprise Text38 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText39 | `205521580` | Enterprise Text39 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText4 | `205521545` | Kurumsal Metin4 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText40 | `205521581` | Enterprise Text40 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText5 | `205521546` | Kurumsal Metin5 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText6 | `205521547` | Kurumsal Metin6 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseText7 | `205521548` | Enterprise Text7 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText6 | `205521547` | Enterprise Text6 (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseText7 | `205521548` | Kurumsal Metin7 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText8 | `205521549` | Enterprise Text8 (Kaynak) alanını temsil eder. |
 | ResourceEnterpriseText9 | `205521550` | Kurumsal Metin9 (Kaynak) alanını temsil eder. |
-| ResourceEnterpriseUniqueID | `205521339` | Kurumsal Benzersiz Kimlik (Kaynak) alanını temsil eder. |
+| ResourceEnterpriseUniqueID | `205521339` | Enterprise Unique ID (Resource) alanını temsil eder. |
 | ResourceErrorMessage | `205521634` | Kurumsal Hata Mesajı (Kaynak) alanını temsil eder. |
 | ResourceFinish | `205521158` | Bitiş (Kaynak) alanını temsil eder. |
-| ResourceFinish1 | `205521003` | Bitiş1 (Kaynak) alanını temsil eder. |
+| ResourceFinish1 | `205521003` | Finish1 (Kaynak) alanını temsil eder. |
 | ResourceFinish10 | `205521090` | Finish10 (Kaynak) alanını temsil eder. |
 | ResourceFinish2 | `205521004` | Finish2 (Kaynak) alanını temsil eder. |
 | ResourceFinish3 | `205521005` | Finish3 (Kaynak) alanını temsil eder. |
@@ -363,27 +363,27 @@ public enum Field
 | ResourceFinish8 | `205521088` | Finish8 (Kaynak) alanını temsil eder. |
 | ResourceFinish9 | `205521089` | Finish9 (Kaynak) alanını temsil eder. |
 | ResourceFlag1 | `205521023` | Bayrak (Kaynak) alanını temsil eder. |
-| ResourceFlag10 | `205521022` | Flag10 (Kaynak) alanını temsil eder. |
-| ResourceFlag11 | `205521091` | Flag11 (Kaynak) alanını temsil eder. |
-| ResourceFlag12 | `205521092` | Flag12 (Kaynak) alanını temsil eder. |
-| ResourceFlag13 | `205521093` | Flag13 (Kaynak) alanını temsil eder. |
-| ResourceFlag14 | `205521094` | Flag14 (Kaynak) alanını temsil eder. |
+| ResourceFlag10 | `205521022` | Bayrak10 (Kaynak) alanını temsil eder. |
+| ResourceFlag11 | `205521091` | Bayrak11 (Kaynak) alanını temsil eder. |
+| ResourceFlag12 | `205521092` | Bayrak12 (Kaynak) alanını temsil eder. |
+| ResourceFlag13 | `205521093` | Bayrak13 (Kaynak) alanını temsil eder. |
+| ResourceFlag14 | `205521094` | Bayrak14 (Kaynak) alanını temsil eder. |
 | ResourceFlag15 | `205521095` | Bayrak15 (Kaynak) alanını temsil eder. |
 | ResourceFlag16 | `205521096` | Bayrak16 (Kaynak) alanını temsil eder. |
-| ResourceFlag17 | `205521097` | Flag17 (Kaynak) alanını temsil eder. |
-| ResourceFlag18 | `205521098` | Flag18 (Kaynak) alanını temsil eder. |
-| ResourceFlag19 | `205521099` | Flag19 (Kaynak) alanını temsil eder. |
+| ResourceFlag17 | `205521097` | Bayrak17 (Kaynak) alanını temsil eder. |
+| ResourceFlag18 | `205521098` | Bayrak18 (Kaynak) alanını temsil eder. |
+| ResourceFlag19 | `205521099` | Bayrak19 (Kaynak) alanını temsil eder. |
 | ResourceFlag2 | `205521024` | Bayrak2 (Kaynak) alanını temsil eder. |
-| ResourceFlag20 | `205521100` | Flag20 (Kaynak) alanını temsil eder. |
+| ResourceFlag20 | `205521100` | Bayrak20 (Kaynak) alanını temsil eder. |
 | ResourceFlag3 | `205521025` | Bayrak3 (Kaynak) alanını temsil eder. |
-| ResourceFlag4 | `205521026` | Bayrak4 (Kaynak) alanını temsil eder. |
-| ResourceFlag5 | `205521027` | Bayrak5 (Kaynak) alanını temsil eder. |
+| ResourceFlag4 | `205521026` | Flag4 (Kaynak) alanını temsil eder. |
+| ResourceFlag5 | `205521027` | Flag5 (Kaynak) alanını temsil eder. |
 | ResourceFlag6 | `205521028` | Flag6 (Kaynak) alanını temsil eder. |
 | ResourceFlag7 | `205521029` | Flag7 (Kaynak) alanını temsil eder. |
 | ResourceFlag8 | `205521030` | Flag8 (Kaynak) alanını temsil eder. |
 | ResourceFlag9 | `205521031` | Flag9 (Kaynak) alanını temsil eder. |
 | ResourceGroup | `205520899` | Grup (Kaynak) alanını temsil eder. |
-| ResourceGroupBySummary | `205521202` | Özete Göre Grupla (Kaynak) alanını temsil eder. |
+| ResourceGroupBySummary | `205521202` | Özete Göre Gruplandır (Kaynak) alanını temsil eder. |
 | ResourceGuid | `205521624` | Kaynak GUID (Kaynak) alanını temsil eder. |
 | ResourceHyperlink | `205521034` | Köprü (Kaynak) alanını temsil eder. |
 | ResourceHyperlinkAddress | `205521035` | Köprü Adresi (Kaynak) alanını temsil eder. |
@@ -394,48 +394,48 @@ public enum Field
 | ResourceIndex | `205521149` | Dizin (Kaynak) alanını temsil eder. |
 | ResourceIndicators | `205520982` | Göstergeler (Kaynak) alanını temsil eder. |
 | ResourceInitials | `205520898` | Baş Harfler (Kaynak) alanını temsil eder. |
-| ResourceIsAssignment | `205521040` | Atamadır (Kaynak) alanını temsil eder. |
-| ResourceIsTeam | `205521696` | Takımdır (Kaynak) alanını temsil eder. |
-| ResourceLevelingDelay | `205521159` | Tesviye Gecikmesi (Kaynak) alanını temsil eder. |
+| ResourceIsAssignment | `205521040` | Atama (Kaynak) alanını temsil eder. |
+| ResourceIsTeam | `205521696` | Takım (Kaynak) alanını temsil eder. |
+| ResourceLevelingDelay | `205521159` | Seviyelendirme Gecikmesi (Kaynak) alanını temsil eder. |
 | ResourceLinkedFields | `205520930` | Bağlantılı Alanlar (Kaynak) alanını temsil eder. |
 | ResourceMaterialLabel | `205521195` | Malzeme Etiketi (Kaynak) alanını temsil eder. |
-| ResourceMaxUnits | `205520900` | Maks. Birim (Kaynak) alanını temsil eder. |
+| ResourceMaxUnits | `205520900` | Maksimum Birim (Kaynak) alanını temsil eder. |
 | ResourceName | `205520897` | Ad (Kaynak) alanını temsil eder. |
 | ResourceNotes | `205520916` | Notlar (Kaynak) alanını temsil eder. |
 | ResourceNumber1 | `205521008` | Sayı1 (Kaynak) alanını temsil eder. |
 | ResourceNumber10 | `205521105` | Number10 (Kaynak) alanını temsil eder. |
-| ResourceNumber11 | `205521106` | Sayı11 (Kaynak) alanını temsil eder. |
-| ResourceNumber12 | `205521107` | Sayı12 (Kaynak) alanını temsil eder. |
-| ResourceNumber13 | `205521108` | 13 Numara (Kaynak) alanını temsil eder. |
-| ResourceNumber14 | `205521109` | Sayı14 (Kaynak) alanını temsil eder. |
-| ResourceNumber15 | `205521110` | Sayı15 (Kaynak) alanını temsil eder. |
-| ResourceNumber16 | `205521111` | Sayı16 (Kaynak) alanını temsil eder. |
-| ResourceNumber17 | `205521112` | 17 Sayısı (Kaynak) alanını temsil eder. |
+| ResourceNumber11 | `205521106` | Number11 (Kaynak) alanını temsil eder. |
+| ResourceNumber12 | `205521107` | Number12 (Kaynak) alanını temsil eder. |
+| ResourceNumber13 | `205521108` | Number13 (Kaynak) alanını temsil eder. |
+| ResourceNumber14 | `205521109` | Number14 (Kaynak) alanını temsil eder. |
+| ResourceNumber15 | `205521110` | Number15 (Kaynak) alanını temsil eder. |
+| ResourceNumber16 | `205521111` | Number16 (Kaynak) alanını temsil eder. |
+| ResourceNumber17 | `205521112` | Number17 (Kaynak) alanını temsil eder. |
 | ResourceNumber18 | `205521113` | Sayı18 (Kaynak) alanını temsil eder. |
-| ResourceNumber19 | `205521114` | Sayı 19 (Kaynak) alanını temsil eder. |
+| ResourceNumber19 | `205521114` | Sayı19 (Kaynak) alanını temsil eder. |
 | ResourceNumber2 | `205521009` | Sayı2 (Kaynak) alanını temsil eder. |
-| ResourceNumber20 | `205521115` | 20 Numara (Kaynak) alanını temsil eder. |
+| ResourceNumber20 | `205521115` | Number20 (Kaynak) alanını temsil eder. |
 | ResourceNumber3 | `205521010` | Sayı3 (Kaynak) alanını temsil eder. |
 | ResourceNumber4 | `205521011` | Number4 (Kaynak) alanını temsil eder. |
 | ResourceNumber5 | `205521012` | Number5 (Kaynak) alanını temsil eder. |
-| ResourceNumber6 | `205521101` | Sayı6 (Kaynak) alanını temsil eder. |
+| ResourceNumber6 | `205521101` | Number6 (Kaynak) alanını temsil eder. |
 | ResourceNumber7 | `205521102` | Number7 (Kaynak) alanını temsil eder. |
 | ResourceNumber8 | `205521103` | Number8 (Kaynak) alanını temsil eder. |
 | ResourceNumber9 | `205521104` | Number9 (Kaynak) alanını temsil eder. |
 | ResourceObjects | `205520929` | Nesneler (Kaynak) alanını temsil eder. |
-| ResourceOutlineCode1 | `205521174` | AnahatKodu1 (Kaynak) alanını temsil eder. |
+| ResourceOutlineCode1 | `205521174` | OutlineCode1 (Kaynak) alanını temsil eder. |
 | ResourceOutlineCode10 | `205521192` | OutlineCode10 (Kaynak) alanını temsil eder. |
-| ResourceOutlineCode2 | `205521176` | AnahatKodu2 (Kaynak) alanını temsil eder. |
-| ResourceOutlineCode3 | `205521178` | AnahatKodu3(Kaynak) alanını temsil eder. |
-| ResourceOutlineCode4 | `205521180` | AnahatKodu4 (Kaynak) alanını temsil eder. |
-| ResourceOutlineCode5 | `205521182` | AnahatKodu5 (Kaynak) alanını temsil eder. |
-| ResourceOutlineCode6 | `205521184` | AnahatKodu6 (Kaynak) alanını temsil eder. |
-| ResourceOutlineCode7 | `205521186` | AnahatKodu7 (Kaynak) alanını temsil eder. |
+| ResourceOutlineCode2 | `205521176` | OutlineCode2 (Kaynak) alanını temsil eder. |
+| ResourceOutlineCode3 | `205521178` | OutlineCode3(Kaynak) alanını temsil eder. |
+| ResourceOutlineCode4 | `205521180` | OutlineCode4 (Kaynak) alanını temsil eder. |
+| ResourceOutlineCode5 | `205521182` | OutlineCode5 (Kaynak) alanını temsil eder. |
+| ResourceOutlineCode6 | `205521184` | OutlineCode6 (Kaynak) alanını temsil eder. |
+| ResourceOutlineCode7 | `205521186` | OutlineCode7 (Kaynak) alanını temsil eder. |
 | ResourceOutlineCode8 | `205521188` | OutlineCode8 (Kaynak) alanını temsil eder. |
-| ResourceOutlineCode9 | `205521190` | AnahatKodu9 (Kaynak) alanını temsil eder. |
-| ResourceOverallocated | `205520921` | Fazla Yüklenen (Kaynak) alanını temsil eder. |
+| ResourceOutlineCode9 | `205521190` | OutlineCode9 (Kaynak) alanını temsil eder. |
+| ResourceOverallocated | `205520921` | Fazla Yüklenmiş (Kaynak) alanını temsil eder. |
 | ResourceOvertimeCost | `205520943` | Fazla Mesai Maliyeti (Kaynak) alanını temsil eder. |
-| ResourceOvertimeRate | `205520903` | Fazla Mesai Oranı (Kaynak) alanını temsil eder. |
+| ResourceOvertimeRate | `205520903` | Fazla Mesai Ücreti (Kaynak) alanını temsil eder. |
 | ResourceOvertimeWork | `205520912` | Fazla Mesai (Kaynak) alanını temsil eder. |
 | ResourcePeakUnits | `205520922` | Tepe Birimleri (Kaynak) alanını temsil eder. |
 | ResourcePercentWorkComplete | `205520925` | Tamamlanan Çalışma Yüzdesi (Kaynak) alanını temsil eder. |
@@ -446,23 +446,23 @@ public enum Field
 | ResourceRemainingOvertimeCost | `205520945` | Kalan Fazla Mesai Maliyeti (Kaynak) alanını temsil eder. |
 | ResourceRemainingOvertimeWork | `205520936` | Kalan Fazla Mesai (Kaynak) alanını temsil eder. |
 | ResourceRemainingWork | `205520918` | Kalan Çalışma (Kaynak) alanını temsil eder. |
-| ResourceResponsePending | `205521160` | Yanıt Bekleyen (Kaynak) alanını temsil eder. |
+| ResourceResponsePending | `205521160` | Yanıt Bekliyor (Kaynak) alanını temsil eder. |
 | ResourceSheetNotes | `205520924` | Sayfa Notları (Kaynak) alanını temsil eder. |
-| ResourceStandardRate | `205520902` | Standart Ücret (Kaynak) alanını temsil eder. |
-| ResourceStart | `205521161` | Başlat (Kaynak) alanını temsil eder. |
+| ResourceStandardRate | `205520902` | Standart Hız (Kaynak) alanını temsil eder. |
+| ResourceStart | `205521161` | Başlangıç (Kaynak) alanını temsil eder. |
 | ResourceStart1 | `205520998` | Başlangıç1 (Kaynak) alanını temsil eder. |
-| ResourceStart10 | `205521120` | Başlangıç10 (Kaynak) alanını temsil eder. |
-| ResourceStart2 | `205520999` | Başlangıç2 (Kaynak) alanını temsil eder. |
-| ResourceStart3 | `205521000` | Başlangıç3 (Kaynak) alanını temsil eder. |
-| ResourceStart4 | `205521001` | Başlat4 (Kaynak) alanını temsil eder. |
-| ResourceStart5 | `205521002` | Başlangıç5 (Kaynak) alanını temsil eder. |
-| ResourceStart6 | `205521116` | Başlangıç6 (Kaynak) alanını temsil eder. |
+| ResourceStart10 | `205521120` | Start10 (Kaynak) alanını temsil eder. |
+| ResourceStart2 | `205520999` | Start2 (Kaynak) alanını temsil eder. |
+| ResourceStart3 | `205521000` | Start3 (Kaynak) alanını temsil eder. |
+| ResourceStart4 | `205521001` | Start4 (Kaynak) alanını temsil eder. |
+| ResourceStart5 | `205521002` | Start5 (Kaynak) alanını temsil eder. |
+| ResourceStart6 | `205521116` | Start6 (Kaynak) alanını temsil eder. |
 | ResourceStart7 | `205521117` | Start7 (Kaynak) alanını temsil eder. |
 | ResourceStart8 | `205521118` | Start8 (Kaynak) alanını temsil eder. |
 | ResourceStart9 | `205521119` | Start9 (Kaynak) alanını temsil eder. |
 | ResourceSV | `205520950` | SV (Kaynak) alanını temsil eder. |
 | ResourceTaskSummaryName | `205521055` | Görev Özeti Adı (Kaynak) alanını temsil eder. |
-| ResourceTeamStatusPending | `205521162` | Takım Durumu Beklemede (Kaynak) alanını temsil eder. |
+| ResourceTeamStatusPending | `205521162` | Bekleyen Ekip Durumu (Kaynak) alanını temsil eder. |
 | ResourceText1 | `205520904` | Metin1 (Kaynak) alanını temsil eder. |
 | ResourceText10 | `205520997` | Metin10 (Kaynak) alanını temsil eder. |
 | ResourceText11 | `205521121` | Metin11 (Kaynak) alanını temsil eder. |
@@ -475,45 +475,45 @@ public enum Field
 | ResourceText18 | `205521128` | Metin18 (Kaynak) alanını temsil eder. |
 | ResourceText19 | `205521129` | Metin19 (Kaynak) alanını temsil eder. |
 | ResourceText2 | `205520905` | Metin2 (Kaynak) alanını temsil eder. |
-| ResourceText20 | `205521130` | Metin20 (Kaynak) alanını temsil eder. |
+| ResourceText20 | `205521130` | Text20 (Kaynak) alanını temsil eder. |
 | ResourceText21 | `205521131` | Metin21 (Kaynak) alanını temsil eder. |
 | ResourceText22 | `205521132` | Metin22 (Kaynak) alanını temsil eder. |
 | ResourceText23 | `205521133` | Metin23 (Kaynak) alanını temsil eder. |
 | ResourceText24 | `205521134` | Text24 (Kaynak) alanını temsil eder. |
 | ResourceText25 | `205521135` | Metin25 (Kaynak) alanını temsil eder. |
-| ResourceText26 | `205521136` | Metin26 (Kaynak) alanını temsil eder. |
+| ResourceText26 | `205521136` | Text26 (Kaynak) alanını temsil eder. |
 | ResourceText27 | `205521137` | Metin27 (Kaynak) alanını temsil eder. |
-| ResourceText28 | `205521138` | Metin28 (Kaynak) alanını temsil eder. |
+| ResourceText28 | `205521138` | Text28 (Kaynak) alanını temsil eder. |
 | ResourceText29 | `205521139` | Metin29 (Kaynak) alanını temsil eder. |
 | ResourceText3 | `205520926` | Metin3 (Kaynak) alanını temsil eder. |
-| ResourceText30 | `205521140` | Metin30 (Kaynak) alanını temsil eder. |
+| ResourceText30 | `205521140` | Text30 (Kaynak) alanını temsil eder. |
 | ResourceText4 | `205520927` | Metin4 (Kaynak) alanını temsil eder. |
 | ResourceText5 | `205520928` | Metin5 (Kaynak) alanını temsil eder. |
 | ResourceText6 | `205520993` | Metin6 (Kaynak) alanını temsil eder. |
 | ResourceText7 | `205520994` | Metin7 (Kaynak) alanını temsil eder. |
-| ResourceText8 | `205520995` | Metin8 (Kaynak) alanını temsil eder. |
+| ResourceText8 | `205520995` | Text8 (Kaynak) alanını temsil eder. |
 | ResourceText9 | `205520996` | Metin9 (Kaynak) alanını temsil eder. |
 | ResourceType | `205521196` | Tür (Kaynak) alanını temsil eder. |
 | ResourceTypeIsCost | `205521631` | Tür (Maliyet) alanını temsil eder. |
 | ResourceUniqueID | `205520923` | UniqueID (Kaynak) alanını temsil eder. |
-| ResourceUpdateNeeded | `205521163` | Güncelleme Gerekli (Kaynak) alanını temsil eder. |
+| ResourceUpdateNeeded | `205521163` | Güncelleme Gerekiyor (Kaynak) alanını temsil eder. |
 | ResourceVAC | `205521197` | VAC (Kaynak) alanını temsil eder. |
-| ResourceWBS | `205521236` | İKY (Kaynak) alanını temsil eder. |
+| ResourceWBS | `205521236` | ÇÇY (Kaynak) alanını temsil eder. |
 | ResourceWindowsUserAccount | `205521207` | Windows Kullanıcı Hesabı (Kaynak) alanını temsil eder. |
 | ResourceWork | `205520909` | Çalışma (Kaynak) alanını temsil eder. |
-| ResourceWorkContour | `205521060` | Çalışma Kontur (Kaynak) alanını temsil eder. |
+| ResourceWorkContour | `205521060` | Çalışma Dağılımı (Kaynak) alanını temsil eder. |
 | ResourceWorkgroup | `205521168` | Çalışma Grubu (Kaynak) alanını temsil eder. |
-| ResourceWorkVariance | `205520919` | İş Farkı (Kaynak) alanını temsil eder. |
+| ResourceWorkVariance | `205520919` | Çalışma Varyansı (Kaynak) alanını temsil eder. |
 | TaskActive | `188744959` | Etkin Görev (Görev) alanını temsil eder. |
-| TaskActualCost | `188743687` | ActualCost (Görev) alanını temsil eder. |
+| TaskActualCost | `188743687` | Gerçek Maliyet (Görev) alanını temsil eder. |
 | TaskActualDuration | `188743708` | Fiili Süre (Görev) alanını temsil eder. |
-| TaskActualFinish | `188743722` | Gerçek Bitirme (Görev) alanını temsil eder. |
+| TaskActualFinish | `188743722` | Fiili Bitiş (Görev) alanını temsil eder. |
 | TaskActualOvertimeCost | `188743849` | Fiili Fazla Mesai Maliyeti (Görev) alanını temsil eder. |
 | TaskActualOvertimeWork | `188743844` | Fiili Fazla Mesai (Görev) alanını temsil eder. |
-| TaskActualOvertimeWorkProtected | `188744820` | Fiili Korumalı Fazla Mesai (Görev) alanını temsil eder. |
+| TaskActualOvertimeWorkProtected | `188744820` | Korunan Fiili Fazla Mesai (Görev) alanını temsil eder. |
 | TaskActualStart | `188743721` | Fiili Başlangıç (Görev) alanını temsil eder. |
 | TaskActualWork | `188743682` | Fiili Çalışma (Görev) alanını temsil eder. |
-| TaskActualWorkProtected | `188744819` | Korumalı Fiili Çalışma (Görev) alanını temsil eder. |
+| TaskActualWorkProtected | `188744819` | Korunan Fiili Çalışma (Görev) alanını temsil eder. |
 | TaskACWP | `188743800` | ACWP (Görev) alanını temsil eder. |
 | TaskAssignmentDelay | `188744046` | Atama Gecikmesi (Görev) alanını temsil eder. |
 | TaskAssignmentOwner | `188744850` | Atama Sahibi (Görev) alanını temsil eder. |
@@ -522,17 +522,17 @@ public enum Field
 | TaskBaseline10BudgetCost | `188744927` | Temel 10 Bütçe Maliyeti (Görev) alanını temsil eder. |
 | TaskBaseline10BudgetWork | `188744926` | Temel 10 Bütçe Çalışması (Görev) alanını temsil eder. |
 | TaskBaseline10Cost | `188744270` | Temel10 Maliyet (Görev) alanını temsil eder |
-| TaskBaseline10DeliverableFinish | `188744925` | Baseline10 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
-| TaskBaseline10DeliverableStart | `188744924` | Baseline10 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
-| TaskBaseline10Duration | `188744273` | Temel 10 Süre (Görev) alanını temsil eder. |
-| TaskBaseline10DurationEstimated | `188744528` | Temel 10 Tahmini Süre (Görev) alanını temsil eder. |
+| TaskBaseline10DeliverableFinish | `188744925` | Temel10 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
+| TaskBaseline10DeliverableStart | `188744924` | Temel10 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline10Duration | `188744273` | Temel10 Süre (Görev) alanını temsil eder. |
+| TaskBaseline10DurationEstimated | `188744528` | Temel10 Tahmini Süre (Görev) alanını temsil eder. |
 | TaskBaseline10DurationText | `188745011` | Temel10 Süre Metni (Görev) alanını temsil eder. |
-| TaskBaseline10Finish | `188744269` | Baseline10 Finish (Görev) alanını temsil eder. |
+| TaskBaseline10Finish | `188744269` | Temel10 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline10FinishText | `188745010` | Temel10 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline10FixedCostAccrual | `188744923` | Temel10 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
-| TaskBaseline10Start | `188744268` | Temel 10 Başlangıç (Görev) alanını temsil eder. |
-| TaskBaseline10StartText | `188745009` | Baseline10 Başlangıç Metni (Görev) alanını temsil eder. |
-| TaskBaseline10Work | `188744271` | Temel 10 Çalışma (Görev) alanını temsil eder. |
+| TaskBaseline10FixedCostAccrual | `188744923` | Temel 10 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
+| TaskBaseline10Start | `188744268` | Temel10 Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline10StartText | `188745009` | Temel10 Başlangıç Metni (Görev) alanını temsil eder. |
+| TaskBaseline10Work | `188744271` | Temel10 Çalışma (Görev) alanını temsil eder. |
 | TaskBaseline1BudgetCost | `188744864` | Temel1 Bütçe Maliyeti (Görev) alanını temsil eder. |
 | TaskBaseline1BudgetWork | `188744863` | Temel1 Bütçe Çalışması (Görev) alanını temsil eder. |
 | TaskBaseline1Cost | `188744164` | Temel1 Maliyet (Görev) alanını temsil eder. |
@@ -543,7 +543,7 @@ public enum Field
 | TaskBaseline1DurationText | `188744984` | Temel1 Süre Metni (Görev) alanını temsil eder. |
 | TaskBaseline1Finish | `188744163` | Temel1 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline1FinishText | `188744983` | Temel1 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline1FixedCostAccrual | `188744860` | Temel1 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
+| TaskBaseline1FixedCostAccrual | `188744860` | Temel1 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
 | TaskBaseline1Start | `188744162` | Temel1 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline1StartText | `188744982` | Temel1 Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaseline1Work | `188744165` | Temel1 Bütçe Çalışması (Görev) alanını temsil eder. |
@@ -557,7 +557,7 @@ public enum Field
 | TaskBaseline2DurationText | `188744987` | Temel2 Süre Metni (Görev) alanını temsil eder. |
 | TaskBaseline2Finish | `188744174` | Temel2 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline2FinishText | `188744986` | Temel2 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline2FixedCostAccrual | `188744867` | Temel2 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
+| TaskBaseline2FixedCostAccrual | `188744867` | Temel2 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
 | TaskBaseline2Start | `188744173` | Temel2 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline2StartText | `188744985` | Temel2 Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaseline2Work | `188744176` | Temel2 Çalışma (Görev) alanını temsil eder. |
@@ -571,92 +571,92 @@ public enum Field
 | TaskBaseline3DurationText | `188744990` | Temel3 Süre Metni (Görev) alanını temsil eder. |
 | TaskBaseline3Finish | `188744185` | Temel3 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline3FinishText | `188744989` | Temel3 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline3FixedCostAccrual | `188744874` | Temel3 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
+| TaskBaseline3FixedCostAccrual | `188744874` | Temel 3 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
 | TaskBaseline3Start | `188744184` | Temel3 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline3StartText | `188744988` | Temel3 Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaseline3Work | `188744187` | Temel3 Çalışma (Görev) alanını temsil eder. |
-| TaskBaseline4BudgetCost | `188744885` | Temel 4 Bütçe Maliyeti (Görev) alanını temsil eder. |
-| TaskBaseline4BudgetWork | `188744884` | Temel 4 Bütçe Çalışması (Görev) alanını temsil eder. |
-| TaskBaseline4Cost | `188744197` | Temel 4 Maliyet (Görev) alanını temsil eder. |
-| TaskBaseline4DeliverableFinish | `188744883` | Temel 4 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
-| TaskBaseline4DeliverableStart | `188744882` | Temel 4 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
-| TaskBaseline4Duration | `188744200` | Temel 4 Süre (Görev) alanını temsil eder. |
-| TaskBaseline4DurationEstimated | `188744522` | Tahmini Temel4 Süre (Görev) alanını temsil eder. |
+| TaskBaseline4BudgetCost | `188744885` | Temel4 Bütçe Maliyeti (Görev) alanını temsil eder. |
+| TaskBaseline4BudgetWork | `188744884` | Temel4 Bütçe Çalışması (Görev) alanını temsil eder. |
+| TaskBaseline4Cost | `188744197` | Temel4 Maliyet (Görev) alanını temsil eder. |
+| TaskBaseline4DeliverableFinish | `188744883` | Baseline4 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
+| TaskBaseline4DeliverableStart | `188744882` | Baseline4 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline4Duration | `188744200` | Temel4 Süre (Görev) alanını temsil eder. |
+| TaskBaseline4DurationEstimated | `188744522` | Temel4 Tahmini Süre (Görev) alanını temsil eder. |
 | TaskBaseline4DurationText | `188744993` | Temel4 Süre Metni (Görev) alanını temsil eder. |
-| TaskBaseline4Finish | `188744196` | Temel 4 Bitiş (Görev) alanını temsil eder. |
-| TaskBaseline4FinishText | `188744992` | Temel 4 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline4FixedCostAccrual | `188744881` | Temel4 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder |
-| TaskBaseline4Start | `188744195` | Temel 4 Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline4Finish | `188744196` | Temel4 Bitiş (Görev) alanını temsil eder. |
+| TaskBaseline4FinishText | `188744992` | Temel4 Bitiş Metni (Görev) alanını temsil eder. |
+| TaskBaseline4FixedCostAccrual | `188744881` | Temel 4 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder |
+| TaskBaseline4Start | `188744195` | Temel4 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline4StartText | `188744991` | Temel4 Başlangıç Metni (Görev) alanını temsil eder. |
-| TaskBaseline4Work | `188744198` | Temel 4 Çalışma (Görev) alanını temsil eder. |
-| TaskBaseline5BudgetCost | `188744892` | Temel 5 Bütçe Maliyeti (Görev) alanını temsil eder. |
+| TaskBaseline4Work | `188744198` | Temel4 Çalışma (Görev) alanını temsil eder. |
+| TaskBaseline5BudgetCost | `188744892` | Temel5 Bütçe Maliyeti (Görev) alanını temsil eder. |
 | TaskBaseline5BudgetWork | `188744891` | Temel 5 Bütçe Çalışması (Görev) alanını temsil eder. |
-| TaskBaseline5Cost | `188744208` | Temel 5 Maliyet (Görev) alanını temsil eder. |
-| TaskBaseline5DeliverableFinish | `188744890` | Temel 5 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
-| TaskBaseline5DeliverableStart | `188744889` | Temel 5 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
-| TaskBaseline5Duration | `188744211` | Temel 5 Süre (Görev) alanını temsil eder. |
-| TaskBaseline5DurationEstimated | `188744523` | Temel 5 Tahmini Süre (Görev) alanını temsil eder. |
+| TaskBaseline5Cost | `188744208` | Temel5 Maliyet (Görev) alanını temsil eder. |
+| TaskBaseline5DeliverableFinish | `188744890` | Temel5 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
+| TaskBaseline5DeliverableStart | `188744889` | Temel5 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline5Duration | `188744211` | Temel5 Süre (Görev) alanını temsil eder. |
+| TaskBaseline5DurationEstimated | `188744523` | Temel5 Tahmini Süre (Görev) alanını temsil eder. |
 | TaskBaseline5DurationText | `188744996` | Temel5 Süre Metni (Görev) alanını temsil eder. |
-| TaskBaseline5Finish | `188744207` | Temel 5 Bitiş (Görev) alanını temsil eder. |
+| TaskBaseline5Finish | `188744207` | Temel5 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline5FinishText | `188744995` | Temel5 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline5FixedCostAccrual | `188744888` | Temel5 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
-| TaskBaseline5Start | `188744206` | Temel 5 Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline5FixedCostAccrual | `188744888` | Temel 5 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
+| TaskBaseline5Start | `188744206` | Temel5 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline5StartText | `188744994` | Temel5 Başlangıç Metni (Görev) alanını temsil eder. |
-| TaskBaseline5Work | `188744209` | Temel 5 Çalışma (Görev) alanını temsil eder. |
+| TaskBaseline5Work | `188744209` | Temel5 Çalışma (Görev) alanını temsil eder. |
 | TaskBaseline6BudgetCost | `188744899` | Temel6 Bütçe Maliyeti (Görev) alanını temsil eder. |
 | TaskBaseline6BudgetWork | `188744898` | Temel6 Bütçe Çalışması (Görev) alanını temsil eder. |
 | TaskBaseline6Cost | `188744226` | Temel6 Maliyet (Görev) alanını temsil eder. |
 | TaskBaseline6DeliverableFinish | `188744897` | Temel6 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline6DeliverableStart | `188744896` | Temel6 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline6Duration | `188744229` | Temel6 Süre (Görev) alanını temsil eder. |
-| TaskBaseline6DurationEstimated | `188744524` | Tahmini Temel6 Süre (Görev) alanını temsil eder. |
+| TaskBaseline6DurationEstimated | `188744524` | Temel6 Tahmini Süre (Görev) alanını temsil eder. |
 | TaskBaseline6DurationText | `188744999` | Temel6 Süre Metni (Görev) alanını temsil eder. |
 | TaskBaseline6Finish | `188744225` | Temel6 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline6FinishText | `188744998` | Temel6 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline6FixedCostAccrual | `188744895` | Temel6 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
+| TaskBaseline6FixedCostAccrual | `188744895` | Temel6 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
 | TaskBaseline6Start | `188744224` | Temel6 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline6StartText | `188744997` | Temel6 Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaseline6Work | `188744227` | Temel6 Çalışma (Görev) alanını temsil eder. |
-| TaskBaseline7BudgetCost | `188744906` | Temel 7 Bütçe Maliyeti (Görev) alanını temsil eder. |
-| TaskBaseline7BudgetWork | `188744905` | Temel 7 Bütçe Çalışması (Görev) alanını temsil eder. |
+| TaskBaseline7BudgetCost | `188744906` | Temel7 Bütçe Maliyeti (Görev) alanını temsil eder. |
+| TaskBaseline7BudgetWork | `188744905` | Temel7 Bütçe Çalışması (Görev) alanını temsil eder. |
 | TaskBaseline7Cost | `188744237` | Temel7 Maliyet (Görev) alanını temsil eder. |
 | TaskBaseline7DeliverableFinish | `188744904` | Temel7 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline7DeliverableStart | `188744903` | Temel7 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline7Duration | `188744240` | Temel7 Süre (Görev) alanını temsil eder. |
-| TaskBaseline7DurationEstimated | `188744525` | Tahmini Temel7 Süre (Görev) alanını temsil eder. |
+| TaskBaseline7DurationEstimated | `188744525` | Temel7 Tahmini Süre (Görev) alanını temsil eder. |
 | TaskBaseline7DurationText | `188745002` | Temel7 Süre Metni (Görev) alanını temsil eder. |
 | TaskBaseline7Finish | `188744236` | Temel7 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline7FinishText | `188745001` | Temel7 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline7FixedCostAccrual | `188744902` | Temel7 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
+| TaskBaseline7FixedCostAccrual | `188744902` | Temel7 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
 | TaskBaseline7Start | `188744235` | Temel7 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline7StartText | `188745000` | Temel7 Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaseline7Work | `188744238` | Temel7 Çalışma (Görev) alanını temsil eder. |
-| TaskBaseline8BudgetCost | `188744913` | Temel 8 Bütçe Maliyeti (Görev) alanını temsil eder. |
-| TaskBaseline8BudgetWork | `188744912` | Temel 8 Bütçe Çalışması (Görev) alanını temsil eder. |
+| TaskBaseline8BudgetCost | `188744913` | Temel8 Bütçe Maliyeti (Görev) alanını temsil eder. |
+| TaskBaseline8BudgetWork | `188744912` | Temel8 Bütçe Çalışması (Görev) alanını temsil eder. |
 | TaskBaseline8Cost | `188744248` | Temel8 Maliyet (Görev) alanını temsil eder. |
 | TaskBaseline8DeliverableFinish | `188744911` | Baseline8 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline8DeliverableStart | `188744910` | Baseline8 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline8Duration | `188744251` | Temel8 Süre (Görev) alanını temsil eder. |
-| TaskBaseline8DurationEstimated | `188744526` | Tahmini Temel8 Süre (Görev) alanını temsil eder. |
-| TaskBaseline8DurationText | `188745005` | Baseline8 Süre Metni (Görev) alanını temsil eder. |
-| TaskBaseline8Finish | `188744247` | Baseline8 Finish (Görev) alanını temsil eder. |
-| TaskBaseline8FinishText | `188745004` | Baseline8 Finish Text (Görev) alanını temsil eder. |
-| TaskBaseline8FixedCostAccrual | `188744909` | Temel8 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
-| TaskBaseline8Start | `188744246` | Baseline8 Start (Görev) alanını temsil eder. |
+| TaskBaseline8DurationEstimated | `188744526` | Temel8 Tahmini Süre (Görev) alanını temsil eder. |
+| TaskBaseline8DurationText | `188745005` | Temel8 Süre Metni (Görev) alanını temsil eder. |
+| TaskBaseline8Finish | `188744247` | Temel8 Bitiş (Görev) alanını temsil eder. |
+| TaskBaseline8FinishText | `188745004` | Temel8 Bitiş Metni (Görev) alanını temsil eder. |
+| TaskBaseline8FixedCostAccrual | `188744909` | Temel8 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
+| TaskBaseline8Start | `188744246` | Baseline8 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline8StartText | `188745003` | Baseline8 Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaseline8Work | `188744249` | Temel8 Çalışma (Görev) alanını temsil eder. |
 | TaskBaseline9BudgetCost | `188744920` | Temel9 Bütçe Maliyeti (Görev) alanını temsil eder. |
 | TaskBaseline9BudgetWork | `188744919` | Temel9 Bütçe Çalışması (Görev) alanını temsil eder. |
 | TaskBaseline9Cost | `188744259` | Temel9 Maliyet (Görev) alanını temsil eder. |
 | TaskBaseline9DeliverableFinish | `188744918` | Temel9 Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
-| TaskBaseline9DeliverableStart | `188744917` | Temel9 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline9DeliverableStart | `188744917` | Baseline9 Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline9Duration | `188744262` | Temel9 Süre (Görev) alanını temsil eder. |
 | TaskBaseline9DurationEstimated | `188744527` | Temel9 Tahmini Süre (Görev) alanını temsil eder. |
 | TaskBaseline9DurationText | `188745008` | Temel9 Süre Metni (Görev) alanını temsil eder. |
 | TaskBaseline9Finish | `188744258` | Temel9 Bitiş (Görev) alanını temsil eder. |
 | TaskBaseline9FinishText | `188745007` | Temel9 Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaseline9FixedCostAccrual | `188744916` | Temel9 Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
-| TaskBaseline9Start | `188744257` | Temel9 Başlangıç (Görev) alanını temsil eder. |
+| TaskBaseline9FixedCostAccrual | `188744916` | Temel9 Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
+| TaskBaseline9Start | `188744257` | Baseline9 Başlangıç (Görev) alanını temsil eder. |
 | TaskBaseline9StartText | `188745006` | Temel9 Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaseline9Work | `188744260` | Temel9 Çalışma (Görev) alanını temsil eder. |
 | TaskBaselineBudgetCost | `188744857` | Temel Bütçe Maliyeti (Görev) alanını temsil eder. |
@@ -665,16 +665,16 @@ public enum Field
 | TaskBaselineDeliverableFinish | `188744855` | Temel Teslim Edilebilir Bitiş (Görev) alanını temsil eder. |
 | TaskBaselineDeliverableStart | `188744854` | Temel Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
 | TaskBaselineDuration | `188743707` | Temel Süre (Görev) alanını temsil eder. |
-| TaskBaselineDurationEstimated | `188744093` | Tahmini Temel Süre (Görev) alanını temsil eder. |
+| TaskBaselineDurationEstimated | `188744093` | Temel Süre Tahmini (Görev) alanını temsil eder. |
 | TaskBaselineDurationText | `188744981` | Temel Süre Metni (Görev) alanını temsil eder. |
 | TaskBaselineFinish | `188743724` | Temel Bitiş (Görev) alanını temsil eder. |
 | TaskBaselineFinishText | `188744980` | Temel Bitiş Metni (Görev) alanını temsil eder. |
-| TaskBaselineFixedCostAccrual | `188744853` | Temel Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
+| TaskBaselineFixedCostAccrual | `188744853` | Temel Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
 | TaskBaselineStart | `188743723` | Temel Başlangıç (Görev) alanını temsil eder. |
 | TaskBaselineStartText | `188744979` | Temel Başlangıç Metni (Görev) alanını temsil eder. |
 | TaskBaselineWork | `188743681` | Temel Çalışma (Görev) alanını temsil eder. |
 | TaskBCWP | `188743691` | GÇBM (Görev) alanını temsil eder. |
-| TaskBCWS | `188743692` | BCWS (Görev) alanını temsil eder. |
+| TaskBCWS | `188743692` | ZÇBM (Görev) alanını temsil eder. |
 | TaskBudgetCost | `188744852` | Bütçe Maliyeti (Görev) alanını temsil eder. |
 | TaskBudgetWork | `188744851` | Bütçe Çalışması (Görev) alanını temsil eder. |
 | TaskCalendar | `188744082` | Takvim (Görev) alanını temsil eder. |
@@ -699,13 +699,13 @@ public enum Field
 | TaskCPI | `188744217` | CPI (Görev) alanını temsil eder. |
 | TaskCreated | `188743773` | Oluşturulan (Görev) alanını temsil eder. |
 | TaskCritical | `188743699` | Kritik (Görev) alanını temsil eder. |
-| TaskCV | `188743763` | Özgeçmiş (Görev) alanını temsil eder. |
+| TaskCV | `188743763` | CV (Görev) alanını temsil eder. |
 | TaskCVPercent | `188744219` | CV Yüzdesi (Görev) alanını temsil eder. |
 | TaskDate1 | `188743945` | Tarih1 (Görev) alanını temsil eder. |
 | TaskDate10 | `188743954` | Date10 (Görev) alanını temsil eder. |
-| TaskDate2 | `188743946` | Tarih2 (Görev) alanını temsil eder. |
-| TaskDate3 | `188743947` | Tarih3 (Görev) alanını temsil eder. |
-| TaskDate4 | `188743948` | Tarih4 (Görev) alanını temsil eder. |
+| TaskDate2 | `188743946` | Date2 (Görev) alanını temsil eder. |
+| TaskDate3 | `188743947` | Date3 (Görev) alanını temsil eder. |
+| TaskDate4 | `188743948` | Date4 (Görev) alanını temsil eder. |
 | TaskDate5 | `188743949` | Date5 (Görev) alanını temsil eder. |
 | TaskDate6 | `188743950` | Date6 (Görev) alanını temsil eder. |
 | TaskDate7 | `188743951` | Date7 (Görev) alanını temsil eder. |
@@ -718,7 +718,7 @@ public enum Field
 | TaskDeliverableName | `188744956` | Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
 | TaskDeliverableStart | `188744832` | Teslim Edilebilir Başlangıç (Görev) alanını temsil eder. |
 | TaskDeliverableType | `188744827` | Teslim Edilebilir Tür (Görev) alanını temsil eder. |
-| TaskDemandedRequested | `188744800` | Talep Edilen İstenen (Görev) alanını temsil eder. |
+| TaskDemandedRequested | `188744800` | Talep Edilen Talep (Görev) alanını temsil eder. |
 | TaskDuration | `188743709` | Süre (Görev) alanını temsil eder. |
 | TaskDuration1 | `188743783` | Süre1 (Görev) alanını temsil eder. |
 | TaskDuration10 | `188743961` | Süre10 (Görev) alanını temsil eder. |
@@ -746,7 +746,7 @@ public enum Field
 | TaskEarlyFinish | `188743718` | Erken Bitirme (Görev) alanını temsil eder. |
 | TaskEarlyStart | `188743717` | Erken Başlangıç (Görev) alanını temsil eder. |
 | TaskEarnedValueMethod | `188744802` | Kazanılan Değer Yöntemi (Görev) alanını temsil eder. |
-| TaskEffortDriven | `188743812` | Efor Odaklı (Görev) alanını temsil eder. |
+| TaskEffortDriven | `188743812` | Çaba Odaklı (Görev) alanını temsil eder. |
 | TaskEnterpriseCost1 | `188744279` | Kurumsal Maliyet1 (Görev) alanını temsil eder. |
 | TaskEnterpriseCost10 | `188744288` | Kurumsal Maliyet10 (Görev) alanını temsil eder. |
 | TaskEnterpriseCost2 | `188744280` | Kurumsal Maliyet2 (Görev) alanını temsil eder. |
@@ -757,46 +757,46 @@ public enum Field
 | TaskEnterpriseCost7 | `188744285` | Kurumsal Maliyet7 (Görev) alanını temsil eder. |
 | TaskEnterpriseCost8 | `188744286` | Kurumsal Maliyet8 (Görev) alanını temsil eder. |
 | TaskEnterpriseCost9 | `188744287` | Kurumsal Maliyet9 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate1 | `188744289` | Kurumsal Tarih1 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate10 | `188744298` | Enterprise Date10 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate11 | `188744299` | Kurumsal Tarih11 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate12 | `188744300` | Kurumsal Tarih12 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate13 | `188744301` | Enterprise Date13 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate14 | `188744302` | Kurumsal Tarih14 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate15 | `188744303` | Kurumsal Tarih15 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate16 | `188744304` | Kurumsal Tarih16 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate17 | `188744305` | Kurumsal Tarih17 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate18 | `188744306` | Kurumsal Tarih18 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate19 | `188744307` | Kurumsal Tarih19 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate2 | `188744290` | Kurumsal Tarih2(Görev) alanını temsil eder. |
+| TaskEnterpriseDate1 | `188744289` | Kuruluş Tarihi1 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate10 | `188744298` | Kuruluş Tarihi10 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate11 | `188744299` | Kuruluş Tarihi11 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate12 | `188744300` | Kuruluş Tarihi12 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate13 | `188744301` | Kuruluş Tarihi13 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate14 | `188744302` | Kuruluş Tarihi14 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate15 | `188744303` | Kuruluş Tarihi15 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate16 | `188744304` | Kuruluş Tarihi16 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate17 | `188744305` | Kuruluş Tarihi17 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate18 | `188744306` | Kuruluş Tarihi18 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate19 | `188744307` | Kuruluş Tarihi19 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate2 | `188744290` | Kuruluş Tarihi2(Görev) alanını temsil eder. |
 | TaskEnterpriseDate20 | `188744308` | Enterprise Date20 (Görev) alanını temsil eder. |
 | TaskEnterpriseDate21 | `188744309` | Enterprise Date21 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate22 | `188744310` | Kurumsal Tarih22 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate22 | `188744310` | Enterprise Date22 (Görev) alanını temsil eder. |
 | TaskEnterpriseDate23 | `188744311` | Enterprise Date23 (Görev) alanını temsil eder. |
 | TaskEnterpriseDate24 | `188744312` | Enterprise Date24 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate25 | `188744313` | Kurumsal Tarih25 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate26 | `188744314` | Kurumsal Tarih26 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate27 | `188744315` | Kurumsal Tarih27 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate25 | `188744313` | Enterprise Date25 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate26 | `188744314` | Enterprise Date26 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate27 | `188744315` | Enterprise Date27 (Görev) alanını temsil eder. |
 | TaskEnterpriseDate28 | `188744316` | Enterprise Date28 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate29 | `188744317` | Kurumsal Tarih29 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate3 | `188744291` | Kurumsal Tarih3 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate29 | `188744317` | Kuruluş Tarihi29 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate3 | `188744291` | Kuruluş Tarihi3 (Görev) alanını temsil eder. |
 | TaskEnterpriseDate30 | `188744318` | Enterprise Date30 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate4 | `188744292` | Kurumsal Tarih4 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate5 | `188744293` | Kurumsal Tarih5 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate6 | `188744294` | Kurumsal Tarih6 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate4 | `188744292` | Kuruluş Tarihi4 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate5 | `188744293` | Kuruluş Tarihi5 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate6 | `188744294` | Kuruluş Tarihi6 (Görev) alanını temsil eder. |
 | TaskEnterpriseDate7 | `188744295` | Enterprise Date7 (Görev) alanını temsil eder. |
 | TaskEnterpriseDate8 | `188744296` | Enterprise Date8 (Görev) alanını temsil eder. |
-| TaskEnterpriseDate9 | `188744297` | Enterprise Date9 (Görev) alanını temsil eder. |
-| TaskEnterpriseDuration1 | `188744319` | Kurumsal Süre1 (Görev) alanını temsil eder. |
-| TaskEnterpriseDuration10 | `188744328` | Kurumsal Süre10 (Görev) alanını temsil eder. |
-| TaskEnterpriseDuration2 | `188744320` | Kurumsal Süre2 (Görev) alanını temsil eder. |
-| TaskEnterpriseDuration3 | `188744321` | Kurumsal Süre3 (Görev) alanını temsil eder. |
-| TaskEnterpriseDuration4 | `188744322` | Kuruluş Süresi4 (Görev) alanını temsil eder. |
+| TaskEnterpriseDate9 | `188744297` | Kuruluş Tarihi9 (Görev) alanını temsil eder. |
+| TaskEnterpriseDuration1 | `188744319` | Kuruluş Süresi1 (Görev) alanını temsil eder. |
+| TaskEnterpriseDuration10 | `188744328` | Kuruluş Süresi10 (Görev) alanını temsil eder. |
+| TaskEnterpriseDuration2 | `188744320` | Kuruluş Süresi2 (Görev) alanını temsil eder. |
+| TaskEnterpriseDuration3 | `188744321` | Kuruluş Süresi3 (Görev) alanını temsil eder. |
+| TaskEnterpriseDuration4 | `188744322` | Kurumsal Süre4 (Görev) alanını temsil eder. |
 | TaskEnterpriseDuration5 | `188744323` | Kuruluş Süresi5 (Görev) alanını temsil eder. |
 | TaskEnterpriseDuration6 | `188744324` | Kuruluş Süresi6 (Görev) alanını temsil eder. |
-| TaskEnterpriseDuration7 | `188744325` | Kurumsal Süre7 (Görev) alanını temsil eder. |
+| TaskEnterpriseDuration7 | `188744325` | Kuruluş Süresi7 (Görev) alanını temsil eder. |
 | TaskEnterpriseDuration8 | `188744326` | Kurumsal Süre8 (Görev) alanını temsil eder. |
-| TaskEnterpriseDuration9 | `188744327` | Kurumsal Süre9 (Görev) alanını temsil eder. |
+| TaskEnterpriseDuration9 | `188744327` | Kuruluş Süresi9 (Görev) alanını temsil eder. |
 | TaskEnterpriseFlag1 | `188744339` | Enterprise Flag1 (Görev) alanını temsil eder. |
 | TaskEnterpriseFlag10 | `188744348` | Enterprise Flag10 (Görev) alanını temsil eder. |
 | TaskEnterpriseFlag11 | `188744349` | Enterprise Flag11 (Görev) alanını temsil eder. |
@@ -818,45 +818,45 @@ public enum Field
 | TaskEnterpriseFlag8 | `188744346` | Enterprise Flag8 (Görev) alanını temsil eder. |
 | TaskEnterpriseFlag9 | `188744347` | Enterprise Flag9 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber1 | `188744379` | Kuruluş Numarası1 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber10 | `188744388` | Kuruluş Numarası10 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber10 | `188744388` | Enterprise Number10 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber11 | `188744389` | Kuruluş Numarası11 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber12 | `188744390` | Kuruluş Numarası12 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber12 | `188744390` | Enterprise Number12 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber13 | `188744391` | Kuruluş Numarası13 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber14 | `188744392` | Kuruluş Numarası14 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber15 | `188744393` | Kuruluş Numarası15 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber16 | `188744394` | Kuruluş Numarası16 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber17 | `188744395` | Kuruluş Numarası17 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber18 | `188744396` | Kuruluş Numarası18 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber19 | `188744397` | Kuruluş Numarası19 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber2 | `188744380` | Kuruluş Numarası2 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber20 | `188744398` | Kuruluş Numarası20 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber21 | `188744399` | Kuruluş Numarası21 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber22 | `188744400` | Kuruluş Numarası22 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber23 | `188744401` | Kuruluş Numarası23 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber24 | `188744402` | Kuruluş Numarası24 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber14 | `188744392` | Enterprise Number14 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber15 | `188744393` | Enterprise Number15 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber16 | `188744394` | Enterprise Number16 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber17 | `188744395` | Enterprise Number17 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber18 | `188744396` | Enterprise Number18 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber19 | `188744397` | Enterprise Number19 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber2 | `188744380` | Enterprise Number2 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber20 | `188744398` | Enterprise Number20 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber21 | `188744399` | Enterprise Number21 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber22 | `188744400` | Enterprise Number22 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber23 | `188744401` | Enterprise Number23 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber24 | `188744402` | Enterprise Number24 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber25 | `188744403` | Kuruluş Numarası25 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber26 | `188744404` | Kuruluş Numarası26 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber27 | `188744405` | Kuruluş Numarası27 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber28 | `188744406` | Kuruluş Numarası28 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber29 | `188744407` | Kuruluş Numarası29 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber3 | `188744381` | Enterprise Number3 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber26 | `188744404` | Enterprise Number26 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber27 | `188744405` | Enterprise Number27 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber28 | `188744406` | Enterprise Number28 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber29 | `188744407` | Enterprise Number29 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber3 | `188744381` | Kuruluş Numarası3 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber30 | `188744408` | Enterprise Number30 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber31 | `188744409` | Kuruluş Numarası31 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber32 | `188744410` | Enterprise Number32 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber33 | `188744411` | Kuruluş Numarası33 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber34 | `188744412` | Kuruluş Numarası34 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber35 | `188744413` | Kuruluş Numarası35 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber36 | `188744414` | Kuruluş Numarası36 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber37 | `188744415` | Kuruluş Numarası37 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber38 | `188744416` | Kuruluş Numarası38 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber34 | `188744412` | Enterprise Number34 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber35 | `188744413` | Enterprise Number35 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber36 | `188744414` | Enterprise Number36 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber37 | `188744415` | Enterprise Number37 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber38 | `188744416` | Enterprise Number38 (Görev) alanını temsil eder. |
 | TaskEnterpriseNumber39 | `188744417` | Kuruluş Numarası39 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber4 | `188744382` | Kuruluş Numarası4 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber40 | `188744418` | Kuruluş Numarası40 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber5 | `188744383` | Kuruluş Numarası5 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber6 | `188744384` | Kuruluş Numarası6 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber7 | `188744385` | Kuruluş Numarası7 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber8 | `188744386` | Kuruluş Numarası8 (Görev) alanını temsil eder. |
-| TaskEnterpriseNumber9 | `188744387` | Kuruluş Numarası9 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber4 | `188744382` | Enterprise Number4 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber40 | `188744418` | Enterprise Number40 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber5 | `188744383` | Enterprise Number5 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber6 | `188744384` | Enterprise Number6 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber7 | `188744385` | Enterprise Number7 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber8 | `188744386` | Enterprise Number8 (Görev) alanını temsil eder. |
+| TaskEnterpriseNumber9 | `188744387` | Enterprise Number9 (Görev) alanını temsil eder. |
 | TaskEnterpriseOutlineCode1 | `188744419` | Enterprise OutlineCode1 (Görev) alanını temsil eder. |
 | TaskEnterpriseOutlineCode10 | `188744437` | Enterprise OutlineCode10 (Görev) alanını temsil eder. |
 | TaskEnterpriseOutlineCode11 | `188744439` | Enterprise OutlineCode11 (Görev) alanını temsil eder. |
@@ -897,36 +897,36 @@ public enum Field
 | TaskEnterpriseProjectCost7 | `188744535` | Kurumsal Proje Maliyeti7 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectCost8 | `188744536` | Kurumsal Proje Maliyeti8 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectCost9 | `188744537` | Kurumsal Proje Maliyeti9 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate1 | `188744539` | Enterprise Project Date1 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate10 | `188744548` | Enterprise Project Date10 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate11 | `188744549` | Enterprise Project Date11 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate12 | `188744550` | Enterprise Project Date12 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate13 | `188744551` | Enterprise Project Date13 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate14 | `188744552` | Enterprise Project Date14 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate15 | `188744553` | Enterprise Project Date15 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate16 | `188744554` | Enterprise Project Date16 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate17 | `188744555` | Enterprise Project Date17 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate18 | `188744556` | Enterprise Project Date18 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate19 | `188744557` | Enterprise Project Date19 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate2 | `188744540` | Enterprise Project Date2 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate1 | `188744539` | Kurumsal Proje Tarihi1 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate10 | `188744548` | Kurumsal Proje Tarihi10 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate11 | `188744549` | Kurumsal Proje Tarihi11 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate12 | `188744550` | Kurumsal Proje Tarihi12 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate13 | `188744551` | Kurumsal Proje Tarihi13 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate14 | `188744552` | Kurumsal Proje Tarihi14 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate15 | `188744553` | Kurumsal Proje Tarihi15 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate16 | `188744554` | Kurumsal Proje Tarihi16 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate17 | `188744555` | Kurumsal Proje Tarihi17 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate18 | `188744556` | Kurumsal Proje Tarihi18 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate19 | `188744557` | Kurumsal Proje Tarihi19 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate2 | `188744540` | Kurumsal Proje Tarihi2 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectDate20 | `188744558` | Enterprise Project Date20 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate21 | `188744559` | Enterprise Project Date21 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate22 | `188744560` | Enterprise Project Date22 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate23 | `188744561` | Enterprise Project Date23 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate24 | `188744562` | Enterprise Project Date24 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate25 | `188744563` | Enterprise Project Date25 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate26 | `188744564` | Enterprise Project Date26 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate27 | `188744565` | Enterprise Project Date27 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate28 | `188744566` | Enterprise Project Date28 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate29 | `188744567` | Enterprise Project Date29 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate3 | `188744541` | Enterprise Project Date3 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate21 | `188744559` | Kurumsal Proje Tarihi21 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate22 | `188744560` | Kurumsal Proje Tarihi22 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate23 | `188744561` | Kurumsal Proje Tarihi23 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate24 | `188744562` | Kurumsal Proje Tarihi24 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate25 | `188744563` | Kurumsal Proje Tarihi25 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate26 | `188744564` | Kurumsal Proje Tarihi26 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate27 | `188744565` | Kurumsal Proje Tarihi27 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate28 | `188744566` | Kurumsal Proje Tarihi28 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate29 | `188744567` | Kurumsal Proje Tarihi29 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate3 | `188744541` | Kurumsal Proje Tarihi3 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectDate30 | `188744568` | Enterprise Project Date30 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate4 | `188744542` | Enterprise Project Date4 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate5 | `188744543` | Enterprise Project Date5 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate6 | `188744544` | Enterprise Project Date6 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate7 | `188744545` | Enterprise Project Date7 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate8 | `188744546` | Enterprise Project Date8 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectDate9 | `188744547` | Enterprise Project Date9 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate4 | `188744542` | Kurumsal Proje Tarihi4 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate5 | `188744543` | Kurumsal Proje Tarihi5 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate6 | `188744544` | Kurumsal Proje Tarihi6 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate7 | `188744545` | Kurumsal Proje Tarihi7 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate8 | `188744546` | Kurumsal Proje Tarihi8 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectDate9 | `188744547` | Kurumsal Proje Tarihi9 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectDuration1 | `188744569` | Kurumsal Proje Süresi1 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectDuration10 | `188744578` | Kurumsal Proje Süresi10 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectDuration2 | `188744570` | Kurumsal Proje Süresi2 (Görev) alanını temsil eder. |
@@ -937,7 +937,7 @@ public enum Field
 | TaskEnterpriseProjectDuration7 | `188744575` | Kurumsal Proje Süresi7 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectDuration8 | `188744576` | Kurumsal Proje Süresi8 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectDuration9 | `188744577` | Kurumsal Proje Süresi9 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectFlag1 | `188744649` | Enterprise Project Flag1 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectFlag1 | `188744649` | Kurumsal Proje Bayrak1 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectFlag10 | `188744658` | Enterprise Project Flag10 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectFlag11 | `188744659` | Enterprise Project Flag11 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectFlag12 | `188744660` | Enterprise Project Flag12 (Görev) alanını temsil eder. |
@@ -960,18 +960,18 @@ public enum Field
 | TaskEnterpriseProjectNumber1 | `188744689` | Enterprise Project Number1 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber10 | `188744698` | Enterprise Project Number10 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber11 | `188744699` | Enterprise Project Number11 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber12 | `188744700` | Kurumsal Proje Numarası12 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber12 | `188744700` | Enterprise Project Number12 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber13 | `188744701` | Enterprise Project Number13 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber14 | `188744702` | Enterprise Project Number14 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber15 | `188744703` | Kurumsal Proje Numarası15 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber16 | `188744704` | Kurumsal Proje Numarası16 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber17 | `188744705` | Kurumsal Proje Numarası17 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber18 | `188744706` | Enterprise Project Number18 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber15 | `188744703` | Enterprise Project Number15 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber16 | `188744704` | Enterprise Project Number16 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber17 | `188744705` | Enterprise Project Number17 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber18 | `188744706` | Kurumsal Proje Numarası 18 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber19 | `188744707` | Enterprise Project Number19 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber2 | `188744690` | Enterprise Project Number2 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber20 | `188744708` | Enterprise Project Number20 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber21 | `188744709` | Kurumsal Proje Numarası21 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber22 | `188744710` | Kurumsal Proje Numarası22 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber21 | `188744709` | Enterprise Project Number21 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber22 | `188744710` | Enterprise Project Number22 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber23 | `188744711` | Enterprise Project Number23 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber24 | `188744712` | Enterprise Project Number24 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber25 | `188744713` | Enterprise Project Number25 (Görev) alanını temsil eder. |
@@ -981,7 +981,7 @@ public enum Field
 | TaskEnterpriseProjectNumber29 | `188744717` | Enterprise Project Number29 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber3 | `188744691` | Enterprise Project Number3 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber30 | `188744718` | Enterprise Project Number30 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber31 | `188744719` | Kurumsal Proje Numarası31 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber31 | `188744719` | Enterprise Project Number31 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber32 | `188744720` | Enterprise Project Number32 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber33 | `188744721` | Enterprise Project Number33 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber34 | `188744722` | Enterprise Project Number34 (Görev) alanını temsil eder. |
@@ -990,7 +990,7 @@ public enum Field
 | TaskEnterpriseProjectNumber37 | `188744725` | Enterprise Project Number37 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber38 | `188744726` | Enterprise Project Number38 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber39 | `188744727` | Enterprise Project Number39 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectNumber4 | `188744692` | Enterprise Project Number4(Görev) alanını temsil eder. |
+| TaskEnterpriseProjectNumber4 | `188744692` | Kurumsal Proje Numarası4(Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber40 | `188744728` | Enterprise Project Number40 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber5 | `188744693` | Enterprise Project Number5 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectNumber6 | `188744694` | Enterprise Project Number6 (Görev) alanını temsil eder. |
@@ -1037,10 +1037,10 @@ public enum Field
 | TaskEnterpriseProjectText16 | `188744744` | Enterprise Project Text16 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText17 | `188744745` | Enterprise Project Text17 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText18 | `188744746` | Enterprise Project Text18 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectText19 | `188744747` | Enterprise Project Text19 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectText19 | `188744747` | Kurumsal Proje Metni19 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText2 | `188744730` | Enterprise Project Text2 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText20 | `188744748` | Enterprise Project Text20 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectText21 | `188744749` | Kurumsal Proje Metni21 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectText21 | `188744749` | Enterprise Project Text21 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText22 | `188744750` | Enterprise Project Text22 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText23 | `188744751` | Enterprise Project Text23 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText24 | `188744752` | Enterprise Project Text24 (Görev) alanını temsil eder. |
@@ -1051,9 +1051,9 @@ public enum Field
 | TaskEnterpriseProjectText29 | `188744757` | Enterprise Project Text29 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText3 | `188744731` | Enterprise Project Text3 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText30 | `188744758` | Enterprise Project Text30 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectText31 | `188744759` | Kurumsal Proje Metni31 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectText31 | `188744759` | Enterprise Project Text31 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText32 | `188744760` | Enterprise Project Text32 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectText33 | `188744761` | Kurumsal Proje Metni33 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectText33 | `188744761` | Enterprise Project Text33 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText34 | `188744762` | Enterprise Project Text34 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText35 | `188744763` | Enterprise Project Text35 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText36 | `188744764` | Enterprise Project Text36 (Görev) alanını temsil eder. |
@@ -1062,58 +1062,58 @@ public enum Field
 | TaskEnterpriseProjectText39 | `188744767` | Enterprise Project Text39 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText4 | `188744732` | Enterprise Project Text4 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText40 | `188744768` | Enterprise Project Text40 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectText5 | `188744733` | Kurumsal Proje Metni5 (Görev) alanını temsil eder. |
+| TaskEnterpriseProjectText5 | `188744733` | Enterprise Project Text5 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText6 | `188744734` | Enterprise Project Text6 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText7 | `188744735` | Enterprise Project Text7 (Görev) alanını temsil eder. |
 | TaskEnterpriseProjectText8 | `188744736` | Enterprise Project Text8 (Görev) alanını temsil eder. |
-| TaskEnterpriseProjectText9 | `188744737` | Enterprise Project Text9(Görev) alanını temsil eder. |
+| TaskEnterpriseProjectText9 | `188744737` | Kurumsal Proje Metni9(Görev) alanını temsil eder. |
 | TaskEnterpriseText1 | `188744479` | Kurumsal Metin1 (Görev) alanını temsil eder. |
 | TaskEnterpriseText10 | `188744488` | Enterprise Text10 (Görev) alanını temsil eder. |
 | TaskEnterpriseText11 | `188744489` | Kurumsal Metin11 (Görev) alanını temsil eder. |
-| TaskEnterpriseText12 | `188744490` | Kurumsal Metin12 (Görev) alanını temsil eder. |
+| TaskEnterpriseText12 | `188744490` | Enterprise Text12 (Görev) alanını temsil eder. |
 | TaskEnterpriseText13 | `188744491` | Kurumsal Metin13 (Görev) alanını temsil eder. |
-| TaskEnterpriseText14 | `188744492` | Kurumsal Metin14 (Görev) alanını temsil eder. |
+| TaskEnterpriseText14 | `188744492` | Enterprise Text14 (Görev) alanını temsil eder. |
 | TaskEnterpriseText15 | `188744493` | Kurumsal Metin15 (Görev) alanını temsil eder. |
-| TaskEnterpriseText16 | `188744494` | Kurumsal Metin16 (Görev) alanını temsil eder. |
-| TaskEnterpriseText17 | `188744495` | Kurumsal Metin17 (Görev) alanını temsil eder. |
-| TaskEnterpriseText18 | `188744496` | Kurumsal Metin18 (Görev) alanını temsil eder. |
-| TaskEnterpriseText19 | `188744497` | Kurumsal Metin19 (Görev) alanını temsil eder. |
-| TaskEnterpriseText2 | `188744480` | Kurumsal Metin2 (Görev) alanını temsil eder. |
-| TaskEnterpriseText20 | `188744498` | Kurumsal Metin20 (Görev) alanını temsil eder. |
-| TaskEnterpriseText21 | `188744499` | Kurumsal Metin21 (Görev) alanını temsil eder. |
+| TaskEnterpriseText16 | `188744494` | Enterprise Text16 (Görev) alanını temsil eder. |
+| TaskEnterpriseText17 | `188744495` | Enterprise Text17 (Görev) alanını temsil eder. |
+| TaskEnterpriseText18 | `188744496` | Enterprise Text18 (Görev) alanını temsil eder. |
+| TaskEnterpriseText19 | `188744497` | Enterprise Text19 (Görev) alanını temsil eder. |
+| TaskEnterpriseText2 | `188744480` | Enterprise Text2 (Görev) alanını temsil eder. |
+| TaskEnterpriseText20 | `188744498` | Enterprise Text20 (Görev) alanını temsil eder. |
+| TaskEnterpriseText21 | `188744499` | Enterprise Text21 (Görev) alanını temsil eder. |
 | TaskEnterpriseText22 | `188744500` | Enterprise Text22 (Görev) alanını temsil eder. |
-| TaskEnterpriseText23 | `188744501` | Kurumsal Metin23 (Görev) alanını temsil eder. |
+| TaskEnterpriseText23 | `188744501` | Enterprise Text23 (Görev) alanını temsil eder. |
 | TaskEnterpriseText24 | `188744502` | Enterprise Text24 (Görev) alanını temsil eder. |
-| TaskEnterpriseText25 | `188744503` | Kurumsal Metin25 (Görev) alanını temsil eder. |
-| TaskEnterpriseText26 | `188744504` | Kurumsal Metin26 (Görev) alanını temsil eder. |
-| TaskEnterpriseText27 | `188744505` | Kurumsal Metin27 (Görev) alanını temsil eder. |
-| TaskEnterpriseText28 | `188744506` | Kurumsal Metin28 (Görev) alanını temsil eder. |
-| TaskEnterpriseText29 | `188744507` | Kurumsal Metin29 (Görev) alanını temsil eder. |
-| TaskEnterpriseText3 | `188744481` | Kurumsal Metin3 (Görev) alanını temsil eder. |
+| TaskEnterpriseText25 | `188744503` | Enterprise Text25 (Görev) alanını temsil eder. |
+| TaskEnterpriseText26 | `188744504` | Enterprise Text26 (Görev) alanını temsil eder. |
+| TaskEnterpriseText27 | `188744505` | Enterprise Text27 (Görev) alanını temsil eder. |
+| TaskEnterpriseText28 | `188744506` | Enterprise Text28 (Görev) alanını temsil eder. |
+| TaskEnterpriseText29 | `188744507` | Enterprise Text29 (Görev) alanını temsil eder. |
+| TaskEnterpriseText3 | `188744481` | Enterprise Text3 (Görev) alanını temsil eder. |
 | TaskEnterpriseText30 | `188744508` | Enterprise Text30 (Görev) alanını temsil eder. |
-| TaskEnterpriseText31 | `188744509` | Kurumsal Metin31 (Görev) alanını temsil eder. |
+| TaskEnterpriseText31 | `188744509` | Enterprise Text31 (Görev) alanını temsil eder. |
 | TaskEnterpriseText32 | `188744510` | Enterprise Text32 (Görev) alanını temsil eder. |
-| TaskEnterpriseText33 | `188744511` | Kurumsal Metin33 (Görev) alanını temsil eder. |
-| TaskEnterpriseText34 | `188744512` | Kurumsal Metin34 (Görev) alanını temsil eder. |
+| TaskEnterpriseText33 | `188744511` | Enterprise Text33 (Görev) alanını temsil eder. |
+| TaskEnterpriseText34 | `188744512` | Enterprise Text34 (Görev) alanını temsil eder. |
 | TaskEnterpriseText35 | `188744513` | Enterprise Text35 (Görev) alanını temsil eder. |
 | TaskEnterpriseText36 | `188744514` | Enterprise Text36 (Görev) alanını temsil eder. |
-| TaskEnterpriseText37 | `188744515` | Kurumsal Metin37 (Görev) alanını temsil eder. |
-| TaskEnterpriseText38 | `188744516` | Kurumsal Metin38 (Görev) alanını temsil eder. |
-| TaskEnterpriseText39 | `188744517` | Kurumsal Metin39 (Görev) alanını temsil eder. |
-| TaskEnterpriseText4 | `188744482` | Kurumsal Metin4 (Görev) alanını temsil eder. |
+| TaskEnterpriseText37 | `188744515` | Enterprise Text37 (Görev) alanını temsil eder. |
+| TaskEnterpriseText38 | `188744516` | Enterprise Text38 (Görev) alanını temsil eder. |
+| TaskEnterpriseText39 | `188744517` | Enterprise Text39 (Görev) alanını temsil eder. |
+| TaskEnterpriseText4 | `188744482` | Enterprise Text4 (Görev) alanını temsil eder. |
 | TaskEnterpriseText40 | `188744518` | Enterprise Text40 (Görev) alanını temsil eder. |
-| TaskEnterpriseText5 | `188744483` | Kurumsal Metin5 (Görev) alanını temsil eder. |
-| TaskEnterpriseText6 | `188744484` | Kurumsal Metin6 (Görev) alanını temsil eder. |
-| TaskEnterpriseText7 | `188744485` | Enterprise Text7 (Görev) alanını temsil eder. |
+| TaskEnterpriseText5 | `188744483` | Enterprise Text5 (Görev) alanını temsil eder. |
+| TaskEnterpriseText6 | `188744484` | Enterprise Text6 (Görev) alanını temsil eder. |
+| TaskEnterpriseText7 | `188744485` | Kurumsal Metin7 (Görev) alanını temsil eder. |
 | TaskEnterpriseText8 | `188744486` | Enterprise Text8 (Görev) alanını temsil eder. |
-| TaskEnterpriseText9 | `188744487` | Kurumsal Metin9 (Görev) alanını temsil eder. |
+| TaskEnterpriseText9 | `188744487` | Enterprise Text9 (Görev) alanını temsil eder. |
 | TaskErrorMessage | `188744847` | Hata Mesajı (Görev) alanını temsil eder. |
 | TaskEstimated | `188744076` | Tahmini (Görev) alanını temsil eder. |
 | TaskExternalTask | `188743912` | Harici Görev (Görev) alanını temsil eder. |
 | TaskFinish | `188743716` | Bitir (Görev) alanını temsil eder. |
 | TaskFinish1 | `188743733` | Bitir1 (Görev) alanını temsil eder. |
 | TaskFinish10 | `188743971` | Finish10 (Görev) alanını temsil eder. |
-| TaskFinish2 | `188743736` | Bitir2 (Görev) alanını temsil eder. |
+| TaskFinish2 | `188743736` | Finish2 (Görev) alanını temsil eder. |
 | TaskFinish3 | `188743739` | Finish3 (Görev) alanını temsil eder. |
 | TaskFinish4 | `188743742` | Finish4 (Görev) alanını temsil eder. |
 | TaskFinish5 | `188743745` | Finish5 (Görev) alanını temsil eder. |
@@ -1121,16 +1121,16 @@ public enum Field
 | TaskFinish7 | `188743965` | Finish7 (Görev) alanını temsil eder. |
 | TaskFinish8 | `188743967` | Finish8 (Görev) alanını temsil eder. |
 | TaskFinish9 | `188743969` | Finish9 (Görev) alanını temsil eder. |
-| TaskFinishSlack | `188744119` | Bitirme Bolluğu (Görev) alanını temsil eder. |
-| TaskFinishText | `188744966` | Görev Bitirme Metni (Görev) alanını temsil eder. |
+| TaskFinishSlack | `188744119` | Bolluğu Bitir (Görev) alanını temsil eder. |
+| TaskFinishText | `188744966` | Görev Bitiş Metni (Görev) alanını temsil eder. |
 | TaskFinishVariance | `188743726` | Bitiş Farkı (Görev) alanını temsil eder. |
 | TaskFixedCost | `188743688` | Sabit Maliyet (Görev) alanını temsil eder. |
-| TaskFixedCostAccrual | `188743880` | Sabit Maliyet Tahakkuk (Görev) alanını temsil eder. |
+| TaskFixedCostAccrual | `188743880` | Sabit Maliyet Tahakkuku (Görev) alanını temsil eder. |
 | TaskFixedDuration | `188743714` | Sabit Süre (Görev) alanını temsil eder. |
 | TaskFlag1 | `188743752` | Bayrak1 (Görev) alanını temsil eder. |
-| TaskFlag10 | `188743761` | Flag10 (Görev) alanını temsil eder. |
+| TaskFlag10 | `188743761` | Bayrak10 (Görev) alanını temsil eder. |
 | TaskFlag11 | `188743972` | Bayrak11 (Görev) alanını temsil eder. |
-| TaskFlag12 | `188743973` | Flag12 (Görev) alanını temsil eder. |
+| TaskFlag12 | `188743973` | Bayrak12 (Görev) alanını temsil eder. |
 | TaskFlag13 | `188743974` | Bayrak13 (Görev) alanını temsil eder. |
 | TaskFlag14 | `188743975` | Bayrak14 (Görev) alanını temsil eder. |
 | TaskFlag15 | `188743976` | Bayrak15 (Görev) alanını temsil eder. |
@@ -1139,18 +1139,18 @@ public enum Field
 | TaskFlag18 | `188743979` | Bayrak18 (Görev) alanını temsil eder. |
 | TaskFlag19 | `188743980` | Bayrak19 (Görev) alanını temsil eder. |
 | TaskFlag2 | `188743753` | Bayrak2 (Görev) alanını temsil eder. |
-| TaskFlag20 | `188743981` | Flag20 (Görev) alanını temsil eder. |
-| TaskFlag3 | `188743754` | Bayrak3 (Görev) alanını temsil eder. |
-| TaskFlag4 | `188743755` | Bayrak4 (Görev) alanını temsil eder. |
-| TaskFlag5 | `188743756` | Bayrak5 (Görev) alanını temsil eder. |
-| TaskFlag6 | `188743757` | Bayrak6 (Görev) alanını temsil eder. |
+| TaskFlag20 | `188743981` | Bayrak20 (Görev) alanını temsil eder. |
+| TaskFlag3 | `188743754` | Flag3 (Görev) alanını temsil eder. |
+| TaskFlag4 | `188743755` | Flag4 (Görev) alanını temsil eder. |
+| TaskFlag5 | `188743756` | Flag5 (Görev) alanını temsil eder. |
+| TaskFlag6 | `188743757` | Flag6 (Görev) alanını temsil eder. |
 | TaskFlag7 | `188743758` | Flag7 (Görev) alanını temsil eder. |
 | TaskFlag8 | `188743759` | Flag8 (Görev) alanını temsil eder. |
 | TaskFlag9 | `188743760` | Flag9 (Görev) alanını temsil eder. |
 | TaskFreeSlack | `188743701` | Serbest Bolluk (Görev) alanını temsil eder. |
-| TaskGroupBySummary | `188744126` | Özete Göre Grupla (Görev) alanını temsil eder. |
+| TaskGroupBySummary | `188744126` | Özete Göre Gruplandır (Görev) alanını temsil eder. |
 | TaskGuid | `188744823` | Görev GUID (Görev) alanını temsil eder. |
-| TaskHideBar | `188743789` | Çubuğu Gizle (Görev) alanını temsil eder. |
+| TaskHideBar | `188743789` | Gizle Çubuğu (Görev) alanını temsil eder. |
 | TaskHyperlinkId | `188743895` | Köprü Kimliği (Görev) alanını temsil eder. |
 | TaskHyperlink | `188743897` | Köprü (Görev) alanını temsil eder. |
 | TaskHyperlinkAddress | `188743898` | Köprü Adresi (Görev) alanını temsil eder. |
@@ -1158,22 +1158,22 @@ public enum Field
 | TaskHyperlinkScreenTip | `188744132` | Köprü Ekran İpucu (Görev) alanını temsil eder. |
 | TaskHyperlinkSubAddress | `188743899` | Köprü Alt Adresi (Görev) alanını temsil eder. |
 | TaskID | `188743703` | Kimlik (Görev) alanını temsil eder. |
-| TaskIgnoreResourceCalendar | `188744079` | Kaynak Takvimini Yoksay (Görev) alanını temsil eder. |
-| TaskIgnoreWarnings | `188745012` | Görev Uyarılarını Yoksay (Görev) alanını temsil eder. |
+| TaskIgnoreResourceCalendar | `188744079` | Kaynak Takvimi (Görev) Yoksay alanını temsil eder. |
+| TaskIgnoreWarnings | `188745012` | Görev Yoksay Uyarıları (Görev) alanını temsil eder. |
 | TaskIndex | `188744040` | Dizin (Görev) alanını temsil eder. |
 | TaskIndicators | `188743885` | Göstergeler (Görev) alanını temsil eder. |
-| TaskIsAssignment | `188743904` | Atamadır (Görev) alanını temsil eder. |
-| TaskIsDurationValid | `188744977` | Bir el kitabından otomatik olarak zamanlanmış bir göreve dönüştürülürken görev süresinin geçerli olup olmadığını gösteren alanı temsil eder. |
-| TaskIsFinishValid | `188744976` | Bir el kitabından otomatik olarak zamanlanmış bir göreve dönüştürülürken görev bitiş tarihinin geçerli olup olmadığını gösteren alanı temsil eder. |
-| TaskIsStartValid | `188744975` | Bir el kitabından otomatik olarak zamanlanmış bir göreve dönüştürülürken görev başlangıç tarihinin geçerli olup olmadığını gösteren alanı temsil eder. |
+| TaskIsAssignment | `188743904` | Atama (Görev) alanını temsil eder. |
+| TaskIsDurationValid | `188744977` | Manuel görevden otomatik programlanmış göreve geçiş yapılırken görev süresinin geçerli olup olmadığını gösteren alanı temsil eder. |
+| TaskIsFinishValid | `188744976` | Manuel görevden otomatik programlanmış göreve geçiş yapılırken görev bitiş tarihinin geçerli olup olmadığını gösteren alanı temsil eder. |
+| TaskIsStartValid | `188744975` | Manuel görevden otomatik zamanlanan göreve geçiş yapılırken görev başlangıç tarihinin geçerli olup olmadığını gösteren alanı temsil eder. |
 | TaskIsPublished | `188744845` | Yayınlandı (Görev) alanını temsil eder. |
 | TaskLateFinish | `188743720` | Geç Bitirme (Görev) alanını temsil eder. |
 | TaskLateStart | `188743719` | Geç Başlatma (Görev) alanını temsil eder. |
 | TaskLevelAssignments | `188743933` | Düzey Atamaları (Görev) alanını temsil eder. |
-| TaskLevelCanSplit | `188743932` | Düzey Bölünebilir (Görev) alanını temsil eder. |
-| TaskLevelDelay | `188743700` | Düzey Gecikmesi (Görev) alanını temsil eder. |
+| TaskLevelCanSplit | `188743932` | Seviye Bölünebilir (Görev) alanını temsil eder. |
+| TaskLevelDelay | `188743700` | Seviye Gecikmesi (Görev) alanını temsil eder. |
 | TaskLinkedFields | `188743778` | Bağlantılı Alanlar (Görev) alanını temsil eder. |
-| TaskManual | `188744960` | Görev Kılavuzu (TASK) alanını temsil eder. |
+| TaskManual | `188744960` | Görev El Kitabı (TASK) alanını temsil eder. |
 | TaskMarked | `188743751` | İşaretli (Görev) alanını temsil eder. |
 | TaskMilestone | `188743704` | Kilometre Taşı (Görev) alanını temsil eder. |
 | TaskName | `188743694` | Ad (Görev) alanını temsil eder. |
@@ -1181,55 +1181,55 @@ public enum Field
 | TaskNumber1 | `188743767` | Sayı1 (Görev) alanını temsil eder. |
 | TaskNumber10 | `188743986` | Number10 (Görev) alanını temsil eder. |
 | TaskNumber11 | `188743987` | Sayı11 (Görev) alanını temsil eder. |
-| TaskNumber12 | `188743988` | 12 Sayı (Görev) alanını temsil eder. |
-| TaskNumber13 | `188743989` | 13 Numara (Görev) alanını temsil eder. |
+| TaskNumber12 | `188743988` | Sayı12 (Görev) alanını temsil eder. |
+| TaskNumber13 | `188743989` | Sayı13 (Görev) alanını temsil eder. |
 | TaskNumber14 | `188743990` | Sayı14 (Görev) alanını temsil eder. |
 | TaskNumber15 | `188743991` | Sayı15 (Görev) alanını temsil eder.. |
 | TaskNumber16 | `188743992` | Sayı16 (Görev) alanını temsil eder. |
-| TaskNumber17 | `188743993` | 17 Sayısı (Görev) alanını temsil eder. |
+| TaskNumber17 | `188743993` | Sayı17 (Görev) alanını temsil eder. |
 | TaskNumber18 | `188743994` | Sayı18 (Görev) alanını temsil eder. |
-| TaskNumber19 | `188743995` | Sayı 19 (Görev) alanını temsil eder. |
+| TaskNumber19 | `188743995` | Sayı19 (Görev) alanını temsil eder. |
 | TaskNumber2 | `188743768` | Sayı2 (Görev) alanını temsil eder. |
-| TaskNumber20 | `188743996` | 20 Numara (Görev) alanını temsil eder. |
+| TaskNumber20 | `188743996` | Sayı20 (Görev) alanını temsil eder. |
 | TaskNumber3 | `188743769` | Sayı3 (Görev) alanını temsil eder. |
-| TaskNumber4 | `188743770` | Sayı4 (Görev) alanını temsil eder. |
-| TaskNumber5 | `188743771` | Number5 (Görev) alanını temsil eder. |
-| TaskNumber6 | `188743982` | Sayı6 (Görev) alanını temsil eder. |
-| TaskNumber7 | `188743983` | Sayı7 (Görev) alanını temsil eder. |
+| TaskNumber4 | `188743770` | 4 Numara (Görev) alanını temsil eder. |
+| TaskNumber5 | `188743771` | 5 Numara (Görev) alanını temsil eder. |
+| TaskNumber6 | `188743982` | 6 Numara (Görev) alanını temsil eder. |
+| TaskNumber7 | `188743983` | Number7 (Görev) alanını temsil eder. |
 | TaskNumber8 | `188743984` | Number8 (Görev) alanını temsil eder. |
 | TaskNumber9 | `188743985` | Number9 (Görev) alanını temsil eder. |
 | TaskObjects | `188743777` | Nesneler (Görev) alanını temsil eder. |
 | TaskOutlineCode1 | `188744096` | Anahat Kodu1 (Görev) alanını temsil eder. |
-| TaskOutlineCode10 | `188744114` | Anahat Kodu10 (Görev) alanını temsil eder. |
+| TaskOutlineCode10 | `188744114` | Ana Hat Kodu10 (Görev) alanını temsil eder. |
 | TaskOutlineCode2 | `188744098` | Anahat Kodu2 (Görev) alanını temsil eder. |
-| TaskOutlineCode3 | `188744100` | Anahat Kodu3 (Görev) alanını temsil eder. |
+| TaskOutlineCode3 | `188744100` | Ana Hat Kodu3 (Görev) alanını temsil eder. |
 | TaskOutlineCode4 | `188744102` | Anahat Kodu4 (Görev) alanını temsil eder. |
 | TaskOutlineCode5 | `188744104` | Anahat Kodu5 (Görev) alanını temsil eder. |
 | TaskOutlineCode6 | `188744106` | Anahat Kodu6 (Görev) alanını temsil eder. |
 | TaskOutlineCode7 | `188744108` | Anahat Kodu7 (Görev) alanını temsil eder. |
-| TaskOutlineCode8 | `188744110` | Anahat Kodu8 (Görev) alanını temsil eder. |
-| TaskOutlineCode9 | `188744112` | Anahat Kodu9 (Görev) alanını temsil eder. |
-| TaskOutlineLevel | `188743765` | Anahat Düzeyi (Görev) alanını temsil eder. |
+| TaskOutlineCode8 | `188744110` | Ana Hat Kodu8 (Görev) alanını temsil eder. |
+| TaskOutlineCode9 | `188744112` | Ana Hat Kodu9 (Görev) alanını temsil eder. |
+| TaskOutlineLevel | `188743765` | Ana Hat Düzeyi (Görev) alanını temsil eder. |
 | TaskOutlineNumber | `188743782` | Anahat Kodu (Görev) alanını temsil eder. |
 | TaskOverallocated | `188743905` | Fazla Yüklenmiş (Görev) alanını temsil eder. |
 | TaskOvertimeCost | `188743848` | Fazla Mesai Maliyeti (Görev) alanını temsil eder. |
 | TaskOvertimeWork | `188743843` | Fazla Mesai (Görev) alanını temsil eder. |
-| TaskPathDrivenSuccessor | `188745063` | Bir görev yolu için sürülen ardıl alanı. Task.PathDrivenSuccessor özelliğine bakın. |
-| TaskPathDrivingPredecessor | `188745061` | Bir görev yolu için sürücü öncül alanı. Task.PathDrivingPredecessor özelliğine bakın. |
+| TaskPathDrivenSuccessor | `188745063` | Bir görev yolu için sürülen halef alanı. Task.PathDrivenSuccessor özelliğine bakın. |
+| TaskPathDrivingPredecessor | `188745061` | Bir görev yolu için sürüş öncül alanı. Task.PathDrivingPredecessor özelliğine bakın. |
 | TaskPathPredecessor | `188745062` | Görev yolu için öncül alan. Task.PathPredecessor özelliğine bakın. |
-| TaskPathSuccessor | `188745064` | Görev yolunun ardıl alanı. Task.PathSuccessor özelliğine bakın. |
+| TaskPathSuccessor | `188745064` | Görev yolu için ardıl alan. Task.PathSuccessor özelliğine bakın. |
 | TaskSummaryName | `188745085` | Görevle ilişkili özet görevin adı. |
-| TaskParentTask | `188743815` | Ana Görev (Görev) alanını temsil eder. |
+| TaskParentTask | `188743815` | Üst Görev (Görev) alanını temsil eder. |
 | TaskPercentComplete | `188743712` | Tamamlanma Yüzdesi (Görev) alanını temsil eder. |
-| TaskPercentWorkComplete | `188743713` | Tamamlanan İş Yüzdesi (Görev) alanını temsil eder. |
+| TaskPercentWorkComplete | `188743713` | Tamamlanan Çalışma Yüzdesi (Görev) alanını temsil eder. |
 | TaskPhysicalPercentComplete | `188744799` | Fiziksel Tamamlanma Yüzdesi (Görev) alanını temsil eder. |
-| TaskPlaceholder | `188744961` | Görev Yer Tutucusu (Görev) alanını temsil eder. |
-| TaskPredecessors | `188743727` | Öncüller (Görev) alanını temsil eder. Başlatılmadan veya tamamlanmadan önce görevin bağlı olduğu önceki görevlerin görev kimlik numaraları. |
-| TaskPreleveledFinish | `188744050` | Ön Düzeylendirilmiş Bitirme (Görev) alanını temsil eder. |
+| TaskPlaceholder | `188744961` | Görev Yer Tutucu (Görev) alanını temsil eder. |
+| TaskPredecessors | `188743727` | Öncüller (Görev) alanını temsil eder. Başlatılmadan veya bitirilmeden önce görevin bağlı olduğu öncül görevler için görev kimliği numaraları. |
+| TaskPreleveledFinish | `188744050` | Ön Düzeyli Bitiş (Görev) alanını temsil eder. |
 | TaskPreleveledStart | `188744049` | Ön Düzeyli Başlangıç (Görev) alanını temsil eder. |
 | TaskPriority | `188743705` | Öncelik (Görev) alanını temsil eder. |
 | TaskProject | `188743764` | Proje (Görev) alanını temsil eder. |
-| TaskRecalcFlags | `188744930` | Yeniden Hesaplama Bayrakları (Görev) alanını temsil eder. |
+| TaskRecalcFlags | `188744930` | Yeniden Hesaplama İşaretleri (Görev) alanını temsil eder. |
 | TaskRecurring | `188743809` | Yinelenen (Görev) alanını temsil eder. |
 | TaskRegularWork | `188743846` | Normal Çalışma (Görev) alanını temsil eder. |
 | TaskRemainingCost | `188743690` | Kalan Maliyet (Görev) alanını temsil eder. |
@@ -1248,7 +1248,7 @@ public enum Field
 | TaskResourceEnterpriseMultiValueCode28 | `188744817` | Enterprise Resource MultiValue Code28 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseMultiValueCode29 | `188744818` | Enterprise Resource MultiValue Code29 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode1 | `188744769` | Kurumsal Kaynak Anahat Kodu1 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode10 | `188744778` | Kurumsal Kaynak Anahat Kodu10 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode10 | `188744778` | Enterprise Resource Outline Code10 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode11 | `188744779` | Kurumsal Kaynak Anahat Kodu11 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode12 | `188744780` | Kurumsal Kaynak Anahat Kodu12 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode13 | `188744781` | Kurumsal Kaynak Anahat Kodu13 (Görev) alanını temsil eder. |
@@ -1258,65 +1258,65 @@ public enum Field
 | TaskResourceEnterpriseOutlineCode17 | `188744785` | Kurumsal Kaynak Anahat Kodu17 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode18 | `188744786` | Kurumsal Kaynak Anahat Kodu18 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode19 | `188744787` | Kurumsal Kaynak Anahat Kodu19 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode2 | `188744770` | Kurumsal Kaynak Anahat Kodu2 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode20 | `188744788` | Kurumsal Kaynak Anahat Kodu20 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode2 | `188744770` | Enterprise Resource Outline Code2 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode20 | `188744788` | Enterprise Resource Outline Code20 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode21 | `188744789` | Kurumsal Kaynak Anahat Kodu21 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode22 | `188744790` | Kurumsal Kaynak Anahat Kodu22 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode23 | `188744791` | Kurumsal Kaynak Anahat Kodu23 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode24 | `188744792` | Kurumsal Kaynak Anahat Kodu24 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode25 | `188744793` | Kurumsal Kaynak Anahat Kodu25 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode26 | `188744794` | Kurumsal Kaynak Anahat Kodu26 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode27 | `188744795` | Kurumsal Kaynak Anahat Kodu27 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode28 | `188744796` | Kurumsal Kaynak Anahat Kodu28 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode22 | `188744790` | Enterprise Resource Outline Code22 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode23 | `188744791` | Enterprise Resource Outline Code23 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode24 | `188744792` | Enterprise Resource Outline Code24 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode25 | `188744793` | Enterprise Resource Outline Code25 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode26 | `188744794` | Enterprise Resource Outline Code26 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode27 | `188744795` | Enterprise Resource Outline Code27 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode28 | `188744796` | Enterprise Resource Outline Code28 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode29 | `188744797` | Kurumsal Kaynak Anahat Kodu29 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode3 | `188744771` | Kurumsal Kaynak Anahat Kodu3 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode3 | `188744771` | Enterprise Resource Outline Code3 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode4 | `188744772` | Kurumsal Kaynak Anahat Kodu4 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode5 | `188744773` | Kurumsal Kaynak Anahat Kodu5 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode6 | `188744774` | Kurumsal Kaynak Anahat Kodu6 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode5 | `188744773` | Enterprise Resource Outline Code5 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode6 | `188744774` | Enterprise Resource Outline Code6 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode7 | `188744775` | Kurumsal Kaynak Anahat Kodu7 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseOutlineCode8 | `188744776` | Kurumsal Kaynak Anahat Kodu8 (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseOutlineCode8 | `188744776` | Enterprise Resource Outline Code8 (Görev) alanını temsil eder. |
 | TaskResourceEnterpriseOutlineCode9 | `188744777` | Kurumsal Kaynak Anahat Kodu9 (Görev) alanını temsil eder. |
-| TaskResourceEnterpriseRBS | `188744798` | Enterprise Resource RBS (Görev) alanını temsil eder. |
+| TaskResourceEnterpriseRBS | `188744798` | Kurumsal Kaynak RBS (Görev) alanını temsil eder. |
 | TaskResourceGroup | `188743793` | Kaynak Grubu (Görev) alanını temsil eder. |
-| TaskResourceInitials | `188743730` | Kaynak Başlangıçları (Görev) alanını temsil eder. |
+| TaskResourceInitials | `188743730` | Kaynak Baş Harfleri (Görev) alanını temsil eder. |
 | TaskResourceNames | `188743729` | Kaynak Adları (Görev) alanını temsil eder. |
-| TaskResourcePhonetics | `188744029` | Kaynak Fonetiği (Görev) alanını temsil eder. |
+| TaskResourcePhonetics | `188744029` | Kaynak Fonetik (Görev) alanını temsil eder. |
 | TaskResourceType | `188744131` | Kaynak Türü (Görev) alanını temsil eder. |
-| TaskResponsePending | `188743930` | Yanıt Bekleyen (Görev) alanını temsil eder. |
-| TaskResume | `188743779` | Sürdürme (Görev) alanını temsil eder. |
-| TaskResumeNoEarlierThan | `188743781` | Şundan Önce Sürdürme (Görev) alanını temsil eder. |
+| TaskResponsePending | `188743930` | Yanıt Bekliyor (Görev) alanını temsil eder. |
+| TaskResume | `188743779` | Sürdür (Görev) alanını temsil eder. |
+| TaskResumeNoEarlierThan | `188743781` | Devam Etme Tarihinden Daha Önce (Görev) alanını temsil eder. |
 | TaskRollup | `188743762` | Toplama (Görev) alanını temsil eder. |
-| TaskScheduledDuration | `188745020` | Görev Zamanlanmış Süre (Görev) alanını temsil eder. |
-| TaskScheduledFinish | `188745019` | Görev Zamanlanmış Bitirme (Görev) alanını temsil eder. |
-| TaskScheduledStart | `188745018` | Görev Zamanlanmış Başlatma (Görev) alanını temsil eder. |
+| TaskScheduledDuration | `188745020` | Görev Zamanlanmış Süresi (Görev) alanını temsil eder. |
+| TaskScheduledFinish | `188745019` | Görev Zamanlanmış Bitiş (Görev) alanını temsil eder. |
+| TaskScheduledStart | `188745018` | Görev Zamanlanmış Başlangıç (Görev) alanını temsil eder. |
 | TaskSheetNotes | `188743774` | Sayfa Notları (Görev) alanını temsil eder. |
 | TaskSPI | `188744218` | SPI (Görev) alanını temsil eder. |
 | TaskStart | `188743715` | Başlat (Görev) alanını temsil eder. |
 | TaskStart1 | `188743732` | Başlangıç1 (Görev) alanını temsil eder. |
-| TaskStart10 | `188743970` | Başlangıç10 (Görev) alanını temsil eder. |
-| TaskStart2 | `188743735` | Başlangıç2 (Görev) alanını temsil eder. |
-| TaskStart3 | `188743738` | Başlangıç3 (Görev) alanını temsil eder. |
-| TaskStart4 | `188743741` | Başlat4 (Görev) alanını temsil eder. |
-| TaskStart5 | `188743744` | Başlangıç5 (Görev) alanını temsil eder. |
-| TaskStart6 | `188743962` | Başlangıç6 (Görev) alanını temsil eder. |
-| TaskStart7 | `188743964` | Başlangıç7 (Görev) alanını temsil eder. |
-| TaskStart8 | `188743966` | Başlangıç8 (Görev) alanını temsil eder. |
-| TaskStart9 | `188743968` | Başlangıç9 (Görev) alanını temsil eder. |
-| TaskStartSlack | `188744118` | Boşluğu Başlat (Görev) alanını temsil eder. |
+| TaskStart10 | `188743970` | Start10 (Görev) alanını temsil eder. |
+| TaskStart2 | `188743735` | Start2 (Görev) alanını temsil eder. |
+| TaskStart3 | `188743738` | Start3 (Görev) alanını temsil eder. |
+| TaskStart4 | `188743741` | Start4 (Görev) alanını temsil eder. |
+| TaskStart5 | `188743744` | Start5 (Görev) alanını temsil eder. |
+| TaskStart6 | `188743962` | Start6 (Görev) alanını temsil eder. |
+| TaskStart7 | `188743964` | Start7 (Görev) alanını temsil eder. |
+| TaskStart8 | `188743966` | Start8 (Görev) alanını temsil eder. |
+| TaskStart9 | `188743968` | Start9 (Görev) alanını temsil eder. |
+| TaskStartSlack | `188744118` | Bolluğu Başlat (Görev) alanını temsil eder. |
 | TaskStartText | `188744965` | Görev Başlangıç Metni (Görev) alanını temsil eder. |
-| TaskStartVariance | `188743725` | Varyansı Başlat (Görev) alanını temsil eder. |
+| TaskStartVariance | `188743725` | Başlangıç Farkı (Görev) alanını temsil eder. |
 | TaskStatus | `188744223` | Durum (Görev) alanını temsil eder. |
 | TaskStatusIndicator | `188744801` | Durum Göstergesi (Görev) alanını temsil eder. |
 | TaskStatusManagerName | `188744846` | Durum Yöneticisi Adı (Görev) alanını temsil eder. |
 | TaskStop | `188743780` | Durdur (Görev) alanını temsil eder. |
 | TaskSubproject | `188743706` | Alt Proje (Görev) alanını temsil eder. |
 | TaskSubprojectReadOnly | `188743926` | Alt Proje Salt Okunur (Görev) alanını temsil eder. |
-| TaskSuccessors | `188743728` | Ardıllar (Görev) alanını temsil eder. Bir görevin ardıl görevleri için görev kimliği numaraları. |
+| TaskSuccessors | `188743728` | Ardıllar (Görev) alanını temsil eder. Bir göreve ardıl görevler için görev kimliği numaraları. |
 | TaskSummary | `188743772` | Özet (Görev) alanını temsil eder. |
 | TaskSV | `188743693` | SV (Görev) alanını temsil eder. |
 | TaskSVPercent | `188744220` | SV Yüzdesi (Görev) alanını temsil eder. |
 | TaskTCPI | `188744222` | TCPI (Görev) alanını temsil eder. |
-| TaskTeamStatusPending | `188743931` | Takım Durumu Beklemede (Görev) alanını temsil eder. |
+| TaskTeamStatusPending | `188743931` | Bekleyen Ekip Durumu (Görev) alanını temsil eder. |
 | TaskText1 | `188743731` | Metin1 (Görev) alanını temsil eder. |
 | TaskText10 | `188743750` | Metin10 (Görev) alanını temsil eder. |
 | TaskText11 | `188743997` | Metin11 (Görev) alanını temsil eder. |
@@ -1329,39 +1329,39 @@ public enum Field
 | TaskText18 | `188744004` | Metin18 (Görev) alanını temsil eder. |
 | TaskText19 | `188744005` | Metin19 (Görev) alanını temsil eder. |
 | TaskText2 | `188743734` | Metin2 (Görev) alanını temsil eder. |
-| TaskText20 | `188744006` | Metin20 (Görev) alanını temsil eder. |
+| TaskText20 | `188744006` | Text20 (Görev) alanını temsil eder. |
 | TaskText21 | `188744007` | Metin21 (Görev) alanını temsil eder. |
 | TaskText22 | `188744008` | Metin22 (Görev) alanını temsil eder. |
-| TaskText23 | `188744009` | Metin23 (Görev) alanını temsil eder. |
+| TaskText23 | `188744009` | Text23 (Görev) alanını temsil eder. |
 | TaskText24 | `188744010` | Text24 (Görev) alanını temsil eder. |
-| TaskText25 | `188744011` | Metin25 (Görev) alanını temsil eder. |
-| TaskText26 | `188744012` | Metin26 (Görev) alanını temsil eder. |
-| TaskText27 | `188744013` | Metin27 (Görev) alanını temsil eder. |
-| TaskText28 | `188744014` | Metin28 (Görev) alanını temsil eder. |
+| TaskText25 | `188744011` | Text25 (Görev) alanını temsil eder. |
+| TaskText26 | `188744012` | Text26 (Görev) alanını temsil eder. |
+| TaskText27 | `188744013` | Text27 (Görev) alanını temsil eder. |
+| TaskText28 | `188744014` | Text28 (Görev) alanını temsil eder. |
 | TaskText29 | `188744015` | Metin29 (Görev) alanını temsil eder. |
 | TaskText3 | `188743737` | Metin3 (Görev) alanını temsil eder. |
-| TaskText30 | `188744016` | Metin30 (Görev) alanını temsil eder. |
+| TaskText30 | `188744016` | Text30 (Görev) alanını temsil eder. |
 | TaskText4 | `188743740` | Metin4 (Görev) alanını temsil eder. |
 | TaskText5 | `188743743` | Metin5 (Görev) alanını temsil eder. |
 | TaskText6 | `188743746` | Metin6 (Görev) alanını temsil eder. |
 | TaskText7 | `188743747` | Metin7 (Görev) alanını temsil eder. |
-| TaskText8 | `188743748` | Metin8 (Görev) alanını temsil eder. |
+| TaskText8 | `188743748` | Text8 (Görev) alanını temsil eder. |
 | TaskText9 | `188743749` | Metin9 (Görev) alanını temsil eder. |
 | TaskTotalSlack | `188743702` | Toplam Bolluk (Görev) alanını temsil eder. |
 | TaskType | `188743808` | Tür (Görev) alanını temsil eder. |
 | TaskUniqueID | `188743766` | Benzersiz Kimlik (Görev) alanını temsil eder. |
-| TaskUniquePredecessors | `188743775` | Benzersiz Kimlik Öncülleri (Görev) alanını temsil eder. |
+| TaskUniquePredecessors | `188743775` | Benzersiz Kimlik Öncelleri (Görev) alanını temsil eder. |
 | TaskUniqueSuccessors | `188743776` | Benzersiz Kimlik Ardılları (Görev) alanını temsil eder. |
-| TaskUpdateNeeded | `188743791` | Güncelleme Gerekli (Görev) alanını temsil eder. |
+| TaskUpdateNeeded | `188743791` | Güncelleme Gerekiyor (Görev) alanını temsil eder. |
 | TaskVAC | `188744121` | VAC (Görev) alanını temsil eder. |
 | TaskWarning | `188744962` | Görev Uyarısı (Görev) alanını temsil eder. |
-| TaskWBS | `188743696` | İKY (Görev) alanını temsil eder. |
-| TaskWBSPredecessors | `188744129` | İKY Öncelleri (Görev) alanını temsil eder. |
-| TaskWBSSuccessors | `188744130` | İKY Ardılları (Görev) alanını temsil eder. |
-| TaskWork | `188743680` | Çalışma (Görev) alanını temsil eder. |
-| TaskWorkContour | `188743936` | Çalışma Kontur (Görev) alanını temsil eder. |
-| TaskWorkVariance | `188743683` | İş Farkı (Görev) alanını temsil eder. |
-| TaskCompleteThrough | `188743799` | Yalnızca MSP'deki Çubuk Stilleri iletişim kutusunda bulunur ve Gantt Grafiği'nde bir çubuk olarak gösterilir. |
+| TaskWBS | `188743696` | WBS (Görev) alanını temsil eder. |
+| TaskWBSPredecessors | `188744129` | ÇÇY Öncülleri (Görev) alanını temsil eder. |
+| TaskWBSSuccessors | `188744130` | ÇÇY Ardılları (Görev) alanını temsil eder. |
+| TaskWork | `188743680` | İş (Görev) alanını temsil eder. |
+| TaskWorkContour | `188743936` | Çalışma Dağılımı (Görev) alanını temsil eder. |
+| TaskWorkVariance | `188743683` | Çalışma Farkı (Görev) alanını temsil eder. |
+| TaskCompleteThrough | `188743799` | Yalnızca MSP'deki Çubuk Stilleri iletişim kutusunda bulunur ve Gantt Şeması üzerinde bir çubuk olarak gösterilir. |
 | TaskBaseLineFixedCost | `188744160` | Temel Sabit Maliyet (Görev) alanını temsil eder. |
 | ResourceAssignmentGuid | `255853180` | GUID (Atama) alanını temsil eder. |
 | ResourceAssignmentBaseLineStart | `255852690` | Temel Başlangıç (Atama) alanını temsil eder. |
@@ -1372,7 +1372,7 @@ public enum Field
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks)
+* ad alanı [Aspose.Tasks](../../aspose.tasks/)
 * toplantı [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

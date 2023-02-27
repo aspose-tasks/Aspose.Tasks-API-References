@@ -1,9 +1,9 @@
 ---
-title: Table
+title: Class Table
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rappresenta una tabella in Project
+description: Aspose.Tasks.Table classe. Rappresenta una tabella in Project
 type: docs
-weight: 2020
+weight: 2030
 url: /it/net/aspose.tasks/table/
 ---
 ## Table class
@@ -18,35 +18,34 @@ public class Table
 
 | Nome | Descrizione |
 | --- | --- |
-| [Table](table)() | Inizializza una nuova istanza di[`Table`](../table) classe. |
+| [Table](table/)() | Inizializza una nuova istanza di`Table` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [AdjustHeaderRowHeight](../../aspose.tasks/table/adjustheaderrowheight) { get; set; } | Ottiene o imposta un valore che indica se l'altezza della riga di intestazione della tabella può essere modificata. |
-| [DateFormat](../../aspose.tasks/table/dateformat) { get; set; } | Ottiene o imposta il formato della data della tabella. |
-| [Index](../../aspose.tasks/table/index) { get; } | Ottiene l'indice di un oggetto Table nell'oggetto che contiene le tabelle. |
-| [LockFirstColumn](../../aspose.tasks/table/lockfirstcolumn) { get; set; } | Ottiene o imposta un valore che indica se la prima colonna di una tabella è bloccata o modificabile. |
-| [Name](../../aspose.tasks/table/name) { get; set; } | Ottiene o imposta il nome di un oggetto Table. |
-| [ParentProject](../../aspose.tasks/table/parentproject) { get; } | Ottiene il padre dell'oggetto Table. Sola lettura[`Project`](../project) . |
-| [RowHeight](../../aspose.tasks/table/rowheight) { get; set; } | Ottiene o imposta l'altezza della riga in una tabella, dove l'altezza della riga è il numero di righe di testo. |
-| [ShowAddNewColumn](../../aspose.tasks/table/showaddnewcolumn) { get; set; } | Ottiene o imposta un valore che indica se mostrare l'interfaccia "Aggiungi nuova colonna". Supportato dalla versione MSP 2010 e successive. |
-| [ShowInMenu](../../aspose.tasks/table/showinmenu) { get; set; } | Ottiene o imposta un valore che indica se il progetto mostra il nome della tabella nell'elenco a discesa Tabelle della scheda Visualizza della barra multifunzione. |
-| [TableFields](../../aspose.tasks/table/tablefields) { get; } | Ottiene una raccolta TableFields che rappresenta i campi nella tabella. |
-| [TableType](../../aspose.tasks/table/tabletype) { get; } | Ottiene il tipo di tabella per la tabella specificata. Sola lettura[`ItemType`](../itemtype) . |
-| [Uid](../../aspose.tasks/table/uid) { get; } | Ottiene l'identificatore univoco di una tabella. |
+| [AdjustHeaderRowHeight](../../aspose.tasks/table/adjustheaderrowheight/) { get; set; } | Ottiene o imposta un valore che indica se l'altezza della riga di intestazione della tabella può essere regolata. |
+| [DateFormat](../../aspose.tasks/table/dateformat/) { get; set; } | Ottiene o imposta il formato della data della tabella. |
+| [Index](../../aspose.tasks/table/index/) { get; } | Ottiene l'indice di un oggetto Table nell'oggetto che contiene le tabelle. |
+| [LockFirstColumn](../../aspose.tasks/table/lockfirstcolumn/) { get; set; } | Ottiene o imposta un valore che indica se la prima colonna di una tabella è bloccata o modificabile. |
+| [Name](../../aspose.tasks/table/name/) { get; set; } | Ottiene o imposta il nome di un oggetto Table. |
+| [RowHeight](../../aspose.tasks/table/rowheight/) { get; set; } | Ottiene o imposta l'altezza della riga in una tabella, dove l'altezza della riga è il numero di righe di testo. |
+| [ShowAddNewColumn](../../aspose.tasks/table/showaddnewcolumn/) { get; set; } | Ottiene o imposta un valore che indica se mostrare l'interfaccia 'Aggiungi nuova colonna'. Supportato dalla versione MSP 2010 e successive. |
+| [ShowInMenu](../../aspose.tasks/table/showinmenu/) { get; set; } | Ottiene o imposta un valore che indica se il progetto mostra il nome della tabella nell'elenco a discesa Tabelle nella scheda Visualizza della barra multifunzione. |
+| [TableFields](../../aspose.tasks/table/tablefields/) { get; } | Ottiene una raccolta TableFields che rappresenta i campi nella tabella. |
+| [TableType](../../aspose.tasks/table/tabletype/) { get; } | Ottiene il tipo di tabella per la tabella specificata. Sola lettura[`ItemType`](../itemtype/) . |
+| [Uid](../../aspose.tasks/table/uid/) { get; } | Ottiene l'identificatore univoco di una tabella. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.tasks/table/equals)(object) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
-| override [GetHashCode](../../aspose.tasks/table/gethashcode)() | Restituisce un codice hash per questa tabella. |
+| override [Equals](../../aspose.tasks/table/equals/)(object) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| override [GetHashCode](../../aspose.tasks/table/gethashcode/)() | Restituisce un codice hash per questa tabella. |
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks)
+* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
 * assemblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

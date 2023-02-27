@@ -1,9 +1,9 @@
 ---
-title: ProgressLines
+title: Class ProgressLines
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar förloppslinjer i en Gantt-diagramvy.
+description: Aspose.Tasks.Visualization.ProgressLines klass. Representerar förloppslinjer i en Ganttdiagramvy.
 type: docs
-weight: 2920
+weight: 2940
 url: /sv/net/aspose.tasks.visualization/progresslines/
 ---
 ## ProgressLines class
@@ -18,35 +18,35 @@ public class ProgressLines
 
 | namn | Beskrivning |
 | --- | --- |
-| [ProgressLines](progresslines)() | Default_Constructor |
+| [ProgressLines](progresslines/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate) { get; set; } | Hämtar eller ställer in datumet för att visa förloppsrader från. |
-| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsrader ska visas från början av projektets startdatum. |
-| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat) { get; set; } | Hämtar eller ställer in datumformatet ([`DateLabel`](../datelabel) ). |
-| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsraden ska visas vid aktuellt datum. |
-| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsraden ska visas med återkommande intervall. |
-| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsrader ska visas vid de valda datumen. |
-| [Font](../../aspose.tasks.visualization/progresslines/font) { get; set; } | Hämtar eller ställer in teckensnittet som används för förloppsradetikett. |
-| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppslinjer ska visas för baslinjeplanen eller faktisk. |
-| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor) { get; set; } | Hämtar eller ställer in linjefärgen för aktuell förloppslinje. |
-| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern) { get; set; } | Hämtar eller ställer in linjemönstret för aktuell förloppslinje. [`LinePattern`](./linepattern) . |
-| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor) { get; set; } | Hämtar eller ställer in färgen på annan förloppslinje. |
-| [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern) { get; set; } | Hämtar eller ställer in linjemönstret för annan förloppslinje. |
-| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor) { get; set; } | Hämtar eller ställer in färgen på andra framstegspunkter. |
-| [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape) { get; set; } | Hämtar eller ställer in förloppspunktformen för en annan förloppslinje. |
-| [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor) { get; set; } | Hämtar eller ställer in färgen på förloppspunkten. |
-| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape) { get; set; } | Hämtar eller ställer in förloppspunktens form. [`GanttBarEndShape`](../ganttbarendshape) . |
-| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval) { get; set; } | Hämtar eller ställer in det återkommande intervallet. [`RecurringInterval`](./recurringinterval) . |
-| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates) { get; } | Hämtar listan över valda datum att visa förloppsrader för. |
-| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate) { get; set; } | Hämtar eller ställer in ett värde som anger om datum ska visas för varje förloppsrad. |
+| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate/) { get; set; } | Hämtar eller ställer in datumet för att visa förloppsrader från. |
+| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart/) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsrader ska visas från början av projektets startdatum. |
+| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat/) { get; set; } | Hämtar eller ställer in datumformatet ([`DateLabel`](../datelabel/) ). |
+| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate/) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsraden ska visas vid aktuellt datum. |
+| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals/) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsraden ska visas med återkommande intervall. |
+| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected/) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppsrader ska visas vid de valda datumen. |
+| [Font](../../aspose.tasks.visualization/progresslines/font/) { get; set; } | Hämtar eller ställer in teckensnittet som används för förloppsradetikett. |
+| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan/) { get; set; } | Hämtar eller ställer in ett värde som anger om förloppslinjer ska visas för baslinjeplanen eller faktisk. |
+| [LineColor](../../aspose.tasks.visualization/progresslines/linecolor/) { get; set; } | Hämtar eller ställer in linjefärgen för aktuell förloppslinje. |
+| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern/) { get; set; } | Hämtar eller ställer in linjemönstret för aktuell förloppslinje. [`LinePattern`](./linepattern/) . |
+| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor/) { get; set; } | Hämtar eller ställer in färgen på annan förloppslinje. |
+| [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern/) { get; set; } | Hämtar eller ställer in linjemönstret för annan förloppslinje. |
+| [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor/) { get; set; } | Hämtar eller ställer in färgen på andra framstegspunkter. |
+| [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape/) { get; set; } | Hämtar eller ställer in förloppspunktformen för en annan förloppslinje. |
+| [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor/) { get; set; } | Hämtar eller ställer in färgen på förloppspunkten. |
+| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape/) { get; set; } | Hämtar eller ställer in förloppspunktens form. [`GanttBarEndShape`](../ganttbarendshape/) . |
+| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval/) { get; set; } | Hämtar eller ställer in det återkommande intervallet. [`RecurringInterval`](./recurringinterval/) . |
+| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates/) { get; } | Hämtar listan över valda datum att visa förloppsrader för. |
+| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate/) { get; set; } | Hämtar eller ställer in ett värde som anger om datum ska visas för varje förloppsrad. |
 
 ### Se även
 
-* namnutrymme [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* namnutrymme [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

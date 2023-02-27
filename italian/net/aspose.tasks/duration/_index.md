@@ -1,9 +1,9 @@
 ---
-title: Duration
+title: Struct Duration
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rappresenta la durata in un progetto.
+description: Aspose.Tasks.Duration struct. Rappresenta la durata in un progetto.
 type: docs
-weight: 460
+weight: 470
 url: /it/net/aspose.tasks/duration/
 ---
 ## Duration structure
@@ -18,33 +18,33 @@ public struct Duration : IEquatable<Duration>
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsElapsed](../../aspose.tasks/duration/iselapsed) { get; } | Ottiene un valore che indica se l'unità di tempo è trascorsa. Il flag che determina se questa istanza di Duration è trascorsa. |
-| [IsEstimated](../../aspose.tasks/duration/isestimated) { get; } | Ottiene un valore che indica se l'unità di tempo è stimata. Il flag che determina se questa istanza di Duration è stimata. |
-| [TimeSpan](../../aspose.tasks/duration/timespan) { get; } | Ottiene[`TimeSpan`](./timespan) istanza di questo oggetto Duration. L'istanza TimeSpan di questo oggetto Duration. |
-| [TimeUnit](../../aspose.tasks/duration/timeunit) { get; } | Ottiene il tipo di unità di tempo per questo oggetto. Il tipo di unità di tempo di questa istanza di Duration. |
+| [IsElapsed](../../aspose.tasks/duration/iselapsed/) { get; } | Ottiene un valore che indica se l'unità di tempo è trascorsa. Il flag che determina se questa istanza di Duration è scaduta. |
+| [IsEstimated](../../aspose.tasks/duration/isestimated/) { get; } | Ottiene un valore che indica se l'unità di tempo è stimata. Il flag che determina se questa istanza di Duration è stimata. |
+| [TimeSpan](../../aspose.tasks/duration/timespan/) { get; } | Ottiene[`TimeSpan`](./timespan/) istanza di questo oggetto Duration. Istanza TimeSpan di questo oggetto Duration. |
+| [TimeUnit](../../aspose.tasks/duration/timeunit/) { get; } | Ottiene il tipo di unità di tempo per questo oggetto. Il tipo di unità di tempo di questa istanza di Duration. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| static [Parse](../../aspose.tasks/duration/parse)(Project, string) | Converte la stringa specificata nell'istanza di[`Duration`](../duration) struttura |
-| [Add](../../aspose.tasks/duration/add#add_1)(double) | Aggiunge il valore doppio specificato a questa durata. |
-| [Add](../../aspose.tasks/duration/add#add)(Duration) | Aggiunge la durata specificata a questa durata. |
-| [Convert](../../aspose.tasks/duration/convert)(TimeUnitType) | Converte l'oggetto Durata in un'altra durata con unità di tempo specificate. |
-| [Equals](../../aspose.tasks/duration/equals#equals)(Duration) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
-| override [Equals](../../aspose.tasks/duration/equals#equals_1)(object) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
-| override [GetHashCode](../../aspose.tasks/duration/gethashcode)() | Restituisce un valore di codice hash per questo oggetto. |
-| [Subtract](../../aspose.tasks/duration/subtract#subtract_1)(double) | Sottrae il valore doppio specificato da questa istanza di durata. |
-| [Subtract](../../aspose.tasks/duration/subtract#subtract)(Duration) | Sottrae la durata specificata da questa istanza di durata. |
-| [ToDouble](../../aspose.tasks/duration/todouble)() | Converte l'oggetto Durata inDouble valore. |
-| override [ToString](../../aspose.tasks/duration/tostring)() | Restituisce una rappresentazione di stringa di questa istanza. |
-| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan)(string) | Analizza la stringa di durata nel formato "PT--H--M--S--". |
-| [operator ==](../../aspose.tasks/duration/op_equality) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
-| [operator !=](../../aspose.tasks/duration/op_inequality) | Restituisce un valore che indica se questa istanza non è uguale a un oggetto specificato. |
+| static [Parse](../../aspose.tasks/duration/parse/)(Project, string) | Converte la stringa specificata nell'istanza di`Duration` struct. |
+| [Add](../../aspose.tasks/duration/add/#add_1)(double) | Aggiunge il doppio valore specificato a questa durata. |
+| [Add](../../aspose.tasks/duration/add/#add)(Duration) | Aggiunge la durata specificata a questa durata. |
+| [Convert](../../aspose.tasks/duration/convert/)(TimeUnitType) | Converte l'oggetto Durata in un'altra durata con unità di tempo specificate. |
+| [Equals](../../aspose.tasks/duration/equals/#equals)(Duration) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| override [Equals](../../aspose.tasks/duration/equals/#equals_1)(object) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| override [GetHashCode](../../aspose.tasks/duration/gethashcode/)() | Restituisce un valore di codice hash per questo oggetto. |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract_1)(double) | Sottrae il valore double specificato da questa istanza di durata. |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract)(Duration) | Sottrae la durata specificata da questa istanza di durata. |
+| [ToDouble](../../aspose.tasks/duration/todouble/)() | Converte l'oggetto Durata inDouble valore. |
+| override [ToString](../../aspose.tasks/duration/tostring/)() | Restituisce una rappresentazione in forma di stringa di questa istanza. |
+| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan/)(string) | Analizza la stringa di durata nel formato "PT--H--M--S--". |
+| [operator ==](../../aspose.tasks/duration/op_equality/) | Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato. |
+| [operator !=](../../aspose.tasks/duration/op_inequality/) | Restituisce un valore che indica se questa istanza non è uguale a un oggetto specificato. |
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks)
+* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
 * assemblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

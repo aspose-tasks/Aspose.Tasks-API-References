@@ -1,0 +1,139 @@
+---
+title: Add
+second_title: Aspose.Tasks untuk Referensi .NET API
+description: Tambahkan tugas yang ditentukan ke instance dariTaskCollectionaspose.tasks/taskcollection/class. Jika ParentProject.CalculationMode adalah Tidak ada pengguna harus memanggil Project.Recalculate setelah menggunakan metode ini Ini akan menjadwal ulang semua tugas proyek tanggal mulai/selesai menetapkan tanggal awal/akhir dan menghitung bidang dependen seperti slacks work dan kolom biaya id dan level garis besar. Jika ParentProject.CalculationMode adalah Manual metode ini hanya akan menghitung id tugas level garis besar dan angka garis besar secara otomatis. Jika ParentProject.CalculationMode adalah Otomatis metode ini menjadwal ulang semua tugas proyek secara otomatis mulai/selesai tanggal menetapkan tanggal awal/terlambat menghitung kelonggaran bidang pekerjaan dan biaya menghitung ulang id dan tingkat kerangka.
+type: docs
+weight: 50
+url: /id/net/aspose.tasks/taskcollection/add/
+---
+## Add(Task) {#add_4}
+
+Tambahkan tugas yang ditentukan ke instance dari[`TaskCollection`](../)class. Jika ParentProject.CalculationMode adalah Tidak ada, pengguna harus memanggil Project.Recalculate() setelah menggunakan metode ini (Ini akan menjadwal ulang semua tugas proyek (tanggal mulai/selesai, menetapkan tanggal awal/akhir) dan menghitung bidang dependen seperti slacks, work dan kolom biaya, id, dan level garis besar). Jika ParentProject.CalculationMode adalah Manual, metode ini hanya akan menghitung id tugas, level garis besar, dan angka garis besar secara otomatis. Jika ParentProject.CalculationMode adalah Otomatis, metode ini menjadwal ulang semua tugas proyek secara otomatis (mulai/selesai tanggal, menetapkan tanggal awal/terlambat, menghitung kelonggaran, bidang pekerjaan dan biaya, menghitung ulang id dan tingkat kerangka).
+
+```csharp
+public void Add(Task item)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| item | Task | tugas tertentu yang harus ditambahkan ke kumpulan tugas ini. |
+
+### Lihat juga
+
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ruang nama [Aspose.Tasks](../../taskcollection/)
+* perakitan [Aspose.Tasks](../../../)
+
+---
+
+## Add() {#add}
+
+Menambahkan tugas baru untuk memproyeksikan kumpulan tugas pada tingkat kerangka yang sama dari tugas terakhir.
+
+```csharp
+public Task Add()
+```
+
+### Nilai Pengembalian
+
+mengembalikan instance yang baru ditambahkan dari[`Task`](../../task/) kelas.
+
+### Lihat juga
+
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ruang nama [Aspose.Tasks](../../taskcollection/)
+* perakitan [Aspose.Tasks](../../../)
+
+---
+
+## Add(string) {#add_2}
+
+Menambahkan tugas baru ke koleksi tugas anak.
+
+```csharp
+public Task Add(string taskName)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| taskName | String | nama tugas yang ditentukan. |
+
+### Nilai Pengembalian
+
+mengembalikan instance yang baru ditambahkan dari[`Task`](../../task/) kelas.
+
+### Lihat juga
+
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ruang nama [Aspose.Tasks](../../taskcollection/)
+* perakitan [Aspose.Tasks](../../../)
+
+---
+
+## Add(string, int) {#add_3}
+
+Menambahkan tugas berulang baru ke koleksi tugas anak-anak.
+
+```csharp
+public Task Add(string taskName, int beforeTaskId)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| taskName | String | nama tugas yang ditentukan. |
+| beforeTaskId | Int32 | ID tugas yang ditentukan sebelum tugas baru akan dimasukkan. |
+
+### Nilai Pengembalian
+
+mengembalikan tugas yang dimasukkan sebelum tugas dengan id yang ditentukan.
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentOutOfRangeException | ArgumentOutOfRangeException dilemparkan jika id yang ditentukan bukan id tugas yang valid. |
+
+### Lihat juga
+
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* ruang nama [Aspose.Tasks](../../taskcollection/)
+* perakitan [Aspose.Tasks](../../../)
+
+---
+
+## Add(RecurringTaskParameters) {#add_1}
+
+Menyisipkan tugas baru sebelum tugas dengan id yang ditentukan dan pada level kerangka yang sama.
+
+```csharp
+public Task Add(RecurringTaskParameters parameters)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| parameters | RecurringTaskParameters | Parameter parameter yang ditentukan untuk pembuatan tugas berulang. |
+
+### Nilai Pengembalian
+
+mengembalikan instance yang baru ditambahkan dari[`Task`](../../task/) kelas.
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException | Dilempar jika parameter yang ditentukan adalah nol. |
+| ArgumentException | Dilempar jika parameter yang ditentukan tidak valid. |
+
+### Lihat juga
+
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* ruang nama [Aspose.Tasks](../../taskcollection/)
+* perakitan [Aspose.Tasks](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->

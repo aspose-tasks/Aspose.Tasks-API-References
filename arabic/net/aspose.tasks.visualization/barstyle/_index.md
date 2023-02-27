@@ -1,9 +1,9 @@
 ---
-title: BarStyle
+title: Class BarStyle
 second_title: Aspose.Tasks لمرجع .NET API
-description: تغيير النمط المرئي للشريط للعنصر في عرض المشروع.
+description: Aspose.Tasks.Visualization.BarStyle فصل. تغيير النمط المرئي للشريط للعنصر في عرض المشروع.
 type: docs
-weight: 2610
+weight: 2630
 url: /ar/net/aspose.tasks.visualization/barstyle/
 ---
 ## BarStyle class
@@ -18,34 +18,34 @@ public class BarStyle
 
 | اسم | وصف |
 | --- | --- |
-| [BarStyle](barstyle)() | يقوم بتهيئة مثيل جديد لملف[`BarStyle`](../barstyle) فئة . |
+| [BarStyle](barstyle/)() | يقوم بتهيئة مثيل جديد لملف`BarStyle` فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BarColor](../../aspose.tasks.visualization/barstyle/barcolor) { get; set; } | يحصل أو يحددColor من نمط الشريط . |
-| [BarShape](../../aspose.tasks.visualization/barstyle/barshape) { get; set; } | يحصل أو يحدد[`BarShape`](./barshape) من نمط الشريط . |
-| [BottomBarTextConverter](../../aspose.tasks.visualization/barstyle/bottombartextconverter) { get; set; } | الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص يتم عرضه في الجزء السفلي من شريط المهام. يتجاوز قيمة[`BottomField`](./bottomfield) الملكية . |
-| [BottomField](../../aspose.tasks.visualization/barstyle/bottomfield) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه أسفل الشريط . |
-| [EndShape](../../aspose.tasks.visualization/barstyle/endshape) { get; set; } | يحصل أو يحدد[`Shape`](../shape) في نهاية الشريط . |
-| [EndShapeColor](../../aspose.tasks.visualization/barstyle/endshapecolor) { get; set; } | يحصل أو يحددColor للشكل في نهاية الشريط . |
-| [InsideBarTextConverter](../../aspose.tasks.visualization/barstyle/insidebartextconverter) { get; set; } | الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص يتم عرضه داخل شريط المهام. يتجاوز قيمة[`InsideField`](./insidefield) الملكية . |
-| [InsideField](../../aspose.tasks.visualization/barstyle/insidefield) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه داخل الشريط . |
-| [ItemType](../../aspose.tasks.visualization/barstyle/itemtype) { get; set; } | يحصل أو يحدد[`BarItemType`](../baritemtype) من نمط الشريط . |
-| [LeftBarTextConverter](../../aspose.tasks.visualization/barstyle/leftbartextconverter) { get; set; } | الحصول على المحول المعرّف من قبل المستخدم أو تعيينه للحصول على نص يتم عرضه على يسار شريط المهام. يتجاوز قيمة[`LeftField`](./leftfield) الملكية . |
-| [LeftField](../../aspose.tasks.visualization/barstyle/leftfield) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه على يسار الشريط . |
-| [RightBarTextConverter](../../aspose.tasks.visualization/barstyle/rightbartextconverter) { get; set; } | الحصول على أو تعيين المحول المعرّف من قِبل المستخدم للحصول على نص يتم عرضه على يمين شريط المهام. يتجاوز قيمة[`RightField`](./rightfield) الملكية . |
-| [RightField](../../aspose.tasks.visualization/barstyle/rightfield) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه على يمين الشريط . |
-| [StartShape](../../aspose.tasks.visualization/barstyle/startshape) { get; set; } | يحصل أو يحدد[`Shape`](../shape) في بداية الشريط . |
-| [StartShapeColor](../../aspose.tasks.visualization/barstyle/startshapecolor) { get; set; } | يحصل أو يحددColor للشكل في بداية الشريط . |
-| [TextStyle](../../aspose.tasks.visualization/barstyle/textstyle) { get; set; } | الحصول على نمط نص الشريط أو تعيينه. |
-| [TopBarTextConverter](../../aspose.tasks.visualization/barstyle/topbartextconverter) { get; set; } | الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص يتم عرضه أعلى شريط المهام. يتجاوز قيمة[`TopField`](./topfield) الملكية . |
-| [TopField](../../aspose.tasks.visualization/barstyle/topfield) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه أعلى الشريط . |
+| [BarColor](../../aspose.tasks.visualization/barstyle/barcolor/) { get; set; } | يحصل أو يحددColor من نمط الشريط . |
+| [BarShape](../../aspose.tasks.visualization/barstyle/barshape/) { get; set; } | يحصل أو يحدد[`BarShape`](./barshape/) من نمط الشريط . |
+| [BottomBarTextConverter](../../aspose.tasks.visualization/barstyle/bottombartextconverter/) { get; set; } | الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص يتم عرضه في الجزء السفلي من شريط المهام. يتجاوز قيمة[`BottomField`](./bottomfield/) الملكية . |
+| [BottomField](../../aspose.tasks.visualization/barstyle/bottomfield/) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه أسفل الشريط . |
+| [EndShape](../../aspose.tasks.visualization/barstyle/endshape/) { get; set; } | يحصل أو يحدد[`Shape`](../shape/) في نهاية الشريط . |
+| [EndShapeColor](../../aspose.tasks.visualization/barstyle/endshapecolor/) { get; set; } | يحصل أو يحددColor للشكل في نهاية الشريط . |
+| [InsideBarTextConverter](../../aspose.tasks.visualization/barstyle/insidebartextconverter/) { get; set; } | الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص ليتم عرضه داخل شريط المهام. يتجاوز قيمة[`InsideField`](./insidefield/) الملكية . |
+| [InsideField](../../aspose.tasks.visualization/barstyle/insidefield/) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه داخل الشريط. |
+| [ItemType](../../aspose.tasks.visualization/barstyle/itemtype/) { get; set; } | يحصل أو يحدد[`BarItemType`](../baritemtype/) من نمط الشريط . |
+| [LeftBarTextConverter](../../aspose.tasks.visualization/barstyle/leftbartextconverter/) { get; set; } | الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص يتم عرضه على يسار شريط المهام. يتجاوز قيمة[`LeftField`](./leftfield/) الملكية . |
+| [LeftField](../../aspose.tasks.visualization/barstyle/leftfield/) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه على يسار الشريط . |
+| [RightBarTextConverter](../../aspose.tasks.visualization/barstyle/rightbartextconverter/) { get; set; } | الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص يتم عرضه على يمين شريط المهام. يتجاوز قيمة[`RightField`](./rightfield/) الملكية . |
+| [RightField](../../aspose.tasks.visualization/barstyle/rightfield/) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه على يمين الشريط . |
+| [StartShape](../../aspose.tasks.visualization/barstyle/startshape/) { get; set; } | يحصل أو يحدد[`Shape`](../shape/) في بداية الشريط . |
+| [StartShapeColor](../../aspose.tasks.visualization/barstyle/startshapecolor/) { get; set; } | يحصل أو يحددColor للشكل في بداية الشريط . |
+| [TextStyle](../../aspose.tasks.visualization/barstyle/textstyle/) { get; set; } | الحصول على نمط نص الشريط أو تعيينه. |
+| [TopBarTextConverter](../../aspose.tasks.visualization/barstyle/topbartextconverter/) { get; set; } | الحصول على المحول المعرّف من قبل المستخدم أو تعيينه للحصول على نص يتم عرضه أعلى شريط المهام. يتجاوز قيمة[`TopField`](./topfield/) الملكية . |
+| [TopField](../../aspose.tasks.visualization/barstyle/topfield/) { get; set; } | الحصول على حقل أو تعيينه ليتم عرضه أعلى الشريط . |
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * المجسم [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

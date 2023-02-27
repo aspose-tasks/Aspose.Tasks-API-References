@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskLinkCollection.Add
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Restituisce unistanza di Finish-StartTaskLinkaspose.tasks/tasklink che è stato aggiunto alloggetto TaskLinkCollection.
+description: TaskLinkCollection metodo. Restituisce unistanza di FineInizioTaskLink che è stato aggiunto alloggetto TaskLinkCollection.
 type: docs
 weight: 40
 url: /it/net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-Restituisce un'istanza di Finish-Start[`TaskLink`](../../tasklink) che è stato aggiunto all'oggetto TaskLinkCollection.
+Restituisce un'istanza di Fine-Inizio[`TaskLink`](../../tasklink/) che è stato aggiunto all'oggetto TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
@@ -16,8 +16,8 @@ public TaskLink Add(Task pred, Task succ)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pred | Task | Compito predecessore. |
-| succ | Task | Compito successivo. |
+| pred | Task | Attività precedente. |
+| succ | Task | Compito successore. |
 
 ### Valore di ritorno
 
@@ -27,21 +27,21 @@ un'istanza di collegamento attività che è stata aggiunta a questo oggetto.
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Se una qualsiasi delle attività di input è uguale a null, alloraArgumentNullException sarà lanciato. |
+| ArgumentNullException | Se una qualsiasi delle attività di input è uguale a null alloraArgumentNullException verrà lanciato. |
 
 ### Guarda anche
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* class [TaskLinkCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-Restituisce un'istanza di[`TaskLink`](../../tasklink) che è stato aggiunto all'oggetto TaskLinkCollection.
+Restituisce un'istanza di[`TaskLink`](../../tasklink/) che è stato aggiunto all'oggetto TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
@@ -49,9 +49,9 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pred | Task | Compito predecessore. |
-| succ | Task | Compito successivo. |
-| linkType | TaskLinkType | Tipo di collegamento[`TaskLinkType`](../../tasklinktype) |
+| pred | Task | Attività precedente. |
+| succ | Task | Compito successore. |
+| linkType | TaskLinkType | Tipo di collegamento[`TaskLinkType`](../../tasklinktype/) |
 
 ### Valore di ritorno
 
@@ -61,22 +61,22 @@ un'istanza di collegamento attività che è stata aggiunta a questo oggetto.
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Se una qualsiasi delle attività di input è uguale a null, alloraArgumentNullException sarà lanciato. |
+| ArgumentNullException | Se una qualsiasi delle attività di input è uguale a null alloraArgumentNullException verrà lanciato. |
 
 ### Guarda anche
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* enum [TaskLinkType](../../tasklinktype)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* enum [TaskLinkType](../../tasklinktype/)
+* class [TaskLinkCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-Restituisce un'istanza di[`TaskLink`](../../tasklink) che è stato aggiunto all'oggetto TaskLinkCollection.
+Restituisce un'istanza di[`TaskLink`](../../tasklink/) che è stato aggiunto all'oggetto TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
@@ -84,10 +84,10 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pred | Task | Compito predecessore. |
-| succ | Task | Compito successivo. |
-| linkType | TaskLinkType | Tipo di collegamento[`TaskLinkType`](../../tasklinktype) |
-| lag | Duration | Ritardo di collegamento[`Duration`](../../duration). |
+| pred | Task | Attività precedente. |
+| succ | Task | Compito successore. |
+| linkType | TaskLinkType | Tipo di collegamento[`TaskLinkType`](../../tasklinktype/) |
+| lag | Duration | Ritardo di collegamento[`Duration`](../../duration/). |
 
 ### Valore di ritorno
 
@@ -97,16 +97,16 @@ un collegamento attività che è stato aggiunto a questo oggetto.
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Se una qualsiasi delle attività di input è uguale a null, alloraArgumentNullException sarà lanciato. |
+| ArgumentNullException | Se una qualsiasi delle attività di input è uguale a null alloraArgumentNullException verrà lanciato. |
 
 ### Guarda anche
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* enum [TaskLinkType](../../tasklinktype)
-* struct [Duration](../../duration)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* enum [TaskLinkType](../../tasklinktype/)
+* struct [Duration](../../duration/)
+* class [TaskLinkCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
@@ -125,9 +125,9 @@ public void Add(TaskLink item)
 
 ### Guarda anche
 
-* class [TaskLink](../../tasklink)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [TaskLinkCollection](../)
+* spazio dei nomi [Aspose.Tasks](../../tasklinkcollection/)
 * assemblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

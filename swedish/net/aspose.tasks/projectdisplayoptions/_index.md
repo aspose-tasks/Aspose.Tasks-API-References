@@ -1,9 +1,9 @@
 ---
-title: ProjectDisplayOptions
+title: Class ProjectDisplayOptions
 second_title: Aspose.Tasks för .NET API-referens
-description: Representerar visningsalternativen för en projektinstans.
+description: Aspose.Tasks.ProjectDisplayOptions klass. Representerar visningsalternativen för en projektinstans.
 type: docs
-weight: 1190
+weight: 1200
 url: /sv/net/aspose.tasks/projectdisplayoptions/
 ---
 ## ProjectDisplayOptions class
@@ -18,27 +18,27 @@ public class ProjectDisplayOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [ProjectDisplayOptions](projectdisplayoptions)() | Initierar en ny instans av[`ProjectDisplayOptions`](../projectdisplayoptions) klass. |
+| [ProjectDisplayOptions](projectdisplayoptions/)() | Initierar en ny instans av`ProjectDisplayOptions` klass. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel) { get; set; } | Hämtar eller ställer in ett värde som anger om ett mellanslag ska läggas till före talvärdet och tidsförkortningen (1 vecka i motsats till 1 vecka). |
-| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel) { get; set; } | Hämtar eller ställer in hur dagsetiketten visas. |
-| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel) { get; set; } | Hämtar eller ställer in hur timetiketten visas. |
-| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel) { get; set; } | Hämtar eller ställer in hur minutetiketten visas. |
-| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel) { get; set; } | Hämtar eller ställer in hur månadsetiketten ska visas. |
-| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask) { get; set; } | Hämtar eller ställer in ett värde som anger om sammanfattningsinformation om ett helt projekt ska visas på en enda rad med ett eget sammanfattande aktivitetsfält överst i Gantt-diagramvyn. |
-| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions) { get; set; } | Hämtar eller ställer in ett värde som anger om förslag ska visas när Project identifierar en möjlig schemaläggningskonflikt med en manuellt schemalagd uppgift. Det här alternativet är tillgängligt för Project 2010 version och senare. |
-| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings) { get; set; } | Hämtar eller ställer in ett värde som anger om varningar ska visas när Project identifierar en möjlig schemaläggningskonflikt med en manuellt schemalagd uppgift. Det här alternativet är tillgängligt för Project 2010 version och senare. |
-| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks) { get; set; } | Hämtar eller ställer in ett värde som anger om hyperlänkar ska understrykas. |
-| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel) { get; set; } | Hämtar eller ställer in hur veckoetiketten ska visas. |
-| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel) { get; set; } | Hämtar eller ställer in hur årsetiketten visas. |
+| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel/) { get; set; } | Hämtar eller ställer in ett värde som anger om ett mellanslag ska läggas till före talvärdet och tidsförkortningen (1 vecka i motsats till 1 vecka). |
+| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel/) { get; set; } | Hämtar eller ställer in hur dagsetiketten visas. |
+| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel/) { get; set; } | Hämtar eller ställer in hur timetiketten visas. |
+| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel/) { get; set; } | Hämtar eller ställer in hur minutetiketten visas. |
+| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel/) { get; set; } | Hämtar eller ställer in hur månadsetiketten ska visas. |
+| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask/) { get; set; } | Hämtar eller ställer in ett värde som anger om sammanfattningsinformation om ett helt projekt ska visas på en enda rad med ett eget sammanfattande aktivitetsfält överst i Gantt-diagramvyn. |
+| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions/) { get; set; } | Hämtar eller ställer in ett värde som anger om förslag ska visas när Project identifierar en möjlig schemaläggningskonflikt med en manuellt schemalagd uppgift. Det här alternativet är tillgängligt för Project 2010 version och senare. |
+| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings/) { get; set; } | Hämtar eller ställer in ett värde som anger om varningar ska visas när Project identifierar en möjlig schemaläggningskonflikt med en manuellt schemalagd uppgift. Det här alternativet är tillgängligt för Project 2010 version och senare. |
+| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks/) { get; set; } | Hämtar eller ställer in ett värde som anger om hyperlänkar ska understrykas. |
+| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel/) { get; set; } | Hämtar eller ställer in hur veckoetiketten ska visas. |
+| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel/) { get; set; } | Hämtar eller ställer in hur årsetiketten visas. |
 
 ### Se även
 
-* namnutrymme [Aspose.Tasks](../../aspose.tasks)
+* namnutrymme [Aspose.Tasks](../../aspose.tasks/)
 * hopsättning [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

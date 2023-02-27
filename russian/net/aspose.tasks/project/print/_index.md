@@ -1,9 +1,9 @@
 ---
-title: Print
+title: Project.Print
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Печать проекта на принтере по умолчанию с настройками принтера по умолчанию с использованием стандартного без пользовательского интерфейса контроллера печати.
+description: Project метод. Печать проекта на принтере по умолчанию с настройками принтера по умолчанию с использованием стандартного без пользовательского интерфейса контроллера печати.
 type: docs
-weight: 330
+weight: 1110
 url: /ru/net/aspose.tasks/project/print/
 ---
 ## Print() {#print}
@@ -16,8 +16,8 @@ public void Print()
 
 ### Смотрите также
 
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -32,13 +32,13 @@ public void Print(PrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | PrintOptions | указанный экземпляр[`PrintOptions`](../../../aspose.tasks.saving/printoptions) учебный класс. |
+| options | PrintOptions | указанный экземпляр[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) сорт. |
 
 ### Смотрите также
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -57,8 +57,8 @@ public void Print(string printerName)
 
 ### Смотрите также
 
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -73,12 +73,12 @@ public void Print(PrinterSettings printerSettings)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | указанный экземплярPrinterSettings учебный класс. |
+| printerSettings | PrinterSettings | указанный экземплярPrinterSettings сорт. |
 
 ### Смотрите также
 
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -93,13 +93,13 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | указанный экземплярPrinterSettings учебный класс. |
+| printerSettings | PrinterSettings | указанный экземплярPrinterSettings сорт. |
 | documentName | String | имя документа для отображения (например, в диалоговом окне состояния печати или в очереди печати). |
 
 ### Смотрите также
 
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -114,14 +114,14 @@ public void Print(PrinterSettings printerSettings, PrintOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | указанный экземплярPrinterSettings учебный класс. |
-| options | PrintOptions | указанный экземпляр[`PrintOptions`](../../../aspose.tasks.saving/printoptions) учебный класс. |
+| printerSettings | PrinterSettings | указанный экземплярPrinterSettings сорт. |
+| options | PrintOptions | указанный экземпляр[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) сорт. |
 
 ### Смотрите также
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -136,15 +136,15 @@ public void Print(PrinterSettings printerSettings, PrintOptions options, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | указанный экземплярPrinterSettings учебный класс. |
-| options | PrintOptions | указанный экземпляр[`PrintOptions`](../../../aspose.tasks.saving/printoptions) учебный класс. |
+| printerSettings | PrinterSettings | указанный экземплярPrinterSettings сорт. |
+| options | PrintOptions | указанный экземпляр[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) сорт. |
 | documentName | String | имя документа для отображения (например, в диалоговом окне состояния печати или в очереди печати). |
 
 ### Смотрите также
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* пространство имен [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* пространство имен [Aspose.Tasks](../../project/)
 * сборка [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

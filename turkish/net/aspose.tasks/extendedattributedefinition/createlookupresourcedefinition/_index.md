@@ -1,14 +1,14 @@
 ---
-title: CreateLookupResourceDefinition
+title: ExtendedAttributeDefinition.CreateLookupResourceDefinition
 second_title: Aspose.Tasks for .NET API Referansı
-description: Arama ile genişletilmiş bir öznitelik tanımı oluşturan fabrika yöntemi. CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype eşittirLookup ve yalnızca Kaynaklarda kullanılabilir. Belirtmeniz gerekirfieldId vealias bu yöntemi çağırdığınızda. Alan türü alan kimliğinden çıkarılır.
+description: ExtendedAttributeDefinition yöntem. Lookup. ile genişletilmiş öznitelik tanımı oluşturan fabrika yöntemiCalculationType eşittirLookup ve yalnızca Kaynaklarda kullanılabilir. Belirtmeniz gerekiyorfieldId Vealias bu yöntem çağrıldığında. Alan türü id. alanından çıkarılır.
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/extendedattributedefinition/createlookupresourcedefinition/
 ---
 ## CreateLookupResourceDefinition(ExtendedAttributeResource, string) {#createlookupresourcedefinition_1}
 
-Arama ile genişletilmiş bir öznitelik tanımı oluşturan fabrika yöntemi. [`CalculationType`](../calculationtype) eşittirLookup ve yalnızca Kaynaklarda kullanılabilir. Belirtmeniz gerekir*fieldId* ve*alias* bu yöntemi çağırdığınızda. Alan türü alan kimliğinden çıkarılır.
+Lookup. ile genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi[`CalculationType`](../calculationtype/) eşittirLookup ve yalnızca Kaynaklarda kullanılabilir. Belirtmeniz gerekiyor*fieldId* Ve*alias* bu yöntem çağrıldığında. Alan türü, id. alanından çıkarılır.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -17,16 +17,16 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | Belirtilmiş[`ExtendedAttributeResource`](../../extendedattributeresource) alan kimliği. |
-| alias | String | BelirtilmişString takma ad. |
+| fieldId | ExtendedAttributeResource | Belirtilen[`ExtendedAttributeResource`](../../extendedattributeresource/) alan kimliği. |
+| alias | String | BelirtilenString takma ad. |
 
 ### Geri dönüş değeri
 
-Oluşturulan örneği[`ExtendedAttributeDefinition`](../../extendedattributedefinition) belirtilen sınıf*fieldId* ve*alias*.
+Oluşturulan örnek[`ExtendedAttributeDefinition`](../) belirtilen sınıf*fieldId* Ve*alias*.
 
 ### Örnekler
 
-Aramalı bir kaynak için özel alan tanımı oluşturmak için bu örneği kullanın ve ardından onu metin değerleriyle doldurun:
+Aramalı bir kaynak için özel bir alan tanımı oluşturmak ve ardından bunu metin değerleriyle doldurmak için bu örneği kullanın:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Ayrıca bakınız
 
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* ad alanı [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* ad alanı [Aspose.Tasks](../../extendedattributedefinition/)
 * toplantı [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createlookupresourcedefinition}
 
-Arama ile genişletilmiş bir öznitelik tanımı oluşturan fabrika yöntemi. [`CalculationType`](../calculationtype) eşittirLookup ve yalnızca Kaynaklarda kullanılabilir. Belirtmeniz gerekir*customFieldType* ,*fieldId* ve*alias* bu yöntemi çağırdığınızda.
+Lookup. ile genişletilmiş öznitelik tanımı oluşturan fabrika yöntemi[`CalculationType`](../calculationtype/) eşittirLookup ve yalnızca Kaynaklarda kullanılabilir. Belirtmeniz gerekiyor*customFieldType* ,*fieldId* Ve*alias* bu yöntemi çağırdığınızda.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -55,17 +55,17 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Belirtilmiş[`CustomFieldType`](../../customfieldtype) tip. |
-| fieldId | ExtendedAttributeResource | Belirtilmiş[`ExtendedAttributeResource`](../../extendedattributeresource) alan kimliği. |
-| alias | String | BelirtilmişString takma ad. |
+| customFieldType | CustomFieldType | Belirtilen[`CustomFieldType`](../../customfieldtype/) tip. |
+| fieldId | ExtendedAttributeResource | Belirtilen[`ExtendedAttributeResource`](../../extendedattributeresource/) alan kimliği. |
+| alias | String | BelirtilenString takma ad. |
 
 ### Geri dönüş değeri
 
-Oluşturulan örneği[`ExtendedAttributeDefinition`](../../extendedattributedefinition) belirtilen sınıf*customFieldType* ,*fieldId* ve*alias*.
+Oluşturulan örnek[`ExtendedAttributeDefinition`](../) belirtilen sınıf*customFieldType* ,*fieldId* Ve*alias*.
 
 ### Örnekler
 
-Aramalı bir kaynak için özel alan tanımı oluşturmak için bu örneği kullanın ve ardından onu metin değerleriyle doldurun:
+Aramalı bir kaynak için özel bir alan tanımı oluşturmak ve ardından bunu metin değerleriyle doldurmak için bu örneği kullanın:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateLookupResourceDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Ayrıca bakınız
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* ad alanı [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* ad alanı [Aspose.Tasks](../../extendedattributedefinition/)
 * toplantı [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: CreateTaskDefinition
+title: ExtendedAttributeDefinition.CreateTaskDefinition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фабричный метод который создает простое определение расширенного атрибута которое Microsoft Project показывает как Нет. Он имеетCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype равноNone и может использоваться только в Заданиях. Необходимо указатьcustomFieldType fieldId а такжеalias при вызове этого метода.
+description: ExtendedAttributeDefinition метод. Фабричный метод который создает простое определение расширенного атрибута которое Microsoft Project показывает как Нет. Он имеетCalculationType равноNone и может использоваться только в Заданиях. Необходимо указатьcustomFieldType fieldId иalias при вызове этого метода.
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/extendedattributedefinition/createtaskdefinition/
 ---
 ## CreateTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createtaskdefinition}
 
-Фабричный метод, который создает простое определение расширенного атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype) равноNone и может использоваться только в Заданиях. Необходимо указать*customFieldType* ,*fieldId* а также*alias* при вызове этого метода.
+Фабричный метод, который создает простое определение расширенного атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype/) равноNone и может использоваться только в Заданиях. Необходимо указать*customFieldType* ,*fieldId* и*alias* при вызове этого метода.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType customFieldType, 
@@ -17,13 +17,13 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType c
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Указанный[`CustomFieldType`](../../customfieldtype) тип. |
-| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask) идентификатор поля. |
+| customFieldType | CustomFieldType | Указанный[`CustomFieldType`](../../customfieldtype/) тип. |
+| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask/) идентификатор поля. |
 | alias | String | УказанныйString псевдоним. |
 
 ### Возвращаемое значение
 
-Созданный экземпляр[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс с указанным*customFieldType* ,*fieldId* а также*alias*.
+Созданный экземпляр[`ExtendedAttributeDefinition`](../) класс с указанным*customFieldType* ,*fieldId* и*alias*.
 
 ### Примеры
 
@@ -36,17 +36,17 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Смотрите также
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateTaskDefinition(ExtendedAttributeTask, string) {#createtaskdefinition_1}
 
-Фабричный метод, который создает простое определение расширенного атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype) равноNone и может использоваться только в Заданиях. Необходимо указать*fieldId* а также*alias* при вызове этого метода. Тип поля выводится из идентификатора поля.
+Фабричный метод, который создает простое определение расширенного атрибута, которое Microsoft Project показывает как «Нет». Он имеет[`CalculationType`](../calculationtype/) равноNone и может использоваться только в Заданиях. Необходимо указать*fieldId* и*alias* при вызове этого метода. Тип поля выводится из идентификатора поля.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -55,12 +55,12 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttribute
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask) идентификатор поля. |
+| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask/) идентификатор поля. |
 | alias | String | УказанныйString псевдоним. |
 
 ### Возвращаемое значение
 
-Созданный экземпляр[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс с указанным*fieldId* а также*alias*.
+Созданный экземпляр[`ExtendedAttributeDefinition`](../) класс с указанным*fieldId* и*alias*.
 
 ### Примеры
 
@@ -73,9 +73,9 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Смотрите также
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

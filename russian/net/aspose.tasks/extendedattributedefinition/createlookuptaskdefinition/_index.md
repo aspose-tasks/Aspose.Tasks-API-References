@@ -1,14 +1,14 @@
 ---
-title: CreateLookupTaskDefinition
+title: ExtendedAttributeDefinition.CreateLookupTaskDefinition
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Фабричный метод который создает расширенное определение атрибута с поиском. Он имеетCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype равноLookup и может использоваться только в Заданиях. Необходимо указатьfieldId а такжеalias при вызове этого метода. Тип поля выводится из идентификатора поля.
+description: ExtendedAttributeDefinition метод. Фабричный метод который создает расширенное определение атрибута с поиском. Он имеетCalculationType равноLookup и может использоваться только в Заданиях. Необходимо указатьfieldId иalias при вызове этого метода. Тип поля выводится из идентификатора поля.
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/extendedattributedefinition/createlookuptaskdefinition/
 ---
 ## CreateLookupTaskDefinition(ExtendedAttributeTask, string) {#createlookuptaskdefinition_1}
 
-Фабричный метод, который создает расширенное определение атрибута с поиском. Он имеет[`CalculationType`](../calculationtype) равноLookup и может использоваться только в Заданиях. Необходимо указать*fieldId* а также*alias* при вызове этого метода. Тип поля выводится из идентификатора поля.
+Фабричный метод, который создает расширенное определение атрибута с поиском. Он имеет[`CalculationType`](../calculationtype/) равноLookup и может использоваться только в Заданиях. Необходимо указать*fieldId* и*alias* при вызове этого метода. Тип поля выводится из идентификатора поля.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -17,12 +17,12 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(ExtendedAtt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask) идентификатор поля. |
+| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask/) идентификатор поля. |
 | alias | String | УказанныйString псевдоним. |
 
 ### Возвращаемое значение
 
-Созданный экземпляр[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс с указанным*fieldId* а также*alias*.
+Созданный экземпляр[`ExtendedAttributeDefinition`](../) класс с указанным*fieldId* и*alias*.
 
 ### Примеры
 
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Смотрите также
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createlookuptaskdefinition}
 
-Фабричный метод, который создает расширенное определение атрибута с поиском. Он имеет[`CalculationType`](../calculationtype) равноLookup и может использоваться только в Заданиях. Необходимо указать*customFieldType* ,*fieldId* а также*alias* при вызове этого метода.
+Фабричный метод, который создает расширенное определение атрибута с поиском. Он имеет[`CalculationType`](../calculationtype/) равноLookup и может использоваться только в Заданиях. Необходимо указать*customFieldType* ,*fieldId* и*alias* при вызове этого метода.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
@@ -55,13 +55,13 @@ public static ExtendedAttributeDefinition CreateLookupTaskDefinition(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Указанный[`CustomFieldType`](../../customfieldtype) тип. |
-| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask) идентификатор поля. |
+| customFieldType | CustomFieldType | Указанный[`CustomFieldType`](../../customfieldtype/) тип. |
+| fieldId | ExtendedAttributeTask | Указанный[`ExtendedAttributeTask`](../../extendedattributetask/) идентификатор поля. |
 | alias | String | УказанныйString псевдоним. |
 
 ### Возвращаемое значение
 
-Созданный экземпляр[`ExtendedAttributeDefinition`](../../extendedattributedefinition) класс с указанным*customFieldType* ,*fieldId* а также*alias*.
+Созданный экземпляр[`ExtendedAttributeDefinition`](../) класс с указанным*customFieldType* ,*fieldId* и*alias*.
 
 ### Примеры
 
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Смотрите также
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* пространство имен [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* пространство имен [Aspose.Tasks](../../extendedattributedefinition/)
 * сборка [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

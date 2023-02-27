@@ -1,9 +1,9 @@
 ---
-title: BarStyle
+title: Class BarStyle
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Изменить визуальный стиль панели для элемента в представлении проекта.
+description: Aspose.Tasks.Visualization.BarStyle сорт. Изменить визуальный стиль панели для элемента в представлении проекта.
 type: docs
-weight: 2610
+weight: 2630
 url: /ru/net/aspose.tasks.visualization/barstyle/
 ---
 ## BarStyle class
@@ -18,34 +18,34 @@ public class BarStyle
 
 | Имя | Описание |
 | --- | --- |
-| [BarStyle](barstyle)() | Инициализирует новый экземпляр[`BarStyle`](../barstyle) класс. |
+| [BarStyle](barstyle/)() | Инициализирует новый экземпляр`BarStyle` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BarColor](../../aspose.tasks.visualization/barstyle/barcolor) { get; set; } | Получает или устанавливаетColor стиля бара. |
-| [BarShape](../../aspose.tasks.visualization/barstyle/barshape) { get; set; } | Получает или устанавливает[`BarShape`](./barshape) стиля бара. |
-| [BottomBarTextConverter](../../aspose.tasks.visualization/barstyle/bottombartextconverter) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста в нижней части панели задач. Переопределяет значение[`BottomField`](./bottomfield) свойство. |
-| [BottomField](../../aspose.tasks.visualization/barstyle/bottomfield) { get; set; } | Получает или задает поле, отображаемое в нижней части панели. |
-| [EndShape](../../aspose.tasks.visualization/barstyle/endshape) { get; set; } | Получает или устанавливает[`Shape`](../shape) в конце такта. |
-| [EndShapeColor](../../aspose.tasks.visualization/barstyle/endshapecolor) { get; set; } | Получает или устанавливаетColor формы в конце бара. |
-| [InsideBarTextConverter](../../aspose.tasks.visualization/barstyle/insidebartextconverter) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста внутри панели задач. Переопределяет значение[`InsideField`](./insidefield) свойство. |
-| [InsideField](../../aspose.tasks.visualization/barstyle/insidefield) { get; set; } | Получает или задает поле, отображаемое внутри панели. |
-| [ItemType](../../aspose.tasks.visualization/barstyle/itemtype) { get; set; } | Получает или устанавливает[`BarItemType`](../baritemtype) стиля бара. |
-| [LeftBarTextConverter](../../aspose.tasks.visualization/barstyle/leftbartextconverter) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значение[`LeftField`](./leftfield) свойство. |
-| [LeftField](../../aspose.tasks.visualization/barstyle/leftfield) { get; set; } | Получает или задает поле, отображаемое слева от панели. |
-| [RightBarTextConverter](../../aspose.tasks.visualization/barstyle/rightbartextconverter) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста справа от панели задач. Переопределяет значение[`RightField`](./rightfield) свойство. |
-| [RightField](../../aspose.tasks.visualization/barstyle/rightfield) { get; set; } | Получает или задает поле, отображаемое справа от панели. |
-| [StartShape](../../aspose.tasks.visualization/barstyle/startshape) { get; set; } | Получает или устанавливает[`Shape`](../shape) в начале такта. |
-| [StartShapeColor](../../aspose.tasks.visualization/barstyle/startshapecolor) { get; set; } | Получает или устанавливаетColor формы в начале такта. |
-| [TextStyle](../../aspose.tasks.visualization/barstyle/textstyle) { get; set; } | Получает или задает стиль текста панели. |
-| [TopBarTextConverter](../../aspose.tasks.visualization/barstyle/topbartextconverter) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста в верхней части панели задач. Переопределяет значение[`TopField`](./topfield) свойство. |
-| [TopField](../../aspose.tasks.visualization/barstyle/topfield) { get; set; } | Получает или задает поле, отображаемое в верхней части панели. |
+| [BarColor](../../aspose.tasks.visualization/barstyle/barcolor/) { get; set; } | Получает или устанавливаетColor стиля бара. |
+| [BarShape](../../aspose.tasks.visualization/barstyle/barshape/) { get; set; } | Получает или устанавливает[`BarShape`](./barshape/) стиля бара. |
+| [BottomBarTextConverter](../../aspose.tasks.visualization/barstyle/bottombartextconverter/) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста в нижней части панели задач. Переопределяет значение[`BottomField`](./bottomfield/) свойство. |
+| [BottomField](../../aspose.tasks.visualization/barstyle/bottomfield/) { get; set; } | Получает или задает поле, отображаемое в нижней части панели. |
+| [EndShape](../../aspose.tasks.visualization/barstyle/endshape/) { get; set; } | Получает или устанавливает[`Shape`](../shape/) в конце такта. |
+| [EndShapeColor](../../aspose.tasks.visualization/barstyle/endshapecolor/) { get; set; } | Получает или устанавливаетColor формы в конце бара. |
+| [InsideBarTextConverter](../../aspose.tasks.visualization/barstyle/insidebartextconverter/) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста внутри панели задач. Переопределяет значение[`InsideField`](./insidefield/) свойство. |
+| [InsideField](../../aspose.tasks.visualization/barstyle/insidefield/) { get; set; } | Получает или задает поле, отображаемое внутри панели. |
+| [ItemType](../../aspose.tasks.visualization/barstyle/itemtype/) { get; set; } | Получает или устанавливает[`BarItemType`](../baritemtype/) стиля бара. |
+| [LeftBarTextConverter](../../aspose.tasks.visualization/barstyle/leftbartextconverter/) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значение[`LeftField`](./leftfield/) свойство. |
+| [LeftField](../../aspose.tasks.visualization/barstyle/leftfield/) { get; set; } | Получает или задает поле, отображаемое слева от панели. |
+| [RightBarTextConverter](../../aspose.tasks.visualization/barstyle/rightbartextconverter/) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста справа от панели задач. Переопределяет значение[`RightField`](./rightfield/) свойство. |
+| [RightField](../../aspose.tasks.visualization/barstyle/rightfield/) { get; set; } | Получает или задает поле, отображаемое справа от панели. |
+| [StartShape](../../aspose.tasks.visualization/barstyle/startshape/) { get; set; } | Получает или устанавливает[`Shape`](../shape/) в начале такта. |
+| [StartShapeColor](../../aspose.tasks.visualization/barstyle/startshapecolor/) { get; set; } | Получает или устанавливаетColor формы в начале такта. |
+| [TextStyle](../../aspose.tasks.visualization/barstyle/textstyle/) { get; set; } | Получает или задает стиль текста панели. |
+| [TopBarTextConverter](../../aspose.tasks.visualization/barstyle/topbartextconverter/) { get; set; } | Получает или задает определяемый пользователем преобразователь для отображения текста в верхней части панели задач. Переопределяет значение[`TopField`](./topfield/) свойство. |
+| [TopField](../../aspose.tasks.visualization/barstyle/topfield/) { get; set; } | Получает или задает поле, отображаемое в верхней части панели. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * сборка [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

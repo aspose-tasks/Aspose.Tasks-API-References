@@ -1,14 +1,14 @@
 ---
-title: ProjectServerCredentials
+title: ProjectServerCredentials.ProjectServerCredentials
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Inizializza una nuova istanza diProjectServerCredentialsaspose.tasks/projectservercredentials classe utilizzando lURL del sito di SharePoint e un token di autorizzazione SPOIDCRL valido per il sito PWA Project Web Access di SharePoint.
+description: ProjectServerCredentials costruttore. Inizializza una nuova istanza diProjectServerCredentials utilizzando lURL del sito di SharePoint e un token di autorizzazione SPOIDCRL valido per il sito PWA Project Web Access di SharePoint.
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/projectservercredentials/projectservercredentials/
 ---
 ## ProjectServerCredentials(string, string) {#constructor_1}
 
-Inizializza una nuova istanza di[`ProjectServerCredentials`](../../projectservercredentials) classe utilizzando l'URL del sito di SharePoint e un token di autorizzazione SPOIDCRL valido per il sito PWA (Project Web Access) di SharePoint.
+Inizializza una nuova istanza di[`ProjectServerCredentials`](../) utilizzando l'URL del sito di SharePoint e un token di autorizzazione SPOIDCRL valido per il sito PWA (Project Web Access) di SharePoint.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string authToken)
@@ -21,19 +21,19 @@ public ProjectServerCredentials(string siteUrl, string authToken)
 
 ### Osservazioni
 
-Usare questo costruttore per connettersi a ProjectOnline quando si dispone già di AuthToken per il sito di SharePoint Online.
+Utilizzare questo costruttore per connettersi a ProjectOnline quando si dispone già di AuthToken per il sito di SharePoint Online.
 
 ### Guarda anche
 
-* class [ProjectServerCredentials](../../projectservercredentials)
-* spazio dei nomi [Aspose.Tasks](../../projectservercredentials)
+* class [ProjectServerCredentials](../)
+* spazio dei nomi [Aspose.Tasks](../../projectservercredentials/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## ProjectServerCredentials(string, string, string) {#constructor_2}
 
-Inizializza una nuova istanza di[`ProjectServerCredentials`](../../projectservercredentials) classe utilizzando l'URL del sito di SharePoint, il nome utente e la password.
+Inizializza una nuova istanza di[`ProjectServerCredentials`](../) classe utilizzando l'URL del sito di SharePoint, nome utente e password.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string userName, string password)
@@ -51,15 +51,15 @@ Utilizzare questo costruttore per connettersi a ProjectOnline. Tieni presente ch
 
 ### Guarda anche
 
-* class [ProjectServerCredentials](../../projectservercredentials)
-* spazio dei nomi [Aspose.Tasks](../../projectservercredentials)
+* class [ProjectServerCredentials](../)
+* spazio dei nomi [Aspose.Tasks](../../projectservercredentials/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## ProjectServerCredentials(string, NetworkCredential) {#constructor}
 
-Inizializza una nuova istanza di[`ProjectServerCredentials`](../../projectservercredentials) classe utilizzando l'URL dell'endpoint di Project Web Access e le credenziali di rete.
+Inizializza una nuova istanza di[`ProjectServerCredentials`](../) class utilizzando l'URL dell'endpoint di Project Web Access e le credenziali di rete.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
@@ -68,18 +68,18 @@ public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | siteUrl | String | L'URL dell'endpoint di accesso Web del progetto. |
-| credentials | NetworkCredential | Le credenziali utilizzate per accedere all'endpoint di Project Web Access. |
+| credentials | NetworkCredential | Le credenziali usate per accedere all'endpoint di Project Web Access. |
 
 ### Osservazioni
 
-Usare questo costruttore per connettersi all'istanza locale di Project Server tramite PWA.
+Utilizzare questo costruttore per connettersi all'istanza locale di Project Server tramite PWA.
 
 ### Esempi
 
-In questo esempio l'istanza di[`ProjectServerManager`](../../projectservermanager)la classe viene utilizzata per leggere un elenco di progetti dall'istanza di Project Server situata in http://project_server_instance.local
+In questo esempio l'istanza di[`ProjectServerManager`](../../projectservermanager/)viene utilizzata per leggere un elenco di progetti dall'istanza di Project Server che si trova in http://project_server_instance.local
 
 ```csharp
-string site = "http://istanza_server_progetto.local/sites/pwa";
+string site = "http://project_server_instance.local/sites/pwa";
 var windowsCredentials = new NetworkCredential("Administrator", "my_password", "DOMAIN");
 var projectServerCredentials = new ProjectServerCredentials(site, windowsCredentials);
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
@@ -93,8 +93,8 @@ foreach (var projectInfo in list)
 
 ### Guarda anche
 
-* class [ProjectServerCredentials](../../projectservercredentials)
-* spazio dei nomi [Aspose.Tasks](../../projectservercredentials)
+* class [ProjectServerCredentials](../)
+* spazio dei nomi [Aspose.Tasks](../../projectservercredentials/)
 * assemblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

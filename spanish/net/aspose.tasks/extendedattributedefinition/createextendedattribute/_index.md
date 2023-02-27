@@ -1,7 +1,7 @@
 ---
-title: CreateExtendedAttribute
+title: ExtendedAttributeDefinition.CreateExtendedAttribute
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Crea un nuevo atributo extendido con el ID de campo que es igual al valor de ID de campo de este objeto.
+description: ExtendedAttributeDefinition método. Crea un nuevo atributo extendido con el ID de campo que es igual al valor de ID de campo de este objeto.
 type: docs
 weight: 300
 url: /es/net/aspose.tasks/extendedattributedefinition/createextendedattribute/
@@ -16,20 +16,20 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### Valor_devuelto
 
-devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
+devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute/)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
 
 ### Ver también
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateExtendedAttribute(string) {#createextendedattribute_6}
 
-Crea un nuevo atributo extendido con el ID de campo que es igual al valor de ID de campo de este objeto y el valor de texto especificado.
+Crea un nuevo atributo extendido con el Id. de campo que es igual al valor de Id. de campo de este objeto y el valor de texto especificado.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(string textValue)
@@ -41,19 +41,19 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### Valor_devuelto
 
-devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
+devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute/)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | si es actual[`CfType`](../cftype) no es 'Texto' |
+| InvalidOperationException | si es actual[`CfType`](../cftype/) no es 'Texto' |
 
 ### Ver también
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -72,19 +72,19 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### Valor_devuelto
 
-devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
+devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute/)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | si es actual[`CfType`](../cftype) no es 'Número' o 'Costo' |
+| InvalidOperationException | si es actual[`CfType`](../cftype/) no es 'Número' o 'Costo' |
 
 ### Ver también
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -103,19 +103,19 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### Valor_devuelto
 
-devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
+devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute/)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | si es actual[`CfType`](../cftype) no es 'Fecha', 'Inicio' o 'Terminación' |
+| InvalidOperationException | si es actual[`CfType`](../cftype/) no es 'Fecha', 'Inicio' o 'Terminación' |
 
 ### Ver también
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -134,20 +134,20 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ### Valor_devuelto
 
-devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
+devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute/)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | si es actual[`CfType`](../cftype) no es 'Duración' |
+| InvalidOperationException | si es actual[`CfType`](../cftype/) no es 'Duración' |
 
 ### Ver también
 
-* class [ExtendedAttribute](../../extendedattribute)
-* struct [Duration](../../duration)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* struct [Duration](../../duration/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
@@ -166,26 +166,26 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### Valor_devuelto
 
-devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
+devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute/)clase con el ID de campo que es igual al valor de ID de campo de este objeto.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | si es actual[`CfType`](../cftype) no es 'Bandera' |
+| InvalidOperationException | si es actual[`CfType`](../cftype/) no es 'Bandera' |
 
 ### Ver también
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-Crea un nuevo atributo extendido vinculado con el especificado[`Value`](../../value) artículo.
+Crea un nuevo atributo extendido vinculado con el especificado[`Value`](../../value/) artículo.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -193,19 +193,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| lookupValue | Value | El especificado[`Value`](../../value) artículo. |
+| lookupValue | Value | El especificado[`Value`](../../value/) artículo. |
 
 ### Valor_devuelto
 
-devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute) clase vinculada con especificado[`Value`](../../value) artículo.
+devuelve la instancia creada del[`ExtendedAttribute`](../../extendedattribute/) clase vinculada con especificado[`Value`](../../value/) artículo.
 
 ### Observaciones
 
-*lookupValue* debe agregarse previamente a la[`ExtendedAttributeDefinition`](../../extendedattributedefinition) usando[`AddLookupValue`](../addlookupvalue) método.
+*lookupValue* debe agregarse previamente a la[`ExtendedAttributeDefinition`](../) usando[`AddLookupValue`](../addlookupvalue/) método.
 
 ### Ejemplos
 
-Usa este código para crear nuevos[`ExtendedAttribute`](../../extendedattribute) usando un valor específico:
+Usa este código para crear nuevos[`ExtendedAttribute`](../../extendedattribute/) usando un valor específico:
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);
@@ -215,10 +215,10 @@ var extendedAttribute = taskTextAttr.CreateExtendedAttribute(value2);
 
 ### Ver también
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [Value](../../value)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [Value](../../value/)
+* class [ExtendedAttributeDefinition](../)
+* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
 * asamblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: Project
+title: Project.Project
 second_title: Aspose.Tasks för .NET API-referens
-description: Initierar en ny instans avProjectaspose.tasks/project class.
+description: Project byggare. Initierar en ny instans avProject class.
 type: docs
 weight: 10
 url: /sv/net/aspose.tasks/project/project/
 ---
 ## Project() {#constructor}
 
-Initierar en ny instans av[`Project`](../../project) class.
+Initierar en ny instans av[`Project`](../) class.
 
 ```csharp
 public Project()
@@ -16,15 +16,15 @@ public Project()
 
 ### Se även
 
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, string) {#constructor_16}
+## Project(string, string) {#constructor_12}
 
-Initierar en ny instans av[`Project`](../../project) klass från en lösenordsskyddad mall (befintlig mpp- eller mpt-fil).
+Initierar en ny instans av[`Project`](../) klass från en lösenordsskyddad mall (befintlig mpp- eller mpt-fil).
 
 ```csharp
 public Project(string projectTemplate, string protectionPassword)
@@ -41,15 +41,15 @@ Läser lösenordsskyddade filer som för närvarande endast stöds för MSP 2003
 
 ### Se även
 
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string) {#constructor_10}
+## Project(string) {#constructor_8}
 
-Initierar en ny instans av[`Project`](../../project) klass från en mall (befintlig mpp eller mpt-fil).
+Initierar en ny instans av[`Project`](../) klass från en mall (befintlig mpp eller mpt-fil).
 
 ```csharp
 public Project(string projectTemplate)
@@ -61,15 +61,15 @@ public Project(string projectTemplate)
 
 ### Se även
 
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(Stream, PrimaveraReadOptions) {#constructor_6}
+## Project(Stream, PrimaveraReadOptions) {#constructor_5}
 
-Initierar en ny instans av[`Project`](../../project) klass från Stream med den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions) class.
+Initierar en ny instans av[`Project`](../) klass från Stream med den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions/) class.
 
 ```csharp
 public Project(Stream stream, PrimaveraReadOptions options)
@@ -78,20 +78,20 @@ public Project(Stream stream, PrimaveraReadOptions options)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | stream | Stream | Stream av projektetStreamklass |
-| options | PrimaveraReadOptions | den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions)klass som gör det möjligt att anpassa läsning av Primavera-format (XER eller XML). |
+| options | PrimaveraReadOptions | den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions/)klass som gör det möjligt att anpassa läsning av Primavera-format (XER eller XML). |
 
 ### Se även
 
-* class [PrimaveraReadOptions](../../primaverareadoptions)
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [PrimaveraReadOptions](../../primaverareadoptions/)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, ParseErrorCallback) {#constructor_12}
+## Project(string, ParseErrorCallback) {#constructor_10}
 
-Initierar en ny instans av[`Project`](../../project) klass från en mall (befintlig mpp eller mpt-fil).
+Initierar en ny instans av[`Project`](../) klass från en mall (befintlig mpp eller mpt-fil).
 
 ```csharp
 public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
@@ -104,16 +104,16 @@ public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 
 ### Se även
 
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* delegate [ParseErrorCallback](../../parseerrorcallback/)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream) {#constructor_2}
 
-Initierar en ny instans av[`Project`](../../project) klass från en ström.
+Initierar en ny instans av[`Project`](../) klass från en ström.
 
 ```csharp
 public Project(Stream stream)
@@ -125,15 +125,15 @@ public Project(Stream stream)
 
 ### Se även
 
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(StreamReader) {#constructor_9}
+## Project(StreamReader) {#constructor_7}
 
-Initierar en ny instans av[`Project`](../../project) klass från en StreamReader-instans.
+Initierar en ny instans av[`Project`](../) klass från en StreamReader-instans.
 
 ```csharp
 public Project(StreamReader reader)
@@ -145,15 +145,15 @@ public Project(StreamReader reader)
 
 ### Se även
 
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, PrimaveraReadOptions) {#constructor_14}
+## Project(string, PrimaveraReadOptions) {#constructor_11}
 
-Initierar en ny instans av[`Project`](../../project) klass från en mall (befintlig MPP- eller MPT-fil) med den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions) class.
+Initierar en ny instans av[`Project`](../) klass från en mall (befintlig MPP- eller MPT-fil) med den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions/) class.
 
 ```csharp
 public Project(string projectTemplate, PrimaveraReadOptions options)
@@ -162,20 +162,20 @@ public Project(string projectTemplate, PrimaveraReadOptions options)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | projectTemplate | String | Sökväg till mall att skapa projekt från |
-| options | PrimaveraReadOptions | den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions) klass. |
+| options | PrimaveraReadOptions | den angivna instansen av[`PrimaveraReadOptions`](../../primaverareadoptions/) klass. |
 
 ### Se även
 
-* class [PrimaveraReadOptions](../../primaverareadoptions)
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [PrimaveraReadOptions](../../primaverareadoptions/)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(DbSettings) {#constructor_1}
 
-Initierar en ny instans av[`Project`](../../project) klass för att läsa data från en databas som specificeras av instansen av[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) class.
+Initierar en ny instans av[`Project`](../) klass för att läsa data från en databas som specificeras av instansen av[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) class.
 
 ```csharp
 public Project(DbSettings settings)
@@ -183,20 +183,20 @@ public Project(DbSettings settings)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| settings | DbSettings | den angivna instansen av[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) klass. |
+| settings | DbSettings | den angivna instansen av[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) klass. |
 
 ### Se även
 
-* class [DbSettings](../../../aspose.tasks.connectivity/dbsettings)
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [DbSettings](../../../aspose.tasks.connectivity/dbsettings/)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, ParseErrorCallback) {#constructor_4}
 
-Initierar en ny instans av[`Project`](../../project) klass från en mall (befintlig mpp- eller mpt-fil).
+Initierar en ny instans av[`Project`](../)klass från en mall (befintlig mpp- eller mpt-fil).
 
 ```csharp
 public Project(Stream stream, ParseErrorCallback parseErrorHandler)
@@ -209,16 +209,16 @@ public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 
 ### Se även
 
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* delegate [ParseErrorCallback](../../parseerrorcallback/)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(Stream, string) {#constructor_8}
+## Project(Stream, string) {#constructor_6}
 
-Initierar en ny instans av[`Project`](../../project) klass från en mall (befintlig mpp- eller mpt-fil).
+Initierar en ny instans av[`Project`](../)klass från en mall (befintlig mpp- eller mpt-fil).
 
 ```csharp
 public Project(Stream stream, string protectionPassword)
@@ -235,15 +235,15 @@ Läser lösenordsskyddade filer som för närvarande endast stöds för MSP 2003
 
 ### Se även
 
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
-## Project(string, LoadOptions) {#constructor_11}
+## Project(string, LoadOptions) {#constructor_9}
 
-Initierar en ny instans av[`Project`](../../project) klass från en mall (befintlig mpp- eller mpt-fil) med den angivna instansen av[`LoadOptions`](../../loadoptions) class.
+Initierar en ny instans av[`Project`](../) klass från en mall (befintlig mpp- eller mpt-fil) med den angivna instansen av[`LoadOptions`](../../loadoptions/) class.
 
 ```csharp
 public Project(string projectTemplate, LoadOptions options)
@@ -252,20 +252,20 @@ public Project(string projectTemplate, LoadOptions options)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | projectTemplate | String | Sökväg till mall att skapa projekt från |
-| options | LoadOptions | den angivna instansen av[`LoadOptions`](../../loadoptions) klass. |
+| options | LoadOptions | den angivna instansen av[`LoadOptions`](../../loadoptions/) klass. |
 
 ### Se även
 
-* class [LoadOptions](../../loadoptions)
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [LoadOptions](../../loadoptions/)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, LoadOptions) {#constructor_3}
 
-Initierar en ny instans av[`Project`](../../project) klass från Stream med den angivna instansen av[`LoadOptions`](../../loadoptions) class.
+Initierar en ny instans av[`Project`](../) klass från Stream med den angivna instansen av[`LoadOptions`](../../loadoptions/) class.
 
 ```csharp
 public Project(Stream stream, LoadOptions options)
@@ -274,13 +274,13 @@ public Project(Stream stream, LoadOptions options)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | stream | Stream | Stream av projektetStreamklass |
-| options | LoadOptions | den angivna instansen av[`LoadOptions`](../../loadoptions)klass |
+| options | LoadOptions | den angivna instansen av[`LoadOptions`](../../loadoptions/)klass |
 
 ### Se även
 
-* class [LoadOptions](../../loadoptions)
-* class [Project](../../project)
-* namnutrymme [Aspose.Tasks](../../project)
+* class [LoadOptions](../../loadoptions/)
+* class [Project](../)
+* namnutrymme [Aspose.Tasks](../../project/)
 * hopsättning [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

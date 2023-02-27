@@ -1,9 +1,9 @@
 ---
-title: Print
+title: Project.Print
 second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Imprime le projet sur limprimante par défaut avec les paramètres dimprimante par défaut à laide du contrôleur dimpression standard pas dinterface utilisateur.
+description: Project méthode. Imprime le projet sur limprimante par défaut avec les paramètres dimprimante par défaut à laide du contrôleur dimpression standard pas dinterface utilisateur.
 type: docs
-weight: 330
+weight: 1110
 url: /fr/net/aspose.tasks/project/print/
 ---
 ## Print() {#print}
@@ -16,8 +16,8 @@ public void Print()
 
 ### Voir également
 
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -32,13 +32,13 @@ public void Print(PrintOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| options | PrintOptions | l'instance spécifiée du[`PrintOptions`](../../../aspose.tasks.saving/printoptions) classer. |
+| options | PrintOptions | l'instance spécifiée du[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) classe. |
 
 ### Voir également
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -57,8 +57,8 @@ public void Print(string printerName)
 
 ### Voir également
 
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -73,12 +73,12 @@ public void Print(PrinterSettings printerSettings)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classer. |
+| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classe. |
 
 ### Voir également
 
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -93,13 +93,13 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classer. |
+| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classe. |
 | documentName | String | le nom du document à afficher (par exemple, dans une boîte de dialogue d'état d'impression ou une file d'attente d'impression). |
 
 ### Voir également
 
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -114,21 +114,21 @@ public void Print(PrinterSettings printerSettings, PrintOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classer. |
-| options | PrintOptions | l'instance spécifiée du[`PrintOptions`](../../../aspose.tasks.saving/printoptions) classer. |
+| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classe. |
+| options | PrintOptions | l'instance spécifiée du[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) classe. |
 
 ### Voir également
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, PrintOptions, string) {#print_4}
 
-Imprime le projet en fonction des paramètres d'imprimante spécifiés, des options d'enregistrement personnalisées et du nom de document spécifié à l'aide du contrôleur d'impression standard (sans interface utilisateur).
+Imprime le projet en fonction des paramètres d'imprimante spécifiés, des options d'enregistrement personnalisées et du nom de document spécifié à l'aide du contrôleur d'impression standard (pas d'interface utilisateur).
 
 ```csharp
 public void Print(PrinterSettings printerSettings, PrintOptions options, string documentName)
@@ -136,15 +136,15 @@ public void Print(PrinterSettings printerSettings, PrintOptions options, string 
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classer. |
-| options | PrintOptions | l'instance spécifiée du[`PrintOptions`](../../../aspose.tasks.saving/printoptions) classer. |
+| printerSettings | PrinterSettings | l'instance spécifiée duPrinterSettings classe. |
+| options | PrintOptions | l'instance spécifiée du[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) classe. |
 | documentName | String | le nom du document à afficher (par exemple, dans une boîte de dialogue d'état d'impression ou une file d'attente d'impression). |
 
 ### Voir également
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* espace de noms [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* espace de noms [Aspose.Tasks](../../project/)
 * Assemblée [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

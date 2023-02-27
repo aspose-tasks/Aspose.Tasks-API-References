@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Справочник по Aspose.Tasks для .NET API
-description: Добавить указанную задачу в экземплярTaskCollectionaspose.tasks/taskcollectionclass. Если ParentProject.CalculationMode имеет значение None пользователь должен вызвать Project.Recalculate после использования этого метода он перепланирует все задачи проекта даты начала/окончания устанавливает ранние/поздние даты и вычисляет зависимые поля такие как резервы работа и поля затрат идентификаторы и уровни структуры. Если ParentProject.CalculationMode имеет значение Manual метод будет автоматически вычислять только идентификатор задачи уровень структуры и номера структуры. даты устанавливает ранние/поздние даты вычисляет резервы поля работы и затрат пересчитывает идентификаторы и уровни структуры.
+description: TaskCollection метод. Добавить указанную задачу в экземплярTaskCollectionclass. Если ParentProject.CalculationMode имеет значение None пользователь должен вызвать Project.Recalculate после использования этого метода он перепланирует все задачи проекта даты начала/окончания устанавливает ранние/поздние даты и вычисляет зависимые поля такие как резервы рабочие и поля затрат идентификаторы и уровни структуры. Если ParentProject.CalculationMode имеет значение Manual метод будет автоматически вычислять только идентификатор задачи уровень структуры и номера структуры. даты устанавливает ранние/поздние даты вычисляет резервы поля работы и затрат пересчитывает идентификаторы и уровни структуры.
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Добавить указанную задачу в экземпляр[`TaskCollection`](../../taskcollection)class. Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты) и вычисляет зависимые поля, такие как резервы, работа и поля затрат, идентификаторы и уровни структуры). Если ParentProject.CalculationMode имеет значение Manual, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. даты, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни структуры).
+Добавить указанную задачу в экземпляр[`TaskCollection`](../)class. Если ParentProject.CalculationMode имеет значение None, пользователь должен вызвать Project.Recalculate() после использования этого метода (он перепланирует все задачи проекта (даты начала/окончания, устанавливает ранние/поздние даты) и вычисляет зависимые поля, такие как резервы, рабочие и поля затрат, идентификаторы и уровни структуры). Если ParentProject.CalculationMode имеет значение Manual, метод будет автоматически вычислять только идентификатор задачи, уровень структуры и номера структуры. даты, устанавливает ранние/поздние даты, вычисляет резервы, поля работы и затрат, пересчитывает идентификаторы и уровни структуры).
 
 ```csharp
 public void Add(Task item)
@@ -20,9 +20,9 @@ public void Add(Task item)
 
 ### Смотрите также
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* пространство имен [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* пространство имен [Aspose.Tasks](../../taskcollection/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -37,13 +37,13 @@ public Task Add()
 
 ### Возвращаемое значение
 
-возвращает только что добавленный экземпляр[`Task`](../../task) учебный класс.
+возвращает только что добавленный экземпляр[`Task`](../../task/) сорт.
 
 ### Смотрите также
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* пространство имен [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* пространство имен [Aspose.Tasks](../../taskcollection/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -62,13 +62,13 @@ public Task Add(string taskName)
 
 ### Возвращаемое значение
 
-возвращает только что добавленный экземпляр[`Task`](../../task) учебный класс.
+возвращает только что добавленный экземпляр[`Task`](../../task/) сорт.
 
 ### Смотрите также
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* пространство имен [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* пространство имен [Aspose.Tasks](../../taskcollection/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -98,9 +98,9 @@ public Task Add(string taskName, int beforeTaskId)
 
 ### Смотрите также
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* пространство имен [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* пространство имен [Aspose.Tasks](../../taskcollection/)
 * сборка [Aspose.Tasks](../../../)
 
 ---
@@ -119,7 +119,7 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Возвращаемое значение
 
-возвращает только что добавленный экземпляр[`Task`](../../task) учебный класс.
+возвращает только что добавленный экземпляр[`Task`](../../task/) сорт.
 
 ### Исключения
 
@@ -130,10 +130,10 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Смотрите также
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* пространство имен [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* пространство имен [Aspose.Tasks](../../taskcollection/)
 * сборка [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

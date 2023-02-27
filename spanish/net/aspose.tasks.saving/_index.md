@@ -3,7 +3,7 @@ title: Aspose.Tasks.Saving
 second_title: Referencia de Aspose.Tasks para la API de .NET
 description: Contiene clases para guardar un proyecto en diferentes formatos.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.tasks.saving/
 ---
 Contiene clases para guardar un proyecto en diferentes formatos.
@@ -12,41 +12,41 @@ Contiene clases para guardar un proyecto en diferentes formatos.
 
 | Clase | Descripción |
 | --- | --- |
-| [CsvOptions](./csvoptions) | Permite especificar opciones adicionales al guardar el proyecto en CSV. |
-| [HtmlSaveOptions](./htmlsaveoptions) | Permite especificar opciones adicionales al renderizar páginas de proyecto a HTML. |
-| [ImageSaveOptions](./imagesaveoptions) | Permite especificar opciones adicionales al representar páginas de proyecto en imágenes. |
-| [MPPSaveOptions](./mppsaveoptions) | Permite especificar opciones adicionales al guardar datos del proyecto en MPP. |
-| [PageSavingArgs](./pagesavingargs) | Esta clase representa un conjunto de datos relacionados con el guardado de la página del documento en una secuencia. |
-| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails) | Contiene detalles para una firma digital PDF. |
-| [PdfEncryptionDetails](./pdfencryptiondetails) | Contiene detalles para un cifrado de PDF. |
-| [PdfSaveOptions](./pdfsaveoptions) | Permite especificar opciones adicionales al renderizar páginas de proyecto a PDF. |
-| [PrimaveraSaveOptions](./primaverasaveoptions) | Permite especificar opciones adicionales al guardar el proyecto en formato Primavera XER. |
-| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions) | Permite especificar opciones adicionales al guardar el proyecto en formato Primavera xml. |
-| [PrintOptions](./printoptions) | Permite especificar opciones adicionales al imprimir proyecto. |
-| [SaveOptions](./saveoptions) | Esta es una clase base abstracta para clases que permiten al usuario especificar opciones adicionales al guardar un proyecto en un formato particular. |
-| [SaveTemplateOptions](./savetemplateoptions) | Permite especificar opciones adicionales al guardar un proyecto como plantilla. |
-| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions) | Permite especificar opciones adicionales al renderizar páginas de proyecto a Spreadsheet2003. |
-| [SvgOptions](./svgoptions) | Permite especificar opciones adicionales al renderizar páginas de proyecto a SVG. |
-| [XamlOptions](./xamloptions) | /// Permite especificar opciones adicionales al representar páginas de proyecto en XAML. |
-| [XlsxOptions](./xlsxoptions) | Permite especificar opciones adicionales al renderizar páginas de proyecto a XLSX. |
-| [XpsOptions](./xpsoptions) | Permite especificar opciones adicionales al renderizar páginas de proyecto a XPS. |
+| [CsvOptions](./csvoptions/) | Permite especificar opciones adicionales al guardar el proyecto en CSV. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Permite especificar opciones adicionales al renderizar páginas de proyecto a HTML. |
+| [ImageSaveOptions](./imagesaveoptions/) | Permite especificar opciones adicionales al representar páginas de proyecto en imágenes. |
+| [MPPSaveOptions](./mppsaveoptions/) | Permite especificar opciones adicionales al guardar datos del proyecto en MPP. |
+| [PageSavingArgs](./pagesavingargs/) | Esta clase representa un conjunto de datos relacionados con el guardado de la página del documento en una secuencia. |
+| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | Contiene detalles para una firma digital PDF. |
+| [PdfEncryptionDetails](./pdfencryptiondetails/) | Contiene detalles para un cifrado de PDF. |
+| [PdfSaveOptions](./pdfsaveoptions/) | Permite especificar opciones adicionales al renderizar páginas de proyecto a PDF. |
+| [PrimaveraSaveOptions](./primaverasaveoptions/) | Permite especificar opciones adicionales al guardar el proyecto en formato Primavera XER. |
+| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions/) | Permite especificar opciones adicionales al guardar el proyecto en formato Primavera xml. |
+| [PrintOptions](./printoptions/) | Permite especificar opciones adicionales al imprimir proyecto. |
+| [SaveOptions](./saveoptions/) | Esta es una clase base abstracta para clases que permiten al usuario especificar opciones adicionales al guardar un proyecto en un formato particular. |
+| [SaveTemplateOptions](./savetemplateoptions/) | Permite especificar opciones adicionales al guardar un proyecto como plantilla. |
+| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | Permite especificar opciones adicionales al renderizar páginas de proyecto a Spreadsheet2003. |
+| [SvgOptions](./svgoptions/) | Permite especificar opciones adicionales al renderizar páginas de proyecto a SVG. |
+| [XamlOptions](./xamloptions/) | /// Permite especificar opciones adicionales al representar páginas de proyecto en XAML. |
+| [XlsxOptions](./xlsxoptions/) | Permite especificar opciones adicionales al renderizar páginas de proyecto a XLSX. |
+| [XpsOptions](./xpsoptions/) | Permite especificar opciones adicionales al renderizar páginas de proyecto a XPS. |
 ## Interfaces
 
 | Interfaz | Descripción |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback) | Representa una devolución de llamada que se llama cuando cada página en un documento de varias páginas se guarda en una secuencia separada. |
+| [IPageSavingCallback](./ipagesavingcallback/) | Representa una devolución de llamada que se llama cuando cada página en un documento de varias páginas se guarda en una secuencia separada. |
 ## Enumeración
 
 | Enumeración | Descripción |
 | --- | --- |
-| [CsvTextDelimiter](./csvtextdelimiter) | Delimitador de texto para formato CSV. |
-| [DataCategory](./datacategory) | La categoría de datos utilizada al guardar en CSV. |
-| [PdfCompliance](./pdfcompliance) | Especifica el nivel de cumplimiento de PDF para el archivo de salida. |
-| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm) | Especifica el algoritmo hash digital utilizado por la firma digital. |
-| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm) | Especifica el algoritmo de cifrado que se utilizará para cifrar un documento PDF. |
-| [PdfPermissions](./pdfpermissions) | Especifica los permisos que se utilizarán para acceder a un documento PDF. |
-| [PdfTextCompression](./pdftextcompression) | Especifica un tipo de compresión que se aplica a todo el contenido del archivo PDF, excepto a las imágenes. |
-| [SaveFileFormat](./savefileformat) | Enumeración para guardar selección de formato de proyecto. |
-| [TiffCompression](./tiffcompression) | Especifica qué tipo de compresión aplicar al guardar páginas en formato TIFF. |
+| [CsvTextDelimiter](./csvtextdelimiter/) | Delimitador de texto para formato CSV. |
+| [DataCategory](./datacategory/) | La categoría de datos utilizada al guardar en CSV. |
+| [PdfCompliance](./pdfcompliance/) | Especifica el nivel de cumplimiento de PDF para el archivo de salida. |
+| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | Especifica el algoritmo hash digital utilizado por la firma digital. |
+| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm/) | Especifica el algoritmo de cifrado que se utilizará para cifrar un documento PDF. |
+| [PdfPermissions](./pdfpermissions/) | Especifica los permisos que se utilizarán para acceder a un documento PDF. |
+| [PdfTextCompression](./pdftextcompression/) | Especifica un tipo de compresión que se aplica a todo el contenido del archivo PDF, excepto a las imágenes. |
+| [SaveFileFormat](./savefileformat/) | Enumeración para guardar selección de formato de proyecto. |
+| [TiffCompression](./tiffcompression/) | Especifica qué tipo de compresión aplicar al guardar páginas en formato TIFF. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

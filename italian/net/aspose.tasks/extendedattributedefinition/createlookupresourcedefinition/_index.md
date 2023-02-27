@@ -1,14 +1,14 @@
 ---
-title: CreateLookupResourceDefinition
+title: ExtendedAttributeDefinition.CreateLookupResourceDefinition
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Metodo di fabbrica che crea una definizione di attributo estesa con lookup. HaCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype è uguale aLookup e può essere utilizzato solo in Risorse. È necessario specificarefieldId ealias quando si chiama questo metodo. Il tipo di campo viene dedotto da ID campo.
+description: ExtendedAttributeDefinition metodo. Metodo factory che crea una definizione di attributo estesa con lookup. HaCalculationType uguale aLookup e può essere utilizzato solo in Risorse. È necessario specificarefieldId Ealias quando si chiama questo metodo. Il tipo di campo viene dedotto dal campo id.
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/extendedattributedefinition/createlookupresourcedefinition/
 ---
 ## CreateLookupResourceDefinition(ExtendedAttributeResource, string) {#createlookupresourcedefinition_1}
 
-Metodo di fabbrica che crea una definizione di attributo estesa con lookup. Ha[`CalculationType`](../calculationtype) è uguale aLookup e può essere utilizzato solo in Risorse. È necessario specificare*fieldId* e*alias* quando si chiama questo metodo. Il tipo di campo viene dedotto da ID campo.
+Metodo factory che crea una definizione di attributo estesa con lookup. Ha[`CalculationType`](../calculationtype/) uguale aLookup e può essere utilizzato solo in Risorse. È necessario specificare*fieldId* E*alias* quando si chiama questo metodo. Il tipo di campo viene dedotto dal campo id.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -17,16 +17,16 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource) ID campo. |
+| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource/) ID campo. |
 | alias | String | Il specificatoString alias. |
 
 ### Valore di ritorno
 
-Istanza creata di[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe con specificato*fieldId* e*alias*.
+Istanza creata di[`ExtendedAttributeDefinition`](../) classe con specificato*fieldId* E*alias*.
 
 ### Esempi
 
-Utilizzare questo esempio per creare una definizione di campo personalizzata per una risorsa con ricerca e quindi riempirla con valori di testo:
+Utilizza questo esempio per creare una definizione di campo personalizzata per una risorsa con ricerca e poi riempila con valori di testo:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
@@ -37,16 +37,16 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Guarda anche
 
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createlookupresourcedefinition}
 
-Metodo di fabbrica che crea una definizione di attributo estesa con lookup. Ha[`CalculationType`](../calculationtype) è uguale aLookup e può essere utilizzato solo in Risorse. È necessario specificare*customFieldType* ,*fieldId* e*alias* quando chiama questo metodo.
+Metodo factory che crea una definizione di attributo estesa con lookup. Ha[`CalculationType`](../calculationtype/) uguale aLookup e può essere utilizzato solo in Risorse. È necessario specificare*customFieldType* ,*fieldId* E*alias* quando chiami questo metodo.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -55,17 +55,17 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Il specificato[`CustomFieldType`](../../customfieldtype) genere. |
-| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource) ID campo. |
+| customFieldType | CustomFieldType | Il specificato[`CustomFieldType`](../../customfieldtype/) tipo. |
+| fieldId | ExtendedAttributeResource | Il specificato[`ExtendedAttributeResource`](../../extendedattributeresource/) ID campo. |
 | alias | String | Il specificatoString alias. |
 
 ### Valore di ritorno
 
-Istanza creata di[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe con specificato*customFieldType* ,*fieldId* e*alias*.
+Istanza creata di[`ExtendedAttributeDefinition`](../) classe con specificato*customFieldType* ,*fieldId* E*alias*.
 
 ### Esempi
 
-Utilizzare questo esempio per creare una definizione di campo personalizzata per una risorsa con ricerca e quindi riempirla con valori di testo:
+Utilizza questo esempio per creare una definizione di campo personalizzata per una risorsa con ricerca e poi riempila con valori di testo:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateLookupResourceDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
@@ -76,10 +76,10 @@ project.ExtendedAttributes.Add(resourceTextAttr);
 
 ### Guarda anche
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
 * assemblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

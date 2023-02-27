@@ -1,9 +1,9 @@
 ---
-title: BarStyle
+title: Class BarStyle
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Cambia el estilo visual de la barra del elemento en la vista del proyecto.
+description: Aspose.Tasks.Visualization.BarStyle clase. Cambia el estilo visual de la barra del elemento en la vista del proyecto.
 type: docs
-weight: 2610
+weight: 2630
 url: /es/net/aspose.tasks.visualization/barstyle/
 ---
 ## BarStyle class
@@ -18,34 +18,34 @@ public class BarStyle
 
 | Nombre | Descripción |
 | --- | --- |
-| [BarStyle](barstyle)() | Inicializa una nueva instancia del[`BarStyle`](../barstyle) clase. |
+| [BarStyle](barstyle/)() | Inicializa una nueva instancia del`BarStyle` clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [BarColor](../../aspose.tasks.visualization/barstyle/barcolor) { get; set; } | Obtiene o estableceColor de la barra estilo. |
-| [BarShape](../../aspose.tasks.visualization/barstyle/barshape) { get; set; } | Obtiene o establece[`BarShape`](./barshape) de la barra estilo. |
-| [BottomBarTextConverter](../../aspose.tasks.visualization/barstyle/bottombartextconverter) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar en la parte inferior de la barra de la tarea. Anula el valor de[`BottomField`](./bottomfield) propiedad. |
-| [BottomField](../../aspose.tasks.visualization/barstyle/bottomfield) { get; set; } | Obtiene o establece un campo para que se muestre en la parte inferior de la barra. |
-| [EndShape](../../aspose.tasks.visualization/barstyle/endshape) { get; set; } | Obtiene o establece[`Shape`](../shape) al final de la barra. |
-| [EndShapeColor](../../aspose.tasks.visualization/barstyle/endshapecolor) { get; set; } | Obtiene o estableceColor de la forma al final de la barra. |
-| [InsideBarTextConverter](../../aspose.tasks.visualization/barstyle/insidebartextconverter) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar dentro de la barra de la tarea. Anula el valor de[`InsideField`](./insidefield) propiedad. |
-| [InsideField](../../aspose.tasks.visualization/barstyle/insidefield) { get; set; } | Obtiene o establece un campo para que se muestre dentro de la barra. |
-| [ItemType](../../aspose.tasks.visualization/barstyle/itemtype) { get; set; } | Obtiene o establece[`BarItemType`](../baritemtype) de la barra estilo. |
-| [LeftBarTextConverter](../../aspose.tasks.visualization/barstyle/leftbartextconverter) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar a la izquierda de la barra de tareas. Anula el valor de[`LeftField`](./leftfield) propiedad. |
-| [LeftField](../../aspose.tasks.visualization/barstyle/leftfield) { get; set; } | Obtiene o establece un campo para que se muestre a la izquierda de la barra. |
-| [RightBarTextConverter](../../aspose.tasks.visualization/barstyle/rightbartextconverter) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar a la derecha de la barra de la tarea. Anula el valor de[`RightField`](./rightfield) propiedad. |
-| [RightField](../../aspose.tasks.visualization/barstyle/rightfield) { get; set; } | Obtiene o establece un campo para que se muestre a la derecha de la barra. |
-| [StartShape](../../aspose.tasks.visualization/barstyle/startshape) { get; set; } | Obtiene o establece[`Shape`](../shape) al principio de la barra. |
-| [StartShapeColor](../../aspose.tasks.visualization/barstyle/startshapecolor) { get; set; } | Obtiene o estableceColor de la forma al principio de la barra. |
-| [TextStyle](../../aspose.tasks.visualization/barstyle/textstyle) { get; set; } | Obtiene o establece el estilo del texto de la barra. |
-| [TopBarTextConverter](../../aspose.tasks.visualization/barstyle/topbartextconverter) { get; set; } | Obtiene o establece un convertidor definido por el usuario para que el texto se represente en la parte superior de la barra de la tarea. Anula el valor de[`TopField`](./topfield) propiedad. |
-| [TopField](../../aspose.tasks.visualization/barstyle/topfield) { get; set; } | Obtiene o establece un campo para que se muestre en la parte superior de la barra. |
+| [BarColor](../../aspose.tasks.visualization/barstyle/barcolor/) { get; set; } | Obtiene o estableceColor de la barra estilo. |
+| [BarShape](../../aspose.tasks.visualization/barstyle/barshape/) { get; set; } | Obtiene o establece[`BarShape`](./barshape/) de la barra estilo. |
+| [BottomBarTextConverter](../../aspose.tasks.visualization/barstyle/bottombartextconverter/) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar en la parte inferior de la barra de la tarea. Anula el valor de[`BottomField`](./bottomfield/) propiedad. |
+| [BottomField](../../aspose.tasks.visualization/barstyle/bottomfield/) { get; set; } | Obtiene o establece un campo para que se muestre en la parte inferior de la barra. |
+| [EndShape](../../aspose.tasks.visualization/barstyle/endshape/) { get; set; } | Obtiene o establece[`Shape`](../shape/) al final de la barra. |
+| [EndShapeColor](../../aspose.tasks.visualization/barstyle/endshapecolor/) { get; set; } | Obtiene o estableceColor de la forma al final de la barra. |
+| [InsideBarTextConverter](../../aspose.tasks.visualization/barstyle/insidebartextconverter/) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar dentro de la barra de la tarea. Anula el valor de[`InsideField`](./insidefield/) propiedad. |
+| [InsideField](../../aspose.tasks.visualization/barstyle/insidefield/) { get; set; } | Obtiene o establece un campo para que se muestre dentro de la barra. |
+| [ItemType](../../aspose.tasks.visualization/barstyle/itemtype/) { get; set; } | Obtiene o establece[`BarItemType`](../baritemtype/) de la barra estilo. |
+| [LeftBarTextConverter](../../aspose.tasks.visualization/barstyle/leftbartextconverter/) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar a la izquierda de la barra de tareas. Anula el valor de[`LeftField`](./leftfield/) propiedad. |
+| [LeftField](../../aspose.tasks.visualization/barstyle/leftfield/) { get; set; } | Obtiene o establece un campo para que se muestre a la izquierda de la barra. |
+| [RightBarTextConverter](../../aspose.tasks.visualization/barstyle/rightbartextconverter/) { get; set; } | Obtiene o establece un convertidor definido por el usuario para obtener texto para representar a la derecha de la barra de la tarea. Anula el valor de[`RightField`](./rightfield/) propiedad. |
+| [RightField](../../aspose.tasks.visualization/barstyle/rightfield/) { get; set; } | Obtiene o establece un campo para que se muestre a la derecha de la barra. |
+| [StartShape](../../aspose.tasks.visualization/barstyle/startshape/) { get; set; } | Obtiene o establece[`Shape`](../shape/) al principio de la barra. |
+| [StartShapeColor](../../aspose.tasks.visualization/barstyle/startshapecolor/) { get; set; } | Obtiene o estableceColor de la forma al principio de la barra. |
+| [TextStyle](../../aspose.tasks.visualization/barstyle/textstyle/) { get; set; } | Obtiene o establece el estilo del texto de la barra. |
+| [TopBarTextConverter](../../aspose.tasks.visualization/barstyle/topbartextconverter/) { get; set; } | Obtiene o establece un convertidor definido por el usuario para que el texto se represente en la parte superior de la barra de la tarea. Anula el valor de[`TopField`](./topfield/) propiedad. |
+| [TopField](../../aspose.tasks.visualization/barstyle/topfield/) { get; set; } | Obtiene o establece un campo para que se muestre en la parte superior de la barra. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization)
+* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
 * asamblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

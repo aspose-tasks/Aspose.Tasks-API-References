@@ -47,3 +47,16 @@ Aspose.Tasks for C++, C++ uygulamalarının Microsoft Project kullanmadan MPP/XM
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Tasks for C++ API Referansı](/tasks/cpp/)
+
+## .NET aracılığıyla Python için Aspose.Tasks
+
+{{% alert color="primary" %}}
+
+![Aspose.Tasks for Python via .NET Ürün Logosu](../home_4.png)
+
+Aspose.Tasks for Python via .NET, Python uygulamalarının MPP/XML dosyalarını Microsoft Project kullanmadan okumasını ve yazmasını sağlayan yerel bir sınıf kitaplığıdır. Bileşen, proje dosyalarını işlemek için kullanımı kolay bir API sağlar ve benzer özellikleri sıfırdan geliştirmeye kıyasla zamandan ve paradan tasarruf sağlar.
+
+{{% /alert %}}
+
+Bunlar, bazı yararlı kaynaklara bağlantılar:
+- [Aspose.Tasks for Python via .NET API Reference](/tasks/python-net/)

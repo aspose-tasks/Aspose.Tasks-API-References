@@ -1,14 +1,14 @@
 ---
-title: Print
+title: Project.Print
 second_title: Aspose.Tasks لمرجع .NET API
-description: يطبع المشروع على الطابعة الافتراضية بإعدادات الطابعة الافتراضية باستخدام وحدة تحكم الطباعة القياسية بدون واجهة مستخدم.
+description: Project طريقة. طباعة المشروع على الطابعة الافتراضية بإعدادات الطابعة الافتراضية باستخدام وحدة تحكم الطباعة القياسية بدون واجهة مستخدم.
 type: docs
-weight: 330
+weight: 1110
 url: /ar/net/aspose.tasks/project/print/
 ---
 ## Print() {#print}
 
-يطبع المشروع على الطابعة الافتراضية بإعدادات الطابعة الافتراضية باستخدام وحدة تحكم الطباعة القياسية (بدون واجهة مستخدم).
+طباعة المشروع على الطابعة الافتراضية بإعدادات الطابعة الافتراضية باستخدام وحدة تحكم الطباعة القياسية (بدون واجهة مستخدم).
 
 ```csharp
 public void Print()
@@ -16,15 +16,15 @@ public void Print()
 
 ### أنظر أيضا
 
-* class [Project](../../project)
-* مساحة الاسم [Aspose.Tasks](../../project)
+* class [Project](../)
+* مساحة الاسم [Aspose.Tasks](../../project/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrintOptions) {#print_1}
 
-يطبع المشروع على الطابعة الافتراضية بإعدادات الطابعة الافتراضية وخيارات الحفظ المخصصة باستخدام وحدة تحكم الطباعة القياسية (بدون واجهة مستخدم).
+طباعة المشروع على الطابعة الافتراضية بإعدادات الطابعة الافتراضية وخيارات الحفظ المخصصة باستخدام وحدة تحكم الطباعة القياسية (بدون واجهة مستخدم).
 
 ```csharp
 public void Print(PrintOptions options)
@@ -32,13 +32,13 @@ public void Print(PrintOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| options | PrintOptions | المثيل المحدد لـ[`PrintOptions`](../../../aspose.tasks.saving/printoptions) صف دراسي. |
+| options | PrintOptions | المثيل المحدد لـ[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) فصل. |
 
 ### أنظر أيضا
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* مساحة الاسم [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* مساحة الاسم [Aspose.Tasks](../../project/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -57,8 +57,8 @@ public void Print(string printerName)
 
 ### أنظر أيضا
 
-* class [Project](../../project)
-* مساحة الاسم [Aspose.Tasks](../../project)
+* class [Project](../)
+* مساحة الاسم [Aspose.Tasks](../../project/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -73,12 +73,12 @@ public void Print(PrinterSettings printerSettings)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings صف دراسي. |
+| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings فصل. |
 
 ### أنظر أيضا
 
-* class [Project](../../project)
-* مساحة الاسم [Aspose.Tasks](../../project)
+* class [Project](../)
+* مساحة الاسم [Aspose.Tasks](../../project/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -93,13 +93,13 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings صف دراسي. |
+| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings فصل. |
 | documentName | String | اسم المستند المراد عرضه (على سبيل المثال ، في مربع حوار حالة الطباعة أو قائمة انتظار الطابعة). |
 
 ### أنظر أيضا
 
-* class [Project](../../project)
-* مساحة الاسم [Aspose.Tasks](../../project)
+* class [Project](../)
+* مساحة الاسم [Aspose.Tasks](../../project/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -114,14 +114,14 @@ public void Print(PrinterSettings printerSettings, PrintOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings صف دراسي. |
-| options | PrintOptions | المثيل المحدد لـ[`PrintOptions`](../../../aspose.tasks.saving/printoptions) صف دراسي. |
+| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings فصل. |
+| options | PrintOptions | المثيل المحدد لـ[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) فصل. |
 
 ### أنظر أيضا
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* مساحة الاسم [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* مساحة الاسم [Aspose.Tasks](../../project/)
 * المجسم [Aspose.Tasks](../../../)
 
 ---
@@ -136,15 +136,15 @@ public void Print(PrinterSettings printerSettings, PrintOptions options, string 
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings صف دراسي. |
-| options | PrintOptions | المثيل المحدد لـ[`PrintOptions`](../../../aspose.tasks.saving/printoptions) صف دراسي. |
+| printerSettings | PrinterSettings | المثيل المحدد لـPrinterSettings فصل. |
+| options | PrintOptions | المثيل المحدد لـ[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) فصل. |
 | documentName | String | اسم المستند المراد عرضه (على سبيل المثال ، في مربع حوار حالة الطباعة أو قائمة انتظار الطابعة). |
 
 ### أنظر أيضا
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* مساحة الاسم [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* مساحة الاسم [Aspose.Tasks](../../project/)
 * المجسم [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

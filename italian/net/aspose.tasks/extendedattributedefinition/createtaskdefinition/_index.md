@@ -1,14 +1,14 @@
 ---
-title: CreateTaskDefinition
+title: ExtendedAttributeDefinition.CreateTaskDefinition
 second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Metodo Factory che crea una definizione di attributo estesa semplice che Microsoft Project mostra come Nessuno. HaCalculationTypeaspose.tasks/extendedattributedefinition/calculationtype è uguale aNone e può essere utilizzato solo in Attività. È necessario specificarecustomFieldType fieldId ealias quando si chiama questo metodo.
+description: ExtendedAttributeDefinition metodo. Metodo Factory che crea una semplice definizione di attributo esteso che Microsoft Project mostra come None. HaCalculationType uguale aNone e può essere utilizzato solo in Attività. È necessario specificarecustomFieldType fieldId Ealias quando si chiama questo metodo.
 type: docs
 weight: 40
 url: /it/net/aspose.tasks/extendedattributedefinition/createtaskdefinition/
 ---
 ## CreateTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createtaskdefinition}
 
-Metodo Factory che crea una definizione di attributo estesa semplice, che Microsoft Project mostra come "Nessuno". Ha[`CalculationType`](../calculationtype) è uguale aNone e può essere utilizzato solo in Attività. È necessario specificare*customFieldType* ,*fieldId* e*alias* quando si chiama questo metodo.
+Metodo Factory che crea una semplice definizione di attributo esteso, che Microsoft Project mostra come "None". Ha[`CalculationType`](../calculationtype/) uguale aNone e può essere utilizzato solo in Attività. È necessario specificare*customFieldType* ,*fieldId* E*alias* quando si chiama questo metodo.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType customFieldType, 
@@ -17,17 +17,17 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType c
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | Il specificato[`CustomFieldType`](../../customfieldtype) genere. |
-| fieldId | ExtendedAttributeTask | Il specificato[`ExtendedAttributeTask`](../../extendedattributetask) ID campo. |
+| customFieldType | CustomFieldType | Il specificato[`CustomFieldType`](../../customfieldtype/) tipo. |
+| fieldId | ExtendedAttributeTask | Il specificato[`ExtendedAttributeTask`](../../extendedattributetask/) ID campo. |
 | alias | String | Il specificatoString alias. |
 
 ### Valore di ritorno
 
-Istanza creata di[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe con specificato*customFieldType* ,*fieldId* e*alias*.
+Istanza creata di[`ExtendedAttributeDefinition`](../) classe con specificato*customFieldType* ,*fieldId* E*alias*.
 
 ### Esempi
 
-Utilizzare questo esempio per creare una definizione di campo di testo personalizzata:
+Utilizza questo esempio per creare una definizione di campo di testo personalizzato:
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text27, "My custom field");
@@ -36,17 +36,17 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Guarda anche
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
 * assemblea [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateTaskDefinition(ExtendedAttributeTask, string) {#createtaskdefinition_1}
 
-Metodo Factory che crea una definizione di attributo estesa semplice, che Microsoft Project mostra come "Nessuno". Ha[`CalculationType`](../calculationtype) è uguale aNone e può essere utilizzato solo in Attività. È necessario specificare*fieldId* e*alias* quando si chiama questo metodo. Il tipo di campo viene dedotto dal campo id.
+Metodo Factory che crea una semplice definizione di attributo esteso, che Microsoft Project mostra come "None". Ha[`CalculationType`](../calculationtype/) uguale aNone e può essere utilizzato solo in Attività. È necessario specificare*fieldId* E*alias* quando si chiama questo metodo. Il tipo di campo viene dedotto da id campo.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -55,16 +55,16 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttribute
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | Il specificato[`ExtendedAttributeTask`](../../extendedattributetask) ID campo. |
+| fieldId | ExtendedAttributeTask | Il specificato[`ExtendedAttributeTask`](../../extendedattributetask/) ID campo. |
 | alias | String | Il specificatoString alias. |
 
 ### Valore di ritorno
 
-Istanza creata di[`ExtendedAttributeDefinition`](../../extendedattributedefinition) classe con specificato*fieldId* e*alias*.
+Istanza creata di[`ExtendedAttributeDefinition`](../) classe con specificato*fieldId* E*alias*.
 
 ### Esempi
 
-Utilizzare questo esempio per creare una definizione di campo di testo personalizzata:
+Utilizza questo esempio per creare una definizione di campo di testo personalizzato:
 
 ```csharp
 var taskTextAttr = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Text27, "My custom field");
@@ -73,9 +73,9 @@ project.ExtendedAttributes.Add(taskTextAttr);
 
 ### Guarda anche
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
 * assemblea [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

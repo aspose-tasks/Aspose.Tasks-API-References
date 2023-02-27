@@ -1,14 +1,14 @@
 ---
-title: AvailabilityPeriodCollection
+title: Class AvailabilityPeriodCollection
 second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Representa una colección que contieneAvailabilityPeriod./availabilityperiod objetos.
+description: Aspose.Tasks.AvailabilityPeriodCollection clase. Representa una colección que contieneAvailabilityPeriod objetos.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class
 
-Representa una colección que contiene[`AvailabilityPeriod`](../availabilityperiod) objetos.
+Representa una colección que contiene[`AvailabilityPeriod`](../availabilityperiod/) objetos.
 
 ```csharp
 public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
@@ -18,29 +18,29 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.tasks/availabilityperiodcollection/count) { get; } | Obtiene el número de elementos contenidos en esta colección. |
-| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly) { get; } | Obtiene un valor que indica si esta colección es de solo lectura; de lo contrario, false. |
-| [Item](../../aspose.tasks/availabilityperiodcollection/item) { get; set; } | Devuelve o establece el elemento en el índice especificado. |
-| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource) { get; } | Obtiene el padre[`Resource`](../resource) para este objeto.  Padre[`Resource`](../resource) objeto para esta colección. |
+| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | Obtiene el número de elementos contenidos en esta colección. |
+| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | Obtiene un valor que indica si esta colección es de solo lectura; de lo contrario, false. |
+| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | Devuelve o establece el elemento en el índice especificado. |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | Obtiene el padre[`Resource`](../resource/) para este objeto.  Padre[`Resource`](../resource/) objeto para esta colección. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.tasks/availabilityperiodcollection/add)(AvailabilityPeriod) | Agrega el elemento especificado a esta colección. |
-| [Clear](../../aspose.tasks/availabilityperiodcollection/clear)() | Elimina todos los elementos de esta colección. |
-| [Contains](../../aspose.tasks/availabilityperiodcollection/contains)(AvailabilityPeriod) | Devuelve verdadero si el elemento especificado se encuentra en esta colección; de lo contrario, false. |
-| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto)(AvailabilityPeriod[], int) | Copia los elementos de esta colección en la matriz especificada, comenzando en el índice de matriz especificado. |
-| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator)() | Devuelve un enumerador para esta colección. |
-| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof)(AvailabilityPeriod) | Determina el índice del elemento especificado en esta colección. |
-| [Insert](../../aspose.tasks/availabilityperiodcollection/insert)(int, AvailabilityPeriod) | Inserta el elemento especificado en el índice especificado. |
-| [Remove](../../aspose.tasks/availabilityperiodcollection/remove)(AvailabilityPeriod) | Elimina la primera aparición de un objeto específico de esta colección. |
-| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat)(int) | Elimina un elemento en el índice especificado. |
+| [Add](../../aspose.tasks/availabilityperiodcollection/add/)(AvailabilityPeriod) | Agrega el elemento especificado a esta colección. |
+| [Clear](../../aspose.tasks/availabilityperiodcollection/clear/)() | Elimina todos los elementos de esta colección. |
+| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | Devuelve verdadero si el elemento especificado se encuentra en esta colección; de lo contrario, false. |
+| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | Copia los elementos de esta colección en la matriz especificada, comenzando en el índice de matriz especificado. |
+| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator/)() | Devuelve un enumerador para esta colección. |
+| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof/)(AvailabilityPeriod) | Determina el índice del elemento especificado en esta colección. |
+| [Insert](../../aspose.tasks/availabilityperiodcollection/insert/)(int, AvailabilityPeriod) | Inserta el elemento especificado en el índice especificado. |
+| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | Elimina la primera aparición de un objeto específico de esta colección. |
+| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat/)(int) | Elimina un elemento en el índice especificado. |
 
 ### Ver también
 
-* class [AvailabilityPeriod](../availabilityperiod)
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks)
+* class [AvailabilityPeriod](../availabilityperiod/)
+* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
 * asamblea [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

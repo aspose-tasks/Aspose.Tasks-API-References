@@ -1,9 +1,9 @@
 ---
-title: OutlineCodeDefinition
+title: Class OutlineCodeDefinition
 second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Représente une définition de code hiérarchique.
+description: Aspose.Tasks.OutlineCodeDefinition classe. Représente une définition de code hiérarchique.
 type: docs
-weight: 1030
+weight: 1040
 url: /fr/net/aspose.tasks/outlinecodedefinition/
 ---
 ## OutlineCodeDefinition class
@@ -18,30 +18,30 @@ public class OutlineCodeDefinition
 
 | Nom | La description |
 | --- | --- |
-| [OutlineCodeDefinition](outlinecodedefinition)() | Initialise une nouvelle instance du[`OutlineCodeDefinition`](../outlinecodedefinition) classer. |
+| [OutlineCodeDefinition](outlinecodedefinition/)() | Initialise une nouvelle instance du`OutlineCodeDefinition` classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Alias](../../aspose.tasks/outlinecodedefinition/alias) { get; set; } | Obtient ou définit l'alias d'un code hiérarchique personnalisé. |
-| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired) { get; set; } | Obtient ou définit une valeur indiquant si les nouveaux codes doivent avoir tous les niveaux. Non disponible pour les codes d'entreprise. |
-| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise) { get; set; } | Obtient ou définit une valeur indiquant si un code hiérarchique personnalisé est un code hiérarchique personnalisé d'entreprise. |
-| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias) { get; set; } | Obtient ou définit une référence à un autre champ personnalisé pour lequel cette définition de code hiérarchique est un alias. |
-| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid) { get; set; } | Obtient ou définit le numéro de champ d'un code hiérarchique. |
-| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname) { get; set; } | Obtient ou définit le nom d'un code hiérarchique personnalisé. |
-| [Guid](../../aspose.tasks/outlinecodedefinition/guid) { get; set; } | Obtient ou définit le Guid d'un code hiérarchique. |
-| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly) { get; set; } | Obtient ou définit une valeur indiquant si les valeurs spécifiées dans ce champ de code hiérarchique doivent être des valeurs feuilles. |
-| [Masks](../../aspose.tasks/outlinecodedefinition/masks) { get; } | Obtient l'objet OutlineMaskCollection. La table des entrées qui définissent le masque de code hiérarchique. En lecture seule[`OutlineMaskCollection`](../outlinemaskcollection) instance. |
-| [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed) { get; set; } | Obtient ou définit une valeur indiquant si les valeurs spécifiées doivent provenir de la table des valeurs. |
-| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias) { get; set; } | Obtient ou définit la prononciation phonétique de l'alias du code hiérarchique personnalisé. |
-| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled) { get; set; } | Obtient ou définit une valeur indiquant si le code hiérarchique personnalisé peut être utilisé par l'Assistant Substitution de ressources dans Microsoft Project. |
-| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent) { get; set; } | Obtient ou définit une valeur indiquant si les retraits de ce code hiérarchique doivent être affichés. |
-| [Values](../../aspose.tasks/outlinecodedefinition/values) { get; } | Obtient l'objet OutlineValueCollection. Les valeurs de la table associée à ce code hiérarchique. |
+| [Alias](../../aspose.tasks/outlinecodedefinition/alias/) { get; set; } | Obtient ou définit l'alias d'un code hiérarchique personnalisé. |
+| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired/) { get; set; } | Obtient ou définit une valeur indiquant si les nouveaux codes doivent avoir tous les niveaux. Non disponible pour les codes d'entreprise. |
+| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise/) { get; set; } | Obtient ou définit une valeur indiquant si un code hiérarchique personnalisé est un code hiérarchique personnalisé d'entreprise. |
+| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/) { get; set; } | Obtient ou définit une référence à un autre champ personnalisé pour lequel cette définition de code hiérarchique est un alias. |
+| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid/) { get; set; } | Obtient ou définit le numéro de champ d'un code hiérarchique. |
+| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname/) { get; set; } | Obtient ou définit le nom d'un code hiérarchique personnalisé. |
+| [Guid](../../aspose.tasks/outlinecodedefinition/guid/) { get; set; } | Obtient ou définit le Guid d'un code hiérarchique. |
+| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly/) { get; set; } | Obtient ou définit une valeur indiquant si les valeurs spécifiées dans ce champ de code hiérarchique doivent être des valeurs feuilles. |
+| [Masks](../../aspose.tasks/outlinecodedefinition/masks/) { get; } | Obtient l'objet OutlineMaskCollection. La table des entrées qui définissent le masque de code hiérarchique. En lecture seule[`OutlineMaskCollection`](../outlinemaskcollection/) instance. |
+| [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed/) { get; set; } | Obtient ou définit une valeur indiquant si les valeurs spécifiées doivent provenir de la table des valeurs. |
+| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias/) { get; set; } | Obtient ou définit la prononciation phonétique de l'alias du code hiérarchique personnalisé. |
+| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled/) { get; set; } | Obtient ou définit une valeur indiquant si le code hiérarchique personnalisé peut être utilisé par l'Assistant Substitution de ressources dans Microsoft Project. |
+| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent/) { get; set; } | Obtient ou définit une valeur indiquant si les retraits de ce code hiérarchique doivent être affichés. |
+| [Values](../../aspose.tasks/outlinecodedefinition/values/) { get; } | Obtient l'objet OutlineValueCollection. Les valeurs de la table associée à ce code hiérarchique. |
 
 ### Voir également
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks)
+* espace de noms [Aspose.Tasks](../../aspose.tasks/)
 * Assemblée [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

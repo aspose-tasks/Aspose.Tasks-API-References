@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Ajouter la tâche spécifiée à linstance duTaskCollectionaspose.tasks/taskcollectionclass. Si ParentProject.CalculationMode est None lutilisateur doit invoquer Project.Recalculate après avoir utilisé cette méthode il reprogrammera toutes les tâches du projet dates de début/fin définit les dates anticipées/tardives et calculera les champs dépendants tels que les marges le travail et les champs de coût les identifiants et les niveaux hiérarchiques. Si ParentProject.CalculationMode est Manuel la méthode ne calculera automatiquement que lID de la tâche le niveau hiérarchique et les numéros hiérarchiques. Si ParentProject.CalculationMode est Automatique la méthode replanifie automatiquement toutes les tâches du projet début/fin dates définit les dates anticipées/tardives calcule les marges les champs de travail et de coût recalcule les identifiants et les niveaux hiérarchiques.
+description: TaskCollection méthode. Ajouter la tâche spécifiée à linstance duTaskCollectionclass. Si ParentProject.CalculationMode est None lutilisateur doit invoquer Project.Recalculate après avoir utilisé cette méthode il replanifiera toutes les tâches du projet dates de début/fin définit les dates anticipées/tardives et calculera les champs dépendants tels que les marges le travail et les champs de coût les identifiants et les niveaux hiérarchiques. Si ParentProject.CalculationMode est Manuel la méthode ne calculera automatiquement que lID de la tâche le niveau hiérarchique et les numéros hiérarchiques. Si ParentProject.CalculationMode est Automatique la méthode reprogramme automatiquement toutes les tâches du projet début/fin dates définit les dates anticipées/tardives calcule les marges les champs de travail et de coût recalcule les identifiants et les niveaux hiérarchiques.
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Ajouter la tâche spécifiée à l'instance du[`TaskCollection`](../../taskcollection)class. Si ParentProject.CalculationMode est None, l'utilisateur doit invoquer Project.Recalculate() après avoir utilisé cette méthode (il reprogrammera toutes les tâches du projet (dates de début/fin, définit les dates anticipées/tardives) et calculera les champs dépendants tels que les marges, le travail et les champs de coût, les identifiants et les niveaux hiérarchiques). Si ParentProject.CalculationMode est Manuel, la méthode ne calculera automatiquement que l'ID de la tâche, le niveau hiérarchique et les numéros hiérarchiques. Si ParentProject.CalculationMode est Automatique, la méthode replanifie automatiquement toutes les tâches du projet (début/fin dates, définit les dates anticipées/tardives, calcule les marges, les champs de travail et de coût, recalcule les identifiants et les niveaux hiérarchiques).
+Ajouter la tâche spécifiée à l'instance du[`TaskCollection`](../)class. Si ParentProject.CalculationMode est None, l'utilisateur doit invoquer Project.Recalculate() après avoir utilisé cette méthode (il replanifiera toutes les tâches du projet (dates de début/fin, définit les dates anticipées/tardives) et calculera les champs dépendants tels que les marges, le travail et les champs de coût, les identifiants et les niveaux hiérarchiques). Si ParentProject.CalculationMode est Manuel, la méthode ne calculera automatiquement que l'ID de la tâche, le niveau hiérarchique et les numéros hiérarchiques. Si ParentProject.CalculationMode est Automatique, la méthode reprogramme automatiquement toutes les tâches du projet (début/fin dates, définit les dates anticipées/tardives, calcule les marges, les champs de travail et de coût, recalcule les identifiants et les niveaux hiérarchiques).
 
 ```csharp
 public void Add(Task item)
@@ -20,9 +20,9 @@ public void Add(Task item)
 
 ### Voir également
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espace de noms [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espace de noms [Aspose.Tasks](../../taskcollection/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -37,13 +37,13 @@ public Task Add()
 
 ### Return_Value
 
-renvoie l'instance nouvellement ajoutée du[`Task`](../../task) classer.
+renvoie l'instance nouvellement ajoutée du[`Task`](../../task/) classe.
 
 ### Voir également
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espace de noms [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espace de noms [Aspose.Tasks](../../taskcollection/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -62,13 +62,13 @@ public Task Add(string taskName)
 
 ### Return_Value
 
-renvoie l'instance nouvellement ajoutée du[`Task`](../../task) classer.
+renvoie l'instance nouvellement ajoutée du[`Task`](../../task/) classe.
 
 ### Voir également
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espace de noms [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espace de noms [Aspose.Tasks](../../taskcollection/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -98,9 +98,9 @@ renvoie une tâche qui a été insérée avant une tâche avec l'identifiant sp�
 
 ### Voir également
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* espace de noms [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* espace de noms [Aspose.Tasks](../../taskcollection/)
 * Assemblée [Aspose.Tasks](../../../)
 
 ---
@@ -119,7 +119,7 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Return_Value
 
-renvoie l'instance nouvellement ajoutée du[`Task`](../../task) classer.
+renvoie l'instance nouvellement ajoutée du[`Task`](../../task/) classe.
 
 ### Exceptions
 
@@ -130,10 +130,10 @@ renvoie l'instance nouvellement ajoutée du[`Task`](../../task) classer.
 
 ### Voir également
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* espace de noms [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* espace de noms [Aspose.Tasks](../../taskcollection/)
 * Assemblée [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
