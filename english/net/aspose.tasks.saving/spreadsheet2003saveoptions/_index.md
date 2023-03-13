@@ -3,7 +3,7 @@ title: Spreadsheet2003SaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when rendering project pages to Spreadsheet2003.
 type: docs
-weight: 1940
+weight: 2000
 url: /net/aspose.tasks.saving/spreadsheet2003saveoptions/
 ---
 ## Spreadsheet2003SaveOptions class

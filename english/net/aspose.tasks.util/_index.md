@@ -3,7 +3,7 @@ title: Aspose.Tasks.Util
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains useful static methods.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks.util/
 ---
 Contains useful static methods.

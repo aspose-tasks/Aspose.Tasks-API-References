@@ -3,7 +3,7 @@ title: WeekdayType
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a weekday of a project in the instance of RecurringTaskInfo./recurringtaskinfo class.
 type: docs
-weight: 3210
+weight: 3270
 url: /net/aspose.tasks/weekdaytype/
 ---
 ## WeekdayType enumeration

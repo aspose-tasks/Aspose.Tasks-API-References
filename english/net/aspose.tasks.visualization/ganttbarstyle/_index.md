@@ -3,7 +3,7 @@ title: GanttBarStyle
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a bar style used by MSP in Gantt Chart view.
 type: docs
-weight: 2740
+weight: 2800
 url: /net/aspose.tasks.visualization/ganttbarstyle/
 ---
 ## GanttBarStyle class

@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Tasks for .NET API Reference
 description: The type of a resource.
 type: docs
-weight: 670
+weight: 660
 url: /net/aspose.tasks/rsc/type/
 ---
 ## Rsc.Type field

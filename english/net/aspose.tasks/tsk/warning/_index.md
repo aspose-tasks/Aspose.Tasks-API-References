@@ -3,7 +3,7 @@ title: Warning
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents the flag which indicates that task has schedule discrepancies.
 type: docs
-weight: 1140
+weight: 1130
 url: /net/aspose.tasks/tsk/warning/
 ---
 ## Tsk.Warning field

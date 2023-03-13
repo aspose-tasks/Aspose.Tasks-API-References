@@ -3,7 +3,7 @@ title: Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Uid.
 type: docs
-weight: 770
+weight: 760
 url: /net/aspose.tasks/resource/uid/
 ---
 ## Resource.Uid property

@@ -3,7 +3,7 @@ title: StatusDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of StatusDate.
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.tasks/project/statusdate/
 ---
 ## Project.StatusDate property

@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Tasks for .NET API Reference
 description: The type of a task.
 type: docs
-weight: 1120
+weight: 1110
 url: /net/aspose.tasks/tsk/type/
 ---
 ## Tsk.Type field

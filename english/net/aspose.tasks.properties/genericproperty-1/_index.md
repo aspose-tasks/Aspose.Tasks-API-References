@@ -3,7 +3,7 @@ title: GenericPropertyTKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a container property.
 type: docs
-weight: 1320
+weight: 1380
 url: /net/aspose.tasks.properties/genericproperty-1/
 ---
 ## GenericProperty&lt;TKey&gt; structure

@@ -3,7 +3,7 @@ title: TasksRenderingException
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents the exception that can occur when rendering a projects view to a graphical format.
 type: docs
-weight: 2240
+weight: 2300
 url: /net/aspose.tasks/tasksrenderingexception/
 ---
 ## TasksRenderingException class

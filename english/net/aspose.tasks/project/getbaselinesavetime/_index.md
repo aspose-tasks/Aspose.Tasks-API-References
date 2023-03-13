@@ -3,7 +3,7 @@ title: GetBaselineSaveTime
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns the baseline save time.
 type: docs
-weight: 1060
+weight: 1070
 url: /net/aspose.tasks/project/getbaselinesavetime/
 ---
 ## Project.GetBaselineSaveTime method

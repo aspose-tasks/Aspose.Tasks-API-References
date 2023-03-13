@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Revision.
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.tasks/project/revision/
 ---
 ## Project.Revision property

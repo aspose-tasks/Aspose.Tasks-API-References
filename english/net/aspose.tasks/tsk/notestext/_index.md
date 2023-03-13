@@ -3,7 +3,7 @@ title: NotesText
 second_title: Aspose.Tasks for .NET API Reference
 description: Notes plain text extracted from RTF data.
 type: docs
-weight: 850
+weight: 840
 url: /net/aspose.tasks/tsk/notestext/
 ---
 ## Tsk.NotesText field

@@ -3,7 +3,7 @@ title: Rsc
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents supported properties of Resource./resource object.
 type: docs
-weight: 1700
+weight: 1760
 url: /net/aspose.tasks/rsc/
 ---
 ## Rsc class
@@ -49,9 +49,9 @@ public static class Rsc
 | static readonly [Finish](../../aspose.tasks/rsc/finish) | The date when a resource is scheduled to complete work on all assigned tasks. |
 | static readonly [Group](../../aspose.tasks/rsc/group) | The group to which a resource belongs. |
 | static readonly [Guid](../../aspose.tasks/rsc/guid) | Contains the generated unique identification code for the resource. |
-| static readonly [Hyperlink](../../aspose.tasks/rsc/hyperlink) | The title of a hyperlink associated with a resource. |
-| static readonly [HyperlinkAddress](../../aspose.tasks/rsc/hyperlinkaddress) | The hyperlink associated with a resource. |
-| static readonly [HyperlinkSubAddress](../../aspose.tasks/rsc/hyperlinksubaddress) | The document bookmark of a hyperlink associated with a resource. |
+| static readonly [Hyperlink](../../aspose.tasks/rsc/hyperlink) | The title or explanatory text of a hyperlink associated with a resource. |
+| static readonly [HyperlinkAddress](../../aspose.tasks/rsc/hyperlinkaddress) | The address for a hyperlink associated with a resource. |
+| static readonly [HyperlinkSubAddress](../../aspose.tasks/rsc/hyperlinksubaddress) | The specific location in a document in a hyperlink associated with a task. |
 | static readonly [Id](../../aspose.tasks/rsc/id) | The position identifier of a resource within the list of resources. |
 | static readonly [Inactive](../../aspose.tasks/rsc/inactive) | Determines whether a resource was made inactive by a user who has administrative rights. |
 | static readonly [Initials](../../aspose.tasks/rsc/initials) | The initials of a resource. |
@@ -64,7 +64,6 @@ public static class Rsc
 | static readonly [MaterialLabel](../../aspose.tasks/rsc/materiallabel) | The unit of measure for the material resource. |
 | static readonly [MaxUnits](../../aspose.tasks/rsc/maxunits) | The maximum number of units representing the maximum capacity for which a resource is available to accomplish any tasks during the current time period. |
 | static readonly [Name](../../aspose.tasks/rsc/name) | The name of a resource. |
-| static readonly [Notes](../../aspose.tasks/rsc/notes) | The text notes associated with a resource. |
 | static readonly [NotesRTF](../../aspose.tasks/rsc/notesrtf) | The text notes in RTF format. Supported for MPP formats only. |
 | static readonly [NotesText](../../aspose.tasks/rsc/notestext) | Notes' plain text extracted from RTF data. |
 | static readonly [Overallocated](../../aspose.tasks/rsc/overallocated) | Indicates whether a resource is assigned to more work on a specific task or all tasks than can be completed within normal working capacity. |

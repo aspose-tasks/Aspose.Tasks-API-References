@@ -3,7 +3,7 @@ title: ActualNonLaborUnits
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of actual non labor units.
 type: docs
-weight: 30
+weight: 80
 url: /net/aspose.tasks/primaverataskproperties/actualnonlaborunits/
 ---
 ## PrimaveraTaskProperties.ActualNonLaborUnits property

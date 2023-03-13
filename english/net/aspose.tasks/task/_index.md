@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a task in a project.
 type: docs
-weight: 2070
+weight: 2130
 url: /net/aspose.tasks/task/
 ---
 ## Task class
@@ -70,9 +70,9 @@ public class Task : IEquatable<Task>
 | [FreeSlack](../../aspose.tasks/task/freeslack) { get; set; } | Gets or sets a value of FreeSlack. |
 | [Guid](../../aspose.tasks/task/guid) { get; set; } | Gets or sets a value of Guid. |
 | [HideBar](../../aspose.tasks/task/hidebar) { get; set; } | Gets or sets a value indicating whether HideBar is set or not. |
-| [Hyperlink](../../aspose.tasks/task/hyperlink) { get; set; } | Gets or sets a value of Hyperlink. |
-| [HyperlinkAddress](../../aspose.tasks/task/hyperlinkaddress) { get; set; } | Gets or sets a value of HyperlinkAddress. |
-| [HyperlinkSubAddress](../../aspose.tasks/task/hyperlinksubaddress) { get; set; } | Gets or sets a value of HyperlinkSubAddress. |
+| [Hyperlink](../../aspose.tasks/task/hyperlink) { get; set; } | Gets or sets the title or explanatory text for a hyperlink associated with a task. |
+| [HyperlinkAddress](../../aspose.tasks/task/hyperlinkaddress) { get; set; } | Gets or sets the address for a hyperlink associated with a task. |
+| [HyperlinkSubAddress](../../aspose.tasks/task/hyperlinksubaddress) { get; set; } | Gets or sets the specific location in a document in a hyperlink associated with a task. |
 | [Id](../../aspose.tasks/task/id) { get; set; } | Gets or sets a value of Id. |
 | [IgnoreResourceCalendar](../../aspose.tasks/task/ignoreresourcecalendar) { get; set; } | Gets or sets a value indicating whether IgnoreResourceCalendar is set or not. |
 | [IgnoreWarnings](../../aspose.tasks/task/ignorewarnings) { get; set; } | Gets or sets a value indicating whether IgnoreWarnings is set or not. |
@@ -99,7 +99,6 @@ public class Task : IEquatable<Task>
 | [LevelAssignments](../../aspose.tasks/task/levelassignments) { get; set; } | Gets or sets a value indicating whether LevelAssignments is set or not. |
 | [LevelingCanSplit](../../aspose.tasks/task/levelingcansplit) { get; set; } | Gets or sets a value indicating whether LevelingCanSplit is set or not. |
 | [LevelingDelay](../../aspose.tasks/task/levelingdelay) { get; set; } | Gets or sets a value of LevelingDelay. |
-| [LevelingDelayFormat](../../aspose.tasks/task/levelingdelayformat) { get; set; } | Gets or sets a value of LevelingDelayFormat. |
 | [ManualDuration](../../aspose.tasks/task/manualduration) { get; set; } | Gets or sets a value of ManualDuration. |
 | [ManualFinish](../../aspose.tasks/task/manualfinish) { get; set; } | Gets or sets a value of ManualFinish. |
 | [ManualStart](../../aspose.tasks/task/manualstart) { get; set; } | Gets or sets a value of ManualStart. |
@@ -119,7 +118,7 @@ public class Task : IEquatable<Task>
 | [Predecessors](../../aspose.tasks/task/predecessors) { get; } | Gets a [`TaskCollection`](../taskcollection) object which contains all predecessors of this Task object. |
 | [PreleveledFinish](../../aspose.tasks/task/preleveledfinish) { get; set; } | Gets or sets a value of PreleveledFinish. |
 | [PreleveledStart](../../aspose.tasks/task/preleveledstart) { get; set; } | Gets or sets a value of PreleveledStart. |
-| [PrimaveraProperties](../../aspose.tasks/task/primaveraproperties) { get; } | Gets an object containing Primavera-specific properties for a task read from Primavera format. |
+| [PrimaveraProperties](../../aspose.tasks/task/primaveraproperties) { get; } | Gets an object containing Primavera-specific properties for a task read from Primavera file. |
 | [Priority](../../aspose.tasks/task/priority) { get; set; } | Gets or sets a value of Priority. |
 | [RecurringInfo](../../aspose.tasks/task/recurringinfo) { get; } | Gets the instance of [`RecurringTaskInfo`](../recurringtaskinfo) class for the task which is a recurring task; if the task is not a recurring one then returns null; The info for the instance of [`RecurringTaskInfo`](../recurringtaskinfo) is present in mpp file format only. |
 | [RegularWork](../../aspose.tasks/task/regularwork) { get; set; } | Gets or sets a value of RegularWork. |

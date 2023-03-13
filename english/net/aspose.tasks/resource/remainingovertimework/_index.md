@@ -3,7 +3,7 @@ title: RemainingOvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of RemainingOvertimeWork.
 type: docs
-weight: 690
+weight: 680
 url: /net/aspose.tasks/resource/remainingovertimework/
 ---
 ## Resource.RemainingOvertimeWork property

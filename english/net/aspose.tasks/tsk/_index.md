@@ -3,7 +3,7 @@ title: Tsk
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents properties of Task./task object.
 type: docs
-weight: 2310
+weight: 2370
 url: /net/aspose.tasks/tsk/
 ---
 ## Tsk class
@@ -96,12 +96,11 @@ public static class Tsk
 | static readonly [LevelAssignments](../../aspose.tasks/tsk/levelassignments) | Determines whether the leveling function can delay and split individual assignments in order to resolve over allocations. |
 | static readonly [LevelingCanSplit](../../aspose.tasks/tsk/levelingcansplit) | Determines whether the resource leveling function can cause splits on remaining work on this task. |
 | static readonly [LevelingDelay](../../aspose.tasks/tsk/levelingdelay) | The time that a task is to be delayed from its early start date because of resource leveling. |
-| static readonly [LevelingDelayFormat](../../aspose.tasks/tsk/levelingdelayformat) | The format of expressing the duration of a delay. |
 | static readonly [ManualDuration](../../aspose.tasks/tsk/manualduration) | Defines manually scheduled duration of a task. |
 | static readonly [ManualFinish](../../aspose.tasks/tsk/manualfinish) | Defines manually scheduled finish of a task. |
 | static readonly [ManualStart](../../aspose.tasks/tsk/manualstart) | Defines manually scheduled start of a task. |
 | static readonly [Name](../../aspose.tasks/tsk/name) | A task's name. |
-| static readonly [NotesRTF](../../aspose.tasks/tsk/notesrtf) | The text notes in RTF format. |
+| static readonly [NotesRTF](../../aspose.tasks/tsk/notesrtf) | The text notes in RTF format. Supported for MPP formats only. |
 | static readonly [NotesText](../../aspose.tasks/tsk/notestext) | Notes' plain text extracted from RTF data. |
 | static readonly [OutlineLevel](../../aspose.tasks/tsk/outlinelevel) | The outline level of a task. |
 | static readonly [OutlineNumber](../../aspose.tasks/tsk/outlinenumber) | The number that represents a task's position in the hierarchical outline structure. |

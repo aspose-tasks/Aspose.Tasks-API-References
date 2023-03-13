@@ -1,18 +1,22 @@
 ---
 title: HyperlinkSubAddress
 second_title: Aspose.Tasks for .NET API Reference
-description: The document bookmark of the hyperlink associated with an assignment.
+description: The specific location in a document in a hyperlink associated with an assignment.
 type: docs
 weight: 300
 url: /net/aspose.tasks/asn/hyperlinksubaddress/
 ---
 ## Asn.HyperlinkSubAddress field
 
-The document bookmark of the hyperlink associated with an assignment.
+The specific location in a document in a hyperlink associated with an assignment.
 
 ```csharp
 public static readonly Key<string, AsnKey> HyperlinkSubAddress;
 ```
+
+### Remarks
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### Examples
 

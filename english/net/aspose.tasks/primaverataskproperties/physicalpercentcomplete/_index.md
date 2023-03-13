@@ -3,7 +3,7 @@ title: PhysicalPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of Physical Percent Complete.
 type: docs
-weight: 50
+weight: 130
 url: /net/aspose.tasks/primaverataskproperties/physicalpercentcomplete/
 ---
 ## PrimaveraTaskProperties.PhysicalPercentComplete property

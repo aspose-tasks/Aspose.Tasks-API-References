@@ -3,7 +3,7 @@ title: PercentWorkComplete
 second_title: Aspose.Tasks for .NET API Reference
 description: The percentage of work completed across all tasks.
 type: docs
-weight: 560
+weight: 550
 url: /net/aspose.tasks/rsc/percentworkcomplete/
 ---
 ## Rsc.PercentWorkComplete field

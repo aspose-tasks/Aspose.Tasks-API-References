@@ -1,18 +1,22 @@
 ---
 title: HyperlinkSubAddress
 second_title: Aspose.Tasks for .NET API Reference
-description: The document bookmark of a hyperlink associated with a resource.
+description: The specific location in a document in a hyperlink associated with a task.
 type: docs
 weight: 340
 url: /net/aspose.tasks/rsc/hyperlinksubaddress/
 ---
 ## Rsc.HyperlinkSubAddress field
 
-The document bookmark of a hyperlink associated with a resource.
+The specific location in a document in a hyperlink associated with a task.
 
 ```csharp
 public static readonly Key<string, RscKey> HyperlinkSubAddress;
 ```
+
+### Remarks
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: StandardRate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of StandardRate.
 type: docs
-weight: 710
+weight: 700
 url: /net/aspose.tasks/resource/standardrate/
 ---
 ## Resource.StandardRate property

@@ -16,7 +16,7 @@ public PrimaveraXmlReader(string templatePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| templatePath | String | Path to template where Primavera Xml project is located |
+| templatePath | String | Path to template where Primavera Xml project or projects are located |
 
 ### Examples
 

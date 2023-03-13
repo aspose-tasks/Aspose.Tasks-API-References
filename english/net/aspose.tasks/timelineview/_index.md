@@ -3,7 +3,7 @@ title: TimelineView
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a timeline view of a project.
 type: docs
-weight: 2270
+weight: 2330
 url: /net/aspose.tasks/timelineview/
 ---
 ## TimelineView class

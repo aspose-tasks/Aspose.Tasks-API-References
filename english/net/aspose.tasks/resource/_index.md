@@ -3,7 +3,7 @@ title: Resource
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a resource in a project.
 type: docs
-weight: 1490
+weight: 1550
 url: /net/aspose.tasks/resource/
 ---
 ## Resource class
@@ -53,9 +53,9 @@ public class Resource : IEquatable<Resource>
 | [Finish](../../aspose.tasks/resource/finish) { get; set; } | Gets or sets a value of Finish. |
 | [Group](../../aspose.tasks/resource/group) { get; set; } | Gets or sets a value of Group. |
 | [Guid](../../aspose.tasks/resource/guid) { get; set; } | Gets or sets a value of Guid. |
-| [Hyperlink](../../aspose.tasks/resource/hyperlink) { get; set; } | Gets or sets a value of Hyperlink. |
-| [HyperlinkAddress](../../aspose.tasks/resource/hyperlinkaddress) { get; set; } | Gets or sets a value of HyperlinkAddress. |
-| [HyperlinkSubAddress](../../aspose.tasks/resource/hyperlinksubaddress) { get; set; } | Gets or sets a value of HyperlinkSubAddress. |
+| [Hyperlink](../../aspose.tasks/resource/hyperlink) { get; set; } | Gets or sets the title or explanatory text of a hyperlink associated with a resource. |
+| [HyperlinkAddress](../../aspose.tasks/resource/hyperlinkaddress) { get; set; } | Gets or sets the address for a hyperlink associated with a resource. |
+| [HyperlinkSubAddress](../../aspose.tasks/resource/hyperlinksubaddress) { get; set; } | Gets or sets the specific location in a document in a hyperlink associated with a resource. |
 | [Id](../../aspose.tasks/resource/id) { get; set; } | Gets or sets a value of Id. |
 | [Inactive](../../aspose.tasks/resource/inactive) { get; set; } | Gets or sets a value indicating whether Inactive is set or not. |
 | [Initials](../../aspose.tasks/resource/initials) { get; set; } | Gets or sets a value of Initials. |
@@ -69,7 +69,6 @@ public class Resource : IEquatable<Resource>
 | [MaterialLabel](../../aspose.tasks/resource/materiallabel) { get; set; } | Gets or sets a value of MaterialLabel. |
 | [MaxUnits](../../aspose.tasks/resource/maxunits) { get; set; } | Gets or sets a value of MaxUnits. |
 | [Name](../../aspose.tasks/resource/name) { get; set; } | Gets or sets a value of Name. |
-| [Notes](../../aspose.tasks/resource/notes) { get; set; } | Gets or sets a value of Notes. |
 | [NotesRTF](../../aspose.tasks/resource/notesrtf) { get; set; } | Gets or sets a value of NotesRTF. |
 | [NotesText](../../aspose.tasks/resource/notestext) { get; set; } | Gets or sets a value of NotesText. |
 | [OutlineCode](../../aspose.tasks/resource/outlinecode) { get; } | Gets an OutlineCodeCollection object. The value of an outline code. |

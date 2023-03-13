@@ -3,7 +3,7 @@ title: FillPattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Fill pattern used in middle shape of a gantt bar.
 type: docs
-weight: 2670
+weight: 2730
 url: /net/aspose.tasks.visualization/fillpattern/
 ---
 ## FillPattern enumeration

@@ -3,7 +3,7 @@ title: StartDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of StartDate.
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.tasks/project/startdate/
 ---
 ## Project.StartDate property

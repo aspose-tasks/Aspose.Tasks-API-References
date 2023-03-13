@@ -3,7 +3,7 @@ title: RecurringTaskParameters
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents the set of parameters are used to create a recurring task in a project.
 type: docs
-weight: 1480
+weight: 1540
 url: /net/aspose.tasks/recurringtaskparameters/
 ---
 ## RecurringTaskParameters class

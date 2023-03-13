@@ -3,7 +3,7 @@ title: StandardRateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: The units used by Microsoft Project to display the standard rate.
 type: docs
-weight: 640
+weight: 630
 url: /net/aspose.tasks/rsc/standardrateformat/
 ---
 ## Rsc.StandardRateFormat field

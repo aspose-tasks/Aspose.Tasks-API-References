@@ -3,7 +3,7 @@ title: OvertimeRate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of OvertimeRate.
 type: docs
-weight: 580
+weight: 570
 url: /net/aspose.tasks/resource/overtimerate/
 ---
 ## Resource.OvertimeRate property

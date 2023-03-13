@@ -3,7 +3,7 @@ title: Milestone
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether Milestone is set or not.
 type: docs
-weight: 370
+weight: 360
 url: /net/aspose.tasks/resourceassignment/milestone/
 ---
 ## ResourceAssignment.Milestone property

@@ -3,7 +3,7 @@ title: RegularWork
 second_title: Aspose.Tasks for .NET API Reference
 description: The total amount of non overtime work scheduled to be performed by resource.
 type: docs
-weight: 580
+weight: 570
 url: /net/aspose.tasks/rsc/regularwork/
 ---
 ## Rsc.RegularWork field

@@ -3,7 +3,7 @@ title: OvertimeRateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of OvertimeRateFormat.
 type: docs
-weight: 590
+weight: 580
 url: /net/aspose.tasks/resource/overtimerateformat/
 ---
 ## Resource.OvertimeRateFormat property

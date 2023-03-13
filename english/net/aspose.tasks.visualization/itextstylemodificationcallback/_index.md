@@ -3,7 +3,7 @@ title: ITextStyleModificationCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a callback that is called before TextStyle is applied to a table cell.
 type: docs
-weight: 2820
+weight: 2880
 url: /net/aspose.tasks.visualization/itextstylemodificationcallback/
 ---
 ## ITextStyleModificationCallback interface

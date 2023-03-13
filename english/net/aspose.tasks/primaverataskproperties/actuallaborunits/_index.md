@@ -3,7 +3,7 @@ title: ActualLaborUnits
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of actual labor units.
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.tasks/primaverataskproperties/actuallaborunits/
 ---
 ## PrimaveraTaskProperties.ActualLaborUnits property

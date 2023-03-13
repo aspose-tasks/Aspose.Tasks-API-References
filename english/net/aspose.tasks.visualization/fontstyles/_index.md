@@ -3,7 +3,7 @@ title: FontStyles
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies style information applied to text.
 type: docs
-weight: 2690
+weight: 2750
 url: /net/aspose.tasks.visualization/fontstyles/
 ---
 ## FontStyles enumeration

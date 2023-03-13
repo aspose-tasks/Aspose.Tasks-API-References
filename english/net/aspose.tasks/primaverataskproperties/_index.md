@@ -1,14 +1,14 @@
 ---
 title: PrimaveraTaskProperties
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents Primaveraspecific properties for a task read from Primavera format XER of P6XML.
+description: Represents Primaveraspecific properties for a task read from Primavera files XER of P6XML.
 type: docs
-weight: 1140
+weight: 1200
 url: /net/aspose.tasks/primaverataskproperties/
 ---
 ## PrimaveraTaskProperties class
 
-Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML).
+Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML).
 
 ```csharp
 public sealed class PrimaveraTaskProperties
@@ -19,9 +19,17 @@ public sealed class PrimaveraTaskProperties
 | Name | Description |
 | --- | --- |
 | [ActivityId](../../aspose.tasks/primaverataskproperties/activityid) { get; } | Gets an activity id field - a task's unique identifier used by Primavera. |
+| [ActivityType](../../aspose.tasks/primaverataskproperties/activitytype) { get; } | Gets the value of 'Activity Type' field. |
+| [ActualExpenseCost](../../aspose.tasks/primaverataskproperties/actualexpensecost) { get; } | Gets the value of actual expense cost. |
+| [ActualLaborCost](../../aspose.tasks/primaverataskproperties/actuallaborcost) { get; } | Gets the value of actual labor cost . |
 | [ActualLaborUnits](../../aspose.tasks/primaverataskproperties/actuallaborunits) { get; } | Gets the value of actual labor units. |
+| [ActualMaterialCost](../../aspose.tasks/primaverataskproperties/actualmaterialcost) { get; } | Gets the value of actual material cost. |
+| [ActualNonlaborCost](../../aspose.tasks/primaverataskproperties/actualnonlaborcost) { get; } | Gets the value of actual non labor cost . |
 | [ActualNonLaborUnits](../../aspose.tasks/primaverataskproperties/actualnonlaborunits) { get; } | Gets the value of actual non labor units. |
+| [ActualTotalCost](../../aspose.tasks/primaverataskproperties/actualtotalcost) { get; } | Gets the total value of actual costs. |
 | [DurationPercentComplete](../../aspose.tasks/primaverataskproperties/durationpercentcomplete) { get; } | Gets the value of duration percent complete. |
+| [DurationType](../../aspose.tasks/primaverataskproperties/durationtype) { get; } | Gets the value of 'Duration Type' field of the activity. |
+| [PercentCompleteType](../../aspose.tasks/primaverataskproperties/percentcompletetype) { get; } | Gets the value of '% Complete Type' field of the activity. |
 | [PhysicalPercentComplete](../../aspose.tasks/primaverataskproperties/physicalpercentcomplete) { get; } | Gets the value of Physical Percent Complete. |
 | [RawActivityType](../../aspose.tasks/primaverataskproperties/rawactivitytype) { get; } | Gets raw text representation (as in source file) of 'Activity Type' field of the activity. |
 | [RawCompletePercentType](../../aspose.tasks/primaverataskproperties/rawcompletepercenttype) { get; } | Gets raw text representation (as in source file) of '% Complete Type' field of the activity. |
@@ -29,6 +37,7 @@ public sealed class PrimaveraTaskProperties
 | [RawStatus](../../aspose.tasks/primaverataskproperties/rawstatus) { get; } | Gets raw text representation (as in source file) of 'Status' field of the activity. |
 | [RemainingEarlyFinish](../../aspose.tasks/primaverataskproperties/remainingearlyfinish) { get; } | Gets remaining early finish date - the date when the remaining work for the activity is scheduled to be finished. |
 | [RemainingEarlyStart](../../aspose.tasks/primaverataskproperties/remainingearlystart) { get; } | Gets remaining early start date - the date when the remaining work for the activity is scheduled to begin. |
+| [RemainingExpenseCost](../../aspose.tasks/primaverataskproperties/remainingexpensecost) { get; } | Gets the value of remaining expense cost. |
 | [RemainingLaborUnits](../../aspose.tasks/primaverataskproperties/remaininglaborunits) { get; } | Gets the value of remaining labor units. |
 | [RemainingLateFinish](../../aspose.tasks/primaverataskproperties/remaininglatefinish) { get; } | Gets remaining late finish date. |
 | [RemainingLateStart](../../aspose.tasks/primaverataskproperties/remaininglatestart) { get; } | Gets remaining late start date. |

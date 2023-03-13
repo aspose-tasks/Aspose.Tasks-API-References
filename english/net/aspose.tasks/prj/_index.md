@@ -3,7 +3,7 @@ title: Prj
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents supported properties of Project./project object.
 type: docs
-weight: 1170
+weight: 1230
 url: /net/aspose.tasks/prj/
 ---
 ## Prj class

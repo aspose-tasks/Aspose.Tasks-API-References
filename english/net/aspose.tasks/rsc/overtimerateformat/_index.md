@@ -3,7 +3,7 @@ title: OvertimeRateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: The units used by Microsoft Project to display the overtime rate.
 type: docs
-weight: 530
+weight: 520
 url: /net/aspose.tasks/rsc/overtimerateformat/
 ---
 ## Rsc.OvertimeRateFormat field

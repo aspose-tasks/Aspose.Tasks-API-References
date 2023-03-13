@@ -3,7 +3,7 @@ title: Aspose.Tasks.Visualization
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains helper classes for rendering.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks.visualization/
 ---
 Contains helper classes for rendering.

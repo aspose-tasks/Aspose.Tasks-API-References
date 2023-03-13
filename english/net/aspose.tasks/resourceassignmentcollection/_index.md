@@ -3,7 +3,7 @@ title: ResourceAssignmentCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of ResourceAssignment./resourceassignment objects.
 type: docs
-weight: 1510
+weight: 1570
 url: /net/aspose.tasks/resourceassignmentcollection/
 ---
 ## ResourceAssignmentCollection class

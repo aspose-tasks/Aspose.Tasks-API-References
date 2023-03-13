@@ -3,7 +3,7 @@ title: Phonetics
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Phonetics.
 type: docs
-weight: 640
+weight: 630
 url: /net/aspose.tasks/resource/phonetics/
 ---
 ## Resource.Phonetics property

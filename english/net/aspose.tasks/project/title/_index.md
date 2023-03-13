@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Title.
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.tasks/project/title/
 ---
 ## Project.Title property

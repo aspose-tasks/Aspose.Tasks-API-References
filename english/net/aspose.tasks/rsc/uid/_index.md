@@ -3,7 +3,7 @@ title: Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: The unique identifier of a resource.
 type: docs
-weight: 680
+weight: 670
 url: /net/aspose.tasks/rsc/uid/
 ---
 ## Rsc.Uid field

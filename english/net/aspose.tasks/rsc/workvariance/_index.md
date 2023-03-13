@@ -3,7 +3,7 @@ title: WorkVariance
 second_title: Aspose.Tasks for .NET API Reference
 description: The difference between baseline work of a resource and the currently scheduled work.
 type: docs
-weight: 720
+weight: 710
 url: /net/aspose.tasks/rsc/workvariance/
 ---
 ## Rsc.WorkVariance field

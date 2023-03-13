@@ -3,7 +3,7 @@ title: RemainingWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of RemainingWork.
 type: docs
-weight: 700
+weight: 690
 url: /net/aspose.tasks/resource/remainingwork/
 ---
 ## Resource.RemainingWork property

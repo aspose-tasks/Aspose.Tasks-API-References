@@ -3,7 +3,7 @@ title: PhysicalPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
 description: Percent complete value that can be be used as an alternative for calculating budgeted cost of work performed BCWP.
 type: docs
-weight: 920
+weight: 910
 url: /net/aspose.tasks/tsk/physicalpercentcomplete/
 ---
 ## Tsk.PhysicalPercentComplete field

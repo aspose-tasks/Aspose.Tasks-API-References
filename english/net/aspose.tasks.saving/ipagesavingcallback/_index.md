@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a callback that is called when each page in multi page document is saved to a separate stream.
 type: docs
-weight: 1760
+weight: 1820
 url: /net/aspose.tasks.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

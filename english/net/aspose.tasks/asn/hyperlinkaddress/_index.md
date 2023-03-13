@@ -1,18 +1,22 @@
 ---
 title: HyperlinkAddress
 second_title: Aspose.Tasks for .NET API Reference
-description: The title of the hyperlink associated with an assignment.
+description: The address for a hyperlink associated with assignment.
 type: docs
 weight: 290
 url: /net/aspose.tasks/asn/hyperlinkaddress/
 ---
 ## Asn.HyperlinkAddress field
 
-The title of the hyperlink associated with an assignment.
+The address for a hyperlink associated with assignment.
 
 ```csharp
 public static readonly Key<string, AsnKey> HyperlinkAddress;
 ```
+
+### Remarks
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### Examples
 
