@@ -3,7 +3,7 @@ title: RecurrenceRangeBase
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the recurrence range of recurring task.
 type: docs
-weight: 218
+weight: 224
 url: /java/com.aspose.tasks/recurrencerangebase/
 ---
 

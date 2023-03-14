@@ -3,7 +3,7 @@ title: Tsk
 second_title: Aspose.Tasks for Java API Reference
 description: Represents properties of  object.
 type: docs
-weight: 298
+weight: 304
 url: /java/com.aspose.tasks/tsk/
 ---
 
@@ -575,6 +575,10 @@ public static final Key<String,Integer> HYPERLINK_ADDRESS
 
 The address for a hyperlink associated with a task.
 
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
+
 ### HYPERLINK_SUB_ADDRESS {#HYPERLINK-SUB-ADDRESS}
 ```
 public static final Key<String,Integer> HYPERLINK_SUB_ADDRESS
@@ -582,6 +586,10 @@ public static final Key<String,Integer> HYPERLINK_SUB_ADDRESS
 
 
 The specific location in a document in a hyperlink associated with a task.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### ID {#ID}
 ```
@@ -842,6 +850,10 @@ public static final Key<String,Integer> NOTES_RTF
 
 
 The text notes in RTF format.
+
+--------------------
+
+Supported for MPP formats only.
 
 ### NOTES_TEXT {#NOTES-TEXT}
 ```

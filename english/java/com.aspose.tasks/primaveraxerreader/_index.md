@@ -3,14 +3,14 @@ title: PrimaveraXerReader
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a reader to read Project UIDs from Primavera XER file
 type: docs
-weight: 186
+weight: 192
 url: /java/com.aspose.tasks/primaveraxerreader/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.tasks.PrimaveraBaseReader](../../com.aspose.tasks/primaverabasereader)
 ```
-public class PrimaveraXerReader
+public final class PrimaveraXerReader extends PrimaveraBaseReader
 ```
 
 Represents a reader to read Project UIDs from Primavera XER file
@@ -20,11 +20,6 @@ Represents a reader to read Project UIDs from Primavera XER file
 | --- | --- |
 | [PrimaveraXerReader(String xerFilePath)](#PrimaveraXerReader-java.lang.String-) | Initializes a new instance of the [PrimaveraXerReader](../../com.aspose.tasks/primaveraxerreader) class. |
 | [PrimaveraXerReader(InputStream stream)](#PrimaveraXerReader-java.io.InputStream-) | Initializes a new instance of the [PrimaveraXerReader](../../com.aspose.tasks/primaveraxerreader) class. |
-## Methods
-
-| Method | Description |
-| --- | --- |
-| [getProjectUids()](#getProjectUids--) | Return a list of the projects' unique identifiers. |
 ### PrimaveraXerReader(String xerFilePath) {#PrimaveraXerReader-java.lang.String-}
 ```
 public PrimaveraXerReader(String xerFilePath)
@@ -51,13 +46,3 @@ Initializes a new instance of the [PrimaveraXerReader](../../com.aspose.tasks/pr
 | --- | --- | --- |
 | stream | java.io.InputStream | Stream with Primavera XER content. |
 
-### getProjectUids() {#getProjectUids--}
-```
-public final List<Integer> getProjectUids()
-```
-
-
-Return a list of the projects' unique identifiers.
-
-**Returns:**
-java.util.List&lt;java.lang.Integer&gt; - List of projects' unique identifiers.

@@ -3,7 +3,7 @@ title: SaveFileFormat
 second_title: Aspose.Tasks for Java API Reference
 description: Enumeration for saving project format selection.
 type: docs
-weight: 247
+weight: 253
 url: /java/com.aspose.tasks/savefileformat/
 ---
 

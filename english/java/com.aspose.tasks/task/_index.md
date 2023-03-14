@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 263
+weight: 269
 url: /java/com.aspose.tasks/task/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/task/
 java.lang.Object, com.aspose.tasks.IContainer
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, java.lang.Cloneable
+com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, java.lang.Cloneable
 ```
-public class Task extends IContainer<Integer> implements System.IEquatable<Task>, IExtendedAttributeParent, Cloneable
+public class Task extends IContainer<Integer> implements System.IEquatable<Task>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, Cloneable
 ```
 
 Represents a task in a project.
@@ -110,9 +110,9 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [getFreeSlack()](#getFreeSlack--) | Gets a value of FreeSlack. |
 | [getGuid()](#getGuid--) | Gets a value of Guid. |
 | [getHideBar()](#getHideBar--) | Gets a value indicating whether HideBar is set or not. |
-| [getHyperlink()](#getHyperlink--) | Gets a value of Hyperlink. |
-| [getHyperlinkAddress()](#getHyperlinkAddress--) | Gets a value of HyperlinkAddress. |
-| [getHyperlinkSubAddress()](#getHyperlinkSubAddress--) | Gets a value of HyperlinkSubAddress. |
+| [getHyperlink()](#getHyperlink--) | Gets the title or explanatory text for a hyperlink associated with a task. |
+| [getHyperlinkAddress()](#getHyperlinkAddress--) | Gets the address for a hyperlink associated with a task. |
+| [getHyperlinkSubAddress()](#getHyperlinkSubAddress--) | Gets the specific location in a document in a hyperlink associated with a task. |
 | [getId()](#getId--) | Gets a value of Id. |
 | [getIgnoreResourceCalendar()](#getIgnoreResourceCalendar--) | Gets a value indicating whether IgnoreResourceCalendar is set or not. |
 | [getIgnoreWarnings()](#getIgnoreWarnings--) | Gets a value indicating whether IgnoreWarnings is set or not. |
@@ -142,7 +142,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [getPredecessors()](#getPredecessors--) | Gets a [TaskCollection](../../com.aspose.tasks/taskcollection) object which contains all predecessors of this Task object. |
 | [getPreleveledFinish()](#getPreleveledFinish--) | Gets a value of PreleveledFinish. |
 | [getPreleveledStart()](#getPreleveledStart--) | Gets a value of PreleveledStart. |
-| [getPrimaveraProperties()](#getPrimaveraProperties--) | Gets an object containing Primavera-specific properties for a task read from Primavera format. |
+| [getPrimaveraProperties()](#getPrimaveraProperties--) | Gets an object containing Primavera-specific properties for a task read from Primavera file. |
 | [getPriority()](#getPriority--) | Gets a value of Priority. |
 | [getRecurringInfo()](#getRecurringInfo--) | Gets the instance of [RecurringTaskInfo](../../com.aspose.tasks/recurringtaskinfo) class for the task which is a recurring task; if the task is not a recurring one then returns null; |
 | [getRegularWork()](#getRegularWork--) | Gets a value of RegularWork. |
@@ -254,9 +254,9 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [setFreeSlack(double value)](#setFreeSlack-double-) | Sets a value of FreeSlack. |
 | [setGuid(String value)](#setGuid-java.lang.String-) | Sets a value of Guid. |
 | [setHideBar(NullableBool value)](#setHideBar-com.aspose.tasks.NullableBool-) | Sets a value indicating whether HideBar is set or not. |
-| [setHyperlink(String value)](#setHyperlink-java.lang.String-) | Sets a value of Hyperlink. |
-| [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | Sets a value of HyperlinkAddress. |
-| [setHyperlinkSubAddress(String value)](#setHyperlinkSubAddress-java.lang.String-) | Sets a value of HyperlinkSubAddress. |
+| [setHyperlink(String value)](#setHyperlink-java.lang.String-) | Sets the title or explanatory text for a hyperlink associated with a task. |
+| [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | Sets the address for a hyperlink associated with a task. |
+| [setHyperlinkSubAddress(String value)](#setHyperlinkSubAddress-java.lang.String-) | Sets the specific location in a document in a hyperlink associated with a task. |
 | [setId(int value)](#setId-int-) | Sets a value of Id. |
 | [setIgnoreResourceCalendar(NullableBool value)](#setIgnoreResourceCalendar-com.aspose.tasks.NullableBool-) | Sets a value indicating whether IgnoreResourceCalendar is set or not. |
 | [setIgnoreWarnings(boolean value)](#setIgnoreWarnings-boolean-) | Sets a value indicating whether IgnoreWarnings is set or not. |
@@ -927,30 +927,38 @@ public final String getHyperlink()
 ```
 
 
-Gets a value of Hyperlink.
+Gets the title or explanatory text for a hyperlink associated with a task.
 
 **Returns:**
-java.lang.String - a value of Hyperlink.
+java.lang.String - the title or explanatory text for a hyperlink associated with a task.
 ### getHyperlinkAddress() {#getHyperlinkAddress--}
 ```
 public final String getHyperlinkAddress()
 ```
 
 
-Gets a value of HyperlinkAddress.
+Gets the address for a hyperlink associated with a task.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Returns:**
-java.lang.String - a value of HyperlinkAddress.
+java.lang.String - the address for a hyperlink associated with a task.
 ### getHyperlinkSubAddress() {#getHyperlinkSubAddress--}
 ```
 public final String getHyperlinkSubAddress()
 ```
 
 
-Gets a value of HyperlinkSubAddress.
+Gets the specific location in a document in a hyperlink associated with a task.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Returns:**
-java.lang.String - a value of HyperlinkSubAddress.
+java.lang.String - the specific location in a document in a hyperlink associated with a task.
 ### getId() {#getId--}
 ```
 public final int getId()
@@ -1255,10 +1263,10 @@ public final PrimaveraTaskProperties getPrimaveraProperties()
 ```
 
 
-Gets an object containing Primavera-specific properties for a task read from Primavera format.
+Gets an object containing Primavera-specific properties for a task read from Primavera file.
 
 **Returns:**
-[PrimaveraTaskProperties](../../com.aspose.tasks/primaverataskproperties) - an object containing Primavera-specific properties for a task read from Primavera format.
+[PrimaveraTaskProperties](../../com.aspose.tasks/primaverataskproperties) - an object containing Primavera-specific properties for a task read from Primavera file.
 ### getPriority() {#getPriority--}
 ```
 public final int getPriority()
@@ -2567,12 +2575,12 @@ public final void setHyperlink(String value)
 ```
 
 
-Sets a value of Hyperlink.
+Sets the title or explanatory text for a hyperlink associated with a task.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | a value of Hyperlink. |
+| value | java.lang.String | the title or explanatory text for a hyperlink associated with a task. |
 
 ### setHyperlinkAddress(String value) {#setHyperlinkAddress-java.lang.String-}
 ```
@@ -2580,12 +2588,16 @@ public final void setHyperlinkAddress(String value)
 ```
 
 
-Sets a value of HyperlinkAddress.
+Sets the address for a hyperlink associated with a task.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | a value of HyperlinkAddress. |
+| value | java.lang.String | the address for a hyperlink associated with a task. |
 
 ### setHyperlinkSubAddress(String value) {#setHyperlinkSubAddress-java.lang.String-}
 ```
@@ -2593,12 +2605,16 @@ public final void setHyperlinkSubAddress(String value)
 ```
 
 
-Sets a value of HyperlinkSubAddress.
+Sets the specific location in a document in a hyperlink associated with a task.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | a value of HyperlinkSubAddress. |
+| value | java.lang.String | the specific location in a document in a hyperlink associated with a task. |
 
 ### setId(int value) {#setId-int-}
 ```

@@ -3,7 +3,7 @@ title: Resource
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource in a project.
 type: docs
-weight: 224
+weight: 230
 url: /java/com.aspose.tasks/resource/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/resource/
 java.lang.Object, com.aspose.tasks.IContainer
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent
+com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink
 ```
-public class Resource extends IContainer<Integer> implements System.IEquatable<Resource>, IExtendedAttributeParent
+public class Resource extends IContainer<Integer> implements System.IEquatable<Resource>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
 ```
 
 Represents a resource in a project.
@@ -61,9 +61,9 @@ Represents a resource in a project.
 | [getFinish()](#getFinish--) | Gets a value of Finish. |
 | [getGroup()](#getGroup--) | Gets a value of Group. |
 | [getGuid()](#getGuid--) | Gets a value of Guid. |
-| [getHyperlink()](#getHyperlink--) | Gets a value of Hyperlink. |
-| [getHyperlinkAddress()](#getHyperlinkAddress--) | Gets a value of HyperlinkAddress. |
-| [getHyperlinkSubAddress()](#getHyperlinkSubAddress--) | Gets a value of HyperlinkSubAddress. |
+| [getHyperlink()](#getHyperlink--) | Gets the title or explanatory text of a hyperlink associated with a resource. |
+| [getHyperlinkAddress()](#getHyperlinkAddress--) | Gets the address for a hyperlink associated with a resource. |
+| [getHyperlinkSubAddress()](#getHyperlinkSubAddress--) | Gets the specific location in a document in a hyperlink associated with a resource. |
 | [getId()](#getId--) | Gets a value of Id. |
 | [getInactive()](#getInactive--) | Gets a value indicating whether Inactive is set or not. |
 | [getInitials()](#getInitials--) | Gets a value of Initials. |
@@ -148,9 +148,9 @@ Represents a resource in a project.
 | [setGeneric(NullableBool value)](#setGeneric-com.aspose.tasks.NullableBool-) | Sets a value indicating whether IsGeneric is set or not. |
 | [setGroup(String value)](#setGroup-java.lang.String-) | Sets a value of Group. |
 | [setGuid(String value)](#setGuid-java.lang.String-) | Sets a value of Guid. |
-| [setHyperlink(String value)](#setHyperlink-java.lang.String-) | Sets a value of Hyperlink. |
-| [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | Sets a value of HyperlinkAddress. |
-| [setHyperlinkSubAddress(String value)](#setHyperlinkSubAddress-java.lang.String-) | Sets a value of HyperlinkSubAddress. |
+| [setHyperlink(String value)](#setHyperlink-java.lang.String-) | Sets the title or explanatory text of a hyperlink associated with a resource. |
+| [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | Sets the address for a hyperlink associated with a resource. |
+| [setHyperlinkSubAddress(String value)](#setHyperlinkSubAddress-java.lang.String-) | Sets the specific location in a document in a hyperlink associated with a resource. |
 | [setId(int value)](#setId-int-) | Sets a value of Id. |
 | [setInactive(NullableBool value)](#setInactive-com.aspose.tasks.NullableBool-) | Sets a value indicating whether Inactive is set or not. |
 | [setInitials(String value)](#setInitials-java.lang.String-) | Sets a value of Initials. |
@@ -614,30 +614,38 @@ public final String getHyperlink()
 ```
 
 
-Gets a value of Hyperlink.
+Gets the title or explanatory text of a hyperlink associated with a resource.
 
 **Returns:**
-java.lang.String - a value of Hyperlink.
+java.lang.String - the title or explanatory text of a hyperlink associated with a resource.
 ### getHyperlinkAddress() {#getHyperlinkAddress--}
 ```
 public final String getHyperlinkAddress()
 ```
 
 
-Gets a value of HyperlinkAddress.
+Gets the address for a hyperlink associated with a resource.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Returns:**
-java.lang.String - a value of HyperlinkAddress.
+java.lang.String - the address for a hyperlink associated with a resource.
 ### getHyperlinkSubAddress() {#getHyperlinkSubAddress--}
 ```
 public final String getHyperlinkSubAddress()
 ```
 
 
-Gets a value of HyperlinkSubAddress.
+Gets the specific location in a document in a hyperlink associated with a resource.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Returns:**
-java.lang.String - a value of HyperlinkSubAddress.
+java.lang.String - the specific location in a document in a hyperlink associated with a resource.
 ### getId() {#getId--}
 ```
 public final int getId()
@@ -1614,12 +1622,12 @@ public final void setHyperlink(String value)
 ```
 
 
-Sets a value of Hyperlink.
+Sets the title or explanatory text of a hyperlink associated with a resource.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | a value of Hyperlink. |
+| value | java.lang.String | the title or explanatory text of a hyperlink associated with a resource. |
 
 ### setHyperlinkAddress(String value) {#setHyperlinkAddress-java.lang.String-}
 ```
@@ -1627,12 +1635,16 @@ public final void setHyperlinkAddress(String value)
 ```
 
 
-Sets a value of HyperlinkAddress.
+Sets the address for a hyperlink associated with a resource.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | a value of HyperlinkAddress. |
+| value | java.lang.String | the address for a hyperlink associated with a resource. |
 
 ### setHyperlinkSubAddress(String value) {#setHyperlinkSubAddress-java.lang.String-}
 ```
@@ -1640,12 +1652,16 @@ public final void setHyperlinkSubAddress(String value)
 ```
 
 
-Sets a value of HyperlinkSubAddress.
+Sets the specific location in a document in a hyperlink associated with a resource.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | a value of HyperlinkSubAddress. |
+| value | java.lang.String | the specific location in a document in a hyperlink associated with a resource. |
 
 ### setId(int value) {#setId-int-}
 ```

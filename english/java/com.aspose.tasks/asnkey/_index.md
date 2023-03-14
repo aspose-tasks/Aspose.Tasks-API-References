@@ -54,6 +54,8 @@ Represents a list of supported assignment fields.
 | [LinkedFields](#LinkedFields) | Represents the LinkedFields (ResourceAssignment) field. |
 | [Milestone](#Milestone) | Represents the Milestone (ResourceAssignment) field. |
 | [Notes](#Notes) | Represents the Notes (ResourceAssignment) field. |
+| [NotesRTF](#NotesRTF) | Represents the NotesRTF (ResourceAssignment) field. |
+| [NotesText](#NotesText) | Represents the NotesText (ResourceAssignment) field. |
 | [Overallocated](#Overallocated) | Represents the Overallocated (ResourceAssignment) field. |
 | [OvertimeCost](#OvertimeCost) | Represents the OvertimeCost (ResourceAssignment) field. |
 | [OvertimeWork](#OvertimeWork) | Represents the OvertimeWork (ResourceAssignment) field. |
@@ -370,6 +372,22 @@ public static final int Notes
 
 
 Represents the Notes (ResourceAssignment) field.
+
+### NotesRTF {#NotesRTF}
+```
+public static final int NotesRTF
+```
+
+
+Represents the NotesRTF (ResourceAssignment) field.
+
+### NotesText {#NotesText}
+```
+public static final int NotesText
+```
+
+
+Represents the NotesText (ResourceAssignment) field.
 
 ### Overallocated {#Overallocated}
 ```

@@ -45,14 +45,16 @@ Represents properties of [ResourceAssignment](../../com.aspose.tasks/resourceass
 | [FINISH_VARIANCE](#FINISH-VARIANCE) | The variance of an assignment finish date from a baseline finish date. |
 | [FIXED_MATERIAL](#FIXED-MATERIAL) | Determines whether the consumption of an assigned material resource occurs in a single, fixed amount. |
 | [HAS_FIXED_RATE_UNITS](#HAS-FIXED-RATE-UNITS) | Determines whether the Units have Fixed Rate. |
-| [HYPERLINK](#HYPERLINK) | The title of the hyperlink associated with an assignment. |
-| [HYPERLINK_ADDRESS](#HYPERLINK-ADDRESS) | The title of the hyperlink associated with an assignment. |
-| [HYPERLINK_SUB_ADDRESS](#HYPERLINK-SUB-ADDRESS) | The document bookmark of the hyperlink associated with an assignment. |
+| [HYPERLINK](#HYPERLINK) | The title or explanatory text of a hyperlink associated with an assignment. |
+| [HYPERLINK_ADDRESS](#HYPERLINK-ADDRESS) | The address for a hyperlink associated with assignment. |
+| [HYPERLINK_SUB_ADDRESS](#HYPERLINK-SUB-ADDRESS) | The specific location in a document in a hyperlink associated with an assignment. |
 | [LEVELING_DELAY](#LEVELING-DELAY) | The delay caused by leveling. |
 | [LEVELING_DELAY_FORMAT](#LEVELING-DELAY-FORMAT) | The duration format of a delay. |
 | [LINKED_FIELDS](#LINKED-FIELDS) | Determines whether the Project is linked to another OLE object. |
 | [MILESTONE](#MILESTONE) | Determines whether the assignment is a milestone. |
 | [NOTES](#NOTES) | The text notes associated with an assignment. |
+| [NOTES_RTF](#NOTES-RTF) | The text notes in RTF format. |
+| [NOTES_TEXT](#NOTES-TEXT) | Notes' plain text extracted from RTF data. |
 | [OVERALLOCATED](#OVERALLOCATED) | Determines whether the assignment is over-allocated. |
 | [OVERTIME_COST](#OVERTIME-COST) | The sum of the actual and remaining overtime cost of an assignment. |
 | [OVERTIME_WORK](#OVERTIME-WORK) | The scheduled overtime work of an assignment. |
@@ -302,7 +304,7 @@ public static final Key<String,Integer> HYPERLINK
 ```
 
 
-The title of the hyperlink associated with an assignment.
+The title or explanatory text of a hyperlink associated with an assignment.
 
 ### HYPERLINK_ADDRESS {#HYPERLINK-ADDRESS}
 ```
@@ -310,7 +312,11 @@ public static final Key<String,Integer> HYPERLINK_ADDRESS
 ```
 
 
-The title of the hyperlink associated with an assignment.
+The address for a hyperlink associated with assignment.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### HYPERLINK_SUB_ADDRESS {#HYPERLINK-SUB-ADDRESS}
 ```
@@ -318,7 +324,11 @@ public static final Key<String,Integer> HYPERLINK_SUB_ADDRESS
 ```
 
 
-The document bookmark of the hyperlink associated with an assignment.
+The specific location in a document in a hyperlink associated with an assignment.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### LEVELING_DELAY {#LEVELING-DELAY}
 ```
@@ -359,6 +369,26 @@ public static final Key<String,Integer> NOTES
 
 
 The text notes associated with an assignment.
+
+### NOTES_RTF {#NOTES-RTF}
+```
+public static final Key<String,Integer> NOTES_RTF
+```
+
+
+The text notes in RTF format.
+
+--------------------
+
+Supported for MPP formats only.
+
+### NOTES_TEXT {#NOTES-TEXT}
+```
+public static final Key<String,Integer> NOTES_TEXT
+```
+
+
+Notes' plain text extracted from RTF data.
 
 ### OVERALLOCATED {#OVERALLOCATED}
 ```

@@ -184,10 +184,16 @@ url: /java/com.aspose.tasks/
 | [PdfTextCompression](../com.aspose.tasks/pdftextcompression) | Specifies a type of compression applied to all content in the PDF file except images. |
 | [PixelFormat](../com.aspose.tasks/pixelformat) | Specifies the format of the color data for each pixel in the image. |
 | [PresentationFormat](../com.aspose.tasks/presentationformat) | Enumeration for presentation format. |
+| [PrimaveraActivityType](../com.aspose.tasks/primaveraactivitytype) | Specifies type of Primavera activity. |
+| [PrimaveraBaseReader](../com.aspose.tasks/primaverabasereader) | Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files. |
 | [PrimaveraDbSettings](../com.aspose.tasks/primaveradbsettings) | Allows to set necessary options to read project data from Primavera database. |
+| [PrimaveraDurationType](../com.aspose.tasks/primaveradurationtype) | Specifies duration type of Primavera activity. |
+| [PrimaveraPercentCompleteType](../com.aspose.tasks/primaverapercentcompletetype) | Specifies value of '% Complete Type' field for Primavera activities. |
+| [PrimaveraProjectProperties](../com.aspose.tasks/primaveraprojectproperties) | Represents Primavera-specific properties for a project read from Primavera files (XER of P6XML). |
 | [PrimaveraReadOptions](../com.aspose.tasks/primaverareadoptions) | Allows to specify additional options when reading Primavera Xml or Primavera Xer files. |
+| [PrimaveraRelationshipLagCalendar](../com.aspose.tasks/primaverarelationshiplagcalendar) | Specifies which calendar to use for scheduling Relationship Lag in Primavera projects. |
 | [PrimaveraSaveOptions](../com.aspose.tasks/primaverasaveoptions) | Allows to specify additional options when saving project to Primavera XER format. |
-| [PrimaveraTaskProperties](../com.aspose.tasks/primaverataskproperties) | Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML). |
+| [PrimaveraTaskProperties](../com.aspose.tasks/primaverataskproperties) | Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML). |
 | [PrimaveraXerReader](../com.aspose.tasks/primaveraxerreader) | Represents a reader to read Project UIDs from Primavera XER file |
 | [PrimaveraXmlReader](../com.aspose.tasks/primaveraxmlreader) | Represents a reader which allows to retrieve Project UIDs from Primavera Xml file. |
 | [PrimaveraXmlSaveOptions](../com.aspose.tasks/primaveraxmlsaveoptions) | Allows to specify additional options when saving project to Primavera xml format. |

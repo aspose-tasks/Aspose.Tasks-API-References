@@ -3,7 +3,7 @@ title: Rsc
 second_title: Aspose.Tasks for Java API Reference
 description: Represents supported properties of Resource object.
 type: docs
-weight: 245
+weight: 251
 url: /java/com.aspose.tasks/rsc/
 ---
 
@@ -49,9 +49,9 @@ Represents supported properties of  Resource  object.
 | [FINISH](#FINISH) | The date when a resource is scheduled to complete work on all assigned tasks. |
 | [GROUP](#GROUP) | The group to which a resource belongs. |
 | [GUID](#GUID) | Contains the generated unique identification code for the resource. |
-| [HYPERLINK](#HYPERLINK) | The title of a hyperlink associated with a resource. |
-| [HYPERLINK_ADDRESS](#HYPERLINK-ADDRESS) | The hyperlink associated with a resource. |
-| [HYPERLINK_SUB_ADDRESS](#HYPERLINK-SUB-ADDRESS) | The document bookmark of a hyperlink associated with a resource. |
+| [HYPERLINK](#HYPERLINK) | The title or explanatory text of a hyperlink associated with a resource. |
+| [HYPERLINK_ADDRESS](#HYPERLINK-ADDRESS) | The address for a hyperlink associated with a resource. |
+| [HYPERLINK_SUB_ADDRESS](#HYPERLINK-SUB-ADDRESS) | The specific location in a document in a hyperlink associated with a task. |
 | [ID](#ID) | The position identifier of a resource within the list of resources. |
 | [INACTIVE](#INACTIVE) | Determines whether a resource was made inactive by a user who has administrative rights. |
 | [INITIALS](#INITIALS) | The initials of a resource. |
@@ -344,7 +344,7 @@ public static final Key<String,Integer> HYPERLINK
 ```
 
 
-The title of a hyperlink associated with a resource.
+The title or explanatory text of a hyperlink associated with a resource.
 
 ### HYPERLINK_ADDRESS {#HYPERLINK-ADDRESS}
 ```
@@ -352,7 +352,11 @@ public static final Key<String,Integer> HYPERLINK_ADDRESS
 ```
 
 
-The hyperlink associated with a resource.
+The address for a hyperlink associated with a resource.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### HYPERLINK_SUB_ADDRESS {#HYPERLINK-SUB-ADDRESS}
 ```
@@ -360,7 +364,11 @@ public static final Key<String,Integer> HYPERLINK_SUB_ADDRESS
 ```
 
 
-The document bookmark of a hyperlink associated with a resource.
+The specific location in a document in a hyperlink associated with a task.
+
+--------------------
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### ID {#ID}
 ```

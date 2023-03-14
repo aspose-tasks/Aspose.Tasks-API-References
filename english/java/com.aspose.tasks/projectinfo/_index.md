@@ -3,7 +3,7 @@ title: ProjectInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Brief info about the published project available on Project Online.
 type: docs
-weight: 199
+weight: 205
 url: /java/com.aspose.tasks/projectinfo/
 ---
 

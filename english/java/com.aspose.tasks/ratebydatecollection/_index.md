@@ -3,7 +3,7 @@ title: RateByDateCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection which mappings of java.util.Date to  objects.
 type: docs
-weight: 209
+weight: 215
 url: /java/com.aspose.tasks/ratebydatecollection/
 ---
 

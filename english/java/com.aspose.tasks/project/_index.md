@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a project.
 type: docs
-weight: 196
+weight: 202
 url: /java/com.aspose.tasks/project/
 ---
 
@@ -136,6 +136,7 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [getPageCount_PresentationFormat(int format)](#getPageCount-PresentationFormat-int-) | Returns page count for the project to be rendered using default [Timescale](../../com.aspose.tasks/timescale)(Days) and given [PresentationFormat](../../com.aspose.tasks/presentationformat) |
 | [getPageCount_Timescale(int scale)](#getPageCount-Timescale-int-) | Returns page count for the project to be rendered using given [Timescale](../../com.aspose.tasks/timescale). |
 | [getPredecessors(Task task)](#getPredecessors-com.aspose.tasks.Task-) | Returns a collection of task links which are predecessors of the specified task. |
+| [getPrimaveraProperties()](#getPrimaveraProperties--) | Gets an object containing Primavera-specific properties for a project read from Primavera file. |
 | [getProjectExternallyEdited()](#getProjectExternallyEdited--) | Gets a value indicating whether ProjectExternallyEdited is set or not. |
 | [getProjectFileInfo(InputStream stream)](#getProjectFileInfo-java.io.InputStream-) | Gets project file info from the stream. |
 | [getProjectFileInfo(String filename)](#getProjectFileInfo-java.lang.String-) | Read project file info from the file. |
@@ -1408,6 +1409,16 @@ Returns a collection of task links which are predecessors of the specified task.
 
 **Returns:**
 [TaskLinkCollection](../../com.aspose.tasks/tasklinkcollection) - List of predecessors [TaskLink](../../com.aspose.tasks/tasklink).
+### getPrimaveraProperties() {#getPrimaveraProperties--}
+```
+public final PrimaveraProjectProperties getPrimaveraProperties()
+```
+
+
+Gets an object containing Primavera-specific properties for a project read from Primavera file.
+
+**Returns:**
+[PrimaveraProjectProperties](../../com.aspose.tasks/primaveraprojectproperties) - an object containing Primavera-specific properties for a project read from Primavera file.
 ### getProjectExternallyEdited() {#getProjectExternallyEdited--}
 ```
 public final NullableBool getProjectExternallyEdited()
