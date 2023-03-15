@@ -3,7 +3,7 @@ title: SequenceNumber
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the sequence number of the WBS item summary tasks. It is used to sort summary tasks in Primavera.
 type: docs
-weight: 160
+weight: 250
 url: /net/aspose.tasks/primaverataskproperties/sequencenumber/
 ---
 ## PrimaveraTaskProperties.SequenceNumber property

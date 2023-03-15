@@ -3,7 +3,7 @@ title: WorkFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of WorkFormat.
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.tasks/project/workformat/
 ---
 ## Project.WorkFormat property

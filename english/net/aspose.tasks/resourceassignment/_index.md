@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 1500
+weight: 1560
 url: /net/aspose.tasks/resourceassignment/
 ---
 ## ResourceAssignment class
@@ -52,10 +52,10 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 | [HyperlinkAddress](../../aspose.tasks/resourceassignment/hyperlinkaddress) { get; set; } | Gets or sets a value of HyperlinkAddress. |
 | [HyperlinkSubAddress](../../aspose.tasks/resourceassignment/hyperlinksubaddress) { get; set; } | Gets or sets a value of HyperlinkSubAddress. |
 | [LevelingDelay](../../aspose.tasks/resourceassignment/levelingdelay) { get; set; } | Gets or sets a value of LevelingDelay. |
-| [LevelingDelayFormat](../../aspose.tasks/resourceassignment/levelingdelayformat) { get; set; } | Gets or sets a value of LevelingDelayFormat. |
 | [LinkedFields](../../aspose.tasks/resourceassignment/linkedfields) { get; set; } | Gets or sets a value indicating whether LinkedFields is set or not. |
 | [Milestone](../../aspose.tasks/resourceassignment/milestone) { get; set; } | Gets or sets a value indicating whether Milestone is set or not. |
-| [Notes](../../aspose.tasks/resourceassignment/notes) { get; set; } | Gets or sets a value of Notes. |
+| [NotesRTF](../../aspose.tasks/resourceassignment/notesrtf) { get; set; } | Gets or sets the text notes in RTF format. Supported for MPP formats only. |
+| [NotesText](../../aspose.tasks/resourceassignment/notestext) { get; set; } | Gets or sets notes' plain text extracted from RTF data. |
 | [Overallocated](../../aspose.tasks/resourceassignment/overallocated) { get; set; } | Gets or sets a value indicating whether Overallocated is set or not. |
 | [OvertimeCost](../../aspose.tasks/resourceassignment/overtimecost) { get; set; } | Gets or sets a value of OvertimeCost. |
 | [OvertimeWork](../../aspose.tasks/resourceassignment/overtimework) { get; set; } | Gets or sets a value of OvertimeWork. |

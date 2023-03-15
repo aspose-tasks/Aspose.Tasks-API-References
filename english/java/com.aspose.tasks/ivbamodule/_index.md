@@ -3,7 +3,7 @@ title: IVbaModule
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a module with VBA code.
 type: docs
-weight: 351
+weight: 357
 url: /java/com.aspose.tasks/ivbamodule/
 ---
 ```

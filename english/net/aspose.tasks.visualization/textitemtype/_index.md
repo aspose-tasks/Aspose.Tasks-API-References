@@ -3,7 +3,7 @@ title: TextItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Item type to change a text style for.
 type: docs
-weight: 3060
+weight: 3120
 url: /net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration

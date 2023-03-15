@@ -3,7 +3,7 @@ title: TaskLinkType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of tasks dependency.
 type: docs
-weight: 2140
+weight: 2200
 url: /net/aspose.tasks/tasklinktype/
 ---
 ## TaskLinkType enumeration

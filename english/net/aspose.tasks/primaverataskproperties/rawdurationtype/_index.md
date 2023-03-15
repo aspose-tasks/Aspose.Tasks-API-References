@@ -3,7 +3,7 @@ title: RawDurationType
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets raw text representation as in source file of Duration Type field of the activity.
 type: docs
-weight: 80
+weight: 160
 url: /net/aspose.tasks/primaverataskproperties/rawdurationtype/
 ---
 ## PrimaveraTaskProperties.RawDurationType property

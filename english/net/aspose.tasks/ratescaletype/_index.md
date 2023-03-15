@@ -3,7 +3,7 @@ title: RateScaleType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the rate scale type.
 type: docs
-weight: 1400
+weight: 1460
 url: /net/aspose.tasks/ratescaletype/
 ---
 ## RateScaleType enumeration

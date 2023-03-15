@@ -1,14 +1,14 @@
 ---
 title: Hyperlink
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets a value of Hyperlink.
+description: Gets or sets the title or explanatory text for a hyperlink associated with a task.
 type: docs
 weight: 530
 url: /net/aspose.tasks/task/hyperlink/
 ---
 ## Task.Hyperlink property
 
-Gets or sets a value of Hyperlink.
+Gets or sets the title or explanatory text for a hyperlink associated with a task.
 
 ```csharp
 public string Hyperlink { get; set; }

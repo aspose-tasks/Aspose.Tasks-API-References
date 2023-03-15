@@ -3,7 +3,7 @@ title: OvertimeCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of OvertimeCost.
 type: docs
-weight: 570
+weight: 560
 url: /net/aspose.tasks/resource/overtimecost/
 ---
 ## Resource.OvertimeCost property

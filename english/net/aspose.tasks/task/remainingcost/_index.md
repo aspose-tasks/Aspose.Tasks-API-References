@@ -3,7 +3,7 @@ title: RemainingCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of RemainingCost.
 type: docs
-weight: 1060
+weight: 1050
 url: /net/aspose.tasks/task/remainingcost/
 ---
 ## Task.RemainingCost property

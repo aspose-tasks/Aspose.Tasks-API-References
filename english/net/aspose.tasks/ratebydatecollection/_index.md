@@ -3,7 +3,7 @@ title: RateByDateCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection which mappings of DateTime to Rate./rate objects.
 type: docs
-weight: 1370
+weight: 1430
 url: /net/aspose.tasks/ratebydatecollection/
 ---
 ## RateByDateCollection class

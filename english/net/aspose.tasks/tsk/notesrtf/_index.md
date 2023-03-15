@@ -1,14 +1,14 @@
 ---
 title: NotesRTF
 second_title: Aspose.Tasks for .NET API Reference
-description: The text notes in RTF format.
+description: The text notes in RTF format. Supported for MPP formats only.
 type: docs
-weight: 840
+weight: 830
 url: /net/aspose.tasks/tsk/notesrtf/
 ---
 ## Tsk.NotesRTF field
 
-The text notes in RTF format.
+The text notes in RTF format. Supported for MPP formats only.
 
 ```csharp
 public static readonly Key<string, TaskKey> NotesRTF;

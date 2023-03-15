@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 225
+weight: 231
 url: /java/com.aspose.tasks/resourceassignment/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/resourceassignment/
 java.lang.Object, com.aspose.tasks.IContainer
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent
+com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink
 ```
-public class ResourceAssignment extends IContainer<Integer> implements System.IEquatable<ResourceAssignment>, IExtendedAttributeParent
+public class ResourceAssignment extends IContainer<Integer> implements System.IEquatable<ResourceAssignment>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
 ```
 
 Represents a resource assignment in a project.
@@ -64,6 +64,8 @@ Represents a resource assignment in a project.
 | [getLinkedFields()](#getLinkedFields--) | Gets a value indicating whether LinkedFields is set or not. |
 | [getMilestone()](#getMilestone--) | Gets a value indicating whether Milestone is set or not. |
 | [getNotes()](#getNotes--) | Gets a value of Notes. |
+| [getNotesRTF()](#getNotesRTF--) | Gets the text notes in RTF format. |
+| [getNotesText()](#getNotesText--) | Gets notes' plain text extracted from RTF data. |
 | [getOverallocated()](#getOverallocated--) | Gets a value indicating whether Overallocated is set or not. |
 | [getOvertimeCost()](#getOvertimeCost--) | Gets a value of OvertimeCost. |
 | [getOvertimeWork()](#getOvertimeWork--) | Gets a value of OvertimeWork. |
@@ -136,6 +138,8 @@ Represents a resource assignment in a project.
 | [setLinkedFields(boolean value)](#setLinkedFields-boolean-) | Sets a value indicating whether LinkedFields is set or not. |
 | [setMilestone(boolean value)](#setMilestone-boolean-) | Sets a value indicating whether Milestone is set or not. |
 | [setNotes(String value)](#setNotes-java.lang.String-) | Sets a value of Notes. |
+| [setNotesRTF(String value)](#setNotesRTF-java.lang.String-) | Sets the text notes in RTF format. |
+| [setNotesText(String value)](#setNotesText-java.lang.String-) | Sets notes' plain text extracted from RTF data. |
 | [setOverallocated(boolean value)](#setOverallocated-boolean-) | Sets a value indicating whether Overallocated is set or not. |
 | [setOvertimeCost(BigDecimal value)](#setOvertimeCost-java.math.BigDecimal-) | Sets a value of OvertimeCost. |
 | [setOvertimeWork(Duration value)](#setOvertimeWork-com.aspose.tasks.Duration-) | Sets a value of OvertimeWork. |
@@ -618,6 +622,30 @@ Gets a value of Notes.
 
 **Returns:**
 java.lang.String - a value of Notes.
+### getNotesRTF() {#getNotesRTF--}
+```
+public final String getNotesRTF()
+```
+
+
+Gets the text notes in RTF format.
+
+--------------------
+
+Supported for MPP formats only.
+
+**Returns:**
+java.lang.String - the text notes in RTF format.
+### getNotesText() {#getNotesText--}
+```
+public final String getNotesText()
+```
+
+
+Gets notes' plain text extracted from RTF data.
+
+**Returns:**
+java.lang.String - notes' plain text extracted from RTF data.
 ### getOverallocated() {#getOverallocated--}
 ```
 public final boolean getOverallocated()
@@ -1475,6 +1503,36 @@ Sets a value of Notes.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | a value of Notes. |
+
+### setNotesRTF(String value) {#setNotesRTF-java.lang.String-}
+```
+public final void setNotesRTF(String value)
+```
+
+
+Sets the text notes in RTF format.
+
+--------------------
+
+Supported for MPP formats only.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | the text notes in RTF format. |
+
+### setNotesText(String value) {#setNotesText-java.lang.String-}
+```
+public final void setNotesText(String value)
+```
+
+
+Sets notes' plain text extracted from RTF data.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | notes' plain text extracted from RTF data. |
 
 ### setOverallocated(boolean value) {#setOverallocated-boolean-}
 ```

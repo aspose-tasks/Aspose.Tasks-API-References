@@ -1,18 +1,22 @@
 ---
 title: HyperlinkAddress
 second_title: Aspose.Tasks for .NET API Reference
-description: The hyperlink associated with a resource.
+description: The address for a hyperlink associated with a resource.
 type: docs
 weight: 330
 url: /net/aspose.tasks/rsc/hyperlinkaddress/
 ---
 ## Rsc.HyperlinkAddress field
 
-The hyperlink associated with a resource.
+The address for a hyperlink associated with a resource.
 
 ```csharp
 public static readonly Key<string, RscKey> HyperlinkAddress;
 ```
+
+### Remarks
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
 
 ### Examples
 

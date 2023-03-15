@@ -1,14 +1,14 @@
 ---
 title: Hyperlink
 second_title: Aspose.Tasks for .NET API Reference
-description: The title of a hyperlink associated with a resource.
+description: The title or explanatory text of a hyperlink associated with a resource.
 type: docs
 weight: 320
 url: /net/aspose.tasks/rsc/hyperlink/
 ---
 ## Rsc.Hyperlink field
 
-The title of a hyperlink associated with a resource.
+The title or explanatory text of a hyperlink associated with a resource.
 
 ```csharp
 public static readonly Key<string, RscKey> Hyperlink;

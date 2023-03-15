@@ -3,7 +3,7 @@ title: Stop
 second_title: Aspose.Tasks for .NET API Reference
 description: The date that represents the end of the actual portion of a task.
 type: docs
-weight: 1080
+weight: 1070
 url: /net/aspose.tasks/tsk/stop/
 ---
 ## Tsk.Stop field

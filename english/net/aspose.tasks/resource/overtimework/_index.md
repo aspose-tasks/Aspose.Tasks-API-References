@@ -3,7 +3,7 @@ title: OvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of OvertimeWork.
 type: docs
-weight: 600
+weight: 590
 url: /net/aspose.tasks/resource/overtimework/
 ---
 ## Resource.OvertimeWork property

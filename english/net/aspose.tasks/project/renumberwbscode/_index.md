@@ -3,7 +3,7 @@ title: RenumberWBSCode
 second_title: Aspose.Tasks for .NET API Reference
 description: Renumber WBS code of all tasks.
 type: docs
-weight: 1160
+weight: 1170
 url: /net/aspose.tasks/project/renumberwbscode/
 ---
 ## RenumberWBSCode() {#renumberwbscode}

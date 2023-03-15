@@ -3,7 +3,7 @@ title: PeakUnits
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of PeakUnits.
 type: docs
-weight: 620
+weight: 610
 url: /net/aspose.tasks/resource/peakunits/
 ---
 ## Resource.PeakUnits property

@@ -75,8 +75,10 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [OutlineValueCollection](./outlinevaluecollection) | Represents a collection of [`OutlineValue`](../aspose.tasks/outlinevalue) objects. |
 | [ParseErrorArgs](./parseerrorargs) | Provides data for the [`ParseErrorCallback`](../aspose.tasks/parseerrorcallback) delegate. |
 | [ParseErrorCallback](./parseerrorcallback) | Represents a method callback to handle parse errors that can happen when reading xml data. |
+| [PrimaveraBaseReader](./primaverabasereader) | Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files. |
+| [PrimaveraProjectProperties](./primaveraprojectproperties) | Represents Primavera-specific properties for a project read from Primavera files (XER of P6XML). |
 | [PrimaveraReadOptions](./primaverareadoptions) | Allows to specify additional options when reading Primavera Xml or Primavera Xer files. |
-| [PrimaveraTaskProperties](./primaverataskproperties) | Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML). |
+| [PrimaveraTaskProperties](./primaverataskproperties) | Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML). |
 | [PrimaveraXerReader](./primaveraxerreader) | Represents a reader to read Project UIDs from Primavera XER file |
 | [PrimaveraXmlReader](./primaveraxmlreader) | Represents a reader which allows to retrieve Project UIDs from Primavera Xml file. |
 | [Prj](./prj) | Represents supported properties of [`Project`](../aspose.tasks/project) object. |

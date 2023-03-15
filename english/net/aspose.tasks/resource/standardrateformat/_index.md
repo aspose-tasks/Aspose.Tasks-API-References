@@ -3,7 +3,7 @@ title: StandardRateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of StandardRateFormat.
 type: docs
-weight: 720
+weight: 710
 url: /net/aspose.tasks/resource/standardrateformat/
 ---
 ## Resource.StandardRateFormat property

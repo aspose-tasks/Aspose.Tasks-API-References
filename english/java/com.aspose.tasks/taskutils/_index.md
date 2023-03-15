@@ -3,7 +3,7 @@ title: TaskUtils
 second_title: Aspose.Tasks for Java API Reference
 description: Helper class which provides useful operations with tasks.
 type: docs
-weight: 278
+weight: 284
 url: /java/com.aspose.tasks/taskutils/
 ---
 

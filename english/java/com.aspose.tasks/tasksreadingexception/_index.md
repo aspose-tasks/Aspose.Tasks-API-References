@@ -3,7 +3,7 @@ title: TasksReadingException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the standard internal reading exception type.
 type: docs
-weight: 282
+weight: 288
 url: /java/com.aspose.tasks/tasksreadingexception/
 ---
 

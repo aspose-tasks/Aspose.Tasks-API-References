@@ -3,7 +3,7 @@ title: RemoveFileProperties
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether RemoveFileProperties is set or not.
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.tasks/project/removefileproperties/
 ---
 ## Project.RemoveFileProperties property

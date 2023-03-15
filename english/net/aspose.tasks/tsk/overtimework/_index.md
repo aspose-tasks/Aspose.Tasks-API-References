@@ -3,7 +3,7 @@ title: OvertimeWork
 second_title: Aspose.Tasks for .NET API Reference
 description: The amount of overtime scheduled to be performed by all resources assigned to a task.
 type: docs
-weight: 890
+weight: 880
 url: /net/aspose.tasks/tsk/overtimework/
 ---
 ## Tsk.OvertimeWork field

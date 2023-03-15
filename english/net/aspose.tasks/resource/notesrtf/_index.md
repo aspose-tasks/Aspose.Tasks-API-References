@@ -3,7 +3,7 @@ title: NotesRTF
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of NotesRTF.
 type: docs
-weight: 530
+weight: 520
 url: /net/aspose.tasks/resource/notesrtf/
 ---
 ## Resource.NotesRTF property

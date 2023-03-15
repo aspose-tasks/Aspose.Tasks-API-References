@@ -3,7 +3,7 @@ title: RecalculateResourceFields
 second_title: Aspose.Tasks for .NET API Reference
 description: Recalculates Id Start and Finish of resources.
 type: docs
-weight: 1130
+weight: 1140
 url: /net/aspose.tasks/project/recalculateresourcefields/
 ---
 ## Project.RecalculateResourceFields method

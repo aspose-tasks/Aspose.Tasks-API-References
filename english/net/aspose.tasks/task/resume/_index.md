@@ -3,7 +3,7 @@ title: Resume
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Resume.
 type: docs
-weight: 1110
+weight: 1100
 url: /net/aspose.tasks/task/resume/
 ---
 ## Task.Resume property

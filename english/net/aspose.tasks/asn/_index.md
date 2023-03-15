@@ -45,14 +45,14 @@ public static class Asn
 | static readonly [FinishVariance](../../aspose.tasks/asn/finishvariance) | The variance of an assignment finish date from a baseline finish date. |
 | static readonly [FixedMaterial](../../aspose.tasks/asn/fixedmaterial) | Determines whether the consumption of an assigned material resource occurs in a single, fixed amount. |
 | static readonly [HasFixedRateUnits](../../aspose.tasks/asn/hasfixedrateunits) | Determines whether the Units have Fixed Rate. |
-| static readonly [Hyperlink](../../aspose.tasks/asn/hyperlink) | The title of the hyperlink associated with an assignment. |
-| static readonly [HyperlinkAddress](../../aspose.tasks/asn/hyperlinkaddress) | The title of the hyperlink associated with an assignment. |
-| static readonly [HyperlinkSubAddress](../../aspose.tasks/asn/hyperlinksubaddress) | The document bookmark of the hyperlink associated with an assignment. |
+| static readonly [Hyperlink](../../aspose.tasks/asn/hyperlink) | The title or explanatory text of a hyperlink associated with an assignment. |
+| static readonly [HyperlinkAddress](../../aspose.tasks/asn/hyperlinkaddress) | The address for a hyperlink associated with assignment. |
+| static readonly [HyperlinkSubAddress](../../aspose.tasks/asn/hyperlinksubaddress) | The specific location in a document in a hyperlink associated with an assignment. |
 | static readonly [LevelingDelay](../../aspose.tasks/asn/levelingdelay) | The delay caused by leveling. |
-| static readonly [LevelingDelayFormat](../../aspose.tasks/asn/levelingdelayformat) | The duration format of a delay. |
 | static readonly [LinkedFields](../../aspose.tasks/asn/linkedfields) | Determines whether the Project is linked to another OLE object. |
 | static readonly [Milestone](../../aspose.tasks/asn/milestone) | Determines whether the assignment is a milestone. |
-| static readonly [Notes](../../aspose.tasks/asn/notes) | The text notes associated with an assignment. |
+| static readonly [NotesRTF](../../aspose.tasks/asn/notesrtf) | The text notes in RTF format. Supported for MPP formats only. |
+| static readonly [NotesText](../../aspose.tasks/asn/notestext) | Notes' plain text extracted from RTF data. |
 | static readonly [Overallocated](../../aspose.tasks/asn/overallocated) | Determines whether the assignment is over-allocated. |
 | static readonly [OvertimeCost](../../aspose.tasks/asn/overtimecost) | The sum of the actual and remaining overtime cost of an assignment. |
 | static readonly [OvertimeWork](../../aspose.tasks/asn/overtimework) | The scheduled overtime work of an assignment. |

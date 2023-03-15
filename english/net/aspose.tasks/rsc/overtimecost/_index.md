@@ -3,7 +3,7 @@ title: OvertimeCost
 second_title: Aspose.Tasks for .NET API Reference
 description: The total overtime cost for a resource on all assigned tasks.
 type: docs
-weight: 510
+weight: 500
 url: /net/aspose.tasks/rsc/overtimecost/
 ---
 ## Rsc.OvertimeCost field

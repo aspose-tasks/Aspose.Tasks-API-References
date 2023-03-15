@@ -3,7 +3,7 @@ title: GanttChartColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: Projects view class
 type: docs
-weight: 2760
+weight: 2820
 url: /net/aspose.tasks.visualization/ganttchartcolumn/
 ---
 ## GanttChartColumn class

@@ -3,7 +3,7 @@ title: TimescaleStart
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of TimescaleStart.
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.tasks/project/timescalestart/
 ---
 ## Project.TimescaleStart property

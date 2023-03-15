@@ -3,7 +3,7 @@ title: WindowsUserAccount
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of WindowsUserAccount.
 type: docs
-weight: 780
+weight: 770
 url: /net/aspose.tasks/resource/windowsuseraccount/
 ---
 ## Resource.WindowsUserAccount property

@@ -3,7 +3,7 @@ title: WBS
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of WBS.
 type: docs
-weight: 1270
+weight: 1260
 url: /net/aspose.tasks/task/wbs/
 ---
 ## Task.WBS property

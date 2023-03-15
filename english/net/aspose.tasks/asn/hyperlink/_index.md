@@ -1,14 +1,14 @@
 ---
 title: Hyperlink
 second_title: Aspose.Tasks for .NET API Reference
-description: The title of the hyperlink associated with an assignment.
+description: The title or explanatory text of a hyperlink associated with an assignment.
 type: docs
 weight: 280
 url: /net/aspose.tasks/asn/hyperlink/
 ---
 ## Asn.Hyperlink field
 
-The title of the hyperlink associated with an assignment.
+The title or explanatory text of a hyperlink associated with an assignment.
 
 ```csharp
 public static readonly Key<string, AsnKey> Hyperlink;

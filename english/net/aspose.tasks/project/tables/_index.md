@@ -3,7 +3,7 @@ title: Tables
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a list of Tableaspose.tasks/table objects.
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.tasks/project/tables/
 ---
 ## Project.Tables property

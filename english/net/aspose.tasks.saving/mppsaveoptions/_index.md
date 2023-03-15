@@ -3,7 +3,7 @@ title: MPPSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when saving project data to MPP.
 type: docs
-weight: 1780
+weight: 1840
 url: /net/aspose.tasks.saving/mppsaveoptions/
 ---
 ## MPPSaveOptions class

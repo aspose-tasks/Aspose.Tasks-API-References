@@ -3,7 +3,7 @@ title: SV
 second_title: Aspose.Tasks for .NET API Reference
 description: The earned value schedule variance through the project status date. SV is the difference between budgeted cost of work performed BCWP and budgeted cost of work scheduled BCWS.
 type: docs
-weight: 660
+weight: 650
 url: /net/aspose.tasks/rsc/sv/
 ---
 ## Rsc.SV field

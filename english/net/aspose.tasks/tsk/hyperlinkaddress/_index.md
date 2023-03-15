@@ -14,6 +14,10 @@ The address for a hyperlink associated with a task.
 public static readonly Key<string, TaskKey> HyperlinkAddress;
 ```
 
+### Remarks
+
+The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a concatenation of HyperlinkAddress and HyperlinkSubAddress.
+
 ### Examples
 
 Shows how to read/write Tsk.Hyperlink properties.

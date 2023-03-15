@@ -3,7 +3,7 @@ title: Print
 second_title: Aspose.Tasks for .NET API Reference
 description: Prints project to the default printer with default printer settings using the standard no User Interface print controller.
 type: docs
-weight: 1110
+weight: 1120
 url: /net/aspose.tasks/project/print/
 ---
 ## Print() {#print}

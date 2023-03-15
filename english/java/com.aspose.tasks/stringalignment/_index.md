@@ -3,7 +3,7 @@ title: StringAlignment
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the alignment of a text.
 type: docs
-weight: 254
+weight: 260
 url: /java/com.aspose.tasks/stringalignment/
 ---
 
