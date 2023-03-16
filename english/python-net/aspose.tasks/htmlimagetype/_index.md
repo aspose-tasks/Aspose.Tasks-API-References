@@ -3,7 +3,7 @@ title: HtmlImageType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2360
+weight: 2380
 url: /python-net/aspose.tasks/htmlimagetype/
 ---
 

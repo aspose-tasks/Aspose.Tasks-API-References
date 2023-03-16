@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 900
 url: /python-net/aspose.tasks/resourceassignment/
 ---
 
@@ -42,6 +42,8 @@ The ResourceAssignment type exposes the following members:
 |linked_fields|Gets or sets a value indicating whether LinkedFields is set or not.|
 |milestone|Gets or sets a value indicating whether Milestone is set or not.|
 |notes|Gets or sets a value of Notes.|
+|notes_text|Gets or sets notes' plain text extracted from RTF data.|
+|notes_rtf|Gets or sets the text notes in RTF format.|
 |overallocated|Gets or sets a value indicating whether Overallocated is set or not.|
 |overtime_cost|Gets or sets a value of OvertimeCost.|
 |overtime_work|Gets or sets a value of OvertimeWork.|

@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 730
 url: /python-net/aspose.tasks/project/
 ---
 
@@ -129,6 +129,7 @@ The Project type exposes the following members:
 |resource_groups|Gets all of the resource-based group definitions. <br/>            ResourceGroups is a collection of|
 |wbs_code_definition|Gets or sets WBS Code Definition for the project.|
 |ole_objects|Gets a collection containing the instances of the|
+|primavera_properties|Gets an object containing Primavera-specific properties for a project read from Primavera file.|
 ## Methods
 | Name | Description |
 | :- | :- |

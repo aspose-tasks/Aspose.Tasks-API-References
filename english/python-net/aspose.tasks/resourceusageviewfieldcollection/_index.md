@@ -3,7 +3,7 @@ title: ResourceUsageViewFieldCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 950
 url: /python-net/aspose.tasks/resourceusageviewfieldcollection/
 ---
 

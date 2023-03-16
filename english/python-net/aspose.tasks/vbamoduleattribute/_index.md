@@ -3,7 +3,7 @@ title: VbaModuleAttribute
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1210
+weight: 1230
 url: /python-net/aspose.tasks/vbamoduleattribute/
 ---
 

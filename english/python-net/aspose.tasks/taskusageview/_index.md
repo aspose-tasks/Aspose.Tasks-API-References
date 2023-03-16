@@ -3,7 +3,7 @@ title: TaskUsageView
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1060
+weight: 1080
 url: /python-net/aspose.tasks/taskusageview/
 ---
 

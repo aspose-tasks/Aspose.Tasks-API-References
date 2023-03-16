@@ -3,7 +3,7 @@ title: EarnedValueMethodType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2240
+weight: 2260
 url: /python-net/aspose.tasks/earnedvaluemethodtype/
 ---
 

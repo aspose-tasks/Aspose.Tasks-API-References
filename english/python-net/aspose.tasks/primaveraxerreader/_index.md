@@ -3,7 +3,7 @@ title: PrimaveraXerReader
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 710
 url: /python-net/aspose.tasks/primaveraxerreader/
 ---
 
@@ -21,6 +21,7 @@ The PrimaveraXerReader type exposes the following members:
 | Name | Description |
 | :- | :- |
 |get_project_uids()|Return a list of the projects' unique identifiers.|
+|load_project(project_uid)|Loads the project with the specified unique identifier.|
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1430
+weight: 1450
 url: /python-net/aspose.tasks/yearlyrecurrencepattern/
 ---
 
