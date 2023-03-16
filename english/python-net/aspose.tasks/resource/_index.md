@@ -3,7 +3,7 @@ title: Resource
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 870
+weight: 890
 url: /python-net/aspose.tasks/resource/
 ---
 
@@ -46,9 +46,9 @@ The Resource type exposes the following members:
 |finish|Gets or sets a value of Finish.|
 |group|Gets or sets a value of Group.|
 |guid|Gets or sets a value of Guid.|
-|hyperlink|Gets or sets a value of Hyperlink.|
-|hyperlink_address|Gets or sets a value of HyperlinkAddress.|
-|hyperlink_sub_address|Gets or sets a value of HyperlinkSubAddress.|
+|hyperlink|Gets or sets the title or explanatory text of a hyperlink associated with a resource.|
+|hyperlink_address|Gets or sets the address for a hyperlink associated with a resource.|
+|hyperlink_sub_address|Gets or sets the specific location in a document in a hyperlink associated with a resource.|
 |id|Gets or sets a value of Id.|
 |inactive|Gets or sets a value indicating whether Inactive is set or not.|
 |initials|Gets or sets a value of Initials.|

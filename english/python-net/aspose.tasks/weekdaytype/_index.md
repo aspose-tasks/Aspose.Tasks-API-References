@@ -3,7 +3,7 @@ title: WeekdayType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2660
+weight: 2680
 url: /python-net/aspose.tasks/weekdaytype/
 ---
 

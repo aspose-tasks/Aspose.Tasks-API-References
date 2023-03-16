@@ -3,13 +3,13 @@ title: PrimaveraTaskProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 700
 url: /python-net/aspose.tasks/primaverataskproperties/
 ---
 
 ## PrimaveraTaskProperties class
 
-Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML).
+Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML).
 
 The PrimaveraTaskProperties type exposes the following members:
 ## Properties
@@ -22,7 +22,10 @@ The PrimaveraTaskProperties type exposes the following members:
 |remaining_late_start|Gets remaining late start date.|
 |remaining_late_finish|Gets remaining late finish date.|
 |raw_duration_type|Gets raw text representation (as in source file) of 'Duration Type' field of the activity.|
+|duration_type|Gets the value of 'Duration Type' field of the activity.|
 |raw_activity_type|Gets raw text representation (as in source file) of 'Activity Type' field of the activity.|
+|activity_type|Gets the value of 'Activity Type' field.|
+|percent_complete_type|Gets the value of '% Complete Type' field of the activity.|
 |raw_complete_percent_type|Gets raw text representation (as in source file) of '% Complete Type' field of the activity.|
 |raw_status|Gets raw text representation (as in source file) of 'Status' field of the activity.|
 |physical_percent_complete|Gets the value of Physical Percent Complete.|
@@ -32,6 +35,12 @@ The PrimaveraTaskProperties type exposes the following members:
 |actual_non_labor_units|Gets the value of actual non labor units.|
 |remaining_labor_units|Gets the value of remaining labor units.|
 |remaining_non_labor_units|Gets the value of remaining non labor units.|
+|actual_labor_cost|Gets the value of actual labor cost .|
+|actual_nonlabor_cost|Gets the value of actual non labor cost .|
+|actual_material_cost|Gets the value of actual material cost.|
+|actual_expense_cost|Gets the value of actual expense cost.|
+|remaining_expense_cost|Gets the value of remaining expense cost.|
+|actual_total_cost|Gets the total value of actual costs.|
 
 ### See Also
 

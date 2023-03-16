@@ -3,7 +3,7 @@ title: YearLabelDisplay
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2690
+weight: 2710
 url: /python-net/aspose.tasks/yearlabeldisplay/
 ---
 

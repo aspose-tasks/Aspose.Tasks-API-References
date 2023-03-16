@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1000
+weight: 1020
 url: /python-net/aspose.tasks/task/
 ---
 
@@ -96,9 +96,9 @@ The Task type exposes the following members:
 |leveling_delay_format|Gets or sets a value of LevelingDelayFormat.|
 |preleveled_start|Gets or sets a value of PreleveledStart.|
 |preleveled_finish|Gets or sets a value of PreleveledFinish.|
-|hyperlink|Gets or sets a value of Hyperlink.|
-|hyperlink_address|Gets or sets a value of HyperlinkAddress.|
-|hyperlink_sub_address|Gets or sets a value of HyperlinkSubAddress.|
+|hyperlink|Gets or sets the title or explanatory text for a hyperlink associated with a task.|
+|hyperlink_address|Gets or sets the address for a hyperlink associated with a task.|
+|hyperlink_sub_address|Gets or sets the specific location in a document in a hyperlink associated with a task.|
 |ignore_resource_calendar|Gets or sets a value indicating whether IgnoreResourceCalendar is set or not.|
 |hide_bar|Gets or sets a value indicating whether HideBar is set or not.|
 |is_rollup|Gets or sets a value indicating whether IsRollup is set or not.|
@@ -144,7 +144,7 @@ The Task type exposes the following members:
 |timephased_data|Gets or sets a TimephasedDataCollection object of this task.<br/>            The time phased data block associated with a task.|
 |baselines|Gets or sets the collection of baseline values of the task.|
 |recurring_info|Gets the instance of|
-|primavera_properties|Gets an object containing Primavera-specific properties for a task read from Primavera format.|
+|primavera_properties|Gets an object containing Primavera-specific properties for a task read from Primavera file.|
 ## Methods
 | Name | Description |
 | :- | :- |

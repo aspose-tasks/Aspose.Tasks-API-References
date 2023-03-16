@@ -3,7 +3,7 @@ title: Field
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2280
+weight: 2300
 url: /python-net/aspose.tasks/field/
 ---
 

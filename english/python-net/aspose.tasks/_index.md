@@ -79,8 +79,10 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[OutlineValue](/tasks/python-net/aspose.tasks/outlinevalue/)|Represents an outline value.|
 |[OutlineValueCollection](/tasks/python-net/aspose.tasks/outlinevaluecollection/)|Represents a collection of|
 |[ParseErrorArgs](/tasks/python-net/aspose.tasks/parseerrorargs/)|Provides data for the|
+|[PrimaveraBaseReader](/tasks/python-net/aspose.tasks/primaverabasereader/)|Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files.|
+|[PrimaveraProjectProperties](/tasks/python-net/aspose.tasks/primaveraprojectproperties/)|Represents Primavera-specific properties for a project read from Primavera files (XER of P6XML).|
 |[PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/)|Allows to specify additional options when reading Primavera Xml or Primavera Xer files.|
-|[PrimaveraTaskProperties](/tasks/python-net/aspose.tasks/primaverataskproperties/)|Represents Primavera-specific properties for a task read from Primavera format (XER of P6XML).|
+|[PrimaveraTaskProperties](/tasks/python-net/aspose.tasks/primaverataskproperties/)|Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML).|
 |[PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/)|Represents a reader to read Project UIDs from Primavera XER file|
 |[PrimaveraXmlReader](/tasks/python-net/aspose.tasks/primaveraxmlreader/)|Represents a reader which allows to retrieve Project UIDs from Primavera Xml file.|
 |[Project](/tasks/python-net/aspose.tasks/project/)|Represents a project.|

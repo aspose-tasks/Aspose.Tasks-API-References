@@ -3,7 +3,7 @@ title: TaskLinkType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2560
+weight: 2580
 url: /python-net/aspose.tasks/tasklinktype/
 ---
 

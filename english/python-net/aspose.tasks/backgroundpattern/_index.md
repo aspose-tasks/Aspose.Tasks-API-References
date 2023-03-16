@@ -3,7 +3,7 @@ title: BackgroundPattern
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2110
+weight: 2130
 url: /python-net/aspose.tasks/backgroundpattern/
 ---
 

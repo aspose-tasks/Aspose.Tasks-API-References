@@ -22,7 +22,7 @@ The ImageSaveOptions type exposes the following members:
 |bar_styles|Gets or sets the list of the instances of the|
 |draw_non_working_time|Gets or sets a value indicating whether non-working time should be drawn (Default value is TRUE).|
 |end_date|Gets or sets a date to finish rendering to.|
-|fit_timescale_to_end_of_page|  |
+|fit_timescale_to_end_of_page|Gets or sets whether a calendar section of a view should be rendered to the end (right side) of the last page.<br/>            If value is false, calendar section is rendered exactly to EndDate, even there is an empty space on a page.|
 |fit_content|Gets or sets a value indicating whether row height should be increased to fit its content.|
 |gridlines|Gets or sets a list of|
 |legend_on_each_page|Gets or sets a value indicating whether legend should be shown on each page (Default value is TRUE).|
