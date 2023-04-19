@@ -3,7 +3,7 @@ title: TableFieldCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Contains a list of  objects.
 type: docs
-weight: 267
+weight: 268
 url: /java/com.aspose.tasks/tablefieldcollection/
 ---
 
@@ -30,7 +30,6 @@ Contains a list of [TableField](../../com.aspose.tasks/tablefield) objects. Impl
 | [contains(Object o)](#contains-java.lang.Object-) |  |
 | [containsAll(Collection&lt;?&gt; c)](#containsAll-java.util.Collection----) |  |
 | [get(int index)](#get-int-) |  |
-| [getParentProject()](#getParentProject--) | Gets the parent of the TableFields object. |
 | [indexOf(TableField item)](#indexOf-com.aspose.tasks.TableField-) | Returns index of the specified item in this collection. |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) |  |
 | [isEmpty()](#isEmpty--) |  |
@@ -174,16 +173,6 @@ public TableField get(int index)
 
 **Returns:**
 [TableField](../../com.aspose.tasks/tablefield)
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets the parent of the TableFields object. Read-only  Project .
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - parent project.
 ### indexOf(TableField item) {#indexOf-com.aspose.tasks.TableField-}
 ```
 public int indexOf(TableField item)

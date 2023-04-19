@@ -3,7 +3,7 @@ title: PrimaveraBaseReader
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files.
 type: docs
-weight: 183
+weight: 184
 url: /java/com.aspose.tasks/primaverabasereader/
 ---
 

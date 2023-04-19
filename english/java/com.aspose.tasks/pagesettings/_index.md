@@ -3,7 +3,7 @@ title: PageSettings
 second_title: Aspose.Tasks for Java API Reference
 description: Represents printing settings for a page of project view.
 type: docs
-weight: 168
+weight: 169
 url: /java/com.aspose.tasks/pagesettings/
 ---
 

@@ -33,7 +33,6 @@ Represents a filter in Project.
 | [getFilterType()](#getFilterType--) | Gets the type of the filter. |
 | [getIndex()](#getIndex--) | Gets the index of a [Filter](../../com.aspose.tasks/filter) object in the Filters containing object. |
 | [getName()](#getName--) | Gets the name of a Filter object. |
-| [getParentProject()](#getParentProject--) | Gets the parent of the Filter object. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
 | [getShowRelatedSummaryRows()](#getShowRelatedSummaryRows--) | Gets a value indicating whether related summary rows are displayed for the filter. |
 | [getUid()](#getUid--) | Gets the unique identifier of a filter. |
@@ -139,16 +138,6 @@ Gets the name of a Filter object.
 
 **Returns:**
 java.lang.String - the name of a Filter object.
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets the parent of the Filter object.
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - the parent of the Filter object.
 ### getShowInMenu() {#getShowInMenu--}
 ```
 public final boolean getShowInMenu()

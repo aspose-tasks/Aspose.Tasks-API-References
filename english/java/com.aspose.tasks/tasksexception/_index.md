@@ -3,7 +3,7 @@ title: TasksException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the standard internal exception type.
 type: docs
-weight: 286
+weight: 287
 url: /java/com.aspose.tasks/tasksexception/
 ---
 

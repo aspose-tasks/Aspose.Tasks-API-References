@@ -24,7 +24,6 @@ Represents a collection of [Calendar](../../com.aspose.tasks/calendar) objects.
 | [get(int index)](#get-int-) | (@inheritDoc\} |
 | [getByName(String name)](#getByName-java.lang.String-) | Returns a calendar with the specified name. |
 | [getByUid(int uid)](#getByUid-int-) | Returns a calendar with the specified UID. |
-| [getParentProject()](#getParentProject--) | Gets a parent [Project](../../com.aspose.tasks/project) of this object. |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes Calendar from Project CalendarCollection. |
@@ -115,16 +114,6 @@ Returns a calendar with the specified UID.
 
 **Returns:**
 [Calendar](../../com.aspose.tasks/calendar) - Calendar with a specified UID.
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets a parent [Project](../../com.aspose.tasks/project) of this object.
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - a parent [Project](../../com.aspose.tasks/project) of this object.
 ### iterator() {#iterator--}
 ```
 public Iterator<Calendar> iterator()

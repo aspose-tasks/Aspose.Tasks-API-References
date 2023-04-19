@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the PDF compliance level to output file.
 type: docs
-weight: 173
+weight: 174
 url: /java/com.aspose.tasks/pdfcompliance/
 ---
 

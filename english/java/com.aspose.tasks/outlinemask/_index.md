@@ -3,7 +3,7 @@ title: OutlineMask
 second_title: Aspose.Tasks for Java API Reference
 description: Represents four elements of a mask which defines an outline code format.
 type: docs
-weight: 159
+weight: 160
 url: /java/com.aspose.tasks/outlinemask/
 ---
 

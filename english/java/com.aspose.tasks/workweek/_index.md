@@ -3,7 +3,7 @@ title: WorkWeek
 second_title: Aspose.Tasks for Java API Reference
 description: Represent WorkWeek class
 type: docs
-weight: 337
+weight: 338
 url: /java/com.aspose.tasks/workweek/
 ---
 

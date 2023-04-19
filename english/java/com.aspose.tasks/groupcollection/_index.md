@@ -22,7 +22,6 @@ Contains a list of [Group](../../com.aspose.tasks/group) objects. Implements ICo
 | [clear()](#clear--) |  |
 | [contains(Group item)](#contains-com.aspose.tasks.Group-) | Returns true if this collection contains the specified item. |
 | [copyTo(Group[] array, int arrayIndex)](#copyTo-com.aspose.tasks.Group---int-) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [getParentProject()](#getParentProject--) | Gets the parent of the Group object. |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether this collection is read-only. |
 | [iterator()](#iterator--) |  |
 | [remove(Group item)](#remove-com.aspose.tasks.Group-) | Removes the first occurrence of a specific object from this collection. |
@@ -80,16 +79,6 @@ Copies the elements of this collection to the specified array, starting at the s
 | array | [Group\[\]](../../com.aspose.tasks/group) | the specified one-dimensional array to copy elements to |
 | arrayIndex | int | the zero-based index of the specified array at which copying begins. |
 
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets the parent of the Group object. Read-only [Project](../../com.aspose.tasks/project).
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - the parent of the Group object.
 ### isReadOnly() {#isReadOnly--}
 ```
 public final boolean isReadOnly()

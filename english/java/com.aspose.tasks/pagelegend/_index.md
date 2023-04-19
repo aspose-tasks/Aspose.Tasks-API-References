@@ -3,7 +3,7 @@ title: PageLegend
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a page legend which is used for project printing.
 type: docs
-weight: 165
+weight: 166
 url: /java/com.aspose.tasks/pagelegend/
 ---
 

@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to images.
 type: docs
-weight: 127
+weight: 128
 url: /java/com.aspose.tasks/imagesaveoptions/
 ---
 
@@ -28,7 +28,7 @@ Allows to specify additional options when rendering project pages to images.
 | --- | --- |
 | [copyOutputPropertiesFrom(SaveOptions source)](#copyOutputPropertiesFrom-com.aspose.tasks.SaveOptions-) | \{@inheritDoc\} |
 | [deepClone()](#deepClone--) | \{@inheritDoc\} |
-| [getDefaultFontName()](#getDefaultFontName--) | Gets the default font for rendering. |
+| [getDefaultFontName()](#getDefaultFontName--) | Gets the default (or fallback) font for rendering. |
 | [getFontResolveCallback()](#getFontResolveCallback--) | Gets a callback which can be used to customize resolved fonts. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution in dpi. |
 | [getJpegQuality()](#getJpegQuality--) | Gets a JPEG quality. |
@@ -39,7 +39,7 @@ Allows to specify additional options when rendering project pages to images.
 | [getTiffCompression()](#getTiffCompression--) | Gets the type of compression to apply when saving generated images to the TIFF format. |
 | [getUseProjectDefaultFont()](#getUseProjectDefaultFont--) | Gets a value indicating whether the default font must be used for rendering. |
 | [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution in dpi. |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font for rendering. |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default (or fallback) font for rendering. |
 | [setFontResolveCallback(FontResolveCallbackDelegate value)](#setFontResolveCallback-com.aspose.tasks.FontResolveCallbackDelegate-) | Sets a callback which can be used to customize resolved fonts. |
 | [setHorizontalResolution(float value)](#setHorizontalResolution-float-) | Sets the horizontal resolution in dpi. |
 | [setJpegQuality(int value)](#setJpegQuality-int-) | Sets a JPEG quality. |
@@ -92,10 +92,10 @@ public final String getDefaultFontName()
 ```
 
 
-Gets the default font for rendering.
+Gets the default (or fallback) font for rendering.
 
 **Returns:**
-java.lang.String - the default font for rendering.
+java.lang.String - the default (or fallback) font for rendering.
 ### getFontResolveCallback() {#getFontResolveCallback--}
 ```
 public final FontResolveCallbackDelegate getFontResolveCallback()
@@ -192,6 +192,10 @@ public final boolean getUseProjectDefaultFont()
 
 Gets a value indicating whether the default font must be used for rendering.
 
+--------------------
+
+When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/imagesaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/imagesaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
+
 **Returns:**
 boolean - a value indicating whether the default font must be used for rendering.
 ### getVerticalResolution() {#getVerticalResolution--}
@@ -210,12 +214,12 @@ public final void setDefaultFontName(String value)
 ```
 
 
-Sets the default font for rendering.
+Sets the default (or fallback) font for rendering.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the default font for rendering. |
+| value | java.lang.String | the default (or fallback) font for rendering. |
 
 ### setFontResolveCallback(FontResolveCallbackDelegate value) {#setFontResolveCallback-com.aspose.tasks.FontResolveCallbackDelegate-}
 ```
@@ -336,6 +340,10 @@ public final void setUseProjectDefaultFont(boolean value)
 
 
 Sets a value indicating whether the default font must be used for rendering.
+
+--------------------
+
+When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/imagesaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/imagesaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
 
 **Parameters:**
 | Parameter | Type | Description |

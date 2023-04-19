@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Contains a list of  objects.
 type: docs
-weight: 265
+weight: 266
 url: /java/com.aspose.tasks/tablecollection/
 ---
 
@@ -22,8 +22,7 @@ Contains a list of [Table](../../com.aspose.tasks/table) objects. Implements ICo
 | [clear()](#clear--) | Removes all items from this collection. |
 | [contains(Table item)](#contains-com.aspose.tasks.Table-) | Returns true if the specified item is found in this collection; otherwise, false. |
 | [copyTo(Table[] array, int arrayIndex)](#copyTo-com.aspose.tasks.Table---int-) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [getParentProject()](#getParentProject--) | Gets the parent of the Table object. |
-| [iterator()](#iterator--) |  |
+| [iterator()](#iterator--) | Returns an enumerator for this collection. |
 | [remove(Table item)](#remove-com.aspose.tasks.Table-) | Removes the first occurrence of a specific object from this collection. |
 | [size()](#size--) | Gets the number of elements contained in this collection. |
 | [toList()](#toList--) | Converts a table collection to a list of [Table](../../com.aspose.tasks/table) objects. |
@@ -79,26 +78,16 @@ Copies the elements of this collection to the specified array, starting at the s
 | array | [Table\[\]](../../com.aspose.tasks/table) | the specified one-dimensional array to copy elements to |
 | arrayIndex | int | the zero-based index of the specified array at which copying begins. |
 
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets the parent of the Table object. Read-only [Project](../../com.aspose.tasks/project).
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - the parent of the Table object.
 ### iterator() {#iterator--}
 ```
-public Iterator<Table> iterator()
+public final Iterator<Table> iterator()
 ```
 
 
-
+Returns an enumerator for this collection.
 
 **Returns:**
-java.util.Iterator&lt;com.aspose.tasks.Table&gt;
+java.util.Iterator&lt;com.aspose.tasks.Table&gt; - an enumerator for this collection.
 ### remove(Table item) {#remove-com.aspose.tasks.Table-}
 ```
 public final boolean remove(Table item)

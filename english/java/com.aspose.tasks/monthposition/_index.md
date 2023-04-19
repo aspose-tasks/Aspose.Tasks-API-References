@@ -3,7 +3,7 @@ title: MonthPosition
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the position of a month item within a month.
 type: docs
-weight: 145
+weight: 146
 url: /java/com.aspose.tasks/monthposition/
 ---
 
