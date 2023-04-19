@@ -3,7 +3,7 @@ title: ItemType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of an item.
 type: docs
-weight: 131
+weight: 132
 url: /java/com.aspose.tasks/itemtype/
 ---
 

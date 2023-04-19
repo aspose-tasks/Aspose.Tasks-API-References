@@ -3,7 +3,7 @@ title: RateType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the unique identifiers of a rate table.
 type: docs
-weight: 219
+weight: 220
 url: /java/com.aspose.tasks/ratetype/
 ---
 

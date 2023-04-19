@@ -3,7 +3,7 @@ title: TimescaleTier
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a single tier of the timescale on a Gantt Chart.
 type: docs
-weight: 301
+weight: 302
 url: /java/com.aspose.tasks/timescaletier/
 ---
 
@@ -24,14 +24,14 @@ Represents a single tier of the timescale on a Gantt Chart.
 
 | Method | Description |
 | --- | --- |
-| [getAlignment()](#getAlignment--) | Gets how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)). |
+| [getAlignment()](#getAlignment--) | Gets how to align labels within each time period of the tier ([HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment)). |
 | [getCount()](#getCount--) | Gets the time unit interval in which to show labels for the tier. |
 | [getDateTimeConverter()](#getDateTimeConverter--) | Gets a callback function for handling rendering date tick in this tier. |
 | [getLabel()](#getLabel--) | Gets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
 | [getShowTicks()](#getShowTicks--) | Gets a value indicating whether whether to show tick marks that separate time periods in the tier. |
 | [getUnit()](#getUnit--) | Gets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. |
 | [getUsesFiscalYear()](#getUsesFiscalYear--) | Gets a value indicating whether to base the tier labels on the fiscal year. |
-| [setAlignment(int value)](#setAlignment-int-) | Sets how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)). |
+| [setAlignment(int value)](#setAlignment-int-) | Sets how to align labels within each time period of the tier ([HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment)). |
 | [setCount(int value)](#setCount-int-) | Sets the time unit interval in which to show labels for the tier. |
 | [setDateTimeConverter(DateTimeConverter value)](#setDateTimeConverter-com.aspose.tasks.DateTimeConverter-) | Sets a callback function for handling rendering date tick in this tier. |
 | [setLabel(int value)](#setLabel-int-) | Sets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
@@ -66,10 +66,10 @@ public final int getAlignment()
 ```
 
 
-Gets how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)).
+Gets how to align labels within each time period of the tier ([HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment)).
 
 **Returns:**
-int - how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)).
+int - how to align labels within each time period of the tier ([HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment)).
 ### getCount() {#getCount--}
 ```
 public final int getCount()
@@ -136,12 +136,12 @@ public final void setAlignment(int value)
 ```
 
 
-Sets how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)).
+Sets how to align labels within each time period of the tier ([HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment)).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | how to align labels within each time period of the tier ([StringAlignment](../../com.aspose.tasks/stringalignment)). |
+| value | int | how to align labels within each time period of the tier ([HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment)). |
 
 ### setCount(int value) {#setCount-int-}
 ```

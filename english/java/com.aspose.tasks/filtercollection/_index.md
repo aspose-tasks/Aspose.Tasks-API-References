@@ -21,7 +21,6 @@ Contains a list of [Filter](../../com.aspose.tasks/filter) objects. Implements I
 | [add(Filter item)](#add-com.aspose.tasks.Filter-) |  |
 | [contains(Filter item)](#contains-com.aspose.tasks.Filter-) | Returns true if this collection contains the specified item. |
 | [copyTo(Filter[] array, int arrayIndex)](#copyTo-com.aspose.tasks.Filter---int-) | Copies the elements from the specified array to this collection starting from the specified index. |
-| [getParentProject()](#getParentProject--) | Gets the parent of the Filters object. |
 | [iterator()](#iterator--) | Returns an iterator over the elements containing in this collection. |
 | [remove(Filter item)](#remove-com.aspose.tasks.Filter-) | Removes the specified item from this collection. |
 | [size()](#size--) |  |
@@ -70,16 +69,6 @@ Copies the elements from the specified array to this collection starting from th
 | array | [Filter\[\]](../../com.aspose.tasks/filter) | the specified one-dimensional array to copy elements to |
 | arrayIndex | int | the zero-based index of the specified array at which copying begins. |
 
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets the parent of the Filters object. Read-only [Project](../../com.aspose.tasks/project).
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - the parent of the Filters object.
 ### iterator() {#iterator--}
 ```
 public Iterator<Filter> iterator()

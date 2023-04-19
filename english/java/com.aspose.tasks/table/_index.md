@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a table in Project
 type: docs
-weight: 264
+weight: 265
 url: /java/com.aspose.tasks/table/
 ---
 
@@ -29,7 +29,6 @@ Represents a table in Project
 | [getIndex()](#getIndex--) | Gets the index of a Table object in the Tables containing object. |
 | [getLockFirstColumn()](#getLockFirstColumn--) | Gets a value indicating whether the first column of a table is locked or editable. |
 | [getName()](#getName--) | Gets the name of a Table object. |
-| [getParentProject()](#getParentProject--) | Gets the parent of the Table object. |
 | [getRowHeight()](#getRowHeight--) | Gets the row height in a table, where the row height is the number of lines of text. |
 | [getShowAddNewColumn()](#getShowAddNewColumn--) | Gets a value indicating whether to show 'Add New Column' interface. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
@@ -117,16 +116,6 @@ Gets the name of a Table object.
 
 **Returns:**
 java.lang.String - the name of a Table object.
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets the parent of the Table object. Read-only [Project](../../com.aspose.tasks/project).
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - the parent of the Table object.
 ### getRowHeight() {#getRowHeight--}
 ```
 public final int getRowHeight()

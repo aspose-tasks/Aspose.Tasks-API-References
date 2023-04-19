@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to PDF.
 type: docs
-weight: 178
+weight: 179
 url: /java/com.aspose.tasks/pdfsaveoptions/
 ---
 
@@ -29,7 +29,7 @@ Allows to specify additional options when rendering project pages to PDF.
 | [copyOutputPropertiesFrom(SaveOptions source)](#copyOutputPropertiesFrom-com.aspose.tasks.SaveOptions-) | \{@inheritDoc\} |
 | [deepClone()](#deepClone--) | \{@inheritDoc\} |
 | [getCompliance()](#getCompliance--) | Gets a desired compliance level for generated PDF document. |
-| [getDefaultFontName()](#getDefaultFontName--) | Gets the default font for rendering. |
+| [getDefaultFontName()](#getDefaultFontName--) | Gets the default (or fallback) font for rendering. |
 | [getEncryptionDetails()](#getEncryptionDetails--) | Gets an encryption details. |
 | [getFontResolveCallback()](#getFontResolveCallback--) | Gets a callback which can be used to customize resolved fonts. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Gets a user-defined callback which is used to get an output stream for each rendered page. |
@@ -39,7 +39,7 @@ Allows to specify additional options when rendering project pages to PDF.
 | [getTextCompression()](#getTextCompression--) | Gets a compression type to be used for all content streams except images. |
 | [getUseProjectDefaultFont()](#getUseProjectDefaultFont--) | Gets a value indicating whether the default font must be used for rendering. |
 | [setCompliance(int value)](#setCompliance-int-) | Sets a desired compliance level for generated PDF document. |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font for rendering. |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default (or fallback) font for rendering. |
 | [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.tasks.PdfEncryptionDetails-) | Sets a encryption details. |
 | [setFontResolveCallback(FontResolveCallbackDelegate value)](#setFontResolveCallback-com.aspose.tasks.FontResolveCallbackDelegate-) | Sets a callback which can be used to customize resolved fonts. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.tasks.IPageSavingCallback-) | Sets a user-defined callback which is used to get an output stream for each rendered page. |
@@ -95,10 +95,10 @@ public final String getDefaultFontName()
 ```
 
 
-Gets the default font for rendering.
+Gets the default (or fallback) font for rendering.
 
 **Returns:**
-java.lang.String - the default font for rendering.
+java.lang.String - the default (or fallback) font for rendering.
 ### getEncryptionDetails() {#getEncryptionDetails--}
 ```
 public final PdfEncryptionDetails getEncryptionDetails()
@@ -181,6 +181,10 @@ public final boolean getUseProjectDefaultFont()
 
 Gets a value indicating whether the default font must be used for rendering.
 
+--------------------
+
+When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/pdfsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/pdfsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
+
 **Returns:**
 boolean - a value indicating whether the default font must be used for rendering.
 ### setCompliance(int value) {#setCompliance-int-}
@@ -202,12 +206,12 @@ public final void setDefaultFontName(String value)
 ```
 
 
-Sets the default font for rendering.
+Sets the default (or fallback) font for rendering.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the default font for rendering. |
+| value | java.lang.String | the default (or fallback) font for rendering. |
 
 ### setEncryptionDetails(PdfEncryptionDetails value) {#setEncryptionDetails-com.aspose.tasks.PdfEncryptionDetails-}
 ```
@@ -311,6 +315,10 @@ public final void setUseProjectDefaultFont(boolean value)
 
 
 Sets a value indicating whether the default font must be used for rendering.
+
+--------------------
+
+When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/pdfsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/pdfsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: MinuteLabelDisplay
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies how the minute label displays.
 type: docs
-weight: 141
+weight: 142
 url: /java/com.aspose.tasks/minutelabeldisplay/
 ---
 

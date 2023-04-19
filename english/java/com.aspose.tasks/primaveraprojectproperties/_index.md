@@ -3,7 +3,7 @@ title: PrimaveraProjectProperties
 second_title: Aspose.Tasks for Java API Reference
 description: Represents Primavera-specific properties for a project read from Primavera files XER of P6XML.
 type: docs
-weight: 187
+weight: 188
 url: /java/com.aspose.tasks/primaveraprojectproperties/
 ---
 

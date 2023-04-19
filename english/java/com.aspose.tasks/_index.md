@@ -125,6 +125,7 @@ url: /java/com.aspose.tasks/
 | [GroupOn](../com.aspose.tasks/groupon) | Specifies the type of grouping. |
 | [HeaderFooterInfo](../com.aspose.tasks/headerfooterinfo) | Represents header or footer data which is present in views and used for printing. |
 | [HorizontalAlignment](../com.aspose.tasks/horizontalalignment) | Specifies how an object or text is horizontally aligned relative to another object. |
+| [HorizontalStringAlignment](../com.aspose.tasks/horizontalstringalignment) | Specifies the alignment of a text string relative to its layout rectangle. |
 | [HourLabelDisplay](../com.aspose.tasks/hourlabeldisplay) | Specifies how the hour label displays. |
 | [HtmlImageType](../com.aspose.tasks/htmlimagetype) | Represents HTML image type. |
 | [HtmlSaveOptions](../com.aspose.tasks/htmlsaveoptions) | Allows to specify additional options when rendering project pages to HTML. |

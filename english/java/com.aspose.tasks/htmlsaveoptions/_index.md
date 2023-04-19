@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to HTML.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.tasks/htmlsaveoptions/
 ---
 
@@ -30,7 +30,7 @@ Allows to specify additional options when rendering project pages to HTML.
 | [deepClone()](#deepClone--) | \{@inheritDoc\} |
 | [getCssSavingCallback()](#getCssSavingCallback--) | Gets the callback that is called to create resource to store CSS. |
 | [getCssStylePrefix()](#getCssStylePrefix--) | Gets CSS style prefix. |
-| [getDefaultFontName()](#getDefaultFontName--) | Gets the default font for rendering. |
+| [getDefaultFontName()](#getDefaultFontName--) | Gets the default (or fallback) font for rendering. |
 | [getExportCss()](#getExportCss--) | Gets the way CSS are exported. |
 | [getExportFonts()](#getExportFonts--) | Gets the way fonts are exported. |
 | [getExportImages()](#getExportImages--) | Gets the way images are exported. |
@@ -47,7 +47,7 @@ Allows to specify additional options when rendering project pages to HTML.
 | [getUseProjectDefaultFont()](#getUseProjectDefaultFont--) | Gets a value indicating whether the default font must be used for rendering. |
 | [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.tasks.ICssSavingCallback-) | Sets the callback that is called to create resource to store CSS. |
 | [setCssStylePrefix(String value)](#setCssStylePrefix-java.lang.String-) | Sets CSS style prefix. |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font for rendering. |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default (or fallback) font for rendering. |
 | [setExportCss(int value)](#setExportCss-int-) | Sets the way CSS are exported. |
 | [setExportFonts(int value)](#setExportFonts-int-) | Sets the way fonts are exported. |
 | [setExportImages(int value)](#setExportImages-int-) | Sets the way images are exported. |
@@ -119,10 +119,10 @@ public final String getDefaultFontName()
 ```
 
 
-Gets the default font for rendering.
+Gets the default (or fallback) font for rendering.
 
 **Returns:**
-java.lang.String - the default font for rendering.
+java.lang.String - the default (or fallback) font for rendering.
 ### getExportCss() {#getExportCss--}
 ```
 public final int getExportCss()
@@ -271,6 +271,10 @@ public final boolean getUseProjectDefaultFont()
 
 Gets a value indicating whether the default font must be used for rendering.
 
+--------------------
+
+When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/htmlsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/htmlsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
+
 **Returns:**
 boolean - a value indicating whether the default font must be used for rendering.
 ### setCssSavingCallback(ICssSavingCallback value) {#setCssSavingCallback-com.aspose.tasks.ICssSavingCallback-}
@@ -305,12 +309,12 @@ public final void setDefaultFontName(String value)
 ```
 
 
-Sets the default font for rendering.
+Sets the default (or fallback) font for rendering.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the default font for rendering. |
+| value | java.lang.String | the default (or fallback) font for rendering. |
 
 ### setExportCss(int value) {#setExportCss-int-}
 ```
@@ -498,6 +502,10 @@ public final void setUseProjectDefaultFont(boolean value)
 
 
 Sets a value indicating whether the default font must be used for rendering.
+
+--------------------
+
+When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/htmlsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/htmlsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
 
 **Parameters:**
 | Parameter | Type | Description |

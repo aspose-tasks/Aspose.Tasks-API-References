@@ -27,7 +27,6 @@ Represents a group definition. A Group object is a member of the ResourceGroups 
 | [getIndex()](#getIndex--) | Gets the index of a [Group](../../com.aspose.tasks/group) object in the Groups containing object. |
 | [getMaintainHierarchy()](#getMaintainHierarchy--) | Gets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
 | [getName()](#getName--) | Gets a name of a Group object. |
-| [getParentProject()](#getParentProject--) | Gets the parent of the Group object. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
 | [getShowSummary()](#getShowSummary--) | Gets a value indicating whether summary rows are displayed for the group. |
 | [getUid()](#getUid--) | Gets a unique identifier of a group. |
@@ -84,16 +83,6 @@ Gets a name of a Group object.
 
 **Returns:**
 java.lang.String - a name of a Group object.
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets the parent of the Group object.
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - the parent of the Group object.
 ### getShowInMenu() {#getShowInMenu--}
 ```
 public final boolean getShowInMenu()

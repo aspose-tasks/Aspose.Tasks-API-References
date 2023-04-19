@@ -3,7 +3,7 @@ title: Rsc
 second_title: Aspose.Tasks for Java API Reference
 description: Represents supported properties of Resource object.
 type: docs
-weight: 251
+weight: 252
 url: /java/com.aspose.tasks/rsc/
 ---
 

@@ -3,7 +3,7 @@ title: MaskType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of a mask.
 type: docs
-weight: 139
+weight: 140
 url: /java/com.aspose.tasks/masktype/
 ---
 

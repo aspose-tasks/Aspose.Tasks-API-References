@@ -3,7 +3,7 @@ title: ViewColumn
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a column in a project view.
 type: docs
-weight: 318
+weight: 319
 url: /java/com.aspose.tasks/viewcolumn/
 ---
 
@@ -20,11 +20,11 @@ Represents a column in a project view.
 | --- | --- |
 | [getField()](#getField--) | Gets column field. |
 | [getName()](#getName--) | Gets the column name. |
-| [getStringAlignment()](#getStringAlignment--) | Gets alignment of the text (can be one of the values of the  StringAlignment ([getStringAlignment()](../../com.aspose.tasks/viewcolumn\#getStringAlignment--)/[setStringAlignment(int)](../../com.aspose.tasks/viewcolumn\#setStringAlignment-int-)) enumeration). |
+| [getStringAlignment()](#getStringAlignment--) | Gets alignment of the text (can be one of the values of the [HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment) enumeration). |
 | [getTextStyleModificationCallback()](#getTextStyleModificationCallback--) | Gets the callback which can be used to customize the appearance of the column's cells. |
 | [getWidth()](#getWidth--) | Gets the column width. |
 | [setField(int value)](#setField-int-) | Sets column field. |
-| [setStringAlignment(int value)](#setStringAlignment-int-) | Sets alignment of the text (can be one of the values of the  StringAlignment ([getStringAlignment()](../../com.aspose.tasks/viewcolumn\#getStringAlignment--)/[setStringAlignment(int)](../../com.aspose.tasks/viewcolumn\#setStringAlignment-int-)) enumeration). |
+| [setStringAlignment(int value)](#setStringAlignment-int-) | Sets alignment of the text (can be one of the values of the [HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment) enumeration). |
 | [setTextStyleModificationCallback(ITextStyleModificationCallback value)](#setTextStyleModificationCallback-com.aspose.tasks.ITextStyleModificationCallback-) | Sets the callback which can be used to customize the appearance of the column's cells. |
 ### getField() {#getField--}
 ```
@@ -52,10 +52,10 @@ public final int getStringAlignment()
 ```
 
 
-Gets alignment of the text (can be one of the values of the  StringAlignment ([getStringAlignment()](../../com.aspose.tasks/viewcolumn\#getStringAlignment--)/[setStringAlignment(int)](../../com.aspose.tasks/viewcolumn\#setStringAlignment-int-)) enumeration).
+Gets alignment of the text (can be one of the values of the [HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment) enumeration).
 
 **Returns:**
-int - alignment of the text (can be one of the values of the  StringAlignment ([getStringAlignment()](../../com.aspose.tasks/viewcolumn\#getStringAlignment--)/[setStringAlignment(int)](../../com.aspose.tasks/viewcolumn\#setStringAlignment-int-)) enumeration).
+int - alignment of the text (can be one of the values of the [HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment) enumeration).
 ### getTextStyleModificationCallback() {#getTextStyleModificationCallback--}
 ```
 public final ITextStyleModificationCallback getTextStyleModificationCallback()
@@ -95,12 +95,12 @@ public final void setStringAlignment(int value)
 ```
 
 
-Sets alignment of the text (can be one of the values of the  StringAlignment ([getStringAlignment()](../../com.aspose.tasks/viewcolumn\#getStringAlignment--)/[setStringAlignment(int)](../../com.aspose.tasks/viewcolumn\#setStringAlignment-int-)) enumeration).
+Sets alignment of the text (can be one of the values of the [HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment) enumeration).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | alignment of the text (can be one of the values of the  StringAlignment ([getStringAlignment()](../../com.aspose.tasks/viewcolumn\#getStringAlignment--)/[setStringAlignment(int)](../../com.aspose.tasks/viewcolumn\#setStringAlignment-int-)) enumeration). |
+| value | int | alignment of the text (can be one of the values of the [HorizontalStringAlignment](../../com.aspose.tasks/horizontalstringalignment) enumeration). |
 
 ### setTextStyleModificationCallback(ITextStyleModificationCallback value) {#setTextStyleModificationCallback-com.aspose.tasks.ITextStyleModificationCallback-}
 ```

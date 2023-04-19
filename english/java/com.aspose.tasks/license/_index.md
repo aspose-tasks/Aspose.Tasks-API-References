@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Tasks for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.tasks/license/
 ---
 

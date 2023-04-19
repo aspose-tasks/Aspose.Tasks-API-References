@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of a time unit.
 type: docs
-weight: 295
+weight: 296
 url: /java/com.aspose.tasks/timeunittype/
 ---
 

@@ -3,7 +3,7 @@ title: OleObject
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an OLE object which can be inserter into Gantt Chart View of an MPP file.
 type: docs
-weight: 152
+weight: 153
 url: /java/com.aspose.tasks/oleobject/
 ---
 

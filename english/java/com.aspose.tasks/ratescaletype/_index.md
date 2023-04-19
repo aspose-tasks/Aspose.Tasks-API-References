@@ -3,7 +3,7 @@ title: RateScaleType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the rate scale type.
 type: docs
-weight: 218
+weight: 219
 url: /java/com.aspose.tasks/ratescaletype/
 ---
 

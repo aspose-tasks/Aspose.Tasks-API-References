@@ -63,7 +63,6 @@ Calendars are used to define standard working and non-working times. Projects mu
 | [getFinishDateByStartAndWork(Date start, double work)](#getFinishDateByStartAndWork-java.util.Date-double-) | Calculates the date when the specified amount of work time will pass according to the calendar. |
 | [getName()](#getName--) | Gets the name of the calendar. |
 | [getNextWorkingDayStart(Date date)](#getNextWorkingDayStart-java.util.Date-) | Calculates next working day start from the date. |
-| [getParentProject()](#getParentProject--) | Gets parent project for this calendar. |
 | [getPreviousWorkingDayEnd(Date date)](#getPreviousWorkingDayEnd-java.util.Date-) | Calculates previous working date end from the specified date. |
 | [getStartDateFromFinishAndDuration(Date finish, Duration duration)](#getStartDateFromFinishAndDuration-java.util.Date-com.aspose.tasks.Duration-) | Returns StartDate based on specified FinishDate and Duration. |
 | [getStartDateFromFinishAndDuration(Date finish, double duration)](#getStartDateFromFinishAndDuration-java.util.Date-double-) | Returns StartDate based on specified FinishDate and Duration. |
@@ -185,16 +184,6 @@ Calculates next working day start from the date.
 
 **Returns:**
 java.util.Date - Next working day start java.util.Date.
-### getParentProject() {#getParentProject--}
-```
-public final Project getParentProject()
-```
-
-
-Gets parent project for this calendar.
-
-**Returns:**
-[Project](../../com.aspose.tasks/project) - parent project for this calendar.
 ### getPreviousWorkingDayEnd(Date date) {#getPreviousWorkingDayEnd-java.util.Date-}
 ```
 public final Date getPreviousWorkingDayEnd(Date date)
