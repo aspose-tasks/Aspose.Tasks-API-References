@@ -22,7 +22,7 @@ Shows how to get a working time of a calendar exception.
 var project = new Project(DataDir + "CalendarExceptions.mpp");
 
 var calendar = project.Calendars.ToList()[0];
-var exception = calendar.Exceptions.ToList()[0];
+var exception = calendar.Exceptions[0];
 
 Console.WriteLine("Calendar Name: " + calendar.Name);
 Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);

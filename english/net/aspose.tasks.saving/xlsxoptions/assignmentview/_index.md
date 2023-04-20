@@ -32,7 +32,7 @@ var rscCol = new ResourceViewColumn("Cost center", 100, delegate(Resource resour
 options.ResourceView.Columns.Add(rscCol);
 
 // Add desired assignment view columns
-var assnCol = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.Notes); });
+var assnCol = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 options.AssignmentView.Columns.Add(assnCol);
 
 // set encoding

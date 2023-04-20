@@ -45,12 +45,13 @@ Shows how to create a calendar with exception days.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
-var calendar = project.Calendars.GetByUid(3);
+var calendar = project.Calendars.GetByName("Standard");
 
 // Update the calendar information
 Calendar.MakeStandardCalendar(calendar);
 calendar.Name = "Test calendar";
 var exception = new CalendarException();
+exception.Name = "Exception 1";
 exception.FromDate = DateTime.Now;
 exception.ToDate = DateTime.Now.AddDays(2);
 exception.DayWorking = true;
@@ -61,6 +62,7 @@ exception.WorkingTimes.Add(new WorkingTime(20, 21));
 calendar.Exceptions.Add(exception);
 
 var exception2 = new CalendarException();
+exception.Name = "Exception 2";
 exception2.FromDate = DateTime.Now.AddDays(7);
 exception2.ToDate = exception2.FromDate;
 exception2.DayWorking = false;

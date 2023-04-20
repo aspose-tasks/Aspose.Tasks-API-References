@@ -62,6 +62,7 @@ Contains helper classes for rendering.
 | [GanttBarType](./ganttbartype) | Specifies the bar type. |
 | [GridlineType](./gridlinetype) | Type of gridline. |
 | [HorizontalAlignment](./horizontalalignment) | Specifies how an object or text is horizontally aligned relative to another object. |
+| [HorizontalStringAlignment](./horizontalstringalignment) | Specifies the alignment of a text string relative to its layout rectangle. |
 | [Interval](./interval) | Specifies recurring intervals to display progress lines at. |
 | [Legend](./legend) | Specifies the pages on which the legend appears. |
 | [LinePattern](./linepattern) | Line pattern. |

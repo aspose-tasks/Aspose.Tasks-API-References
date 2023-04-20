@@ -11,7 +11,7 @@ url: /net/aspose.tasks/tablefield/aligntitle/
 Gets or sets the alignment of the title in a table field.
 
 ```csharp
-public StringAlignment AlignTitle { get; set; }
+public HorizontalStringAlignment AlignTitle { get; set; }
 ```
 
 ### Examples
@@ -42,6 +42,7 @@ foreach (var field in table.TableFields)
 
 ### See Also
 
+* enum [HorizontalStringAlignment](../../../aspose.tasks.visualization/horizontalstringalignment)
 * class [TableField](../../tablefield)
 * namespace [Aspose.Tasks](../../tablefield)
 * assembly [Aspose.Tasks](../../../)

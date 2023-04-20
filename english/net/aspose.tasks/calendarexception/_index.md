@@ -79,7 +79,7 @@ calendar.Exceptions.Add(exception);
 var cal = project.Calendars.ToList()[0];
 if (cal.Exceptions.Count > 1)
 {
-    var excToRemove = cal.Exceptions.ToList()[0];
+    var excToRemove = cal.Exceptions[0];
     cal.Exceptions.Remove(excToRemove);
 }
 
@@ -95,7 +95,6 @@ foreach (var exc in cal.Exceptions)
     Console.WriteLine("Name: " + exc.Name);
     Console.WriteLine("From: " + exc.FromDate.ToShortDateString());
     Console.WriteLine("To: " + exc.ToDate.ToShortDateString());
-    Console.WriteLine("Parent Calendar Name: " + exc.ParentCalendar.Name);
 }
 ```
 

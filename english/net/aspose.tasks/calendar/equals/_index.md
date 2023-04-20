@@ -22,22 +22,6 @@ public override bool Equals(object obj)
 
 **True** if o is a Calendar that has the same Uid value as this instance; otherwise, **false**.
 
-### Examples
-
-Shows how to check calendar equality.
-
-```csharp
-var project = new Project(DataDir + "Project2.mpp");
-
-var calendar1 = project.Calendars.GetByUid(1);
-var calendar2 = project.Calendars.GetByUid(3);
-
-// the equality of calendars is checked against to calendar's UID.
-Console.WriteLine("Calendar 1 UID: " + calendar1.Uid);
-Console.WriteLine("Calendar 2 UID: " + calendar2.Uid);
-Console.WriteLine("Are calendars equal: " + calendar1.Equals(calendar2));
-```
-
 ### See Also
 
 * class [Calendar](../../calendar)

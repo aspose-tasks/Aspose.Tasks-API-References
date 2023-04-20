@@ -26,7 +26,7 @@ public class AssignmentViewColumn : ViewColumn
 | --- | --- |
 | override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field) { get; set; } | Column field. [`Field`](./field). |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name) { get; } | Gets the column name. |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Gets or sets alignment of the text (can be one of the values of the [`StringAlignment`](../viewcolumn/stringalignment) enumeration). |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment) { get; set; } | Gets or sets alignment of the text (can be one of the values of the [`HorizontalStringAlignment`](../horizontalstringalignment) enumeration). |
 | [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback) { get; set; } | Gets or sets the callback which can be used to customize the appearance of the column's cells. |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width) { get; } | Gets the column width. |
 
@@ -45,7 +45,7 @@ var project = new Project(DataDir + "CreateProject2.mpp");
 
 var options = new Spreadsheet2003SaveOptions();
 
-var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.Notes); });
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 options.AssignmentView.Columns.Add(column);
 
 foreach (var assignment in project.ResourceAssignments)

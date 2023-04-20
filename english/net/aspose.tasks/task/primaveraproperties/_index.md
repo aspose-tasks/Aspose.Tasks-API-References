@@ -38,6 +38,9 @@ foreach (Task task in project.EnumerateAllChildTasks())
         Console.WriteLine("Task ActivityId: {0}", task.PrimaveraProperties.ActivityId);
     }
 
+    Console.WriteLine("Activity Type: {0}", task.PrimaveraProperties.ActivityType);
+    Console.WriteLine("Duration Type: {0}", task.PrimaveraProperties.DurationType);
+    Console.WriteLine("Percent Complete Type: {0}", task.PrimaveraProperties.PercentCompleteType);
     Console.WriteLine("Original Duration: {0:N2}", task.Duration.TimeSpan.TotalHours);
     Console.WriteLine("At Complete Duration: {0:N2}", task.ActualDuration.TimeSpan.TotalHours + task.RemainingDuration.TimeSpan.TotalHours);
     Console.WriteLine("Duration % Complete: {0}", task.PrimaveraProperties.DurationPercentComplete);
@@ -52,6 +55,14 @@ foreach (Task task in project.EnumerateAllChildTasks())
         task.PrimaveraProperties.ActualNonLaborUnits,
         task.PrimaveraProperties.RemainingLaborUnits,
         task.PrimaveraProperties.RemainingNonLaborUnits);
+
+    Console.WriteLine("Actual costs:");
+    Console.WriteLine("{0}, {1}, {2}, {3}, Total: {4}",
+        task.PrimaveraProperties.ActualExpenseCost,
+        task.PrimaveraProperties.ActualLaborCost,
+        task.PrimaveraProperties.ActualMaterialCost,
+        task.PrimaveraProperties.ActualNonlaborCost,
+        task.PrimaveraProperties.ActualTotalCost);
 
     Console.WriteLine("Units % Complete: {0}", task.PrimaveraProperties.UnitsPercentComplete);
 }

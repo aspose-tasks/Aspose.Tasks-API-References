@@ -22,6 +22,16 @@ public Project LoadProject(int projectUid)
 
 Project with specified unique identifier from the specified multi project file. Null if project doesn't exist.
 
+### Examples
+
+Shows how to load a project from a Primavera XML file when project uid is known.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "PrimaveraProject.xml");
+var project = reader.LoadProject(3882);
+Console.WriteLine(project.Name);
+```
+
 ### See Also
 
 * class [Project](../../project)

@@ -3,7 +3,7 @@ title: TimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a single tier of the timescale on a Gantt Chart.
 type: docs
-weight: 3150
+weight: 3160
 url: /net/aspose.tasks.visualization/timescaletier/
 ---
 ## TimescaleTier class
@@ -25,7 +25,7 @@ public sealed class TimescaleTier
 
 | Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.tasks.visualization/timescaletier/alignment) { get; set; } | Gets or sets how to align labels within each time period of the tier (StringAlignment). |
+| [Alignment](../../aspose.tasks.visualization/timescaletier/alignment) { get; set; } | Gets or sets how to align labels within each time period of the tier ([`HorizontalStringAlignment`](../horizontalstringalignment)). |
 | [Count](../../aspose.tasks.visualization/timescaletier/count) { get; set; } | Gets or sets the time unit interval in which to show labels for the tier. The default value is 1. |
 | [DateTimeConverter](../../aspose.tasks.visualization/timescaletier/datetimeconverter) { get; set; } | Gets or sets a callback function for handling rendering date tick in this tier. |
 | [Label](../../aspose.tasks.visualization/timescaletier/label) { get; set; } | Gets or sets date label [`DateLabel`](../datelabel) for the timescale tier. |

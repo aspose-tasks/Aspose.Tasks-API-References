@@ -27,8 +27,8 @@ var project = new Project();
 
 var task = project.RootTask.Children.Add("Task");
 
-task.Set(Tsk.Hyperlink, "aspose.com");
-task.Set(Tsk.HyperlinkAddress, "products.aspose.com");
+task.Set(Tsk.Hyperlink, "Click here to visit our site");
+task.Set(Tsk.HyperlinkAddress, "https://products.aspose.com");
 task.Set(Tsk.HyperlinkSubAddress, "/total/net");
 
 Console.WriteLine("Hyperlink: " + task.Get(Tsk.Hyperlink));

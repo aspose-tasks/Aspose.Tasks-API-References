@@ -1,17 +1,17 @@
 ---
 title: Alignment
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets how to align labels within each time period of the tier StringAlignment.
+description: Gets or sets how to align labels within each time period of the tier HorizontalStringAlignmentaspose.tasks.visualization/horizontalstringalignment.
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/timescaletier/alignment/
 ---
 ## TimescaleTier.Alignment property
 
-Gets or sets how to align labels within each time period of the tier (StringAlignment).
+Gets or sets how to align labels within each time period of the tier ([`HorizontalStringAlignment`](../../horizontalstringalignment)).
 
 ```csharp
-public StringAlignment Alignment { get; set; }
+public HorizontalStringAlignment Alignment { get; set; }
 ```
 
 ### Examples
@@ -65,6 +65,7 @@ project.Save(OutDir + "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
 
 ### See Also
 
+* enum [HorizontalStringAlignment](../../horizontalstringalignment)
 * class [TimescaleTier](../../timescaletier)
 * namespace [Aspose.Tasks.Visualization](../../timescaletier)
 * assembly [Aspose.Tasks](../../../)

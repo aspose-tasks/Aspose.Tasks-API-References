@@ -27,7 +27,7 @@ Console.WriteLine("Calendar Name: " + calendar.Name);
 Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
 // remove the exception
-calendar.Exceptions.ToList()[0].Delete();
+calendar.Exceptions[0].Delete();
 
 Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 ```

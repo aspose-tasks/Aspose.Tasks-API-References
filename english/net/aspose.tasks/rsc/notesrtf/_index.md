@@ -16,6 +16,19 @@ public static readonly Key<string, RscKey> NotesRTF;
 
 ### Examples
 
+Shows how to read/write Rsc.Notes property.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.NotesText, "Resource Notes");
+
+Console.WriteLine("Notes text: " + resource.Get(Rsc.NotesText));
+Console.WriteLine("Notes RTF: " + resource.Get(Rsc.NotesRTF));
+```
+
 Shows how to read/write Rsc.NotesRTF property.
 
 ```csharp
