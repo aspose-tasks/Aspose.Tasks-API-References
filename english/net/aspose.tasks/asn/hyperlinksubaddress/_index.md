@@ -32,8 +32,8 @@ task.Set(Tsk.Duration, project.GetDuration(8));
 var resource = project.Resources.Add("Resource 1");
 
 var assignment = project.ResourceAssignments.Add(task, resource);
-assignment.Set(Asn.Hyperlink, "aspose.com");
-assignment.Set(Asn.HyperlinkAddress, "products.aspose.com");
+assignment.Set(Asn.Hyperlink, "Click to visit our site");
+assignment.Set(Asn.HyperlinkAddress, "https://products.aspose.com");
 assignment.Set(Asn.HyperlinkSubAddress, "/total/net");
 
 Console.WriteLine("Hyperlink: " + assignment.Get(Asn.Hyperlink));

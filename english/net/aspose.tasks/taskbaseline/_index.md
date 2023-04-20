@@ -29,7 +29,6 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 | [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
 | [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
 | [Duration](../../aspose.tasks/taskbaseline/duration) { get; set; } | Gets or sets the scheduled duration of the task when the baseline was saved. |
-| [DurationFormat](../../aspose.tasks/taskbaseline/durationformat) { get; set; } | Gets or sets the format for expressing the duration of the task baseline. |
 | [EstimatedDuration](../../aspose.tasks/taskbaseline/estimatedduration) { get; set; } | Gets or sets a value indicating whether the baseline duration of the task was estimated. |
 | [Finish](../../aspose.tasks/taskbaseline/finish) { get; set; } | Gets or sets the scheduled finish date of the task when the baseline was saved. |
 | [FixedCost](../../aspose.tasks/taskbaseline/fixedcost) { get; set; } | Gets or sets a fixed cost of the task when the baseline was saved. |

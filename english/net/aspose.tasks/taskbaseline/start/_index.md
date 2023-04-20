@@ -3,7 +3,7 @@ title: Start
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the scheduled start date of the task when the baseline was saved.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/taskbaseline/start/
 ---
 ## TaskBaseline.Start property

@@ -212,8 +212,6 @@ To load an existing document in any of the supported formats, pass a file name o
 
 Use one of the Save method overloads to save the project in any of the [`SaveFileFormat`](../../aspose.tasks.saving/savefileformat) formats: Primavera: P6 XML, PM XER; Microsoft Excel: XLSX, XML; Fixed Layout: PDF; Images: JPEG, PNG, BMP, TIFF, SVG; Text: TXT; Others: HTML.
 
-To print the project, use one of the [`Print`](./print) method overloads.
-
 The **Project** stores project-wide information such as [`Views`](./views), [`BuiltInProps`](./builtinprops), [`CustomProps`](./customprops), and [`ExtendedAttributes`](./extendedattributes). Most of these objects are accessible via the corresponding properties of the **Project** class.
 
 The **Project** is a root entity that contains entry points to manipulate other project entities, such as [`Task`](../task), [`Resource`](../resource), [`ResourceAssignment`](../resourceassignment), [`ExtendedAttribute`](../extendedattribute) and [`Calendar`](../calendar).

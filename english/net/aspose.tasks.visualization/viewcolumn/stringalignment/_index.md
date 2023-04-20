@@ -1,17 +1,17 @@
 ---
 title: StringAlignment
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets alignment of the text can be one of the values of the StringAlignmentaspose.tasks.visualization/viewcolumn/stringalignment enumeration.
+description: Gets or sets alignment of the text can be one of the values of the HorizontalStringAlignmentaspose.tasks.visualization/horizontalstringalignment enumeration.
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/viewcolumn/stringalignment/
 ---
 ## ViewColumn.StringAlignment property
 
-Gets or sets alignment of the text (can be one of the values of the `StringAlignment` enumeration).
+Gets or sets alignment of the text (can be one of the values of the [`HorizontalStringAlignment`](../../horizontalstringalignment) enumeration).
 
 ```csharp
-public StringAlignment StringAlignment { get; set; }
+public HorizontalStringAlignment StringAlignment { get; set; }
 ```
 
 ### Examples
@@ -48,6 +48,7 @@ project.Save(OutDir + "AlignCellContents_ResourceSheet_out.pdf", options);
 
 ### See Also
 
+* enum [HorizontalStringAlignment](../../horizontalstringalignment)
 * class [ViewColumn](../../viewcolumn)
 * namespace [Aspose.Tasks.Visualization](../../viewcolumn)
 * assembly [Aspose.Tasks](../../../)

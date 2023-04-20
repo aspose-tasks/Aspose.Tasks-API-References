@@ -1,14 +1,14 @@
 ---
 title: DefaultFontName
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets the default font for rendering.
+description: Gets or sets the default or fallback font for rendering.
 type: docs
 weight: 40
 url: /net/aspose.tasks.saving/htmlsaveoptions/defaultfontname/
 ---
 ## HtmlSaveOptions.DefaultFontName property
 
-Gets or sets the default font for rendering.
+Gets or sets the default (or fallback) font for rendering.
 
 ```csharp
 public string DefaultFontName { get; set; }

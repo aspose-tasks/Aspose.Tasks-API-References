@@ -11,7 +11,7 @@ url: /net/aspose.tasks/tablefield/aligndata/
 Gets or sets the alignment of data in a table field.
 
 ```csharp
-public StringAlignment AlignData { get; set; }
+public HorizontalStringAlignment AlignData { get; set; }
 ```
 
 ### Examples
@@ -42,6 +42,7 @@ foreach (var field in table.TableFields)
 
 ### See Also
 
+* enum [HorizontalStringAlignment](../../../aspose.tasks.visualization/horizontalstringalignment)
 * class [TableField](../../tablefield)
 * namespace [Aspose.Tasks](../../tablefield)
 * assembly [Aspose.Tasks](../../../)

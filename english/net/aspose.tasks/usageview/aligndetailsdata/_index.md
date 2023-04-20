@@ -11,7 +11,7 @@ url: /net/aspose.tasks/usageview/aligndetailsdata/
 Gets or sets details data alignment.
 
 ```csharp
-public StringAlignment AlignDetailsData { get; set; }
+public HorizontalStringAlignment AlignDetailsData { get; set; }
 ```
 
 ### Examples
@@ -42,6 +42,7 @@ project.Save(OutDir + "task usage2_out.pdf", SaveFileFormat.Pdf);
 
 ### See Also
 
+* enum [HorizontalStringAlignment](../../../aspose.tasks.visualization/horizontalstringalignment)
 * class [UsageView](../../usageview)
 * namespace [Aspose.Tasks](../../usageview)
 * assembly [Aspose.Tasks](../../../)

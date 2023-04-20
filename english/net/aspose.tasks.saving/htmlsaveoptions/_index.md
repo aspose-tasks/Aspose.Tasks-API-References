@@ -28,7 +28,7 @@ public class HtmlSaveOptions : SaveOptions
 | [CssSavingCallback](../../aspose.tasks.saving/htmlsaveoptions/csssavingcallback) { get; set; } | Gets or sets the callback that is called to create resource to store CSS. |
 | [CssStylePrefix](../../aspose.tasks.saving/htmlsaveoptions/cssstyleprefix) { get; set; } | Gets or sets CSS style prefix. |
 | [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize) { get; set; } | Gets or sets the custom page size in points (1 point = 1/72 of inch). |
-| [DefaultFontName](../../aspose.tasks.saving/htmlsaveoptions/defaultfontname) { get; set; } | Gets or sets the default font for rendering. |
+| [DefaultFontName](../../aspose.tasks.saving/htmlsaveoptions/defaultfontname) { get; set; } | Gets or sets the default (or fallback) font for rendering. |
 | [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime) { get; set; } | Gets or sets a value indicating whether non-working time should be drawn (Default value is TRUE). |
 | [EndDate](../../aspose.tasks.saving/saveoptions/enddate) { get; set; } | Gets or sets a date to finish rendering to. |
 | [ExportCss](../../aspose.tasks.saving/htmlsaveoptions/exportcss) { get; set; } | Gets or sets the way CSS are exported. |

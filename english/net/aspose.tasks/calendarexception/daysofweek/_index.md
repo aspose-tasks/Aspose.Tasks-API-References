@@ -31,13 +31,11 @@ exception.FromDate = new DateTime(2020, 4, 6);
 exception.ToDate = new DateTime(2020, 4, 12);
 exception.DaysOfWeek.Add(DayType.Friday);
 
-// check that aa friday is exceptional
+// check that friday is exceptional
 Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2020, 4, 10)));
 
 // add the exception to the calendar
 calendar.Exceptions.Add(exception);
-
-Console.WriteLine("Parent calendar name: " + exception.ParentCalendar.Name);
 ```
 
 ### See Also

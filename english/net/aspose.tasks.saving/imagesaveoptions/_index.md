@@ -26,7 +26,7 @@ public class ImageSaveOptions : SaveOptions
 | --- | --- |
 | [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles) { get; set; } | Gets or sets the list of the instances of the [`BarStyle`](../../aspose.tasks.visualization/barstyle) class that appear in project view. |
 | [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize) { get; set; } | Gets or sets the custom page size in points (1 point = 1/72 of inch). |
-| [DefaultFontName](../../aspose.tasks.saving/imagesaveoptions/defaultfontname) { get; set; } | Gets or sets the default font for rendering. |
+| [DefaultFontName](../../aspose.tasks.saving/imagesaveoptions/defaultfontname) { get; set; } | Gets or sets the default (or fallback) font for rendering. |
 | [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime) { get; set; } | Gets or sets a value indicating whether non-working time should be drawn (Default value is TRUE). |
 | [EndDate](../../aspose.tasks.saving/saveoptions/enddate) { get; set; } | Gets or sets a date to finish rendering to. |
 | [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent) { get; set; } | Gets or sets a value indicating whether row height should be increased to fit its content. |

@@ -14,6 +14,28 @@ Gets an object containing Primavera-specific properties for a project read from 
 public PrimaveraProjectProperties PrimaveraProperties { get; }
 ```
 
+### Examples
+
+Shows how to read a project from a Primavera file and examine project's Primavera-specific properties.
+
+```csharp
+var options = new PrimaveraReadOptions();
+options.ProjectUid = 4861;
+
+// Returns project with special Uid
+var project = new Project(DataDir + "ScheduleOptions.xer", options);
+
+// PrimaveraProperties can be null if project's schedule options have default values.
+if (project.PrimaveraProperties != null)
+{
+    Console.WriteLine("Project's schedule options:");
+    Console.WriteLine("Relationship Lag Calendar: " + project.PrimaveraProperties.RelationshipLagCalendar);
+    Console.WriteLine("Make Open Ended Activities Critical: " + project.PrimaveraProperties.MakeOpenEndedActivitiesCritical);
+    Console.WriteLine("Ignore Other Project Relationships: " + project.PrimaveraProperties.IgnoreOtherProjectRelationships);
+    Console.WriteLine("Use Expected Finish Dates: " + project.PrimaveraProperties.UseExpectedFinishDates);
+}
+```
+
 ### See Also
 
 * class [PrimaveraProjectProperties](../../primaveraprojectproperties)
