@@ -12,10 +12,6 @@ url: /python-net/aspose.tasks/tablefieldcollection/
 Contains a list of
 
 The TableFieldCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|parent_project|Gets the parent of the TableFields object. <br/>            Read-only|
 
 ### See Also
 

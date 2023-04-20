@@ -12,10 +12,6 @@ url: /python-net/aspose.tasks/calendarcollection/
 Represents a collection of
 
 The CalendarCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|parent_project|Gets a parent|
 ## Methods
 | Name | Description |
 | :- | :- |

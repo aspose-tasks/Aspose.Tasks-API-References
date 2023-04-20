@@ -53,6 +53,7 @@ Contains helper classes for rendering.
 |[GanttBarType](/tasks/python-net/aspose.tasks.visualization/ganttbartype/)|Specifies the bar type.|
 |[GridlineType](/tasks/python-net/aspose.tasks.visualization/gridlinetype/)|Type of gridline.|
 |[HorizontalAlignment](/tasks/python-net/aspose.tasks.visualization/horizontalalignment/)|Specifies how an object or text is horizontally aligned relative to another object.|
+|[HorizontalStringAlignment](/tasks/python-net/aspose.tasks.visualization/horizontalstringalignment/)|Specifies the alignment of a text string relative to its layout rectangle.|
 |[Interval](/tasks/python-net/aspose.tasks.visualization/interval/)|Specifies recurring intervals to display progress lines at.|
 |[Legend](/tasks/python-net/aspose.tasks.visualization/legend/)|Specifies the pages on which the legend appears.|
 |[LinePattern](/tasks/python-net/aspose.tasks.visualization/linepattern/)|Line pattern.|

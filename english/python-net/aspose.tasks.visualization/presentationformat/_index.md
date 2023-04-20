@@ -3,7 +3,7 @@ title: PresentationFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.tasks.visualization/presentationformat/
 ---
 

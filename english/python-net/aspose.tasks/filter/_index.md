@@ -25,7 +25,6 @@ The Filter type exposes the following members:
 |show_related_summary_rows|Gets or sets a value indicating whether related summary rows are displayed for the filter.|
 |index|Gets the index of a|
 |uid|Gets the unique identifier of a filter.|
-|parent_project|Gets the parent of the Filter object.|
 |criteria|Gets or sets the criteria that tasks or resources must meet to be displayed in MSP view.|
 ## Methods
 | Name | Description |

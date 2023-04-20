@@ -23,7 +23,6 @@ The Calendar type exposes the following members:
 |is_base_calendar|Gets a value indicating whether the calendar is a base calendar.|
 |base_calendar|Gets or sets the base calendar on which this calendar depends.<br/>            Only applicable if the calendar is not a base calendar.|
 |is_baseline_calendar|Gets or sets a value indicating whether the calendar is a baseline calendar.|
-|parent_project|Gets parent project for this calendar.|
 ## Methods
 | Name | Description |
 | :- | :- |
