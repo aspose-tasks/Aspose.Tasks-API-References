@@ -3,7 +3,7 @@ title: Company
 second_title: Aspose.Tasks for .NET API Reference
 description: The company where a project was created.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.tasks/prj/company/
 ---
 ## Prj.Company field

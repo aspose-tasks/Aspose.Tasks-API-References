@@ -3,7 +3,7 @@ title: LastPrinted
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of LastPrinted.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.tasks/project/lastprinted/
 ---
 ## Project.LastPrinted property

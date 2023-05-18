@@ -3,7 +3,7 @@ title: CriticalSlackLimit
 second_title: Aspose.Tasks for .NET API Reference
 description: The number of days to the end of a task when Microsoft Project marks that task as a critical task.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.tasks/prj/criticalslacklimit/
 ---
 ## Prj.CriticalSlackLimit field

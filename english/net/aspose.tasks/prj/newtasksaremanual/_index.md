@@ -3,7 +3,7 @@ title: NewTasksAreManual
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether new tasks created as manual.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.tasks/prj/newtasksaremanual/
 ---
 ## Prj.NewTasksAreManual field

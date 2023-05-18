@@ -3,7 +3,7 @@ title: DefaultFixedCostAccrual
 second_title: Aspose.Tasks for .NET API Reference
 description: The default type when fixed costs are accrued.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.tasks/prj/defaultfixedcostaccrual/
 ---
 ## Prj.DefaultFixedCostAccrual field

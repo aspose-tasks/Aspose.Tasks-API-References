@@ -12,10 +12,6 @@ url: /python-net/aspose.tasks/groupcollection/
 Contains a list of
 
 The GroupCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|parent_project|Gets the parent of the Group object.<br/>            Read-only|
 ## Methods
 | Name | Description |
 | :- | :- |

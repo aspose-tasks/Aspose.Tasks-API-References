@@ -3,7 +3,7 @@ title: DefaultTaskType
 second_title: Aspose.Tasks for .NET API Reference
 description: The default type of new tasks.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.tasks/prj/defaulttasktype/
 ---
 ## Prj.DefaultTaskType field

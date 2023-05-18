@@ -3,7 +3,7 @@ title: CurrencyCode
 second_title: Aspose.Tasks for .NET API Reference
 description: The three letter currency character code as defined in ISO 4217. Example of valid values is USD.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.tasks/prj/currencycode/
 ---
 ## Prj.CurrencyCode field

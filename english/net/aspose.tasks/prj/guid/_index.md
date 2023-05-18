@@ -3,7 +3,7 @@ title: Guid
 second_title: Aspose.Tasks for .NET API Reference
 description: The GUID of the project.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.tasks/prj/guid/
 ---
 ## Prj.Guid field

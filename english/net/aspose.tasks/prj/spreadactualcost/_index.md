@@ -3,7 +3,7 @@ title: SpreadActualCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether actual costs are spread to the status date.
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.tasks/prj/spreadactualcost/
 ---
 ## Prj.SpreadActualCost field

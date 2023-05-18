@@ -3,7 +3,7 @@ title: ExtendedCreationDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Date used for calculation and reporting.
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.tasks/prj/extendedcreationdate/
 ---
 ## Prj.ExtendedCreationDate field

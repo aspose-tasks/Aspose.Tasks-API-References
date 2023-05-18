@@ -3,7 +3,7 @@ title: GetWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets Durationaspose.tasks/duration object with the specified Double value and default work format.
 type: docs
-weight: 1110
+weight: 1120
 url: /net/aspose.tasks/project/getwork/
 ---
 ## Project.GetWork method

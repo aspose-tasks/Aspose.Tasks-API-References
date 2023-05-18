@@ -3,7 +3,7 @@ title: GetProjectFileInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: Read project file info from the file.
 type: docs
-weight: 1270
+weight: 1280
 url: /net/aspose.tasks/project/getprojectfileinfo/
 ---
 ## GetProjectFileInfo(string) {#getprojectfileinfo_1}

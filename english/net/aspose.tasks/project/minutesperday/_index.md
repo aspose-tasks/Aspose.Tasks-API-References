@@ -3,7 +3,7 @@ title: MinutesPerDay
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of MinutesPerDay.
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.tasks/project/minutesperday/
 ---
 ## Project.MinutesPerDay property

@@ -3,7 +3,7 @@ title: UpdateManuallyScheduledTasksWhenEditingLinks
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether UpdateManuallyScheduledTasksWhenEditingLinks is set or not.
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.tasks/project/updatemanuallyscheduledtaskswheneditinglinks/
 ---
 ## Project.UpdateManuallyScheduledTasksWhenEditingLinks property

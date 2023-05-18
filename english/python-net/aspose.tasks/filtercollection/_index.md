@@ -12,10 +12,6 @@ url: /python-net/aspose.tasks/filtercollection/
 Contains a list of
 
 The FilterCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|parent_project|Gets the parent of the Filters object.<br/>            Read-only|
 ## Methods
 | Name | Description |
 | :- | :- |

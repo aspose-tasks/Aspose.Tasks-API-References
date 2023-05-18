@@ -3,7 +3,7 @@ title: CreationDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CreationDate.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.tasks/project/creationdate/
 ---
 ## Project.CreationDate property

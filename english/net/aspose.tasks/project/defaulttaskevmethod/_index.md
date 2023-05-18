@@ -3,7 +3,7 @@ title: DefaultTaskEVMethod
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DefaultTaskEVMethod.
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.tasks/project/defaulttaskevmethod/
 ---
 ## Project.DefaultTaskEVMethod property

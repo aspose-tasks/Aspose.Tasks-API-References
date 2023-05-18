@@ -97,8 +97,9 @@ public enum PrjKey
 | DefaultCalendarGuid | `76` | Default calendar guid. |
 | DefaultCalendarUid | `77` | Default calendar uid. |
 | Guid | `78` | Represents the guid of a project. |
-| CustomDateFormat | `79` | Represents user-defined date format. |
-| TemplateFullPath | `80` | Represents the Template (Project) full file name. |
+| AutoCalculateAssignmentCosts | `79` | Determines whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
+| CustomDateFormat | `80` | Represents user-defined date format. |
+| TemplateFullPath | `81` | Represents the Template (Project) full file name. |
 
 ### Examples
 

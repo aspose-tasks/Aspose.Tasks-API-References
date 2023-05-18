@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Tasks for .NET API Reference
 description: The name of the project.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.tasks/prj/name/
 ---
 ## Prj.Name field

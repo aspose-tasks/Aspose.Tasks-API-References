@@ -3,7 +3,7 @@ title: MicrosoftProjectServerURL
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether MicrosoftProjectServerURL is set or not.
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.tasks/project/microsoftprojectserverurl/
 ---
 ## Project.MicrosoftProjectServerURL property

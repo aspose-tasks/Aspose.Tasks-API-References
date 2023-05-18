@@ -3,7 +3,7 @@ title: Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: The unique Id of a project.
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.tasks/prj/uid/
 ---
 ## Prj.Uid field

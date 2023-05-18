@@ -3,7 +3,7 @@ title: CustomDateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Project view custom date format. Used to format dates when DateFormataspose.tasks/prj/dateformat property is set to Custom.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.tasks/prj/customdateformat/
 ---
 ## Prj.CustomDateFormat field

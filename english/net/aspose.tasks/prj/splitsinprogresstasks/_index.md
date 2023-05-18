@@ -3,7 +3,7 @@ title: SplitsInProgressTasks
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether inprogress tasks can be split.
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.tasks/prj/splitsinprogresstasks/
 ---
 ## Prj.SplitsInProgressTasks field

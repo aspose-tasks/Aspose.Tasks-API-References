@@ -3,7 +3,7 @@ title: NewTasksEffortDriven
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether new tasks are effort driven.
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.tasks/prj/newtaskseffortdriven/
 ---
 ## Prj.NewTasksEffortDriven field

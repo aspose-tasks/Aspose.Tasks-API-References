@@ -69,7 +69,7 @@ private class MyTextStyleCallback : ITextStyleModificationCallback
         if (args.Task.Get(Tsk.Uid) % 2 == 0)
         {
             args.CellTextStyle.BackgroundColor = 
-                args.Column.StringAlignment == StringAlignment.Center 
+                args.Column.StringAlignment == HorizontalStringAlignment.Center 
                 ? Color.Cyan : Color.Red;
             args.CellTextStyle.BackgroundPattern = BackgroundPattern.SolidFill;
         }

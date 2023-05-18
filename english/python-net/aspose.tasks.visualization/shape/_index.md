@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.tasks.visualization/shape/
 ---
 

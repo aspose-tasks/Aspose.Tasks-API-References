@@ -3,7 +3,7 @@ title: WorkFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: The format used to show the duration of the task.
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.tasks/prj/workformat/
 ---
 ## Prj.WorkFormat field

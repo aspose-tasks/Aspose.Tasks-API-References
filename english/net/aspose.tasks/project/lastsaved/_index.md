@@ -3,7 +3,7 @@ title: LastSaved
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of LastSaved.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.tasks/project/lastsaved/
 ---
 ## Project.LastSaved property
