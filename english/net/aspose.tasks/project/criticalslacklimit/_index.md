@@ -3,7 +3,7 @@ title: CriticalSlackLimit
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CriticalSlackLimit.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.tasks/project/criticalslacklimit/
 ---
 ## Project.CriticalSlackLimit property

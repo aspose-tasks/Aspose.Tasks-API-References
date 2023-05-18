@@ -3,7 +3,7 @@ title: CurrencySymbol
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CurrencySymbol.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.tasks/project/currencysymbol/
 ---
 ## Project.CurrencySymbol property

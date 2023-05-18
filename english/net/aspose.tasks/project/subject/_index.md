@@ -3,7 +3,7 @@ title: Subject
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Subject.
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.tasks/project/subject/
 ---
 ## Project.Subject property

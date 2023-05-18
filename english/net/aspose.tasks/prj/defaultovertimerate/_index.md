@@ -3,7 +3,7 @@ title: DefaultOvertimeRate
 second_title: Aspose.Tasks for .NET API Reference
 description: The default overtime rate for new resources.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.tasks/prj/defaultovertimerate/
 ---
 ## Prj.DefaultOvertimeRate field

@@ -3,7 +3,7 @@ title: Tables
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a list of Tableaspose.tasks/table objects.
 type: docs
-weight: 880
+weight: 890
 url: /net/aspose.tasks/project/tables/
 ---
 ## Project.Tables property
@@ -35,8 +35,8 @@ var project = new Project(DataDir + "Project5.mpp");
         Field = Field.TaskText1,
         Width = 20,
         Title = "Custom attribute",
-        AlignTitle = StringAlignment.Center,
-        AlignData = StringAlignment.Center
+        AlignTitle = HorizontalStringAlignment.Center,
+        AlignData = HorizontalStringAlignment.Center
     };
 
     var table = project.Tables.ToList()[0];

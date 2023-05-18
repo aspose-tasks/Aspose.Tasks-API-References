@@ -22,7 +22,6 @@ The Group type exposes the following members:
 |name|Gets or sets a name of a Group object.|
 |index|Gets the index of a|
 |uid|Gets a unique identifier of a group.|
-|parent_project|Gets the parent of the Group object.|
 |show_summary|Gets or sets a value indicating whether summary rows are displayed for the group.|
 |maintain_hierarchy|Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group.|
 |show_in_menu|Gets or sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon.|

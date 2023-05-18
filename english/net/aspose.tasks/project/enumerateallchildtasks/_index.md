@@ -3,7 +3,7 @@ title: EnumerateAllChildTasks
 second_title: Aspose.Tasks for .NET API Reference
 description: Recursively enumerates all projects tasks including root task.
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.tasks/project/enumerateallchildtasks/
 ---
 ## Project.EnumerateAllChildTasks method

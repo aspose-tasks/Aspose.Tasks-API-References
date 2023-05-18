@@ -12,10 +12,6 @@ url: /python-net/aspose.tasks/tablecollection/
 Contains a list of
 
 The TableCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|parent_project|Gets the parent of the Table object. <br/>            Read-only|
 ## Methods
 | Name | Description |
 | :- | :- |

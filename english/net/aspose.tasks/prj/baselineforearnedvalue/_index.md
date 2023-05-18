@@ -3,7 +3,7 @@ title: BaselineForEarnedValue
 second_title: Aspose.Tasks for .NET API Reference
 description: The specific baseline used to calculate Variance values.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks/prj/baselineforearnedvalue/
 ---
 ## Prj.BaselineForEarnedValue field

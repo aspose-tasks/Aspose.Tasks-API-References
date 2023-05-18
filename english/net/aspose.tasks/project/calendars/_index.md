@@ -3,7 +3,7 @@ title: Calendars
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets CalendarCollectionaspose.tasks/calendarcollection object of this Project instance.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.tasks/project/calendars/
 ---
 ## Project.Calendars property

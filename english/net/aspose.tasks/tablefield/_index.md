@@ -47,7 +47,7 @@ var view = (GanttChartView) project.DefaultView;
 
 TableField newColumn = new TableField()
 {
-    AlignData = StringAlignment.Center,
+    AlignData = HorizontalStringAlignment.Center,
     Title = "My new column",
     Width = 30,
     Field = Field.TaskActualDuration

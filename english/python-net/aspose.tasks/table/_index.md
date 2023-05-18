@@ -24,7 +24,6 @@ The Table type exposes the following members:
 |table_fields|Gets a TableFields collection representing the fields in the table.|
 |table_type|Gets the table type for the specified table. Read-only|
 |uid|Gets the unique identifier of a table.|
-|parent_project|Gets the parent of the Table object. <br/>            Read-only|
 |index|Gets the index of a Table object in the Tables containing object.|
 |row_height|Gets or sets the row height in a table, where the row height is the number of lines of text.|
 |date_format|Gets or sets the date format of the table.|

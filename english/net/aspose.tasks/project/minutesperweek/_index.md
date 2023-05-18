@@ -3,7 +3,7 @@ title: MinutesPerWeek
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of MinutesPerWeek.
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.tasks/project/minutesperweek/
 ---
 ## Project.MinutesPerWeek property

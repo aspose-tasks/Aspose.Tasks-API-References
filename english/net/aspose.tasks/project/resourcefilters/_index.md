@@ -3,7 +3,7 @@ title: ResourceFilters
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets all the resourcebased filter definitions. ResourceFilters is a collection of Filteraspose.tasks/filter objects.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.tasks/project/resourcefilters/
 ---
 ## Project.ResourceFilters property

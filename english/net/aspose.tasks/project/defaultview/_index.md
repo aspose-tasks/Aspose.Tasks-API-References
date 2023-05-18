@@ -3,7 +3,7 @@ title: DefaultView
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets default view of the project.
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.tasks/project/defaultview/
 ---
 ## Project.DefaultView property
@@ -27,7 +27,7 @@ UsageView view = (TaskUsageView)project.DefaultView;
 // Details header column will not be displayed
 view.DisplayDetailsHeaderColumn = false;
 view.RepeatDetailsHeaderOnAllRows = false;
-view.AlignDetailsData = StringAlignment.Near;
+view.AlignDetailsData = HorizontalStringAlignment.Near;
 project.Save(OutDir + "task usage1_out.pdf", SaveFileFormat.Pdf);
 
 // Display details header column
@@ -35,7 +35,7 @@ view.DisplayDetailsHeaderColumn = true;
 
 // Repeat details header on all assignments rows
 view.RepeatDetailsHeaderOnAllRows = true;
-view.AlignDetailsData = StringAlignment.Far;
+view.AlignDetailsData = HorizontalStringAlignment.Far;
 project.Save(OutDir + "task usage2_out.pdf", SaveFileFormat.Pdf);
 ```
 
@@ -52,7 +52,7 @@ var view = (GanttChartView) project.DefaultView;
 
 TableField newColumn = new TableField()
 {
-    AlignData = StringAlignment.Center,
+    AlignData = HorizontalStringAlignment.Center,
     Title = "My new column",
     Width = 30,
     Field = Field.TaskActualDuration

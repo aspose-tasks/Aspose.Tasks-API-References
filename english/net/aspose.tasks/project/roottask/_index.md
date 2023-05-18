@@ -3,7 +3,7 @@ title: RootTask
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the root of the tree of tasks.
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.tasks/project/roottask/
 ---
 ## Project.RootTask property

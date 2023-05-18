@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Tasks for .NET API Reference
 description: The title of a project.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.tasks/prj/title/
 ---
 ## Prj.Title field

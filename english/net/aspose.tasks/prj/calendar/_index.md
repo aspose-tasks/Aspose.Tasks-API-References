@@ -3,7 +3,7 @@ title: Calendar
 second_title: Aspose.Tasks for .NET API Reference
 description: The project calendar.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks/prj/calendar/
 ---
 ## Prj.Calendar field

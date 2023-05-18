@@ -3,7 +3,7 @@ title: HonorConstraints
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether tasks honor their constraint dates.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.tasks/prj/honorconstraints/
 ---
 ## Prj.HonorConstraints field

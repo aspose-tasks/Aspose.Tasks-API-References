@@ -3,7 +3,7 @@ title: DaysPerMonth
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DaysPerMonth.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.tasks/project/dayspermonth/
 ---
 ## Project.DaysPerMonth property

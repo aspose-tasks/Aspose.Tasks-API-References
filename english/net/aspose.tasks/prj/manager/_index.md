@@ -3,7 +3,7 @@ title: Manager
 second_title: Aspose.Tasks for .NET API Reference
 description: The manager of a project.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.tasks/prj/manager/
 ---
 ## Prj.Manager field

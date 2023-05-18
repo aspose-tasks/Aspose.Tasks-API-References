@@ -3,7 +3,7 @@ title: Category
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Category.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.tasks/project/category/
 ---
 ## Project.Category property

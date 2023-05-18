@@ -3,7 +3,7 @@ title: LastAuthor
 second_title: Aspose.Tasks for .NET API Reference
 description: Projects last author.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.tasks/prj/lastauthor/
 ---
 ## Prj.LastAuthor field

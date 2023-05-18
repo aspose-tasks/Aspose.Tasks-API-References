@@ -3,7 +3,7 @@ title: HyperlinkBase
 second_title: Aspose.Tasks for .NET API Reference
 description: Projects hyperlink base.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.tasks/prj/hyperlinkbase/
 ---
 ## Prj.HyperlinkBase field
