@@ -62,6 +62,7 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [getAreEditableActualCosts()](#getAreEditableActualCosts--) | Gets a value indicating whether AreEditableActualCosts is set or not. |
 | [getAuthor()](#getAuthor--) | Gets a value of Author. |
 | [getAutoAddNewResourcesAndTasks()](#getAutoAddNewResourcesAndTasks--) | Gets a value indicating whether AutoAddNewResourcesAndTasks is set or not. |
+| [getAutoCalculateAssignmentCosts()](#getAutoCalculateAssignmentCosts--) | Gets whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
 | [getAutolink()](#getAutolink--) | Gets a value indicating whether Autolink is set or not. |
 | [getBaselineForEarnedValue()](#getBaselineForEarnedValue--) | Gets a value of BaselineForEarnedValue. |
 | [getBaselineSaveTime(int baselineNumber)](#getBaselineSaveTime-int-) | Returns the baseline save time. |
@@ -211,6 +212,7 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [setAreEditableActualCosts(NullableBool value)](#setAreEditableActualCosts-com.aspose.tasks.NullableBool-) | Sets a value indicating whether AreEditableActualCosts is set or not. |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets a value of Author. |
 | [setAutoAddNewResourcesAndTasks(NullableBool value)](#setAutoAddNewResourcesAndTasks-com.aspose.tasks.NullableBool-) | Sets a value indicating whether AutoAddNewResourcesAndTasks is set or not. |
+| [setAutoCalculateAssignmentCosts(boolean value)](#setAutoCalculateAssignmentCosts-boolean-) | Sets whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
 | [setAutolink(NullableBool value)](#setAutolink-com.aspose.tasks.NullableBool-) | Sets a value indicating whether Autolink is set or not. |
 | [setBaseline(int baselineType)](#setBaseline-int-) | Saves baseline fields to the specified baseline for the entire project. |
 | [setBaseline(int baselineType, Iterable&lt;Task&gt; taskCollection)](#setBaseline-int-java.lang.Iterable-com.aspose.tasks.Task--) | Saves baseline fields to the specified baseline for the selected tasks. |
@@ -579,6 +581,16 @@ Gets a value indicating whether AutoAddNewResourcesAndTasks is set or not.
 
 **Returns:**
 [NullableBool](../../com.aspose.tasks/nullablebool) - a value indicating whether AutoAddNewResourcesAndTasks is set or not.
+### getAutoCalculateAssignmentCosts() {#getAutoCalculateAssignmentCosts--}
+```
+public final boolean getAutoCalculateAssignmentCosts()
+```
+
+
+Gets whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates.
+
+**Returns:**
+boolean - whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates.
 ### getAutolink() {#getAutolink--}
 ```
 public final NullableBool getAutolink()
@@ -2282,6 +2294,19 @@ Sets a value indicating whether AutoAddNewResourcesAndTasks is set or not.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [NullableBool](../../com.aspose.tasks/nullablebool) | a value indicating whether AutoAddNewResourcesAndTasks is set or not. |
+
+### setAutoCalculateAssignmentCosts(boolean value) {#setAutoCalculateAssignmentCosts-boolean-}
+```
+public final void setAutoCalculateAssignmentCosts(boolean value)
+```
+
+
+Sets whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
 
 ### setAutolink(NullableBool value) {#setAutolink-com.aspose.tasks.NullableBool-}
 ```

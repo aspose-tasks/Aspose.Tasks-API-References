@@ -23,6 +23,7 @@ Represents a list of supported project fields.
 | [AreEditableActualCosts](#AreEditableActualCosts) | Represents the AreEditableActualCosts (Project) field. |
 | [Author](#Author) | Represents the Author (Project) field. |
 | [AutoAddNewResourcesAndTasks](#AutoAddNewResourcesAndTasks) | Represents the AutoAddNewResourcesAndTasks (Project) field. |
+| [AutoCalculateAssignmentCosts](#AutoCalculateAssignmentCosts) | Determines whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
 | [Autolink](#Autolink) | Represents the Autolink (Project) field. |
 | [BaselineForEarnedValue](#BaselineForEarnedValue) | Represents the BaselineForEarnedValue (Project) field. |
 | [Calendar](#Calendar) | Represents the Calendar (Project) field. |
@@ -138,6 +139,14 @@ public static final int AutoAddNewResourcesAndTasks
 
 
 Represents the AutoAddNewResourcesAndTasks (Project) field.
+
+### AutoCalculateAssignmentCosts {#AutoCalculateAssignmentCosts}
+```
+public static final int AutoCalculateAssignmentCosts
+```
+
+
+Determines whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates.
 
 ### Autolink {#Autolink}
 ```
