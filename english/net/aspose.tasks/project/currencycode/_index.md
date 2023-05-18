@@ -3,7 +3,7 @@ title: CurrencyCode
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CurrencyCode.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.tasks/project/currencycode/
 ---
 ## Project.CurrencyCode property

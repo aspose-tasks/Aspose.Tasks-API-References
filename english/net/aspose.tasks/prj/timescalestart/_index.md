@@ -3,7 +3,7 @@ title: TimescaleStart
 second_title: Aspose.Tasks for .NET API Reference
 description: The date that the timescale in the view starts.
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.tasks/prj/timescalestart/
 ---
 ## Prj.TimescaleStart field

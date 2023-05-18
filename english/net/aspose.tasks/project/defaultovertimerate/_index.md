@@ -3,7 +3,7 @@ title: DefaultOvertimeRate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DefaultOvertimeRate.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.tasks/project/defaultovertimerate/
 ---
 ## Project.DefaultOvertimeRate property

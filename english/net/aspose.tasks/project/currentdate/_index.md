@@ -3,7 +3,7 @@ title: CurrentDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CurrentDate.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.tasks/project/currentdate/
 ---
 ## Project.CurrentDate property

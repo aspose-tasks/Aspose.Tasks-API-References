@@ -34,8 +34,8 @@ var field = new TableField();
 field.Field = Field.TaskText1;
 field.Width = 20;
 field.Title = "Custom attribute";
-field.AlignTitle = StringAlignment.Center;
-field.AlignData = StringAlignment.Center;
+field.AlignTitle = HorizontalStringAlignment.Center;
+field.AlignData = HorizontalStringAlignment.Center;
 
 var table = project.Tables.ToList()[0];
 table.TableFields.Insert(3, field);

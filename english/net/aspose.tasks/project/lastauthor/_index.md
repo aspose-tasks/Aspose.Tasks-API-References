@@ -3,7 +3,7 @@ title: LastAuthor
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of LastAuthor.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.tasks/project/lastauthor/
 ---
 ## Project.LastAuthor property

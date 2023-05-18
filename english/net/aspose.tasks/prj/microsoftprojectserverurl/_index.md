@@ -3,7 +3,7 @@ title: MicrosoftProjectServerURL
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a project was created by a Project Server user as opposed to an NT user.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.tasks/prj/microsoftprojectserverurl/
 ---
 ## Prj.MicrosoftProjectServerURL field

@@ -3,7 +3,7 @@ title: Manager
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Manager.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.tasks/project/manager/
 ---
 ## Project.Manager property

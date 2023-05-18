@@ -3,7 +3,7 @@ title: MultipleCriticalPaths
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether multiple critical paths are calculated.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.tasks/prj/multiplecriticalpaths/
 ---
 ## Prj.MultipleCriticalPaths field

@@ -3,7 +3,7 @@ title: DateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DateFormat.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.tasks/project/dateformat/
 ---
 ## Project.DateFormat property

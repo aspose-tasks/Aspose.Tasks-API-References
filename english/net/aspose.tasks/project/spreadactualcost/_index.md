@@ -3,7 +3,7 @@ title: SpreadActualCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether SpreadActualCost is set or not.
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.tasks/project/spreadactualcost/
 ---
 ## Project.SpreadActualCost property

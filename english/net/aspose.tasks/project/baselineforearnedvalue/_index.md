@@ -3,7 +3,7 @@ title: BaselineForEarnedValue
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of BaselineForEarnedValue.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks/project/baselineforearnedvalue/
 ---
 ## Project.BaselineForEarnedValue property

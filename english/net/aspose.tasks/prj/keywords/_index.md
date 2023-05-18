@@ -3,7 +3,7 @@ title: Keywords
 second_title: Aspose.Tasks for .NET API Reference
 description: Projects keywords.
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.tasks/prj/keywords/
 ---
 ## Prj.Keywords field

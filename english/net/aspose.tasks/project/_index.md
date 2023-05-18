@@ -41,6 +41,7 @@ public class Project
 | [AreEditableActualCosts](../../aspose.tasks/project/areeditableactualcosts) { get; set; } | Gets or sets a value indicating whether AreEditableActualCosts is set or not. |
 | [Author](../../aspose.tasks/project/author) { get; set; } | Gets or sets a value of Author. |
 | [AutoAddNewResourcesAndTasks](../../aspose.tasks/project/autoaddnewresourcesandtasks) { get; set; } | Gets or sets a value indicating whether AutoAddNewResourcesAndTasks is set or not. |
+| [AutoCalculateAssignmentCosts](../../aspose.tasks/project/autocalculateassignmentcosts) { get; set; } | Gets or sets whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
 | [Autolink](../../aspose.tasks/project/autolink) { get; set; } | Gets or sets a value indicating whether Autolink is set or not. |
 | [BaselineForEarnedValue](../../aspose.tasks/project/baselineforearnedvalue) { get; set; } | Gets or sets a value of BaselineForEarnedValue. |
 | [BuiltInProps](../../aspose.tasks/project/builtinprops) { get; } | Gets project's built-in properties collection. |

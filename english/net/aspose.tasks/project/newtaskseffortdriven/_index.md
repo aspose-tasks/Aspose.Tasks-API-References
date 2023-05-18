@@ -3,7 +3,7 @@ title: NewTasksEffortDriven
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether NewTasksEffortDriven is set or not.
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.tasks/project/newtaskseffortdriven/
 ---
 ## Project.NewTasksEffortDriven property

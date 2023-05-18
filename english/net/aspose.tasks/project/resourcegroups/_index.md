@@ -3,7 +3,7 @@ title: ResourceGroups
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets all of the resourcebased group definitions. ResourceGroups is a collection of Groupaspose.tasks/group objects.
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.tasks/project/resourcegroups/
 ---
 ## Project.ResourceGroups property

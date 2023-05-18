@@ -23,6 +23,7 @@ public static class Prj
 | static readonly [AreEditableActualCosts](../../aspose.tasks/prj/areeditableactualcosts) | Determines whether actual costs are editable. |
 | static readonly [Author](../../aspose.tasks/prj/author) | The author of a project. |
 | static readonly [AutoAddNewResourcesAndTasks](../../aspose.tasks/prj/autoaddnewresourcesandtasks) | Determines whether new resources or tasks automatically added to a resource or task pool. |
+| static readonly [AutoCalculateAssignmentCosts](../../aspose.tasks/prj/autocalculateassignmentcosts) | Determines whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
 | static readonly [Autolink](../../aspose.tasks/prj/autolink) | Determines whether inserted or moved tasks are auto linked. |
 | static readonly [BaselineForEarnedValue](../../aspose.tasks/prj/baselineforearnedvalue) | The specific baseline used to calculate Variance values. |
 | static readonly [Calendar](../../aspose.tasks/prj/calendar) | The project calendar. |

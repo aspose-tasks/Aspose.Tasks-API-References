@@ -3,7 +3,7 @@ title: MinutesPerWeek
 second_title: Aspose.Tasks for .NET API Reference
 description: The number of minutes per week.
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.tasks/prj/minutesperweek/
 ---
 ## Prj.MinutesPerWeek field

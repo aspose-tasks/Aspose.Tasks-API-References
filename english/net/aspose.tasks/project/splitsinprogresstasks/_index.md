@@ -3,7 +3,7 @@ title: SplitsInProgressTasks
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether SplitsInProgressTasks is set or not.
 type: docs
-weight: 820
+weight: 830
 url: /net/aspose.tasks/project/splitsinprogresstasks/
 ---
 ## Project.SplitsInProgressTasks property

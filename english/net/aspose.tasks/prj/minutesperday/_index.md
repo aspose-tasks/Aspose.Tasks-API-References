@@ -3,7 +3,7 @@ title: MinutesPerDay
 second_title: Aspose.Tasks for .NET API Reference
 description: The number of minutes per day.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.tasks/prj/minutesperday/
 ---
 ## Prj.MinutesPerDay field

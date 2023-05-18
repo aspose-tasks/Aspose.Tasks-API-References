@@ -3,7 +3,7 @@ title: Company
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Company.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.tasks/project/company/
 ---
 ## Project.Company property

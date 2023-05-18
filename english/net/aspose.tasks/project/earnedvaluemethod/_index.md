@@ -3,7 +3,7 @@ title: EarnedValueMethod
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of EarnedValueMethod.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.tasks/project/earnedvaluemethod/
 ---
 ## Project.EarnedValueMethod property

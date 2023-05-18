@@ -3,7 +3,7 @@ title: CurrencySymbol
 second_title: Aspose.Tasks for .NET API Reference
 description: The currency symbol used in a project.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.tasks/prj/currencysymbol/
 ---
 ## Prj.CurrencySymbol field

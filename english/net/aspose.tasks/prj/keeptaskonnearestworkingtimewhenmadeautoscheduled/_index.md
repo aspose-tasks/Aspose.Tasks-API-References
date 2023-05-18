@@ -3,7 +3,7 @@ title: KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether manual tasks must be kept on nearest working time when made as auto scheduled.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.tasks/prj/keeptaskonnearestworkingtimewhenmadeautoscheduled/
 ---
 ## Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled field

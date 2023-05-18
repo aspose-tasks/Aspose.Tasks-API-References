@@ -3,7 +3,7 @@ title: ExtendedCreationDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ExtendedCreationDate.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.tasks/project/extendedcreationdate/
 ---
 ## Project.ExtendedCreationDate property

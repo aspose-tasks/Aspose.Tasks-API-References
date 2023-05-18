@@ -61,7 +61,7 @@ UsageView view = (TaskUsageView)project.DefaultView;
 view.DisplayDetailsHeaderColumn = false;
 view.RepeatDetailsHeaderOnAllRows = false;
 view.DisplayShortDetailHeaderNames = false;
-view.AlignDetailsData = StringAlignment.Near;
+view.AlignDetailsData = HorizontalStringAlignment.Near;
 project.Save(OutDir + "task usage1_out.pdf", SaveFileFormat.Pdf);
 
 // display details header column
@@ -69,7 +69,7 @@ view.DisplayDetailsHeaderColumn = true;
 
 // repeat details header on all assignments rows
 view.RepeatDetailsHeaderOnAllRows = true;
-view.AlignDetailsData = StringAlignment.Far;
+view.AlignDetailsData = HorizontalStringAlignment.Far;
 project.Save(OutDir + "task usage2_out.pdf", SaveFileFormat.Pdf);
 ```
 

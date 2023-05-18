@@ -3,7 +3,7 @@ title: Autolink
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether Autolink is set or not.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks/project/autolink/
 ---
 ## Project.Autolink property

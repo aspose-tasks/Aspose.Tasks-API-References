@@ -3,7 +3,7 @@ title: DefaultFixedCostAccrual
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DefaultFixedCostAccrual.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.tasks/project/defaultfixedcostaccrual/
 ---
 ## Project.DefaultFixedCostAccrual property

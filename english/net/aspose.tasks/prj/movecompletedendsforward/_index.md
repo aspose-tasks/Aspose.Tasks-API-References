@@ -3,7 +3,7 @@ title: MoveCompletedEndsForward
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether the end of completed portions of tasks scheduled to have been completed before the status date but begun later should be moved up to the status date.
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.tasks/prj/movecompletedendsforward/
 ---
 ## Prj.MoveCompletedEndsForward field

@@ -3,7 +3,7 @@ title: CustomDateFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of CustomDateFormat.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.tasks/project/customdateformat/
 ---
 ## Project.CustomDateFormat property

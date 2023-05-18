@@ -3,7 +3,7 @@ title: NewTasksEstimated
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether NewTasksEstimated is set or not.
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.tasks/project/newtasksestimated/
 ---
 ## Project.NewTasksEstimated property

@@ -3,7 +3,7 @@ title: UpdateProjectWorkAsComplete
 second_title: Aspose.Tasks for .NET API Reference
 description: Updates all work as complete through a specified date for the entire project.
 type: docs
-weight: 1260
+weight: 1270
 url: /net/aspose.tasks/project/updateprojectworkascomplete/
 ---
 ## UpdateProjectWorkAsComplete(DateTime, bool) {#updateprojectworkascomplete}

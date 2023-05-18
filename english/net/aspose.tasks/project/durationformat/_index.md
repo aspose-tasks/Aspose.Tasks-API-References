@@ -3,7 +3,7 @@ title: DurationFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of DurationFormat.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.tasks/project/durationformat/
 ---
 ## Project.DurationFormat property

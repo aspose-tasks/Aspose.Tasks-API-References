@@ -3,7 +3,7 @@ title: Guid
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Guid.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.tasks/project/guid/
 ---
 ## Project.Guid property
