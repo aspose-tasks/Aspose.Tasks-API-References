@@ -24,6 +24,7 @@ Represents supported properties of [Project](../../com.aspose.tasks/project) obj
 | [AUTHOR](#AUTHOR) | The author of a project. |
 | [AUTOLINK](#AUTOLINK) | Determines whether inserted or moved tasks are auto linked. |
 | [AUTO_ADD_NEW_RESOURCES_AND_TASKS](#AUTO-ADD-NEW-RESOURCES-AND-TASKS) | Determines whether new resources or tasks automatically added to a resource or task pool. |
+| [AUTO_CALCULATE_ASSIGNMENT_COSTS](#AUTO-CALCULATE-ASSIGNMENT-COSTS) | Determines whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates. |
 | [BASELINE_FOR_EARNED_VALUE](#BASELINE-FOR-EARNED-VALUE) | The specific baseline used to calculate Variance values. |
 | [CALENDAR](#CALENDAR) | The project calendar. |
 | [CATEGORY](#CATEGORY) | The category of a project. |
@@ -143,6 +144,14 @@ public static final Key<NullableBool,Integer> AUTO_ADD_NEW_RESOURCES_AND_TASKS
 
 
 Determines whether new resources or tasks automatically added to a resource or task pool.
+
+### AUTO_CALCULATE_ASSIGNMENT_COSTS {#AUTO-CALCULATE-ASSIGNMENT-COSTS}
+```
+public static final Key<Boolean,Integer> AUTO_CALCULATE_ASSIGNMENT_COSTS
+```
+
+
+Determines whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates.
 
 ### BASELINE_FOR_EARNED_VALUE {#BASELINE-FOR-EARNED-VALUE}
 ```

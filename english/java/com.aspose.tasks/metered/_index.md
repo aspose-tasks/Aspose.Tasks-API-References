@@ -17,30 +17,14 @@ Provides methods to set metered key.
 
 --------------------
 
-&gt; ```
-&gt; In this example, an attempt will be made to set metered public and private key
-&gt;   
-&gt;   ```
-&gt; 
-&gt;   [C#]
-&gt; 
-&gt;   Metered metered = new Metered();
-&gt;   metered.SetMeteredKey("PublicKey", "PrivateKey");
-&gt;   [Visual Basic]
-&gt;   Dim metered As Metered = New Metered
-&gt;   metered.SetMeteredKey("PublicKey", "PrivateKey")
-&gt;   
-&gt; ```
-&gt;   
-&gt;   
-&gt;   the component jar file:
-&gt;   ```
-&gt; 
-&gt;   Metered metered = new Metered();
-&gt;   metered.setMeteredKey("PublicKey", "PrivateKey");
-&gt;   
-&gt; ```
-&gt; ```
+In this example, an attempt will be made to set metered public and private key  the component jar file:
+
+```
+
+  Metered metered = new Metered();
+  metered.setMeteredKey("PublicKey", "PrivateKey");
+  
+```
 ## Constructors
 
 | Constructor | Description |
