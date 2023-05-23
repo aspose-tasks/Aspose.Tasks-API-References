@@ -106,6 +106,7 @@ The Project type exposes the following members:
 |week_start_day|Gets or sets a value of WeekStartDay.|
 |work_format|Gets or sets a value of WorkFormat.|
 |guid|Gets or sets a value of Guid.|
+|auto_calculate_assignment_costs|Gets or sets whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates.|
 |default_view|Gets or sets default view of the project.|
 |vba_project|Gets an instance of|
 |display_options|Gets an instance of the|
