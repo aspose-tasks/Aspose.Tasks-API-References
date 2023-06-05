@@ -8,9 +8,9 @@ url: /java/com.aspose.tasks/bitmapinvalidsizeexception/
 ---
 
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, [com.aspose.tasks.exceptions.Exception](../../com.aspose.tasks.exceptions/exception)
 ```
-public class BitmapInvalidSizeException extends System.Exception
+public class BitmapInvalidSizeException extends com.aspose.tasks.exceptions.Exception
 ```
 
 Represents exception which occurs when there is not enough memory to create a bitmap instance.
