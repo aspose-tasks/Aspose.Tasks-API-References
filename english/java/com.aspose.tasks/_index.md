@@ -1,7 +1,7 @@
 ---
 title: com.aspose.tasks
 second_title: Aspose.Tasks for Java API Reference
-description: 
+description: Contains classes for work with Microsoft Project documents without utilizing Microsoft Project.
 type: docs
 weight: 10
 url: /java/com.aspose.tasks/

@@ -8,9 +8,9 @@ url: /java/com.aspose.tasks/tasksloggedexception/
 ---
 
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, com.aspose.ms.System.ApplicationException
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, [com.aspose.tasks.exceptions.Exception](../../com.aspose.tasks.exceptions/exception), [com.aspose.tasks.exceptions.ApplicationException](../../com.aspose.tasks.exceptions/applicationexception)
 ```
-public class TasksLoggedException extends System.ApplicationException
+public class TasksLoggedException extends com.aspose.tasks.exceptions.ApplicationException
 ```
 
 Represents the standard internal exception type.

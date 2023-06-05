@@ -8,9 +8,9 @@ url: /java/com.aspose.tasks/apslayoutbuilderoutofmemoryexception/
 ---
 
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException[com.aspose.tasks.exceptions.Exception](../../com.aspose.tasks.exceptions/exception)
 ```
-public class ApsLayoutBuilderOutOfMemoryException extends System.Exception
+public class ApsLayoutBuilderOutOfMemoryException extends com.aspose.tasks.exceptions.Exception
 ```
 
 Represents exception which occurs when there is not enough memory to continue an image layout building.
