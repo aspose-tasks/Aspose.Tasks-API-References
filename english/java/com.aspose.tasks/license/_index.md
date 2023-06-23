@@ -20,22 +20,6 @@ Provides methods to license the component.
 &gt; ```
 &gt; In this example, an attempt will be made to find a license file named MyLicense.lic
 &gt;   in the folder that contains
-&gt;   
-&gt;   the component, in the folder that contains the calling assembly,
-&gt;   in the folder of the entry assembly and then in the embedded resources of the calling assembly.
-&gt;   ```
-&gt; 
-&gt;   [C#]
-&gt; 
-&gt;   License license = new License();
-&gt;   license.SetLicense("MyLicense.lic");
-&gt;   [Visual Basic]
-&gt;   Dim license As license = New license
-&gt;   License.SetLicense("MyLicense.lic")
-&gt;   
-&gt; ```
-&gt;   
-&gt;   
 &gt;   the component jar file:
 &gt;   ```
 &gt; 
@@ -69,21 +53,6 @@ Initializes a new instance of the [License](../../com.aspose.tasks/license) clas
 &gt; ```
 &gt; In this example, an attempt will be made to find a license file named MyLicense.lic
 &gt;  in the folder that contains
-&gt;  
-&gt;  the component, in the folder that contains the calling assembly,
-&gt;  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
-&gt;  ```
-&gt; 
-&gt;  [C#]
-&gt;  License license = new License();
-&gt;  license.SetLicense("MyLicense.lic");
-&gt;  [Visual Basic]
-&gt;  Dim license As license = New license
-&gt;  License.SetLicense("MyLicense.lic")
-&gt;  
-&gt; ```
-&gt;  
-&gt;  
 &gt;  the component jar file:
 &gt;  ```
 &gt; 
@@ -119,18 +88,8 @@ Licenses the component.
 &gt; ```
 &gt; ```
 &gt; 
-&gt;  
-&gt;  [C#]
-&gt;  License license = new License();
-&gt;  license.SetLicense(myStream);
-&gt;  [Visual Basic]
-&gt;  Dim license as License = new License
-&gt;  license.SetLicense(myStream)
-&gt;  
-&gt;  
 &gt;  License license = new License();
 &gt;  license.setLicense(myStream);
-&gt;  
 &gt;  
 &gt; ```
 &gt; ```

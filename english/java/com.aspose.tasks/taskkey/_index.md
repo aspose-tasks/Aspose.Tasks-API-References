@@ -56,7 +56,6 @@ Represents a list of supported task fields.
 | [EarlyStart](#EarlyStart) | Represents the EarlyStart (Task) field. |
 | [EarnedValueMethod](#EarnedValueMethod) | Represents the EarnedValueMethod (Task) field. |
 | [ExternalId](#ExternalId) | Represents the ExternalId (Task) field. |
-| [ExternalKey](#ExternalKey) | Represents the ExternalKey (Task) field. |
 | [ExternalTaskProject](#ExternalTaskProject) | Represents the ExternalTaskProject (Task) field. |
 | [ExternalUid](#ExternalUid) | Represents the Unique Id of external task. |
 | [Finish](#Finish) | Represents the Finish (Task) field. |
@@ -453,14 +452,6 @@ public static final int ExternalId
 
 
 Represents the ExternalId (Task) field.
-
-### ExternalKey {#ExternalKey}
-```
-public static final int ExternalKey
-```
-
-
-Represents the ExternalKey (Task) field.
 
 ### ExternalTaskProject {#ExternalTaskProject}
 ```
