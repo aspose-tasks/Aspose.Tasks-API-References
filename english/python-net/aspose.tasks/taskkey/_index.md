@@ -51,7 +51,6 @@ Represents a list of supported  task fields.
 |IS_SUMMARY|Represents the IsSummary (Task) field.|
 |EXTERNAL_TASK_PROJECT|Represents the ExternalTaskProject (Task) field.|
 |EXTERNAL_ID|Represents the ExternalId (Task) field.|
-|EXTERNAL_KEY|Represents the ExternalKey (Task) field.|
 |EARLY_START|Represents the EarlyStart (Task) field.|
 |EARLY_FINISH|Represents the EarlyFinish (Task) field.|
 |LATE_START|Represents the LateStart (Task) field.|
