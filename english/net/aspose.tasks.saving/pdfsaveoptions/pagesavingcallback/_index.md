@@ -3,7 +3,7 @@ title: PageSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a userdefined callback which is used to get an output stream for each rendered page. Is applicable when SaveToSeparateFilesaspose.tasks.saving/pdfsaveoptions/savetoseparatefiles option is used.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks.saving/pdfsaveoptions/pagesavingcallback/
 ---
 ## PdfSaveOptions.PageSavingCallback property

@@ -3,7 +3,7 @@ title: PrimaveraActivityType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies type of Primavera activity.
 type: docs
-weight: 1130
+weight: 1140
 url: /net/aspose.tasks.primavera/primaveraactivitytype/
 ---
 ## PrimaveraActivityType enumeration

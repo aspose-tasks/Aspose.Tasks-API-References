@@ -3,7 +3,7 @@ title: ReduceFooterGap
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether a gap between last task and the footer must be reduced.
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.tasks.saving/htmlsaveoptions/reducefootergap/
 ---
 ## HtmlSaveOptions.ReduceFooterGap property

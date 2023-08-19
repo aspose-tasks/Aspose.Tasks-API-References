@@ -3,7 +3,7 @@ title: IVbaModule
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a module with VBA code.
 type: docs
-weight: 810
+weight: 820
 url: /net/aspose.tasks/ivbamodule/
 ---
 ## IVbaModule interface

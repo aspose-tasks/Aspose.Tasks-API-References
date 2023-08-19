@@ -3,7 +3,7 @@ title: ExportFonts
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the way fonts are exported.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks.saving/htmlsaveoptions/exportfonts/
 ---
 ## HtmlSaveOptions.ExportFonts property

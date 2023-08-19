@@ -3,7 +3,7 @@ title: ExportCss
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the way CSS are exported.
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks.saving/htmlsaveoptions/exportcss/
 ---
 ## HtmlSaveOptions.ExportCss property

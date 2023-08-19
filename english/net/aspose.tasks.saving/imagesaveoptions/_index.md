@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when rendering project pages to images.
 type: docs
-weight: 1830
+weight: 1840
 url: /net/aspose.tasks.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -26,12 +26,11 @@ public class ImageSaveOptions : SaveOptions
 | --- | --- |
 | [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles) { get; set; } | Gets or sets the list of the instances of the [`BarStyle`](../../aspose.tasks.visualization/barstyle) class that appear in project view. |
 | [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize) { get; set; } | Gets or sets the custom page size in points (1 point = 1/72 of inch). |
-| [DefaultFontName](../../aspose.tasks.saving/imagesaveoptions/defaultfontname) { get; set; } | Gets or sets the default (or fallback) font for rendering. |
 | [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime) { get; set; } | Gets or sets a value indicating whether non-working time should be drawn (Default value is TRUE). |
 | [EndDate](../../aspose.tasks.saving/saveoptions/enddate) { get; set; } | Gets or sets a date to finish rendering to. |
 | [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent) { get; set; } | Gets or sets a value indicating whether row height should be increased to fit its content. |
 | [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage) { get; set; } | Gets or sets whether a calendar section of a view should be rendered to the end (right side) of the last page. If value is false, calendar section is rendered exactly to EndDate, even there is an empty space on a page. |
-| [FontResolveCallback](../../aspose.tasks.saving/imagesaveoptions/fontresolvecallback) { get; set; } | Gets or sets a callback which can be used to customize resolved fonts. |
+| [FontSettings](../../aspose.tasks.saving/imagesaveoptions/fontsettings) { get; } | Specifies font settings used when rendering project's view. |
 | [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines) { get; set; } | Gets or sets a list of [`Gridline`](../../aspose.tasks.visualization/gridline) that appear in project view. |
 | [HorizontalResolution](../../aspose.tasks.saving/imagesaveoptions/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution in dpi. |
 | [JpegQuality](../../aspose.tasks.saving/imagesaveoptions/jpegquality) { get; set; } | Gets or sets a JPEG quality. The allowed value range is 0..100. |
@@ -55,7 +54,6 @@ public class ImageSaveOptions : SaveOptions
 | [TiffCompression](../../aspose.tasks.saving/imagesaveoptions/tiffcompression) { get; set; } | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
 | [Timescale](../../aspose.tasks.saving/saveoptions/timescale) { get; set; } | Gets or sets the [`Timescale`](../saveoptions/timescale) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush) { get; set; } | Gets or sets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
-| [UseProjectDefaultFont](../../aspose.tasks.saving/imagesaveoptions/useprojectdefaultfont) { get; set; } | Gets or sets a value indicating whether the default font must be used for rendering. |
 | [VerticalResolution](../../aspose.tasks.saving/imagesaveoptions/verticalresolution) { get; set; } | Gets or sets the vertical resolution in dpi. |
 | [View](../../aspose.tasks.saving/saveoptions/view) { get; set; } | Gets or sets a list of the view columns to render ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn)). If not set then task ids, task names, start and finish are rendered only. If both View and [`ViewSettings`](../saveoptions/viewsettings) properties are set, columns from View overrides columns from ViewSettings. |
 | [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings) { get; set; } | Gets or sets a view ([`View`](../saveoptions/view)) to render. You can use this options to explicitly specify which view should be saved to PDF, HTML or Image formats. If this property is set, [`PresentationFormat`](../../aspose.tasks.visualization/presentationformat) property is ignored when project is saved. View should be from one of the following screen (([`Screen`](../../aspose.tasks/view/screen))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |

@@ -3,7 +3,7 @@ title: WeekDayCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of WeekDay./weekday objects.
 type: docs
-weight: 3260
+weight: 3270
 url: /net/aspose.tasks/weekdaycollection/
 ---
 ## WeekDayCollection class

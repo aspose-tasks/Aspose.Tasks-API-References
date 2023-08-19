@@ -3,7 +3,7 @@ title: HeaderFooterInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents header or footer data which is present in views and used for printing.
 type: docs
-weight: 2860
+weight: 2870
 url: /net/aspose.tasks.visualization/headerfooterinfo/
 ---
 ## HeaderFooterInfo class
