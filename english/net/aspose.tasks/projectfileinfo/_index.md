@@ -3,7 +3,7 @@ title: ProjectFileInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: The class instance contains information about project file format and version of Microsoft Project where the file was created.
 type: docs
-weight: 1270
+weight: 1280
 url: /net/aspose.tasks/projectfileinfo/
 ---
 ## ProjectFileInfo class

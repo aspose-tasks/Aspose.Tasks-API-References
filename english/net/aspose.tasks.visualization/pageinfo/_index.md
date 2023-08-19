@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents page setup data which is present in MPP file format and used for printing.
 type: docs
-weight: 2930
+weight: 2940
 url: /net/aspose.tasks.visualization/pageinfo/
 ---
 ## PageInfo class

@@ -11,7 +11,7 @@ url: /net/aspose.tasks/asnkey/
 Represents a list of supported assignment fields.
 
 ```csharp
-public enum AsnKey
+public enum AsnKey : byte
 ```
 
 ### Values

@@ -3,7 +3,7 @@ title: TaskLink
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a predecessor link.
 type: docs
-weight: 2180
+weight: 2190
 url: /net/aspose.tasks/tasklink/
 ---
 ## TaskLink class

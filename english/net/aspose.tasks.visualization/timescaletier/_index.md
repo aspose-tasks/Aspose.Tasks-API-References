@@ -3,7 +3,7 @@ title: TimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a single tier of the timescale on a Gantt Chart.
 type: docs
-weight: 3160
+weight: 3170
 url: /net/aspose.tasks.visualization/timescaletier/
 ---
 ## TimescaleTier class

@@ -3,7 +3,7 @@ title: OutlineCode
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a value of an outline code.
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.tasks/outlinecode/
 ---
 ## OutlineCode class

@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of a resource.
 type: docs
-weight: 1610
+weight: 1620
 url: /net/aspose.tasks/resourcetype/
 ---
 ## ResourceType enumeration

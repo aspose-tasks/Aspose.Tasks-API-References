@@ -3,7 +3,7 @@ title: HorizontalResolution
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the horizontal resolution in dpi.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks.saving/imagesaveoptions/horizontalresolution/
 ---
 ## ImageSaveOptions.HorizontalResolution property

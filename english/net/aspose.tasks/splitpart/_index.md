@@ -3,7 +3,7 @@ title: SplitPart
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a task portion. The SplitPart is a member of the tasks SplitParts collection.
 type: docs
-weight: 2060
+weight: 2070
 url: /net/aspose.tasks/splitpart/
 ---
 ## SplitPart class

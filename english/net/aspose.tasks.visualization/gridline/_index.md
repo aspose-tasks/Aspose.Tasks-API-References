@@ -3,7 +3,7 @@ title: Gridline
 second_title: Aspose.Tasks for .NET API Reference
 description: The horizontal or vertical line that appears in the project view.
 type: docs
-weight: 2830
+weight: 2840
 url: /net/aspose.tasks.visualization/gridline/
 ---
 ## Gridline class

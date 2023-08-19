@@ -3,7 +3,7 @@ title: FontSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the callback that is called to create resource to store font.
 type: docs
-weight: 100
+weight: 80
 url: /net/aspose.tasks.saving/htmlsaveoptions/fontsavingcallback/
 ---
 ## HtmlSaveOptions.FontSavingCallback property

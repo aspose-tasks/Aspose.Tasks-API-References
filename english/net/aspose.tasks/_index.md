@@ -50,6 +50,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [FontResolveCallbackDelegate](./fontresolvecallbackdelegate) | Represents a method callback to handle font resolve event. |
 | [FontResolveEventArgs](./fontresolveeventargs) | Provides arguments for the callback that is invoked when font is resolved. |
 | [FontSavingArgs](./fontsavingargs) | This class represents set of data that related to external fonts file's saving that occurs during conversion to HTML format. |
+| [FontSettings](./fontsettings) | Specifies font settings used when rendering project's view. |
 | [GanttChartView](./ganttchartview) | Represents a GanttChart view. |
 | [Group](./group) | Represents a group definition. A Group object is a member of the ResourceGroups collection or the TaskGroups collection. |
 | [GroupCollection](./groupcollection) | Contains a list of [`Group`](../aspose.tasks/group) objects. Implements ICollection&lt;Group&gt; interface. |

@@ -3,7 +3,7 @@ title: PageSavingArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: This class represents set of data that related to saving of documents page to a stream.
 type: docs
-weight: 1850
+weight: 1860
 url: /net/aspose.tasks.saving/pagesavingargs/
 ---
 ## PageSavingArgs class

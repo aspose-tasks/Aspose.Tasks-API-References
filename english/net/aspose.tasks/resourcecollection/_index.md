@@ -3,7 +3,7 @@ title: ResourceCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of Resource./resource objects.
 type: docs
-weight: 1580
+weight: 1590
 url: /net/aspose.tasks/resourcecollection/
 ---
 ## ResourceCollection class

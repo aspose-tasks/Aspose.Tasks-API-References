@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of a time unit.
 type: docs
-weight: 2320
+weight: 2330
 url: /net/aspose.tasks/timeunittype/
 ---
 ## TimeUnitType enumeration
@@ -11,7 +11,7 @@ url: /net/aspose.tasks/timeunittype/
 Specifies the type of a time unit.
 
 ```csharp
-public enum TimeUnitType
+public enum TimeUnitType : sbyte
 ```
 
 ### Values
