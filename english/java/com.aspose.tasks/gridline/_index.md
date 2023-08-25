@@ -3,7 +3,7 @@ title: Gridline
 second_title: Aspose.Tasks for Java API Reference
 description: The horizontal or vertical line that appears in the project view.
 type: docs
-weight: 113
+weight: 114
 url: /java/com.aspose.tasks/gridline/
 ---
 

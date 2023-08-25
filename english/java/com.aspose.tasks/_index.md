@@ -103,6 +103,7 @@ url: /java/com.aspose.tasks/
 | [FontResolveCallbackDelegate](../com.aspose.tasks/fontresolvecallbackdelegate) | Represents a method callback to handle font resolve event. |
 | [FontResolveEventArgs](../com.aspose.tasks/fontresolveeventargs) | Provides arguments for the callback that is invoked when font is resolved. |
 | [FontSavingArgs](../com.aspose.tasks/fontsavingargs) | This class represents set of data that related to external fonts file's saving that occurs during conversion to HTML format. |
+| [FontSettings](../com.aspose.tasks/fontsettings) | Specifies font settings used when rendering project's view. |
 | [FontStyle](../com.aspose.tasks/fontstyle) | Font style flag values. |
 | [FontStyles](../com.aspose.tasks/fontstyles) | Specifies style information applied to text. |
 | [GanttBarEndShape](../com.aspose.tasks/ganttbarendshape) | Represents end shape in bars and progress points in progress lines. |

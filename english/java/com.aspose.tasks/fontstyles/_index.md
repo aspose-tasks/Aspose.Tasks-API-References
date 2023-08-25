@@ -3,7 +3,7 @@ title: FontStyles
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies style information applied to text.
 type: docs
-weight: 102
+weight: 103
 url: /java/com.aspose.tasks/fontstyles/
 ---
 

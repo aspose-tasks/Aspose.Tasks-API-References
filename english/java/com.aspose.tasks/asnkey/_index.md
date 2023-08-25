@@ -87,7 +87,7 @@ Represents a list of supported assignment fields.
 | [WorkVariance](#WorkVariance) | Represents the WorkVariance (ResourceAssignment) field. |
 ### ACWP {#ACWP}
 ```
-public static final int ACWP
+public static final byte ACWP
 ```
 
 
@@ -95,7 +95,7 @@ Represents the ACWP (ResourceAssignment) field.
 
 ### ActualCost {#ActualCost}
 ```
-public static final int ActualCost
+public static final byte ActualCost
 ```
 
 
@@ -103,7 +103,7 @@ Represents the ActualCost (ResourceAssignment) field.
 
 ### ActualFinish {#ActualFinish}
 ```
-public static final int ActualFinish
+public static final byte ActualFinish
 ```
 
 
@@ -111,7 +111,7 @@ Represents the ActualFinish (ResourceAssignment) field.
 
 ### ActualOvertimeCost {#ActualOvertimeCost}
 ```
-public static final int ActualOvertimeCost
+public static final byte ActualOvertimeCost
 ```
 
 
@@ -119,7 +119,7 @@ Represents the ActualOvertimeCost (ResourceAssignment) field.
 
 ### ActualOvertimeWork {#ActualOvertimeWork}
 ```
-public static final int ActualOvertimeWork
+public static final byte ActualOvertimeWork
 ```
 
 
@@ -127,7 +127,7 @@ Represents the ActualOvertimeWork (ResourceAssignment) field.
 
 ### ActualOvertimeWorkProtected {#ActualOvertimeWorkProtected}
 ```
-public static final int ActualOvertimeWorkProtected
+public static final byte ActualOvertimeWorkProtected
 ```
 
 
@@ -135,7 +135,7 @@ Represents the ActualOvertimeWorkProtected (ResourceAssignment) field.
 
 ### ActualStart {#ActualStart}
 ```
-public static final int ActualStart
+public static final byte ActualStart
 ```
 
 
@@ -143,7 +143,7 @@ Represents the ActualStart (ResourceAssignment) field.
 
 ### ActualWork {#ActualWork}
 ```
-public static final int ActualWork
+public static final byte ActualWork
 ```
 
 
@@ -151,7 +151,7 @@ Represents the ActualWork (ResourceAssignment) field.
 
 ### ActualWorkProtected {#ActualWorkProtected}
 ```
-public static final int ActualWorkProtected
+public static final byte ActualWorkProtected
 ```
 
 
@@ -159,7 +159,7 @@ Represents the ActualWorkProtected (ResourceAssignment) field.
 
 ### AssignmentOwner {#AssignmentOwner}
 ```
-public static final int AssignmentOwner
+public static final byte AssignmentOwner
 ```
 
 
@@ -167,7 +167,7 @@ Represents the AssignmentOwner (ResourceAssignment) field.
 
 ### AssignmentOwnerGuid {#AssignmentOwnerGuid}
 ```
-public static final int AssignmentOwnerGuid
+public static final byte AssignmentOwnerGuid
 ```
 
 
@@ -175,7 +175,7 @@ Represents the AssignmentOwnerGuid (ResourceAssignment) field.
 
 ### BCWP {#BCWP}
 ```
-public static final int BCWP
+public static final byte BCWP
 ```
 
 
@@ -183,7 +183,7 @@ Represents the BCWP (ResourceAssignment) field.
 
 ### BCWS {#BCWS}
 ```
-public static final int BCWS
+public static final byte BCWS
 ```
 
 
@@ -191,7 +191,7 @@ Represents the BCWS (ResourceAssignment) field.
 
 ### BookingType {#BookingType}
 ```
-public static final int BookingType
+public static final byte BookingType
 ```
 
 
@@ -199,7 +199,7 @@ Represents the BookingType (ResourceAssignment) field.
 
 ### BudgetCost {#BudgetCost}
 ```
-public static final int BudgetCost
+public static final byte BudgetCost
 ```
 
 
@@ -207,7 +207,7 @@ Represents the BudgetCost (ResourceAssignment) field.
 
 ### BudgetWork {#BudgetWork}
 ```
-public static final int BudgetWork
+public static final byte BudgetWork
 ```
 
 
@@ -215,7 +215,7 @@ Represents the BudgetWork (ResourceAssignment) field.
 
 ### CV {#CV}
 ```
-public static final int CV
+public static final byte CV
 ```
 
 
@@ -223,7 +223,7 @@ Represents the CV (ResourceAssignment) field.
 
 ### Confirmed {#Confirmed}
 ```
-public static final int Confirmed
+public static final byte Confirmed
 ```
 
 
@@ -231,7 +231,7 @@ Represents the Confirmed (ResourceAssignment) field.
 
 ### Cost {#Cost}
 ```
-public static final int Cost
+public static final byte Cost
 ```
 
 
@@ -239,7 +239,7 @@ Represents the Cost (ResourceAssignment) field.
 
 ### CostRateTableType {#CostRateTableType}
 ```
-public static final int CostRateTableType
+public static final byte CostRateTableType
 ```
 
 
@@ -247,7 +247,7 @@ Represents the CostRateTableType (ResourceAssignment) field.
 
 ### CostVariance {#CostVariance}
 ```
-public static final int CostVariance
+public static final byte CostVariance
 ```
 
 
@@ -255,7 +255,7 @@ Represents the CostVariance (ResourceAssignment) field.
 
 ### Created {#Created}
 ```
-public static final int Created
+public static final byte Created
 ```
 
 
@@ -263,7 +263,7 @@ Represents the Created (ResourceAssignment) field.
 
 ### Delay {#Delay}
 ```
-public static final int Delay
+public static final byte Delay
 ```
 
 
@@ -271,7 +271,7 @@ Represents the Delay (ResourceAssignment) field.
 
 ### Finish {#Finish}
 ```
-public static final int Finish
+public static final byte Finish
 ```
 
 
@@ -279,7 +279,7 @@ Represents the Finish (ResourceAssignment) field.
 
 ### FinishVariance {#FinishVariance}
 ```
-public static final int FinishVariance
+public static final byte FinishVariance
 ```
 
 
@@ -287,7 +287,7 @@ Represents the FinishVariance (ResourceAssignment) field.
 
 ### FixedMaterial {#FixedMaterial}
 ```
-public static final int FixedMaterial
+public static final byte FixedMaterial
 ```
 
 
@@ -295,7 +295,7 @@ Represents the FixedMaterial (ResourceAssignment) field.
 
 ### Guid {#Guid}
 ```
-public static final int Guid
+public static final byte Guid
 ```
 
 
@@ -303,7 +303,7 @@ Represents the Guid (ResourceAssignment) field.
 
 ### HasFixedRateUnits {#HasFixedRateUnits}
 ```
-public static final int HasFixedRateUnits
+public static final byte HasFixedRateUnits
 ```
 
 
@@ -311,7 +311,7 @@ Represents the HasFixedRateUnits (ResourceAssignment) field.
 
 ### Hyperlink {#Hyperlink}
 ```
-public static final int Hyperlink
+public static final byte Hyperlink
 ```
 
 
@@ -319,7 +319,7 @@ Represents the Hyperlink (ResourceAssignment) field.
 
 ### HyperlinkAddress {#HyperlinkAddress}
 ```
-public static final int HyperlinkAddress
+public static final byte HyperlinkAddress
 ```
 
 
@@ -327,7 +327,7 @@ Represents the HyperlinkAddress (ResourceAssignment) field.
 
 ### HyperlinkSubAddress {#HyperlinkSubAddress}
 ```
-public static final int HyperlinkSubAddress
+public static final byte HyperlinkSubAddress
 ```
 
 
@@ -335,7 +335,7 @@ Represents the HyperlinkSubAddress (ResourceAssignment) field.
 
 ### LevelingDelay {#LevelingDelay}
 ```
-public static final int LevelingDelay
+public static final byte LevelingDelay
 ```
 
 
@@ -343,7 +343,7 @@ Represents the LevelingDelay (ResourceAssignment) field.
 
 ### LevelingDelayFormat {#LevelingDelayFormat}
 ```
-public static final int LevelingDelayFormat
+public static final byte LevelingDelayFormat
 ```
 
 
@@ -351,7 +351,7 @@ Represents the LevelingDelayFormat (ResourceAssignment) field.
 
 ### LinkedFields {#LinkedFields}
 ```
-public static final int LinkedFields
+public static final byte LinkedFields
 ```
 
 
@@ -359,7 +359,7 @@ Represents the LinkedFields (ResourceAssignment) field.
 
 ### Milestone {#Milestone}
 ```
-public static final int Milestone
+public static final byte Milestone
 ```
 
 
@@ -367,7 +367,7 @@ Represents the Milestone (ResourceAssignment) field.
 
 ### Notes {#Notes}
 ```
-public static final int Notes
+public static final byte Notes
 ```
 
 
@@ -375,7 +375,7 @@ Represents the Notes (ResourceAssignment) field.
 
 ### NotesRTF {#NotesRTF}
 ```
-public static final int NotesRTF
+public static final byte NotesRTF
 ```
 
 
@@ -383,7 +383,7 @@ Represents the NotesRTF (ResourceAssignment) field.
 
 ### NotesText {#NotesText}
 ```
-public static final int NotesText
+public static final byte NotesText
 ```
 
 
@@ -391,7 +391,7 @@ Represents the NotesText (ResourceAssignment) field.
 
 ### Overallocated {#Overallocated}
 ```
-public static final int Overallocated
+public static final byte Overallocated
 ```
 
 
@@ -399,7 +399,7 @@ Represents the Overallocated (ResourceAssignment) field.
 
 ### OvertimeCost {#OvertimeCost}
 ```
-public static final int OvertimeCost
+public static final byte OvertimeCost
 ```
 
 
@@ -407,7 +407,7 @@ Represents the OvertimeCost (ResourceAssignment) field.
 
 ### OvertimeWork {#OvertimeWork}
 ```
-public static final int OvertimeWork
+public static final byte OvertimeWork
 ```
 
 
@@ -415,7 +415,7 @@ Represents the OvertimeWork (ResourceAssignment) field.
 
 ### PeakUnits {#PeakUnits}
 ```
-public static final int PeakUnits
+public static final byte PeakUnits
 ```
 
 
@@ -423,7 +423,7 @@ Represents the PeakUnits (ResourceAssignment) field.
 
 ### PercentWorkComplete {#PercentWorkComplete}
 ```
-public static final int PercentWorkComplete
+public static final byte PercentWorkComplete
 ```
 
 
@@ -431,7 +431,7 @@ Represents the PercentWorkComplete (ResourceAssignment) field.
 
 ### RateScale {#RateScale}
 ```
-public static final int RateScale
+public static final byte RateScale
 ```
 
 
@@ -439,7 +439,7 @@ Represents the RateScale (ResourceAssignment) field.
 
 ### RegularWork {#RegularWork}
 ```
-public static final int RegularWork
+public static final byte RegularWork
 ```
 
 
@@ -447,7 +447,7 @@ Represents the RegularWork (ResourceAssignment) field.
 
 ### RemainingCost {#RemainingCost}
 ```
-public static final int RemainingCost
+public static final byte RemainingCost
 ```
 
 
@@ -455,7 +455,7 @@ Represents the RemainingCost (ResourceAssignment) field.
 
 ### RemainingOvertimeCost {#RemainingOvertimeCost}
 ```
-public static final int RemainingOvertimeCost
+public static final byte RemainingOvertimeCost
 ```
 
 
@@ -463,7 +463,7 @@ Represents the RemainingOvertimeCost (ResourceAssignment) field.
 
 ### RemainingOvertimeWork {#RemainingOvertimeWork}
 ```
-public static final int RemainingOvertimeWork
+public static final byte RemainingOvertimeWork
 ```
 
 
@@ -471,7 +471,7 @@ Represents the RemainingOvertimeWork (ResourceAssignment) field.
 
 ### RemainingWork {#RemainingWork}
 ```
-public static final int RemainingWork
+public static final byte RemainingWork
 ```
 
 
@@ -479,7 +479,7 @@ Represents the RemainingWork (ResourceAssignment) field.
 
 ### Resource {#Resource}
 ```
-public static final int Resource
+public static final byte Resource
 ```
 
 
@@ -487,7 +487,7 @@ Represents the Resource (ResourceAssignment) field.
 
 ### ResourceUid {#ResourceUid}
 ```
-public static final int ResourceUid
+public static final byte ResourceUid
 ```
 
 
@@ -495,7 +495,7 @@ Represents the ResourceUid (ResourceAssignment) field.
 
 ### ResponsePending {#ResponsePending}
 ```
-public static final int ResponsePending
+public static final byte ResponsePending
 ```
 
 
@@ -503,7 +503,7 @@ Represents the ResponsePending (ResourceAssignment) field.
 
 ### Resume {#Resume}
 ```
-public static final int Resume
+public static final byte Resume
 ```
 
 
@@ -511,7 +511,7 @@ Represents the Resume (ResourceAssignment) field.
 
 ### SV {#SV}
 ```
-public static final int SV
+public static final byte SV
 ```
 
 
@@ -519,7 +519,7 @@ Represents the SV (ResourceAssignment) field.
 
 ### Start {#Start}
 ```
-public static final int Start
+public static final byte Start
 ```
 
 
@@ -527,7 +527,7 @@ Represents the Start (ResourceAssignment) field.
 
 ### StartVariance {#StartVariance}
 ```
-public static final int StartVariance
+public static final byte StartVariance
 ```
 
 
@@ -535,7 +535,7 @@ Represents the StartVariance (ResourceAssignment) field.
 
 ### Stop {#Stop}
 ```
-public static final int Stop
+public static final byte Stop
 ```
 
 
@@ -543,7 +543,7 @@ Represents the Stop (ResourceAssignment) field.
 
 ### Summary {#Summary}
 ```
-public static final int Summary
+public static final byte Summary
 ```
 
 
@@ -551,7 +551,7 @@ Represents the Summary (ResourceAssignment) field.
 
 ### Task {#Task}
 ```
-public static final int Task
+public static final byte Task
 ```
 
 
@@ -559,7 +559,7 @@ Represents the Task (ResourceAssignment) field.
 
 ### TaskUid {#TaskUid}
 ```
-public static final int TaskUid
+public static final byte TaskUid
 ```
 
 
@@ -567,7 +567,7 @@ Represents the TaskUid (ResourceAssignment) field.
 
 ### Uid {#Uid}
 ```
-public static final int Uid
+public static final byte Uid
 ```
 
 
@@ -575,7 +575,7 @@ Represents the UID (ResourceAssignment) field.
 
 ### Units {#Units}
 ```
-public static final int Units
+public static final byte Units
 ```
 
 
@@ -583,7 +583,7 @@ Represents the Units (ResourceAssignment) field.
 
 ### UpdateNeeded {#UpdateNeeded}
 ```
-public static final int UpdateNeeded
+public static final byte UpdateNeeded
 ```
 
 
@@ -591,7 +591,7 @@ Represents the UpdateNeeded (ResourceAssignment) field.
 
 ### VAC {#VAC}
 ```
-public static final int VAC
+public static final byte VAC
 ```
 
 
@@ -599,7 +599,7 @@ Represents the VAC (ResourceAssignment) field.
 
 ### Work {#Work}
 ```
-public static final int Work
+public static final byte Work
 ```
 
 
@@ -607,7 +607,7 @@ Represents the Work (ResourceAssignment) field.
 
 ### WorkContour {#WorkContour}
 ```
-public static final int WorkContour
+public static final byte WorkContour
 ```
 
 
@@ -615,7 +615,7 @@ Represents the WorkContour (ResourceAssignment) field.
 
 ### WorkVariance {#WorkVariance}
 ```
-public static final int WorkVariance
+public static final byte WorkVariance
 ```
 
 

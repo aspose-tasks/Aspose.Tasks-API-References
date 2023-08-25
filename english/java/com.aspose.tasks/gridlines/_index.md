@@ -3,7 +3,7 @@ title: Gridlines
 second_title: Aspose.Tasks for Java API Reference
 description: Represents gridlines that appear in a GanttChart view.
 type: docs
-weight: 115
+weight: 116
 url: /java/com.aspose.tasks/gridlines/
 ---
 

@@ -3,7 +3,7 @@ title: FontStyle
 second_title: Aspose.Tasks for Java API Reference
 description: Font style flag values.
 type: docs
-weight: 101
+weight: 102
 url: /java/com.aspose.tasks/fontstyle/
 ---
 

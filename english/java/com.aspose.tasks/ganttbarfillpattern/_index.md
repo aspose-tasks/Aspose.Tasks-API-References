@@ -3,7 +3,7 @@ title: GanttBarFillPattern
 second_title: Aspose.Tasks for Java API Reference
 description: A shapes fill pattern.
 type: docs
-weight: 104
+weight: 105
 url: /java/com.aspose.tasks/ganttbarfillpattern/
 ---
 

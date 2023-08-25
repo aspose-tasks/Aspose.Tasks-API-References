@@ -3,7 +3,7 @@ title: GanttChartView
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a GanttChart view.
 type: docs
-weight: 111
+weight: 112
 url: /java/com.aspose.tasks/ganttchartview/
 ---
 

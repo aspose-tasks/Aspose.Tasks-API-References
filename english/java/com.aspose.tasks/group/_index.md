@@ -3,7 +3,7 @@ title: Group
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a group definition.
 type: docs
-weight: 116
+weight: 117
 url: /java/com.aspose.tasks/group/
 ---
 

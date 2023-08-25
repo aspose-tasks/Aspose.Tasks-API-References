@@ -3,7 +3,7 @@ title: TaskLink
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a predecessor link.
 type: docs
-weight: 276
+weight: 277
 url: /java/com.aspose.tasks/tasklink/
 ---
 
@@ -34,7 +34,7 @@ Represents a predecessor link.
 | [isCrossProject()](#isCrossProject--) | Gets a value indicating whether a predecessor is part of another project. |
 | [setCrossProject(boolean value)](#setCrossProject-boolean-) | Sets a value indicating whether a predecessor is part of another project. |
 | [setCrossProjectName(String value)](#setCrossProjectName-java.lang.String-) | Sets the external predecessor project. |
-| [setLagFormat(int value)](#setLagFormat-int-) | Sets the format for expressing the lag format. |
+| [setLagFormat(byte value)](#setLagFormat-byte-) | Sets the format for expressing the lag format. |
 | [setLinkLag(int value)](#setLinkLag-int-) | Sets the lag in tenths of a minute or percentage. |
 | [setLinkLagTimeSpan(double value)](#setLinkLagTimeSpan-double-) | Sets lag duration, depending on LagFormat. |
 | [setLinkType(int value)](#setLinkType-int-) | Sets the type of a link. |
@@ -83,14 +83,14 @@ Gets the external predecessor project.
 java.lang.String - the external predecessor project.
 ### getLagFormat() {#getLagFormat--}
 ```
-public final int getLagFormat()
+public final byte getLagFormat()
 ```
 
 
 Gets the format for expressing the lag format.
 
 **Returns:**
-int - the format for expressing the lag format.
+byte - the format for expressing the lag format.
 ### getLinkLag() {#getLinkLag--}
 ```
 public final int getLinkLag()
@@ -187,9 +187,9 @@ Sets the external predecessor project.
 | --- | --- | --- |
 | value | java.lang.String | the external predecessor project. |
 
-### setLagFormat(int value) {#setLagFormat-int-}
+### setLagFormat(byte value) {#setLagFormat-byte-}
 ```
-public final void setLagFormat(int value)
+public final void setLagFormat(byte value)
 ```
 
 
@@ -198,7 +198,7 @@ Sets the format for expressing the lag format.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the format for expressing the lag format. |
+| value | byte | the format for expressing the lag format. |
 
 ### setLinkLag(int value) {#setLinkLag-int-}
 ```

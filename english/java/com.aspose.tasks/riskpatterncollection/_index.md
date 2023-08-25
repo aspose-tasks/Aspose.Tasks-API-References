@@ -3,7 +3,7 @@ title: RiskPatternCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection containing the instances of the RiskPattern class.
 type: docs
-weight: 250
+weight: 251
 url: /java/com.aspose.tasks/riskpatterncollection/
 ---
 

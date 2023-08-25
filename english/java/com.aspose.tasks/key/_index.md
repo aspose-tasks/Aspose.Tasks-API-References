@@ -3,7 +3,7 @@ title: Key
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a property key of a class of the specified type.
 type: docs
-weight: 133
+weight: 134
 url: /java/com.aspose.tasks/key/
 ---
 

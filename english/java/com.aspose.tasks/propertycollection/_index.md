@@ -3,7 +3,7 @@ title: PropertyCollection
 second_title: Aspose.Tasks for Java API Reference
 description: A base class of collection of properties.
 type: docs
-weight: 213
+weight: 214
 url: /java/com.aspose.tasks/propertycollection/
 ---
 

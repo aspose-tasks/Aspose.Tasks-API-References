@@ -3,7 +3,7 @@ title: TaskBaseline
 second_title: Aspose.Tasks for Java API Reference
 description: Represents Baseline of a Task.
 type: docs
-weight: 272
+weight: 273
 url: /java/com.aspose.tasks/taskbaseline/
 ---
 
@@ -39,7 +39,7 @@ Represents Baseline of a Task.
 | [getTimephasedData()](#getTimephasedData--) | Gets a TimephasedDataCollection instance for this object. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the instance of the [TaskBaseline](../../com.aspose.tasks/taskbaseline) class. |
 | [setDuration(Duration value)](#setDuration-com.aspose.tasks.Duration-) | Sets the scheduled duration of the task when the baseline was saved. |
-| [setDurationFormat(int value)](#setDurationFormat-int-) | Sets the format for expressing the duration of the task baseline. |
+| [setDurationFormat(byte value)](#setDurationFormat-byte-) | Sets the format for expressing the duration of the task baseline. |
 | [setEstimatedDuration(boolean value)](#setEstimatedDuration-boolean-) | Sets a value indicating whether the baseline duration of the task was estimated. |
 | [setFinish(Date value)](#setFinish-java.util.Date-) | Sets the scheduled finish date of the task when the baseline was saved. |
 | [setFixedCost(double value)](#setFixedCost-double-) | Sets a fixed cost of the task when the baseline was saved. |
@@ -116,14 +116,14 @@ Gets the scheduled duration of the task when the baseline was saved.
 [Duration](../../com.aspose.tasks/duration) - the scheduled duration of the task when the baseline was saved.
 ### getDurationFormat() {#getDurationFormat--}
 ```
-public final int getDurationFormat()
+public final byte getDurationFormat()
 ```
 
 
 Gets the format for expressing the duration of the task baseline.
 
 **Returns:**
-int - the format for expressing the duration of the task baseline.
+byte - the format for expressing the duration of the task baseline.
 ### getEstimatedDuration() {#getEstimatedDuration--}
 ```
 public final boolean getEstimatedDuration()
@@ -207,9 +207,9 @@ Sets the scheduled duration of the task when the baseline was saved.
 | --- | --- | --- |
 | value | [Duration](../../com.aspose.tasks/duration) | the scheduled duration of the task when the baseline was saved. |
 
-### setDurationFormat(int value) {#setDurationFormat-int-}
+### setDurationFormat(byte value) {#setDurationFormat-byte-}
 ```
-public final void setDurationFormat(int value)
+public final void setDurationFormat(byte value)
 ```
 
 
@@ -218,7 +218,7 @@ Sets the format for expressing the duration of the task baseline.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the format for expressing the duration of the task baseline. |
+| value | byte | the format for expressing the duration of the task baseline. |
 
 ### setEstimatedDuration(boolean value) {#setEstimatedDuration-boolean-}
 ```

@@ -3,7 +3,7 @@ title: PixelFormat
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the format of the color data for each pixel in the image.
 type: docs
-weight: 181
+weight: 182
 url: /java/com.aspose.tasks/pixelformat/
 ---
 

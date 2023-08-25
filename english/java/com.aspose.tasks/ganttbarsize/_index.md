@@ -3,7 +3,7 @@ title: GanttBarSize
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the height of a bar in points.
 type: docs
-weight: 107
+weight: 108
 url: /java/com.aspose.tasks/ganttbarsize/
 ---
 

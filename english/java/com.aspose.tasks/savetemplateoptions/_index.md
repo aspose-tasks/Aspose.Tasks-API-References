@@ -3,7 +3,7 @@ title: SaveTemplateOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when saving a project as a template.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.tasks/savetemplateoptions/
 ---
 

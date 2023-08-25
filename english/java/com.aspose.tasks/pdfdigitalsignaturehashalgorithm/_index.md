@@ -3,7 +3,7 @@ title: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies digital hash algorithm used by digital signature.
 type: docs
-weight: 175
+weight: 176
 url: /java/com.aspose.tasks/pdfdigitalsignaturehashalgorithm/
 ---
 

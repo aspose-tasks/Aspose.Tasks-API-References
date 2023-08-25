@@ -3,7 +3,7 @@ title: MonthlyRepetitionBase
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a base pattern for monthly day position.
 type: docs
-weight: 148
+weight: 149
 url: /java/com.aspose.tasks/monthlyrepetitionbase/
 ---
 

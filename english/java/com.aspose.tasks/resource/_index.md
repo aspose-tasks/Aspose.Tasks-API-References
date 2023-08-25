@@ -3,7 +3,7 @@ title: Resource
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource in a project.
 type: docs
-weight: 231
+weight: 232
 url: /java/com.aspose.tasks/resource/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.tasks.IContainer
 **All Implemented Interfaces:**
 com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink
 ```
-public class Resource extends IContainer<Integer> implements System.IEquatable<Resource>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
+public class Resource extends IContainer<Byte> implements System.IEquatable<Resource>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
 ```
 
 Represents a resource in a project.
@@ -21,8 +21,8 @@ Represents a resource in a project.
 
 | Method | Description |
 | --- | --- |
-| [&lt;T&gt;get(Key&lt;T,Integer&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--) | Returns the value to which the property is mapped in this container. |
-| [&lt;T&gt;set(Key&lt;T,Integer&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-) | Maps the specified property to the specified value in this container. |
+| [&lt;T&gt;get(Key&lt;T,Byte&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--) | Returns the value to which the property is mapped in this container. |
+| [&lt;T&gt;set(Key&lt;T,Byte&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-) | Maps the specified property to the specified value in this container. |
 | [canLevel()](#canLevel--) | Gets a value indicating whether CanLevel is set or not. |
 | [delete()](#delete--) | Deletes a resource and its assignments from project. |
 | [equals(Resource other)](#equals-com.aspose.tasks.Resource-) | Returns a value indicating whether this instance is equal to a specified instance of the [Resource](../../com.aspose.tasks/resource) class. |
@@ -96,7 +96,7 @@ Represents a resource in a project.
 | [getStart()](#getStart--) | Gets a value of Start. |
 | [getTimephasedData()](#getTimephasedData--) | Gets an instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object. |
 | [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) for this object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-))values within given start and end dates. |
-| [getTimephasedData(Date start, Date end, int timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-int-) | Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object with the  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
+| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object with the  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
 | [getType()](#getType--) | Gets a value of Type. |
 | [getUid()](#getUid--) | Gets a value of Uid. |
 | [getWindowsUserAccount()](#getWindowsUserAccount--) | Gets a value of WindowsUserAccount. |
@@ -112,7 +112,7 @@ Represents a resource in a project.
 | [isNull()](#isNull--) | Gets a value indicating whether IsNull is set or not. |
 | [isRoot()](#isRoot--) | Gets the flag indicating whether resource is a root resource. |
 | [isTeamAssignmentPool()](#isTeamAssignmentPool--) | Gets a value indicating whether IsTeamAssignmentPool is set or not. |
-| [set(Key&lt;Date,Integer&gt; key, Date val)](#set-com.aspose.tasks.Key-java.util.Date-java.lang.Integer--java.util.Date-) | Maps the specified property to the specified value in this container. |
+| [set(Key&lt;Date,Byte&gt; key, Date val)](#set-com.aspose.tasks.Key-java.util.Date-java.lang.Byte--java.util.Date-) | Maps the specified property to the specified value in this container. |
 | [setACWP(double value)](#setACWP-double-) | Sets a value of ACWP. |
 | [setAccrueAt(int value)](#setAccrueAt-int-) | Sets a value of AccrueAt. |
 | [setActiveDirectoryGuid(String value)](#setActiveDirectoryGuid-java.lang.String-) | Sets a value of ActiveDirectoryGuid. |
@@ -187,9 +187,9 @@ Represents a resource in a project.
 | [setWorkVariance(double value)](#setWorkVariance-double-) | Sets a value of WorkVariance. |
 | [setWorkgroup(int value)](#setWorkgroup-int-) | Sets a value of Workgroup. |
 | [toString()](#toString--) | Returns short string representation of the instance of the [Resource](../../com.aspose.tasks/resource) class. |
-### &lt;T&gt;get(Key&lt;T,Integer&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--}
+### &lt;T&gt;get(Key&lt;T,Byte&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--}
 ```
-public final T <T>get(Key<T,Integer> key)
+public final T <T>get(Key<T,Byte> key)
 ```
 
 
@@ -198,13 +198,13 @@ Returns the value to which the property is mapped in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Rsc](../../com.aspose.tasks/rsc) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Rsc](../../com.aspose.tasks/rsc) for getting the property key. |
 
 **Returns:**
 T - the value to which the property is mapped in this container.
-### &lt;T&gt;set(Key&lt;T,Integer&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-}
+### &lt;T&gt;set(Key&lt;T,Byte&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-}
 ```
-public void <T>set(Key<T,Integer> key, T val)
+public void <T>set(Key<T,Byte> key, T val)
 ```
 
 
@@ -213,7 +213,7 @@ Maps the specified property to the specified value in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Rsc](../../com.aspose.tasks/rsc) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Rsc](../../com.aspose.tasks/rsc) for getting the property key. |
 | val | T | the value. |
 
 ### canLevel() {#canLevel--}
@@ -980,9 +980,9 @@ Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollecti
 
 **Returns:**
 [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - List of [TimephasedData](../../com.aspose.tasks/timephaseddata).
-### getTimephasedData(Date start, Date end, int timephasedType) {#getTimephasedData-java.util.Date-java.util.Date-int-}
+### getTimephasedData(Date start, Date end, byte timephasedType) {#getTimephasedData-java.util.Date-java.util.Date-byte-}
 ```
-public final TimephasedDataCollection getTimephasedData(Date start, Date end, int timephasedType)
+public final TimephasedDataCollection getTimephasedData(Date start, Date end, byte timephasedType)
 ```
 
 
@@ -993,7 +993,7 @@ Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/tim
 | --- | --- | --- |
 | start | java.util.Date | The start date for the time phased data. |
 | end | java.util.Date | The end date for the time phased data. |
-| timephasedType | int | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
+| timephasedType | byte | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
 
 **Returns:**
 [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - List of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)).
@@ -1147,9 +1147,9 @@ Gets a value indicating whether IsTeamAssignmentPool is set or not.
 
 **Returns:**
 boolean - a value indicating whether IsTeamAssignmentPool is set or not.
-### set(Key&lt;Date,Integer&gt; key, Date val) {#set-com.aspose.tasks.Key-java.util.Date-java.lang.Integer--java.util.Date-}
+### set(Key&lt;Date,Byte&gt; key, Date val) {#set-com.aspose.tasks.Key-java.util.Date-java.lang.Byte--java.util.Date-}
 ```
-public final void set(Key<Date,Integer> key, Date val)
+public final void set(Key<Date,Byte> key, Date val)
 ```
 
 
@@ -1158,7 +1158,7 @@ Maps the specified property to the specified value in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;java.util.Date,java.lang.Integer&gt; | the specified property key. [Rsc](../../com.aspose.tasks/rsc) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;java.util.Date,java.lang.Byte&gt; | the specified property key. [Rsc](../../com.aspose.tasks/rsc) for getting the property key. |
 | val | java.util.Date | the value. |
 
 ### setACWP(double value) {#setACWP-double-}

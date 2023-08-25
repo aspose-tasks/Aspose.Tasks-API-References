@@ -3,14 +3,14 @@ title: Project
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a project.
 type: docs
-weight: 203
+weight: 204
 url: /java/com.aspose.tasks/project/
 ---
 
 **Inheritance:**
 java.lang.Object, com.aspose.tasks.IContainer
 ```
-public class Project extends IContainer<Integer>
+public class Project extends IContainer<Byte>
 ```
 
 Represents a project.
@@ -52,8 +52,8 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 
 | Method | Description |
 | --- | --- |
-| [&lt;T&gt;get(Key&lt;T,Integer&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--) | Returns the value to which the property is mapped in this container. |
-| [&lt;T&gt;set(Key&lt;T,Integer&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-) | Maps the specified property to the specified value in this container. |
+| [&lt;T&gt;get(Key&lt;T,Byte&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--) | Returns the value to which the property is mapped in this container. |
+| [&lt;T&gt;set(Key&lt;T,Byte&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-) | Maps the specified property to the specified value in this container. |
 | [copyTo(Project another)](#copyTo-com.aspose.tasks.Project-) | Copies project's main data and properties to another project. |
 | [copyTo(Project another, CopyToOptions options)](#copyTo-com.aspose.tasks.Project-com.aspose.tasks.CopyToOptions-) | Copies project's main data and properties to another project. |
 | [enumerateAllChildTasks()](#enumerateAllChildTasks--) | Recursively enumerates all project's tasks including root task. |
@@ -96,7 +96,7 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [getDefaultWeekWorkingDays()](#getDefaultWeekWorkingDays--) | Gets the instance of [WeekDayCollection](../../com.aspose.tasks/weekdaycollection) class which represents a collection of project default week working days and working times. |
 | [getDisplayOptions()](#getDisplayOptions--) | Gets an instance of the [ProjectDisplayOptions](../../com.aspose.tasks/projectdisplayoptions) class. |
 | [getDuration(double val)](#getDuration-double-) | Gets [Duration](../../com.aspose.tasks/duration) object with the specified number of units and default duration format which is defined in project's settings [Prj.DURATION\_FORMAT](../../com.aspose.tasks/prj\#DURATION-FORMAT). |
-| [getDuration(double val, int timeUnit)](#getDuration-double-int-) | Gets [Duration](../../com.aspose.tasks/duration) object with the specified number of [TimeUnitType](../../com.aspose.tasks/timeunittype) units. |
+| [getDuration(double val, byte timeUnit)](#getDuration-double-byte-) | Gets [Duration](../../com.aspose.tasks/duration) object with the specified number of [TimeUnitType](../../com.aspose.tasks/timeunittype) units. |
 | [getDurationFormat()](#getDurationFormat--) | Gets a value of DurationFormat. |
 | [getEarnedValueMethod()](#getEarnedValueMethod--) | Gets a value of EarnedValueMethod. |
 | [getExtendedAttributes()](#getExtendedAttributes--) | Gets ExtendedAttributeDefinitionCollection object. |
@@ -206,7 +206,7 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [saveReport(String fileName)](#saveReport-java.lang.String-) | Saves the project overview report to PDF file. |
 | [saveReport(String fileName, int reportType)](#saveReport-java.lang.String-int-) | Saves the project report of the specified type in PDF format to the specified file path. |
 | [selectAllChildTasks()](#selectAllChildTasks--) | Recursively collects all child tasks of the root task. |
-| [set(Key&lt;Date,Integer&gt; key, Date val)](#set-com.aspose.tasks.Key-java.util.Date-java.lang.Integer--java.util.Date-) | Maps the specified property to the specified value in this container. |
+| [set(Key&lt;Date,Byte&gt; key, Date val)](#set-com.aspose.tasks.Key-java.util.Date-java.lang.Byte--java.util.Date-) | Maps the specified property to the specified value in this container. |
 | [setActualsInSync(NullableBool value)](#setActualsInSync-com.aspose.tasks.NullableBool-) | Sets a value indicating whether ActualsInSync is set or not. |
 | [setAdminProject(NullableBool value)](#setAdminProject-com.aspose.tasks.NullableBool-) | Sets a value indicating whether AdminProject is set or not. |
 | [setAreEditableActualCosts(NullableBool value)](#setAreEditableActualCosts-com.aspose.tasks.NullableBool-) | Sets a value indicating whether AreEditableActualCosts is set or not. |
@@ -241,7 +241,7 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [setDefaultTaskEVMethod(int value)](#setDefaultTaskEVMethod-int-) | Sets a value of DefaultTaskEVMethod. |
 | [setDefaultTaskType(int value)](#setDefaultTaskType-int-) | Sets a value of DefaultTaskType. |
 | [setDefaultView(View value)](#setDefaultView-com.aspose.tasks.View-) | Sets default view of the project. |
-| [setDurationFormat(int value)](#setDurationFormat-int-) | Sets a value of DurationFormat. |
+| [setDurationFormat(byte value)](#setDurationFormat-byte-) | Sets a value of DurationFormat. |
 | [setEarnedValueMethod(int value)](#setEarnedValueMethod-int-) | Sets a value of EarnedValueMethod. |
 | [setExtendedCreationDate(Date value)](#setExtendedCreationDate-java.util.Date-) | Sets a value of ExtendedCreationDate. |
 | [setFinishDate(Date value)](#setFinishDate-java.util.Date-) | Sets a value of FinishDate. |
@@ -291,7 +291,7 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [setUpdateManuallyScheduledTasksWhenEditingLinks(NullableBool value)](#setUpdateManuallyScheduledTasksWhenEditingLinks-com.aspose.tasks.NullableBool-) | Sets a value indicating whether UpdateManuallyScheduledTasksWhenEditingLinks is set or not. |
 | [setWBSCodeDefinition(WBSCodeDefinition value)](#setWBSCodeDefinition-com.aspose.tasks.WBSCodeDefinition-) | Sets WBS Code Definition for the project. |
 | [setWeekStartDay(int value)](#setWeekStartDay-int-) | Sets a value of WeekStartDay. |
-| [setWorkFormat(int value)](#setWorkFormat-int-) | Sets a value of WorkFormat. |
+| [setWorkFormat(byte value)](#setWorkFormat-byte-) | Sets a value of WorkFormat. |
 | [updateProjectWorkAsComplete(Date completeThrough, boolean setZeroOrHundredPercentCompleteOnly)](#updateProjectWorkAsComplete-java.util.Date-boolean-) | Updates all work as complete through a specified date for the entire project. |
 | [updateProjectWorkAsComplete(Date completeThrough, boolean setZeroOrHundredPercentCompleteOnly, List&lt;Task&gt; taskCollection)](#updateProjectWorkAsComplete-java.util.Date-boolean-java.util.List-com.aspose.tasks.Task--) | Updates all work as complete through a specified date for the specified list of tasks. |
 ### Project() {#Project--}
@@ -461,9 +461,9 @@ Initializes a new instance of the [Project](../../com.aspose.tasks/project) clas
 | stream | java.io.InputStream | Stream of the Project java.io.InputStreamclass |
 | options | [LoadOptions](../../com.aspose.tasks/loadoptions) | the specified instance of the [LoadOptions](../../com.aspose.tasks/loadoptions)class |
 
-### &lt;T&gt;get(Key&lt;T,Integer&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--}
+### &lt;T&gt;get(Key&lt;T,Byte&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--}
 ```
-public final T <T>get(Key<T,Integer> key)
+public final T <T>get(Key<T,Byte> key)
 ```
 
 
@@ -472,13 +472,13 @@ Returns the value to which the property is mapped in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Prj](../../com.aspose.tasks/prj) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Prj](../../com.aspose.tasks/prj) for getting the property key. |
 
 **Returns:**
 T - the value to which the property is mapped in this container.
-### &lt;T&gt;set(Key&lt;T,Integer&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-}
+### &lt;T&gt;set(Key&lt;T,Byte&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-}
 ```
-public final void <T>set(Key<T,Integer> key, T val)
+public final void <T>set(Key<T,Byte> key, T val)
 ```
 
 
@@ -487,7 +487,7 @@ Maps the specified property to the specified value in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Prj](../../com.aspose.tasks/prj) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Prj](../../com.aspose.tasks/prj) for getting the property key. |
 | val | T | the value. |
 
 ### copyTo(Project another) {#copyTo-com.aspose.tasks.Project-}
@@ -939,9 +939,9 @@ Gets [Duration](../../com.aspose.tasks/duration) object with the specified numbe
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - Duration object.
-### getDuration(double val, int timeUnit) {#getDuration-double-int-}
+### getDuration(double val, byte timeUnit) {#getDuration-double-byte-}
 ```
-public final Duration getDuration(double val, int timeUnit)
+public final Duration getDuration(double val, byte timeUnit)
 ```
 
 
@@ -951,20 +951,20 @@ Gets [Duration](../../com.aspose.tasks/duration) object with the specified numbe
 | Parameter | Type | Description |
 | --- | --- | --- |
 | val | double | specified number of units. |
-| timeUnit | int | specified TimeUnitType value. |
+| timeUnit | byte | specified TimeUnitType value. |
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - Duration object.
 ### getDurationFormat() {#getDurationFormat--}
 ```
-public final int getDurationFormat()
+public final byte getDurationFormat()
 ```
 
 
 Gets a value of DurationFormat.
 
 **Returns:**
-int - a value of DurationFormat.
+byte - a value of DurationFormat.
 ### getEarnedValueMethod() {#getEarnedValueMethod--}
 ```
 public final int getEarnedValueMethod()
@@ -1798,14 +1798,14 @@ Gets [Duration](../../com.aspose.tasks/duration) object with the specified  doub
 [Duration](../../com.aspose.tasks/duration) - Duration object.
 ### getWorkFormat() {#getWorkFormat--}
 ```
-public final int getWorkFormat()
+public final byte getWorkFormat()
 ```
 
 
 Gets a value of WorkFormat.
 
 **Returns:**
-int - a value of WorkFormat.
+byte - a value of WorkFormat.
 ### print() {#print--}
 ```
 public final void print()
@@ -2216,9 +2216,9 @@ Recursively collects all child tasks of the root task.
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.Task&gt; - The collection of tasks.
-### set(Key&lt;Date,Integer&gt; key, Date val) {#set-com.aspose.tasks.Key-java.util.Date-java.lang.Integer--java.util.Date-}
+### set(Key&lt;Date,Byte&gt; key, Date val) {#set-com.aspose.tasks.Key-java.util.Date-java.lang.Byte--java.util.Date-}
 ```
-public final void set(Key<Date,Integer> key, Date val)
+public final void set(Key<Date,Byte> key, Date val)
 ```
 
 
@@ -2227,7 +2227,7 @@ Maps the specified property to the specified value in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;java.util.Date,java.lang.Integer&gt; | the specified property key. [Prj](../../com.aspose.tasks/prj) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;java.util.Date,java.lang.Byte&gt; | the specified property key. [Prj](../../com.aspose.tasks/prj) for getting the property key. |
 | val | java.util.Date | the value. |
 
 ### setActualsInSync(NullableBool value) {#setActualsInSync-com.aspose.tasks.NullableBool-}
@@ -2678,9 +2678,9 @@ Sets default view of the project.
 | --- | --- | --- |
 | value | [View](../../com.aspose.tasks/view) | default view of the project. |
 
-### setDurationFormat(int value) {#setDurationFormat-int-}
+### setDurationFormat(byte value) {#setDurationFormat-byte-}
 ```
-public final void setDurationFormat(int value)
+public final void setDurationFormat(byte value)
 ```
 
 
@@ -2689,7 +2689,7 @@ Sets a value of DurationFormat.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | a value of DurationFormat. |
+| value | byte | a value of DurationFormat. |
 
 ### setEarnedValueMethod(int value) {#setEarnedValueMethod-int-}
 ```
@@ -3328,9 +3328,9 @@ Sets a value of WeekStartDay.
 | --- | --- | --- |
 | value | int | a value of WeekStartDay. |
 
-### setWorkFormat(int value) {#setWorkFormat-int-}
+### setWorkFormat(byte value) {#setWorkFormat-byte-}
 ```
-public final void setWorkFormat(int value)
+public final void setWorkFormat(byte value)
 ```
 
 
@@ -3339,7 +3339,7 @@ Sets a value of WorkFormat.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | a value of WorkFormat. |
+| value | byte | a value of WorkFormat. |
 
 ### updateProjectWorkAsComplete(Date completeThrough, boolean setZeroOrHundredPercentCompleteOnly) {#updateProjectWorkAsComplete-java.util.Date-boolean-}
 ```

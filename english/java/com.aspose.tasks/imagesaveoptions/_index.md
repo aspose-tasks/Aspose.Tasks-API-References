@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to images.
 type: docs
-weight: 128
+weight: 129
 url: /java/com.aspose.tasks/imagesaveoptions/
 ---
 
@@ -30,6 +30,7 @@ Allows to specify additional options when rendering project pages to images.
 | [deepClone()](#deepClone--) | \{@inheritDoc\} |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the default (or fallback) font for rendering. |
 | [getFontResolveCallback()](#getFontResolveCallback--) | Gets a callback which can be used to customize resolved fonts. |
+| [getFontSettings()](#getFontSettings--) | Specifies font settings used when rendering project's view. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution in dpi. |
 | [getJpegQuality()](#getJpegQuality--) | Gets a JPEG quality. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Gets a user-defined callback which is used to get an output stream for each rendered page. |
@@ -106,6 +107,16 @@ Gets a callback which can be used to customize resolved fonts.
 
 **Returns:**
 [FontResolveCallbackDelegate](../../com.aspose.tasks/fontresolvecallbackdelegate) - a callback which can be used to customize resolved fonts.
+### getFontSettings() {#getFontSettings--}
+```
+public final FontSettings getFontSettings()
+```
+
+
+Specifies font settings used when rendering project's view.
+
+**Returns:**
+[FontSettings](../../com.aspose.tasks/fontsettings) - font settings.
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public final float getHorizontalResolution()

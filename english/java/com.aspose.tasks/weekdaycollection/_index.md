@@ -3,7 +3,7 @@ title: WeekDayCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 328
+weight: 329
 url: /java/com.aspose.tasks/weekdaycollection/
 ---
 

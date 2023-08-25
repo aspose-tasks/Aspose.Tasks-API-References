@@ -3,7 +3,7 @@ title: GanttBarType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the bar type.
 type: docs
-weight: 109
+weight: 110
 url: /java/com.aspose.tasks/ganttbartype/
 ---
 

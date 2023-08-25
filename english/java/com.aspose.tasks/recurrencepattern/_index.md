@@ -3,7 +3,7 @@ title: RecurrencePattern
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a type of recurrence pattern of a recurrent task.
 type: docs
-weight: 223
+weight: 224
 url: /java/com.aspose.tasks/recurrencepattern/
 ---
 

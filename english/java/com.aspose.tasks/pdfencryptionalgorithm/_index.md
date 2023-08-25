@@ -3,7 +3,7 @@ title: PdfEncryptionAlgorithm
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the encryption algorithm to use for encrypting a PDF document.
 type: docs
-weight: 176
+weight: 177
 url: /java/com.aspose.tasks/pdfencryptionalgorithm/
 ---
 

@@ -3,7 +3,7 @@ title: GanttChartColumn
 second_title: Aspose.Tasks for Java API Reference
 description: Projects view class
 type: docs
-weight: 110
+weight: 111
 url: /java/com.aspose.tasks/ganttchartcolumn/
 ---
 

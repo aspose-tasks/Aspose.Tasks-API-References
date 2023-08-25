@@ -3,7 +3,7 @@ title: GroupCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Contains a list of  objects.
 type: docs
-weight: 117
+weight: 118
 url: /java/com.aspose.tasks/groupcollection/
 ---
 
