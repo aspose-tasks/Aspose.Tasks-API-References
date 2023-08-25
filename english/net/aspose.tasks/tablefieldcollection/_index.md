@@ -3,7 +3,7 @@ title: TableFieldCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains a list of TableField./tablefield objects. Implements IListltTableFieldgt interface.
 type: docs
-weight: 2120
+weight: 2130
 url: /net/aspose.tasks/tablefieldcollection/
 ---
 ## TableFieldCollection class

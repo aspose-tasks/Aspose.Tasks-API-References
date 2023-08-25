@@ -3,7 +3,7 @@ title: OutlineValue
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an outline value.
 type: docs
-weight: 1080
+weight: 1090
 url: /net/aspose.tasks/outlinevalue/
 ---
 ## OutlineValue class

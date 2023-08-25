@@ -3,7 +3,7 @@ title: RecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a type of recurrence pattern of a recurrent task.
 type: docs
-weight: 1500
+weight: 1510
 url: /net/aspose.tasks/recurrencepattern/
 ---
 ## RecurrencePattern enumeration

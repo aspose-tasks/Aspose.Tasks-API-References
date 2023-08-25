@@ -3,7 +3,7 @@ title: ExportImages
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the way images are exported.
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.tasks.saving/htmlsaveoptions/exportimages/
 ---
 ## HtmlSaveOptions.ExportImages property

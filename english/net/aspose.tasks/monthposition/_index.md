@@ -3,7 +3,7 @@ title: MonthPosition
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the position of a month item within a month.
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.tasks/monthposition/
 ---
 ## MonthPosition enumeration

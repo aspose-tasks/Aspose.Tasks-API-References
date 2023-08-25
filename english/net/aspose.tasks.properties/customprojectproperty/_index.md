@@ -3,7 +3,7 @@ title: CustomProjectProperty
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a custom property.
 type: docs
-weight: 1350
+weight: 1360
 url: /net/aspose.tasks.properties/customprojectproperty/
 ---
 ## CustomProjectProperty class

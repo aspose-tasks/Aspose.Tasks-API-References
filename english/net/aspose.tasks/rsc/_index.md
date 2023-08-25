@@ -3,7 +3,7 @@ title: Rsc
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents supported properties of Resource./resource object.
 type: docs
-weight: 1760
+weight: 1770
 url: /net/aspose.tasks/rsc/
 ---
 ## Rsc class

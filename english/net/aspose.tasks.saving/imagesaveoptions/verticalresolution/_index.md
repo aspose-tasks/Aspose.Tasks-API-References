@@ -3,7 +3,7 @@ title: VerticalResolution
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the vertical resolution in dpi.
 type: docs
-weight: 120
+weight: 100
 url: /net/aspose.tasks.saving/imagesaveoptions/verticalresolution/
 ---
 ## ImageSaveOptions.VerticalResolution property

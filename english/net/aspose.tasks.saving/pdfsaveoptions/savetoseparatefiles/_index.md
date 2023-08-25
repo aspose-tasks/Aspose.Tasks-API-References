@@ -3,7 +3,7 @@ title: SaveToSeparateFiles
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether to save project pages to separate files.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks.saving/pdfsaveoptions/savetoseparatefiles/
 ---
 ## PdfSaveOptions.SaveToSeparateFiles property

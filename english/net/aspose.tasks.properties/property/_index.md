@@ -3,7 +3,7 @@ title: Property
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a base class of a property.
 type: docs
-weight: 1390
+weight: 1400
 url: /net/aspose.tasks.properties/property/
 ---
 ## Property class

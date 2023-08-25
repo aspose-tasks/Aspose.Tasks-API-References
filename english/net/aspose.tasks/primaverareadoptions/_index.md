@@ -3,7 +3,7 @@ title: PrimaveraReadOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when reading Primavera Xml or Primavera Xer files.
 type: docs
-weight: 1190
+weight: 1200
 url: /net/aspose.tasks/primaverareadoptions/
 ---
 ## PrimaveraReadOptions class

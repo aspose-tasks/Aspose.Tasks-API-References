@@ -3,7 +3,7 @@ title: PixelFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the format of the color data for each pixel in the image.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property

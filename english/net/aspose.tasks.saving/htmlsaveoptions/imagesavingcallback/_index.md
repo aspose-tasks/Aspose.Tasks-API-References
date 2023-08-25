@@ -3,7 +3,7 @@ title: ImageSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the callback that is called to create resource to store font.
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.tasks.saving/htmlsaveoptions/imagesavingcallback/
 ---
 ## HtmlSaveOptions.ImageSavingCallback property

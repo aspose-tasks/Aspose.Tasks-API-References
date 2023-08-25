@@ -3,7 +3,7 @@ title: XlsxOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when rendering project pages to XLSX.
 type: docs
-weight: 2040
+weight: 2050
 url: /net/aspose.tasks.saving/xlsxoptions/
 ---
 ## XlsxOptions class

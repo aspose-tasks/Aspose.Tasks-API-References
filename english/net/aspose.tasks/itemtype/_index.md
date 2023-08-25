@@ -3,7 +3,7 @@ title: ItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of an item.
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.tasks/itemtype/
 ---
 ## ItemType enumeration

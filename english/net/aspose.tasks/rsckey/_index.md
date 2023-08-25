@@ -3,7 +3,7 @@ title: RscKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a list of supported resource fields.
 type: docs
-weight: 1770
+weight: 1780
 url: /net/aspose.tasks/rsckey/
 ---
 ## RscKey enumeration
@@ -11,7 +11,7 @@ url: /net/aspose.tasks/rsckey/
 Represents a list of supported resource fields.
 
 ```csharp
-public enum RscKey
+public enum RscKey : byte
 ```
 
 ### Values

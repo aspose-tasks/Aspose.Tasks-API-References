@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.tasks/timephaseddata/createcosttimephased/
 ---
-## TimephasedData.CreateCostTimephased method
+## CreateCostTimephased(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) {#createcosttimephased_1}
 
 Creates and initializes a new instance of the [`TimephasedData`](../../timephaseddata) class for cost-based time phased data.
 
@@ -127,6 +127,42 @@ project.Recalculate();
 ### See Also
 
 * enum [TimeUnitType](../../timeunittype)
+* enum [TimephasedDataType](../../timephaseddatatype)
+* class [TimephasedData](../../timephaseddata)
+* namespace [Aspose.Tasks](../../timephaseddata)
+* assembly [Aspose.Tasks](../../../)
+
+---
+
+## CreateCostTimephased(int, DateTime, DateTime, double, TimephasedDataType) {#createcosttimephased}
+
+Creates and initializes a new instance of the [`TimephasedData`](../../timephaseddata) class for cost-based time phased data.
+
+```csharp
+public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateTime finish, 
+    double value, TimephasedDataType type)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | Int32 | UID of the task. |
+| start | DateTime | start date-time. |
+| finish | DateTime | Finish date-time. |
+| value | Double | Cost value. |
+| type | TimephasedDataType | Time-phased data type. |
+
+### Return Value
+
+A instance of the [`TimephasedData`](../../timephaseddata) class for cost-based time phased data.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | If negative cost value was specified. |
+
+### See Also
+
 * enum [TimephasedDataType](../../timephaseddatatype)
 * class [TimephasedData](../../timephaseddata)
 * namespace [Aspose.Tasks](../../timephaseddata)

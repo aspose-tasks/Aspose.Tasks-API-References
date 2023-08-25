@@ -11,7 +11,7 @@ url: /net/aspose.tasks/timephaseddata/valuetocost/
 Gets Double instance which represents string value of this object.
 
 ```csharp
-public double ValueToCost { get; }
+public double ValueToCost { get; set; }
 ```
 
 ### Return Value
