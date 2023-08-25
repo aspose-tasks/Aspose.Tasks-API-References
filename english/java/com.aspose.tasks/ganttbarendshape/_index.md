@@ -3,7 +3,7 @@ title: GanttBarEndShape
 second_title: Aspose.Tasks for Java API Reference
 description: Represents end shape in bars and progress points in progress lines.
 type: docs
-weight: 103
+weight: 104
 url: /java/com.aspose.tasks/ganttbarendshape/
 ---
 

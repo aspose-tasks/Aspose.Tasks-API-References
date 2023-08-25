@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 232
+weight: 233
 url: /java/com.aspose.tasks/resourceassignment/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.tasks.IContainer
 **All Implemented Interfaces:**
 com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink
 ```
-public class ResourceAssignment extends IContainer<Integer> implements System.IEquatable<ResourceAssignment>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
+public class ResourceAssignment extends IContainer<Byte> implements System.IEquatable<ResourceAssignment>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
 ```
 
 Represents a resource assignment in a project.
@@ -21,8 +21,8 @@ Represents a resource assignment in a project.
 
 | Method | Description |
 | --- | --- |
-| [&lt;T&gt;get(Key&lt;T,Integer&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--) | Returns the value to which the property is mapped in this container. |
-| [&lt;T&gt;set(Key&lt;T,Integer&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-) | Maps the specified property to the specified value in this container. |
+| [&lt;T&gt;get(Key&lt;T,Byte&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--) | Returns the value to which the property is mapped in this container. |
+| [&lt;T&gt;set(Key&lt;T,Byte&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-) | Maps the specified property to the specified value in this container. |
 | [delete()](#delete--) | Deletes resource assignment from project assignments collection. |
 | [equals(ResourceAssignment other)](#equals-com.aspose.tasks.ResourceAssignment-) | Returns a value indicating whether this instance is equal to a specified instance of the [ResourceAssignment](../../com.aspose.tasks/resourceassignment) class. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
@@ -89,7 +89,7 @@ Represents a resource assignment in a project.
 | [getTask()](#getTask--) | The task to which a resource is assigned. |
 | [getTimephasedData()](#getTimephasedData--) | Gets the instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing elements of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class. |
 | [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with the instances of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of [TimephasedDataType.AssignmentWork](../../com.aspose.tasks/timephaseddatatype\#AssignmentWork). |
-| [getTimephasedData(Date start, Date end, int timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-int-) | Returns the instance [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing instances of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
+| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns the instance [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing instances of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
 | [getUid()](#getUid--) | Gets a value of Uid. |
 | [getUnits()](#getUnits--) | Gets a value of Units. |
 | [getUpdateNeeded()](#getUpdateNeeded--) | Gets a value indicating whether UpdateNeeded is set or not. |
@@ -134,7 +134,7 @@ Represents a resource assignment in a project.
 | [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | Sets a value of HyperlinkAddress. |
 | [setHyperlinkSubAddress(String value)](#setHyperlinkSubAddress-java.lang.String-) | Sets a value of HyperlinkSubAddress. |
 | [setLevelingDelay(Duration value)](#setLevelingDelay-com.aspose.tasks.Duration-) | Sets a value of LevelingDelay. |
-| [setLevelingDelayFormat(int value)](#setLevelingDelayFormat-int-) | Sets a value of LevelingDelayFormat. |
+| [setLevelingDelayFormat(byte value)](#setLevelingDelayFormat-byte-) | Sets a value of LevelingDelayFormat. |
 | [setLinkedFields(boolean value)](#setLinkedFields-boolean-) | Sets a value indicating whether LinkedFields is set or not. |
 | [setMilestone(boolean value)](#setMilestone-boolean-) | Sets a value indicating whether Milestone is set or not. |
 | [setNotes(String value)](#setNotes-java.lang.String-) | Sets a value of Notes. |
@@ -171,9 +171,9 @@ Represents a resource assignment in a project.
 | [splitTask(Date start, Date finish, Calendar calendar)](#splitTask-java.util.Date-java.util.Date-com.aspose.tasks.Calendar-) | Splits task into two parts. |
 | [timephasedDataFromTaskDuration(Calendar calendar)](#timephasedDataFromTaskDuration-com.aspose.tasks.Calendar-) | Generates list of time phased data based on the task duration and the scheduled start date. |
 | [toString()](#toString--) | Returns short string representation of the instance of the [ResourceAssignment](../../com.aspose.tasks/resourceassignment) class. |
-### &lt;T&gt;get(Key&lt;T,Integer&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--}
+### &lt;T&gt;get(Key&lt;T,Byte&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--}
 ```
-public final T <T>get(Key<T,Integer> key)
+public final T <T>get(Key<T,Byte> key)
 ```
 
 
@@ -182,13 +182,13 @@ Returns the value to which the property is mapped in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Asn](../../com.aspose.tasks/asn) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Asn](../../com.aspose.tasks/asn) for getting the property key. |
 
 **Returns:**
 T - the value to which the property is mapped in this container.
-### &lt;T&gt;set(Key&lt;T,Integer&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-}
+### &lt;T&gt;set(Key&lt;T,Byte&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-}
 ```
-public final void <T>set(Key<T,Integer> key, T val)
+public final void <T>set(Key<T,Byte> key, T val)
 ```
 
 
@@ -197,7 +197,7 @@ Maps the specified property to the specified value in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Asn](../../com.aspose.tasks/asn) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Asn](../../com.aspose.tasks/asn) for getting the property key. |
 | val | T | the value. |
 
 ### delete() {#delete--}
@@ -584,14 +584,14 @@ Gets a value of LevelingDelay.
 [Duration](../../com.aspose.tasks/duration) - a value of LevelingDelay.
 ### getLevelingDelayFormat() {#getLevelingDelayFormat--}
 ```
-public final int getLevelingDelayFormat()
+public final byte getLevelingDelayFormat()
 ```
 
 
 Gets a value of LevelingDelayFormat.
 
 **Returns:**
-int - a value of LevelingDelayFormat.
+byte - a value of LevelingDelayFormat.
 ### getLinkedFields() {#getLinkedFields--}
 ```
 public final boolean getLinkedFields()
@@ -882,9 +882,9 @@ Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollecti
 
 **Returns:**
 [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - returns a list containing instances of [TimephasedData](../../com.aspose.tasks/timephaseddata) class.
-### getTimephasedData(Date start, Date end, int timephasedType) {#getTimephasedData-java.util.Date-java.util.Date-int-}
+### getTimephasedData(Date start, Date end, byte timephasedType) {#getTimephasedData-java.util.Date-java.util.Date-byte-}
 ```
-public final TimephasedDataCollection getTimephasedData(Date start, Date end, int timephasedType)
+public final TimephasedDataCollection getTimephasedData(Date start, Date end, byte timephasedType)
 ```
 
 
@@ -895,7 +895,7 @@ Returns the instance [TimephasedDataCollection](../../com.aspose.tasks/timephase
 | --- | --- | --- |
 | start | java.util.Date | The start date for the time phased data. |
 | end | java.util.Date | The end date for the time phased data. |
-| timephasedType | int | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
+| timephasedType | byte | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
 
 **Returns:**
 [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - returns a list which contains instances of [TimephasedData](../../com.aspose.tasks/timephaseddata) class.
@@ -1452,9 +1452,9 @@ Sets a value of LevelingDelay.
 | --- | --- | --- |
 | value | [Duration](../../com.aspose.tasks/duration) | a value of LevelingDelay. |
 
-### setLevelingDelayFormat(int value) {#setLevelingDelayFormat-int-}
+### setLevelingDelayFormat(byte value) {#setLevelingDelayFormat-byte-}
 ```
-public final void setLevelingDelayFormat(int value)
+public final void setLevelingDelayFormat(byte value)
 ```
 
 
@@ -1463,7 +1463,7 @@ Sets a value of LevelingDelayFormat.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | a value of LevelingDelayFormat. |
+| value | byte | a value of LevelingDelayFormat. |
 
 ### setLinkedFields(boolean value) {#setLinkedFields-boolean-}
 ```

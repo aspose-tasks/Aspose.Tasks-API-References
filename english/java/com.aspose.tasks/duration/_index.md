@@ -31,7 +31,7 @@ Represents duration in a project.
 | [add(Duration d)](#add-com.aspose.tasks.Duration-) | Adds specified duration to this duration. |
 | [add(double val)](#add-double-) | Adds specified double value to this duration. |
 | [clone()](#clone--) | \{@inheritDoc\} |
-| [convert(int timeUnitType)](#convert-int-) | Converts Duration object to another duration with specified time units. |
+| [convert(byte timeUnitType)](#convert-byte-) | Converts Duration object to another duration with specified time units. |
 | [equals(Duration other)](#equals-com.aspose.tasks.Duration-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [equals(Duration obj1, Duration obj2)](#equals-com.aspose.tasks.Duration-com.aspose.tasks.Duration-) | Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
@@ -119,9 +119,9 @@ public Object clone()
 
 **Returns:**
 java.lang.Object - \{@inheritDoc\}
-### convert(int timeUnitType) {#convert-int-}
+### convert(byte timeUnitType) {#convert-byte-}
 ```
-public final Duration convert(int timeUnitType)
+public final Duration convert(byte timeUnitType)
 ```
 
 
@@ -130,7 +130,7 @@ Converts Duration object to another duration with specified time units.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| timeUnitType | int | the specified time unit type. |
+| timeUnitType | byte | the specified time unit type. |
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - returns new duration with the specified unit type.
@@ -194,7 +194,7 @@ Value: The TimeSpan instance of this Duration object.
 double -  TimeSpan ([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) instance of this Duration object.
 ### getTimeUnit() {#getTimeUnit--}
 ```
-public final int getTimeUnit()
+public final byte getTimeUnit()
 ```
 
 
@@ -203,7 +203,7 @@ Gets time unit type for this object.
 Value: The time unit type of this Duration instance.
 
 **Returns:**
-int - time unit type for this object.
+byte - time unit type for this object.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

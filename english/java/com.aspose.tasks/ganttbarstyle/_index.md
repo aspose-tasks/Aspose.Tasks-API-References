@@ -3,7 +3,7 @@ title: GanttBarStyle
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a bar style used by MSP in Gantt Chart view.
 type: docs
-weight: 108
+weight: 109
 url: /java/com.aspose.tasks/ganttbarstyle/
 ---
 

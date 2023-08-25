@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 270
+weight: 271
 url: /java/com.aspose.tasks/task/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.tasks.IContainer
 **All Implemented Interfaces:**
 com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, java.lang.Cloneable
 ```
-public class Task extends IContainer<Integer> implements System.IEquatable<Task>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, Cloneable
+public class Task extends IContainer<Byte> implements System.IEquatable<Task>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, Cloneable
 ```
 
 Represents a task in a project.
@@ -52,8 +52,8 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 
 | Method | Description |
 | --- | --- |
-| [&lt;T&gt;get(Key&lt;T,Integer&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--) | Returns the value to which the property is mapped in this container. |
-| [&lt;T&gt;set(Key&lt;T,Integer&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-) | Maps the specified property to the specified value in this container. |
+| [&lt;T&gt;get(Key&lt;T,Byte&gt; key)](#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--) | Returns the value to which the property is mapped in this container. |
+| [&lt;T&gt;set(Key&lt;T,Byte&gt; key, T val)](#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-) | Maps the specified property to the specified value in this container. |
 | [deepClone()](#deepClone--) | Creates full copy of a task without subtasks. |
 | [delete()](#delete--) | Deletes a task from parent project tasks collection and all its assignments. |
 | [equals(Task other)](#equals-com.aspose.tasks.Task-) | Returns a value indicating whether this instance is equal to a specified task. |
@@ -164,7 +164,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [getSuccessors()](#getSuccessors--) | Gets a [TaskCollection](../../com.aspose.tasks/taskcollection) object which contains all successors of this Task object. |
 | [getTimephasedData()](#getTimephasedData--) | Gets a TimephasedDataCollection object of this task. |
 | [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates. |
-| [getTimephasedData(Date start, Date end, int timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-int-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified time-phased data type. |
+| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified time-phased data type. |
 | [getTotalSlack()](#getTotalSlack--) | Gets a value of TotalSlack. |
 | [getType()](#getType--) | Gets a value of Type. |
 | [getUid()](#getUid--) | Gets a value of Uid. |
@@ -198,7 +198,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [outlineIndent()](#outlineIndent--) | Indents a task in the outline. |
 | [outlineOutdent()](#outlineOutdent--) | Promotes a task in the outline. |
 | [selectAllChildTasks()](#selectAllChildTasks--) | Recursively collects all child tasks of this task. |
-| [set(Key&lt;Date,Integer&gt; key, Date val)](#set-com.aspose.tasks.Key-java.util.Date-java.lang.Integer--java.util.Date-) | Maps the specified property to the specified value in this container. |
+| [set(Key&lt;Date,Byte&gt; key, Date val)](#set-com.aspose.tasks.Key-java.util.Date-java.lang.Byte--java.util.Date-) | Maps the specified property to the specified value in this container. |
 | [setACWP(double value)](#setACWP-double-) | Sets a value of ACWP. |
 | [setActive(NullableBool value)](#setActive-com.aspose.tasks.NullableBool-) | Sets a value indicating whether IsActive is set or not. |
 | [setActivityId(String value)](#setActivityId-java.lang.String-) | Represents activity id field - a task's unique identifier used by Primavera. |
@@ -232,7 +232,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [setDisplayAsSummary(NullableBool value)](#setDisplayAsSummary-com.aspose.tasks.NullableBool-) | Sets a value indicating whether DisplayAsSummary is set or not. |
 | [setDisplayOnTimeline(boolean value)](#setDisplayOnTimeline-boolean-) | Sets a value indicating whether DisplayOnTimeline is set or not. |
 | [setDuration(Duration value)](#setDuration-com.aspose.tasks.Duration-) | Sets a value of Duration. |
-| [setDurationFormat(int value)](#setDurationFormat-int-) | Sets a value of DurationFormat. |
+| [setDurationFormat(byte value)](#setDurationFormat-byte-) | Sets a value of DurationFormat. |
 | [setDurationText(String value)](#setDurationText-java.lang.String-) | Sets a value of DurationText. |
 | [setDurationVariance(Duration value)](#setDurationVariance-com.aspose.tasks.Duration-) | Sets a value of DurationVariance. |
 | [setEarlyFinish(Date value)](#setEarlyFinish-java.util.Date-) | Sets a value of EarlyFinish. |
@@ -265,7 +265,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [setLevelAssignments(NullableBool value)](#setLevelAssignments-com.aspose.tasks.NullableBool-) | Sets a value indicating whether LevelAssignments is set or not. |
 | [setLevelingCanSplit(NullableBool value)](#setLevelingCanSplit-com.aspose.tasks.NullableBool-) | Sets a value indicating whether LevelingCanSplit is set or not. |
 | [setLevelingDelay(Duration value)](#setLevelingDelay-com.aspose.tasks.Duration-) | Sets a value of LevelingDelay. |
-| [setLevelingDelayFormat(int value)](#setLevelingDelayFormat-int-) | Sets a value of LevelingDelayFormat. |
+| [setLevelingDelayFormat(byte value)](#setLevelingDelayFormat-byte-) | Sets a value of LevelingDelayFormat. |
 | [setManual(NullableBool value)](#setManual-com.aspose.tasks.NullableBool-) | Sets a value indicating whether IsManual is set or not. |
 | [setManualDuration(Duration value)](#setManualDuration-com.aspose.tasks.Duration-) | Sets a value of ManualDuration. |
 | [setManualFinish(Date value)](#setManualFinish-java.util.Date-) | Sets a value of ManualFinish. |
@@ -320,9 +320,9 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [setWork(Duration value)](#setWork-com.aspose.tasks.Duration-) | Sets a value of Work. |
 | [setWorkVariance(Duration value)](#setWorkVariance-com.aspose.tasks.Duration-) | Sets a value of WorkVariance. |
 | [toString()](#toString--) | Returns short string representation of a task. |
-### &lt;T&gt;get(Key&lt;T,Integer&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Integer--}
+### &lt;T&gt;get(Key&lt;T,Byte&gt; key) {#-T-get-com.aspose.tasks.Key-T-java.lang.Byte--}
 ```
-public final T <T>get(Key<T,Integer> key)
+public final T <T>get(Key<T,Byte> key)
 ```
 
 
@@ -331,13 +331,13 @@ Returns the value to which the property is mapped in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Tsk](../../com.aspose.tasks/tsk) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Tsk](../../com.aspose.tasks/tsk) for getting the property key. |
 
 **Returns:**
 T - the value to which the property is mapped in this container.
-### &lt;T&gt;set(Key&lt;T,Integer&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Integer--T-}
+### &lt;T&gt;set(Key&lt;T,Byte&gt; key, T val) {#-T-set-com.aspose.tasks.Key-T-java.lang.Byte--T-}
 ```
-public final void <T>set(Key<T,Integer> key, T val)
+public final void <T>set(Key<T,Byte> key, T val)
 ```
 
 
@@ -346,7 +346,7 @@ Maps the specified property to the specified value in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;T,java.lang.Integer&gt; | the specified property key. [Tsk](../../com.aspose.tasks/tsk) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;T,java.lang.Byte&gt; | the specified property key. [Tsk](../../com.aspose.tasks/tsk) for getting the property key. |
 | val | T | the value. |
 
 ### deepClone() {#deepClone--}
@@ -729,14 +729,14 @@ Gets a value of Duration.
 [Duration](../../com.aspose.tasks/duration) - a value of Duration.
 ### getDurationFormat() {#getDurationFormat--}
 ```
-public final int getDurationFormat()
+public final byte getDurationFormat()
 ```
 
 
 Gets a value of DurationFormat.
 
 **Returns:**
-int - a value of DurationFormat.
+byte - a value of DurationFormat.
 ### getDurationText() {#getDurationText--}
 ```
 public final String getDurationText()
@@ -1051,14 +1051,14 @@ Gets a value of LevelingDelay.
 [Duration](../../com.aspose.tasks/duration) - a value of LevelingDelay.
 ### getLevelingDelayFormat() {#getLevelingDelayFormat--}
 ```
-public final int getLevelingDelayFormat()
+public final byte getLevelingDelayFormat()
 ```
 
 
 Gets a value of LevelingDelayFormat.
 
 **Returns:**
-int - a value of LevelingDelayFormat.
+byte - a value of LevelingDelayFormat.
 ### getManualDuration() {#getManualDuration--}
 ```
 public final Duration getManualDuration()
@@ -1491,9 +1491,9 @@ Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollecti
 
 **Returns:**
 [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - List of [TimephasedData](../../com.aspose.tasks/timephaseddata) to be filled in.
-### getTimephasedData(Date start, Date end, int timephasedType) {#getTimephasedData-java.util.Date-java.util.Date-int-}
+### getTimephasedData(Date start, Date end, byte timephasedType) {#getTimephasedData-java.util.Date-java.util.Date-byte-}
 ```
-public final TimephasedDataCollection getTimephasedData(Date start, Date end, int timephasedType)
+public final TimephasedDataCollection getTimephasedData(Date start, Date end, byte timephasedType)
 ```
 
 
@@ -1504,7 +1504,7 @@ Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollecti
 | --- | --- | --- |
 | start | java.util.Date | The start date for the time phased data. |
 | end | java.util.Date | The end date for the time phased data. |
-| timephasedType | int | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
+| timephasedType | byte | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
 
 **Returns:**
 [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - A [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified timephased data type.
@@ -1840,9 +1840,9 @@ Recursively collects all child tasks of this task.
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.tasks.Task&gt; - A list of child tasks of this task.
-### set(Key&lt;Date,Integer&gt; key, Date val) {#set-com.aspose.tasks.Key-java.util.Date-java.lang.Integer--java.util.Date-}
+### set(Key&lt;Date,Byte&gt; key, Date val) {#set-com.aspose.tasks.Key-java.util.Date-java.lang.Byte--java.util.Date-}
 ```
-public final void set(Key<Date,Integer> key, Date val)
+public final void set(Key<Date,Byte> key, Date val)
 ```
 
 
@@ -1851,7 +1851,7 @@ Maps the specified property to the specified value in this container.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | com.aspose.tasks.Key&lt;java.util.Date,java.lang.Integer&gt; | the specified property key. [Tsk](../../com.aspose.tasks/tsk) for getting the property key. |
+| key | com.aspose.tasks.Key&lt;java.util.Date,java.lang.Byte&gt; | the specified property key. [Tsk](../../com.aspose.tasks/tsk) for getting the property key. |
 | val | java.util.Date | the value. |
 
 ### setACWP(double value) {#setACWP-double-}
@@ -2283,9 +2283,9 @@ Sets a value of Duration.
 | --- | --- | --- |
 | value | [Duration](../../com.aspose.tasks/duration) | a value of Duration. |
 
-### setDurationFormat(int value) {#setDurationFormat-int-}
+### setDurationFormat(byte value) {#setDurationFormat-byte-}
 ```
-public final void setDurationFormat(int value)
+public final void setDurationFormat(byte value)
 ```
 
 
@@ -2294,7 +2294,7 @@ Sets a value of DurationFormat.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | a value of DurationFormat. |
+| value | byte | a value of DurationFormat. |
 
 ### setDurationText(String value) {#setDurationText-java.lang.String-}
 ```
@@ -2720,9 +2720,9 @@ Sets a value of LevelingDelay.
 | --- | --- | --- |
 | value | [Duration](../../com.aspose.tasks/duration) | a value of LevelingDelay. |
 
-### setLevelingDelayFormat(int value) {#setLevelingDelayFormat-int-}
+### setLevelingDelayFormat(byte value) {#setLevelingDelayFormat-byte-}
 ```
-public final void setLevelingDelayFormat(int value)
+public final void setLevelingDelayFormat(byte value)
 ```
 
 
@@ -2731,7 +2731,7 @@ Sets a value of LevelingDelayFormat.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | a value of LevelingDelayFormat. |
+| value | byte | a value of LevelingDelayFormat. |
 
 ### setManual(NullableBool value) {#setManual-com.aspose.tasks.NullableBool-}
 ```

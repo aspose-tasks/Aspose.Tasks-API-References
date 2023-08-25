@@ -3,7 +3,7 @@ title: GanttBarMiddleShape
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the middle shape of a bar.
 type: docs
-weight: 105
+weight: 106
 url: /java/com.aspose.tasks/ganttbarmiddleshape/
 ---
 

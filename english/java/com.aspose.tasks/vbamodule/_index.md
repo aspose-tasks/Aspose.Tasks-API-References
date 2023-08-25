@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a VBA module.
 type: docs
-weight: 310
+weight: 311
 url: /java/com.aspose.tasks/vbamodule/
 ---
 

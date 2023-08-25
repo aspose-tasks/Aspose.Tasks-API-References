@@ -3,7 +3,7 @@ title: RiskItemType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies task fields for which the statistical information is gathered during risk analysis.
 type: docs
-weight: 248
+weight: 249
 url: /java/com.aspose.tasks/riskitemtype/
 ---
 

@@ -3,7 +3,7 @@ title: TimephasedDataCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 299
+weight: 300
 url: /java/com.aspose.tasks/timephaseddatacollection/
 ---
 
@@ -32,7 +32,8 @@ Represents a collection of [TimephasedData](../../com.aspose.tasks/timephaseddat
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the System.Collections.Generic.ICollection&lt;T&gt; is read-only. |
 | [iterator()](#iterator--) | Returns an iterator for this collection. |
 | [remove(TimephasedData item)](#remove-com.aspose.tasks.TimephasedData-) | Removes [TimephasedData](../../com.aspose.tasks/timephaseddata) instance from this collection object. |
-| [selectBetweenStartAndFinish(int timephasedDataType, Date startTime, Date finishTime)](#selectBetweenStartAndFinish-int-java.util.Date-java.util.Date-) | Selects all time phases between  startTime  and  finishTime . |
+| [selectBetweenStartAndFinish(byte timephasedDataType, Date startTime, Date finishTime)](#selectBetweenStartAndFinish-byte-java.util.Date-java.util.Date-) | Selects all time phases between  startTime  and  finishTime . |
+| [set_Item(int index, TimephasedData value)](#set-Item-int-com.aspose.tasks.TimephasedData-) | Sets the element at the specified index. |
 | [size()](#size--) | Gets the number of objects contained in this [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object. |
 | [toList()](#toList--) | Converts the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object to a list of [TimephasedData](../../com.aspose.tasks/timephaseddata) objects. |
 ### TimephasedDataCollection() {#TimephasedDataCollection--}
@@ -158,9 +159,9 @@ Removes [TimephasedData](../../com.aspose.tasks/timephaseddata) instance from th
 
 **Returns:**
 boolean - true if  item  was successfully removed from the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection); otherwise, false. This method also returns false if  item  is not found in the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection).
-### selectBetweenStartAndFinish(int timephasedDataType, Date startTime, Date finishTime) {#selectBetweenStartAndFinish-int-java.util.Date-java.util.Date-}
+### selectBetweenStartAndFinish(byte timephasedDataType, Date startTime, Date finishTime) {#selectBetweenStartAndFinish-byte-java.util.Date-java.util.Date-}
 ```
-public final List<TimephasedData> selectBetweenStartAndFinish(int timephasedDataType, Date startTime, Date finishTime)
+public final List<TimephasedData> selectBetweenStartAndFinish(byte timephasedDataType, Date startTime, Date finishTime)
 ```
 
 
@@ -169,12 +170,26 @@ Selects all time phases between  startTime  and  finishTime . Has O(log n) compl
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| timephasedDataType | int | Type of time phases to select. |
+| timephasedDataType | byte | Type of time phases to select. |
 | startTime | java.util.Date | Interval's start. |
 | finishTime | java.util.Date | Interval's finish. |
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.TimephasedData&gt; - Returns new list instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) data ordered by Start property.
+### set_Item(int index, TimephasedData value) {#set-Item-int-com.aspose.tasks.TimephasedData-}
+```
+public final void set_Item(int index, TimephasedData value)
+```
+
+
+Sets the element at the specified index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the element to set. |
+| value | [TimephasedData](../../com.aspose.tasks/timephaseddata) | the element to set. |
+
 ### size() {#size--}
 ```
 public final int size()

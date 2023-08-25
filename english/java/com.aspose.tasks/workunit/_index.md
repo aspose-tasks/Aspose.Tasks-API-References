@@ -3,7 +3,7 @@ title: WorkUnit
 second_title: Aspose.Tasks for Java API Reference
 description: Represents working hours.
 type: docs
-weight: 337
+weight: 338
 url: /java/com.aspose.tasks/workunit/
 ---
 

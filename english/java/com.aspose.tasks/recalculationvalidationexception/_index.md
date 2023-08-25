@@ -3,7 +3,7 @@ title: RecalculationValidationException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an exception which is thrown when errors are found in project after recalculation.
 type: docs
-weight: 222
+weight: 223
 url: /java/com.aspose.tasks/recalculationvalidationexception/
 ---
 

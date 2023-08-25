@@ -3,7 +3,7 @@ title: HourLabelDisplay
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies how the hour label displays.
 type: docs
-weight: 124
+weight: 125
 url: /java/com.aspose.tasks/hourlabeldisplay/
 ---
 

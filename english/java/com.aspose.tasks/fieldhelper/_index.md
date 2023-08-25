@@ -23,16 +23,16 @@ Helper class which provides useful operations with fields.
 
 | Method | Description |
 | --- | --- |
-| [getDefaultTaskFieldTitle(int taskKey)](#getDefaultTaskFieldTitle-int-) | Returns a default title of the specific task field. |
+| [getDefaultTaskFieldTitle(byte taskKey)](#getDefaultTaskFieldTitle-byte-) | Returns a default title of the specific task field. |
 ### FieldHelper() {#FieldHelper--}
 ```
 public FieldHelper()
 ```
 
 
-### getDefaultTaskFieldTitle(int taskKey) {#getDefaultTaskFieldTitle-int-}
+### getDefaultTaskFieldTitle(byte taskKey) {#getDefaultTaskFieldTitle-byte-}
 ```
-public static String getDefaultTaskFieldTitle(int taskKey)
+public static String getDefaultTaskFieldTitle(byte taskKey)
 ```
 
 
@@ -41,7 +41,7 @@ Returns a default title of the specific task field.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| taskKey | int | Task field to get a default title. |
+| taskKey | byte | Task field to get a default title. |
 
 **Returns:**
 java.lang.String - A default title of the specific task field if the field can be displayed in MS Project's view, null otherwise.

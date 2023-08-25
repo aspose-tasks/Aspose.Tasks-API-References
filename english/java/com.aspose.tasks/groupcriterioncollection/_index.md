@@ -3,7 +3,7 @@ title: GroupCriterionCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Contains a collection of  objects.
 type: docs
-weight: 119
+weight: 120
 url: /java/com.aspose.tasks/groupcriterioncollection/
 ---
 

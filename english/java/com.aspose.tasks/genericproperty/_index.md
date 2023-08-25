@@ -3,7 +3,7 @@ title: GenericProperty
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a container property.
 type: docs
-weight: 112
+weight: 113
 url: /java/com.aspose.tasks/genericproperty/
 ---
 

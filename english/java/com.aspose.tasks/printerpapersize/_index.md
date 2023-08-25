@@ -3,7 +3,7 @@ title: PrinterPaperSize
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the paper size which is used for printing.
 type: docs
-weight: 197
+weight: 198
 url: /java/com.aspose.tasks/printerpapersize/
 ---
 

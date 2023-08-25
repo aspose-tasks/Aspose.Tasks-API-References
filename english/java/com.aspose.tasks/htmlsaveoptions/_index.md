@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to HTML.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.tasks/htmlsaveoptions/
 ---
 
@@ -37,6 +37,7 @@ Allows to specify additional options when rendering project pages to HTML.
 | [getFontFaceTypes()](#getFontFaceTypes--) | Gets the font face types. |
 | [getFontResolveCallback()](#getFontResolveCallback--) | Gets a callback which can be used to customize resolved fonts. |
 | [getFontSavingCallback()](#getFontSavingCallback--) | Gets the callback that is called to create resource to store font. |
+| [getFontSettings()](#getFontSettings--) | Specifies font settings used when rendering project's view. |
 | [getImageSavingCallback()](#getImageSavingCallback--) | Gets the callback that is called to create resource to store font. |
 | [getIncludeProjectNameInPageHeader()](#getIncludeProjectNameInPageHeader--) | Gets a value indicating whether to include project name in HTML page header. |
 | [getIncludeProjectNameInTitle()](#getIncludeProjectNameInTitle--) | Gets a value indicating whether to include project name in HTML title. |
@@ -185,6 +186,16 @@ Gets the callback that is called to create resource to store font.
 
 **Returns:**
 [IFontSavingCallback](../../com.aspose.tasks/ifontsavingcallback) - the callback that is called to create resource to store font.
+### getFontSettings() {#getFontSettings--}
+```
+public final FontSettings getFontSettings()
+```
+
+
+Specifies font settings used when rendering project's view.
+
+**Returns:**
+[FontSettings](../../com.aspose.tasks/fontsettings) - font settings.
 ### getImageSavingCallback() {#getImageSavingCallback--}
 ```
 public final IImageSavingCallback getImageSavingCallback()

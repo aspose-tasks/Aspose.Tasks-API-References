@@ -3,7 +3,7 @@ title: GanttBarShowFor
 second_title: Aspose.Tasks for Java API Reference
 description: Represents categories of tasks used when customizing Bar Styles of Gantt chart.
 type: docs
-weight: 106
+weight: 107
 url: /java/com.aspose.tasks/ganttbarshowfor/
 ---
 

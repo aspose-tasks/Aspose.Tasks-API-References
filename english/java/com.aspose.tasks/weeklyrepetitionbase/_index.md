@@ -3,7 +3,7 @@ title: WeeklyRepetitionBase
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a base class for repetitions in weekly recurrence pattern.
 type: docs
-weight: 333
+weight: 334
 url: /java/com.aspose.tasks/weeklyrepetitionbase/
 ---
 

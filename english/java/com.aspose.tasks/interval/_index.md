@@ -3,7 +3,7 @@ title: Interval
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies recurring intervals to display progress lines at.
 type: docs
-weight: 130
+weight: 131
 url: /java/com.aspose.tasks/interval/
 ---
 

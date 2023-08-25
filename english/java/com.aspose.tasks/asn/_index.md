@@ -84,7 +84,7 @@ Represents properties of [ResourceAssignment](../../com.aspose.tasks/resourceass
 | [WORK_VARIANCE](#WORK-VARIANCE) | The difference between baseline work of a task and the currently scheduled work. |
 ### ACTUAL_COST {#ACTUAL-COST}
 ```
-public static final Key<BigDecimal,Integer> ACTUAL_COST
+public static final Key<BigDecimal,Byte> ACTUAL_COST
 ```
 
 
@@ -92,7 +92,7 @@ The actual cost incurred on an assignment.
 
 ### ACTUAL_FINISH {#ACTUAL-FINISH}
 ```
-public static final Key<Date,Integer> ACTUAL_FINISH
+public static final Key<Date,Byte> ACTUAL_FINISH
 ```
 
 
@@ -100,7 +100,7 @@ The actual finish date of an assignment.
 
 ### ACTUAL_OVERTIME_COST {#ACTUAL-OVERTIME-COST}
 ```
-public static final Key<BigDecimal,Integer> ACTUAL_OVERTIME_COST
+public static final Key<BigDecimal,Byte> ACTUAL_OVERTIME_COST
 ```
 
 
@@ -108,7 +108,7 @@ The actual overtime cost incurred on an assignment.
 
 ### ACTUAL_OVERTIME_WORK {#ACTUAL-OVERTIME-WORK}
 ```
-public static final Key<Duration,Integer> ACTUAL_OVERTIME_WORK
+public static final Key<Duration,Byte> ACTUAL_OVERTIME_WORK
 ```
 
 
@@ -116,7 +116,7 @@ The actual amount of an overtime work incurred on an assignment.
 
 ### ACTUAL_OVERTIME_WORK_PROTECTED {#ACTUAL-OVERTIME-WORK-PROTECTED}
 ```
-public static final Key<Duration,Integer> ACTUAL_OVERTIME_WORK_PROTECTED
+public static final Key<Duration,Byte> ACTUAL_OVERTIME_WORK_PROTECTED
 ```
 
 
@@ -124,7 +124,7 @@ The duration through which actual work is protected.
 
 ### ACTUAL_START {#ACTUAL-START}
 ```
-public static final Key<Date,Integer> ACTUAL_START
+public static final Key<Date,Byte> ACTUAL_START
 ```
 
 
@@ -132,7 +132,7 @@ The actual start date of an assignment.
 
 ### ACTUAL_WORK {#ACTUAL-WORK}
 ```
-public static final Key<Duration,Integer> ACTUAL_WORK
+public static final Key<Duration,Byte> ACTUAL_WORK
 ```
 
 
@@ -140,7 +140,7 @@ The actual amount of a work incurred on an assignment.
 
 ### ACTUAL_WORK_PROTECTED {#ACTUAL-WORK-PROTECTED}
 ```
-public static final Key<Duration,Integer> ACTUAL_WORK_PROTECTED
+public static final Key<Duration,Byte> ACTUAL_WORK_PROTECTED
 ```
 
 
@@ -148,7 +148,7 @@ The duration through which actual overtime work is protected.
 
 ### ACWP {#ACWP}
 ```
-public static final Key<Double,Integer> ACWP
+public static final Key<Double,Byte> ACWP
 ```
 
 
@@ -156,7 +156,7 @@ The actual cost of a work performed on an assignment to-date.
 
 ### ASSIGNMENT_OWNER {#ASSIGNMENT-OWNER}
 ```
-public static final Key<String,Integer> ASSIGNMENT_OWNER
+public static final Key<String,Byte> ASSIGNMENT_OWNER
 ```
 
 
@@ -164,7 +164,7 @@ The name of an assignment owner.
 
 ### ASSIGNMENT_OWNER_GUID {#ASSIGNMENT-OWNER-GUID}
 ```
-public static final Key<String,Integer> ASSIGNMENT_OWNER_GUID
+public static final Key<String,Byte> ASSIGNMENT_OWNER_GUID
 ```
 
 
@@ -172,7 +172,7 @@ The globally unique identifier of an assignment owner.
 
 ### BCWP {#BCWP}
 ```
-public static final Key<Double,Integer> BCWP
+public static final Key<Double,Byte> BCWP
 ```
 
 
@@ -180,7 +180,7 @@ The budgeted cost of a work performed on assignment to-date.
 
 ### BCWS {#BCWS}
 ```
-public static final Key<Double,Integer> BCWS
+public static final Key<Double,Byte> BCWS
 ```
 
 
@@ -188,7 +188,7 @@ The budgeted cost of a work on assignment.
 
 ### BOOKING_TYPE {#BOOKING-TYPE}
 ```
-public static final Key<Integer,Integer> BOOKING_TYPE
+public static final Key<Integer,Byte> BOOKING_TYPE
 ```
 
 
@@ -196,7 +196,7 @@ The booking type of an assignment.
 
 ### BUDGET_COST {#BUDGET-COST}
 ```
-public static final Key<BigDecimal,Integer> BUDGET_COST
+public static final Key<BigDecimal,Byte> BUDGET_COST
 ```
 
 
@@ -204,7 +204,7 @@ The budgeted cost of resources on an assignment.
 
 ### BUDGET_WORK {#BUDGET-WORK}
 ```
-public static final Key<Duration,Integer> BUDGET_WORK
+public static final Key<Duration,Byte> BUDGET_WORK
 ```
 
 
@@ -212,7 +212,7 @@ The budgeted work amount for a work or material resources on an assignment.
 
 ### CONFIRMED {#CONFIRMED}
 ```
-public static final Key<Boolean,Integer> CONFIRMED
+public static final Key<Boolean,Byte> CONFIRMED
 ```
 
 
@@ -220,7 +220,7 @@ Determines whether a resource has accepted all of its assignments.
 
 ### COST {#COST}
 ```
-public static final Key<BigDecimal,Integer> COST
+public static final Key<BigDecimal,Byte> COST
 ```
 
 
@@ -228,7 +228,7 @@ The projected or scheduled cost of an assignment.
 
 ### COST_RATE_TABLE_TYPE {#COST-RATE-TABLE-TYPE}
 ```
-public static final Key<Integer,Integer> COST_RATE_TABLE_TYPE
+public static final Key<Integer,Byte> COST_RATE_TABLE_TYPE
 ```
 
 
@@ -236,7 +236,7 @@ The cost rate table used for this assignment.
 
 ### COST_VARIANCE {#COST-VARIANCE}
 ```
-public static final Key<Double,Integer> COST_VARIANCE
+public static final Key<Double,Byte> COST_VARIANCE
 ```
 
 
@@ -244,7 +244,7 @@ The difference between the baseline cost and total cost for an assignment.
 
 ### CREATED {#CREATED}
 ```
-public static final Key<Date,Integer> CREATED
+public static final Key<Date,Byte> CREATED
 ```
 
 
@@ -252,7 +252,7 @@ The date that the assignment was created.
 
 ### CV {#CV}
 ```
-public static final Key<Double,Integer> CV
+public static final Key<Double,Byte> CV
 ```
 
 
@@ -260,7 +260,7 @@ The earned value cost variance. CV is the difference between the assignment's BC
 
 ### DELAY {#DELAY}
 ```
-public static final Key<Duration,Integer> DELAY
+public static final Key<Duration,Byte> DELAY
 ```
 
 
@@ -268,7 +268,7 @@ The delay of an assignment.
 
 ### FINISH {#FINISH}
 ```
-public static final Key<Date,Integer> FINISH
+public static final Key<Date,Byte> FINISH
 ```
 
 
@@ -276,7 +276,7 @@ The scheduled finish date of an assignment.
 
 ### FINISH_VARIANCE {#FINISH-VARIANCE}
 ```
-public static final Key<Duration,Integer> FINISH_VARIANCE
+public static final Key<Duration,Byte> FINISH_VARIANCE
 ```
 
 
@@ -284,7 +284,7 @@ The variance of an assignment finish date from a baseline finish date.
 
 ### FIXED_MATERIAL {#FIXED-MATERIAL}
 ```
-public static final Key<Boolean,Integer> FIXED_MATERIAL
+public static final Key<Boolean,Byte> FIXED_MATERIAL
 ```
 
 
@@ -292,7 +292,7 @@ Determines whether the consumption of an assigned material resource occurs in a 
 
 ### HAS_FIXED_RATE_UNITS {#HAS-FIXED-RATE-UNITS}
 ```
-public static final Key<Boolean,Integer> HAS_FIXED_RATE_UNITS
+public static final Key<Boolean,Byte> HAS_FIXED_RATE_UNITS
 ```
 
 
@@ -300,7 +300,7 @@ Determines whether the Units have Fixed Rate.
 
 ### HYPERLINK {#HYPERLINK}
 ```
-public static final Key<String,Integer> HYPERLINK
+public static final Key<String,Byte> HYPERLINK
 ```
 
 
@@ -308,7 +308,7 @@ The title or explanatory text of a hyperlink associated with an assignment.
 
 ### HYPERLINK_ADDRESS {#HYPERLINK-ADDRESS}
 ```
-public static final Key<String,Integer> HYPERLINK_ADDRESS
+public static final Key<String,Byte> HYPERLINK_ADDRESS
 ```
 
 
@@ -320,7 +320,7 @@ The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a con
 
 ### HYPERLINK_SUB_ADDRESS {#HYPERLINK-SUB-ADDRESS}
 ```
-public static final Key<String,Integer> HYPERLINK_SUB_ADDRESS
+public static final Key<String,Byte> HYPERLINK_SUB_ADDRESS
 ```
 
 
@@ -332,7 +332,7 @@ The full address (Hyperlink Href in Microsoft Project) of the hyperlink is a con
 
 ### LEVELING_DELAY {#LEVELING-DELAY}
 ```
-public static final Key<Duration,Integer> LEVELING_DELAY
+public static final Key<Duration,Byte> LEVELING_DELAY
 ```
 
 
@@ -340,7 +340,7 @@ The delay caused by leveling.
 
 ### LEVELING_DELAY_FORMAT {#LEVELING-DELAY-FORMAT}
 ```
-public static final Key<Integer,Integer> LEVELING_DELAY_FORMAT
+public static final Key<Byte,Byte> LEVELING_DELAY_FORMAT
 ```
 
 
@@ -348,7 +348,7 @@ The duration format of a delay.
 
 ### LINKED_FIELDS {#LINKED-FIELDS}
 ```
-public static final Key<Boolean,Integer> LINKED_FIELDS
+public static final Key<Boolean,Byte> LINKED_FIELDS
 ```
 
 
@@ -356,7 +356,7 @@ Determines whether the Project is linked to another OLE object.
 
 ### MILESTONE {#MILESTONE}
 ```
-public static final Key<Boolean,Integer> MILESTONE
+public static final Key<Boolean,Byte> MILESTONE
 ```
 
 
@@ -364,7 +364,7 @@ Determines whether the assignment is a milestone.
 
 ### NOTES {#NOTES}
 ```
-public static final Key<String,Integer> NOTES
+public static final Key<String,Byte> NOTES
 ```
 
 
@@ -372,7 +372,7 @@ The text notes associated with an assignment.
 
 ### NOTES_RTF {#NOTES-RTF}
 ```
-public static final Key<String,Integer> NOTES_RTF
+public static final Key<String,Byte> NOTES_RTF
 ```
 
 
@@ -384,7 +384,7 @@ Supported for MPP formats only.
 
 ### NOTES_TEXT {#NOTES-TEXT}
 ```
-public static final Key<String,Integer> NOTES_TEXT
+public static final Key<String,Byte> NOTES_TEXT
 ```
 
 
@@ -392,7 +392,7 @@ Notes' plain text extracted from RTF data.
 
 ### OVERALLOCATED {#OVERALLOCATED}
 ```
-public static final Key<Boolean,Integer> OVERALLOCATED
+public static final Key<Boolean,Byte> OVERALLOCATED
 ```
 
 
@@ -400,7 +400,7 @@ Determines whether the assignment is over-allocated.
 
 ### OVERTIME_COST {#OVERTIME-COST}
 ```
-public static final Key<BigDecimal,Integer> OVERTIME_COST
+public static final Key<BigDecimal,Byte> OVERTIME_COST
 ```
 
 
@@ -408,7 +408,7 @@ The sum of the actual and remaining overtime cost of an assignment.
 
 ### OVERTIME_WORK {#OVERTIME-WORK}
 ```
-public static final Key<Duration,Integer> OVERTIME_WORK
+public static final Key<Duration,Byte> OVERTIME_WORK
 ```
 
 
@@ -416,7 +416,7 @@ The scheduled overtime work of an assignment.
 
 ### PEAK_UNITS {#PEAK-UNITS}
 ```
-public static final Key<Double,Integer> PEAK_UNITS
+public static final Key<Double,Byte> PEAK_UNITS
 ```
 
 
@@ -424,7 +424,7 @@ The maximum number of units that a resource is assigned for a task.
 
 ### PERCENT_WORK_COMPLETE {#PERCENT-WORK-COMPLETE}
 ```
-public static final Key<Integer,Integer> PERCENT_WORK_COMPLETE
+public static final Key<Integer,Byte> PERCENT_WORK_COMPLETE
 ```
 
 
@@ -432,7 +432,7 @@ The amount of a work completed on an assignment.
 
 ### RATE_SCALE {#RATE-SCALE}
 ```
-public static final Key<Integer,Integer> RATE_SCALE
+public static final Key<Integer,Byte> RATE_SCALE
 ```
 
 
@@ -440,7 +440,7 @@ The time unit for the usage rate of the material resource assignment. Returns 0 
 
 ### REGULAR_WORK {#REGULAR-WORK}
 ```
-public static final Key<Duration,Integer> REGULAR_WORK
+public static final Key<Duration,Byte> REGULAR_WORK
 ```
 
 
@@ -448,7 +448,7 @@ The amount of a non-overtime work scheduled for an assignment.
 
 ### REMAINING_COST {#REMAINING-COST}
 ```
-public static final Key<BigDecimal,Integer> REMAINING_COST
+public static final Key<BigDecimal,Byte> REMAINING_COST
 ```
 
 
@@ -456,7 +456,7 @@ The remaining projected cost of completing an assignment.
 
 ### REMAINING_OVERTIME_COST {#REMAINING-OVERTIME-COST}
 ```
-public static final Key<BigDecimal,Integer> REMAINING_OVERTIME_COST
+public static final Key<BigDecimal,Byte> REMAINING_OVERTIME_COST
 ```
 
 
@@ -464,7 +464,7 @@ The remaining projected overtime cost of completing an assignment.
 
 ### REMAINING_OVERTIME_WORK {#REMAINING-OVERTIME-WORK}
 ```
-public static final Key<Duration,Integer> REMAINING_OVERTIME_WORK
+public static final Key<Duration,Byte> REMAINING_OVERTIME_WORK
 ```
 
 
@@ -472,7 +472,7 @@ The remaining overtime work scheduled to complete an assignment.
 
 ### REMAINING_WORK {#REMAINING-WORK}
 ```
-public static final Key<Duration,Integer> REMAINING_WORK
+public static final Key<Duration,Byte> REMAINING_WORK
 ```
 
 
@@ -480,7 +480,7 @@ The remaining work scheduled to complete an assignment.
 
 ### RESOURCE {#RESOURCE}
 ```
-public static final Key<Resource,Integer> RESOURCE
+public static final Key<Resource,Byte> RESOURCE
 ```
 
 
@@ -488,7 +488,7 @@ The resource assigned to a task.
 
 ### RESPONSE_PENDING {#RESPONSE-PENDING}
 ```
-public static final Key<Boolean,Integer> RESPONSE_PENDING
+public static final Key<Boolean,Byte> RESPONSE_PENDING
 ```
 
 
@@ -496,7 +496,7 @@ Determines whether the response has been received for a TeamAssign message.
 
 ### RESUME {#RESUME}
 ```
-public static final Key<Date,Integer> RESUME
+public static final Key<Date,Byte> RESUME
 ```
 
 
@@ -504,7 +504,7 @@ The date when assignment is resumed.
 
 ### START {#START}
 ```
-public static final Key<Date,Integer> START
+public static final Key<Date,Byte> START
 ```
 
 
@@ -512,7 +512,7 @@ The scheduled start date of an assignment.
 
 ### START_VARIANCE {#START-VARIANCE}
 ```
-public static final Key<Duration,Integer> START_VARIANCE
+public static final Key<Duration,Byte> START_VARIANCE
 ```
 
 
@@ -520,7 +520,7 @@ The variance of an assignment start date from a baseline start date.
 
 ### STOP {#STOP}
 ```
-public static final Key<Date,Integer> STOP
+public static final Key<Date,Byte> STOP
 ```
 
 
@@ -528,7 +528,7 @@ The date when assignment is stopped.
 
 ### SUMMARY {#SUMMARY}
 ```
-public static final Key<Boolean,Integer> SUMMARY
+public static final Key<Boolean,Byte> SUMMARY
 ```
 
 
@@ -536,7 +536,7 @@ Determines whether the task is a summary task.
 
 ### SV {#SV}
 ```
-public static final Key<Double,Integer> SV
+public static final Key<Double,Byte> SV
 ```
 
 
@@ -544,7 +544,7 @@ The earned value schedule variance, through the project status date. Schedule va
 
 ### TASK {#TASK}
 ```
-public static final Key<Task,Integer> TASK
+public static final Key<Task,Byte> TASK
 ```
 
 
@@ -552,7 +552,7 @@ The task to which a resource is assigned.
 
 ### UID {#UID}
 ```
-public static final Key<Integer,Integer> UID
+public static final Key<Integer,Byte> UID
 ```
 
 
@@ -560,7 +560,7 @@ The unique identifier of an assignment.
 
 ### UNITS {#UNITS}
 ```
-public static final Key<Double,Integer> UNITS
+public static final Key<Double,Byte> UNITS
 ```
 
 
@@ -568,7 +568,7 @@ The number of units for an assignment.
 
 ### UPDATE_NEEDED {#UPDATE-NEEDED}
 ```
-public static final Key<Boolean,Integer> UPDATE_NEEDED
+public static final Key<Boolean,Byte> UPDATE_NEEDED
 ```
 
 
@@ -576,7 +576,7 @@ Determines whether the resource assigned to a task needs to be updated as to the
 
 ### VAC {#VAC}
 ```
-public static final Key<Double,Integer> VAC
+public static final Key<Double,Byte> VAC
 ```
 
 
@@ -584,7 +584,7 @@ The difference between baseline cost and total cost.
 
 ### WORK {#WORK}
 ```
-public static final Key<Duration,Integer> WORK
+public static final Key<Duration,Byte> WORK
 ```
 
 
@@ -592,7 +592,7 @@ The amount of scheduled work for an assignment.
 
 ### WORK_CONTOUR {#WORK-CONTOUR}
 ```
-public static final Key<Integer,Integer> WORK_CONTOUR
+public static final Key<Integer,Byte> WORK_CONTOUR
 ```
 
 
@@ -600,7 +600,7 @@ The work contour of an assignment.
 
 ### WORK_VARIANCE {#WORK-VARIANCE}
 ```
-public static final Key<Duration,Integer> WORK_VARIANCE
+public static final Key<Duration,Byte> WORK_VARIANCE
 ```
 
 

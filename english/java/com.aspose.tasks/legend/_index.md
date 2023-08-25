@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the pages on which the legend appears.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.tasks/legend/
 ---
 

@@ -3,7 +3,7 @@ title: GridlineType
 second_title: Aspose.Tasks for Java API Reference
 description: Type of gridline.
 type: docs
-weight: 114
+weight: 115
 url: /java/com.aspose.tasks/gridlinetype/
 ---
 
