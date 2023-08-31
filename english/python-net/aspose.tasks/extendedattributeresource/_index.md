@@ -3,7 +3,7 @@ title: ExtendedAttributeResource
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2280
+weight: 2290
 url: /python-net/aspose.tasks/extendedattributeresource/
 ---
 

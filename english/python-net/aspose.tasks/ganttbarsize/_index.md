@@ -3,7 +3,7 @@ title: GanttBarSize
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2350
+weight: 2360
 url: /python-net/aspose.tasks/ganttbarsize/
 ---
 

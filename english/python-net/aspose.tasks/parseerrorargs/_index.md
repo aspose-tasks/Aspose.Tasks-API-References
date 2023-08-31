@@ -3,7 +3,7 @@ title: ParseErrorArgs
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 660
+weight: 670
 url: /python-net/aspose.tasks/parseerrorargs/
 ---
 

@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1290
 url: /python-net/aspose.tasks/vbareferencecollection/
 ---
 
