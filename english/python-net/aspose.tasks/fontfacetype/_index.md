@@ -3,7 +3,7 @@ title: FontFaceType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2340
+weight: 2350
 url: /python-net/aspose.tasks/fontfacetype/
 ---
 

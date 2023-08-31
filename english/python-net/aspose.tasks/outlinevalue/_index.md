@@ -3,7 +3,7 @@ title: OutlineValue
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 650
 url: /python-net/aspose.tasks/outlinevalue/
 ---
 

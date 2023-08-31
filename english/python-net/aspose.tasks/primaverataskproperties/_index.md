@@ -3,7 +3,7 @@ title: PrimaveraTaskProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 710
 url: /python-net/aspose.tasks/primaverataskproperties/
 ---
 

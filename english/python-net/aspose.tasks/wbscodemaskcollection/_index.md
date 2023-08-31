@@ -3,7 +3,7 @@ title: WBSCodeMaskCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 1340
 url: /python-net/aspose.tasks/wbscodemaskcollection/
 ---
 

@@ -3,7 +3,7 @@ title: CustomFieldType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2220
+weight: 2230
 url: /python-net/aspose.tasks/customfieldtype/
 ---
 

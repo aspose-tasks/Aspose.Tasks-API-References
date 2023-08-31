@@ -3,7 +3,7 @@ title: ResourceExportType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2520
+weight: 2530
 url: /python-net/aspose.tasks/resourceexporttype/
 ---
 

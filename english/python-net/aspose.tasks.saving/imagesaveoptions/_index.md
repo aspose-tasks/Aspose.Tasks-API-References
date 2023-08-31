@@ -41,6 +41,7 @@ The ImageSaveOptions type exposes the following members:
 |view_settings|Gets or sets a view (|
 |custom_page_size|Gets or sets the custom page size in points (1 point = 1/72 of inch).|
 |render_to_single_page|Gets or sets a value indicating whether a project should be rendered to a single page<br/>            when project is saved in graphical format.<br/>            The page size will be changed so the rendered project can be fit on one page.|
+|font_settings|Specifies font settings used when rendering project's view.|
 |default_font_name|Gets or sets the default (or fallback) font for rendering.|
 |use_project_default_font|Gets or sets a value indicating whether the default font must be used for rendering.|
 |pages|Gets or sets a list of page numbers to save when saving project layout to separate files.|

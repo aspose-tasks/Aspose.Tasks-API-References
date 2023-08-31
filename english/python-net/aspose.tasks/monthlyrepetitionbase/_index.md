@@ -3,7 +3,7 @@ title: MonthlyRepetitionBase
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 540
 url: /python-net/aspose.tasks/monthlyrepetitionbase/
 ---
 

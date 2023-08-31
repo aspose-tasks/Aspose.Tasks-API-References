@@ -3,7 +3,7 @@ title: TimephasedData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1170
+weight: 1180
 url: /python-net/aspose.tasks/timephaseddata/
 ---
 
@@ -31,8 +31,9 @@ The TimephasedData type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|create_work_timephased(uid, start, finish, value, time_unit, type)|Creates and initializes a new instance of the|
 |create_cost_timephased(uid, start, finish, value, time_unit, type)|Creates and initializes a new instance of the|
+|create_cost_timephased(uid, start, finish, value, type)|Creates and initializes a new instance of the|
+|create_work_timephased(uid, start, finish, value, time_unit, type)|Creates and initializes a new instance of the|
 |create_unit_timephased(uid, start, finish, units, type)|Creates and initializes a new instance of the|
 
 ### See Also

@@ -3,7 +3,7 @@ title: WorkContourType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2690
+weight: 2700
 url: /python-net/aspose.tasks/workcontourtype/
 ---
 

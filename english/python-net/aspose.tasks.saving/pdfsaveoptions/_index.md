@@ -49,6 +49,7 @@ The PdfSaveOptions type exposes the following members:
 |save_to_separate_files|Gets or sets a value indicating whether to save project pages to separate files.|
 |page_saving_callback|Gets or sets a user-defined callback which is used to get an output stream for each rendered page.<br/>            Is applicable when|
 |pages|Gets or sets the list of pages numbers to save when saving project layout to separate files.|
+|font_settings|Specifies font settings used when rendering project's view.|
 |default_font_name|Gets or sets the default (or fallback) font for rendering.|
 |use_project_default_font|Gets or sets a value indicating whether the default font must be used for rendering.|
 

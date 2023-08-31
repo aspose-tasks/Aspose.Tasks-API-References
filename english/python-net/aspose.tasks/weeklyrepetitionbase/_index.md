@@ -3,7 +3,7 @@ title: WeeklyRepetitionBase
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1390
+weight: 1400
 url: /python-net/aspose.tasks/weeklyrepetitionbase/
 ---
 
