@@ -3,7 +3,7 @@ title: MaskType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2410
 url: /python-net/aspose.tasks/masktype/
 ---
 

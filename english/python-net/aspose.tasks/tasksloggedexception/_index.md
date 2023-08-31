@@ -3,7 +3,7 @@ title: TasksLoggedException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1120
+weight: 1130
 url: /python-net/aspose.tasks/tasksloggedexception/
 ---
 

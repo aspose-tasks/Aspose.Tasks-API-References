@@ -3,7 +3,7 @@ title: WeekLabelDisplay
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 2680
 url: /python-net/aspose.tasks/weeklabeldisplay/
 ---
 

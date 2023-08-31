@@ -3,7 +3,7 @@ title: BaselineType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2140
+weight: 2150
 url: /python-net/aspose.tasks/baselinetype/
 ---
 

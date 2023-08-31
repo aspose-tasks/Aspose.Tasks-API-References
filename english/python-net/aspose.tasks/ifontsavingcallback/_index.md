@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.tasks/ifontsavingcallback/
 ---
 

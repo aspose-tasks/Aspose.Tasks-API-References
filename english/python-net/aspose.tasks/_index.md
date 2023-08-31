@@ -50,6 +50,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[FilterCriteria](/tasks/python-net/aspose.tasks/filtercriteria/)|Defines the criteria that tasks or resources must meet to be displayed in MSP view.|
 |[FontResolveEventArgs](/tasks/python-net/aspose.tasks/fontresolveeventargs/)|Provides arguments for the callback that is invoked when font is resolved.|
 |[FontSavingArgs](/tasks/python-net/aspose.tasks/fontsavingargs/)|This class represents set of data that related to external fonts file's saving that<br/>              occurs during conversion to HTML format.|
+|[FontSettings](/tasks/python-net/aspose.tasks/fontsettings/)|Specifies font settings used when rendering project's view.|
 |[GanttChartView](/tasks/python-net/aspose.tasks/ganttchartview/)|Represents a GanttChart view.|
 |[Group](/tasks/python-net/aspose.tasks/group/)|Represents a group definition.<br/>            A Group object is a member of the ResourceGroups collection or the TaskGroups collection.|
 |[GroupCollection](/tasks/python-net/aspose.tasks/groupcollection/)|Contains a list of|

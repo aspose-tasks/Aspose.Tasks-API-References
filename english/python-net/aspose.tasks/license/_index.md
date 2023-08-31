@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /python-net/aspose.tasks/license/
 ---
 

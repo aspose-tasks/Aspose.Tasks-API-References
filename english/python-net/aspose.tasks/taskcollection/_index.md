@@ -3,7 +3,7 @@ title: TaskCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1060
 url: /python-net/aspose.tasks/taskcollection/
 ---
 
