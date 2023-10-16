@@ -3,7 +3,7 @@ title: UndefinedConstraintHandlingBehavior
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the behavior used to process tasks with undefined constraints read from XER format.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.tasks/primaverareadoptions/undefinedconstrainthandlingbehavior/
 ---
 ## PrimaveraReadOptions.UndefinedConstraintHandlingBehavior property

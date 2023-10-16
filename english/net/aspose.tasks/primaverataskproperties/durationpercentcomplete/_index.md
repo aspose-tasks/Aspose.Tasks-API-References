@@ -3,7 +3,7 @@ title: DurationPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of duration percent complete.
 type: docs
-weight: 100
+weight: 150
 url: /net/aspose.tasks/primaverataskproperties/durationpercentcomplete/
 ---
 ## PrimaveraTaskProperties.DurationPercentComplete property

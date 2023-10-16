@@ -3,7 +3,7 @@ title: DurationType
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of Duration Type field of the activity.
 type: docs
-weight: 110
+weight: 160
 url: /net/aspose.tasks/primaverataskproperties/durationtype/
 ---
 ## PrimaveraTaskProperties.DurationType property

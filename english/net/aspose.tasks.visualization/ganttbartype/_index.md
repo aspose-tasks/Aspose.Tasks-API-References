@@ -3,7 +3,7 @@ title: GanttBarType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the bar type.
 type: docs
-weight: 2820
+weight: 2830
 url: /net/aspose.tasks.visualization/ganttbartype/
 ---
 ## GanttBarType enumeration

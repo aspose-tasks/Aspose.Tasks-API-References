@@ -3,7 +3,7 @@ title: PercentCompleteType
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of  Complete Type field of the activity.
 type: docs
-weight: 120
+weight: 170
 url: /net/aspose.tasks/primaverataskproperties/percentcompletetype/
 ---
 ## PrimaveraTaskProperties.PercentCompleteType property

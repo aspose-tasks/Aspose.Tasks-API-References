@@ -11,14 +11,14 @@ url: /net/aspose.tasks.saving/mppsaveoptions/
 Allows to specify additional options when saving project data to MPP.
 
 ```csharp
-public class MPPSaveOptions
+public class MPPSaveOptions : SimpleSaveOptions
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MPPSaveOptions](mppsaveoptions)() | The default constructor. |
+| [MPPSaveOptions](mppsaveoptions)() | Initializes a new instance of the [`MPPSaveOptions`](../mppsaveoptions) class. |
 
 ## Properties
 
@@ -26,6 +26,9 @@ public class MPPSaveOptions
 | --- | --- |
 | [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword) { get; set; } | Gets or sets a password which is used to protect a resulting MPP file. Currently is supported for MS Project 2010 and newer formats. Null value indicates that the project file is not protected. |
 | [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments) { get; set; } | Gets or sets a value indicating whether to remove invalid resource assignments when saving to MPP. MS Project creates an empty resource assignment for each task. Set this flag to true to remove them on save. |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat) { get; } | Gets or sets the format in which the document will be saved if this save options object is used. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer) { get; set; } | Gets or sets the comparer to sort tasks on Gantt chart and Task Sheet chart. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter) { get; set; } | Gets or sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
 | [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata) { get; set; } | Gets or sets a value indicating whether to write view data when saving to MPP. View data includes Project.Views, Filters and Tables collections. |
 
 ### Examples
@@ -51,6 +54,7 @@ using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", Fi
 
 ### See Also
 
+* class [SimpleSaveOptions](../simplesaveoptions)
 * namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving)
 * assembly [Aspose.Tasks](../../)
 

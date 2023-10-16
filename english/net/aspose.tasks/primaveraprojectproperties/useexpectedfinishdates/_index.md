@@ -3,7 +3,7 @@ title: UseExpectedFinishDates
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a flag which defines whether activity finish dates should be scheduled as the expected finish dates.
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.tasks/primaveraprojectproperties/useexpectedfinishdates/
 ---
 ## PrimaveraProjectProperties.UseExpectedFinishDates property

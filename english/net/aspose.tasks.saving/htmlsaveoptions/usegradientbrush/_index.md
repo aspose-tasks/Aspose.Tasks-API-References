@@ -24,10 +24,11 @@ var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 var options = new HtmlSaveOptions
                   {
                       PresentationFormat = PresentationFormat.GanttChart,
-                      FitContent = true,
-                      UseProjectDefaultFont = false,
-                      DefaultFontName = "Segoe UI Black"
+                      FitContent = true
                   };
+
+options.FontSettings.UseProjectDefaultFont = false;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
 project.Save(OutDir + "AddDefaultFontDuringSavingAsHtml_out.html", options);
 ```
 

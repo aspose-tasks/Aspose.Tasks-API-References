@@ -25,6 +25,7 @@ public class LoadOptions
 | Name | Description |
 | --- | --- |
 | [CancellationToken](../../aspose.tasks/loadoptions/cancellationtoken) { get; set; } | Gets or sets a token which can be used to cancel a project loading operation. |
+| [Encoding](../../aspose.tasks/loadoptions/encoding) { get; set; } | Gets or sets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats. The default encoding is UTF8. |
 | [ErrorHandler](../../aspose.tasks/loadoptions/errorhandler) { get; set; } | Gets or sets a callback method to handle xml parse errors. |
 | [Password](../../aspose.tasks/loadoptions/password) { get; set; } | Gets or sets a protection password. |
 | [PrimaveraReadOptions](../../aspose.tasks/loadoptions/primaverareadoptions) { get; set; } | Gets or sets a specified instance of the [`PrimaveraReadOptions`](../primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml). |

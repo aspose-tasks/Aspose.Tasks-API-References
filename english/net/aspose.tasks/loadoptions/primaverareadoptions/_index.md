@@ -3,7 +3,7 @@ title: PrimaveraReadOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a specified instance of the PrimaveraReadOptionsaspose.tasks/primaverareadoptions class which can be used to customize the behavior of loading Primavera formats Primavera P6 XER or Primavera P6 Xml.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.tasks/loadoptions/primaverareadoptions/
 ---
 ## LoadOptions.PrimaveraReadOptions property

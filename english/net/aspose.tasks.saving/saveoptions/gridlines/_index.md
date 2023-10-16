@@ -25,8 +25,8 @@ options.StartDate = project.Get(Prj.StartDate).AddDays(-3);
 options.EndDate = project.Get(Prj.FinishDate);
 options.MarkCriticalTasks = true;
 options.LegendOnEachPage = false;
-options.DefaultFontName = "Segoe UI Black";
-options.UseProjectDefaultFont = false;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
+options.FontSettings.UseProjectDefaultFont = false;
 options.PageSize = PageSize.Letter;
 
 options.Gridlines = new List<Gridline>();

@@ -26,6 +26,7 @@ public class PrimaveraReadOptions
 | --- | --- |
 | [PreserveUids](../../aspose.tasks/primaverareadoptions/preserveuids) { get; set; } | Gets or sets a flag that specifies whether original unique identifiers of entities should be preserved. |
 | [ProjectUid](../../aspose.tasks/primaverareadoptions/projectuid) { get; set; } | Gets or sets the UID of a project to read from file containing multiple projects. |
+| [ReadBaselineProjects](../../aspose.tasks/primaverareadoptions/readbaselineprojects) { get; set; } | Gets or sets a flag that specifies whether baseline projects should be loaded. The default value is true. |
 | [UndefinedConstraintHandlingBehavior](../../aspose.tasks/primaverareadoptions/undefinedconstrainthandlingbehavior) { get; set; } | Specifies the behavior used to process tasks with undefined constraints read from XER format. |
 
 ### Examples

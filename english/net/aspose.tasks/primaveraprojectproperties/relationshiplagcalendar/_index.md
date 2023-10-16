@@ -3,7 +3,7 @@ title: RelationshipLagCalendar
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets an options which defines which calendar to use for scheduling Relationship Lag in Primavera projects
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.tasks/primaveraprojectproperties/relationshiplagcalendar/
 ---
 ## PrimaveraProjectProperties.RelationshipLagCalendar property

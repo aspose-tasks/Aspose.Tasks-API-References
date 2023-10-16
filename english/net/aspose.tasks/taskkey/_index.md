@@ -3,7 +3,7 @@ title: TaskKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a list of supported task fields.
 type: docs
-weight: 2180
+weight: 2190
 url: /net/aspose.tasks/taskkey/
 ---
 ## TaskKey enumeration
@@ -97,58 +97,57 @@ public enum TaskKey : byte
 | LevelAssignments | `76` | Represents the LevelAssignments (Task) field. |
 | LevelingCanSplit | `77` | Represents the LevelingCanSplit (Task) field. |
 | LevelingDelay | `78` | Represents the LevelingDelay (Task) field. |
-| LevelingDelayFormat | `79` | Represents the LevelingDelayFormat (Task) field. |
-| PreleveledStart | `80` | Represents the PreleveledStart (Task) field. |
-| PreleveledFinish | `81` | Represents the PreleveledFinish (Task) field. |
-| Hyperlink | `82` | Represents the Hyperlink (Task) field. |
-| HyperlinkAddress | `83` | Represents the HyperlinkAddress (Task) field. |
-| HyperlinkSubAddress | `84` | Represents the HyperlinkSubAddress (Task) field. |
-| IgnoreResourceCalendar | `85` | Represents the IgnoreResourceCalendar (Task) field. |
-| HideBar | `86` | Represents the HideBar (Task) field. |
-| IsRollup | `87` | Represents the IsRollup (Task) field. |
-| BCWS | `88` | Represents the BCWS (Task) field. |
-| BCWP | `89` | Represents the BCWP (Task) field. |
-| PhysicalPercentComplete | `90` | Represents the PhysicalPercentComplete (Task) field. |
-| EarnedValueMethod | `91` | Represents the EarnedValueMethod (Task) field. |
-| ActualWorkProtected | `92` | Represents the ActualWorkProtected (Task) field. |
-| ActualOvertimeWorkProtected | `93` | Represents the ActualOvertimeWorkProtected (Task) field. |
-| IsPublished | `94` | Represents the IsPublished (Task) field. |
-| IsScheduled | `95` | Represents the IsScheduled (Task) field. |
-| StatusManager | `96` | Represents the StatusManager (Task) field. |
-| CommitmentStart | `97` | Represents the CommitmentStart (Task) field. |
-| CommitmentFinish | `98` | Represents the CommitmentFinish (Task) field. |
-| CommitmentType | `99` | Represents the CommitmentType (Task) field. |
-| IsManual | `100` | Represents the IsManual (Task) field. |
-| IsExpanded | `101` | Represents the IsExpanded (Task) field. |
-| Guid | `102` | Represents the Guid (Task) field. |
-| NotesText | `103` | Represents the NotesText (Task) field. |
-| NotesRTF | `104` | Represents the NotesRTF (Task) field. |
-| ManualStart | `105` | Represents the ManualStart (Task) field. |
-| ManualFinish | `106` | Represents the ManualFinish (Task) field. |
-| ManualDuration | `107` | Represents the ManualDuration (Task) field. |
-| BudgetWork | `108` | Represents the BudgetWork (Task) field. |
-| BudgetCost | `109` | Represents the BudgetCost (Task) field. |
-| DisplayAsSummary | `110` | Represents the DisplayAsSummary (Task) field. |
-| SummaryProgress | `111` | Represents the Summary Progress (Task) field. |
-| IsActive | `112` | Represents the IsActive (Task) field. |
-| StartText | `113` | Represents the StartText (Task) field. |
-| FinishText | `114` | Represents the FinishText (Task) field. |
-| DurationText | `115` | Represents the DurationText (Task) field. |
-| CalendarUid | `116` | Represents the CalendarUid (Task) field. |
-| ParentTaskUid | `117` | Represents the ParentTaskUid (Task) field. |
-| DisplayOnTimeline | `118` | Represents the DisplayOnTimeline (Task) field. |
-| TaskIsAssigned | `119` | Represents the TaskIsAssigned (Task) field. |
-| TaskOriginalStart | `120` | Represents the original start (Task) field. |
-| TaskOriginalFinish | `121` | Represents the original finish (Task) field. |
-| IsShowBeforeProjectStartDateWarning | `122` | Represents the flag which makes MSP show the warning that a task is starting before project start date. |
-| Warning | `123` | Represents the flag which indicates that task has schedule discrepancies. |
-| ParentTaskGuid | `124` | Represents the ParentTaskGuid (Task) field. |
-| ActivityId | `125` | Represents the ActivityId field (only applicable to Primavera projects). |
-| FreeSlackTimeSpan | `126` | Represents the FreeSlack (Task) field. |
-| TotalSlackTimeSpan | `127` | Represents the TotalSlack (Task) field. |
-| StartSlackTimeSpan | `128` | Represents the StartSlack (Task) field. |
-| FinishSlackTimeSpan | `129` | Represents the FinishSlack (Task) field. |
-| ExternalUid | `130` | Represents the Unique Id of external task. |
+| PreleveledStart | `79` | Represents the PreleveledStart (Task) field. |
+| PreleveledFinish | `80` | Represents the PreleveledFinish (Task) field. |
+| Hyperlink | `81` | Represents the Hyperlink (Task) field. |
+| HyperlinkAddress | `82` | Represents the HyperlinkAddress (Task) field. |
+| HyperlinkSubAddress | `83` | Represents the HyperlinkSubAddress (Task) field. |
+| IgnoreResourceCalendar | `84` | Represents the IgnoreResourceCalendar (Task) field. |
+| HideBar | `85` | Represents the HideBar (Task) field. |
+| IsRollup | `86` | Represents the IsRollup (Task) field. |
+| BCWS | `87` | Represents the BCWS (Task) field. |
+| BCWP | `88` | Represents the BCWP (Task) field. |
+| PhysicalPercentComplete | `89` | Represents the PhysicalPercentComplete (Task) field. |
+| EarnedValueMethod | `90` | Represents the EarnedValueMethod (Task) field. |
+| ActualWorkProtected | `91` | Represents the ActualWorkProtected (Task) field. |
+| ActualOvertimeWorkProtected | `92` | Represents the ActualOvertimeWorkProtected (Task) field. |
+| IsPublished | `93` | Represents the IsPublished (Task) field. |
+| IsScheduled | `94` | Represents the IsScheduled (Task) field. |
+| StatusManager | `95` | Represents the StatusManager (Task) field. |
+| CommitmentStart | `96` | Represents the CommitmentStart (Task) field. |
+| CommitmentFinish | `97` | Represents the CommitmentFinish (Task) field. |
+| CommitmentType | `98` | Represents the CommitmentType (Task) field. |
+| IsManual | `99` | Represents the IsManual (Task) field. |
+| IsExpanded | `100` | Represents the IsExpanded (Task) field. |
+| Guid | `101` | Represents the Guid (Task) field. |
+| NotesText | `102` | Represents the NotesText (Task) field. |
+| NotesRTF | `103` | Represents the NotesRTF (Task) field. |
+| ManualStart | `104` | Represents the ManualStart (Task) field. |
+| ManualFinish | `105` | Represents the ManualFinish (Task) field. |
+| ManualDuration | `106` | Represents the ManualDuration (Task) field. |
+| BudgetWork | `107` | Represents the BudgetWork (Task) field. |
+| BudgetCost | `108` | Represents the BudgetCost (Task) field. |
+| DisplayAsSummary | `109` | Represents the DisplayAsSummary (Task) field. |
+| SummaryProgress | `110` | Represents the Summary Progress (Task) field. |
+| IsActive | `111` | Represents the IsActive (Task) field. |
+| StartText | `112` | Represents the StartText (Task) field. |
+| FinishText | `113` | Represents the FinishText (Task) field. |
+| DurationText | `114` | Represents the DurationText (Task) field. |
+| CalendarUid | `115` | Represents the CalendarUid (Task) field. |
+| ParentTaskUid | `116` | Represents the ParentTaskUid (Task) field. |
+| DisplayOnTimeline | `117` | Represents the DisplayOnTimeline (Task) field. |
+| TaskIsAssigned | `118` | Represents the TaskIsAssigned (Task) field. |
+| TaskOriginalStart | `119` | Represents the original start (Task) field. |
+| TaskOriginalFinish | `120` | Represents the original finish (Task) field. |
+| IsShowBeforeProjectStartDateWarning | `121` | Represents the flag which makes MSP show the warning that a task is starting before project start date. |
+| Warning | `122` | Represents the flag which indicates that task has schedule discrepancies. |
+| ParentTaskGuid | `123` | Represents the ParentTaskGuid (Task) field. |
+| ActivityId | `124` | Represents the ActivityId field (only applicable to Primavera projects). |
+| FreeSlackTimeSpan | `125` | Represents the FreeSlack (Task) field. |
+| TotalSlackTimeSpan | `126` | Represents the TotalSlack (Task) field. |
+| StartSlackTimeSpan | `127` | Represents the StartSlack (Task) field. |
+| FinishSlackTimeSpan | `128` | Represents the FinishSlack (Task) field. |
+| ExternalUid | `129` | Represents the Unique Id of external task. |
 
 ### Examples
 

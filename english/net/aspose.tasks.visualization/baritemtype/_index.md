@@ -3,7 +3,7 @@ title: BarItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Item type to change a bar style for.
 type: docs
-weight: 2680
+weight: 2690
 url: /net/aspose.tasks.visualization/baritemtype/
 ---
 ## BarItemType enumeration

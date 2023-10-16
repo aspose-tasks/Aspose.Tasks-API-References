@@ -1,14 +1,14 @@
 ---
 title: MPPSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: The default constructor.
+description: Initializes a new instance of the MPPSaveOptionsaspose.tasks.saving/mppsaveoptions class.
 type: docs
 weight: 10
 url: /net/aspose.tasks.saving/mppsaveoptions/mppsaveoptions/
 ---
 ## MPPSaveOptions constructor
 
-The default constructor.
+Initializes a new instance of the [`MPPSaveOptions`](../../mppsaveoptions) class.
 
 ```csharp
 public MPPSaveOptions()

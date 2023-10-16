@@ -3,7 +3,7 @@ title: Password
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a protection password.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.tasks/loadoptions/password/
 ---
 ## LoadOptions.Password property

@@ -27,6 +27,11 @@ public sealed class PrimaveraTaskProperties
 | [ActualNonlaborCost](../../aspose.tasks/primaverataskproperties/actualnonlaborcost) { get; } | Gets the value of actual non labor cost . |
 | [ActualNonLaborUnits](../../aspose.tasks/primaverataskproperties/actualnonlaborunits) { get; } | Gets the value of actual non labor units. |
 | [ActualTotalCost](../../aspose.tasks/primaverataskproperties/actualtotalcost) { get; } | Gets the total value of actual costs. |
+| [BudgetedExpenseCost](../../aspose.tasks/primaverataskproperties/budgetedexpensecost) { get; } | Gets the value of budgeted (or planned) expense cost. |
+| [BudgetedLaborCost](../../aspose.tasks/primaverataskproperties/budgetedlaborcost) { get; } | Gets the value of budgeted (or planned) labor cost . |
+| [BudgetedMaterialCost](../../aspose.tasks/primaverataskproperties/budgetedmaterialcost) { get; } | Gets the value of of budgeted (or planned) material cost. |
+| [BudgetedNonlaborCost](../../aspose.tasks/primaverataskproperties/budgetednonlaborcost) { get; } | Gets the value of budgeted (or planned) non labor cost . |
+| [BudgetedTotalCost](../../aspose.tasks/primaverataskproperties/budgetedtotalcost) { get; } | Gets the total value of budgeted (or planned) costs. |
 | [DurationPercentComplete](../../aspose.tasks/primaverataskproperties/durationpercentcomplete) { get; } | Gets the value of duration percent complete. |
 | [DurationType](../../aspose.tasks/primaverataskproperties/durationtype) { get; } | Gets the value of 'Duration Type' field of the activity. |
 | [PercentCompleteType](../../aspose.tasks/primaverataskproperties/percentcompletetype) { get; } | Gets the value of '% Complete Type' field of the activity. |

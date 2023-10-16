@@ -19,6 +19,24 @@ public void SetFontFolders(string[] fontFolders, bool recursive)
 | fontFolders | String[] | An array of folders that contain TrueType fonts. |
 | recursive | Boolean | If true the specified folders will be scanned recursively. |
 
+### Examples
+
+Shows how to set custom font folder.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.GanttChart,
+};
+
+// TrueType font files for all fonts used in the opened project should be located in MyFonts folder.
+options.FontSettings.SetFontFolders(new string[] { "c:\\MyFonts"}, true);
+
+project.Save(OutDir + "EstimatedMilestoneTasks_out4.pdf", options);
+```
+
 ### See Also
 
 * class [FontSettings](../../fontsettings)

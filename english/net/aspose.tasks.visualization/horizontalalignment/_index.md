@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies how an object or text is horizontally aligned relative to another object.
 type: docs
-weight: 2880
+weight: 2890
 url: /net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

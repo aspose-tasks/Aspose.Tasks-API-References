@@ -3,7 +3,7 @@ title: RemainingNonLaborUnits
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of remaining non labor units.
 type: docs
-weight: 240
+weight: 290
 url: /net/aspose.tasks/primaverataskproperties/remainingnonlaborunits/
 ---
 ## PrimaveraTaskProperties.RemainingNonLaborUnits property
