@@ -1,55 +1,23 @@
 ---
 title: Save
 second_title: Aspose.Tasks for .NET API Reference
-description: Saves the document to mpp file format using the specified save options.
+description: Saves the document to a file using the specified save options.
 type: docs
 weight: 1200
 url: /net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
-
-Saves the document to mpp file format using the specified save options.
-
-```csharp
-public void Save(string filename, MPPSaveOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filename | String | The file name. |
-| options | MPPSaveOptions | The save options. |
-
-### Examples
-
-Shows how to save project as an MPP file.
-
-```csharp
-var project = new Project();
-var options = new MPPSaveOptions();
-project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
-```
-
-### See Also
-
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
-* assembly [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveOptions) {#save_6}
+## Save(string, SimpleSaveOptions) {#save_6}
 
 Saves the document to a file using the specified save options.
 
 ```csharp
-public void Save(string filename, SaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filename | String | The file name. |
-| options | SaveOptions | The save options. |
+| options | SimpleSaveOptions | The save options. |
 
 ### Examples
 
@@ -63,7 +31,7 @@ project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
 
 ### See Also
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions)
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions)
 * class [Project](../../project)
 * namespace [Aspose.Tasks](../../project)
 * assembly [Aspose.Tasks](../../../)
@@ -123,20 +91,33 @@ public void Save(string filename)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_2}
 
 Saves the project to a stream using the specified save options.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream. |
-| options | SaveOptions | The save options. |
+| options | SimpleSaveOptions | The save options. |
 
 ### Examples
+
+Shows how to save project into a stream as an MPP file by using MPP save options.
+
+```csharp
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    var options = new MPPSaveOptions();
+
+    // by using of MPPSaveOptions we save it in MPP format
+    project.Save(stream, options);
+}
+```
 
 Shows how to save project into a stream as an image and to control image options.
 
@@ -154,44 +135,7 @@ using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", Fi
 
 ### See Also
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
-* assembly [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-Saves the project to a stream using the specified save options.
-
-```csharp
-public void Save(Stream stream, MPPSaveOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The stream. |
-| options | MPPSaveOptions | The save options. |
-
-### Examples
-
-Shows how to save project into a stream as an MPP file by using MPP save options.
-
-```csharp
-using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
-{
-    var project = new Project();
-    var options = new MPPSaveOptions();
-
-    // by using of MPPSaveOptions we save it in MPP format
-    project.Save(stream, options);
-}
-```
-
-### See Also
-
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions)
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions)
 * class [Project](../../project)
 * namespace [Aspose.Tasks](../../project)
 * assembly [Aspose.Tasks](../../../)

@@ -3,7 +3,7 @@ title: MakeOpenEndedActivitiesCritical
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a flag which defines whether activities should me marked as critical when scheduling the project.
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.tasks/primaveraprojectproperties/makeopenendedactivitiescritical/
 ---
 ## PrimaveraProjectProperties.MakeOpenEndedActivitiesCritical property

@@ -3,7 +3,7 @@ title: PageLegend
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a page legend which is used for project printing.
 type: docs
-weight: 2950
+weight: 2960
 url: /net/aspose.tasks.visualization/pagelegend/
 ---
 ## PageLegend class

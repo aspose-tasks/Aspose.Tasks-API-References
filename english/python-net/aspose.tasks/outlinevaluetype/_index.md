@@ -1,6 +1,6 @@
 ---
 title: OutlineValueType
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
 weight: 2480

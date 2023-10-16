@@ -18,6 +18,8 @@ public sealed class PrimaveraProjectProperties
 
 | Name | Description |
 | --- | --- |
+| [BaselineProjects](../../aspose.tasks/primaveraprojectproperties/baselineprojects) { get; } | Gets array of baseline projects of current project. Is applicable to projects read from Primavera XML files containing exported baselines. |
+| [CurrentBaselineProjectId](../../aspose.tasks/primaveraprojectproperties/currentbaselineprojectid) { get; } | Gets Id of the current baseline project. Is applicable to projects read from Primavera XML files containing exported baselines. |
 | [IgnoreOtherProjectRelationships](../../aspose.tasks/primaveraprojectproperties/ignoreotherprojectrelationships) { get; } | Gets a flag which defines whether to ignore activity relationships between projects. |
 | [MakeOpenEndedActivitiesCritical](../../aspose.tasks/primaveraprojectproperties/makeopenendedactivitiescritical) { get; } | Gets a flag which defines whether activities should me marked as critical when scheduling the project. |
 | [RelationshipLagCalendar](../../aspose.tasks/primaveraprojectproperties/relationshiplagcalendar) { get; } | Gets an options which defines which calendar to use for scheduling Relationship Lag in Primavera projects |

@@ -3,7 +3,7 @@ title: StartDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the date to start rendering from.
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.tasks.saving/saveoptions/startdate/
 ---
 ## SaveOptions.StartDate property
@@ -25,8 +25,8 @@ options.StartDate = project.Get(Prj.StartDate).AddDays(-3);
 options.EndDate = project.Get(Prj.FinishDate);
 options.MarkCriticalTasks = true;
 options.LegendOnEachPage = false;
-options.DefaultFontName = "Segoe UI Black";
-options.UseProjectDefaultFont = false;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
+options.FontSettings.UseProjectDefaultFont = false;
 options.PageSize = PageSize.Letter;
 
 options.Gridlines = new List<Gridline>();

@@ -23,9 +23,10 @@ var project = new Project();
 
 var resource = project.Resources.Add("Resource");
 
-resource.Set(Rsc.NotesText, "Notes");
+resource.Set(Rsc.NotesText, "Resource Notes");
 
-Console.WriteLine("Notes Text: " + resource.Get(Rsc.NotesText));
+Console.WriteLine("Notes text: " + resource.Get(Rsc.NotesText));
+Console.WriteLine("Notes RTF: " + resource.Get(Rsc.NotesRTF));
 ```
 
 ### See Also

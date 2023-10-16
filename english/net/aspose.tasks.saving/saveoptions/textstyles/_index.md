@@ -3,7 +3,7 @@ title: TextStyles
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the list of the instances of the TextStyleaspose.tasks.visualization/textstyle class that appear in project view.
 type: docs
-weight: 200
+weight: 170
 url: /net/aspose.tasks.saving/saveoptions/textstyles/
 ---
 ## SaveOptions.TextStyles property

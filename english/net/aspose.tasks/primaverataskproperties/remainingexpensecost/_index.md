@@ -3,7 +3,7 @@ title: RemainingExpenseCost
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets the value of remaining expense cost.
 type: docs
-weight: 200
+weight: 250
 url: /net/aspose.tasks/primaverataskproperties/remainingexpensecost/
 ---
 ## PrimaveraTaskProperties.RemainingExpenseCost property

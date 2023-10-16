@@ -25,6 +25,7 @@ Contains classes for saving a project to different formats.
 | [PrintOptions](./printoptions) | Allows to specify additional options when printing project. |
 | [SaveOptions](./saveoptions) | This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format. |
 | [SaveTemplateOptions](./savetemplateoptions) | Allows to specify additional options when saving a project as a template. |
+| [SimpleSaveOptions](./simplesaveoptions) | This is an abstract base class that allow the user to specify basic options when saving a project into a particular format. |
 | [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions) | Allows to specify additional options when rendering project pages to Spreadsheet2003. |
 | [SvgOptions](./svgoptions) | Allows to specify additional options when rendering project pages to SVG. |
 | [XamlOptions](./xamloptions) | /// Allows to specify additional options when rendering project pages to XAML. |

@@ -3,7 +3,7 @@ title: ResourceToColumnTextConverter
 second_title: Aspose.Tasks for .NET API Reference
 description: Resources data to columns string converter.
 type: docs
-weight: 3070
+weight: 3080
 url: /net/aspose.tasks.visualization/resourcetocolumntextconverter/
 ---
 ## ResourceToColumnTextConverter delegate
