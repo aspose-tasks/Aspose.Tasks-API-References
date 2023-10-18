@@ -27,6 +27,7 @@ Contains classes for saving a project to different formats.
 |[PrintOptions](/tasks/python-net/aspose.tasks.saving/printoptions/)|Allows to specify additional options when printing project.|
 |[SaveOptions](/tasks/python-net/aspose.tasks.saving/saveoptions/)|This is an abstract base class for classes that allow the user to specify additional options when saving a project<br/>            into a particular format.|
 |[SaveTemplateOptions](/tasks/python-net/aspose.tasks.saving/savetemplateoptions/)|Allows to specify additional options when saving a project as a template.|
+|[SimpleSaveOptions](/tasks/python-net/aspose.tasks.saving/simplesaveoptions/)|This is an abstract base class that allow the user to specify basic options when saving a project into a particular format.|
 |[Spreadsheet2003SaveOptions](/tasks/python-net/aspose.tasks.saving/spreadsheet2003saveoptions/)|Allows to specify additional options when rendering project pages to Spreadsheet2003.|
 |[SvgOptions](/tasks/python-net/aspose.tasks.saving/svgoptions/)|Allows to specify additional options when rendering project pages to SVG.|
 |[XamlOptions](/tasks/python-net/aspose.tasks.saving/xamloptions/)|/// Allows to specify additional options when rendering project pages to XAML.|

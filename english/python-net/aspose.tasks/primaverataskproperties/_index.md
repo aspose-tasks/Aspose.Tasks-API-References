@@ -36,11 +36,16 @@ The PrimaveraTaskProperties type exposes the following members:
 |remaining_labor_units|Gets the value of remaining labor units.|
 |remaining_non_labor_units|Gets the value of remaining non labor units.|
 |actual_labor_cost|Gets the value of actual labor cost .|
+|budgeted_labor_cost|Gets the value of budgeted (or planned) labor cost .|
 |actual_nonlabor_cost|Gets the value of actual non labor cost .|
+|budgeted_nonlabor_cost|Gets the value of budgeted (or planned) non labor cost .|
 |actual_material_cost|Gets the value of actual material cost.|
+|budgeted_material_cost|Gets the value of of budgeted (or planned) material cost.|
 |actual_expense_cost|Gets the value of actual expense cost.|
 |remaining_expense_cost|Gets the value of remaining expense cost.|
+|budgeted_expense_cost|Gets the value of budgeted (or planned) expense cost.|
 |actual_total_cost|Gets the total value of actual costs.|
+|budgeted_total_cost|Gets the total value of budgeted (or planned) costs.|
 
 ### See Also
 

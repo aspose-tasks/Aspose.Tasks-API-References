@@ -3,7 +3,7 @@ title: DataCategory
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.tasks.saving/datacategory/
 ---
 

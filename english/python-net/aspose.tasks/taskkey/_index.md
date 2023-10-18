@@ -3,7 +3,7 @@ title: TaskKey
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2580
+weight: 2590
 url: /python-net/aspose.tasks/taskkey/
 ---
 
@@ -93,7 +93,6 @@ Represents a list of supported  task fields.
 |LEVEL_ASSIGNMENTS|Represents the LevelAssignments (Task) field.|
 |LEVELING_CAN_SPLIT|Represents the LevelingCanSplit (Task) field.|
 |LEVELING_DELAY|Represents the LevelingDelay (Task) field.|
-|LEVELING_DELAY_FORMAT|Represents the LevelingDelayFormat (Task) field.|
 |PRELEVELED_START|Represents the PreleveledStart (Task) field.|
 |PRELEVELED_FINISH|Represents the PreleveledFinish (Task) field.|
 |HYPERLINK|Represents the Hyperlink (Task) field.|
