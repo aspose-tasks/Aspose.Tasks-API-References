@@ -21,6 +21,7 @@ The LoadOptions type exposes the following members:
 | :- | :- |
 |password|Gets or sets a protection password.|
 |primavera_read_options|Gets or sets a specified instance of the|
+|encoding|Gets or sets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats.<br/>            The default encoding is UTF8.|
 
 ### See Also
 

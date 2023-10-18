@@ -22,6 +22,7 @@ The PrimaveraReadOptions type exposes the following members:
 |project_uid|Gets or sets the UID of a project to read from file containing multiple projects.|
 |undefined_constraint_handling_behavior|Specifies the behavior used to process tasks with undefined constraints read from XER format.|
 |preserve_uids|Gets or sets a flag that specifies whether original unique identifiers of entities should be preserved.|
+|read_baseline_projects|Gets or sets a flag that specifies whether baseline projects should be loaded. The default value is true.|
 
 ### See Also
 

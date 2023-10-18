@@ -61,7 +61,6 @@ The Resource type exposes the following members:
 |material_label|Gets or sets a value of MaterialLabel.|
 |max_units|Gets or sets a value of MaxUnits.|
 |name|Gets or sets a value of Name.|
-|notes|Gets or sets a value of Notes.|
 |notes_rtf|Gets or sets a value of NotesRTF.|
 |notes_text|Gets or sets a value of NotesText.|
 |overallocated|Gets or sets a value indicating whether Overallocated is set or not.|
