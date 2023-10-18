@@ -38,10 +38,8 @@ The ResourceAssignment type exposes the following members:
 |has_fixed_rate_units|Gets or sets a value indicating whether HasFixedRateUnits is set or not.|
 |fixed_material|Gets or sets a value indicating whether FixedMaterial is set or not.|
 |leveling_delay|Gets or sets a value of LevelingDelay.|
-|leveling_delay_format|Gets or sets a value of LevelingDelayFormat.|
 |linked_fields|Gets or sets a value indicating whether LinkedFields is set or not.|
 |milestone|Gets or sets a value indicating whether Milestone is set or not.|
-|notes|Gets or sets a value of Notes.|
 |notes_text|Gets or sets notes' plain text extracted from RTF data.|
 |notes_rtf|Gets or sets the text notes in RTF format.|
 |overallocated|Gets or sets a value indicating whether Overallocated is set or not.|

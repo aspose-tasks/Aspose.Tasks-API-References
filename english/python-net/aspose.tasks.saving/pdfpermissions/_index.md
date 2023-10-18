@@ -3,7 +3,7 @@ title: PdfPermissions
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.tasks.saving/pdfpermissions/
 ---
 

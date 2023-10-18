@@ -3,7 +3,7 @@ title: BaselineType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2150
+weight: 2160
 url: /python-net/aspose.tasks/baselinetype/
 ---
 

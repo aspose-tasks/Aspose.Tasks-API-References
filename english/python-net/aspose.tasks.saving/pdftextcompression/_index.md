@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.tasks.saving/pdftextcompression/
 ---
 

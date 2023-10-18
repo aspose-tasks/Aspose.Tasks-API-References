@@ -93,7 +93,6 @@ The Task type exposes the following members:
 |level_assignments|Gets or sets a value indicating whether LevelAssignments is set or not.|
 |leveling_can_split|Gets or sets a value indicating whether LevelingCanSplit is set or not.|
 |leveling_delay|Gets or sets a value of LevelingDelay.|
-|leveling_delay_format|Gets or sets a value of LevelingDelayFormat.|
 |preleveled_start|Gets or sets a value of PreleveledStart.|
 |preleveled_finish|Gets or sets a value of PreleveledFinish.|
 |hyperlink|Gets or sets the title or explanatory text for a hyperlink associated with a task.|
