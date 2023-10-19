@@ -8,9 +8,9 @@ url: /java/com.aspose.tasks/saveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.tasks.SimpleSaveOptions](../../com.aspose.tasks/simplesaveoptions)
 ```
-public abstract class SaveOptions
+public abstract class SaveOptions extends SimpleSaveOptions
 ```
 
 This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format.
@@ -37,10 +37,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getPresentationFormat()](#getPresentationFormat--) | Gets the  PresentationFormat ([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved. |
 | [getRenderToSinglePage()](#getRenderToSinglePage--) | Gets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [getRollUpGanttBars()](#getRollUpGanttBars--) | Gets a value indicating whether subtasks on the summary task bar should be marked. |
-| [getSaveFormat()](#getSaveFormat--) | Gets the format in which the document will be saved if this save options object is used. |
 | [getStartDate()](#getStartDate--) | Gets the date to start rendering from. |
-| [getTasksComparer()](#getTasksComparer--) | Gets the comparer to sort tasks on Gantt chart and Task Sheet chart. |
-| [getTasksFilter()](#getTasksFilter--) | Gets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
 | [getTextStyles()](#getTextStyles--) | Gets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view. |
 | [getTimescale()](#getTimescale--) | Gets the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [getUseGradientBrush()](#getUseGradientBrush--) | Gets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
@@ -61,8 +58,6 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setRenderToSinglePage(boolean value)](#setRenderToSinglePage-boolean-) | Sets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [setRollUpGanttBars(boolean value)](#setRollUpGanttBars-boolean-) | Sets a value indicating whether subtasks on the summary task bar should be marked. |
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date to start rendering from. |
-| [setTasksComparer(Comparator&lt;Task&gt; value)](#setTasksComparer-java.util.Comparator-com.aspose.tasks.Task--) | Sets the comparer to sort tasks on Gantt chart and Task Sheet chart. |
-| [setTasksFilter(ICondition&lt;Task&gt; value)](#setTasksFilter-com.aspose.tasks.ICondition-com.aspose.tasks.Task--) | Sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
 | [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view. |
 | [setTimescale(int value)](#setTimescale-int-) | Sets the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [setUseGradientBrush(boolean value)](#setUseGradientBrush-boolean-) | Sets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
@@ -187,7 +182,7 @@ public final int getPageSize()
 Gets the size of page to be rendered (Default value is PageSize.A4).
 
 **Returns:**
-int - the size of page to be rendered (Default value is PageSize.
+int - the size of page to be rendered (Default value is PageSize.A4).
 ### getPresentationFormat() {#getPresentationFormat--}
 ```
 public final int getPresentationFormat()
@@ -222,16 +217,6 @@ Is only applicable when Gantt chart view is rendered.
 
 **Returns:**
 boolean - a value indicating whether subtasks on the summary task bar should be marked.
-### getSaveFormat() {#getSaveFormat--}
-```
-public final int getSaveFormat()
-```
-
-
-Gets the format in which the document will be saved if this save options object is used.
-
-**Returns:**
-int - the format in which the document will be saved if this save options object is used.
 ### getStartDate() {#getStartDate--}
 ```
 public final Date getStartDate()
@@ -242,30 +227,6 @@ Gets the date to start rendering from.
 
 **Returns:**
 java.util.Date - the date to start rendering from.
-### getTasksComparer() {#getTasksComparer--}
-```
-public final Comparator<Task> getTasksComparer()
-```
-
-
-Gets the comparer to sort tasks on Gantt chart and Task Sheet chart.
-
-**Returns:**
-java.util.Comparator&lt;com.aspose.tasks.Task&gt; - the comparer to sort tasks on Gantt chart and Task Sheet chart.
-### getTasksFilter() {#getTasksFilter--}
-```
-public final ICondition<Task> getTasksFilter()
-```
-
-
-Gets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts.
-
---------------------
-
-If value is not specified the default filter is used which removes non-visible tasks -- i.e. descendant tasks of collapsed tasks.
-
-**Returns:**
-[ICondition](../../com.aspose.tasks/icondition) - the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts.
 ### getTextStyles() {#getTextStyles--}
 ```
 public final List<TextStyle> getTextStyles()
@@ -461,7 +422,7 @@ Sets the size of page to be rendered (Default value is PageSize.A4).
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the size of page to be rendered (Default value is PageSize. |
+| value | int | the size of page to be rendered (Default value is PageSize.A4). |
 
 ### setPresentationFormat(int value) {#setPresentationFormat-int-}
 ```
@@ -518,36 +479,6 @@ Sets the date to start rendering from.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | the date to start rendering from. |
-
-### setTasksComparer(Comparator&lt;Task&gt; value) {#setTasksComparer-java.util.Comparator-com.aspose.tasks.Task--}
-```
-public final void setTasksComparer(Comparator<Task> value)
-```
-
-
-Sets the comparer to sort tasks on Gantt chart and Task Sheet chart.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Comparator&lt;com.aspose.tasks.Task&gt; | the comparer to sort tasks on Gantt chart and Task Sheet chart. |
-
-### setTasksFilter(ICondition&lt;Task&gt; value) {#setTasksFilter-com.aspose.tasks.ICondition-com.aspose.tasks.Task--}
-```
-public final void setTasksFilter(ICondition<Task> value)
-```
-
-
-Sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts.
-
---------------------
-
-If value is not specified the default filter is used which removes non-visible tasks -- i.e. descendant tasks of collapsed tasks.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.tasks.ICondition&lt;com.aspose.tasks.Task&gt; | the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
 
 ### setTextStyles(List&lt;TextStyle&gt; value) {#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--}
 ```

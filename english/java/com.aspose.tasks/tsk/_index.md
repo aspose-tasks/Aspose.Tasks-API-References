@@ -3,7 +3,7 @@ title: Tsk
 second_title: Aspose.Tasks for Java API Reference
 description: Represents properties of  object.
 type: docs
-weight: 306
+weight: 307
 url: /java/com.aspose.tasks/tsk/
 ---
 
@@ -100,7 +100,6 @@ Represents properties of [Task](../../com.aspose.tasks/task) object.
 | [LATE_START](#LATE-START) | The latest date that a task can start without delaying the finish of the project. |
 | [LEVELING_CAN_SPLIT](#LEVELING-CAN-SPLIT) | Determines whether the resource leveling function can cause splits on remaining work on this task. |
 | [LEVELING_DELAY](#LEVELING-DELAY) | The time that a task is to be delayed from its early start date because of resource leveling. |
-| [LEVELING_DELAY_FORMAT](#LEVELING-DELAY-FORMAT) | The format of expressing the duration of a delay. |
 | [LEVEL_ASSIGNMENTS](#LEVEL-ASSIGNMENTS) | Determines whether the leveling function can delay and split individual assignments in order to resolve over allocations. |
 | [MANUAL_DURATION](#MANUAL-DURATION) | Defines manually scheduled duration of a task. |
 | [MANUAL_FINISH](#MANUAL-FINISH) | Defines manually scheduled finish of a task. |
@@ -794,14 +793,6 @@ public static final Key<Duration,Byte> LEVELING_DELAY
 
 
 The time that a task is to be delayed from its early start date because of resource leveling.
-
-### LEVELING_DELAY_FORMAT {#LEVELING-DELAY-FORMAT}
-```
-public static final Key<Byte,Byte> LEVELING_DELAY_FORMAT
-```
-
-
-The format of expressing the duration of a delay.
 
 ### LEVEL_ASSIGNMENTS {#LEVEL-ASSIGNMENTS}
 ```

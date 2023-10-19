@@ -3,12 +3,12 @@ title: SvgOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to SVG.
 type: docs
-weight: 265
+weight: 266
 url: /java/com.aspose.tasks/svgoptions/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.tasks.SaveOptions](../../com.aspose.tasks/saveoptions)
+java.lang.Object, [com.aspose.tasks.SimpleSaveOptions](../../com.aspose.tasks/simplesaveoptions), [com.aspose.tasks.SaveOptions](../../com.aspose.tasks/saveoptions)
 
 **All Implemented Interfaces:**
 com.aspose.tasks.ICloneableSaveOptions

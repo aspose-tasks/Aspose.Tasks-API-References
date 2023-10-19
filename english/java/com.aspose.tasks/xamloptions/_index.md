@@ -3,12 +3,12 @@ title: XamlOptions
 second_title: Aspose.Tasks for Java API Reference
 description: /// Allows to specify additional options when rendering project pages to XAML.
 type: docs
-weight: 343
+weight: 344
 url: /java/com.aspose.tasks/xamloptions/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.tasks.SaveOptions](../../com.aspose.tasks/saveoptions)
+java.lang.Object, [com.aspose.tasks.SimpleSaveOptions](../../com.aspose.tasks/simplesaveoptions), [com.aspose.tasks.SaveOptions](../../com.aspose.tasks/saveoptions)
 
 **All Implemented Interfaces:**
 com.aspose.tasks.ICloneableSaveOptions

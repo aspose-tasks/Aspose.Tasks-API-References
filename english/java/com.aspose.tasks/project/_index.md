@@ -191,11 +191,11 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [rescheduleUncompletedWorkToStartAfter(Date after)](#rescheduleUncompletedWorkToStartAfter-java.util.Date-) | Reschedules uncompleted project work to start after a specified date. |
 | [rescheduleUncompletedWorkToStartAfter(Date after, List&lt;Task&gt; taskCollection)](#rescheduleUncompletedWorkToStartAfter-java.util.Date-java.util.List-com.aspose.tasks.Task--) | Reschedules uncompleted work for a specified list of tasks to start after a specified date. |
 | [save(OutputStream stream, MPPSaveOptions options)](#save-java.io.OutputStream-com.aspose.tasks.MPPSaveOptions-) | Saves the project to a stream using the specified save options. |
-| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.tasks.SaveOptions-) | Saves the project to a stream using the specified save options. |
+| [save(OutputStream stream, SimpleSaveOptions options)](#save-java.io.OutputStream-com.aspose.tasks.SimpleSaveOptions-) | Saves the project to a stream using the specified save options. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Saves the project data to the stream. |
 | [save(String filename)](#save-java.lang.String-) | Saves the project data to the file in mpp format. |
 | [save(String filename, MPPSaveOptions options)](#save-java.lang.String-com.aspose.tasks.MPPSaveOptions-) | Saves the document to mpp file format using the specified save options. |
-| [save(String filename, SaveOptions options)](#save-java.lang.String-com.aspose.tasks.SaveOptions-) | Saves the document to a file using the specified save options. |
+| [save(String filename, SimpleSaveOptions options)](#save-java.lang.String-com.aspose.tasks.SimpleSaveOptions-) | Saves the document to a file using the specified save options. |
 | [save(String filename, int format)](#save-java.lang.String-int-) | Saves the project data to the file. |
 | [saveAsTemplate(OutputStream stream)](#saveAsTemplate-java.io.OutputStream-) | Saves the project as a template to a specified stream. |
 | [saveAsTemplate(OutputStream stream, SaveTemplateOptions options)](#saveAsTemplate-java.io.OutputStream-com.aspose.tasks.SaveTemplateOptions-) | Saves the project as a template to a specified stream. |
@@ -2015,9 +2015,9 @@ Saves the project to a stream using the specified save options.
 | stream | java.io.OutputStream | The stream. |
 | options | [MPPSaveOptions](../../com.aspose.tasks/mppsaveoptions) | The save options. |
 
-### save(OutputStream stream, SaveOptions options) {#save-java.io.OutputStream-com.aspose.tasks.SaveOptions-}
+### save(OutputStream stream, SimpleSaveOptions options) {#save-java.io.OutputStream-com.aspose.tasks.SimpleSaveOptions-}
 ```
-public final void save(OutputStream stream, SaveOptions options)
+public final void save(OutputStream stream, SimpleSaveOptions options)
 ```
 
 
@@ -2027,7 +2027,7 @@ Saves the project to a stream using the specified save options.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream. |
-| options | [SaveOptions](../../com.aspose.tasks/saveoptions) | The save options. |
+| options | [SimpleSaveOptions](../../com.aspose.tasks/simplesaveoptions) | The save options. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
@@ -2070,9 +2070,9 @@ Saves the document to mpp file format using the specified save options.
 | filename | java.lang.String | The file name. |
 | options | [MPPSaveOptions](../../com.aspose.tasks/mppsaveoptions) | The save options. |
 
-### save(String filename, SaveOptions options) {#save-java.lang.String-com.aspose.tasks.SaveOptions-}
+### save(String filename, SimpleSaveOptions options) {#save-java.lang.String-com.aspose.tasks.SimpleSaveOptions-}
 ```
-public final void save(String filename, SaveOptions options)
+public final void save(String filename, SimpleSaveOptions options)
 ```
 
 
@@ -2082,7 +2082,7 @@ Saves the document to a file using the specified save options.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filename | java.lang.String | The file name. |
-| options | [SaveOptions](../../com.aspose.tasks/saveoptions) | The save options. |
+| options | [SimpleSaveOptions](../../com.aspose.tasks/simplesaveoptions) | The save options. |
 
 ### save(String filename, int format) {#save-java.lang.String-int-}
 ```

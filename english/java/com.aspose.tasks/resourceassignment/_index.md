@@ -60,10 +60,8 @@ Represents a resource assignment in a project.
 | [getHyperlinkSubAddress()](#getHyperlinkSubAddress--) | Gets a value of HyperlinkSubAddress. |
 | [getItems()](#getItems--) | \{@inheritDoc\} |
 | [getLevelingDelay()](#getLevelingDelay--) | Gets a value of LevelingDelay. |
-| [getLevelingDelayFormat()](#getLevelingDelayFormat--) | Gets a value of LevelingDelayFormat. |
 | [getLinkedFields()](#getLinkedFields--) | Gets a value indicating whether LinkedFields is set or not. |
 | [getMilestone()](#getMilestone--) | Gets a value indicating whether Milestone is set or not. |
-| [getNotes()](#getNotes--) | Gets a value of Notes. |
 | [getNotesRTF()](#getNotesRTF--) | Gets the text notes in RTF format. |
 | [getNotesText()](#getNotesText--) | Gets notes' plain text extracted from RTF data. |
 | [getOverallocated()](#getOverallocated--) | Gets a value indicating whether Overallocated is set or not. |
@@ -134,10 +132,8 @@ Represents a resource assignment in a project.
 | [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | Sets a value of HyperlinkAddress. |
 | [setHyperlinkSubAddress(String value)](#setHyperlinkSubAddress-java.lang.String-) | Sets a value of HyperlinkSubAddress. |
 | [setLevelingDelay(Duration value)](#setLevelingDelay-com.aspose.tasks.Duration-) | Sets a value of LevelingDelay. |
-| [setLevelingDelayFormat(byte value)](#setLevelingDelayFormat-byte-) | Sets a value of LevelingDelayFormat. |
 | [setLinkedFields(boolean value)](#setLinkedFields-boolean-) | Sets a value indicating whether LinkedFields is set or not. |
 | [setMilestone(boolean value)](#setMilestone-boolean-) | Sets a value indicating whether Milestone is set or not. |
-| [setNotes(String value)](#setNotes-java.lang.String-) | Sets a value of Notes. |
 | [setNotesRTF(String value)](#setNotesRTF-java.lang.String-) | Sets the text notes in RTF format. |
 | [setNotesText(String value)](#setNotesText-java.lang.String-) | Sets notes' plain text extracted from RTF data. |
 | [setOverallocated(boolean value)](#setOverallocated-boolean-) | Sets a value indicating whether Overallocated is set or not. |
@@ -582,16 +578,6 @@ Gets a value of LevelingDelay.
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - a value of LevelingDelay.
-### getLevelingDelayFormat() {#getLevelingDelayFormat--}
-```
-public final byte getLevelingDelayFormat()
-```
-
-
-Gets a value of LevelingDelayFormat.
-
-**Returns:**
-byte - a value of LevelingDelayFormat.
 ### getLinkedFields() {#getLinkedFields--}
 ```
 public final boolean getLinkedFields()
@@ -612,16 +598,6 @@ Gets a value indicating whether Milestone is set or not.
 
 **Returns:**
 boolean - a value indicating whether Milestone is set or not.
-### getNotes() {#getNotes--}
-```
-public final String getNotes()
-```
-
-
-Gets a value of Notes.
-
-**Returns:**
-java.lang.String - a value of Notes.
 ### getNotesRTF() {#getNotesRTF--}
 ```
 public final String getNotesRTF()
@@ -1452,19 +1428,6 @@ Sets a value of LevelingDelay.
 | --- | --- | --- |
 | value | [Duration](../../com.aspose.tasks/duration) | a value of LevelingDelay. |
 
-### setLevelingDelayFormat(byte value) {#setLevelingDelayFormat-byte-}
-```
-public final void setLevelingDelayFormat(byte value)
-```
-
-
-Sets a value of LevelingDelayFormat.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte | a value of LevelingDelayFormat. |
-
 ### setLinkedFields(boolean value) {#setLinkedFields-boolean-}
 ```
 public final void setLinkedFields(boolean value)
@@ -1490,19 +1453,6 @@ Sets a value indicating whether Milestone is set or not.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether Milestone is set or not. |
-
-### setNotes(String value) {#setNotes-java.lang.String-}
-```
-public final void setNotes(String value)
-```
-
-
-Sets a value of Notes.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | a value of Notes. |
 
 ### setNotesRTF(String value) {#setNotesRTF-java.lang.String-}
 ```

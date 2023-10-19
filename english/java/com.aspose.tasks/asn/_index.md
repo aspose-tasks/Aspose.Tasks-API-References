@@ -49,10 +49,8 @@ Represents properties of [ResourceAssignment](../../com.aspose.tasks/resourceass
 | [HYPERLINK_ADDRESS](#HYPERLINK-ADDRESS) | The address for a hyperlink associated with assignment. |
 | [HYPERLINK_SUB_ADDRESS](#HYPERLINK-SUB-ADDRESS) | The specific location in a document in a hyperlink associated with an assignment. |
 | [LEVELING_DELAY](#LEVELING-DELAY) | The delay caused by leveling. |
-| [LEVELING_DELAY_FORMAT](#LEVELING-DELAY-FORMAT) | The duration format of a delay. |
 | [LINKED_FIELDS](#LINKED-FIELDS) | Determines whether the Project is linked to another OLE object. |
 | [MILESTONE](#MILESTONE) | Determines whether the assignment is a milestone. |
-| [NOTES](#NOTES) | The text notes associated with an assignment. |
 | [NOTES_RTF](#NOTES-RTF) | The text notes in RTF format. |
 | [NOTES_TEXT](#NOTES-TEXT) | Notes' plain text extracted from RTF data. |
 | [OVERALLOCATED](#OVERALLOCATED) | Determines whether the assignment is over-allocated. |
@@ -338,14 +336,6 @@ public static final Key<Duration,Byte> LEVELING_DELAY
 
 The delay caused by leveling.
 
-### LEVELING_DELAY_FORMAT {#LEVELING-DELAY-FORMAT}
-```
-public static final Key<Byte,Byte> LEVELING_DELAY_FORMAT
-```
-
-
-The duration format of a delay.
-
 ### LINKED_FIELDS {#LINKED-FIELDS}
 ```
 public static final Key<Boolean,Byte> LINKED_FIELDS
@@ -361,14 +351,6 @@ public static final Key<Boolean,Byte> MILESTONE
 
 
 Determines whether the assignment is a milestone.
-
-### NOTES {#NOTES}
-```
-public static final Key<String,Byte> NOTES
-```
-
-
-The text notes associated with an assignment.
 
 ### NOTES_RTF {#NOTES-RTF}
 ```

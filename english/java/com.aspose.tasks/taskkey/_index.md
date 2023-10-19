@@ -3,7 +3,7 @@ title: TaskKey
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a list of supported  task fields.
 type: docs
-weight: 276
+weight: 277
 url: /java/com.aspose.tasks/taskkey/
 ---
 
@@ -101,7 +101,6 @@ Represents a list of supported task fields.
 | [LevelAssignments](#LevelAssignments) | Represents the LevelAssignments (Task) field. |
 | [LevelingCanSplit](#LevelingCanSplit) | Represents the LevelingCanSplit (Task) field. |
 | [LevelingDelay](#LevelingDelay) | Represents the LevelingDelay (Task) field. |
-| [LevelingDelayFormat](#LevelingDelayFormat) | Represents the LevelingDelayFormat (Task) field. |
 | [ManualDuration](#ManualDuration) | Represents the ManualDuration (Task) field. |
 | [ManualFinish](#ManualFinish) | Represents the ManualFinish (Task) field. |
 | [ManualStart](#ManualStart) | Represents the ManualStart (Task) field. |
@@ -812,14 +811,6 @@ public static final byte LevelingDelay
 
 
 Represents the LevelingDelay (Task) field.
-
-### LevelingDelayFormat {#LevelingDelayFormat}
-```
-public static final byte LevelingDelayFormat
-```
-
-
-Represents the LevelingDelayFormat (Task) field.
 
 ### ManualDuration {#ManualDuration}
 ```

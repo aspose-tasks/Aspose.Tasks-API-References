@@ -27,6 +27,11 @@ Represents Primavera-specific properties for a task read from Primavera files (X
 | [getActualNonLaborUnits()](#getActualNonLaborUnits--) | Gets the value of actual non labor units. |
 | [getActualNonlaborCost()](#getActualNonlaborCost--) | Gets the value of actual non labor cost . |
 | [getActualTotalCost()](#getActualTotalCost--) | Gets the total value of actual costs. |
+| [getBudgetedExpenseCost()](#getBudgetedExpenseCost--) | Gets the value of budgeted (or planned) expense cost. |
+| [getBudgetedLaborCost()](#getBudgetedLaborCost--) | Gets the value of budgeted (or planned) labor cost . |
+| [getBudgetedMaterialCost()](#getBudgetedMaterialCost--) | Gets the value of of budgeted (or planned) material cost. |
+| [getBudgetedNonlaborCost()](#getBudgetedNonlaborCost--) | Gets the value of budgeted (or planned) non labor cost . |
+| [getBudgetedTotalCost()](#getBudgetedTotalCost--) | Gets the total value of budgeted (or planned) costs. |
 | [getDurationPercentComplete()](#getDurationPercentComplete--) | Gets the value of duration percent complete. |
 | [getDurationType()](#getDurationType--) | Gets the value of 'Duration Type' field of the activity. |
 | [getPercentCompleteType()](#getPercentCompleteType--) | Gets the value of '% Complete Type' field of the activity. |
@@ -142,6 +147,56 @@ Gets the total value of actual costs.
 
 **Returns:**
 java.math.BigDecimal - the total value of actual costs.
+### getBudgetedExpenseCost() {#getBudgetedExpenseCost--}
+```
+public final BigDecimal getBudgetedExpenseCost()
+```
+
+
+Gets the value of budgeted (or planned) expense cost.
+
+**Returns:**
+java.math.BigDecimal - the value of budgeted (or planned) expense cost.
+### getBudgetedLaborCost() {#getBudgetedLaborCost--}
+```
+public final BigDecimal getBudgetedLaborCost()
+```
+
+
+Gets the value of budgeted (or planned) labor cost .
+
+**Returns:**
+java.math.BigDecimal - the value of budgeted (or planned) labor cost .
+### getBudgetedMaterialCost() {#getBudgetedMaterialCost--}
+```
+public final BigDecimal getBudgetedMaterialCost()
+```
+
+
+Gets the value of of budgeted (or planned) material cost.
+
+**Returns:**
+java.math.BigDecimal - the value of of budgeted (or planned) material cost.
+### getBudgetedNonlaborCost() {#getBudgetedNonlaborCost--}
+```
+public final BigDecimal getBudgetedNonlaborCost()
+```
+
+
+Gets the value of budgeted (or planned) non labor cost .
+
+**Returns:**
+java.math.BigDecimal - the value of budgeted (or planned) non labor cost .
+### getBudgetedTotalCost() {#getBudgetedTotalCost--}
+```
+public final BigDecimal getBudgetedTotalCost()
+```
+
+
+Gets the total value of budgeted (or planned) costs.
+
+**Returns:**
+java.math.BigDecimal - the total value of budgeted (or planned) costs.
 ### getDurationPercentComplete() {#getDurationPercentComplete--}
 ```
 public final double getDurationPercentComplete()

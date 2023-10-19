@@ -71,7 +71,6 @@ Represents a resource in a project.
 | [getMaterialLabel()](#getMaterialLabel--) | Gets a value of MaterialLabel. |
 | [getMaxUnits()](#getMaxUnits--) | Gets a value of MaxUnits. |
 | [getName()](#getName--) | Gets a value of Name. |
-| [getNotes()](#getNotes--) | Gets a value of Notes. |
 | [getNotesRTF()](#getNotesRTF--) | Gets a value of NotesRTF. |
 | [getNotesText()](#getNotesText--) | Gets a value of NotesText. |
 | [getOutlineCode()](#getOutlineCode--) | Gets an OutlineCodeCollection object. |
@@ -157,7 +156,6 @@ Represents a resource in a project.
 | [setMaterialLabel(String value)](#setMaterialLabel-java.lang.String-) | Sets a value of MaterialLabel. |
 | [setMaxUnits(double value)](#setMaxUnits-double-) | Sets a value of MaxUnits. |
 | [setName(String value)](#setName-java.lang.String-) | Sets a value of Name. |
-| [setNotes(String value)](#setNotes-java.lang.String-) | Sets a value of Notes. |
 | [setNotesRTF(String value)](#setNotesRTF-java.lang.String-) | Sets a value of NotesRTF. |
 | [setNotesText(String value)](#setNotesText-java.lang.String-) | Sets a value of NotesText. |
 | [setNull(NullableBool value)](#setNull-com.aspose.tasks.NullableBool-) | Sets a value indicating whether IsNull is set or not. |
@@ -716,16 +714,6 @@ Gets a value of Name.
 
 **Returns:**
 java.lang.String - a value of Name.
-### getNotes() {#getNotes--}
-```
-public final String getNotes()
-```
-
-
-Gets a value of Notes.
-
-**Returns:**
-java.lang.String - a value of Notes.
 ### getNotesRTF() {#getNotesRTF--}
 ```
 public final String getNotesRTF()
@@ -1740,19 +1728,6 @@ Sets a value of Name.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | a value of Name. |
-
-### setNotes(String value) {#setNotes-java.lang.String-}
-```
-public final void setNotes(String value)
-```
-
-
-Sets a value of Notes.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | a value of Notes. |
 
 ### setNotesRTF(String value) {#setNotesRTF-java.lang.String-}
 ```

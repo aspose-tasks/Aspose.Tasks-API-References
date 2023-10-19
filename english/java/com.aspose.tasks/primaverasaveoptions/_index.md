@@ -8,9 +8,9 @@ url: /java/com.aspose.tasks/primaverasaveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.tasks.SaveOptions](../../com.aspose.tasks/saveoptions)
+java.lang.Object, [com.aspose.tasks.SimpleSaveOptions](../../com.aspose.tasks/simplesaveoptions)
 ```
-public class PrimaveraSaveOptions extends SaveOptions
+public class PrimaveraSaveOptions extends SimpleSaveOptions
 ```
 
 Allows to specify additional options when saving project to Primavera XER format.

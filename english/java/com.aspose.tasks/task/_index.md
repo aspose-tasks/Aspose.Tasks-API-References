@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 271
+weight: 272
 url: /java/com.aspose.tasks/task/
 ---
 
@@ -122,7 +122,6 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [getLevelAssignments()](#getLevelAssignments--) | Gets a value indicating whether LevelAssignments is set or not. |
 | [getLevelingCanSplit()](#getLevelingCanSplit--) | Gets a value indicating whether LevelingCanSplit is set or not. |
 | [getLevelingDelay()](#getLevelingDelay--) | Gets a value of LevelingDelay. |
-| [getLevelingDelayFormat()](#getLevelingDelayFormat--) | Gets a value of LevelingDelayFormat. |
 | [getManualDuration()](#getManualDuration--) | Gets a value of ManualDuration. |
 | [getManualFinish()](#getManualFinish--) | Gets a value of ManualFinish. |
 | [getManualStart()](#getManualStart--) | Gets a value of ManualStart. |
@@ -265,7 +264,6 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [setLevelAssignments(NullableBool value)](#setLevelAssignments-com.aspose.tasks.NullableBool-) | Sets a value indicating whether LevelAssignments is set or not. |
 | [setLevelingCanSplit(NullableBool value)](#setLevelingCanSplit-com.aspose.tasks.NullableBool-) | Sets a value indicating whether LevelingCanSplit is set or not. |
 | [setLevelingDelay(Duration value)](#setLevelingDelay-com.aspose.tasks.Duration-) | Sets a value of LevelingDelay. |
-| [setLevelingDelayFormat(byte value)](#setLevelingDelayFormat-byte-) | Sets a value of LevelingDelayFormat. |
 | [setManual(NullableBool value)](#setManual-com.aspose.tasks.NullableBool-) | Sets a value indicating whether IsManual is set or not. |
 | [setManualDuration(Duration value)](#setManualDuration-com.aspose.tasks.Duration-) | Sets a value of ManualDuration. |
 | [setManualFinish(Date value)](#setManualFinish-java.util.Date-) | Sets a value of ManualFinish. |
@@ -1049,16 +1047,6 @@ Gets a value of LevelingDelay.
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - a value of LevelingDelay.
-### getLevelingDelayFormat() {#getLevelingDelayFormat--}
-```
-public final byte getLevelingDelayFormat()
-```
-
-
-Gets a value of LevelingDelayFormat.
-
-**Returns:**
-byte - a value of LevelingDelayFormat.
 ### getManualDuration() {#getManualDuration--}
 ```
 public final Duration getManualDuration()
@@ -2719,19 +2707,6 @@ Sets a value of LevelingDelay.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Duration](../../com.aspose.tasks/duration) | a value of LevelingDelay. |
-
-### setLevelingDelayFormat(byte value) {#setLevelingDelayFormat-byte-}
-```
-public final void setLevelingDelayFormat(byte value)
-```
-
-
-Sets a value of LevelingDelayFormat.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte | a value of LevelingDelayFormat. |
 
 ### setManual(NullableBool value) {#setManual-com.aspose.tasks.NullableBool-}
 ```
