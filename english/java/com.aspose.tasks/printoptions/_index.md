@@ -8,7 +8,7 @@ url: /java/com.aspose.tasks/printoptions/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.tasks.SaveOptions](../../com.aspose.tasks/saveoptions)
+java.lang.Object, [com.aspose.tasks.SimpleSaveOptions](../../com.aspose.tasks/simplesaveoptions), [com.aspose.tasks.SaveOptions](../../com.aspose.tasks/saveoptions)
 
 **All Implemented Interfaces:**
 com.aspose.tasks.ICloneableSaveOptions

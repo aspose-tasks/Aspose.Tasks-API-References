@@ -50,7 +50,6 @@ Represents a list of supported assignment fields.
 | [HyperlinkAddress](#HyperlinkAddress) | Represents the HyperlinkAddress (ResourceAssignment) field. |
 | [HyperlinkSubAddress](#HyperlinkSubAddress) | Represents the HyperlinkSubAddress (ResourceAssignment) field. |
 | [LevelingDelay](#LevelingDelay) | Represents the LevelingDelay (ResourceAssignment) field. |
-| [LevelingDelayFormat](#LevelingDelayFormat) | Represents the LevelingDelayFormat (ResourceAssignment) field. |
 | [LinkedFields](#LinkedFields) | Represents the LinkedFields (ResourceAssignment) field. |
 | [Milestone](#Milestone) | Represents the Milestone (ResourceAssignment) field. |
 | [Notes](#Notes) | Represents the Notes (ResourceAssignment) field. |
@@ -340,14 +339,6 @@ public static final byte LevelingDelay
 
 
 Represents the LevelingDelay (ResourceAssignment) field.
-
-### LevelingDelayFormat {#LevelingDelayFormat}
-```
-public static final byte LevelingDelayFormat
-```
-
-
-Represents the LevelingDelayFormat (ResourceAssignment) field.
 
 ### LinkedFields {#LinkedFields}
 ```

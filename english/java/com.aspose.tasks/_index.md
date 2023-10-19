@@ -262,6 +262,7 @@ url: /java/com.aspose.tasks/
 | [SaveOptions](../com.aspose.tasks/saveoptions) | This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format. |
 | [SaveTemplateOptions](../com.aspose.tasks/savetemplateoptions) | Allows to specify additional options when saving a project as a template. |
 | [Shape](../com.aspose.tasks/shape) | Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of [SaveFileFormat](../com.aspose.tasks/savefileformat). |
+| [SimpleSaveOptions](../com.aspose.tasks/simplesaveoptions) | This is an abstract base class that allow the user to specify basic options when saving a project into a particular format. |
 | [SplitPart](../com.aspose.tasks/splitpart) | Represents a task portion. |
 | [SplitPartCollection](../com.aspose.tasks/splitpartcollection) | Collection that represents the portions of a task. |
 | [Spreadsheet2003SaveOptions](../com.aspose.tasks/spreadsheet2003saveoptions) | Allows to specify additional options when rendering project pages to Spreadsheet2003. |

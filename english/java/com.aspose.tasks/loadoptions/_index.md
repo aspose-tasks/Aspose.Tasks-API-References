@@ -24,10 +24,12 @@ Allows to specify additional load parameters when loading a project from file or
 | Method | Description |
 | --- | --- |
 | [getCancellationToken()](#getCancellationToken--) | Gets a token which can be used to cancel a project loading operation. |
+| [getEncoding()](#getEncoding--) | Gets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats. |
 | [getErrorHandler()](#getErrorHandler--) | Gets a callback method to handle xml parse errors. |
 | [getPassword()](#getPassword--) | Gets a protection password. |
 | [getPrimaveraReadOptions()](#getPrimaveraReadOptions--) | Gets a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml). |
 | [setCancellationToken(CancellationToken value)](#setCancellationToken-com.aspose.tasks.CancellationToken-) | Sets a token which can be used to cancel a project loading operation. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats. |
 | [setErrorHandler(ParseErrorCallback value)](#setErrorHandler-com.aspose.tasks.ParseErrorCallback-) | Sets a callback method to handle xml parse errors. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets a protection password. |
 | [setPrimaveraReadOptions(PrimaveraReadOptions value)](#setPrimaveraReadOptions-com.aspose.tasks.PrimaveraReadOptions-) | Sets a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml). |
@@ -49,6 +51,16 @@ Gets a token which can be used to cancel a project loading operation.
 
 **Returns:**
 [CancellationToken](../../com.aspose.tasks/cancellationtoken) - a token which can be used to cancel a project loading operation.
+### getEncoding() {#getEncoding--}
+```
+public final Charset getEncoding()
+```
+
+
+Gets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats. The default encoding is UTF8.
+
+**Returns:**
+java.nio.charset.Charset - encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats.
 ### getErrorHandler() {#getErrorHandler--}
 ```
 public final ParseErrorCallback getErrorHandler()
@@ -91,6 +103,19 @@ Sets a token which can be used to cancel a project loading operation.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [CancellationToken](../../com.aspose.tasks/cancellationtoken) | a token which can be used to cancel a project loading operation. |
+
+### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
+```
+public final void setEncoding(Charset value)
+```
+
+
+Sets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats. The default encoding is UTF8.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.nio.charset.Charset | encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats. |
 
 ### setErrorHandler(ParseErrorCallback value) {#setErrorHandler-com.aspose.tasks.ParseErrorCallback-}
 ```

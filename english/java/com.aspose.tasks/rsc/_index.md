@@ -64,7 +64,6 @@ Represents supported properties of  Resource  object.
 | [MATERIAL_LABEL](#MATERIAL-LABEL) | The unit of measure for the material resource. |
 | [MAX_UNITS](#MAX-UNITS) | The maximum number of units representing the maximum capacity for which a resource is available to accomplish any tasks during the current time period. |
 | [NAME](#NAME) | The name of a resource. |
-| [NOTES](#NOTES) | The text notes associated with a resource. |
 | [NOTES_RTF](#NOTES-RTF) | The text notes in RTF format. |
 | [NOTES_TEXT](#NOTES-TEXT) | Notes' plain text extracted from RTF data. |
 | [OVERALLOCATED](#OVERALLOCATED) | Indicates whether a resource is assigned to more work on a specific task or all tasks than can be completed within normal working capacity. |
@@ -465,14 +464,6 @@ public static final Key<String,Byte> NAME
 
 
 The name of a resource.
-
-### NOTES {#NOTES}
-```
-public static final Key<String,Byte> NOTES
-```
-
-
-The text notes associated with a resource.
 
 ### NOTES_RTF {#NOTES-RTF}
 ```
