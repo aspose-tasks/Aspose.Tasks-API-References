@@ -88,6 +88,8 @@ Represents a resource assignment in a project.
 | [getTimephasedData()](#getTimephasedData--) | Gets the instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing elements of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class. |
 | [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with the instances of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of [TimephasedDataType.AssignmentWork](../../com.aspose.tasks/timephaseddatatype\#AssignmentWork). |
 | [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns the instance [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing instances of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
+| [getTimephasedWork(Date start, Date end)](#getTimephasedWork-java.util.Date-java.util.Date-) | Gets amount of timephased work for the specified date time interval. |
+| [getTimephasedWork(Date start, Date end, byte timephasedDataType)](#getTimephasedWork-java.util.Date-java.util.Date-byte-) | Gets amount of timephased work for the specified date time interval. |
 | [getUid()](#getUid--) | Gets a value of Uid. |
 | [getUnits()](#getUnits--) | Gets a value of Units. |
 | [getUpdateNeeded()](#getUpdateNeeded--) | Gets a value indicating whether UpdateNeeded is set or not. |
@@ -560,14 +562,14 @@ Gets a value of HyperlinkSubAddress.
 java.lang.String - a value of HyperlinkSubAddress.
 ### getItems() {#getItems--}
 ```
-public final System.Collections.Generic.IGenericEnumerable<IExtendedAttributeParent> getItems()
+public final Iterable<IExtendedAttributeParent> getItems()
 ```
 
 
 Reserved for internal usage.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.tasks.IExtendedAttributeParent&gt; - \{@inheritDoc\}
+java.lang.Iterable&lt;com.aspose.tasks.IExtendedAttributeParent&gt; - \{@inheritDoc\}
 ### getLevelingDelay() {#getLevelingDelay--}
 ```
 public final Duration getLevelingDelay()
@@ -875,6 +877,39 @@ Returns the instance [TimephasedDataCollection](../../com.aspose.tasks/timephase
 
 **Returns:**
 [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - returns a list which contains instances of [TimephasedData](../../com.aspose.tasks/timephaseddata) class.
+### getTimephasedWork(Date start, Date end) {#getTimephasedWork-java.util.Date-java.util.Date-}
+```
+public final double getTimephasedWork(Date start, Date end)
+```
+
+
+Gets amount of timephased work for the specified date time interval.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | java.util.Date | Start of the date time interval. |
+| end | java.util.Date | End of the date time interval. |
+
+**Returns:**
+double - amount of timephased work for the specified date time interval.
+### getTimephasedWork(Date start, Date end, byte timephasedDataType) {#getTimephasedWork-java.util.Date-java.util.Date-byte-}
+```
+public final double getTimephasedWork(Date start, Date end, byte timephasedDataType)
+```
+
+
+Gets amount of timephased work for the specified date time interval.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | java.util.Date | Start of the date time interval. |
+| end | java.util.Date | End of the date time interval. |
+| timephasedDataType | byte | Type of the timephased data to use. |
+
+**Returns:**
+double - amount of timephased work for the specified date time interval.
 ### getUid() {#getUid--}
 ```
 public final int getUid()

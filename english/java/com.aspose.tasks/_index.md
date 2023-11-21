@@ -266,7 +266,6 @@ url: /java/com.aspose.tasks/
 | [SplitPart](../com.aspose.tasks/splitpart) | Represents a task portion. |
 | [SplitPartCollection](../com.aspose.tasks/splitpartcollection) | Collection that represents the portions of a task. |
 | [Spreadsheet2003SaveOptions](../com.aspose.tasks/spreadsheet2003saveoptions) | Allows to specify additional options when rendering project pages to Spreadsheet2003. |
-| [StringAlignment](../com.aspose.tasks/stringalignment) | Specifies the alignment of a text. |
 | [StringBuilder](../com.aspose.tasks/stringbuilder) | Represents a mutable string of characters. |
 | [SummaryRowsCalculationType](../com.aspose.tasks/summaryrowscalculationtype) | Specifies the type of a calculation of the custom attribute's value for summary rows. |
 | [SvgOptions](../com.aspose.tasks/svgoptions) | Allows to specify additional options when rendering project pages to SVG. |
@@ -285,6 +284,7 @@ url: /java/com.aspose.tasks/
 | [TaskLinkCollection](../com.aspose.tasks/tasklinkcollection) | Represents a collection of [Task](../com.aspose.tasks/task) objects. |
 | [TaskLinkType](../com.aspose.tasks/tasklinktype) | Specifies the type of tasks dependency. |
 | [TaskStartDateType](../com.aspose.tasks/taskstartdatetype) | Specifies the type of a task's start date. |
+| [TaskStatus](../com.aspose.tasks/taskstatus) | Specifies the status of a task. |
 | [TaskTextStyleEventArgs](../com.aspose.tasks/tasktextstyleeventargs) | This class represents set of data that related to the rendering of table cell's content. |
 | [TaskType](../com.aspose.tasks/tasktype) | Specifies the type of a task. |
 | [TaskUsageView](../com.aspose.tasks/taskusageview) | Represents task usage view in a project. |

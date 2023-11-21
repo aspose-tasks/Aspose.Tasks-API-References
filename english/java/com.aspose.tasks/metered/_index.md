@@ -36,6 +36,7 @@ In this example, an attempt will be made to set metered public and private key  
 | --- | --- |
 | [getConsumptionCredit()](#getConsumptionCredit--) | Gets consumption credit. |
 | [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size. |
+| [isLicensed()](#isLicensed--) | Checks whether the product is successfully licensed using Metered license. |
 | [resetMeteredKey()](#resetMeteredKey--) | Removes previously setup license. |
 | [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Sets metered public and private keys. |
 ### Metered() {#Metered--}
@@ -64,6 +65,16 @@ Gets consumption file size.
 
 **Returns:**
 java.math.BigDecimal - Returns the number of consumed bytes.
+### isLicensed() {#isLicensed--}
+```
+public final boolean isLicensed()
+```
+
+
+Checks whether the product is successfully licensed using Metered license.
+
+**Returns:**
+boolean - true or false
 ### resetMeteredKey() {#resetMeteredKey--}
 ```
 public final void resetMeteredKey()
