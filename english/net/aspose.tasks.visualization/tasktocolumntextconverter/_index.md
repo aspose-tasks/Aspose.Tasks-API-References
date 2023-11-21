@@ -3,7 +3,7 @@ title: TaskToColumnTextConverter
 second_title: Aspose.Tasks for .NET API Reference
 description: Tasks data to columns string converter.
 type: docs
-weight: 3140
+weight: 3150
 url: /net/aspose.tasks.visualization/tasktocolumntextconverter/
 ---
 ## TaskToColumnTextConverter delegate
@@ -68,8 +68,7 @@ foreach (var column in columns)
 
 var options = new CsvOptions
 {
-    View = new ProjectView(columns),
-    PresentationFormat = PresentationFormat.GanttChart
+    View = new ProjectView(columns)
 };
 
 project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);

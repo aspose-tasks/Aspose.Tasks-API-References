@@ -676,14 +676,14 @@ Gets a value of Initials.
 java.lang.String - a value of Initials.
 ### getItems() {#getItems--}
 ```
-public final System.Collections.Generic.IGenericEnumerable<IExtendedAttributeParent> getItems()
+public final Iterable<IExtendedAttributeParent> getItems()
 ```
 
 
 Gets child resources.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.tasks.IExtendedAttributeParent&gt; - child resources.
+java.lang.Iterable&lt;com.aspose.tasks.IExtendedAttributeParent&gt; - child resources.
 ### getMaterialLabel() {#getMaterialLabel--}
 ```
 public final String getMaterialLabel()

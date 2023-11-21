@@ -3,7 +3,7 @@ title: Warning
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether Warning is set or not.
 type: docs
-weight: 1250
+weight: 1260
 url: /net/aspose.tasks/task/warning/
 ---
 ## Task.Warning property

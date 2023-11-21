@@ -3,7 +3,7 @@ title: TaskBaseline
 second_title: Aspose.Tasks for Java API Reference
 description: Represents Baseline of a Task.
 type: docs
-weight: 274
+weight: 273
 url: /java/com.aspose.tasks/taskbaseline/
 ---
 

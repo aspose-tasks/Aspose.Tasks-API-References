@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 272
+weight: 271
 url: /java/com.aspose.tasks/task/
 ---
 
@@ -157,6 +157,7 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [getStartSlack()](#getStartSlack--) | Gets a value of StartSlack. |
 | [getStartText()](#getStartText--) | Gets a value of StartText. |
 | [getStartVariance()](#getStartVariance--) | Gets a value of StartVariance. |
+| [getStatus()](#getStatus--) | Gets task status. |
 | [getStatusManager()](#getStatusManager--) | Gets a value of StatusManager. |
 | [getStop()](#getStop--) | Gets a value of Stop. |
 | [getSubprojectName()](#getSubprojectName--) | Gets a value of SubprojectName. |
@@ -989,14 +990,14 @@ Gets a value indicating whether IgnoreWarnings is set or not.
 boolean - a value indicating whether IgnoreWarnings is set or not.
 ### getItems() {#getItems--}
 ```
-public final System.Collections.Generic.IGenericEnumerable<IExtendedAttributeParent> getItems()
+public final Iterable<IExtendedAttributeParent> getItems()
 ```
 
 
 Reserved for internal usage.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.tasks.IExtendedAttributeParent&gt; - \{@inheritDoc\}
+java.lang.Iterable&lt;com.aspose.tasks.IExtendedAttributeParent&gt; - \{@inheritDoc\}
 ### getLateFinish() {#getLateFinish--}
 ```
 public final Date getLateFinish()
@@ -1409,6 +1410,16 @@ Gets a value of StartVariance.
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - a value of StartVariance.
+### getStatus() {#getStatus--}
+```
+public final int getStatus()
+```
+
+
+Gets task status.
+
+**Returns:**
+int - task status.
 ### getStatusManager() {#getStatusManager--}
 ```
 public final String getStatusManager()

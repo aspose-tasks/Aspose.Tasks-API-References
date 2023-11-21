@@ -3,7 +3,7 @@ title: DateTimeConverter
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a converter method to convert date to string in view timescale tiers.
 type: docs
-weight: 2740
+weight: 2750
 url: /net/aspose.tasks.visualization/datetimeconverter/
 ---
 ## DateTimeConverter delegate

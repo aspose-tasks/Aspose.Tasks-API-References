@@ -137,14 +137,14 @@ Gets a value indicating whether this collection is read only.
 boolean - a value indicating whether this collection is read only.
 ### iterator() {#iterator--}
 ```
-public final System.Collections.IEnumerator iterator()
+public final Iterator iterator()
 ```
 
 
 Returns an enumerator for this collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.IEnumerator - an enumerator for this collection.
+java.util.Iterator - an enumerator for this collection.
 ### put(Integer key, RateByDateCollection value) {#put-java.lang.Integer-com.aspose.tasks.RateByDateCollection-}
 ```
 public final RateByDateCollection put(Integer key, RateByDateCollection value)

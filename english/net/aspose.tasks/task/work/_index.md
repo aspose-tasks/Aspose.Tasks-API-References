@@ -3,7 +3,7 @@ title: Work
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Work.
 type: docs
-weight: 1280
+weight: 1290
 url: /net/aspose.tasks/task/work/
 ---
 ## Task.Work property

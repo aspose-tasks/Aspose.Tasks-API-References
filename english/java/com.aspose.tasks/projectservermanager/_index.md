@@ -160,14 +160,14 @@ Gets the project with the specified guid from the Project Online account \\ Proj
 [Project](../../com.aspose.tasks/project) - Instance of [Project](../../com.aspose.tasks/project) class which represents project read from Project Online \\ Project Server.
 ### getProjectList() {#getProjectList--}
 ```
-public final System.Collections.Generic.IGenericEnumerable<ProjectInfo> getProjectList()
+public final Iterable<ProjectInfo> getProjectList()
 ```
 
 
 Gets the list of projects from 'Working' store of the current Project Online account \\ Project Server instance.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.tasks.ProjectInfo&gt; - An enumeration of projects in the current Project Online account \\ Project Server instance.
+java.lang.Iterable&lt;com.aspose.tasks.ProjectInfo&gt; - An enumeration of projects in the current Project Online account \\ Project Server instance.
 ### getProjectRawData(UUID projectGuid) {#getProjectRawData-java.util.UUID-}
 ```
 public final InputStream getProjectRawData(UUID projectGuid)
