@@ -24,6 +24,7 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
+| [IsLicensed](../../aspose.tasks/metered/islicensed)() | Checks whether the product is successfully licensed using Metered license. |
 | [ResetMeteredKey](../../aspose.tasks/metered/resetmeteredkey)() | Removes previously setup license. |
 | [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey)(string, string) | Sets metered public and private keys. |
 | static [GetConsumptionCredit](../../aspose.tasks/metered/getconsumptioncredit)() | Gets consumption credit. |

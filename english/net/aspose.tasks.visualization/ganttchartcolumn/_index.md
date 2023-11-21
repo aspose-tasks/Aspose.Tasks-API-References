@@ -3,7 +3,7 @@ title: GanttChartColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: Projects view class
 type: docs
-weight: 2840
+weight: 2850
 url: /net/aspose.tasks.visualization/ganttchartcolumn/
 ---
 ## GanttChartColumn class
@@ -85,8 +85,7 @@ foreach (var column in columns)
 
 var options = new CsvOptions
 {
-    View = new ProjectView(columns),
-    PresentationFormat = PresentationFormat.GanttChart
+    View = new ProjectView(columns)
 };
 
 project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);

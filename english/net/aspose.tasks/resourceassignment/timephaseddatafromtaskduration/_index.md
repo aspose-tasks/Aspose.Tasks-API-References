@@ -3,7 +3,7 @@ title: TimephasedDataFromTaskDuration
 second_title: Aspose.Tasks for .NET API Reference
 description: Generates list of time phased data based on the task duration and the scheduled start date.
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.tasks/resourceassignment/timephaseddatafromtaskduration/
 ---
 ## ResourceAssignment.TimephasedDataFromTaskDuration method

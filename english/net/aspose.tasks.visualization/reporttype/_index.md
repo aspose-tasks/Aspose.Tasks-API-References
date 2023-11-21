@@ -3,7 +3,7 @@ title: ReportType
 second_title: Aspose.Tasks for .NET API Reference
 description: Type of the projects graphical report.
 type: docs
-weight: 3070
+weight: 3080
 url: /net/aspose.tasks.visualization/reporttype/
 ---
 ## ReportType enumeration

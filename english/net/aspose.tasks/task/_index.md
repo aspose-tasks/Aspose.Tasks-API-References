@@ -133,6 +133,7 @@ public class Task : IEquatable<Task>
 | [StartSlack](../../aspose.tasks/task/startslack) { get; set; } | Gets or sets a value of StartSlack. |
 | [StartText](../../aspose.tasks/task/starttext) { get; set; } | Gets or sets a value of StartText. |
 | [StartVariance](../../aspose.tasks/task/startvariance) { get; set; } | Gets or sets a value of StartVariance. |
+| [Status](../../aspose.tasks/task/status) { get; } | Gets task status. |
 | [StatusManager](../../aspose.tasks/task/statusmanager) { get; set; } | Gets or sets a value of StatusManager. |
 | [Stop](../../aspose.tasks/task/stop) { get; set; } | Gets or sets a value of Stop. |
 | [SubprojectName](../../aspose.tasks/task/subprojectname) { get; set; } | Gets or sets a value of SubprojectName. |

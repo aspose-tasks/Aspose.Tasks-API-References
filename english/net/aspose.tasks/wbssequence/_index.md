@@ -3,7 +3,7 @@ title: WBSSequence
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies sequence for WBSCodeMask
 type: docs
-weight: 3250
+weight: 3260
 url: /net/aspose.tasks/wbssequence/
 ---
 ## WBSSequence enumeration

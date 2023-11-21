@@ -3,7 +3,7 @@ title: IConditionT
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a condition which can be used by filters or search methods.
 type: docs
-weight: 2480
+weight: 2490
 url: /net/aspose.tasks.util/icondition-1/
 ---
 ## ICondition&lt;T&gt; interface

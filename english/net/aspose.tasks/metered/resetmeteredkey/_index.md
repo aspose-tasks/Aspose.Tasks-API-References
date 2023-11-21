@@ -3,7 +3,7 @@ title: ResetMeteredKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Removes previously setup license.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.tasks/metered/resetmeteredkey/
 ---
 ## Metered.ResetMeteredKey method

@@ -223,6 +223,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [TaskKey](./taskkey) | Represents a list of supported task fields. |
 | [TaskLinkType](./tasklinktype) | Specifies the type of tasks dependency. |
 | [TaskStartDateType](./taskstartdatetype) | Specifies the type of a task's start date. |
+| [TaskStatus](./taskstatus) | Specifies the status of a task. |
 | [TaskType](./tasktype) | Specifies the type of a task. |
 | [TaskUsageViewField](./taskusageviewfield) | Represents possible fields in [`TaskUsageView`](../aspose.tasks/taskusageview) object. |
 | [TimephasedDataType](./timephaseddatatype) | Specifies the type of time phased data. |

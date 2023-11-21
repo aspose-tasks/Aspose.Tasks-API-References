@@ -60,8 +60,7 @@ foreach (var column in columns)
 
 var options = new CsvOptions
 {
-    View = new ProjectView(columns),
-    PresentationFormat = PresentationFormat.GanttChart
+    View = new ProjectView(columns)
 };
 
 project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);

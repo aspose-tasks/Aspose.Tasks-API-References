@@ -3,7 +3,7 @@ title: WorkContourType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the contour of a work.
 type: docs
-weight: 3340
+weight: 3350
 url: /net/aspose.tasks/workcontourtype/
 ---
 ## WorkContourType enumeration

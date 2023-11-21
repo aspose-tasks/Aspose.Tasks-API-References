@@ -3,7 +3,7 @@ title: GetConsumptionCredit
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets consumption credit.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.tasks/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
