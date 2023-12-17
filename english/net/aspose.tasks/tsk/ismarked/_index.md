@@ -3,7 +3,7 @@ title: IsMarked
 second_title: Aspose.Tasks for .NET API Reference
 description: Shows whether a task is marked for further action or identification of some kind.
 type: docs
-weight: 630
+weight: 620
 url: /net/aspose.tasks/tsk/ismarked/
 ---
 ## Tsk.IsMarked field

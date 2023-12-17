@@ -11,7 +11,7 @@ url: /net/aspose.tasks/filter/filtertype/
 Gets the type of the filter.
 
 ```csharp
-public ItemType FilterType { get; }
+public ItemType FilterType { get; set; }
 ```
 
 ### Examples

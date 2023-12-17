@@ -21,6 +21,23 @@ public TimeSpan GetTimephasedWork(DateTime start, DateTime end,
 | end | DateTime | End of the date time interval. |
 | timephasedDataType | TimephasedDataType | Type of the timephased data to use. |
 
+### Examples
+
+Shows how to calculate assignment's work for arbitrary date time interval.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var assignment = project.ResourceAssignments.GetByUid(2);
+
+// Print assignmen's work for each hour.
+for (DateTime hour = assignment.Start; hour <= assignment.Finish; hour = hour.AddHours(1))
+{
+    var work = assignment.GetTimephasedWork(hour, hour.AddHours(1), TimephasedDataType.AssignmentWork);
+    Console.WriteLine("{0} : {1:N2}", hour, work.TotalHours);
+}
+```
+
 ### See Also
 
 * enum [TimephasedDataType](../../timephaseddatatype)

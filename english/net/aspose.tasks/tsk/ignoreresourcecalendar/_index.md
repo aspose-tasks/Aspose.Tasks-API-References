@@ -3,7 +3,7 @@ title: IgnoreResourceCalendar
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether the scheduling of the task considers the calendars of the resources assigned to the task.
 type: docs
-weight: 540
+weight: 530
 url: /net/aspose.tasks/tsk/ignoreresourcecalendar/
 ---
 ## Tsk.IgnoreResourceCalendar field

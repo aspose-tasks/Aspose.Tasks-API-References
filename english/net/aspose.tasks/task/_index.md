@@ -51,7 +51,6 @@ public class Task : IEquatable<Task>
 | [DisplayAsSummary](../../aspose.tasks/task/displayassummary) { get; set; } | Gets or sets a value indicating whether DisplayAsSummary is set or not. |
 | [DisplayOnTimeline](../../aspose.tasks/task/displayontimeline) { get; set; } | Gets or sets a value indicating whether DisplayOnTimeline is set or not. |
 | [Duration](../../aspose.tasks/task/duration) { get; set; } | Gets or sets a value of Duration. |
-| [DurationFormat](../../aspose.tasks/task/durationformat) { get; set; } | Gets or sets a value of DurationFormat. |
 | [DurationText](../../aspose.tasks/task/durationtext) { get; set; } | Gets or sets a value of DurationText. |
 | [DurationVariance](../../aspose.tasks/task/durationvariance) { get; set; } | Gets or sets a value of DurationVariance. |
 | [EarlyFinish](../../aspose.tasks/task/earlyfinish) { get; set; } | Gets or sets a value of EarlyFinish. |

@@ -3,7 +3,7 @@ title: FinishSlack
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of FinishSlack.
 type: docs
-weight: 450
+weight: 440
 url: /net/aspose.tasks/task/finishslack/
 ---
 ## Task.FinishSlack property

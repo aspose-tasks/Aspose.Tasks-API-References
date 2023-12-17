@@ -3,7 +3,7 @@ title: Start
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Start.
 type: docs
-weight: 1120
+weight: 1110
 url: /net/aspose.tasks/task/start/
 ---
 ## Task.Start property

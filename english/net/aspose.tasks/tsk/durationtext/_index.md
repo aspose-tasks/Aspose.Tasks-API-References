@@ -3,7 +3,7 @@ title: DurationText
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns the tasks duration text.
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.tasks/tsk/durationtext/
 ---
 ## Tsk.DurationText field

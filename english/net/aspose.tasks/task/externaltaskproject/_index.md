@@ -3,7 +3,7 @@ title: ExternalTaskProject
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ExternalTaskProject.
 type: docs
-weight: 420
+weight: 410
 url: /net/aspose.tasks/task/externaltaskproject/
 ---
 ## Task.ExternalTaskProject property

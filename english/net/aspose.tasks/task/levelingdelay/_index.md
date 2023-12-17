@@ -3,7 +3,7 @@ title: LevelingDelay
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of LevelingDelay.
 type: docs
-weight: 810
+weight: 800
 url: /net/aspose.tasks/task/levelingdelay/
 ---
 ## Task.LevelingDelay property

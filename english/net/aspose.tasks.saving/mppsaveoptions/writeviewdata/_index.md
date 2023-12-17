@@ -3,7 +3,7 @@ title: WriteViewData
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether to write view data when saving to MPP. View data includes Project.Views Filters and Tables collections.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.tasks.saving/mppsaveoptions/writeviewdata/
 ---
 ## MPPSaveOptions.WriteViewData property

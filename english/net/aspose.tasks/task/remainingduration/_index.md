@@ -3,7 +3,7 @@ title: RemainingDuration
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of RemainingDuration.
 type: docs
-weight: 1060
+weight: 1050
 url: /net/aspose.tasks/task/remainingduration/
 ---
 ## Task.RemainingDuration property

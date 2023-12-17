@@ -3,7 +3,7 @@ title: PreleveledFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of PreleveledFinish.
 type: docs
-weight: 990
+weight: 980
 url: /net/aspose.tasks/task/preleveledfinish/
 ---
 ## Task.PreleveledFinish property

@@ -3,7 +3,7 @@ title: EarnedValueMethod
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether the  Complete or Physical  Complete field should be used to calculate budgeted cost of work performed BCWP.
 type: docs
-weight: 360
+weight: 350
 url: /net/aspose.tasks/tsk/earnedvaluemethod/
 ---
 ## Tsk.EarnedValueMethod field

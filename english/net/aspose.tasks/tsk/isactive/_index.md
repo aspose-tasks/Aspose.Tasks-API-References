@@ -3,7 +3,7 @@ title: IsActive
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a task is active. Inactive tasks no longer affect other tasks or the overall Project schedule.
 type: docs
-weight: 560
+weight: 550
 url: /net/aspose.tasks/tsk/isactive/
 ---
 ## Tsk.IsActive field

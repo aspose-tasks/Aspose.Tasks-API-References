@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns short string representation of a task. The exact details of the representation are unspecified and subject to change.
 type: docs
-weight: 1420
+weight: 1410
 url: /net/aspose.tasks/task/tostring/
 ---
 ## Task.ToString method

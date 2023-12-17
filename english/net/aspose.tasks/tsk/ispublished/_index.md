@@ -3,7 +3,7 @@ title: IsPublished
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether the current task should be published to Project Server with the rest of the project.
 type: docs
-weight: 670
+weight: 660
 url: /net/aspose.tasks/tsk/ispublished/
 ---
 ## Tsk.IsPublished field

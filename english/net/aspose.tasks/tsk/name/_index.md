@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Tasks for .NET API Reference
 description: A tasks name.
 type: docs
-weight: 820
+weight: 810
 url: /net/aspose.tasks/tsk/name/
 ---
 ## Tsk.Name field

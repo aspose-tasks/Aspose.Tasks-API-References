@@ -3,7 +3,7 @@ title: PreleveledStart
 second_title: Aspose.Tasks for .NET API Reference
 description: The start date of a task as it was before resource leveling was done.
 type: docs
-weight: 930
+weight: 920
 url: /net/aspose.tasks/tsk/preleveledstart/
 ---
 ## Tsk.PreleveledStart field

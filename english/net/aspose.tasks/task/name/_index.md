@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of Name.
 type: docs
-weight: 850
+weight: 840
 url: /net/aspose.tasks/task/name/
 ---
 ## Task.Name property

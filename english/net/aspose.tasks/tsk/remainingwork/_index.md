@@ -3,7 +3,7 @@ title: RemainingWork
 second_title: Aspose.Tasks for .NET API Reference
 description: The time still required to complete a task or set of tasks.
 type: docs
-weight: 1000
+weight: 990
 url: /net/aspose.tasks/tsk/remainingwork/
 ---
 ## Tsk.RemainingWork field

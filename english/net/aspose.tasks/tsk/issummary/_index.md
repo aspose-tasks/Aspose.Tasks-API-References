@@ -3,7 +3,7 @@ title: IsSummary
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a task is a summary task.
 type: docs
-weight: 730
+weight: 720
 url: /net/aspose.tasks/tsk/issummary/
 ---
 ## Tsk.IsSummary field
