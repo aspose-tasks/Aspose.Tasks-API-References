@@ -3,7 +3,7 @@ title: ManualFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: Defines manually scheduled finish of a task.
 type: docs
-weight: 800
+weight: 790
 url: /net/aspose.tasks/tsk/manualfinish/
 ---
 ## Tsk.ManualFinish field

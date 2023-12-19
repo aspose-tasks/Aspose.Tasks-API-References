@@ -3,7 +3,7 @@ title: StartText
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of StartText.
 type: docs
-weight: 1140
+weight: 1130
 url: /net/aspose.tasks/task/starttext/
 ---
 ## Task.StartText property

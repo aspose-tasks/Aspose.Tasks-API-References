@@ -3,7 +3,7 @@ title: Priority
 second_title: Aspose.Tasks for .NET API Reference
 description: The level of importance given to a task which in turn indicates how readily a task or assignment can be delayed or split during resource leveling.
 type: docs
-weight: 940
+weight: 930
 url: /net/aspose.tasks/tsk/priority/
 ---
 ## Tsk.Priority field

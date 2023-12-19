@@ -3,7 +3,7 @@ title: IsSubprojectReadOnly
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a subproject is readonly.
 type: docs
-weight: 720
+weight: 710
 url: /net/aspose.tasks/tsk/issubprojectreadonly/
 ---
 ## Tsk.IsSubprojectReadOnly field

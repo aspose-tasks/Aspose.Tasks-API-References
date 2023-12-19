@@ -3,7 +3,7 @@ title: IsSubproject
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a task is an inserted project.
 type: docs
-weight: 710
+weight: 700
 url: /net/aspose.tasks/tsk/issubproject/
 ---
 ## Tsk.IsSubproject field

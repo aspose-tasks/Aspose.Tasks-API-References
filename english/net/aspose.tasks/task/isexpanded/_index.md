@@ -3,7 +3,7 @@ title: IsExpanded
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value indicating whether IsExpanded is set or not.
 type: docs
-weight: 630
+weight: 620
 url: /net/aspose.tasks/task/isexpanded/
 ---
 ## Task.IsExpanded property

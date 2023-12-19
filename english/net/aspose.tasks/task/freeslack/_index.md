@@ -3,7 +3,7 @@ title: FreeSlack
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of FreeSlack.
 type: docs
-weight: 500
+weight: 490
 url: /net/aspose.tasks/task/freeslack/
 ---
 ## Task.FreeSlack property

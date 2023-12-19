@@ -25,7 +25,7 @@ public sealed class Filter : IComparable<Filter>, IEquatable<Filter>
 | Name | Description |
 | --- | --- |
 | [Criteria](../../aspose.tasks/filter/criteria) { get; set; } | Gets or sets the criteria that tasks or resources must meet to be displayed in MSP view. |
-| [FilterType](../../aspose.tasks/filter/filtertype) { get; } | Gets the type of the filter. |
+| [FilterType](../../aspose.tasks/filter/filtertype) { get; set; } | Gets the type of the filter. |
 | [Index](../../aspose.tasks/filter/index) { get; } | Gets the index of a [`Filter`](../filter) object in the Filters containing object. |
 | [Name](../../aspose.tasks/filter/name) { get; set; } | Gets or sets the name of a Filter object. |
 | [ShowInMenu](../../aspose.tasks/filter/showinmenu) { get; set; } | Gets or sets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |

@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: Returns a value indicating whether this instance is equal to a specified task.
 type: docs
-weight: 1330
+weight: 1320
 url: /net/aspose.tasks/task/equals/
 ---
 ## Equals(Task) {#equals}

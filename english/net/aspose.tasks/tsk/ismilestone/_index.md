@@ -3,7 +3,7 @@ title: IsMilestone
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a task is a milestone.
 type: docs
-weight: 640
+weight: 630
 url: /net/aspose.tasks/tsk/ismilestone/
 ---
 ## Tsk.IsMilestone field

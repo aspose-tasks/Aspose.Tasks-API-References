@@ -29,6 +29,7 @@ public class MPPSaveOptions : SimpleSaveOptions
 | [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat) { get; } | Gets or sets the format in which the document will be saved if this save options object is used. |
 | [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer) { get; set; } | Gets or sets the comparer to sort tasks on Gantt chart and Task Sheet chart. |
 | [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter) { get; set; } | Gets or sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
+| [WriteFilters](../../aspose.tasks.saving/mppsaveoptions/writefilters) { get; set; } | Gets or sets a value indicating whether to write filter data when saving to MPP. Filter data includes Project.TaskFilters and Project.ResourceFilters collections. |
 | [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata) { get; set; } | Gets or sets a value indicating whether to write view data when saving to MPP. View data includes Project.Views, Filters and Tables collections. |
 
 ### Examples

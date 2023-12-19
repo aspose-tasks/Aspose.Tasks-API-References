@@ -3,7 +3,7 @@ title: ManualDuration
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of ManualDuration.
 type: docs
-weight: 820
+weight: 810
 url: /net/aspose.tasks/task/manualduration/
 ---
 ## Task.ManualDuration property

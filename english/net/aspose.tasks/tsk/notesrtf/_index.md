@@ -3,7 +3,7 @@ title: NotesRTF
 second_title: Aspose.Tasks for .NET API Reference
 description: The text notes in RTF format. Supported for MPP formats only.
 type: docs
-weight: 830
+weight: 820
 url: /net/aspose.tasks/tsk/notesrtf/
 ---
 ## Tsk.NotesRTF field

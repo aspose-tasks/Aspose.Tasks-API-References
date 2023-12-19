@@ -48,7 +48,6 @@ public static class Tsk
 | static readonly [DisplayAsSummary](../../aspose.tasks/tsk/displayassummary) | Determines whether the task should be displayed as a summary task. Reading supported for XML format only. |
 | static readonly [DisplayOnTimeline](../../aspose.tasks/tsk/displayontimeline) | Specifies whether a task should be displayed on a timeline view. |
 | static readonly [Duration](../../aspose.tasks/tsk/duration) | The total span of active working time for a task as entered or as calculated by Microsoft Project based on start date, finish date, calendars, and other scheduling factors. |
-| static readonly [DurationFormat](../../aspose.tasks/tsk/durationformat) | Task duration format. |
 | static readonly [DurationText](../../aspose.tasks/tsk/durationtext) | Returns the task's duration text. |
 | static readonly [DurationVariance](../../aspose.tasks/tsk/durationvariance) | The difference between the baseline duration of a task and the total duration (current estimate) of a task. |
 | static readonly [EarlyFinish](../../aspose.tasks/tsk/earlyfinish) | The earliest date that a task could possibly finish, based on early finish dates of predecessor and successor tasks, other constraints, and any leveling delay. |

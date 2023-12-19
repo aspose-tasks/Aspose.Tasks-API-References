@@ -3,7 +3,7 @@ title: FinishSlackTimeSpan
 second_title: Aspose.Tasks for .NET API Reference
 description: The duration between the Early Finish and Late Finish dates.
 type: docs
-weight: 410
+weight: 400
 url: /net/aspose.tasks/tsk/finishslacktimespan/
 ---
 ## Tsk.FinishSlackTimeSpan field

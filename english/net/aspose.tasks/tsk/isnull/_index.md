@@ -3,7 +3,7 @@ title: IsNull
 second_title: Aspose.Tasks for .NET API Reference
 description: Determines whether a task is a null task.
 type: docs
-weight: 650
+weight: 640
 url: /net/aspose.tasks/tsk/isnull/
 ---
 ## Tsk.IsNull field

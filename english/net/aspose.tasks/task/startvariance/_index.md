@@ -3,7 +3,7 @@ title: StartVariance
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets a value of StartVariance.
 type: docs
-weight: 1150
+weight: 1140
 url: /net/aspose.tasks/task/startvariance/
 ---
 ## Task.StartVariance property

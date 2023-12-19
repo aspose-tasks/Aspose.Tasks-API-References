@@ -3,7 +3,7 @@ title: ExternalUid
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains the external tasks Unique identifier when the task is external.
 type: docs
-weight: 390
+weight: 380
 url: /net/aspose.tasks/tsk/externaluid/
 ---
 ## Tsk.ExternalUid field
