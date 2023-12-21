@@ -25,9 +25,11 @@ Allows to specify additional options when saving project data to MPP.
 | --- | --- |
 | [getProtectionPassword()](#getProtectionPassword--) | Gets a password which is used to protect a resulting MPP file. |
 | [getRemoveInvalidAssignments()](#getRemoveInvalidAssignments--) | Gets a value indicating whether to remove invalid resource assignments when saving to MPP. |
+| [getWriteFilters()](#getWriteFilters--) | Gets a value indicating whether to write filter data when saving to MPP. |
 | [getWriteViewData()](#getWriteViewData--) | Gets a value indicating whether to write view data when saving to MPP. |
 | [setProtectionPassword(String value)](#setProtectionPassword-java.lang.String-) | Sets a password which is used to protect a resulting MPP file. |
 | [setRemoveInvalidAssignments(boolean value)](#setRemoveInvalidAssignments-boolean-) | Sets a value indicating whether to remove invalid resource assignments when saving to MPP. |
+| [setWriteFilters(boolean value)](#setWriteFilters-boolean-) | Sets a value indicating whether to write filter data when saving to MPP. |
 | [setWriteViewData(boolean value)](#setWriteViewData-boolean-) | Sets a value indicating whether to write view data when saving to MPP. |
 ### MPPSaveOptions() {#MPPSaveOptions--}
 ```
@@ -65,6 +67,24 @@ MS Project creates an empty resource assignment for each task. Set this flag to 
 
 **Returns:**
 boolean - a value indicating whether to remove invalid resource assignments when saving to MPP.
+### getWriteFilters() {#getWriteFilters--}
+```
+public final boolean getWriteFilters()
+```
+
+
+Gets a value indicating whether to write filter data when saving to MPP.
+
+--------------------
+
+Filter data includes Project.TaskFilters and Project.ResourceFilters collections.
+
+--------------------
+
+Currently supported for MSP 2010 or newer formats.
+
+**Returns:**
+boolean - a value indicating whether to write filter data when saving to MPP.
 ### getWriteViewData() {#getWriteViewData--}
 ```
 public final boolean getWriteViewData()
@@ -112,6 +132,27 @@ MS Project creates an empty resource assignment for each task. Set this flag to 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether to remove invalid resource assignments when saving to MPP. |
+
+### setWriteFilters(boolean value) {#setWriteFilters-boolean-}
+```
+public final void setWriteFilters(boolean value)
+```
+
+
+Sets a value indicating whether to write filter data when saving to MPP.
+
+--------------------
+
+Filter data includes Project.TaskFilters and Project.ResourceFilters collections.
+
+--------------------
+
+Currently supported for MSP 2010 or newer formats.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether to write filter data when saving to MPP. |
 
 ### setWriteViewData(boolean value) {#setWriteViewData-boolean-}
 ```
