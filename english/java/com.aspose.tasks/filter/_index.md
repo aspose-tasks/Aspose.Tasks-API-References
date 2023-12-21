@@ -44,6 +44,7 @@ Represents a filter in Project.
 | [op_LessThan(Filter a, Filter b)](#op-LessThan-com.aspose.tasks.Filter-com.aspose.tasks.Filter-) | Returns a value indicating whether this instance is less than a specified object. |
 | [op_LessThanOrEqual(Filter a, Filter b)](#op-LessThanOrEqual-com.aspose.tasks.Filter-com.aspose.tasks.Filter-) | Returns a value indicating whether this instance is less than or equal to a specified object. |
 | [setCriteria(FilterCriteria value)](#setCriteria-com.aspose.tasks.FilterCriteria-) | Sets the criteria that tasks or resources must meet to be displayed in MSP view. |
+| [setFilterType(int value)](#setFilterType-int-) | The type of the filter. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of a Filter object. |
 | [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether project shows the filter name in the Filter drop-down list on the View tab of the Ribbon. |
 | [setShowRelatedSummaryRows(boolean value)](#setShowRelatedSummaryRows-boolean-) | Sets a value indicating whether related summary rows are displayed for the filter. |
@@ -286,6 +287,19 @@ Sets the criteria that tasks or resources must meet to be displayed in MSP view.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [FilterCriteria](../../com.aspose.tasks/filtercriteria) | the criteria that tasks or resources must meet to be displayed in MSP view. |
+
+### setFilterType(int value) {#setFilterType-int-}
+```
+public final void setFilterType(int value)
+```
+
+
+The type of the filter.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the type of the filter. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
