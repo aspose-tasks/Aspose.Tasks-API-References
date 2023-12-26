@@ -87,6 +87,8 @@ The ResourceAssignment type exposes the following members:
 | :- | :- |
 |get_timephased_data(start, end, timephased_type)|Returns the instance|
 |get_timephased_data(start, end)|Returns the instance|
+|get_timephased_work(start, end, timephased_data_type)|Gets amount of timephased work for the specified date time interval.|
+|get_timephased_work(start, end)|Gets amount of timephased work for the specified date time interval.|
 |delete()|Deletes resource assignment from project assignments collection.|
 |equals(other)|Returns a value indicating whether this instance is equal to a specified instance of the|
 |timephased_data_from_task_duration(calendar)|Generates list of time phased data based on the task duration and the scheduled start date.|
