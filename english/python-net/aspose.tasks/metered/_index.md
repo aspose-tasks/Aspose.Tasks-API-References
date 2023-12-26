@@ -23,6 +23,7 @@ The Metered type exposes the following members:
 |reset_metered_key()|Removes previously setup license.|
 |get_consumption_credit()|Gets consumption credit.|
 |get_consumption_quantity()|Gets consumption file size.|
+|is_licensed()|Checks whether the product is successfully licensed using Metered license.|
 
 ### See Also
 

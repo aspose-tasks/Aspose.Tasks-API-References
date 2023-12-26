@@ -108,6 +108,7 @@ The Task type exposes the following members:
 |actual_work_protected|Gets or sets a value of ActualWorkProtected.|
 |actual_overtime_work_protected|Gets or sets a value of ActualOvertimeWorkProtected.|
 |is_published|Gets or sets a value indicating whether IsPublished is set or not.|
+|status|Gets task status.|
 |status_manager|Gets or sets a value of StatusManager.|
 |commitment_start|Gets or sets a value of CommitmentStart.|
 |commitment_finish|Gets or sets a value of CommitmentFinish.|
