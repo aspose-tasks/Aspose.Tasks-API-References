@@ -29,7 +29,6 @@ The TaskBaseline type exposes the following members:
 |start|Gets or sets the scheduled start date of the task when the baseline was saved.|
 |finish|Gets or sets the scheduled finish date of the task when the baseline was saved.|
 |duration|Gets or sets the scheduled duration of the task when the baseline was saved.|
-|duration_format|Gets or sets the format for expressing the duration of the task baseline.|
 |estimated_duration|Gets or sets a value indicating whether the baseline duration of the task was estimated.|
 |fixed_cost|Gets or sets a fixed cost of the task when the baseline was saved.|
 ## Methods

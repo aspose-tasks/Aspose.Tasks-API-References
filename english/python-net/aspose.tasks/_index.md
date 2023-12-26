@@ -211,6 +211,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[TaskKey](/tasks/python-net/aspose.tasks/taskkey/)|Represents a list of supported  task fields.|
 |[TaskLinkType](/tasks/python-net/aspose.tasks/tasklinktype/)|Specifies the type of tasks dependency.|
 |[TaskStartDateType](/tasks/python-net/aspose.tasks/taskstartdatetype/)|Specifies the type of a task's start date.|
+|[TaskStatus](/tasks/python-net/aspose.tasks/taskstatus/)|Specifies the status of a task.|
 |[TaskType](/tasks/python-net/aspose.tasks/tasktype/)|Specifies the type of a task.|
 |[TaskUsageViewField](/tasks/python-net/aspose.tasks/taskusageviewfield/)|Represents possible fields in|
 |[TimeUnitType](/tasks/python-net/aspose.tasks/timeunittype/)|Specifies the type of a time unit.|
