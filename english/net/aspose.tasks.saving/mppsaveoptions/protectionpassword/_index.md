@@ -24,7 +24,7 @@ try
 
     var project = new Project(DataDir + "Project1.mpp");
 
-    var options = new MPPSaveOptions
+    SimpleSaveOptions options = new MPPSaveOptions
     {
         ProtectionPassword = "password!234"
     };

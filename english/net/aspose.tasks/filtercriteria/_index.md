@@ -34,6 +34,8 @@ public class FilterCriteria
 
 | Name | Description |
 | --- | --- |
+| [IsFieldValue](../../aspose.tasks/filtercriteria/isfieldvalue)() | Gets whether the right-hand value of FilterCriteria is a field reference, not a constant value. |
+| [SetValueField](../../aspose.tasks/filtercriteria/setvaluefield)(Field) | Sets the field whose value will be compared with the value of the field specified by FieldName. |
 | override [ToString](../../aspose.tasks/filtercriteria/tostring)() | Returns string representation of the instance of the [`FilterCriteria`](../filtercriteria) class. |
 
 ### Examples

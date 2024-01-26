@@ -62,7 +62,7 @@ public void ImplementCustomBarStyle()
         // Add the custom bar style to the custom bar collection of the project view
         view.CustomBarStyles.Add(custom);
 
-        var options = new MPPSaveOptions
+        SimpleSaveOptions options = new MPPSaveOptions
         {
             WriteViewData = true
         };

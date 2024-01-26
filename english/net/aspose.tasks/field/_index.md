@@ -95,10 +95,10 @@ public enum Field
 | ResourceBaseline9Work | `205521318` | Represents the Baseline9 Work (Resource) field. |
 | ResourceBaselineBudgetCost | `205521653` | Represents the Baseline Budget Cost (Resource) field. |
 | ResourceBaselineBudgetWork | `205521652` | Represents the Baseline Budget Work (Resource) field. |
+| ResourceBaselineWork | `205520911` | Represents the Baseline Work (Resource) field. |
 | ResourceBaselineCost | `205520913` | Represents the Baseline Cost (Resource) field. |
 | ResourceBaselineFinish | `205521156` | Represents the Baseline Finish (Resource) field. |
 | ResourceBaselineStart | `205521155` | Represents the Baseline Start (Resource) field. |
-| ResourceBaselineWork | `205520911` | Represents the Baseline Work (Resource) field. |
 | ResourceBCWP | `205520948` | Represents the BCWP (Resource) field. |
 | ResourceBCWS | `205520947` | Represents the BCWS (Resource) field. |
 | ResourceBookingType | `205521595` | Represents the Booking Type (Resource) field. |
@@ -1396,7 +1396,7 @@ style2.Font = new FontDescriptor("Impact", 16F, FontStyles.Underline);
 view.TableTextStyles.Add(style1);
 view.TableTextStyles.Add(style2);
 
-var options = new MPPSaveOptions
+SimpleSaveOptions options = new MPPSaveOptions
 {
     // set a flag indicating that view data must be written
     WriteViewData = true
