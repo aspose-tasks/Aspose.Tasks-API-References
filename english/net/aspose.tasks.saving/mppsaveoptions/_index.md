@@ -42,7 +42,7 @@ using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", Fi
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
     // create save options
-    var options = new MPPSaveOptions
+    SimpleSaveOptions options = new MPPSaveOptions
     {
         // sets a value indicating whether to remove invalid resource assignments when saving to MPP
         RemoveInvalidAssignments = true

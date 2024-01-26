@@ -18,22 +18,6 @@ public override int GetHashCode()
 
 returns a hash code value for this object.
 
-### Examples
-
-Shows how to get a hash code of a filter.
-
-```csharp
-var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
-List<Filter> filters = project.TaskFilters.ToList();
-
-var filter1 = filters[0];
-var filter2 = filters[1];
-
-// the hash code of a filter is equal to filter's UID 
-Console.WriteLine("Filter UID: {0} Hash Code: {1}", filter1.Uid, filter1.GetHashCode());
-Console.WriteLine("Filter UID: {0} Hash Code: {1}", filter2.Uid, filter2.GetHashCode());
-```
-
 ### See Also
 
 * class [Filter](../../filter)

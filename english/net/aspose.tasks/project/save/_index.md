@@ -25,7 +25,7 @@ Shows how to save project as an MPP file.
 
 ```csharp
 var project = new Project();
-var options = new MPPSaveOptions();
+SimpleSaveOptions options = new MPPSaveOptions();
 project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
 ```
 
@@ -112,7 +112,7 @@ Shows how to save project into a stream as an MPP file by using MPP save options
 using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
 {
     var project = new Project();
-    var options = new MPPSaveOptions();
+    SimpleSaveOptions options = new MPPSaveOptions();
 
     // by using of MPPSaveOptions we save it in MPP format
     project.Save(stream, options);
