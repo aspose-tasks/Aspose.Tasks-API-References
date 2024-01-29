@@ -91,10 +91,10 @@ Specifies a field in the Microsoft Office Project.
 |RESOURCE_BASELINE_9_WORK|Represents the Baseline9 Work (Resource) field.|
 |RESOURCE_BASELINE_BUDGET_COST|Represents the Baseline Budget Cost (Resource) field.|
 |RESOURCE_BASELINE_BUDGET_WORK|Represents the Baseline Budget Work (Resource) field.|
+|RESOURCE_BASELINE_WORK|Represents the Baseline Work (Resource) field.|
 |RESOURCE_BASELINE_COST|Represents the Baseline Cost (Resource) field.|
 |RESOURCE_BASELINE_FINISH|Represents the Baseline Finish (Resource) field.|
 |RESOURCE_BASELINE_START|Represents the Baseline Start (Resource) field.|
-|RESOURCE_BASELINE_WORK|Represents the Baseline Work (Resource) field.|
 |RESOURCE_BCWP|Represents the BCWP (Resource) field.|
 |RESOURCE_BCWS|Represents the BCWS (Resource) field.|
 |RESOURCE_BOOKING_TYPE|Represents the Booking Type (Resource) field.|
