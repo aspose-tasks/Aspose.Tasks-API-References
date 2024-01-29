@@ -24,6 +24,11 @@ The FilterCriteria type exposes the following members:
 |test|Gets or sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter.|
 |values|Gets the object values to compare with the value of the field specified with FieldName.|
 |criteria_rows|Gets the list of child|
+## Methods
+| Name | Description |
+| :- | :- |
+|is_field_value()|Gets whether the right-hand value of FilterCriteria is a field reference, not a constant value.|
+|set_value_field(value)|Sets the field whose value will be compared with the value of the field specified by FieldName.|
 
 ### See Also
 
