@@ -19,6 +19,7 @@ Contains a list of [Filter](../../com.aspose.tasks/filter) objects. Implements I
 | Method | Description |
 | --- | --- |
 | [add(Filter item)](#add-com.aspose.tasks.Filter-) |  |
+| [clear()](#clear--) | Removes all of the elements from this collection (optional operation). |
 | [contains(Filter item)](#contains-com.aspose.tasks.Filter-) | Returns true if this collection contains the specified item. |
 | [copyTo(Filter[] array, int arrayIndex)](#copyTo-com.aspose.tasks.Filter---int-) | Copies the elements from the specified array to this collection starting from the specified index. |
 | [iterator()](#iterator--) | Returns an iterator over the elements containing in this collection. |
@@ -40,6 +41,14 @@ public boolean add(Filter item)
 
 **Returns:**
 boolean
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Removes all of the elements from this collection (optional operation). The collection will be empty after this method returns.
+
 ### contains(Filter item) {#contains-com.aspose.tasks.Filter-}
 ```
 public final boolean contains(Filter item)

@@ -28,9 +28,11 @@ Defines the criteria that tasks or resources must meet to be displayed in MSP vi
 | [getOperation()](#getOperation--) | Gets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
 | [getTest()](#getTest--) | Gets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
 | [getValues()](#getValues--) | Gets the object values to compare with the value of the field specified with FieldName. |
+| [isValueAField()](#isValueAField--) | Gets whether the right-hand value of FilterCriteria is a field reference, not a constant value. |
 | [setField(int value)](#setField-int-) | Sets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
 | [setOperation(int value)](#setOperation-int-) | Sets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
 | [setTest(int value)](#setTest-int-) | Sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
+| [setValueByField(int value)](#setValueByField-int-) | Sets the field whose value will be compared with the value of the field specified by FieldName. |
 | [toString()](#toString--) | Returns string representation of the instance of the [FilterCriteria](../../com.aspose.tasks/filtercriteria) class. |
 ### FilterCriteria() {#FilterCriteria--}
 ```
@@ -88,6 +90,16 @@ Gets the object values to compare with the value of the field specified with Fie
 
 **Returns:**
 java.lang.Object[] - the object values to compare with the value of the field specified with FieldName.
+### isValueAField() {#isValueAField--}
+```
+public final boolean isValueAField()
+```
+
+
+Gets whether the right-hand value of FilterCriteria is a field reference, not a constant value.
+
+**Returns:**
+boolean - whether the right-hand value of FilterCriteria is a field reference, not a constant value.
 ### setField(int value) {#setField-int-}
 ```
 public final void setField(int value)
@@ -126,6 +138,19 @@ Sets the type of comparison made between FieldName and Value that acts as select
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
+
+### setValueByField(int value) {#setValueByField-int-}
+```
+public final void setValueByField(int value)
+```
+
+
+Sets the field whose value will be compared with the value of the field specified by FieldName.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | Field which will serve as right-hand value of filter criteria. |
 
 ### toString() {#toString--}
 ```
