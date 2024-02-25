@@ -20,7 +20,8 @@ public class WeekDay
 | --- | --- |
 | [WeekDay](weekday#constructor)() | Initializes a new instance of the [`WeekDay`](../weekday) class. |
 | [WeekDay](weekday#constructor_1)(DayType) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type. |
-| [WeekDay](weekday#constructor_2)(DayType, IEnumerable&lt;WorkingTime&gt;) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type and list of working time periods. |
+| [WeekDay](weekday#constructor_3)(DayType, IEnumerable&lt;WorkingTime&gt;) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type and list of working time periods. |
+| [WeekDay](weekday#constructor_2)(DayType, params WorkingTime[]) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type and working time periods. |
 
 ## Properties
 

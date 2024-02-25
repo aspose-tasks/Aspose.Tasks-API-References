@@ -83,7 +83,7 @@ foreach (var day in calendar.WeekDays)
 
 ---
 
-## WeekDay(DayType, IEnumerable&lt;WorkingTime&gt;) {#constructor_2}
+## WeekDay(DayType, IEnumerable&lt;WorkingTime&gt;) {#constructor_3}
 
 Initializes a new instance of the [`WeekDay`](../../weekday) class with the specified day type and list of working time periods.
 
@@ -151,6 +151,29 @@ foreach (var day in calendar.WeekDays)
     Console.WriteLine();
 }
 ```
+
+### See Also
+
+* enum [DayType](../../daytype)
+* class [WorkingTime](../../workingtime)
+* class [WeekDay](../../weekday)
+* namespace [Aspose.Tasks](../../weekday)
+* assembly [Aspose.Tasks](../../../)
+
+---
+
+## WeekDay(DayType, params WorkingTime[]) {#constructor_2}
+
+Initializes a new instance of the [`WeekDay`](../../weekday) class with the specified day type and working time periods.
+
+```csharp
+public WeekDay(DayType dayType, params WorkingTime[] workingTimes)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dayType | DayType | The specified day type. |
+| workingTimes | WorkingTime[] | Array of working time periods. |
 
 ### See Also
 
