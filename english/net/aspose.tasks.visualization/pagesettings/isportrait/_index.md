@@ -14,6 +14,10 @@ Gets or sets a value indicating whether the page orientation is portrait; return
 public bool IsPortrait { get; set; }
 ```
 
+### Remarks
+
+Is applicable during rendering when SaveOptions.PageSize == Visualization.PageSize.DefinedInView.
+
 ### Examples
 
 Shows how to work with &lt;see cref="Aspose.Tasks.Visualization.PageSettings" /&gt;.
