@@ -30,12 +30,10 @@ Allows to specify additional options when rendering project pages to HTML.
 | [deepClone()](#deepClone--) | \{@inheritDoc\} |
 | [getCssSavingCallback()](#getCssSavingCallback--) | Gets the callback that is called to create resource to store CSS. |
 | [getCssStylePrefix()](#getCssStylePrefix--) | Gets CSS style prefix. |
-| [getDefaultFontName()](#getDefaultFontName--) | Gets the default (or fallback) font for rendering. |
 | [getExportCss()](#getExportCss--) | Gets the way CSS are exported. |
 | [getExportFonts()](#getExportFonts--) | Gets the way fonts are exported. |
 | [getExportImages()](#getExportImages--) | Gets the way images are exported. |
 | [getFontFaceTypes()](#getFontFaceTypes--) | Gets the font face types. |
-| [getFontResolveCallback()](#getFontResolveCallback--) | Gets a callback which can be used to customize resolved fonts. |
 | [getFontSavingCallback()](#getFontSavingCallback--) | Gets the callback that is called to create resource to store font. |
 | [getFontSettings()](#getFontSettings--) | Specifies font settings used when rendering project's view. |
 | [getImageSavingCallback()](#getImageSavingCallback--) | Gets the callback that is called to create resource to store font. |
@@ -45,15 +43,12 @@ Allows to specify additional options when rendering project pages to HTML.
 | [getPages()](#getPages--) | Gets a list of page numbers to save when rendering project layout. |
 | [getReduceFooterGap()](#getReduceFooterGap--) | Gets a value indicating whether a gap between last task and the footer must be reduced. |
 | [getUseGradientBrush()](#getUseGradientBrush--) | Gets a value indicating whether to use gradient brush when rendering project layout. |
-| [getUseProjectDefaultFont()](#getUseProjectDefaultFont--) | Gets a value indicating whether the default font must be used for rendering. |
 | [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.tasks.ICssSavingCallback-) | Sets the callback that is called to create resource to store CSS. |
 | [setCssStylePrefix(String value)](#setCssStylePrefix-java.lang.String-) | Sets CSS style prefix. |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default (or fallback) font for rendering. |
 | [setExportCss(int value)](#setExportCss-int-) | Sets the way CSS are exported. |
 | [setExportFonts(int value)](#setExportFonts-int-) | Sets the way fonts are exported. |
 | [setExportImages(int value)](#setExportImages-int-) | Sets the way images are exported. |
 | [setFontFaceTypes(int value)](#setFontFaceTypes-int-) | Sets the font face types. |
-| [setFontResolveCallback(FontResolveCallbackDelegate value)](#setFontResolveCallback-com.aspose.tasks.FontResolveCallbackDelegate-) | Sets a callback which can be used to customize resolved fonts. |
 | [setFontSavingCallback(IFontSavingCallback value)](#setFontSavingCallback-com.aspose.tasks.IFontSavingCallback-) | Sets the callback that is called to create resource to store font. |
 | [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.tasks.IImageSavingCallback-) | Sets the callback that is called to create resource to store font. |
 | [setIncludeProjectNameInPageHeader(boolean value)](#setIncludeProjectNameInPageHeader-boolean-) | Sets a value indicating whether to include project name in HTML page header. |
@@ -62,7 +57,6 @@ Allows to specify additional options when rendering project pages to HTML.
 | [setPages(List&lt;Integer&gt; value)](#setPages-java.util.List-java.lang.Integer--) | Sets a list of page numbers to save when rendering project layout. |
 | [setReduceFooterGap(boolean value)](#setReduceFooterGap-boolean-) | Sets a value indicating whether a gap between last task and the footer must be reduced. |
 | [setUseGradientBrush(boolean value)](#setUseGradientBrush-boolean-) | Sets a value indicating whether to use gradient brush when rendering project layout. |
-| [setUseProjectDefaultFont(boolean value)](#setUseProjectDefaultFont-boolean-) | Sets a value indicating whether the default font must be used for rendering. |
 ### HtmlSaveOptions() {#HtmlSaveOptions--}
 ```
 public HtmlSaveOptions()
@@ -114,16 +108,6 @@ Gets CSS style prefix.
 
 **Returns:**
 java.lang.String - CSS style prefix.
-### getDefaultFontName() {#getDefaultFontName--}
-```
-public final String getDefaultFontName()
-```
-
-
-Gets the default (or fallback) font for rendering.
-
-**Returns:**
-java.lang.String - the default (or fallback) font for rendering.
 ### getExportCss() {#getExportCss--}
 ```
 public final int getExportCss()
@@ -166,16 +150,6 @@ Value: The font face types.
 
 **Returns:**
 int - the font face types.
-### getFontResolveCallback() {#getFontResolveCallback--}
-```
-public final FontResolveCallbackDelegate getFontResolveCallback()
-```
-
-
-Gets a callback which can be used to customize resolved fonts.
-
-**Returns:**
-[FontResolveCallbackDelegate](../../com.aspose.tasks/fontresolvecallbackdelegate) - a callback which can be used to customize resolved fonts.
 ### getFontSavingCallback() {#getFontSavingCallback--}
 ```
 public final IFontSavingCallback getFontSavingCallback()
@@ -274,20 +248,6 @@ Currently using of gradient brush is not supported when rendering to HTML.
 
 **Returns:**
 boolean - a value indicating whether to use gradient brush when rendering project layout.
-### getUseProjectDefaultFont() {#getUseProjectDefaultFont--}
-```
-public final boolean getUseProjectDefaultFont()
-```
-
-
-Gets a value indicating whether the default font must be used for rendering.
-
---------------------
-
-When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/htmlsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/htmlsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
-
-**Returns:**
-boolean - a value indicating whether the default font must be used for rendering.
 ### setCssSavingCallback(ICssSavingCallback value) {#setCssSavingCallback-com.aspose.tasks.ICssSavingCallback-}
 ```
 public final void setCssSavingCallback(ICssSavingCallback value)
@@ -313,19 +273,6 @@ Sets CSS style prefix.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | CSS style prefix. |
-
-### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
-```
-public final void setDefaultFontName(String value)
-```
-
-
-Sets the default (or fallback) font for rendering.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | the default (or fallback) font for rendering. |
 
 ### setExportCss(int value) {#setExportCss-int-}
 ```
@@ -380,19 +327,6 @@ Value: The font face types.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | the font face types. |
-
-### setFontResolveCallback(FontResolveCallbackDelegate value) {#setFontResolveCallback-com.aspose.tasks.FontResolveCallbackDelegate-}
-```
-public final void setFontResolveCallback(FontResolveCallbackDelegate value)
-```
-
-
-Sets a callback which can be used to customize resolved fonts.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [FontResolveCallbackDelegate](../../com.aspose.tasks/fontresolvecallbackdelegate) | a callback which can be used to customize resolved fonts. |
 
 ### setFontSavingCallback(IFontSavingCallback value) {#setFontSavingCallback-com.aspose.tasks.IFontSavingCallback-}
 ```
@@ -505,21 +439,4 @@ Currently using of gradient brush is not supported when rendering to HTML.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether to use gradient brush when rendering project layout. |
-
-### setUseProjectDefaultFont(boolean value) {#setUseProjectDefaultFont-boolean-}
-```
-public final void setUseProjectDefaultFont(boolean value)
-```
-
-
-Sets a value indicating whether the default font must be used for rendering.
-
---------------------
-
-When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/htmlsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/htmlsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether the default font must be used for rendering. |
 

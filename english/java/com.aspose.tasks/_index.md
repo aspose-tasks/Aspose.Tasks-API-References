@@ -49,7 +49,7 @@ url: /java/com.aspose.tasks/
 | [CalendarExceptionCollection](../com.aspose.tasks/calendarexceptioncollection) | Represents a collection of [CalendarException](../com.aspose.tasks/calendarexception) objects. |
 | [CalendarExceptionType](../com.aspose.tasks/calendarexceptiontype) | Specifies the calendar exception type. |
 | [CancellationToken](../com.aspose.tasks/cancellationtoken) | Propagates notification that operations should be canceled. |
-| [CancellationTokenSource](../com.aspose.tasks/cancellationtokensource) | Signals to a CancellationToken that it should be canceled. |
+| [CancellationTokenSource](../com.aspose.tasks/cancellationtokensource) | Signals to a `CancellationToken` that it should be canceled. |
 | [CheckCircuit](../com.aspose.tasks/checkcircuit) | Checks a tree (of tasks) whether it contains a circuit. |
 | [ChildTasksCollector](../com.aspose.tasks/childtaskscollector) | Collects all child tasks. |
 | [CompoundDocumentHeaderException](../com.aspose.tasks/compounddocumentheaderexception) | Represents an exception which is thrown when the header of MPP file is broken. |
@@ -76,7 +76,7 @@ url: /java/com.aspose.tasks/
 | [DayLabelDisplay](../com.aspose.tasks/daylabeldisplay) | Specifies how the day label displays. |
 | [DayOfWeek](../com.aspose.tasks/dayofweek) | Specifies the day of week. |
 | [DayType](../com.aspose.tasks/daytype) | Specifies the day of a week. |
-| [DayTypeCollection](../com.aspose.tasks/daytypecollection) | Represents a collection of  DayType  objects. |
+| [DayTypeCollection](../com.aspose.tasks/daytypecollection) | Represents a collection of `DayType` objects. |
 | [DbSettings](../com.aspose.tasks/dbsettings) | Allows to specify settings to read from project database. |
 | [Duration](../com.aspose.tasks/duration) | Represents duration in a project. |
 | [EarnedValueMethodType](../com.aspose.tasks/earnedvaluemethodtype) | Specifies the method used for calculating earned value. |
@@ -158,13 +158,13 @@ url: /java/com.aspose.tasks/
 | [NullableBool](../com.aspose.tasks/nullablebool) | A class for boolean values with possibility to check whether the value was defined or not. |
 | [OleObject](../com.aspose.tasks/oleobject) | Represents an OLE object which can be inserter into Gantt Chart View of an MPP file. |
 | [OleObjectCollection](../com.aspose.tasks/oleobjectcollection) | Represents a collection containing the instances of the [OleObject](../com.aspose.tasks/oleobject) class. |
-| [OrdinalNumber](../com.aspose.tasks/ordinalnumber) | Represents an ordinal number in the instance of  RecurringTaskInfo  class. |
+| [OrdinalNumber](../com.aspose.tasks/ordinalnumber) | Represents an ordinal number in the instance of `RecurringTaskInfo` class. |
 | [OutlineCode](../com.aspose.tasks/outlinecode) | Represents a value of an outline code. |
 | [OutlineCodeCollection](../com.aspose.tasks/outlinecodecollection) | Represents a collection of [OutlineCode](../com.aspose.tasks/outlinecode) objects. |
 | [OutlineCodeDefinition](../com.aspose.tasks/outlinecodedefinition) | Represents an outline code definition. |
 | [OutlineCodeDefinitionCollection](../com.aspose.tasks/outlinecodedefinitioncollection) | Represents a collection of [OutlineCodeDefinition](../com.aspose.tasks/outlinecodedefinition) objects. |
 | [OutlineMask](../com.aspose.tasks/outlinemask) | Represents four elements of a mask which defines an outline code format. |
-| [OutlineMaskCollection](../com.aspose.tasks/outlinemaskcollection) | Represents a collection of  OutlineMask  objects. |
+| [OutlineMaskCollection](../com.aspose.tasks/outlinemaskcollection) | Represents a collection of `OutlineMask` objects. |
 | [OutlineValue](../com.aspose.tasks/outlinevalue) | Represents an outline value. |
 | [OutlineValueCollection](../com.aspose.tasks/outlinevaluecollection) | Represents a collection of [OutlineValue](../com.aspose.tasks/outlinevalue) objects. |
 | [OutlineValueType](../com.aspose.tasks/outlinevaluetype) | Specifies the type of an outline value. |
@@ -245,7 +245,7 @@ url: /java/com.aspose.tasks/
 | [ResourceType](../com.aspose.tasks/resourcetype) | Specifies the type of a resource. |
 | [ResourceUsageView](../com.aspose.tasks/resourceusageview) | Represents resource usage view in a project. |
 | [ResourceUsageViewField](../com.aspose.tasks/resourceusageviewfield) | Represents possible fields in [ResourceUsageView](../com.aspose.tasks/resourceusageview) object resource usage view field. |
-| [ResourceUsageViewFieldCollection](../com.aspose.tasks/resourceusageviewfieldcollection) | Represent a collection of  ResourceUsageViewField  values. |
+| [ResourceUsageViewFieldCollection](../com.aspose.tasks/resourceusageviewfieldcollection) | Represent a collection of `ResourceUsageViewField` values. |
 | [ResourceViewColumn](../com.aspose.tasks/resourceviewcolumn) | Project's view class used in ResourceUsage view and ResourceSheet view. |
 | [RiskAnalysisResult](../com.aspose.tasks/riskanalysisresult) | Represents a result of risk analysis. |
 | [RiskAnalysisSettings](../com.aspose.tasks/riskanalysissettings) | Specifies settings for performing risk analysis. |
@@ -254,9 +254,9 @@ url: /java/com.aspose.tasks/
 | [RiskItemStatisticsCollection](../com.aspose.tasks/riskitemstatisticscollection) | Represents a collection containing the instances of the [RiskItemStatistics](../com.aspose.tasks/riskitemstatistics) class. |
 | [RiskItemType](../com.aspose.tasks/riskitemtype) | Specifies task fields for which the statistical information is gathered during risk analysis. |
 | [RiskPattern](../com.aspose.tasks/riskpattern) | Represents a risk pattern for a project task. |
-| [RiskPatternCollection](../com.aspose.tasks/riskpatterncollection) | Represents a collection containing the instances of the  RiskPattern  class. |
+| [RiskPatternCollection](../com.aspose.tasks/riskpatterncollection) | Represents a collection containing the instances of the `RiskPattern` class. |
 | [RollupType](../com.aspose.tasks/rolluptype) | Specifies the rollup type. |
-| [Rsc](../com.aspose.tasks/rsc) | Represents supported properties of  Resource  object. |
+| [Rsc](../com.aspose.tasks/rsc) | Represents supported properties of `Resource` object. |
 | [RscKey](../com.aspose.tasks/rsckey) | Represents a list of supported resource fields. |
 | [SaveFileFormat](../com.aspose.tasks/savefileformat) | Enumeration for saving project format selection. |
 | [SaveOptions](../com.aspose.tasks/saveoptions) | This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format. |
@@ -289,7 +289,7 @@ url: /java/com.aspose.tasks/
 | [TaskType](../com.aspose.tasks/tasktype) | Specifies the type of a task. |
 | [TaskUsageView](../com.aspose.tasks/taskusageview) | Represents task usage view in a project. |
 | [TaskUsageViewField](../com.aspose.tasks/taskusageviewfield) | Represents possible fields in [TaskUsageView](../com.aspose.tasks/taskusageview) object. |
-| [TaskUsageViewFieldCollection](../com.aspose.tasks/taskusageviewfieldcollection) | Represents a collection of  TaskUsageViewField  values. |
+| [TaskUsageViewFieldCollection](../com.aspose.tasks/taskusageviewfieldcollection) | Represents a collection of `TaskUsageViewField` values. |
 | [TaskUtils](../com.aspose.tasks/taskutils) | Helper class which provides useful operations with tasks. |
 | [TaskValidationException](../com.aspose.tasks/taskvalidationexception) | Represents an exception which is thrown when errors are found in project's tasks after recalculation. |
 | [TasksException](../com.aspose.tasks/tasksexception) | Represents the standard internal exception type. |
@@ -317,11 +317,11 @@ url: /java/com.aspose.tasks/
 | [Value](../com.aspose.tasks/value) | Represents a value in a value list. |
 | [VbaModule](../com.aspose.tasks/vbamodule) | Represents a VBA module. |
 | [VbaModuleAttribute](../com.aspose.tasks/vbamoduleattribute) | The attribute of the [VbaModule](../com.aspose.tasks/vbamodule) object |
-| [VbaModuleAttributeCollection](../com.aspose.tasks/vbamoduleattributecollection) | Represents a collection of  VbaModuleAttribute  objects. |
-| [VbaModuleCollection](../com.aspose.tasks/vbamodulecollection) | Represents a collection of  VbaModule  objects. |
+| [VbaModuleAttributeCollection](../com.aspose.tasks/vbamoduleattributecollection) | Represents a collection of `VbaModuleAttribute` objects. |
+| [VbaModuleCollection](../com.aspose.tasks/vbamodulecollection) | Represents a collection of `VbaModule` objects. |
 | [VbaProject](../com.aspose.tasks/vbaproject) | Represents [VbaProject](../com.aspose.tasks/vbaproject). |
 | [VbaReference](../com.aspose.tasks/vbareference) | Represents a reference of the [VbaProject](../com.aspose.tasks/vbaproject). |
-| [VbaReferenceCollection](../com.aspose.tasks/vbareferencecollection) | Represents a collection of  VbaReference  objects. |
+| [VbaReferenceCollection](../com.aspose.tasks/vbareferencecollection) | Represents a collection of `VbaReference` objects. |
 | [View](../com.aspose.tasks/view) | Represents a view in Project. |
 | [ViewCollection](../com.aspose.tasks/viewcollection) | Contains a list of [View](../com.aspose.tasks/view) objects. |
 | [ViewColumn](../com.aspose.tasks/viewcolumn) | Represents a column in a project view. |
@@ -335,7 +335,7 @@ url: /java/com.aspose.tasks/
 | [WeekDay](../com.aspose.tasks/weekday) | Represents a weekday which either defines regular days of a week or exception days in a calendar. |
 | [WeekDayCollection](../com.aspose.tasks/weekdaycollection) | Represents a collection of [WeekDay](../com.aspose.tasks/weekday) objects. |
 | [WeekLabelDisplay](../com.aspose.tasks/weeklabeldisplay) | Specifies how the week label displays. |
-| [WeekdayType](../com.aspose.tasks/weekdaytype) | Represents a weekday of a project in the instance of  RecurringTaskInfo  class. |
+| [WeekdayType](../com.aspose.tasks/weekdaytype) | Represents a weekday of a project in the instance of `RecurringTaskInfo` class. |
 | [WeeklyRecurrencePattern](../com.aspose.tasks/weeklyrecurrencepattern) | Represents the set of parameters are used to create a weekly recurring task in a project. |
 | [WeeklyRepetition](../com.aspose.tasks/weeklyrepetition) | Represents a pattern which is based on weekdays. |
 | [WeeklyRepetitionBase](../com.aspose.tasks/weeklyrepetitionbase) | Represents a base class for repetitions in weekly recurrence pattern. |
@@ -360,13 +360,13 @@ url: /java/com.aspose.tasks/
 | --- | --- |
 | [AssignmentToColumnTextConverter](../com.aspose.tasks/assignmenttocolumntextconverter) | ResourceAssignment data to column's string converter. |
 | [Event&lt;TArgs&gt;](../com.aspose.tasks/event) | An event. |
-| [IAlgorithm&lt;T&gt;](../com.aspose.tasks/ialgorithm) | Represents an algorithm that can be applied to a list of objects  T . |
+| [IAlgorithm&lt;T&gt;](../com.aspose.tasks/ialgorithm) | Represents an algorithm that can be applied to a list of objects `T`. |
 | [ICondition&lt;T&gt;](../com.aspose.tasks/icondition) | Represents a condition which can be used by filters or search methods. |
 | [ICssSavingCallback](../com.aspose.tasks/icsssavingcallback) | Represents a callback that is called to create resource to store CSS. |
 | [IFontSavingCallback](../com.aspose.tasks/ifontsavingcallback) | Represents a callback that is called to create resource to store fonts. |
 | [IImageSavingCallback](../com.aspose.tasks/iimagesavingcallback) | Represents a callback that is called to create resource to store images. |
 | [IPageSavingCallback](../com.aspose.tasks/ipagesavingcallback) | Represents a callback that is called when each page in multi page document is saved to a separate stream. |
 | [ITextStyleModificationCallback](../com.aspose.tasks/itextstylemodificationcallback) | Represents a callback that is called before TextStyle is applied to a table cell. |
-| [ITreeAlgorithm&lt;T&gt;](../com.aspose.tasks/itreealgorithm) | Represents an algorithm that can be applied to a tree of objects  T . |
+| [ITreeAlgorithm&lt;T&gt;](../com.aspose.tasks/itreealgorithm) | Represents an algorithm that can be applied to a tree of objects `T`. |
 | [IVbaModule](../com.aspose.tasks/ivbamodule) | Represents a module with VBA code. |
 | [TaskToColumnTextConverter](../com.aspose.tasks/tasktocolumntextconverter) | Task's data to column's string converter. |
