@@ -31,6 +31,7 @@ The ImageSaveOptions type exposes the following members:
 |non_working_time_color|Gets or sets the non-working time color.|
 |page_count|Gets or sets the number of pages of project.|
 |page_size|Gets or sets the size of page to be rendered (Default value is PageSize.A4).|
+|is_portrait|Gets or sets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape.|
 |presentation_format|Gets or sets the|
 |roll_up_gantt_bars|Gets or sets a value indicating whether subtasks on the summary task bar should be marked.<br/>            For subtasks, the Rollup field indicates whether information on the subtask Gantt bars will be rolled up to the summary task bar.<br/>            For summary tasks, the Rollup field indicates whether the summary task bar displays rolled up bars.<br/>            You must have the Rollup field for summary tasks set to Yes for any subtasks to roll up to them.|
 |start_date|Gets or sets the date to start rendering from.|
@@ -42,8 +43,6 @@ The ImageSaveOptions type exposes the following members:
 |custom_page_size|Gets or sets the custom page size in points (1 point = 1/72 of inch).|
 |render_to_single_page|Gets or sets a value indicating whether a project should be rendered to a single page<br/>            when project is saved in graphical format.<br/>            The page size will be changed so the rendered project can be fit on one page.|
 |font_settings|Specifies font settings used when rendering project's view.|
-|default_font_name|Gets or sets the default (or fallback) font for rendering.|
-|use_project_default_font|Gets or sets a value indicating whether the default font must be used for rendering.|
 |pages|Gets or sets a list of page numbers to save when saving project layout to separate files.|
 |jpeg_quality|Gets or sets a JPEG quality. The allowed value range is 0..100.|
 |reduce_footer_gap|Gets or sets a value indicating whether a gap between last task and the footer must be reduced.|
