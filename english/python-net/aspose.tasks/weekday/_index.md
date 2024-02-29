@@ -17,6 +17,7 @@ The WeekDay type exposes the following members:
 | :- | :- |
 |WeekDay(day_type)|Initializes a new instance of the WeekDay class|
 |WeekDay(day_type, working_times)|Initializes a new instance of the WeekDay class|
+|WeekDay(day_type, working_times)|Initializes a new instance of the WeekDay class|
 |WeekDay()|Initializes a new instance of the [WeekDay](/tasks/python-net/aspose.tasks/weekday/) class.|
 ## Properties
 | Name | Description |
