@@ -24,15 +24,19 @@ Defines the criteria that tasks or resources must meet to be displayed in MSP vi
 | Method | Description |
 | --- | --- |
 | [getCriteriaRows()](#getCriteriaRows--) | Gets the list of child [FilterCriteria](../../com.aspose.tasks/filtercriteria) rows. |
-| [getField()](#getField--) | Gets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
+| [getField()](#getField--) | Gets a `Field`([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
 | [getOperation()](#getOperation--) | Gets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
 | [getTest()](#getTest--) | Gets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
 | [getValues()](#getValues--) | Gets the object values to compare with the value of the field specified with FieldName. |
 | [isValueAField()](#isValueAField--) | Gets whether the right-hand value of FilterCriteria is a field reference, not a constant value. |
-| [setField(int value)](#setField-int-) | Sets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
+| [isValueAField(int index)](#isValueAField-int-) | Gets whether the value at the index of FilterCriteria is a field reference, not a constant value. |
+| [setField(int value)](#setField-int-) | Sets a `Field`([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
 | [setOperation(int value)](#setOperation-int-) | Sets the criterion established with FieldName, Test, and Value relates to other criteria in the filter. |
 | [setTest(int value)](#setTest-int-) | Sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
+| [setValue(int index, Object value)](#setValue-int-java.lang.Object-) | Sets the object value at the index to compare with the value of the field specified by FieldName. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the object value to compare with the value of the field specified by FieldName. |
 | [setValueByField(int value)](#setValueByField-int-) | Sets the field whose value will be compared with the value of the field specified by FieldName. |
+| [setValueByField(int index, int value)](#setValueByField-int-int-) | Sets the field at the index whose value will be compared with the value of the field specified by FieldName. |
 | [toString()](#toString--) | Returns string representation of the instance of the [FilterCriteria](../../com.aspose.tasks/filtercriteria) class. |
 ### FilterCriteria() {#FilterCriteria--}
 ```
@@ -56,10 +60,10 @@ public final int getField()
 ```
 
 
-Gets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change.
+Gets a `Field`([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change.
 
 **Returns:**
-int - a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change.
+int - a `Field`([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change.
 ### getOperation() {#getOperation--}
 ```
 public final int getOperation()
@@ -100,18 +104,33 @@ Gets whether the right-hand value of FilterCriteria is a field reference, not a 
 
 **Returns:**
 boolean - whether the right-hand value of FilterCriteria is a field reference, not a constant value.
+### isValueAField(int index) {#isValueAField-int-}
+```
+public final boolean isValueAField(int index)
+```
+
+
+Gets whether the value at the index of FilterCriteria is a field reference, not a constant value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | the index of the value |
+
+**Returns:**
+boolean - whether the right-hand value at the index of FilterCriteria is a field reference, not a constant value.
 ### setField(int value) {#setField-int-}
 ```
 public final void setField(int value)
 ```
 
 
-Sets a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change.
+Sets a `Field`([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | a  Field ([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
+| value | int | a `Field`([getField()](../../com.aspose.tasks/filtercriteria\#getField--)/[setField(int)](../../com.aspose.tasks/filtercriteria\#setField-int-)) to change. |
 
 ### setOperation(int value) {#setOperation-int-}
 ```
@@ -139,6 +158,33 @@ Sets the type of comparison made between FieldName and Value that acts as select
 | --- | --- | --- |
 | value | int | the type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
 
+### setValue(int index, Object value) {#setValue-int-java.lang.Object-}
+```
+public final void setValue(int index, Object value)
+```
+
+
+Sets the object value at the index to compare with the value of the field specified by FieldName.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | the index of the value. |
+| value | java.lang.Object | object value which will serve as right-hand value at the index of filter criteria. |
+
+### setValue(Object value) {#setValue-java.lang.Object-}
+```
+public final void setValue(Object value)
+```
+
+
+Sets the object value to compare with the value of the field specified by FieldName.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.Object | object value which will serve as right-hand value of filter criteria. |
+
 ### setValueByField(int value) {#setValueByField-int-}
 ```
 public final void setValueByField(int value)
@@ -151,6 +197,20 @@ Sets the field whose value will be compared with the value of the field specifie
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | Field which will serve as right-hand value of filter criteria. |
+
+### setValueByField(int index, int value) {#setValueByField-int-int-}
+```
+public final void setValueByField(int index, int value)
+```
+
+
+Sets the field at the index whose value will be compared with the value of the field specified by FieldName.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | the index of the value |
+| value | int | Field which will serve as right-hand value at the index of filter criteria. |
 
 ### toString() {#toString--}
 ```

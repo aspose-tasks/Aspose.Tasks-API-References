@@ -23,7 +23,7 @@ Represents printing settings for a page of project view.
 
 | Method | Description |
 | --- | --- |
-| [getAdjustToPercentOfNormalSize()](#getAdjustToPercentOfNormalSize--) | Gets a value indicating whether to adjust printing to the specified percentage ( PercentOfNormalSize ([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/[setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size. |
+| [getAdjustToPercentOfNormalSize()](#getAdjustToPercentOfNormalSize--) | Gets a value indicating whether to adjust printing to the specified percentage (`PercentOfNormalSize`([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/ [setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size. |
 | [getFirstPageNumber()](#getFirstPageNumber--) | Gets a first page number for printing. |
 | [getPagesInHeight()](#getPagesInHeight--) | Gets a number of pages in height to be printed. |
 | [getPagesInWidth()](#getPagesInWidth--) | Gets a number of pages in width to be printed. |
@@ -31,7 +31,7 @@ Represents printing settings for a page of project view.
 | [getPaperSizeId()](#getPaperSizeId--) | Gets an integer representing one of the PrinterPaperSize values or a custom page size id. |
 | [getPercentOfNormalSize()](#getPercentOfNormalSize--) | Gets a percentage of normal size to adjust printing to. |
 | [isPortrait()](#isPortrait--) | Gets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape. |
-| [setAdjustToPercentOfNormalSize(boolean value)](#setAdjustToPercentOfNormalSize-boolean-) | Sets a value indicating whether to adjust printing to the specified percentage ( PercentOfNormalSize ([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/[setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size. |
+| [setAdjustToPercentOfNormalSize(boolean value)](#setAdjustToPercentOfNormalSize-boolean-) | Sets a value indicating whether to adjust printing to the specified percentage (`PercentOfNormalSize`([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/ [setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size. |
 | [setFirstPageNumber(short value)](#setFirstPageNumber-short-) | Sets a first page number for printing. |
 | [setPagesInHeight(int value)](#setPagesInHeight-int-) | Sets a number of pages in height to be printed. |
 | [setPagesInWidth(int value)](#setPagesInWidth-int-) | Sets a number of pages in width to be printed. |
@@ -53,14 +53,14 @@ public final boolean getAdjustToPercentOfNormalSize()
 ```
 
 
-Gets a value indicating whether to adjust printing to the specified percentage ( PercentOfNormalSize ([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/[setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size.
+Gets a value indicating whether to adjust printing to the specified percentage (`PercentOfNormalSize`([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/ [setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size.
 
 --------------------
 
 Is not effective when project is rendered in HTML format.
 
 **Returns:**
-boolean - a value indicating whether to adjust printing to the specified percentage ( PercentOfNormalSize ([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/[setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size.
+boolean - a value indicating whether to adjust printing to the specified percentage (`PercentOfNormalSize`([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/ [setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size.
 ### getFirstPageNumber() {#getFirstPageNumber--}
 ```
 public final short getFirstPageNumber()
@@ -129,6 +129,10 @@ public final boolean isPortrait()
 
 Gets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape.
 
+--------------------
+
+Is applicable during rendering when SaveOptions.getPageSize() == PageSize.DefinedInView.
+
 **Returns:**
 boolean - a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape.
 ### setAdjustToPercentOfNormalSize(boolean value) {#setAdjustToPercentOfNormalSize-boolean-}
@@ -137,7 +141,7 @@ public final void setAdjustToPercentOfNormalSize(boolean value)
 ```
 
 
-Sets a value indicating whether to adjust printing to the specified percentage ( PercentOfNormalSize ([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/[setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size.
+Sets a value indicating whether to adjust printing to the specified percentage (`PercentOfNormalSize`([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/ [setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size.
 
 --------------------
 
@@ -146,7 +150,7 @@ Is not effective when project is rendered in HTML format.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether to adjust printing to the specified percentage ( PercentOfNormalSize ([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/[setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size. |
+| value | boolean | a value indicating whether to adjust printing to the specified percentage (`PercentOfNormalSize`([getPercentOfNormalSize()](../../com.aspose.tasks/pagesettings\#getPercentOfNormalSize--)/ [setPercentOfNormalSize(int)](../../com.aspose.tasks/pagesettings\#setPercentOfNormalSize-int-))) of normal size. |
 
 ### setFirstPageNumber(short value) {#setFirstPageNumber-short-}
 ```
@@ -233,6 +237,10 @@ public final void setPortrait(boolean value)
 
 
 Sets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape.
+
+--------------------
+
+Is applicable during rendering when SaveOptions.getPageSize() == PageSize.DefinedInView.
 
 **Parameters:**
 | Parameter | Type | Description |

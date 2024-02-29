@@ -34,15 +34,16 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getNonWorkingTimeColor()](#getNonWorkingTimeColor--) | Gets the non-working time color. |
 | [getPageCount()](#getPageCount--) | Gets the number of pages of project. |
 | [getPageSize()](#getPageSize--) | Gets the size of page to be rendered (Default value is PageSize.A4). |
-| [getPresentationFormat()](#getPresentationFormat--) | Gets the  PresentationFormat ([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved. |
+| [getPresentationFormat()](#getPresentationFormat--) | Gets the `PresentationFormat`([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved. |
 | [getRenderToSinglePage()](#getRenderToSinglePage--) | Gets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [getRollUpGanttBars()](#getRollUpGanttBars--) | Gets a value indicating whether subtasks on the summary task bar should be marked. |
 | [getStartDate()](#getStartDate--) | Gets the date to start rendering from. |
 | [getTextStyles()](#getTextStyles--) | Gets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view. |
-| [getTimescale()](#getTimescale--) | Gets the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
+| [getTimescale()](#getTimescale--) | Gets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [getUseGradientBrush()](#getUseGradientBrush--) | Gets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
 | [getView()](#getView--) | Gets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). |
-| [getViewSettings()](#getViewSettings--) | Gets a view ( View ([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
+| [getViewSettings()](#getViewSettings--) | Gets a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
+| [isPortrait()](#isPortrait--) | Gets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape. |
 | [setBarStyles(List&lt;BarStyle&gt; value)](#setBarStyles-java.util.List-com.aspose.tasks.BarStyle--) | Sets the list of the instances of the [BarStyle](../../com.aspose.tasks/barstyle) class that appear in project view. |
 | [setCustomPageSize(Dimension2D value)](#setCustomPageSize-java.awt.geom.Dimension2D-) | Sets the custom page size in points (1 point = 1/72 of inch). |
 | [setDrawNonWorkingTime(boolean value)](#setDrawNonWorkingTime-boolean-) | Sets a value indicating whether non-working time should be drawn (Default value is TRUE). |
@@ -54,15 +55,16 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setMarkCriticalTasks(boolean value)](#setMarkCriticalTasks-boolean-) | Sets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
 | [setNonWorkingTimeColor(Color value)](#setNonWorkingTimeColor-java.awt.Color-) | Sets the non-working time color. |
 | [setPageSize(int value)](#setPageSize-int-) | Sets the size of page to be rendered (Default value is PageSize.A4). |
-| [setPresentationFormat(int value)](#setPresentationFormat-int-) | Sets the  PresentationFormat ([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved. |
+| [setPortrait(boolean value)](#setPortrait-boolean-) | Sets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape. |
+| [setPresentationFormat(int value)](#setPresentationFormat-int-) | Sets the `PresentationFormat`([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved. |
 | [setRenderToSinglePage(boolean value)](#setRenderToSinglePage-boolean-) | Sets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [setRollUpGanttBars(boolean value)](#setRollUpGanttBars-boolean-) | Sets a value indicating whether subtasks on the summary task bar should be marked. |
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date to start rendering from. |
 | [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view. |
-| [setTimescale(int value)](#setTimescale-int-) | Sets the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
+| [setTimescale(int value)](#setTimescale-int-) | Sets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [setUseGradientBrush(boolean value)](#setUseGradientBrush-boolean-) | Sets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
 | [setView(ProjectView value)](#setView-com.aspose.tasks.ProjectView-) | Sets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). |
-| [setViewSettings(View value)](#setViewSettings-com.aspose.tasks.View-) | Sets a view ( View ([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
+| [setViewSettings(View value)](#setViewSettings-com.aspose.tasks.View-) | Sets a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
 ### getBarStyles() {#getBarStyles--}
 ```
 public final List<BarStyle> getBarStyles()
@@ -189,10 +191,10 @@ public final int getPresentationFormat()
 ```
 
 
-Gets the  PresentationFormat ([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved.
+Gets the `PresentationFormat`([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved.
 
 **Returns:**
-int - the  PresentationFormat ([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved.
+int - the `PresentationFormat`([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved.
 ### getRenderToSinglePage() {#getRenderToSinglePage--}
 ```
 public final boolean getRenderToSinglePage()
@@ -243,10 +245,10 @@ public final int getTimescale()
 ```
 
 
-Gets the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.
+Gets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.
 
 **Returns:**
-int - the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.
+int - the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.
 ### getUseGradientBrush() {#getUseGradientBrush--}
 ```
 public boolean getUseGradientBrush()
@@ -267,7 +269,7 @@ public final ProjectView getView()
 ```
 
 
-Gets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). If not set then task ids, task names, start and finish are rendered only. If both View and  ViewSettings ([getViewSettings()](../../com.aspose.tasks/saveoptions\#getViewSettings--)/[setViewSettings(View)](../../com.aspose.tasks/saveoptions\#setViewSettings-View-)) properties are set, columns from View overrides columns from ViewSettings.
+Gets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). If not set then task ids, task names, start and finish are rendered only. If both View and `ViewSettings`([getViewSettings()](../../com.aspose.tasks/saveoptions\#getViewSettings--)/[setViewSettings(View)](../../com.aspose.tasks/saveoptions\#setViewSettings-View-)) properties are set, columns from View overrides columns from ViewSettings.
 
 **Returns:**
 [ProjectView](../../com.aspose.tasks/projectview) - a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)).
@@ -277,10 +279,24 @@ public final View getViewSettings()
 ```
 
 
-Gets a view ( View ([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. You can use this options to explicitly specify which view should be saved to PDF, HTML or Image formats. If this property is set, [PresentationFormat](../../com.aspose.tasks/presentationformat) property is ignored when project is saved. View should be from one of the following screen (( Aspose.Tasks.View.Screen ([View.getScreen()](../../com.aspose.tasks/view\#getScreen--)/[View.setScreen(int)](../../com.aspose.tasks/view\#setScreen-int-)))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
+Gets a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. You can use this options to explicitly specify which view should be saved to PDF, HTML or Image formats. If this property is set, [PresentationFormat](../../com.aspose.tasks/presentationformat) property is ignored when project is saved. View should be from one of the following screen ((`Aspose.Tasks.View.Screen`([View.getScreen()](../../com.aspose.tasks/view\#getScreen--)/[View.setScreen(int)](../../com.aspose.tasks/view\#setScreen-int-)))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
 
 **Returns:**
-[View](../../com.aspose.tasks/view) - a view ( View ([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render.
+[View](../../com.aspose.tasks/view) - a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render.
+### isPortrait() {#isPortrait--}
+```
+public final boolean isPortrait()
+```
+
+
+Gets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape.
+
+--------------------
+
+Is not applicable when SaveOptions.getPageSize() == PageSize.DefinedInView. In this case [PageSettings.isPortrait()](../../com.aspose.tasks/pagesettings\#isPortrait--) is used instead. Is not applicable when [getCustomPageSize()](../../com.aspose.tasks/saveoptions\#getCustomPageSize--) is set.
+
+**Returns:**
+boolean - a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape.
 ### setBarStyles(List&lt;BarStyle&gt; value) {#setBarStyles-java.util.List-com.aspose.tasks.BarStyle--}
 ```
 public final void setBarStyles(List<BarStyle> value)
@@ -424,18 +440,35 @@ Sets the size of page to be rendered (Default value is PageSize.A4).
 | --- | --- | --- |
 | value | int | the size of page to be rendered (Default value is PageSize.A4). |
 
+### setPortrait(boolean value) {#setPortrait-boolean-}
+```
+public final void setPortrait(boolean value)
+```
+
+
+Sets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape.
+
+--------------------
+
+Is not applicable when SaveOptions.PageSize == Visualization.PageSize.DefinedInView. In this case [PageSettings.setPortrait(boolean)](../../com.aspose.tasks/pagesettings\#setPortrait-boolean-) is used instead. Is not applicable when [getCustomPageSize()](../../com.aspose.tasks/saveoptions\#getCustomPageSize--) is set.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape. |
+
 ### setPresentationFormat(int value) {#setPresentationFormat-int-}
 ```
 public final void setPresentationFormat(int value)
 ```
 
 
-Sets the  PresentationFormat ([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved.
+Sets the `PresentationFormat`([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the  PresentationFormat ([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved. |
+| value | int | the `PresentationFormat`([getPresentationFormat()](../../com.aspose.tasks/saveoptions\#getPresentationFormat--)/[setPresentationFormat(int)](../../com.aspose.tasks/saveoptions\#setPresentationFormat-int-)) in which the document will be saved. |
 
 ### setRenderToSinglePage(boolean value) {#setRenderToSinglePage-boolean-}
 ```
@@ -499,12 +532,12 @@ public final void setTimescale(int value)
 ```
 
 
-Sets the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.
+Sets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the  Timescale ([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
+| value | int | the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 
 ### setUseGradientBrush(boolean value) {#setUseGradientBrush-boolean-}
 ```
@@ -529,7 +562,7 @@ public final void setView(ProjectView value)
 ```
 
 
-Sets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). If not set then task ids, task names, start and finish are rendered only. If both View and  ViewSettings ([getViewSettings()](../../com.aspose.tasks/saveoptions\#getViewSettings--)/[setViewSettings(View)](../../com.aspose.tasks/saveoptions\#setViewSettings-View-)) properties are set, columns from View overrides columns from ViewSettings.
+Sets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). If not set then task ids, task names, start and finish are rendered only. If both View and `ViewSettings`([getViewSettings()](../../com.aspose.tasks/saveoptions\#getViewSettings--)/[setViewSettings(View)](../../com.aspose.tasks/saveoptions\#setViewSettings-View-)) properties are set, columns from View overrides columns from ViewSettings.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -542,10 +575,10 @@ public final void setViewSettings(View value)
 ```
 
 
-Sets a view ( View ([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. You can use this options to explicitly specify which view should be saved to PDF, HTML or Image formats. If this property is set, [PresentationFormat](../../com.aspose.tasks/presentationformat) property is ignored when project is saved. View should be from one of the following screen (( Aspose.Tasks.View.Screen ([View.getScreen()](../../com.aspose.tasks/view\#getScreen--)/[View.setScreen(int)](../../com.aspose.tasks/view\#setScreen-int-)))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
+Sets a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. You can use this options to explicitly specify which view should be saved to PDF, HTML or Image formats. If this property is set, [PresentationFormat](../../com.aspose.tasks/presentationformat) property is ignored when project is saved. View should be from one of the following screen ((`Aspose.Tasks.View.Screen`([View.getScreen()](../../com.aspose.tasks/view\#getScreen--)/[View.setScreen(int)](../../com.aspose.tasks/view\#setScreen-int-)))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [View](../../com.aspose.tasks/view) | a view ( View ([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
+| value | [View](../../com.aspose.tasks/view) | a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
 

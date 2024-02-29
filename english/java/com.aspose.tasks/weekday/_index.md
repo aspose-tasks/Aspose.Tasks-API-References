@@ -20,12 +20,13 @@ Represents a weekday which either defines regular days of a week or exception da
 | --- | --- |
 | [WeekDay(int dayType)](#WeekDay-int-) | Initializes a new instance of the [WeekDay](../../com.aspose.tasks/weekday) class with the specified day type. |
 | [WeekDay(int dayType, List&lt;WorkingTime&gt; workingTimes)](#WeekDay-int-java.util.List-com.aspose.tasks.WorkingTime--) | Initializes a new instance of the [WeekDay](../../com.aspose.tasks/weekday) class with the specified day type and list of working time periods. |
+| [WeekDay(int dayType, WorkingTime[] workingTimes)](#WeekDay-int-com.aspose.tasks.WorkingTime...-) | Initializes a new instance of the [WeekDay](../../com.aspose.tasks/weekday) class with the specified day type and working time periods. |
 | [WeekDay()](#WeekDay--) | Initializes a new instance of the [WeekDay](../../com.aspose.tasks/weekday) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [castToDayType(int dw)](#castToDayType-int-) | Casts .Net's [DayOfWeek](../../com.aspose.tasks/dayofweek) to  DayType ([getDayType()](../../com.aspose.tasks/weekday\#getDayType--)/[setDayType(int)](../../com.aspose.tasks/weekday\#setDayType-int-)). |
+| [castToDayType(int dw)](#castToDayType-int-) | Casts .Net's [DayOfWeek](../../com.aspose.tasks/dayofweek) to `DayType`([getDayType()](../../com.aspose.tasks/weekday\#getDayType--)/[setDayType(int)](../../com.aspose.tasks/weekday\#setDayType-int-)). |
 | [createDefaultWorkingDay(int dayType)](#createDefaultWorkingDay-int-) | Creates default working day. |
 | [deepClone()](#deepClone--) | Returns a deep copy of the week day. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
@@ -67,6 +68,20 @@ Initializes a new instance of the [WeekDay](../../com.aspose.tasks/weekday) clas
 | dayType | int | The specified day type. |
 | workingTimes | java.util.List&lt;com.aspose.tasks.WorkingTime&gt; | List of working time periods. |
 
+### WeekDay(int dayType, WorkingTime[] workingTimes) {#WeekDay-int-com.aspose.tasks.WorkingTime...-}
+```
+public WeekDay(int dayType, WorkingTime[] workingTimes)
+```
+
+
+Initializes a new instance of the [WeekDay](../../com.aspose.tasks/weekday) class with the specified day type and working time periods.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dayType | int | The specified day type. |
+| workingTimes | [WorkingTime\[\]](../../com.aspose.tasks/workingtime) | Array of working time periods. |
+
 ### WeekDay() {#WeekDay--}
 ```
 public WeekDay()
@@ -81,7 +96,7 @@ public static int castToDayType(int dw)
 ```
 
 
-Casts .Net's [DayOfWeek](../../com.aspose.tasks/dayofweek) to  DayType ([getDayType()](../../com.aspose.tasks/weekday\#getDayType--)/[setDayType(int)](../../com.aspose.tasks/weekday\#setDayType-int-)).
+Casts .Net's [DayOfWeek](../../com.aspose.tasks/dayofweek) to `DayType`([getDayType()](../../com.aspose.tasks/weekday\#getDayType--)/[setDayType(int)](../../com.aspose.tasks/weekday\#setDayType-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |

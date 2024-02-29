@@ -29,26 +29,20 @@ Allows to specify additional options when rendering project pages to PDF.
 | [copyOutputPropertiesFrom(SaveOptions source)](#copyOutputPropertiesFrom-com.aspose.tasks.SaveOptions-) | \{@inheritDoc\} |
 | [deepClone()](#deepClone--) | \{@inheritDoc\} |
 | [getCompliance()](#getCompliance--) | Gets a desired compliance level for generated PDF document. |
-| [getDefaultFontName()](#getDefaultFontName--) | Gets the default (or fallback) font for rendering. |
 | [getEncryptionDetails()](#getEncryptionDetails--) | Gets an encryption details. |
-| [getFontResolveCallback()](#getFontResolveCallback--) | Gets a callback which can be used to customize resolved fonts. |
 | [getFontSettings()](#getFontSettings--) | Specifies font settings used when rendering project's view. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Gets a user-defined callback which is used to get an output stream for each rendered page. |
 | [getPages()](#getPages--) | Gets the list of pages numbers to save when saving project layout to separate files. |
 | [getReduceFooterGap()](#getReduceFooterGap--) | Gets a value indicating whether a gap between last task and the footer must be reduced. |
 | [getSaveToSeparateFiles()](#getSaveToSeparateFiles--) | Gets a value indicating whether to save project pages to separate files. |
 | [getTextCompression()](#getTextCompression--) | Gets a compression type to be used for all content streams except images. |
-| [getUseProjectDefaultFont()](#getUseProjectDefaultFont--) | Gets a value indicating whether the default font must be used for rendering. |
 | [setCompliance(int value)](#setCompliance-int-) | Sets a desired compliance level for generated PDF document. |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default (or fallback) font for rendering. |
 | [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.tasks.PdfEncryptionDetails-) | Sets a encryption details. |
-| [setFontResolveCallback(FontResolveCallbackDelegate value)](#setFontResolveCallback-com.aspose.tasks.FontResolveCallbackDelegate-) | Sets a callback which can be used to customize resolved fonts. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.tasks.IPageSavingCallback-) | Sets a user-defined callback which is used to get an output stream for each rendered page. |
 | [setPages(List&lt;Integer&gt; value)](#setPages-java.util.List-java.lang.Integer--) | Sets the list of pages numbers to save when saving project layout to separate files. |
 | [setReduceFooterGap(boolean value)](#setReduceFooterGap-boolean-) | Sets a value indicating whether a gap between last task and the footer must be reduced. |
 | [setSaveToSeparateFiles(boolean value)](#setSaveToSeparateFiles-boolean-) | Sets a value indicating whether to save project pages to separate files. |
 | [setTextCompression(int value)](#setTextCompression-int-) | Sets a compression type to be used for all content streams except images. |
-| [setUseProjectDefaultFont(boolean value)](#setUseProjectDefaultFont-boolean-) | Sets a value indicating whether the default font must be used for rendering. |
 ### PdfSaveOptions() {#PdfSaveOptions--}
 ```
 public PdfSaveOptions()
@@ -90,16 +84,6 @@ Gets a desired compliance level for generated PDF document. Default is [PdfCompl
 
 **Returns:**
 int - a desired compliance level for generated PDF document.
-### getDefaultFontName() {#getDefaultFontName--}
-```
-public final String getDefaultFontName()
-```
-
-
-Gets the default (or fallback) font for rendering.
-
-**Returns:**
-java.lang.String - the default (or fallback) font for rendering.
 ### getEncryptionDetails() {#getEncryptionDetails--}
 ```
 public final PdfEncryptionDetails getEncryptionDetails()
@@ -110,16 +94,6 @@ Gets an encryption details. If not set, then no encryption will be performed.
 
 **Returns:**
 [PdfEncryptionDetails](../../com.aspose.tasks/pdfencryptiondetails) - an encryption details.
-### getFontResolveCallback() {#getFontResolveCallback--}
-```
-public final FontResolveCallbackDelegate getFontResolveCallback()
-```
-
-
-Gets a callback which can be used to customize resolved fonts.
-
-**Returns:**
-[FontResolveCallbackDelegate](../../com.aspose.tasks/fontresolvecallbackdelegate) - a callback which can be used to customize resolved fonts.
 ### getFontSettings() {#getFontSettings--}
 ```
 public final FontSettings getFontSettings()
@@ -136,7 +110,7 @@ public final IPageSavingCallback getPageSavingCallback()
 ```
 
 
-Gets a user-defined callback which is used to get an output stream for each rendered page. Is applicable when  SaveToSeparateFiles ([getSaveToSeparateFiles()](../../com.aspose.tasks/pdfsaveoptions\#getSaveToSeparateFiles--)/[setSaveToSeparateFiles(boolean)](../../com.aspose.tasks/pdfsaveoptions\#setSaveToSeparateFiles-boolean-)) option is used.
+Gets a user-defined callback which is used to get an output stream for each rendered page. Is applicable when `SaveToSeparateFiles`([getSaveToSeparateFiles()](../../com.aspose.tasks/pdfsaveoptions\#getSaveToSeparateFiles--)/[setSaveToSeparateFiles(boolean)](../../com.aspose.tasks/pdfsaveoptions\#setSaveToSeparateFiles-boolean-)) option is used.
 
 **Returns:**
 [IPageSavingCallback](../../com.aspose.tasks/ipagesavingcallback) - a user-defined callback which is used to get an output stream for each rendered page.
@@ -184,20 +158,6 @@ Gets a compression type to be used for all content streams except images. Defaul
 
 **Returns:**
 int - a compression type to be used for all content streams except images.
-### getUseProjectDefaultFont() {#getUseProjectDefaultFont--}
-```
-public final boolean getUseProjectDefaultFont()
-```
-
-
-Gets a value indicating whether the default font must be used for rendering.
-
---------------------
-
-When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/pdfsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/pdfsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
-
-**Returns:**
-boolean - a value indicating whether the default font must be used for rendering.
 ### setCompliance(int value) {#setCompliance-int-}
 ```
 public final void setCompliance(int value)
@@ -210,19 +170,6 @@ Sets a desired compliance level for generated PDF document. Default is [PdfCompl
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | a desired compliance level for generated PDF document. |
-
-### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
-```
-public final void setDefaultFontName(String value)
-```
-
-
-Sets the default (or fallback) font for rendering.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | the default (or fallback) font for rendering. |
 
 ### setEncryptionDetails(PdfEncryptionDetails value) {#setEncryptionDetails-com.aspose.tasks.PdfEncryptionDetails-}
 ```
@@ -237,26 +184,13 @@ Sets a encryption details. If not set, then no encryption will be performed.
 | --- | --- | --- |
 | value | [PdfEncryptionDetails](../../com.aspose.tasks/pdfencryptiondetails) | a encryption details. |
 
-### setFontResolveCallback(FontResolveCallbackDelegate value) {#setFontResolveCallback-com.aspose.tasks.FontResolveCallbackDelegate-}
-```
-public final void setFontResolveCallback(FontResolveCallbackDelegate value)
-```
-
-
-Sets a callback which can be used to customize resolved fonts.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [FontResolveCallbackDelegate](../../com.aspose.tasks/fontresolvecallbackdelegate) | a callback which can be used to customize resolved fonts. |
-
 ### setPageSavingCallback(IPageSavingCallback value) {#setPageSavingCallback-com.aspose.tasks.IPageSavingCallback-}
 ```
 public final void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-Sets a user-defined callback which is used to get an output stream for each rendered page. Is applicable when  SaveToSeparateFiles ([getSaveToSeparateFiles()](../../com.aspose.tasks/pdfsaveoptions\#getSaveToSeparateFiles--)/[setSaveToSeparateFiles(boolean)](../../com.aspose.tasks/pdfsaveoptions\#setSaveToSeparateFiles-boolean-)) option is used.
+Sets a user-defined callback which is used to get an output stream for each rendered page. Is applicable when `SaveToSeparateFiles`([getSaveToSeparateFiles()](../../com.aspose.tasks/pdfsaveoptions\#getSaveToSeparateFiles--)/[setSaveToSeparateFiles(boolean)](../../com.aspose.tasks/pdfsaveoptions\#setSaveToSeparateFiles-boolean-)) option is used.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -318,21 +252,4 @@ Sets a compression type to be used for all content streams except images. Defaul
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | a compression type to be used for all content streams except images. |
-
-### setUseProjectDefaultFont(boolean value) {#setUseProjectDefaultFont-boolean-}
-```
-public final void setUseProjectDefaultFont(boolean value)
-```
-
-
-Sets a value indicating whether the default font must be used for rendering.
-
---------------------
-
-When the value is False and DefaultFontName is specified, the rendering engine will utilize the font specified by DefaultFontName as a fallback font. Otherwise 'Arial' (if installed) or 'Generic Sans Serif' fonts are used as a fallback font. The fallback font is utilized during the rendering of project view when a text style references a font that is not installed on the current operating system. For greater control over font resolution you can use  FontResolveCallback ([getFontResolveCallback](../../com.aspose.tasks/pdfsaveoptions\#getFontResolveCallback--)/[setFontResolveCallback(FontResolveCallbackDelegate)](../../com.aspose.tasks/pdfsaveoptions\#setFontResolveCallback-FontResolveCallbackDelegate-)) callback.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | a value indicating whether the default font must be used for rendering. |
 

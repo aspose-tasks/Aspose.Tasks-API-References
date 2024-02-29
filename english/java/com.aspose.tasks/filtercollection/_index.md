@@ -25,7 +25,7 @@ Contains a list of [Filter](../../com.aspose.tasks/filter) objects. Implements I
 | [iterator()](#iterator--) | Returns an iterator over the elements containing in this collection. |
 | [remove(Filter item)](#remove-com.aspose.tasks.Filter-) | Removes the specified item from this collection. |
 | [size()](#size--) |  |
-| [toList()](#toList--) | Converts a filter collection to a list of  Filter  objects. |
+| [toList()](#toList--) | Converts a filter collection to a list of `Filter` objects. |
 ### add(Filter item) {#add-com.aspose.tasks.Filter-}
 ```
 public boolean add(Filter item)
@@ -47,7 +47,7 @@ public void clear()
 ```
 
 
-Removes all of the elements from this collection (optional operation). The collection will be empty after this method returns.
+Removes all of the elements from this collection (optional operation).
 
 ### contains(Filter item) {#contains-com.aspose.tasks.Filter-}
 ```
@@ -119,7 +119,7 @@ public List<Filter> toList()
 ```
 
 
-Converts a filter collection to a list of  Filter  objects.
+Converts a filter collection to a list of `Filter` objects.
 
 **Returns:**
-java.util.List&lt;com.aspose.tasks.Filter&gt; - Generic list of  Filter  objects.
+java.util.List&lt;com.aspose.tasks.Filter&gt; - Generic list of `Filter` objects.
