@@ -21,6 +21,7 @@ Aspose.Tasks for .NET ile Microsoft Office Otomasyonu olmadan Microsoft Project 
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Tasks for .NET API Referansı](/tasks/tr/net/)
+- [.NET API Eğitimleri için Aspose.Tasks](/tutorials/tasks/tr/net/)
 
 ## Java için Aspose.Tasks
 
@@ -34,6 +35,7 @@ Aspose.Tasks for Java, Java uygulama geliştiricilerinin Microsoft Project'i kul
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Java API Referansı için Aspose.Tasks](/tasks/java/)
+- [Java API Eğitimleri için Aspose.Tasks](/tutorials/tasks/tr/java/)
 
 ## C++ için Aspose.Tasks
 

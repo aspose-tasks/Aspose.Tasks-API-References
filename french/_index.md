@@ -21,6 +21,7 @@ Avec Aspose.Tasks pour .NET, il est possible de programmer avec des fichiers Mic
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Tasks pour .NET](/tasks/fr/net/)
+- [Aspose.Tasks pour les didacticiels API .NET](/tutorials/tasks/fr/net/)
 
 ## Aspose.Tasks pour Java
 
@@ -34,6 +35,7 @@ Aspose.Tasks pour Java est une bibliothèque de classes qui permet aux développ
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Tasks pour Java](/tasks/java/)
+- [Aspose.Tasks pour les didacticiels API Java](/tutorials/tasks/fr/java/)
 
 ## Aspose.Tasks pour C++
 

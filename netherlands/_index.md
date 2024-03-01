@@ -21,6 +21,7 @@ Met Aspose.Tasks voor .NET is het mogelijk om te programmeren met Microsoft Proj
 
 Dit zijn links naar enkele nuttige bronnen:
 - [Aspose.Tasks voor .NET API-referentie](/tasks/nl/net/)
+- [Aspose.Tasks voor .NET API-zelfstudies](/tutorials/tasks/nl/net/)
 
 ## Aspose.Tasks voor Java
 
@@ -34,6 +35,7 @@ Aspose.Tasks voor Java is een klassenbibliotheek waarmee Java-toepassingsontwikk
 
 Dit zijn links naar enkele nuttige bronnen:
 - [Aspose.Tasks voor Java API-referentie](/tasks/java/)
+- [Aspose.Tasks voor Java API-zelfstudies](/tutorials/tasks/nl/java/)
 
 ## Aspose.Tasks voor C++
 
