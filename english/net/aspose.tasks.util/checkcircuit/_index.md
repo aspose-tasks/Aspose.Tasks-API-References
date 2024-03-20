@@ -3,7 +3,7 @@ title: CheckCircuit
 second_title: Aspose.Tasks for .NET API Reference
 description: Checks a tree of tasks whether it contains a circuit.
 type: docs
-weight: 2450
+weight: 2460
 url: /net/aspose.tasks.util/checkcircuit/
 ---
 ## CheckCircuit class

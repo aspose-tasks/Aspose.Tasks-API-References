@@ -3,7 +3,7 @@ title: ResourceViewColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: Projects view class used in ResourceUsage view and ResourceSheet view.
 type: docs
-weight: 3100
+weight: 3110
 url: /net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 ## ResourceViewColumn class

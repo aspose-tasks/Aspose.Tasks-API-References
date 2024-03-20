@@ -170,7 +170,7 @@ public class Task : IEquatable<Task>
 
 ### Remarks
 
-The **Task** is representing a one atomic chuck of work.
+The **Task** is representing a one atomic chunk of work.
 
 One can use **Task** to plan a project by creating tasks and assign appropriate resources onto them. Tasks in a project are organized as a rooted hierarchical tree structure, with a root task and subtrees of children tasks.
 

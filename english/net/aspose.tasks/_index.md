@@ -132,6 +132,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [TimephasedData](./timephaseddata) | Represents a time phased data. |
 | [TimephasedDataCollection](./timephaseddatacollection) | Represents a collection of [`TimephasedData`](../aspose.tasks/timephaseddata) objects. |
 | [Tsk](./tsk) | Represents properties of [`Task`](../aspose.tasks/task) object. |
+| [UnexpectedFileFormatException](./unexpectedfileformatexception) | Represents an exception which is thrown when file format has unexpected format or structure. |
 | [UsageView](./usageview) | Represent a usage view in a project. |
 | [ValidationException](./validationexception) | Represents an exception which is thrown when errors are found during validation of entity. |
 | [Value](./value) | Represents a value in a value list. |

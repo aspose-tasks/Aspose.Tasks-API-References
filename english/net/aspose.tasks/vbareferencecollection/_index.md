@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of VbaReference./vbareference objects.
 type: docs
-weight: 2640
+weight: 2650
 url: /net/aspose.tasks/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
