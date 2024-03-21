@@ -21,6 +21,7 @@ Aspose.Tasks for .NET هي مكتبة فئة تمكن تطبيقات .NET من �
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Tasks لمرجع .NET API](/tasks/ar/net/)
+- [Aspose.Tasks لبرامج .NET API التعليمية](/tutorials/tasks/ar/net/)
 
 ## Aspose.Tasks لجافا
 
@@ -34,6 +35,7 @@ Aspose.Tasks for Java هي مكتبة فئة تمكن مطوري تطبيقات 
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Tasks لمرجع Java API](/tasks/java/)
+- [Aspose.Tasks لبرامج Java API التعليمية](/tutorials/tasks/ar/java/)
 
 ## Aspose.Tasks for C ++
 

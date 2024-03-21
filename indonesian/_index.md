@@ -21,6 +21,7 @@ Dengan Aspose.Tasks untuk .NET, dimungkinkan untuk memprogram dengan file Micros
 
 Ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Aspose.Tasks untuk Referensi .NET API](/tasks/id/net/)
+- [Aspose.Tugas untuk Tutorial .NET API](/tutorials/tasks/id/net/)
 
 ## Aspose.Tasks untuk Java
 
@@ -34,6 +35,7 @@ Aspose.Tasks untuk Java adalah pustaka kelas yang memungkinkan pengembang aplika
 
 Ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Aspose.Tasks untuk Referensi Java API](/tasks/java/)
+- [Aspose.Tugas untuk Tutorial Java API](/tutorials/tasks/id/java/)
 
 ## Aspose.Tasks untuk C++
 

@@ -3,7 +3,7 @@ title: YearLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies how the year label displays.
 type: docs
-weight: 3420
+weight: 3430
 url: /net/aspose.tasks/yearlabeldisplay/
 ---
 ## YearLabelDisplay enumeration

@@ -3,7 +3,7 @@ title: GetFinishDateByStartAndWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Calculates the date when the specified amount of work time will pass according to the calendar.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.tasks/calendar/getfinishdatebystartandwork/
 ---
 ## GetFinishDateByStartAndWork(DateTime, Duration) {#getfinishdatebystartandwork}

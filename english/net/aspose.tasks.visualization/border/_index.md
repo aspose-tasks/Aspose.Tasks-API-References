@@ -3,7 +3,7 @@ title: Border
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type borders.
 type: docs
-weight: 2730
+weight: 2740
 url: /net/aspose.tasks.visualization/border/
 ---
 ## Border enumeration

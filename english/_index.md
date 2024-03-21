@@ -21,6 +21,8 @@ With Aspose.Tasks for .NET, it is possible to program with Microsoft Project (MP
 
 These are links to some useful resources:
 - [Aspose.Tasks for .NET API Reference](./net/)
+- [Aspose.Tasks for .NET API Tutorials](/tutorials/tasks/net/)
+
 
 ## Aspose.Tasks for Java
 
@@ -34,6 +36,7 @@ Aspose.Tasks for Java is a class library that enables Java application developer
 
 These are links to some useful resources:
 - [Aspose.Tasks for Java API Reference](./java/)
+- [Aspose.Tasks for Java API Tutorials](/tutorials/tasks/java/)
 
 ## Aspose.Tasks for C++
 

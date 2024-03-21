@@ -21,6 +21,7 @@ Mit Aspose.Tasks für .NET ist es möglich mit Microsoft Project (MPP/XML) Datei
 
 Dies sind Links zu einigen nützlichen Ressourcen:
 - [Aspose.Tasks für .NET-API-Referenz](/tasks/de/net/)
+- [Aspose.Tasks für .NET API-Tutorials](/tutorials/tasks/de/net/)
 
 ## Aspose.Tasks für Java
 
@@ -34,6 +35,7 @@ Aspose.Tasks for Java ist eine Klassenbibliothek, die es Java-Anwendungsentwickl
 
 Dies sind Links zu einigen nützlichen Ressourcen:
 - [Aspose.Tasks für Java-API-Referenz](/tasks/java/)
+- [Aspose.Tasks für Java API-Tutorials](/tutorials/tasks/de/java/)
 
 ## Aspose.Tasks für C++
 

@@ -21,6 +21,7 @@ Con Aspose.Tasks for .NET, es posible programar con archivos de Microsoft Projec
 
 Estos son enlaces a algunos recursos útiles:
 - [Referencia de Aspose.Tasks para la API de .NET](/tasks/es/net/)
+- [Aspose.Tasks para tutoriales de API .NET](/tutorials/tasks/es/net/)
 
 ## Aspose.Tareas para Java
 
@@ -34,6 +35,7 @@ Aspose.Tasks for Java es una biblioteca de clases que permite a los desarrollado
 
 Estos son enlaces a algunos recursos útiles:
 - [Referencia de Aspose.Tasks para la API de Java](/tasks/java/)
+- [Aspose.Tasks para tutoriales de la API de Java](/tutorials/tasks/es/java/)
 
 ## Aspose.Tareas para C++
 

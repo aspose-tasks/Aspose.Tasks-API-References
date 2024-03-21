@@ -21,6 +21,7 @@ Aspose.Tasks for .NET을 사용하면 Microsoft Office 자동화 없이 Microsof
 
 다음은 몇 가지 유용한 리소스에 대한 링크입니다.
 - [.NET API 참조를 위한 Aspose.Tasks](/tasks/ko/net/)
+- [.NET API 튜토리얼용 Aspose.Tasks](/tutorials/tasks/ko/net/)
 
 ## Aspose.Tasks for Java
 
@@ -34,6 +35,7 @@ Aspose.Tasks for Java는 Java 애플리케이션 개발자가 Microsoft Project�
 
 다음은 몇 가지 유용한 리소스에 대한 링크입니다.
 - [Aspose.Tasks for Java API 참조](/tasks/java/)
+- [Java API 튜토리얼용 Aspose.Tasks](/tutorials/tasks/ko/java/)
 
 ## C++용 Aspose.Tasks
 

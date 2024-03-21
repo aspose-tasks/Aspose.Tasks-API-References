@@ -3,7 +3,7 @@ title: IsBaseCalendar
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets a value indicating whether the calendar is a base calendar.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.tasks/calendar/isbasecalendar/
 ---
 ## Calendar.IsBaseCalendar property

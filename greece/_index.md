@@ -21,6 +21,7 @@ url: /el/
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 - [Aspose.Tasks για Αναφορά API .NET](/tasks/el/net/)
+- [Aspose.Tasks για Εκμάθηση API .NET](/tutorials/tasks/el/net/)
 
 ## Aspose.Tasks για Java
 
@@ -34,6 +35,7 @@ url: /el/
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 - [Aspose.Tasks for Java API Reference](/tasks/java/)
+- [Aspose.Tasks για Java API tutorials](/tutorials/tasks/el/java/)
 
 ## Aspose.Tasks για C++
 

@@ -21,6 +21,7 @@ Aspose.Tasks for .NET 是一个类库，它使 .NET 应用程序无需使用 Mic
 
 这些是一些有用资源的链接：
 - [Aspose.Tasks for .NET API 参考](/tasks/zh/net/)
+- [Aspose.Tasks for .NET API 教程](/tutorials/tasks/zh/net/)
 
 ## Aspose.Tasks for Java
 
@@ -34,6 +35,7 @@ Aspose.Tasks for Java 是一个类库，它使 Java 应用程序开发人员能�
 
 这些是一些有用资源的链接：
 - [Aspose.Tasks for Java API 参考](/tasks/java/)
+- [Java API 教程的 Aspose.Tasks](/tutorials/tasks/zh/java/)
 
 ## Aspose.Tasks for C++
 

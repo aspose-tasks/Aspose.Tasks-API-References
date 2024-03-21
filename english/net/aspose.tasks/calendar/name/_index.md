@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Tasks for .NET API Reference
 description: Gets or sets the name of the calendar.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks/calendar/name/
 ---
 ## Calendar.Name property
