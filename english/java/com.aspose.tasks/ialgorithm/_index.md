@@ -3,14 +3,14 @@ title: IAlgorithm
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an algorithm that can be applied to a list of objects T.
 type: docs
-weight: 352
+weight: 353
 url: /java/com.aspose.tasks/ialgorithm/
 ---
 ```
 public interface IAlgorithm<T>
 ```
 
-Represents an algorithm that can be applied to a list of objects  T .
+Represents an algorithm that can be applied to a list of objects `T`.
 
  T : The type of object to apply method interface to.
 ## Methods

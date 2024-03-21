@@ -28,4 +28,4 @@ public boolean isCancellationRequested()
 Gets whether cancellation has been requested for this token.
 
 **Returns:**
-boolean - true, if cancellation for the underlying CancellationTokenSource has been requested; false otherwise.
+boolean - true, if cancellation for the underlying `CancellationTokenSource` has been requested; false otherwise.

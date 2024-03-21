@@ -41,7 +41,7 @@ Represents a converter method to convert date to string in view timescale tiers.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| date | java.util.Date | the instance of the  java.util.Date  class to convert to string. |
+| date | java.util.Date | the instance of the `java.util.Date` class to convert to string. |
 
 **Returns:**
 java.lang.String - the string representation of the specified date.

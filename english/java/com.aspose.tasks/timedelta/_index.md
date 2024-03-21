@@ -28,7 +28,7 @@ Represents a difference between two timestamps.
 | [clone()](#clone--) | \{@inheritDoc\} |
 | [compare(TimeDelta t1, TimeDelta t2)](#compare-com.aspose.tasks.TimeDelta-com.aspose.tasks.TimeDelta-) | Compares two TimeDelta values and returns an integer that indicates whether the first value is shorter than, equal to, or longer than the second value. |
 | [compareTo(TimeDelta other)](#compareTo-com.aspose.tasks.TimeDelta-) | Compares this instance to a specified TimeDelta object and returns an integer that indicates whether this instance is shorter than, equal to, or longer than the TimeSpan object. |
-| [equals(TimeDelta other)](#equals-com.aspose.tasks.TimeDelta-) | Indicates whether some other time span is equal to this one. |
+| [equals(TimeDelta other)](#equals-com.aspose.tasks.TimeDelta-) | Indicates whether some `other` time span is equal to this one. |
 | [equals(TimeDelta t1, TimeDelta t2)](#equals-com.aspose.tasks.TimeDelta-com.aspose.tasks.TimeDelta-) | Checks two instances for equality. |
 | [equals(Object other)](#equals-java.lang.Object-) | \{@inheritDoc\} |
 | [fromDays(double value)](#fromDays-double-) | Returns a TimeDelta that represents a specified number of days (rounded to the nearest millisecond). |
@@ -47,9 +47,9 @@ Represents a difference between two timestamps.
 | [getTotalMinutes()](#getTotalMinutes--) | Returns the value of the current instance expressed in whole and fractional minutes. |
 | [getTotalSeconds()](#getTotalSeconds--) | Returns the value of the current instance expressed in whole and fractional seconds. |
 | [hashCode()](#hashCode--) | \{@inheritDoc\} |
-| [negate()](#negate--) | Returns a new TimeDelta whose value is the negated value of this instance. |
-| [parse(String s)](#parse-java.lang.String-) | Converts the string representation of a time interval to its TimeDelta equivalent. |
-| [subtract(TimeDelta other)](#subtract-com.aspose.tasks.TimeDelta-) | Returns a new TimeDelta object whose value is a difference between this and other instances. |
+| [negate()](#negate--) | Returns a new `TimeDelta` whose value is the negated value of this instance. |
+| [parse(String s)](#parse-java.lang.String-) | Converts the string representation of a time interval to its `TimeDelta` equivalent. |
+| [subtract(TimeDelta other)](#subtract-com.aspose.tasks.TimeDelta-) | Returns a new TimeDelta object whose value is a difference between this and `other` instances. |
 | [toString()](#toString--) | \{@inheritDoc\} |
 | [tryParse(String s, TimeDelta[] result)](#tryParse-java.lang.String-com.aspose.tasks.TimeDelta---) | Converts the string representation of a time interval to its TimeDelta equivalent and returns a value that indicates whether the conversion succeeded. |
 ### TimeDelta(int hours, int minutes, int seconds) {#TimeDelta-int-int-int-}
@@ -124,7 +124,7 @@ Compares two TimeDelta values and returns an integer that indicates whether the 
 | t2 | [TimeDelta](../../com.aspose.tasks/timedelta) | the second time interval to compare. |
 
 **Returns:**
-int - \-1 if t1 is shorter than t2, 0 if t1 equals to t2 and 1 if t1 is longer than t2.
+int - \-1 if `t1` is shorter than `t2`, 0 if `t1` equals to `t2` and 1 if `t1` is longer than `t2`.
 ### compareTo(TimeDelta other) {#compareTo-com.aspose.tasks.TimeDelta-}
 ```
 public int compareTo(TimeDelta other)
@@ -139,14 +139,14 @@ Compares this instance to a specified TimeDelta object and returns an integer th
 | other | [TimeDelta](../../com.aspose.tasks/timedelta) | an instance to compare with. |
 
 **Returns:**
-int - \-1 if this instance is shorter than other, 0 if this instance equals to other and 1 if this instance is longer than other.
+int - \-1 if this instance is shorter than `other`, 0 if this instance equals to `other` and 1 if this instance is longer than `other`.
 ### equals(TimeDelta other) {#equals-com.aspose.tasks.TimeDelta-}
 ```
 public boolean equals(TimeDelta other)
 ```
 
 
-Indicates whether some other time span is equal to this one.
+Indicates whether some `other` time span is equal to this one.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +154,7 @@ Indicates whether some other time span is equal to this one.
 | other | [TimeDelta](../../com.aspose.tasks/timedelta) | time span to compare with. |
 
 **Returns:**
-boolean - true if intervals equal; false otherwise.
+boolean - `true` if intervals equal; `false` otherwise.
 ### equals(TimeDelta t1, TimeDelta t2) {#equals-com.aspose.tasks.TimeDelta-com.aspose.tasks.TimeDelta-}
 ```
 public static boolean equals(TimeDelta t1, TimeDelta t2)
@@ -170,7 +170,7 @@ Checks two instances for equality.
 | t2 | [TimeDelta](../../com.aspose.tasks/timedelta) | second instance. |
 
 **Returns:**
-boolean - true if instances are equal; false otherwise.
+boolean - `true` if instances are equal; `false` otherwise.
 ### equals(Object other) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object other)
@@ -200,7 +200,7 @@ Returns a TimeDelta that represents a specified number of days (rounded to the n
 | value | double | a number of days. |
 
 **Returns:**
-[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents value.
+[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents `value`.
 ### fromHours(double value) {#fromHours-double-}
 ```
 public static TimeDelta fromHours(double value)
@@ -215,7 +215,7 @@ Returns a TimeDelta that represents a specified number of hours (rounded to the 
 | value | double | a number of hours. |
 
 **Returns:**
-[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents value.
+[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents `value`.
 ### fromMilliseconds(double value) {#fromMilliseconds-double-}
 ```
 public static TimeDelta fromMilliseconds(double value)
@@ -230,7 +230,7 @@ Returns a TimeDelta that represents a specified number of milliseconds (rounded 
 | value | double | a number of milliseconds. |
 
 **Returns:**
-[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents value.
+[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents `value`.
 ### fromMinutes(double value) {#fromMinutes-double-}
 ```
 public static TimeDelta fromMinutes(double value)
@@ -245,7 +245,7 @@ Returns a TimeDelta that represents a specified number of minutes (rounded to th
 | value | double | a number of minutes. |
 
 **Returns:**
-[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents value.
+[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents `value`.
 ### fromSeconds(double value) {#fromSeconds-double-}
 ```
 public static TimeDelta fromSeconds(double value)
@@ -260,7 +260,7 @@ Returns a TimeDelta that represents a specified number of seconds (rounded to th
 | value | double | a number of seconds. |
 
 **Returns:**
-[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents value.
+[TimeDelta](../../com.aspose.tasks/timedelta) - an object that represents `value`.
 ### getDays() {#getDays--}
 ```
 public int getDays()
@@ -377,7 +377,7 @@ public TimeDelta negate()
 ```
 
 
-Returns a new TimeDelta whose value is the negated value of this instance.
+Returns a new `TimeDelta` whose value is the negated value of this instance.
 
 **Returns:**
 [TimeDelta](../../com.aspose.tasks/timedelta) - A new object with the same numeric value as this instance, but with the opposite sign.
@@ -387,7 +387,7 @@ public static TimeDelta parse(String s)
 ```
 
 
-Converts the string representation of a time interval to its TimeDelta equivalent.
+Converts the string representation of a time interval to its `TimeDelta` equivalent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,14 +395,14 @@ Converts the string representation of a time interval to its TimeDelta equivalen
 | s | java.lang.String | a string that specifies the time interval to convert. |
 
 **Returns:**
-[TimeDelta](../../com.aspose.tasks/timedelta) - a time interval that corresponds to s.
+[TimeDelta](../../com.aspose.tasks/timedelta) - a time interval that corresponds to `s`.
 ### subtract(TimeDelta other) {#subtract-com.aspose.tasks.TimeDelta-}
 ```
 public TimeDelta subtract(TimeDelta other)
 ```
 
 
-Returns a new TimeDelta object whose value is a difference between this and other instances.
+Returns a new TimeDelta object whose value is a difference between this and `other` instances.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -433,7 +433,7 @@ Converts the string representation of a time interval to its TimeDelta equivalen
 | Parameter | Type | Description |
 | --- | --- | --- |
 | s | java.lang.String | a string that specifies the time interval to convert. |
-| result | [TimeDelta\[\]](../../com.aspose.tasks/timedelta) | this array must have at least one element. When this method returns, result[0] contains an object that represents the time interval specified by s, or a zero-length time interval if the conversion failed. |
+| result | [TimeDelta\[\]](../../com.aspose.tasks/timedelta) | this array must have at least one element. When this method returns, `result[0]` contains an object that represents the time interval specified by `s`, or a zero-length time interval if the conversion failed. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean - `true` if s was converted successfully; otherwise, `false`.

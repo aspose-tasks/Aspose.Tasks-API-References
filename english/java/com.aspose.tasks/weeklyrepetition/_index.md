@@ -3,7 +3,7 @@ title: WeeklyRepetition
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a pattern which is based on weekdays.
 type: docs
-weight: 334
+weight: 335
 url: /java/com.aspose.tasks/weeklyrepetition/
 ---
 
@@ -41,7 +41,7 @@ public final int getWeekDays()
 
 Gets a type of weekdays.
 
-Read/Write  WeekdayType .
+Read/Write `WeekdayType`.
 
 **Returns:**
 int - a type of weekdays.
@@ -53,7 +53,7 @@ public final void setWeekDays(int value)
 
 Sets a type of weekdays.
 
-Read/Write  WeekdayType .
+Read/Write `WeekdayType`.
 
 **Parameters:**
 | Parameter | Type | Description |

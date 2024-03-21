@@ -89,7 +89,7 @@ public final TaskBarTextConverter getBottomBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of  BottomField ([getBottomField()](../../com.aspose.tasks/ganttbarstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/ganttbarstyle\#setBottomField-int-)) property.
+Gets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of `BottomField`([getBottomField()](../../com.aspose.tasks/ganttbarstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/ganttbarstyle\#setBottomField-int-)) property.
 
 --------------------
 
@@ -153,7 +153,7 @@ public final TaskBarTextConverter getInsideBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render inside of the task's bar. Overrides the value of  InsideField ([getInsideField()](../../com.aspose.tasks/ganttbarstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/ganttbarstyle\#setInsideField-int-)) property.
+Gets user-defined converter to get text to render inside of the task's bar. Overrides the value of `InsideField`([getInsideField()](../../com.aspose.tasks/ganttbarstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/ganttbarstyle\#setInsideField-int-)) property.
 
 --------------------
 
@@ -177,7 +177,7 @@ public final TaskBarTextConverter getLeftBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the left of the task's bar. Overrides the value of  LeftField ([getLeftField()](../../com.aspose.tasks/ganttbarstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/ganttbarstyle\#setLeftField-int-)) property.
+Gets user-defined converter to get text to render on the left of the task's bar. Overrides the value of `LeftField`([getLeftField()](../../com.aspose.tasks/ganttbarstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/ganttbarstyle\#setLeftField-int-)) property.
 
 --------------------
 
@@ -255,7 +255,7 @@ public final TaskBarTextConverter getRightBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the right of the task's bar. Overrides the value of  RightField ([getRightField()](../../com.aspose.tasks/ganttbarstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/ganttbarstyle\#setRightField-int-)) property.
+Gets user-defined converter to get text to render on the right of the task's bar. Overrides the value of `RightField`([getRightField()](../../com.aspose.tasks/ganttbarstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/ganttbarstyle\#setRightField-int-)) property.
 
 --------------------
 
@@ -293,7 +293,7 @@ public final List<Integer> getShowForCategories()
 ```
 
 
-Gets task categories for which the style is applied. Is applicable for parent (or common) styles of bars in Gantt chart (see  GanttChartView.BarStyles ([GanttChartView.getBarStyles()](../../com.aspose.tasks/ganttchartview\#getBarStyles--))).
+Gets task categories for which the style is applied. Is applicable for parent (or common) styles of bars in Gantt chart (see `GanttChartView.BarStyles`([GanttChartView.getBarStyles()](../../com.aspose.tasks/ganttchartview\#getBarStyles--))).
 
 **Returns:**
 java.util.List&lt;java.lang.Integer&gt; - task categories for which the style is applied.
@@ -303,7 +303,7 @@ public final Integer getShowForTaskUid()
 ```
 
 
-Gets Unique Id of a task for which the style is applied. Is applicable for task-specific styles of bars in Gantt chart (see  GanttChartView.CustomBarStyles ([GanttChartView.getCustomBarStyles()](../../com.aspose.tasks/ganttchartview\#getCustomBarStyles--))).
+Gets Unique Id of a task for which the style is applied. Is applicable for task-specific styles of bars in Gantt chart (see `GanttChartView.CustomBarStyles`([GanttChartView.getCustomBarStyles()](../../com.aspose.tasks/ganttchartview\#getCustomBarStyles--))).
 
 **Returns:**
 java.lang.Integer - Unique Id of a task for which the style is applied.
@@ -353,7 +353,7 @@ public final TaskBarTextConverter getTopBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the top of the task's bar. Overrides the value of  TopField ([getTopField()](../../com.aspose.tasks/ganttbarstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/ganttbarstyle\#setTopField-int-)) property.
+Gets user-defined converter to get text to render on the top of the task's bar. Overrides the value of `TopField`([getTopField()](../../com.aspose.tasks/ganttbarstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/ganttbarstyle\#setTopField-int-)) property.
 
 --------------------
 
@@ -377,7 +377,7 @@ public final void setBottomBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of  BottomField ([getBottomField()](../../com.aspose.tasks/ganttbarstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/ganttbarstyle\#setBottomField-int-)) property.
+Sets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of `BottomField`([getBottomField()](../../com.aspose.tasks/ganttbarstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/ganttbarstyle\#setBottomField-int-)) property.
 
 --------------------
 
@@ -459,7 +459,7 @@ public final void setInsideBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render inside of the task's bar. Overrides the value of  InsideField ([getInsideField()](../../com.aspose.tasks/ganttbarstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/ganttbarstyle\#setInsideField-int-)) property.
+Sets user-defined converter to get text to render inside of the task's bar. Overrides the value of `InsideField`([getInsideField()](../../com.aspose.tasks/ganttbarstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/ganttbarstyle\#setInsideField-int-)) property.
 
 --------------------
 
@@ -489,7 +489,7 @@ public final void setLeftBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the left of the task's bar. Overrides the value of  LeftField ([getLeftField()](../../com.aspose.tasks/ganttbarstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/ganttbarstyle\#setLeftField-int-)) property.
+Sets user-defined converter to get text to render on the left of the task's bar. Overrides the value of `LeftField`([getLeftField()](../../com.aspose.tasks/ganttbarstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/ganttbarstyle\#setLeftField-int-)) property.
 
 --------------------
 
@@ -588,7 +588,7 @@ public final void setRightBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the right of the task's bar. Overrides the value of  RightField ([getRightField()](../../com.aspose.tasks/ganttbarstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/ganttbarstyle\#setRightField-int-)) property.
+Sets user-defined converter to get text to render on the right of the task's bar. Overrides the value of `RightField`([getRightField()](../../com.aspose.tasks/ganttbarstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/ganttbarstyle\#setRightField-int-)) property.
 
 --------------------
 
@@ -635,7 +635,7 @@ public final void setShowForCategories(List<Integer> value)
 ```
 
 
-Sets task categories for which the style is applied. Is applicable for parent (or common) styles of bars in Gantt chart (see  GanttChartView.BarStyles ([GanttChartView.getBarStyles()](../../com.aspose.tasks/ganttchartview\#getBarStyles--))).
+Sets task categories for which the style is applied. Is applicable for parent (or common) styles of bars in Gantt chart (see `GanttChartView.BarStyles`([GanttChartView.getBarStyles()](../../com.aspose.tasks/ganttchartview\#getBarStyles--))).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -648,7 +648,7 @@ public final void setShowForTaskUid(Integer value)
 ```
 
 
-Sets Unique Id of a task for which the style is applied. Is applicable for task-specific styles of bars in Gantt chart (see  GanttChartView.CustomBarStyles ([GanttChartView.getCustomBarStyles()](../../com.aspose.tasks/ganttchartview\#getCustomBarStyles--))).
+Sets Unique Id of a task for which the style is applied. Is applicable for task-specific styles of bars in Gantt chart (see `GanttChartView.CustomBarStyles`([GanttChartView.getCustomBarStyles()](../../com.aspose.tasks/ganttchartview\#getCustomBarStyles--))).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -713,7 +713,7 @@ public final void setTopBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the top of the task's bar. Overrides the value of  TopField ([getTopField()](../../com.aspose.tasks/ganttbarstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/ganttbarstyle\#setTopField-int-)) property.
+Sets user-defined converter to get text to render on the top of the task's bar. Overrides the value of `TopField`([getTopField()](../../com.aspose.tasks/ganttbarstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/ganttbarstyle\#setTopField-int-)) property.
 
 --------------------
 

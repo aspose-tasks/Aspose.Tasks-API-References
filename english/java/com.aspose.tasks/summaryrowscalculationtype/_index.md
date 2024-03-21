@@ -19,8 +19,8 @@ Specifies the type of a calculation of the custom attribute's value for summary 
 | Field | Description |
 | --- | --- |
 | [None](#None) | Means the custom attribute's value for summary rows is not calculated. |
-| [Rollup](#Rollup) | Means the custom attribute's value for summary rows is calculated using rollup function defined in  ExtendedAttributeDefinition.RollupType ([ExtendedAttributeDefinition.getRollupType()](../../com.aspose.tasks/extendedattributedefinition\#getRollupType--)/[ExtendedAttributeDefinition.setRollupType(int)](../../com.aspose.tasks/extendedattributedefinition\#setRollupType-int-)). |
-| [UseFormula](#UseFormula) | Means the custom attribute's value for summary rows is calculated using formula defined in  ExtendedAttributeDefinition.Formula ([ExtendedAttributeDefinition.getFormula\_Rename\_Namesake()](../../com.aspose.tasks/extendedattributedefinition\#getFormula-Rename-Namesake--)/[ExtendedAttributeDefinition.setFormula(String)](../../com.aspose.tasks/extendedattributedefinition\#setFormula-String-)). |
+| [Rollup](#Rollup) | Means the custom attribute's value for summary rows is calculated using rollup function defined in `ExtendedAttributeDefinition.RollupType`([ExtendedAttributeDefinition.getRollupType()](../../com.aspose.tasks/extendedattributedefinition\#getRollupType--)/ [ExtendedAttributeDefinition.setRollupType(int)](../../com.aspose.tasks/extendedattributedefinition\#setRollupType-int-)). |
+| [UseFormula](#UseFormula) | Means the custom attribute's value for summary rows is calculated using formula defined in `ExtendedAttributeDefinition.Formula`([ExtendedAttributeDefinition.getFormula\_Rename\_Namesake()](../../com.aspose.tasks/extendedattributedefinition\#getFormula-Rename-Namesake--)/ [ExtendedAttributeDefinition.setFormula(String)](../../com.aspose.tasks/extendedattributedefinition\#setFormula-String-)). |
 ### None {#None}
 ```
 public static final int None
@@ -35,7 +35,7 @@ public static final int Rollup
 ```
 
 
-Means the custom attribute's value for summary rows is calculated using rollup function defined in  ExtendedAttributeDefinition.RollupType ([ExtendedAttributeDefinition.getRollupType()](../../com.aspose.tasks/extendedattributedefinition\#getRollupType--)/[ExtendedAttributeDefinition.setRollupType(int)](../../com.aspose.tasks/extendedattributedefinition\#setRollupType-int-)).
+Means the custom attribute's value for summary rows is calculated using rollup function defined in `ExtendedAttributeDefinition.RollupType`([ExtendedAttributeDefinition.getRollupType()](../../com.aspose.tasks/extendedattributedefinition\#getRollupType--)/ [ExtendedAttributeDefinition.setRollupType(int)](../../com.aspose.tasks/extendedattributedefinition\#setRollupType-int-)).
 
 ### UseFormula {#UseFormula}
 ```
@@ -43,9 +43,9 @@ public static final int UseFormula
 ```
 
 
-Means the custom attribute's value for summary rows is calculated using formula defined in  ExtendedAttributeDefinition.Formula ([ExtendedAttributeDefinition.getFormula\_Rename\_Namesake()](../../com.aspose.tasks/extendedattributedefinition\#getFormula-Rename-Namesake--)/[ExtendedAttributeDefinition.setFormula(String)](../../com.aspose.tasks/extendedattributedefinition\#setFormula-String-)).
+Means the custom attribute's value for summary rows is calculated using formula defined in `ExtendedAttributeDefinition.Formula`([ExtendedAttributeDefinition.getFormula\_Rename\_Namesake()](../../com.aspose.tasks/extendedattributedefinition\#getFormula-Rename-Namesake--)/ [ExtendedAttributeDefinition.setFormula(String)](../../com.aspose.tasks/extendedattributedefinition\#setFormula-String-)).
 
 --------------------
 
-\\ufffdor this setting to work,  ExtendedAttributeDefinition.CalculationType ([ExtendedAttributeDefinition.getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[ExtendedAttributeDefinition.setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) should be set to 'Formula'.
+\\ufffdor this setting to work, `ExtendedAttributeDefinition.CalculationType`([ExtendedAttributeDefinition.getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [ExtendedAttributeDefinition.setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) should be set to 'Formula'.
 

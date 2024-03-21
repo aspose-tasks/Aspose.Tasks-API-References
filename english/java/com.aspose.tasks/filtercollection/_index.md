@@ -24,7 +24,7 @@ Contains a list of [Filter](../../com.aspose.tasks/filter) objects. Implements I
 | [copyTo(Filter[] array, int arrayIndex)](#copyTo-com.aspose.tasks.Filter---int-) | Copies the elements from the specified array to this collection starting from the specified index. |
 | [iterator()](#iterator--) | Returns an iterator over the elements containing in this collection. |
 | [remove(Filter item)](#remove-com.aspose.tasks.Filter-) | Removes the specified item from this collection. |
-| [size()](#size--) |  |
+| [size()](#size--) | Gets the number of elements contained in this collection. |
 | [toList()](#toList--) | Converts a filter collection to a list of `Filter` objects. |
 ### add(Filter item) {#add-com.aspose.tasks.Filter-}
 ```
@@ -109,10 +109,10 @@ public final int size()
 ```
 
 
-
+Gets the number of elements contained in this collection.
 
 **Returns:**
-int
+int - the number of elements contained in this collection.
 ### toList() {#toList--}
 ```
 public List<Filter> toList()

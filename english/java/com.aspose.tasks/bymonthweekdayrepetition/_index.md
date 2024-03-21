@@ -43,7 +43,7 @@ public final int getPosition()
 
 Gets a position of weekday in a month on which the task must be recurring.
 
-Read/Write  OrdinalNumber .
+Read/Write `OrdinalNumber`.
 
 **Returns:**
 int - a position of weekday in a month on which the task must be recurring.
@@ -55,7 +55,7 @@ public final int getWeekDay()
 
 Gets a type of weekday on which the task must be recurring.
 
-Read/Write  DayOfWeek .
+Read/Write `DayOfWeek`.
 
 **Returns:**
 int - a type of weekday on which the task must be recurring.
@@ -67,7 +67,7 @@ public final void setPosition(int value)
 
 Sets a position of weekday in a month on which the task must be recurring.
 
-Read/Write  OrdinalNumber .
+Read/Write `OrdinalNumber`.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -82,7 +82,7 @@ public final void setWeekDay(int value)
 
 Sets a type of weekday on which the task must be recurring.
 
-Read/Write  DayOfWeek .
+Read/Write `DayOfWeek`.
 
 **Parameters:**
 | Parameter | Type | Description |

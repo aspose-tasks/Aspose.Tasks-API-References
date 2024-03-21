@@ -26,7 +26,7 @@ Represents a container property.
 
 | Method | Description |
 | --- | --- |
-| [&lt;TKey&gt;equals(GenericProperty&lt;TKey&gt; obj1, GenericProperty&lt;TKey&gt; obj2)](#-TKey-equals-com.aspose.tasks.GenericProperty-TKey--com.aspose.tasks.GenericProperty-TKey--) | Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance. |
+| [&lt;TKey&gt;equals(GenericProperty&lt;TKey&gt; obj1, GenericProperty&lt;TKey&gt; obj2)](#-TKey-equals-com.aspose.tasks.GenericProperty-TKey--com.aspose.tasks.GenericProperty-TKey--) | Returns a value indicating whether specified `obj1` instance is equal to the specified `obj2` instance. |
 | [Clone()](#Clone--) | Creates and returns a deep copy of this instance. |
 | [CloneTo(GenericProperty&lt;TKey&gt; that)](#CloneTo-com.aspose.tasks.GenericProperty-TKey--) | Makes a deep copy of the instance into another instance. |
 | [clone()](#clone--) | \{@inheritDoc\} |
@@ -61,7 +61,7 @@ public static boolean <TKey>equals(GenericProperty<TKey> obj1, GenericProperty<T
 ```
 
 
-Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance.
+Returns a value indicating whether specified `obj1` instance is equal to the specified `obj2` instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -70,7 +70,7 @@ Returns a value indicating whether specified  obj1  instance is equal to the spe
 | obj2 | [GenericProperty](../../com.aspose.tasks/genericproperty) | the second object to compare. |
 
 **Returns:**
-boolean - returns true if specified  obj1  instance is equal to the specified  obj2  instance; otherwise, false.
+boolean - returns true if specified `obj1` instance is equal to the specified `obj2` instance; otherwise, false.
 ### Clone() {#Clone--}
 ```
 public GenericProperty<TKey> Clone()

@@ -92,7 +92,7 @@ public final int getField()
 ```
 
 
-Gets a field the style is to be applied to.  Field ([getField()](../../com.aspose.tasks/tabletextstyle\#getField--)/[setField(int)](../../com.aspose.tasks/tabletextstyle\#setField-int-)).
+Gets a field the style is to be applied to. `Field`([getField()](../../com.aspose.tasks/tabletextstyle\#getField--)/[setField(int)](../../com.aspose.tasks/tabletextstyle\#setField-int-)).
 
 **Returns:**
 int - a field the style is to be applied to.
@@ -126,7 +126,7 @@ public final void setField(int value)
 ```
 
 
-Sets a field the style is to be applied to.  Field ([getField()](../../com.aspose.tasks/tabletextstyle\#getField--)/[setField(int)](../../com.aspose.tasks/tabletextstyle\#setField-int-)).
+Sets a field the style is to be applied to. `Field`([getField()](../../com.aspose.tasks/tabletextstyle\#getField--)/[setField(int)](../../com.aspose.tasks/tabletextstyle\#setField-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |

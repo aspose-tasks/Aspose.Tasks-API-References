@@ -33,7 +33,7 @@ Represents an OLE object which can be inserter into Gantt Chart View of an MPP f
 | [getLinked()](#getLinked--) | Gets a value indicating whether the project file contains only a link to the actual data stored at the link source. |
 | [getName()](#getName--) | Gets the name of the instance of the OLE object. |
 | [getTemporaryFile()](#getTemporaryFile--) | Gets the path to the temporary file of the inserted object. |
-| [getView()](#getView--) | Gets the instance of the  View ([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to. |
+| [getView()](#getView--) | Gets the instance of the `View`([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to. |
 | [setApplicationName(String value)](#setApplicationName-java.lang.String-) | Sets the application name to open the embedded object with. |
 | [setContent(byte[] value)](#setContent-byte---) | Sets the embedded file's data; null if no data was embedded. |
 | [setDisplayAsIcon(boolean value)](#setDisplayAsIcon-boolean-) | Sets a flag indicating that OLE object should be shown either as an icon or as its regular picture. |
@@ -43,7 +43,7 @@ Represents an OLE object which can be inserter into Gantt Chart View of an MPP f
 | [setLabel(String value)](#setLabel-java.lang.String-) | Sets the label of the inserted object. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the instance of the OLE object. |
 | [setTemporaryFile(String value)](#setTemporaryFile-java.lang.String-) | Sets the path to the temporary file of the inserted object. |
-| [setView(View value)](#setView-com.aspose.tasks.View-) | Sets the instance of the  View ([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to. |
+| [setView(View value)](#setView-com.aspose.tasks.View-) | Sets the instance of the `View`([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to. |
 ### OleObject() {#OleObject--}
 ```
 public OleObject()
@@ -158,10 +158,10 @@ public final View getView()
 ```
 
 
-Gets the instance of the  View ([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to.
+Gets the instance of the `View`([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to.
 
 **Returns:**
-[View](../../com.aspose.tasks/view) - the instance of the  View ([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to.
+[View](../../com.aspose.tasks/view) - the instance of the `View`([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to.
 ### setApplicationName(String value) {#setApplicationName-java.lang.String-}
 ```
 public final void setApplicationName(String value)
@@ -285,10 +285,10 @@ public final void setView(View value)
 ```
 
 
-Sets the instance of the  View ([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to.
+Sets the instance of the `View`([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [View](../../com.aspose.tasks/view) | the instance of the  View ([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to. |
+| value | [View](../../com.aspose.tasks/view) | the instance of the `View`([getView()](../../com.aspose.tasks/oleobject\#getView--)/[setView(View)](../../com.aspose.tasks/oleobject\#setView-View-)) class the inserted object belongs to. |
 

@@ -32,7 +32,7 @@ Represents a GanttChart view.
 | [getBarStyles()](#getBarStyles--) | Gets a list of parent (common) bar styles of the Gantt Chart view. |
 | [getBottomTimescaleTier()](#getBottomTimescaleTier--) | Gets settings of view's bottom timescale tier. |
 | [getCustomBarStyles()](#getCustomBarStyles--) | Gets a list of custom task-specific bar styles of the Gantt Chart view. |
-| [getGridlines()](#getGridlines--) | Gets a list of  Gridlines ([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view. |
+| [getGridlines()](#getGridlines--) | Gets a list of `Gridlines`([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view. |
 | [getHideRollupBarsWhenSummaryExpanded()](#getHideRollupBarsWhenSummaryExpanded--) | Gets a value indicating whether rollup bars will be hidden when expanding summary task. |
 | [getMiddleTimescaleTier()](#getMiddleTimescaleTier--) | Gets settings of view's middle timescale tier. |
 | [getNonWorkingTimeColor()](#getNonWorkingTimeColor--) | Gets non-working time color. |
@@ -47,7 +47,7 @@ Represents a GanttChart view.
 | [setBarRounding(boolean value)](#setBarRounding-boolean-) | Sets a value indicating whether the bars round to the nearest day. |
 | [setBarSize(int value)](#setBarSize-int-) | Sets the height, in points, of the Gantt bars in the Gantt Chart. |
 | [setBottomTimescaleTier(TimescaleTier value)](#setBottomTimescaleTier-com.aspose.tasks.TimescaleTier-) | Sets settings of view's bottom timescale tier. |
-| [setGridlines(List&lt;Gridlines&gt; value)](#setGridlines-java.util.List-com.aspose.tasks.Gridlines--) | Sets a list of  Gridlines ([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view. |
+| [setGridlines(List&lt;Gridlines&gt; value)](#setGridlines-java.util.List-com.aspose.tasks.Gridlines--) | Sets a list of `Gridlines`([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view. |
 | [setHideRollupBarsWhenSummaryExpanded(boolean value)](#setHideRollupBarsWhenSummaryExpanded-boolean-) | Sets a value indicating whether rollup bars will be hidden when expanding summary task. |
 | [setMiddleTimescaleTier(TimescaleTier value)](#setMiddleTimescaleTier-com.aspose.tasks.TimescaleTier-) | Sets settings of view's middle timescale tier. |
 | [setNonWorkingTimeColor(Color value)](#setNonWorkingTimeColor-java.awt.Color-) | Sets non-working time color. |
@@ -132,10 +132,10 @@ public final List<Gridlines> getGridlines()
 ```
 
 
-Gets a list of  Gridlines ([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view.
+Gets a list of `Gridlines`([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view.
 
 **Returns:**
-java.util.List&lt;com.aspose.tasks.Gridlines&gt; - a list of  Gridlines ([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view.
+java.util.List&lt;com.aspose.tasks.Gridlines&gt; - a list of `Gridlines`([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view.
 ### getHideRollupBarsWhenSummaryExpanded() {#getHideRollupBarsWhenSummaryExpanded--}
 ```
 public final boolean getHideRollupBarsWhenSummaryExpanded()
@@ -172,7 +172,7 @@ public final ProgressLines getProgressLines()
 ```
 
 
-Gets progress lines for the Gantt Chart view.  ProgressLines ([getProgressLines()](../../com.aspose.tasks/ganttchartview\#getProgressLines--)/[setProgressLines(ProgressLines)](../../com.aspose.tasks/ganttchartview\#setProgressLines-ProgressLines-)).
+Gets progress lines for the Gantt Chart view. `ProgressLines`([getProgressLines()](../../com.aspose.tasks/ganttchartview\#getProgressLines--)/[setProgressLines(ProgressLines)](../../com.aspose.tasks/ganttchartview\#setProgressLines-ProgressLines-)).
 
 **Returns:**
 [ProgressLines](../../com.aspose.tasks/progresslines) - progress lines for the Gantt Chart view.
@@ -291,12 +291,12 @@ public final void setGridlines(List<Gridlines> value)
 ```
 
 
-Sets a list of  Gridlines ([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view.
+Sets a list of `Gridlines`([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.List&lt;com.aspose.tasks.Gridlines&gt; | a list of  Gridlines ([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view. |
+| value | java.util.List&lt;com.aspose.tasks.Gridlines&gt; | a list of `Gridlines`([getGridlines()](../../com.aspose.tasks/ganttchartview\#getGridlines--)/[setGridlines(java.util.List)](../../com.aspose.tasks/ganttchartview\#setGridlines-java.util.List-Gridlines--)) of the Gantt Chart view. |
 
 ### setHideRollupBarsWhenSummaryExpanded(boolean value) {#setHideRollupBarsWhenSummaryExpanded-boolean-}
 ```
@@ -343,7 +343,7 @@ public final void setProgressLines(ProgressLines value)
 ```
 
 
-Sets progress lines for the Gantt Chart view.  ProgressLines ([getProgressLines()](../../com.aspose.tasks/ganttchartview\#getProgressLines--)/[setProgressLines(ProgressLines)](../../com.aspose.tasks/ganttchartview\#setProgressLines-ProgressLines-)).
+Sets progress lines for the Gantt Chart view. `ProgressLines`([getProgressLines()](../../com.aspose.tasks/ganttchartview\#getProgressLines--)/[setProgressLines(ProgressLines)](../../com.aspose.tasks/ganttchartview\#setProgressLines-ProgressLines-)).
 
 **Parameters:**
 | Parameter | Type | Description |

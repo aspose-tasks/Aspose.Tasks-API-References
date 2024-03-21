@@ -17,36 +17,34 @@ Represents a calendar used in a project.
 
 --------------------
 
-&gt; ```
-&gt; How to create simple calendar from scratch.
-&gt;  ```
-&gt; 
-&gt;  // create empty calendar
-&gt;  Calendar calendar = new Calendar();
-&gt;  // adds default working days (8 working hours from 9:00 to 17:00)
-&gt;  calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Monday));
-&gt;  calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Tuesday));
-&gt;  calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Wednesday));
-&gt;  // create new new working day
-&gt;  WeekDay myWeekDay = new WeekDay(DayType.Thursday);
-&gt;  // Sets working time. Only time part of DateTime is important
-&gt;  WorkingTime wt1 = new WorkingTime();
-&gt;  wt1.setFromTime(new Date(1, 1, 1, 6, 0, 0));
-&gt;  wt1.setToTime(new Date(1, 1, 1, 12, 0, 0));
-&gt;  WorkingTime wt2 = new WorkingTime();
-&gt;  wt2.setFromTime(new Date(1, 1, 1, 14, 0, 0));
-&gt;  wt2.setToTime(new Date(1, 1, 1, 18, 0, 0));
-&gt;  myWeekDay.getWorkingTimes().add(wt1);
-&gt;  myWeekDay.getWorkingTimes().add(wt2);
-&gt;  myWeekDay.setDayWorking(true);
-&gt;  calendar.getDays().add(myWeekDay);
-&gt;  calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Friday));
-&gt;  // adds weekend
-&gt;  calendar.getDays().add(new WeekDay(DayType.Saturday));
-&gt;  calendar.getDays().add(new WeekDay(DayType.Sunday));
-&gt;  
-&gt; ```
-&gt; ```
+How to create simple calendar from scratch.
+```
+
+ // create empty calendar
+ Calendar calendar = new Calendar();
+ // adds default working days (8 working hours from 9:00 to 17:00)
+ calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Monday));
+ calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Tuesday));
+ calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Wednesday));
+ // create new new working day
+ WeekDay myWeekDay = new WeekDay(DayType.Thursday);
+ // Sets working time. Only time part of DateTime is important
+ WorkingTime wt1 = new WorkingTime();
+ wt1.setFromTime(new Date(1, 1, 1, 6, 0, 0));
+ wt1.setToTime(new Date(1, 1, 1, 12, 0, 0));
+ WorkingTime wt2 = new WorkingTime();
+ wt2.setFromTime(new Date(1, 1, 1, 14, 0, 0));
+ wt2.setToTime(new Date(1, 1, 1, 18, 0, 0));
+ myWeekDay.getWorkingTimes().add(wt1);
+ myWeekDay.getWorkingTimes().add(wt2);
+ myWeekDay.setDayWorking(true);
+ calendar.getDays().add(myWeekDay);
+ calendar.getDays().add(WeekDay.createDefaultWorkingDay(DayType.Friday));
+ // adds weekend
+ calendar.getDays().add(new WeekDay(DayType.Saturday));
+ calendar.getDays().add(new WeekDay(DayType.Sunday));
+ 
+```
 
 --------------------
 
@@ -61,6 +59,7 @@ Calendars are used to define standard working and non-working times. Projects mu
 | [getExceptions()](#getExceptions--) | Gets CalendarExceptionCollection object. |
 | [getFinishDateByStartAndWork(Date start, Duration work)](#getFinishDateByStartAndWork-java.util.Date-com.aspose.tasks.Duration-) | Calculates the date when the specified amount of work time will pass according to the calendar. |
 | [getFinishDateByStartAndWork(Date start, double work)](#getFinishDateByStartAndWork-java.util.Date-double-) | Calculates the date when the specified amount of work time will pass according to the calendar. |
+| [getGuid()](#getGuid--) | Gets calendar's Guid. |
 | [getName()](#getName--) | Gets the name of the calendar. |
 | [getNextWorkingDayStart(Date date)](#getNextWorkingDayStart-java.util.Date-) | Calculates next working day start from the date. |
 | [getPreviousWorkingDayEnd(Date date)](#getPreviousWorkingDayEnd-java.util.Date-) | Calculates previous working date end from the specified date. |
@@ -159,6 +158,16 @@ Calculates the date when the specified amount of work time will pass according t
 
 **Returns:**
 java.util.Date - Finish date.
+### getGuid() {#getGuid--}
+```
+public final String getGuid()
+```
+
+
+Gets calendar's Guid.
+
+**Returns:**
+java.lang.String - calendar's Guid.
 ### getName() {#getName--}
 ```
 public final String getName()

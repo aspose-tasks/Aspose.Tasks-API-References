@@ -13,7 +13,7 @@ java.lang.Object
 public class CancellationTokenSource
 ```
 
-Signals to a CancellationToken that it should be canceled.
+Signals to a `CancellationToken` that it should be canceled.
 ## Constructors
 
 | Constructor | Description |
@@ -24,7 +24,7 @@ Signals to a CancellationToken that it should be canceled.
 | Method | Description |
 | --- | --- |
 | [cancel()](#cancel--) | Communicates a request for cancellation. |
-| [getToken()](#getToken--) | Creates the new CancellationToken associated with this CancellationTokenSource. |
+| [getToken()](#getToken--) | Creates the new `CancellationToken` associated with this `CancellationTokenSource`. |
 | [isCancellationRequested()](#isCancellationRequested--) | Gets whether cancellation has been requested for this CancellationTokenSource. |
 ### CancellationTokenSource() {#CancellationTokenSource--}
 ```
@@ -46,10 +46,10 @@ public CancellationToken getToken()
 ```
 
 
-Creates the new CancellationToken associated with this CancellationTokenSource.
+Creates the new `CancellationToken` associated with this `CancellationTokenSource`.
 
 **Returns:**
-[CancellationToken](../../com.aspose.tasks/cancellationtoken) - a token associated with this CancellationTokenSource.
+[CancellationToken](../../com.aspose.tasks/cancellationtoken) - a token associated with this `CancellationTokenSource`.
 ### isCancellationRequested() {#isCancellationRequested--}
 ```
 public boolean isCancellationRequested()

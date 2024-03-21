@@ -52,7 +52,7 @@ Represents an extended attribute definition associated with a project.
 | [getMaxMultiValues()](#getMaxMultiValues--) | Gets the maximum number of values you can set in a pick list. |
 | [getParentProject()](#getParentProject--) | Gets the parent project for the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) instance. |
 | [getPhoneticsAlias()](#getPhoneticsAlias--) | Gets the phonetic pronunciation of the alias of a custom field. |
-| [getRestrictValues()](#getRestrictValues--) | Gets a value indicating whether the custom field values are restricted to values in the  ValueList ([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)). |
+| [getRestrictValues()](#getRestrictValues--) | Gets a value indicating whether the custom field values are restricted to values in the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)). |
 | [getRollupType()](#getRollupType--) | Gets the way rollups are calculated. |
 | [getSecondaryGuid()](#getSecondaryGuid--) | Gets the secondary guid of extended attribute. |
 | [getSecondaryPid()](#getSecondaryPid--) | Gets the secondary PID of a custom field. |
@@ -74,7 +74,7 @@ Represents an extended attribute definition associated with a project.
 | [setGuid(String value)](#setGuid-java.lang.String-) | Sets the Guid of a custom field. |
 | [setMaxMultiValues(int value)](#setMaxMultiValues-int-) | Sets the maximum number of values you can set in a pick list. |
 | [setPhoneticsAlias(String value)](#setPhoneticsAlias-java.lang.String-) | Sets the phonetic pronunciation of the alias of a custom field. |
-| [setRestrictValues(boolean value)](#setRestrictValues-boolean-) | Sets a value indicating whether the custom field values are restricted to values in the  ValueList ([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)). |
+| [setRestrictValues(boolean value)](#setRestrictValues-boolean-) | Sets a value indicating whether the custom field values are restricted to values in the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/ [setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)). |
 | [setRollupType(int value)](#setRollupType-int-) | Sets the way rollups are calculated. |
 | [setSecondaryGuid(String value)](#setSecondaryGuid-java.lang.String-) | Sets the secondary guid of extended attribute. |
 | [setSecondaryPid(String value)](#setSecondaryPid-java.lang.String-) | Sets the secondary PID of a custom field. |
@@ -87,22 +87,22 @@ public final void addLookupValue(Value value)
 ```
 
 
-Adds a value to the internal lookup list. This is a preferable way for manipulations with the  ValueList ([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
+Adds a value to the internal lookup list. This is a preferable way for manipulations with the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/ [setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
 
 --------------------
 
-&gt; ```
-&gt; Use this code to add new Value to lookup list:
-&gt;  ```
-&gt; 
-&gt;  taskTextAttr.addLookupValue(new Value() {{
-&gt;      this.setId(1);
-&gt;      this.setVal("Text value 1");
-&gt;      this.setDescription("Text value description 1");
-&gt;  }});
-&gt;  
-&gt; ```
-&gt; ```
+Use this code to add new Value to lookup list:
+```
+
+ taskTextAttr.addLookupValue(new Value() {{
+     this.setId(1);
+     this.setVal("Text value 1");
+     this.setDescription("Text value description 1");
+ }});
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,7 +111,7 @@ Adds a value to the internal lookup list. This is a preferable way for manipulat
 
 --------------------
 
-This method works only for [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) instances which have  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup). |
+This method works only for [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) instances which have `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup). |
 
 ### compareTo(ExtendedAttributeDefinition o) {#compareTo-com.aspose.tasks.ExtendedAttributeDefinition-}
 ```
@@ -178,16 +178,16 @@ Creates new extended attribute linked with specified [Value](../../com.aspose.ta
 
 --------------------
 
-&gt; ```
-&gt; Use this code to create new [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) using specific value:
-&gt;  ```
-&gt; 
-&gt;  taskTextAttr.addLookupValue(value1);
-&gt;  taskTextAttr.addLookupValue(value2);
-&gt;  ExtendedAttribute extendedAttribute = taskTextAttr.createExtendedAttribute(value2);
-&gt;  
-&gt; ```
-&gt; ```
+Use this code to create new [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) using specific value:
+```
+
+ taskTextAttr.addLookupValue(value1);
+ taskTextAttr.addLookupValue(value2);
+ ExtendedAttribute extendedAttribute = taskTextAttr.createExtendedAttribute(value2);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +196,7 @@ Creates new extended attribute linked with specified [Value](../../com.aspose.ta
 
 --------------------
 
- lookupValue  should be previously added to the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) using [addLookupValue(Value)](../../com.aspose.tasks/extendedattributedefinition\#addLookupValue-Value-) method. |
+`lookupValue` should be previously added to the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) using [addLookupValue(Value)](../../com.aspose.tasks/extendedattributedefinition\#addLookupValue-Value-) method. |
 
 **Returns:**
 [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) - returns created instance of the [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) class linked with specified [Value](../../com.aspose.tasks/value) item.
@@ -251,29 +251,29 @@ public static ExtendedAttributeDefinition createLookupResourceDefinition(int cus
 ```
 
 
-Factory method which creates an extended attribute definition with lookup. It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Resources only. You are required to specify  customFieldType ,  fieldId  and  alias  when call this method.
+Factory method which creates an extended attribute definition with lookup. It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Resources only. You are required to specify `customFieldType`, `fieldId` and `alias` when call this method.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
-&gt;      resourceTextAttr.addLookupValue(new Value() {{
-&gt;          this.setId(1);
-&gt;          this.setVal("Text value 1");
-&gt;          this.setDescription("Text value description 1");
-&gt;      }});
-&gt;      resourceTextAttr.addLookupValue(new Value() {{
-&gt;          this.setId(2);
-&gt;          this.setVal("Text value 2");
-&gt;          this.setDescription("Text value description 2");
-&gt;      }});
-&gt;      project.getExtendedAttributes().add(resourceTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
+```
+
+ ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
+     resourceTextAttr.addLookupValue(new Value() {{
+         this.setId(1);
+         this.setVal("Text value 1");
+         this.setDescription("Text value description 1");
+     }});
+     resourceTextAttr.addLookupValue(new Value() {{
+         this.setId(2);
+         this.setVal("Text value 2");
+         this.setDescription("Text value description 2");
+     }});
+     project.getExtendedAttributes().add(resourceTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,36 +283,36 @@ Factory method which creates an extended attribute definition with lookup. It ha
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  customFieldType ,  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `customFieldType`, `fieldId` and `alias`.
 ### createLookupResourceDefinition(int fieldId, String alias) {#createLookupResourceDefinition-int-java.lang.String-}
 ```
 public static ExtendedAttributeDefinition createLookupResourceDefinition(int fieldId, String alias)
 ```
 
 
-Factory method which creates an extended attribute definition with lookup. It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Resources only. You are required to specify  fieldId  and  alias  when call this method. The field type is inferred from field id.
+Factory method which creates an extended attribute definition with lookup. It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Resources only. You are required to specify `fieldId` and `alias` when call this method. The field type is inferred from field id.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
-&gt;      resourceTextAttr.addLookupValue(new Value() {{
-&gt;          this.setId(1);
-&gt;          this.setVal("Text value 1");
-&gt;          this.setDescription("Text value description 1");
-&gt;      }});
-&gt;      resourceTextAttr.addLookupValue(new Value() {{
-&gt;          this.setId(2);
-&gt;          this.setVal("Text value 2");
-&gt;          this.setDescription("Text value description 2");
-&gt;      }});
-&gt;      project.getExtendedAttributes().add(resourceTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
+```
+
+ ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
+     resourceTextAttr.addLookupValue(new Value() {{
+         this.setId(1);
+         this.setVal("Text value 1");
+         this.setDescription("Text value description 1");
+     }});
+     resourceTextAttr.addLookupValue(new Value() {{
+         this.setId(2);
+         this.setVal("Text value 2");
+         this.setDescription("Text value description 2");
+     }});
+     project.getExtendedAttributes().add(resourceTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,36 +321,36 @@ Factory method which creates an extended attribute definition with lookup. It ha
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `fieldId` and `alias`.
 ### createLookupTaskDefinition(int customFieldType, int fieldId, String alias) {#createLookupTaskDefinition-int-int-java.lang.String-}
 ```
 public static ExtendedAttributeDefinition createLookupTaskDefinition(int customFieldType, int fieldId, String alias)
 ```
 
 
-Factory method which creates an extended attribute definition with lookup. It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Tasks only. You are required to specify  customFieldType ,  fieldId  and  alias  when call this method.
+Factory method which creates an extended attribute definition with lookup. It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Tasks only. You are required to specify `customFieldType`, `fieldId` and `alias` when call this method.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom field definition for a task with lookup and then fill it with text values:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
-&gt;  taskTextAttr.addLookupValue(new Value() {{
-&gt;      this.setId(1);
-&gt;      this.setVal("Text value 1");
-&gt;      this.setDescription("Text value description 1");
-&gt;  }});
-&gt;  taskTextAttr.addLookupValue(new Value() {{
-&gt;      this.setId(2);
-&gt;      this.setVal("Text value 2");
-&gt;      this.setDescription("Text value description 2");
-&gt;  }});
-&gt;  project.getExtendedAttributes().add(taskTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom field definition for a task with lookup and then fill it with text values:
+```
+
+ ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
+ taskTextAttr.addLookupValue(new Value() {{
+     this.setId(1);
+     this.setVal("Text value 1");
+     this.setDescription("Text value description 1");
+ }});
+ taskTextAttr.addLookupValue(new Value() {{
+     this.setId(2);
+     this.setVal("Text value 2");
+     this.setDescription("Text value description 2");
+ }});
+ project.getExtendedAttributes().add(taskTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -360,36 +360,36 @@ Factory method which creates an extended attribute definition with lookup. It ha
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  customFieldType ,  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `customFieldType`, `fieldId` and `alias`.
 ### createLookupTaskDefinition(int fieldId, String alias) {#createLookupTaskDefinition-int-java.lang.String-}
 ```
 public static ExtendedAttributeDefinition createLookupTaskDefinition(int fieldId, String alias)
 ```
 
 
-Factory method which creates an extended attribute definition with lookup. It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Tasks only. You are required to specify  fieldId  and  alias  when call this method. The field type is inferred from field id.
+Factory method which creates an extended attribute definition with lookup. It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup) and can be used in Tasks only. You are required to specify `fieldId` and `alias` when call this method. The field type is inferred from field id.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom field definition for a task with lookup and then fill it with text values:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
-&gt;  taskTextAttr.addLookupValue(new Value() {{
-&gt;      this.setId(1);
-&gt;      this.setVal("Text value 1");
-&gt;      this.setDescription("Text value description 1");
-&gt;  }});
-&gt;  taskTextAttr.addLookupValue(new Value() {{
-&gt;      this.setId(2);
-&gt;      this.setVal("Text value 2");
-&gt;      this.setDescription("Text value description 2");
-&gt;  }});
-&gt;  project.getExtendedAttributes().add(taskTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom field definition for a task with lookup and then fill it with text values:
+```
+
+ ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
+ taskTextAttr.addLookupValue(new Value() {{
+     this.setId(1);
+     this.setVal("Text value 1");
+     this.setDescription("Text value description 1");
+ }});
+ taskTextAttr.addLookupValue(new Value() {{
+     this.setId(2);
+     this.setVal("Text value 2");
+     this.setDescription("Text value description 2");
+ }});
+ project.getExtendedAttributes().add(taskTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -398,26 +398,26 @@ Factory method which creates an extended attribute definition with lookup. It ha
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `fieldId` and `alias`.
 ### createResourceDefinition(int customFieldType, int fieldId, String alias) {#createResourceDefinition-int-int-java.lang.String-}
 ```
 public static ExtendedAttributeDefinition createResourceDefinition(int customFieldType, int fieldId, String alias)
 ```
 
 
-Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Resource only. You are required to specify  customFieldType ,  fieldId  and  alias  when call this method.
+Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Resource only. You are required to specify `customFieldType`, `fieldId` and `alias` when call this method.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom text field definition:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createResourceDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
-&gt;  project.getExtendedAttributes().add(resourceTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom text field definition:
+```
+
+ ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createResourceDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
+ project.getExtendedAttributes().add(resourceTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -427,26 +427,26 @@ Factory method which creates a simple extended attribute definition, which Micro
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  customFieldType ,  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `customFieldType`, `fieldId` and `alias`.
 ### createResourceDefinition(int fieldId, String alias) {#createResourceDefinition-int-java.lang.String-}
 ```
 public static ExtendedAttributeDefinition createResourceDefinition(int fieldId, String alias)
 ```
 
 
-Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Resource only. You are required to specify  fieldId  and  alias  when call this method. The field type is inferred from field id.
+Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Resource only. You are required to specify `fieldId` and `alias` when call this method. The field type is inferred from field id.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom text field definition:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
-&gt;  project.getExtendedAttributes().add(resourceTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom text field definition:
+```
+
+ ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
+ project.getExtendedAttributes().add(resourceTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -455,26 +455,26 @@ Factory method which creates a simple extended attribute definition, which Micro
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `fieldId` and `alias`.
 ### createTaskDefinition(int customFieldType, int fieldId, String alias) {#createTaskDefinition-int-int-java.lang.String-}
 ```
 public static ExtendedAttributeDefinition createTaskDefinition(int customFieldType, int fieldId, String alias)
 ```
 
 
-Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Tasks only. You are required to specify  customFieldType ,  fieldId  and  alias  when calling this method.
+Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Tasks only. You are required to specify `customFieldType`, `fieldId` and `alias` when calling this method.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom text field definition:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text27, "My custom field");
-&gt;  project.getExtendedAttributes().add(taskTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom text field definition:
+```
+
+ ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text27, "My custom field");
+ project.getExtendedAttributes().add(taskTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -484,26 +484,26 @@ Factory method which creates a simple extended attribute definition, which Micro
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  customFieldType ,  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `customFieldType`, `fieldId` and `alias`.
 ### createTaskDefinition(int fieldId, String alias) {#createTaskDefinition-int-java.lang.String-}
 ```
 public static ExtendedAttributeDefinition createTaskDefinition(int fieldId, String alias)
 ```
 
 
-Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has  CalculationType ([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Tasks only. You are required to specify  fieldId  and  alias  when calling this method. The field type is inferred from field id.
+Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has `CalculationType`([getCalculationType()](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType--)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.None](../../com.aspose.tasks/calculationtype\#None) and can be used in Tasks only. You are required to specify `fieldId` and `alias` when calling this method. The field type is inferred from field id.
 
 --------------------
 
-&gt; ```
-&gt; Use this example to create a custom text field definition:
-&gt;  ```
-&gt; 
-&gt;  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createTaskDefinition(ExtendedAttributeTask.Text27, "My custom field");
-&gt;  project.getExtendedAttributes().add(taskTextAttr);
-&gt;  
-&gt; ```
-&gt; ```
+Use this example to create a custom text field definition:
+```
+
+ ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createTaskDefinition(ExtendedAttributeTask.Text27, "My custom field");
+ project.getExtendedAttributes().add(taskTextAttr);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,7 +512,7 @@ Factory method which creates a simple extended attribute definition, which Micro
 | alias | java.lang.String | The specified String alias. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified  fieldId  and  alias .
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - Created instance of the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) class with specified `fieldId` and `alias`.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -622,21 +622,19 @@ public final String getFieldId()
 ```
 
 
-Gets corresponds to the project id of a custom field. Use string representation of a constant from [ExtendedAttributeTask](../../com.aspose.tasks/extendedattributetask) class to specify  FieldId ([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/[setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property.
+Gets corresponds to the project id of a custom field. Use string representation of a constant from [ExtendedAttributeTask](../../com.aspose.tasks/extendedattributetask) class to specify `FieldId`([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/ [setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property.
 
 --------------------
 
-&gt; ```
-&gt; ```
-&gt; 
-&gt;  customFieldDefinition.setFieldId(Integer.toString(ExtendedAttributeTask.Number10));
-&gt;  
-&gt; ```
-&gt; ```
+```
+
+ customFieldDefinition.setFieldId(Integer.toString(ExtendedAttributeTask.Number10));
+ 
+```
 
 --------------------
 
-Preferable way to set  FieldId ([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/[setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property is to create [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) using one of the dedicated factory methods like [createTaskDefinition(int, String)](../../com.aspose.tasks/extendedattributedefinition\#createTaskDefinition-int--String-) or [createLookupTaskDefinition(int, int, String)](../../com.aspose.tasks/extendedattributedefinition\#createLookupTaskDefinition-int--int--String-).
+Preferable way to set `FieldId`([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/ [setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property is to create [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) using one of the dedicated factory methods like [createTaskDefinition(int, String)](../../com.aspose.tasks/extendedattributedefinition\#createTaskDefinition-int--String-) or [createLookupTaskDefinition(int, int, String)](../../com.aspose.tasks/extendedattributedefinition\#createLookupTaskDefinition-int--int--String-).
 
 **Returns:**
 java.lang.String - corresponds to the project id of a custom field.
@@ -736,10 +734,10 @@ public final boolean getRestrictValues()
 ```
 
 
-Gets a value indicating whether the custom field values are restricted to values in the  ValueList ([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
+Gets a value indicating whether the custom field values are restricted to values in the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/ [setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
 
 **Returns:**
-boolean - a value indicating whether the custom field values are restricted to values in the  ValueList ([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
+boolean - a value indicating whether the custom field values are restricted to values in the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/ [setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
 ### getRollupType() {#getRollupType--}
 ```
 public final int getRollupType()
@@ -846,7 +844,7 @@ public final void removeLookupValue(Value value)
 ```
 
 
-Removes a value from the internal lookup list. This is a preferable way for manipulations with the  ValueList ([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
+Removes a value from the internal lookup list. This is a preferable way for manipulations with the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/ [setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -855,7 +853,7 @@ Removes a value from the internal lookup list. This is a preferable way for mani
 
 --------------------
 
-This method works only for [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) instances which have  CalculationType ([getCalculationType](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType)/[setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup). |
+This method works only for [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) instances which have `CalculationType`([getCalculationType](../../com.aspose.tasks/extendedattributedefinition\#getCalculationType)/ [setCalculationType(int)](../../com.aspose.tasks/extendedattributedefinition\#setCalculationType-int-)) equals to [CalculationType.Lookup](../../com.aspose.tasks/calculationtype\#Lookup). |
 
 ### setAlias(String value) {#setAlias-java.lang.String-}
 ```
@@ -962,21 +960,19 @@ public final void setFieldId(String value)
 ```
 
 
-Sets corresponds to the project id of a custom field. Use string representation of a constant from [ExtendedAttributeTask](../../com.aspose.tasks/extendedattributetask) class to specify  FieldId ([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/[setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property.
+Sets corresponds to the project id of a custom field. Use string representation of a constant from [ExtendedAttributeTask](../../com.aspose.tasks/extendedattributetask) class to specify `FieldId`([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/ [setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property.
 
 --------------------
 
-&gt; ```
-&gt; ```
-&gt; 
-&gt;  customFieldDefinition.setFieldId(Integer.toString(ExtendedAttributeTask.Number10));
-&gt;  
-&gt; ```
-&gt; ```
+```
+
+ customFieldDefinition.setFieldId(Integer.toString(ExtendedAttributeTask.Number10));
+ 
+```
 
 --------------------
 
-Preferable way to set  FieldId ([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/[setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property is to create [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) using one of the dedicated factory methods like [createTaskDefinition(int, String)](../../com.aspose.tasks/extendedattributedefinition\#createTaskDefinition-int--String-) or [createLookupTaskDefinition(int, int, String)](../../com.aspose.tasks/extendedattributedefinition\#createLookupTaskDefinition-int--int--String-).
+Preferable way to set `FieldId`([getFieldId()](../../com.aspose.tasks/extendedattributedefinition\#getFieldId--)/ [setFieldId(String)](../../com.aspose.tasks/extendedattributedefinition\#setFieldId-String-)) property is to create [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) using one of the dedicated factory methods like [createTaskDefinition(int, String)](../../com.aspose.tasks/extendedattributedefinition\#createTaskDefinition-int--String-) or [createLookupTaskDefinition(int, int, String)](../../com.aspose.tasks/extendedattributedefinition\#createLookupTaskDefinition-int--int--String-).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1053,7 +1049,7 @@ public final void setRestrictValues(boolean value)
 ```
 
 
-Sets a value indicating whether the custom field values are restricted to values in the  ValueList ([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
+Sets a value indicating whether the custom field values are restricted to values in the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/ [setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a value in a value list.
 type: docs
-weight: 311
+weight: 312
 url: /java/com.aspose.tasks/value/
 ---
 
@@ -58,7 +58,7 @@ Gets the actual value if it can be represented as DateTime. Default value is Dat
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the DateTime value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the DateTime value.
 
 **Returns:**
 java.util.Date - the actual value if it can be represented as DateTime.
@@ -82,7 +82,7 @@ Gets the actual value which is used to represent Duration.
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Duration value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Duration value.
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - the actual value which is used to represent Duration.
@@ -96,7 +96,7 @@ Gets the unique identifier of a value across a project.
 
 It's important to not have same identifiers for different [Value](../../com.aspose.tasks/value) instances.
 
-Minimal  Id ([getId()](../../com.aspose.tasks/value\#getId--)/[setId(int)](../../com.aspose.tasks/value\#setId-int-)) value is  1 .
+Minimal `Id`([getId()](../../com.aspose.tasks/value\#getId--)/[setId(int)](../../com.aspose.tasks/value\#setId-int-)) value is `1`.
 
 **Returns:**
 int - the unique identifier of a value across a project.
@@ -110,7 +110,7 @@ Gets the actual value which is used to represent number or cost value.
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Number or Cost value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Number or Cost value.
 
 **Returns:**
 java.math.BigDecimal - the actual value which is used to represent number or cost value.
@@ -134,7 +134,7 @@ Gets the actual value which is used to represent Text string.
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Text value.
+Prefer this property over the  `Val` ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Text value.
 
 **Returns:**
 java.lang.String - the actual value which is used to represent Text string.
@@ -148,15 +148,15 @@ Gets the actual value in internal representation. Prefer using strongly typed pr
 
 --------------------
 
-If you want to set Text value prefer using strongly typed  StringValue ([getStringValue()](../../com.aspose.tasks/value\#getStringValue--)/[setStringValue(String)](../../com.aspose.tasks/value\#setStringValue-String-)) property.
+If you want to set Text value prefer using strongly typed `StringValue`([getStringValue()](../../com.aspose.tasks/value\#getStringValue--)/[setStringValue(String)](../../com.aspose.tasks/value\#setStringValue-String-)) property.
 
-If you want to set Number or Cost value prefer using strongly typed  NumericValue ([getNumericValue()](../../com.aspose.tasks/value\#getNumericValue--)/[setNumericValue(java.math.BigDecimal)](../../com.aspose.tasks/value\#setNumericValue-java.math.BigDecimal-)) property.
+If you want to set Number or Cost value prefer using strongly typed `NumericValue`([getNumericValue()](../../com.aspose.tasks/value\#getNumericValue--)/[setNumericValue(java.math.BigDecimal)](../../com.aspose.tasks/value\#setNumericValue-java.math.BigDecimal-)) property.
 
-If you want to set Date/Start/Finish values, prefer using strongly typed  DateValue ([getDateValue()](../../com.aspose.tasks/value\#getDateValue--)/[setDateValue(java.util.Date)](../../com.aspose.tasks/value\#setDateValue-java.util.Date-)) property.
+If you want to set Date/Start/Finish values, prefer using strongly typed `DateValue`([getDateValue()](../../com.aspose.tasks/value\#getDateValue--)/[setDateValue(java.util.Date)](../../com.aspose.tasks/value\#setDateValue-java.util.Date-)) property.
 
-If you want to set Duration value prefer using strongly typed  Duration ([getDuration()](../../com.aspose.tasks/value\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/value\#setDuration-Duration-)) property.
+If you want to set Duration value prefer using strongly typed `Duration`([getDuration()](../../com.aspose.tasks/value\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/value\#setDuration-Duration-)) property.
 
-If your type wasn't listed, use  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)) property.
+If your type wasn't listed, use `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)) property.
 
 **Returns:**
 java.lang.String - the actual value in internal representation.
@@ -180,7 +180,7 @@ Sets the actual value if it can be represented as DateTime. Default value is Dat
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the DateTime value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the DateTime value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -210,7 +210,7 @@ Sets the actual value which is used to represent Duration.
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Duration value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Duration value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +227,7 @@ Sets the unique identifier of a value across a project.
 
 It's important to not have same identifiers for different [Value](../../com.aspose.tasks/value) instances.
 
-Minimal  Id ([getId()](../../com.aspose.tasks/value\#getId--)/[setId(int)](../../com.aspose.tasks/value\#setId-int-)) value is  1 .
+Minimal `Id`([getId()](../../com.aspose.tasks/value\#getId--)/[setId(int)](../../com.aspose.tasks/value\#setId-int-)) value is `1`.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +244,7 @@ Sets the actual value which is used to represent number or cost value.
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Number or Cost value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Number or Cost value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -274,7 +274,7 @@ Sets the actual value which is used to represent Text string.
 
 --------------------
 
-Prefer this property over the  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Text value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Text value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -291,15 +291,15 @@ Sets the actual value in internal representation. Prefer using strongly typed pr
 
 --------------------
 
-If you want to set Text value prefer using strongly typed  StringValue ([getStringValue()](../../com.aspose.tasks/value\#getStringValue--)/[setStringValue(String)](../../com.aspose.tasks/value\#setStringValue-String-)) property.
+If you want to set Text value prefer using strongly typed `StringValue`([getStringValue()](../../com.aspose.tasks/value\#getStringValue--)/[setStringValue(String)](../../com.aspose.tasks/value\#setStringValue-String-)) property.
 
-If you want to set Number or Cost value prefer using strongly typed  NumericValue ([getNumericValue()](../../com.aspose.tasks/value\#getNumericValue--)/[setNumericValue(java.math.BigDecimal)](../../com.aspose.tasks/value\#setNumericValue-java.math.BigDecimal-)) property.
+If you want to set Number or Cost value prefer using strongly typed `NumericValue`([getNumericValue()](../../com.aspose.tasks/value\#getNumericValue--)/[setNumericValue(java.math.BigDecimal)](../../com.aspose.tasks/value\#setNumericValue-java.math.BigDecimal-)) property.
 
-If you want to set Date/Start/Finish values, prefer using strongly typed  DateTimeValue ([getDateValue()](../../com.aspose.tasks/value\#getDateValue--)/[setDateValue(java.util.Date)](../../com.aspose.tasks/value\#setDateValue-java.util.Date-)) property.
+If you want to set Date/Start/Finish values, prefer using strongly typed `DateTimeValue`([getDateValue()](../../com.aspose.tasks/value\#getDateValue--)/[setDateValue(java.util.Date)](../../com.aspose.tasks/value\#setDateValue-java.util.Date-)) property.
 
-If you want to set Duration value prefer using strongly typed  Duration ([getDuration()](../../com.aspose.tasks/value\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/value\#setDuration-Duration-)) property.
+If you want to set Duration value prefer using strongly typed `Duration`([getDuration()](../../com.aspose.tasks/value\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/value\#setDuration-Duration-)) property.
 
-If your type wasn't listed, use  Val ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)) property.
+If your type wasn't listed, use `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)) property.
 
 **Parameters:**
 | Parameter | Type | Description |

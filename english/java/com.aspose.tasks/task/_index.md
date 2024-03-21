@@ -20,11 +20,11 @@ Represents a task in a project.
 
 --------------------
 
-The **Task** is representing a one atomic chuck of work.
+The **Task** is representing a one atomic chunk of work.
 
 One can use **Task** to plan a project by creating tasks and assign appropriate resources onto them. Tasks in a project are organized as a rooted hierarchical tree structure, with a root task and subtrees of children tasks.
 
-To build a tree of tasks one can use a specialized collection [TaskCollection](../../com.aspose.tasks/taskcollection) by accessing  Project.RootTask ([Project.getRootTask](../../com.aspose.tasks/project\#getRootTask)/[Project.setRootTask(Task)](../../com.aspose.tasks/project\#setRootTask-Task-)) property e.g.:
+To build a tree of tasks one can use a specialized collection [TaskCollection](../../com.aspose.tasks/taskcollection) by accessing `Project.RootTask`([Project.getRootTask](../../com.aspose.tasks/project\#getRootTask)/[Project.setRootTask(Task)](../../com.aspose.tasks/project\#setRootTask-Task-)) property e.g.:
 
 ```
 
@@ -163,8 +163,8 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
 | [getSubprojectName()](#getSubprojectName--) | Gets a value of SubprojectName. |
 | [getSuccessors()](#getSuccessors--) | Gets a [TaskCollection](../../com.aspose.tasks/taskcollection) object which contains all successors of this Task object. |
 | [getTimephasedData()](#getTimephasedData--) | Gets a TimephasedDataCollection object of this task. |
-| [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates. |
-| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified time-phased data type. |
+| [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates. |
+| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified time-phased data type. |
 | [getTotalSlack()](#getTotalSlack--) | Gets a value of TotalSlack. |
 | [getType()](#getType--) | Gets a value of Type. |
 | [getUid()](#getUid--) | Gets a value of Uid. |
@@ -1480,7 +1480,7 @@ public final TimephasedDataCollection getTimephasedData(Date start, Date end)
 ```
 
 
-Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates.
+Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1496,7 +1496,7 @@ public final TimephasedDataCollection getTimephasedData(Date start, Date end, by
 ```
 
 
-Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified time-phased data type.
+Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified time-phased data type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1506,7 +1506,7 @@ Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollecti
 | timephasedType | byte | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
 
 **Returns:**
-[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - A [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified timephased data type.
+[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - A [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/task\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/task\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified timephased data type.
 ### getTotalSlack() {#getTotalSlack--}
 ```
 public final double getTotalSlack()

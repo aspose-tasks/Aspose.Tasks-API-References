@@ -24,7 +24,7 @@ Change the visual style of the bar for the item in the project view.
 | Method | Description |
 | --- | --- |
 | [getBarColor()](#getBarColor--) | Gets java.awt.Color of the bar style. |
-| [getBarShape()](#getBarShape--) | Gets  BarShape ([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style. |
+| [getBarShape()](#getBarShape--) | Gets `BarShape`([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style. |
 | [getBottomBarTextConverter()](#getBottomBarTextConverter--) | Gets user-defined converter to get text to render on the bottom of the task's bar. |
 | [getBottomField()](#getBottomField--) | Gets a field to be displayed on the bottom of the bar. |
 | [getEndShape()](#getEndShape--) | Gets [Shape](../../com.aspose.tasks/shape) at the end of the bar. |
@@ -42,7 +42,7 @@ Change the visual style of the bar for the item in the project view.
 | [getTopBarTextConverter()](#getTopBarTextConverter--) | Gets user-defined converter to get text to render on the top of the task's bar. |
 | [getTopField()](#getTopField--) | Gets a field to be displayed on the top of the bar. |
 | [setBarColor(Color value)](#setBarColor-java.awt.Color-) | Sets java.awt.Color of the bar style. |
-| [setBarShape(int value)](#setBarShape-int-) | Sets  BarShape ([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style. |
+| [setBarShape(int value)](#setBarShape-int-) | Sets `BarShape`([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style. |
 | [setBottomBarTextConverter(TaskBarTextConverter value)](#setBottomBarTextConverter-com.aspose.tasks.TaskBarTextConverter-) | Sets user-defined converter to get text to render on the bottom of the task's bar. |
 | [setBottomField(int value)](#setBottomField-int-) | Sets a field to be displayed on the bottom of the bar. |
 | [setEndShape(int value)](#setEndShape-int-) | Sets [Shape](../../com.aspose.tasks/shape) at the end of the bar. |
@@ -83,7 +83,7 @@ public final int getBarShape()
 ```
 
 
-Gets  BarShape ([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style.
+Gets `BarShape`([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style.
 
 **Returns:**
 int - [BarShape](../../com.aspose.tasks/barshape) of the bar style.
@@ -93,7 +93,7 @@ public final TaskBarTextConverter getBottomBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of  BottomField ([getBottomField()](../../com.aspose.tasks/barstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/barstyle\#setBottomField-int-)) property.
+Gets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of `BottomField`([getBottomField()](../../com.aspose.tasks/barstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/barstyle\#setBottomField-int-)) property.
 
 **Returns:**
 [TaskBarTextConverter](../../com.aspose.tasks/taskbartextconverter) - user-defined converter to get text to render on the bottom of the task's bar.
@@ -133,7 +133,7 @@ public final TaskBarTextConverter getInsideBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render inside of the task's bar. Overrides the value of  InsideField ([getInsideField()](../../com.aspose.tasks/barstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/barstyle\#setInsideField-int-)) property.
+Gets user-defined converter to get text to render inside of the task's bar. Overrides the value of `InsideField`([getInsideField()](../../com.aspose.tasks/barstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/barstyle\#setInsideField-int-)) property.
 
 **Returns:**
 [TaskBarTextConverter](../../com.aspose.tasks/taskbartextconverter) - user-defined converter to get text to render inside of the task's bar.
@@ -163,7 +163,7 @@ public final TaskBarTextConverter getLeftBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the left of the task's bar. Overrides the value of  LeftField ([getLeftField()](../../com.aspose.tasks/barstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/barstyle\#setLeftField-int-)) property.
+Gets user-defined converter to get text to render on the left of the task's bar. Overrides the value of `LeftField`([getLeftField()](../../com.aspose.tasks/barstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/barstyle\#setLeftField-int-)) property.
 
 **Returns:**
 [TaskBarTextConverter](../../com.aspose.tasks/taskbartextconverter) - user-defined converter to get text to render on the left of the task's bar.
@@ -183,7 +183,7 @@ public final TaskBarTextConverter getRightBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the right of the task's bar. Overrides the value of  RightField ([getRightField()](../../com.aspose.tasks/barstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/barstyle\#setRightField-int-)) property.
+Gets user-defined converter to get text to render on the right of the task's bar. Overrides the value of `RightField`([getRightField()](../../com.aspose.tasks/barstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/barstyle\#setRightField-int-)) property.
 
 **Returns:**
 [TaskBarTextConverter](../../com.aspose.tasks/taskbartextconverter) - user-defined converter to get text to render on the right of the task's bar.
@@ -233,7 +233,7 @@ public final TaskBarTextConverter getTopBarTextConverter()
 ```
 
 
-Gets user-defined converter to get text to render on the top of the task's bar. Overrides the value of  TopField ([getTopField()](../../com.aspose.tasks/barstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/barstyle\#setTopField-int-)) property.
+Gets user-defined converter to get text to render on the top of the task's bar. Overrides the value of `TopField`([getTopField()](../../com.aspose.tasks/barstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/barstyle\#setTopField-int-)) property.
 
 **Returns:**
 [TaskBarTextConverter](../../com.aspose.tasks/taskbartextconverter) - user-defined converter to get text to render on the top of the task's bar.
@@ -266,7 +266,7 @@ public final void setBarShape(int value)
 ```
 
 
-Sets  BarShape ([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style.
+Sets `BarShape`([getBarShape()](../../com.aspose.tasks/barstyle\#getBarShape--)/[setBarShape(int)](../../com.aspose.tasks/barstyle\#setBarShape-int-)) of the bar style.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -279,7 +279,7 @@ public final void setBottomBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of  BottomField ([getBottomField()](../../com.aspose.tasks/barstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/barstyle\#setBottomField-int-)) property.
+Sets user-defined converter to get text to render on the bottom of the task's bar. Overrides the value of `BottomField`([getBottomField()](../../com.aspose.tasks/barstyle\#getBottomField--)/[setBottomField(int)](../../com.aspose.tasks/barstyle\#setBottomField-int-)) property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -331,7 +331,7 @@ public final void setInsideBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render inside of the task's bar. Overrides the value of  InsideField ([getInsideField()](../../com.aspose.tasks/barstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/barstyle\#setInsideField-int-)) property.
+Sets user-defined converter to get text to render inside of the task's bar. Overrides the value of `InsideField`([getInsideField()](../../com.aspose.tasks/barstyle\#getInsideField--)/[setInsideField(int)](../../com.aspose.tasks/barstyle\#setInsideField-int-)) property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -370,7 +370,7 @@ public final void setLeftBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the left of the task's bar. Overrides the value of  LeftField ([getLeftField()](../../com.aspose.tasks/barstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/barstyle\#setLeftField-int-)) property.
+Sets user-defined converter to get text to render on the left of the task's bar. Overrides the value of `LeftField`([getLeftField()](../../com.aspose.tasks/barstyle\#getLeftField--)/[setLeftField(int)](../../com.aspose.tasks/barstyle\#setLeftField-int-)) property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,7 +396,7 @@ public final void setRightBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the right of the task's bar. Overrides the value of  RightField ([getRightField()](../../com.aspose.tasks/barstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/barstyle\#setRightField-int-)) property.
+Sets user-defined converter to get text to render on the right of the task's bar. Overrides the value of `RightField`([getRightField()](../../com.aspose.tasks/barstyle\#getRightField--)/[setRightField(int)](../../com.aspose.tasks/barstyle\#setRightField-int-)) property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -461,7 +461,7 @@ public final void setTopBarTextConverter(TaskBarTextConverter value)
 ```
 
 
-Sets user-defined converter to get text to render on the top of the task's bar. Overrides the value of  TopField ([getTopField()](../../com.aspose.tasks/barstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/barstyle\#setTopField-int-)) property.
+Sets user-defined converter to get text to render on the top of the task's bar. Overrides the value of `TopField`([getTopField()](../../com.aspose.tasks/barstyle\#getTopField--)/[setTopField(int)](../../com.aspose.tasks/barstyle\#setTopField-int-)) property.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: WorkingTimeCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 343
+weight: 344
 url: /java/com.aspose.tasks/workingtimecollection/
 ---
 
@@ -29,7 +29,7 @@ Represents a collection of [WorkingTimeCollection](../../com.aspose.tasks/workin
 | [indexOf(WorkingTime item)](#indexOf-com.aspose.tasks.WorkingTime-) | Returns the index of the first occurrence of a given item in a list |
 | [insert(int index, WorkingTime item)](#insert-int-com.aspose.tasks.WorkingTime-) | Inserts an element into this list at a given index |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
-| [remove(Object item)](#remove-java.lang.Object-) | Removes  WorkingTime  instance from this collection. |
+| [remove(Object item)](#remove-java.lang.Object-) | Removes `WorkingTime` instance from this collection. |
 | [size()](#size--) | Gets the number of objects contained in this [WorkingTimeCollection](../../com.aspose.tasks/workingtimecollection) object. |
 | [sort(Comparator&lt;? super WorkingTime&gt; c)](#sort-java.util.Comparator---super-com.aspose.tasks.WorkingTime--) | \{@inheritDoc\} |
 | [toList()](#toList--) | Converts the WorkingTimeCollection object to a list of [WorkingTime](../../com.aspose.tasks/workingtime) objects. |
@@ -150,12 +150,12 @@ public final boolean remove(Object item)
 ```
 
 
-Removes  WorkingTime  instance from this collection.
+Removes `WorkingTime` instance from this collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | java.lang.Object |  WorkingTime  instance to remove. |
+| item | java.lang.Object | `WorkingTime` instance to remove. |
 
 **Returns:**
 boolean - true if WorkingTime instance was successfully removed from this collection; otherwise, false.

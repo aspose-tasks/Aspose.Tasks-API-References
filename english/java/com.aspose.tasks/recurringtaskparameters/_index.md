@@ -49,7 +49,7 @@ public final Duration getDuration()
 Gets the duration for one occurrence of the recurring task.
 
 **Returns:**
-[Duration](../../com.aspose.tasks/duration) - The instance of  Duration ([getDuration()](../../com.aspose.tasks/recurringtaskparameters\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskparameters\#setDuration-Duration-)) class.
+[Duration](../../com.aspose.tasks/duration) - The instance of `Duration`([getDuration()](../../com.aspose.tasks/recurringtaskparameters\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskparameters\#setDuration-Duration-)) class.
 ### getIgnoreResourceCalendar() {#getIgnoreResourceCalendar--}
 ```
 public final boolean getIgnoreResourceCalendar()
@@ -70,7 +70,7 @@ Gets the recurrence pattern of the recurring task.
 
 --------------------
 
-Can be one of the values of  RecurrencePattern ([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskparameters\#getRecurrencePattern--)/[setRecurrencePattern(RecurrencePatternBase)](../../com.aspose.tasks/recurringtaskparameters\#setRecurrencePattern-RecurrencePatternBase-)) enumeration.
+Can be one of the values of `RecurrencePattern`([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskparameters\#getRecurrencePattern--)/[setRecurrencePattern(RecurrencePatternBase)](../../com.aspose.tasks/recurringtaskparameters\#setRecurrencePattern-RecurrencePatternBase-)) enumeration.
 
 **Returns:**
 [RecurrencePatternBase](../../com.aspose.tasks/recurrencepatternbase) - the recurrence pattern of the recurring task.
@@ -109,7 +109,7 @@ Sets the duration for one occurrence of the recurring task.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Duration](../../com.aspose.tasks/duration) | The instance of  Duration ([getDuration()](../../com.aspose.tasks/recurringtaskparameters\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskparameters\#setDuration-Duration-)) class. |
+| value | [Duration](../../com.aspose.tasks/duration) | The instance of `Duration`([getDuration()](../../com.aspose.tasks/recurringtaskparameters\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskparameters\#setDuration-Duration-)) class. |
 
 ### setIgnoreResourceCalendar(boolean value) {#setIgnoreResourceCalendar-boolean-}
 ```
@@ -134,7 +134,7 @@ Sets the recurrence pattern of the recurring task.
 
 --------------------
 
-Can be one of the values of  RecurrencePattern ([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskparameters\#getRecurrencePattern--)/[setRecurrencePattern(RecurrencePatternBase)](../../com.aspose.tasks/recurringtaskparameters\#setRecurrencePattern-RecurrencePatternBase-)) enumeration.
+Can be one of the values of `RecurrencePattern`([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskparameters\#getRecurrencePattern--)/[setRecurrencePattern(RecurrencePatternBase)](../../com.aspose.tasks/recurringtaskparameters\#setRecurrencePattern-RecurrencePatternBase-)) enumeration.
 
 **Parameters:**
 | Parameter | Type | Description |

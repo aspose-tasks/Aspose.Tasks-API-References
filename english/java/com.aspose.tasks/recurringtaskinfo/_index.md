@@ -91,7 +91,7 @@ Gets the duration for one occurrence of the recurring task.
 
 --------------------
 
-the instance of  Duration ([getDuration()](../../com.aspose.tasks/recurringtaskinfo\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskinfo\#setDuration-Duration-)) class.
+the instance of `Duration`([getDuration()](../../com.aspose.tasks/recurringtaskinfo\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskinfo\#setDuration-Duration-)) class.
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - the duration for one occurrence of the recurring task.
@@ -193,7 +193,7 @@ Gets a recurrence pattern of the recurring task.
 
 --------------------
 
-Can be one of the values of  RecurrencePattern ([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskinfo\#getRecurrencePattern--)/[setRecurrencePattern(int)](../../com.aspose.tasks/recurringtaskinfo\#setRecurrencePattern-int-)) enumeration.
+Can be one of the values of `RecurrencePattern`([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskinfo\#getRecurrencePattern--)/[setRecurrencePattern(int)](../../com.aspose.tasks/recurringtaskinfo\#setRecurrencePattern-int-)) enumeration.
 
 **Returns:**
 int - a recurrence pattern of the recurring task.
@@ -347,7 +347,7 @@ Sets the duration for one occurrence of the recurring task.
 
 --------------------
 
-the instance of  Duration ([getDuration()](../../com.aspose.tasks/recurringtaskinfo\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskinfo\#setDuration-Duration-)) class.
+the instance of `Duration`([getDuration()](../../com.aspose.tasks/recurringtaskinfo\#getDuration--)/[setDuration(Duration)](../../com.aspose.tasks/recurringtaskinfo\#setDuration-Duration-)) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -476,7 +476,7 @@ Sets a recurrence pattern of the recurring task.
 
 --------------------
 
-Can be one of the values of  RecurrencePattern ([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskinfo\#getRecurrencePattern--)/[setRecurrencePattern(int)](../../com.aspose.tasks/recurringtaskinfo\#setRecurrencePattern-int-)) enumeration.
+Can be one of the values of `RecurrencePattern`([getRecurrencePattern()](../../com.aspose.tasks/recurringtaskinfo\#getRecurrencePattern--)/[setRecurrencePattern(int)](../../com.aspose.tasks/recurringtaskinfo\#setRecurrencePattern-int-)) enumeration.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -64,7 +64,7 @@ Gets the duration if Type is Duration.
 
 --------------------
 
-Prefer this property over the  Value ([getValue()](../../com.aspose.tasks/outlinevalue\#getValue--)/[setValue(String)](../../com.aspose.tasks/outlinevalue\#setValue-String-)), when you need to set the value for OutlineValues with Duration type .
+Prefer this property over the `Value`([getValue()](../../com.aspose.tasks/outlinevalue\#getValue--)/[setValue(String)](../../com.aspose.tasks/outlinevalue\#setValue-String-)), when you need to set the value for OutlineValues with Duration type .
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - the duration if Type is Duration.
@@ -172,7 +172,7 @@ Sets the duration if Type is Duration.
 
 --------------------
 
-Prefer this property over the  Value ([getValue()](../../com.aspose.tasks/outlinevalue\#getValue--)/[setValue(String)](../../com.aspose.tasks/outlinevalue\#setValue-String-)), when you need to set the value for OutlineValues with Duration type .
+Prefer this property over the `Value`([getValue()](../../com.aspose.tasks/outlinevalue\#getValue--)/[setValue(String)](../../com.aspose.tasks/outlinevalue\#setValue-String-)), when you need to set the value for OutlineValues with Duration type .
 
 **Parameters:**
 | Parameter | Type | Description |

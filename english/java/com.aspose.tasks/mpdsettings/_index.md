@@ -18,7 +18,7 @@ Allows to set necessary options to read project data from MPD format (MS Access 
 
 | Constructor | Description |
 | --- | --- |
-| [MpdSettings(String connectionString, int projectId)](#MpdSettings-java.lang.String-int-) | Initializes a new instance of the  MpdSettings  class. |
+| [MpdSettings(String connectionString, int projectId)](#MpdSettings-java.lang.String-int-) | Initializes a new instance of the `MpdSettings` class. |
 ## Methods
 
 | Method | Description |
@@ -30,7 +30,7 @@ public MpdSettings(String connectionString, int projectId)
 ```
 
 
-Initializes a new instance of the  MpdSettings  class.
+Initializes a new instance of the `MpdSettings` class.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: ViewColumn
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a column in a project view.
 type: docs
-weight: 321
+weight: 322
 url: /java/com.aspose.tasks/viewcolumn/
 ---
 
@@ -32,7 +32,7 @@ public abstract int getField()
 ```
 
 
-Gets column field.  Field ([getField()](../../com.aspose.tasks/viewcolumn\#getField--)/[setField(int)](../../com.aspose.tasks/viewcolumn\#setField-int-)).
+Gets column field. `Field`([getField()](../../com.aspose.tasks/viewcolumn\#getField--)/[setField(int)](../../com.aspose.tasks/viewcolumn\#setField-int-)).
 
 **Returns:**
 int - column field.
@@ -82,7 +82,7 @@ public abstract void setField(int value)
 ```
 
 
-Sets column field.  Field ([getField()](../../com.aspose.tasks/viewcolumn\#getField--)/[setField(int)](../../com.aspose.tasks/viewcolumn\#setField-int-)).
+Sets column field. `Field`([getField()](../../com.aspose.tasks/viewcolumn\#getField--)/[setField(int)](../../com.aspose.tasks/viewcolumn\#setField-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |

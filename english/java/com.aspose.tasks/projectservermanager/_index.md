@@ -42,31 +42,29 @@ Initializes a new instance of the [ProjectServerManager](../../com.aspose.tasks/
 
 --------------------
 
-&gt; ```
-&gt; This example shows how to create instance of ProjectServerManager to access on-premise instance of Project Server.
-&gt;  ```
-&gt; 
-&gt;  [C#]
-&gt;  string site = "http://project_server_instance.local/";
-&gt;  var windowsCredentials = new NetworkCredential("Administrator", "my_password", "DOMAIN");
-&gt;  var projectServerCredentials = new ProjectServerCredentials(site, windowsCredentials);
-&gt;  ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
-&gt;  
-&gt; ```
-&gt; ```
+This example shows how to create instance of ProjectServerManager to access on-premise instance of Project Server.
+```
+
+ [C#]
+ string site = "http://project_server_instance.local/";
+ var windowsCredentials = new NetworkCredential("Administrator", "my_password", "DOMAIN");
+ var projectServerCredentials = new ProjectServerCredentials(site, windowsCredentials);
+ ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
+ 
+```
 
 --------------------
 
-&gt; ```
-&gt; This example shows how to create instance of ProjectServerManager to access account in Project Online service.
-&gt;  ```
-&gt; 
-&gt;  [C#]
-&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
-&gt;  ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
-&gt;  
-&gt; ```
-&gt; ```
+This example shows how to create instance of ProjectServerManager to access account in Project Online service.
+```
+
+ [C#]
+ var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+ ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -83,18 +81,18 @@ Creates new project in Project Server\\Project Online instance using default sav
 
 --------------------
 
-&gt; ```
-&gt; In this example the project is loaded from .mpp file and saved to Project Online account.
-&gt;  ```
-&gt; 
-&gt;  [C#]
-&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
-&gt;  var project = new Project(@"sample.mpp");
-&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
-&gt;  manager.CreateNewProject(project);
-&gt;  
-&gt; ```
-&gt; ```
+In this example the project is loaded from .mpp file and saved to Project Online account.
+```
+
+ [C#]
+ var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+ var project = new Project(@"sample.mpp");
+ ProjectServerManager manager = new ProjectServerManager(credentials);
+ manager.CreateNewProject(project);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,21 +109,21 @@ Creates new project in Project Server\\Project Online instance using the specifi
 
 --------------------
 
-&gt; ```
-&gt; In this example the project is loaded from .mpp file and saved to Project Online account.
-&gt;  ```
-&gt; 
-&gt;  [C#]
-&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
-&gt;  var project = new Project(@"sample.mpp");
-&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
-&gt;  manager.CreateNewProject(project, new ProjectServerSaveOptions
-&gt;  {
-&gt;      ProjectName = "My new project"
-&gt;  });
-&gt;  
-&gt; ```
-&gt; ```
+In this example the project is loaded from .mpp file and saved to Project Online account.
+```
+
+ [C#]
+ var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+ var project = new Project(@"sample.mpp");
+ ProjectServerManager manager = new ProjectServerManager(credentials);
+ manager.CreateNewProject(project, new ProjectServerSaveOptions
+ {
+     ProjectName = "My new project"
+ });
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,25 +176,25 @@ Gets the project's binary data for troubleshooting purposes.
 
 --------------------
 
-&gt; ```
-&gt; ```
-&gt; 
-&gt;  In this example the debug info for the specific project is retrieved. You can pass the resulting "debug.zip" to the support team for troubleshooting purposes.
-&gt;  [C#]
-&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
-&gt;  // Guid of project you are trying to get.
-&gt;  var projectGuid = new Guid("e0294bfb-5657-45c8-9cc5-82169fb95d69");
-&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
-&gt;  using (var fileStream = File.OpenWrite(@"c:\debug.zip"))
-&gt;  {
-&gt;      using (var stream = manager.GetProjectRawData(projectGuid))
-&gt;      {
-&gt;          stream.CopyTo(fileStream);
-&gt;      }
-&gt;  }
-&gt;  
-&gt; ```
-&gt; ```
+```
+
+ In this example the debug info for the specific project is retrieved. You can pass the resulting "debug.zip" to the support team for troubleshooting purposes.
+ [C#]
+ var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+ // Guid of project you are trying to get.
+ var projectGuid = new Guid("e0294bfb-5657-45c8-9cc5-82169fb95d69");
+ ProjectServerManager manager = new ProjectServerManager(credentials);
+ using (var fileStream = File.OpenWrite(@"c:\debug.zip"))
+ {
+     using (var stream = manager.GetProjectRawData(projectGuid))
+     {
+         stream.CopyTo(fileStream);
+     }
+ }
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,21 +226,21 @@ Updates existing project in Project Server\\Project Online instance using defaul
 
 --------------------
 
-&gt; ```
-&gt; In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
-&gt;  ```
-&gt; 
-&gt;  [C#]
-&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
-&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
-&gt;  var projectList = manager.GetProjectList();
-&gt;  var projectGuid = projectList.First().Id;
-&gt;  var project = manager.GetProject(projectGuid);
-&gt;  var task = project.RootTask.Children.Add("New task");
-&gt;  manager.UpdateProject(project);
-&gt;  
-&gt; ```
-&gt; ```
+In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
+```
+
+ [C#]
+ var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+ ProjectServerManager manager = new ProjectServerManager(credentials);
+ var projectList = manager.GetProjectList();
+ var projectGuid = projectList.First().Id;
+ var project = manager.GetProject(projectGuid);
+ var task = project.RootTask.Children.Add("New task");
+ manager.UpdateProject(project);
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -263,24 +261,24 @@ Updates existing project in Project Server\\Project Online instance using the sp
 
 --------------------
 
-&gt; ```
-&gt; In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
-&gt;  ```
-&gt; 
-&gt;  [C#]
-&gt;  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
-&gt;  ProjectServerManager manager = new ProjectServerManager(credentials);
-&gt;  var projectList = manager.GetProjectList();
-&gt;  var projectGuid = projectList.First().Id;
-&gt;  var project = manager.GetProject(projectGuid);
-&gt;  var task = project.RootTask.Children.Add("New task");
-&gt;  manager.UpdateProject(project, new ProjectServerSaveOptions
-&gt;  {
-&gt;      ProjectGuid = projectGuid
-&gt;  });
-&gt;  
-&gt; ```
-&gt; ```
+In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
+```
+
+ [C#]
+ var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
+ ProjectServerManager manager = new ProjectServerManager(credentials);
+ var projectList = manager.GetProjectList();
+ var projectGuid = projectList.First().Id;
+ var project = manager.GetProject(projectGuid);
+ var task = project.RootTask.Children.Add("New task");
+ manager.UpdateProject(project, new ProjectServerSaveOptions
+ {
+     ProjectGuid = projectGuid
+ });
+ 
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: XlsxOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to XLSX.
 type: docs
-weight: 345
+weight: 346
 url: /java/com.aspose.tasks/xlsxoptions/
 ---
 

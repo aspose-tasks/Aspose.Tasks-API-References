@@ -53,7 +53,7 @@ public final int getMonth()
 
 Gets a month on which the task must be recurring.
 
-Read/Write  Month .
+Read/Write `Month`.
 
 **Returns:**
 int - a month on which the task must be recurring.
@@ -78,7 +78,7 @@ public final void setMonth(int value)
 
 Sets a month on which the task must be recurring.
 
-Read/Write  Month .
+Read/Write `Month`.
 
 **Parameters:**
 | Parameter | Type | Description |

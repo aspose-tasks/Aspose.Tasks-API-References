@@ -339,7 +339,7 @@ public static final Key<Byte,Byte> DURATION_FORMAT
 ```
 
 
-The format for expressing the bulk duration.  TimeUnitType  type.
+The format for expressing the bulk duration. `TimeUnitType` type.
 
 ### EARNED_VALUE_METHOD {#EARNED-VALUE-METHOD}
 ```
