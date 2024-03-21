@@ -193,7 +193,7 @@ Sets the element at the specified position in this collection.
 | value | [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) | the element to set at the specified position in this collection. |
 
 **Returns:**
-[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) -  ExtendedAttributeDefinition  value.
+[ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) - `ExtendedAttributeDefinition` value.
 ### size() {#size--}
 ```
 public final int size()

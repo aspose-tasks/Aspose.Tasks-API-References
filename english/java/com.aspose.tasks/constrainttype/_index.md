@@ -18,8 +18,8 @@ Specifies the constraint on the start or finish date of a task. While exporting 
 
 | Field | Description |
 | --- | --- |
-| [AsLateAsPossible](#AsLateAsPossible) |  Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ALAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks . |
-| [AsSoonAsPossible](#AsSoonAsPossible) |  Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ASAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks . |
+| [AsLateAsPossible](#AsLateAsPossible) | `Tsk.Start` and `Tsk.Finish` dates of `Task` are scheduled ALAP with respect to parent `Tsk.Start` and `Tsk.Finish` dates and considering `Project.TaskLinks`. |
+| [AsSoonAsPossible](#AsSoonAsPossible) | `Tsk.Start` and `Tsk.Finish` dates of `Task` are scheduled ASAP with respect to parent `Tsk.Start` and `Tsk.Finish` dates and considering `Project.TaskLinks`. |
 | [FinishNoEarlierThan](#FinishNoEarlierThan) | Finish No Earlier Than |
 | [FinishNoLaterThan](#FinishNoLaterThan) | Finish No Later Than |
 | [MustFinishOn](#MustFinishOn) | Must Finish On |
@@ -33,7 +33,7 @@ public static final int AsLateAsPossible
 ```
 
 
- Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ALAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks .
+`Tsk.Start` and `Tsk.Finish` dates of `Task` are scheduled ALAP with respect to parent `Tsk.Start` and `Tsk.Finish` dates and considering `Project.TaskLinks`.
 
 ### AsSoonAsPossible {#AsSoonAsPossible}
 ```
@@ -41,7 +41,7 @@ public static final int AsSoonAsPossible
 ```
 
 
- Tsk.Start  and  Tsk.Finish  dates of  Task  are scheduled ASAP with respect to parent  Tsk.Start  and  Tsk.Finish  dates and considering  Project.TaskLinks .
+`Tsk.Start` and `Tsk.Finish` dates of `Task` are scheduled ASAP with respect to parent `Tsk.Start` and `Tsk.Finish` dates and considering `Project.TaskLinks`.
 
 ### FinishNoEarlierThan {#FinishNoEarlierThan}
 ```

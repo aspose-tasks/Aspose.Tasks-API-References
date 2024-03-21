@@ -27,11 +27,11 @@ Use one of the Save method overloads to save the project in any of the [SaveFile
 
 To print the project, use one of the [print()](../../com.aspose.tasks/project\#print--) method overloads.
 
-The **Project** stores project-wide information such as  Aspose.Tasks.Project.Views ([getViews()](../../com.aspose.tasks/project\#getViews--)/[setViews(ViewCollection)](../../com.aspose.tasks/project\#setViews-ViewCollection-)),  Aspose.Tasks.Project.BuiltInProps ([getBuiltInProps()](../../com.aspose.tasks/project\#getBuiltInProps--)/[setBuiltInProps(BuiltInProjectPropertyCollection)](../../com.aspose.tasks/project\#setBuiltInProps-BuiltInProjectPropertyCollection-)),  Aspose.Tasks.Project.CustomProps ([getCustomProps()](../../com.aspose.tasks/project\#getCustomProps--)/[setCustomProps(CustomProjectPropertyCollection)](../../com.aspose.tasks/project\#setCustomProps-CustomProjectPropertyCollection-)), and  Aspose.Tasks.Project.ExtendedAttributes ([getExtendedAttributes()](../../com.aspose.tasks/project\#getExtendedAttributes--)/[setExtendedAttributes(ExtendedAttributeDefinitionCollection)](../../com.aspose.tasks/project\#setExtendedAttributes-ExtendedAttributeDefinitionCollection-)). Most of these objects are accessible via the corresponding properties of the **Project** class.
+The **Project** stores project-wide information such as `Aspose.Tasks.Project.Views`([getViews()](../../com.aspose.tasks/project\#getViews--)/[setViews(ViewCollection)](../../com.aspose.tasks/project\#setViews-ViewCollection-)), `Aspose.Tasks.Project.BuiltInProps`([getBuiltInProps()](../../com.aspose.tasks/project\#getBuiltInProps--)/ [setBuiltInProps(BuiltInProjectPropertyCollection)](../../com.aspose.tasks/project\#setBuiltInProps-BuiltInProjectPropertyCollection-)), `Aspose.Tasks.Project.CustomProps`([getCustomProps()](../../com.aspose.tasks/project\#getCustomProps--)/ [setCustomProps(CustomProjectPropertyCollection)](../../com.aspose.tasks/project\#setCustomProps-CustomProjectPropertyCollection-)), and `Aspose.Tasks.Project.ExtendedAttributes`([getExtendedAttributes()](../../com.aspose.tasks/project\#getExtendedAttributes--)/ [setExtendedAttributes(ExtendedAttributeDefinitionCollection)](../../com.aspose.tasks/project\#setExtendedAttributes-ExtendedAttributeDefinitionCollection-)). Most of these objects are accessible via the corresponding properties of the **Project** class.
 
 The **Project** is a root entity that contains entry points to manipulate other project entities, such as [Task](../../com.aspose.tasks/task), [Resource](../../com.aspose.tasks/resource), [ResourceAssignment](../../com.aspose.tasks/resourceassignment), [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) and [Calendar](../../com.aspose.tasks/calendar).
 
-The **Project** entities can be accessed via typed collections, for example  Aspose.Tasks.Task.Children ([Task.getChildren()](../../com.aspose.tasks/task\#getChildren--)/[Task.setChildren(TaskCollection)](../../com.aspose.tasks/task\#setChildren-TaskCollection-)),  Aspose.Tasks.Project.Resources ([getResources()](../../com.aspose.tasks/project\#getResources--)/[setResources(ResourceCollection)](../../com.aspose.tasks/project\#setResources-ResourceCollection-)),  Aspose.Tasks.Project.ResourceAssignments ([getResourceAssignments()](../../com.aspose.tasks/project\#getResourceAssignments--)/[setResourceAssignments(ResourceAssignmentCollection)](../../com.aspose.tasks/project\#setResourceAssignments-ResourceAssignmentCollection-)), etc.
+The **Project** entities can be accessed via typed collections, for example `Aspose.Tasks.Task.Children`([Task.getChildren()](../../com.aspose.tasks/task\#getChildren--)/ [Task.setChildren(TaskCollection)](../../com.aspose.tasks/task\#setChildren-TaskCollection-)), `Aspose.Tasks.Project.Resources`([getResources()](../../com.aspose.tasks/project\#getResources--)/ [setResources(ResourceCollection)](../../com.aspose.tasks/project\#setResources-ResourceCollection-)), `Aspose.Tasks.Project.ResourceAssignments`([getResourceAssignments()](../../com.aspose.tasks/project\#getResourceAssignments--)/ [setResourceAssignments(ResourceAssignmentCollection)](../../com.aspose.tasks/project\#setResourceAssignments-ResourceAssignmentCollection-)), etc.
 ## Constructors
 
 | Constructor | Description |
@@ -168,11 +168,11 @@ The **Project** entities can be accessed via typed collections, for example  Asp
 | [getTitle()](#getTitle--) | Gets a value of Title. |
 | [getUid()](#getUid--) | Gets a value of Uid. |
 | [getUpdateManuallyScheduledTasksWhenEditingLinks()](#getUpdateManuallyScheduledTasksWhenEditingLinks--) | Gets a value indicating whether UpdateManuallyScheduledTasksWhenEditingLinks is set or not. |
-| [getVbaProject()](#getVbaProject--) | Gets an instance of  VbaProject ([getVbaProject()](../../com.aspose.tasks/project\#getVbaProject--)/[setVbaProject(VbaProject)](../../com.aspose.tasks/project\#setVbaProject-VbaProject-)) class. |
+| [getVbaProject()](#getVbaProject--) | Gets an instance of `VbaProject`([getVbaProject()](../../com.aspose.tasks/project\#getVbaProject--)/[setVbaProject(VbaProject)](../../com.aspose.tasks/project\#setVbaProject-VbaProject-)) class. |
 | [getViews()](#getViews--) | Gets a list of [View](../../com.aspose.tasks/view) objects. |
 | [getWBSCodeDefinition()](#getWBSCodeDefinition--) | Gets WBS Code Definition for the project. |
 | [getWeekStartDay()](#getWeekStartDay--) | Gets a value of WeekStartDay. |
-| [getWork(double val)](#getWork-double-) | Gets [Duration](../../com.aspose.tasks/duration) object with the specified  double  value and default work format. |
+| [getWork(double val)](#getWork-double-) | Gets [Duration](../../com.aspose.tasks/duration) object with the specified `double` value and default work format. |
 | [getWorkFormat()](#getWorkFormat--) | Gets a value of WorkFormat. |
 | [print()](#print--) | Prints project to the default printer with default printer settings using the standard (no User Interface) print controller. |
 | [print(PrintOptions options)](#print-com.aspose.tasks.PrintOptions-) | Prints project to the default printer with default printer settings and custom save options using the standard (no User Interface) print controller. |
@@ -642,7 +642,7 @@ public final int getCalculationMode()
 ```
 
 
-Gets calculation mode of a project. Can be one of the values of  CalculationMode ([getCalculationMode()](../../com.aspose.tasks/project\#getCalculationMode--)/[setCalculationMode(int)](../../com.aspose.tasks/project\#setCalculationMode-int-)) enumeration.
+Gets calculation mode of a project. Can be one of the values of `CalculationMode`([getCalculationMode()](../../com.aspose.tasks/project\#getCalculationMode--)/[setCalculationMode(int)](../../com.aspose.tasks/project\#setCalculationMode-int-)) enumeration.
 
 **Returns:**
 int - calculation mode of a project.
@@ -1299,25 +1299,25 @@ Returns page count for the project to be rendered using given [SaveOptions](../.
 
 --------------------
 
-&gt; ```
-&gt; In this example instance of HtmlSaveOptions and the number of pages in resulting HTML is written to the console.
-&gt;   ```
-&gt; 
-&gt;   [C#]
-&gt;   Project project = new Project(@"test.mpp");
-&gt;   HtmlSaveOptions saveOptions = new HtmlSaveOptions
-&gt;   {
-&gt;       IncludeProjectNameInPageHeader = false,
-&gt;       IncludeProjectNameInTitle = false,
-&gt;       PageSize = PageSize.A4,
-&gt;       Timescale = Timescale.Days,
-&gt;       StartDate = project.Get(Prj.StartDate).Date,
-&gt;       EndDate = project.Get(Prj.FinishDate).Date
-&gt;   };
-&gt;   Console.WriteLine(project.GetPageCount(saveOptions));
-&gt;   
-&gt; ```
-&gt; ```
+In this example instance of HtmlSaveOptions and the number of pages in resulting HTML is written to the console.
+```
+
+  [C#]
+  Project project = new Project(@"test.mpp");
+  HtmlSaveOptions saveOptions = new HtmlSaveOptions
+  {
+      IncludeProjectNameInPageHeader = false,
+      IncludeProjectNameInTitle = false,
+      PageSize = PageSize.A4,
+      Timescale = Timescale.Days,
+      StartDate = project.Get(Prj.StartDate).Date,
+      EndDate = project.Get(Prj.FinishDate).Date
+  };
+  Console.WriteLine(project.GetPageCount(saveOptions));
+  
+```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1747,10 +1747,10 @@ public final VbaProject getVbaProject()
 ```
 
 
-Gets an instance of  VbaProject ([getVbaProject()](../../com.aspose.tasks/project\#getVbaProject--)/[setVbaProject(VbaProject)](../../com.aspose.tasks/project\#setVbaProject-VbaProject-)) class.
+Gets an instance of `VbaProject`([getVbaProject()](../../com.aspose.tasks/project\#getVbaProject--)/[setVbaProject(VbaProject)](../../com.aspose.tasks/project\#setVbaProject-VbaProject-)) class.
 
 **Returns:**
-[VbaProject](../../com.aspose.tasks/vbaproject) - an instance of  VbaProject ([getVbaProject()](../../com.aspose.tasks/project\#getVbaProject--)/[setVbaProject(VbaProject)](../../com.aspose.tasks/project\#setVbaProject-VbaProject-)) class.
+[VbaProject](../../com.aspose.tasks/vbaproject) - an instance of `VbaProject`([getVbaProject()](../../com.aspose.tasks/project\#getVbaProject--)/[setVbaProject(VbaProject)](../../com.aspose.tasks/project\#setVbaProject-VbaProject-)) class.
 ### getViews() {#getViews--}
 ```
 public final ViewCollection getViews()
@@ -1787,7 +1787,7 @@ public final Duration getWork(double val)
 ```
 
 
-Gets [Duration](../../com.aspose.tasks/duration) object with the specified  double  value and default work format.
+Gets [Duration](../../com.aspose.tasks/duration) object with the specified `double` value and default work format.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2385,7 +2385,7 @@ public final void setCalculationMode(int value)
 ```
 
 
-Sets calculation mode of a project. Can be one of the values of  CalculationMode ([getCalculationMode()](../../com.aspose.tasks/project\#getCalculationMode--)/[setCalculationMode(int)](../../com.aspose.tasks/project\#setCalculationMode-int-)) enumeration.
+Sets calculation mode of a project. Can be one of the values of `CalculationMode`([getCalculationMode()](../../com.aspose.tasks/project\#getCalculationMode--)/[setCalculationMode(int)](../../com.aspose.tasks/project\#setCalculationMode-int-)) enumeration.
 
 **Parameters:**
 | Parameter | Type | Description |

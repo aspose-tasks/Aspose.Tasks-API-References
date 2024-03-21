@@ -13,7 +13,7 @@ java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspo
 public class DayTypeCollection extends AbstractList<Integer>
 ```
 
-Represents a collection of  DayType  objects.
+Represents a collection of `DayType` objects.
 ## Methods
 
 | Method | Description |

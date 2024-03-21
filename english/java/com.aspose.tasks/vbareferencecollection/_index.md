@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of VbaReference objects.
 type: docs
-weight: 318
+weight: 319
 url: /java/com.aspose.tasks/vbareferencecollection/
 ---
 
@@ -13,4 +13,4 @@ java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspo
 public class VbaReferenceCollection extends ReadOnlyCollectionBase<VbaReference>
 ```
 
-Represents a collection of  VbaReference  objects.
+Represents a collection of `VbaReference` objects.

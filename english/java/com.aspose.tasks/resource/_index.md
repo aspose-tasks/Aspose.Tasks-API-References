@@ -94,8 +94,8 @@ Represents a resource in a project.
 | [getStandardRateFormat()](#getStandardRateFormat--) | Gets a value of StandardRateFormat. |
 | [getStart()](#getStart--) | Gets a value of Start. |
 | [getTimephasedData()](#getTimephasedData--) | Gets an instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object. |
-| [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) for this object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-))values within given start and end dates. |
-| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object with the  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
+| [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) for this object with `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates. |
+| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object with the `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
 | [getType()](#getType--) | Gets a value of Type. |
 | [getUid()](#getUid--) | Gets a value of Uid. |
 | [getWindowsUserAccount()](#getWindowsUserAccount--) | Gets a value of WindowsUserAccount. |
@@ -958,7 +958,7 @@ public final TimephasedDataCollection getTimephasedData(Date start, Date end)
 ```
 
 
-Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) for this object with  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-))values within given start and end dates.
+Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) for this object with `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -974,7 +974,7 @@ public final TimephasedDataCollection getTimephasedData(Date start, Date end, by
 ```
 
 
-Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object with the  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype).
+Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class for this object with the `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)) values within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -984,7 +984,7 @@ Returns an instance of the [TimephasedDataCollection](../../com.aspose.tasks/tim
 | timephasedType | byte | The type of time phased data ([TimephasedDataType](../../com.aspose.tasks/timephaseddatatype)). |
 
 **Returns:**
-[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - List of  TimephasedData ([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)).
+[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - List of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resource\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resource\#setTimephasedData-TimephasedDataCollection-)).
 ### getType() {#getType--}
 ```
 public final int getType()

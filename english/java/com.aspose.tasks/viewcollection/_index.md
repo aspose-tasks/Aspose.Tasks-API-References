@@ -3,7 +3,7 @@ title: ViewCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Contains a list of  objects.
 type: docs
-weight: 320
+weight: 321
 url: /java/com.aspose.tasks/viewcollection/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, java.util.AbstractCollection
 public class ViewCollection extends AbstractCollection<View>
 ```
 
-Contains a list of [View](../../com.aspose.tasks/view) objects. Extends  AbstractCollection  class.
+Contains a list of [View](../../com.aspose.tasks/view) objects. Extends `AbstractCollection` class.
 ## Methods
 
 | Method | Description |

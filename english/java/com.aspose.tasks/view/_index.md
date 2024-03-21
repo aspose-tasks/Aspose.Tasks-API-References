@@ -3,7 +3,7 @@ title: View
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a view in Project.
 type: docs
-weight: 319
+weight: 320
 url: /java/com.aspose.tasks/view/
 ---
 
@@ -33,7 +33,7 @@ Represents a view in Project.
 | [getGroup()](#getGroup--) | Gets a group of the single view. |
 | [getHighlightFilter()](#getHighlightFilter--) | Gets a value indicating whether Microsoft Project highlights the filter for a single view. |
 | [getName()](#getName--) | Gets the name of a View object. |
-| [getPageInfo()](#getPageInfo--) | Gets an instance of the  PageInfo ([getPageInfo()](../../com.aspose.tasks/view\#getPageInfo--)) class. |
+| [getPageInfo()](#getPageInfo--) | Gets an instance of the `PageInfo`([getPageInfo()](../../com.aspose.tasks/view\#getPageInfo--)) class. |
 | [getParentProject()](#getParentProject--) | Gets the parent of the View object. |
 | [getScreen()](#getScreen--) | Gets the screen type for the single view. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
@@ -76,7 +76,7 @@ Compares the current instance with another object of the same type and returns a
 | other | [View](../../com.aspose.tasks/view) | the specified View object to compare this instance to. |
 
 **Returns:**
-int - A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings: Value Meaning Less than zero This instance precedes  other  in the sort order. Zero This instance occurs in the same position in the sort order as  other . Greater than zero This instance follows  other  in the sort order.
+int - A 32-bit signed integer that indicates the relative order of the objects being compared. The return value has these meanings: Value Meaning Less than zero This instance precedes `other` in the sort order. Zero This instance occurs in the same position in the sort order as `other`. Greater than zero This instance follows `other` in the sort order.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -153,10 +153,10 @@ public final PageInfo getPageInfo()
 ```
 
 
-Gets an instance of the  PageInfo ([getPageInfo()](../../com.aspose.tasks/view\#getPageInfo--)) class. Represents page setup data which is present in mpp file format.
+Gets an instance of the `PageInfo`([getPageInfo()](../../com.aspose.tasks/view\#getPageInfo--)) class. Represents page setup data which is present in mpp file format.
 
 **Returns:**
-[PageInfo](../../com.aspose.tasks/pageinfo) - an instance of the  PageInfo ([getPageInfo()](../../com.aspose.tasks/view\#getPageInfo--)) class.
+[PageInfo](../../com.aspose.tasks/pageinfo) - an instance of the `PageInfo`([getPageInfo()](../../com.aspose.tasks/view\#getPageInfo--)) class.
 ### getParentProject() {#getParentProject--}
 ```
 public final Project getParentProject()

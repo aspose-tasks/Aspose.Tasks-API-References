@@ -3,7 +3,7 @@ title: WeekdayType
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a weekday of a project in the instance of RecurringTaskInfo class.
 type: docs
-weight: 332
+weight: 333
 url: /java/com.aspose.tasks/weekdaytype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class WeekdayType extends System.Enum
 ```
 
-Represents a weekday of a project in the instance of  RecurringTaskInfo  class.
+Represents a weekday of a project in the instance of `RecurringTaskInfo` class.
 ## Fields
 
 | Field | Description |

@@ -13,7 +13,7 @@ java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspo
 public class OutlineMaskCollection extends AbstractList<OutlineMask>
 ```
 
-Represents a collection of  OutlineMask  objects.
+Represents a collection of `OutlineMask` objects.
 ## Methods
 
 | Method | Description |

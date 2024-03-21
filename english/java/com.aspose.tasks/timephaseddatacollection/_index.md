@@ -32,7 +32,7 @@ Represents a collection of [TimephasedData](../../com.aspose.tasks/timephaseddat
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the System.Collections.Generic.ICollection&lt;T&gt; is read-only. |
 | [iterator()](#iterator--) | Returns an iterator for this collection. |
 | [remove(TimephasedData item)](#remove-com.aspose.tasks.TimephasedData-) | Removes [TimephasedData](../../com.aspose.tasks/timephaseddata) instance from this collection object. |
-| [selectBetweenStartAndFinish(byte timephasedDataType, Date startTime, Date finishTime)](#selectBetweenStartAndFinish-byte-java.util.Date-java.util.Date-) | Selects all time phases between  startTime  and  finishTime . |
+| [selectBetweenStartAndFinish(byte timephasedDataType, Date startTime, Date finishTime)](#selectBetweenStartAndFinish-byte-java.util.Date-java.util.Date-) | Selects all time phases between `startTime` and `finishTime`. |
 | [set_Item(int index, TimephasedData value)](#set-Item-int-com.aspose.tasks.TimephasedData-) | Sets the element at the specified index. |
 | [size()](#size--) | Gets the number of objects contained in this [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object. |
 | [toList()](#toList--) | Converts the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object to a list of [TimephasedData](../../com.aspose.tasks/timephaseddata) objects. |
@@ -94,7 +94,7 @@ Determines whether the [TimephasedDataCollection](../../com.aspose.tasks/timepha
 | item | [TimephasedData](../../com.aspose.tasks/timephaseddata) | The object to locate in the collection. |
 
 **Returns:**
-boolean - true if  item  is found in the collection; otherwise, false.
+boolean - true if `item` is found in the collection; otherwise, false.
 ### copyToTArray(TimephasedData[] array, int arrayIndex) {#copyToTArray-com.aspose.tasks.TimephasedData---int-}
 ```
 public final void copyToTArray(TimephasedData[] array, int arrayIndex)
@@ -107,7 +107,7 @@ Copies the elements of the [TimephasedDataCollection](../../com.aspose.tasks/tim
 | Parameter | Type | Description |
 | --- | --- | --- |
 | array | [TimephasedData\[\]](../../com.aspose.tasks/timephaseddata) | The one-dimensional Array that is the destination of the elements copied from [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection). The Array must have zero-based indexing. |
-| arrayIndex | int | The zero-based index in  array  at which copying begins. |
+| arrayIndex | int | The zero-based index in `array` at which copying begins. |
 
 ### get(int index) {#get-int-}
 ```
@@ -158,14 +158,14 @@ Removes [TimephasedData](../../com.aspose.tasks/timephaseddata) instance from th
 | item | [TimephasedData](../../com.aspose.tasks/timephaseddata) | The item to remove. |
 
 **Returns:**
-boolean - true if  item  was successfully removed from the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection); otherwise, false. This method also returns false if  item  is not found in the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection).
+boolean - true if `item` was successfully removed from the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection); otherwise, false. This method also returns false if `item` is not found in the [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection).
 ### selectBetweenStartAndFinish(byte timephasedDataType, Date startTime, Date finishTime) {#selectBetweenStartAndFinish-byte-java.util.Date-java.util.Date-}
 ```
 public final List<TimephasedData> selectBetweenStartAndFinish(byte timephasedDataType, Date startTime, Date finishTime)
 ```
 
 
-Selects all time phases between  startTime  and  finishTime . Has O(log n) complexity in average case.
+Selects all time phases between `startTime` and `finishTime`. Has O(log n) complexity in average case.
 
 **Parameters:**
 | Parameter | Type | Description |

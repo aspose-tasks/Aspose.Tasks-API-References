@@ -90,7 +90,7 @@ public final Color getBackgroundColor()
 ```
 
 
-Gets background color of the text style.  Color ([getBackgroundColor()](../../com.aspose.tasks/textstyle\#getBackgroundColor--)/[setBackgroundColor(java.awt.Color)](../../com.aspose.tasks/textstyle\#setBackgroundColor-java.awt.Color-)).
+Gets background color of the text style. `Color`([getBackgroundColor()](../../com.aspose.tasks/textstyle\#getBackgroundColor--)/[setBackgroundColor(java.awt.Color)](../../com.aspose.tasks/textstyle\#setBackgroundColor-java.awt.Color-)).
 
 **Returns:**
 java.awt.Color - background color of the text style.
@@ -100,7 +100,7 @@ public final int getBackgroundPattern()
 ```
 
 
-Gets background pattern of the text style.  BackgroundPattern ([getBackgroundPattern()](../../com.aspose.tasks/textstyle\#getBackgroundPattern--)/[setBackgroundPattern(int)](../../com.aspose.tasks/textstyle\#setBackgroundPattern-int-)).
+Gets background pattern of the text style. `BackgroundPattern`([getBackgroundPattern()](../../com.aspose.tasks/textstyle\#getBackgroundPattern--)/[setBackgroundPattern(int)](../../com.aspose.tasks/textstyle\#setBackgroundPattern-int-)).
 
 **Returns:**
 int - background pattern of the text style.
@@ -140,7 +140,7 @@ public final void setBackgroundColor(Color value)
 ```
 
 
-Sets background color of the text style.  Color ([getBackgroundColor()](../../com.aspose.tasks/textstyle\#getBackgroundColor--)/[setBackgroundColor(java.awt.Color)](../../com.aspose.tasks/textstyle\#setBackgroundColor-java.awt.Color-)).
+Sets background color of the text style. `Color`([getBackgroundColor()](../../com.aspose.tasks/textstyle\#getBackgroundColor--)/[setBackgroundColor(java.awt.Color)](../../com.aspose.tasks/textstyle\#setBackgroundColor-java.awt.Color-)).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -153,7 +153,7 @@ public final void setBackgroundPattern(int value)
 ```
 
 
-Sets background pattern of the text style.  BackgroundPattern ([getBackgroundPattern()](../../com.aspose.tasks/textstyle\#getBackgroundPattern--)/[setBackgroundPattern(int)](../../com.aspose.tasks/textstyle\#setBackgroundPattern-int-)).
+Sets background pattern of the text style. `BackgroundPattern`([getBackgroundPattern()](../../com.aspose.tasks/textstyle\#getBackgroundPattern--)/[setBackgroundPattern(int)](../../com.aspose.tasks/textstyle\#setBackgroundPattern-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |

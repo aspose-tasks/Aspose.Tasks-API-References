@@ -28,8 +28,8 @@ Represents page setup data which is present in MPP file format and used for prin
 | [getLegend()](#getLegend--) | Gets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend. |
 | [getMargins()](#getMargins--) | Gets an instance of the [PageMargins](../../com.aspose.tasks/pagemargins) class which specifies page margins. |
 | [getName()](#getName--) | Gets the name of the view for which set-up data is used. |
-| [getPageSettings()](#getPageSettings--) | Gets an instance of the  PageSettings ([getPageSettings()](../../com.aspose.tasks/pageinfo\#getPageSettings--)) class which specifies page printing settings. |
-| [getPageViewSettings()](#getPageViewSettings--) | Gets an instance of the  PageViewSettings ([getPageViewSettings()](../../com.aspose.tasks/pageinfo\#getPageViewSettings--)) class which specifies page view printing settings. |
+| [getPageSettings()](#getPageSettings--) | Gets an instance of the `PageSettings`([getPageSettings()](../../com.aspose.tasks/pageinfo\#getPageSettings--)) class which specifies page printing settings. |
+| [getPageViewSettings()](#getPageViewSettings--) | Gets an instance of the `PageViewSettings`([getPageViewSettings()](../../com.aspose.tasks/pageinfo\#getPageViewSettings--)) class which specifies page view printing settings. |
 | [setFooter(HeaderFooterInfo value)](#setFooter-com.aspose.tasks.HeaderFooterInfo-) | Sets an instance of the [HeaderFooterInfo](../../com.aspose.tasks/headerfooterinfo) class which represents a footer data. |
 | [setHeader(HeaderFooterInfo value)](#setHeader-com.aspose.tasks.HeaderFooterInfo-) | Sets the instance of the [HeaderFooterInfo](../../com.aspose.tasks/headerfooterinfo) class which represents a header data. |
 | [setLegend(PageLegend value)](#setLegend-com.aspose.tasks.PageLegend-) | Sets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend. |
@@ -97,20 +97,20 @@ public final PageSettings getPageSettings()
 ```
 
 
-Gets an instance of the  PageSettings ([getPageSettings()](../../com.aspose.tasks/pageinfo\#getPageSettings--)) class which specifies page printing settings.
+Gets an instance of the `PageSettings`([getPageSettings()](../../com.aspose.tasks/pageinfo\#getPageSettings--)) class which specifies page printing settings.
 
 **Returns:**
-[PageSettings](../../com.aspose.tasks/pagesettings) - an instance of the  PageSettings ([getPageSettings()](../../com.aspose.tasks/pageinfo\#getPageSettings--)) class which specifies page printing settings.
+[PageSettings](../../com.aspose.tasks/pagesettings) - an instance of the `PageSettings`([getPageSettings()](../../com.aspose.tasks/pageinfo\#getPageSettings--)) class which specifies page printing settings.
 ### getPageViewSettings() {#getPageViewSettings--}
 ```
 public final PageViewSettings getPageViewSettings()
 ```
 
 
-Gets an instance of the  PageViewSettings ([getPageViewSettings()](../../com.aspose.tasks/pageinfo\#getPageViewSettings--)) class which specifies page view printing settings.
+Gets an instance of the `PageViewSettings`([getPageViewSettings()](../../com.aspose.tasks/pageinfo\#getPageViewSettings--)) class which specifies page view printing settings.
 
 **Returns:**
-[PageViewSettings](../../com.aspose.tasks/pageviewsettings) - an instance of the  PageViewSettings ([getPageViewSettings()](../../com.aspose.tasks/pageinfo\#getPageViewSettings--)) class which specifies page view printing settings.
+[PageViewSettings](../../com.aspose.tasks/pageviewsettings) - an instance of the `PageViewSettings`([getPageViewSettings()](../../com.aspose.tasks/pageinfo\#getPageViewSettings--)) class which specifies page view printing settings.
 ### setFooter(HeaderFooterInfo value) {#setFooter-com.aspose.tasks.HeaderFooterInfo-}
 ```
 public final void setFooter(HeaderFooterInfo value)

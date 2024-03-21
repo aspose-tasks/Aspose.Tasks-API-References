@@ -33,16 +33,16 @@ Represents a time phased data.
 | [getUid()](#getUid--) | Gets the unique identifier of a time phased data |
 | [getUnit()](#getUnit--) | Gets the time unit of a time phased data period. |
 | [getValue()](#getValue--) | Gets the value per unit of time for a time phased data period. |
-| [getValueToCost()](#getValueToCost--) | Gets  double  instance which represents string value of this object. |
+| [getValueToCost()](#getValueToCost--) | Gets `double` instance which represents string value of this object. |
 | [getValueToDuration()](#getValueToDuration--) | Gets double instance which represents string value of this object. |
-| [getValueToUnits()](#getValueToUnits--) | Gets  double  instance which represents string value of this object for unit-based time phased data. |
+| [getValueToUnits()](#getValueToUnits--) | Gets `double` instance which represents string value of this object for unit-based time phased data. |
 | [setFinish(Date value)](#setFinish-java.util.Date-) | Sets the finish date of a time phased data period. |
 | [setStart(Date value)](#setStart-java.util.Date-) | Sets the start date of a time phased data period. |
 | [setTimephasedDataType(byte value)](#setTimephasedDataType-byte-) | Sets the type of a time phased data. |
 | [setUid(int value)](#setUid-int-) | Sets the unique identifier of a time phased data |
 | [setUnit(byte value)](#setUnit-byte-) | Sets the time unit of a time phased data period. |
 | [setValue(String value)](#setValue-java.lang.String-) | Sets the value per unit of time for a time phased data period. |
-| [setValueToCost(double value)](#setValueToCost-double-) |  double  instance which represents string value of this object. |
+| [setValueToCost(double value)](#setValueToCost-double-) | `double` instance which represents string value of this object. |
 ### TimephasedData() {#TimephasedData--}
 ```
 public TimephasedData()
@@ -159,7 +159,7 @@ Gets the type of a time phased data.
 
 --------------------
 
- Value ([getValue()](../../com.aspose.tasks/timephaseddata\#getValue--)/[setValue(String)](../../com.aspose.tasks/timephaseddata\#setValue-String-)) property will be cleared, if it is not suitable for type, specified here.
+`Value`([getValue()](../../com.aspose.tasks/timephaseddata\#getValue--)/[setValue(String)](../../com.aspose.tasks/timephaseddata\#setValue-String-)) property will be cleared, if it is not suitable for type, specified here.
 
 **Returns:**
 byte - the type of a time phased data.
@@ -199,7 +199,7 @@ public final double getValueToCost()
 ```
 
 
-Gets  double  instance which represents string value of this object.
+Gets `double` instance which represents string value of this object.
 
 **Returns:**
 double - a floating point representation of the object.
@@ -219,7 +219,7 @@ public final double getValueToUnits()
 ```
 
 
-Gets  double  instance which represents string value of this object for unit-based time phased data.
+Gets `double` instance which represents string value of this object for unit-based time phased data.
 
 **Returns:**
 double - a floating point representation of this object.
@@ -259,7 +259,7 @@ Sets the type of a time phased data.
 
 --------------------
 
- Value ([getValue()](../../com.aspose.tasks/timephaseddata\#getValue--)/[setValue(String)](../../com.aspose.tasks/timephaseddata\#setValue-String-)) property will be cleared, if it is not suitable for type, specified here.
+`Value`([getValue()](../../com.aspose.tasks/timephaseddata\#getValue--)/[setValue(String)](../../com.aspose.tasks/timephaseddata\#setValue-String-)) property will be cleared, if it is not suitable for type, specified here.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -311,10 +311,10 @@ public final void setValueToCost(double value)
 ```
 
 
- double  instance which represents string value of this object.
+`double` instance which represents string value of this object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  double  instance which represents string value of this object. |
+| value | double | `double` instance which represents string value of this object. |
 

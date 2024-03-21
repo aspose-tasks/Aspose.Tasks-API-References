@@ -226,7 +226,7 @@ This is the stub implementation of Collection's remove method, that only throws 
 | o | java.lang.Object | the item to remove. |
 
 **Returns:**
-boolean -  true  if the item was removed;  false  otherwise.
+boolean - `true` if the item was removed; `false` otherwise.
 ### size() {#size--}
 ```
 public final int size()
@@ -237,7 +237,7 @@ Gets the number of elements contained in the ResourceCollection.
 
 --------------------
 
-Read-only  int .
+Read-only `int`.
 
 **Returns:**
 int - the number of elements contained in the ResourceCollection.

@@ -33,9 +33,9 @@ Represents duration in a project.
 | [clone()](#clone--) | \{@inheritDoc\} |
 | [convert(byte timeUnitType)](#convert-byte-) | Converts Duration object to another duration with specified time units. |
 | [equals(Duration other)](#equals-com.aspose.tasks.Duration-) | Returns a value indicating whether this instance is equal to a specified object. |
-| [equals(Duration obj1, Duration obj2)](#equals-com.aspose.tasks.Duration-com.aspose.tasks.Duration-) | Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance. |
+| [equals(Duration obj1, Duration obj2)](#equals-com.aspose.tasks.Duration-com.aspose.tasks.Duration-) | Returns a value indicating whether specified `obj1` instance is equal to the specified `obj2` instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
-| [getTimeSpan()](#getTimeSpan--) | Gets  TimeSpan ([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) instance of this Duration object. |
+| [getTimeSpan()](#getTimeSpan--) | Gets `TimeSpan`([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) instance of this Duration object. |
 | [getTimeUnit()](#getTimeUnit--) | Gets time unit type for this object. |
 | [hashCode()](#hashCode--) | Returns a hash code value for this object. |
 | [isElapsed()](#isElapsed--) | Gets a value indicating whether time unit is elapsed. |
@@ -46,7 +46,7 @@ Represents duration in a project.
 | [parseTimeSpan(String value)](#parseTimeSpan-java.lang.String-) | Parses duration string in format "PT--H--M--S--". |
 | [subtract(Duration d)](#subtract-com.aspose.tasks.Duration-) | Subtracts specified duration from this duration instance. |
 | [subtract(double val)](#subtract-double-) | Subtracts specified double value from this duration instance. |
-| [toDouble()](#toDouble--) | Converts Duration object to  double  value. |
+| [toDouble()](#toDouble--) | Converts Duration object to `double` value. |
 | [toString()](#toString--) | Returns a string representation of this instance. |
 ### Duration() {#Duration--}
 ```
@@ -105,7 +105,7 @@ Adds specified double value to this duration.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| val | double | the specified  double  value to add to this instance. |
+| val | double | the specified `double` value to add to this instance. |
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - New duration object that represents the value of this instance plus the specified duration value.
@@ -155,7 +155,7 @@ public static boolean equals(Duration obj1, Duration obj2)
 ```
 
 
-Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance.
+Returns a value indicating whether specified `obj1` instance is equal to the specified `obj2` instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -164,7 +164,7 @@ Returns a value indicating whether specified  obj1  instance is equal to the spe
 | obj2 | [Duration](../../com.aspose.tasks/duration) | the second object to compare. |
 
 **Returns:**
-boolean - returns true if specified  obj1  instance is equal to the specified  obj2  instance; otherwise, false.
+boolean - returns true if specified `obj1` instance is equal to the specified `obj2` instance; otherwise, false.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -186,12 +186,12 @@ public final double getTimeSpan()
 ```
 
 
-Gets  TimeSpan ([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) instance of this Duration object.
+Gets `TimeSpan`([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) instance of this Duration object.
 
 Value: The TimeSpan instance of this Duration object.
 
 **Returns:**
-double -  TimeSpan ([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) instance of this Duration object.
+double - `TimeSpan`([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) instance of this Duration object.
 ### getTimeUnit() {#getTimeUnit--}
 ```
 public final byte getTimeUnit()
@@ -300,7 +300,7 @@ Parses duration string in format "PT--H--M--S--".
 | value | java.lang.String | the specified string to parse. |
 
 **Returns:**
-double - returns parsed instance of the  TimeSpan ([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) struct.
+double - returns parsed instance of the `TimeSpan`([getTimeSpan](../../com.aspose.tasks/duration\#getTimeSpan--)/[setTimeSpan(TimeSpan)](../../com.aspose.tasks/duration\#setTimeSpan-TimeSpan-)) struct.
 ### subtract(Duration d) {#subtract-com.aspose.tasks.Duration-}
 ```
 public final Duration subtract(Duration d)
@@ -327,7 +327,7 @@ Subtracts specified double value from this duration instance.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| val | double | specified  double  value to subtract from this instance. |
+| val | double | specified `double` value to subtract from this instance. |
 
 **Returns:**
 [Duration](../../com.aspose.tasks/duration) - New duration object that represents the value of this instance minus the specified duration value.
@@ -337,7 +337,7 @@ public final double toDouble()
 ```
 
 
-Converts Duration object to  double  value.
+Converts Duration object to `double` value.
 
 **Returns:**
 double - Converted value.

@@ -152,7 +152,7 @@ public final int getLinePattern()
 ```
 
 
-Gets the line pattern of current progress line.  LinePattern ([getLinePattern()](../../com.aspose.tasks/progresslines\#getLinePattern--)/[setLinePattern(int)](../../com.aspose.tasks/progresslines\#setLinePattern-int-)).
+Gets the line pattern of current progress line. `LinePattern`([getLinePattern()](../../com.aspose.tasks/progresslines\#getLinePattern--)/[setLinePattern(int)](../../com.aspose.tasks/progresslines\#setLinePattern-int-)).
 
 **Returns:**
 int - the line pattern of current progress line.
@@ -222,7 +222,7 @@ public final RecurringInterval getRecurringInterval()
 ```
 
 
-Gets the recurring interval.  RecurringInterval ([getRecurringInterval()](../../com.aspose.tasks/progresslines\#getRecurringInterval--)/[setRecurringInterval(RecurringInterval)](../../com.aspose.tasks/progresslines\#setRecurringInterval-RecurringInterval-)).
+Gets the recurring interval. `RecurringInterval`([getRecurringInterval()](../../com.aspose.tasks/progresslines\#getRecurringInterval--)/[setRecurringInterval(RecurringInterval)](../../com.aspose.tasks/progresslines\#setRecurringInterval-RecurringInterval-)).
 
 **Returns:**
 [RecurringInterval](../../com.aspose.tasks/recurringinterval) - the recurring interval.
@@ -379,7 +379,7 @@ public final void setLinePattern(int value)
 ```
 
 
-Sets the line pattern of current progress line.  LinePattern ([getLinePattern()](../../com.aspose.tasks/progresslines\#getLinePattern--)/[setLinePattern(int)](../../com.aspose.tasks/progresslines\#setLinePattern-int-)).
+Sets the line pattern of current progress line. `LinePattern`([getLinePattern()](../../com.aspose.tasks/progresslines\#getLinePattern--)/[setLinePattern(int)](../../com.aspose.tasks/progresslines\#setLinePattern-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +470,7 @@ public final void setRecurringInterval(RecurringInterval value)
 ```
 
 
-Sets the recurring interval.  RecurringInterval ([getRecurringInterval()](../../com.aspose.tasks/progresslines\#getRecurringInterval--)/[setRecurringInterval(RecurringInterval)](../../com.aspose.tasks/progresslines\#setRecurringInterval-RecurringInterval-)).
+Sets the recurring interval. `RecurringInterval`([getRecurringInterval()](../../com.aspose.tasks/progresslines\#getRecurringInterval--)/[setRecurringInterval(RecurringInterval)](../../com.aspose.tasks/progresslines\#setRecurringInterval-RecurringInterval-)).
 
 **Parameters:**
 | Parameter | Type | Description |

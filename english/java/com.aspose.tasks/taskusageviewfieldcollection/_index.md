@@ -13,4 +13,4 @@ java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspo
 public class TaskUsageViewFieldCollection extends ReadOnlyCollectionBase<Integer>
 ```
 
-Represents a collection of  TaskUsageViewField  values.
+Represents a collection of `TaskUsageViewField` values.

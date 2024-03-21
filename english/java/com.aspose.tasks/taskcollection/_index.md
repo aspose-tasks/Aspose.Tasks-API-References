@@ -234,7 +234,7 @@ This is the stub implementation of ICollection's Remove method, that only throws
 | item | java.lang.Object | The item to remove. |
 
 **Returns:**
-boolean -  true  if the item was removed;  false  otherwise.
+boolean - `true` if the item was removed; `false` otherwise.
 ### size() {#size--}
 ```
 public final int size()

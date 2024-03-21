@@ -13,7 +13,7 @@ java.lang.Object
 public class Rsc
 ```
 
-Represents supported properties of  Resource  object.
+Represents supported properties of `Resource` object.
 ## Fields
 
 | Field | Description |

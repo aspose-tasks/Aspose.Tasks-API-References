@@ -76,7 +76,7 @@ public final int getInterval()
 ```
 
 
-Gets the recurring interval. Can be any value of  Interval ([getInterval()](../../com.aspose.tasks/recurringinterval\#getInterval--)/[setInterval(int)](../../com.aspose.tasks/recurringinterval\#setInterval-int-)) type.
+Gets the recurring interval. Can be any value of `Interval`([getInterval()](../../com.aspose.tasks/recurringinterval\#getInterval--)/[setInterval(int)](../../com.aspose.tasks/recurringinterval\#setInterval-int-)) type.
 
 **Returns:**
 int - the recurring interval.
@@ -192,7 +192,7 @@ public final void setInterval(int value)
 ```
 
 
-Sets the recurring interval. Can be any value of  Interval ([getInterval()](../../com.aspose.tasks/recurringinterval\#getInterval--)/[setInterval(int)](../../com.aspose.tasks/recurringinterval\#setInterval-int-)) type.
+Sets the recurring interval. Can be any value of `Interval`([getInterval()](../../com.aspose.tasks/recurringinterval\#getInterval--)/[setInterval(int)](../../com.aspose.tasks/recurringinterval\#setInterval-int-)) type.
 
 **Parameters:**
 | Parameter | Type | Description |

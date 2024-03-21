@@ -27,7 +27,7 @@ Represents a collection of [Task](../../com.aspose.tasks/task) objects.
 | [getParentProject()](#getParentProject--) | Gets the parent project of the ResourceAssignmentCollection object. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this collection and returns the element that was removed from the collection. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes task link from a project. |
-| [size()](#size--) | Returns the number of objects contained in this  TaskLinkCollection  object. |
+| [size()](#size--) | Returns the number of objects contained in this `TaskLinkCollection` object. |
 | [sort(Comparator&lt;? super TaskLink&gt; c)](#sort-java.util.Comparator---super-com.aspose.tasks.TaskLink--) | \{@inheritDoc\} |
 | [toList()](#toList--) | Converts the TaskLinkCollection object to a list of [TaskLink](../../com.aspose.tasks/tasklink) objects. |
 ### add(Task pred, Task succ) {#add-com.aspose.tasks.Task-com.aspose.tasks.Task-}
@@ -128,7 +128,7 @@ public final Project getParentProject()
 Gets the parent project of the ResourceAssignmentCollection object.
 
 **Returns:**
-[Project](../../com.aspose.tasks/project) - parent  Project  for this object.
+[Project](../../com.aspose.tasks/project) - parent `Project` for this object.
 ### remove(int index) {#remove-int-}
 ```
 public final TaskLink remove(int index)
@@ -155,17 +155,17 @@ Removes task link from a project.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | java.lang.Object | the specified instance of  TaskLink  class to remove. |
+| item | java.lang.Object | the specified instance of `TaskLink` class to remove. |
 
 **Returns:**
-boolean - returns the instance of  TaskLink  class which was removed from this collection.
+boolean - returns the instance of `TaskLink` class which was removed from this collection.
 ### size() {#size--}
 ```
 public final int size()
 ```
 
 
-Returns the number of objects contained in this  TaskLinkCollection  object. Read only  int .
+Returns the number of objects contained in this `TaskLinkCollection` object. Read only `int`.
 
 **Returns:**
 int - returns the number of objects contained in this collection.

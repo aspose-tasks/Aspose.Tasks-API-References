@@ -32,7 +32,7 @@ A class for boolean values with possibility to check whether the value was defin
 | [CloneTo(NullableBool that)](#CloneTo-com.aspose.tasks.NullableBool-) | Makes a deep copy of the instance into another instance. |
 | [clone()](#clone--) | \{@inheritDoc\} |
 | [equals(NullableBool other)](#equals-com.aspose.tasks.NullableBool-) | Returns a flag indicating whether this instance is equal to the specified instance of the [NullableBool](../../com.aspose.tasks/nullablebool) class. |
-| [equals(NullableBool obj1, NullableBool obj2)](#equals-com.aspose.tasks.NullableBool-com.aspose.tasks.NullableBool-) | Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance. |
+| [equals(NullableBool obj1, NullableBool obj2)](#equals-com.aspose.tasks.NullableBool-com.aspose.tasks.NullableBool-) | Returns a value indicating whether specified `obj1` instance is equal to the specified `obj2` instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a flag indicating whether this instance is equal to the specified object. |
 | [getValue()](#getValue--) | Gets a value indicating whether current value is true or false. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the instance of the [NullableBool](../../com.aspose.tasks/nullablebool) class. |
@@ -132,7 +132,7 @@ public static boolean equals(NullableBool obj1, NullableBool obj2)
 ```
 
 
-Returns a value indicating whether specified  obj1  instance is equal to the specified  obj2  instance.
+Returns a value indicating whether specified `obj1` instance is equal to the specified `obj2` instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -141,7 +141,7 @@ Returns a value indicating whether specified  obj1  instance is equal to the spe
 | obj2 | [NullableBool](../../com.aspose.tasks/nullablebool) | the second object to compare. |
 
 **Returns:**
-boolean - returns true if specified  obj1  instance is equal to the specified  obj2  instance; otherwise, false.
+boolean - returns true if specified `obj1` instance is equal to the specified `obj2` instance; otherwise, false.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -248,7 +248,7 @@ public static boolean to_Boolean(NullableBool val)
 ```
 
 
-Implicitly converts a [NullableBool](../../com.aspose.tasks/nullablebool) instance to a boolean value. Returns true when  Value ([getValue()](../../com.aspose.tasks/nullablebool\#getValue--)/[setValue(boolean)](../../com.aspose.tasks/nullablebool\#setValue-boolean-)) is true and  IsDefined ([isDefined](../../com.aspose.tasks/nullablebool\#isDefined)) is true.
+Implicitly converts a [NullableBool](../../com.aspose.tasks/nullablebool) instance to a boolean value. Returns true when `Value`([getValue()](../../com.aspose.tasks/nullablebool\#getValue--)/[setValue(boolean)](../../com.aspose.tasks/nullablebool\#setValue-boolean-)) is true and `IsDefined`([isDefined](../../com.aspose.tasks/nullablebool\#isDefined)) is true.
 
 **Parameters:**
 | Parameter | Type | Description |

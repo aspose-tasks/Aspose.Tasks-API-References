@@ -110,7 +110,7 @@ public int getField()
 ```
 
 
-Returns column field.  Field .
+Returns column field. `Field`.
 
 **Returns:**
 int - column field value.

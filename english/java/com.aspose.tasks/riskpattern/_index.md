@@ -55,7 +55,7 @@ Gets the confidence level that correspond to the percentage of the time the actu
 
 --------------------
 
-Can be one of the values defined in the  ConfidenceLevel ([getConfidenceLevel()](../../com.aspose.tasks/riskpattern\#getConfidenceLevel--)/[setConfidenceLevel(int)](../../com.aspose.tasks/riskpattern\#setConfidenceLevel-int-)) enumeration.
+Can be one of the values defined in the `ConfidenceLevel`([getConfidenceLevel()](../../com.aspose.tasks/riskpattern\#getConfidenceLevel--)/[setConfidenceLevel(int)](../../com.aspose.tasks/riskpattern\#setConfidenceLevel-int-)) enumeration.
 
 **Returns:**
 int - the confidence level that correspond to the percentage of the time the actual generated values will be within optimistic and pessimistic estimates.
@@ -113,7 +113,7 @@ Sets the confidence level that correspond to the percentage of the time the actu
 
 --------------------
 
-Can be one of the values defined in the  ConfidenceLevel ([getConfidenceLevel()](../../com.aspose.tasks/riskpattern\#getConfidenceLevel--)/[setConfidenceLevel(int)](../../com.aspose.tasks/riskpattern\#setConfidenceLevel-int-)) enumeration.
+Can be one of the values defined in the `ConfidenceLevel`([getConfidenceLevel()](../../com.aspose.tasks/riskpattern\#getConfidenceLevel--)/[setConfidenceLevel(int)](../../com.aspose.tasks/riskpattern\#setConfidenceLevel-int-)) enumeration.
 
 **Parameters:**
 | Parameter | Type | Description |

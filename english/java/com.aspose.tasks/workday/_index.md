@@ -3,7 +3,7 @@ title: WorkDay
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a work day.
 type: docs
-weight: 337
+weight: 338
 url: /java/com.aspose.tasks/workday/
 ---
 
@@ -42,14 +42,14 @@ public final int getDayType()
 Returns the type of a day.
 
 **Returns:**
-int - the type of a day ( Aspose.Tasks.DayType ).
+int - the type of a day (`Aspose.Tasks.DayType`).
 ### getDayWorking() {#getDayWorking--}
 ```
 public final boolean getDayWorking()
 ```
 
 
-Determines whether the specified date or day type is working. Read/write  bool .
+Determines whether the specified date or day type is working. Read/write `bool`.
 
 **Returns:**
 boolean - true if the day is working.
@@ -64,7 +64,7 @@ Sets the type of a day.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | the type of a day  Aspose.Tasks.DayType . |
+| value | int | the type of a day `Aspose.Tasks.DayType`. |
 
 ### setDayWorking(boolean value) {#setDayWorking-boolean-}
 ```

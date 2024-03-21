@@ -312,6 +312,7 @@ url: /java/com.aspose.tasks/
 | [TreeAlgorithmBase&lt;T&gt;](../com.aspose.tasks/treealgorithmbase) | A base class for implementations of ITreeAlgorithm&lt;T&gt; |
 | [Tsk](../com.aspose.tasks/tsk) | Represents properties of [Task](../com.aspose.tasks/task) object. |
 | [UndefinedConstraintHandlingBehavior](../com.aspose.tasks/undefinedconstrainthandlingbehavior) | Specifies the behavior used to handle tasks with undefined constraints. |
+| [UnexpectedFileFormatException](../com.aspose.tasks/unexpectedfileformatexception) | Represents an exception which is thrown when file format has unexpected format or structure. |
 | [UsageView](../com.aspose.tasks/usageview) | Represent a usage view in a project. |
 | [ValidationException](../com.aspose.tasks/validationexception) | Represents an exception which is thrown when errors are found during validation of entity. |
 | [Value](../com.aspose.tasks/value) | Represents a value in a value list. |

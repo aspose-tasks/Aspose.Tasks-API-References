@@ -13,4 +13,4 @@ java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspo
 public class ResourceUsageViewFieldCollection extends ReadOnlyCollectionBase<Integer>
 ```
 
-Represent a collection of  ResourceUsageViewField  values.
+Represent a collection of `ResourceUsageViewField` values.

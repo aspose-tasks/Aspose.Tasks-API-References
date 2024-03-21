@@ -13,16 +13,16 @@ java.lang.Object, java.util.AbstractCollection
 public class RiskPatternCollection extends AbstractCollection<RiskPattern>
 ```
 
-Represents a collection containing the instances of the  RiskPattern  class.
+Represents a collection containing the instances of the `RiskPattern` class.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(RiskPattern item)](#add-com.aspose.tasks.RiskPattern-) | Adds an instance of the  RiskPattern  class to this collection. |
+| [add(RiskPattern item)](#add-com.aspose.tasks.RiskPattern-) | Adds an instance of the `RiskPattern` class to this collection. |
 | [clear()](#clear--) | Removes all items from this collection. |
 | [contains(Object item)](#contains-java.lang.Object-) | Returns true if the specified item is found in this collection; otherwise, false. |
 | [copyTo(RiskPattern[] array, int arrayIndex)](#copyTo-com.aspose.tasks.RiskPattern---int-) | Copies the elements of this collection to the specified array, starting at the specified array index. |
-| [get_Item(Task task)](#get-Item-com.aspose.tasks.Task-) | Gets the instance of the  RiskPattern  class for the specified task. |
+| [get_Item(Task task)](#get-Item-com.aspose.tasks.Task-) | Gets the instance of the `RiskPattern` class for the specified task. |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes the first occurrence of a specific object from this collection. |
 | [size()](#size--) | Returns the number of elements contained in this collection. |
@@ -32,15 +32,15 @@ public boolean add(RiskPattern item)
 ```
 
 
-Adds an instance of the  RiskPattern  class to this collection.
+Adds an instance of the `RiskPattern` class to this collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [RiskPattern](../../com.aspose.tasks/riskpattern) | an instance of the  RiskPattern  class to add to this collection. |
+| item | [RiskPattern](../../com.aspose.tasks/riskpattern) | an instance of the `RiskPattern` class to add to this collection. |
 
 **Returns:**
-boolean - returns true if an instance of the  RiskPattern  class was added successfully; otherwise, false.
+boolean - returns true if an instance of the `RiskPattern` class was added successfully; otherwise, false.
 ### clear() {#clear--}
 ```
 public void clear()
@@ -84,7 +84,7 @@ public RiskPattern get_Item(Task task)
 ```
 
 
-Gets the instance of the  RiskPattern  class for the specified task.
+Gets the instance of the `RiskPattern` class for the specified task.
 
 **Parameters:**
 | Parameter | Type | Description |

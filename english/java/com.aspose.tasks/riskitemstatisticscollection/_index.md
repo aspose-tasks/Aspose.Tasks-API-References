@@ -25,7 +25,7 @@ Represents a collection containing the instances of the [RiskItemStatistics](../
 | [containsKey(Object key)](#containsKey-java.lang.Object-) | Returns true if this map contains a mapping for the specified key. |
 | [containsValue(Object value)](#containsValue-java.lang.Object-) | Returns true if this map maps one or more keys to the specified value. |
 | [entrySet()](#entrySet--) | Returns a Set view of the mappings contained in this map. |
-| [get(Object task)](#get-java.lang.Object-) | Returns an instance of the  RiskItemStatistics  class containing in this collection which is associated with the specified Task object; null if the item is not found. |
+| [get(Object task)](#get-java.lang.Object-) | Returns an instance of the `RiskItemStatistics` class containing in this collection which is associated with the specified Task object; null if the item is not found. |
 | [isEmpty()](#isEmpty--) | Returns true if this map contains no key-value mappings |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
 | [keySet()](#keySet--) | Returns a Set view of the keys contained in this map. |
@@ -88,12 +88,12 @@ public RiskItemStatistics get(Object task)
 ```
 
 
-Returns an instance of the  RiskItemStatistics  class containing in this collection which is associated with the specified Task object; null if the item is not found.
+Returns an instance of the `RiskItemStatistics` class containing in this collection which is associated with the specified Task object; null if the item is not found.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | java.lang.Object | the specified instance of the  Task  class. |
+| task | java.lang.Object | the specified instance of the `Task` class. |
 
 **Returns:**
 [RiskItemStatistics](../../com.aspose.tasks/riskitemstatistics) - risk item which is associated with the specified task object if found; null otherwise.

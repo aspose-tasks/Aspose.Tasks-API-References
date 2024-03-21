@@ -3,14 +3,14 @@ title: ITreeAlgorithm
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an algorithm that can be applied to a tree of objects T.
 type: docs
-weight: 359
+weight: 360
 url: /java/com.aspose.tasks/itreealgorithm/
 ---
 ```
 public interface ITreeAlgorithm<T>
 ```
 
-Represents an algorithm that can be applied to a tree of objects  T .
+Represents an algorithm that can be applied to a tree of objects `T`.
 
  T : The type of object to apply method interface to.
 ## Methods

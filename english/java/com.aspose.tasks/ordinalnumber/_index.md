@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class OrdinalNumber extends System.Enum
 ```
 
-Represents an ordinal number in the instance of  RecurringTaskInfo  class.
+Represents an ordinal number in the instance of `RecurringTaskInfo` class.
 ## Fields
 
 | Field | Description |
