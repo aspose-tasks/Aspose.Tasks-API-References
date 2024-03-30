@@ -132,6 +132,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[TimelineView](/tasks/python-net/aspose.tasks/timelineview/)|Represents a timeline view of a project.|
 |[TimephasedData](/tasks/python-net/aspose.tasks/timephaseddata/)|Represents a time phased data.|
 |[TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/)|Represents a collection of|
+|[UnexpectedFileFormatException](/tasks/python-net/aspose.tasks/unexpectedfileformatexception/)|Represents an exception which is thrown when file format has unexpected format or structure.|
 |[UsageView](/tasks/python-net/aspose.tasks/usageview/)|Represent a usage view in a project.|
 |[ValidationException](/tasks/python-net/aspose.tasks/validationexception/)|Represents an exception which is thrown when errors are found during validation of entity.|
 |[Value](/tasks/python-net/aspose.tasks/value/)|Represents a value in a value list.|
