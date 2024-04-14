@@ -1,18 +1,22 @@
 ---
 title: Legend
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets an instance of the PageLegendaspose.tasks.visualization/pagelegend class which specifies page legend.
+description: Gets or sets an instance of the PageLegendaspose.tasks.visualization/pagelegend class which specifies rendering options of page legend.
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/pageinfo/legend/
 ---
 ## PageInfo.Legend property
 
-Gets or sets an instance of the [`PageLegend`](../../pagelegend) class which specifies page legend.
+Gets or sets an instance of the [`PageLegend`](../../pagelegend) class which specifies rendering options of page legend.
 
 ```csharp
 public PageLegend Legend { get; set; }
 ```
+
+### Remarks
+
+Currently is applicable only to Gantt Chart views.
 
 ### Examples
 

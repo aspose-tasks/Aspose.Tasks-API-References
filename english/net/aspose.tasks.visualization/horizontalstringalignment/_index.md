@@ -3,7 +3,7 @@ title: HorizontalStringAlignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the alignment of a text string relative to its layout rectangle.
 type: docs
-weight: 2920
+weight: 2930
 url: /net/aspose.tasks.visualization/horizontalstringalignment/
 ---
 ## HorizontalStringAlignment enumeration

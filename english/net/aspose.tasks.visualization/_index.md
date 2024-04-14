@@ -64,7 +64,7 @@ Contains helper classes for rendering.
 | [HorizontalAlignment](./horizontalalignment) | Specifies how an object or text is horizontally aligned relative to another object. |
 | [HorizontalStringAlignment](./horizontalstringalignment) | Specifies the alignment of a text string relative to its layout rectangle. |
 | [Interval](./interval) | Specifies recurring intervals to display progress lines at. |
-| [Legend](./legend) | Specifies the pages on which the legend appears. |
+| [Legend](./legend) | Specifies the possible options used when rendering view's legend. |
 | [LinePattern](./linepattern) | Line pattern. |
 | [PageSize](./pagesize) | Specifies page size. |
 | [PresentationFormat](./presentationformat) | Enumeration for presentation format. |

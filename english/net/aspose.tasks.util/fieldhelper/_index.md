@@ -3,7 +3,7 @@ title: FieldHelper
 second_title: Aspose.Tasks for .NET API Reference
 description: Helper class which provides useful operations with fields.
 type: docs
-weight: 2480
+weight: 2490
 url: /net/aspose.tasks.util/fieldhelper/
 ---
 ## FieldHelper class
@@ -18,6 +18,7 @@ public static class FieldHelper
 
 | Name | Description |
 | --- | --- |
+| static [GetDefaultFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaultfieldtitle)(Field) | Returns a default title of the specific field. |
 | static [GetDefaultTaskFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle)(TaskKey) | Returns a default title of the specific task field. |
 
 ### See Also

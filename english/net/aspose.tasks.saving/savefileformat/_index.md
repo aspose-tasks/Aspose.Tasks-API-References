@@ -3,7 +3,7 @@ title: SaveFileFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Enumeration for saving project format selection.
 type: docs
-weight: 1980
+weight: 1990
 url: /net/aspose.tasks.saving/savefileformat/
 ---
 ## SaveFileFormat enumeration

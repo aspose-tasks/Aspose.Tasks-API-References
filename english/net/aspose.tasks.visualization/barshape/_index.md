@@ -3,7 +3,7 @@ title: BarShape
 second_title: Aspose.Tasks for .NET API Reference
 description: Shape of a bar rectangle.
 type: docs
-weight: 2720
+weight: 2730
 url: /net/aspose.tasks.visualization/barshape/
 ---
 ## BarShape enumeration

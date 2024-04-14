@@ -101,6 +101,7 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 | [GetTimephasedWork](../../aspose.tasks/resourceassignment/gettimephasedwork#gettimephasedwork_1)(DateTime, DateTime, TimephasedDataType) | Gets amount of timephased work for the specified date time interval. |
 | [MakeTPs](../../aspose.tasks/resourceassignment/maketps)(DateTime, TimeSpan, Calendar, List&lt;TimephasedData&gt;, bool, int) | Generates a list of time phased data. |
 | [Set&lt;T&gt;](../../aspose.tasks/resourceassignment/set)(Key&lt;T, AsnKey&gt;, T) | Maps the specified property to the specified value in this container. |
+| [SetMaterialResourceUnits](../../aspose.tasks/resourceassignment/setmaterialresourceunits)(double, RateScaleType) | Sets units for assignment of a material resource with variable material consumption. The variable material consumption means that as the assignment duration changes, the quantity of materials used changes proportionally. |
 | [SplitTask](../../aspose.tasks/resourceassignment/splittask)(DateTime, DateTime, Calendar) | Splits task into two parts. |
 | [TimephasedDataFromTaskDuration](../../aspose.tasks/resourceassignment/timephaseddatafromtaskduration)(Calendar) | Generates list of time phased data based on the task duration and the scheduled start date. |
 | override [ToString](../../aspose.tasks/resourceassignment/tostring)() | Returns short string representation of the instance of the [`ResourceAssignment`](../resourceassignment) class. The exact details of the representation are unspecified and subject to change. |

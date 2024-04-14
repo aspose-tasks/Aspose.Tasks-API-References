@@ -42,6 +42,7 @@ Contains classes for saving a project to different formats.
 | --- | --- |
 | [CsvTextDelimiter](./csvtextdelimiter) | Text delimiter for CSV format. |
 | [DataCategory](./datacategory) | The category of data used when saving to CSV. |
+| [LegendDrawingOptions](./legenddrawingoptions) | Specifies the possible options used when rendering view's legend. |
 | [PdfCompliance](./pdfcompliance) | Specifies the PDF compliance level to output file. |
 | [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm) | Specifies digital hash algorithm used by digital signature. |
 | [PdfEncryptionAlgorithm](./pdfencryptionalgorithm) | Specifies the encryption algorithm to use for encrypting a PDF document. |

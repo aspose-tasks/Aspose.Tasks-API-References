@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains a list of Table./table objects. Implements ICollectionltTablegt interface.
 type: docs
-weight: 2120
+weight: 2130
 url: /net/aspose.tasks/tablecollection/
 ---
 ## TableCollection class

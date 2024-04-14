@@ -22,6 +22,10 @@ public Duration GetDuration(double val)
 
 Duration object.
 
+### Remarks
+
+This method should be used carefully because it returns different durations depending on Project.DurationFormat setting. For example, GetWork(1.0) will return 1 hour when Project.DurationFormat is TimeUnitType.Hour or 1 day if Project.DurationFormat is TimeUnitType.Day.
+
 ### Examples
 
 Shows how to create a &lt;see cref="Aspose.Tasks.Duration" /&gt; instance with default project's duration format by using project fabric methods.

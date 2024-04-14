@@ -3,7 +3,7 @@ title: Timescale
 second_title: Aspose.Tasks for .NET API Reference
 description: Defines options which specifies how to render timescale in Gantt Chart Task Usage or Resource Usage views when the project is exported to a graphic format.
 type: docs
-weight: 3190
+weight: 3200
 url: /net/aspose.tasks.visualization/timescale/
 ---
 ## Timescale enumeration
