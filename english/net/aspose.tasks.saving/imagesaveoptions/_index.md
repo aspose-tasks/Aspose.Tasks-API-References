@@ -35,7 +35,7 @@ public class ImageSaveOptions : SaveOptions
 | [HorizontalResolution](../../aspose.tasks.saving/imagesaveoptions/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution in dpi. |
 | [IsPortrait](../../aspose.tasks.saving/saveoptions/isportrait) { get; set; } | Gets or sets a value indicating whether the page orientation is portrait; returns false if the page orientation is landscape. |
 | [JpegQuality](../../aspose.tasks.saving/imagesaveoptions/jpegquality) { get; set; } | Gets or sets a JPEG quality. The allowed value range is 0..100. |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage) { get; set; } | Gets or sets a value indicating whether legend should be shown on each page (Default value is TRUE). |
+| [LegendDrawingOptions](../../aspose.tasks.saving/saveoptions/legenddrawingoptions) { get; set; } | Gets or sets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage. |
 | [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks) { get; set; } | Gets or sets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
 | [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor) { get; set; } | Gets or sets the non-working time color. |
 | [PageCount](../../aspose.tasks.saving/saveoptions/pagecount) { get; } | Gets or sets the number of pages of project. |

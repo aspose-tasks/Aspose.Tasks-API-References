@@ -6,7 +6,7 @@ type: docs
 weight: 1200
 url: /net/aspose.tasks/project/save/
 ---
-## Save(string, SimpleSaveOptions) {#save_6}
+## Save(string, SimpleSaveOptions) {#save_4}
 
 Saves the document to a file using the specified save options.
 
@@ -38,7 +38,7 @@ project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
 
 ---
 
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
 Saves the project data to the file.
 
@@ -71,7 +71,7 @@ project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
 Saves the project data to the file in mpp format.
 
@@ -91,7 +91,7 @@ public void Save(string filename)
 
 ---
 
-## Save(Stream, SimpleSaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
 Saves the project to a stream using the specified save options.
 
@@ -142,7 +142,7 @@ using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", Fi
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
 Saves the project data to the stream.
 

@@ -20,7 +20,7 @@ public class Calendar
 | --- | --- |
 | [BaseCalendar](../../aspose.tasks/calendar/basecalendar) { get; set; } | Gets or sets the base calendar on which this calendar depends. Only applicable if the calendar is not a base calendar. |
 | [Exceptions](../../aspose.tasks/calendar/exceptions) { get; } | Gets CalendarExceptionCollection object. The collection of exceptions that is associated with the calendar. |
-| [Guid](../../aspose.tasks/calendar/guid) { get; } | Gets or sets calendar's Guid. |
+| [Guid](../../aspose.tasks/calendar/guid) { get; } | Gets calendar's Guid. |
 | [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar) { get; } | Gets a value indicating whether the calendar is a base calendar. |
 | [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar) { get; set; } | Gets or sets a value indicating whether the calendar is a baseline calendar. |
 | [Name](../../aspose.tasks/calendar/name) { get; set; } | Gets or sets the name of the calendar. |

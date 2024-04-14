@@ -3,7 +3,7 @@ title: ViewScreen
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the screen type for a view.
 type: docs
-weight: 2680
+weight: 2690
 url: /net/aspose.tasks/viewscreen/
 ---
 ## ViewScreen enumeration

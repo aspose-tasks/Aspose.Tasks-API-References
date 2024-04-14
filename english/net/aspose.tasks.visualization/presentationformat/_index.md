@@ -3,7 +3,7 @@ title: PresentationFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Enumeration for presentation format.
 type: docs
-weight: 3030
+weight: 3040
 url: /net/aspose.tasks.visualization/presentationformat/
 ---
 ## PresentationFormat enumeration

@@ -712,7 +712,6 @@ public enum Field
 | TaskDate8 | `188743952` | Represents the Date8 (Task) field. |
 | TaskDate9 | `188743953` | Represents the Date9 (Task) field. |
 | TaskDeadline | `188744117` | Represents the Deadline (Task) field. |
-| TaskDelay | `188743700` | Represents the Delay (Task) field. |
 | TaskDeliverableFinish | `188744833` | Represents the Deliverable Finish (Task) field. |
 | TaskDeliverableGuid | `188744826` | Represents the Deliverable GUID (Task) field. |
 | TaskDeliverableName | `188744956` | Represents the Deliverable Start (Task) field. |

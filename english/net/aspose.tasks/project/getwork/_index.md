@@ -22,6 +22,10 @@ public Duration GetWork(double val)
 
 Duration object.
 
+### Remarks
+
+This method should be used carefully because it returns different durations depending on Project.WorkFormat setting. For example, GetWork(1.0) will return 1 hour when Project.WorkFormat is TimeUnitType.Hour or 1 day if Project.WorkFormat is TimeUnitType.Day.
+
 ### Examples
 
 Shows how to get a work with default work format.

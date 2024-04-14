@@ -177,11 +177,11 @@ public class Project
 | [RenumberWBSCode](../../aspose.tasks/project/renumberwbscode#renumberwbscode_1)(List&lt;int&gt;) | Renumber WBS code of passed tasks. |
 | [RescheduleUncompletedWorkToStartAfter](../../aspose.tasks/project/rescheduleuncompletedworktostartafter#rescheduleuncompletedworktostartafter)(DateTime) | Reschedules uncompleted project work to start after a specified date. |
 | [RescheduleUncompletedWorkToStartAfter](../../aspose.tasks/project/rescheduleuncompletedworktostartafter#rescheduleuncompletedworktostartafter_1)(DateTime, List&lt;Task&gt;) | Reschedules uncompleted work for a specified list of tasks to start after a specified date. |
-| [Save](../../aspose.tasks/project/save#save_3)(string) | Saves the project data to the file in mpp format. |
-| [Save](../../aspose.tasks/project/save#save_1)(Stream, SaveFileFormat) | Saves the project data to the stream. |
-| [Save](../../aspose.tasks/project/save#save_2)(Stream, SimpleSaveOptions) | Saves the project to a stream using the specified save options. |
-| [Save](../../aspose.tasks/project/save#save_5)(string, SaveFileFormat) | Saves the project data to the file. |
-| [Save](../../aspose.tasks/project/save#save_6)(string, SimpleSaveOptions) | Saves the document to a file using the specified save options. |
+| [Save](../../aspose.tasks/project/save#save_2)(string) | Saves the project data to the file in mpp format. |
+| [Save](../../aspose.tasks/project/save#save)(Stream, SaveFileFormat) | Saves the project data to the stream. |
+| [Save](../../aspose.tasks/project/save#save_1)(Stream, SimpleSaveOptions) | Saves the project to a stream using the specified save options. |
+| [Save](../../aspose.tasks/project/save#save_3)(string, SaveFileFormat) | Saves the project data to the file. |
+| [Save](../../aspose.tasks/project/save#save_4)(string, SimpleSaveOptions) | Saves the document to a file using the specified save options. |
 | [SaveAsTemplate](../../aspose.tasks/project/saveastemplate#saveastemplate)(Stream) | Saves the project as a template to a specified stream. |
 | [SaveAsTemplate](../../aspose.tasks/project/saveastemplate#saveastemplate_2)(string) | Saves the project as a template to the specified file path. |
 | [SaveAsTemplate](../../aspose.tasks/project/saveastemplate#saveastemplate_1)(Stream, SaveTemplateOptions) | Saves the project as a template to a specified stream. |

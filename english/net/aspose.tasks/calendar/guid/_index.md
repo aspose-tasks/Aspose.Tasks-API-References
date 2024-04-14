@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Aspose.Tasks for .NET API Reference
-description: Gets or sets calendars Guid.
+description: Gets calendars Guid.
 type: docs
 weight: 60
 url: /net/aspose.tasks/calendar/guid/
 ---
 ## Calendar.Guid property
 
-Gets or sets calendar's Guid.
+Gets calendar's Guid.
 
 ```csharp
 public string Guid { get; }
