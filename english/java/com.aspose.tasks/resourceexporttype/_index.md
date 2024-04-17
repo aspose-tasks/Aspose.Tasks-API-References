@@ -3,7 +3,7 @@ title: ResourceExportType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the resource export type for HTML format.
 type: docs
-weight: 236
+weight: 237
 url: /java/com.aspose.tasks/resourceexporttype/
 ---
 

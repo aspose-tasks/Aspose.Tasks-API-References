@@ -3,7 +3,7 @@ title: PageSavingArgs
 second_title: Aspose.Tasks for Java API Reference
 description: This class represents set of data that related to saving of documents page to a stream.
 type: docs
-weight: 169
+weight: 170
 url: /java/com.aspose.tasks/pagesavingargs/
 ---
 

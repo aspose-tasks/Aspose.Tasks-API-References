@@ -1,7 +1,7 @@
 ---
 title: Legend
 second_title: Aspose.Tasks for Java API Reference
-description: Specifies the pages on which the legend appears.
+description: Specifies the possible options used when rendering views legend.
 type: docs
 weight: 135
 url: /java/com.aspose.tasks/legend/
@@ -13,21 +13,21 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class Legend extends System.Enum
 ```
 
-Specifies the pages on which the legend appears.
+Specifies the possible options used when rendering view's legend.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AfterLastPage](#AfterLastPage) | Legend appears after the last page. |
-| [NoLegend](#NoLegend) | No legend. |
-| [OnEveryPage](#OnEveryPage) | Legend appears on every page. |
+| [AfterLastPage](#AfterLastPage) | The legend is rendered on a separate page after the last page of the project's pages. |
+| [NoLegend](#NoLegend) | No legend is rendered. |
+| [OnEveryPage](#OnEveryPage) | The legend is rendered on every page. |
 ### AfterLastPage {#AfterLastPage}
 ```
 public static final int AfterLastPage
 ```
 
 
-Legend appears after the last page.
+The legend is rendered on a separate page after the last page of the project's pages.
 
 ### NoLegend {#NoLegend}
 ```
@@ -35,7 +35,7 @@ public static final int NoLegend
 ```
 
 
-No legend.
+No legend is rendered.
 
 ### OnEveryPage {#OnEveryPage}
 ```
@@ -43,5 +43,5 @@ public static final int OnEveryPage
 ```
 
 
-Legend appears on every page.
+The legend is rendered on every page.
 

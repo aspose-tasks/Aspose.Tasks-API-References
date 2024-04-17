@@ -3,7 +3,7 @@ title: PrimaveraXerReader
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a reader to read Project UIDs from Primavera XER file
 type: docs
-weight: 194
+weight: 195
 url: /java/com.aspose.tasks/primaveraxerreader/
 ---
 

@@ -3,7 +3,7 @@ title: MonthItemType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the month item for which an exception recurrence is scheduled.
 type: docs
-weight: 145
+weight: 146
 url: /java/com.aspose.tasks/monthitemtype/
 ---
 

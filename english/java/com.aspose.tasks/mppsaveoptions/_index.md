@@ -3,7 +3,7 @@ title: MPPSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when saving project data to MPP.
 type: docs
-weight: 140
+weight: 141
 url: /java/com.aspose.tasks/mppsaveoptions/
 ---
 

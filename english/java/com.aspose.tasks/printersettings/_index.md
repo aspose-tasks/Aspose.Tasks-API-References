@@ -3,7 +3,7 @@ title: PrinterSettings
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies information about how a document is printed including the printer that prints it.
 type: docs
-weight: 199
+weight: 200
 url: /java/com.aspose.tasks/printersettings/
 ---
 

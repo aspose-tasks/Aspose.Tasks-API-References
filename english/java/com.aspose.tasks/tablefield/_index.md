@@ -3,7 +3,7 @@ title: TableField
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a field of a table in a project.
 type: docs
-weight: 268
+weight: 269
 url: /java/com.aspose.tasks/tablefield/
 ---
 

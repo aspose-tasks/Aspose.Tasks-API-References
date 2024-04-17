@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 233
+weight: 234
 url: /java/com.aspose.tasks/resourceassignment/
 ---
 
@@ -135,6 +135,7 @@ Represents a resource assignment in a project.
 | [setHyperlinkSubAddress(String value)](#setHyperlinkSubAddress-java.lang.String-) | Sets a value of HyperlinkSubAddress. |
 | [setLevelingDelay(Duration value)](#setLevelingDelay-com.aspose.tasks.Duration-) | Sets a value of LevelingDelay. |
 | [setLinkedFields(boolean value)](#setLinkedFields-boolean-) | Sets a value indicating whether LinkedFields is set or not. |
+| [setMaterialResourceUnits(double units, int rateScaleType)](#setMaterialResourceUnits-double-int-) | Sets units for assignment of a material resource with variable material consumption. |
 | [setMilestone(boolean value)](#setMilestone-boolean-) | Sets a value indicating whether Milestone is set or not. |
 | [setNotesRTF(String value)](#setNotesRTF-java.lang.String-) | Sets the text notes in RTF format. |
 | [setNotesText(String value)](#setNotesText-java.lang.String-) | Sets notes' plain text extracted from RTF data. |
@@ -1475,6 +1476,24 @@ Sets a value indicating whether LinkedFields is set or not.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether LinkedFields is set or not. |
+
+### setMaterialResourceUnits(double units, int rateScaleType) {#setMaterialResourceUnits-double-int-}
+```
+public final void setMaterialResourceUnits(double units, int rateScaleType)
+```
+
+
+Sets units for assignment of a material resource with variable material consumption. The variable material consumption means that as the assignment duration changes, the quantity of materials used changes proportionally.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| units | double | Number of units accrued at the time period. |
+| rateScaleType | int | Time period at which the unit value is accrued.
+
+--------------------
+
+For example, to set '123/month', SetUnitsScaled(123D, RateScaleType.Month) should be called. |
 
 ### setMilestone(boolean value) {#setMilestone-boolean-}
 ```

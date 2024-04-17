@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a value in a value list.
 type: docs
-weight: 312
+weight: 313
 url: /java/com.aspose.tasks/value/
 ---
 
@@ -134,7 +134,7 @@ Gets the actual value which is used to represent Text string.
 
 --------------------
 
-Prefer this property over the  `Val` ([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Text value.
+Prefer this property over the `Val`([getVal()](../../com.aspose.tasks/value\#getVal--)/[setVal(String)](../../com.aspose.tasks/value\#setVal-String-)), when you need to set the Text value.
 
 **Returns:**
 java.lang.String - the actual value which is used to represent Text string.

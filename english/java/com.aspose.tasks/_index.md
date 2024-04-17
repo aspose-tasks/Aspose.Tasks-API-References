@@ -137,7 +137,8 @@ url: /java/com.aspose.tasks/
 | [InvalidPasswordException](../com.aspose.tasks/invalidpasswordexception) | Represents the exception type which is thrown when password protected file opening with wrong password. |
 | [ItemType](../com.aspose.tasks/itemtype) | Specifies the type of an item. |
 | [Key&lt;T,K&gt;](../com.aspose.tasks/key) | Represents a property key of a class of the specified type. |
-| [Legend](../com.aspose.tasks/legend) | Specifies the pages on which the legend appears. |
+| [Legend](../com.aspose.tasks/legend) | Specifies the possible options used when rendering view's legend. |
+| [LegendDrawingOptions](../com.aspose.tasks/legenddrawingoptions) | Specifies the possible options used when rendering view's legend. |
 | [License](../com.aspose.tasks/license) | Provides methods to license the component. |
 | [LinePattern](../com.aspose.tasks/linepattern) | Line pattern. |
 | [ListUtils](../com.aspose.tasks/listutils) | Utility class for list processing. |

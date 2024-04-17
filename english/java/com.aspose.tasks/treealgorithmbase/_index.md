@@ -3,7 +3,7 @@ title: TreeAlgorithmBase
 second_title: Aspose.Tasks for Java API Reference
 description: A base class for implementations of ITreeAlgorithmltTgt
 type: docs
-weight: 306
+weight: 307
 url: /java/com.aspose.tasks/treealgorithmbase/
 ---
 
