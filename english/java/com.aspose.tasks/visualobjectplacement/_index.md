@@ -3,7 +3,7 @@ title: VisualObjectPlacement
 second_title: Aspose.Tasks for Java API Reference
 description: Represents placement and appearance of  in a view.
 type: docs
-weight: 324
+weight: 325
 url: /java/com.aspose.tasks/visualobjectplacement/
 ---
 

@@ -3,7 +3,7 @@ title: RiskItemStatisticsCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection containing the instances of the  class.
 type: docs
-weight: 248
+weight: 249
 url: /java/com.aspose.tasks/riskitemstatisticscollection/
 ---
 

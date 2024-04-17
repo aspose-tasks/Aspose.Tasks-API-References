@@ -719,7 +719,6 @@ Specifies a field in the Microsoft Office Project.
 | [TaskDate8](#TaskDate8) | Represents the Date8 (Task) field. |
 | [TaskDate9](#TaskDate9) | Represents the Date9 (Task) field. |
 | [TaskDeadline](#TaskDeadline) | Represents the Deadline (Task) field. |
-| [TaskDelay](#TaskDelay) | Represents the Delay (Task) field. |
 | [TaskDeliverableFinish](#TaskDeliverableFinish) | Represents the Deliverable Finish (Task) field. |
 | [TaskDeliverableGuid](#TaskDeliverableGuid) | Represents the Deliverable GUID (Task) field. |
 | [TaskDeliverableName](#TaskDeliverableName) | Represents the Deliverable Start (Task) field. |
@@ -6976,14 +6975,6 @@ public static final int TaskDeadline
 
 
 Represents the Deadline (Task) field.
-
-### TaskDelay {#TaskDelay}
-```
-public static final int TaskDelay
-```
-
-
-Represents the Delay (Task) field.
 
 ### TaskDeliverableFinish {#TaskDeliverableFinish}
 ```

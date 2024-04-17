@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 271
+weight: 272
 url: /java/com.aspose.tasks/task/
 ---
 
@@ -48,6 +48,8 @@ To build a tree of tasks one can use a specialized collection [TaskCollection](.
   project.Save("Filled project.xml", SaveFileFormat.Mpp);
   
 ```
+
+
 ## Methods
 
 | Method | Description |

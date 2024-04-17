@@ -3,7 +3,7 @@ title: OutlineValue
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an outline value.
 type: docs
-weight: 163
+weight: 164
 url: /java/com.aspose.tasks/outlinevalue/
 ---
 

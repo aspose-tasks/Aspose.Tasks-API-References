@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.tasks/saveoptions/
 ---
 
@@ -29,6 +29,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getFitContent()](#getFitContent--) | Gets a value indicating whether row height should be increased to fit its content. |
 | [getFitTimescaleToEndOfPage()](#getFitTimescaleToEndOfPage--) | Gets whether a calendar section of a view should be rendered to the end (right side) of the last page. |
 | [getGridlines()](#getGridlines--) | Gets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view. |
+| [getLegendDrawingOptions()](#getLegendDrawingOptions--) | Gets a value which define how to render a legend. |
 | [getLegendOnEachPage()](#getLegendOnEachPage--) | Gets a value indicating whether legend should be shown on each page (Default value is TRUE). |
 | [getMarkCriticalTasks()](#getMarkCriticalTasks--) | Gets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
 | [getNonWorkingTimeColor()](#getNonWorkingTimeColor--) | Gets the non-working time color. |
@@ -51,6 +52,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setFitContent(boolean value)](#setFitContent-boolean-) | Sets a value indicating whether row height should be increased to fit its content. |
 | [setFitTimescaleToEndOfPage(boolean value)](#setFitTimescaleToEndOfPage-boolean-) | Sets whether a calendar section of a view should be rendered to the end (right side) of the last page. |
 | [setGridlines(List&lt;Gridline&gt; value)](#setGridlines-java.util.List-com.aspose.tasks.Gridline--) | Sets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view. |
+| [setLegendDrawingOptions(int value)](#setLegendDrawingOptions-int-) | Sets a value which define how to render a legend. |
 | [setLegendOnEachPage(boolean value)](#setLegendOnEachPage-boolean-) | Sets a value indicating whether legend should be shown on each page (Default value is TRUE). |
 | [setMarkCriticalTasks(boolean value)](#setMarkCriticalTasks-boolean-) | Sets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
 | [setNonWorkingTimeColor(Color value)](#setNonWorkingTimeColor-java.awt.Color-) | Sets the non-working time color. |
@@ -135,6 +137,16 @@ Gets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in projec
 
 **Returns:**
 java.util.List&lt;com.aspose.tasks.Gridline&gt; - a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view.
+### getLegendDrawingOptions() {#getLegendDrawingOptions--}
+```
+public final int getLegendDrawingOptions()
+```
+
+
+Gets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage.
+
+**Returns:**
+int - a value which define how to render a legend.
 ### getLegendOnEachPage() {#getLegendOnEachPage--}
 ```
 public final boolean getLegendOnEachPage()
@@ -387,6 +399,19 @@ Sets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in projec
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.List&lt;com.aspose.tasks.Gridline&gt; | a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view. |
+
+### setLegendDrawingOptions(int value) {#setLegendDrawingOptions-int-}
+```
+public final void setLegendDrawingOptions(int value)
+```
+
+
+Sets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a value which define how to render a legend. |
 
 ### setLegendOnEachPage(boolean value) {#setLegendOnEachPage-boolean-}
 ```

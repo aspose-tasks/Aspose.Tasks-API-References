@@ -3,7 +3,7 @@ title: Not
 second_title: Aspose.Tasks for Java API Reference
 description: Applies logical NOT to the specified condition.
 type: docs
-weight: 152
+weight: 153
 url: /java/com.aspose.tasks/not/
 ---
 

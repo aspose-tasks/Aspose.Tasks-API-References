@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents page setup data which is present in MPP file format and used for printing.
 type: docs
-weight: 166
+weight: 167
 url: /java/com.aspose.tasks/pageinfo/
 ---
 
@@ -25,14 +25,14 @@ Represents page setup data which is present in MPP file format and used for prin
 | --- | --- |
 | [getFooter()](#getFooter--) | Gets an instance of the [HeaderFooterInfo](../../com.aspose.tasks/headerfooterinfo) class which represents a footer data. |
 | [getHeader()](#getHeader--) | Gets the instance of the [HeaderFooterInfo](../../com.aspose.tasks/headerfooterinfo) class which represents a header data. |
-| [getLegend()](#getLegend--) | Gets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend. |
+| [getLegend()](#getLegend--) | Gets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies rendering options of page legend. |
 | [getMargins()](#getMargins--) | Gets an instance of the [PageMargins](../../com.aspose.tasks/pagemargins) class which specifies page margins. |
 | [getName()](#getName--) | Gets the name of the view for which set-up data is used. |
 | [getPageSettings()](#getPageSettings--) | Gets an instance of the `PageSettings`([getPageSettings()](../../com.aspose.tasks/pageinfo\#getPageSettings--)) class which specifies page printing settings. |
 | [getPageViewSettings()](#getPageViewSettings--) | Gets an instance of the `PageViewSettings`([getPageViewSettings()](../../com.aspose.tasks/pageinfo\#getPageViewSettings--)) class which specifies page view printing settings. |
 | [setFooter(HeaderFooterInfo value)](#setFooter-com.aspose.tasks.HeaderFooterInfo-) | Sets an instance of the [HeaderFooterInfo](../../com.aspose.tasks/headerfooterinfo) class which represents a footer data. |
 | [setHeader(HeaderFooterInfo value)](#setHeader-com.aspose.tasks.HeaderFooterInfo-) | Sets the instance of the [HeaderFooterInfo](../../com.aspose.tasks/headerfooterinfo) class which represents a header data. |
-| [setLegend(PageLegend value)](#setLegend-com.aspose.tasks.PageLegend-) | Sets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend. |
+| [setLegend(PageLegend value)](#setLegend-com.aspose.tasks.PageLegend-) | Sets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies rendering options of page legend. |
 ### PageInfo() {#PageInfo--}
 ```
 public PageInfo()
@@ -67,7 +67,11 @@ public final PageLegend getLegend()
 ```
 
 
-Gets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend.
+Gets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies rendering options of page legend.
+
+--------------------
+
+Currently is applicable only to Gantt Chart views.
 
 **Returns:**
 [PageLegend](../../com.aspose.tasks/pagelegend) - an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend.
@@ -143,10 +147,14 @@ public final void setLegend(PageLegend value)
 ```
 
 
-Sets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend.
+Sets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies rendering options of page legend.
+
+--------------------
+
+Currently is applicable only to Gantt Chart views.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PageLegend](../../com.aspose.tasks/pagelegend) | an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend. |
+| value | [PageLegend](../../com.aspose.tasks/pagelegend) | an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies rendering options of page legend. |
 
