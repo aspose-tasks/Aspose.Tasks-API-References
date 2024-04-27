@@ -55,7 +55,7 @@ Contains helper classes for rendering.
 |[HorizontalAlignment](/tasks/python-net/aspose.tasks.visualization/horizontalalignment/)|Specifies how an object or text is horizontally aligned relative to another object.|
 |[HorizontalStringAlignment](/tasks/python-net/aspose.tasks.visualization/horizontalstringalignment/)|Specifies the alignment of a text string relative to its layout rectangle.|
 |[Interval](/tasks/python-net/aspose.tasks.visualization/interval/)|Specifies recurring intervals to display progress lines at.|
-|[Legend](/tasks/python-net/aspose.tasks.visualization/legend/)|Specifies the pages on which the legend appears.|
+|[Legend](/tasks/python-net/aspose.tasks.visualization/legend/)|Specifies the possible options used when rendering view's legend.|
 |[LinePattern](/tasks/python-net/aspose.tasks.visualization/linepattern/)|Line pattern.|
 |[PageSize](/tasks/python-net/aspose.tasks.visualization/pagesize/)|Specifies page size.|
 |[PresentationFormat](/tasks/python-net/aspose.tasks.visualization/presentationformat/)|Enumeration for presentation format.|
