@@ -138,11 +138,9 @@ The Project type exposes the following members:
 |get_project_file_info(stream)|Gets project file info from the stream.|
 |recalculate()|Recalculates Start and Finish of resources.|
 |recalculate(validate)|Reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields with optional validation.|
-|save(filename, options)|Saves the document to mpp file format using the specified save options.|
 |save(filename, options)|Saves the document to a file using the specified save options.|
 |save(filename, format)|Saves the project data to the file.|
-|save(filename)|Saves the document to mpp file format using the specified save options.|
-|save(stream, options)|Saves the project to a stream using the specified save options.|
+|save(filename)|Saves the document to a file using the specified save options.|
 |save(stream, options)|Saves the project to a stream using the specified save options.|
 |save(stream, format)|Saves the project data to the stream.|
 |save_report(stream)|Saves the project overview report to the stream.|

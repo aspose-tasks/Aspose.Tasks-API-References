@@ -708,7 +708,6 @@ Specifies a field in the Microsoft Office Project.
 |TASK_DATE8|Represents the Date8 (Task) field.|
 |TASK_DATE9|Represents the Date9 (Task) field.|
 |TASK_DEADLINE|Represents the Deadline (Task) field.|
-|TASK_DELAY|Represents the Delay (Task) field.|
 |TASK_DELIVERABLE_FINISH|Represents the Deliverable Finish (Task) field.|
 |TASK_DELIVERABLE_GUID|Represents the Deliverable GUID (Task) field.|
 |TASK_DELIVERABLE_NAME|Represents the Deliverable Start (Task) field.|
