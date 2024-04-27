@@ -38,6 +38,7 @@ Contains classes for saving a project to different formats.
 | :- | :- |
 |[CsvTextDelimiter](/tasks/python-net/aspose.tasks.saving/csvtextdelimiter/)|Text delimiter for CSV format.|
 |[DataCategory](/tasks/python-net/aspose.tasks.saving/datacategory/)|The category of data used when saving to CSV.|
+|[LegendDrawingOptions](/tasks/python-net/aspose.tasks.saving/legenddrawingoptions/)|Specifies the possible options used when rendering view's legend.|
 |[PdfCompliance](/tasks/python-net/aspose.tasks.saving/pdfcompliance/)|Specifies the PDF compliance level to output file.|
 |[PdfDigitalSignatureHashAlgorithm](/tasks/python-net/aspose.tasks.saving/pdfdigitalsignaturehashalgorithm/)|Specifies digital hash algorithm used by digital signature.|
 |[PdfEncryptionAlgorithm](/tasks/python-net/aspose.tasks.saving/pdfencryptionalgorithm/)|Specifies the encryption algorithm to use for encrypting a PDF document.|

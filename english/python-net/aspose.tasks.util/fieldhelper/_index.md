@@ -16,6 +16,7 @@ The FieldHelper type exposes the following members:
 | Name | Description |
 | :- | :- |
 |get_default_task_field_title(task_key)|Returns a default title of the specific task field.|
+|get_default_field_title(field)|Returns a default title of the specific field.|
 
 ### See Also
 

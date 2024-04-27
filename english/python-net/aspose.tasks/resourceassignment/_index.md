@@ -94,6 +94,7 @@ The ResourceAssignment type exposes the following members:
 |timephased_data_from_task_duration(calendar)|Generates list of time phased data based on the task duration and the scheduled start date.|
 |make_t_ps(start, time, calendar, list, is_working, type)|Generates a list of time phased data.|
 |split_task(start, finish, calendar)|Splits task into two parts.|
+|set_material_resource_units(units, rate_scale_type)|Sets units for assignment of a material resource with variable material consumption.<br/>            The variable material consumption means that as the assignment duration changes, the quantity of materials used changes proportionally.|
 
 ### See Also
 
