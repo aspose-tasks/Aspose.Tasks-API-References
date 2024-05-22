@@ -29,6 +29,24 @@ public void SetMaterialResourceUnits(double units, RateScaleType rateScaleType)
 
 For example, to set '123/month', SetUnitsScaled(123D, RateScaleType.Month) should be called.
 
+### Examples
+
+Shows how to set variable material consumption (e.g. '10/day' or '1/week') for an assignment of a material resource.
+
+```csharp
+var project = new Project(DataDir + "New project 2013.mpp");
+
+var task = project.RootTask.Children.Add("t1");
+
+var materialResource = project.Resources.Add("materialResource");
+materialResource.Set(Rsc.Type, ResourceType.Material);
+
+var materialResourceAssignment = project.ResourceAssignments.Add(task, materialResource);
+
+// Suppose we want to set '1/week' material consumption.
+materialResourceAssignment.SetMaterialResourceUnits(1D, RateScaleType.Week);
+```
+
 ### See Also
 
 * enum [RateScaleType](../../ratescaletype)

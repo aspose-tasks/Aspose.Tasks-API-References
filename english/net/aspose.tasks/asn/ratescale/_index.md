@@ -16,7 +16,7 @@ public static readonly Key<RateScaleType, AsnKey> RateScale;
 
 ### Examples
 
-Shows how to work with assignment's rate scale.
+Shows how to work with assignment's rate scale when we want to set variable material consumption (e.g. '10/day' or '1/week') for an assignment of a material resource.
 
 ```csharp
 var project = new Project(DataDir + "New project 2013.mpp");
@@ -30,7 +30,14 @@ var nonMaterialResource = project.Resources.Add("nonMaterialResource");
 nonMaterialResource.Set(Rsc.Type, ResourceType.Work);
 
 var materialResourceAssignment = project.ResourceAssignments.Add(task, materialResource);
+
+// Suppose we want to set '1/week' material consumption.
+// We should set hourly rate to Units property, so we divide 1D by hours per week.
+materialResourceAssignment.Set(Asn.Units, 1D / 40);
 materialResourceAssignment.Set(Asn.RateScale, RateScaleType.Week);
+
+// Please note that starting with 24.4. this can be done by calling 1 method:
+// materialResourceAssignment.SetMaterialResourceUnits(1D, RateScaleType.Week);
 
 var nonMaterialResourceAssignment = project.ResourceAssignments.Add(task, nonMaterialResource);
 nonMaterialResourceAssignment.Set(Asn.RateScale, RateScaleType.Week);
