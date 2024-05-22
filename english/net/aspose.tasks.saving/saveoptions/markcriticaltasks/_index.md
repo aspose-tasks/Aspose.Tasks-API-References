@@ -25,7 +25,7 @@ var options = new ImageSaveOptions(SaveFileFormat.Png)
     StartDate = project.Get(Prj.StartDate).AddDays(-3),
     EndDate = project.Get(Prj.FinishDate),
     MarkCriticalTasks = true,
-    LegendOnEachPage = false,
+    LegendDrawingOptions = LegendDrawingOptions.NoLegend,
     Gridlines = new List<Gridline>()
 };
 

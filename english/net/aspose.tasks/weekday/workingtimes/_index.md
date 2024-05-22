@@ -26,7 +26,7 @@ var calendar = project.Calendars.Add("Calendar1");
 
 // Add working days monday through thursday with default timings
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
-calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(new WeekDay(DayType.Tuesday, new WorkingTime(9, 11), new WorkingTime(12, 18)));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
 
