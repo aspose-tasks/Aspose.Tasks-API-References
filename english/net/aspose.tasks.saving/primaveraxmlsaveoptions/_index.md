@@ -3,7 +3,7 @@ title: PrimaveraXmlSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when saving project to Primavera xml format.
 type: docs
-weight: 1970
+weight: 2030
 url: /net/aspose.tasks.saving/primaveraxmlsaveoptions/
 ---
 ## PrimaveraXmlSaveOptions class

@@ -3,7 +3,7 @@ title: ProbabilityDistributionType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies types of supported probability distributions.
 type: docs
-weight: 1670
+weight: 1730
 url: /net/aspose.tasks.riskanalysis/probabilitydistributiontype/
 ---
 ## ProbabilityDistributionType enumeration

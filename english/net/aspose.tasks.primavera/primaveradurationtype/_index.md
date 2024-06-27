@@ -3,7 +3,7 @@ title: PrimaveraDurationType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies duration type of Primavera activity.
 type: docs
-weight: 1150
+weight: 1210
 url: /net/aspose.tasks.primavera/primaveradurationtype/
 ---
 ## PrimaveraDurationType enumeration

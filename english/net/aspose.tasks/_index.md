@@ -168,6 +168,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [ICssSavingCallback](./icsssavingcallback) | Represents a callback that is called to create resource to store CSS. |
 | [IFontSavingCallback](./ifontsavingcallback) | Represents a callback that is called to create resource to store fonts. |
 | [IImageSavingCallback](./iimagesavingcallback) | Represents a callback that is called to create resource to store images. |
+| [IMessageHandler](./imessagehandler) | Represents a callback the results of resource leveling. |
 | [IVbaModule](./ivbamodule) | Represents a module with VBA code. |
 ## Enumeration
 
@@ -203,6 +204,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [HtmlImageType](./htmlimagetype) | Represents HTML image type. |
 | [ItemType](./itemtype) | Specifies the type of an item. |
 | [MaskType](./masktype) | Specifies the type of a mask. |
+| [MessageLevel](./messagelevel) | Defines the possible message verbosity levels. |
 | [MinuteLabelDisplay](./minutelabeldisplay) | Specifies how the minute label displays. |
 | [Month](./month) | Specifies the month. |
 | [MonthItemType](./monthitemtype) | Specifies the month item for which an exception recurrence is scheduled. |

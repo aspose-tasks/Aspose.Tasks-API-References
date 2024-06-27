@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of a time unit.
 type: docs
-weight: 2360
+weight: 2420
 url: /net/aspose.tasks/timeunittype/
 ---
 ## TimeUnitType enumeration

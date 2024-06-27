@@ -3,7 +3,7 @@ title: LegendDrawingOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the possible options used when rendering views legend.
 type: docs
-weight: 1850
+weight: 1910
 url: /net/aspose.tasks.saving/legenddrawingoptions/
 ---
 ## LegendDrawingOptions enumeration

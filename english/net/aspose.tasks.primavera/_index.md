@@ -3,7 +3,7 @@ title: Aspose.Tasks.Primavera
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains classes necessary to work with Primaveraspecific formats XER Primavera XML.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.tasks.primavera/
 ---
 Contains classes necessary to work with Primavera-specific formats (XER, Primavera XML).

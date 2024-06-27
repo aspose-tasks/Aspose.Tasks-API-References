@@ -3,7 +3,7 @@ title: ChildTasksCollector
 second_title: Aspose.Tasks for .NET API Reference
 description: Collects all child tasks.
 type: docs
-weight: 2480
+weight: 2540
 url: /net/aspose.tasks.util/childtaskscollector/
 ---
 ## ChildTasksCollector class

@@ -3,7 +3,7 @@ title: MinuteLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies how the minute label displays.
 type: docs
-weight: 910
+weight: 970
 url: /net/aspose.tasks/minutelabeldisplay/
 ---
 ## MinuteLabelDisplay enumeration

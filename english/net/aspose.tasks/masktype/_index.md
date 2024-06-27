@@ -3,7 +3,7 @@ title: MaskType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of a mask.
 type: docs
-weight: 890
+weight: 940
 url: /net/aspose.tasks/masktype/
 ---
 ## MaskType enumeration
