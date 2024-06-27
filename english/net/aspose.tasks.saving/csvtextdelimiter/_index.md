@@ -3,7 +3,7 @@ title: CsvTextDelimiter
 second_title: Aspose.Tasks for .NET API Reference
 description: Text delimiter for CSV format.
 type: docs
-weight: 1800
+weight: 1860
 url: /net/aspose.tasks.saving/csvtextdelimiter/
 ---
 ## CsvTextDelimiter enumeration

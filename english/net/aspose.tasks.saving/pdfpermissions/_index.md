@@ -3,7 +3,7 @@ title: PdfPermissions
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies permissions to use for accessing a PDF document.
 type: docs
-weight: 1930
+weight: 1990
 url: /net/aspose.tasks.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration

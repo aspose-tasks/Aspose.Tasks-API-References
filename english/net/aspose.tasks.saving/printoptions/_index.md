@@ -3,7 +3,7 @@ title: PrintOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when printing project.
 type: docs
-weight: 1980
+weight: 2040
 url: /net/aspose.tasks.saving/printoptions/
 ---
 ## PrintOptions class

@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Allows to specify additional options when rendering project pages to images.
 type: docs
-weight: 1840
+weight: 1900
 url: /net/aspose.tasks.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class

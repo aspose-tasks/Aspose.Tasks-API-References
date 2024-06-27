@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a working time during a weekday.
 type: docs
-weight: 3420
+weight: 3480
 url: /net/aspose.tasks/workingtime/
 ---
 ## WorkingTime class

@@ -3,7 +3,7 @@ title: RiskAnalysisResult
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a result of risk analysis.
 type: docs
-weight: 1680
+weight: 1740
 url: /net/aspose.tasks.riskanalysis/riskanalysisresult/
 ---
 ## RiskAnalysisResult class

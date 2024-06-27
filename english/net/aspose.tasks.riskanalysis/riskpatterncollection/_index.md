@@ -3,7 +3,7 @@ title: RiskPatternCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection containing the instances of the RiskPattern./riskpattern class.
 type: docs
-weight: 1750
+weight: 1810
 url: /net/aspose.tasks.riskanalysis/riskpatterncollection/
 ---
 ## RiskPatternCollection class

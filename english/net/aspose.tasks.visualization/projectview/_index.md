@@ -3,7 +3,7 @@ title: ProjectView
 second_title: Aspose.Tasks for .NET API Reference
 description: Projects view class
 type: docs
-weight: 3070
+weight: 3130
 url: /net/aspose.tasks.visualization/projectview/
 ---
 ## ProjectView class

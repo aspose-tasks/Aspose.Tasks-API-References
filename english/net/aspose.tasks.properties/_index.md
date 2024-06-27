@@ -3,7 +3,7 @@ title: Aspose.Tasks.Properties
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains classes for working with properties.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.tasks.properties/
 ---
 Contains classes for working with properties.

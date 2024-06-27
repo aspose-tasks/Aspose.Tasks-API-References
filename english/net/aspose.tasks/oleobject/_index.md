@@ -3,7 +3,7 @@ title: OleObject
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an OLE object which can be inserter into Gantt Chart View of an MPP file.
 type: docs
-weight: 1000
+weight: 1060
 url: /net/aspose.tasks/oleobject/
 ---
 ## OleObject class

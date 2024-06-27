@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails
 second_title: Aspose.Tasks for .NET API Reference
 description: Contains details for a PDF digital signature.
 type: docs
-weight: 1890
+weight: 1950
 url: /net/aspose.tasks.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class

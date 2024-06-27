@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the possible options used when rendering views legend.
 type: docs
-weight: 2960
+weight: 3020
 url: /net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration

@@ -3,7 +3,7 @@ title: GanttBarEndShape
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents end shape in bars and progress points in progress lines.
 type: docs
-weight: 2810
+weight: 2870
 url: /net/aspose.tasks.visualization/ganttbarendshape/
 ---
 ## GanttBarEndShape enumeration

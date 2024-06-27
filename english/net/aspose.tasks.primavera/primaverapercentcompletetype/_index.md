@@ -3,7 +3,7 @@ title: PrimaveraPercentCompleteType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies value of  Complete Type field for Primavera activities.
 type: docs
-weight: 1160
+weight: 1220
 url: /net/aspose.tasks.primavera/primaverapercentcompletetype/
 ---
 ## PrimaveraPercentCompleteType enumeration

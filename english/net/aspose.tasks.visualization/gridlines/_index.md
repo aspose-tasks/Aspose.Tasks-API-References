@@ -3,7 +3,7 @@ title: Gridlines
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents gridlines that appear in a GanttChart view.
 type: docs
-weight: 2900
+weight: 2960
 url: /net/aspose.tasks.visualization/gridlines/
 ---
 ## Gridlines class

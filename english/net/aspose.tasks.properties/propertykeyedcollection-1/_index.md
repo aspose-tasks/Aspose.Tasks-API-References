@@ -3,7 +3,7 @@ title: PropertyKeyedCollectionT
 second_title: Aspose.Tasks for .NET API Reference
 description: A base class of collection of properties.
 type: docs
-weight: 1420
+weight: 1480
 url: /net/aspose.tasks.properties/propertykeyedcollection-1/
 ---
 ## PropertyKeyedCollection&lt;T&gt; class

@@ -3,7 +3,7 @@ title: NoPrinterInstalledException
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an exception which is thrown when there is no installed printer in OS.
 type: docs
-weight: 980
+weight: 1040
 url: /net/aspose.tasks/noprinterinstalledexception/
 ---
 ## NoPrinterInstalledException class
