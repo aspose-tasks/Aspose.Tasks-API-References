@@ -3,7 +3,7 @@ title: ProjectServerSaveOptions
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 810
+weight: 820
 url: /python-net/aspose.tasks/projectserversaveoptions/
 ---
 
@@ -15,7 +15,7 @@ The ProjectServerSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectServerSaveOptions()|Initializes a new instance of the|
+|ProjectServerSaveOptions()|Initializes a new instance of the [ProjectServerSaveOptions](/tasks/python-net/aspose.tasks/projectserversaveoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

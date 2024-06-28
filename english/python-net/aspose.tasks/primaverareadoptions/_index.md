@@ -3,7 +3,7 @@ title: PrimaveraReadOptions
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 710
 url: /python-net/aspose.tasks/primaverareadoptions/
 ---
 
@@ -15,7 +15,7 @@ The PrimaveraReadOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraReadOptions()|Initializes a new instance of the|
+|PrimaveraReadOptions()|Initializes a new instance of the [PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

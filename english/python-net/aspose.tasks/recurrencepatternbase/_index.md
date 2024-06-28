@@ -3,7 +3,7 @@ title: RecurrencePatternBase
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 860
+weight: 870
 url: /python-net/aspose.tasks/recurrencepatternbase/
 ---
 

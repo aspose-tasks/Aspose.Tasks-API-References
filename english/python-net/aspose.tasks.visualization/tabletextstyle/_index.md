@@ -25,10 +25,10 @@ The TableTextStyle type exposes the following members:
 |font|Gets or sets font of the text style.|
 |color|Gets or sets color of the text.|
 |item_type|Returns a value of the [TextItemType](/tasks/python-net/aspose.tasks.visualization/textitemtype/) enum.|
-|background_pattern|Gets or sets background pattern of the text style.|
-|background_color|Gets or sets background color of the text style.|
+|background_pattern|Gets or sets background pattern of the text style.<br/>            [background_pattern](/tasks/python-net/aspose.tasks.visualization/textstyle/).|
+|background_color|Gets or sets background color of the text style.<br/>            [color](/tasks/python-net/aspose.tasks.visualization/textstyle/).|
 |row_uid|Gets a row unique id.|
-|field|Gets or sets a field the style is to be applied to.|
+|field|Gets or sets a field the style is to be applied to.<br/>            [field](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/).|
 
 ### See Also
 

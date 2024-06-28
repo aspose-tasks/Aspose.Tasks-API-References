@@ -15,7 +15,7 @@ The DailyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|DailyRecurrencePattern()|Initializes a new instance of the|
+|DailyRecurrencePattern()|Initializes a new instance of the [DailyRecurrencePattern](/tasks/python-net/aspose.tasks/dailyrecurrencepattern/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

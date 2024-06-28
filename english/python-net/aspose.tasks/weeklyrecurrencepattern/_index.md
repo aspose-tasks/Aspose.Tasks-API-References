@@ -3,7 +3,7 @@ title: WeeklyRecurrencePattern
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1390
+weight: 1400
 url: /python-net/aspose.tasks/weeklyrecurrencepattern/
 ---
 
@@ -15,7 +15,7 @@ The WeeklyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WeeklyRecurrencePattern()|Initializes a new instance of the|
+|WeeklyRecurrencePattern()|Initializes a new instance of the [WeeklyRecurrencePattern](/tasks/python-net/aspose.tasks/weeklyrecurrencepattern/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

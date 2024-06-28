@@ -3,7 +3,7 @@ title: OutlineCodeDefinition
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 620
 url: /python-net/aspose.tasks/outlinecodedefinition/
 ---
 
@@ -15,7 +15,7 @@ The OutlineCodeDefinition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|OutlineCodeDefinition()|Initializes a new instance of the|
+|OutlineCodeDefinition()|Initializes a new instance of the [OutlineCodeDefinition](/tasks/python-net/aspose.tasks/outlinecodedefinition/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -31,7 +31,7 @@ The OutlineCodeDefinition type exposes the following members:
 |leaf_only|Gets or sets a value indicating whether the values specified in this outline code field must be leaf values.|
 |all_levels_required|Gets or sets a value indicating whether the new codes must have all levels.<br/>            Not available for Enterprise Codes.|
 |only_table_values_allowed|Gets or sets a value indicating whether the values specified must come from values table.|
-|masks|Gets the OutlineMaskCollection object.<br/>            The table of entries that define the outline code mask.<br/>            Read-only|
+|masks|Gets the OutlineMaskCollection object.<br/>            The table of entries that define the outline code mask.<br/>            Read-only [OutlineMaskCollection](/tasks/python-net/aspose.tasks/outlinemaskcollection/) instance.|
 |show_indent|Gets or sets a value indicating whether the indents of this outline code must be shown.|
 
 ### See Also

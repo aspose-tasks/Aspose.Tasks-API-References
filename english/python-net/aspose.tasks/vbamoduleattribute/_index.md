@@ -3,13 +3,13 @@ title: VbaModuleAttribute
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1250
+weight: 1260
 url: /python-net/aspose.tasks/vbamoduleattribute/
 ---
 
 ## VbaModuleAttribute class
 
-The attribute of the
+The attribute of the [VbaModule](/tasks/python-net/aspose.tasks/vbamodule/) object
 
 The VbaModuleAttribute type exposes the following members:
 ## Properties
@@ -20,7 +20,7 @@ The VbaModuleAttribute type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|equals(other)|Returns a value indicating whether this instance is equal to the specified|
+|equals(other)|Returns a value indicating whether this instance is equal to the specified [VbaModuleAttribute](/tasks/python-net/aspose.tasks/vbamoduleattribute/) object.|
 
 ### See Also
 

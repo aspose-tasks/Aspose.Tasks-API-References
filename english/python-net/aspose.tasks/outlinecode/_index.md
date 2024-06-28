@@ -3,7 +3,7 @@ title: OutlineCode
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 600
 url: /python-net/aspose.tasks/outlinecode/
 ---
 
@@ -15,7 +15,7 @@ The OutlineCode type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|OutlineCode()|Initializes a new instance of the|
+|OutlineCode()|Initializes a new instance of the [OutlineCode](/tasks/python-net/aspose.tasks/outlinecode/) class.|
 |OutlineCode(code_definition, outline_value)|Initializes a new instance of the OutlineCode class|
 ## Properties
 | Name | Description |

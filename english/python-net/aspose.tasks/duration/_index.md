@@ -19,7 +19,7 @@ The Duration type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|time_span|Gets|
+|time_span|Gets [time_span](/tasks/python-net/aspose.tasks/duration/) instance of this Duration object.|
 |time_unit|Gets time unit type for this object.|
 |is_estimated|Gets a value indicating whether time unit is estimated.|
 |is_elapsed|Gets a value indicating whether time unit is elapsed.|
@@ -30,9 +30,9 @@ The Duration type exposes the following members:
 |add(val)|Adds specified double value to this duration.|
 |subtract(d)|Subtracts specified duration from this duration instance.|
 |subtract(val)|Subtracts specified double value from this duration instance.|
-|parse(p, value)|Converts the specified string to the instance of|
+|parse(p, value)|Converts the specified string to the instance of [Duration](/tasks/python-net/aspose.tasks/duration/) struct.|
 |parse_time_span(value)|Parses duration string in format "PT--H--M--S--".|
-|to_double()|Converts Duration object to|
+|to_double()|Converts Duration object to float value.|
 |convert(time_unit_type)|Converts Duration object to another duration with specified time units.|
 |equals(other)|Returns a value indicating whether this instance is equal to a specified object.|
 

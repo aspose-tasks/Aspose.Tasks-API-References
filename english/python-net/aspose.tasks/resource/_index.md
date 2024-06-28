@@ -3,7 +3,7 @@ title: Resource
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 900
+weight: 910
 url: /python-net/aspose.tasks/resource/
 ---
 
@@ -90,17 +90,17 @@ The Resource type exposes the following members:
 |extended_attributes|Gets the values of an extended attribute.|
 |baselines|Gets a BaselineCollection instance for this object.<br/>            The baseline values for a resource.|
 |outline_code|Gets an OutlineCodeCollection object.<br/>            The value of an outline code.|
-|availability_periods|Gets a the instance of the|
-|rates|Gets a the instance of the|
+|availability_periods|Gets a the instance of the [AvailabilityPeriodCollection](/tasks/python-net/aspose.tasks/availabilityperiodcollection/) class.<br/>            The collection of periods during which a resource is available.|
+|rates|Gets a the instance of the [RateCollection](/tasks/python-net/aspose.tasks/ratecollection/) class for this object.<br/>            The collection of periods and rates associated with each one.|
 |assignments|Gets a collection of resource assignments for this object.|
-|timephased_data|Gets or sets an instance of|
+|timephased_data|Gets or sets an instance of [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class for this object.|
 |is_root|Gets the flag indicating whether resource is a root resource.<br/>            Root resource is a special resource which is intended to support internals of<br/>            MS Project's formats and is not intended to be used directly from the user's code.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_timephased_data(start, end, timephased_type)|Returns an instance of the|
-|get_timephased_data(start, end)|Returns an instance of the|
-|equals(other)|Returns a value indicating whether this instance is equal to a specified instance of the|
+|get_timephased_data(start, end, timephased_type)|Returns an instance of the [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class for this object with the [timephased_data](/tasks/python-net/aspose.tasks/resource/) values within given start and end dates of specified [TimephasedDataType](/tasks/python-net/aspose.tasks/timephaseddatatype/).|
+|get_timephased_data(start, end)|Returns an instance of the [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class for this object with the [timephased_data](/tasks/python-net/aspose.tasks/resource/) values within given start and end dates of specified [TimephasedDataType](/tasks/python-net/aspose.tasks/timephaseddatatype/).|
+|equals(other)|Returns a value indicating whether this instance is equal to a specified instance of the [Resource](/tasks/python-net/aspose.tasks/resource/) class.|
 |delete()|Deletes a resource and its assignments from project.|
 
 ### See Also

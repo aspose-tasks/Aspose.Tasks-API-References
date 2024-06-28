@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1230
+weight: 1240
 url: /python-net/aspose.tasks/value/
 ---
 
@@ -15,7 +15,7 @@ The Value type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Value()|Initializes a new instance of the|
+|Value()|Initializes a new instance of the [Value](/tasks/python-net/aspose.tasks/value/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,7 +25,7 @@ The Value type exposes the following members:
 |string_value|Gets or sets the actual value which is used to represent Text string.|
 |numeric_value|Gets or sets the actual value which is used to represent number or cost value.|
 |duration|Gets or sets the actual value which is used to represent Duration.|
-|date_time_value|Gets or sets the actual value if it can be represented as DateTime. Default value is|
+|date_time_value|Gets or sets the actual value if it can be represented as DateTime. Default value is min date value.|
 |description|Gets or sets the description of a value.|
 |phonetic|Gets or sets the phonetic information about custom field name.|
 

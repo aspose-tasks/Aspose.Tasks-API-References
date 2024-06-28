@@ -15,7 +15,7 @@ The EndAfterRecurrenceRange type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|EndAfterRecurrenceRange()|Initializes a new instance of the|
+|EndAfterRecurrenceRange()|Initializes a new instance of the [EndAfterRecurrenceRange](/tasks/python-net/aspose.tasks/endafterrecurrencerange/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

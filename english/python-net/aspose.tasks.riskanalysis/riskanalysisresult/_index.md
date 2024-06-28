@@ -17,7 +17,7 @@ The RiskAnalysisResult type exposes the following members:
 | :- | :- |
 |save_report(stream)|Saves the risk analysis report to the stream in PDF format.|
 |save_report(file_name)|Saves the risk analysis report to the specified file path in PDF format.|
-|get_risk_items(item_type)|Returns an instance of the|
+|get_risk_items(item_type)|Returns an instance of the [RiskItemStatisticsCollection](/tasks/python-net/aspose.tasks.riskanalysis/riskitemstatisticscollection/) for the specified risk type.|
 
 ### See Also
 
