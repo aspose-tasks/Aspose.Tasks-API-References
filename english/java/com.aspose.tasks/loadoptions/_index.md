@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional load parameters when loading a project from file or stream.
 type: docs
-weight: 140
+weight: 143
 url: /java/com.aspose.tasks/loadoptions/
 ---
 

@@ -3,7 +3,7 @@ title: MpdSettings
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to set necessary options to read project data from MPD format MS Access database file format.
 type: docs
-weight: 151
+weight: 155
 url: /java/com.aspose.tasks/mpdsettings/
 ---
 

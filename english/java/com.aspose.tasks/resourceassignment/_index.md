@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 234
+weight: 238
 url: /java/com.aspose.tasks/resourceassignment/
 ---
 
@@ -85,9 +85,9 @@ Represents a resource assignment in a project.
 | [getStop()](#getStop--) | Gets a value of Stop. |
 | [getSummary()](#getSummary--) | Gets a value indicating whether Summary is set or not. |
 | [getTask()](#getTask--) | The task to which a resource is assigned. |
-| [getTimephasedData()](#getTimephasedData--) | Gets the instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing elements of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class. |
-| [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with the instances of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of [TimephasedDataType.AssignmentWork](../../com.aspose.tasks/timephaseddatatype\#AssignmentWork). |
-| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns the instance [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing instances of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
+| [getTimephasedData()](#getTimephasedData--) | Gets the instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing elements of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class. |
+| [getTimephasedData(Date start, Date end)](#getTimephasedData-java.util.Date-java.util.Date-) | Returns [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) object with the instances of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of [TimephasedDataType.AssignmentWork](../../com.aspose.tasks/timephaseddatatype\#AssignmentWork). |
+| [getTimephasedData(Date start, Date end, byte timephasedType)](#getTimephasedData-java.util.Date-java.util.Date-byte-) | Returns the instance [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing instances of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class within given start and end dates of specified [TimephasedDataType](../../com.aspose.tasks/timephaseddatatype). |
 | [getTimephasedWork(Date start, Date end)](#getTimephasedWork-java.util.Date-java.util.Date-) | Gets amount of timephased work for the specified date time interval. |
 | [getTimephasedWork(Date start, Date end, byte timephasedDataType)](#getTimephasedWork-java.util.Date-java.util.Date-byte-) | Gets amount of timephased work for the specified date time interval. |
 | [getUid()](#getUid--) | Gets a value of Uid. |
@@ -159,7 +159,7 @@ Represents a resource assignment in a project.
 | [setStop(Date value)](#setStop-java.util.Date-) | Sets a value of Stop. |
 | [setSummary(boolean value)](#setSummary-boolean-) | Sets a value indicating whether Summary is set or not. |
 | [setTask(Task value)](#setTask-com.aspose.tasks.Task-) | The task to which a resource is assigned. |
-| [setTimephasedData(TimephasedDataCollection value)](#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-) | Sets the instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing elements of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/[setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class. |
+| [setTimephasedData(TimephasedDataCollection value)](#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-) | Sets the instance of [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) class containing elements of `TimephasedData`([getTimephasedData()](../../com.aspose.tasks/resourceassignment\#getTimephasedData--)/ [setTimephasedData(TimephasedDataCollection)](../../com.aspose.tasks/resourceassignment\#setTimephasedData-TimephasedDataCollection-)) class. |
 | [setUid(int value)](#setUid-int-) | Sets a value of Uid. |
 | [setUnits(double value)](#setUnits-double-) | Sets a value of Units. |
 | [setUpdateNeeded(boolean value)](#setUpdateNeeded-boolean-) | Sets a value indicating whether UpdateNeeded is set or not. |

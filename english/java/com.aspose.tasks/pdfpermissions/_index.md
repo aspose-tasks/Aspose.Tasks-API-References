@@ -3,7 +3,7 @@ title: PdfPermissions
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies permissions to use for accessing a PDF document.
 type: docs
-weight: 180
+weight: 184
 url: /java/com.aspose.tasks/pdfpermissions/
 ---
 

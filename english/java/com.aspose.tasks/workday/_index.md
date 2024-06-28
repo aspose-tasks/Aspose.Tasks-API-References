@@ -3,7 +3,7 @@ title: WorkDay
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a work day.
 type: docs
-weight: 339
+weight: 344
 url: /java/com.aspose.tasks/workday/
 ---
 

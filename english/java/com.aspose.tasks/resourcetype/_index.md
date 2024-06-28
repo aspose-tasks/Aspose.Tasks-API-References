@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of a resource.
 type: docs
-weight: 240
+weight: 245
 url: /java/com.aspose.tasks/resourcetype/
 ---
 

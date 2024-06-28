@@ -3,7 +3,7 @@ title: LinePattern
 second_title: Aspose.Tasks for Java API Reference
 description: Line pattern.
 type: docs
-weight: 138
+weight: 141
 url: /java/com.aspose.tasks/linepattern/
 ---
 

@@ -139,12 +139,16 @@ url: /java/com.aspose.tasks/
 | [Key&lt;T,K&gt;](../com.aspose.tasks/key) | Represents a property key of a class of the specified type. |
 | [Legend](../com.aspose.tasks/legend) | Specifies the possible options used when rendering view's legend. |
 | [LegendDrawingOptions](../com.aspose.tasks/legenddrawingoptions) | Specifies the possible options used when rendering view's legend. |
+| [LevelingOptions](../com.aspose.tasks/levelingoptions) | Allows to specify parameters of resource leveling. |
+| [LevelingOrder](../com.aspose.tasks/levelingorder) | Defines the possible values of leveling order. |
+| [LevelingResult](../com.aspose.tasks/levelingresult) | Represents the results of resource leveling. |
 | [License](../com.aspose.tasks/license) | Provides methods to license the component. |
 | [LinePattern](../com.aspose.tasks/linepattern) | Line pattern. |
 | [ListUtils](../com.aspose.tasks/listutils) | Utility class for list processing. |
 | [LoadOptions](../com.aspose.tasks/loadoptions) | Allows to specify additional load parameters when loading a project from file or stream. |
 | [MPPSaveOptions](../com.aspose.tasks/mppsaveoptions) | Allows to specify additional options when saving project data to MPP. |
 | [MaskType](../com.aspose.tasks/masktype) | Specifies the type of a mask. |
+| [MessageLevel](../com.aspose.tasks/messagelevel) | Defines the possible message verbosity levels. |
 | [Metered](../com.aspose.tasks/metered) | Provides methods to set metered key. |
 | [MinuteLabelDisplay](../com.aspose.tasks/minutelabeldisplay) | Specifies how the minute label displays. |
 | [Month](../com.aspose.tasks/month) | Specifies the month. |
@@ -241,6 +245,7 @@ url: /java/com.aspose.tasks/
 | [ResourceAssignmentCollection](../com.aspose.tasks/resourceassignmentcollection) | Represents a collection of [ResourceAssignment](../com.aspose.tasks/resourceassignment) objects. |
 | [ResourceCollection](../com.aspose.tasks/resourcecollection) | Represents a collection of [Resource](../com.aspose.tasks/resource) objects. |
 | [ResourceExportType](../com.aspose.tasks/resourceexporttype) | Specifies the resource export type for HTML format. |
+| [ResourceLeveler](../com.aspose.tasks/resourceleveler) | Contains resource leveling methods. |
 | [ResourceSavingArgs](../com.aspose.tasks/resourcesavingargs) | This class represents set of data that related to external resource file's saving that occurs during conversion to HTML format. |
 | [ResourceToColumnTextConverter](../com.aspose.tasks/resourcetocolumntextconverter) | Resource's data to column's string converter. |
 | [ResourceType](../com.aspose.tasks/resourcetype) | Specifies the type of a resource. |
@@ -367,6 +372,7 @@ url: /java/com.aspose.tasks/
 | [ICssSavingCallback](../com.aspose.tasks/icsssavingcallback) | Represents a callback that is called to create resource to store CSS. |
 | [IFontSavingCallback](../com.aspose.tasks/ifontsavingcallback) | Represents a callback that is called to create resource to store fonts. |
 | [IImageSavingCallback](../com.aspose.tasks/iimagesavingcallback) | Represents a callback that is called to create resource to store images. |
+| [IMessageHandler](../com.aspose.tasks/imessagehandler) | Represents a callback the results of resource leveling. |
 | [IPageSavingCallback](../com.aspose.tasks/ipagesavingcallback) | Represents a callback that is called when each page in multi page document is saved to a separate stream. |
 | [ITextStyleModificationCallback](../com.aspose.tasks/itextstylemodificationcallback) | Represents a callback that is called before TextStyle is applied to a table cell. |
 | [ITreeAlgorithm&lt;T&gt;](../com.aspose.tasks/itreealgorithm) | Represents an algorithm that can be applied to a tree of objects `T`. |

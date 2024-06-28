@@ -3,7 +3,7 @@ title: NullableBool
 second_title: Aspose.Tasks for Java API Reference
 description: A class for boolean values with possibility to check whether the value was defined or not.
 type: docs
-weight: 154
+weight: 158
 url: /java/com.aspose.tasks/nullablebool/
 ---
 
