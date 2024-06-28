@@ -15,7 +15,7 @@ The ByYearWeekDayRepetition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ByYearWeekDayRepetition()|Initializes a new instance of the|
+|ByYearWeekDayRepetition()|Initializes a new instance of the [ByYearWeekDayRepetition](/tasks/python-net/aspose.tasks/byyearweekdayrepetition/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

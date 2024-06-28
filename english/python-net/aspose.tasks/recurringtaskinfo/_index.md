@@ -3,7 +3,7 @@ title: RecurringTaskInfo
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.tasks/recurringtaskinfo/
 ---
 
@@ -34,7 +34,7 @@ The RecurringTaskInfo type exposes the following members:
 |yearly_date|Gets or sets a date for the yearly recurrence pattern.|
 |yearly_ordinal_number|Gets or sets an ordinal number of the yearly recurrence pattern.|
 |yearly_ordinal_month|Gets or sets a month of the yearly recurrence pattern when using ordinal day.|
-|task|Gets the parent task of this instance of|
+|task|Gets the parent task of this instance of [RecurringTaskInfo](/tasks/python-net/aspose.tasks/recurringtaskinfo/) class.|
 
 ### See Also
 

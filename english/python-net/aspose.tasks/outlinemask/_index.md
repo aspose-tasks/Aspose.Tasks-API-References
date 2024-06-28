@@ -3,7 +3,7 @@ title: OutlineMask
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 640
 url: /python-net/aspose.tasks/outlinemask/
 ---
 
@@ -15,7 +15,7 @@ The OutlineMask type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|OutlineMask()|Initializes a new instance of the|
+|OutlineMask()|Initializes a new instance of the [OutlineMask](/tasks/python-net/aspose.tasks/outlinemask/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

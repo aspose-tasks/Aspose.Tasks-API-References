@@ -3,7 +3,7 @@ title: TableField
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 1020
 url: /python-net/aspose.tasks/tablefield/
 ---
 
@@ -15,7 +15,7 @@ The TableField type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TableField()|Initializes a new instance of the|
+|TableField()|Initializes a new instance of the [TableField](/tasks/python-net/aspose.tasks/tablefield/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/groupcriterioncollection/
 
 ## GroupCriterionCollection class
 
-Contains a collection of
+Contains a collection of [GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/) objects.<br/>            Implements ICollection<GroupCriterion> interface.
 
 The GroupCriterionCollection type exposes the following members:
 ## Properties
@@ -19,7 +19,7 @@ The GroupCriterionCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts a GroupCriterion collection to a list of|
+|to_list()|Converts a GroupCriterion collection to a list of [GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/) objects.|
 
 ### See Also
 

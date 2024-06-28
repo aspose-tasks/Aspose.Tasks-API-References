@@ -9,13 +9,13 @@ url: /python-net/aspose.tasks/filtercollection/
 
 ## FilterCollection class
 
-Contains a list of
+Contains a list of [Filter](/tasks/python-net/aspose.tasks/filter/) objects.<br/>            Implements ICollection<Filter> interface.
 
 The FilterCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts a filter collection to a list of|
+|to_list()|Converts a filter collection to a list of [Filter](/tasks/python-net/aspose.tasks/filter/) objects.|
 
 ### See Also
 

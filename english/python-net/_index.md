@@ -12,6 +12,7 @@ url: /python-net/
 | :- | :- |
 |[aspose.tasks](/tasks/python-net/aspose.tasks/)|Contains classes for work with Microsoft Project documents without utilizing Microsoft Project.|
 |[aspose.tasks.connectivity](/tasks/python-net/aspose.tasks.connectivity/)|Contains classes for working with Databases.|
+|[aspose.tasks.leveling](/tasks/python-net/aspose.tasks.leveling/)|Contains classes necessary to work with resource leveling.|
 |[aspose.tasks.primavera](/tasks/python-net/aspose.tasks.primavera/)|Contains classes necessary to work with Primavera-specific formats (XER, Primavera XML).|
 |[aspose.tasks.properties](/tasks/python-net/aspose.tasks.properties/)|Contains classes for working with properties.|
 |[aspose.tasks.riskanalysis](/tasks/python-net/aspose.tasks.riskanalysis/)|Contains classes for creating Risk Analysis Report.|

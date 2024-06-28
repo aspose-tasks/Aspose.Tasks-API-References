@@ -3,7 +3,7 @@ title: NullableBool
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 570
 url: /python-net/aspose.tasks/nullablebool/
 ---
 
@@ -26,7 +26,7 @@ The NullableBool type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|equals(other)|Returns a flag indicating whether this instance is equal to the specified instance of the|
+|equals(other)|Returns a flag indicating whether this instance is equal to the specified instance of the [NullableBool](/tasks/python-net/aspose.tasks/nullablebool/) class.|
 
 ### See Also
 

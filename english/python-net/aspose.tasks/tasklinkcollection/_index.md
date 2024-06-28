@@ -3,13 +3,13 @@ title: TaskLinkCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1080
+weight: 1090
 url: /python-net/aspose.tasks/tasklinkcollection/
 ---
 
 ## TaskLinkCollection class
 
-Represents a collection of
+Represents a collection of [Task](/tasks/python-net/aspose.tasks/task/) objects.
 
 The TaskLinkCollection type exposes the following members:
 ## Properties
@@ -19,10 +19,10 @@ The TaskLinkCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|add(pred, succ)|Returns an instance of Finish-Start|
-|add(pred, succ, link_type)|Returns an instance of|
-|add(pred, succ, link_type, lag)|Returns an instance of|
-|to_list()|Converts the TaskLinkCollection object to a list of|
+|add(pred, succ)|Returns an instance of Finish-Start [TaskLink](/tasks/python-net/aspose.tasks/tasklink/) which has been added to the TaskLinkCollection object.|
+|add(pred, succ, link_type)|Returns an instance of [TaskLink](/tasks/python-net/aspose.tasks/tasklink/) which has been added to the TaskLinkCollection object.|
+|add(pred, succ, link_type, lag)|Returns an instance of [TaskLink](/tasks/python-net/aspose.tasks/tasklink/) which has been added to the TaskLinkCollection object.|
+|to_list()|Converts the TaskLinkCollection object to a list of [TaskLink](/tasks/python-net/aspose.tasks/tasklink/) objects.|
 
 ### See Also
 

@@ -15,7 +15,7 @@ The CalendarException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CalendarException()|Initializes a new instance of the|
+|CalendarException()|Initializes a new instance of the [CalendarException](/tasks/python-net/aspose.tasks/calendarexception/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -38,7 +38,7 @@ The CalendarException type exposes the following members:
 | Name | Description |
 | :- | :- |
 |delete()|Deletes the Exception instance from parent calendar CalendarExceptionCollection object.|
-|check_exception(dt)|Returns true if the specified instance of the|
+|check_exception(dt)|Returns true if the specified instance of the datetime struct is the exception day.|
 |get_working_time()|Returns the working time for a calendar exception.|
 |get_exception_dates()|Returns dates on which the calendar exception is applicable.|
 

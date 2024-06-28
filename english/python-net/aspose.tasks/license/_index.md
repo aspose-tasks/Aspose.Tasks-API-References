@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 510
 url: /python-net/aspose.tasks/license/
 ---
 
@@ -15,7 +15,7 @@ The License type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|License()|Initializes a new instance of the|
+|License()|Initializes a new instance of the [License](/tasks/python-net/aspose.tasks/license/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |

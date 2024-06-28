@@ -15,7 +15,7 @@ The RiskItemStatistics type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|item_type|Gets an instance of the|
+|item_type|Gets an instance of the [RiskItemType](/tasks/python-net/aspose.tasks.riskanalysis/riskitemtype/) enumeration.|
 |minimum|Gets the minimum value which was generated during Monte Carlo simulation.|
 |maximum|Gets the maximum value which was generated during Monte Carlo simulation.|
 |expected_value|Gets the expected value of the risk item.|
