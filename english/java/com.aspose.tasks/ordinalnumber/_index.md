@@ -3,7 +3,7 @@ title: OrdinalNumber
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an ordinal number in the instance of RecurringTaskInfo class.
 type: docs
-weight: 157
+weight: 161
 url: /java/com.aspose.tasks/ordinalnumber/
 ---
 

@@ -3,7 +3,7 @@ title: SplitPartCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Collection that represents the portions of a task.
 type: docs
-weight: 262
+weight: 267
 url: /java/com.aspose.tasks/splitpartcollection/
 ---
 

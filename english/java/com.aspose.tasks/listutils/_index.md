@@ -3,7 +3,7 @@ title: ListUtils
 second_title: Aspose.Tasks for Java API Reference
 description: Utility class for list processing.
 type: docs
-weight: 139
+weight: 142
 url: /java/com.aspose.tasks/listutils/
 ---
 

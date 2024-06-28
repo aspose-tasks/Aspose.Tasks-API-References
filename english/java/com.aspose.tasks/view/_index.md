@@ -3,7 +3,7 @@ title: View
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a view in Project.
 type: docs
-weight: 321
+weight: 326
 url: /java/com.aspose.tasks/view/
 ---
 

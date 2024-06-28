@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Tasks for Java API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 143
+weight: 147
 url: /java/com.aspose.tasks/metered/
 ---
 
@@ -25,6 +25,8 @@ In this example, an attempt will be made to set metered public and private key  
   metered.setMeteredKey("PublicKey", "PrivateKey");
   
 ```
+
+
 ## Constructors
 
 | Constructor | Description |

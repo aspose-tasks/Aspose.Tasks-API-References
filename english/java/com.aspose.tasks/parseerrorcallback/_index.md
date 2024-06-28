@@ -3,7 +3,7 @@ title: ParseErrorCallback
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a method callback to handle parse errors that can happen when reading xml data.
 type: docs
-weight: 175
+weight: 179
 url: /java/com.aspose.tasks/parseerrorcallback/
 ---
 

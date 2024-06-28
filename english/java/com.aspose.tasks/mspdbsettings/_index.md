@@ -3,7 +3,7 @@ title: MspDbSettings
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to set necessary options to read project data from MS Project Server database.
 type: docs
-weight: 152
+weight: 156
 url: /java/com.aspose.tasks/mspdbsettings/
 ---
 
