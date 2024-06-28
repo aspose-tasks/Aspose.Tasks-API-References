@@ -20,7 +20,7 @@ The RiskAnalysisSettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |iterations_count|Gets or sets the number of iterations to use in Monte Carlo simulation.<br/>            The default value is 100.|
-|patterns|Gets a collection containing the instances of the|
+|patterns|Gets a collection containing the instances of the [RiskPattern](/tasks/python-net/aspose.tasks.riskanalysis/riskpattern/) class.|
 
 ### See Also
 

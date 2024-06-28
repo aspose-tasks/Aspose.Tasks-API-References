@@ -3,7 +3,7 @@ title: OleObject
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 580
 url: /python-net/aspose.tasks/oleobject/
 ---
 
@@ -15,7 +15,7 @@ The OleObject type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|OleObject()|Initializes a new instance of the|
+|OleObject()|Initializes a new instance of the [OleObject](/tasks/python-net/aspose.tasks/oleobject/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -28,7 +28,7 @@ The OleObject type exposes the following members:
 |temporary_file|Gets or sets the path to the temporary file of the inserted object.|
 |display_as_icon|Gets or sets a flag indicating that OLE object should be shown either as an icon or as its regular picture.|
 |linked|Gets a value indicating whether the project file contains only a link to the actual data stored at the link source.|
-|view|Gets or sets the instance of the|
+|view|Gets or sets the instance of the [view](/tasks/python-net/aspose.tasks/oleobject/) class the inserted object belongs to.|
 |id|Gets or sets the object id.|
 
 ### See Also

@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/calendarexceptioncollection/
 
 ## CalendarExceptionCollection class
 
-Represents a collection of
+Represents a collection of [CalendarException](/tasks/python-net/aspose.tasks/calendarexception/) objects.
 
 The CalendarExceptionCollection type exposes the following members:
 ## Properties
@@ -19,7 +19,7 @@ The CalendarExceptionCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the CalendarExceptionCollection object to a list of|
+|to_list()|Converts the CalendarExceptionCollection object to a list of [CalendarException](/tasks/python-net/aspose.tasks/calendarexception/) objects.|
 |add_range(exception_list)|Adds range of exceptions to the internal list.|
 
 ### See Also

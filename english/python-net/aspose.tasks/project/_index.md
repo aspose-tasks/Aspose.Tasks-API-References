@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 750
 url: /python-net/aspose.tasks/project/
 ---
 
@@ -108,28 +108,28 @@ The Project type exposes the following members:
 |guid|Gets or sets a value of Guid.|
 |auto_calculate_assignment_costs|Gets or sets whether assignment cost and remaining cost should be auto calculated using assignment's work and resource rates.|
 |default_view|Gets or sets default view of the project.|
-|vba_project|Gets an instance of|
-|display_options|Gets an instance of the|
-|calculation_mode|Gets or sets calculation mode of a project.<br/>            Can be one of the values of|
+|vba_project|Gets an instance of [vba_project](/tasks/python-net/aspose.tasks/project/) class.|
+|display_options|Gets an instance of the [ProjectDisplayOptions](/tasks/python-net/aspose.tasks/projectdisplayoptions/) class.|
+|calculation_mode|Gets or sets calculation mode of a project.<br/>            Can be one of the values of [calculation_mode](/tasks/python-net/aspose.tasks/project/) enumeration.|
 |root_task|Gets the root of the tree of tasks.|
-|task_links|Gets|
-|calendars|Gets|
+|task_links|Gets [TaskLinkCollection](/tasks/python-net/aspose.tasks/tasklinkcollection/) object.|
+|calendars|Gets [CalendarCollection](/tasks/python-net/aspose.tasks/calendarcollection/) object of this Project instance.|
 |resources|Gets ResourceCollection object.|
 |outline_codes|Gets OutlineCodeDefinitionCollection object.<br/>            The collection of outline code definitions associated with a project.|
 |resource_assignments|Gets ResourceAssignmentCollection object.|
-|default_week_working_days|Gets the instance of|
+|default_week_working_days|Gets the instance of [WeekDayCollection](/tasks/python-net/aspose.tasks/weekdaycollection/) class which represents a collection of project default week working days and working times.|
 |built_in_props|Gets project's built-in properties collection.|
 |custom_props|Gets project's custom properties collection.|
 |extended_attributes|Gets ExtendedAttributeDefinitionCollection object.<br/>            The collection of extended attribute (custom fields) definitions associated with a project.|
 |critical_path|Gets a collection which contains a list of Critical tasks which comprise Critical Path of this project.|
-|task_filters|Gets all the task-based filter definitions. <br/>            TaskFilters is a collection of|
-|resource_filters|Gets all the resource-based filter definitions. <br/>            ResourceFilters is a collection of|
-|views|Gets a list of|
-|tables|Gets a list of|
-|task_groups|Gets all the task-based group definitions. <br/>            TaskGroups is a collection of|
-|resource_groups|Gets all of the resource-based group definitions. <br/>            ResourceGroups is a collection of|
+|task_filters|Gets all the task-based filter definitions. <br/>            TaskFilters is a collection of [Filter](/tasks/python-net/aspose.tasks/filter/) objects.|
+|resource_filters|Gets all the resource-based filter definitions. <br/>            ResourceFilters is a collection of [Filter](/tasks/python-net/aspose.tasks/filter/) objects.|
+|views|Gets a list of [View](/tasks/python-net/aspose.tasks/view/) objects.|
+|tables|Gets a list of [Table](/tasks/python-net/aspose.tasks/table/) objects.|
+|task_groups|Gets all the task-based group definitions. <br/>            TaskGroups is a collection of [Group](/tasks/python-net/aspose.tasks/group/) objects.|
+|resource_groups|Gets all of the resource-based group definitions. <br/>            ResourceGroups is a collection of [Group](/tasks/python-net/aspose.tasks/group/) objects.|
 |wbs_code_definition|Gets or sets WBS Code Definition for the project.|
-|ole_objects|Gets a collection containing the instances of the|
+|ole_objects|Gets a collection containing the instances of the [OleObject](/tasks/python-net/aspose.tasks/oleobject/) class which are linked or embedded to this project file.|
 |primavera_properties|Gets an object containing Primavera-specific properties for a project read from Primavera file.|
 ## Methods
 | Name | Description |
@@ -151,13 +151,13 @@ The Project type exposes the following members:
 |save_as_template(file_name)|Saves the project as a template.|
 |save_as_template(stream)|Saves the project as a template to a specified stream.|
 |save_as_template(stream, options)|Saves the project as a template to a specified stream.|
-|get_page_count(save_options)|Returns page count for the project to be rendered using given|
-|get_page_count()|Returns page count for the project to be rendered using given|
-|get_page_count(scale)|Returns page count for the project to be rendered using given|
-|get_page_count(format)|Returns page count for the project to be rendered using default|
-|get_page_count(format, scale)|Returns page count for the project to be rendered using given|
-|get_page_count(page_size, scale, start_date, end_date)|Returns page count for the project to be rendered using given|
-|get_page_count(page_size, scale)|Returns page count for the project to be rendered using given|
+|get_page_count(save_options)|Returns page count for the project to be rendered using given [SaveOptions](/tasks/python-net/aspose.tasks.saving/saveoptions/).|
+|get_page_count()|Returns page count for the project to be rendered using given [SaveOptions](/tasks/python-net/aspose.tasks.saving/saveoptions/).|
+|get_page_count(scale)|Returns page count for the project to be rendered using given [Timescale](/tasks/python-net/aspose.tasks.visualization/timescale/).|
+|get_page_count(format)|Returns page count for the project to be rendered using default [Timescale](/tasks/python-net/aspose.tasks.visualization/timescale/)(Days) and given [PresentationFormat](/tasks/python-net/aspose.tasks.visualization/presentationformat/)|
+|get_page_count(format, scale)|Returns page count for the project to be rendered using given [Timescale](/tasks/python-net/aspose.tasks.visualization/timescale/) and [PresentationFormat](/tasks/python-net/aspose.tasks.visualization/presentationformat/).|
+|get_page_count(page_size, scale, start_date, end_date)|Returns page count for the project to be rendered using given [Timescale](/tasks/python-net/aspose.tasks.visualization/timescale/), [PresentationFormat](/tasks/python-net/aspose.tasks.visualization/presentationformat/) and date range.|
+|get_page_count(page_size, scale)|Returns page count for the project to be rendered using given [Timescale](/tasks/python-net/aspose.tasks.visualization/timescale/), [PresentationFormat](/tasks/python-net/aspose.tasks.visualization/presentationformat/) and date range.|
 |copy_to(another)|Copies project's main data and properties to another project.|
 |copy_to(another, options)|Copies project's main data and properties to another project.|
 |print()|Prints project to the default printer with default printer settings using the standard (no User Interface) print controller.|
@@ -175,9 +175,9 @@ The Project type exposes the following members:
 |reschedule_uncompleted_work_to_start_after(after, task_collection)|  |
 |renumber_wbs_code()|Renumber WBS code of all tasks.|
 |renumber_wbs_code(task_ids)|  |
-|get_duration(val)|Gets|
-|get_duration(val, time_unit)|Gets|
-|get_duration(time_span, time_unit)|Gets|
+|get_duration(val)|Gets [Duration](/tasks/python-net/aspose.tasks/duration/) object with the specified number of units and default duration format which is defined in project's settings [None](/tasks/python-net/aspose.tasks/prj/).|
+|get_duration(val, time_unit)|Gets [Duration](/tasks/python-net/aspose.tasks/duration/) object with the specified number of [TimeUnitType](/tasks/python-net/aspose.tasks/timeunittype/) units.|
+|get_duration(time_span, time_unit)|Gets [Duration](/tasks/python-net/aspose.tasks/duration/) object with the specified datatime value and specified [TimeUnitType](/tasks/python-net/aspose.tasks/timeunittype/) value.|
 |select_all_child_tasks()|Recursively collects all child tasks of the root task.|
 |enumerate_all_child_tasks()|Recursively enumerates all project's tasks including root task.|
 |get_predecessors(task)|Returns a collection of task links which are predecessors of the specified task.|
@@ -186,7 +186,7 @@ The Project type exposes the following members:
 |remove_invalid_resource_assignments()|Eliminates invalid resource assignments from the project resource assignments list.|
 |get_baseline_save_time(baseline_number)|Returns the baseline save time.|
 |set_baseline_save_time(baseline_number, value)|Sets the baseline save time.|
-|get_work(val)|Gets|
+|get_work(val)|Gets [Duration](/tasks/python-net/aspose.tasks/duration/) object with the specified float value and default work format.|
 
 ### See Also
 

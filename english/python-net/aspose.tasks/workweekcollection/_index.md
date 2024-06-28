@@ -3,13 +3,13 @@ title: WorkWeekCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1440
+weight: 1450
 url: /python-net/aspose.tasks/workweekcollection/
 ---
 
 ## WorkWeekCollection class
 
-Represents a collection of
+Represents a collection of [WorkWeek](/tasks/python-net/aspose.tasks/workweek/) objects.
 
 The WorkWeekCollection type exposes the following members:
 ## Properties
@@ -19,7 +19,7 @@ The WorkWeekCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the WorkWeekCollection object to a list of|
+|to_list()|Converts the WorkWeekCollection object to a list of [WorkWeek](/tasks/python-net/aspose.tasks/workweek/) objects.|
 
 ### See Also
 

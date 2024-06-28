@@ -3,7 +3,7 @@ title: CalendarExceptionType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2210
+weight: 2250
 url: /python-net/aspose.tasks/calendarexceptiontype/
 ---
 

@@ -3,19 +3,19 @@ title: WeekDayCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1380
+weight: 1390
 url: /python-net/aspose.tasks/weekdaycollection/
 ---
 
 ## WeekDayCollection class
 
-Represents a collection of
+Represents a collection of [WeekDay](/tasks/python-net/aspose.tasks/weekday/) objects.
 
 The WeekDayCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the WeekDayCollection object to a list of|
+|to_list()|Converts the WeekDayCollection object to a list of [WeekDay](/tasks/python-net/aspose.tasks/weekday/) objects.|
 
 ### See Also
 

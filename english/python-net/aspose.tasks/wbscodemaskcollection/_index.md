@@ -3,7 +3,7 @@ title: WBSCodeMaskCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1350
+weight: 1360
 url: /python-net/aspose.tasks/wbscodemaskcollection/
 ---
 
@@ -15,7 +15,7 @@ The WBSCodeMaskCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts a WBSCodeMaskCollection to a list of|
+|to_list()|Converts a WBSCodeMaskCollection to a list of [WBSCodeMask](/tasks/python-net/aspose.tasks/wbscodemask/) objects.|
 
 ### See Also
 

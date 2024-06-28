@@ -3,13 +3,13 @@ title: VbaReferenceCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 1310
 url: /python-net/aspose.tasks/vbareferencecollection/
 ---
 
 ## VbaReferenceCollection class
 
-Represents a collection of
+Represents a collection of [VbaReference](/tasks/python-net/aspose.tasks/vbareference/) objects.
 
 The VbaReferenceCollection type exposes the following members:
 ## Methods

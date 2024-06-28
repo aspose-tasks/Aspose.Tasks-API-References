@@ -3,7 +3,7 @@ title: ApplicationInfo
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2150
+weight: 2190
 url: /python-net/aspose.tasks/applicationinfo/
 ---
 

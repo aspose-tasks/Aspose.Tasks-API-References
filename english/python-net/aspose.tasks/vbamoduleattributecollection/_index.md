@@ -3,13 +3,13 @@ title: VbaModuleAttributeCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1270
 url: /python-net/aspose.tasks/vbamoduleattributecollection/
 ---
 
 ## VbaModuleAttributeCollection class
 
-Represents a collection of
+Represents a collection of [VbaModuleAttribute](/tasks/python-net/aspose.tasks/vbamoduleattribute/) objects.
 
 The VbaModuleAttributeCollection type exposes the following members:
 ## Methods

@@ -3,13 +3,13 @@ title: OutlineCodeCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.tasks/outlinecodecollection/
 ---
 
 ## OutlineCodeCollection class
 
-Represents a collection of
+Represents a collection of [OutlineCode](/tasks/python-net/aspose.tasks/outlinecode/) objects.
 
 The OutlineCodeCollection type exposes the following members:
 

@@ -3,7 +3,7 @@ title: WeekLabelDisplay
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2710
+weight: 2760
 url: /python-net/aspose.tasks/weeklabeldisplay/
 ---
 

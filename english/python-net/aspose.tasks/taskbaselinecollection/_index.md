@@ -3,19 +3,19 @@ title: TaskBaselineCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1060
 url: /python-net/aspose.tasks/taskbaselinecollection/
 ---
 
 ## TaskBaselineCollection class
 
-Represents a collection of
+Represents a collection of [TaskBaseline](/tasks/python-net/aspose.tasks/taskbaseline/) objects.
 
 The TaskBaselineCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the TaskBaselineCollection object to a list of|
+|to_list()|Converts the TaskBaselineCollection object to a list of [TaskBaseline](/tasks/python-net/aspose.tasks/taskbaseline/) objects.|
 
 ### See Also
 

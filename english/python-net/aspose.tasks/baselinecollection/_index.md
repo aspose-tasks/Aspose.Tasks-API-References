@@ -9,17 +9,17 @@ url: /python-net/aspose.tasks/baselinecollection/
 
 ## BaselineCollection class
 
-Represents a collection of
+Represents a collection of [Baseline](/tasks/python-net/aspose.tasks/baseline/) objects.
 
 The BaselineCollection type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|parent_resource|Gets the parent|
+|parent_resource|Gets the parent [Resource](/tasks/python-net/aspose.tasks/resource/) for this collection.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the BaselineCollection object to a list of|
+|to_list()|Converts the BaselineCollection object to a list of [Baseline](/tasks/python-net/aspose.tasks/baseline/) objects.|
 
 ### See Also
 
