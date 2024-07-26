@@ -3,7 +3,7 @@ title: IAlgorithmT
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an algorithm that can be applied to a list of objects T.
 type: docs
-weight: 2560
+weight: 2570
 url: /net/aspose.tasks.util/ialgorithm-1/
 ---
 ## IAlgorithm&lt;T&gt; interface

@@ -3,7 +3,7 @@ title: PrimaveraXerReader
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a reader to read Project UIDs from Primavera XER file
 type: docs
-weight: 1280
+weight: 1290
 url: /net/aspose.tasks/primaveraxerreader/
 ---
 ## PrimaveraXerReader class
@@ -25,6 +25,7 @@ public sealed class PrimaveraXerReader : PrimaveraBaseReader
 
 | Name | Description |
 | --- | --- |
+| [GetProjectInfos](../../aspose.tasks/primaverabasereader/getprojectinfos)() | Return a list of the project's short info objects. |
 | [GetProjectUids](../../aspose.tasks/primaverabasereader/getprojectuids)() | Return a list of the projects' unique identifiers. |
 | [LoadProject](../../aspose.tasks/primaverabasereader/loadproject)(int) | Loads the project with the specified unique identifier. |
 

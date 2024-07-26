@@ -3,7 +3,7 @@ title: TaskToColumnTextConverter
 second_title: Aspose.Tasks for .NET API Reference
 description: Tasks data to columns string converter.
 type: docs
-weight: 3230
+weight: 3240
 url: /net/aspose.tasks.visualization/tasktocolumntextconverter/
 ---
 ## TaskToColumnTextConverter delegate

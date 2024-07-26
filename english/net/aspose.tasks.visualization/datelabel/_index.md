@@ -3,7 +3,7 @@ title: DateLabel
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the display format for date and time labels in a timescale.
 type: docs
-weight: 2820
+weight: 2830
 url: /net/aspose.tasks.visualization/datelabel/
 ---
 ## DateLabel enumeration

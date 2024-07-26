@@ -3,7 +3,7 @@ title: WorkUnit
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents working hours.
 type: docs
-weight: 3450
+weight: 3460
 url: /net/aspose.tasks/workunit/
 ---
 ## WorkUnit class

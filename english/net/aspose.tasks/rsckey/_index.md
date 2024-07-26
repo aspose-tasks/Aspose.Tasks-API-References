@@ -3,7 +3,7 @@ title: RscKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a list of supported resource fields.
 type: docs
-weight: 1840
+weight: 1850
 url: /net/aspose.tasks/rsckey/
 ---
 ## RscKey enumeration

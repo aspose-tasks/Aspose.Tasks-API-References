@@ -3,7 +3,7 @@ title: ResourceUsageView
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents resource usage view in a project.
 type: docs
-weight: 1690
+weight: 1700
 url: /net/aspose.tasks/resourceusageview/
 ---
 ## ResourceUsageView class

@@ -3,7 +3,7 @@ title: ViewColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a column in a project view.
 type: docs
-weight: 3290
+weight: 3300
 url: /net/aspose.tasks.visualization/viewcolumn/
 ---
 ## ViewColumn class

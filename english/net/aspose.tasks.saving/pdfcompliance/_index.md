@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the PDF compliance level to output file.
 type: docs
-weight: 1940
+weight: 1950
 url: /net/aspose.tasks.saving/pdfcompliance/
 ---
 ## PdfCompliance enumeration

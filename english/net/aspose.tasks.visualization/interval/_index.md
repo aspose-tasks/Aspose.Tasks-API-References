@@ -3,7 +3,7 @@ title: Interval
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies recurring intervals to display progress lines at.
 type: docs
-weight: 3010
+weight: 3020
 url: /net/aspose.tasks.visualization/interval/
 ---
 ## Interval enumeration

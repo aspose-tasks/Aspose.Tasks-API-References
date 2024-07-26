@@ -3,7 +3,7 @@ title: Tsk
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents properties of Task./task object.
 type: docs
-weight: 2470
+weight: 2480
 url: /net/aspose.tasks/tsk/
 ---
 ## Tsk class

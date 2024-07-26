@@ -8,6 +8,11 @@ url: /net/aspose.tasks.primavera/
 ---
 Contains classes necessary to work with Primavera-specific formats (XER, Primavera XML).
 
+## Classes
+
+| Class | Description |
+| --- | --- |
+| [PrimaveraProjectInfo](./primaveraprojectinfo) | Represents short info about a project loaded from Primavera format. |
 ## Enumeration
 
 | Enumeration | Description |
