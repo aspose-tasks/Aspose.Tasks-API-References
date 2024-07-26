@@ -3,7 +3,7 @@ title: TaskStatus
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the status of a task.
 type: docs
-weight: 2310
+weight: 2320
 url: /net/aspose.tasks/taskstatus/
 ---
 ## TaskStatus enumeration

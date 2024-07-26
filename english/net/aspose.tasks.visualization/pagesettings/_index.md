@@ -3,7 +3,7 @@ title: PageSettings
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents printing settings for a page of project view.
 type: docs
-weight: 3070
+weight: 3080
 url: /net/aspose.tasks.visualization/pagesettings/
 ---
 ## PageSettings class

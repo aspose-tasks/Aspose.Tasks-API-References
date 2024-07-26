@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: This class represents set of data that related to external resource files saving that occurs during conversion to HTML format.
 type: docs
-weight: 1670
+weight: 1680
 url: /net/aspose.tasks/resourcesavingargs/
 ---
 ## ResourceSavingArgs class

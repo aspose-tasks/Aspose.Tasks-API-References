@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a task in a project.
 type: docs
-weight: 2220
+weight: 2230
 url: /net/aspose.tasks/task/
 ---
 ## Task class

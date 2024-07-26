@@ -3,7 +3,7 @@ title: WBSCodeMaskCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of WBSCodeMask objects.
 type: docs
-weight: 3330
+weight: 3340
 url: /net/aspose.tasks/wbscodemaskcollection/
 ---
 ## WBSCodeMaskCollection class

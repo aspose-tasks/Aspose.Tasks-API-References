@@ -3,7 +3,7 @@ title: UnexpectedFileFormatException
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an exception which is thrown when file format has unexpected format or structure.
 type: docs
-weight: 2490
+weight: 2500
 url: /net/aspose.tasks/unexpectedfileformatexception/
 ---
 ## UnexpectedFileFormatException class

@@ -3,7 +3,7 @@ title: TaskUsageViewFieldCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a collection of TaskUsageViewField./taskusageviewfield values.
 type: docs
-weight: 2350
+weight: 2360
 url: /net/aspose.tasks/taskusageviewfieldcollection/
 ---
 ## TaskUsageViewFieldCollection class

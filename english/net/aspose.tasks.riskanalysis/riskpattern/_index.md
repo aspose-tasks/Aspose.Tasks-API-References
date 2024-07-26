@@ -3,7 +3,7 @@ title: RiskPattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a risk pattern for a project task.
 type: docs
-weight: 1800
+weight: 1810
 url: /net/aspose.tasks.riskanalysis/riskpattern/
 ---
 ## RiskPattern class

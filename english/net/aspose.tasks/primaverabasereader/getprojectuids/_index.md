@@ -3,7 +3,7 @@ title: GetProjectUids
 second_title: Aspose.Tasks for .NET API Reference
 description: Return a list of the projects unique identifiers.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.tasks/primaverabasereader/getprojectuids/
 ---
 ## PrimaveraBaseReader.GetProjectUids method

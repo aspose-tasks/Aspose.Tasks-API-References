@@ -3,7 +3,7 @@ title: LoadProject
 second_title: Aspose.Tasks for .NET API Reference
 description: Loads the project with the specified unique identifier.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.tasks/primaverabasereader/loadproject/
 ---
 ## PrimaveraBaseReader.LoadProject method

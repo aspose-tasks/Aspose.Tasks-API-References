@@ -3,7 +3,7 @@ title: TaskValidationException
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents an exception which is thrown when errors are found in projects tasks after recalculation.
 type: docs
-weight: 2360
+weight: 2370
 url: /net/aspose.tasks/taskvalidationexception/
 ---
 ## TaskValidationException class

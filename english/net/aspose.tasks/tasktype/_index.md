@@ -3,7 +3,7 @@ title: TaskType
 second_title: Aspose.Tasks for .NET API Reference
 description: Specifies the type of a task.
 type: docs
-weight: 2320
+weight: 2330
 url: /net/aspose.tasks/tasktype/
 ---
 ## TaskType enumeration
