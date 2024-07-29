@@ -3,7 +3,7 @@ title: ResourceToColumnTextConverter
 second_title: Aspose.Tasks for Java API Reference
 description: Resources data to columns string converter.
 type: docs
-weight: 244
+weight: 245
 url: /java/com.aspose.tasks/resourcetocolumntextconverter/
 ---
 

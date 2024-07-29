@@ -196,6 +196,7 @@ url: /java/com.aspose.tasks/
 | [PrimaveraDbSettings](../com.aspose.tasks/primaveradbsettings) | Allows to set necessary options to read project data from Primavera database. |
 | [PrimaveraDurationType](../com.aspose.tasks/primaveradurationtype) | Specifies duration type of Primavera activity. |
 | [PrimaveraPercentCompleteType](../com.aspose.tasks/primaverapercentcompletetype) | Specifies value of '% Complete Type' field for Primavera activities. |
+| [PrimaveraProjectInfo](../com.aspose.tasks/primaveraprojectinfo) | Represents short info about a project loaded from Primavera format. |
 | [PrimaveraProjectProperties](../com.aspose.tasks/primaveraprojectproperties) | Represents Primavera-specific properties for a project read from Primavera files (XER of P6XML). |
 | [PrimaveraReadOptions](../com.aspose.tasks/primaverareadoptions) | Allows to specify additional options when reading Primavera Xml or Primavera Xer files. |
 | [PrimaveraRelationshipLagCalendar](../com.aspose.tasks/primaverarelationshiplagcalendar) | Specifies which calendar to use for scheduling Relationship Lag in Primavera projects. |
