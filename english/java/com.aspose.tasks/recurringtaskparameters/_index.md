@@ -3,7 +3,7 @@ title: RecurringTaskParameters
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the set of parameters are used to create a recurring task in a project.
 type: docs
-weight: 234
+weight: 235
 url: /java/com.aspose.tasks/recurringtaskparameters/
 ---
 

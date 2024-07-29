@@ -3,7 +3,7 @@ title: SummaryRowsCalculationType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of a calculation of the custom attributes value for summary rows.
 type: docs
-weight: 270
+weight: 271
 url: /java/com.aspose.tasks/summaryrowscalculationtype/
 ---
 

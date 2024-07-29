@@ -3,7 +3,7 @@ title: ProbabilityDistributionType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies types of supported probability distributions.
 type: docs
-weight: 207
+weight: 208
 url: /java/com.aspose.tasks/probabilitydistributiontype/
 ---
 

@@ -3,7 +3,7 @@ title: ProgressLines
 second_title: Aspose.Tasks for Java API Reference
 description: Represents progress lines in a Gantt Chart view.
 type: docs
-weight: 208
+weight: 209
 url: /java/com.aspose.tasks/progresslines/
 ---
 

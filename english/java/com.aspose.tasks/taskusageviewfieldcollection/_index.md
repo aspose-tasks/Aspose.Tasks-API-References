@@ -3,7 +3,7 @@ title: TaskUsageViewFieldCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of TaskUsageViewField values.
 type: docs
-weight: 292
+weight: 293
 url: /java/com.aspose.tasks/taskusageviewfieldcollection/
 ---
 

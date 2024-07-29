@@ -3,7 +3,7 @@ title: TaskUsageViewField
 second_title: Aspose.Tasks for Java API Reference
 description: Represents possible fields in  object.
 type: docs
-weight: 291
+weight: 292
 url: /java/com.aspose.tasks/taskusageviewfield/
 ---
 

@@ -3,7 +3,7 @@ title: WorkContourType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the contour of a work.
 type: docs
-weight: 343
+weight: 344
 url: /java/com.aspose.tasks/workcontourtype/
 ---
 
