@@ -15,7 +15,7 @@ The PrimaveraSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraSaveOptions()|Initializes a new instance of the [PrimaveraSaveOptions](/tasks/python-net/aspose.tasks.saving/primaverasaveoptions/) class.|
+|PrimaveraSaveOptions()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

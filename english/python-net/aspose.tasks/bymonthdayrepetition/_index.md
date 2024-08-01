@@ -15,7 +15,7 @@ The ByMonthDayRepetition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ByMonthDayRepetition()|Initializes a new instance of the [ByMonthDayRepetition](/tasks/python-net/aspose.tasks/bymonthdayrepetition/) class.|
+|ByMonthDayRepetition()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

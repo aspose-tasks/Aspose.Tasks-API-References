@@ -15,17 +15,17 @@ The BarStyle type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|BarStyle()|Initializes a new instance of the [BarStyle](/tasks/python-net/aspose.tasks.visualization/barstyle/) class.|
+|BarStyle()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |
-|bar_color|Gets or sets aspose.pydrawing.Color of the bar style.|
-|start_shape_color|Gets or sets aspose.pydrawing.Color of the shape at the beginning of the bar.|
-|end_shape_color|Gets or sets aspose.pydrawing.Color of the shape at the end of the bar.|
-|item_type|Gets or sets [BarItemType](/tasks/python-net/aspose.tasks.visualization/baritemtype/) of the bar style.|
-|bar_shape|Gets or sets [bar_shape](/tasks/python-net/aspose.tasks.visualization/barstyle/) of the bar style.|
-|start_shape|Gets or sets [Shape](/tasks/python-net/aspose.tasks.visualization/shape/) at the beginning of the bar.|
-|end_shape|Gets or sets [Shape](/tasks/python-net/aspose.tasks.visualization/shape/) at the end of the bar.|
+|bar_color|Gets or sets|
+|start_shape_color|Gets or sets|
+|end_shape_color|Gets or sets|
+|item_type|Gets or sets|
+|bar_shape|Gets or sets|
+|start_shape|Gets or sets|
+|end_shape|Gets or sets|
 |text_style|Gets or sets style of the bar's text.|
 |left_field|Gets or sets a field to be displayed on the left of the bar.|
 |top_field|Gets or sets a field to be displayed on the top of the bar.|

@@ -15,7 +15,7 @@ The CssSavingArgs type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CssSavingArgs()|Initializes a new instance of the [CssSavingArgs](/tasks/python-net/aspose.tasks/csssavingargs/) class.|
+|CssSavingArgs()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

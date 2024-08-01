@@ -9,17 +9,17 @@ url: /python-net/aspose.tasks/assignmentbaselinecollection/
 
 ## AssignmentBaselineCollection class
 
-Represents a collection of [AssignmentBaseline](/tasks/python-net/aspose.tasks/assignmentbaseline/) objects.
+Represents a collection of
 
 The AssignmentBaselineCollection type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|parent_assignment|Gets the parent [ResourceAssignment](/tasks/python-net/aspose.tasks/resourceassignment/) for this collection.|
+|parent_assignment|Gets the parent|
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the AssignmentBaselineCollection object to a list of [AssignmentBaseline](/tasks/python-net/aspose.tasks/assignmentbaseline/) objects.|
+|to_list()|Converts the AssignmentBaselineCollection object to a list of|
 
 ### See Also
 

@@ -9,13 +9,13 @@ url: /python-net/aspose.tasks/weekdaycollection/
 
 ## WeekDayCollection class
 
-Represents a collection of [WeekDay](/tasks/python-net/aspose.tasks/weekday/) objects.
+Represents a collection of
 
 The WeekDayCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the WeekDayCollection object to a list of [WeekDay](/tasks/python-net/aspose.tasks/weekday/) objects.|
+|to_list()|Converts the WeekDayCollection object to a list of|
 
 ### See Also
 

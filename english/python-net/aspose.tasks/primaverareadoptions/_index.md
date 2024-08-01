@@ -15,7 +15,7 @@ The PrimaveraReadOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraReadOptions()|Initializes a new instance of the [PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/) class.|
+|PrimaveraReadOptions()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

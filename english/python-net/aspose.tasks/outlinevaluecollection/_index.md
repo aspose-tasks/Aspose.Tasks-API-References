@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/outlinevaluecollection/
 
 ## OutlineValueCollection class
 
-Represents a collection of [OutlineValue](/tasks/python-net/aspose.tasks/outlinevalue/) objects.
+Represents a collection of
 
 The OutlineValueCollection type exposes the following members:
 

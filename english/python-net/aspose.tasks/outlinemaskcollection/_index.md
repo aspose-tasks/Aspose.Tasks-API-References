@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/outlinemaskcollection/
 
 ## OutlineMaskCollection class
 
-Represents a collection of [OutlineMask](/tasks/python-net/aspose.tasks/outlinemask/) objects.
+Represents a collection of
 
 The OutlineMaskCollection type exposes the following members:
 

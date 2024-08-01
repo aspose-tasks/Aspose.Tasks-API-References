@@ -3,7 +3,7 @@ title: CalculationType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2240
+weight: 2250
 url: /python-net/aspose.tasks/calculationtype/
 ---
 
@@ -16,7 +16,7 @@ Specifies the type of a calculation of the custom attribute's value.
 | :- | :- |
 |NONE|Means the extended attribute has no lookup table of formula and simply stores value set by the user.|
 |LOOKUP|Means the value of the extended attribute is restricted to values from a lookup table.|
-|FORMULA|Means the value of the extended attribute is calculated using formula defined in [formula](/tasks/python-net/aspose.tasks/extendedattributedefinition/).|
+|FORMULA|Means the value of the extended attribute is calculated using formula defined in|
 
 ### See Also
 

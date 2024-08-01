@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/vbamoduleattribute/
 
 ## VbaModuleAttribute class
 
-The attribute of the [VbaModule](/tasks/python-net/aspose.tasks/vbamodule/) object
+The attribute of the
 
 The VbaModuleAttribute type exposes the following members:
 ## Properties
@@ -20,7 +20,7 @@ The VbaModuleAttribute type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|equals(other)|Returns a value indicating whether this instance is equal to the specified [VbaModuleAttribute](/tasks/python-net/aspose.tasks/vbamoduleattribute/) object.|
+|equals(other)|Returns a value indicating whether this instance is equal to the specified|
 
 ### See Also
 

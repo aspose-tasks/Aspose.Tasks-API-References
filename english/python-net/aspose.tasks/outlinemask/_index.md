@@ -15,7 +15,7 @@ The OutlineMask type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|OutlineMask()|Initializes a new instance of the [OutlineMask](/tasks/python-net/aspose.tasks/outlinemask/) class.|
+|OutlineMask()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

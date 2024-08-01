@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/groupcriterion/
 
 ## GroupCriterion class
 
-Represents a criterion in a group definition.<br/>            The GroupCriterion object is a member of the [GroupCriterionCollection](/tasks/python-net/aspose.tasks/groupcriterioncollection/) collection.
+Represents a criterion in a group definition.<br/>            The GroupCriterion object is a member of the
 
 The GroupCriterion type exposes the following members:
 ## Constructors
@@ -23,8 +23,8 @@ The GroupCriterion type exposes the following members:
 |cell_color|Gets or sets the color of the cell background for a field used as a criterion in a group definition.|
 |font_color|Gets or sets the color of the font for a field used as a criterion in a group definition.|
 |field|Gets or sets the field being grouped by.|
-|index|Gets the index of a [GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/) object in the containing [GroupCriterionCollection](/tasks/python-net/aspose.tasks/groupcriterioncollection/) collection.|
-|parent_group|Gets the parent of the [GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/) object.|
+|index|Gets the index of a|
+|parent_group|Gets the parent of the|
 |group_on|Gets or sets the type of grouping for a field used as a criterion in a group definition.|
 |pattern|Gets or sets the pattern of the cell for a field used as a criterion in a group definition.|
 |start_at|Gets or sets the start of the intervals for a field used as a criterion in a group definition.|

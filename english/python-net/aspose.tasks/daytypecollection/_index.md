@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/daytypecollection/
 
 ## DayTypeCollection class
 
-Represents a collection of [DayType](/tasks/python-net/aspose.tasks/daytype/) objects.
+Represents a collection of
 
 The DayTypeCollection type exposes the following members:
 

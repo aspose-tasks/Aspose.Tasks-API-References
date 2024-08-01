@@ -21,17 +21,17 @@ The ProgressLines type exposes the following members:
 | :- | :- |
 |display_at_current_date|Gets or sets a value indicating whether to display progress line at current date.|
 |display_at_recurring_intervals|Gets or sets a value indicating whether to display progress line at recurring intervals.|
-|recurring_interval|Gets or sets the recurring interval.<br/>            [recurring_interval](/tasks/python-net/aspose.tasks.visualization/progresslines/).|
+|recurring_interval|Gets or sets the recurring interval.|
 |begin_at_project_start|Gets or sets a value indicating whether to display progress lines from the beginning of the project start date.|
 |begin_at_date|Gets or sets the date to display progress lines from.|
 |display_selected|Gets or sets a value indicating whether to display progress lines at the selected dates.|
 |is_baseline_plan|Gets or sets a value indicating whether to display progress lines for baseline plan or actual.|
 |show_date|Gets or sets a value indicating whether to show date for each progress line.|
-|date_format|Gets or sets the date format ([DateLabel](/tasks/python-net/aspose.tasks.visualization/datelabel/)).|
+|date_format|Gets or sets the date format (|
 |font|Gets or sets the font used for progress line label.|
-|line_pattern|Gets or sets the line pattern of current progress line.<br/>            [line_pattern](/tasks/python-net/aspose.tasks.visualization/progresslines/).|
+|line_pattern|Gets or sets the line pattern of current progress line.|
 |line_color|Gets or sets the line color for current progress line.|
-|progress_point_shape|Gets or sets the progress point shape.<br/>            [GanttBarEndShape](/tasks/python-net/aspose.tasks.visualization/ganttbarendshape/).|
+|progress_point_shape|Gets or sets the progress point shape.|
 |progress_point_color|Gets or sets the color of progress point.|
 |other_line_pattern|Gets or sets the line pattern for other progress line.|
 |other_line_color|Gets or sets the color of other progress line.|

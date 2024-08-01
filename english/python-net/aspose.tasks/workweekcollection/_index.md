@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/workweekcollection/
 
 ## WorkWeekCollection class
 
-Represents a collection of [WorkWeek](/tasks/python-net/aspose.tasks/workweek/) objects.
+Represents a collection of
 
 The WorkWeekCollection type exposes the following members:
 ## Properties
@@ -19,7 +19,7 @@ The WorkWeekCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the WorkWeekCollection object to a list of [WorkWeek](/tasks/python-net/aspose.tasks/workweek/) objects.|
+|to_list()|Converts the WorkWeekCollection object to a list of|
 
 ### See Also
 

@@ -15,7 +15,7 @@ The WeeklyRepetition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WeeklyRepetition()|Initializes a new instance of the [WeeklyRepetition](/tasks/python-net/aspose.tasks/weeklyrepetition/) class.|
+|WeeklyRepetition()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

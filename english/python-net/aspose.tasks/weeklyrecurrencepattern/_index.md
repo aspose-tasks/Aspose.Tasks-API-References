@@ -15,7 +15,7 @@ The WeeklyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WeeklyRecurrencePattern()|Initializes a new instance of the [WeeklyRecurrencePattern](/tasks/python-net/aspose.tasks/weeklyrecurrencepattern/) class.|
+|WeeklyRecurrencePattern()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

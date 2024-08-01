@@ -10,6 +10,10 @@ url: /python-net/aspose.tasks.primavera/
 
 Contains classes necessary to work with Primavera-specific formats (XER, Primavera XML).
 
+## Classes
+| Class | Description |
+| :- | :- |
+|[PrimaveraProjectInfo](/tasks/python-net/aspose.tasks.primavera/primaveraprojectinfo/)|Represents short info about a project loaded from Primavera format.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

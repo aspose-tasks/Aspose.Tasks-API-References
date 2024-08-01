@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/taskusageviewfieldcollection/
 
 ## TaskUsageViewFieldCollection class
 
-Represents a collection of [TaskUsageViewField](/tasks/python-net/aspose.tasks/taskusageviewfield/) values.
+Represents a collection of
 
 The TaskUsageViewFieldCollection type exposes the following members:
 ## Methods

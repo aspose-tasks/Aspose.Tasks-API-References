@@ -15,7 +15,7 @@ The CheckCircuit type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CheckCircuit()|Initializes a new instance of the [CheckCircuit](/tasks/python-net/aspose.tasks.util/checkcircuit/) class.|
+|CheckCircuit()|Initializes a new instance of the|
 ## Methods
 | Name | Description |
 | :- | :- |

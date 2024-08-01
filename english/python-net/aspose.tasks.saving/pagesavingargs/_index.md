@@ -16,7 +16,7 @@ The PageSavingArgs type exposes the following members:
 | Name | Description |
 | :- | :- |
 |page_number|Gets a number of page to be written.|
-|keep_stream_open|Gets or sets a value indicating whether rendering routine should keep [stream](/tasks/python-net/aspose.tasks.saving/pagesavingargs/) opened after a page is written.|
+|keep_stream_open|Gets or sets a value indicating whether rendering routine should keep|
 |stream|Gets or sets a stream for writing a page.|
 
 ### See Also

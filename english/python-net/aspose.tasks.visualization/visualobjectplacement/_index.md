@@ -9,17 +9,17 @@ url: /python-net/aspose.tasks.visualization/visualobjectplacement/
 
 ## VisualObjectPlacement class
 
-Represents placement and appearance of [OleObject](/tasks/python-net/aspose.tasks/oleobject/) in a view.
+Represents placement and appearance of
 
 The VisualObjectPlacement type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VisualObjectPlacement()|Initializes a new instance of the [VisualObjectPlacement](/tasks/python-net/aspose.tasks.visualization/visualobjectplacement/) class.|
+|VisualObjectPlacement()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |
-|ole_object_id|Gets or sets Id of [OleObject](/tasks/python-net/aspose.tasks/oleobject/) object.|
+|ole_object_id|Gets or sets Id of|
 |task_id|Gets or sets Id of task if 'Attach to task' options is selected, -1 otherwise.|
 |width|Gets or sets displayed width of visual object.|
 |height|Gets or sets displayed height of visual object.|

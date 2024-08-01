@@ -19,7 +19,7 @@ The RecurringInterval type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|interval|Gets or sets the recurring interval.<br/>            Can be any value of [interval](/tasks/python-net/aspose.tasks.visualization/recurringinterval/) type.|
+|interval|Gets or sets the recurring interval.<br/>            Can be any value of|
 |daily_day_number|Gets or sets the daily day number.|
 |daily_workday|Gets or sets a value indicating whether a day is workday for daily progress lines.|
 |weekly_week_number|Gets or sets the week number for weekly progress lines.|

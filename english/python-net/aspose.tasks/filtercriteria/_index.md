@@ -20,10 +20,10 @@ The FilterCriteria type exposes the following members:
 | Name | Description |
 | :- | :- |
 |operation|Gets or sets the criterion established with FieldName, Test, and Value relates to other criteria in the filter.|
-|field|Gets or sets a [field](/tasks/python-net/aspose.tasks/filtercriteria/) to change.|
-|test|Gets or sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter.<br/>            [FilterComparisonType](/tasks/python-net/aspose.tasks/filtercomparisontype/)|
+|field|Gets or sets a|
+|test|Gets or sets the type of comparison made between FieldName and Value that acts as selection criteria for the filter.|
 |values|Gets the object values to compare with the value of the field specified with FieldName.|
-|criteria_rows|Gets the list of child [FilterCriteria](/tasks/python-net/aspose.tasks/filtercriteria/) rows.<br/>            If the filter contains more than one criterion row then the effect of an And operator is that the criteria for both rows must be met for the task or resource to be displayed as a result of this filter.<br/>            The effect of an Or operator is that the criteria for one or the other row must be met.|
+|criteria_rows|Gets the list of child|
 ## Methods
 | Name | Description |
 | :- | :- |
