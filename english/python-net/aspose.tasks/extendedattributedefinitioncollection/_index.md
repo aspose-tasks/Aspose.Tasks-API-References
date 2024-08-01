@@ -9,17 +9,17 @@ url: /python-net/aspose.tasks/extendedattributedefinitioncollection/
 
 ## ExtendedAttributeDefinitionCollection class
 
-Represents a collection of [ExtendedAttributeDefinition](/tasks/python-net/aspose.tasks/extendedattributedefinition/) objects.
+Represents a collection of
 
 The ExtendedAttributeDefinitionCollection type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|parent_project|Gets a parent project for the [ExtendedAttributeDefinitionCollection](/tasks/python-net/aspose.tasks/extendedattributedefinitioncollection/) instance.|
+|parent_project|Gets a parent project for the|
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts this ExtendedAttributeDefinitionCollection object to a list containing instances of the [ExtendedAttributeDefinition](/tasks/python-net/aspose.tasks/extendedattributedefinition/) class.|
+|to_list()|Converts this ExtendedAttributeDefinitionCollection object to a list containing instances of the|
 |get_by_id(id)|Returns an extended attribute definition by id|
 
 ### See Also

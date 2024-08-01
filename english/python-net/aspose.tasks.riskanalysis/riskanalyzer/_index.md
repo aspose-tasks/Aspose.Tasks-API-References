@@ -19,11 +19,11 @@ The RiskAnalyzer type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|settings|Gets or sets the instance of the [RiskAnalysisSettings](/tasks/python-net/aspose.tasks.riskanalysis/riskanalysissettings/) class which defines necessary settings for risk analysis.|
+|settings|Gets or sets the instance of the|
 ## Methods
 | Name | Description |
 | :- | :- |
-|analyze(project)|Performs risk analysis for the specified project. The analysis is based on Monte Carlo simulation and the result is an instance of the [RiskAnalysisResult](/tasks/python-net/aspose.tasks.riskanalysis/riskanalysisresult/) class.|
+|analyze(project)|Performs risk analysis for the specified project. The analysis is based on Monte Carlo simulation and the result is an instance of the|
 
 ### See Also
 

@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks.visualization/shape/
 
 ## Shape enumeration
 
-Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of [SaveFileFormat](/tasks/python-net/aspose.tasks.saving/savefileformat/).
+Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of
 
 ## Members
 | Member name | Description |

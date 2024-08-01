@@ -20,7 +20,7 @@ The LoadOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |password|Gets or sets a protection password.|
-|primavera_read_options|Gets or sets a specified instance of the [PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml).|
+|primavera_read_options|Gets or sets a specified instance of the|
 |encoding|Gets or sets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats.<br/>            The default encoding is UTF8.|
 
 ### See Also

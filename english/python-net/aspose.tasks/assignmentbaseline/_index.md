@@ -24,7 +24,7 @@ The AssignmentBaseline type exposes the following members:
 |cost|Gets or sets the projected cost of a resource when the baseline is saved.|
 |bcws|Gets or sets the budget cost of a work scheduled for a resource.|
 |bcwp|Gets or sets the budgeted cost of a work performed by a resource for a project to-date.|
-|timephased_data|Gets or sets the [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) instance for this object.<br/>            The time phased data associated with the resource assignment baseline.|
+|timephased_data|Gets or sets the|
 |start|Gets or sets the scheduled start date of the resource assignment when the baseline was saved.|
 |finish|Gets or sets the scheduled finish date of the resource assignment when the baseline was saved.|
 ## Methods

@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/ratebydatecollection/
 
 ## RateByDateCollection class
 
-Represents a collection which mappings of datetime to [Rate](/tasks/python-net/aspose.tasks/rate/) objects.
+Represents a collection which mappings of
 
 The RateByDateCollection type exposes the following members:
 ## Constructors

@@ -15,7 +15,7 @@ The TextStyle type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TextStyle()|Initializes a new instance of the [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) class with default settings.|
+|TextStyle()|Initializes a new instance of the|
 |TextStyle(font_size, font_style)|Initializes a new instance of the TextStyle class|
 |TextStyle(font_style)|Initializes a new instance of the TextStyle class|
 |TextStyle(font)|Initializes a new instance of the TextStyle class|
@@ -24,9 +24,9 @@ The TextStyle type exposes the following members:
 | :- | :- |
 |font|Gets or sets font of the text style.|
 |color|Gets or sets color of the text.|
-|item_type|Gets or sets [TextItemType](/tasks/python-net/aspose.tasks.visualization/textitemtype/) of the text style.|
-|background_pattern|Gets or sets background pattern of the text style.<br/>            [background_pattern](/tasks/python-net/aspose.tasks.visualization/textstyle/).|
-|background_color|Gets or sets background color of the text style.<br/>            [color](/tasks/python-net/aspose.tasks.visualization/textstyle/).|
+|item_type|Gets or sets|
+|background_pattern|Gets or sets background pattern of the text style.|
+|background_color|Gets or sets background color of the text style.|
 
 ### See Also
 

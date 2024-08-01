@@ -16,6 +16,7 @@ The PrimaveraBaseReader type exposes the following members:
 | Name | Description |
 | :- | :- |
 |get_project_uids()|Return a list of the projects' unique identifiers.|
+|get_project_infos()|Return a list of the project's short info objects.|
 |load_project(project_uid)|Loads the project with the specified unique identifier.|
 
 ### See Also

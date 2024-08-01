@@ -9,13 +9,13 @@ url: /python-net/aspose.tasks/taskbaselinecollection/
 
 ## TaskBaselineCollection class
 
-Represents a collection of [TaskBaseline](/tasks/python-net/aspose.tasks/taskbaseline/) objects.
+Represents a collection of
 
 The TaskBaselineCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts the TaskBaselineCollection object to a list of [TaskBaseline](/tasks/python-net/aspose.tasks/taskbaseline/) objects.|
+|to_list()|Converts the TaskBaselineCollection object to a list of|
 
 ### See Also
 

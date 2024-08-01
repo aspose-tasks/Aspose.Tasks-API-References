@@ -9,13 +9,13 @@ url: /python-net/aspose.tasks/tablecollection/
 
 ## TableCollection class
 
-Contains a list of [Table](/tasks/python-net/aspose.tasks/table/) objects.<br/>            Implements ICollection<Table> interface.
+Contains a list of
 
 The TableCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts a table collection to a list of [Table](/tasks/python-net/aspose.tasks/table/) objects.|
+|to_list()|Converts a table collection to a list of|
 
 ### See Also
 

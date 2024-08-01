@@ -16,8 +16,8 @@ The TaskTextStyleEventArgs type exposes the following members:
 | Name | Description |
 | :- | :- |
 |cell_text_style|Gets or sets TextStyle which will be used to draw the cell's content. This object can be use to customize appearance of a table cell.|
-|task|Gets [task](/tasks/python-net/aspose.tasks.visualization/tasktextstyleeventargs/) which corresponds to the currently rendered row.|
-|column|Gets [ViewColumn](/tasks/python-net/aspose.tasks.visualization/viewcolumn/) to which the currently rendered cell belongs.|
+|task|Gets|
+|column|Gets|
 
 ### See Also
 

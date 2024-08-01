@@ -15,7 +15,7 @@ The View type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|View()|Initializes a new instance of the [View](/tasks/python-net/aspose.tasks/view/) class.|
+|View()|Initializes a new instance of the|
 |View(view_screen)|Initializes a new instance of the View class|
 ## Properties
 | Name | Description |
@@ -25,13 +25,13 @@ The View type exposes the following members:
 |uid|Gets the unique identifier of a view.|
 |highlight_filter|Gets or sets a value indicating whether Microsoft Project highlights the filter for a single view.|
 |name|Gets or sets the name of a View object.|
-|screen|Gets the screen type for the single view.<br/>            Read-only [ViewScreen](/tasks/python-net/aspose.tasks/viewscreen/).|
-|parent_project|Gets the parent of the View object.<br/>            Read-only [Project](/tasks/python-net/aspose.tasks/project/).|
+|screen|Gets the screen type for the single view.<br/>            Read-only|
+|parent_project|Gets the parent of the View object.<br/>            Read-only|
 |table|Gets or sets a table of the single view.|
-|type|Gets the type of item in the single view, such as tasks or resources.<br/>            Read-only [ItemType](/tasks/python-net/aspose.tasks/itemtype/).|
+|type|Gets the type of item in the single view, such as tasks or resources.<br/>            Read-only|
 |show_in_menu|Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon.|
-|page_info|Gets an instance of the [page_info](/tasks/python-net/aspose.tasks/view/) class. Represents page setup data which is present in mpp file format.|
-|visual_objects_placements|Gets a collection of objects representing placement and appearance of [OleObject](/tasks/python-net/aspose.tasks/oleobject/) in the view.|
+|page_info|Gets an instance of the|
+|visual_objects_placements|Gets a collection of objects representing placement and appearance of|
 ## Methods
 | Name | Description |
 | :- | :- |

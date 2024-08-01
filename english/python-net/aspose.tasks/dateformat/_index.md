@@ -3,7 +3,7 @@ title: DateFormat
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2300
+weight: 2310
 url: /python-net/aspose.tasks/dateformat/
 ---
 
@@ -35,7 +35,7 @@ Specifies the date format.
 |DATE_WWW_DD|The example: W41/2|
 |DATE_WWW_DD_YY_HH_MM_AM|The example: W41/2/02 13:00 PM|
 |DATE_MM_DD_YYYY|The example: 9/30/2002|
-|CUSTOM|DateTime values are formatted using format string which is set to the project's [None](/tasks/python-net/aspose.tasks/prj/) property.|
+|CUSTOM|DateTime values are formatted using format string which is set to the project's|
 |DATE_DD_MM_YYYY|The example: 19/07/2016|
 |DEFAULT|The example: Default date format.|
 

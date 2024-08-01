@@ -15,7 +15,7 @@ The RecurringTaskParameters type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RecurringTaskParameters()|Initializes a new instance of the [RecurringTaskParameters](/tasks/python-net/aspose.tasks/recurringtaskparameters/) class.|
+|RecurringTaskParameters()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

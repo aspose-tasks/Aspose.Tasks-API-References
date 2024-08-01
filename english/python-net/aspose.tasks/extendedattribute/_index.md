@@ -23,7 +23,7 @@ The ExtendedAttribute type exposes the following members:
 |flag_value|Gets or sets a value indicating whether a flag is set for an attribute with 'Flag' type.|
 |text_value|Gets or sets a value for attributes with 'Text' type.|
 |value_guid|Gets the guid of a lookup value.|
-|value_read_only|Gets a value indicating whether a value of this [ExtendedAttribute](/tasks/python-net/aspose.tasks/extendedattribute/) instance is read-only.|
+|value_read_only|Gets a value indicating whether a value of this|
 |is_error_value|Gets whether calculation of extended attribute's value resulted in an error.|
 
 ### See Also
