@@ -15,17 +15,17 @@ The TimescaleTier type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TimescaleTier()|Initializes a new instance of the [TimescaleTier](/tasks/python-net/aspose.tasks.visualization/timescaletier/) class.|
+|TimescaleTier()|Initializes a new instance of the|
 |TimescaleTier(unit, count)|Initializes a new instance of the TimescaleTier class|
 ## Properties
 | Name | Description |
 | :- | :- |
 |count|Gets or sets the time unit interval in which to show labels for the tier.<br/>            The default value is 1.|
-|label|Gets or sets date label [DateLabel](/tasks/python-net/aspose.tasks.visualization/datelabel/) for the timescale tier.|
-|alignment|Gets or sets how to align labels within each time period of the tier ([HorizontalStringAlignment](/tasks/python-net/aspose.tasks.visualization/horizontalstringalignment/)).|
+|label|Gets or sets date label|
+|alignment|Gets or sets how to align labels within each time period of the tier (|
 |uses_fiscal_year|Gets or sets a value indicating whether to base the tier labels on the fiscal year.|
 |show_ticks|Gets or sets a value indicating whether whether to show tick marks that separate time periods in the tier.|
-|unit|Gets or sets timescale unit [TimescaleUnit](/tasks/python-net/aspose.tasks.visualization/timescaleunit/) for the timescale tier.<br/>            The default value is|
+|unit|Gets or sets timescale unit|
 
 ### See Also
 

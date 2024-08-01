@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/resourcecollection/
 
 ## ResourceCollection class
 
-Represents a collection of [Resource](/tasks/python-net/aspose.tasks/resource/) objects.
+Represents a collection of
 
 The ResourceCollection type exposes the following members:
 ## Properties
@@ -22,7 +22,7 @@ The ResourceCollection type exposes the following members:
 |add()|Adds new resource at the last position of a project resources collection.|
 |add(resource_name)|Adds new resource at the last position of a project resources collection.|
 |add(resource_name, before_resource_id)|Adds new resource at the specified position of a project resources collection.|
-|to_list()|Converts the ResourceCollection object to a list of [Resource](/tasks/python-net/aspose.tasks/resource/) objects.|
+|to_list()|Converts the ResourceCollection object to a list of|
 |get_by_id(id)|Returns a resource with the specified id.|
 |get_by_uid(uid)|Returns a resource with the specified Uid.|
 

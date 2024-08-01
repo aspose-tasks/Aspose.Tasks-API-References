@@ -3,13 +3,13 @@ title: WeekdayType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2780
 url: /python-net/aspose.tasks/weekdaytype/
 ---
 
 ## WeekdayType enumeration
 
-Represents a weekday of a project in the instance of [RecurringTaskInfo](/tasks/python-net/aspose.tasks/recurringtaskinfo/) class.
+Represents a weekday of a project in the instance of
 
 ## Members
 | Member name | Description |

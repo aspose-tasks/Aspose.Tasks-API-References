@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/vbareferencecollection/
 
 ## VbaReferenceCollection class
 
-Represents a collection of [VbaReference](/tasks/python-net/aspose.tasks/vbareference/) objects.
+Represents a collection of
 
 The VbaReferenceCollection type exposes the following members:
 ## Methods

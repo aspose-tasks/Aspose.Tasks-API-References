@@ -15,7 +15,7 @@ The DailyWorkRepetition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|DailyWorkRepetition()|Initializes a new instance of the [DailyWorkRepetition](/tasks/python-net/aspose.tasks/dailyworkrepetition/) class.|
+|DailyWorkRepetition()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

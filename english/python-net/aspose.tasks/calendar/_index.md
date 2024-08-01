@@ -39,7 +39,7 @@ The Calendar type exposes the following members:
 |delete()|Removes calendar from project.|
 |is_day_working(dt)|Determines whether the day is working day.|
 |get_task_finish_date_from_duration(task, duration)|Calculates the task finish date and time from its start date, split parts and the duration.|
-|get_working_times(dt)|Returns [WorkingTimeCollection](/tasks/python-net/aspose.tasks/workingtimecollection/) of working times for the specified date.|
+|get_working_times(dt)|Returns|
 |get_previous_working_day_end(date)|Calculates previous working date end from the specified date.|
 |get_next_working_day_start(date)|Calculates next working day start from the date.|
 

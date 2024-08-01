@@ -3,13 +3,13 @@ title: TaskUsageViewField
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2700
+weight: 2710
 url: /python-net/aspose.tasks/taskusageviewfield/
 ---
 
 ## TaskUsageViewField enumeration
 
-Represents possible fields in [TaskUsageView](/tasks/python-net/aspose.tasks/taskusageview/) object.
+Represents possible fields in
 
 ## Members
 | Member name | Description |

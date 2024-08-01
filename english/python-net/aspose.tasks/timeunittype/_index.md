@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2710
+weight: 2720
 url: /python-net/aspose.tasks/timeunittype/
 ---
 

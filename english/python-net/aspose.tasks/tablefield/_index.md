@@ -15,7 +15,7 @@ The TableField type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TableField()|Initializes a new instance of the [TableField](/tasks/python-net/aspose.tasks/tablefield/) class.|
+|TableField()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

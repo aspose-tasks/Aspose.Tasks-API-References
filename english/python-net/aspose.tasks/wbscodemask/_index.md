@@ -15,7 +15,7 @@ The WBSCodeMask type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WBSCodeMask()|Initializes a new instance of the [WBSCodeMask](/tasks/python-net/aspose.tasks/wbscodemask/) class.|
+|WBSCodeMask()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |
