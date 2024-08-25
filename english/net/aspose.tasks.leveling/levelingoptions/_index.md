@@ -32,6 +32,23 @@ public sealed class LevelingOptions
 | [Resources](../../aspose.tasks.leveling/levelingoptions/resources) { get; set; } | Gets or sets the list of the resources which will be leveled. If null is set, all project resources will be leveled. |
 | [StartDate](../../aspose.tasks.leveling/levelingoptions/startdate) { get; set; } | Gets or sets leveling period start date. The default value is the project`s start date. |
 
+### Examples
+
+Shows how to level specific resource, customize leveling options and examine leveling algorithm messages.
+
+```csharp
+var project = new Project(DataDir + "Software Development Plan.mpp");
+
+var levelingOptions = new LevelingOptions();
+levelingOptions.StartDate = new DateTime(2013, 3, 10);
+levelingOptions.FinishDate = new DateTime(2013, 4, 30);
+levelingOptions.Resources = new List<Resource> { project.Resources.GetById(7) };
+levelingOptions.MessageLevel = MessageLevel.Information;
+levelingOptions.MessageHandler = new LevelingMessageHandler();
+
+ResourceLeveler.LevelResources(project, levelingOptions);
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks.Leveling](../../aspose.tasks.leveling)

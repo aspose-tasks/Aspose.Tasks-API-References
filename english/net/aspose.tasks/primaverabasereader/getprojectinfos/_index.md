@@ -14,6 +14,34 @@ Return a list of the project's short info objects.
 public List<PrimaveraProjectInfo> GetProjectInfos()
 ```
 
+### Examples
+
+Shows how to examine short projects' info from a Primavera XML file.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "MultiprojectWithExternal.xml");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+```
+
+Shows how to examine short projects' info from a Primavera XER file.
+
+```csharp
+var reader = new PrimaveraXerReader(DataDir + "MultiprojectWithExternal.xer");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+
+var project = reader.LoadProject(5494);
+
+Console.WriteLine("Loaded project '{0}' with Uid {1}", project.Name, project.Uid);
+```
+
 ### See Also
 
 * class [PrimaveraProjectInfo](../../../aspose.tasks.primavera/primaveraprojectinfo)

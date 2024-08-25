@@ -20,14 +20,14 @@ public PrimaveraXmlReader(string templatePath)
 
 ### Examples
 
-Shows how to import a project from a Primavera XML file.
+Shows how to examine short projects' info from a Primavera XML file.
 
 ```csharp
-var reader = new PrimaveraXmlReader(DataDir + "primavera.xml");
-List<int> projectUids = reader.GetProjectUids();
-foreach (var projectUid in projectUids)
+var reader = new PrimaveraXmlReader(DataDir + "MultiprojectWithExternal.xml");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
 {
-    Console.WriteLine("Project UID: " + projectUid);
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
 }
 ```
 

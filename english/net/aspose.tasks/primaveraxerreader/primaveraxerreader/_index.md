@@ -18,6 +18,23 @@ public PrimaveraXerReader(string xerFilePath)
 | --- | --- | --- |
 | xerFilePath | String | Path to .xer file where Primavera project or projects are located. |
 
+### Examples
+
+Shows how to examine short projects' info from a Primavera XER file.
+
+```csharp
+var reader = new PrimaveraXerReader(DataDir + "MultiprojectWithExternal.xer");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+
+var project = reader.LoadProject(5494);
+
+Console.WriteLine("Loaded project '{0}' with Uid {1}", project.Name, project.Uid);
+```
+
 ### See Also
 
 * class [PrimaveraXerReader](../../primaveraxerreader)
