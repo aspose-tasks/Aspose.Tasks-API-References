@@ -1,20 +1,20 @@
 ---
-title: Project
+title: Project.Project
 second_title: Aspose.Tasks for .NET API Reference
-description: Initializes a new instance of the Projectaspose.tasks/project class.
+description: Project constructor. Initializes a new instance of the Project class
 type: docs
 weight: 10
 url: /net/aspose.tasks/project/project/
 ---
 ## Project() {#constructor}
 
-Initializes a new instance of the [`Project`](../../project) class.
+Initializes a new instance of the [`Project`](../) class.
 
 ```csharp
 public Project()
 ```
 
-### Examples
+## Examples
 
 Shows how to create a project and save it into MPP format without passing of an MPP template file.
 
@@ -27,15 +27,15 @@ project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, string) {#constructor_12}
 
-Initializes a new instance of the [`Project`](../../project) class from a password protected template (existent mpp or mpt file).
+Initializes a new instance of the [`Project`](../) class from a password protected template (existent mpp or mpt file).
 
 ```csharp
 public Project(string projectTemplate, string protectionPassword)
@@ -46,11 +46,11 @@ public Project(string projectTemplate, string protectionPassword)
 | projectTemplate | String | Path to template to create project from. |
 | protectionPassword | String | Protection password. |
 
-### Remarks
+## Remarks
 
 Reading password protected files currently supported for MSP 2003 file format only.
 
-### Examples
+## Examples
 
 Shows how to read password protected MPP files.
 
@@ -61,15 +61,15 @@ Console.WriteLine(project.Get(Prj.Name));
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string) {#constructor_8}
 
-Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
+Initializes a new instance of the [`Project`](../) class from a template (existent mpp or mpt file).
 
 ```csharp
 public Project(string projectTemplate)
@@ -79,7 +79,7 @@ public Project(string projectTemplate)
 | --- | --- | --- |
 | projectTemplate | String | Path to template to create project from. |
 
-### Examples
+## Examples
 
 Shows how to read a MPP file.
 
@@ -90,15 +90,15 @@ project.Save(OutDir + "ReadProjectFiles_out.mpp", SaveFileFormat.Xml);
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, PrimaveraReadOptions) {#constructor_5}
 
-Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
+Initializes a new instance of the [`Project`](../) class from the Stream with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions/) class.
 
 ```csharp
 public Project(Stream stream, PrimaveraReadOptions options)
@@ -107,9 +107,9 @@ public Project(Stream stream, PrimaveraReadOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | Stream of the Project Streamclass |
-| options | PrimaveraReadOptions | the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions)class which allows to customize reading of Primavera formats (XER or XML). |
+| options | PrimaveraReadOptions | the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions/)class which allows to customize reading of Primavera formats (XER or XML). |
 
-### Examples
+## Examples
 
 Shows how to read a project from a stream with Primavera XML or Primavera XER file containing multiple projects.
 
@@ -128,16 +128,16 @@ using (var stream = new FileStream(DataDir + "Project.xml", FileMode.Open, FileA
 
 ### See Also
 
-* class [PrimaveraReadOptions](../../primaverareadoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [PrimaveraReadOptions](../../primaverareadoptions/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, ParseErrorCallback) {#constructor_10}
 
-Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file).
+Initializes a new instance of the [`Project`](../) class from a template (existent mpp or mpt file).
 
 ```csharp
 public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
@@ -148,7 +148,7 @@ public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 | projectTemplate | String | Path to template to create project from. |
 | parseErrorHandler | ParseErrorCallback | the specified callback method to handle xml parse errors. |
 
-### Examples
+## Examples
 
 Shows how to read a project from a stream with XML file with invalid characters.
 
@@ -178,16 +178,16 @@ public static object CustomDurationHandlerForFile2(object sender, ParseErrorArgs
 
 ### See Also
 
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* delegate [ParseErrorCallback](../../parseerrorcallback/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream) {#constructor_2}
 
-Initializes a new instance of the [`Project`](../../project) class from a stream.
+Initializes a new instance of the [`Project`](../) class from a stream.
 
 ```csharp
 public Project(Stream stream)
@@ -197,7 +197,7 @@ public Project(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Stream to load a template from. |
 
-### Examples
+## Examples
 
 Shows how to read XML project file from a stream.
 
@@ -211,15 +211,15 @@ using (Stream stream = new FileStream(DataDir + "Project.xml", FileMode.Open))
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(StreamReader) {#constructor_7}
 
-Initializes a new instance of the [`Project`](../../project) class from a StreamReader instance.
+Initializes a new instance of the [`Project`](../) class from a StreamReader instance.
 
 ```csharp
 public Project(StreamReader reader)
@@ -229,7 +229,7 @@ public Project(StreamReader reader)
 | --- | --- | --- |
 | reader | StreamReader | The stream reader where to load a template from. |
 
-### Examples
+## Examples
 
 Shows how to read MPX files with specific encoding.
 
@@ -244,15 +244,15 @@ using (var streamReader = new StreamReader(DataDir + "EUC-KR-encoding.mpx", Syst
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, PrimaveraReadOptions) {#constructor_11}
 
-Initializes a new instance of the [`Project`](../../project) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class.
+Initializes a new instance of the [`Project`](../) class from a template (existent MPP or MPT file) with the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions/) class.
 
 ```csharp
 public Project(string projectTemplate, PrimaveraReadOptions options)
@@ -261,9 +261,9 @@ public Project(string projectTemplate, PrimaveraReadOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | projectTemplate | String | Path to template to create project from |
-| options | PrimaveraReadOptions | the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions) class. |
+| options | PrimaveraReadOptions | the specified instance of the [`PrimaveraReadOptions`](../../primaverareadoptions/) class. |
 
-### Examples
+## Examples
 
 Shows how to read a project from a Primavera XML or Primavera XER file containing multiple projects by using Primavera reading options.
 
@@ -280,16 +280,16 @@ Console.WriteLine(project.Get(Prj.Name));
 
 ### See Also
 
-* class [PrimaveraReadOptions](../../primaverareadoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [PrimaveraReadOptions](../../primaverareadoptions/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(DbSettings) {#constructor_1}
 
-Initializes a new instance of the [`Project`](../../project) class to read data from a database which is specified by the instance of the [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) class.
+Initializes a new instance of the [`Project`](../) class to read data from a database which is specified by the instance of the [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) class.
 
 ```csharp
 public Project(DbSettings settings)
@@ -297,9 +297,9 @@ public Project(DbSettings settings)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| settings | DbSettings | the specified instance of the [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings) class. |
+| settings | DbSettings | the specified instance of the [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) class. |
 
-### Examples
+## Examples
 
 Shows how to import a project from a Primavera database by using database settings.
 
@@ -325,16 +325,16 @@ Console.WriteLine(project.Get(Prj.Name));
 
 ### See Also
 
-* class [DbSettings](../../../aspose.tasks.connectivity/dbsettings)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [DbSettings](../../../aspose.tasks.connectivity/dbsettings/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, ParseErrorCallback) {#constructor_4}
 
-Initializes a new instance of the [`Project`](../../project) class from a template(existent mpp or mpt file).
+Initializes a new instance of the [`Project`](../) class from a template(existent mpp or mpt file).
 
 ```csharp
 public Project(Stream stream, ParseErrorCallback parseErrorHandler)
@@ -345,7 +345,7 @@ public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 | stream | Stream | Stream to load a template from. |
 | parseErrorHandler | ParseErrorCallback | the specified callback method to handle xml parse errors. |
 
-### Examples
+## Examples
 
 Shows how to read a project from XML file with invalid characters.
 
@@ -379,16 +379,16 @@ public static object CustomDurationHandlerForStream2(object sender, ParseErrorAr
 
 ### See Also
 
-* delegate [ParseErrorCallback](../../parseerrorcallback)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* delegate [ParseErrorCallback](../../parseerrorcallback/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, string) {#constructor_6}
 
-Initializes a new instance of the [`Project`](../../project) class from a template(existent mpp or mpt file).
+Initializes a new instance of the [`Project`](../) class from a template(existent mpp or mpt file).
 
 ```csharp
 public Project(Stream stream, string protectionPassword)
@@ -399,11 +399,11 @@ public Project(Stream stream, string protectionPassword)
 | stream | Stream | Stream to load a template from. |
 | protectionPassword | String | Protection password. |
 
-### Remarks
+## Remarks
 
 Reading password protected files currently supported for MSP 2003 file format only.
 
-### Examples
+## Examples
 
 Shows how to check if MPP is password protected.
 
@@ -424,15 +424,15 @@ using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", Fil
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, LoadOptions) {#constructor_9}
 
-Initializes a new instance of the [`Project`](../../project) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../../loadoptions) class.
+Initializes a new instance of the [`Project`](../) class from a template (existent mpp or mpt file) with the specified instance of the [`LoadOptions`](../../loadoptions/) class.
 
 ```csharp
 public Project(string projectTemplate, LoadOptions options)
@@ -441,9 +441,9 @@ public Project(string projectTemplate, LoadOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | projectTemplate | String | Path to template to create project from |
-| options | LoadOptions | the specified instance of the [`LoadOptions`](../../loadoptions) class. |
+| options | LoadOptions | the specified instance of the [`LoadOptions`](../../loadoptions/) class. |
 
-### Examples
+## Examples
 
 Shows how to load the project from a file by using &lt;see cref="Aspose.Tasks.LoadOptions"/&gt; instance.
 
@@ -477,16 +477,16 @@ Console.WriteLine(project.Get(Prj.Name));
 
 ### See Also
 
-* class [LoadOptions](../../loadoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [LoadOptions](../../loadoptions/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, LoadOptions) {#constructor_3}
 
-Initializes a new instance of the [`Project`](../../project) class from the Stream with the specified instance of the [`LoadOptions`](../../loadoptions) class.
+Initializes a new instance of the [`Project`](../) class from the Stream with the specified instance of the [`LoadOptions`](../../loadoptions/) class.
 
 ```csharp
 public Project(Stream stream, LoadOptions options)
@@ -495,9 +495,9 @@ public Project(Stream stream, LoadOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | Stream of the Project Streamclass |
-| options | LoadOptions | the specified instance of the [`LoadOptions`](../../loadoptions)class |
+| options | LoadOptions | the specified instance of the [`LoadOptions`](../../loadoptions/)class |
 
-### Examples
+## Examples
 
 Shows how to load the project from a stream by using &lt;see cref="Aspose.Tasks.LoadOptions"/&gt; instance.
 
@@ -515,9 +515,9 @@ using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", Fil
 
 ### See Also
 
-* class [LoadOptions](../../loadoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [LoadOptions](../../loadoptions/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

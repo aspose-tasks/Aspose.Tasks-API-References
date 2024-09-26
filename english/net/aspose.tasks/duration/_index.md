@@ -1,7 +1,7 @@
 ---
-title: Duration
+title: Struct Duration
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents duration in a project.
+description: Aspose.Tasks.Duration struct. Represents duration in a project
 type: docs
 weight: 470
 url: /net/aspose.tasks/duration/
@@ -18,31 +18,31 @@ public struct Duration : IEquatable<Duration>
 
 | Name | Description |
 | --- | --- |
-| [IsElapsed](../../aspose.tasks/duration/iselapsed) { get; } | Gets a value indicating whether time unit is elapsed. The flag which determines whether this Duration instance is elapsed. |
-| [IsEstimated](../../aspose.tasks/duration/isestimated) { get; } | Gets a value indicating whether time unit is estimated. The flag which determines whether this Duration instance is estimated. |
-| [TimeSpan](../../aspose.tasks/duration/timespan) { get; } | Gets [`TimeSpan`](./timespan) instance of this Duration object. The TimeSpan instance of this Duration object. |
-| [TimeUnit](../../aspose.tasks/duration/timeunit) { get; } | Gets time unit type for this object. The time unit type of this Duration instance. |
+| [IsElapsed](../../aspose.tasks/duration/iselapsed/) { get; } | Gets a value indicating whether time unit is elapsed. The flag which determines whether this Duration instance is elapsed. |
+| [IsEstimated](../../aspose.tasks/duration/isestimated/) { get; } | Gets a value indicating whether time unit is estimated. The flag which determines whether this Duration instance is estimated. |
+| [TimeSpan](../../aspose.tasks/duration/timespan/) { get; } | Gets [`TimeSpan`](./timespan/) instance of this Duration object. The TimeSpan instance of this Duration object. |
+| [TimeUnit](../../aspose.tasks/duration/timeunit/) { get; } | Gets time unit type for this object. The time unit type of this Duration instance. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Parse](../../aspose.tasks/duration/parse)(Project, string) | Converts the specified string to the instance of [`Duration`](../duration) struct. |
-| [Add](../../aspose.tasks/duration/add#add_1)(double) | Adds specified double value to this duration. |
-| [Add](../../aspose.tasks/duration/add#add)(Duration) | Adds specified duration to this duration. |
-| [Convert](../../aspose.tasks/duration/convert)(TimeUnitType) | Converts Duration object to another duration with specified time units. |
-| [Equals](../../aspose.tasks/duration/equals#equals)(Duration) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](../../aspose.tasks/duration/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](../../aspose.tasks/duration/gethashcode)() | Returns a hash code value for this object. |
-| [Subtract](../../aspose.tasks/duration/subtract#subtract_1)(double) | Subtracts specified double value from this duration instance. |
-| [Subtract](../../aspose.tasks/duration/subtract#subtract)(Duration) | Subtracts specified duration from this duration instance. |
-| [ToDouble](../../aspose.tasks/duration/todouble)() | Converts Duration object to Double value. |
-| override [ToString](../../aspose.tasks/duration/tostring)() | Returns a string representation of this instance. |
-| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan)(string) | Parses duration string in format "PT--H--M--S--". |
-| [operator ==](../../aspose.tasks/duration/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
-| [operator !=](../../aspose.tasks/duration/op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
+| static [Parse](../../aspose.tasks/duration/parse/)(Project, string) | Converts the specified string to the instance of `Duration` struct. |
+| [Add](../../aspose.tasks/duration/add/#add_1)(double) | Adds specified double value to this duration. |
+| [Add](../../aspose.tasks/duration/add/#add)(Duration) | Adds specified duration to this duration. |
+| [Convert](../../aspose.tasks/duration/convert/)(TimeUnitType) | Converts Duration object to another duration with specified time units. |
+| [Equals](../../aspose.tasks/duration/equals/#equals)(Duration) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/duration/equals/#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/duration/gethashcode/)() | Returns a hash code value for this object. |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract_1)(double) | Subtracts specified double value from this duration instance. |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract)(Duration) | Subtracts specified duration from this duration instance. |
+| [ToDouble](../../aspose.tasks/duration/todouble/)() | Converts Duration object to Double value. |
+| override [ToString](../../aspose.tasks/duration/tostring/)() | Returns a string representation of this instance. |
+| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan/)(string) | Parses duration string in format "PT--H--M--S--". |
+| [operator ==](../../aspose.tasks/duration/op_equality/) | Returns a value indicating whether this instance is equal to a specified object. |
+| [operator !=](../../aspose.tasks/duration/op_inequality/) | Returns a value indicating whether this instance is not equal to a specified object. |
 
-### Examples
+## Examples
 
 Shows how to update a duration of tasks.
 
@@ -77,7 +77,7 @@ Console.WriteLine("The duration of task 2: " + task1.Get(Tsk.Duration));
 
 ### See Also
 
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

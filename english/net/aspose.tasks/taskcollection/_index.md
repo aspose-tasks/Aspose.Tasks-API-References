@@ -1,14 +1,14 @@
 ---
-title: TaskCollection
+title: Class TaskCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents a collection of Task./task objects.
+description: Aspose.Tasks.TaskCollection class. Represents a collection of Task objects
 type: docs
 weight: 2260
 url: /net/aspose.tasks/taskcollection/
 ---
 ## TaskCollection class
 
-Represents a collection of [`Task`](../task) objects.
+Represents a collection of [`Task`](../task/) objects.
 
 ```csharp
 public class TaskCollection : IList<Task>
@@ -18,29 +18,29 @@ public class TaskCollection : IList<Task>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.tasks/taskcollection/count) { get; } | Gets the number of objects contained in the TaskCollection. |
-| [IsReadOnly](../../aspose.tasks/taskcollection/isreadonly) { get; } | Gets a value indicating whether this collection is read only. |
-| [Item](../../aspose.tasks/taskcollection/item) { get; set; } | Returns the element at the specified index. |
-| [ParentProject](../../aspose.tasks/taskcollection/parentproject) { get; } | Gets the parent project of the TaskCollection object. |
+| [Count](../../aspose.tasks/taskcollection/count/) { get; } | Gets the number of objects contained in the TaskCollection. |
+| [IsReadOnly](../../aspose.tasks/taskcollection/isreadonly/) { get; } | Gets a value indicating whether this collection is read only. |
+| [Item](../../aspose.tasks/taskcollection/item/) { get; set; } | Returns the element at the specified index. |
+| [ParentProject](../../aspose.tasks/taskcollection/parentproject/) { get; } | Gets the parent project of the TaskCollection object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/taskcollection/add#add)() | Adds new task to project tasks collection on the same outline level of the last task. |
-| [Add](../../aspose.tasks/taskcollection/add#add_1)(RecurringTaskParameters) | Inserts a new task before a task with the specified id and on the same outline level. |
-| [Add](../../aspose.tasks/taskcollection/add#add_2)(string) | Adds a new task to children tasks collection. |
-| [Add](../../aspose.tasks/taskcollection/add#add_4)(Task) | Add the specified task to the instance of the [`TaskCollection`](../taskcollection) class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, ids and outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
-| [Add](../../aspose.tasks/taskcollection/add#add_3)(string, int) | Adds a new recurring task to children tasks collection. |
-| [Contains](../../aspose.tasks/taskcollection/contains)(Task) | Checks if collection contains specified item. |
-| [GetById](../../aspose.tasks/taskcollection/getbyid)(int) | Returns a task with the specified Id whose ancestor is parent task of this collection . |
-| [GetByUid](../../aspose.tasks/taskcollection/getbyuid)(int) | Returns a task with the specified Uid whose ancestor is parent task of this collection . |
-| [GetEnumerator](../../aspose.tasks/taskcollection/getenumerator)() | Returns an enumerator for this collection. |
-| [Insert](../../aspose.tasks/taskcollection/insert)(int, Task) | This is the stub implementation of IList's Insert method, that only throws NotSupportedException |
-| [Remove](../../aspose.tasks/taskcollection/remove)(Task) | This is the stub implementation of ICollection's Remove method, that only throws NotSupportedException |
-| [ToList](../../aspose.tasks/taskcollection/tolist)() | Converts the TaskCollection object to a list of [`Task`](../task) objects. |
+| [Add](../../aspose.tasks/taskcollection/add/#add)() | Adds new task to project tasks collection on the same outline level of the last task. |
+| [Add](../../aspose.tasks/taskcollection/add/#add_1)(RecurringTaskParameters) | Inserts a new task before a task with the specified id and on the same outline level. |
+| [Add](../../aspose.tasks/taskcollection/add/#add_2)(string) | Adds a new task to children tasks collection. |
+| [Add](../../aspose.tasks/taskcollection/add/#add_4)(Task) | Add the specified task to the instance of the `TaskCollection` class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, ids and outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels). |
+| [Add](../../aspose.tasks/taskcollection/add/#add_3)(string, int) | Adds a new recurring task to children tasks collection. |
+| [Contains](../../aspose.tasks/taskcollection/contains/)(Task) | Checks if collection contains specified item. |
+| [GetById](../../aspose.tasks/taskcollection/getbyid/)(int) | Returns a task with the specified Id whose ancestor is parent task of this collection . |
+| [GetByUid](../../aspose.tasks/taskcollection/getbyuid/)(int) | Returns a task with the specified Uid whose ancestor is parent task of this collection . |
+| [GetEnumerator](../../aspose.tasks/taskcollection/getenumerator/)() | Returns an enumerator for this collection. |
+| [Insert](../../aspose.tasks/taskcollection/insert/)(int, Task) | This is the stub implementation of IList's Insert method, that only throws NotSupportedException |
+| [Remove](../../aspose.tasks/taskcollection/remove/)(Task) | This is the stub implementation of ICollection's Remove method, that only throws NotSupportedException |
+| [ToList](../../aspose.tasks/taskcollection/tolist/)() | Converts the TaskCollection object to a list of [`Task`](../task/) objects. |
 
-### Examples
+## Examples
 
 Shows how to work with task collections.
 
@@ -114,8 +114,8 @@ foreach (var task in tasks)
 
 ### See Also
 
-* class [Task](../task)
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* class [Task](../task/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

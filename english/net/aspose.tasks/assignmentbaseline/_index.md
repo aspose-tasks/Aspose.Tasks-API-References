@@ -1,7 +1,7 @@
 ---
-title: AssignmentBaseline
+title: Class AssignmentBaseline
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents Baseline of a resource assignment.
+description: Aspose.Tasks.AssignmentBaseline class. Represents Baseline of a resource assignment
 type: docs
 weight: 50
 url: /net/aspose.tasks/assignmentbaseline/
@@ -19,33 +19,33 @@ public class AssignmentBaseline : Baseline, IComparable<AssignmentBaseline>,
 
 | Name | Description |
 | --- | --- |
-| [AssignmentBaseline](assignmentbaseline)() | The default constructor. |
+| [AssignmentBaseline](assignmentbaseline/)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Gets or sets the unique number of a baseline data record. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
-| [Finish](../../aspose.tasks/assignmentbaseline/finish) { get; set; } | Gets or sets the scheduled finish date of the resource assignment when the baseline was saved. The finish date of the resource assignment when this baseline was saved. |
-| [Start](../../aspose.tasks/assignmentbaseline/start) { get; set; } | Gets or sets the scheduled start date of the resource assignment when the baseline was saved. The start date of the resource assignment when this baseline was saved. |
-| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata) { get; set; } | Gets or sets the [`TimephasedDataCollection`](../timephaseddatacollection) instance for this object. The time phased data associated with the resource assignment baseline. returns [`TimephasedDataCollection`](../timephaseddatacollection) instance for this object.The collection of Time phased data associated with this baseline. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Gets or sets the unique number of a baseline data record. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
+| [Finish](../../aspose.tasks/assignmentbaseline/finish/) { get; set; } | Gets or sets the scheduled finish date of the resource assignment when the baseline was saved. The finish date of the resource assignment when this baseline was saved. |
+| [Start](../../aspose.tasks/assignmentbaseline/start/) { get; set; } | Gets or sets the scheduled start date of the resource assignment when the baseline was saved. The start date of the resource assignment when this baseline was saved. |
+| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata/) { get; set; } | Gets or sets the [`TimephasedDataCollection`](../timephaseddatacollection/) instance for this object. The time phased data associated with the resource assignment baseline. returns [`TimephasedDataCollection`](../timephaseddatacollection/) instance for this object.The collection of Time phased data associated with this baseline. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto#compareto)(AssignmentBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [Equals](../../aspose.tasks/assignmentbaseline/equals#equals)(AssignmentBaseline) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
-| [Equals](../../aspose.tasks/baseline/equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](../../aspose.tasks/assignmentbaseline/equals#equals_2)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode)() |  |
+| [CompareTo](../../aspose.tasks/assignmentbaseline/compareto/#compareto)(AssignmentBaseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [Equals](../../aspose.tasks/assignmentbaseline/equals/#equals)(AssignmentBaseline) | Returns a value indicating whether this instance is equal to the specified AssignmentBaseline object. |
+| [Equals](../../aspose.tasks/baseline/equals/)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/assignmentbaseline/equals/#equals_2)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/assignmentbaseline/gethashcode/)() |  |
 
-### Examples
+## Examples
 
 Shows how to work with baselines of assignments.
 
@@ -104,8 +104,8 @@ Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHa
 
 ### See Also
 
-* class [Baseline](../baseline)
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* class [Baseline](../baseline/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

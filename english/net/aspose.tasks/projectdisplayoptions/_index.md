@@ -1,7 +1,7 @@
 ---
-title: ProjectDisplayOptions
+title: Class ProjectDisplayOptions
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents the display options for a project instance.
+description: Aspose.Tasks.ProjectDisplayOptions class. Represents the display options for a project instance
 type: docs
 weight: 1340
 url: /net/aspose.tasks/projectdisplayoptions/
@@ -18,25 +18,25 @@ public class ProjectDisplayOptions
 
 | Name | Description |
 | --- | --- |
-| [ProjectDisplayOptions](projectdisplayoptions)() | Initializes a new instance of the [`ProjectDisplayOptions`](../projectdisplayoptions) class. |
+| [ProjectDisplayOptions](projectdisplayoptions/)() | Initializes a new instance of the `ProjectDisplayOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel) { get; set; } | Gets or sets a value indicating whether to add a space before the number value and the time abbreviation (1 wk as opposed to 1wk). |
-| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel) { get; set; } | Gets or sets how the day label displays. |
-| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel) { get; set; } | Gets or sets how the hour label displays. |
-| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel) { get; set; } | Gets or sets how the minute label displays. |
-| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel) { get; set; } | Gets or sets how the month label displays. |
-| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask) { get; set; } | Gets or sets a value indicating whether to display summary information about an entire project on a single row with its own summary task bar at the top of the Gantt Chart view. |
-| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions) { get; set; } | Gets or sets a value indicating whether to show suggestions when Project identifies a possible scheduling conflict with a manually scheduled task. This option is available for Project 2010 version and later. |
-| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings) { get; set; } | Gets or sets a value indicating whether to show warnings when Project identifies a possible scheduling conflict with a manually scheduled task. This option is available for Project 2010 version and later. |
-| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks) { get; set; } | Gets or sets a value indicating whether to underline hyperlinks. |
-| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel) { get; set; } | Gets or sets how the week label displays. |
-| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel) { get; set; } | Gets or sets how the year label displays. |
+| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel/) { get; set; } | Gets or sets a value indicating whether to add a space before the number value and the time abbreviation (1 wk as opposed to 1wk). |
+| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel/) { get; set; } | Gets or sets how the day label displays. |
+| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel/) { get; set; } | Gets or sets how the hour label displays. |
+| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel/) { get; set; } | Gets or sets how the minute label displays. |
+| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel/) { get; set; } | Gets or sets how the month label displays. |
+| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask/) { get; set; } | Gets or sets a value indicating whether to display summary information about an entire project on a single row with its own summary task bar at the top of the Gantt Chart view. |
+| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions/) { get; set; } | Gets or sets a value indicating whether to show suggestions when Project identifies a possible scheduling conflict with a manually scheduled task. This option is available for Project 2010 version and later. |
+| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings/) { get; set; } | Gets or sets a value indicating whether to show warnings when Project identifies a possible scheduling conflict with a manually scheduled task. This option is available for Project 2010 version and later. |
+| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks/) { get; set; } | Gets or sets a value indicating whether to underline hyperlinks. |
+| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel/) { get; set; } | Gets or sets how the week label displays. |
+| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel/) { get; set; } | Gets or sets how the year label displays. |
 
-### Examples
+## Examples
 
 Shows how to use project's display options.
 
@@ -82,7 +82,7 @@ project.Save(OutDir + "WorkWithProjectDisplayOptions.mpp", SaveFileFormat.Mpp);
 
 ### See Also
 
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

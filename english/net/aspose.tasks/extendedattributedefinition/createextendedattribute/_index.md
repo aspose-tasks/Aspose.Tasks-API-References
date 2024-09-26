@@ -1,7 +1,7 @@
 ---
-title: CreateExtendedAttribute
+title: ExtendedAttributeDefinition.CreateExtendedAttribute
 second_title: Aspose.Tasks for .NET API Reference
-description: Creates a new extended attribute with the field ID which equals to this objects field ID value.
+description: ExtendedAttributeDefinition method. Creates a new extended attribute with the field ID which equals to this objects field ID value
 type: docs
 weight: 300
 url: /net/aspose.tasks/extendedattributedefinition/createextendedattribute/
@@ -16,9 +16,9 @@ public ExtendedAttribute CreateExtendedAttribute()
 
 ### Return Value
 
-returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
+returns created instance of the [`ExtendedAttribute`](../../extendedattribute/) class with the fieldID which equals to this object's fieldID value.
 
-### Examples
+## Examples
 
 Shows how to create extended attributes.
 
@@ -47,9 +47,9 @@ project.Save(OutDir + "CreateExtendedAttributes_out.mpp", SaveFileFormat.Mpp);
 
 ### See Also
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -68,15 +68,15 @@ public ExtendedAttribute CreateExtendedAttribute(string textValue)
 
 ### Return Value
 
-returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
+returns created instance of the [`ExtendedAttribute`](../../extendedattribute/) class with the fieldID which equals to this object's fieldID value.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | If current [`CfType`](../cftype) is not 'Text' |
+| InvalidOperationException | If current [`CfType`](../cftype/) is not 'Text' |
 
-### Examples
+## Examples
 
 Shows how to create extended attribute definition and set a string value of the attribute while its constructing.
 
@@ -99,9 +99,9 @@ task.ExtendedAttributes.Add(extendedAttribute);
 
 ### See Also
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -120,15 +120,15 @@ public ExtendedAttribute CreateExtendedAttribute(decimal numericValue)
 
 ### Return Value
 
-returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
+returns created instance of the [`ExtendedAttribute`](../../extendedattribute/) class with the fieldID which equals to this object's fieldID value.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | If current [`CfType`](../cftype) is not 'Number' or 'Cost' |
+| InvalidOperationException | If current [`CfType`](../cftype/) is not 'Number' or 'Cost' |
 
-### Examples
+## Examples
 
 Shows how to create extended attribute definition and set a decimal value of the attribute while its constructing.
 
@@ -151,9 +151,9 @@ task.ExtendedAttributes.Add(extendedAttribute);
 
 ### See Also
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -172,15 +172,15 @@ public ExtendedAttribute CreateExtendedAttribute(DateTime dateTimeValue)
 
 ### Return Value
 
-returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
+returns created instance of the [`ExtendedAttribute`](../../extendedattribute/) class with the fieldID which equals to this object's fieldID value.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | If current [`CfType`](../cftype) is not 'Date', 'Start' or 'Finish' |
+| InvalidOperationException | If current [`CfType`](../cftype/) is not 'Date', 'Start' or 'Finish' |
 
-### Examples
+## Examples
 
 Shows how to create extended attribute definition and set a datetime value of the attribute while its constructing.
 
@@ -203,9 +203,9 @@ task.ExtendedAttributes.Add(extendedAttribute);
 
 ### See Also
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -224,15 +224,15 @@ public ExtendedAttribute CreateExtendedAttribute(Duration durationValue)
 
 ### Return Value
 
-returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
+returns created instance of the [`ExtendedAttribute`](../../extendedattribute/) class with the fieldID which equals to this object's fieldID value.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | If current [`CfType`](../cftype) is not 'Duration' |
+| InvalidOperationException | If current [`CfType`](../cftype/) is not 'Duration' |
 
-### Examples
+## Examples
 
 Shows how to create extended attribute definition and set a duration while its constructing.
 
@@ -254,10 +254,10 @@ task.ExtendedAttributes.Add(extendedAttribute);
 
 ### See Also
 
-* class [ExtendedAttribute](../../extendedattribute)
-* struct [Duration](../../duration)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* struct [Duration](../../duration/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -276,15 +276,15 @@ public ExtendedAttribute CreateExtendedAttribute(bool flagValue)
 
 ### Return Value
 
-returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class with the fieldID which equals to this object's fieldID value.
+returns created instance of the [`ExtendedAttribute`](../../extendedattribute/) class with the fieldID which equals to this object's fieldID value.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | If current [`CfType`](../cftype) is not 'Flag' |
+| InvalidOperationException | If current [`CfType`](../cftype/) is not 'Flag' |
 
-### Examples
+## Examples
 
 Shows how to create extended attribute definition and set a value of a flag while its constructing.
 
@@ -304,16 +304,16 @@ resource.ExtendedAttributes.Add(attribute);
 
 ### See Also
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateExtendedAttribute(Value) {#createextendedattribute_2}
 
-Creates new extended attribute linked with specified [`Value`](../../value) item.
+Creates new extended attribute linked with specified [`Value`](../../value/) item.
 
 ```csharp
 public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
@@ -321,19 +321,19 @@ public ExtendedAttribute CreateExtendedAttribute(Value lookupValue)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lookupValue | Value | The specified [`Value`](../../value) item. |
+| lookupValue | Value | The specified [`Value`](../../value/) item. |
 
 ### Return Value
 
-returns created instance of the [`ExtendedAttribute`](../../extendedattribute) class linked with specified [`Value`](../../value) item.
+returns created instance of the [`ExtendedAttribute`](../../extendedattribute/) class linked with specified [`Value`](../../value/) item.
 
-### Remarks
+## Remarks
 
-*lookupValue* should be previously added to the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) using [`AddLookupValue`](../addlookupvalue) method.
+*lookupValue* should be previously added to the [`ExtendedAttributeDefinition`](../) using [`AddLookupValue`](../addlookupvalue/) method.
 
-### Examples
+## Examples
 
-Use this code to create new [`ExtendedAttribute`](../../extendedattribute) using specific value:
+Use this code to create new [`ExtendedAttribute`](../../extendedattribute/) using specific value:
 
 ```csharp
 taskTextAttr.AddLookupValue(value1);
@@ -366,10 +366,10 @@ task.ExtendedAttributes.Add(extendedAttribute);
 
 ### See Also
 
-* class [ExtendedAttribute](../../extendedattribute)
-* class [Value](../../value)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* class [ExtendedAttribute](../../extendedattribute/)
+* class [Value](../../value/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

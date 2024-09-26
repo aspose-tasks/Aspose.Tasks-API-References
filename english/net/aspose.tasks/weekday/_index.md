@@ -1,7 +1,7 @@
 ---
-title: WeekDay
+title: Class WeekDay
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents a weekday which either defines regular days of a week or exception days in a calendar.
+description: Aspose.Tasks.WeekDay class. Represents a weekday which either defines regular days of a week or exception days in a calendar
 type: docs
 weight: 3370
 url: /net/aspose.tasks/weekday/
@@ -18,34 +18,34 @@ public class WeekDay
 
 | Name | Description |
 | --- | --- |
-| [WeekDay](weekday#constructor)() | Initializes a new instance of the [`WeekDay`](../weekday) class. |
-| [WeekDay](weekday#constructor_1)(DayType) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type. |
-| [WeekDay](weekday#constructor_3)(DayType, IEnumerable&lt;WorkingTime&gt;) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type and list of working time periods. |
-| [WeekDay](weekday#constructor_2)(DayType, params WorkingTime[]) | Initializes a new instance of the [`WeekDay`](../weekday) class with the specified day type and working time periods. |
+| [WeekDay](weekday/#constructor)() | Initializes a new instance of the `WeekDay` class. |
+| [WeekDay](weekday/#constructor_1)(DayType) | Initializes a new instance of the `WeekDay` class with the specified day type. |
+| [WeekDay](weekday/#constructor_3)(DayType, IEnumerable&lt;WorkingTime&gt;) | Initializes a new instance of the `WeekDay` class with the specified day type and list of working time periods. |
+| [WeekDay](weekday/#constructor_2)(DayType, params WorkingTime[]) | Initializes a new instance of the `WeekDay` class with the specified day type and working time periods. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DayType](../../aspose.tasks/weekday/daytype) { get; } | Gets the type of a day. |
-| [DayWorking](../../aspose.tasks/weekday/dayworking) { get; set; } | Gets or sets a value indicating whether the specified date or day type is working. |
-| [FromDate](../../aspose.tasks/weekday/fromdate) { get; set; } | Gets or sets the beginning of an exception time. |
-| [ToDate](../../aspose.tasks/weekday/todate) { get; set; } | Gets or sets the end of an exception time. |
-| [WorkingTimes](../../aspose.tasks/weekday/workingtimes) { get; } | Gets WorkingTimeCollection for this WeekDay instance. The collection of working times that define the time worked on the weekday. |
+| [DayType](../../aspose.tasks/weekday/daytype/) { get; } | Gets the type of a day. |
+| [DayWorking](../../aspose.tasks/weekday/dayworking/) { get; set; } | Gets or sets a value indicating whether the specified date or day type is working. |
+| [FromDate](../../aspose.tasks/weekday/fromdate/) { get; set; } | Gets or sets the beginning of an exception time. |
+| [ToDate](../../aspose.tasks/weekday/todate/) { get; set; } | Gets or sets the end of an exception time. |
+| [WorkingTimes](../../aspose.tasks/weekday/workingtimes/) { get; } | Gets WorkingTimeCollection for this WeekDay instance. The collection of working times that define the time worked on the weekday. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateDefaultWorkingDay](../../aspose.tasks/weekday/createdefaultworkingday)(DayType) | Creates default working day. |
-| [Clone](../../aspose.tasks/weekday/clone)() | Returns a deep copy of the week day. |
-| override [Equals](../../aspose.tasks/weekday/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](../../aspose.tasks/weekday/gethashcode)() | Returns a hash code value for the instance of the [`WeekDay`](../weekday) class. |
-| [GetWorkingTime](../../aspose.tasks/weekday/getworkingtime)() | Returns the working time for a week day. |
-| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype)(DayOfWeek) | Casts .Net's DayOfWeek to [`DayType`](./daytype). |
-| static [SetDefaultWorkingTime](../../aspose.tasks/weekday/setdefaultworkingtime)(WeekDay) | Sets default time periods for the specified week day. |
+| static [CreateDefaultWorkingDay](../../aspose.tasks/weekday/createdefaultworkingday/)(DayType) | Creates default working day. |
+| [Clone](../../aspose.tasks/weekday/clone/)() | Returns a deep copy of the week day. |
+| override [Equals](../../aspose.tasks/weekday/equals/)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/weekday/gethashcode/)() | Returns a hash code value for the instance of the `WeekDay` class. |
+| [GetWorkingTime](../../aspose.tasks/weekday/getworkingtime/)() | Returns the working time for a week day. |
+| static [CastToDayType](../../aspose.tasks/weekday/casttodaytype/)(DayOfWeek) | Casts .Net's DayOfWeek to [`DayType`](./daytype/). |
+| static [SetDefaultWorkingTime](../../aspose.tasks/weekday/setdefaultworkingtime/)(WeekDay) | Sets default time periods for the specified week day. |
 
-### Examples
+## Examples
 
 Shows how to create a new calendar by defining of week days.
 
@@ -103,7 +103,7 @@ foreach (var day in calendar.WeekDays)
 
 ### See Also
 
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

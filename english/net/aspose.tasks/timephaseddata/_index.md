@@ -1,7 +1,7 @@
 ---
-title: TimephasedData
+title: Class TimephasedData
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents a time phased data.
+description: Aspose.Tasks.TimephasedData class. Represents a time phased data
 type: docs
 weight: 2450
 url: /net/aspose.tasks/timephaseddata/
@@ -18,32 +18,32 @@ public class TimephasedData
 
 | Name | Description |
 | --- | --- |
-| [TimephasedData](timephaseddata)() | Initializes a new instance of the [`TimephasedData`](../timephaseddata) class. |
+| [TimephasedData](timephaseddata/)() | Initializes a new instance of the `TimephasedData` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Finish](../../aspose.tasks/timephaseddata/finish) { get; set; } | Gets or sets the finish date of a time phased data period. |
-| [Start](../../aspose.tasks/timephaseddata/start) { get; set; } | Gets or sets the start date of a time phased data period. |
-| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype) { get; set; } | Gets or sets the type of a time phased data. |
-| [Uid](../../aspose.tasks/timephaseddata/uid) { get; set; } | Gets or sets the unique identifier of a time phased data |
-| [Unit](../../aspose.tasks/timephaseddata/unit) { get; set; } | Gets or sets the time unit of a time phased data period. |
-| [Value](../../aspose.tasks/timephaseddata/value) { get; set; } | Gets or sets the value per unit of time for a time phased data period. |
-| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost) { get; set; } | Gets Double instance which represents string value of this object. |
-| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration) { get; } | Gets TimeSpan instance which represents string value of this object. |
-| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits) { get; } | Gets Double instance which represents string value of this object for unit-based time phased data. |
+| [Finish](../../aspose.tasks/timephaseddata/finish/) { get; set; } | Gets or sets the finish date of a time phased data period. |
+| [Start](../../aspose.tasks/timephaseddata/start/) { get; set; } | Gets or sets the start date of a time phased data period. |
+| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype/) { get; set; } | Gets or sets the type of a time phased data. |
+| [Uid](../../aspose.tasks/timephaseddata/uid/) { get; set; } | Gets or sets the unique identifier of a time phased data |
+| [Unit](../../aspose.tasks/timephaseddata/unit/) { get; set; } | Gets or sets the time unit of a time phased data period. |
+| [Value](../../aspose.tasks/timephaseddata/value/) { get; set; } | Gets or sets the value per unit of time for a time phased data period. |
+| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost/) { get; set; } | Gets Double instance which represents string value of this object. |
+| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration/) { get; } | Gets TimeSpan instance which represents string value of this object. |
+| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits/) { get; } | Gets Double instance which represents string value of this object for unit-based time phased data. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased#createcosttimephased)(int, DateTime, DateTime, double, TimephasedDataType) | Creates and initializes a new instance of the [`TimephasedData`](../timephaseddata) class for cost-based time phased data. |
-| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased#createcosttimephased_1)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | Creates and initializes a new instance of the [`TimephasedData`](../timephaseddata) class for cost-based time phased data. |
-| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased)(int, DateTime, DateTime, double, TimephasedDataType) | Creates and initializes a new instance of the [`TimephasedData`](../timephaseddata) class for unit-based time phased data of an assignment of a material resource. |
-| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | Creates and initializes a new instance of the [`TimephasedData`](../timephaseddata) class for work-based time phased data. |
+| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased/#createcosttimephased)(int, DateTime, DateTime, double, TimephasedDataType) | Creates and initializes a new instance of the `TimephasedData` class for cost-based time phased data. |
+| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased/#createcosttimephased_1)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | Creates and initializes a new instance of the `TimephasedData` class for cost-based time phased data. |
+| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased/)(int, DateTime, DateTime, double, TimephasedDataType) | Creates and initializes a new instance of the `TimephasedData` class for unit-based time phased data of an assignment of a material resource. |
+| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased/)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | Creates and initializes a new instance of the `TimephasedData` class for work-based time phased data. |
 
-### Examples
+## Examples
 
 Shows how to work with custom timephased data.
 
@@ -135,7 +135,7 @@ project.Recalculate();
 
 ### See Also
 
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

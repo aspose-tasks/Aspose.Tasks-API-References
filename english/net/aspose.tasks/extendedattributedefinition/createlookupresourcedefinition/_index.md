@@ -1,14 +1,14 @@
 ---
-title: CreateLookupResourceDefinition
+title: ExtendedAttributeDefinition.CreateLookupResourceDefinition
 second_title: Aspose.Tasks for .NET API Reference
-description: Factory method which creates an extended attribute definition with lookup. It has CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype equals to Lookup and can be used in Resources only. You are required to specify fieldId and alias when call this method. The field type is inferred from field id.
+description: ExtendedAttributeDefinition method. Factory method which creates an extended attribute definition with lookup. It has CalculationType equals to Lookup and can be used in Resources only. You are required to specify fieldId and alias when call this method. The field type is inferred from field id
 type: docs
 weight: 10
 url: /net/aspose.tasks/extendedattributedefinition/createlookupresourcedefinition/
 ---
 ## CreateLookupResourceDefinition(ExtendedAttributeResource, string) {#createlookupresourcedefinition_1}
 
-Factory method which creates an extended attribute definition with lookup. It has [`CalculationType`](../calculationtype) equals to Lookup and can be used in Resources only. You are required to specify *fieldId* and *alias* when call this method. The field type is inferred from field id.
+Factory method which creates an extended attribute definition with lookup. It has [`CalculationType`](../calculationtype/) equals to Lookup and can be used in Resources only. You are required to specify *fieldId* and *alias* when call this method. The field type is inferred from field id.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -17,14 +17,14 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | The specified [`ExtendedAttributeResource`](../../extendedattributeresource) field ID. |
+| fieldId | ExtendedAttributeResource | The specified [`ExtendedAttributeResource`](../../extendedattributeresource/) field ID. |
 | alias | String | The specified String alias. |
 
 ### Return Value
 
-Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *fieldId* and *alias*.
+Created instance of the [`ExtendedAttributeDefinition`](../) class with specified *fieldId* and *alias*.
 
-### Examples
+## Examples
 
 Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
 
@@ -167,16 +167,16 @@ project.Save(OutDir + "WriteUpdatedExtendedAttributeDefinitions_out.mpp", option
 
 ### See Also
 
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createlookupresourcedefinition}
 
-Factory method which creates an extended attribute definition with lookup. It has [`CalculationType`](../calculationtype) equals to Lookup and can be used in Resources only. You are required to specify *customFieldType*, *fieldId* and *alias* when call this method.
+Factory method which creates an extended attribute definition with lookup. It has [`CalculationType`](../calculationtype/) equals to Lookup and can be used in Resources only. You are required to specify *customFieldType*, *fieldId* and *alias* when call this method.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
@@ -185,15 +185,15 @@ public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | The specified [`CustomFieldType`](../../customfieldtype) type. |
-| fieldId | ExtendedAttributeResource | The specified [`ExtendedAttributeResource`](../../extendedattributeresource) field ID. |
+| customFieldType | CustomFieldType | The specified [`CustomFieldType`](../../customfieldtype/) type. |
+| fieldId | ExtendedAttributeResource | The specified [`ExtendedAttributeResource`](../../extendedattributeresource/) field ID. |
 | alias | String | The specified String alias. |
 
 ### Return Value
 
-Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *customFieldType*, *fieldId* and *alias*.
+Created instance of the [`ExtendedAttributeDefinition`](../) class with specified *customFieldType*, *fieldId* and *alias*.
 
-### Examples
+## Examples
 
 Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
 
@@ -251,10 +251,10 @@ taskCostAttr.RemoveLookupValue(taskWrongValue);
 
 ### See Also
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeResource](../../extendedattributeresource)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeResource](../../extendedattributeresource/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
