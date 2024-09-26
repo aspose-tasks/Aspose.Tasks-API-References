@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskCollection.Add
 second_title: Aspose.Tasks for .NET API Reference
-description: Add the specified task to the instance of the TaskCollectionaspose.tasks/taskcollection class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate after using this method It will reschedule all project tasks start/finish dates sets early/late dates and calculate the dependent fields such as slacks work and cost fields ids and outline levels. If ParentProject.CalculationMode is Manual the method will calculate only task id outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all projects tasks automatically start/finish dates sets early/late dates calculates slacks work and cost fields recalculates ids and outline levels.
+description: TaskCollection method. Add the specified task to the instance of the TaskCollection class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate after using this method It will reschedule all project tasks start/finish dates sets early/late dates and calculate the dependent fields such as slacks work and cost fields ids and outline levels. If ParentProject.CalculationMode is Manual the method will calculate only task id outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all projects tasks automatically start/finish dates sets early/late dates calculates slacks work and cost fields recalculates ids and outline levels
 type: docs
 weight: 50
 url: /net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-Add the specified task to the instance of the [`TaskCollection`](../../taskcollection) class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, ids and outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels).
+Add the specified task to the instance of the [`TaskCollection`](../) class. If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, ids and outline levels). If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates ids and outline levels).
 
 ```csharp
 public void Add(Task item)
@@ -18,7 +18,7 @@ public void Add(Task item)
 | --- | --- | --- |
 | item | Task | the specified task which should be added to this task collection. |
 
-### Examples
+## Examples
 
 Shows how to move a task under another parent.
 
@@ -35,9 +35,9 @@ task2.Children.Add(task);
 
 ### See Also
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namespace [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namespace [Aspose.Tasks](../../taskcollection/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -52,9 +52,9 @@ public Task Add()
 
 ### Return Value
 
-returns the newly added instance of the [`Task`](../../task) class.
+returns the newly added instance of the [`Task`](../../task/) class.
 
-### Examples
+## Examples
 
 Shows how to work with task collections.
 
@@ -128,9 +128,9 @@ foreach (var task in tasks)
 
 ### See Also
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namespace [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namespace [Aspose.Tasks](../../taskcollection/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -149,9 +149,9 @@ public Task Add(string taskName)
 
 ### Return Value
 
-returns the newly added instance of the [`Task`](../../task) class.
+returns the newly added instance of the [`Task`](../../task/) class.
 
-### Examples
+## Examples
 
 Shows how to work with task collections.
 
@@ -225,9 +225,9 @@ foreach (var task in tasks)
 
 ### See Also
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namespace [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namespace [Aspose.Tasks](../../taskcollection/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -255,7 +255,7 @@ returns a task which was inserted before a task with the specified id.
 | --- | --- |
 | ArgumentOutOfRangeException | ArgumentOutOfRangeException is thrown if the specified id is not a valid task id. |
 
-### Examples
+## Examples
 
 Shows how to work with task collections.
 
@@ -329,9 +329,9 @@ foreach (var task in tasks)
 
 ### See Also
 
-* class [Task](../../task)
-* class [TaskCollection](../../taskcollection)
-* namespace [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [TaskCollection](../)
+* namespace [Aspose.Tasks](../../taskcollection/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -350,7 +350,7 @@ public Task Add(RecurringTaskParameters parameters)
 
 ### Return Value
 
-returns the newly added instance of the [`Task`](../../task) class.
+returns the newly added instance of the [`Task`](../../task/) class.
 
 ### Exceptions
 
@@ -359,7 +359,7 @@ returns the newly added instance of the [`Task`](../../task) class.
 | ArgumentNullException | Thrown if the specified parameters are null. |
 | ArgumentException | Thrown if the specified parameters are invalid. |
 
-### Examples
+## Examples
 
 Shows how to work with task collections.
 
@@ -433,10 +433,10 @@ foreach (var task in tasks)
 
 ### See Also
 
-* class [Task](../../task)
-* class [RecurringTaskParameters](../../recurringtaskparameters)
-* class [TaskCollection](../../taskcollection)
-* namespace [Aspose.Tasks](../../taskcollection)
+* class [Task](../../task/)
+* class [RecurringTaskParameters](../../recurringtaskparameters/)
+* class [TaskCollection](../)
+* namespace [Aspose.Tasks](../../taskcollection/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: View
+title: Class View
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents a view in Project.
+description: Aspose.Tasks.View class. Represents a view in Project
 type: docs
 weight: 2740
 url: /net/aspose.tasks/view/
@@ -18,41 +18,41 @@ public class View : IComparable<View>
 
 | Name | Description |
 | --- | --- |
-| [View](view#constructor)() | Initializes a new instance of the [`View`](../view) class. |
-| [View](view#constructor_1)(ViewScreen) | Initializes a new instance of the [`View`](../view) class. |
+| [View](view/#constructor)() | Initializes a new instance of the `View` class. |
+| [View](view/#constructor_1)(ViewScreen) | Initializes a new instance of the `View` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Filter](../../aspose.tasks/view/filter) { get; set; } | Gets or sets a filter used in a single view. |
-| [Group](../../aspose.tasks/view/group) { get; set; } | Gets or sets a group of the single view. |
-| [HighlightFilter](../../aspose.tasks/view/highlightfilter) { get; set; } | Gets or sets a value indicating whether Microsoft Project highlights the filter for a single view. |
-| [Name](../../aspose.tasks/view/name) { get; set; } | Gets or sets the name of a View object. |
-| [PageInfo](../../aspose.tasks/view/pageinfo) { get; } | Gets an instance of the [`PageInfo`](./pageinfo) class. Represents page setup data which is present in mpp file format. |
-| [ParentProject](../../aspose.tasks/view/parentproject) { get; } | Gets the parent of the View object. Read-only [`Project`](../project). |
-| [Screen](../../aspose.tasks/view/screen) { get; } | Gets the screen type for the single view. Read-only [`ViewScreen`](../viewscreen). |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu) { get; set; } | Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
-| [Table](../../aspose.tasks/view/table) { get; set; } | Gets or sets a table of the single view. |
-| [Type](../../aspose.tasks/view/type) { get; } | Gets the type of item in the single view, such as tasks or resources. Read-only [`ItemType`](../itemtype). |
-| [Uid](../../aspose.tasks/view/uid) { get; } | Gets the unique identifier of a view. |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements) { get; } | Gets a collection of objects representing placement and appearance of [`OleObject`](../oleobject) in the view. |
+| [Filter](../../aspose.tasks/view/filter/) { get; set; } | Gets or sets a filter used in a single view. |
+| [Group](../../aspose.tasks/view/group/) { get; set; } | Gets or sets a group of the single view. |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Gets or sets a value indicating whether Microsoft Project highlights the filter for a single view. |
+| [Name](../../aspose.tasks/view/name/) { get; set; } | Gets or sets the name of a View object. |
+| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | Gets an instance of the [`PageInfo`](./pageinfo/) class. Represents page setup data which is present in mpp file format. |
+| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | Gets the parent of the View object. Read-only [`Project`](../project/). |
+| [Screen](../../aspose.tasks/view/screen/) { get; } | Gets the screen type for the single view. Read-only [`ViewScreen`](../viewscreen/). |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
+| [Table](../../aspose.tasks/view/table/) { get; set; } | Gets or sets a table of the single view. |
+| [Type](../../aspose.tasks/view/type/) { get; } | Gets the type of item in the single view, such as tasks or resources. Read-only [`ItemType`](../itemtype/). |
+| [Uid](../../aspose.tasks/view/uid/) { get; } | Gets the unique identifier of a view. |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | Gets a collection of objects representing placement and appearance of [`OleObject`](../oleobject/) in the view. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto)(View) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
-| override [Equals](../../aspose.tasks/view/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode)() | Returns a hash code value for the instance of the [`Resource`](../resource) class. |
-| [operator ==](../../aspose.tasks/view/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
-| [operator &gt;](../../aspose.tasks/view/op_greaterthan) | Returns a value indicating whether this instance is greater than a specified object. |
-| [operator &gt;=](../../aspose.tasks/view/op_greaterthanorequal) | Returns a value indicating whether this instance is greater than or equal to a specified object. |
-| [operator !=](../../aspose.tasks/view/op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
-| [operator &lt;](../../aspose.tasks/view/op_lessthan) | Returns a value indicating whether this instance is less than a specified object. |
-| [operator &lt;=](../../aspose.tasks/view/op_lessthanorequal) | Returns a value indicating whether this instance is less than or equal to a specified object. |
+| [CompareTo](../../aspose.tasks/view/compareto/)(View) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
+| override [Equals](../../aspose.tasks/view/equals/)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | Returns a hash code value for the instance of the [`Resource`](../resource/) class. |
+| [operator ==](../../aspose.tasks/view/op_equality/) | Returns a value indicating whether this instance is equal to a specified object. |
+| [operator &gt;](../../aspose.tasks/view/op_greaterthan/) | Returns a value indicating whether this instance is greater than a specified object. |
+| [operator &gt;=](../../aspose.tasks/view/op_greaterthanorequal/) | Returns a value indicating whether this instance is greater than or equal to a specified object. |
+| [operator !=](../../aspose.tasks/view/op_inequality/) | Returns a value indicating whether this instance is not equal to a specified object. |
+| [operator &lt;](../../aspose.tasks/view/op_lessthan/) | Returns a value indicating whether this instance is less than a specified object. |
+| [operator &lt;=](../../aspose.tasks/view/op_lessthanorequal/) | Returns a value indicating whether this instance is less than or equal to a specified object. |
 
-### Examples
+## Examples
 
 Shows how to work with Project's view and add column to the default view (which is shown when MPP file is opened in MS Project).
 
@@ -131,7 +131,7 @@ Console.WriteLine("Parent Project of the view: " + view.ParentProject.Get(Prj.Na
 
 ### See Also
 
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

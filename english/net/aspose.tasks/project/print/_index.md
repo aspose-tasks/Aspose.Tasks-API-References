@@ -1,7 +1,7 @@
 ---
-title: Print
+title: Project.Print
 second_title: Aspose.Tasks for .NET API Reference
-description: Prints project to the default printer with default printer settings using the standard no User Interface print controller.
+description: Project method. Prints project to the default printer with default printer settings using the standard no User Interface print controller
 type: docs
 weight: 1130
 url: /net/aspose.tasks/project/print/
@@ -14,7 +14,7 @@ Prints project to the default printer with default printer settings using the st
 public void Print()
 ```
 
-### Examples
+## Examples
 
 Shows how to print a project.
 
@@ -25,8 +25,8 @@ project.Print();
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -41,9 +41,9 @@ public void Print(PrintOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | PrintOptions | the specified instance of the [`PrintOptions`](../../../aspose.tasks.saving/printoptions) class. |
+| options | PrintOptions | the specified instance of the [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) class. |
 
-### Examples
+## Examples
 
 Shows how to print a project by using of print options.
 
@@ -62,9 +62,9 @@ if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 
 ### See Also
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -81,7 +81,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | Specified printer name. |
 
-### Examples
+## Examples
 
 Shows how to print the project on the selected printer.
 
@@ -102,8 +102,8 @@ foreach (string printer in PrinterSettings.InstalledPrinters)
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -120,7 +120,7 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | the specified instance of the PrinterSettings class. |
 
-### Examples
+## Examples
 
 Shows how to use printer settings to print the project.
 
@@ -140,8 +140,8 @@ project.Print(settings);
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -159,7 +159,7 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | the specified instance of the PrinterSettings class. |
 | documentName | String | the document name to display (for example, in a print status dialog box or printer queue). |
 
-### Examples
+## Examples
 
 Shows how to use printer settings and a document name to print the project.
 
@@ -179,8 +179,8 @@ project.Print(settings, "Document #1");
 
 ### See Also
 
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -196,9 +196,9 @@ public void Print(PrinterSettings printerSettings, PrintOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | the specified instance of the PrinterSettings class. |
-| options | PrintOptions | the specified instance of the [`PrintOptions`](../../../aspose.tasks.saving/printoptions) class. |
+| options | PrintOptions | the specified instance of the [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) class. |
 
-### Examples
+## Examples
 
 Shows how to use printer options and settings to print the project.
 
@@ -223,9 +223,9 @@ project.Print(settings, options);
 
 ### See Also
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -241,10 +241,10 @@ public void Print(PrinterSettings printerSettings, PrintOptions options, string 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | the specified instance of the PrinterSettings class. |
-| options | PrintOptions | the specified instance of the [`PrintOptions`](../../../aspose.tasks.saving/printoptions) class. |
+| options | PrintOptions | the specified instance of the [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) class. |
 | documentName | String | the document name to display (for example, in a print status dialog box or printer queue). |
 
-### Examples
+## Examples
 
 Shows how to use printer options, printer settings and document name to print the project.
 
@@ -269,9 +269,9 @@ project.Print(settings, options, "My project name");
 
 ### See Also
 
-* class [PrintOptions](../../../aspose.tasks.saving/printoptions)
-* class [Project](../../project)
-* namespace [Aspose.Tasks](../../project)
+* class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
+* class [Project](../)
+* namespace [Aspose.Tasks](../../project/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

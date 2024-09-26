@@ -1,14 +1,14 @@
 ---
-title: CreateTaskDefinition
+title: ExtendedAttributeDefinition.CreateTaskDefinition
 second_title: Aspose.Tasks for .NET API Reference
-description: Factory method which creates a simple extended attribute definition which Microsoft Project shows as None. It has CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype equals to None and can be used in Tasks only. You are required to specify customFieldType fieldId and alias when calling this method.
+description: ExtendedAttributeDefinition method. Factory method which creates a simple extended attribute definition which Microsoft Project shows as None. It has CalculationType equals to None and can be used in Tasks only. You are required to specify customFieldType fieldId and alias when calling this method
 type: docs
 weight: 40
 url: /net/aspose.tasks/extendedattributedefinition/createtaskdefinition/
 ---
 ## CreateTaskDefinition(CustomFieldType, ExtendedAttributeTask, string) {#createtaskdefinition}
 
-Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype) equals to None and can be used in Tasks only. You are required to specify *customFieldType*, *fieldId* and *alias* when calling this method.
+Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype/) equals to None and can be used in Tasks only. You are required to specify *customFieldType*, *fieldId* and *alias* when calling this method.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType customFieldType, 
@@ -17,15 +17,15 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(CustomFieldType c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | The specified [`CustomFieldType`](../../customfieldtype) type. |
-| fieldId | ExtendedAttributeTask | The specified [`ExtendedAttributeTask`](../../extendedattributetask) field ID. |
+| customFieldType | CustomFieldType | The specified [`CustomFieldType`](../../customfieldtype/) type. |
+| fieldId | ExtendedAttributeTask | The specified [`ExtendedAttributeTask`](../../extendedattributetask/) field ID. |
 | alias | String | The specified String alias. |
 
 ### Return Value
 
-Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *customFieldType*, *fieldId* and *alias*.
+Created instance of the [`ExtendedAttributeDefinition`](../) class with specified *customFieldType*, *fieldId* and *alias*.
 
-### Examples
+## Examples
 
 Use this example to create a custom text field definition:
 
@@ -153,17 +153,17 @@ project3.Save(OutDir + "FinishExtendedAttributeWithLookup_out.mpp", SaveFileForm
 
 ### See Also
 
-* enum [CustomFieldType](../../customfieldtype)
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* enum [CustomFieldType](../../customfieldtype/)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateTaskDefinition(ExtendedAttributeTask, string) {#createtaskdefinition_1}
 
-Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype) equals to None and can be used in Tasks only. You are required to specify *fieldId* and *alias* when calling this method. The field type is inferred from field id.
+Factory method which creates a simple extended attribute definition, which Microsoft Project shows as "None". It has [`CalculationType`](../calculationtype/) equals to None and can be used in Tasks only. You are required to specify *fieldId* and *alias* when calling this method. The field type is inferred from field id.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttributeTask fieldId, 
@@ -172,14 +172,14 @@ public static ExtendedAttributeDefinition CreateTaskDefinition(ExtendedAttribute
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeTask | The specified [`ExtendedAttributeTask`](../../extendedattributetask) field ID. |
+| fieldId | ExtendedAttributeTask | The specified [`ExtendedAttributeTask`](../../extendedattributetask/) field ID. |
 | alias | String | The specified String alias. |
 
 ### Return Value
 
-Created instance of the [`ExtendedAttributeDefinition`](../../extendedattributedefinition) class with specified *fieldId* and *alias*.
+Created instance of the [`ExtendedAttributeDefinition`](../) class with specified *fieldId* and *alias*.
 
-### Examples
+## Examples
 
 Use this example to create a custom text field definition:
 
@@ -209,9 +209,9 @@ task.ExtendedAttributes.Add(extendedAttribute);
 
 ### See Also
 
-* enum [ExtendedAttributeTask](../../extendedattributetask)
-* class [ExtendedAttributeDefinition](../../extendedattributedefinition)
-* namespace [Aspose.Tasks](../../extendedattributedefinition)
+* enum [ExtendedAttributeTask](../../extendedattributetask/)
+* class [ExtendedAttributeDefinition](../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

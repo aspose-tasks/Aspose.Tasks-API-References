@@ -1,7 +1,7 @@
 ---
-title: Baseline
+title: Class Baseline
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents baseline values of a resource.
+description: Aspose.Tasks.Baseline class. Represents baseline values of a resource
 type: docs
 weight: 110
 url: /net/aspose.tasks/baseline/
@@ -18,34 +18,34 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 
 | Name | Description |
 | --- | --- |
-| [Baseline](baseline)() | The default constructor. |
+| [Baseline](baseline/)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber) { get; set; } | Gets or sets the unique number of a baseline data record. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
-| [Bcws](../../aspose.tasks/baseline/bcws) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
-| [Cost](../../aspose.tasks/baseline/cost) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
-| [Work](../../aspose.tasks/baseline/work) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | Gets or sets the unique number of a baseline data record. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
-| [Equals](../../aspose.tasks/baseline/equals#equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [Equals](../../aspose.tasks/baseline/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](../../aspose.tasks/baseline/gethashcode)() | Returns a hash code value for the baseline. |
-| [operator ==](../../aspose.tasks/baseline/op_equality) | Returns a value indicating whether this instance is equal to a specified object. |
-| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan) | Returns a value indicating whether this instance is greater than a specified object. |
-| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal) | Returns a value indicating whether this instance is greater than or equal to a specified object. |
-| [operator !=](../../aspose.tasks/baseline/op_inequality) | Returns a value indicating whether this instance is not equal to a specified object. |
-| [operator &lt;](../../aspose.tasks/baseline/op_lessthan) | Returns a value indicating whether this instance is less than a specified object. |
-| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal) | Returns a value indicating whether this instance is less than or equal to a specified object. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | IComparable interface implementation. Compares this instance to the specified Baseline object. |
+| [Equals](../../aspose.tasks/baseline/equals/#equals)(Baseline) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.tasks/baseline/equals/#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.tasks/baseline/gethashcode/)() | Returns a hash code value for the baseline. |
+| [operator ==](../../aspose.tasks/baseline/op_equality/) | Returns a value indicating whether this instance is equal to a specified object. |
+| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan/) | Returns a value indicating whether this instance is greater than a specified object. |
+| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal/) | Returns a value indicating whether this instance is greater than or equal to a specified object. |
+| [operator !=](../../aspose.tasks/baseline/op_inequality/) | Returns a value indicating whether this instance is not equal to a specified object. |
+| [operator &lt;](../../aspose.tasks/baseline/op_lessthan/) | Returns a value indicating whether this instance is less than a specified object. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal/) | Returns a value indicating whether this instance is less than or equal to a specified object. |
 
-### Examples
+## Examples
 
 Shows how to work with baselines of assignments.
 
@@ -104,7 +104,7 @@ Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHa
 
 ### See Also
 
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

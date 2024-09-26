@@ -1,14 +1,14 @@
 ---
-title: ProjectServerCredentials
+title: ProjectServerCredentials.ProjectServerCredentials
 second_title: Aspose.Tasks for .NET API Reference
-description: Initializes a new instance of the ProjectServerCredentialsaspose.tasks/projectservercredentials class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoints PWA Project Web Access site.
+description: ProjectServerCredentials constructor. Initializes a new instance of the ProjectServerCredentials class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoints PWA Project Web Access site
 type: docs
 weight: 10
 url: /net/aspose.tasks/projectservercredentials/projectservercredentials/
 ---
 ## ProjectServerCredentials(string, string) {#constructor_1}
 
-Initializes a new instance of the [`ProjectServerCredentials`](../../projectservercredentials) class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoint's PWA (Project Web Access) site.
+Initializes a new instance of the [`ProjectServerCredentials`](../) class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoint's PWA (Project Web Access) site.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string authToken)
@@ -19,11 +19,11 @@ public ProjectServerCredentials(string siteUrl, string authToken)
 | siteUrl | String | The URL of PWA (Project Web Access) API of Project Online. |
 | authToken | String | The authorization token (SPOIDCRL) for SharePoint's PWA (Project Web Access) site. |
 
-### Remarks
+## Remarks
 
 Use this constructor to connect to ProjectOnline when you already have AuthToken for your SharePoint Online site.
 
-### Examples
+## Examples
 
 Shows how to use Project Server credentials with SharePointOnlineCredentials to create project in Microsoft Project Online.
 
@@ -58,15 +58,15 @@ catch (ProjectOnlineException ex)
 
 ### See Also
 
-* class [ProjectServerCredentials](../../projectservercredentials)
-* namespace [Aspose.Tasks](../../projectservercredentials)
+* class [ProjectServerCredentials](../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ProjectServerCredentials(string, string, string) {#constructor_2}
 
-Initializes a new instance of the [`ProjectServerCredentials`](../../projectservercredentials) class using URL of SharePoint site, user name and password.
+Initializes a new instance of the [`ProjectServerCredentials`](../) class using URL of SharePoint site, user name and password.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string userName, string password)
@@ -78,11 +78,11 @@ public ProjectServerCredentials(string siteUrl, string userName, string password
 | userName | String | The user name for the SharePoint site. |
 | password | String | The password for the SharePoint site. |
 
-### Remarks
+## Remarks
 
 Use this constructor to connect to ProjectOnline. Please note that legacy authentication should be enabled in your Azure portal and Office 365 Admin center.
 
-### Examples
+## Examples
 
 Shows how to use project server credentials to retrieve list of project from Microsoft Project Online.
 
@@ -117,15 +117,15 @@ catch (ProjectOnlineException ex)
 
 ### See Also
 
-* class [ProjectServerCredentials](../../projectservercredentials)
-* namespace [Aspose.Tasks](../../projectservercredentials)
+* class [ProjectServerCredentials](../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ProjectServerCredentials(string, NetworkCredential) {#constructor}
 
-Initializes a new instance of the [`ProjectServerCredentials`](../../projectservercredentials) class using URL of Project Web Access endpoint and network credentials.
+Initializes a new instance of the [`ProjectServerCredentials`](../) class using URL of Project Web Access endpoint and network credentials.
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
@@ -136,13 +136,13 @@ public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
 | siteUrl | String | The URL of project web access endpoint. |
 | credentials | NetworkCredential | The credentials used to login to Project Web Access endpoint. |
 
-### Remarks
+## Remarks
 
 Use this constructor to connect to on-premise instance of Project Server via PWA.
 
-### Examples
+## Examples
 
-In this example the instance of [`ProjectServerManager`](../../projectservermanager) class is used to read a list of project from Project Server instance located at http://project_server_instance.local
+In this example the instance of [`ProjectServerManager`](../../projectservermanager/) class is used to read a list of project from Project Server instance located at http://project_server_instance.local
 
 ```csharp
 string site = "http://project_server_instance.local/sites/pwa";
@@ -182,8 +182,8 @@ catch (ProjectOnlineException ex)
 
 ### See Also
 
-* class [ProjectServerCredentials](../../projectservercredentials)
-* namespace [Aspose.Tasks](../../projectservercredentials)
+* class [ProjectServerCredentials](../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

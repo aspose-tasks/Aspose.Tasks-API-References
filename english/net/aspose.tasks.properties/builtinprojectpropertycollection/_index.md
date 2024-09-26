@@ -1,7 +1,7 @@
 ---
-title: BuiltInProjectPropertyCollection
+title: Class BuiltInProjectPropertyCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents a collection of builtin project properties.
+description: Aspose.Tasks.Properties.BuiltInProjectPropertyCollection class. Represents a collection of builtin project properties
 type: docs
 weight: 1420
 url: /net/aspose.tasks.properties/builtinprojectpropertycollection/
@@ -19,28 +19,28 @@ public sealed class BuiltInProjectPropertyCollection :
 
 | Name | Description |
 | --- | --- |
-| [Author](../../aspose.tasks.properties/builtinprojectpropertycollection/author) { get; set; } | Gets or sets the author of a project. |
-| [Category](../../aspose.tasks.properties/builtinprojectpropertycollection/category) { get; set; } | Gets or sets the category of a project. |
-| [Comments](../../aspose.tasks.properties/builtinprojectpropertycollection/comments) { get; set; } | Gets or sets the comments of a project. |
-| [Company](../../aspose.tasks.properties/builtinprojectpropertycollection/company) { get; set; } | Gets or sets the company of a project. |
-| [Count](../../aspose.tasks.properties/propertykeyedcollection`1/count) { get; } |  |
-| [HyperlinkBase](../../aspose.tasks.properties/builtinprojectpropertycollection/hyperlinkbase) { get; set; } | Gets or sets the hyperlink base of a project. |
-| override [IsReadOnly](../../aspose.tasks.properties/builtinprojectpropertycollection/isreadonly) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [Item](../../aspose.tasks.properties/propertykeyedcollection`1/item) { get; } |  |
-| [Keywords](../../aspose.tasks.properties/builtinprojectpropertycollection/keywords) { get; set; } | Gets or sets the keywords of a project. |
-| [Manager](../../aspose.tasks.properties/builtinprojectpropertycollection/manager) { get; set; } | Gets or sets the manager of a project. |
-| [Names](../../aspose.tasks.properties/propertykeyedcollection`1/names) { get; } |  |
-| [Subject](../../aspose.tasks.properties/builtinprojectpropertycollection/subject) { get; set; } | Gets or sets the subject of a project. |
-| [Title](../../aspose.tasks.properties/builtinprojectpropertycollection/title) { get; set; } | Gets or sets the title of a project. |
+| [Author](../../aspose.tasks.properties/builtinprojectpropertycollection/author/) { get; set; } | Gets or sets the author of a project. |
+| [Category](../../aspose.tasks.properties/builtinprojectpropertycollection/category/) { get; set; } | Gets or sets the category of a project. |
+| [Comments](../../aspose.tasks.properties/builtinprojectpropertycollection/comments/) { get; set; } | Gets or sets the comments of a project. |
+| [Company](../../aspose.tasks.properties/builtinprojectpropertycollection/company/) { get; set; } | Gets or sets the company of a project. |
+| [Count](../../aspose.tasks.properties/propertykeyedcollection-1/count/) { get; } |  |
+| [HyperlinkBase](../../aspose.tasks.properties/builtinprojectpropertycollection/hyperlinkbase/) { get; set; } | Gets or sets the hyperlink base of a project. |
+| override [IsReadOnly](../../aspose.tasks.properties/builtinprojectpropertycollection/isreadonly/) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
+| [Item](../../aspose.tasks.properties/propertykeyedcollection-1/item/) { get; } |  |
+| [Keywords](../../aspose.tasks.properties/builtinprojectpropertycollection/keywords/) { get; set; } | Gets or sets the keywords of a project. |
+| [Manager](../../aspose.tasks.properties/builtinprojectpropertycollection/manager/) { get; set; } | Gets or sets the manager of a project. |
+| [Names](../../aspose.tasks.properties/propertykeyedcollection-1/names/) { get; } |  |
+| [Subject](../../aspose.tasks.properties/builtinprojectpropertycollection/subject/) { get; set; } | Gets or sets the subject of a project. |
+| [Title](../../aspose.tasks.properties/builtinprojectpropertycollection/title/) { get; set; } | Gets or sets the title of a project. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks.properties/propertykeyedcollection`1/add)(BuiltInProjectProperty) |  |
-| [Contains](../../aspose.tasks.properties/propertykeyedcollection`1/contains)(string) |  |
+| [Add](../../aspose.tasks.properties/propertykeyedcollection-1/add/)(BuiltInProjectProperty) |  |
+| [Contains](../../aspose.tasks.properties/propertykeyedcollection-1/contains/)(string) |  |
 
-### Examples
+## Examples
 
 Shows how to read project builtin properties.
 
@@ -71,9 +71,9 @@ foreach (Property property in project.BuiltInProps)
 
 ### See Also
 
-* class [PropertyKeyedCollection&lt;T&gt;](../propertykeyedcollection-1)
-* class [BuiltInProjectProperty](../builtinprojectproperty)
-* namespace [Aspose.Tasks.Properties](../../aspose.tasks.properties)
+* class [PropertyKeyedCollection&lt;T&gt;](../propertykeyedcollection-1/)
+* class [BuiltInProjectProperty](../builtinprojectproperty/)
+* namespace [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

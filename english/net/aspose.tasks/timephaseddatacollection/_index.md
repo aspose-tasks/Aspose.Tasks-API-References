@@ -1,14 +1,14 @@
 ---
-title: TimephasedDataCollection
+title: Class TimephasedDataCollection
 second_title: Aspose.Tasks for .NET API Reference
-description: Represents a collection of TimephasedData./timephaseddata objects.
+description: Aspose.Tasks.TimephasedDataCollection class. Represents a collection of TimephasedData objects
 type: docs
 weight: 2460
 url: /net/aspose.tasks/timephaseddatacollection/
 ---
 ## TimephasedDataCollection class
 
-Represents a collection of [`TimephasedData`](../timephaseddata) objects.
+Represents a collection of [`TimephasedData`](../timephaseddata/) objects.
 
 ```csharp
 public abstract class TimephasedDataCollection : IList<TimephasedData>
@@ -18,31 +18,31 @@ public abstract class TimephasedDataCollection : IList<TimephasedData>
 
 | Name | Description |
 | --- | --- |
-| [TimephasedDataCollection](timephaseddatacollection)() | Initializes a new instance of the [`TimephasedDataCollection`](../timephaseddatacollection) class. |
+| [TimephasedDataCollection](timephaseddatacollection/)() | Initializes a new instance of the `TimephasedDataCollection` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.tasks/timephaseddatacollection/count) { get; } | Gets the number of objects contained in this [`TimephasedDataCollection`](../timephaseddatacollection) object. |
-| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. |
-| [Item](../../aspose.tasks/timephaseddatacollection/item) { get; set; } | Returns the element at the specified index. The set accessor is not supported. property to set timephased data. |
+| [Count](../../aspose.tasks/timephaseddatacollection/count/) { get; } | Gets the number of objects contained in this `TimephasedDataCollection` object. |
+| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly/) { get; } | Gets a value indicating whether the ICollection is read-only. |
+| [Item](../../aspose.tasks/timephaseddatacollection/item/) { get; set; } | Returns the element at the specified index. The set accessor is not supported. property to set timephased data. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/timephaseddatacollection/add)(TimephasedData) | Adds [`TimephasedData`](../timephaseddata) instance to this collection object. |
-| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange)(IEnumerable&lt;TimephasedData&gt;) | Adds a collection of [`TimephasedData`](../timephaseddata) instances to this collection object. |
-| [Clear](../../aspose.tasks/timephaseddatacollection/clear)() | Removes all items from the [`TimephasedDataCollection`](../timephaseddatacollection). |
-| [Contains](../../aspose.tasks/timephaseddatacollection/contains)(TimephasedData) | Determines whether the [`TimephasedDataCollection`](../timephaseddatacollection) contains a specific value. |
-| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto)(TimephasedData[], int) | Copies the elements of the [`TimephasedDataCollection`](../timephaseddatacollection) to an Array, starting at a particular Array index. |
-| [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator)() | Returns an enumerator for this collection. |
-| [Remove](../../aspose.tasks/timephaseddatacollection/remove)(TimephasedData) | Removes [`TimephasedData`](../timephaseddata) instance from this collection object. |
-| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish)(TimephasedDataType, DateTime, DateTime) | Selects all time phases between *startTime* and *finishTime*. Has O(log n) complexity in average case. |
-| [ToList](../../aspose.tasks/timephaseddatacollection/tolist)() | Converts the [`TimephasedDataCollection`](../timephaseddatacollection) object to a list of [`TimephasedData`](../timephaseddata) objects. |
+| [Add](../../aspose.tasks/timephaseddatacollection/add/)(TimephasedData) | Adds [`TimephasedData`](../timephaseddata/) instance to this collection object. |
+| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange/)(IEnumerable&lt;TimephasedData&gt;) | Adds a collection of [`TimephasedData`](../timephaseddata/) instances to this collection object. |
+| [Clear](../../aspose.tasks/timephaseddatacollection/clear/)() | Removes all items from the `TimephasedDataCollection`. |
+| [Contains](../../aspose.tasks/timephaseddatacollection/contains/)(TimephasedData) | Determines whether the `TimephasedDataCollection` contains a specific value. |
+| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto/)(TimephasedData[], int) | Copies the elements of the `TimephasedDataCollection` to an Array, starting at a particular Array index. |
+| [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator/)() | Returns an enumerator for this collection. |
+| [Remove](../../aspose.tasks/timephaseddatacollection/remove/)(TimephasedData) | Removes [`TimephasedData`](../timephaseddata/) instance from this collection object. |
+| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish/)(TimephasedDataType, DateTime, DateTime) | Selects all time phases between *startTime* and *finishTime*. Has O(log n) complexity in average case. |
+| [ToList](../../aspose.tasks/timephaseddatacollection/tolist/)() | Converts the `TimephasedDataCollection` object to a list of [`TimephasedData`](../timephaseddata/) objects. |
 
-### Examples
+## Examples
 
 Shows how to work with timephased data collections.
 
@@ -194,8 +194,8 @@ foreach (var timephasedData in tds)
 
 ### See Also
 
-* class [TimephasedData](../timephaseddata)
-* namespace [Aspose.Tasks](../../aspose.tasks)
+* class [TimephasedData](../timephaseddata/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

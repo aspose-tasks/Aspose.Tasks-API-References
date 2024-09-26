@@ -1,14 +1,14 @@
 ---
-title: Add
+title: TaskLinkCollection.Add
 second_title: Aspose.Tasks for .NET API Reference
-description: Returns an instance of FinishStart TaskLinkaspose.tasks/tasklink which has been added to the TaskLinkCollection object.
+description: TaskLinkCollection method. Returns an instance of FinishStart TaskLink which has been added to the TaskLinkCollection object
 type: docs
 weight: 40
 url: /net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-Returns an instance of Finish-Start [`TaskLink`](../../tasklink) which has been added to the TaskLinkCollection object.
+Returns an instance of Finish-Start [`TaskLink`](../../tasklink/) which has been added to the TaskLinkCollection object.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
@@ -29,7 +29,7 @@ a task link instance which has been added to this object.
 | --- | --- |
 | ArgumentNullException | If any of input tasks is equal to null then ArgumentNullException will be thrown. |
 
-### Examples
+## Examples
 
 Shows how to work with task link collections.
 
@@ -72,17 +72,17 @@ foreach (var link in taskLinks)
 
 ### See Also
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* namespace [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* class [TaskLinkCollection](../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-Returns an instance of [`TaskLink`](../../tasklink) which has been added to the TaskLinkCollection object.
+Returns an instance of [`TaskLink`](../../tasklink/) which has been added to the TaskLinkCollection object.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
@@ -92,7 +92,7 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 | --- | --- | --- |
 | pred | Task | Predecessor task. |
 | succ | Task | Successor task. |
-| linkType | TaskLinkType | Link type [`TaskLinkType`](../../tasklinktype) |
+| linkType | TaskLinkType | Link type [`TaskLinkType`](../../tasklinktype/) |
 
 ### Return Value
 
@@ -104,7 +104,7 @@ a task link instance which has been added to this object.
 | --- | --- |
 | ArgumentNullException | If any of input tasks is equal to null then ArgumentNullException will be thrown. |
 
-### Examples
+## Examples
 
 Shows how to work with task link collections.
 
@@ -147,18 +147,18 @@ foreach (var link in taskLinks)
 
 ### See Also
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* enum [TaskLinkType](../../tasklinktype)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* namespace [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* enum [TaskLinkType](../../tasklinktype/)
+* class [TaskLinkCollection](../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-Returns an instance of [`TaskLink`](../../tasklink) which has been added to the TaskLinkCollection object.
+Returns an instance of [`TaskLink`](../../tasklink/) which has been added to the TaskLinkCollection object.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
@@ -168,8 +168,8 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 | --- | --- | --- |
 | pred | Task | Predecessor task. |
 | succ | Task | Successor task. |
-| linkType | TaskLinkType | Link type [`TaskLinkType`](../../tasklinktype) |
-| lag | Duration | Link lag [`Duration`](../../duration). |
+| linkType | TaskLinkType | Link type [`TaskLinkType`](../../tasklinktype/) |
+| lag | Duration | Link lag [`Duration`](../../duration/). |
 
 ### Return Value
 
@@ -181,7 +181,7 @@ a task link which has been added to this object.
 | --- | --- |
 | ArgumentNullException | If any of input tasks is equal to null then ArgumentNullException will be thrown. |
 
-### Examples
+## Examples
 
 Shows how to work with task link collections.
 
@@ -224,12 +224,12 @@ foreach (var link in taskLinks)
 
 ### See Also
 
-* class [TaskLink](../../tasklink)
-* class [Task](../../task)
-* enum [TaskLinkType](../../tasklinktype)
-* struct [Duration](../../duration)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* namespace [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [Task](../../task/)
+* enum [TaskLinkType](../../tasklinktype/)
+* struct [Duration](../../duration/)
+* class [TaskLinkCollection](../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
 * assembly [Aspose.Tasks](../../../)
 
 ---
@@ -248,9 +248,9 @@ public void Add(TaskLink item)
 
 ### See Also
 
-* class [TaskLink](../../tasklink)
-* class [TaskLinkCollection](../../tasklinkcollection)
-* namespace [Aspose.Tasks](../../tasklinkcollection)
+* class [TaskLink](../../tasklink/)
+* class [TaskLinkCollection](../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
 * assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
