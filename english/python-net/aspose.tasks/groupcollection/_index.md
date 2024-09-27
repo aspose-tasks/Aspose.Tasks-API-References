@@ -9,13 +9,13 @@ url: /python-net/aspose.tasks/groupcollection/
 
 ## GroupCollection class
 
-Contains a list of
+Contains a list of [Group](/tasks/python-net/aspose.tasks/group/) objects.<br/>            Implements ICollection<Group> interface.
 
 The GroupCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts a group collection to a list of|
+|to_list()|Converts a group collection to a list of [Group](/tasks/python-net/aspose.tasks/group/) objects.|
 
 ### See Also
 

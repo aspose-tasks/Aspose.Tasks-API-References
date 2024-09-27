@@ -15,7 +15,7 @@ The WBSCodeMaskCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts a WBSCodeMaskCollection to a list of|
+|to_list()|Converts a WBSCodeMaskCollection to a list of [WBSCodeMask](/tasks/python-net/aspose.tasks/wbscodemask/) objects.|
 
 ### See Also
 

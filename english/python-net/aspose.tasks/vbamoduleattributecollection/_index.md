@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/vbamoduleattributecollection/
 
 ## VbaModuleAttributeCollection class
 
-Represents a collection of
+Represents a collection of [VbaModuleAttribute](/tasks/python-net/aspose.tasks/vbamoduleattribute/) objects.
 
 The VbaModuleAttributeCollection type exposes the following members:
 ## Methods

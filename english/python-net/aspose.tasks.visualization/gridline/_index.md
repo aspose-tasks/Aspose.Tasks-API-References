@@ -15,13 +15,13 @@ The Gridline type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Gridline()|Initializes a new instance of the|
+|Gridline()|Initializes a new instance of the [Gridline](/tasks/python-net/aspose.tasks.visualization/gridline/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
-|color|Gets or sets the|
-|gridline_type|Gets or sets the type of gridline (|
-|pattern|Gets or sets the|
+|color|Gets or sets the [color](/tasks/python-net/aspose.tasks.visualization/gridline/) of a gridline.|
+|gridline_type|Gets or sets the type of gridline ([gridline_type](/tasks/python-net/aspose.tasks.visualization/gridline/)).|
+|pattern|Gets or sets the [LinePattern](/tasks/python-net/aspose.tasks.visualization/linepattern/) of a gridline.|
 
 ### See Also
 

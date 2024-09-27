@@ -17,9 +17,9 @@ Contains classes for creating Risk Analysis Report.
 |[RiskAnalysisSettings](/tasks/python-net/aspose.tasks.riskanalysis/riskanalysissettings/)|Specifies settings for performing risk analysis.|
 |[RiskAnalyzer](/tasks/python-net/aspose.tasks.riskanalysis/riskanalyzer/)|Performs a Monte Carlo simulation based on the specified risk analysis settings.|
 |[RiskItemStatistics](/tasks/python-net/aspose.tasks.riskanalysis/riskitemstatistics/)|Represents an item which stores statistical data for the task of the analyzed project.|
-|[RiskItemStatisticsCollection](/tasks/python-net/aspose.tasks.riskanalysis/riskitemstatisticscollection/)|Represents a collection containing the instances of the|
+|[RiskItemStatisticsCollection](/tasks/python-net/aspose.tasks.riskanalysis/riskitemstatisticscollection/)|Represents a collection containing the instances of the [RiskItemStatistics](/tasks/python-net/aspose.tasks.riskanalysis/riskitemstatistics/) class.|
 |[RiskPattern](/tasks/python-net/aspose.tasks.riskanalysis/riskpattern/)|Represents a risk pattern for a project task.|
-|[RiskPatternCollection](/tasks/python-net/aspose.tasks.riskanalysis/riskpatterncollection/)|Represents a collection containing the instances of the|
+|[RiskPatternCollection](/tasks/python-net/aspose.tasks.riskanalysis/riskpatterncollection/)|Represents a collection containing the instances of the [RiskPattern](/tasks/python-net/aspose.tasks.riskanalysis/riskpattern/) class.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

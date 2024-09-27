@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/parseerrorargs/
 
 ## ParseErrorArgs class
 
-Provides data for the
+Provides data for the [ParseErrorCallback](/tasks/python-net/aspose.tasks/parseerrorcallback/) delegate.
 
 The ParseErrorArgs type exposes the following members:
 ## Properties

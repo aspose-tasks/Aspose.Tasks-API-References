@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/ratecollection/
 
 ## RateCollection class
 
-Represents a collection which contains
+Represents a collection which contains [Rate](/tasks/python-net/aspose.tasks/rate/) objects.
 
 The RateCollection type exposes the following members:
 ## Properties
@@ -17,14 +17,14 @@ The RateCollection type exposes the following members:
 | :- | :- |
 |count|Gets the number of elements contained in the RateCollection.|
 |is_read_only|Gets a value indicating whether this collection is read only.|
-|parent_resource|Gets the parent|
+|parent_resource|Gets the parent [Resource](/tasks/python-net/aspose.tasks/resource/) object for this collection.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|add(rates_from)|Adds a new|
-|add(rates_from, type)|Adds a new|
-|to_list()|Converts the|
-|to_list(type)|Converts the|
+|add(rates_from)|Adds a new [Rate](/tasks/python-net/aspose.tasks/rate/) instance to this collection.|
+|add(rates_from, type)|Adds a new [Rate](/tasks/python-net/aspose.tasks/rate/) instance to this collection.|
+|to_list()|Converts the [RateCollection](/tasks/python-net/aspose.tasks/ratecollection/) object to a list of [Rate](/tasks/python-net/aspose.tasks/rate/) objects.|
+|to_list(type)|Converts the [RateCollection](/tasks/python-net/aspose.tasks/ratecollection/) object to a list of [Rate](/tasks/python-net/aspose.tasks/rate/) objects filtered by specified [RateType](/tasks/python-net/aspose.tasks/ratetype/) type.|
 |remove(item)|Removes Rate instance from this collection.|
 
 ### See Also

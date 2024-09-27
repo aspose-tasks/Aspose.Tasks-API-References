@@ -81,16 +81,16 @@ The ResourceAssignment type exposes the following members:
 |parent_project|Gets parent project for this assignment.|
 |baselines|Gets AssignmentBaselineCollection object.<br/>            The collection of baseline values associated with an assignment.|
 |extended_attributes|Gets or sets an instance of the ExtendedAttributeCollection class for this object.|
-|timephased_data|Gets or sets the instance of|
+|timephased_data|Gets or sets the instance of [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class containing elements of [timephased_data](/tasks/python-net/aspose.tasks/resourceassignment/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_timephased_data(start, end, timephased_type)|Returns the instance|
-|get_timephased_data(start, end)|Returns the instance|
+|get_timephased_data(start, end, timephased_type)|Returns the instance [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class containing instances of [timephased_data](/tasks/python-net/aspose.tasks/resourceassignment/) class within given start and end dates of specified [TimephasedDataType](/tasks/python-net/aspose.tasks/timephaseddatatype/).|
+|get_timephased_data(start, end)|Returns the instance [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class containing instances of [timephased_data](/tasks/python-net/aspose.tasks/resourceassignment/) class within given start and end dates of specified [TimephasedDataType](/tasks/python-net/aspose.tasks/timephaseddatatype/).|
 |get_timephased_work(start, end, timephased_data_type)|Gets amount of timephased work for the specified date time interval.|
 |get_timephased_work(start, end)|Gets amount of timephased work for the specified date time interval.|
 |delete()|Deletes resource assignment from project assignments collection.|
-|equals(other)|Returns a value indicating whether this instance is equal to a specified instance of the|
+|equals(other)|Returns a value indicating whether this instance is equal to a specified instance of the [ResourceAssignment](/tasks/python-net/aspose.tasks/resourceassignment/) class.|
 |timephased_data_from_task_duration(calendar)|Generates list of time phased data based on the task duration and the scheduled start date.|
 |make_t_ps(start, time, calendar, list, is_working, type)|Generates a list of time phased data.|
 |split_task(start, finish, calendar)|Splits task into two parts.|

@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/vbamodulecollection/
 
 ## VbaModuleCollection class
 
-Represents a collection of
+Represents a collection of [VbaModule](/tasks/python-net/aspose.tasks/vbamodule/) objects.
 
 The VbaModuleCollection type exposes the following members:
 ## Methods

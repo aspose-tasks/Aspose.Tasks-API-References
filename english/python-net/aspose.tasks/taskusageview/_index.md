@@ -32,10 +32,10 @@ The TaskUsageView type exposes the following members:
 |display_short_detail_header_names|Gets or sets a value indicating whether to display short detail header names or not.|
 |repeat_details_header_on_all_rows|Gets or sets a value indicating whether to repeat details header on all assignment row or not.|
 |timescale_size_percentage|  |
-|bottom_timescale_tier|Gets or sets settings of view's bottom timescale tier.|
-|middle_timescale_tier|Gets or sets settings of view's middle timescale tier.|
-|top_timescale_tier|Gets or sets settings of view's top timescale tier.|
-|field_collection|Gets|
+|bottom_timescale_tier|Gets or sets settings of view's bottom timescale tier.<br/>            [TimescaleTier](/tasks/python-net/aspose.tasks.visualization/timescaletier/)|
+|middle_timescale_tier|Gets or sets settings of view's middle timescale tier.<br/>            [TimescaleTier](/tasks/python-net/aspose.tasks.visualization/timescaletier/).|
+|top_timescale_tier|Gets or sets settings of view's top timescale tier.<br/>            [TimescaleTier](/tasks/python-net/aspose.tasks.visualization/timescaletier/).|
+|field_collection|Gets [TaskUsageViewFieldCollection](/tasks/python-net/aspose.tasks/taskusageviewfieldcollection/) object of this TaskUsageView.|
 ## Methods
 | Name | Description |
 | :- | :- |
