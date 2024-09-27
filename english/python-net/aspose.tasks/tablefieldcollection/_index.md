@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/tablefieldcollection/
 
 ## TableFieldCollection class
 
-Contains a list of
+Contains a list of [TableField](/tasks/python-net/aspose.tasks/tablefield/) objects.<br/>            Implements IList<TableField> interface.
 
 The TableFieldCollection type exposes the following members:
 

@@ -15,8 +15,8 @@ Specifies the type of a calculation of the custom attribute's value for summary 
 | Member name | Description |
 | :- | :- |
 |NONE|Means the custom attribute's value for summary rows is not calculated.|
-|ROLLUP|Means the custom attribute's value for summary rows is calculated using rollup function defined in|
-|USE_FORMULA|Means the custom attribute's value for summary rows is calculated using formula defined in|
+|ROLLUP|Means the custom attribute's value for summary rows is calculated using rollup function defined in [rollup_type](/tasks/python-net/aspose.tasks/extendedattributedefinition/).|
+|USE_FORMULA|Means the custom attribute's value for summary rows is calculated using formula defined in [formula](/tasks/python-net/aspose.tasks/extendedattributedefinition/).|
 
 ### See Also
 

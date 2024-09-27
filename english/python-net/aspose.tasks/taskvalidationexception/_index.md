@@ -12,6 +12,10 @@ url: /python-net/aspose.tasks/taskvalidationexception/
 Represents an exception which is thrown when errors are found in project's tasks after recalculation.
 
 The TaskValidationException type exposes the following members:
+## Properties
+| Name | Description |
+| :- | :- |
+|task|Gets the task which caused the exception.|
 
 ### See Also
 

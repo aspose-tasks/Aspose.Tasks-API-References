@@ -15,11 +15,13 @@ Shape of a bar rectangle.
 | Member name | Description |
 | :- | :- |
 |FULL|Indicates Full rectangle bar shape.|
-|HALF_HEIGHT|Indicates Half height rectangle bar shape.|
-|THIN|Indicates Thin rectangle bar shape.|
+|HALF_HEIGHT|Indicates top-aligned half height rectangle bar shape.|
+|HALF_HEIGHT_BOTTOM|Indicates bottom-aligned half height rectangle bar shape.|
+|THIN|Indicates center-aligned line shape.|
 |NONE|Indicates None bar shape.|
-|MIDDLE|Indicates Rectangle middle bar shape.|
-|LINE_BOTTOM|Indicates Line bottom bar shape.|
+|MIDDLE|Indicates center-aligned line shape.|
+|LINE_BOTTOM|Indicates bottom-aligned line shape.|
+|LINE_TOP|Indicates top-aligned line shape.|
 
 ### See Also
 

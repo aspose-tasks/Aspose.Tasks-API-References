@@ -36,7 +36,7 @@ Contains helper classes for rendering.
 |[TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/)|Change the visual style of the text for an item in the project view.|
 |[TimescaleTier](/tasks/python-net/aspose.tasks.visualization/timescaletier/)|Represents a single tier of the timescale on a Gantt Chart.|
 |[ViewColumn](/tasks/python-net/aspose.tasks.visualization/viewcolumn/)|Represents a column in a project view.|
-|[VisualObjectPlacement](/tasks/python-net/aspose.tasks.visualization/visualobjectplacement/)|Represents placement and appearance of|
+|[VisualObjectPlacement](/tasks/python-net/aspose.tasks.visualization/visualobjectplacement/)|Represents placement and appearance of [OleObject](/tasks/python-net/aspose.tasks/oleobject/) in a view.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
@@ -61,7 +61,7 @@ Contains helper classes for rendering.
 |[PresentationFormat](/tasks/python-net/aspose.tasks.visualization/presentationformat/)|Enumeration for presentation format.|
 |[PrinterPaperSize](/tasks/python-net/aspose.tasks.visualization/printerpapersize/)|Specifies the paper size which is used for printing.|
 |[ReportType](/tasks/python-net/aspose.tasks.visualization/reporttype/)|Type of the project's graphical report.|
-|[Shape](/tasks/python-net/aspose.tasks.visualization/shape/)|Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of|
+|[Shape](/tasks/python-net/aspose.tasks.visualization/shape/)|Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of [SaveFileFormat](/tasks/python-net/aspose.tasks.saving/savefileformat/).|
 |[TextItemType](/tasks/python-net/aspose.tasks.visualization/textitemtype/)|Item type to change a text style for.|
 |[Timescale](/tasks/python-net/aspose.tasks.visualization/timescale/)|Defines options which specifies how to render timescale in Gantt Chart, Task Usage or Resource Usage views when the project is exported to a graphic format.|
 |[TimescaleUnit](/tasks/python-net/aspose.tasks.visualization/timescaleunit/)|Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view.|

@@ -132,24 +132,24 @@ The Task type exposes the following members:
 |warning|Gets or sets a value indicating whether Warning is set or not.|
 |activity_id|Represents activity id field - a task's unique identifier used by Primavera. (only applicable to Primavera projects).|
 |sv|The earned value schedule variance, through the project status date.<br/>            Schedule variance (SV) is the difference between the BCWP and the BCWS.|
-|predecessors|Gets a|
-|successors|Gets a|
+|predecessors|Gets a [TaskCollection](/tasks/python-net/aspose.tasks/taskcollection/) object which contains all predecessors of this Task object.|
+|successors|Gets a [TaskCollection](/tasks/python-net/aspose.tasks/taskcollection/) object which contains all successors of this Task object.|
 |assignments|Gets a collection of resource assignments for this object.|
 |parent_project|Gets the parent project of a task.|
-|outline_codes|Gets or sets|
+|outline_codes|Gets or sets [OutlineCodeCollection](/tasks/python-net/aspose.tasks/outlinecodecollection/) object.|
 |parent_task|Gets the parent task of a task.|
 |children|Gets a child task collection of this object.<br/>            TaskCollection object which represents children tasks.|
 |split_parts|Gets a SplitPart collection that represents the portions of a task.|
 |extended_attributes|Gets ExtendedAttributeCollection object containing the values of an extended attribute.|
 |timephased_data|Gets or sets a TimephasedDataCollection object of this task.<br/>            The time phased data block associated with a task.|
 |baselines|Gets or sets the collection of baseline values of the task.|
-|recurring_info|Gets the instance of|
+|recurring_info|Gets the instance of [RecurringTaskInfo](/tasks/python-net/aspose.tasks/recurringtaskinfo/) class for the task which is a recurring task; if the task is not a recurring one then returns null;|
 |primavera_properties|Gets an object containing Primavera-specific properties for a task read from Primavera file.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_timephased_data(start, end, timephased_type)|Returns|
-|get_timephased_data(start, end)|Returns|
+|get_timephased_data(start, end, timephased_type)|Returns [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) object with [timephased_data](/tasks/python-net/aspose.tasks/task/) values within given start and end dates of specified time-phased data type.|
+|get_timephased_data(start, end)|Returns [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) object with [timephased_data](/tasks/python-net/aspose.tasks/task/) values within given start and end dates of specified time-phased data type.|
 |move_to_sibling(before_task)|Moves the current task at the same Outline Level before the specified task.<br/>            If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels).<br/>            If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically.<br/>            If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically<br/>            (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates  ids and outline levels).|
 |move_to_sibling(before_task_id)|Moves the current task at the same Outline Level before a task with the specified Id.<br/>            If ParentProject.CalculationMode is None user should invoke Project.Recalculate() after using this method (It will reschedule all project tasks (start/finish dates, sets early/late dates) and calculate the dependent fields such as slacks, work and cost fields, outline levels).<br/>            If ParentProject.CalculationMode is Manual the method will calculate only task id, outline level and outline numbers automatically.<br/>            If ParentProject.CalculationMode is Automatic the method reschedules all project's tasks automatically<br/>            (start/finish dates, sets early/late dates, calculates slacks, work and cost fields, recalculates  ids and outline levels).|
 |select_all_child_tasks()|Recursively collects all child tasks of this task.|

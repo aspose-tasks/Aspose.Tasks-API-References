@@ -9,13 +9,13 @@ url: /python-net/aspose.tasks/outlinecodedefinitioncollection/
 
 ## OutlineCodeDefinitionCollection class
 
-Represents a collection of
+Represents a collection of [OutlineCodeDefinition](/tasks/python-net/aspose.tasks/outlinecodedefinition/) objects.
 
 The OutlineCodeDefinitionCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|Converts this OutlineCodeDefinitionCollection object to a list of|
+|to_list()|Converts this OutlineCodeDefinitionCollection object to a list of [OutlineCodeDefinition](/tasks/python-net/aspose.tasks/outlinecodedefinition/) objects.|
 
 ### See Also
 

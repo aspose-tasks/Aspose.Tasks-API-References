@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/ordinalnumber/
 
 ## OrdinalNumber enumeration
 
-Represents an ordinal number in the instance of
+Represents an ordinal number in the instance of [RecurringTaskInfo](/tasks/python-net/aspose.tasks/recurringtaskinfo/) class.
 
 ## Members
 | Member name | Description |

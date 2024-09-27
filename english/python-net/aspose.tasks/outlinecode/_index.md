@@ -15,7 +15,7 @@ The OutlineCode type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|OutlineCode()|Initializes a new instance of the|
+|OutlineCode()|Initializes a new instance of the [OutlineCode](/tasks/python-net/aspose.tasks/outlinecode/) class.|
 |OutlineCode(code_definition, outline_value)|Initializes a new instance of the OutlineCode class|
 ## Properties
 | Name | Description |

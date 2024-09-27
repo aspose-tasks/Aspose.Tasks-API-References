@@ -15,8 +15,8 @@ Specifies the constraint on the start or finish date of a task.
 | Member name | Description |
 | :- | :- |
 |UNDEFINED|The value was not defined in original project file.|
-|AS_SOON_AS_POSSIBLE||
-|AS_LATE_AS_POSSIBLE||
+|AS_SOON_AS_POSSIBLE|[None](/tasks/python-net/aspose.tasks/tsk/) and [None](/tasks/python-net/aspose.tasks/tsk/) dates of [Task](/tasks/python-net/aspose.tasks/task/) are scheduled ASAP<br/>            with respect to parent [None](/tasks/python-net/aspose.tasks/tsk/) and [None](/tasks/python-net/aspose.tasks/tsk/) dates and considering [task_links](/tasks/python-net/aspose.tasks/project/).|
+|AS_LATE_AS_POSSIBLE|[None](/tasks/python-net/aspose.tasks/tsk/) and [None](/tasks/python-net/aspose.tasks/tsk/) dates of [Task](/tasks/python-net/aspose.tasks/task/) are scheduled ALAP<br/>            with respect to parent [None](/tasks/python-net/aspose.tasks/tsk/) and [None](/tasks/python-net/aspose.tasks/tsk/) dates and considering [task_links](/tasks/python-net/aspose.tasks/project/).|
 |MUST_START_ON|Must Start On|
 |MUST_FINISH_ON|Must Finish On|
 |START_NO_EARLIER_THAN|Start No Earlier Than|

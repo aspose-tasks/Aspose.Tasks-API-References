@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/outlinecodecollection/
 
 ## OutlineCodeCollection class
 
-Represents a collection of
+Represents a collection of [OutlineCode](/tasks/python-net/aspose.tasks/outlinecode/) objects.
 
 The OutlineCodeCollection type exposes the following members:
 

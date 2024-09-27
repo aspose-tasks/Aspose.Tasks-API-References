@@ -9,14 +9,14 @@ url: /python-net/aspose.tasks/workingtimecollection/
 
 ## WorkingTimeCollection class
 
-Represents a collection of
+Represents a collection of [WorkingTimeCollection](/tasks/python-net/aspose.tasks/workingtimecollection/) objects.
 
 The WorkingTimeCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
 |add(item)|Adds a new WorkingTime instance to this collection.|
-|to_list()|Converts the WorkingTimeCollection object to a list of|
+|to_list()|Converts the WorkingTimeCollection object to a list of [WorkingTime](/tasks/python-net/aspose.tasks/workingtime/) objects.|
 
 ### See Also
 

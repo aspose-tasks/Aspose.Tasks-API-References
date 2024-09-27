@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/taskusageviewfield/
 
 ## TaskUsageViewField enumeration
 
-Represents possible fields in
+Represents possible fields in [TaskUsageView](/tasks/python-net/aspose.tasks/taskusageview/) object.
 
 ## Members
 | Member name | Description |
