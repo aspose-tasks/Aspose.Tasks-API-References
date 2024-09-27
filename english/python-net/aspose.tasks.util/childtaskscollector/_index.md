@@ -15,7 +15,7 @@ The ChildTasksCollector type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ChildTasksCollector()|Initializes a new instance of the|
+|ChildTasksCollector()|Initializes a new instance of the [ChildTasksCollector](/tasks/python-net/aspose.tasks.util/childtaskscollector/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

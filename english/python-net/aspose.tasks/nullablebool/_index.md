@@ -26,7 +26,7 @@ The NullableBool type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|equals(other)|Returns a flag indicating whether this instance is equal to the specified instance of the|
+|equals(other)|Returns a flag indicating whether this instance is equal to the specified instance of the [NullableBool](/tasks/python-net/aspose.tasks/nullablebool/) class.|
 
 ### See Also
 

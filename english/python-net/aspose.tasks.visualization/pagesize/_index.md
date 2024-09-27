@@ -21,7 +21,7 @@ Specifies page size.
 |A2|The size of the A2 page in points is 1684 × 1190|
 |A3|The size of the A3 page in points is 1190 × 842|
 |A4|The size of the A4 page in points is 842 × 595|
-|DEFINED_IN_VIEW|Use page size defined in View's|
+|DEFINED_IN_VIEW|Use page size defined in View's [PageSettings](/tasks/python-net/aspose.tasks.visualization/pagesettings/) (View.PageInfo.PageSettings).|
 
 ### See Also
 

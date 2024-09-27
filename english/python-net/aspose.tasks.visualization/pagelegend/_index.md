@@ -22,7 +22,7 @@ The PageLegend type exposes the following members:
 |left_text|Gets or sets the left aligned text to display in the page legend.|
 |centered_text|Gets or sets the centered text to display in the page legend.|
 |right_text|Gets or sets the right aligned text to display in the page legend.|
-|legend_on|Gets or sets the pages on which the legend appears. Can be one of the values of the|
+|legend_on|Gets or sets the pages on which the legend appears. Can be one of the values of the [Legend](/tasks/python-net/aspose.tasks.visualization/legend/) enumeration.|
 |width|Gets or sets the width of the legend.|
 |left_image|Gets or sets the left aligned image to be displayed in the page legend.|
 |centered_image|Gets or sets the centered image to be displayed in the page legend.|

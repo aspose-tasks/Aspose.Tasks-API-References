@@ -15,12 +15,12 @@ The Group type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Group()|Initializes a new instance of the|
+|Group()|Initializes a new instance of the [Group](/tasks/python-net/aspose.tasks/group/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
 |name|Gets or sets a name of a Group object.|
-|index|Gets the index of a|
+|index|Gets the index of a [Group](/tasks/python-net/aspose.tasks/group/) object in the Groups containing object.|
 |uid|Gets a unique identifier of a group.|
 |show_summary|Gets or sets a value indicating whether summary rows are displayed for the group.|
 |maintain_hierarchy|Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group.|

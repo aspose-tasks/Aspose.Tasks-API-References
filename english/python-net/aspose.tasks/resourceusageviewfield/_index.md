@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/resourceusageviewfield/
 
 ## ResourceUsageViewField enumeration
 
-Represents possible fields in
+Represents possible fields in [ResourceUsageView](/tasks/python-net/aspose.tasks/resourceusageview/) object resource usage view field.
 
 ## Members
 | Member name | Description |
@@ -21,7 +21,7 @@ Represents possible fields in
 |ACTUAL_OVERTIME_WORK|Indicates Actual Overtime Work resource usage view field.|
 |CUMULATIVE_WORK|Indicates Cumulative Work resource usage view field.|
 |BASELINE_WORK|Indicates Baseline Work resource usage view field.|
-|OVERALLOCATION|Indicates|
+|OVERALLOCATION|Indicates [OVERALLOCATION](/tasks/python-net/aspose.tasks/resourceusageviewfield/) resource usage view field.|
 |PERCENT_ALLOCATION|Indicates Percent Allocation resource usage view field.|
 |PEAK_UNITS|Indicates Peak Units resource usage view field.|
 |COST|Indicates Cost resource usage view field.|

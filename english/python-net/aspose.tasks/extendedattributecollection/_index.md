@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/extendedattributecollection/
 
 ## ExtendedAttributeCollection class
 
-Represents a collection of
+Represents a collection of [ExtendedAttribute](/tasks/python-net/aspose.tasks/extendedattribute/) objects.
 
 The ExtendedAttributeCollection type exposes the following members:
 

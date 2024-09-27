@@ -15,7 +15,7 @@ The DailyCalendarRepetition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|DailyCalendarRepetition()|Initializes a new instance of the|
+|DailyCalendarRepetition()|Initializes a new instance of the [DailyCalendarRepetition](/tasks/python-net/aspose.tasks/dailycalendarrepetition/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

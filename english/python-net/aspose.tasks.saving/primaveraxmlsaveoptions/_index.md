@@ -15,7 +15,7 @@ The PrimaveraXmlSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraXmlSaveOptions()|Initializes a new instance of the|
+|PrimaveraXmlSaveOptions()|Initializes a new instance of the [PrimaveraXmlSaveOptions](/tasks/python-net/aspose.tasks.saving/primaveraxmlsaveoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

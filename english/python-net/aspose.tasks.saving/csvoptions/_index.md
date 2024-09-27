@@ -24,7 +24,7 @@ The CsvOptions type exposes the following members:
 |encoding|Gets or sets an encoding to save CSV with.|
 |include_headers|Gets or sets a value indicating whether to include headers or not (default value is TRUE).|
 |text_delimiter|Gets or sets a text delimiter.|
-|view|Gets or sets a list of the view columns (|
+|view|Gets or sets a list of the view columns ([GanttChartColumn](/tasks/python-net/aspose.tasks.visualization/ganttchartcolumn/)) to save to XLSX format.<br/>            If not set then default columns are saved.|
 
 ### See Also
 

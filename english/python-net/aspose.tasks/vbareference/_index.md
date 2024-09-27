@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/vbareference/
 
 ## VbaReference class
 
-Represents a reference of the
+Represents a reference of the [VbaProject](/tasks/python-net/aspose.tasks/vbaproject/).
 
 The VbaReference type exposes the following members:
 ## Constructors
@@ -24,7 +24,7 @@ The VbaReference type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|equals(other)|Returns a value indicating whether this instance is equal to the specified|
+|equals(other)|Returns a value indicating whether this instance is equal to the specified [VbaReference](/tasks/python-net/aspose.tasks/vbareference/) object.|
 
 ### See Also
 

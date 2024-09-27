@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks/calendarcollection/
 
 ## CalendarCollection class
 
-Represents a collection of
+Represents a collection of [Calendar](/tasks/python-net/aspose.tasks/calendar/) objects.
 
 The CalendarCollection type exposes the following members:
 ## Methods
@@ -17,7 +17,7 @@ The CalendarCollection type exposes the following members:
 | :- | :- |
 |add(name)|Adds a new base calendar to this CalendarCollection object and returns added calendar.|
 |add(name, base_calendar)|Adds a new base calendar to this CalendarCollection object and returns added calendar.|
-|to_list()|Converts the CalendarCollection object to a list of|
+|to_list()|Converts the CalendarCollection object to a list of [Calendar](/tasks/python-net/aspose.tasks/calendar/) objects.|
 |get_by_uid(uid)|Returns a calendar with the specified UID.|
 |get_by_name(name)|Returns a calendar with the specified name.|
 

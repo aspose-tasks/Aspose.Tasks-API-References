@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks.riskanalysis/riskpatterncollection/
 
 ## RiskPatternCollection class
 
-Represents a collection containing the instances of the
+Represents a collection containing the instances of the [RiskPattern](/tasks/python-net/aspose.tasks.riskanalysis/riskpattern/) class.
 
 The RiskPatternCollection type exposes the following members:
 

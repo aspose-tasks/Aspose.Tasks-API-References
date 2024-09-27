@@ -14,14 +14,14 @@ Specifies the middle shape of a bar.
 ## Members
 | Member name | Description |
 | :- | :- |
-|LINE_BOTTOM|Indicates Bottom line Gantt bar middle shape.|
-|LINE_MIDDLE|Indicates Middle line Gantt bar middle shape.|
-|LINE_TOP|Indicates Top line Gantt bar middle shape.|
-|NONE|Indicates None Gantt bar middle shape.|
-|RECTANGLE_BAR|Indicates Rectangle Gantt bar middle shape.|
-|RECTANGLE_BOTTOM|Indicates Rectangle bottom Gantt bar middle shape.|
-|RECTANGLE_MIDDLE|Indicates Rectangle middle Gantt bar middle shape.|
-|RECTANGLE_TOP|Indicates Rectangle top Gantt bar middle shape.|
+|LINE_BOTTOM|Indicates bottom-aligned line shape.|
+|LINE_MIDDLE|Indicates center-aligned line shape.|
+|LINE_TOP|Indicates top-aligned line shape.|
+|NONE|Indicates empty shape.|
+|RECTANGLE_BAR|Indicates full height rectangle bar shape.|
+|RECTANGLE_BOTTOM|Indicates Indicates bottom-aligned half height rectangle bar shape.|
+|RECTANGLE_MIDDLE|Indicates center-aligned 1/3 height rectangle bar shape.|
+|RECTANGLE_TOP|Indicates top-aligned half height rectangle bar shape.|
 
 ### See Also
 
