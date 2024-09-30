@@ -14,3 +14,18 @@ public class TaskValidationException extends RecalculationValidationException
 ```
 
 Represents an exception which is thrown when errors are found in project's tasks after recalculation.
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getTask()](#getTask--) | Gets the task which caused the exception. |
+### getTask() {#getTask--}
+```
+public final Task getTask()
+```
+
+
+Gets the task which caused the exception.
+
+**Returns:**
+[Task](../../com.aspose.tasks/task) - the task which caused the exception.

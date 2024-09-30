@@ -29,6 +29,8 @@ Change the visual style of the bar for the item in the project view.
 | [getBottomField()](#getBottomField--) | Gets a field to be displayed on the bottom of the bar. |
 | [getEndShape()](#getEndShape--) | Gets [Shape](../../com.aspose.tasks/shape) at the end of the bar. |
 | [getEndShapeColor()](#getEndShapeColor--) | Gets java.awt.Color of the shape at the end of the bar. |
+| [getEndShapeType()](#getEndShapeType--) | Gets a type of the end shape. |
+| [getFrom()](#getFrom--) | Gets a start point position of the gantt bar. |
 | [getInsideBarTextConverter()](#getInsideBarTextConverter--) | Gets user-defined converter to get text to render inside of the task's bar. |
 | [getInsideField()](#getInsideField--) | Gets a field to be displayed inside of the bar. |
 | [getItemType()](#getItemType--) | Gets [BarItemType](../../com.aspose.tasks/baritemtype) of the bar style. |
@@ -38,7 +40,9 @@ Change the visual style of the bar for the item in the project view.
 | [getRightField()](#getRightField--) | Gets a field to be displayed on the right of the bar. |
 | [getStartShape()](#getStartShape--) | Gets [Shape](../../com.aspose.tasks/shape) at the beginning of the bar. |
 | [getStartShapeColor()](#getStartShapeColor--) | Gets java.awt.Color of the shape at the beginning of the bar. |
+| [getStartShapeType()](#getStartShapeType--) | Gets a type of the start shape. |
 | [getTextStyle()](#getTextStyle--) | Gets style of the bar's text. |
+| [getTo()](#getTo--) | Gets a finish point position of the gantt bar. |
 | [getTopBarTextConverter()](#getTopBarTextConverter--) | Gets user-defined converter to get text to render on the top of the task's bar. |
 | [getTopField()](#getTopField--) | Gets a field to be displayed on the top of the bar. |
 | [setBarColor(Color value)](#setBarColor-java.awt.Color-) | Sets java.awt.Color of the bar style. |
@@ -47,6 +51,8 @@ Change the visual style of the bar for the item in the project view.
 | [setBottomField(int value)](#setBottomField-int-) | Sets a field to be displayed on the bottom of the bar. |
 | [setEndShape(int value)](#setEndShape-int-) | Sets [Shape](../../com.aspose.tasks/shape) at the end of the bar. |
 | [setEndShapeColor(Color value)](#setEndShapeColor-java.awt.Color-) | Sets java.awt.Color of the shape at the end of the bar. |
+| [setEndShapeType(int value)](#setEndShapeType-int-) | Sets a type of the end shape. |
+| [setFrom(int value)](#setFrom-int-) | Sets a start point position of the gantt bar. |
 | [setInsideBarTextConverter(TaskBarTextConverter value)](#setInsideBarTextConverter-com.aspose.tasks.TaskBarTextConverter-) | Sets user-defined converter to get text to render inside of the task's bar. |
 | [setInsideField(int value)](#setInsideField-int-) | Sets a field to be displayed inside of the bar. |
 | [setItemType(int value)](#setItemType-int-) | Sets [BarItemType](../../com.aspose.tasks/baritemtype) of the bar style. |
@@ -56,7 +62,9 @@ Change the visual style of the bar for the item in the project view.
 | [setRightField(int value)](#setRightField-int-) | Sets a field to be displayed on the right of the bar. |
 | [setStartShape(int value)](#setStartShape-int-) | Sets [Shape](../../com.aspose.tasks/shape) at the beginning of the bar. |
 | [setStartShapeColor(Color value)](#setStartShapeColor-java.awt.Color-) | Sets java.awt.Color of the shape at the beginning of the bar. |
+| [setStartShapeType(int value)](#setStartShapeType-int-) | Sets a type of the start shape. |
 | [setTextStyle(TextStyle value)](#setTextStyle-com.aspose.tasks.TextStyle-) | Sets style of the bar's text. |
+| [setTo(int value)](#setTo-int-) | Sets a finish point position of the gantt bar. |
 | [setTopBarTextConverter(TaskBarTextConverter value)](#setTopBarTextConverter-com.aspose.tasks.TaskBarTextConverter-) | Sets user-defined converter to get text to render on the top of the task's bar. |
 | [setTopField(int value)](#setTopField-int-) | Sets a field to be displayed on the top of the bar. |
 ### BarStyle() {#BarStyle--}
@@ -127,6 +135,26 @@ Gets java.awt.Color of the shape at the end of the bar.
 
 **Returns:**
 java.awt.Color - a color of the shape at the beginning of the bar.
+### getEndShapeType() {#getEndShapeType--}
+```
+public final int getEndShapeType()
+```
+
+
+Gets a type of the end shape. [GanttBarType](../../com.aspose.tasks/ganttbartype).
+
+**Returns:**
+int - a type of the end shape.
+### getFrom() {#getFrom--}
+```
+public final int getFrom()
+```
+
+
+Gets a start point position of the gantt bar. [Field](../../com.aspose.tasks/field).
+
+**Returns:**
+int - a start point position of the gantt bar.
 ### getInsideBarTextConverter() {#getInsideBarTextConverter--}
 ```
 public final TaskBarTextConverter getInsideBarTextConverter()
@@ -217,6 +245,16 @@ Gets java.awt.Color of the shape at the beginning of the bar.
 
 **Returns:**
 java.awt.Color - a color of the shape at the beginning of the bar.
+### getStartShapeType() {#getStartShapeType--}
+```
+public final int getStartShapeType()
+```
+
+
+Gets a type of the start shape.
+
+**Returns:**
+int - a type of the start shape.
 ### getTextStyle() {#getTextStyle--}
 ```
 public final TextStyle getTextStyle()
@@ -227,6 +265,16 @@ Gets style of the bar's text.
 
 **Returns:**
 [TextStyle](../../com.aspose.tasks/textstyle) - style of the bar's text.
+### getTo() {#getTo--}
+```
+public final int getTo()
+```
+
+
+Gets a finish point position of the gantt bar.
+
+**Returns:**
+int - a finish point position of the gantt bar.
 ### getTopBarTextConverter() {#getTopBarTextConverter--}
 ```
 public final TaskBarTextConverter getTopBarTextConverter()
@@ -324,6 +372,32 @@ Sets java.awt.Color of the shape at the end of the bar.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | a color of the shape at the beginning of the bar. |
+
+### setEndShapeType(int value) {#setEndShapeType-int-}
+```
+public final void setEndShapeType(int value)
+```
+
+
+Sets a type of the end shape. [GanttBarType](../../com.aspose.tasks/ganttbartype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a type of the end shape. |
+
+### setFrom(int value) {#setFrom-int-}
+```
+public final void setFrom(int value)
+```
+
+
+Sets a start point position of the gantt bar. [Field](../../com.aspose.tasks/field).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a start point position of the gantt bar. |
 
 ### setInsideBarTextConverter(TaskBarTextConverter value) {#setInsideBarTextConverter-com.aspose.tasks.TaskBarTextConverter-}
 ```
@@ -442,6 +516,19 @@ Sets java.awt.Color of the shape at the beginning of the bar.
 | --- | --- | --- |
 | value | java.awt.Color | a color of the shape at the beginning of the bar. |
 
+### setStartShapeType(int value) {#setStartShapeType-int-}
+```
+public final void setStartShapeType(int value)
+```
+
+
+Sets a type of the start shape.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a type of the start shape. |
+
 ### setTextStyle(TextStyle value) {#setTextStyle-com.aspose.tasks.TextStyle-}
 ```
 public final void setTextStyle(TextStyle value)
@@ -454,6 +541,19 @@ Sets style of the bar's text.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextStyle](../../com.aspose.tasks/textstyle) | style of the bar's text. |
+
+### setTo(int value) {#setTo-int-}
+```
+public final void setTo(int value)
+```
+
+
+Sets a finish point position of the gantt bar.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a finish point position of the gantt bar. |
 
 ### setTopBarTextConverter(TaskBarTextConverter value) {#setTopBarTextConverter-com.aspose.tasks.TaskBarTextConverter-}
 ```

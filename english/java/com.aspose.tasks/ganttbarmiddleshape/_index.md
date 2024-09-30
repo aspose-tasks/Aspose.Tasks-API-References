@@ -18,21 +18,21 @@ Specifies the middle shape of a bar.
 
 | Field | Description |
 | --- | --- |
-| [LineBottom](#LineBottom) | Indicates Bottom line Gantt bar middle shape. |
-| [LineMiddle](#LineMiddle) | Indicates Middle line Gantt bar middle shape. |
-| [LineTop](#LineTop) | Indicates Top line Gantt bar middle shape. |
-| [None](#None) | Indicates None Gantt bar middle shape. |
-| [RectangleBar](#RectangleBar) | Indicates Rectangle Gantt bar middle shape. |
-| [RectangleBottom](#RectangleBottom) | Indicates Rectangle bottom Gantt bar middle shape. |
-| [RectangleMiddle](#RectangleMiddle) | Indicates Rectangle middle Gantt bar middle shape. |
-| [RectangleTop](#RectangleTop) | Indicates Rectangle top Gantt bar middle shape. |
+| [LineBottom](#LineBottom) | Indicates bottom-aligned line shape. |
+| [LineMiddle](#LineMiddle) | Indicates center-aligned line shape. |
+| [LineTop](#LineTop) | Indicates top-aligned line shape. |
+| [None](#None) | Indicates empty shape. |
+| [RectangleBar](#RectangleBar) | Indicates full height rectangle bar shape. |
+| [RectangleBottom](#RectangleBottom) | Indicates Indicates bottom-aligned half height rectangle bar shape. |
+| [RectangleMiddle](#RectangleMiddle) | Indicates center-aligned 1/3 height rectangle bar shape. |
+| [RectangleTop](#RectangleTop) | Indicates top-aligned half height rectangle bar shape. |
 ### LineBottom {#LineBottom}
 ```
 public static final int LineBottom
 ```
 
 
-Indicates Bottom line Gantt bar middle shape.
+Indicates bottom-aligned line shape.
 
 ### LineMiddle {#LineMiddle}
 ```
@@ -40,7 +40,7 @@ public static final int LineMiddle
 ```
 
 
-Indicates Middle line Gantt bar middle shape.
+Indicates center-aligned line shape.
 
 ### LineTop {#LineTop}
 ```
@@ -48,7 +48,7 @@ public static final int LineTop
 ```
 
 
-Indicates Top line Gantt bar middle shape.
+Indicates top-aligned line shape.
 
 ### None {#None}
 ```
@@ -56,7 +56,7 @@ public static final int None
 ```
 
 
-Indicates None Gantt bar middle shape.
+Indicates empty shape.
 
 ### RectangleBar {#RectangleBar}
 ```
@@ -64,7 +64,7 @@ public static final int RectangleBar
 ```
 
 
-Indicates Rectangle Gantt bar middle shape.
+Indicates full height rectangle bar shape.
 
 ### RectangleBottom {#RectangleBottom}
 ```
@@ -72,7 +72,7 @@ public static final int RectangleBottom
 ```
 
 
-Indicates Rectangle bottom Gantt bar middle shape.
+Indicates Indicates bottom-aligned half height rectangle bar shape.
 
 ### RectangleMiddle {#RectangleMiddle}
 ```
@@ -80,7 +80,7 @@ public static final int RectangleMiddle
 ```
 
 
-Indicates Rectangle middle Gantt bar middle shape.
+Indicates center-aligned 1/3 height rectangle bar shape.
 
 ### RectangleTop {#RectangleTop}
 ```
@@ -88,5 +88,5 @@ public static final int RectangleTop
 ```
 
 
-Indicates Rectangle top Gantt bar middle shape.
+Indicates top-aligned half height rectangle bar shape.
 
