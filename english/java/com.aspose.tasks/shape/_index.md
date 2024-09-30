@@ -19,6 +19,7 @@ Shape of a marker at the beginning or end of the bar style to be rendered when s
 | Field | Description |
 | --- | --- |
 | [ArrowDown](#ArrowDown) | Indicates ArrowDown shape. |
+| [Circle](#Circle) | Indicates Circle shape. |
 | [Diamond](#Diamond) | Indicates Diamond shape. |
 | [LeftBracket](#LeftBracket) | Indicates Left bracket shape. |
 | [LeftFade](#LeftFade) | Indicates Left fade shape. |
@@ -35,6 +36,14 @@ public static final int ArrowDown
 
 
 Indicates ArrowDown shape.
+
+### Circle {#Circle}
+```
+public static final int Circle
+```
+
+
+Indicates Circle shape.
 
 ### Diamond {#Diamond}
 ```

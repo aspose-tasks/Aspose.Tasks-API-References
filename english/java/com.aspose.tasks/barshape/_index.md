@@ -19,11 +19,13 @@ Shape of a bar rectangle.
 | Field | Description |
 | --- | --- |
 | [Full](#Full) | Indicates Full rectangle bar shape. |
-| [HalfHeight](#HalfHeight) | Indicates Half height rectangle bar shape. |
-| [LineBottom](#LineBottom) | Indicates Line bottom bar shape. |
-| [Middle](#Middle) | Indicates Rectangle middle bar shape. |
+| [HalfHeight](#HalfHeight) | Indicates top-aligned half height rectangle bar shape. |
+| [HalfHeightBottom](#HalfHeightBottom) | Indicates bottom-aligned half height rectangle bar shape. |
+| [LineBottom](#LineBottom) | Indicates bottom-aligned line shape. |
+| [LineTop](#LineTop) | Indicates top-aligned line shape. |
+| [Middle](#Middle) | Indicates center-aligned line shape. |
 | [None](#None) | Indicates None bar shape. |
-| [Thin](#Thin) | Indicates Thin rectangle bar shape. |
+| [Thin](#Thin) | Indicates center-aligned line shape. |
 ### Full {#Full}
 ```
 public static final int Full
@@ -38,7 +40,15 @@ public static final int HalfHeight
 ```
 
 
-Indicates Half height rectangle bar shape.
+Indicates top-aligned half height rectangle bar shape.
+
+### HalfHeightBottom {#HalfHeightBottom}
+```
+public static final int HalfHeightBottom
+```
+
+
+Indicates bottom-aligned half height rectangle bar shape.
 
 ### LineBottom {#LineBottom}
 ```
@@ -46,7 +56,15 @@ public static final int LineBottom
 ```
 
 
-Indicates Line bottom bar shape.
+Indicates bottom-aligned line shape.
+
+### LineTop {#LineTop}
+```
+public static final int LineTop
+```
+
+
+Indicates top-aligned line shape.
 
 ### Middle {#Middle}
 ```
@@ -54,7 +72,7 @@ public static final int Middle
 ```
 
 
-Indicates Rectangle middle bar shape.
+Indicates center-aligned line shape.
 
 ### None {#None}
 ```
@@ -70,5 +88,5 @@ public static final int Thin
 ```
 
 
-Indicates Thin rectangle bar shape.
+Indicates center-aligned line shape.
 
