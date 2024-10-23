@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.UserDef
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets a value indicating whether a custom field is user defined
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.tasks/extendedattributedefinition/userdef/
 ---
 ## ExtendedAttributeDefinition.UserDef property

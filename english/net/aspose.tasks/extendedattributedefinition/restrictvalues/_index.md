@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.RestrictValues
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets a value indicating whether the custom field values are restricted to values in the ValueList
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.tasks/extendedattributedefinition/restrictvalues/
 ---
 ## ExtendedAttributeDefinition.RestrictValues property

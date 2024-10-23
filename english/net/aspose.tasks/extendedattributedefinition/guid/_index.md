@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.Guid
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets the Guid of a custom field
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.tasks/extendedattributedefinition/guid/
 ---
 ## ExtendedAttributeDefinition.Guid property

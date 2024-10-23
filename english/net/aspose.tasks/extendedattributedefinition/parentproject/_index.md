@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.ParentProject
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets the parent project for the ExtendedAttributeDefinition instance
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.tasks/extendedattributedefinition/parentproject/
 ---
 ## ExtendedAttributeDefinition.ParentProject property

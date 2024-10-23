@@ -3,7 +3,7 @@ title: Class WeeklyRepetition
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WeeklyRepetition class. Represents a pattern which is based on weekdays
 type: docs
-weight: 3420
+weight: 3470
 url: /net/aspose.tasks/weeklyrepetition/
 ---
 ## WeeklyRepetition class

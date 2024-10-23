@@ -3,7 +3,7 @@ title: Enum PrjKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.PrjKey enum. Represents a list of supported project fields
 type: docs
-weight: 1320
+weight: 1360
 url: /net/aspose.tasks/prjkey/
 ---
 ## PrjKey enumeration

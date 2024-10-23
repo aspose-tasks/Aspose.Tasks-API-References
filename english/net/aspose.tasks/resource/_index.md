@@ -3,7 +3,7 @@ title: Class Resource
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Resource class. Represents a resource in a project
 type: docs
-weight: 1630
+weight: 1670
 url: /net/aspose.tasks/resource/
 ---
 ## Resource class

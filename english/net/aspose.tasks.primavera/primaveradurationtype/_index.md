@@ -3,7 +3,7 @@ title: Enum PrimaveraDurationType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Primavera.PrimaveraDurationType enum. Specifies duration type of Primavera activity
 type: docs
-weight: 1210
+weight: 1250
 url: /net/aspose.tasks.primavera/primaveradurationtype/
 ---
 ## PrimaveraDurationType enumeration

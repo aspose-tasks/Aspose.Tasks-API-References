@@ -3,7 +3,7 @@ title: Enum DataCategory
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.DataCategory enum. The category of data used when saving to CSV
 type: docs
-weight: 1880
+weight: 1930
 url: /net/aspose.tasks.saving/datacategory/
 ---
 ## DataCategory enumeration

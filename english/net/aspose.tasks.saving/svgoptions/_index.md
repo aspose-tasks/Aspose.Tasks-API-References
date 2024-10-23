@@ -3,7 +3,7 @@ title: Class SvgOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.SvgOptions class. Allows to specify additional options when rendering project pages to SVG
 type: docs
-weight: 2110
+weight: 2160
 url: /net/aspose.tasks.saving/svgoptions/
 ---
 ## SvgOptions class

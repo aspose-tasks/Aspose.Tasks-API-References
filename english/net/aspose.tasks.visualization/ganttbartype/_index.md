@@ -3,7 +3,7 @@ title: Enum GanttBarType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.GanttBarType enum. Specifies the bar type
 type: docs
-weight: 2930
+weight: 2980
 url: /net/aspose.tasks.visualization/ganttbartype/
 ---
 ## GanttBarType enumeration

@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.RollupType
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets the way rollups are calculated
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.tasks/extendedattributedefinition/rolluptype/
 ---
 ## ExtendedAttributeDefinition.RollupType property

@@ -3,7 +3,7 @@ title: Class PrimaveraSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.PrimaveraSaveOptions class. Allows to specify additional options when saving project to Primavera XER format
 type: docs
-weight: 2030
+weight: 2080
 url: /net/aspose.tasks.saving/primaverasaveoptions/
 ---
 ## PrimaveraSaveOptions class

@@ -3,7 +3,7 @@ title: Enum TextItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.TextItemType enum. Item type to change a text style for
 type: docs
-weight: 3250
+weight: 3300
 url: /net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration

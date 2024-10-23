@@ -3,7 +3,7 @@ title: Class OutlineMask
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.OutlineMask class. Represents four elements of a mask which defines an outline code format
 type: docs
-weight: 1130
+weight: 1170
 url: /net/aspose.tasks/outlinemask/
 ---
 ## OutlineMask class

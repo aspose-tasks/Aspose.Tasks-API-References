@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition method. Returns a flag indicating whether this instance is equal to the specified object
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.tasks/extendedattributedefinition/equals/
 ---
 ## ExtendedAttributeDefinition.Equals method

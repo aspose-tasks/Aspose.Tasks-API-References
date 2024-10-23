@@ -3,7 +3,7 @@ title: Enum WBSSequence
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WBSSequence enum. Specifies sequence for WBSCodeMask
 type: docs
-weight: 3350
+weight: 3400
 url: /net/aspose.tasks/wbssequence/
 ---
 ## WBSSequence enumeration

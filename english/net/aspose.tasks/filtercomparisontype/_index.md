@@ -1,14 +1,14 @@
 ---
 title: Enum FilterComparisonType
 second_title: Aspose.Tasks for .NET API Reference
-description: Aspose.Tasks.FilterComparisonType enum. The type of comparison made between FieldName and Value that acts as selection criteria for the filter
+description: Aspose.Tasks.FilterComparisonType enum. The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator
 type: docs
 weight: 620
 url: /net/aspose.tasks/filtercomparisontype/
 ---
 ## FilterComparisonType enumeration
 
-The type of comparison made between FieldName and Value that acts as selection criteria for the filter.
+The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator.
 
 ```csharp
 public enum FilterComparisonType
@@ -31,6 +31,7 @@ public enum FilterComparisonType
 | ContainsExactly | `11` | The value of Field exactly contains Value. |
 | IsOneOf | `12` | The value of Field equals to one of the specified Values. Used in AutoFilters. |
 | Undefined | `0` | Undefined value. |
+| IsAnyValue | `255` | 'Is any value' condition. Applicable to graphical indicators. |
 
 ## Examples
 

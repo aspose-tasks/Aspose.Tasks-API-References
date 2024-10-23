@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.AddLookupValue
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition method. Adds a value to the internal lookup list. This is a preferable way for manipulations with the ValueList
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.tasks/extendedattributedefinition/addlookupvalue/
 ---
 ## ExtendedAttributeDefinition.AddLookupValue method

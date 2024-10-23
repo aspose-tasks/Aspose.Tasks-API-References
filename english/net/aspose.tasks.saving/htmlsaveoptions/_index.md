@@ -3,7 +3,7 @@ title: Class HtmlSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.HtmlSaveOptions class. Allows to specify additional options when rendering project pages to HTML
 type: docs
-weight: 1890
+weight: 1940
 url: /net/aspose.tasks.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

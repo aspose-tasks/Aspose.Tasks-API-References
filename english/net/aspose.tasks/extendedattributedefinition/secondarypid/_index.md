@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.SecondaryPid
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets the secondary PID of a custom field
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.tasks/extendedattributedefinition/secondarypid/
 ---
 ## ExtendedAttributeDefinition.SecondaryPid property

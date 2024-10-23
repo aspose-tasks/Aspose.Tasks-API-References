@@ -18,7 +18,8 @@ public class AvailabilityPeriod
 
 | Name | Description |
 | --- | --- |
-| [AvailabilityPeriod](availabilityperiod/)() | The default constructor. |
+| [AvailabilityPeriod](availabilityperiod/#constructor)() | Initializes a new instance of the `AvailabilityPeriod`. |
+| [AvailabilityPeriod](availabilityperiod/#constructor_1)(DateTime, DateTime, double) | Initializes a new instance of the `AvailabilityPeriod` with the specified date range and available units. |
 
 ## Properties
 

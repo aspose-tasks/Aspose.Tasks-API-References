@@ -3,7 +3,7 @@ title: Delegate AssignmentToColumnTextConverter
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment data to columns string converter
 type: docs
-weight: 2770
+weight: 2820
 url: /net/aspose.tasks.visualization/assignmenttocolumntextconverter/
 ---
 ## AssignmentToColumnTextConverter delegate

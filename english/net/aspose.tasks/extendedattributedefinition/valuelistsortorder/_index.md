@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.ValuelistSortOrder
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets the way value lists are sorted. Values are 0Descending 1Ascending
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.tasks/extendedattributedefinition/valuelistsortorder/
 ---
 ## ExtendedAttributeDefinition.ValuelistSortOrder property

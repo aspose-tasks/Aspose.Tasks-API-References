@@ -3,7 +3,7 @@ title: Class XamlOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.XamlOptions class. /// Allows to specify additional options when rendering project pages to XAML
 type: docs
-weight: 2130
+weight: 2180
 url: /net/aspose.tasks.saving/xamloptions/
 ---
 ## XamlOptions class
