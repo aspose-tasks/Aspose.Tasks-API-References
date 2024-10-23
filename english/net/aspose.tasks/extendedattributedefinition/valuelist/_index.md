@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.ValueList
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets the ListValue ValueList
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.tasks/extendedattributedefinition/valuelist/
 ---
 ## ExtendedAttributeDefinition.ValueList property

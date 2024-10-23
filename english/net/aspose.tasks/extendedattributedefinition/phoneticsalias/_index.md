@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.PhoneticsAlias
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets the phonetic pronunciation of the alias of a custom field
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.tasks/extendedattributedefinition/phoneticsalias/
 ---
 ## ExtendedAttributeDefinition.PhoneticsAlias property

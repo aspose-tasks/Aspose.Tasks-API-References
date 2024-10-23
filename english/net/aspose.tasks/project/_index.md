@@ -3,7 +3,7 @@ title: Class Project
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Project class. Represents a project
 type: docs
-weight: 1330
+weight: 1370
 url: /net/aspose.tasks/project/
 ---
 ## Project class

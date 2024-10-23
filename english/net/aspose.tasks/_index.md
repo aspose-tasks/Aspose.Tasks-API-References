@@ -52,6 +52,9 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [FontSavingArgs](./fontsavingargs/) | This class represents set of data that related to external fonts file's saving that occurs during conversion to HTML format. |
 | [FontSettings](./fontsettings/) | Specifies font settings used when rendering project's view. |
 | [GanttChartView](./ganttchartview/) | Represents a GanttChart view. |
+| [GraphicalIndicatorCriteria](./graphicalindicatorcriteria/) | Represents one graphical indicator criteria associated with an extended attribute. |
+| [GraphicalIndicatorCriteriaValue](./graphicalindicatorcriteriavalue/) | Represents a value used in condition check of graphical indicators criteria. |
+| [GraphicalIndicatorsInfo](./graphicalindicatorsinfo/) | Represents an graphical indicators definition associated with an extended attribute. |
 | [Group](./group/) | Represents a group definition. A Group object is a member of the ResourceGroups collection or the TaskGroups collection. |
 | [GroupCollection](./groupcollection/) | Contains a list of [`Group`](../aspose.tasks/group/) objects. Implements ICollection&lt;Group&gt; interface. |
 | [GroupCriterion](./groupcriterion/) | Represents a criterion in a group definition. The GroupCriterion object is a member of the [`GroupCriterionCollection`](../aspose.tasks/groupcriterioncollection/) collection. |
@@ -107,6 +110,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [ResourceSavingArgs](./resourcesavingargs/) | This class represents set of data that related to external resource file's saving that occurs during conversion to HTML format. |
 | [ResourceUsageView](./resourceusageview/) | Represents resource usage view in a project. |
 | [ResourceUsageViewFieldCollection](./resourceusageviewfieldcollection/) | Represent a collection of [`ResourceUsageViewField`](../aspose.tasks/resourceusageviewfield/) values. |
+| [ResourceValidationException](./resourcevalidationexception/) | Represents an exception which is thrown when errors are found in resource's properties. |
 | [Rsc](./rsc/) | Represents supported properties of [`Resource`](../aspose.tasks/resource/) object. |
 | [SplitPart](./splitpart/) | Represents a task portion. The SplitPart is a member of the task's SplitParts collection. |
 | [SplitPartCollection](./splitpartcollection/) | Collection that represents the portions of a task. |
@@ -202,10 +206,11 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [ExtendedAttributeTask](./extendedattributetask/) | Specifies the extended attributes FieldId used in a task. |
 | [Field](./field/) | Specifies a field in the Microsoft Office Project. |
 | [FileFormat](./fileformat/) | Specifies the project's file format. |
-| [FilterComparisonType](./filtercomparisontype/) | The type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
+| [FilterComparisonType](./filtercomparisontype/) | The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator. |
 | [FilterOperation](./filteroperation/) | Specifies how the criterion established with FieldName, FilterComparisonType, and Value relates to other criteria in the filter. |
 | [FontFaceType](./fontfacetype/) | Enumerates font face types |
 | [GanttBarSize](./ganttbarsize/) | Specifies the height of a bar in points. |
+| [GraphicalIndicatorCriteriaType](./graphicalindicatorcriteriatype/) | Represents placement of graphical indicator criteria. |
 | [GroupOn](./groupon/) | Specifies the type of grouping. |
 | [HourLabelDisplay](./hourlabeldisplay/) | Specifies how the hour label displays. |
 | [HtmlImageType](./htmlimagetype/) | Represents HTML image type. |

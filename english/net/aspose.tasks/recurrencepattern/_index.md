@@ -3,7 +3,7 @@ title: Enum RecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RecurrencePattern enum. Represents a type of recurrence pattern of a recurrent task
 type: docs
-weight: 1580
+weight: 1620
 url: /net/aspose.tasks/recurrencepattern/
 ---
 ## RecurrencePattern enumeration

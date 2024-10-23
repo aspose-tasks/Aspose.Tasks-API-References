@@ -3,7 +3,7 @@ title: Enum PdfEncryptionAlgorithm
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.PdfEncryptionAlgorithm enum. Specifies the encryption algorithm to use for encrypting a PDF document
 type: docs
-weight: 1980
+weight: 2030
 url: /net/aspose.tasks.saving/pdfencryptionalgorithm/
 ---
 ## PdfEncryptionAlgorithm enumeration

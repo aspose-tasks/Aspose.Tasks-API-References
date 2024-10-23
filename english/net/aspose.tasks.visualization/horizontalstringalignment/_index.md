@@ -3,7 +3,7 @@ title: Enum HorizontalStringAlignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.HorizontalStringAlignment enum. Specifies the alignment of a text string relative to its layout rectangle
 type: docs
-weight: 3000
+weight: 3050
 url: /net/aspose.tasks.visualization/horizontalstringalignment/
 ---
 ## HorizontalStringAlignment enumeration

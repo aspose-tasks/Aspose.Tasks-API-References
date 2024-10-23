@@ -3,7 +3,7 @@ title: Interface ICssSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ICssSavingCallback interface. Represents a callback that is called to create resource to store CSS
 type: docs
-weight: 790
+weight: 830
 url: /net/aspose.tasks/icsssavingcallback/
 ---
 ## ICssSavingCallback interface

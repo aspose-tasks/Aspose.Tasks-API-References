@@ -3,7 +3,7 @@ title: Class ReadOnlyCollectionBaseT
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ReadOnlyCollectionBase1T class. Represents a readonly collection of objects
 type: docs
-weight: 1560
+weight: 1600
 url: /net/aspose.tasks/readonlycollectionbase-1/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt; class

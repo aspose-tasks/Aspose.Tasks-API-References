@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.RemoveLookupValue
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition method. Removes a value from the internal lookup list. This is a preferable way for manipulations with the ValueList
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.tasks/extendedattributedefinition/removelookupvalue/
 ---
 ## ExtendedAttributeDefinition.RemoveLookupValue method

@@ -3,7 +3,7 @@ title: Class ResourceAssignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ResourceAssignment class. Represents a resource assignment in a project
 type: docs
-weight: 1640
+weight: 1680
 url: /net/aspose.tasks/resourceassignment/
 ---
 ## ResourceAssignment class

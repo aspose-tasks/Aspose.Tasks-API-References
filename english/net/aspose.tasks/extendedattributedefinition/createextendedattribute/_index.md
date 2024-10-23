@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.CreateExtendedAttribute
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition method. Creates a new extended attribute with the field ID which equals to this objects field ID value
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.tasks/extendedattributedefinition/createextendedattribute/
 ---
 ## CreateExtendedAttribute() {#createextendedattribute}

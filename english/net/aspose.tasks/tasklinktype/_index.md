@@ -3,7 +3,7 @@ title: Enum TaskLinkType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskLinkType enum. Specifies the type of tasks dependency
 type: docs
-weight: 2300
+weight: 2350
 url: /net/aspose.tasks/tasklinktype/
 ---
 ## TaskLinkType enumeration

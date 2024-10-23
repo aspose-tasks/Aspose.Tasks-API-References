@@ -3,7 +3,7 @@ title: Enum ResourceType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ResourceType enum. Specifies the type of a resource
 type: docs
-weight: 1690
+weight: 1730
 url: /net/aspose.tasks/resourcetype/
 ---
 ## ResourceType enumeration

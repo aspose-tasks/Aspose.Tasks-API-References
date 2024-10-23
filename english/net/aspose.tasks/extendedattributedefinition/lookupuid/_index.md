@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.LookupUid
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets a Guid of the lookup table associated with a custom field
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.tasks/extendedattributedefinition/lookupuid/
 ---
 ## ExtendedAttributeDefinition.LookupUid property

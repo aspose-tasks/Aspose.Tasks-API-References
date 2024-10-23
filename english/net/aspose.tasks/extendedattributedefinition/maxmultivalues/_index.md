@@ -3,7 +3,7 @@ title: ExtendedAttributeDefinition.MaxMultiValues
 second_title: Aspose.Tasks for .NET API Reference
 description: ExtendedAttributeDefinition property. Gets or sets the maximum number of values you can set in a pick list
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.tasks/extendedattributedefinition/maxmultivalues/
 ---
 ## ExtendedAttributeDefinition.MaxMultiValues property
