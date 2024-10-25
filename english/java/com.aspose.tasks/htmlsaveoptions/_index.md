@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to HTML.
 type: docs
-weight: 127
+weight: 131
 url: /java/com.aspose.tasks/htmlsaveoptions/
 ---
 

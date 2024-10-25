@@ -3,7 +3,7 @@ title: PresentationFormat
 second_title: Aspose.Tasks for Java API Reference
 description: Enumeration for presentation format.
 type: docs
-weight: 188
+weight: 192
 url: /java/com.aspose.tasks/presentationformat/
 ---
 

@@ -3,7 +3,7 @@ title: SvgOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to SVG.
 type: docs
-weight: 272
+weight: 277
 url: /java/com.aspose.tasks/svgoptions/
 ---
 

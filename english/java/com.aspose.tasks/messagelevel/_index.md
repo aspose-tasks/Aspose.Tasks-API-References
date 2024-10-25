@@ -3,7 +3,7 @@ title: MessageLevel
 second_title: Aspose.Tasks for Java API Reference
 description: Defines the possible message verbosity levels.
 type: docs
-weight: 146
+weight: 150
 url: /java/com.aspose.tasks/messagelevel/
 ---
 

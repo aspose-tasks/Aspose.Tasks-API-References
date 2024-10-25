@@ -3,7 +3,7 @@ title: Timescale
 second_title: Aspose.Tasks for Java API Reference
 description: Defines options which specifies how to render timescale in Gantt Chart Task Usage or Resource Usage views when the project is exported to a graphic format.
 type: docs
-weight: 310
+weight: 315
 url: /java/com.aspose.tasks/timescale/
 ---
 

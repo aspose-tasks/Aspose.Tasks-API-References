@@ -3,7 +3,7 @@ title: GroupOn
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of grouping.
 type: docs
-weight: 121
+weight: 125
 url: /java/com.aspose.tasks/groupon/
 ---
 

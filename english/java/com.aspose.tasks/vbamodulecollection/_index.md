@@ -3,7 +3,7 @@ title: VbaModuleCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of VbaModule objects.
 type: docs
-weight: 323
+weight: 328
 url: /java/com.aspose.tasks/vbamodulecollection/
 ---
 

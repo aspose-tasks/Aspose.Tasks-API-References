@@ -95,7 +95,7 @@ url: /java/com.aspose.tasks/
 | [FillPattern](../com.aspose.tasks/fillpattern) | Fill pattern used in middle shape of a gantt bar. |
 | [Filter](../com.aspose.tasks/filter) | Represents a filter in Project. |
 | [FilterCollection](../com.aspose.tasks/filtercollection) | Contains a list of [Filter](../com.aspose.tasks/filter) objects. |
-| [FilterComparisonType](../com.aspose.tasks/filtercomparisontype) | The type of comparison made between FieldName and Value that acts as selection criteria for the filter. |
+| [FilterComparisonType](../com.aspose.tasks/filtercomparisontype) | The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator. |
 | [FilterCriteria](../com.aspose.tasks/filtercriteria) | Defines the criteria that tasks or resources must meet to be displayed in MSP view. |
 | [FilterOperation](../com.aspose.tasks/filteroperation) | Specifies how the criterion established with FieldName, FilterComparisonType, and Value relates to other criteria in the filter. |
 | [FontDescriptor](../com.aspose.tasks/fontdescriptor) | Represents font information. |
@@ -116,6 +116,10 @@ url: /java/com.aspose.tasks/
 | [GanttChartColumn](../com.aspose.tasks/ganttchartcolumn) | Project's view class |
 | [GanttChartView](../com.aspose.tasks/ganttchartview) | Represents a GanttChart view. |
 | [GenericProperty&lt;TKey&gt;](../com.aspose.tasks/genericproperty) | Represents a container property. |
+| [GraphicalIndicatorCriteria](../com.aspose.tasks/graphicalindicatorcriteria) | Represents one graphical indicator criteria associated with an extended attribute. |
+| [GraphicalIndicatorCriteriaType](../com.aspose.tasks/graphicalindicatorcriteriatype) | Represents placement of graphical indicator criteria. |
+| [GraphicalIndicatorCriteriaValue](../com.aspose.tasks/graphicalindicatorcriteriavalue) | Represents a value used in condition check of graphical indicators criteria. |
+| [GraphicalIndicatorsInfo](../com.aspose.tasks/graphicalindicatorsinfo) | Represents an graphical indicators definition associated with an extended attribute. |
 | [Gridline](../com.aspose.tasks/gridline) | The horizontal or vertical line that appears in the project view. |
 | [GridlineType](../com.aspose.tasks/gridlinetype) | Type of gridline. |
 | [Gridlines](../com.aspose.tasks/gridlines) | Represents gridlines that appear in a GanttChart view. |
@@ -253,6 +257,7 @@ url: /java/com.aspose.tasks/
 | [ResourceUsageView](../com.aspose.tasks/resourceusageview) | Represents resource usage view in a project. |
 | [ResourceUsageViewField](../com.aspose.tasks/resourceusageviewfield) | Represents possible fields in [ResourceUsageView](../com.aspose.tasks/resourceusageview) object resource usage view field. |
 | [ResourceUsageViewFieldCollection](../com.aspose.tasks/resourceusageviewfieldcollection) | Represent a collection of `ResourceUsageViewField` values. |
+| [ResourceValidationException](../com.aspose.tasks/resourcevalidationexception) | Represents an exception which is thrown when errors are found in resource's properties. |
 | [ResourceViewColumn](../com.aspose.tasks/resourceviewcolumn) | Project's view class used in ResourceUsage view and ResourceSheet view. |
 | [RiskAnalysisResult](../com.aspose.tasks/riskanalysisresult) | Represents a result of risk analysis. |
 | [RiskAnalysisSettings](../com.aspose.tasks/riskanalysissettings) | Specifies settings for performing risk analysis. |

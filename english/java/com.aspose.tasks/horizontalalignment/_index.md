@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies how an object or text is horizontally aligned relative to another object.
 type: docs
-weight: 123
+weight: 127
 url: /java/com.aspose.tasks/horizontalalignment/
 ---
 

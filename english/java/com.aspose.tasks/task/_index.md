@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 278
+weight: 283
 url: /java/com.aspose.tasks/task/
 ---
 

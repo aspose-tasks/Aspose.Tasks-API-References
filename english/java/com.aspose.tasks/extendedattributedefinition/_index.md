@@ -47,6 +47,7 @@ Represents an extended attribute definition associated with a project.
 | [getFieldId()](#getFieldId--) | Gets corresponds to the project id of a custom field. |
 | [getFieldName()](#getFieldName--) | Gets the name of a custom field. |
 | [getFormula()](#getFormula--) | Gets the formula that Microsoft Project uses to populate a custom task field. |
+| [getGraphicalIndicator()](#getGraphicalIndicator--) | Gets a graphical indicators info associated with the extended attribute. |
 | [getGuid()](#getGuid--) | Gets the Guid of a custom field. |
 | [getLookupUid()](#getLookupUid--) | Gets a Guid of the lookup table associated with a custom field. |
 | [getMaxMultiValues()](#getMaxMultiValues--) | Gets the maximum number of values you can set in a pick list. |
@@ -71,6 +72,7 @@ Represents an extended attribute definition associated with a project.
 | [setElementType(int value)](#setElementType-int-) | Sets the extended attribute is associated with a task, a resource or an assignment. |
 | [setFieldId(String value)](#setFieldId-java.lang.String-) | Sets corresponds to the project id of a custom field. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets the formula that Microsoft Project uses to populate a custom task field. |
+| [setGraphicalIndicator(GraphicalIndicatorsInfo value)](#setGraphicalIndicator-com.aspose.tasks.GraphicalIndicatorsInfo-) | Sets a graphical indicators info associated with the extended attribute. |
 | [setGuid(String value)](#setGuid-java.lang.String-) | Sets the Guid of a custom field. |
 | [setMaxMultiValues(int value)](#setMaxMultiValues-int-) | Sets the maximum number of values you can set in a pick list. |
 | [setPhoneticsAlias(String value)](#setPhoneticsAlias-java.lang.String-) | Sets the phonetic pronunciation of the alias of a custom field. |
@@ -662,6 +664,16 @@ Gets the formula that Microsoft Project uses to populate a custom task field.
 
 **Returns:**
 java.lang.String - the formula that Microsoft Project uses to populate a custom task field.
+### getGraphicalIndicator() {#getGraphicalIndicator--}
+```
+public final GraphicalIndicatorsInfo getGraphicalIndicator()
+```
+
+
+Gets a graphical indicators info associated with the extended attribute.
+
+**Returns:**
+[GraphicalIndicatorsInfo](../../com.aspose.tasks/graphicalindicatorsinfo) - a graphical indicators info associated with the extended attribute.
 ### getGuid() {#getGuid--}
 ```
 public final String getGuid()
@@ -991,6 +1003,19 @@ Sets the formula that Microsoft Project uses to populate a custom task field.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | the formula that Microsoft Project uses to populate a custom task field. |
+
+### setGraphicalIndicator(GraphicalIndicatorsInfo value) {#setGraphicalIndicator-com.aspose.tasks.GraphicalIndicatorsInfo-}
+```
+public final void setGraphicalIndicator(GraphicalIndicatorsInfo value)
+```
+
+
+Sets a graphical indicators info associated with the extended attribute.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [GraphicalIndicatorsInfo](../../com.aspose.tasks/graphicalindicatorsinfo) | a graphical indicators info associated with the extended attribute. |
 
 ### setGuid(String value) {#setGuid-java.lang.String-}
 ```

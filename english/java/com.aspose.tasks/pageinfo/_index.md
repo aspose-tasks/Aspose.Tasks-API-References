@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents page setup data which is present in MPP file format and used for printing.
 type: docs
-weight: 167
+weight: 175
 url: /java/com.aspose.tasks/pageinfo/
 ---
 
@@ -74,7 +74,7 @@ Gets an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class wh
 Currently is applicable only to Gantt Chart views.
 
 **Returns:**
-[PageLegend](../../com.aspose.tasks/pagelegend) - an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies page legend.
+[PageLegend](../../com.aspose.tasks/pagelegend) - an instance of the [PageLegend](../../com.aspose.tasks/pagelegend) class which specifies rendering options of page legend.
 ### getMargins() {#getMargins--}
 ```
 public final PageMargins getMargins()

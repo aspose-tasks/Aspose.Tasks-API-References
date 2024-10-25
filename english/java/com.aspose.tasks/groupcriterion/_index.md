@@ -3,7 +3,7 @@ title: GroupCriterion
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a criterion in a group definition.
 type: docs
-weight: 119
+weight: 123
 url: /java/com.aspose.tasks/groupcriterion/
 ---
 

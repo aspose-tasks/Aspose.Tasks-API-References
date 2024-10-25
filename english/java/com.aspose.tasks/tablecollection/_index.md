@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Contains a list of  objects.
 type: docs
-weight: 274
+weight: 279
 url: /java/com.aspose.tasks/tablecollection/
 ---
 

@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a reference of the .
 type: docs
-weight: 325
+weight: 330
 url: /java/com.aspose.tasks/vbareference/
 ---
 

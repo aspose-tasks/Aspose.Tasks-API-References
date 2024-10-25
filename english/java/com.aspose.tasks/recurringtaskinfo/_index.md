@@ -3,7 +3,7 @@ title: RecurringTaskInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the details of a recurring task in a project.
 type: docs
-weight: 234
+weight: 238
 url: /java/com.aspose.tasks/recurringtaskinfo/
 ---
 

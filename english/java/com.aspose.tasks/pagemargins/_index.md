@@ -3,7 +3,7 @@ title: PageMargins
 second_title: Aspose.Tasks for Java API Reference
 description: Represents page margins for printing.
 type: docs
-weight: 173
+weight: 177
 url: /java/com.aspose.tasks/pagemargins/
 ---
 

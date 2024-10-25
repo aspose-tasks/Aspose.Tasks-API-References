@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to PDF.
 type: docs
-weight: 185
+weight: 189
 url: /java/com.aspose.tasks/pdfsaveoptions/
 ---
 
