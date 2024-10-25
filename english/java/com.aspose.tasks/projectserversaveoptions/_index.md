@@ -3,7 +3,7 @@ title: ProjectServerSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when project is saved to Project Server or Project Online.
 type: docs
-weight: 217
+weight: 221
 url: /java/com.aspose.tasks/projectserversaveoptions/
 ---
 

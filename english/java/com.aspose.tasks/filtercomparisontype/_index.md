@@ -1,7 +1,7 @@
 ---
 title: FilterComparisonType
 second_title: Aspose.Tasks for Java API Reference
-description: The type of comparison made between FieldName and Value that acts as selection criteria for the filter.
+description: The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator.
 type: docs
 weight: 93
 url: /java/com.aspose.tasks/filtercomparisontype/
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FilterComparisonType extends System.Enum
 ```
 
-The type of comparison made between FieldName and Value that acts as selection criteria for the filter.
+The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator.
 ## Fields
 
 | Field | Description |
@@ -23,6 +23,7 @@ The type of comparison made between FieldName and Value that acts as selection c
 | [DoesNotContain](#DoesNotContain) | The value of Field does not contain Value. |
 | [DoesNotEqual](#DoesNotEqual) | The value of Field does not equal Value. |
 | [Equals](#Equals) | The value of Field equals Value. |
+| [IsAnyValue](#IsAnyValue) | 'Is any value' condition. |
 | [IsGreaterThan](#IsGreaterThan) | The value of Field is greater than Value. |
 | [IsGreaterThanOrEqualTo](#IsGreaterThanOrEqualTo) | The value of Field is greater than or equal to Value. |
 | [IsLessThan](#IsLessThan) | The value of Field is less than Value. |
@@ -70,6 +71,14 @@ public static final int Equals
 
 
 The value of Field equals Value.
+
+### IsAnyValue {#IsAnyValue}
+```
+public static final int IsAnyValue
+```
+
+
+'Is any value' condition. Applicable to graphical indicators.
 
 ### IsGreaterThan {#IsGreaterThan}
 ```

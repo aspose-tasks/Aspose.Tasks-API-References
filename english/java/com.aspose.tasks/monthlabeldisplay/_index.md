@@ -3,7 +3,7 @@ title: MonthLabelDisplay
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies how the month label displays.
 type: docs
-weight: 151
+weight: 155
 url: /java/com.aspose.tasks/monthlabeldisplay/
 ---
 

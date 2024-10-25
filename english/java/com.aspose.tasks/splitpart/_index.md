@@ -3,7 +3,7 @@ title: SplitPart
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task portion.
 type: docs
-weight: 267
+weight: 272
 url: /java/com.aspose.tasks/splitpart/
 ---
 

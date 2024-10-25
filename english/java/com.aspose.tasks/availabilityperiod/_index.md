@@ -18,7 +18,8 @@ Represents a period when a resource is available.
 
 | Constructor | Description |
 | --- | --- |
-| [AvailabilityPeriod()](#AvailabilityPeriod--) |  |
+| [AvailabilityPeriod()](#AvailabilityPeriod--) | Initializes a new instance of the [AvailabilityPeriod](../../com.aspose.tasks/availabilityperiod). |
+| [AvailabilityPeriod(Date availableFrom, Date availableTo, double availableUnits)](#AvailabilityPeriod-java.util.Date-java.util.Date-double-) | Initializes a new instance of the [AvailabilityPeriod](../../com.aspose.tasks/availabilityperiod) with the specified date range and available units. |
 ## Methods
 
 | Method | Description |
@@ -34,6 +35,23 @@ Represents a period when a resource is available.
 public AvailabilityPeriod()
 ```
 
+
+Initializes a new instance of the [AvailabilityPeriod](../../com.aspose.tasks/availabilityperiod).
+
+### AvailabilityPeriod(Date availableFrom, Date availableTo, double availableUnits) {#AvailabilityPeriod-java.util.Date-java.util.Date-double-}
+```
+public AvailabilityPeriod(Date availableFrom, Date availableTo, double availableUnits)
+```
+
+
+Initializes a new instance of the [AvailabilityPeriod](../../com.aspose.tasks/availabilityperiod) with the specified date range and available units.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| availableFrom | java.util.Date | the date from |
+| availableTo | java.util.Date | the date to |
+| availableUnits | double | available units |
 
 ### getAvailableFrom() {#getAvailableFrom--}
 ```

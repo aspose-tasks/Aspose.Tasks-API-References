@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a table in Project
 type: docs
-weight: 273
+weight: 278
 url: /java/com.aspose.tasks/table/
 ---
 

@@ -3,7 +3,7 @@ title: LegendDrawingOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the possible options used when rendering views legend.
 type: docs
-weight: 136
+weight: 140
 url: /java/com.aspose.tasks/legenddrawingoptions/
 ---
 

@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the possible options used when rendering views legend.
 type: docs
-weight: 135
+weight: 139
 url: /java/com.aspose.tasks/legend/
 ---
 

@@ -3,7 +3,7 @@ title: WBSSequence
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies sequence for WBSCodeMask
 type: docs
-weight: 335
+weight: 340
 url: /java/com.aspose.tasks/wbssequence/
 ---
 
