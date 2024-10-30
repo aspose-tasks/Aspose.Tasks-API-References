@@ -3,7 +3,7 @@ title: PrimaveraReadOptions
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 740
 url: /python-net/aspose.tasks/primaverareadoptions/
 ---
 
