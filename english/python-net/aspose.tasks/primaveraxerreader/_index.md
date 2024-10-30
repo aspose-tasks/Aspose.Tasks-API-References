@@ -15,8 +15,8 @@ The PrimaveraXerReader type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraXerReader(xer_file_path)|Initializes a new instance of the PrimaveraXerReader class|
-|PrimaveraXerReader(stream)|Initializes a new instance of the PrimaveraXerReader class|
+|PrimaveraXerReader(xer_file_path)|Initializes a new instance of the [PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/) class.|
+|PrimaveraXerReader(stream)|Initializes a new instance of the [PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |

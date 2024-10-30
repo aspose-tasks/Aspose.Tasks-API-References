@@ -15,10 +15,10 @@ The TableTextStyle type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TableTextStyle(row_uid)|Initializes a new instance of the TableTextStyle class|
-|TableTextStyle(row_uid, font)|Initializes a new instance of the TableTextStyle class|
-|TableTextStyle(row_uid, font_size, font_style)|Initializes a new instance of the TableTextStyle class|
-|TableTextStyle(row_uid, font_style)|Initializes a new instance of the TableTextStyle class|
+|TableTextStyle(row_uid)|Initializes a new instance of the [TableTextStyle](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/) class.|
+|TableTextStyle(row_uid, font)|Initializes a new instance of the [TableTextStyle](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/) class with the specified font.|
+|TableTextStyle(row_uid, font_size, font_style)|Initializes a new instance of the [TableTextStyle](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/) class with the specified font size and font style.|
+|TableTextStyle(row_uid, font_style)|Initializes a new instance of the [TableTextStyle](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/) class with the specified font size and font style.|
 ## Properties
 | Name | Description |
 | :- | :- |

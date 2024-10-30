@@ -15,7 +15,7 @@ The ProjectView type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectView(columns)|Initializes a new instance of the ProjectView class|
+|ProjectView(columns)|Initializes a new instance of the [ProjectView](/tasks/python-net/aspose.tasks.visualization/projectview/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

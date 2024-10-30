@@ -15,7 +15,7 @@ The ImageSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ImageSaveOptions(save_format)|Initializes a new instance of the ImageSaveOptions class|
+|ImageSaveOptions(save_format)|Initializes a new instance of the [ImageSaveOptions](/tasks/python-net/aspose.tasks.saving/imagesaveoptions/) class which can be used to save rendered images in TIFF, PNG, BMP or JPEG formats.|
 ## Properties
 | Name | Description |
 | :- | :- |

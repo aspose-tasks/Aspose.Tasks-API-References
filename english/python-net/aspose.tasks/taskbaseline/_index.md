@@ -15,7 +15,7 @@ The TaskBaseline type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TaskBaseline(task)|Initializes a new instance of the TaskBaseline class|
+|TaskBaseline(task)|Initializes a new instance of the [TaskBaseline](/tasks/python-net/aspose.tasks/taskbaseline/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

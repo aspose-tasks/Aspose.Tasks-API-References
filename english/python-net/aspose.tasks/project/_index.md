@@ -16,15 +16,15 @@ The Project type exposes the following members:
 | Name | Description |
 | :- | :- |
 |Project()|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class.|
-|Project(project_template, protection_password)|Initializes a new instance of the Project class|
-|Project(project_template)|Initializes a new instance of the Project class|
-|Project(stream, options)|Initializes a new instance of the Project class|
-|Project(stream)|Initializes a new instance of the Project class|
-|Project(project_template, options)|Initializes a new instance of the Project class|
-|Project(settings)|Initializes a new instance of the Project class|
-|Project(stream, protection_password)|Initializes a new instance of the Project class|
-|Project(project_template, options)|Initializes a new instance of the Project class|
-|Project(stream, options)|Initializes a new instance of the Project class|
+|Project(project_template, protection_password)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from a password protected template (existent mpp or mpt file).|
+|Project(project_template)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from a password protected template (existent mpp or mpt file).|
+|Project(stream, options)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from the Stream<br/>            with the specified instance of the [PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/) class.|
+|Project(stream)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from the Stream<br/>            with the specified instance of the [PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/) class.|
+|Project(project_template, options)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from a template (existent MPP or MPT file) <br/>            with the specified instance of the [PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/) class.|
+|Project(settings)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class to read data from a database which is specified by the instance of the [DbSettings](/tasks/python-net/aspose.tasks.connectivity/dbsettings/) class.|
+|Project(stream, protection_password)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from a template(existent mpp or mpt file).|
+|Project(project_template, options)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from a template (existent mpp or mpt file)<br/>            with the specified instance of the [LoadOptions](/tasks/python-net/aspose.tasks/loadoptions/) class.|
+|Project(stream, options)|Initializes a new instance of the [Project](/tasks/python-net/aspose.tasks/project/) class from the Stream<br/>            with the specified instance of the [LoadOptions](/tasks/python-net/aspose.tasks/loadoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

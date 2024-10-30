@@ -15,7 +15,7 @@ The MspDbSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MspDbSettings(connection_string, project_guid)|Initializes a new instance of the MspDbSettings class|
+|MspDbSettings(connection_string, project_guid)|Initializes a new instance of the [MspDbSettings](/tasks/python-net/aspose.tasks.connectivity/mspdbsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

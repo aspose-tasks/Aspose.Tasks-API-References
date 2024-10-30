@@ -15,7 +15,7 @@ The PdfEncryptionDetails type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PdfEncryptionDetails(user_password, owner_password, encryption_algorithm)|Initializes a new instance of the PdfEncryptionDetails class|
+|PdfEncryptionDetails(user_password, owner_password, encryption_algorithm)|Initializes a new instance of the [PdfEncryptionDetails](/tasks/python-net/aspose.tasks.saving/pdfencryptiondetails/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
