@@ -3,7 +3,7 @@ title: WeeklyRecurrencePattern
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1400
+weight: 1440
 url: /python-net/aspose.tasks/weeklyrecurrencepattern/
 ---
 

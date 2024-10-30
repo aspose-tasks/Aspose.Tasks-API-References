@@ -3,7 +3,7 @@ title: IMessageHandler
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 500
 url: /python-net/aspose.tasks/imessagehandler/
 ---
 

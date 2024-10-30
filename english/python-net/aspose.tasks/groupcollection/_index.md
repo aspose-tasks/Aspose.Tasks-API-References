@@ -3,7 +3,7 @@ title: GroupCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 440
 url: /python-net/aspose.tasks/groupcollection/
 ---
 

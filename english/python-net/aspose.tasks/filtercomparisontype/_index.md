@@ -3,13 +3,13 @@ title: FilterComparisonType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2440
 url: /python-net/aspose.tasks/filtercomparisontype/
 ---
 
 ## FilterComparisonType enumeration
 
-The type of comparison made between FieldName and Value that acts as selection criteria for the filter.
+The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator.
 
 ## Members
 | Member name | Description |
@@ -27,6 +27,7 @@ The type of comparison made between FieldName and Value that acts as selection c
 |CONTAINS_EXACTLY|The value of Field exactly contains Value.|
 |IS_ONE_OF|The value of Field equals to one of the specified Values. Used in AutoFilters.|
 |UNDEFINED|Undefined value.|
+|IS_ANY_VALUE|'Is any value' condition. Applicable to graphical indicators.|
 
 ### See Also
 
