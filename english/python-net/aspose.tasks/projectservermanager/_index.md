@@ -15,7 +15,7 @@ The ProjectServerManager type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectServerManager(credentials)|Initializes a new instance of the ProjectServerManager class|
+|ProjectServerManager(credentials)|Initializes a new instance of the [ProjectServerManager](/tasks/python-net/aspose.tasks/projectservermanager/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |

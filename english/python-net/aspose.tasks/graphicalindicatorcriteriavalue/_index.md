@@ -15,11 +15,11 @@ The GraphicalIndicatorCriteriaValue type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GraphicalIndicatorCriteriaValue(value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
-|GraphicalIndicatorCriteriaValue(date_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
-|GraphicalIndicatorCriteriaValue(text_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
-|GraphicalIndicatorCriteriaValue(duration_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
-|GraphicalIndicatorCriteriaValue(flag_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
+|GraphicalIndicatorCriteriaValue(value)|Creates an instance of GraphicalIndicatorCriteriaValue class with constant decimal value.|
+|GraphicalIndicatorCriteriaValue(date_value)|Creates an instance of GraphicalIndicatorCriteriaValue class with constant DateTime value.|
+|GraphicalIndicatorCriteriaValue(text_value)|Creates an instance of GraphicalIndicatorCriteriaValue class with constant string value.|
+|GraphicalIndicatorCriteriaValue(duration_value)|Creates an instance of GraphicalIndicatorCriteriaValue class with constant Duration value.|
+|GraphicalIndicatorCriteriaValue(flag_value)|Creates an instance of GraphicalIndicatorCriteriaValue class with constant flag (bool) value.|
 ## Properties
 | Name | Description |
 | :- | :- |

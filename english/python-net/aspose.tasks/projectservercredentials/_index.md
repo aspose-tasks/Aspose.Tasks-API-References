@@ -15,8 +15,8 @@ The ProjectServerCredentials type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectServerCredentials(site_url, auth_token)|Initializes a new instance of the ProjectServerCredentials class|
-|ProjectServerCredentials(site_url, user_name, password)|Initializes a new instance of the ProjectServerCredentials class|
+|ProjectServerCredentials(site_url, auth_token)|Initializes a new instance of the [ProjectServerCredentials](/tasks/python-net/aspose.tasks/projectservercredentials/) class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoint's PWA (Project Web Access) site.|
+|ProjectServerCredentials(site_url, user_name, password)|Initializes a new instance of the [ProjectServerCredentials](/tasks/python-net/aspose.tasks/projectservercredentials/) class using URL of SharePoint site and valid SPOIDCRL authorization token for SharePoint's PWA (Project Web Access) site.|
 ## Properties
 | Name | Description |
 | :- | :- |

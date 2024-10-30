@@ -15,7 +15,7 @@ The RiskPattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RiskPattern(task)|Initializes a new instance of the RiskPattern class|
+|RiskPattern(task)|Initializes a new instance of the [RiskPattern](/tasks/python-net/aspose.tasks.riskanalysis/riskpattern/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

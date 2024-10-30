@@ -15,8 +15,8 @@ The GanttChartColumn type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GanttChartColumn(width, field)|Initializes a new instance of the GanttChartColumn class|
-|GanttChartColumn(name, width, field)|Initializes a new instance of the GanttChartColumn class|
+|GanttChartColumn(width, field)|Initializes a new instance of the GanttChartColumn class.|
+|GanttChartColumn(name, width, field)|Initializes a new instance of the GanttChartColumn class.|
 ## Properties
 | Name | Description |
 | :- | :- |

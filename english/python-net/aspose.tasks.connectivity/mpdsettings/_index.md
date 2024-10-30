@@ -15,7 +15,7 @@ The MpdSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MpdSettings(connection_string, project_id)|Initializes a new instance of the MpdSettings class|
+|MpdSettings(connection_string, project_id)|Initializes a new instance of the [MpdSettings](/tasks/python-net/aspose.tasks.connectivity/mpdsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

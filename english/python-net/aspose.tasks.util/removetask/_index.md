@@ -15,7 +15,7 @@ The RemoveTask type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RemoveTask(task)|Initializes a new instance of the RemoveTask class|
+|RemoveTask(task)|Initializes a new instance of the [RemoveTask](/tasks/python-net/aspose.tasks.util/removetask/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |
