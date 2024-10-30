@@ -15,9 +15,9 @@ The FontDescriptor type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FontDescriptor(font_family, size)|Initializes a new instance of the FontDescriptor class|
-|FontDescriptor(font_family, size, style)|Initializes a new instance of the FontDescriptor class|
-|FontDescriptor(font, style)|Initializes a new instance of the FontDescriptor class|
+|FontDescriptor(font_family, size)|Initializes a new instance of the [FontDescriptor](/tasks/python-net/aspose.tasks.visualization/fontdescriptor/) class with the specified font family and size.|
+|FontDescriptor(font_family, size, style)|Initializes a new instance of the [FontDescriptor](/tasks/python-net/aspose.tasks.visualization/fontdescriptor/) class with the specified font family, size and style.|
+|FontDescriptor(font, style)|Initializes a new instance of the [FontDescriptor](/tasks/python-net/aspose.tasks.visualization/fontdescriptor/) class with the specified font family, size and style.|
 ## Properties
 | Name | Description |
 | :- | :- |

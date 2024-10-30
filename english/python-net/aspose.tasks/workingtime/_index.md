@@ -15,9 +15,9 @@ The WorkingTime type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WorkingTime(from_time, to_time)|Initializes a new instance of the WorkingTime class|
-|WorkingTime(from_time, to_time)|Initializes a new instance of the WorkingTime class|
-|WorkingTime(from_hours, to_hours)|Initializes a new instance of the WorkingTime class|
+|WorkingTime(from_time, to_time)|Initializes a new instance of the [WorkingTime](/tasks/python-net/aspose.tasks/workingtime/) class with a interval with the specified start and finish times.|
+|WorkingTime(from_time, to_time)|Initializes a new instance of the [WorkingTime](/tasks/python-net/aspose.tasks/workingtime/) class with an interval item with the specified start and finish times.|
+|WorkingTime(from_hours, to_hours)|Initializes a new instance of the [WorkingTime](/tasks/python-net/aspose.tasks/workingtime/) class with an interval item with the specified start and finish times.|
 ## Properties
 | Name | Description |
 | :- | :- |

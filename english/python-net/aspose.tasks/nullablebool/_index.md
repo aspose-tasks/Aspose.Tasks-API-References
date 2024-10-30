@@ -15,9 +15,9 @@ The NullableBool type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|NullableBool(value)|Initializes a new instance of the NullableBool class|
-|NullableBool(value, is_defined)|Initializes a new instance of the NullableBool class|
-|NullableBool()|Initializes a new instance of the NullableBool class|
+|NullableBool(value)|Initializes a new instance of the [NullableBool](/tasks/python-net/aspose.tasks/nullablebool/) struct with the specified boolean value.|
+|NullableBool(value, is_defined)|Initializes a new instance of the [NullableBool](/tasks/python-net/aspose.tasks/nullablebool/) struct with the specified boolean value.|
+|NullableBool()|Initializes a new instance of the [NullableBool](/tasks/python-net/aspose.tasks/nullablebool/) struct with the specified boolean value.|
 ## Properties
 | Name | Description |
 | :- | :- |

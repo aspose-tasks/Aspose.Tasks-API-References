@@ -15,7 +15,7 @@ The PdfDigitalSignatureDetails type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PdfDigitalSignatureDetails(certificate, reason, location, signature_date, hash_algorithm)|Initializes a new instance of the PdfDigitalSignatureDetails class|
+|PdfDigitalSignatureDetails(certificate, reason, location, signature_date, hash_algorithm)|Initializes a new instance of the [PdfDigitalSignatureDetails](/tasks/python-net/aspose.tasks.saving/pdfdigitalsignaturedetails/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

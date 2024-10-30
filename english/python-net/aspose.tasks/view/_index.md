@@ -16,7 +16,7 @@ The View type exposes the following members:
 | Name | Description |
 | :- | :- |
 |View()|Initializes a new instance of the [View](/tasks/python-net/aspose.tasks/view/) class.|
-|View(view_screen)|Initializes a new instance of the View class|
+|View(view_screen)|Initializes a new instance of the [View](/tasks/python-net/aspose.tasks/view/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

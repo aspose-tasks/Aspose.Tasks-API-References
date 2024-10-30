@@ -16,7 +16,7 @@ The TimescaleTier type exposes the following members:
 | Name | Description |
 | :- | :- |
 |TimescaleTier()|Initializes a new instance of the [TimescaleTier](/tasks/python-net/aspose.tasks.visualization/timescaletier/) class.|
-|TimescaleTier(unit, count)|Initializes a new instance of the TimescaleTier class|
+|TimescaleTier(unit, count)|Initializes a new instance of the [TimescaleTier](/tasks/python-net/aspose.tasks.visualization/timescaletier/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -15,10 +15,10 @@ The WeekDay type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WeekDay(day_type)|Initializes a new instance of the WeekDay class|
+|WeekDay(day_type)|Initializes a new instance of the [WeekDay](/tasks/python-net/aspose.tasks/weekday/) class with the specified day type.|
 |WeekDay(day_type, working_times)|Initializes a new instance of the WeekDay class|
-|WeekDay(day_type, working_times)|Initializes a new instance of the WeekDay class|
-|WeekDay()|Initializes a new instance of the [WeekDay](/tasks/python-net/aspose.tasks/weekday/) class.|
+|WeekDay(day_type, working_times)|Initializes a new instance of the [WeekDay](/tasks/python-net/aspose.tasks/weekday/) class with the specified day type and working time periods.|
+|WeekDay()|Initializes a new instance of the [WeekDay](/tasks/python-net/aspose.tasks/weekday/) class with the specified day type.|
 ## Properties
 | Name | Description |
 | :- | :- |

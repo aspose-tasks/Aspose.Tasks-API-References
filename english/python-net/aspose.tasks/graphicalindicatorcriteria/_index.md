@@ -15,8 +15,8 @@ The GraphicalIndicatorCriteria type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GraphicalIndicatorCriteria(row_type, test, image_index, value1, value2)|Initializes a new instance of the GraphicalIndicatorCriteria class|
-|GraphicalIndicatorCriteria(row_type, test, image_index, value)|Initializes a new instance of the GraphicalIndicatorCriteria class|
+|GraphicalIndicatorCriteria(row_type, test, image_index, value1, value2)|Initializes a new instance of the [GraphicalIndicatorCriteria](/tasks/python-net/aspose.tasks/graphicalindicatorcriteria/) type.|
+|GraphicalIndicatorCriteria(row_type, test, image_index, value)|Initializes a new instance of the [GraphicalIndicatorCriteria](/tasks/python-net/aspose.tasks/graphicalindicatorcriteria/) type.|
 ## Properties
 | Name | Description |
 | :- | :- |

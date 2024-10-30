@@ -15,8 +15,8 @@ The PrimaveraXmlReader type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraXmlReader(template_path)|Initializes a new instance of the PrimaveraXmlReader class|
-|PrimaveraXmlReader(stream)|Initializes a new instance of the PrimaveraXmlReader class|
+|PrimaveraXmlReader(template_path)|Initializes a new instance of the [PrimaveraXmlReader](/tasks/python-net/aspose.tasks/primaveraxmlreader/) class.|
+|PrimaveraXmlReader(stream)|Initializes a new instance of the [PrimaveraXmlReader](/tasks/python-net/aspose.tasks/primaveraxmlreader/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |

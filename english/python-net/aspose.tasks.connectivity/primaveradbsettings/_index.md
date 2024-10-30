@@ -15,7 +15,7 @@ The PrimaveraDbSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraDbSettings(connection_string, project_id)|Initializes a new instance of the PrimaveraDbSettings class|
+|PrimaveraDbSettings(connection_string, project_id)|Initializes a new instance of the [PrimaveraDbSettings](/tasks/python-net/aspose.tasks.connectivity/primaveradbsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

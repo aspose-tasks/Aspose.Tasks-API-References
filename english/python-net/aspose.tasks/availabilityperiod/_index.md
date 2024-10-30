@@ -16,7 +16,7 @@ The AvailabilityPeriod type exposes the following members:
 | Name | Description |
 | :- | :- |
 |AvailabilityPeriod()|Initializes a new instance of the [AvailabilityPeriod](/tasks/python-net/aspose.tasks/availabilityperiod/).|
-|AvailabilityPeriod(available_from, available_to, available_units)|Initializes a new instance of the AvailabilityPeriod class|
+|AvailabilityPeriod(available_from, available_to, available_units)|Initializes a new instance of the [AvailabilityPeriod](/tasks/python-net/aspose.tasks/availabilityperiod/) with the specified date range and available units.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -15,7 +15,7 @@ The WorkUnit type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WorkUnit(from_address, to)|Initializes a new instance of the WorkUnit class|
+|WorkUnit(from_address, to)|Initializes a new instance of the [WorkUnit](/tasks/python-net/aspose.tasks/workunit/) class.<br/>            Creates new WorkUnit object with the specified From and To dates.|
 ## Properties
 | Name | Description |
 | :- | :- |

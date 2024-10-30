@@ -15,7 +15,7 @@ The RiskAnalyzer type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RiskAnalyzer(settings)|Initializes a new instance of the RiskAnalyzer class|
+|RiskAnalyzer(settings)|Initializes a new instance of the [RiskAnalyzer](/tasks/python-net/aspose.tasks.riskanalysis/riskanalyzer/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
