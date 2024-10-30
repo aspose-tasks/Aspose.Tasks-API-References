@@ -3,7 +3,7 @@ title: GroupCriterion
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 450
 url: /python-net/aspose.tasks/groupcriterion/
 ---
 

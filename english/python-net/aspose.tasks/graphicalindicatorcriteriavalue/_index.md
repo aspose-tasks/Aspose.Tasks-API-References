@@ -1,0 +1,37 @@
+---
+title: GraphicalIndicatorCriteriaValue
+second_title: Aspose.Tasks for Python via .NET API Reference
+description: 
+type: docs
+weight: 410
+url: /python-net/aspose.tasks/graphicalindicatorcriteriavalue/
+---
+
+## GraphicalIndicatorCriteriaValue class
+
+Represents a value used in condition check of graphical indicators criteria.
+
+The GraphicalIndicatorCriteriaValue type exposes the following members:
+## Constructors
+| Name | Description |
+| :- | :- |
+|GraphicalIndicatorCriteriaValue(value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
+|GraphicalIndicatorCriteriaValue(date_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
+|GraphicalIndicatorCriteriaValue(text_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
+|GraphicalIndicatorCriteriaValue(duration_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
+|GraphicalIndicatorCriteriaValue(flag_value)|Initializes a new instance of the GraphicalIndicatorCriteriaValue class|
+## Properties
+| Name | Description |
+| :- | :- |
+|raw_value|Gets the underlying constant of Field value.|
+|is_field_link|Gets whether the current instance is a field link (represents a value of a field).|
+## Methods
+| Name | Description |
+| :- | :- |
+|create_field_link(field)|Creates an instance of GraphicalIndicatorCriteriaValue class representing the value of the specified MS Project's field.|
+
+### See Also
+
+* namespace [aspose.tasks](/tasks/python-net/aspose.tasks/)
+* assembly [Aspose.Tasks](/tasks/python-net/)
+

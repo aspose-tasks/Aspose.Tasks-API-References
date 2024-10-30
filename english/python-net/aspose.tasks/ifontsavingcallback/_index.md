@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 480
 url: /python-net/aspose.tasks/ifontsavingcallback/
 ---
 

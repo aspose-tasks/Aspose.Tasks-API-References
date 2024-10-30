@@ -52,6 +52,9 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[FontSavingArgs](/tasks/python-net/aspose.tasks/fontsavingargs/)|This class represents set of data that related to external fonts file's saving that<br/>              occurs during conversion to HTML format.|
 |[FontSettings](/tasks/python-net/aspose.tasks/fontsettings/)|Specifies font settings used when rendering project's view.|
 |[GanttChartView](/tasks/python-net/aspose.tasks/ganttchartview/)|Represents a GanttChart view.|
+|[GraphicalIndicatorCriteria](/tasks/python-net/aspose.tasks/graphicalindicatorcriteria/)|Represents one graphical indicator criteria associated with an extended attribute.|
+|[GraphicalIndicatorCriteriaValue](/tasks/python-net/aspose.tasks/graphicalindicatorcriteriavalue/)|Represents a value used in condition check of graphical indicators criteria.|
+|[GraphicalIndicatorsInfo](/tasks/python-net/aspose.tasks/graphicalindicatorsinfo/)|Represents an graphical indicators definition associated with an extended attribute.|
 |[Group](/tasks/python-net/aspose.tasks/group/)|Represents a group definition.<br/>            A Group object is a member of the ResourceGroups collection or the TaskGroups collection.|
 |[GroupCollection](/tasks/python-net/aspose.tasks/groupcollection/)|Contains a list of [Group](/tasks/python-net/aspose.tasks/group/) objects.<br/>            Implements ICollection<Group> interface.|
 |[GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/)|Represents a criterion in a group definition.<br/>            The GroupCriterion object is a member of the [GroupCriterionCollection](/tasks/python-net/aspose.tasks/groupcriterioncollection/) collection.|
@@ -110,6 +113,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[ResourceSavingArgs](/tasks/python-net/aspose.tasks/resourcesavingargs/)|This class represents set of data that related to external resource file's saving that<br/>              occurs during conversion to HTML format.|
 |[ResourceUsageView](/tasks/python-net/aspose.tasks/resourceusageview/)|Represents resource usage view in a project.|
 |[ResourceUsageViewFieldCollection](/tasks/python-net/aspose.tasks/resourceusageviewfieldcollection/)|Represent a collection of [ResourceUsageViewField](/tasks/python-net/aspose.tasks/resourceusageviewfield/) values.|
+|[ResourceValidationException](/tasks/python-net/aspose.tasks/resourcevalidationexception/)|Represents an exception which is thrown when errors are found in resource's properties.|
 |[SplitPart](/tasks/python-net/aspose.tasks/splitpart/)|Represents a task portion. The SplitPart is a member of the task's SplitParts collection.|
 |[SplitPartCollection](/tasks/python-net/aspose.tasks/splitpartcollection/)|Collection that represents the portions of a task.|
 |[Table](/tasks/python-net/aspose.tasks/table/)|Represents a table in Project|
@@ -185,10 +189,11 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[ExtendedAttributeTask](/tasks/python-net/aspose.tasks/extendedattributetask/)|Specifies the extended attributes FieldId used in a task.|
 |[Field](/tasks/python-net/aspose.tasks/field/)|Specifies a field in the Microsoft Office Project.|
 |[FileFormat](/tasks/python-net/aspose.tasks/fileformat/)|Specifies the project's file format.|
-|[FilterComparisonType](/tasks/python-net/aspose.tasks/filtercomparisontype/)|The type of comparison made between FieldName and Value that acts as selection criteria for the filter.|
+|[FilterComparisonType](/tasks/python-net/aspose.tasks/filtercomparisontype/)|The type of comparison made between FieldName and Value that acts as selection criteria for a filter or graphical indicator.|
 |[FilterOperation](/tasks/python-net/aspose.tasks/filteroperation/)|Specifies how the criterion established with FieldName, FilterComparisonType, and Value relates to other criteria in the filter.|
 |[FontFaceType](/tasks/python-net/aspose.tasks/fontfacetype/)|Enumerates font face types|
 |[GanttBarSize](/tasks/python-net/aspose.tasks/ganttbarsize/)|Specifies the height of a bar in points.|
+|[GraphicalIndicatorCriteriaType](/tasks/python-net/aspose.tasks/graphicalindicatorcriteriatype/)|Represents placement of graphical indicator criteria.|
 |[GroupOn](/tasks/python-net/aspose.tasks/groupon/)|Specifies the type of grouping.|
 |[HourLabelDisplay](/tasks/python-net/aspose.tasks/hourlabeldisplay/)|Specifies how the hour label displays.|
 |[HtmlImageType](/tasks/python-net/aspose.tasks/htmlimagetype/)|Represents HTML image type.|
