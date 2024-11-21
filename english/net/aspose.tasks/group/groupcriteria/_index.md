@@ -3,7 +3,7 @@ title: Group.GroupCriteria
 second_title: Aspose.Tasks for .NET API Reference
 description: Group property. Gets or sets a GroupCriteria collection representing the fields in a group definition
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.tasks/group/groupcriteria/
 ---
 ## Group.GroupCriteria property

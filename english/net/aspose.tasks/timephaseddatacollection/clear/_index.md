@@ -3,7 +3,7 @@ title: TimephasedDataCollection.Clear
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Removes all items from the TimephasedDataCollection
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.tasks/timephaseddatacollection/clear/
 ---
 ## TimephasedDataCollection.Clear method

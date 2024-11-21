@@ -3,7 +3,7 @@ title: Group.Index
 second_title: Aspose.Tasks for .NET API Reference
 description: Group property. Gets the index of a Group object in the Groups containing object
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.tasks/group/index/
 ---
 ## Group.Index property

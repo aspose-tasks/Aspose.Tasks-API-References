@@ -1,14 +1,14 @@
 ---
 title: MPPSaveOptions.WriteFilters
 second_title: Aspose.Tasks for .NET API Reference
-description: MPPSaveOptions property. Gets or sets a value indicating whether to write filter data when saving to MPP. Filter data includes Project.TaskFilters and Project.ResourceFilters collections
+description: MPPSaveOptions property. Gets or sets a value indicating whether to write filter data when saving a project to MPP for format. Filter data includes Project.TaskFilters and Project.ResourceFilters collections
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.tasks.saving/mppsaveoptions/writefilters/
 ---
 ## MPPSaveOptions.WriteFilters property
 
-Gets or sets a value indicating whether to write filter data when saving to MPP. Filter data includes Project.TaskFilters and Project.ResourceFilters collections.
+Gets or sets a value indicating whether to write filter data when saving a project to MPP for format. Filter data includes Project.TaskFilters and Project.ResourceFilters collections.
 
 ```csharp
 public bool WriteFilters { get; set; }

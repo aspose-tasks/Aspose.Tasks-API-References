@@ -3,7 +3,7 @@ title: TimephasedDataCollection.AddRange
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Adds a collection of TimephasedData instances to this collection object
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/timephaseddatacollection/addrange/
 ---
 ## TimephasedDataCollection.AddRange method

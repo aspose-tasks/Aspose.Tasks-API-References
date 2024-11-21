@@ -24,13 +24,15 @@ public class MPPSaveOptions : SimpleSaveOptions
 
 | Name | Description |
 | --- | --- |
+| [ClearVba](../../aspose.tasks.saving/mppsaveoptions/clearvba/) { get; set; } | Gets or sets a value indicating whether to remove existing VBA macros data when saving a project to MPP format. |
 | [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword/) { get; set; } | Gets or sets a password which is used to protect a resulting MPP file. Currently is supported for MS Project 2010 and newer formats. Null value indicates that the project file is not protected. |
 | [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments/) { get; set; } | Gets or sets a value indicating whether to remove invalid resource assignments when saving to MPP. MS Project creates an empty resource assignment for each task. Set this flag to true to remove them on save. |
 | [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Gets or sets the format in which the document will be saved if this save options object is used. |
 | [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Gets or sets the comparer to sort tasks on Gantt chart and Task Sheet chart. |
 | [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Gets or sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
-| [WriteFilters](../../aspose.tasks.saving/mppsaveoptions/writefilters/) { get; set; } | Gets or sets a value indicating whether to write filter data when saving to MPP. Filter data includes Project.TaskFilters and Project.ResourceFilters collections. |
-| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata/) { get; set; } | Gets or sets a value indicating whether to write view data when saving to MPP. View data includes Project.Views, Filters and Tables collections. |
+| [WriteFilters](../../aspose.tasks.saving/mppsaveoptions/writefilters/) { get; set; } | Gets or sets a value indicating whether to write filter data when saving a project to MPP for format. Filter data includes Project.TaskFilters and Project.ResourceFilters collections. |
+| [WriteGroups](../../aspose.tasks.saving/mppsaveoptions/writegroups/) { get; set; } | Gets or sets a value indicating whether to write groups data when saving a project to MPP for format. Group data includes Project.TaskGroups and Project.ResourceGroups collections. |
+| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata/) { get; set; } | Gets or sets a value indicating whether to write view data when saving a project to MPP format. View data includes Project.Views, Filters and Tables collections. |
 
 ## Examples
 

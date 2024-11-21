@@ -14,12 +14,6 @@ Represents a collection of [`TimephasedData`](../timephaseddata/) objects.
 public abstract class TimephasedDataCollection : IList<TimephasedData>
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [TimephasedDataCollection](timephaseddatacollection/)() | Initializes a new instance of the `TimephasedDataCollection` class. |
-
 ## Properties
 
 | Name | Description |

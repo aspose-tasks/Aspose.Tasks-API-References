@@ -3,7 +3,7 @@ title: TimephasedDataCollection.Contains
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Determines whether the TimephasedDataCollection contains a specific value
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/timephaseddatacollection/contains/
 ---
 ## TimephasedDataCollection.Contains method

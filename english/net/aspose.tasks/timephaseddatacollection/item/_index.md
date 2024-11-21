@@ -3,7 +3,7 @@ title: TimephasedDataCollection.Item
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection property. Returns the element at the specified index. The set accessor is not supported. property to set timephased data
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks/timephaseddatacollection/item/
 ---
 ## TimephasedDataCollection indexer

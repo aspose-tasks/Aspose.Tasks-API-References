@@ -3,7 +3,7 @@ title: TimephasedDataCollection.Remove
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Removes TimephasedData instance from this collection object
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.tasks/timephaseddatacollection/remove/
 ---
 ## TimephasedDataCollection.Remove method

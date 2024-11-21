@@ -3,7 +3,7 @@ title: TimephasedDataCollection.SelectBetweenStartAndFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Selects all time phases between startTime and finishTime. Has Olog n complexity in average case
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish/
 ---
 ## TimephasedDataCollection.SelectBetweenStartAndFinish method

@@ -3,7 +3,7 @@ title: TimephasedDataCollection.IsReadOnly
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection property. Gets a value indicating whether the ICollection is readonly
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.tasks/timephaseddatacollection/isreadonly/
 ---
 ## TimephasedDataCollection.IsReadOnly property

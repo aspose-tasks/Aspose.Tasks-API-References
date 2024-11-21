@@ -3,7 +3,7 @@ title: Group.Name
 second_title: Aspose.Tasks for .NET API Reference
 description: Group property. Gets or sets a name of a Group object
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.tasks/group/name/
 ---
 ## Group.Name property
