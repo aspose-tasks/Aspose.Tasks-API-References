@@ -3,7 +3,7 @@ title: TimephasedDataCollection.CopyTo
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Copies the elements of the TimephasedDataCollection to an Array starting at a particular Array index
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.tasks/timephaseddatacollection/copyto/
 ---
 ## TimephasedDataCollection.CopyTo method

@@ -3,7 +3,7 @@ title: TimephasedDataCollection.Add
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Adds TimephasedData instance to this collection object
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/timephaseddatacollection/add/
 ---
 ## TimephasedDataCollection.Add method

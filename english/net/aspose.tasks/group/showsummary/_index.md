@@ -3,7 +3,7 @@ title: Group.ShowSummary
 second_title: Aspose.Tasks for .NET API Reference
 description: Group property. Gets or sets a value indicating whether summary rows are displayed for the group
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks/group/showsummary/
 ---
 ## Group.ShowSummary property

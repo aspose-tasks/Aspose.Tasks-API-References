@@ -3,7 +3,7 @@ title: TimephasedDataCollection.Count
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection property. Gets the number of objects contained in this TimephasedDataCollection object
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.tasks/timephaseddatacollection/count/
 ---
 ## TimephasedDataCollection.Count property

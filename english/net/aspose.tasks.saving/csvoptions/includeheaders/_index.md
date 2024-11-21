@@ -21,9 +21,12 @@ Shows how to use &lt;see cref="Aspose.Tasks.Saving.CsvOptions" /&gt; to save a p
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 var options = new CsvOptions
-                  {
-                      DataCategory = DataCategory.Resources, TextDelimiter = CsvTextDelimiter.Semicolon, Encoding = Encoding.Unicode, IncludeHeaders = true
-                  };
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
 project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
 ```
 

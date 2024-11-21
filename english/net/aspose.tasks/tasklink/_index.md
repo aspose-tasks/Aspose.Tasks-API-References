@@ -11,7 +11,7 @@ url: /net/aspose.tasks/tasklink/
 Represents a predecessor link.
 
 ```csharp
-public class TaskLink : IEquatable<TaskLink>
+public sealed class TaskLink : IEquatable<TaskLink>
 ```
 
 ## Properties

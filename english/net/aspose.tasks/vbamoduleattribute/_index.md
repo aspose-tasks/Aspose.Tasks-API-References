@@ -11,7 +11,7 @@ url: /net/aspose.tasks/vbamoduleattribute/
 The attribute of the [`VbaModule`](../vbamodule/) object
 
 ```csharp
-public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
+public sealed class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 ```
 
 ## Properties

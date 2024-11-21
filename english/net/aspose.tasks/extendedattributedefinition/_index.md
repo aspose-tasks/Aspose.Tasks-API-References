@@ -29,7 +29,7 @@ public class ExtendedAttributeDefinition
 | [FieldId](../../aspose.tasks/extendedattributedefinition/fieldid/) { get; set; } | Gets or sets corresponds to the project id of a custom field. Use string representation of a constant from [`ExtendedAttributeTask`](../extendedattributetask/) class to specify [`FieldId`](./fieldid/) property. |
 | [FieldName](../../aspose.tasks/extendedattributedefinition/fieldname/) { get; } | Gets the name of a custom field. |
 | [Formula](../../aspose.tasks/extendedattributedefinition/formula/) { get; set; } | Gets or sets the formula that Microsoft Project uses to populate a custom task field. |
-| [GraphicalIndicator](../../aspose.tasks/extendedattributedefinition/graphicalindicator/) { get; set; } | Get os sets a graphical indicators info associated with the extended attribute. |
+| [GraphicalIndicator](../../aspose.tasks/extendedattributedefinition/graphicalindicator/) { get; set; } | Gets or sets a graphical indicators info associated with the extended attribute. Applicable to MPP format. |
 | [Guid](../../aspose.tasks/extendedattributedefinition/guid/) { get; set; } | Gets or sets the Guid of a custom field. |
 | [LookupUid](../../aspose.tasks/extendedattributedefinition/lookupuid/) { get; } | Gets a Guid of the lookup table associated with a custom field. |
 | [MaxMultiValues](../../aspose.tasks/extendedattributedefinition/maxmultivalues/) { get; set; } | Gets or sets the maximum number of values you can set in a pick list. |

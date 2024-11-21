@@ -3,7 +3,7 @@ title: TimephasedDataCollection.ToList
 second_title: Aspose.Tasks for .NET API Reference
 description: TimephasedDataCollection method. Converts the TimephasedDataCollection object to a list of TimephasedData objects
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.tasks/timephaseddatacollection/tolist/
 ---
 ## TimephasedDataCollection.ToList method
