@@ -670,7 +670,7 @@ public final GraphicalIndicatorsInfo getGraphicalIndicator()
 ```
 
 
-Gets a graphical indicators info associated with the extended attribute.
+Gets a graphical indicators info associated with the extended attribute. Applicable to MPP format.
 
 **Returns:**
 [GraphicalIndicatorsInfo](../../com.aspose.tasks/graphicalindicatorsinfo) - a graphical indicators info associated with the extended attribute.
@@ -1010,7 +1010,7 @@ public final void setGraphicalIndicator(GraphicalIndicatorsInfo value)
 ```
 
 
-Sets a graphical indicators info associated with the extended attribute.
+Sets a graphical indicators info associated with the extended attribute. Applicable to MPP format.
 
 **Parameters:**
 | Parameter | Type | Description |

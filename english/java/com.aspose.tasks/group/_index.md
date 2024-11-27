@@ -23,6 +23,7 @@ Represents a group definition. A Group object is a member of the ResourceGroups 
 
 | Method | Description |
 | --- | --- |
+| [getGroupAssignments()](#getGroupAssignments--) | Gets a value indicating whether assignments should be grouped instead of tasks. |
 | [getGroupCriteria()](#getGroupCriteria--) | Gets a GroupCriteria collection representing the fields in a group definition. |
 | [getIndex()](#getIndex--) | Gets the index of a [Group](../../com.aspose.tasks/group) object in the Groups containing object. |
 | [getMaintainHierarchy()](#getMaintainHierarchy--) | Gets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
@@ -30,6 +31,7 @@ Represents a group definition. A Group object is a member of the ResourceGroups 
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon. |
 | [getShowSummary()](#getShowSummary--) | Gets a value indicating whether summary rows are displayed for the group. |
 | [getUid()](#getUid--) | Gets a unique identifier of a group. |
+| [setGroupAssignments(boolean value)](#setGroupAssignments-boolean-) | Sets a value indicating whether assignments should be grouped instead of tasks. |
 | [setGroupCriteria(GroupCriterionCollection value)](#setGroupCriteria-com.aspose.tasks.GroupCriterionCollection-) | Sets a GroupCriteria collection representing the fields in a group definition. |
 | [setMaintainHierarchy(boolean value)](#setMaintainHierarchy-boolean-) | Sets a value indicating whether to show all the levels of summary tasks for subtasks within group. |
 | [setName(String value)](#setName-java.lang.String-) | Sets a name of a Group object. |
@@ -43,6 +45,16 @@ public Group()
 
 Initializes a new instance of the [Group](../../com.aspose.tasks/group) class.
 
+### getGroupAssignments() {#getGroupAssignments--}
+```
+public final boolean getGroupAssignments()
+```
+
+
+Gets a value indicating whether assignments should be grouped instead of tasks.
+
+**Returns:**
+boolean - a value indicating whether assignments should be grouped instead of tasks.
 ### getGroupCriteria() {#getGroupCriteria--}
 ```
 public final GroupCriterionCollection getGroupCriteria()
@@ -113,6 +125,19 @@ Gets a unique identifier of a group.
 
 **Returns:**
 int - a unique identifier of a group.
+### setGroupAssignments(boolean value) {#setGroupAssignments-boolean-}
+```
+public final void setGroupAssignments(boolean value)
+```
+
+
+Sets a value indicating whether assignments should be grouped instead of tasks.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether assignments should be grouped instead of tasks. |
+
 ### setGroupCriteria(GroupCriterionCollection value) {#setGroupCriteria-com.aspose.tasks.GroupCriterionCollection-}
 ```
 public final void setGroupCriteria(GroupCriterionCollection value)

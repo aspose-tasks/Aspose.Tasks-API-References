@@ -23,14 +23,18 @@ Allows to specify additional options when saving project data to MPP.
 
 | Method | Description |
 | --- | --- |
+| [getClearVba()](#getClearVba--) | Gets a value indicating whether to remove existing VBA macros data when saving a project to MPP format. |
 | [getProtectionPassword()](#getProtectionPassword--) | Gets a password which is used to protect a resulting MPP file. |
 | [getRemoveInvalidAssignments()](#getRemoveInvalidAssignments--) | Gets a value indicating whether to remove invalid resource assignments when saving to MPP. |
-| [getWriteFilters()](#getWriteFilters--) | Gets a value indicating whether to write filter data when saving to MPP. |
-| [getWriteViewData()](#getWriteViewData--) | Gets a value indicating whether to write view data when saving to MPP. |
+| [getWriteFilters()](#getWriteFilters--) | Gets a value indicating whether to write filter data when saving a project to MPP for format. |
+| [getWriteGroups()](#getWriteGroups--) | Gets a value indicating whether to write groups data when saving a project to MPP for format. |
+| [getWriteViewData()](#getWriteViewData--) | Gets a value indicating whether to write view data when saving a project to MPP format. |
+| [setClearVba(boolean value)](#setClearVba-boolean-) | Sets a value indicating whether to remove existing VBA macros data when saving a project to MPP format. |
 | [setProtectionPassword(String value)](#setProtectionPassword-java.lang.String-) | Sets a password which is used to protect a resulting MPP file. |
 | [setRemoveInvalidAssignments(boolean value)](#setRemoveInvalidAssignments-boolean-) | Sets a value indicating whether to remove invalid resource assignments when saving to MPP. |
-| [setWriteFilters(boolean value)](#setWriteFilters-boolean-) | Sets a value indicating whether to write filter data when saving to MPP. |
-| [setWriteViewData(boolean value)](#setWriteViewData-boolean-) | Sets a value indicating whether to write view data when saving to MPP. |
+| [setWriteFilters(boolean value)](#setWriteFilters-boolean-) | Sets a value indicating whether to write filter data when saving a project to MPP for format. |
+| [setWriteGroups(boolean value)](#setWriteGroups-boolean-) | Sets a value indicating whether to write groups data when saving a project to MPP for format. |
+| [setWriteViewData(boolean value)](#setWriteViewData-boolean-) | Sets a value indicating whether to write view data when saving a project to MPP format. |
 ### MPPSaveOptions() {#MPPSaveOptions--}
 ```
 public MPPSaveOptions()
@@ -39,6 +43,16 @@ public MPPSaveOptions()
 
 Initializes a new instance of the [MPPSaveOptions](../../com.aspose.tasks/mppsaveoptions) class.
 
+### getClearVba() {#getClearVba--}
+```
+public final boolean getClearVba()
+```
+
+
+Gets a value indicating whether to remove existing VBA macros data when saving a project to MPP format.
+
+**Returns:**
+boolean - a value indicating whether to remove existing VBA macros data when saving a project to MPP format.
 ### getProtectionPassword() {#getProtectionPassword--}
 ```
 public final String getProtectionPassword()
@@ -73,7 +87,7 @@ public final boolean getWriteFilters()
 ```
 
 
-Gets a value indicating whether to write filter data when saving to MPP.
+Gets a value indicating whether to write filter data when saving a project to MPP for format.
 
 --------------------
 
@@ -84,21 +98,48 @@ Filter data includes Project.TaskFilters and Project.ResourceFilters collections
 Currently supported for MSP 2010 or newer formats.
 
 **Returns:**
-boolean - a value indicating whether to write filter data when saving to MPP.
+boolean - a value indicating whether to write filter data when saving a project to MPP for format.
+### getWriteGroups() {#getWriteGroups--}
+```
+public final boolean getWriteGroups()
+```
+
+
+Gets a value indicating whether to write groups data when saving a project to MPP for format.
+
+--------------------
+
+Group data includes Project.TaskGroups and Project.ResourceGroups collections.
+
+**Returns:**
+boolean - a value indicating whether to write groups data when saving a project to MPP for format.
 ### getWriteViewData() {#getWriteViewData--}
 ```
 public final boolean getWriteViewData()
 ```
 
 
-Gets a value indicating whether to write view data when saving to MPP.
+Gets a value indicating whether to write view data when saving a project to MPP format.
 
 --------------------
 
 View data includes Project.Views, Filters and Tables collections.
 
 **Returns:**
-boolean - a value indicating whether to write view data when saving to MPP.
+boolean - a value indicating whether to write view data when saving a project to MPP format.
+### setClearVba(boolean value) {#setClearVba-boolean-}
+```
+public final void setClearVba(boolean value)
+```
+
+
+Sets a value indicating whether to remove existing VBA macros data when saving a project to MPP format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether to remove existing VBA macros data when saving a project to MPP format. |
+
 ### setProtectionPassword(String value) {#setProtectionPassword-java.lang.String-}
 ```
 public final void setProtectionPassword(String value)
@@ -139,7 +180,7 @@ public final void setWriteFilters(boolean value)
 ```
 
 
-Sets a value indicating whether to write filter data when saving to MPP.
+Sets a value indicating whether to write filter data when saving a project to MPP for format.
 
 --------------------
 
@@ -152,7 +193,24 @@ Currently supported for MSP 2010 or newer formats.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether to write filter data when saving to MPP. |
+| value | boolean | a value indicating whether to write filter data when saving a project to MPP for format. |
+
+### setWriteGroups(boolean value) {#setWriteGroups-boolean-}
+```
+public final void setWriteGroups(boolean value)
+```
+
+
+Sets a value indicating whether to write groups data when saving a project to MPP for format.
+
+--------------------
+
+Group data includes Project.TaskGroups and Project.ResourceGroups collections.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether to write groups data when saving a project to MPP for format. |
 
 ### setWriteViewData(boolean value) {#setWriteViewData-boolean-}
 ```
@@ -160,7 +218,7 @@ public final void setWriteViewData(boolean value)
 ```
 
 
-Sets a value indicating whether to write view data when saving to MPP.
+Sets a value indicating whether to write view data when saving a project to MPP format.
 
 --------------------
 
@@ -169,5 +227,5 @@ View data includes Project.Views, Filters and Tables collections.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether to write view data when saving to MPP. |
+| value | boolean | a value indicating whether to write view data when saving a project to MPP format. |
 
