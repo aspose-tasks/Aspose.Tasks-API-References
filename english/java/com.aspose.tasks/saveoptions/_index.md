@@ -39,7 +39,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getRenderToSinglePage()](#getRenderToSinglePage--) | Gets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [getRollUpGanttBars()](#getRollUpGanttBars--) | Gets a value indicating whether subtasks on the summary task bar should be marked. |
 | [getStartDate()](#getStartDate--) | Gets the date to start rendering from. |
-| [getTextStyles()](#getTextStyles--) | Gets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view. |
+| [getTextStyles()](#getTextStyles--) | Gets the list of text styles that applied during rendering of a project view. |
 | [getTimescale()](#getTimescale--) | Gets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [getUseGradientBrush()](#getUseGradientBrush--) | Gets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
 | [getView()](#getView--) | Gets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). |
@@ -62,7 +62,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setRenderToSinglePage(boolean value)](#setRenderToSinglePage-boolean-) | Sets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [setRollUpGanttBars(boolean value)](#setRollUpGanttBars-boolean-) | Sets a value indicating whether subtasks on the summary task bar should be marked. |
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date to start rendering from. |
-| [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view. |
+| [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets the list of text styles that applied during rendering of a project view. |
 | [setTimescale(int value)](#setTimescale-int-) | Sets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [setUseGradientBrush(boolean value)](#setUseGradientBrush-boolean-) | Sets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
 | [setView(ProjectView value)](#setView-com.aspose.tasks.ProjectView-) | Sets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). |
@@ -247,10 +247,14 @@ public final List<TextStyle> getTextStyles()
 ```
 
 
-Gets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view.
+Gets the list of text styles that applied during rendering of a project view.
+
+--------------------
+
+These styles override styles defined with GanttCharView.setTextStyles.
 
 **Returns:**
-java.util.List&lt;com.aspose.tasks.TextStyle&gt; - the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view.
+java.util.List&lt;com.aspose.tasks.TextStyle&gt; - the list of text styles that applied during rendering of a project view.
 ### getTimescale() {#getTimescale--}
 ```
 public final int getTimescale()
@@ -544,12 +548,16 @@ public final void setTextStyles(List<TextStyle> value)
 ```
 
 
-Sets the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view.
+Sets the list of text styles that applied during rendering of a project view.
+
+--------------------
+
+These styles override styles defined with GanttCharView.setTextStyles.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.List&lt;com.aspose.tasks.TextStyle&gt; | the list of the instances of the [TextStyle](../../com.aspose.tasks/textstyle) class that appear in project view. |
+| value | java.util.List&lt;com.aspose.tasks.TextStyle&gt; | the list of text styles that applied during rendering of a project view. |
 
 ### setTimescale(int value) {#setTimescale-int-}
 ```

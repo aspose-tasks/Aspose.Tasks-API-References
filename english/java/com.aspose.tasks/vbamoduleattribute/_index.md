@@ -13,7 +13,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 com.aspose.ms.System.IEquatable
 ```
-public class VbaModuleAttribute implements System.IEquatable<VbaModuleAttribute>
+public final class VbaModuleAttribute implements System.IEquatable<VbaModuleAttribute>
 ```
 
 The attribute of the [VbaModule](../../com.aspose.tasks/vbamodule) object

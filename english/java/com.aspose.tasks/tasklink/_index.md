@@ -13,7 +13,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 com.aspose.ms.System.IEquatable
 ```
-public class TaskLink implements System.IEquatable<TaskLink>
+public final class TaskLink implements System.IEquatable<TaskLink>
 ```
 
 Represents a predecessor link.
