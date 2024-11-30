@@ -25,6 +25,7 @@ The Group type exposes the following members:
 |show_summary|Gets or sets a value indicating whether summary rows are displayed for the group.|
 |maintain_hierarchy|Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group.|
 |show_in_menu|Gets or sets a value indicating whether Project shows the group name in the Group drop-down list in the Ribbon.|
+|group_assignments|Gets or sets a value indicating whether assignments should be grouped instead of tasks.|
 |group_criteria|Gets or sets a GroupCriteria collection representing the fields in a group definition.|
 
 ### See Also
