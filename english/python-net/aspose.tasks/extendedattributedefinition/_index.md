@@ -32,7 +32,7 @@ The ExtendedAttributeDefinition type exposes the following members:
 |calculation_type|Gets or sets the type of calculation of the custom attribute's value.|
 |summary_rows_calculation_type|Gets or sets the type of calculation of the custom attribute's value for summary rows.|
 |formula|Gets or sets the formula that Microsoft Project uses to populate a custom task field.|
-|graphical_indicator|Get os sets a graphical indicators info associated with the extended attribute.|
+|graphical_indicator|Gets or sets a graphical indicators info associated with the extended attribute.<br/>            Applicable to MPP format.|
 |restrict_values|Gets or sets a value indicating whether the custom field values are restricted to values in the [value_list](/tasks/python-net/aspose.tasks/extendedattributedefinition/).|
 |valuelist_sort_order|Gets or sets the way value lists are sorted. Values are: 0=Descending, 1=Ascending.|
 |append_new_values|Gets or sets a value indicating whether new values added to a project are automatically added to the list.|

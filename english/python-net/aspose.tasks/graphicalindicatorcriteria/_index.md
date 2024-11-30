@@ -20,7 +20,7 @@ The GraphicalIndicatorCriteria type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|test|Gets the type of comparison made between extended attribute`s value and Values that acts as a criteria for the application of the graphical indicator.<br/>            [FilterComparisonType](/tasks/python-net/aspose.tasks/filtercomparisontype/)|
+|test|Gets the type of comparison made between extended attribute's value and Values that acts as a criteria for the application of the graphical indicator.<br/>            [FilterComparisonType](/tasks/python-net/aspose.tasks/filtercomparisontype/)|
 |value1|Gets the value used to test extended attribute's value.|
 |value2|Gets the second value used to test extended attribute's value in case of 'IsWithin' and 'IsNotWithin' comparison types.|
 |image_index|Gets the index of the image to display when the field meets the criteria.|
