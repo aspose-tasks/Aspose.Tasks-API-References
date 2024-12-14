@@ -3,7 +3,7 @@ title: GroupCriterion.Pattern
 second_title: Aspose.Tasks for .NET API Reference
 description: GroupCriterion property. Gets or sets the pattern of the cell for a field used as a criterion in a group definition
 type: docs
-weight: 110
+weight: 90
 url: /net/aspose.tasks/groupcriterion/pattern/
 ---
 ## GroupCriterion.Pattern property
@@ -16,7 +16,7 @@ public BackgroundPattern Pattern { get; set; }
 
 ## Examples
 
-Shows how to work with a group criterion.
+Shows how to read properties of a group criterion.
 
 ```csharp
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");

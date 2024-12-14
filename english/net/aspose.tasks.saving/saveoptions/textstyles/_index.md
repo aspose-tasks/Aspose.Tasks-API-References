@@ -1,18 +1,22 @@
 ---
 title: SaveOptions.TextStyles
 second_title: Aspose.Tasks for .NET API Reference
-description: SaveOptions property. Gets or sets the list of the instances of the TextStyle class that appear in project view
+description: SaveOptions property. Gets or sets the list of text styles that applied during rendering of a project view
 type: docs
 weight: 180
 url: /net/aspose.tasks.saving/saveoptions/textstyles/
 ---
 ## SaveOptions.TextStyles property
 
-Gets or sets the list of the instances of the [`TextStyle`](../../../aspose.tasks.visualization/textstyle/) class that appear in project view.
+Gets or sets the list of text styles that applied during rendering of a project view.
 
 ```csharp
 public List<TextStyle> TextStyles { get; set; }
 ```
+
+## Remarks
+
+These styles override styles defined in GanttCharView.TextStyles.
 
 ## Examples
 

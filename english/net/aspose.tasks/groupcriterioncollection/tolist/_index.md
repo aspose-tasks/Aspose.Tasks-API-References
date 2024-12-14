@@ -3,7 +3,7 @@ title: GroupCriterionCollection.ToList
 second_title: Aspose.Tasks for .NET API Reference
 description: GroupCriterionCollection method. Converts a GroupCriterion collection to a list of GroupCriterion objects
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/groupcriterioncollection/tolist/
 ---
 ## GroupCriterionCollection.ToList method

@@ -3,7 +3,7 @@ title: GroupCriterionCollection.Clear
 second_title: Aspose.Tasks for .NET API Reference
 description: GroupCriterionCollection method. Removes all items from this collection
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/groupcriterioncollection/clear/
 ---
 ## GroupCriterionCollection.Clear method

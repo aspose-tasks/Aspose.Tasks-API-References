@@ -3,7 +3,7 @@ title: TimescaleTier.UsesFiscalYear
 second_title: Aspose.Tasks for .NET API Reference
 description: TimescaleTier property. Gets or sets a value indicating whether to base the tier labels on the fiscal year
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks.visualization/timescaletier/usesfiscalyear/
 ---
 ## TimescaleTier.UsesFiscalYear property

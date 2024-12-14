@@ -29,6 +29,7 @@ Console.WriteLine("Task Group Name: " + group.Name);
 Console.WriteLine("Is Task Group Maintain Hierarchy?: " + group.MaintainHierarchy);
 Console.WriteLine("Is Task Group Show In Menu?: " + group.ShowInMenu);
 Console.WriteLine("Is Task Group Show Summary?: " + group.ShowSummary);
+Console.WriteLine("Is Task Group should groups Assignments instead of Tasks?: " + group.GroupAssignments);
 Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
 Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
 

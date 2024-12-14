@@ -3,7 +3,7 @@ title: GroupCriterionCollection.GetEnumerator
 second_title: Aspose.Tasks for .NET API Reference
 description: GroupCriterionCollection method. Returns an enumerator for this collection
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/groupcriterioncollection/getenumerator/
 ---
 ## GroupCriterionCollection.GetEnumerator method
