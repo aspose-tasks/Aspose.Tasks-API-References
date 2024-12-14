@@ -16,6 +16,13 @@ public VbaProject VbaProject { get; }
 
 ## Examples
 
+Shows how to remove VBA macros from MPP file.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+project.Save(OutDir + "Vba.cleared.mpp", new MPPSaveOptions() { ClearVba = true });
+```
+
 Shows how to read VBA project information.
 
 ```csharp

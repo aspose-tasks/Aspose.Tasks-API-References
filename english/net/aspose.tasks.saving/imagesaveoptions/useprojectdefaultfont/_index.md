@@ -28,7 +28,6 @@ var options = new ImageSaveOptions(SaveFileFormat.Png);
 options.StartDate = project.Get(Prj.StartDate).AddDays(-3);
 options.EndDate = project.Get(Prj.FinishDate);
 options.MarkCriticalTasks = true;
-options.LegendOnEachPage = false;
 options.DefaultFontName = "Segoe UI Black";
 options.UseProjectDefaultFont = false;
 options.PageSize = PageSize.Letter;

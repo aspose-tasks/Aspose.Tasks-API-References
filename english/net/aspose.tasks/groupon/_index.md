@@ -48,7 +48,7 @@ public enum GroupOn
 
 ## Examples
 
-Shows how to work with a group criterion.
+Shows how to read properties of a group criterion.
 
 ```csharp
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");

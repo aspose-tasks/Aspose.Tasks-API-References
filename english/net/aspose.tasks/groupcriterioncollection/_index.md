@@ -20,7 +20,6 @@ public class GroupCriterionCollection : IList<GroupCriterion>
 | --- | --- |
 | [Count](../../aspose.tasks/groupcriterioncollection/count/) { get; } | Gets the number of elements contained in this collection. |
 | [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly/) { get; } | Gets a value indicating whether this collection is read-only; otherwise, false. |
-| [ParentGroup](../../aspose.tasks/groupcriterioncollection/parentgroup/) { get; } | Gets the parent of the GroupCriterion object. |
 
 ## Methods
 

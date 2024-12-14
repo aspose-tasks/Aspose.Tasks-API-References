@@ -3,7 +3,7 @@ title: GroupCriterionCollection.Add
 second_title: Aspose.Tasks for .NET API Reference
 description: GroupCriterionCollection method. Adds the specified item to this collection
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks/groupcriterioncollection/add/
 ---
 ## GroupCriterionCollection.Add method

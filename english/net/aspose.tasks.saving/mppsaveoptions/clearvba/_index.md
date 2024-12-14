@@ -14,6 +14,15 @@ Gets or sets a value indicating whether to remove existing VBA macros data when 
 public bool ClearVba { get; set; }
 ```
 
+## Examples
+
+Shows how to remove VBA macros from MPP file.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+project.Save(OutDir + "Vba.cleared.mpp", new MPPSaveOptions() { ClearVba = true });
+```
+
 ### See Also
 
 * class [MPPSaveOptions](../)

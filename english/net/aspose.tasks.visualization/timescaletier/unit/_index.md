@@ -3,7 +3,7 @@ title: TimescaleTier.Unit
 second_title: Aspose.Tasks for .NET API Reference
 description: TimescaleTier property. Gets or sets timescale unit TimescaleUnit for the timescale tier. The default value is Days
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.tasks.visualization/timescaletier/unit/
 ---
 ## TimescaleTier.Unit property
