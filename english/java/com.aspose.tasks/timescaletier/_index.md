@@ -28,6 +28,7 @@ Represents a single tier of the timescale on a Gantt Chart.
 | [getCount()](#getCount--) | Gets the time unit interval in which to show labels for the tier. |
 | [getDateTimeConverter()](#getDateTimeConverter--) | Gets a callback function for handling rendering date tick in this tier. |
 | [getLabel()](#getLabel--) | Gets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
+| [getRenderLabelOnEachPage()](#getRenderLabelOnEachPage--) | Gets flag that defines whether date labels should be rendered on each page when a time period spans over several pages. |
 | [getShowTicks()](#getShowTicks--) | Gets a value indicating whether whether to show tick marks that separate time periods in the tier. |
 | [getUnit()](#getUnit--) | Gets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. |
 | [getUsesFiscalYear()](#getUsesFiscalYear--) | Gets a value indicating whether to base the tier labels on the fiscal year. |
@@ -35,6 +36,7 @@ Represents a single tier of the timescale on a Gantt Chart.
 | [setCount(int value)](#setCount-int-) | Sets the time unit interval in which to show labels for the tier. |
 | [setDateTimeConverter(DateTimeConverter value)](#setDateTimeConverter-com.aspose.tasks.DateTimeConverter-) | Sets a callback function for handling rendering date tick in this tier. |
 | [setLabel(int value)](#setLabel-int-) | Sets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
+| [setRenderLabelOnEachPage(boolean value)](#setRenderLabelOnEachPage-boolean-) | Sets flag that defines whether date labels should be rendered on each page when a time period spans over several pages. |
 | [setShowTicks(boolean value)](#setShowTicks-boolean-) | Sets a value indicating whether whether to show tick marks that separate time periods in the tier. |
 | [setUnit(int value)](#setUnit-int-) | Sets timescale unit [TimescaleUnit](../../com.aspose.tasks/timescaleunit) for the timescale tier. |
 | [setUsesFiscalYear(boolean value)](#setUsesFiscalYear-boolean-) | Sets a value indicating whether to base the tier labels on the fiscal year. |
@@ -100,6 +102,20 @@ Gets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale 
 
 **Returns:**
 int - date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier.
+### getRenderLabelOnEachPage() {#getRenderLabelOnEachPage--}
+```
+public final boolean getRenderLabelOnEachPage()
+```
+
+
+Gets flag that defines whether date labels should be rendered on each page when a time period spans over several pages. If value is 'true', when time period spans over several pages, date labels for the period are rendered on each page. If values is 'false', date label is rendered only once according to a value of `Alignment`([getAlignment](../../com.aspose.tasks/timescaletier\#getAlignment--)/[setAlignment(int)](../../com.aspose.tasks/timescaletier\#setAlignment-int-)) property.
+
+--------------------
+
+Doesn't have the equivalent in MS Project.
+
+**Returns:**
+boolean - flag that defines whether date labels should be rendered on each page when a time period spans over several pages.
 ### getShowTicks() {#getShowTicks--}
 ```
 public final boolean getShowTicks()
@@ -181,6 +197,23 @@ Sets date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | date label [DateLabel](../../com.aspose.tasks/datelabel) for the timescale tier. |
+
+### setRenderLabelOnEachPage(boolean value) {#setRenderLabelOnEachPage-boolean-}
+```
+public final void setRenderLabelOnEachPage(boolean value)
+```
+
+
+Sets flag that defines whether date labels should be rendered on each page when a time period spans over several pages. If value is 'true', when time period spans over several pages, date labels for the period are rendered on each page. If values is 'false', date label is rendered only once according to a value of `Alignment`([getAlignment](../../com.aspose.tasks/timescaletier\#getAlignment--)/[setAlignment(int)](../../com.aspose.tasks/timescaletier\#setAlignment-int-)) property.
+
+--------------------
+
+Doesn't have the equivalent in MS Project.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | flag that defines whether date labels should be rendered on each page when a time period spans over several pages. |
 
 ### setShowTicks(boolean value) {#setShowTicks-boolean-}
 ```
