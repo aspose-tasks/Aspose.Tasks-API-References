@@ -26,7 +26,6 @@ The SvgOptions type exposes the following members:
 |fit_timescale_to_end_of_page|Gets or sets whether a calendar section of a view should be rendered to the end (right side) of the last page.<br/>            If value is false, calendar section is rendered exactly to EndDate, even there is an empty space on a page.|
 |fit_content|Gets or sets a value indicating whether row height should be increased to fit its content.|
 |gridlines|Gets or sets a list of [Gridline](/tasks/python-net/aspose.tasks.visualization/gridline/) that appear in project view.|
-|legend_on_each_page|Gets or sets a value indicating whether legend should be shown on each page (Default value is TRUE).|
 |legend_drawing_options|Gets or sets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage.|
 |mark_critical_tasks|Gets or sets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE).|
 |non_working_time_color|Gets or sets the non-working time color.|
@@ -36,7 +35,7 @@ The SvgOptions type exposes the following members:
 |presentation_format|Gets or sets the [presentation_format](/tasks/python-net/aspose.tasks.saving/saveoptions/) in which the document will be saved.|
 |roll_up_gantt_bars|Gets or sets a value indicating whether subtasks on the summary task bar should be marked.<br/>            For subtasks, the Rollup field indicates whether information on the subtask Gantt bars will be rolled up to the summary task bar.<br/>            For summary tasks, the Rollup field indicates whether the summary task bar displays rolled up bars.<br/>            You must have the Rollup field for summary tasks set to Yes for any subtasks to roll up to them.|
 |start_date|Gets or sets the date to start rendering from.|
-|text_styles|Gets or sets the list of the instances of the [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) class that appear in project view.|
+|text_styles|Gets or sets the list of text styles that applied during rendering of a project view.|
 |timescale|Gets or sets the [timescale](/tasks/python-net/aspose.tasks.saving/saveoptions/) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.|
 |use_gradient_brush|Determines whether to use gradient brush when rendering project layout.|
 |view|Gets or sets a list of the view columns to render ([GanttChartColumn](/tasks/python-net/aspose.tasks.visualization/ganttchartcolumn/)).<br/>            If not set then task ids, task names, start and finish are rendered only.<br/>            If both View and [view_settings](/tasks/python-net/aspose.tasks.saving/saveoptions/) properties are set, columns from View overrides columns from ViewSettings.|
