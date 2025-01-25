@@ -3,7 +3,7 @@ title: Table.LockFirstColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: Table property. Gets or sets a value indicating whether the first column of a table is locked or editable
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/table/lockfirstcolumn/
 ---
 ## Table.LockFirstColumn property

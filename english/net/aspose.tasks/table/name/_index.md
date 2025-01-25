@@ -3,7 +3,7 @@ title: Table.Name
 second_title: Aspose.Tasks for .NET API Reference
 description: Table property. Gets or sets the name of a Table object
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/table/name/
 ---
 ## Table.Name property

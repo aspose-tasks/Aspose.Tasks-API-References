@@ -3,7 +3,7 @@ title: Group.Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: Group property. Gets a unique identifier of a group
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.tasks/group/uid/
 ---
 ## Group.Uid property

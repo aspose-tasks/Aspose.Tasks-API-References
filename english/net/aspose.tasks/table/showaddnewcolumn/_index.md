@@ -3,7 +3,7 @@ title: Table.ShowAddNewColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: Table property. Gets or sets a value indicating whether to show Add New Column interface. Supported by MSP 2010 version and later
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks/table/showaddnewcolumn/
 ---
 ## Table.ShowAddNewColumn property

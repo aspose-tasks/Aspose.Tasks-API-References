@@ -3,7 +3,7 @@ title: Group.MaintainHierarchy
 second_title: Aspose.Tasks for .NET API Reference
 description: Group property. Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/group/maintainhierarchy/
 ---
 ## Group.MaintainHierarchy property
