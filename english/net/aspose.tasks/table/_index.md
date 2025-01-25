@@ -26,14 +26,13 @@ public class Table
 | --- | --- |
 | [AdjustHeaderRowHeight](../../aspose.tasks/table/adjustheaderrowheight/) { get; set; } | Gets or sets a value indicating whether the header row height of the table can be adjusted. |
 | [DateFormat](../../aspose.tasks/table/dateformat/) { get; set; } | Gets or sets the date format of the table. |
-| [Index](../../aspose.tasks/table/index/) { get; } | Gets the index of a Table object in the Tables containing object. |
 | [LockFirstColumn](../../aspose.tasks/table/lockfirstcolumn/) { get; set; } | Gets or sets a value indicating whether the first column of a table is locked or editable. |
 | [Name](../../aspose.tasks/table/name/) { get; set; } | Gets or sets the name of a Table object. |
 | [RowHeight](../../aspose.tasks/table/rowheight/) { get; set; } | Gets or sets the row height in a table, where the row height is the number of lines of text. |
 | [ShowAddNewColumn](../../aspose.tasks/table/showaddnewcolumn/) { get; set; } | Gets or sets a value indicating whether to show 'Add New Column' interface. Supported by MSP 2010 version and later. |
 | [ShowInMenu](../../aspose.tasks/table/showinmenu/) { get; set; } | Gets or sets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
 | [TableFields](../../aspose.tasks/table/tablefields/) { get; } | Gets a TableFields collection representing the fields in the table. |
-| [TableType](../../aspose.tasks/table/tabletype/) { get; } | Gets the table type for the specified table. Read-only [`ItemType`](../itemtype/). |
+| [TableType](../../aspose.tasks/table/tabletype/) { get; set; } | Gets or sets the table type for the specified table. |
 | [Uid](../../aspose.tasks/table/uid/) { get; } | Gets the unique identifier of a table. |
 
 ## Methods

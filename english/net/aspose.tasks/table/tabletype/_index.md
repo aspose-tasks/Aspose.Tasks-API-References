@@ -1,17 +1,17 @@
 ---
 title: Table.TableType
 second_title: Aspose.Tasks for .NET API Reference
-description: Table property. Gets the table type for the specified table. Readonly ItemType
+description: Table property. Gets or sets the table type for the specified table
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.tasks/table/tabletype/
 ---
 ## Table.TableType property
 
-Gets the table type for the specified table. Read-only [`ItemType`](../../itemtype/).
+Gets or sets the table type for the specified table.
 
 ```csharp
-public ItemType TableType { get; }
+public ItemType TableType { get; set; }
 ```
 
 ## Examples

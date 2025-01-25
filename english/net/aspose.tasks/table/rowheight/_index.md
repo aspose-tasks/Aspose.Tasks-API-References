@@ -3,7 +3,7 @@ title: Table.RowHeight
 second_title: Aspose.Tasks for .NET API Reference
 description: Table property. Gets or sets the row height in a table where the row height is the number of lines of text
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.tasks/table/rowheight/
 ---
 ## Table.RowHeight property
