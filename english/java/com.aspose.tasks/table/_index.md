@@ -43,6 +43,7 @@ Represents a table in Project
 | [setRowHeight(int value)](#setRowHeight-int-) | Sets the row height in a table, where the row height is the number of lines of text. |
 | [setShowAddNewColumn(boolean value)](#setShowAddNewColumn-boolean-) | Sets a value indicating whether to show 'Add New Column' interface. |
 | [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
+| [setTableType(int value)](#setTableType-int-) | Sets the table type for the specified table. |
 ### Table() {#Table--}
 ```
 public Table()
@@ -166,7 +167,7 @@ public final int getTableType()
 ```
 
 
-Gets the table type for the specified table. Read-only [ItemType](../../com.aspose.tasks/itemtype).
+Gets the table type for the specified table.
 
 **Returns:**
 int - the table type for the specified table.
@@ -284,4 +285,17 @@ Sets a value indicating whether project shows the table name in the Tables drop-
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether project shows the table name in the Tables drop-down list on the View tab of the Ribbon. |
+
+### setTableType(int value) {#setTableType-int-}
+```
+public final void setTableType(int value)
+```
+
+
+Sets the table type for the specified table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | the table type for the specified table. |
 
