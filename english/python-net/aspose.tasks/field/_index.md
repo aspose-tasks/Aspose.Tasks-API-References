@@ -1359,10 +1359,10 @@ Specifies a field in the Microsoft Office Project.
 |TASK_COMPLETE_THROUGH|Available only in the Bar Styles dialog box in MSP and is represented as a bar on the Gantt Chart.|
 |TASK_BASE_LINE_FIXED_COST|Represents the Baseline Fixed Cost (Task) field.|
 |RESOURCE_ASSIGNMENT_GUID|Represents the GUID (Assignment) field.|
-|RESOURCE_ASSIGNMENT_BASE_LINE_START|Represents the Baseline Start (Assignment) field.|
-|RESOURCE_ASSIGNMENT_BASE_LINE_FINISH|Represents the Baseline Finish (Assignment) field.|
 |RESOURCE_ASSIGNMENT_BASE_LINE_COST|Represents the Baseline Cost (Assignment) field.|
 |RESOURCE_ASSIGNMENT_BASE_LINE_WORK|Represents the Baseline Work (Assignment) field.|
+|RESOURCE_ASSIGNMENT_BASE_LINE_START|Represents the Baseline Start (Assignment) field.|
+|RESOURCE_ASSIGNMENT_BASE_LINE_FINISH|Represents the Baseline Finish (Assignment) field.|
 |RESOURCE_ASSIGNMENT_BASE_LINE_COST_PER_USE|Represents the Baseline Cost Per Use (Assignment) field.|
 
 ### See Also
