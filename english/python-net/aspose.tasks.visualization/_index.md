@@ -64,4 +64,5 @@ Contains helper classes for rendering.
 |[Shape](/tasks/python-net/aspose.tasks.visualization/shape/)|Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of [SaveFileFormat](/tasks/python-net/aspose.tasks.saving/savefileformat/).|
 |[TextItemType](/tasks/python-net/aspose.tasks.visualization/textitemtype/)|Item type to change a text style for.|
 |[Timescale](/tasks/python-net/aspose.tasks.visualization/timescale/)|Defines options which specifies how to render timescale in Gantt Chart, Task Usage or Resource Usage views when the project is exported to a graphic format.|
+|[TimescaleFitBehavior](/tasks/python-net/aspose.tasks.visualization/timescalefitbehavior/)|Represents a behavior used to align timescale area with page width.|
 |[TimescaleUnit](/tasks/python-net/aspose.tasks.visualization/timescaleunit/)|Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view.|
