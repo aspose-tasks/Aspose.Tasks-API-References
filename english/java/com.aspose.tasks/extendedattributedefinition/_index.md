@@ -53,7 +53,7 @@ Represents an extended attribute definition associated with a project.
 | [getMaxMultiValues()](#getMaxMultiValues--) | Gets the maximum number of values you can set in a pick list. |
 | [getParentProject()](#getParentProject--) | Gets the parent project for the [ExtendedAttributeDefinition](../../com.aspose.tasks/extendedattributedefinition) instance. |
 | [getPhoneticsAlias()](#getPhoneticsAlias--) | Gets the phonetic pronunciation of the alias of a custom field. |
-| [getRestrictValues()](#getRestrictValues--) | Gets a value indicating whether the custom field values are restricted to values in the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/[setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)). |
+| [getRestrictValues()](#getRestrictValues--) | Gets a value indicating whether the custom field values are restricted to values in the `ValueList`([getValueList()](../../com.aspose.tasks/extendedattributedefinition\#getValueList--)/ [setValueList(List)](../../com.aspose.tasks/extendedattributedefinition\#setValueList-List-Value--)). |
 | [getRollupType()](#getRollupType--) | Gets the way rollups are calculated. |
 | [getSecondaryGuid()](#getSecondaryGuid--) | Gets the secondary guid of extended attribute. |
 | [getSecondaryPid()](#getSecondaryPid--) | Gets the secondary PID of a custom field. |
@@ -93,8 +93,9 @@ Adds a value to the internal lookup list. This is a preferable way for manipulat
 
 --------------------
 
-Use this code to add new Value to lookup list:
-```
+&gt; ```
+&gt; Use this code to add new Value to lookup list:
+&gt; ``````
 
  taskTextAttr.addLookupValue(new Value() {{
      this.setId(1);
@@ -180,8 +181,9 @@ Creates new extended attribute linked with specified [Value](../../com.aspose.ta
 
 --------------------
 
-Use this code to create new [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) using specific value:
-```
+&gt; ```
+&gt; Use this code to create new [ExtendedAttribute](../../com.aspose.tasks/extendedattribute) using specific value:
+&gt; ``````
 
  taskTextAttr.addLookupValue(value1);
  taskTextAttr.addLookupValue(value2);
@@ -257,8 +259,9 @@ Factory method which creates an extended attribute definition with lookup. It ha
 
 --------------------
 
-Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
-```
+&gt; ```
+&gt; Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
+&gt; ``````
 
  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
      resourceTextAttr.addLookupValue(new Value() {{
@@ -296,8 +299,9 @@ Factory method which creates an extended attribute definition with lookup. It ha
 
 --------------------
 
-Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
-```
+&gt; ```
+&gt; Use this example to create a custom field definition for a resource with lookup and then fill it with text values:
+&gt; ``````
 
  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
      resourceTextAttr.addLookupValue(new Value() {{
@@ -334,8 +338,9 @@ Factory method which creates an extended attribute definition with lookup. It ha
 
 --------------------
 
-Use this example to create a custom field definition for a task with lookup and then fill it with text values:
-```
+&gt; ```
+&gt; Use this example to create a custom field definition for a task with lookup and then fill it with text values:
+&gt; ``````
 
  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
  taskTextAttr.addLookupValue(new Value() {{
@@ -373,8 +378,9 @@ Factory method which creates an extended attribute definition with lookup. It ha
 
 --------------------
 
-Use this example to create a custom field definition for a task with lookup and then fill it with text values:
-```
+&gt; ```
+&gt; Use this example to create a custom field definition for a task with lookup and then fill it with text values:
+&gt; ``````
 
  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createLookupTaskDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
  taskTextAttr.addLookupValue(new Value() {{
@@ -411,8 +417,9 @@ Factory method which creates a simple extended attribute definition, which Micro
 
 --------------------
 
-Use this example to create a custom text field definition:
-```
+&gt; ```
+&gt; Use this example to create a custom text field definition:
+&gt; ``````
 
  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createResourceDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
  project.getExtendedAttributes().add(resourceTextAttr);
@@ -440,8 +447,9 @@ Factory method which creates a simple extended attribute definition, which Micro
 
 --------------------
 
-Use this example to create a custom text field definition:
-```
+&gt; ```
+&gt; Use this example to create a custom text field definition:
+&gt; ``````
 
  ExtendedAttributeDefinition resourceTextAttr = ExtendedAttributeDefinition.createResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
  project.getExtendedAttributes().add(resourceTextAttr);
@@ -468,8 +476,9 @@ Factory method which creates a simple extended attribute definition, which Micro
 
 --------------------
 
-Use this example to create a custom text field definition:
-```
+&gt; ```
+&gt; Use this example to create a custom text field definition:
+&gt; ``````
 
  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text27, "My custom field");
  project.getExtendedAttributes().add(taskTextAttr);
@@ -497,8 +506,9 @@ Factory method which creates a simple extended attribute definition, which Micro
 
 --------------------
 
-Use this example to create a custom text field definition:
-```
+&gt; ```
+&gt; Use this example to create a custom text field definition:
+&gt; ``````
 
  ExtendedAttributeDefinition taskTextAttr = ExtendedAttributeDefinition.createTaskDefinition(ExtendedAttributeTask.Text27, "My custom field");
  project.getExtendedAttributes().add(taskTextAttr);
@@ -628,7 +638,9 @@ Gets corresponds to the project id of a custom field. Use string representation 
 
 --------------------
 
-```
+&gt; ```
+&gt; 
+&gt; ``````
 
  customFieldDefinition.setFieldId(Integer.toString(ExtendedAttributeTask.Number10));
  
@@ -976,7 +988,9 @@ Sets corresponds to the project id of a custom field. Use string representation 
 
 --------------------
 
-```
+&gt; ```
+&gt; 
+&gt; ``````
 
  customFieldDefinition.setFieldId(Integer.toString(ExtendedAttributeTask.Number10));
  

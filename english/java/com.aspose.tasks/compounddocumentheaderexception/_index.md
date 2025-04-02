@@ -8,9 +8,9 @@ url: /java/com.aspose.tasks/compounddocumentheaderexception/
 ---
 
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, [com.aspose.tasks.exceptions.Exception](../../com.aspose.tasks.exceptions/exception), [com.aspose.tasks.exceptions.ApplicationException](../../com.aspose.tasks.exceptions/applicationexception)
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, com.aspose.ms.System.ApplicationException
 ```
-public class CompoundDocumentHeaderException extends com.aspose.tasks.exceptions.ApplicationException
+public class CompoundDocumentHeaderException extends System.ApplicationException
 ```
 
 Represents an exception which is thrown when the header of MPP file is broken.

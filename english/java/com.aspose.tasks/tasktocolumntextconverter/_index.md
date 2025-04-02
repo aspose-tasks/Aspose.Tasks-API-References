@@ -3,7 +3,7 @@ title: TaskToColumnTextConverter
 second_title: Aspose.Tasks for Java API Reference
 description: Tasks data to columns string converter.
 type: docs
-weight: 375
+weight: 376
 url: /java/com.aspose.tasks/tasktocolumntextconverter/
 ---
 ```

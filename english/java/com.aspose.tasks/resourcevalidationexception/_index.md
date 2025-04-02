@@ -8,7 +8,7 @@ url: /java/com.aspose.tasks/resourcevalidationexception/
 ---
 
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, [com.aspose.tasks.exceptions.Exception](../../com.aspose.tasks.exceptions/exception), [com.aspose.tasks.exceptions.ApplicationException](../../com.aspose.tasks.exceptions/applicationexception), [com.aspose.tasks.ValidationException](../../com.aspose.tasks/validationexception)
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, com.aspose.ms.System.ApplicationException, [com.aspose.tasks.ValidationException](../../com.aspose.tasks/validationexception)
 ```
 public class ResourceValidationException extends ValidationException
 ```
