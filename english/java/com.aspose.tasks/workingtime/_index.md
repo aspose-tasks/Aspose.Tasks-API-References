@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a working time during a weekday.
 type: docs
-weight: 355
+weight: 356
 url: /java/com.aspose.tasks/workingtime/
 ---
 
@@ -53,8 +53,9 @@ Initializes a new instance of the [WorkingTime](../../com.aspose.tasks/workingti
 
 --------------------
 
-The overload of WorkingTime ctor can be used to initialize interval's start and end using TimeSpans:
-```
+&gt; ```
+&gt; The overload of WorkingTime ctor can be used to initialize interval's start and end using TimeSpans:
+&gt; ``````
 
  [C#]
  var wt = new WorkingTime(new TimeSpan(9, 0, 0), new TimeSpan(18, 0, 0));
@@ -79,8 +80,9 @@ Initializes a new instance of the [WorkingTime](../../com.aspose.tasks/workingti
 
 --------------------
 
-The overload of WorkingTime ctor can be used to initialize interval's start and end using whole hours:
-```
+&gt; ```
+&gt; The overload of WorkingTime ctor can be used to initialize interval's start and end using whole hours:
+&gt; ``````
 
  [C#]
  var wt = new WorkingTime(9, 13);

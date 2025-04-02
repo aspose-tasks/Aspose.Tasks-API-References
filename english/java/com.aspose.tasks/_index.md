@@ -1,7 +1,7 @@
 ---
 title: com.aspose.tasks
 second_title: Aspose.Tasks for Java API Reference
-description: Contains classes for work with Microsoft Project documents without utilizing Microsoft Project.
+description: 
 type: docs
 weight: 10
 url: /java/com.aspose.tasks/
@@ -319,6 +319,7 @@ url: /java/com.aspose.tasks/
 | [TimephasedDataCollection](../com.aspose.tasks/timephaseddatacollection) | Represents a collection of [TimephasedData](../com.aspose.tasks/timephaseddata) objects. |
 | [TimephasedDataType](../com.aspose.tasks/timephaseddatatype) | Specifies the type of time phased data. |
 | [Timescale](../com.aspose.tasks/timescale) | Defines options which specifies how to render timescale in Gantt Chart, Task Usage or Resource Usage views when the project is exported to a graphic format. |
+| [TimescaleFitBehavior](../com.aspose.tasks/timescalefitbehavior) | Represents a behavior used to align timescale area with page width. |
 | [TimescaleTier](../com.aspose.tasks/timescaletier) | Represents a single tier of the timescale on a Gantt Chart. |
 | [TimescaleUnit](../com.aspose.tasks/timescaleunit) | Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view. |
 | [TreeAlgorithmBase&lt;T&gt;](../com.aspose.tasks/treealgorithmbase) | A base class for implementations of ITreeAlgorithm&lt;T&gt; |

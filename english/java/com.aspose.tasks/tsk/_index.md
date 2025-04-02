@@ -3,7 +3,7 @@ title: Tsk
 second_title: Aspose.Tasks for Java API Reference
 description: Represents properties of  object.
 type: docs
-weight: 319
+weight: 320
 url: /java/com.aspose.tasks/tsk/
 ---
 

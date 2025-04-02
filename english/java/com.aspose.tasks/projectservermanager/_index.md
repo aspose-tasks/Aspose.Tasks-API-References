@@ -42,8 +42,9 @@ Initializes a new instance of the [ProjectServerManager](../../com.aspose.tasks/
 
 --------------------
 
-This example shows how to create instance of ProjectServerManager to access on-premise instance of Project Server.
-```
+&gt; ```
+&gt; This example shows how to create instance of ProjectServerManager to access on-premise instance of Project Server.
+&gt; ``````
 
  [C#]
  string site = "http://project_server_instance.local/";
@@ -55,8 +56,9 @@ This example shows how to create instance of ProjectServerManager to access on-p
 
 --------------------
 
-This example shows how to create instance of ProjectServerManager to access account in Project Online service.
-```
+&gt; ```
+&gt; This example shows how to create instance of ProjectServerManager to access account in Project Online service.
+&gt; ``````
 
  [C#]
  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
@@ -81,8 +83,9 @@ Creates new project in Project Server\\Project Online instance using default sav
 
 --------------------
 
-In this example the project is loaded from .mpp file and saved to Project Online account.
-```
+&gt; ```
+&gt; In this example the project is loaded from .mpp file and saved to Project Online account.
+&gt; ``````
 
  [C#]
  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
@@ -109,8 +112,9 @@ Creates new project in Project Server\\Project Online instance using the specifi
 
 --------------------
 
-In this example the project is loaded from .mpp file and saved to Project Online account.
-```
+&gt; ```
+&gt; In this example the project is loaded from .mpp file and saved to Project Online account.
+&gt; ``````
 
  [C#]
  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
@@ -176,7 +180,9 @@ Gets the project's binary data for troubleshooting purposes.
 
 --------------------
 
-```
+&gt; ```
+&gt; 
+&gt; ``````
 
  In this example the debug info for the specific project is retrieved. You can pass the resulting "debug.zip" to the support team for troubleshooting purposes.
  [C#]
@@ -226,8 +232,9 @@ Updates existing project in Project Server\\Project Online instance using defaul
 
 --------------------
 
-In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
-```
+&gt; ```
+&gt; In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
+&gt; ``````
 
  [C#]
  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
@@ -261,8 +268,9 @@ Updates existing project in Project Server\\Project Online instance using the sp
 
 --------------------
 
-In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
-```
+&gt; ```
+&gt; In this example the project is loaded from Project Online account, modified and saved back to Project Online account.
+&gt; ``````
 
  [C#]
  var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");

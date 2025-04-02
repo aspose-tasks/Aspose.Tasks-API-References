@@ -1301,8 +1301,9 @@ Returns page count for the project to be rendered using given [SaveOptions](../.
 
 --------------------
 
-In this example instance of HtmlSaveOptions and the number of pages in resulting HTML is written to the console.
-```
+&gt; ```
+&gt; In this example instance of HtmlSaveOptions and the number of pages in resulting HTML is written to the console.
+&gt; ``````
 
   [C#]
   Project project = new Project(@"test.mpp");
@@ -1983,11 +1984,7 @@ Reschedules uncompleted project work to start after a specified date.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| after | java.util.Date | The date to reschedule uncompleted work after.
-
---------------------
-
-Ensure that Project.CanSplitsInProgressTasks flag is set to true before using this method. |
+| after | java.util.Date | The date to reschedule uncompleted work after. |
 
 ### rescheduleUncompletedWorkToStartAfter(Date after, List&lt;Task&gt; taskCollection) {#rescheduleUncompletedWorkToStartAfter-java.util.Date-java.util.List-com.aspose.tasks.Task--}
 ```
@@ -2001,11 +1998,7 @@ Reschedules uncompleted work for a specified list of tasks to start after a spec
 | Parameter | Type | Description |
 | --- | --- | --- |
 | after | java.util.Date | The date to reschedule uncompleted work after. |
-| taskCollection | java.util.List&lt;com.aspose.tasks.Task&gt; | List&lt;Task&gt; of tasks to reschedule uncompleted work for.
-
---------------------
-
-Ensure that Project.CanSplitsInProgressTasks flag is set to true before using this method. |
+| taskCollection | java.util.List&lt;com.aspose.tasks.Task&gt; | List&lt;Task&gt; of tasks to reschedule uncompleted work for. |
 
 ### save(OutputStream stream, SimpleSaveOptions options) {#save-java.io.OutputStream-com.aspose.tasks.SimpleSaveOptions-}
 ```

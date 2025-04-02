@@ -3,7 +3,7 @@ title: VbaModuleAttribute
 second_title: Aspose.Tasks for Java API Reference
 description: The attribute of the  object
 type: docs
-weight: 326
+weight: 327
 url: /java/com.aspose.tasks/vbamoduleattribute/
 ---
 

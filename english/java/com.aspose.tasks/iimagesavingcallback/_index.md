@@ -3,7 +3,7 @@ title: IImageSavingCallback
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback that is called to create resource to store images.
 type: docs
-weight: 369
+weight: 370
 url: /java/com.aspose.tasks/iimagesavingcallback/
 ---
 ```

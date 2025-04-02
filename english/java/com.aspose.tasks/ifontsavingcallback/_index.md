@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback that is called to create resource to store fonts.
 type: docs
-weight: 368
+weight: 369
 url: /java/com.aspose.tasks/ifontsavingcallback/
 ---
 ```

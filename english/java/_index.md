@@ -10,5 +10,4 @@ is_root: true
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.tasks](./com.aspose.tasks) | Contains classes for work with Microsoft Project documents without utilizing Microsoft Project. |
-| [com.aspose.tasks.exceptions](./com.aspose.tasks.exceptions) | Contains internal exceptions that can be thrown by the library. |
+| [com.aspose.tasks](./com.aspose.tasks) |  |
