@@ -17,10 +17,11 @@ Provides methods to license the component.
 
 --------------------
 
-In this example, an attempt will be made to find a license file named MyLicense.lic
-  in the folder that contains
-  the component jar file:
-```
+&gt; ```
+&gt; In this example, an attempt will be made to find a license file named MyLicense.lic
+&gt;   in the folder that contains
+&gt;   the component jar file:
+&gt; ``````
 
   License license = new License();
   license.setLicense("MyLicense.lic");
@@ -50,10 +51,11 @@ Initializes a new instance of the [License](../../com.aspose.tasks/license) clas
 
 --------------------
 
-In this example, an attempt will be made to find a license file named MyLicense.lic
-  in the folder that contains
-  the component jar file:
-```
+&gt; ```
+&gt; In this example, an attempt will be made to find a license file named MyLicense.lic
+&gt;  in the folder that contains
+&gt;  the component jar file:
+&gt; ``````
 
  License license = new License();
  license.setLicense("MyLicense.lic");
@@ -85,7 +87,9 @@ Licenses the component.
 
 --------------------
 
-```
+&gt; ```
+&gt; 
+&gt; ``````
 
  License license = new License();
  license.setLicense(myStream);

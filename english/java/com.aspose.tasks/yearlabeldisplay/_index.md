@@ -3,7 +3,7 @@ title: YearLabelDisplay
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies how the year label displays.
 type: docs
-weight: 360
+weight: 361
 url: /java/com.aspose.tasks/yearlabeldisplay/
 ---
 

@@ -40,6 +40,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getStartDate()](#getStartDate--) | Gets the date to start rendering from. |
 | [getTextStyles()](#getTextStyles--) | Gets the list of text styles that applied during rendering of a project view. |
 | [getTimescale()](#getTimescale--) | Gets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
+| [getTimescaleFitBehavior()](#getTimescaleFitBehavior--) | Gets a behavior which define how to align right end of the timescale with the page end. |
 | [getUseGradientBrush()](#getUseGradientBrush--) | Gets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
 | [getView()](#getView--) | Gets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). |
 | [getViewSettings()](#getViewSettings--) | Gets a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
@@ -62,6 +63,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date to start rendering from. |
 | [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets the list of text styles that applied during rendering of a project view. |
 | [setTimescale(int value)](#setTimescale-int-) | Sets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
+| [setTimescaleFitBehavior(int value)](#setTimescaleFitBehavior-int-) | Sets a behavior which define how to align right end of the timescale with the page end. |
 | [setUseGradientBrush(boolean value)](#setUseGradientBrush-boolean-) | Sets a value indicating whether gradient brush should be used when rendering Gantt Chart. |
 | [setView(ProjectView value)](#setView-com.aspose.tasks.ProjectView-) | Sets a list of the view columns to render ([GanttChartColumn](../../com.aspose.tasks/ganttchartcolumn)). |
 | [setViewSettings(View value)](#setViewSettings-com.aspose.tasks.View-) | Sets a view (`View`([getView()](../../com.aspose.tasks/saveoptions\#getView--)/[setView(ProjectView)](../../com.aspose.tasks/saveoptions\#setView-ProjectView-))) to render. |
@@ -253,6 +255,16 @@ Gets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTim
 
 **Returns:**
 int - the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format.
+### getTimescaleFitBehavior() {#getTimescaleFitBehavior--}
+```
+public final int getTimescaleFitBehavior()
+```
+
+
+Gets a behavior which define how to align right end of the timescale with the page end.
+
+**Returns:**
+int - a behavior which define how to align right end of the timescale with the page end.
 ### getUseGradientBrush() {#getUseGradientBrush--}
 ```
 public boolean getUseGradientBrush()
@@ -546,6 +558,19 @@ Sets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTim
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
+
+### setTimescaleFitBehavior(int value) {#setTimescaleFitBehavior-int-}
+```
+public final void setTimescaleFitBehavior(int value)
+```
+
+
+Sets a behavior which define how to align right end of the timescale with the page end.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a behavior which define how to align right end of the timescale with the page end. |
 
 ### setUseGradientBrush(boolean value) {#setUseGradientBrush-boolean-}
 ```

@@ -10,7 +10,7 @@ url: /java/com.aspose.tasks/outlinecodedefinition/
 **Inheritance:**
 java.lang.Object
 ```
-public class OutlineCodeDefinition
+public final class OutlineCodeDefinition
 ```
 
 Represents an outline code definition.

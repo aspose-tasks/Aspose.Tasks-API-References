@@ -48,8 +48,9 @@ Clears the collection. In order to persist these changes project.Save should be 
 
 --------------------
 
-How to clear OLE objects and persist these changes.
-```
+&gt; ```
+&gt; How to clear OLE objects and persist these changes.
+&gt; ``````
 
  [C#]
  project.OleObjects.Clear();
