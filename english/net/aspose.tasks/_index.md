@@ -176,6 +176,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 
 | Interface | Description |
 | --- | --- |
+| [ICalendar](./icalendar/) | Represents a calendar abstraction which can be used for various calculations of dates and durations. |
 | [ICssSavingCallback](./icsssavingcallback/) | Represents a callback that is called to create resource to store CSS. |
 | [IFontSavingCallback](./ifontsavingcallback/) | Represents a callback that is called to create resource to store fonts. |
 | [IImageSavingCallback](./iimagesavingcallback/) | Represents a callback that is called to create resource to store images. |

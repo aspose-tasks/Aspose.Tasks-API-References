@@ -3,7 +3,7 @@ title: Task.PercentComplete
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value of PercentComplete
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.tasks/task/percentcomplete/
 ---
 ## Task.PercentComplete property

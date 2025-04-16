@@ -1,14 +1,14 @@
 ---
 title: Calendar.GetStartDateFromFinishAndDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: Calendar method. Returns StartDate based on specified FinishDate and Duration
+description: Calendar method. Returns start date based on the specified finish date and duration
 type: docs
 weight: 190
 url: /net/aspose.tasks/calendar/getstartdatefromfinishandduration/
 ---
 ## GetStartDateFromFinishAndDuration(DateTime, Duration) {#getstartdatefromfinishandduration}
 
-Returns StartDate based on specified FinishDate and Duration.
+Returns start date based on the specified finish date and duration.
 
 ```csharp
 public DateTime GetStartDateFromFinishAndDuration(DateTime finish, Duration duration)
@@ -17,11 +17,11 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, Duration dura
 | Parameter | Type | Description |
 | --- | --- | --- |
 | finish | DateTime | The specified finish date. |
-| duration | Duration | The specified work duration. |
+| duration | Duration | The specified duration. |
 
 ### Return Value
 
-Calculated StartDate.
+Calculated start date.
 
 ## Examples
 
@@ -50,7 +50,7 @@ Console.WriteLine(startDate);
 
 ## GetStartDateFromFinishAndDuration(DateTime, TimeSpan) {#getstartdatefromfinishandduration_1}
 
-Returns StartDate based on specified FinishDate and Duration.
+Returns start date based on specified finish date and duration.
 
 ```csharp
 public DateTime GetStartDateFromFinishAndDuration(DateTime finish, TimeSpan duration)
@@ -59,11 +59,11 @@ public DateTime GetStartDateFromFinishAndDuration(DateTime finish, TimeSpan dura
 | Parameter | Type | Description |
 | --- | --- | --- |
 | finish | DateTime | The specified finish date. |
-| duration | TimeSpan | The specified work duration. |
+| duration | TimeSpan | The specified duration. |
 
 ### Return Value
 
-Calculated StartDate.
+Calculated start date.
 
 ## Examples
 

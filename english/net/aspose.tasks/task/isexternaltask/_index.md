@@ -3,7 +3,7 @@ title: Task.IsExternalTask
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value indicating whether IsExternalTask is set or not
 type: docs
-weight: 630
+weight: 640
 url: /net/aspose.tasks/task/isexternaltask/
 ---
 ## Task.IsExternalTask property

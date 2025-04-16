@@ -3,7 +3,7 @@ title: Task.Hyperlink
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets the title or explanatory text for a hyperlink associated with a task
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.tasks/task/hyperlink/
 ---
 ## Task.Hyperlink property

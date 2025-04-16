@@ -3,7 +3,7 @@ title: SaveOptions.Gridlines
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets a list of Gridline that appear in project view
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.tasks.saving/saveoptions/gridlines/
 ---
 ## SaveOptions.Gridlines property

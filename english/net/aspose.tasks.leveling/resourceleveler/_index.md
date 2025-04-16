@@ -3,7 +3,7 @@ title: Class ResourceLeveler
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Leveling.ResourceLeveler class. Contains resource leveling methods
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.tasks.leveling/resourceleveler/
 ---
 ## ResourceLeveler class

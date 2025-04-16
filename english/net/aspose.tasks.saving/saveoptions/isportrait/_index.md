@@ -3,7 +3,7 @@ title: SaveOptions.IsPortrait
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets a value indicating whether the page orientation is portrait returns false if the page orientation is landscape
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.tasks.saving/saveoptions/isportrait/
 ---
 ## SaveOptions.IsPortrait property

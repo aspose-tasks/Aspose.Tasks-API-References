@@ -3,7 +3,7 @@ title: Enum ResourceUsageViewField
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ResourceUsageViewField enum. Represents possible fields in ResourceUsageView object resource usage view field
 type: docs
-weight: 1750
+weight: 1760
 url: /net/aspose.tasks/resourceusageviewfield/
 ---
 ## ResourceUsageViewField enumeration

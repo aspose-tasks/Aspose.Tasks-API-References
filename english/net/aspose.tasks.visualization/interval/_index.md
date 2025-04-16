@@ -3,7 +3,7 @@ title: Enum Interval
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.Interval enum. Specifies recurring intervals to display progress lines at
 type: docs
-weight: 3070
+weight: 3080
 url: /net/aspose.tasks.visualization/interval/
 ---
 ## Interval enumeration

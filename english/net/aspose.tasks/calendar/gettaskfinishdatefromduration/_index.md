@@ -1,14 +1,14 @@
 ---
 title: Calendar.GetTaskFinishDateFromDuration
 second_title: Aspose.Tasks for .NET API Reference
-description: Calendar method. Calculates the task finish date and time from its start date split parts and the duration
+description: Calendar method. Calculates the task finish date and time from its start date split parts and the work duration
 type: docs
 weight: 200
 url: /net/aspose.tasks/calendar/gettaskfinishdatefromduration/
 ---
 ## Calendar.GetTaskFinishDateFromDuration method
 
-Calculates the task finish date and time from its start date, split parts and the duration.
+Calculates the task finish date and time from its start date, split parts and the work duration.
 
 ```csharp
 public DateTime GetTaskFinishDateFromDuration(Task task, TimeSpan duration)
@@ -16,12 +16,12 @@ public DateTime GetTaskFinishDateFromDuration(Task task, TimeSpan duration)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | Task | The task to get finish date for. |
-| duration | TimeSpan | The task duration to split on. |
+| task | Task | The task to calculate finish date for. |
+| duration | TimeSpan | The duration to calculate. |
 
 ### Return Value
 
-Task's finish date.
+Task's finish date for the given start date and duration.
 
 ## Remarks
 

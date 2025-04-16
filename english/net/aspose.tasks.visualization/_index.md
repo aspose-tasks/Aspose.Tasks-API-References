@@ -24,6 +24,7 @@ Contains helper classes for rendering.
 | [HeaderFooterInfo](./headerfooterinfo/) | Represents header or footer data which is present in views and used for printing. |
 | [PageInfo](./pageinfo/) | Represents page setup data which is present in MPP file format and used for printing. |
 | [PageLegend](./pagelegend/) | Represents a page legend which is used for project printing. |
+| [PageLegendItem](./pagelegenditem/) | Represents an item of page legend of Gantt chart. |
 | [PageMargins](./pagemargins/) | Represents page margins for printing. |
 | [PageSettings](./pagesettings/) | Represents printing settings for a page of project view. |
 | [PageViewSettings](./pageviewsettings/) | Represents printing settings for a project view. |
@@ -73,6 +74,7 @@ Contains helper classes for rendering.
 | [Shape](./shape/) | Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of [`SaveFileFormat`](../aspose.tasks.saving/savefileformat/). |
 | [TextItemType](./textitemtype/) | Item type to change a text style for. |
 | [Timescale](./timescale/) | Defines options which specifies how to render timescale in Gantt Chart, Task Usage or Resource Usage views when the project is exported to a graphic format. |
+| [TimescaleFitBehavior](./timescalefitbehavior/) | Represents a behavior used to align timescale area with page width. |
 | [TimescaleUnit](./timescaleunit/) | Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view. |
 
 

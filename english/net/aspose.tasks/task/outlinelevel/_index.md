@@ -3,7 +3,7 @@ title: Task.OutlineLevel
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value of OutlineLevel
 type: docs
-weight: 880
+weight: 890
 url: /net/aspose.tasks/task/outlinelevel/
 ---
 ## Task.OutlineLevel property

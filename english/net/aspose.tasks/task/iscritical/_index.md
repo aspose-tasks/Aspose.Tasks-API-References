@@ -3,7 +3,7 @@ title: Task.IsCritical
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value indicating whether IsCritical is set or not
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.tasks/task/iscritical/
 ---
 ## Task.IsCritical property

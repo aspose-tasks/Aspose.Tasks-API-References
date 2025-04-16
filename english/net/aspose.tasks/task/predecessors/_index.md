@@ -3,7 +3,7 @@ title: Task.Predecessors
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets a TaskCollection object which contains all predecessors of this Task object
 type: docs
-weight: 970
+weight: 980
 url: /net/aspose.tasks/task/predecessors/
 ---
 ## Task.Predecessors property

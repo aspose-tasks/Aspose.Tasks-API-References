@@ -3,7 +3,7 @@ title: Struct NullableBool
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.NullableBool struct. A class for boolean values with possibility to check whether the value was defined or not
 type: docs
-weight: 1090
+weight: 1100
 url: /net/aspose.tasks/nullablebool/
 ---
 ## NullableBool structure

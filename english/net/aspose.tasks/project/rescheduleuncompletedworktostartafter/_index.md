@@ -18,10 +18,6 @@ public void RescheduleUncompletedWorkToStartAfter(DateTime after)
 | --- | --- | --- |
 | after | DateTime | The date to reschedule uncompleted work after. |
 
-## Remarks
-
-Ensure that Project.CanSplitsInProgressTasks flag is set to true before using this method.
-
 ## Examples
 
 Shows how to update the project and reschedule uncompleted work.
@@ -111,10 +107,6 @@ public void RescheduleUncompletedWorkToStartAfter(DateTime after, List<Task> tas
 | --- | --- | --- |
 | after | DateTime | The date to reschedule uncompleted work after. |
 | taskCollection | List`1 | List&lt;Task&gt; of tasks to reschedule uncompleted work for. |
-
-## Remarks
-
-Ensure that Project.CanSplitsInProgressTasks flag is set to true before using this method.
 
 ## Examples
 

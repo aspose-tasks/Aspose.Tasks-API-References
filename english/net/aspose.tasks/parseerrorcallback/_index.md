@@ -3,7 +3,7 @@ title: Delegate ParseErrorCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a method callback to handle parse errors that can happen when reading xml data
 type: docs
-weight: 1230
+weight: 1240
 url: /net/aspose.tasks/parseerrorcallback/
 ---
 ## ParseErrorCallback delegate

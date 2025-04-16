@@ -3,7 +3,7 @@ title: Task.RegularWork
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value of RegularWork
 type: docs
-weight: 1030
+weight: 1040
 url: /net/aspose.tasks/task/regularwork/
 ---
 ## Task.RegularWork property

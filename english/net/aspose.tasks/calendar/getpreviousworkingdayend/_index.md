@@ -1,14 +1,14 @@
 ---
 title: Calendar.GetPreviousWorkingDayEnd
 second_title: Aspose.Tasks for .NET API Reference
-description: Calendar method. Calculates previous working date end from the specified date
+description: Calendar method. Calculates the end of the previous working date from the specified date
 type: docs
 weight: 180
 url: /net/aspose.tasks/calendar/getpreviousworkingdayend/
 ---
 ## Calendar.GetPreviousWorkingDayEnd method
 
-Calculates previous working date end from the specified date.
+Calculates the end of the previous working date from the specified date.
 
 ```csharp
 public DateTime GetPreviousWorkingDayEnd(DateTime date)
@@ -16,11 +16,11 @@ public DateTime GetPreviousWorkingDayEnd(DateTime date)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| date | DateTime | the specified instance of DateTime struct. |
+| date | DateTime | the date to calculate the previous working day end. |
 
 ### Return Value
 
-Previous working day start DateTime
+The end of the previous working day end
 
 ## Examples
 

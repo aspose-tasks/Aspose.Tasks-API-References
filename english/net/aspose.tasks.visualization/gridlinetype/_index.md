@@ -3,7 +3,7 @@ title: Enum GridlineType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.GridlineType enum. Type of gridline
 type: docs
-weight: 3010
+weight: 3020
 url: /net/aspose.tasks.visualization/gridlinetype/
 ---
 ## GridlineType enumeration

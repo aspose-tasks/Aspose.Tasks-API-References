@@ -3,7 +3,7 @@ title: Enum CsvTextDelimiter
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.CsvTextDelimiter enum. Text delimiter for CSV format
 type: docs
-weight: 1920
+weight: 1930
 url: /net/aspose.tasks.saving/csvtextdelimiter/
 ---
 ## CsvTextDelimiter enumeration

@@ -3,7 +3,7 @@ title: Task.IsSubprojectReadOnly
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value indicating whether IsSubprojectReadOnly is set or not
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.tasks/task/issubprojectreadonly/
 ---
 ## Task.IsSubprojectReadOnly property

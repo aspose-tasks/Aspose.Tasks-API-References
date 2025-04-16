@@ -3,7 +3,7 @@ title: Task.Clone
 second_title: Aspose.Tasks for .NET API Reference
 description: Task method. Creates full copy of a task without subtasks
 type: docs
-weight: 1300
+weight: 1310
 url: /net/aspose.tasks/task/clone/
 ---
 ## Task.Clone method

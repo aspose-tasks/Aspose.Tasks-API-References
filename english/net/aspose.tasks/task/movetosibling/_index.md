@@ -3,7 +3,7 @@ title: Task.MoveToSibling
 second_title: Aspose.Tasks for .NET API Reference
 description: Task method. Moves the current task at the same Outline Level before the specified task. If ParentProject.CalculationMode is None user should invoke Project.Recalculate after using this method It will reschedule all project tasks start/finish dates sets early/late dates and calculate the dependent fields such as slacks work and cost fields outline levels. If ParentProject.CalculationMode is Manual the method will calculate only task id outline level and outline numbers automatically. If ParentProject.CalculationMode is Automatic the method reschedules all projects tasks automatically start/finish dates sets early/late dates calculates slacks work and cost fields recalculates ids and outline levels
 type: docs
-weight: 1360
+weight: 1370
 url: /net/aspose.tasks/task/movetosibling/
 ---
 ## MoveToSibling(Task) {#movetosibling}

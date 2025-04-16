@@ -20,7 +20,7 @@ public WorkingTimeCollection GetWorkingTimes(DateTime dt)
 
 ### Return Value
 
-List of [`WorkingTime`](../../workingtime/).
+Collection of [`WorkingTime`](../../workingtime/) instances.
 
 ## Examples
 

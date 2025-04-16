@@ -3,7 +3,7 @@ title: Task.PrimaveraProperties
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets an object containing Primaveraspecific properties for a task read from Primavera file
 type: docs
-weight: 1000
+weight: 1010
 url: /net/aspose.tasks/task/primaveraproperties/
 ---
 ## Task.PrimaveraProperties property
