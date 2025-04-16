@@ -3,7 +3,7 @@ title: Task.Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: Task method. Returns a value indicating whether this instance is equal to a specified task
 type: docs
-weight: 1320
+weight: 1330
 url: /net/aspose.tasks/task/equals/
 ---
 ## Equals(Task) {#equals}

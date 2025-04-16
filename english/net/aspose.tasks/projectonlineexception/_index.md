@@ -3,7 +3,7 @@ title: Class ProjectOnlineException
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ProjectOnlineException class. Represents an exception which is thrown when errors are found during interaction with Project Online or Project Server instance
 type: docs
-weight: 1410
+weight: 1420
 url: /net/aspose.tasks/projectonlineexception/
 ---
 ## ProjectOnlineException class

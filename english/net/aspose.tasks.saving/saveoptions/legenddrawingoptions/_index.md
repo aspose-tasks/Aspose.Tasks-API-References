@@ -3,7 +3,7 @@ title: SaveOptions.LegendDrawingOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.tasks.saving/saveoptions/legenddrawingoptions/
 ---
 ## SaveOptions.LegendDrawingOptions property
@@ -13,6 +13,10 @@ Gets or sets a value which define how to render a legend. Default value is Legen
 ```csharp
 public LegendDrawingOptions LegendDrawingOptions { get; set; }
 ```
+
+## Remarks
+
+Is only applicable when Gantt chart view is rendered.
 
 ## Examples
 

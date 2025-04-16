@@ -3,7 +3,7 @@ title: Enum ItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ItemType enum. Specifies the type of an item
 type: docs
-weight: 900
+weight: 910
 url: /net/aspose.tasks/itemtype/
 ---
 ## ItemType enumeration

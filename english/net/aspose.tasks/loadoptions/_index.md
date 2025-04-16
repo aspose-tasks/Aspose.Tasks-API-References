@@ -3,7 +3,7 @@ title: Class LoadOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.LoadOptions class. Allows to specify additional load parameters when loading a project from file or stream
 type: docs
-weight: 970
+weight: 980
 url: /net/aspose.tasks/loadoptions/
 ---
 ## LoadOptions class

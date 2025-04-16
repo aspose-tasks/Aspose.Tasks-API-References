@@ -3,7 +3,7 @@ title: Task.Status
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets task status
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.tasks/task/status/
 ---
 ## Task.Status property

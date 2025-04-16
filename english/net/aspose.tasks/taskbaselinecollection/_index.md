@@ -3,7 +3,7 @@ title: Class TaskBaselineCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskBaselineCollection class. Represents a collection of TaskBaseline objects
 type: docs
-weight: 2300
+weight: 2310
 url: /net/aspose.tasks/taskbaselinecollection/
 ---
 ## TaskBaselineCollection class

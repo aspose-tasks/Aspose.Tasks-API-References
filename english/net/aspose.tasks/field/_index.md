@@ -1363,10 +1363,10 @@ public enum Field
 | TaskCompleteThrough | `188743799` | Available only in the Bar Styles dialog box in MSP and is represented as a bar on the Gantt Chart. |
 | TaskBaseLineFixedCost | `188744160` | Represents the Baseline Fixed Cost (Task) field. |
 | ResourceAssignmentGuid | `255853180` | Represents the GUID (Assignment) field. |
-| ResourceAssignmentBaseLineStart | `255852690` | Represents the Baseline Start (Assignment) field. |
-| ResourceAssignmentBaseLineFinish | `255852691` | Represents the Baseline Finish (Assignment) field. |
 | ResourceAssignmentBaseLineCost | `255852576` | Represents the Baseline Cost (Assignment) field. |
 | ResourceAssignmentBaseLineWork | `255852560` | Represents the Baseline Work (Assignment) field. |
+| ResourceAssignmentBaseLineStart | `255852690` | Represents the Baseline Start (Assignment) field. |
+| ResourceAssignmentBaseLineFinish | `255852691` | Represents the Baseline Finish (Assignment) field. |
 | ResourceAssignmentBaseLineCostPerUse | `255852811` | Represents the Baseline Cost Per Use (Assignment) field. |
 
 ## Examples

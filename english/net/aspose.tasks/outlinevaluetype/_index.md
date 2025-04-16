@@ -3,7 +3,7 @@ title: Enum OutlineValueType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.OutlineValueType enum. Specifies the type of an outline value
 type: docs
-weight: 1210
+weight: 1220
 url: /net/aspose.tasks/outlinevaluetype/
 ---
 ## OutlineValueType enumeration

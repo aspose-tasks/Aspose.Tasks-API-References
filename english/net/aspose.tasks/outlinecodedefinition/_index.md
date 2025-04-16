@@ -3,7 +3,7 @@ title: Class OutlineCodeDefinition
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.OutlineCodeDefinition class. Represents an outline code definition
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.tasks/outlinecodedefinition/
 ---
 ## OutlineCodeDefinition class
@@ -11,7 +11,7 @@ url: /net/aspose.tasks/outlinecodedefinition/
 Represents an outline code definition.
 
 ```csharp
-public class OutlineCodeDefinition
+public sealed class OutlineCodeDefinition
 ```
 
 ## Constructors

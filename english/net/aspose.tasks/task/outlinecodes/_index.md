@@ -3,7 +3,7 @@ title: Task.OutlineCodes
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets OutlineCodeCollection object
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.tasks/task/outlinecodes/
 ---
 ## Task.OutlineCodes property

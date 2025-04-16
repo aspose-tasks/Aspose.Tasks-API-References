@@ -3,7 +3,7 @@ title: Class PrimaveraXmlReader
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.PrimaveraXmlReader class. Represents a reader which allows to retrieve Project UIDs from Primavera Xml file
 type: docs
-weight: 1340
+weight: 1350
 url: /net/aspose.tasks/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader class

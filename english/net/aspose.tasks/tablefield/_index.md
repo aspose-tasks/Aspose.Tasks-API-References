@@ -3,7 +3,7 @@ title: Class TableField
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TableField class. Represents a field of a table in a project
 type: docs
-weight: 2260
+weight: 2270
 url: /net/aspose.tasks/tablefield/
 ---
 ## TableField class

@@ -3,7 +3,7 @@ title: Enum BarItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.BarItemType enum. Item type to change a bar style for
 type: docs
-weight: 2840
+weight: 2850
 url: /net/aspose.tasks.visualization/baritemtype/
 ---
 ## BarItemType enumeration

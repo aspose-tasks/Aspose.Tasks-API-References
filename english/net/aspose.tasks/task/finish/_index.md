@@ -3,7 +3,7 @@ title: Task.Finish
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value of Finish
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.tasks/task/finish/
 ---
 ## Task.Finish property

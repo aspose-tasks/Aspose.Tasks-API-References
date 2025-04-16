@@ -3,7 +3,7 @@ title: Enum ProbabilityDistributionType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RiskAnalysis.ProbabilityDistributionType enum. Specifies types of supported probability distributions
 type: docs
-weight: 1790
+weight: 1800
 url: /net/aspose.tasks.riskanalysis/probabilitydistributiontype/
 ---
 ## ProbabilityDistributionType enumeration

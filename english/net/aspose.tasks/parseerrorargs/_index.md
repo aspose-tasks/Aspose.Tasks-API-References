@@ -3,7 +3,7 @@ title: Class ParseErrorArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ParseErrorArgs class. Provides data for the ParseErrorCallback delegate
 type: docs
-weight: 1220
+weight: 1230
 url: /net/aspose.tasks/parseerrorargs/
 ---
 ## ParseErrorArgs class

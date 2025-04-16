@@ -3,7 +3,7 @@ title: Task.OutlineIndent
 second_title: Aspose.Tasks for .NET API Reference
 description: Task method. Indents a task in the outline
 type: docs
-weight: 1370
+weight: 1380
 url: /net/aspose.tasks/task/outlineindent/
 ---
 ## Task.OutlineIndent method

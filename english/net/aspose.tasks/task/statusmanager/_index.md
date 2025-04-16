@@ -3,7 +3,7 @@ title: Task.StatusManager
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value of StatusManager
 type: docs
-weight: 1160
+weight: 1170
 url: /net/aspose.tasks/task/statusmanager/
 ---
 ## Task.StatusManager property

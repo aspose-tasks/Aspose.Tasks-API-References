@@ -1,14 +1,14 @@
 ---
 title: Calendar.IsDayWorking
 second_title: Aspose.Tasks for .NET API Reference
-description: Calendar method. Determines whether the day is working day
+description: Calendar method. Determines whether the specified day is a working day according to the calendar
 type: docs
 weight: 230
 url: /net/aspose.tasks/calendar/isdayworking/
 ---
 ## Calendar.IsDayWorking method
 
-Determines whether the day is working day.
+Determines whether the specified day is a working day according to the calendar.
 
 ```csharp
 public bool IsDayWorking(DateTime dt)
@@ -16,11 +16,11 @@ public bool IsDayWorking(DateTime dt)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dt | DateTime | The date to check day is working for. |
+| dt | DateTime | The date to check whether the day is working. |
 
 ### Return Value
 
-True if the day is working day.
+True if the day is a working day.
 
 ## Examples
 

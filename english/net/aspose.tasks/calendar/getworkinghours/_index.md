@@ -1,14 +1,14 @@
 ---
 title: Calendar.GetWorkingHours
 second_title: Aspose.Tasks for .NET API Reference
-description: Calendar method. Return working hours for the specified dates
+description: Calendar method. Return WorkUnit  Start Finish and Duration of working hours for the specified date time interval
 type: docs
 weight: 210
 url: /net/aspose.tasks/calendar/getworkinghours/
 ---
 ## GetWorkingHours(DateTime, DateTime) {#getworkinghours}
 
-Return working hours for the specified dates.
+Return WorkUnit - Start, Finish and Duration of working hours for the specified date time interval.
 
 ```csharp
 public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
@@ -16,12 +16,12 @@ public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| start | DateTime | Start date. |
-| finish | DateTime | Finish date. |
+| start | DateTime | Start date of the interval. |
+| finish | DateTime | Finish date of the interval. |
 
 ### Return Value
 
-Working hours.
+Instance of [`WorkUnit`](../../workunit/) class containing Start, Finish and Duration of working hours.
 
 ## Examples
 
@@ -50,7 +50,7 @@ Console.WriteLine(workUnit.WorkingHours);
 
 ## GetWorkingHours(DateTime) {#getworkinghours_1}
 
-Returns amount of working hours at the date.
+Returns the amount of working hours at the specified date.
 
 ```csharp
 public TimeSpan GetWorkingHours(DateTime dt)
@@ -62,7 +62,7 @@ public TimeSpan GetWorkingHours(DateTime dt)
 
 ### Return Value
 
-Working hours.
+Working hours at the specified date.
 
 ## Examples
 

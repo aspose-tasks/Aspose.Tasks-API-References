@@ -3,7 +3,7 @@ title: Class PrimaveraXmlSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.PrimaveraXmlSaveOptions class. Allows to specify additional options when saving project to Primavera xml format
 type: docs
-weight: 2090
+weight: 2100
 url: /net/aspose.tasks.saving/primaveraxmlsaveoptions/
 ---
 ## PrimaveraXmlSaveOptions class
@@ -26,6 +26,7 @@ public class PrimaveraXmlSaveOptions : SimpleSaveOptions
 | --- | --- |
 | [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Gets or sets the format in which the document will be saved if this save options object is used. |
 | [SaveRootTask](../../aspose.tasks.saving/primaveraxmlsaveoptions/saveroottask/) { get; set; } | Gets or sets a value indicating whether to save a root task or not. |
+| [SkipSummaryAssignments](../../aspose.tasks.saving/primaveraxmlsaveoptions/skipsummaryassignments/) { get; set; } | Gets or sets a value indicating whether assignments of resources to summary tasks should be skipped during export. |
 | [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Gets or sets the comparer to sort tasks on Gantt chart and Task Sheet chart. |
 | [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Gets or sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
 

@@ -3,7 +3,7 @@ title: Enum TimephasedDataType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TimephasedDataType enum. Specifies the type of time phased data
 type: docs
-weight: 2520
+weight: 2530
 url: /net/aspose.tasks/timephaseddatatype/
 ---
 ## TimephasedDataType enumeration

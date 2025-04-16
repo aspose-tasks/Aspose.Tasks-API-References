@@ -3,7 +3,7 @@ title: SaveOptions.UseGradientBrush
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets a value indicating whether gradient brush should be used when rendering Gantt Chart
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.tasks.saving/saveoptions/usegradientbrush/
 ---
 ## SaveOptions.UseGradientBrush property

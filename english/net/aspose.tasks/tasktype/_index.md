@@ -3,7 +3,7 @@ title: Enum TaskType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskType enum. Specifies the type of a task
 type: docs
-weight: 2380
+weight: 2390
 url: /net/aspose.tasks/tasktype/
 ---
 ## TaskType enumeration

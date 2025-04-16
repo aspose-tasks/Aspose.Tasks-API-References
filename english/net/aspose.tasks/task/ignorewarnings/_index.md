@@ -3,7 +3,7 @@ title: Task.IgnoreWarnings
 second_title: Aspose.Tasks for .NET API Reference
 description: Task property. Gets or sets a value indicating whether IgnoreWarnings is set or not
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.tasks/task/ignorewarnings/
 ---
 ## Task.IgnoreWarnings property

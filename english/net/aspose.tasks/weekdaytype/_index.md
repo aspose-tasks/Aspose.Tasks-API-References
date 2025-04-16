@@ -3,7 +3,7 @@ title: Enum WeekdayType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WeekdayType enum. Represents a weekday of a project in the instance of RecurringTaskInfo class
 type: docs
-weight: 3450
+weight: 3480
 url: /net/aspose.tasks/weekdaytype/
 ---
 ## WeekdayType enumeration

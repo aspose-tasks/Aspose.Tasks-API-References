@@ -3,7 +3,7 @@ title: Class OutlineValueCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.OutlineValueCollection class. Represents a collection of OutlineValue objects
 type: docs
-weight: 1200
+weight: 1210
 url: /net/aspose.tasks/outlinevaluecollection/
 ---
 ## OutlineValueCollection class

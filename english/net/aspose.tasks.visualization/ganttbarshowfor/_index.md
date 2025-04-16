@@ -3,7 +3,7 @@ title: Enum GanttBarShowFor
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.GanttBarShowFor enum. Represents categories of tasks used when customizing Bar Styles of Gantt chart
 type: docs
-weight: 2960
+weight: 2970
 url: /net/aspose.tasks.visualization/ganttbarshowfor/
 ---
 ## GanttBarShowFor enumeration
