@@ -3,7 +3,7 @@ title: ProjectFileInfo
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.tasks/projectfileinfo/
 ---
 

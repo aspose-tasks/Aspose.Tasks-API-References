@@ -3,7 +3,7 @@ title: ProgressLines
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.tasks.visualization/progresslines/
 ---
 

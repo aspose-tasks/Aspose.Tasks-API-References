@@ -3,7 +3,7 @@ title: PageViewSettings
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.tasks.visualization/pageviewsettings/
 ---
 

@@ -3,7 +3,7 @@ title: OutlineCodeCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 650
 url: /python-net/aspose.tasks/outlinecodecollection/
 ---
 

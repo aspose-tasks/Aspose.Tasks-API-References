@@ -3,7 +3,7 @@ title: GanttBarShowFor
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.tasks.visualization/ganttbarshowfor/
 ---
 

@@ -24,6 +24,7 @@ Contains helper classes for rendering.
 |[ITextStyleModificationCallback](/tasks/python-net/aspose.tasks.visualization/itextstylemodificationcallback/)|Represents a callback that is called before TextStyle is applied to a table cell.|
 |[PageInfo](/tasks/python-net/aspose.tasks.visualization/pageinfo/)|Represents page setup data which is present in MPP file format and used for printing.|
 |[PageLegend](/tasks/python-net/aspose.tasks.visualization/pagelegend/)|Represents a page legend which is used for project printing.|
+|[PageLegendItem](/tasks/python-net/aspose.tasks.visualization/pagelegenditem/)|Represents an item of page legend of Gantt chart.|
 |[PageMargins](/tasks/python-net/aspose.tasks.visualization/pagemargins/)|Represents page margins for printing.|
 |[PageSettings](/tasks/python-net/aspose.tasks.visualization/pagesettings/)|Represents printing settings for a page of project view.|
 |[PageViewSettings](/tasks/python-net/aspose.tasks.visualization/pageviewsettings/)|Represents printing settings for a project view.|

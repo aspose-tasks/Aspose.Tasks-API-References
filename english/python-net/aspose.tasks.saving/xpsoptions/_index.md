@@ -28,6 +28,7 @@ The XpsOptions type exposes the following members:
 |fit_content|Gets or sets a value indicating whether row height should be increased to fit its content.|
 |gridlines|Gets or sets a list of [Gridline](/tasks/python-net/aspose.tasks.visualization/gridline/) that appear in project view.|
 |legend_drawing_options|Gets or sets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage.|
+|legend_items|Gets or sets an array of PageLegendItem which define which bars should be rendered in page legend.<br/>            If null, the default items are rendered.|
 |mark_critical_tasks|Gets or sets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE).|
 |non_working_time_color|Gets or sets the non-working time color.|
 |page_count|Gets or sets the number of pages of project.|

@@ -27,21 +27,22 @@ The Calendar type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_start_date_from_finish_and_duration(finish, duration)|Returns StartDate based on specified FinishDate and Duration.|
-|get_start_date_from_finish_and_duration(finish, duration)|Returns StartDate based on specified FinishDate and Duration.|
-|get_working_hours(start, finish)|Return working hours for the specified dates.|
-|get_working_hours(dt)|Return working hours for the specified dates.|
+|get_start_date_from_finish_and_duration(finish, duration)|Returns start date based on the specified finish date and duration.|
+|get_start_date_from_finish_and_duration(finish, duration)|Returns start date based on specified finish date and duration.|
+|get_working_hours(start, finish)|Return WorkUnit - Start, Finish and Duration of working hours for the specified date time interval.|
+|get_working_hours(dt)|Return WorkUnit - Start, Finish and Duration of working hours for the specified date time interval.|
 |get_finish_date_by_start_and_work(start, work)|Calculates the date when the specified amount of work time will pass according to the calendar.|
 |get_finish_date_by_start_and_work(start, work)|Calculates the date when the specified amount of work time will pass according to the calendar.|
+|get_intersection_calendar(calendar1, calendar2)|Gets [ICalendar](/tasks/python-net/aspose.tasks/icalendar/) instance which can be used to perform calculations on the intersection of work schedules of 2 calendars.|
 |make_standard_calendar(calendar)|Creates default standard calendar.|
 |make_24_hour_calendar(calendar)|Makes a given Calendar to be a 24Hour Calendar.<br/>            24Hours Calendar is a Calendar in which every day of week is working with Round-the-clock working hours.|
 |make_night_shift_calendar(calendar)|Makes a given Calendar as Night Shift Calendar.|
 |delete()|Removes calendar from project.|
-|is_day_working(dt)|Determines whether the day is working day.|
-|get_task_finish_date_from_duration(task, duration)|Calculates the task finish date and time from its start date, split parts and the duration.|
+|is_day_working(dt)|Determines whether the specified day is a working day according to the calendar.|
+|get_task_finish_date_from_duration(task, duration)|Calculates the task finish date and time from its start date, split parts and the work duration.|
 |get_working_times(dt)|Returns [WorkingTimeCollection](/tasks/python-net/aspose.tasks/workingtimecollection/) of working times for the specified date.|
-|get_previous_working_day_end(date)|Calculates previous working date end from the specified date.|
-|get_next_working_day_start(date)|Calculates next working day start from the date.|
+|get_previous_working_day_end(date)|Calculates the end of the previous working date from the specified date.|
+|get_next_working_day_start(date)|Calculates next working day start for the specified date.|
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: TimephasedDataType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2780
+weight: 2800
 url: /python-net/aspose.tasks/timephaseddatatype/
 ---
 
