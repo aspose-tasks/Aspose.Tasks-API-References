@@ -3,7 +3,7 @@ title: TimescaleUnit
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view.
 type: docs
-weight: 318
+weight: 319
 url: /java/com.aspose.tasks/timescaleunit/
 ---
 

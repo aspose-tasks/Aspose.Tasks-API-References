@@ -3,7 +3,7 @@ title: AssignmentToColumnTextConverter
 second_title: Aspose.Tasks for Java API Reference
 description: ResourceAssignment data to columns string converter.
 type: docs
-weight: 364
+weight: 365
 url: /java/com.aspose.tasks/assignmenttocolumntextconverter/
 ---
 ```

@@ -3,7 +3,7 @@ title: ResourceValidationException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an exception which is thrown when errors are found in resources properties.
 type: docs
-weight: 254
+weight: 255
 url: /java/com.aspose.tasks/resourcevalidationexception/
 ---
 

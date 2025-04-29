@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a value in a value list.
 type: docs
-weight: 325
+weight: 326
 url: /java/com.aspose.tasks/value/
 ---
 

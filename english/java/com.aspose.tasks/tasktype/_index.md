@@ -3,7 +3,7 @@ title: TaskType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of a task.
 type: docs
-weight: 295
+weight: 296
 url: /java/com.aspose.tasks/tasktype/
 ---
 

@@ -9,8 +9,11 @@ url: /java/com.aspose.tasks/calendar/
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+[com.aspose.tasks.ICalendar](../../com.aspose.tasks/icalendar)
 ```
-public class Calendar
+public class Calendar implements ICalendar
 ```
 
 Represents a calendar used in a project.
@@ -61,22 +64,23 @@ Calendars are used to define standard working and non-working times. Projects mu
 | [getFinishDateByStartAndWork(Date start, Duration work)](#getFinishDateByStartAndWork-java.util.Date-com.aspose.tasks.Duration-) | Calculates the date when the specified amount of work time will pass according to the calendar. |
 | [getFinishDateByStartAndWork(Date start, double work)](#getFinishDateByStartAndWork-java.util.Date-double-) | Calculates the date when the specified amount of work time will pass according to the calendar. |
 | [getGuid()](#getGuid--) | Gets calendar's Guid. |
+| [getIntersectionCalendar(Calendar calendar1, Calendar calendar2)](#getIntersectionCalendar-com.aspose.tasks.Calendar-com.aspose.tasks.Calendar-) | Gets [ICalendar](../../com.aspose.tasks/icalendar) instance which can be used to perform calculations on the intersection of work schedules of 2 calendars. |
 | [getName()](#getName--) | Gets the name of the calendar. |
-| [getNextWorkingDayStart(Date date)](#getNextWorkingDayStart-java.util.Date-) | Calculates next working day start from the date. |
-| [getPreviousWorkingDayEnd(Date date)](#getPreviousWorkingDayEnd-java.util.Date-) | Calculates previous working date end from the specified date. |
-| [getStartDateFromFinishAndDuration(Date finish, Duration duration)](#getStartDateFromFinishAndDuration-java.util.Date-com.aspose.tasks.Duration-) | Returns StartDate based on specified FinishDate and Duration. |
-| [getStartDateFromFinishAndDuration(Date finish, double duration)](#getStartDateFromFinishAndDuration-java.util.Date-double-) | Returns StartDate based on specified FinishDate and Duration. |
-| [getTaskFinishDateFromDuration(Task task, double duration)](#getTaskFinishDateFromDuration-com.aspose.tasks.Task-double-) | Calculates the task finish date and time from its start date, split parts and the duration. |
+| [getNextWorkingDayStart(Date date)](#getNextWorkingDayStart-java.util.Date-) | Calculates next working day start for the specified date. |
+| [getPreviousWorkingDayEnd(Date date)](#getPreviousWorkingDayEnd-java.util.Date-) | Calculates the end of the previous working date from the specified date. |
+| [getStartDateFromFinishAndDuration(Date finish, Duration duration)](#getStartDateFromFinishAndDuration-java.util.Date-com.aspose.tasks.Duration-) | Returns start date based on the specified finish date and duration. |
+| [getStartDateFromFinishAndDuration(Date finish, double duration)](#getStartDateFromFinishAndDuration-java.util.Date-double-) | Returns start date based on specified finish date and duration. |
+| [getTaskFinishDateFromDuration(Task task, double duration)](#getTaskFinishDateFromDuration-com.aspose.tasks.Task-double-) | Calculates the task finish date and time from its start date, split parts and the work duration. |
 | [getUid()](#getUid--) | Gets the unique identifier of the calendar. |
 | [getWeekDays()](#getWeekDays--) | Gets WeekDaysCollection for this calendar. |
 | [getWorkWeeks()](#getWorkWeeks--) | Gets WorkWeekCollections object. |
-| [getWorkingHours(Date dt)](#getWorkingHours-java.util.Date-) | Returns amount of working hours at the date. |
-| [getWorkingHours(Date start, Date finish)](#getWorkingHours-java.util.Date-java.util.Date-) | Return working hours for the specified dates. |
+| [getWorkingHours(Date dt)](#getWorkingHours-java.util.Date-) | Returns the amount of working hours at the specified date. |
+| [getWorkingHours(Date start, Date finish)](#getWorkingHours-java.util.Date-java.util.Date-) | Return WorkUnit - Start, Finish and Duration of working hours for the specified date time interval. |
 | [getWorkingTimes(Date dt)](#getWorkingTimes-java.util.Date-) | Returns [WorkingTimeCollection](../../com.aspose.tasks/workingtimecollection) of working times for the specified date. |
 | [hashCode()](#hashCode--) | Returns a hash code for the instance of the class. |
 | [isBaseCalendar()](#isBaseCalendar--) | Gets a value indicating whether the calendar is a base calendar. |
 | [isBaselineCalendar()](#isBaselineCalendar--) | Gets a value indicating whether the calendar is a baseline calendar. |
-| [isDayWorking(Date dt)](#isDayWorking-java.util.Date-) | Determines whether the day is working day. |
+| [isDayWorking(Date dt)](#isDayWorking-java.util.Date-) | Determines whether the specified day is a working day according to the calendar. |
 | [make24HourCalendar(Calendar calendar)](#make24HourCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar to be a 24Hour Calendar. 24Hours Calendar is a Calendar in which every day of week is working with Round-the-clock working hours. |
 | [makeNightShiftCalendar(Calendar calendar)](#makeNightShiftCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar as Night Shift Calendar. |
 | [makeStandardCalendar(Calendar calendar)](#makeStandardCalendar-com.aspose.tasks.Calendar-) | Creates default standard calendar. |
@@ -169,6 +173,22 @@ Gets calendar's Guid.
 
 **Returns:**
 java.lang.String - calendar's Guid.
+### getIntersectionCalendar(Calendar calendar1, Calendar calendar2) {#getIntersectionCalendar-com.aspose.tasks.Calendar-com.aspose.tasks.Calendar-}
+```
+public static ICalendar getIntersectionCalendar(Calendar calendar1, Calendar calendar2)
+```
+
+
+Gets [ICalendar](../../com.aspose.tasks/icalendar) instance which can be used to perform calculations on the intersection of work schedules of 2 calendars.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| calendar1 | [Calendar](../../com.aspose.tasks/calendar) | First calendar. |
+| calendar2 | [Calendar](../../com.aspose.tasks/calendar) | Second calendar. |
+
+**Returns:**
+[ICalendar](../../com.aspose.tasks/icalendar) - Implementation of ICalendar interface.
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -185,7 +205,7 @@ public final Date getNextWorkingDayStart(Date date)
 ```
 
 
-Calculates next working day start from the date.
+Calculates next working day start for the specified date.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,7 +220,7 @@ public final Date getPreviousWorkingDayEnd(Date date)
 ```
 
 
-Calculates previous working date end from the specified date.
+Calculates the end of the previous working date from the specified date.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,59 +228,57 @@ Calculates previous working date end from the specified date.
 | date | java.util.Date | the specified instance of java.util.Date struct. |
 
 **Returns:**
-java.util.Date - Previous working day start java.util.Date
+java.util.Date - The end of the previous working day end java.util.Date
 ### getStartDateFromFinishAndDuration(Date finish, Duration duration) {#getStartDateFromFinishAndDuration-java.util.Date-com.aspose.tasks.Duration-}
 ```
 public final Date getStartDateFromFinishAndDuration(Date finish, Duration duration)
 ```
 
 
-Returns StartDate based on specified FinishDate and Duration.
+Returns start date based on the specified finish date and duration.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | finish | java.util.Date | The specified finish date. |
-| duration | [Duration](../../com.aspose.tasks/duration) | The specified work duration. |
+| duration | [Duration](../../com.aspose.tasks/duration) | The specified duration. |
 
 **Returns:**
-java.util.Date - Calculated StartDate.
+java.util.Date - Calculated start date.
 ### getStartDateFromFinishAndDuration(Date finish, double duration) {#getStartDateFromFinishAndDuration-java.util.Date-double-}
 ```
 public final Date getStartDateFromFinishAndDuration(Date finish, double duration)
 ```
 
 
-Returns StartDate based on specified FinishDate and Duration.
+Returns start date based on specified finish date and duration.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | finish | java.util.Date | The specified finish date. |
-| duration | double | The specified work duration. |
+| duration | double | The specified duration. |
 
 **Returns:**
-java.util.Date - Calculated StartDate.
+java.util.Date - Calculated start date.
 ### getTaskFinishDateFromDuration(Task task, double duration) {#getTaskFinishDateFromDuration-com.aspose.tasks.Task-double-}
 ```
 public final Date getTaskFinishDateFromDuration(Task task, double duration)
 ```
 
 
-Calculates the task finish date and time from its start date, split parts and the duration.
+Calculates the task finish date and time from its start date, split parts and the work duration.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | [Task](../../com.aspose.tasks/task) | The task to get finish date for. |
-| duration | double | The task duration to split on.
-
---------------------
+| task | [Task](../../com.aspose.tasks/task) | The task to calculate finish date for. |
+| duration | double | The duration to calculate.
 
 Returns DateTime.MinValue if task is summary, null or its start date is not set. |
 
 **Returns:**
-java.util.Date - Task's finish date.
+java.util.Date - Task's finish date for the given start date and duration.
 ### getUid() {#getUid--}
 ```
 public final int getUid()
@@ -297,7 +315,7 @@ public final double getWorkingHours(Date dt)
 ```
 
 
-Returns amount of working hours at the date.
+Returns the amount of working hours at the specified date.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,23 +323,23 @@ Returns amount of working hours at the date.
 | dt | java.util.Date | The date to get working hours for. |
 
 **Returns:**
-double - Working hours.
+double - Working hours at the specified date.
 ### getWorkingHours(Date start, Date finish) {#getWorkingHours-java.util.Date-java.util.Date-}
 ```
 public final WorkUnit getWorkingHours(Date start, Date finish)
 ```
 
 
-Return working hours for the specified dates.
+Return WorkUnit - Start, Finish and Duration of working hours for the specified date time interval.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| start | java.util.Date | Start date. |
-| finish | java.util.Date | Finish date. |
+| start | java.util.Date | Start date of the interval. |
+| finish | java.util.Date | Finish date of the interval. |
 
 **Returns:**
-[WorkUnit](../../com.aspose.tasks/workunit) - Working hours.
+[WorkUnit](../../com.aspose.tasks/workunit) - Instance of [WorkUnit](../../com.aspose.tasks/workunit) class containing Start, Finish and Duration of working hours.
 ### getWorkingTimes(Date dt) {#getWorkingTimes-java.util.Date-}
 ```
 public final WorkingTimeCollection getWorkingTimes(Date dt)
@@ -336,7 +354,7 @@ Returns [WorkingTimeCollection](../../com.aspose.tasks/workingtimecollection) of
 | dt | java.util.Date | The date to get working times for. |
 
 **Returns:**
-[WorkingTimeCollection](../../com.aspose.tasks/workingtimecollection) - List of [WorkingTime](../../com.aspose.tasks/workingtime).
+[WorkingTimeCollection](../../com.aspose.tasks/workingtimecollection) - Collection of [WorkingTime](../../com.aspose.tasks/workingtime) instances.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -373,15 +391,15 @@ public final boolean isDayWorking(Date dt)
 ```
 
 
-Determines whether the day is working day.
+Determines whether the specified day is a working day according to the calendar.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dt | java.util.Date | The date to check day is working for. |
+| dt | java.util.Date | The date to check whether the day is working. |
 
 **Returns:**
-boolean - True if the day is working day.
+boolean - True if the day is a working day.
 ### make24HourCalendar(Calendar calendar) {#make24HourCalendar-com.aspose.tasks.Calendar-}
 ```
 public static Calendar make24HourCalendar(Calendar calendar)

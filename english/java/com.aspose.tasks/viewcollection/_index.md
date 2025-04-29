@@ -3,7 +3,7 @@ title: ViewCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Contains a list of  objects.
 type: docs
-weight: 334
+weight: 335
 url: /java/com.aspose.tasks/viewcollection/
 ---
 

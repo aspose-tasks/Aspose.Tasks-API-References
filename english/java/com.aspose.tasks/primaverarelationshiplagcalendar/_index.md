@@ -3,7 +3,7 @@ title: PrimaveraRelationshipLagCalendar
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies which calendar to use for scheduling Relationship Lag in Primavera projects.
 type: docs
-weight: 201
+weight: 202
 url: /java/com.aspose.tasks/primaverarelationshiplagcalendar/
 ---
 
