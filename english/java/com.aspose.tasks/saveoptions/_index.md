@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: This is an abstract base class for classes that allow the user to specify additional options when saving a project into a particular format.
 type: docs
-weight: 268
+weight: 269
 url: /java/com.aspose.tasks/saveoptions/
 ---
 
@@ -30,6 +30,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getFitTimescaleToEndOfPage()](#getFitTimescaleToEndOfPage--) | Gets whether a calendar section of a view should be rendered to the end (right side) of the last page. |
 | [getGridlines()](#getGridlines--) | Gets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view. |
 | [getLegendDrawingOptions()](#getLegendDrawingOptions--) | Gets a value which define how to render a legend. |
+| [getLegendItems()](#getLegendItems--) | Gets an array of PageLegendItem which define which bars should be rendered in page legend. |
 | [getMarkCriticalTasks()](#getMarkCriticalTasks--) | Gets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
 | [getNonWorkingTimeColor()](#getNonWorkingTimeColor--) | Gets the non-working time color. |
 | [getPageCount()](#getPageCount--) | Gets the number of pages of project. |
@@ -53,6 +54,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setFitTimescaleToEndOfPage(boolean value)](#setFitTimescaleToEndOfPage-boolean-) | Sets whether a calendar section of a view should be rendered to the end (right side) of the last page. |
 | [setGridlines(List&lt;Gridline&gt; value)](#setGridlines-java.util.List-com.aspose.tasks.Gridline--) | Sets a list of [Gridline](../../com.aspose.tasks/gridline) that appear in project view. |
 | [setLegendDrawingOptions(int value)](#setLegendDrawingOptions-int-) | Sets a value which define how to render a legend. |
+| [setLegendItems(PageLegendItem[] value)](#setLegendItems-com.aspose.tasks.PageLegendItem---) | Sets an array of PageLegendItem which define which bars should be rendered in page legend. |
 | [setMarkCriticalTasks(boolean value)](#setMarkCriticalTasks-boolean-) | Sets a value indicating whether critical tasks should be displayed in red color (Default value is FALSE). |
 | [setNonWorkingTimeColor(Color value)](#setNonWorkingTimeColor-java.awt.Color-) | Sets the non-working time color. |
 | [setPageSize(int value)](#setPageSize-int-) | Sets the size of page to be rendered (Default value is PageSize.A4). |
@@ -145,8 +147,22 @@ public final int getLegendDrawingOptions()
 
 Gets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage.
 
+Is only applicable when Gantt chart view is rendered.
+
 **Returns:**
 int - a value which define how to render a legend.
+### getLegendItems() {#getLegendItems--}
+```
+public final PageLegendItem[] getLegendItems()
+```
+
+
+Gets an array of PageLegendItem which define which bars should be rendered in page legend. If null, the default items are rendered.
+
+Is only applicable when Gantt chart view is rendered.
+
+**Returns:**
+com.aspose.tasks.PageLegendItem[] - an array of PageLegendItem which define which bars should be rendered in page legend.
 ### getMarkCriticalTasks() {#getMarkCriticalTasks--}
 ```
 public final boolean getMarkCriticalTasks()
@@ -412,10 +428,27 @@ public final void setLegendDrawingOptions(int value)
 
 Sets a value which define how to render a legend. Default value is LegendDrawingOptions.OnEveryPage.
 
+Is only applicable when Gantt chart view is rendered.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | a value which define how to render a legend. |
+
+### setLegendItems(PageLegendItem[] value) {#setLegendItems-com.aspose.tasks.PageLegendItem---}
+```
+public final void setLegendItems(PageLegendItem[] value)
+```
+
+
+Sets an array of PageLegendItem which define which bars should be rendered in page legend. If null, the default items are rendered.
+
+Is only applicable when Gantt chart view is rendered.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PageLegendItem\[\]](../../com.aspose.tasks/pagelegenditem) | an array of PageLegendItem which define which bars should be rendered in page legend. |
 
 ### setMarkCriticalTasks(boolean value) {#setMarkCriticalTasks-boolean-}
 ```

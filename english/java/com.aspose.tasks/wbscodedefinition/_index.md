@@ -3,7 +3,7 @@ title: WBSCodeDefinition
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a WBS Code Definition.
 type: docs
-weight: 338
+weight: 339
 url: /java/com.aspose.tasks/wbscodedefinition/
 ---
 

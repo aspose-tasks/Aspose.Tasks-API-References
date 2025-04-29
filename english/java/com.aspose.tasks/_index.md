@@ -179,6 +179,7 @@ url: /java/com.aspose.tasks/
 | [OutlineValueType](../com.aspose.tasks/outlinevaluetype) | Specifies the type of an outline value. |
 | [PageInfo](../com.aspose.tasks/pageinfo) | Represents page setup data which is present in MPP file format and used for printing. |
 | [PageLegend](../com.aspose.tasks/pagelegend) | Represents a page legend which is used for project printing. |
+| [PageLegendItem](../com.aspose.tasks/pagelegenditem) | Represents an item of page legend of Gantt chart. |
 | [PageMargins](../com.aspose.tasks/pagemargins) | Represents page margins for printing. |
 | [PageSavingArgs](../com.aspose.tasks/pagesavingargs) | This class represents set of data that related to saving of document's page to a stream. |
 | [PageSettings](../com.aspose.tasks/pagesettings) | Represents printing settings for a page of project view. |
@@ -375,6 +376,7 @@ url: /java/com.aspose.tasks/
 | [AssignmentToColumnTextConverter](../com.aspose.tasks/assignmenttocolumntextconverter) | ResourceAssignment data to column's string converter. |
 | [Event&lt;TArgs&gt;](../com.aspose.tasks/event) | An event. |
 | [IAlgorithm&lt;T&gt;](../com.aspose.tasks/ialgorithm) | Represents an algorithm that can be applied to a list of objects `T`. |
+| [ICalendar](../com.aspose.tasks/icalendar) | Represents a calendar abstraction which can be used for various calculations of dates and durations. |
 | [ICondition&lt;T&gt;](../com.aspose.tasks/icondition) | Represents a condition which can be used by filters or search methods. |
 | [ICssSavingCallback](../com.aspose.tasks/icsssavingcallback) | Represents a callback that is called to create resource to store CSS. |
 | [IFontSavingCallback](../com.aspose.tasks/ifontsavingcallback) | Represents a callback that is called to create resource to store fonts. |
