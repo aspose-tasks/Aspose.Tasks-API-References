@@ -3,7 +3,7 @@ title: OutlineValueCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 710
 url: /python-net/aspose.tasks/outlinevaluecollection/
 ---
 

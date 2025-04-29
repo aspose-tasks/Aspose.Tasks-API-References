@@ -24,6 +24,7 @@ The PrimaveraSaveOptions type exposes the following members:
 |activity_id_prefix|Gets or sets the prefix used in renumbering of activity IDs.|
 |activity_id_suffix|Gets or sets the suffix used in renumbering of activity IDs.|
 |renumber_activity_ids|Gets or sets a value indicating whether is need to renumbers activity IDs.|
+|skip_summary_assignments|Gets or sets a value indicating whether assignments of resources to summary tasks should be skipped during export.|
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: TaskKey
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2710
+weight: 2730
 url: /python-net/aspose.tasks/taskkey/
 ---
 
@@ -30,7 +30,6 @@ Represents a list of supported  task fields.
 |FINISH|Represents the Finish (Task) field.|
 |DURATION|Represents the Duration (Task) field.|
 |DURATION_VARIANCE|Represents the DurationVariance (Task) field.|
-|DURATION_FORMAT|Represents the DurationFormat (Task) field.|
 |WORK|Represents the Work (Task) field.|
 |STOP|Represents the Stop (Task) field.|
 |RESUME|Represents the Resume (Task) field.|

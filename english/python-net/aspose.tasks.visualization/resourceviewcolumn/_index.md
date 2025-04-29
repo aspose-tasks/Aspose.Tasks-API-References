@@ -3,7 +3,7 @@ title: ResourceViewColumn
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 

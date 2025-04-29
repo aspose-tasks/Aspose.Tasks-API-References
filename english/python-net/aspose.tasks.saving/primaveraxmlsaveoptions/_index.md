@@ -21,6 +21,7 @@ The PrimaveraXmlSaveOptions type exposes the following members:
 | :- | :- |
 |save_format|Gets or sets the format in which the document will be saved if this save options object is used.|
 |save_root_task|Gets or sets a value indicating whether to save a root task or not.|
+|skip_summary_assignments|Gets or sets a value indicating whether assignments of resources to summary tasks should be skipped during export.|
 
 ### See Also
 

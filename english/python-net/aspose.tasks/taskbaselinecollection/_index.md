@@ -3,7 +3,7 @@ title: TaskBaselineCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1100
+weight: 1110
 url: /python-net/aspose.tasks/taskbaselinecollection/
 ---
 

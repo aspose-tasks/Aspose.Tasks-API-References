@@ -3,7 +3,7 @@ title: GanttBarEndShape
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.tasks.visualization/ganttbarendshape/
 ---
 

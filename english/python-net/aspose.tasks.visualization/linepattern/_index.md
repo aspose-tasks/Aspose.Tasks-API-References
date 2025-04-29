@@ -3,7 +3,7 @@ title: LinePattern
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.tasks.visualization/linepattern/
 ---
 
