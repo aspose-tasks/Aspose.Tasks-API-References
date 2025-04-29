@@ -3,7 +3,7 @@ title: GanttBarType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.tasks.visualization/ganttbartype/
 ---
 

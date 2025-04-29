@@ -59,6 +59,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[GroupCollection](/tasks/python-net/aspose.tasks/groupcollection/)|Contains a list of [Group](/tasks/python-net/aspose.tasks/group/) objects.<br/>            Implements ICollection<Group> interface.|
 |[GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/)|Represents a criterion in a group definition.<br/>            The GroupCriterion object is a member of the [GroupCriterionCollection](/tasks/python-net/aspose.tasks/groupcriterioncollection/) collection.|
 |[GroupCriterionCollection](/tasks/python-net/aspose.tasks/groupcriterioncollection/)|Contains a collection of [GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/) objects.<br/>            Implements ICollection<GroupCriterion> interface.|
+|[ICalendar](/tasks/python-net/aspose.tasks/icalendar/)|Represents a calendar abstraction which can be used for various calculations of dates and durations.|
 |[ICssSavingCallback](/tasks/python-net/aspose.tasks/icsssavingcallback/)|Represents a callback that is called to create resource to store CSS.|
 |[IFontSavingCallback](/tasks/python-net/aspose.tasks/ifontsavingcallback/)|Represents a callback that is called to create resource to store fonts.|
 |[IImageSavingCallback](/tasks/python-net/aspose.tasks/iimagesavingcallback/)|Represents a callback that is called to create resource to store images.|

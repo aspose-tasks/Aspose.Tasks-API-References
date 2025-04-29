@@ -3,7 +3,7 @@ title: OutlineValue
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.tasks/outlinevalue/
 ---
 

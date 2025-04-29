@@ -3,7 +3,7 @@ title: MaskType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 2550
 url: /python-net/aspose.tasks/masktype/
 ---
 
