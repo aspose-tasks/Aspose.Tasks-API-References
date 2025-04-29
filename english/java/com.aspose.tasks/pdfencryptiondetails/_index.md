@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 second_title: Aspose.Tasks for Java API Reference
 description: Contains details for a PDF encryption.
 type: docs
-weight: 187
+weight: 188
 url: /java/com.aspose.tasks/pdfencryptiondetails/
 ---
 

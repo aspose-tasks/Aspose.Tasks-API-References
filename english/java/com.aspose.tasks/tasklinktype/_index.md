@@ -3,7 +3,7 @@ title: TaskLinkType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of tasks dependency.
 type: docs
-weight: 291
+weight: 292
 url: /java/com.aspose.tasks/tasklinktype/
 ---
 

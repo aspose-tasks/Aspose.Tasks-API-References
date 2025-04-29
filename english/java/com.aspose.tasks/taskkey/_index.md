@@ -3,7 +3,7 @@ title: TaskKey
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a list of supported  task fields.
 type: docs
-weight: 288
+weight: 289
 url: /java/com.aspose.tasks/taskkey/
 ---
 
@@ -49,7 +49,6 @@ Represents a list of supported task fields.
 | [DisplayAsSummary](#DisplayAsSummary) | Represents the DisplayAsSummary (Task) field. |
 | [DisplayOnTimeline](#DisplayOnTimeline) | Represents the DisplayOnTimeline (Task) field. |
 | [Duration](#Duration) | Represents the Duration (Task) field. |
-| [DurationFormat](#DurationFormat) | Represents the DurationFormat (Task) field. |
 | [DurationText](#DurationText) | Represents the DurationText (Task) field. |
 | [DurationVariance](#DurationVariance) | Represents the DurationVariance (Task) field. |
 | [EarlyFinish](#EarlyFinish) | Represents the EarlyFinish (Task) field. |
@@ -395,14 +394,6 @@ public static final byte Duration
 
 
 Represents the Duration (Task) field.
-
-### DurationFormat {#DurationFormat}
-```
-public static final byte DurationFormat
-```
-
-
-Represents the DurationFormat (Task) field.
 
 ### DurationText {#DurationText}
 ```

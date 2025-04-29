@@ -3,7 +3,7 @@ title: WeekLabelDisplay
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies how the week label displays.
 type: docs
-weight: 345
+weight: 346
 url: /java/com.aspose.tasks/weeklabeldisplay/
 ---
 

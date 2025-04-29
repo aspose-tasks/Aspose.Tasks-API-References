@@ -3,7 +3,7 @@ title: ResourceLeveler
 second_title: Aspose.Tasks for Java API Reference
 description: Contains resource leveling methods.
 type: docs
-weight: 247
+weight: 248
 url: /java/com.aspose.tasks/resourceleveler/
 ---
 

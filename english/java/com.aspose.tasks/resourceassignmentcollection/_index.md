@@ -3,7 +3,7 @@ title: ResourceAssignmentCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 244
+weight: 245
 url: /java/com.aspose.tasks/resourceassignmentcollection/
 ---
 

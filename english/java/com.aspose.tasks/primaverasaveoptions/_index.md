@@ -3,7 +3,7 @@ title: PrimaveraSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when saving project to Primavera XER format.
 type: docs
-weight: 202
+weight: 203
 url: /java/com.aspose.tasks/primaverasaveoptions/
 ---
 
@@ -27,10 +27,12 @@ Allows to specify additional options when saving project to Primavera XER format
 | [getActivityIdPrefix()](#getActivityIdPrefix--) | Gets the prefix used in renumbering of activity IDs. |
 | [getActivityIdSuffix()](#getActivityIdSuffix--) | Gets the suffix used in renumbering of activity IDs. |
 | [getRenumberActivityIds()](#getRenumberActivityIds--) | Gets a value indicating whether is need to renumbers activity IDs. |
+| [getSkipSummaryAssignments()](#getSkipSummaryAssignments--) | Gets a value indicating whether assignments of resources to summary tasks should be skipped during export. |
 | [setActivityIdIncrement(int value)](#setActivityIdIncrement-int-) | Sets the increment used in renumbering of activity IDs. |
 | [setActivityIdPrefix(String value)](#setActivityIdPrefix-java.lang.String-) | Sets the prefix used in renumbering of activity IDs. |
 | [setActivityIdSuffix(int value)](#setActivityIdSuffix-int-) | Sets the suffix used in renumbering of activity IDs. |
 | [setRenumberActivityIds(boolean value)](#setRenumberActivityIds-boolean-) | Sets a value indicating whether is need to renumbers activity IDs. |
+| [setSkipSummaryAssignments(boolean value)](#setSkipSummaryAssignments-boolean-) | Sets a value indicating whether assignments of resources to summary tasks should be skipped during export. |
 ### PrimaveraSaveOptions() {#PrimaveraSaveOptions--}
 ```
 public PrimaveraSaveOptions()
@@ -79,6 +81,18 @@ Gets a value indicating whether is need to renumbers activity IDs.
 
 **Returns:**
 boolean - a value indicating whether is need to renumbers activity IDs.
+### getSkipSummaryAssignments() {#getSkipSummaryAssignments--}
+```
+public final boolean getSkipSummaryAssignments()
+```
+
+
+Gets a value indicating whether assignments of resources to summary tasks should be skipped during export.
+
+Primavera software doesn't support assignments of resources to summary (WBS) tasks. Thus, export of such assignments can result in an invalid file according to Primavera's model. If true, assignments to summary tasks are skipped during export. If false (the default value), an exception will be thrown if assignment to a summary task is encountered during export.
+
+**Returns:**
+boolean - a value indicating whether assignments of resources to summary tasks should be skipped during export.
 ### setActivityIdIncrement(int value) {#setActivityIdIncrement-int-}
 ```
 public final void setActivityIdIncrement(int value)
@@ -130,4 +144,19 @@ Sets a value indicating whether is need to renumbers activity IDs.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether is need to renumbers activity IDs. |
+
+### setSkipSummaryAssignments(boolean value) {#setSkipSummaryAssignments-boolean-}
+```
+public final void setSkipSummaryAssignments(boolean value)
+```
+
+
+Sets a value indicating whether assignments of resources to summary tasks should be skipped during export.
+
+Primavera software doesn't support assignments of resources to summary (WBS) tasks. Thus, export of such assignments can result in an invalid file according to Primavera's model. If true, assignments to summary tasks are skipped during export. If false (the default value), an exception will be thrown if assignment to a summary task is encountered during export.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether assignments of resources to summary tasks should be skipped during export. |
 

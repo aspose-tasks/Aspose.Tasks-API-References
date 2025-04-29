@@ -3,7 +3,7 @@ title: Tsk
 second_title: Aspose.Tasks for Java API Reference
 description: Represents properties of  object.
 type: docs
-weight: 320
+weight: 321
 url: /java/com.aspose.tasks/tsk/
 ---
 
@@ -53,7 +53,6 @@ Represents properties of [Task](../../com.aspose.tasks/task) object.
 | [DISPLAY_AS_SUMMARY](#DISPLAY-AS-SUMMARY) | Determines whether the task should be displayed as a summary task. |
 | [DISPLAY_ON_TIMELINE](#DISPLAY-ON-TIMELINE) | Specifies whether a task should be displayed on a timeline view. |
 | [DURATION](#DURATION) | The total span of active working time for a task as entered or as calculated by Microsoft Project based on start date, finish date, calendars, and other scheduling factors. |
-| [DURATION_FORMAT](#DURATION-FORMAT) | Task duration format. |
 | [DURATION_TEXT](#DURATION-TEXT) | Returns the task's duration text. |
 | [DURATION_VARIANCE](#DURATION-VARIANCE) | The difference between the baseline duration of a task and the total duration (current estimate) of a task. |
 | [EARLY_FINISH](#EARLY-FINISH) | The earliest date that a task could possibly finish, based on early finish dates of predecessor and successor tasks, other constraints, and any leveling delay. |
@@ -405,14 +404,6 @@ public static final Key<Duration,Byte> DURATION
 
 
 The total span of active working time for a task as entered or as calculated by Microsoft Project based on start date, finish date, calendars, and other scheduling factors.
-
-### DURATION_FORMAT {#DURATION-FORMAT}
-```
-public static final Key<Byte,Byte> DURATION_FORMAT
-```
-
-
-Task duration format.
 
 ### DURATION_TEXT {#DURATION-TEXT}
 ```

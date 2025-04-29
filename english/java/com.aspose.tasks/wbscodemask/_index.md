@@ -3,7 +3,7 @@ title: WBSCodeMask
 second_title: Aspose.Tasks for Java API Reference
 description: Represents WBS Code mask.
 type: docs
-weight: 339
+weight: 340
 url: /java/com.aspose.tasks/wbscodemask/
 ---
 

@@ -3,7 +3,7 @@ title: PrimaveraDurationType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies duration type of Primavera activity.
 type: docs
-weight: 196
+weight: 197
 url: /java/com.aspose.tasks/primaveradurationtype/
 ---
 
