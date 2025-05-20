@@ -19,10 +19,10 @@ The PageMargins type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|top|Gets or sets the size of the top margin in inches or centimeters.|
-|bottom|Gets or sets the size of the bottom margin in inches or centimeters.|
-|left|Gets or sets the size of the left margin in inches or centimeters.|
-|right|Gets or sets the size of the right margin in inches or centimeters.|
+|top|Gets or sets the size of the top margin in centimeters.|
+|bottom|Gets or sets the size of the bottom margin in centimeters.|
+|left|Gets or sets the size of the left margin in centimeters.|
+|right|Gets or sets the size of the right margin in centimeters.|
 |borders|Gets or sets a position where to print borders. Can be one of the values of the [Border](/tasks/python-net/aspose.tasks.visualization/border/) enumeration.|
 
 ### See Also
