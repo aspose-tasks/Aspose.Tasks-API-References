@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo.RightText
 second_title: Aspose.Tasks for .NET API Reference
-description: HeaderFooterInfo property. Gets or sets the right aligned text to display in the header or footer
+description: HeaderFooterInfo property. Gets or sets the right aligned text to display in the parent element
 type: docs
 weight: 100
 url: /net/aspose.tasks.visualization/headerfooterinfo/righttext/
 ---
 ## HeaderFooterInfo.RightText property
 
-Gets or sets the right aligned text to display in the header or footer.
+Gets or sets the right aligned text to display in the parent element.
 
 ```csharp
 public string RightText { get; set; }

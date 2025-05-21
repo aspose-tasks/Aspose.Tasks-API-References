@@ -45,7 +45,6 @@ Console.WriteLine("Print task groups of {0} project: ", project.Get(Prj.Name));
 Console.WriteLine("Task Group Count: " + project.TaskGroups.Count);
 foreach (var group in project.TaskGroups)
 {
-    Console.WriteLine("Index: " + group.Index);
     Console.WriteLine("Name: " + group.Name);
     Console.WriteLine("Show In Menu: " + group.ShowInMenu);
     Console.WriteLine();
@@ -55,7 +54,6 @@ foreach (var group in project.TaskGroups)
 Console.WriteLine("Project resource group count: " + project.ResourceGroups.Count);
 foreach (var group in project.ResourceGroups)
 {
-    Console.WriteLine("Resource group Index: " + group.Index);
     Console.WriteLine("Resource group Name: " + group.Name);
     Console.WriteLine("Resource group ShowInMenu" + group.ShowInMenu);
 }

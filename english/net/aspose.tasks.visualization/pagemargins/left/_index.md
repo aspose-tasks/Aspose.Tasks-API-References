@@ -1,14 +1,14 @@
 ---
 title: PageMargins.Left
 second_title: Aspose.Tasks for .NET API Reference
-description: PageMargins property. Gets or sets the size of the left margin in inches or centimeters
+description: PageMargins property. Gets or sets the size of the left margin in centimeters
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/pagemargins/left/
 ---
 ## PageMargins.Left property
 
-Gets or sets the size of the left margin in inches or centimeters.
+Gets or sets the size of the left margin in centimeters.
 
 ```csharp
 public double Left { get; set; }

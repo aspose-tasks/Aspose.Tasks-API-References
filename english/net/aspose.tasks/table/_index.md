@@ -52,7 +52,6 @@ var project = new Project(DataDir + "Project1.mpp");
 // get a table to edit
 var table = project.Tables.ToList()[0];
 Console.WriteLine("Uid of the table: " + table.Uid);
-Console.WriteLine("Index of the table: " + table.Index);
 Console.WriteLine("Name of the table: " + table.Name);
 Console.WriteLine("Type of the table: " + table.TableType);
 

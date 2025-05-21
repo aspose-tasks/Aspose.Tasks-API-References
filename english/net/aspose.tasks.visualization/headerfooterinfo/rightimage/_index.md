@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo.RightImage
 second_title: Aspose.Tasks for .NET API Reference
-description: HeaderFooterInfo property. Gets or sets the right aligned image to be displayed in the header or footer
+description: HeaderFooterInfo property. Gets or sets the right aligned image to be displayed in the parent element
 type: docs
 weight: 80
 url: /net/aspose.tasks.visualization/headerfooterinfo/rightimage/
 ---
 ## HeaderFooterInfo.RightImage property
 
-Gets or sets the right aligned image to be displayed in the header or footer.
+Gets or sets the right aligned image to be displayed in the parent element.
 
 ```csharp
 public Image RightImage { get; set; }

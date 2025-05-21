@@ -1,18 +1,24 @@
 ---
 title: PageLegend.Width
 second_title: Aspose.Tasks for .NET API Reference
-description: PageLegend property. Gets or sets the width of the legend
+description: PageLegend property. Gets or sets the width of the left part containing projects name and date by default of the legend in centimeters
 type: docs
-weight: 90
+weight: 30
 url: /net/aspose.tasks.visualization/pagelegend/width/
 ---
 ## PageLegend.Width property
 
-Gets or sets the width of the legend.
+Gets or sets the width of the left part (containing project's name and date by default) of the legend in centimeters.
 
 ```csharp
 public double Width { get; set; }
 ```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | When attempting to set to a value less than 0. |
 
 ## Examples
 

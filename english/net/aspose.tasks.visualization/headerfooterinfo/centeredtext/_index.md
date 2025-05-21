@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo.CenteredText
 second_title: Aspose.Tasks for .NET API Reference
-description: HeaderFooterInfo property. Gets or sets the centered text to display in the header or footer 
+description: HeaderFooterInfo property. Gets or sets the centered text to display in the parent element
 type: docs
 weight: 40
 url: /net/aspose.tasks.visualization/headerfooterinfo/centeredtext/
 ---
 ## HeaderFooterInfo.CenteredText property
 
-Gets or sets the centered text to display in the header or footer .
+Gets or sets the centered text to display in the parent element.
 
 ```csharp
 public string CenteredText { get; set; }

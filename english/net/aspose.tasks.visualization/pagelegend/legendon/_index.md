@@ -3,7 +3,7 @@ title: PageLegend.LegendOn
 second_title: Aspose.Tasks for .NET API Reference
 description: PageLegend property. Gets or sets the pages on which the legend appears. Can be one of the values of the Legend enumeration
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.tasks.visualization/pagelegend/legendon/
 ---
 ## PageLegend.LegendOn property

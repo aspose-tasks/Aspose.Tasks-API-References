@@ -60,7 +60,6 @@ Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
 
 Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
 var criterion = group.GroupCriteria.ToList()[0];
-Console.WriteLine("Task Criterion Index: " + criterion.Index);
 Console.WriteLine("Task Criterion Field: " + criterion.Field);
 Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
 Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
@@ -70,11 +69,6 @@ Console.WriteLine("Task Criterion Start At: " + criterion.StartAt);
 
 // read the background pattern of the criterion  
 Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
-
-if (group == criterion.ParentGroup)
-{
-    Console.WriteLine("Parent Group is equal to task Group.");
-}
 
 Console.WriteLine("\n*********** Retrieving Criterion's Font Information ***********");
 Console.WriteLine("Font Name: " + criterion.Font.FontFamily);

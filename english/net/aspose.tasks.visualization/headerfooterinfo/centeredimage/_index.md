@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo.CenteredImage
 second_title: Aspose.Tasks for .NET API Reference
-description: HeaderFooterInfo property. Gets or sets the centered image to be displayed in the header or footer
+description: HeaderFooterInfo property. Gets or sets the centered image to be displayed in the parent element
 type: docs
 weight: 20
 url: /net/aspose.tasks.visualization/headerfooterinfo/centeredimage/
 ---
 ## HeaderFooterInfo.CenteredImage property
 
-Gets or sets the centered image to be displayed in the header or footer.
+Gets or sets the centered image to be displayed in the parent element.
 
 ```csharp
 public Image CenteredImage { get; set; }

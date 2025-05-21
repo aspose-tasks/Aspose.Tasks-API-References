@@ -1,14 +1,14 @@
 ---
 title: PageMargins.Right
 second_title: Aspose.Tasks for .NET API Reference
-description: PageMargins property. Gets or sets the size of the right margin in inches or centimeters
+description: PageMargins property. Gets or sets the size of the right margin in centimeters
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/pagemargins/right/
 ---
 ## PageMargins.Right property
 
-Gets or sets the size of the right margin in inches or centimeters.
+Gets or sets the size of the right margin in centimeters.
 
 ```csharp
 public double Right { get; set; }

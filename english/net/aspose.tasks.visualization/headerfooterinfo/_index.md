@@ -1,14 +1,14 @@
 ---
 title: Class HeaderFooterInfo
 second_title: Aspose.Tasks for .NET API Reference
-description: Aspose.Tasks.Visualization.HeaderFooterInfo class. Represents header or footer data which is present in views and used for printing
+description: Aspose.Tasks.Visualization.HeaderFooterInfo class. Represents visual content of the header footer or legend which is used for printing  rendering of views
 type: docs
 weight: 3040
 url: /net/aspose.tasks.visualization/headerfooterinfo/
 ---
 ## HeaderFooterInfo class
 
-Represents header or footer data which is present in views and used for printing.
+Represents visual content of the header, footer or legend which is used for printing \ rendering of views.
 
 ```csharp
 public class HeaderFooterInfo
@@ -24,15 +24,15 @@ public class HeaderFooterInfo
 
 | Name | Description |
 | --- | --- |
-| [CenteredImage](../../aspose.tasks.visualization/headerfooterinfo/centeredimage/) { get; set; } | Gets or sets the centered image to be displayed in the header or footer. |
+| [CenteredImage](../../aspose.tasks.visualization/headerfooterinfo/centeredimage/) { get; set; } | Gets or sets the centered image to be displayed in the parent element. |
 | [CenteredImageSize](../../aspose.tasks.visualization/headerfooterinfo/centeredimagesize/) { get; set; } | Gets or sets the displayed size of the center image. |
-| [CenteredText](../../aspose.tasks.visualization/headerfooterinfo/centeredtext/) { get; set; } | Gets or sets the centered text to display in the header or footer . |
-| [LeftImage](../../aspose.tasks.visualization/headerfooterinfo/leftimage/) { get; set; } | Gets or sets the left aligned image to be displayed in the header or footer. |
+| [CenteredText](../../aspose.tasks.visualization/headerfooterinfo/centeredtext/) { get; set; } | Gets or sets the centered text to display in the parent element. |
+| [LeftImage](../../aspose.tasks.visualization/headerfooterinfo/leftimage/) { get; set; } | Gets or sets the left aligned image to be displayed in the parent element. |
 | [LeftImageSize](../../aspose.tasks.visualization/headerfooterinfo/leftimagesize/) { get; set; } | Gets or sets the displayed size of the left image. |
-| [LeftText](../../aspose.tasks.visualization/headerfooterinfo/lefttext/) { get; set; } | Gets or sets the left aligned text to display in the header or footer. |
-| [RightImage](../../aspose.tasks.visualization/headerfooterinfo/rightimage/) { get; set; } | Gets or sets the right aligned image to be displayed in the header or footer. |
+| [LeftText](../../aspose.tasks.visualization/headerfooterinfo/lefttext/) { get; set; } | Gets or sets the left aligned text to display in the parent element. |
+| [RightImage](../../aspose.tasks.visualization/headerfooterinfo/rightimage/) { get; set; } | Gets or sets the right aligned image to be displayed in the parent element. |
 | [RightImageSize](../../aspose.tasks.visualization/headerfooterinfo/rightimagesize/) { get; set; } | Gets or sets the displayed size of the right image. |
-| [RightText](../../aspose.tasks.visualization/headerfooterinfo/righttext/) { get; set; } | Gets or sets the right aligned text to display in the header or footer. |
+| [RightText](../../aspose.tasks.visualization/headerfooterinfo/righttext/) { get; set; } | Gets or sets the right aligned text to display in the parent element. |
 
 ## Examples
 
