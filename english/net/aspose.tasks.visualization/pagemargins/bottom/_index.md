@@ -1,14 +1,14 @@
 ---
 title: PageMargins.Bottom
 second_title: Aspose.Tasks for .NET API Reference
-description: PageMargins property. Gets or sets the size of the bottom margin in inches or centimeters
+description: PageMargins property. Gets or sets the size of the bottom margin in centimeters
 type: docs
 weight: 30
 url: /net/aspose.tasks.visualization/pagemargins/bottom/
 ---
 ## PageMargins.Bottom property
 
-Gets or sets the size of the bottom margin in inches or centimeters.
+Gets or sets the size of the bottom margin in centimeters.
 
 ```csharp
 public double Bottom { get; set; }

@@ -14,6 +14,25 @@ Gets or sets a behavior which define how to align right end of the timescale wit
 public TimescaleFitBehavior TimescaleFitBehavior { get; set; }
 ```
 
+## Examples
+
+Shows how to use TimescaleFitBehavior make Gantt chart's timescale fit to the end of the last page.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var view = project.DefaultView as GanttChartView;
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.PageSize = PageSize.A4;
+saveOptions.StartDate = project.StartDate;
+saveOptions.EndDate = project.FinishDate;
+saveOptions.ViewSettings = view;
+saveOptions.TimescaleFitBehavior = TimescaleFitBehavior.ScaleToEndOfPage;
+
+project.Save(OutDir + "WorkWithPageSizeDefinedInView_out.pdf", saveOptions);
+```
+
 ### See Also
 
 * enum [TimescaleFitBehavior](../../../aspose.tasks.visualization/timescalefitbehavior/)

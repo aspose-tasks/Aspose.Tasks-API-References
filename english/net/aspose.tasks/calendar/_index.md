@@ -47,8 +47,11 @@ public class Calendar : ICalendar
 | [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Calculates the task finish date and time from its start date, split parts and the work duration. |
 | [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Returns the amount of working hours at the specified date. |
 | [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Return WorkUnit - Start, Finish and Duration of working hours for the specified date time interval. |
+| [GetWorkingHoursTimeSpan](../../aspose.tasks/calendar/getworkinghourstimespan/)(DateTime, DateTime) | Returns amount of working hours between the specified dates. |
 | [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Returns [`WorkingTimeCollection`](../workingtimecollection/) of working times for the specified date. |
+| [GetWorkStart](../../aspose.tasks/calendar/getworkstart/)(DateTime) | Calculates next working time start beginning from the specified date and time. |
 | [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Determines whether the specified day is a working day according to the calendar. |
+| virtual [IsEmpty](../../aspose.tasks/calendar/isempty/)() | Returns whether the calendar doesn't have working hours defined. |
 | static [GetIntersectionCalendar](../../aspose.tasks/calendar/getintersectioncalendar/)(Calendar, Calendar) | Gets [`ICalendar`](../icalendar/) instance which can be used to perform calculations on the intersection of work schedules of 2 calendars. |
 
 ## Remarks

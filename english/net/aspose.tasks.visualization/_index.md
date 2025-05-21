@@ -21,7 +21,7 @@ Contains helper classes for rendering.
 | [GanttChartColumn](./ganttchartcolumn/) | Project's view class |
 | [Gridline](./gridline/) | The horizontal or vertical line that appears in the project view. |
 | [Gridlines](./gridlines/) | Represents gridlines that appear in a GanttChart view. |
-| [HeaderFooterInfo](./headerfooterinfo/) | Represents header or footer data which is present in views and used for printing. |
+| [HeaderFooterInfo](./headerfooterinfo/) | Represents visual content of the header, footer or legend which is used for printing \ rendering of views. |
 | [PageInfo](./pageinfo/) | Represents page setup data which is present in MPP file format and used for printing. |
 | [PageLegend](./pagelegend/) | Represents a page legend which is used for project printing. |
 | [PageLegendItem](./pagelegenditem/) | Represents an item of page legend of Gantt chart. |

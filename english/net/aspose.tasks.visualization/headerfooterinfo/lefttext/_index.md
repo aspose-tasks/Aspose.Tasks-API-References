@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo.LeftText
 second_title: Aspose.Tasks for .NET API Reference
-description: HeaderFooterInfo property. Gets or sets the left aligned text to display in the header or footer
+description: HeaderFooterInfo property. Gets or sets the left aligned text to display in the parent element
 type: docs
 weight: 70
 url: /net/aspose.tasks.visualization/headerfooterinfo/lefttext/
 ---
 ## HeaderFooterInfo.LeftText property
 
-Gets or sets the left aligned text to display in the header or footer.
+Gets or sets the left aligned text to display in the parent element.
 
 ```csharp
 public string LeftText { get; set; }

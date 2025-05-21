@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterInfo.LeftImage
 second_title: Aspose.Tasks for .NET API Reference
-description: HeaderFooterInfo property. Gets or sets the left aligned image to be displayed in the header or footer
+description: HeaderFooterInfo property. Gets or sets the left aligned image to be displayed in the parent element
 type: docs
 weight: 50
 url: /net/aspose.tasks.visualization/headerfooterinfo/leftimage/
 ---
 ## HeaderFooterInfo.LeftImage property
 
-Gets or sets the left aligned image to be displayed in the header or footer.
+Gets or sets the left aligned image to be displayed in the parent element.
 
 ```csharp
 public Image LeftImage { get; set; }

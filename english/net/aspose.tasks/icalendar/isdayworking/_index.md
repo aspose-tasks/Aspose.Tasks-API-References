@@ -3,7 +3,7 @@ title: ICalendar.IsDayWorking
 second_title: Aspose.Tasks for .NET API Reference
 description: ICalendar method. Determines whether the specified day is a working day according to the calendar
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.tasks/icalendar/isdayworking/
 ---
 ## ICalendar.IsDayWorking method

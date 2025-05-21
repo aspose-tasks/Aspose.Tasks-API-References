@@ -1,14 +1,14 @@
 ---
 title: PageMargins.Top
 second_title: Aspose.Tasks for .NET API Reference
-description: PageMargins property. Gets or sets the size of the top margin in inches or centimeters
+description: PageMargins property. Gets or sets the size of the top margin in centimeters
 type: docs
 weight: 60
 url: /net/aspose.tasks.visualization/pagemargins/top/
 ---
 ## PageMargins.Top property
 
-Gets or sets the size of the top margin in inches or centimeters.
+Gets or sets the size of the top margin in centimeters.
 
 ```csharp
 public double Top { get; set; }
