@@ -9,7 +9,7 @@ url: /python-net/aspose.tasks.visualization/headerfooterinfo/
 
 ## HeaderFooterInfo class
 
-Represents header or footer data which is present in views and used for printing.
+Represents visual content of the header, footer or legend which is used for printing \ rendering of views.
 
 The HeaderFooterInfo type exposes the following members:
 ## Constructors
@@ -19,12 +19,12 @@ The HeaderFooterInfo type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|left_text|Gets or sets the left aligned text to display in the header or footer.|
-|centered_text|Gets or sets the centered text to display in the header or footer .|
-|right_text|Gets or sets the right aligned text to display in the header or footer.|
-|left_image|Gets or sets the left aligned image to be displayed in the header or footer.|
-|centered_image|Gets or sets the centered image to be displayed in the header or footer.|
-|right_image|Gets or sets the right aligned image to be displayed in the header or footer.|
+|left_text|Gets or sets the left aligned text to display in the parent element.|
+|centered_text|Gets or sets the centered text to display in the parent element.|
+|right_text|Gets or sets the right aligned text to display in the parent element.|
+|left_image|Gets or sets the left aligned image to be displayed in the parent element.|
+|centered_image|Gets or sets the centered image to be displayed in the parent element.|
+|right_image|Gets or sets the right aligned image to be displayed in the parent element.|
 |left_image_size|Gets or sets the displayed size of the left image.|
 |centered_image_size|Gets or sets the displayed size of the center image.|
 |right_image_size|Gets or sets the displayed size of the right image.|
