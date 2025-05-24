@@ -20,7 +20,7 @@ Contains helper classes for rendering.
 |[GanttChartColumn](/tasks/python-net/aspose.tasks.visualization/ganttchartcolumn/)|Project's view class|
 |[Gridline](/tasks/python-net/aspose.tasks.visualization/gridline/)|The horizontal or vertical line that appears in the project view.|
 |[Gridlines](/tasks/python-net/aspose.tasks.visualization/gridlines/)|Represents gridlines that appear in a GanttChart view.|
-|[HeaderFooterInfo](/tasks/python-net/aspose.tasks.visualization/headerfooterinfo/)|Represents header or footer data which is present in views and used for printing.|
+|[HeaderFooterInfo](/tasks/python-net/aspose.tasks.visualization/headerfooterinfo/)|Represents visual content of the header, footer or legend which is used for printing \ rendering of views.|
 |[ITextStyleModificationCallback](/tasks/python-net/aspose.tasks.visualization/itextstylemodificationcallback/)|Represents a callback that is called before TextStyle is applied to a table cell.|
 |[PageInfo](/tasks/python-net/aspose.tasks.visualization/pageinfo/)|Represents page setup data which is present in MPP file format and used for printing.|
 |[PageLegend](/tasks/python-net/aspose.tasks.visualization/pagelegend/)|Represents a page legend which is used for project printing.|
