@@ -73,14 +73,17 @@ Calendars are used to define standard working and non-working times. Projects mu
 | [getTaskFinishDateFromDuration(Task task, double duration)](#getTaskFinishDateFromDuration-com.aspose.tasks.Task-double-) | Calculates the task finish date and time from its start date, split parts and the work duration. |
 | [getUid()](#getUid--) | Gets the unique identifier of the calendar. |
 | [getWeekDays()](#getWeekDays--) | Gets WeekDaysCollection for this calendar. |
+| [getWorkStart(Date date)](#getWorkStart-java.util.Date-) | Calculates next working time start beginning from the specified date and time. |
 | [getWorkWeeks()](#getWorkWeeks--) | Gets WorkWeekCollections object. |
 | [getWorkingHours(Date dt)](#getWorkingHours-java.util.Date-) | Returns the amount of working hours at the specified date. |
 | [getWorkingHours(Date start, Date finish)](#getWorkingHours-java.util.Date-java.util.Date-) | Return WorkUnit - Start, Finish and Duration of working hours for the specified date time interval. |
+| [getWorkingHoursTimeSpan(Date start, Date finish)](#getWorkingHoursTimeSpan-java.util.Date-java.util.Date-) | Returns amount of working hours between the specified dates. |
 | [getWorkingTimes(Date dt)](#getWorkingTimes-java.util.Date-) | Returns [WorkingTimeCollection](../../com.aspose.tasks/workingtimecollection) of working times for the specified date. |
 | [hashCode()](#hashCode--) | Returns a hash code for the instance of the class. |
 | [isBaseCalendar()](#isBaseCalendar--) | Gets a value indicating whether the calendar is a base calendar. |
 | [isBaselineCalendar()](#isBaselineCalendar--) | Gets a value indicating whether the calendar is a baseline calendar. |
 | [isDayWorking(Date dt)](#isDayWorking-java.util.Date-) | Determines whether the specified day is a working day according to the calendar. |
+| [isEmpty()](#isEmpty--) | Returns whether the calendar doesn't have working hours defined. |
 | [make24HourCalendar(Calendar calendar)](#make24HourCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar to be a 24Hour Calendar. 24Hours Calendar is a Calendar in which every day of week is working with Round-the-clock working hours. |
 | [makeNightShiftCalendar(Calendar calendar)](#makeNightShiftCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar as Night Shift Calendar. |
 | [makeStandardCalendar(Calendar calendar)](#makeStandardCalendar-com.aspose.tasks.Calendar-) | Creates default standard calendar. |
@@ -299,6 +302,21 @@ Gets WeekDaysCollection for this calendar. The collection of weekdays that defin
 
 **Returns:**
 [WeekDayCollection](../../com.aspose.tasks/weekdaycollection) - WeekDaysCollection for this calendar.
+### getWorkStart(Date date) {#getWorkStart-java.util.Date-}
+```
+public final Date getWorkStart(Date date)
+```
+
+
+Calculates next working time start beginning from the specified date and time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| date | java.util.Date | The date and time. |
+
+**Returns:**
+java.util.Date - The nearest working time start.
 ### getWorkWeeks() {#getWorkWeeks--}
 ```
 public final WorkWeekCollection getWorkWeeks()
@@ -340,6 +358,22 @@ Return WorkUnit - Start, Finish and Duration of working hours for the specified 
 
 **Returns:**
 [WorkUnit](../../com.aspose.tasks/workunit) - Instance of [WorkUnit](../../com.aspose.tasks/workunit) class containing Start, Finish and Duration of working hours.
+### getWorkingHoursTimeSpan(Date start, Date finish) {#getWorkingHoursTimeSpan-java.util.Date-java.util.Date-}
+```
+public final double getWorkingHoursTimeSpan(Date start, Date finish)
+```
+
+
+Returns amount of working hours between the specified dates.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | java.util.Date | Start date of the interval. |
+| finish | java.util.Date | Finish date of the interval. |
+
+**Returns:**
+double - Amount of working hours according to the calendar instance.
 ### getWorkingTimes(Date dt) {#getWorkingTimes-java.util.Date-}
 ```
 public final WorkingTimeCollection getWorkingTimes(Date dt)
@@ -400,6 +434,16 @@ Determines whether the specified day is a working day according to the calendar.
 
 **Returns:**
 boolean - True if the day is a working day.
+### isEmpty() {#isEmpty--}
+```
+public boolean isEmpty()
+```
+
+
+Returns whether the calendar doesn't have working hours defined.
+
+**Returns:**
+boolean - True if the calendar doesn't have working hours defined.
 ### make24HourCalendar(Calendar calendar) {#make24HourCalendar-com.aspose.tasks.Calendar-}
 ```
 public static Calendar make24HourCalendar(Calendar calendar)
