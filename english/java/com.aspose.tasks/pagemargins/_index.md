@@ -24,15 +24,15 @@ Represents page margins for printing.
 | Method | Description |
 | --- | --- |
 | [getBorders()](#getBorders--) | Gets a position where to print borders. |
-| [getBottom()](#getBottom--) | Gets the size of the bottom margin in inches or centimeters. |
-| [getLeft()](#getLeft--) | Gets the size of the left margin in inches or centimeters. |
-| [getRight()](#getRight--) | Gets the size of the right margin in inches or centimeters. |
-| [getTop()](#getTop--) | Gets the size of the top margin in inches or centimeters. |
+| [getBottom()](#getBottom--) | Gets the size of the bottom margin in centimeters. |
+| [getLeft()](#getLeft--) | Gets the size of the left margin in centimeters. |
+| [getRight()](#getRight--) | Gets the size of the right margin in centimeters. |
+| [getTop()](#getTop--) | Gets the size of the top margin in centimeters. |
 | [setBorders(int value)](#setBorders-int-) | Sets a position where to print borders. |
-| [setBottom(double value)](#setBottom-double-) | Sets the size of the bottom margin in inches or centimeters. |
-| [setLeft(double value)](#setLeft-double-) | Sets the size of the left margin in inches or centimeters. |
-| [setRight(double value)](#setRight-double-) | Sets the size of the right margin in inches or centimeters. |
-| [setTop(double value)](#setTop-double-) | Sets the size of the top margin in inches or centimeters. |
+| [setBottom(double value)](#setBottom-double-) | Sets the size of the bottom margin in centimeters. |
+| [setLeft(double value)](#setLeft-double-) | Sets the size of the left margin in centimeters. |
+| [setRight(double value)](#setRight-double-) | Sets the size of the right margin in centimeters. |
+| [setTop(double value)](#setTop-double-) | Sets the size of the top margin in centimeters. |
 ### PageMargins() {#PageMargins--}
 ```
 public PageMargins()
@@ -55,40 +55,40 @@ public final double getBottom()
 ```
 
 
-Gets the size of the bottom margin in inches or centimeters.
+Gets the size of the bottom margin in centimeters.
 
 **Returns:**
-double - the size of the bottom margin in inches or centimeters.
+double - the size of the bottom margin in centimeters.
 ### getLeft() {#getLeft--}
 ```
 public final double getLeft()
 ```
 
 
-Gets the size of the left margin in inches or centimeters.
+Gets the size of the left margin in centimeters.
 
 **Returns:**
-double - the size of the left margin in inches or centimeters.
+double - the size of the left margin in centimeters.
 ### getRight() {#getRight--}
 ```
 public final double getRight()
 ```
 
 
-Gets the size of the right margin in inches or centimeters.
+Gets the size of the right margin in centimeters.
 
 **Returns:**
-double - the size of the right margin in inches or centimeters.
+double - the size of the right margin in centimeters.
 ### getTop() {#getTop--}
 ```
 public final double getTop()
 ```
 
 
-Gets the size of the top margin in inches or centimeters.
+Gets the size of the top margin in centimeters.
 
 **Returns:**
-double - the size of the top margin in inches or centimeters.
+double - the size of the top margin in centimeters.
 ### setBorders(int value) {#setBorders-int-}
 ```
 public final void setBorders(int value)
@@ -108,12 +108,12 @@ public final void setBottom(double value)
 ```
 
 
-Sets the size of the bottom margin in inches or centimeters.
+Sets the size of the bottom margin in centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the size of the bottom margin in inches or centimeters. |
+| value | double | the size of the bottom margin in centimeters. |
 
 ### setLeft(double value) {#setLeft-double-}
 ```
@@ -121,12 +121,12 @@ public final void setLeft(double value)
 ```
 
 
-Sets the size of the left margin in inches or centimeters.
+Sets the size of the left margin in centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the size of the left margin in inches or centimeters. |
+| value | double | the size of the left margin in centimeters. |
 
 ### setRight(double value) {#setRight-double-}
 ```
@@ -134,12 +134,12 @@ public final void setRight(double value)
 ```
 
 
-Sets the size of the right margin in inches or centimeters.
+Sets the size of the right margin in centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the size of the right margin in inches or centimeters. |
+| value | double | the size of the right margin in centimeters. |
 
 ### setTop(double value) {#setTop-double-}
 ```
@@ -147,10 +147,10 @@ public final void setTop(double value)
 ```
 
 
-Sets the size of the top margin in inches or centimeters.
+Sets the size of the top margin in centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | the size of the top margin in inches or centimeters. |
+| value | double | the size of the top margin in centimeters. |
 
