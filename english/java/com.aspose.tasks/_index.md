@@ -128,7 +128,7 @@ url: /java/com.aspose.tasks/
 | [GroupCriterion](../com.aspose.tasks/groupcriterion) | Represents a criterion in a group definition. |
 | [GroupCriterionCollection](../com.aspose.tasks/groupcriterioncollection) | Contains a collection of [GroupCriterion](../com.aspose.tasks/groupcriterion) objects. |
 | [GroupOn](../com.aspose.tasks/groupon) | Specifies the type of grouping. |
-| [HeaderFooterInfo](../com.aspose.tasks/headerfooterinfo) | Represents header or footer data which is present in views and used for printing. |
+| [HeaderFooterInfo](../com.aspose.tasks/headerfooterinfo) | Represents visual content of the header, footer or legend which is used for printing \\ rendering of views. |
 | [HorizontalAlignment](../com.aspose.tasks/horizontalalignment) | Specifies how an object or text is horizontally aligned relative to another object. |
 | [HorizontalStringAlignment](../com.aspose.tasks/horizontalstringalignment) | Specifies the alignment of a text string relative to its layout rectangle. |
 | [HourLabelDisplay](../com.aspose.tasks/hourlabeldisplay) | Specifies how the hour label displays. |
