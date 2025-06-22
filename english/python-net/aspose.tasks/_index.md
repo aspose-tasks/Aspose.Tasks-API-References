@@ -226,6 +226,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[TimeUnitType](/tasks/python-net/aspose.tasks/timeunittype/)|Specifies the type of a time unit.|
 |[TimephasedDataType](/tasks/python-net/aspose.tasks/timephaseddatatype/)|Specifies the type of time phased data.|
 |[UndefinedConstraintHandlingBehavior](/tasks/python-net/aspose.tasks/undefinedconstrainthandlingbehavior/)|Specifies the behavior used to handle tasks with undefined constraints.|
+|[VbaModuleType](/tasks/python-net/aspose.tasks/vbamoduletype/)|Specifies the type of a module in a VBA project.|
 |[ViewScreen](/tasks/python-net/aspose.tasks/viewscreen/)|Specifies the screen type for a view.|
 |[WBSSequence](/tasks/python-net/aspose.tasks/wbssequence/)|Specifies sequence for WBSCodeMask|
 |[WeekLabelDisplay](/tasks/python-net/aspose.tasks/weeklabeldisplay/)|Specifies how the week label displays.|
