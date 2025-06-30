@@ -3,7 +3,7 @@ title: YearlyRepetitionBase
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a base pattern for yearly day position.
 type: docs
-weight: 364
+weight: 365
 url: /java/com.aspose.tasks/yearlyrepetitionbase/
 ---
 

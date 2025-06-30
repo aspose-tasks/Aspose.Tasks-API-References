@@ -28,12 +28,14 @@ Allows to specify additional options when saving project data to MPP.
 | [getRemoveInvalidAssignments()](#getRemoveInvalidAssignments--) | Gets a value indicating whether to remove invalid resource assignments when saving to MPP. |
 | [getWriteFilters()](#getWriteFilters--) | Gets a value indicating whether to write filter data when saving a project to MPP for format. |
 | [getWriteGroups()](#getWriteGroups--) | Gets a value indicating whether to write groups data when saving a project to MPP for format. |
+| [getWriteVba()](#getWriteVba--) | Gets a value indicating whether to update existing VBA macros data in MPP file. |
 | [getWriteViewData()](#getWriteViewData--) | Gets a value indicating whether to write view data when saving a project to MPP format. |
 | [setClearVba(boolean value)](#setClearVba-boolean-) | Sets a value indicating whether to remove existing VBA macros data when saving a project to MPP format. |
 | [setProtectionPassword(String value)](#setProtectionPassword-java.lang.String-) | Sets a password which is used to protect a resulting MPP file. |
 | [setRemoveInvalidAssignments(boolean value)](#setRemoveInvalidAssignments-boolean-) | Sets a value indicating whether to remove invalid resource assignments when saving to MPP. |
 | [setWriteFilters(boolean value)](#setWriteFilters-boolean-) | Sets a value indicating whether to write filter data when saving a project to MPP for format. |
 | [setWriteGroups(boolean value)](#setWriteGroups-boolean-) | Sets a value indicating whether to write groups data when saving a project to MPP for format. |
+| [setWriteVba(boolean value)](#setWriteVba-boolean-) | Sets a value indicating whether to update existing VBA macros data in MPP file. |
 | [setWriteViewData(boolean value)](#setWriteViewData-boolean-) | Sets a value indicating whether to write view data when saving a project to MPP format. |
 ### MPPSaveOptions() {#MPPSaveOptions--}
 ```
@@ -113,6 +115,16 @@ Group data includes Project.TaskGroups and Project.ResourceGroups collections.
 
 **Returns:**
 boolean - a value indicating whether to write groups data when saving a project to MPP for format.
+### getWriteVba() {#getWriteVba--}
+```
+public final boolean getWriteVba()
+```
+
+
+Gets a value indicating whether to update existing VBA macros data in MPP file. Currently writing of VbaModule.SourceCode is supported.
+
+**Returns:**
+boolean - a value indicating whether to update existing VBA macros data in MPP file.
 ### getWriteViewData() {#getWriteViewData--}
 ```
 public final boolean getWriteViewData()
@@ -211,6 +223,19 @@ Group data includes Project.TaskGroups and Project.ResourceGroups collections.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether to write groups data when saving a project to MPP for format. |
+
+### setWriteVba(boolean value) {#setWriteVba-boolean-}
+```
+public final void setWriteVba(boolean value)
+```
+
+
+Sets a value indicating whether to update existing VBA macros data in MPP file. Currently writing of VbaModule.SourceCode is supported.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether to update existing VBA macros data in MPP file. |
 
 ### setWriteViewData(boolean value) {#setWriteViewData-boolean-}
 ```
