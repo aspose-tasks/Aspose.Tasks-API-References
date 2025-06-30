@@ -17,7 +17,7 @@ The IVbaModule type exposes the following members:
 | :- | :- |
 |attributes|Gets a collection of  [VbaModuleAttributeCollection](/tasks/python-net/aspose.tasks/vbamoduleattributecollection/)|
 |name|Gets a name of the VBA module|
-|source_code|Gets a source Code of the VBA module|
+|source_code|Gets a source code of the VBA module|
 
 ### See Also
 

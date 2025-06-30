@@ -25,6 +25,7 @@ The MPPSaveOptions type exposes the following members:
 |write_filters|Gets or sets a value indicating whether to write filter data when saving a project to MPP for format.|
 |write_groups|Gets or sets a value indicating whether to write groups data when saving a project to MPP for format.|
 |clear_vba|Gets or sets a value indicating whether to remove existing VBA macros data when saving a project to MPP format.|
+|write_vba|Gets or sets a value indicating whether to update existing VBA macros data in MPP file.<br/>            Currently writing of VbaModule.SourceCode is supported.|
 |protection_password|Gets or sets a password which is used to protect a resulting MPP file. Currently is supported for MS Project 2010 and newer formats.|
 
 ### See Also
