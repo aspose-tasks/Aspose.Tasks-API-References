@@ -3,7 +3,7 @@ title: IVbaModule
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a module with VBA code.
 type: docs
-weight: 377
+weight: 378
 url: /java/com.aspose.tasks/ivbamodule/
 ---
 ```
@@ -17,7 +17,7 @@ Represents a module with VBA code.
 | --- | --- |
 | [getAttributes()](#getAttributes--) | Gets a collection of [VbaModuleAttributeCollection](../../com.aspose.tasks/vbamoduleattributecollection) |
 | [getName()](#getName--) | Gets a name of the VBA module |
-| [getSourceCode()](#getSourceCode--) | Gets a source Code of the VBA module |
+| [getSourceCode()](#getSourceCode--) | Gets a source code of the VBA module |
 ### getAttributes() {#getAttributes--}
 ```
 public abstract VbaModuleAttributeCollection getAttributes()
@@ -44,7 +44,7 @@ public abstract String getSourceCode()
 ```
 
 
-Gets a source Code of the VBA module
+Gets a source code of the VBA module
 
 **Returns:**
 java.lang.String - a source Code of the VBA module
