@@ -15,9 +15,15 @@ The VbaModule type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|attributes|Gets a collection of  [VbaModuleAttributeCollection](/tasks/python-net/aspose.tasks/vbamoduleattributecollection/)|
+|attributes|Gets a collection of the module's attributes.|
 |name|Gets a name of the VBA module|
-|source_code|Gets a source Code of the VBA module|
+|type|Gets the type of the module.|
+|source_code|Gets or sets a source code of the VBA module|
+## Methods
+| Name | Description |
+| :- | :- |
+|create_procedural_module(name)|Creates an instance of [VbaModule](/tasks/python-net/aspose.tasks/vbamodule/) with VbaModuleType.ProceduralModule type.|
+|create_class_module(name)|Creates an instance of [VbaModule](/tasks/python-net/aspose.tasks/vbamodule/) with VbaModuleType.ClassModule type.|
 
 ### See Also
 

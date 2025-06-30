@@ -12,10 +12,14 @@ url: /python-net/aspose.tasks/vbamodulecollection/
 Represents a collection of [VbaModule](/tasks/python-net/aspose.tasks/vbamodule/) objects.
 
 The VbaModuleCollection type exposes the following members:
+## Indexer
+| Name | Description |
+| :- | :- |
+|[index]|Gets the module at the specified index.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|to_list()|  |
+|to_list()|Converts the collection object to a list of [VbaModule](/tasks/python-net/aspose.tasks/vbamodule/) objects.|
 
 ### See Also
 
