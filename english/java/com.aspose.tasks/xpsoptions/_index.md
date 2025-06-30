@@ -3,7 +3,7 @@ title: XpsOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to XPS.
 type: docs
-weight: 361
+weight: 362
 url: /java/com.aspose.tasks/xpsoptions/
 ---
 

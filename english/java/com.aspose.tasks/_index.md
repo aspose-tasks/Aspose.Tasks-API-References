@@ -333,7 +333,8 @@ url: /java/com.aspose.tasks/
 | [VbaModule](../com.aspose.tasks/vbamodule) | Represents a VBA module. |
 | [VbaModuleAttribute](../com.aspose.tasks/vbamoduleattribute) | The attribute of the [VbaModule](../com.aspose.tasks/vbamodule) object |
 | [VbaModuleAttributeCollection](../com.aspose.tasks/vbamoduleattributecollection) | Represents a collection of `VbaModuleAttribute` objects. |
-| [VbaModuleCollection](../com.aspose.tasks/vbamodulecollection) | Represents a collection of `VbaModule` objects. |
+| [VbaModuleCollection](../com.aspose.tasks/vbamodulecollection) | Represents a collection of [VbaModule](../com.aspose.tasks/vbamodule) objects. |
+| [VbaModuleType](../com.aspose.tasks/vbamoduletype) | Specifies the type of a module in a VBA project. |
 | [VbaProject](../com.aspose.tasks/vbaproject) | Represents [VbaProject](../com.aspose.tasks/vbaproject). |
 | [VbaReference](../com.aspose.tasks/vbareference) | Represents a reference of the [VbaProject](../com.aspose.tasks/vbaproject). |
 | [VbaReferenceCollection](../com.aspose.tasks/vbareferencecollection) | Represents a collection of `VbaReference` objects. |

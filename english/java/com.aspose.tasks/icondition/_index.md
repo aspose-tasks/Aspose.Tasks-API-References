@@ -3,7 +3,7 @@ title: ICondition
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a condition which can be used by filters or search methods.
 type: docs
-weight: 369
+weight: 370
 url: /java/com.aspose.tasks/icondition/
 ---
 ```

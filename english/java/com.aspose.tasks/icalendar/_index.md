@@ -3,7 +3,7 @@ title: ICalendar
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a calendar abstraction which can be used for various calculations of dates and durations.
 type: docs
-weight: 368
+weight: 369
 url: /java/com.aspose.tasks/icalendar/
 ---
 ```

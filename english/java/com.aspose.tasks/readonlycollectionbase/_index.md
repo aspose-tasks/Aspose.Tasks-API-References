@@ -32,7 +32,7 @@ Represents a read-only collection of objects.
 | [remove(Object o)](#remove-java.lang.Object-) | \{@inheritDoc\} |
 | [set(int index, T value)](#set-int-T-) | Returns the element at the specified index. |
 | [size()](#size--) | Gets the number of objects contained in the object. |
-| [toList()](#toList--) | Converts the collection object to a list of [VbaModule](../../com.aspose.tasks/vbamodule) objects. |
+| [toList()](#toList--) | Converts the collection to a list of objects. |
 ### add(T item) {#add-T-}
 ```
 public final boolean add(T item)
@@ -197,7 +197,7 @@ public final List<T> toList()
 ```
 
 
-Converts the collection object to a list of [VbaModule](../../com.aspose.tasks/vbamodule) objects.
+Converts the collection to a list of objects.
 
 **Returns:**
-java.util.List&lt;T&gt; - List of objects.
+java.util.List&lt;T&gt; - Generic list of objects.
