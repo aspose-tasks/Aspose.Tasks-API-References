@@ -46,6 +46,10 @@ The PrimaveraTaskProperties type exposes the following members:
 |budgeted_expense_cost|Gets the value of budgeted (or planned) expense cost.|
 |actual_total_cost|Gets the total value of actual costs.|
 |budgeted_total_cost|Gets the total value of budgeted (or planned) costs.|
+|primary_constraint_type|Gets a type of primary constraint.|
+|primary_constraint_date|Gets the date of primary constraint.|
+|secondary_constraint_type|Gets a type of secondary constraint.|
+|secondary_constraint_date|Gets the date of secondary constraint.|
 
 ### See Also
 

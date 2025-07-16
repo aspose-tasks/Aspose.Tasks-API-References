@@ -18,6 +18,7 @@ Contains classes necessary to work with Primavera-specific formats (XER, Primave
 | Enumeration | Description |
 | :- | :- |
 |[PrimaveraActivityType](/tasks/python-net/aspose.tasks.primavera/primaveraactivitytype/)|Specifies type of Primavera activity.|
+|[PrimaveraConstraintType](/tasks/python-net/aspose.tasks.primavera/primaveraconstrainttype/)|Specifies a type of activity's constraint.|
 |[PrimaveraDurationType](/tasks/python-net/aspose.tasks.primavera/primaveradurationtype/)|Specifies duration type of Primavera activity.|
 |[PrimaveraPercentCompleteType](/tasks/python-net/aspose.tasks.primavera/primaverapercentcompletetype/)|Specifies value of '% Complete Type' field for Primavera activities.|
 |[PrimaveraRelationshipLagCalendar](/tasks/python-net/aspose.tasks.primavera/primaverarelationshiplagcalendar/)|Specifies which calendar to use for scheduling Relationship Lag in Primavera projects.|

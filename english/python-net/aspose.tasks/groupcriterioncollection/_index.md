@@ -12,10 +12,6 @@ url: /python-net/aspose.tasks/groupcriterioncollection/
 Contains a collection of [GroupCriterion](/tasks/python-net/aspose.tasks/groupcriterion/) objects.<br/>            Implements ICollection<GroupCriterion> interface.
 
 The GroupCriterionCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|parent_group|Gets the parent of the GroupCriterion object.|
 ## Methods
 | Name | Description |
 | :- | :- |
