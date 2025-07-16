@@ -3,7 +3,7 @@ title: Enum Legend
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.Legend enum. Specifies the possible options used when rendering views legend
 type: docs
-weight: 3090
+weight: 3100
 url: /net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration

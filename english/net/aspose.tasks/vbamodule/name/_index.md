@@ -1,15 +1,17 @@
 ---
 title: VbaModule.Name
 second_title: Aspose.Tasks for .NET API Reference
-description: VbaModule property. 
+description: VbaModule property. Gets a name of the VBA module
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.tasks/vbamodule/name/
 ---
 ## VbaModule.Name property
 
+Gets a name of the VBA module
+
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ## Examples

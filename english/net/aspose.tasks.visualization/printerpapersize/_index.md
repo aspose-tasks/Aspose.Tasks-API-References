@@ -3,7 +3,7 @@ title: Enum PrinterPaperSize
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.PrinterPaperSize enum. Specifies the paper size which is used for printing
 type: docs
-weight: 3190
+weight: 3200
 url: /net/aspose.tasks.visualization/printerpapersize/
 ---
 ## PrinterPaperSize enumeration

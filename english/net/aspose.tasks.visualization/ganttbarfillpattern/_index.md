@@ -3,7 +3,7 @@ title: Enum GanttBarFillPattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.GanttBarFillPattern enum. A shapes fill pattern
 type: docs
-weight: 2950
+weight: 2960
 url: /net/aspose.tasks.visualization/ganttbarfillpattern/
 ---
 ## GanttBarFillPattern enumeration

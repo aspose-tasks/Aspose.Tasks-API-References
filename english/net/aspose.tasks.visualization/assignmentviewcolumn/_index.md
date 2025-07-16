@@ -3,7 +3,7 @@ title: Class AssignmentViewColumn
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.AssignmentViewColumn class. Projects view class
 type: docs
-weight: 2840
+weight: 2850
 url: /net/aspose.tasks.visualization/assignmentviewcolumn/
 ---
 ## AssignmentViewColumn class

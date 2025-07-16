@@ -18,6 +18,7 @@ Contains classes necessary to work with Primavera-specific formats (XER, Primave
 | Enumeration | Description |
 | --- | --- |
 | [PrimaveraActivityType](./primaveraactivitytype/) | Specifies type of Primavera activity. |
+| [PrimaveraConstraintType](./primaveraconstrainttype/) | Specifies a type of activity's constraint. |
 | [PrimaveraDurationType](./primaveradurationtype/) | Specifies duration type of Primavera activity. |
 | [PrimaveraPercentCompleteType](./primaverapercentcompletetype/) | Specifies value of '% Complete Type' field for Primavera activities. |
 | [PrimaveraRelationshipLagCalendar](./primaverarelationshiplagcalendar/) | Specifies which calendar to use for scheduling Relationship Lag in Primavera projects. |

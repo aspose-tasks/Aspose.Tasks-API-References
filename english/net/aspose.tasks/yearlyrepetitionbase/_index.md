@@ -3,7 +3,7 @@ title: Class YearlyRepetitionBase
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.YearlyRepetitionBase class. Represents a base pattern for yearly day position
 type: docs
-weight: 3610
+weight: 3620
 url: /net/aspose.tasks/yearlyrepetitionbase/
 ---
 ## YearlyRepetitionBase class

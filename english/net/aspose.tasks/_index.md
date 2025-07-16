@@ -181,7 +181,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [IFontSavingCallback](./ifontsavingcallback/) | Represents a callback that is called to create resource to store fonts. |
 | [IImageSavingCallback](./iimagesavingcallback/) | Represents a callback that is called to create resource to store images. |
 | [IMessageHandler](./imessagehandler/) | Represents a callback the results of resource leveling. |
-| [IVbaModule](./ivbamodule/) | Represents a module with VBA code. |
 ## Enumeration
 
 | Enumeration | Description |
@@ -245,6 +244,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [TimephasedDataType](./timephaseddatatype/) | Specifies the type of time phased data. |
 | [TimeUnitType](./timeunittype/) | Specifies the type of a time unit. |
 | [UndefinedConstraintHandlingBehavior](./undefinedconstrainthandlingbehavior/) | Specifies the behavior used to handle tasks with undefined constraints. |
+| [VbaModuleType](./vbamoduletype/) | Specifies the type of a module in a VBA project. |
 | [ViewScreen](./viewscreen/) | Specifies the screen type for a view. |
 | [WBSSequence](./wbssequence/) | Specifies sequence for WBSCodeMask |
 | [WeekdayType](./weekdaytype/) | Represents a weekday of a project in the instance of [`RecurringTaskInfo`](../aspose.tasks/recurringtaskinfo/) class. |
