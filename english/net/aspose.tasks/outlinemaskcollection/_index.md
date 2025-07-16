@@ -3,7 +3,7 @@ title: Class OutlineMaskCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.OutlineMaskCollection class. Represents a collection of OutlineMask objects
 type: docs
-weight: 1190
+weight: 1180
 url: /net/aspose.tasks/outlinemaskcollection/
 ---
 ## OutlineMaskCollection class

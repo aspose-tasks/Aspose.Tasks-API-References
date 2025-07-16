@@ -3,7 +3,7 @@ title: Enum MonthPosition
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.MonthPosition enum. Specifies the position of a month item within a month
 type: docs
-weight: 1060
+weight: 1050
 url: /net/aspose.tasks/monthposition/
 ---
 ## MonthPosition enumeration

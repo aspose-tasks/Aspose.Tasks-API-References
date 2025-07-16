@@ -3,7 +3,7 @@ title: Enum WorkContourType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WorkContourType enum. Specifies the contour of a work
 type: docs
-weight: 3520
+weight: 3530
 url: /net/aspose.tasks/workcontourtype/
 ---
 ## WorkContourType enumeration

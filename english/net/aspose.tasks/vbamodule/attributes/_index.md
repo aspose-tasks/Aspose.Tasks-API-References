@@ -1,12 +1,14 @@
 ---
 title: VbaModule.Attributes
 second_title: Aspose.Tasks for .NET API Reference
-description: VbaModule property. 
+description: VbaModule property. Gets a collection of the modules attributes
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.tasks/vbamodule/attributes/
 ---
 ## VbaModule.Attributes property
+
+Gets a collection of the module's attributes.
 
 ```csharp
 public VbaModuleAttributeCollection Attributes { get; }

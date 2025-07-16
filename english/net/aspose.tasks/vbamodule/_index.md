@@ -11,16 +11,24 @@ url: /net/aspose.tasks/vbamodule/
 Represents a VBA module.
 
 ```csharp
-public class VbaModule : IVbaModule
+public sealed class VbaModule : IVbaModule
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Attributes](../../aspose.tasks/vbamodule/attributes/) { get; } |  |
-| [Name](../../aspose.tasks/vbamodule/name/) { get; } |  |
-| [SourceCode](../../aspose.tasks/vbamodule/sourcecode/) { get; } |  |
+| [Attributes](../../aspose.tasks/vbamodule/attributes/) { get; } | Gets a collection of the module's attributes. |
+| [Name](../../aspose.tasks/vbamodule/name/) { get; set; } | Gets a name of the VBA module |
+| [SourceCode](../../aspose.tasks/vbamodule/sourcecode/) { get; set; } | Gets or sets a source code of the VBA module |
+| [Type](../../aspose.tasks/vbamodule/type/) { get; } | Gets the type of the module. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [CreateClassModule](../../aspose.tasks/vbamodule/createclassmodule/)(string) | Creates an instance of `VbaModule` with VbaModuleType.ClassModule type. |
+| static [CreateProceduralModule](../../aspose.tasks/vbamodule/createproceduralmodule/)(string) | Creates an instance of `VbaModule` with VbaModuleType.ProceduralModule type. |
 
 ## Examples
 
@@ -40,7 +48,6 @@ foreach (var module in project.VbaProject.Modules)
 
 ### See Also
 
-* interface [IVbaModule](../ivbamodule/)
 * namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
 

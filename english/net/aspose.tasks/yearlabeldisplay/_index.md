@@ -3,7 +3,7 @@ title: Enum YearLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.YearLabelDisplay enum. Specifies how the year label displays
 type: docs
-weight: 3590
+weight: 3600
 url: /net/aspose.tasks/yearlabeldisplay/
 ---
 ## YearLabelDisplay enumeration

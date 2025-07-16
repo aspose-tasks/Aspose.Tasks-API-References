@@ -32,6 +32,7 @@ public class MPPSaveOptions : SimpleSaveOptions
 | [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Gets or sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
 | [WriteFilters](../../aspose.tasks.saving/mppsaveoptions/writefilters/) { get; set; } | Gets or sets a value indicating whether to write filter data when saving a project to MPP for format. Filter data includes Project.TaskFilters and Project.ResourceFilters collections. |
 | [WriteGroups](../../aspose.tasks.saving/mppsaveoptions/writegroups/) { get; set; } | Gets or sets a value indicating whether to write groups data when saving a project to MPP for format. Group data includes Project.TaskGroups and Project.ResourceGroups collections. |
+| [WriteVba](../../aspose.tasks.saving/mppsaveoptions/writevba/) { get; set; } | Gets or sets a value indicating whether to update existing VBA macros data in MPP file. Currently writing of VbaModule.SourceCode is supported. |
 | [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata/) { get; set; } | Gets or sets a value indicating whether to write view data when saving a project to MPP format. View data includes Project.Views, Filters and Tables collections. |
 
 ## Examples

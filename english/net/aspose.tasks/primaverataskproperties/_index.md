@@ -36,6 +36,8 @@ public sealed class PrimaveraTaskProperties
 | [DurationType](../../aspose.tasks/primaverataskproperties/durationtype/) { get; } | Gets the value of 'Duration Type' field of the activity. |
 | [PercentCompleteType](../../aspose.tasks/primaverataskproperties/percentcompletetype/) { get; } | Gets the value of '% Complete Type' field of the activity. |
 | [PhysicalPercentComplete](../../aspose.tasks/primaverataskproperties/physicalpercentcomplete/) { get; } | Gets the value of Physical Percent Complete. |
+| [PrimaryConstraintDate](../../aspose.tasks/primaverataskproperties/primaryconstraintdate/) { get; } | Gets the date of primary constraint. |
+| [PrimaryConstraintType](../../aspose.tasks/primaverataskproperties/primaryconstrainttype/) { get; } | Gets a type of primary constraint. |
 | [RawActivityType](../../aspose.tasks/primaverataskproperties/rawactivitytype/) { get; } | Gets raw text representation (as in source file) of 'Activity Type' field of the activity. |
 | [RawCompletePercentType](../../aspose.tasks/primaverataskproperties/rawcompletepercenttype/) { get; } | Gets raw text representation (as in source file) of '% Complete Type' field of the activity. |
 | [RawDurationType](../../aspose.tasks/primaverataskproperties/rawdurationtype/) { get; } | Gets raw text representation (as in source file) of 'Duration Type' field of the activity. |
@@ -47,6 +49,8 @@ public sealed class PrimaveraTaskProperties
 | [RemainingLateFinish](../../aspose.tasks/primaverataskproperties/remaininglatefinish/) { get; } | Gets remaining late finish date. |
 | [RemainingLateStart](../../aspose.tasks/primaverataskproperties/remaininglatestart/) { get; } | Gets remaining late start date. |
 | [RemainingNonLaborUnits](../../aspose.tasks/primaverataskproperties/remainingnonlaborunits/) { get; } | Gets the value of remaining non labor units. |
+| [SecondaryConstraintDate](../../aspose.tasks/primaverataskproperties/secondaryconstraintdate/) { get; } | Gets the date of secondary constraint. |
+| [SecondaryConstraintType](../../aspose.tasks/primaverataskproperties/secondaryconstrainttype/) { get; } | Gets a type of secondary constraint. |
 | [SequenceNumber](../../aspose.tasks/primaverataskproperties/sequencenumber/) { get; } | Gets or sets the sequence number of the WBS item (summary tasks). It is used to sort summary tasks in Primavera. |
 | [UnitsPercentComplete](../../aspose.tasks/primaverataskproperties/unitspercentcomplete/) { get; } | Gets the value of units percent complete. |
 

@@ -3,7 +3,7 @@ title: Enum MinuteLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.MinuteLabelDisplay enum. Specifies how the minute label displays
 type: docs
-weight: 1020
+weight: 1010
 url: /net/aspose.tasks/minutelabeldisplay/
 ---
 ## MinuteLabelDisplay enumeration

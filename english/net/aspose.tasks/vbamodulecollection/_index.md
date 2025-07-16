@@ -11,23 +11,28 @@ url: /net/aspose.tasks/vbamodulecollection/
 Represents a collection of [`VbaModule`](../vbamodule/) objects.
 
 ```csharp
-public class VbaModuleCollection : ReadOnlyCollectionBase<VbaModule>
+public class VbaModuleCollection : ICollection<VbaModule>
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } |  |
+| [Count](../../aspose.tasks/vbamodulecollection/count/) { get; } |  |
+| [IsReadOnly](../../aspose.tasks/vbamodulecollection/isreadonly/) { get; } |  |
+| [Item](../../aspose.tasks/vbamodulecollection/item/) { get; } | Gets the module at the specified index. (2 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(VbaModule) |  |
-| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
+| [Add](../../aspose.tasks/vbamodulecollection/add/)(VbaModule) |  |
+| [Clear](../../aspose.tasks/vbamodulecollection/clear/)() |  |
+| [Contains](../../aspose.tasks/vbamodulecollection/contains/)(VbaModule) |  |
+| [CopyTo](../../aspose.tasks/vbamodulecollection/copyto/)(VbaModule[], int) |  |
+| [GetEnumerator](../../aspose.tasks/vbamodulecollection/getenumerator/)() |  |
+| [Remove](../../aspose.tasks/vbamodulecollection/remove/)(VbaModule) |  |
+| [ToList](../../aspose.tasks/vbamodulecollection/tolist/)() | Converts the collection object to a list of [`VbaModule`](../vbamodule/) objects. |
 
 ## Examples
 
@@ -38,24 +43,17 @@ var project = new Project(DataDir + "VbaProject.mpp");
 var vbaProject = project.VbaProject;
 
 Console.WriteLine("Total Modules Count: " + vbaProject.Modules.Count);
-foreach (var module in vbaProject.Modules)
+foreach (VbaModule module in vbaProject.Modules)
 {
     Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Module Type: " + module.Type);
     Console.WriteLine("Source Code: " + module.SourceCode);
     Console.WriteLine();
-}
-
-// the collection can be converted into a plain list
-List<VbaModule> modules = vbaProject.Modules.ToList();
-foreach (var unused in modules)
-{
-    // work with modules
 }
 ```
 
 ### See Also
 
-* class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
 * class [VbaModule](../vbamodule/)
 * namespace [Aspose.Tasks](../../aspose.tasks/)
 * assembly [Aspose.Tasks](../../)
