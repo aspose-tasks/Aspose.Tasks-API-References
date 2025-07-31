@@ -21,7 +21,6 @@ Contains a collection of [GroupCriterion](../../com.aspose.tasks/groupcriterion)
 | [add(GroupCriterion item)](#add-com.aspose.tasks.GroupCriterion-) | Adds the specified item to this collection. |
 | [add(int index, GroupCriterion element)](#add-int-com.aspose.tasks.GroupCriterion-) | Inserts the specified element at the specified position in this list. |
 | [get(int index)](#get-int-) | (@inheritDoc\} |
-| [getParentGroup()](#getParentGroup--) | Gets the parent of the GroupCriterion object. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this collection and returns the element that was removed from the collection. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes a single instance of the specified element from this collection, if it is present. |
 | [size()](#size--) | Gets the number of elements contained in this collection. |
@@ -70,16 +69,6 @@ public GroupCriterion get(int index)
 
 **Returns:**
 [GroupCriterion](../../com.aspose.tasks/groupcriterion) - \{@inheritDoc\}
-### getParentGroup() {#getParentGroup--}
-```
-public final Group getParentGroup()
-```
-
-
-Gets the parent of the GroupCriterion object.
-
-**Returns:**
-[Group](../../com.aspose.tasks/group) - the parent of the GroupCriterion object.
 ### remove(int index) {#remove-int-}
 ```
 public final GroupCriterion remove(int index)

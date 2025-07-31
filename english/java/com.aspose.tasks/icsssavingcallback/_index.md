@@ -3,7 +3,7 @@ title: ICssSavingCallback
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback that is called to create resource to store CSS.
 type: docs
-weight: 371
+weight: 372
 url: /java/com.aspose.tasks/icsssavingcallback/
 ---
 ```

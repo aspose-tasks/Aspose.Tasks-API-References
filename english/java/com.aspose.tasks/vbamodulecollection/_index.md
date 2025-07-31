@@ -3,7 +3,7 @@ title: VbaModuleCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 330
+weight: 331
 url: /java/com.aspose.tasks/vbamodulecollection/
 ---
 
@@ -26,6 +26,7 @@ Represents a collection of [VbaModule](../../com.aspose.tasks/vbamodule) objects
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether this collection is read only. |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
 | [remove(VbaModule item)](#remove-com.aspose.tasks.VbaModule-) | Removes newly added module from the collection. |
+| [removeItem(VbaModule item)](#removeItem-com.aspose.tasks.VbaModule-) | Removes module from the collection. |
 | [size()](#size--) | Gets the number of modules contained in the collection. |
 | [toList()](#toList--) | Converts the collection object to a list of [VbaModule](../../com.aspose.tasks/vbamodule) objects. |
 ### addItem(VbaModule item) {#addItem-com.aspose.tasks.VbaModule-}
@@ -129,6 +130,19 @@ Removes newly added module from the collection.
 
 **Returns:**
 boolean - a value indicating whether the module was removed
+### removeItem(VbaModule item) {#removeItem-com.aspose.tasks.VbaModule-}
+```
+public final void removeItem(VbaModule item)
+```
+
+
+Removes module from the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | [VbaModule](../../com.aspose.tasks/vbamodule) | the module to be removed |
+
 ### size() {#size--}
 ```
 public final int size()
