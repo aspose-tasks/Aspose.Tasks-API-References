@@ -3,7 +3,7 @@ title: PrintOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when printing project.
 type: docs
-weight: 208
+weight: 209
 url: /java/com.aspose.tasks/printoptions/
 ---
 

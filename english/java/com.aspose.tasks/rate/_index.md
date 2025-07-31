@@ -3,7 +3,7 @@ title: Rate
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a definition of a time period and rates applicable for a resource during that period.
 type: docs
-weight: 227
+weight: 228
 url: /java/com.aspose.tasks/rate/
 ---
 

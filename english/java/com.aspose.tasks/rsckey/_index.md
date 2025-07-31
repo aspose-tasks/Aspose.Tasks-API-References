@@ -3,7 +3,7 @@ title: RscKey
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a list of supported  resource fields.
 type: docs
-weight: 267
+weight: 268
 url: /java/com.aspose.tasks/rsckey/
 ---
 

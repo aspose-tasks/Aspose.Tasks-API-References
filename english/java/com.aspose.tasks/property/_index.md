@@ -3,7 +3,7 @@ title: Property
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a base class of a property.
 type: docs
-weight: 224
+weight: 225
 url: /java/com.aspose.tasks/property/
 ---
 

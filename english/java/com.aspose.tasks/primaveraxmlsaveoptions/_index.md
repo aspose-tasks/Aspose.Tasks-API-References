@@ -3,7 +3,7 @@ title: PrimaveraXmlSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when saving project to Primavera xml format.
 type: docs
-weight: 207
+weight: 208
 url: /java/com.aspose.tasks/primaveraxmlsaveoptions/
 ---
 

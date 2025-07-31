@@ -3,7 +3,7 @@ title: PrimaveraTaskProperties
 second_title: Aspose.Tasks for Java API Reference
 description: Represents Primavera-specific properties for a task read from Primavera files XER of P6XML.
 type: docs
-weight: 204
+weight: 205
 url: /java/com.aspose.tasks/primaverataskproperties/
 ---
 
@@ -36,6 +36,8 @@ Represents Primavera-specific properties for a task read from Primavera files (X
 | [getDurationType()](#getDurationType--) | Gets the value of 'Duration Type' field of the activity. |
 | [getPercentCompleteType()](#getPercentCompleteType--) | Gets the value of '% Complete Type' field of the activity. |
 | [getPhysicalPercentComplete()](#getPhysicalPercentComplete--) | Gets the value of Physical Percent Complete. |
+| [getPrimaryConstraintDate()](#getPrimaryConstraintDate--) | Gets the date of primary constraint. |
+| [getPrimaryConstraintType()](#getPrimaryConstraintType--) | Gets a type of primary constraint. |
 | [getRawActivityType()](#getRawActivityType--) | Gets raw text representation (as in source file) of 'Activity Type' field of the activity. |
 | [getRawCompletePercentType()](#getRawCompletePercentType--) | Gets raw text representation (as in source file) of '% Complete Type' field of the activity. |
 | [getRawDurationType()](#getRawDurationType--) | Gets raw text representation (as in source file) of 'Duration Type' field of the activity. |
@@ -47,6 +49,8 @@ Represents Primavera-specific properties for a task read from Primavera files (X
 | [getRemainingLateFinish()](#getRemainingLateFinish--) | Gets remaining late finish date. |
 | [getRemainingLateStart()](#getRemainingLateStart--) | Gets remaining late start date. |
 | [getRemainingNonLaborUnits()](#getRemainingNonLaborUnits--) | Gets the value of remaining non labor units. |
+| [getSecondaryConstraintDate()](#getSecondaryConstraintDate--) | Gets the date of secondary constraint. |
+| [getSecondaryConstraintType()](#getSecondaryConstraintType--) | Gets a type of secondary constraint. |
 | [getSequenceNumber()](#getSequenceNumber--) | Gets the sequence number of the WBS item (summary tasks). |
 | [getUnitsPercentComplete()](#getUnitsPercentComplete--) | Gets the value of units percent complete. |
 ### getActivityId() {#getActivityId--}
@@ -249,6 +253,26 @@ Applicable only to activities (non-summary tasks).
 
 **Returns:**
 double - the value of Physical Percent Complete.
+### getPrimaryConstraintDate() {#getPrimaryConstraintDate--}
+```
+public final Date getPrimaryConstraintDate()
+```
+
+
+Gets the date of primary constraint.
+
+**Returns:**
+java.util.Date - the date of primary constraint.
+### getPrimaryConstraintType() {#getPrimaryConstraintType--}
+```
+public final int getPrimaryConstraintType()
+```
+
+
+Gets a type of primary constraint.
+
+**Returns:**
+int - a type of primary constraint.
 ### getRawActivityType() {#getRawActivityType--}
 ```
 public final String getRawActivityType()
@@ -375,6 +399,26 @@ Gets the value of remaining non labor units.
 
 **Returns:**
 double - the value of remaining non labor units.
+### getSecondaryConstraintDate() {#getSecondaryConstraintDate--}
+```
+public final Date getSecondaryConstraintDate()
+```
+
+
+Gets the date of secondary constraint.
+
+**Returns:**
+java.util.Date - the date of secondary constraint.
+### getSecondaryConstraintType() {#getSecondaryConstraintType--}
+```
+public final int getSecondaryConstraintType()
+```
+
+
+Gets a type of secondary constraint.
+
+**Returns:**
+int - a type of secondary constraint.
 ### getSequenceNumber() {#getSequenceNumber--}
 ```
 public final int getSequenceNumber()
