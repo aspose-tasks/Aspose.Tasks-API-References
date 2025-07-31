@@ -3,7 +3,7 @@ title: WorkingTimeCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 359
+weight: 360
 url: /java/com.aspose.tasks/workingtimecollection/
 ---
 

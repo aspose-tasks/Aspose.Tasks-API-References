@@ -3,7 +3,7 @@ title: WeeklyRepetition
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a pattern which is based on weekdays.
 type: docs
-weight: 350
+weight: 351
 url: /java/com.aspose.tasks/weeklyrepetition/
 ---
 

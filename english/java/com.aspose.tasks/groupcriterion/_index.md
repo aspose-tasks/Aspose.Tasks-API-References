@@ -31,8 +31,6 @@ Represents a criterion in a group definition. The GroupCriterion object is a mem
 | [getFontColor()](#getFontColor--) | Gets the color of the font for a field used as a criterion in a group definition. |
 | [getGroupInterval()](#getGroupInterval--) | Gets the interval for a field used as a criterion in a group definition. |
 | [getGroupOn()](#getGroupOn--) | Gets the type of grouping for a field used as a criterion in a group definition. |
-| [getIndex()](#getIndex--) | Gets the index of a [GroupCriterion](../../com.aspose.tasks/groupcriterion) object in the containing [GroupCriterionCollection](../../com.aspose.tasks/groupcriterioncollection) collection. |
-| [getParentGroup()](#getParentGroup--) | Gets the parent of the [GroupCriterion](../../com.aspose.tasks/groupcriterion) object. |
 | [getPattern()](#getPattern--) | Gets the pattern of the cell for a field used as a criterion in a group definition. |
 | [getStartAt()](#getStartAt--) | Gets the start of the intervals for a field used as a criterion in a group definition. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
@@ -136,26 +134,6 @@ Gets the type of grouping for a field used as a criterion in a group definition.
 
 **Returns:**
 int - the type of grouping for a field used as a criterion in a group definition.
-### getIndex() {#getIndex--}
-```
-public final int getIndex()
-```
-
-
-Gets the index of a [GroupCriterion](../../com.aspose.tasks/groupcriterion) object in the containing [GroupCriterionCollection](../../com.aspose.tasks/groupcriterioncollection) collection.
-
-**Returns:**
-int - the index of a [GroupCriterion](../../com.aspose.tasks/groupcriterion) object in the containing [GroupCriterionCollection](../../com.aspose.tasks/groupcriterioncollection) collection.
-### getParentGroup() {#getParentGroup--}
-```
-public final Group getParentGroup()
-```
-
-
-Gets the parent of the [GroupCriterion](../../com.aspose.tasks/groupcriterion) object.
-
-**Returns:**
-[Group](../../com.aspose.tasks/group) - the parent of the [GroupCriterion](../../com.aspose.tasks/groupcriterion) object.
 ### getPattern() {#getPattern--}
 ```
 public final int getPattern()
