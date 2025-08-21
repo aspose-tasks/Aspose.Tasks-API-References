@@ -35,7 +35,7 @@ The TaskBaseline type exposes the following members:
 | Name | Description |
 | :- | :- |
 |equals(other)|Returns a value indicating whether this instance is equal to the specified TaskBaseline object.|
-|equals(other)|Returns a value indicating whether this instance is equal to the specified TaskBaseline object.|
+|equals(other)|Returns a value indicating whether this instance is equal to a specified object.|
 |compare_to(other)|IComparable interface implementation.<br/>            Compares this instance to the specified Baseline object.|
 |compare_to(other)|IComparable interface implementation.<br/>            Compares this instance to the specified Baseline object.|
 

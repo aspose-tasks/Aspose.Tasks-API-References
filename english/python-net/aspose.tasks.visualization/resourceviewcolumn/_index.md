@@ -15,7 +15,7 @@ The ResourceViewColumn type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ResourceViewColumn(width, field)|Initializes a new instance of the [ResourceViewColumn](/tasks/python-net/aspose.tasks.visualization/resourceviewcolumn/) class.|
+|ResourceViewColumn(width, field)|Initializes a new instance of the ResourceViewColumn class|
 ## Properties
 | Name | Description |
 | :- | :- |

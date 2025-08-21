@@ -31,8 +31,8 @@ The TimephasedData type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|create_cost_timephased(uid, start, finish, value, time_unit, type)|Creates and initializes a new instance of the [TimephasedData](/tasks/python-net/aspose.tasks/timephaseddata/) class for cost-based time phased data.|
-|create_cost_timephased(uid, start, finish, value, type)|Creates and initializes a new instance of the [TimephasedData](/tasks/python-net/aspose.tasks/timephaseddata/) class for cost-based time phased data.|
+|create_cost_timephased(uid, start, finish, value, time_unit, type)|  |
+|create_cost_timephased(uid, start, finish, value, type)|  |
 |create_work_timephased(uid, start, finish, value, time_unit, type)|Creates and initializes a new instance of the [TimephasedData](/tasks/python-net/aspose.tasks/timephaseddata/) class for work-based time phased data.|
 |create_unit_timephased(uid, start, finish, units, type)|Creates and initializes a new instance of the [TimephasedData](/tasks/python-net/aspose.tasks/timephaseddata/) class for unit-based time phased data of an assignment of a material resource.|
 
