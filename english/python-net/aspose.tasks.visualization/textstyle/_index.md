@@ -16,7 +16,7 @@ The TextStyle type exposes the following members:
 | Name | Description |
 | :- | :- |
 |TextStyle()|Initializes a new instance of the [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) class with default settings.|
-|TextStyle(font_size, font_style)|Initializes a new instance of the [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) class with the default font and specified font size and style.|
+|TextStyle(font_size, font_style)|Initializes a new instance of the TextStyle class|
 |TextStyle(font_style)|Initializes a new instance of the [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) class with the default font and specified font size and style.|
 |TextStyle(font)|Initializes a new instance of the [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) class with the specified font settings.|
 ## Properties

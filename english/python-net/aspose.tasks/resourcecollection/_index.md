@@ -21,7 +21,7 @@ The ResourceCollection type exposes the following members:
 | :- | :- |
 |add()|Adds new resource at the last position of a project resources collection.|
 |add(resource_name)|Adds new resource at the last position of a project resources collection.|
-|add(resource_name, before_resource_id)|Adds new resource at the specified position of a project resources collection.|
+|add(resource_name, before_resource_id)|  |
 |to_list()|Converts the ResourceCollection object to a list of [Resource](/tasks/python-net/aspose.tasks/resource/) objects.|
 |get_by_id(id)|Returns a resource with the specified id.|
 |get_by_uid(uid)|Returns a resource with the specified Uid.|
