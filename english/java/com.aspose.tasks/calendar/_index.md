@@ -84,7 +84,7 @@ Calendars are used to define standard working and non-working times. Projects mu
 | [isBaselineCalendar()](#isBaselineCalendar--) | Gets a value indicating whether the calendar is a baseline calendar. |
 | [isDayWorking(Date dt)](#isDayWorking-java.util.Date-) | Determines whether the specified day is a working day according to the calendar. |
 | [isEmpty()](#isEmpty--) | Returns whether the calendar doesn't have working hours defined. |
-| [make24HourCalendar(Calendar calendar)](#make24HourCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar to be a 24Hour Calendar. |
+| [make24HourCalendar(Calendar calendar)](#make24HourCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar to be a 24Hour Calendar. 24Hours Calendar is a Calendar in which every day of week is working with Round-the-clock working hours. |
 | [makeNightShiftCalendar(Calendar calendar)](#makeNightShiftCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar as Night Shift Calendar. |
 | [makeStandardCalendar(Calendar calendar)](#makeStandardCalendar-com.aspose.tasks.Calendar-) | Creates default standard calendar. |
 | [setBaseCalendar(Calendar value)](#setBaseCalendar-com.aspose.tasks.Calendar-) | Sets the base calendar on which this calendar depends. |
