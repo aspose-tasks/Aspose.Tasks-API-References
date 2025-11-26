@@ -3,7 +3,7 @@ title: TasksReadingException
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1200
+weight: 1220
 url: /python-net/aspose.tasks/tasksreadingexception/
 ---
 

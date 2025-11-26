@@ -24,6 +24,7 @@ The Calendar type exposes the following members:
 |base_calendar|Gets or sets the base calendar on which this calendar depends.<br/>            Only applicable if the calendar is not a base calendar.|
 |is_baseline_calendar|Gets or sets a value indicating whether the calendar is a baseline calendar.|
 |guid|Gets calendar's Guid.|
+|primavera_properties|Gets an object containing Primavera-specific properties for a calendar read from Primavera formats.|
 ## Methods
 | Name | Description |
 | :- | :- |

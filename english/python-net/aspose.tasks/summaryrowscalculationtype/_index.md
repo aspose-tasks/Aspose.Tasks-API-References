@@ -3,7 +3,7 @@ title: SummaryRowsCalculationType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2720
+weight: 2750
 url: /python-net/aspose.tasks/summaryrowscalculationtype/
 ---
 

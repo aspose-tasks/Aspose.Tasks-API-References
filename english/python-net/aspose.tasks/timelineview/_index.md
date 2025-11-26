@@ -3,7 +3,7 @@ title: TimelineView
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1230
+weight: 1250
 url: /python-net/aspose.tasks/timelineview/
 ---
 

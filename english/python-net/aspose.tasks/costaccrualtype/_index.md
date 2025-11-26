@@ -3,7 +3,7 @@ title: CostAccrualType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2340
+weight: 2360
 url: /python-net/aspose.tasks/costaccrualtype/
 ---
 

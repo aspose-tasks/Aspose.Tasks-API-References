@@ -3,7 +3,7 @@ title: CustomFieldType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2360
+weight: 2380
 url: /python-net/aspose.tasks/customfieldtype/
 ---
 

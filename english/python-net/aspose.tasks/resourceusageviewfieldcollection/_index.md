@@ -3,7 +3,7 @@ title: ResourceUsageViewFieldCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 1030
 url: /python-net/aspose.tasks/resourceusageviewfieldcollection/
 ---
 

@@ -3,7 +3,7 @@ title: GraphicalIndicatorCriteriaType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2500
+weight: 2520
 url: /python-net/aspose.tasks/graphicalindicatorcriteriatype/
 ---
 

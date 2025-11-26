@@ -3,7 +3,7 @@ title: ResourceExportType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2680
+weight: 2710
 url: /python-net/aspose.tasks/resourceexporttype/
 ---
 
