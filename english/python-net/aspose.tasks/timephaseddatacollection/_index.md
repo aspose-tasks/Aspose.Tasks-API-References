@@ -3,7 +3,7 @@ title: TimephasedDataCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1250
+weight: 1270
 url: /python-net/aspose.tasks/timephaseddatacollection/
 ---
 

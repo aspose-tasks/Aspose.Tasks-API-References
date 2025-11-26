@@ -3,7 +3,7 @@ title: FilterComparisonType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2460
+weight: 2480
 url: /python-net/aspose.tasks/filtercomparisontype/
 ---
 

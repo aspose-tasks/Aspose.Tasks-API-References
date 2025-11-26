@@ -3,7 +3,7 @@ title: TasksException
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1180
+weight: 1200
 url: /python-net/aspose.tasks/tasksexception/
 ---
 

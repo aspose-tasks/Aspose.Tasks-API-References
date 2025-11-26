@@ -3,7 +3,7 @@ title: ExtendedAttributeResource
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2420
+weight: 2440
 url: /python-net/aspose.tasks/extendedattributeresource/
 ---
 

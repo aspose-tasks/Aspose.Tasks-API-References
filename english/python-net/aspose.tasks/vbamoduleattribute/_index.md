@@ -3,7 +3,7 @@ title: VbaModuleAttribute
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1310
+weight: 1330
 url: /python-net/aspose.tasks/vbamoduleattribute/
 ---
 
