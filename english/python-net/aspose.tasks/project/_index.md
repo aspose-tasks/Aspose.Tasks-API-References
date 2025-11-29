@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 810
 url: /python-net/aspose.tasks/project/
 ---
 
@@ -40,7 +40,7 @@ The Project type exposes the following members:
 |comments|Gets or sets a value of Comments.|
 |company|Gets or sets a value of Company.|
 |creation_date|Gets or sets a value of CreationDate.|
-|critical_slack_limit|Gets or sets a value of CriticalSlackLimit.|
+|critical_slack_limit|Tasks are considered critical by MS Project if total slack is less or equal to this number of days.|
 |currency_code|Gets or sets a value of CurrencyCode.|
 |currency_digits|Gets or sets a value of CurrencyDigits.|
 |currency_symbol|Gets or sets a value of CurrencySymbol.|

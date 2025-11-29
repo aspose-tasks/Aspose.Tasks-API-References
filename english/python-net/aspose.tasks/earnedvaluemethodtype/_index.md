@@ -3,7 +3,7 @@ title: EarnedValueMethodType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2420
 url: /python-net/aspose.tasks/earnedvaluemethodtype/
 ---
 

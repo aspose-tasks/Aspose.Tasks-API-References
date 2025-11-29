@@ -1,22 +1,21 @@
 ---
-title: PrimaveraXerReader
+title: PrimaveraDbReader
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 790
-url: /python-net/aspose.tasks/primaveraxerreader/
+weight: 750
+url: /python-net/aspose.tasks/primaveradbreader/
 ---
 
-## PrimaveraXerReader class
+## PrimaveraDbReader class
 
-Represents a reader to read Project UIDs from Primavera XER file
+Represents a reader to read Project Info from Primavera DB
 
-The PrimaveraXerReader type exposes the following members:
+The PrimaveraDbReader type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PrimaveraXerReader(xer_file_path)|Initializes a new instance of the [PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/) class.|
-|PrimaveraXerReader(stream)|Initializes a new instance of the [PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/) class.|
+|PrimaveraDbReader(db_settings)|Initializes a new instance of the [PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |
