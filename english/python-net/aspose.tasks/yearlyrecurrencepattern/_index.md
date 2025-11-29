@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1530
+weight: 1550
 url: /python-net/aspose.tasks/yearlyrecurrencepattern/
 ---
 

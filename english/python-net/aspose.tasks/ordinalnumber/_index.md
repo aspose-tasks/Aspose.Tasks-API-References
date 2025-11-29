@@ -3,7 +3,7 @@ title: OrdinalNumber
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 2640
 url: /python-net/aspose.tasks/ordinalnumber/
 ---
 

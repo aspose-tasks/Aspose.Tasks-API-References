@@ -17,6 +17,7 @@ The PrimaveraProjectInfo type exposes the following members:
 | :- | :- |
 |uid|Gets project's Uid.|
 |name|Gets project's name.|
+|short_name|Gets project's short name (Project ID).|
 |export_flag|Gets project's export flag. When a project is selected for export in Primavera, its ExportFlag is true.<br/>            Some projects not explicitly selected for export may be exported to an XER file due to their relationship to the exported project.|
 
 ### See Also

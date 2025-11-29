@@ -3,7 +3,7 @@ title: TaskUsageViewFieldCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1160
+weight: 1180
 url: /python-net/aspose.tasks/taskusageviewfieldcollection/
 ---
 

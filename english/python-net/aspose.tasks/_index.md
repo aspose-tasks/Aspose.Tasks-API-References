@@ -86,6 +86,8 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[OutlineValueCollection](/tasks/python-net/aspose.tasks/outlinevaluecollection/)|Represents a collection of [OutlineValue](/tasks/python-net/aspose.tasks/outlinevalue/) objects.|
 |[ParseErrorArgs](/tasks/python-net/aspose.tasks/parseerrorargs/)|Provides data for the [ParseErrorCallback](/tasks/python-net/aspose.tasks/parseerrorcallback/) delegate.|
 |[PrimaveraBaseReader](/tasks/python-net/aspose.tasks/primaverabasereader/)|Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files.|
+|[PrimaveraCalendarProperties](/tasks/python-net/aspose.tasks/primaveracalendarproperties/)|Represents Primavera-specific properties for a calendar read from Primavera files (XER of P6XML).<br/>            Can be used to perform calendar-specific time units conversion.|
+|[PrimaveraDbReader](/tasks/python-net/aspose.tasks/primaveradbreader/)|Represents a reader to read Project Info from Primavera DB|
 |[PrimaveraProjectProperties](/tasks/python-net/aspose.tasks/primaveraprojectproperties/)|Represents Primavera-specific properties for a project read from Primavera files (XER of P6XML).|
 |[PrimaveraReadOptions](/tasks/python-net/aspose.tasks/primaverareadoptions/)|Allows to specify additional options when reading Primavera Xml or Primavera Xer files.|
 |[PrimaveraTaskProperties](/tasks/python-net/aspose.tasks/primaverataskproperties/)|Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML).|
@@ -208,6 +210,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[MonthPosition](/tasks/python-net/aspose.tasks/monthposition/)|Specifies the position of a month item within a month.|
 |[OrdinalNumber](/tasks/python-net/aspose.tasks/ordinalnumber/)|Represents an ordinal number in the instance of [RecurringTaskInfo](/tasks/python-net/aspose.tasks/recurringtaskinfo/) class.|
 |[OutlineValueType](/tasks/python-net/aspose.tasks/outlinevaluetype/)|Specifies the type of an outline value.|
+|[PrimaveraCriticalActivitiesDefiningMethod](/tasks/python-net/aspose.tasks/primaveracriticalactivitiesdefiningmethod/)|Specifies the method for defining critical activities in Primavera.|
 |[RateFormatType](/tasks/python-net/aspose.tasks/rateformattype/)|Specifies the units used by Microsoft Project to display a rate.|
 |[RateScaleType](/tasks/python-net/aspose.tasks/ratescaletype/)|Specifies the rate scale type.|
 |[RateType](/tasks/python-net/aspose.tasks/ratetype/)|Specifies the unique identifiers of a rate table.|
