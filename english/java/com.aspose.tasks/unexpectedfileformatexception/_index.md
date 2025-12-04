@@ -3,7 +3,7 @@ title: UnexpectedFileFormatException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an exception which is thrown when file format has unexpected format or structure.
 type: docs
-weight: 324
+weight: 327
 url: /java/com.aspose.tasks/unexpectedfileformatexception/
 ---
 

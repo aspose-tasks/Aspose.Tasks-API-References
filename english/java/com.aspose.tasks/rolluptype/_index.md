@@ -3,7 +3,7 @@ title: RollupType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the rollup type.
 type: docs
-weight: 266
+weight: 269
 url: /java/com.aspose.tasks/rolluptype/
 ---
 

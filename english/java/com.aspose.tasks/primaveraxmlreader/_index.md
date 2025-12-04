@@ -3,7 +3,7 @@ title: PrimaveraXmlReader
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a reader which allows to retrieve Project UIDs from Primavera Xml file.
 type: docs
-weight: 207
+weight: 210
 url: /java/com.aspose.tasks/primaveraxmlreader/
 ---
 

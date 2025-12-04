@@ -3,7 +3,7 @@ title: Spreadsheet2003SaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to Spreadsheet2003.
 type: docs
-weight: 276
+weight: 279
 url: /java/com.aspose.tasks/spreadsheet2003saveoptions/
 ---
 

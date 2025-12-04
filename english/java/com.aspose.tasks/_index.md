@@ -198,7 +198,10 @@ url: /java/com.aspose.tasks/
 | [PresentationFormat](../com.aspose.tasks/presentationformat) | Enumeration for presentation format. |
 | [PrimaveraActivityType](../com.aspose.tasks/primaveraactivitytype) | Specifies type of Primavera activity. |
 | [PrimaveraBaseReader](../com.aspose.tasks/primaverabasereader) | Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files. |
+| [PrimaveraCalendarProperties](../com.aspose.tasks/primaveracalendarproperties) | Represents Primavera-specific properties for a calendar read from Primavera files (XER of P6XML). |
 | [PrimaveraConstraintType](../com.aspose.tasks/primaveraconstrainttype) | Specifies a type of activity's constraint. |
+| [PrimaveraCriticalActivitiesDefiningMethod](../com.aspose.tasks/primaveracriticalactivitiesdefiningmethod) | Specifies the method for defining critical activities in Primavera. |
+| [PrimaveraDbReader](../com.aspose.tasks/primaveradbreader) | Represents a reader to read Project Info from Primavera DB |
 | [PrimaveraDbSettings](../com.aspose.tasks/primaveradbsettings) | Allows to set necessary options to read project data from Primavera database. |
 | [PrimaveraDurationType](../com.aspose.tasks/primaveradurationtype) | Specifies duration type of Primavera activity. |
 | [PrimaveraPercentCompleteType](../com.aspose.tasks/primaverapercentcompletetype) | Specifies value of '% Complete Type' field for Primavera activities. |

@@ -3,7 +3,7 @@ title: ReadOnlyCollectionBase
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a read-only collection of objects.
 type: docs
-weight: 234
+weight: 237
 url: /java/com.aspose.tasks/readonlycollectionbase/
 ---
 

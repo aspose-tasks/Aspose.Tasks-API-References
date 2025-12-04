@@ -3,7 +3,7 @@ title: RateFormatType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the units used by Microsoft Project to display a rate.
 type: docs
-weight: 231
+weight: 234
 url: /java/com.aspose.tasks/rateformattype/
 ---
 

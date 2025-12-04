@@ -3,7 +3,7 @@ title: StringBuilder
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a mutable string of characters.
 type: docs
-weight: 277
+weight: 280
 url: /java/com.aspose.tasks/stringbuilder/
 ---
 

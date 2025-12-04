@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 285
+weight: 288
 url: /java/com.aspose.tasks/task/
 ---
 
@@ -27,6 +27,8 @@ One can use **Task** to plan a project by creating tasks and assign appropriate 
 To build a tree of tasks one can use a specialized collection [TaskCollection](../../com.aspose.tasks/taskcollection) by accessing `Project.RootTask`([Project.getRootTask](../../com.aspose.tasks/project\#getRootTask)/[Project.setRootTask(Task)](../../com.aspose.tasks/project\#setRootTask-Task-)) property e.g.:
 
 ```
+
+``````
 
   Project project = new Project();
   // add new tasks

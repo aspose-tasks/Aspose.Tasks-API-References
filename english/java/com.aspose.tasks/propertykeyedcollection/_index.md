@@ -3,7 +3,7 @@ title: PropertyKeyedCollection
 second_title: Aspose.Tasks for Java API Reference
 description: A base class of collection of properties.
 type: docs
-weight: 227
+weight: 230
 url: /java/com.aspose.tasks/propertykeyedcollection/
 ---
 

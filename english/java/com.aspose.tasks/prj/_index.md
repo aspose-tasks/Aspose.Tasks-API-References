@@ -3,7 +3,7 @@ title: Prj
 second_title: Aspose.Tasks for Java API Reference
 description: Represents supported properties of  object.
 type: docs
-weight: 212
+weight: 215
 url: /java/com.aspose.tasks/prj/
 ---
 
@@ -31,7 +31,7 @@ Represents supported properties of [Project](../../com.aspose.tasks/project) obj
 | [COMMENTS](#COMMENTS) | Project's comments. |
 | [COMPANY](#COMPANY) | The company where a project was created. |
 | [CREATION_DATE](#CREATION-DATE) | The date and time when a project was created. |
-| [CRITICAL_SLACK_LIMIT](#CRITICAL-SLACK-LIMIT) | The number of days to the end of a task when Microsoft Project marks that task as a critical task. |
+| [CRITICAL_SLACK_LIMIT](#CRITICAL-SLACK-LIMIT) | Tasks are considered critical by MS Project if total slack is less or equal to this number of days. |
 | [CURRENCY_CODE](#CURRENCY-CODE) | The three letter currency character code as defined in ISO 4217. |
 | [CURRENCY_DIGITS](#CURRENCY-DIGITS) | The number of digits after a decimal symbol. |
 | [CURRENCY_SYMBOL](#CURRENCY-SYMBOL) | The currency symbol used in a project. |
@@ -211,7 +211,7 @@ public static final Key<Integer,Byte> CRITICAL_SLACK_LIMIT
 ```
 
 
-The number of days to the end of a task when Microsoft Project marks that task as a critical task.
+Tasks are considered critical by MS Project if total slack is less or equal to this number of days.
 
 ### CURRENCY_CODE {#CURRENCY-CODE}
 ```

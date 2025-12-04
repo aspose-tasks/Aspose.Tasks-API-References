@@ -3,7 +3,7 @@ title: PrinterPaperSize
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the paper size which is used for printing.
 type: docs
-weight: 210
+weight: 213
 url: /java/com.aspose.tasks/printerpapersize/
 ---
 
@@ -26,26 +26,26 @@ Specifies the paper size which is used for printing.
 | [PaperA5](#PaperA5) | Indicates A5 printer paper size (148 mm by 210 mm). |
 | [PaperB4](#PaperB4) | Indicates B4 printer paper size (250 mm by 353 mm). |
 | [PaperB5](#PaperB5) | Indicates B5 printer paper size (176 mm by 250 mm). |
-| [PaperCSheet](#PaperCSheet) | Indicates C paper printer paper size (17 in. by 22 in.). |
-| [PaperDSheet](#PaperDSheet) | Indicates D paper printer paper size (22 in. by 34 in.). |
-| [PaperESheet](#PaperESheet) | Indicates E paper printer paper size (34 in. by 44 in.). |
-| [PaperEnvelope10](#PaperEnvelope10) | Indicates Envelope10 printer paper size (4.125 in. by 9.5 in.). |
-| [PaperEnvelopeMonarch](#PaperEnvelopeMonarch) | Indicates Envelope Monarch printer paper size (3.875 in. by 7.5 in.). |
-| [PaperExecutive](#PaperExecutive) | Indicates Envelope executive printer paper size (7.25 in. by 10.5 in.). |
-| [PaperFolio](#PaperFolio) | Indicates Folio printer paper size (8.5 in. by 13 in.). |
-| [PaperLedger](#PaperLedger) | Indicates Ledger printer paper size (17 in. by 11 in.). |
-| [PaperLegal](#PaperLegal) | Indicates Envelope legal printer paper size (8.5 in. by 14 in.). |
-| [PaperLetter](#PaperLetter) | Indicates Envelope Letter printer paper size (8.5 in. by 11 in.). |
-| [PaperLetterSmall](#PaperLetterSmall) | Indicates Small Letter printer paper size (8.5 in. by 11 in.). |
-| [PaperNote](#PaperNote) | Indicates Note printer paper size (8.5 in. by 11 in.). |
+| [PaperCSheet](#PaperCSheet) | Indicates C paper printer paper size (17 in. |
+| [PaperDSheet](#PaperDSheet) | Indicates D paper printer paper size (22 in. |
+| [PaperESheet](#PaperESheet) | Indicates E paper printer paper size (34 in. |
+| [PaperEnvelope10](#PaperEnvelope10) | Indicates Envelope10 printer paper size (4.125 in. |
+| [PaperEnvelopeMonarch](#PaperEnvelopeMonarch) | Indicates Envelope Monarch printer paper size (3.875 in. |
+| [PaperExecutive](#PaperExecutive) | Indicates Envelope executive printer paper size (7.25 in. |
+| [PaperFolio](#PaperFolio) | Indicates Folio printer paper size (8.5 in. |
+| [PaperLedger](#PaperLedger) | Indicates Ledger printer paper size (17 in. |
+| [PaperLegal](#PaperLegal) | Indicates Envelope legal printer paper size (8.5 in. |
+| [PaperLetter](#PaperLetter) | Indicates Envelope Letter printer paper size (8.5 in. |
+| [PaperLetterSmall](#PaperLetterSmall) | Indicates Small Letter printer paper size (8.5 in. |
+| [PaperNote](#PaperNote) | Indicates Note printer paper size (8.5 in. |
 | [PaperQuarto](#PaperQuarto) | Indicates Quarto printer paper size (215 mm by 275 mm). |
-| [PaperStandard10x11](#PaperStandard10x11) | Indicates Standard printer paper size (10 in. by 11 in.). |
-| [PaperStandard10x14](#PaperStandard10x14) | Indicates Standard printer paper size (10 in. by 14 in.). |
-| [PaperStandard11x17](#PaperStandard11x17) | Indicates Standard printer paper size (11 in. by 17 in.). |
-| [PaperStandard15x11](#PaperStandard15x11) | Indicates Standard printer paper size (15 in. by 11 in.). |
-| [PaperStandard9x11](#PaperStandard9x11) | Indicates Standard printer paper size (9 in. by 11 in.). |
-| [PaperStatement](#PaperStatement) | Indicates Statement printer paper size (5.5 in. by 8.5 in.). |
-| [PaperTabloid](#PaperTabloid) | Indicates Tabloid printer paper size (11 in. by 17 in.). |
+| [PaperStandard10x11](#PaperStandard10x11) | Indicates Standard printer paper size (10 in. |
+| [PaperStandard10x14](#PaperStandard10x14) | Indicates Standard printer paper size (10 in. |
+| [PaperStandard11x17](#PaperStandard11x17) | Indicates Standard printer paper size (11 in. |
+| [PaperStandard15x11](#PaperStandard15x11) | Indicates Standard printer paper size (15 in. |
+| [PaperStandard9x11](#PaperStandard9x11) | Indicates Standard printer paper size (9 in. |
+| [PaperStatement](#PaperStatement) | Indicates Statement printer paper size (5.5 in. |
+| [PaperTabloid](#PaperTabloid) | Indicates Tabloid printer paper size (11 in. |
 ### Custom {#Custom}
 ```
 public static final int Custom

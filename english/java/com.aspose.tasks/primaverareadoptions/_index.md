@@ -3,7 +3,7 @@ title: PrimaveraReadOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when reading Primavera Xml or Primavera Xer files.
 type: docs
-weight: 202
+weight: 205
 url: /java/com.aspose.tasks/primaverareadoptions/
 ---
 

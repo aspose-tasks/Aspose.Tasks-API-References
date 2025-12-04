@@ -3,7 +3,7 @@ title: RecurrencePatternBase
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the base class of recurrence pattern.
 type: docs
-weight: 237
+weight: 240
 url: /java/com.aspose.tasks/recurrencepatternbase/
 ---
 

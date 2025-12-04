@@ -3,7 +3,7 @@ title: TimescaleFitBehavior
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a behavior used to align timescale area with page width.
 type: docs
-weight: 318
+weight: 321
 url: /java/com.aspose.tasks/timescalefitbehavior/
 ---
 

@@ -3,7 +3,7 @@ title: ProjectOnlineException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an exception which is thrown when errors are found during interaction with Project Online or Project Server instance.
 type: docs
-weight: 220
+weight: 223
 url: /java/com.aspose.tasks/projectonlineexception/
 ---
 

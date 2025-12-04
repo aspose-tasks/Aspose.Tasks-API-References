@@ -3,7 +3,7 @@ title: ResourceUsageViewFieldCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represent a collection of ResourceUsageViewField values.
 type: docs
-weight: 255
+weight: 258
 url: /java/com.aspose.tasks/resourceusageviewfieldcollection/
 ---
 

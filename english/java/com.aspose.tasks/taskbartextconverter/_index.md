@@ -3,7 +3,7 @@ title: TaskBarTextConverter
 second_title: Aspose.Tasks for Java API Reference
 description: Custom converter of tasks data to bar text.
 type: docs
-weight: 286
+weight: 289
 url: /java/com.aspose.tasks/taskbartextconverter/
 ---
 

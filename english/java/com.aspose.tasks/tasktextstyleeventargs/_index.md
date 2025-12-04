@@ -3,7 +3,7 @@ title: TaskTextStyleEventArgs
 second_title: Aspose.Tasks for Java API Reference
 description: This class represents set of data that related to the rendering of table cells content.
 type: docs
-weight: 296
+weight: 299
 url: /java/com.aspose.tasks/tasktextstyleeventargs/
 ---
 

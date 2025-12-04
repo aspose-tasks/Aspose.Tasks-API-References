@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a project.
 type: docs
-weight: 216
+weight: 219
 url: /java/com.aspose.tasks/project/
 ---
 
@@ -75,7 +75,7 @@ The **Project** entities can be accessed via typed collections, for example `Asp
 | [getCompany()](#getCompany--) | Gets a value of Company. |
 | [getCreationDate()](#getCreationDate--) | Gets a value of CreationDate. |
 | [getCriticalPath()](#getCriticalPath--) | Gets a collection which contains a list of Critical tasks which comprise Critical Path of this project. |
-| [getCriticalSlackLimit()](#getCriticalSlackLimit--) | Gets a value of CriticalSlackLimit. |
+| [getCriticalSlackLimit()](#getCriticalSlackLimit--) | Tasks are considered critical by MS Project if total slack is less or equal to this number of days. |
 | [getCurrencyCode()](#getCurrencyCode--) | Gets a value of CurrencyCode. |
 | [getCurrencyDigits()](#getCurrencyDigits--) | Gets a value of CurrencyDigits. |
 | [getCurrencySymbol()](#getCurrencySymbol--) | Gets a value of CurrencySymbol. |
@@ -222,7 +222,7 @@ The **Project** entities can be accessed via typed collections, for example `Asp
 | [setComments(String value)](#setComments-java.lang.String-) | Sets a value of Comments. |
 | [setCompany(String value)](#setCompany-java.lang.String-) | Sets a value of Company. |
 | [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | Sets a value of CreationDate. |
-| [setCriticalSlackLimit(int value)](#setCriticalSlackLimit-int-) | Sets a value of CriticalSlackLimit. |
+| [setCriticalSlackLimit(int value)](#setCriticalSlackLimit-int-) | Tasks are considered critical by MS Project if total slack is less or equal to this number of days. |
 | [setCurrencyCode(String value)](#setCurrencyCode-java.lang.String-) | Sets a value of CurrencyCode. |
 | [setCurrencyDigits(int value)](#setCurrencyDigits-int-) | Sets a value of CurrencyDigits. |
 | [setCurrencySymbol(String value)](#setCurrencySymbol-java.lang.String-) | Sets a value of CurrencySymbol. |
@@ -724,10 +724,10 @@ public final int getCriticalSlackLimit()
 ```
 
 
-Gets a value of CriticalSlackLimit.
+Tasks are considered critical by MS Project if total slack is less or equal to this number of days.
 
 **Returns:**
-int - a value of CriticalSlackLimit.
+int - the maximum value of total slack time (in days) at which a task is considered critical
 ### getCurrencyCode() {#getCurrencyCode--}
 ```
 public final String getCurrencyCode()
@@ -2434,12 +2434,12 @@ public final void setCriticalSlackLimit(int value)
 ```
 
 
-Sets a value of CriticalSlackLimit.
+Tasks are considered critical by MS Project if total slack is less or equal to this number of days.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | a value of CriticalSlackLimit. |
+| value | int | the maximum value of total slack time (in days) at which a task is considered critical |
 
 ### setCurrencyCode(String value) {#setCurrencyCode-java.lang.String-}
 ```

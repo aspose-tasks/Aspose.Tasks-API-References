@@ -3,7 +3,7 @@ title: ResourceUsageView
 second_title: Aspose.Tasks for Java API Reference
 description: Represents resource usage view in a project.
 type: docs
-weight: 253
+weight: 256
 url: /java/com.aspose.tasks/resourceusageview/
 ---
 

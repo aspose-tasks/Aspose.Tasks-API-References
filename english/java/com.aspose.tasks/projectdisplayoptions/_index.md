@@ -3,7 +3,7 @@ title: ProjectDisplayOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the display options for a project instance.
 type: docs
-weight: 217
+weight: 220
 url: /java/com.aspose.tasks/projectdisplayoptions/
 ---
 

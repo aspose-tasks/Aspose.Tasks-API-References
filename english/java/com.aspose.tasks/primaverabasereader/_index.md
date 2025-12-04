@@ -43,7 +43,7 @@ Return a list of the projects' unique identifiers.
 java.util.List&lt;java.lang.Integer&gt; - List of projects' unique identifiers.
 ### loadProject(int projectUid) {#loadProject-int-}
 ```
-public final Project loadProject(int projectUid)
+public Project loadProject(int projectUid)
 ```
 
 
