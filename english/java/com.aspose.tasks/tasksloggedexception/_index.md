@@ -3,7 +3,7 @@ title: TasksLoggedException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the standard internal exception type.
 type: docs
-weight: 304
+weight: 307
 url: /java/com.aspose.tasks/tasksloggedexception/
 ---
 

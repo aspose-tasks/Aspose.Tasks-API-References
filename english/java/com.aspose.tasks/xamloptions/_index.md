@@ -3,7 +3,7 @@ title: XamlOptions
 second_title: Aspose.Tasks for Java API Reference
 description: /// Allows to specify additional options when rendering project pages to XAML.
 type: docs
-weight: 361
+weight: 364
 url: /java/com.aspose.tasks/xamloptions/
 ---
 

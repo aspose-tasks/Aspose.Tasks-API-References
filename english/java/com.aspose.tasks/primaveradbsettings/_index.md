@@ -3,7 +3,7 @@ title: PrimaveraDbSettings
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to set necessary options to read project data from Primavera database.
 type: docs
-weight: 197
+weight: 200
 url: /java/com.aspose.tasks/primaveradbsettings/
 ---
 

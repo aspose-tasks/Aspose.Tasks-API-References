@@ -3,7 +3,7 @@ title: TimescaleTier
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a single tier of the timescale on a Gantt Chart.
 type: docs
-weight: 319
+weight: 322
 url: /java/com.aspose.tasks/timescaletier/
 ---
 

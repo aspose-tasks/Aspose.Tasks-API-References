@@ -3,7 +3,7 @@ title: ResourceUsageViewField
 second_title: Aspose.Tasks for Java API Reference
 description: Represents possible fields in  object resource usage view field.
 type: docs
-weight: 254
+weight: 257
 url: /java/com.aspose.tasks/resourceusageviewfield/
 ---
 

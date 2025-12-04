@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Tasks for Java API Reference
 description: Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of .
 type: docs
-weight: 272
+weight: 275
 url: /java/com.aspose.tasks/shape/
 ---
 

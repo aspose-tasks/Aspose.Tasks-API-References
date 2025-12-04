@@ -3,7 +3,7 @@ title: TextItemType
 second_title: Aspose.Tasks for Java API Reference
 description: Item type to change a text style for.
 type: docs
-weight: 308
+weight: 311
 url: /java/com.aspose.tasks/textitemtype/
 ---
 

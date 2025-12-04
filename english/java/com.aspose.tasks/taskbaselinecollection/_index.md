@@ -3,7 +3,7 @@ title: TaskBaselineCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 288
+weight: 291
 url: /java/com.aspose.tasks/taskbaselinecollection/
 ---
 

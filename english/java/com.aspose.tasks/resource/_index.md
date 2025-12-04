@@ -3,7 +3,7 @@ title: Resource
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource in a project.
 type: docs
-weight: 244
+weight: 247
 url: /java/com.aspose.tasks/resource/
 ---
 

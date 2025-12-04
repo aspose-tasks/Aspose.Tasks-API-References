@@ -3,7 +3,7 @@ title: ProjectServerManager
 second_title: Aspose.Tasks for Java API Reference
 description: The class which provides the methods to read and to perform operations on projects in the specified Project Online account or in the specified on-premise Project Server instance Project Servers versions 2016 and 2019 are supported.
 type: docs
-weight: 222
+weight: 225
 url: /java/com.aspose.tasks/projectservermanager/
 ---
 

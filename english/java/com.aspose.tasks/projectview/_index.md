@@ -3,7 +3,7 @@ title: ProjectView
 second_title: Aspose.Tasks for Java API Reference
 description: Projects view class
 type: docs
-weight: 224
+weight: 227
 url: /java/com.aspose.tasks/projectview/
 ---
 

@@ -3,7 +3,7 @@ title: PrimaveraConstraintType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies a type of activitys constraint.
 type: docs
-weight: 196
+weight: 197
 url: /java/com.aspose.tasks/primaveraconstrainttype/
 ---
 

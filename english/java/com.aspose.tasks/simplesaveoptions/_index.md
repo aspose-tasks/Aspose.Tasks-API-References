@@ -3,7 +3,7 @@ title: SimpleSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: This is an abstract base class that allow the user to specify basic options when saving a project into a particular format.
 type: docs
-weight: 273
+weight: 276
 url: /java/com.aspose.tasks/simplesaveoptions/
 ---
 
