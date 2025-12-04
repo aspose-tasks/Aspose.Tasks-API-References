@@ -3,7 +3,7 @@ title: WorkGroupType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of a workgroup.
 type: docs
-weight: 355
+weight: 358
 url: /java/com.aspose.tasks/workgrouptype/
 ---
 

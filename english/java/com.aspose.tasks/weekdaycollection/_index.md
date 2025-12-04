@@ -3,14 +3,17 @@ title: WeekDayCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 347
+weight: 350
 url: /java/com.aspose.tasks/weekdaycollection/
 ---
 
 **Inheritance:**
 java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspose.tasks.AbstractList
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class WeekDayCollection extends AbstractList<WeekDay>
+public class WeekDayCollection extends AbstractList<WeekDay> implements Iterable<WeekDay>
 ```
 
 Represents a collection of [WeekDay](../../com.aspose.tasks/weekday) objects.

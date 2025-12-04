@@ -68,6 +68,7 @@ Calendars are used to define standard working and non-working times. Projects mu
 | [getName()](#getName--) | Gets the name of the calendar. |
 | [getNextWorkingDayStart(Date date)](#getNextWorkingDayStart-java.util.Date-) | Calculates next working day start for the specified date. |
 | [getPreviousWorkingDayEnd(Date date)](#getPreviousWorkingDayEnd-java.util.Date-) | Calculates the end of the previous working date from the specified date. |
+| [getPrimaveraProperties()](#getPrimaveraProperties--) | Gets an object containing Primavera-specific properties for a calendar read from Primavera formats. |
 | [getStartDateFromFinishAndDuration(Date finish, Duration duration)](#getStartDateFromFinishAndDuration-java.util.Date-com.aspose.tasks.Duration-) | Returns start date based on the specified finish date and duration. |
 | [getStartDateFromFinishAndDuration(Date finish, double duration)](#getStartDateFromFinishAndDuration-java.util.Date-double-) | Returns start date based on specified finish date and duration. |
 | [getTaskFinishDateFromDuration(Task task, double duration)](#getTaskFinishDateFromDuration-com.aspose.tasks.Task-double-) | Calculates the task finish date and time from its start date, split parts and the work duration. |
@@ -84,7 +85,7 @@ Calendars are used to define standard working and non-working times. Projects mu
 | [isBaselineCalendar()](#isBaselineCalendar--) | Gets a value indicating whether the calendar is a baseline calendar. |
 | [isDayWorking(Date dt)](#isDayWorking-java.util.Date-) | Determines whether the specified day is a working day according to the calendar. |
 | [isEmpty()](#isEmpty--) | Returns whether the calendar doesn't have working hours defined. |
-| [make24HourCalendar(Calendar calendar)](#make24HourCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar to be a 24Hour Calendar. 24Hours Calendar is a Calendar in which every day of week is working with Round-the-clock working hours. |
+| [make24HourCalendar(Calendar calendar)](#make24HourCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar to be a 24Hour Calendar. |
 | [makeNightShiftCalendar(Calendar calendar)](#makeNightShiftCalendar-com.aspose.tasks.Calendar-) | Makes a given Calendar as Night Shift Calendar. |
 | [makeStandardCalendar(Calendar calendar)](#makeStandardCalendar-com.aspose.tasks.Calendar-) | Creates default standard calendar. |
 | [setBaseCalendar(Calendar value)](#setBaseCalendar-com.aspose.tasks.Calendar-) | Sets the base calendar on which this calendar depends. |
@@ -232,6 +233,16 @@ Calculates the end of the previous working date from the specified date.
 
 **Returns:**
 java.util.Date - The end of the previous working day end java.util.Date
+### getPrimaveraProperties() {#getPrimaveraProperties--}
+```
+public final PrimaveraCalendarProperties getPrimaveraProperties()
+```
+
+
+Gets an object containing Primavera-specific properties for a calendar read from Primavera formats.
+
+**Returns:**
+[PrimaveraCalendarProperties](../../com.aspose.tasks/primaveracalendarproperties) - an object containing Primavera-specific properties for a calendar read from Primavera formats.
 ### getStartDateFromFinishAndDuration(Date finish, Duration duration) {#getStartDateFromFinishAndDuration-java.util.Date-com.aspose.tasks.Duration-}
 ```
 public final Date getStartDateFromFinishAndDuration(Date finish, Duration duration)

@@ -3,7 +3,7 @@ title: WorkWeekCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 358
+weight: 361
 url: /java/com.aspose.tasks/workweekcollection/
 ---
 

@@ -3,7 +3,7 @@ title: TimephasedDataCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 315
+weight: 318
 url: /java/com.aspose.tasks/timephaseddatacollection/
 ---
 

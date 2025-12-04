@@ -3,7 +3,7 @@ title: TaskLink
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a predecessor link.
 type: docs
-weight: 291
+weight: 294
 url: /java/com.aspose.tasks/tasklink/
 ---
 

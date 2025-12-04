@@ -3,7 +3,7 @@ title: ResourceViewColumn
 second_title: Aspose.Tasks for Java API Reference
 description: Projects view class used in ResourceUsage view and ResourceSheet view.
 type: docs
-weight: 257
+weight: 260
 url: /java/com.aspose.tasks/resourceviewcolumn/
 ---
 

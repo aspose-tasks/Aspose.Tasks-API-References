@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Tasks for Java API Reference
 description: This class represents set of data that related to external resource files saving that occurs during conversion to HTML format.
 type: docs
-weight: 250
+weight: 253
 url: /java/com.aspose.tasks/resourcesavingargs/
 ---
 

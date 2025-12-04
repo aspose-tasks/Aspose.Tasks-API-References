@@ -3,7 +3,7 @@ title: RiskAnalysisSettings
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies settings for performing risk analysis.
 type: docs
-weight: 259
+weight: 262
 url: /java/com.aspose.tasks/riskanalysissettings/
 ---
 

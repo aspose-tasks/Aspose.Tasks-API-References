@@ -3,7 +3,7 @@ title: ProjectServerCredentials
 second_title: Aspose.Tasks for Java API Reference
 description: Credentials which are used to connect to Project Online or on-premise instance of Project Server.
 type: docs
-weight: 221
+weight: 224
 url: /java/com.aspose.tasks/projectservercredentials/
 ---
 

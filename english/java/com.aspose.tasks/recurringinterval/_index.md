@@ -3,7 +3,7 @@ title: RecurringInterval
 second_title: Aspose.Tasks for Java API Reference
 description: Represents recurring intervals used in progress lines of a Gantt Chart view.
 type: docs
-weight: 239
+weight: 242
 url: /java/com.aspose.tasks/recurringinterval/
 ---
 

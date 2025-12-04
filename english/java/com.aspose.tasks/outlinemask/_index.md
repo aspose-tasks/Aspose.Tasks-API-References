@@ -23,11 +23,11 @@ Represents four elements of a mask which defines an outline code format.
 
 | Method | Description |
 | --- | --- |
-| [getLength()](#getLength--) | Gets the maximum length (in characters) of the outline code values. 0 if length is not defined. |
+| [getLength()](#getLength--) | Gets the maximum length (in characters) of the outline code values. |
 | [getLevel()](#getLevel--) | Gets the level of a mask. |
 | [getSeparator()](#getSeparator--) | Gets the separator of code values. |
 | [getType()](#getType--) | Gets the type of a mask. |
-| [setLength(int value)](#setLength-int-) | Sets the maximum length (in characters) of the outline code values. 0 if length is not defined. |
+| [setLength(int value)](#setLength-int-) | Sets the maximum length (in characters) of the outline code values. |
 | [setLevel(int value)](#setLevel-int-) | Sets the level of a mask. |
 | [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets the separator of code values. |
 | [setType(int value)](#setType-int-) | Sets the type of a mask. |

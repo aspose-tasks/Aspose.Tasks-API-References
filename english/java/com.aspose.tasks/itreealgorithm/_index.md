@@ -3,7 +3,7 @@ title: ITreeAlgorithm
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an algorithm that can be applied to a tree of objects T.
 type: docs
-weight: 378
+weight: 381
 url: /java/com.aspose.tasks/itreealgorithm/
 ---
 ```

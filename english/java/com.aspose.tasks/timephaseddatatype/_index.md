@@ -3,7 +3,7 @@ title: TimephasedDataType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of time phased data.
 type: docs
-weight: 316
+weight: 319
 url: /java/com.aspose.tasks/timephaseddatatype/
 ---
 

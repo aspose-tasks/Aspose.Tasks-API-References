@@ -3,7 +3,7 @@ title: PrimaveraProjectInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents short info about a project loaded from Primavera format.
 type: docs
-weight: 200
+weight: 203
 url: /java/com.aspose.tasks/primaveraprojectinfo/
 ---
 
@@ -20,6 +20,7 @@ Represents short info about a project loaded from Primavera format.
 | --- | --- |
 | [getExportFlag()](#getExportFlag--) | Gets project's export flag. |
 | [getName()](#getName--) | Gets project's name. |
+| [getShortName()](#getShortName--) | Gets project's short name (Project ID). |
 | [getUid()](#getUid--) | Gets project's Uid. |
 ### getExportFlag() {#getExportFlag--}
 ```
@@ -41,6 +42,16 @@ Gets project's name.
 
 **Returns:**
 java.lang.String - project's name.
+### getShortName() {#getShortName--}
+```
+public final String getShortName()
+```
+
+
+Gets project's short name (Project ID).
+
+**Returns:**
+java.lang.String - project's short name (Project ID).
 ### getUid() {#getUid--}
 ```
 public final int getUid()
