@@ -3,7 +3,7 @@ title: Enum RateType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RateType enum. Specifies the unique identifiers of a rate table
 type: docs
-weight: 1600
+weight: 1630
 url: /net/aspose.tasks/ratetype/
 ---
 ## RateType enumeration

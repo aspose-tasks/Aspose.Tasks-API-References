@@ -3,7 +3,7 @@ title: Class TableTextStyle
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.TableTextStyle class. Represents a text style in a view table
 type: docs
-weight: 3290
+weight: 3320
 url: /net/aspose.tasks.visualization/tabletextstyle/
 ---
 ## TableTextStyle class

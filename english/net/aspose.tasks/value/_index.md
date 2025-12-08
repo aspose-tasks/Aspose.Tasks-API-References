@@ -3,7 +3,7 @@ title: Class Value
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Value class. Represents a value in a value list
 type: docs
-weight: 2720
+weight: 2750
 url: /net/aspose.tasks/value/
 ---
 ## Value class

@@ -3,7 +3,7 @@ title: Enum TaskStatus
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskStatus enum. Specifies the status of a task
 type: docs
-weight: 2380
+weight: 2410
 url: /net/aspose.tasks/taskstatus/
 ---
 ## TaskStatus enumeration

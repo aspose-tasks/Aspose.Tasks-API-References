@@ -3,7 +3,7 @@ title: Calendar.Delete
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar method. Removes calendar from project
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.tasks/calendar/delete/
 ---
 ## Calendar.Delete method

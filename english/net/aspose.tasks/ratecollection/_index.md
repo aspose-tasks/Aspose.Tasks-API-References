@@ -3,7 +3,7 @@ title: Class RateCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RateCollection class. Represents a collection which contains Rate objects
 type: docs
-weight: 1570
+weight: 1600
 url: /net/aspose.tasks/ratecollection/
 ---
 ## RateCollection class

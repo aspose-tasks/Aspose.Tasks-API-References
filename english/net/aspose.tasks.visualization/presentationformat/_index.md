@@ -3,7 +3,7 @@ title: Enum PresentationFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.PresentationFormat enum. Enumeration for presentation format
 type: docs
-weight: 3190
+weight: 3220
 url: /net/aspose.tasks.visualization/presentationformat/
 ---
 ## PresentationFormat enumeration

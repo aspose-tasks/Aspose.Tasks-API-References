@@ -3,7 +3,7 @@ title: Calendar.Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar property. Gets or sets the unique identifier of the calendar
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.tasks/calendar/uid/
 ---
 ## Calendar.Uid property

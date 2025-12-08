@@ -3,7 +3,7 @@ title: Class AndAllConditionT
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Util.AndAllCondition1T class. Applies logical AND to all conditions. For example cond1 AND cond2 AND cond3
 type: docs
-weight: 2580
+weight: 2610
 url: /net/aspose.tasks.util/andallcondition-1/
 ---
 ## AndAllCondition&lt;T&gt; class

@@ -3,7 +3,7 @@ title: Calendar.GetWorkingHoursTimeSpan
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar method. Returns amount of working hours between the specified dates
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.tasks/calendar/getworkinghourstimespan/
 ---
 ## Calendar.GetWorkingHoursTimeSpan method

@@ -3,7 +3,7 @@ title: Calendar.WorkWeeks
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar property. Gets WorkWeekCollections object. The collection of work weeks that is associated with the calendar
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.tasks/calendar/workweeks/
 ---
 ## Calendar.WorkWeeks property

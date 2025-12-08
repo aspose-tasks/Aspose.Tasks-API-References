@@ -80,6 +80,8 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [ParseErrorArgs](./parseerrorargs/) | Provides data for the [`ParseErrorCallback`](../aspose.tasks/parseerrorcallback/) delegate. |
 | [ParseErrorCallback](./parseerrorcallback/) | Represents a method callback to handle parse errors that can happen when reading xml data. |
 | [PrimaveraBaseReader](./primaverabasereader/) | Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files. |
+| [PrimaveraCalendarProperties](./primaveracalendarproperties/) | Represents Primavera-specific properties for a calendar read from Primavera files (XER of P6XML). Can be used to perform calendar-specific time units conversion. |
+| [PrimaveraDbReader](./primaveradbreader/) | Represents a reader to read Project Info from Primavera DB |
 | [PrimaveraProjectProperties](./primaveraprojectproperties/) | Represents Primavera-specific properties for a project read from Primavera files (XER of P6XML). |
 | [PrimaveraReadOptions](./primaverareadoptions/) | Allows to specify additional options when reading Primavera Xml or Primavera Xer files. |
 | [PrimaveraTaskProperties](./primaverataskproperties/) | Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML). |
@@ -224,6 +226,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [MonthPosition](./monthposition/) | Specifies the position of a month item within a month. |
 | [OrdinalNumber](./ordinalnumber/) | Represents an ordinal number in the instance of [`RecurringTaskInfo`](../aspose.tasks/recurringtaskinfo/) class. |
 | [OutlineValueType](./outlinevaluetype/) | Specifies the type of an outline value. |
+| [PrimaveraCriticalActivitiesDefiningMethod](./primaveracriticalactivitiesdefiningmethod/) | Specifies the method for defining critical activities in Primavera. |
 | [PrjKey](./prjkey/) | Represents a list of supported project fields. |
 | [RateFormatType](./rateformattype/) | Specifies the units used by Microsoft Project to display a rate. |
 | [RateScaleType](./ratescaletype/) | Specifies the rate scale type. |

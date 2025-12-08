@@ -3,7 +3,7 @@ title: Class Project
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Project class. Represents a project
 type: docs
-weight: 1380
+weight: 1410
 url: /net/aspose.tasks/project/
 ---
 ## Project class
@@ -53,7 +53,7 @@ public class Project
 | [Company](../../aspose.tasks/project/company/) { get; set; } | Gets or sets a value of Company. |
 | [CreationDate](../../aspose.tasks/project/creationdate/) { get; set; } | Gets or sets a value of CreationDate. |
 | [CriticalPath](../../aspose.tasks/project/criticalpath/) { get; } | Gets a collection which contains a list of Critical tasks which comprise Critical Path of this project. This is an O(n) operation, where n is the number of tasks in the project. |
-| [CriticalSlackLimit](../../aspose.tasks/project/criticalslacklimit/) { get; set; } | Gets or sets a value of CriticalSlackLimit. |
+| [CriticalSlackLimit](../../aspose.tasks/project/criticalslacklimit/) { get; set; } | Tasks are considered critical by MS Project if total slack is less or equal to this number of days. |
 | [CurrencyCode](../../aspose.tasks/project/currencycode/) { get; set; } | Gets or sets a value of CurrencyCode. |
 | [CurrencyDigits](../../aspose.tasks/project/currencydigits/) { get; set; } | Gets or sets a value of CurrencyDigits. |
 | [CurrencySymbol](../../aspose.tasks/project/currencysymbol/) { get; set; } | Gets or sets a value of CurrencySymbol. |

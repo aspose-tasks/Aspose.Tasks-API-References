@@ -3,7 +3,7 @@ title: Calendar.GetWorkStart
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar method. Calculates next working time start beginning from the specified date and time
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.tasks/calendar/getworkstart/
 ---
 ## Calendar.GetWorkStart method

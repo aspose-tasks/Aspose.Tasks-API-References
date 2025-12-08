@@ -3,7 +3,7 @@ title: Class FieldHelper
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Util.FieldHelper class. Helper class which provides useful operations with fields
 type: docs
-weight: 2620
+weight: 2650
 url: /net/aspose.tasks.util/fieldhelper/
 ---
 ## FieldHelper class

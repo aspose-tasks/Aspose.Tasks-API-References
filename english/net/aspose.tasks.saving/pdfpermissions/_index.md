@@ -3,7 +3,7 @@ title: Enum PdfPermissions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.PdfPermissions enum. Specifies permissions to use for accessing a PDF document
 type: docs
-weight: 2060
+weight: 2090
 url: /net/aspose.tasks.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration

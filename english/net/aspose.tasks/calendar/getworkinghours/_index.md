@@ -3,7 +3,7 @@ title: Calendar.GetWorkingHours
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar method. Return WorkUnit  Start Finish and Duration of working hours for the specified date time interval
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.tasks/calendar/getworkinghours/
 ---
 ## GetWorkingHours(DateTime, DateTime) {#getworkinghours}

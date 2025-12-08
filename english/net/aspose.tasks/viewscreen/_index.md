@@ -3,7 +3,7 @@ title: Enum ViewScreen
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ViewScreen enum. Specifies the screen type for a view
 type: docs
-weight: 2830
+weight: 2860
 url: /net/aspose.tasks/viewscreen/
 ---
 ## ViewScreen enumeration

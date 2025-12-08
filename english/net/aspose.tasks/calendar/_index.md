@@ -24,6 +24,7 @@ public class Calendar : ICalendar
 | [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar/) { get; } | Gets a value indicating whether the calendar is a base calendar. |
 | [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar/) { get; set; } | Gets or sets a value indicating whether the calendar is a baseline calendar. |
 | [Name](../../aspose.tasks/calendar/name/) { get; set; } | Gets or sets the name of the calendar. |
+| [PrimaveraProperties](../../aspose.tasks/calendar/primaveraproperties/) { get; } | Gets an object containing Primavera-specific properties for a calendar read from Primavera formats. |
 | [Uid](../../aspose.tasks/calendar/uid/) { get; set; } | Gets or sets the unique identifier of the calendar. |
 | [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Gets WeekDaysCollection for this calendar. The collection of weekdays that defines the calendar. |
 | [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Gets WorkWeekCollections object. The collection of work weeks that is associated with the calendar. |

@@ -20,7 +20,7 @@ public abstract class PrimaveraBaseReader
 | --- | --- |
 | [GetProjectInfos](../../aspose.tasks/primaverabasereader/getprojectinfos/)() | Return a list of the project's short info objects. |
 | [GetProjectUids](../../aspose.tasks/primaverabasereader/getprojectuids/)() | Return a list of the projects' unique identifiers. |
-| [LoadProject](../../aspose.tasks/primaverabasereader/loadproject/)(int) | Loads the project with the specified unique identifier. |
+| virtual [LoadProject](../../aspose.tasks/primaverabasereader/loadproject/)(int) | Loads the project with the specified unique identifier. |
 
 ### See Also
 
