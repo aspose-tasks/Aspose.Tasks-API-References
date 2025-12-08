@@ -3,7 +3,7 @@ title: Enum ConfidenceLevel
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RiskAnalysis.ConfidenceLevel enum. Specifies supported confidence levels used in risk analysis that correspond to the percentage of the time the actual values will be within optimistic and pessimistic estimates
 type: docs
-weight: 1790
+weight: 1820
 url: /net/aspose.tasks.riskanalysis/confidencelevel/
 ---
 ## ConfidenceLevel enumeration

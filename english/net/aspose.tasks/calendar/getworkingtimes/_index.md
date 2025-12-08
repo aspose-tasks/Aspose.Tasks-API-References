@@ -3,7 +3,7 @@ title: Calendar.GetWorkingTimes
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar method. Returns WorkingTimeCollection of working times for the specified date
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.tasks/calendar/getworkingtimes/
 ---
 ## Calendar.GetWorkingTimes method

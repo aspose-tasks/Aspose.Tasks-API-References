@@ -3,7 +3,7 @@ title: Enum LegendDrawingOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.LegendDrawingOptions enum. Specifies the possible options used when rendering views legend
 type: docs
-weight: 1980
+weight: 2010
 url: /net/aspose.tasks.saving/legenddrawingoptions/
 ---
 ## LegendDrawingOptions enumeration

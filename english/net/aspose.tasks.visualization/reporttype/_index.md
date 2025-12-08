@@ -3,7 +3,7 @@ title: Enum ReportType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.ReportType enum. Type of the projects graphical report
 type: docs
-weight: 3250
+weight: 3280
 url: /net/aspose.tasks.visualization/reporttype/
 ---
 ## ReportType enumeration

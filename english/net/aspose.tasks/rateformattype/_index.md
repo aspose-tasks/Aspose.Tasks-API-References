@@ -3,7 +3,7 @@ title: Enum RateFormatType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RateFormatType enum. Specifies the units used by Microsoft Project to display a rate
 type: docs
-weight: 1580
+weight: 1610
 url: /net/aspose.tasks/rateformattype/
 ---
 ## RateFormatType enumeration

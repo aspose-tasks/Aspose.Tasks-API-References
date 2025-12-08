@@ -3,7 +3,7 @@ title: Enum BarShape
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.BarShape enum. Shape of a bar rectangle
 type: docs
-weight: 2870
+weight: 2900
 url: /net/aspose.tasks.visualization/barshape/
 ---
 ## BarShape enumeration

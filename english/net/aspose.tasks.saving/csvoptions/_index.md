@@ -3,7 +3,7 @@ title: Class CsvOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.CsvOptions class. Allows to specify additional options when saving project to CSV
 type: docs
-weight: 1920
+weight: 1950
 url: /net/aspose.tasks.saving/csvoptions/
 ---
 ## CsvOptions class

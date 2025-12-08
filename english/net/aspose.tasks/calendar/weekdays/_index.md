@@ -3,7 +3,7 @@ title: Calendar.WeekDays
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar property. Gets WeekDaysCollection for this calendar. The collection of weekdays that defines the calendar
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.tasks/calendar/weekdays/
 ---
 ## Calendar.WeekDays property

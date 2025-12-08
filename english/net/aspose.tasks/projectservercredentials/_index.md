@@ -3,7 +3,7 @@ title: Class ProjectServerCredentials
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ProjectServerCredentials class. Credentials which are used to connect to Project Online or onpremise instance of Project Server
 type: docs
-weight: 1430
+weight: 1460
 url: /net/aspose.tasks/projectservercredentials/
 ---
 ## ProjectServerCredentials class

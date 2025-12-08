@@ -11,7 +11,7 @@ url: /net/aspose.tasks/primaverabasereader/loadproject/
 Loads the project with the specified unique identifier.
 
 ```csharp
-public Project LoadProject(int projectUid)
+public virtual Project LoadProject(int projectUid)
 ```
 
 | Parameter | Type | Description |

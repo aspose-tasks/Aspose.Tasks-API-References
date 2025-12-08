@@ -3,7 +3,7 @@ title: Class WorkWeekCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WorkWeekCollection class. Represents a collection of WorkWeek objects
 type: docs
-weight: 3570
+weight: 3600
 url: /net/aspose.tasks/workweekcollection/
 ---
 ## WorkWeekCollection class

@@ -3,7 +3,7 @@ title: Enum RiskItemType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RiskAnalysis.RiskItemType enum. Specifies task fields for which the statistical information is gathered during risk analysis
 type: docs
-weight: 1860
+weight: 1890
 url: /net/aspose.tasks.riskanalysis/riskitemtype/
 ---
 ## RiskItemType enumeration

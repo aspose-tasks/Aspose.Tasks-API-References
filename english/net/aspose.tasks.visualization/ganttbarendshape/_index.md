@@ -3,7 +3,7 @@ title: Enum GanttBarEndShape
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.GanttBarEndShape enum. Represents end shape in bars and progress points in progress lines
 type: docs
-weight: 2950
+weight: 2980
 url: /net/aspose.tasks.visualization/ganttbarendshape/
 ---
 ## GanttBarEndShape enumeration

@@ -3,7 +3,7 @@ title: Class Prj
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Prj class. Represents supported properties of Project object
 type: docs
-weight: 1360
+weight: 1390
 url: /net/aspose.tasks/prj/
 ---
 ## Prj class
@@ -31,7 +31,7 @@ public static class Prj
 | static readonly [Comments](../../aspose.tasks/prj/comments/) | Project's comments. |
 | static readonly [Company](../../aspose.tasks/prj/company/) | The company where a project was created. |
 | static readonly [CreationDate](../../aspose.tasks/prj/creationdate/) | The date and time when a project was created. |
-| static readonly [CriticalSlackLimit](../../aspose.tasks/prj/criticalslacklimit/) | The number of days to the end of a task when Microsoft Project marks that task as a critical task. |
+| static readonly [CriticalSlackLimit](../../aspose.tasks/prj/criticalslacklimit/) | Tasks are considered critical by MS Project if total slack is less or equal to this number of days. |
 | static readonly [CurrencyCode](../../aspose.tasks/prj/currencycode/) | The three letter currency character code as defined in ISO 4217. Example of valid values is "USD". |
 | static readonly [CurrencyDigits](../../aspose.tasks/prj/currencydigits/) | The number of digits after a decimal symbol. |
 | static readonly [CurrencySymbol](../../aspose.tasks/prj/currencysymbol/) | The currency symbol used in a project. |

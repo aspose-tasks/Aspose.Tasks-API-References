@@ -3,7 +3,7 @@ title: Class WorkingTimeCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WorkingTimeCollection class. Represents a collection of WorkingTimeCollection objects
 type: docs
-weight: 3590
+weight: 3620
 url: /net/aspose.tasks/workingtimecollection/
 ---
 ## WorkingTimeCollection class

@@ -3,7 +3,7 @@ title: Calendar.GetNextWorkingDayStart
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar method. Calculates next working day start for the specified date
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.tasks/calendar/getnextworkingdaystart/
 ---
 ## Calendar.GetNextWorkingDayStart method

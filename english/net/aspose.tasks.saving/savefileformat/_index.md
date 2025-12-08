@@ -3,7 +3,7 @@ title: Enum SaveFileFormat
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.SaveFileFormat enum. Enumeration for saving project format selection
 type: docs
-weight: 2120
+weight: 2150
 url: /net/aspose.tasks.saving/savefileformat/
 ---
 ## SaveFileFormat enumeration

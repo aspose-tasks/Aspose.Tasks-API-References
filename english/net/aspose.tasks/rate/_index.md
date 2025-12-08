@@ -3,7 +3,7 @@ title: Class Rate
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Rate class. Represents a definition of a time period and rates applicable for a resource during that period
 type: docs
-weight: 1550
+weight: 1580
 url: /net/aspose.tasks/rate/
 ---
 ## Rate class

@@ -3,7 +3,7 @@ title: Enum TimescaleUnit
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.TimescaleUnit enum. Specifies the unit of time for any tier of a timescale in a Gantt chart or other time phased view
 type: docs
-weight: 3380
+weight: 3410
 url: /net/aspose.tasks.visualization/timescaleunit/
 ---
 ## TimescaleUnit enumeration

@@ -1,14 +1,14 @@
 ---
 title: Prj.CriticalSlackLimit
 second_title: Aspose.Tasks for .NET API Reference
-description: Prj field. The number of days to the end of a task when Microsoft Project marks that task as a critical task
+description: Prj field. Tasks are considered critical by MS Project if total slack is less or equal to this number of days
 type: docs
 weight: 140
 url: /net/aspose.tasks/prj/criticalslacklimit/
 ---
 ## Prj.CriticalSlackLimit field
 
-The number of days to the end of a task when Microsoft Project marks that task as a critical task.
+Tasks are considered critical by MS Project if total slack is less or equal to this number of days.
 
 ```csharp
 public static readonly Key<int, PrjKey> CriticalSlackLimit;

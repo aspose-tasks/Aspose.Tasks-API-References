@@ -3,7 +3,7 @@ title: Class ProjectServerManager
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ProjectServerManager class. The class which provides the methods to read and to perform operations on projects in the specified Project Online account or in the specified onpremise Project Server instance Project Servers versions 2016 and 2019 are supported
 type: docs
-weight: 1440
+weight: 1470
 url: /net/aspose.tasks/projectservermanager/
 ---
 ## ProjectServerManager class

@@ -3,7 +3,7 @@ title: Enum DateLabel
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.DateLabel enum. Specifies the display format for date and time labels in a timescale
 type: docs
-weight: 2900
+weight: 2930
 url: /net/aspose.tasks.visualization/datelabel/
 ---
 ## DateLabel enumeration

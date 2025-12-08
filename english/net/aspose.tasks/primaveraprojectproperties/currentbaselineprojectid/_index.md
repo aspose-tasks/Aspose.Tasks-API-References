@@ -3,7 +3,7 @@ title: PrimaveraProjectProperties.CurrentBaselineProjectId
 second_title: Aspose.Tasks for .NET API Reference
 description: PrimaveraProjectProperties property. Gets Id of the current baseline project. Is applicable to projects read from Primavera XML files containing exported baselines
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.tasks/primaveraprojectproperties/currentbaselineprojectid/
 ---
 ## PrimaveraProjectProperties.CurrentBaselineProjectId property

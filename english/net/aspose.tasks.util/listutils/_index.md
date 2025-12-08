@@ -3,7 +3,7 @@ title: Class ListUtils
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Util.ListUtils class. Utility class for list processing
 type: docs
-weight: 2660
+weight: 2690
 url: /net/aspose.tasks.util/listutils/
 ---
 ## ListUtils class

@@ -3,7 +3,7 @@ title: Enum CustomPropertyType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Properties.CustomPropertyType enum. Represents a custom property type enumeration
 type: docs
-weight: 1500
+weight: 1530
 url: /net/aspose.tasks.properties/custompropertytype/
 ---
 ## CustomPropertyType enumeration

@@ -3,7 +3,7 @@ title: Enum RollupType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RollupType enum. Specifies the rollup type
 type: docs
-weight: 1890
+weight: 1920
 url: /net/aspose.tasks/rolluptype/
 ---
 ## RollupType enumeration

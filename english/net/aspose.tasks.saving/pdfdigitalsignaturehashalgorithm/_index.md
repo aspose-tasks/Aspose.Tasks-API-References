@@ -3,7 +3,7 @@ title: Enum PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.PdfDigitalSignatureHashAlgorithm enum. Specifies digital hash algorithm used by digital signature
 type: docs
-weight: 2030
+weight: 2060
 url: /net/aspose.tasks.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration

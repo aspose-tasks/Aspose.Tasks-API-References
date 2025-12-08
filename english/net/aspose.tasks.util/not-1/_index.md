@@ -3,7 +3,7 @@ title: Class NotT
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Util.Not1T class. Applies logical NOT to the specified condition
 type: docs
-weight: 2670
+weight: 2700
 url: /net/aspose.tasks.util/not-1/
 ---
 ## Not&lt;T&gt; class

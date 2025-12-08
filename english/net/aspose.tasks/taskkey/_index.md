@@ -3,7 +3,7 @@ title: Enum TaskKey
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskKey enum. Represents a list of supported task fields
 type: docs
-weight: 2330
+weight: 2360
 url: /net/aspose.tasks/taskkey/
 ---
 ## TaskKey enumeration

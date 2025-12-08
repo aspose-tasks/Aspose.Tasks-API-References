@@ -3,7 +3,7 @@ title: Class WeeklyRepetitionBase
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WeeklyRepetitionBase class. Represents a base class for repetitions in weekly recurrence pattern
 type: docs
-weight: 3520
+weight: 3550
 url: /net/aspose.tasks/weeklyrepetitionbase/
 ---
 ## WeeklyRepetitionBase class

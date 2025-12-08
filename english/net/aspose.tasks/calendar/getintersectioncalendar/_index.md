@@ -3,7 +3,7 @@ title: Calendar.GetIntersectionCalendar
 second_title: Aspose.Tasks for .NET API Reference
 description: Calendar method. Gets ICalendar instance which can be used to perform calculations on the intersection of work schedules of 2 calendars
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.tasks/calendar/getintersectioncalendar/
 ---
 ## Calendar.GetIntersectionCalendar method

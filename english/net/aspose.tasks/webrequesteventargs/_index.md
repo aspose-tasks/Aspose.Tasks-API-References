@@ -3,7 +3,7 @@ title: Class WebRequestEventArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WebRequestEventArgs class. Provides arguments for the event that is raised when the client sends a web request to the Project Servers web API
 type: docs
-weight: 3450
+weight: 3480
 url: /net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class
