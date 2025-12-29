@@ -18,10 +18,21 @@ Represents Primavera-specific properties for a calendar read from Primavera file
 
 | Method | Description |
 | --- | --- |
+| [clone()](#clone--) | \{@inheritDoc\} |
 | [getHoursPerDay()](#getHoursPerDay--) | Gets amount of hours per day from 'Time Periods' settings of the calendar. |
 | [getHoursPerMonth()](#getHoursPerMonth--) | Gets amount of hours per month from 'Time Periods' settings of the calendar. |
 | [getHoursPerWeek()](#getHoursPerWeek--) | Gets amount of hours per week from 'Time Periods' settings of the calendar. |
 | [getHoursPerYear()](#getHoursPerYear--) | Gets amount of hours per month from 'Time Periods' settings of the calendar. |
+### clone() {#clone--}
+```
+public final PrimaveraCalendarProperties clone()
+```
+
+
+
+
+**Returns:**
+[PrimaveraCalendarProperties](../../com.aspose.tasks/primaveracalendarproperties) - \{@inheritDoc\}
 ### getHoursPerDay() {#getHoursPerDay--}
 ```
 public final double getHoursPerDay()
