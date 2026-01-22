@@ -42,6 +42,25 @@ var project = reader.LoadProject(5494);
 Console.WriteLine("Loaded project '{0}' with Uid {1}", project.Name, project.Uid);
 ```
 
+Shows how to get brief info of projects from a Primavera database.
+
+```csharp
+var settings = new PrimaveraDbSettings(GetConnectionString(), 0);
+
+var reader = new PrimaveraDbReader(settings);
+var projectInfos = reader.GetProjectInfos();
+
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - '{2}'", info.Uid, info.ShortName, info.Name);
+}
+
+var firstProject = reader.LoadProject(projectInfos[0].Uid);
+Console.WriteLine(firstProject.Uid);
+Console.WriteLine(firstProject.Name);
+Console.WriteLine(firstProject.PrimaveraProperties.ShortName);
+```
+
 ### See Also
 
 * class [PrimaveraProjectInfo](../../../aspose.tasks.primavera/primaveraprojectinfo/)

@@ -28,6 +28,7 @@ Contains classes for saving a project to different formats.
 | [SimpleSaveOptions](./simplesaveoptions/) | This is an abstract base class that allow the user to specify basic options when saving a project into a particular format. |
 | [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | Allows to specify additional options when rendering project pages to Spreadsheet2003. |
 | [SvgOptions](./svgoptions/) | Allows to specify additional options when rendering project pages to SVG. |
+| [TaskLinkDrawingCallbackDelegate](./tasklinkdrawingcallbackdelegate/) | Represents a callback that is called when a task link is rendered in a Gantt chart view. |
 | [XamlOptions](./xamloptions/) | /// Allows to specify additional options when rendering project pages to XAML. |
 | [XlsxOptions](./xlsxoptions/) | Allows to specify additional options when rendering project pages to XLSX. |
 | [XpsOptions](./xpsoptions/) | Allows to specify additional options when rendering project pages to XPS. |

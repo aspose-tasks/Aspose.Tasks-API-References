@@ -126,6 +126,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [TaskCollection](./taskcollection/) | Represents a collection of [`Task`](../aspose.tasks/task/) objects. |
 | [TaskLink](./tasklink/) | Represents a predecessor link. |
 | [TaskLinkCollection](./tasklinkcollection/) | Represents a collection of [`Task`](../aspose.tasks/task/) objects. |
+| [TaskLinkDrawingArgs](./tasklinkdrawingargs/) | Provides arguments for the callback that is invoked when task link is rendered. |
 | [TasksException](./tasksexception/) | Represents the standard internal exception type. |
 | [TasksLoggedException](./tasksloggedexception/) | Represents the standard internal exception type. |
 | [TasksReadingException](./tasksreadingexception/) | Represents the standard internal reading exception type. |

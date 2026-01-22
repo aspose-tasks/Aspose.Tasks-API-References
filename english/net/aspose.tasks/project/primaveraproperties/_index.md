@@ -33,6 +33,14 @@ if (project.PrimaveraProperties != null)
     Console.WriteLine("Make Open Ended Activities Critical: " + project.PrimaveraProperties.MakeOpenEndedActivitiesCritical);
     Console.WriteLine("Ignore Other Project Relationships: " + project.PrimaveraProperties.IgnoreOtherProjectRelationships);
     Console.WriteLine("Use Expected Finish Dates: " + project.PrimaveraProperties.UseExpectedFinishDates);
+
+    Console.WriteLine("How critical activities are defined: " +
+                      project.PrimaveraProperties.CriticalActivitiesDefiningMethod);
+
+    if (project.PrimaveraProperties.CriticalActivitiesDefiningMethod == PrimaveraCriticalActivitiesDefiningMethod.TotalFloat)
+    {
+        Console.WriteLine("Total Float threshold for critical activities: " + project.PrimaveraProperties.CriticalTotalFloatLimit);
+    }
 }
 ```
 

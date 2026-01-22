@@ -28,6 +28,27 @@ public sealed class PrimaveraDbReader : PrimaveraBaseReader
 | [GetProjectUids](../../aspose.tasks/primaverabasereader/getprojectuids/)() | Return a list of the projects' unique identifiers. |
 | override [LoadProject](../../aspose.tasks/primaveradbreader/loadproject/)(int) | Loads the project with the specified unique identifier. |
 
+## Examples
+
+Shows how to get brief info of projects from a Primavera database.
+
+```csharp
+var settings = new PrimaveraDbSettings(GetConnectionString(), 0);
+
+var reader = new PrimaveraDbReader(settings);
+var projectInfos = reader.GetProjectInfos();
+
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - '{2}'", info.Uid, info.ShortName, info.Name);
+}
+
+var firstProject = reader.LoadProject(projectInfos[0].Uid);
+Console.WriteLine(firstProject.Uid);
+Console.WriteLine(firstProject.Name);
+Console.WriteLine(firstProject.PrimaveraProperties.ShortName);
+```
+
 ### See Also
 
 * class [PrimaveraBaseReader](../primaverabasereader/)

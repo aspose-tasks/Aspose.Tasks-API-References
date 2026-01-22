@@ -3,7 +3,7 @@ title: SaveOptions.ViewSettings
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets a view View to render. You can use this options to explicitly specify which view should be saved to PDF HTML or Image formats. If this property is set PresentationFormat property is ignored when project is saved. View should be from one of the following screen Screen Gantt TaskSheet TaskUsage ResourceSheet ResourceUsage
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.tasks.saving/saveoptions/viewsettings/
 ---
 ## SaveOptions.ViewSettings property

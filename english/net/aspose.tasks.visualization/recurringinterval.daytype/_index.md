@@ -3,7 +3,7 @@ title: Enum RecurringInterval.DayType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.RecurringIntervalDayType enum. Represents a day type used in progress lines
 type: docs
-weight: 3270
+weight: 3290
 url: /net/aspose.tasks.visualization/recurringinterval.daytype/
 ---
 ## RecurringInterval.DayType enumeration

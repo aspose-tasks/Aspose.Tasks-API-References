@@ -3,7 +3,7 @@ title: Class VbaModuleAttribute
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.VbaModuleAttribute class. The attribute of the VbaModule object
 type: docs
-weight: 2770
+weight: 2790
 url: /net/aspose.tasks/vbamoduleattribute/
 ---
 ## VbaModuleAttribute class

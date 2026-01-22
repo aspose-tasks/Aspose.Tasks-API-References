@@ -3,7 +3,7 @@ title: SaveOptions.Timescale
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets the Timescale value which is used to control how timescale if present is rendered when project is saved to graphical format
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.tasks.saving/saveoptions/timescale/
 ---
 ## SaveOptions.Timescale property

@@ -3,7 +3,7 @@ title: Enum WorkGroupType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WorkGroupType enum. Specifies the type of a workgroup
 type: docs
-weight: 3570
+weight: 3590
 url: /net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration

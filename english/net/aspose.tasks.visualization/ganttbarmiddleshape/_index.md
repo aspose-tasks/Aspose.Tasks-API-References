@@ -3,7 +3,7 @@ title: Enum GanttBarMiddleShape
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.GanttBarMiddleShape enum. Specifies the middle shape of a bar
 type: docs
-weight: 3000
+weight: 3020
 url: /net/aspose.tasks.visualization/ganttbarmiddleshape/
 ---
 ## GanttBarMiddleShape enumeration

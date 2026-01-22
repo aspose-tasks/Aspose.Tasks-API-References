@@ -3,7 +3,7 @@ title: Class YearlyRecurrencePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.YearlyRecurrencePattern class. Represents the set of parameters are used to create a yearly recurring task in a project
 type: docs
-weight: 3640
+weight: 3660
 url: /net/aspose.tasks/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern class
