@@ -3,7 +3,7 @@ title: Enum WeekLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WeekLabelDisplay enum. Specifies how the week label displays
 type: docs
-weight: 3510
+weight: 3530
 url: /net/aspose.tasks/weeklabeldisplay/
 ---
 ## WeekLabelDisplay enumeration

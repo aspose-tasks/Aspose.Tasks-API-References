@@ -50,6 +50,7 @@ public class PdfSaveOptions : SaveOptions
 | [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Gets or sets the format in which the document will be saved if this save options object is used. |
 | [SaveToSeparateFiles](../../aspose.tasks.saving/pdfsaveoptions/savetoseparatefiles/) { get; set; } | Gets or sets a value indicating whether to save project pages to separate files. |
 | [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Gets or sets the date to start rendering from. |
+| [TaskLinkDrawingCallback](../../aspose.tasks.saving/saveoptions/tasklinkdrawingcallback/) { get; set; } | Gets or sets a callback that can be used to customize some aspects of task links rendering. |
 | [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Gets or sets the comparer to sort tasks on Gantt chart and Task Sheet chart. |
 | [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Gets or sets the condition which is used to filter tasks rendered on Gantt, Task Sheet and Task Usage charts. |
 | [TextCompression](../../aspose.tasks.saving/pdfsaveoptions/textcompression/) { get; set; } | Gets or sets a compression type to be used for all content streams except images. Default is Flate. |

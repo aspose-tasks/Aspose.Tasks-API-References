@@ -3,7 +3,7 @@ title: Enum SummaryRowsCalculationType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.SummaryRowsCalculationType enum. Specifies the type of a calculation of the custom attributes value for summary rows
 type: docs
-weight: 2270
+weight: 2280
 url: /net/aspose.tasks/summaryrowscalculationtype/
 ---
 ## SummaryRowsCalculationType enumeration

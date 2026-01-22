@@ -64,6 +64,10 @@ foreach (Task task in project.EnumerateAllChildTasks())
         task.PrimaveraProperties.ActualNonlaborCost,
         task.PrimaveraProperties.ActualTotalCost);
 
+    Console.WriteLine("Constraints:");
+    Console.WriteLine("Primary: {0}, {1}", task.PrimaveraProperties.PrimaryConstraintType, task.PrimaveraProperties.PrimaryConstraintDate);
+    Console.WriteLine("Secondary: {0}, {1}", task.PrimaveraProperties.SecondaryConstraintType, task.PrimaveraProperties.SecondaryConstraintDate);
+
     Console.WriteLine("Units % Complete: {0}", task.PrimaveraProperties.UnitsPercentComplete);
 }
 ```

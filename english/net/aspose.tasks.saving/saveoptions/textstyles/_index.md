@@ -3,7 +3,7 @@ title: SaveOptions.TextStyles
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets the list of text styles that applied during rendering of a project view
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.tasks.saving/saveoptions/textstyles/
 ---
 ## SaveOptions.TextStyles property

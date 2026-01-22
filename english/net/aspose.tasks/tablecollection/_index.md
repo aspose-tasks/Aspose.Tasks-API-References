@@ -3,7 +3,7 @@ title: Class TableCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TableCollection class. Contains a list of Table objects. Implements ICollectionTable interface
 type: docs
-weight: 2290
+weight: 2300
 url: /net/aspose.tasks/tablecollection/
 ---
 ## TableCollection class

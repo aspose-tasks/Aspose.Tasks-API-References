@@ -3,7 +3,7 @@ title: Class WeekDay
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WeekDay class. Represents a weekday which either defines regular days of a week or exception days in a calendar
 type: docs
-weight: 3490
+weight: 3510
 url: /net/aspose.tasks/weekday/
 ---
 ## WeekDay class

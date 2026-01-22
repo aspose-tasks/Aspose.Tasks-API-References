@@ -3,7 +3,7 @@ title: SaveOptions.View
 second_title: Aspose.Tasks for .NET API Reference
 description: SaveOptions property. Gets or sets a list of the view columns to render GanttChartColumn. If not set then task ids task names start and finish are rendered only. If both View and ViewSettings properties are set columns from View overrides columns from ViewSettings
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.tasks.saving/saveoptions/view/
 ---
 ## SaveOptions.View property

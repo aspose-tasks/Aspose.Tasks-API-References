@@ -3,7 +3,7 @@ title: Enum PageSize
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.PageSize enum. Specifies page size
 type: docs
-weight: 3200
+weight: 3220
 url: /net/aspose.tasks.visualization/pagesize/
 ---
 ## PageSize enumeration

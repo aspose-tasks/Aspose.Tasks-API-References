@@ -3,7 +3,7 @@ title: Enum LinePattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.LinePattern enum. Line pattern
 type: docs
-weight: 3140
+weight: 3160
 url: /net/aspose.tasks.visualization/linepattern/
 ---
 ## LinePattern enumeration
