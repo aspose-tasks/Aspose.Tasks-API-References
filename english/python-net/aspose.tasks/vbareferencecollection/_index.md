@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1380
+weight: 1390
 url: /python-net/aspose.tasks/vbareferencecollection/
 ---
 

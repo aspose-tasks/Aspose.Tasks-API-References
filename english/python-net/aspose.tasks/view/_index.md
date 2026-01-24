@@ -3,7 +3,7 @@ title: View
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1390
+weight: 1400
 url: /python-net/aspose.tasks/view/
 ---
 
