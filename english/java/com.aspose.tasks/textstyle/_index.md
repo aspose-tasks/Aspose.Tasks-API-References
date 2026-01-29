@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Tasks for Java API Reference
 description: Change the visual style of the text for an item in the project view.
 type: docs
-weight: 312
+weight: 314
 url: /java/com.aspose.tasks/textstyle/
 ---
 

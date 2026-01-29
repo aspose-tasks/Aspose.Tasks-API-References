@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the set of parameters are used to create a yearly recurring task in a project.
 type: docs
-weight: 368
+weight: 370
 url: /java/com.aspose.tasks/yearlyrecurrencepattern/
 ---
 

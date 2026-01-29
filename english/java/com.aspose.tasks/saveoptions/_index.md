@@ -39,6 +39,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [getRenderToSinglePage()](#getRenderToSinglePage--) | Gets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [getRollUpGanttBars()](#getRollUpGanttBars--) | Gets a value indicating whether subtasks on the summary task bar should be marked. |
 | [getStartDate()](#getStartDate--) | Gets the date to start rendering from. |
+| [getTaskLinkDrawingCallback()](#getTaskLinkDrawingCallback--) | Gets a callback that can be used to customize some aspects of task links rendering. |
 | [getTextStyles()](#getTextStyles--) | Gets the list of text styles that applied during rendering of a project view. |
 | [getTimescale()](#getTimescale--) | Gets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [getTimescaleFitBehavior()](#getTimescaleFitBehavior--) | Gets a behavior which define how to align right end of the timescale with the page end. |
@@ -63,6 +64,7 @@ An instance of any derived class from SaveOptions class is passed to the stream 
 | [setRenderToSinglePage(boolean value)](#setRenderToSinglePage-boolean-) | Sets a value indicating whether a project should be rendered to a single page when project is saved in graphical format. |
 | [setRollUpGanttBars(boolean value)](#setRollUpGanttBars-boolean-) | Sets a value indicating whether subtasks on the summary task bar should be marked. |
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date to start rendering from. |
+| [setTaskLinkDrawingCallback(TaskLinkDrawingCallbackDelegate value)](#setTaskLinkDrawingCallback-com.aspose.tasks.TaskLinkDrawingCallbackDelegate-) | Sets a callback that can be used to customize some aspects of task links rendering. |
 | [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets the list of text styles that applied during rendering of a project view. |
 | [setTimescale(int value)](#setTimescale-int-) | Sets the `Timescale`([getTimescale()](../../com.aspose.tasks/saveoptions\#getTimescale--)/[setTimescale(int)](../../com.aspose.tasks/saveoptions\#setTimescale-int-)) value which is used to control how timescale (if present) is rendered when project is saved to graphical format. |
 | [setTimescaleFitBehavior(int value)](#setTimescaleFitBehavior-int-) | Sets a behavior which define how to align right end of the timescale with the page end. |
@@ -247,6 +249,18 @@ Gets the date to start rendering from.
 
 **Returns:**
 java.util.Date - the date to start rendering from.
+### getTaskLinkDrawingCallback() {#getTaskLinkDrawingCallback--}
+```
+public final TaskLinkDrawingCallbackDelegate getTaskLinkDrawingCallback()
+```
+
+
+Gets a callback that can be used to customize some aspects of task links rendering.
+
+Is only applicable when Gantt chart view is rendered.
+
+**Returns:**
+[TaskLinkDrawingCallbackDelegate](../../com.aspose.tasks/tasklinkdrawingcallbackdelegate) - a callback that can be used to customize some aspects of task links rendering.
 ### getTextStyles() {#getTextStyles--}
 ```
 public final List<TextStyle> getTextStyles()
@@ -561,6 +575,21 @@ Sets the date to start rendering from.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | the date to start rendering from. |
+
+### setTaskLinkDrawingCallback(TaskLinkDrawingCallbackDelegate value) {#setTaskLinkDrawingCallback-com.aspose.tasks.TaskLinkDrawingCallbackDelegate-}
+```
+public final void setTaskLinkDrawingCallback(TaskLinkDrawingCallbackDelegate value)
+```
+
+
+Sets a callback that can be used to customize some aspects of task links rendering.
+
+Is only applicable when Gantt chart view is rendered.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TaskLinkDrawingCallbackDelegate](../../com.aspose.tasks/tasklinkdrawingcallbackdelegate) | a callback that can be used to customize some aspects of task links rendering. |
 
 ### setTextStyles(List&lt;TextStyle&gt; value) {#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--}
 ```
