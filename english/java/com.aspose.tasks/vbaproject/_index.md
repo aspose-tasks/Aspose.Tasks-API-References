@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Tasks for Java API Reference
 description: Represents .
 type: docs
-weight: 336
+weight: 338
 url: /java/com.aspose.tasks/vbaproject/
 ---
 

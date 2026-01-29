@@ -943,8 +943,6 @@ public final void setDefault(String value)
 
 Sets the default value in the list.
 
---------------------
-
 Currently supported for MSP 2003/2007 Xml and MSP 2003 mpp formats.
 
 **Parameters:**

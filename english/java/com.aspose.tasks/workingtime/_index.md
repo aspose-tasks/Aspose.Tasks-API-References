@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a working time during a weekday.
 type: docs
-weight: 362
+weight: 364
 url: /java/com.aspose.tasks/workingtime/
 ---
 

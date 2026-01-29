@@ -3,7 +3,7 @@ title: WeekDay
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a weekday which either defines regular days of a week or exception days in a calendar.
 type: docs
-weight: 349
+weight: 351
 url: /java/com.aspose.tasks/weekday/
 ---
 

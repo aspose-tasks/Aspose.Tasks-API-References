@@ -299,6 +299,8 @@ url: /java/com.aspose.tasks/
 | [TaskKey](../com.aspose.tasks/taskkey) | Represents a list of supported task fields. |
 | [TaskLink](../com.aspose.tasks/tasklink) | Represents a predecessor link. |
 | [TaskLinkCollection](../com.aspose.tasks/tasklinkcollection) | Represents a collection of [Task](../com.aspose.tasks/task) objects. |
+| [TaskLinkDrawingArgs](../com.aspose.tasks/tasklinkdrawingargs) | Provides arguments for the callback that is invoked when task link is rendered. |
+| [TaskLinkDrawingCallbackDelegate](../com.aspose.tasks/tasklinkdrawingcallbackdelegate) | Represents a callback that is called when a task link is rendered in a Gantt chart view. |
 | [TaskLinkType](../com.aspose.tasks/tasklinktype) | Specifies the type of tasks dependency. |
 | [TaskStartDateType](../com.aspose.tasks/taskstartdatetype) | Specifies the type of a task's start date. |
 | [TaskStatus](../com.aspose.tasks/taskstatus) | Specifies the status of a task. |

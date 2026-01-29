@@ -3,7 +3,7 @@ title: ITextStyleModificationCallback
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback that is called before TextStyle is applied to a table cell.
 type: docs
-weight: 380
+weight: 382
 url: /java/com.aspose.tasks/itextstylemodificationcallback/
 ---
 ```

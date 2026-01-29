@@ -3,7 +3,7 @@ title: UndefinedConstraintHandlingBehavior
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the behavior used to handle tasks with undefined constraints.
 type: docs
-weight: 326
+weight: 328
 url: /java/com.aspose.tasks/undefinedconstrainthandlingbehavior/
 ---
 
