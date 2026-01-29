@@ -3,7 +3,7 @@ title: TaskUsageView
 second_title: Aspose.Tasks for Java API Reference
 description: Represents task usage view in a project.
 type: docs
-weight: 301
+weight: 303
 url: /java/com.aspose.tasks/taskusageview/
 ---
 

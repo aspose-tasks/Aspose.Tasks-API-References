@@ -3,7 +3,7 @@ title: ValidationException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an exception which is thrown when errors are found during validation of entity.
 type: docs
-weight: 329
+weight: 331
 url: /java/com.aspose.tasks/validationexception/
 ---
 

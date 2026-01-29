@@ -3,7 +3,7 @@ title: IAlgorithm
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an algorithm that can be applied to a list of objects T.
 type: docs
-weight: 372
+weight: 374
 url: /java/com.aspose.tasks/ialgorithm/
 ---
 ```

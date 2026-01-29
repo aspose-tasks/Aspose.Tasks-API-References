@@ -3,7 +3,7 @@ title: TimeDelta
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a difference between two timestamps.
 type: docs
-weight: 314
+weight: 316
 url: /java/com.aspose.tasks/timedelta/
 ---
 

@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback that is called when each page in multi page document is saved to a separate stream.
 type: docs
-weight: 379
+weight: 381
 url: /java/com.aspose.tasks/ipagesavingcallback/
 ---
 ```

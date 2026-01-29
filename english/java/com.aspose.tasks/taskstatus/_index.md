@@ -3,7 +3,7 @@ title: TaskStatus
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the status of a task.
 type: docs
-weight: 298
+weight: 300
 url: /java/com.aspose.tasks/taskstatus/
 ---
 
