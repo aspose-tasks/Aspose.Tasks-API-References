@@ -129,6 +129,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[TaskCollection](/tasks/python-net/aspose.tasks/taskcollection/)|Represents a collection of [Task](/tasks/python-net/aspose.tasks/task/) objects.|
 |[TaskLink](/tasks/python-net/aspose.tasks/tasklink/)|Represents a predecessor link.|
 |[TaskLinkCollection](/tasks/python-net/aspose.tasks/tasklinkcollection/)|Represents a collection of [Task](/tasks/python-net/aspose.tasks/task/) objects.|
+|[TaskLinkDrawingArgs](/tasks/python-net/aspose.tasks/tasklinkdrawingargs/)|Provides arguments for the callback that is invoked when task link is rendered.|
 |[TaskUsageView](/tasks/python-net/aspose.tasks/taskusageview/)|Represents task usage view in a project.|
 |[TaskUsageViewFieldCollection](/tasks/python-net/aspose.tasks/taskusageviewfieldcollection/)|Represents a collection of [TaskUsageViewField](/tasks/python-net/aspose.tasks/taskusageviewfield/) values.|
 |[TaskValidationException](/tasks/python-net/aspose.tasks/taskvalidationexception/)|Represents an exception which is thrown when errors are found in project's tasks after recalculation.|

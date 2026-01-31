@@ -3,7 +3,7 @@ title: MonthItemType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2610
+weight: 2620
 url: /python-net/aspose.tasks/monthitemtype/
 ---
 

@@ -3,7 +3,7 @@ title: UnexpectedFileFormatException
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1290
 url: /python-net/aspose.tasks/unexpectedfileformatexception/
 ---
 

@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2720
+weight: 2730
 url: /python-net/aspose.tasks/resourcetype/
 ---
 

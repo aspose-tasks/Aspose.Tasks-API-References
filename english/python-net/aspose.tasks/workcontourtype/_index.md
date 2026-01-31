@@ -3,7 +3,7 @@ title: WorkContourType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2900
+weight: 2910
 url: /python-net/aspose.tasks/workcontourtype/
 ---
 
