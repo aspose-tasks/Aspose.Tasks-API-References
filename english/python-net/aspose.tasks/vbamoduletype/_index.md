@@ -3,7 +3,7 @@ title: VbaModuleType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2850
+weight: 2860
 url: /python-net/aspose.tasks/vbamoduletype/
 ---
 

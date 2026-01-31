@@ -3,7 +3,7 @@ title: WorkingTime
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1530
+weight: 1540
 url: /python-net/aspose.tasks/workingtime/
 ---
 

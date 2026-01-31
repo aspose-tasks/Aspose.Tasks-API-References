@@ -3,7 +3,7 @@ title: WorkWeek
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1510
+weight: 1520
 url: /python-net/aspose.tasks/workweek/
 ---
 

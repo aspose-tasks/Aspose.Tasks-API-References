@@ -3,7 +3,7 @@ title: WebRequestEventArgs
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1440
+weight: 1450
 url: /python-net/aspose.tasks/webrequesteventargs/
 ---
 

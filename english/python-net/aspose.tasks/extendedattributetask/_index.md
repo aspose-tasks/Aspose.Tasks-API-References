@@ -3,7 +3,7 @@ title: ExtendedAttributeTask
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2450
+weight: 2460
 url: /python-net/aspose.tasks/extendedattributetask/
 ---
 

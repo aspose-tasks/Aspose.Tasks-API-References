@@ -3,7 +3,7 @@ title: BackgroundPattern
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2290
+weight: 2300
 url: /python-net/aspose.tasks/backgroundpattern/
 ---
 
