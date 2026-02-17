@@ -52,6 +52,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [FontSavingArgs](./fontsavingargs/) | This class represents set of data that related to external fonts file's saving that occurs during conversion to HTML format. |
 | [FontSettings](./fontsettings/) | Specifies font settings used when rendering project's view. |
 | [GanttChartView](./ganttchartview/) | Represents a GanttChart view. |
+| [GlobalizationSettings](./globalizationsettings/) | Represents the project's globalization settings. |
 | [GraphicalIndicatorCriteria](./graphicalindicatorcriteria/) | Represents one graphical indicator criteria associated with an extended attribute. |
 | [GraphicalIndicatorCriteriaValue](./graphicalindicatorcriteriavalue/) | Represents a value used in condition check of graphical indicators criteria. |
 | [GraphicalIndicatorsInfo](./graphicalindicatorsinfo/) | Represents an graphical indicators definition associated with an extended attribute. |

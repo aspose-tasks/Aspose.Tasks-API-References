@@ -3,7 +3,7 @@ title: Project.Save
 second_title: Aspose.Tasks for .NET API Reference
 description: Project method. Saves the document to a file using the specified save options
 type: docs
-weight: 1200
+weight: 1210
 url: /net/aspose.tasks/project/save/
 ---
 ## Save(string, SimpleSaveOptions) {#save_4}

@@ -3,7 +3,7 @@ title: Project.Get
 second_title: Aspose.Tasks for .NET API Reference
 description: Project method. Returns the value to which the property is mapped in this container
 type: docs
-weight: 1070
+weight: 1080
 url: /net/aspose.tasks/project/get/
 ---
 ## Project.Get&lt;T&gt; method

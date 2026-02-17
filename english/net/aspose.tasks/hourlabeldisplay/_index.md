@@ -3,7 +3,7 @@ title: Enum HourLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.HourLabelDisplay enum. Specifies how the hour label displays
 type: docs
-weight: 810
+weight: 820
 url: /net/aspose.tasks/hourlabeldisplay/
 ---
 ## HourLabelDisplay enumeration

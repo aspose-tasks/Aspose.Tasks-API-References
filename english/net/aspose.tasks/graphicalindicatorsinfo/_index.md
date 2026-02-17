@@ -3,7 +3,7 @@ title: Class GraphicalIndicatorsInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.GraphicalIndicatorsInfo class. Represents an graphical indicators definition associated with an extended attribute
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.tasks/graphicalindicatorsinfo/
 ---
 ## GraphicalIndicatorsInfo class

@@ -3,7 +3,7 @@ title: Class ProjectServerSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ProjectServerSaveOptions class. Allows to specify additional options when project is saved to Project Server or Project Online
 type: docs
-weight: 1480
+weight: 1490
 url: /net/aspose.tasks/projectserversaveoptions/
 ---
 ## ProjectServerSaveOptions class

@@ -3,7 +3,7 @@ title: Enum MonthLabelDisplay
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.MonthLabelDisplay enum. Specifies how the month label displays
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.tasks/monthlabeldisplay/
 ---
 ## MonthLabelDisplay enumeration

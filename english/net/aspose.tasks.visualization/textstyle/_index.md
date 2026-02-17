@@ -3,7 +3,7 @@ title: Class TextStyle
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.TextStyle class. Change the visual style of the text for an item in the project view
 type: docs
-weight: 3390
+weight: 3400
 url: /net/aspose.tasks.visualization/textstyle/
 ---
 ## TextStyle class

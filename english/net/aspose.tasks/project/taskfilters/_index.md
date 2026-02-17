@@ -3,7 +3,7 @@ title: Project.TaskFilters
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets all the taskbased filter definitions. TaskFilters is a collection of Filter objects
 type: docs
-weight: 900
+weight: 910
 url: /net/aspose.tasks/project/taskfilters/
 ---
 ## Project.TaskFilters property

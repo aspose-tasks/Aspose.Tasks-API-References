@@ -3,7 +3,7 @@ title: Class PrimaveraBaseReader
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.PrimaveraBaseReader class. Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files
 type: docs
-weight: 1300
+weight: 1310
 url: /net/aspose.tasks/primaverabasereader/
 ---
 ## PrimaveraBaseReader class

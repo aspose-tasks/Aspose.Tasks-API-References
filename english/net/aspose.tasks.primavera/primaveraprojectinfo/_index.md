@@ -3,7 +3,7 @@ title: Class PrimaveraProjectInfo
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Primavera.PrimaveraProjectInfo class. Represents short info about a project loaded from Primavera format
 type: docs
-weight: 1280
+weight: 1290
 url: /net/aspose.tasks.primavera/primaveraprojectinfo/
 ---
 ## PrimaveraProjectInfo class

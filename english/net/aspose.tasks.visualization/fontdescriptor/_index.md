@@ -3,7 +3,7 @@ title: Class FontDescriptor
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.FontDescriptor class. Represents font information
 type: docs
-weight: 2980
+weight: 2990
 url: /net/aspose.tasks.visualization/fontdescriptor/
 ---
 ## FontDescriptor class

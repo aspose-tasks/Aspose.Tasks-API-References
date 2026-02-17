@@ -3,7 +3,7 @@ title: Enum MaskType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.MaskType enum. Specifies the type of a mask
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.tasks/masktype/
 ---
 ## MaskType enumeration

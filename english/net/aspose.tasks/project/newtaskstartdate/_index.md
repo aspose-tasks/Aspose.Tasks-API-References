@@ -3,7 +3,7 @@ title: Project.NewTaskStartDate
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value of NewTaskStartDate
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.tasks/project/newtaskstartdate/
 ---
 ## Project.NewTaskStartDate property

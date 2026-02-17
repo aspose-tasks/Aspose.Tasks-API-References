@@ -3,7 +3,7 @@ title: Class SimpleSaveOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.SimpleSaveOptions class. This is an abstract base class that allow the user to specify basic options when saving a project into a particular format
 type: docs
-weight: 2180
+weight: 2190
 url: /net/aspose.tasks.saving/simplesaveoptions/
 ---
 ## SimpleSaveOptions class

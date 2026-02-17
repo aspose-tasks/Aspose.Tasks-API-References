@@ -3,7 +3,7 @@ title: Project.GetPredecessors
 second_title: Aspose.Tasks for .NET API Reference
 description: Project method. Returns a collection of task links which are predecessors of the specified task
 type: docs
-weight: 1110
+weight: 1120
 url: /net/aspose.tasks/project/getpredecessors/
 ---
 ## Project.GetPredecessors method

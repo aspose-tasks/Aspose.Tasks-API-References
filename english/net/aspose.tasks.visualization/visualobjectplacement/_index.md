@@ -3,7 +3,7 @@ title: Class VisualObjectPlacement
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.VisualObjectPlacement class. Represents placement and appearance of OleObject in a view
 type: docs
-weight: 3450
+weight: 3460
 url: /net/aspose.tasks.visualization/visualobjectplacement/
 ---
 ## VisualObjectPlacement class

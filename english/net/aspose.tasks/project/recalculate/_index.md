@@ -3,7 +3,7 @@ title: Project.Recalculate
 second_title: Aspose.Tasks for .NET API Reference
 description: Project method. Reschedules all project tasks ids outline levels start/finish dates sets early/late dates calculates slacks work and cost fields
 type: docs
-weight: 1140
+weight: 1150
 url: /net/aspose.tasks/project/recalculate/
 ---
 ## Recalculate() {#recalculate}

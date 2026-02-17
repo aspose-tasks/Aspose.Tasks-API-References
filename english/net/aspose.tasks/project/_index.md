@@ -3,7 +3,7 @@ title: Class Project
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Project class. Represents a project
 type: docs
-weight: 1410
+weight: 1420
 url: /net/aspose.tasks/project/
 ---
 ## Project class
@@ -80,6 +80,7 @@ public class Project
 | [FinishDate](../../aspose.tasks/project/finishdate/) { get; set; } | Gets or sets a value of FinishDate. |
 | [FiscalYearStart](../../aspose.tasks/project/fiscalyearstart/) { get; set; } | Gets or sets a value indicating whether FiscalYearStart is set or not. |
 | [FyStartDate](../../aspose.tasks/project/fystartdate/) { get; set; } | Gets or sets a value of FyStartDate. |
+| [GlobalizationSettings](../../aspose.tasks/project/globalizationsettings/) { get; set; } | Gets or sets globalization (language-specific) settings of the project. |
 | [Guid](../../aspose.tasks/project/guid/) { get; set; } | Gets or sets a value of Guid. |
 | [HonorConstraints](../../aspose.tasks/project/honorconstraints/) { get; set; } | Gets or sets a value indicating whether HonorConstraints is set or not. |
 | [HyperlinkBase](../../aspose.tasks/project/hyperlinkbase/) { get; set; } | Gets or sets a value of HyperlinkBase. |

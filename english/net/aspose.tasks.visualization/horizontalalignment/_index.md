@@ -3,7 +3,7 @@ title: Enum HorizontalAlignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.HorizontalAlignment enum. Specifies how an object or text is horizontally aligned relative to another object
 type: docs
-weight: 3110
+weight: 3120
 url: /net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

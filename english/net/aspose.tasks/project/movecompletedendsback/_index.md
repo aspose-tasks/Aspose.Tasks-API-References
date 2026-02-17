@@ -3,7 +3,7 @@ title: Project.MoveCompletedEndsBack
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value indicating whether MoveCompletedEndsBack is set or not
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.tasks/project/movecompletedendsback/
 ---
 ## Project.MoveCompletedEndsBack property

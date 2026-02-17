@@ -3,7 +3,7 @@ title: Struct KeyTK
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Key2TK struct. Represents a property key of a class of the specified type. An instance of this class is used when getting or setting property of a container
 type: docs
-weight: 910
+weight: 920
 url: /net/aspose.tasks/key-2/
 ---
 ## Key&lt;T,K&gt; structure

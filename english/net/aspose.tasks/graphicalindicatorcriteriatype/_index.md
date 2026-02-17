@@ -3,7 +3,7 @@ title: Enum GraphicalIndicatorCriteriaType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.GraphicalIndicatorCriteriaType enum. Represents placement of graphical indicator criteria
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.tasks/graphicalindicatorcriteriatype/
 ---
 ## GraphicalIndicatorCriteriaType enumeration

@@ -3,7 +3,7 @@ title: Project.WBSCodeDefinition
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets WBS Code Definition for the project
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.tasks/project/wbscodedefinition/
 ---
 ## Project.WBSCodeDefinition property

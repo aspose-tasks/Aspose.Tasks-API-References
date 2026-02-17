@@ -3,7 +3,7 @@ title: Enum Border
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.Border enum. Specifies the type borders
 type: docs
-weight: 2940
+weight: 2950
 url: /net/aspose.tasks.visualization/border/
 ---
 ## Border enumeration

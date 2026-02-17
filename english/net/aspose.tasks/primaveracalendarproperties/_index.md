@@ -3,7 +3,7 @@ title: Class PrimaveraCalendarProperties
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.PrimaveraCalendarProperties class. Represents Primaveraspecific properties for a calendar read from Primavera files XER of P6XML. Can be used to perform calendarspecific time units conversion
 type: docs
-weight: 1310
+weight: 1320
 url: /net/aspose.tasks/primaveracalendarproperties/
 ---
 ## PrimaveraCalendarProperties class

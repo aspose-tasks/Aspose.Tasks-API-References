@@ -3,7 +3,7 @@ title: Class TimephasedDataCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TimephasedDataCollection class. Represents a collection of TimephasedData objects
 type: docs
-weight: 2570
+weight: 2580
 url: /net/aspose.tasks/timephaseddatacollection/
 ---
 ## TimephasedDataCollection class

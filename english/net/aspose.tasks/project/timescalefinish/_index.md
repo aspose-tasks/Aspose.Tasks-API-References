@@ -3,7 +3,7 @@ title: Project.TimescaleFinish
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value of TimescaleFinish
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.tasks/project/timescalefinish/
 ---
 ## Project.TimescaleFinish property

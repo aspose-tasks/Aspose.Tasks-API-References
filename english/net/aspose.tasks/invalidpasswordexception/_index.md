@@ -3,7 +3,7 @@ title: Class InvalidPasswordException
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.InvalidPasswordException class. Represents the exception type which is thrown when password protected file opening with wrong password
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.tasks/invalidpasswordexception/
 ---
 ## InvalidPasswordException class

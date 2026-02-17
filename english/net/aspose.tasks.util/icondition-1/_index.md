@@ -3,7 +3,7 @@ title: Interface IConditionT
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Util.ICondition1T interface. Represents a condition which can be used by filters or search methods
 type: docs
-weight: 2690
+weight: 2700
 url: /net/aspose.tasks.util/icondition-1/
 ---
 ## ICondition&lt;T&gt; interface

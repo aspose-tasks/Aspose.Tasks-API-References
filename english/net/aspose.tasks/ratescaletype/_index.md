@@ -3,7 +3,7 @@ title: Enum RateScaleType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RateScaleType enum. Specifies the rate scale type
 type: docs
-weight: 1620
+weight: 1630
 url: /net/aspose.tasks/ratescaletype/
 ---
 ## RateScaleType enumeration

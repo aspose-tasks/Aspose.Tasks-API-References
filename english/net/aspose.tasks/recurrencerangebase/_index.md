@@ -3,7 +3,7 @@ title: Class RecurrenceRangeBase
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RecurrenceRangeBase class. Represents the recurrence range of recurring task
 type: docs
-weight: 1680
+weight: 1690
 url: /net/aspose.tasks/recurrencerangebase/
 ---
 ## RecurrenceRangeBase class

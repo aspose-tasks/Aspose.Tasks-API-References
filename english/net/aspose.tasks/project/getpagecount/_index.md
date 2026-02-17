@@ -3,7 +3,7 @@ title: Project.GetPageCount
 second_title: Aspose.Tasks for .NET API Reference
 description: Project method. Returns page count for the project to be rendered using given SaveOptions
 type: docs
-weight: 1100
+weight: 1110
 url: /net/aspose.tasks/project/getpagecount/
 ---
 ## GetPageCount(SaveOptions) {#getpagecount_1}

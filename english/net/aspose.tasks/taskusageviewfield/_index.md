@@ -3,7 +3,7 @@ title: Enum TaskUsageViewField
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskUsageViewField enum. Represents possible fields in TaskUsageView object
 type: docs
-weight: 2460
+weight: 2470
 url: /net/aspose.tasks/taskusageviewfield/
 ---
 ## TaskUsageViewField enumeration

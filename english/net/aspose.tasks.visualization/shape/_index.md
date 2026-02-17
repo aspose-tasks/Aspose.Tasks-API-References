@@ -3,7 +3,7 @@ title: Enum Shape
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.Shape enum. Shape of a marker at the beginning or end of the bar style to be rendered when saving view data to some of SaveFileFormat
 type: docs
-weight: 3330
+weight: 3340
 url: /net/aspose.tasks.visualization/shape/
 ---
 ## Shape enumeration

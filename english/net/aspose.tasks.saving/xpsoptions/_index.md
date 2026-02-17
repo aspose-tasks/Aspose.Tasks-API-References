@@ -3,7 +3,7 @@ title: Class XpsOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.XpsOptions class. Allows to specify additional options when rendering project pages to XPS
 type: docs
-weight: 2250
+weight: 2260
 url: /net/aspose.tasks.saving/xpsoptions/
 ---
 ## XpsOptions class

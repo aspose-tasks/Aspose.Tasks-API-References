@@ -3,7 +3,7 @@ title: Class PrimaveraDbReader
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.PrimaveraDbReader class. Represents a reader to read Project Info from Primavera DB
 type: docs
-weight: 1330
+weight: 1340
 url: /net/aspose.tasks/primaveradbreader/
 ---
 ## PrimaveraDbReader class
