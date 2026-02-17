@@ -3,7 +3,7 @@ title: Class LevelingOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Leveling.LevelingOptions class. Allows to specify parameters of resource leveling
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.tasks.leveling/levelingoptions/
 ---
 ## LevelingOptions class

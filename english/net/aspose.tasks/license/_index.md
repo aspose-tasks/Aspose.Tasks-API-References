@@ -3,7 +3,7 @@ title: Class License
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.License class. Provides methods to license the component
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.tasks/license/
 ---
 ## License class

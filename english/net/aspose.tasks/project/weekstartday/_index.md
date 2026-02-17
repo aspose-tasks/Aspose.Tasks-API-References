@@ -3,7 +3,7 @@ title: Project.WeekStartDay
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value of WeekStartDay
 type: docs
-weight: 1030
+weight: 1040
 url: /net/aspose.tasks/project/weekstartday/
 ---
 ## Project.WeekStartDay property

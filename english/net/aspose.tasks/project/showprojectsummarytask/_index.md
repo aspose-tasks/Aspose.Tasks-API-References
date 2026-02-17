@@ -3,7 +3,7 @@ title: Project.ShowProjectSummaryTask
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value indicating whether ShowProjectSummaryTask is set or not
 type: docs
-weight: 820
+weight: 830
 url: /net/aspose.tasks/project/showprojectsummarytask/
 ---
 ## Project.ShowProjectSummaryTask property

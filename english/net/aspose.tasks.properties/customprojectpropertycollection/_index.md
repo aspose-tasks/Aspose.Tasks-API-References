@@ -3,7 +3,7 @@ title: Class CustomProjectPropertyCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Properties.CustomProjectPropertyCollection class. Represents a collection of custom project properties
 type: docs
-weight: 1520
+weight: 1530
 url: /net/aspose.tasks.properties/customprojectpropertycollection/
 ---
 ## CustomProjectPropertyCollection class

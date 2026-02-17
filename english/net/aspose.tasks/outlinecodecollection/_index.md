@@ -3,7 +3,7 @@ title: Class OutlineCodeCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.OutlineCodeCollection class. Represents a collection of OutlineCode objects
 type: docs
-weight: 1140
+weight: 1150
 url: /net/aspose.tasks/outlinecodecollection/
 ---
 ## OutlineCodeCollection class

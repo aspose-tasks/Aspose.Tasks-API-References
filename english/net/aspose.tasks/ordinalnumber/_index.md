@@ -3,7 +3,7 @@ title: Enum OrdinalNumber
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.OrdinalNumber enum. Represents an ordinal number in the instance of RecurringTaskInfo class
 type: docs
-weight: 1120
+weight: 1130
 url: /net/aspose.tasks/ordinalnumber/
 ---
 ## OrdinalNumber enumeration

@@ -3,7 +3,7 @@ title: Enum TaskStartDateType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskStartDateType enum. Specifies the type of a tasks start date
 type: docs
-weight: 2420
+weight: 2430
 url: /net/aspose.tasks/taskstartdatetype/
 ---
 ## TaskStartDateType enumeration

@@ -3,7 +3,7 @@ title: Project.Template
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value of Template
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.tasks/project/template/
 ---
 ## Project.Template property

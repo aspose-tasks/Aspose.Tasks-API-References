@@ -3,7 +3,7 @@ title: Class PropertyCollectionT
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Properties.PropertyCollection1T class. A base class of collection of properties
 type: docs
-weight: 1560
+weight: 1570
 url: /net/aspose.tasks.properties/propertycollection-1/
 ---
 ## PropertyCollection&lt;T&gt; class

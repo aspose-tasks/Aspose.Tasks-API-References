@@ -3,7 +3,7 @@ title: Class GroupCriterionCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.GroupCriterionCollection class. Contains a collection of GroupCriterion objects. Implements ICollectionGroupCriterion interface
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.tasks/groupcriterioncollection/
 ---
 ## GroupCriterionCollection class

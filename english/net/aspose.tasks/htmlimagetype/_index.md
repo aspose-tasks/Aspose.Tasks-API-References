@@ -3,7 +3,7 @@ title: Enum HtmlImageType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.HtmlImageType enum. Represents HTML image type
 type: docs
-weight: 820
+weight: 830
 url: /net/aspose.tasks/htmlimagetype/
 ---
 ## HtmlImageType enumeration

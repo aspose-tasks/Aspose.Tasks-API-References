@@ -3,7 +3,7 @@ title: Class GraphicalIndicatorCriteria
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.GraphicalIndicatorCriteria class. Represents one graphical indicator criteria associated with an extended attribute
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.tasks/graphicalindicatorcriteria/
 ---
 ## GraphicalIndicatorCriteria class

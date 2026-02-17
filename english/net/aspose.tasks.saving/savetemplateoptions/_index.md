@@ -3,7 +3,7 @@ title: Class SaveTemplateOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.SaveTemplateOptions class. Allows to specify additional options when saving a project as a template
 type: docs
-weight: 2170
+weight: 2180
 url: /net/aspose.tasks.saving/savetemplateoptions/
 ---
 ## SaveTemplateOptions class

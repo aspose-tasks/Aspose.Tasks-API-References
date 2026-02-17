@@ -3,7 +3,7 @@ title: Enum FillPattern
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.FillPattern enum. Fill pattern used in middle shape of a gantt bar
 type: docs
-weight: 2970
+weight: 2980
 url: /net/aspose.tasks.visualization/fillpattern/
 ---
 ## FillPattern enumeration

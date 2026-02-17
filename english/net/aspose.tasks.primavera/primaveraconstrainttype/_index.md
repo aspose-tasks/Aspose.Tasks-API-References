@@ -3,7 +3,7 @@ title: Enum PrimaveraConstraintType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Primavera.PrimaveraConstraintType enum. Specifies a type of activitys constraint
 type: docs
-weight: 1250
+weight: 1260
 url: /net/aspose.tasks.primavera/primaveraconstrainttype/
 ---
 ## PrimaveraConstraintType enumeration

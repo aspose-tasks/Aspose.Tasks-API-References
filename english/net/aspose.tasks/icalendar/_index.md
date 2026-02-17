@@ -3,7 +3,7 @@ title: Interface ICalendar
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ICalendar interface. Represents a calendar abstraction which can be used for various calculations of dates and durations
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.tasks/icalendar/
 ---
 ## ICalendar interface

@@ -3,7 +3,7 @@ title: Class TaskLinkDrawingArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.TaskLinkDrawingArgs class. Provides arguments for the callback that is invoked when task link is rendered
 type: docs
-weight: 2400
+weight: 2410
 url: /net/aspose.tasks/tasklinkdrawingargs/
 ---
 ## TaskLinkDrawingArgs class

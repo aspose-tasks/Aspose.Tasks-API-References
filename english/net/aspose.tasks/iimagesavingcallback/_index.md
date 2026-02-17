@@ -3,7 +3,7 @@ title: Interface IImageSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.IImageSavingCallback interface. Represents a callback that is called to create resource to store images
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.tasks/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface

@@ -3,7 +3,7 @@ title: Class ViewCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ViewCollection class. Contains a list of View objects. Implements ICollectionView interface
 type: docs
-weight: 2870
+weight: 2880
 url: /net/aspose.tasks/viewcollection/
 ---
 ## ViewCollection class

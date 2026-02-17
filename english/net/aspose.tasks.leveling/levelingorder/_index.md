@@ -3,7 +3,7 @@ title: Enum LevelingOrder
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Leveling.LevelingOrder enum. Defines the possible values of leveling order
 type: docs
-weight: 930
+weight: 940
 url: /net/aspose.tasks.leveling/levelingorder/
 ---
 ## LevelingOrder enumeration

@@ -3,7 +3,7 @@ title: Class AndT
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Util.And1T class. Applies logical AND to the specified conditions
 type: docs
-weight: 2640
+weight: 2650
 url: /net/aspose.tasks.util/and-1/
 ---
 ## And&lt;T&gt; class

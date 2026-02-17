@@ -3,7 +3,7 @@ title: Enum PrimaveraActivityType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Primavera.PrimaveraActivityType enum. Specifies type of Primavera activity
 type: docs
-weight: 1240
+weight: 1250
 url: /net/aspose.tasks.primavera/primaveraactivitytype/
 ---
 ## PrimaveraActivityType enumeration

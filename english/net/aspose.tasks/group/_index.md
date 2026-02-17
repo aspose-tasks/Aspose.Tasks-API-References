@@ -3,7 +3,7 @@ title: Class Group
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Group class. Represents a group definition. A Group object is a member of the ResourceGroups collection or the TaskGroups collection
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.tasks/group/
 ---
 ## Group class

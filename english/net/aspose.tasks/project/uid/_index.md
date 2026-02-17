@@ -3,7 +3,7 @@ title: Project.Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value of Uid
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.tasks/project/uid/
 ---
 ## Project.Uid property

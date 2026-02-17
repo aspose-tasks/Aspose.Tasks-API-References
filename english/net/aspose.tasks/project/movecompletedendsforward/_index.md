@@ -3,7 +3,7 @@ title: Project.MoveCompletedEndsForward
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value indicating whether MoveCompletedEndsForward is set or not
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.tasks/project/movecompletedendsforward/
 ---
 ## Project.MoveCompletedEndsForward property

@@ -3,7 +3,7 @@ title: Project.Views
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets a list of View objects
 type: docs
-weight: 1010
+weight: 1020
 url: /net/aspose.tasks/project/views/
 ---
 ## Project.Views property

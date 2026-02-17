@@ -3,7 +3,7 @@ title: Interface IMessageHandler
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.IMessageHandler interface. Represents a callback the results of resource leveling
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.tasks/imessagehandler/
 ---
 ## IMessageHandler interface

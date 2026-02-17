@@ -3,7 +3,7 @@ title: Interface IFontSavingCallback
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.IFontSavingCallback interface. Represents a callback that is called to create resource to store fonts
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.tasks/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface

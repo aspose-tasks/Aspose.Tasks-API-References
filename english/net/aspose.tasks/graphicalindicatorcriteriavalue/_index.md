@@ -3,7 +3,7 @@ title: Class GraphicalIndicatorCriteriaValue
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.GraphicalIndicatorCriteriaValue class. Represents a value used in condition check of graphical indicators criteria
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.tasks/graphicalindicatorcriteriavalue/
 ---
 ## GraphicalIndicatorCriteriaValue class

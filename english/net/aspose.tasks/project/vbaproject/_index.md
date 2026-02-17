@@ -3,7 +3,7 @@ title: Project.VbaProject
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets an instance of VbaProject class
 type: docs
-weight: 1000
+weight: 1010
 url: /net/aspose.tasks/project/vbaproject/
 ---
 ## Project.VbaProject property

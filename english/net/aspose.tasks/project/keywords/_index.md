@@ -3,7 +3,7 @@ title: Project.Keywords
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value of Keywords
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.tasks/project/keywords/
 ---
 ## Project.Keywords property

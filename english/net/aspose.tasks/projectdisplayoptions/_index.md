@@ -3,7 +3,7 @@ title: Class ProjectDisplayOptions
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ProjectDisplayOptions class. Represents the display options for a project instance
 type: docs
-weight: 1420
+weight: 1430
 url: /net/aspose.tasks/projectdisplayoptions/
 ---
 ## ProjectDisplayOptions class

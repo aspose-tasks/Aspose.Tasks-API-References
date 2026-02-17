@@ -3,7 +3,7 @@ title: Project.SaveVersion
 second_title: Aspose.Tasks for .NET API Reference
 description: Project property. Gets or sets a value of SaveVersion
 type: docs
-weight: 800
+weight: 810
 url: /net/aspose.tasks/project/saveversion/
 ---
 ## Project.SaveVersion property

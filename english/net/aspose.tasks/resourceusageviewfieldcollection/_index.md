@@ -3,7 +3,7 @@ title: Class ResourceUsageViewFieldCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ResourceUsageViewFieldCollection class. Represent a collection of ResourceUsageViewField values
 type: docs
-weight: 1800
+weight: 1810
 url: /net/aspose.tasks/resourceusageviewfieldcollection/
 ---
 ## ResourceUsageViewFieldCollection class

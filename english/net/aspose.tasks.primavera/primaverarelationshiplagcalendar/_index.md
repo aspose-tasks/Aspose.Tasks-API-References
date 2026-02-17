@@ -3,7 +3,7 @@ title: Enum PrimaveraRelationshipLagCalendar
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Primavera.PrimaveraRelationshipLagCalendar enum. Specifies which calendar to use for scheduling Relationship Lag in Primavera projects
 type: docs
-weight: 1290
+weight: 1300
 url: /net/aspose.tasks.primavera/primaverarelationshiplagcalendar/
 ---
 ## PrimaveraRelationshipLagCalendar enumeration
