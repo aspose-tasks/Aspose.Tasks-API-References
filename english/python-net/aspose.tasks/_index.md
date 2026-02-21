@@ -52,6 +52,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[FontSavingArgs](/tasks/python-net/aspose.tasks/fontsavingargs/)|This class represents set of data that related to external fonts file's saving that<br/>              occurs during conversion to HTML format.|
 |[FontSettings](/tasks/python-net/aspose.tasks/fontsettings/)|Specifies font settings used when rendering project's view.|
 |[GanttChartView](/tasks/python-net/aspose.tasks/ganttchartview/)|Represents a GanttChart view.|
+|[GlobalizationSettings](/tasks/python-net/aspose.tasks/globalizationsettings/)|Represents the project's globalization settings.|
 |[GraphicalIndicatorCriteria](/tasks/python-net/aspose.tasks/graphicalindicatorcriteria/)|Represents one graphical indicator criteria associated with an extended attribute.|
 |[GraphicalIndicatorCriteriaValue](/tasks/python-net/aspose.tasks/graphicalindicatorcriteriavalue/)|Represents a value used in condition check of graphical indicators criteria.|
 |[GraphicalIndicatorsInfo](/tasks/python-net/aspose.tasks/graphicalindicatorsinfo/)|Represents an graphical indicators definition associated with an extended attribute.|
@@ -64,7 +65,6 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[IFontSavingCallback](/tasks/python-net/aspose.tasks/ifontsavingcallback/)|Represents a callback that is called to create resource to store fonts.|
 |[IImageSavingCallback](/tasks/python-net/aspose.tasks/iimagesavingcallback/)|Represents a callback that is called to create resource to store images.|
 |[IMessageHandler](/tasks/python-net/aspose.tasks/imessagehandler/)|Represents a callback the results of resource leveling.|
-|[IVbaModule](/tasks/python-net/aspose.tasks/ivbamodule/)|Represents a module with VBA code.|
 |[ImageSavingArgs](/tasks/python-net/aspose.tasks/imagesavingargs/)|This class represents set of data that related to external image file's saving that<br/>                occurs during conversion to HTML format.|
 |[InvalidPasswordException](/tasks/python-net/aspose.tasks/invalidpasswordexception/)|Represents the exception type which is thrown when password protected file opening with wrong password.|
 |[License](/tasks/python-net/aspose.tasks/license/)|Provides methods to license the component.|

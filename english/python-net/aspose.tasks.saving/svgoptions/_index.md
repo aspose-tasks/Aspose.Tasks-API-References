@@ -23,7 +23,6 @@ The SvgOptions type exposes the following members:
 |bar_styles|Gets or sets the list of the instances of the [BarStyle](/tasks/python-net/aspose.tasks.visualization/barstyle/) class that appear in project view.|
 |draw_non_working_time|Gets or sets a value indicating whether non-working time should be drawn (Default value is TRUE).|
 |end_date|Gets or sets a date to finish rendering to.|
-|fit_timescale_to_end_of_page|Gets or sets whether a calendar section of a view should be rendered to the end (right side) of the last page.<br/>            If value is false, calendar section is rendered exactly to EndDate, even there is an empty space on a page.|
 |timescale_fit_behavior|Gets or sets a behavior which define how to align right end of the timescale with the page end.|
 |fit_content|Gets or sets a value indicating whether row height should be increased to fit its content.|
 |gridlines|Gets or sets a list of [Gridline](/tasks/python-net/aspose.tasks.visualization/gridline/) that appear in project view.|
