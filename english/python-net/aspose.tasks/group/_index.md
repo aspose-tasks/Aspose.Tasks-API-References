@@ -3,7 +3,7 @@ title: Group
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.tasks/group/
 ---
 
@@ -20,7 +20,6 @@ The Group type exposes the following members:
 | Name | Description |
 | :- | :- |
 |name|Gets or sets a name of a Group object.|
-|index|Gets or sets the index of a [Group](/tasks/python-net/aspose.tasks/group/) object in the Groups list .|
 |uid|Gets a unique identifier of a group.|
 |show_summary|Gets or sets a value indicating whether summary rows are displayed for the group.|
 |maintain_hierarchy|Gets or sets a value indicating whether to show all the levels of summary tasks for subtasks within group.|
