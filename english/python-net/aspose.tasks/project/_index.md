@@ -131,6 +131,7 @@ The Project type exposes the following members:
 |wbs_code_definition|Gets or sets WBS Code Definition for the project.|
 |ole_objects|Gets a collection containing the instances of the [OleObject](/tasks/python-net/aspose.tasks/oleobject/) class which are linked or embedded to this project file.|
 |primavera_properties|Gets an object containing Primavera-specific properties for a project read from Primavera file.|
+|globalization_settings|Gets or sets globalization (language-specific) settings of the project.|
 ## Methods
 | Name | Description |
 | :- | :- |

@@ -24,7 +24,6 @@ The Table type exposes the following members:
 |table_fields|Gets a TableFields collection representing the fields in the table.|
 |table_type|Gets or sets the table type for the specified table.|
 |uid|Gets the unique identifier of a table.|
-|index|Gets the index of a Table object in the Tables containing object.|
 |row_height|Gets or sets the row height in a table, where the row height is the number of lines of text.|
 |date_format|Gets or sets the date format of the table.|
 |adjust_header_row_height|Gets or sets a value indicating whether the header row height of the table can be adjusted.|
