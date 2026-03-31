@@ -3,7 +3,7 @@ title: PrimaveraDbReader
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a reader to read Project Info from Primavera DB
 type: docs
-weight: 199
+weight: 200
 url: /java/com.aspose.tasks/primaveradbreader/
 ---
 

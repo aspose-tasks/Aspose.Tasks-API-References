@@ -3,7 +3,7 @@ title: ParseErrorArgs
 second_title: Aspose.Tasks for Java API Reference
 description: Provides data for the  delegate.
 type: docs
-weight: 183
+weight: 184
 url: /java/com.aspose.tasks/parseerrorargs/
 ---
 

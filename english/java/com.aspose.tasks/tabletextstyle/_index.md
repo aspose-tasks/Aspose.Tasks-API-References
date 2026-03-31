@@ -3,7 +3,7 @@ title: TableTextStyle
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a text style in a view table.
 type: docs
-weight: 287
+weight: 288
 url: /java/com.aspose.tasks/tabletextstyle/
 ---
 

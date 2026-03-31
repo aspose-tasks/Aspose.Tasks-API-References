@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the file format of the image.
 type: docs
-weight: 132
+weight: 133
 url: /java/com.aspose.tasks/imageformat/
 ---
 

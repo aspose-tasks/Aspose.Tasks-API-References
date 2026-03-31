@@ -3,7 +3,7 @@ title: OutlineCodeDefinitionCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 169
+weight: 170
 url: /java/com.aspose.tasks/outlinecodedefinitioncollection/
 ---
 

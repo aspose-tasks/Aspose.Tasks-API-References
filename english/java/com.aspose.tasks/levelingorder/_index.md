@@ -3,7 +3,7 @@ title: LevelingOrder
 second_title: Aspose.Tasks for Java API Reference
 description: Defines the possible values of leveling order.
 type: docs
-weight: 142
+weight: 143
 url: /java/com.aspose.tasks/levelingorder/
 ---
 

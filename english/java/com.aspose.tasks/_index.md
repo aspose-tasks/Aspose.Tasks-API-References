@@ -116,6 +116,7 @@ url: /java/com.aspose.tasks/
 | [GanttChartColumn](../com.aspose.tasks/ganttchartcolumn) | Project's view class |
 | [GanttChartView](../com.aspose.tasks/ganttchartview) | Represents a GanttChart view. |
 | [GenericProperty&lt;TKey&gt;](../com.aspose.tasks/genericproperty) | Represents a container property. |
+| [GlobalizationSettings](../com.aspose.tasks/globalizationsettings) | Represents the project's globalization settings. |
 | [GraphicalIndicatorCriteria](../com.aspose.tasks/graphicalindicatorcriteria) | Represents one graphical indicator criteria associated with an extended attribute. |
 | [GraphicalIndicatorCriteriaType](../com.aspose.tasks/graphicalindicatorcriteriatype) | Represents placement of graphical indicator criteria. |
 | [GraphicalIndicatorCriteriaValue](../com.aspose.tasks/graphicalindicatorcriteriavalue) | Represents a value used in condition check of graphical indicators criteria. |

@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a table in Project
 type: docs
-weight: 283
+weight: 284
 url: /java/com.aspose.tasks/table/
 ---
 
@@ -26,7 +26,6 @@ Represents a table in Project
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [getAdjustHeaderRowHeight()](#getAdjustHeaderRowHeight--) | Gets a value indicating whether the header row height of the table can be adjusted. |
 | [getDateFormat()](#getDateFormat--) | Gets the date format of the table. |
-| [getIndex()](#getIndex--) | Gets the index of a Table object in the Tables containing object. |
 | [getLockFirstColumn()](#getLockFirstColumn--) | Gets a value indicating whether the first column of a table is locked or editable. |
 | [getName()](#getName--) | Gets the name of a Table object. |
 | [getRowHeight()](#getRowHeight--) | Gets the row height in a table, where the row height is the number of lines of text. |
@@ -87,16 +86,6 @@ Gets the date format of the table.
 
 **Returns:**
 int - the date format of the table.
-### getIndex() {#getIndex--}
-```
-public final int getIndex()
-```
-
-
-Gets the index of a Table object in the Tables containing object.
-
-**Returns:**
-int - the index of a Table object in the Tables containing object.
 ### getLockFirstColumn() {#getLockFirstColumn--}
 ```
 public final boolean getLockFirstColumn()

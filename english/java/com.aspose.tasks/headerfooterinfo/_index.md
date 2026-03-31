@@ -3,7 +3,7 @@ title: HeaderFooterInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents visual content of the header footer or legend which is used for printing  rendering of views.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.tasks/headerfooterinfo/
 ---
 

@@ -3,7 +3,7 @@ title: LevelingOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify parameters of resource leveling.
 type: docs
-weight: 141
+weight: 142
 url: /java/com.aspose.tasks/levelingoptions/
 ---
 
