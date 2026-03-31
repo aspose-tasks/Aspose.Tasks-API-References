@@ -3,7 +3,7 @@ title: GraphicalIndicatorCriteriaValue
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a value used in condition check of graphical indicators criteria.
 type: docs
-weight: 116
+weight: 117
 url: /java/com.aspose.tasks/graphicalindicatorcriteriavalue/
 ---
 

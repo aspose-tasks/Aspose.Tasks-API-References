@@ -3,7 +3,7 @@ title: GraphicalIndicatorsInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an graphical indicators definition associated with an extended attribute.
 type: docs
-weight: 117
+weight: 118
 url: /java/com.aspose.tasks/graphicalindicatorsinfo/
 ---
 

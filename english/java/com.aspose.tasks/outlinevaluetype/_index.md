@@ -3,7 +3,7 @@ title: OutlineValueType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of an outline value.
 type: docs
-weight: 174
+weight: 175
 url: /java/com.aspose.tasks/outlinevaluetype/
 ---
 

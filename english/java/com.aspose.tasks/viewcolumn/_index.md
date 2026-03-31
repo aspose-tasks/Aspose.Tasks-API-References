@@ -3,7 +3,7 @@ title: ViewColumn
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a column in a project view.
 type: docs
-weight: 343
+weight: 344
 url: /java/com.aspose.tasks/viewcolumn/
 ---
 

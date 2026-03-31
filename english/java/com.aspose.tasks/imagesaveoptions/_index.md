@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Tasks for Java API Reference
 description: Allows to specify additional options when rendering project pages to images.
 type: docs
-weight: 133
+weight: 134
 url: /java/com.aspose.tasks/imagesaveoptions/
 ---
 

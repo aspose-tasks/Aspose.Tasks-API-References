@@ -3,7 +3,7 @@ title: PageSize
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies page size.
 type: docs
-weight: 181
+weight: 182
 url: /java/com.aspose.tasks/pagesize/
 ---
 

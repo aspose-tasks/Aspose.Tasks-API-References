@@ -3,7 +3,7 @@ title: OutlineMaskCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of OutlineMask objects.
 type: docs
-weight: 171
+weight: 172
 url: /java/com.aspose.tasks/outlinemaskcollection/
 ---
 

@@ -3,7 +3,7 @@ title: PrimaveraProjectInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents short info about a project loaded from Primavera format.
 type: docs
-weight: 203
+weight: 204
 url: /java/com.aspose.tasks/primaveraprojectinfo/
 ---
 

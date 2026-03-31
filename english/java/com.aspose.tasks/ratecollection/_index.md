@@ -3,7 +3,7 @@ title: RateCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection which contains  objects.
 type: docs
-weight: 233
+weight: 234
 url: /java/com.aspose.tasks/ratecollection/
 ---
 

@@ -3,7 +3,7 @@ title: HtmlImageType
 second_title: Aspose.Tasks for Java API Reference
 description: Represents HTML image type.
 type: docs
-weight: 130
+weight: 131
 url: /java/com.aspose.tasks/htmlimagetype/
 ---
 

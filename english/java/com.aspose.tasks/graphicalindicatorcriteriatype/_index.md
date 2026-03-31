@@ -3,7 +3,7 @@ title: GraphicalIndicatorCriteriaType
 second_title: Aspose.Tasks for Java API Reference
 description: Represents placement of graphical indicator criteria.
 type: docs
-weight: 115
+weight: 116
 url: /java/com.aspose.tasks/graphicalindicatorcriteriatype/
 ---
 
