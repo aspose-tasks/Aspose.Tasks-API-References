@@ -3,7 +3,7 @@ title: OutlineCodeDefinition
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an outline code definition.
 type: docs
-weight: 168
+weight: 169
 url: /java/com.aspose.tasks/outlinecodedefinition/
 ---
 

@@ -3,7 +3,7 @@ title: Project
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a project.
 type: docs
-weight: 219
+weight: 220
 url: /java/com.aspose.tasks/project/
 ---
 
@@ -104,6 +104,7 @@ The **Project** entities can be accessed via typed collections, for example `Asp
 | [getFinishDate()](#getFinishDate--) | Gets a value of FinishDate. |
 | [getFiscalYearStart()](#getFiscalYearStart--) | Gets a value indicating whether FiscalYearStart is set or not. |
 | [getFyStartDate()](#getFyStartDate--) | Gets a value of FyStartDate. |
+| [getGlobalizationSettings()](#getGlobalizationSettings--) | Gets globalization (language-specific) settings of the project. |
 | [getGuid()](#getGuid--) | Gets a value of Guid. |
 | [getHonorConstraints()](#getHonorConstraints--) | Gets a value indicating whether HonorConstraints is set or not. |
 | [getHyperlinkBase()](#getHyperlinkBase--) | Gets a value of HyperlinkBase. |
@@ -245,6 +246,7 @@ The **Project** entities can be accessed via typed collections, for example `Asp
 | [setFinishDate(Date value)](#setFinishDate-java.util.Date-) | Sets a value of FinishDate. |
 | [setFiscalYearStart(NullableBool value)](#setFiscalYearStart-com.aspose.tasks.NullableBool-) | Sets a value indicating whether FiscalYearStart is set or not. |
 | [setFyStartDate(int value)](#setFyStartDate-int-) | Sets a value of FyStartDate. |
+| [setGlobalizationSettings(GlobalizationSettings value)](#setGlobalizationSettings-com.aspose.tasks.GlobalizationSettings-) | Sets globalization (language-specific) settings of the project. |
 | [setGuid(UUID value)](#setGuid-java.util.UUID-) | Sets a value of Guid. |
 | [setHonorConstraints(NullableBool value)](#setHonorConstraints-com.aspose.tasks.NullableBool-) | Sets a value indicating whether HonorConstraints is set or not. |
 | [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | Sets a value of HyperlinkBase. |
@@ -1027,6 +1029,18 @@ Gets a value of FyStartDate.
 
 **Returns:**
 int - a value of FyStartDate.
+### getGlobalizationSettings() {#getGlobalizationSettings--}
+```
+public final GlobalizationSettings getGlobalizationSettings()
+```
+
+
+Gets globalization (language-specific) settings of the project.
+
+The recommended way is to use culture-invariant literals or formats throughout the project. However, if a project uses culture-specific literals, this class can be used to help the calculation engine parse those literals.
+
+**Returns:**
+[GlobalizationSettings](../../com.aspose.tasks/globalizationsettings) - globalization (language-specific) settings of the project.
 ### getGuid() {#getGuid--}
 ```
 public final UUID getGuid()
@@ -2726,6 +2740,21 @@ Sets a value of FyStartDate.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | a value of FyStartDate. |
+
+### setGlobalizationSettings(GlobalizationSettings value) {#setGlobalizationSettings-com.aspose.tasks.GlobalizationSettings-}
+```
+public final void setGlobalizationSettings(GlobalizationSettings value)
+```
+
+
+Sets globalization (language-specific) settings of the project.
+
+The recommended way is to use culture-invariant literals or formats throughout the project. However, if a project uses culture-specific literals, this class can be used to help the calculation engine parse those literals.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [GlobalizationSettings](../../com.aspose.tasks/globalizationsettings) | globalization (language-specific) settings of the project. |
 
 ### setGuid(UUID value) {#setGuid-java.util.UUID-}
 ```

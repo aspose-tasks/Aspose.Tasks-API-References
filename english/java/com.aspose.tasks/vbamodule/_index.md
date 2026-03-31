@@ -3,17 +3,14 @@ title: VbaModule
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a VBA module.
 type: docs
-weight: 333
+weight: 334
 url: /java/com.aspose.tasks/vbamodule/
 ---
 
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-[com.aspose.tasks.IVbaModule](../../com.aspose.tasks/ivbamodule)
 ```
-public final class VbaModule implements IVbaModule
+public final class VbaModule
 ```
 
 Represents a VBA module.

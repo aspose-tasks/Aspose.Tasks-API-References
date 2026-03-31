@@ -3,7 +3,7 @@ title: TaskLinkDrawingArgs
 second_title: Aspose.Tasks for Java API Reference
 description: Provides arguments for the callback that is invoked when task link is rendered.
 type: docs
-weight: 296
+weight: 297
 url: /java/com.aspose.tasks/tasklinkdrawingargs/
 ---
 

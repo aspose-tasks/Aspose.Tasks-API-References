@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Tasks for Java API Reference
 description: Represents page setup data which is present in MPP file format and used for printing.
 type: docs
-weight: 175
+weight: 176
 url: /java/com.aspose.tasks/pageinfo/
 ---
 

@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the exception type which is thrown when password protected file opening with wrong password.
 type: docs
-weight: 136
+weight: 137
 url: /java/com.aspose.tasks/invalidpasswordexception/
 ---
 

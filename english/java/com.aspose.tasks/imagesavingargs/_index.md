@@ -3,7 +3,7 @@ title: ImageSavingArgs
 second_title: Aspose.Tasks for Java API Reference
 description: This class represents set of data that related to external image files saving that occurs during conversion to HTML format.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.tasks/imagesavingargs/
 ---
 

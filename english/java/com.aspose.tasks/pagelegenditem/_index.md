@@ -3,7 +3,7 @@ title: PageLegendItem
 second_title: Aspose.Tasks for Java API Reference
 description: Represents an item of page legend of Gantt chart.
 type: docs
-weight: 177
+weight: 178
 url: /java/com.aspose.tasks/pagelegenditem/
 ---
 

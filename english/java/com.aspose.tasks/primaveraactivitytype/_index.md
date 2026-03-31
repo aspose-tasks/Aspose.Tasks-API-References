@@ -3,7 +3,7 @@ title: PrimaveraActivityType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies type of Primavera activity.
 type: docs
-weight: 194
+weight: 195
 url: /java/com.aspose.tasks/primaveraactivitytype/
 ---
 

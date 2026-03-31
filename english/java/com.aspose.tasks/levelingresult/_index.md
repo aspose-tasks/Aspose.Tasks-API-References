@@ -3,7 +3,7 @@ title: LevelingResult
 second_title: Aspose.Tasks for Java API Reference
 description: Represents the results of resource leveling.
 type: docs
-weight: 143
+weight: 144
 url: /java/com.aspose.tasks/levelingresult/
 ---
 
