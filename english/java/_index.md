@@ -10,4 +10,5 @@ is_root: true
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.tasks](./com.aspose.tasks) |  |
+| [com.aspose.tasks](./com.aspose.tasks) | Contains classes which represent MS Project API and related entities. |
+| [com.aspose.tasks.exceptions](./com.aspose.tasks.exceptions) | Contains internal exceptions that can be thrown by the library. |
