@@ -172,7 +172,6 @@ public class Project
 | [Recalculate](../../aspose.tasks/project/recalculate/#recalculate)() | Reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields. |
 | [Recalculate](../../aspose.tasks/project/recalculate/#recalculate_1)(bool) | Reschedules all project tasks ids, outline levels, start/finish dates, sets early/late dates, calculates slacks, work and cost fields with optional validation. |
 | [RecalculateResourceFields](../../aspose.tasks/project/recalculateresourcefields/)() | Recalculates Id, Start and Finish of resources. |
-| [RecalculateResourceStartFinish](../../aspose.tasks/project/recalculateresourcestartfinish/)() | Recalculates Start and Finish of resources. |
 | [RemoveInvalidResourceAssignments](../../aspose.tasks/project/removeinvalidresourceassignments/)() | Eliminates invalid resource assignments from the project resource assignments list. |
 | [RenumberWBSCode](../../aspose.tasks/project/renumberwbscode/#renumberwbscode)() | Renumber WBS code of all tasks. |
 | [RenumberWBSCode](../../aspose.tasks/project/renumberwbscode/#renumberwbscode_1)(List&lt;int&gt;) | Renumber WBS code of passed tasks. |

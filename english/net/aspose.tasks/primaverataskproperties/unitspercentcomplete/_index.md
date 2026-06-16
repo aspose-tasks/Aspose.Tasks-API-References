@@ -3,7 +3,7 @@ title: PrimaveraTaskProperties.UnitsPercentComplete
 second_title: Aspose.Tasks for .NET API Reference
 description: PrimaveraTaskProperties property. Gets the value of units percent complete
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 ---
 ## PrimaveraTaskProperties.UnitsPercentComplete property

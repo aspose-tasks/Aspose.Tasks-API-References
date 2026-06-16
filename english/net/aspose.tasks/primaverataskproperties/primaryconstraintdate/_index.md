@@ -3,7 +3,7 @@ title: PrimaveraTaskProperties.PrimaryConstraintDate
 second_title: Aspose.Tasks for .NET API Reference
 description: PrimaveraTaskProperties property. Gets the date of primary constraint
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.tasks/primaverataskproperties/primaryconstraintdate/
 ---
 ## PrimaveraTaskProperties.PrimaryConstraintDate property
