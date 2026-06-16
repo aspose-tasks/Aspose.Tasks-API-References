@@ -3,7 +3,7 @@ title: Project.SaveAsTemplate
 second_title: Aspose.Tasks for .NET API Reference
 description: Project method. Saves the project as a template
 type: docs
-weight: 1220
+weight: 1210
 url: /net/aspose.tasks/project/saveastemplate/
 ---
 ## SaveAsTemplate(string, SaveTemplateOptions) {#saveastemplate_3}

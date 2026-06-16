@@ -36,6 +36,7 @@ public sealed class PrimaveraTaskProperties
 | [DurationType](../../aspose.tasks/primaverataskproperties/durationtype/) { get; } | Gets the value of 'Duration Type' field of the activity. |
 | [PercentCompleteType](../../aspose.tasks/primaverataskproperties/percentcompletetype/) { get; } | Gets the value of '% Complete Type' field of the activity. |
 | [PhysicalPercentComplete](../../aspose.tasks/primaverataskproperties/physicalpercentcomplete/) { get; } | Gets the value of Physical Percent Complete. |
+| [PlannedDuration](../../aspose.tasks/primaverataskproperties/plannedduration/) { get; } | Gets the original or planned duration -- the total working time from the task planned start date to the planned finish date.. |
 | [PrimaryConstraintDate](../../aspose.tasks/primaverataskproperties/primaryconstraintdate/) { get; } | Gets the date of primary constraint. |
 | [PrimaryConstraintType](../../aspose.tasks/primaverataskproperties/primaryconstrainttype/) { get; } | Gets a type of primary constraint. |
 | [RawActivityType](../../aspose.tasks/primaverataskproperties/rawactivitytype/) { get; } | Gets raw text representation (as in source file) of 'Activity Type' field of the activity. |
