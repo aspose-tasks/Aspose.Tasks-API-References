@@ -36,6 +36,7 @@ Represents Primavera-specific properties for a task read from Primavera files (X
 | [getDurationType()](#getDurationType--) | Gets the value of 'Duration Type' field of the activity. |
 | [getPercentCompleteType()](#getPercentCompleteType--) | Gets the value of '% Complete Type' field of the activity. |
 | [getPhysicalPercentComplete()](#getPhysicalPercentComplete--) | Gets the value of Physical Percent Complete. |
+| [getPlannedDuration()](#getPlannedDuration--) | Gets the original or planned duration -- the total working time from the task planned start date to the planned finish date.. |
 | [getPrimaryConstraintDate()](#getPrimaryConstraintDate--) | Gets the date of primary constraint. |
 | [getPrimaryConstraintType()](#getPrimaryConstraintType--) | Gets a type of primary constraint. |
 | [getRawActivityType()](#getRawActivityType--) | Gets raw text representation (as in source file) of 'Activity Type' field of the activity. |
@@ -253,6 +254,16 @@ Applicable only to activities (non-summary tasks).
 
 **Returns:**
 double - the value of Physical Percent Complete.
+### getPlannedDuration() {#getPlannedDuration--}
+```
+public final Duration getPlannedDuration()
+```
+
+
+Gets the original or planned duration -- the total working time from the task planned start date to the planned finish date..
+
+**Returns:**
+[Duration](../../com.aspose.tasks/duration) - the original or planned duration -- the total working time from the task planned start date to the planned finish date.
 ### getPrimaryConstraintDate() {#getPrimaryConstraintDate--}
 ```
 public final Date getPrimaryConstraintDate()
