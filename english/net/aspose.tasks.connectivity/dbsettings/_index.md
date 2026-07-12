@@ -19,6 +19,7 @@ public abstract class DbSettings
 | Name | Description |
 | --- | --- |
 | [ConnectionString](../../aspose.tasks.connectivity/dbsettings/connectionstring/) { get; set; } | Gets or sets the connection string. |
+| [ProviderFactory](../../aspose.tasks.connectivity/dbsettings/providerfactory/) { get; set; } | Gets or sets an instance of DbProviderFactory which is used to connect to DB. If both ProviderFactory and ProviderInvariantName are set, ProviderFactory has a priority. Default value is null. |
 | [ProviderInvariantName](../../aspose.tasks.connectivity/dbsettings/providerinvariantname/) { get; set; } | Gets or sets provider invariant name which is used to get an instance of the DbProviderFactory class. Default value is SqlClient. |
 
 ## Examples
