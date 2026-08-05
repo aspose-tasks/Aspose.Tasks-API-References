@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::VbaModuleCollection::cbegin method"
+linktitle: "cbegin"
+articleTitle: "cbegin"
+second_title: "Aspose.Tasks for C++"
+description: "Gets iterator pointing to the first const-qualified element (if any) of the collection."
+type: docs
+weight: 20
+url: /cpp/aspose.tasks/vbamodulecollection/cbegin/
+---
+
+## cbegin {#cbegin}
+
+Gets iterator pointing to the first const-qualified element (if any) of the collection.
+
+**Returns:** An iterator pointing to the first const-qualified element (if any) of the collection
+
+```cpp
+cbegin()
+```
+
