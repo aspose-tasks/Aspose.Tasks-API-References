@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::GanttChartView::set_MiddleTimescaleTier method"
+linktitle: "set_MiddleTimescaleTier"
+articleTitle: "set_MiddleTimescaleTier"
+second_title: "Aspose.Tasks for C++"
+description: "Sets settings of view's middle timescale tier."
+type: docs
+weight: 230
+url: /cpp/aspose.tasks/ganttchartview/set_middletimescaletier/
+---
+
+## set_MiddleTimescaleTier {#set_middletimescaletier}
+
+Sets settings of view's middle timescale tier. TimescaleTier .
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_MiddleTimescaleTier(System::SharedPtr< Visualization::TimescaleTier > value)
+```
+
+| Parameter | Description |
+| --- | --- |
+| value |  |
+
