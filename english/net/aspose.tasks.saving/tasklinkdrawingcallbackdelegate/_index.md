@@ -3,7 +3,7 @@ title: Delegate TaskLinkDrawingCallbackDelegate
 second_title: Aspose.Tasks for .NET API Reference
 description: Represents a callback that is called when a task link is rendered in a Gantt chart view
 type: docs
-weight: 2220
+weight: 2240
 url: /net/aspose.tasks.saving/tasklinkdrawingcallbackdelegate/
 ---
 ## TaskLinkDrawingCallbackDelegate delegate

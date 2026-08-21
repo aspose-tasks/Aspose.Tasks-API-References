@@ -3,7 +3,7 @@ title: Class TaskTextStyleEventArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.TaskTextStyleEventArgs class. This class represents set of data that related to the rendering of table cells content
 type: docs
-weight: 3370
+weight: 3390
 url: /net/aspose.tasks.visualization/tasktextstyleeventargs/
 ---
 ## TaskTextStyleEventArgs class

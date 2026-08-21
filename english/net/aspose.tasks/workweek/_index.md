@@ -3,7 +3,7 @@ title: Class WorkWeek
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.WorkWeek class. Represent WorkWeek class
 type: docs
-weight: 3620
+weight: 3640
 url: /net/aspose.tasks/workweek/
 ---
 ## WorkWeek class

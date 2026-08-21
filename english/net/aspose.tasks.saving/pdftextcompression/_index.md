@@ -3,7 +3,7 @@ title: Enum PdfTextCompression
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.PdfTextCompression enum. Specifies a type of compression applied to all content in the PDF file except images
 type: docs
-weight: 2120
+weight: 2140
 url: /net/aspose.tasks.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration

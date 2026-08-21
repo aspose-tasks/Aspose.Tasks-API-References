@@ -3,7 +3,7 @@ title: Class RecurrencePatternBase
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.RecurrencePatternBase class. Represents the base class of recurrence pattern
 type: docs
-weight: 1680
+weight: 1700
 url: /net/aspose.tasks/recurrencepatternbase/
 ---
 ## RecurrencePatternBase class

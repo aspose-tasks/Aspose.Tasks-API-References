@@ -3,7 +3,7 @@ title: Enum PrimaveraCriticalActivitiesDefiningMethod
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.PrimaveraCriticalActivitiesDefiningMethod enum. Specifies the method for defining critical activities in Primavera
 type: docs
-weight: 1330
+weight: 1340
 url: /net/aspose.tasks/primaveracriticalactivitiesdefiningmethod/
 ---
 ## PrimaveraCriticalActivitiesDefiningMethod enumeration

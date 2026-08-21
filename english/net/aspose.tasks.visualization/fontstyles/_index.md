@@ -3,7 +3,7 @@ title: Enum FontStyles
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.FontStyles enum. Specifies style information applied to text
 type: docs
-weight: 3000
+weight: 3020
 url: /net/aspose.tasks.visualization/fontstyles/
 ---
 ## FontStyles enumeration
