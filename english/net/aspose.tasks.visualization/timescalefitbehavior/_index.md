@@ -3,7 +3,7 @@ title: Enum TimescaleFitBehavior
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Visualization.TimescaleFitBehavior enum. Represents a behavior used to align timescale area with page width
 type: docs
-weight: 3420
+weight: 3440
 url: /net/aspose.tasks.visualization/timescalefitbehavior/
 ---
 ## TimescaleFitBehavior enumeration

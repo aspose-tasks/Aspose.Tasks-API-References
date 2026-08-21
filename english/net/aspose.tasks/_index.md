@@ -89,6 +89,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [PrimaveraXerReader](./primaveraxerreader/) | Represents a reader to read Project UIDs from Primavera XER file |
 | [PrimaveraXmlReader](./primaveraxmlreader/) | Represents a reader which allows to retrieve Project UIDs from Primavera Xml file. |
 | [Prj](./prj/) | Represents supported properties of [`Project`](../aspose.tasks/project/) object. |
+| [ProgressNotificationArgs](./progressnotificationargs/) | Provides data for the [`Notify`](../aspose.tasks/iprogressnotificationcallback/notify/) method. |
 | [Project](./project/) | Represents a project. |
 | [ProjectDisplayOptions](./projectdisplayoptions/) | Represents the display options for a project instance. |
 | [ProjectFileInfo](./projectfileinfo/) | The class instance contains information about project file format and version of Microsoft Project where the file was created. |
@@ -185,6 +186,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [IFontSavingCallback](./ifontsavingcallback/) | Represents a callback that is called to create resource to store fonts. |
 | [IImageSavingCallback](./iimagesavingcallback/) | Represents a callback that is called to create resource to store images. |
 | [IMessageHandler](./imessagehandler/) | Represents a callback the results of resource leveling. |
+| [IProgressNotificationCallback](./iprogressnotificationcallback/) | Represents a callback interface for receiving notifications during long-running project operations. |
 ## Enumeration
 
 | Enumeration | Description |

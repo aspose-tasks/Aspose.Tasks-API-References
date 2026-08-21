@@ -3,7 +3,7 @@ title: Enum PdfCompliance
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Saving.PdfCompliance enum. Specifies the PDF compliance level to output file
 type: docs
-weight: 2050
+weight: 2070
 url: /net/aspose.tasks.saving/pdfcompliance/
 ---
 ## PdfCompliance enumeration

@@ -26,6 +26,7 @@ Shows how to import a project from a Primavera database.
 ```csharp
 // Initialize a new instance of the PrimaveraDbSettings class with connection string and project id
 var settings = new PrimaveraDbSettings(GetConnectionString(), 4502);
+settings.ProviderFactory = SqliteFactory.Instance;
 
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
 

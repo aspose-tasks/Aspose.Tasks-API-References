@@ -3,7 +3,7 @@ title: Class LevelingResult
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Leveling.LevelingResult class. Represents the results of resource leveling
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.tasks.leveling/levelingresult/
 ---
 ## LevelingResult class

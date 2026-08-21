@@ -3,7 +3,7 @@ title: DbSettings.ProviderInvariantName
 second_title: Aspose.Tasks for .NET API Reference
 description: DbSettings property. Gets or sets provider invariant name which is used to get an instance of the DbProviderFactory class. Default value is SqlClient
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.tasks.connectivity/dbsettings/providerinvariantname/
 ---
 ## DbSettings.ProviderInvariantName property
