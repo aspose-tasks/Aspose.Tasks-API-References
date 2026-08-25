@@ -21,6 +21,7 @@ The PrimaveraDbSettings type exposes the following members:
 | :- | :- |
 |connection_string|Gets or sets the connection string.|
 |provider_invariant_name|Gets or sets provider invariant name which is used to get an instance of the  class.|
+|project_loading_callback|Gets or sets the callback to be invoked during project loading operations.|
 |project_id|Gets id of the project to read.|
 
 ### See Also

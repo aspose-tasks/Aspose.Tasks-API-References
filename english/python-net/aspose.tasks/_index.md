@@ -65,6 +65,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[IFontSavingCallback](/tasks/python-net/aspose.tasks/ifontsavingcallback/)|Represents a callback that is called to create resource to store fonts.|
 |[IImageSavingCallback](/tasks/python-net/aspose.tasks/iimagesavingcallback/)|Represents a callback that is called to create resource to store images.|
 |[IMessageHandler](/tasks/python-net/aspose.tasks/imessagehandler/)|Represents a callback the results of resource leveling.|
+|[IProgressNotificationCallback](/tasks/python-net/aspose.tasks/iprogressnotificationcallback/)|Represents a callback interface for receiving notifications during long-running project operations.|
 |[ImageSavingArgs](/tasks/python-net/aspose.tasks/imagesavingargs/)|This class represents set of data that related to external image file's saving that<br/>                occurs during conversion to HTML format.|
 |[InvalidPasswordException](/tasks/python-net/aspose.tasks/invalidpasswordexception/)|Represents the exception type which is thrown when password protected file opening with wrong password.|
 |[License](/tasks/python-net/aspose.tasks/license/)|Provides methods to license the component.|
@@ -93,6 +94,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[PrimaveraTaskProperties](/tasks/python-net/aspose.tasks/primaverataskproperties/)|Represents Primavera-specific properties for a task read from Primavera files (XER of P6XML).|
 |[PrimaveraXerReader](/tasks/python-net/aspose.tasks/primaveraxerreader/)|Represents a reader to read Project UIDs from Primavera XER file|
 |[PrimaveraXmlReader](/tasks/python-net/aspose.tasks/primaveraxmlreader/)|Represents a reader which allows to retrieve Project UIDs from Primavera Xml file.|
+|[ProgressNotificationArgs](/tasks/python-net/aspose.tasks/progressnotificationargs/)|Provides data for the|
 |[Project](/tasks/python-net/aspose.tasks/project/)|Represents a project.|
 |[ProjectDisplayOptions](/tasks/python-net/aspose.tasks/projectdisplayoptions/)|Represents the display options for a project instance.|
 |[ProjectFileInfo](/tasks/python-net/aspose.tasks/projectfileinfo/)|The class instance contains information about project file format and version of Microsoft Project where<br/>            the file was created.|

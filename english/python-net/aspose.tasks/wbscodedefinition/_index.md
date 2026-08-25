@@ -3,7 +3,7 @@ title: WBSCodeDefinition
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1420
+weight: 1440
 url: /python-net/aspose.tasks/wbscodedefinition/
 ---
 
