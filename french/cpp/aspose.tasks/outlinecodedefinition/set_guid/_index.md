@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::OutlineCodeDefinition::set_Guid méthode"
+linktitle: "set_Guid"
+articleTitle: "set_Guid"
+second_title: "Aspose.Tasks pour C++"
+description: "Définit le Guid d'un code de plan."
+type: docs
+weight: 210
+url: /fr/cpp/aspose.tasks/outlinecodedefinition/set_guid/
+---
+
+## set_Guid {#set_guid}
+
+Définit le Guid d'un code de plan.
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_Guid(const System::String & value)
+```
+
+| Paramètre | Description |
+| --- | --- |
+| valeur |  |
+
