@@ -1,0 +1,26 @@
+---
+title: "Aspose::Tasks::OutlineCodeCollection::CopyTo méthode"
+linktitle: "CopyTo"
+articleTitle: "CopyTo"
+second_title: "Aspose.Tasks pour C++"
+description: "Copie les éléments de cette collection dans le tableau spécifié, en commençant à l'index de tableau spécifié."
+type: docs
+weight: 40
+url: /fr/cpp/aspose.tasks/outlinecodecollection/copyto/
+---
+
+## CopyTo {#copyto}
+
+Copie les éléments de cette collection dans le tableau spécifié, en commençant à l'index de tableau spécifié.
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+CopyTo(System::ArrayPtr< System::SharedPtr< OutlineCode >> array, int32_t arrayIndex)
+```
+
+| Paramètre | Description |
+| --- | --- |
+| tableau | le tableau unidimensionnel spécifié dans lequel copier les éléments |
+| arrayIndex | l'index basé sur zéro du tableau spécifié à partir duquel la copie commence. |
+
