@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::Task::get_DurationFormat طريقة"
+linktitle: "get_DurationFormat"
+articleTitle: "get_DurationFormat"
+second_title: "Aspose.Tasks لـ C++"
+description: "يحصل على قيمة DurationFormat."
+type: docs
+weight: 380
+url: /ar/cpp/aspose.tasks/task/get_durationformat/
+---
+
+## get_DurationFormat {#get_durationformat}
+
+يحصل على قيمة DurationFormat.
+
+**Returns:** TimeUnitType Aspose::Tasks::
+
+```cpp
+get_DurationFormat()
+```
+
