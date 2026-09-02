@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::Task::set_Finish طريقة"
+linktitle: "set_Finish"
+articleTitle: "set_Finish"
+second_title: "Aspose.Tasks لـ C++"
+description: "يحدد قيمة Finish."
+type: docs
+weight: 1820
+url: /ar/cpp/aspose.tasks/task/set_finish/
+---
+
+## set_Finish {#set_finish}
+
+يحدد قيمة Finish.
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_Finish(System::DateTime value)
+```
+
+| معامل | الوصف |
+| --- | --- |
+| القيمة |  |
+

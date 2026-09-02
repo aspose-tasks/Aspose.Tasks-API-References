@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::Saving::SimpleSaveOptions::set_TasksComparer طريقة"
+linktitle: "set_TasksComparer"
+articleTitle: "set_TasksComparer"
+second_title: "Aspose.Tasks لـ C++"
+description: "يضبط المقارن لفرز المهام في مخطط جانت ومخطط ورقة المهام."
+type: docs
+weight: 40
+url: /ar/cpp/aspose.tasks.saving/simplesaveoptions/set_taskscomparer/
+---
+
+## set_TasksComparer {#set_taskscomparer}
+
+يضبط المقارن لفرز المهام في مخطط جانت ومخطط ورقة المهام.
+
+**Returns:** void Aspose::Tasks::Saving::
+
+```cpp
+set_TasksComparer(const System::SharedPtr< System::Collections::Generic::IComparer< System::SharedPtr< Task >>> & value)
+```
+
+| معامل | الوصف |
+| --- | --- |
+| القيمة |  |
+
