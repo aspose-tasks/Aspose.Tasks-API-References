@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::MonthlyRepetitionBase::set_RepetitionInterval Methode"
+linktitle: "set_RepetitionInterval"
+articleTitle: "set_RepetitionInterval"
+second_title: "Aspose.Tasks für C++"
+description: "Setzt eine Anzahl von Monaten, die das Intervall in Monaten zwischen den Vorkommen darstellt."
+type: docs
+weight: 20
+url: /de/cpp/aspose.tasks/monthlyrepetitionbase/set_repetitioninterval/
+---
+
+## set_RepetitionInterval {#set_repetitioninterval}
+
+Setzt eine Anzahl von Monaten, die das Intervall in Monaten zwischen den Vorkommen darstellt.
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_RepetitionInterval(int32_t value)
+```
+
+| Parameter | Beschreibung |
+| --- | --- |
+| Wert |  |
+
