@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::Visualization::Gridlines::get_Type 方法"
+linktitle: "get_Type"
+articleTitle: "get_Type"
+second_title: "Aspose.Tasks for C++"
+description: "获取网格线类型。"
+type: docs
+weight: 60
+url: /zh/cpp/aspose.tasks.visualization/gridlines/get_type/
+---
+
+## get_Type {#get_type}
+
+获取网格线类型。
+
+**Returns:** GridlineType Aspose::Tasks::Visualization::
+
+```cpp
+get_Type()
+```
+
