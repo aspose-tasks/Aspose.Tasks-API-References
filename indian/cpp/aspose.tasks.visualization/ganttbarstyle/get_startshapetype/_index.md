@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::Visualization::GanttBarStyle::get_StartShapeType विधि"
+linktitle: "get_StartShapeType"
+articleTitle: "get_StartShapeType"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "शुरूआती आकृति का प्रकार प्राप्त करता है।"
+type: docs
+weight: 230
+url: /hi/cpp/aspose.tasks.visualization/ganttbarstyle/get_startshapetype/
+---
+
+## get_StartShapeType {#get_startshapetype}
+
+शुरूआती आकृति का प्रकार प्राप्त करता है।
+
+**Returns:** GanttBarType Aspose::Tasks::Visualization::
+
+```cpp
+get_StartShapeType()
+```
+
