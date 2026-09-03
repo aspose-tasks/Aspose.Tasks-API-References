@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::Saving::PrimaveraSaveOptions::get_SkipSummaryAssignments method"
+linktitle: "get_SkipSummaryAssignments"
+articleTitle: "get_SkipSummaryAssignments"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "एक मान प्राप्त करता है जो दर्शाता है कि निर्यात के दौरान संसाधनों के असाइनमेंट को समरी टास्क में छोड़ना चाहिए या नहीं।"
+type: docs
+weight: 50
+url: /hi/cpp/aspose.tasks.saving/primaverasaveoptions/get_skipsummaryassignments/
+---
+
+## get_SkipSummaryAssignments {#get_skipsummaryassignments}
+
+एक मान प्राप्त करता है जो दर्शाता है कि निर्यात के दौरान संसाधनों के असाइनमेंट को समरी टास्क में छोड़ना चाहिए या नहीं।
+
+**Returns:** bool Aspose::Tasks::Saving::
+
+```cpp
+get_SkipSummaryAssignments()
+```
+
