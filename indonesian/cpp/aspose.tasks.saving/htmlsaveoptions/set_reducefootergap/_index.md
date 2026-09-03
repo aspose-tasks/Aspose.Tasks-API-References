@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::Saving::HtmlSaveOptions::set_ReduceFooterGap metode"
+linktitle: "set_ReduceFooterGap"
+articleTitle: "set_ReduceFooterGap"
+second_title: "Aspose.Tasks untuk C++"
+description: "Mengatur nilai yang menunjukkan apakah celah antara tugas terakhir dan footer harus dikurangi."
+type: docs
+weight: 280
+url: /id/cpp/aspose.tasks.saving/htmlsaveoptions/set_reducefootergap/
+---
+
+## set_ReduceFooterGap {#set_reducefootergap}
+
+Mengatur nilai yang menunjukkan apakah celah antara tugas terakhir dan footer harus dikurangi.
+
+**Returns:** void Aspose::Tasks::Saving::
+
+```cpp
+set_ReduceFooterGap(bool value)
+```
+
+| Parameter | Deskripsi |
+| --- | --- |
+| nilai |  |
+
