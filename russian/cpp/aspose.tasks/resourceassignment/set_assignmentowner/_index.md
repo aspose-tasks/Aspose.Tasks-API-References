@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::ResourceAssignment::set_AssignmentOwner метод"
+linktitle: "set_AssignmentOwner"
+articleTitle: "set_AssignmentOwner"
+second_title: "Aspose.Tasks для C++"
+description: "Устанавливает значение AssignmentOwner."
+type: docs
+weight: 850
+url: /ru/cpp/aspose.tasks/resourceassignment/set_assignmentowner/
+---
+
+## set_AssignmentOwner {#set_assignmentowner}
+
+Устанавливает значение AssignmentOwner.
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_AssignmentOwner(const System::String & value)
+```
+
+| Параметр | Описание |
+| --- | --- |
+| значение |  |
+
