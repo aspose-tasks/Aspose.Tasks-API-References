@@ -1,0 +1,41 @@
+---
+title: "Aspose::Tasks::ExtendedAttributeCollection classe"
+linktitle: "ExtendedAttributeCollection"
+articleTitle: "ExtendedAttributeCollection"
+second_title: "Aspose.Tasks per C++"
+description: "Rappresenta una raccolta di oggetti ExtendedAttribute."
+type: docs
+weight: 10
+url: /it/cpp/aspose.tasks/extendedattributecollection/
+---
+
+## ExtendedAttributeCollection class
+
+Rappresenta una raccolta di oggetti ExtendedAttribute.
+
+## Metodi
+
+| Nome | Descrizione |
+| --- | --- |
+| [Add](./add/) | Aggiunge l'elemento specificato a questa collezione. |
+| [begin (2 overloads)](./begin/) | Ottiene l'iteratore che punta al primo elemento (se presente) dell'istanza const-qualified della collezione. |
+| [cbegin](./cbegin/) | Ottiene l'iteratore che punta al primo elemento const-qualified (se presente) della collezione. |
+| [cend](./cend/) | Ottiene l'iteratore che punta subito dopo l'ultimo elemento const-qualified (se presente) della collezione. |
+| [Clear](./clear/) | Rimuove tutti gli elementi da questa collezione. |
+| [Contains](./contains/) | Restituisce true se l'elemento specificato è trovato in questa collezione; altrimenti, false. |
+| [CopyTo](./copyto/) | Copia gli elementi di questa collezione nell'array specificato, iniziando dall'indice specificato dell'array. |
+| [end (2 overloads)](./end/) | Ottiene l'iteratore che punta subito dopo l'ultimo elemento (se presente) dell'istanza const-qualified della collezione. |
+| [get_Count](./get_count/) | Ottiene il numero di elementi contenuti in questa collezione. |
+| [get_IsReadOnly](./get_isreadonly/) | Restituisce un valore che indica se questa collezione è di sola lettura; altrimenti, false. |
+| [GetEnumerator](./getenumerator/) | Restituisce un enumeratore per questa collezione. |
+| [idx_get](./idx_get/) | Restituisce l'elemento all'indice specificato. |
+| [idx_set](./idx_set/) | Imposta l'elemento all'indice specificato. |
+| [IndexOf](./indexof/) | Determina l'indice dell'elemento specificato in questa collezione. |
+| [Insert](./insert/) | Inserisce l'elemento specificato all'indice specificato. |
+| [Remove](./remove/) | Rimuove la prima occorrenza di un oggetto specifico da questa collezione. |
+| [RemoveAt](./removeat/) | Rimuove un elemento all'indice specificato. |
+| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/) | Ottiene l'iteratore che punta al primo elemento (se presente) dell'istanza const-qualified della collezione. |
+| [virtualizeBeginIterator](./virtualizebeginiterator/) | Restituisce l'iteratore che punta al primo elemento (se presente) della collezione. |
+| [virtualizeEndConstIterator](./virtualizeendconstiterator/) | Restituisce l'iteratore che punta subito dopo l'ultimo elemento (se presente) dell'istanza const della collezione. |
+| [virtualizeEndIterator](./virtualizeenditerator/) | Restituisce l'iteratore che punta subito dopo l'ultimo elemento (se presente) della collezione. |
+
