@@ -1,0 +1,37 @@
+---
+title: "Aspose::Tasks::WorkingTimeCollection 클래스"
+linktitle: "WorkingTimeCollection"
+articleTitle: "WorkingTimeCollection"
+second_title: "C++용 Aspose.Tasks"
+description: "WorkingTimeCollection 객체의 컬렉션을 나타냅니다."
+type: docs
+weight: 10
+url: /ko/cpp/aspose.tasks/workingtimecollection/
+---
+
+## WorkingTimeCollection class
+
+WorkingTimeCollection 객체의 컬렉션을 나타냅니다.
+
+## 메서드
+
+| 이름 | 설명 |
+| --- | --- |
+| [begin (2 overloads)](./begin/) | 컬렉션의 const 한정 인스턴스에서 첫 번째 요소(있는 경우)를 가리키는 반복자를 가져옵니다. |
+| [cbegin](./cbegin/) | 컬렉션에서 첫 번째 const 한정 요소(있는 경우)를 가리키는 반복자를 가져옵니다. |
+| [cend](./cend/) | 컬렉션에서 마지막 const 한정 요소(있는 경우) 바로 뒤를 가리키는 반복자를 가져옵니다. |
+| [Clear](./clear/) | 컬렉션에서 모든 WorkingTime 항목을 제거합니다. |
+| [Contains](./contains/) | 지정된 요소가 List에 있는지 확인합니다. 선형 O(n) 검색을 수행합니다. |
+| [CopyTo](./copyto/) | 컬렉션 내용을 배열에 복사하며, 특정 인덱스부터 시작합니다. |
+| [end (2 overloads)](./end/) | 컬렉션의 const 한정 인스턴스에서 마지막 요소(있는 경우) 바로 뒤를 가리키는 반복자를 가져옵니다. |
+| [get_Count](./get_count/) | 이 WorkingTimeCollection 객체에 포함된 객체 수를 가져옵니다. |
+| [GetEnumerator](./getenumerator/) | 이 컬렉션에 대한 열거자를 반환합니다. |
+| [idx_get](./idx_get/) | 지정된 인덱스의 요소를 반환합니다. |
+| [idx_set](./idx_set/) | 지정된 인덱스의 요소를 반환합니다. |
+| [Remove](./remove/) | 이 컬렉션에서 WorkingTime 인스턴스를 제거합니다. |
+| [ToList](./tolist/) | WorkingTimeCollection 객체를 WorkingTime 객체 목록으로 변환합니다. |
+| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/) | 컬렉션의 const 한정 인스턴스에서 첫 번째 요소(있는 경우)를 가리키는 반복자를 가져옵니다. |
+| [virtualizeBeginIterator](./virtualizebeginiterator/) | 컬렉션의 첫 번째 요소(있는 경우)를 가리키는 반복자를 가져옵니다. |
+| [virtualizeEndConstIterator](./virtualizeendconstiterator/) | 컬렉션의 const 한정 인스턴스에서 마지막 요소(있는 경우) 바로 다음을 가리키는 반복자를 가져옵니다. |
+| [virtualizeEndIterator](./virtualizeenditerator/) | 컬렉션의 마지막 요소(있는 경우) 바로 다음을 가리키는 반복자를 가져옵니다. |
+
