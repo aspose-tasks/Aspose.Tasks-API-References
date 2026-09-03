@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::ResourceAssignment::set_Cost método"
+linktitle: "set_Cost"
+articleTitle: "set_Cost"
+second_title: "Aspose.Tasks for C++"
+description: "Establece un valor de Cost."
+type: docs
+weight: 930
+url: /es/cpp/aspose.tasks/resourceassignment/set_cost/
+---
+
+## set_Cost {#set_cost}
+
+Establece un valor de Cost.
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_Cost(System::Decimal value)
+```
+
+| Parámetro | Descripción |
+| --- | --- |
+| valor |  |
+
