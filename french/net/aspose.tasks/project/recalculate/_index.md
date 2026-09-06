@@ -1,43 +1,83 @@
 ---
-title: Project.Recalculate
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project méthode. Replanifie tous les identifiants de tâches du projet les niveaux hiérarchiques les dates de début/fin définit les dates anticipées/tardives calcule les marges les champs de travail et de coût.
+title: "Project.Recalculate"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode du projet. Replanifie toutes les tâches du projet, les identifiants, les niveaux de contour, les dates de début/fin, définit les dates anticipées/retardées, calcule les marges, le travail et les champs de coût."
 type: docs
-weight: 1120
+weight: 1150
 url: /fr/net/aspose.tasks/project/recalculate/
 ---
 ## Recalculate() {#recalculate}
 
-Replanifie tous les identifiants de tâches du projet, les niveaux hiérarchiques, les dates de début/fin, définit les dates anticipées/tardives, calcule les marges, les champs de travail et de coût.
+Replanifie les identifiants, les niveaux d’outline, les dates de début/fin de toutes les tâches du projet, définit les dates anticipées/retardées, calcule les marges, le travail et les champs de coût.
 
 ```csharp
 public void Recalculate()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment replanifier le projet à partir de la date de début au lieu de la date de fin.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.ScheduleFromStart, true);
+project.Set(Prj.StartDate, new DateTime(2014, 1, 1));
+
+// Désormais, toutes les dates des tâches (Start, Finish, EarlyStart, EarlyFinish, LateStart, LateFinish) sont calculées. Pour obtenir le chemin critique, nous devons calculer les marges (peut être invoqué dans un thread séparé, mais uniquement après le calcul de toutes les dates anticipées/retardées).
+project.Recalculate();
+
+foreach (var task in project.CriticalPath)
+{
+    Console.WriteLine(task.Get(Tsk.Id));
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Recalculate(bool) {#recalculate_1}
 
-Replanifie tous les identifiants de tâches du projet, les niveaux hiérarchiques, les dates de début/fin, définit les dates anticipées/tardives, calcule les marges, les champs de travail et de coût avec validation facultative.
+Replanifie les identifiants, les niveaux d’outline, les dates de début/fin de toutes les tâches du projet, définit les dates anticipées/retardées, calcule les marges, le travail et les champs de coût avec une validation facultative.
 
 ```csharp
 public void Recalculate(bool validate)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| validate | Boolean | Si vrai, la validation du recalcul sera effectuée. Quelles données sont validées : Pour le moment, seule la validation de base des plages de dates des tâches et des liens de tâches est implémentée. Les plages de dates de la tâche (par exemple, ActualStart - ActualFinish, EarlyStart - EarlyFinish, etc. ) ainsi que les dates des liens de tâche seront vérifiées par rapport aux critères de date selon lesquels la date de début est inférieure ou égale à la date de fin. Si l'une des conditions décrites ci-dessus échoue, alors[`RecalculationValidationException`](../../recalculationvalidationexception/)sera lancé. |
+| validate | Boolean | Si vrai, la validation du recalcul sera effectuée. Quelles données sont validées : pour le moment, seule la validation de base des intervalles de dates des tâches et des liaisons de tâches est implémentée. Les intervalles de dates des tâches (par ex. ActualStart - ActualFinish, EarlyStart - EarlyFinish, etc.) ainsi que les dates des liaisons de tâches seront vérifiés selon le critère selon lequel la date de début doit être inférieure ou égale à la date de fin. Si l’une des conditions décrites ci‑dessus échoue, alors [`RecalculationValidationException`](../../recalculationvalidationexception/) sera levée. |
 
-### Voir également
+## Exemples
+
+Montre comment recalculer le projet avec une validation postérieure.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("t1");
+task.Set(Tsk.CommitmentStart, new DateTime(2017, 6, 19, 8, 0, 0));
+task.Set(Tsk.CommitmentFinish, new DateTime(2017, 6, 18, 17, 0, 0));
+
+try
+{
+    // recalculer le projet avec une validation postérieure
+    project.Recalculate(true);
+}
+catch (TaskValidationException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

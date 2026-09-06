@@ -1,28 +1,28 @@
 ---
-title: TaskBaselineCollection.Add
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskBaselineCollection méthode. Il sagit de limplémentation stub de la méthode Add dICollection qui ne lève que NotSupportedException
+title: "TaskBaselineCollection.Add"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode TaskBaselineCollection. Il s'agit de l'implémentation factice de la méthode Add de ICollections qui ne fait que lever NotSupportedException"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks/taskbaselinecollection/add/
 ---
 ## TaskBaselineCollection.Add method
 
-Il s'agit de l'implémentation stub de la méthode Add d'ICollection, qui ne lève que NotSupportedException
+Ceci est l'implémentation factice de la méthode Add de ICollection, qui ne lance que NotSupportedException
 
 ```csharp
 public void Add(TaskBaseline item)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| item | TaskBaseline | L'élément à ajouter. |
+| élément | TaskBaseline | L'élément à ajouter. |
 
-### Voir également
+### Voir aussi
 
 * class [TaskBaseline](../../taskbaseline/)
 * class [TaskBaselineCollection](../)
-* espace de noms [Aspose.Tasks](../../taskbaselinecollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Prj.BaselineForEarnedValue
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. La ligne de base spécifique utilisée pour calculer les valeurs de variance.
+title: "Prj.BaselineForEarnedValue"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. La ligne de base spécifique utilisée pour calculer les valeurs de variance"
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.tasks/prj/baselineforearnedvalue/
 ---
 ## Prj.BaselineForEarnedValue field
@@ -14,13 +14,25 @@ La ligne de base spécifique utilisée pour calculer les valeurs de variance.
 public static readonly Key<BaselineType, PrjKey> BaselineForEarnedValue;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.BaselineForEarnedValue.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.BaselineForEarnedValue, BaselineType.Baseline);
+
+Console.WriteLine("Baseline For Earned Value: " + project.Get(Prj.BaselineForEarnedValue));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [BaselineType](../../baselinetype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

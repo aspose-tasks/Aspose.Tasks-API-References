@@ -1,9 +1,9 @@
 ---
-title: Project.Category
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de Category.
+title: "Project.Category"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Project. Obtient ou définit une valeur de Category"
 type: docs
-weight: 130
+weight: 140
 url: /fr/net/aspose.tasks/project/category/
 ---
 ## Project.Category property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Category.
 public string Category { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

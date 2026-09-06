@@ -1,26 +1,40 @@
 ---
-title: Tsk.StartVariance
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Heure qui représente la différence entre une date de début planifiée dune tâche ou dune affectation et sa date de début actuellement planifiée.
+title: "Tsk.StartVariance"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Le temps qui représente la différence entre la date de début de référence d’une tâche ou d’une affectation et sa date de début actuellement planifiée."
 type: docs
-weight: 1060
+weight: 1040
 url: /fr/net/aspose.tasks/tsk/startvariance/
 ---
 ## Tsk.StartVariance field
 
-Heure qui représente la différence entre une date de début planifiée d'une tâche ou d'une affectation et sa date de début actuellement planifiée.
+Le temps qui représente la différence entre la date de début de référence d'une tâche ou d'une affectation et sa date de début actuellement planifiée.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> StartVariance;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.StartVariance.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StartVariance, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Start Variance: " + task.Get(Tsk.StartVariance));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

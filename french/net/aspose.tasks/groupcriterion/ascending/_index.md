@@ -1,7 +1,7 @@
 ---
-title: GroupCriterion.Ascending
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: GroupCriterion propriété. Obtient ou définit une valeur indiquant si un champ utilisé comme critère dans une définition de groupe est trié par ordre croissant. Faux si le champ est trié par ordre décroissant.
+title: "GroupCriterion.Ascending"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété GroupCriterion. Obtient ou définit une valeur indiquant si un champ utilisé comme critère dans une définition de groupe est trié par ordre croissant. False si le champ est trié par ordre décroissant."
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/groupcriterion/ascending/
@@ -14,10 +14,41 @@ Obtient ou définit une valeur indiquant si un champ utilisé comme critère dan
 public bool Ascending { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les propriétés d'un critère de groupe.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var group = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Name: " + group.Name);
+Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
+
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+var criterion = group.GroupCriteria.ToList()[0];
+Console.WriteLine("Task Criterion Field: " + criterion.Field);
+Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
+Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
+Console.WriteLine("Task Criterion Font Color: " + criterion.FontColor);
+Console.WriteLine("Task Criterion Group Interval: " + criterion.GroupInterval);
+Console.WriteLine("Task Criterion Start At: " + criterion.StartAt);
+
+// lire le motif de fond du critère  
+Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
+
+Console.WriteLine("\n*********** Retrieving Criterion's Font Information ***********");
+Console.WriteLine("Font Name: " + criterion.Font.FontFamily);
+Console.WriteLine("Font Size: " + criterion.Font.Size);
+Console.WriteLine("Font Style: " + criterion.Font.Style);
+Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
+```
+
+### Voir aussi
 
 * class [GroupCriterion](../)
-* espace de noms [Aspose.Tasks](../../groupcriterion/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ReadOnlyCollectionBase1.Item
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ReadOnlyCollectionBase propriété. Renvoie lélément à lindex spécifié.
+title: "ReadOnlyCollectionBase1.Item"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ReadOnlyCollectionBase. Retourne l'élément à l'index spécifié"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/readonlycollectionbase-1/item/
@@ -14,18 +14,18 @@ Renvoie l'élément à l'index spécifié.
 public T this[int index] { get; set; }
 ```
 
-| Paramètre | La description |
+| Paramètre | Description |
 | --- | --- |
-| index | Index de base zéro de l'élément à obtenir. |
+| index | L'index basé sur zéro de l'élément à obtenir. |
 
-### Return_Value
+### Valeur de retour
 
 l'élément à l'index spécifié.
 
-### Voir également
+### Voir aussi
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* espace de noms [Aspose.Tasks](../../readonlycollectionbase-1/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

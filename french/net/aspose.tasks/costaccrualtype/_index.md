@@ -1,14 +1,14 @@
 ---
-title: Enum CostAccrualType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.CostAccrualType énumération. Spécifie le type dun coût de régularisation.
+title: "Enum CostAccrualType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.CostAccrualType enum. Spécifie le type d'un coût d'accumulation"
 type: docs
 weight: 350
 url: /fr/net/aspose.tasks/costaccrualtype/
 ---
 ## CostAccrualType enumeration
 
-Spécifie le type d'un coût de régularisation.
+Spécifie le type d’un coût d’accumulation.
 
 ```csharp
 public enum CostAccrualType
@@ -16,21 +16,34 @@ public enum CostAccrualType
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| Undefined | `-1` | Indique qu'une valeur indéfinie signifie que le champ n'a pas été défini dans le fichier de projet d'origine. |
-| Start | `0` | Indique le type d'accumulation des coûts de démarrage. |
-| Prorated | `1` | Indique le type d'accumulation des coûts au prorata. |
-| End | `2` | Indique le type de cumul des coûts de fin. |
-| Invalid | `3` | Indique un type de cumul des coûts non valide. |
+| Undefined | `-1` | Indique que la valeur indéfinie signifie que le champ n'était pas défini dans le fichier de projet original. |
+| Start | `0` | Indique le type d'accumulation de coût Start. |
+| Prorated | `1` | Indique le type d'accumulation de coût Prorated. |
+| End | `2` | Indique le type d'accumulation de coût End. |
+| Invalid | `3` | Indique le type d'accumulation de coût Invalid. |
 
-### Remarques
+## Remarques
 
-Lors de l'exportation en XML, les valeurs non définies seront éliminées du XML résultant.
+Lors de l'exportation vers XML, les valeurs Undefined seront éliminées du XML résultant.
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment et quand les coûts standard et supplémentaires des ressources doivent être facturés ou accumulés (méthode d'accumulation : Détermine quand le coût d'une ressource est engagé et quand les coûts réels sont facturés à un projet. Vous pouvez engager les coûts au début [Start] ou à la fin [End] d'une tâche ou les proratiser [Prorated] pendant la tâche.), au coût d'une tâche (CostAccrualType.End).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+// définir le type d'accumulation de coût
+// si vous sélectionnez l'option End, les coûts ne sont pas accumulés tant que le travail restant n'est pas nul.
+resource.Set(Rsc.AccrueAt, CostAccrualType.End);
+// travailler avec le projet...
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

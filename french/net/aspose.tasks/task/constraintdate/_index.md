@@ -1,7 +1,7 @@
 ---
-title: Task.ConstraintDate
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de ConstraintDate.
+title: "Task.ConstraintDate"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de ConstraintDate"
 type: docs
 weight: 230
 url: /fr/net/aspose.tasks/task/constraintdate/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de ConstraintDate.
 public DateTime ConstraintDate { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

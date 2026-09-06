@@ -1,7 +1,7 @@
 ---
-title: FontDescriptor.Style
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: FontDescriptor propriété. Obtient le style de la police.
+title: "FontDescriptor.Style"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété FontDescriptor. Obtient le style de la police."
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks.visualization/fontdescriptor/style/
@@ -14,11 +14,11 @@ Obtient le style de la police.
 public FontStyles Style { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* espace de noms [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

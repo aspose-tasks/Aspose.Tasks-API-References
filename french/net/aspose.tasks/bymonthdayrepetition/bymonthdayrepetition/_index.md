@@ -1,23 +1,48 @@
 ---
-title: ByMonthDayRepetition.ByMonthDayRepetition
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ByMonthDayRepetition constructeur. Initialise une nouvelle instance duByMonthDayRepetition classe.
+title: "ByMonthDayRepetition.ByMonthDayRepetition"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur ByMonthDayRepetition. Initialise une nouvelle instance de la classe ByMonthDayRepetition"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/bymonthdayrepetition/bymonthdayrepetition/
 ---
 ## ByMonthDayRepetition constructor
 
-Initialise une nouvelle instance du[`ByMonthDayRepetition`](../) classe.
+Initialise une nouvelle instance de la classe [`ByMonthDayRepetition`](../).
 
 ```csharp
 public ByMonthDayRepetition()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les répétitions de jour du mois lors de la création de nouvelles tâches récurrentes.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new MonthlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByMonthDayRepetition { DayPosition = 1, RepetitionInterval = 2 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 9, 30, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Voir aussi
 
 * class [ByMonthDayRepetition](../)
-* espace de noms [Aspose.Tasks](../../bymonthdayrepetition/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../bymonthdayrepetition/)
+* assembly [Aspose.Tasks](../../../)
 
 

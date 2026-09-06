@@ -1,26 +1,38 @@
 ---
-title: Prj.MoveRemainingStartsForward
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Détermine si le début des parties restantes des tâches planifiées pour avoir commencé plus tard doit être déplacé jusquà la date détat.
+title: "Prj.MoveRemainingStartsForward"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Détermine si le début des parties restantes des tâches prévues pour commencer plus tard doit être avancé à la date d'état"
 type: docs
-weight: 510
+weight: 520
 url: /fr/net/aspose.tasks/prj/moveremainingstartsforward/
 ---
 ## Prj.MoveRemainingStartsForward field
 
-Détermine si le début des parties restantes des tâches planifiées pour avoir commencé plus tard doit être déplacé jusqu'à la date d'état.
+Détermine si le début des parties restantes des tâches planifiées pour avoir commencé plus tard doit être avancé jusqu'à la date d'état.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsForward;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.MoveRemainingStartsForward.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveRemainingStartsForward, true);
+
+Console.WriteLine("Move Remaining Starts Forward: " + project.Get(Prj.MoveRemainingStartsForward));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: CsvOptions.DataCategory
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CsvOptions propriété. Obtient ou définit une catégorie de données à enregistrer.
+title: "CsvOptions.DataCategory"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété CsvOptions. Obtient ou définit une catégorie de données à enregistrer"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks.saving/csvoptions/datacategory/
@@ -14,11 +14,27 @@ Obtient ou définit une catégorie de données à enregistrer.
 public DataCategory DataCategory { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment utiliser &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; pour enregistrer un projet au format CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### Voir aussi
 
 * enum [DataCategory](../../datacategory/)
 * class [CsvOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../csvoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../csvoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

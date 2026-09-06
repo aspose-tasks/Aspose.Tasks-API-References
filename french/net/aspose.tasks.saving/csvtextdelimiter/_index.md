@@ -1,9 +1,9 @@
 ---
-title: Enum CsvTextDelimiter
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.Saving.CsvTextDelimiter énumération. Délimiteur de texte pour le format CSV.
+title: "Énumération CsvTextDelimiter"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Énumération Aspose.Tasks.Saving.CsvTextDelimiter. Délimiteur de texte pour le format CSV"
 type: docs
-weight: 1730
+weight: 1990
 url: /fr/net/aspose.tasks.saving/csvtextdelimiter/
 ---
 ## CsvTextDelimiter enumeration
@@ -16,16 +16,32 @@ public enum CsvTextDelimiter
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| Comma | `0` | Séparateur virgule. |
+| Comma | `0` | Délimiteur virgule. |
 | Semicolon | `1` | Délimiteur point-virgule. |
-| Space | `2` | Délimiteur d'espace. |
-| Tab | `3` | Délimiteur de tabulation. |
+| Space | `2` | Délimiteur espace. |
+| Tab | `3` | Délimiteur tabulation. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment utiliser &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; pour enregistrer un projet au format CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

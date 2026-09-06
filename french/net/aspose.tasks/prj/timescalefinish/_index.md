@@ -1,9 +1,9 @@
 ---
-title: Prj.TimescaleFinish
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. La date à laquelle léchelle de temps dans la vue se termine.
+title: "Prj.TimescaleFinish"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. La date à laquelle l’échelle de temps dans la vue se termine"
 type: docs
-weight: 720
+weight: 730
 url: /fr/net/aspose.tasks/prj/timescalefinish/
 ---
 ## Prj.TimescaleFinish field
@@ -14,12 +14,24 @@ La date à laquelle l'échelle de temps dans la vue se termine.
 public static readonly Key<DateTime, PrjKey> TimescaleFinish;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.TimescaleFinish.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.TimescaleFinish, new DateTime(2020, 4, 10, 9, 0, 0));
+
+Console.WriteLine("Timescale Finish: " + project.Get(Prj.TimescaleFinish));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

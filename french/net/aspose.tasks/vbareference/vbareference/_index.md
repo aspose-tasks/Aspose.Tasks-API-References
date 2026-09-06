@@ -1,23 +1,23 @@
 ---
-title: VbaReference.VbaReference
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VbaReference constructeur. Default_Constructor
+title: "VbaReference.VbaReference"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur VbaReference. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/vbareference/vbareference/
 ---
 ## VbaReference constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public VbaReference()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [VbaReference](../)
-* espace de noms [Aspose.Tasks](../../vbareference/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Gridlines.Gridlines
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Gridlines constructeur. Default_Constructor
+title: "Gridlines.Gridlines"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur Gridlines. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.visualization/gridlines/gridlines/
 ---
 ## Gridlines constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public Gridlines()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Gridlines](../)
-* espace de noms [Aspose.Tasks.Visualization](../../gridlines/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridlines/)
+* assembly [Aspose.Tasks](../../../)
 
 

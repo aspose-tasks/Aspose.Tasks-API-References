@@ -1,38 +1,56 @@
 ---
-title: CalendarCollection.Remove
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CalendarCollection méthode. Supprime le calendrier de Project CalendarCollection.
+title: "CalendarCollection.Remove"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode CalendarCollection. Supprime le calendrier du CalendarCollection du projet"
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/calendarcollection/remove/
 ---
 ## CalendarCollection.Remove method
 
-Supprime le calendrier de Project CalendarCollection.
+Supprime Calendar du CalendarCollection du projet.
 
 ```csharp
 public bool Remove(Calendar item)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| item | Calendar | Le calendrier à supprimer. |
+| élément | Calendar | Le calendrier à supprimer. |
 
-### Return_Value
+### Valeur de retour
 
-Si supprimé, renvoie vrai, sinon renvoie faux.
+Si supprimé, renvoie true, sinon renvoie false.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Levée lorsque le calendrier ne peut pas être supprimé. |
+| InvalidOperationException | Lancée lorsque le calendrier ne peut pas être supprimé. |
 
-### Voir également
+## Exemples
+
+Montre comment remplacer un calendrier dans la collection.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendar = project.Calendars.GetByName("TestCalendar");
+if (calendar != null)
+{
+    project.Calendars.Remove(calendar);
+}
+
+// ajouter un nouveau calendrier
+project.Calendars.Add("New Calendar");
+project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Voir aussi
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* espace de noms [Aspose.Tasks](../../calendarcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

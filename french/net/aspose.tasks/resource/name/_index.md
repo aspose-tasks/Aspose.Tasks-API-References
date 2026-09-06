@@ -1,7 +1,7 @@
 ---
-title: Resource.Name
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de Name.
+title: "Resource.Name"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de Name"
 type: docs
 weight: 510
 url: /fr/net/aspose.tasks/resource/name/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Name.
 public string Name { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

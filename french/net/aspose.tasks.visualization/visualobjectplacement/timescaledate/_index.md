@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.TimescaleDate
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VisualObjectPlacement propriété. Obtient ou définit le placement de la date de lobjet visuel lorsque les options Attacher à léchelle de temps sont sélectionnées.
+title: "VisualObjectPlacement.TimescaleDate"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété VisualObjectPlacement. Obtient ou définit le placement de la date de l'objet visuel lorsque l'option Attacher à l'échelle de temps est sélectionnée"
 type: docs
 weight: 110
 url: /fr/net/aspose.tasks.visualization/visualobjectplacement/timescaledate/
 ---
 ## VisualObjectPlacement.TimescaleDate property
 
-Obtient ou définit le placement de la date de l'objet visuel lorsque les options "Attacher à l'échelle de temps" sont sélectionnées.
+Obtient ou définit la date de placement de l'objet visuel lorsque l'option « Attach to timescale » est sélectionnée.
 
 ```csharp
 public DateTime TimescaleDate { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [VisualObjectPlacement](../)
-* espace de noms [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

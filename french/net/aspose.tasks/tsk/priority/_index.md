@@ -1,25 +1,42 @@
 ---
-title: Tsk.Priority
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Le niveau dimportance accordé à une tâche qui à son tour indique la facilité avec laquelle une tâche ou une affectation peut être retardée ou fractionnée pendant le nivellement des ressources.
+title: "Tsk.Priority"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Le niveau d'importance attribué à une tâche, qui indique à quel point une tâche ou une affectation peut être retardée ou divisée lors du nivellement des ressources."
 type: docs
-weight: 950
+weight: 930
 url: /fr/net/aspose.tasks/tsk/priority/
 ---
 ## Tsk.Priority field
 
-Le niveau d'importance accordé à une tâche, qui à son tour indique la facilité avec laquelle une tâche ou une affectation peut être retardée ou fractionnée pendant le nivellement des ressources.
+Le niveau d’importance attribué à une tâche, qui indique à son tour dans quelle mesure une tâche ou une affectation peut être retardée ou divisée lors du nivellement des ressources.
 
 ```csharp
 public static readonly Key<int, TaskKey> Priority;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire la priorité d'une tâche.
+
+```csharp
+var project = new Project(DataDir + "TaskPriority.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Afficher les priorités pour toutes les tâches
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name) + " - Priority : " + task.Get(Tsk.Priority));
+}
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

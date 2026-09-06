@@ -1,23 +1,40 @@
 ---
-title: ChildTasksCollector.ChildTasksCollector
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ChildTasksCollector constructeur. Initialise une nouvelle instance duChildTasksCollector classe.
+title: "ChildTasksCollector.ChildTasksCollector"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur ChildTasksCollector. Initialise une nouvelle instance de la classe ChildTasksCollector"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.util/childtaskscollector/childtaskscollector/
 ---
 ## ChildTasksCollector constructor
 
-Initialise une nouvelle instance du[`ChildTasksCollector`](../) classe.
+Initialise une nouvelle instance de la classe [`ChildTasksCollector`](../).
 
 ```csharp
 public ChildTasksCollector()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment itérer sur toutes les tâches d'un projet sous forme de liste simple.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analyser toutes les tâches collectées
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### Voir aussi
 
 * class [ChildTasksCollector](../)
-* espace de noms [Aspose.Tasks.Util](../../childtaskscollector/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../childtaskscollector/)
+* assembly [Aspose.Tasks](../../../)
 
 

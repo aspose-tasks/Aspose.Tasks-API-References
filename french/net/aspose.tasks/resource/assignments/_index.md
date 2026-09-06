@@ -1,7 +1,7 @@
 ---
-title: Resource.Assignments
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient une collection daffectations de ressources pour cet objet.
+title: "Resource.Assignments"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient une collection d'affectations de ressources pour cet objet"
 type: docs
 weight: 120
 url: /fr/net/aspose.tasks/resource/assignments/
@@ -14,11 +14,28 @@ Obtient une collection d'affectations de ressources pour cet objet.
 public ResourceAssignmentCollection Assignments { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les affectations d'une ressource.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+foreach (var resource in project.Resources)
+{
+    foreach (var assignment in resource.Assignments)
+    {
+        Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+        Console.WriteLine("Assignment's task name: " + assignment.Get(Asn.Task).Get(Tsk.Name));
+    }
+}
+```
+
+### Voir aussi
 
 * class [ResourceAssignmentCollection](../../resourceassignmentcollection/)
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

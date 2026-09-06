@@ -1,7 +1,7 @@
 ---
-title: Resource.MaxUnits
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de MaxUnits.
+title: "Resource.MaxUnits"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de MaxUnits"
 type: docs
 weight: 500
 url: /fr/net/aspose.tasks/resource/maxunits/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de MaxUnits.
 public double MaxUnits { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

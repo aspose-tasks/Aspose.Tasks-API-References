@@ -1,23 +1,49 @@
 ---
-title: UsageView.DisplayShortDetailHeaderNames
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: UsageView propriété. Obtient ou définit une valeur indiquant sil faut afficher ou non les noms dentête de détail courts.
+title: "UsageView.DisplayShortDetailHeaderNames"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "UsageView propriété. Obtient ou définit une valeur indiquant s'il faut afficher les noms d'en-tête détaillés courts ou non"
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks/usageview/displayshortdetailheadernames/
 ---
 ## UsageView.DisplayShortDetailHeaderNames property
 
-Obtient ou définit une valeur indiquant s'il faut afficher ou non les noms d'en-tête de détail courts.
+Obtient ou définit une valeur indiquant s’il faut afficher les noms d’en-tête de détail courts ou non.
 
 ```csharp
 public bool DisplayShortDetailHeaderNames { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment rendre la vue d’utilisation des tâches avec les détails.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageViewWithDetails.mpp");
+
+// obtenir la vue
+UsageView view = (TaskUsageView)project.DefaultView;
+
+// la colonne d’en-tête de détail ne sera pas affichée
+view.DisplayDetailsHeaderColumn = false;
+view.RepeatDetailsHeaderOnAllRows = false;
+view.DisplayShortDetailHeaderNames = false;
+view.AlignDetailsData = HorizontalStringAlignment.Near;
+project.Save(OutDir + "task usage1_out.pdf", SaveFileFormat.Pdf);
+
+// afficher la colonne d’en-tête de détail
+view.DisplayDetailsHeaderColumn = true;
+
+// répéter l’en-tête de détail sur toutes les lignes d’affectations
+view.RepeatDetailsHeaderOnAllRows = true;
+view.AlignDetailsData = HorizontalStringAlignment.Far;
+project.Save(OutDir + "task usage2_out.pdf", SaveFileFormat.Pdf);
+```
+
+### Voir aussi
 
 * class [UsageView](../)
-* espace de noms [Aspose.Tasks](../../usageview/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../usageview/)
+* assembly [Aspose.Tasks](../../../)
 
 

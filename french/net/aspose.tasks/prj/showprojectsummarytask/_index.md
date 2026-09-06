@@ -1,25 +1,37 @@
 ---
-title: Prj.ShowProjectSummaryTask
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Détermine sil faut afficher des informations récapitulatives sur un projet entier sur une seule ligne avec sa propre barre de tâche récapitulative en haut de la vue Diagramme de Gantt.
+title: "Prj.ShowProjectSummaryTask"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Détermine s'il faut afficher les informations récapitulatives d'un projet complet sur une seule ligne avec sa propre barre de tâche récapitulative en haut de la vue du diagramme de Gantt"
 type: docs
-weight: 630
+weight: 640
 url: /fr/net/aspose.tasks/prj/showprojectsummarytask/
 ---
 ## Prj.ShowProjectSummaryTask field
 
-Détermine s'il faut afficher des informations récapitulatives sur un projet entier sur une seule ligne avec sa propre barre de tâche récapitulative en haut de la vue Diagramme de Gantt.
+Détermine si les informations récapitulatives d'un projet complet doivent être affichées sur une seule ligne avec sa propre barre de tâche récapitulative en haut de la vue du diagramme de Gantt.
 
 ```csharp
 public static readonly Key<bool, PrjKey> ShowProjectSummaryTask;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.ShowProjectSummaryTask.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ShowProjectSummaryTask, true);
+
+Console.WriteLine("Show Project Summary Task: " + project.Get(Prj.ShowProjectSummaryTask));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

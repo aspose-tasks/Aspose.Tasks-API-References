@@ -1,9 +1,9 @@
 ---
-title: Project.MinutesPerDay
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de MinutesPerDay.
+title: "Project.MinutesPerDay"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Project. Obtient ou définit une valeur de MinutesPerDay"
 type: docs
-weight: 560
+weight: 580
 url: /fr/net/aspose.tasks/project/minutesperday/
 ---
 ## Project.MinutesPerDay property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de MinutesPerDay.
 public int MinutesPerDay { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

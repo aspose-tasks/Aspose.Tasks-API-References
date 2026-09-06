@@ -1,14 +1,14 @@
 ---
-title: Class RateCollection
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.RateCollection classe. Représente une collection qui contientRate objets.
+title: "Classe RateCollection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.RateCollection class. Représente une collection qui contient des objets Rate"
 type: docs
-weight: 1380
+weight: 1630
 url: /fr/net/aspose.tasks/ratecollection/
 ---
 ## RateCollection class
 
-Représente une collection qui contient[`Rate`](../rate/) objets.
+Représente une collection qui contient des objets [`Rate`](../rate/).
 
 ```csharp
 public class RateCollection : IDictionary<RateType, RateByDateCollection>
@@ -16,29 +16,95 @@ public class RateCollection : IDictionary<RateType, RateByDateCollection>
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Count](../../aspose.tasks/ratecollection/count/) { get; } | Obtient le nombre d'éléments contenus dans RateCollection. |
+| [Count](../../aspose.tasks/ratecollection/count/) { get; } | Obtient le nombre d'éléments contenus dans le RateCollection. |
 | [IsReadOnly](../../aspose.tasks/ratecollection/isreadonly/) { get; } | Obtient une valeur indiquant si cette collection est en lecture seule. |
 | [Item](../../aspose.tasks/ratecollection/item/) { get; set; } | Renvoie ou définit l'élément à l'index spécifié. |
-| [ParentResource](../../aspose.tasks/ratecollection/parentresource/) { get; } | Obtient le parent[`Resource`](../resource/) objet pour cette collection. |
+| [ParentResource](../../aspose.tasks/ratecollection/parentresource/) { get; } | Obtient l'objet parent [`Resource`](../resource/) de cette collection. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/ratecollection/add/#add)(DateTime) | Ajoute un nouveau[`Rate`](../rate/) instance à cette collection. |
-| [Add](../../aspose.tasks/ratecollection/add/#add_1)(DateTime, RateType) | Ajoute un nouveau[`Rate`](../rate/) instance à cette collection. |
+| [Add](../../aspose.tasks/ratecollection/add/#add)(DateTime) | Ajoute une nouvelle instance [`Rate`](../rate/) à cette collection. |
+| [Add](../../aspose.tasks/ratecollection/add/#add_1)(DateTime, RateType) | Ajoute une nouvelle instance [`Rate`](../rate/) à cette collection. |
 | [GetEnumerator](../../aspose.tasks/ratecollection/getenumerator/)() | Renvoie un énumérateur pour cette collection. |
 | [Remove](../../aspose.tasks/ratecollection/remove/)(Rate) | Supprime l'instance Rate de cette collection. |
-| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist)() | Convertit le`RateCollection` s'opposer à une liste de[`Rate`](../rate/) objets. |
-| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist_1)(RateType) | Convertit le`RateCollection` s'opposer à une liste de[`Rate`](../rate/) objets filtrés par spécifié[`RateType`](../ratetype/) tapez. |
+| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist)() | Convertit l'objet `RateCollection` en une liste d'objets [`Rate`](../rate/). |
+| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist_1)(RateType) | Convertit l'objet `RateCollection` en une liste d'objets [`Rate`](../rate/) filtrés par le type [`RateType`](../ratetype/) spécifié. |
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les collections de taux.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Test Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0), RateType.B);
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+
+Console.WriteLine("Print rates of '{0}' resource: ", resource.Rates.ParentResource.Get(Rsc.Name));
+Console.WriteLine("Count of rates: {0}", resource.Rates.Count);
+Console.WriteLine("Is rate collection read-only: {0}", resource.Rates.IsReadOnly);
+foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Rates)
+{
+    foreach (KeyValuePair<DateTime, Rate> pair in sortedRates.Value)
+    {
+        var rate = pair.Value;
+        Console.WriteLine("Rates From: " + rate.RatesFrom);
+        Console.WriteLine("Rates To: " + rate.RatesTo);
+        Console.WriteLine("Rate Table: " + rate.RateTable);
+        Console.WriteLine();
+    }
+}
+
+// obtenez le taux le plus récent par accès indexé
+var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
+rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
+Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
+Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
+
+// ...
+// travaillez avec les taux
+// ...
+
+// supprimez tous les taux de type A
+List<Rate> rates = resource.Rates.ToList(RateType.A);
+for (var i = 0; i < rates.Count; i++)
+{
+    var rateToRemove = rates[i];
+    resource.Rates.Remove(rateToRemove);
+}
+
+// transformez la collection de taux en une liste plate
+Console.WriteLine("Iterate over the rates after remove the A-typed values: ");
+List<Rate> list = resource.Rates.ToList();
+foreach (var rt in list)
+{
+    Console.WriteLine("Rates From: " + rt.RatesFrom);
+    Console.WriteLine("Rates To: " + rt.RatesTo);
+    Console.WriteLine("Rate Table: " + rt.RateTable);
+}
+```
+
+### Voir aussi
 
 * enum [RateType](../ratetype/)
 * class [RateByDateCollection](../ratebydatecollection/)
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

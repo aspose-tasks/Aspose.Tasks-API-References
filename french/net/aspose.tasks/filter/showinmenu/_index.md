@@ -1,23 +1,49 @@
 ---
-title: Filter.ShowInMenu
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Filter propriété. Obtient ou définit une valeur indiquant si le projet affiche le nom du filtre dans la liste déroulante Filtre de longlet Affichage du ruban.
+title: "Filter.ShowInMenu"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Filter propriété. Obtient ou définit une valeur indiquant si le projet affiche le nom du filtre dans la liste déroulante Filtre dans l'onglet Affichage du ruban"
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/filter/showinmenu/
 ---
 ## Filter.ShowInMenu property
 
-Obtient ou définit une valeur indiquant si le projet affiche le nom du filtre dans la liste déroulante Filtre de l'onglet Affichage du ruban.
+Obtient ou définit une valeur indiquant si le projet affiche le nom du filtre dans la liste déroulante Filter de l'onglet View du Ruban.
 
 ```csharp
 public bool ShowInMenu { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les filtres.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+Console.WriteLine("Task filters count: " + filters.Count);
+foreach (var filter in filters)
+{
+    Console.WriteLine("Uid: " + filter.Uid);
+    Console.WriteLine("Index: " + filter.Index);
+    Console.WriteLine("Name: " + filter.Name);
+    Console.WriteLine("Type: " + filter.FilterType);
+    Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
+}
+
+// vérifier les filtres de ressources
+List<Filter> resourceFilters = project.ResourceFilters.ToList();
+Console.WriteLine("Project.ResourceFilters count: " + resourceFilters.Count);
+Console.WriteLine("Resource Filter Item Type: Item.ResourceType: " + resourceFilters[0].FilterType);
+Console.WriteLine("Resource filter ShowInMenu" + resourceFilters[0].ShowInMenu);
+Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0].ShowRelatedSummaryRows);
+```
+
+### Voir aussi
 
 * class [Filter](../)
-* espace de noms [Aspose.Tasks](../../filter/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

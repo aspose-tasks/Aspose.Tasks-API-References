@@ -1,24 +1,35 @@
 ---
-title: ProjectFileInfo.ProjectApplicationInfo
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ProjectFileInfo propriété. Obtient les informations sur lapplication du fichier de projet.
+title: "ProjectFileInfo.ProjectApplicationInfo"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ProjectFileInfo. Obtient les informations d’application du fichier de projet"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks/projectfileinfo/projectapplicationinfo/
 ---
 ## ProjectFileInfo.ProjectApplicationInfo property
 
-Obtient les informations sur l'application du fichier de projet.
+Obtient les informations d'application du fichier de projet.
 
 ```csharp
 public ApplicationInfo ProjectApplicationInfo { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les informations du fichier de projet.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### Voir aussi
 
 * enum [ApplicationInfo](../../applicationinfo/)
 * class [ProjectFileInfo](../)
-* espace de noms [Aspose.Tasks](../../projectfileinfo/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

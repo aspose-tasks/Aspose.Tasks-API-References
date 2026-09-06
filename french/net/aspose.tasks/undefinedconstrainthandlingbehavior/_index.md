@@ -1,14 +1,14 @@
 ---
-title: Enum UndefinedConstraintHandlingBehavior
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.UndefinedConstraintHandlingBehavior énumération. Spécifie le comportement utilisé pour gérer les tâches avec des contraintes non définies.
+title: "Énumération UndefinedConstraintHandlingBehavior"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Énumération Aspose.Tasks.UndefinedConstraintHandlingBehavior. Spécifie le comportement utilisé pour gérer les tâches avec des contraintes non définies"
 type: docs
-weight: 2320
+weight: 2630
 url: /fr/net/aspose.tasks/undefinedconstrainthandlingbehavior/
 ---
 ## UndefinedConstraintHandlingBehavior enumeration
 
-Spécifie le comportement utilisé pour gérer les tâches avec des contraintes non définies.
+Spécifie le comportement utilisé pour gérer les tâches avec des contraintes indéfinies.
 
 ```csharp
 public enum UndefinedConstraintHandlingBehavior
@@ -16,14 +16,14 @@ public enum UndefinedConstraintHandlingBehavior
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| None | `0` | Le comportement par défaut pour le chargement à partir du format XER. Aucune action n'est entreprise. Un type de contrainte de tâche est défini sur 'ConstraintType.Undefined'. |
-| SubstituteWithStartNoEarlierThan | `1` | Les contraintes de type 'ConstraintType.StartNoEarlierThan' et date = Start sont ajoutées pour les tâches avec la contrainte 'Undefined'. |
+| None | `0` | Le comportement par défaut lors du chargement depuis le format XER. Aucune action n'est effectuée. Le type de contrainte d'une tâche est défini sur 'ConstraintType.Undefined'. |
+| SubstituteWithStartNoEarlierThan | `1` | Des contraintes de type 'ConstraintType.StartNoEarlierThan' et date = Start sont ajoutées pour les tâches avec la contrainte 'Undefined'. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

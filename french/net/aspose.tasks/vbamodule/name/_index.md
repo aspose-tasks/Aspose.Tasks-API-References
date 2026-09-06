@@ -1,21 +1,39 @@
 ---
-title: VbaModule.Name
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VbaModule propriété. 
+title: "VbaModule.Name"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété VbaModule. Obtient le nom du module VBA"
 type: docs
-weight: 20
+weight: 40
 url: /fr/net/aspose.tasks/vbamodule/name/
 ---
 ## VbaModule.Name property
 
+Obtient le nom du module VBA.
+
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les modules du projet VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### Voir aussi
 
 * class [VbaModule](../)
-* espace de noms [Aspose.Tasks](../../vbamodule/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamodule/)
+* assembly [Aspose.Tasks](../../../)
 
 

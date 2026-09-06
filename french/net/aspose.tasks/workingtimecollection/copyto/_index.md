@@ -1,29 +1,29 @@
 ---
-title: WorkingTimeCollection.CopyTo
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: WorkingTimeCollection méthode. copie le contenu dune collection dans un tableau en commençant à un index particulier
+title: "WorkingTimeCollection.CopyTo"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode WorkingTimeCollection. copie le contenu d'une collection dans un tableau à partir d'un indice particulier"
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/workingtimecollection/copyto/
 ---
 ## WorkingTimeCollection.CopyTo method
 
-copie le contenu d'une collection dans un tableau, en commençant à un index particulier
+Copie le contenu d'une collection dans un Array, en commençant à un indice particulier
 
 ```csharp
 public void CopyTo(WorkingTime[] array, int arrayIndex)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| array | WorkingTime[] | un tableau dans lequel copier. |
-| arrayIndex | Int32 | index de tableau de départ |
+| tableau | WorkingTime[] | un tableau dans lequel copier. |
+| arrayIndex | Int32 | indice de départ du tableau |
 
-### Voir également
+### Voir aussi
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* espace de noms [Aspose.Tasks](../../workingtimecollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

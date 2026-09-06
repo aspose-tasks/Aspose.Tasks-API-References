@@ -1,23 +1,70 @@
 ---
-title: ResourceCollection.Count
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceCollection propriété. Obtient le nombre déléments contenus dans la ResourceCollection.  Lecture seulementInt32.
+title: "ResourceCollection.Count"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ResourceCollection. Obtient le nombre d'éléments contenus dans le ResourceCollection. Int32 en lecture seule"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/resourcecollection/count/
 ---
 ## ResourceCollection.Count property
 
-Obtient le nombre d'éléments contenus dans la ResourceCollection.  Lecture seulementInt32.
+Obtient le nombre d'éléments contenus dans le ResourceCollection. Int32 en lecture seule.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec des collections de ressources.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// ajouter une ressource vide
+var resource = project.Resources.Add();
+resource.Set(Rsc.Type, ResourceType.Work);
+
+// ajouter une ressource avec un nom
+var developer = project.Resources.Add("Developer");
+developer.Set(Rsc.Type, ResourceType.Work);
+
+// ajouter une ressource avant la ressource avec l'ID spécifié
+var manager = project.Resources.Add("Manager", developer.Get(Rsc.Id));
+manager.Set(Rsc.Type, ResourceType.Work);
+
+var devResource = project.Resources.GetById(4);
+devResource.Set(Rsc.Code, "12345");
+
+var manResource = project.Resources.GetByUid(4);
+manResource.Set(Rsc.Code, "54321");
+
+// obtenir la ressource par ID
+project.Resources.GetById(1);
+
+Console.WriteLine("Print the resources of " + project.Resources.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Count of resources: " + project.Resources.Count);
+foreach (var rsc in project.Resources)
+{
+    Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
+}
+
+Console.WriteLine();
+
+// les collections de ressources ne prennent pas en charge l'opération Clear
+// project.Resources.Clear();
+// utilisez l'exemple de code suivant à la place
+List<Resource> list = project.Resources.ToList();
+foreach (var rsc in list)
+{
+    rsc.Delete();
+}
+```
+
+### Voir aussi
 
 * class [ResourceCollection](../)
-* espace de noms [Aspose.Tasks](../../resourcecollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

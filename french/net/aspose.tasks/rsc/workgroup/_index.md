@@ -1,26 +1,40 @@
 ---
-title: Rsc.Workgroup
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Rsc champ. Type de groupe de travail auquel appartient une ressource.
+title: "Rsc.Workgroup"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Rsc. Le type de groupe de travail auquel appartient une ressource"
 type: docs
-weight: 710
+weight: 700
 url: /fr/net/aspose.tasks/rsc/workgroup/
 ---
 ## Rsc.Workgroup field
 
-Type de groupe de travail auquel appartient une ressource.
+Le type d'un groupe de travail auquel appartient une ressource.
 
 ```csharp
 public static readonly Key<WorkGroupType, RscKey> Workgroup;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Rsc.Workgroup.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Workgroup, WorkGroupType.Email);
+
+Console.WriteLine("Workgroup: " + resource.Get(Rsc.Workgroup));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [WorkGroupType](../../workgrouptype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espace de noms [Aspose.Tasks](../../rsc/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

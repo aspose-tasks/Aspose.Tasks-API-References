@@ -1,24 +1,113 @@
 ---
-title: Project.TaskGroups
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient toutes les définitions de groupe basées sur les tâches. TaskGroups est une collection deGroup objets.
+title: "Project.TaskGroups"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Project property. Obtient toutes les définitions de groupes basées sur les tâches. TaskGroups est une collection d'objets Group."
 type: docs
-weight: 890
+weight: 920
 url: /fr/net/aspose.tasks/project/taskgroups/
 ---
 ## Project.TaskGroups property
 
-Obtient toutes les définitions de groupe basées sur les tâches. TaskGroups est une collection de[`Group`](../../group/) objets.
+Récupère toutes les définitions de groupes basés sur les tâches. TaskGroups est une collection d'objets [`Group`](../../group/).
 
 ```csharp
 public GroupCollection TaskGroups { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les groupes de tâches.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var taskGroup = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Name: " + taskGroup.Name);
+Console.WriteLine("Task Group Criteria count: " + taskGroup.GroupCriteria.Count);
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+var taskCriterion = taskGroup.GroupCriteria.ToList()[0];
+Console.WriteLine("Task Criterion Field: " + taskCriterion.Field);
+Console.WriteLine("Task Criterion GroupOn: " + taskCriterion.GroupOn);
+Console.WriteLine("Task Criterion Cell Color: " + taskCriterion.CellColor);
+Console.WriteLine("Task Criterion Pattern: " + taskCriterion.Pattern);
+
+Console.WriteLine("\n*********** Retrieving Criterion's Font Information ***********");
+Console.WriteLine("Font Name: " + taskCriterion.Font.FontFamily);
+Console.WriteLine("Font Size: " + taskCriterion.Font.Size);
+Console.WriteLine("Font Style: " + taskCriterion.Font.Style);
+Console.WriteLine("Ascending/Descending: " + taskCriterion.Ascending);
+```
+
+Montre comment ajouter des groupes à un projet.
+
+```csharp
+var p = new Project();
+
+{
+    var group = new Group();
+    group.Name = "My new task group";
+    group.MaintainHierarchy = true;
+    group.ShowSummary = true;
+
+    var criterion = new GroupCriterion();
+    criterion.Field = Field.TaskDuration1;
+    criterion.Font = new FontDescriptor("Comic Sans MS", 13F, FontStyles.Italic);
+    criterion.GroupOn = GroupOn.DurationMinutes;
+    criterion.StartAt = 5;
+    criterion.GroupInterval = 3D;
+    criterion.Pattern = BackgroundPattern.DarkDiagonalLeft;
+    group.GroupCriteria.Add(criterion);
+
+    var criterion2 = new GroupCriterion();
+    criterion2.Field = Field.TaskPercentComplete;
+    criterion2.Font = new FontDescriptor("Bodoni MT", 17, FontStyles.Italic | FontStyles.Bold);
+    criterion2.GroupOn = GroupOn.Pct199;
+    criterion2.Pattern = BackgroundPattern.LightDither;
+    criterion2.CellColor = Color.Green;
+    criterion2.FontColor = Color.Red;
+    group.GroupCriteria.Add(criterion2);
+    group.GroupAssignments = true;
+    p.TaskGroups.Add(group);
+}
+
+{
+    var group = new Group();
+    group.Name = "My new resource group";
+    group.MaintainHierarchy = true;
+    group.ShowSummary = true;
+
+    var criterion = new GroupCriterion();
+    criterion.Field = Field.ResourceDuration1;
+    criterion.Font = new FontDescriptor("Comic Sans MS", 11F, FontStyles.Bold);
+    criterion.GroupOn = GroupOn.DurationHours;
+    criterion.StartAt = 1;
+    criterion.GroupInterval = 2D;
+    criterion.Pattern = BackgroundPattern.DarkDiagonalLeft;
+    group.GroupCriteria.Add(criterion);
+
+    var criterion2 = new GroupCriterion();
+    criterion2.Field = Field.ResourceCost;
+    criterion2.Font = new FontDescriptor("Bodoni MT", 12, FontStyles.Italic | FontStyles.Bold);
+    criterion2.GroupOn = GroupOn.Interval;
+    criterion2.StartAt = 1D;
+    criterion2.GroupInterval = 10D;
+    criterion2.Pattern = BackgroundPattern.LightDither;
+    criterion2.CellColor = Color.Magenta;
+    criterion2.FontColor = Color.Red;
+    group.GroupCriteria.Add(criterion2);
+    group.GroupAssignments = true;
+    p.ResourceGroups.Add(group);
+}
+
+p.Save(OutDir + "output_CreateGroup.mpp", new MPPSaveOptions() { WriteGroups = true });
+```
+
+### Voir aussi
 
 * class [GroupCollection](../../groupcollection/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

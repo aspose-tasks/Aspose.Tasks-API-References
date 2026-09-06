@@ -1,7 +1,7 @@
 ---
-title: ResourceCollection.Item
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceCollection propriété. Renvoie lélément à lindex spécifié.
+title: "ResourceCollection.Item"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ResourceCollection. Retourne l'élément à l'index spécifié"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/resourcecollection/item/
@@ -14,19 +14,19 @@ Renvoie l'élément à l'index spécifié.
 public Resource this[int index] { get; set; }
 ```
 
-| Paramètre | La description |
+| Paramètre | Description |
 | --- | --- |
-| index | Index de base zéro de l'élément à obtenir. |
+| index | L'index basé sur zéro de l'élément à obtenir. |
 
-### Return_Value
+### Valeur de retour
 
 l'élément à l'index spécifié.
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* espace de noms [Aspose.Tasks](../../resourcecollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: BuildVersionInfo.FileVersion
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: BuildVersionInfo champ. Version du fichier.
+title: "BuildVersionInfo.FileVersion"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ BuildVersionInfo. Version du fichier"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks/buildversioninfo/fileversion/
@@ -14,10 +14,22 @@ Version du fichier.
 public static readonly string FileVersion;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les informations de version de construction d'Aspose.Tasks.
+
+```csharp
+// lire les informations communes sur la version actuelle d'Aspose.Tasks
+Console.WriteLine("Product: " + BuildVersionInfo.Product);
+Console.WriteLine("File Version: " + BuildVersionInfo.FileVersion);
+Console.WriteLine("Assembly Version: " + BuildVersionInfo.AssemblyVersion);
+Console.WriteLine("Assembly Informational Version: " + BuildVersionInfo.AssemblyInformationalVersion);
+```
+
+### Voir aussi
 
 * class [BuildVersionInfo](../)
-* espace de noms [Aspose.Tasks](../../buildversioninfo/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../buildversioninfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

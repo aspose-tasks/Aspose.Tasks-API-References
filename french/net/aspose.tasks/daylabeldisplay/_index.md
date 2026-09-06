@@ -1,7 +1,7 @@
 ---
-title: Enum DayLabelDisplay
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.DayLabelDisplay énumération. Spécifie comment létiquette du jour saffiche.
+title: "Enum DayLabelDisplay"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.DayLabelDisplay enum. Spécifie comment l'étiquette de jour s'affiche"
 type: docs
 weight: 440
 url: /fr/net/aspose.tasks/daylabeldisplay/
@@ -16,15 +16,29 @@ public enum DayLabelDisplay
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
 | D | `0` | Définit la liste des jours dans MS Project comme d. |
 | Dy | `1` | Définit la liste des jours dans MS Project comme dy. |
-| Day | `2` | Définit la liste des jours dans MS Project comme jour. |
+| Day | `2` | Définit la liste des jours dans MS Project comme day. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment définir l'étiquette de jour des options d'affichage du projet (cas 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// définir comment l'étiquette du jour s'affiche
+project.DisplayOptions.DayLabel = DayLabelDisplay.D;
+
+// ...
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

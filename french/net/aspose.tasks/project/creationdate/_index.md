@@ -1,9 +1,9 @@
 ---
-title: Project.CreationDate
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de CreationDate.
+title: "Project.CreationDate"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de CreationDate"
 type: docs
-weight: 160
+weight: 170
 url: /fr/net/aspose.tasks/project/creationdate/
 ---
 ## Project.CreationDate property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de CreationDate.
 public DateTime CreationDate { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

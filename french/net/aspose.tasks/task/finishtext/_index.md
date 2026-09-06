@@ -1,7 +1,7 @@
 ---
-title: Task.FinishText
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de FinishText.
+title: "Task.FinishText"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de FinishText"
 type: docs
 weight: 460
 url: /fr/net/aspose.tasks/task/finishtext/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de FinishText.
 public string FinishText { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

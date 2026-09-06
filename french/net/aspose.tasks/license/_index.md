@@ -1,35 +1,35 @@
 ---
-title: Class License
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.License classe. Fournit des méthodes pour autoriser le composant.
+title: "Classe License"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.License. Fournit des méthodes pour licencier le composant"
 type: docs
-weight: 860
+weight: 980
 url: /fr/net/aspose.tasks/license/
 ---
 ## License class
 
-Fournit des méthodes pour autoriser le composant.
+Fournit des méthodes pour licencier le composant.
 
 ```csharp
-public class License
+public sealed class License
 ```
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [License](license/)() | Initialise une nouvelle instance du`License` classe. |
+| [License](license/)() | Initialise une nouvelle instance de la classe `License`. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | Licence du composant. |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | Licence du composant. |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | Licence le composant. |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | Licence le composant. |
 
-### Exemples
+## Exemples
 
-Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic dans le dossier qui contient  le composant, dans le dossier qui contient l'assembly appelant, dans le dossier de l'assembly d'entrée puis dans les ressources embarquées de l'assembly appelant.
+Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic dans le dossier contenant le composant, dans le dossier contenant l’assembly appelant, dans le dossier de l’assembly d’entrée, puis dans les ressources incorporées de l’assembly appelant.
 
 ```csharp
 [C#]
@@ -44,16 +44,23 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-le fichier jar du composant :
+le fichier jar du composant:
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Voir également
+Montre comment appliquer une licence d’Aspose.Tasks.
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

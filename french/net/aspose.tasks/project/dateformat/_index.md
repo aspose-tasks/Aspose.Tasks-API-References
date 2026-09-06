@@ -1,9 +1,9 @@
 ---
-title: Project.DateFormat
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de DateFormat.
+title: "Project.DateFormat"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Project. Obtient ou définit une valeur de DateFormat"
 type: docs
-weight: 260
+weight: 270
 url: /fr/net/aspose.tasks/project/dateformat/
 ---
 ## Project.DateFormat property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de DateFormat.
 public DateFormat DateFormat { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [DateFormat](../../dateformat/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

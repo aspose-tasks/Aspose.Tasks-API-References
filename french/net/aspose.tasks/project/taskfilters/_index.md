@@ -1,24 +1,56 @@
 ---
-title: Project.TaskFilters
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient toutes les définitions de filtre basées sur les tâches. TaskFilters est une collection deFilter objets.
+title: "Project.TaskFilters"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient toutes les définitions de filtres basées sur les tâches. TaskFilters est une collection d'objets Filter"
 type: docs
-weight: 880
+weight: 910
 url: /fr/net/aspose.tasks/project/taskfilters/
 ---
 ## Project.TaskFilters property
 
-Obtient toutes les définitions de filtre basées sur les tâches. TaskFilters est une collection de[`Filter`](../../filter/) objets.
+Obtient toutes les définitions de filtres basées sur les tâches. TaskFilters est une collection d'objets [`Filter`](../../filter/).
 
 ```csharp
 public FilterCollection TaskFilters { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les filtres de tâches du projet.
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+
+var filter = project.TaskFilters.ToList()[1];
+Console.WriteLine(filter.Criteria.CriteriaRows.Count);
+Console.WriteLine(filter.Criteria.Operation.ToString());
+
+var criteria1 = filter.Criteria.CriteriaRows[0];
+Console.WriteLine(criteria1.Test.ToString());
+Console.WriteLine(criteria1.Field.ToString());
+Console.WriteLine(criteria1.Values[0].ToString());
+
+var criteria2 = filter.Criteria.CriteriaRows[1];
+Console.WriteLine(criteria2.Operation.ToString());
+Console.WriteLine(criteria2.CriteriaRows.Count);
+
+var criteria21 = criteria2.CriteriaRows[0];
+Console.WriteLine(criteria21.Test.ToString());
+Console.WriteLine(criteria21.Field.ToString());
+Console.WriteLine(criteria21.Values[0].ToString());
+
+var criteria22 = criteria2.CriteriaRows[1];
+Console.WriteLine(criteria22.Test.ToString());
+Console.WriteLine(criteria22.Field.ToString());
+Console.WriteLine(criteria22.Values[0].ToString());
+Console.WriteLine(filter.Criteria);
+```
+
+### Voir aussi
 
 * class [FilterCollection](../../filtercollection/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

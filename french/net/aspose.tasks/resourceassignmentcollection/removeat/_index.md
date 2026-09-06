@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignmentCollection.RemoveAt
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignmentCollection méthode. Supprime laffectation à lindex spécifié si la collection nest pas en lecture seule sinon lève NotSupportedException.
+title: "ResourceAssignmentCollection.RemoveAt"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode ResourceAssignmentCollection. Supprime l'affectation à l'index spécifié si la collection n'est pas en lecture seule, sinon lève NotSupportedException"
 type: docs
 weight: 90
 url: /fr/net/aspose.tasks/resourceassignmentcollection/removeat/
@@ -14,14 +14,14 @@ Supprime l'affectation à l'index spécifié, si la collection n'est pas en lect
 public void RemoveAt(int index)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Indice de base zéro. |
+| index | Int32 | Index basé sur zéro. |
 
-### Voir également
+### Voir aussi
 
 * class [ResourceAssignmentCollection](../)
-* espace de noms [Aspose.Tasks](../../resourceassignmentcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Class ByMonthWeekDayRepetition
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.ByMonthWeekDayRepetition classe. Représente un modèle basé sur la position du jour de la semaine dans un mois.
+title: "Classe ByMonthWeekDayRepetition"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.ByMonthWeekDayRepetition. Représente un modèle basé sur la position du jour de la semaine dans un mois"
 type: docs
 weight: 180
 url: /fr/net/aspose.tasks/bymonthweekdayrepetition/
@@ -16,22 +16,51 @@ public class ByMonthWeekDayRepetition : MonthlyRepetitionBase
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ByMonthWeekDayRepetition](bymonthweekdayrepetition/)() | Initialise une nouvelle instance du`ByMonthWeekDayRepetition` classe. |
+| [ByMonthWeekDayRepetition](bymonthweekdayrepetition/)() | Initialise une nouvelle instance de la classe `ByMonthWeekDayRepetition`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Position](../../aspose.tasks/bymonthweekdayrepetition/position/) { get; set; } | Obtient ou définit la position d'un jour de la semaine dans un mois au cours duquel la tâche doit être récurrente. |
-| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval/) { get; set; } | Obtient ou définit un nombre de mois qui représente l'intervalle en mois entre les occurrences. |
-| [WeekDay](../../aspose.tasks/bymonthweekdayrepetition/weekday/) { get; set; } | Obtient ou définit un type de jour de la semaine pendant lequel la tâche doit être récurrente. |
+| [Position](../../aspose.tasks/bymonthweekdayrepetition/position/) { get; set; } | Obtient ou définit une position du jour de la semaine dans un mois où la tâche doit se répéter. |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval/) { get; set; } | Obtient ou définit le nombre de mois qui représente l'intervalle en mois entre les occurrences. |
+| [WeekDay](../../aspose.tasks/bymonthweekdayrepetition/weekday/) { get; set; } | Obtient ou définit un type de jour de la semaine sur lequel la tâche doit se répéter. |
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les répétitions de jours de semaine mensuels lors de la création de nouvelles tâches récurrentes.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new MonthlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByMonthWeekDayRepetition
+                                                                      {
+                                                                          Position = OrdinalNumber.First,
+                                                                          WeekDay = DayOfWeek.Sunday,
+                                                                          RepetitionInterval = 2
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 9, 2, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+project.Save(OutDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Voir aussi
 
 * class [MonthlyRepetitionBase](../monthlyrepetitionbase/)
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,28 +1,59 @@
 ---
-title: ProjectView.ProjectView
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ProjectView constructeur. Initialise une nouvelle instance duProjectView classe.
+title: "ProjectView.ProjectView"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur ProjectView. Initialise une nouvelle instance de la classe ProjectView"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.visualization/projectview/projectview/
 ---
 ## ProjectView constructor
 
-Initialise une nouvelle instance du[`ProjectView`](../) classe.
+Initialise une nouvelle instance de la classe [`ProjectView`](../).
 
 ```csharp
 public ProjectView(IEnumerable<ViewColumn> columns)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| columns | IEnumerable`1 | Une liste des colonnes de la vue. |
+| colonnes | IEnumerable`1 | Une liste des colonnes de la vue. |
 
-### Voir également
+## Exemples
+
+Montre comment enregistrer un projet avec une vue contenant un ensemble personnalisé de colonnes.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn("Name", 100, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("Finish", 100, Field.TaskFinish),
+    new GanttChartColumn("Cost2", 80, Field.TaskCost2),
+    new GanttChartColumn("Number6", 80, Field.TaskNumber6),
+    new GanttChartColumn("Date6", 80, Field.TaskDate6),
+    new GanttChartColumn("Flag6", 80, Field.TaskFlag6),
+    new GanttChartColumn("Flag18", 80, Field.TaskFlag18),
+    new GanttChartColumn("Duration6", 80, Field.TaskDuration6)
+};
+options.View = new ProjectView(columns);
+
+// itérer sur les colonnes de la vue
+foreach (var column in options.View.Columns)
+{
+    Console.WriteLine("Column Name: " + column.Name);
+}
+
+options.PresentationFormat = PresentationFormat.TaskUsage;
+project.Save(OutDir + "TaskUsageProjectView_Columns.pdf", options);
+```
+
+### Voir aussi
 
 * class [ViewColumn](../../viewcolumn/)
 * class [ProjectView](../)
-* espace de noms [Aspose.Tasks.Visualization](../../projectview/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

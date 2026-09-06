@@ -1,7 +1,7 @@
 ---
-title: WorkingTimeCollection.Item
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: WorkingTimeCollection propriété. Renvoie lélément à lindex spécifié.
+title: "WorkingTimeCollection.Item"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété WorkingTimeCollection. Retourne l'élément à l'index spécifié"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/workingtimecollection/item/
@@ -14,19 +14,19 @@ Renvoie l'élément à l'index spécifié.
 public WorkingTime this[int index] { get; set; }
 ```
 
-| Paramètre | La description |
+| Paramètre | Description |
 | --- | --- |
-| index | Index de base zéro de l'élément à obtenir. |
+| index | L'index basé sur zéro de l'élément à obtenir. |
 
-### Return_Value
+### Valeur de retour
 
 l'élément à l'index spécifié.
 
-### Voir également
+### Voir aussi
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* espace de noms [Aspose.Tasks](../../workingtimecollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

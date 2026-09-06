@@ -1,9 +1,9 @@
 ---
-title: Tsk.Guid
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Les codes didentification uniques générés pour une tâche.
+title: "Tsk.Guid"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Les codes d’identification uniques générés pour une tâche"
 type: docs
-weight: 470
+weight: 460
 url: /fr/net/aspose.tasks/tsk/guid/
 ---
 ## Tsk.Guid field
@@ -14,12 +14,26 @@ Les codes d'identification uniques générés pour une tâche.
 public static readonly Key<string, TaskKey> Guid;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.Guid.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Guid, "60648d59-9c2b-4dc6-bfdb-bfd38f331d61");
+
+Console.WriteLine("Guid: " + task.Get(Tsk.Guid));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: SaveTemplateOptions.SaveTemplateOptions
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: SaveTemplateOptions constructeur. Default_Constructor
+title: "SaveTemplateOptions.SaveTemplateOptions"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur SaveTemplateOptions. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.saving/savetemplateoptions/savetemplateoptions/
 ---
 ## SaveTemplateOptions constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public SaveTemplateOptions()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [SaveTemplateOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../savetemplateoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../savetemplateoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

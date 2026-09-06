@@ -1,23 +1,23 @@
 ---
-title: Baseline.Baseline
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Baseline constructeur. Default_Constructor
+title: "Baseline.Baseline"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Baseline constructor. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/baseline/baseline/
 ---
 ## Baseline constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public Baseline()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Baseline](../)
-* espace de noms [Aspose.Tasks](../../baseline/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

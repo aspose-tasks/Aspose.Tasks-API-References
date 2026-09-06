@@ -1,7 +1,7 @@
 ---
-title: CalendarCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CalendarCollection méthode. Renvoie un énumérateur pour cette collection.
+title: "CalendarCollection.GetEnumerator"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode CalendarCollection. Retourne un énumérateur pour cette collection."
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/calendarcollection/getenumerator/
@@ -14,15 +14,33 @@ Renvoie un énumérateur pour cette collection.
 public IEnumerator<Calendar> GetEnumerator()
 ```
 
-### Return_Value
+### Valeur de retour
 
-un recenseur pour cette collection.
+un énumérateur pour cette collection.
 
-### Voir également
+## Exemples
+
+Montre comment ajouter de nouveaux calendriers.
+
+```csharp
+var project = new Project();
+
+// De nouveaux calendriers peuvent être ajoutés à la collection de calendriers d'un projet en utilisant les surcharges de la méthode Add de la collection.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+### Voir aussi
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* espace de noms [Aspose.Tasks](../../calendarcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,27 +1,40 @@
 ---
-title: Gridline.GetHashCode
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Gridline méthode. Renvoie une valeur de code de hachage pour linstance duGridline classe.
+title: "Gridline.GetHashCode"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Gridline. Retourne une valeur de code de hachage pour l'instance de la classe Gridline"
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks.visualization/gridline/gethashcode/
 ---
 ## Gridline.GetHashCode method
 
-Renvoie une valeur de code de hachage pour l'instance du[`Gridline`](../) classe.
+Renvoie une valeur de code de hachage pour l'instance de la classe [`Gridline`](../).
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Return_Value
+### Valeur de retour
 
-renvoie une valeur de code de hachage pour cet objet.
+retourne une valeur de code de hachage pour cet objet.
 
-### Voir également
+## Exemples
+
+Montre comment obtenir le code de hachage d'un gridline.
+
+```csharp
+var gridline1 = new Gridline();
+var gridline2 = new Gridline();
+
+// Le code de hachage d'un gridline est basé sur le champ GUID interne.
+Console.WriteLine("Gridline 1 Hash Code: {0}", gridline1.GetHashCode());
+Console.WriteLine("Gridline 2 Hash Code: {0}", gridline2.GetHashCode());
+```
+
+### Voir aussi
 
 * class [Gridline](../)
-* espace de noms [Aspose.Tasks.Visualization](../../gridline/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridline/)
+* assembly [Aspose.Tasks](../../../)
 
 

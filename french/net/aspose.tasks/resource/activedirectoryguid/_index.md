@@ -1,7 +1,7 @@
 ---
-title: Resource.ActiveDirectoryGuid
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de ActiveDirectoryGuid.
+title: "Resource.ActiveDirectoryGuid"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de ActiveDirectoryGuid"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/resource/activedirectoryguid/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de ActiveDirectoryGuid.
 public string ActiveDirectoryGuid { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

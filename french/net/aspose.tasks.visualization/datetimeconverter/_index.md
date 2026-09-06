@@ -1,9 +1,9 @@
 ---
-title: Delegate DateTimeConverter
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Représente une méthode de conversion pour convertir la date en chaîne dans les niveaux déchelle de temps de la vue.
+title: "Délégué DateTimeConverter"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Représente une méthode de conversion pour convertir une date en chaîne dans les niveaux d'échelle de temps de la vue"
 type: docs
-weight: 2660
+weight: 2990
 url: /fr/net/aspose.tasks.visualization/datetimeconverter/
 ---
 ## DateTimeConverter delegate
@@ -14,17 +14,66 @@ Représente une méthode de conversion pour convertir la date en chaîne dans le
 public delegate string DateTimeConverter(DateTime date);
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| date | DateTime | l'exemple de laDateTime classe à convertir en chaîne. |
+| date | DateTime | l'instance de la classe DateTime à convertir en chaîne. |
 
-### Return_Value
+### Valeur de retour
 
 la représentation sous forme de chaîne de la date spécifiée.
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* Assemblée [Aspose.Tasks](../../)
+Ajouter des liens de tâche
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+
+// ajuster les niveaux de l'échelle de temps
+project.TaskLinks.Add(project.RootTask.Children.Add("Task 1"), project.RootTask.Children.Add("Task 2"));
+
+var view = (GanttChartView)project.DefaultView;
+
+// ajuster le niveau supérieur
+
+// définir le niveau supérieur de l'échelle de temps de la vue du diagramme de Gantt.
+// définir l'unité d'échelle de temps <see cref=\"T:Aspose.Tasks.Visualization.TimescaleUnit\" /> pour le niveau de l'échelle de temps.
+view.MiddleTimescaleTier = new TimescaleTier();
+// définir l'intervalle d'unité de temps dans lequel afficher les libellés pour le niveau.
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+// définir le libellé de date <see cref=\"T:Aspose.Tasks.Visualization.DateLabel\" /> pour le niveau de l'échelle de temps.
+view.MiddleTimescaleTier.Count = 1;
+// définir comment aligner les libellés à l'intérieur de chaque période de temps du niveau (<see cref=\"T:System.Drawing.StringAlignment\" />).
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddDd;
+// définir comment aligner les étiquettes dans chaque période de temps du niveau (<see cref="T:System.Drawing.StringAlignment" />).
+view.MiddleTimescaleTier.Alignment = HorizontalStringAlignment.Center;
+// définir une valeur indiquant s'il faut afficher les marques de repère qui séparent les périodes de temps dans le niveau.
+view.MiddleTimescaleTier.ShowTicks = true;
+// définir une valeur indiquant s'il faut baser les libellés du niveau sur l'exercice fiscal.
+view.MiddleTimescaleTier.UsesFiscalYear = true;
+
+// ajouté pour une meilleure visualisation
+view.TopTimescaleTier = new TimescaleTier(TimescaleUnit.Months, 1);
+
+// personnaliser les dates du niveau intermédiaire
+view.TopTimescaleTier.DateTimeConverter = date =>
+    new[] { "Янв.", "Фев.", "Мар.", "Апр.", "Май", "Июнь", "Июль", "Авг.", "Сен.", "Окт.", "Ноя.", "Дек." }[date.Month - 1];
+
+project.Set(Prj.TimescaleStart, new DateTime(2012, 7, 30));
+project.Set(Prj.TimescaleFinish, new DateTime(2012, 10, 6));
+
+// Utilisez l'option 'Timescale.DefinedInView' pour rendre les échelles de temps en utilisant les paramètres d'échelle de temps définis dans la vue (view.TopTimescaleTier, view.MiddleTimescaleTier, view.BottomTimescaleTier).
+var pdfSaveOptions = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView
+};
+
+project.Save(OutDir + "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

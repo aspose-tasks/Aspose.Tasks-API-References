@@ -1,7 +1,7 @@
 ---
-title: VbaProject.Name
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VbaProject propriété. Obtient le nom du projet
+title: "VbaProject.Name"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "VbaProject propriété. Obtient le nom du projet"
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/vbaproject/name/
@@ -14,10 +14,24 @@ Obtient le nom du projet
 public string Name { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les propriétés du projet VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("VbaProject.Name " + project.VbaProject.Name);
+Console.WriteLine("VbaProject.Description " + project.VbaProject.Description);
+Console.WriteLine("VbaProject.CompilationArguments" + project.VbaProject.CompilationArguments);
+Console.WriteLine("VbaProject.HelpContextId" + project.VbaProject.HelpContextId);
+Console.WriteLine("VbaProject.HelpFile" + project.VbaProject.HelpFile);
+```
+
+### Voir aussi
 
 * class [VbaProject](../)
-* espace de noms [Aspose.Tasks](../../vbaproject/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbaproject/)
+* assembly [Aspose.Tasks](../../../)
 
 

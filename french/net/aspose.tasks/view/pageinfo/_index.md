@@ -1,24 +1,73 @@
 ---
-title: View.PageInfo
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: View propriété. Obtient une instance dePageInfoclasse. Représente les données de configuration de page qui sont présentes au format de fichier mpp.
+title: "View.PageInfo"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété View. Obtient une instance de la classe PageInfo. Représente les données de configuration de page présentes dans le format de fichier mpp."
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/view/pageinfo/
 ---
 ## View.PageInfo property
 
-Obtient une instance de`PageInfo`classe. Représente les données de configuration de page qui sont présentes au format de fichier mpp.
+Obtient une instance de la classe `PageInfo`. Représente les données de configuration de page présentes dans le format de fichier mpp.
 
 ```csharp
 public PageInfo PageInfo { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les vues de MS Project.
+
+```csharp
+// créer un projet vide sans vues
+var project = new Project();
+project.Set(Prj.Name, "Test View Project");
+
+// créez une vue de diagramme de Gantt standard
+View view = new GanttChartView();
+
+// définissez certaines propriétés de la vue
+// définissez une valeur indiquant si Microsoft Project affiche le nom de la vue unique dans la liste déroulante Vue ou Autres Vues dans le ruban
+view.ShowInMenu = true;
+// définissez une valeur indiquant si Microsoft Project met en évidence le filtre pour une vue unique
+view.HighlightFilter = true;
+
+// l'écriture des propriétés suivantes n'est pas prise en charge
+// définit le filtre utilisé dans une vue unique
+view.Filter = null;
+// définit le groupe de la vue unique
+view.Group = null;
+// définit le tableau de la vue unique
+view.Table = null;
+
+// ajustons certains paramètres de la vue
+// définissez le nombre de premières colonnes à imprimer sur toutes les pages
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;
+// définissez une valeur indiquant s'il faut imprimer un nombre spécifié de premières colonnes sur toutes les pages
+view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;
+
+// ajoutez la vue à notre projet
+project.Views.Add(view);
+
+// Le drapeau WriteViewData doit être utilisé pour persister les modifications de project.Views.
+project.Save(OutDir + "WorkWithView_output.mpp", new Saving.MPPSaveOptions
+{
+    WriteViewData = true
+});
+// vérifions certaines propriétés de la vue nouvellement ajoutée
+// affichez l'identifiant unique d'une vue
+Console.WriteLine("View Uid: " + view.Uid);
+// affichez le type d'écran pour la vue unique
+Console.WriteLine("View Screen: " + view.Screen);
+Console.WriteLine("View Type: " + view.Type);
+Console.WriteLine("Parent Project of the view: " + view.ParentProject.Get(Prj.Name));
+```
+
+### Voir aussi
 
 * class [PageInfo](../../../aspose.tasks.visualization/pageinfo/)
 * class [View](../)
-* espace de noms [Aspose.Tasks](../../view/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 
