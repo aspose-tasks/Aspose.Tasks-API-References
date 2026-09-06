@@ -1,24 +1,50 @@
 ---
-title: GanttBarStyle.ShowForCategories
-second_title: Aspose.Tasks for .NET API 参考
-description: GanttBarStyle 财产. 获取或设置应用样式的任务类别适用于甘特图 中条形图的父或通用样式请参阅BarStyles .
+title: "GanttBarStyle.ShowForCategories"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "GanttBarStyle 属性。获取或设置样式适用的任务类别。适用于甘特图中条形的父样式或公共样式，参见 BarStyles"
 type: docs
 weight: 200
 url: /zh/net/aspose.tasks.visualization/ganttbarstyle/showforcategories/
 ---
 ## GanttBarStyle.ShowForCategories property
 
-获取或设置应用样式的任务类别。适用于甘特图 中条形图的父（或通用）样式（请参阅[`BarStyles`](../../../aspose.tasks/ganttchartview/barstyles/) ).
+获取或设置样式适用的任务类别。适用于甘特图中条形的父（或公共）样式（参见 [`BarStyles`](../../../aspose.tasks/ganttchartview/barstyles/)）。
 
 ```csharp
 public IList<GanttBarShowFor> ShowForCategories { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何使用 ShowFor 类别。
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var view = (GanttChartView)project.DefaultView;
+
+var barStyle = this.GetCustomBarStyle();
+barStyle.ShowForTaskUid = null;
+
+var showForCategories = new[]
+{
+    GanttBarShowFor.Active,
+    GanttBarShowFor.NotSummary,
+    GanttBarShowFor.Milestone,
+    GanttBarShowFor.Finished
+};
+
+barStyle.ShowForCategories = new List<GanttBarShowFor>(showForCategories);
+barStyle.Name = "My common style";
+view.BarStyles.Add(barStyle);
+
+// 处理项目...
+```
+
+### 另见
 
 * enum [GanttBarShowFor](../../ganttbarshowfor/)
 * class [GanttBarStyle](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../ganttbarstyle/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttbarstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

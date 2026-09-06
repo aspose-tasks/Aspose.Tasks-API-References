@@ -1,26 +1,38 @@
 ---
-title: Prj.ActualsInSync
-second_title: Aspose.Tasks for .NET API 参考
-description: Prj 场地. 判断是否所有的实际作品都已经同步到项目中
+title: "Prj.ActualsInSync"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Prj 字段。确定是否已将所有实际工作与项目同步"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/prj/actualsinsync/
 ---
 ## Prj.ActualsInSync field
 
-判断是否所有的实际作品都已经同步到项目中。
+确定是否已将所有实际工作与项目同步。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> ActualsInSync;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Prj.ActualsInSync 属性。
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ActualsInSync, true);
+
+Console.WriteLine("Actuals In Sync: " + project.Get(Prj.ActualsInSync));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* 命名空间 [Aspose.Tasks](../../prj/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

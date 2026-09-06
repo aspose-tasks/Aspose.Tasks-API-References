@@ -1,9 +1,9 @@
 ---
-title: Class ProgressLines
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Visualization.ProgressLines 班级. 表示甘特图视图中的进度线
+title: "类 ProgressLines"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Visualization.ProgressLines 类。表示甘特图视图中的进度线"
 type: docs
-weight: 2940
+weight: 3290
 url: /zh/net/aspose.tasks.visualization/progresslines/
 ---
 ## ProgressLines class
@@ -16,37 +16,122 @@ public class ProgressLines
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [ProgressLines](progresslines/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate/) { get; set; } | 获取或设置显示进度线的日期。 |
-| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart/) { get; set; } | 获取或设置一个值，该值指示是否从项目开始日期开始显示进度线。 |
-| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat/) { get; set; } | 获取或设置日期格式（[`DateLabel`](../datelabel/) ). |
-| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate/) { get; set; } | 获取或设置一个值，指示是否显示当前日期的进度线。 |
-| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals/) { get; set; } | 获取或设置一个值，该值指示是否以循环间隔显示进度线。 |
-| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected/) { get; set; } | 获取或设置一个值，该值指示是否在选定日期显示进度线。 |
+| [BeginAtDate](../../aspose.tasks.visualization/progresslines/beginatdate/) { get; set; } | 获取或设置显示进度线的起始日期。 |
+| [BeginAtProjectStart](../../aspose.tasks.visualization/progresslines/beginatprojectstart/) { get; set; } | 获取或设置一个值，指示是否从项目开始日期起显示进度线。 |
+| [DateFormat](../../aspose.tasks.visualization/progresslines/dateformat/) { get; set; } | 获取或设置日期格式（[`DateLabel`](../datelabel/)）。 |
+| [DisplayAtCurrentDate](../../aspose.tasks.visualization/progresslines/displayatcurrentdate/) { get; set; } | 获取或设置一个值，指示是否在当前日期显示进度线。 |
+| [DisplayAtRecurringIntervals](../../aspose.tasks.visualization/progresslines/displayatrecurringintervals/) { get; set; } | 获取或设置一个值，指示是否在循环间隔时显示进度线。 |
+| [DisplaySelected](../../aspose.tasks.visualization/progresslines/displayselected/) { get; set; } | 获取或设置一个值，指示是否在所选日期显示进度线。 |
 | [Font](../../aspose.tasks.visualization/progresslines/font/) { get; set; } | 获取或设置用于进度线标签的字体。 |
-| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan/) { get; set; } | 获取或设置一个值，指示是否显示基准计划或实际的进度线。 |
+| [IsBaselinePlan](../../aspose.tasks.visualization/progresslines/isbaselineplan/) { get; set; } | 获取或设置一个值，指示是显示基线计划的进度线还是实际进度线。 |
 | [LineColor](../../aspose.tasks.visualization/progresslines/linecolor/) { get; set; } | 获取或设置当前进度线的线条颜色。 |
-| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern/) { get; set; } | 获取或设置当前进度线的线型。 [`LinePattern`](./linepattern/). |
-| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor/) { get; set; } | 获取或设置其他进度条的颜色。 |
+| [LinePattern](../../aspose.tasks.visualization/progresslines/linepattern/) { get; set; } | 获取或设置当前进度线的线条模式。[`LinePattern`](./linepattern/)。 |
+| [OtherLineColor](../../aspose.tasks.visualization/progresslines/otherlinecolor/) { get; set; } | 获取或设置其他进度线的颜色。 |
 | [OtherLinePattern](../../aspose.tasks.visualization/progresslines/otherlinepattern/) { get; set; } | 获取或设置其他进度线的线条模式。 |
 | [OtherProgressPointColor](../../aspose.tasks.visualization/progresslines/otherprogresspointcolor/) { get; set; } | 获取或设置其他进度点的颜色。 |
 | [OtherProgressPointShape](../../aspose.tasks.visualization/progresslines/otherprogresspointshape/) { get; set; } | 获取或设置其他进度线的进度点形状。 |
 | [ProgressPointColor](../../aspose.tasks.visualization/progresslines/progresspointcolor/) { get; set; } | 获取或设置进度点的颜色。 |
-| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape/) { get; set; } | 获取或设置进度点形状。 [`GanttBarEndShape`](../ganttbarendshape/). |
-| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval/) { get; set; } | 获取或设置循环间隔。 [`RecurringInterval`](./recurringinterval/). |
-| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates/) { get; } | 获取选定日期的列表以显示其进度线。 |
-| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate/) { get; set; } | 获取或设置一个值，该值指示是否显示每个进度线的日期。 |
+| [ProgressPointShape](../../aspose.tasks.visualization/progresslines/progresspointshape/) { get; set; } | 获取或设置进度点形状。[`GanttBarEndShape`](../ganttbarendshape/)。 |
+| [RecurringInterval](../../aspose.tasks.visualization/progresslines/recurringinterval/) { get; set; } | 获取或设置循环间隔。[`RecurringInterval`](./recurringinterval/)。 |
+| [SelectedDates](../../aspose.tasks.visualization/progresslines/selecteddates/) { get; } | 获取用于显示进度线的选定日期列表。 |
+| [ShowDate](../../aspose.tasks.visualization/progresslines/showdate/) { get; set; } | 获取或设置指示是否为每条进度线显示日期的值。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 部件 [Aspose.Tasks](../../)
+展示如何使用进度线。
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// 让我们定义进度线
+view.ProgressLines = new ProgressLines();
+var progressLines = view.ProgressLines;
+
+// 设置显示进度线的起始日期。让我们设置项目的状态日期。
+progressLines.BeginAtDate = project.Get(Prj.StatusDate);
+// 设置一个值，指示是否从项目开始日期起显示进度线
+progressLines.BeginAtProjectStart = true;
+// 设置日期格式（<see cref=\"T:Aspose.Tasks.Visualization.DateLabel\" />）。
+progressLines.DateFormat = DateLabel.DayDddd;
+// 设置一个值，指示是否在当前日期显示进度线。
+progressLines.DisplayAtCurrentDate = true;
+// 设置一个值，指示是否在重复间隔显示进度线。
+progressLines.DisplayAtRecurringIntervals = true;
+// 设置一个值，指示是否在选定日期显示进度线
+progressLines.DisplaySelected = true;
+// 设置一个值，指示是显示基线计划还是实际的进度线。
+progressLines.IsBaselinePlan = false;
+// 设置用于进度线标签的字体。
+progressLines.Font = new FontDescriptor("Arial", 10);
+// 设置当前进度线的颜色。
+progressLines.LineColor = Color.Aquamarine;
+// 设置当前进度线的线型。
+progressLines.LinePattern = LinePattern.Dashed;
+// 设置其他进度线的颜色。
+progressLines.OtherLineColor = Color.Azure;
+// 设置其他进度线的线型。
+progressLines.OtherLinePattern = LinePattern.Dotted;
+// 设置其他进度点的颜色。
+progressLines.OtherProgressPointColor = Color.Red;
+// 设置其他进度线的进度点形状。
+progressLines.OtherProgressPointShape = GanttBarEndShape.Circle;
+// 设置进度点的颜色。
+progressLines.ProgressPointColor = Color.Orange;
+// 设置进度点形状。
+progressLines.ProgressPointShape = GanttBarEndShape.Diamond;
+// 设置重复间隔。
+progressLines.RecurringInterval = new RecurringInterval();
+// 设置重复间隔。
+progressLines.RecurringInterval.Interval = Interval.Daily;
+// 设置每日天数
+progressLines.RecurringInterval.DailyDayNumber = 1;
+// 设置一个值，指示是否为每条进度线显示日期。
+progressLines.ShowDate = true;
+
+// 让我们检查进度线
+Console.WriteLine("Begin At Date: " + progressLines.BeginAtDate);
+Console.WriteLine("Begin At Project Start: " + progressLines.BeginAtProjectStart);
+Console.WriteLine("Date Format: " + progressLines.DateFormat);
+Console.WriteLine("Display At Current Date: " + progressLines.DisplayAtCurrentDate);
+Console.WriteLine("Display At Recurring Intervals: " + progressLines.DisplayAtRecurringIntervals);
+Console.WriteLine("Display Selected: " + progressLines.DisplaySelected);
+Console.WriteLine("Font: " + progressLines.Font);
+Console.WriteLine("Is Baseline Plan: " + progressLines.IsBaselinePlan);
+Console.WriteLine("Line Color: " + progressLines.LineColor);
+Console.WriteLine("Line Pattern: " + progressLines.LinePattern);
+Console.WriteLine("Other Line Color: " + progressLines.OtherLineColor);
+Console.WriteLine("Other Line Pattern: " + progressLines.OtherLinePattern);
+Console.WriteLine("Other Progress Point Color: " + progressLines.OtherProgressPointColor);
+Console.WriteLine("Other Progress Point Shape: " + progressLines.OtherProgressPointShape);
+Console.WriteLine("Progress Point Color: " + progressLines.ProgressPointColor);
+Console.WriteLine("Progress Point Shape: " + progressLines.ProgressPointShape);
+Console.WriteLine("Recurring Interval: " + progressLines.RecurringInterval.Interval);
+Console.WriteLine("Recurring Interval DailyDayNumber: " + progressLines.RecurringInterval.DailyDayNumber);
+Console.WriteLine("Selected Dates: ");
+foreach (var date in progressLines.SelectedDates)
+{
+    Console.WriteLine("Date: " + date);
+}
+Console.WriteLine("Show Date: " + progressLines.ShowDate);
+Console.WriteLine();
+
+project.Save(OutDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
+```
+
+### 另见
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

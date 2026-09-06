@@ -1,7 +1,7 @@
 ---
-title: Enum DayLabelDisplay
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.DayLabelDisplay 枚举. 指定日期标签的显示方式
+title: "枚举 DayLabelDisplay"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.DayLabelDisplay 枚举。指定天标签的显示方式"
 type: docs
 weight: 440
 url: /zh/net/aspose.tasks/daylabeldisplay/
@@ -14,17 +14,31 @@ url: /zh/net/aspose.tasks/daylabeldisplay/
 public enum DayLabelDisplay
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| D | `0` | 将 MS Project 中的天列表设置为 d. |
-| Dy | `1` | 将 MS Project 中的天列表设置为 dy. |
-| Day | `2` | 将 MS Project 中的天列表设置为天。 |
+| D | `0` | 将 MS Project 中的 Days 列表设置为 d。 |
+| Dy | `1` | 将 MS Project 中的 Days 列表设置为 dy。 |
+| Day | `2` | 将 MS Project 中的 Days 列表设置为 day。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何设置项目显示选项的天标签（案例 1）。
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// 设置日期标签的显示方式
+project.DisplayOptions.DayLabel = DayLabelDisplay.D;
+
+// ...
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

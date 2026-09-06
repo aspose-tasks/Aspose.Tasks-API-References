@@ -1,159 +1,183 @@
 ---
-title: Enum TaskKey
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.TaskKey 枚举. 表示支持的任务字段列表
+title: "枚举 TaskKey"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.TaskKey 枚举。表示受支持任务字段的列表"
 type: docs
-weight: 2110
+weight: 2400
 url: /zh/net/aspose.tasks/taskkey/
 ---
 ## TaskKey enumeration
 
-表示支持的任务字段列表。
+表示受支持的任务字段列表。
 
 ```csharp
-public enum TaskKey
+public enum TaskKey : byte
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Uid | `0` | 表示唯一 ID（任务）字段。 |
-| Id | `1` | 代表Id（任务）字段。 |
-| Name | `2` | 代表名称（任务）字段。 |
-| Type | `3` | 代表类型（任务）字段。 |
-| IsNull | `4` | 代表IsNull（任务）字段。 |
-| Created | `5` | 代表创建（任务）字段。 |
-| Contact | `6` | 代表联系人（任务）字段。 |
-| WBS | `7` | 表示 WBS（任务）字段。 |
-| WBSLevel | `8` | 表示 WBSLevel（任务）字段。 |
-| OutlineNumber | `9` | 代表OutlineNumber（任务）字段。 |
-| OutlineLevel | `10` | 代表OutlineLevel（任务）字段。 |
-| Priority | `11` | 表示优先级（任务）字段。 |
-| Start | `12` | 代表开始（任务）字段。 |
-| Finish | `13` | 表示完成（任务）字段。 |
-| Duration | `14` | 表示持续时间（任务）字段。 |
-| DurationVariance | `15` | 表示DurationVariance（任务）字段。 |
-| DurationFormat | `16` | 代表DurationFormat（任务）字段。 |
-| Work | `17` | 表示工作（任务）字段。 |
-| Stop | `18` | 代表停止（任务）字段。 |
-| Resume | `19` | 代表Resume（任务）字段。 |
-| IsResumeValid | `20` | 表示 IsResumeValid (Task) 字段。 |
-| IsEffortDriven | `21` | 表示 IsEffortDriven（任务）字段。 |
-| IsRecurring | `22` | 表示 IsRecurring (Task) 字段。 |
-| IsOverallocated | `23` | 表示 IsOverallocated (Task) 字段。 |
-| HasOverallocatedResource | `24` | 代表HasOverallocatedResource (Task)字段。 |
-| IsEstimated | `25` | 代表IsEstimated（任务）字段。 |
-| IsMilestone | `26` | 表示 IsMilestone（任务）字段。 |
-| IsCritical | `27` | 代表IsCritical（任务）字段。 |
-| IsSubproject | `28` | 代表IsSubproject（任务）字段。 |
-| IsSubprojectReadOnly | `29` | 表示 IsSubprojectReadOnly（任务）字段。 |
-| IsMarked | `30` | 代表IsMarked（任务）字段。 |
-| IgnoreWarnings | `31` | 代表IgnoreWarnings（任务）字段。 |
-| SubprojectName | `32` | 表示SubprojectName（任务）字段。 |
-| IsExternalTask | `33` | 代表IsExternalTask（任务）字段。 |
-| IsSummary | `34` | 代表IsSummary（任务）字段。 |
-| ExternalTaskProject | `35` | 表示ExternalTaskProject（任务）字段。 |
-| ExternalId | `36` | 表示ExternalId（任务）字段。 |
-| ExternalKey | `37` | 表示ExternalKey（任务）字段。 |
-| EarlyStart | `38` | 表示 EarlyStart（任务）字段。 |
-| EarlyFinish | `39` | 代表EarlyFinish（任务）字段。 |
-| LateStart | `40` | 表示 LateStart（任务）字段。 |
-| LateFinish | `41` | 代表LateFinish（任务）字段。 |
-| StartVariance | `42` | 代表StartVariance（任务）字段。 |
-| FinishVariance | `43` | 表示FinishVariance（任务）字段。 |
-| WorkVariance | `44` | 表示WorkVariance（任务）字段。 |
-| CostVariance | `45` | 表示CostVariance（任务）字段。 |
-| FreeSlack | `46` | 代表FreeSlack(Task)字段。 |
-| TotalSlack | `47` | 代表TotalSlack(Task)字段。 |
-| StartSlack | `48` | 代表StartSlack(Task)字段。 |
-| FinishSlack | `49` | 表示FinishSlack（任务）字段。 |
-| FixedCost | `50` | 表示固定成本（任务）字段。 |
-| FixedCostAccrual | `51` | 表示 FixedCostAccrual（任务）字段。 |
-| PercentComplete | `52` | 表示 PercentComplete（任务）字段。 |
-| PercentWorkComplete | `53` | 表示 PercentWorkComplete（任务）字段。 |
-| Cost | `54` | 代表成本（任务）字段。 |
-| OvertimeCost | `55` | 表示 OvertimeCost（任务）字段。 |
-| ActualStart | `56` | 表示ActualStart（任务）字段。 |
-| ActualFinish | `57` | 表示ActualFinish（任务）字段。 |
-| ActualDuration | `58` | 表示ActualDuration（任务）字段。 |
-| ActualCost | `59` | 表示 ActualCost（任务）字段。 |
-| ActualOvertimeCost | `60` | 表示 ActualOvertimeCost（任务）字段。 |
-| ActualWork | `61` | 表示ActualWork（任务）字段。 |
-| ActualOvertimeWork | `62` | 表示ActualOvertimeWork（任务）字段。 |
-| OvertimeWork | `63` | 代表OvertimeWork（任务）字段。 |
-| RegularWork | `64` | 代表RegularWork（任务）字段。 |
-| RemainingDuration | `65` | 代表RemainingDuration（任务）字段。 |
-| RemainingCost | `66` | 代表RemainingCost（任务）字段。 |
-| RemainingWork | `67` | 代表RemainingWork（任务）字段。 |
-| RemainingOvertimeWork | `68` | 表示RemainingOvertimeWork（任务）字段。 |
-| RemainingOvertimeCost | `69` | 表示RemainingOvertimeCost（任务）字段。 |
-| ACWP | `70` | 代表ACWP（任务）字段。 |
-| CV | `71` | 代表CV（Task）字段。 |
-| SV | `72` | 表示SV（Task）字段。 |
-| ConstraintType | `73` | 表示ConstraintType（任务）字段。 |
-| Calendar | `74` | 表示日历（任务）字段。 |
-| ConstraintDate | `75` | 代表ConstraintDate(Task)字段。 |
-| Deadline | `76` | 代表Deadline（任务）字段。 |
-| LevelAssignments | `77` | 表示LevelAssignments（任务）字段。 |
-| LevelingCanSplit | `78` | 表示LevelingCanSplit(Task)字段。 |
-| LevelingDelay | `79` | 表示LevelingDelay(Task)字段。 |
-| LevelingDelayFormat | `80` | 表示LevelingDelayFormat（任务）字段。 |
-| PreleveledStart | `81` | 表示PreleveledStart（任务）字段。 |
-| PreleveledFinish | `82` | 表示 PreleveledFinish（任务）字段。 |
-| Hyperlink | `83` | 表示超链接（任务）字段。 |
-| HyperlinkAddress | `84` | 表示 HyperlinkAddress (Task) 字段。 |
-| HyperlinkSubAddress | `85` | 表示 HyperlinkSubAddress (Task) 字段。 |
-| IgnoreResourceCalendar | `86` | 代表IgnoreResourceCalendar（任务）字段。 |
-| HideBar | `87` | 代表HideBar（任务）字段。 |
-| IsRollup | `88` | 代表IsRollup(Task)字段。 |
-| BCWS | `89` | 代表BCWS（Task）字段。 |
-| BCWP | `90` | 表示BCWP（任务）字段。 |
-| PhysicalPercentComplete | `91` | 表示 PhysicalPercentComplete（任务）字段。 |
-| EarnedValueMethod | `92` | 表示 EarnedValueMethod（任务）字段。 |
-| ActualWorkProtected | `93` | 表示ActualWorkProtected（任务）字段。 |
-| ActualOvertimeWorkProtected | `94` | 表示 ActualOvertimeWorkProtected (Task) 字段。 |
-| IsPublished | `95` | 表示 IsPublished（任务）字段。 |
-| IsScheduled | `96` | 表示IsScheduled（任务）字段。 |
-| StatusManager | `97` | 代表StatusManager（任务）字段。 |
-| CommitmentStart | `98` | 表示CommitmentStart（任务）字段。 |
-| CommitmentFinish | `99` | 代表CommitmentFinish（任务）字段。 |
-| CommitmentType | `100` | 表示CommitmentType（任务）字段。 |
-| IsManual | `101` | 代表IsManual（任务）字段。 |
-| IsExpanded | `102` | 代表IsExpanded（任务）字段。 |
-| Guid | `103` | 代表Guid（任务）字段。 |
-| NotesText | `104` | 表示 NotesText（任务）字段。 |
-| NotesRTF | `105` | 代表NotesRTF（任务）字段。 |
-| ManualStart | `106` | 表示ManualStart（任务）字段。 |
-| ManualFinish | `107` | 表示ManualFinish（任务）字段。 |
-| ManualDuration | `108` | 表示ManualDuration（任务）字段。 |
-| BudgetWork | `109` | 表示 BudgetWork（任务）字段。 |
-| BudgetCost | `110` | 表示 BudgetCost（任务）字段。 |
-| DisplayAsSummary | `111` | 表示 DisplayAsSummary（任务）字段。 |
-| SummaryProgress | `112` | 表示摘要进度（任务）字段。 |
-| IsActive | `113` | 表示IsActive（任务）字段。 |
-| StartText | `114` | 表示 StartText（任务）字段。 |
-| FinishText | `115` | 代表FinishText（任务）字段。 |
-| DurationText | `116` | 代表DurationText（任务）字段。 |
-| CalendarUid | `117` | 代表CalendarUid(Task)字段。 |
-| ParentTaskUid | `118` | 表示ParentTaskUid（任务）字段。 |
-| DisplayOnTimeline | `119` | 表示 DisplayOnTimeline（任务）字段。 |
-| TaskIsAssigned | `120` | 代表TaskIsAssigned（任务）字段。 |
-| TaskOriginalStart | `121` | 表示原来的开始（任务）字段。 |
-| TaskOriginalFinish | `122` | 代表原来的finish(Task)字段。 |
-| IsShowBeforeProjectStartDateWarning | `123` | 表示使 MSP 显示任务在项目开始日期之前开始的警告的标志。 |
-| Warning | `124` | 表示任务有进度差异的标志。 |
-| ParentTaskGuid | `125` | 表示ParentTaskGuid（任务）字段。 |
-| ActivityId | `126` | 表示ActivityId字段（只适用于Primavera项目）。 |
-| FreeSlackTimeSpan | `127` | 代表FreeSlack(Task)字段。 |
-| TotalSlackTimeSpan | `128` | 代表TotalSlack(Task)字段。 |
-| StartSlackTimeSpan | `129` | 代表StartSlack(Task)字段。 |
-| FinishSlackTimeSpan | `130` | 表示FinishSlack（任务）字段。 |
-| ExternalUid | `131` | 表示外部任务的Unique Id。 |
+| Uid | `0` | 表示唯一标识 (Task) 字段。 |
+| Id | `1` | 表示标识 (Task) 字段。 |
+| Name | `2` | 表示名称 (Task) 字段。 |
+| Type | `3` | 表示类型 (Task) 字段。 |
+| IsNull | `4` | 表示是否为空 (Task) 字段。 |
+| Created | `5` | 表示创建时间 (Task) 字段。 |
+| Contact | `6` | 表示联系人 (Task) 字段。 |
+| WBS | `7` | 表示 WBS (Task) 字段。 |
+| WBSLevel | `8` | 表示 WBSLevel (Task) 字段。 |
+| OutlineNumber | `9` | 表示大纲编号 (Task) 字段。 |
+| OutlineLevel | `10` | 表示大纲级别 (Task) 字段。 |
+| Priority | `11` | 表示优先级 (Task) 字段。 |
+| Start | `12` | 表示开始时间 (Task) 字段。 |
+| Finish | `13` | 表示完成时间 (Task) 字段。 |
+| Duration | `14` | 表示持续时间 (Task) 字段。 |
+| DurationVariance | `15` | 表示持续时间差异 (Task) 字段。 |
+| Work | `16` | 表示工作量 (Task) 字段。 |
+| Stop | `17` | 表示停止时间 (Task) 字段。 |
+| Resume | `18` | 表示恢复时间 (Task) 字段。 |
+| IsResumeValid | `19` | 表示恢复是否有效 (Task) 字段。 |
+| IsEffortDriven | `20` | 表示是否按工作量驱动 (Task) 字段。 |
+| IsRecurring | `21` | 表示是否循环 (Task) 字段。 |
+| IsOverallocated | `22` | 表示是否超额分配 (Task) 字段。 |
+| HasOverallocatedResource | `23` | 表示是否有超额分配资源 (Task) 字段。 |
+| IsEstimated | `24` | 表示是否为估计 (Task) 字段。 |
+| IsMilestone | `25` | 表示 IsMilestone（Task）字段。 |
+| IsCritical | `26` | 表示 IsCritical（Task）字段。 |
+| IsSubproject | `27` | 表示 IsSubproject（Task）字段。 |
+| IsSubprojectReadOnly | `28` | 表示 IsSubprojectReadOnly（Task）字段。 |
+| IsMarked | `29` | 表示 IsMarked（Task）字段。 |
+| IgnoreWarnings | `30` | 表示 IgnoreWarnings（Task）字段。 |
+| SubprojectName | `31` | 表示 SubprojectName（Task）字段。 |
+| IsExternalTask | `32` | 表示 IsExternalTask（Task）字段。 |
+| IsSummary | `33` | 表示 IsSummary（Task）字段。 |
+| ExternalTaskProject | `34` | 表示 ExternalTaskProject（Task）字段。 |
+| ExternalId | `35` | 表示 ExternalId（Task）字段。 |
+| EarlyStart | `36` | 表示 EarlyStart（Task）字段。 |
+| EarlyFinish | `37` | 表示 EarlyFinish（Task）字段。 |
+| LateStart | `38` | 表示 LateStart（Task）字段。 |
+| LateFinish | `39` | 表示 LateFinish（Task）字段。 |
+| StartVariance | `40` | 表示 StartVariance（Task）字段。 |
+| FinishVariance | `41` | 表示 FinishVariance（Task）字段。 |
+| WorkVariance | `42` | 表示 WorkVariance（Task）字段。 |
+| CostVariance | `43` | 表示 CostVariance（Task）字段。 |
+| FreeSlack | `44` | 表示 FreeSlack（Task）字段。 |
+| TotalSlack | `45` | 表示 TotalSlack（Task）字段。 |
+| StartSlack | `46` | 表示 StartSlack（Task）字段。 |
+| FinishSlack | `47` | 表示 FinishSlack（Task）字段。 |
+| FixedCost | `48` | 表示 FixedCost（Task）字段。 |
+| FixedCostAccrual | `49` | 表示 FixedCostAccrual（Task）字段。 |
+| PercentComplete | `50` | 表示 PercentComplete (Task) 字段。 |
+| PercentWorkComplete | `51` | 表示 PercentWorkComplete (Task) 字段。 |
+| Cost | `52` | 表示 Cost (Task) 字段。 |
+| OvertimeCost | `53` | 表示 OvertimeCost (Task) 字段。 |
+| ActualStart | `54` | 表示 ActualStart (Task) 字段。 |
+| ActualFinish | `55` | 表示 ActualFinish (Task) 字段。 |
+| ActualDuration | `56` | 表示 ActualDuration (Task) 字段。 |
+| ActualCost | `57` | 表示 ActualCost (Task) 字段。 |
+| ActualOvertimeCost | `58` | 表示 ActualOvertimeCost (Task) 字段。 |
+| ActualWork | `59` | 表示 ActualWork (Task) 字段。 |
+| ActualOvertimeWork | `60` | 表示 ActualOvertimeWork (Task) 字段。 |
+| OvertimeWork | `61` | 表示 OvertimeWork (Task) 字段。 |
+| RegularWork | `62` | 表示 RegularWork (Task) 字段。 |
+| RemainingDuration | `63` | 表示 RemainingDuration (Task) 字段。 |
+| RemainingCost | `64` | 表示 RemainingCost (Task) 字段。 |
+| RemainingWork | `65` | 表示 RemainingWork (Task) 字段。 |
+| RemainingOvertimeWork | `66` | 表示 RemainingOvertimeWork (Task) 字段。 |
+| RemainingOvertimeCost | `67` | 表示 RemainingOvertimeCost (Task) 字段。 |
+| ACWP | `68` | 表示 ACWP (Task) 字段。 |
+| CV | `69` | 表示 CV (Task) 字段。 |
+| SV | `70` | 表示 SV (Task) 字段。 |
+| ConstraintType | `71` | 表示 ConstraintType (Task) 字段。 |
+| Calendar | `72` | 表示 Calendar (Task) 字段。 |
+| ConstraintDate | `73` | 表示 ConstraintDate (Task) 字段。 |
+| Deadline | `74` | 表示 Deadline (Task) 字段。 |
+| LevelAssignments | `75` | 表示 LevelAssignments (Task) 字段。 |
+| LevelingCanSplit | `76` | 表示 LevelingCanSplit (Task) 字段。 |
+| LevelingDelay | `77` | 表示 LevelingDelay (Task) 字段。 |
+| PreleveledStart | `78` | 表示 PreleveledStart (Task) 字段。 |
+| PreleveledFinish | `79` | 表示 PreleveledFinish (Task) 字段。 |
+| Hyperlink | `80` | 表示 Hyperlink (Task) 字段。 |
+| HyperlinkAddress | `81` | 表示 HyperlinkAddress (Task) 字段。 |
+| HyperlinkSubAddress | `82` | 表示 HyperlinkSubAddress (Task) 字段。 |
+| IgnoreResourceCalendar | `83` | 表示 IgnoreResourceCalendar (Task) 字段。 |
+| HideBar | `84` | 表示 HideBar (Task) 字段。 |
+| IsRollup | `85` | 表示 IsRollup (Task) 字段。 |
+| BCWS | `86` | 表示 BCWS (Task) 字段。 |
+| BCWP | `87` | 表示 BCWP (Task) 字段。 |
+| PhysicalPercentComplete | `88` | 表示 PhysicalPercentComplete (Task) 字段。 |
+| EarnedValueMethod | `89` | 表示 EarnedValueMethod (Task) 字段。 |
+| ActualWorkProtected | `90` | 表示 ActualWorkProtected (Task) 字段。 |
+| ActualOvertimeWorkProtected | `91` | 表示 ActualOvertimeWorkProtected (Task) 字段。 |
+| IsPublished | `92` | 表示 IsPublished (Task) 字段。 |
+| IsScheduled | `93` | 表示 IsScheduled (Task) 字段。 |
+| StatusManager | `94` | 表示 StatusManager (Task) 字段。 |
+| CommitmentStart | `95` | 表示 CommitmentStart (Task) 字段。 |
+| CommitmentFinish | `96` | 表示 CommitmentFinish (Task) 字段。 |
+| CommitmentType | `97` | 表示 CommitmentType (Task) 字段。 |
+| IsManual | `98` | 表示 IsManual (Task) 字段。 |
+| IsExpanded | `99` | 表示 IsExpanded (Task) 字段。 |
+| Guid | `100` | 表示 Guid (Task) 字段。 |
+| NotesText | `101` | 表示 NotesText (Task) 字段。 |
+| NotesRTF | `102` | 表示 NotesRTF (Task) 字段。 |
+| ManualStart | `103` | 表示 ManualStart (Task) 字段。 |
+| ManualFinish | `104` | 表示 ManualFinish (Task) 字段。 |
+| ManualDuration | `105` | 表示 ManualDuration (Task) 字段。 |
+| BudgetWork | `106` | 表示 BudgetWork (Task) 字段。 |
+| BudgetCost | `107` | 表示 BudgetCost (Task) 字段。 |
+| DisplayAsSummary | `108` | 表示 DisplayAsSummary (Task) 字段。 |
+| SummaryProgress | `109` | 表示 Summary Progress (Task) 字段。 |
+| IsActive | `110` | 表示 IsActive (Task) 字段。 |
+| StartText | `111` | 表示 StartText (Task) 字段。 |
+| FinishText | `112` | 表示 FinishText (Task) 字段。 |
+| DurationText | `113` | 表示 DurationText (Task) 字段。 |
+| CalendarUid | `114` | 表示 CalendarUid (Task) 字段。 |
+| ParentTaskUid | `115` | 表示 ParentTaskUid (Task) 字段。 |
+| DisplayOnTimeline | `116` | 表示 DisplayOnTimeline (Task) 字段。 |
+| TaskIsAssigned | `117` | 表示 TaskIsAssigned (Task) 字段。 |
+| TaskOriginalStart | `118` | 表示 原始开始 (Task) 字段。 |
+| TaskOriginalFinish | `119` | 表示 原始完成 (Task) 字段。 |
+| IsShowBeforeProjectStartDateWarning | `120` | 表示 使 MSP 显示警告的标志，任务在项目开始日期之前开始。 |
+| Warning | `121` | 表示 指示任务存在计划差异的标志。 |
+| ParentTaskGuid | `122` | 表示 ParentTaskGuid (Task) 字段。 |
+| ActivityId | `123` | 表示 ActivityId 字段（仅适用于 Primavera 项目）。 |
+| FreeSlackTimeSpan | `124` | 表示 FreeSlack（Task）字段。 |
+| TotalSlackTimeSpan | `125` | 表示 TotalSlack（Task）字段。 |
+| StartSlackTimeSpan | `126` | 表示 StartSlack（Task）字段。 |
+| FinishSlackTimeSpan | `127` | 表示 FinishSlack（Task）字段。 |
+| ExternalUid | `128` | 表示 外部任务的唯一标识。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何读取/写入任务属性。
+
+```csharp
+var project = new Project();
+
+// 添加任务并设置任务属性
+var task = project.RootTask.Children.Add();
+task.Set(Tsk.Name, "Task1");
+task.Set(Tsk.Start, new DateTime(2020, 3, 31, 8, 0, 0));
+task.Set(Tsk.Finish, new DateTime(2020, 3, 31, 17, 0, 0));
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// 遍历所有收集的任务
+foreach (var tsk in collector.Tasks)
+{
+    Console.WriteLine("Task Id: {0}", tsk.Get(Tsk.Id));
+    Console.WriteLine("Task Uid: {0}", tsk.Get(Tsk.Uid));
+    Console.WriteLine("Task Name: {0}", tsk.Get(Tsk.Name));
+    Console.WriteLine("Task Start: {0}", tsk.Get(Tsk.Start));
+    Console.WriteLine("Task Finish: {0}", tsk.Get(Tsk.Finish));
+}
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

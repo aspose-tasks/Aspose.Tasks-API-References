@@ -1,9 +1,9 @@
 ---
-title: Project.WorkFormat
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置 WorkFormat 的值
+title: "Project.WorkFormat"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置 WorkFormat 的值"
 type: docs
-weight: 1020
+weight: 1050
 url: /zh/net/aspose.tasks/project/workformat/
 ---
 ## Project.WorkFormat property
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/project/workformat/
 public TimeUnitType WorkFormat { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

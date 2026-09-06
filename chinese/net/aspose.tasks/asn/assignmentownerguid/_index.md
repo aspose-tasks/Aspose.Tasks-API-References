@@ -1,7 +1,7 @@
 ---
-title: Asn.AssignmentOwnerGuid
-second_title: Aspose.Tasks for .NET API 参考
-description: Asn 场地. 分配所有者的全局唯一标识符
+title: "Asn.AssignmentOwnerGuid"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Asn 字段。分配所有者的全局唯一标识符"
 type: docs
 weight: 110
 url: /zh/net/aspose.tasks/asn/assignmentownerguid/
@@ -14,12 +14,34 @@ url: /zh/net/aspose.tasks/asn/assignmentownerguid/
 public static readonly Key<string, AsnKey> AssignmentOwnerGuid;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Asn.AssignmentOwner 和 Asn.AssignmentOwnerGuid 属性。
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.AssignmentOwner, "Assignment Owner");
+assignment.Set(Asn.AssignmentOwnerGuid, "1d440f0c-7839-4802-af5f-4bb30e8b75ab");
+
+Console.WriteLine("Assignment Owner: " + assignment.Get(Asn.AssignmentOwner));
+Console.WriteLine("Assignment Owner GUID: " + assignment.Get(Asn.AssignmentOwnerGuid));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* 命名空间 [Aspose.Tasks](../../asn/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.ResponsePending
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignment 财产. 获取或设置一个值指示是否设置了 ResponsePending
+title: "ResourceAssignment.ResponsePending"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignment 属性。获取或设置一个值，指示 ResponsePending 是否已设置"
 type: docs
 weight: 520
 url: /zh/net/aspose.tasks/resourceassignment/responsepending/
 ---
 ## ResourceAssignment.ResponsePending property
 
-获取或设置一个值，指示是否设置了 ResponsePending。
+获取或设置指示 ResponsePending 是否已设置的值。
 
 ```csharp
 public bool ResponsePending { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

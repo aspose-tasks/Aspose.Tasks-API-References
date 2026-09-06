@@ -1,32 +1,63 @@
 ---
-title: BaselineCollection.Remove
-second_title: Aspose.Tasks for .NET API 参考
-description: BaselineCollection 方法. 从此集合中删除基线
+title: "BaselineCollection.Remove"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "BaselineCollection 方法。从此集合中移除基线"
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/baselinecollection/remove/
 ---
 ## BaselineCollection.Remove method
 
-从此集合中删除基线。
+从此集合中移除基线。
 
 ```csharp
 public bool Remove(Baseline item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | Baseline | 要删除的项目。 |
+| item | Baseline | 要移除的项。 |
 
 ### 返回值
 
-如果[`Baseline`](../../baseline/)实例已成功移除；否则，假
+如果已成功移除 [`Baseline`](../../baseline/) 实例则为 true；否则为 false
 
-### 也可以看看
+## 示例
+
+展示如何使用基线集合。
+
+```csharp
+var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
+var resource = project.Resources.GetByUid(1);
+
+Console.WriteLine("Count of assignment baselines: " + resource.Baselines.Count);
+Console.WriteLine("Parent Resource Name: " + resource.Baselines.ParentResource.Get(Rsc.Name));
+
+// 读取基线信息
+foreach (var baseline in resource.Baselines)
+{
+    Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+    Console.WriteLine("Cost: " + baseline.Cost);
+    Console.WriteLine("Work: " + baseline.Work);
+    Console.WriteLine("BCWP: " + baseline.Bcwp);
+    Console.WriteLine("BCWS: " + baseline.Bcws);
+    Console.WriteLine();
+}
+
+Console.WriteLine("Delete all baselines: ");
+List<Baseline> baselines = resource.Baselines.ToList();
+foreach (var baseline in baselines)
+{
+    Console.WriteLine("Delete baseline with name: " + baseline.BaselineNumber);
+    resource.Baselines.Remove(baseline);
+}
+```
+
+### 另见
 
 * class [Baseline](../../baseline/)
 * class [BaselineCollection](../)
-* 命名空间 [Aspose.Tasks](../../baselinecollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

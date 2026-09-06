@@ -1,9 +1,9 @@
 ---
-title: Class PageViewSettings
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Visualization.PageViewSettings 班级. 表示项目视图的打印设置
+title: "类 PageViewSettings"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Visualization.PageViewSettings 类。表示项目视图的打印设置"
 type: docs
-weight: 2910
+weight: 3260
 url: /zh/net/aspose.tasks.visualization/pageviewsettings/
 ---
 ## PageViewSettings class
@@ -16,24 +16,52 @@ public class PageViewSettings
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [PageViewSettings](pageviewsettings/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [FirstColumnsCount](../../aspose.tasks.visualization/pageviewsettings/firstcolumnscount/) { get; set; } | 获取或设置要在所有页面上打印的第一列数。 |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.visualization/pageviewsettings/fittimescaletoendofpage/) { get; set; } | 获取或设置一个值，该值指示打印时是否使时间刻度适合页尾。 |
-| [PrintAllSheetColumns](../../aspose.tasks.visualization/pageviewsettings/printallsheetcolumns/) { get; set; } | 获取或设置一个值，该值指示是否打印视图的所有工作表列。 |
-| [PrintBlankPages](../../aspose.tasks.visualization/pageviewsettings/printblankpages/) { get; set; } | 获取或设置一个值，该值指示是否打印视图的空白页。 |
-| [PrintFirstColumnsCountOnAllPages](../../aspose.tasks.visualization/pageviewsettings/printfirstcolumnscountonallpages/) { get; set; } | 获取或设置一个值，该值指示是否在所有页面上打印指定数目的第一列。 |
-| [PrintNotes](../../aspose.tasks.visualization/pageviewsettings/printnotes/) { get; set; } | 获取或设置一个值，指示是否打印注释。 |
+| [FirstColumnsCount](../../aspose.tasks.visualization/pageviewsettings/firstcolumnscount/) { get; set; } | 获取或设置在所有页面上打印的首列数量。 |
+| [FitTimescaleToEndOfPage](../../aspose.tasks.visualization/pageviewsettings/fittimescaletoendofpage/) { get; set; } | 获取或设置一个值，指示在打印时是否将时间尺度适配到页面末尾。 |
+| [PrintAllSheetColumns](../../aspose.tasks.visualization/pageviewsettings/printallsheetcolumns/) { get; set; } | 获取或设置一个值，指示是否打印视图的所有工作表列。 |
+| [PrintBlankPages](../../aspose.tasks.visualization/pageviewsettings/printblankpages/) { get; set; } | 获取或设置一个值，指示是否打印视图的空白页。 |
+| [PrintFirstColumnsCountOnAllPages](../../aspose.tasks.visualization/pageviewsettings/printfirstcolumnscountonallpages/) { get; set; } | 获取或设置一个值，指示是否在所有页面上打印指定数量的首列。 |
+| [PrintNotes](../../aspose.tasks.visualization/pageviewsettings/printnotes/) { get; set; } | 获取或设置一个值，指示是否打印备注。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 部件 [Aspose.Tasks](../../)
+展示如何在单独的页面上打印任务、资源、分配备注。
+
+```csharp
+var project = new Project(DataDir + "Input.mpp");
+
+// 设置所有页面上要打印的首列数量
+project.DefaultView.PageInfo.PageViewSettings.FirstColumnsCount = 2;
+
+// 设置一个值，指示是否打印备注。
+project.DefaultView.PageInfo.PageViewSettings.PrintNotes = true;
+
+// 设置一个值，指示在打印时是否将时间尺度适配到页面末尾。
+project.DefaultView.PageInfo.PageViewSettings.FitTimescaleToEndOfPage = true;
+
+// 设置一个值，指示是否打印视图的所有工作表列
+project.DefaultView.PageInfo.PageViewSettings.PrintAllSheetColumns = true;
+
+// 设置一个值，指示是否打印视图的空白页
+project.DefaultView.PageInfo.PageViewSettings.PrintBlankPages = false;
+
+// 设置一个值，指示是否在所有页面上打印指定数量的首列
+project.DefaultView.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;
+
+project.Save(OutDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
+```
+
+### 另见
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

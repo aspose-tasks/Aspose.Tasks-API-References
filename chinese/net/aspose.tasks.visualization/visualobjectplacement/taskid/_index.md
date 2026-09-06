@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.TaskId
-second_title: Aspose.Tasks for .NET API 参考
-description: VisualObjectPlacement 财产. 如果选择附加到任务选项则获取或设置任务 ID否则为 1
+title: "VisualObjectPlacement.TaskId"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "VisualObjectPlacement 属性。获取或设置任务的 Id；如果选择了附加到任务选项，则为 1，否则为其他"
 type: docs
 weight: 100
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/taskid/
 ---
 ## VisualObjectPlacement.TaskId property
 
-如果选择“附加到任务”选项，则获取或设置任务 ID，否则为 -1。
+获取或设置任务的 Id（如果选择了“Attach to task”选项，则为任务 Id；否则为 -1）。
 
 ```csharp
 public int TaskId { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [VisualObjectPlacement](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

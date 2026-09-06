@@ -1,9 +1,9 @@
 ---
-title: Task.ManualDuration
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取或设置 ManualDuration 的值
+title: "Task.ManualDuration"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取或设置 ManualDuration 的值"
 type: docs
-weight: 830
+weight: 820
 url: /zh/net/aspose.tasks/task/manualduration/
 ---
 ## Task.ManualDuration property
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/task/manualduration/
 public Duration ManualDuration { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

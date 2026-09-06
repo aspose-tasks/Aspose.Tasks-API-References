@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignmentCollection.Add
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignmentCollection 方法. 向 ResourceAssignmentCollection 添加新分配
+title: "ResourceAssignmentCollection.Add"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignmentCollection 方法。向 ResourceAssignmentCollection 添加新分配"
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/resourceassignmentcollection/add/
@@ -14,24 +14,75 @@ url: /zh/net/aspose.tasks/resourceassignmentcollection/add/
 public ResourceAssignment Add(Task task, Resource resource, double units)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| task | Task | 要分配的任务。 |
-| resource | Resource | 要分配的资源。 |
-| units | Double | 新分配的单元数。 |
+| 任务 | 任务 | 要分配的任务。 |
+| 资源 | 资源 | 要分配的资源。 |
+| 单位 | Double | 新分配的单位数。 |
 
 ### 返回值
 
-添加任务。
+已添加的分配。
 
-### 也可以看看
+## 示例
+
+展示如何使用资源分配集合。
+
+```csharp
+var project = new Project(DataDir + "TemplateResource2010.mpp");
+
+var task = project.RootTask.Children.Add("Task 1");
+var resource = project.Resources.Add("Resource 1");
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignment.Set(Asn.Work, project.GetWork(40));
+assignment.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithUnits = project.ResourceAssignments.Add(task, resource, 1d);
+assignmentWithUnits.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithUnits.Set(Asn.Work, project.GetWork(40));
+assignmentWithUnits.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithCost = project.ResourceAssignments.Add(task, resource);
+assignmentWithCost.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithCost.Set(Asn.Work, project.GetWork(40));
+assignmentWithCost.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+Console.WriteLine("Print assignments for the project: " + project.ResourceAssignments.ParentProject.Get(Prj.Name));
+Console.WriteLine("Resource assignment count: " + project.ResourceAssignments.Count);
+foreach (var resourceAssignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Task Name: " + resourceAssignment.Get(Asn.Task).Get(Tsk.Name));
+    Console.WriteLine("Uid: " + resourceAssignment.Get(Asn.Uid));
+    Console.WriteLine("Start: " + resourceAssignment.Get(Asn.Start));
+    Console.WriteLine("Work: " + resourceAssignment.Get(Asn.Work));
+    Console.WriteLine("Finish: " + resourceAssignment.Get(Asn.Finish));
+}
+
+var assignmentByUid = project.ResourceAssignments.GetByUid(2);
+Console.WriteLine("Assignment By Uid Start: " + assignmentByUid.Get(Asn.Start));
+
+// 处理分配...
+Console.WriteLine("Is resource assignment collection read-only?: " + project.ResourceAssignments.IsReadOnly);
+
+// 将集合转换为列表
+List<ResourceAssignment> resourceAssignments = project.ResourceAssignments.ToList();
+
+// 遍历列表
+foreach (var ra in resourceAssignments)
+{
+    Console.WriteLine(ra.ToString());
+}
+```
+
+### 另见
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [Task](../../task/)
 * class [Resource](../../resource/)
 * class [ResourceAssignmentCollection](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignmentcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -43,24 +94,75 @@ public ResourceAssignment Add(Task task, Resource resource, double units)
 public ResourceAssignment Add(Task task, Resource resource, decimal cost)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| task | Task | 要分配的任务。 |
-| resource | Resource | 要分配的成本资源。 |
-| cost | Decimal | 新任务的成本。 |
+| 任务 | 任务 | 要分配的任务。 |
+| 资源 | 资源 | 要分配的成本资源。 |
+| 成本 | Decimal | 新分配的成本。 |
 
 ### 返回值
 
-添加任务。
+已添加的分配。
 
-### 也可以看看
+## 示例
+
+展示如何使用资源分配集合。
+
+```csharp
+var project = new Project(DataDir + "TemplateResource2010.mpp");
+
+var task = project.RootTask.Children.Add("Task 1");
+var resource = project.Resources.Add("Resource 1");
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignment.Set(Asn.Work, project.GetWork(40));
+assignment.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithUnits = project.ResourceAssignments.Add(task, resource, 1d);
+assignmentWithUnits.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithUnits.Set(Asn.Work, project.GetWork(40));
+assignmentWithUnits.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithCost = project.ResourceAssignments.Add(task, resource);
+assignmentWithCost.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithCost.Set(Asn.Work, project.GetWork(40));
+assignmentWithCost.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+Console.WriteLine("Print assignments for the project: " + project.ResourceAssignments.ParentProject.Get(Prj.Name));
+Console.WriteLine("Resource assignment count: " + project.ResourceAssignments.Count);
+foreach (var resourceAssignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Task Name: " + resourceAssignment.Get(Asn.Task).Get(Tsk.Name));
+    Console.WriteLine("Uid: " + resourceAssignment.Get(Asn.Uid));
+    Console.WriteLine("Start: " + resourceAssignment.Get(Asn.Start));
+    Console.WriteLine("Work: " + resourceAssignment.Get(Asn.Work));
+    Console.WriteLine("Finish: " + resourceAssignment.Get(Asn.Finish));
+}
+
+var assignmentByUid = project.ResourceAssignments.GetByUid(2);
+Console.WriteLine("Assignment By Uid Start: " + assignmentByUid.Get(Asn.Start));
+
+// 处理分配...
+Console.WriteLine("Is resource assignment collection read-only?: " + project.ResourceAssignments.IsReadOnly);
+
+// 将集合转换为列表
+List<ResourceAssignment> resourceAssignments = project.ResourceAssignments.ToList();
+
+// 遍历列表
+foreach (var ra in resourceAssignments)
+{
+    Console.WriteLine(ra.ToString());
+}
+```
+
+### 另见
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [Task](../../task/)
 * class [Resource](../../resource/)
 * class [ResourceAssignmentCollection](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignmentcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -72,43 +174,94 @@ public ResourceAssignment Add(Task task, Resource resource, decimal cost)
 public ResourceAssignment Add(Task task, Resource resource)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| task | Task | 要分配的任务。 |
-| resource | Resource | 要分配的资源。 |
+| 任务 | 任务 | 要分配的任务。 |
+| 资源 | 资源 | 要分配的资源。 |
 
 ### 返回值
 
-添加任务。
+已添加的分配。
 
-### 也可以看看
+## 示例
+
+展示如何使用资源分配集合。
+
+```csharp
+var project = new Project(DataDir + "TemplateResource2010.mpp");
+
+var task = project.RootTask.Children.Add("Task 1");
+var resource = project.Resources.Add("Resource 1");
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignment.Set(Asn.Work, project.GetWork(40));
+assignment.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithUnits = project.ResourceAssignments.Add(task, resource, 1d);
+assignmentWithUnits.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithUnits.Set(Asn.Work, project.GetWork(40));
+assignmentWithUnits.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithCost = project.ResourceAssignments.Add(task, resource);
+assignmentWithCost.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithCost.Set(Asn.Work, project.GetWork(40));
+assignmentWithCost.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+Console.WriteLine("Print assignments for the project: " + project.ResourceAssignments.ParentProject.Get(Prj.Name));
+Console.WriteLine("Resource assignment count: " + project.ResourceAssignments.Count);
+foreach (var resourceAssignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Task Name: " + resourceAssignment.Get(Asn.Task).Get(Tsk.Name));
+    Console.WriteLine("Uid: " + resourceAssignment.Get(Asn.Uid));
+    Console.WriteLine("Start: " + resourceAssignment.Get(Asn.Start));
+    Console.WriteLine("Work: " + resourceAssignment.Get(Asn.Work));
+    Console.WriteLine("Finish: " + resourceAssignment.Get(Asn.Finish));
+}
+
+var assignmentByUid = project.ResourceAssignments.GetByUid(2);
+Console.WriteLine("Assignment By Uid Start: " + assignmentByUid.Get(Asn.Start));
+
+// 处理分配...
+Console.WriteLine("Is resource assignment collection read-only?: " + project.ResourceAssignments.IsReadOnly);
+
+// 将集合转换为列表
+List<ResourceAssignment> resourceAssignments = project.ResourceAssignments.ToList();
+
+// 遍历列表
+foreach (var ra in resourceAssignments)
+{
+    Console.WriteLine(ra.ToString());
+}
+```
+
+### 另见
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [Task](../../task/)
 * class [Resource](../../resource/)
 * class [ResourceAssignmentCollection](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignmentcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(ResourceAssignment) {#add_3}
 
-这是 ICollection 的 Add 方法的存根实现，它只抛出 NotSupportedException
+这是 ICollection 的 Add 方法的存根实现，只会抛出 NotSupportedException。
 
 ```csharp
 public void Add(ResourceAssignment item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | ResourceAssignment | 要删除的项目。 |
+| item | ResourceAssignment | 要移除的项。 |
 
-### 也可以看看
+### 另见
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [ResourceAssignmentCollection](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignmentcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

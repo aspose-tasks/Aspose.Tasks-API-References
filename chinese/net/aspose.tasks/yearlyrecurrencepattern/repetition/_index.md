@@ -1,7 +1,7 @@
 ---
-title: YearlyRecurrencePattern.Repetition
-second_title: Aspose.Tasks for .NET API 参考
-description: YearlyRecurrencePattern 财产. 获取或设置循环位置模式
+title: "YearlyRecurrencePattern.Repetition"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "YearlyRecurrencePattern 属性。获取或设置循环位置模式"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/yearlyrecurrencepattern/repetition/
@@ -14,11 +14,36 @@ url: /zh/net/aspose.tasks/yearlyrecurrencepattern/repetition/
 public YearlyRepetitionBase Repetition { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示在创建循环任务时如何使用年度循环模式。
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new YearlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByYearDayRepetition { DayPosition = 1, Month = Month.July },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2019, 7, 1, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "WorkWithYearlyRecurrencePattern_out.mpp", SaveFileFormat.Mpp);
+```
+
+### 另见
 
 * class [YearlyRepetitionBase](../../yearlyrepetitionbase/)
 * class [YearlyRecurrencePattern](../)
-* 命名空间 [Aspose.Tasks](../../yearlyrecurrencepattern/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../yearlyrecurrencepattern/)
+* assembly [Aspose.Tasks](../../../)
 
 

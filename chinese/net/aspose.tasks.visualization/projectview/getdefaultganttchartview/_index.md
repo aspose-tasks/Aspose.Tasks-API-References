@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultGanttChartView
-second_title: Aspose.Tasks for .NET API 参考
-description: ProjectView 方法. 包括 id指标名称持续时间开始和完成任务列
+title: "ProjectView.GetDefaultGanttChartView"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ProjectView 方法。包括 id、指示符、名称、持续时间、开始和完成任务列"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/projectview/getdefaultganttchartview/
 ---
 ## ProjectView.GetDefaultGanttChartView method
 
-包括 id、指标、名称、持续时间、开始和完成任务列。
+包括 id、指示器、名称、持续时间、开始和完成任务列。
 
 ```csharp
 public static ProjectView GetDefaultGanttChartView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultGanttChartView()
 
 ### 返回值
 
-包含列表的视图[`GanttChartColumn`](../../ganttchartcolumn/).
+一个视图，其中包含 [`GanttChartColumn`](../../ganttchartcolumn/) 列表。
 
-### 也可以看看
+## 示例
+
+展示如何使用甘特图视图保存项目。
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultGanttChartView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_GanttChartView_out.pdf", options);
+```
+
+### 另见
 
 * class [ProjectView](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../projectview/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

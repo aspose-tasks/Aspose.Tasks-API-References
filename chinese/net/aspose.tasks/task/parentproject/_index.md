@@ -1,9 +1,9 @@
 ---
-title: Task.ParentProject
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取任务的父项目
+title: "Task.ParentProject"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取任务的父项目"
 type: docs
-weight: 940
+weight: 930
 url: /zh/net/aspose.tasks/task/parentproject/
 ---
 ## Task.ParentProject property
@@ -14,15 +14,29 @@ url: /zh/net/aspose.tasks/task/parentproject/
 public Project ParentProject { get; }
 ```
 
-### 评论
+## 备注
 
-调用 Project.UpdateReferences 更新这些属性。
+调用 Project.UpdateReferences 来更新这些属性。
 
-### 也可以看看
+## 示例
+
+展示如何使用任务的父项目。
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Parent");
+
+// 通过使用默认项目时间单位类型为任务设置持续时间。
+task.Set(Tsk.Duration, task.ParentProject.GetDuration(1));
+
+Console.WriteLine(task.Get(Tsk.Duration));
+```
+
+### 另见
 
 * class [Project](../../project/)
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

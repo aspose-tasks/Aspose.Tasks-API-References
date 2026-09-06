@@ -1,9 +1,9 @@
 ---
-title: Tsk.IsResumeValid
-second_title: Aspose.Tasks for .NET API 参考
-description: Tsk 场地. 确定任务是否可以恢复
+title: "Tsk.IsResumeValid"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Tsk 字段。确定任务是否可以恢复"
 type: docs
-weight: 690
+weight: 680
 url: /zh/net/aspose.tasks/tsk/isresumevalid/
 ---
 ## Tsk.IsResumeValid field
@@ -14,13 +14,27 @@ url: /zh/net/aspose.tasks/tsk/isresumevalid/
 public static readonly Key<NullableBool, TaskKey> IsResumeValid;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Tsk.IsResumeValid 属性。
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsResumeValid, true);
+
+Console.WriteLine("Is Resume Valid: " + task.Get(Tsk.IsResumeValid));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* 命名空间 [Aspose.Tasks](../../tsk/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

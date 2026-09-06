@@ -1,14 +1,14 @@
 ---
-title: Class FieldHelper
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Util.FieldHelper 班级. Helper 类提供有用的字段操作
+title: "类 FieldHelper"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Util.FieldHelper 类。提供字段有用操作的帮助类"
 type: docs
-weight: 2380
+weight: 2700
 url: /zh/net/aspose.tasks.util/fieldhelper/
 ---
 ## FieldHelper class
 
-Helper 类，提供有用的字段操作。
+提供对字段有用操作的辅助类。
 
 ```csharp
 public static class FieldHelper
@@ -16,13 +16,14 @@ public static class FieldHelper
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
+| static [GetDefaultFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaultfieldtitle/)(Field) | 返回特定字段的默认标题。 |
 | static [GetDefaultTaskFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/)(TaskKey) | 返回特定任务字段的默认标题。 |
 
-### 也可以看看
+### 另见
 
-* 命名空间 [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: FontResolveEventArgs.ResolvedFontName
-second_title: Aspose.Tasks for .NET API 参考
-description: FontResolveEventArgs 财产. 获取或设置解析字体的名称可以设置为控制用于呈现视图的字体
+title: "FontResolveEventArgs.ResolvedFontName"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "FontResolveEventArgs 属性。获取或设置已解析字体的名称。可设置以控制用于渲染视图的字体"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/fontresolveeventargs/resolvedfontname/
 ---
 ## FontResolveEventArgs.ResolvedFontName property
 
-获取或设置解析字体的名称。可以设置为控制用于呈现视图的字体。
+获取或设置已解析字体的名称。可设置以控制用于渲染视图的字体。
 
 ```csharp
 public string ResolvedFontName { get; set; }
@@ -16,12 +16,12 @@ public string ResolvedFontName { get; set; }
 
 ### 返回值
 
-如果找到字体，则请求字体的名称 or 如果找不到字体，则后备字体的名称 or 为空。
+如果找到字体，则为请求的字体名称；如果未找到，则为回退字体名称；若仍未找到，则为 null。
 
-### 也可以看看
+### 另见
 
 * class [FontResolveEventArgs](../)
-* 命名空间 [Aspose.Tasks](../../fontresolveeventargs/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontresolveeventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: GroupCriterion.GetHashCode
-second_title: Aspose.Tasks for .NET API 参考
-description: GroupCriterion 方法. 作为哈希函数的特定类型
+title: "GroupCriterion.GetHashCode"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "GroupCriterion 方法。作为特定类型的哈希函数"
 type: docs
-weight: 140
+weight: 120
 url: /zh/net/aspose.tasks/groupcriterion/gethashcode/
 ---
 ## GroupCriterion.GetHashCode method
 
-作为哈希函数的特定类型。
+作为特定类型的哈希函数。
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### 返回值
 
-当前的哈希码Object.
+当前对象的哈希码。
 
-### 也可以看看
+### 另见
 
 * class [GroupCriterion](../)
-* 命名空间 [Aspose.Tasks](../../groupcriterion/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

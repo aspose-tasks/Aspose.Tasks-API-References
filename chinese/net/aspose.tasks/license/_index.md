@@ -1,35 +1,35 @@
 ---
-title: Class License
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.License 班级. 提供许可组件的方法
+title: "类 License"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.License 类。提供对组件进行授权的方法"
 type: docs
-weight: 860
+weight: 980
 url: /zh/net/aspose.tasks/license/
 ---
 ## License class
 
-提供许可组件的方法。
+提供对组件授权的方法。
 
 ```csharp
-public class License
+public sealed class License
 ```
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [License](license/)() | 初始化一个新的实例`License`班级。 |
+| [License](license/)() | 初始化 `License` 类的新实例。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | 许可组件。 |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | 许可组件。 |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | 为组件授权。 |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | 为组件授权。 |
 
-### 例子
+## 示例
 
-在此示例中，将尝试在包含 的文件夹中查找名为 MyLicense.lic 的许可证文件 组件，在包含调用程序集的文件夹中， 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
+在此示例中，将尝试在包含组件的文件夹、包含调用程序集的文件夹、入口程序集的文件夹以及调用程序集的嵌入资源中查找名为 MyLicense.lic 的许可证文件。
 
 ```csharp
 [C#]
@@ -51,9 +51,16 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### 也可以看看
+展示如何为 Aspose.Tasks 应用许可证。
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

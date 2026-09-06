@@ -1,23 +1,53 @@
 ---
-title: Rate.CostPerUse
-second_title: Aspose.Tasks for .NET API 参考
-description: Rate 财产. 获取或设置资源的每次使用成本如果资源存在费率表则从当前日期检索该值
+title: "Rate.CostPerUse"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Rate 属性。获取或设置资源的每次使用成本。如果资源存在费率表，则此值从当前日期检索"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/rate/costperuse/
 ---
 ## Rate.CostPerUse property
 
-获取或设置资源的每次使用成本。如果资源存在费率表，则从当前日期检索该值。
+获取或设置资源每次使用的成本。如果资源存在费率表，则此值从当前日期获取。
 
 ```csharp
 public decimal CostPerUse { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何使用资源费率。
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RateTable = RateType.A;
+rate1.RatesFrom = new DateTime(2019, 1, 1, 8, 0, 0);
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+rate1.OvertimeRate = 10m;
+rate1.OvertimeRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0));
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+rate2.CostPerUse = 2m;
+
+// 处理项目...
+```
+
+### 另见
 
 * class [Rate](../)
-* 命名空间 [Aspose.Tasks](../../rate/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rate/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,29 +1,29 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Visualization.HorizontalAlignment 枚举. 指定一个对象或文本如何相对于另一个对象水平对齐
+title: "枚举 HorizontalAlignment"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Visualization.HorizontalAlignment 枚举。指定对象或文本相对于另一个对象的水平对齐方式"
 type: docs
-weight: 2810
+weight: 3140
 url: /zh/net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-指定一个对象或文本如何相对于另一个对象水平对齐。
+指定对象或文本相对于另一个对象的水平对齐方式。
 
 ```csharp
 public enum HorizontalAlignment
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Left | `0` | 对象在目标元素的左侧对齐。 |
 | Right | `1` | 对象在目标元素的右侧对齐。 |
 
-### 也可以看看
+### 另见
 
-* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Class RiskAnalysisResult
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.RiskAnalysis.RiskAnalysisResult 班级. 表示风险分析的结果
+title: "类 RiskAnalysisResult"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.RiskAnalysis.RiskAnalysisResult 类。表示风险分析的结果"
 type: docs
-weight: 1610
+weight: 1870
 url: /zh/net/aspose.tasks.riskanalysis/riskanalysisresult/
 ---
 ## RiskAnalysisResult class
@@ -16,15 +16,63 @@ public class RiskAnalysisResult
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [GetRiskItems](../../aspose.tasks.riskanalysis/riskanalysisresult/getriskitems/)(RiskItemType) | 返回一个实例[`RiskItemStatisticsCollection`](../riskitemstatisticscollection/)对于指定的风险类型。 |
-| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport/#savereport)(Stream) | 将风险分析报告以 PDF 格式保存到流中。 |
-| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport/#savereport_1)(string) | 将风险分析报告以PDF格式保存到指定文件路径。 |
+| [GetRiskItems](../../aspose.tasks.riskanalysis/riskanalysisresult/getriskitems/)(RiskItemType) | 返回指定风险类型的 [`RiskItemStatisticsCollection`](../riskitemstatisticscollection/) 实例。 |
+| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport/#savereport)(Stream) | 以 PDF 格式将风险分析报告保存到流中。 |
+| [SaveReport](../../aspose.tasks.riskanalysis/riskanalysisresult/savereport/#savereport_1)(string) | 以 PDF 格式将风险分析报告保存到指定的文件路径。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
-* 部件 [Aspose.Tasks](../../)
+展示如何计算风险统计并将其保存为 PDF 报告。
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// 初始化风险模式
+var pattern = new RiskPattern(task)
+{
+    // 为随机数生成器选择一种分布类型以生成可能的值（当前仅支持两种类型，即正态分布和均匀分布）            
+    // 更多详情请参见此处：https://en.wikipedia.org/wiki/Normal_distribution)
+    Distribution = ProbabilityDistributionType.Normal,
+
+    // 设置在最佳项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 75，这意味着如果估计的任务持续时间为 4 天，则乐观持续时间将为 3 天
+    Optimistic = 70,
+
+    // 设置在最差项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 125，这意味着如果估计的任务持续时间为 4 天，则悲观持续时间将为 5 天。
+    Pessimistic = 130,
+
+    // 设置一个置信水平，对应实际值在乐观和悲观估计范围内出现的时间百分比。 
+    // 可以将其视为标准差的数值：对估计越不确定，随机数生成器使用的标准差值就越大
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+settings.Patterns.Add(pattern);
+
+// 分析项目风险
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+
+// 将分析保存为报告到文件路径指定的文件中
+analysisResult.SaveReport(OutDir + "AnalysisResult_out.pdf");
+
+// 或将分析保存到流中
+using (var stream = new FileStream(OutDir + "AnalysisResult_out1.pdf", FileMode.Create))
+{
+    analysisResult.SaveReport(stream);
+}
+```
+
+### 另见
+
+* namespace [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
+* assembly [Aspose.Tasks](../../)
 
 

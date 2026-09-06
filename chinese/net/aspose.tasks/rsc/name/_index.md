@@ -1,7 +1,7 @@
 ---
-title: Rsc.Name
-second_title: Aspose.Tasks for .NET API 参考
-description: Rsc 场地. 资源的名称
+title: "Rsc.Name"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Rsc 字段。资源的名称"
 type: docs
 weight: 460
 url: /zh/net/aspose.tasks/rsc/name/
@@ -14,12 +14,26 @@ url: /zh/net/aspose.tasks/rsc/name/
 public static readonly Key<string, RscKey> Name;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Rsc.Name 属性。
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* 命名空间 [Aspose.Tasks](../../rsc/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

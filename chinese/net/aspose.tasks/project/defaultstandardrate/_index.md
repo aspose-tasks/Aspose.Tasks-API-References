@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultStandardRate
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置 DefaultStandardRate 的值
+title: "Project.DefaultStandardRate"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置 DefaultStandardRate 的值"
 type: docs
-weight: 310
+weight: 320
 url: /zh/net/aspose.tasks/project/defaultstandardrate/
 ---
 ## Project.DefaultStandardRate property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/project/defaultstandardrate/
 public double DefaultStandardRate { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

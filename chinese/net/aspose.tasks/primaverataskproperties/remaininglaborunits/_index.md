@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingLaborUnits
-second_title: Aspose.Tasks for .NET API 参考
-description: PrimaveraTaskProperties 财产. 获取剩余工时单位的值
+title: "PrimaveraTaskProperties.RemainingLaborUnits"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PrimaveraTaskProperties 属性。获取剩余人工单位的值"
 type: docs
-weight: 120
+weight: 290
 url: /zh/net/aspose.tasks/primaverataskproperties/remaininglaborunits/
 ---
 ## PrimaveraTaskProperties.RemainingLaborUnits property
 
-获取剩余工时单位的值。
+获取剩余人工单位的值。
 
 ```csharp
 public double RemainingLaborUnits { get; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [PrimaveraTaskProperties](../)
-* 命名空间 [Aspose.Tasks](../../primaverataskproperties/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

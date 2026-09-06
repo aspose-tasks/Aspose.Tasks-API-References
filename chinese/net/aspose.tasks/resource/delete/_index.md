@@ -1,9 +1,9 @@
 ---
-title: Resource.Delete
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 方法. 从项目中删除资源及其分配
+title: "Resource.Delete"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "资源方法。删除项目中的资源及其分配"
 type: docs
-weight: 820
+weight: 810
 url: /zh/net/aspose.tasks/resource/delete/
 ---
 ## Resource.Delete method
@@ -14,10 +14,27 @@ url: /zh/net/aspose.tasks/resource/delete/
 public void Delete()
 ```
 
-### 也可以看看
+## 示例
+
+展示如何删除资源。
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource = project.Resources.GetById(1);
+
+Console.WriteLine("Number of resources (before): " + project.Resources.Count);
+
+// 删除资源
+resource.Delete();
+
+Console.WriteLine("Number of resources (after): " + project.Resources.Count);
+```
+
+### 另见
 
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

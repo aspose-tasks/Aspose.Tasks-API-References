@@ -1,26 +1,38 @@
 ---
-title: Prj.MicrosoftProjectServerURL
-second_title: Aspose.Tasks for .NET API 参考
-description: Prj 场地. 确定项目是否由 Project Server 用户而不是 NT 用户创建
+title: "Prj.MicrosoftProjectServerURL"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Prj 字段。确定项目是由 Project Server 用户创建还是 NT 用户创建"
 type: docs
-weight: 450
+weight: 460
 url: /zh/net/aspose.tasks/prj/microsoftprojectserverurl/
 ---
 ## Prj.MicrosoftProjectServerURL field
 
-确定项目是否由 Project Server 用户而不是 NT 用户创建。
+确定项目是由 Project Server 用户还是 NT 用户创建的。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MicrosoftProjectServerURL;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Prj.MicrosoftProjectServerURL 属性。
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MicrosoftProjectServerURL, true);
+
+Console.WriteLine("Microsoft Project Server U R L: " + project.Get(Prj.MicrosoftProjectServerURL));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* 命名空间 [Aspose.Tasks](../../prj/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

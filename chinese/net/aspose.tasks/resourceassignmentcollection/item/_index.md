@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignmentCollection.Item
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignmentCollection 财产. 返回指定索引处的元素
+title: "ResourceAssignmentCollection.Item"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignmentCollection 属性。返回指定索引处的元素"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/resourceassignmentcollection/item/
@@ -14,19 +14,19 @@ url: /zh/net/aspose.tasks/resourceassignmentcollection/item/
 public ResourceAssignment this[int index] { get; set; }
 ```
 
-| 范围 | 描述 |
+| 参数 | 描述 |
 | --- | --- |
-| index | 要获取的元素的从零开始的索引。 |
+| index | 要获取的元素的零基索引。 |
 
 ### 返回值
 
 指定索引处的元素。
 
-### 也可以看看
+### 另见
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [ResourceAssignmentCollection](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignmentcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: Calendar.Equals
-second_title: Aspose.Tasks for .NET API 参考
-description: Calendar 方法. 返回一个值指示此实例是否等于指定对象
+title: "Calendar.Equals"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Calendar 方法。返回一个值，指示此实例是否等于指定的对象。"
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.tasks/calendar/equals/
 ---
 ## Calendar.Equals method
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与此实例进行比较的对象。 |
+| obj | 对象 | 与此实例比较的对象。 |
 
 ### 返回值
 
-**真的**如果 o 是与此实例具有相同 Uid 值的日历；否则， **错误的**.
+**True** if o is a Calendar that has the same Uid value as this instance; otherwise, **false**.
 
-### 也可以看看
+### 另见
 
 * class [Calendar](../)
-* 命名空间 [Aspose.Tasks](../../calendar/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

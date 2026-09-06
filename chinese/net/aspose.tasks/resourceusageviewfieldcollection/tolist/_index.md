@@ -1,14 +1,14 @@
 ---
-title: ResourceUsageViewFieldCollection.ToList
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceUsageViewFieldCollection 方法. 转换的实例ResourceUsageViewFieldCollection类到包含实例的列表ResourceUsageViewField类.
+title: "ResourceUsageViewFieldCollection.ToList"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceUsageViewFieldCollection 方法。将 ResourceUsageViewFieldCollection 类的实例转换为包含 ResourceUsageViewField 类实例的列表"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/resourceusageviewfieldcollection/tolist/
 ---
 ## ResourceUsageViewFieldCollection.ToList method
 
-转换的实例[`ResourceUsageViewFieldCollection`](../)类到包含实例的列表[`ResourceUsageViewField`](../../resourceusageviewfield/)类.
+将 [`ResourceUsageViewFieldCollection`](../) 类的实例转换为包含 [`ResourceUsageViewField`](../../resourceusageviewfield/) 类实例的列表。
 
 ```csharp
 public IList<ResourceUsageViewField> ToList()
@@ -16,13 +16,34 @@ public IList<ResourceUsageViewField> ToList()
 
 ### 返回值
 
-的实例[`ResourceUsageViewFieldCollection`](../)类转换为包含实例的列表[`ResourceUsageViewField`](../../resourceusageviewfield/)班级。
+该 [`ResourceUsageViewFieldCollection`](../) 类的实例已转换为包含 [`ResourceUsageViewField`](../../resourceusageviewfield/) 类实例的列表。
 
-### 也可以看看
+## 示例
+
+展示如何使用 ResourceUsageView 实例的字段集合。
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// 可以将集合转换为 ResourceUsageViewField 列表
+IList<ResourceUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### 另见
 
 * enum [ResourceUsageViewField](../../resourceusageviewfield/)
 * class [ResourceUsageViewFieldCollection](../)
-* 命名空间 [Aspose.Tasks](../../resourceusageviewfieldcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceusageviewfieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

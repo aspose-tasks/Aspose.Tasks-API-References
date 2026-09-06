@@ -1,7 +1,7 @@
 ---
-title: VbaReference.Name
-second_title: Aspose.Tasks for .NET API 参考
-description: VbaReference 财产. 获取或设置 VBA 引用的名称
+title: "VbaReference.Name"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "VbaReference 属性。获取或设置 VBA 引用的名称"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/vbareference/name/
@@ -14,10 +14,26 @@ url: /zh/net/aspose.tasks/vbareference/name/
 public string Name { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取 VBA 引用。
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
+### 另见
 
 * class [VbaReference](../)
-* 命名空间 [Aspose.Tasks](../../vbareference/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

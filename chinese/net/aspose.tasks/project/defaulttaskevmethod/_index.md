@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultTaskEVMethod
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置 DefaultTaskEVMethod 的值
+title: "Project.DefaultTaskEVMethod"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置 DefaultTaskEVMethod 的值"
 type: docs
-weight: 330
+weight: 340
 url: /zh/net/aspose.tasks/project/defaulttaskevmethod/
 ---
 ## Project.DefaultTaskEVMethod property
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/project/defaulttaskevmethod/
 public EarnedValueMethodType DefaultTaskEVMethod { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

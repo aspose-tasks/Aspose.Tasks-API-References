@@ -1,39 +1,91 @@
 ---
-title: Class RiskItemStatistics
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.RiskAnalysis.RiskItemStatistics 班级. 表示存储分析项目任务的统计数据的项
+title: "类 RiskItemStatistics"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.RiskAnalysis.RiskItemStatistics 类。表示一个用于存储已分析项目任务统计数据的项"
 type: docs
-weight: 1640
+weight: 1900
 url: /zh/net/aspose.tasks.riskanalysis/riskitemstatistics/
 ---
 ## RiskItemStatistics class
 
-表示存储分析项目任务的统计数据的项。
+表示存储已分析项目任务统计数据的项。
 
 ```csharp
 public class RiskItemStatistics
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [ExpectedValue](../../aspose.tasks.riskanalysis/riskitemstatistics/expectedvalue/) { get; } | 获取风险项的期望值。 |
-| [ItemType](../../aspose.tasks.riskanalysis/riskitemstatistics/itemtype/) { get; } | 获取一个实例[`RiskItemType`](../riskitemtype/)枚举. |
-| [Maximum](../../aspose.tasks.riskanalysis/riskitemstatistics/maximum/) { get; } | 获取在蒙特卡洛模拟过程中生成的最大值。 |
-| [Minimum](../../aspose.tasks.riskanalysis/riskitemstatistics/minimum/) { get; } | 获取蒙特卡洛模拟过程中生成的最小值。 |
-| [StandardDeviation](../../aspose.tasks.riskanalysis/riskitemstatistics/standarddeviation/) { get; } | 获取风险项的标准差。 |
+| [ItemType](../../aspose.tasks.riskanalysis/riskitemstatistics/itemtype/) { get; } | 获取 [`RiskItemType`](../riskitemtype/) 枚举的实例。 |
+| [Maximum](../../aspose.tasks.riskanalysis/riskitemstatistics/maximum/) { get; } | 获取在 Monte Carlo 仿真期间生成的最大值。 |
+| [Minimum](../../aspose.tasks.riskanalysis/riskitemstatistics/minimum/) { get; } | 获取在 Monte Carlo 仿真期间生成的最小值。 |
+| [StandardDeviation](../../aspose.tasks.riskanalysis/riskitemstatistics/standarddeviation/) { get; } | 获取风险项的标准偏差。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [GetPercentile](../../aspose.tasks.riskanalysis/riskitemstatistics/getpercentile/)(int) | 获取一个值，生成的样本的指定百分比低于该值。 |
-| override [ToString](../../aspose.tasks.riskanalysis/riskitemstatistics/tostring/)() | 返回风险项目的短字符串表示形式。 表示形式的确切细节未指定，可能会发生变化。 |
+| [GetPercentile](../../aspose.tasks.riskanalysis/riskitemstatistics/getpercentile/)(int) | 获取一个阈值，低于该值的生成样本占指定百分比。 |
+| override [ToString](../../aspose.tasks.riskanalysis/riskitemstatistics/tostring/)() | 返回风险项的简短字符串表示。表示的具体细节未指定，可能会更改。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
-* 部件 [Aspose.Tasks](../../)
+展示如何计算风险统计。
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// 初始化风险模式
+var pattern = new RiskPattern(task)
+{
+    // 为随机数生成器选择一种分布类型以生成可能的值（当前仅支持两种类型，即正态分布和均匀分布）            
+    // 更多详情请参见此处：https://en.wikipedia.org/wiki/Normal_distribution)
+    Distribution = ProbabilityDistributionType.Normal,
+
+    // 设置在最佳项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 75，这意味着如果估计的任务持续时间为 4 天，则乐观持续时间将为 3 天
+    Optimistic = 70,
+
+    // 设置在最差项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 125，这意味着如果估计的任务持续时间为 4 天，则悲观持续时间将为 5 天。
+    Pessimistic = 130,
+
+    // 设置一个置信水平，对应实际值在乐观和悲观估计范围内出现的时间百分比。 
+    // 可以将其视为标准差的数值：对估计越不确定，随机数生成器使用的标准差值就越大
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+settings.Patterns.Add(pattern);
+
+// 分析项目风险
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+var statistics = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
+
+Console.WriteLine("Short statistic: " + statistics);
+Console.WriteLine();
+Console.WriteLine("Statistic details: ");
+Console.WriteLine("Item Type: {0}", statistics.ItemType);
+Console.WriteLine("Expected value: {0}", statistics.ExpectedValue);
+Console.WriteLine("StandardDeviation: {0}", statistics.StandardDeviation);
+Console.WriteLine("10% Percentile: {0}", statistics.GetPercentile(10));
+Console.WriteLine("50% Percentile: {0}", statistics.GetPercentile(50));
+Console.WriteLine("90% Percentile: {0}", statistics.GetPercentile(90));
+Console.WriteLine("Minimum: {0}", statistics.Minimum);
+Console.WriteLine("Maximum: {0}", statistics.Maximum);
+```
+
+### 另见
+
+* namespace [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
+* assembly [Aspose.Tasks](../../)
 
 

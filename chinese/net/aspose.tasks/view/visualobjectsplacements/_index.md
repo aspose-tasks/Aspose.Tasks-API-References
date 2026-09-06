@@ -1,24 +1,53 @@
 ---
-title: View.VisualObjectsPlacements
-second_title: Aspose.Tasks for .NET API 参考
-description: View 财产. 获取表示位置和外观的对象集合OleObject在视图中.
+title: "View.VisualObjectsPlacements"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "View 属性。获取一个对象集合，表示视图中 OleObject 的放置和外观"
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/view/visualobjectsplacements/
 ---
 ## View.VisualObjectsPlacements property
 
-获取表示位置和外观的对象集合[`OleObject`](../../oleobject/)在视图中.
+获取一个对象集合，表示视图中 [`OleObject`](../../oleobject/) 的放置和外观。
 
 ```csharp
 public IEnumerable<VisualObjectPlacement> VisualObjectsPlacements { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何获取 OLE 对象的放置和外观属性。
+
+```csharp
+[Test]
+public void GetVisualObjectPlacementProperties()
+{
+    var project = new Project(DataDir + "TaskImage2010.mpp");
+    var oleObject = project.OleObjects.First();
+
+    project.Save(OutDir + "ClearedProject.mpp");
+    var view = project.Views.First(v => v.Name == "&Gantt Chart");
+    var oleObjectPlacement = view.VisualObjectsPlacements.First(p => p.OleObjectId == oleObject.Id);
+
+    Console.WriteLine("BorderLineColor: {0}", oleObjectPlacement.BorderLineColor);
+    Console.WriteLine("BorderLineColor: {0}", oleObjectPlacement.BorderLineThickness);
+
+    if (oleObjectPlacement.TaskId > 0)
+    {
+        Console.WriteLine("Attached to task: {0}", oleObjectPlacement.TaskId);
+    }
+    else
+    {
+        Console.WriteLine("Attached to timescale date: {0}", oleObjectPlacement.TimescaleDate);
+    }
+}
+```
+
+### 另见
 
 * class [VisualObjectPlacement](../../../aspose.tasks.visualization/visualobjectplacement/)
 * class [View](../)
-* 命名空间 [Aspose.Tasks](../../view/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

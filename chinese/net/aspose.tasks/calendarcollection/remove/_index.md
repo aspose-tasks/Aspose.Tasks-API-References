@@ -1,38 +1,56 @@
 ---
-title: CalendarCollection.Remove
-second_title: Aspose.Tasks for .NET API 参考
-description: CalendarCollection 方法. 从项目日历集合中删除日历
+title: "CalendarCollection.Remove"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "CalendarCollection 方法。将 Calendar 从 Project CalendarCollection 中移除"
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/calendarcollection/remove/
 ---
 ## CalendarCollection.Remove method
 
-从项目日历集合中删除日历。
+从项目 CalendarCollection 中移除日历。
 
 ```csharp
 public bool Remove(Calendar item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | Calendar | 要删除的日历。 |
+| item | 日历 | 要移除的日历。 |
 
 ### 返回值
 
-如果移除则返回 true，否则返回 false。
+如果已移除则返回 true，否则返回 false。
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
-| InvalidOperationException | 无法删除日历时抛出。 |
+| InvalidOperationException | 当无法移除日历时抛出此异常。 |
 
-### 也可以看看
+## 示例
+
+展示如何在集合中替换日历。
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendar = project.Calendars.GetByName("TestCalendar");
+if (calendar != null)
+{
+    project.Calendars.Remove(calendar);
+}
+
+// 添加新日历
+project.Calendars.Add("New Calendar");
+project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
+```
+
+### 另见
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* 命名空间 [Aspose.Tasks](../../calendarcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

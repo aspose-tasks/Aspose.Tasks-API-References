@@ -1,9 +1,9 @@
 ---
-title: Task.OvertimeCost
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取或设置 OvertimeCost 的值
+title: "Task.OvertimeCost"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取或设置 OvertimeCost 的值"
 type: docs
-weight: 920
+weight: 910
 url: /zh/net/aspose.tasks/task/overtimecost/
 ---
 ## Task.OvertimeCost property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/task/overtimecost/
 public decimal OvertimeCost { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

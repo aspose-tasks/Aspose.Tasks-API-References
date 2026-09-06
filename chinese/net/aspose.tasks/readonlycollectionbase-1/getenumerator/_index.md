@@ -1,7 +1,7 @@
 ---
-title: ReadOnlyCollectionBase1.GetEnumerator
-second_title: Aspose.Tasks for .NET API 参考
-description: ReadOnlyCollectionBase 方法. 返回此集合的枚举器
+title: "ReadOnlyCollectionBase1.GetEnumerator"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ReadOnlyCollectionBase 方法。返回此集合的枚举器。"
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/readonlycollectionbase-1/getenumerator/
@@ -18,10 +18,10 @@ public IEnumerator<T> GetEnumerator()
 
 此集合的枚举器。
 
-### 也可以看看
+### 另见
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* 命名空间 [Aspose.Tasks](../../readonlycollectionbase-1/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: GroupCriterion.Equals
-second_title: Aspose.Tasks for .NET API 参考
-description: GroupCriterion 方法. 返回一个值指示此实例是否等于指定对象
+title: "GroupCriterion.Equals"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "GroupCriterion 方法。返回一个值，指示此实例是否等于指定的对象"
 type: docs
-weight: 130
+weight: 110
 url: /zh/net/aspose.tasks/groupcriterion/equals/
 ---
 ## GroupCriterion.Equals method
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与此实例进行比较的对象。 |
+| obj | 对象 | 与此实例比较的对象。 |
 
 ### 返回值
 
-**真的**如果 o 是与此实例具有相同 UID 值的 GroupCriterion；否则， **错误的**.
+**True** if o is a GroupCriterion that has the same UID value as this instance; otherwise, **false**.
 
-### 也可以看看
+### 另见
 
 * class [GroupCriterion](../)
-* 命名空间 [Aspose.Tasks](../../groupcriterion/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

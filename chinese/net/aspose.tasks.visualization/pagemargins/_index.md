@@ -1,14 +1,14 @@
 ---
-title: Class PageMargins
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Visualization.PageMargins 班级. 表示打印的页边距
+title: "类 PageMargins"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Visualization.PageMargins 类。表示用于打印的页面边距。"
 type: docs
-weight: 2880
+weight: 3230
 url: /zh/net/aspose.tasks.visualization/pagemargins/
 ---
 ## PageMargins class
 
-表示打印的页边距。
+表示用于打印的页面边距。
 
 ```csharp
 public class PageMargins
@@ -16,23 +16,43 @@ public class PageMargins
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [PageMargins](pagemargins/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Borders](../../aspose.tasks.visualization/pagemargins/borders/) { get; set; } | 获取或设置打印边框的位置。可以是的值之一[`Border`](../border/)枚举. |
-| [Bottom](../../aspose.tasks.visualization/pagemargins/bottom/) { get; set; } | 获取或设置下边距的大小（以英寸或厘米为单位）。 |
-| [Left](../../aspose.tasks.visualization/pagemargins/left/) { get; set; } | 获取或设置左边距的大小（以英寸或厘米为单位）。 |
-| [Right](../../aspose.tasks.visualization/pagemargins/right/) { get; set; } | 获取或设置右边距的大小（以英寸或厘米为单位）。 |
-| [Top](../../aspose.tasks.visualization/pagemargins/top/) { get; set; } | 获取或设置上边距的大小（以英寸或厘米为单位）。 |
+| [Borders](../../aspose.tasks.visualization/pagemargins/borders/) { get; set; } | 获取或设置打印边框的位置。可以是 [`Border`](../border/) 枚举的其中一个值。 |
+| [Bottom](../../aspose.tasks.visualization/pagemargins/bottom/) { get; set; } | 获取或设置底部边距的大小（单位：厘米）。 |
+| [Left](../../aspose.tasks.visualization/pagemargins/left/) { get; set; } | 获取或设置左侧边距的大小（单位：厘米）。 |
+| [Right](../../aspose.tasks.visualization/pagemargins/right/) { get; set; } | 获取或设置右侧边距的大小（单位：厘米）。 |
+| [Top](../../aspose.tasks.visualization/pagemargins/top/) { get; set; } | 获取或设置顶部边距的大小（单位：厘米）。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 部件 [Aspose.Tasks](../../)
+展示如何使用页面边距。
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// 让我们修改默认视图
+var margins = project.DefaultView.PageInfo.Margins;
+
+// 让我们修改边距
+margins.Left = 10d;
+margins.Top = 10d;
+margins.Right = 10d;
+margins.Bottom = 10d;
+margins.Borders = Border.OutsidePages;
+
+project.Save(OutDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
+```
+
+### 另见
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

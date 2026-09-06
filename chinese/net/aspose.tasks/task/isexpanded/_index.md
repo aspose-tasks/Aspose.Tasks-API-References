@@ -1,24 +1,24 @@
 ---
-title: Task.IsExpanded
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取或设置一个值该值指示是否设置了 IsExpanded
+title: "Task.IsExpanded"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取或设置一个值，指示 IsExpanded 是否已设置"
 type: docs
 weight: 630
 url: /zh/net/aspose.tasks/task/isexpanded/
 ---
 ## Task.IsExpanded property
 
-获取或设置一个值，该值指示是否设置了 IsExpanded。
+获取或设置一个值，指示 IsExpanded 是否已设置。
 
 ```csharp
 public NullableBool IsExpanded { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

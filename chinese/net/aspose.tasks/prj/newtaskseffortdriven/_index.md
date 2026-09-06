@@ -1,26 +1,38 @@
 ---
-title: Prj.NewTasksEffortDriven
-second_title: Aspose.Tasks for .NET API 参考
-description: Prj 场地. 确定新任务是否是努力驱动的
+title: "Prj.NewTasksEffortDriven"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Prj 字段。确定新任务是否以工时为驱动"
 type: docs
-weight: 550
+weight: 560
 url: /zh/net/aspose.tasks/prj/newtaskseffortdriven/
 ---
 ## Prj.NewTasksEffortDriven field
 
-确定新任务是否是努力驱动的。
+确定新任务是否基于工作量驱动。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksEffortDriven;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Prj.NewTasksEffortDriven 属性。
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksEffortDriven, true);
+
+Console.WriteLine("New Tasks Effort Driven: " + project.Get(Prj.NewTasksEffortDriven));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* 命名空间 [Aspose.Tasks](../../prj/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

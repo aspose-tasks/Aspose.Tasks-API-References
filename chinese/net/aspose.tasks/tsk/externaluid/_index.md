@@ -1,25 +1,51 @@
 ---
-title: Tsk.ExternalUid
-second_title: Aspose.Tasks for .NET API 参考
-description: Tsk 场地. 当任务是外部时包含外部任务的唯一标识符
+title: "Tsk.ExternalUid"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Tsk 字段。包含任务为外部时的外部任务唯一标识符"
 type: docs
-weight: 390
+weight: 380
 url: /zh/net/aspose.tasks/tsk/externaluid/
 ---
 ## Tsk.ExternalUid field
 
-当任务是外部时包含外部任务的唯一标识符。
+当任务为外部任务时，包含外部任务的唯一标识符。
 
 ```csharp
 public static readonly Key<int, TaskKey> ExternalUid;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何创建跨项目任务链接——链接到另一个（外部）项目中的任务。
+
+```csharp
+Project project = new Project();
+var summary = project.RootTask.Children.Add("Summary Task");
+
+// 为了创建指向另一个项目中任务的链接，我们应当创建
+// 该任务的副本（或“外部”）任务于当前项目中。
+
+Task t2 = summary.Children.Add("External Task");
+t2.Set(Tsk.ExternalTaskProject, "ExternalProject.mpp"); // here we set path to external project's MPP file.
+t2.Set(Tsk.ExternalId, 1); // Set External task's Id.
+t2.Set(Tsk.ExternalUid, 2); // External task's Unique Id should be set.
+t2.Set(Tsk.IsExternalTask, true);
+t2.Set(Tsk.IsManual, new NullableBool(false));
+t2.Set(Tsk.IsSummary, false);
+
+Task t = summary.Children.Add("Task");
+TaskLink link = project.TaskLinks.Add(t2, t);
+link.IsCrossProject = true;
+link.LinkType = TaskLinkType.FinishToStart;
+link.CrossProjectName = "ExternalProject.mpp\\\\1"; // <- here external task's Id is used.
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* 命名空间 [Aspose.Tasks](../../tsk/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 
