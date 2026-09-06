@@ -1,24 +1,24 @@
 ---
-title: BarStyle.TopBarTextConverter
-second_title: Aspose.Tasks لمرجع .NET API
-description: BarStyle ملكية. الحصول على المحول المعرّف من قبل المستخدم أو تعيينه للحصول على نص يتم عرضه أعلى شريط المهام. يتجاوز قيمةTopField الملكية .
+title: "BarStyle.TopBarTextConverter"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية BarStyle. تحصل أو تعين محولًا معرفًا من قبل المستخدم للحصول على النص لعرضه في أعلى شريط المهام. يتجاوز قيمة خاصية TopField."
 type: docs
-weight: 180
+weight: 220
 url: /ar/net/aspose.tasks.visualization/barstyle/topbartextconverter/
 ---
 ## BarStyle.TopBarTextConverter property
 
-الحصول على المحول المعرّف من قبل المستخدم أو تعيينه للحصول على نص يتم عرضه أعلى شريط المهام. يتجاوز قيمة[`TopField`](../topfield/) الملكية .
+يحصل أو يضبط محولًا معرفًا من قبل المستخدم للحصول على النص لتصميمه على أعلى شريط المهمة. يتجاوز قيمة الخاصية [`TopField`](../topfield/)
 
 ```csharp
 public TaskBarTextConverter TopBarTextConverter { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../barstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

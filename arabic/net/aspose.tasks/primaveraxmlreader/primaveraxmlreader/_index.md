@@ -1,47 +1,76 @@
 ---
-title: PrimaveraXmlReader.PrimaveraXmlReader
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraXmlReader البناء. يقوم بتهيئة مثيل جديد لملفPrimaveraXmlReader فئة .
+title: "PrimaveraXmlReader.PrimaveraXmlReader"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ PrimaveraXmlReader. يهيئ نسخة جديدة من فئة PrimaveraXmlReader"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/primaveraxmlreader/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader(string) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`PrimaveraXmlReader`](../) فئة .
+يُنشئ مثيلاً جديدًا للفئة [`PrimaveraXmlReader`](../).
 
 ```csharp
 public PrimaveraXmlReader(string templatePath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| templatePath | String | المسار إلى النموذج حيث يوجد مشروع Primavera Xml |
+| templatePath | سلسلة | المسار إلى القالب حيث يقع مشروع Primavera Xml أو مشاريع. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية فحص معلومات المشاريع القصيرة من ملف Primavera XML.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "MultiprojectWithExternal.xml");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+```
+
+### انظر أيضًا
 
 * class [PrimaveraXmlReader](../)
-* مساحة الاسم [Aspose.Tasks](../../primaveraxmlreader/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxmlreader/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## PrimaveraXmlReader(Stream) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`PrimaveraXmlReader`](../) فئة .
+يُنشئ مثيلاً جديدًا للفئة [`PrimaveraXmlReader`](../).
 
 ```csharp
 public PrimaveraXmlReader(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق يحتوي على محتوى Primavera Xml. |
+| دفق | دفق | دفق يحتوي على محتوى Primavera Xml. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية استيراد مشروع من تدفق Primavera XML.
+
+```csharp
+using (var stream = new FileStream(DataDir + "primavera.xml", FileMode.Open))
+{
+    var reader = new PrimaveraXmlReader(stream);
+    List<int> projectUids = reader.GetProjectUids();
+    foreach (var projectUid in projectUids)
+    {
+        Console.WriteLine("Project UID: " + projectUid);
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [PrimaveraXmlReader](../)
-* مساحة الاسم [Aspose.Tasks](../../primaveraxmlreader/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxmlreader/)
+* assembly [Aspose.Tasks](../../../)
 
 

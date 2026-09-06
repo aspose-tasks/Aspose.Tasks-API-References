@@ -1,23 +1,41 @@
 ---
-title: Task.OutlineIndent
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task طريقة. يضيف مسافة بادئة لمهمة في المخطط التفصيلي .
+title: "Task.OutlineIndent"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Task. تُدرج مهمة في المخطط"
 type: docs
 weight: 1380
 url: /ar/net/aspose.tasks/task/outlineindent/
 ---
 ## Task.OutlineIndent method
 
-يضيف مسافة بادئة لمهمة في المخطط التفصيلي .
+يقوم بزيادة إزاحة مهمة في المخطط.
 
 ```csharp
 public void OutlineIndent()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إدراج مهمة.
+
+```csharp
+var project = new Project();
+var task1 = project.RootTask.Children.Add("Parent");
+var task2 = project.RootTask.Children.Add("Task");
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+
+// إدرج المهمة
+task2.OutlineIndent();
+
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+```
+
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

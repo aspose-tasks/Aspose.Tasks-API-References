@@ -1,23 +1,23 @@
 ---
-title: Project.CreationDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تاريخ الإنشاء.
+title: "Project.CreationDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة CreationDate"
 type: docs
-weight: 160
+weight: 170
 url: /ar/net/aspose.tasks/project/creationdate/
 ---
 ## Project.CreationDate property
 
-الحصول على أو تعيين قيمة تاريخ الإنشاء.
+يحصل أو يعيّن قيمة لـ CreationDate.
 
 ```csharp
 public DateTime CreationDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

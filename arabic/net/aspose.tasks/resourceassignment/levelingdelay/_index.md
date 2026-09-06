@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.LevelingDelay
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة LevelingDelay .
+title: "ResourceAssignment.LevelingDelay"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعين قيمة LevelingDelay"
 type: docs
 weight: 340
 url: /ar/net/aspose.tasks/resourceassignment/levelingdelay/
 ---
 ## ResourceAssignment.LevelingDelay property
 
-الحصول على أو تعيين قيمة LevelingDelay .
+يحصل أو يعيّن قيمة LevelingDelay.
 
 ```csharp
 public Duration LevelingDelay { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Prj.NewTaskStartDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. نوع تاريخ البدء الافتراضي للمهام الجديدة.
+title: "Prj.NewTaskStartDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. نوع تاريخ البدء الافتراضي للمهام الجديدة"
 type: docs
-weight: 570
+weight: 580
 url: /ar/net/aspose.tasks/prj/newtaskstartdate/
 ---
 ## Prj.NewTaskStartDate field
@@ -14,13 +14,24 @@ url: /ar/net/aspose.tasks/prj/newtaskstartdate/
 public static readonly Key<TaskStartDateType, PrjKey> NewTaskStartDate;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين الخصائص للمهام الجديدة.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskStartDateType](../../taskstartdatetype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

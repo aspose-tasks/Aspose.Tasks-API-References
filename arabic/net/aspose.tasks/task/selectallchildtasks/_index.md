@@ -1,14 +1,14 @@
 ---
-title: Task.SelectAllChildTasks
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task طريقة. يقوم بتجميع كافة المهام الفرعية لهذه المهمة بشكل متكرر.
+title: "Task.SelectAllChildTasks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Task method. يجمع بشكل متكرر جميع مهام الأطفال لهذه المهمة"
 type: docs
 weight: 1400
 url: /ar/net/aspose.tasks/task/selectallchildtasks/
 ---
 ## Task.SelectAllChildTasks method
 
-يقوم بتجميع كافة المهام الفرعية لهذه المهمة بشكل متكرر.
+يجمع بشكل متكرر جميع المهام الفرعية لهذه المهمة.
 
 ```csharp
 public IEnumerable<Task> SelectAllChildTasks()
@@ -16,12 +16,27 @@ public IEnumerable<Task> SelectAllChildTasks()
 
 ### قيمة الإرجاع
 
-قائمة المهام التابعة لهذه المهمة.
+قائمة بمهام الأطفال لهذه المهمة.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية التكرار على مهام الأطفال.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task 1");
+task.Children.Add("Task 2");
+
+foreach (var tsk in project.RootTask.SelectAllChildTasks())
+{
+    Console.WriteLine("{0} {1}", tsk.Get(Tsk.Id), tsk.Get(Tsk.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

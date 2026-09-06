@@ -1,23 +1,45 @@
 ---
-title: PrimaveraSaveOptions.ActivityIdIncrement
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraSaveOptions ملكية. الحصول على الزيادة المستخدمة في إعادة ترقيم معرّفات النشاط أو تعيينها.
+title: "PrimaveraSaveOptions.ActivityIdIncrement"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraSaveOptions. تحصل أو تعين الزيادة المستخدمة في إعادة ترقيم معرفات النشاط"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.saving/primaverasaveoptions/activityidincrement/
 ---
 ## PrimaveraSaveOptions.ActivityIdIncrement property
 
-الحصول على الزيادة المستخدمة في إعادة ترقيم معرّفات النشاط أو تعيينها.
+يحصل أو يعيّن الزيادة المستخدمة في إعادة ترقيم معرفات الأنشطة.
 
 ```csharp
 public int ActivityIdIncrement { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع <see cref=\"Aspose.Tasks.Saving.PrimaveraSaveOptions\" />.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// إنشاء خيارات حفظ Primavera وضبطها
+var options = new PrimaveraSaveOptions
+                  {
+                      // تحديد البادئة واللاحقة لنشاط
+                      ActivityIdPrefix = "TEST",
+                      ActivityIdSuffix = 10000,
+
+                      // التحكم في إعادة ترقيم الأنشطة
+                      ActivityIdIncrement = 5,
+                      RenumberActivityIds = true
+                  };
+
+project.Save(OutDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
+```
+
+### انظر أيضًا
 
 * class [PrimaveraSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../primaverasaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../primaverasaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

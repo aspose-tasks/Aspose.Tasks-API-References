@@ -1,23 +1,23 @@
 ---
-title: RateByDateCollection.RateByDateCollection
-second_title: Aspose.Tasks لمرجع .NET API
-description: RateByDateCollection البناء. Default_Constructor
+title: "RateByDateCollection.RateByDateCollection"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ RateByDateCollection. المنشئ الافتراضي."
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/ratebydatecollection/ratebydatecollection/
 ---
 ## RateByDateCollection constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public RateByDateCollection()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RateByDateCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../ratebydatecollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ratebydatecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

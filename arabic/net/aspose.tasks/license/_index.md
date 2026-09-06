@@ -1,35 +1,35 @@
 ---
-title: Class License
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.License فصل. يوفر طرقًا لترخيص المكون.
+title: "الفئة License"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.License. توفر طرقًا لترخيص المكوّن."
 type: docs
-weight: 860
+weight: 980
 url: /ar/net/aspose.tasks/license/
 ---
 ## License class
 
-يوفر طرقًا لترخيص المكون.
+يوفر طرقًا لترخيص المكوّن.
 
 ```csharp
-public class License
+public sealed class License
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [License](license/)() | يقوم بتهيئة مثيل جديد لملف`License` فصل. |
+| [License](license/)() | يُنشئ مثيلًا جديدًا للفئة `License`. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | تراخيص المكون . |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | تراخيص المكون . |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | يرخص المكوّن. |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | يرخص المكوّن. |
 
-### أمثلة
+## الأمثلة
 
-في هذا المثال ، سيتم إجراء محاولة للعثور على ملف ترخيص يسمى MyLicense.lic في المجلد الذي يحتوي على  المكون ، في المجلد الذي يحتوي على التجميع الاستدعاء ، في مجلد تجميع الإدخال ثم في الموارد المضمنة لتجميع الاستدعاء.
+في هذا المثال، سيتم محاولة العثور على ملف ترخيص يُدعى MyLicense.lic في المجلد الذي يحتوي على المكوّن، وفي المجلد الذي يحتوي على التجميع المستدعي، وفي مجلد التجميع الرئيسي، ثم في الموارد المدمجة للتجميع المستدعي.
 
 ```csharp
 [C#]
@@ -44,16 +44,23 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-ملف جرة المكون:
+ملف jar المكوّن:
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### أنظر أيضا
+يوضح كيفية تطبيق ترخيص Aspose.Tasks.
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

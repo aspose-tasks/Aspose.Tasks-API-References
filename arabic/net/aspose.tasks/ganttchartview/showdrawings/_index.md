@@ -1,23 +1,53 @@
 ---
-title: GanttChartView.ShowDrawings
-second_title: Aspose.Tasks لمرجع .NET API
-description: GanttChartView ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب عرض الرسومات على مخطط جانت.
+title: "GanttChartView.ShowDrawings"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية GanttChartView. يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب إظهار الرسومات في مخطط جانت"
 type: docs
 weight: 150
 url: /ar/net/aspose.tasks/ganttchartview/showdrawings/
 ---
 ## GanttChartView.ShowDrawings property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب عرض الرسومات على مخطط جانت.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إظهار الرسومات في مخطط جانت.
 
 ```csharp
 public bool ShowDrawings { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية تعيين بعض الخصائص المفيدة لعرض مخطط جانت.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// تعيين قيمة تشير إلى ما إذا كانت الأشرطة تُقرب إلى أقرب يوم
+view.BarRounding = false;
+// تعيين الارتفاع، بالنقاط، لأشرطة جانت في مخطط جانت
+view.BarSize = GanttBarSize.BarSize24;
+// تعيين قيمة تشير إلى ما إذا كانت أشرطة التجميع ستُخفى عند توسيع مهمة الملخص
+view.HideRollupBarsWhenSummaryExpanded = true;
+// تعيين لون وقت غير العمل
+view.NonWorkingTimeColor = Color.Azure;
+// تعيين قيمة تشير إلى ما إذا كان يجب تجميع الأشرطة على مخطط جانت
+view.RollUpGanttBars = true;
+// تعيين قيمة تشير إلى ما إذا كان يجب إظهار تقسيمات المهمة على مخطط جانت
+view.ShowBarSplits = true;
+// تعيين قيمة تشير إلى ما إذا كان يجب إظهار الرسومات على مخطط جانت
+view.ShowDrawings = true;
+// تعيين نسبة لتقليل أو تكبير المسافة بين الوحدات على مستوى مقياس الزمن
+view.TimescaleSizePercentage = 10;
+
+project.Save(OutDir + "WorkWithGanttChartViews_out.pdf", SaveFileFormat.Pdf);
+```
+
+### انظر أيضًا
 
 * class [GanttChartView](../)
-* مساحة الاسم [Aspose.Tasks](../../ganttchartview/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ganttchartview/)
+* assembly [Aspose.Tasks](../../../)
 
 

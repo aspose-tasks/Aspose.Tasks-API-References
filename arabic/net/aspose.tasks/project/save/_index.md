@@ -1,159 +1,179 @@
 ---
-title: Project.Save
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. يحفظ المستند بتنسيق ملف mpp باستخدام خيارات الحفظ المحددة.
+title: "Project.Save"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تحفظ المستند في ملف باستخدام خيارات الحفظ المحددة"
 type: docs
-weight: 1180
+weight: 1200
 url: /ar/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
+## Save(string, SimpleSaveOptions) {#save_4}
 
-يحفظ المستند بتنسيق ملف mpp باستخدام خيارات الحفظ المحددة.
+يحفظ المستند إلى ملف باستخدام خيارات الحفظ المحددة.
 
 ```csharp
-public void Save(string filename, MPPSaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| filename | String | اسم الملف. |
-| options | MPPSaveOptions | خيارات الحفظ. |
+| filename | سلسلة | اسم الملف. |
+| خيارات | SimpleSaveOptions | خيارات الحفظ. |
 
-### أنظر أيضا
+## الأمثلة
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+يوضح كيفية حفظ المشروع كملف MPP.
+
+```csharp
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
+```
+
+### انظر أيضًا
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_6}
+## Save(string, SaveFileFormat) {#save_3}
 
-يحفظ المستند في ملف باستخدام خيارات الحفظ المحددة.
-
-```csharp
-public void Save(string filename, SaveOptions options)
-```
-
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| filename | String | اسم الملف. |
-| options | SaveOptions | خيارات الحفظ. |
-
-### أنظر أيضا
-
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveFileFormat) {#save_5}
-
-يحفظ بيانات المشروع في الملف.
+يحفظ بيانات المشروع إلى الملف.
 
 ```csharp
 public void Save(string filename, SaveFileFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| filename | String | اسم الملف. |
+| filename | سلسلة | اسم الملف. |
 | format | SaveFileFormat | تنسيق ملف الحفظ. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إنشاء مشروع وحفظه بتنسيق MPP دون تمرير ملف قالب MPP.
+
+```csharp
+var project = new Project();
+
+// سيتم حفظ المشروع بتنسيق MPP باستخدام قالب MPP الداخلي.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
-يحفظ بيانات المشروع في ملف بتنسيق mpp .
+يحفظ بيانات المشروع إلى الملف بصيغة mpp.
 
 ```csharp
 public void Save(string filename)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| filename | String | اسم الملف. |
+| filename | سلسلة | اسم الملف. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
-يحفظ المشروع في دفق باستخدام خيارات الحفظ المحددة.
+يحفظ المشروع إلى دفق باستخدام خيارات الحفظ المحددة.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق. |
-| options | SaveOptions | خيارات الحفظ. |
+| دفق | دفق | الدفق. |
+| خيارات | SimpleSaveOptions | خيارات الحفظ. |
 
-### أنظر أيضا
+## الأمثلة
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-يحفظ المشروع في دفق باستخدام خيارات الحفظ المحددة.
+يوضح كيفية حفظ المشروع في دفق كملف MPP باستخدام خيارات حفظ MPP.
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // باستخدام MPPSaveOptions نحفظه بتنسيق MPP.
+    project.Save(stream, options);
+}
 ```
 
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| stream | Stream | الدفق. |
-| options | MPPSaveOptions | خيارات الحفظ. |
+يوضح كيفية حفظ المشروع في دفق كصورة والتحكم في خيارات الصورة.
 
-### أنظر أيضا
+```csharp
+var project = new Project();
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // باستخدام ImageSaveOptions نحفظ المشروع بتنسيق صورة
+    project.Save(stream, options);
+}
+```
+
+### انظر أيضًا
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
-يحفظ بيانات المشروع في التدفق .
+يحفظ بيانات المشروع إلى الدفق.
 
 ```csharp
 public void Save(Stream stream, SaveFileFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق. |
+| دفق | دفق | الدفق. |
 | format | SaveFileFormat | تنسيق ملف الحفظ المحدد.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ المشروع في دفق كملف XML لمشروع MS.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // اكتب الدفق بتنسيق XML
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
+
+### انظر أيضًا
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

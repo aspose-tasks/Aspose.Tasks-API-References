@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.SequenceNumber
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. الحصول على أو تحديد رقم التسلسل لعنصر WBS المهام الموجزة. يتم استخدامه لفرز المهام الموجزة في Primavera.
+title: "PrimaveraTaskProperties.SequenceNumber"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. تحصل أو تعين رقم التسلسل لعناصر ملخص مهام WBS. يُستخدم لترتيب مهام الملخص في Primavera"
 type: docs
-weight: 160
+weight: 350
 url: /ar/net/aspose.tasks/primaverataskproperties/sequencenumber/
 ---
 ## PrimaveraTaskProperties.SequenceNumber property
 
-الحصول على أو تحديد رقم التسلسل لعنصر WBS (المهام الموجزة). يتم استخدامه لفرز المهام الموجزة في Primavera.
+يحصل أو يضبط رقم التسلسل لعنصر WBS (المهام الملخصة). يُستخدم لترتيب المهام الملخصة في Primavera.
 
 ```csharp
 public int SequenceNumber { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-ينطبق على عناصر WBS (المهام الموجزة).
+ينطبق على عناصر WBS (مهام الملخص).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

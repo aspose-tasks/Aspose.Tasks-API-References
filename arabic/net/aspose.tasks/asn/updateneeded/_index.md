@@ -1,25 +1,44 @@
 ---
-title: Asn.UpdateNeeded
-second_title: Aspose.Tasks لمرجع .NET API
-description: Asn مجال. تحديد ما إذا كان المورد المعين لمهمة ما يحتاج إلى التحديث وفقًا لحالة المهمة.
+title: "Asn.UpdateNeeded"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Asn. يحدد ما إذا كان المورد المعين لمهمة يحتاج إلى تحديث وفقًا لحالة المهمة"
 type: docs
 weight: 580
 url: /ar/net/aspose.tasks/asn/updateneeded/
 ---
 ## Asn.UpdateNeeded field
 
-تحديد ما إذا كان المورد المعين لمهمة ما يحتاج إلى التحديث وفقًا لحالة المهمة.
+يحدد ما إذا كان يجب تحديث المورد المعين لمهمة وفقًا لحالة المهمة.
 
 ```csharp
 public static readonly Key<bool, AsnKey> UpdateNeeded;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خاصية Asn.UpdateNeeded.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.UpdateNeeded, true);
+
+Console.WriteLine("Update Needed: " + assignment.Get(Asn.UpdateNeeded));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* مساحة الاسم [Aspose.Tasks](../../asn/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

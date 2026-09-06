@@ -1,14 +1,14 @@
 ---
-title: ProjectServerCredentials.ToString
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectServerCredentials طريقة. إرجاع تمثيل سلسلة لهذا المثيل .
+title: "ProjectServerCredentials.ToString"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ProjectServerCredentials. تُعيد تمثيلًا نصيًا لهذه المثيل"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/projectservercredentials/tostring/
 ---
 ## ProjectServerCredentials.ToString method
 
-إرجاع تمثيل سلسلة لهذا المثيل .
+يعيد تمثيلًا نصيًا لهذا الكائن.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,12 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-سلسلة تمثيل لهذا المثال.
+تمثيل نصي لهذه المثيلة.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ProjectServerCredentials](../)
-* مساحة الاسم [Aspose.Tasks](../../projectservercredentials/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 

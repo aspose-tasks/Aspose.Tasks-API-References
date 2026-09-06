@@ -1,24 +1,24 @@
 ---
-title: Project.MultipleCriticalPaths
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين MultipleCriticalPaths أم لا.
+title: "Project.MultipleCriticalPaths"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة تشير إلى ما إذا كان MultipleCriticalPaths مُحددًا أم لا"
 type: docs
-weight: 620
+weight: 640
 url: /ar/net/aspose.tasks/project/multiplecriticalpaths/
 ---
 ## Project.MultipleCriticalPaths property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين MultipleCriticalPaths أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان MultipleCriticalPaths مضبوطًا أم لا.
 
 ```csharp
 public NullableBool MultipleCriticalPaths { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

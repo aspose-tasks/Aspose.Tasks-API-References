@@ -1,23 +1,23 @@
 ---
-title: Resource.MaterialLabel
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة MaterialLabel.
+title: "Resource.MaterialLabel"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يضبط قيمة MaterialLabel"
 type: docs
 weight: 490
 url: /ar/net/aspose.tasks/resource/materiallabel/
 ---
 ## Resource.MaterialLabel property
 
-الحصول على أو تعيين قيمة MaterialLabel.
+يحصل أو يعيّن قيمة لـ MaterialLabel.
 
 ```csharp
 public string MaterialLabel { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

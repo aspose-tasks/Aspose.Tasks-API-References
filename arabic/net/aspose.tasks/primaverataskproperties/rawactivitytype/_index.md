@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawActivityType
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. يحصل على تمثيل نصي خام كما في الملف المصدر لحقل نوع النشاط للنشاط.
+title: "PrimaveraTaskProperties.RawActivityType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. يحصل على تمثيل النص الخام كما هو في ملف المصدر لحقل نوع النشاط للنشاط"
 type: docs
-weight: 60
+weight: 220
 url: /ar/net/aspose.tasks/primaverataskproperties/rawactivitytype/
 ---
 ## PrimaveraTaskProperties.RawActivityType property
 
-يحصل على تمثيل نصي خام (كما في الملف المصدر) لحقل "نوع النشاط" للنشاط.
+يحصل على تمثيل النص الخام (كما في ملف المصدر) لحقل 'نوع النشاط' للنشاط.
 
 ```csharp
 public string RawActivityType { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-ينطبق فقط على الأنشطة (المهام غير الموجزة).
+ينطبق فقط على الأنشطة (المهام غير الملخصة).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

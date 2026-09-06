@@ -1,24 +1,24 @@
 ---
-title: Task.IsResumeValid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين IsResumeValid أم لا.
+title: "Task.IsResumeValid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة تشير إلى ما إذا كان IsResumeValid مضبوطًا أم لا"
 type: docs
 weight: 720
 url: /ar/net/aspose.tasks/task/isresumevalid/
 ---
 ## Task.IsResumeValid property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين IsResumeValid أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان IsResumeValid مُحددًا أم لا.
 
 ```csharp
 public NullableBool IsResumeValid { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Project.Manager
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة للمدير أو تعيينها .
+title: "Project.Manager"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة Manager"
 type: docs
-weight: 540
+weight: 560
 url: /ar/net/aspose.tasks/project/manager/
 ---
 ## Project.Manager property
 
-الحصول على قيمة للمدير أو تعيينها .
+يحصل أو يضبط قيمة الخاصية Manager.
 
 ```csharp
 public string Manager { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

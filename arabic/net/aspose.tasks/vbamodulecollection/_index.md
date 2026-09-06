@@ -1,39 +1,61 @@
 ---
-title: Class VbaModuleCollection
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.VbaModuleCollection فصل. يمثل مجموعة منVbaModule الكائنات .
+title: "الفئة VbaModuleCollection"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.VbaModuleCollection. تمثّل مجموعة من كائنات VbaModule."
 type: docs
-weight: 2520
+weight: 2840
 url: /ar/net/aspose.tasks/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-يمثل مجموعة من[`VbaModule`](../vbamodule/) الكائنات .
+تمثّل مجموعة من كائنات [`VbaModule`](../vbamodule/).
 
 ```csharp
-public class VbaModuleCollection : ReadOnlyCollectionBase<VbaModule>
+public class VbaModuleCollection : ICollection<VbaModule>
 ```
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } |  |
+| [Count](../../aspose.tasks/vbamodulecollection/count/) { get; } |  |
+| [IsReadOnly](../../aspose.tasks/vbamodulecollection/isreadonly/) { get; } |  |
+| [Item](../../aspose.tasks/vbamodulecollection/item/) { get; } | يحصل على الوحدة في الفهرس المحدد. (2 مؤشرات) |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(VbaModule) |  |
-| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
+| [Add](../../aspose.tasks/vbamodulecollection/add/)(VbaModule) |  |
+| [Clear](../../aspose.tasks/vbamodulecollection/clear/)() |  |
+| [Contains](../../aspose.tasks/vbamodulecollection/contains/)(VbaModule) |  |
+| [CopyTo](../../aspose.tasks/vbamodulecollection/copyto/)(VbaModule[], int) |  |
+| [GetEnumerator](../../aspose.tasks/vbamodulecollection/getenumerator/)() |  |
+| [Remove](../../aspose.tasks/vbamodulecollection/remove/)(VbaModule) |  |
+| [ToList](../../aspose.tasks/vbamodulecollection/tolist/)() | يحوّل كائن المجموعة إلى قائمة من كائنات [`VbaModule`](../vbamodule/). |
 
-### أنظر أيضا
+## الأمثلة
 
-* class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
+يوضح كيفية التكرار عبر وحدات VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+var vbaProject = project.VbaProject;
+
+Console.WriteLine("Total Modules Count: " + vbaProject.Modules.Count);
+foreach (VbaModule module in vbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Module Type: " + module.Type);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+    Console.WriteLine();
+}
+```
+
+### انظر أيضًا
+
 * class [VbaModule](../vbamodule/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,25 +1,37 @@
 ---
-title: Prj.Title
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. عنوان المشروع .
+title: "Prj.Title"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. عنوان المشروع"
 type: docs
-weight: 740
+weight: 750
 url: /ar/net/aspose.tasks/prj/title/
 ---
 ## Prj.Title field
 
-عنوان المشروع .
+عنوان المشروع.
 
 ```csharp
 public static readonly Key<string, PrjKey> Title;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Prj.Title.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Title, "MS Project");
+
+Console.WriteLine("Title: " + project.Get(Prj.Title));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

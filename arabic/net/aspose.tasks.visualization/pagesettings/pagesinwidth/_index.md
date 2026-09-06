@@ -1,23 +1,49 @@
 ---
-title: PageSettings.PagesInWidth
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageSettings ملكية. الحصول على أو تعيين عدد من الصفحات في العرض ليتم طباعتها.
+title: "PageSettings.PagesInWidth"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageSettings. تحصل أو تضبط عدد الصفحات في العرض التي سيتم طباعتها"
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks.visualization/pagesettings/pagesinwidth/
 ---
 ## PageSettings.PagesInWidth property
 
-الحصول على أو تعيين عدد من الصفحات في العرض ليتم طباعتها.
+يحصل أو يعيّن عدد الصفحات في العرض التي سيتم طباعتها.
 
 ```csharp
 public int PagesInWidth { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية عرض المشهد باستخدام خيار 'Fit X to Y pages'.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = project.Views.First(v => v.Screen == ViewScreen.TaskUsage);
+
+view.PageInfo.PageSettings.AdjustToPercentOfNormalSize = false;
+// حدد أن المشهد يجب أن يُعرض في صفحتين أو أقل في الارتفاع
+view.PageInfo.PageSettings.PagesInHeight = 2;
+// حدد أن المشهد يجب أن يُعرض في صفحة واحدة في العرض
+view.PageInfo.PageSettings.PagesInWidth = 1;
+
+PdfSaveOptions saveOptions = new PdfSaveOptions()
+{
+    ViewSettings = view,
+    Timescale = Timescale.DefinedInView,
+    StartDate =  new DateTime(2000, 04, 1),
+    EndDate = new DateTime(2000, 12, 31)
+};
+
+project.Save(OutDir + "PrintViewWithFitToPages_out.pdf", saveOptions);
+```
+
+### انظر أيضًا
 
 * class [PageSettings](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagesettings/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagesettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

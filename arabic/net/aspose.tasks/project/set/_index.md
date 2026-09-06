@@ -1,54 +1,74 @@
 ---
-title: Project.Set
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. تعيين الخاصية المحددة إلى القيمة المحددة في هذه الحاوية.
+title: "Project.Set"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. يربط الخاصية المحددة بالقيمة المحددة في هذه الحاوية"
 type: docs
-weight: 1220
+weight: 1240
 url: /ar/net/aspose.tasks/project/set/
 ---
 ## Set&lt;T&gt;(Key&lt;T, PrjKey&gt;, T) {#set_1}
 
-تعيين الخاصية المحددة إلى القيمة المحددة في هذه الحاوية.
+يربط الخاصية المحددة بالقيمة المحددة في هذه الحاوية.
 
 ```csharp
 public void Set<T>(Key<T, PrjKey> key, T val)
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| T | نوع القيمة المعينة. |
-| key | مفتاح الخاصية المحدد.[`Prj`](../../prj/) للحصول على مفتاح الملكية. |
-| val | القيمة. |
+| T | نوع القيمة المرتبطة. |
+| key | مفتاح الخاصية المحددة. [`Prj`](../../prj/) للحصول على مفتاح الخاصية. |
+| القيمة | القيمة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية تعيين سمات المهمة.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Set(Key&lt;DateTime, PrjKey&gt;, DateTime) {#set}
 
-تعيين الخاصية المحددة إلى القيمة المحددة في هذه الحاوية.
+يربط الخاصية المحددة بالقيمة المحددة في هذه الحاوية.
 
 ```csharp
 public void Set(Key<DateTime, PrjKey> key, DateTime val)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| key | Key`2 | مفتاح الخاصية المحدد.[`Prj`](../../prj/) للحصول على مفتاح الملكية. |
-| val | DateTime | القيمة. |
+| key | Key`2 | مفتاح الخاصية المحددة. [`Prj`](../../prj/) للحصول على مفتاح الخاصية. |
+| القيمة | DateTime | القيمة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية تعيين سمات المهمة.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

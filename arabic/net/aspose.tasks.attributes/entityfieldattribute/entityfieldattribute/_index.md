@@ -1,23 +1,23 @@
 ---
-title: EntityFieldAttribute.EntityFieldAttribute
-second_title: Aspose.Tasks لمرجع .NET API
-description: EntityFieldAttribute البناء. Default_Constructor
+title: "EntityFieldAttribute.EntityFieldAttribute"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ EntityFieldAttribute. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.attributes/entityfieldattribute/entityfieldattribute/
 ---
 ## EntityFieldAttribute constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public EntityFieldAttribute()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [EntityFieldAttribute](../)
-* مساحة الاسم [Aspose.Tasks.Attributes](../../entityfieldattribute/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Attributes](../../entityfieldattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Task.CommitmentStart
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة CommitmentStart .
+title: "Task.CommitmentStart"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصّل أو تعين قيمة CommitmentStart"
 type: docs
 weight: 210
 url: /ar/net/aspose.tasks/task/commitmentstart/
 ---
 ## Task.CommitmentStart property
 
-الحصول على أو تعيين قيمة CommitmentStart .
+يحصل أو يعيّن قيمة CommitmentStart.
 
 ```csharp
 public DateTime CommitmentStart { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

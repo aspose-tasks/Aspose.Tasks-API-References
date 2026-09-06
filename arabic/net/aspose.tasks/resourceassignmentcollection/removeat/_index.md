@@ -1,27 +1,27 @@
 ---
-title: ResourceAssignmentCollection.RemoveAt
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignmentCollection طريقة. يزيل التخصيص في الفهرس المحدد  إذا لم تكن المجموعة للقراءة فقط  فإن يلقي خلاف ذلك NotSupportedException.
+title: "ResourceAssignmentCollection.RemoveAt"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ResourceAssignmentCollection. يزيل التعيين عند الفهرس المحدد إذا كانت المجموعة ليست للقراءة فقط وإلا يرمي استثناء NotSupportedException"
 type: docs
 weight: 90
 url: /ar/net/aspose.tasks/resourceassignmentcollection/removeat/
 ---
 ## ResourceAssignmentCollection.RemoveAt method
 
-يزيل التخصيص في الفهرس المحدد ، إذا لم تكن المجموعة للقراءة فقط ، فإن يلقي خلاف ذلك NotSupportedException.
+يزيل التعيين عند الفهرس المحدد إذا لم تكن المجموعة للقراءة فقط، وإلا يطرح استثناء NotSupportedException.
 
 ```csharp
 public void RemoveAt(int index)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| index | Int32 | مؤشر على أساس الصفر. |
+| الفهرس | Int32 | فهرس يبدأ من الصفر. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignmentCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignmentcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

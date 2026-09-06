@@ -1,14 +1,14 @@
 ---
-title: ResourceAssignment.ToString
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment طريقة. إرجاع تمثيل السلسلة القصيرة لمثيلResourceAssignment class. التفاصيل الدقيقة للتمثيل غير محددة وقابلة للتغيير.
+title: "ResourceAssignment.ToString"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ResourceAssignment. تُعيد تمثيل نصي قصير للنسخة من فئة ResourceAssignment. التفاصيل الدقيقة للتمثيل غير محددة وقد تتغير"
 type: docs
-weight: 770
+weight: 790
 url: /ar/net/aspose.tasks/resourceassignment/tostring/
 ---
 ## ResourceAssignment.ToString method
 
-إرجاع تمثيل السلسلة القصيرة لمثيل[`ResourceAssignment`](../) class. التفاصيل الدقيقة للتمثيل غير محددة وقابلة للتغيير.
+تُعيد تمثيل نصي قصير للنسخة من الفئة [`ResourceAssignment`](../). التفاصيل الدقيقة للتمثيل غير محددة وقد تتغير.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,31 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-سلسلة قصيرة تمثل كائن التعيين.
+نص قصير يمثل كائن التعيين.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية طباعة معلومات التعيين الشائعة.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // عرض تعيينات المهمة
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

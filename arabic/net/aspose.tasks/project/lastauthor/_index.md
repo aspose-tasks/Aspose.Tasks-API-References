@@ -1,23 +1,23 @@
 ---
-title: Project.LastAuthor
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة LastAuthor .
+title: "Project.LastAuthor"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. تحصل أو تعين قيمة LastAuthor"
 type: docs
-weight: 510
+weight: 530
 url: /ar/net/aspose.tasks/project/lastauthor/
 ---
 ## Project.LastAuthor property
 
-الحصول على أو تحديد قيمة LastAuthor .
+يحصل أو يضبط قيمة الخاصية LastAuthor.
 
 ```csharp
 public string LastAuthor { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

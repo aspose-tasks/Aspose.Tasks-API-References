@@ -1,9 +1,9 @@
 ---
-title: Tsk.FinishSlackTimeSpan
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. المدة بين تاريخ الانتهاء المبكر وتاريخ الانتهاء المتأخر.
+title: "Tsk.FinishSlackTimeSpan"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. المدة بين تاريخ الانتهاء المبكر وتاريخ الانتهاء المتأخر"
 type: docs
-weight: 410
+weight: 400
 url: /ar/net/aspose.tasks/tsk/finishslacktimespan/
 ---
 ## Tsk.FinishSlackTimeSpan field
@@ -14,12 +14,24 @@ url: /ar/net/aspose.tasks/tsk/finishslacktimespan/
 public static readonly Key<TimeSpan, TaskKey> FinishSlackTimeSpan;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة خاصية Tsk.FinishSlackTimeSpan. الخاصية محسوبة، لذا عادةً لا يلزم تعيينها يدويًا.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Finish Slack: " + task.Get(Tsk.FinishSlackTimeSpan));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

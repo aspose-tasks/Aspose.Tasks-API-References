@@ -1,23 +1,23 @@
 ---
-title: Task.PreleveledFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة للنهاية المحددة مسبقًا.
+title: "Task.PreleveledFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة PreleveledFinish"
 type: docs
-weight: 1000
+weight: 990
 url: /ar/net/aspose.tasks/task/preleveledfinish/
 ---
 ## Task.PreleveledFinish property
 
-الحصول على أو تعيين قيمة للنهاية المحددة مسبقًا.
+يحصل أو يعيّن قيمة PreleveledFinish.
 
 ```csharp
 public DateTime PreleveledFinish { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

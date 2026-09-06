@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.Height
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على أو تعيين الارتفاع المعروض للكائن المرئي.
+title: "VisualObjectPlacement.Height"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن ارتفاع العنصر البصري المعروض"
 type: docs
 weight: 70
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/height/
 ---
 ## VisualObjectPlacement.Height property
 
-الحصول على أو تعيين الارتفاع المعروض للكائن المرئي.
+يحصل أو يضبط الارتفاع المعروض للكائن المرئي.
 
 ```csharp
 public double Height { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

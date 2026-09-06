@@ -1,14 +1,14 @@
 ---
-title: ProjectFileInfo.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectFileInfo طريقة. إرجاع قيمة رمز تجزئة لمثيلProjectFileInfo فئة .
+title: "ProjectFileInfo.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ProjectFileInfo. تُرجع قيمة رمز تجزئة للمثيلة من فئة ProjectFileInfo"
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks/projectfileinfo/gethashcode/
 ---
 ## ProjectFileInfo.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لمثيل[`ProjectFileInfo`](../) فئة .
+تُرجع قيمة رمز تجزئة للمثيلة من فئة [`ProjectFileInfo`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,23 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة معلومات ملف المشروع.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### انظر أيضًا
 
 * class [ProjectFileInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../projectfileinfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

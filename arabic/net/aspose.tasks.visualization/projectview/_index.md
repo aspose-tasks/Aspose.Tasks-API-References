@@ -1,44 +1,59 @@
 ---
-title: Class ProjectView
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.ProjectView فصل. عرض المشروع class
+title: "فئة ProjectView"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.Visualization.ProjectView. فئة عرض المشاريع"
 type: docs
-weight: 2950
+weight: 3300
 url: /ar/net/aspose.tasks.visualization/projectview/
 ---
 ## ProjectView class
 
-عرض المشروع class
+فئة عرض المشروع
 
 ```csharp
 public class ProjectView
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | يقوم بتهيئة مثيل جديد لملف`ProjectView` فئة . |
+| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | ينشئ مثيلاً جديداً من فئة `ProjectView`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Columns](../../aspose.tasks.visualization/projectview/columns/) { get; } | الحصول على أعمدة عرض المشروع. |
+| [Columns](../../aspose.tasks.visualization/projectview/columns/) { get; } | يحصل على أعمدة عرض المشروع. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview/)() | يتضمن أعمدة Uid واسم المهمة واسم المورد والعمل والمدة. |
-| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | يتضمن المعرف والمؤشرات والاسم والمدة وأعمدة المهام والبدء والانتهاء. |
-| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | يتضمن Uid ، واسم المورد ، والنوع ، وتسمية المادة ، والأحرف الأولى ، والمجموعة ، والحد الأقصى للوحدات ، و السعر القياسي ، ومعدل العمل الإضافي ، والتكلفة لكل استخدام ، والتراكم في ، والتقويم الأساسي وأعمدة مورد التعليمات البرمجية. |
-| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | يتضمن أعمدة مورد Uid والاسم والبدء والانتهاء والعمل. |
-| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | يتضمن المعرف والمؤشرات والاسم والمدة والبدء والانتهاء والأسلاف وأسماء الموارد. |
+| static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview/)() | يتضمن أعمدة UID، اسم المهمة، اسم المورد، العمل ومدة التعيين. |
+| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | يتضمن أعمدة المعرف، المؤشرات، الاسم، المدة، بدء وانتهاء المهمة. |
+| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | يتضمن أعمدة UID، اسم المورد، النوع، تسمية المادة، الأحرف الأولى، المجموعة، الحد الأقصى للوحدات، السعر القياسي، سعر العمل الإضافي، التكلفة لكل استخدام، تراكم عند، التقويم الأساسي وعمود رمز المورد. |
+| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | يتضمن أعمدة Uid والاسم والبداية والنهاية وموارد العمل. |
+| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | يتضمن أعمدة المهمة id والمؤشرات والاسم والمدة والبداية والنهاية والسابقين وأسماء الموارد. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية حفظ مشروع مع عرض التعيين.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

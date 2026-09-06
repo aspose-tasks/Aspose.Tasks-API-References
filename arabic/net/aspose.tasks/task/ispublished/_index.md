@@ -1,24 +1,24 @@
 ---
-title: Task.IsPublished
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين IsPublished أم لا.
+title: "Task.IsPublished"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يحدد قيمة تشير إلى ما إذا كان IsPublished مضبوطًا أم لا"
 type: docs
 weight: 700
 url: /ar/net/aspose.tasks/task/ispublished/
 ---
 ## Task.IsPublished property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين IsPublished أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان IsPublished مُحددًا أم لا.
 
 ```csharp
 public NullableBool IsPublished { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

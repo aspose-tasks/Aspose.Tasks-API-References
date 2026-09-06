@@ -1,23 +1,23 @@
 ---
-title: Task.SubprojectName
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة اسم المشروع الفرعي.
+title: "Task.SubprojectName"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة لـ SubprojectName"
 type: docs
 weight: 1190
 url: /ar/net/aspose.tasks/task/subprojectname/
 ---
 ## Task.SubprojectName property
 
-الحصول على أو تعيين قيمة اسم المشروع الفرعي.
+يحصل أو يعيّن قيمة SubprojectName.
 
 ```csharp
 public string SubprojectName { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

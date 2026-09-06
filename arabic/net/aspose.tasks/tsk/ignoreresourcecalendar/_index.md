@@ -1,26 +1,40 @@
 ---
-title: Tsk.IgnoreResourceCalendar
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. تحديد ما إذا كانت جدولة المهمة تأخذ في الاعتبار تقويمات الموارد المعينة للمهمة.
+title: "Tsk.IgnoreResourceCalendar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. يحدد ما إذا كانت جدولة المهمة تأخذ في الاعتبار تقاويم الموارد المخصصة للمهمة"
 type: docs
-weight: 540
+weight: 530
 url: /ar/net/aspose.tasks/tsk/ignoreresourcecalendar/
 ---
 ## Tsk.IgnoreResourceCalendar field
 
-تحديد ما إذا كانت جدولة المهمة تأخذ في الاعتبار تقويمات الموارد المعينة للمهمة.
+يحدد ما إذا كان جدولة المهمة يأخذ في الاعتبار تقاويم الموارد المُعيّنة للمهمة.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IgnoreResourceCalendar;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خاصية Tsk.IgnoreResourceCalendar.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IgnoreResourceCalendar, true);
+
+Console.WriteLine("Ignore Resource Calendar: " + task.Get(Tsk.IgnoreResourceCalendar));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

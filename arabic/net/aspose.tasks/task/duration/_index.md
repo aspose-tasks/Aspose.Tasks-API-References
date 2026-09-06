@@ -1,24 +1,24 @@
 ---
-title: Task.Duration
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة المدة أو تعيينها .
+title: "Task.Duration"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Task property. يحصل أو يعيّن قيمة Duration"
 type: docs
 weight: 330
 url: /ar/net/aspose.tasks/task/duration/
 ---
 ## Task.Duration property
 
-الحصول على قيمة المدة أو تعيينها .
+يحصل أو يعيّن قيمة لـ Duration.
 
 ```csharp
 public Duration Duration { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,46 @@
 ---
-title: PdfSaveOptions.TextCompression
-second_title: Aspose.Tasks لمرجع .NET API
-description: PdfSaveOptions ملكية. الحصول على نوع ضغط أو تعيينه لاستخدامه في جميع تدفقات المحتوى باستثناء الصور. الإعداد الافتراضي هوFlate .
+title: "PdfSaveOptions.TextCompression"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PdfSaveOptions. تحصل أو تعيين نوع الضغط الذي سيُستخدم لجميع تدفقات المحتوى باستثناء الصور. الافتراضي هو Flate"
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/aspose.tasks.saving/pdfsaveoptions/textcompression/
 ---
 ## PdfSaveOptions.TextCompression property
 
-الحصول على نوع ضغط أو تعيينه لاستخدامه في جميع تدفقات المحتوى باستثناء الصور. الإعداد الافتراضي هوFlate .
+يحصل أو يعيّن نوع الضغط الذي سيُستخدم لجميع تدفقات المحتوى باستثناء الصور. القيمة الافتراضية هي Flate.
 
 ```csharp
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية تعيين نوع الضغط الذي سيُستخدم لجميع تدفقات المحتوى باستثناء الصور.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions();
+
+// تعيين نوع الضغط الذي سيُستخدم لجميع تدفقات المحتوى باستثناء الصور
+options.TextCompression = PdfTextCompression.Flate;
+
+// ضبط الخصائص الإضافية
+// تعيين <see cref=\"P:Aspose.Tasks.Saving.SaveOptions.PresentationFormat\" /> الذي سيُحفظ فيه المستند.
+options.PresentationFormat = PresentationFormat.GanttChart;
+
+// تعيين مستوى التوافق المطلوب للمستند PDF المُنشأ
+options.Compliance = PdfCompliance.PdfA1b;
+
+project.Save(OutDir + "WorkWithTextCompression_out.pdf", options);
+```
+
+### انظر أيضًا
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,26 +1,41 @@
 ---
-title: Rsc.RemainingWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. الوقت الذي لا يزال مطلوبًا لإكمال مهمة أو مجموعة من المهام.
+title: "Rsc.RemainingWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. الوقت المتبقي المطلوب لإكمال مهمة أو مجموعة مهام"
 type: docs
-weight: 620
+weight: 610
 url: /ar/net/aspose.tasks/rsc/remainingwork/
 ---
 ## Rsc.RemainingWork field
 
-الوقت الذي لا يزال مطلوبًا لإكمال مهمة أو مجموعة من المهام.
+الوقت المتبقي المطلوب لإكمال مهمة أو مجموعة مهام.
 
 ```csharp
 public static readonly Key<Duration, RscKey> RemainingWork;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Rsc.RemainingWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Work: " + resource.Get(Rsc.RemainingWork));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

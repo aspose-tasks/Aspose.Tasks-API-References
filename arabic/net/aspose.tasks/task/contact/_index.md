@@ -1,23 +1,23 @@
 ---
-title: Task.Contact
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة جهة الاتصال أو تعيينها.
+title: "Task.Contact"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة Contact"
 type: docs
 weight: 250
 url: /ar/net/aspose.tasks/task/contact/
 ---
 ## Task.Contact property
 
-الحصول على قيمة جهة الاتصال أو تعيينها.
+يحصل أو يعيّن قيمة Contact.
 
 ```csharp
 public string Contact { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

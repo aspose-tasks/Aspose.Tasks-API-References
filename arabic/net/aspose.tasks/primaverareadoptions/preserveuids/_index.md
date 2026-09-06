@@ -1,23 +1,46 @@
 ---
-title: PrimaveraReadOptions.PreserveUids
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraReadOptions ملكية. الحصول على أو تعيين علامة تحدد ما إذا كان يجب الاحتفاظ بالمعرفات الفريدة الأصلية للكيانات أم لا.
+title: "PrimaveraReadOptions.PreserveUids"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraReadOptions. تحصل أو تعيّن علامة تحدد ما إذا كان يجب الحفاظ على المعرفات الفريدة الأصلية للكيانات"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/primaverareadoptions/preserveuids/
 ---
 ## PrimaveraReadOptions.PreserveUids property
 
-الحصول على أو تعيين علامة تحدد ما إذا كان يجب الاحتفاظ بالمعرفات الفريدة الأصلية للكيانات أم لا.
+يحصل أو يضبط علامة تحدد ما إذا كان يجب الحفاظ على المعرفات الفريدة الأصلية للكيانات.
 
 ```csharp
 public bool PreserveUids { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تحميل مشروع Primavera بالمعرف المحدد باستخدام &lt;see cref="LoadOptions" /&gt;.
+
+```csharp
+var loadOptions = new LoadOptions();
+
+var primaveraOptions = new PrimaveraReadOptions()
+{
+    ProjectUid = 3882,
+    UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
+    PreserveUids = true
+};
+
+// تعيين خيارات قراءة Primavera
+loadOptions.PrimaveraReadOptions = primaveraOptions;
+
+var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
+Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+
+// العمل مع المشروع...
+```
+
+### انظر أيضًا
 
 * class [PrimaveraReadOptions](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverareadoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverareadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

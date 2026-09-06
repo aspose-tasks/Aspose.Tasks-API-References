@@ -1,23 +1,23 @@
 ---
-title: Project.Company
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة الشركة أو تعيينها .
+title: "Project.Company"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يعيّن قيمة Company"
 type: docs
-weight: 150
+weight: 160
 url: /ar/net/aspose.tasks/project/company/
 ---
 ## Project.Company property
 
-الحصول على قيمة الشركة أو تعيينها .
+يحصل أو يعيّن قيمة لـ Company.
 
 ```csharp
 public string Company { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

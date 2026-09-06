@@ -1,32 +1,32 @@
 ---
-title: CalendarExceptionCollection.Item
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarExceptionCollection ملكية. إرجاع العنصر بالفهرس المحدد.
+title: "CalendarExceptionCollection.Item"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية CalendarExceptionCollection. تُرجع العنصر عند الفهرس المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/calendarexceptioncollection/item/
 ---
 ## CalendarExceptionCollection indexer
 
-إرجاع العنصر بالفهرس المحدد.
+يرجع العنصر عند الفهرس المحدد.
 
 ```csharp
 public CalendarException this[int index] { get; set; }
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| index | الفهرس الصفري للعنصر المراد الحصول عليه. |
+| الفهرس | الفهرس الصفري للعنصر المراد الحصول عليه. |
 
 ### قيمة الإرجاع
 
 العنصر في الفهرس المحدد.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CalendarException](../../calendarexception/)
 * class [CalendarExceptionCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarexceptioncollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexceptioncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

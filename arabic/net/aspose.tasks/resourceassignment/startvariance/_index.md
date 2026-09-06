@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.StartVariance
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة StartVariance .
+title: "ResourceAssignment.StartVariance"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعين قيمة StartVariance"
 type: docs
 weight: 550
 url: /ar/net/aspose.tasks/resourceassignment/startvariance/
 ---
 ## ResourceAssignment.StartVariance property
 
-الحصول على أو تعيين قيمة StartVariance .
+يحصل أو يعيّن قيمة StartVariance.
 
 ```csharp
 public Duration StartVariance { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

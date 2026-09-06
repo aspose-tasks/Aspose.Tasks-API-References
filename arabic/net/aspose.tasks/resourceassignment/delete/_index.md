@@ -1,23 +1,40 @@
 ---
-title: ResourceAssignment.Delete
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment طريقة. حذف تخصيص الموارد من مجموعة تعيينات المشروع.
+title: "ResourceAssignment.Delete"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ResourceAssignment. تحذف تعيين المورد من مجموعة تعيينات المشروع"
 type: docs
 weight: 680
 url: /ar/net/aspose.tasks/resourceassignment/delete/
 ---
 ## ResourceAssignment.Delete method
 
-حذف تخصيص الموارد من مجموعة تعيينات المشروع.
+يحذف تعيين المورد من مجموعة تعيينات المشروع.
 
 ```csharp
 public void Delete()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية حذف تعيين مورد.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Resource");
+var resourceAssignment = project.ResourceAssignments.Add(task, resource);
+
+Console.WriteLine("Assignment count (before): {0}", project.ResourceAssignments.Count);
+
+resourceAssignment.Delete();
+
+Console.WriteLine("Assignment count (after): {0}", project.ResourceAssignments.Count);
+```
+
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

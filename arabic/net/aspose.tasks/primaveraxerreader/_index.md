@@ -1,35 +1,55 @@
 ---
-title: Class PrimaveraXerReader
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.PrimaveraXerReader فصل. يمثل قارئًا لقراءة معرفات تعريف المشروع من ملف Primavera XER
+title: "الفئة PrimaveraXerReader"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.PrimaveraXerReader. تمثل قارئًا لقراءة معرفات المشاريع (UIDs) من ملف Primavera XER."
 type: docs
-weight: 1150
+weight: 1390
 url: /ar/net/aspose.tasks/primaveraxerreader/
 ---
 ## PrimaveraXerReader class
 
-يمثل قارئًا لقراءة معرفات تعريف المشروع من ملف Primavera XER
+يمثل قارئًا لقراءة معرفات المشروع (UIDs) من ملف Primavera XER
 
 ```csharp
-public class PrimaveraXerReader
+public sealed class PrimaveraXerReader : PrimaveraBaseReader
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PrimaveraXerReader](primaveraxerreader/#constructor)(Stream) | يقوم بتهيئة مثيل جديد لملف`PrimaveraXerReader` فئة . |
-| [PrimaveraXerReader](primaveraxerreader/#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف`PrimaveraXerReader` فئة . |
+| [PrimaveraXerReader](primaveraxerreader/#constructor)(Stream) | ينشئ مثيلًا جديدًا من الفئة `PrimaveraXerReader`. |
+| [PrimaveraXerReader](primaveraxerreader/#constructor_1)(string) | ينشئ مثيلًا جديدًا من الفئة `PrimaveraXerReader`. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetProjectUids](../../aspose.tasks/primaveraxerreader/getprojectuids/)() | قم بإرجاع قائمة بالمعرفات الفريدة للمشاريع. |
+| [GetProjectInfos](../../aspose.tasks/primaverabasereader/getprojectinfos/)() | إرجاع قائمة بكائنات معلومات مختصرة للمشروع. |
+| [GetProjectUids](../../aspose.tasks/primaverabasereader/getprojectuids/)() | إرجاع قائمة بمعرفات المشاريع الفريدة. |
+| virtual [LoadProject](../../aspose.tasks/primaverabasereader/loadproject/)(int) | يقوم بتحميل المشروع بالمعرف الفريد المحدد. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية فحص معلومات المشاريع المختصرة من ملف Primavera XER.
+
+```csharp
+var reader = new PrimaveraXerReader(DataDir + "MultiprojectWithExternal.xer");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+
+var project = reader.LoadProject(5494);
+
+Console.WriteLine("Loaded project '{0}' with Uid {1}", project.Name, project.Uid);
+```
+
+### انظر أيضًا
+
+* class [PrimaveraBaseReader](../primaverabasereader/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

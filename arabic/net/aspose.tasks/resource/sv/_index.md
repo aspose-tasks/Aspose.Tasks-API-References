@@ -1,23 +1,23 @@
 ---
-title: Resource.SV
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة SV.
+title: "Resource.SV"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة SV"
 type: docs
-weight: 740
+weight: 730
 url: /ar/net/aspose.tasks/resource/sv/
 ---
 ## Resource.SV property
 
-الحصول على أو تعيين قيمة SV.
+يحصل أو يعيّن قيمة لـ SV.
 
 ```csharp
 public double SV { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

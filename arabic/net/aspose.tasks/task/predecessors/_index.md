@@ -1,14 +1,14 @@
 ---
-title: Task.Predecessors
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. يحصل على أTaskCollection الكائن الذي يحتوي على جميع العناصر السابقة لكائن المهمة هذا.
+title: "Task.Predecessors"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل على كائن TaskCollection الذي يحتوي على جميع سابقي كائن Task هذا"
 type: docs
-weight: 990
+weight: 980
 url: /ar/net/aspose.tasks/task/predecessors/
 ---
 ## Task.Predecessors property
 
-يحصل على أ[`TaskCollection`](../../taskcollection/) الكائن الذي يحتوي على جميع العناصر السابقة لكائن المهمة هذا.
+تحصل على كائن [`TaskCollection`](../../taskcollection/) الذي يحتوي على جميع سابقي كائن Task هذا.
 
 ```csharp
 public TaskCollection Predecessors { get; }
@@ -16,13 +16,30 @@ public TaskCollection Predecessors { get; }
 
 ### قيمة الإرجاع
 
-نسخة للقراءة فقط من[`TaskCollection`](../../taskcollection/) فصل.
+مثيل للقراءة فقط من فئة [`TaskCollection`](../../taskcollection/).
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة سابقي المهمة.
+
+```csharp
+var project = new Project();
+var pred = project.RootTask.Children.Add("Predecessor");
+var succ = project.RootTask.Children.Add("Successor");
+
+project.TaskLinks.Add(pred, succ);
+
+foreach (var predecessor in succ.Predecessors)
+{
+    Console.WriteLine("{0} {1}", predecessor.Get(Tsk.Id), predecessor.Get(Tsk.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [TaskCollection](../../taskcollection/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

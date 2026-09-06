@@ -1,14 +1,14 @@
 ---
-title: Class FontResolveEventArgs
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.FontResolveEventArgs فصل. يوفر وسيطات لمعاودة الاتصال التي يتم استدعاؤها عند حل الخط.
+title: "الفئة FontResolveEventArgs"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.FontResolveEventArgs. توفر الوسائط للنداء العكسي الذي يُستدعى عند حل الخط."
 type: docs
 weight: 670
 url: /ar/net/aspose.tasks/fontresolveeventargs/
 ---
 ## FontResolveEventArgs class
 
-يوفر وسيطات لمعاودة الاتصال التي يتم استدعاؤها عند حل الخط.
+يوفر الوسائط للاستدعاء الذي يُستدعى عند حل الخط.
 
 ```csharp
 public sealed class FontResolveEventArgs : EventArgs
@@ -16,14 +16,14 @@ public sealed class FontResolveEventArgs : EventArgs
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname/) { get; } | الحصول على اسم الخط المطلوب . |
-| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | الحصول على أو تحديد اسم الخط الذي تم حله. يمكن ضبطه للتحكم في الخطوط المستخدمة لتقديم طريقة عرض . |
+| [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname/) { get; } | يحصل على اسم الخط المطلوب. |
+| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | يحصل أو يعيّن اسم الخط المحلول. يمكن تعيينه للتحكم في الخطوط المستخدمة لعرض المشهد. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

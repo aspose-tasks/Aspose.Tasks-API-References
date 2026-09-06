@@ -1,37 +1,65 @@
 ---
-title: Class ByYearWeekDayRepetition
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.ByYearWeekDayRepetition فصل. يمثل نمطًا يعتمد على مركز أحد أيام الأسبوع في الشهر.
+title: "الفئة ByYearWeekDayRepetition"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.ByYearWeekDayRepetition. تمثل نمطًا يعتمد على موضع يوم الأسبوع في الشهر."
 type: docs
 weight: 200
 url: /ar/net/aspose.tasks/byyearweekdayrepetition/
 ---
 ## ByYearWeekDayRepetition class
 
-يمثل نمطًا يعتمد على مركز أحد أيام الأسبوع في الشهر.
+يمثل نمطًا يعتمد على موضع يوم الأسبوع في شهر.
 
 ```csharp
 public class ByYearWeekDayRepetition : YearlyRepetitionBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ByYearWeekDayRepetition](byyearweekdayrepetition/)() | يقوم بتهيئة مثيل جديد لملف`ByYearWeekDayRepetition` فصل. |
+| [ByYearWeekDayRepetition](byyearweekdayrepetition/)() | ينشئ نسخة جديدة من الفئة `ByYearWeekDayRepetition`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Month](../../aspose.tasks/byyearweekdayrepetition/month/) { get; set; } | الحصول على أو تحديد الشهر الذي يجب أن تتكرر فيه المهمة. |
-| [Position](../../aspose.tasks/byyearweekdayrepetition/position/) { get; set; } | الحصول على أو تحديد موضع لليوم في أسبوع من الشهر يجب أن تتكرر فيه المهمة . |
-| [WeekDay](../../aspose.tasks/byyearweekdayrepetition/weekday/) { get; set; } | الحصول على أو تحديد نوع يوم الأسبوع الذي يجب أن تتكرر فيه المهمة . |
+| [Month](../../aspose.tasks/byyearweekdayrepetition/month/) { get; set; } | يحصل أو يعيّن شهرًا يجب أن يتكرر فيه المهمة. |
+| [Position](../../aspose.tasks/byyearweekdayrepetition/position/) { get; set; } | يحصل أو يعيّن موضع اليوم في أسبوع من شهر يجب أن يتكرر فيه المهمة. |
+| [WeekDay](../../aspose.tasks/byyearweekdayrepetition/weekday/) { get; set; } | يحصل أو يعيّن نوع يوم الأسبوع الذي يجب أن يتكرر فيه المهمة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع تكرارات أيام الأسبوع السنوية أثناء إنشاء مهام متكررة جديدة.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new YearlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByYearWeekDayRepetition
+                                                                      {
+                                                                          Month = Month.July, WeekDay = DayOfWeek.Sunday, Position = OrdinalNumber.First
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2019, 7, 31, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * class [YearlyRepetitionBase](../yearlyrepetitionbase/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ResourceSavingArgs.ResourceSavingArgs
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceSavingArgs البناء. Default_Constructor
+title: "ResourceSavingArgs.ResourceSavingArgs"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "المُنشئ ResourceSavingArgs. المُنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/resourcesavingargs/resourcesavingargs/
 ---
 ## ResourceSavingArgs constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public ResourceSavingArgs()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Tasks](../../resourcesavingargs/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

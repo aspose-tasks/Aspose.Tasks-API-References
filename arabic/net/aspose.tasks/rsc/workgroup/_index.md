@@ -1,9 +1,9 @@
 ---
-title: Rsc.Workgroup
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. نوع مجموعة العمل التي ينتمي إليها المورد.
+title: "Rsc.Workgroup"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. نوع مجموعة العمل التي ينتمي إليها المورد"
 type: docs
-weight: 710
+weight: 700
 url: /ar/net/aspose.tasks/rsc/workgroup/
 ---
 ## Rsc.Workgroup field
@@ -14,13 +14,27 @@ url: /ar/net/aspose.tasks/rsc/workgroup/
 public static readonly Key<WorkGroupType, RscKey> Workgroup;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Rsc.Workgroup.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Workgroup, WorkGroupType.Email);
+
+Console.WriteLine("Workgroup: " + resource.Get(Rsc.Workgroup));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [WorkGroupType](../../workgrouptype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

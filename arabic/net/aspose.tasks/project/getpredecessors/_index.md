@@ -1,33 +1,51 @@
 ---
-title: Project.GetPredecessors
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. إرجاع مجموعة من ارتباطات المهام التي سبقت المهمة المحددة.
+title: "Project.GetPredecessors"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تُرجع مجموعة من روابط المهام التي هي سلف للمهام المحددة"
 type: docs
-weight: 1090
+weight: 1120
 url: /ar/net/aspose.tasks/project/getpredecessors/
 ---
 ## Project.GetPredecessors method
 
-إرجاع مجموعة من ارتباطات المهام التي سبقت المهمة المحددة.
+يرجع مجموعة من روابط المهام التي هي سابقة للمهمة المحددة.
 
 ```csharp
 public TaskLinkCollection GetPredecessors(Task task)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| task | Task | مهمة الحصول على أسلاف. |
+| مهمة | مهمة | المهمة للحصول على سلفها. |
 
 ### قيمة الإرجاع
 
-قائمة الأسلاف[`TaskLink`](../../tasklink/).
+قائمة السلف [`TaskLink`](../../tasklink/).
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية الحصول على سلف المهمة المحددة.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+var task = project.RootTask.Children.GetById(10);
+
+var predecessors = project.GetPredecessors(task);
+
+// عرض أسماء مهام السلف والمتابع
+foreach (var predecessor in predecessors)
+{
+    Console.WriteLine("Predecessor " + predecessor.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor " + predecessor.SuccTask.Get(Tsk.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [TaskLinkCollection](../../tasklinkcollection/)
 * class [Task](../../task/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

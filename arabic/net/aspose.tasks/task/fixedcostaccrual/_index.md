@@ -1,24 +1,24 @@
 ---
-title: Task.FixedCostAccrual
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة FixedCostAccrual.
+title: "Task.FixedCostAccrual"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة FixedCostAccrual"
 type: docs
 weight: 490
 url: /ar/net/aspose.tasks/task/fixedcostaccrual/
 ---
 ## Task.FixedCostAccrual property
 
-الحصول على أو تحديد قيمة FixedCostAccrual.
+يحصل أو يعيّن قيمة لـ FixedCostAccrual.
 
 ```csharp
 public CostAccrualType FixedCostAccrual { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [CostAccrualType](../../costaccrualtype/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

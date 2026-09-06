@@ -1,23 +1,23 @@
 ---
-title: Project.Name
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة الاسم أو تعيينها .
+title: "Project.Name"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة Name"
 type: docs
-weight: 630
+weight: 650
 url: /ar/net/aspose.tasks/project/name/
 ---
 ## Project.Name property
 
-الحصول على قيمة الاسم أو تعيينها .
+يحصل أو يعيّن قيمة لـ Name.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

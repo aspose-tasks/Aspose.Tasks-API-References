@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultGanttChartView
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectView طريقة. يتضمن المعرف والمؤشرات والاسم والمدة وأعمدة المهام والبدء والانتهاء.
+title: "ProjectView.GetDefaultGanttChartView"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ProjectView. تتضمن أعمدة المهمة التي تشمل المعرف والمؤشرات والاسم والمدة والبداية والنهاية"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks.visualization/projectview/getdefaultganttchartview/
 ---
 ## ProjectView.GetDefaultGanttChartView method
 
-يتضمن المعرف والمؤشرات والاسم والمدة وأعمدة المهام والبدء والانتهاء.
+يتضمن أعمدة المعرف، المؤشرات، الاسم، المدة، بدء وانتهاء المهمة.
 
 ```csharp
 public static ProjectView GetDefaultGanttChartView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultGanttChartView()
 
 ### قيمة الإرجاع
 
-طريقة عرض تحتوي على قائمة[`GanttChartColumn`](../../ganttchartcolumn/).
+عرض يحتوي على قائمة من [`GanttChartColumn`](../../ganttchartcolumn/).
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ مشروع مع عرض مخطط جانت.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultGanttChartView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_GanttChartView_out.pdf", options);
+```
+
+### انظر أيضًا
 
 * class [ProjectView](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../projectview/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

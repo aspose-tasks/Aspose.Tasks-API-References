@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks.Attributes
-second_title: Aspose.Tasks لمرجع .NET API
+title: "Aspose.Tasks.Attributes"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
 description: 
 type: docs
 weight: 20
@@ -8,10 +8,10 @@ url: /ar/net/aspose.tasks.attributes/
 ---
 
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [EntityFieldAttribute](./entityfieldattribute/) | يمثل سمة لخصائص الكيان . |
+| [EntityFieldAttribute](./entityfieldattribute/) | يمثل سمة لخصائص الكيان. |
 
 

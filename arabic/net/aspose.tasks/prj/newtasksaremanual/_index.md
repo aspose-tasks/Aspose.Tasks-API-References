@@ -1,26 +1,38 @@
 ---
-title: Prj.NewTasksAreManual
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت المهام الجديدة يتم إنشاؤها يدويًا.
+title: "Prj.NewTasksAreManual"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كانت المهام الجديدة تُنشأ يدويًا"
 type: docs
-weight: 540
+weight: 550
 url: /ar/net/aspose.tasks/prj/newtasksaremanual/
 ---
 ## Prj.NewTasksAreManual field
 
-تحديد ما إذا كانت المهام الجديدة يتم إنشاؤها يدويًا.
+يحدد ما إذا كانت المهام الجديدة تُنشأ يدويًا.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksAreManual;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Prj.NewTasksAreManual.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksAreManual, true);
+
+Console.WriteLine("New Tasks Are Manual: " + project.Get(Prj.NewTasksAreManual));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

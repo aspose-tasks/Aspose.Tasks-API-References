@@ -1,23 +1,23 @@
 ---
-title: Resource.ActiveDirectoryGuid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة ActiveDirectoryGuid.
+title: "Resource.ActiveDirectoryGuid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة ActiveDirectoryGuid"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/resource/activedirectoryguid/
 ---
 ## Resource.ActiveDirectoryGuid property
 
-الحصول على أو تعيين قيمة ActiveDirectoryGuid.
+يحصل أو يعيّن قيمة ActiveDirectoryGuid.
 
 ```csharp
 public string ActiveDirectoryGuid { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

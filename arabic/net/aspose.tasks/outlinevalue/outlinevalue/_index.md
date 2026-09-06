@@ -1,23 +1,23 @@
 ---
-title: OutlineValue.OutlineValue
-second_title: Aspose.Tasks لمرجع .NET API
-description: OutlineValue البناء. Default_Constructor
+title: "OutlineValue.OutlineValue"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "OutlineValue constructor. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/outlinevalue/outlinevalue/
 ---
 ## OutlineValue constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public OutlineValue()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineValue](../)
-* مساحة الاسم [Aspose.Tasks](../../outlinevalue/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinevalue/)
+* assembly [Aspose.Tasks](../../../)
 
 

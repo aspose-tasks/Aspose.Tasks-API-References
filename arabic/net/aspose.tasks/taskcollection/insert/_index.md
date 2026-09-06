@@ -1,29 +1,29 @@
 ---
-title: TaskCollection.Insert
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskCollection طريقة. هذا هو تنفيذ كعب الروتين لطريقة Insert الخاصة بـ IList  والتي تطرح فقط NotSupportedException
+title: "TaskCollection.Insert"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskCollection. هذه هي تنفيذ تجريبي لطريقة Insert في ILists التي تُطلق فقط استثناء NotSupportedException"
 type: docs
 weight: 100
 url: /ar/net/aspose.tasks/taskcollection/insert/
 ---
 ## TaskCollection.Insert method
 
-هذا هو تنفيذ كعب الروتين لطريقة Insert الخاصة بـ IList ، والتي تطرح فقط NotSupportedException
+هذه هي تنفيذية النموذجية لطريقة Insert في IList، التي ترمي فقط NotSupportedException
 
 ```csharp
 public void Insert(int index, Task item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| index | Int32 | الفهرس الذي سيتم إدراجه في. |
-| item | Task | العنصر المراد إدراجه. |
+| الفهرس | Int32 | الفهرس الذي سيتم الإدراج عنده. |
+| العنصر | مهمة | العنصر الذي سيتم إدراجه. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

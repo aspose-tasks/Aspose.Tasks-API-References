@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.DurationPercentComplete
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. الحصول على قيمة النسبة المئوية لاكتمال المدة .
+title: "PrimaveraTaskProperties.DurationPercentComplete"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. يحصل على قيمة النسبة المئوية للمدة المكتملة"
 type: docs
-weight: 40
+weight: 150
 url: /ar/net/aspose.tasks/primaverataskproperties/durationpercentcomplete/
 ---
 ## PrimaveraTaskProperties.DurationPercentComplete property
 
-الحصول على قيمة النسبة المئوية لاكتمال المدة .
+يحصل على قيمة النسبة المئوية للمدة المكتملة.
 
 ```csharp
 public double DurationPercentComplete { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

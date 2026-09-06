@@ -1,27 +1,44 @@
 ---
-title: SaveOptions.UseGradientBrush
-second_title: Aspose.Tasks لمرجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب استخدام فرشاة التدرج عند عرض مخطط جانت.
+title: "SaveOptions.UseGradientBrush"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية SaveOptions. يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب استخدام فرشاة التدرج عند عرض مخطط جانت"
 type: docs
 weight: 220
 url: /ar/net/aspose.tasks.saving/saveoptions/usegradientbrush/
 ---
 ## SaveOptions.UseGradientBrush property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب استخدام فرشاة التدرج عند عرض مخطط جانت.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب استخدام فرشاة تدرجية عند عرض مخطط جانت.
 
 ```csharp
 public virtual bool UseGradientBrush { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-يكون قابلاً للتطبيق فقط عندما يتم تقديم عرض مخطط جانت.
+يُطبق فقط عندما يتم تصوير عرض مخطط Gantt.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية ضبط قيمة تشير إلى ما إذا كان يجب استخدام فرشاة التدرج عند عرض مخطط جانت.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+SaveOptions options = new XamlOptions
+{
+    UseGradientBrush = false
+};
+project.Save(OutDir + "ChangeGanttBarsColorGradient_Solid_out.xaml", options);
+
+options.UseGradientBrush = true;
+project.Save(OutDir + "ChangeGanttBarsColorGradient_Gradient_out.xaml", options);
+```
+
+### انظر أيضًا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../saveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

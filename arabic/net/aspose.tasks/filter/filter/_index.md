@@ -1,23 +1,23 @@
 ---
-title: Filter.Filter
-second_title: Aspose.Tasks لمرجع .NET API
-description: Filter البناء. Default_Constructor
+title: "Filter.Filter"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Filter constructor. المُنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/filter/filter/
 ---
 ## Filter constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public Filter()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Filter](../)
-* مساحة الاسم [Aspose.Tasks](../../filter/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

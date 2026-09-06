@@ -1,29 +1,91 @@
 ---
-title: GroupCollection.CopyTo
-second_title: Aspose.Tasks لمرجع .NET API
-description: GroupCollection طريقة. نسخ عناصر هذه المجموعة إلى المصفوفة المحددة  بدءًا من فهرس المصفوفة المحدد.
+title: "GroupCollection.CopyTo"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة GroupCollection. تنسخ عناصر هذا التجميع إلى المصفوفة المحددة بدءاً من الفهرس المحدد للمصفوفة."
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks/groupcollection/copyto/
 ---
 ## GroupCollection.CopyTo method
 
-نسخ عناصر هذه المجموعة إلى المصفوفة المحددة ، بدءًا من فهرس المصفوفة المحدد.
+ينسخ عناصر هذه المجموعة إلى المصفوفة المحددة، بدءًا من الفهرس المحدد للمصفوفة.
 
 ```csharp
 public void CopyTo(Group[] array, int arrayIndex)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| array | Group[] | المصفوفة أحادية البعد المحددة لنسخ العناصر إليها |
-| arrayIndex | Int32 | الفهرس الصفري للمصفوفة المحددة التي يبدأ عندها النسخ. |
+| المصفوفة | Group[] | المصفوفة الأحادية البعد المحددة لنسخ العناصر إليها |
+| arrayIndex | Int32 | الفهرس الصفري للمصفوفة المحددة الذي يبدأ عنده النسخ. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع مجموعة من المجموعات.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+// التكرار عبر مجموعات المهام
+Console.WriteLine("Print task groups of {0} project: ", project.Get(Prj.Name));
+Console.WriteLine("Task Group Count: " + project.TaskGroups.Count);
+foreach (var group in project.TaskGroups)
+{
+    Console.WriteLine("Name: " + group.Name);
+    Console.WriteLine("Show In Menu: " + group.ShowInMenu);
+    Console.WriteLine();
+}
+
+// التكرار عبر مجموعات الموارد
+Console.WriteLine("Project resource group count: " + project.ResourceGroups.Count);
+foreach (var group in project.ResourceGroups)
+{
+    Console.WriteLine("Resource group Name: " + group.Name);
+    Console.WriteLine("Resource group ShowInMenu" + group.ShowInMenu);
+}
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// مسح مجموعات المشروع الآخر
+otherProject.TaskGroups.Clear();
+
+// نسخ المجموعات إلى مشروع آخر
+var groups = new Group[project.TaskGroups.Count];
+project.TaskGroups.CopyTo(groups, 0);
+
+foreach (var group in groups)
+{
+    otherProject.TaskGroups.Add(group);
+}
+
+// إضافة مجموعة مهام مخصصة
+var customGroup = new Group
+{
+    Name = "Custom Group",
+    ShowInMenu = true
+};
+
+if (!otherProject.TaskGroups.Contains(customGroup))
+{
+    if (!otherProject.TaskGroups.IsReadOnly)
+    {
+        otherProject.TaskGroups.Add(customGroup);
+    }
+}
+
+// إزالة جميع المجموعات
+List<Group> groupsToDelete = otherProject.TaskGroups.ToList();
+foreach (var group in groupsToDelete)
+{
+    otherProject.TaskGroups.Remove(group);
+}
+```
+
+### انظر أيضًا
 
 * class [Group](../../group/)
 * class [GroupCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../groupcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

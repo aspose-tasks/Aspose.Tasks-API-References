@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Units
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة من الوحدات .
+title: "ResourceAssignment.Units"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. يحصل أو يعيّن قيمة Units"
 type: docs
 weight: 620
 url: /ar/net/aspose.tasks/resourceassignment/units/
 ---
 ## ResourceAssignment.Units property
 
-الحصول على أو تعيين قيمة من الوحدات .
+يحصل أو يعيّن قيمة Units.
 
 ```csharp
 public double Units { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

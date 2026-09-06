@@ -1,25 +1,39 @@
 ---
-title: Rsc.RemainingOvertimeCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. مصاريف العمل الإضافي المجدولة المتبقية لمورد.
+title: "Rsc.RemainingOvertimeCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. المصروف المتبقي للوقت الإضافي المجدول لمورد"
 type: docs
-weight: 600
+weight: 590
 url: /ar/net/aspose.tasks/rsc/remainingovertimecost/
 ---
 ## Rsc.RemainingOvertimeCost field
 
-مصاريف العمل الإضافي المجدولة المتبقية لمورد.
+نفقات العمل الإضافي المجدولة المتبقية للمورد.
 
 ```csharp
 public static readonly Key<decimal, RscKey> RemainingOvertimeCost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Rsc.RemainingOvertimeCost.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingOvertimeCost, 3);
+
+Console.WriteLine("Remaining Overtime Cost: " + resource.Get(Rsc.RemainingOvertimeCost));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

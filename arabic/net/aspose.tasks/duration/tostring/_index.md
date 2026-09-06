@@ -1,14 +1,14 @@
 ---
-title: Duration.ToString
-second_title: Aspose.Tasks لمرجع .NET API
-description: Duration طريقة. إرجاع تمثيل سلسلة لهذا المثيل .
+title: "Duration.ToString"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Duration. تُرجع تمثيلًا نصيًا لهذه المثيلة."
 type: docs
 weight: 120
 url: /ar/net/aspose.tasks/duration/tostring/
 ---
 ## Duration.ToString method
 
-إرجاع تمثيل سلسلة لهذا المثيل .
+يعيد تمثيلًا نصيًا لهذا الكائن.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,25 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-سلسلة تمثيل لهذا المثال.
+تمثيل نصي لهذه المثيلة.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية تحويل مدة إلى نص.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// احصل على مدة المهمة
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("The duration as a string: " + duration.ToString());
+```
+
+### انظر أيضًا
 
 * struct [Duration](../)
-* مساحة الاسم [Aspose.Tasks](../../duration/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

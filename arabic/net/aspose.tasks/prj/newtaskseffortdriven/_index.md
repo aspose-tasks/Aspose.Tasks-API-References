@@ -1,26 +1,38 @@
 ---
-title: Prj.NewTasksEffortDriven
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت المهام الجديدة مدفوعة بالجهد.
+title: "Prj.NewTasksEffortDriven"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كانت المهام الجديدة مدفوعة بالجهد"
 type: docs
-weight: 550
+weight: 560
 url: /ar/net/aspose.tasks/prj/newtaskseffortdriven/
 ---
 ## Prj.NewTasksEffortDriven field
 
-تحديد ما إذا كانت المهام الجديدة مدفوعة بالجهد.
+يحدد ما إذا كانت المهام الجديدة مدفوعة بالجهد.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksEffortDriven;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.NewTasksEffortDriven.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksEffortDriven, true);
+
+Console.WriteLine("New Tasks Effort Driven: " + project.Get(Prj.NewTasksEffortDriven));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

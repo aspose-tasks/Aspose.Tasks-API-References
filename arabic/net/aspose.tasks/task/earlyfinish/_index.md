@@ -1,23 +1,23 @@
 ---
-title: Task.EarlyFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة EarlyFinish .
+title: "Task.EarlyFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة EarlyFinish"
 type: docs
 weight: 370
 url: /ar/net/aspose.tasks/task/earlyfinish/
 ---
 ## Task.EarlyFinish property
 
-الحصول على أو تعيين قيمة EarlyFinish .
+يحصل أو يعيّن قيمة لـ EarlyFinish.
 
 ```csharp
 public DateTime EarlyFinish { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

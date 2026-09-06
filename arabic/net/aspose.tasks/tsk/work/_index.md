@@ -1,26 +1,41 @@
 ---
-title: Tsk.Work
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. إجمالي الوقت المجدول في مهمة لجميع الموارد المعينة.
+title: "Tsk.Work"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. إجمالي الوقت المجدول للمهمة لجميع الموارد المعينة"
 type: docs
-weight: 1170
+weight: 1150
 url: /ar/net/aspose.tasks/tsk/work/
 ---
 ## Tsk.Work field
 
-إجمالي الوقت المجدول في مهمة لجميع الموارد المعينة.
+الوقت الإجمالي المجدول للمهمة لجميع الموارد المعينة.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> Work;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Tsk.Work.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Hour);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Work, project.GetWork(1));
+
+Console.WriteLine("Work: " + task.Get(Tsk.Work));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

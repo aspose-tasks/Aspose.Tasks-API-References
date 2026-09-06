@@ -1,28 +1,47 @@
 ---
-title: TreeAlgorithmBase1.Alg
-second_title: Aspose.Tasks لمرجع .NET API
-description: TreeAlgorithmBase طريقة. يعالج عقدة شجرة .
+title: "TreeAlgorithmBase1.Alg"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TreeAlgorithmBase. تعالج عقدة في شجرة."
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.util/treealgorithmbase-1/alg/
 ---
 ## TreeAlgorithmBase&lt;T&gt;.Alg method
 
-يعالج عقدة شجرة .
+يعالج عقدة في شجرة.
 
 ```csharp
 public abstract void Alg(T el, int level)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| el | T | عقدة للمعالجة. |
-| level | Int32 | مستوى عقدة الشجرة. |
+| el | T | العقدة للمعالجة. |
+| المستوى | Int32 | مستوى عقدة الشجرة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية اكتشاف بنية المشروع المكسورة.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// تحقق من بنية المشروع.
+// سيتم رمي <see cref=\"TasksException\"> إذا كانت بنية المشروع غير صحيحة.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### انظر أيضًا
 
 * class [TreeAlgorithmBase&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Tasks.Util](../../treealgorithmbase-1/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../treealgorithmbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

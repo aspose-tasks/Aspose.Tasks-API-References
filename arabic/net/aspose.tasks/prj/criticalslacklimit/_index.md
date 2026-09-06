@@ -1,25 +1,37 @@
 ---
-title: Prj.CriticalSlackLimit
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. عدد الأيام حتى نهاية المهمة عندما يقوم Microsoft Project بوضع علامة على هذه المهمة كمهمة حرجة.
+title: "Prj.CriticalSlackLimit"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. تُعتبر المهام حرجة في MS Project إذا كان إجمالي الفائض أقل أو يساوي هذا العدد من الأيام"
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/aspose.tasks/prj/criticalslacklimit/
 ---
 ## Prj.CriticalSlackLimit field
 
-عدد الأيام حتى نهاية المهمة عندما يقوم Microsoft Project بوضع علامة على هذه المهمة كمهمة حرجة.
+تُعتبر المهام حرجة في MS Project إذا كان الفائض الكلي أقل أو يساوي هذا العدد من الأيام.
 
 ```csharp
 public static readonly Key<int, PrjKey> CriticalSlackLimit;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.CriticalSlackLimit.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CriticalSlackLimit, 2);
+
+Console.WriteLine("Critical Slack Limit: " + project.Get(Prj.CriticalSlackLimit));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

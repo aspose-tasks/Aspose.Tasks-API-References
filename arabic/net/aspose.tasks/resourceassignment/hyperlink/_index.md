@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Hyperlink
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على قيمة الارتباط التشعبي أو تعيينها .
+title: "ResourceAssignment.Hyperlink"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعيين قيمة Hyperlink"
 type: docs
 weight: 310
 url: /ar/net/aspose.tasks/resourceassignment/hyperlink/
 ---
 ## ResourceAssignment.Hyperlink property
 
-الحصول على قيمة الارتباط التشعبي أو تعيينها .
+يحصل أو يعيّن قيمة Hyperlink.
 
 ```csharp
 public string Hyperlink { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

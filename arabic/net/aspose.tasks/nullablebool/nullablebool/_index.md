@@ -1,48 +1,106 @@
 ---
-title: NullableBool.NullableBool
-second_title: Aspose.Tasks لمرجع .NET API
-description: NullableBool البناء. يقوم بتهيئة مثيل جديد لملفNullableBool بنية ذات قيمة منطقية محددة.
+title: "NullableBool.NullableBool"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ NullableBool. يهيئ كائنًا جديدًا من بنية NullableBool بالقيمة المنطقية المحددة."
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/nullablebool/nullablebool/
 ---
 ## NullableBool(bool) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`NullableBool`](../) بنية ذات قيمة منطقية محددة.
+يهيئ كائنًا جديدًا من بنية [`NullableBool`](../) بالقيمة المنطقية المحددة.
 
 ```csharp
 public NullableBool(bool value)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
 | value | Boolean | القيمة المنطقية المحددة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع الفئة &lt;see cref=\"NullableBool\" /&gt;.
+
+```csharp
+var project = new Project();
+
+// دعنا نتحقق من مكان استخدام الفئة <see cref=\"Aspose.Tasks.NullableBool\" />.
+// الميزة الرئيسية لـ <see cref=\"Aspose.Tasks.NullableBool\" /> هي 
+// يمكن تعيينه كغير معرف من خلال الإنشاء
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// استخدام كائن nullable bool
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// استخدام كائن nullable bool
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
+
+### انظر أيضًا
 
 * struct [NullableBool](../)
-* مساحة الاسم [Aspose.Tasks](../../nullablebool/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## NullableBool(bool, bool) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`NullableBool`](../) هيكل .
+يُنشئ مثيلاً جديدًا من بنية [`NullableBool`](../).
 
 ```csharp
 public NullableBool(bool value, bool isDefined)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
 | value | Boolean | القيمة الحالية. |
-| isDefined | Boolean | القيمة التي تشير إلى ما إذا كانت القيمة الحالية محددة أم لا. |
+| isDefined | Boolean | القيمة التي تشير إلى ما إذا كانت القيمة الحالية معرفة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع الفئة &lt;see cref=\"NullableBool\" /&gt;.
+
+```csharp
+var project = new Project();
+
+// دعنا نتحقق من مكان استخدام الفئة <see cref=\"Aspose.Tasks.NullableBool\" />.
+// الميزة الرئيسية لـ <see cref=\"Aspose.Tasks.NullableBool\" /> هي 
+// يمكن تعيينه كغير معرف من خلال الإنشاء
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// استخدام كائن nullable bool
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// استخدام كائن nullable bool
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
+
+### انظر أيضًا
 
 * struct [NullableBool](../)
-* مساحة الاسم [Aspose.Tasks](../../nullablebool/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 

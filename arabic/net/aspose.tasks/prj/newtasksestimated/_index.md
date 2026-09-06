@@ -1,26 +1,38 @@
 ---
-title: Prj.NewTasksEstimated
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. لتحديد ما إذا كانت المدة المقدرة تظهر افتراضيًا.
+title: "Prj.NewTasksEstimated"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كان يتم عرض مدة مقدرة بشكل افتراضي"
 type: docs
-weight: 560
+weight: 570
 url: /ar/net/aspose.tasks/prj/newtasksestimated/
 ---
 ## Prj.NewTasksEstimated field
 
-لتحديد ما إذا كانت المدة المقدرة تظهر افتراضيًا.
+يحدد ما إذا كان يتم عرض المدة المقدرة افتراضيًا.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksEstimated;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة الخاصية Prj.NewTasksEstimated.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksEstimated, true);
+
+Console.WriteLine("New Tasks Estimated: " + project.Get(Prj.NewTasksEstimated));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

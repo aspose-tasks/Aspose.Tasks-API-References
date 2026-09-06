@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.OleObjectId
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. يحصل أو يحدد معرفOleObject الكائن .
+title: "VisualObjectPlacement.OleObjectId"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن معرف كائن OleObject"
 type: docs
 weight: 90
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/oleobjectid/
 ---
 ## VisualObjectPlacement.OleObjectId property
 
-يحصل أو يحدد معرف[`OleObject`](../../../aspose.tasks/oleobject/) الكائن .
+يسترجع أو يعيّن معرف كائن [`OleObject`](../../../aspose.tasks/oleobject/)
 
 ```csharp
 public int OleObjectId { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

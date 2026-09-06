@@ -1,14 +1,14 @@
 ---
-title: ExtendedAttribute.ToString
-second_title: Aspose.Tasks لمرجع .NET API
-description: ExtendedAttribute طريقة. إرجاع تمثيل سلسلة قصيرة لسمة ممتدة.
+title: "ExtendedAttribute.ToString"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ExtendedAttribute. تُرجع تمثيلًا نصيًا مختصرًا لخاصية موسعة."
 type: docs
 weight: 110
 url: /ar/net/aspose.tasks/extendedattribute/tostring/
 ---
 ## ExtendedAttribute.ToString method
 
-إرجاع تمثيل سلسلة قصيرة لسمة ممتدة.
+يعيد تمثيل نصي قصير للسمة الموسعة.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,30 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-تمثيل سلسلة السمة الموسعة.
+التمثيل النصي للخاصية الموسعة.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة الخصائص الموسعة.
+
+```csharp
+var project = new Project(DataDir + "ReadTaskExtendedAttributes.mpp");
+
+// قراءة السمات الموسعة للمهام
+foreach (var task in project.RootTask.Children)
+{
+    foreach (var attribute in task.ExtendedAttributes)
+    {
+        // قراءة المعلومات العامة حول الخاصية الموسعة
+        Console.WriteLine("Extended Attribute: " + attribute.ToString());
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [ExtendedAttribute](../)
-* مساحة الاسم [Aspose.Tasks](../../extendedattribute/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

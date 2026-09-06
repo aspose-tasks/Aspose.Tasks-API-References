@@ -1,23 +1,23 @@
 ---
-title: GroupCriterion.GroupCriterion
-second_title: Aspose.Tasks لمرجع .NET API
-description: GroupCriterion البناء. Default_Constructor
+title: "GroupCriterion.GroupCriterion"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ GroupCriterion. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/groupcriterion/groupcriterion/
 ---
 ## GroupCriterion constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public GroupCriterion()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [GroupCriterion](../)
-* مساحة الاسم [Aspose.Tasks](../../groupcriterion/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

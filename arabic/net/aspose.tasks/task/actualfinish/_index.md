@@ -1,23 +1,23 @@
 ---
-title: Task.ActualFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة ActualFinish .
+title: "Task.ActualFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. الحصول أو تعيين قيمة ActualFinish"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/task/actualfinish/
 ---
 ## Task.ActualFinish property
 
-الحصول على أو تعيين قيمة ActualFinish .
+يحصل أو يعيّن قيمة ActualFinish.
 
 ```csharp
 public DateTime ActualFinish { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

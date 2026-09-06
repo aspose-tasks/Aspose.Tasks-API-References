@@ -1,108 +1,120 @@
 ---
-title: Enum PrjKey
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.PrjKey تعداد. يمثل قائمة بحقول المشروع المدعومة.
+title: "تعداد PrjKey"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.PrjKey تعداد. يمثل قائمة بالحقول المشروع المدعومة"
 type: docs
-weight: 1180
+weight: 1420
 url: /ar/net/aspose.tasks/prjkey/
 ---
 ## PrjKey enumeration
 
-يمثل قائمة بحقول المشروع المدعومة.
+يمثل قائمة بالحقول المدعومة للمشروع.
 
 ```csharp
-public enum PrjKey
+public enum PrjKey : byte
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| ShowProjectSummaryTask | `0` | يمثل الحقل ShowProjectSummaryTask (مشروع). |
-| SaveVersion | `1` | يمثل حقل SaveVersion (المشروع). |
-| Uid | `2` | يمثل حقل Uid (المشروع). |
-| Title | `3` | يمثل حقل العنوان (المشروع) . |
-| Subject | `4` | يمثل حقل الموضوع (المشروع) . |
-| Category | `5` | يمثل حقل الفئة (المشروع) . |
-| Company | `6` | يمثل حقل الشركة (المشروع) . |
-| Manager | `7` | يمثل حقل المدير (المشروع). |
-| Author | `8` | يمثل حقل المؤلف (المشروع) . |
-| CreationDate | `9` | يمثل حقل تاريخ الإنشاء (المشروع). |
-| Revision | `10` | يمثل حقل المراجعة (المشروع). |
-| LastSaved | `11` | يمثل الحقل LastSaved (المشروع). |
-| ScheduleFromStart | `12` | يمثل الحقل ScheduleFromStart (المشروع). |
-| StartDate | `13` | يمثل حقل تاريخ البدء (المشروع). |
-| FinishDate | `14` | يمثل حقل تاريخ الانتهاء (المشروع). |
-| FyStartDate | `15` | يمثل ملف حقل (المشروع). |
-| CriticalSlackLimit | `16` | يمثل الحقل CriticalSlackLimit (مشروع). |
-| CurrencyDigits | `17` | يمثل الحقل CurrencyDigits (المشروع). |
-| CurrencySymbol | `18` | يمثل حقل رمز العملة (المشروع). |
-| CurrencyCode | `19` | يمثل حقل رمز العملة (المشروع). |
-| CurrencySymbolPosition | `20` | يمثل الحقل CurrencySymbolPosition (المشروع). |
-| Calendar | `21` | يمثل حقل التقويم (المشروع) . |
-| DateFormat | `22` | يمثل حقل تنسيق التاريخ (المشروع). |
-| DefaultStartTime | `23` | يمثل الحقل DefaultStartTime (المشروع). |
-| DefaultFinishTime | `24` | يمثل الحقل DefaultFinishTime (المشروع). |
-| MinutesPerDay | `25` | يمثل حقل MinutesPerDay (مشروع). |
-| MinutesPerWeek | `26` | يمثل حقل MinutesPerWeek (مشروع). |
-| DaysPerMonth | `27` | يمثل حقل DaysPerMonth (المشروع). |
-| DefaultTaskType | `28` | يمثل الحقل نوع المهمة الافتراضية (مشروع). |
-| DefaultFixedCostAccrual | `29` | يمثل الحقل DefaultFixedCostAccrual (المشروع). |
-| DefaultStandardRate | `30` | يمثل الحقل DefaultStandardRate (المشروع). |
-| DefaultOvertimeRate | `31` | يمثل الحقل DefaultOvertimeRate (مشروع). |
+| ShowProjectSummaryTask | `0` | يمثل الحقل ShowProjectSummaryTask (Project). |
+| SaveVersion | `1` | يمثل الحقل SaveVersion (Project). |
+| Uid | `2` | يمثل الحقل Uid (Project). |
+| Title | `3` | يمثل الحقل Title (Project). |
+| Subject | `4` | يمثل حقل Subject (Project). |
+| Category | `5` | يمثل حقل Category (Project). |
+| Company | `6` | يمثل حقل Company (Project). |
+| Manager | `7` | يمثل حقل Manager (Project). |
+| Author | `8` | يمثل حقل Author (Project). |
+| CreationDate | `9` | يمثل حقل CreationDate (Project). |
+| Revision | `10` | يمثل حقل Revision (Project). |
+| LastSaved | `11` | يمثل حقل LastSaved (Project). |
+| ScheduleFromStart | `12` | يمثل حقل ScheduleFromStart (Project). |
+| StartDate | `13` | يمثل حقل StartDate (Project). |
+| FinishDate | `14` | يمثل حقل FinishDate (Project). |
+| FyStartDate | `15` | يمثل الـ |
+| CriticalSlackLimit | `16` | يمثل حقل CriticalSlackLimit (Project). |
+| CurrencyDigits | `17` | يمثل حقل CurrencyDigits (Project). |
+| CurrencySymbol | `18` | يمثل حقل CurrencySymbol (Project). |
+| CurrencyCode | `19` | يمثل حقل CurrencyCode (Project). |
+| CurrencySymbolPosition | `20` | يمثل حقل CurrencySymbolPosition (Project). |
+| Calendar | `21` | يمثل حقل Calendar (Project). |
+| DateFormat | `22` | يمثل حقل DateFormat (Project). |
+| DefaultStartTime | `23` | يمثل حقل DefaultStartTime (Project). |
+| DefaultFinishTime | `24` | يمثل حقل DefaultFinishTime (Project). |
+| MinutesPerDay | `25` | يمثل حقل MinutesPerDay (Project). |
+| MinutesPerWeek | `26` | يمثل حقل MinutesPerWeek (Project). |
+| DaysPerMonth | `27` | يمثل حقل DaysPerMonth (Project). |
+| DefaultTaskType | `28` | يمثل حقل DefaultTaskType (Project). |
+| DefaultFixedCostAccrual | `29` | يمثل حقل DefaultFixedCostAccrual (المشروع). |
+| DefaultStandardRate | `30` | يمثل حقل DefaultStandardRate (المشروع). |
+| DefaultOvertimeRate | `31` | يمثل حقل DefaultOvertimeRate (المشروع). |
 | DurationFormat | `32` | يمثل حقل DurationFormat (المشروع). |
-| WorkFormat | `33` | يمثل حقل تنسيق العمل (المشروع). |
-| AreEditableActualCosts | `34` | يمثل الحقل AreEditableActualCosts (Project). |
+| WorkFormat | `33` | يمثل حقل WorkFormat (المشروع). |
+| AreEditableActualCosts | `34` | يمثل حقل AreEditableActualCosts (المشروع). |
 | HonorConstraints | `35` | يمثل حقل HonorConstraints (المشروع). |
-| EarnedValueMethod | `36` | يمثل حقل أسلوب EarnedValue (المشروع). |
-| InsertedProjectsLikeSummary | `37` | يمثل الحقل InsertedProjectsLikeSummary (المشروع) . |
-| MultipleCriticalPaths | `38` | يمثل الحقل MultipleCriticalPaths (مشروع). |
-| NewTasksEffortDriven | `39` | يمثل الحقل NewTasksEffortDriven (مشروع). |
-| NewTasksEstimated | `40` | يمثل الحقل NewTasksEstimated (Project). |
-| SplitsInProgressTasks | `41` | يمثل الحقل SplitsInProgressTasks (Project) . |
-| SpreadActualCosts | `42` | يمثل الحقل SpreadActualCosts (المشروع). |
+| EarnedValueMethod | `36` | يمثل حقل EarnedValueMethod (المشروع). |
+| InsertedProjectsLikeSummary | `37` | يمثل حقل InsertedProjectsLikeSummary (المشروع). |
+| MultipleCriticalPaths | `38` | يمثل حقل MultipleCriticalPaths (المشروع). |
+| NewTasksEffortDriven | `39` | يمثل حقل NewTasksEffortDriven (المشروع). |
+| NewTasksEstimated | `40` | يمثل حقل NewTasksEstimated (المشروع). |
+| SplitsInProgressTasks | `41` | يمثل حقل SplitsInProgressTasks (المشروع). |
+| SpreadActualCosts | `42` | يمثل حقل SpreadActualCosts (المشروع). |
 | SpreadPercentComplete | `43` | يمثل حقل SpreadPercentComplete (المشروع). |
 | TaskUpdatesResource | `44` | يمثل حقل TaskUpdatesResource (المشروع). |
-| FiscalYearStart | `45` | يمثل الحقل FiscalYearStart (المشروع). |
+| FiscalYearStart | `45` | يمثل حقل FiscalYearStart (المشروع). |
 | WeekStartDay | `46` | يمثل حقل WeekStartDay (المشروع). |
-| MoveCompletedEndsBack | `47` | يمثل الحقل MoveCompletedEndsBack (المشروع). |
-| MoveRemainingStartsBack | `48` | يمثل الحقل MoveRemainingStartsBack (المشروع). |
-| MoveRemainingStartsForward | `49` | يمثل الحقل MoveRemainingStartsForward (المشروع). |
-| MoveCompletedEndsForward | `50` | يمثل الحقل MoveCompletedEndsForward (المشروع). |
+| MoveCompletedEndsBack | `47` | يمثل حقل MoveCompletedEndsBack (المشروع). |
+| MoveRemainingStartsBack | `48` | يمثل حقل MoveRemainingStartsBack (المشروع). |
+| MoveRemainingStartsForward | `49` | يمثل حقل MoveRemainingStartsForward (المشروع). |
+| MoveCompletedEndsForward | `50` | يمثل حقل MoveCompletedEndsForward (المشروع). |
 | BaselineForEarnedValue | `51` | يمثل حقل BaselineForEarnedValue (المشروع). |
-| AutoAddNewResourcesAndTasks | `52` | يمثل الحقل AutoAddNewResourcesAndTasks (المشروع). |
-| StatusDate | `53` | يمثل الحقل "تاريخ الحالة" (المشروع). |
-| CurrentDate | `54` | يمثل الحقل "التاريخ الحالي" (المشروع). |
-| MicrosoftProjectServerURL | `55` | يمثل الحقل MicrosoftProjectServerURL (مشروع). |
-| Autolink | `56` | يمثل حقل الارتباط التلقائي (المشروع). |
-| NewTaskStartDate | `57` | يمثل الحقل NewTaskStartDate (المشروع). |
-| DefaultTaskEVMethod | `58` | يمثل الحقل DefaultTaskEVMethod (Project). |
-| ExtendedCreationDate | `59` | يمثل الحقل ExtendedCreationDate (المشروع). |
-| ActualsInSync | `60` | يمثل الحقل ActualsInSync (المشروع). |
-| ProjectExternallyEdited | `61` | يمثل الحقل ProjectExternallyEdited (Project). |
-| RemoveFileProperties | `62` | يمثل الحقل RemoveFileProperties (المشروع). |
-| AdminProject | `63` | يمثل حقل AdminProject (المشروع). |
-| Name | `64` | يمثل حقل الاسم (المشروع) . |
-| TimescaleStart | `65` | يمثل حقل مقياس الوقت (المشروع). |
-| TimescaleFinish | `66` | يمثل حقل إنهاء مقياس الوقت (المشروع). |
-| Comments | `67` | يمثل حقل التعليقات (المشروع). |
-| Keywords | `68` | يمثل حقل الكلمات الرئيسية (المشروع) . |
-| Template | `69` | يمثل حقل النموذج (المشروع) . |
-| LastAuthor | `70` | يمثل حقل المؤلف الأخير (المشروع). |
-| LastPrinted | `71` | يمثل حقل LastPrinted (المشروع). |
-| HyperlinkBase | `72` | يمثل حقل قاعدة الارتباط التشعبي (المشروع). |
-| NewTasksAreManual | `73` | يمثل حقل NewTasksAreManual (المشروع). |
-| UpdateManuallyScheduledTasksWhenEditingLinks | `74` | يمثل الحقل UpdateManuallyScheduledTasksWhenEditingLinks (المشروع). |
-| KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled | `75` | يمثل الحقل KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled (المشروع). |
-| DefaultCalendarGuid | `76` | دليل التقويم الافتراضي . |
-| DefaultCalendarUid | `77` | معرف التقويم الافتراضي . |
-| Guid | `78` | يمثل الدليل الإرشادي الخاص بالمشروع . |
-| CustomDateFormat | `79` | يمثل تنسيق التاريخ المحدد من قبل المستخدم. |
-| TemplateFullPath | `80` | يمثل اسم الملف الكامل للنموذج (المشروع). |
+| AutoAddNewResourcesAndTasks | `52` | يمثل حقل AutoAddNewResourcesAndTasks (المشروع). |
+| StatusDate | `53` | يمثل حقل StatusDate (المشروع). |
+| CurrentDate | `54` | يمثل حقل CurrentDate (Project). |
+| MicrosoftProjectServerURL | `55` | يمثل حقل MicrosoftProjectServerURL (Project). |
+| Autolink | `56` | يمثل حقل Autolink (Project). |
+| NewTaskStartDate | `57` | يمثل حقل NewTaskStartDate (Project). |
+| DefaultTaskEVMethod | `58` | يمثل حقل DefaultTaskEVMethod (Project). |
+| ExtendedCreationDate | `59` | يمثل حقل ExtendedCreationDate (Project). |
+| ActualsInSync | `60` | يمثل حقل ActualsInSync (Project). |
+| ProjectExternallyEdited | `61` | يمثل حقل ProjectExternallyEdited (Project). |
+| RemoveFileProperties | `62` | يمثل حقل RemoveFileProperties (Project). |
+| AdminProject | `63` | يمثل حقل AdminProject (Project). |
+| Name | `64` | يمثل حقل Name (Project). |
+| TimescaleStart | `65` | يمثل حقل TimescaleStart (Project). |
+| TimescaleFinish | `66` | يمثل حقل TimescaleFinish (Project). |
+| Comments | `67` | يمثل حقل Comments (Project). |
+| Keywords | `68` | يمثل حقل Keywords (Project). |
+| Template | `69` | يمثل حقل Template (Project). |
+| LastAuthor | `70` | يمثل حقل LastAuthor (Project). |
+| LastPrinted | `71` | يمثل حقل LastPrinted (Project). |
+| HyperlinkBase | `72` | يمثل حقل HyperlinkBase (Project). |
+| NewTasksAreManual | `73` | يمثل حقل NewTasksAreManual (Project). |
+| UpdateManuallyScheduledTasksWhenEditingLinks | `74` | يمثل حقل UpdateManuallyScheduledTasksWhenEditingLinks (Project). |
+| KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled | `75` | يمثل حقل KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled (Project). |
+| DefaultCalendarGuid | `76` | معرف التقويم الافتراضي. |
+| DefaultCalendarUid | `77` | معرف UID للتقويم الافتراضي. |
+| Guid | `78` | يمثل معرف GUID لمشروع. |
+| AutoCalculateAssignmentCosts | `79` | يحدد ما إذا كان يجب حساب تكلفة التخصيص والتكلفة المتبقية تلقائيًا باستخدام عمل التخصيص ومعدلات الموارد. |
+| CustomDateFormat | `80` | يمثل تنسيق التاريخ المعرّف من قبل المستخدم. |
+| TemplateFullPath | `81` | يمثل اسم الملف الكامل للقالب (المشروع). |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية تعيين الخصائص للمهام الجديدة.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

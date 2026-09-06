@@ -1,24 +1,24 @@
 ---
-title: CalendarException.ParentCalendar
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarException ملكية. الحصول على التقويم الأصل لهذا الكائن .
+title: "CalendarException.ParentCalendar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية CalendarException. يحصل على التقويم الأب لهذا الكائن"
 type: docs
 weight: 120
 url: /ar/net/aspose.tasks/calendarexception/parentcalendar/
 ---
 ## CalendarException.ParentCalendar property
 
-الحصول على التقويم الأصل لهذا الكائن .
+يحصل على التقويم الأب لهذا الكائن.
 
 ```csharp
 public Calendar ParentCalendar { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Calendar](../../calendar/)
 * class [CalendarException](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarexception/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

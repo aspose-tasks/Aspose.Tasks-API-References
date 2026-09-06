@@ -1,32 +1,47 @@
 ---
-title: CalendarCollection.GetByName
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarCollection طريقة. إرجاع تقويم بالاسم المحدد.
+title: "CalendarCollection.GetByName"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة CalendarCollection. تُرجع تقويمًا بالاسم المحدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/calendarcollection/getbyname/
 ---
 ## CalendarCollection.GetByName method
 
-إرجاع تقويم بالاسم المحدد.
+يعيد تقويمًا بالاسم المحدد.
 
 ```csharp
 public Calendar GetByName(string name)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| name | String | اسم التقويم. |
+| الاسم | سلسلة | اسم تقويم. |
 
 ### قيمة الإرجاع
 
-إذا تم العثور على إرجاع التقويم مع اسم محدد وإلا ترجع فارغة.
+إذا وُجد، تُرجع التقويم بالاسم المحدد وإلا تُرجع null.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية الحصول على التقويمات بالاسم أو بالمعرف.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendarByName = project.Calendars.GetByName("TestCalendar");
+var calendarByUid = project.Calendars.GetByUid(4);
+
+Console.WriteLine("Calendar Name: " + calendarByName.Name);
+Console.WriteLine("Calendar Name: " + calendarByUid.Name);
+Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
+```
+
+### انظر أيضًا
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

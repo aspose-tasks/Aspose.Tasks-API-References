@@ -1,24 +1,49 @@
 ---
-title: ByYearDayRepetition.Month
-second_title: Aspose.Tasks لمرجع .NET API
-description: ByYearDayRepetition ملكية. الحصول على أو تحديد الشهر الذي يجب أن تتكرر فيه المهمة.
+title: "ByYearDayRepetition.Month"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ByYearDayRepetition. تحصل أو تعين شهر يجب أن تتكرر فيه المهمة"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/byyeardayrepetition/month/
 ---
 ## ByYearDayRepetition.Month property
 
-الحصول على أو تحديد الشهر الذي يجب أن تتكرر فيه المهمة.
+يحصل أو يعيّن شهرًا يجب أن يتكرر فيه المهمة.
 
 ```csharp
 public Month Month { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع تكرارات اليوم السنوي أثناء إنشاء مهام متكررة جديدة.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new YearlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByYearDayRepetition { DayPosition = 1, Month = Month.July },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2019, 7, 1, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * enum [Month](../../month/)
 * class [ByYearDayRepetition](../)
-* مساحة الاسم [Aspose.Tasks](../../byyeardayrepetition/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../byyeardayrepetition/)
+* assembly [Aspose.Tasks](../../../)
 
 

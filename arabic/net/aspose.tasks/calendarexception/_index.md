@@ -1,57 +1,106 @@
 ---
-title: Class CalendarException
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.CalendarException فصل. تمثل فترات زمنية استثنائية في التقويم .
+title: "الفئة CalendarException"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.CalendarException. تمثل فترات زمنية استثنائية في التقويم"
 type: docs
 weight: 250
 url: /ar/net/aspose.tasks/calendarexception/
 ---
 ## CalendarException class
 
-تمثل فترات زمنية استثنائية في التقويم .
+يمثل فترات زمنية استثنائية في تقويم.
 
 ```csharp
 public sealed class CalendarException
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CalendarException](calendarexception/)() | يقوم بتهيئة مثيل جديد لملف`CalendarException` فئة . |
+| [CalendarException](calendarexception/)() | ينشئ مثيلاً جديداً من الفئة `CalendarException`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DaysOfWeek](../../aspose.tasks/calendarexception/daysofweek/) { get; } | الحصول على DayTypeCollection لهذا الكائن . أيام الأسبوع التي يكون فيها الاستثناء صالحًا . |
-| [DayWorking](../../aspose.tasks/calendarexception/dayworking/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان التاريخ المحدد أو نوع اليوم يعمل. |
-| [EnteredByOccurrences](../../aspose.tasks/calendarexception/enteredbyoccurrences/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نطاق التكرار محددًا عن طريق إدخال عدد من التكرارات. |
-| [FromDate](../../aspose.tasks/calendarexception/fromdate/) { get; set; } | الحصول على بداية وقت الاستثناء أو تعيينه. |
-| [Month](../../aspose.tasks/calendarexception/month/) { get; set; } | الحصول على أو تعيين الشهر الذي تمت جدولة تكرار الاستثناء فيه . |
-| [MonthDay](../../aspose.tasks/calendarexception/monthday/) { get; set; } | الحصول على أو تحديد يوم الشهر الذي تمت فيه جدولة تكرار الاستثناء . |
-| [MonthItem](../../aspose.tasks/calendarexception/monthitem/) { get; set; } | الحصول على عنصر الشهر الذي تمت جدولة تكرار الاستثناء له أو تعيينه. |
-| [MonthPosition](../../aspose.tasks/calendarexception/monthposition/) { get; set; } | الحصول على أو تحديد موضع عنصر الشهر في غضون شهر. |
-| [Name](../../aspose.tasks/calendarexception/name/) { get; set; } | الحصول على اسم الاستثناء أو تعيينه . |
-| [Occurrences](../../aspose.tasks/calendarexception/occurrences/) { get; set; } | الحصول على أو تحديد عدد التكرارات التي يكون استثناء التقويم صالحًا لها. |
-| [ParentCalendar](../../aspose.tasks/calendarexception/parentcalendar/) { get; } | الحصول على التقويم الأصل لهذا الكائن . |
-| [Period](../../aspose.tasks/calendarexception/period/) { get; set; } | الحصول على أو تحديد فترة تكرار الاستثناء . |
-| [ToDate](../../aspose.tasks/calendarexception/todate/) { get; set; } | الحصول على نهاية وقت الاستثناء أو تحديده. |
-| [Type](../../aspose.tasks/calendarexception/type/) { get; set; } | الحصول على نوع الاستثناء أو تعيينه. |
-| [WorkingTimes](../../aspose.tasks/calendarexception/workingtimes/) { get; set; } | الحصول على كائن WorkTimeCollection أو تعيينه. مجموعة أوقات العمل التي تحدد وقت العمل في أيام الأسبوع. يجب أن يتوفر وقت عمل واحد على الأقل ، ولا يمكن أن يكون هناك أكثر من خمسة. |
+| [DaysOfWeek](../../aspose.tasks/calendarexception/daysofweek/) { get; } | يحصل على DayTypeCollection لهذا الكائن. أيام الأسبوع التي يكون فيها الاستثناء صالحًا. |
+| [DayWorking](../../aspose.tasks/calendarexception/dayworking/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان التاريخ أو نوع اليوم المحدد يعمل. |
+| [EnteredByOccurrences](../../aspose.tasks/calendarexception/enteredbyoccurrences/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نطاق التكرار معرفًا بإدخال عدد مرات التكرار. القيمة False تعني أن نطاق التكرار معرف بإدخال تاريخ الانتهاء. |
+| [FromDate](../../aspose.tasks/calendarexception/fromdate/) { get; set; } | يحصل أو يضبط بداية وقت الاستثناء. |
+| [Month](../../aspose.tasks/calendarexception/month/) { get; set; } | يحصل أو يضبط الشهر الذي يُجدول فيه تكرار الاستثناء. |
+| [MonthDay](../../aspose.tasks/calendarexception/monthday/) { get; set; } | يحصل أو يضبط يوم الشهر الذي يُجدول فيه تكرار الاستثناء. |
+| [MonthItem](../../aspose.tasks/calendarexception/monthitem/) { get; set; } | يحصل أو يضبط عنصر الشهر الذي يُجدول فيه تكرار الاستثناء. |
+| [MonthPosition](../../aspose.tasks/calendarexception/monthposition/) { get; set; } | يحصل أو يضبط موضع عنصر الشهر داخل الشهر. |
+| [Name](../../aspose.tasks/calendarexception/name/) { get; set; } | يحصل أو يضبط اسم الاستثناء. |
+| [Occurrences](../../aspose.tasks/calendarexception/occurrences/) { get; set; } | يحصل أو يضبط عدد مرات التكرار التي يكون فيها استثناء التقويم صالحًا. |
+| [ParentCalendar](../../aspose.tasks/calendarexception/parentcalendar/) { get; } | يحصل على التقويم الأب لهذا الكائن. |
+| [Period](../../aspose.tasks/calendarexception/period/) { get; set; } | يحصل أو يضبط فترة تكرار الاستثناء. |
+| [ToDate](../../aspose.tasks/calendarexception/todate/) { get; set; } | يحصل أو يضبط نهاية وقت الاستثناء. |
+| [Type](../../aspose.tasks/calendarexception/type/) { get; set; } | يحصل أو يضبط نوع الاستثناء. |
+| [WorkingTimes](../../aspose.tasks/calendarexception/workingtimes/) { get; set; } | يحصل أو يضبط كائن WorkingTimeCollection. مجموعة أوقات العمل التي تحدد الوقت العامل في أيام الأسبوع. يجب أن يكون هناك وقت عمل واحد على الأقل، ولا يمكن أن يكون أكثر من خمسة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CheckException](../../aspose.tasks/calendarexception/checkexception/)(DateTime) | يتم إرجاع صحيح إذا كان المثيل المحدد لملفDateTime الهيكل هو يوم الاستثناء. |
-| [Delete](../../aspose.tasks/calendarexception/delete/)() | حذف مثيل الاستثناء من كائن CalendarExceptionCollection التقويم الأصلي. |
-| [GetExceptionDates](../../aspose.tasks/calendarexception/getexceptiondates/)() | إرجاع التواريخ التي يكون فيها استثناء التقويم قابلاً للتطبيق. |
-| [GetWorkingTime](../../aspose.tasks/calendarexception/getworkingtime/)() | إرجاع وقت العمل لاستثناء التقويم. |
+| [CheckException](../../aspose.tasks/calendarexception/checkexception/)(DateTime) | يعيد true إذا كان المثيل المحدد للهيكل DateTime هو يوم الاستثناء. |
+| [Delete](../../aspose.tasks/calendarexception/delete/)() | يحذف مثيل Exception من كائن التقويم الأب CalendarExceptionCollection. |
+| [GetExceptionDates](../../aspose.tasks/calendarexception/getexceptiondates/)() | يعيد التواريخ التي ينطبق عليها استثناء التقويم. |
+| [GetWorkingTime](../../aspose.tasks/calendarexception/getworkingtime/)() | يعيد وقت العمل لاستثناء التقويم. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يظهر كيفية إضافة/إزالة استثناءات التقويم.
+
+```csharp
+var project = new Project(DataDir + "project_test.mpp");
+
+// إنشاء تقويم
+var calendar = project.Calendars.Add("Calendar1");
+
+// إنشاء استثناء أيام الأسبوع لعطلة
+var exception = new CalendarException();
+exception.Name = "New Calendar Exception";
+exception.EnteredByOccurrences = false;
+exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
+exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
+exception.Type = CalendarExceptionType.Daily;
+exception.Month = Month.December;
+
+exception.DayWorking = false;
+
+// تحقق من أن التاريخ استثنائي
+Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
+
+calendar.Exceptions.Add(exception);
+
+// إزالة استثناء
+var cal = project.Calendars.ToList()[0];
+if (cal.Exceptions.Count > 1)
+{
+    var excToRemove = cal.Exceptions[0];
+    cal.Exceptions.Remove(excToRemove);
+}
+
+// إضافة استثناء
+var exception2 = new CalendarException();
+exception2.FromDate = new System.DateTime(2009, 1, 1);
+exception2.ToDate = new System.DateTime(2009, 1, 3);
+cal.Exceptions.Add(exception2);
+
+// طباعة الاستثناءات
+foreach (var exc in cal.Exceptions)
+{
+    Console.WriteLine("Name: " + exc.Name);
+    Console.WriteLine("From: " + exc.FromDate.ToShortDateString());
+    Console.WriteLine("To: " + exc.ToDate.ToShortDateString());
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PageSavingArgs.PageNumber
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageSavingArgs ملكية. الحصول على عدد من الصفحات ليتم كتابتها.
+title: "PageSavingArgs.PageNumber"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageSavingArgs. تحصل على رقم الصفحة التي سيتم كتابتها"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.saving/pagesavingargs/pagenumber/
 ---
 ## PageSavingArgs.PageNumber property
 
-الحصول على عدد من الصفحات ليتم كتابتها.
+يحصل على عدد الصفحة التي سيتم كتابتها.
 
 ```csharp
 public int PageNumber { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSavingArgs](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pagesavingargs/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

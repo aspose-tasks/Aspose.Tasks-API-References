@@ -1,24 +1,24 @@
 ---
-title: Project.SpreadActualCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان SpreadActualCost معينًا أم لا.
+title: "Project.SpreadActualCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. الحصول على أو تعيين قيمة تشير إلى ما إذا كان SpreadActualCost مضبوطًا أم لا"
 type: docs
-weight: 820
+weight: 850
 url: /ar/net/aspose.tasks/project/spreadactualcost/
 ---
 ## Project.SpreadActualCost property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان SpreadActualCost معينًا أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان SpreadActualCost مضبوطًا أم لا.
 
 ```csharp
 public NullableBool SpreadActualCost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

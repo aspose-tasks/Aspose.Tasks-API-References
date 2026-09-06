@@ -1,55 +1,91 @@
 ---
-title: TaskLink.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskLink طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+title: "TaskLink.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskLink. تُرجع قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن محدد"
 type: docs
 weight: 90
 url: /ar/net/aspose.tasks/tasklink/equals/
 ---
 ## Equals(TaskLink) {#equals}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public bool Equals(TaskLink other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| other | TaskLink | المثيل المحدد لملف[`TaskLink`](../) فئة للمقارنة مع هذه الحالة. |
+| other | TaskLink | المثيل المحدد من الفئة [`TaskLink`](../) للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-**حقيقي** إذا كان المثيل المحدد لملف[`TaskLink`](../) فئة لها نفس المهام السابقة واللاحقة مثل هذا المثال ؛ خلاف ذلك، **خطأ شنيع**.
+**True** if the specified instance of the [`TaskLink`](../) class has the same predecessor and successor tasks as this instance; otherwise, **false**.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية التحقق من مساواة روابط المهام.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// مساواة روابط المهام تستند إلى المهام السابقة واللاحقة.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### انظر أيضًا
 
 * class [TaskLink](../)
-* مساحة الاسم [Aspose.Tasks](../../tasklink/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المراد مقارنته مع هذا المثال. |
+| obj | كائن | الكائن للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-**حقيقي** إذا كان الكائن المحدد هو TaskLink له نفس السلف و successor مثل هذا المثيل ؛ خلاف ذلك، **خطأ شنيع**.
+**True** if the specified object is a TaskLink that has the same predecessor and successor as this instance; otherwise, **false**.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية التحقق من مساواة روابط المهام.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// مساواة روابط المهام تستند إلى المهام السابقة واللاحقة.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### انظر أيضًا
 
 * class [TaskLink](../)
-* مساحة الاسم [Aspose.Tasks](../../tasklink/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

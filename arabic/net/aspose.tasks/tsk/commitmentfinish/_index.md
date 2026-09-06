@@ -1,25 +1,39 @@
 ---
-title: Tsk.CommitmentFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. تاريخ انتهاء التسليم .  دعم القراءة لتنسيق XML فقط.
+title: "Tsk.CommitmentFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. تاريخ الانتهاء للتسليم.  القراءة مدعومة فقط لتنسيق XML"
 type: docs
 weight: 170
 url: /ar/net/aspose.tasks/tsk/commitmentfinish/
 ---
 ## Tsk.CommitmentFinish field
 
-تاريخ انتهاء التسليم .  دعم القراءة لتنسيق XML فقط.
+تاريخ الانتهاء للتسليم. القراءة مدعومة فقط لتنسيق XML.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> CommitmentFinish;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خاصية Tsk.CommitmentFinish.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.CommitmentFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Commitment Finish: " + task.Get(Tsk.CommitmentFinish));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

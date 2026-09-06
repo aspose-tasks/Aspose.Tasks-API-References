@@ -1,32 +1,32 @@
 ---
-title: ResourceCollection.Remove
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceCollection طريقة. هذا هو تنفيذ كعب الروتين لطريقة Remove الخاصة بـ ICollection  والتي تطرح فقط NotSupportedException
+title: "ResourceCollection.Remove"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ResourceCollection. هذه هي تنفيذية تجريبية لطريقة Remove في ICollections التي فقط ترمي استثناء NotSupportedException"
 type: docs
 weight: 90
 url: /ar/net/aspose.tasks/resourcecollection/remove/
 ---
 ## ResourceCollection.Remove method
 
-هذا هو تنفيذ كعب الروتين لطريقة Remove الخاصة بـ ICollection ، والتي تطرح فقط NotSupportedException
+هذه هي تنفيذية النموذجية لطريقة Remove في ICollection، التي ترمي فقط NotSupportedException
 
 ```csharp
 public bool Remove(Resource item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| item | Resource | العنصر المراد إزالته. |
+| العنصر | المورد | العنصر المراد إزالته. |
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم إزالة العنصر ؛`خطأ شنيع` خلاف ذلك.
+`true` إذا تم إزالة العنصر؛ `false` خلاف ذلك.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../resourcecollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

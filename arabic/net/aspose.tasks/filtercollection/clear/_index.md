@@ -1,23 +1,87 @@
 ---
-title: FilterCollection.Clear
-second_title: Aspose.Tasks لمرجع .NET API
-description: FilterCollection طريقة. يزيل كافة العناصر من هذه المجموعة.
+title: "FilterCollection.Clear"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة FilterCollection. تُزيل جميع العناصر من هذه المجموعة"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/filtercollection/clear/
 ---
 ## FilterCollection.Clear method
 
-يزيل كافة العناصر من هذه المجموعة.
+يزيل جميع العناصر من هذه المجموعة.
 
 ```csharp
 public void Clear()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية العمل مع مجموعات الفلاتر.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+
+// التكرار عبر فلاتر المهام
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
+Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
+foreach (var filter in project.TaskFilters)
+{
+    Console.WriteLine("All Tasks: " + filter.Name);
+    Console.WriteLine("Task Item: " + filter.FilterType);
+    Console.WriteLine("Task Filters Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Task filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+    Console.WriteLine();
+}
+
+// التكرار عبر فلاتر الموارد
+Console.WriteLine("Project.ResourceFilters count: " + project.ResourceFilters.Count);
+foreach (var filter in project.ResourceFilters)
+{
+    Console.WriteLine("Resource Filter Item Type: Item.ResourceType: " + filter.FilterType);
+    Console.WriteLine("Resource filter ShowInMenu" + filter.ShowInMenu);
+    Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+}
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// مسح فلاتر المشروع الآخر
+otherProject.TaskFilters.Clear();
+
+// نسخ الفلاتر إلى مشروع آخر
+var filters = new Filter[project.TaskFilters.Count];
+project.TaskFilters.CopyTo(filters, 0);
+
+foreach (var filter in filters)
+{
+    otherProject.TaskFilters.Add(filter);
+}
+
+// إضافة فلتر مهمة مخصص
+var customFilter = new Filter();
+customFilter.Name = "Custom Filter";
+customFilter.ShowInMenu = true;
+customFilter.ShowRelatedSummaryRows = true;
+
+if (!otherProject.TaskFilters.Contains(customFilter))
+{
+    if (!otherProject.TaskFilters.IsReadOnly)
+    {
+        otherProject.TaskFilters.Add(customFilter);
+    }
+}
+
+// إزالة جميع الفلاتر
+List<Filter> filtersToDelete = otherProject.TaskFilters.ToList();
+foreach (var filter in filtersToDelete)
+{
+    otherProject.TaskFilters.Remove(filter);
+}
+```
+
+### انظر أيضًا
 
 * class [FilterCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../filtercollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filtercollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

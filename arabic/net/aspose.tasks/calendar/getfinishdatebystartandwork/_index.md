@@ -1,58 +1,98 @@
 ---
-title: Calendar.GetFinishDateByStartAndWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Calendar طريقة. حساب التاريخ الذي يمر فيه المقدار المحدد من وقت العمل وفقًا للتقويم.
+title: "Calendar.GetFinishDateByStartAndWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Calendar. تحسب التاريخ الذي سينقضي فيه مقدار الوقت العمل المحدد وفقًا للتقويم."
 type: docs
-weight: 140
+weight: 160
 url: /ar/net/aspose.tasks/calendar/getfinishdatebystartandwork/
 ---
 ## GetFinishDateByStartAndWork(DateTime, Duration) {#getfinishdatebystartandwork}
 
-حساب التاريخ الذي يمر فيه المقدار المحدد من وقت العمل وفقًا للتقويم.
+يحسب التاريخ الذي سينقضي فيه مقدار وقت العمل المحدد وفقًا للتقويم.
 
 ```csharp
 public DateTime GetFinishDateByStartAndWork(DateTime start, Duration work)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| start | DateTime | تاريخ البدء. |
-| work | Duration | مدة العمل. |
+| بداية | DateTime | تاريخ البدء. |
+| العمل | المدة | مدة العمل. |
 
 ### قيمة الإرجاع
 
 تاريخ الانتهاء.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية حساب تاريخ الانتهاء بناءً على تاريخ البدء والعمل باستخدام نسخة من Calendar.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+var calendar = project.Calendars.GetByName("Standard");
+
+var start = new DateTime(2017, 10, 26, 8, 0, 0);
+var work = project.GetWork(7);
+
+// احسب تاريخ الانتهاء باستخدام تقويم قياسي
+var finish = calendar.GetFinishDateByStartAndWork(start, work);
+
+Console.WriteLine("Task start date: " + start);
+Console.WriteLine("Task work: " + work);
+Console.WriteLine("Task finish date: " + finish);
+```
+
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Calendar](../)
-* مساحة الاسم [Aspose.Tasks](../../calendar/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetFinishDateByStartAndWork(DateTime, TimeSpan) {#getfinishdatebystartandwork_1}
 
-حساب التاريخ الذي يمر فيه المقدار المحدد من وقت العمل وفقًا للتقويم.
+يحسب التاريخ الذي سينقضي فيه مقدار وقت العمل المحدد وفقًا للتقويم.
 
 ```csharp
 public DateTime GetFinishDateByStartAndWork(DateTime start, TimeSpan work)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| start | DateTime | تاريخ البدء. |
-| work | TimeSpan | مدة العمل. |
+| بداية | DateTime | تاريخ البدء. |
+| العمل | TimeSpan | مدة العمل. |
 
 ### قيمة الإرجاع
 
 تاريخ الانتهاء.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية حساب تاريخ الانتهاء بناءً على تاريخ البدء والعمل (كفترة زمنية) باستخدام نسخة من Calendar.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+var calendar = project.Calendars.GetByName("Standard");
+
+var start = new DateTime(2017, 10, 26, 8, 0, 0);
+var work = project.GetWork(7);
+
+// احسب تاريخ الانتهاء باستخدام تقويم قياسي
+var finish = calendar.GetFinishDateByStartAndWork(start, work.TimeSpan);
+
+Console.WriteLine("Task start date: " + start);
+Console.WriteLine("Task work: " + work);
+Console.WriteLine("Task finish date: " + finish);
+```
+
+### انظر أيضًا
 
 * class [Calendar](../)
-* مساحة الاسم [Aspose.Tasks](../../calendar/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

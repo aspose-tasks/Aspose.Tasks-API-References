@@ -1,41 +1,66 @@
 ---
-title: Class OutlineCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.OutlineCode فصل. يمثل قيمة رمز المخطط التفصيلي.
+title: "فئة OutlineCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.OutlineCode. تمثل قيمة لكود المخطط التفصيلي"
 type: docs
-weight: 1020
+weight: 1150
 url: /ar/net/aspose.tasks/outlinecode/
 ---
 ## OutlineCode class
 
-يمثل قيمة رمز المخطط التفصيلي.
+يمثل قيمة لرمز المخطط التفصيلي.
 
 ```csharp
 public class OutlineCode
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [OutlineCode](outlinecode/#constructor)() | يقوم بتهيئة مثيل جديد لملف`OutlineCode` فصل. |
-| [OutlineCode](outlinecode/#constructor_1)(OutlineCodeDefinition, OutlineValue) | يقوم بتهيئة مثيل جديد لملف`OutlineCode` فئة باستخدام رمز المخطط التفصيلي المحدد وأحد قيمها. |
+| [OutlineCode](outlinecode/#constructor)() | ينشئ مثيلاً جديداً للفئة `OutlineCode`. |
+| [OutlineCode](outlinecode/#constructor_1)(OutlineCodeDefinition, OutlineValue) | ينشئ مثيلاً جديداً للفئة `OutlineCode` باستخدام كود المخطط المحدد وإحدى قيمه. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FieldId](../../aspose.tasks/outlinecode/fieldid/) { get; set; } | الحصول على أو تعيين القيمة الرقمية للحقل المخصص لمعرف المشروع. |
-| [ValueGuid](../../aspose.tasks/outlinecode/valueguid/) { get; set; } | الحصول على أو تعيين GUID للقيمة في قائمة القيم. يطابق ValueGuid FieldGuid في قائمة القيم. |
-| [ValueId](../../aspose.tasks/outlinecode/valueid/) { get; set; } | الحصول على المعرف أو تعيينه في قائمة القيم المرتبطة بالتعريف في مجموعة كود المخطط التفصيلي. |
+| [FieldId](../../aspose.tasks/outlinecode/fieldid/) { get; set; } | يحصل أو يعيّن القيمة العددية لحقل Id المخصص للمشروع. |
+| [ValueGuid](../../aspose.tasks/outlinecode/valueguid/) { get; set; } | يحصل أو يعيّن GUID للقيمة في قائمة القيم. يتطابق ValueGuid مع FieldGuid في قائمة القيم. |
+| [ValueId](../../aspose.tasks/outlinecode/valueid/) { get; set; } | يحصل أو يعيّن Id في قائمة القيم المرتبط بالتعريف في مجموعة كود المخطط. |
 
-### ملاحظات
+## ملاحظات
 
-يلزم وجود قطعتين من البيانات - مؤشر إلى جدول التعليمات البرمجية التفصيلي table المحدد بواسطة FieldId ، والقيمة التي تم تحديدها إما بواسطة مؤشر ValueId أو ValueGuid لقائمة القيمة.
+هناك عنصران من البيانات ضروريان - مؤشر إلى جدول كود المخطط المحدد بواسطة FieldId، والقيمة المحددة إما بواسطة ValueId أو مؤشر ValueGuid إلى قائمة القيم.
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية قراءة أكواد المخطط التفصيلي للمهمة.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// قراءة أكواد المخطط التفصيلي
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,55 +1,87 @@
 ---
-title: VbaReference.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: VbaReference طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي المحددVbaReference الكائن .
+title: "VbaReference.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة VbaReference. تُعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية للكيان VbaReference المحدد"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/vbareference/equals/
 ---
 ## Equals(VbaReference) {#equals}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي المحدد[`VbaReference`](../) الكائن .
+تُعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية للكيان [`VbaReference`](../) المحدد.
 
 ```csharp
 public bool Equals(VbaReference other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| other | VbaReference | المحدد[`VbaReference`](../) كائن للمقارنة مع هذه الحالة. |
+| other | VbaReference | الكائن [`VbaReference`](../) المحدد للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-إرجاع صحيح إذا كان هذا المثيل يساوي المحدد[`VbaReference`](../) هدف؛ خلاف ذلك ، خطأ.
+تُعيد true إذا كانت هذه المثيلة مساوية للكيان [`VbaReference`](../) المحدد؛ وإلا، false.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية فحص مساواة مرجع VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// يتم فحص مساواة المراجع مقابل اسم المرجع.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
+
+### انظر أيضًا
 
 * class [VbaReference](../)
-* مساحة الاسم [Aspose.Tasks](../../vbareference/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي المحدد[`VbaReference`](../) الكائن .
+تُعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية للكيان [`VbaReference`](../) المحدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | المحدد[`VbaReference`](../) كائن للمقارنة مع هذه الحالة. |
+| obj | Object | الكائن [`VbaReference`](../) المحدد للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-إرجاع صحيح إذا كان هذا المثيل يساوي المحدد[`VbaReference`](../) هدف؛ خلاف ذلك ، خطأ.
+تُعيد true إذا كانت هذه المثيلة مساوية للكيان [`VbaReference`](../) المحدد؛ وإلا، false.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية فحص مساواة مرجع VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// يتم فحص مساواة المراجع مقابل اسم المرجع.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
+
+### انظر أيضًا
 
 * class [VbaReference](../)
-* مساحة الاسم [Aspose.Tasks](../../vbareference/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

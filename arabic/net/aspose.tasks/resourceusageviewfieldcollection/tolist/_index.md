@@ -1,14 +1,14 @@
 ---
-title: ResourceUsageViewFieldCollection.ToList
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceUsageViewFieldCollection طريقة. تحويل مثيل ملفResourceUsageViewFieldCollection فئة إلى قائمة تحتوي على مثيلاتResourceUsageViewField فئة .
+title: "ResourceUsageViewFieldCollection.ToList"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ResourceUsageViewFieldCollection. تُحوِّل نسخة من فئة ResourceUsageViewFieldCollection إلى قائمة تحتوي على نسخ من فئة ResourceUsageViewField"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/resourceusageviewfieldcollection/tolist/
 ---
 ## ResourceUsageViewFieldCollection.ToList method
 
-تحويل مثيل ملف[`ResourceUsageViewFieldCollection`](../) فئة إلى قائمة تحتوي على مثيلات[`ResourceUsageViewField`](../../resourceusageviewfield/) فئة .
+يحوِّل نسخة من فئة [`ResourceUsageViewFieldCollection`](../) إلى قائمة تحتوي على نسخ من فئة [`ResourceUsageViewField`](../../resourceusageviewfield/) .
 
 ```csharp
 public IList<ResourceUsageViewField> ToList()
@@ -16,13 +16,34 @@ public IList<ResourceUsageViewField> ToList()
 
 ### قيمة الإرجاع
 
-مثيل[`ResourceUsageViewFieldCollection`](../) تم تحويل فئة إلى قائمة تحتوي على مثيلات[`ResourceUsageViewField`](../../resourceusageviewfield/) فصل.
+نسخة فئة [`ResourceUsageViewFieldCollection`](../) تم تحويلها إلى قائمة تحتوي على نسخ من فئة [`ResourceUsageViewField`](../../resourceusageviewfield/) .
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية التعامل مع مجموعة الحقول لنسخة من ResourceUsageView.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// يمكن تحويل المجموعة إلى قائمة من ResourceUsageViewField
+IList<ResourceUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### انظر أيضًا
 
 * enum [ResourceUsageViewField](../../resourceusageviewfield/)
 * class [ResourceUsageViewFieldCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceusageviewfieldcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceusageviewfieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

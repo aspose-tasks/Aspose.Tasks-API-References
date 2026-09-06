@@ -1,29 +1,64 @@
 ---
-title: Enum PdfEncryptionAlgorithm
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.PdfEncryptionAlgorithm تعداد. يحدد خوارزمية التشفير لاستخدامها في تشفير مستند PDF.
+title: "التعداد PdfEncryptionAlgorithm"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "التعداد Aspose.Tasks.Saving.PdfEncryptionAlgorithm. يحدد خوارزمية التشفير المستخدمة لتشفير مستند PDF"
 type: docs
-weight: 1830
+weight: 2100
 url: /ar/net/aspose.tasks.saving/pdfencryptionalgorithm/
 ---
 ## PdfEncryptionAlgorithm enumeration
 
-يحدد خوارزمية التشفير لاستخدامها في تشفير مستند PDF.
+يحدد خوارزمية التشفير المستخدمة لتشفير مستند PDF.
 
 ```csharp
 public enum PdfEncryptionAlgorithm
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| RC4_40 | `0` | يحدد خوارزمية التشفير لاستخدامها في تشفير مستند PDF. |
-| RC4_128 | `1` | يحدد خوارزمية التشفير لاستخدامها في تشفير مستند PDF. |
+| RC4_40 | `0` | يحدد خوارزمية التشفير المستخدمة لتشفير مستند PDF. |
+| RC4_128 | `1` | يحدد خوارزمية التشفير المستخدمة لتشفير مستند PDF. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+يظهر كيفية تحديد تفاصيل تشفير PDF أثناء حفظ المشروع كملف PDF
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+// دعنا نحدد تفاصيل التشفير
+var encryptionDetails = new PdfEncryptionDetails(
+    // حدد كلمة مرور المستخدم
+    "userPassword", 
+    // حدد كلمة مرور المالك
+    "ownerPassword", 
+    // حدد خوارزمية التشفير
+    PdfEncryptionAlgorithm.RC4_128);
+
+// حدد الأذونات
+encryptionDetails.Permissions = PdfPermissions.ModifyContents | PdfPermissions.ModifyAnnotations;
+
+// اعرض كلمات مرور المستخدم والمالك
+Console.WriteLine("User Password: " + encryptionDetails.UserPassword);
+Console.WriteLine("Owner Password: " + encryptionDetails.OwnerPassword);
+// اعرض وضع التشفير: RC4_40 أو RC4_128
+Console.WriteLine("Encryption Algorithm: " + encryptionDetails.EncryptionAlgorithm);
+Console.WriteLine("Permissions: " + encryptionDetails.Permissions);
+
+var options = new PdfSaveOptions
+{
+    EncryptionDetails = encryptionDetails
+};
+
+// احفظ المشروع مع تفاصيل التشفير المحددة
+project.Save(OutDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

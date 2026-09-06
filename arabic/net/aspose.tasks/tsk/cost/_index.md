@@ -1,25 +1,46 @@
 ---
-title: Tsk.Cost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. إجمالي التكلفة المجدولة أو المتوقعة لمهمة ما بناءً على التكاليف المتكبدة بالفعل للعمل المنجز بواسطة الموارد المعينة للمهام  بالإضافة إلى التكاليف المخططة للعمل المتبقي.
+title: "Tsk.Cost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. التكلفة الإجمالية المجدولة أو المتوقعة للمهمة بناءً على التكاليف التي تم تكبدها بالفعل للعمل الذي قام به الموارد المعينة للمهمة بالإضافة إلى التكاليف المخططة للعمل المتبقي"
 type: docs
 weight: 230
 url: /ar/net/aspose.tasks/tsk/cost/
 ---
 ## Tsk.Cost field
 
-إجمالي التكلفة المجدولة أو المتوقعة لمهمة ما بناءً على التكاليف المتكبدة بالفعل للعمل المنجز بواسطة الموارد المعينة للمهام ، بالإضافة إلى التكاليف المخططة للعمل المتبقي.
+التكلفة الإجمالية المجدولة أو المتوقعة للمهمة بناءً على التكاليف التي تم تكبدها بالفعل للعمل الذي قامت به الموارد المخصصة للمهمة، بالإضافة إلى التكاليف المخطط لها للعمل المتبقي.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> Cost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة تكاليف المهمة.
+
+```csharp
+var project = new Project();
+
+// إضافة مهمة وتعيين التكلفة
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Cost, 800);
+
+// عرض الخصائص المتعلقة بالتكلفة للمهمة
+Console.WriteLine(task.Get(Tsk.RemainingCost));
+Console.WriteLine(task.Get(Tsk.FixedCost));
+Console.WriteLine(task.Get(Tsk.CostVariance));
+Console.WriteLine(project.RootTask.Get(Tsk.Cost));
+Console.WriteLine(project.RootTask.Get(Tsk.FixedCost));
+Console.WriteLine(project.RootTask.Get(Tsk.RemainingCost));
+Console.WriteLine(project.RootTask.Get(Tsk.CostVariance));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

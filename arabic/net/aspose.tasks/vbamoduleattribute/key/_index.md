@@ -1,23 +1,41 @@
 ---
-title: VbaModuleAttribute.Key
-second_title: Aspose.Tasks لمرجع .NET API
-description: VbaModuleAttribute ملكية. الحصول على مفتاح سمة الوحدة النمطية لـ VBA .
+title: "VbaModuleAttribute.Key"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VbaModuleAttribute. يحصل على مفتاح سمة وحدة VBA"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/vbamoduleattribute/key/
 ---
 ## VbaModuleAttribute.Key property
 
-الحصول على مفتاح سمة الوحدة النمطية لـ VBA .
+يحصل أو يعيّن المفتاح لسمة وحدة VBA.
 
 ```csharp
 public string Key { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية العمل مع سمات وحدة VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [VbaModuleAttribute](../)
-* مساحة الاسم [Aspose.Tasks](../../vbamoduleattribute/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Resource.BudgetCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة BudgetCost .
+title: "Resource.BudgetCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة BudgetCost"
 type: docs
 weight: 200
 url: /ar/net/aspose.tasks/resource/budgetcost/
 ---
 ## Resource.BudgetCost property
 
-الحصول على أو تعيين قيمة BudgetCost .
+يحصل أو يعيّن قيمة BudgetCost.
 
 ```csharp
 public decimal BudgetCost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

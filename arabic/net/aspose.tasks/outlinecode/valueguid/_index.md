@@ -1,23 +1,48 @@
 ---
-title: OutlineCode.ValueGuid
-second_title: Aspose.Tasks لمرجع .NET API
-description: OutlineCode ملكية. الحصول على أو تعيين GUID للقيمة في قائمة القيم. يطابق ValueGuid FieldGuid في قائمة القيم.
+title: "OutlineCode.ValueGuid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية OutlineCode. تحصل أو تعين GUID للقيمة في قائمة القيم. يتطابق ValueGuid مع FieldGuid في قائمة القيم"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/outlinecode/valueguid/
 ---
 ## OutlineCode.ValueGuid property
 
-الحصول على أو تعيين GUID للقيمة في قائمة القيم. يطابق ValueGuid FieldGuid في قائمة القيم.
+يحصل أو يعيّن GUID للقيمة في قائمة القيم. يتطابق ValueGuid مع FieldGuid في قائمة القيم.
 
 ```csharp
 public string ValueGuid { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة أكواد المخطط التفصيلي للمهمة.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// قراءة أكواد المخطط التفصيلي
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [OutlineCode](../)
-* مساحة الاسم [Aspose.Tasks](../../outlinecode/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecode/)
+* assembly [Aspose.Tasks](../../../)
 
 

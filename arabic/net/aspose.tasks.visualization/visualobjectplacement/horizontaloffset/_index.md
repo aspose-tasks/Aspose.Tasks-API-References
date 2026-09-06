@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.HorizontalOffset
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على أو تعيين الإزاحة الأفقية للكائن المرئي.
+title: "VisualObjectPlacement.HorizontalOffset"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن الإزاحة الأفقية للعنصر البصري"
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/horizontaloffset/
 ---
 ## VisualObjectPlacement.HorizontalOffset property
 
-الحصول على أو تعيين الإزاحة الأفقية للكائن المرئي.
+يحصل أو يضبط الإزاحة الأفقية للكائن المرئي.
 
 ```csharp
 public double HorizontalOffset { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

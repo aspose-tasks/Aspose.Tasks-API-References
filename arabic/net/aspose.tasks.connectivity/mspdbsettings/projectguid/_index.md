@@ -1,23 +1,56 @@
 ---
-title: MspDbSettings.ProjectGuid
-second_title: Aspose.Tasks لمرجع .NET API
-description: MspDbSettings ملكية. الحصول على الدليل الإرشادي الخاص بالمشروع لقراءته .
+title: "MspDbSettings.ProjectGuid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية MspDbSettings. تحصل على معرف GUID للمشروع للقراءة"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.connectivity/mspdbsettings/projectguid/
 ---
 ## MspDbSettings.ProjectGuid property
 
-الحصول على الدليل الإرشادي الخاص بالمشروع لقراءته .
+يحصل على الـ guid للمشروع المراد قراءته.
 
 ```csharp
 public Guid ProjectGuid { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية استيراد مشروع من قاعدة بيانات.
+
+```csharp
+try
+{
+    // إنشاء سلسلة الاتصال
+    var connectionString = new SqlConnectionStringBuilder();
+    connectionString.DataSource = "192.168.56.2,1433";
+    connectionString.Encrypt = true;
+    connectionString.TrustServerCertificate = true;
+    connectionString.InitialCatalog = "ProjectServer_Published";
+    connectionString.NetworkLibrary = "DBMSSOCN";
+    connectionString.UserID = "sa";
+    connectionString.Password = "*****";
+
+    // إنشاء إعدادات للتحميل من قاعدة بيانات MS
+    var settings = new MspDbSettings(connectionString.ConnectionString, new Guid("E6426C44-D6CB-4B9C-AF16-48910ACE0F54"));
+    settings.Schema = "dbo";
+
+    Console.WriteLine("Project GUID to load: " + settings.ProjectGuid);
+
+    var project = new Project(settings);
+
+    project.Save(OutDir + "ImportProjectDataFromDatabase_out.mpp", SaveFileFormat.Mpp);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message + " Please setup proper data source (DataSource, InitialCatalog etc)");
+}
+```
+
+### انظر أيضًا
 
 * class [MspDbSettings](../)
-* مساحة الاسم [Aspose.Tasks.Connectivity](../../mspdbsettings/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Connectivity](../../mspdbsettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Task.Deadline
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة الموعد النهائي .
+title: "Task.Deadline"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة Deadline"
 type: docs
 weight: 300
 url: /ar/net/aspose.tasks/task/deadline/
 ---
 ## Task.Deadline property
 
-الحصول على أو تحديد قيمة الموعد النهائي .
+يحصل أو يعيّن قيمة Deadline.
 
 ```csharp
 public DateTime Deadline { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

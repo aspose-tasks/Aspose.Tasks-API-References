@@ -1,23 +1,23 @@
 ---
-title: Task.DisplayOnTimeline
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين DisplayOnTimeline أم لا.
+title: "Task.DisplayOnTimeline"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة تشير إلى ما إذا كان DisplayOnTimeline مضبوطًا أم لا"
 type: docs
 weight: 320
 url: /ar/net/aspose.tasks/task/displayontimeline/
 ---
 ## Task.DisplayOnTimeline property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين DisplayOnTimeline أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان DisplayOnTimeline مُعيّنًا أم لا.
 
 ```csharp
 public bool DisplayOnTimeline { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: Calendar.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: Calendar طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+title: "Calendar.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Calendar. تُرجع قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد"
 type: docs
-weight: 130
+weight: 150
 url: /ar/net/aspose.tasks/calendar/equals/
 ---
 ## Calendar.Equals method
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المراد مقارنته مع هذا المثال. |
+| obj | كائن | الكائن للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-**حقيقي** إذا كان o عبارة عن تقويم له نفس قيمة Uid مثل هذا المثال ؛ خلاف ذلك، **خطأ شنيع**.
+**True** if o is a Calendar that has the same Uid value as this instance; otherwise, **false**.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Calendar](../)
-* مساحة الاسم [Aspose.Tasks](../../calendar/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

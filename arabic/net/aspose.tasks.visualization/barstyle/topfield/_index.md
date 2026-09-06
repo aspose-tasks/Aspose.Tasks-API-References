@@ -1,24 +1,24 @@
 ---
-title: BarStyle.TopField
-second_title: Aspose.Tasks لمرجع .NET API
-description: BarStyle ملكية. الحصول على حقل أو تعيينه ليتم عرضه أعلى الشريط .
+title: "BarStyle.TopField"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية BarStyle. يحصل أو يضبط حقلًا ليتم عرضه في أعلى الشريط"
 type: docs
-weight: 190
+weight: 230
 url: /ar/net/aspose.tasks.visualization/barstyle/topfield/
 ---
 ## BarStyle.TopField property
 
-الحصول على حقل أو تعيينه ليتم عرضه أعلى الشريط .
+يحصل أو يضبط حقلًا ليتم عرضه في أعلى الشريط.
 
 ```csharp
 public Field TopField { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../barstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

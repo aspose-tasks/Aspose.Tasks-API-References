@@ -1,9 +1,9 @@
 ---
-title: Project.RenumberWBSCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. إعادة ترقيم رمز WBS لجميع المهام.
+title: "Project.RenumberWBSCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. إعادة ترقيم رمز WBS لجميع المهام"
 type: docs
-weight: 1160
+weight: 1180
 url: /ar/net/aspose.tasks/project/renumberwbscode/
 ---
 ## RenumberWBSCode() {#renumberwbscode}
@@ -14,11 +14,39 @@ url: /ar/net/aspose.tasks/project/renumberwbscode/
 public void RenumberWBSCode()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية إعادة ترقيم رموز WBS للمهام.
+
+```csharp
+var project = new Project(DataDir + "RenumberExample.mpp");
+
+IEnumerable<Task> tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+
+Console.WriteLine("WBS codes before: ");
+
+// الإخراج: ""; "1"; "2"; "4"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+
+project.RenumberWBSCode();
+
+Console.WriteLine("\nWBS codes after: ");
+
+// الإخراج: ""; "1"; "2"; "3"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -30,14 +58,42 @@ public void RenumberWBSCode()
 public void RenumberWBSCode(List<int> taskIds)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| taskIds | List`1 | معرفات المهام لإعادة ترقيم أكواد WBS. |
+| taskIds | List`1 | معرفات المهام لإعادة ترقيم رموز WBS. |
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية إعادة ترقيم رموز WBS للمهام المحددة.
+
+```csharp
+var project = new Project(DataDir + "RenumberExample.mpp");
+
+var tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+
+Console.WriteLine("WBS codes before: ");
+
+// الإخراج: ""; "1"; "2"; "4"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+
+project.RenumberWBSCode(new List<int> { 1, 2, 3 });
+
+Console.WriteLine("\nWBS codes after: ");
+
+// الإخراج: ""; "1"; "2"; "3"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

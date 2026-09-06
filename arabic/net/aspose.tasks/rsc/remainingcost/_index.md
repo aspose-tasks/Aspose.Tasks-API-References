@@ -1,25 +1,39 @@
 ---
-title: Rsc.RemainingCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. المصاريف المجدولة المتبقية التي سيتم تكبدها لإكمال العمل المجدول المتبقي.
+title: "Rsc.RemainingCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. المصروف المجدول المتبقي الذي سيتكبد عند إكمال العمل المجدول المتبقي"
 type: docs
-weight: 590
+weight: 580
 url: /ar/net/aspose.tasks/rsc/remainingcost/
 ---
 ## Rsc.RemainingCost field
 
-المصاريف المجدولة المتبقية التي سيتم تكبدها لإكمال العمل المجدول المتبقي.
+النفقات المجدولة المتبقية التي ستُتحمل عند إكمال العمل المجدول المتبقي.
 
 ```csharp
 public static readonly Key<decimal, RscKey> RemainingCost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Rsc.RemainingCost.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingCost, 2);
+
+Console.WriteLine("Remaining Cost: " + resource.Get(Rsc.RemainingCost));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

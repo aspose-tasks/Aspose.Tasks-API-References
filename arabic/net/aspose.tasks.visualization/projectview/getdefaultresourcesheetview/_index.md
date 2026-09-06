@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultResourceSheetView
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectView طريقة. يتضمن Uid  واسم المورد  والنوع  وتسمية المادة  والأحرف الأولى  والمجموعة  والحد الأقصى للوحدات  و السعر القياسي  ومعدل العمل الإضافي  والتكلفة لكل استخدام  والتراكم في  والتقويم الأساسي وأعمدة مورد التعليمات البرمجية.
+title: "ProjectView.GetDefaultResourceSheetView"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ProjectView. تشمل أعمدة Uid واسم المورد type وmaterial وlabel وinitials وgroup وmax units وstandard rate وovertime rate وcost per use وaccrue at وbase calendar وcode"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks.visualization/projectview/getdefaultresourcesheetview/
 ---
 ## ProjectView.GetDefaultResourceSheetView method
 
-يتضمن Uid ، واسم المورد ، والنوع ، وتسمية المادة ، والأحرف الأولى ، والمجموعة ، والحد الأقصى للوحدات ، و السعر القياسي ، ومعدل العمل الإضافي ، والتكلفة لكل استخدام ، والتراكم في ، والتقويم الأساسي وأعمدة مورد التعليمات البرمجية.
+يتضمن أعمدة UID، اسم المورد، النوع، تسمية المادة، الأحرف الأولى، المجموعة، الحد الأقصى للوحدات، السعر القياسي، سعر العمل الإضافي، التكلفة لكل استخدام، تراكم عند، التقويم الأساسي وعمود رمز المورد.
 
 ```csharp
 public static ProjectView GetDefaultResourceSheetView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultResourceSheetView()
 
 ### قيمة الإرجاع
 
-طريقة عرض تحتوي على قائمة[`ResourceViewColumn`](../../resourceviewcolumn/).
+عرض يحتوي على قائمة بـ [`ResourceViewColumn`](../../resourceviewcolumn/).
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ مشروع مع عرض ورقة الموارد.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultResourceSheetView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_ResourceSheetView_out.pdf", options);
+```
+
+### انظر أيضًا
 
 * class [ProjectView](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../projectview/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

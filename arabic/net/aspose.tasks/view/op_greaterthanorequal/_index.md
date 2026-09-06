@@ -1,32 +1,32 @@
 ---
-title: View.op_GreaterThanOrEqual
-second_title: Aspose.Tasks لمرجع .NET API
-description: View طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من أو يساوي كائنًا محددًا.
+title: "View.op_GreaterThanOrEqual"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة View. تُرجع قيمة تُشير إلى ما إذا كانت هذه النسخة أكبر من أو تساوي كائنًا محددًا"
 type: docs
 weight: 190
 url: /ar/net/aspose.tasks/view/op_greaterthanorequal/
 ---
 ## View GreaterThanOrEqual operator
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من أو يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة أكبر من أو مساوية لكائن محدد.
 
 ```csharp
 public static bool operator >=(View a, View b)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| a | View | النظرة الأولى. |
-| b | View | القول الثاني. |
+| a | View | العرض الأول. |
+| b | View | العرض الثاني. |
 
 ### قيمة الإرجاع
 
-قيمة تشير إلى ما إذا كان هذا المثيل أكبر من أو يساوي كائنًا محددًا
+قيمة تشير إلى ما إذا كانت هذه المثيلة أكبر من أو تساوي كائنًا محددًا
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [View](../)
-* مساحة الاسم [Aspose.Tasks](../../view/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

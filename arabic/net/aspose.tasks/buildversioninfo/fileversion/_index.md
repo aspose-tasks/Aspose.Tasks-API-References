@@ -1,23 +1,35 @@
 ---
-title: BuildVersionInfo.FileVersion
-second_title: Aspose.Tasks لمرجع .NET API
-description: BuildVersionInfo مجال. إصدار الملف .
+title: "BuildVersionInfo.FileVersion"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل BuildVersionInfo. نسخة الملف"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/buildversioninfo/fileversion/
 ---
 ## BuildVersionInfo.FileVersion field
 
-إصدار الملف .
+نسخة الملف.
 
 ```csharp
 public static readonly string FileVersion;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة معلومات نسخة البناء لـ Aspose.Tasks.
+
+```csharp
+// قراءة المعلومات العامة حول نسخة Aspose.Tasks الحالية
+Console.WriteLine("Product: " + BuildVersionInfo.Product);
+Console.WriteLine("File Version: " + BuildVersionInfo.FileVersion);
+Console.WriteLine("Assembly Version: " + BuildVersionInfo.AssemblyVersion);
+Console.WriteLine("Assembly Informational Version: " + BuildVersionInfo.AssemblyInformationalVersion);
+```
+
+### انظر أيضًا
 
 * class [BuildVersionInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../buildversioninfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../buildversioninfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

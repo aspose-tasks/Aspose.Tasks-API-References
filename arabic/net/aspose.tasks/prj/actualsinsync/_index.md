@@ -1,26 +1,38 @@
 ---
-title: Prj.ActualsInSync
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت كافة الأعمال الفعلية قد تمت مزامنتها مع المشروع.
+title: "Prj.ActualsInSync"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كان جميع الأعمال الفعلية قد تمت مزامنتها مع المشروع"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/prj/actualsinsync/
 ---
 ## Prj.ActualsInSync field
 
-تحديد ما إذا كانت كافة الأعمال الفعلية قد تمت مزامنتها مع المشروع.
+يحدد ما إذا كان جميع الأعمال الفعلية قد تم مزامنتها مع المشروع.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> ActualsInSync;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.ActualsInSync.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ActualsInSync, true);
+
+Console.WriteLine("Actuals In Sync: " + project.Get(Prj.ActualsInSync));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,26 +1,41 @@
 ---
-title: Rsc.RegularWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. المبلغ الإجمالي للعمل غير الإضافي المجدول ليتم تنفيذه بواسطة المورد.
+title: "Rsc.RegularWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. إجمالي مقدار العمل غير الإضافي المجدول للقيام به من قبل المورد"
 type: docs
-weight: 580
+weight: 570
 url: /ar/net/aspose.tasks/rsc/regularwork/
 ---
 ## Rsc.RegularWork field
 
-المبلغ الإجمالي للعمل غير الإضافي المجدول ليتم تنفيذه بواسطة المورد.
+إجمالي مقدار العمل غير الإضافي المجدول الذي سيؤديه المورد.
 
 ```csharp
 public static readonly Key<Duration, RscKey> RegularWork;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Rsc.RegularWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RegularWork, project.GetWork(1));
+
+Console.WriteLine("Regular Work: " + resource.Get(Rsc.RegularWork));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

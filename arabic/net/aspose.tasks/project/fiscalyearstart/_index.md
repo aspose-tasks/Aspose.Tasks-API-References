@@ -1,24 +1,24 @@
 ---
-title: Project.FiscalYearStart
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان FiscalYearStart معينًا أم لا.
+title: "Project.FiscalYearStart"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعيين قيمة تشير إلى ما إذا كان FiscalYearStart مُحددًا أم لا"
 type: docs
-weight: 430
+weight: 440
 url: /ar/net/aspose.tasks/project/fiscalyearstart/
 ---
 ## Project.FiscalYearStart property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان FiscalYearStart معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان FiscalYearStart مضبوطًا أم لا.
 
 ```csharp
 public NullableBool FiscalYearStart { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

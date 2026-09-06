@@ -1,26 +1,40 @@
 ---
-title: Rsc.StandardRateFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. الوحدات المستخدمة بواسطة Microsoft Project لعرض المعدل القياسي.
+title: "Rsc.StandardRateFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. الوحدات المستخدمة في Microsoft Project لعرض السعر القياسي"
 type: docs
-weight: 640
+weight: 630
 url: /ar/net/aspose.tasks/rsc/standardrateformat/
 ---
 ## Rsc.StandardRateFormat field
 
-الوحدات المستخدمة بواسطة Microsoft Project لعرض المعدل القياسي.
+الوحدات التي يستخدمها Microsoft Project لعرض المعدل القياسي.
 
 ```csharp
 public static readonly Key<RateFormatType, RscKey> StandardRateFormat;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة الخاصية Rsc.StandardRateFormat.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.StandardRateFormat, RateFormatType.Hour);
+
+Console.WriteLine("Standard Rate Format: " + resource.Get(Rsc.StandardRateFormat));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RateFormatType](../../rateformattype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

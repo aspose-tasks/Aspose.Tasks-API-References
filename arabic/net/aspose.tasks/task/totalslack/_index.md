@@ -1,23 +1,23 @@
 ---
-title: Task.TotalSlack
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة TotalSlack .
+title: "Task.TotalSlack"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة TotalSlack"
 type: docs
 weight: 1230
 url: /ar/net/aspose.tasks/task/totalslack/
 ---
 ## Task.TotalSlack property
 
-الحصول على أو تحديد قيمة TotalSlack .
+يحصل أو يعيّن قيمة TotalSlack.
 
 ```csharp
 public TimeSpan TotalSlack { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

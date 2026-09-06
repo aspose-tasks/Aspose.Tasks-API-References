@@ -1,14 +1,14 @@
 ---
-title: Interface IVbaModule
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.IVbaModule واجهه المستخدم. يمثل وحدة نمطية برمز VBA .
+title: "الواجهة IVbaModule"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الواجهة Aspose.Tasks.IVbaModule. تمثل وحدة تحتوي على كود VBA"
 type: docs
-weight: 810
+weight: 880
 url: /ar/net/aspose.tasks/ivbamodule/
 ---
 ## IVbaModule interface
 
-يمثل وحدة نمطية برمز VBA .
+تمثل وحدة تحتوي على كود VBA.
 
 ```csharp
 public interface IVbaModule
@@ -16,15 +16,31 @@ public interface IVbaModule
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | يحصل على مجموعة من[`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) |
-| [Name](../../aspose.tasks/ivbamodule/name/) { get; } | الحصول على اسم وحدة VBA |
-| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode/) { get; } | يحصل على التعليمات البرمجية المصدر لوحدة VBA |
+| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | يحصل على مجموعة من [`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) |
+| [Name](../../aspose.tasks/ivbamodule/name/) { get; } | يحصل على اسم وحدة VBA |
+| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode/) { get; } | يحصل على شفرة المصدر للوحدة VBA |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية قراءة وحدات مشروع VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

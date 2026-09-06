@@ -1,24 +1,46 @@
 ---
-title: Gridline.GridlineType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Gridline ملكية. الحصول على نوع خط الشبكة أو تحديده GridlineType  .
+title: "Gridline.GridlineType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Gridline. تحصل أو تضبط نوع خط الشبكة GridlineType."
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks.visualization/gridline/gridlinetype/
 ---
 ## Gridline.GridlineType property
 
-الحصول على نوع خط الشبكة أو تحديده (`GridlineType` ) .
+تحصل أو تضبط نوع خط الشبكة (`GridlineType`).
 
 ```csharp
 public GridlineType GridlineType { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع خطوط الشبكة أثناء الحفظ بصيغ بصرية.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+var gridline = new Gridline
+{
+    // تعيين نوع خط الشبكة (<see cref=\"P:Aspose.Tasks.Visualization.Gridline.GridlineType\" />).
+    GridlineType = GridlineType.GanttRow, 
+    // تعيين <see cref=\"T:Aspose.Tasks.Visualization.LinePattern\" /> لخط الشبكة
+    Pattern = LinePattern.Dashed
+};
+
+options.Gridlines = new List<Gridline>();
+options.Gridlines.Add(gridline);
+
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles_out.png", options);
+```
+
+### انظر أيضًا
 
 * enum [GridlineType](../../gridlinetype/)
 * class [Gridline](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../gridline/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridline/)
+* assembly [Aspose.Tasks](../../../)
 
 

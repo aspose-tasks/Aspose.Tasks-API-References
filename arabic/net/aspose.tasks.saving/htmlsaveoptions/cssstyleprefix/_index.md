@@ -1,23 +1,35 @@
 ---
-title: HtmlSaveOptions.CssStylePrefix
-second_title: Aspose.Tasks لمرجع .NET API
-description: HtmlSaveOptions ملكية. الحصول على بادئة نمط CSS أو تعيينها.
+title: "HtmlSaveOptions.CssStylePrefix"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية HtmlSaveOptions. تحصل أو تعيين بادئة نمط CSS"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks.saving/htmlsaveoptions/cssstyleprefix/
 ---
 ## HtmlSaveOptions.CssStylePrefix property
 
-الحصول على بادئة نمط CSS أو تعيينها.
+يحصل أو يعيّن بادئة نمط CSS.
 
 ```csharp
 public string CssStylePrefix { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين بادئة مشتركة لأنماط CSS المستخدمة أثناء التصدير إلى HTML.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new HtmlSaveOptions { CssStylePrefix = "test_prefix" };
+
+project.Save(OutDir + "TestCssStylePrefix_out.html", options);
+```
+
+### انظر أيضًا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

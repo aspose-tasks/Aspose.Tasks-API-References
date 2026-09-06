@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.VisualObjectPlacement
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement البناء. يقوم بتهيئة مثيل جديد لملفVisualObjectPlacement فئة .
+title: "VisualObjectPlacement.VisualObjectPlacement"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ VisualObjectPlacement. يهيئ مثالًا جديدًا من الفئة VisualObjectPlacement"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/visualobjectplacement/
 ---
 ## VisualObjectPlacement constructor
 
-يقوم بتهيئة مثيل جديد لملف[`VisualObjectPlacement`](../) فئة .
+يهيئ مثالًا جديدًا من الفئة [`VisualObjectPlacement`](../)
 
 ```csharp
 public VisualObjectPlacement()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

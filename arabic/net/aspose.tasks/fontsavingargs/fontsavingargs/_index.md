@@ -1,23 +1,23 @@
 ---
-title: FontSavingArgs.FontSavingArgs
-second_title: Aspose.Tasks لمرجع .NET API
-description: FontSavingArgs البناء. Default_Constructor
+title: "FontSavingArgs.FontSavingArgs"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ FontSavingArgs. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/fontsavingargs/fontsavingargs/
 ---
 ## FontSavingArgs constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public FontSavingArgs()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Tasks](../../fontsavingargs/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontsavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

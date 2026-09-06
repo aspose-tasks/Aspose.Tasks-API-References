@@ -1,14 +1,14 @@
 ---
-title: Class PrimaveraTaskProperties
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.PrimaveraTaskProperties فصل. يمثل الخصائص الخاصة بريمافيرا لمهمة قراءة من تنسيق Primavera XER من P6XML .
+title: "الفئة PrimaveraTaskProperties"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.PrimaveraTaskProperties. تمثل خصائص خاصة بـ Primavera لمهمة تُقرأ من ملفات Primavera XER أو P6XML."
 type: docs
-weight: 1140
+weight: 1380
 url: /ar/net/aspose.tasks/primaverataskproperties/
 ---
 ## PrimaveraTaskProperties class
 
-يمثل الخصائص الخاصة بريمافيرا لمهمة قراءة من تنسيق Primavera (XER من P6XML) .
+يمثل خصائص خاصة بـ Primavera لمهمة تُقرأ من ملفات Primavera (XER أو P6XML).
 
 ```csharp
 public sealed class PrimaveraTaskProperties
@@ -16,29 +16,48 @@ public sealed class PrimaveraTaskProperties
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ActivityId](../../aspose.tasks/primaverataskproperties/activityid/) { get; } | يحصل على حقل معرف النشاط - معرف فريد للمهمة يستخدمه Primavera . |
-| [ActualLaborUnits](../../aspose.tasks/primaverataskproperties/actuallaborunits/) { get; } | الحصول على قيمة وحدات العمل الفعلية. |
-| [ActualNonLaborUnits](../../aspose.tasks/primaverataskproperties/actualnonlaborunits/) { get; } | الحصول على قيمة الوحدات الفعلية غير العمالية. |
-| [DurationPercentComplete](../../aspose.tasks/primaverataskproperties/durationpercentcomplete/) { get; } | الحصول على قيمة النسبة المئوية لاكتمال المدة . |
-| [PhysicalPercentComplete](../../aspose.tasks/primaverataskproperties/physicalpercentcomplete/) { get; } | الحصول على قيمة النسبة المئوية الفعلية للاكتمال. |
-| [RawActivityType](../../aspose.tasks/primaverataskproperties/rawactivitytype/) { get; } | يحصل على تمثيل نصي خام (كما في الملف المصدر) لحقل "نوع النشاط" للنشاط. |
-| [RawCompletePercentType](../../aspose.tasks/primaverataskproperties/rawcompletepercenttype/) { get; } | يحصل على تمثيل نصي خام (كما في الملف المصدر) لحقل "النسبة المئوية للنوع الكامل" للنشاط. |
-| [RawDurationType](../../aspose.tasks/primaverataskproperties/rawdurationtype/) { get; } | يحصل على تمثيل نصي خام (كما في الملف المصدر) لحقل "نوع المدة" للنشاط. |
-| [RawStatus](../../aspose.tasks/primaverataskproperties/rawstatus/) { get; } | يحصل على تمثيل نصي خام (كما في الملف المصدر) لحقل "الحالة" للنشاط. |
-| [RemainingEarlyFinish](../../aspose.tasks/primaverataskproperties/remainingearlyfinish/) { get; } | الحصول على تاريخ الانتهاء المبكر المتبقي - التاريخ الذي تتم فيه جدولة العمل المتبقي للنشاط . |
-| [RemainingEarlyStart](../../aspose.tasks/primaverataskproperties/remainingearlystart/) { get; } | الحصول على تاريخ البدء المبكر المتبقي - التاريخ الذي تمت فيه جدولة العمل المتبقي للنشاط . |
-| [RemainingLaborUnits](../../aspose.tasks/primaverataskproperties/remaininglaborunits/) { get; } | الحصول على قيمة وحدات العمالة المتبقية. |
-| [RemainingLateFinish](../../aspose.tasks/primaverataskproperties/remaininglatefinish/) { get; } | الحصول على تاريخ الانتهاء المتأخر المتبقي . |
-| [RemainingLateStart](../../aspose.tasks/primaverataskproperties/remaininglatestart/) { get; } | الحصول على تاريخ البدء المتأخر المتبقي . |
-| [RemainingNonLaborUnits](../../aspose.tasks/primaverataskproperties/remainingnonlaborunits/) { get; } | الحصول على قيمة الوحدات غير العمالية المتبقية. |
-| [SequenceNumber](../../aspose.tasks/primaverataskproperties/sequencenumber/) { get; } | الحصول على أو تحديد رقم التسلسل لعنصر WBS (المهام الموجزة). يتم استخدامه لفرز المهام الموجزة في Primavera. |
-| [UnitsPercentComplete](../../aspose.tasks/primaverataskproperties/unitspercentcomplete/) { get; } | الحصول على قيمة النسبة المئوية لوحدات الاكتمال . |
+| [ActivityId](../../aspose.tasks/primaverataskproperties/activityid/) { get; } | يحصل على حقل معرف النشاط - معرف فريد للمهمة يستخدمه Primavera. |
+| [ActivityType](../../aspose.tasks/primaverataskproperties/activitytype/) { get; } | يحصل على قيمة الحقل 'Activity Type'. |
+| [ActualExpenseCost](../../aspose.tasks/primaverataskproperties/actualexpensecost/) { get; } | يحصل على قيمة تكلفة النفقات الفعلية. |
+| [ActualLaborCost](../../aspose.tasks/primaverataskproperties/actuallaborcost/) { get; } | يحصل على قيمة تكلفة العمالة الفعلية. |
+| [ActualLaborUnits](../../aspose.tasks/primaverataskproperties/actuallaborunits/) { get; } | يحصل على قيمة وحدات العمالة الفعلية. |
+| [ActualMaterialCost](../../aspose.tasks/primaverataskproperties/actualmaterialcost/) { get; } | يحصل على قيمة تكلفة المادة الفعلية. |
+| [ActualNonlaborCost](../../aspose.tasks/primaverataskproperties/actualnonlaborcost/) { get; } | يحصل على قيمة تكلفة غير العمالة الفعلية . |
+| [ActualNonLaborUnits](../../aspose.tasks/primaverataskproperties/actualnonlaborunits/) { get; } | يحصل على قيمة وحدات غير العمالة الفعلية. |
+| [ActualTotalCost](../../aspose.tasks/primaverataskproperties/actualtotalcost/) { get; } | يحصل على القيمة الإجمالية للتكاليف الفعلية. |
+| [BudgetedExpenseCost](../../aspose.tasks/primaverataskproperties/budgetedexpensecost/) { get; } | يحصل على قيمة تكلفة النفقات المتوقعة (أو المخططة). |
+| [BudgetedLaborCost](../../aspose.tasks/primaverataskproperties/budgetedlaborcost/) { get; } | يحصل على قيمة تكلفة العمالة المتوقعة (أو المخططة) . |
+| [BudgetedMaterialCost](../../aspose.tasks/primaverataskproperties/budgetedmaterialcost/) { get; } | يحصل على قيمة تكلفة المادة المتوقعة (أو المخططة). |
+| [BudgetedNonlaborCost](../../aspose.tasks/primaverataskproperties/budgetednonlaborcost/) { get; } | يحصل على قيمة تكلفة غير العمالة المتوقعة (أو المخططة) . |
+| [BudgetedTotalCost](../../aspose.tasks/primaverataskproperties/budgetedtotalcost/) { get; } | يحصل على القيمة الإجمالية للتكاليف المتوقعة (أو المخططة). |
+| [DurationPercentComplete](../../aspose.tasks/primaverataskproperties/durationpercentcomplete/) { get; } | يحصل على قيمة النسبة المئوية للمدة المكتملة. |
+| [DurationType](../../aspose.tasks/primaverataskproperties/durationtype/) { get; } | يحصل على قيمة حقل 'نوع المدة' للنشاط. |
+| [PercentCompleteType](../../aspose.tasks/primaverataskproperties/percentcompletetype/) { get; } | يحصل على قيمة حقل '% نوع الاكتمال' للنشاط. |
+| [PhysicalPercentComplete](../../aspose.tasks/primaverataskproperties/physicalpercentcomplete/) { get; } | يحصل على قيمة النسبة المئوية الفعلية المكتملة. |
+| [PlannedDuration](../../aspose.tasks/primaverataskproperties/plannedduration/) { get; } | يحصل على المدة الأصلية أو المخططة -- إجمالي وقت العمل من تاريخ بدء المهمة المخطط إلى تاريخ الانتهاء المخطط.. |
+| [PrimaryConstraintDate](../../aspose.tasks/primaverataskproperties/primaryconstraintdate/) { get; } | يحصل على تاريخ القيد الأساسي. |
+| [PrimaryConstraintType](../../aspose.tasks/primaverataskproperties/primaryconstrainttype/) { get; } | يحصل على نوع القيد الأساسي. |
+| [RawActivityType](../../aspose.tasks/primaverataskproperties/rawactivitytype/) { get; } | يحصل على تمثيل النص الخام (كما في ملف المصدر) لحقل 'نوع النشاط' للنشاط. |
+| [RawCompletePercentType](../../aspose.tasks/primaverataskproperties/rawcompletepercenttype/) { get; } | يحصل على تمثيل النص الخام (كما في ملف المصدر) لحقل '% نوع الاكتمال' للنشاط. |
+| [RawDurationType](../../aspose.tasks/primaverataskproperties/rawdurationtype/) { get; } | يحصل على تمثيل النص الخام (كما في ملف المصدر) لحقل 'نوع المدة' للنشاط. |
+| [RawStatus](../../aspose.tasks/primaverataskproperties/rawstatus/) { get; } | يحصل على تمثيل النص الخام (كما في ملف المصدر) لحقل 'الحالة' للنشاط. |
+| [RemainingEarlyFinish](../../aspose.tasks/primaverataskproperties/remainingearlyfinish/) { get; } | يحصل على تاريخ الانتهاء المبكر المتبقي - التاريخ الذي من المقرر أن يكتمل فيه العمل المتبقي للنشاط. |
+| [RemainingEarlyStart](../../aspose.tasks/primaverataskproperties/remainingearlystart/) { get; } | يحصل على تاريخ البدء المبكر المتبقي - التاريخ الذي من المقرر أن يبدأ فيه العمل المتبقي للنشاط. |
+| [RemainingExpenseCost](../../aspose.tasks/primaverataskproperties/remainingexpensecost/) { get; } | يحصل على قيمة تكلفة النفقات المتبقية. |
+| [RemainingLaborUnits](../../aspose.tasks/primaverataskproperties/remaininglaborunits/) { get; } | يحصل على قيمة وحدات العمالة المتبقية. |
+| [RemainingLateFinish](../../aspose.tasks/primaverataskproperties/remaininglatefinish/) { get; } | يحصل على تاريخ الانتهاء المتأخر المتبقي. |
+| [RemainingLateStart](../../aspose.tasks/primaverataskproperties/remaininglatestart/) { get; } | يحصل على تاريخ البدء المتأخر المتبقي. |
+| [RemainingNonLaborUnits](../../aspose.tasks/primaverataskproperties/remainingnonlaborunits/) { get; } | يحصل على قيمة الوحدات غير العمالية المتبقية. |
+| [SecondaryConstraintDate](../../aspose.tasks/primaverataskproperties/secondaryconstraintdate/) { get; } | يحصل على تاريخ القيد الثانوي. |
+| [SecondaryConstraintType](../../aspose.tasks/primaverataskproperties/secondaryconstrainttype/) { get; } | يحصل على نوع القيد الثانوي. |
+| [SequenceNumber](../../aspose.tasks/primaverataskproperties/sequencenumber/) { get; } | يحصل أو يضبط رقم التسلسل لعنصر WBS (المهام الملخصة). يُستخدم لترتيب المهام الملخصة في Primavera. |
+| [UnitsPercentComplete](../../aspose.tasks/primaverataskproperties/unitspercentcomplete/) { get; } | يحصل على قيمة نسبة إكمال الوحدات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,286 +1,523 @@
 ---
-title: Project.Project
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project البناء. يقوم بتهيئة مثيل جديد لملفProject فئة .
+title: "Project.Project"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ Project. يهيئ نسخة جديدة من فئة Project."
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/project/project/
 ---
 ## Project() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة .
+يهيئ نسخة جديدة من فئة [`Project`](../).
 
 ```csharp
 public Project()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إنشاء مشروع وحفظه بتنسيق MPP دون تمرير ملف قالب MPP.
+
+```csharp
+var project = new Project();
+
+// سيتم حفظ المشروع بتنسيق MPP باستخدام قالب MPP الداخلي.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, string) {#constructor_12}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من قالب محمي بكلمة مرور (ملف mpp أو mpt موجود) .
+يهيئ نسخة جديدة من فئة [`Project`](../) من قالب محمي بكلمة مرور (ملف mpp أو mpt موجود).
 
 ```csharp
 public Project(string projectTemplate, string protectionPassword)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| projectTemplate | String | المسار إلى نموذج لإنشاء مشروع منه. |
-| protectionPassword | String | كلمة مرور الحماية. |
+| projectTemplate | سلسلة | المسار إلى القالب لإنشاء المشروع منه. |
+| protectionPassword | سلسلة | كلمة مرور الحماية. |
 
-### ملاحظات
+## ملاحظات
 
-قراءة الملفات المحمية بكلمة مرور المدعومة حاليًا لتنسيق ملف MSP 2003 فقط.
+قراءة الملفات المحمية بكلمة مرور مدعومة حاليًا لتنسيق ملف MSP 2003 فقط.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة ملفات MPP المحمية بكلمة مرور.
+
+```csharp
+var project = new Project(DataDir + "PasswordProtectedProject.mpp", "password");
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string) {#constructor_8}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من قالب (ملف mpp أو mpt موجود) .
+يهيئ نسخة جديدة من فئة [`Project`](../) من قالب (ملف mpp أو mpt موجود).
 
 ```csharp
 public Project(string projectTemplate)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| projectTemplate | String | المسار إلى نموذج لإنشاء مشروع منه. |
+| projectTemplate | سلسلة | المسار إلى القالب لإنشاء المشروع منه. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة ملف MPP.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectFiles.mpp");
+project.Save(OutDir + "ReadProjectFiles_out.mpp", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, PrimaveraReadOptions) {#constructor_5}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من Stream مع المثيل المحدد لملف[`PrimaveraReadOptions`](../../primaverareadoptions/) فئة .
+يهيئ نسخة جديدة من فئة [`Project`](../) من الدفق مع النسخة المحددة من فئة [`PrimaveraReadOptions`](../../primaverareadoptions/).
 
 ```csharp
 public Project(Stream stream, PrimaveraReadOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | تيار المشروعStreamفصل |
-| options | PrimaveraReadOptions | المثيل المحدد لـ[`PrimaveraReadOptions`](../../primaverareadoptions/)فئة تسمح بتخصيص قراءة تنسيقات Primavera (XER أو XML). |
+| دفق | دفق | دفق فئة المشروع Streamclass |
+| options | PrimaveraReadOptions | الكائن المحدد من فئة [`PrimaveraReadOptions`](../../primaverareadoptions/) الذي يسمح بتخصيص قراءة صيغ Primavera (XER أو XML). |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة مشروع من دفق باستخدام ملف Primavera XML أو Primavera XER يحتوي على عدة مشاريع.
+
+```csharp
+var options = new PrimaveraReadOptions
+{
+    ProjectUid = 4557
+};
+using (var stream = new FileStream(DataDir + "Project.xml", FileMode.Open, FileAccess.Read))
+{
+    // يعيد مشروعًا بمعرف UID خاص.
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [PrimaveraReadOptions](../../primaverareadoptions/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, ParseErrorCallback) {#constructor_10}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من قالب (ملف mpp أو mpt موجود) .
+يهيئ نسخة جديدة من فئة [`Project`](../) من قالب (ملف mpp أو mpt موجود).
 
 ```csharp
 public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| projectTemplate | String | المسار إلى نموذج لإنشاء مشروع منه. |
-| parseErrorHandler | ParseErrorCallback | طريقة رد الاتصال المحددة لمعالجة أخطاء تحليل xml. |
+| projectTemplate | سلسلة | المسار إلى القالب لإنشاء المشروع منه. |
+| parseErrorHandler | ParseErrorCallback | طريقة الاستدعاء المحددة لمعالجة أخطاء تحليل XML. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة مشروع من تدفق يحتوي على ملف XML بأحرف غير صالحة.
+
+```csharp
+public static void LoadProjectFromFile(string pathToModifiedXml)
+{
+    // افتح الملف الذي يحتوي على XML مع فترات زمنية مكسورة
+    var project = new Project(pathToModifiedXml, CustomDurationHandlerForFile2);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+
+public static object CustomDurationHandlerForFile2(object sender, ParseErrorArgs args)
+{
+    var regex = new Regex("[*]{2}(\\d+)Hrs(\\d+)Mins(\\d+)Secs[*]{2}");
+    if (args.FieldType != typeof(TimeSpan))
+    {
+        throw args.Exception;
+    }
+
+    Console.WriteLine("Object field: {0}, Object field type: {1}, Invalid value: {2}", args.FieldName, args.FieldType, args.InvalidValue);
+    var duration = regex.Replace(args.InvalidValue, "PT$1H$2M$3S");
+    var newValue = Duration.ParseTimeSpan(duration);
+    Console.WriteLine("New value : {0}", newValue);
+    return newValue;
+}
+```
+
+### انظر أيضًا
 
 * delegate [ParseErrorCallback](../../parseerrorcallback/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من تيار .
+ينشئ كائنًا جديدًا من فئة [`Project`](../) من دفق.
 
 ```csharp
 public Project(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق لتحميل قالب منه. |
+| دفق | دفق | دفق لتحميل القالب منه. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة ملف مشروع XML من دفق.
+
+```csharp
+using (Stream stream = new FileStream(DataDir + "Project.xml", FileMode.Open))
+{
+    var project = new Project(stream);
+    project.Save(OutDir + "ReadProjectFileFromStream_out.xml", SaveFileFormat.Xml);
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(StreamReader) {#constructor_7}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من مثيل StreamReader.
+ينشئ كائنًا جديدًا من فئة [`Project`](../) من كائن StreamReader.
 
 ```csharp
 public Project(StreamReader reader)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| reader | StreamReader | قارئ الدفق حيث يتم تحميل قالب منه. |
+| قارئ | StreamReader | قارئ الدفق الذي يتم منه تحميل القالب. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة ملفات MPX بترميز محدد.
+
+```csharp
+using (var streamReader = new StreamReader(DataDir + "EUC-KR-encoding.mpx", System.Text.Encoding.GetEncoding("ISO-8859-1")))
+{
+    var project = new Project(streamReader);
+    Console.WriteLine(project.RootTask.Children.ToList()[0].Get(Tsk.Name));
+    project.Save(OutDir + "WorkingWithEncodings_out.mpx", SaveFileFormat.Mpx);
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, PrimaveraReadOptions) {#constructor_11}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من قالب (ملف MPP أو MPT موجود) مع المثيل المحدد لملف[`PrimaveraReadOptions`](../../primaverareadoptions/) فئة .
+ينشئ كائنًا جديدًا من فئة [`Project`](../) من قالب (ملف MPP أو MPT موجود) باستخدام الكائن المحدد من فئة [`PrimaveraReadOptions`](../../primaverareadoptions/).
 
 ```csharp
 public Project(string projectTemplate, PrimaveraReadOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| projectTemplate | String | المسار إلى نموذج لإنشاء مشروع منه |
-| options | PrimaveraReadOptions | المثيل المحدد لـ[`PrimaveraReadOptions`](../../primaverareadoptions/) فصل. |
+| projectTemplate | سلسلة | المسار إلى القالب لإنشاء المشروع منه |
+| options | PrimaveraReadOptions | الكائن المحدد من فئة [`PrimaveraReadOptions`](../../primaverareadoptions/). |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة مشروع من ملف Primavera XML أو Primavera XER يحتوي على عدة مشاريع باستخدام خيارات قراءة Primavera.
+
+```csharp
+var options = new PrimaveraReadOptions()
+{
+    ProjectUid = 4557
+};
+
+// يعيد مشروعًا بمعرف UID خاص.
+var project = new Project(DataDir + "Project.xml", options);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### انظر أيضًا
 
 * class [PrimaveraReadOptions](../../primaverareadoptions/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(DbSettings) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة لقراءة البيانات من قاعدة البيانات التي يتم تحديدها بواسطة مثيل[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) فئة .
+ينشئ كائنًا جديدًا من فئة [`Project`](../) لقراءة البيانات من قاعدة بيانات يتم تحديدها بواسطة كائن [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/).
 
 ```csharp
 public Project(DbSettings settings)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| settings | DbSettings | المثيل المحدد لـ[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) فصل. |
+| settings | DbSettings | الكائن المحدد من فئة [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/). |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية استيراد مشروع من قاعدة بيانات Primavera باستخدام إعدادات قاعدة البيانات.
+
+```csharp
+var sb = new SqlConnectionStringBuilder
+{
+    DataSource = "192.168.56.3,1433",
+    Encrypt = true,
+    TrustServerCertificate = true,
+    InitialCatalog = "PrimaveraEDB",
+    NetworkLibrary = "DBMSSOCN",
+    UserID = "privuser",
+    Password = "***",
+};
+
+// إنشاء مثيل جديد من فئة PrimaveraDbSettings باستخدام سلسلة الاتصال ومعرف المشروع
+var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
+
+// إنشاء كائن جديد من فئة Project
+var project = new Project(settings);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### انظر أيضًا
 
 * class [DbSettings](../../../aspose.tasks.connectivity/dbsettings/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, ParseErrorCallback) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../)فئة من قالب (ملف mpp أو mpt موجود) .
+ينشئ كائنًا جديدًا من فئة [`Project`](../) من قالب (ملف mpp أو mpt موجود).
 
 ```csharp
 public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق لتحميل قالب منه. |
-| parseErrorHandler | ParseErrorCallback | طريقة رد الاتصال المحددة لمعالجة أخطاء تحليل xml. |
+| دفق | دفق | دفق لتحميل القالب منه. |
+| parseErrorHandler | ParseErrorCallback | طريقة الاستدعاء المحددة لمعالجة أخطاء تحليل XML. |
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة مشروع من ملف XML يحتوي على أحرف غير صالحة.
+
+```csharp
+public static void LoadProjectFromStream(string brokenXmlData)
+{
+    // افتح الدفق الذي يحتوي على XML مع فترات زمنية مكسورة
+    byte[] bytes = Encoding.UTF8.GetBytes(brokenXmlData);
+    using (var stream = new MemoryStream(bytes))
+    {
+        var project = new Project(stream, CustomDurationHandlerForStream2);
+        Console.WriteLine(project.Get(Prj.Name));
+    }
+}
+
+public static object CustomDurationHandlerForStream2(object sender, ParseErrorArgs args)
+{
+    var regex = new Regex("[*]{2}(\\d+)Hrs(\\d+)Mins(\\d+)Secs[*]{2}");
+    if (args.FieldType != typeof(TimeSpan))
+    {
+        throw args.Exception;
+    }
+
+    Debug.Print("Object field : {0}, Invalid value : {1}", args.FieldName, args.InvalidValue);
+    var duration = regex.Replace(args.InvalidValue, "PT$1H$2M$3S");
+    var newValue = Duration.ParseTimeSpan(duration);
+    Debug.Print("New value : {0}", newValue);
+    return newValue;
+}
+```
+
+### انظر أيضًا
 
 * delegate [ParseErrorCallback](../../parseerrorcallback/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, string) {#constructor_6}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../)فئة من قالب (ملف mpp أو mpt موجود) .
+ينشئ كائنًا جديدًا من فئة [`Project`](../) من قالب (ملف mpp أو mpt موجود).
 
 ```csharp
 public Project(Stream stream, string protectionPassword)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق لتحميل قالب منه. |
-| protectionPassword | String | كلمة مرور الحماية. |
+| دفق | دفق | دفق لتحميل القالب منه. |
+| protectionPassword | سلسلة | كلمة مرور الحماية. |
 
-### ملاحظات
+## ملاحظات
 
-قراءة الملفات المحمية بكلمة مرور المدعومة حاليًا لتنسيق ملف MSP 2003 فقط.
+قراءة الملفات المحمية بكلمة مرور مدعومة حاليًا لتنسيق ملف MSP 2003 فقط.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية التحقق مما إذا كان ملف MPP محميًا بكلمة مرور.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "PasswordProtected.mpp");
+Console.WriteLine("Is file password protected?:" + info.IsPasswordProtected);
+```
+
+يظهر كيفية قراءة ملفات MPP المحمية بكلمة مرور من دفق.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var project = new Project(stream, "password");
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, LoadOptions) {#constructor_9}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من قالب (ملف mpp أو mpt موجود) مع المثيل المحدد لملف[`LoadOptions`](../../loadoptions/) فئة .
+ينشئ مثيلًا جديدًا من الفئة [`Project`](../) من قالب (ملف mpp أو mpt موجود) باستخدام المثيل المحدد من الفئة [`LoadOptions`](../../loadoptions/).
 
 ```csharp
 public Project(string projectTemplate, LoadOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| projectTemplate | String | المسار إلى نموذج لإنشاء مشروع منه |
-| options | LoadOptions | المثيل المحدد لـ[`LoadOptions`](../../loadoptions/) فصل. |
+| projectTemplate | سلسلة | المسار إلى القالب لإنشاء المشروع منه |
+| options | LoadOptions | المثيل المحدد من الفئة [`LoadOptions`](../../loadoptions/). |
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية تحميل المشروع من ملف باستخدام المثيل &lt;see cref="Aspose.Tasks.LoadOptions"/&gt;.
+
+```csharp
+var options = new LoadOptions
+{
+    Password = "password"
+};
+var project = new Project(DataDir + "PasswordProtectedProject.mpp", options);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+يظهر كيفية قراءة مشروع من ملف Primavera XML مع خطأ في التحليل.
+
+```csharp
+var options = new PrimaveraReadOptions
+{
+    ProjectUid = 4557
+};
+
+var loadOptions = new LoadOptions()
+{
+    PrimaveraReadOptions = options,
+    ErrorHandler = CustomDurationHandlerForFile
+};
+
+// يعيد مشروعًا بمعرف UID خاص.
+var project = new Project(OutDir + "IgnoreInvalidCharacters_out.xml", loadOptions);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### انظر أيضًا
 
 * class [LoadOptions](../../loadoptions/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, LoadOptions) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Project`](../) فئة من Stream مع المثيل المحدد لملف[`LoadOptions`](../../loadoptions/) فئة .
+ينشئ مثيلًا جديدًا من الفئة [`Project`](../) من الدفق باستخدام المثيل المحدد من الفئة [`LoadOptions`](../../loadoptions/).
 
 ```csharp
 public Project(Stream stream, LoadOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | تيار المشروعStreamفصل |
-| options | LoadOptions | المثيل المحدد لـ[`LoadOptions`](../../loadoptions/)فصل |
+| دفق | دفق | دفق فئة المشروع Streamclass |
+| options | LoadOptions | المثيل المحدد من الفئة [`LoadOptions`](../../loadoptions/). |
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية تحميل المشروع من دفق باستخدام المثيل &lt;see cref="Aspose.Tasks.LoadOptions"/&gt;.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [LoadOptions](../../loadoptions/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

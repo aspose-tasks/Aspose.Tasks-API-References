@@ -1,23 +1,46 @@
 ---
-title: MPPSaveOptions.ProtectionPassword
-second_title: Aspose.Tasks لمرجع .NET API
-description: MPPSaveOptions ملكية. الحصول على أو تعيين كلمة مرور تستخدم لحماية ملف MPP الناتج. يتم دعمه حاليًا لـ MS Project 2010 والتنسيقات الأحدث.تشير القيمة الفارغة إلى أن ملف المشروع غير محمي.
+title: "MPPSaveOptions.ProtectionPassword"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية MPPSaveOptions. تحصل أو تعين كلمة مرور تُستخدم لحماية ملف MPP الناتج. مدعوم حاليًا لتنسيقات MS Project 2010 والأحدث. القيمة Null تشير إلى أن ملف المشروع غير محمي."
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.tasks.saving/mppsaveoptions/protectionpassword/
 ---
 ## MPPSaveOptions.ProtectionPassword property
 
-الحصول على أو تعيين كلمة مرور تستخدم لحماية ملف MPP الناتج. يتم دعمه حاليًا لـ MS Project 2010 والتنسيقات الأحدث.تشير القيمة الفارغة إلى أن ملف المشروع غير محمي.
+يحصل أو يعيّن كلمة مرور تُستخدم لحماية ملف MPP الناتج. حاليًا يتم دعم ذلك لتنسيقات MS Project 2010 وما بعدها. القيمة Null تشير إلى أن ملف المشروع غير محمي.
 
 ```csharp
 public string ProtectionPassword { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ مشروع إلى ملف MPP محمي بكلمة مرور.
+
+```csharp
+try
+{
+
+    var project = new Project(DataDir + "Project1.mpp");
+
+    SimpleSaveOptions options = new MPPSaveOptions
+    {
+        ProtectionPassword = "password!234"
+    };
+
+    project.Save(OutDir + "PasswordProtected.mpp", options);
+}
+catch (NotSupportedException ex)
+{
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+}
+```
+
+### انظر أيضًا
 
 * class [MPPSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../mppsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../mppsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

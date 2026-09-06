@@ -1,23 +1,23 @@
 ---
-title: Task.Resume
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة استئناف .
+title: "Task.Resume"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يعيّن قيمة لـ Resume"
 type: docs
-weight: 1110
+weight: 1100
 url: /ar/net/aspose.tasks/task/resume/
 ---
 ## Task.Resume property
 
-الحصول على أو تعيين قيمة استئناف .
+يحصل أو يعيّن قيمة Resume.
 
 ```csharp
 public DateTime Resume { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

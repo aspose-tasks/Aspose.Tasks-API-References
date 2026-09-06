@@ -1,23 +1,46 @@
 ---
-title: PrintOptions.PrintOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrintOptions البناء. يقوم بتهيئة مثيل جديد لملفPrintOptions فئة يمكن استخدامها لتعيين خيارات مختلفة لطباعة المشروع.
+title: "PrintOptions.PrintOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ PrintOptions. يهيئ مثيلاً جديداً لفئة PrintOptions يمكن استخدامها لتعيين خيارات مختلفة لطباعة المشروع"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/printoptions/printoptions/
 ---
 ## PrintOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`PrintOptions`](../) فئة يمكن استخدامها لتعيين خيارات مختلفة لطباعة المشروع.
+يهيئ مثيلاً جديداً لفئة [`PrintOptions`](../) يمكن استخدامها لتعيين خيارات مختلفة لطباعة المشروع.
 
 ```csharp
 public PrintOptions()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية استخدام خيارات الطباعة.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Project2.mpp");
+    var options = new PrintOptions
+    {
+        Timescale = Timescale.ThirdsOfMonths
+    };
+    if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
+    {
+        project.Print(options);
+    }
+}
+catch (NoPrinterInstalledException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### انظر أيضًا
 
 * class [PrintOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../printoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../printoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

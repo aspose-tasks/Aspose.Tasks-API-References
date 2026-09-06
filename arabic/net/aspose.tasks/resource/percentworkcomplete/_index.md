@@ -1,23 +1,23 @@
 ---
-title: Resource.PercentWorkComplete
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة PercentWorkComplete .
+title: "Resource.PercentWorkComplete"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل على أو يحدد قيمة PercentWorkComplete"
 type: docs
-weight: 630
+weight: 620
 url: /ar/net/aspose.tasks/resource/percentworkcomplete/
 ---
 ## Resource.PercentWorkComplete property
 
-الحصول على أو تعيين قيمة PercentWorkComplete .
+يحصل أو يعيّن قيمة لـ PercentWorkComplete.
 
 ```csharp
 public int PercentWorkComplete { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

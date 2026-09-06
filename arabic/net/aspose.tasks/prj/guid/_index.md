@@ -1,25 +1,37 @@
 ---
-title: Prj.Guid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. GUID الخاص بالمشروع .
+title: "Prj.Guid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. المعرف الفريد للمشروع"
 type: docs
-weight: 350
+weight: 360
 url: /ar/net/aspose.tasks/prj/guid/
 ---
 ## Prj.Guid field
 
-GUID الخاص بالمشروع .
+معرف GUID للمشروع.
 
 ```csharp
 public static readonly Key<Guid, PrjKey> Guid;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية قراءة/كتابة خاصية Prj.Guid.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Guid, new Guid("efcc0d63-d8e0-4a34-9f3e-9f973f50238a"));
+
+Console.WriteLine("Guid: " + project.Get(Prj.Guid));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

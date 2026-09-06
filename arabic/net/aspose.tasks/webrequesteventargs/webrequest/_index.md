@@ -1,23 +1,23 @@
 ---
-title: WebRequestEventArgs.WebRequest
-second_title: Aspose.Tasks لمرجع .NET API
-description: WebRequestEventArgs ملكية. الحصول على طلب ويب لإرساله إلى واجهة برمجة تطبيقات الويب لخادم المشروع.
+title: "WebRequestEventArgs.WebRequest"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية WebRequestEventArgs. تحصل على طلب ويب لإرساله إلى واجهة برمجة تطبيقات خوادم المشروع."
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/webrequesteventargs/webrequest/
 ---
 ## WebRequestEventArgs.WebRequest property
 
-الحصول على طلب ويب لإرساله إلى واجهة برمجة تطبيقات الويب لخادم المشروع.
+يحصل على طلب ويب لإرساله إلى واجهة برمجة تطبيقات خادم المشروع.
 
 ```csharp
 public HttpWebRequest WebRequest { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [WebRequestEventArgs](../)
-* مساحة الاسم [Aspose.Tasks](../../webrequesteventargs/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../webrequesteventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

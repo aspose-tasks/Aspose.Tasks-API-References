@@ -1,23 +1,23 @@
 ---
-title: Resource.CV
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة CV أو تعيينها .
+title: "Resource.CV"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة CV"
 type: docs
 weight: 300
 url: /ar/net/aspose.tasks/resource/cv/
 ---
 ## Resource.CV property
 
-الحصول على قيمة CV أو تعيينها .
+يحصل أو يعيّن قيمة CV.
 
 ```csharp
 public double CV { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

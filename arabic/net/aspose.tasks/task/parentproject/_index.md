@@ -1,28 +1,42 @@
 ---
-title: Task.ParentProject
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على المشروع الأصلي لمهمة .
+title: "Task.ParentProject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصّل على المشروع الأب للمهمة"
 type: docs
-weight: 940
+weight: 930
 url: /ar/net/aspose.tasks/task/parentproject/
 ---
 ## Task.ParentProject property
 
-الحصول على المشروع الأصلي لمهمة .
+يحصل على المشروع الأب للمهمة.
 
 ```csharp
 public Project ParentProject { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-اتصل بالمشروع. تحديث المراجع لتحديث هذه الخصائص .
+استدعِ Project.UpdateReferences لتحديث هذه الخصائص.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية استخدام المشروع الأب للمهمة.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Parent");
+
+// حدد مدة للمهمة باستخدام نوع وحدة الوقت الافتراضية للمشروع.
+task.Set(Tsk.Duration, task.ParentProject.GetDuration(1));
+
+Console.WriteLine(task.Get(Tsk.Duration));
+```
+
+### انظر أيضًا
 
 * class [Project](../../project/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 
