@@ -1,25 +1,46 @@
 ---
-title: Tsk.RemainingCost
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Les dépenses prévues restantes qui seront engagées pour terminer le travail prévu restant.
+title: "Tsk.RemainingCost"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. La dépense prévue restante qui sera engagée pour terminer le travail prévu restant"
 type: docs
-weight: 970
+weight: 950
 url: /fr/net/aspose.tasks/tsk/remainingcost/
 ---
 ## Tsk.RemainingCost field
 
-Les dépenses prévues restantes qui seront engagées pour terminer le travail prévu restant.
+La dépense prévue restante qui sera engagée pour terminer le travail prévu restant.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> RemainingCost;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les coûts des tâches.
+
+```csharp
+var project = new Project();
+
+// Ajouter une tâche et définir le coût
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Cost, 800);
+
+// Afficher les propriétés liées au coût de la tâche
+Console.WriteLine(task.Get(Tsk.RemainingCost));
+Console.WriteLine(task.Get(Tsk.FixedCost));
+Console.WriteLine(task.Get(Tsk.CostVariance));
+Console.WriteLine(project.RootTask.Get(Tsk.Cost));
+Console.WriteLine(project.RootTask.Get(Tsk.FixedCost));
+Console.WriteLine(project.RootTask.Get(Tsk.RemainingCost));
+Console.WriteLine(project.RootTask.Get(Tsk.CostVariance));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

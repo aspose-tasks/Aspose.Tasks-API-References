@@ -1,7 +1,7 @@
 ---
-title: TreeAlgorithmBase1.Alg
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TreeAlgorithmBase méthode. Traite un nœud dun arbre.
+title: "TreeAlgorithmBase1.Alg"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode TreeAlgorithmBase. Traite un nœud d'un arbre."
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.util/treealgorithmbase-1/alg/
@@ -14,15 +14,34 @@ Traite un nœud d'un arbre.
 public abstract void Alg(T el, int level)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | el | T | Nœud à traiter. |
-| level | Int32 | Niveau nœud de l'arborescence. |
+| niveau | Int32 | Niveau du nœud d'arbre. |
 
-### Voir également
+## Exemples
+
+Montre comment détecter la structure du projet cassée.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// vérifier la structure du projet.
+// Le <see cref="TasksException"> sera levé si la structure du projet est incorrecte.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### Voir aussi
 
 * class [TreeAlgorithmBase&lt;T&gt;](../)
-* espace de noms [Aspose.Tasks.Util](../../treealgorithmbase-1/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../treealgorithmbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

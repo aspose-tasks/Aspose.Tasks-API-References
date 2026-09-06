@@ -1,7 +1,7 @@
 ---
-title: Tsk.Created
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. La date à laquelle une tâche a été créée.
+title: "Tsk.Created"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Tsk field. La date à laquelle une tâche a été créée"
 type: docs
 weight: 250
 url: /fr/net/aspose.tasks/tsk/created/
@@ -14,12 +14,26 @@ La date à laquelle une tâche a été créée.
 public static readonly Key<DateTime, TaskKey> Created;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.Created.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Created, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Created: " + task.Get(Tsk.Created));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,27 +1,38 @@
 ---
-title: ProjectFileInfo.GetHashCode
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ProjectFileInfo méthode. Renvoie une valeur de code de hachage pour linstance duProjectFileInfo classe.
+title: "ProjectFileInfo.GetHashCode"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode ProjectFileInfo. Retourne une valeur de code de hachage pour l'instance de la classe ProjectFileInfo"
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/projectfileinfo/gethashcode/
 ---
 ## ProjectFileInfo.GetHashCode method
 
-Renvoie une valeur de code de hachage pour l'instance du[`ProjectFileInfo`](../) classe.
+Retourne une valeur de code de hachage pour l'instance de la classe [`ProjectFileInfo`](../).
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Return_Value
+### Valeur de retour
 
-renvoie une valeur de code de hachage pour cet objet.
+retourne une valeur de code de hachage pour cet objet.
 
-### Voir également
+## Exemples
+
+Montre comment lire les informations du fichier de projet.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### Voir aussi
 
 * class [ProjectFileInfo](../)
-* espace de noms [Aspose.Tasks](../../projectfileinfo/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

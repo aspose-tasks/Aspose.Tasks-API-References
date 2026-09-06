@@ -1,51 +1,81 @@
 ---
-title: Project.SetBaseline
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project méthode. Enregistre les champs de ligne de base dans la ligne de base spécifiée pour lensemble du projet.
+title: "Project.SetBaseline"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode du projet. Enregistre les champs de référence dans la référence spécifiée pour l'ensemble du projet"
 type: docs
-weight: 1230
+weight: 1250
 url: /fr/net/aspose.tasks/project/setbaseline/
 ---
 ## SetBaseline(BaselineType) {#setbaseline}
 
-Enregistre les champs de ligne de base dans la ligne de base spécifiée pour l'ensemble du projet.
+Enregistre les champs de base de référence dans la base de référence spécifiée pour l’ensemble du projet.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| baselineType | BaselineType | Le type de ligne de base dans lequel enregistrer les données de ligne de base. |
+| baselineType | BaselineType | Le type de référence dans lequel enregistrer les données de référence. |
 
-### Voir également
+## Exemples
+
+Montre comment créer des références pour un projet complet.
+
+```csharp
+var project = new Project();
+
+// Ajout de tâches
+project.RootTask.Children.Add("Task");
+project.RootTask.Children.Add("Task2");
+
+// Définir la référence pour les tâches spécifiées
+project.SetBaseline(BaselineType.Baseline);
+```
+
+### Voir aussi
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SetBaseline(BaselineType, IEnumerable&lt;Task&gt;) {#setbaseline_1}
 
-Enregistre les champs de ligne de base dans la ligne de base spécifiée pour les tâches sélectionnées.
+Enregistre les champs de base de référence dans la base de référence spécifiée pour les tâches sélectionnées.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollection)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| baselineType | BaselineType | Le type de ligne de base dans lequel enregistrer les données de ligne de base. |
+| baselineType | BaselineType | Le type de référence dans lequel enregistrer les données de référence. |
 | taskCollection | IEnumerable`1 | Liste des tâches pour lesquelles enregistrer les données de référence. |
 
-### Voir également
+## Exemples
+
+Montre comment créer des références définies pour des tâches spécifiques.
+
+```csharp
+var project = new Project();
+
+// Ajout de tâches
+var task = project.RootTask.Children.Add("Task");
+var task2 = project.RootTask.Children.Add("Task2");
+
+// Définir la référence pour les tâches spécifiées
+project.SetBaseline(BaselineType.Baseline, new[] { task, task2 });
+```
+
+### Voir aussi
 
 * enum [BaselineType](../../baselinetype/)
 * class [Task](../../task/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

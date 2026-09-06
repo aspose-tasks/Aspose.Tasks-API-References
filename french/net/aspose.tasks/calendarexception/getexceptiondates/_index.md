@@ -1,27 +1,42 @@
 ---
-title: CalendarException.GetExceptionDates
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CalendarException méthode. Renvoie les dates auxquelles lexception de calendrier est applicable.
+title: "CalendarException.GetExceptionDates"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "CalendarException méthode. Retourne les dates auxquelles l'exception de calendrier s'applique"
 type: docs
 weight: 190
 url: /fr/net/aspose.tasks/calendarexception/getexceptiondates/
 ---
 ## CalendarException.GetExceptionDates method
 
-Renvoie les dates auxquelles l'exception de calendrier est applicable.
+Renvoie les dates auxquelles l'exception de calendrier s'applique.
 
 ```csharp
 public IEnumerable<DateTime> GetExceptionDates()
 ```
 
-### Return_Value
+### Valeur de retour
 
-Renvoie une collection de dates d'exception auxquelles l'exception de calendrier s'applique.
+Retourne une collection de dates d'exception pour lesquelles l'exception de calendrier s'applique.
 
-### Voir également
+## Exemples
+
+Montre comment obtenir les dates pour lesquelles une exception de calendrier spécifique est effective.
+
+```csharp
+Project project = new Project(DataDir + "CalendarExceptions.mpp");
+Calendar calendar = project.Calendars.GetByUid(1);
+CalendarException calendarException = calendar.Exceptions[0];
+
+foreach (var date in calendarException.GetExceptionDates())
+{
+    Console.WriteLine(date);
+}
+```
+
+### Voir aussi
 
 * class [CalendarException](../)
-* espace de noms [Aspose.Tasks](../../calendarexception/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

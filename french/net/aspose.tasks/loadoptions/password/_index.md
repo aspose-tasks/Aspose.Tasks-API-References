@@ -1,9 +1,9 @@
 ---
-title: LoadOptions.Password
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: LoadOptions propriété. Obtient ou définit un mot de passe de protection.
+title: "LoadOptions.Password"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété LoadOptions. Obtient ou définit un mot de passe de protection."
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.tasks/loadoptions/password/
 ---
 ## LoadOptions.Password property
@@ -14,10 +14,26 @@ Obtient ou définit un mot de passe de protection.
 public string Password { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment charger le projet protégé par mot de passe en utilisant une instance &lt;see cref="Aspose.Tasks.LoadOptions"/&gt;.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### Voir aussi
 
 * class [LoadOptions](../)
-* espace de noms [Aspose.Tasks](../../loadoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../loadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

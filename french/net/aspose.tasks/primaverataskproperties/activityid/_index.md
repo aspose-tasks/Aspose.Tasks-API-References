@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.ActivityId
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PrimaveraTaskProperties propriété. Obtient un champ didentifiant dactivité  lidentifiant unique dune tâche utilisé par Primavera.
+title: "PrimaveraTaskProperties.ActivityId"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété PrimaveraTaskProperties. Obtient un champ d'identifiant d'activité, un identifiant unique de tâche utilisé par Primavera"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/primaverataskproperties/activityid/
 ---
 ## PrimaveraTaskProperties.ActivityId property
 
-Obtient un champ d'identifiant d'activité - l'identifiant unique d'une tâche utilisé par Primavera.
+Obtient le champ d'identifiant d'activité - l'identifiant unique d'une tâche utilisé par Primavera.
 
 ```csharp
 public string ActivityId { get; }
 ```
 
-### Remarques
+## Remarques
 
 Applicable uniquement aux activités (tâches non récapitulatives).
 
-### Voir également
+### Voir aussi
 
 * class [PrimaveraTaskProperties](../)
-* espace de noms [Aspose.Tasks](../../primaverataskproperties/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

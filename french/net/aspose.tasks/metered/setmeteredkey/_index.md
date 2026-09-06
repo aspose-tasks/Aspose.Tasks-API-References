@@ -1,32 +1,65 @@
 ---
-title: Metered.SetMeteredKey
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Metered méthode. Définit des clés publiques et privées mesurées.
+title: "Metered.SetMeteredKey"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Metered. Définit les clés publiques et privées metered"
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.tasks/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-Définit des clés publiques et privées mesurées.
+Définit les clés publiques et privées mesurées.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| publicKey | String | La clé publique. |
-| privateKey | String | La clé privée. |
+| publicKey | Chaîne | La clé publique. |
+| privateKey | Chaîne | La clé privée. |
 
-### Remarques
+## Remarques
 
-Si vous achetez une licence mesurée, cette API doit être appelée au démarrage de l'application, normalement, cela suffit. Cependant, si le compteur ne parvient pas à télécharger les données de consommation pendant une période de 24 heures, la licence sera définie sur le statut d'évaluation. Pour éviter ce cas, vous devez vérifier régulièrement l'état de la licence. S'il s'agit d'un état d'évaluation, appelez à nouveau cette API.
+Si vous achetez une licence à consommation, cette API doit être appelée au démarrage de l'application, normalement cela suffit. Cependant, si la licence à consommation échoue à télécharger les données de consommation pendant une période de 24 heures, la licence sera mise en statut d'évaluation. Pour éviter ce cas, vous devez vérifier régulièrement le statut de la licence. Si elle est en statut d'évaluation, appelez à nouveau cette API.
 
-### Voir également
+## Exemples
+
+Montre comment utiliser le type de licence &lt;see cref=\"Aspose.Tasks.Metered\" /&gt; avec Aspose.Tasks.
+
+```csharp
+// Utilisons la licence à comptage (voir https://purchase.aspose.com/faqs/licensing/metered)
+// définir la licence à comptage
+var metered = new Metered();
+metered.SetMeteredKey("<public key>", "<private key>");
+
+var project = new Project(DataDir + "Project2.mpp");
+Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+
+// ...
+// travailler avec le projet...
+// ...
+
+// Nous pouvons obtenir les crédits actuels et la consommation d'octets.
+
+try
+{
+    Console.WriteLine("Credits spent: {0}", Metered.GetConsumptionCredit());
+    Console.WriteLine("Bytes consumed: {0}", Metered.GetConsumptionQuantity());
+}
+catch (WebException)
+{
+    // journaliser l'exception
+}
+
+// récemment, l'utilisateur peut réinitialiser une licence à comptage et arrêter le comptage des octets
+metered.ResetMeteredKey();
+```
+
+### Voir aussi
 
 * class [Metered](../)
-* espace de noms [Aspose.Tasks](../../metered/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../metered/)
+* assembly [Aspose.Tasks](../../../)
 
 

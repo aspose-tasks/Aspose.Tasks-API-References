@@ -1,27 +1,27 @@
 ---
-title: View.GetHashCode
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: View méthode. Renvoie une valeur de code de hachage pour linstance duResource classe.
+title: "View.GetHashCode"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode View. Renvoie une valeur de code de hachage pour l'instance de la classe Resource"
 type: docs
 weight: 160
 url: /fr/net/aspose.tasks/view/gethashcode/
 ---
 ## View.GetHashCode method
 
-Renvoie une valeur de code de hachage pour l'instance du[`Resource`](../../resource/) classe.
+Renvoie une valeur de code de hachage pour l'instance de la classe [`Resource`](../../resource/).
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Return_Value
+### Valeur de retour
 
-renvoie une valeur de code de hachage pour cet objet.
+retourne une valeur de code de hachage pour cet objet.
 
-### Voir également
+### Voir aussi
 
 * class [View](../)
-* espace de noms [Aspose.Tasks](../../view/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

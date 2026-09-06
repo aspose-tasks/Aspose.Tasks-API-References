@@ -1,23 +1,33 @@
 ---
-title: SaveOptions.NonWorkingTimeColor
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: SaveOptions propriété. Obtient ou définit la couleur des périodes chômées.
+title: "SaveOptions.NonWorkingTimeColor"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété SaveOptions. Obtient ou définit la couleur du temps non travaillé."
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.tasks.saving/saveoptions/nonworkingtimecolor/
 ---
 ## SaveOptions.NonWorkingTimeColor property
 
-Obtient ou définit la couleur des périodes chômées.
+Obtient ou définit la couleur du temps non travaillé.
 
 ```csharp
 public Color NonWorkingTimeColor { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment définir une couleur personnalisée pour le temps non travaillé.
+
+```csharp
+var project = new Project(DataDir + "ReadCurrencyProperties.mpp");
+SaveOptions options = new PdfSaveOptions { NonWorkingTimeColor = Color.LightGray };
+project.Save(OutDir + "ReadCurrencyProperties_out.pdf", options);
+```
+
+### Voir aussi
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../saveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

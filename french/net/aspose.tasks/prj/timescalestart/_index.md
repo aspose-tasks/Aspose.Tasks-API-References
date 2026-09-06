@@ -1,25 +1,36 @@
 ---
-title: Prj.TimescaleStart
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Date de début de léchelle de temps dans la vue.
+title: "Prj.TimescaleStart"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. La date à laquelle l’échelle de temps dans la vue commence"
 type: docs
-weight: 730
+weight: 740
 url: /fr/net/aspose.tasks/prj/timescalestart/
 ---
 ## Prj.TimescaleStart field
 
-Date de début de l'échelle de temps dans la vue.
+La date à laquelle l'échelle de temps dans la vue commence.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> TimescaleStart;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment définir la date de début de l’échelle de temps pour ajuster la date à laquelle la vue doit commencer.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.TimescaleStart, new DateTime(2012, 4, 30));
+
+Console.WriteLine("Timescale Start: " + project.Get(Prj.TimescaleStart));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

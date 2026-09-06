@@ -1,14 +1,14 @@
 ---
-title: Enum TextItemType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.Visualization.TextItemType énumération. Type délément pour lequel modifier un style de texte.
+title: "Énumération TextItemType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Énumération Aspose.Tasks.Visualization.TextItemType. Type d'élément pour changer un style de texte"
 type: docs
-weight: 3060
+weight: 3410
 url: /fr/net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration
 
-Type d'élément pour lequel modifier un style de texte.
+Type d'élément pour modifier un style de texte.
 
 ```csharp
 public enum TextItemType
@@ -16,35 +16,60 @@ public enum TextItemType
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
 | RowColumnTitles | `0` | Titres des lignes et des colonnes. |
 | CriticalTasks | `1` | Tâches critiques. |
 | NoncriticalTasks | `2` | Tâches non critiques. |
 | MilestoneTasks | `3` | Tâches jalons. |
 | InactiveTasks | `4` | Tâches inactives. |
-| SummaryTasks | `5` | Tâches récapitulatives. |
+| SummaryTasks | `5` | Tâches de synthèse. |
 | AssignmentRow | `6` | Ligne d'affectation. |
-| TopTimescaleTier | `7` | Niveau d'échelle de temps supérieur. |
+| TopTimescaleTier | `7` | Niveau supérieur de l'échelle de temps. |
 | BottomTimescaleTier | `8` | Niveau inférieur de l'échelle de temps. |
-| MiddleTimescaleTier | `9` | Niveau d'échelle de temps intermédiaire. |
-| Resources | `10` | Fiche ressource. |
-| OverallocatedResources | `11` | Sur-allocation des ressources. |
-| TaskFilterHighlight | `12` | Filtre de tâches Mettre en surbrillance l'élément de texte. |
-| BarTextBottom | `13` | Texte de la barre Élément de texte inférieur. |
-| BarTextInside | `14` | Barre de texte à l'intérieur de l'élément de texte. |
-| BarTextLeft | `15` | Texte de la barre Élément de texte de gauche. |
-| BarTextRight | `16` | Texte de la barre Élément de texte droit. |
-| BarTextTop | `17` | Texte de la barre Élément de texte supérieur. |
-| MarkedTasks | `18` | Élément de texte de tâche marqué. |
-| ProjectSummary | `19` | Élément de texte de la tâche récapitulative du projet. |
-| ExternalTasks | `20` | Élément de texte Tâches externes. |
-| Allocated | `21` | Élément de texte alloué. |
+| MiddleTimescaleTier | `9` | Niveau intermédiaire de l'échelle de temps. |
+| Resources | `10` | Feuille de ressources. |
+| OverallocatedResources | `11` | Ressources sur-allouées. |
+| TaskFilterHighlight | `12` | Élément texte de mise en surbrillance du filtre de tâche. |
+| BarTextBottom | `13` | Élément texte bas de la barre. |
+| BarTextInside | `14` | Élément texte à l'intérieur de la barre. |
+| BarTextLeft | `15` | Élément texte gauche de la barre. |
+| BarTextRight | `16` | Élément texte droite de la barre. |
+| BarTextTop | `17` | Élément texte haut de la barre. |
+| MarkedTasks | `18` | Élément texte de tâche marquée. |
+| ProjectSummary | `19` | Élément texte de tâche de synthèse du projet. |
+| ExternalTasks | `20` | Élément texte de tâches externes. |
+| Allocated | `21` | Élément texte alloué. |
 | ChangedCells | `22` | Cellules modifiées. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment travailler avec les types d'éléments texte.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle(FontStyles.Italic | FontStyles.Bold)
+{
+    Color = Color.OrangeRed
+};
+
+style.ItemType = TextItemType.OverallocatedResources;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

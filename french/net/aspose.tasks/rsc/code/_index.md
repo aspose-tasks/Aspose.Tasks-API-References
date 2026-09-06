@@ -1,25 +1,39 @@
 ---
-title: Rsc.Code
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Rsc champ. Le code ou dautres informations sur une ressource.
+title: "Rsc.Code"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Rsc. Le code ou d'autres informations concernant une ressource"
 type: docs
 weight: 210
 url: /fr/net/aspose.tasks/rsc/code/
 ---
 ## Rsc.Code field
 
-Le code ou d'autres informations sur une ressource.
+Le code ou d'autres informations concernant une ressource.
 
 ```csharp
 public static readonly Key<string, RscKey> Code;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Rsc.Code.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Code, "555292");
+
+Console.WriteLine("Code: " + resource.Get(Rsc.Code));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espace de noms [Aspose.Tasks](../../rsc/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

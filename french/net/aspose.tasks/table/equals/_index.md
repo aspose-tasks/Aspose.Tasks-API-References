@@ -1,9 +1,9 @@
 ---
-title: Table.Equals
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Table méthode. Renvoie une valeur indiquant si cette instance est égale à un objet spécifié.
+title: "Table.Equals"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Table. Retourne une valeur indiquant si cette instance est égale à un objet spécifié"
 type: docs
-weight: 130
+weight: 120
 url: /fr/net/aspose.tasks/table/equals/
 ---
 ## Table.Equals method
@@ -14,18 +14,35 @@ Renvoie une valeur indiquant si cette instance est égale à un objet spécifié
 public override bool Equals(object obj)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | Objet à comparer avec cette instance. |
+| obj | Objet | L'objet à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-**Vrai** si l'objet spécifié est une Table qui a la même valeur UID que cette instance ; sinon, **FAUX**.
+**True** if the specified object is a Table that has the same UID value as this instance; otherwise, **false**.
 
-### Voir également
+## Exemples
+
+Montre comment vérifier l'égalité des tables.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Table> tables = project.Tables.ToList();
+
+var table1 = tables[0];
+var table2 = tables[1];
+
+// L'égalité des tables est vérifiée par rapport à l'UID de la table.
+Console.WriteLine("Table 1 UID: " + table1.Uid);
+Console.WriteLine("Table 2 UID: " + table2.Uid);
+Console.WriteLine("Are tables equal: " + table1.Equals(table2));
+```
+
+### Voir aussi
 
 * class [Table](../)
-* espace de noms [Aspose.Tasks](../../table/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../table/)
+* assembly [Aspose.Tasks](../../../)
 
 

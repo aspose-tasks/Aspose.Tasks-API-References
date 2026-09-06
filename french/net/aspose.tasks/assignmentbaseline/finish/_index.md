@@ -1,23 +1,80 @@
 ---
-title: AssignmentBaseline.Finish
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: AssignmentBaseline propriété. Obtient ou définit la date de fin planifiée de laffectation de ressource lorsque la ligne de base a été enregistrée. La date de fin de laffectation de ressource lorsque cette ligne de base a été enregistrée.
+title: "AssignmentBaseline.Finish"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété AssignmentBaseline. Obtient ou définit la date de fin prévue de l'affectation de ressource lorsque la ligne de base a été enregistrée. La date de fin de l'affectation de ressource lorsque cette ligne de base a été enregistrée."
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/assignmentbaseline/finish/
 ---
 ## AssignmentBaseline.Finish property
 
-Obtient ou définit la date de fin planifiée de l'affectation de ressource lorsque la ligne de base a été enregistrée. La date de fin de l'affectation de ressource lorsque cette ligne de base a été enregistrée.
+Obtient ou définit la date de fin prévue de l'affectation de la ressource lorsque la ligne de base a été enregistrée. La date de fin de l'affectation de la ressource lorsque cette ligne de base a été enregistrée.
 
 ```csharp
 public DateTime? Finish { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les lignes de base des affectations.
+
+```csharp
+var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
+
+// Les lignes de base d'affectation sont définies lorsqu'on définit la ligne de base sur l'ensemble du projet
+project.SetBaseline(BaselineType.Baseline);
+
+// Lire les informations de ligne de base d'affectation
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var baseline in assignment.Baselines)
+    {
+        Console.WriteLine("Baseline Start: " + baseline.Start);
+        Console.WriteLine("Baseline Finish: " + baseline.Finish);
+        Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+        if (baseline.TimephasedData != null)
+        {
+            foreach (var td in baseline.TimephasedData)
+            {
+                Console.WriteLine("TD Start: " + td.Start);
+                Console.WriteLine("TD Finish: " + td.Finish);
+                Console.WriteLine("TD Timephased Data Type: " + td.TimephasedDataType);
+                Console.WriteLine();
+            }
+        }
+
+        Console.WriteLine();
+    }
+
+    Console.WriteLine();
+}
+
+// Vérifier l'égalité des lignes de base
+var assn1 = project.ResourceAssignments.GetByUid(5);
+var assn2 = project.ResourceAssignments.GetByUid(7);
+
+var assignmentBaseline1 = assn1.Baselines.ToList()[0];
+var assignmentBaseline2 = assn2.Baselines.ToList()[0];
+
+// Les lignes de base peuvent être comparées en utilisant les surcharges de la méthode 'Equals'
+Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
+
+// ou en utilisant une opération arithmétique surchargée
+Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
+
+// Le code de hachage de la ligne de base est basé sur le numéro de la ligne de base
+Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
+Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
+```
+
+### Voir aussi
 
 * class [AssignmentBaseline](../)
-* espace de noms [Aspose.Tasks](../../assignmentbaseline/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

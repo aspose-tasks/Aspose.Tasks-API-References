@@ -1,9 +1,9 @@
 ---
-title: Task.RemainingOvertimeWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de RemainingOvertimeWork.
+title: "Task.RemainingOvertimeWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de RemainingOvertimeWork"
 type: docs
-weight: 1090
+weight: 1080
 url: /fr/net/aspose.tasks/task/remainingovertimework/
 ---
 ## Task.RemainingOvertimeWork property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de RemainingOvertimeWork.
 public Duration RemainingOvertimeWork { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

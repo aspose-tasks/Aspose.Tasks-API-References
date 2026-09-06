@@ -1,32 +1,53 @@
 ---
-title: ProjectServerManager.GetProject
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ProjectServerManager méthode. Obtient le projet avec le GUID spécifié à partir du compte Project Online  instance de Project Server.
+title: "ProjectServerManager.GetProject"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "méthode ProjectServerManager. Obtient le projet avec le guid spécifié depuis le compte Project Online de l'instance Project Server"
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks/projectservermanager/getproject/
 ---
 ## ProjectServerManager.GetProject method
 
-Obtient le projet avec le GUID spécifié à partir du compte Project Online \ instance de Project Server.
+Récupère le projet avec le guid spécifié depuis le compte Project Online \ instance de Project Server.
 
 ```csharp
 public Project GetProject(Guid projectGuid)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| projectGuid | Guid | Le Guid du projet à lire. |
+| projectGuid | Guid | Le guid du projet à lire. |
 
-### Return_Value
+### Valeur de retour
 
-Exemple de[`Project`](../../project/) classe qui représente le projet lu à partir de Project Online \ Project Server.
+Instance de la classe [`Project`](../../project/) qui représente le projet lu depuis Project Online \ Project Server.
 
-### Voir également
+## Exemples
+
+Montre comment lire un projet depuis Microsoft Project Online.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+var manager = new ProjectServerManager(credentials);
+IEnumerable<ProjectInfo> list = manager.GetProjectList();
+
+foreach (var info in list)
+{
+    var project = manager.GetProject(info.Id);
+    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
+    Console.WriteLine("Resources count: {0}", project.Resources.Count);
+}
+```
+
+### Voir aussi
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* espace de noms [Aspose.Tasks](../../projectservermanager/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 

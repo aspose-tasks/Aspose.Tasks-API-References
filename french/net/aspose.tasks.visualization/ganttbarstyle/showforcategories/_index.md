@@ -1,24 +1,50 @@
 ---
-title: GanttBarStyle.ShowForCategories
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: GanttBarStyle propriété. Obtient ou définit les catégories de tâches auxquelles le style est appliqué. Sapplique aux styles parents ou communs des barres dans le diagramme de Gantt voirBarStyles .
+title: "GanttBarStyle.ShowForCategories"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété GanttBarStyle. Obtient ou définit les catégories de tâches pour lesquelles le style est appliqué. Applicable aux styles parent ou communs des barres dans le diagramme de Gantt, voir BarStyles"
 type: docs
 weight: 200
 url: /fr/net/aspose.tasks.visualization/ganttbarstyle/showforcategories/
 ---
 ## GanttBarStyle.ShowForCategories property
 
-Obtient ou définit les catégories de tâches auxquelles le style est appliqué. S'applique aux styles parents (ou communs) des barres dans le diagramme de Gantt (voir[`BarStyles`](../../../aspose.tasks/ganttchartview/barstyles/) ).
+Obtient ou définit les catégories de tâches pour lesquelles le style est appliqué. Applicable aux styles parent (ou communs) des barres dans le diagramme de Gantt (voir [`BarStyles`](../../../aspose.tasks/ganttchartview/barstyles/)).
 
 ```csharp
 public IList<GanttBarShowFor> ShowForCategories { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment utiliser les catégories ShowFor.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var view = (GanttChartView)project.DefaultView;
+
+var barStyle = this.GetCustomBarStyle();
+barStyle.ShowForTaskUid = null;
+
+var showForCategories = new[]
+{
+    GanttBarShowFor.Active,
+    GanttBarShowFor.NotSummary,
+    GanttBarShowFor.Milestone,
+    GanttBarShowFor.Finished
+};
+
+barStyle.ShowForCategories = new List<GanttBarShowFor>(showForCategories);
+barStyle.Name = "My common style";
+view.BarStyles.Add(barStyle);
+
+// travailler avec le projet...
+```
+
+### Voir aussi
 
 * enum [GanttBarShowFor](../../ganttbarshowfor/)
 * class [GanttBarStyle](../)
-* espace de noms [Aspose.Tasks.Visualization](../../ganttbarstyle/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttbarstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

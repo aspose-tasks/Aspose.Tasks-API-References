@@ -1,7 +1,7 @@
 ---
-title: Rsc.IsGeneric
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Rsc champ. Détermine si une ressource est générique ou non.
+title: "Rsc.IsGeneric"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Rsc. Détermine si une ressource est générique ou non"
 type: docs
 weight: 410
 url: /fr/net/aspose.tasks/rsc/isgeneric/
@@ -14,13 +14,27 @@ Détermine si une ressource est générique ou non.
 public static readonly Key<NullableBool, RscKey> IsGeneric;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Rsc.IsGeneric.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsGeneric, true);
+
+Console.WriteLine("Is Generic: " + resource.Get(Rsc.IsGeneric));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espace de noms [Aspose.Tasks](../../rsc/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

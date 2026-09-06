@@ -1,9 +1,9 @@
 ---
-title: Class TasksLoggedException
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.TasksLoggedException classe. Représente le type dexception interne standard.
+title: "Classe TasksLoggedException"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.TasksLoggedException. Représente le type d'exception interne standard"
 type: docs
-weight: 2220
+weight: 2530
 url: /fr/net/aspose.tasks/tasksloggedexception/
 ---
 ## TasksLoggedException class
@@ -16,14 +16,34 @@ public class TasksLoggedException : ApplicationException
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [LogText](../../aspose.tasks/tasksloggedexception/logtext/) { get; } | Obtient les informations de journalisation des exceptions. |
-| [Operation](../../aspose.tasks/tasksloggedexception/operation/) { get; } | Obtient les informations d'opération d'exception. |
+| [LogText](../../aspose.tasks/tasksloggedexception/logtext/) { get; } | Obtient les informations de journalisation de l'exception. |
+| [Operation](../../aspose.tasks/tasksloggedexception/operation/) { get; } | Obtient les informations d'opération de l'exception. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment lire le texte du journal et le type d'exception pour vérifier les problèmes avec l'exportation MPP.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "PrintTaskWritingException.mpp");
+
+    // exporter le projet en tant que fichier MPP
+    project.Save(OutDir + "PrintTaskWritingException_out.MPP", SaveFileFormat.Mpp);
+}
+catch (TasksWritingException ex)
+{
+    Console.WriteLine("Exception Operation: " + ex.Operation);
+    Console.WriteLine("Exception Log Text: ");
+    Console.WriteLine(ex.LogText);
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

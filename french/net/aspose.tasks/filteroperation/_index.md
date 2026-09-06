@@ -1,14 +1,14 @@
 ---
-title: Enum FilterOperation
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.FilterOperation énumération. Spécifie comment le critère établi avec FieldName FilterComparisonType et Value est lié aux autres critères du filtre.
+title: "Énumération FilterOperation"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Énumération Aspose.Tasks.FilterOperation. Spécifie comment le critère établi avec FieldName, FilterComparisonType et Value se rapporte aux autres critères du filtre."
 type: docs
 weight: 640
 url: /fr/net/aspose.tasks/filteroperation/
 ---
 ## FilterOperation enumeration
 
-Spécifie comment le critère établi avec FieldName, FilterComparisonType et Value est lié aux autres critères du filtre.
+Spécifie comment le critère établi avec FieldName, FilterComparisonType et Value se rapporte aux autres critères du filtre.
 
 ```csharp
 public enum FilterOperation
@@ -16,15 +16,61 @@ public enum FilterOperation
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| Undefined | `0` | Non défini. |
-| And | `1` | ET opérateur. |
-| Or | `2` | OU opérateur. |
+| Undefined | `0` | Indéfini. |
+| And | `1` | Opérateur AND. |
+| Or | `2` | Opérateur OR. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment lire les critères de filtre de tâche.
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+
+var filter = project.TaskFilters.ToList()[1];
+Console.WriteLine("Count of criteria rows: " + filter.Criteria.CriteriaRows.Count);
+foreach (var row in filter.Criteria.CriteriaRows)
+{
+    Console.WriteLine("Field: " + row.Field);
+    Console.WriteLine("Operation: " + row.Operation);
+    Console.WriteLine("Test: " + row.Test);
+
+    var values = row.Values.Where(c => c != null).ToArray();
+    if (values.Length == 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
+}
+
+// Imprimer les critères de filtre sous forme de chaîne 
+Console.WriteLine(filter.Criteria.Operation.ToString());
+
+var criteria1 = filter.Criteria.CriteriaRows[0];
+Console.WriteLine("Criteria filter 1:");
+Console.WriteLine(criteria1.ToString());
+
+var criteria2 = filter.Criteria.CriteriaRows[1];
+Console.WriteLine(criteria2.Operation.ToString());
+Console.WriteLine(criteria2.CriteriaRows.Count);
+Console.WriteLine("Criteria filter 2:");
+Console.WriteLine(criteria2.ToString());
+
+var criteria21 = criteria2.CriteriaRows[0];
+Console.WriteLine("Criteria filter 21:");
+Console.WriteLine(criteria21.ToString());
+
+var criteria22 = criteria2.CriteriaRows[1];
+Console.WriteLine("Criteria filter 22:");
+Console.WriteLine(criteria22.ToString());
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

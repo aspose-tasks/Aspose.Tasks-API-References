@@ -1,32 +1,45 @@
 ---
-title: ResourceAssignment.Equals
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment méthode. Renvoie une valeur indiquant si cette instance est égale à une instance spécifiée duResourceAssignment classe.
+title: "ResourceAssignment.Equals"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode ResourceAssignment. Retourne une valeur indiquant si cette instance est égale à une instance spécifiée de la classe ResourceAssignment"
 type: docs
 weight: 690
 url: /fr/net/aspose.tasks/resourceassignment/equals/
 ---
 ## Equals(ResourceAssignment) {#equals}
 
-Renvoie une valeur indiquant si cette instance est égale à une instance spécifiée du[`ResourceAssignment`](../) classe.
+Retourne une valeur indiquant si cette instance est égale à une instance spécifiée de la classe [`ResourceAssignment`](../).
 
 ```csharp
 public bool Equals(ResourceAssignment other)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| other | ResourceAssignment | L'instance spécifiée du[`ResourceAssignment`](../) classe à comparer avec cette instance. |
+| other | ResourceAssignment | L'instance spécifiée de la classe [`ResourceAssignment`](../) à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-**Vrai** si l'instance spécifiée du[`ResourceAssignment`](../) class a la même valeur UID que cette instance ; sinon, **FAUX**.
+**True** if the specified instance of the [`ResourceAssignment`](../) class has the same UID value as this instance; otherwise, **false**.
 
-### Voir également
+## Exemples
+
+Montre comment vérifier l'égalité des affectations de ressources.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +51,31 @@ Renvoie une valeur indiquant si cette instance est égale à un objet spécifié
 public override bool Equals(object obj)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | Objet à comparer avec cette instance. |
+| obj | Objet | L'objet à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-**Vrai** si o est un ResourceAssignment qui affecte la même ressource et la même tâche que cette instance ; sinon, **FAUX**.
+**True** if o is a ResourceAssignment that assign the same resource and task as this instance; otherwise, **false**.
 
-### Voir également
+## Exemples
+
+Montre comment vérifier l'égalité des affectations de ressources.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

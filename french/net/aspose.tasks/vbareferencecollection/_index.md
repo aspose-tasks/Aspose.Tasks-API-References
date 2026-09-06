@@ -1,14 +1,14 @@
 ---
-title: Class VbaReferenceCollection
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.VbaReferenceCollection classe. Représente une collection deVbaReference objets.
+title: "Classe VbaReferenceCollection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.VbaReferenceCollection. Représente une collection d'objets VbaReference"
 type: docs
-weight: 2550
+weight: 2880
 url: /fr/net/aspose.tasks/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Représente une collection de[`VbaReference`](../vbareference/) objets.
+Représente une collection d'objets [`VbaReference`](../vbareference/).
 
 ```csharp
 public class VbaReferenceCollection : ReadOnlyCollectionBase<VbaReference>
@@ -16,24 +16,40 @@ public class VbaReferenceCollection : ReadOnlyCollectionBase<VbaReference>
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } |  |
 | [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } |  |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(VbaReference) |  |
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
 | [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec une collection de références VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
+### Voir aussi
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
 * class [VbaReference](../vbareference/)
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

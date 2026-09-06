@@ -1,26 +1,38 @@
 ---
-title: Prj.ProjectExternallyEdited
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Détermine si le projet a été édité en externe.
+title: "Prj.ProjectExternallyEdited"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Détermine si le projet a été modifié à l'extérieur"
 type: docs
-weight: 580
+weight: 590
 url: /fr/net/aspose.tasks/prj/projectexternallyedited/
 ---
 ## Prj.ProjectExternallyEdited field
 
-Détermine si le projet a été édité en externe.
+Détermine si le projet a été modifié à l'extérieur.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> ProjectExternallyEdited;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.ProjectExternallyEdited.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ProjectExternallyEdited, true);
+
+Console.WriteLine("Project Externally Edited: " + project.Get(Prj.ProjectExternallyEdited));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Project.Subject
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de Subject.
+title: "Project.Subject"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Project. Obtient ou définit une valeur de Subject"
 type: docs
-weight: 860
+weight: 890
 url: /fr/net/aspose.tasks/project/subject/
 ---
 ## Project.Subject property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Subject.
 public string Subject { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

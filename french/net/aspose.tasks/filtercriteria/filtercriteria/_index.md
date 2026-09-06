@@ -1,23 +1,23 @@
 ---
-title: FilterCriteria.FilterCriteria
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: FilterCriteria constructeur. Default_Constructor
+title: "FilterCriteria.FilterCriteria"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur FilterCriteria. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/filtercriteria/filtercriteria/
 ---
 ## FilterCriteria constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public FilterCriteria()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [FilterCriteria](../)
-* espace de noms [Aspose.Tasks](../../filtercriteria/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filtercriteria/)
+* assembly [Aspose.Tasks](../../../)
 
 

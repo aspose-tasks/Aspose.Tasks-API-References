@@ -1,23 +1,35 @@
 ---
-title: PrimaveraXmlSaveOptions.PrimaveraXmlSaveOptions
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PrimaveraXmlSaveOptions constructeur. Initialise une nouvelle instance duPrimaveraXmlSaveOptions classe.
+title: "PrimaveraXmlSaveOptions.PrimaveraXmlSaveOptions"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur PrimaveraXmlSaveOptions. Initialise une nouvelle instance de la classe PrimaveraXmlSaveOptions"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.saving/primaveraxmlsaveoptions/primaveraxmlsaveoptions/
 ---
 ## PrimaveraXmlSaveOptions constructor
 
-Initialise une nouvelle instance du[`PrimaveraXmlSaveOptions`](../) classe.
+Initialise une nouvelle instance de la classe [`PrimaveraXmlSaveOptions`](../).
 
 ```csharp
 public PrimaveraXmlSaveOptions()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment exporter le fichier XML Primavera.
+
+```csharp
+var project = new Project(DataDir + "project.xml");
+
+var options = new PrimaveraXmlSaveOptions();
+options.SaveRootTask = false;
+project.Save(OutDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
+```
+
+### Voir aussi
 
 * class [PrimaveraXmlSaveOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../primaveraxmlsaveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../primaveraxmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

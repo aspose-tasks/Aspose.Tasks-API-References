@@ -1,7 +1,7 @@
 ---
-title: Task.ActualStart
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de ActualStart.
+title: "Task.ActualStart"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de ActualStart"
 type: docs
 weight: 80
 url: /fr/net/aspose.tasks/task/actualstart/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de ActualStart.
 public DateTime ActualStart { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

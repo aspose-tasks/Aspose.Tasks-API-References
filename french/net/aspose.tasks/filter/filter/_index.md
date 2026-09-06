@@ -1,23 +1,23 @@
 ---
-title: Filter.Filter
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Filter constructeur. Default_Constructor
+title: "Filter.Filter"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Filter constructeur. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/filter/filter/
 ---
 ## Filter constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public Filter()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Filter](../)
-* espace de noms [Aspose.Tasks](../../filter/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

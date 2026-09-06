@@ -1,14 +1,14 @@
 ---
-title: Class ProjectInfo
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.ProjectInfo classe. Brèves informations sur le projet publié disponibles sur Project Online.
+title: "Classe ProjectInfo"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.ProjectInfo. Brève information sur le projet publié disponible sur Project Online"
 type: docs
-weight: 1220
+weight: 1470
 url: /fr/net/aspose.tasks/projectinfo/
 ---
 ## ProjectInfo class
 
-Brèves informations sur le projet publié disponibles sur Project Online.
+Brève information sur le projet publié disponible sur Project Online.
 
 ```csharp
 public sealed class ProjectInfo
@@ -16,13 +16,13 @@ public sealed class ProjectInfo
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ProjectInfo](projectinfo/)() | Initialise une nouvelle instance du`ProjectInfo` classe. |
+| [ProjectInfo](projectinfo/)() | Initialise une nouvelle instance de la classe `ProjectInfo`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [CreatedDate](../../aspose.tasks/projectinfo/createddate/) { get; } | Obtient la date et l'heure de création du projet. |
 | [Description](../../aspose.tasks/projectinfo/description/) { get; } | Obtient la description du projet. |
@@ -32,9 +32,37 @@ public sealed class ProjectInfo
 | [LastSavedDate](../../aspose.tasks/projectinfo/lastsaveddate/) { get; } | Obtient la date la plus récente à laquelle le projet a été enregistré. |
 | [Name](../../aspose.tasks/projectinfo/name/) { get; } | Obtient le nom du projet. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment lire les informations sur les projets depuis Project Online.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+var reader = new ProjectServerManager(credentials);
+IEnumerable<ProjectInfo> list = reader.GetProjectList();
+
+// lire les informations du projet
+Console.WriteLine("Print information about projects:");
+foreach (var info in list)
+{
+    Console.WriteLine("Id: " + info.Id);
+    Console.WriteLine("Name: " + info.Name);
+    Console.WriteLine("Description: " + info.Description);
+    Console.WriteLine("Created Date: " + info.CreatedDate);
+    Console.WriteLine("Last Saved Date: " + info.LastSavedDate);
+    Console.WriteLine("Last Published Date: " + info.LastPublishedDate);
+    Console.WriteLine("Is Checked Out: " + info.IsCheckedOut);
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

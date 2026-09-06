@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.BudgetWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur de BudgetWork.
+title: "ResourceAssignment.BudgetWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ResourceAssignment. Obtient ou définit une valeur de BudgetWork"
 type: docs
 weight: 170
 url: /fr/net/aspose.tasks/resourceassignment/budgetwork/
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de BudgetWork.
 public Duration BudgetWork { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

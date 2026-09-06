@@ -1,25 +1,37 @@
 ---
-title: Prj.Subject
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Le sujet dun projet.
+title: "Prj.Subject"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Le sujet d'un projet"
 type: docs
-weight: 690
+weight: 700
 url: /fr/net/aspose.tasks/prj/subject/
 ---
 ## Prj.Subject field
 
-Le sujet d'un projet.
+Le sujet du projet.
 
 ```csharp
 public static readonly Key<string, PrjKey> Subject;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.Subject.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Subject, "Subject");
+
+Console.WriteLine("Subject: " + project.Get(Prj.Subject));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

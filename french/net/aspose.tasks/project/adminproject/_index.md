@@ -1,7 +1,7 @@
 ---
-title: Project.AdminProject
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur indiquant si AdminProject est défini ou non.
+title: "Project.AdminProject"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur indiquant si AdminProject est défini ou non"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks/project/adminproject/
@@ -14,11 +14,11 @@ Obtient ou définit une valeur indiquant si AdminProject est défini ou non.
 public NullableBool AdminProject { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

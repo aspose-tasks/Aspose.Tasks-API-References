@@ -1,7 +1,7 @@
 ---
-title: TaskUsageViewFieldCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskUsageViewFieldCollection méthode. Renvoie un énumérateur pour cette collection.
+title: "TaskUsageViewFieldCollection.GetEnumerator"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode TaskUsageViewFieldCollection. Retourne un énumérateur pour cette collection"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/taskusageviewfieldcollection/getenumerator/
@@ -14,15 +14,36 @@ Renvoie un énumérateur pour cette collection.
 public IEnumerator<TaskUsageViewField> GetEnumerator()
 ```
 
-### Return_Value
+### Valeur de retour
 
-un recenseur pour cette collection.
+un énumérateur pour cette collection.
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec la collection de champs d'une instance TaskUsageView.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = (TaskUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// On peut transformer la collection en une liste de TaskUsageViewField.
+IList<TaskUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### Voir aussi
 
 * enum [TaskUsageViewField](../../taskusageviewfield/)
 * class [TaskUsageViewFieldCollection](../)
-* espace de noms [Aspose.Tasks](../../taskusageviewfieldcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskusageviewfieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

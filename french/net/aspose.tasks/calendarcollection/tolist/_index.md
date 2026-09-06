@@ -1,28 +1,43 @@
 ---
-title: CalendarCollection.ToList
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CalendarCollection méthode. Convertit lobjet CalendarCollection en une liste deCalendar objets.
+title: "CalendarCollection.ToList"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode CalendarCollection. Convertit l'objet CalendarCollection en une liste d'objets Calendar."
 type: docs
 weight: 70
 url: /fr/net/aspose.tasks/calendarcollection/tolist/
 ---
 ## CalendarCollection.ToList method
 
-Convertit l'objet CalendarCollection en une liste de[`Calendar`](../../calendar/) objets.
+Convertit l'objet CalendarCollection en une liste d'objets [`Calendar`](../../calendar/).
 
 ```csharp
 public List<Calendar> ToList()
 ```
 
-### Return_Value
+### Valeur de retour
 
-Liste de[`Calendar`](../../calendar/) objets.
+Liste d'objets [`Calendar`](../../calendar/).
 
-### Voir également
+## Exemples
+
+Montre comment itérer sur la collection de calendriers.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
+List<Calendar> calendars = project.Calendars.ToList();
+foreach (var calendar in calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+### Voir aussi
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* espace de noms [Aspose.Tasks](../../calendarcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

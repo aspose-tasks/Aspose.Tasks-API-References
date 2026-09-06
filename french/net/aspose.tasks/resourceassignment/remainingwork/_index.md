@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.RemainingWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur de RemainingWork.
+title: "ResourceAssignment.RemainingWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ResourceAssignment. Obtient ou définit une valeur de RemainingWork"
 type: docs
 weight: 500
 url: /fr/net/aspose.tasks/resourceassignment/remainingwork/
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de RemainingWork.
 public Duration RemainingWork { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Resource.PeakUnits
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de PeakUnits.
+title: "Resource.PeakUnits"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de PeakUnits"
 type: docs
-weight: 620
+weight: 610
 url: /fr/net/aspose.tasks/resource/peakunits/
 ---
 ## Resource.PeakUnits property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de PeakUnits.
 public double PeakUnits { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

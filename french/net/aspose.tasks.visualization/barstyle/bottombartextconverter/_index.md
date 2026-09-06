@@ -1,24 +1,24 @@
 ---
-title: BarStyle.BottomBarTextConverter
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: BarStyle propriété. Obtient ou définit un convertisseur défini par lutilisateur pour obtenir le texte à afficher en bas de la barre de la tâche. Remplace la valeur deBottomField propriété.
+title: "BarStyle.BottomBarTextConverter"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété BarStyle. Obtient ou définit un convertisseur défini par l'utilisateur pour obtenir le texte à rendre en bas de la barre des tâches. Remplace la valeur de la propriété BottomField"
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks.visualization/barstyle/bottombartextconverter/
 ---
 ## BarStyle.BottomBarTextConverter property
 
-Obtient ou définit un convertisseur défini par l'utilisateur pour obtenir le texte à afficher en bas de la barre de la tâche. Remplace la valeur de[`BottomField`](../bottomfield/) propriété.
+Obtient ou définit un convertisseur défini par l'utilisateur pour obtenir le texte à afficher en bas de la barre de la tâche. Remplace la valeur de la propriété [`BottomField`](../bottomfield/).
 
 ```csharp
 public TaskBarTextConverter BottomBarTextConverter { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* espace de noms [Aspose.Tasks.Visualization](../../barstyle/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

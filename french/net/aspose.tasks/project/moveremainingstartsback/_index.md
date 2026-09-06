@@ -1,9 +1,9 @@
 ---
-title: Project.MoveRemainingStartsBack
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur indiquant si MoveRemainingStartsBack est défini ou non.
+title: "Project.MoveRemainingStartsBack"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Project property. Obtient ou définit une valeur indiquant si MoveRemainingStartsBack est activé ou non"
 type: docs
-weight: 600
+weight: 620
 url: /fr/net/aspose.tasks/project/moveremainingstartsback/
 ---
 ## Project.MoveRemainingStartsBack property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur indiquant si MoveRemainingStartsBack est défini 
 public NullableBool MoveRemainingStartsBack { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingEarlyStart
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PrimaveraTaskProperties propriété. Obtient la date de début anticipé restante  la date à laquelle le travail restant pour lactivité doit commencer.
+title: "PrimaveraTaskProperties.RemainingEarlyStart"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties property. Obtient la date de début anticipé restant, la date à laquelle le travail restant pour l’activité est prévu de commencer"
 type: docs
-weight: 110
+weight: 270
 url: /fr/net/aspose.tasks/primaverataskproperties/remainingearlystart/
 ---
 ## PrimaveraTaskProperties.RemainingEarlyStart property
 
-Obtient la date de début anticipé restante - la date à laquelle le travail restant pour l'activité doit commencer.
+Obtient la date de début anticipée restante - la date à laquelle le travail restant pour l'activité est prévu de commencer.
 
 ```csharp
 public DateTime RemainingEarlyStart { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [PrimaveraTaskProperties](../)
-* espace de noms [Aspose.Tasks](../../primaverataskproperties/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

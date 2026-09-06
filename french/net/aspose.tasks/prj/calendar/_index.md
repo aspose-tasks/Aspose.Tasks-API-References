@@ -1,9 +1,9 @@
 ---
-title: Prj.Calendar
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Le calendrier du projet.
+title: "Prj.Calendar"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Le calendrier du projet"
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.tasks/prj/calendar/
 ---
 ## Prj.Calendar field
@@ -14,13 +14,32 @@ Le calendrier du projet.
 public static readonly Key<Calendar, PrjKey> Calendar;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.Calendar.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Standard");
+Calendar.MakeStandardCalendar(calendar);
+
+project.Set(Prj.Calendar, calendar);
+
+Console.WriteLine("Calendar: " + project.Get(Prj.Calendar).Name);
+foreach (var weekDay in calendar.WeekDays)
+{
+    Console.WriteLine(weekDay.FromDate);
+    Console.WriteLine(weekDay.ToDate);
+}
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * class [Calendar](../../calendar/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

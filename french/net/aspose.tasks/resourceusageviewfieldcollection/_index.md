@@ -1,14 +1,14 @@
 ---
-title: Class ResourceUsageViewFieldCollection
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.ResourceUsageViewFieldCollection classe. Représenter une collection deResourceUsageViewField valeurs.
+title: "Classe ResourceUsageViewFieldCollection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.ResourceUsageViewFieldCollection. Représente une collection de valeurs ResourceUsageViewField"
 type: docs
-weight: 1580
+weight: 1830
 url: /fr/net/aspose.tasks/resourceusageviewfieldcollection/
 ---
 ## ResourceUsageViewFieldCollection class
 
-Représenter une collection de[`ResourceUsageViewField`](../resourceusageviewfield/) valeurs.
+Représente une collection de valeurs [`ResourceUsageViewField`](../resourceusageviewfield/).
 
 ```csharp
 public class ResourceUsageViewFieldCollection : IList<ResourceUsageViewField>
@@ -16,15 +16,36 @@ public class ResourceUsageViewFieldCollection : IList<ResourceUsageViewField>
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [GetEnumerator](../../aspose.tasks/resourceusageviewfieldcollection/getenumerator/)() | Renvoie un énumérateur pour cette collection. |
-| [ToList](../../aspose.tasks/resourceusageviewfieldcollection/tolist/)() | Convertit l'instance du`ResourceUsageViewFieldCollection` classe à une liste contenant les instances de la[`ResourceUsageViewField`](../resourceusageviewfield/) classe. |
+| [ToList](../../aspose.tasks/resourceusageviewfieldcollection/tolist/)() | Convertit l'instance de la classe `ResourceUsageViewFieldCollection` en une liste contenant les instances de la classe [`ResourceUsageViewField`](../resourceusageviewfield/). |
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec la collection de champs d'une instance ResourceUsageView.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// on peut transformer la collection en une liste de ResourceUsageViewField
+IList<ResourceUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### Voir aussi
 
 * enum [ResourceUsageViewField](../resourceusageviewfield/)
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

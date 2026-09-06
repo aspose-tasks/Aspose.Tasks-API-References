@@ -1,7 +1,7 @@
 ---
-title: WorkWeekCollection.Item
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: WorkWeekCollection propriété. Renvoie lélément à lindex spécifié.
+title: "WorkWeekCollection.Item"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété WorkWeekCollection. Renvoie l'élément à l'index spécifié"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/workweekcollection/item/
@@ -14,19 +14,19 @@ Renvoie l'élément à l'index spécifié.
 public WorkWeek this[int index] { get; set; }
 ```
 
-| Paramètre | La description |
+| Paramètre | Description |
 | --- | --- |
-| index | Index de base zéro de l'élément à obtenir. |
+| index | L'index basé sur zéro de l'élément à obtenir. |
 
-### Return_Value
+### Valeur de retour
 
 l'élément à l'index spécifié.
 
-### Voir également
+### Voir aussi
 
 * class [WorkWeek](../../workweek/)
 * class [WorkWeekCollection](../)
-* espace de noms [Aspose.Tasks](../../workweekcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workweekcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,66 @@
 ---
-title: OleObject.DisplayAsIcon
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: OleObject propriété. Obtient ou définit un indicateur indiquant que lobjet OLE doit être affiché sous forme dicône ou dimage normale.
+title: "OleObject.DisplayAsIcon"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété OleObject. Obtient ou définit un indicateur indiquant que l'objet OLE doit être affiché soit sous forme d'icône, soit sous forme d'image normale"
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks/oleobject/displayasicon/
 ---
 ## OleObject.DisplayAsIcon property
 
-Obtient ou définit un indicateur indiquant que l'objet OLE doit être affiché sous forme d'icône ou d'image normale.
+Obtient ou définit un indicateur indiquant que l'objet OLE doit être affiché soit sous forme d'icône, soit sous forme d'image normale.
 
 ```csharp
 public bool DisplayAsIcon { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les informations sur les objets OLE.
+
+```csharp
+[Test]
+public void WorkWithOleObject()
+{
+    var images = new Project(DataDir + "TaskImage2010.mpp");
+    List<OleObject> oleObjects = images.OleObjects.ToList();
+
+    Console.WriteLine("Ole Objects Count: " + oleObjects.Count);
+    foreach (var oleObject in oleObjects)
+    {
+        Console.WriteLine(" Id: " + oleObject.Id);
+        Console.WriteLine(" Name: " + oleObject.Name);
+        Console.WriteLine(" DisplayAsIcon: " + oleObject.DisplayAsIcon);
+        Console.WriteLine(" Application Name: " + oleObject.ApplicationName);
+        Console.WriteLine(" File Format: " + oleObject.FileFormat);
+        Console.WriteLine(" Label: " + oleObject.Label);
+        Console.WriteLine(" Full Path: " + oleObject.FullPath);
+        Console.WriteLine(" Is Linked: " + oleObject.Linked);
+        Console.WriteLine(" View Name: " + oleObject.View.Name);
+        Console.WriteLine(" Content (first 10 bytes): " + this.Get10Bytes(oleObject));
+    }
+}
+
+private string Get10Bytes(OleObject oleObject)
+{
+    byte[] bytes = oleObject.Content;
+    var chunk = new byte[10];
+    Array.Copy(bytes, chunk, 10);
+    var builder = new StringBuilder();
+    foreach (var b in chunk)
+    {
+        builder.Append(b + ", ");
+    }
+
+    builder.Remove(builder.Length - 3, 1);
+    return builder.ToString();
+}
+```
+
+### Voir aussi
 
 * class [OleObject](../)
-* espace de noms [Aspose.Tasks](../../oleobject/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../oleobject/)
+* assembly [Aspose.Tasks](../../../)
 
 

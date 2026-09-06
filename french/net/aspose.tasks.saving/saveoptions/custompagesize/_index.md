@@ -1,7 +1,7 @@
 ---
-title: SaveOptions.CustomPageSize
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: SaveOptions propriété. Obtient ou définit la taille de page personnalisée en points 1 point  1/72 de pouce.
+title: "SaveOptions.CustomPageSize"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété SaveOptions. Obtient ou définit la taille de page personnalisée en points (1 point = 1/72 de pouce)."
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks.saving/saveoptions/custompagesize/
@@ -14,10 +14,24 @@ Obtient ou définit la taille de page personnalisée en points (1 point = 1/72 d
 public SizeF CustomPageSize { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment définir la taille de page personnalisée lorsque le projet est enregistré en PDF.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions();
+options.PresentationFormat = PresentationFormat.GanttChart;
+options.CustomPageSize = new SizeF(5.8F * 72, 8.3F * 72);
+
+project.Save(OutDir + "WorkWithCustomPageSize_out.pdf", options);
+```
+
+### Voir aussi
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../saveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

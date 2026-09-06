@@ -1,41 +1,41 @@
 ---
-title: OutlineCode.OutlineCode
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: OutlineCode constructeur. Initialise une nouvelle instance duOutlineCode classe.
+title: "OutlineCode.OutlineCode"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "OutlineCode constructeur. Initialise une nouvelle instance de la classe OutlineCode"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/outlinecode/outlinecode/
 ---
 ## OutlineCode() {#constructor}
 
-Initialise une nouvelle instance du[`OutlineCode`](../) classe.
+Initialise une nouvelle instance de la classe [`OutlineCode`](../).
 
 ```csharp
 public OutlineCode()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [OutlineCode](../)
-* espace de noms [Aspose.Tasks](../../outlinecode/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecode/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## OutlineCode(OutlineCodeDefinition, OutlineValue) {#constructor_1}
 
-Initialise une nouvelle instance du[`OutlineCode`](../) classe à l'aide du code hiérarchique spécifié et de l'une de ses valeurs.
+Initialise une nouvelle instance de la classe [`OutlineCode`](../) en utilisant le Outline Code spécifié et l'une de ses valeurs.
 
 ```csharp
 public OutlineCode(OutlineCodeDefinition codeDefinition, OutlineValue outlineValue)
 ```
 
-### Voir également
+### Voir aussi
 
 * class [OutlineCodeDefinition](../../outlinecodedefinition/)
 * class [OutlineValue](../../outlinevalue/)
 * class [OutlineCode](../)
-* espace de noms [Aspose.Tasks](../../outlinecode/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecode/)
+* assembly [Aspose.Tasks](../../../)
 
 

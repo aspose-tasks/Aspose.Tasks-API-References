@@ -1,7 +1,7 @@
 ---
-title: BaselineCollection.Item
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: BaselineCollection propriété. Renvoie lélément à lindex spécifié.
+title: "BaselineCollection.Item"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété BaselineCollection. Retourne l'élément à l'index spécifié"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/baselinecollection/item/
@@ -14,19 +14,19 @@ Renvoie l'élément à l'index spécifié.
 public Baseline this[int index] { get; set; }
 ```
 
-| Paramètre | La description |
+| Paramètre | Description |
 | --- | --- |
-| index | Index de base zéro de l'élément à obtenir. |
+| index | L'index basé sur zéro de l'élément à obtenir. |
 
-### Return_Value
+### Valeur de retour
 
 l'élément à l'index spécifié.
 
-### Voir également
+### Voir aussi
 
 * class [Baseline](../../baseline/)
 * class [BaselineCollection](../)
-* espace de noms [Aspose.Tasks](../../baselinecollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

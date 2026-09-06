@@ -1,24 +1,24 @@
 ---
-title: AvailabilityPeriodCollection.ParentResource
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: AvailabilityPeriodCollection propriété. Obtient le parentResource pour cet objet.  ParentResource objet pour cette collection.
+title: "Propriété AvailabilityPeriodCollection. Obtient la ressource parente pour cet objet. Objet Ressource parent pour cette collection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Obtient la [`Resource`](../../resource/) parente pour cet objet. Objet [`Resource`](../../resource/) parent pour cette collection."
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks/availabilityperiodcollection/parentresource/
 ---
 ## AvailabilityPeriodCollection.ParentResource property
 
-Obtient le parent[`Resource`](../../resource/) pour cet objet.  Parent[`Resource`](../../resource/) objet pour cette collection.
+AvailabilityPeriodCollection.Contains
 
 ```csharp
 public Resource ParentResource { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../../resource/)
 * class [AvailabilityPeriodCollection](../)
-* espace de noms [Aspose.Tasks](../../availabilityperiodcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../availabilityperiodcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

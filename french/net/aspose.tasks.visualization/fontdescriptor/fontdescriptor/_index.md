@@ -1,73 +1,73 @@
 ---
-title: FontDescriptor.FontDescriptor
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: FontDescriptor constructeur. Initialise une nouvelle instance duFontDescriptor classe avec la famille et la taille de police spécifiées.
+title: "FontDescriptor.FontDescriptor"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur FontDescriptor. Initialise une nouvelle instance de la classe FontDescriptor avec la famille de police et la taille spécifiées."
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.visualization/fontdescriptor/fontdescriptor/
 ---
 ## FontDescriptor(string, float) {#constructor_1}
 
-Initialise une nouvelle instance du[`FontDescriptor`](../) classe avec la famille et la taille de police spécifiées.
+Initialise une nouvelle instance de la classe [`FontDescriptor`](../) avec la famille de police et la taille spécifiées.
 
 ```csharp
 public FontDescriptor(string fontFamily, float size)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| fontFamily | String | Nom de la famille de polices. |
+| fontFamily | Chaîne | Nom de la famille de police. |
 | size | Single | Taille de la police. |
 
-### Voir également
+### Voir aussi
 
 * class [FontDescriptor](../)
-* espace de noms [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## FontDescriptor(string, float, FontStyles) {#constructor_2}
 
-Initialise une nouvelle instance du[`FontDescriptor`](../) classe avec la famille, la taille et le style de police spécifiés.
+Initialise une nouvelle instance de la classe [`FontDescriptor`](../) avec la famille de police, la taille et le style spécifiés.
 
 ```csharp
 public FontDescriptor(string fontFamily, float size, FontStyles style)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| fontFamily | String | Nom de la famille de polices. |
+| fontFamily | Chaîne | Nom de la famille de police. |
 | size | Single | Taille de la police. |
 | style | FontStyles | Style de la police. |
 
-### Voir également
+### Voir aussi
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* espace de noms [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## FontDescriptor(FontDescriptor, FontStyles) {#constructor}
 
-Initialise une nouvelle instance du[`FontDescriptor`](../) classe avec la police et le style spécifiés.
+Initialise une nouvelle instance de la classe [`FontDescriptor`](../) avec la police et le style spécifiés.
 
 ```csharp
 public FontDescriptor(FontDescriptor font, FontStyles style)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| font | FontDescriptor | Exemple de[`FontDescriptor`](../) copier. |
+| font | FontDescriptor | Instance de [`FontDescriptor`](../) à copier. |
 | style | FontStyles | Style de la police. |
 
-### Voir également
+### Voir aussi
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* espace de noms [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

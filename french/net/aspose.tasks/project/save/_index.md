@@ -1,56 +1,44 @@
 ---
-title: Project.Save
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project méthode. Enregistre le document au format de fichier mpp en utilisant les options denregistrement spécifiées.
+title: "Project.Save"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Project. Enregistre le document dans un fichier en utilisant les options d’enregistrement spécifiées"
 type: docs
-weight: 1180
+weight: 1200
 url: /fr/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
+## Save(string, SimpleSaveOptions) {#save_4}
 
-Enregistre le document au format de fichier mpp en utilisant les options d'enregistrement spécifiées.
+Enregistre le document dans un fichier en utilisant les options d’enregistrement spécifiées.
 
 ```csharp
-public void Save(string filename, MPPSaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| filename | String | Le nom du fichier. |
-| options | MPPSaveOptions | Les options de sauvegarde. |
+| nom de fichier | Chaîne | Le nom du fichier. |
+| options | SimpleSaveOptions | Les options d’enregistrement. |
 
-### Voir également
+## Exemples
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+Montre comment enregistrer le projet en tant que fichier MPP.
+
+```csharp
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
+```
+
+### Voir aussi
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_6}
-
-Enregistre le document dans un fichier à l'aide des options d'enregistrement spécifiées.
-
-```csharp
-public void Save(string filename, SaveOptions options)
-```
-
-| Paramètre | Taper | La description |
-| --- | --- | --- |
-| filename | String | Le nom du fichier. |
-| options | SaveOptions | Les options de sauvegarde. |
-
-### Voir également
-
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
 Enregistre les données du projet dans le fichier.
 
@@ -58,21 +46,32 @@ Enregistre les données du projet dans le fichier.
 public void Save(string filename, SaveFileFormat format)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| filename | String | Le nom du fichier. |
-| format | SaveFileFormat | Le format du fichier de sauvegarde. |
+| nom de fichier | Chaîne | Le nom du fichier. |
+| format | SaveFileFormat | Le format du fichier d’enregistrement. |
 
-### Voir également
+## Exemples
+
+Montre comment créer un projet et l'enregistrer au format MPP sans fournir de fichier de modèle MPP.
+
+```csharp
+var project = new Project();
+
+// Le projet sera enregistré au format MPP en utilisant le modèle MPP interne.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Voir aussi
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
 Enregistre les données du projet dans le fichier au format mpp.
 
@@ -80,63 +79,70 @@ Enregistre les données du projet dans le fichier au format mpp.
 public void Save(string filename)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| filename | String | Le nom du fichier. |
+| nom de fichier | Chaîne | Le nom du fichier. |
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
-Enregistre le projet dans un flux à l'aide des options d'enregistrement spécifiées.
+Enregistre le projet dans un flux en utilisant les options d’enregistrement spécifiées.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Le flux. |
-| options | SaveOptions | Les options de sauvegarde. |
+| flux | Flux | Le flux. |
+| options | SimpleSaveOptions | Les options d’enregistrement. |
 
-### Voir également
+## Exemples
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-Enregistre le projet dans un flux à l'aide des options d'enregistrement spécifiées.
+Montre comment enregistrer le projet dans un flux en tant que fichier MPP en utilisant les options d’enregistrement MPP.
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // en utilisant MPPSaveOptions, nous l’enregistrons au format MPP
+    project.Save(stream, options);
+}
 ```
 
-| Paramètre | Taper | La description |
-| --- | --- | --- |
-| stream | Stream | Le flux. |
-| options | MPPSaveOptions | Les options de sauvegarde. |
+Montre comment enregistrer le projet dans un flux en tant qu’image et contrôler les options d’image.
 
-### Voir également
+```csharp
+var project = new Project();
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // en utilisant ImageSaveOptions, nous enregistrons le projet au format image
+    project.Save(stream, options);
+}
+```
+
+### Voir aussi
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
 Enregistre les données du projet dans le flux.
 
@@ -144,16 +150,30 @@ Enregistre les données du projet dans le flux.
 public void Save(Stream stream, SaveFileFormat format)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Le flux. |
-| format | SaveFileFormat | le format de fichier de sauvegarde spécifié.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
+| flux | Flux | Le flux. |
+| format | SaveFileFormat | le format de fichier d’enregistrement spécifié.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
 
-### Voir également
+## Exemples
+
+Montre comment enregistrer le projet dans un flux en tant que fichier XML MS Project.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // Écrire le flux au format XML
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
+
+### Voir aussi
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

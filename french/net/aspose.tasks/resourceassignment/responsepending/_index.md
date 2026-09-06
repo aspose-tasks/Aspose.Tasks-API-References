@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ResponsePending
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur indiquant si ResponsePending est défini ou non.
+title: "ResourceAssignment.ResponsePending"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ResourceAssignment. Obtient ou définit une valeur indiquant si ResponsePending est défini ou non"
 type: docs
 weight: 520
 url: /fr/net/aspose.tasks/resourceassignment/responsepending/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur indiquant si ResponsePending est défini ou non.
 public bool ResponsePending { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

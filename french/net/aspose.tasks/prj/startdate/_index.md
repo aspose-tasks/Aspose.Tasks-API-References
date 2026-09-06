@@ -1,9 +1,9 @@
 ---
-title: Prj.StartDate
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. La date de début dun projet.
+title: "Prj.StartDate"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. La date de début d'un projet"
 type: docs
-weight: 670
+weight: 680
 url: /fr/net/aspose.tasks/prj/startdate/
 ---
 ## Prj.StartDate field
@@ -14,12 +14,24 @@ La date de début d'un projet.
 public static readonly Key<DateTime, PrjKey> StartDate;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.StartDate.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.StartDate, new DateTime(2020, 4, 19, 8, 0, 0));
+
+Console.WriteLine("Start Date: " + project.Get(Prj.StartDate));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

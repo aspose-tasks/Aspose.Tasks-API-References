@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.VisualObjectPlacement
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VisualObjectPlacement constructeur. Initialise une nouvelle instance duVisualObjectPlacement classe.
+title: "VisualObjectPlacement.VisualObjectPlacement"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur VisualObjectPlacement. Initialise une nouvelle instance de la classe VisualObjectPlacement"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.visualization/visualobjectplacement/visualobjectplacement/
 ---
 ## VisualObjectPlacement constructor
 
-Initialise une nouvelle instance du[`VisualObjectPlacement`](../) classe.
+Initialise une nouvelle instance de la classe [`VisualObjectPlacement`](../).
 
 ```csharp
 public VisualObjectPlacement()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [VisualObjectPlacement](../)
-* espace de noms [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

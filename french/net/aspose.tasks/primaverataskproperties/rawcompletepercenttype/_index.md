@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawCompletePercentType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PrimaveraTaskProperties propriété. Obtient la représentation textuelle brute comme dans le fichier source du champ  Complete Type de lactivité.
+title: "PrimaveraTaskProperties.RawCompletePercentType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties property. Obtient la représentation texte brute telle qu’elle figure dans le fichier source du champ Type d’achèvement de l’activité"
 type: docs
-weight: 70
+weight: 230
 url: /fr/net/aspose.tasks/primaverataskproperties/rawcompletepercenttype/
 ---
 ## PrimaveraTaskProperties.RawCompletePercentType property
 
-Obtient la représentation textuelle brute (comme dans le fichier source) du champ '% Complete Type' de l'activité.
+Obtient la représentation texte brute (comme dans le fichier source) du champ '% Complete Type' de l'activité.
 
 ```csharp
 public string RawCompletePercentType { get; }
 ```
 
-### Remarques
+## Remarques
 
 Applicable uniquement aux activités (tâches non récapitulatives).
 
-### Voir également
+### Voir aussi
 
 * class [PrimaveraTaskProperties](../)
-* espace de noms [Aspose.Tasks](../../primaverataskproperties/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Resource.AvailableTo
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de AvailableTo.
+title: "Resource.AvailableTo"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de AvailableTo"
 type: docs
 weight: 150
 url: /fr/net/aspose.tasks/resource/availableto/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de AvailableTo.
 public DateTime AvailableTo { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Rsc.MaxUnits
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Rsc champ. Le nombre maximal dunités représentant la capacité maximale pour laquelle une ressource est disponible pour accomplir nimporte quelle tâche pendant la période actuelle.
+title: "Rsc.MaxUnits"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Rsc. Le nombre maximal d’unités représentant la capacité maximale pour laquelle une ressource est disponible afin d’accomplir des tâches pendant la période actuelle"
 type: docs
 weight: 450
 url: /fr/net/aspose.tasks/rsc/maxunits/
 ---
 ## Rsc.MaxUnits field
 
-Le nombre maximal d'unités représentant la capacité maximale pour laquelle une ressource est disponible pour accomplir n'importe quelle tâche pendant la période actuelle.
+Le nombre maximal d'unités représentant la capacité maximale pour laquelle une ressource est disponible afin d'accomplir des tâches pendant la période actuelle.
 
 ```csharp
 public static readonly Key<double, RscKey> MaxUnits;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Rsc.MaxUnits.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.MaxUnits, 2);
+
+Console.WriteLine("Max Units: " + resource.Get(Rsc.MaxUnits));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espace de noms [Aspose.Tasks](../../rsc/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

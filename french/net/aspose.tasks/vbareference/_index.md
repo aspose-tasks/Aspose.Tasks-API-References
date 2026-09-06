@@ -1,14 +1,14 @@
 ---
-title: Class VbaReference
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.VbaReference classe. Représente une référence duVbaProject .
+title: "Classe VbaReference"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.VbaReference. Représente une référence du VbaProject"
 type: docs
-weight: 2540
+weight: 2870
 url: /fr/net/aspose.tasks/vbareference/
 ---
 ## VbaReference class
 
-Représente une référence du[`VbaProject`](../vbaproject/) .
+Représente une référence du [`VbaProject`](../vbaproject/).
 
 ```csharp
 public sealed class VbaReference : IEquatable<VbaReference>
@@ -16,28 +16,44 @@ public sealed class VbaReference : IEquatable<VbaReference>
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [VbaReference](vbareference/)() | Default_Constructor |
+| [VbaReference](vbareference/)() | Le constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [LibIdentifier](../../aspose.tasks/vbareference/libidentifier/) { get; } | Obtient l'identifiant de la bibliothèque. |
 | [Name](../../aspose.tasks/vbareference/name/) { get; set; } | Obtient ou définit le nom de la référence VBA. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbareference/equals/#equals_1)(object) | Renvoie une valeur indiquant si cette instance est égale à la valeur spécifiée`VbaReference` objet. |
-| [Equals](../../aspose.tasks/vbareference/equals/#equals)(VbaReference) | Renvoie une valeur indiquant si cette instance est égale à la valeur spécifiée`VbaReference` objet. |
-| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode/)() | Renvoie une valeur de code de hachage pour ce`VbaReference` . |
+| override [Equals](../../aspose.tasks/vbareference/equals/#equals_1)(object) | Renvoie une valeur indiquant si cette instance est égale à l'objet `VbaReference` spécifié. |
+| [Equals](../../aspose.tasks/vbareference/equals/#equals)(VbaReference) | Renvoie une valeur indiquant si cette instance est égale à l'objet `VbaReference` spécifié. |
+| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode/)() | Renvoie une valeur de code de hachage pour ce `VbaReference`. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment lire les références VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

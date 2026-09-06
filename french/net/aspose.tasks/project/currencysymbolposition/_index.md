@@ -1,9 +1,9 @@
 ---
-title: Project.CurrencySymbolPosition
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de CurrencySymbolPosition.
+title: "Project.CurrencySymbolPosition"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de CurrencySymbolPosition"
 type: docs
-weight: 220
+weight: 230
 url: /fr/net/aspose.tasks/project/currencysymbolposition/
 ---
 ## Project.CurrencySymbolPosition property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de CurrencySymbolPosition.
 public CurrencySymbolPositionType CurrencySymbolPosition { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [CurrencySymbolPositionType](../../currencysymbolpositiontype/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 
