@@ -1,55 +1,81 @@
 ---
-title: Resource.Equals
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 方法. 返回一个值指示此实例是否等于指定的实例Resource类.
+title: "Resource.Equals"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Resource 方法。返回一个值，指示此实例是否等于 Resource 类的指定实例。"
 type: docs
-weight: 830
+weight: 820
 url: /zh/net/aspose.tasks/resource/equals/
 ---
 ## Equals(Resource) {#equals}
 
-返回一个值，指示此实例是否等于指定的实例[`Resource`](../)类.
+返回一个值，指示此实例是否等于 [`Resource`](../) 类的指定实例。
 
 ```csharp
 public bool Equals(Resource other)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Resource | 的指定实例[`Resource`](../)类与此实例进行比较。 |
+| other | Resource | 用于与此实例比较的 [`Resource`](../) 类的指定实例。 |
 
 ### 返回值
 
-**真的**如果指定的实例[`Resource`](../)类与此实例具有相同的 Uid 值；否则， **错误的**.
+**True** if the specified instance of the [`Resource`](../) class has the same Uid value as this instance; otherwise, **false**.
 
-### 也可以看看
+## 示例
+
+展示如何检查资源相等性。
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### 另见
 
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与此实例进行比较的对象。 |
+| obj | 对象 | 与此实例比较的对象。 |
 
 ### 返回值
 
-**真的**如果指定对象是与此实例具有相同 Uid 值的资源；否则， **错误的**.
+**True** if the specified object is a Resource that has the same Uid value as this instance; otherwise, **false**.
 
-### 也可以看看
+## 示例
+
+展示如何检查资源相等性。
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### 另见
 
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.VerticalOffset
-second_title: Aspose.Tasks for .NET API 参考
-description: VisualObjectPlacement 财产. 获取或设置视觉对象的垂直偏移量
+title: "VisualObjectPlacement.VerticalOffset"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "VisualObjectPlacement 属性。获取或设置可视对象的垂直偏移。"
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/verticaloffset/
 ---
 ## VisualObjectPlacement.VerticalOffset property
 
-获取或设置视觉对象的垂直偏移量。
+获取或设置视觉对象的垂直偏移。
 
 ```csharp
 public double VerticalOffset { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [VisualObjectPlacement](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

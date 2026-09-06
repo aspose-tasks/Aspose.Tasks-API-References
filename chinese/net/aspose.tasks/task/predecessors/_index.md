@@ -1,14 +1,14 @@
 ---
-title: Task.Predecessors
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 得到一个TaskCollection包含此任务对象的所有前任对象的对象
+title: "Task.Predecessors"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取一个 TaskCollection 对象，其中包含此 Task 对象的所有前置任务"
 type: docs
-weight: 990
+weight: 980
 url: /zh/net/aspose.tasks/task/predecessors/
 ---
 ## Task.Predecessors property
 
-得到一个[`TaskCollection`](../../taskcollection/)包含此任务对象的所有前任对象的对象。
+获取一个 [`TaskCollection`](../../taskcollection/) 对象，其中包含此 Task 对象的所有前置任务。
 
 ```csharp
 public TaskCollection Predecessors { get; }
@@ -16,13 +16,30 @@ public TaskCollection Predecessors { get; }
 
 ### 返回值
 
-的只读实例[`TaskCollection`](../../taskcollection/)班级。
+只读的 [`TaskCollection`](../../taskcollection/) 类实例。
 
-### 也可以看看
+## 示例
+
+展示如何读取任务的前置任务。
+
+```csharp
+var project = new Project();
+var pred = project.RootTask.Children.Add("Predecessor");
+var succ = project.RootTask.Children.Add("Successor");
+
+project.TaskLinks.Add(pred, succ);
+
+foreach (var predecessor in succ.Predecessors)
+{
+    Console.WriteLine("{0} {1}", predecessor.Get(Tsk.Id), predecessor.Get(Tsk.Name));
+}
+```
+
+### 另见
 
 * class [TaskCollection](../../taskcollection/)
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

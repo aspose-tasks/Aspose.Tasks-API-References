@@ -1,9 +1,9 @@
 ---
-title: Resource.ParentProject
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 财产. 获取此容器的父项目
+title: "Resource.ParentProject"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Resource 属性。获取此容器的父项目"
 type: docs
-weight: 610
+weight: 600
 url: /zh/net/aspose.tasks/resource/parentproject/
 ---
 ## Resource.ParentProject property
@@ -14,11 +14,25 @@ url: /zh/net/aspose.tasks/resource/parentproject/
 public Project ParentProject { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何使用资源的父项目。
+
+```csharp
+var project = new Project();
+var resource = project.Resources.Add("Resource");
+
+// 通过使用默认项目工作时间单位类型为资源设置工作。
+resource.Set(Rsc.Work, resource.ParentProject.GetWork(1));
+
+Console.WriteLine(resource.Get(Rsc.Work));
+```
+
+### 另见
 
 * class [Project](../../project/)
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,35 +1,93 @@
 ---
-title: Enum OutlineValueType
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.OutlineValueType 枚举. 指定轮廓值的类型
+title: "枚举 OutlineValueType"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.OutlineValueType 枚举。指定大纲值的类型"
 type: docs
-weight: 1100
+weight: 1230
 url: /zh/net/aspose.tasks/outlinevaluetype/
 ---
 ## OutlineValueType enumeration
 
-指定轮廓值的类型。
+指定大纲值的类型。
 
 ```csharp
 public enum OutlineValueType
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Null | `0` | 表示 Null 轮廓值类型。 |
-| Date | `1` | 表示日期大纲值类型。 |
-| Duration | `2` | 表示持续时间大纲值类型。 |
-| Cost | `3` | 表示成本大纲值类型。 |
-| Number | `4` | 表示数字轮廓值类型。 |
-| Flag | `5` | 表示标志轮廓值类型。 |
-| Text | `6` | 表示文本轮廓值类型。 |
-| FinishDate | `7` | 表示完成日期大纲值类型。 |
+| Null | `0` | 指示 Null 大纲值类型。 |
+| Date | `1` | 指示 Date 大纲值类型。 |
+| Duration | `2` | 指示 Duration 大纲值类型。 |
+| Cost | `3` | 指示 Cost 大纲值类型。 |
+| Number | `4` | 指示 Number 大纲值类型。 |
+| Flag | `5` | 指示标志大纲值类型。 |
+| Text | `6` | 指示文本大纲值类型。 |
+| FinishDate | `7` | 指示完成日期大纲值类型。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何使用大纲值。
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+var outline2 = new OutlineCodeDefinition();
+outline2.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline2.Alias = "My Outline Code 2";
+
+project.OutlineCodes.Add(outline);
+
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+outline.Masks.Add(mask);
+
+// 创建大纲值
+var value = new OutlineValue();
+
+// 设置实际值
+value.Value = "Text value 1";
+
+// 设置项目中大纲代码值的唯一 Id
+value.ValueId = 1;
+
+// 获取在整个项目中标识此值的 GUID
+Console.WriteLine("Check value GUID: " + value.ValueGuid);
+
+// 设置大纲代码类型
+value.Type = OutlineValueType.Text;
+
+// 设置大纲值的描述
+value.Description = "Text value descr 1";
+
+// 设置指示大纲值是否折叠的值
+value.IsCollapsed = false;
+
+// 检查父值 Id
+Console.WriteLine("Check parent value id: " + value.ParentValueId);
+outline.Values.Add(value);
+
+// 创建带持续时间的大纲值
+var value2 = new OutlineValue();
+
+// 设置持续时间值
+value2.DurationValue = project.GetDuration(1, TimeUnitType.Hour);
+
+// 设置项目中大纲代码值的唯一 Id
+value2.ValueId = 2;
+outline2.Values.Add(value2);
+
+// ...
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

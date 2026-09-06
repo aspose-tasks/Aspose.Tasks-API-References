@@ -1,14 +1,14 @@
 ---
-title: Class OutlineCode
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.OutlineCode 班级. 表示一个大纲代码的值
+title: "类 OutlineCode"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.OutlineCode 类。表示大纲代码的一个值"
 type: docs
-weight: 1020
+weight: 1150
 url: /zh/net/aspose.tasks/outlinecode/
 ---
 ## OutlineCode class
 
-表示一个大纲代码的值。
+表示大纲代码的值。
 
 ```csharp
 public class OutlineCode
@@ -16,26 +16,51 @@ public class OutlineCode
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [OutlineCode](outlinecode/#constructor)() | 初始化一个新的实例`OutlineCode`班级。 |
-| [OutlineCode](outlinecode/#constructor_1)(OutlineCodeDefinition, OutlineValue) | 初始化一个新的实例`OutlineCode`使用指定的大纲代码及其值之一的类。 |
+| [OutlineCode](outlinecode/#constructor)() | 初始化 `OutlineCode` 类的新实例。 |
+| [OutlineCode](outlinecode/#constructor_1)(OutlineCodeDefinition, OutlineValue) | 使用指定的大纲代码及其其中一个值来初始化 `OutlineCode` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [FieldId](../../aspose.tasks/outlinecode/fieldid/) { get; set; } | 获取或设置项目Id自定义字段的数值。 |
-| [ValueGuid](../../aspose.tasks/outlinecode/valueguid/) { get; set; } | 获取或设置值列表中值的 GUID。 ValueGuid 与值列表中的 FieldGuid 匹配。 |
-| [ValueId](../../aspose.tasks/outlinecode/valueid/) { get; set; } | 获取或设置与大纲代码集合中的定义关联的值列表中的Id。 |
+| [FieldId](../../aspose.tasks/outlinecode/fieldid/) { get; set; } | 获取或设置项目 Id 自定义字段的数值。 |
+| [ValueGuid](../../aspose.tasks/outlinecode/valueguid/) { get; set; } | 获取或设置值列表中值的 GUID。ValueGuid 与值列表中的 FieldGuid 相匹配。 |
+| [ValueId](../../aspose.tasks/outlinecode/valueid/) { get; set; } | 获取或设置值列表中与大纲代码集合定义关联的 Id。 |
 
-### 评论
+## 备注
 
-两个数据是必需的 - 指向由 FieldId 指定的大纲代码表 的指针，以及由指向值列表的 ValueId 或 ValueGuid 指针指定的值
+需要两条数据——由 FieldId 指定的大纲代码表指针，以及通过 ValueId 或 ValueGuid（指向值列表的指针）指定的值。
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何读取任务的大纲代码。
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// 读取大纲代码
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

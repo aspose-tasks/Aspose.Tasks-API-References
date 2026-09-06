@@ -1,9 +1,9 @@
 ---
-title: Project.CopyTo
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 方法. 将项目的主要数据和属性复制到另一个项目
+title: "Project.CopyTo"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 方法。将项目的主要数据和属性复制到另一个项目"
 type: docs
-weight: 1030
+weight: 1060
 url: /zh/net/aspose.tasks/project/copyto/
 ---
 ## CopyTo(Project) {#copyto}
@@ -14,15 +14,29 @@ url: /zh/net/aspose.tasks/project/copyto/
 public void CopyTo(Project another)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| another | Project | 要将数据复制到的另一个项目。 |
+| 另一个 | Project | 要复制数据到的另一个项目。 |
 
-### 也可以看看
+## 示例
+
+展示如何将项目数据复制到另一个项目。
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", DataDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(DataDir + "ProjectCopying_out.mpp");
+
+// 在复制通用项目数据时跳过视图数据的复制。
+project.CopyTo(mppProject);
+```
+
+### 另见
 
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -34,16 +48,34 @@ public void CopyTo(Project another)
 public void CopyTo(Project another, CopyToOptions options)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| another | Project | 要将数据复制到的另一个项目。 |
-| options | CopyToOptions | 复制选项以控制复制过程。 |
+| 另一个 | Project | 要复制数据到的另一个项目。 |
+| 选项 | CopyToOptions | 复制选项以控制复制过程。 |
 
-### 也可以看看
+## 示例
+
+展示如何使用 &lt;see cref=\"Aspose.Tasks.CopyToOptions\"/&gt; 实例来复制项目。
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// 在复制通用项目数据时跳过视图数据的复制。
+var options = new CopyToOptions
+{
+    CopyViewData = false
+};
+project.CopyTo(mppProject, options);
+```
+
+### 另见
 
 * class [CopyToOptions](../../copytooptions/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

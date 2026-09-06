@@ -1,33 +1,81 @@
 ---
-title: RiskAnalysisResult.GetRiskItems
-second_title: Aspose.Tasks for .NET API 参考
-description: RiskAnalysisResult 方法. 返回一个实例RiskItemStatisticsCollection对于指定的风险类型
+title: "RiskAnalysisResult.GetRiskItems"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "RiskAnalysisResult 方法。返回针对指定风险类型的 RiskItemStatisticsCollection 实例"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.riskanalysis/riskanalysisresult/getriskitems/
 ---
 ## RiskAnalysisResult.GetRiskItems method
 
-返回一个实例[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection/)对于指定的风险类型。
+返回指定风险类型的 [`RiskItemStatisticsCollection`](../../riskitemstatisticscollection/) 实例。
 
 ```csharp
 public RiskItemStatisticsCollection GetRiskItems(RiskItemType itemType)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| itemType | RiskItemType | 指定的风险类型；可以是的值之一[`RiskItemType`](../../riskitemtype/)枚举。 |
+| itemType | RiskItemType | 指定的风险类型；可以是 [`RiskItemType`](../../riskitemtype/) 枚举的值之一。 |
 
 ### 返回值
 
-的一个实例[`RiskItemStatisticsCollection`](../../riskitemstatisticscollection/)对于指定的风险类型。
+指定风险类型的 [`RiskItemStatisticsCollection`](../../riskitemstatisticscollection/) 实例。
 
-### 也可以看看
+## 示例
+
+展示如何计算风险统计并将其保存为 PDF 报告。
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// 初始化风险模式
+var pattern = new RiskPattern(task)
+{
+    // 为随机数生成器选择一种分布类型以生成可能的值（当前仅支持两种类型，即正态分布和均匀分布）            
+    // 更多详情请参见此处：https://en.wikipedia.org/wiki/Normal_distribution)
+    Distribution = ProbabilityDistributionType.Normal,
+
+    // 设置在最佳项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 75，这意味着如果估计的任务持续时间为 4 天，则乐观持续时间将为 3 天
+    Optimistic = 70,
+
+    // 设置在最差项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 125，这意味着如果估计的任务持续时间为 4 天，则悲观持续时间将为 5 天。
+    Pessimistic = 130,
+
+    // 设置一个置信水平，对应实际值在乐观和悲观估计范围内出现的时间百分比。 
+    // 可以将其视为标准差的数值：对估计越不确定，随机数生成器使用的标准差值就越大
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+settings.Patterns.Add(pattern);
+
+// 分析项目风险
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+
+// 将分析保存为报告到文件路径指定的文件中
+analysisResult.SaveReport(OutDir + "AnalysisResult_out.pdf");
+
+// 或将分析保存到流中
+using (var stream = new FileStream(OutDir + "AnalysisResult_out1.pdf", FileMode.Create))
+{
+    analysisResult.SaveReport(stream);
+}
+```
+
+### 另见
 
 * class [RiskItemStatisticsCollection](../../riskitemstatisticscollection/)
 * enum [RiskItemType](../../riskitemtype/)
 * class [RiskAnalysisResult](../)
-* 命名空间 [Aspose.Tasks.RiskAnalysis](../../riskanalysisresult/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.RiskAnalysis](../../riskanalysisresult/)
+* assembly [Aspose.Tasks](../../../)
 
 

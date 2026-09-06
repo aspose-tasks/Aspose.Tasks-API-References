@@ -1,7 +1,7 @@
 ---
-title: Baseline.Baseline
-second_title: Aspose.Tasks for .NET API 参考
-description: Baseline 构造函数. 默认构造函数
+title: "Baseline.Baseline"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Baseline 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/baseline/baseline/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/baseline/baseline/
 public Baseline()
 ```
 
-### 也可以看看
+### 另见
 
 * class [Baseline](../)
-* 命名空间 [Aspose.Tasks](../../baseline/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

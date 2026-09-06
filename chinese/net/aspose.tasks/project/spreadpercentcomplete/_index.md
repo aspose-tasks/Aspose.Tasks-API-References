@@ -1,24 +1,24 @@
 ---
-title: Project.SpreadPercentComplete
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置一个值该值指示是否设置了 SpreadPercentComplete
+title: "Project.SpreadPercentComplete"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置一个值，指示 SpreadPercentComplete 是否已设置"
 type: docs
-weight: 830
+weight: 860
 url: /zh/net/aspose.tasks/project/spreadpercentcomplete/
 ---
 ## Project.SpreadPercentComplete property
 
-获取或设置一个值，该值指示是否设置了 SpreadPercentComplete。
+获取或设置一个指示是否已设置 SpreadPercentComplete 的值。
 
 ```csharp
 public NullableBool SpreadPercentComplete { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

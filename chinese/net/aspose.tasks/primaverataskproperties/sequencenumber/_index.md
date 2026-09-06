@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.SequenceNumber
-second_title: Aspose.Tasks for .NET API 参考
-description: PrimaveraTaskProperties 财产. 获取或设置 WBS 项目摘要任务的序号用于Primavera中汇总任务的排序
+title: "PrimaveraTaskProperties.SequenceNumber"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PrimaveraTaskProperties 属性。获取或设置 WBS 项目汇总任务的序列号。它用于在 Primavera 中对汇总任务进行排序"
 type: docs
-weight: 160
+weight: 350
 url: /zh/net/aspose.tasks/primaverataskproperties/sequencenumber/
 ---
 ## PrimaveraTaskProperties.SequenceNumber property
 
-获取或设置 WBS 项目（摘要任务）的序号。用于Primavera中汇总任务的排序。
+获取或设置 WBS 项目（汇总任务）的序列号。它用于在 Primavera 中对汇总任务进行排序。
 
 ```csharp
 public int SequenceNumber { get; }
 ```
 
-### 评论
+## 备注
 
-适用于 WBS 项目（摘要任务）。
+适用于 WBS 项目（汇总任务）。
 
-### 也可以看看
+### 另见
 
 * class [PrimaveraTaskProperties](../)
-* 命名空间 [Aspose.Tasks](../../primaverataskproperties/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

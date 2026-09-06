@@ -1,10 +1,10 @@
 ---
-title: Aspose.Tasks for .NET
+title: "Aspose.Tasks for .NET"
 type: docs
 weight: 10
 url: /zh/net/
 keywords: "Aspose.Tasks for .NET, Aspose Tasks, Aspose API Reference."
-description: Aspose.Tasks for .NET 是一个成熟的产品，提供了稳定性和灵活性。
+description: "Aspose.Tasks for .NET 是一款成熟的产品，提供稳定性和灵活性。"
 is_root: true
 ---
 ## 命名空间
@@ -14,6 +14,8 @@ is_root: true
 | [Aspose.Tasks](./aspose.tasks/) | 包含用于在不使用 Microsoft Project 的情况下处理 Microsoft Project 文档的类。 |
 | [Aspose.Tasks.Attributes](./aspose.tasks.attributes/) |  |
 | [Aspose.Tasks.Connectivity](./aspose.tasks.connectivity/) | 包含用于处理数据库的类。 |
+| [Aspose.Tasks.Leveling](./aspose.tasks.leveling/) | 包含用于资源均衡所需的类。 |
+| [Aspose.Tasks.Primavera](./aspose.tasks.primavera/) | 包含用于处理 Primavera 特定格式（XER、Primavera XML）所需的类。 |
 | [Aspose.Tasks.Properties](./aspose.tasks.properties/) | 包含用于处理属性的类。 |
 | [Aspose.Tasks.RiskAnalysis](./aspose.tasks.riskanalysis/) | 包含用于创建风险分析报告的类。 |
 | [Aspose.Tasks.Saving](./aspose.tasks.saving/) | 包含用于将项目保存为不同格式的类。 |

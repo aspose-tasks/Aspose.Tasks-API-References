@@ -1,7 +1,7 @@
 ---
-title: VbaModuleAttribute.Key
-second_title: Aspose.Tasks for .NET API 参考
-description: VbaModuleAttribute 财产. 获取 VBA 模块属性的键
+title: "VbaModuleAttribute.Key"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "VbaModuleAttribute 属性。获取 VBA 模块属性的键"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/vbamoduleattribute/key/
@@ -14,10 +14,28 @@ url: /zh/net/aspose.tasks/vbamoduleattribute/key/
 public string Key { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何使用 VBA 模块属性。
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
+
+### 另见
 
 * class [VbaModuleAttribute](../)
-* 命名空间 [Aspose.Tasks](../../vbamoduleattribute/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

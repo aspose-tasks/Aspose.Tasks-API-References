@@ -1,29 +1,91 @@
 ---
-title: TableFieldCollection.CopyTo
-second_title: Aspose.Tasks for .NET API 参考
-description: TableFieldCollection 方法. 将此集合的元素复制到指定的数组从指定的数组索引开始
+title: "TableFieldCollection.CopyTo"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TableFieldCollection 方法。将此集合的元素复制到指定的数组中，从指定的数组索引开始"
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/tablefieldcollection/copyto/
 ---
 ## TableFieldCollection.CopyTo method
 
-将此集合的元素复制到指定的数组，从指定的数组索引开始。
+将此集合的元素复制到指定数组中，从指定的数组索引开始。
 
 ```csharp
 public void CopyTo(TableField[] array, int arrayIndex)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| array | TableField[] | 要将元素复制到的指定一维数组 |
-| arrayIndex | Int32 | 复制开始处指定数组的从零开始的索引。 |
+| array | TableField[] | 要复制元素到的指定一维数组。 |
+| arrayIndex | Int32 | 指定数组的零基索引，复制从此处开始。 |
 
-### 也可以看看
+## 示例
+
+展示如何使用表字段集合。
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+foreach (var tbl in project.Tables)
+{
+    Console.WriteLine("Table name: " + tbl.Name);
+    Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
+
+    // 遍历表字段
+    Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
+    Console.WriteLine("Table count: " + tbl.TableFields.Count);
+    foreach (var fld in tbl.TableFields)
+    {
+        Console.WriteLine("Field Title: " + fld.Title);
+        Console.WriteLine("Field Field: " + fld.Field);
+        Console.WriteLine();
+    }
+}
+
+// 添加一个新表字段
+var table = project.Tables.ToList()[0];
+var field = new TableField();
+field.Title = "New Table Field";
+table.TableFields.Add(field);
+
+var field2 = new TableField();
+field2.Title = "New Table Field 2";
+
+// 在指定位置插入新字段
+var idx = table.TableFields.IndexOf(field);
+table.TableFields.Insert(idx, field2);
+
+// 通过索引访问编辑新表字段
+table.TableFields[idx].WrapHeader = true;
+
+Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
+
+// 最近我们可以删除该字段
+table.TableFields.RemoveAt(idx);
+
+// 可以通过两种方式清除集合
+if (deleteOneByOne)
+{
+    // 将表字段复制到数组中并逐个删除
+    var tableFields = new TableField[table.TableFields.Count];
+    table.TableFields.CopyTo(tableFields, 0);
+    foreach (var fld in tableFields)
+    {
+        table.TableFields.Remove(fld);
+    }
+}
+else
+{
+    // 或者可以完全清空表字段集合
+    table.TableFields.Clear();
+}
+```
+
+### 另见
 
 * class [TableField](../../tablefield/)
 * class [TableFieldCollection](../)
-* 命名空间 [Aspose.Tasks](../../tablefieldcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tablefieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

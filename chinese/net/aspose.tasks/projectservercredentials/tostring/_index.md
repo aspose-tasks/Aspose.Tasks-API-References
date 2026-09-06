@@ -1,7 +1,7 @@
 ---
-title: ProjectServerCredentials.ToString
-second_title: Aspose.Tasks for .NET API 参考
-description: ProjectServerCredentials 方法. 返回此实例的字符串表示
+title: "ProjectServerCredentials.ToString"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ProjectServerCredentials 方法。返回此实例的字符串表示形式"
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/projectservercredentials/tostring/
@@ -18,10 +18,10 @@ public override string ToString()
 
 此实例的字符串表示形式。
 
-### 也可以看看
+### 另见
 
 * class [ProjectServerCredentials](../)
-* 命名空间 [Aspose.Tasks](../../projectservercredentials/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 

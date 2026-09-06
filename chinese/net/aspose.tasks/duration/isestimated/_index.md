@@ -1,23 +1,50 @@
 ---
-title: Duration.IsEstimated
-second_title: Aspose.Tasks for .NET API 参考
-description: Duration 财产. 获取时间单位是否估计的值 确定是否估计此 Duration 实例的标志
+title: "Duration.IsEstimated"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Duration 属性。获取一个值，指示时间单位是否为估计值。决定此 Duration 实例是否为估计的标志。"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/duration/isestimated/
 ---
 ## Duration.IsEstimated property
 
-获取时间单位是否估计的值。 确定是否估计此 Duration 实例的标志。
+获取一个值，指示时间单位是否为估计。此标志决定此 Duration 实例是否为估计。
 
 ```csharp
 public bool IsEstimated { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何从特定格式的字符串解析字符串。
+
+```csharp
+var project = new Project();
+
+// 持续时间示例：
+// "1d", "1dy", "1d?", "1day", "1 dy", "1 edy? ", "8hr", "8 hour", "8hours", "0.2w?", "0.2wk", "0.2 eweek", "0.2ew?"
+// 其中 1 - 项目数量（天、周等），d - 天（h - 小时，w - 周）? - 估计标志，e - 已过去标志
+
+// 尝试解析估计的 Duration。
+var duration1 = Duration.Parse(project, "1d?");
+Console.WriteLine("The parsed time span: " + duration1.TimeSpan);
+Console.WriteLine("The parsed time unit: " + duration1.TimeUnit);
+Console.WriteLine("Is estimated duration?: " + duration1.IsEstimated);
+Console.WriteLine("Is elapsed duration?: " + duration1.IsElapsed);
+Console.WriteLine();
+
+// 尝试解析估计的 Duration。
+var duration2 = Duration.Parse(project, "0.2 eweek");
+Console.WriteLine("The parsed time span: " + duration2.TimeSpan);
+Console.WriteLine("The parsed time unit: " + duration2.TimeUnit);
+Console.WriteLine("Is estimated duration?: " + duration2.IsEstimated);
+Console.WriteLine("Is elapsed duration?: " + duration2.IsElapsed);
+```
+
+### 另见
 
 * struct [Duration](../)
-* 命名空间 [Aspose.Tasks](../../duration/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

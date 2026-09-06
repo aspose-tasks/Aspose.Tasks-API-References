@@ -1,23 +1,49 @@
 ---
-title: TableField.WrapHeader
-second_title: Aspose.Tasks for .NET API 参考
-description: TableField 财产. 获取或设置一个值该值指示表格列标题是否可以换行或者当它超过列宽时是否应该被截断
+title: "TableField.WrapHeader"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TableField 属性。获取或设置一个值，指示表列标题是否可以换行到多行，或在超出列宽时是否应被截断"
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks/tablefield/wrapheader/
 ---
 ## TableField.WrapHeader property
 
-获取或设置一个值，该值指示表格列标题是否可以换行，或者当它超过列宽时是否应该被截断。
+获取或设置一个值，指示表格列标题是否可以换行到多行，或者在超过列宽时是否应被截断。
 
 ```csharp
 public bool WrapHeader { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取项目表。
+
+```csharp
+var project = new Project(DataDir + "ReadTableData.mpp");
+
+// 获取表
+var table = project.Tables.ToList()[0];
+Console.WriteLine("Print table fields of {0}", table.Name);
+Console.WriteLine("Table Fields Count" + table.TableFields.Count);
+
+// 显示所有表字段的信息
+foreach (var field in table.TableFields)
+{
+    Console.WriteLine("  Field: " + field.Field);
+    Console.WriteLine("  Width: " + field.Width);
+    Console.WriteLine("  Title: " + field.Title);
+    Console.WriteLine("  Title Alignment: " + field.AlignTitle);
+    Console.WriteLine("  Data Alignment: " + field.AlignData);
+    Console.WriteLine("  Wrap Header: " + field.WrapHeader);
+    Console.WriteLine("  Wrap Text: " + field.WrapText);
+    Console.WriteLine();
+}
+```
+
+### 另见
 
 * class [TableField](../)
-* 命名空间 [Aspose.Tasks](../../tablefield/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tablefield/)
+* assembly [Aspose.Tasks](../../../)
 
 

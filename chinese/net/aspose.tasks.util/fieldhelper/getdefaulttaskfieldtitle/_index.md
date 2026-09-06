@@ -1,9 +1,9 @@
 ---
-title: FieldHelper.GetDefaultTaskFieldTitle
-second_title: Aspose.Tasks for .NET API 参考
-description: FieldHelper 方法. 返回特定任务字段的默认标题
+title: "FieldHelper.GetDefaultTaskFieldTitle"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "FieldHelper 方法。 返回特定任务字段的默认标题"
 type: docs
-weight: 10
+weight: 20
 url: /zh/net/aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/
 ---
 ## FieldHelper.GetDefaultTaskFieldTitle method
@@ -14,19 +14,28 @@ url: /zh/net/aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/
 public static string GetDefaultTaskFieldTitle(TaskKey taskKey)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| taskKey | TaskKey | 获取默认标题的任务字段。 |
+| taskKey | TaskKey | 用于获取默认标题的任务字段。 |
 
 ### 返回值
 
-如果字段可以显示在 MS Project 的视图中，则为特定任务字段的默认标题，否则为空。
+如果该字段可以在 MS Project 视图中显示，则返回特定任务字段的默认标题；否则返回 null。
 
-### 也可以看看
+## 示例
+
+展示如何获取特定任务字段的默认标题。
+
+```csharp
+Console.WriteLine("Title for Tsk.ActualCost: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.ActualCost.KeyType));
+Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.PercentWorkComplete.KeyType));
+```
+
+### 另见
 
 * enum [TaskKey](../../../aspose.tasks/taskkey/)
 * class [FieldHelper](../)
-* 命名空间 [Aspose.Tasks.Util](../../fieldhelper/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../fieldhelper/)
+* assembly [Aspose.Tasks](../../../)
 
 

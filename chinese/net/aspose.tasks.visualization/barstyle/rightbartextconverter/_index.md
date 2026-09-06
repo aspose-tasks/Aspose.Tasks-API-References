@@ -1,24 +1,24 @@
 ---
-title: BarStyle.RightBarTextConverter
-second_title: Aspose.Tasks for .NET API 参考
-description: BarStyle 财产. 获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本覆盖值RightField财产.
+title: "BarStyle.RightBarTextConverter"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "BarStyle 属性。获取或设置用户定义的转换器，以获取在任务条右侧渲染的文本。覆盖 RightField 属性的值"
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.tasks.visualization/barstyle/rightbartextconverter/
 ---
 ## BarStyle.RightBarTextConverter property
 
-获取或设置用户定义的转换器以获取要在任务栏右侧呈现的文本。覆盖值[`RightField`](../rightfield/)财产.
+获取或设置用户定义的转换器，以获取在任务条右侧渲染的文本。覆盖 [`RightField`](../rightfield/) 属性的值。
 
 ```csharp
 public TaskBarTextConverter RightBarTextConverter { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../barstyle/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

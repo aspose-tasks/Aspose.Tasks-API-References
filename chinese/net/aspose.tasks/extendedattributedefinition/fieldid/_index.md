@@ -1,33 +1,78 @@
 ---
-title: ExtendedAttributeDefinition.FieldId
-second_title: Aspose.Tasks for .NET API 参考
-description: ExtendedAttributeDefinition 财产. 获取或设置对应自定义字段的项目id 使用常量的字符串表示来自ExtendedAttributeTask要指定的类FieldId财产.
+title: "ExtendedAttributeDefinition.FieldId"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ExtendedAttributeDefinition 属性。获取或设置对应自定义字段的项目 ID。使用来自 ExtendedAttributeTask 类的常量的字符串表示来指定 FieldId 属性。"
 type: docs
 weight: 130
 url: /zh/net/aspose.tasks/extendedattributedefinition/fieldid/
 ---
 ## ExtendedAttributeDefinition.FieldId property
 
-获取或设置对应自定义字段的项目id。 使用常量的字符串表示来自[`ExtendedAttributeTask`](../../extendedattributetask/)要指定的类`FieldId`财产.
+获取或设置对应自定义字段的项目 ID。使用来自[`ExtendedAttributeTask`](../../extendedattributetask/) 类的常量的字符串表示来指定 `FieldId` 属性。
 
 ```csharp
 public string FieldId { get; set; }
 ```
 
-### 评论
+## 备注
 
-首选设置方式`FieldId`财产是创造[`ExtendedAttributeDefinition`](../) 使用一种专用工厂方法，例如[`CreateTaskDefinition`](../createtaskdefinition/)或者[`CreateLookupTaskDefinition`](../createlookuptaskdefinition/).
+设置 `FieldId` 属性的首选方式是使用 [`ExtendedAttributeDefinition`](../) 并通过专用的工厂方法之一，例如 [`CreateTaskDefinition`](../createtaskdefinition/) 或 [`CreateLookupTaskDefinition`](../createlookuptaskdefinition/)。
 
-### 例子
+## 示例
 
 ```csharp
 customFieldDefinition.FieldId = Aspose.Tasks.ExtendedAttributeTask.Number10.ToString("D");
 ```
 
-### 也可以看看
+展示如何读取扩展属性定义的通用信息。
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+// 读取扩展属性定义信息
+foreach (var definition in project.ExtendedAttributes)
+{
+    Console.WriteLine("Guid:" + definition.Guid);
+    Console.WriteLine("Secondary Guid:" + definition.SecondaryGuid);
+    Console.WriteLine("Secondary Pid:" + definition.SecondaryPid);
+    Console.WriteLine("Alias:" + definition.Alias);
+    Console.WriteLine("Phonetics Alias:" + definition.PhoneticsAlias);
+    Console.WriteLine("Field Id:" + definition.FieldId);
+    Console.WriteLine("Project Name:" + definition.ParentProject.Get(Prj.Name));
+
+    Console.WriteLine("Append New Values:" + definition.AppendNewValues);
+    Console.WriteLine("Auto RollDown:" + definition.AutoRollDown);
+    Console.WriteLine("Calculation Type:" + definition.CalculationType);
+    Console.WriteLine("Field Name" + definition.FieldName);
+    Console.WriteLine("Is User Defined Custom Field:" + definition.UserDef);
+    Console.WriteLine("Rollup Type:" + definition.RollupType);
+
+    if (definition.CalculationType == CalculationType.Lookup)
+    {
+        Console.WriteLine("  Next properties are used only for lookups:");
+        Console.WriteLine("  Default Guid:" + definition.DefaultGuid);
+        Console.WriteLine("  Element Type:" + definition.ElementType);
+        Console.WriteLine("  Lookup Uid:" + definition.LookupUid);
+        Console.WriteLine("  Restrict Values:" + definition.RestrictValues);
+        Console.WriteLine("  Max Multi Values:" + definition.MaxMultiValues);
+        Console.WriteLine("  Valuelist Sort Order:" + definition.ValuelistSortOrder);
+        Console.WriteLine("  Default Value:" + definition.Default);
+        Console.WriteLine("  Print values from value list:");
+        foreach (var value in definition.ValueList)
+        {
+            Console.WriteLine("    Description: " + value.Description);
+            Console.WriteLine("    Value: " + value.Val);
+        }
+    }
+
+    Console.WriteLine();
+}
+```
+
+### 另见
 
 * class [ExtendedAttributeDefinition](../)
-* 命名空间 [Aspose.Tasks](../../extendedattributedefinition/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

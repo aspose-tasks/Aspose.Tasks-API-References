@@ -1,23 +1,50 @@
 ---
-title: SaveOptions.StartDate
-second_title: Aspose.Tasks for .NET API 参考
-description: SaveOptions 财产. 获取或设置开始渲染的日期
+title: "SaveOptions.StartDate"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "SaveOptions 属性。获取或设置开始渲染的日期"
 type: docs
 weight: 170
 url: /zh/net/aspose.tasks.saving/saveoptions/startdate/
 ---
 ## SaveOptions.StartDate property
 
-获取或设置开始渲染的日期。
+获取或设置渲染开始的日期。
 
 ```csharp
 public DateTime StartDate { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何将布局保存为单独的文件。
+
+```csharp
+var project = new Project(DataDir + "Homemoveplan.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Png);
+options.StartDate = project.Get(Prj.StartDate).AddDays(-3);
+options.EndDate = project.Get(Prj.FinishDate);
+options.MarkCriticalTasks = true;
+options.LegendDrawingOptions = LegendDrawingOptions.NoLegend;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
+options.FontSettings.UseProjectDefaultFont = false;
+options.PageSize = PageSize.Letter;
+
+options.Gridlines = new List<Gridline>();
+
+var gridline = new Gridline { GridlineType = GridlineType.GanttRow, Color = Color.CornflowerBlue, Pattern = LinePattern.Dashed };
+options.Gridlines.Add(gridline);
+
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles1_out.png", options);
+
+// 将项目布局保存为单独的文件
+options.RenderToSinglePage = false;
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles2_out.png", options);
+```
+
+### 另见
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Tasks.Saving](../../saveoptions/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

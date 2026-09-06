@@ -1,9 +1,9 @@
 ---
-title: Project.CurrencyCode
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置 CurrencyCode 的值
+title: "Project.CurrencyCode"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置 CurrencyCode 的值。"
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.tasks/project/currencycode/
 ---
 ## Project.CurrencyCode property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/project/currencycode/
 public string CurrencyCode { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

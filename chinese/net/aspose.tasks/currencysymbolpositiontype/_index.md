@@ -1,7 +1,7 @@
 ---
-title: Enum CurrencySymbolPositionType
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.CurrencySymbolPositionType 枚举. 指定货币符号的位置
+title: "枚举 CurrencySymbolPositionType"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.CurrencySymbolPositionType 枚举。指定货币符号的位置。"
 type: docs
 weight: 370
 url: /zh/net/aspose.tasks/currencysymbolpositiontype/
@@ -14,23 +14,35 @@ url: /zh/net/aspose.tasks/currencysymbolpositiontype/
 public enum CurrencySymbolPositionType
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 表示未定义值表示该字段未在原始项目文件中定义。 |
-| Before | `0` | 表示前货币符号头寸类型。 |
-| After | `1` | 表示后货币符号位置类型。 |
-| BeforeWithSpace | `2` | 表示BeforeWithSpace货币符号头寸类型。 |
-| AfterWithSpace | `3` | 表示AfterWithSpace货币符号位置类型。 |
+| Undefined | `-1` | 指示未定义值表示该字段在原始项目文件中未定义。 |
+| Before | `0` | 指示货币符号前置的位置类型。 |
+| After | `1` | 指示货币符号后置的位置类型。 |
+| BeforeWithSpace | `2` | 指示货币符号前置并带空格的位置类型。 |
+| AfterWithSpace | `3` | 指示货币符号后置并带空格的位置类型。 |
 
-### 评论
+## 备注
 
-导出到 XML 时，未定义的值将从生成的 XML 中消除。
+在导出为 XML 时，未定义的值将从生成的 XML 中删除。
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何指定货币符号的放置位置（CurrencySymbolPositionType.Before）。
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// 设置货币符号的放置位置
+// 前置，无空格 ($0)。
+project.Set(Prj.CurrencySymbolPosition, CurrencySymbolPositionType.Before);
+// 处理项目...
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

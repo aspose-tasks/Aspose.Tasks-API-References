@@ -1,31 +1,80 @@
 ---
-title: CalendarException.CheckException
-second_title: Aspose.Tasks for .NET API 参考
-description: CalendarException 方法. 如果指定的实例返回真DateTimestruct 是例外日.
+title: "CalendarException.CheckException"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "CalendarException 方法。若 DateTime 结构的指定实例是异常日则返回 true。"
 type: docs
 weight: 170
 url: /zh/net/aspose.tasks/calendarexception/checkexception/
 ---
 ## CalendarException.CheckException method
 
-如果指定的实例返回真DateTimestruct 是例外日.
+如果指定的 DateTime 结构实例是例外日，则返回 true。
 
 ```csharp
 public bool CheckException(DateTime dt)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| dt | DateTime | 的指定实例DateTime结构。 |
+| dt | DateTime | DateTime 结构的指定实例。 |
 
 ### 返回值
 
-返回真如果DateTime值是例外日；否则，假的。
+如果 DateTime 值是异常日则返回 true；否则返回 false。
 
-### 也可以看看
+## 示例
+
+展示如何添加/删除日历例外。
+
+```csharp
+var project = new Project(DataDir + "project_test.mpp");
+
+// 创建日历
+var calendar = project.Calendars.Add("Calendar1");
+
+// 为假期创建工作日例外
+var exception = new CalendarException();
+exception.Name = "New Calendar Exception";
+exception.EnteredByOccurrences = false;
+exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
+exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
+exception.Type = CalendarExceptionType.Daily;
+exception.Month = Month.December;
+
+exception.DayWorking = false;
+
+// 检查日期是否为例外
+Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
+
+calendar.Exceptions.Add(exception);
+
+// 删除一个例外
+var cal = project.Calendars.ToList()[0];
+if (cal.Exceptions.Count > 1)
+{
+    var excToRemove = cal.Exceptions[0];
+    cal.Exceptions.Remove(excToRemove);
+}
+
+// 添加一个例外
+var exception2 = new CalendarException();
+exception2.FromDate = new System.DateTime(2009, 1, 1);
+exception2.ToDate = new System.DateTime(2009, 1, 3);
+cal.Exceptions.Add(exception2);
+
+// 打印例外
+foreach (var exc in cal.Exceptions)
+{
+    Console.WriteLine("Name: " + exc.Name);
+    Console.WriteLine("From: " + exc.FromDate.ToShortDateString());
+    Console.WriteLine("To: " + exc.ToDate.ToShortDateString());
+}
+```
+
+### 另见
 
 * class [CalendarException](../)
-* 命名空间 [Aspose.Tasks](../../calendarexception/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

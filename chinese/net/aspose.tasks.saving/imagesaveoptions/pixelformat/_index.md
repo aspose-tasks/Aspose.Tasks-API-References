@@ -1,9 +1,9 @@
 ---
-title: ImageSaveOptions.PixelFormat
-second_title: Aspose.Tasks for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置图像中每个像素的颜色数据格式
+title: "ImageSaveOptions.PixelFormat"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ImageSaveOptions 属性。获取或设置图像中每个像素的颜色数据格式"
 type: docs
-weight: 80
+weight: 70
 url: /zh/net/aspose.tasks.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property
@@ -14,10 +14,23 @@ url: /zh/net/aspose.tasks.saving/imagesaveoptions/pixelformat/
 public PixelFormat PixelFormat { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何设置在转换为图像格式期间使用的像素格式。
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Tiff);
+options.HorizontalResolution = 72;
+options.VerticalResolution = 72;
+options.PixelFormat = PixelFormat.Format24bppRgb;
+project.Save(OutDir + "RenderProjectDataToFormat24bppRgb_out.tif", options);
+```
+
+### 另见
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: SplitPart.Start
-second_title: Aspose.Tasks for .NET API 参考
-description: SplitPart 财产. 获取 SplitPart 的开始日期
+title: "SplitPart.Start"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "SplitPart 属性。获取 SplitPart 的开始日期"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/splitpart/start/
@@ -14,10 +14,45 @@ url: /zh/net/aspose.tasks/splitpart/start/
 public DateTime Start { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何处理已拆分任务的拆分部分。
+
+```csharp
+var project = new Project();
+project.Set(Prj.StartDate, new DateTime(2000, 3, 15, 8, 0, 0));
+project.Set(Prj.FinishDate, new DateTime(2000, 3, 21, 17, 0, 0));
+
+var task = project.RootTask.Children.Add("Task1");
+task.Set(Tsk.IsManual, false);
+task.Set(Tsk.Start, new DateTime(2000, 3, 15, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(3));
+
+var assignment = project.ResourceAssignments.Add(task, project.Resources.Add("r1"));
+assignment.Set(Asn.Start, new DateTime(2000, 3, 15, 8, 0, 0));
+assignment.Set(Asn.Work, task.Get(Tsk.Work));
+assignment.Set(Asn.Finish, new DateTime(2000, 3, 19, 17, 0, 0));
+
+// 必须先生成资源分配的时间分段数据
+assignment.TimephasedDataFromTaskDuration(project.Get(Prj.Calendar));
+
+// 拆分任务。
+assignment.SplitTask(new DateTime(2000, 3, 16, 8, 0, 0), new DateTime(2000, 3, 17, 17, 0, 0), project.Get(Prj.Calendar));
+
+// 遍历拆分部分
+Console.WriteLine("Number of split parts: " + task.SplitParts.Count);
+foreach (var splitPart in task.SplitParts)
+{
+    Console.WriteLine("  Split Part Start: " + splitPart.Start);
+    Console.WriteLine("  Split Part Finish: " + splitPart.Finish);
+    Console.WriteLine();
+}
+```
+
+### 另见
 
 * class [SplitPart](../)
-* 命名空间 [Aspose.Tasks](../../splitpart/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../splitpart/)
+* assembly [Aspose.Tasks](../../../)
 
 

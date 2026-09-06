@@ -1,7 +1,7 @@
 ---
-title: Enum EarnedValueMethodType
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.EarnedValueMethodType 枚举. 指定用于计算挣值的方法
+title: "枚举 EarnedValueMethodType"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.EarnedValueMethodType 枚举。指定用于计算挣值的方法"
 type: docs
 weight: 480
 url: /zh/net/aspose.tasks/earnedvaluemethodtype/
@@ -14,21 +14,32 @@ url: /zh/net/aspose.tasks/earnedvaluemethodtype/
 public enum EarnedValueMethodType
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Undefined | `-1` | 该字段未在原始项目文件中定义。 |
 | PercentComplete | `0` | 完成百分比 |
-| PhysicalPercentComplete | `1` | 物理完成百分比 |
+| PhysicalPercentComplete | `1` | 实际完成百分比 |
 
-### 评论
+## 备注
 
-导出到 XML 时，未定义的值将从生成的 XML 中消除。
+在导出为 XML 时，未定义的值将从生成的 XML 中删除。
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何指定用于计算挣值的方法 (EarnedValueMethodType.PercentComplete)。
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// 将挣值方法类型设置为 'PercentComplete'
+project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
+// 处理项目...
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

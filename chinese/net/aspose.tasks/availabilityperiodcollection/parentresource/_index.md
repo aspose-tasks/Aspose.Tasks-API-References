@@ -1,24 +1,24 @@
 ---
-title: AvailabilityPeriodCollection.ParentResource
-second_title: Aspose.Tasks for .NET API 参考
-description: AvailabilityPeriodCollection 财产. 获取父级Resource对于这个对象. 家长Resource此集合的对象
+title: "AvailabilityPeriodCollection.ParentResource"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "AvailabilityPeriodCollection 属性。获取此对象的父 Resource。此集合的父 Resource 对象"
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/availabilityperiodcollection/parentresource/
 ---
 ## AvailabilityPeriodCollection.ParentResource property
 
-获取父级[`Resource`](../../resource/)对于这个对象. 家长[`Resource`](../../resource/)此集合的对象。
+获取此对象的父 [`Resource`](../../resource/)。此集合的父 [`Resource`](../../resource/) 对象。
 
 ```csharp
 public Resource ParentResource { get; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Resource](../../resource/)
 * class [AvailabilityPeriodCollection](../)
-* 命名空间 [Aspose.Tasks](../../availabilityperiodcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../availabilityperiodcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

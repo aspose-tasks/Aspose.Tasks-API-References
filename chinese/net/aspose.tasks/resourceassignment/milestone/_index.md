@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Milestone
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignment 财产. 获取或设置一个值指示是否设置里程碑
+title: "ResourceAssignment.Milestone"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignment 属性。获取或设置一个值，指示是否已设置 Milestone。"
 type: docs
-weight: 370
+weight: 360
 url: /zh/net/aspose.tasks/resourceassignment/milestone/
 ---
 ## ResourceAssignment.Milestone property
 
-获取或设置一个值，指示是否设置里程碑。
+获取或设置指示 Milestone 是否已设置的值。
 
 ```csharp
 public bool Milestone { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

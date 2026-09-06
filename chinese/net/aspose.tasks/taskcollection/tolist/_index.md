@@ -1,14 +1,14 @@
 ---
-title: TaskCollection.ToList
-second_title: Aspose.Tasks for .NET API 参考
-description: TaskCollection 方法. 将 TaskCollection 对象转换为列表Task对象.
+title: "TaskCollection.ToList"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TaskCollection 方法。将 TaskCollection 对象转换为 Task 对象的列表。"
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/taskcollection/tolist/
 ---
 ## TaskCollection.ToList method
 
-将 TaskCollection 对象转换为列表[`Task`](../../task/)对象.
+将 TaskCollection 对象转换为 [`Task`](../../task/) 对象的列表。
 
 ```csharp
 public List<Task> ToList()
@@ -16,13 +16,85 @@ public List<Task> ToList()
 
 ### 返回值
 
-返回一个列表，其中包含[`Task`](../../task/)此集合的类实例。
+返回一个列表，包含此集合的 [`Task`](../../task/) 类实例。
 
-### 也可以看看
+## 示例
+
+展示如何使用任务集合。
+
+```csharp
+var project = new Project();
+
+// 任务集合不是只读的，可以扩展
+Console.WriteLine("Is task collection read - only: " + project.RootTask.Children.IsReadOnly);
+
+// 创建任务
+var task1 = project.RootTask.Children.Add();
+task1.Set(Tsk.Name, "Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task1.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task1.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task3 = project.RootTask.Children.Add("Task 3");
+task3.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task3.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task3.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task2 = project.RootTask.Children.Add("Task 2", 2);
+task2.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+// 打印项目任务
+Console.WriteLine("Count of tasks: " + project.RootTask.Children.Count);
+foreach (var child in project.RootTask.Children)
+{
+    Console.WriteLine("Parent Project: " + project.RootTask.ParentProject.Get(Prj.Name));
+    Console.WriteLine("Task name: " + child.Get(Tsk.Name));
+    Console.WriteLine("Task start: " + child.Get(Tsk.Start));
+    Console.WriteLine("Task duration: " + child.Get(Tsk.Duration));
+    Console.WriteLine("Task finish: " + child.Get(Tsk.Finish));
+    Console.WriteLine();
+}
+
+// 可以通过 ID 从集合中获取任务
+var task1ToEdit = project.RootTask.Children.GetById(1);
+task1ToEdit.Set(Tsk.Name, "Task 1 (Edited)");
+
+// 或通过 UID
+var taskToEdit2 = project.RootTask.Children.GetByUid(2);
+taskToEdit2.Set(Tsk.Name, "Task 2 (Edited)");
+
+// 也可以添加循环任务
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     Repetition = new DailyCalendarRepetition { RepetitionInterval = 1 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2020, 4, 13, 8, 0, 0),
+                                                                               Finish = new DateTime(2021, 4, 13, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+
+// 返回序列中的第一个任务
+var recurring = project.RootTask.Children.Add(parameters);
+Console.WriteLine("Task name: " + recurring.Get(Tsk.Name));
+
+// 集合可以转换为普通列表
+List<Task> tasks = project.RootTask.Children.ToList();
+foreach (var task in tasks)
+{
+    task.Delete();
+}
+```
+
+### 另见
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* 命名空间 [Aspose.Tasks](../../taskcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

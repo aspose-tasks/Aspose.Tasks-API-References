@@ -1,7 +1,7 @@
 ---
-title: PageMargins.PageMargins
-second_title: Aspose.Tasks for .NET API 参考
-description: PageMargins 构造函数. 默认构造函数
+title: "PageMargins.PageMargins"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PageMargins 构造函数。默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/pagemargins/pagemargins/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks.visualization/pagemargins/pagemargins/
 public PageMargins()
 ```
 
-### 也可以看看
+### 另见
 
 * class [PageMargins](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../pagemargins/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagemargins/)
+* assembly [Aspose.Tasks](../../../)
 
 

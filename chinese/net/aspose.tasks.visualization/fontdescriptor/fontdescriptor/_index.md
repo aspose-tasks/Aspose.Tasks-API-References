@@ -1,73 +1,73 @@
 ---
-title: FontDescriptor.FontDescriptor
-second_title: Aspose.Tasks for .NET API 参考
-description: FontDescriptor 构造函数. 初始化一个新的实例FontDescriptor具有指定字体系列和大小的类
+title: "FontDescriptor.FontDescriptor"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "FontDescriptor 构造函数。使用指定的字体系列和大小初始化 FontDescriptor 类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/fontdescriptor/fontdescriptor/
 ---
 ## FontDescriptor(string, float) {#constructor_1}
 
-初始化一个新的实例[`FontDescriptor`](../)具有指定字体系列和大小的类。
+使用指定的字体系列和大小初始化 [`FontDescriptor`](../) 类的新实例。
 
 ```csharp
 public FontDescriptor(string fontFamily, float size)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fontFamily | String | 字体系列的名称。 |
+| fontFamily | 字符串 | 字体系列的名称。 |
 | size | Single | 字体的大小。 |
 
-### 也可以看看
+### 另见
 
 * class [FontDescriptor](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## FontDescriptor(string, float, FontStyles) {#constructor_2}
 
-初始化一个新的实例[`FontDescriptor`](../)具有指定字体系列、大小和样式的类。
+使用指定的字体系列、大小和样式初始化 [`FontDescriptor`](../) 类的新实例。
 
 ```csharp
 public FontDescriptor(string fontFamily, float size, FontStyles style)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fontFamily | String | 字体系列的名称。 |
+| fontFamily | 字符串 | 字体系列的名称。 |
 | size | Single | 字体的大小。 |
 | style | FontStyles | 字体的样式。 |
 
-### 也可以看看
+### 另见
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## FontDescriptor(FontDescriptor, FontStyles) {#constructor}
 
-初始化一个新的实例[`FontDescriptor`](../)具有指定字体和样式的类。
+使用指定的字体和样式初始化 [`FontDescriptor`](../) 类的新实例。
 
 ```csharp
 public FontDescriptor(FontDescriptor font, FontStyles style)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| font | FontDescriptor | 的实例[`FontDescriptor`](../)复制。 |
+| font | FontDescriptor | 要复制的 [`FontDescriptor`](../) 实例。 |
 | style | FontStyles | 字体的样式。 |
 
-### 也可以看看
+### 另见
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Resource.PercentWorkComplete
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 财产. 获取或设置 PercentWorkComplete 的值
+title: "Resource.PercentWorkComplete"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Resource 属性。获取或设置 PercentWorkComplete 的值"
 type: docs
-weight: 630
+weight: 620
 url: /zh/net/aspose.tasks/resource/percentworkcomplete/
 ---
 ## Resource.PercentWorkComplete property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/resource/percentworkcomplete/
 public int PercentWorkComplete { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: PageSavingArgs.Stream
-second_title: Aspose.Tasks for .NET API 参考
-description: PageSavingArgs 财产. 获取或设置用于写入页面的流
+title: "PageSavingArgs.Stream"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PageSavingArgs 属性。获取或设置用于写入页面的流"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.saving/pagesavingargs/stream/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks.saving/pagesavingargs/stream/
 public Stream Stream { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [PageSavingArgs](../)
-* 命名空间 [Aspose.Tasks.Saving](../../pagesavingargs/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 
