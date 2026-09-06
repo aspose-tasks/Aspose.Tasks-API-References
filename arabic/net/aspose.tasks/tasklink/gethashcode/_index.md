@@ -1,14 +1,14 @@
 ---
-title: TaskLink.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskLink طريقة. إرجاع قيمة رمز تجزئة لمثيلTaskLink فئة .
+title: "TaskLink.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskLink. تُرجع قيمة تجزئة للمثيلة من فئة TaskLink"
 type: docs
 weight: 100
 url: /ar/net/aspose.tasks/tasklink/gethashcode/
 ---
 ## TaskLink.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لمثيل[`TaskLink`](../) فئة .
+تُرجع قيمة تجزئة للمثيلة من الفئة [`TaskLink`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TaskLink](../)
-* مساحة الاسم [Aspose.Tasks](../../tasklink/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

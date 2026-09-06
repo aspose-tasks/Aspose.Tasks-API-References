@@ -1,23 +1,39 @@
 ---
-title: XpsOptions.XpsOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: XpsOptions البناء. يقوم بتهيئة مثيل جديد لملفXpsOptions فئة .
+title: "XpsOptions.XpsOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ XpsOptions. يهيئ مثيلاً جديداً لفئة XpsOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/xpsoptions/xpsoptions/
 ---
 ## XpsOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`XpsOptions`](../) فئة .
+يهيئ مثيلاً جديداً لفئة [`XpsOptions`](../).
 
 ```csharp
 public XpsOptions()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ المشروع كملف XPS.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// إنشاء خيارات حفظ XPS وضبط المعلمات
+var options = new XpsOptions
+{
+    RenderMetafileAsBitmap = true
+};
+
+project.Save(OutDir + "UseSvgOptions_out.xps", options);
+```
+
+### انظر أيضًا
 
 * class [XpsOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../xpsoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xpsoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

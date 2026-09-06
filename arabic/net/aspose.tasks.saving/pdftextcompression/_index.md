@@ -1,29 +1,51 @@
 ---
-title: Enum PdfTextCompression
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.PdfTextCompression تعداد. يحدد نوع الضغط المطبق على كل المحتوى في ملف PDF باستثناء الصور.
+title: "التعداد PdfTextCompression"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "التعداد Aspose.Tasks.Saving.PdfTextCompression. يحدد نوع الضغط المطبق على جميع محتويات ملف PDF باستثناء الصور."
 type: docs
-weight: 1870
+weight: 2140
 url: /ar/net/aspose.tasks.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration
 
-يحدد نوع الضغط المطبق على كل المحتوى في ملف PDF باستثناء الصور.
+يحدد نوع الضغط المطبق على جميع محتويات ملف PDF باستثناء الصور.
 
 ```csharp
 public enum PdfTextCompression
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| None | `0` | بدون ضغط . |
-| Flate | `1` | ضغط Flate . |
+| None | `0` | بدون ضغط. |
+| Flate | `1` | ضغط Flate. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+يظهر كيفية تعيين نوع الضغط الذي سيُستخدم لجميع تدفقات المحتوى باستثناء الصور.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions();
+
+// تعيين نوع الضغط الذي سيُستخدم لجميع تدفقات المحتوى باستثناء الصور
+options.TextCompression = PdfTextCompression.Flate;
+
+// ضبط الخصائص الإضافية
+// تعيين <see cref=\"P:Aspose.Tasks.Saving.SaveOptions.PresentationFormat\" /> الذي سيُحفظ فيه المستند.
+options.PresentationFormat = PresentationFormat.GanttChart;
+
+// تعيين مستوى التوافق المطلوب للمستند PDF المُنشأ
+options.Compliance = PdfCompliance.PdfA1b;
+
+project.Save(OutDir + "WorkWithTextCompression_out.pdf", options);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

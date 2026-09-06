@@ -1,26 +1,38 @@
 ---
-title: Prj.TaskUpdatesResource
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت التحديثات على المهام تؤدي إلى تحديث الموارد.
+title: "Prj.TaskUpdatesResource"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كانت تحديثات المهام تُحدّث الموارد"
 type: docs
-weight: 700
+weight: 710
 url: /ar/net/aspose.tasks/prj/taskupdatesresource/
 ---
 ## Prj.TaskUpdatesResource field
 
-تحديد ما إذا كانت التحديثات على المهام تؤدي إلى تحديث الموارد.
+يحدد ما إذا كانت تحديثات المهام تُحدّث الموارد.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> TaskUpdatesResource;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.TaskUpdatesResource.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.TaskUpdatesResource, true);
+
+Console.WriteLine("Task Updates Resource: " + project.Get(Prj.TaskUpdatesResource));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

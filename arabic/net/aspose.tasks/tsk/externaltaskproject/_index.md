@@ -1,9 +1,9 @@
 ---
-title: Tsk.ExternalTaskProject
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. موقع المصدر ومعرف المهمة لمهمة خارجية.
+title: "Tsk.ExternalTaskProject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. موقع المصدر ومعرف المهمة لمهمة خارجية"
 type: docs
-weight: 380
+weight: 370
 url: /ar/net/aspose.tasks/tsk/externaltaskproject/
 ---
 ## Tsk.ExternalTaskProject field
@@ -14,12 +14,12 @@ url: /ar/net/aspose.tasks/tsk/externaltaskproject/
 public static readonly Key<string, TaskKey> ExternalTaskProject;
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,45 +1,45 @@
 ---
-title: Class VisualObjectPlacement
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.VisualObjectPlacement فصل. يمثل موضع ومظهرOleObject في العرض .
+title: "الفئة VisualObjectPlacement"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.Visualization.VisualObjectPlacement. تمثل موضع ومظهر OleObject في عرض."
 type: docs
-weight: 3120
+weight: 3480
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/
 ---
 ## VisualObjectPlacement class
 
-يمثل موضع ومظهر[`OleObject`](../../aspose.tasks/oleobject/) في العرض .
+تمثل موضع ومظهر [`OleObject`](../../aspose.tasks/oleobject/) في عرض.
 
 ```csharp
 public sealed class VisualObjectPlacement
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [VisualObjectPlacement](visualobjectplacement/)() | يقوم بتهيئة مثيل جديد لملف`VisualObjectPlacement` فئة . |
+| [VisualObjectPlacement](visualobjectplacement/)() | ينشئ مثيلًا جديدًا للفئة `VisualObjectPlacement`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint/) { get; set; } | الحصول على أو تعيين محاذاة الكائن المرئي بالنسبة إلى مهمة عند تحديد خيارات "إرفاق بالمهمة". |
-| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor/) { get; set; } | الحصول على لون خط الحدود أو تعيينه . |
-| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness/) { get; set; } | الحصول على سمك خط الحدود أو تعيينه (القيم المسموح بها هي 0-5) . |
-| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor/) { get; set; } | الحصول على لون التعبئة أو تعيينه. |
-| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern/) { get; set; } | الحصول على نمط التعبئة أو تعيينه. |
-| [Height](../../aspose.tasks.visualization/visualobjectplacement/height/) { get; set; } | الحصول على أو تعيين الارتفاع المعروض للكائن المرئي. |
-| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية للكائن المرئي. |
-| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid/) { get; set; } | يحصل أو يحدد معرف[`OleObject`](../../aspose.tasks/oleobject/) الكائن . |
-| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid/) { get; set; } | الحصول على معرف المهمة أو تعيينه إذا تم تحديد خيارات "إرفاق بالمهمة" ، -1 بخلاف ذلك. |
-| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate/) { get; set; } | الحصول على أو تعيين موضع التاريخ للعنصر المرئي عند تحديد خيارات "إرفاق بالمقياس الزمني". |
-| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset/) { get; set; } | الحصول على أو تعيين إزاحة رأسية للكائن المرئي. |
-| [Width](../../aspose.tasks.visualization/visualobjectplacement/width/) { get; set; } | الحصول على أو تعيين العرض المعروض للكائن المرئي. |
+| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint/) { get; set; } | يحصل أو يضبط محاذاة الكائن المرئي بالنسبة لمهمة عندما يتم اختيار خيار 'Attach to task'. |
+| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor/) { get; set; } | يحصل أو يضبط لون خط الحدود. |
+| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness/) { get; set; } | يحصل أو يضبط سمك خط الحدود (القيم المسموح بها هي 0 - 5). |
+| [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor/) { get; set; } | يحصل أو يضبط لون التعبئة. |
+| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern/) { get; set; } | يحصل أو يضبط نمط التعبئة. |
+| [Height](../../aspose.tasks.visualization/visualobjectplacement/height/) { get; set; } | يحصل أو يضبط الارتفاع المعروض للكائن المرئي. |
+| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset/) { get; set; } | يحصل أو يضبط الإزاحة الأفقية للكائن المرئي. |
+| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid/) { get; set; } | يحصل أو يضبط معرف الكائن [`OleObject`](../../aspose.tasks/oleobject/). |
+| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid/) { get; set; } | يحصل أو يضبط معرف المهمة إذا تم اختيار خيار 'Attach to task'، -1 خلاف ذلك. |
+| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate/) { get; set; } | يحصل أو يضبط تاريخ وضع الكائن المرئي عندما يتم اختيار خيار 'Attach to timescale'. |
+| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset/) { get; set; } | يحصل أو يضبط الإزاحة العمودية للكائن المرئي. |
+| [Width](../../aspose.tasks.visualization/visualobjectplacement/width/) { get; set; } | يحصل أو يضبط العرض المعروض للكائن المرئي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

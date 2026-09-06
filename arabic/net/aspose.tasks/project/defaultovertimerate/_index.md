@@ -1,23 +1,23 @@
 ---
-title: Project.DefaultOvertimeRate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة DefaultOvertimeRate .
+title: "Project.DefaultOvertimeRate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة DefaultOvertimeRate"
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/aspose.tasks/project/defaultovertimerate/
 ---
 ## Project.DefaultOvertimeRate property
 
-الحصول على أو تعيين قيمة DefaultOvertimeRate .
+يحصل أو يعيّن قيمة لـ DefaultOvertimeRate.
 
 ```csharp
 public double DefaultOvertimeRate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

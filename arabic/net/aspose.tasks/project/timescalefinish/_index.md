@@ -1,23 +1,23 @@
 ---
-title: Project.TimescaleFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة إنهاء مقياس الوقت . أو تعيينها
+title: "Project.TimescaleFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يعيّن قيمة TimescaleFinish"
 type: docs
-weight: 930
+weight: 960
 url: /ar/net/aspose.tasks/project/timescalefinish/
 ---
 ## Project.TimescaleFinish property
 
-الحصول على قيمة إنهاء مقياس الوقت . أو تعيينها
+يحصل أو يضبط قيمة TimescaleFinish.
 
 ```csharp
 public DateTime TimescaleFinish { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

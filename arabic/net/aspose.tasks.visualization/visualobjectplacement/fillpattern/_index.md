@@ -1,24 +1,24 @@
 ---
-title: VisualObjectPlacement.FillPattern
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على نمط التعبئة أو تعيينه.
+title: "VisualObjectPlacement.FillPattern"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن نمط التعبئة"
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/fillpattern/
 ---
 ## VisualObjectPlacement.FillPattern property
 
-الحصول على نمط التعبئة أو تعيينه.
+يحصل أو يضبط نمط التعبئة.
 
 ```csharp
 public FillPattern FillPattern { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FillPattern](../../fillpattern/)
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

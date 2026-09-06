@@ -1,7 +1,7 @@
 ---
-title: ProjectFileInfo.IsPasswordProtected
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectFileInfo ملكية. يحصل على قيمة تشير إلى ما إذا كان المشروع محميًا بكلمة مرور.
+title: "ProjectFileInfo.IsPasswordProtected"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ProjectFileInfo. تُعيد قيمة تُظهر ما إذا كان المشروع محميًا بكلمة مرور"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/projectfileinfo/ispasswordprotected/
@@ -14,10 +14,10 @@ url: /ar/net/aspose.tasks/projectfileinfo/ispasswordprotected/
 public bool IsPasswordProtected { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ProjectFileInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../projectfileinfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Project.Comments
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة التعليقات أو تعيينها .
+title: "Project.Comments"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. تحصل أو تعين قيمة Comments"
 type: docs
-weight: 140
+weight: 150
 url: /ar/net/aspose.tasks/project/comments/
 ---
 ## Project.Comments property
 
-الحصول على قيمة التعليقات أو تعيينها .
+يحصل أو يعيّن قيمة لـ Comments.
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

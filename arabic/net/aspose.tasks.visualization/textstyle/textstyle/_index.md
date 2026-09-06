@@ -1,87 +1,112 @@
 ---
-title: TextStyle.TextStyle
-second_title: Aspose.Tasks لمرجع .NET API
-description: TextStyle البناء. يقوم بتهيئة مثيل جديد لملفTextStyle فئة بالإعدادات الافتراضية.
+title: "TextStyle.TextStyle"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ TextStyle. يهيئ نسخة جديدة من فئة TextStyle بالإعدادات الافتراضية"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.visualization/textstyle/textstyle/
 ---
 ## TextStyle() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`TextStyle`](../) فئة بالإعدادات الافتراضية.
+يهيئ نسخة جديدة من الفئة [`TextStyle`](../) بالإعدادات الافتراضية.
 
 ```csharp
 public TextStyle()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تخصيص أنماط النص التي تُستخدم لتنسيق عناصر النص المختلفة في المشروع.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../textstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(float, FontStyles) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`TextStyle`](../) فئة مع الخط الافتراضي وحجم الخط ونمطه المحدد.
+يهيئ نسخة جديدة من الفئة [`TextStyle`](../) بالخط الافتراضي وحجم الخط المحدد والنمط المحدد.
 
 ```csharp
 public TextStyle(float fontSize, FontStyles fontStyle)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fontSize | Single | حجم خط TextStyle. |
-| fontStyle | FontStyles | نمط الخط TextStyle. |
+| fontSize | Single | حجم الخط لنمط TextStyle. |
+| fontStyle | FontStyles | نمط الخط لنمط TextStyle. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../textstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontStyles) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`TextStyle`](../) فئة مع الخط الافتراضي ونمط الخط المحدد.
+يهيئ نسخة جديدة من الفئة [`TextStyle`](../) بالخط الافتراضي والنمط المحدد للخط.
 
 ```csharp
 public TextStyle(FontStyles fontStyle)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fontStyle | FontStyles | نمط الخط المراد تطبيقه على الخط الافتراضي. |
+| fontStyle | FontStyles | نمط الخط لتطبيقه على الخط الافتراضي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../textstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontDescriptor) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`TextStyle`](../) فئة مع إعدادات الخط المحددة.
+يهيئ نسخة جديدة من الفئة [`TextStyle`](../) بالإعدادات المحددة للخط.
 
 ```csharp
 public TextStyle(FontDescriptor font)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
 | font | FontDescriptor | خط TextStyle. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontDescriptor](../../fontdescriptor/)
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../textstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

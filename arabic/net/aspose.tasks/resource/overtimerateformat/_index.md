@@ -1,24 +1,24 @@
 ---
-title: Resource.OvertimeRateFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة تنسيق OvertimeRateFormat .
+title: "Resource.OvertimeRateFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل على أو يحدد قيمة OvertimeRateFormat"
 type: docs
-weight: 590
+weight: 580
 url: /ar/net/aspose.tasks/resource/overtimerateformat/
 ---
 ## Resource.OvertimeRateFormat property
 
-الحصول على أو تعيين قيمة تنسيق OvertimeRateFormat .
+يحصل أو يعيّن قيمة لـ OvertimeRateFormat.
 
 ```csharp
 public RateFormatType OvertimeRateFormat { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [RateFormatType](../../rateformattype/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

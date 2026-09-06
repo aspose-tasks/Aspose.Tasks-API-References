@@ -1,25 +1,43 @@
 ---
-title: Asn.LinkedFields
-second_title: Aspose.Tasks لمرجع .NET API
-description: Asn مجال. تحديد ما إذا كان المشروع مرتبطًا بكائن OLE آخر.
+title: "Asn.LinkedFields"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Asn. يحدد ما إذا كان المشروع مرتبطًا بكائن OLE آخر"
 type: docs
-weight: 330
+weight: 320
 url: /ar/net/aspose.tasks/asn/linkedfields/
 ---
 ## Asn.LinkedFields field
 
-تحديد ما إذا كان المشروع مرتبطًا بكائن OLE آخر.
+يحدد ما إذا كان المشروع مرتبطًا بكائن OLE آخر.
 
 ```csharp
 public static readonly Key<bool, AsnKey> LinkedFields;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة خاصية Asn.LinkedFields.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+Console.WriteLine("Linked Fields: " + assignment.Get(Asn.LinkedFields));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* مساحة الاسم [Aspose.Tasks](../../asn/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

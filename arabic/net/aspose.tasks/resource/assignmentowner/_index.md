@@ -1,23 +1,23 @@
 ---
-title: Resource.AssignmentOwner
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة لمالك التعيين.
+title: "Resource.AssignmentOwner"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة AssignmentOwner"
 type: docs
 weight: 100
 url: /ar/net/aspose.tasks/resource/assignmentowner/
 ---
 ## Resource.AssignmentOwner property
 
-الحصول على أو تعيين قيمة لمالك التعيين.
+يحصل أو يعيّن قيمة AssignmentOwner.
 
 ```csharp
 public string AssignmentOwner { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

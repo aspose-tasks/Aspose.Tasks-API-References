@@ -1,29 +1,41 @@
 ---
-title: Prj.CreationDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تاريخ ووقت إنشاء المشروع .
+title: "Prj.CreationDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. التاريخ والوقت الذي تم فيه إنشاء المشروع"
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.tasks/prj/creationdate/
 ---
 ## Prj.CreationDate field
 
-تاريخ ووقت إنشاء المشروع .
+التاريخ والوقت الذي تم إنشاء المشروع فيه.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> CreationDate;
 ```
 
-### ملاحظات
+## ملاحظات
 
-تم الحفظ بتنسيق UTC في ملفات mpp . DateTime اكتب .
+محفوظ بتنسيق UTC في ملفات mpp. نوع DateTime.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Prj.CreationDate.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CreationDate, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Creation Date: " + project.Get(Prj.CreationDate));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

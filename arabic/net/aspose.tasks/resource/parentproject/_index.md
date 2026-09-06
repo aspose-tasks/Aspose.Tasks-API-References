@@ -1,24 +1,38 @@
 ---
-title: Resource.ParentProject
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على المشروع الرئيسي لهذه الحاوية .
+title: "Resource.ParentProject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل على المشروع الأب لهذه الحاوية"
 type: docs
-weight: 610
+weight: 600
 url: /ar/net/aspose.tasks/resource/parentproject/
 ---
 ## Resource.ParentProject property
 
-الحصول على المشروع الرئيسي لهذه الحاوية .
+يحصل على المشروع الأب لهذه الحاوية.
 
 ```csharp
 public Project ParentProject { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية استخدام المشروع الأب للموارد.
+
+```csharp
+var project = new Project();
+var resource = project.Resources.Add("Resource");
+
+// تعيين عمل للمورد باستخدام نوع وحدة زمنية للعمل في المشروع الافتراضي.
+resource.Set(Rsc.Work, resource.ParentProject.GetWork(1));
+
+Console.WriteLine(resource.Get(Rsc.Work));
+```
+
+### انظر أيضًا
 
 * class [Project](../../project/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

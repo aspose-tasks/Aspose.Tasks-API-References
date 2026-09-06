@@ -1,14 +1,14 @@
 ---
-title: Class CalendarCollection
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.CalendarCollection فصل. يمثل مجموعة منCalendar الكائنات .
+title: "الفئة CalendarCollection"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.CalendarCollection. تمثل مجموعة من كائنات Calendar."
 type: docs
 weight: 240
 url: /ar/net/aspose.tasks/calendarcollection/
 ---
 ## CalendarCollection class
 
-يمثل مجموعة من[`Calendar`](../calendar/) الكائنات .
+تمثل مجموعة من [`Calendar`](../calendar/) كائنات.
 
 ```csharp
 public class CalendarCollection : IList<Calendar>
@@ -16,26 +16,44 @@ public class CalendarCollection : IList<Calendar>
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.tasks/calendarcollection/count/) { get; } | الحصول على عدد العناصر الموجودة في هذا`CalendarCollection` الكائن . |
+| [Count](../../aspose.tasks/calendarcollection/count/) { get; } | يحصل على عدد الكائنات الموجودة في كائن `CalendarCollection` هذا. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | [Add](../../aspose.tasks/calendarcollection/add/#add)(string) | يضيف تقويمًا أساسيًا جديدًا إلى كائن CalendarCollection هذا ويعيد التقويم المضاف. |
-| [Add](../../aspose.tasks/calendarcollection/add/#add_1)(string, Calendar) | يضيف تقويمًا جديدًا بتقويم أساسي محدد إلى كائن CalendarCollection هذا ويعيد التقويم المضاف. |
-| [GetByName](../../aspose.tasks/calendarcollection/getbyname/)(string) | إرجاع تقويم بالاسم المحدد. |
-| [GetByUid](../../aspose.tasks/calendarcollection/getbyuid/)(int) | إرجاع تقويم برقم UID المحدد. |
-| [GetEnumerator](../../aspose.tasks/calendarcollection/getenumerator/)() | إرجاع عداد لهذه المجموعة. |
-| [Remove](../../aspose.tasks/calendarcollection/remove/)(Calendar) | يزيل التقويم من Project CalendarCollection. |
-| [ToList](../../aspose.tasks/calendarcollection/tolist/)() | تحويل كائن CalendarCollection إلى قائمة[`Calendar`](../calendar/) الكائنات . |
+| [Add](../../aspose.tasks/calendarcollection/add/#add_1)(string, Calendar) | يضيف تقويمًا جديدًا مع تقويم أساسي محدد إلى كائن CalendarCollection هذا ويعيد التقويم المضاف. |
+| [GetByName](../../aspose.tasks/calendarcollection/getbyname/)(string) | يعيد تقويمًا بالاسم المحدد. |
+| [GetByUid](../../aspose.tasks/calendarcollection/getbyuid/)(int) | يعيد تقويمًا بالمعرف UID المحدد. |
+| [GetEnumerator](../../aspose.tasks/calendarcollection/getenumerator/)() | يرجع عدادًا لهذه المجموعة. |
+| [Remove](../../aspose.tasks/calendarcollection/remove/)(Calendar) | يزيل Calendar من مجموعة CalendarCollection الخاصة بالمشروع. |
+| [ToList](../../aspose.tasks/calendarcollection/tolist/)() | تحول كائن CalendarCollection إلى قائمة من كائنات [`Calendar`](../calendar/). |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية إضافة تقويمات جديدة.
+
+```csharp
+var project = new Project();
+
+// يمكن إضافة تقويمات جديدة إلى مجموعة تقويمات المشروع باستخدام التحميلات الزائدة للدالة Add في المجموعة.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+### انظر أيضًا
 
 * class [Calendar](../calendar/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

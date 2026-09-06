@@ -1,24 +1,71 @@
 ---
-title: ResourceCollection.ParentProject
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceCollection ملكية. الحصول على المشروع الأصلي لكائن ResourceCollection.
+title: "ResourceCollection.ParentProject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceCollection. تحصل على المشروع الأب لكائن ResourceCollection"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/resourcecollection/parentproject/
 ---
 ## ResourceCollection.ParentProject property
 
-الحصول على المشروع الأصلي لكائن ResourceCollection.
+يحصل على المشروع الأب لكائن ResourceCollection.
 
 ```csharp
 public Project ParentProject { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع مجموعات الموارد.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// إضافة مورد فارغ
+var resource = project.Resources.Add();
+resource.Set(Rsc.Type, ResourceType.Work);
+
+// إضافة مورد باسم
+var developer = project.Resources.Add("Developer");
+developer.Set(Rsc.Type, ResourceType.Work);
+
+// إضافة مورد قبل المورد بالمعرف المحدد
+var manager = project.Resources.Add("Manager", developer.Get(Rsc.Id));
+manager.Set(Rsc.Type, ResourceType.Work);
+
+var devResource = project.Resources.GetById(4);
+devResource.Set(Rsc.Code, "12345");
+
+var manResource = project.Resources.GetByUid(4);
+manResource.Set(Rsc.Code, "54321");
+
+// الحصول على مورد بالمعرف
+project.Resources.GetById(1);
+
+Console.WriteLine("Print the resources of " + project.Resources.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Count of resources: " + project.Resources.Count);
+foreach (var rsc in project.Resources)
+{
+    Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
+}
+
+Console.WriteLine();
+
+// مجموعات الموارد لا تدعم عملية Clear
+// project.Resources.Clear();
+// استخدم عينة الكود التالية بدلاً من ذلك
+List<Resource> list = project.Resources.ToList();
+foreach (var rsc in list)
+{
+    rsc.Delete();
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../../project/)
 * class [ResourceCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../resourcecollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

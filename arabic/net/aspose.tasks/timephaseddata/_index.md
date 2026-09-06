@@ -1,50 +1,141 @@
 ---
-title: Class TimephasedData
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.TimephasedData فصل. يمثل بيانات زمنية على مراحل.
+title: "الفئة TimephasedData"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.TimephasedData. تمثل بيانات زمنية مرحلية"
 type: docs
-weight: 2280
+weight: 2590
 url: /ar/net/aspose.tasks/timephaseddata/
 ---
 ## TimephasedData class
 
-يمثل بيانات زمنية على مراحل.
+يمثّل بيانات زمنية مرحلية.
 
 ```csharp
 public class TimephasedData
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TimephasedData](timephaseddata/)() | يقوم بتهيئة مثيل جديد لملف`TimephasedData` فئة . |
+| [TimephasedData](timephaseddata/)() | يُهيئ مثيلاً جديداً من الفئة `TimephasedData`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Finish](../../aspose.tasks/timephaseddata/finish/) { get; set; } | الحصول على أو تعيين تاريخ الانتهاء لفترة بيانات زمنية مقسمة إلى مراحل . |
-| [Start](../../aspose.tasks/timephaseddata/start/) { get; set; } | الحصول على أو تحديد تاريخ البدء لفترة بيانات زمنية على مراحل. |
-| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype/) { get; set; } | الحصول على أو تعيين نوع البيانات الزمنية على مراحل. |
-| [Uid](../../aspose.tasks/timephaseddata/uid/) { get; set; } | الحصول على أو تعيين المعرف الفريد لبيانات مرحلية زمنية |
-| [Unit](../../aspose.tasks/timephaseddata/unit/) { get; set; } | الحصول على أو تعيين الوحدة الزمنية لفترة بيانات زمنية على مراحل. |
-| [Value](../../aspose.tasks/timephaseddata/value/) { get; set; } | الحصول على أو تعيين القيمة لكل وحدة زمنية لفترة بيانات زمنية على مراحل. |
-| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost/) { get; } | يحصلDouble المثال الذي يمثل قيمة السلسلة لهذا الكائن. |
-| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration/) { get; } | يحصلTimeSpan المثال الذي يمثل قيمة السلسلة لهذا الكائن. |
-| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits/) { get; } | يحصلDouble المثيل الذي يمثل قيمة سلسلة لهذا الكائن لبيانات مرحلية تعتمد على الوقت. |
+| [Finish](../../aspose.tasks/timephaseddata/finish/) { get; set; } | يحصل أو يحدد تاريخ الانتهاء لفترة البيانات الزمنية المرحلية. |
+| [Start](../../aspose.tasks/timephaseddata/start/) { get; set; } | يحصل أو يحدد تاريخ البدء لفترة البيانات الزمنية المرحلية. |
+| [TimephasedDataType](../../aspose.tasks/timephaseddata/timephaseddatatype/) { get; set; } | يحصل أو يحدد نوع البيانات الزمنية المرحلية. |
+| [Uid](../../aspose.tasks/timephaseddata/uid/) { get; set; } | يحصل أو يحدد المعرف الفريد للبيانات الزمنية المرحلية |
+| [Unit](../../aspose.tasks/timephaseddata/unit/) { get; set; } | يحصل أو يحدد وحدة الوقت لفترة البيانات الزمنية المرحلية. |
+| [Value](../../aspose.tasks/timephaseddata/value/) { get; set; } | يحصل أو يحدد القيمة لكل وحدة زمنية لفترة البيانات الزمنية المرحلية. |
+| [ValueToCost](../../aspose.tasks/timephaseddata/valuetocost/) { get; set; } | يحصل على مثيل Double الذي يمثل القيمة النصية لهذا الكائن. |
+| [ValueToDuration](../../aspose.tasks/timephaseddata/valuetoduration/) { get; } | يحصل على مثيل TimeSpan الذي يمثل القيمة النصية لهذا الكائن. |
+| [ValueToUnits](../../aspose.tasks/timephaseddata/valuetounits/) { get; } | يحصل على مثيل Double الذي يمثل القيمة النصية لهذا الكائن للبيانات الزمنية المرحلية المستندة إلى الوحدة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased/)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | إنشاء مثيل جديد لملف`TimephasedData` فئة للبيانات الزمنية على مراحل على أساس التكلفة. |
-| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased/)(int, DateTime, DateTime, double, TimephasedDataType) | إنشاء مثيل جديد لملف`TimephasedData` فئة للبيانات على مراحل زمنية على أساس الوحدة لتعيين مورد مادي. |
-| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased/)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | إنشاء مثيل جديد لملف`TimephasedData` فئة للبيانات على مراحل الوقت المستندة إلى العمل . |
+| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased/#createcosttimephased)(int, DateTime, DateTime, double, TimephasedDataType) | ينشئ ويُهيئ مثيلاً جديداً من الفئة `TimephasedData` للبيانات الزمنية المرحلية القائمة على التكلفة. |
+| static [CreateCostTimephased](../../aspose.tasks/timephaseddata/createcosttimephased/#createcosttimephased_1)(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) | ينشئ ويُهيئ مثيلاً جديداً من الفئة `TimephasedData` للبيانات الزمنية المرحلية القائمة على التكلفة. |
+| static [CreateUnitTimephased](../../aspose.tasks/timephaseddata/createunittimephased/)(int, DateTime, DateTime, double, TimephasedDataType) | ينشئ ويُهيئ مثيلاً جديداً من الفئة `TimephasedData` للبيانات الزمنية المرحلية المستندة إلى الوحدة لتعيين مورد مادي. |
+| static [CreateWorkTimephased](../../aspose.tasks/timephaseddata/createworktimephased/)(int, DateTime, DateTime, TimeSpan, TimeUnitType, TimephasedDataType) | ينشئ ويُهيئ نسخة جديدة من الفئة `TimephasedData` لبيانات الوقت المرحلية المستندة إلى العمل. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية العمل مع بيانات زمنية مخصصة.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp") { CalculationMode = CalculationMode.None };
+
+var workResource = project.Resources.Add("Work Resource");
+workResource.Set(Rsc.Type, ResourceType.Work);
+var costResource = project.Resources.Add("Cost Resource");
+costResource.Set(Rsc.Type, ResourceType.Cost);
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2018, 1, 1, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+var workAssignment = project.ResourceAssignments.Add(task, workResource);
+workAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+var costAssignment = project.ResourceAssignments.Add(task, costResource);
+costAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+// دعنا نضيف بيانات زمنية مخصصة tds
+workAssignment.TimephasedData.Clear();
+
+// أضف أيام العمل
+var td1 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    TimeSpan.FromHours(40),
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+// أضف عطلة نهاية الأسبوع
+var td2 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    TimeSpan.Zero,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+workAssignment.TimephasedData.Add(td1);
+workAssignment.TimephasedData.Add(td2);
+
+costAssignment.TimephasedData.Clear();
+
+// أضف أيام العمل
+var td11 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    1,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+// أضف عطلة نهاية الأسبوع
+var td22 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    0,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+costAssignment.TimephasedData.Add(td11);
+costAssignment.TimephasedData.Add(td22);
+
+Console.WriteLine("Print assignment timephased data:");
+foreach (var assignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+    foreach (var tds in assignment.TimephasedData)
+    {
+        Console.WriteLine("  Uid: " + tds.Uid);
+        Console.WriteLine("  Start: " + tds.Start);
+        Console.WriteLine("  Finish: " + tds.Finish);
+        Console.WriteLine("  Type: " + tds.TimephasedDataType);
+        Console.WriteLine("  Unit: " + tds.Unit);
+        Console.WriteLine("  Value: " + tds.Value);
+        Console.WriteLine("  ValueToCost: " + tds.ValueToCost);
+        Console.WriteLine("  ValueToDuration: " + tds.ValueToDuration);
+        Console.WriteLine("  ValueToUnits: " + tds.ValueToUnits);
+        Console.WriteLine();
+    }
+}
+
+project.Recalculate();
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

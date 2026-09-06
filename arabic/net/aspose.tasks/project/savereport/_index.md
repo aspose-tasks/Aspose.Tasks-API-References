@@ -1,91 +1,139 @@
 ---
-title: Project.SaveReport
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. يحفظ تقرير النظرة العامة على المشروع في الدفق.
+title: "Project.SaveReport"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تحفظ تقرير نظرة المشروع إلى التدفق."
 type: docs
-weight: 1200
+weight: 1220
 url: /ar/net/aspose.tasks/project/savereport/
 ---
 ## SaveReport(Stream) {#savereport}
 
-يحفظ تقرير النظرة العامة على المشروع في الدفق.
+يحفظ تقرير نظرة عامة على المشروع إلى الدفق.
 
 ```csharp
 public void SaveReport(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق لحفظ تقرير المشروع فيه. |
+| دفق | دفق | التدفق لحفظ تقرير المشروع إليه. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية حفظ تقرير نظرة المشروع إلى ملف PDF.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// احفظ تقرير النظرة إلى ملف PDF إلى التدفق المحدد.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream);
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string) {#savereport_2}
 
-يحفظ تقرير النظرة العامة على المشروع في ملف PDF .
+يحفظ تقرير نظرة عامة على المشروع إلى ملف PDF.
 
 ```csharp
 public void SaveReport(string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف. |
+| fileName | سلسلة | اسم الملف. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية حفظ تقرير نظرة المشروع إلى ملف PDF داخل تدفق.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// يمكن حفظ تقرير النظرة إلى ملف PDF إلى المسار المحدد
+project.SaveReport(OutDir + "SaveProjectOverviewReport_out.pdf");
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(Stream, ReportType) {#savereport_1}
 
-يحفظ تقرير المشروع من النوع المحدد في الدفق المحدد.
+يحفظ تقرير المشروع من النوع المحدد إلى الدفق المحدد.
 
 ```csharp
 public void SaveReport(Stream stream, ReportType reportType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق المحدد لحفظ تقرير المشروع فيه. |
+| دفق | دفق | التدفق المحدد لحفظ تقرير المشروع إليه. |
 | reportType | ReportType | نوع التقرير المحدد.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية حفظ تقرير المشروع إلى ملف PDF لنوع تقرير محدد.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// احفظ تقرير النظرة إلى ملف PDF إلى التدفق المحدد.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### انظر أيضًا
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string, ReportType) {#savereport_3}
 
-يحفظ تقرير المشروع من النوع المحدد بتنسيق PDF في مسار الملف المحدد.
+يحفظ تقرير المشروع من النوع المحدد بصيغة PDF إلى مسار الملف المحدد.
 
 ```csharp
 public void SaveReport(string fileName, ReportType reportType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف المحدد. |
+| fileName | سلسلة | اسم الملف المحدد. |
 | reportType | ReportType | نوع التقرير المحدد.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية حفظ تقرير مشروع المشروع بتنسيق PDF.
+
+```csharp
+var project = new Project(DataDir + "OzBuild 16 Orig.mpp");
+project.SaveReport(OutDir + "CostOverview_out.pdf", ReportType.CostOverview);
+```
+
+### انظر أيضًا
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

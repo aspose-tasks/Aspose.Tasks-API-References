@@ -1,25 +1,46 @@
 ---
-title: Tsk.RemainingCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. المصاريف المجدولة المتبقية التي سيتم تكبدها لإكمال العمل المجدول المتبقي.
+title: "Tsk.RemainingCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. المصروف المجدول المتبقي الذي سيتكبد عند إكمال العمل المجدول المتبقي"
 type: docs
-weight: 970
+weight: 950
 url: /ar/net/aspose.tasks/tsk/remainingcost/
 ---
 ## Tsk.RemainingCost field
 
-المصاريف المجدولة المتبقية التي سيتم تكبدها لإكمال العمل المجدول المتبقي.
+النفقات المجدولة المتبقية التي ستُتحمل عند إكمال العمل المجدول المتبقي.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> RemainingCost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة تكاليف المهمة.
+
+```csharp
+var project = new Project();
+
+// إضافة مهمة وتعيين التكلفة
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Cost, 800);
+
+// عرض الخصائص المتعلقة بالتكلفة للمهمة
+Console.WriteLine(task.Get(Tsk.RemainingCost));
+Console.WriteLine(task.Get(Tsk.FixedCost));
+Console.WriteLine(task.Get(Tsk.CostVariance));
+Console.WriteLine(project.RootTask.Get(Tsk.Cost));
+Console.WriteLine(project.RootTask.Get(Tsk.FixedCost));
+Console.WriteLine(project.RootTask.Get(Tsk.RemainingCost));
+Console.WriteLine(project.RootTask.Get(Tsk.CostVariance));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

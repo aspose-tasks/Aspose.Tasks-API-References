@@ -1,37 +1,55 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.LoadOptions فصل. يسمح بتحديد معلمات تحميل إضافية عند تحميل مشروع من ملف أو دفق.
+title: "الفئة LoadOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.LoadOptions. تسمح بتحديد معلمات تحميل إضافية عند تحميل مشروع من ملف أو تدفق."
 type: docs
-weight: 870
+weight: 990
 url: /ar/net/aspose.tasks/loadoptions/
 ---
 ## LoadOptions class
 
-يسمح بتحديد معلمات تحميل إضافية عند تحميل مشروع من ملف أو دفق.
+يسمح بتحديد معلمات تحميل إضافية عند تحميل مشروع من ملف أو تدفق.
 
 ```csharp
 public class LoadOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [LoadOptions](loadoptions/)() | يقوم بتهيئة مثيل جديد لملف`LoadOptions` فئة . |
+| [LoadOptions](loadoptions/)() | ينشئ مثيلًا جديدًا من الفئة `LoadOptions`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CancellationToken](../../aspose.tasks/loadoptions/cancellationtoken/) { get; set; } | الحصول على أو تعيين رمز مميز يمكن استخدامه لإلغاء عملية تحميل المشروع. |
-| [ErrorHandler](../../aspose.tasks/loadoptions/errorhandler/) { get; set; } | الحصول على أو تعيين طريقة رد لمعالجة أخطاء تحليل xml . |
-| [Password](../../aspose.tasks/loadoptions/password/) { get; set; } | الحصول على أو تعيين كلمة مرور للحماية . |
-| [PrimaveraReadOptions](../../aspose.tasks/loadoptions/primaverareadoptions/) { get; set; } | الحصول على أو تعيين مثيل محدد لملف[`PrimaveraReadOptions`](../primaverareadoptions/) فئة يمكن استخدامها لتخصيص سلوك تحميل تنسيقات Primavera (Primavera P6 XER أو Primavera P6 Xml) . |
+| [CancellationToken](../../aspose.tasks/loadoptions/cancellationtoken/) { get; set; } | يحصل أو يعيّن رمزًا يمكن استخدامه لإلغاء عملية تحميل المشروع. |
+| [Encoding](../../aspose.tasks/loadoptions/encoding/) { get; set; } | يحصل أو يعيّن الترميز المستخدم لقراءة مشروع من صيغ HTML، MPX، XER وPrimavera XML. الترميز الافتراضي هو UTF8. |
+| [ErrorHandler](../../aspose.tasks/loadoptions/errorhandler/) { get; set; } | يحصل أو يعيّن طريقة رد نداء للتعامل مع أخطاء تحليل XML. |
+| [Password](../../aspose.tasks/loadoptions/password/) { get; set; } | يحصل أو يعيّن كلمة مرور الحماية. |
+| [PrimaveraReadOptions](../../aspose.tasks/loadoptions/primaverareadoptions/) { get; set; } | يحصل أو يعيّن مثيلًا محددًا من الفئة [`PrimaveraReadOptions`](../primaverareadoptions/) الذي يمكن استخدامه لتخصيص سلوك تحميل صيغ Primavera (Primavera P6 XER أو Primavera P6 Xml). |
+| [ProjectLoadingCallback](../../aspose.tasks/loadoptions/projectloadingcallback/) { get; set; } | يحصل أو يعيّن رد النداء الذي يتم استدعاؤه أثناء عمليات تحميل المشروع. مدعوم حاليًا لصيغ MPP و XER. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية تحميل المشروع المحمي بكلمة مرور باستخدام &lt;see cref=\"Aspose.Tasks.LoadOptions\"/&gt;.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

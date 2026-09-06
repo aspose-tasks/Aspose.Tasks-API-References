@@ -1,86 +1,117 @@
 ---
-title: Project.GetDuration
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. يحصلDuration مع العدد المحدد من الوحدات وتنسيق المدة الافتراضي المحدد في إعدادات المشروعDurationFormat .
+title: "Project.GetDuration"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تحصل على كائن Duration مع العدد المحدد من الوحدات وتنسيق المدة الافتراضي المحدد في إعدادات المشروع DurationFormat"
 type: docs
-weight: 1070
+weight: 1100
 url: /ar/net/aspose.tasks/project/getduration/
 ---
 ## GetDuration(double) {#getduration}
 
-يحصل[`Duration`](../../duration/) مع العدد المحدد من الوحدات وتنسيق المدة الافتراضي المحدد في إعدادات المشروع[`DurationFormat`](../../prj/durationformat/) .
+تحصل على كائن [`Duration`](../../duration/) مع العدد المحدد من الوحدات وتنسيق المدة الافتراضي المحدد في إعدادات المشروع [`DurationFormat`](../../prj/durationformat/).
 
 ```csharp
 public Duration GetDuration(double val)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| val | Double | عدد محدد من الوحدات. |
+| القيمة | Double | عدد الوحدات المحدد. |
 
 ### قيمة الإرجاع
 
-كائن المدة.
+كائن Duration.
 
-### أنظر أيضا
+## ملاحظات
+
+يجب استخدام هذه الطريقة بحذر لأنها تُعيد مددًا مختلفة اعتمادًا على إعداد Project.DurationFormat. على سبيل المثال، GetWork(1.0) سيعيد 1 ساعة عندما يكون Project.DurationFormat هو TimeUnitType.Hour أو 1 يوم إذا كان Project.DurationFormat هو TimeUnitType.Day.
+
+## الأمثلة
+
+يظهر كيفية إنشاء نسخة &lt;see cref=\"Aspose.Tasks.Duration\" /&gt; باستخدام تنسيق مدة المشروع الافتراضي عبر طرق نسيج المشروع.
+
+```csharp
+var project = new Project();
+
+// احصل على مدة بتنسيق المشروع الافتراضي.
+var duration = project.GetDuration(1);
+
+Console.WriteLine("Default project duration time unit type: " + project.Get(Prj.DurationFormat));
+Console.WriteLine("Created duration time unit type: " + duration.TimeUnit);
+```
+
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetDuration(double, TimeUnitType) {#getduration_1}
 
-يحصل[`Duration`](../../duration/) بالرقم المحدد من[`TimeUnitType`](../../timeunittype/) الوحدات .
+تحصل على كائن [`Duration`](../../duration/) مع العدد المحدد من وحدات [`TimeUnitType`](../../timeunittype/).
 
 ```csharp
 public Duration GetDuration(double val, TimeUnitType timeUnit)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| val | Double | عدد محدد من الوحدات. |
+| القيمة | Double | عدد الوحدات المحدد. |
 | timeUnit | TimeUnitType | قيمة TimeUnitType المحددة. |
 
 ### قيمة الإرجاع
 
-كائن المدة.
+كائن Duration.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية إنشاء نسخة &lt;see cref=\"Aspose.Tasks.Duration\" /&gt; باستخدام طرق نسيج المشروع.
+
+```csharp
+var project = new Project();
+
+// احصل على مدة بتنسيق المشروع الافتراضي.
+var duration = project.GetDuration(1, TimeUnitType.Minute);
+
+Console.WriteLine("Created duration: " + duration);
+```
+
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetDuration(TimeSpan, TimeUnitType) {#getduration_2}
 
-يحصل[`Duration`](../../duration/) كائن مع المحددTimeSpan القيمة والمحددة[`TimeUnitType`](../../timeunittype/) القيمة .
+تحصل على كائن [`Duration`](../../duration/) مع قيمة TimeSpan المحددة وقيمة [`TimeUnitType`](../../timeunittype/) المحددة.
 
 ```csharp
 public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| timeSpan | TimeSpan | محددTimeSpan قيمة. |
+| timeSpan | TimeSpan | قيمة TimeSpan المحددة. |
 | timeUnit | TimeUnitType | قيمة TimeUnitType المحددة. |
 
 ### قيمة الإرجاع
 
-كائن المدة.
+كائن Duration.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,55 +1,93 @@
 ---
-title: Task.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي مهمة محددة.
+title: "Task.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Task. تُرجع قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لمهمة محددة"
 type: docs
 weight: 1330
 url: /ar/net/aspose.tasks/task/equals/
 ---
 ## Equals(Task) {#equals}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي مهمة محددة.
+يرجع قيمة تشير إلى ما إذا كانت هذه النسخة مساوية لمهمة محددة.
 
 ```csharp
 public bool Equals(Task other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| other | Task | المهمة المحددة للمقارنة مع هذا المثال. |
+| آخر | مهمة | المهمة المحددة للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-يعود صحيحًا إذا كانت المهمة المحددة وهذا المثيل لهما معرفات فريدة متساوية.
+تُرجع true إذا كانت المهمة المحددة وهذه المثيلة لها معرّفات فريدة متساوية.
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية التكرار على تعيينات المهمة.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // عرض تعيينات المهمة
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المحدد للمقارنة مع هذا المثال. |
+| obj | كائن | الكائن المحدد للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-يعود صحيحًا إذا كانت المهمة المحددة وهذا المثيل لهما معرفات فريدة متساوية.
+تُرجع true إذا كانت المهمة المحددة وهذه المثيلة لها معرّفات فريدة متساوية.
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية التكرار على تعيينات المهمة.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // عرض تعيينات المهمة
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

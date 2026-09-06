@@ -1,9 +1,9 @@
 ---
-title: Class FontDescriptor
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.FontDescriptor فصل. يمثل معلومات الخط.
+title: "فئة FontDescriptor"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.Visualization.FontDescriptor. تمثل معلومات الخط"
 type: docs
-weight: 2680
+weight: 3010
 url: /ar/net/aspose.tasks.visualization/fontdescriptor/
 ---
 ## FontDescriptor class
@@ -14,25 +14,25 @@ url: /ar/net/aspose.tasks.visualization/fontdescriptor/
 public sealed class FontDescriptor
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | يقوم بتهيئة مثيل جديد لملف`FontDescriptor` فئة مع الخط والنمط المحددين. |
-| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | يقوم بتهيئة مثيل جديد لملف`FontDescriptor` فئة مع عائلة وحجم الخط المحددين. |
-| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | يقوم بتهيئة مثيل جديد لملف`FontDescriptor` فئة مع عائلة الخط والحجم والنمط المحدد. |
+| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | ينشئ مثيلًا جديدًا من الفئة `FontDescriptor` بالخط المحدد والنمط. |
+| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | ينشئ مثيلًا جديدًا من الفئة `FontDescriptor` بعائلة الخط المحددة والحجم. |
+| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | ينشئ مثيلًا جديدًا من الفئة `FontDescriptor` بعائلة الخط المحددة، الحجم والنمط. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | الحصول على اسم عائلة الخط. |
+| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | يحصل على اسم عائلة الخط. |
 | [Size](../../aspose.tasks.visualization/fontdescriptor/size/) { get; } | يحصل على حجم الخط. |
 | [Style](../../aspose.tasks.visualization/fontdescriptor/style/) { get; } | يحصل على نمط الخط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

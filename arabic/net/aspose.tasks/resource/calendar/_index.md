@@ -1,24 +1,24 @@
 ---
-title: Resource.Calendar
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة التقويم .
+title: "Resource.Calendar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يضبط قيمة Calendar"
 type: docs
 weight: 220
 url: /ar/net/aspose.tasks/resource/calendar/
 ---
 ## Resource.Calendar property
 
-الحصول على أو تعيين قيمة التقويم .
+يحصل أو يعيّن قيمة Calendar.
 
 ```csharp
 public Calendar Calendar { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Calendar](../../calendar/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

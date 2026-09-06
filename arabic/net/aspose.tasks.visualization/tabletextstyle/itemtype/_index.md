@@ -1,24 +1,58 @@
 ---
-title: TableTextStyle.ItemType
-second_title: Aspose.Tasks لمرجع .NET API
-description: TableTextStyle ملكية. إرجاع قيمةTextItemType تعداد .
+title: "TableTextStyle.ItemType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية TableTextStyle. إرجاع قيمة من تعداد TextItemType"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks.visualization/tabletextstyle/itemtype/
 ---
 ## TableTextStyle.ItemType property
 
-إرجاع قيمة[`TextItemType`](../../textitemtype/) تعداد .
+إرجاع قيمة من تعداد [`TextItemType`](../../textitemtype/).
 
 ```csharp
 public override TextItemType ItemType { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تخصيص أنماط نص الجدول التي تُستخدم لتنسيق عناصر نصية مختلفة في المشروع.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.NewTasksAreManual, false);
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// تعيين نمط نص اسم المهمة الأولى
+var style1 = new TableTextStyle(1);
+// تعيين حقل سيتم تطبيق النمط عليه.
+style1.Field = Field.TaskName;
+// تعيين <see cref=\"P:Aspose.Tasks.Visualization.TextStyle.Font\" /> لنمط النص.
+style1.Font = new FontDescriptor("Impact", 12F, FontStyles.Bold | FontStyles.Italic);
+// تعيين الحجم بالنقاط لخط نمط النص.
+
+// تعيين نمط نص مدة المهمة الثانية
+var style2 = new TableTextStyle(2);
+style2.Field = Field.TaskDurationText;
+style2.Font = new FontDescriptor("Impact", 16F, FontStyles.Underline);
+
+view.TableTextStyles.Add(style1);
+view.TableTextStyles.Add(style2);
+
+SimpleSaveOptions options = new MPPSaveOptions
+{
+    // تعيين علامة تشير إلى أنه يجب كتابة بيانات العرض
+    WriteViewData = true
+};
+project.Save(OutDir + "WorkWithTableTextStyle_out.mpp", options);
+```
+
+### انظر أيضًا
 
 * enum [TextItemType](../../textitemtype/)
 * class [TableTextStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../tabletextstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../tabletextstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

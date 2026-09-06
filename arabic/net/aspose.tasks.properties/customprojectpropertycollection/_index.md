@@ -1,52 +1,98 @@
 ---
-title: Class CustomProjectPropertyCollection
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Properties.CustomProjectPropertyCollection فصل. يمثل مجموعة من خصائص المشروع المخصصة.
+title: "الفئة CustomProjectPropertyCollection"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.Properties.CustomProjectPropertyCollection. تمثّل مجموعة من الخصائص المخصصة للمشروع"
 type: docs
-weight: 1300
+weight: 1550
 url: /ar/net/aspose.tasks.properties/customprojectpropertycollection/
 ---
 ## CustomProjectPropertyCollection class
 
-يمثل مجموعة من خصائص المشروع المخصصة.
+يمثل مجموعة من الخصائص المخصصة للمشروع.
 
 ```csharp
 public sealed class CustomProjectPropertyCollection : PropertyKeyedCollection<CustomProjectProperty>
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CustomProjectPropertyCollection](customprojectpropertycollection/)() | يقوم بتهيئة مثيل جديد لملف`CustomProjectPropertyCollection` فصل. |
+| [CustomProjectPropertyCollection](customprojectpropertycollection/)() | يُهيّء مثيلًا جديدًا للفئة `CustomProjectPropertyCollection`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | [Count](../../aspose.tasks.properties/propertykeyedcollection-1/count/) { get; } |  |
-| override [IsReadOnly](../../aspose.tasks.properties/customprojectpropertycollection/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه المجموعة للقراءة فقط ؛ وإلا ، خطأ . |
+| override [IsReadOnly](../../aspose.tasks.properties/customprojectpropertycollection/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه المجموعة للقراءة فقط؛ وإلا، false. |
 | [Item](../../aspose.tasks.properties/propertykeyedcollection-1/item/) { get; } |  |
 | [Names](../../aspose.tasks.properties/propertykeyedcollection-1/names/) { get; } |  |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | [Add](../../aspose.tasks.properties/propertykeyedcollection-1/add/)(CustomProjectProperty) |  |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add)(string, bool) | إنشاء خاصية مخصصة جديدة . |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add_2)(string, DateTime) | إنشاء خاصية مخصصة جديدة . |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add_1)(string, double) | إنشاء خاصية مخصصة جديدة . |
-| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add_3)(string, string) | إنشاء خاصية مخصصة جديدة . |
-| [Clear](../../aspose.tasks.properties/customprojectpropertycollection/clear/)() | مسح مجموعة PropertyCollection. |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add)(string, bool) | ينشئ خاصية مخصصة جديدة. |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add_2)(string, DateTime) | ينشئ خاصية مخصصة جديدة. |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add_1)(string, double) | ينشئ خاصية مخصصة جديدة. |
+| [Add](../../aspose.tasks.properties/customprojectpropertycollection/add/#add_3)(string, string) | ينشئ خاصية مخصصة جديدة. |
+| [Clear](../../aspose.tasks.properties/customprojectpropertycollection/clear/)() | يمسح PropertyCollection. |
 | [Contains](../../aspose.tasks.properties/propertykeyedcollection-1/contains/)(string) |  |
 | [Remove](../../aspose.tasks.properties/customprojectpropertycollection/remove/)(string) | يزيل خاصية بالاسم المحدد من المجموعة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع مجموعات خصائص المشروع المخصصة.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// لنضيف خصائص مخصصة جديدة
+// المجموعة تدعم الأنواع Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// الخصائص المخصصة متاحة عبر المجموعة ذات النوع المحدد
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// احصل على قيمة خاصية مخصصة
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// تكرار عبر أسماء الخصائص المخصصة
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// يمكن حذف قيمة باستخدام مفتاح نصي
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// أو يمكن للمرء مسح المجموعة بالكامل
+project.CustomProps.Clear();
+```
+
+### انظر أيضًا
 
 * class [PropertyKeyedCollection&lt;T&gt;](../propertykeyedcollection-1/)
 * class [CustomProjectProperty](../customprojectproperty/)
-* مساحة الاسم [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
+* assembly [Aspose.Tasks](../../)
 
 

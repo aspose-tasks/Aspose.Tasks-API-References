@@ -1,14 +1,14 @@
 ---
-title: Class WeeklyRepetitionBase
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.WeeklyRepetitionBase فصل. يمثل فئة أساسية للتكرار في نمط التكرار الأسبوعي.
+title: "الفئة WeeklyRepetitionBase"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.WeeklyRepetitionBase. تمثل فئة أساسية للتكرارات في نمط التكرار الأسبوعي."
 type: docs
-weight: 3240
+weight: 3600
 url: /ar/net/aspose.tasks/weeklyrepetitionbase/
 ---
 ## WeeklyRepetitionBase class
 
-يمثل فئة أساسية للتكرار في نمط التكرار الأسبوعي.
+يمثل الفئة الأساسية للتكرارات في نمط التكرار الأسبوعي.
 
 ```csharp
 public abstract class WeeklyRepetitionBase
@@ -16,13 +16,44 @@ public abstract class WeeklyRepetitionBase
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval/) { get; set; } | الحصول على أو تحديد عدد الأسابيع الذي يمثل الفترة الزمنية بالأسابيع بين التكرارات . |
+| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval/) { get; set; } | يحصل أو يعيّن عدد الأسابيع الذي يمثل الفاصل الزمني بالأسابيع بين التكرارات. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية إنشاء مهمة متكررة.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

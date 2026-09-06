@@ -1,24 +1,39 @@
 ---
-title: Project.ResourceAssignments
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. يحصل على كائن ResourceAssignmentCollection .
+title: "Project.ResourceAssignments"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل على كائن ResourceAssignmentCollection"
 type: docs
-weight: 720
+weight: 750
 url: /ar/net/aspose.tasks/project/resourceassignments/
 ---
 ## Project.ResourceAssignments property
 
-يحصل على كائن ResourceAssignmentCollection .
+يحصل على كائن ResourceAssignmentCollection.
 
 ```csharp
 public ResourceAssignmentCollection ResourceAssignments { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع تعيينات الموارد.
+
+```csharp
+var project = new Project();
+
+// إضافة مهمة وموارد جديدة
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Rsc");
+
+// تعيين المورد للمهمة المطلوبة
+project.ResourceAssignments.Add(task, resource);
+```
+
+### انظر أيضًا
 
 * class [ResourceAssignmentCollection](../../resourceassignmentcollection/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Task.ActualWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة ActualWork .
+title: "Task.ActualWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة ActualWork"
 type: docs
 weight: 90
 url: /ar/net/aspose.tasks/task/actualwork/
 ---
 ## Task.ActualWork property
 
-الحصول على أو تعيين قيمة ActualWork .
+يحصل أو يعيّن قيمة ActualWork.
 
 ```csharp
 public Duration ActualWork { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

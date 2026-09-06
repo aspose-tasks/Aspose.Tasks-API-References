@@ -1,23 +1,23 @@
 ---
-title: Project.Author
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة المؤلف أو تعيينها .
+title: "Project.Author"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يضبط قيمة Author."
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/project/author/
 ---
 ## Project.Author property
 
-الحصول على قيمة المؤلف أو تعيينها .
+يحصل أو يعيّن قيمة للـ Author.
 
 ```csharp
 public string Author { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

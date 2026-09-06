@@ -1,23 +1,23 @@
 ---
-title: Project.Uid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة Uid أو تعيينها .
+title: "Project.Uid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعيين قيمة Uid."
 type: docs
-weight: 960
+weight: 990
 url: /ar/net/aspose.tasks/project/uid/
 ---
 ## Project.Uid property
 
-الحصول على قيمة Uid أو تعيينها .
+يحصل أو يعيّن قيمة لـ Uid.
 
 ```csharp
 public string Uid { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

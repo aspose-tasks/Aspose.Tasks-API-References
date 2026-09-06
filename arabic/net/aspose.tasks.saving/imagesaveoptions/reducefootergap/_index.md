@@ -1,23 +1,41 @@
 ---
-title: ImageSaveOptions.ReduceFooterGap
-second_title: Aspose.Tasks لمرجع .NET API
-description: ImageSaveOptions ملكية. الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة والتذييل.
+title: "ImageSaveOptions.ReduceFooterGap"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ImageSaveOptions. تحصل أو تعين قيمة تشير إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة والتذييل."
 type: docs
-weight: 90
+weight: 80
 url: /ar/net/aspose.tasks.saving/imagesaveoptions/reducefootergap/
 ---
 ## ImageSaveOptions.ReduceFooterGap property
 
-الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة والتذييل.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة وتذييل الصفحة.
 
 ```csharp
 public bool ReduceFooterGap { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين قيمة تشير إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة والتذييل.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+// استخدم خاصية ReduceFooterGap لتقليل الفجوة بين قائمة المهام والتذييل.
+var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png)
+                           {
+                               ReduceFooterGap = true, /* set to true */ 
+                               RenderToSinglePage = false,
+                               PageSize = PageSize.A0,
+                               Timescale = Timescale.Days
+                           };
+project.Save(OutDir + "ReducingGapBetweenTasksListAndFooter_out.png", imageSaveOptions);
+```
+
+### انظر أيضًا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Tsk.ActualOvertimeCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. التكاليف المتكبدة للعمل الإضافي الذي تم تنفيذه بالفعل على المهام بواسطة الموارد المعينة.
+title: "Tsk.ActualOvertimeCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. التكاليف المتكبدة للعمل الإضافي الذي تم إنجازه بالفعل على المهام بواسطة الموارد المعينة"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/tsk/actualovertimecost/
 ---
 ## Tsk.ActualOvertimeCost field
 
-التكاليف المتكبدة للعمل الإضافي الذي تم تنفيذه بالفعل على المهام بواسطة الموارد المعينة.
+التكاليف المتكبدة للعمل الإضافي الذي تم إنجازه بالفعل على المهام بواسطة الموارد المعينة.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> ActualOvertimeCost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Tsk.ActualOvertimeCost.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ActualOvertimeCost, 10m);
+
+Console.WriteLine("Actual Overtime Cost: " + task.Get(Tsk.ActualOvertimeCost));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

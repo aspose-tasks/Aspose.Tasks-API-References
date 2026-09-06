@@ -1,23 +1,34 @@
 ---
-title: ProjectFileInfo.CanRead
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectFileInfo ملكية. يحصل على قيمة تشير إلى ما إذا كان بإمكان التعريفات Aspose.Tasks معالجة ملف المشروع.
+title: "ProjectFileInfo.CanRead"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ProjectFileInfo. يحصل على قيمة تشير إلى ما إذا كان يمكن لـ Aspose.Tasks معالجة ملف المشروع"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/projectfileinfo/canread/
 ---
 ## ProjectFileInfo.CanRead property
 
-يحصل على قيمة تشير إلى ما إذا كان بإمكان التعريفات Aspose.Tasks معالجة ملف المشروع.
+يحصل على قيمة تشير إلى ما إذا كان Aspose.Tasks يمكنه معالجة ملف المشروع.
 
 ```csharp
 public bool CanRead { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة معلومات ملف المشروع.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### انظر أيضًا
 
 * class [ProjectFileInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../projectfileinfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: HtmlSaveOptions.PageSavingCallback
-second_title: Aspose.Tasks لمرجع .NET API
-description: HtmlSaveOptions ملكية. الحصول على أو تعيين رد اتصال محدد من قبل المستخدم والذي يتم استخدامه للحصول على تدفق إخراج لكل صفحة مقدمة.
+title: "HtmlSaveOptions.PageSavingCallback"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية HtmlSaveOptions. تحصل أو تعيين callback معرف من قبل المستخدم يُستخدم للحصول على تدفق إخراج لكل صفحة تم تصييرها"
 type: docs
-weight: 150
+weight: 140
 url: /ar/net/aspose.tasks.saving/htmlsaveoptions/pagesavingcallback/
 ---
 ## HtmlSaveOptions.PageSavingCallback property
 
-الحصول على أو تعيين رد اتصال محدد من قبل المستخدم والذي يتم استخدامه للحصول على تدفق إخراج لكل صفحة مقدمة.
+يحصل أو يعيّن رد نداء معرف من قبل المستخدم يُستخدم للحصول على تدفق إخراج لكل صفحة مُعروضة.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

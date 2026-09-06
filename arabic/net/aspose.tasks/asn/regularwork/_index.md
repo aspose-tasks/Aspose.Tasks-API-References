@@ -1,26 +1,45 @@
 ---
-title: Asn.RegularWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Asn مجال. مقدار العمل غير الإضافي المجدول لمهمة.
+title: "Asn.RegularWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Asn field. مقدار العمل غير الإضافي المجدول لتكليف"
 type: docs
 weight: 420
 url: /ar/net/aspose.tasks/asn/regularwork/
 ---
 ## Asn.RegularWork field
 
-مقدار العمل غير الإضافي المجدول لمهمة.
+كمية العمل غير الإضافي المجدول لمهمة.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> RegularWork;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خاصية Asn.RegularWork.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.RegularWork, project.GetWork(1));
+
+Console.WriteLine("Regular Work: " + assignment.Get(Asn.RegularWork));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* مساحة الاسم [Aspose.Tasks](../../asn/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

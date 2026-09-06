@@ -1,24 +1,24 @@
 ---
-title: Project.WeekStartDay
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة WeekStartDay أو تعيينها .
+title: "Project.WeekStartDay"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة WeekStartDay"
 type: docs
-weight: 1010
+weight: 1040
 url: /ar/net/aspose.tasks/project/weekstartday/
 ---
 ## Project.WeekStartDay property
 
-الحصول على قيمة WeekStartDay أو تعيينها .
+يحصل أو يضبط قيمة WeekStartDay.
 
 ```csharp
 public DayType WeekStartDay { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [DayType](../../daytype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

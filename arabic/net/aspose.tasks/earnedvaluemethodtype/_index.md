@@ -1,7 +1,7 @@
 ---
-title: Enum EarnedValueMethodType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.EarnedValueMethodType تعداد. يحدد الطريقة المستخدمة لحساب القيمة المكتسبة.
+title: "تعداد EarnedValueMethodType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.EarnedValueMethodType. يحدد الطريقة المستخدمة لحساب القيمة المكتسبة"
 type: docs
 weight: 480
 url: /ar/net/aspose.tasks/earnedvaluemethodtype/
@@ -14,21 +14,32 @@ url: /ar/net/aspose.tasks/earnedvaluemethodtype/
 public enum EarnedValueMethodType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | Undefined | `-1` | لم يتم تعريف الحقل في ملف المشروع الأصلي. |
-| PercentComplete | `0` | النسبة المئوية للاكتمال |
-| PhysicalPercentComplete | `1` | النسبة المئوية الفعلية للاكتمال |
+| PercentComplete | `0` | النسبة المكتملة |
+| PhysicalPercentComplete | `1` | النسبة الفيزيائية المكتملة |
 
-### ملاحظات
+## ملاحظات
 
-أثناء التصدير إلى XML ، سيتم حذف القيم غير المعرفة من XML الناتج.
+أثناء التصدير إلى XML سيتم حذف القيم غير المعرفة من XML الناتج.
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية تحديد الطريقة المستخدمة لحساب القيمة المكتسبة (EarnedValueMethodType.PercentComplete).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// تعيين نوع طريقة القيمة المكتسبة إلى 'PercentComplete'
+project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
+// العمل مع المشروع...
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

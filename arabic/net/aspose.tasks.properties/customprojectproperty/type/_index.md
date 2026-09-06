@@ -1,24 +1,70 @@
 ---
-title: CustomProjectProperty.Type
-second_title: Aspose.Tasks لمرجع .NET API
-description: CustomProjectProperty ملكية. يحصل على نوع العقار .
+title: "CustomProjectProperty.Type"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية CustomProjectProperty. يحصل على نوع الخاصية"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.properties/customprojectproperty/type/
 ---
 ## CustomProjectProperty.Type property
 
-يحصل على نوع العقار .
+يحصل على نوع الخاصية.
 
 ```csharp
 public CustomPropertyType Type { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع مجموعات خصائص المشروع المخصصة.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// لنضيف خصائص مخصصة جديدة
+// المجموعة تدعم الأنواع Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// الخصائص المخصصة متاحة عبر المجموعة ذات النوع المحدد
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// احصل على قيمة خاصية مخصصة
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// تكرار عبر أسماء الخصائص المخصصة
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// يمكن حذف قيمة باستخدام مفتاح نصي
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// أو يمكن للمرء مسح المجموعة بالكامل
+project.CustomProps.Clear();
+```
+
+### انظر أيضًا
 
 * enum [CustomPropertyType](../../custompropertytype/)
 * class [CustomProjectProperty](../)
-* مساحة الاسم [Aspose.Tasks.Properties](../../customprojectproperty/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectproperty/)
+* assembly [Aspose.Tasks](../../../)
 
 

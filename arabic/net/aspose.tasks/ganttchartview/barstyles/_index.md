@@ -1,24 +1,78 @@
 ---
-title: GanttChartView.BarStyles
-second_title: Aspose.Tasks لمرجع .NET API
-description: GanttChartView ملكية. الحصول على قائمة بأنماط الشريط الأصل الشائعة لطريقة عرض مخطط جانت.GanttBarStyle .
+title: "GanttChartView.BarStyles"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية GanttChartView. يحصل على قائمة بأنماط الأشرطة العامة الأصلية لعرض مخطط جانت. GanttBarStyle"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/ganttchartview/barstyles/
 ---
 ## GanttChartView.BarStyles property
 
-الحصول على قائمة بأنماط الشريط الأصل (الشائعة) لطريقة عرض مخطط جانت.[`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle/) .
+يحصل على قائمة بأنماط الأشرطة (العامة) الأصلية لعرض مخطط جانت. [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle/).
 
 ```csharp
 public List<GanttBarStyle> BarStyles { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة أنماط الشريط المخصصة لعرض ما.
+
+```csharp
+var project = new Project(DataDir + "CustomBarStyle.mpp");
+
+var view = (GanttChartView)project.DefaultView;
+Console.WriteLine("Custom bar styles count: {0}", view.CustomBarStyles.Count);
+
+var style1 = view.CustomBarStyles[0];
+Console.WriteLine("Style1.ParentStyle Name: {0}", style1.ParentStyle.Name);
+Console.WriteLine("Style1.LeftField: {0}", style1.LeftField);
+Console.WriteLine("Style1.RightField: {0}", style1.RightField);
+Console.WriteLine("Style1.TopField: {0}", style1.TopField);
+Console.WriteLine("Style1.BottomField: {0}", style1.BottomField);
+Console.WriteLine("Style1.InsideField: {0}", style1.InsideField);
+Console.WriteLine("Style1.From: {0}", style1.From);
+Console.WriteLine("Style1.To: {0}", style1.To);
+Console.WriteLine("Style1.Row: {0}", style1.Row);
+
+var style2 = view.CustomBarStyles[1];
+Console.WriteLine("Style2.LeftField: {0}", style2.LeftField);
+Console.WriteLine("Style2.RightField: {0}", style2.RightField);
+Console.WriteLine("Style2.TopField: {0}", style2.TopField);
+Console.WriteLine("Style2.BottomField: {0}", style2.BottomField);
+Console.WriteLine("Style2.InsideField: {0}", style2.InsideField);
+Console.WriteLine("Style2.From: {0}", style2.From);
+Console.WriteLine("Style2.To: {0}", style2.To);
+Console.WriteLine("Style2.Row: {0}", style1.Row);
+
+var style3 = view.CustomBarStyles[2];
+Console.WriteLine("Style3.LeftField: {0}", style3.LeftField);
+Console.WriteLine("Style3.RightField: {0}", style3.RightField);
+Console.WriteLine("Style3.TopField: {0}", style3.TopField);
+Console.WriteLine("Style3.BottomField: {0}", style3.BottomField);
+Console.WriteLine("Style3.InsideField: {0}", style3.InsideField);
+
+Console.WriteLine("Style3.StartShape: {0}", style3.StartShape);
+Console.WriteLine("Style3.StartShapeType: {0}", style3.StartShapeType);
+Console.WriteLine("Style3.StartShapeColor: {0}", style3.StartShapeColor);
+
+Console.WriteLine("Style3.EndShape: {0}", style3.EndShape);
+Console.WriteLine("Style3.EndShapeType: {0}", style3.EndShapeType);
+Console.WriteLine("Style3.EndShapeColor: {0}", style3.EndShapeColor);
+
+Console.WriteLine("Style3.MiddleShape: {0}", style3.MiddleShape);
+Console.WriteLine("Style3.MiddleFillPattern: {0}", style3.MiddleFillPattern);
+Console.WriteLine("Style3.MiddleShapeColor: {0}", style3.MiddleShapeColor);
+Console.WriteLine("Style3.From: {0}", style3.From);
+Console.WriteLine("Style3.To: {0}", style3.To);
+Console.WriteLine("Style3.Row: {0}", style1.Row);
+```
+
+### انظر أيضًا
 
 * class [GanttBarStyle](../../../aspose.tasks.visualization/ganttbarstyle/)
 * class [GanttChartView](../)
-* مساحة الاسم [Aspose.Tasks](../../ganttchartview/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ganttchartview/)
+* assembly [Aspose.Tasks](../../../)
 
 

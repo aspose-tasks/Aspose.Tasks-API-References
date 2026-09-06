@@ -1,23 +1,23 @@
 ---
-title: Task.IsSubproject
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة تشير إلى ما إذا كان IsSubproject معينًا أم لا.
+title: "Task.IsSubproject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة تشير إلى ما إذا كان IsSubproject مضبوطًا أم لا"
 type: docs
 weight: 740
 url: /ar/net/aspose.tasks/task/issubproject/
 ---
 ## Task.IsSubproject property
 
-الحصول على أو تحديد قيمة تشير إلى ما إذا كان IsSubproject معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان IsSubproject مُحددًا أم لا.
 
 ```csharp
 public bool IsSubproject { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

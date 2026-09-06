@@ -1,23 +1,23 @@
 ---
-title: Task.ACWP
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة ACWP .
+title: "Task.ACWP"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة ACWP"
 type: docs
 weight: 110
 url: /ar/net/aspose.tasks/task/acwp/
 ---
 ## Task.ACWP property
 
-الحصول على أو تحديد قيمة ACWP .
+يحصل أو يعيّن قيمة ACWP.
 
 ```csharp
 public double ACWP { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Tsk.IsSummary
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. تحديد ما إذا كانت المهمة مهمة موجزة.
+title: "Tsk.IsSummary"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. يحدد ما إذا كانت المهمة مهمة ملخص"
 type: docs
-weight: 730
+weight: 720
 url: /ar/net/aspose.tasks/tsk/issummary/
 ---
 ## Tsk.IsSummary field
 
-تحديد ما إذا كانت المهمة مهمة موجزة.
+يحدد ما إذا كانت المهمة مهمة ملخص.
 
 ```csharp
 public static readonly Key<bool, TaskKey> IsSummary;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Tsk.IsSummary.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSummary, true);
+
+Console.WriteLine("Is Summary: " + task.Get(Tsk.IsSummary));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

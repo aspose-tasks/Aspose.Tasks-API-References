@@ -1,9 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.HorizontalAlignment تعداد. يحدد كيفية محاذاة كائن أو نص أفقيًا بالنسبة لكائن آخر.
+title: "تعداد HorizontalAlignment"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.Visualization.HorizontalAlignment. يحدد كيفية محاذاة كائن أو نص أفقيًا بالنسبة لكائن آخر"
 type: docs
-weight: 2810
+weight: 3140
 url: /ar/net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
@@ -14,16 +14,16 @@ url: /ar/net/aspose.tasks.visualization/horizontalalignment/
 public enum HorizontalAlignment
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Left | `0` | تمت محاذاة الكائن إلى يسار العنصر الهدف. |
-| Right | `1` | تمت محاذاة الكائن إلى يمين العنصر الهدف. |
+| Left | `0` | يتم محاذاة الكائن إلى اليسار من العنصر المستهدف. |
+| Right | `1` | يتم محاذاة الكائن إلى اليمين من العنصر المستهدف. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

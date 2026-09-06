@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.VAC
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة VAC .
+title: "ResourceAssignment.VAC"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعين قيمة VAC"
 type: docs
 weight: 640
 url: /ar/net/aspose.tasks/resourceassignment/vac/
 ---
 ## ResourceAssignment.VAC property
 
-الحصول على أو تعيين قيمة VAC .
+يحصل أو يعيّن قيمة VAC.
 
 ```csharp
 public double VAC { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

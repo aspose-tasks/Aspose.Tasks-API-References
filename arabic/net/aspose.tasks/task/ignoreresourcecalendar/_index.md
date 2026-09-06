@@ -1,24 +1,24 @@
 ---
-title: Task.IgnoreResourceCalendar
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان IgnoreResourceCalendar معينًا أم لا.
+title: "Task.IgnoreResourceCalendar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة تشير إلى ما إذا كان IgnoreResourceCalendar مضبوطًا أم لا"
 type: docs
 weight: 570
 url: /ar/net/aspose.tasks/task/ignoreresourcecalendar/
 ---
 ## Task.IgnoreResourceCalendar property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان IgnoreResourceCalendar معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان IgnoreResourceCalendar مُعيّنًا أم لا.
 
 ```csharp
 public NullableBool IgnoreResourceCalendar { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

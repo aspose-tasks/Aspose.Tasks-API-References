@@ -1,28 +1,29 @@
 ---
-title: Class FieldHelper
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Util.FieldHelper فصل. فئة المساعد التي توفر عمليات مفيدة مع الحقول.
+title: "الفئة FieldHelper"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.Util.FieldHelper. فئة مساعدة توفر عمليات مفيدة مع الحقول"
 type: docs
-weight: 2380
+weight: 2700
 url: /ar/net/aspose.tasks.util/fieldhelper/
 ---
 ## FieldHelper class
 
-فئة المساعد التي توفر عمليات مفيدة مع الحقول.
+فئة مساعدة توفر عمليات مفيدة مع الحقول.
 
 ```csharp
 public static class FieldHelper
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [GetDefaultTaskFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/)(TaskKey) | إرجاع العنوان الافتراضي لحقل المهمة المحدد. |
+| static [GetDefaultFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaultfieldtitle/)(Field) | تُعيد عنوانًا افتراضيًا للحقل المحدد. |
+| static [GetDefaultTaskFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/)(TaskKey) | تُعيد عنوانًا افتراضيًا لحقل المهمة المحدد. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

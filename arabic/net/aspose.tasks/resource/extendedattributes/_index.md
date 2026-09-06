@@ -1,28 +1,54 @@
 ---
-title: Resource.ExtendedAttributes
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيم السمة الممتدة.
+title: "Resource.ExtendedAttributes"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل على قيم سمة موسعة"
 type: docs
 weight: 320
 url: /ar/net/aspose.tasks/resource/extendedattributes/
 ---
 ## Resource.ExtendedAttributes property
 
-الحصول على قيم السمة الممتدة.
+يحصل على قيم سمة موسّعة.
 
 ```csharp
 public ExtendedAttributeCollection ExtendedAttributes { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-يلزم وجود قطعتين من البيانات - مؤشر يعود إلى جدول السمة الموسعة والذي يتم تحديده إما بواسطة المعرف الفريد أو معرف الحقل ، والقيمة المحددة إما بالقيمة أو بمؤشر يعود إلى قائمة القيم.
+هناك قطعتان من البيانات ضرورية - مؤشر يعود إلى جدول السمة الموسعة الذي يُحدَّد إما بالمعرّف الفريد أو معرف الحقل، والقيمة التي تُحدَّد إما بالقيمة نفسها أو بمؤشر يعود إلى قائمة القيم.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إضافة سمات الموارد الموسعة.
+
+```csharp
+var project = new Project(DataDir + "ResourceExtendedAttributes.mpp");
+
+// تعريف سمة موسعة
+var definition = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Number1);
+if (definition == null)
+{
+    definition = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Number1, "Age");
+    project.ExtendedAttributes.Add(definition);
+}
+
+// إنشاء سمة موسعة وتعيين قيمتها
+var attribute = definition.CreateExtendedAttribute();
+attribute.NumericValue = 30.5345m;
+
+// إضافة مورد جديد وسمةه الموسعة   
+var resource = project.Resources.Add("R1");
+resource.ExtendedAttributes.Add(attribute);
+
+project.Save(OutDir + "ResourceExtendedAttributes_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * class [ExtendedAttributeCollection](../../extendedattributecollection/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

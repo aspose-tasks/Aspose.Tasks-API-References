@@ -1,9 +1,9 @@
 ---
-title: Class PageViewSettings
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.PageViewSettings فصل. يمثل إعدادات الطباعة لعرض المشروع.
+title: "الفئة PageViewSettings"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.Visualization.PageViewSettings. تمثل إعدادات الطباعة لعرض المشروع"
 type: docs
-weight: 2910
+weight: 3260
 url: /ar/net/aspose.tasks.visualization/pageviewsettings/
 ---
 ## PageViewSettings class
@@ -14,26 +14,54 @@ url: /ar/net/aspose.tasks.visualization/pageviewsettings/
 public class PageViewSettings
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PageViewSettings](pageviewsettings/)() | Default_Constructor |
+| [PageViewSettings](pageviewsettings/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FirstColumnsCount](../../aspose.tasks.visualization/pageviewsettings/firstcolumnscount/) { get; set; } | الحصول على أو تحديد عدد الأعمدة الأولى المطلوب طباعتها على كافة الصفحات. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.visualization/pageviewsettings/fittimescaletoendofpage/) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان سيتم احتواء مقياس الوقت مع نهاية الصفحة عند الطباعة. |
-| [PrintAllSheetColumns](../../aspose.tasks.visualization/pageviewsettings/printallsheetcolumns/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم طباعة جميع أعمدة الورقة في طريقة العرض. |
-| [PrintBlankPages](../../aspose.tasks.visualization/pageviewsettings/printblankpages/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كنت تريد طباعة صفحات فارغة من طريقة العرض . |
-| [PrintFirstColumnsCountOnAllPages](../../aspose.tasks.visualization/pageviewsettings/printfirstcolumnscountonallpages/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كنت تريد طباعة عدد محدد من الأعمدة الأولى على جميع الصفحات. |
-| [PrintNotes](../../aspose.tasks.visualization/pageviewsettings/printnotes/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كنت تريد طباعة الملاحظات. |
+| [FirstColumnsCount](../../aspose.tasks.visualization/pageviewsettings/firstcolumnscount/) { get; set; } | يحصل أو يعيّن عدد الأعمدة الأولى التي تُطبع في جميع الصفحات. |
+| [FitTimescaleToEndOfPage](../../aspose.tasks.visualization/pageviewsettings/fittimescaletoendofpage/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب ملاءمة مقياس الوقت إلى نهاية الصفحة عند الطباعة. |
+| [PrintAllSheetColumns](../../aspose.tasks.visualization/pageviewsettings/printallsheetcolumns/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب طباعة جميع أعمدة الورقة في العرض. |
+| [PrintBlankPages](../../aspose.tasks.visualization/pageviewsettings/printblankpages/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب طباعة الصفحات الفارغة للعرض. |
+| [PrintFirstColumnsCountOnAllPages](../../aspose.tasks.visualization/pageviewsettings/printfirstcolumnscountonallpages/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب طباعة عدد محدد من الأعمدة الأولى في جميع الصفحات. |
+| [PrintNotes](../../aspose.tasks.visualization/pageviewsettings/printnotes/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب طباعة الملاحظات. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+يظهر كيفية طباعة ملاحظات المهمة والموارد والتعيين في صفحة منفصلة.
+
+```csharp
+var project = new Project(DataDir + "Input.mpp");
+
+// تعيين عدد الأعمدة الأولى التي سيتم طباعتها على جميع الصفحات
+project.DefaultView.PageInfo.PageViewSettings.FirstColumnsCount = 2;
+
+// عيّن قيمة تشير إلى ما إذا كان يجب طباعة الملاحظات.
+project.DefaultView.PageInfo.PageViewSettings.PrintNotes = true;
+
+// عيّن قيمة تشير إلى ما إذا كان يجب ملاءمة مقياس الوقت إلى نهاية الصفحة عند الطباعة.
+project.DefaultView.PageInfo.PageViewSettings.FitTimescaleToEndOfPage = true;
+
+// عيّن قيمة تشير إلى ما إذا كان يجب طباعة جميع أعمدة الورقة في العرض
+project.DefaultView.PageInfo.PageViewSettings.PrintAllSheetColumns = true;
+
+// عيّن قيمة تشير إلى ما إذا كان يجب طباعة الصفحات الفارغة للعرض
+project.DefaultView.PageInfo.PageViewSettings.PrintBlankPages = false;
+
+// تعيين قيمة تشير إلى ما إذا كان يجب طباعة عدد محدد من الأعمدة الأولى على جميع الصفحات
+project.DefaultView.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;
+
+project.Save(OutDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

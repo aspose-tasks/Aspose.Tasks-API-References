@@ -1,23 +1,23 @@
 ---
-title: Task.CostVariance
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة تباين التكلفة أو تعيينها.
+title: "Task.CostVariance"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصّل أو تعين قيمة CostVariance"
 type: docs
 weight: 270
 url: /ar/net/aspose.tasks/task/costvariance/
 ---
 ## Task.CostVariance property
 
-الحصول على قيمة تباين التكلفة أو تعيينها.
+يحصل أو يعيّن قيمة CostVariance.
 
 ```csharp
 public double CostVariance { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

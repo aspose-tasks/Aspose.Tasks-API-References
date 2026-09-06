@@ -1,14 +1,14 @@
 ---
-title: Class RateCollection
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.RateCollection فصل. يمثل المجموعة التي تحتوي علىRate الكائنات .
+title: "فئة RateCollection"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.RateCollection. تمثل مجموعة تحتوي على كائنات Rate"
 type: docs
-weight: 1380
+weight: 1630
 url: /ar/net/aspose.tasks/ratecollection/
 ---
 ## RateCollection class
 
-يمثل المجموعة التي تحتوي على[`Rate`](../rate/) الكائنات .
+تمثل مجموعة تحتوي على كائنات [`Rate`](../rate/).
 
 ```csharp
 public class RateCollection : IDictionary<RateType, RateByDateCollection>
@@ -16,29 +16,95 @@ public class RateCollection : IDictionary<RateType, RateByDateCollection>
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.tasks/ratecollection/count/) { get; } | الحصول على عدد العناصر الموجودة في RateCollection . |
+| [Count](../../aspose.tasks/ratecollection/count/) { get; } | يحصل على عدد العناصر الموجودة في RateCollection. |
 | [IsReadOnly](../../aspose.tasks/ratecollection/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه المجموعة للقراءة فقط. |
-| [Item](../../aspose.tasks/ratecollection/item/) { get; set; } | إرجاع أو تعيين العنصر في الفهرس المحدد. |
-| [ParentResource](../../aspose.tasks/ratecollection/parentresource/) { get; } | يحصل على الوالد[`Resource`](../resource/) كائن لهذه المجموعة. |
+| [Item](../../aspose.tasks/ratecollection/item/) { get; set; } | يرجع أو يعيّن العنصر في الفهرس المحدد. |
+| [ParentResource](../../aspose.tasks/ratecollection/parentresource/) { get; } | يحصل على كائن الوالد [`Resource`](../resource/) لهذا التجميع. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.tasks/ratecollection/add/#add)(DateTime) | يضيف ملف[`Rate`](../rate/) مثيل لهذه المجموعة. |
-| [Add](../../aspose.tasks/ratecollection/add/#add_1)(DateTime, RateType) | يضيف ملف[`Rate`](../rate/) مثيل لهذه المجموعة. |
-| [GetEnumerator](../../aspose.tasks/ratecollection/getenumerator/)() | إرجاع عداد لهذه المجموعة. |
-| [Remove](../../aspose.tasks/ratecollection/remove/)(Rate) | يزيل مثيل المعدل من هذه المجموعة. |
-| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist)() | يحول ملف`RateCollection` يعترض على قائمة[`Rate`](../rate/) الكائنات . |
-| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist_1)(RateType) | يحول ملف`RateCollection` يعترض على قائمة[`Rate`](../rate/) كائنات تمت تصفيتها حسب المحدد[`RateType`](../ratetype/) اكتب . |
+| [Add](../../aspose.tasks/ratecollection/add/#add)(DateTime) | يضيف نسخة جديدة من [`Rate`](../rate/) إلى هذا التجميع. |
+| [Add](../../aspose.tasks/ratecollection/add/#add_1)(DateTime, RateType) | يضيف نسخة جديدة من [`Rate`](../rate/) إلى هذا التجميع. |
+| [GetEnumerator](../../aspose.tasks/ratecollection/getenumerator/)() | يرجع عدادًا لهذه المجموعة. |
+| [Remove](../../aspose.tasks/ratecollection/remove/)(Rate) | يزيل نسخة Rate من هذا التجميع. |
+| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist)() | يحوّل كائن `RateCollection` إلى قائمة من كائنات [`Rate`](../rate/). |
+| [ToList](../../aspose.tasks/ratecollection/tolist/#tolist_1)(RateType) | يحوّل كائن `RateCollection` إلى قائمة من كائنات [`Rate`](../rate/) مُفلترة بنوع [`RateType`](../ratetype/) المحدد. |
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية العمل مع مجموعات الأسعار.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Test Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0), RateType.B);
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+
+Console.WriteLine("Print rates of '{0}' resource: ", resource.Rates.ParentResource.Get(Rsc.Name));
+Console.WriteLine("Count of rates: {0}", resource.Rates.Count);
+Console.WriteLine("Is rate collection read-only: {0}", resource.Rates.IsReadOnly);
+foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Rates)
+{
+    foreach (KeyValuePair<DateTime, Rate> pair in sortedRates.Value)
+    {
+        var rate = pair.Value;
+        Console.WriteLine("Rates From: " + rate.RatesFrom);
+        Console.WriteLine("Rates To: " + rate.RatesTo);
+        Console.WriteLine("Rate Table: " + rate.RateTable);
+        Console.WriteLine();
+    }
+}
+
+// احصل على أحدث سعر عبر الوصول بالفهرس
+var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
+rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
+Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
+Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
+
+// ...
+// العمل مع الأسعار
+// ...
+
+// إزالة جميع الأسعار من النوع A
+List<Rate> rates = resource.Rates.ToList(RateType.A);
+for (var i = 0; i < rates.Count; i++)
+{
+    var rateToRemove = rates[i];
+    resource.Rates.Remove(rateToRemove);
+}
+
+// تحويل مجموعة الأسعار إلى قائمة مسطحة
+Console.WriteLine("Iterate over the rates after remove the A-typed values: ");
+List<Rate> list = resource.Rates.ToList();
+foreach (var rt in list)
+{
+    Console.WriteLine("Rates From: " + rt.RatesFrom);
+    Console.WriteLine("Rates To: " + rt.RatesTo);
+    Console.WriteLine("Rate Table: " + rt.RateTable);
+}
+```
+
+### انظر أيضًا
 
 * enum [RateType](../ratetype/)
 * class [RateByDateCollection](../ratebydatecollection/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,26 +1,40 @@
 ---
-title: Tsk.WorkVariance
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. الفرق بين العمل الأساسي لمهمة والعمل المجدول حاليًا.
+title: "Tsk.WorkVariance"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. الفرق بين العمل الأساسي للمهمة والعمل المجدول حاليًا"
 type: docs
-weight: 1180
+weight: 1160
 url: /ar/net/aspose.tasks/tsk/workvariance/
 ---
 ## Tsk.WorkVariance field
 
-الفرق بين العمل الأساسي لمهمة والعمل المجدول حاليًا.
+الفرق بين العمل الأساسي للمهمة والعمل المجدول حاليًا.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> WorkVariance;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة الخاصية Tsk.WorkVariance.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.WorkVariance, project.GetDuration(1));
+
+Console.WriteLine("Work Variance: " + task.Get(Tsk.WorkVariance));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

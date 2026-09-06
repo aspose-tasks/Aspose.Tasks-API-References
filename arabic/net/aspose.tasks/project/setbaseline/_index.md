@@ -1,51 +1,81 @@
 ---
-title: Project.SetBaseline
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. يحفظ الحقول الأساسية إلى خط الأساس المحدد للمشروع بأكمله.
+title: "Project.SetBaseline"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة المشروع. حفظ حقول الخط الأساسي إلى الخط الأساسي المحدد لكامل المشروع"
 type: docs
-weight: 1230
+weight: 1250
 url: /ar/net/aspose.tasks/project/setbaseline/
 ---
 ## SetBaseline(BaselineType) {#setbaseline}
 
-يحفظ الحقول الأساسية إلى خط الأساس المحدد للمشروع بأكمله.
+يحفظ حقول الخط الأساسي إلى الخط الأساسي المحدد لكامل المشروع.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| baselineType | BaselineType | نوع الأساس الذي سيتم حفظ البيانات الأساسية فيه. |
+| baselineType | BaselineType | نوع الخط الأساسي لحفظ بيانات الخط الأساسي إليه. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إنشاء خطوط أساسية لمشروع كامل.
+
+```csharp
+var project = new Project();
+
+// إضافة مهام
+project.RootTask.Children.Add("Task");
+project.RootTask.Children.Add("Task2");
+
+// تعيين خط أساسي للمهام المحددة
+project.SetBaseline(BaselineType.Baseline);
+```
+
+### انظر أيضًا
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SetBaseline(BaselineType, IEnumerable&lt;Task&gt;) {#setbaseline_1}
 
-يحفظ الحقول الأساسية إلى خط الأساس المحدد للمهام المحددة.
+يحفظ حقول الخط الأساسي إلى الخط الأساسي المحدد للمهام المحددة.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollection)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| baselineType | BaselineType | نوع الأساس الذي سيتم حفظ البيانات الأساسية فيه. |
-| taskCollection | IEnumerable`1 | قائمة المهام التي سيتم حفظ البيانات الأساسية لها. |
+| baselineType | BaselineType | نوع الخط الأساسي لحفظ بيانات الخط الأساسي إليه. |
+| taskCollection | IEnumerable`1 | قائمة المهام لحفظ بيانات الخط الأساسي لها. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إنشاء خطوط أساسية محددة لمهام معينة.
+
+```csharp
+var project = new Project();
+
+// إضافة مهام
+var task = project.RootTask.Children.Add("Task");
+var task2 = project.RootTask.Children.Add("Task2");
+
+// تعيين خط أساسي للمهام المحددة
+project.SetBaseline(BaselineType.Baseline, new[] { task, task2 });
+```
+
+### انظر أيضًا
 
 * enum [BaselineType](../../baselinetype/)
 * class [Task](../../task/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

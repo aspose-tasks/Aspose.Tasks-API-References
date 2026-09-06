@@ -1,23 +1,48 @@
 ---
-title: PageLegend.RightText
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageLegend ملكية. الحصول على أو تعيين النص المحاذي لليمين لعرضه في وسيلة إيضاح الصفحة.
+title: "PageLegend.RightText"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageLegend. يحصل أو يضبط النص المحاذى إلى اليمين لعرضه في وسيلة إيضاح الصفحة"
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks.visualization/pagelegend/righttext/
 ---
 ## PageLegend.RightText property
 
-الحصول على أو تعيين النص المحاذي لليمين لعرضه في وسيلة إيضاح الصفحة.
+يحصل أو يضبط النص المحاذى إلى اليمين لعرضه في وسيلة إيضاح الصفحة.
 
 ```csharp
 public string RightText { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع معلومات أسطورة الصفحة.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// دعنا نقرأ معلومات أسطورة الصفحة
+var legend = project.DefaultView.PageInfo.Legend;
+
+Console.WriteLine("Legend left text: {0} ", legend.LeftText);
+Console.WriteLine("Legend left image: {0} ", legend.LeftImage);
+Console.WriteLine("Legend center text: {0} ", legend.CenteredText);
+Console.WriteLine("Legend center image: {0} ", legend.CenteredImage);
+Console.WriteLine("Legend right text: {0} ", legend.RightText);
+Console.WriteLine("Legend right image: {0} ", legend.RightImage);
+Console.WriteLine("Legend On: {0} ", legend.LegendOn);
+Console.WriteLine("Legend Width: {0} ", legend.Width);
+
+// كما يُدعم تعديل الأسطورة
+legend.LeftText = "New Left Text";
+
+project.Save(OutDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * class [PageLegend](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagelegend/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagelegend/)
+* assembly [Aspose.Tasks](../../../)
 
 

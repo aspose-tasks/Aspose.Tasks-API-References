@@ -1,24 +1,83 @@
 ---
-title: GanttChartView.CustomBarStyles
-second_title: Aspose.Tasks لمرجع .NET API
-description: GanttChartView ملكية. الحصول على قائمة بأنماط الشريط المخصصة الخاصة بالمهمة لطريقة عرض مخطط جانت.GanttBarStyle .
+title: "GanttChartView.CustomBarStyles"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية GanttChartView. يحصل على قائمة بأنماط الأشرطة المخصصة الخاصة بالمهمة في عرض مخطط جانت. GanttBarStyle"
 type: docs
 weight: 70
 url: /ar/net/aspose.tasks/ganttchartview/custombarstyles/
 ---
 ## GanttChartView.CustomBarStyles property
 
-الحصول على قائمة بأنماط الشريط المخصصة الخاصة بالمهمة لطريقة عرض مخطط جانت.[`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle/) .
+يحصل على قائمة بأنماط الأشرطة المخصصة الخاصة بالمهمة في عرض مخطط جانت. [`GanttBarStyle`](../../../aspose.tasks.visualization/ganttbarstyle/).
 
 ```csharp
 public List<GanttBarStyle> CustomBarStyles { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين أنماط أشرطة مخصصة لعرض مشروع مخطط جانت.
+
+```csharp
+public void ImplementCustomBarStyle()
+{
+    try
+    {
+        var project = new Project(DataDir + "Blank2010.mpp");
+        project.RootTask.Children.Add("Task");
+
+        var view = (GanttChartView)project.DefaultView;
+        var custom = GetCustomBarStyle();
+
+        // أضف نمط الشريط المخصص إلى مجموعة الأشرطة المخصصة لعرض المشروع
+        view.CustomBarStyles.Add(custom);
+
+        SimpleSaveOptions options = new MPPSaveOptions
+        {
+            WriteViewData = true
+        };
+
+        project.Save(OutDir + "ImplementCustomBarStyleWriting_out.mpp", options);
+    }
+    catch (NotSupportedException ex)
+    {
+        Console.WriteLine(
+            ex.Message
+            + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+    }
+}
+
+public static GanttBarStyle GetCustomBarStyle()
+{
+    var style = new GanttBarStyle
+    {
+        ShowForTaskUid = 1,
+        MiddleShape = GanttBarMiddleShape.RectangleBottom,
+        MiddleFillPattern = GanttBarFillPattern.MediumFill,
+        MiddleShapeColor = Color.Blue,
+
+        StartShape = GanttBarEndShape.ArrowDown,
+        StartShapeColor = Color.Red,
+
+        EndShape = GanttBarEndShape.ArrowUp,
+        EndShapeColor = Color.Yellow,
+
+        LeftField = Field.TaskResourceNames,
+        RightField = Field.TaskName,
+        TopField = Field.TaskStart,
+        BottomField = Field.TaskFinish,
+        InsideField = Field.TaskDuration
+    };
+
+    return style;
+}
+```
+
+### انظر أيضًا
 
 * class [GanttBarStyle](../../../aspose.tasks.visualization/ganttbarstyle/)
 * class [GanttChartView](../)
-* مساحة الاسم [Aspose.Tasks](../../ganttchartview/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ganttchartview/)
+* assembly [Aspose.Tasks](../../../)
 
 

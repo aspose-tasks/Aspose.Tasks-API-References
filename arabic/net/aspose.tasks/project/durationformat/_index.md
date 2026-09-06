@@ -1,24 +1,24 @@
 ---
-title: Project.DurationFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة DurationFormat أو تعيينها .
+title: "Project.DurationFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة DurationFormat"
 type: docs
-weight: 380
+weight: 390
 url: /ar/net/aspose.tasks/project/durationformat/
 ---
 ## Project.DurationFormat property
 
-الحصول على قيمة DurationFormat أو تعيينها .
+يحصل أو يعيّن قيمة لـ DurationFormat.
 
 ```csharp
 public TimeUnitType DurationFormat { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

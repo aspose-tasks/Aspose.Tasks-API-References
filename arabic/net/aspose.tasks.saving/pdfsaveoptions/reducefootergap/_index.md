@@ -1,23 +1,35 @@
 ---
-title: PdfSaveOptions.ReduceFooterGap
-second_title: Aspose.Tasks لمرجع .NET API
-description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة والتذييل.
+title: "PdfSaveOptions.ReduceFooterGap"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PdfSaveOptions. تحصل أو تعيين قيمة تشير إلى ما إذا كان يجب تقليل الفجوة بين آخر مهمة وتذييل الصفحة"
 type: docs
-weight: 90
+weight: 80
 url: /ar/net/aspose.tasks.saving/pdfsaveoptions/reducefootergap/
 ---
 ## PdfSaveOptions.ReduceFooterGap property
 
-الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة والتذييل.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تقليل الفجوة بين المهمة الأخيرة وتذييل الصفحة.
 
 ```csharp
 public bool ReduceFooterGap { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين قيمة تشير إلى ما إذا كان يجب تقليل الفجوة بين آخر مهمة وتذييل الصفحة في ملفات إخراج PDF.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions { ReduceFooterGap = true, PageSize = PageSize.A0, Timescale = Timescale.Days };
+
+project.Save(OutDir + "ReducingGapBetweenTasksListAndFooter_out.pdf", options);
+```
+
+### انظر أيضًا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

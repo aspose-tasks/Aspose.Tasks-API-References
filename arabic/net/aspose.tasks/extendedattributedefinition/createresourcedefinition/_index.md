@@ -1,31 +1,31 @@
 ---
-title: ExtendedAttributeDefinition.CreateResourceDefinition
-second_title: Aspose.Tasks لمرجع .NET API
-description: ExtendedAttributeDefinition طريقة. طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا  والذي يظهره Microsoft Project على أنه بلا. يحتوي علىCalculationType يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديدcustomFieldType وfieldId وalias عند استدعاء هذه الطريقة.
+title: "ExtendedAttributeDefinition.CreateResourceDefinition"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ExtendedAttributeDefinition. طريقة مصنع تنشئ تعريف خاصية موسعة بسيط يظهر في Microsoft Project كـ None. لديها CalculationType مساوية لـ None ويمكن استخدامها في الموارد فقط. يجب عليك تحديد الحقول customFieldType و fieldId و alias عند استدعاء هذه الطريقة."
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/extendedattributedefinition/createresourcedefinition/
 ---
 ## CreateResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createresourcedefinition}
 
-طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype/) يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديد*customFieldType* و*fieldId* و*alias* عند استدعاء هذه الطريقة.
+طريقة مصنع تنشئ تعريف خاصية موسعة بسيط، يظهر في Microsoft Project كـ "None". لديها [`CalculationType`](../calculationtype/) مساوية لـ None ويمكن استخدامها في الموارد فقط. يُطلب منك تحديد *customFieldType* و *fieldId* و *alias* عند استدعاء هذه الطريقة.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(CustomFieldType customFieldType, 
     ExtendedAttributeResource fieldId, string alias)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | المحدد[`CustomFieldType`](../../customfieldtype/) يكتب. |
-| fieldId | ExtendedAttributeResource | المحدد[`ExtendedAttributeResource`](../../extendedattributeresource/) معرف المجال. |
-| alias | String | المحددString الاسم المستعار. |
+| customFieldType | CustomFieldType | النوع المحدد لـ [`CustomFieldType`](../../customfieldtype/). |
+| fieldId | ExtendedAttributeResource | معرف الحقل المحدد لـ [`ExtendedAttributeResource`](../../extendedattributeresource/). |
+| الاسم المستعار | سلسلة | الاسم المستعار من نوع String المحدد. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*customFieldType* و*fieldId* و*alias*.
+تم إنشاء نسخة من الفئة [`ExtendedAttributeDefinition`](../) مع *customFieldType* و *fieldId* و *alias* المحددين.
 
-### أمثلة
+## الأمثلة
 
 استخدم هذا المثال لإنشاء تعريف حقل نص مخصص:
 
@@ -34,35 +34,81 @@ var resourceTextAttr = ExtendedAttributeDefinition.CreateResourceDefinition(Cust
 project.ExtendedAttributes.Add(resourceTextAttr);
 ```
 
-### أنظر أيضا
+يوضح كيفية إضافة خاصية موسعة إلى تعيين مورد.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// إضافة مهمة وموارد جديدة
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Rsc");
+var assignment = project.ResourceAssignments.Add(task, resource);
+{
+    // يمكن إنشاء الخصائص المخصصة التي تظهر في عرض "Resource Usage" باستخدام طريقة ExtendedAttributeDefinition.CreateResourceDefinition.
+    var resCostAttributeDefinition = ExtendedAttributeDefinition.CreateResourceDefinition(
+        CustomFieldType.Cost,
+        ExtendedAttributeResource.Cost5,
+        "My cost");
+
+    project.ExtendedAttributes.Add(resCostAttributeDefinition);
+
+    var value = resCostAttributeDefinition.CreateExtendedAttribute();
+
+    // نوع الخاصية هو "Cost"، لذا نحتاج إلى استخدام خاصية "NumericValue".
+    value.NumericValue = 1500;
+
+    assignment.ExtendedAttributes.Add(value);
+}
+
+{
+    // يمكن إنشاء الخصائص المخصصة التي تظهر في عرض "Task Usage" باستخدام طريقة ExtendedAttributeDefinition.CreateTaskDefinition.
+    var taskCostAttributeDefinition = ExtendedAttributeDefinition.CreateTaskDefinition(
+        CustomFieldType.Cost,
+        ExtendedAttributeTask.Cost5,
+        "My cost for task");
+
+    project.ExtendedAttributes.Add(taskCostAttributeDefinition);
+
+    var value = taskCostAttributeDefinition.CreateExtendedAttribute();
+
+    // نوع الخاصية هو "Cost"، لذا نحتاج إلى استخدام خاصية "NumericValue".
+    value.NumericValue = 2300;
+
+    assignment.ExtendedAttributes.Add(value);
+}
+
+project.Save(OutDir + "AddExtendedAttributesToResourceAssignment_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * enum [CustomFieldType](../../customfieldtype/)
 * enum [ExtendedAttributeResource](../../extendedattributeresource/)
 * class [ExtendedAttributeDefinition](../)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateResourceDefinition(ExtendedAttributeResource, string) {#createresourcedefinition_1}
 
-طريقة المصنع التي تنشئ تعريف سمة موسعة بسيطًا ، والذي يظهره Microsoft Project على أنه "بلا". يحتوي على[`CalculationType`](../calculationtype/) يساويNone ويمكن استخدامها في المورد فقط. أنت مطالب بالتحديد*fieldId* و*alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
+طريقة مصنع تنشئ تعريف خاصية موسعة بسيط، يظهر في Microsoft Project كـ "None". لديها [`CalculationType`](../calculationtype/) مساوية لـ None ويمكن استخدامها في الموارد فقط. يُطلب منك تحديد *fieldId* و *alias* عند استدعاء هذه الطريقة. يتم استنتاج نوع الحقل من معرف الحقل.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateResourceDefinition(
     ExtendedAttributeResource fieldId, string alias)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | المحدد[`ExtendedAttributeResource`](../../extendedattributeresource/) معرف المجال. |
-| alias | String | المحددString الاسم المستعار. |
+| fieldId | ExtendedAttributeResource | معرف الحقل المحدد لـ [`ExtendedAttributeResource`](../../extendedattributeresource/). |
+| الاسم المستعار | سلسلة | الاسم المستعار من نوع String المحدد. |
 
 ### قيمة الإرجاع
 
-تم إنشاء مثيل لـ[`ExtendedAttributeDefinition`](../) فئة مع المحدد*fieldId* و*alias*.
+تم إنشاء نسخة من الفئة [`ExtendedAttributeDefinition`](../) مع *fieldId* و *alias* المحددين.
 
-### أمثلة
+## الأمثلة
 
 استخدم هذا المثال لإنشاء تعريف حقل نص مخصص:
 
@@ -71,11 +117,27 @@ var resourceTextAttr = ExtendedAttributeDefinition.CreateResourceDefinition(Exte
 project.ExtendedAttributes.Add(resourceTextAttr);
 ```
 
-### أنظر أيضا
+يوضح كيفية إنشاء تعريف سمة موسعة وتعيين قيمة علم أثناء بنائه.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Cost);
+
+// إنشاء تعريف لحقل مخصص من نوع منطقي
+var definition = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Flag7, "My Custom Flag");
+
+// إنشاء سمة وتعيين القيمة الأولية إلى 'true'
+var attribute = definition.CreateExtendedAttribute(true);
+resource.ExtendedAttributes.Add(attribute);
+```
+
+### انظر أيضًا
 
 * enum [ExtendedAttributeResource](../../extendedattributeresource/)
 * class [ExtendedAttributeDefinition](../)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

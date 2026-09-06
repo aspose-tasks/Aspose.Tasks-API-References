@@ -1,37 +1,70 @@
 ---
-title: Class SaveTemplateOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.SaveTemplateOptions فصل. يسمح بتحديد خيارات إضافية عند حفظ مشروع كقالب.
+title: "فئة SaveTemplateOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.Saving.SaveTemplateOptions. تسمح بتحديد خيارات إضافية عند حفظ مشروع كقالب"
 type: docs
-weight: 1930
+weight: 2200
 url: /ar/net/aspose.tasks.saving/savetemplateoptions/
 ---
 ## SaveTemplateOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ مشروع كقالب.
+يسمح بتحديد خيارات إضافية عند حفظ المشروع كقالب.
 
 ```csharp
 public class SaveTemplateOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SaveTemplateOptions](savetemplateoptions/)() | Default_Constructor |
+| [SaveTemplateOptions](savetemplateoptions/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [RemoveActualValues](../../aspose.tasks.saving/savetemplateoptions/removeactualvalues/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إزالة جميع القيم الفعلية من قالب المشروع. |
-| [RemoveBaselineValues](../../aspose.tasks.saving/savetemplateoptions/removebaselinevalues/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إزالة جميع القيم الأساسية من قالب المشروع. |
-| [RemoveFixedCosts](../../aspose.tasks.saving/savetemplateoptions/removefixedcosts/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إزالة جميع التكاليف الثابتة من قالب المشروع. |
-| [RemoveResourceRates](../../aspose.tasks.saving/savetemplateoptions/removeresourcerates/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إزالة معدلات الموارد من قالب المشروع. |
+| [RemoveActualValues](../../aspose.tasks.saving/savetemplateoptions/removeactualvalues/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إزالة جميع القيم الفعلية من قالب المشروع. |
+| [RemoveBaselineValues](../../aspose.tasks.saving/savetemplateoptions/removebaselinevalues/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إزالة جميع القيم الأساسية من قالب المشروع. |
+| [RemoveFixedCosts](../../aspose.tasks.saving/savetemplateoptions/removefixedcosts/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إزالة جميع التكاليف الثابتة من قالب المشروع. |
+| [RemoveResourceRates](../../aspose.tasks.saving/savetemplateoptions/removeresourcerates/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إزالة معدلات الموارد من قالب المشروع. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية حفظ المشروع كقالب باستخدام الخيارات.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "EstimatedMilestoneTasks.mpp");
+
+Console.WriteLine("Project File Format: " + projectFileInfo.ProjectFileFormat);
+
+// إنشاء خيارات حفظ القالب
+// وتعديل خصائصه
+var options = new SaveTemplateOptions
+{
+    // تعيين قيمة تشير إلى ما إذا كان يجب إزالة جميع التكاليف الثابتة من قالب المشروع
+    RemoveFixedCosts = true,
+
+    // تعيين قيمة تشير إلى ما إذا كان يجب إزالة جميع القيم الفعلية من قالب المشروع
+    RemoveActualValues = true,
+
+    // تعيين قيمة تشير إلى ما إذا كان يجب إزالة معدلات الموارد من قالب المشروع
+    RemoveResourceRates = true,
+
+    // تعيين قيمة تشير إلى ما إذا كان يجب إزالة جميع القيم الأساسية من قالب المشروع
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(DataDir + "SaveProjectDataAsTemplate_out.mpt");
+Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

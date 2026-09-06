@@ -1,23 +1,56 @@
 ---
-title: ProjectServerSaveOptions.ProjectName
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectServerSaveOptions ملكية. الحصول على أو تعيين اسم المشروع المعروض في قائمة Project Server  Project Online. يجب أن تكون فريدة ضمن مثيل Project Server  Project Online. هل تم حذف القيمة  سيتم استخدام قيمة الخاصية Prj.Name بدلاً من ذلك.
+title: "ProjectServerSaveOptions.ProjectName"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ProjectServerSaveOptions. تحصل أو تعيين اسم المشروع الذي يُعرض في قائمة مشاريع Project Server  Project Online. يجب أن يكون فريداً داخل مثيل Project Server  Project Online. إذا تم حذف القيمة، سيتم استخدام قيمة الخاصية Prj.Name بدلاً منها"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/projectserversaveoptions/projectname/
 ---
 ## ProjectServerSaveOptions.ProjectName property
 
-الحصول على أو تعيين اسم المشروع المعروض في قائمة Project Server \ Project Online. يجب أن تكون فريدة ضمن مثيل Project Server \ Project Online. هل تم حذف القيمة ، سيتم استخدام قيمة الخاصية Prj.Name بدلاً من ذلك.
+يحصل أو يضبط اسم المشروع الذي يُعرض في قائمة مشاريع Project Server \ Project Online. يجب أن يكون فريدًا داخل مثيل Project Server \ Project Online. إذا تم حذف القيمة، سيتم استخدام قيمة الخاصية Prj.Name بدلاً من ذلك.
 
 ```csharp
 public string ProjectName { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية استخدام خيارات &lt;see cref="Aspose.Tasks.ProjectServerSaveOptions" /&gt; لإنشاء مشروع جديد في مثيل Project Server المحلي.
+
+```csharp
+try
+{
+    const string URL = "https://project_server.local/sites/pwa";
+    const string Domain = "CONTOSO.COM";
+    const string UserName = "Administrator";
+    const string Password = "MyPassword";
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+    var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+    var manager = new ProjectServerManager(projectServerCredentials);
+    var options = new ProjectServerSaveOptions
+                      {
+                          ProjectGuid = Guid.NewGuid(),
+                          ProjectName = "New project",
+                          Timeout = TimeSpan.FromMinutes(5),
+                          PollingInterval = TimeSpan.FromSeconds(3)
+                      };
+
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### انظر أيضًا
 
 * class [ProjectServerSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks](../../projectserversaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectserversaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

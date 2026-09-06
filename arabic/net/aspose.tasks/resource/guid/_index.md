@@ -1,23 +1,23 @@
 ---
-title: Resource.Guid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تحديد قيمة Guid .
+title: "Resource.Guid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل على أو يحدد قيمة Guid"
 type: docs
 weight: 350
 url: /ar/net/aspose.tasks/resource/guid/
 ---
 ## Resource.Guid property
 
-الحصول على أو تحديد قيمة Guid .
+يحصل أو يعيّن قيمة Guid.
 
 ```csharp
 public string Guid { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

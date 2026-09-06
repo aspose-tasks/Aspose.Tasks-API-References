@@ -1,24 +1,24 @@
 ---
-title: Task.DisplayAsSummary
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين DisplayAsSummary أم لا.
+title: "Task.DisplayAsSummary"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة تشير إلى ما إذا كان DisplayAsSummary مضبوطًا أم لا"
 type: docs
 weight: 310
 url: /ar/net/aspose.tasks/task/displayassummary/
 ---
 ## Task.DisplayAsSummary property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين DisplayAsSummary أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان DisplayAsSummary مضبوطًا أم لا.
 
 ```csharp
 public NullableBool DisplayAsSummary { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

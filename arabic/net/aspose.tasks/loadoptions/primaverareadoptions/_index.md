@@ -1,24 +1,47 @@
 ---
-title: LoadOptions.PrimaveraReadOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: LoadOptions ملكية. الحصول على أو تعيين مثيل محدد لملفPrimaveraReadOptions فئة يمكن استخدامها لتخصيص سلوك تحميل تنسيقات Primavera Primavera P6 XER أو Primavera P6 Xml .
+title: "LoadOptions.PrimaveraReadOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية LoadOptions. تحصل أو تعيّن نسخة محددة من فئة PrimaveraReadOptions التي يمكن استخدامها لتخصيص سلوك تحميل صيغ Primavera مثل Primavera P6 XER أو Primavera P6 Xml"
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.tasks/loadoptions/primaverareadoptions/
 ---
 ## LoadOptions.PrimaveraReadOptions property
 
-الحصول على أو تعيين مثيل محدد لملف[`PrimaveraReadOptions`](../../primaverareadoptions/) فئة يمكن استخدامها لتخصيص سلوك تحميل تنسيقات Primavera (Primavera P6 XER أو Primavera P6 Xml) .
+تحصل أو تعيّن نسخة محددة من الفئة [`PrimaveraReadOptions`](../../primaverareadoptions/) التي يمكن استخدامها لتخصيص سلوك تحميل صيغ Primavera (Primavera P6 XER أو Primavera P6 Xml).
 
 ```csharp
 public PrimaveraReadOptions PrimaveraReadOptions { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تحميل مشروع Primavera بالمعرف المحدد باستخدام &lt;see cref="LoadOptions" /&gt;.
+
+```csharp
+var loadOptions = new LoadOptions();
+
+var primaveraOptions = new PrimaveraReadOptions()
+{
+    ProjectUid = 3882,
+    UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
+    PreserveUids = true
+};
+
+// تعيين خيارات قراءة Primavera
+loadOptions.PrimaveraReadOptions = primaveraOptions;
+
+var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
+Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+
+// العمل مع المشروع...
+```
+
+### انظر أيضًا
 
 * class [PrimaveraReadOptions](../../primaverareadoptions/)
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Tasks](../../loadoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../loadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

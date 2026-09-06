@@ -1,23 +1,23 @@
 ---
-title: PdfSaveOptions.SaveToSeparateFiles
-second_title: Aspose.Tasks لمرجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم حفظ صفحات المشروع في ملفات منفصلة.
+title: "PdfSaveOptions.SaveToSeparateFiles"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PdfSaveOptions. تحصل أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ صفحات المشروع في ملفات منفصلة"
 type: docs
-weight: 100
+weight: 90
 url: /ar/net/aspose.tasks.saving/pdfsaveoptions/savetoseparatefiles/
 ---
 ## PdfSaveOptions.SaveToSeparateFiles property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم حفظ صفحات المشروع في ملفات منفصلة.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان سيتم حفظ صفحات المشروع إلى ملفات منفصلة.
 
 ```csharp
 public bool SaveToSeparateFiles { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

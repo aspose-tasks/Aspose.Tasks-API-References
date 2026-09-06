@@ -1,24 +1,24 @@
 ---
-title: Resource.Overallocated
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين إجمالي التحميل أم لا.
+title: "Resource.Overallocated"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة تشير إلى ما إذا كان Overallocated مضبوطًا أم لا"
 type: docs
-weight: 560
+weight: 550
 url: /ar/net/aspose.tasks/resource/overallocated/
 ---
 ## Resource.Overallocated property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين "إجمالي التحميل" أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان Overallocated مضبوطًا أم لا.
 
 ```csharp
 public NullableBool Overallocated { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

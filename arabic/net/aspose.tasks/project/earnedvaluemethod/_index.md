@@ -1,24 +1,24 @@
 ---
-title: Project.EarnedValueMethod
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة لـ EarnedValueMethod.
+title: "Project.EarnedValueMethod"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة EarnedValueMethod"
 type: docs
-weight: 390
+weight: 400
 url: /ar/net/aspose.tasks/project/earnedvaluemethod/
 ---
 ## Project.EarnedValueMethod property
 
-الحصول على أو تعيين قيمة لـ EarnedValueMethod.
+يحصل أو يعيّن قيمة لـ EarnedValueMethod.
 
 ```csharp
 public EarnedValueMethodType EarnedValueMethod { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

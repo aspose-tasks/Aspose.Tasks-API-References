@@ -1,14 +1,14 @@
 ---
-title: ReadOnlyCollectionBase1.GetEnumerator
-second_title: Aspose.Tasks لمرجع .NET API
-description: ReadOnlyCollectionBase طريقة. إرجاع عداد لهذه المجموعة.
+title: "ReadOnlyCollectionBase1.GetEnumerator"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ReadOnlyCollectionBase. تُرجع عدادًا (enumerator) لهذه المجموعة."
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/readonlycollectionbase-1/getenumerator/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.GetEnumerator method
 
-إرجاع عداد لهذه المجموعة.
+يرجع عدادًا لهذه المجموعة.
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -18,10 +18,10 @@ public IEnumerator<T> GetEnumerator()
 
 عداد لهذه المجموعة.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Tasks](../../readonlycollectionbase-1/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

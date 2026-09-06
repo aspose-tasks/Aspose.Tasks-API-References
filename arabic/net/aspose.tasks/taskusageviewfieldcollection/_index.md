@@ -1,30 +1,51 @@
 ---
-title: Class TaskUsageViewFieldCollection
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.TaskUsageViewFieldCollection فصل. يمثل مجموعة منTaskUsageViewField القيم .
+title: "الفئة TaskUsageViewFieldCollection"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.TaskUsageViewFieldCollection. تمثل مجموعة من قيم TaskUsageViewField"
 type: docs
-weight: 2190
+weight: 2500
 url: /ar/net/aspose.tasks/taskusageviewfieldcollection/
 ---
 ## TaskUsageViewFieldCollection class
 
-يمثل مجموعة من[`TaskUsageViewField`](../taskusageviewfield/) القيم .
+تمثل مجموعة من قيم [`TaskUsageViewField`](../taskusageviewfield/).
 
 ```csharp
 public class TaskUsageViewFieldCollection : IList<TaskUsageViewField>
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.tasks/taskusageviewfieldcollection/getenumerator/)() | إرجاع عداد لهذه المجموعة. |
-| [ToList](../../aspose.tasks/taskusageviewfieldcollection/tolist/)() | إرجاع قائمة تحتوي على كافة العناصر من هذه المجموعة. |
+| [GetEnumerator](../../aspose.tasks/taskusageviewfieldcollection/getenumerator/)() | يرجع عدادًا لهذه المجموعة. |
+| [ToList](../../aspose.tasks/taskusageviewfieldcollection/tolist/)() | يرجع قائمة تحتوي على جميع العناصر من هذه المجموعة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية التعامل مع مجموعة الحقول لنسخة TaskUsageView.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = (TaskUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// يمكن تحويل المجموعة إلى قائمة من TaskUsageViewField.
+IList<TaskUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### انظر أيضًا
 
 * enum [TaskUsageViewField](../taskusageviewfield/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

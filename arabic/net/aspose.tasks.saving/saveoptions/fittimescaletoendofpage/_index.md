@@ -1,23 +1,23 @@
 ---
-title: SaveOptions.FitTimescaleToEndOfPage
-second_title: Aspose.Tasks لمرجع .NET API
-description: SaveOptions ملكية. الحصول على أو تحديد ما إذا كان يجب عرض قسم التقويم في طريقة العرض إلى نهاية الصفحة الأخيرة الجانب الأيمن . إذا كانت القيمة خاطئة  فسيتم تقديم قسم التقويم تمامًا إلى تاريخ الانتهاء  حتى إذا كانت هناك مساحة فارغة على الصفحة.
+title: "SaveOptions.FitTimescaleToEndOfPage"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية SaveOptions. يحصل أو يحدد ما إذا كان يجب عرض قسم التقويم في عرض إلى النهاية على الجانب الأيمن من الصفحة الأخيرة. إذا كانت القيمة false يتم عرض قسم التقويم بالضبط حتى EndDate حتى وإن كان هناك مساحة فارغة في الصفحة"
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks.saving/saveoptions/fittimescaletoendofpage/
 ---
 ## SaveOptions.FitTimescaleToEndOfPage property
 
-الحصول على أو تحديد ما إذا كان يجب عرض قسم التقويم في طريقة العرض إلى نهاية الصفحة الأخيرة (الجانب الأيمن) . إذا كانت القيمة خاطئة ، فسيتم تقديم قسم التقويم تمامًا إلى تاريخ الانتهاء ، حتى إذا كانت هناك مساحة فارغة على الصفحة.
+يحصل أو يحدد ما إذا كان يجب عرض قسم التقويم في عرض إلى النهاية (الجانب الأيمن) من الصفحة الأخيرة. إذا كانت القيمة false، يتم عرض قسم التقويم بالضبط حتى EndDate، حتى وإن كان هناك مساحة فارغة في الصفحة.
 
 ```csharp
 public bool FitTimescaleToEndOfPage { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../saveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

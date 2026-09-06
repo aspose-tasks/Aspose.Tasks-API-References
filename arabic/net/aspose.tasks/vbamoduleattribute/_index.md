@@ -1,37 +1,55 @@
 ---
-title: Class VbaModuleAttribute
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.VbaModuleAttribute فصل. سمة ملفVbaModule كائن
+title: "فئة VbaModuleAttribute"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.VbaModuleAttribute. السمة لكائن VbaModule."
 type: docs
-weight: 2500
+weight: 2820
 url: /ar/net/aspose.tasks/vbamoduleattribute/
 ---
 ## VbaModuleAttribute class
 
-سمة ملف[`VbaModule`](../vbamodule/) كائن
+السمة لكائن [`VbaModule`](../vbamodule/).
 
 ```csharp
-public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
+public sealed class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 ```
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Key](../../aspose.tasks/vbamoduleattribute/key/) { get; } | الحصول على مفتاح سمة الوحدة النمطية لـ VBA . |
-| [Value](../../aspose.tasks/vbamoduleattribute/value/) { get; } | يحصل على قيمة سمة الوحدة النمطية لـ VBA . |
+| [Key](../../aspose.tasks/vbamoduleattribute/key/) { get; } | يحصل أو يعيّن المفتاح لسمة وحدة VBA. |
+| [Value](../../aspose.tasks/vbamoduleattribute/value/) { get; } | يحصل أو يعيّن القيمة لسمة وحدة VBA. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals_1)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي المحدد`VbaModuleAttribute` الكائن . |
-| [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals)(VbaModuleAttribute) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي المحدد`VbaModuleAttribute` الكائن . |
-| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode/)() | إرجاع قيمة رمز تجزئة لهذا`VbaModuleAttribute` . |
+| override [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals_1)(object) | يعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن `VbaModuleAttribute` المحدد. |
+| [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals)(VbaModuleAttribute) | يعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن `VbaModuleAttribute` المحدد. |
+| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode/)() | يعيد قيمة تجزئة (hash code) لهذا `VbaModuleAttribute`. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يظهر كيفية العمل مع سمات وحدة VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

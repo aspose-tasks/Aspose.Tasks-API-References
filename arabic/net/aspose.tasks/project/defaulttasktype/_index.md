@@ -1,24 +1,24 @@
 ---
-title: Project.DefaultTaskType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة DefaultTaskType .
+title: "Project.DefaultTaskType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة DefaultTaskType"
 type: docs
-weight: 340
+weight: 350
 url: /ar/net/aspose.tasks/project/defaulttasktype/
 ---
 ## Project.DefaultTaskType property
 
-الحصول على أو تعيين قيمة DefaultTaskType .
+يحصل أو يعيّن قيمة لـ DefaultTaskType.
 
 ```csharp
 public TaskType DefaultTaskType { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TaskType](../../tasktype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

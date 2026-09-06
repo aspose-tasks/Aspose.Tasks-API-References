@@ -1,9 +1,9 @@
 ---
-title: Prj.DefaultFinishTime
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. وقت الانتهاء الافتراضي للمهام الجديدة.
+title: "Prj.DefaultFinishTime"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. وقت الانتهاء الافتراضي للمهام الجديدة"
 type: docs
-weight: 220
+weight: 230
 url: /ar/net/aspose.tasks/prj/defaultfinishtime/
 ---
 ## Prj.DefaultFinishTime field
@@ -14,12 +14,24 @@ url: /ar/net/aspose.tasks/prj/defaultfinishtime/
 public static readonly Key<DateTime, PrjKey> DefaultFinishTime;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Prj.DefaultFinishTime.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.DefaultFinishTime, new DateTime(2000, 1, 3, 10, 0, 0));
+
+Console.WriteLine("Default Finish Time: " + project.Get(Prj.DefaultFinishTime));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

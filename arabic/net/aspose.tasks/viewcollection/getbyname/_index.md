@@ -1,32 +1,32 @@
 ---
-title: ViewCollection.GetByName
-second_title: Aspose.Tasks لمرجع .NET API
-description: ViewCollection طريقة. يبحث عن طريقة عرض بالاسم  ويعيد التواجد الأول ضمن المجموعة.
+title: "ViewCollection.GetByName"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ViewCollection. تبحث عن View بالاسم وتعيد أول ظهور داخل المجموعة"
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks/viewcollection/getbyname/
 ---
 ## ViewCollection.GetByName method
 
-يبحث عن طريقة عرض بالاسم ، ويعيد التواجد الأول ضمن المجموعة.
+يبحث عن View بالاسم، ويعيد أول ظهور داخل المجموعة.
 
 ```csharp
 public View GetByName(string viewName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| viewName | String | اسم طريقة العرض للبحث. |
+| viewName | سلسلة | اسم الـ View للبحث عنه. |
 
 ### قيمة الإرجاع
 
-أول عرض في المجموعة بالاسم المحدد ، إذا وجد ؛ خلاف ذلك ، لاغية.
+أول View في المجموعة بالاسم المحدد، إذا وجد؛ وإلا، null.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [View](../../view/)
 * class [ViewCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../viewcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../viewcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

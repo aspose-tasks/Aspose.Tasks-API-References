@@ -1,23 +1,63 @@
 ---
-title: TimelineView.TextLinesCount
-second_title: Aspose.Tasks لمرجع .NET API
-description: TimelineView ملكية. الحصول على أو تعيين قيمة تشير إلى عدد الأسطر المستخدمة لعرض المهمة في مخطط زمني.
+title: "TimelineView.TextLinesCount"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية TimelineView. يحصل على أو يضبط قيمة تُشير إلى عدد الأسطر المستخدمة لعرض المهمة في المخطط الزمني"
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks/timelineview/textlinescount/
 ---
 ## TimelineView.TextLinesCount property
 
-الحصول على أو تعيين قيمة تشير إلى عدد الأسطر المستخدمة لعرض المهمة في مخطط زمني.
+يحصل أو يضبط قيمة تشير إلى عدد الخطوط المستخدمة لعرض المهمة في المخطط الزمني.
 
 ```csharp
 public int TextLinesCount { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية العمل مع &lt;see cref="Aspose.Tasks.TimelineView" /&gt;.
+
+```csharp
+var project = new Project();
+
+// تهيئة عرض زمني
+var view = new TimelineView();
+
+// ضبط قيمة تشير إلى كيفية تنسيق التواريخ في عرض Timeline.
+view.DateFormat = DateFormat.DateDddDd;
+// ضبط قيمة تشير إلى ما إذا كان سيتم عرض المهام المتداخلة على عدة صفوف.
+view.DisplayOverlapped = true;
+// ضبط قيمة تشير إلى ما إذا كان سيتم إظهار التحكم في التحريك والتكبير.
+view.ShowPanZoom = true;
+// ضبط قيمة تشير إلى ما إذا كان سيتم إظهار مقياس الوقت.
+view.ShowTimescale = true;
+// ضبط قيمة تشير إلى ما إذا كان سيتم عرض خط يمثل اليوم.
+view.ShowToday = true;
+// ضبط قيمة تشير إلى عدد الخطوط المستخدمة لعرض المهمة في المخطط الزمني.
+view.TextLinesCount = 2;
+
+// يحصل على قيمة تشير إلى ما إذا كان سيتم عرض المهام المتداخلة على عدة صفوف.
+Console.WriteLine("Show Dates: " + view.ShowDates);
+
+// إضافة العرض إلى المشروع
+project.Views.Add(view);
+
+// إضافة بعض بيانات الاختبار إلى المشروع
+var task1 = project.RootTask.Children.Add("Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 29, 8, 0, 0));
+task1.Set(Tsk.Duration, task1.ParentProject.GetDuration(24, TimeUnitType.Hour));
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2020, 4, 29, 8, 0, 0));
+task2.Set(Tsk.Duration, task1.ParentProject.GetDuration(40, TimeUnitType.Hour));
+
+project.Save(OutDir + "SetTimeScaleCount_out.pdf", SaveFileFormat.Pdf);
+```
+
+### انظر أيضًا
 
 * class [TimelineView](../)
-* مساحة الاسم [Aspose.Tasks](../../timelineview/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timelineview/)
+* assembly [Aspose.Tasks](../../../)
 
 

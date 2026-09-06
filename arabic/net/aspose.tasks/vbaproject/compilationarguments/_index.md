@@ -1,23 +1,37 @@
 ---
-title: VbaProject.CompilationArguments
-second_title: Aspose.Tasks لمرجع .NET API
-description: VbaProject ملكية. يحصل على وسيطات الترجمة الشرطية
+title: "VbaProject.CompilationArguments"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VbaProject. يحصل على وسائط التجميع الشرطية"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/vbaproject/compilationarguments/
 ---
 ## VbaProject.CompilationArguments property
 
-يحصل على وسيطات الترجمة الشرطية
+يحصل على وسائط التجميع الشرطية
 
 ```csharp
 public string CompilationArguments { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة خصائص مشروع VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("VbaProject.Name " + project.VbaProject.Name);
+Console.WriteLine("VbaProject.Description " + project.VbaProject.Description);
+Console.WriteLine("VbaProject.CompilationArguments" + project.VbaProject.CompilationArguments);
+Console.WriteLine("VbaProject.HelpContextId" + project.VbaProject.HelpContextId);
+Console.WriteLine("VbaProject.HelpFile" + project.VbaProject.HelpFile);
+```
+
+### انظر أيضًا
 
 * class [VbaProject](../)
-* مساحة الاسم [Aspose.Tasks](../../vbaproject/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbaproject/)
+* assembly [Aspose.Tasks](../../../)
 
 

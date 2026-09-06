@@ -1,33 +1,33 @@
 ---
-title: Class EntityFieldAttribute
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Attributes.EntityFieldAttribute فصل. يمثل سمة لخصائص الكيان .
+title: "فئة EntityFieldAttribute"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.Attributes.EntityFieldAttribute. تمثل سمة لخصائص الكيان."
 type: docs
 weight: 70
 url: /ar/net/aspose.tasks.attributes/entityfieldattribute/
 ---
 ## EntityFieldAttribute class
 
-يمثل سمة لخصائص الكيان .
+يمثل سمة لخصائص الكيان.
 
 ```csharp
 [AttributeUsage(AttributeTargets.Property)]
 public class EntityFieldAttribute : Attribute
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EntityFieldAttribute](entityfieldattribute/)() | Default_Constructor |
+| [EntityFieldAttribute](entityfieldattribute/)() | المنشئ الافتراضي. |
 
-### ملاحظات
+## ملاحظات
 
-السمة المستخدمة لـ[`Task`](../../aspose.tasks/task/) و[`Resource`](../../aspose.tasks/resource/) و[`Project`](../../aspose.tasks/project/) و[`ResourceAssignment`](../../aspose.tasks/resourceassignment/) خصائص الكيان فقط ، ويبسط تعدادها.
+السمة المستخدمة لـ [`Task`](../../aspose.tasks/task/)، [`Resource`](../../aspose.tasks/resource/)، [`Project`](../../aspose.tasks/project/) و[`ResourceAssignment`](../../aspose.tasks/resourceassignment/) خصائص الكيان فقط، وتبسط تعدادها.
 
-### أمثلة
+## الأمثلة
 
-كيفية تعداد الخصائص باستخدام **EntityField** السمة:
+كيفية تعداد الخصائص باستخدام السمة **EntityField**:
 
 ```csharp
 [C#]
@@ -42,9 +42,9 @@ foreach (var task in project.SelectAllChildTasks())
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
+* assembly [Aspose.Tasks](../../)
 
 

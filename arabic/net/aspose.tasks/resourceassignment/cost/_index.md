@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Cost
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على قيمة التكلفة أو تعيينها.
+title: "ResourceAssignment.Cost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعين قيمة Cost"
 type: docs
 weight: 190
 url: /ar/net/aspose.tasks/resourceassignment/cost/
 ---
 ## ResourceAssignment.Cost property
 
-الحصول على قيمة التكلفة أو تعيينها.
+يحصل أو يعيّن قيمة Cost.
 
 ```csharp
 public decimal Cost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

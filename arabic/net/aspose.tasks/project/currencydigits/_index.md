@@ -1,23 +1,23 @@
 ---
-title: Project.CurrencyDigits
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة CurrencyDigits .
+title: "Project.CurrencyDigits"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. تحصل أو تعين قيمة CurrencyDigits"
 type: docs
-weight: 200
+weight: 210
 url: /ar/net/aspose.tasks/project/currencydigits/
 ---
 ## Project.CurrencyDigits property
 
-الحصول على أو تحديد قيمة CurrencyDigits .
+يحصل أو يعيّن قيمة لـ CurrencyDigits.
 
 ```csharp
 public int CurrencyDigits { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

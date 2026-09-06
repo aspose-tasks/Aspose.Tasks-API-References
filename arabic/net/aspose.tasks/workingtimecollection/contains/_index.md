@@ -1,32 +1,32 @@
 ---
-title: WorkingTimeCollection.Contains
-second_title: Aspose.Tasks لمرجع .NET API
-description: WorkingTimeCollection طريقة. للتحقق مما إذا كان العنصر المحدد موجودًا في القائمة. يقوم بإجراء بحث خطي O n .
+title: "WorkingTimeCollection.Contains"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة WorkingTimeCollection. تتحقق مما إذا كان العنصر المحدد موجودًا في القائمة. تقوم ببحث خطي"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/workingtimecollection/contains/
 ---
 ## WorkingTimeCollection.Contains method
 
-للتحقق مما إذا كان العنصر المحدد موجودًا في القائمة. يقوم بإجراء بحث خطي O (n) .
+يتحقق مما إذا كان العنصر المحدد موجودًا في القائمة. ينفذ بحثًا خطيًا O(n).
 
 ```csharp
 public bool Contains(WorkingTime item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| item | WorkingTime | العنصر المحدد. |
+| العنصر | WorkingTime | العنصر المحدد. |
 
 ### قيمة الإرجاع
 
-صحيح ، إذا تم العثور على عنصر محدد في القائمة ، خطأ في خلاف ذلك.
+صحيح إذا تم العثور على العنصر المحدد في القائمة، خطأ خلاف ذلك.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../workingtimecollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

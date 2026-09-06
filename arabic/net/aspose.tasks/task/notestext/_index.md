@@ -1,23 +1,23 @@
 ---
-title: Task.NotesText
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة NotesText .
+title: "Task.NotesText"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يعيّن قيمة لـ NotesText"
 type: docs
-weight: 880
+weight: 870
 url: /ar/net/aspose.tasks/task/notestext/
 ---
 ## Task.NotesText property
 
-الحصول على أو تحديد قيمة NotesText .
+يحصل أو يعيّن قيمة لـ NotesText.
 
 ```csharp
 public string NotesText { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Resource.Phonetics
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة الصوتيات أو تعيينها.
+title: "Resource.Phonetics"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يعيّن قيمة Phonetics"
 type: docs
-weight: 640
+weight: 630
 url: /ar/net/aspose.tasks/resource/phonetics/
 ---
 ## Resource.Phonetics property
 
-الحصول على قيمة الصوتيات أو تعيينها.
+يحصل أو يعيّن قيمة لـ Phonetics.
 
 ```csharp
 public string Phonetics { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

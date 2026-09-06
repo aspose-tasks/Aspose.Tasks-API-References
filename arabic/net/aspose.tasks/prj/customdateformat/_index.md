@@ -1,25 +1,37 @@
 ---
-title: Prj.CustomDateFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. عرض المشروع بتنسيق التاريخ المخصص. تستخدم لتنسيق التواريخ عندماDateFormat تم تعيين الخاصية علىCustom .
+title: "Prj.CustomDateFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. تنسيق التاريخ المخصص لعرض المشروع. يُستخدم لتنسيق التواريخ عندما تكون الخاصية DateFormat مضبوطة على Custom"
 type: docs
-weight: 190
+weight: 200
 url: /ar/net/aspose.tasks/prj/customdateformat/
 ---
 ## Prj.CustomDateFormat field
 
-عرض المشروع بتنسيق التاريخ المخصص. تستخدم لتنسيق التواريخ عندما[`DateFormat`](../dateformat/) تم تعيين الخاصية علىCustom .
+تنسيق التاريخ المخصص لعرض المشروع. يُستخدم لتنسيق التواريخ عندما تكون الخاصية [`DateFormat`](../dateformat/) مضبوطة على Custom.
 
 ```csharp
 public static readonly Key<string, PrjKey> CustomDateFormat;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة الخاصية Prj.CustomDateFormat.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CustomDateFormat, "dd MMMM yyyy H:mm");
+
+Console.WriteLine("Custom Date Format: " + project.Get(Prj.CustomDateFormat));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,63 @@
 ---
-title: OutlineMask.Length
-second_title: Aspose.Tasks لمرجع .NET API
-description: OutlineMask ملكية. الحصول على أو تعيين الحد الأقصى للطول بالأحرف لقيم كود المخطط التفصيلي. 0 إذا لم يتم تحديد الطول.
+title: "OutlineMask.Length"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية OutlineMask. تحصل أو تعيين الحد الأقصى للطول بالأحرف لقيم رموز المخطط. 0 إذا لم يتم تعريف الطول"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/outlinemask/length/
 ---
 ## OutlineMask.Length property
 
-الحصول على أو تعيين الحد الأقصى للطول (بالأحرف) لقيم كود المخطط التفصيلي. 0 إذا لم يتم تحديد الطول.
+يحصل أو يعيّن الحد الأقصى للطول (بالحروف) لقيم رمز المخطط. 0 إذا لم يتم تعريف الطول.
 
 ```csharp
 public int Length { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع أقنعة المخطط التفصيلي.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+
+project.OutlineCodes.Add(outline);
+
+var mask = new OutlineMask();
+
+// اضبط نوع القناع
+mask.Type = MaskType.Characters;
+
+// اضبط الفاصل لقيم الشيفرة
+mask.Separator = "/";
+
+// اضبط مستوى القناع
+mask.Level = 1;
+
+// اضبط الحد الأقصى للطول (بالحروف) لقيم الشيفرة التفصيلية. 0 إذا لم يتم تعريف الطول.
+mask.Length = 2;
+
+// أضف القناع إلى التعريف
+outline.Masks.Add(mask);
+
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+
+// ...
+```
+
+### انظر أيضًا
 
 * class [OutlineMask](../)
-* مساحة الاسم [Aspose.Tasks](../../outlinemask/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinemask/)
+* assembly [Aspose.Tasks](../../../)
 
 

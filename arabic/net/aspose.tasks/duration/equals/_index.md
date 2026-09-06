@@ -1,55 +1,93 @@
 ---
-title: Duration.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: Duration طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+title: "Duration.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Duration. تُعيد قيمة تُشير إلى ما إذا كانت هذه النسخة مساوية لكائن محدد"
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks/duration/equals/
 ---
 ## Equals(Duration) {#equals}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public bool Equals(Duration other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| other | Duration | الكائن المراد مقارنته مع هذا المثال. |
+| آخر | المدة | الكائن للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-عائدات **حقيقي**إذا كان مثيل Duration الآخر له نفس قيم TimeSpan و TimeUnit مثل هذا المثال ؛ خلاف ذلك، **خطأ شنيع**.
+تُعيد **True** إذا كانت نسخة Duration الأخرى لديها نفس قيم TimeSpan و TimeUnit مثل هذه النسخة؛ وإلا، **false**.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية التحقق من مساواة المدة.
+
+```csharp
+var project = new Project();
+
+var duration1 = project.GetDuration(1, TimeUnitType.Day);
+var duration2 = project.GetDuration(1, TimeUnitType.Day);
+var duration3 = project.GetDuration(1, TimeUnitType.Hour);
+
+// يتم فحص مساواة المدة مقابل الفاصل الزمني الأساسي.
+Console.WriteLine("Duration 1: " + duration1.TimeSpan);
+Console.WriteLine("Duration 2: " + duration2.TimeSpan);
+Console.WriteLine("Duration 3: " + duration3.TimeSpan);
+Console.WriteLine("Are durations 1 and 2 equal: " + duration1.Equals(duration2));
+Console.WriteLine("Are durations 1 and 3 equal: " + duration1.Equals(duration3));
+```
+
+### انظر أيضًا
 
 * struct [Duration](../)
-* مساحة الاسم [Aspose.Tasks](../../duration/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المراد مقارنته مع هذا المثال. |
+| obj | كائن | الكائن للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-**حقيقي** إذا كان الكائن المحدد عبارة عن مدة لها نفس قيم TimeSpan و TimeUnit مثل هذا المثال ؛ خلاف ذلك، **خطأ شنيع**.
+**True** if the specified object is a Duration that has the same TimeSpan and TimeUnit values as this instance; otherwise, **false**.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية التحقق من مساواة المدة.
+
+```csharp
+var project = new Project();
+
+var duration1 = project.GetDuration(1, TimeUnitType.Day);
+var duration2 = project.GetDuration(1, TimeUnitType.Day);
+var duration3 = project.GetDuration(1, TimeUnitType.Hour);
+
+// يتم فحص مساواة المدة مقابل الفاصل الزمني الأساسي.
+Console.WriteLine("Duration 1: " + duration1.TimeSpan);
+Console.WriteLine("Duration 2: " + duration2.TimeSpan);
+Console.WriteLine("Duration 3: " + duration3.TimeSpan);
+Console.WriteLine("Are durations 1 and 2 equal: " + duration1.Equals(duration2));
+Console.WriteLine("Are durations 1 and 3 equal: " + duration1.Equals(duration3));
+```
+
+### انظر أيضًا
 
 * struct [Duration](../)
-* مساحة الاسم [Aspose.Tasks](../../duration/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

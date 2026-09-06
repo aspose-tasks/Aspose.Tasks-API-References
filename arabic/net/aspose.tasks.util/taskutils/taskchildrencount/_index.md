@@ -1,32 +1,45 @@
 ---
-title: TaskUtils.TaskChildrenCount
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskUtils طريقة. يقوم بحساب عدد من المهام الفرعية للمهمة بشكل متكرر عبر جميع المستويات.
+title: "TaskUtils.TaskChildrenCount"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskUtils. تحسب بشكل متكرر عدد مهام الأطفال عبر جميع المستويات."
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks.util/taskutils/taskchildrencount/
 ---
 ## TaskUtils.TaskChildrenCount method
 
-يقوم بحساب عدد من المهام الفرعية للمهمة بشكل متكرر عبر جميع المستويات.
+يحسب بشكل متكرر عدد مهام الأطفال لمهمة عبر جميع المستويات.
 
 ```csharp
 public static int TaskChildrenCount(Task task)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| task | Task | المهمة التي يحسبها الأطفال. |
+| مهمة | مهمة | المهمة التي يتم حساب أطفالها. |
 
 ### قيمة الإرجاع
 
-عدد الاطفال.
+عدد الأطفال.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية استخدام طريقة &lt;see cref=\"Aspose.Tasks.Util.TaskUtils.TaskChildrenCount\" /&gt;.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// تحسب بشكل متكرر عدد مهام الأطفال للمهمة عبر جميع المستويات.
+var count = TaskUtils.TaskChildrenCount(project.RootTask);
+
+Console.WriteLine("Number of tasks: " + count);
+```
+
+### انظر أيضًا
 
 * class [Task](../../../aspose.tasks/task/)
 * class [TaskUtils](../)
-* مساحة الاسم [Aspose.Tasks.Util](../../taskutils/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../taskutils/)
+* assembly [Aspose.Tasks](../../../)
 
 

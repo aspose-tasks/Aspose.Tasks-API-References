@@ -1,39 +1,53 @@
 ---
-title: Enum RateFormatType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.RateFormatType تعداد. تحديد الوحدات التي يستخدمها Microsoft Project لعرض معدل .
+title: "التعداد RateFormatType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "التعداد Aspose.Tasks.RateFormatType. يحدد الوحدات التي يستخدمها Microsoft Project لعرض المعدل"
 type: docs
-weight: 1390
+weight: 1640
 url: /ar/net/aspose.tasks/rateformattype/
 ---
 ## RateFormatType enumeration
 
-تحديد الوحدات التي يستخدمها Microsoft Project لعرض معدل .
+يحدد الوحدات التي يستخدمها Microsoft Project لعرض المعدل.
 
 ```csharp
 public enum RateFormatType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Undefined | `-1` | لم يتم تحديد القيمة في ملف المشروع الأصلي. |
-| Minute | `0` | دقيقة ("دقيقة") |
+| Undefined | `-1` | القيمة لم تُعرّف في ملف المشروع الأصلي. |
+| Minute | `0` | دقيقة ("min") |
 | Hour | `1` | ساعة ("hr") |
-| Day | `2` | يوم ("يوم") |
+| Day | `2` | يوم ("day") |
 | Week | `3` | أسبوع ("wk") |
-| Month | `4` | شهر ("شهر") |
-| Year | `5` | السنة ("yr") |
-| MaterialResourceRate | `6` | معدل موارد المواد (فارغ) |
+| Month | `4` | شهر ("mo") |
+| Year | `5` | سنة ("yr") |
+| MaterialResourceRate | `6` | معدل مورد المادة (فارغ) |
 
-### ملاحظات
+## ملاحظات
 
-أثناء التصدير إلى XML ، سيتم حذف القيم غير المعرفة من XML الناتج.
+أثناء التصدير إلى XML سيتم حذف القيم غير المعرفة من XML الناتج.
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية قراءة/كتابة الخاصية Rsc.StandardRateFormat.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.StandardRateFormat, RateFormatType.Hour);
+
+Console.WriteLine("Standard Rate Format: " + resource.Get(Rsc.StandardRateFormat));
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

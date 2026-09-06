@@ -1,23 +1,23 @@
 ---
-title: Task.ActivityId
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. يمثل حقل معرف النشاط  معرف فريد للمهمة يستخدمه Primavera. ينطبق فقط على مشاريع بريمافيرا.
+title: "Task.ActivityId"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تمثل حقل معرف النشاط، معرف فريد للمهمة يستخدمه Primavera. ينطبق فقط على مشاريع Primavera"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/task/activityid/
 ---
 ## Task.ActivityId property
 
-يمثل حقل معرف النشاط - معرف فريد للمهمة يستخدمه Primavera. (ينطبق فقط على مشاريع بريمافيرا).
+تمثل حقل معرف النشاط - المعرف الفريد للمهمة المستخدم في Primavera. (ينطبق فقط على مشاريع Primavera).
 
 ```csharp
 public string ActivityId { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

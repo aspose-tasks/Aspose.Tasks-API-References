@@ -1,44 +1,61 @@
 ---
-title: Class ChildTasksCollector
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Util.ChildTasksCollector فصل. لتجميع كافة المهام الفرعية .
+title: "الفئة ChildTasksCollector"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.Util.ChildTasksCollector. تجمع جميع المهام الفرعية"
 type: docs
-weight: 2370
+weight: 2690
 url: /ar/net/aspose.tasks.util/childtaskscollector/
 ---
 ## ChildTasksCollector class
 
-لتجميع كافة المهام الفرعية .
+يجمع جميع المهام الفرعية.
 
 ```csharp
 public class ChildTasksCollector : TreeAlgorithmBase<Task>
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ChildTasksCollector](childtaskscollector/)() | يقوم بتهيئة مثيل جديد لملف`ChildTasksCollector` فئة . |
+| [ChildTasksCollector](childtaskscollector/)() | يُنشئ مثيلًا جديدًا للفئة `ChildTasksCollector`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Tasks](../../aspose.tasks.util/childtaskscollector/tasks/) { get; } | الحصول على قائمة كائنات فرعية مجمعة (مهام) . |
+| [Tasks](../../aspose.tasks.util/childtaskscollector/tasks/) { get; } | يحصل على قائمة بالكائنات الفرعية المجمعة (المهام). |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Alg](../../aspose.tasks.util/childtaskscollector/alg/)(Task, int) | يعالج الكائن المحدد . |
+| override [Alg](../../aspose.tasks.util/childtaskscollector/alg/)(Task, int) | يعالج الكائن المحدد. |
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(Task, int) |  |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية التكرار على جميع المهام في مشروع كقائمة عادية.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// تحليل جميع المهام المجمعة
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [TreeAlgorithmBase&lt;T&gt;](../treealgorithmbase-1/)
 * class [Task](../../aspose.tasks/task/)
-* مساحة الاسم [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

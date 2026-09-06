@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.BorderLineThickness
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على سمك خط الحدود أو تعيينه القيم المسموح بها هي 05 .
+title: "VisualObjectPlacement.BorderLineThickness"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يحصل أو يعيّن سمك خط الحدود القيم المسموح بها هي 0  5"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/borderlinethickness/
 ---
 ## VisualObjectPlacement.BorderLineThickness property
 
-الحصول على سمك خط الحدود أو تعيينه (القيم المسموح بها هي 0-5) .
+يحصل أو يضبط سمك خط الحدود (القيم المسموح بها هي 0 - 5).
 
 ```csharp
 public byte BorderLineThickness { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

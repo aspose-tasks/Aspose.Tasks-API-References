@@ -1,23 +1,56 @@
 ---
-title: ProjectServerCredentials.UserName
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectServerCredentials ملكية. الحصول على اسم المستخدم لموقع SharePoint .
+title: "ProjectServerCredentials.UserName"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ProjectServerCredentials. يحصل على اسم المستخدم لموقع SharePoint"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/projectservercredentials/username/
 ---
 ## ProjectServerCredentials.UserName property
 
-الحصول على اسم المستخدم لموقع SharePoint .
+يحصل على اسم المستخدم لموقع SharePoint.
 
 ```csharp
 public string UserName { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية استخدام بيانات اعتماد Project Server مع SharePointOnlineCredentials لإنشاء مشروع في Microsoft Project Online.
+
+```csharp
+try
+{
+    const string Username = "admin@contoso.onmicrosoft.com";
+    const string SecuredPassword = "MyPassword";
+    var url = new Uri("https://contoso.sharepoint.com/sites/pwa");
+    var project = new Project(DataDir + "Project1.mpp");
+    var password = new SecureString();
+    foreach (var c in SecuredPassword)
+    {
+        password.AppendChar(c);
+    }
+
+    var onlineCredentials = new SharePointOnlineCredentials(Username, password);
+    var projectServerCredentials = new ProjectServerCredentials(url.ToString(), onlineCredentials.GetAuthenticationCookie(url, true));
+
+    Console.WriteLine("Project Server Auth Token: " + projectServerCredentials.AuthToken);
+    Console.WriteLine("Project Server Site Url: " + projectServerCredentials.SiteUrl);
+    Console.WriteLine("Project Server User Name: " + projectServerCredentials.UserName);
+
+    var manager = new ProjectServerManager(projectServerCredentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### انظر أيضًا
 
 * class [ProjectServerCredentials](../)
-* مساحة الاسم [Aspose.Tasks](../../projectservercredentials/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 

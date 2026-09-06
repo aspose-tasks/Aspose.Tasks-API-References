@@ -1,23 +1,23 @@
 ---
-title: MPPSaveOptions.MPPSaveOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: MPPSaveOptions البناء. Default_Constructor
+title: "MPPSaveOptions.MPPSaveOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ MPPSaveOptions. يهيئ مثيلاً جديدًا من الفئة MPPSaveOptions."
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/mppsaveoptions/mppsaveoptions/
 ---
 ## MPPSaveOptions constructor
 
-Default_Constructor
+يُنشئ مثيلاً جديدًا من الفئة [`MPPSaveOptions`](../).
 
 ```csharp
 public MPPSaveOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [MPPSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../mppsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../mppsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

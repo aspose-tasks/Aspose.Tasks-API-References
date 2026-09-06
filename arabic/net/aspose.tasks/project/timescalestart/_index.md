@@ -1,23 +1,23 @@
 ---
-title: Project.TimescaleStart
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة بدء مقياس الوقت . أو تعيينها
+title: "Project.TimescaleStart"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يضبط قيمة TimescaleStart."
 type: docs
-weight: 940
+weight: 970
 url: /ar/net/aspose.tasks/project/timescalestart/
 ---
 ## Project.TimescaleStart property
 
-الحصول على قيمة بدء مقياس الوقت . أو تعيينها
+يحصل أو يضبط قيمة TimescaleStart.
 
 ```csharp
 public DateTime TimescaleStart { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

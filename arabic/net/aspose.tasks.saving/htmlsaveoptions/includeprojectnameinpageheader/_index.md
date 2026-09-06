@@ -1,23 +1,46 @@
 ---
-title: HtmlSaveOptions.IncludeProjectNameInPageHeader
-second_title: Aspose.Tasks لمرجع .NET API
-description: HtmlSaveOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تضمين اسم المشروع في رأس صفحة HTML.
+title: "HtmlSaveOptions.IncludeProjectNameInPageHeader"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية HtmlSaveOptions. تحصل أو تعيين قيمة تشير إلى ما إذا كان يجب تضمين اسم المشروع في رأس صفحة HTML"
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/aspose.tasks.saving/htmlsaveoptions/includeprojectnameinpageheader/
 ---
 ## HtmlSaveOptions.IncludeProjectNameInPageHeader property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تضمين اسم المشروع في رأس صفحة HTML.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تضمين اسم المشروع في ترويسة صفحة HTML.
 
 ```csharp
 public bool IncludeProjectNameInPageHeader { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين رأس/عنوان صفحة HTML باستخدام خيارات &lt;see cref=\"P:Aspose.Tasks.Saving.HtmlSaveOptions\" /&gt;.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var options = new HtmlSaveOptions
+{
+    // يحدد ما إذا كان يجب تضمين اسم المشروع في عنوان HTML (true بشكل افتراضي)
+    IncludeProjectNameInTitle = false,
+
+    // يحدد ما إذا كان يجب تضمين اسم المشروع في رأس صفحة HTML (true بشكل افتراضي)
+    IncludeProjectNameInPageHeader = false,
+
+    // تعيين الصفحات التي سيتم تصديرها
+    Pages = new List<int>
+            {
+                1
+            }
+};
+project.Save(OutDir + "ControlHeaderNameDuringHTMLExport_out.html", options);
+```
+
+### انظر أيضًا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

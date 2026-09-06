@@ -1,24 +1,24 @@
 ---
-title: Task.DurationVariance
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة DurationVariance .
+title: "Task.DurationVariance"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يحدد قيمة DurationVariance"
 type: docs
 weight: 360
 url: /ar/net/aspose.tasks/task/durationvariance/
 ---
 ## Task.DurationVariance property
 
-الحصول على أو تعيين قيمة DurationVariance .
+يحصل أو يعيّن قيمة لـ DurationVariance.
 
 ```csharp
 public Duration DurationVariance { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

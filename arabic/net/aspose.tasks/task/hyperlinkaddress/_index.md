@@ -1,23 +1,27 @@
 ---
-title: Task.HyperlinkAddress
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة HyperlinkAddress .
+title: "Task.HyperlinkAddress"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط العنوان لرابط تشعبي مرتبط بمهمة"
 type: docs
 weight: 540
 url: /ar/net/aspose.tasks/task/hyperlinkaddress/
 ---
 ## Task.HyperlinkAddress property
 
-الحصول على أو تعيين قيمة HyperlinkAddress .
+يحصل أو يعيّن العنوان للارتباط التشعبي المرتبط بمهمة.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
 ```
 
-### أنظر أيضا
+## ملاحظات
+
+العنوان الكامل (Hyperlink Href في Microsoft Project) للرابط التشعبي هو دمج بين HyperlinkAddress و HyperlinkSubAddress.
+
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

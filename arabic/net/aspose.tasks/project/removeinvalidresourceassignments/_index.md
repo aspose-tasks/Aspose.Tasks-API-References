@@ -1,27 +1,52 @@
 ---
-title: Project.RemoveInvalidResourceAssignments
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. يزيل تعيينات الموارد غير الصالحة من قائمة تخصيصات موارد المشروع.
+title: "Project.RemoveInvalidResourceAssignments"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تُزيل التعيينات غير الصالحة للموارد من قائمة تعيينات موارد المشروع"
 type: docs
-weight: 1150
+weight: 1170
 url: /ar/net/aspose.tasks/project/removeinvalidresourceassignments/
 ---
 ## Project.RemoveInvalidResourceAssignments method
 
-يزيل تعيينات الموارد غير الصالحة من قائمة تخصيصات موارد المشروع.
+يقوم بإزالة تعيينات الموارد غير الصالحة من قائمة تعيينات موارد المشروع.
 
 ```csharp
 public void RemoveInvalidResourceAssignments()
 ```
 
-### ملاحظات
+## ملاحظات
 
-يقوم MS Project بإنشاء تخصيص موارد فارغ لكل مهمة. اتصل بالطريقة لإزالتها.
+يقوم MS Project بإنشاء تعيين مورد فارغ لكل مهمة. استدعِ الطريقة لإزالتها.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إزالة التعيينات غير الصالحة.
+
+```csharp
+var project = new Project(DataDir + "InvalidResourceAssignments.mpp");
+var invalid = 0;
+
+// ReSharper disable once LoopCanBeConvertedToQuery //ExSkip
+foreach (var ra in project.ResourceAssignments)
+{
+    if (ra.Get(Asn.Resource) == null)
+    {
+        invalid++;
+    }
+}
+
+Console.WriteLine("Count of invalid assignments (before): " + invalid);
+
+// إزالة التعيينات غير الصالحة
+project.RemoveInvalidResourceAssignments();
+
+Console.WriteLine("Count of invalid assignments (after): " + invalid);
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

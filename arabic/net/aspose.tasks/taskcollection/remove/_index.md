@@ -1,32 +1,32 @@
 ---
-title: TaskCollection.Remove
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskCollection طريقة. هذا هو تنفيذ كعب الروتين لطريقة Remove الخاصة بـ ICollection  والتي تطرح فقط NotSupportedException
+title: "TaskCollection.Remove"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskCollection. هذه هي تنفيذ تجريبي لطريقة Remove في ICollections التي ترمي فقط NotSupportedException"
 type: docs
 weight: 110
 url: /ar/net/aspose.tasks/taskcollection/remove/
 ---
 ## TaskCollection.Remove method
 
-هذا هو تنفيذ كعب الروتين لطريقة Remove الخاصة بـ ICollection ، والتي تطرح فقط NotSupportedException
+هذه هي تنفيذية النموذجية لطريقة Remove في ICollection، التي ترمي فقط NotSupportedException
 
 ```csharp
 public bool Remove(Task item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| item | Task | العنصر المراد إزالته. |
+| العنصر | مهمة | العنصر المراد إزالته. |
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم إزالة العنصر ؛`خطأ شنيع` خلاف ذلك.
+`true` إذا تم إزالة العنصر؛ `false` خلاف ذلك.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

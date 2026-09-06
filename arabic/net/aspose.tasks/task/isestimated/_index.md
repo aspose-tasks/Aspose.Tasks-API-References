@@ -1,24 +1,24 @@
 ---
-title: Task.IsEstimated
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين IsEstimated أم لا.
+title: "Task.IsEstimated"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. الحصول أو تعيين قيمة تشير إلى ما إذا كان IsEstimated مفعلاً أم لا"
 type: docs
 weight: 620
 url: /ar/net/aspose.tasks/task/isestimated/
 ---
 ## Task.IsEstimated property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين IsEstimated أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان IsEstimated مُعيّنًا أم لا.
 
 ```csharp
 public NullableBool IsEstimated { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

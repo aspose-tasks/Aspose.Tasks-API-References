@@ -1,27 +1,27 @@
 ---
-title: Delegate FontResolveCallbackDelegate
-second_title: Aspose.Tasks لمرجع .NET API
-description: يمثل رد اتصال الأسلوب لمعالجة حدث حل الخط.
+title: "المندوب FontResolveCallbackDelegate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "يمثل استدعاء طريقة للتعامل مع حدث حل الخط"
 type: docs
 weight: 660
 url: /ar/net/aspose.tasks/fontresolvecallbackdelegate/
 ---
 ## FontResolveCallbackDelegate delegate
 
-يمثل رد اتصال الأسلوب لمعالجة حدث حل الخط.
+يمثل استدعاء طريقة للتعامل مع حدث حل الخط.
 
 ```csharp
 public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| args | FontResolveEventArgs | مثيل[`FontResolveEventArgs`](../fontresolveeventargs/) فئة تحتوي على بيانات رد الاتصال. |
+| args | FontResolveEventArgs | مثال من الفئة [`FontResolveEventArgs`](../fontresolveeventargs/) التي تحتوي على بيانات الاستدعاء. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontResolveEventArgs](../fontresolveeventargs/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

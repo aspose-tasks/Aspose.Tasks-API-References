@@ -1,41 +1,72 @@
 ---
-title: Class PageSettings
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.PageSettings فصل. يمثل إعدادات الطباعة لصفحة عرض المشروع.
+title: "الفئة PageSettings"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.Visualization.PageSettings. تمثل إعدادات الطباعة لصفحة من عرض المشروع"
 type: docs
-weight: 2890
+weight: 3240
 url: /ar/net/aspose.tasks.visualization/pagesettings/
 ---
 ## PageSettings class
 
-يمثل إعدادات الطباعة لصفحة عرض المشروع.
+يمثل إعدادات الطباعة لصفحة من عرض المشروع.
 
 ```csharp
 public class PageSettings
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PageSettings](pagesettings/)() | يقوم بتهيئة مثيل جديد لملف`PageSettings` فصل. يمثل إعدادات الطباعة لصفحة عرض المشروع. |
+| [PageSettings](pagesettings/)() | ينشئ مثيلاً جديداً للفئة `PageSettings`. يمثل إعدادات الطباعة لصفحة من عرض المشروع. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AdjustToPercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم ضبط الطباعة على النسبة المئوية المحددة ([`PercentOfNormalSize`](./percentofnormalsize/) ) بالحجم الطبيعي . |
-| [FirstPageNumber](../../aspose.tasks.visualization/pagesettings/firstpagenumber/) { get; set; } | الحصول على أو تعيين رقم الصفحة الأولى للطباعة. |
-| [IsPortrait](../../aspose.tasks.visualization/pagesettings/isportrait/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان اتجاه الصفحة عموديًا ؛ إرجاع خطأ إذا كان اتجاه الصفحة أفقيًا. |
-| [PagesInHeight](../../aspose.tasks.visualization/pagesettings/pagesinheight/) { get; set; } | الحصول على أو تعيين عدد من الصفحات في الارتفاع ليتم طباعتها. |
-| [PagesInWidth](../../aspose.tasks.visualization/pagesettings/pagesinwidth/) { get; set; } | الحصول على أو تعيين عدد من الصفحات في العرض ليتم طباعتها. |
-| [PaperSize](../../aspose.tasks.visualization/pagesettings/papersize/) { get; set; } | الحصول على حجم ورق أو تعيينه. يمكن أن تكون إحدى قيم[`PrinterPaperSize`](../printerpapersize/) التعداد . |
-| [PaperSizeId](../../aspose.tasks.visualization/pagesettings/papersizeid/) { get; set; } | الحصول على أو تعيين عدد صحيح يمثل إحدى قيم PrinterPaperSize أو معرف حجم صفحة مخصص . يمكن استخدام هذه القيمة للحصول على حجم الورق من إعدادات نظام التشغيل . |
-| [PercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/percentofnormalsize/) { get; set; } | الحصول على أو تعيين نسبة مئوية من الحجم العادي لضبط الطباعة عليها. |
+| [AdjustToPercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تعديل الطباعة إلى النسبة المئوية المحددة ([`PercentOfNormalSize`](./percentofnormalsize/)) من الحجم الطبيعي. |
+| [FirstPageNumber](../../aspose.tasks.visualization/pagesettings/firstpagenumber/) { get; set; } | يحصل أو يعيّن رقم الصفحة الأولى للطباعة. |
+| [IsPortrait](../../aspose.tasks.visualization/pagesettings/isportrait/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان اتجاه الصفحة عموديًا؛ تُعيد false إذا كان اتجاه الصفحة أفقيًا. |
+| [PagesInHeight](../../aspose.tasks.visualization/pagesettings/pagesinheight/) { get; set; } | يحصل أو يعيّن عدد الصفحات في الارتفاع التي سيتم طباعتها. |
+| [PagesInWidth](../../aspose.tasks.visualization/pagesettings/pagesinwidth/) { get; set; } | يحصل أو يعيّن عدد الصفحات في العرض التي سيتم طباعتها. |
+| [PaperSize](../../aspose.tasks.visualization/pagesettings/papersize/) { get; set; } | يحصل أو يعيّن حجم الورق. يمكن أن يكون أحد قيم تعداد [`PrinterPaperSize`](../printerpapersize/). |
+| [PaperSizeId](../../aspose.tasks.visualization/pagesettings/papersizeid/) { get; set; } | يحصل أو يعيّن عددًا صحيحًا يمثل أحد قيم PrinterPaperSize أو معرف حجم صفحة مخصص. يمكن استخدام هذه القيمة للحصول على حجم الورق من إعدادات نظام التشغيل. |
+| [PercentOfNormalSize](../../aspose.tasks.visualization/pagesettings/percentofnormalsize/) { get; set; } | يحصل أو يعيّن نسبة مئوية من الحجم الطبيعي لتعديل الطباعة إليها. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+يعرض كيفية العمل مع &lt;see cref="Aspose.Tasks.Visualization.PageSettings" /&gt;.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// احصل على الإعدادات
+var settings = project.DefaultView.PageInfo.PageSettings;
+// دعنا نضبط بعض الخصائص
+// عيّن قيمة تشير إلى ما إذا كان اتجاه الصفحة عموديًا؛ تُعيد false إذا كان اتجاه الصفحة أفقيًا.
+settings.IsPortrait = true;
+// عيّن عدد الصفحات في العرض التي سيتم طباعتها.
+settings.PagesInWidth = 5;
+// عيّن عدد الصفحات في الارتفاع التي سيتم طباعتها.
+settings.PagesInHeight = 7;
+// عيّن نسبة مئوية من الحجم الطبيعي لتعديل الطباعة إليها.
+settings.PercentOfNormalSize = 200;
+// عيّن حجم ورق. يمكن أن يكون أحد قيم تعداد <see cref="T:Aspose.Tasks.Visualization.PrinterPaperSize" />.
+settings.PaperSize = PrinterPaperSize.PaperB4;
+// عيّن رقم الصفحة الأولى للطباعة.
+settings.FirstPageNumber = 3;
+
+SimpleSaveOptions options = new MPPSaveOptions
+{
+    WriteViewData = true
+};
+
+project.Save(OutDir + "TestCanWritePageSettings.mpp", options);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

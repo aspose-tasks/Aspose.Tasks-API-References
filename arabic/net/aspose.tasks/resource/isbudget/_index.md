@@ -1,24 +1,24 @@
 ---
-title: Resource.IsBudget
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان IsBudget تم تعيينه أم لا.
+title: "Resource.IsBudget"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة تشير إلى ما إذا كان IsBudget مُحددًا أم لا"
 type: docs
 weight: 420
 url: /ar/net/aspose.tasks/resource/isbudget/
 ---
 ## Resource.IsBudget property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان IsBudget تم تعيينه أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان IsBudget معينًا أم لا.
 
 ```csharp
 public NullableBool IsBudget { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

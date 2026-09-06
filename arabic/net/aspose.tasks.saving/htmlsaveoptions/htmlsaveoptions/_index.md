@@ -1,23 +1,40 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: HtmlSaveOptions البناء. يقوم بتهيئة مثيل جديد لملفHtmlSaveOptions فئة .
+title: "HtmlSaveOptions.HtmlSaveOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ HtmlSaveOptions. يهيئ نسخة جديدة من الفئة HtmlSaveOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`HtmlSaveOptions`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`HtmlSaveOptions`](../).
 
 ```csharp
 public HtmlSaveOptions()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ مشروع بتنسيق HTML.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var option = new HtmlSaveOptions();
+project.Save(OutDir + "SaveProjectDataAsHTML_out.html", option);
+
+// أو
+
+// إضافة صفحة واحدة فقط (رقم الصفحة 2)
+option = new HtmlSaveOptions();
+option.Pages.Add(2);
+project.Save(OutDir + "SaveProjectDataAsHTML2_out.html", option);
+```
+
+### انظر أيضًا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

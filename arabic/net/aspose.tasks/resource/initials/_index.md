@@ -1,23 +1,23 @@
 ---
-title: Resource.Initials
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة أولية أو تعيينها.
+title: "Resource.Initials"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة Initials"
 type: docs
 weight: 410
 url: /ar/net/aspose.tasks/resource/initials/
 ---
 ## Resource.Initials property
 
-الحصول على قيمة أولية أو تعيينها.
+يحصل أو يعيّن قيمة Initials.
 
 ```csharp
 public string Initials { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

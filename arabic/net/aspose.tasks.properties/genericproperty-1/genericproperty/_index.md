@@ -1,27 +1,73 @@
 ---
-title: GenericProperty1.GenericProperty
-second_title: Aspose.Tasks لمرجع .NET API
-description: GenericProperty البناء. يقوم بتهيئة مثيل جديد لملفGenericProperty هيكل.
+title: "GenericProperty1.GenericProperty"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ GenericProperty. يهيئ مثيلاً جديداً من البنية GenericProperty"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.properties/genericproperty-1/genericproperty/
 ---
 ## GenericProperty&lt;TKey&gt; constructor
 
-يقوم بتهيئة مثيل جديد لملف[`GenericProperty`](../) هيكل.
+يهيئ مثيلاً جديداً من البنية [`GenericProperty`](../).
 
 ```csharp
 public GenericProperty(string name)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| name | String | اسم العقار. |
+| الاسم | سلسلة | اسم الخاصية. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع مجموعات خصائص المشروع المخصصة.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// لنضيف خصائص مخصصة جديدة
+// المجموعة تدعم الأنواع Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// الخصائص المخصصة متاحة عبر المجموعة ذات النوع المحدد
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// احصل على قيمة خاصية مخصصة
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// تكرار عبر أسماء الخصائص المخصصة
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// يمكن حذف قيمة باستخدام مفتاح نصي
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// أو يمكن للمرء مسح المجموعة بالكامل
+project.CustomProps.Clear();
+```
+
+### انظر أيضًا
 
 * struct [GenericProperty&lt;TKey&gt;](../)
-* مساحة الاسم [Aspose.Tasks.Properties](../../genericproperty-1/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../genericproperty-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

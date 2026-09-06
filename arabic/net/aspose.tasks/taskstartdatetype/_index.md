@@ -1,9 +1,9 @@
 ---
-title: Enum TaskStartDateType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.TaskStartDateType تعداد. يحدد نوع تاريخ بدء المهمة.
+title: "تعداد TaskStartDateType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.TaskStartDateType. يحدد نوع تاريخ بدء المهمة"
 type: docs
-weight: 2150
+weight: 2450
 url: /ar/net/aspose.tasks/taskstartdatetype/
 ---
 ## TaskStartDateType enumeration
@@ -14,21 +14,31 @@ url: /ar/net/aspose.tasks/taskstartdatetype/
 public enum TaskStartDateType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Undefined | `-1` | لم يتم تحديد قيمة الحقل في ملف المشروع الأصلي. |
+| Undefined | `-1` | لم يتم تعريف قيمة الحقل في ملف المشروع الأصلي. |
 | ProjectStartDate | `0` | تاريخ بدء المشروع |
 | CurrentDate | `1` | التاريخ الحالي |
 
-### ملاحظات
+## ملاحظات
 
-أثناء التصدير إلى XML ، سيتم حذف القيم غير المعرفة من XML الناتج.
+أثناء التصدير إلى XML سيتم حذف القيم غير المعرفة من XML الناتج.
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية تعيين تاريخ البدء الافتراضي للمهمة كـ 'CurrentDate'.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

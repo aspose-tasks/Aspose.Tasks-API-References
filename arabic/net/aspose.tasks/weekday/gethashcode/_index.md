@@ -1,14 +1,14 @@
 ---
-title: WeekDay.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: WeekDay طريقة. إرجاع قيمة رمز تجزئة لمثيلWeekDay فئة .
+title: "WeekDay.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة WeekDay. تُرجع قيمة رمز تجزئة للنسخة من فئة WeekDay"
 type: docs
 weight: 100
 url: /ar/net/aspose.tasks/weekday/gethashcode/
 ---
 ## WeekDay.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لمثيل[`WeekDay`](../) فئة .
+تُرجع قيمة رمز تجزئة للنسخة من فئة [`WeekDay`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [WeekDay](../)
-* مساحة الاسم [Aspose.Tasks](../../weekday/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weekday/)
+* assembly [Aspose.Tasks](../../../)
 
 

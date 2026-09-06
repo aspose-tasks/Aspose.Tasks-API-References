@@ -1,36 +1,61 @@
 ---
-title: Enum RollupType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.RollupType تعداد. يحدد نوع مجموعة التحديثات .
+title: "Enum RollupType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.RollupType enum. يحدد نوع التجميع"
 type: docs
-weight: 1690
+weight: 1950
 url: /ar/net/aspose.tasks/rolluptype/
 ---
 ## RollupType enumeration
 
-يحدد نوع مجموعة التحديثات .
+يحدد نوع التجميع.
 
 ```csharp
 public enum RollupType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Null | `0` | يشير إلى نوع التجميع الفارغ . |
-| Maximum | `1` | يشير إلى الحد الأقصى لنوع التجميع . |
-| Minimum | `2` | يشير إلى الحد الأدنى من نوع التجميع . |
-| Count | `3` | يشير إلى نوع العدد التراكمي . |
-| Sum | `4` | يشير إلى نوع تجميع المجموع. |
-| Average | `5` | يشير إلى متوسط نوع التجميع. |
-| AverageFirstSublevel | `6` | يشير إلى متوسط نوع تجميع المستوى الفرعي الأول. |
-| CountFirstSublevel | `7` | يشير إلى العدد الأول من نوع التجميع ذي المستوى الفرعي الأول. |
-| CountNonsummaries | `8` | يشير إلى نوع تجميع العدد غير الملخصات . |
+| Null | `0` | يشير إلى نوع التجميع Null. |
+| Maximum | `1` | يشير إلى نوع التجميع Maximum. |
+| Minimum | `2` | يشير إلى نوع التجميع Minimum. |
+| Count | `3` | يشير إلى نوع التجميع Count. |
+| Sum | `4` | يشير إلى نوع التجميع Sum. |
+| Average | `5` | يشير إلى نوع التجميع Average. |
+| AverageFirstSublevel | `6` | يشير إلى نوع التجميع Average First Sublevel. |
+| CountFirstSublevel | `7` | يشير إلى نوع التجميع Count First Sublevel. |
+| CountNonsummaries | `8` | يشير إلى نوع التجميع Count Non-Summaries. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية العمل مع نوع الحساب لتعريف سمة موسعة.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2020, 4, 16, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+// إنشاء تعريف سمة بنوع 'Formula' حيث يتم حساب القيم للمهام الفرعية والمهام الملخصة باستخدام الصيغة.
+var calculation = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Date5, null);
+calculation.CalculationType = CalculationType.Formula;
+calculation.SummaryRowsCalculationType = SummaryRowsCalculationType.UseFormula;
+calculation.Formula = "[stARt]";
+project.ExtendedAttributes.Add(calculation);
+
+// إنشاء تعريف سمة حيث يتم حساب القيم للمهام الملخصة باستخدام نوع التجميع 'Average'.
+var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
+lookup.SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup;
+lookup.RollupType = RollupType.Average;
+project.ExtendedAttributes.Add(lookup);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

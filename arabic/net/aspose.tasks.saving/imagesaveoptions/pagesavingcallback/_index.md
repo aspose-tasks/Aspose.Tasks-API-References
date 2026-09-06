@@ -1,24 +1,24 @@
 ---
-title: ImageSaveOptions.PageSavingCallback
-second_title: Aspose.Tasks لمرجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين رد اتصال محدد من قبل المستخدم والذي يتم استخدامه للحصول على تدفق إخراج لكل صفحة مقدمة.
+title: "ImageSaveOptions.PageSavingCallback"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ImageSaveOptions. تحصل أو تعين رد نداء معرف من قبل المستخدم يُستخدم للحصول على تدفق إخراج لكل صفحة مُصوَّرة"
 type: docs
-weight: 70
+weight: 60
 url: /ar/net/aspose.tasks.saving/imagesaveoptions/pagesavingcallback/
 ---
 ## ImageSaveOptions.PageSavingCallback property
 
-الحصول على أو تعيين رد اتصال محدد من قبل المستخدم والذي يتم استخدامه للحصول على تدفق إخراج لكل صفحة مقدمة.
+يحصل أو يعيّن رد نداء معرف من قبل المستخدم يُستخدم للحصول على تدفق إخراج لكل صفحة مُعروضة.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

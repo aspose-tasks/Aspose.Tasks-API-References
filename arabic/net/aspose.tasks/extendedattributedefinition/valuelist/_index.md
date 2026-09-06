@@ -1,28 +1,75 @@
 ---
-title: ExtendedAttributeDefinition.ValueList
-second_title: Aspose.Tasks لمرجع .NET API
-description: ExtendedAttributeDefinition ملكية. يحصل على القائمة Value ValueList.
+title: "ExtendedAttributeDefinition.ValueList"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ExtendedAttributeDefinition. تحصل على ListValue ValueList"
 type: docs
-weight: 270
+weight: 280
 url: /ar/net/aspose.tasks/extendedattributedefinition/valuelist/
 ---
 ## ExtendedAttributeDefinition.ValueList property
 
-يحصل على القائمة &lt;Value&gt; ValueList.
+يحصل على List&lt;Value&gt; ValueList.
 
 ```csharp
 public List<Value> ValueList { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-عندما يتم تحديد قيم السمات الموسعة كخصائص للعناصر في المخطط ، يمكن تحديدها إما عن طريق القيم أو بالإشارة إلى القيم الموجودة في هذه القائمة. قد تفترض التطبيقات ترتيب القائمة بالطلب المحدد هنا. مدعوم لتنسيقات MSP 2003/2007 Xml و MSP 2003 mpp. لا تغير هذه القائمة مباشرة. استخدم أساليب ExtendedAttributeDefinition.AddLookupValue / RemoveLookupValue بدلاً من ذلك.
+عند تحديد قيم الخصائص الموسعة كخصائص لعناصر في المخطط، يمكن إما تحديدها بالقيم أو بالإشارات إلى القيم الموجودة في هذه القائمة. قد تفترض التطبيقات ترتيب القائمة وفقًا للترتيب المحدد هنا. مدعوم حاليًا لتنسيقات MSP 2003/2007 Xml و MSP 2003 mpp. لا تقم بتغيير هذه القائمة مباشرة. استخدم طرق ExtendedAttributeDefinition.AddLookupValue/RemoveLookupValue بدلاً من ذلك.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة المعلومات العامة لتعريف السمة الموسعة.
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+// قراءة معلومات تعريف السمة الموسعة
+foreach (var definition in project.ExtendedAttributes)
+{
+    Console.WriteLine("Guid:" + definition.Guid);
+    Console.WriteLine("Secondary Guid:" + definition.SecondaryGuid);
+    Console.WriteLine("Secondary Pid:" + definition.SecondaryPid);
+    Console.WriteLine("Alias:" + definition.Alias);
+    Console.WriteLine("Phonetics Alias:" + definition.PhoneticsAlias);
+    Console.WriteLine("Field Id:" + definition.FieldId);
+    Console.WriteLine("Project Name:" + definition.ParentProject.Get(Prj.Name));
+
+    Console.WriteLine("Append New Values:" + definition.AppendNewValues);
+    Console.WriteLine("Auto RollDown:" + definition.AutoRollDown);
+    Console.WriteLine("Calculation Type:" + definition.CalculationType);
+    Console.WriteLine("Field Name" + definition.FieldName);
+    Console.WriteLine("Is User Defined Custom Field:" + definition.UserDef);
+    Console.WriteLine("Rollup Type:" + definition.RollupType);
+
+    if (definition.CalculationType == CalculationType.Lookup)
+    {
+        Console.WriteLine("  Next properties are used only for lookups:");
+        Console.WriteLine("  Default Guid:" + definition.DefaultGuid);
+        Console.WriteLine("  Element Type:" + definition.ElementType);
+        Console.WriteLine("  Lookup Uid:" + definition.LookupUid);
+        Console.WriteLine("  Restrict Values:" + definition.RestrictValues);
+        Console.WriteLine("  Max Multi Values:" + definition.MaxMultiValues);
+        Console.WriteLine("  Valuelist Sort Order:" + definition.ValuelistSortOrder);
+        Console.WriteLine("  Default Value:" + definition.Default);
+        Console.WriteLine("  Print values from value list:");
+        foreach (var value in definition.ValueList)
+        {
+            Console.WriteLine("    Description: " + value.Description);
+            Console.WriteLine("    Value: " + value.Val);
+        }
+    }
+
+    Console.WriteLine();
+}
+```
+
+### انظر أيضًا
 
 * class [Value](../../value/)
 * class [ExtendedAttributeDefinition](../)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

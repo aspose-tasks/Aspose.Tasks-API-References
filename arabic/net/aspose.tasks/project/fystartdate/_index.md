@@ -1,24 +1,24 @@
 ---
-title: Project.FyStartDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة FyStartDate .
+title: "Project.FyStartDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. الحصول على أو تعيين قيمة لـ FyStartDate"
 type: docs
-weight: 440
+weight: 450
 url: /ar/net/aspose.tasks/project/fystartdate/
 ---
 ## Project.FyStartDate property
 
-الحصول على أو تعيين قيمة FyStartDate .
+يحصل أو يعيّن قيمة لـ FyStartDate.
 
 ```csharp
 public Month FyStartDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [Month](../../month/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

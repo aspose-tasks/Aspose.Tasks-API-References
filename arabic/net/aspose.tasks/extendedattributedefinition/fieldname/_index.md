@@ -1,27 +1,74 @@
 ---
-title: ExtendedAttributeDefinition.FieldName
-second_title: Aspose.Tasks لمرجع .NET API
-description: ExtendedAttributeDefinition ملكية. الحصول على اسم الحقل المخصص .
+title: "ExtendedAttributeDefinition.FieldName"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ExtendedAttributeDefinition. تحصل على اسم حقل مخصص"
 type: docs
 weight: 140
 url: /ar/net/aspose.tasks/extendedattributedefinition/fieldname/
 ---
 ## ExtendedAttributeDefinition.FieldName property
 
-الحصول على اسم الحقل المخصص .
+يحصل على اسم حقل مخصص.
 
 ```csharp
 public string FieldName { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-لا يجب تعيينها مباشرةً ، بدلاً من ذلك ، قم بإنشاء ExtendedAttributeDefinition باستخدام طرق مصنع ثابتة مكتوبة بشدة باسم Create * Definition ().
+يجب عدم تعيينها مباشرةً، بل إنشاء ExtendedAttributeDefinition باستخدام طرق مصنع ثابتة ذات نوعية قوية تُسمى مثل Create*Definition().
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة المعلومات العامة لتعريف السمة الموسعة.
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+// قراءة معلومات تعريف السمة الموسعة
+foreach (var definition in project.ExtendedAttributes)
+{
+    Console.WriteLine("Guid:" + definition.Guid);
+    Console.WriteLine("Secondary Guid:" + definition.SecondaryGuid);
+    Console.WriteLine("Secondary Pid:" + definition.SecondaryPid);
+    Console.WriteLine("Alias:" + definition.Alias);
+    Console.WriteLine("Phonetics Alias:" + definition.PhoneticsAlias);
+    Console.WriteLine("Field Id:" + definition.FieldId);
+    Console.WriteLine("Project Name:" + definition.ParentProject.Get(Prj.Name));
+
+    Console.WriteLine("Append New Values:" + definition.AppendNewValues);
+    Console.WriteLine("Auto RollDown:" + definition.AutoRollDown);
+    Console.WriteLine("Calculation Type:" + definition.CalculationType);
+    Console.WriteLine("Field Name" + definition.FieldName);
+    Console.WriteLine("Is User Defined Custom Field:" + definition.UserDef);
+    Console.WriteLine("Rollup Type:" + definition.RollupType);
+
+    if (definition.CalculationType == CalculationType.Lookup)
+    {
+        Console.WriteLine("  Next properties are used only for lookups:");
+        Console.WriteLine("  Default Guid:" + definition.DefaultGuid);
+        Console.WriteLine("  Element Type:" + definition.ElementType);
+        Console.WriteLine("  Lookup Uid:" + definition.LookupUid);
+        Console.WriteLine("  Restrict Values:" + definition.RestrictValues);
+        Console.WriteLine("  Max Multi Values:" + definition.MaxMultiValues);
+        Console.WriteLine("  Valuelist Sort Order:" + definition.ValuelistSortOrder);
+        Console.WriteLine("  Default Value:" + definition.Default);
+        Console.WriteLine("  Print values from value list:");
+        foreach (var value in definition.ValueList)
+        {
+            Console.WriteLine("    Description: " + value.Description);
+            Console.WriteLine("    Value: " + value.Val);
+        }
+    }
+
+    Console.WriteLine();
+}
+```
+
+### انظر أيضًا
 
 * class [ExtendedAttributeDefinition](../)
-* مساحة الاسم [Aspose.Tasks](../../extendedattributedefinition/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

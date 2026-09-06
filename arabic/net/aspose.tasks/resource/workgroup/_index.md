@@ -1,24 +1,24 @@
 ---
-title: Resource.Workgroup
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة مجموعة العمل .
+title: "Resource.Workgroup"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يضبط قيمة Workgroup"
 type: docs
-weight: 800
+weight: 790
 url: /ar/net/aspose.tasks/resource/workgroup/
 ---
 ## Resource.Workgroup property
 
-الحصول على أو تعيين قيمة مجموعة العمل .
+يحصل أو يعيّن قيمة لـ Workgroup.
 
 ```csharp
 public WorkGroupType Workgroup { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [WorkGroupType](../../workgrouptype/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

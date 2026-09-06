@@ -1,55 +1,81 @@
 ---
-title: Resource.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي مثيلاً محددًا لملفResource فئة .
+title: "Resource.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Resource. تُرجع قيمة تشير ما إذا كانت هذه النسخة مساوية لنسخة محددة من فئة Resource."
 type: docs
-weight: 830
+weight: 820
 url: /ar/net/aspose.tasks/resource/equals/
 ---
 ## Equals(Resource) {#equals}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي مثيلاً محددًا لملف[`Resource`](../) فئة .
+تُرجع قيمة تشير ما إذا كانت هذه النسخة مساوية لنسخة محددة من الفئة [`Resource`](../).
 
 ```csharp
 public bool Equals(Resource other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| other | Resource | المثيل المحدد لملف[`Resource`](../) فئة للمقارنة مع هذه الحالة. |
+| other | Resource | النسخة المحددة من الفئة [`Resource`](../) للمقارنة مع هذه النسخة. |
 
 ### قيمة الإرجاع
 
-**حقيقي** إذا كان المثيل المحدد لملف[`Resource`](../) الفئة لها نفس قيمة Uid مثل هذا المثال ؛ خلاف ذلك، **خطأ شنيع**.
+**True** if the specified instance of the [`Resource`](../) class has the same Uid value as this instance; otherwise, **false**.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية التحقق من مساواة الموارد.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المراد مقارنته مع هذا المثال. |
+| obj | كائن | الكائن للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-**حقيقي** إذا كان الكائن المحدد عبارة عن مورد له نفس قيمة Uid مثل هذا المثال ؛ خلاف ذلك، **خطأ شنيع**.
+**True** if the specified object is a Resource that has the same Uid value as this instance; otherwise, **false**.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية التحقق من مساواة الموارد.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

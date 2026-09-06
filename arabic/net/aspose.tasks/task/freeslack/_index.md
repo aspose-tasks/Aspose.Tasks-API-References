@@ -1,23 +1,23 @@
 ---
-title: Task.FreeSlack
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة FreeSlack .
+title: "Task.FreeSlack"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة FreeSlack"
 type: docs
 weight: 500
 url: /ar/net/aspose.tasks/task/freeslack/
 ---
 ## Task.FreeSlack property
 
-الحصول على أو تعيين قيمة FreeSlack .
+يحصل أو يعيّن قيمة لـ FreeSlack.
 
 ```csharp
 public TimeSpan FreeSlack { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

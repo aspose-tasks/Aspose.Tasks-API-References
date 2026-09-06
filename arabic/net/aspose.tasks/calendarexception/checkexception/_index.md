@@ -1,31 +1,80 @@
 ---
-title: CalendarException.CheckException
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarException طريقة. يتم إرجاع صحيح إذا كان المثيل المحدد لملفDateTime الهيكل هو يوم الاستثناء.
+title: "CalendarException.CheckException"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة CalendarException. تُعيد true إذا كانت النسخة المحددة من بنية DateTime هي يوم الاستثناء"
 type: docs
 weight: 170
 url: /ar/net/aspose.tasks/calendarexception/checkexception/
 ---
 ## CalendarException.CheckException method
 
-يتم إرجاع صحيح إذا كان المثيل المحدد لملفDateTime الهيكل هو يوم الاستثناء.
+يعيد true إذا كان المثيل المحدد للهيكل DateTime هو يوم الاستثناء.
 
 ```csharp
 public bool CheckException(DateTime dt)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| dt | DateTime | المثيل المحدد لـDateTime هيكل. |
+| dt | DateTime | النسخة المحددة من بنية DateTime. |
 
 ### قيمة الإرجاع
 
-يعود صحيحا إذاDateTime القيمة هي يوم الاستثناء ؛ خلاف ذلك ، خطأ.
+تُعيد true إذا كانت قيمة DateTime هي يوم الاستثناء؛ وإلا false.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية إضافة/إزالة استثناءات التقويم.
+
+```csharp
+var project = new Project(DataDir + "project_test.mpp");
+
+// إنشاء تقويم
+var calendar = project.Calendars.Add("Calendar1");
+
+// إنشاء استثناء أيام الأسبوع لعطلة
+var exception = new CalendarException();
+exception.Name = "New Calendar Exception";
+exception.EnteredByOccurrences = false;
+exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
+exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
+exception.Type = CalendarExceptionType.Daily;
+exception.Month = Month.December;
+
+exception.DayWorking = false;
+
+// تحقق من أن التاريخ استثنائي
+Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
+
+calendar.Exceptions.Add(exception);
+
+// إزالة استثناء
+var cal = project.Calendars.ToList()[0];
+if (cal.Exceptions.Count > 1)
+{
+    var excToRemove = cal.Exceptions[0];
+    cal.Exceptions.Remove(excToRemove);
+}
+
+// إضافة استثناء
+var exception2 = new CalendarException();
+exception2.FromDate = new System.DateTime(2009, 1, 1);
+exception2.ToDate = new System.DateTime(2009, 1, 3);
+cal.Exceptions.Add(exception2);
+
+// طباعة الاستثناءات
+foreach (var exc in cal.Exceptions)
+{
+    Console.WriteLine("Name: " + exc.Name);
+    Console.WriteLine("From: " + exc.FromDate.ToShortDateString());
+    Console.WriteLine("To: " + exc.ToDate.ToShortDateString());
+}
+```
+
+### انظر أيضًا
 
 * class [CalendarException](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarexception/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

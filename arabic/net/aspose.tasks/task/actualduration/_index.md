@@ -1,24 +1,24 @@
 ---
-title: Task.ActualDuration
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة ActualDuration .
+title: "Task.ActualDuration"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Task property. يحصل أو يعيّن قيمة ActualDuration"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/task/actualduration/
 ---
 ## Task.ActualDuration property
 
-الحصول على أو تحديد قيمة ActualDuration .
+يحصل أو يعيّن قيمة ActualDuration.
 
 ```csharp
 public Duration ActualDuration { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 
