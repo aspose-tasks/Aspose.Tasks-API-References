@@ -1,37 +1,187 @@
 ---
-title: CopyTo
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Menyalin elemen dariTimephasedDataCollectionaspose.tasks/timephaseddatacollection/ ke sebuahArray  mulai dari tertentuArray indeks.
+title: "TimephasedDataCollection.CopyTo"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "TimephasedDataCollection metode. Menyalin elemen-elemen TimephasedDataCollection ke Array yang dimulai pada indeks Array tertentu"
 type: docs
-weight: 90
+weight: 80
 url: /id/net/aspose.tasks/timephaseddatacollection/copyto/
 ---
 ## TimephasedDataCollection.CopyTo method
 
-Menyalin elemen dari[`TimephasedDataCollection`](../) ke sebuahArray , mulai dari tertentuArray indeks.
+Menyalin elemen-elemen [`TimephasedDataCollection`](../) ke Array, dimulai pada indeks Array tertentu.
 
 ```csharp
 public void CopyTo(TimephasedData[] array, int arrayIndex)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| array | TimephasedData[] | Satu dimensiArray itu adalah tujuan dari elemen yang disalin[`TimephasedDataCollection`](../) . ItuArray harus memiliki pengindeksan berbasis nol. |
-| arrayIndex | Int32 | Indeks berbasis nol di*array* di mana penyalinan dimulai. |
+| array | TimephasedData[] | Array satu dimensi yang menjadi tujuan elemen yang disalin dari [`TimephasedDataCollection`](../). Array harus menggunakan pengindeksan berbasis nol. |
+| arrayIndex | Int32 | Indeks berbasis nol dalam *array* tempat penyalinan dimulai. |
 
 ### Pengecualian
 
 | pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | *array* adalah nol. |
+| ArgumentNullException | *array* bernilai null. |
 | ArgumentOutOfRangeException | *arrayIndex* kurang dari 0. |
-| ArgumentException | Jumlah elemen dalam sumber[`TimephasedDataCollection`](../) lebih besar dari ruang yang tersedia dari*arrayIndex* sampai akhir tujuan*array* . |
+| ArgumentException | Jumlah elemen dalam sumber [`TimephasedDataCollection`](../) lebih besar daripada ruang yang tersedia dari *arrayIndex* hingga akhir *array* tujuan. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan koleksi data timephased.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var resource2 = project.Resources.Add("Resource 2");
+resource2.Set(Rsc.Type, ResourceType.Work);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task2.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment2 = project.ResourceAssignments.Add(task2, resource2);
+assignment2.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment2.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment2.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+// atur kontur kerja berkontur
+assignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+Console.WriteLine("Is timephased data collection read-only?: " + assignment.TimephasedData.IsReadOnly);
+
+// hapus tds yang dihasilkan
+assignment.TimephasedData.Clear();
+
+var td = new TimephasedData
+             {
+                 Start = new DateTime(2019, 11, 11, 8, 0, 0),
+                 Finish = new DateTime(2019, 11, 11, 9, 0, 0),
+                 Uid = assignment.Get(Asn.Uid),
+                 Unit = TimeUnitType.Hour,
+                 Value = "PT1H0M0S",
+                 TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+             };
+assignment.TimephasedData.Add(td);
+
+var list = new List<TimephasedData>();
+var td2 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 12, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 12, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+var td3 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+
+list.Add(td2);
+list.Add(td3);
+assignment.TimephasedData.AddRange(list);
+
+// seseorang dapat memfilter koleksi berdasarkan tipe dan rentang tanggal
+Console.WriteLine("Print filtered tds:");
+IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStartAndFinish(
+    TimephasedDataType.AssignmentRemainingWork,
+    new DateTime(2019, 11, 11, 0, 0, 0),
+    new DateTime(2019, 11, 13));
+foreach (var data in filteredTds)
+{
+    Console.WriteLine("Start: " + data.Start);
+    Console.WriteLine("Finish: " + data.Finish);
+    Console.WriteLine("Timephased Data Type: " + data.TimephasedDataType);
+    Console.WriteLine();
+}
+
+Console.WriteLine("--------------------------");
+Console.WriteLine();
+
+// ...
+// tambahkan td yang salah lalu hapus itu
+var td4 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT0H0M1S", // wrong value
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+assignment.TimephasedData.Add(td4);
+
+// ...
+
+// hapus item td yang salah
+if (assignment.TimephasedData.Contains(td4))
+{
+    assignment.TimephasedData.Remove(td4);
+}
+
+// ...
+assignment.TimephasedData.AddRange(list);
+
+// iterasi melalui item timephased
+Console.WriteLine("Print all timephased items:");
+Console.WriteLine("Timephased data count: " + assignment.TimephasedData.Count);
+foreach (var item in assignment.TimephasedData)
+{
+    Console.WriteLine("Start: " + item.Start);
+    Console.WriteLine("Finish: " + item.Finish);
+    Console.WriteLine("Timephased Data Type: " + item.TimephasedDataType);
+    Console.WriteLine();
+}
+
+// salin tds ke penugasan lain
+var timephasedDatas = new TimephasedData[assignment.TimephasedData.Count];
+assignment.TimephasedData.CopyTo(timephasedDatas, 0);
+
+assignment2.TimephasedData.Clear();
+foreach (var data in timephasedDatas)
+{
+    assignment2.TimephasedData.Add(data);
+}
+
+// koleksi dapat dikonversi menjadi daftar biasa
+List<TimephasedData> tds = assignment.TimephasedData.ToList();
+
+// mari hapus tds satu per satu
+foreach (var timephasedData in tds)
+{
+    assignment.TimephasedData.Remove(timephasedData);
+}
+```
+
+### Lihat Juga
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* ruang nama [Aspose.Tasks](../../timephaseddatacollection/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

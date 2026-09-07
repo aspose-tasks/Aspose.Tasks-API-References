@@ -1,55 +1,169 @@
 ---
-title: Equals
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan objek tertentu.
+title: "Baseline.Equals"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Metode Baseline. Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan objek yang ditentukan"
 type: docs
 weight: 80
 url: /id/net/aspose.tasks/baseline/equals/
 ---
 ## Equals(object) {#equals_1}
 
-Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan objek tertentu.
+Kembalikan nilai yang menunjukkan apakah instance ini sama dengan objek yang ditentukan.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| obj | Object | objek yang ditentukan untuk dibandingkan dengan contoh ini. |
+| obj | Objek | objek yang ditentukan untuk dibandingkan dengan instance ini. |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-mengembalikan nilai true jika instance ini sama dengan objek yang ditentukan; jika tidak, salah.
+mengembalikan true jika instance ini sama dengan objek yang ditentukan; jika tidak, false.
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan baseline penugasan.
+
+```csharp
+var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
+
+// baseline penugasan diatur ketika seseorang mengatur baseline pada seluruh proyek
+project.SetBaseline(BaselineType.Baseline);
+
+// baca informasi baseline penugasan
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var baseline in assignment.Baselines)
+    {
+        Console.WriteLine("Baseline Start: " + baseline.Start);
+        Console.WriteLine("Baseline Finish: " + baseline.Finish);
+        Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+        if (baseline.TimephasedData != null)
+        {
+            foreach (var td in baseline.TimephasedData)
+            {
+                Console.WriteLine("TD Start: " + td.Start);
+                Console.WriteLine("TD Finish: " + td.Finish);
+                Console.WriteLine("TD Timephased Data Type: " + td.TimephasedDataType);
+                Console.WriteLine();
+            }
+        }
+
+        Console.WriteLine();
+    }
+
+    Console.WriteLine();
+}
+
+// periksa kesetaraan baseline
+var assn1 = project.ResourceAssignments.GetByUid(5);
+var assn2 = project.ResourceAssignments.GetByUid(7);
+
+var assignmentBaseline1 = assn1.Baselines.ToList()[0];
+var assignmentBaseline2 = assn2.Baselines.ToList()[0];
+
+// baseline dapat dibandingkan dengan menggunakan overload metode 'Equals'
+Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
+
+// atau dengan menggunakan operasi aritmetika yang di‑overload
+Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
+
+// hashcode baseline didasarkan pada nomor baseline
+Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
+Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
+```
+
+### Lihat Juga
 
 * class [Baseline](../)
-* ruang nama [Aspose.Tasks](../../baseline/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(Baseline) {#equals}
 
-Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan objek tertentu.
+Kembalikan nilai yang menunjukkan apakah instance ini sama dengan objek yang ditentukan.
 
 ```csharp
 public bool Equals(Baseline other)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| other | Baseline | objek yang ditentukan untuk dibandingkan dengan contoh ini. |
+| lain | Baseline | objek yang ditentukan untuk dibandingkan dengan instance ini. |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-mengembalikan nilai true jika instance ini sama dengan objek yang ditentukan; jika tidak, salah.
+mengembalikan true jika instance ini sama dengan objek yang ditentukan; jika tidak, false.
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan baseline penugasan.
+
+```csharp
+var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
+
+// baseline penugasan diatur ketika seseorang mengatur baseline pada seluruh proyek
+project.SetBaseline(BaselineType.Baseline);
+
+// baca informasi baseline penugasan
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var baseline in assignment.Baselines)
+    {
+        Console.WriteLine("Baseline Start: " + baseline.Start);
+        Console.WriteLine("Baseline Finish: " + baseline.Finish);
+        Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+        if (baseline.TimephasedData != null)
+        {
+            foreach (var td in baseline.TimephasedData)
+            {
+                Console.WriteLine("TD Start: " + td.Start);
+                Console.WriteLine("TD Finish: " + td.Finish);
+                Console.WriteLine("TD Timephased Data Type: " + td.TimephasedDataType);
+                Console.WriteLine();
+            }
+        }
+
+        Console.WriteLine();
+    }
+
+    Console.WriteLine();
+}
+
+// periksa kesetaraan baseline
+var assn1 = project.ResourceAssignments.GetByUid(5);
+var assn2 = project.ResourceAssignments.GetByUid(7);
+
+var assignmentBaseline1 = assn1.Baselines.ToList()[0];
+var assignmentBaseline2 = assn2.Baselines.ToList()[0];
+
+// baseline dapat dibandingkan dengan menggunakan overload metode 'Equals'
+Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
+
+// atau dengan menggunakan operasi aritmetika yang di‑overload
+Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
+
+// hashcode baseline didasarkan pada nomor baseline
+Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
+Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
+```
+
+### Lihat Juga
 
 * class [Baseline](../)
-* ruang nama [Aspose.Tasks](../../baseline/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

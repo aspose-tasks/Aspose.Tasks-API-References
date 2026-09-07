@@ -1,14 +1,14 @@
 ---
-title: BuiltInProjectPropertyCollection
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Merupakan kumpulan properti proyek bawaan.
+title: "Kelas BuiltInProjectPropertyCollection"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.Properties.BuiltInProjectPropertyCollection. Mewakili koleksi properti proyek bawaan"
 type: docs
-weight: 1280
+weight: 1530
 url: /id/net/aspose.tasks.properties/builtinprojectpropertycollection/
 ---
 ## BuiltInProjectPropertyCollection class
 
-Merupakan kumpulan properti proyek bawaan.
+Mewakili kumpulan properti proyek bawaan.
 
 ```csharp
 public sealed class BuiltInProjectPropertyCollection : 
@@ -17,34 +17,63 @@ public sealed class BuiltInProjectPropertyCollection :
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Author](../../aspose.tasks.properties/builtinprojectpropertycollection/author/) { get; set; } | Mendapat atau menetapkan pembuat proyek. |
-| [Category](../../aspose.tasks.properties/builtinprojectpropertycollection/category/) { get; set; } | Mendapat atau menetapkan kategori proyek. |
-| [Comments](../../aspose.tasks.properties/builtinprojectpropertycollection/comments/) { get; set; } | Mendapat atau menyetel komentar proyek. |
-| [Company](../../aspose.tasks.properties/builtinprojectpropertycollection/company/) { get; set; } | Mendapat atau menyetel perusahaan proyek. |
+| [Author](../../aspose.tasks.properties/builtinprojectpropertycollection/author/) { get; set; } | Mendapatkan atau mengatur penulis proyek. |
+| [Category](../../aspose.tasks.properties/builtinprojectpropertycollection/category/) { get; set; } | Mendapatkan atau mengatur kategori proyek. |
+| [Comments](../../aspose.tasks.properties/builtinprojectpropertycollection/comments/) { get; set; } | Mendapatkan atau mengatur komentar proyek. |
+| [Company](../../aspose.tasks.properties/builtinprojectpropertycollection/company/) { get; set; } | Mendapatkan atau mengatur perusahaan proyek. |
 | [Count](../../aspose.tasks.properties/propertykeyedcollection-1/count/) { get; } |  |
-| [HyperlinkBase](../../aspose.tasks.properties/builtinprojectpropertycollection/hyperlinkbase/) { get; set; } | Mendapat atau menyetel basis hyperlink suatu proyek. |
-| override [IsReadOnly](../../aspose.tasks.properties/builtinprojectpropertycollection/isreadonly/) { get; } | Mendapat nilai yang menunjukkan apakah koleksi ini hanya-baca; jika tidak, false. |
+| [HyperlinkBase](../../aspose.tasks.properties/builtinprojectpropertycollection/hyperlinkbase/) { get; set; } | Mendapatkan atau mengatur dasar hyperlink proyek. |
+| override [IsReadOnly](../../aspose.tasks.properties/builtinprojectpropertycollection/isreadonly/) { get; } | Mendapatkan nilai yang menunjukkan apakah koleksi ini hanya-baca; jika tidak, false. |
 | [Item](../../aspose.tasks.properties/propertykeyedcollection-1/item/) { get; } |  |
-| [Keywords](../../aspose.tasks.properties/builtinprojectpropertycollection/keywords/) { get; set; } | Mendapat atau menetapkan kata kunci proyek. |
-| [Manager](../../aspose.tasks.properties/builtinprojectpropertycollection/manager/) { get; set; } | Mendapat atau menetapkan manajer proyek. |
+| [Keywords](../../aspose.tasks.properties/builtinprojectpropertycollection/keywords/) { get; set; } | Mendapatkan atau mengatur kata kunci proyek. |
+| [Manager](../../aspose.tasks.properties/builtinprojectpropertycollection/manager/) { get; set; } | Mendapatkan atau mengatur manajer proyek. |
 | [Names](../../aspose.tasks.properties/propertykeyedcollection-1/names/) { get; } |  |
-| [Subject](../../aspose.tasks.properties/builtinprojectpropertycollection/subject/) { get; set; } | Mendapat atau menetapkan subjek proyek. |
-| [Title](../../aspose.tasks.properties/builtinprojectpropertycollection/title/) { get; set; } | Mendapat atau menetapkan judul proyek. |
+| [Subject](../../aspose.tasks.properties/builtinprojectpropertycollection/subject/) { get; set; } | Mendapatkan atau mengatur subjek proyek. |
+| [Title](../../aspose.tasks.properties/builtinprojectpropertycollection/title/) { get; set; } | Mendapatkan atau mengatur judul proyek. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [Add](../../aspose.tasks.properties/propertykeyedcollection-1/add/)(BuiltInProjectProperty) |  |
 | [Contains](../../aspose.tasks.properties/propertykeyedcollection-1/contains/)(string) |  |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara membaca properti bawaan proyek.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Author: " + project.BuiltInProps.Author);
+Console.WriteLine("Category: " + project.BuiltInProps.Category);
+Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
+Console.WriteLine("Company: " + project.BuiltInProps.Company);
+Console.WriteLine("HyperlinkBase: " + project.BuiltInProps.HyperlinkBase);
+Console.WriteLine("IsReadOnly: " + project.BuiltInProps.IsReadOnly);
+Console.WriteLine("Keywords: " + project.BuiltInProps.Keywords);
+Console.WriteLine("Manager: " + project.BuiltInProps.Manager);
+Console.WriteLine("Subject: " + project.BuiltInProps.Subject);
+Console.WriteLine("Title: " + project.BuiltInProps.Title);
+Console.WriteLine();
+
+// iterasi atas koleksi properti bawaan
+foreach (Property property in project.BuiltInProps)
+{
+    Console.WriteLine("Name: " + property.Name);
+    Console.WriteLine("Value: " + property.Value);
+    Console.WriteLine("Prop As String: " + property.ToString());
+    Console.WriteLine();
+}
+```
+
+### Lihat Juga
 
 * class [PropertyKeyedCollection&lt;T&gt;](../propertykeyedcollection-1/)
 * class [BuiltInProjectProperty](../builtinprojectproperty/)
-* ruang nama [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
-* perakitan [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

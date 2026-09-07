@@ -1,62 +1,138 @@
 ---
-title: GetTimephasedData
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mengembalikan instanceTimephasedDataCollectionaspose.tasks/timephaseddatacollection/ kelas yang berisi instance dariTimephasedDataaspose.tasks/resourceassignment/timephaseddata/ kelas dalam tanggal mulai dan akhir tertentu yang ditentukanTimephasedDataTypeaspose.tasks/timephaseddatatype/ .
+title: "ResourceAssignment.GetTimephasedData"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Metode ResourceAssignment. Mengembalikan instance kelas TimephasedDataCollection yang berisi instance kelas TimephasedData dalam rentang tanggal mulai dan akhir yang diberikan untuk TimephasedDataType yang ditentukan"
 type: docs
 weight: 720
 url: /id/net/aspose.tasks/resourceassignment/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-Mengembalikan instance[`TimephasedDataCollection`](../../timephaseddatacollection/) kelas yang berisi instance dari[`TimephasedData`](../timephaseddata/) kelas dalam tanggal mulai dan akhir tertentu yang ditentukan[`TimephasedDataType`](../../timephaseddatatype/) .
+Mengembalikan instance kelas [`TimephasedDataCollection`](../../timephaseddatacollection/) yang berisi instance kelas [`TimephasedData`](../timephaseddata/) dalam rentang tanggal mulai dan akhir yang diberikan untuk [`TimephasedDataType`](../../timephaseddatatype/) yang ditentukan.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
     TimephasedDataType timephasedType)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| start | DateTime | Tanggal mulai untuk data bertahap waktu. |
-| end | DateTime | Tanggal akhir untuk data bertahap waktu. |
-| timephasedType | TimephasedDataType | Jenis data bertahap waktu ([`TimephasedDataType`](../../timephaseddatatype/)). |
+| mulai | DateTime | Tanggal mulai untuk data berjangka waktu. |
+| akhir | DateTime | Tanggal akhir untuk data berjangka waktu. |
+| timephasedType | TimephasedDataType | Tipe data berjangka waktu ([`TimephasedDataType`](../../timephaseddatatype/)). |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-mengembalikan daftar yang berisi instance dari[`TimephasedData`](../../timephaseddata/) kelas.
+mengembalikan daftar yang berisi instance kelas [`TimephasedData`](../../timephaseddata/).
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menghasilkan data timephased dari penugasan sumber daya dalam rentang tanggal.
+
+```csharp
+var project = new Project(DataDir + "ReadWriteTimephasedData.mpp");
+
+// Atur properti proyek
+project.Set(Prj.StartDate, new DateTime(2013, 10, 30, 9, 0, 0));
+project.Set(Prj.NewTasksAreManual, false);
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Duration, project.GetDuration(6));
+
+var rsc = project.Resources.Add("Rsc");
+rsc.Set(Rsc.StandardRate, 10);
+rsc.Set(Rsc.OvertimeRate, 15);
+
+// Buat penugasan sumber daya
+var assn = project.ResourceAssignments.Add(task, rsc);
+assn.Set(Asn.Stop, DateTime.MinValue);
+assn.Set(Asn.Resume, DateTime.MinValue);
+
+// Atur kontur Backloaded, ini meningkatkan durasi tugas dari 6 menjadi 10 hari
+assn.Set(Asn.WorkContour, WorkContourType.BackLoaded);
+
+project.SetBaseline(BaselineType.Baseline);
+task.Set(Tsk.PercentComplete, 50);
+
+// dapatkan data timephased
+List<TimephasedData> td = assn.GetTimephasedData(assn.Get(Asn.Start), assn.Get(Asn.Finish), TimephasedDataType.AssignmentRemainingWork).ToList();
+Console.WriteLine(td.Count);
+foreach (var timePhasedValue in td)
+{
+    Console.WriteLine(timePhasedValue.Value);
+}
+```
+
+### Lihat Juga
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [ResourceAssignment](../)
-* ruang nama [Aspose.Tasks](../../resourceassignment/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-Pengembalian[`TimephasedDataCollection`](../../timephaseddatacollection/) objek dengan contoh dari[`TimephasedData`](../timephaseddata/) kelas dalam tanggal mulai dan akhir yang diberikanAssignmentWork .
+Mengembalikan objek [`TimephasedDataCollection`](../../timephaseddatacollection/) dengan instance kelas [`TimephasedData`](../timephaseddata/) dalam rentang tanggal mulai dan akhir yang diberikan untuk AssignmentWork.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| start | DateTime | Tanggal mulai untuk data bertahap waktu. |
-| end | DateTime | Tanggal akhir untuk data bertahap waktu. |
+| mulai | DateTime | Tanggal mulai untuk data berjangka waktu. |
+| akhir | DateTime | Tanggal akhir untuk data berjangka waktu. |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-mengembalikan daftar yang berisi instance dari[`TimephasedData`](../../timephaseddata/) kelas.
+mengembalikan daftar yang berisi instance kelas [`TimephasedData`](../../timephaseddata/).
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menghasilkan data timephased dari penugasan sumber daya dalam rentang tanggal.
+
+```csharp
+var project = new Project(DataDir + "ReadWriteTimephasedData.mpp");
+
+// Atur properti proyek
+project.Set(Prj.StartDate, new DateTime(2013, 10, 30, 9, 0, 0));
+project.Set(Prj.NewTasksAreManual, false);
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Duration, project.GetDuration(6));
+
+var rsc = project.Resources.Add("Rsc");
+rsc.Set(Rsc.StandardRate, 10);
+rsc.Set(Rsc.OvertimeRate, 15);
+
+// Buat penugasan sumber daya
+var assn = project.ResourceAssignments.Add(task, rsc);
+assn.Set(Asn.Stop, DateTime.MinValue);
+assn.Set(Asn.Resume, DateTime.MinValue);
+
+// Atur kontur Backloaded, ini meningkatkan durasi tugas dari 6 menjadi 10 hari
+assn.Set(Asn.WorkContour, WorkContourType.BackLoaded);
+
+project.SetBaseline(BaselineType.Baseline);
+task.Set(Tsk.PercentComplete, 50);
+
+// dapatkan data timephased
+List<TimephasedData> td = assn.GetTimephasedData(assn.Get(Asn.Start), assn.Get(Asn.Finish), TimephasedDataType.AssignmentRemainingWork).ToList();
+Console.WriteLine(td.Count);
+foreach (var timePhasedValue in td)
+{
+    Console.WriteLine(timePhasedValue.Value);
+}
+```
+
+### Lihat Juga
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [ResourceAssignment](../)
-* ruang nama [Aspose.Tasks](../../resourceassignment/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

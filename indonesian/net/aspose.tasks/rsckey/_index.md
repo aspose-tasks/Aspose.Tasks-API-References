@@ -1,9 +1,9 @@
 ---
-title: RscKey
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mewakili daftar bidang sumber daya yang didukung.
+title: "Enum RscKey"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Enum Aspose.Tasks.RscKey. Mewakili daftar bidang sumber daya yang didukung"
 type: docs
-weight: 1710
+weight: 1970
 url: /id/net/aspose.tasks/rsckey/
 ---
 ## RscKey enumeration
@@ -11,103 +11,117 @@ url: /id/net/aspose.tasks/rsckey/
 Mewakili daftar bidang sumber daya yang didukung.
 
 ```csharp
-public enum RscKey
+public enum RscKey : byte
 ```
 
 ### Nilai
 
-| Nama | Nilai | Keterangan |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Name | `0` | Mewakili bidang Nama (Sumber Daya). |
-| AccrueAt | `1` | Mewakili bidang Accrue At (Sumber Daya). |
-| ActualCost | `2` | Mewakili bidang Biaya Aktual (Sumber Daya). |
-| ActualOvertimeCost | `3` | Mewakili kolom Biaya Lembur Aktual (Sumber Daya). |
-| ActualOvertimeWork | `4` | Mewakili bidang Kerja Lembur Aktual (Sumber Daya). |
-| ActualOvertimeWorkProtected | `5` | Mewakili bidang Aktual Kerja Lembur yang Dilindungi (Sumber Daya). |
-| ActualWork | `6` | Mewakili bidang Pekerjaan Aktual (Sumber Daya). |
-| ActualWorkProtected | `7` | Mewakili bidang Real Work Protected (Sumber Daya). |
-| ACWP | `8` | Mewakili bidang ACWP (Sumber Daya). |
-| AssignmentOwner | `9` | Mewakili bidang Pemilik Tugas (Sumber Daya). |
-| AssignmentOwnerGuid | `10` | Mewakili bidang Panduan Pemilik Tugas (Sumber Daya). |
-| AssignmentUnits | `11` | Mewakili bidang Unit Penugasan (Sumber Daya). |
-| AvailableFrom | `12` | Mewakili bidang Tersedia Dari (Sumber Daya). |
-| AvailableTo | `13` | Mewakili bidang Tersedia Untuk (Sumber Daya). |
-| ActiveDirectoryGuid | `14` | Mewakili bidang Panduan Direktori Aktif (Sumber Daya). |
-| BaseCalendar | `15` | Mewakili bidang Kalender Dasar (Sumber Daya). |
-| BCWP | `16` | Mewakili bidang BCWP (Sumber Daya). |
-| BCWS | `17` | Mewakili bidang BCWS (Sumber Daya). |
-| BookingType | `18` | Mewakili bidang Jenis Pemesanan (Sumber Daya). |
-| BudgetWork | `19` | Mewakili bidang Pekerjaan Anggaran (Sumber Daya). |
-| BudgetCost | `20` | Merupakan kolom Biaya Anggaran (Sumber Daya). |
-| Calendar | `21` | Mewakili bidang Kalender GUID (Sumber Daya). |
-| CanLevel | `22` | Mewakili bidang Can Level (Sumber Daya). |
-| Code | `23` | Mewakili bidang Kode (Sumber Daya). |
-| Confirmed | `24` | Mewakili bidang (Sumber Daya) yang Dikonfirmasi. |
-| Cost | `25` | Mewakili bidang Biaya (Sumber Daya). |
-| CostCenter | `26` | Mewakili bidang Pusat Biaya (Sumber Daya). |
-| CostPerUse | `27` | Mewakili bidang Biaya Per Penggunaan (Sumber Daya). |
-| CostRateTable | `28` | Merupakan bidang Tabel Tarif Biaya (Sumber Daya). |
-| CostVariance | `29` | Merupakan kolom Varians Biaya (Sumber Daya). |
-| Created | `30` | Mewakili bidang Dibuat (Sumber Daya). |
-| CV | `31` | Mewakili bidang CV (Sumber Daya). |
-| SV | `32` | Mewakili bidang SV (Sumber Daya). |
-| EMailAddress | `33` | Mewakili kolom Alamat EMail (Sumber Daya). |
-| IsBudget | `34` | Mewakili bidang Anggaran (Sumber Daya). |
+| Name | `0` | Mewakili bidang Name (Resource). |
+| AccrueAt | `1` | Mewakili bidang Accrue At (Resource). |
+| ActualCost | `2` | Mewakili bidang Actual Cost (Resource). |
+| ActualOvertimeCost | `3` | Mewakili bidang Actual Overtime Cost (Resource). |
+| ActualOvertimeWork | `4` | Mewakili bidang Actual Overtime Work (Resource). |
+| ActualOvertimeWorkProtected | `5` | Mewakili bidang Actual Overtime Work Protected (Resource). |
+| ActualWork | `6` | Mewakili bidang Actual Work (Resource). |
+| ActualWorkProtected | `7` | Mewakili bidang Actual Work Protected (Resource). |
+| ACWP | `8` | Mewakili bidang ACWP (Resource). |
+| AssignmentOwner | `9` | Mewakili bidang Pemilik Penugasan (Sumber Daya). |
+| AssignmentOwnerGuid | `10` | Mewakili bidang Guid Pemilik Penugasan (Sumber Daya). |
+| AssignmentUnits | `11` | Mewakili bidang Assignment Units (Resource). |
+| AvailableFrom | `12` | Mewakili bidang Available From (Resource). |
+| AvailableTo | `13` | Mewakili bidang Available To (Resource). |
+| ActiveDirectoryGuid | `14` | Mewakili bidang Guid Active Directory (Sumber Daya). |
+| BaseCalendar | `15` | Mewakili bidang Base Calendar (Resource). |
+| BCWP | `16` | Mewakili bidang BCWP (Resource). |
+| BCWS | `17` | Mewakili bidang BCWS (Resource). |
+| BookingType | `18` | Mewakili bidang Booking Type (Resource). |
+| BudgetWork | `19` | Mewakili bidang Budget Work (Resource). |
+| BudgetCost | `20` | Mewakili bidang Budget Cost (Resource). |
+| Calendar | `21` | Mewakili bidang Calendar GUID (Resource). |
+| CanLevel | `22` | Mewakili bidang Can Level (Resource). |
+| Code | `23` | Mewakili bidang Code (Resource). |
+| Confirmed | `24` | Mewakili bidang Confirmed (Resource). |
+| Cost | `25` | Mewakili bidang Cost (Resource). |
+| CostCenter | `26` | Mewakili bidang Cost Center (Resource). |
+| CostPerUse | `27` | Mewakili bidang Cost Per Use (Resource). |
+| CostRateTable | `28` | Mewakili bidang Cost Rate Table (Resource). |
+| CostVariance | `29` | Mewakili bidang Cost Variance (Resource). |
+| Created | `30` | Mewakili bidang Created (Resource). |
+| CV | `31` | Mewakili bidang CV (Resource). |
+| SV | `32` | Mewakili bidang SV (Resource). |
+| EMailAddress | `33` | Mewakili bidang EMail Address (Resource). |
+| IsBudget | `34` | Mewakili bidang Budget (Resource). |
 | IsGeneric | `35` | Mewakili bidang Generik (Sumber Daya). |
-| IsEnterprise | `36` | Mewakili bidang Perusahaan (Sumber Daya). |
-| IsCostResource | `37` | Mewakili kolom Is Cost (Sumber Daya). |
-| Inactive | `38` | Mewakili bidang Tidak Aktif (Sumber Daya). |
-| Finish | `39` | Mewakili bidang Selesai (Sumber Daya). |
-| Group | `40` | Mewakili bidang Grup (Sumber Daya). |
-| GroupBySummary | `41` | Mewakili kolom Group by Summary (Sumber Daya). |
+| IsEnterprise | `36` | Mewakili bidang Enterprise (Resource). |
+| IsCostResource | `37` | Mewakili bidang Is Cost (Sumber Daya). |
+| Inactive | `38` | Mewakili bidang Inactive (Sumber Daya). |
+| Finish | `39` | Mewakili bidang Finish (Resource). |
+| Group | `40` | Mewakili bidang Group (Resource). |
+| GroupBySummary | `41` | Mewakili bidang Group by Summary (Resource). |
 | Guid | `42` | Mewakili bidang GUID (Sumber Daya). |
-| Hyperlink | `43` | Mewakili bidang Hyperlink (Sumber Daya). |
-| HyperlinkAddress | `44` | Mewakili bidang Alamat Hyperlink (Sumber Daya). |
-| HyperlinkHref | `45` | Mewakili bidang Hyperlink HRef (Sumber Daya). |
-| HyperlinkSubAddress | `46` | Merupakan bidang Sub Alamat Hyperlink (Sumber Daya). |
-| Id | `47` | Mewakili bidang ID (Sumber Daya). |
-| Initials | `48` | Mewakili bidang Inisial (Sumber Daya). |
-| IsAssignment | `49` | Merupakan bidang Penugasan (Sumber Daya). |
+| Hyperlink | `43` | Mewakili bidang Hyperlink (Resource). |
+| HyperlinkAddress | `44` | Mewakili bidang Alamat Hyperlink (Resource). |
+| HyperlinkHref | `45` | Mewakili bidang HRef Hyperlink (Resource). |
+| HyperlinkSubAddress | `46` | Mewakili bidang Sub Alamat Hyperlink (Resource). |
+| Id | `47` | Mewakili bidang ID (Resource). |
+| Initials | `48` | Mewakili bidang Inisial (Resource). |
+| IsAssignment | `49` | Mewakili bidang Is Assignment (Resource). |
 | IsNull | `50` | Mewakili bidang IsNull. |
-| IsTeamAssignmentPool | `51` | Mewakili bidang Adalah Tim (Sumber Daya). |
-| LevelingDelay | `52` | Mewakili bidang Leveling Delay (Sumber Daya). |
-| LinkedFields | `53` | Mewakili bidang Bidang Tertaut (Sumber Daya). |
-| MaterialLabel | `54` | Mewakili bidang Label Bahan (Sumber Daya). |
-| MaxUnits | `55` | Mewakili bidang Unit Maks (Sumber Daya). |
-| Notes | `56` | Mewakili bidang Catatan (Sumber Daya). |
+| IsTeamAssignmentPool | `51` | Mewakili bidang Is Team (Resource). |
+| LevelingDelay | `52` | Mewakili bidang Leveling Delay (Resource). |
+| LinkedFields | `53` | Mewakili bidang Linked Fields (Resource). |
+| MaterialLabel | `54` | Mewakili bidang Material Label (Resource). |
+| MaxUnits | `55` | Mewakili bidang Max Units (Resource). |
+| Notes | `56` | Mewakili bidang Notes (Resource). |
 | NotesRTF | `57` | Mewakili bidang Catatan RTF (Sumber Daya). |
 | NotesText | `58` | Mewakili bidang Teks Catatan (Sumber Daya). |
-| Overallocated | `59` | Mewakili bidang Overlocated (Sumber Daya). |
-| OvertimeCost | `60` | Mewakili bidang Biaya Lembur (Sumber Daya). |
-| OvertimeRate | `61` | Mewakili bidang Tarif Lembur (Sumber Daya). |
+| Overallocated | `59` | Mewakili Overallocated (Resource) field. |
+| OvertimeCost | `60` | Mewakili Overtime Cost (Resource) kolom. |
+| OvertimeRate | `61` | Mewakili Overtime Rate (Resource) kolom. |
 | OvertimeRateFormat | `62` | Mewakili bidang Format Tarif Lembur (Sumber Daya). |
-| OvertimeWork | `63` | Mewakili bidang Kerja Lembur (Sumber Daya). |
-| PeakUnits | `64` | Mewakili bidang Unit Puncak (Sumber Daya). |
-| PercentWorkComplete | `65` | Mewakili bidang Persen Pekerjaan Selesai (Sumber Daya). |
-| Phonetics | `66` | Mewakili bidang Fonetik (Sumber Daya). |
-| Project | `67` | Mewakili bidang Proyek (Sumber Daya). |
-| RegularWork | `68` | Mewakili bidang Pekerjaan Reguler (Sumber Daya). |
-| RemainingCost | `69` | Mewakili bidang Sisa Biaya (Sumber Daya). |
-| RemainingOvertimeCost | `70` | Mewakili bidang Sisa Biaya Lembur (Sumber Daya). |
-| RemainingOvertimeWork | `71` | Mewakili bidang Sisa Kerja Lembur (Sumber Daya). |
-| RemainingWork | `72` | Mewakili bidang Pekerjaan Tersisa (Sumber Daya). |
-| ResponsePending | `73` | Mewakili bidang Response Pending (Sumber Daya). |
-| StandardRate | `74` | Mewakili bidang Tarif Standar (Sumber Daya). |
+| OvertimeWork | `63` | Mewakili Overtime Work (Resource) kolom. |
+| PeakUnits | `64` | Mewakili Peak Units (Resource) kolom. |
+| PercentWorkComplete | `65` | Mewakili Percent Work Complete (Resource) kolom. |
+| Phonetics | `66` | Mewakili Phonetics (Resource) kolom. |
+| Project | `67` | Mewakili Project (Resource) kolom. |
+| RegularWork | `68` | Mewakili Regular Work (Resource) kolom. |
+| RemainingCost | `69` | Mewakili Remaining Cost (Resource) kolom. |
+| RemainingOvertimeCost | `70` | Mewakili Remaining Overtime Cost (Resource) kolom. |
+| RemainingOvertimeWork | `71` | Mewakili Remaining Overtime Work (Resource) kolom. |
+| RemainingWork | `72` | Mewakili Remaining Work (Resource) kolom. |
+| ResponsePending | `73` | Mewakili Response Pending (Resource) kolom. |
+| StandardRate | `74` | Mewakili Standard Rate (Resource) kolom. |
 | StandardRateFormat | `75` | Mewakili bidang Format Tarif Standar (Sumber Daya). |
-| Start | `76` | Mewakili bidang Mulai (Sumber Daya). |
-| Type | `77` | Mewakili bidang Jenis (Sumber Daya). |
-| Uid | `78` | Mewakili bidang UniqueID (Sumber Daya). |
-| VAC | `79` | Mewakili bidang VAC (Sumber Daya). |
-| WBS | `80` | Mewakili bidang WBS (Sumber Daya). |
-| WindowsUserAccount | `81` | Mewakili bidang Akun Pengguna Windows (Sumber Daya). |
-| Work | `82` | Mewakili bidang Pekerjaan (Sumber Daya). |
-| WorkContour | `83` | Mewakili bidang Work Contour (Sumber Daya). |
-| Workgroup | `84` | Mewakili bidang Grup Kerja (Sumber Daya). |
-| WorkVariance | `85` | Mewakili bidang Work Variance (Sumber Daya). |
+| Start | `76` | Mewakili Start (Resource) kolom. |
+| Type | `77` | Mewakili bidang Type (Resource). |
+| Uid | `78` | Mewakili bidang UniqueID (Resource). |
+| VAC | `79` | Mewakili bidang VAC (Resource). |
+| WBS | `80` | Mewakili bidang WBS (Resource). |
+| WindowsUserAccount | `81` | Mewakili bidang Windows User Account (Resource). |
+| Work | `82` | Mewakili bidang Work (Resource). |
+| WorkContour | `83` | Mewakili bidang Work Contour (Resource). |
+| Workgroup | `84` | Mewakili bidang Workgroup (Resource). |
+| WorkVariance | `85` | Mewakili bidang Work Variance (Resource). |
 
-### Lihat juga
+## Contoh
 
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+Menampilkan cara membaca/menulis properti Rsc.Name.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
+### Lihat Juga
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+
