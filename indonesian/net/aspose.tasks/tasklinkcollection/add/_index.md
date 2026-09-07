@@ -1,133 +1,256 @@
 ---
-title: Add
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mengembalikan contoh FinishStartTaskLinkaspose.tasks/tasklink/ yang telah ditambahkan ke objek TaskLinkCollection.
+title: "TaskLinkCollection.Add"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Metode TaskLinkCollection. Mengembalikan instance dari FinishStart TaskLink yang telah ditambahkan ke objek TaskLinkCollection."
 type: docs
 weight: 40
 url: /id/net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-Mengembalikan contoh Finish-Start[`TaskLink`](../../tasklink/) yang telah ditambahkan ke objek TaskLinkCollection.
+Mengembalikan sebuah instance dari Finish-Start [`TaskLink`](../../tasklink/) yang telah ditambahkan ke objek TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| pred | Task | Tugas pendahulu. |
-| succ | Task | Tugas penerus. |
+| pred | Tugas | Tugas pendahulu. |
+| succ | Tugas | Tugas penerus. |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-contoh tautan tugas yang telah ditambahkan ke objek ini.
+sebuah instance tautan tugas yang telah ditambahkan ke objek ini.
 
 ### Pengecualian
 
 | pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Jika salah satu tugas input sama dengan nol, makaArgumentNullException akan dilempar. |
+| ArgumentNullException | Jika salah satu tugas masukan bernilai null maka ArgumentNullException akan dilempar. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan koleksi tautan tugas.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// dapatkan tugas
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// tautkan tugas-tugas
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// cetak tautan di antara tugas-tugas
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// sunting tautan dengan akses indeks
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// hapus semua tautan tugas
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
+
+### Lihat Juga
 
 * class [TaskLink](../../tasklink/)
 * class [Task](../../task/)
 * class [TaskLinkCollection](../)
-* ruang nama [Aspose.Tasks](../../tasklinkcollection/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-Mengembalikan turunan dari[`TaskLink`](../../tasklink/) yang telah ditambahkan ke objek TaskLinkCollection.
+Mengembalikan sebuah instance dari [`TaskLink`](../../tasklink/) yang telah ditambahkan ke objek TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| pred | Task | Tugas pendahulu. |
-| succ | Task | Tugas penerus. |
-| linkType | TaskLinkType | Jenis tautan[`TaskLinkType`](../../tasklinktype/) |
+| pred | Tugas | Tugas pendahulu. |
+| succ | Tugas | Tugas penerus. |
+| linkType | TaskLinkType | Tipe tautan [`TaskLinkType`](../../tasklinktype/) |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-contoh tautan tugas yang telah ditambahkan ke objek ini.
+sebuah instance tautan tugas yang telah ditambahkan ke objek ini.
 
 ### Pengecualian
 
 | pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Jika salah satu tugas input sama dengan nol, makaArgumentNullException akan dilempar. |
+| ArgumentNullException | Jika salah satu tugas masukan bernilai null maka ArgumentNullException akan dilempar. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan koleksi tautan tugas.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// dapatkan tugas
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// tautkan tugas-tugas
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// cetak tautan di antara tugas-tugas
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// sunting tautan dengan akses indeks
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// hapus semua tautan tugas
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
+
+### Lihat Juga
 
 * class [TaskLink](../../tasklink/)
 * class [Task](../../task/)
 * enum [TaskLinkType](../../tasklinktype/)
 * class [TaskLinkCollection](../)
-* ruang nama [Aspose.Tasks](../../tasklinkcollection/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-Mengembalikan turunan dari[`TaskLink`](../../tasklink/) yang telah ditambahkan ke objek TaskLinkCollection.
+Mengembalikan sebuah instance dari [`TaskLink`](../../tasklink/) yang telah ditambahkan ke objek TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| pred | Task | Tugas pendahulu. |
-| succ | Task | Tugas penerus. |
-| linkType | TaskLinkType | Jenis tautan[`TaskLinkType`](../../tasklinktype/) |
-| lag | Duration | Sambungan lag[`Duration`](../../duration/). |
+| pred | Tugas | Tugas pendahulu. |
+| succ | Tugas | Tugas penerus. |
+| linkType | TaskLinkType | Tipe tautan [`TaskLinkType`](../../tasklinktype/) |
+| lag | Duration | Penundaan tautan [`Duration`](../../duration/). |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-tautan tugas yang telah ditambahkan ke objek ini.
+sebuah tautan tugas yang telah ditambahkan ke objek ini.
 
 ### Pengecualian
 
 | pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Jika salah satu tugas input sama dengan nol, makaArgumentNullException akan dilempar. |
+| ArgumentNullException | Jika salah satu tugas masukan bernilai null maka ArgumentNullException akan dilempar. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan koleksi tautan tugas.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// dapatkan tugas
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// tautkan tugas-tugas
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// cetak tautan di antara tugas-tugas
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// sunting tautan dengan akses indeks
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// hapus semua tautan tugas
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
+
+### Lihat Juga
 
 * class [TaskLink](../../tasklink/)
 * class [Task](../../task/)
 * enum [TaskLinkType](../../tasklinktype/)
 * struct [Duration](../../duration/)
 * class [TaskLinkCollection](../)
-* ruang nama [Aspose.Tasks](../../tasklinkcollection/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(TaskLink) {#add_3}
 
-Ini adalah implementasi stub dari metode Add ICollection, yang hanya melempar NotSupportedException
+Ini adalah implementasi stub dari metode Add milik ICollection, yang hanya melempar NotSupportedException
 
 ```csharp
 public void Add(TaskLink item)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | item | TaskLink | Item yang akan ditambahkan. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [TaskLink](../../tasklink/)
 * class [TaskLinkCollection](../)
-* ruang nama [Aspose.Tasks](../../tasklinkcollection/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

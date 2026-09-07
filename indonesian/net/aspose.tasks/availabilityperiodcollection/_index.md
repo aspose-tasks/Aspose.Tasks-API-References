@@ -1,14 +1,14 @@
 ---
-title: AvailabilityPeriodCollection
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Merupakan koleksi yang berisiAvailabilityPeriod./availabilityperiod/ objek.
+title: "Kelas AvailabilityPeriodCollection"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.AvailabilityPeriodCollection. Mewakili koleksi yang berisi objek AvailabilityPeriod"
 type: docs
 weight: 90
 url: /id/net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class
 
-Merupakan koleksi yang berisi[`AvailabilityPeriod`](../availabilityperiod/) objek.
+Mewakili koleksi yang berisi objek [`AvailabilityPeriod`](../availabilityperiod/).
 
 ```csharp
 public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
@@ -16,31 +16,125 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | Mendapat jumlah elemen yang terkandung dalam koleksi ini. |
-| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | Mendapat nilai yang menunjukkan apakah koleksi ini hanya-baca; jika tidak, false. |
-| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | Mengembalikan atau menyetel elemen pada indeks yang ditentukan. |
-| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | Mendapatkan induknya[`Resource`](../resource/) untuk objek ini.  Induk[`Resource`](../resource/) objek untuk koleksi ini. |
+| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | Mendapatkan jumlah elemen yang terdapat dalam koleksi ini. |
+| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | Mendapatkan nilai yang menunjukkan apakah koleksi ini hanya-baca; jika tidak, false. |
+| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | Mengembalikan atau mengatur elemen pada indeks yang ditentukan. |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | Mendapatkan [`Resource`](../resource/) induk untuk objek ini. Objek [`Resource`](../resource/) induk untuk koleksi ini. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Add](../../aspose.tasks/availabilityperiodcollection/add/)(AvailabilityPeriod) | Menambahkan item tertentu ke koleksi ini. |
+| [Add](../../aspose.tasks/availabilityperiodcollection/add/)(AvailabilityPeriod) | Menambahkan item yang ditentukan ke koleksi ini. |
 | [Clear](../../aspose.tasks/availabilityperiodcollection/clear/)() | Menghapus semua item dari koleksi ini. |
-| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | Mengembalikan nilai true jika item yang ditentukan ditemukan dalam koleksi ini; jika tidak, false. |
-| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | Menyalin elemen koleksi ini ke larik yang ditentukan, mulai dari indeks larik yang ditentukan. |
+| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | Mengembalikan true jika item yang ditentukan ditemukan dalam koleksi ini; jika tidak, false. |
+| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | Menyalin elemen-elemen koleksi ini ke array yang ditentukan, mulai dari indeks array yang ditentukan. |
 | [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator/)() | Mengembalikan enumerator untuk koleksi ini. |
-| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof/)(AvailabilityPeriod) | Menentukan indeks item yang ditentukan dalam koleksi ini. |
+| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof/)(AvailabilityPeriod) | Menentukan indeks dari item yang ditentukan dalam koleksi ini. |
 | [Insert](../../aspose.tasks/availabilityperiodcollection/insert/)(int, AvailabilityPeriod) | Menyisipkan item yang ditentukan pada indeks yang ditentukan. |
-| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | Menghapus kejadian pertama objek tertentu dari koleksi ini. |
-| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat/)(int) | Menghapus item pada indeks yang ditentukan. |
+| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | Menghapus kemunculan pertama dari objek tertentu dari koleksi ini. |
+| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat/)(int) | Menghapus sebuah item pada indeks yang ditentukan. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan koleksi periode ketersediaan sumber daya.
+
+```csharp
+public void WorkWithAvailabilityPeriodCollection()
+{
+    var project = new Project(DataDir + "UpdateResourceData.mpp");
+    var resource = project.Resources.GetById(1);
+
+    resource.AvailabilityPeriods.Clear();
+
+    // Tambahkan periode ketersediaan (tahun 2012 dan 2014) ke sumber daya baru
+    IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
+    foreach (var period in periods)
+    {
+        if (!resource.AvailabilityPeriods.IsReadOnly)
+        {
+            resource.AvailabilityPeriods.Add(period);
+        }
+    }
+
+    var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
+
+    if (!resource.AvailabilityPeriods.Contains(period2013))
+    {
+        resource.AvailabilityPeriods.Insert(1, period2013);
+    }
+
+    Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
+    foreach (var period in resource.AvailabilityPeriods)
+    {
+        Console.WriteLine("Available From: " + period.AvailableFrom);
+        Console.WriteLine("Available To: " + period.AvailableTo);
+        Console.WriteLine("Available Units: " + period.AvailableUnits);
+        Console.WriteLine();
+    }
+
+    var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
+    resource.AvailabilityPeriods.CopyTo(periodsToCopy, 0);
+
+    var otherResource = project.Resources.GetById(2);
+    otherResource.AvailabilityPeriods.Clear();
+    foreach (var period in periodsToCopy)
+    {
+        otherResource.AvailabilityPeriods.Add(period);
+    }
+
+    var period2015 = new AvailabilityPeriod { AvailableFrom = new DateTime(2015, 1, 1), AvailableTo = new DateTime(2015, 12, 12), AvailableUnits = 0.50 };
+
+    var period2016 = new AvailabilityPeriod { AvailableFrom = new DateTime(2016, 1, 1), AvailableTo = new DateTime(2016, 12, 12), AvailableUnits = 0.53 };
+
+    if (otherResource.AvailabilityPeriods.IndexOf(period2015) < 0)
+    {
+        otherResource.AvailabilityPeriods.Add(period2015);
+    }
+
+    if (otherResource.AvailabilityPeriods.IndexOf(period2016) < 0)
+    {
+        otherResource.AvailabilityPeriods.Add(period2016);
+    }
+
+    // perbarui unit yang tersedia untuk periode tahun 2014
+    otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
+
+    // hapus periode tahun 2013
+    otherResource.AvailabilityPeriods.Remove(period2013);
+
+    // hapus periode tahun 2011
+    otherResource.AvailabilityPeriods.RemoveAt(0);
+
+    Console.WriteLine("Print resource availability periods of the resource: " + otherResource.Get(Rsc.Name));
+    Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
+    foreach (var period in resource.AvailabilityPeriods)
+    {
+        Console.WriteLine("Available From: " + period.AvailableFrom);
+        Console.WriteLine("Available To: " + period.AvailableTo);
+        Console.WriteLine("Available Units: " + period.AvailableUnits);
+        Console.WriteLine();
+    }
+}
+
+private IEnumerable<AvailabilityPeriod> GetPeriods()
+{
+    var periods = new List<AvailabilityPeriod>();
+    var period = new AvailabilityPeriod { AvailableFrom = new DateTime(2012, 1, 1), AvailableTo = new DateTime(2012, 12, 12), AvailableUnits = 0.99 };
+    periods.Add(period);
+
+    var period2 = new AvailabilityPeriod { AvailableFrom = new DateTime(2014, 1, 1), AvailableTo = new DateTime(2014, 12, 12), AvailableUnits = 0.94 };
+    periods.Add(period2);
+    return periods;
+}
+```
+
+### Lihat Juga
 
 * class [AvailabilityPeriod](../availabilityperiod/)
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

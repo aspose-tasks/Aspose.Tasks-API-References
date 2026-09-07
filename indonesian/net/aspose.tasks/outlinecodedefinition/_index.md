@@ -1,9 +1,9 @@
 ---
-title: OutlineCodeDefinition
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mewakili definisi kode outline.
+title: "Kelas OutlineCodeDefinition"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.OutlineCodeDefinition. Mewakili definisi kode outline."
 type: docs
-weight: 1040
+weight: 1170
 url: /id/net/aspose.tasks/outlinecodedefinition/
 ---
 ## OutlineCodeDefinition class
@@ -11,37 +11,101 @@ url: /id/net/aspose.tasks/outlinecodedefinition/
 Mewakili definisi kode outline.
 
 ```csharp
-public class OutlineCodeDefinition
+public sealed class OutlineCodeDefinition
 ```
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [OutlineCodeDefinition](outlinecodedefinition/)() | Menginisialisasi instance baru dari`OutlineCodeDefinition` kelas. |
+| [OutlineCodeDefinition](outlinecodedefinition/)() | Menginisialisasi instance baru dari kelas `OutlineCodeDefinition`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Alias](../../aspose.tasks/outlinecodedefinition/alias/) { get; set; } | Mendapat atau menyetel alias dari kode kerangka khusus. |
-| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah kode baru harus memiliki semua level. Tidak tersedia untuk Kode Perusahaan. |
-| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah kode kerangka kustom merupakan kode kerangka kustom perusahaan. |
-| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/) { get; set; } | Mendapat atau menyetel referensi ke bidang khusus lain yang definisi kode kerangkanya adalah alias. |
-| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid/) { get; set; } | Mendapat atau mengatur nomor field dari kode outline. |
-| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname/) { get; set; } | Mendapat atau menyetel nama kode kerangka khusus. |
-| [Guid](../../aspose.tasks/outlinecodedefinition/guid/) { get; set; } | Mendapat atau mengatur Panduan dari kode outline. |
-| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah nilai yang ditentukan dalam bidang kode kerangka ini harus berupa nilai daun. |
-| [Masks](../../aspose.tasks/outlinecodedefinition/masks/) { get; } | Mendapat objek OutlineMaskCollection. Tabel entri yang menentukan topeng kode garis luar. Hanya baca[`OutlineMaskCollection`](../outlinemaskcollection/) contoh. |
-| [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah nilai yang ditentukan harus berasal dari tabel nilai. |
-| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias/) { get; set; } | Mendapat atau menyetel pelafalan fonetik dari alias kode kerangka khusus. |
-| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah kode kerangka khusus dapat digunakan oleh Resource Substitution Wizard di Microsoft Project. |
-| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah indentasi kode kerangka ini harus ditampilkan. |
-| [Values](../../aspose.tasks/outlinecodedefinition/values/) { get; } | Mendapat objek OutlineValueCollection. Nilai tabel yang terkait dengan kode garis besar ini. |
+| [Alias](../../aspose.tasks/outlinecodedefinition/alias/) { get; set; } | Mendapatkan atau mengatur alias dari kode outline khusus. |
+| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah kode baru harus memiliki semua level. Tidak tersedia untuk Enterprise Codes. |
+| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah kode outline khusus merupakan kode outline khusus enterprise. |
+| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/) { get; set; } | Mendapatkan atau mengatur referensi ke bidang khusus lain yang definisi kode outline ini menjadi aliasnya. |
+| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid/) { get; set; } | Mendapatkan atau mengatur nomor bidang dari sebuah kode outline. |
+| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname/) { get; set; } | Mendapatkan atau mengatur nama dari kode outline khusus. |
+| [Guid](../../aspose.tasks/outlinecodedefinition/guid/) { get; set; } | Mendapatkan atau mengatur Guid dari sebuah kode outline. |
+| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah nilai yang ditentukan dalam bidang kode outline ini harus berupa nilai daun. |
+| [Masks](../../aspose.tasks/outlinecodedefinition/masks/) { get; } | Mendapatkan objek OutlineMaskCollection. Tabel entri yang mendefinisikan mask kode outline. Instance read-only [`OutlineMaskCollection`](../outlinemaskcollection/). |
+| [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah nilai yang ditentukan harus berasal dari tabel nilai. |
+| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias/) { get; set; } | Mendapatkan atau mengatur pengucapan fonetik dari alias kode outline khusus. |
+| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah kode outline khusus dapat digunakan oleh Resource Substitution Wizard di Microsoft Project. |
+| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah indentasi kode outline ini harus ditampilkan. |
+| [Values](../../aspose.tasks/outlinecodedefinition/values/) { get; } | Mendapatkan objek OutlineValueCollection. Nilai-nilai tabel yang terkait dengan kode outline ini. |
 
-### Lihat juga
+## Contoh
 
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+Menampilkan cara bekerja dengan definisi kode outline.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// buat definisi kode outline baru
+var outline = new OutlineCodeDefinition();
+
+// atur nomor bidang dari sebuah kode outline
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+
+// atur nama kode outline khusus
+outline.FieldName = "Outline Code1";
+
+// atur Guid dari sebuah kode outline
+outline.Guid = "e6afac06-0d86-4359-a96c-db705e3d2ca8";
+
+// atur nilai yang menunjukkan apakah nilai yang ditentukan dalam bidang kode outline ini harus berupa nilai daun
+outline.LeafOnly = false;
+
+// atur alias dari kode outline khusus
+outline.Alias = "My Outline Code";
+
+// atur pelafalan fonetik alias dari kode outline khusus
+outline.PhoneticAlias = "Outline Code";
+
+// atur nilai yang menunjukkan apakah kode baru harus memiliki semua level. Tidak tersedia untuk Kode Enterprise.
+outline.AllLevelsRequired = true;
+
+// atur nilai yang menunjukkan apakah kode outline khusus merupakan kode outline khusus enterprise
+outline.Enterprise = false;
+
+// atur referensi ke bidang khusus lain yang definisi kode outline ini menjadi aliasnya
+outline.EnterpriseOutlineCodeAlias = 0;
+
+// tambahkan mask outline
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+outline.Masks.Add(mask);
+
+// atur nilai yang menunjukkan apakah nilai yang ditentukan harus berasal dari tabel nilai
+outline.OnlyTableValuesAllowed = false;
+
+// atur nilai yang menunjukkan apakah kode outline khusus dapat digunakan
+// oleh Wizard Substitusi Sumber Daya di Microsoft Project
+outline.ResourceSubstitutionEnabled = false;
+
+// atur nilai yang menunjukkan apakah indentasi kode outline ini harus ditampilkan.
+outline.ShowIndent = false;
+
+project.OutlineCodes.Add(outline);
+
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+
+// ...
+```
+
+### Lihat Juga
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+

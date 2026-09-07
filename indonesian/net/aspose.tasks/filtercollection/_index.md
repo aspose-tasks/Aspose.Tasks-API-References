@@ -1,14 +1,14 @@
 ---
-title: FilterCollection
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Berisi daftarFilter./filter/ objek. Menerapkan antarmuka ICollectionltFiltergt.
+title: "Kelas FilterCollection"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.FilterCollection. Berisi daftar objek Filter. Mengimplementasikan antarmuka ICollectionFilter"
 type: docs
 weight: 610
 url: /id/net/aspose.tasks/filtercollection/
 ---
 ## FilterCollection class
 
-Berisi daftar[`Filter`](../filter/) objek. Menerapkan antarmuka ICollection&lt;Filter&gt;.
+Berisi daftar objek [`Filter`](../filter/) . Mengimplementasikan antarmuka ICollection&lt;Filter&gt;.
 
 ```csharp
 public class FilterCollection : ICollection<Filter>
@@ -16,27 +16,91 @@ public class FilterCollection : ICollection<Filter>
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.tasks/filtercollection/count/) { get; } | Mendapat jumlah elemen yang terkandung dalam koleksi ini. |
-| [IsReadOnly](../../aspose.tasks/filtercollection/isreadonly/) { get; } | Mendapat nilai yang menunjukkan apakah koleksi ini hanya-baca; jika tidak, false. |
+| [Count](../../aspose.tasks/filtercollection/count/) { get; } | Mendapatkan jumlah elemen yang terdapat dalam koleksi ini. |
+| [IsReadOnly](../../aspose.tasks/filtercollection/isreadonly/) { get; } | Mendapatkan nilai yang menunjukkan apakah koleksi ini hanya-baca; jika tidak, false. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Add](../../aspose.tasks/filtercollection/add/)(Filter) | Menambahkan item tertentu ke koleksi ini. |
+| [Add](../../aspose.tasks/filtercollection/add/)(Filter) | Menambahkan item yang ditentukan ke koleksi ini. |
 | [Clear](../../aspose.tasks/filtercollection/clear/)() | Menghapus semua item dari koleksi ini. |
-| [Contains](../../aspose.tasks/filtercollection/contains/)(Filter) | Mengembalikan nilai true jika item yang ditentukan ditemukan dalam koleksi ini; jika tidak, false. |
-| [CopyTo](../../aspose.tasks/filtercollection/copyto/)(Filter[], int) | Menyalin elemen koleksi ini ke larik yang ditentukan, mulai dari indeks larik yang ditentukan. |
+| [Contains](../../aspose.tasks/filtercollection/contains/)(Filter) | Mengembalikan true jika item yang ditentukan ditemukan dalam koleksi ini; jika tidak, false. |
+| [CopyTo](../../aspose.tasks/filtercollection/copyto/)(Filter[], int) | Menyalin elemen-elemen koleksi ini ke array yang ditentukan, mulai dari indeks array yang ditentukan. |
 | [GetEnumerator](../../aspose.tasks/filtercollection/getenumerator/)() | Mengembalikan enumerator untuk koleksi ini. |
-| [Remove](../../aspose.tasks/filtercollection/remove/)(Filter) | Menghapus kejadian pertama objek tertentu dari koleksi ini. |
-| [ToList](../../aspose.tasks/filtercollection/tolist/)() | Mengubah kumpulan filter menjadi daftar[`Filter`](../filter/) objek. |
+| [Remove](../../aspose.tasks/filtercollection/remove/)(Filter) | Menghapus kemunculan pertama dari objek tertentu dari koleksi ini. |
+| [ToList](../../aspose.tasks/filtercollection/tolist/)() | Mengonversi koleksi filter menjadi daftar objek [`Filter`](../filter/). |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara bekerja dengan koleksi filter.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+
+// iterasi pada filter tugas
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
+Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
+foreach (var filter in project.TaskFilters)
+{
+    Console.WriteLine("All Tasks: " + filter.Name);
+    Console.WriteLine("Task Item: " + filter.FilterType);
+    Console.WriteLine("Task Filters Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Task filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+    Console.WriteLine();
+}
+
+// iterasi pada filter sumber daya
+Console.WriteLine("Project.ResourceFilters count: " + project.ResourceFilters.Count);
+foreach (var filter in project.ResourceFilters)
+{
+    Console.WriteLine("Resource Filter Item Type: Item.ResourceType: " + filter.FilterType);
+    Console.WriteLine("Resource filter ShowInMenu" + filter.ShowInMenu);
+    Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+}
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// hapus filter proyek lain
+otherProject.TaskFilters.Clear();
+
+// salin filter ke proyek lain
+var filters = new Filter[project.TaskFilters.Count];
+project.TaskFilters.CopyTo(filters, 0);
+
+foreach (var filter in filters)
+{
+    otherProject.TaskFilters.Add(filter);
+}
+
+// tambahkan filter tugas khusus
+var customFilter = new Filter();
+customFilter.Name = "Custom Filter";
+customFilter.ShowInMenu = true;
+customFilter.ShowRelatedSummaryRows = true;
+
+if (!otherProject.TaskFilters.Contains(customFilter))
+{
+    if (!otherProject.TaskFilters.IsReadOnly)
+    {
+        otherProject.TaskFilters.Add(customFilter);
+    }
+}
+
+// hapus semua filter
+List<Filter> filtersToDelete = otherProject.TaskFilters.ToList();
+foreach (var filter in filtersToDelete)
+{
+    otherProject.TaskFilters.Remove(filter);
+}
+```
+
+### Lihat Juga
 
 * class [Filter](../filter/)
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

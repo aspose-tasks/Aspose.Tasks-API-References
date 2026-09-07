@@ -1,14 +1,14 @@
 ---
-title: ReportType
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Jenis laporan grafis proyek.
+title: "Enum ReportType"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Aspose.Tasks.Visualization.ReportType enum. Jenis laporan grafis proyek"
 type: docs
-weight: 2980
+weight: 3330
 url: /id/net/aspose.tasks.visualization/reporttype/
 ---
 ## ReportType enumeration
 
-Jenis laporan grafis proyek.
+Tipe laporan grafis proyek.
 
 ```csharp
 public enum ReportType
@@ -16,28 +16,40 @@ public enum ReportType
 
 ### Nilai
 
-| Nama | Nilai | Keterangan |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| ProjectOverview | `0` | Menampilkan tanggal mulai dan selesai proyek, persentase durasi yang diselesaikan, persentase selesai untuk tugas tingkat atas dan tonggak penting yang akan datang. |
-| CostOverview | `1` | Menampilkan tanggal mulai dan selesai proyek, biaya terjadwal dan tersisa saat ini, % Selesai dan nilai biaya untuk tugas tingkat atas. |
-| WorkOverview | `2` | Menampilkan pekerjaan awal, aktual, sisa pekerjaan untuk setiap tugas tingkat atas dan pekerjaan untuk sumber daya pekerjaan. |
-| ResourceOverview | `3` | Menampilkan pekerjaan dasar, aktual, dan sisa berdasarkan sumber daya. |
-| ResourceCostOverview | `4` | Menampilkan biaya dasar, aktual, dan tersisa menurut sumber daya. |
+| ProjectOverview | `0` | Menampilkan tanggal mulai dan selesai proyek, persentase durasi yang selesai, persentase penyelesaian untuk tugas tingkat atas, dan tonggak yang akan datang. |
+| CostOverview | `1` | Menampilkan tanggal mulai dan selesai proyek, biaya terjadwal dan sisa biaya saat ini, % Selesai, dan nilai biaya untuk tugas tingkat atas. |
+| WorkOverview | `2` | Menampilkan baseline, aktual, dan pekerjaan yang tersisa untuk setiap tugas tingkat atas serta pekerjaan untuk sumber daya kerja. |
+| ResourceOverview | `3` | Menampilkan baseline, aktual, dan pekerjaan yang tersisa per sumber daya. |
+| ResourceCostOverview | `4` | Menampilkan baseline, aktual, dan biaya yang tersisa per sumber daya. |
 | CriticalTasks | `5` | Menampilkan tugas proyek yang kritis. |
 | LateTasks | `6` | Menampilkan tugas proyek yang terlambat. |
-| Milestones | `7` | Menampilkan pencapaian yang terlambat, datang, dan selesai. |
-| UpcomingTask | `8` | Menampilkan tugas yang jatuh tempo dalam minggu ini dan tugas yang dimulai dalam minggu ini. |
-| CostOverruns | `9` | Menampilkan variasi biaya menurut tugas dan sumber daya. |
-| TaskCostOverview | `10` | Menampilkan biaya awal, aktual, dan sisa dari semua tugas tingkat atas. |
-| OverallocatedResources | `11` | Menampilkan jumlah jam kerja yang tersisa untuk sumber daya yang dialokasikan berlebihan. |
-| SlippingTasks | `12` | Menampilkan tugas-tugas yang akan selesai setelah tanggal selesai baseline mereka (baseline harus ditetapkan). |
-| BestPracticeAnalyzer | `13` | Menampilkan tugas tanpa pekerjaan sebenarnya, bukan tugas yang diberikan, tugas dengan durasi kurang dari 8 jam dan ringkasan yang diberikan dengan sumber daya. |
-| Burndown | `14` | Termasuk bagan burndown pekerjaan dan burndown tugas. Bagan burndown pekerjaan menunjukkan berapa banyak pekerjaan yang telah diselesaikan orang, berapa banyak yang dijadwalkan untuk diselesaikan sebelum tanggal penyelesaian proyek, dan perkiraan dasar tentang berapa banyak pekerjaan yang akan diselesaikan pada saat ini dalam proyek. Bagan burndown tugas menunjukkan jumlah tugas yang diselesaikan, jumlah yang tersisa, dan perkiraan dasar berapa banyak yang akan diselesaikan pada titik ini dalam proyek. |
+| Milestones | `7` | Menampilkan tonggak yang terlambat, yang akan datang, dan yang selesai. |
+| UpcomingTask | `8` | Menampilkan tugas yang jatuh tempo selama minggu ini dan tugas yang dimulai selama minggu ini. |
+| CostOverruns | `9` | Menampilkan variasi biaya per tugas dan sumber daya. |
+| TaskCostOverview | `10` | Menampilkan baseline, aktual, dan biaya yang tersisa dari semua tugas tingkat atas. |
+| OverallocatedResources | `11` | Menampilkan jumlah jam kerja yang tersisa untuk sumber daya yang terlalu dialokasikan. |
+| SlippingTasks | `12` | Menampilkan tugas yang dijadwalkan selesai setelah tanggal selesai baseline mereka (baseline harus diatur). |
+| BestPracticeAnalyzer | `13` | Menampilkan tugas tanpa pekerjaan aktual, tugas yang tidak ditugaskan, tugas dengan durasi kurang dari 8 jam, dan ringkasan yang ditugaskan dengan sumber daya. |
+| Burndown | `14` | Termasuk diagram work burndown dan task burndown. Diagram work burndown menunjukkan berapa banyak pekerjaan yang telah selesai, berapa banyak yang dijadwalkan selesai sebelum tanggal selesai proyek, dan perkiraan baseline berapa banyak pekerjaan yang akan selesai pada titik ini dalam proyek. Diagram task burndown menunjukkan jumlah tugas yang selesai, jumlah yang tersisa, dan perkiraan baseline berapa banyak yang akan selesai pada titik ini dalam proyek. |
 | CashFlow | `15` | Menampilkan biaya dan biaya kumulatif per kuartal untuk semua tugas tingkat atas. |
 
-### Lihat juga
+## Contoh
 
-* ruang nama [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* perakitan [Aspose.Tasks](../../)
+Menampilkan cara menyimpan laporan burndown proyek dalam format PDF ke aliran yang ditentukan.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + @"Homemoveplan.mpp");
+using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### Lihat Juga
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
+
+

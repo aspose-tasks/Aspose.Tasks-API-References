@@ -1,9 +1,9 @@
 ---
-title: TaskKey
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mewakili daftar bidang tugas yang didukung.
+title: "Enum TaskKey"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Aspose.Tasks.TaskKey enum. Mewakili daftar bidang tugas yang didukung"
 type: docs
-weight: 2110
+weight: 2400
 url: /id/net/aspose.tasks/taskkey/
 ---
 ## TaskKey enumeration
@@ -11,149 +11,173 @@ url: /id/net/aspose.tasks/taskkey/
 Mewakili daftar bidang tugas yang didukung.
 
 ```csharp
-public enum TaskKey
+public enum TaskKey : byte
 ```
 
 ### Nilai
 
-| Nama | Nilai | Keterangan |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Uid | `0` | Mewakili bidang ID Unik (Tugas). |
-| Id | `1` | Mewakili bidang Id (Tugas). |
-| Name | `2` | Mewakili bidang Nama (Tugas). |
-| Type | `3` | Mewakili bidang Jenis (Tugas). |
-| IsNull | `4` | Mewakili bidang IsNull (Tugas). |
-| Created | `5` | Mewakili bidang Dibuat (Tugas). |
-| Contact | `6` | Mewakili bidang Kontak (Tugas). |
-| WBS | `7` | Mewakili bidang WBS (Tugas). |
-| WBSLevel | `8` | Mewakili bidang WBSLevel (Tugas). |
-| OutlineNumber | `9` | Mewakili bidang OutlineNumber (Tugas). |
-| OutlineLevel | `10` | Mewakili bidang OutlineLevel (Tugas). |
-| Priority | `11` | Mewakili bidang Prioritas (Tugas). |
-| Start | `12` | Mewakili bidang Mulai (Tugas). |
-| Finish | `13` | Mewakili bidang Selesai (Tugas). |
-| Duration | `14` | Mewakili bidang Durasi (Tugas). |
-| DurationVariance | `15` | Mewakili bidang DurationVariance (Tugas). |
-| DurationFormat | `16` | Mewakili bidang DurationFormat (Tugas). |
-| Work | `17` | Mewakili bidang Pekerjaan (Tugas). |
-| Stop | `18` | Mewakili bidang Berhenti (Tugas). |
-| Resume | `19` | Mewakili bidang Resume (Tugas). |
-| IsResumeValid | `20` | Mewakili bidang IsResumeValid (Tugas). |
-| IsEffortDriven | `21` | Mewakili bidang IsEffortDriven (Tugas). |
-| IsRecurring | `22` | Mewakili bidang IsRecurring (Tugas). |
-| IsOverallocated | `23` | Mewakili bidang IsOverallocated (Tugas). |
-| HasOverallocatedResource | `24` | Mewakili bidang HasOverallocatedResource (Tugas). |
-| IsEstimated | `25` | Mewakili bidang Diperkirakan (Tugas). |
-| IsMilestone | `26` | Mewakili bidang IsMilestone (Tugas). |
-| IsCritical | `27` | Mewakili bidang IsCritical (Tugas). |
-| IsSubproject | `28` | Mewakili bidang IsSubproject (Tugas). |
-| IsSubprojectReadOnly | `29` | Mewakili bidang IsSubprojectReadOnly (Tugas). |
-| IsMarked | `30` | Mewakili bidang Ditandai (Tugas). |
-| IgnoreWarnings | `31` | Mewakili kolom IgnoreWarnings (Tugas). |
-| SubprojectName | `32` | Mewakili bidang SubprojectName (Tugas). |
-| IsExternalTask | `33` | Mewakili bidang IsExternalTask (Tugas). |
-| IsSummary | `34` | Mewakili bidang IsSummary (Tugas). |
-| ExternalTaskProject | `35` | Mewakili bidang ExternalTaskProject (Tugas). |
-| ExternalId | `36` | Mewakili bidang ExternalId (Tugas). |
-| ExternalKey | `37` | Mewakili bidang ExternalKey (Tugas). |
-| EarlyStart | `38` | Mewakili bidang EarlyStart (Tugas). |
-| EarlyFinish | `39` | Mewakili bidang EarlyFinish (Tugas). |
-| LateStart | `40` | Mewakili bidang LateStart (Tugas). |
-| LateFinish | `41` | Mewakili bidang LateFinish (Tugas). |
-| StartVariance | `42` | Mewakili bidang StartVariance (Tugas). |
-| FinishVariance | `43` | Mewakili bidang FinishVariance (Tugas). |
-| WorkVariance | `44` | Mewakili bidang WorkVariance (Tugas). |
-| CostVariance | `45` | Mewakili bidang Varian Biaya (Tugas). |
-| FreeSlack | `46` | Mewakili bidang FreeSlack (Tugas). |
-| TotalSlack | `47` | Mewakili bidang TotalSlack (Tugas). |
-| StartSlack | `48` | Mewakili bidang StartSlack (Tugas). |
-| FinishSlack | `49` | Mewakili bidang FinishSlack (Tugas). |
-| FixedCost | `50` | Mewakili bidang Biaya Tetap (Tugas). |
-| FixedCostAccrual | `51` | Merupakan bidang FixedCostAccrual (Tugas). |
-| PercentComplete | `52` | Mewakili bidang PercentComplete (Tugas). |
-| PercentWorkComplete | `53` | Mewakili bidang PercentWorkComplete (Tugas). |
-| Cost | `54` | Mewakili bidang Biaya (Tugas). |
-| OvertimeCost | `55` | Mewakili bidang Biaya Lembur (Tugas). |
-| ActualStart | `56` | Mewakili bidang ActualStart (Tugas). |
-| ActualFinish | `57` | Mewakili bidang Penyelesaian Aktual (Tugas). |
-| ActualDuration | `58` | Mewakili bidang Durasi Aktual (Tugas). |
-| ActualCost | `59` | Mewakili bidang Biaya Aktual (Tugas). |
-| ActualOvertimeCost | `60` | Mewakili bidang Biaya Lembur Aktual (Tugas). |
-| ActualWork | `61` | Mewakili bidang Pekerjaan Aktual (Tugas). |
-| ActualOvertimeWork | `62` | Mewakili bidang ActualOvertimeWork (Tugas). |
-| OvertimeWork | `63` | Mewakili bidang Kerja Lembur (Tugas). |
-| RegularWork | `64` | Mewakili bidang RegularWork (Tugas). |
-| RemainingDuration | `65` | Mewakili bidang Durasi Tersisa (Tugas). |
-| RemainingCost | `66` | Mewakili bidang SisaBiaya (Tugas). |
-| RemainingWork | `67` | Mewakili bidang RemainingWork (Tugas). |
-| RemainingOvertimeWork | `68` | Mewakili bidang RemainingOvertimeWork (Tugas). |
-| RemainingOvertimeCost | `69` | Mewakili kolom RemainingOvertimeCost (Tugas). |
-| ACWP | `70` | Mewakili bidang ACWP (Tugas). |
-| CV | `71` | Mewakili bidang CV (Tugas). |
-| SV | `72` | Mewakili bidang SV (Tugas). |
-| ConstraintType | `73` | Mewakili bidang ConstraintType (Tugas). |
-| Calendar | `74` | Mewakili bidang Kalender (Tugas). |
-| ConstraintDate | `75` | Mewakili bidang ConstraintDate (Tugas). |
-| Deadline | `76` | Mewakili bidang Batas Waktu (Tugas). |
-| LevelAssignments | `77` | Mewakili bidang LevelAssignments (Tugas). |
-| LevelingCanSplit | `78` | Mewakili bidang LevelingCanSplit (Tugas). |
-| LevelingDelay | `79` | Mewakili bidang LevelingDelay (Tugas). |
-| LevelingDelayFormat | `80` | Mewakili bidang LevelingDelayFormat (Tugas). |
-| PreleveledStart | `81` | Mewakili bidang PreleveledStart (Tugas). |
-| PreleveledFinish | `82` | Mewakili bidang PreleveledFinish (Tugas). |
-| Hyperlink | `83` | Merupakan bidang Hyperlink (Tugas). |
-| HyperlinkAddress | `84` | Merupakan bidang HyperlinkAddress (Tugas). |
-| HyperlinkSubAddress | `85` | Mewakili bidang HyperlinkSubAddress (Tugas). |
-| IgnoreResourceCalendar | `86` | Mewakili bidang IgnoreResourceCalendar (Tugas). |
-| HideBar | `87` | Mewakili bidang HideBar (Tugas). |
-| IsRollup | `88` | Mewakili bidang IsRollup (Tugas). |
-| BCWS | `89` | Mewakili bidang BCWS (Tugas). |
-| BCWP | `90` | Mewakili bidang BCWP (Tugas). |
-| PhysicalPercentComplete | `91` | Mewakili bidang PhysicalPercentComplete (Tugas). |
-| EarnedValueMethod | `92` | Mewakili bidang EarnedValueMethod (Tugas). |
-| ActualWorkProtected | `93` | Mewakili bidang ActualWorkProtected (Tugas). |
-| ActualOvertimeWorkProtected | `94` | Mewakili bidang ActualOvertimeWorkProtected (Tugas). |
-| IsPublished | `95` | Mewakili bidang Diterbitkan (Tugas). |
-| IsScheduled | `96` | Mewakili kolom Dijadwalkan (Tugas). |
-| StatusManager | `97` | Mewakili bidang StatusManager (Tugas). |
-| CommitmentStart | `98` | Mewakili bidang CommitmentStart (Tugas). |
-| CommitmentFinish | `99` | Mewakili kolom CommitmentFinish (Tugas). |
-| CommitmentType | `100` | Mewakili bidang CommitmentType (Tugas). |
-| IsManual | `101` | Mewakili bidang IsManual (Tugas). |
-| IsExpanded | `102` | Mewakili bidang IsExpanded (Tugas). |
-| Guid | `103` | Mewakili bidang Panduan (Tugas). |
-| NotesText | `104` | Mewakili bidang NotesText (Tugas). |
-| NotesRTF | `105` | Mewakili bidang NotesRTF (Tugas). |
-| ManualStart | `106` | Mewakili bidang ManualStart (Tugas). |
-| ManualFinish | `107` | Mewakili bidang ManualFinish (Tugas). |
-| ManualDuration | `108` | Mewakili bidang Durasi Manual (Tugas). |
-| BudgetWork | `109` | Mewakili bidang Pekerjaan Anggaran (Tugas). |
-| BudgetCost | `110` | Mewakili bidang BudgetCost (Tugas). |
-| DisplayAsSummary | `111` | Mewakili bidang DisplayAsSummary (Tugas). |
-| SummaryProgress | `112` | Mewakili bidang Ringkasan Kemajuan (Tugas). |
-| IsActive | `113` | Mewakili bidang IsActive (Tugas). |
-| StartText | `114` | Mewakili bidang StartText (Tugas). |
-| FinishText | `115` | Mewakili bidang FinishText (Tugas). |
-| DurationText | `116` | Mewakili bidang DurationText (Tugas). |
-| CalendarUid | `117` | Mewakili bidang CalendarUid (Tugas). |
-| ParentTaskUid | `118` | Mewakili bidang ParentTaskUid (Tugas). |
-| DisplayOnTimeline | `119` | Mewakili bidang DisplayOnTimeline (Tugas). |
-| TaskIsAssigned | `120` | Mewakili bidang TaskIsAssigned (Tugas). |
-| TaskOriginalStart | `121` | Mewakili bidang awal (Tugas) asli. |
-| TaskOriginalFinish | `122` | Mewakili bidang penyelesaian (Tugas) asli. |
-| IsShowBeforeProjectStartDateWarning | `123` | Merupakan flag yang membuat MSP menampilkan peringatan bahwa tugas dimulai sebelum tanggal mulai proyek. |
-| Warning | `124` | Mewakili bendera yang menunjukkan bahwa tugas memiliki perbedaan jadwal. |
-| ParentTaskGuid | `125` | Mewakili bidang ParentTaskGuid (Tugas). |
-| ActivityId | `126` | Mewakili bidang ActivityId (hanya berlaku untuk proyek Primavera). |
-| FreeSlackTimeSpan | `127` | Mewakili bidang FreeSlack (Tugas). |
-| TotalSlackTimeSpan | `128` | Mewakili bidang TotalSlack (Tugas). |
-| StartSlackTimeSpan | `129` | Mewakili bidang StartSlack (Tugas). |
-| FinishSlackTimeSpan | `130` | Mewakili bidang FinishSlack (Tugas). |
-| ExternalUid | `131` | Merupakan Id Unik dari tugas eksternal. |
+| Uid | `0` | Mewakili bidang Unique ID (Task). |
+| Id | `1` | Mewakili bidang Id (Task). |
+| Name | `2` | Mewakili bidang Name (Task). |
+| Type | `3` | Mewakili bidang Type (Task). |
+| IsNull | `4` | Mewakili bidang IsNull (Task). |
+| Created | `5` | Mewakili bidang Created (Task). |
+| Contact | `6` | Mewakili bidang Contact (Task). |
+| WBS | `7` | Mewakili bidang WBS (Task). |
+| WBSLevel | `8` | Mewakili bidang WBSLevel (Task). |
+| OutlineNumber | `9` | Mewakili bidang OutlineNumber (Task). |
+| OutlineLevel | `10` | Mewakili bidang OutlineLevel (Task). |
+| Priority | `11` | Mewakili bidang Priority (Task). |
+| Start | `12` | Mewakili bidang Start (Task). |
+| Finish | `13` | Mewakili bidang Finish (Task). |
+| Duration | `14` | Mewakili bidang Duration (Task). |
+| DurationVariance | `15` | Mewakili bidang DurationVariance (Task). |
+| Work | `16` | Mewakili bidang Work (Task). |
+| Stop | `17` | Mewakili bidang Stop (Task). |
+| Resume | `18` | Mewakili bidang Resume (Task). |
+| IsResumeValid | `19` | Mewakili bidang IsResumeValid (Task). |
+| IsEffortDriven | `20` | Mewakili bidang IsEffortDriven (Task). |
+| IsRecurring | `21` | Mewakili bidang IsRecurring (Task). |
+| IsOverallocated | `22` | Mewakili bidang IsOverallocated (Task). |
+| HasOverallocatedResource | `23` | Mewakili bidang HasOverallocatedResource (Task). |
+| IsEstimated | `24` | Mewakili bidang IsEstimated (Task). |
+| IsMilestone | `25` | Mewakili bidang IsMilestone (Task). |
+| IsCritical | `26` | Mewakili bidang IsCritical (Task). |
+| IsSubproject | `27` | Mewakili bidang IsSubproject (Task). |
+| IsSubprojectReadOnly | `28` | Mewakili bidang IsSubprojectReadOnly (Task). |
+| IsMarked | `29` | Mewakili bidang IsMarked (Task). |
+| IgnoreWarnings | `30` | Mewakili bidang IgnoreWarnings (Task). |
+| SubprojectName | `31` | Mewakili bidang SubprojectName (Task). |
+| IsExternalTask | `32` | Mewakili bidang IsExternalTask (Task). |
+| IsSummary | `33` | Mewakili bidang IsSummary (Task). |
+| ExternalTaskProject | `34` | Mewakili bidang ExternalTaskProject (Task). |
+| ExternalId | `35` | Mewakili bidang ExternalId (Task). |
+| EarlyStart | `36` | Mewakili bidang EarlyStart (Task). |
+| EarlyFinish | `37` | Mewakili bidang EarlyFinish (Task). |
+| LateStart | `38` | Mewakili bidang LateStart (Task). |
+| LateFinish | `39` | Mewakili bidang LateFinish (Task). |
+| StartVariance | `40` | Mewakili bidang StartVariance (Task). |
+| FinishVariance | `41` | Mewakili bidang FinishVariance (Task). |
+| WorkVariance | `42` | Mewakili bidang WorkVariance (Task). |
+| CostVariance | `43` | Mewakili bidang CostVariance (Task). |
+| FreeSlack | `44` | Mewakili bidang FreeSlack (Task). |
+| TotalSlack | `45` | Mewakili bidang TotalSlack (Task). |
+| StartSlack | `46` | Mewakili bidang StartSlack (Task). |
+| FinishSlack | `47` | Mewakili bidang FinishSlack (Task). |
+| FixedCost | `48` | Mewakili bidang FixedCost (Task). |
+| FixedCostAccrual | `49` | Mewakili bidang FixedCostAccrual (Task). |
+| PercentComplete | `50` | Mewakili field PercentComplete (Task). |
+| PercentWorkComplete | `51` | Mewakili field PercentWorkComplete (Task). |
+| Cost | `52` | Mewakili field Cost (Task). |
+| OvertimeCost | `53` | Mewakili field OvertimeCost (Task). |
+| ActualStart | `54` | Mewakili field ActualStart (Task). |
+| ActualFinish | `55` | Mewakili field ActualFinish (Task). |
+| ActualDuration | `56` | Mewakili field ActualDuration (Task). |
+| ActualCost | `57` | Mewakili field ActualCost (Task). |
+| ActualOvertimeCost | `58` | Mewakili field ActualOvertimeCost (Task). |
+| ActualWork | `59` | Mewakili field ActualWork (Task). |
+| ActualOvertimeWork | `60` | Mewakili field ActualOvertimeWork (Task). |
+| OvertimeWork | `61` | Mewakili field OvertimeWork (Task). |
+| RegularWork | `62` | Mewakili field RegularWork (Task). |
+| RemainingDuration | `63` | Mewakili field RemainingDuration (Task). |
+| RemainingCost | `64` | Mewakili field RemainingCost (Task). |
+| RemainingWork | `65` | Mewakili field RemainingWork (Task). |
+| RemainingOvertimeWork | `66` | Mewakili field RemainingOvertimeWork (Task). |
+| RemainingOvertimeCost | `67` | Mewakili field RemainingOvertimeCost (Task). |
+| ACWP | `68` | Mewakili field ACWP (Task). |
+| CV | `69` | Mewakili field CV (Task). |
+| SV | `70` | Mewakili field SV (Task). |
+| ConstraintType | `71` | Mewakili field ConstraintType (Task). |
+| Calendar | `72` | Mewakili field Calendar (Task). |
+| ConstraintDate | `73` | Mewakili field ConstraintDate (Task). |
+| Deadline | `74` | Mewakili field Deadline (Task). |
+| LevelAssignments | `75` | Mewakili bidang LevelAssignments (Task). |
+| LevelingCanSplit | `76` | Mewakili bidang LevelingCanSplit (Task). |
+| LevelingDelay | `77` | Mewakili bidang LevelingDelay (Task). |
+| PreleveledStart | `78` | Mewakili bidang PreleveledStart (Task). |
+| PreleveledFinish | `79` | Mewakili bidang PreleveledFinish (Task). |
+| Hyperlink | `80` | Mewakili bidang Hyperlink (Task). |
+| HyperlinkAddress | `81` | Mewakili bidang HyperlinkAddress (Task). |
+| HyperlinkSubAddress | `82` | Mewakili bidang HyperlinkSubAddress (Task). |
+| IgnoreResourceCalendar | `83` | Mewakili bidang IgnoreResourceCalendar (Task). |
+| HideBar | `84` | Mewakili bidang HideBar (Task). |
+| IsRollup | `85` | Mewakili bidang IsRollup (Task). |
+| BCWS | `86` | Mewakili bidang BCWS (Task). |
+| BCWP | `87` | Mewakili bidang BCWP (Task). |
+| PhysicalPercentComplete | `88` | Mewakili bidang PhysicalPercentComplete (Task). |
+| EarnedValueMethod | `89` | Mewakili bidang EarnedValueMethod (Task). |
+| ActualWorkProtected | `90` | Mewakili bidang ActualWorkProtected (Task). |
+| ActualOvertimeWorkProtected | `91` | Mewakili bidang ActualOvertimeWorkProtected (Task). |
+| IsPublished | `92` | Mewakili bidang IsPublished (Task). |
+| IsScheduled | `93` | Mewakili bidang IsScheduled (Task). |
+| StatusManager | `94` | Mewakili bidang StatusManager (Task). |
+| CommitmentStart | `95` | Mewakili bidang CommitmentStart (Task). |
+| CommitmentFinish | `96` | Mewakili bidang CommitmentFinish (Task). |
+| CommitmentType | `97` | Mewakili bidang CommitmentType (Task). |
+| IsManual | `98` | Mewakili bidang IsManual (Task). |
+| IsExpanded | `99` | Mewakili bidang IsExpanded (Task). |
+| Guid | `100` | Mewakili Guid (Task) field. |
+| NotesText | `101` | Mewakili NotesText (Task) field. |
+| NotesRTF | `102` | Mewakili NotesRTF (Task) field. |
+| ManualStart | `103` | Mewakili ManualStart (Task) field. |
+| ManualFinish | `104` | Mewakili ManualFinish (Task) field. |
+| ManualDuration | `105` | Mewakili ManualDuration (Task) field. |
+| BudgetWork | `106` | Mewakili BudgetWork (Task) field. |
+| BudgetCost | `107` | Mewakili BudgetCost (Task) field. |
+| DisplayAsSummary | `108` | Mewakili DisplayAsSummary (Task) field. |
+| SummaryProgress | `109` | Mewakili Summary Progress (Task) field. |
+| IsActive | `110` | Mewakili IsActive (Task) field. |
+| StartText | `111` | Mewakili StartText (Task) field. |
+| FinishText | `112` | Mewakili FinishText (Task) field. |
+| DurationText | `113` | Mewakili DurationText (Task) field. |
+| CalendarUid | `114` | Mewakili CalendarUid (Task) field. |
+| ParentTaskUid | `115` | Mewakili ParentTaskUid (Task) field. |
+| DisplayOnTimeline | `116` | Mewakili DisplayOnTimeline (Task) field. |
+| TaskIsAssigned | `117` | Mewakili TaskIsAssigned (Task) field. |
+| TaskOriginalStart | `118` | Mewakili awal asli (Task) field. |
+| TaskOriginalFinish | `119` | Mewakili akhir asli (Task) field. |
+| IsShowBeforeProjectStartDateWarning | `120` | Mewakili flag yang membuat MSP menampilkan peringatan bahwa sebuah tugas dimulai sebelum tanggal mulai proyek. |
+| Warning | `121` | Mewakili flag yang menunjukkan bahwa tugas memiliki ketidaksesuaian jadwal. |
+| ParentTaskGuid | `122` | Mewakili ParentTaskGuid (Task) field. |
+| ActivityId | `123` | Mewakili field ActivityId (hanya berlaku untuk proyek Primavera). |
+| FreeSlackTimeSpan | `124` | Mewakili bidang FreeSlack (Task). |
+| TotalSlackTimeSpan | `125` | Mewakili bidang TotalSlack (Task). |
+| StartSlackTimeSpan | `126` | Mewakili bidang StartSlack (Task). |
+| FinishSlackTimeSpan | `127` | Mewakili bidang FinishSlack (Task). |
+| ExternalUid | `128` | Mewakili Id Unik dari tugas eksternal. |
 
-### Lihat juga
+## Contoh
 
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+Menampilkan cara membaca/menulis properti tugas.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project();
+
+// Tambahkan tugas dan atur properti tugas
+var task = project.RootTask.Children.Add();
+task.Set(Tsk.Name, "Task1");
+task.Set(Tsk.Start, new DateTime(2020, 3, 31, 8, 0, 0));
+task.Set(Tsk.Finish, new DateTime(2020, 3, 31, 17, 0, 0));
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Mengurai semua tugas yang dikumpulkan
+foreach (var tsk in collector.Tasks)
+{
+    Console.WriteLine("Task Id: {0}", tsk.Get(Tsk.Id));
+    Console.WriteLine("Task Uid: {0}", tsk.Get(Tsk.Uid));
+    Console.WriteLine("Task Name: {0}", tsk.Get(Tsk.Name));
+    Console.WriteLine("Task Start: {0}", tsk.Get(Tsk.Start));
+    Console.WriteLine("Task Finish: {0}", tsk.Get(Tsk.Finish));
+}
+```
+
+### Lihat Juga
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+

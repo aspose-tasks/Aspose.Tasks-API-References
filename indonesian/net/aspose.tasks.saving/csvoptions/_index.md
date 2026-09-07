@@ -1,62 +1,80 @@
 ---
-title: CsvOptions
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Memungkinkan untuk menentukan opsi tambahan saat menyimpan proyek ke CSV.
+title: "Kelas CsvOptions"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.Saving.CsvOptions. Memungkinkan untuk menentukan opsi tambahan saat menyimpan proyek ke CSV."
 type: docs
-weight: 1720
+weight: 1980
 url: /id/net/aspose.tasks.saving/csvoptions/
 ---
 ## CsvOptions class
 
-Memungkinkan untuk menentukan opsi tambahan saat menyimpan proyek ke CSV.
+Mengizinkan untuk menentukan opsi tambahan saat menyimpan proyek ke CSV.
 
 ```csharp
-public class CsvOptions : SaveOptions
+public class CsvOptions : SimpleSaveOptions
 ```
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [CsvOptions](csvoptions/)() | Menginisialisasi instance baru dari`CsvOptions` kelas yang dapat digunakan untuk menyimpan proyek dalam format CSV. |
+| [CsvOptions](csvoptions/)() | Menginisialisasi instance baru dari kelas `CsvOptions` yang dapat digunakan untuk menyimpan proyek dalam format CSV. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Mendapat atau mengatur daftar instance dari[`BarStyle`](../../aspose.tasks.visualization/barstyle/) kelas yang muncul di tampilan proyek. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Mendapat atau menetapkan ukuran halaman khusus dalam poin (1 poin = 1/72 inci). |
-| [DataCategory](../../aspose.tasks.saving/csvoptions/datacategory/) { get; set; } | Mendapat atau menetapkan kategori data yang akan disimpan. |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah waktu non-kerja harus diambil (Nilai defaultnya adalah TRUE). |
-| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | Mendapat atau menyetel penyandian untuk menyimpan CSV dengan. |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Mendapat atau menetapkan tanggal untuk menyelesaikan rendering. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah tinggi baris harus ditambah agar sesuai dengan kontennya. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | Mendapat atau menyetel apakah bagian kalender dari tampilan harus dirender ke akhir (sisi kanan) halaman terakhir. Jika nilainya false, bagian kalender dirender tepat ke EndDate, meskipun ada ruang kosong di halaman. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Mendapat atau menetapkan daftar[`Gridline`](../../aspose.tasks.visualization/gridline/) yang muncul di tampilan proyek. |
-| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah akan menyertakan header atau tidak (nilai defaultnya adalah TRUE). |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah legenda harus ditampilkan pada setiap halaman (Nilai defaultnya adalah BENAR). |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah tugas penting harus ditampilkan dalam warna merah (Nilai default adalah FALSE). |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | Mendapat atau menyetel warna waktu tidak bekerja. |
-| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | Mendapat atau menetapkan jumlah halaman proyek. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Mendapat atau mengatur ukuran halaman yang akan dirender (Nilai defaultnya adalah PageSize.A4). |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Mendapat atau menyetel[`PresentationFormat`](../saveoptions/presentationformat/) di mana dokumen akan disimpan. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah suatu proyek harus dirender ke satu halaman saat proyek disimpan dalam format grafis. Ukuran halaman akan diubah sehingga proyek yang dirender dapat muat di satu halaman. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah subtugas pada bilah tugas ringkasan harus ditandai. Untuk subtugas, bidang Rollup menunjukkan apakah informasi pada bilah Gantt subtugas akan digulung ke bilah tugas ringkasan. Untuk tugas ringkasan, Rollup bidang menunjukkan apakah bilah tugas ringkasan menampilkan bar yang digulung. Anda harus menyetel bidang Batal untuk tugas ringkasan ke Ya agar subtugas apa pun dapat digulung ke sana. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | Mendapat atau mengatur format penyimpanan dokumen jika objek opsi penyimpanan ini digunakan. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Mendapat atau menyetel tanggal mulai rendering. |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | Mendapat atau menyetel pembanding untuk mengurutkan tugas di bagan Gantt dan bagan Lembar Tugas. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | Mendapat atau menyetel kondisi yang digunakan untuk memfilter tugas yang diberikan pada bagan Gantt, Lembar Tugas, dan Penggunaan Tugas. |
-| [TextDelimiter](../../aspose.tasks.saving/csvoptions/textdelimiter/) { get; set; } | Mendapat atau menyetel pembatas teks. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Mendapat atau mengatur daftar instance dari[`TextStyle`](../../aspose.tasks.visualization/textstyle/) kelas yang muncul di tampilan proyek. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Mendapat atau menyetel[`Timescale`](../saveoptions/timescale/) nilai yang digunakan untuk mengontrol bagaimana skala waktu (jika ada) ditampilkan saat proyek disimpan ke format grafis. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah sikat gradien harus digunakan saat merender Gantt Chart. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Mendapat atau menyetel daftar kolom tampilan untuk dirender ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) . Jika tidak disetel maka id tugas, nama tugas, mulai dan selesai hanya akan dirender. Jika keduanya Lihat dan[`ViewSettings`](../saveoptions/viewsettings/)properti disetel, kolom dari View menimpa kolom dari ViewSettings. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Mendapat atau menyetel tampilan ([`View`](../saveoptions/view/) ) untuk merender. Anda dapat menggunakan opsi ini untuk secara eksplisit menentukan tampilan mana yang harus disimpan ke format PDF, HTML, atau Gambar. Jika properti ini disetel,[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) properti diabaikan saat proyek disimpan. Tampilan harus dari salah satu layar berikut (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt, Lembar Tugas, Penggunaan Tugas, Lembar Sumber Daya, Penggunaan Sumber Daya) |
+| [DataCategory](../../aspose.tasks.saving/csvoptions/datacategory/) { get; set; } | Mendapatkan atau mengatur kategori data yang akan disimpan. |
+| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | Mendapatkan atau mengatur enkoding untuk menyimpan CSV. |
+| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah menyertakan header atau tidak (nilai default adalah TRUE). |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Mendapatkan atau mengatur format di mana dokumen akan disimpan jika objek opsi penyimpanan ini digunakan. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Mendapatkan atau mengatur pembanding untuk mengurutkan tugas pada diagram Gantt dan diagram Lembar Tugas. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Mendapatkan atau mengatur kondisi yang digunakan untuk memfilter tugas yang dirender pada diagram Gantt, Lembar Tugas, dan Penggunaan Tugas. |
+| [TextDelimiter](../../aspose.tasks.saving/csvoptions/textdelimiter/) { get; set; } | Mendapatkan atau mengatur pembatas teks. |
+| [View](../../aspose.tasks.saving/csvoptions/view/) { get; set; } | Mendapatkan atau mengatur daftar kolom tampilan ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)) untuk disimpan dalam format XLSX. Jika tidak diatur, maka kolom default akan disimpan. |
 
-### Lihat juga
+## Contoh
 
-* class [SaveOptions](../saveoptions/)
-* ruang nama [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* perakitan [Aspose.Tasks](../../)
+Menampilkan cara menggunakan &lt;see cref="Aspose.Tasks.Saving.CsvOptions" /&gt; untuk menyimpan proyek sebagai file CSV.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+Menampilkan cara menggunakan &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; untuk mengambil kolom dari Gantt Chart default dan
+
+```csharp
+// menyimpannya ke file CSV.
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+CsvOptions options = new CsvOptions();
+options.TextDelimiter = CsvTextDelimiter.Tab;
+
+var view = project.DefaultView;
+options.View = ProjectView.GetDefaultGanttChartView();
+options.View.Columns.Clear();
+
+foreach (var t in view.Table.TableFields)
+{
+    var columnTitle = string.IsNullOrEmpty(t.Title) ? FieldHelper.GetDefaultFieldTitle(t.Field) : t.Title;
+    options.View.Columns.Add(new GanttChartColumn(columnTitle, 10, t.Field));
+}
+
+project.Save(OutDir + "CustomizeViewForCsvOptions_out.csv", options);
+```
+
+### Lihat Juga
+
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
+
+
