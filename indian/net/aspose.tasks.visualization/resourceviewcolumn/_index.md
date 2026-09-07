@@ -1,47 +1,93 @@
 ---
-title: ResourceViewColumn
-second_title: Aspose.Tasks for .NET API Reference
-description: प्रजेक्ट क व्यू क्लस रसर्स यूसेज व्यू और रसर्सशट व्यू में उपयग कय जत है
+title: "क्लास ResourceViewColumn"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.Visualization.ResourceViewColumn क्लास। प्रोजेक्ट्स व्यू क्लास जो ResourceUsage व्यू और ResourceSheet व्यू में उपयोग होती है।"
 type: docs
-weight: 3000
+weight: 3350
 url: /hi/net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 ## ResourceViewColumn class
 
-प्रोजेक्ट का व्यू क्लास रिसोर्स यूसेज व्यू और रिसोर्सशीट व्यू में उपयोग किया जाता है।
+ResourceUsage दृश्य और ResourceSheet दृश्य में उपयोग किया जाने वाला प्रोजेक्ट का दृश्य वर्ग।
 
 ```csharp
 public sealed class ResourceViewColumn : ViewColumn
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [ResourceViewColumn](resourceviewcolumn/#constructor)(int, Field) | का एक नया उदाहरण प्रारंभ करता है`ResourceViewColumn` वर्ग. |
-| [ResourceViewColumn](resourceviewcolumn/#constructor_1)(string, int, ResourceToColumnTextConverter) | का एक नया उदाहरण प्रारंभ करता है`ResourceViewColumn` वर्ग. |
-| [ResourceViewColumn](resourceviewcolumn/#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | का एक नया उदाहरण प्रारंभ करता है`ResourceViewColumn` वर्ग. |
+| [ResourceViewColumn](resourceviewcolumn/#constructor)(int, Field) | `ResourceViewColumn` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [ResourceViewColumn](resourceviewcolumn/#constructor_1)(string, int, ResourceToColumnTextConverter) | `ResourceViewColumn` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [ResourceViewColumn](resourceviewcolumn/#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | `ResourceViewColumn` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field/) { get; set; } | कॉलम फ़ील्ड। [`Field`](./field/) . |
-| [Name](../../aspose.tasks.visualization/viewcolumn/name/) { get; } | कॉलम नाम प्राप्त करता है। |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | पाठ के संरेखण को प्राप्त या सेट करता है (के मानों में से एक हो सकता है[`StringAlignment`](../viewcolumn/stringalignment/) गणना). |
-| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | कॉलबैक प्राप्त या सेट करता है जिसका उपयोग कॉलम की कोशिकाओं के स्वरूप को अनुकूलित करने के लिए किया जा सकता है। |
+| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field/) { get; set; } | कॉलम फ़ील्ड। [`Field`](./field/). |
+| [Name](../../aspose.tasks.visualization/viewcolumn/name/) { get; } | कॉलम का नाम प्राप्त करता है। |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | पाठ की संरेखण प्राप्त करता है या सेट करता है (यह [`HorizontalStringAlignment`](../horizontalstringalignment/) enumeration के मानों में से एक हो सकता है)। |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | कॉलम की कोशिकाओं की उपस्थिति को अनुकूलित करने के लिए उपयोग की जा सकने वाली कॉलबैक प्राप्त करता है या सेट करता है। |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width/) { get; } | कॉलम की चौड़ाई प्राप्त करता है। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetColumnText](../../aspose.tasks.visualization/resourceviewcolumn/getcolumntext/)(Resource) | वर्तमान संसाधन को कॉलम टेक्स्ट में कनवर्ट करता है। |
+| [GetColumnText](../../aspose.tasks.visualization/resourceviewcolumn/getcolumntext/)(Resource) | वर्तमान संसाधन को कॉलम टेक्स्ट में परिवर्तित करता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+निर्यात के लिए संसाधन व्यू कॉलम कैसे जोड़ें, यह दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// कॉलम पर इटररेट करें
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### संबंधित देखें
 
 * class [ViewColumn](../viewcolumn/)
-* नाम स्थान [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

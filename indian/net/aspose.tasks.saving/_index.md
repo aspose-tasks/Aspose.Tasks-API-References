@@ -1,52 +1,55 @@
 ---
-title: Aspose.Tasks.Saving
-second_title: Aspose.Tasks for .NET API Reference
-description: में एक परयजन क वभन्न स्वरूपं में सहेजने के लए कक्षएं शमल हैं
+title: "Aspose.Tasks.Saving"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "विभिन्न फ़ॉर्मेट में प्रोजेक्ट सहेजने के लिए क्लासेज़ शामिल करता है"
 type: docs
-weight: 60
+weight: 80
 url: /hi/net/aspose.tasks.saving/
 ---
-में एक परियोजना को विभिन्न स्वरूपों में सहेजने के लिए कक्षाएं शामिल हैं।
+परियोजना को विभिन्न स्वरूपों में सहेजने के लिए क्लासेस शामिल हैं।
 
-## कक्षाओं
+## क्लासेस
 
-| कक्षा | विवरण |
+| क्लास | विवरण |
 | --- | --- |
-| [CsvOptions](./csvoptions/) | प्रोजेक्ट को CSV में सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [HtmlSaveOptions](./htmlsaveoptions/) | प्रोजेक्ट पृष्ठों को HTML. पर रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है |
-| [ImageSaveOptions](./imagesaveoptions/) | परियोजना पृष्ठों को छवियों में प्रस्तुत करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [MPPSaveOptions](./mppsaveoptions/) | एमपीपी में प्रोजेक्ट डेटा सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [PageSavingArgs](./pagesavingargs/) | यह वर्ग डेटा के सेट का प्रतिनिधित्व करता है जो दस्तावेज़ के पेज को स्ट्रीम में सहेजने से संबंधित है। |
-| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | में पीडीएफ डिजिटल हस्ताक्षर के लिए विवरण शामिल है। |
-| [PdfEncryptionDetails](./pdfencryptiondetails/) | में पीडीएफ एन्क्रिप्शन के लिए विवरण शामिल है। |
-| [PdfSaveOptions](./pdfsaveoptions/) | प्रोजेक्ट पेज को PDF में रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [PrimaveraSaveOptions](./primaverasaveoptions/) | प्रिमावेरा XER प्रारूप में प्रोजेक्ट सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions/) | प्रिमावेरा एक्सएमएल प्रारूप में प्रोजेक्ट सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [CsvOptions](./csvoptions/) | CSV में प्रोजेक्ट सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [HtmlSaveOptions](./htmlsaveoptions/) | HTML में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [ImageSaveOptions](./imagesaveoptions/) | इमेजेज़ में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [MPPSaveOptions](./mppsaveoptions/) | MPP में प्रोजेक्ट डेटा सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [PageSavingArgs](./pagesavingargs/) | यह क्लास दस्तावेज़ के पेज को स्ट्रीम में सहेजने से संबंधित डेटा सेट का प्रतिनिधित्व करती है। |
+| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | PDF डिजिटल सिग्नेचर के विवरण शामिल करता है। |
+| [PdfEncryptionDetails](./pdfencryptiondetails/) | PDF एन्क्रिप्शन के विवरण शामिल करता है। |
+| [PdfSaveOptions](./pdfsaveoptions/) | PDF में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [PrimaveraSaveOptions](./primaverasaveoptions/) | Primavera XER फ़ॉर्मेट में प्रोजेक्ट सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions/) | Primavera XML फ़ॉर्मेट में प्रोजेक्ट सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
 | [PrintOptions](./printoptions/) | प्रोजेक्ट प्रिंट करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [SaveOptions](./saveoptions/) | यह उन वर्गों के लिए एक सार आधार वर्ग है जो किसी प्रोजेक्ट को किसी विशेष प्रारूप में सहेजते समय उपयोगकर्ता को अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [SaveTemplateOptions](./savetemplateoptions/) | किसी प्रोजेक्ट को टेम्प्लेट के रूप में सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
-| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | स्प्रेडशीट2003. में प्रोजेक्ट पृष्ठों को प्रस्तुत करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है |
-| [SvgOptions](./svgoptions/) | SVG. में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है |
-| [XamlOptions](./xamloptions/) | /// XAML. में प्रोजेक्ट पेजों को प्रस्तुत करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है |
-| [XlsxOptions](./xlsxoptions/) | प्रोजेक्ट पेजों को XLSX. पर रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है |
-| [XpsOptions](./xpsoptions/) | प्रोजेक्ट पृष्ठों को XPS. में रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है |
-## इंटरफेस
+| [SaveOptions](./saveoptions/) | यह एक एब्स्ट्रैक्ट बेस क्लास है जो उन क्लासेज़ के लिए है जो उपयोगकर्ता को किसी विशेष फ़ॉर्मेट में प्रोजेक्ट सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देती हैं। |
+| [SaveTemplateOptions](./savetemplateoptions/) | टेम्प्लेट के रूप में प्रोजेक्ट सहेजते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [SimpleSaveOptions](./simplesaveoptions/) | यह एक एब्स्ट्रैक्ट बेस क्लास है जो उपयोगकर्ता को किसी विशेष फ़ॉर्मेट में प्रोजेक्ट सहेजते समय बुनियादी विकल्प निर्दिष्ट करने की अनुमति देती है। |
+| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | Spreadsheet2003 में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [SvgOptions](./svgoptions/) | SVG में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [TaskLinkDrawingCallbackDelegate](./tasklinkdrawingcallbackdelegate/) | एक कॉलबैक को दर्शाता है जो गैंट चार्ट दृश्य में टास्क लिंक रेंडर होने पर कॉल किया जाता है। |
+| [XamlOptions](./xamloptions/) | /// XAML में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [XlsxOptions](./xlsxoptions/) | XLSX में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+| [XpsOptions](./xpsoptions/) | XPS में प्रोजेक्ट पेज रेंडर करते समय अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है। |
+## इंटरफ़ेस
 
-| इंटरफेस | विवरण |
+| इंटरफ़ेस | विवरण |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback/) | एक कॉलबैक का प्रतिनिधित्व करता है जिसे कॉल किया जाता है जब बहु पृष्ठ दस्तावेज़ में प्रत्येक पृष्ठ को एक अलग स्ट्रीम में सहेजा जाता है। |
-## गणना
+| [IPageSavingCallback](./ipagesavingcallback/) | एक कॉलबैक को दर्शाता है जो मल्टी पेज दस्तावेज़ में प्रत्येक पेज को अलग स्ट्रीम में सहेजते समय कॉल किया जाता है। |
+## एन्यूमरेशन
 
-| गणना | विवरण |
+| एन्यूमरेशन | विवरण |
 | --- | --- |
-| [CsvTextDelimiter](./csvtextdelimiter/) | सीएसवी प्रारूप के लिए पाठ सीमांकक। |
-| [DataCategory](./datacategory/) | CSV में सहेजते समय उपयोग किए जाने वाले डेटा की श्रेणी. |
-| [PdfCompliance](./pdfcompliance/) | आउटपुट फाइल के लिए पीडीएफ अनुपालन स्तर निर्दिष्ट करता है। |
-| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | डिजिटल हस्ताक्षर द्वारा उपयोग किए जाने वाले डिजिटल हैश एल्गोरिदम को निर्दिष्ट करता है। |
-| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm/) | पीडीएफ दस्तावेज़ को एन्क्रिप्ट करने के लिए उपयोग करने के लिए एन्क्रिप्शन एल्गोरिदम निर्दिष्ट करता है। |
-| [PdfPermissions](./pdfpermissions/) | PDF दस्तावेज़ तक पहुँचने के लिए उपयोग करने के लिए अनुमतियों को निर्दिष्ट करता है। |
-| [PdfTextCompression](./pdftextcompression/) | छवियों को छोड़कर पीडीएफ फाइल में सभी सामग्री पर लागू संपीड़न के प्रकार को निर्दिष्ट करता है। |
-| [SaveFileFormat](./savefileformat/) | परियोजना प्रारूप चयन को बचाने के लिए गणना। |
-| [TiffCompression](./tiffcompression/) | निर्दिष्ट करता है कि पृष्ठों को TIFF प्रारूप में सहेजते समय किस प्रकार का कंप्रेशन लागू किया जाए. |
+| [CsvTextDelimiter](./csvtextdelimiter/) | CSV फ़ॉर्मेट के लिए टेक्स्ट डिलिमिटर। |
+| [DataCategory](./datacategory/) | CSV में सहेजते समय उपयोग किए जाने वाले डेटा की श्रेणी। |
+| [LegendDrawingOptions](./legenddrawingoptions/) | व्यू की लेजेंड रेंडर करते समय उपयोग किए जाने वाले संभावित विकल्प निर्दिष्ट करता है। |
+| [PdfCompliance](./pdfcompliance/) | आउटपुट फ़ाइल के लिए PDF अनुपालन स्तर निर्दिष्ट करता है। |
+| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | डिजिटल सिग्नेचर द्वारा उपयोग किए जाने वाले डिजिटल हैश एल्गोरिद्म को निर्दिष्ट करता है। |
+| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm/) | PDF दस्तावेज़ को एन्क्रिप्ट करने के लिए उपयोग किए जाने वाले एन्क्रिप्शन एल्गोरिद्म को निर्दिष्ट करता है। |
+| [PdfPermissions](./pdfpermissions/) | PDF दस्तावेज़ तक पहुँचने के लिए उपयोग की जाने वाली अनुमतियों को निर्दिष्ट करता है। |
+| [PdfTextCompression](./pdftextcompression/) | छवियों को छोड़कर PDF फ़ाइल की सभी सामग्री पर लागू होने वाले संपीड़न प्रकार को निर्दिष्ट करता है। |
+| [SaveFileFormat](./savefileformat/) | प्रोजेक्ट फ़ॉर्मेट चयन को सहेजने के लिए एन्यूमरेशन। |
+| [TiffCompression](./tiffcompression/) | TIFF फ़ॉर्मेट में पेज सहेजते समय लागू करने वाले संपीड़न प्रकार को निर्दिष्ट करता है। |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

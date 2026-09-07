@@ -1,14 +1,14 @@
 ---
-title: ProjectServerCredentials
-second_title: Aspose.Tasks for .NET API Reference
-description: क एक नय उदहरण प्ररंभ करत हैProjectServerCredentialsaspose.tasks/projectservercredentials/ SharePoint सइट के URL और SharePoint क PWA प्रजेक्ट वेब एक्सेस सइट के लए मन्य SPOIDCRL प्रधकरण टकन क उपयग करने वल कक्ष
+title: "ProjectServerCredentials.ProjectServerCredentials"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "ProjectServerCredentials कंस्ट्रक्टर। SharePoint साइट का URL और वैध SPOIDCRL ऑथराइज़ेशन टोकन का उपयोग करके ProjectServerCredentials क्लास की नई इंस्टेंस को इनिशियलाइज़ करता है, जो SharePoints PWA Project Web Access साइट के लिए है।"
 type: docs
 weight: 10
 url: /hi/net/aspose.tasks/projectservercredentials/projectservercredentials/
 ---
 ## ProjectServerCredentials(string, string) {#constructor_1}
 
-का एक नया उदाहरण प्रारंभ करता है[`ProjectServerCredentials`](../) SharePoint साइट के URL और SharePoint की PWA (प्रोजेक्ट वेब एक्सेस) साइट के लिए मान्य SPOIDCRL प्राधिकरण टोकन का उपयोग करने वाली कक्षा।
+SharePoint साइट का URL और वैध SPOIDCRL ऑथराइज़ेशन टोकन का उपयोग करके [`ProjectServerCredentials`](../) क्लास की नई इंस्टेंस को इनिशियलाइज़ करता है, जो SharePoint के PWA (Project Web Access) साइट के लिए है।
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string authToken)
@@ -16,24 +16,57 @@ public ProjectServerCredentials(string siteUrl, string authToken)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| siteUrl | String | प्रोजेक्ट ऑनलाइन के पीडब्ल्यूए (प्रोजेक्ट वेब एक्सेस) एपीआई का यूआरएल। |
-| authToken | String | SharePoint की PWA (प्रोजेक्ट वेब एक्सेस) साइट के लिए प्राधिकरण टोकन (SPOIDCRL)। |
+| siteUrl | स्ट्रिंग | Project Online के PWA (Project Web Access) API का URL। |
+| authToken | स्ट्रिंग | SharePoint की PWA (Project Web Access) साइट के लिए प्राधिकरण टोकन (SPOIDCRL) । |
 
-### टिप्पणियों
+## टिप्पणियाँ
 
-जब आपके पास अपनी SharePoint ऑनलाइन साइट के लिए पहले से ही AuthToken हो, तो ProjectOnline से कनेक्ट करने के लिए इस कंस्ट्रक्टर का उपयोग करें।
+जब आपके पास SharePoint Online साइट के लिए AuthToken हो, तब ProjectOnline से कनेक्ट करने के लिए इस कंस्ट्रक्टर का उपयोग करें।
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि कैसे Project Server क्रेडेंशियल्स को SharePointOnlineCredentials के साथ उपयोग करके Microsoft Project Online में प्रोजेक्ट बनाया जाए।
+
+```csharp
+try
+{
+    const string Username = "admin@contoso.onmicrosoft.com";
+    const string SecuredPassword = "MyPassword";
+    var url = new Uri("https://contoso.sharepoint.com/sites/pwa");
+    var project = new Project(DataDir + "Project1.mpp");
+    var password = new SecureString();
+    foreach (var c in SecuredPassword)
+    {
+        password.AppendChar(c);
+    }
+
+    var onlineCredentials = new SharePointOnlineCredentials(Username, password);
+    var projectServerCredentials = new ProjectServerCredentials(url.ToString(), onlineCredentials.GetAuthenticationCookie(url, true));
+
+    Console.WriteLine("Project Server Auth Token: " + projectServerCredentials.AuthToken);
+    Console.WriteLine("Project Server Site Url: " + projectServerCredentials.SiteUrl);
+    Console.WriteLine("Project Server User Name: " + projectServerCredentials.UserName);
+
+    var manager = new ProjectServerManager(projectServerCredentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### संबंधित देखें
 
 * class [ProjectServerCredentials](../)
-* नाम स्थान [Aspose.Tasks](../../projectservercredentials/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ProjectServerCredentials(string, string, string) {#constructor_2}
 
-का एक नया उदाहरण प्रारंभ करता है[`ProjectServerCredentials`](../) SharePoint साइट के URL, उपयोगकर्ता नाम और पासवर्ड का उपयोग करने वाली कक्षा.
+`[`ProjectServerCredentials`](../)` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है, जिसमें SharePoint साइट का URL, उपयोगकर्ता नाम और पासवर्ड उपयोग किए जाते हैं।
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, string userName, string password)
@@ -41,25 +74,58 @@ public ProjectServerCredentials(string siteUrl, string userName, string password
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| siteUrl | String | प्रोजेक्ट ऑनलाइन के पीडब्ल्यूए (प्रोजेक्ट वेब एक्सेस) एपीआई का यूआरएल। |
-| userName | String | SharePoint साइट के लिए उपयोगकर्ता नाम। |
-| password | String | SharePoint साइट के लिए पासवर्ड। |
+| siteUrl | स्ट्रिंग | Project Online के PWA (Project Web Access) API का URL। |
+| userName | स्ट्रिंग | SharePoint साइट के लिए उपयोगकर्ता नाम। |
+| password | स्ट्रिंग | SharePoint साइट के लिए पासवर्ड। |
 
-### टिप्पणियों
+## टिप्पणियाँ
 
-ProjectOnline से कनेक्ट करने के लिए इस कंस्ट्रक्टर का उपयोग करें। कृपया ध्यान दें कि लीगेसी प्रमाणीकरण आपके Azure पोर्टल और Office 365 व्यवस्थापन केंद्र में सक्षम होना चाहिए।
+ProjectOnline से कनेक्ट करने के लिए इस कंस्ट्रक्टर का उपयोग करें। कृपया ध्यान दें कि लेगेसी ऑथेंटिकेशन को आपके Azure पोर्टल और Office 365 एडमिन सेंटर में सक्षम होना चाहिए।
 
-### यह सभी देखें
+## उदाहरण
+
+विवरण देता है कि Microsoft Project Online से प्रोजेक्ट की सूची प्राप्त करने के लिए प्रोजेक्ट सर्वर क्रेडेंशियल्स का उपयोग कैसे करें।
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var newProject = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(newProject);
+
+    IEnumerable<ProjectInfo> list = manager.GetProjectList();
+
+    foreach (var info in list)
+    {
+        var project = manager.GetProject(info.Id);
+        Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
+        Console.WriteLine("Resources count: {0}", project.Resources.Count);
+    }
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### संबंधित देखें
 
 * class [ProjectServerCredentials](../)
-* नाम स्थान [Aspose.Tasks](../../projectservercredentials/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ProjectServerCredentials(string, NetworkCredential) {#constructor}
 
-का एक नया उदाहरण प्रारंभ करता है[`ProjectServerCredentials`](../) प्रोजेक्ट वेब एक्सेस एंडपॉइंट और नेटवर्क क्रेडेंशियल्स के URL का उपयोग करने वाला वर्ग।
+`[`ProjectServerCredentials`](../)` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है, जिसमें Project Web Access एंडपॉइंट का URL और नेटवर्क क्रेडेंशियल्स उपयोग किए जाते हैं।
 
 ```csharp
 public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
@@ -67,19 +133,19 @@ public ProjectServerCredentials(string siteUrl, NetworkCredential credentials)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| siteUrl | String | प्रोजेक्ट वेब एक्सेस समापन बिंदु का URL। |
-| credentials | NetworkCredential | प्रोजेक्ट वेब एक्सेस एंडपॉइंट में लॉगिन करने के लिए उपयोग किए जाने वाले क्रेडेंशियल्स। |
+| siteUrl | स्ट्रिंग | Project Web Access एंडपॉइंट का URL। |
+| क्रेडेंशियल्स | NetworkCredential | Project Web Access एंडपॉइंट में लॉगिन करने के लिए उपयोग किए जाने वाले क्रेडेंशियल्स। |
 
-### टिप्पणियों
+## टिप्पणियाँ
 
-PWA के माध्यम से प्रोजेक्ट सर्वर के ऑन-प्रिमाइसेस इंस्टेंस से कनेक्ट करने के लिए इस कंस्ट्रक्टर का उपयोग करें।
+PWA के माध्यम से Project Server के ऑन-प्रिमाइसेस इंस्टेंस से कनेक्ट करने के लिए इस कंस्ट्रक्टर का उपयोग करें।
 
-### उदाहरण
+## उदाहरण
 
-इस उदाहरण में का उदाहरण[`ProjectServerManager`](../../projectservermanager/)क्लास का उपयोग http://project_server_instance.local पर स्थित प्रोजेक्ट सर्वर इंस्टेंस से प्रोजेक्ट की सूची पढ़ने के लिए किया जाता है
+इस उदाहरण में, [`ProjectServerManager`](../../projectservermanager/) क्लास का इंस्टेंस उपयोग किया गया है, जो http://project_server_instance.local पर स्थित Project Server इंस्टेंस से प्रोजेक्ट की सूची पढ़ता है।
 
 ```csharp
-string site = "http:// project_server_instance.local/sites/pwa";
+string site = "http://project_server_instance.local/sites/pwa";
 var windowsCredentials = new NetworkCredential("Administrator", "my_password", "DOMAIN");
 var projectServerCredentials = new ProjectServerCredentials(site, windowsCredentials);
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
@@ -91,10 +157,33 @@ foreach (var projectInfo in list)
 }
 ```
 
-### यह सभी देखें
+दिखाता है कि ऑन-प्रिमाइसेस Project Server इंस्टेंस से प्रोजेक्ट पढ़ने के लिए Project Server क्रेडेंशियल्स को नेटवर्क क्रेडेंशियल्स के साथ कैसे उपयोग किया जाए।
+
+```csharp
+try
+{
+    const string URL = "https://project_server.local/sites/pwa";
+    const string Domain = "CONTOSO.COM";
+    const string UserName = "Administrator";
+    const string Password = "MyPassword";
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+    var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+    var manager = new ProjectServerManager(projectServerCredentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### संबंधित देखें
 
 * class [ProjectServerCredentials](../)
-* नाम स्थान [Aspose.Tasks](../../projectservercredentials/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

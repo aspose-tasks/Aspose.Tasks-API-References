@@ -1,14 +1,14 @@
 ---
-title: GetTimephasedData
-second_title: Aspose.Tasks for .NET API Reference
-description: रटर्नTimephasedDataCollectionaspose.tasks/timephaseddatacollection/ सथ वस्तुTimephasedDataaspose.tasks/task/timephaseddata/ नर्दष्ट समयचरणबद्ध डेट प्रकर क द गई प्ररंभ और समप्त तथयं के भतर मन
+title: "Task.GetTimephasedData"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Task मेथड। निर्दिष्ट timephased डेटा प्रकार की दी गई शुरू और समाप्ति तिथियों के भीतर TimephasedData मानों के साथ TimephasedDataCollection ऑब्जेक्ट लौटाता है।"
 type: docs
 weight: 1360
 url: /hi/net/aspose.tasks/task/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-रिटर्न[`TimephasedDataCollection`](../../timephaseddatacollection/) साथ वस्तु[`TimephasedData`](../timephaseddata/) निर्दिष्ट समय-चरणबद्ध डेटा प्रकार की दी गई प्रारंभ और समाप्ति तिथियों के भीतर मान।
+दिए गए शुरू और समाप्ति तिथियों के भीतर निर्दिष्ट time‑phased डेटा प्रकार के साथ [`TimephasedDataCollection`](../../timephaseddatacollection/) ऑब्जेक्ट लौटाता है, जिसमें [`TimephasedData`](../timephaseddata/) मान होते हैं।
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -17,27 +17,45 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| start | DateTime | समय चरणबद्ध डेटा के लिए प्रारंभ तिथि। |
-| end | DateTime | समय चरणबद्ध डेटा के लिए समाप्ति तिथि। |
-| timephasedType | TimephasedDataType | समय चरणबद्ध डेटा का प्रकार ([`TimephasedDataType`](../../timephaseddatatype/)). |
+| प्रारंभ | DateTime | समय-फ़ेज़्ड डेटा के लिए प्रारंभ तिथि। |
+| समाप्ति | DateTime | समय-फ़ेज़्ड डेटा के लिए समाप्ति तिथि। |
+| timephasedType | TimephasedDataType | समय-फ़ेज़्ड डेटा का प्रकार ([`TimephasedDataType`](../../timephaseddatatype/)). |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-ए[`TimephasedDataCollection`](../../timephaseddatacollection/) साथ वस्तु[`TimephasedData`](../timephaseddata/) निर्दिष्ट समयबद्ध डेटा प्रकार की दी गई प्रारंभ और समाप्ति तिथियों के भीतर मान।
+एक [`TimephasedDataCollection`](../../timephaseddatacollection/) ऑब्जेक्ट जिसमें निर्दिष्ट timephased डेटा प्रकार की दी गई शुरू और समाप्ति तिथियों के भीतर [`TimephasedData`](../timephaseddata/) मान होते हैं।
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि कार्य का timephased डेटा (विशिष्ट प्रकार के साथ) कैसे प्राप्त करें।
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate).AddDays(2), TimephasedDataType.TaskBaselineWork)
+    .ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
+### संबंधित देखें
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [Task](../)
-* नाम स्थान [Aspose.Tasks](../../task/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-रिटर्न[`TimephasedDataCollection`](../../timephaseddatacollection/) साथ वस्तु[`TimephasedData`](../timephaseddata/) दिए गए प्रारंभ और समाप्ति दिनांक के भीतर मान.
+दिए गए शुरू और समाप्ति तिथियों के भीतर [`TimephasedData`](../timephaseddata/) मानों के साथ [`TimephasedDataCollection`](../../timephaseddatacollection/) ऑब्जेक्ट लौटाता है।
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -45,18 +63,34 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| start | DateTime | समय चरणबद्ध डेटा के लिए प्रारंभ तिथि। |
-| end | DateTime | समय चरणबद्ध डेटा के लिए समाप्ति तिथि। |
+| प्रारंभ | DateTime | समय-फ़ेज़्ड डेटा के लिए प्रारंभ तिथि। |
+| समाप्ति | DateTime | समय-फ़ेज़्ड डेटा के लिए समाप्ति तिथि। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-की सूची[`TimephasedData`](../../timephaseddata/) भरा जाना है।
+भरण के लिए [`TimephasedData`](../../timephaseddata/) की सूची।
 
-### यह सभी देखें
+## उदाहरण
+
+कार्य की टाइमफ़ेज़्ड डेटा (TaskWork प्रकार के साथ) प्राप्त करने का तरीका दिखाता है।
+
+```csharp
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)).ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
+### संबंधित देखें
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Task](../)
-* नाम स्थान [Aspose.Tasks](../../task/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

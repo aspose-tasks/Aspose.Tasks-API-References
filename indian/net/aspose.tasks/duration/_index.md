@@ -1,14 +1,14 @@
 ---
-title: Duration
-second_title: Aspose.Tasks for .NET API Reference
-description: एक परयजन में अवध क प्रतनधत्व करत है
+title: "स्ट्रक्ट Duration"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.Duration स्ट्रक्ट। एक प्रोजेक्ट में अवधि का प्रतिनिधित्व करता है।"
 type: docs
 weight: 470
 url: /hi/net/aspose.tasks/duration/
 ---
 ## Duration structure
 
-एक परियोजना में अवधि का प्रतिनिधित्व करता है।
+परियोजना में अवधि का प्रतिनिधित्व करता है।
 
 ```csharp
 public struct Duration : IEquatable<Duration>
@@ -18,33 +18,66 @@ public struct Duration : IEquatable<Duration>
 
 | नाम | विवरण |
 | --- | --- |
-| [IsElapsed](../../aspose.tasks/duration/iselapsed/) { get; } | एक मान प्राप्त करता है जो इंगित करता है कि क्या समय इकाई समाप्त हो गई है। ध्वज जो यह निर्धारित करता है कि क्या यह अवधि उदाहरण बीत चुका है। |
-| [IsEstimated](../../aspose.tasks/duration/isestimated/) { get; } | एक मान प्राप्त करता है जो इंगित करता है कि समय इकाई अनुमानित है या नहीं। ध्वज जो यह निर्धारित करता है कि क्या इस अवधि उदाहरण का अनुमान लगाया गया है। |
-| [TimeSpan](../../aspose.tasks/duration/timespan/) { get; } | हो जाता है[`TimeSpan`](./timespan/) इस अवधि ऑब्जेक्ट का उदाहरण. इस Duration ऑब्जेक्ट का TimeSpan उदाहरण। |
-| [TimeUnit](../../aspose.tasks/duration/timeunit/) { get; } | इस वस्तु के लिए समय इकाई प्रकार प्राप्त करता है। इस अवधि उदाहरण का समय इकाई प्रकार। |
+| [IsElapsed](../../aspose.tasks/duration/iselapsed/) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि समय इकाई समाप्त हुई है या नहीं। वह फ़्लैग जो निर्धारित करता है कि यह Duration उदाहरण समाप्त हुआ है या नहीं। |
+| [IsEstimated](../../aspose.tasks/duration/isestimated/) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि समय इकाई अनुमानित है या नहीं। वह फ़्लैग जो निर्धारित करता है कि यह Duration उदाहरण अनुमानित है या नहीं। |
+| [TimeSpan](../../aspose.tasks/duration/timespan/) { get; } | इस Duration ऑब्जेक्ट की [`TimeSpan`](./timespan/) इंस्टेंस प्राप्त करता है। इस Duration ऑब्जेक्ट की TimeSpan इंस्टेंस। |
+| [TimeUnit](../../aspose.tasks/duration/timeunit/) { get; } | इस ऑब्जेक्ट के लिए समय इकाई प्रकार प्राप्त करता है। इस Duration इंस्टेंस का समय इकाई प्रकार। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| static [Parse](../../aspose.tasks/duration/parse/)(Project, string) | निर्दिष्ट स्ट्रिंग को उदाहरण में कनवर्ट करता है`Duration` संरचना. |
-| [Add](../../aspose.tasks/duration/add/#add_1)(double) | इस अवधि के लिए निर्दिष्ट दोहरा मान जोड़ता है। |
-| [Add](../../aspose.tasks/duration/add/#add)(Duration) | इस अवधि में निर्दिष्ट अवधि जोड़ता है। |
-| [Convert](../../aspose.tasks/duration/convert/)(TimeUnitType) | निर्दिष्ट समय इकाइयों के साथ अवधि वस्तु को दूसरी अवधि में परिवर्तित करता है। |
-| [Equals](../../aspose.tasks/duration/equals/#equals)(Duration) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| override [Equals](../../aspose.tasks/duration/equals/#equals_1)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| override [GetHashCode](../../aspose.tasks/duration/gethashcode/)() | इस वस्तु के लिए एक हैश कोड मान लौटाता है। |
-| [Subtract](../../aspose.tasks/duration/subtract/#subtract_1)(double) | इस अवधि उदाहरण से निर्दिष्ट दोहरे मान घटाता है। |
-| [Subtract](../../aspose.tasks/duration/subtract/#subtract)(Duration) | इस अवधि उदाहरण से निर्दिष्ट अवधि घटाता है। |
-| [ToDouble](../../aspose.tasks/duration/todouble/)() | Duration ऑब्जेक्ट को इसमें कनवर्ट करता हैDouble मान. |
-| override [ToString](../../aspose.tasks/duration/tostring/)() | इस उदाहरण का एक स्ट्रिंग प्रतिनिधित्व देता है। |
-| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan/)(string) | अवधि स्ट्रिंग को "PT--H--M--S--" फ़ॉर्मैट में पार्स करता है. |
-| [operator ==](../../aspose.tasks/duration/op_equality/) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| [operator !=](../../aspose.tasks/duration/op_inequality/) | यह इंगित करने वाला मान लौटाता है कि क्या यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर नहीं है। |
+| static [Parse](../../aspose.tasks/duration/parse/)(Project, string) | निर्दिष्ट स्ट्रिंग को `Duration` स्ट्रक्ट की इंस्टेंस में परिवर्तित करता है। |
+| [Add](../../aspose.tasks/duration/add/#add_1)(double) | निर्दिष्ट डबल मान को इस अवधि में जोड़ता है। |
+| [Add](../../aspose.tasks/duration/add/#add)(Duration) | निर्दिष्ट अवधि को इस अवधि में जोड़ता है। |
+| [Convert](../../aspose.tasks/duration/convert/)(TimeUnitType) | Duration ऑब्जेक्ट को निर्दिष्ट समय इकाइयों के साथ दूसरी अवधि में परिवर्तित करता है। |
+| [Equals](../../aspose.tasks/duration/equals/#equals)(Duration) | यह संकेत देने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| override [Equals](../../aspose.tasks/duration/equals/#equals_1)(object) | यह संकेत देने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.tasks/duration/gethashcode/)() | इस ऑब्जेक्ट के लिए हैश कोड मान लौटाता है। |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract_1)(double) | निर्दिष्ट डबल मान को इस अवधि इंस्टेंस से घटाता है। |
+| [Subtract](../../aspose.tasks/duration/subtract/#subtract)(Duration) | निर्दिष्ट अवधि को इस अवधि इंस्टेंस से घटाता है। |
+| [ToDouble](../../aspose.tasks/duration/todouble/)() | Duration ऑब्जेक्ट को Double मान में परिवर्तित करता है। |
+| override [ToString](../../aspose.tasks/duration/tostring/)() | इस इंस्टेंस का स्ट्रिंग प्रतिनिधित्व लौटाता है। |
+| static [ParseTimeSpan](../../aspose.tasks/duration/parsetimespan/)(string) | "PT--H--M--S--" प्रारूप में अवधि स्ट्रिंग को पार्स करता है। |
+| [operator ==](../../aspose.tasks/duration/op_equality/) | यह संकेत देने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| [operator !=](../../aspose.tasks/duration/op_inequality/) | यह संकेत देने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर नहीं है या नहीं। |
 
-### यह सभी देखें
+## उदाहरण
 
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+कार्य की अवधि को कैसे अपडेट करें, यह दर्शाता है।
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+
+// एक कार्य प्राप्त करें
+var task1 = project.RootTask.Children.GetById(1);
+
+// कार्य की अवधि अपडेट करें
+var duration1 = task1.Get(Tsk.Duration);
+
+// कार्य 1 में एक दिन जोड़ें
+duration1 = duration1.Add(project.GetDuration(1, TimeUnitType.Day));
+
+// कार्य के लिए नई अवधि सेट करें
+task1.Set(Tsk.Duration, duration1);
+Console.WriteLine("The duration of task 1: " + task1.Get(Tsk.Duration));
+
+// एक और कार्य प्राप्त करें
+var task2 = project.RootTask.Children.GetById(2);
+var duration2 = task2.Get(Tsk.Duration);
+
+// वास्तविक समय इकाई प्रकार का उपयोग करके अवधि बदलें
+Console.WriteLine("The time unit of duration: " + duration2.TimeUnit);
+duration2 = duration2.Add(1d /* the time unit type of duration2 will be used */);
+
+// कार्य के लिए नई अवधि सेट करें
+task2.Set(Tsk.Duration, duration2);
+Console.WriteLine("The duration of task 2: " + task1.Get(Tsk.Duration));
+```
+
+### संबंधित देखें
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+
