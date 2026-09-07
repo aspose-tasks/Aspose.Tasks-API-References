@@ -1,7 +1,7 @@
 ---
-title: Add
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Δημιουργεί μια νέα προσαρμοσμένη ιδιότητα.
+title: "CustomProjectPropertyCollection.Add"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Μέθοδος CustomProjectPropertyCollection. Δημιουργεί μια νέα προσαρμοσμένη ιδιότητα."
 type: docs
 weight: 30
 url: /el/net/aspose.tasks.properties/customprojectpropertycollection/add/
@@ -16,19 +16,65 @@ public CustomProjectProperty Add(string name, string value)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα του ακινήτου. |
-| value | String | Η νεοδημιουργηθείσα τιμή αντικειμένου ιδιότητας. |
+| name | String | Το όνομα της ιδιότητας. |
+| value | String | Η τιμή του νεοδημιουργημένου αντικειμένου ιδιότητας. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αντικείμενο ιδιοκτησίας που δημιουργήθηκε πρόσφατα.
+Το νεοδημιουργημένο αντικείμενο ιδιότητας.
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με προσαρμοσμένες συλλογές ιδιοτήτων έργου.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Ας προσθέσουμε νέες προσαρμοσμένες ιδιότητες
+// Η συλλογή υποστηρίζει τύπους Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Οι προσαρμοσμένες ιδιότητες είναι διαθέσιμες μέσω της τυποποιημένης συλλογής
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Λάβετε μια τιμή προσαρμοσμένης ιδιότητας
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Επανάληψη πάνω στα ονόματα των προσαρμοσμένων ιδιοτήτων
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Μπορείτε να διαγράψετε μια τιμή με κλειδί συμβολοσειράς
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// ή μπορεί κανείς να καθαρίσει τη συλλογή εντελώς
+project.CustomProps.Clear();
+```
 
 ### Δείτε επίσης
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* χώρος ονομάτων [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -42,19 +88,65 @@ public CustomProjectProperty Add(string name, bool value)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα του ακινήτου. |
-| value | Boolean | Η νεοδημιουργηθείσα τιμή αντικειμένου ιδιότητας. |
+| name | String | Το όνομα της ιδιότητας. |
+| value | Boolean | Η τιμή του νεοδημιουργημένου αντικειμένου ιδιότητας. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αντικείμενο ιδιοκτησίας που δημιουργήθηκε πρόσφατα.
+Το νεοδημιουργημένο αντικείμενο ιδιότητας.
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με προσαρμοσμένες συλλογές ιδιοτήτων έργου.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Ας προσθέσουμε νέες προσαρμοσμένες ιδιότητες
+// Η συλλογή υποστηρίζει τύπους Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Οι προσαρμοσμένες ιδιότητες είναι διαθέσιμες μέσω της τυποποιημένης συλλογής
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Λάβετε μια τιμή προσαρμοσμένης ιδιότητας
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Επανάληψη πάνω στα ονόματα των προσαρμοσμένων ιδιοτήτων
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Μπορείτε να διαγράψετε μια τιμή με κλειδί συμβολοσειράς
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// ή μπορεί κανείς να καθαρίσει τη συλλογή εντελώς
+project.CustomProps.Clear();
+```
 
 ### Δείτε επίσης
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* χώρος ονομάτων [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -68,19 +160,65 @@ public CustomProjectProperty Add(string name, double value)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα του ακινήτου. |
-| value | Double | Η νεοδημιουργηθείσα τιμή αντικειμένου ιδιότητας. |
+| name | String | Το όνομα της ιδιότητας. |
+| value | Double | Η τιμή του νεοδημιουργημένου αντικειμένου ιδιότητας. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αντικείμενο ιδιοκτησίας που δημιουργήθηκε πρόσφατα.
+Το νεοδημιουργημένο αντικείμενο ιδιότητας.
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με προσαρμοσμένες συλλογές ιδιοτήτων έργου.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Ας προσθέσουμε νέες προσαρμοσμένες ιδιότητες
+// Η συλλογή υποστηρίζει τύπους Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Οι προσαρμοσμένες ιδιότητες είναι διαθέσιμες μέσω της τυποποιημένης συλλογής
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Λάβετε μια τιμή προσαρμοσμένης ιδιότητας
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Επανάληψη πάνω στα ονόματα των προσαρμοσμένων ιδιοτήτων
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Μπορείτε να διαγράψετε μια τιμή με κλειδί συμβολοσειράς
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// ή μπορεί κανείς να καθαρίσει τη συλλογή εντελώς
+project.CustomProps.Clear();
+```
 
 ### Δείτε επίσης
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* χώρος ονομάτων [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -94,18 +232,64 @@ public CustomProjectProperty Add(string name, DateTime value)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα του ακινήτου. |
-| value | DateTime | Η νεοδημιουργηθείσα τιμή αντικειμένου ιδιότητας. |
+| name | String | Το όνομα της ιδιότητας. |
+| value | DateTime | Η τιμή του νεοδημιουργημένου αντικειμένου ιδιότητας. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αντικείμενο ιδιοκτησίας που δημιουργήθηκε πρόσφατα.
+Το νεοδημιουργημένο αντικείμενο ιδιότητας.
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με προσαρμοσμένες συλλογές ιδιοτήτων έργου.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Ας προσθέσουμε νέες προσαρμοσμένες ιδιότητες
+// Η συλλογή υποστηρίζει τύπους Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Οι προσαρμοσμένες ιδιότητες είναι διαθέσιμες μέσω της τυποποιημένης συλλογής
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Λάβετε μια τιμή προσαρμοσμένης ιδιότητας
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Επανάληψη πάνω στα ονόματα των προσαρμοσμένων ιδιοτήτων
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Μπορείτε να διαγράψετε μια τιμή με κλειδί συμβολοσειράς
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// ή μπορεί κανείς να καθαρίσει τη συλλογή εντελώς
+project.CustomProps.Clear();
+```
 
 ### Δείτε επίσης
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* χώρος ονομάτων [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

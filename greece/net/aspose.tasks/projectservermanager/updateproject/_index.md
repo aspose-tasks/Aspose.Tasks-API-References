@@ -1,14 +1,14 @@
 ---
-title: UpdateProject
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Ενημερώνει το υπάρχον έργο στην παρουσία Project ServerProject Online χρησιμοποιώντας τις προεπιλεγμένες επιλογές αποθήκευσης. Το υπάρχον έργο θα αντικατασταθεί.
+title: "ProjectServerManager.UpdateProject"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Μέθοδος ProjectServerManager. Ενημερώνει υπάρχον έργο σε παρουσία Project Server/Project Online χρησιμοποιώντας τις προεπιλεγμένες επιλογές αποθήκευσης. Το υπάρχον έργο θα αντικατασταθεί."
 type: docs
 weight: 70
 url: /el/net/aspose.tasks/projectservermanager/updateproject/
 ---
 ## UpdateProject(Project) {#updateproject}
 
-Ενημερώνει το υπάρχον έργο στην παρουσία Project Server\Project Online χρησιμοποιώντας τις προεπιλεγμένες επιλογές αποθήκευσης. Το υπάρχον έργο θα αντικατασταθεί.
+Ενημερώνει υπάρχον έργο σε παρουσία Project Server\Project Online χρησιμοποιώντας τις προεπιλεγμένες επιλογές αποθήκευσης. Το υπάρχον έργο θα αντικατασταθεί.
 
 ```csharp
 public void UpdateProject(Project project)
@@ -16,25 +16,25 @@ public void UpdateProject(Project project)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| project | Project | Το έργο προς αποθήκευση στην παρουσία Project Server\Project Online. |
+| project | Project | Το έργο για αποθήκευση σε παρουσία Project Server\Project Online. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
 | [ProjectOnlineException](../../projectonlineexception/) | Σε περίπτωση σφάλματος επικοινωνίας ή σφάλματος που επιστρέφεται από διακομιστή. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Η ιδιότητα "project.Get(Prj.Guid)" του έργου θα πρέπει να είναι ένας έγκυρος οδηγός ενός έργου που υπάρχει στο λογαριασμό Project Server \ παρουσίαση Project Online.
+Η ιδιότητα του έργου 'project.Get(Prj.Guid)' πρέπει να είναι ένα έγκυρο guid ενός έργου που υπάρχει στον λογαριασμό Project Server \ Project Online.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Σε αυτό το παράδειγμα, το έργο φορτώνεται από τον λογαριασμό Project Online, τροποποιείται και αποθηκεύεται ξανά στον λογαριασμό Project Online.
+Σε αυτό το παράδειγμα, το έργο φορτώνεται από λογαριασμό Project Online, τροποποιείται και αποθηκεύεται ξανά στον λογαριασμό Project Online.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyyy@xxxxxxx.onmicrosoft.com", "password");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 var projectList = manager.GetProjectList();
 var projectGuid = projectList.First().Id;
@@ -43,18 +43,62 @@ var task = project.RootTask.Children.Add("New task");
 manager.UpdateProject(project);
 ```
 
+Δείχνει πώς να ενημερώσετε το έργο στο Microsoft Project Online.
+
+```csharp
+const string URL = "https://contoso.sharepoint.com/sites/pwa";
+const string Domain = "CONTOSO.COM";
+const string UserName = "Administrator";
+const string Password = "MyPassword";
+
+var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+try
+{
+    var manager = new ProjectServerManager(projectServerCredentials);
+
+    ProjectInfo projectInfo = null;
+    foreach (var info in manager.GetProjectList())
+    {
+        if (info.Name == "My project")
+        {
+            projectInfo = info;
+        }
+    }
+
+    if (projectInfo == null)
+    {
+        Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
+        return;
+    }
+
+    var project = manager.GetProject(projectInfo.Id);
+    project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
+
+    var task = project.RootTask.Children.Add("New task");
+    task.Set(Tsk.Start, new DateTime(2020, 02, 26));
+    task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
+
+    manager.UpdateProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine("Failed to update the project. Error: " + ex);
+}
+```
+
 ### Δείτε επίσης
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* χώρος ονομάτων [Aspose.Tasks](../../projectservermanager/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## UpdateProject(Project, ProjectServerSaveOptions) {#updateproject_1}
 
-Ενημερώνει το υπάρχον έργο στην παρουσία Project Server\Project Online χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης. Το υπάρχον έργο θα αντικατασταθεί.
+Ενημερώνει υπάρχον έργο σε παρουσία Project Server\Project Online χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης. Το υπάρχον έργο θα αντικατασταθεί.
 
 ```csharp
 public void UpdateProject(Project project, ProjectServerSaveOptions saveOptions)
@@ -62,26 +106,26 @@ public void UpdateProject(Project project, ProjectServerSaveOptions saveOptions)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| project | Project | Το έργο προς αποθήκευση στην παρουσία Project Server\Project Online. |
-| saveOptions | ProjectServerSaveOptions | Παράδειγμα του[`ProjectServerSaveOptions`](../../projectserversaveoptions/) τάξη. |
+| project | Project | Το έργο για αποθήκευση σε παρουσία Project Server\Project Online. |
+| saveOptions | ProjectServerSaveOptions | Παράδειγμα της κλάσης [`ProjectServerSaveOptions`](../../projectserversaveoptions/). |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
 | [ProjectOnlineException](../../projectonlineexception/) | Σε περίπτωση σφάλματος επικοινωνίας ή σφάλματος που επιστρέφεται από διακομιστή. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-saveOptions.ProjectGuid θα πρέπει να οριστεί σε έναν οδηγό ενός έργου που υπάρχει στην παρουσία του Project Server\ Project Online.
+Το saveOptions.ProjectGuid πρέπει να οριστεί σε ένα guid ενός έργου που υπάρχει στην παρουσία Project Server\ Project Online.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Σε αυτό το παράδειγμα, το έργο φορτώνεται από τον λογαριασμό Project Online, τροποποιείται και αποθηκεύεται ξανά στον λογαριασμό Project Online.
+Σε αυτό το παράδειγμα, το έργο φορτώνεται από λογαριασμό Project Online, τροποποιείται και αποθηκεύεται ξανά στον λογαριασμό Project Online.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyyy@xxxxxxx.onmicrosoft.com", "password");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 var projectList = manager.GetProjectList();
 var projectGuid = projectList.First().Id;
@@ -93,12 +137,57 @@ manager.UpdateProject(project, new ProjectServerSaveOptions
 });
 ```
 
+Δείχνει πώς να ενημερώσετε το έργο στο Microsoft Project Online χρησιμοποιώντας τις επιλογές αποθήκευσης του Project Server.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+try
+{
+    var manager = new ProjectServerManager(credentials);
+
+    ProjectInfo projectInfo = null;
+    foreach (var info in manager.GetProjectList())
+    {
+        if (info.Name == "My project")
+        {
+            projectInfo = info;
+        }
+    }
+
+    if (projectInfo == null)
+    {
+        Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
+        return;
+    }
+
+    var project = manager.GetProject(projectInfo.Id);
+    project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
+
+    var task = project.RootTask.Children.Add("New task");
+    task.Set(Tsk.Start, new DateTime(2020, 02, 26));
+    task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
+
+    var options = new ProjectServerSaveOptions { Timeout = TimeSpan.FromMinutes(5) };
+
+    manager.UpdateProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine("Failed to update the project. Error: " + ex);
+}
+```
+
 ### Δείτε επίσης
 
 * class [Project](../../project/)
 * class [ProjectServerSaveOptions](../../projectserversaveoptions/)
 * class [ProjectServerManager](../)
-* χώρος ονομάτων [Aspose.Tasks](../../projectservermanager/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

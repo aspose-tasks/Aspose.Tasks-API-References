@@ -1,9 +1,9 @@
 ---
-title: OutlineCodeDefinition
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Αντιπροσωπεύει έναν ορισμό κώδικα περίγραμμα.
+title: "Κλάση OutlineCodeDefinition"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Aspose.Tasks.OutlineCodeDefinition κλάση. Αντιπροσωπεύει έναν ορισμό κώδικα περιγράμματος."
 type: docs
-weight: 1040
+weight: 1170
 url: /el/net/aspose.tasks/outlinecodedefinition/
 ---
 ## OutlineCodeDefinition class
@@ -11,37 +11,101 @@ url: /el/net/aspose.tasks/outlinecodedefinition/
 Αντιπροσωπεύει έναν ορισμό κώδικα περίγραμμα.
 
 ```csharp
-public class OutlineCodeDefinition
+public sealed class OutlineCodeDefinition
 ```
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [OutlineCodeDefinition](outlinecodedefinition/)() | Αρχικοποιεί μια νέα παρουσία του`OutlineCodeDefinition` τάξη. |
+| [OutlineCodeDefinition](outlinecodedefinition/)() | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης `OutlineCodeDefinition`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Alias](../../aspose.tasks/outlinecodedefinition/alias/) { get; set; } | Λαμβάνει ή ορίζει το ψευδώνυμο ενός προσαρμοσμένου κωδικού περιγράμματος. |
-| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν οι νέοι κωδικοί πρέπει να έχουν όλα τα επίπεδα. Μη διαθέσιμο για Enterprise Codes. |
-| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν ένας προσαρμοσμένος κωδικός διάρθρωσης είναι ένας προσαρμοσμένος κωδικός περιγράμματος επιχείρησης. |
-| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/) { get; set; } | Λαμβάνει ή ορίζει μια αναφορά σε άλλο προσαρμοσμένο πεδίο για το οποίο αυτός ο ορισμός του κωδικού περίληψης είναι ψευδώνυμο. |
-| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid/) { get; set; } | Λαμβάνει ή ορίζει τον αριθμό πεδίου ενός κωδικού περιγράμματος. |
-| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname/) { get; set; } | Λαμβάνει ή ορίζει το όνομα ενός προσαρμοσμένου κωδικού περιγράμματος. |
-| [Guid](../../aspose.tasks/outlinecodedefinition/guid/) { get; set; } | Λαμβάνει ή ορίζει τον οδηγό ενός κωδικού περίγραμμα. |
-| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν οι τιμές που καθορίζονται σε αυτό το πεδίο κωδικού περίγραμμα πρέπει να είναι τιμές φύλλου. |
-| [Masks](../../aspose.tasks/outlinecodedefinition/masks/) { get; } | Λαμβάνει το αντικείμενο OutlineMaskCollection. Ο πίνακας των εγγραφών που ορίζουν τη μάσκα κωδικού περιγράμματος. Μόνο για ανάγνωση[`OutlineMaskCollection`](../outlinemaskcollection/) παράδειγμα. |
+| [Alias](../../aspose.tasks/outlinecodedefinition/alias/) { get; set; } | Λαμβάνει ή ορίζει το ψευδώνυμο ενός προσαρμοσμένου κώδικα περιγράμματος. |
+| [AllLevelsRequired](../../aspose.tasks/outlinecodedefinition/alllevelsrequired/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν οι νέοι κώδικες πρέπει να έχουν όλα τα επίπεδα. Δεν είναι διαθέσιμο για Enterprise Codes. |
+| [Enterprise](../../aspose.tasks/outlinecodedefinition/enterprise/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν ένας προσαρμοσμένος κώδικας περιγράμματος είναι enterprise προσαρμοσμένος κώδικας περιγράμματος. |
+| [EnterpriseOutlineCodeAlias](../../aspose.tasks/outlinecodedefinition/enterpriseoutlinecodealias/) { get; set; } | Λαμβάνει ή ορίζει μια αναφορά σε άλλο προσαρμοσμένο πεδίο για το οποίο αυτός ο ορισμός κώδικα περιγράμματος είναι ψευδώνυμο. |
+| [FieldId](../../aspose.tasks/outlinecodedefinition/fieldid/) { get; set; } | Λαμβάνει ή ορίζει τον αριθμό πεδίου ενός κώδικα περιγράμματος. |
+| [FieldName](../../aspose.tasks/outlinecodedefinition/fieldname/) { get; set; } | Λαμβάνει ή ορίζει το όνομα ενός προσαρμοσμένου κώδικα περιγράμματος. |
+| [Guid](../../aspose.tasks/outlinecodedefinition/guid/) { get; set; } | Λαμβάνει ή ορίζει το Guid ενός κώδικα περιγράμματος. |
+| [LeafOnly](../../aspose.tasks/outlinecodedefinition/leafonly/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν οι τιμές που καθορίζονται σε αυτό το πεδίο κώδικα περιγράμματος πρέπει να είναι φύλλα. |
+| [Masks](../../aspose.tasks/outlinecodedefinition/masks/) { get; } | Λαμβάνει το αντικείμενο OutlineMaskCollection. Ο πίνακας καταχωρίσεων που ορίζουν τη μάσκα κώδικα περιγράμματος. Αντίγραφο μόνο για ανάγνωση [`OutlineMaskCollection`](../outlinemaskcollection/). |
 | [OnlyTableValuesAllowed](../../aspose.tasks/outlinecodedefinition/onlytablevaluesallowed/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν οι καθορισμένες τιμές πρέπει να προέρχονται από τον πίνακα τιμών. |
-| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias/) { get; set; } | Λαμβάνει ή ορίζει τη φωνητική προφορά του ψευδώνυμου του προσαρμοσμένου κωδικού περιγράμματος. |
-| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν ο προσαρμοσμένος κωδικός περιγράμματος μπορεί να χρησιμοποιηθεί από τον Οδηγό αντικατάστασης πόρων στο Microsoft Project. |
-| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν πρέπει να εμφανίζονται οι εσοχές αυτού του κωδικού περιγράμματος. |
-| [Values](../../aspose.tasks/outlinecodedefinition/values/) { get; } | Λαμβάνει αντικείμενο OutlineValueCollection. Οι τιμές του πίνακα που σχετίζονται με αυτόν τον κωδικό περίγραμμα. |
+| [PhoneticAlias](../../aspose.tasks/outlinecodedefinition/phoneticalias/) { get; set; } | Λαμβάνει ή ορίζει τη φωνητική προφορά του ψευδώνυμου του προσαρμοσμένου κώδικα περιγράμματος. |
+| [ResourceSubstitutionEnabled](../../aspose.tasks/outlinecodedefinition/resourcesubstitutionenabled/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν ο προσαρμοσμένος κώδικας περιγράμματος μπορεί να χρησιμοποιηθεί από τον Οδηγό Αντικατάστασης Πόρων στο Microsoft Project. |
+| [ShowIndent](../../aspose.tasks/outlinecodedefinition/showindent/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν τα εσοχές αυτού του κώδικα περιγράμματος πρέπει να εμφανίζονται. |
+| [Values](../../aspose.tasks/outlinecodedefinition/values/) { get; } | Λαμβάνει το αντικείμενο OutlineValueCollection. Οι τιμές του πίνακα που σχετίζονται με αυτόν τον κώδικα περιγράμματος. |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με ορισμούς outline code.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// δημιουργήστε έναν νέο ορισμό outline code
+var outline = new OutlineCodeDefinition();
+
+// ορίστε τον αριθμό πεδίου ενός outline code
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+
+// ορίστε το όνομα ενός προσαρμοσμένου outline code
+outline.FieldName = "Outline Code1";
+
+// ορίστε το Guid ενός outline code
+outline.Guid = "e6afac06-0d86-4359-a96c-db705e3d2ca8";
+
+// ορίστε μια τιμή που υποδεικνύει εάν οι τιμές που καθορίζονται σε αυτό το πεδίο outline code πρέπει να είναι τιμές φύλλου
+outline.LeafOnly = false;
+
+// ορίστε το ψευδώνυμο ενός προσαρμοσμένου outline code
+outline.Alias = "My Outline Code";
+
+// ορίστε την φωνητική προφορά του ψευδώνυμου του προσαρμοσμένου outline code
+outline.PhoneticAlias = "Outline Code";
+
+// ορίστε μια τιμή που υποδεικνύει εάν οι νέοι κώδικες πρέπει να έχουν όλα τα επίπεδα. Δεν είναι διαθέσιμο για Enterprise Codes.
+outline.AllLevelsRequired = true;
+
+// ορίστε μια τιμή που υποδεικνύει εάν ένας προσαρμοσμένος outline code είναι enterprise custom outline code
+outline.Enterprise = false;
+
+// ορίστε μια αναφορά σε άλλο προσαρμοσμένο πεδίο για το οποίο αυτός ο ορισμός outline code είναι ψευδώνυμο
+outline.EnterpriseOutlineCodeAlias = 0;
+
+// προσθέστε μια outline mask
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+outline.Masks.Add(mask);
+
+// ορίστε μια τιμή που υποδεικνύει εάν οι καθορισμένες τιμές πρέπει να προέρχονται από τον πίνακα τιμών
+outline.OnlyTableValuesAllowed = false;
+
+// ορίστε μια τιμή που υποδεικνύει εάν ο προσαρμοσμένος outline code μπορεί να χρησιμοποιηθεί
+// από το Resource Substitution Wizard στο Microsoft Project
+outline.ResourceSubstitutionEnabled = false;
+
+// ορίστε μια τιμή που υποδεικνύει εάν τα εσοχές αυτού του outline code πρέπει να εμφανίζονται.
+outline.ShowIndent = false;
+
+project.OutlineCodes.Add(outline);
+
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+
+// ...
+```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Tasks](../../aspose.tasks/)
-* συνέλευση [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

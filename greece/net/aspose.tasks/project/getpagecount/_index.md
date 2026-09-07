@@ -1,14 +1,14 @@
 ---
-title: GetPageCount
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας το δεδομένοSaveOptionsaspose.tasks.saving/saveoptions/ .
+title: "Project.GetPageCount"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Μέθοδος Project. Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας τις δοσμένες SaveOptions"
 type: docs
-weight: 1080
+weight: 1110
 url: /el/net/aspose.tasks/project/getpagecount/
 ---
 ## GetPageCount(SaveOptions) {#getpagecount_1}
 
-Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας το δεδομένο[`SaveOptions`](../../../aspose.tasks.saving/saveoptions/) .
+Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας τις δοσμένες [`SaveOptions`](../../../aspose.tasks.saving/saveoptions/).
 
 ```csharp
 public int GetPageCount(SaveOptions saveOptions)
@@ -16,15 +16,15 @@ public int GetPageCount(SaveOptions saveOptions)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| saveOptions | SaveOptions | Οι επιλογές αποθήκευσης για την καταμέτρηση σελίδων. |
+| saveOptions | SaveOptions | Οι επιλογές αποθήκευσης για τις οποίες θα ληφθεί ο αριθμός σελίδων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-ένα πλήθος σελίδων προς απόδοση.
+ένας αριθμός σελίδων που θα αποδοθεί.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Σε αυτό το παράδειγμα, η παρουσία του HtmlSaveOptions και ο αριθμός των σελίδων στο προκύπτον HTML εγγράφονται στην κονσόλα.
+Σε αυτό το παράδειγμα, η παρουσία του HtmlSaveOptions και ο αριθμός των σελίδων στο παραγόμενο HTML γράφονται στην κονσόλα.
 
 ```csharp
 [C#]
@@ -42,38 +42,71 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 Console.WriteLine(project.GetPageCount(saveOptions));
 ```
 
+Δείχνει πώς να λάβετε τον αριθμό σελίδων για συγκεκριμένες επιλογές αποθήκευσης.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+var options = new HtmlSaveOptions
+                  {
+                      IncludeProjectNameInPageHeader = false,
+                      IncludeProjectNameInTitle = false,
+                      PageSize = PageSize.A4,
+                      Timescale = Timescale.Days,
+                      StartDate = project.Get(Prj.StartDate).Date,
+                      EndDate = project.Get(Prj.FinishDate).Date
+                  };
+
+Console.WriteLine(project.GetPageCount(options));
+```
+
 ### Δείτε επίσης
 
 * class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount() {#getpagecount}
 
-Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας την προεπιλογή[`Timescale`](../../../aspose.tasks.visualization/timescale/) (Ημέρες).
+Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας την προεπιλεγμένη [`Timescale`](../../../aspose.tasks.visualization/timescale/)(Days).
 
 ```csharp
 public int GetPageCount()
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Πλήθος σελίδων προς απόδοση.
+Αριθμός σελίδων που θα αποδοθεί.
+
+## Παραδείγματα
+
+Δείχνει πώς να λάβετε τον αριθμό σελίδων για διαφορετικές κλίμακες χρόνου.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+
+// Λάβετε τον αριθμό σελίδων, Timescale.Months, Timescale.ThirdsOfMonths
+var pageCount = project.GetPageCount();
+Console.WriteLine("Page count: " + pageCount);
+pageCount = project.GetPageCount(Timescale.Months);
+Console.WriteLine("Page count (Month): " + pageCount);
+pageCount = project.GetPageCount(Timescale.ThirdsOfMonths);
+Console.WriteLine("Page count (Thirds of Months): " + pageCount);
+```
 
 ### Δείτε επίσης
 
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(Timescale) {#getpagecount_6}
 
-Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας το δεδομένο[`Timescale`](../../../aspose.tasks.visualization/timescale/) .
+Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας τη δεδομένη [`Timescale`](../../../aspose.tasks.visualization/timescale/).
 
 ```csharp
 public int GetPageCount(Timescale scale)
@@ -81,24 +114,40 @@ public int GetPageCount(Timescale scale)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| scale | Timescale | Η κλίμακα για τη λήψη του πλήθους σελίδων. |
+| κλίμακα | Timescale | Η κλίμακα για την οποία θα ληφθεί ο αριθμός σελίδων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Πλήθος σελίδων προς απόδοση.
+Αριθμός σελίδων που θα αποδοθεί.
+
+## Παραδείγματα
+
+Δείχνει πώς να λάβετε τον αριθμό σελίδων για διαφορετικές κλίμακες χρόνου.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+
+// Λάβετε τον αριθμό σελίδων, Timescale.Months, Timescale.ThirdsOfMonths
+var pageCount = project.GetPageCount();
+Console.WriteLine("Page count: " + pageCount);
+pageCount = project.GetPageCount(Timescale.Months);
+Console.WriteLine("Page count (Month): " + pageCount);
+pageCount = project.GetPageCount(Timescale.ThirdsOfMonths);
+Console.WriteLine("Page count (Thirds of Months): " + pageCount);
+```
 
 ### Δείτε επίσης
 
 * enum [Timescale](../../../aspose.tasks.visualization/timescale/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat) {#getpagecount_4}
 
-Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας την προεπιλογή[`Timescale`](../../../aspose.tasks.visualization/timescale/) (Ημέρες) και δίνονται[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)
+Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας την προεπιλεγμένη [`Timescale`](../../../aspose.tasks.visualization/timescale/)(Days) και τη δεδομένη [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/)
 
 ```csharp
 public int GetPageCount(PresentationFormat format)
@@ -106,24 +155,38 @@ public int GetPageCount(PresentationFormat format)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| format | PresentationFormat | Η μορφή για τη λήψη του πλήθους σελίδων. |
+| μορφή | PresentationFormat | Η μορφή για την οποία θα ληφθεί ο αριθμός σελίδων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Πλήθος σελίδων προς απόδοση.
+Αριθμός σελίδων που θα αποδοθεί.
+
+## Παραδείγματα
+
+Δείχνει πώς να λάβετε τον αριθμό σελίδων ανά μορφή παρουσίασης και κλίμακα χρόνου.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPagesForViews.mpp");
+
+// Λάβετε τον αριθμό σελίδων για Ημέρες (προεπιλογή), Μήνες και ThirdsOfMonths
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Days));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Months));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.ThirdsOfMonths));
+```
 
 ### Δείτε επίσης
 
 * enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PresentationFormat, Timescale) {#getpagecount_5}
 
-Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας το δεδομένο[`Timescale`](../../../aspose.tasks.visualization/timescale/) και[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) .
+Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας τη δεδομένη [`Timescale`](../../../aspose.tasks.visualization/timescale/) και την [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/).
 
 ```csharp
 public int GetPageCount(PresentationFormat format, Timescale scale)
@@ -131,26 +194,40 @@ public int GetPageCount(PresentationFormat format, Timescale scale)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| format | PresentationFormat | Η μορφή για τη λήψη του πλήθους σελίδων. |
-| scale | Timescale | Η κλίμακα για τη λήψη του πλήθους σελίδων. |
+| μορφή | PresentationFormat | Η μορφή για την οποία θα ληφθεί ο αριθμός σελίδων. |
+| κλίμακα | Timescale | Η κλίμακα για την οποία θα ληφθεί ο αριθμός σελίδων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-ένα πλήθος σελίδων προς απόδοση.
+ένας αριθμός σελίδων που θα αποδοθεί.
+
+## Παραδείγματα
+
+Δείχνει πώς να λάβετε τον αριθμό σελίδων ανά μορφή παρουσίασης και κλίμακα χρόνου.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPagesForViews.mpp");
+
+// Λάβετε τον αριθμό σελίδων για Ημέρες (προεπιλογή), Μήνες και ThirdsOfMonths
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Days));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.Months));
+Console.WriteLine("Number of Pages = '{0}'", project.GetPageCount(PresentationFormat.ResourceUsage, Timescale.ThirdsOfMonths));
+```
 
 ### Δείτε επίσης
 
 * enum [PresentationFormat](../../../aspose.tasks.visualization/presentationformat/)
 * enum [Timescale](../../../aspose.tasks.visualization/timescale/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale, DateTime, DateTime) {#getpagecount_3}
 
-Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας το δεδομένο[`Timescale`](../../../aspose.tasks.visualization/timescale/) ,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) και εύρος ημερομηνιών.
+Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας τη δεδομένη [`Timescale`](../../../aspose.tasks.visualization/timescale/), την [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) και το εύρος ημερομηνιών.
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, DateTime endDate)
@@ -158,28 +235,43 @@ public int GetPageCount(PageSize pageSize, Timescale scale, DateTime startDate, 
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| pageSize | PageSize | Το μέγεθος για να λάβετε τον αριθμό σελίδων. |
-| scale | Timescale | Η κλίμακα για τη λήψη του πλήθους σελίδων. |
-| startDate | DateTime | Η ημερομηνία έναρξης για τη λήψη του πλήθους σελίδων. |
-| endDate | DateTime | Η ημερομηνία λήξης για να λάβετε τον αριθμό σελίδων. |
+| pageSize | PageSize | Το μέγεθος για το οποίο θα ληφθεί ο αριθμός σελίδων. |
+| κλίμακα | Timescale | Η κλίμακα για την οποία θα ληφθεί ο αριθμός σελίδων. |
+| startDate | DateTime | Η ημερομηνία έναρξης για την οποία θα ληφθεί ο αριθμός σελίδων. |
+| endDate | DateTime | Η ημερομηνία λήξης για την οποία θα ληφθεί ο αριθμός σελίδων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Πλήθος σελίδων προς απόδοση.
+Αριθμός σελίδων που θα αποδοθεί.
+
+## Παραδείγματα
+
+Δείχνει πώς να λάβετε τον αριθμό σελίδων ανά μέγεθος σελίδας, κλίμακα χρόνου, ημερομηνίες έναρξης και λήξης.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+var pageCount = project.GetPageCount(
+    PageSize.A3,
+    Timescale.Months,
+    project.Get(Prj.StartDate) - TimeSpan.FromDays(10),
+    project.Get(Prj.FinishDate) + TimeSpan.FromDays(30));
+
+Console.WriteLine(pageCount);
+```
 
 ### Δείτε επίσης
 
 * enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
 * enum [Timescale](../../../aspose.tasks.visualization/timescale/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetPageCount(PageSize, Timescale) {#getpagecount_2}
 
-Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας το δεδομένο[`Timescale`](../../../aspose.tasks.visualization/timescale/) και[`PageSize`](../../../aspose.tasks.visualization/pagesize/) .
+Επιστρέφει τον αριθμό σελίδων για το έργο που θα αποδοθεί χρησιμοποιώντας τη δεδομένη [`Timescale`](../../../aspose.tasks.visualization/timescale/) και την [`PageSize`](../../../aspose.tasks.visualization/pagesize/).
 
 ```csharp
 public int GetPageCount(PageSize pageSize, Timescale scale)
@@ -187,19 +279,30 @@ public int GetPageCount(PageSize pageSize, Timescale scale)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| pageSize | PageSize | Το μέγεθος για να λάβετε τον αριθμό σελίδων. |
-| scale | Timescale | Η κλίμακα για τη λήψη του πλήθους σελίδων. |
+| pageSize | PageSize | Το μέγεθος για το οποίο θα ληφθεί ο αριθμός σελίδων. |
+| κλίμακα | Timescale | Η κλίμακα για την οποία θα ληφθεί ο αριθμός σελίδων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Πλήθος σελίδων προς απόδοση.
+Αριθμός σελίδων που θα αποδοθεί.
+
+## Παραδείγματα
+
+Δείχνει πώς να υπολογίσετε τον αριθμό των σελίδων βάσει μεγέθους σελίδας και χρονολογικής κλίμακας.
+
+```csharp
+var project = new Project(DataDir + "GetNumberOfPages.mpp");
+var pageCount = project.GetPageCount(PageSize.A3, Timescale.Months);
+
+Console.WriteLine(pageCount);
+```
 
 ### Δείτε επίσης
 
 * enum [PageSize](../../../aspose.tasks.visualization/pagesize/)
 * enum [Timescale](../../../aspose.tasks.visualization/timescale/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
