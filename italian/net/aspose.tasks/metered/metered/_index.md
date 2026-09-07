@@ -1,23 +1,23 @@
 ---
-title: Metered.Metered
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Metered costruttore. Default_Costruttore
+title: "Metered.Metered"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore Metered. Il costruttore predefinito"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/metered/metered/
 ---
 ## Metered constructor
 
-Default_Costruttore
+Il costruttore predefinito.
 
 ```csharp
 public Metered()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Metered](../)
-* spazio dei nomi [Aspose.Tasks](../../metered/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../metered/)
+* assembly [Aspose.Tasks](../../../)
 
 

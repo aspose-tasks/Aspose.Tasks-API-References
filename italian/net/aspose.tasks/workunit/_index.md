@@ -1,14 +1,14 @@
 ---
-title: Class WorkUnit
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.WorkUnit classe. Rappresenta lorario di lavoro.
+title: "Classe WorkUnit"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.WorkUnit. Rappresenta le ore lavorative"
 type: docs
-weight: 3270
+weight: 3630
 url: /it/net/aspose.tasks/workunit/
 ---
 ## WorkUnit class
 
-Rappresenta l'orario di lavoro.
+Rappresenta le ore lavorative.
 
 ```csharp
 public class WorkUnit
@@ -18,19 +18,36 @@ public class WorkUnit
 
 | Nome | Descrizione |
 | --- | --- |
-| [WorkUnit](workunit/)(DateTime, DateTime) | Inizializza una nuova istanza di`WorkUnit` class. Crea un nuovo oggetto WorkUnit con le date Da e A specificate. |
+| [WorkUnit](workunit/)(DateTime, DateTime) | Inizializza una nuova istanza della classe `WorkUnit`. Crea un nuovo oggetto WorkUnit con le date From e To specificate. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [From](../../aspose.tasks/workunit/from/) { get; set; } | Ottiene o imposta la data di inizio. |
-| [To](../../aspose.tasks/workunit/to/) { get; set; } | Ottiene o imposta la data A. |
-| [WorkingHours](../../aspose.tasks/workunit/workinghours/) { get; set; } | Ottiene o imposta la durata dell'orario di lavoro. |
+| [From](../../aspose.tasks/workunit/from/) { get; set; } | Ottiene o imposta la data From. |
+| [To](../../aspose.tasks/workunit/to/) { get; set; } | Ottiene o imposta la data To. |
+| [WorkingHours](../../aspose.tasks/workunit/workinghours/) { get; set; } | Ottiene o imposta la durata delle ore lavorative. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come lavorare con le informazioni dell'unità di lavoro.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// ottieni le ore lavorative per una data specifica
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+Console.WriteLine("From: " + workUnit.From);
+Console.WriteLine("To: " + workUnit.To);
+Console.WriteLine("Working hours: " + workUnit.WorkingHours);
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

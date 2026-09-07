@@ -1,23 +1,39 @@
 ---
-title: CsvOptions.Encoding
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: CsvOptions proprietà. Ottiene o imposta una codifica con cui salvare CSV.
+title: "CsvOptions.Encoding"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà CsvOptions. Ottiene o imposta una codifica con cui salvare il CSV"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks.saving/csvoptions/encoding/
 ---
 ## CsvOptions.Encoding property
 
-Ottiene o imposta una codifica con cui salvare CSV.
+Ottiene o imposta una codifica con cui salvare il CSV.
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come utilizzare &lt;see cref="Aspose.Tasks.Saving.CsvOptions" /&gt; per salvare un progetto come file CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### Vedi anche
 
 * class [CsvOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../csvoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../csvoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

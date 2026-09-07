@@ -1,14 +1,14 @@
 ---
-title: GroupCriterion.GetHashCode
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: GroupCriterion metodo. Funge da funzione hash per un determinato tipo.
+title: "GroupCriterion.GetHashCode"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "GroupCriterion metodo. Funziona come funzione hash per un tipo particolare"
 type: docs
-weight: 140
+weight: 120
 url: /it/net/aspose.tasks/groupcriterion/gethashcode/
 ---
 ## GroupCriterion.GetHashCode method
 
-Funge da funzione hash per un determinato tipo.
+Funziona come funzione hash per un tipo specifico.
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### Valore di ritorno
 
-Un codice hash per la correnteObject.
+Un codice hash per l'oggetto corrente.
 
-### Guarda anche
+### Vedi anche
 
 * class [GroupCriterion](../)
-* spazio dei nomi [Aspose.Tasks](../../groupcriterion/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

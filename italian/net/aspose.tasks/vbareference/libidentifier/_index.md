@@ -1,23 +1,39 @@
 ---
-title: VbaReference.LibIdentifier
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: VbaReference proprietà. Ottiene lidentificativo della libreria.
+title: "VbaReference.LibIdentifier"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà VbaReference. Ottiene l'identificatore della libreria"
 type: docs
 weight: 20
 url: /it/net/aspose.tasks/vbareference/libidentifier/
 ---
 ## VbaReference.LibIdentifier property
 
-Ottiene l'identificativo della libreria.
+Ottiene l'identificatore della libreria.
 
 ```csharp
 public string LibIdentifier { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i riferimenti VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
+### Vedi anche
 
 * class [VbaReference](../)
-* spazio dei nomi [Aspose.Tasks](../../vbareference/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

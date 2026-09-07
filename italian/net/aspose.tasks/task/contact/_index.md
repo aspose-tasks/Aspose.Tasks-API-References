@@ -1,7 +1,7 @@
 ---
-title: Task.Contact
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di Contact.
+title: "Task.Contact"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di Contact"
 type: docs
 weight: 250
 url: /it/net/aspose.tasks/task/contact/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di Contact.
 public string Contact { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

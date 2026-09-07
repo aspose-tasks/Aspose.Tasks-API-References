@@ -1,33 +1,99 @@
 ---
-title: Enum RateType
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.RateType enum. Specifica gli identificatori univoci di una tabella dei tassi.
+title: "Enum RateType"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Enum Aspose.Tasks.RateType. Specifica gli identificatori unici di una tabella delle tariffe"
 type: docs
-weight: 1410
+weight: 1660
 url: /it/net/aspose.tasks/ratetype/
 ---
 ## RateType enumeration
 
-Specifica gli identificatori univoci di una tabella dei tassi.
+Specifica gli identificatori unici di una tabella dei tassi.
 
 ```csharp
 public enum RateType
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Undefined | `-1` | Indica il tipo di tasso non definito. |
-| A | `0` | Indica un tipo di tariffa. |
+| Undefined | `-1` | Indica il tipo di tariffa Undefined. |
+| A | `0` | Indica il tipo di tariffa A. |
 | B | `1` | Indica il tipo di tariffa B. |
-| C | `2` | Indica il tipo di tasso C. |
+| C | `2` | Indica il tipo di tariffa C. |
 | D | `3` | Indica il tipo di tariffa D. |
 | E | `4` | Indica il tipo di tariffa E. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come lavorare con le collezioni di rate.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Test Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0), RateType.B);
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+
+Console.WriteLine("Print rates of '{0}' resource: ", resource.Rates.ParentResource.Get(Rsc.Name));
+Console.WriteLine("Count of rates: {0}", resource.Rates.Count);
+Console.WriteLine("Is rate collection read-only: {0}", resource.Rates.IsReadOnly);
+foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Rates)
+{
+    foreach (KeyValuePair<DateTime, Rate> pair in sortedRates.Value)
+    {
+        var rate = pair.Value;
+        Console.WriteLine("Rates From: " + rate.RatesFrom);
+        Console.WriteLine("Rates To: " + rate.RatesTo);
+        Console.WriteLine("Rate Table: " + rate.RateTable);
+        Console.WriteLine();
+    }
+}
+
+// ottieni l'ultima tariffa mediante accesso per indice
+var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
+rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
+Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
+Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
+
+// ...
+// lavora con le tariffe
+// ...
+
+// rimuovi tutte le tariffe di tipo A
+List<Rate> rates = resource.Rates.ToList(RateType.A);
+for (var i = 0; i < rates.Count; i++)
+{
+    var rateToRemove = rates[i];
+    resource.Rates.Remove(rateToRemove);
+}
+
+// trasforma la collezione di tariffe in un elenco piatto
+Console.WriteLine("Iterate over the rates after remove the A-typed values: ");
+List<Rate> list = resource.Rates.ToList();
+foreach (var rt in list)
+{
+    Console.WriteLine("Rates From: " + rt.RatesFrom);
+    Console.WriteLine("Rates To: " + rt.RatesTo);
+    Console.WriteLine("Rate Table: " + rt.RateTable);
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

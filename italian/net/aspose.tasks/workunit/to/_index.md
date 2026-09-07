@@ -1,23 +1,40 @@
 ---
-title: WorkUnit.To
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: WorkUnit proprietà. Ottiene o imposta la data A.
+title: "WorkUnit.To"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà WorkUnit. Ottiene o imposta la data To"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/workunit/to/
 ---
 ## WorkUnit.To property
 
-Ottiene o imposta la data A.
+Ottiene o imposta la data To.
 
 ```csharp
 public DateTime To { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le informazioni dell'unità di lavoro.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// ottieni le ore lavorative per una data specifica
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+Console.WriteLine("From: " + workUnit.From);
+Console.WriteLine("To: " + workUnit.To);
+Console.WriteLine("Working hours: " + workUnit.WorkingHours);
+```
+
+### Vedi anche
 
 * class [WorkUnit](../)
-* spazio dei nomi [Aspose.Tasks](../../workunit/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workunit/)
+* assembly [Aspose.Tasks](../../../)
 
 

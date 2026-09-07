@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultResourceUsageView
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ProjectView metodo. Include le colonne Uid nome inizio fine e risorsa lavoro.
+title: "ProjectView.GetDefaultResourceUsageView"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ProjectView. Include le colonne Uid, nome, inizio, fine e lavoro delle risorse"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks.visualization/projectview/getdefaultresourceusageview/
 ---
 ## ProjectView.GetDefaultResourceUsageView method
 
-Include le colonne Uid, nome, inizio, fine e risorsa lavoro.
+Include le colonne Uid, nome, inizio, fine e risorsa di lavoro.
 
 ```csharp
 public static ProjectView GetDefaultResourceUsageView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultResourceUsageView()
 
 ### Valore di ritorno
 
-una vista che contiene un elenco di[`ResourceViewColumn`](../../resourceviewcolumn/).
+una vista che contiene un elenco di [`ResourceViewColumn`](../../resourceviewcolumn/).
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare un progetto con la vista di utilizzo delle risorse.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultResourceUsageView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_ResourceUsageView_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [ProjectView](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../projectview/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

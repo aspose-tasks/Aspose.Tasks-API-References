@@ -1,23 +1,23 @@
 ---
-title: ResourceSavingArgs.ResourceSavingArgs
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ResourceSavingArgs costruttore. Default_Costruttore
+title: "ResourceSavingArgs.ResourceSavingArgs"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "ResourceSavingArgs costruttore. Il costruttore predefinito"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/resourcesavingargs/resourcesavingargs/
 ---
 ## ResourceSavingArgs constructor
 
-Default_Costruttore
+Il costruttore predefinito.
 
 ```csharp
 public ResourceSavingArgs()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [ResourceSavingArgs](../)
-* spazio dei nomi [Aspose.Tasks](../../resourcesavingargs/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

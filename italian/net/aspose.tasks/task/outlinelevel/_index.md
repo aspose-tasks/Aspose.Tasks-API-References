@@ -1,9 +1,9 @@
 ---
-title: Task.OutlineLevel
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di OutlineLevel.
+title: "Task.OutlineLevel"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di OutlineLevel"
 type: docs
-weight: 900
+weight: 890
 url: /it/net/aspose.tasks/task/outlinelevel/
 ---
 ## Task.OutlineLevel property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di OutlineLevel.
 public int OutlineLevel { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

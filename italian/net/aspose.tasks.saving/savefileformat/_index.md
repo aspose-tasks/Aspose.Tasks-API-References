@@ -1,20 +1,20 @@
 ---
-title: Enum SaveFileFormat
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.Saving.SaveFileFormat enum. Enumerazione per il salvataggio della selezione del formato del progetto.
+title: "Enum SaveFileFormat"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Enum Aspose.Tasks.Saving.SaveFileFormat. Enumerazione per la selezione del formato di salvataggio del progetto"
 type: docs
-weight: 1910
+weight: 2180
 url: /it/net/aspose.tasks.saving/savefileformat/
 ---
 ## SaveFileFormat enumeration
 
-Enumerazione per il salvataggio della selezione del formato del progetto.
+Enumerazione per la selezione del formato di salvataggio del progetto.
 
 ```csharp
 public enum SaveFileFormat
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
@@ -31,16 +31,25 @@ public enum SaveFileFormat
 | Svg | `10` | Formato SVG. |
 | Csv | `11` | Formato CSV. |
 | Txt | `12` | Formato testo (delimitato da tabulazioni). |
-| Spreadsheet2003 | `13` | Foglio di calcolo XML (Excel 2003). |
+| Spreadsheet2003 | `13` | XML foglio di calcolo (Excel 2003). |
 | Xlsx | `14` | OOXML (Office Open XML, Excel 2007+). |
-| PrimaveraP6Xml | `15` | Formato Primavera P6 Xml. |
-| PrimaveraXer | `16` | Formato Primavera PM XER. |
+| PrimaveraP6Xml | `15` | Formato XML Primavera P6. |
+| PrimaveraXer | `16` | Formato XER Primavera PM. |
 | Mpx | `17` | Formato MPX. |
-| GdHtml | `18` | Formato html per il salvataggio dei dati di progetto in un insieme di tabelle html. |
+| GdHtml | `18` | Formato HTML per salvare i dati del progetto in un insieme di tabelle HTML. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come salvare un progetto in formato CSV.
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+project.Save(OutDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

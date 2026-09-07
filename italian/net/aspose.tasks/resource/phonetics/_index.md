@@ -1,9 +1,9 @@
 ---
-title: Resource.Phonetics
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene o imposta un valore di Phonetics.
+title: "Resource.Phonetics"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Resource. Ottiene o imposta un valore di Phonetics"
 type: docs
-weight: 640
+weight: 630
 url: /it/net/aspose.tasks/resource/phonetics/
 ---
 ## Resource.Phonetics property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di Phonetics.
 public string Phonetics { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

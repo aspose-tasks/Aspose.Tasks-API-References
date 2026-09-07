@@ -1,14 +1,14 @@
 ---
-title: ProjectServerManager.ProjectServerManager
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ProjectServerManager costruttore. Inizializza una nuova istanza diProjectServerManager classe.
+title: "ProjectServerManager.ProjectServerManager"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore ProjectServerManager. Inizializza una nuova istanza della classe ProjectServerManager."
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/projectservermanager/projectservermanager/
 ---
 ## ProjectServerManager constructor
 
-Inizializza una nuova istanza di[`ProjectServerManager`](../) classe.
+Inizializza una nuova istanza della classe [`ProjectServerManager`](../).
 
 ```csharp
 public ProjectServerManager(ProjectServerCredentials credentials)
@@ -16,11 +16,11 @@ public ProjectServerManager(ProjectServerCredentials credentials)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| credentials | ProjectServerCredentials | Credenziali usate per connettersi all'account di Project online. |
+| credenziali | ProjectServerCredentials | Credenziali utilizzate per connettersi all'account Project Online. |
 
-### Esempi
+## Esempi
 
-Questo esempio mostra come creare un'istanza di ProjectServerManager per accedere all'istanza locale di Project Server.
+Questo esempio mostra come creare un'istanza di ProjectServerManager per accedere all'istanza on-premise di Project Server.
 
 ```csharp
 [C#]
@@ -38,11 +38,30 @@ var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", 
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
 ```
 
-### Guarda anche
+Mostra come leggere un progetto da Microsoft Project Online.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+var manager = new ProjectServerManager(credentials);
+IEnumerable<ProjectInfo> list = manager.GetProjectList();
+
+foreach (var info in list)
+{
+    var project = manager.GetProject(info.Id);
+    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
+    Console.WriteLine("Resources count: {0}", project.Resources.Count);
+}
+```
+
+### Vedi anche
 
 * class [ProjectServerCredentials](../../projectservercredentials/)
 * class [ProjectServerManager](../)
-* spazio dei nomi [Aspose.Tasks](../../projectservermanager/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 

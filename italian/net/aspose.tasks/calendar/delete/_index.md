@@ -1,9 +1,9 @@
 ---
-title: Calendar.Delete
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Calendar metodo. Rimuove il calendario dal progetto.
+title: "Calendar.Delete"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Calendar. Rimuove il calendario dal progetto"
 type: docs
-weight: 120
+weight: 140
 url: /it/net/aspose.tasks/calendar/delete/
 ---
 ## Calendar.Delete method
@@ -14,10 +14,24 @@ Rimuove il calendario dal progetto.
 public void Delete()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come eliminare un calendario da un progetto.
+
+```csharp
+var project = new Project(DataDir + "BrokenCalendar.mpp");
+
+// ottieni il calendario per nome
+var calendar = project.Calendars.GetByName("Broken Calendar");
+
+// elimina il calendario
+calendar.Delete();
+```
+
+### Vedi anche
 
 * class [Calendar](../)
-* spazio dei nomi [Aspose.Tasks](../../calendar/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Delegate FontResolveCallbackDelegate
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rappresenta un callback del metodo per gestire levento di risoluzione dei font.
+title: "Delegato FontResolveCallbackDelegate"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Rappresenta una callback di metodo per gestire l'evento di risoluzione del font"
 type: docs
 weight: 660
 url: /it/net/aspose.tasks/fontresolvecallbackdelegate/
 ---
 ## FontResolveCallbackDelegate delegate
 
-Rappresenta un callback del metodo per gestire l'evento di risoluzione dei font.
+Rappresenta un callback di metodo per gestire l'evento di risoluzione del font.
 
 ```csharp
 public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
@@ -16,12 +16,12 @@ public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| args | FontResolveEventArgs | l'istanza del[`FontResolveEventArgs`](../fontresolveeventargs/) classe che contiene i dati di callback. |
+| args | FontResolveEventArgs | l'istanza della classe [`FontResolveEventArgs`](../fontresolveeventargs/) che contiene i dati della callback. |
 
-### Guarda anche
+### Vedi anche
 
 * class [FontResolveEventArgs](../fontresolveeventargs/)
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

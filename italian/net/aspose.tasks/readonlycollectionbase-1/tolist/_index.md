@@ -1,14 +1,14 @@
 ---
-title: ReadOnlyCollectionBase1.ToList
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ReadOnlyCollectionBase metodo. Converte loggetto raccolta in un elenco diVbaModule oggetti.
+title: "ReadOnlyCollectionBase1.ToList"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ReadOnlyCollectionBase. Converte la collezione in un elenco di oggetti."
 type: docs
 weight: 50
 url: /it/net/aspose.tasks/readonlycollectionbase-1/tolist/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.ToList method
 
-Converte l'oggetto raccolta in un elenco di[`VbaModule`](../../vbamodule/) oggetti.
+Converte la collezione in un elenco di oggetti.
 
 ```csharp
 public List<T> ToList()
@@ -16,12 +16,12 @@ public List<T> ToList()
 
 ### Valore di ritorno
 
-Elenco degli oggetti.
+Elenco generico di oggetti.
 
-### Guarda anche
+### Vedi anche
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* spazio dei nomi [Aspose.Tasks](../../readonlycollectionbase-1/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

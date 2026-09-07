@@ -1,7 +1,7 @@
 ---
-title: Enum ExtendedAttributeTask
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.ExtendedAttributeTask enum. Specifica gli attributi estesi FieldId utilizzati in unattività.
+title: "Enum ExtendedAttributeTask"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Enum Aspose.Tasks.ExtendedAttributeTask. Specifica gli attributi estesi FieldId utilizzati in un'attività."
 type: docs
 weight: 570
 url: /it/net/aspose.tasks/extendedattributetask/
@@ -14,144 +14,191 @@ Specifica gli attributi estesi FieldId utilizzati in un'attività.
 public enum ExtendedAttributeTask
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Cost1 | `188743786` | Campo personalizzato Costo1 (attività). |
-| Cost2 | `188743787` | Campo personalizzato Costo2 (attività). |
-| Cost3 | `188743788` | Campo personalizzato Costo3 (attività). |
-| Cost4 | `188743938` | Campo personalizzato Costo4 (attività). |
-| Cost5 | `188743939` | Campo personalizzato Costo5 (attività). |
-| Cost6 | `188743940` | Campo personalizzato Cost6 (attività). |
-| Cost7 | `188743941` | Campo personalizzato Costo7 (attività). |
-| Cost8 | `188743942` | Campo personalizzato Costo8 (attività). |
-| Cost9 | `188743943` | Campo personalizzato Costo9 (attività). |
-| Cost10 | `188743944` | Campo personalizzato Cost10 (attività). |
-| Date1 | `188743945` | Campo personalizzato Data1 (attività). |
-| Date2 | `188743946` | Campo personalizzato Data2 (attività). |
-| Date3 | `188743947` | Campo personalizzato Data3 (attività). |
-| Date4 | `188743948` | Campo personalizzato Data4 (attività). |
-| Date5 | `188743949` | Campo personalizzato Data5 (attività). |
-| Date6 | `188743950` | Campo personalizzato Data6 (attività). |
-| Date7 | `188743951` | Campo personalizzato Data7 (attività). |
-| Date8 | `188743952` | Campo personalizzato Data8 (attività). |
-| Date9 | `188743953` | Campo personalizzato Data9 (attività). |
-| Date10 | `188743954` | Campo personalizzato Data10 (attività). |
-| Duration1 | `188743783` | Campo personalizzato Durata1 (attività). |
-| Duration2 | `188743784` | Campo personalizzato Durata2 (attività). |
-| Duration3 | `188743785` | Campo personalizzato Durata3 (attività). |
-| Duration4 | `188743955` | Campo personalizzato Durata4 (attività). |
-| Duration5 | `188743956` | Campo personalizzato Durata5 (attività). |
-| Duration6 | `188743957` | Campo personalizzato Durata6 (attività). |
-| Duration7 | `188743958` | Campo personalizzato Durata7 (attività). |
-| Duration8 | `188743959` | Campo personalizzato Durata8 (attività). |
-| Duration9 | `188743960` | Campo personalizzato Durata9 (attività). |
-| Duration10 | `188743961` | Campo personalizzato Durata10 (attività). |
-| Finish1 | `188743733` | Campo personalizzato Fine1 (attività). |
-| Finish2 | `188743736` | Campo personalizzato Fine2 (attività). |
-| Finish3 | `188743739` | Campo personalizzato Fine3 (attività). |
-| Finish4 | `188743742` | Campo personalizzato Fine4 (attività). |
-| Finish5 | `188743745` | Campo personalizzato Fine5 (attività). |
-| Finish6 | `188743963` | Campo personalizzato Fine6 (attività). |
-| Finish7 | `188743965` | Campo personalizzato Fine7 (attività). |
-| Finish8 | `188743967` | Campo personalizzato Fine8 (attività). |
-| Finish9 | `188743969` | Campo personalizzato Fine9 (attività). |
-| Finish10 | `188743971` | Campo personalizzato Fine10 (attività). |
-| Flag1 | `188743752` | Campo personalizzato Flag1 (attività). |
-| Flag2 | `188743753` | Campo personalizzato Flag2 (attività). |
-| Flag3 | `188743754` | Campo personalizzato Flag3 (attività). |
-| Flag4 | `188743755` | Campo personalizzato Flag4 (attività). |
-| Flag5 | `188743756` | Campo personalizzato Flag5 (attività). |
-| Flag6 | `188743757` | Campo personalizzato Flag6 (attività). |
-| Flag7 | `188743758` | Campo personalizzato Flag7 (attività). |
-| Flag8 | `188743759` | Campo personalizzato Flag8 (attività). |
-| Flag9 | `188743760` | Campo personalizzato Flag9 (attività). |
-| Flag10 | `188743761` | Campo personalizzato Flag10 (attività). |
-| Flag11 | `188743972` | Campo personalizzato Flag11 (attività). |
-| Flag12 | `188743973` | Campo personalizzato Flag12 (attività). |
-| Flag13 | `188743974` | Campo personalizzato Flag13 (attività). |
-| Flag14 | `188743975` | Campo personalizzato Flag14 (attività). |
-| Flag15 | `188743976` | Campo personalizzato Flag15 (attività). |
-| Flag16 | `188743977` | Campo personalizzato Flag16 (attività). |
-| Flag17 | `188743978` | Campo personalizzato Flag17 (Compito). |
-| Flag18 | `188743979` | Campo personalizzato Flag18 (Task). |
-| Flag19 | `188743980` | Campo personalizzato Flag19 (Task). |
-| Flag20 | `188743981` | Campo personalizzato Flag20 (attività). |
-| Number1 | `188743767` | Campo personalizzato Numero1 (attività). |
-| Number2 | `188743768` | Campo personalizzato Numero2 (attività). |
-| Number3 | `188743769` | Campo personalizzato Numero3 (attività). |
-| Number4 | `188743770` | Numero4 (attività) campo personalizzato. |
-| Number5 | `188743771` | Numero5 (attività) campo personalizzato. |
-| Number6 | `188743982` | Numero6 (attività) campo personalizzato. |
-| Number7 | `188743983` | Numero7 (attività) campo personalizzato. |
-| Number8 | `188743984` | Numero8 (attività) campo personalizzato. |
-| Number9 | `188743985` | Numero9 (attività) campo personalizzato. |
-| Number10 | `188743986` | Campo personalizzato Number10 (attività). |
-| Number11 | `188743987` | Campo personalizzato Numero11 (attività). |
-| Number12 | `188743988` | Campo personalizzato Number12 (attività). |
-| Number13 | `188743989` | Campo personalizzato Numero13 (attività). |
-| Number14 | `188743990` | Campo personalizzato Number14 (attività). |
-| Number15 | `188743991` | Numero 15 (attività) campo personalizzato. |
-| Number16 | `188743992` | Numero16 (attività) campo personalizzato. |
-| Number17 | `188743993` | Numero 17 (attività) campo personalizzato. |
-| Number18 | `188743994` | Numero18 (attività) campo personalizzato. |
-| Number19 | `188743995` | Numero19 (attività) campo personalizzato. |
-| Number20 | `188743996` | Numero20 (attività) campo personalizzato. |
-| Start1 | `188743732` | Campo personalizzato Start1 (attività). |
-| Start2 | `188743735` | Campo personalizzato Start2 (attività). |
-| Start3 | `188743738` | Campo personalizzato Start3 (attività). |
-| Start4 | `188743741` | Campo personalizzato Start4 (attività). |
-| Start5 | `188743744` | Campo personalizzato Start5 (attività). |
-| Start6 | `188743962` | Campo personalizzato Start6 (attività). |
-| Start7 | `188743964` | Campo personalizzato Start7 (attività). |
-| Start8 | `188743966` | Campo personalizzato Start8 (attività). |
-| Start9 | `188743968` | Campo personalizzato Start9 (attività). |
-| Start10 | `188743970` | Campo personalizzato Start10 (attività). |
-| Text1 | `188743731` | Campo personalizzato Testo1 (attività). |
-| Text2 | `188743734` | Campo personalizzato Testo2 (attività). |
-| Text3 | `188743737` | Campo personalizzato Testo3 (attività). |
-| Text4 | `188743740` | Campo personalizzato Testo4 (attività). |
-| Text5 | `188743743` | Campo personalizzato Testo5 (attività). |
-| Text6 | `188743746` | Campo personalizzato Text6 (attività). |
-| Text7 | `188743747` | Campo personalizzato Text7 (attività). |
-| Text8 | `188743748` | Campo personalizzato Text8 (attività). |
-| Text9 | `188743749` | Campo personalizzato Testo9 (attività). |
-| Text10 | `188743750` | Campo personalizzato Text10 (attività). |
-| Text11 | `188743997` | Campo personalizzato Testo11 (attività). |
-| Text12 | `188743998` | Campo personalizzato Text12 (attività). |
-| Text13 | `188743999` | Campo personalizzato Testo13 (attività). |
-| Text14 | `188744000` | Campo personalizzato Text14 (attività). |
-| Text15 | `188744001` | Campo personalizzato Text15 (attività). |
-| Text16 | `188744002` | Campo personalizzato Text16 (attività). |
-| Text17 | `188744003` | Campo personalizzato Testo17 (attività). |
-| Text18 | `188744004` | Campo personalizzato Text18 (attività). |
-| Text19 | `188744005` | Campo personalizzato Text19 (attività). |
-| Text20 | `188744006` | Campo personalizzato Text20 (attività). |
-| Text21 | `188744007` | Campo personalizzato Text21 (attività). |
-| Text22 | `188744008` | Campo personalizzato Text22 (attività). |
-| Text23 | `188744009` | Campo personalizzato Text23 (attività). |
-| Text24 | `188744010` | Campo personalizzato Text24 (attività). |
-| Text25 | `188744011` | Campo personalizzato Text25 (attività). |
-| Text26 | `188744012` | Campo personalizzato Text26 (attività). |
-| Text27 | `188744013` | Campo personalizzato Text27 (attività). |
-| Text28 | `188744014` | Campo personalizzato Text28 (attività). |
-| Text29 | `188744015` | Campo personalizzato Text29 (attività). |
-| Text30 | `188744016` | Campo personalizzato Text30 (attività). |
-| OutlineCode1 | `188744096` | Campo personalizzato OutlineCode1 (attività). |
-| OutlineCode2 | `188744098` | Campo personalizzato OutlineCode2 (attività). |
-| OutlineCode3 | `188744100` | Campo personalizzato OutlineCode3 (attività). |
-| OutlineCode4 | `188744102` | Campo personalizzato OutlineCode4 (attività). |
-| OutlineCode5 | `188744104` | Campo personalizzato OutlineCode5 (attività). |
-| OutlineCode6 | `188744106` | Campo personalizzato OutlineCode6 (attività). |
-| OutlineCode7 | `188744108` | Campo personalizzato OutlineCode7 (attività). |
-| OutlineCode8 | `188744110` | Campo personalizzato OutlineCode8 (attività). |
-| OutlineCode9 | `188744112` | Campo personalizzato OutlineCode9 (attività). |
-| OutlineCode10 | `188744114` | OutlineCode10 (attività) campo personalizzato. |
+| Cost1 | `188743786` | Cost1 (Task) campo personalizzato. |
+| Cost2 | `188743787` | Cost2 (Task) campo personalizzato. |
+| Cost3 | `188743788` | Cost3 (Task) campo personalizzato. |
+| Cost4 | `188743938` | Cost4 (Task) campo personalizzato. |
+| Cost5 | `188743939` | Cost5 (Task) campo personalizzato. |
+| Cost6 | `188743940` | Cost6 (Task) campo personalizzato. |
+| Cost7 | `188743941` | Cost7 (Task) campo personalizzato. |
+| Cost8 | `188743942` | Cost8 (Task) campo personalizzato. |
+| Cost9 | `188743943` | Cost9 (Task) campo personalizzato. |
+| Cost10 | `188743944` | Cost10 (Task) campo personalizzato. |
+| Date1 | `188743945` | Date1 (Task) campo personalizzato. |
+| Date2 | `188743946` | Date2 (Task) campo personalizzato. |
+| Date3 | `188743947` | Date3 (Task) campo personalizzato. |
+| Date4 | `188743948` | Date4 (Task) campo personalizzato. |
+| Date5 | `188743949` | Date5 (Task) campo personalizzato. |
+| Date6 | `188743950` | Date6 (Task) campo personalizzato. |
+| Date7 | `188743951` | Date7 (Task) campo personalizzato. |
+| Date8 | `188743952` | Date8 (Task) campo personalizzato. |
+| Date9 | `188743953` | Date9 (Task) campo personalizzato. |
+| Date10 | `188743954` | Date10 (Task) campo personalizzato. |
+| Duration1 | `188743783` | Duration1 (Task) campo personalizzato. |
+| Duration2 | `188743784` | Duration2 (Task) campo personalizzato. |
+| Duration3 | `188743785` | Duration3 (Task) campo personalizzato. |
+| Duration4 | `188743955` | Duration4 (Task) campo personalizzato. |
+| Duration5 | `188743956` | Duration5 (Task) campo personalizzato. |
+| Duration6 | `188743957` | Duration6 (Task) campo personalizzato. |
+| Duration7 | `188743958` | Duration7 (Task) campo personalizzato. |
+| Duration8 | `188743959` | Duration8 (Task) campo personalizzato. |
+| Duration9 | `188743960` | Duration9 (Task) campo personalizzato. |
+| Duration10 | `188743961` | Duration10 (Task) campo personalizzato. |
+| Finish1 | `188743733` | Finish1 (Task) campo personalizzato. |
+| Finish2 | `188743736` | Finish2 (Task) campo personalizzato. |
+| Finish3 | `188743739` | Finish3 (Task) campo personalizzato. |
+| Finish4 | `188743742` | Finish4 (Task) campo personalizzato. |
+| Finish5 | `188743745` | Finish5 (Task) campo personalizzato. |
+| Finish6 | `188743963` | Finish6 (Task) campo personalizzato. |
+| Finish7 | `188743965` | Finish7 (Task) campo personalizzato. |
+| Finish8 | `188743967` | Finish8 (Task) campo personalizzato. |
+| Finish9 | `188743969` | Finish9 (Task) campo personalizzato. |
+| Finish10 | `188743971` | Finish10 (Task) campo personalizzato. |
+| Flag1 | `188743752` | Flag1 (Task) campo personalizzato. |
+| Flag2 | `188743753` | Flag2 (Task) campo personalizzato. |
+| Flag3 | `188743754` | Flag3 (Task) campo personalizzato. |
+| Flag4 | `188743755` | Flag4 (Task) campo personalizzato. |
+| Flag5 | `188743756` | Flag5 (Task) campo personalizzato. |
+| Flag6 | `188743757` | Flag6 (Task) campo personalizzato. |
+| Flag7 | `188743758` | Flag7 (Task) campo personalizzato. |
+| Flag8 | `188743759` | Flag8 (Task) campo personalizzato. |
+| Flag9 | `188743760` | Flag9 (Task) campo personalizzato. |
+| Flag10 | `188743761` | Flag10 (Task) campo personalizzato. |
+| Flag11 | `188743972` | Flag11 (Task) campo personalizzato. |
+| Flag12 | `188743973` | Flag12 (Task) campo personalizzato. |
+| Flag13 | `188743974` | Flag13 (Task) campo personalizzato. |
+| Flag14 | `188743975` | Flag14 (Task) campo personalizzato. |
+| Flag15 | `188743976` | Flag15 (Task) campo personalizzato. |
+| Flag16 | `188743977` | Flag16 (Task) campo personalizzato. |
+| Flag17 | `188743978` | Flag17 (Task) campo personalizzato. |
+| Flag18 | `188743979` | Flag18 (Task) campo personalizzato. |
+| Flag19 | `188743980` | Flag19 (Task) campo personalizzato. |
+| Flag20 | `188743981` | Flag20 (Task) campo personalizzato. |
+| Number1 | `188743767` | Number1 (Task) campo personalizzato. |
+| Number2 | `188743768` | Number2 (Task) campo personalizzato. |
+| Number3 | `188743769` | Number3 (Task) campo personalizzato. |
+| Number4 | `188743770` | Number4 (Task) campo personalizzato. |
+| Number5 | `188743771` | Number5 (Task) campo personalizzato. |
+| Number6 | `188743982` | Number6 (Task) campo personalizzato. |
+| Number7 | `188743983` | Number7 (Task) campo personalizzato. |
+| Number8 | `188743984` | Number8 (Task) campo personalizzato. |
+| Number9 | `188743985` | Number9 (Task) campo personalizzato. |
+| Number10 | `188743986` | Number10 (Task) campo personalizzato. |
+| Number11 | `188743987` | Number11 (Task) campo personalizzato. |
+| Number12 | `188743988` | Number12 (Task) campo personalizzato. |
+| Number13 | `188743989` | Number13 (Task) campo personalizzato. |
+| Number14 | `188743990` | Number14 (Task) campo personalizzato. |
+| Number15 | `188743991` | Number15 (Task) campo personalizzato. |
+| Number16 | `188743992` | Number16 (Task) campo personalizzato. |
+| Number17 | `188743993` | Number17 (Task) campo personalizzato. |
+| Number18 | `188743994` | Number18 (Task) campo personalizzato. |
+| Number19 | `188743995` | Number19 (Task) campo personalizzato. |
+| Number20 | `188743996` | Number20 (Task) campo personalizzato. |
+| Start1 | `188743732` | Start1 (Task) campo personalizzato. |
+| Start2 | `188743735` | Start2 (Task) campo personalizzato. |
+| Start3 | `188743738` | Start3 (Task) campo personalizzato. |
+| Start4 | `188743741` | Start4 (Task) campo personalizzato. |
+| Start5 | `188743744` | Start5 (Task) campo personalizzato. |
+| Start6 | `188743962` | Start6 (Task) campo personalizzato. |
+| Start7 | `188743964` | Start7 (Task) campo personalizzato. |
+| Start8 | `188743966` | Start8 (Task) campo personalizzato. |
+| Start9 | `188743968` | Start9 (Task) campo personalizzato. |
+| Start10 | `188743970` | Start10 (Task) campo personalizzato. |
+| Text1 | `188743731` | Text1 (Task) campo personalizzato. |
+| Text2 | `188743734` | Text2 (Task) campo personalizzato. |
+| Text3 | `188743737` | Text3 (Task) campo personalizzato. |
+| Text4 | `188743740` | Text4 (Task) campo personalizzato. |
+| Text5 | `188743743` | Text5 (Task) campo personalizzato. |
+| Text6 | `188743746` | Text6 (Task) campo personalizzato. |
+| Text7 | `188743747` | Text7 (Task) campo personalizzato. |
+| Text8 | `188743748` | Text8 (Task) campo personalizzato. |
+| Text9 | `188743749` | Text9 (Task) campo personalizzato. |
+| Text10 | `188743750` | Text10 (Task) campo personalizzato. |
+| Text11 | `188743997` | Testo11 (Task) campo personalizzato. |
+| Text12 | `188743998` | Testo12 (Task) campo personalizzato. |
+| Text13 | `188743999` | Testo13 (Task) campo personalizzato. |
+| Text14 | `188744000` | Testo14 (Task) campo personalizzato. |
+| Text15 | `188744001` | Testo15 (Task) campo personalizzato. |
+| Text16 | `188744002` | Testo16 (Task) campo personalizzato. |
+| Text17 | `188744003` | Testo17 (Task) campo personalizzato. |
+| Text18 | `188744004` | Testo18 (Task) campo personalizzato. |
+| Text19 | `188744005` | Testo19 (Task) campo personalizzato. |
+| Text20 | `188744006` | Testo20 (Task) campo personalizzato. |
+| Text21 | `188744007` | Testo21 (Task) campo personalizzato. |
+| Text22 | `188744008` | Testo22 (Task) campo personalizzato. |
+| Text23 | `188744009` | Testo23 (Task) campo personalizzato. |
+| Text24 | `188744010` | Testo24 (Task) campo personalizzato. |
+| Text25 | `188744011` | Testo25 (Task) campo personalizzato. |
+| Text26 | `188744012` | Testo26 (Task) campo personalizzato. |
+| Text27 | `188744013` | Testo27 (Task) campo personalizzato. |
+| Text28 | `188744014` | Testo28 (Task) campo personalizzato. |
+| Text29 | `188744015` | Testo29 (Task) campo personalizzato. |
+| Text30 | `188744016` | Testo30 (Task) campo personalizzato. |
+| OutlineCode1 | `188744096` | OutlineCode1 (Task) campo personalizzato. |
+| OutlineCode2 | `188744098` | OutlineCode2 (Task) campo personalizzato. |
+| OutlineCode3 | `188744100` | OutlineCode3 (Task) campo personalizzato. |
+| OutlineCode4 | `188744102` | OutlineCode4 (Task) campo personalizzato. |
+| OutlineCode5 | `188744104` | OutlineCode5 (Task) campo personalizzato. |
+| OutlineCode6 | `188744106` | Campo personalizzato OutlineCode6 (Task). |
+| OutlineCode7 | `188744108` | Campo personalizzato OutlineCode7 (Task). |
+| OutlineCode8 | `188744110` | Campo personalizzato OutlineCode8 (Task). |
+| OutlineCode9 | `188744112` | Campo personalizzato OutlineCode9 (Task). |
+| OutlineCode10 | `188744114` | Campo personalizzato OutlineCode10 (Task). |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come aggiungere attributi estesi con ricerche per le assegnazioni.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// Assegna la risorsa "1 TRG: Trade Group" al "TASK 1" creando un oggetto ResourceAssignment.
+var resource = project.Resources.GetById(1);
+var task = project.RootTask.Children.GetById(1);
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+// Crea una definizione di attributo personalizzato con ricerca.
+var resExtendedAttributeDefinition = ExtendedAttributeDefinition.CreateLookupResourceDefinition(
+    CustomFieldType.Cost,
+    ExtendedAttributeResource.Cost5,
+    "My lookup resource cost");
+project.ExtendedAttributes.Add(resExtendedAttributeDefinition);
+
+var firstValue = new Value { NumericValue = 1500, Description = "Val 1", Id = 1, Val = "1500" };
+var secondValue = new Value { NumericValue = 2500, Description = "Val 2", Id = 2 };
+resExtendedAttributeDefinition.AddLookupValue(firstValue);
+resExtendedAttributeDefinition.AddLookupValue(secondValue);
+
+// Questo valore può essere visualizzato nella vista "Resource usage" di MS Project.
+var attributeValue = resExtendedAttributeDefinition.CreateExtendedAttribute(firstValue);
+assignment.ExtendedAttributes.Add(attributeValue);
+
+// Crea una definizione di attributo personalizzato con ricerca.
+var taskCostAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(CustomFieldType.Cost, ExtendedAttributeTask.Cost4, "My lookup task cost");
+project.ExtendedAttributes.Add(taskCostAttr);
+var taskFirstValue = new Value { NumericValue = 18, Description = "Task val 1", Id = 3, Val = "18" };
+var resSecondValue = new Value { NumericValue = 30, Description = "Task val 2", Id = 4 };
+var taskWrongValue = new Value { NumericValue = 99, Description = "Task val Wrong", Id = 5, Val = "18" };
+
+taskCostAttr.AddLookupValue(taskFirstValue);
+resExtendedAttributeDefinition.AddLookupValue(resSecondValue);
+
+// Questo valore può essere visualizzato nella vista "Task usage" di MS Project.
+assignment.ExtendedAttributes.Add(taskCostAttr.CreateExtendedAttribute(taskFirstValue));
+
+// Valori errati possono essere rimossi in seguito.
+taskCostAttr.RemoveLookupValue(taskWrongValue);
+
+// lavorare con il progetto...
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,26 +1,70 @@
 ---
-title: Rsc.Overallocated
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. Indica se una risorsa è assegnata a più lavoro su unattività specifica o su tutte le attività che possono essere completate entro la normale capacità lavorativa.
+title: "Rsc.Overallocated"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. Indica se una risorsa è assegnata a più lavoro su un compito specifico o su tutti i compiti rispetto a quanto può essere completato con la capacità lavorativa normale"
 type: docs
-weight: 500
+weight: 490
 url: /it/net/aspose.tasks/rsc/overallocated/
 ---
 ## Rsc.Overallocated field
 
-Indica se una risorsa è assegnata a più lavoro su un'attività specifica o su tutte le attività che possono essere completate entro la normale capacità lavorativa.
+Indica se una risorsa è assegnata a più lavoro su un'attività specifica o su tutte le attività rispetto a quanto può essere completato entro la capacità lavorativa normale.
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> Overallocated;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere Tsk.IsOverallocated, Tsk.HasOverallocatedResource,
+
+```csharp
+// Proprietà Rsc.Overallocated e Asn.Overallocated.
+var project = new Project();
+
+var task1 = project.RootTask.Children.Add("Task1");
+var task2 = project.RootTask.Children.Add("Task2");
+
+var resource1 = project.Resources.Add("Resource1");
+var resource2 = project.Resources.Add("Resource2");
+
+project.CalculationMode = CalculationMode.None;
+task1.Set(Tsk.Type, TaskType.FixedDuration);
+var assignment11 = project.ResourceAssignments.Add(task1, resource1);
+assignment11.Set(Asn.Work, project.GetDuration(9, TimeUnitType.Hour));
+assignment11.Set(Asn.Start, task1.Get(Tsk.Start));
+assignment11.Set(Asn.Finish, task1.Get(Tsk.Start).AddHours(9));
+task1.Set(Tsk.Duration, project.GetDuration(8, TimeUnitType.Hour));
+task1.Set(Tsk.Work, project.GetDuration(9, TimeUnitType.Hour));
+var assignment21 = project.ResourceAssignments.Add(task2, resource1);
+var assignment22 = project.ResourceAssignments.Add(task2, resource2);
+
+assignment21.Set(Asn.Work, project.GetDuration(1, TimeUnitType.Hour));
+
+project.CalculationMode = CalculationMode.Automatic;
+project.Recalculate();
+
+Console.WriteLine("Task1: Is Overallocated: " + task1.Get(Tsk.IsOverallocated));
+Console.WriteLine("Task2: Is Overallocated: " + task2.Get(Tsk.IsOverallocated));
+
+Console.WriteLine("Task1: Has Overallocated Resource: " + task1.Get(Tsk.HasOverallocatedResource));
+Console.WriteLine("Task2: Has Overallocated Resource: " + task2.Get(Tsk.HasOverallocatedResource));
+
+Console.WriteLine("Resource1: Is Overallocated: " + resource1.Get(Rsc.Overallocated));
+Console.WriteLine("Resource2: Is Overallocated: " + resource2.Get(Rsc.Overallocated));
+
+Console.WriteLine("Assignment11: Is Overallocated: " + assignment11.Get(Asn.Overallocated));
+Console.WriteLine("Assignment21: Is Overallocated: " + assignment21.Get(Asn.Overallocated));
+Console.WriteLine("Assignment22: Is Overallocated: " + assignment22.Get(Asn.Overallocated));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

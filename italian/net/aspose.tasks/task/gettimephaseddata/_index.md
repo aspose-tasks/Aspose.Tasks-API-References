@@ -1,14 +1,14 @@
 ---
-title: Task.GetTimephasedData
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task metodo. RitornaTimephasedDataCollection oggetto conTimephasedData valori allinterno delle date di inizio e di fine specificate del tipo di dati rapportato alla scala cronologica specificato.
+title: "Task.GetTimephasedData"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Task. Restituisce un oggetto TimephasedDataCollection con valori TimephasedData entro le date di inizio e fine specificate per il tipo di dati timephased indicato."
 type: docs
 weight: 1360
 url: /it/net/aspose.tasks/task/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-Ritorna[`TimephasedDataCollection`](../../timephaseddatacollection/) oggetto con[`TimephasedData`](../timephaseddata/) valori all'interno delle date di inizio e di fine specificate del tipo di dati rapportato alla scala cronologica specificato.
+Restituisce l'oggetto [`TimephasedDataCollection`](../../timephaseddatacollection/) con valori [`TimephasedData`](../timephaseddata/) entro le date di inizio e fine specificate per il tipo di dati time-phased.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -17,27 +17,45 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| start | DateTime | La data di inizio per i dati rapportati alla scala cronologica. |
-| end | DateTime | La data di fine per i dati rapportati alla scala cronologica. |
-| timephasedType | TimephasedDataType | Il tipo di dati rapportati alla scala temporale ([`TimephasedDataType`](../../timephaseddatatype/)). |
+| inizio | DateTime | La data di inizio per i dati time phased. |
+| fine | DateTime | La data di fine per i dati time phased. |
+| timephasedType | TimephasedDataType | Il tipo di dati time phased ([`TimephasedDataType`](../../timephaseddatatype/)). |
 
 ### Valore di ritorno
 
-UN[`TimephasedDataCollection`](../../timephaseddatacollection/) oggetto con[`TimephasedData`](../timephaseddata/) valori all'interno delle date di inizio e di fine specificate del tipo di dati rapportato alla scala cronologica specificato.
+Un oggetto [`TimephasedDataCollection`](../../timephaseddatacollection/) con valori [`TimephasedData`](../timephaseddata/) entro le date di inizio e fine specificate per il tipo di dati timephased.
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere i dati timephased (con tipo specifico) dell'attività.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate).AddDays(2), TimephasedDataType.TaskBaselineWork)
+    .ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
+### Vedi anche
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-Ritorna[`TimephasedDataCollection`](../../timephaseddatacollection/) oggetto con[`TimephasedData`](../timephaseddata/) valori entro determinate date di inizio e fine.
+Restituisce l'oggetto [`TimephasedDataCollection`](../../timephaseddatacollection/) con valori [`TimephasedData`](../timephaseddata/) entro le date di inizio e fine specificate.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -45,18 +63,34 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| start | DateTime | La data di inizio per i dati rapportati alla scala cronologica. |
-| end | DateTime | La data di fine per i dati rapportati alla scala cronologica. |
+| inizio | DateTime | La data di inizio per i dati time phased. |
+| fine | DateTime | La data di fine per i dati time phased. |
 
 ### Valore di ritorno
 
-Lista di[`TimephasedData`](../../timephaseddata/) da compilare.
+Elenco di [`TimephasedData`](../../timephaseddata/) da compilare.
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere i dati timephased (con tipo TaskWork) dell'attività.
+
+```csharp
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)).ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
+### Vedi anche
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

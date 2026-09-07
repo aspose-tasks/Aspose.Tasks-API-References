@@ -1,23 +1,23 @@
 ---
-title: PrimaveraReadOptions.PrimaveraReadOptions
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraReadOptions costruttore. Inizializza una nuova istanza diPrimaveraReadOptions classe.
+title: "PrimaveraReadOptions.PrimaveraReadOptions"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore PrimaveraReadOptions. Inizializza una nuova istanza della classe PrimaveraReadOptions"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/primaverareadoptions/primaverareadoptions/
 ---
 ## PrimaveraReadOptions constructor
 
-Inizializza una nuova istanza di[`PrimaveraReadOptions`](../) classe.
+Inizializza una nuova istanza della classe [`PrimaveraReadOptions`](../).
 
 ```csharp
 public PrimaveraReadOptions()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [PrimaveraReadOptions](../)
-* spazio dei nomi [Aspose.Tasks](../../primaverareadoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverareadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

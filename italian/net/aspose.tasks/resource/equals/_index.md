@@ -1,14 +1,14 @@
 ---
-title: Resource.Equals
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource metodo. Restituisce un valore che indica se questa istanza è uguale a unistanza specificata diResource classe.
+title: "Resource.Equals"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Resource. Restituisce un valore che indica se questa istanza è uguale a una specifica istanza della classe Resource"
 type: docs
-weight: 830
+weight: 820
 url: /it/net/aspose.tasks/resource/equals/
 ---
 ## Equals(Resource) {#equals}
 
-Restituisce un valore che indica se questa istanza è uguale a un'istanza specificata di[`Resource`](../) classe.
+Restituisce un valore che indica se questa istanza è uguale a una specifica istanza della classe [`Resource`](../).
 
 ```csharp
 public bool Equals(Resource other)
@@ -16,17 +16,30 @@ public bool Equals(Resource other)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| other | Resource | L'istanza specificata di[`Resource`](../) class da confrontare con questa istanza. |
+| other | Resource | L'istanza specificata della classe [`Resource`](../) da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-**VERO** se l'istanza specificata di[`Resource`](../) class ha lo stesso valore Uid di questa istanza; Altrimenti, **falso**.
+**True** if the specified instance of the [`Resource`](../) class has the same Uid value as this instance; otherwise, **false**.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza della risorsa.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### Vedi anche
 
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +53,29 @@ public override bool Equals(object obj)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Object | L'oggetto da confrontare con questa istanza. |
+| obj | Oggetto | L'oggetto da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-**VERO** se l'oggetto specificato è una risorsa che ha lo stesso valore Uid di questa istanza; Altrimenti, **falso**.
+**True** if the specified object is a Resource that has the same Uid value as this instance; otherwise, **false**.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza della risorsa.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### Vedi anche
 
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

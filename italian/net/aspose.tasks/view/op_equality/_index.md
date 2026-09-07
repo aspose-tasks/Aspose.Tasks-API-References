@@ -1,7 +1,7 @@
 ---
-title: View.op_Equality
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: View metodo. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato.
+title: "View.op_Equality"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo View. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato"
 type: docs
 weight: 170
 url: /it/net/aspose.tasks/view/op_equality/
@@ -23,10 +23,10 @@ public static bool operator ==(View a, View b)
 
 un valore che indica se questa istanza è uguale a un oggetto specificato
 
-### Guarda anche
+### Vedi anche
 
 * class [View](../)
-* spazio dei nomi [Aspose.Tasks](../../view/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

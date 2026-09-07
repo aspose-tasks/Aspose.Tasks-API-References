@@ -1,30 +1,30 @@
 ---
-title: Enum Legend
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.Visualization.Legend enum. Specifica le pagine su cui appare la legenda.
+title: "Enum Legend"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Aspose.Tasks.Visualization.Legend enum. Specifica le possibili opzioni utilizzate durante il rendering della legenda delle visualizzazioni"
 type: docs
-weight: 2840
+weight: 3180
 url: /it/net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration
 
-Specifica le pagine su cui appare la legenda.
+Specifica le possibili opzioni utilizzate durante il rendering della legenda della vista.
 
 ```csharp
 public enum Legend
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| NoLegend | `0` | Nessuna legenda. |
-| AfterLastPage | `1` | La legenda appare dopo l'ultima pagina. |
-| OnEveryPage | `2` | La legenda appare su ogni pagina. |
+| NoLegend | `0` | Nessuna legenda viene renderizzata. |
+| AfterLastPage | `1` | La legenda viene renderizzata su una pagina separata dopo l'ultima pagina delle pagine del progetto. |
+| OnEveryPage | `2` | La legenda viene renderizzata su ogni pagina. |
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

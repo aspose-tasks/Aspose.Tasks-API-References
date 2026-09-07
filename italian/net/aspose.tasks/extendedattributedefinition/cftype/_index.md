@@ -1,7 +1,7 @@
 ---
-title: ExtendedAttributeDefinition.CfType
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ExtendedAttributeDefinition proprietà. Ottiene il tipo di un campo personalizzato.
+title: "ExtendedAttributeDefinition.CfType"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ExtendedAttributeDefinition. Restituisce il tipo di un campo personalizzato"
 type: docs
 weight: 90
 url: /it/net/aspose.tasks/extendedattributedefinition/cftype/
@@ -14,11 +14,57 @@ Ottiene il tipo di un campo personalizzato.
 public CustomFieldType CfType { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con CfType di attributi estesi personalizzati.
+
+```csharp
+var project = new Project(DataDir + "ReadTaskExtendedAttributes.mpp");
+
+// Leggi gli attributi estesi per i task
+foreach (var task in project.RootTask.Children)
+{
+    foreach (var attribute in task.ExtendedAttributes)
+    {
+        Console.WriteLine(attribute.FieldId);
+        Console.WriteLine(attribute.ValueGuid);
+
+        switch (attribute.AttributeDefinition.CfType)
+        {
+            case CustomFieldType.Date:
+            case CustomFieldType.Start:
+            case CustomFieldType.Finish:
+                Console.WriteLine(attribute.DateValue);
+                break;
+            case CustomFieldType.Text:
+                Console.WriteLine(attribute.TextValue);
+                break;
+            case CustomFieldType.Duration:
+                Console.WriteLine(attribute.DurationValue.ToString());
+                break;
+            case CustomFieldType.Cost:
+            case CustomFieldType.Number:
+                Console.WriteLine(attribute.NumericValue);
+                break;
+            case CustomFieldType.Flag:
+                Console.WriteLine(attribute.FlagValue);
+                break;
+            case CustomFieldType.Null:
+            case CustomFieldType.RBS:
+            case CustomFieldType.OutlineCode:
+                return;
+            default:
+                return;
+        }
+    }
+}
+```
+
+### Vedi anche
 
 * enum [CustomFieldType](../../customfieldtype/)
 * class [ExtendedAttributeDefinition](../)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

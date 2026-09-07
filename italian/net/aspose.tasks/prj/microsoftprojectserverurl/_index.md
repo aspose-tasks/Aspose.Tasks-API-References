@@ -1,26 +1,38 @@
 ---
-title: Prj.MicrosoftProjectServerURL
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. Determina se un progetto è stato creato da un utente di Project Server anziché da un utente NT.
+title: "Prj.MicrosoftProjectServerURL"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Prj. Determina se un progetto è stato creato da un utente Project Server rispetto a un utente NT"
 type: docs
-weight: 450
+weight: 460
 url: /it/net/aspose.tasks/prj/microsoftprojectserverurl/
 ---
 ## Prj.MicrosoftProjectServerURL field
 
-Determina se un progetto è stato creato da un utente di Project Server anziché da un utente NT.
+Determina se un progetto è stato creato da un utente Project Server rispetto a un utente NT.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MicrosoftProjectServerURL;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Prj.MicrosoftProjectServerURL.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MicrosoftProjectServerURL, true);
+
+Console.WriteLine("Microsoft Project Server U R L: " + project.Get(Prj.MicrosoftProjectServerURL));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

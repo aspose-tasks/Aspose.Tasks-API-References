@@ -1,14 +1,14 @@
 ---
-title: TaskLink.GetHashCode
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: TaskLink metodo. Restituisce un valore di codice hash per listanza diTaskLink classe.
+title: "TaskLink.GetHashCode"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "TaskLink metodo. Restituisce un valore di codice hash per l'istanza della classe TaskLink"
 type: docs
 weight: 100
 url: /it/net/aspose.tasks/tasklink/gethashcode/
 ---
 ## TaskLink.GetHashCode method
 
-Restituisce un valore di codice hash per l'istanza di[`TaskLink`](../) classe.
+Restituisce un valore di codice hash per l'istanza della classe [`TaskLink`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### Valore di ritorno
 
-restituisce un valore di codice hash per questo oggetto.
+restituisce un valore di hash per questo oggetto.
 
-### Guarda anche
+### Vedi anche
 
 * class [TaskLink](../)
-* spazio dei nomi [Aspose.Tasks](../../tasklink/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

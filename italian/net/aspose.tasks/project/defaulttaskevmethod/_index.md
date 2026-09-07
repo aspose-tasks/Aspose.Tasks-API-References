@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultTaskEVMethod
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di DefaultTaskEVMethod.
+title: "Project.DefaultTaskEVMethod"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di DefaultTaskEVMethod."
 type: docs
-weight: 330
+weight: 340
 url: /it/net/aspose.tasks/project/defaulttaskevmethod/
 ---
 ## Project.DefaultTaskEVMethod property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di DefaultTaskEVMethod.
 public EarnedValueMethodType DefaultTaskEVMethod { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

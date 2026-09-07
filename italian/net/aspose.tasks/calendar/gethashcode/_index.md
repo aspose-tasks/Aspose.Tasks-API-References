@@ -1,9 +1,9 @@
 ---
-title: Calendar.GetHashCode
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Calendar metodo. Restituisce un codice hash per listanza della classe.
+title: "Calendar.GetHashCode"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Calendar. Restituisce un codice hash per l'istanza della classe."
 type: docs
-weight: 150
+weight: 170
 url: /it/net/aspose.tasks/calendar/gethashcode/
 ---
 ## Calendar.GetHashCode method
@@ -18,10 +18,10 @@ public override int GetHashCode()
 
 un codice hash per questo oggetto.
 
-### Guarda anche
+### Vedi anche
 
 * class [Calendar](../)
-* spazio dei nomi [Aspose.Tasks](../../calendar/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

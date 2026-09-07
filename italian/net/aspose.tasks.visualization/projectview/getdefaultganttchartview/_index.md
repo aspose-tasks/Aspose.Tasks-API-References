@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultGanttChartView
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ProjectView metodo. Include ID indicatori nome durata colonne attività di inizio e fine.
+title: "ProjectView.GetDefaultGanttChartView"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ProjectView. Include gli indicatori id, nome, durata, inizio e fine delle colonne delle attività"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks.visualization/projectview/getdefaultganttchartview/
 ---
 ## ProjectView.GetDefaultGanttChartView method
 
-Include ID, indicatori, nome, durata, colonne attività di inizio e fine.
+Include le colonne id, indicatori, nome, durata, inizio e fine attività.
 
 ```csharp
 public static ProjectView GetDefaultGanttChartView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultGanttChartView()
 
 ### Valore di ritorno
 
-una vista che contiene un elenco di[`GanttChartColumn`](../../ganttchartcolumn/).
+una vista che contiene un elenco di [`GanttChartColumn`](../../ganttchartcolumn/).
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare un progetto con la vista Gantt chart.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultGanttChartView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_GanttChartView_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [ProjectView](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../projectview/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

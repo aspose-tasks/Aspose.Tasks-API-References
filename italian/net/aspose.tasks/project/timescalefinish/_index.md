@@ -1,9 +1,9 @@
 ---
-title: Project.TimescaleFinish
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di TimescaleFinish.
+title: "Project.TimescaleFinish"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di TimescaleFinish"
 type: docs
-weight: 930
+weight: 960
 url: /it/net/aspose.tasks/project/timescalefinish/
 ---
 ## Project.TimescaleFinish property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di TimescaleFinish.
 public DateTime TimescaleFinish { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

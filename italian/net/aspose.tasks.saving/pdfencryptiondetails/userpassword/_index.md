@@ -1,27 +1,62 @@
 ---
-title: PdfEncryptionDetails.UserPassword
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PdfEncryptionDetails proprietà. Ottiene o imposta la password utente.
+title: "PdfEncryptionDetails.UserPassword"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà PdfEncryptionDetails. Ottiene o imposta la password User"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks.saving/pdfencryptiondetails/userpassword/
 ---
 ## PdfEncryptionDetails.UserPassword property
 
-Ottiene o imposta la password utente.
+Ottiene o imposta la password dell'utente.
 
 ```csharp
 public string UserPassword { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-L'apertura del documento con la password utente corretta (o l'apertura di un documento che non dispone di una password utente) consente di eseguire ulteriori operazioni in base ai permessi di accesso utente specificati nel dizionario di crittografia del documento.
+Aprire il documento con la password utente corretta (o aprire un documento che non ha una password utente) consente di eseguire operazioni aggiuntive secondo le autorizzazioni di accesso utente specificate nel dizionario di crittografia del documento.
 
-### Guarda anche
+## Esempi
+
+Mostra come specificare i dettagli di crittografia PDF durante il salvataggio di un progetto come file PDF.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+// specifichiamo i dettagli di crittografia
+var encryptionDetails = new PdfEncryptionDetails(
+    // specifica la password dell'utente
+    "userPassword", 
+    // specifica la password del proprietario
+    "ownerPassword", 
+    // specifica l'algoritmo di crittografia
+    PdfEncryptionAlgorithm.RC4_128);
+
+// specifica le autorizzazioni
+encryptionDetails.Permissions = PdfPermissions.ModifyContents | PdfPermissions.ModifyAnnotations;
+
+// mostra le password dell'utente e del proprietario
+Console.WriteLine("User Password: " + encryptionDetails.UserPassword);
+Console.WriteLine("Owner Password: " + encryptionDetails.OwnerPassword);
+// mostra la modalità di crittografia: RC4_40 o RC4_128
+Console.WriteLine("Encryption Algorithm: " + encryptionDetails.EncryptionAlgorithm);
+Console.WriteLine("Permissions: " + encryptionDetails.Permissions);
+
+var options = new PdfSaveOptions
+{
+    EncryptionDetails = encryptionDetails
+};
+
+// salva il progetto con i dettagli di crittografia specificati
+project.Save(OutDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [PdfEncryptionDetails](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../pdfencryptiondetails/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfencryptiondetails/)
+* assembly [Aspose.Tasks](../../../)
 
 

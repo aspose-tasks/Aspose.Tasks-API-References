@@ -1,24 +1,50 @@
 ---
-title: AssignmentViewColumn.Field
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: AssignmentViewColumn proprietà. Campo colonna. Field .
+title: "AssignmentViewColumn.Field"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà AssignmentViewColumn. Campo colonna. Field"
 type: docs
 weight: 20
 url: /it/net/aspose.tasks.visualization/assignmentviewcolumn/field/
 ---
 ## AssignmentViewColumn.Field property
 
-Campo colonna. `Field` .
+Campo colonna. `Field`.
 
 ```csharp
 public override Field Field { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come aggiungere colonne per le visualizzazioni delle assegnazioni.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### Vedi anche
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [AssignmentViewColumn](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

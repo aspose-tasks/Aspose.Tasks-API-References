@@ -1,23 +1,23 @@
 ---
-title: OleObject.OleObject
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: OleObject costruttore. Inizializza una nuova istanza diOleObject classe.
+title: "OleObject.OleObject"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore OleObject. Inizializza una nuova istanza della classe OleObject"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/oleobject/oleobject/
 ---
 ## OleObject constructor
 
-Inizializza una nuova istanza di[`OleObject`](../) classe.
+Inizializza una nuova istanza della classe [`OleObject`](../).
 
 ```csharp
 public OleObject()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [OleObject](../)
-* spazio dei nomi [Aspose.Tasks](../../oleobject/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../oleobject/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: WorkingTimeCollection.Contains
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: WorkingTimeCollection metodo. Controlla se lelemento specificato è nella lista. Esegue una ricerca On lineare.
+title: "WorkingTimeCollection.Contains"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "WorkingTimeCollection metodo. Verifica se l'elemento specificato è nella Lista. Esegue una ricerca lineare"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks/workingtimecollection/contains/
 ---
 ## WorkingTimeCollection.Contains method
 
-Controlla se l'elemento specificato è nella lista. Esegue una ricerca O(n) lineare.
+Verifica se l'elemento specificato è nella Lista. Esegue una ricerca lineare O(n).
 
 ```csharp
 public bool Contains(WorkingTime item)
@@ -16,17 +16,17 @@ public bool Contains(WorkingTime item)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| item | WorkingTime | l'elemento specificato. |
+| elemento | WorkingTime | l'elemento specificato. |
 
 ### Valore di ritorno
 
-True, se l'elemento specificato viene trovato nell'elenco, false in caso contrario.
+True, se l'elemento specificato è trovato nella lista, false altrimenti.
 
-### Guarda anche
+### Vedi anche
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../workingtimecollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

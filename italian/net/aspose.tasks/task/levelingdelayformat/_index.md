@@ -1,7 +1,7 @@
 ---
-title: Task.LevelingDelayFormat
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di LevelingDelayFormat.
+title: "LevelingDelayFormat"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Ottiene o imposta un valore di LevelingDelayFormat."
 type: docs
 weight: 820
 url: /it/net/aspose.tasks/task/levelingdelayformat/
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di LevelingDelayFormat.
 public TimeUnitType LevelingDelayFormat { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
-* enum [TimeUnitType](../../timeunittype/)
-* class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* enum [TimeUnitType](../../timeunittype)
+* class [Task](../../task)
+* namespace [Aspose.Tasks](../../task)
+* assembly [Aspose.Tasks](../../../)
 
-
+<!-- NON MODIFICARE: generato da xmldocmd per Aspose.Tasks.dll -->

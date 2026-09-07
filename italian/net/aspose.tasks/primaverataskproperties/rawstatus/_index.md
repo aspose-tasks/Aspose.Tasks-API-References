@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawStatus
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraTaskProperties proprietà. Ottiene la rappresentazione del testo non elaborato come nel file di origine del campo Stato dellattività.
+title: "PrimaveraTaskProperties.RawStatus"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "PrimaveraTaskProperties proprietà. Ottiene la rappresentazione del testo grezzo così come nel file sorgente del campo Stato dell'attività"
 type: docs
-weight: 90
+weight: 250
 url: /it/net/aspose.tasks/primaverataskproperties/rawstatus/
 ---
 ## PrimaveraTaskProperties.RawStatus property
 
-Ottiene la rappresentazione del testo non elaborato (come nel file di origine) del campo "Stato" dell'attività.
+Ottiene la rappresentazione del testo grezzo (come nel file sorgente) del campo 'Status' dell'attività.
 
 ```csharp
 public string RawStatus { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Applicabile solo alle attività (compiti non di riepilogo).
+Applicabile solo alle attività (attività non riepilogo).
 
-### Guarda anche
+### Vedi anche
 
 * class [PrimaveraTaskProperties](../)
-* spazio dei nomi [Aspose.Tasks](../../primaverataskproperties/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

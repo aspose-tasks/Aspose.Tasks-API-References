@@ -1,25 +1,37 @@
 ---
-title: Prj.CriticalSlackLimit
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. Il numero di giorni alla fine di unattività quando Microsoft Project contrassegna tale attività come attività critica.
+title: "Prj.CriticalSlackLimit"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Prj field. Le attività sono considerate critiche da MS Project se il margine totale è inferiore o uguale a questo numero di giorni"
 type: docs
-weight: 130
+weight: 140
 url: /it/net/aspose.tasks/prj/criticalslacklimit/
 ---
 ## Prj.CriticalSlackLimit field
 
-Il numero di giorni alla fine di un'attività quando Microsoft Project contrassegna tale attività come attività critica.
+Le attività sono considerate critiche da MS Project se il margine totale è inferiore o uguale a questo numero di giorni.
 
 ```csharp
 public static readonly Key<int, PrjKey> CriticalSlackLimit;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Prj.CriticalSlackLimit.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CriticalSlackLimit, 2);
+
+Console.WriteLine("Critical Slack Limit: " + project.Get(Prj.CriticalSlackLimit));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

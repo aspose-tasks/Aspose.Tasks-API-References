@@ -1,14 +1,14 @@
 ---
-title: RiskPatternCollection.Add
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: RiskPatternCollection metodo. Aggiunge unistanza diRiskPattern classe a questa raccolta.
+title: "RiskPatternCollection.Add"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo RiskPatternCollection. Aggiunge un'istanza della classe RiskPattern a questa raccolta"
 type: docs
 weight: 40
 url: /it/net/aspose.tasks.riskanalysis/riskpatterncollection/add/
 ---
 ## RiskPatternCollection.Add method
 
-Aggiunge un'istanza di[`RiskPattern`](../../riskpattern/) classe a questa raccolta.
+Aggiunge un'istanza della classe [`RiskPattern`](../../riskpattern/) a questa raccolta.
 
 ```csharp
 public void Add(RiskPattern item)
@@ -16,19 +16,105 @@ public void Add(RiskPattern item)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| item | RiskPattern | un'istanza di[`RiskPattern`](../../riskpattern/) classe da aggiungere a questa raccolta. |
+| item | RiskPattern | un'istanza della classe [`RiskPattern`](../../riskpattern/) da aggiungere a questa raccolta. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | *item* compito è nullo. |
+| ArgumentNullException | *item* task è null. |
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le collezioni di pattern di rischio.
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    // Imposta il numero di iterazioni per la simulazione Monte Carlo (il valore predefinito è 100).
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task1 = project.RootTask.Children.GetById(17);
+var task2 = project.RootTask.Children.GetById(18);
+
+// per quanto riguarda RiskPatternCollection, non è di sola lettura
+Console.WriteLine("Is pattern collection read-only?: " + settings.Patterns.IsReadOnly);
+
+// si possono aggiungere nuovi pattern
+var pattern1 = new RiskPattern(task1)
+{
+    Distribution = ProbabilityDistributionType.Normal,
+    Optimistic = 60,
+    Pessimistic = 140,
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+var pattern2 = new RiskPattern(task2)
+{
+    Distribution = ProbabilityDistributionType.Normal,
+    Optimistic = 70,
+    Pessimistic = 130,
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+
+settings.Patterns.Add(pattern1);
+settings.Patterns.Add(pattern2);
+
+// iterare sui pattern aggiunti
+Console.WriteLine("Patterns count: " + settings.Patterns.Count);
+foreach (var pattern in settings.Patterns)
+{
+    Console.WriteLine("Task: " + pattern.Task);
+    Console.WriteLine("Distribution: " + pattern.Distribution);
+    Console.WriteLine("Optimistic: " + pattern.Optimistic);
+    Console.WriteLine("Pessimistic: " + pattern.Pessimistic);
+    Console.WriteLine("Confidence Level: " + pattern.ConfidenceLevel);
+    Console.WriteLine();
+}
+
+// modifica il pattern nella collezione usando l'accesso per indice
+settings.Patterns[task1].Optimistic = 70;
+settings.Patterns[task1].Pessimistic = 140;
+
+// verifica i pattern dopo le modifiche
+Console.WriteLine("Print edited patterns: ");
+foreach (var pattern in settings.Patterns)
+{
+    Console.WriteLine("Task: " + pattern.Task);
+    Console.WriteLine("Distribution: " + pattern.Distribution);
+    Console.WriteLine("Optimistic: " + pattern.Optimistic);
+    Console.WriteLine("Pessimistic: " + pattern.Pessimistic);
+    Console.WriteLine("Confidence Level: " + pattern.ConfidenceLevel);
+    Console.WriteLine();
+}
+
+// possiamo rimuovere il pattern
+Console.WriteLine("Removing the first pattern...");
+settings.Patterns.Remove(pattern1);
+
+// verifica che il pattern non sia nella collezione
+Console.WriteLine("Is collection contains the first pattern?: " + settings.Patterns.Contains(pattern1));
+
+// è possibile svuotare la collezione in due modi
+
+// copia i pattern nell'array e cancellali uno per uno
+var patterns = new RiskPattern[settings.Patterns.Count];
+settings.Patterns.CopyTo(patterns, 0);
+foreach (var pattern in patterns)
+{
+    settings.Patterns.Remove(pattern);
+}
+
+// oppure si può svuotare completamente una collezione di pattern
+settings.Patterns.Clear();
+```
+
+### Vedi anche
 
 * class [RiskPattern](../../riskpattern/)
 * class [RiskPatternCollection](../)
-* spazio dei nomi [Aspose.Tasks.RiskAnalysis](../../riskpatterncollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.RiskAnalysis](../../riskpatterncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,35 @@
 ---
-title: HtmlSaveOptions.CssStylePrefix
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: HtmlSaveOptions proprietà. Ottiene o imposta il prefisso di stile CSS.
+title: "HtmlSaveOptions.CssStylePrefix"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà HtmlSaveOptions. Ottiene o imposta il prefisso di stile CSS"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks.saving/htmlsaveoptions/cssstyleprefix/
 ---
 ## HtmlSaveOptions.CssStylePrefix property
 
-Ottiene o imposta il prefisso di stile CSS.
+Ottiene o imposta il prefisso dello stile CSS.
 
 ```csharp
 public string CssStylePrefix { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come impostare un prefisso comune per gli stili CSS utilizzati durante l'esportazione in HTML.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new HtmlSaveOptions { CssStylePrefix = "test_prefix" };
+
+project.Save(OutDir + "TestCssStylePrefix_out.html", options);
+```
+
+### Vedi anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

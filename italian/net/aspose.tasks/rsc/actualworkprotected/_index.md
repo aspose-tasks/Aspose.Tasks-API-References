@@ -1,7 +1,7 @@
 ---
-title: Rsc.ActualWorkProtected
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. La quantità di lavoro attraverso la quale il lavoro effettivo è protetto.
+title: "Rsc.ActualWorkProtected"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. La quantità di lavoro attraverso la quale il lavoro effettivo è protetto"
 type: docs
 weight: 80
 url: /it/net/aspose.tasks/rsc/actualworkprotected/
@@ -14,13 +14,28 @@ La quantità di lavoro attraverso la quale il lavoro effettivo è protetto.
 public static readonly Key<Duration, RscKey> ActualWorkProtected;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Rsc.ActualWorkProtected.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualWorkProtected, project.GetWork(1));
+
+Console.WriteLine("Actual Work Protected: " + resource.Get(Rsc.ActualWorkProtected));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

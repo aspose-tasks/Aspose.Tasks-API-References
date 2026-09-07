@@ -1,9 +1,9 @@
 ---
-title: Tsk.ExternalTaskProject
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. La posizione di origine e lidentificatore dellattività di unattività esterna.
+title: "Tsk.ExternalTaskProject"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. La posizione di origine e l'identificatore dell'attività di un'attività esterna"
 type: docs
-weight: 380
+weight: 370
 url: /it/net/aspose.tasks/tsk/externaltaskproject/
 ---
 ## Tsk.ExternalTaskProject field
@@ -14,12 +14,12 @@ La posizione di origine e l'identificatore dell'attività di un'attività estern
 public static readonly Key<string, TaskKey> ExternalTaskProject;
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

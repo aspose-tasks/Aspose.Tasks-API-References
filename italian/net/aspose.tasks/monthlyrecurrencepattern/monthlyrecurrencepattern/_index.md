@@ -1,23 +1,48 @@
 ---
-title: MonthlyRecurrencePattern.MonthlyRecurrencePattern
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: MonthlyRecurrencePattern costruttore. Inizializza una nuova istanza diMonthlyRecurrencePattern classe.
+title: "MonthlyRecurrencePattern.MonthlyRecurrencePattern"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore MonthlyRecurrencePattern. Inizializza una nuova istanza della classe MonthlyRecurrencePattern"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/monthlyrecurrencepattern/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern constructor
 
-Inizializza una nuova istanza di[`MonthlyRecurrencePattern`](../) classe.
+Inizializza una nuova istanza della classe [`MonthlyRecurrencePattern`](../).
 
 ```csharp
 public MonthlyRecurrencePattern()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le ripetizioni del modello di ricorrenza mensile durante la creazione di attività ricorrenti.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new MonthlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByMonthDayRepetition { DayPosition = 1, RepetitionInterval = 2 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 9, 30, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Vedi anche
 
 * class [MonthlyRecurrencePattern](../)
-* spazio dei nomi [Aspose.Tasks](../../monthlyrecurrencepattern/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../monthlyrecurrencepattern/)
+* assembly [Aspose.Tasks](../../../)
 
 

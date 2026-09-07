@@ -1,23 +1,48 @@
 ---
-title: OutlineCode.ValueGuid
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: OutlineCode proprietà. Ottiene o imposta il GUID del valore nellelenco valori. ValueGuid corrisponde a FieldGuid nellelenco valori.
+title: "OutlineCode.ValueGuid"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà OutlineCode. Ottiene o imposta il GUID del valore nella lista dei valori. Il ValueGuid corrisponde al FieldGuid nella lista dei valori"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/outlinecode/valueguid/
 ---
 ## OutlineCode.ValueGuid property
 
-Ottiene o imposta il GUID del valore nell'elenco valori. ValueGuid corrisponde a FieldGuid nell'elenco valori.
+Ottiene o imposta il GUID del valore nella lista dei valori. Il ValueGuid corrisponde al FieldGuid nella lista dei valori.
 
 ```csharp
 public string ValueGuid { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i codici di outline delle attività.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// leggi i codici di outline
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
+
+### Vedi anche
 
 * class [OutlineCode](../)
-* spazio dei nomi [Aspose.Tasks](../../outlinecode/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecode/)
+* assembly [Aspose.Tasks](../../../)
 
 

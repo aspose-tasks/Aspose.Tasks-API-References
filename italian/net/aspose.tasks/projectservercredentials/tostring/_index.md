@@ -1,14 +1,14 @@
 ---
-title: ProjectServerCredentials.ToString
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ProjectServerCredentials metodo. Restituisce una rappresentazione in forma di stringa di questa istanza.
+title: "ProjectServerCredentials.ToString"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "ProjectServerCredentials method. Restituisce una rappresentazione stringa di questa istanza"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks/projectservercredentials/tostring/
 ---
 ## ProjectServerCredentials.ToString method
 
-Restituisce una rappresentazione in forma di stringa di questa istanza.
+Restituisce una rappresentazione stringa di questa istanza.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,12 @@ public override string ToString()
 
 ### Valore di ritorno
 
-una rappresentazione di stringa di questa istanza.
+una rappresentazione stringa di questa istanza.
 
-### Guarda anche
+### Vedi anche
 
 * class [ProjectServerCredentials](../)
-* spazio dei nomi [Aspose.Tasks](../../projectservercredentials/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 
