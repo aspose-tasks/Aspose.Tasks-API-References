@@ -1,23 +1,36 @@
 ---
-title: XamlOptions.XamlOptions
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: XamlOptions costruttore. Inizializza una nuova istanza diXamlOptions classe che può essere utilizzata per salvare il progetto in formato XAML.
+title: "XamlOptions.XamlOptions"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore XamlOptions. Inizializza una nuova istanza della classe XamlOptions che può essere usata per salvare il progetto in formato XAML"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.saving/xamloptions/xamloptions/
 ---
 ## XamlOptions constructor
 
-Inizializza una nuova istanza di[`XamlOptions`](../) classe che può essere utilizzata per salvare il progetto in formato XAML.
+Inizializza una nuova istanza della classe [`XamlOptions`](../) che può essere usata per salvare il progetto in formato XAML.
 
 ```csharp
 public XamlOptions()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare un progetto in formato XAML utilizzando le opzioni di salvataggio.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new XamlOptions();
+options.FitContent = true;
+options.LegendDrawingOptions = LegendDrawingOptions.NoLegend;
+options.Timescale = Timescale.ThirdsOfMonths;
+project.Save(OutDir + "RenderXAMLWithOptions_out.xaml", options);
+```
+
+### Vedi anche
 
 * class [XamlOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../xamloptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xamloptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

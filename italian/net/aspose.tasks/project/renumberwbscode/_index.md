@@ -1,30 +1,58 @@
 ---
-title: Project.RenumberWBSCode
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project metodo. Rinumera il codice WBS di tutte le attività.
+title: "Project.RenumberWBSCode"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Project. Rinumera il codice WBS di tutti i task"
 type: docs
-weight: 1160
+weight: 1180
 url: /it/net/aspose.tasks/project/renumberwbscode/
 ---
 ## RenumberWBSCode() {#renumberwbscode}
 
-Rinumera il codice WBS di tutte le attività.
+Rinumerare il codice WBS di tutte le attività.
 
 ```csharp
 public void RenumberWBSCode()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come rinumerare i codici WBS dei task.
+
+```csharp
+var project = new Project(DataDir + "RenumberExample.mpp");
+
+IEnumerable<Task> tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+
+Console.WriteLine("WBS codes before: ");
+
+// output: ""; "1"; "2"; "4"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+
+project.RenumberWBSCode();
+
+Console.WriteLine("\nWBS codes after: ");
+
+// output: ""; "1"; "2"; "3"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+```
+
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## RenumberWBSCode(List&lt;int&gt;) {#renumberwbscode_1}
 
-Rinumera il codice WBS delle attività passate.
+Rinumerare il codice WBS delle attività superate.
 
 ```csharp
 public void RenumberWBSCode(List<int> taskIds)
@@ -32,12 +60,40 @@ public void RenumberWBSCode(List<int> taskIds)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| taskIds | List`1 | Identificatori di attività per rinumerare i codici WBS. |
+| taskIds | List`1 | Identificatori dei task per rinumerare i codici WBS. |
 
-### Guarda anche
+## Esempi
+
+Mostra come rinumerare i codici WBS dei task selezionati.
+
+```csharp
+var project = new Project(DataDir + "RenumberExample.mpp");
+
+var tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+
+Console.WriteLine("WBS codes before: ");
+
+// output: ""; "1"; "2"; "4"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+
+project.RenumberWBSCode(new List<int> { 1, 2, 3 });
+
+Console.WriteLine("\nWBS codes after: ");
+
+// output: ""; "1"; "2"; "3"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+```
+
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

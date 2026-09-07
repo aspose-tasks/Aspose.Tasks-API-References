@@ -1,7 +1,7 @@
 ---
-title: PrimaveraReadOptions.PreserveUids
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraReadOptions proprietà. Ottiene o imposta un flag che specifica se gli identificatori univoci originali delle entità devono essere conservati.
+title: "PrimaveraReadOptions.PreserveUids"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà PrimaveraReadOptions. Ottiene o imposta un flag che specifica se gli identificatori univoci originali delle entità devono essere preservati"
 type: docs
 weight: 20
 url: /it/net/aspose.tasks/primaverareadoptions/preserveuids/
@@ -14,10 +14,33 @@ Ottiene o imposta un flag che specifica se gli identificatori univoci originali 
 public bool PreserveUids { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come caricare un progetto Primavera con l'Id specificato utilizzando &lt;see cref="LoadOptions" /&gt;.
+
+```csharp
+var loadOptions = new LoadOptions();
+
+var primaveraOptions = new PrimaveraReadOptions()
+{
+    ProjectUid = 3882,
+    UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
+    PreserveUids = true
+};
+
+// imposta le opzioni di lettura di Primavera
+loadOptions.PrimaveraReadOptions = primaveraOptions;
+
+var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
+Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+
+// lavorare con il progetto...
+```
+
+### Vedi anche
 
 * class [PrimaveraReadOptions](../)
-* spazio dei nomi [Aspose.Tasks](../../primaverareadoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverareadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

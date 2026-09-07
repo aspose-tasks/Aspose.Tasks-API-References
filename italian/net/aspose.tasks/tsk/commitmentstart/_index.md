@@ -1,7 +1,7 @@
 ---
-title: Tsk.CommitmentStart
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. La data di inizio di una consegna. Lettura supportata solo per il formato XML.
+title: "Tsk.CommitmentStart"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. La data di inizio di una consegna. Lettura supportata solo per il formato XML."
 type: docs
 weight: 180
 url: /it/net/aspose.tasks/tsk/commitmentstart/
@@ -14,12 +14,26 @@ La data di inizio di una consegna. Lettura supportata solo per il formato XML.
 public static readonly Key<DateTime, TaskKey> CommitmentStart;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Tsk.CommitmentStart.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.CommitmentStart, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Commitment Start: " + task.Get(Tsk.CommitmentStart));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

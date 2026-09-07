@@ -1,7 +1,7 @@
 ---
-title: Enum FileFormat
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.FileFormat enum. Specifica il formato file del progetto.
+title: "Enum FileFormat"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Aspose.Tasks.FileFormat enum. Specifica il formato file dei progetti"
 type: docs
 weight: 590
 url: /it/net/aspose.tasks/fileformat/
@@ -14,13 +14,13 @@ Specifica il formato file del progetto.
 public enum FileFormat
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Undefined | `0` | Non può essere definito. |
-| P6XML | `1` | Rappresenta il formato XML Primavera P6. |
-| XML | `2` | Formato Microsoft Project XML. |
+| P6XML | `1` | Rappresenta il formato XML di Primavera P6. |
+| XML | `2` | Formato XML di Microsoft Project. |
 | MPP8 | `3` | Formato Microsoft Project 2000. |
 | MPP9 | `4` | Formato Microsoft Project 2003. |
 | MPP12 | `5` | Formato Microsoft Project 2007. |
@@ -33,9 +33,20 @@ public enum FileFormat
 | HTML | `12` | Rappresenta il formato HTML |
 | ProjectServer | `13` | Il progetto è stato letto da Project Server o Project Online |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come leggere il formato del file di verifica del progetto.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

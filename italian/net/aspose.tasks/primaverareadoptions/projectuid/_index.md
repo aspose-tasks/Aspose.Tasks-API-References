@@ -1,7 +1,7 @@
 ---
-title: PrimaveraReadOptions.ProjectUid
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraReadOptions proprietà. Ottiene o imposta lUID di un progetto da leggere da un file contenente più progetti.
+title: "PrimaveraReadOptions.ProjectUid"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà PrimaveraReadOptions. Ottiene o imposta l'UID di un progetto da leggere da un file contenente più progetti"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/primaverareadoptions/projectuid/
@@ -14,10 +14,23 @@ Ottiene o imposta l'UID di un progetto da leggere da un file contenente più pro
 public int ProjectUid { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere un progetto da un file Primavera XML o Primavera XER contenente più progetti.
+
+```csharp
+var options = new PrimaveraReadOptions();
+options.ProjectUid = 3881;
+
+// Restituisce il progetto con UID speciale
+var project = new Project(DataDir + "PrimaveraProject.xml", options);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### Vedi anche
 
 * class [PrimaveraReadOptions](../)
-* spazio dei nomi [Aspose.Tasks](../../primaverareadoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverareadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

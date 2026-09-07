@@ -1,28 +1,63 @@
 ---
-title: Resource.OutlineCode
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene un oggetto OutlineCodeCollection. Il valore di un codice struttura.
+title: "Resource.OutlineCode"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Resource. Ottiene un oggetto OutlineCodeCollection. Il valore di un codice di struttura"
 type: docs
-weight: 550
+weight: 540
 url: /it/net/aspose.tasks/resource/outlinecode/
 ---
 ## Resource.OutlineCode property
 
-Ottiene un oggetto OutlineCodeCollection. Il valore di un codice struttura.
+Ottiene un oggetto OutlineCodeCollection. Il valore di un codice di contorno.
 
 ```csharp
 public OutlineCodeCollection OutlineCode { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Sono necessari due pezzi di dati: un puntatore alla tabella dei codici struttura che è specificato da FieldID e il valore specificato da il puntatore ValueID o ValueGUID all'elenco dei valori.
+Sono necessari due dati - un puntatore alla tabella dei codici di struttura specificata dal FieldID, e il valore specificato o dal puntatore ValueID o ValueGUID all'elenco dei valori.
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con i valori di struttura delle risorse.
+
+```csharp
+var project = new Project(DataDir + "OutlineCodes2003.mpp");
+
+var res = project.Resources.GetById(2);
+Assert.AreEqual(2, res.OutlineCode.Count);
+foreach (var code in res.OutlineCode)
+{
+    object val = null;
+    foreach (var def in project.OutlineCodes)
+    {
+        if (def.FieldId != code.FieldId)
+        {
+            continue;
+        }
+
+        foreach (var value in def.Values)
+        {
+            if (value.ValueId != code.ValueId)
+            {
+                continue;
+            }
+
+            val = value.Value;
+            break;
+        }
+    }
+
+    Console.WriteLine(val.ToString());
+}
+```
+
+### Vedi anche
 
 * class [OutlineCodeCollection](../../outlinecodecollection/)
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

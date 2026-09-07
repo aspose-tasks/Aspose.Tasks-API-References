@@ -1,26 +1,37 @@
 ---
-title: Prj.NewTaskStartDate
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. Il tipo di data di inizio predefinito per le nuove attività.
+title: "Prj.NewTaskStartDate"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Prj. Il tipo di data di inizio predefinita per le nuove attività"
 type: docs
-weight: 570
+weight: 580
 url: /it/net/aspose.tasks/prj/newtaskstartdate/
 ---
 ## Prj.NewTaskStartDate field
 
-Il tipo di data di inizio predefinito per le nuove attività.
+Il tipo di data di inizio predefinita per le nuove attività.
 
 ```csharp
 public static readonly Key<TaskStartDateType, PrjKey> NewTaskStartDate;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come impostare gli attributi per i nuovi task.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskStartDateType](../../taskstartdatetype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

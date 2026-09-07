@@ -1,14 +1,14 @@
 ---
-title: PrimaveraXmlReader.GetProjectUids
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraXmlReader metodo. Restituisce un elenco degli identificatori univoci dei progetti.
+title: "GetProjectUids"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Restituisce un elenco degli identificatori univoci dei progetti."
 type: docs
 weight: 20
 url: /it/net/aspose.tasks/primaveraxmlreader/getprojectuids/
 ---
 ## PrimaveraXmlReader.GetProjectUids method
 
-Restituisce un elenco degli identificatori univoci dei progetti.
+Restituisci un elenco degli identificatori univoci dei progetti.
 
 ```csharp
 public List<int> GetProjectUids()
@@ -18,10 +18,23 @@ public List<int> GetProjectUids()
 
 Elenco degli identificatori univoci dei progetti.
 
-### Guarda anche
+### Esempi
 
-* class [PrimaveraXmlReader](../)
-* spazio dei nomi [Aspose.Tasks](../../primaveraxmlreader/)
-* assemblea [Aspose.Tasks](../../../)
+Mostra come importare un progetto da un file XML Primavera.
 
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "primavera.xml");
+List<int> projectUids = reader.GetProjectUids();
+foreach (var projectUid in projectUids)
+{
+    Console.WriteLine("Project UID: " + projectUid);
+}
+```
 
+### Vedi anche
+
+* class [PrimaveraXmlReader](../../primaveraxmlreader)
+* namespace [Aspose.Tasks](../../primaveraxmlreader)
+* assembly [Aspose.Tasks](../../../)
+
+<!-- NON MODIFICARE: generato da xmldocmd per Aspose.Tasks.dll -->

@@ -1,23 +1,23 @@
 ---
-title: SaveOptions.FitTimescaleToEndOfPage
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: SaveOptions proprietà. Ottiene o imposta se il rendering di una sezione del calendario di una vista deve essere eseguito alla fine lato destro dellultima pagina. Se il valore è false il rendering della sezione del calendario viene eseguito esattamente su EndDate anche in presenza di uno spazio vuoto in una pagina.
+title: "SaveOptions.FitTimescaleToEndOfPage"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà SaveOptions. Ottiene o imposta se una sezione calendario di una vista deve essere renderizzata fino all'estremità destra dell'ultima pagina. Se il valore è false, la sezione calendario è renderizzata esattamente fino a EndDate anche se c'è uno spazio vuoto nella pagina"
 type: docs
 weight: 60
 url: /it/net/aspose.tasks.saving/saveoptions/fittimescaletoendofpage/
 ---
 ## SaveOptions.FitTimescaleToEndOfPage property
 
-Ottiene o imposta se il rendering di una sezione del calendario di una vista deve essere eseguito alla fine (lato destro) dell'ultima pagina. Se il valore è false, il rendering della sezione del calendario viene eseguito esattamente su EndDate, anche in presenza di uno spazio vuoto in una pagina.
+Ottiene o imposta se una sezione calendario di una vista deve essere renderizzata fino alla fine (lato destro) dell'ultima pagina. Se il valore è false, la sezione calendario è renderizzata esattamente fino a EndDate, anche se c'è uno spazio vuoto nella pagina.
 
 ```csharp
 public bool FitTimescaleToEndOfPage { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../saveoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

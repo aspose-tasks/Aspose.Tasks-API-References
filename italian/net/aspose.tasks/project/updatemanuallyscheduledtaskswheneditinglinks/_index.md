@@ -1,9 +1,9 @@
 ---
-title: Project.UpdateManuallyScheduledTasksWhenEditingLinks
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore che indica se UpdateManuallyScheduledTasksWhenEditingLinks è impostato o meno.
+title: "Project.UpdateManuallyScheduledTasksWhenEditingLinks"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore che indica se UpdateManuallyScheduledTasksWhenEditingLinks è impostato o meno"
 type: docs
-weight: 970
+weight: 1000
 url: /it/net/aspose.tasks/project/updatemanuallyscheduledtaskswheneditinglinks/
 ---
 ## Project.UpdateManuallyScheduledTasksWhenEditingLinks property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore che indica se UpdateManuallyScheduledTasksWhenEditin
 public NullableBool UpdateManuallyScheduledTasksWhenEditingLinks { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

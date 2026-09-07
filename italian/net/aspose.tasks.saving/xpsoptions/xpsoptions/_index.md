@@ -1,23 +1,39 @@
 ---
-title: XpsOptions.XpsOptions
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: XpsOptions costruttore. Inizializza una nuova istanza diXpsOptions classe.
+title: "XpsOptions.XpsOptions"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore di XpsOptions. Inizializza una nuova istanza della classe XpsOptions"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.saving/xpsoptions/xpsoptions/
 ---
 ## XpsOptions constructor
 
-Inizializza una nuova istanza di[`XpsOptions`](../) classe.
+Inizializza una nuova istanza della classe [`XpsOptions`](../).
 
 ```csharp
 public XpsOptions()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare il progetto come file XPS.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// crea opzioni di salvataggio XPS e regola i parametri
+var options = new XpsOptions
+{
+    RenderMetafileAsBitmap = true
+};
+
+project.Save(OutDir + "UseSvgOptions_out.xps", options);
+```
+
+### Vedi anche
 
 * class [XpsOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../xpsoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xpsoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

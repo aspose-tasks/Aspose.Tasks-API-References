@@ -1,23 +1,39 @@
 ---
-title: AvailabilityPeriod.AvailabilityPeriod
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: AvailabilityPeriod costruttore. Default_Costruttore
+title: "AvailabilityPeriod.AvailabilityPeriod"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore AvailabilityPeriod. Inizializza una nuova istanza di AvailabilityPeriod"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/availabilityperiod/availabilityperiod/
 ---
-## AvailabilityPeriod constructor
+## AvailabilityPeriod() {#constructor}
 
-Default_Costruttore
+Inizializza una nuova istanza di [`AvailabilityPeriod`](../).
 
 ```csharp
 public AvailabilityPeriod()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [AvailabilityPeriod](../)
-* spazio dei nomi [Aspose.Tasks](../../availabilityperiod/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../availabilityperiod/)
+* assembly [Aspose.Tasks](../../../)
+
+---
+
+## AvailabilityPeriod(DateTime, DateTime, double) {#constructor_1}
+
+Inizializza una nuova istanza di [`AvailabilityPeriod`](../) con l'intervallo di date specificato e le unità disponibili.
+
+```csharp
+public AvailabilityPeriod(DateTime availableFrom, DateTime availableTo, double availableUnits)
+```
+
+### Vedi anche
+
+* class [AvailabilityPeriod](../)
+* namespace [Aspose.Tasks](../../availabilityperiod/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: BarStyle.InsideField
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: BarStyle proprietà. Ottiene o imposta un campo da visualizzare allinterno della barra.
+title: "BarStyle.InsideField"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "BarStyle proprietà. Ottiene o imposta un campo da visualizzare all'interno della barra"
 type: docs
-weight: 90
+weight: 110
 url: /it/net/aspose.tasks.visualization/barstyle/insidefield/
 ---
 ## BarStyle.InsideField property
@@ -14,11 +14,11 @@ Ottiene o imposta un campo da visualizzare all'interno della barra.
 public Field InsideField { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../barstyle/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

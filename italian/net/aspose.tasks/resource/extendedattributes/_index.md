@@ -1,7 +1,7 @@
 ---
-title: Resource.ExtendedAttributes
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene i valori di un attributo esteso.
+title: "Resource.ExtendedAttributes"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Resource. Ottiene i valori di un attributo esteso"
 type: docs
 weight: 320
 url: /it/net/aspose.tasks/resource/extendedattributes/
@@ -14,15 +14,41 @@ Ottiene i valori di un attributo esteso.
 public ExtendedAttributeCollection ExtendedAttributes { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Sono necessari due pezzi di dati: un puntatore alla tabella degli attributi estesi che è specificato dall'ID univoco o dall'ID campo e il valore che è specificato con il valore o un puntatore all'elenco dei valori.
+Sono necessari due dati - un puntatore alla tabella degli attributi estesi, specificata o dall'ID univoco o dal Field ID, e il valore, specificato o con il valore stesso, o con un puntatore alla lista dei valori.
 
-### Guarda anche
+## Esempi
+
+Mostra come aggiungere attributi estesi della risorsa.
+
+```csharp
+var project = new Project(DataDir + "ResourceExtendedAttributes.mpp");
+
+// Definisci attributo esteso
+var definition = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Number1);
+if (definition == null)
+{
+    definition = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Number1, "Age");
+    project.ExtendedAttributes.Add(definition);
+}
+
+// Crea attributo esteso e imposta il suo valore
+var attribute = definition.CreateExtendedAttribute();
+attribute.NumericValue = 30.5345m;
+
+// Aggiungi una nuova risorsa e il suo attributo esteso   
+var resource = project.Resources.Add("R1");
+resource.ExtendedAttributes.Add(attribute);
+
+project.Save(OutDir + "ResourceExtendedAttributes_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Vedi anche
 
 * class [ExtendedAttributeCollection](../../extendedattributecollection/)
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

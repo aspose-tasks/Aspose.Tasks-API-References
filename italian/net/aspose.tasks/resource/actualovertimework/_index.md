@@ -1,7 +1,7 @@
 ---
-title: Resource.ActualOvertimeWork
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene o imposta un valore di ActualOvertimeWork.
+title: "Resource.ActualOvertimeWork"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà di Resource. Ottiene o imposta un valore di ActualOvertimeWork"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks/resource/actualovertimework/
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di ActualOvertimeWork.
 public Duration ActualOvertimeWork { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

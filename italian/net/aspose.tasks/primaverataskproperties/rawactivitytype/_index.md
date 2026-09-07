@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawActivityType
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraTaskProperties proprietà. Ottiene la rappresentazione del testo non elaborato come nel file di origine del campo Tipo di attività dellattività.
+title: "PrimaveraTaskProperties.RawActivityType"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "PrimaveraTaskProperties proprietà. Ottiene la rappresentazione testuale grezza come nel file sorgente del campo Tipo di attività dell'attività"
 type: docs
-weight: 60
+weight: 220
 url: /it/net/aspose.tasks/primaverataskproperties/rawactivitytype/
 ---
 ## PrimaveraTaskProperties.RawActivityType property
 
-Ottiene la rappresentazione del testo non elaborato (come nel file di origine) del campo "Tipo di attività" dell'attività.
+Ottiene la rappresentazione del testo grezzo (come nel file sorgente) del campo 'Activity Type' dell'attività.
 
 ```csharp
 public string RawActivityType { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Applicabile solo alle attività (compiti non di riepilogo).
+Applicabile solo alle attività (attività non riepilogo).
 
-### Guarda anche
+### Vedi anche
 
 * class [PrimaveraTaskProperties](../)
-* spazio dei nomi [Aspose.Tasks](../../primaverataskproperties/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

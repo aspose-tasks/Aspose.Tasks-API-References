@@ -1,24 +1,43 @@
 ---
-title: ResourceAssignment.Baselines
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ResourceAssignment proprietà. Ottiene loggetto AssignmentBaselineCollection. La raccolta di valori di base associati a unassegnazione.
+title: "ResourceAssignment.Baselines"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ResourceAssignment. Ottiene l'oggetto AssignmentBaselineCollection. La raccolta dei valori di baseline associati a un'assegnazione"
 type: docs
 weight: 120
 url: /it/net/aspose.tasks/resourceassignment/baselines/
 ---
 ## ResourceAssignment.Baselines property
 
-Ottiene l'oggetto AssignmentBaselineCollection. La raccolta di valori di base associati a un'assegnazione.
+Ottiene l'oggetto AssignmentBaselineCollection. La collezione di valori di baseline associati a un'assegnazione.
 
 ```csharp
 public AssignmentBaselineCollection Baselines { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come accedere alle baseline dell'assegnazione.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Resource");
+var resourceAssignment = project.ResourceAssignments.Add(task, resource);
+
+project.SetBaseline(BaselineType.Baseline);
+
+foreach (var assignmentBaseline in resourceAssignment.Baselines)
+{
+    Console.WriteLine("Baseline Start: {0}", assignmentBaseline.Start);
+    Console.WriteLine("Baseline Finish: {0}", assignmentBaseline.Finish);
+}
+```
+
+### Vedi anche
 
 * class [AssignmentBaselineCollection](../../assignmentbaselinecollection/)
 * class [ResourceAssignment](../)
-* spazio dei nomi [Aspose.Tasks](../../resourceassignment/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

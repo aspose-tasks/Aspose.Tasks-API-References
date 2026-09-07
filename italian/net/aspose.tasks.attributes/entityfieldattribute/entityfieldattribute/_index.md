@@ -1,23 +1,23 @@
 ---
-title: EntityFieldAttribute.EntityFieldAttribute
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: EntityFieldAttribute costruttore. Default_Costruttore
+title: "EntityFieldAttribute.EntityFieldAttribute"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore EntityFieldAttribute. Il costruttore predefinito"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.attributes/entityfieldattribute/entityfieldattribute/
 ---
 ## EntityFieldAttribute constructor
 
-Default_Costruttore
+Il costruttore predefinito.
 
 ```csharp
 public EntityFieldAttribute()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [EntityFieldAttribute](../)
-* spazio dei nomi [Aspose.Tasks.Attributes](../../entityfieldattribute/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Attributes](../../entityfieldattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

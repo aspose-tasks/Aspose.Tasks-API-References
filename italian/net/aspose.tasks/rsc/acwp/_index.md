@@ -1,7 +1,7 @@
 ---
-title: Rsc.ACWP
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. Il costo effettivo di un lavoro eseguito da una risorsa per il progetto fino ad oggi.
+title: "Rsc.ACWP"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. Il costo reale di un lavoro eseguito da una risorsa per il progetto fino ad oggi"
 type: docs
 weight: 90
 url: /it/net/aspose.tasks/rsc/acwp/
@@ -14,12 +14,40 @@ Il costo effettivo di un lavoro eseguito da una risorsa per il progetto fino ad 
 public static readonly Key<double, RscKey> ACWP;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i costi delle risorse.
+
+```csharp
+var project = new Project(DataDir + "ResourceCosts.mpp");
+
+// Visualizza tutti i costi delle risorse
+foreach (var res in project.Resources)
+{
+    if (res.Get(Rsc.Name) == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine(res.Get(Rsc.Cost));
+    Console.WriteLine(res.Get(Rsc.ACWP));
+    Console.WriteLine(res.Get(Rsc.BCWS));
+    Console.WriteLine(res.Get(Rsc.BCWP));
+
+    // CV = BCWP - ACWP
+    Console.WriteLine(res.Get(Rsc.CV));
+
+    // SV = BCWP - BCWS
+    Console.WriteLine(res.Get(Rsc.SV));
+}
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

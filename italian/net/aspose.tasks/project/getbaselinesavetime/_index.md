@@ -1,14 +1,14 @@
 ---
-title: Project.GetBaselineSaveTime
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project metodo. Restituisce il tempo di salvataggio di base.
+title: "Project.GetBaselineSaveTime"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Project. Restituisce il tempo di salvataggio della baseline"
 type: docs
-weight: 1060
+weight: 1090
 url: /it/net/aspose.tasks/project/getbaselinesavetime/
 ---
 ## Project.GetBaselineSaveTime method
 
-Restituisce il tempo di salvataggio di base.
+Restituisce il tempo di salvataggio della baseline.
 
 ```csharp
 public DateTime GetBaselineSaveTime(BaselineType baselineNumber)
@@ -16,21 +16,37 @@ public DateTime GetBaselineSaveTime(BaselineType baselineNumber)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| baselineNumber | BaselineType | Il numero della linea di base[`BaselineType`](../../baselinetype/). |
+| baselineNumber | BaselineType | Il numero della baseline [`BaselineType`](../../baselinetype/). |
 
 ### Valore di ritorno
 
-La data e l'ora dell'ultimo salvataggio della linea di base.
+La data e l'ora dell'ultimo salvataggio della baseline.
 
-### Osservazioni
+## Osservazioni
 
-Restituisce DateTime.MinValue se la linea di base non è stata salvata.
+Restituisce DateTime.MinValue se la baseline non è stata salvata.
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere il tempo di salvataggio della baseline del progetto.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// imposta tempo di salvataggio della baseline
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
+
+### Vedi anche
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

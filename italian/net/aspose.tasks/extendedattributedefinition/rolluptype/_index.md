@@ -1,28 +1,53 @@
 ---
-title: ExtendedAttributeDefinition.RollupType
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ExtendedAttributeDefinition proprietà. Ottiene o imposta la modalità di calcolo dei rollup.
+title: "ExtendedAttributeDefinition.RollupType"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ExtendedAttributeDefinition. Ottiene o imposta il modo in cui vengono calcolati i rollup"
 type: docs
-weight: 220
+weight: 230
 url: /it/net/aspose.tasks/extendedattributedefinition/rolluptype/
 ---
 ## ExtendedAttributeDefinition.RollupType property
 
-Ottiene o imposta la modalità di calcolo dei rollup.
+Ottiene o imposta il modo in cui vengono calcolati i rollup.
 
 ```csharp
 public RollupType RollupType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Scrittura attualmente supportata solo per il formato Xml.
+La scrittura è attualmente supportata solo per il formato Xml.
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con il tipo di calcolo di una definizione di attributo esteso.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2020, 4, 16, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+// crea una definizione di attributo con tipo 'Formula' dove i valori per le attività foglia e le attività riepilogo sono calcolati usando la formula.
+var calculation = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Date5, null);
+calculation.CalculationType = CalculationType.Formula;
+calculation.SummaryRowsCalculationType = SummaryRowsCalculationType.UseFormula;
+calculation.Formula = "[stARt]";
+project.ExtendedAttributes.Add(calculation);
+
+// crea una definizione di attributo dove i valori per le attività riepilogo sono calcolati usando il tipo di aggregazione 'Average'.
+var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
+lookup.SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup;
+lookup.RollupType = RollupType.Average;
+project.ExtendedAttributes.Add(lookup);
+```
+
+### Vedi anche
 
 * enum [RollupType](../../rolluptype/)
 * class [ExtendedAttributeDefinition](../)
-* spazio dei nomi [Aspose.Tasks](../../extendedattributedefinition/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

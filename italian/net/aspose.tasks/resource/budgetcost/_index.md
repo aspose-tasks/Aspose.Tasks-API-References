@@ -1,7 +1,7 @@
 ---
-title: Resource.BudgetCost
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene o imposta un valore di BudgetCost.
+title: "Resource.BudgetCost"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Resource. Ottiene o imposta un valore di BudgetCost"
 type: docs
 weight: 200
 url: /it/net/aspose.tasks/resource/budgetcost/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di BudgetCost.
 public decimal BudgetCost { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

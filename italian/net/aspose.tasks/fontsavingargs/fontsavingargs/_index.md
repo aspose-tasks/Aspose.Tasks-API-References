@@ -1,23 +1,23 @@
 ---
-title: FontSavingArgs.FontSavingArgs
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: FontSavingArgs costruttore. Default_Costruttore
+title: "FontSavingArgs.FontSavingArgs"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore FontSavingArgs. Il costruttore predefinito"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/fontsavingargs/fontsavingargs/
 ---
 ## FontSavingArgs constructor
 
-Default_Costruttore
+Il costruttore predefinito.
 
 ```csharp
 public FontSavingArgs()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Tasks](../../fontsavingargs/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontsavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

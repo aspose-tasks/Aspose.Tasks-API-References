@@ -1,24 +1,24 @@
 ---
-title: PdfSaveOptions.PageSavingCallback
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PdfSaveOptions proprietà. Ottiene o imposta un callback definito dallutente utilizzato per ottenere un flusso di output per ogni pagina sottoposta a rendering. È applicabile quandoSaveToSeparateFiles viene utilizzata lopzione.
+title: "PdfSaveOptions.PageSavingCallback"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà PdfSaveOptions. Ottiene o imposta una callback definita dall'utente che viene utilizzata per ottenere uno stream di output per ogni pagina renderizzata. È applicabile quando viene usata l'opzione SaveToSeparateFiles"
 type: docs
-weight: 80
+weight: 70
 url: /it/net/aspose.tasks.saving/pdfsaveoptions/pagesavingcallback/
 ---
 ## PdfSaveOptions.PageSavingCallback property
 
-Ottiene o imposta un callback definito dall'utente utilizzato per ottenere un flusso di output per ogni pagina sottoposta a rendering. È applicabile quando[`SaveToSeparateFiles`](../savetoseparatefiles/) viene utilizzata l'opzione.
+Ottiene o imposta una callback definita dall'utente che viene utilizzata per ottenere uno stream di output per ogni pagina renderizzata. È applicabile quando viene usata l'opzione [`SaveToSeparateFiles`](../savetoseparatefiles/).
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: WorkingTimeCollection.Add
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: WorkingTimeCollection metodo. Aggiunge una nuova istanza WorkingTime a questa raccolta.
+title: "WorkingTimeCollection.Add"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo WorkingTimeCollection. Aggiunge una nuova istanza di WorkingTime a questa collezione"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/workingtimecollection/add/
 ---
 ## WorkingTimeCollection.Add method
 
-Aggiunge una nuova istanza WorkingTime a questa raccolta.
+Aggiunge una nuova istanza di WorkingTime a questa collezione.
 
 ```csharp
 public bool Add(WorkingTime item)
@@ -16,17 +16,88 @@ public bool Add(WorkingTime item)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| item | WorkingTime | L'elemento da aggiungere. |
+| elemento | WorkingTime | L'elemento da aggiungere. |
 
 ### Valore di ritorno
 
-true se l'oggetto WorkingTime è stato aggiunto correttamente; altrimenti, falso.
+true se l'oggetto WorkingTime è stato aggiunto correttamente; altrimenti, false.
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con la collezione di orari di lavoro.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Custom Calendar");
+
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday));
+
+var saturdayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(8, 12),
+    new WorkingTime(13, 15)
+};
+var saturday = new WeekDay(DayType.Saturday);
+foreach (var time in saturdayWorkingTimes)
+{
+    saturday.WorkingTimes.Add(time);
+}
+
+// stampa gli orari di lavoro del sabato
+Console.WriteLine("Saturday working period number: " + saturday.WorkingTimes.Count);
+foreach (var time in saturday.WorkingTimes)
+{
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+var sundayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(10, 15)
+};
+var sunday = new WeekDay(DayType.Sunday, sundayWorkingTimes);
+
+// stampa gli orari di lavoro della domenica
+List<WorkingTime> workingTimes = sunday.WorkingTimes.ToList();
+Console.WriteLine("Sunday working period number: " + workingTimes.Count);
+for (var index = 0; index < workingTimes.Count; index++)
+{
+    var time = workingTimes[index];
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+calendar.WeekDays.Add(saturday);
+calendar.WeekDays.Add(sunday);
+
+foreach (var day in calendar.WeekDays)
+{
+    Console.WriteLine(day.DayType + ": ");
+
+    // Puoi inoltre attraversare gli orari di lavoro e visualizzarli.
+    foreach (var workingTime in day.WorkingTimes)
+    {
+        Console.WriteLine(workingTime.From);
+        Console.WriteLine(workingTime.To);
+    }
+
+    Console.WriteLine();
+}
+```
+
+### Vedi anche
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../workingtimecollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

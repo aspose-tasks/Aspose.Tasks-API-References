@@ -1,24 +1,36 @@
 ---
-title: Project.DisplayOptions
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene unistanza diProjectDisplayOptions classe.
+title: "Project.DisplayOptions"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà del progetto. Ottiene un'istanza della classe ProjectDisplayOptions"
 type: docs
-weight: 370
+weight: 380
 url: /it/net/aspose.tasks/project/displayoptions/
 ---
 ## Project.DisplayOptions property
 
-Ottiene un'istanza di[`ProjectDisplayOptions`](../../projectdisplayoptions/) classe.
+Ottiene un'istanza della classe [`ProjectDisplayOptions`](../../projectdisplayoptions/).
 
 ```csharp
 public ProjectDisplayOptions DisplayOptions { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come ottimizzare le opzioni di visualizzazione del progetto.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// Imposta un valore che indica se mostrare avvisi quando Project identifica un possibile conflitto di pianificazione con un'attività programmata manualmente.
+// Questa opzione è disponibile per la versione Project 2010 e successive.
+project.DisplayOptions.ShowTaskScheduleWarnings = false;
+```
+
+### Vedi anche
 
 * class [ProjectDisplayOptions](../../projectdisplayoptions/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

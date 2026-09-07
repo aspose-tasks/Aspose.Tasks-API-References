@@ -1,25 +1,39 @@
 ---
-title: Tsk.EarlyStart
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. La prima data in cui unattività potrebbe iniziare in base alle prime date di inizio delle attività predecessore e successore e altri vincoli.
+title: "Tsk.EarlyStart"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. La data più precoce in cui un'attività può iniziare, basata sulle date di inizio anticipate delle attività predecessore e successore e su altre restrizioni."
 type: docs
-weight: 350
+weight: 340
 url: /it/net/aspose.tasks/tsk/earlystart/
 ---
 ## Tsk.EarlyStart field
 
-La prima data in cui un'attività potrebbe iniziare, in base alle prime date di inizio delle attività predecessore e successore e altri vincoli.
+La data più precoce in cui un'attività potrebbe iniziare, basata sulle date di inizio anticipate delle attività predecessore e successore e altri vincoli.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> EarlyStart;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Tsk.EarlyStart.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.EarlyStart, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Early Start: " + task.Get(Tsk.EarlyStart));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Task.StartVariance
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di StartVariance.
+title: "Task.StartVariance"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di StartVariance"
 type: docs
-weight: 1160
+weight: 1150
 url: /it/net/aspose.tasks/task/startvariance/
 ---
 ## Task.StartVariance property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di StartVariance.
 public Duration StartVariance { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

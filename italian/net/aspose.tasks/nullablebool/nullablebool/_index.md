@@ -1,14 +1,14 @@
 ---
-title: NullableBool.NullableBool
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: NullableBool costruttore. Inizializza una nuova istanza diNullableBool struct con il valore booleano specificato.
+title: "NullableBool.NullableBool"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore NullableBool. Inizializza una nuova istanza della struct NullableBool con il valore booleano specificato."
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/nullablebool/nullablebool/
 ---
 ## NullableBool(bool) {#constructor}
 
-Inizializza una nuova istanza di[`NullableBool`](../) struct con il valore booleano specificato.
+Inizializza una nuova istanza della struct [`NullableBool`](../) con il valore booleano specificato.
 
 ```csharp
 public NullableBool(bool value)
@@ -16,19 +16,48 @@ public NullableBool(bool value)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| value | Boolean | il valore booleano specificato. |
+| valore | Boolean | il valore booleano specificato. |
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con la classe &lt;see cref="NullableBool" /&gt;.
+
+```csharp
+var project = new Project();
+
+// vediamo dove viene usata la classe <see cref="Aspose.Tasks.NullableBool" />
+// Il principale vantaggio di <see cref="Aspose.Tasks.NullableBool" /> è che 
+// si può impostare come non definito tramite la costruzione
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// usa un'istanza di nullable bool
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// usa un'istanza di nullable bool
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
+
+### Vedi anche
 
 * struct [NullableBool](../)
-* spazio dei nomi [Aspose.Tasks](../../nullablebool/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## NullableBool(bool, bool) {#constructor_1}
 
-Inizializza una nuova istanza di[`NullableBool`](../) struct.
+Inizializza una nuova istanza della struttura [`NullableBool`](../).
 
 ```csharp
 public NullableBool(bool value, bool isDefined)
@@ -36,13 +65,42 @@ public NullableBool(bool value, bool isDefined)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| value | Boolean | Il valore corrente. |
+| valore | Boolean | Il valore corrente. |
 | isDefined | Boolean | Il valore che indica se il valore corrente è definito. |
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con la classe &lt;see cref="NullableBool" /&gt;.
+
+```csharp
+var project = new Project();
+
+// vediamo dove viene usata la classe <see cref="Aspose.Tasks.NullableBool" />
+// Il principale vantaggio di <see cref="Aspose.Tasks.NullableBool" /> è che 
+// si può impostare come non definito tramite la costruzione
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// usa un'istanza di nullable bool
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// usa un'istanza di nullable bool
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
+
+### Vedi anche
 
 * struct [NullableBool](../)
-* spazio dei nomi [Aspose.Tasks](../../nullablebool/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: RecurringInterval.RecurringInterval
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: RecurringInterval costruttore. Default_Costruttore
+title: "RecurringInterval.RecurringInterval"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "RecurringInterval costruttore. Il costruttore predefinito"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.visualization/recurringinterval/recurringinterval/
 ---
 ## RecurringInterval constructor
 
-Default_Costruttore
+Il costruttore predefinito.
 
 ```csharp
 public RecurringInterval()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [RecurringInterval](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../recurringinterval/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../recurringinterval/)
+* assembly [Aspose.Tasks](../../../)
 
 

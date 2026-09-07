@@ -1,23 +1,62 @@
 ---
-title: WBSCodeMask.WBSCodeMask
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: WBSCodeMask costruttore. Inizializza una nuova istanza diWBSCodeMask classe.
+title: "WBSCodeMask.WBSCodeMask"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore WBSCodeMask. Inizializza una nuova istanza della classe WBSCodeMask"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/wbscodemask/wbscodemask/
 ---
 ## WBSCodeMask constructor
 
-Inizializza una nuova istanza di[`WBSCodeMask`](../) classe.
+Inizializza una nuova istanza della classe [`WBSCodeMask`](../).
 
 ```csharp
 public WBSCodeMask()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come creare maschere di codice WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Children.Add("Task 2");
+
+project.Recalculate();
+
+Console.WriteLine("Number of WBS masks: " + project.WBSCodeDefinition.CodeMaskCollection.Count);
+var i = 0;
+foreach (var cm in project.WBSCodeDefinition.CodeMaskCollection)
+{
+    Console.WriteLine("WBS Mask #{0}: Level->{1}", ++i, cm.Level);
+}
+
+project.Save(OutDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
+
+### Vedi anche
 
 * class [WBSCodeMask](../)
-* spazio dei nomi [Aspose.Tasks](../../wbscodemask/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../wbscodemask/)
+* assembly [Aspose.Tasks](../../../)
 
 

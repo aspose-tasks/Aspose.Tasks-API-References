@@ -1,23 +1,50 @@
 ---
-title: Duration.IsElapsed
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Duration proprietà. Ottiene un valore che indica se lunità di tempo è trascorsa. Il flag che determina se questa istanza di Duration è scaduta.
+title: "Duration.IsElapsed"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Duration. Ottiene un valore che indica se l'unità di tempo è trascorsa. Il flag che determina se questa istanza Duration è trascorsa."
 type: docs
 weight: 20
 url: /it/net/aspose.tasks/duration/iselapsed/
 ---
 ## Duration.IsElapsed property
 
-Ottiene un valore che indica se l'unità di tempo è trascorsa. Il flag che determina se questa istanza di Duration è scaduta.
+Ottiene un valore che indica se l'unità di tempo è trascorsa. Il flag che determina se questa istanza di Duration è trascorsa.
 
 ```csharp
 public bool IsElapsed { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come analizzare una stringa da una stringa formattata specialmente.
+
+```csharp
+var project = new Project();
+
+// esempi di durate:
+// "1d", "1dy", "1d?", "1day", "1 dy", "1 edy? ", "8hr", "8 hour", "8hours", "0.2w?", "0.2wk", "0.2 eweek", "0.2ew?"
+// dove 1 - numero di elementi (giorno, settimana, ecc.), d - giorno (h - ora, w - settimana) ? - flag stimato, e - flag trascorso
+
+// prova a analizzare una durata stimata
+var duration1 = Duration.Parse(project, "1d?");
+Console.WriteLine("The parsed time span: " + duration1.TimeSpan);
+Console.WriteLine("The parsed time unit: " + duration1.TimeUnit);
+Console.WriteLine("Is estimated duration?: " + duration1.IsEstimated);
+Console.WriteLine("Is elapsed duration?: " + duration1.IsElapsed);
+Console.WriteLine();
+
+// prova a analizzare una durata stimata
+var duration2 = Duration.Parse(project, "0.2 eweek");
+Console.WriteLine("The parsed time span: " + duration2.TimeSpan);
+Console.WriteLine("The parsed time unit: " + duration2.TimeUnit);
+Console.WriteLine("Is estimated duration?: " + duration2.IsEstimated);
+Console.WriteLine("Is elapsed duration?: " + duration2.IsElapsed);
+```
+
+### Vedi anche
 
 * struct [Duration](../)
-* spazio dei nomi [Aspose.Tasks](../../duration/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultAssignmentView
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ProjectView metodo. Include Uid nome attività nome risorsa colonne di assegnazione lavoro e durata.
+title: "ProjectView.GetDefaultAssignmentView"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ProjectView. Include le colonne di assegnazione Uid, nome attività, nome risorsa, lavoro e durata"
 type: docs
 weight: 20
 url: /it/net/aspose.tasks.visualization/projectview/getdefaultassignmentview/
 ---
 ## ProjectView.GetDefaultAssignmentView method
 
-Include Uid, nome attività, nome risorsa, colonne di assegnazione lavoro e durata.
+Include le colonne Uid, nome attività, nome risorsa, lavoro e durata dell'assegnazione.
 
 ```csharp
 public static ProjectView GetDefaultAssignmentView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultAssignmentView()
 
 ### Valore di ritorno
 
-una vista che contiene un elenco di[`AssignmentViewColumn`](../../assignmentviewcolumn/).
+una vista che contiene un elenco di [`AssignmentViewColumn`](../../assignmentviewcolumn/).
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare un progetto con la visualizzazione delle assegnazioni.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [ProjectView](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../projectview/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

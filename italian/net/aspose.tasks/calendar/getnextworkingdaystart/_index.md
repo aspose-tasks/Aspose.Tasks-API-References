@@ -1,14 +1,14 @@
 ---
-title: Calendar.GetNextWorkingDayStart
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Calendar metodo. Calcola il giorno lavorativo successivo a partire dalla data.
+title: "Calendar.GetNextWorkingDayStart"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Calendar. Calcola l'inizio del prossimo giorno lavorativo per la data specificata"
 type: docs
-weight: 160
+weight: 180
 url: /it/net/aspose.tasks/calendar/getnextworkingdaystart/
 ---
 ## Calendar.GetNextWorkingDayStart method
 
-Calcola il giorno lavorativo successivo a partire dalla data.
+Calcola l'inizio del prossimo giorno lavorativo per la data specificata.
 
 ```csharp
 public DateTime GetNextWorkingDayStart(DateTime date)
@@ -16,16 +16,32 @@ public DateTime GetNextWorkingDayStart(DateTime date)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| date | DateTime | La data per l'inizio del giorno lavorativo successivo. |
+| data | DateTime | La data per cui ottenere l'inizio del prossimo giorno lavorativo. |
 
 ### Valore di ritorno
 
-Inizio del giorno lavorativo successivoDateTime.
+Data/Ora di inizio del prossimo giorno lavorativo.
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere l'inizio del prossimo giorno lavorativo usando un calendario.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// ottieni l'inizio del prossimo giorno lavorativo (il fine settimana è saltato)
+var nextWorkingDayStart = calendar.GetNextWorkingDayStart(new DateTime(2020, 4, 10, 13, 0, 0));
+
+// 13 aprile 2020 09:00 verrà stampato
+Console.WriteLine(nextWorkingDayStart);
+```
+
+### Vedi anche
 
 * class [Calendar](../)
-* spazio dei nomi [Aspose.Tasks](../../calendar/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

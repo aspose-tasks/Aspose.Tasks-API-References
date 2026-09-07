@@ -1,7 +1,7 @@
 ---
-title: VbaReference.Name
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: VbaReference proprietà. Ottiene o imposta il nome del riferimento VBA.
+title: "VbaReference.Name"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà VbaReference. Ottiene o imposta il nome del riferimento VBA"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/vbareference/name/
@@ -14,10 +14,26 @@ Ottiene o imposta il nome del riferimento VBA.
 public string Name { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i riferimenti VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
+### Vedi anche
 
 * class [VbaReference](../)
-* spazio dei nomi [Aspose.Tasks](../../vbareference/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ChildTasksCollector.Alg
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ChildTasksCollector metodo. Elabora loggetto specificato.
+title: "ChildTasksCollector.Alg"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ChildTasksCollector. Elabora l'oggetto specificato"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks.util/childtaskscollector/alg/
@@ -16,14 +16,31 @@ public override void Alg(Task el, int level)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| el | Task | Oggetto da elaborare. |
-| level | Int32 | Livello del nodo dell'albero. |
+| el | Attività | Oggetto da elaborare. |
+| livello | Int32 | Livello del nodo dell'albero. |
 
-### Guarda anche
+## Esempi
+
+Mostra come iterare su tutti i task di un progetto come una semplice lista.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizza tutti i task raccolti
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### Vedi anche
 
 * class [Task](../../../aspose.tasks/task/)
 * class [ChildTasksCollector](../)
-* spazio dei nomi [Aspose.Tasks.Util](../../childtaskscollector/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../childtaskscollector/)
+* assembly [Aspose.Tasks](../../../)
 
 

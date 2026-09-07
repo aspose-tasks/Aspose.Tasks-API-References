@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks.Attributes
-second_title: Riferimento all'API di Aspose.Tasks per .NET
+title: "Aspose.Tasks.Attributes"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
 description: 
 type: docs
 weight: 20

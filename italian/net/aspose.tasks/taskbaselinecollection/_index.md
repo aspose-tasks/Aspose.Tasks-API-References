@@ -1,14 +1,14 @@
 ---
-title: Class TaskBaselineCollection
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.TaskBaselineCollection classe. Rappresenta una raccolta diTaskBaseline oggetti.
+title: "Classe TaskBaselineCollection"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "La classe Aspose.Tasks.TaskBaselineCollection. Rappresenta una raccolta di oggetti TaskBaseline"
 type: docs
-weight: 2090
+weight: 2380
 url: /it/net/aspose.tasks/taskbaselinecollection/
 ---
 ## TaskBaselineCollection class
 
-Rappresenta una raccolta di[`TaskBaseline`](../taskbaseline/) oggetti.
+Rappresenta una raccolta di oggetti [`TaskBaseline`](../taskbaseline/).
 
 ```csharp
 public class TaskBaselineCollection : IList<TaskBaseline>
@@ -25,15 +25,43 @@ public class TaskBaselineCollection : IList<TaskBaseline>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.tasks/taskbaselinecollection/add/)(TaskBaseline) | Questa è l'implementazione stub del metodo Add di ICollection, che genera solo NotSupportedException |
-| [GetEnumerator](../../aspose.tasks/taskbaselinecollection/getenumerator/)() | Restituisce un enumeratore per questa raccolta. |
-| [Remove](../../aspose.tasks/taskbaselinecollection/remove/)(TaskBaseline) | Rimuove la linea di base da questa raccolta. |
-| [ToList](../../aspose.tasks/taskbaselinecollection/tolist/)() | Converte l'oggetto TaskBaselineCollection in un elenco di[`TaskBaseline`](../taskbaseline/) oggetti. |
+| [Add](../../aspose.tasks/taskbaselinecollection/add/)(TaskBaseline) | Questa è l'implementazione stub del metodo Add di ICollection, che lancia solo NotSupportedException |
+| [GetEnumerator](../../aspose.tasks/taskbaselinecollection/getenumerator/)() | Restituisce un enumeratore per questa collezione. |
+| [Remove](../../aspose.tasks/taskbaselinecollection/remove/)(TaskBaseline) | Rimuove la baseline da questa raccolta. |
+| [ToList](../../aspose.tasks/taskbaselinecollection/tolist/)() | Converte l'oggetto TaskBaselineCollection in un elenco di oggetti [`TaskBaseline`](../taskbaseline/). |
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le raccolte di baseline dei task.
+
+```csharp
+var project = new Project();
+
+// crea baseline di progetto
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// stampa le baseline dei task
+Console.WriteLine("Count of task baselines: " + task.Baselines.Count);
+foreach (var baseline in task.Baselines)
+{
+    Console.WriteLine("Baseline duration: {0}", baseline.Duration);
+    Console.WriteLine("Baseline start: {0}", baseline.Start);
+    Console.WriteLine("Baseline finish: {0}", baseline.Finish);
+}
+
+// cancella tutte le baseline
+List<TaskBaseline> baselines = task.Baselines.ToList();
+for (var i = 0; i < baselines.Count; i++)
+{
+    task.Baselines.Remove(baselines[i]);
+}
+```
+
+### Vedi anche
 
 * class [TaskBaseline](../taskbaseline/)
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

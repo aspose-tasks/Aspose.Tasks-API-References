@@ -1,7 +1,7 @@
 ---
-title: TaskLink.Equals
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: TaskLink metodo. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato.
+title: "TaskLink.Equals"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "TaskLink metodo. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato"
 type: docs
 weight: 90
 url: /it/net/aspose.tasks/tasklink/equals/
@@ -16,17 +16,35 @@ public bool Equals(TaskLink other)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| other | TaskLink | L'istanza specificata di[`TaskLink`](../) class da confrontare con questa istanza. |
+| other | TaskLink | L'istanza specificata della classe [`TaskLink`](../) da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-**VERO** se l'istanza specificata di[`TaskLink`](../) class ha le stesse attività predecessore e successore di questa istanza; Altrimenti, **falso**.
+**True** if the specified instance of the [`TaskLink`](../) class has the same predecessor and successor tasks as this instance; otherwise, **false**.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza dei collegamenti di attività.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// L'uguaglianza dei collegamenti di attività si basa sui task pred e succ.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### Vedi anche
 
 * class [TaskLink](../)
-* spazio dei nomi [Aspose.Tasks](../../tasklink/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +58,34 @@ public override bool Equals(object obj)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Object | L'oggetto da confrontare con questa istanza. |
+| obj | Oggetto | L'oggetto da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-**VERO** se l'oggetto specificato è un TaskLink che ha lo stesso predecessore e successor di questa istanza; Altrimenti, **falso**.
+**True** if the specified object is a TaskLink that has the same predecessor and successor as this instance; otherwise, **false**.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza dei collegamenti di attività.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// L'uguaglianza dei collegamenti di attività si basa sui task pred e succ.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### Vedi anche
 
 * class [TaskLink](../)
-* spazio dei nomi [Aspose.Tasks](../../tasklink/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

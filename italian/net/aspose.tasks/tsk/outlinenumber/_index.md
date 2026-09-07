@@ -1,25 +1,43 @@
 ---
-title: Tsk.OutlineNumber
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. Il numero che rappresenta la posizione di unattività nella struttura gerarchica del profilo.
+title: "Tsk.OutlineNumber"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. Il numero che rappresenta la posizione di un'attività nella struttura gerarchica dell'outline"
 type: docs
-weight: 870
+weight: 850
 url: /it/net/aspose.tasks/tsk/outlinenumber/
 ---
 ## Tsk.OutlineNumber field
 
-Il numero che rappresenta la posizione di un'attività nella struttura gerarchica del profilo.
+Il numero che rappresenta la posizione di un'attività nella struttura gerarchica.
 
 ```csharp
 public static readonly Key<string, TaskKey> OutlineNumber;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere le proprietà di outline dell'attività.
+
+```csharp
+var project = new Project(DataDir + "TaskOutlineProperties.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizza tutti i task raccolti
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name) + " - Outline Level : " + task.Get(Tsk.OutlineLevel));
+    Console.WriteLine(task.Get(Tsk.Name) + " - Outline Number : " + task.Get(Tsk.OutlineNumber));
+}
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

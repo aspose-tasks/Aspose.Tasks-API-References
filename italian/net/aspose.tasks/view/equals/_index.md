@@ -1,7 +1,7 @@
 ---
-title: View.Equals
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: View metodo. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato.
+title: "View.Equals"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo View. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato"
 type: docs
 weight: 150
 url: /it/net/aspose.tasks/view/equals/
@@ -16,16 +16,16 @@ public override bool Equals(object obj)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Object | L'oggetto da confrontare con questa istanza. |
+| obj | Oggetto | L'oggetto da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-**VERO** se l'oggetto specificato è una View che ha lo stesso valore Uid di questa istanza; Altrimenti, **falso**.
+**True** if the specified object is a View that has the same Uid value as this instance; otherwise, **false**.
 
-### Guarda anche
+### Vedi anche
 
 * class [View](../)
-* spazio dei nomi [Aspose.Tasks](../../view/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

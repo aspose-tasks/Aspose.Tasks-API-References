@@ -1,14 +1,14 @@
 ---
-title: Calendar.GetWorkingHours
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Calendar metodo. Restituisce lorario di lavoro per le date specificate.
+title: "Calendar.GetWorkingHours"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Calendar. Restituisce WorkUnit, Inizio, Fine e Durata delle ore lavorative per l'intervallo di data e ora specificato"
 type: docs
-weight: 200
+weight: 220
 url: /it/net/aspose.tasks/calendar/getworkinghours/
 ---
 ## GetWorkingHours(DateTime, DateTime) {#getworkinghours}
 
-Restituisce l'orario di lavoro per le date specificate.
+Restituisce WorkUnit - Inizio, Fine e Durata delle ore lavorative per l'intervallo di data/ora specificato.
 
 ```csharp
 public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
@@ -16,25 +16,41 @@ public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| start | DateTime | Data d'inizio. |
-| finish | DateTime | Data di fine. |
+| inizio | DateTime | Data di inizio dell'intervallo. |
+| fine | DateTime | Data di fine dell'intervallo. |
 
 ### Valore di ritorno
 
-Ore lavorative.
+Istanza della classe [`WorkUnit`](../../workunit/) contenente Start, Finish e Duration delle ore lavorative.
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere le ore lavorative per date specifiche.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// ottieni le ore lavorative per una data specifica
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+// Verranno stampate 16 ore
+Console.WriteLine(workUnit.WorkingHours);
+```
+
+### Vedi anche
 
 * class [WorkUnit](../../workunit/)
 * class [Calendar](../)
-* spazio dei nomi [Aspose.Tasks](../../calendar/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetWorkingHours(DateTime) {#getworkinghours_1}
 
-Restituisce la quantità di ore lavorative alla data.
+Restituisce la quantità di ore lavorative nella data specificata.
 
 ```csharp
 public TimeSpan GetWorkingHours(DateTime dt)
@@ -42,16 +58,32 @@ public TimeSpan GetWorkingHours(DateTime dt)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dt | DateTime | La data per cui ottenere l'orario di lavoro. |
+| dt | DateTime | La data per cui ottenere le ore lavorative. |
 
 ### Valore di ritorno
 
-Ore lavorative.
+Ore lavorative nella data specificata.
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere le ore lavorative per una data specifica.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// ottieni le ore lavorative per una data specifica
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 10));
+
+// Verranno stampate 8 ore
+Console.WriteLine(workingHours.Hours);
+```
+
+### Vedi anche
 
 * class [Calendar](../)
-* spazio dei nomi [Aspose.Tasks](../../calendar/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

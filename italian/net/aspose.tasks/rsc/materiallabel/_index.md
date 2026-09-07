@@ -1,25 +1,39 @@
 ---
-title: Rsc.MaterialLabel
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. Lunità di misura della risorsa materiale.
+title: "Rsc.MaterialLabel"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. L'unità di misura per la risorsa materiale"
 type: docs
 weight: 440
 url: /it/net/aspose.tasks/rsc/materiallabel/
 ---
 ## Rsc.MaterialLabel field
 
-L'unità di misura della risorsa materiale.
+L'unità di misura per la risorsa materiale.
 
 ```csharp
 public static readonly Key<string, RscKey> MaterialLabel;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Rsc.MaterialLabel.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.MaterialLabel, "kg");
+
+Console.WriteLine("Material Label: " + resource.Get(Rsc.MaterialLabel));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

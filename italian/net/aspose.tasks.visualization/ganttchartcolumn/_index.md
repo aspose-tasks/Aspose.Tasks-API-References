@@ -1,14 +1,14 @@
 ---
-title: Class GanttChartColumn
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.Visualization.GanttChartColumn classe. Classe vista progetto
+title: "Classe GanttChartColumn"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.Visualization.GanttChartColumn. Classe di visualizzazione dei progetti"
 type: docs
-weight: 2760
+weight: 3090
 url: /it/net/aspose.tasks.visualization/ganttchartcolumn/
 ---
 ## GanttChartColumn class
 
-Classe vista progetto
+Classe di visualizzazione del progetto
 
 ```csharp
 public sealed class GanttChartColumn : ViewColumn
@@ -27,10 +27,10 @@ public sealed class GanttChartColumn : ViewColumn
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/ganttchartcolumn/field/) { get; set; } | Campo colonna. [`Field`](./field/) . |
+| override [Field](../../aspose.tasks.visualization/ganttchartcolumn/field/) { get; set; } | Campo colonna. [`Field`](./field/). |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name/) { get; } | Ottiene il nome della colonna. |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | Ottiene o imposta l'allineamento del testo (può essere uno dei valori di[`StringAlignment`](../viewcolumn/stringalignment/) enumerazione). |
-| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | Ottiene o imposta il callback che può essere utilizzato per personalizzare l'aspetto delle celle della colonna. |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | Ottiene o imposta l'allineamento del testo (può essere uno dei valori dell'enumerazione [`HorizontalStringAlignment`](../horizontalstringalignment/)). |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | Ottiene o imposta il callback che può essere usato per personalizzare l'aspetto delle celle della colonna. |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width/) { get; } | Ottiene la larghezza della colonna. |
 
 ## Metodi
@@ -39,10 +39,62 @@ public sealed class GanttChartColumn : ViewColumn
 | --- | --- |
 | [GetColumnText](../../aspose.tasks.visualization/ganttchartcolumn/getcolumntext/)(Task) | Converte l'attività corrente nel testo della colonna. |
 
-### Guarda anche
+## Esempi
+
+Mostra come aggiungere colonne della vista Gantt chart da esportare.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+
+// itera sulle colonne
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
+}
+
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+
+project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
+```
+
+### Vedi anche
 
 * class [ViewColumn](../viewcolumn/)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

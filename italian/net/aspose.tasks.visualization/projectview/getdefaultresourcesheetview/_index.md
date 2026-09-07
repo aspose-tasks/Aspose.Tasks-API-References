@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultResourceSheetView
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ProjectView metodo. Include Uid nome risorsa tipo etichetta materiale iniziali gruppo unità massime tariffa standard tariffa straordinario costo per utilizzo accumulo a calendario di base e colonne risorsa codice.
+title: "ProjectView.GetDefaultResourceSheetView"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ProjectView. Include le colonne di risorsa Uid, nome, tipo, materiale, etichetta, iniziali, gruppo, unità massime, tariffa standard, tariffa straordinaria, costo per utilizzo, accumulato, calendario base e codice"
 type: docs
 weight: 40
 url: /it/net/aspose.tasks.visualization/projectview/getdefaultresourcesheetview/
 ---
 ## ProjectView.GetDefaultResourceSheetView method
 
-Include Uid, nome risorsa, tipo, etichetta materiale, iniziali, gruppo, unità massime, tariffa standard, tariffa straordinario, costo per utilizzo, accumulo a, calendario di base e colonne risorsa codice.
+Include le colonne Uid, nome risorsa, tipo, etichetta materiale, iniziali, gruppo, unità massime, tariffa standard, tariffa straordinaria, costo per utilizzo, accumulo a, calendario base e codice risorsa.
 
 ```csharp
 public static ProjectView GetDefaultResourceSheetView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultResourceSheetView()
 
 ### Valore di ritorno
 
-una vista che contiene un elenco di[`ResourceViewColumn`](../../resourceviewcolumn/).
+una vista che contiene un elenco di [`ResourceViewColumn`](../../resourceviewcolumn/).
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare un progetto con la vista del foglio risorse.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultResourceSheetView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_ResourceSheetView_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [ProjectView](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../projectview/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

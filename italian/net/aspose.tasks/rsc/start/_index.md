@@ -1,25 +1,39 @@
 ---
-title: Rsc.Start
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. La data in cui una risorsa assegnata è pianificata per iniziare a lavorare su unattività.
+title: "Rsc.Start"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. La data in cui una risorsa assegnata è programmata per iniziare a lavorare su un'attività"
 type: docs
-weight: 650
+weight: 640
 url: /it/net/aspose.tasks/rsc/start/
 ---
 ## Rsc.Start field
 
-La data in cui una risorsa assegnata è pianificata per iniziare a lavorare su un'attività.
+La data in cui una risorsa assegnata è programmata per iniziare a lavorare su un'attività.
 
 ```csharp
 public static readonly Key<DateTime, RscKey> Start;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Rsc.Start.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Start, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Start: " + resource.Get(Rsc.Start));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

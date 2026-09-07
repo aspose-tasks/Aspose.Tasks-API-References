@@ -1,14 +1,14 @@
 ---
-title: AndAllCondition1.AndAllCondition
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: AndAllCondition costruttore. Inizializza una nuova istanza diAndAllCondition classe.
+title: "AndAllCondition1.AndAllCondition"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore AndAllCondition. Inizializza una nuova istanza della classe AndAllCondition"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.util/andallcondition-1/andallcondition/
 ---
 ## AndAllCondition&lt;T&gt; constructor
 
-Inizializza una nuova istanza di[`AndAllCondition`](../) classe.
+Inizializza una nuova istanza della classe [`AndAllCondition`](../).
 
 ```csharp
 public AndAllCondition(List<ICondition<T>> conditions)
@@ -16,13 +16,83 @@ public AndAllCondition(List<ICondition<T>> conditions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| conditions | List`1 | L'elenco delle condizioni. |
+| condizioni | List`1 | L'elenco delle condizioni. |
 
-### Guarda anche
+## Esempi
+
+Mostra come utilizzare la condizione &lt;see cref=\"Aspose.Tasks.Util.AndAllCondition`1\" /&gt;.
+
+```csharp
+public void WorkWithAndAllCondition()
+{
+    var project = new Project(DataDir + "Project2.mpp");
+
+    // raccogli tutti i task del progetto
+    var coll = new ChildTasksCollector();
+    TaskUtils.Apply(project.RootTask, coll, 0);
+
+    var conditions = new List<ICondition<Task>>
+                         {
+                             // crea una condizione di filtro che filtra i task non nulli
+                             new NotNullCondition(),
+
+                             // crea una condizione di filtro che filtra i task di riepilogo
+                             new SummaryCondition()
+                         };
+
+    // e unirli applicando la condizione <see cref=\"Aspose.Tasks.Util.AndAllCondition`1\" />
+    var joinedCondition = new AndAllCondition<Task>(conditions);
+
+    // applica la condizione ai task raccolti
+    List<Task> collection = Filter(coll.Tasks, joinedCondition);
+    Console.WriteLine("Filtered tasks: ");
+    foreach (var task in collection)
+    {
+        Console.WriteLine("  Name: " + task.Get(Tsk.Name));
+
+        // lavora con altre proprietà...
+    }
+
+    // ...
+}
+
+private static List<T> Filter<T>(IEnumerable<T> array, ICondition<T> cond)
+{
+    var result = new List<T>();
+
+    foreach (var item in array)
+    {
+        if (cond.Check(item))
+        {
+            result.Add(item);
+        }
+    }
+
+    return result;
+}
+
+private class NotNullCondition : ICondition<Task>
+{
+    public bool Check(Task el)
+    {
+        return !el.Get(Tsk.IsNull).Value;
+    }
+}
+
+private class SummaryCondition : ICondition<Task>
+{
+    public bool Check(Task el)
+    {
+        return el.Get(Tsk.IsSummary);
+    }
+}
+```
+
+### Vedi anche
 
 * interface [ICondition&lt;T&gt;](../../icondition-1/)
 * class [AndAllCondition&lt;T&gt;](../)
-* spazio dei nomi [Aspose.Tasks.Util](../../andallcondition-1/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../andallcondition-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

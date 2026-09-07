@@ -1,25 +1,37 @@
 ---
-title: Prj.Uid
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. LID univoco di un progetto.
+title: "Prj.Uid"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Prj campo. L'Id univoco di un progetto"
 type: docs
-weight: 750
+weight: 760
 url: /it/net/aspose.tasks/prj/uid/
 ---
 ## Prj.Uid field
 
-L'ID univoco di un progetto.
+L'Id univoco di un progetto.
 
 ```csharp
 public static readonly Key<string, PrjKey> Uid;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Prj.Uid.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Uid, "1234");
+
+Console.WriteLine("Uid: " + project.Get(Prj.Uid));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: RateByDateCollection.RateByDateCollection
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: RateByDateCollection costruttore. Default_Costruttore
+title: "RateByDateCollection.RateByDateCollection"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore di RateByDateCollection. Il costruttore predefinito"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/ratebydatecollection/ratebydatecollection/
 ---
 ## RateByDateCollection constructor
 
-Default_Costruttore
+Il costruttore predefinito.
 
 ```csharp
 public RateByDateCollection()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [RateByDateCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../ratebydatecollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ratebydatecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

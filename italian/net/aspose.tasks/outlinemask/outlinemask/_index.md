@@ -1,23 +1,63 @@
 ---
-title: OutlineMask.OutlineMask
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: OutlineMask costruttore. Inizializza una nuova istanza diOutlineMask classe.
+title: "OutlineMask.OutlineMask"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore OutlineMask. Inizializza una nuova istanza della classe OutlineMask"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/outlinemask/outlinemask/
 ---
 ## OutlineMask constructor
 
-Inizializza una nuova istanza di[`OutlineMask`](../) classe.
+Inizializza una nuova istanza della classe [`OutlineMask`](../).
 
 ```csharp
 public OutlineMask()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le maschere di contorno.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+
+project.OutlineCodes.Add(outline);
+
+var mask = new OutlineMask();
+
+// imposta il tipo di una maschera
+mask.Type = MaskType.Characters;
+
+// imposta il separatore dei valori di codice
+mask.Separator = "/";
+
+// imposta il livello di una maschera
+mask.Level = 1;
+
+// imposta la lunghezza massima (in caratteri) dei valori di codice di contorno. 0 se la lunghezza non è definita.
+mask.Length = 2;
+
+// aggiungi la maschera alla definizione
+outline.Masks.Add(mask);
+
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+
+// ...
+```
+
+### Vedi anche
 
 * class [OutlineMask](../)
-* spazio dei nomi [Aspose.Tasks](../../outlinemask/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinemask/)
+* assembly [Aspose.Tasks](../../../)
 
 
