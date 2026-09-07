@@ -1,9 +1,9 @@
 ---
-title: GroupOn
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Καθορίζει τον τύπο ομαδοποίησης.
+title: "Enum GroupOn"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Aspose.Tasks.GroupOn enum. Καθορίζει τον τύπο ομαδοποίησης"
 type: docs
-weight: 750
+weight: 810
 url: /el/net/aspose.tasks/groupon/
 ---
 ## GroupOn enumeration
@@ -14,41 +14,72 @@ url: /el/net/aspose.tasks/groupon/
 public enum GroupOn
 ```
 
-### Αξίες
+### Τιμές
 
-| Ονομα | αξία | Περιγραφή |
+| Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| DateDay | `13` | Ομάδα ανά ημέρα. |
-| DateEachValue | `10` | Ομαδοποιήστε την ημερομηνία για κάθε τιμή. |
-| DateHour | `12` | Ομάδα ανά ώρα. |
-| DateMinute | `11` | Ομαδοποίηση ημερομηνία προς λεπτό. |
-| DateMonth | `16` | Ομάδα κατά ημερομηνία ανά μήνα. |
-| DateQtr | `17` | Ομάδα κατά ημερομηνία ανά τρίμηνο. |
-| DateThirdOfMonth | `15` | Ομαδοποιήστε την ημερομηνία κάθε τρίτο του μήνα. |
-| DateWeek | `14` | Ομάδα ανά εβδομάδα. |
-| DateYear | `18` | Ομάδα με ημερομηνία ανά έτος. |
-| DurationDays | `23` | Ομαδοποίηση σε διάρκεια ανά ημέρες. |
-| DurationEachValue | `20` | Ομαδοποιήστε τη διάρκεια για κάθε τιμή. |
-| DurationHours | `22` | Ομαδοποίηση σε διάρκεια ανά ώρες. |
-| DurationMinutes | `21` | Ομαδοποίηση σε διάρκεια ανά λεπτά. |
-| DurationMonths | `25` | Ομάδα σε διάρκεια ανά μήνες. |
-| DurationWeeks | `24` | Ομάδα σε διάρκεια ανά εβδομάδες. |
-| EachValue | `0` | Ομαδοποίηση με κάθε τιμή. |
-| Interval | `1` | Ομαδοποίηση κατά το διάστημα. |
-| OutlineEachValue | `30` | Ομαδοποιήστε σε κάθε τιμή περίγραμμα. |
-| OutlineLevel | `31` | Ομαδοποιήστε στο επίπεδο περιγράμματος. |
-| Pct110 | `45` | Ομαδοποιήστε κατά 10 τοις εκατό αυξήσεις ολοκλήρωσης. |
-| Pct125 | `44` | Ομαδοποιήστε κατά 25 τοις εκατό αυξήσεις ολοκλήρωσης. |
-| Pct150 | `43` | Ομαδοποίηση κατά 50 τοις εκατό αυξήσεις ολοκλήρωσης. |
-| Pct199 | `42` | Ομαδοποίηση κατά 99 τοις εκατό ολοκλήρωση. |
-| PctEachValue | `40` | Ομαδοποιήστε το ποσοστό κάθε τιμής. |
-| PctInterval | `41` | Ομαδοποιήστε το ποσοστό του διαστήματος. |
-| TextEachValue | `50` | Ομαδοποίηση σε κάθε τιμή κειμένου. |
-| TextPrefix | `51` | Ομαδοποιήστε στο πρόθεμα κειμένου. |
+| DateDay | `13` | Ομαδοποίηση κατά ημερομηνία ανά ημέρα. |
+| DateEachValue | `10` | Ομαδοποίηση κατά ημερομηνία για κάθε τιμή. |
+| DateHour | `12` | Ομαδοποίηση κατά ημερομηνία ανά ώρα. |
+| DateMinute | `11` | Ομαδοποίηση κατά ημερομηνία ανά λεπτό. |
+| DateMonth | `16` | Ομαδοποίηση κατά ημερομηνία ανά μήνα. |
+| DateQtr | `17` | Ομαδοποίηση κατά ημερομηνία ανά τρίμηνο. |
+| DateThirdOfMonth | `15` | Ομαδοποίηση κατά ημερομηνία ανά κάθε τρίτο του μήνα. |
+| DateWeek | `14` | Ομαδοποίηση κατά ημερομηνία ανά εβδομάδα. |
+| DateYear | `18` | Ομαδοποίηση κατά ημερομηνία ανά έτος. |
+| DurationDays | `23` | Ομαδοποίηση κατά διάρκεια ανά ημέρες. |
+| DurationEachValue | `20` | Ομαδοποίηση κατά διάρκεια για κάθε τιμή. |
+| DurationHours | `22` | Ομαδοποίηση κατά διάρκεια ανά ώρες. |
+| DurationMinutes | `21` | Ομαδοποίηση κατά διάρκεια ανά λεπτά. |
+| DurationMonths | `25` | Ομαδοποίηση κατά διάρκεια ανά μήνες. |
+| DurationWeeks | `24` | Ομαδοποίηση κατά διάρκεια ανά εβδομάδες. |
+| EachValue | `0` | Ομαδοποίηση ανά κάθε τιμή. |
+| Interval | `1` | Ομαδοποίηση ανά το διάστημα. |
+| OutlineEachValue | `30` | Ομαδοποίηση ανά κάθε τιμή περιγράμματος. |
+| OutlineLevel | `31` | Ομαδοποίηση ανά επίπεδο περιγράμματος. |
+| Pct110 | `45` | Ομαδοποίηση ανά βήματα ολοκλήρωσης 10%. |
+| Pct125 | `44` | Ομαδοποίηση ανά βήματα ολοκλήρωσης 25%. |
+| Pct150 | `43` | Ομαδοποίηση ανά βήματα ολοκλήρωσης 50%. |
+| Pct199 | `42` | Ομαδοποίηση ανά 99% ολοκλήρωση. |
+| PctEachValue | `40` | Ομαδοποίηση κατά ποσοστό κάθε τιμής. |
+| PctInterval | `41` | Ομαδοποίηση κατά ποσοστό διαστήματος. |
+| TextEachValue | `50` | Ομαδοποίηση ανά κάθε κειμενική τιμή. |
+| TextPrefix | `51` | Ομαδοποίηση κατά πρόθεμα κειμένου. |
+
+## Παραδείγματα
+
+Δείχνει πώς να διαβάσετε τις ιδιότητες ενός κριτηρίου ομάδας.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var group = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Name: " + group.Name);
+Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
+
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+var criterion = group.GroupCriteria.ToList()[0];
+Console.WriteLine("Task Criterion Field: " + criterion.Field);
+Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
+Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
+Console.WriteLine("Task Criterion Font Color: " + criterion.FontColor);
+Console.WriteLine("Task Criterion Group Interval: " + criterion.GroupInterval);
+Console.WriteLine("Task Criterion Start At: " + criterion.StartAt);
+
+// Διαβάστε το υπόβαθρο του προτύπου του κριτηρίου.
+Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
+
+Console.WriteLine("\n*********** Retrieving Criterion's Font Information ***********");
+Console.WriteLine("Font Name: " + criterion.Font.FontFamily);
+Console.WriteLine("Font Size: " + criterion.Font.Size);
+Console.WriteLine("Font Style: " + criterion.Font.Style);
+Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
+```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Tasks](../../aspose.tasks/)
-* συνέλευση [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

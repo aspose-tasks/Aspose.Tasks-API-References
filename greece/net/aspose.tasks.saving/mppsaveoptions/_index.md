@@ -1,36 +1,65 @@
 ---
-title: MPPSaveOptions
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Επιτρέπει τον καθορισμό πρόσθετων επιλογών κατά την αποθήκευση δεδομένων έργου στο MPP.
+title: "Κλάση MPPSaveOptions"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Κλάση Aspose.Tasks.Saving.MPPSaveOptions. Επιτρέπει τον καθορισμό πρόσθετων επιλογών κατά την αποθήκευση των δεδομένων του έργου σε MPP"
 type: docs
-weight: 1780
+weight: 2050
 url: /el/net/aspose.tasks.saving/mppsaveoptions/
 ---
 ## MPPSaveOptions class
 
-Επιτρέπει τον καθορισμό πρόσθετων επιλογών κατά την αποθήκευση δεδομένων έργου στο MPP.
+Επιτρέπει τον καθορισμό πρόσθετων επιλογών κατά την αποθήκευση των δεδομένων του έργου σε MPP.
 
 ```csharp
-public class MPPSaveOptions
+public class MPPSaveOptions : SimpleSaveOptions
 ```
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [MPPSaveOptions](mppsaveoptions/)() | Ο προεπιλεγμένος κατασκευαστής. |
+| [MPPSaveOptions](mppsaveoptions/)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `MPPSaveOptions`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword/) { get; set; } | Λαμβάνει ή ορίζει έναν κωδικό πρόσβασης που χρησιμοποιείται για την προστασία ενός αρχείου MPP που προκύπτει. Προς το παρόν υποστηρίζεται για MS Project 2010 και νεότερες μορφές. Η τιμή null υποδηλώνει ότι το αρχείο του έργου δεν προστατεύεται. |
-| [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα καταργηθούν οι αναθέσεις μη έγκυρων πόρων κατά την αποθήκευση σε MPP. Το MS Project δημιουργεί μια κενή ανάθεση πόρων για κάθε εργασία. Ορίστε αυτήν τη σημαία σε true για να τα αφαιρέσετε κατά την αποθήκευση. |
-| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα εγγραφούν δεδομένα προβολής κατά την αποθήκευση σε MPP. Τα δεδομένα προβολής περιλαμβάνουν συλλογές Project.Views, φίλτρα και πίνακες. |
+| [ClearVba](../../aspose.tasks.saving/mppsaveoptions/clearvba/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα αφαιρεθούν τα υπάρχοντα δεδομένα μακροεντολών VBA κατά την αποθήκευση ενός έργου σε μορφή MPP. |
+| [ProtectionPassword](../../aspose.tasks.saving/mppsaveoptions/protectionpassword/) { get; set; } | Λαμβάνει ή ορίζει έναν κωδικό πρόσβασης που χρησιμοποιείται για την προστασία του τελικού αρχείου MPP. Προς το παρόν υποστηρίζεται για τα φορμά MS Project 2010 και νεότερα. Μια τιμή null υποδεικνύει ότι το αρχείο έργου δεν είναι προστατευμένο. |
+| [RemoveInvalidAssignments](../../aspose.tasks.saving/mppsaveoptions/removeinvalidassignments/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα αφαιρεθούν οι μη έγκυρες εκχωρήσεις πόρων κατά την αποθήκευση σε MPP. Το MS Project δημιουργεί μια κενή εκχώρηση πόρου για κάθε εργασία. Ορίστε αυτή τη σημαία σε true για να τις αφαιρέσετε κατά την αποθήκευση. |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Λαμβάνει ή ορίζει τη μορφή στην οποία θα αποθηκευτεί το έγγραφο εάν χρησιμοποιηθεί αυτό το αντικείμενο επιλογών αποθήκευσης. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Λαμβάνει ή ορίζει τον συγκριτή για την ταξινόμηση των εργασιών στο γράφημα Gantt και στο γράφημα Φύλλου Εργασιών. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Λαμβάνει ή ορίζει τη συνθήκη που χρησιμοποιείται για το φιλτράρισμα των εργασιών που αποδίδονται στα γραφήματα Gantt, Φύλλο Εργασιών και Χρήση Εργασιών. |
+| [WriteFilters](../../aspose.tasks.saving/mppsaveoptions/writefilters/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα γραφτούν τα δεδομένα φίλτρων κατά την αποθήκευση ενός έργου σε μορφή MPP. Τα δεδομένα φίλτρων περιλαμβάνουν τις συλλογές Project.TaskFilters και Project.ResourceFilters. |
+| [WriteGroups](../../aspose.tasks.saving/mppsaveoptions/writegroups/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα γραφτούν τα δεδομένα ομάδων κατά την αποθήκευση ενός έργου σε μορφή MPP. Τα δεδομένα ομάδων περιλαμβάνουν τις συλλογές Project.TaskGroups και Project.ResourceGroups. |
+| [WriteVba](../../aspose.tasks.saving/mppsaveoptions/writevba/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα ενημερωθούν τα υπάρχοντα δεδομένα μακροεντολών VBA στο αρχείο MPP. Προς το παρόν υποστηρίζεται η εγγραφή του VbaModule.SourceCode. |
+| [WriteViewData](../../aspose.tasks.saving/mppsaveoptions/writeviewdata/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα γραφτούν τα δεδομένα προβολής κατά την αποθήκευση ενός έργου σε μορφή MPP. Τα δεδομένα προβολής περιλαμβάνουν τις συλλογές Project.Views, Filters και Tables. |
+
+## Παραδείγματα
+
+Δείχνει πώς να αποθηκεύσετε το έργο σε μια ροή ως αρχείο MPP.
+
+```csharp
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+    // δημιουργία επιλογών αποθήκευσης
+    SimpleSaveOptions options = new MPPSaveOptions
+    {
+        // ορίζει μια τιμή που υποδεικνύει εάν θα αφαιρεθούν οι μη έγκυρες εκχωρήσεις πόρων κατά την αποθήκευση σε MPP
+        RemoveInvalidAssignments = true
+    };
+
+    // αποθήκευση MPP με επιλογές
+    project.Save(stream, options);
+}
+```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* συνέλευση [Aspose.Tasks](../../)
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

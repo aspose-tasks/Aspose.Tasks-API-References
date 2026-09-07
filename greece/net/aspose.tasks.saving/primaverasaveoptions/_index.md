@@ -1,9 +1,9 @@
 ---
-title: PrimaveraSaveOptions
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Επιτρέπει τον καθορισμό πρόσθετων επιλογών κατά την αποθήκευση του έργου σε μορφή Primavera XER.
+title: "Κλάση PrimaveraSaveOptions"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Aspose.Tasks.Saving.PrimaveraSaveOptions class. Επιτρέπει τον καθορισμό πρόσθετων επιλογών κατά την αποθήκευση του έργου σε μορφή Primavera XER"
 type: docs
-weight: 1880
+weight: 2150
 url: /el/net/aspose.tasks.saving/primaverasaveoptions/
 ---
 ## PrimaveraSaveOptions class
@@ -11,52 +11,54 @@ url: /el/net/aspose.tasks.saving/primaverasaveoptions/
 Επιτρέπει τον καθορισμό πρόσθετων επιλογών κατά την αποθήκευση του έργου σε μορφή Primavera XER.
 
 ```csharp
-public class PrimaveraSaveOptions : SaveOptions
+public class PrimaveraSaveOptions : SimpleSaveOptions
 ```
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [PrimaveraSaveOptions](primaverasaveoptions/)() | Αρχικοποιεί μια νέα παρουσία του`PrimaveraSaveOptions` τάξη. |
+| [PrimaveraSaveOptions](primaverasaveoptions/)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `PrimaveraSaveOptions`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ActivityIdIncrement](../../aspose.tasks.saving/primaverasaveoptions/activityidincrement/) { get; set; } | Λαμβάνει ή ορίζει την αύξηση που χρησιμοποιείται για την επαναρίθμηση των αναγνωριστικών δραστηριότητας. |
-| [ActivityIdPrefix](../../aspose.tasks.saving/primaverasaveoptions/activityidprefix/) { get; set; } | Λαμβάνει ή ορίζει το πρόθεμα που χρησιμοποιείται για την επαναρίθμηση των αναγνωριστικών δραστηριότητας. |
-| [ActivityIdSuffix](../../aspose.tasks.saving/primaverasaveoptions/activityidsuffix/) { get; set; } | Λαμβάνει ή ορίζει το επίθημα που χρησιμοποιείται για την επαναρίθμηση των αναγνωριστικών δραστηριότητας. |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Λαμβάνει ή ορίζει τη λίστα των παρουσιών του[`BarStyle`](../../aspose.tasks.visualization/barstyle/) κλάση που εμφανίζεται στην προβολή έργου. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Λαμβάνει ή ορίζει το προσαρμοσμένο μέγεθος σελίδας σε πόντους (1 σημείο = 1/72 της ίντσας). |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν πρέπει να τραβηχτεί ο μη εργάσιμος χρόνος (Η προεπιλεγμένη τιμή είναι TRUE). |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Λαμβάνει ή ορίζει μια ημερομηνία για να ολοκληρωθεί η απόδοση. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το ύψος της σειράς πρέπει να αυξηθεί για να ταιριάζει στο περιεχόμενό της. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | Λαμβάνει ή ορίζει εάν μια ενότητα ημερολογίου μιας προβολής θα πρέπει να αποδίδεται στο τέλος (δεξιά πλευρά) της τελευταίας σελίδας. Εάν η τιμή είναι ψευδής, η ενότητα ημερολογίου αποδίδεται ακριβώς στην Ημερομηνία λήξης, ακόμη και εάν υπάρχει κενός χώρος σε μια σελίδα. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Λαμβάνει ή ορίζει μια λίστα με[`Gridline`](../../aspose.tasks.visualization/gridline/) που εμφανίζονται στην προβολή έργου. |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το υπόμνημα πρέπει να εμφανίζεται σε κάθε σελίδα (Η προεπιλεγμένη τιμή είναι TRUE). |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν οι κρίσιμες εργασίες πρέπει να εμφανίζονται με κόκκινο χρώμα (Η προεπιλεγμένη τιμή είναι FALSE). |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | Λαμβάνει ή ορίζει το χρώμα του χρόνου που δεν λειτουργεί. |
-| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | Λαμβάνει ή ορίζει τον αριθμό των σελίδων του έργου. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Λαμβάνει ή ορίζει το μέγεθος της σελίδας που θα αποδοθεί (Η προεπιλεγμένη τιμή είναι PageSize.A4). |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Λαμβάνει ή ορίζει το[`PresentationFormat`](../saveoptions/presentationformat/) στο οποίο θα αποθηκευτεί το έγγραφο. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν ένα έργο πρέπει να αποδοθεί σε μία σελίδα όταν το έργο αποθηκεύεται σε γραφική μορφή. Το μέγεθος της σελίδας θα αλλάξει, ώστε το έργο που αποδίδεται να μπορεί να χωρέσει σε μία σελίδα. |
-| [RenumberActivityIds](../../aspose.tasks.saving/primaverasaveoptions/renumberactivityids/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν χρειάζεται να επαναριθμηθούν τα αναγνωριστικά δραστηριότητας. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν οι δευτερεύουσες εργασίες στη γραμμή εργασιών σύνοψης πρέπει να επισημαίνονται. Για δευτερεύουσες εργασίες, το πεδίο Συνάθροιση υποδεικνύει εάν οι πληροφορίες για τις γραμμές Gantt δευτερευουσών εργασιών θα ενσωματωθούν στη γραμμή εργασιών σύνοψης. Για εργασίες σύνοψης, η Σύναψη Το πεδίο υποδεικνύει εάν η γραμμή εργασιών σύνοψης εμφανίζει τυλιγμένες ράβδους. Πρέπει να έχετε το πεδίο Συνάθροιση για εργασίες σύνοψης που έχει οριστεί σε Ναι για τυχόν δευτερεύουσες εργασίες να συγκεντρωθούν σε αυτές. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | Λαμβάνει ή ορίζει τη μορφή στην οποία θα αποθηκευτεί το έγγραφο εάν χρησιμοποιείται αυτό το αντικείμενο επιλογών αποθήκευσης. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Λαμβάνει ή ορίζει την ημερομηνία από την οποία ξεκινά η απόδοση. |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | Λαμβάνει ή ρυθμίζει το εργαλείο σύγκρισης για ταξινόμηση εργασιών στο γράφημα Gantt και στο γράφημα Φύλλου εργασιών. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | Λαμβάνει ή ορίζει τη συνθήκη που χρησιμοποιείται για το φιλτράρισμα εργασιών που αποδίδονται σε γραφήματα Gantt, Task Sheet και Task Usage. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Λαμβάνει ή ορίζει τη λίστα των παρουσιών του[`TextStyle`](../../aspose.tasks.visualization/textstyle/) κλάση που εμφανίζεται στην προβολή έργου. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Λαμβάνει ή ορίζει το[`Timescale`](../saveoptions/timescale/) τιμή που χρησιμοποιείται για τον έλεγχο του τρόπου απόδοσης της κλίμακας χρόνου (εάν υπάρχει) όταν το έργο αποθηκεύεται σε γραφική μορφή. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα πρέπει να χρησιμοποιείται το gradient brush κατά την απόδοση του γραφήματος Gantt. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Λαμβάνει ή ορίζει μια λίστα με τις στήλες προβολής προς απόδοση ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ). Εάν δεν έχει οριστεί, τότε τα αναγνωριστικά εργασιών, τα ονόματα εργασιών, η αρχή και το τέλος αποδίδονται μόνο. Εάν και οι δύο Προβολή και[`ViewSettings`](../saveoptions/viewsettings/)οι ιδιότητες έχουν οριστεί, οι στήλες από την Προβολή αντικαθιστούν τις στήλες από τις Ρυθμίσεις Προβολής. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Λαμβάνει ή ορίζει μια προβολή ([`View`](../saveoptions/view/) ) καθιστώ. Μπορείτε να χρησιμοποιήσετε αυτές τις επιλογές για να καθορίσετε ρητά ποια προβολή θα αποθηκευτεί σε μορφές PDF, HTML ή Εικόνας. Εάν έχει οριστεί αυτή η ιδιότητα,[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) Η ιδιότητα αγνοείται όταν αποθηκεύεται το έργο. Η προβολή πρέπει να προέρχεται από μία από τις ακόλουθες οθόνες (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt, Task Sheet, TaskUsage, ResourceSheet, ResourceUsage) |
+| [ActivityIdIncrement](../../aspose.tasks.saving/primaverasaveoptions/activityidincrement/) { get; set; } | Λαμβάνει ή ορίζει την αύξηση που χρησιμοποιείται στην επανααρίθμηση των αναγνωριστικών δραστηριότητας. |
+| [ActivityIdPrefix](../../aspose.tasks.saving/primaverasaveoptions/activityidprefix/) { get; set; } | Λαμβάνει ή ορίζει το πρόθεμα που χρησιμοποιείται στην επανααρίθμηση των αναγνωριστικών δραστηριότητας. |
+| [ActivityIdSuffix](../../aspose.tasks.saving/primaverasaveoptions/activityidsuffix/) { get; set; } | Λαμβάνει ή ορίζει το επίθημα που χρησιμοποιείται στην επανααρίθμηση των αναγνωριστικών δραστηριότητας. |
+| [RenumberActivityIds](../../aspose.tasks.saving/primaverasaveoptions/renumberactivityids/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν χρειάζεται η επανααρίθμηση των αναγνωριστικών δραστηριότητας. |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Λαμβάνει ή ορίζει τη μορφή στην οποία θα αποθηκευτεί το έγγραφο εάν χρησιμοποιηθεί αυτό το αντικείμενο επιλογών αποθήκευσης. |
+| [SkipSummaryAssignments](../../aspose.tasks.saving/primaverasaveoptions/skipsummaryassignments/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει αν οι εκχωρήσεις πόρων σε συνοπτικές εργασίες πρέπει να παραλειφθούν κατά την εξαγωγή. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Λαμβάνει ή ορίζει τον συγκριτή για την ταξινόμηση των εργασιών στο γράφημα Gantt και στο γράφημα Φύλλου Εργασιών. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Λαμβάνει ή ορίζει τη συνθήκη που χρησιμοποιείται για το φιλτράρισμα των εργασιών που αποδίδονται στα γραφήματα Gantt, Φύλλο Εργασιών και Χρήση Εργασιών. |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με &lt;see cref="Aspose.Tasks.Saving.PrimaveraSaveOptions" /&gt;.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// Δημιουργήστε επιλογές αποθήκευσης Primavera και ρυθμίστε τις
+var options = new PrimaveraSaveOptions
+                  {
+                      // ορίστε πρόθεμα και επίθημα μιας δραστηριότητας
+                      ActivityIdPrefix = "TEST",
+                      ActivityIdSuffix = 10000,
+
+                      // ελέγξτε την επανααρίθμηση των δραστηριοτήτων
+                      ActivityIdIncrement = 5,
+                      RenumberActivityIds = true
+                  };
+
+project.Save(OutDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
+```
 
 ### Δείτε επίσης
 
-* class [SaveOptions](../saveoptions/)
-* χώρος ονομάτων [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* συνέλευση [Aspose.Tasks](../../)
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

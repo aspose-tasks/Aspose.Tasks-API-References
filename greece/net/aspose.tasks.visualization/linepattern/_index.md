@@ -1,9 +1,9 @@
 ---
-title: LinePattern
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Μοτίβο γραμμής.
+title: "Απαρίθμηση LinePattern"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Απαρίθμηση Aspose.Tasks.Visualization.LinePattern. Μοτίβο γραμμής"
 type: docs
-weight: 2850
+weight: 3190
 url: /el/net/aspose.tasks.visualization/linepattern/
 ---
 ## LinePattern enumeration
@@ -14,19 +14,104 @@ url: /el/net/aspose.tasks.visualization/linepattern/
 public enum LinePattern
 ```
 
-### Αξίες
+### Τιμές
 
-| Ονομα | αξία | Περιγραφή |
+| Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| None | `0` | Υποδεικνύει ότι μια γραμμή δεν θα εμφανίζεται. |
-| Solid | `1` | Υποδεικνύει μοτίβο συμπαγούς γραμμής. |
-| CloseDot | `3` | Υποδεικνύει μοτίβο γραμμής κλεισίματος κουκκίδας. |
-| Dotted | `4` | Υποδεικνύει μοτίβο με διακεκομμένη γραμμή. |
-| Dashed | `2` | Υποδεικνύει μοτίβο διακεκομμένης γραμμής. |
+| None | `0` | Υποδεικνύει ότι η γραμμή δεν θα εμφανιστεί. |
+| Solid | `1` | Υποδεικνύει μοτίβο στερεής γραμμής. |
+| CloseDot | `3` | Υποδεικνύει μοτίβο κλειστών κουκκίδων. |
+| Dotted | `4` | Υποδεικνύει μοτίβο διακεκομμένης γραμμής. |
+| Dashed | `2` | Υποδεικνύει μοτίβο παύλας. |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με γραμμές προόδου.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// ορίζουμε τη γραμμή προόδου
+view.ProgressLines = new ProgressLines();
+var progressLines = view.ProgressLines;
+
+// ορίστε την ημερομηνία από την οποία θα εμφανίζονται οι γραμμές προόδου. Ας ορίσουμε την ημερομηνία κατάστασης του έργου.
+progressLines.BeginAtDate = project.Get(Prj.StatusDate);
+// ορίστε μια τιμή που υποδεικνύει αν θα εμφανίζονται οι γραμμές προόδου από την αρχή της ημερομηνίας έναρξης του έργου
+progressLines.BeginAtProjectStart = true;
+// ορίστε τη μορφή ημερομηνίας (<see cref=\"T:Aspose.Tasks.Visualization.DateLabel\" />).
+progressLines.DateFormat = DateLabel.DayDddd;
+// ορίστε μια τιμή που υποδεικνύει αν θα εμφανίζεται η γραμμή προόδου στην τρέχουσα ημερομηνία.
+progressLines.DisplayAtCurrentDate = true;
+// ορίστε μια τιμή που υποδεικνύει αν θα εμφανίζεται η γραμμή προόδου σε επαναλαμβανόμενα διαστήματα.
+progressLines.DisplayAtRecurringIntervals = true;
+// ορίστε μια τιμή που υποδεικνύει αν θα εμφανίζονται οι γραμμές προόδου στις επιλεγμένες ημερομηνίες
+progressLines.DisplaySelected = true;
+// ορίστε μια τιμή που υποδεικνύει αν θα εμφανίζονται οι γραμμές προόδου για το βασικό σχέδιο ή το πραγματικό.
+progressLines.IsBaselinePlan = false;
+// ορίστε τη γραμματοσειρά που χρησιμοποιείται για την ετικέτα της γραμμής προόδου.
+progressLines.Font = new FontDescriptor("Arial", 10);
+// ορίστε το χρώμα γραμμής για την τρέχουσα γραμμή προόδου.
+progressLines.LineColor = Color.Aquamarine;
+// ορίστε το μοτίβο γραμμής της τρέχουσας γραμμής προόδου.
+progressLines.LinePattern = LinePattern.Dashed;
+// ορίστε το χρώμα της άλλης γραμμής προόδου.
+progressLines.OtherLineColor = Color.Azure;
+// ορίστε το μοτίβο γραμμής για την άλλη γραμμή προόδου.
+progressLines.OtherLinePattern = LinePattern.Dotted;
+// ορίστε το χρώμα του άλλου σημείου προόδου.
+progressLines.OtherProgressPointColor = Color.Red;
+// ορίστε το σχήμα του σημείου προόδου της άλλης γραμμής προόδου.
+progressLines.OtherProgressPointShape = GanttBarEndShape.Circle;
+// ορίστε το χρώμα του σημείου προόδου.
+progressLines.ProgressPointColor = Color.Orange;
+// ορίστε το σχήμα του σημείου προόδου.
+progressLines.ProgressPointShape = GanttBarEndShape.Diamond;
+// ορίστε το επαναλαμβανόμενο διάστημα.
+progressLines.RecurringInterval = new RecurringInterval();
+// ορίστε το επαναλαμβανόμενο διάστημα.
+progressLines.RecurringInterval.Interval = Interval.Daily;
+// ορίστε τον ημερήσιο αριθμό ημέρας
+progressLines.RecurringInterval.DailyDayNumber = 1;
+// ορίστε μια τιμή που υποδεικνύει αν θα εμφανίζεται η ημερομηνία για κάθε γραμμή προόδου.
+progressLines.ShowDate = true;
+
+// ας ελέγξουμε τις γραμμές προόδου
+Console.WriteLine("Begin At Date: " + progressLines.BeginAtDate);
+Console.WriteLine("Begin At Project Start: " + progressLines.BeginAtProjectStart);
+Console.WriteLine("Date Format: " + progressLines.DateFormat);
+Console.WriteLine("Display At Current Date: " + progressLines.DisplayAtCurrentDate);
+Console.WriteLine("Display At Recurring Intervals: " + progressLines.DisplayAtRecurringIntervals);
+Console.WriteLine("Display Selected: " + progressLines.DisplaySelected);
+Console.WriteLine("Font: " + progressLines.Font);
+Console.WriteLine("Is Baseline Plan: " + progressLines.IsBaselinePlan);
+Console.WriteLine("Line Color: " + progressLines.LineColor);
+Console.WriteLine("Line Pattern: " + progressLines.LinePattern);
+Console.WriteLine("Other Line Color: " + progressLines.OtherLineColor);
+Console.WriteLine("Other Line Pattern: " + progressLines.OtherLinePattern);
+Console.WriteLine("Other Progress Point Color: " + progressLines.OtherProgressPointColor);
+Console.WriteLine("Other Progress Point Shape: " + progressLines.OtherProgressPointShape);
+Console.WriteLine("Progress Point Color: " + progressLines.ProgressPointColor);
+Console.WriteLine("Progress Point Shape: " + progressLines.ProgressPointShape);
+Console.WriteLine("Recurring Interval: " + progressLines.RecurringInterval.Interval);
+Console.WriteLine("Recurring Interval DailyDayNumber: " + progressLines.RecurringInterval.DailyDayNumber);
+Console.WriteLine("Selected Dates: ");
+foreach (var date in progressLines.SelectedDates)
+{
+    Console.WriteLine("Date: " + date);
+}
+Console.WriteLine("Show Date: " + progressLines.ShowDate);
+Console.WriteLine();
+
+project.Save(OutDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
+```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* συνέλευση [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

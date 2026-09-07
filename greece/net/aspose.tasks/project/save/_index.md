@@ -1,56 +1,44 @@
 ---
-title: Save
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Αποθηκεύει το έγγραφο σε μορφή αρχείου mpp χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης.
+title: "Project.Save"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Project μέθοδος. Αποθηκεύει το έγγραφο σε αρχείο χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης"
 type: docs
-weight: 1180
+weight: 1200
 url: /el/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
-
-Αποθηκεύει το έγγραφο σε μορφή αρχείου mpp χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης.
-
-```csharp
-public void Save(string filename, MPPSaveOptions options)
-```
-
-| Παράμετρος | Τύπος | Περιγραφή |
-| --- | --- | --- |
-| filename | String | Το όνομα του αρχείου. |
-| options | MPPSaveOptions | Οι επιλογές αποθήκευσης. |
-
-### Δείτε επίσης
-
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
-* class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveOptions) {#save_6}
+## Save(string, SimpleSaveOptions) {#save_4}
 
 Αποθηκεύει το έγγραφο σε αρχείο χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης.
 
 ```csharp
-public void Save(string filename, SaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| filename | String | Το όνομα του αρχείου. |
-| options | SaveOptions | Οι επιλογές αποθήκευσης. |
+| όνομα αρχείου | String | Το όνομα αρχείου. |
+| επιλογές | SimpleSaveOptions | Οι επιλογές αποθήκευσης. |
+
+## Παραδείγματα
+
+Δείχνει πώς να αποθηκεύσετε το project ως αρχείο MPP.
+
+```csharp
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
+```
 
 ### Δείτε επίσης
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
 Αποθηκεύει τα δεδομένα του έργου στο αρχείο.
 
@@ -60,19 +48,30 @@ public void Save(string filename, SaveFileFormat format)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| filename | String | Το όνομα του αρχείου. |
-| format | SaveFileFormat | Η μορφή αρχείου αποθήκευσης. |
+| όνομα αρχείου | String | Το όνομα αρχείου. |
+| μορφή | SaveFileFormat | Η μορφή αρχείου αποθήκευσης. |
+
+## Παραδείγματα
+
+Δείχνει πώς να δημιουργήσετε ένα έργο και να το αποθηκεύσετε σε μορφή MPP χωρίς να περάσετε αρχείο προτύπου MPP.
+
+```csharp
+var project = new Project();
+
+// Το έργο θα αποθηκευτεί σε MPP χρησιμοποιώντας το εσωτερικό πρότυπο MPP.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
 
 ### Δείτε επίσης
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
 Αποθηκεύει τα δεδομένα του έργου στο αρχείο σε μορφή mpp.
 
@@ -82,61 +81,68 @@ public void Save(string filename)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| filename | String | Το όνομα του αρχείου. |
+| όνομα αρχείου | String | Το όνομα αρχείου. |
 
 ### Δείτε επίσης
 
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
 Αποθηκεύει το έργο σε μια ροή χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| stream | Stream | Το ρεύμα. |
-| options | SaveOptions | Οι επιλογές αποθήκευσης. |
+| ροή | Ροή | Η ροή. |
+| επιλογές | SimpleSaveOptions | Οι επιλογές αποθήκευσης. |
 
-### Δείτε επίσης
+## Παραδείγματα
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-Αποθηκεύει το έργο σε μια ροή χρησιμοποιώντας τις καθορισμένες επιλογές αποθήκευσης.
+Δείχνει πώς να αποθηκεύσετε το project σε ροή ως αρχείο MPP χρησιμοποιώντας τις επιλογές αποθήκευσης MPP.
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // χρησιμοποιώντας το MPPSaveOptions το αποθηκεύουμε σε μορφή MPP
+    project.Save(stream, options);
+}
 ```
 
-| Παράμετρος | Τύπος | Περιγραφή |
-| --- | --- | --- |
-| stream | Stream | Το ρεύμα. |
-| options | MPPSaveOptions | Οι επιλογές αποθήκευσης. |
+Δείχνει πώς να αποθηκεύσετε το project σε ροή ως εικόνα και να ελέγξετε τις επιλογές εικόνας.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // χρησιμοποιώντας το ImageSaveOptions αποθηκεύουμε το έργο σε μορφή εικόνας
+    project.Save(stream, options);
+}
+```
 
 ### Δείτε επίσης
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
 Αποθηκεύει τα δεδομένα του έργου στη ροή.
 
@@ -146,14 +152,28 @@ public void Save(Stream stream, SaveFileFormat format)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| stream | Stream | Το ρεύμα. |
-| format | SaveFileFormat | την καθορισμένη μορφή αρχείου αποθήκευσης.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
+| ροή | Ροή | Η ροή. |
+| format | SaveFileFormat | η καθορισμένη μορφή αρχείου αποθήκευσης.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
+
+## Παραδείγματα
+
+Δείχνει πώς να αποθηκεύσετε το project σε ροή ως αρχείο XML MS Project.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // Γράψτε τη ροή σε μορφή XML
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
 
 ### Δείτε επίσης
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* χώρος ονομάτων [Aspose.Tasks](../../project/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
