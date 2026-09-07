@@ -1,35 +1,101 @@
 ---
-title: ToList
-second_title: Aspose.Tasks for .NET API Reference
-description: परवर्तत करत हैRateCollectionaspose.tasks/ratecollection/ क सूच पर आपत्तRateaspose.tasks/rate/ वस्तुओं.
+title: "RateCollection.ToList"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "RateCollection मेथड। RateCollection ऑब्जेक्ट को Rate ऑब्जेक्ट्स की सूची में परिवर्तित करता है"
 type: docs
 weight: 80
 url: /hi/net/aspose.tasks/ratecollection/tolist/
 ---
 ## ToList() {#tolist}
 
-परिवर्तित करता है[`RateCollection`](../) की सूची पर आपत्ति[`Rate`](../../rate/) वस्तुओं.
+[`RateCollection`](../) ऑब्जेक्ट को [`Rate`](../../rate/) ऑब्जेक्ट्स की सूची में परिवर्तित करता है।
 
 ```csharp
 public List<Rate> ToList()
 ```
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-की सूची[`Rate`](../../rate/) वस्तुओं।
+[`Rate`](../../rate/) ऑब्जेक्ट्स की सूची।
 
-### यह सभी देखें
+## उदाहरण
+
+दर संग्रहों के साथ काम करने का तरीका दर्शाता है।
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Test Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0), RateType.B);
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+
+Console.WriteLine("Print rates of '{0}' resource: ", resource.Rates.ParentResource.Get(Rsc.Name));
+Console.WriteLine("Count of rates: {0}", resource.Rates.Count);
+Console.WriteLine("Is rate collection read-only: {0}", resource.Rates.IsReadOnly);
+foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Rates)
+{
+    foreach (KeyValuePair<DateTime, Rate> pair in sortedRates.Value)
+    {
+        var rate = pair.Value;
+        Console.WriteLine("Rates From: " + rate.RatesFrom);
+        Console.WriteLine("Rates To: " + rate.RatesTo);
+        Console.WriteLine("Rate Table: " + rate.RateTable);
+        Console.WriteLine();
+    }
+}
+
+// इंडेक्स एक्सेस द्वारा नवीनतम दर प्राप्त करें
+var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
+rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
+Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
+Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
+
+// ...
+// दरों के साथ काम करें
+// ...
+
+// प्रकार A की सभी दरें हटाएँ
+List<Rate> rates = resource.Rates.ToList(RateType.A);
+for (var i = 0; i < rates.Count; i++)
+{
+    var rateToRemove = rates[i];
+    resource.Rates.Remove(rateToRemove);
+}
+
+// दर संग्रह को एक फ्लैट सूची में बदलें
+Console.WriteLine("Iterate over the rates after remove the A-typed values: ");
+List<Rate> list = resource.Rates.ToList();
+foreach (var rt in list)
+{
+    Console.WriteLine("Rates From: " + rt.RatesFrom);
+    Console.WriteLine("Rates To: " + rt.RatesTo);
+    Console.WriteLine("Rate Table: " + rt.RateTable);
+}
+```
+
+### संबंधित देखें
 
 * class [Rate](../../rate/)
 * class [RateCollection](../)
-* नाम स्थान [Aspose.Tasks](../../ratecollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ratecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ToList(RateType) {#tolist_1}
 
-परिवर्तित करता है[`RateCollection`](../) की सूची पर आपत्ति[`Rate`](../../rate/) निर्दिष्ट द्वारा फ़िल्टर की गई वस्तुएँ[`RateType`](../../ratetype/) टाइप.
+[`RateCollection`](../) ऑब्जेक्ट को निर्दिष्ट [`RateType`](../../ratetype/) प्रकार द्वारा फ़िल्टर की गई [`Rate`](../../rate/) ऑब्जेक्ट्स की सूची में परिवर्तित करता है।
 
 ```csharp
 public List<Rate> ToList(RateType type)
@@ -37,18 +103,84 @@ public List<Rate> ToList(RateType type)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| type | RateType | फ़िल्टर करने के लिए प्रकार। |
+| प्रकार | RateType | फ़िल्टर करने के लिए प्रकार। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-इसकी सूची[`Rate`](../../rate/) वस्तुओं।
+[`Rate`](../../rate/) ऑब्जेक्ट्स की एक सूची।
 
-### यह सभी देखें
+## उदाहरण
+
+दर संग्रहों के साथ काम करने का तरीका दर्शाता है।
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Test Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0), RateType.B);
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+
+Console.WriteLine("Print rates of '{0}' resource: ", resource.Rates.ParentResource.Get(Rsc.Name));
+Console.WriteLine("Count of rates: {0}", resource.Rates.Count);
+Console.WriteLine("Is rate collection read-only: {0}", resource.Rates.IsReadOnly);
+foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Rates)
+{
+    foreach (KeyValuePair<DateTime, Rate> pair in sortedRates.Value)
+    {
+        var rate = pair.Value;
+        Console.WriteLine("Rates From: " + rate.RatesFrom);
+        Console.WriteLine("Rates To: " + rate.RatesTo);
+        Console.WriteLine("Rate Table: " + rate.RateTable);
+        Console.WriteLine();
+    }
+}
+
+// इंडेक्स एक्सेस द्वारा नवीनतम दर प्राप्त करें
+var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
+rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
+Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
+Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
+
+// ...
+// दरों के साथ काम करें
+// ...
+
+// प्रकार A की सभी दरें हटाएँ
+List<Rate> rates = resource.Rates.ToList(RateType.A);
+for (var i = 0; i < rates.Count; i++)
+{
+    var rateToRemove = rates[i];
+    resource.Rates.Remove(rateToRemove);
+}
+
+// दर संग्रह को एक फ्लैट सूची में बदलें
+Console.WriteLine("Iterate over the rates after remove the A-typed values: ");
+List<Rate> list = resource.Rates.ToList();
+foreach (var rt in list)
+{
+    Console.WriteLine("Rates From: " + rt.RatesFrom);
+    Console.WriteLine("Rates To: " + rt.RatesTo);
+    Console.WriteLine("Rate Table: " + rt.RateTable);
+}
+```
+
+### संबंधित देखें
 
 * class [Rate](../../rate/)
 * enum [RateType](../../ratetype/)
 * class [RateCollection](../)
-* नाम स्थान [Aspose.Tasks](../../ratecollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ratecollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

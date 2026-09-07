@@ -1,14 +1,14 @@
 ---
-title: Add
-second_title: Aspose.Tasks for .NET API Reference
-description: नर्दष्ट कर्य क उदहरण में जड़ेंTaskCollectionaspose.tasks/taskcollection/class. यद ParentProject.CalculationMode कई नहं है त उपयगकर्त क इस वध क उपयग करने के बद Project.Recalculate  क आह्वन करन चहए यह सभ प्रजेक्ट कर्यं क फर से शेड्यूल करेग प्ररंभ/समप्त तथयं प्ररंभक/देर क तथयं सेट करत है और आश्रत क्षेत्रं जैसे स्लैक्स कर्य क गणन करत है और लगत फ़ल्ड आईड और रूपरेख स्तर यद ParentProject.CalculationMode मैनुअल है त वध केवल कर्य आईड रूपरेख स्तर और बह्यरेख संख्यओं क स्वचलत रूप से गणन करेग तथयं प्ररंभक/देर क तथयं सेट करत हैं स्लैक्स कर्य और लगत क्षेत्रं क गणन करत हैं आईड और रूपरेख स्तरं क पुनर्गणन करत हैं
+title: "TaskCollection.Add"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "TaskCollection मेथड। निर्दिष्ट टास्क को TaskCollection क्लास के इंस्टेंस में जोड़ता है। यदि ParentProject.CalculationMode None है तो उपयोगकर्ता को इस मेथड के उपयोग के बाद Project.Recalculate को कॉल करना चाहिए। यह सभी प्रोजेक्ट टास्क की शुरू/समाप्ति तिथियों को पुनर्निर्धारित करेगा, प्रारंभिक/अंतिम तिथियों को सेट करेगा और स्लैक, कार्य और लागत फ़ील्ड, आईडी और आउटलाइन लेवल जैसे निर्भर फ़ील्ड की गणना करेगा। यदि ParentProject.CalculationMode Manual है तो मेथड केवल टास्क आईडी, आउटलाइन लेवल और आउटलाइन नंबरों की स्वतः गणना करेगा। यदि ParentProject.CalculationMode Automatic है तो मेथड सभी प्रोजेक्ट टास्क को स्वतः पुनर्निर्धारित करेगा (शुरू/समाप्ति तिथियों को सेट करेगा, प्रारंभिक/अंतिम तिथियों को सेट करेगा, स्लैक, कार्य और लागत फ़ील्ड की गणना करेगा, आईडी और आउटलाइन लेवल को पुनः गणना करेगा)।"
 type: docs
 weight: 50
 url: /hi/net/aspose.tasks/taskcollection/add/
 ---
 ## Add(Task) {#add_4}
 
-निर्दिष्ट कार्य को उदाहरण में जोड़ें[`TaskCollection`](../)class. यदि ParentProject.CalculationMode कोई नहीं है, तो उपयोगकर्ता को इस विधि का उपयोग करने के बाद Project.Recalculate () का आह्वान करना चाहिए (यह सभी प्रोजेक्ट कार्यों को फिर से शेड्यूल करेगा (प्रारंभ/समाप्ति तिथियां, प्रारंभिक/देर की तिथियां सेट करता है) और आश्रित क्षेत्रों जैसे स्लैक्स, कार्य की गणना करता है और लागत फ़ील्ड, आईडी और रूपरेखा स्तर)। यदि ParentProject.CalculationMode मैनुअल है तो विधि केवल कार्य आईडी, रूपरेखा स्तर और बाह्यरेखा संख्याओं की स्वचालित रूप से गणना करेगी। तिथियां, प्रारंभिक/देर की तिथियां सेट करती हैं, स्लैक्स, कार्य और लागत क्षेत्रों की गणना करती हैं, आईडी और रूपरेखा स्तरों की पुनर्गणना करती हैं)
+निर्दिष्ट टास्क को [`TaskCollection`](../) क्लास के इंस्टेंस में जोड़ें। यदि ParentProject.CalculationMode None है तो उपयोगकर्ता को इस मेथड के उपयोग के बाद Project.Recalculate() को कॉल करना चाहिए (यह सभी प्रोजेक्ट टास्क को पुनर्निर्धारित करेगा (शुरू/समाप्ति तिथियों, प्रारंभिक/अंतिम तिथियों को सेट करेगा) और स्लैक, कार्य और लागत फ़ील्ड, आईडी और आउटलाइन लेवल जैसे निर्भर फ़ील्ड की गणना करेगा)। यदि ParentProject.CalculationMode Manual है तो मेथड केवल टास्क आईडी, आउटलाइन लेवल और आउटलाइन नंबरों की स्वतः गणना करेगा। यदि ParentProject.CalculationMode Automatic है तो मेथड सभी प्रोजेक्ट टास्क को स्वतः पुनर्निर्धारित करेगा (शुरू/समाप्ति तिथियों, प्रारंभिक/अंतिम तिथियों को सेट करेगा, स्लैक, कार्य और लागत फ़ील्ड की गणना करेगा, आईडी और आउटलाइन लेवल को पुनः गणना करेगा)।
 
 ```csharp
 public void Add(Task item)
@@ -16,41 +16,128 @@ public void Add(Task item)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| item | Task | निर्दिष्ट कार्य जिसे इस कार्य संग्रह में जोड़ा जाना चाहिए। |
+| आइटम | कार्य | निर्दिष्ट कार्य जिसे इस कार्य संग्रह में जोड़ा जाना चाहिए। |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि कैसे एक कार्य को दूसरे पैरेंट के अंतर्गत ले जाया जाए।
+
+```csharp
+var project = new Project(DataDir + "MoveTask.mpp") { CalculationMode = CalculationMode.Automatic };
+
+// आईडी द्वारा कार्य प्राप्त करें
+var task = project.RootTask.Children.GetByUid(6);
+var task2 = project.RootTask.Children.GetByUid(3);
+
+// कार्य 6 को दूसरे पैरेंट में जोड़ना
+task2.Children.Add(task);
+```
+
+### संबंधित देखें
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* नाम स्थान [Aspose.Tasks](../../taskcollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add() {#add}
 
-पिछले कार्य के समान रूपरेखा स्तर पर प्रोजेक्ट कार्य संग्रह में नया कार्य जोड़ता है।
+पिछले टास्क के समान आउटलाइन लेवल पर प्रोजेक्ट टास्क्स संग्रह में नया टास्क जोड़ता है।
 
 ```csharp
 public Task Add()
 ```
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-का नया जोड़ा उदाहरण लौटाता है[`Task`](../../task/) कक्षा।
+नए जोड़े गए [`Task`](../../task/) वर्ग की इंस्टेंस लौटाता है।
 
-### यह सभी देखें
+## उदाहरण
+
+टास्क कलेक्शन्स के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project();
+
+// टास्क कलेक्शन रीड-ओनली नहीं है और इसे विस्तारित किया जा सकता है।
+Console.WriteLine("Is task collection read - only: " + project.RootTask.Children.IsReadOnly);
+
+// टास्क बनाएं
+var task1 = project.RootTask.Children.Add();
+task1.Set(Tsk.Name, "Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task1.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task1.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task3 = project.RootTask.Children.Add("Task 3");
+task3.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task3.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task3.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task2 = project.RootTask.Children.Add("Task 2", 2);
+task2.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+// प्रोजेक्ट टास्क्स प्रिंट करें
+Console.WriteLine("Count of tasks: " + project.RootTask.Children.Count);
+foreach (var child in project.RootTask.Children)
+{
+    Console.WriteLine("Parent Project: " + project.RootTask.ParentProject.Get(Prj.Name));
+    Console.WriteLine("Task name: " + child.Get(Tsk.Name));
+    Console.WriteLine("Task start: " + child.Get(Tsk.Start));
+    Console.WriteLine("Task duration: " + child.Get(Tsk.Duration));
+    Console.WriteLine("Task finish: " + child.Get(Tsk.Finish));
+    Console.WriteLine();
+}
+
+// एक टास्क को आईडी द्वारा संग्रह से लिया जा सकता है।
+var task1ToEdit = project.RootTask.Children.GetById(1);
+task1ToEdit.Set(Tsk.Name, "Task 1 (Edited)");
+
+// या UID द्वारा
+var taskToEdit2 = project.RootTask.Children.GetByUid(2);
+taskToEdit2.Set(Tsk.Name, "Task 2 (Edited)");
+
+// आप भी एक आवर्ती टास्क जोड़ सकते हैं
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     Repetition = new DailyCalendarRepetition { RepetitionInterval = 1 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2020, 4, 13, 8, 0, 0),
+                                                                               Finish = new DateTime(2021, 4, 13, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+
+// एक क्रम में पहला टास्क लौटाया जाता है।
+var recurring = project.RootTask.Children.Add(parameters);
+Console.WriteLine("Task name: " + recurring.Get(Tsk.Name));
+
+// संग्रह को साधारण सूची में परिवर्तित किया जा सकता है।
+List<Task> tasks = project.RootTask.Children.ToList();
+foreach (var task in tasks)
+{
+    task.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* नाम स्थान [Aspose.Tasks](../../taskcollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(string) {#add_2}
 
-चिल्ड्रन टास्क कलेक्शन में एक नया टास्क जोड़ता है।
+चाइल्ड टास्क्स संग्रह में नया टास्क जोड़ता है।
 
 ```csharp
 public Task Add(string taskName)
@@ -58,24 +145,96 @@ public Task Add(string taskName)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| taskName | String | निर्दिष्ट कार्य का नाम। |
+| taskName | स्ट्रिंग | निर्दिष्ट कार्य नाम। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-का नया जोड़ा उदाहरण लौटाता है[`Task`](../../task/) कक्षा।
+नए जोड़े गए [`Task`](../../task/) वर्ग की इंस्टेंस लौटाता है।
 
-### यह सभी देखें
+## उदाहरण
+
+टास्क कलेक्शन्स के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project();
+
+// टास्क कलेक्शन रीड-ओनली नहीं है और इसे विस्तारित किया जा सकता है।
+Console.WriteLine("Is task collection read - only: " + project.RootTask.Children.IsReadOnly);
+
+// टास्क बनाएं
+var task1 = project.RootTask.Children.Add();
+task1.Set(Tsk.Name, "Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task1.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task1.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task3 = project.RootTask.Children.Add("Task 3");
+task3.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task3.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task3.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task2 = project.RootTask.Children.Add("Task 2", 2);
+task2.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+// प्रोजेक्ट टास्क्स प्रिंट करें
+Console.WriteLine("Count of tasks: " + project.RootTask.Children.Count);
+foreach (var child in project.RootTask.Children)
+{
+    Console.WriteLine("Parent Project: " + project.RootTask.ParentProject.Get(Prj.Name));
+    Console.WriteLine("Task name: " + child.Get(Tsk.Name));
+    Console.WriteLine("Task start: " + child.Get(Tsk.Start));
+    Console.WriteLine("Task duration: " + child.Get(Tsk.Duration));
+    Console.WriteLine("Task finish: " + child.Get(Tsk.Finish));
+    Console.WriteLine();
+}
+
+// एक टास्क को आईडी द्वारा संग्रह से लिया जा सकता है।
+var task1ToEdit = project.RootTask.Children.GetById(1);
+task1ToEdit.Set(Tsk.Name, "Task 1 (Edited)");
+
+// या UID द्वारा
+var taskToEdit2 = project.RootTask.Children.GetByUid(2);
+taskToEdit2.Set(Tsk.Name, "Task 2 (Edited)");
+
+// आप भी एक आवर्ती टास्क जोड़ सकते हैं
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     Repetition = new DailyCalendarRepetition { RepetitionInterval = 1 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2020, 4, 13, 8, 0, 0),
+                                                                               Finish = new DateTime(2021, 4, 13, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+
+// एक क्रम में पहला टास्क लौटाया जाता है।
+var recurring = project.RootTask.Children.Add(parameters);
+Console.WriteLine("Task name: " + recurring.Get(Tsk.Name));
+
+// संग्रह को साधारण सूची में परिवर्तित किया जा सकता है।
+List<Task> tasks = project.RootTask.Children.ToList();
+foreach (var task in tasks)
+{
+    task.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* नाम स्थान [Aspose.Tasks](../../taskcollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(string, int) {#add_3}
 
-चिल्ड्रन टास्क संग्रह में एक नया पुनरावर्ती कार्य जोड़ता है।
+चाइल्ड टास्क्स संग्रह में नया आवर्ती टास्क जोड़ता है।
 
 ```csharp
 public Task Add(string taskName, int beforeTaskId)
@@ -83,31 +242,103 @@ public Task Add(string taskName, int beforeTaskId)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| taskName | String | निर्दिष्ट कार्य का नाम। |
-| beforeTaskId | Int32 | किसी कार्य की निर्दिष्ट आईडी जिसके पहले एक नया कार्य डाला जाएगा। |
+| taskName | स्ट्रिंग | निर्दिष्ट कार्य नाम। |
+| beforeTaskId | Int32 | निर्दिष्ट आईडी वह है जिसके पहले एक नया कार्य डाला जाएगा। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-एक कार्य देता है जो निर्दिष्ट आईडी वाले कार्य से पहले डाला गया था।
+निर्दिष्ट आईडी वाले कार्य से पहले डाले गए कार्य को लौटाता है।
 
 ### अपवाद
 
-| अपवाद | स्थिति |
+| अपवाद | शर्त |
 | --- | --- |
-| ArgumentOutOfRangeException | यदि निर्दिष्ट आईडी मान्य कार्य आईडी नहीं है, तो ArgumentOutOfRangeException को फेंक दिया जाता है। |
+| ArgumentOutOfRangeException | यदि निर्दिष्ट आईडी मान्य कार्य आईडी नहीं है तो ArgumentOutOfRangeException फेंका जाता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+टास्क कलेक्शन्स के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project();
+
+// टास्क कलेक्शन रीड-ओनली नहीं है और इसे विस्तारित किया जा सकता है।
+Console.WriteLine("Is task collection read - only: " + project.RootTask.Children.IsReadOnly);
+
+// टास्क बनाएं
+var task1 = project.RootTask.Children.Add();
+task1.Set(Tsk.Name, "Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task1.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task1.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task3 = project.RootTask.Children.Add("Task 3");
+task3.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task3.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task3.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task2 = project.RootTask.Children.Add("Task 2", 2);
+task2.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+// प्रोजेक्ट टास्क्स प्रिंट करें
+Console.WriteLine("Count of tasks: " + project.RootTask.Children.Count);
+foreach (var child in project.RootTask.Children)
+{
+    Console.WriteLine("Parent Project: " + project.RootTask.ParentProject.Get(Prj.Name));
+    Console.WriteLine("Task name: " + child.Get(Tsk.Name));
+    Console.WriteLine("Task start: " + child.Get(Tsk.Start));
+    Console.WriteLine("Task duration: " + child.Get(Tsk.Duration));
+    Console.WriteLine("Task finish: " + child.Get(Tsk.Finish));
+    Console.WriteLine();
+}
+
+// एक टास्क को आईडी द्वारा संग्रह से लिया जा सकता है।
+var task1ToEdit = project.RootTask.Children.GetById(1);
+task1ToEdit.Set(Tsk.Name, "Task 1 (Edited)");
+
+// या UID द्वारा
+var taskToEdit2 = project.RootTask.Children.GetByUid(2);
+taskToEdit2.Set(Tsk.Name, "Task 2 (Edited)");
+
+// आप भी एक आवर्ती टास्क जोड़ सकते हैं
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     Repetition = new DailyCalendarRepetition { RepetitionInterval = 1 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2020, 4, 13, 8, 0, 0),
+                                                                               Finish = new DateTime(2021, 4, 13, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+
+// एक क्रम में पहला टास्क लौटाया जाता है।
+var recurring = project.RootTask.Children.Add(parameters);
+Console.WriteLine("Task name: " + recurring.Get(Tsk.Name));
+
+// संग्रह को साधारण सूची में परिवर्तित किया जा सकता है।
+List<Task> tasks = project.RootTask.Children.ToList();
+foreach (var task in tasks)
+{
+    task.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* नाम स्थान [Aspose.Tasks](../../taskcollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(RecurringTaskParameters) {#add_1}
 
-निर्दिष्ट आईडी के साथ और समान रूपरेखा स्तर पर कार्य से पहले एक नया कार्य सम्मिलित करता है।
+निर्दिष्ट आईडी वाले टास्क से पहले और समान आउटलाइन लेवल पर नया टास्क सम्मिलित करता है।
 
 ```csharp
 public Task Add(RecurringTaskParameters parameters)
@@ -115,25 +346,97 @@ public Task Add(RecurringTaskParameters parameters)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| parameters | RecurringTaskParameters | आवर्ती कार्य के निर्माण के लिए पैरामीटर निर्दिष्ट पैरामीटर। |
+| parameters | RecurringTaskParameters | आवर्ती कार्य बनाने के लिए निर्दिष्ट पैरामीटर। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-का नया जोड़ा उदाहरण लौटाता है[`Task`](../../task/) कक्षा।
+नए जोड़े गए [`Task`](../../task/) वर्ग की इंस्टेंस लौटाता है।
 
 ### अपवाद
 
-| अपवाद | स्थिति |
+| अपवाद | शर्त |
 | --- | --- |
-| ArgumentNullException | निर्दिष्ट पैरामीटर शून्य होने पर फेंक दिया गया। |
-| ArgumentException | निर्दिष्ट पैरामीटर अमान्य होने पर फेंक दिया गया। |
+| ArgumentNullException | यदि निर्दिष्ट पैरामीटर null हों तो फेंका जाता है। |
+| ArgumentException | यदि निर्दिष्ट पैरामीटर अमान्य हों तो फेंका जाता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+टास्क कलेक्शन्स के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project();
+
+// टास्क कलेक्शन रीड-ओनली नहीं है और इसे विस्तारित किया जा सकता है।
+Console.WriteLine("Is task collection read - only: " + project.RootTask.Children.IsReadOnly);
+
+// टास्क बनाएं
+var task1 = project.RootTask.Children.Add();
+task1.Set(Tsk.Name, "Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task1.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task1.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task3 = project.RootTask.Children.Add("Task 3");
+task3.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task3.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+task3.Set(Tsk.Finish, new DateTime(2020, 4, 15, 17, 0, 0));
+var task2 = project.RootTask.Children.Add("Task 2", 2);
+task2.Set(Tsk.Start, new DateTime(2020, 4, 15, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+// प्रोजेक्ट टास्क्स प्रिंट करें
+Console.WriteLine("Count of tasks: " + project.RootTask.Children.Count);
+foreach (var child in project.RootTask.Children)
+{
+    Console.WriteLine("Parent Project: " + project.RootTask.ParentProject.Get(Prj.Name));
+    Console.WriteLine("Task name: " + child.Get(Tsk.Name));
+    Console.WriteLine("Task start: " + child.Get(Tsk.Start));
+    Console.WriteLine("Task duration: " + child.Get(Tsk.Duration));
+    Console.WriteLine("Task finish: " + child.Get(Tsk.Finish));
+    Console.WriteLine();
+}
+
+// एक टास्क को आईडी द्वारा संग्रह से लिया जा सकता है।
+var task1ToEdit = project.RootTask.Children.GetById(1);
+task1ToEdit.Set(Tsk.Name, "Task 1 (Edited)");
+
+// या UID द्वारा
+var taskToEdit2 = project.RootTask.Children.GetByUid(2);
+taskToEdit2.Set(Tsk.Name, "Task 2 (Edited)");
+
+// आप भी एक आवर्ती टास्क जोड़ सकते हैं
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     Repetition = new DailyCalendarRepetition { RepetitionInterval = 1 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2020, 4, 13, 8, 0, 0),
+                                                                               Finish = new DateTime(2021, 4, 13, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+
+// एक क्रम में पहला टास्क लौटाया जाता है।
+var recurring = project.RootTask.Children.Add(parameters);
+Console.WriteLine("Task name: " + recurring.Get(Tsk.Name));
+
+// संग्रह को साधारण सूची में परिवर्तित किया जा सकता है।
+List<Task> tasks = project.RootTask.Children.ToList();
+foreach (var task in tasks)
+{
+    task.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Task](../../task/)
 * class [RecurringTaskParameters](../../recurringtaskparameters/)
 * class [TaskCollection](../)
-* नाम स्थान [Aspose.Tasks](../../taskcollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

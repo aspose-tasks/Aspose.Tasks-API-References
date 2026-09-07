@@ -1,159 +1,183 @@
 ---
-title: TaskKey
-second_title: Aspose.Tasks for .NET API Reference
-description: समर्थत कर्य क्षेत्रं क सूच क प्रतनधत्व करत है
+title: "Enum TaskKey"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.TaskKey enum. समर्थित कार्य फ़ील्ड की सूची का प्रतिनिधित्व करता है"
 type: docs
-weight: 2110
+weight: 2400
 url: /hi/net/aspose.tasks/taskkey/
 ---
 ## TaskKey enumeration
 
-समर्थित कार्य क्षेत्रों की सूची का प्रतिनिधित्व करता है।
+समर्थित टास्क फ़ील्ड्स की सूची का प्रतिनिधित्व करता है।
 
 ```csharp
-public enum TaskKey
+public enum TaskKey : byte
 ```
 
 ### मान
 
-| नाम | कीमत | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| Uid | `0` | अद्वितीय आईडी (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Id | `1` | आईडी (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Name | `2` | नाम (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Type | `3` | प्रकार (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsNull | `4` | IsNull (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Created | `5` | निर्मित (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Contact | `6` | संपर्क (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| WBS | `7` | WBS (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| WBSLevel | `8` | WBSLevel (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| OutlineNumber | `9` | आउटलाइननंबर (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| OutlineLevel | `10` | आउटलाइनलेवल (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Priority | `11` | प्राथमिकता (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Start | `12` | प्रारंभ (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Finish | `13` | समाप्त (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Duration | `14` | अवधि (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| DurationVariance | `15` | अवधि भिन्नता (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| DurationFormat | `16` | अवधि प्रारूप (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Work | `17` | कार्य (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Stop | `18` | स्टॉप (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Resume | `19` | बायोडाटा (कार्य) क्षेत्र का प्रतिनिधित्व करता है। |
-| IsResumeValid | `20` | IsResumeValid (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsEffortDriven | `21` | IsEffortDriven (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsRecurring | `22` | IsRecurring (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsOverallocated | `23` | IsOverallocated (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| HasOverallocatedResource | `24` | HasOverallocatedResource (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsEstimated | `25` | अनुमानित (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsMilestone | `26` | इस माइलस्टोन (कार्य) क्षेत्र का प्रतिनिधित्व करता है। |
-| IsCritical | `27` | IsCritical (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsSubproject | `28` | IsSubproject (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsSubprojectReadOnly | `29` | IsSubprojectReadOnly (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsMarked | `30` | IsMarked (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IgnoreWarnings | `31` | अनदेखा चेतावनी (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| SubprojectName | `32` | सबप्रोजेक्टनाम (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsExternalTask | `33` | IsExternalTask (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsSummary | `34` | IsSummary (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ExternalTaskProject | `35` | बाहरी टास्कप्रोजेक्ट (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ExternalId | `36` | बाहरी आईडी (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ExternalKey | `37` | बाहरी कुंजी (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| EarlyStart | `38` | अर्लीस्टार्ट (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| EarlyFinish | `39` | अर्लीफिनिश (टास्क) फील्ड का प्रतिनिधित्व करता है। |
-| LateStart | `40` | लेटस्टार्ट (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| LateFinish | `41` | लेटफिनिश (टास्क) फील्ड का प्रतिनिधित्व करता है। |
-| StartVariance | `42` | StartVariance (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| FinishVariance | `43` | फिनिश वेरिएंस (टास्क) फील्ड को दर्शाता है। |
-| WorkVariance | `44` | वर्कवेरियंस (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| CostVariance | `45` | कॉस्टवेरियंस (टास्क) फील्ड को दर्शाता है। |
-| FreeSlack | `46` | फ्रीस्लैक (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| TotalSlack | `47` | टोटलस्लैक (टास्क) फील्ड को दर्शाता है। |
-| StartSlack | `48` | StartSlack (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| FinishSlack | `49` | फिनिश स्लैक (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| FixedCost | `50` | निश्चित लागत (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| FixedCostAccrual | `51` | फिक्स्डकॉस्टएक्रुअल (टास्क) फील्ड को दर्शाता है। |
-| PercentComplete | `52` | प्रतिशत पूर्ण (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| PercentWorkComplete | `53` | प्रतिशत कार्य पूर्ण (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Cost | `54` | लागत (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| OvertimeCost | `55` | ओवरटाइमकॉस्ट (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActualStart | `56` | वास्तविक प्रारंभ (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActualFinish | `57` | एक्चुअलफिनिश (टास्क) फील्ड को दर्शाता है। |
-| ActualDuration | `58` | वास्तविक अवधि (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActualCost | `59` | वास्तविक लागत (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActualOvertimeCost | `60` | वास्तविक ओवरटाइम लागत (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActualWork | `61` | वास्तविक कार्य (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActualOvertimeWork | `62` | वास्तविक ओवरटाइम वर्क (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| OvertimeWork | `63` | ओवरटाइम वर्क (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| RegularWork | `64` | नियमित कार्य (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| RemainingDuration | `65` | शेष अवधि (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| RemainingCost | `66` | शेष लागत (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| RemainingWork | `67` | शेष कार्य (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| RemainingOvertimeWork | `68` | शेष ओवरटाइम वर्क (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| RemainingOvertimeCost | `69` | शेष ओवरटाइम लागत (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ACWP | `70` | ACWP (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| CV | `71` | सीवी (कार्य) क्षेत्र का प्रतिनिधित्व करता है। |
-| SV | `72` | एसवी (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ConstraintType | `73` | ConstraintType (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Calendar | `74` | कैलेंडर (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ConstraintDate | `75` | ConstraintDate (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Deadline | `76` | समय सीमा (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| LevelAssignments | `77` | LevelAssignments (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| LevelingCanSplit | `78` | LevelingCanSplit (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| LevelingDelay | `79` | लेवलिंग डिले (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| LevelingDelayFormat | `80` | LevelingDelayFormat (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| PreleveledStart | `81` | प्रीलेवलेडस्टार्ट (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| PreleveledFinish | `82` | प्रीलेवलेडफिनिश (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Hyperlink | `83` | हाइपरलिंक (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| HyperlinkAddress | `84` | हाइपरलिंक एड्रेस (टास्क) फील्ड का प्रतिनिधित्व करता है। |
-| HyperlinkSubAddress | `85` | हाइपरलिंकसबएड्रेस (टास्क) फील्ड का प्रतिनिधित्व करता है। |
-| IgnoreResourceCalendar | `86` | IgnoreResourceCalendar (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| HideBar | `87` | HideBar (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsRollup | `88` | IsRollup (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| BCWS | `89` | BCWS (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| BCWP | `90` | BCWP (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| PhysicalPercentComplete | `91` | PhysicalPercentComplete (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| EarnedValueMethod | `92` | अर्नडवैल्यूमैथोड (टास्क) फील्ड का प्रतिनिधित्व करता है। |
-| ActualWorkProtected | `93` | वास्तविक कार्य संरक्षित (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActualOvertimeWorkProtected | `94` | ActualOvertimeWorkProtected (Task) फील्ड को दर्शाता है। |
-| IsPublished | `95` | प्रकाशित (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsScheduled | `96` | निर्धारित (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| StatusManager | `97` | स्थिति प्रबंधक (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| CommitmentStart | `98` | कमिटमेंटस्टार्ट (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| CommitmentFinish | `99` | कमिटमेंटफिनिश (टास्क) फील्ड को दर्शाता है। |
-| CommitmentType | `100` | प्रतिबद्धता प्रकार (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsManual | `101` | IsManual (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsExpanded | `102` | विस्तारित (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| Guid | `103` | गाइड (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| NotesText | `104` | नोट्सटेक्स्ट (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| NotesRTF | `105` | NotesRTF (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ManualStart | `106` | मैनुअलस्टार्ट (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ManualFinish | `107` | मैनुअलफिनिश (टास्क) फील्ड का प्रतिनिधित्व करता है। |
-| ManualDuration | `108` | मैनुअल अवधि (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| BudgetWork | `109` | BudgetWork (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| BudgetCost | `110` | BudgetCost (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| DisplayAsSummary | `111` | DisplayAsSummary (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| SummaryProgress | `112` | सारांश प्रगति (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsActive | `113` | IsActive (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| StartText | `114` | StartText (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| FinishText | `115` | फिनिशटेक्स्ट (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| DurationText | `116` | अवधि पाठ (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| CalendarUid | `117` | CalendarUid (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ParentTaskUid | `118` | ParentTaskUid (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| DisplayOnTimeline | `119` | DisplayOnTimeline (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| TaskIsAssigned | `120` | TaskIsAssigned (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| TaskOriginalStart | `121` | मूल प्रारंभ (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| TaskOriginalFinish | `122` | मूल फिनिश (कार्य) फ़ील्ड का प्रतिनिधित्व करता है। |
-| IsShowBeforeProjectStartDateWarning | `123` | उस ध्वज का प्रतिनिधित्व करता है जो एमएसपी को चेतावनी दिखाता है कि परियोजना प्रारंभ तिथि से पहले एक कार्य शुरू हो रहा है। |
-| Warning | `124` | ध्वज का प्रतिनिधित्व करता है जो इंगित करता है कि कार्य में शेड्यूल विसंगतियां हैं। |
-| ParentTaskGuid | `125` | ParentTaskGuid (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ActivityId | `126` | गतिविधि आईडी फ़ील्ड का प्रतिनिधित्व करता है (केवल प्रिमावेरा परियोजनाओं पर लागू)। |
-| FreeSlackTimeSpan | `127` | फ्रीस्लैक (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| TotalSlackTimeSpan | `128` | टोटलस्लैक (टास्क) फील्ड को दर्शाता है। |
-| StartSlackTimeSpan | `129` | StartSlack (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| FinishSlackTimeSpan | `130` | फिनिश स्लैक (टास्क) फ़ील्ड का प्रतिनिधित्व करता है। |
-| ExternalUid | `131` | बाहरी कार्य की विशिष्ट आईडी का प्रतिनिधित्व करता है। |
+| Uid | `0` | Unique ID (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Id | `1` | Id (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Name | `2` | Name (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Type | `3` | Type (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsNull | `4` | IsNull (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Created | `5` | Created (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Contact | `6` | Contact (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| WBS | `7` | WBS (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| WBSLevel | `8` | WBSLevel (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| OutlineNumber | `9` | OutlineNumber (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| OutlineLevel | `10` | OutlineLevel (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Priority | `11` | Priority (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Start | `12` | Start (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Finish | `13` | Finish (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Duration | `14` | Duration (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| DurationVariance | `15` | DurationVariance (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Work | `16` | Work (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Stop | `17` | Stop (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Resume | `18` | Resume (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsResumeValid | `19` | IsResumeValid (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsEffortDriven | `20` | IsEffortDriven (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsRecurring | `21` | IsRecurring (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsOverallocated | `22` | IsOverallocated (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| HasOverallocatedResource | `23` | HasOverallocatedResource (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsEstimated | `24` | IsEstimated (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsMilestone | `25` | IsMilestone (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsCritical | `26` | IsCritical (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsSubproject | `27` | IsSubproject (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsSubprojectReadOnly | `28` | IsSubprojectReadOnly (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsMarked | `29` | IsMarked (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IgnoreWarnings | `30` | IgnoreWarnings (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| SubprojectName | `31` | SubprojectName (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsExternalTask | `32` | IsExternalTask (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsSummary | `33` | IsSummary (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ExternalTaskProject | `34` | ExternalTaskProject (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ExternalId | `35` | ExternalId (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| EarlyStart | `36` | EarlyStart (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| EarlyFinish | `37` | EarlyFinish (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| LateStart | `38` | LateStart (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| LateFinish | `39` | LateFinish (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| StartVariance | `40` | StartVariance (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| FinishVariance | `41` | FinishVariance (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| WorkVariance | `42` | WorkVariance (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| CostVariance | `43` | CostVariance (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| FreeSlack | `44` | FreeSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| TotalSlack | `45` | TotalSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| StartSlack | `46` | StartSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| FinishSlack | `47` | FinishSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| FixedCost | `48` | FixedCost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| FixedCostAccrual | `49` | FixedCostAccrual (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| PercentComplete | `50` | PercentComplete (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| PercentWorkComplete | `51` | PercentWorkComplete (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Cost | `52` | Cost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| OvertimeCost | `53` | OvertimeCost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualStart | `54` | ActualStart (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualFinish | `55` | ActualFinish (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualDuration | `56` | ActualDuration (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualCost | `57` | ActualCost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualOvertimeCost | `58` | ActualOvertimeCost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualWork | `59` | ActualWork (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualOvertimeWork | `60` | ActualOvertimeWork (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| OvertimeWork | `61` | OvertimeWork (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| RegularWork | `62` | RegularWork (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| RemainingDuration | `63` | RemainingDuration (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| RemainingCost | `64` | RemainingCost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| RemainingWork | `65` | RemainingWork (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| RemainingOvertimeWork | `66` | RemainingOvertimeWork (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| RemainingOvertimeCost | `67` | RemainingOvertimeCost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ACWP | `68` | ACWP (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| CV | `69` | CV (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| SV | `70` | SV (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ConstraintType | `71` | ConstraintType (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Calendar | `72` | Calendar (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ConstraintDate | `73` | ConstraintDate (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Deadline | `74` | Deadline (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| LevelAssignments | `75` | LevelAssignments (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| LevelingCanSplit | `76` | LevelingCanSplit (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| LevelingDelay | `77` | LevelingDelay (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| PreleveledStart | `78` | PreleveledStart (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| PreleveledFinish | `79` | PreleveledFinish (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Hyperlink | `80` | Hyperlink (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| HyperlinkAddress | `81` | HyperlinkAddress (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| HyperlinkSubAddress | `82` | HyperlinkSubAddress (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IgnoreResourceCalendar | `83` | IgnoreResourceCalendar (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| HideBar | `84` | HideBar (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsRollup | `85` | IsRollup (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| BCWS | `86` | BCWS (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| BCWP | `87` | BCWP (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| PhysicalPercentComplete | `88` | PhysicalPercentComplete (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| EarnedValueMethod | `89` | EarnedValueMethod (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualWorkProtected | `90` | ActualWorkProtected (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActualOvertimeWorkProtected | `91` | ActualOvertimeWorkProtected (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsPublished | `92` | IsPublished (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsScheduled | `93` | IsScheduled (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| StatusManager | `94` | StatusManager (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| CommitmentStart | `95` | CommitmentStart (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| CommitmentFinish | `96` | CommitmentFinish (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| CommitmentType | `97` | CommitmentType (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsManual | `98` | IsManual (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsExpanded | `99` | IsExpanded (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| Guid | `100` | Guid (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| NotesText | `101` | NotesText (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| NotesRTF | `102` | NotesRTF (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ManualStart | `103` | ManualStart (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ManualFinish | `104` | ManualFinish (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ManualDuration | `105` | ManualDuration (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| BudgetWork | `106` | BudgetWork (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| BudgetCost | `107` | BudgetCost (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| DisplayAsSummary | `108` | DisplayAsSummary (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| SummaryProgress | `109` | Summary Progress (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsActive | `110` | IsActive (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| StartText | `111` | StartText (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| FinishText | `112` | FinishText (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| DurationText | `113` | DurationText (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| CalendarUid | `114` | CalendarUid (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ParentTaskUid | `115` | ParentTaskUid (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| DisplayOnTimeline | `116` | DisplayOnTimeline (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| TaskIsAssigned | `117` | TaskIsAssigned (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| TaskOriginalStart | `118` | मूल प्रारंभ (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| TaskOriginalFinish | `119` | मूल समाप्ति (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| IsShowBeforeProjectStartDateWarning | `120` | MSP को यह चेतावनी दिखाने वाला फ़्लैग जो दर्शाता है कि कार्य परियोजना प्रारंभ तिथि से पहले शुरू हो रहा है। |
+| Warning | `121` | फ़्लैग जो संकेत करता है कि कार्य में अनुसूची विसंगतियां हैं। |
+| ParentTaskGuid | `122` | ParentTaskGuid (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ActivityId | `123` | ActivityId फ़ील्ड का प्रतिनिधित्व करता है (केवल Primavera परियोजनाओं के लिए लागू)। |
+| FreeSlackTimeSpan | `124` | FreeSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| TotalSlackTimeSpan | `125` | TotalSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| StartSlackTimeSpan | `126` | StartSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| FinishSlackTimeSpan | `127` | FinishSlack (Task) फ़ील्ड का प्रतिनिधित्व करता है। |
+| ExternalUid | `128` | बाहरी कार्य की अद्वितीय Id का प्रतिनिधित्व करता है। |
 
-### यह सभी देखें
+## उदाहरण
 
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+दिखाता है कि कार्य गुणों को कैसे पढ़ें/लिखें।
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project();
+
+// कार्य जोड़ें और कार्य गुण सेट करें
+var task = project.RootTask.Children.Add();
+task.Set(Tsk.Name, "Task1");
+task.Set(Tsk.Start, new DateTime(2020, 3, 31, 8, 0, 0));
+task.Set(Tsk.Finish, new DateTime(2020, 3, 31, 17, 0, 0));
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// सभी एकत्रित कार्यों को पार्स करें
+foreach (var tsk in collector.Tasks)
+{
+    Console.WriteLine("Task Id: {0}", tsk.Get(Tsk.Id));
+    Console.WriteLine("Task Uid: {0}", tsk.Get(Tsk.Uid));
+    Console.WriteLine("Task Name: {0}", tsk.Get(Tsk.Name));
+    Console.WriteLine("Task Start: {0}", tsk.Get(Tsk.Start));
+    Console.WriteLine("Task Finish: {0}", tsk.Get(Tsk.Finish));
+}
+```
+
+### संबंधित देखें
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+

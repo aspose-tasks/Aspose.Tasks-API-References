@@ -1,0 +1,24 @@
+---
+title: "ImageSaveOptions.FontSettings"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "ImageSaveOptions प्रॉपर्टी। प्रोजेक्ट व्यू को रेंडर करते समय उपयोग किए जाने वाले फ़ॉन्ट सेटिंग्स निर्दिष्ट करती है"
+type: docs
+weight: 20
+url: /hi/net/aspose.tasks.saving/imagesaveoptions/fontsettings/
+---
+## ImageSaveOptions.FontSettings property
+
+प्रोजेक्ट के दृश्य को रेंडर करने के समय उपयोग किए जाने वाले फ़ॉन्ट सेटिंग्स को निर्दिष्ट करता है।
+
+```csharp
+public FontSettings FontSettings { get; }
+```
+
+### संबंधित देखें
+
+* class [FontSettings](../../../aspose.tasks/fontsettings/)
+* class [ImageSaveOptions](../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
+
+

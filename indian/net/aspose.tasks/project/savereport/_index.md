@@ -1,14 +1,14 @@
 ---
-title: SaveReport
-second_title: Aspose.Tasks for .NET API Reference
-description: प्रजेक्ट अवलकन रपर्ट क स्ट्रम में सहेजत है
+title: "Project.SaveReport"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Project मेथड। प्रोजेक्ट ओवरव्यू रिपोर्ट को स्ट्रीम में सहेजता है।"
 type: docs
-weight: 1200
+weight: 1220
 url: /hi/net/aspose.tasks/project/savereport/
 ---
 ## SaveReport(Stream) {#savereport}
 
-प्रोजेक्ट अवलोकन रिपोर्ट को स्ट्रीम में सहेजता है।
+परियोजना अवलोकन रिपोर्ट को स्ट्रीम में सहेजता है।
 
 ```csharp
 public void SaveReport(Stream stream)
@@ -16,19 +16,33 @@ public void SaveReport(Stream stream)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | प्रोजेक्ट रिपोर्ट को सहेजने के लिए स्ट्रीम। |
+| स्ट्रीम | स्ट्रीम | प्रोजेक्ट रिपोर्ट को सहेजने के लिए स्ट्रीम। |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि प्रोजेक्ट ओवरव्यू रिपोर्ट को PDF फ़ाइल में कैसे सहेजा जाए।
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// निर्दिष्ट स्ट्रीम में ओवरव्यू रिपोर्ट को PDF फ़ाइल में सहेजें।
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream);
+}
+```
+
+### संबंधित देखें
 
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string) {#savereport_2}
 
-प्रोजेक्ट अवलोकन रिपोर्ट को PDF फ़ाइल में सहेजता है.
+परियोजना अवलोकन रिपोर्ट को PDF फ़ाइल में सहेजता है।
 
 ```csharp
 public void SaveReport(string fileName)
@@ -36,19 +50,30 @@ public void SaveReport(string fileName)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fileName | String | फ़ाइल का नाम। |
+| fileName | स्ट्रिंग | फ़ाइल का नाम। |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि प्रोजेक्ट ओवरव्यू रिपोर्ट को PDF फ़ाइल में स्ट्रीम में कैसे सहेजा जाए।
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// निर्दिष्ट पथ पर ओवरव्यू रिपोर्ट को PDF फ़ाइल में सहेजा जा सकता है।
+project.SaveReport(OutDir + "SaveProjectOverviewReport_out.pdf");
+```
+
+### संबंधित देखें
 
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(Stream, ReportType) {#savereport_1}
 
-निर्दिष्ट प्रकार की प्रोजेक्ट रिपोर्ट को निर्दिष्ट स्ट्रीम में सहेजता है।
+निर्दिष्ट प्रकार की परियोजना रिपोर्ट को निर्दिष्ट स्ट्रीम में सहेजता है।
 
 ```csharp
 public void SaveReport(Stream stream, ReportType reportType)
@@ -56,21 +81,35 @@ public void SaveReport(Stream stream, ReportType reportType)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | प्रोजेक्ट रिपोर्ट को सहेजने के लिए निर्दिष्ट स्ट्रीम। |
+| स्ट्रीम | स्ट्रीम | प्रोजेक्ट रिपोर्ट को सहेजने के लिए निर्दिष्ट स्ट्रीम। |
 | reportType | ReportType | निर्दिष्ट रिपोर्ट प्रकार।[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि विशिष्ट रिपोर्ट प्रकार के लिए प्रोजेक्ट रिपोर्ट को PDF फ़ाइल में कैसे सहेजा जाए।
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// निर्दिष्ट स्ट्रीम में ओवरव्यू रिपोर्ट को PDF फ़ाइल में सहेजें।
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### संबंधित देखें
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string, ReportType) {#savereport_3}
 
-निर्दिष्ट प्रकार की प्रोजेक्ट रिपोर्ट को पीडीएफ प्रारूप में निर्दिष्ट फ़ाइल पथ में सहेजता है।
+निर्दिष्ट प्रकार की परियोजना रिपोर्ट को PDF फ़ॉर्मेट में निर्दिष्ट फ़ाइल पथ पर सहेजता है।
 
 ```csharp
 public void SaveReport(string fileName, ReportType reportType)
@@ -78,14 +117,23 @@ public void SaveReport(string fileName, ReportType reportType)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fileName | String | निर्दिष्ट फ़ाइल नाम। |
+| fileName | स्ट्रिंग | निर्दिष्ट फ़ाइल नाम। |
 | reportType | ReportType | निर्दिष्ट रिपोर्ट प्रकार।[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि प्रोजेक्ट रिपोर्ट को PDF फ़ॉर्मेट में कैसे सहेजा जाए।
+
+```csharp
+var project = new Project(DataDir + "OzBuild 16 Orig.mpp");
+project.SaveReport(OutDir + "CostOverview_out.pdf", ReportType.CostOverview);
+```
+
+### संबंधित देखें
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

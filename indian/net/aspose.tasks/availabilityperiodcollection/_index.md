@@ -1,14 +1,14 @@
 ---
-title: AvailabilityPeriodCollection
-second_title: Aspose.Tasks for .NET API Reference
-description: एक संग्रह क प्रतनधत्व करत है जसमें शमल हैAvailabilityPeriod./availabilityperiod/ वस्तुओं.
+title: "क्लास AvailabilityPeriodCollection"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.AvailabilityPeriodCollection क्लास। एक संग्रह का प्रतिनिधित्व करता है जिसमें AvailabilityPeriod ऑब्जेक्ट्स होते हैं"
 type: docs
 weight: 90
 url: /hi/net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class
 
-एक संग्रह का प्रतिनिधित्व करता है जिसमें शामिल है[`AvailabilityPeriod`](../availabilityperiod/) वस्तुओं.
+एक संग्रह का प्रतिनिधित्व करता है जिसमें [`AvailabilityPeriod`](../availabilityperiod/) ऑब्जेक्ट्स होते हैं।
 
 ```csharp
 public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
@@ -18,29 +18,123 @@ public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | इस संग्रह में निहित तत्वों की संख्या प्राप्त करता है। |
-| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | यह इंगित करने वाला मान प्राप्त करता है कि क्या यह संग्रह केवल-पढ़ने के लिए है; अन्यथा, असत्य. |
-| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | निर्दिष्ट इंडेक्स पर तत्व को लौटाता है या सेट करता है। |
-| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | माता-पिता को प्राप्त करता है[`Resource`](../resource/) इस वस्तु के लिए.  माता-पिता[`Resource`](../resource/) इस संग्रह के लिए वस्तु। |
+| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | इस संग्रह में मौजूद तत्वों की संख्या प्राप्त करता है। |
+| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि यह संग्रह केवल-रीड है या नहीं; अन्यथा, false। |
+| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | निर्दिष्ट सूचकांक पर तत्व को लौटाता है या सेट करता है। |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | इस ऑब्जेक्ट के लिए पैरेंट [`Resource`](../resource/) प्राप्त करता है। इस संग्रह के लिए पैरेंट [`Resource`](../resource/) ऑब्जेक्ट। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.tasks/availabilityperiodcollection/add/)(AvailabilityPeriod) | निर्दिष्ट आइटम को इस संग्रह में जोड़ता है। |
-| [Clear](../../aspose.tasks/availabilityperiodcollection/clear/)() | इस संग्रह से सभी आइटम निकालता है. |
-| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | यदि निर्दिष्ट आइटम इस संग्रह में पाया जाता है तो सही होता है; अन्यथा, असत्य. |
-| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | इस संग्रह के तत्वों को निर्दिष्ट सरणी में कॉपी करता है, निर्दिष्ट सरणी अनुक्रमणिका से शुरू होता है। |
-| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator/)() | इस संग्रह के लिए एक प्रगणक देता है। |
-| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof/)(AvailabilityPeriod) | इस संग्रह में निर्दिष्ट आइटम की अनुक्रमणिका निर्धारित करता है। |
-| [Insert](../../aspose.tasks/availabilityperiodcollection/insert/)(int, AvailabilityPeriod) | निर्दिष्ट आइटम को निर्दिष्ट इंडेक्स पर सम्मिलित करता है। |
-| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | इस संग्रह से किसी विशिष्ट वस्तु की पहली घटना को हटाता है। |
-| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat/)(int) | निर्दिष्ट इंडेक्स पर एक आइटम को हटाता है। |
+| [Clear](../../aspose.tasks/availabilityperiodcollection/clear/)() | इस संग्रह से सभी आइटम हटाता है। |
+| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | यदि निर्दिष्ट आइटम इस संग्रह में पाया जाता है तो true लौटाता है; अन्यथा false। |
+| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | निर्दिष्ट एरे सूचकांक से शुरू करके इस संग्रह के तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator/)() | इस संग्रह के लिए एक एन्यूमरेटर लौटाता है। |
+| [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof/)(AvailabilityPeriod) | इस संग्रह में निर्दिष्ट आइटम का सूचकांक निर्धारित करता है। |
+| [Insert](../../aspose.tasks/availabilityperiodcollection/insert/)(int, AvailabilityPeriod) | निर्दिष्ट सूचकांक पर निर्दिष्ट आइटम डालता है। |
+| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | इस संग्रह से विशिष्ट वस्तु की पहली घटना को हटाता है। |
+| [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat/)(int) | निर्दिष्ट सूचकांक पर एक आइटम हटाता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+संसाधन की उपलब्धता अवधि संग्रह के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+public void WorkWithAvailabilityPeriodCollection()
+{
+    var project = new Project(DataDir + "UpdateResourceData.mpp");
+    var resource = project.Resources.GetById(1);
+
+    resource.AvailabilityPeriods.Clear();
+
+    // नए संसाधन में उपलब्धता अवधियों (2012 और 2014 वर्ष) को जोड़ें
+    IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
+    foreach (var period in periods)
+    {
+        if (!resource.AvailabilityPeriods.IsReadOnly)
+        {
+            resource.AvailabilityPeriods.Add(period);
+        }
+    }
+
+    var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
+
+    if (!resource.AvailabilityPeriods.Contains(period2013))
+    {
+        resource.AvailabilityPeriods.Insert(1, period2013);
+    }
+
+    Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
+    foreach (var period in resource.AvailabilityPeriods)
+    {
+        Console.WriteLine("Available From: " + period.AvailableFrom);
+        Console.WriteLine("Available To: " + period.AvailableTo);
+        Console.WriteLine("Available Units: " + period.AvailableUnits);
+        Console.WriteLine();
+    }
+
+    var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
+    resource.AvailabilityPeriods.CopyTo(periodsToCopy, 0);
+
+    var otherResource = project.Resources.GetById(2);
+    otherResource.AvailabilityPeriods.Clear();
+    foreach (var period in periodsToCopy)
+    {
+        otherResource.AvailabilityPeriods.Add(period);
+    }
+
+    var period2015 = new AvailabilityPeriod { AvailableFrom = new DateTime(2015, 1, 1), AvailableTo = new DateTime(2015, 12, 12), AvailableUnits = 0.50 };
+
+    var period2016 = new AvailabilityPeriod { AvailableFrom = new DateTime(2016, 1, 1), AvailableTo = new DateTime(2016, 12, 12), AvailableUnits = 0.53 };
+
+    if (otherResource.AvailabilityPeriods.IndexOf(period2015) < 0)
+    {
+        otherResource.AvailabilityPeriods.Add(period2015);
+    }
+
+    if (otherResource.AvailabilityPeriods.IndexOf(period2016) < 0)
+    {
+        otherResource.AvailabilityPeriods.Add(period2016);
+    }
+
+    // 2014 वर्ष की अवधि के लिए उपलब्ध इकाइयों को अपडेट करें
+    otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
+
+    // 2013 की अवधि को हटाएँ
+    otherResource.AvailabilityPeriods.Remove(period2013);
+
+    // 2011 की अवधि को हटाएँ
+    otherResource.AvailabilityPeriods.RemoveAt(0);
+
+    Console.WriteLine("Print resource availability periods of the resource: " + otherResource.Get(Rsc.Name));
+    Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
+    foreach (var period in resource.AvailabilityPeriods)
+    {
+        Console.WriteLine("Available From: " + period.AvailableFrom);
+        Console.WriteLine("Available To: " + period.AvailableTo);
+        Console.WriteLine("Available Units: " + period.AvailableUnits);
+        Console.WriteLine();
+    }
+}
+
+private IEnumerable<AvailabilityPeriod> GetPeriods()
+{
+    var periods = new List<AvailabilityPeriod>();
+    var period = new AvailabilityPeriod { AvailableFrom = new DateTime(2012, 1, 1), AvailableTo = new DateTime(2012, 12, 12), AvailableUnits = 0.99 };
+    periods.Add(period);
+
+    var period2 = new AvailabilityPeriod { AvailableFrom = new DateTime(2014, 1, 1), AvailableTo = new DateTime(2014, 12, 12), AvailableUnits = 0.94 };
+    periods.Add(period2);
+    return periods;
+}
+```
+
+### संबंधित देखें
 
 * class [AvailabilityPeriod](../availabilityperiod/)
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

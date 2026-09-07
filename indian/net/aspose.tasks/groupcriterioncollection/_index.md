@@ -1,14 +1,14 @@
 ---
-title: GroupCriterionCollection
-second_title: Aspose.Tasks for .NET API Reference
-description: क संग्रह हैGroupCriterion./groupcriterion/ objects. ICollectionltGroupCriteriongt इंटरफ़ेस लगू करत है
+title: "क्लास GroupCriterionCollection"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.GroupCriterionCollection क्लास। GroupCriterion ऑब्जेक्ट्स का संग्रह रखता है। ICollectionGroupCriterion इंटरफ़ेस को लागू करता है।"
 type: docs
-weight: 740
+weight: 800
 url: /hi/net/aspose.tasks/groupcriterioncollection/
 ---
 ## GroupCriterionCollection class
 
-का संग्रह है[`GroupCriterion`](../groupcriterion/) objects. ICollection&lt;GroupCriterion&gt; इंटरफ़ेस लागू करता है।
+एक संग्रह जिसमें [`GroupCriterion`](../groupcriterion/) वस्तुएँ हैं। ICollection&lt;GroupCriterion&gt; इंटरफ़ेस को लागू करता है।
 
 ```csharp
 public class GroupCriterionCollection : IList<GroupCriterion>
@@ -18,26 +18,77 @@ public class GroupCriterionCollection : IList<GroupCriterion>
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.tasks/groupcriterioncollection/count/) { get; } | इस संग्रह में निहित तत्वों की संख्या प्राप्त करता है। |
-| [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly/) { get; } | यह इंगित करने वाला मान प्राप्त करता है कि क्या यह संग्रह केवल-पढ़ने के लिए है; अन्यथा, असत्य. |
-| [ParentGroup](../../aspose.tasks/groupcriterioncollection/parentgroup/) { get; } | GroupCriterion ऑब्जेक्ट का पैरेंट प्राप्त करता है। |
+| [Count](../../aspose.tasks/groupcriterioncollection/count/) { get; } | इस संग्रह में मौजूद तत्वों की संख्या प्राप्त करता है। |
+| [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly/) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि यह संग्रह केवल-रीड है या नहीं; अन्यथा, false। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.tasks/groupcriterioncollection/add/)(GroupCriterion) | निर्दिष्ट आइटम को इस संग्रह में जोड़ता है। |
-| [Clear](../../aspose.tasks/groupcriterioncollection/clear/)() | इस संग्रह से सभी आइटम निकालता है. |
-| [Contains](../../aspose.tasks/groupcriterioncollection/contains/)(GroupCriterion) | यदि निर्दिष्ट आइटम इस संग्रह में पाया जाता है तो सही होता है; अन्यथा, असत्य. |
-| [CopyTo](../../aspose.tasks/groupcriterioncollection/copyto/)(GroupCriterion[], int) | इस संग्रह के तत्वों को निर्दिष्ट सरणी में कॉपी करता है, निर्दिष्ट सरणी अनुक्रमणिका से शुरू होता है। |
-| [GetEnumerator](../../aspose.tasks/groupcriterioncollection/getenumerator/)() | इस संग्रह के लिए एक प्रगणक देता है। |
-| [Remove](../../aspose.tasks/groupcriterioncollection/remove/)(GroupCriterion) | इस संग्रह से किसी विशिष्ट वस्तु की पहली घटना को हटाता है। |
-| [ToList](../../aspose.tasks/groupcriterioncollection/tolist/)() | समूह मानदंड संग्रह को सूची में परिवर्तित करता है[`GroupCriterion`](../groupcriterion/) वस्तुओं. |
+| [Clear](../../aspose.tasks/groupcriterioncollection/clear/)() | इस संग्रह से सभी आइटम हटाता है। |
+| [Contains](../../aspose.tasks/groupcriterioncollection/contains/)(GroupCriterion) | यदि निर्दिष्ट आइटम इस संग्रह में पाया जाता है तो true लौटाता है; अन्यथा false। |
+| [CopyTo](../../aspose.tasks/groupcriterioncollection/copyto/)(GroupCriterion[], int) | निर्दिष्ट एरे सूचकांक से शुरू करके इस संग्रह के तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.tasks/groupcriterioncollection/getenumerator/)() | इस संग्रह के लिए एक एन्यूमरेटर लौटाता है। |
+| [Remove](../../aspose.tasks/groupcriterioncollection/remove/)(GroupCriterion) | इस संग्रह से विशिष्ट वस्तु की पहली घटना को हटाता है। |
+| [ToList](../../aspose.tasks/groupcriterioncollection/tolist/)() | एक GroupCriterion संग्रह को [`GroupCriterion`](../groupcriterion/) वस्तुओं की सूची में परिवर्तित करता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+समूह मानदंड के संग्रह के साथ काम करने का तरीका दर्शाता है।
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+var group = project.TaskGroups.ToList()[0];
+
+// समूह मानदंड पर पुनरावृति करें
+Console.WriteLine("Print group criteria of the group '{0}': ", group.Name);
+Console.WriteLine("Group criterion count: " + group.GroupCriteria.Count);
+foreach (var criterion in group.GroupCriteria)
+{
+    Console.WriteLine("Field: " + criterion.Field);
+    Console.WriteLine("Group On: " + criterion.GroupOn);
+    Console.WriteLine();
+}
+
+group.GroupCriteria.Clear();
+
+if (!group.GroupCriteria.IsReadOnly)
+{
+    List<GroupCriterion> groupCriteria = group.GroupCriteria.ToList();
+    foreach (var criterion in groupCriteria)
+    {
+        group.GroupCriteria.Remove(criterion);
+    }
+}
+
+var criterionToAdd = new GroupCriterion
+{
+    Ascending = true,
+    Field = Field.TaskActive
+};
+
+if (!group.GroupCriteria.Contains(criterionToAdd))
+{
+    group.GroupCriteria.Add(criterionToAdd);
+}
+
+// मानदंड को अन्य समूह में कॉपी करें
+var otherGroup = project.TaskGroups.ToList()[0];
+
+var criteria = new GroupCriterion[group.GroupCriteria.Count];
+group.GroupCriteria.CopyTo(criteria, 0);
+foreach (var criterion in criteria)
+{
+    otherGroup.GroupCriteria.Add(criterion);
+}
+```
+
+### संबंधित देखें
 
 * class [GroupCriterion](../groupcriterion/)
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

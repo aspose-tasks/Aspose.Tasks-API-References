@@ -1,58 +1,46 @@
 ---
-title: Save
-second_title: Aspose.Tasks for .NET API Reference
-description: नर्दष्ट सहेजें वकल्पं क उपयग करके दस्तवेज़ क mpp फ़इल स्वरूप में सहेजत है.
+title: "Project.Save"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Project method. निर्दिष्ट सहेजने विकल्पों का उपयोग करके दस्तावेज़ को फ़ाइल में सहेजता है"
 type: docs
-weight: 1180
+weight: 1200
 url: /hi/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
+## Save(string, SimpleSaveOptions) {#save_4}
 
-निर्दिष्ट सहेजें विकल्पों का उपयोग करके दस्तावेज़ को mpp फ़ाइल स्वरूप में सहेजता है.
+निर्दिष्ट सहेजने विकल्पों का उपयोग करके दस्तावेज़ को फ़ाइल में सहेजता है।
 
 ```csharp
-public void Save(string filename, MPPSaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| filename | String | फ़ाइल का नाम। |
-| options | MPPSaveOptions | सेव विकल्प। |
+| फ़ाइलनाम | स्ट्रिंग | फ़ाइल का नाम। |
+| विकल्प | SimpleSaveOptions | सहेजने विकल्प। |
 
-### यह सभी देखें
+## उदाहरण
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
-* class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveOptions) {#save_6}
-
-निर्दिष्ट सहेज विकल्पों का उपयोग करके दस्तावेज़ को एक फ़ाइल में सहेजता है।
+दिखाता है कि प्रोजेक्ट को MPP फ़ाइल के रूप में कैसे सहेजा जाए।
 
 ```csharp
-public void Save(string filename, SaveOptions options)
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
 ```
 
-| पैरामीटर | प्रकार | विवरण |
-| --- | --- | --- |
-| filename | String | फ़ाइल का नाम। |
-| options | SaveOptions | सेव विकल्प। |
+### संबंधित देखें
 
-### यह सभी देखें
-
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
-प्रोजेक्ट डेटा को फ़ाइल में सहेजता है।
+परियोजना डेटा को फ़ाइल में सहेजता है।
 
 ```csharp
 public void Save(string filename, SaveFileFormat format)
@@ -60,21 +48,32 @@ public void Save(string filename, SaveFileFormat format)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| filename | String | फ़ाइल का नाम। |
-| format | SaveFileFormat | सहेजें फ़ाइल स्वरूप। |
+| फ़ाइलनाम | स्ट्रिंग | फ़ाइल का नाम। |
+| फ़ॉर्मेट | SaveFileFormat | सहेजने फ़ाइल फ़ॉर्मेट। |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि एक प्रोजेक्ट कैसे बनाया जाए और उसे MPP फ़ॉर्मेट में सहेजा जाए बिना किसी MPP टेम्प्लेट फ़ाइल को पास किए।
+
+```csharp
+var project = new Project();
+
+// प्रोजेक्ट को आंतरिक MPP टेम्प्लेट का उपयोग करके MPP में सहेजा जाएगा।
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### संबंधित देखें
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
-प्रोजेक्ट डेटा को एमपीपी प्रारूप में फ़ाइल में सहेजता है।
+परियोजना डेटा को mpp फ़ॉर्मेट में फ़ाइल में सहेजता है।
 
 ```csharp
 public void Save(string filename)
@@ -82,63 +81,70 @@ public void Save(string filename)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| filename | String | फ़ाइल का नाम। |
+| फ़ाइलनाम | स्ट्रिंग | फ़ाइल का नाम। |
 
-### यह सभी देखें
+### संबंधित देखें
 
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
-निर्दिष्ट सहेजें विकल्पों का उपयोग करके प्रोजेक्ट को स्ट्रीम में सहेजता है।
+निर्दिष्ट सहेजने विकल्पों का उपयोग करके परियोजना को स्ट्रीम में सहेजता है।
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | धारा। |
-| options | SaveOptions | सेव विकल्प। |
+| स्ट्रीम | स्ट्रीम | स्ट्रीम। |
+| विकल्प | SimpleSaveOptions | सहेजने विकल्प। |
 
-### यह सभी देखें
+## उदाहरण
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-निर्दिष्ट सहेजें विकल्पों का उपयोग करके प्रोजेक्ट को स्ट्रीम में सहेजता है।
+दिखाता है कि MPP सहेजने विकल्पों का उपयोग करके प्रोजेक्ट को स्ट्रीम में MPP फ़ाइल के रूप में कैसे सहेजा जाए।
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // MPPSaveOptions का उपयोग करके हम इसे MPP फ़ॉर्मेट में सहेजते हैं
+    project.Save(stream, options);
+}
 ```
 
-| पैरामीटर | प्रकार | विवरण |
-| --- | --- | --- |
-| stream | Stream | धारा। |
-| options | MPPSaveOptions | सेव विकल्प। |
+दिखाता है कि प्रोजेक्ट को स्ट्रीम में छवि के रूप में कैसे सहेजा जाए और छवि विकल्पों को कैसे नियंत्रित किया जाए।
 
-### यह सभी देखें
+```csharp
+var project = new Project();
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // ImageSaveOptions का उपयोग करके हम प्रोजेक्ट को इमेज़ फ़ॉर्मेट में सहेजते हैं
+    project.Save(stream, options);
+}
+```
+
+### संबंधित देखें
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
-प्रोजेक्ट डेटा को स्ट्रीम में सहेजता है।
+परियोजना डेटा को स्ट्रीम में सहेजता है।
 
 ```csharp
 public void Save(Stream stream, SaveFileFormat format)
@@ -146,14 +152,28 @@ public void Save(Stream stream, SaveFileFormat format)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | धारा। |
-| format | SaveFileFormat | निर्दिष्ट सहेजें फ़ाइल स्वरूप।[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
+| स्ट्रीम | स्ट्रीम | स्ट्रीम। |
+| format | SaveFileFormat | निर्दिष्ट सहेजने फ़ाइल फ़ॉर्मेट।[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि प्रोजेक्ट को स्ट्रीम में XML MS Project फ़ाइल के रूप में कैसे सहेजा जाए।
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // स्ट्रीम को XML फ़ॉर्मेट में लिखें
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
+
+### संबंधित देखें
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* नाम स्थान [Aspose.Tasks](../../project/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

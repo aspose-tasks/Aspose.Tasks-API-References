@@ -1,23 +1,142 @@
 ---
-title: FileName
-second_title: Aspose.Tasks for .NET API Reference
-description: अनुमनत फ़इल नम प्रप्त करत है य सेट करत है ज कनवर्टर से कस्टम वध के कड में जत है
+title: "ResourceSavingArgs.FileName"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "ResourceSavingArgs प्रॉपर्टी। वह अनुमानित फ़ाइल नाम प्राप्त या सेट करता है जो कनवर्टर से कस्टम मेथड के कोड तक जाता है। इसे कस्टम कोड में यह तय करने के लिए उपयोग किया जा सकता है कि फ़ाइल को कैसे प्रोसेस किया जाए या कहाँ सहेजा जाए"
 type: docs
 weight: 20
 url: /hi/net/aspose.tasks/resourcesavingargs/filename/
 ---
 ## ResourceSavingArgs.FileName property
 
-अनुमानित फ़ाइल नाम प्राप्त करता है या सेट करता है जो कनवर्टर से कस्टम विधि के कोड में जाता है।
+कनवर्टर से कस्टम मेथड के कोड तक जाने वाले अनुमानित फ़ाइल नाम को प्राप्त करता है या सेट करता है। इसे कस्टम कोड में यह तय करने के लिए उपयोग किया जा सकता है कि फ़ाइल को कैसे प्रोसेस किया जाए या कहाँ सहेजा जाए।
 
 ```csharp
 public string FileName { get; set; }
 ```
 
-### यह सभी देखें
+## उदाहरण
+
+CSS सहेजने के कॉलबैक का उपयोग कैसे सेट करें, यह दर्शाता है।
+
+```csharp
+public void ResourcePrefixForNestedResourcesExample()
+{
+    var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+    var options = ResourcePrefixForNestedResources.GetSaveOptions(1);
+    project.Save(OutDir + "document_out.html", options);
+}
+
+private class ResourcePrefixForNestedResources : ICssSavingCallback, IFontSavingCallback, IImageSavingCallback
+{
+    public void CssSaving(CssSavingArgs args)
+    {
+        if (!Directory.Exists(OutDir + "css/"))
+        {
+            Directory.CreateDirectory(OutDir + "css/");
+        }
+
+        var stream = new FileStream(OutDir + "css/" + args.FileName, FileMode.Create);
+        args.Stream = stream;
+        args.KeepStreamOpen = false;
+        args.Uri = OutDir + "css/" + args.FileName;
+    }
+
+    public void FontSaving(FontSavingArgs args)
+    {
+        if (!Directory.Exists(OutDir + "fonts/"))
+        {
+            Directory.CreateDirectory(OutDir + "fonts/");
+        }
+
+        var stream = new FileStream(OutDir + "fonts/" + args.FileName, FileMode.Create);
+        args.Stream = stream;
+        args.KeepStreamOpen = false;
+        args.Uri = OutDir + "fonts/" + args.FileName;
+    }
+
+    public void ImageSaving(ImageSavingArgs args)
+    {
+        if (!Directory.Exists(OutDir + "resources/"))
+        {
+            Directory.CreateDirectory(OutDir + "resources/");
+        }
+
+        if (!Directory.Exists(OutDir + "resources/nestedResources/"))
+        {
+            Directory.CreateDirectory(OutDir + "resources/nestedResources/");
+        }
+
+        if (args.FileName.EndsWith("png"))
+        {
+            var stream1 = new FileStream(OutDir + "resources/nestedResources/" + args.FileName, FileMode.Create);
+            args.Stream = stream1;
+            args.KeepStreamOpen = false;
+            args.Uri = OutDir + "resources/" + args.FileName;
+
+            // args.NestedUri = dataDir + \"nestedResources/\" + args.FileName;
+        }
+        else
+        {
+            var stream2 = new FileStream(OutDir + "resources/" + args.FileName, FileMode.Create);
+            args.Stream = stream2;
+            args.KeepStreamOpen = false;
+            args.Uri = OutDir + "resources/" + args.FileName;
+        }
+    }
+
+    public static HtmlSaveOptions GetSaveOptions(int pageNumber)
+    {
+        var options = new HtmlSaveOptions
+                          {
+                              Pages = new List<int>(),
+                              IncludeProjectNameInPageHeader = false,
+                              IncludeProjectNameInTitle = false,
+                              PageSize = PageSize.A3,
+                              Timescale = Timescale.ThirdsOfMonths,
+                              ReduceFooterGap = true,
+                              FontFaceTypes = FontFaceType.Ttf,
+                              ExportCss = ResourceExportType.AsFile,
+                              ExportFonts = ResourceExportType.AsFile,
+                              ExportImages = ResourceExportType.AsFile
+                          };
+
+        var program = new ResourcePrefixForNestedResources();
+        options.FontSavingCallback = program;
+        options.CssSavingCallback = program;
+        options.ImageSavingCallback = program;
+
+        options.Pages.Clear();
+        options.Pages.Add(pageNumber);
+
+        if (!Directory.Exists(DataDir + "fonts"))
+        {
+            Directory.CreateDirectory(DataDir + "fonts");
+        }
+
+        if (!Directory.Exists(DataDir + "resources"))
+        {
+            Directory.CreateDirectory(DataDir + "resources");
+        }
+
+        if (!Directory.Exists(DataDir + "nestedResources"))
+        {
+            Directory.CreateDirectory(DataDir + "resources/nestedResources");
+        }
+
+        if (!Directory.Exists(DataDir + "css"))
+        {
+            Directory.CreateDirectory(DataDir + "css");
+        }
+
+        return options;
+    }
+}
+```
+
+### संबंधित देखें
 
 * class [ResourceSavingArgs](../)
-* नाम स्थान [Aspose.Tasks](../../resourcesavingargs/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
