@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.RateScale
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de RateScale.
+title: "ResourceAssignment.RateScale"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de RateScale"
 type: docs
 weight: 450
 url: /es/net/aspose.tasks/resourceassignment/ratescale/
@@ -18,7 +18,7 @@ public RateScaleType RateScale { get; set; }
 
 * enum [RateScaleType](../../ratescaletype/)
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

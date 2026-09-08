@@ -1,31 +1,47 @@
 ---
-title: Calendar.GetNextWorkingDayStart
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Calendar método. Calcula el inicio del siguiente día hábil a partir de la fecha.
+title: "Calendar.GetNextWorkingDayStart"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método Calendar. Calcula el inicio del próximo día laborable para la fecha especificada"
 type: docs
-weight: 160
+weight: 180
 url: /es/net/aspose.tasks/calendar/getnextworkingdaystart/
 ---
 ## Calendar.GetNextWorkingDayStart method
 
-Calcula el inicio del siguiente día hábil a partir de la fecha.
+Calcula el inicio del siguiente día laborable para la fecha especificada.
 
 ```csharp
 public DateTime GetNextWorkingDayStart(DateTime date)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| date | DateTime | La fecha para comenzar el próximo día hábil. |
+| fecha | DateTime | La fecha para la cual obtener el inicio del siguiente día laborable. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Comienzo del siguiente día laborableDateTime.
+Fecha y hora de inicio del siguiente día laborable.
+
+## Ejemplos
+
+Muestra cómo obtener el inicio del próximo día laborable usando un calendario.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// obtener el inicio del próximo día laborable (se omite el fin de semana)
+var nextWorkingDayStart = calendar.GetNextWorkingDayStart(new DateTime(2020, 4, 10, 13, 0, 0));
+
+// 13 de abril de 2020 9:00 a.m. será impreso
+Console.WriteLine(nextWorkingDayStart);
+```
 
 ### Ver también
 
 * class [Calendar](../)
-* espacio de nombres [Aspose.Tasks](../../calendar/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

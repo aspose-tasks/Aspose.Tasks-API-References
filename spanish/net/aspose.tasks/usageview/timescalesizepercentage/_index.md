@@ -1,7 +1,7 @@
 ---
-title: UsageView.TimescaleSizePercentage
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: UsageView propiedad. 
+title: "UsageView.TimescaleSizePercentage"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "UsageView propiedad."
 type: docs
 weight: 70
 url: /es/net/aspose.tasks/usageview/timescalesizepercentage/
@@ -15,7 +15,7 @@ public ushort TimescaleSizePercentage { get; set; }
 ### Ver también
 
 * class [UsageView](../)
-* espacio de nombres [Aspose.Tasks](../../usageview/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../usageview/)
+* assembly [Aspose.Tasks](../../../)
 
 

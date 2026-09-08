@@ -1,27 +1,81 @@
 ---
-title: GanttBarStyle.ParentStyle
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: GanttBarStyle propiedad. Obtiene o establece el estilo principal o común para el estilo personalizado específico de la tarea.
+title: "GanttBarStyle.ParentStyle"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad GanttBarStyle. Obtiene o establece el estilo padre o común para el estilo específico de tarea personalizado"
 type: docs
 weight: 160
 url: /es/net/aspose.tasks.visualization/ganttbarstyle/parentstyle/
 ---
 ## GanttBarStyle.ParentStyle property
 
-Obtiene o establece el estilo principal (o común) para el estilo personalizado específico de la tarea.
+Obtiene o establece el estilo padre (o común) para el estilo personalizado específico de la tarea.
 
 ```csharp
 public GanttBarStyle ParentStyle { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
-La tarea puede tener múltiples estilos personalizados con diferentes estilos principales. Por ejemplo, considere una tarea que tenga un estilo personalizado con un estilo principal "Crítico" y otro estilo con un estilo principal "Normal". En pocas palabras, si la tarea es crítica, se aplica el primer estilo. Si la tarea deja de ser crítica, se aplica el segundo estilo (esta lógica se hereda de Microsoft Project Professional).
+La tarea puede tener varios estilos personalizados con diferentes estilos padre. Por ejemplo, considere una tarea que tiene un estilo personalizado con el estilo padre "Critical" y otro estilo con el estilo padre "Normal". En resumen, si la tarea es crítica, se aplica el primer estilo. Si la tarea deja de ser crítica, se aplica el segundo estilo (esta lógica se hereda de Microsoft Project Professional).
+
+## Ejemplos
+
+Muestra cómo leer los estilos de barra personalizados de una vista.
+
+```csharp
+var project = new Project(DataDir + "CustomBarStyle.mpp");
+
+var view = (GanttChartView)project.DefaultView;
+Console.WriteLine("Custom bar styles count: {0}", view.CustomBarStyles.Count);
+
+var style1 = view.CustomBarStyles[0];
+Console.WriteLine("Style1.ParentStyle Name: {0}", style1.ParentStyle.Name);
+Console.WriteLine("Style1.LeftField: {0}", style1.LeftField);
+Console.WriteLine("Style1.RightField: {0}", style1.RightField);
+Console.WriteLine("Style1.TopField: {0}", style1.TopField);
+Console.WriteLine("Style1.BottomField: {0}", style1.BottomField);
+Console.WriteLine("Style1.InsideField: {0}", style1.InsideField);
+Console.WriteLine("Style1.From: {0}", style1.From);
+Console.WriteLine("Style1.To: {0}", style1.To);
+Console.WriteLine("Style1.Row: {0}", style1.Row);
+
+var style2 = view.CustomBarStyles[1];
+Console.WriteLine("Style2.LeftField: {0}", style2.LeftField);
+Console.WriteLine("Style2.RightField: {0}", style2.RightField);
+Console.WriteLine("Style2.TopField: {0}", style2.TopField);
+Console.WriteLine("Style2.BottomField: {0}", style2.BottomField);
+Console.WriteLine("Style2.InsideField: {0}", style2.InsideField);
+Console.WriteLine("Style2.From: {0}", style2.From);
+Console.WriteLine("Style2.To: {0}", style2.To);
+Console.WriteLine("Style2.Row: {0}", style1.Row);
+
+var style3 = view.CustomBarStyles[2];
+Console.WriteLine("Style3.LeftField: {0}", style3.LeftField);
+Console.WriteLine("Style3.RightField: {0}", style3.RightField);
+Console.WriteLine("Style3.TopField: {0}", style3.TopField);
+Console.WriteLine("Style3.BottomField: {0}", style3.BottomField);
+Console.WriteLine("Style3.InsideField: {0}", style3.InsideField);
+
+Console.WriteLine("Style3.StartShape: {0}", style3.StartShape);
+Console.WriteLine("Style3.StartShapeType: {0}", style3.StartShapeType);
+Console.WriteLine("Style3.StartShapeColor: {0}", style3.StartShapeColor);
+
+Console.WriteLine("Style3.EndShape: {0}", style3.EndShape);
+Console.WriteLine("Style3.EndShapeType: {0}", style3.EndShapeType);
+Console.WriteLine("Style3.EndShapeColor: {0}", style3.EndShapeColor);
+
+Console.WriteLine("Style3.MiddleShape: {0}", style3.MiddleShape);
+Console.WriteLine("Style3.MiddleFillPattern: {0}", style3.MiddleFillPattern);
+Console.WriteLine("Style3.MiddleShapeColor: {0}", style3.MiddleShapeColor);
+Console.WriteLine("Style3.From: {0}", style3.From);
+Console.WriteLine("Style3.To: {0}", style3.To);
+Console.WriteLine("Style3.Row: {0}", style1.Row);
+```
 
 ### Ver también
 
 * class [GanttBarStyle](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../ganttbarstyle/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttbarstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

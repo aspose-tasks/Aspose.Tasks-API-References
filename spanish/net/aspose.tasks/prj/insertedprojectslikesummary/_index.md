@@ -1,17 +1,29 @@
 ---
-title: Prj.InsertedProjectsLikeSummary
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si las subtareas se calculan como tareas de resumen.
+title: "Prj.InsertedProjectsLikeSummary"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si las subtareas se calculan como tareas resumen"
 type: docs
-weight: 380
+weight: 390
 url: /es/net/aspose.tasks/prj/insertedprojectslikesummary/
 ---
 ## Prj.InsertedProjectsLikeSummary field
 
-Determina si las subtareas se calculan como tareas de resumen.
+Determina si las subtareas se calculan como tareas resumen.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> InsertedProjectsLikeSummary;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.InsertedProjectsLikeSummary.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.InsertedProjectsLikeSummary, true);
+
+Console.WriteLine("Inserted Projects Like Summary: " + project.Get(Prj.InsertedProjectsLikeSummary));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> InsertedProjectsLikeSummary;
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

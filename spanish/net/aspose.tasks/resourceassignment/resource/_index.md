@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Resource
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. El recurso asignado a una tarea.
+title: "ResourceAssignment.Resource"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. El recurso asignado a una tarea"
 type: docs
 weight: 510
 url: /es/net/aspose.tasks/resourceassignment/resource/
@@ -18,7 +18,7 @@ public Resource Resource { get; set; }
 
 * class [Resource](../../resource/)
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

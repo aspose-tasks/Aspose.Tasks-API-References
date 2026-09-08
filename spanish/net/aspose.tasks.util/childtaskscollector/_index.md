@@ -1,9 +1,9 @@
 ---
-title: Class ChildTasksCollector
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Util.ChildTasksCollector clase. Recopila todas las tareas secundarias.
+title: "Clase ChildTasksCollector"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Util.ChildTasksCollector. Recopila todas las tareas hijas"
 type: docs
-weight: 2370
+weight: 2690
 url: /es/net/aspose.tasks.util/childtaskscollector/
 ---
 ## ChildTasksCollector class
@@ -18,13 +18,13 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 
 | Nombre | Descripción |
 | --- | --- |
-| [ChildTasksCollector](childtaskscollector/)() | Inicializa una nueva instancia del`ChildTasksCollector` clase. |
+| [ChildTasksCollector](childtaskscollector/)() | Inicializa una nueva instancia de la clase `ChildTasksCollector`. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Tasks](../../aspose.tasks.util/childtaskscollector/tasks/) { get; } | Obtiene una lista de objetos secundarios recopilados (tareas). |
+| [Tasks](../../aspose.tasks.util/childtaskscollector/tasks/) { get; } | Obtiene una lista de objetos hijos recopilados (tareas). |
 
 ## Métodos
 
@@ -34,11 +34,28 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(Task, int) |  |
 
+## Ejemplos
+
+Muestra cómo iterar sobre todas las tareas en un proyecto como una lista simple.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizar todas las tareas recopiladas
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
 ### Ver también
 
 * class [TreeAlgorithmBase&lt;T&gt;](../treealgorithmbase-1/)
 * class [Task](../../aspose.tasks/task/)
-* espacio de nombres [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: TimephasedDataCollection.Item
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TimephasedDataCollection propiedad. Devuelve el elemento en el índice especificado. El descriptor de acceso establecido no es compatible. propiedad para establecer datos de fase temporal.
+title: "TimephasedDataCollection.Item"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad TimephasedDataCollection. Devuelve el elemento en el índice especificado. El accesor de establecimiento no está soportado. propiedad para establecer datos timephased"
 type: docs
-weight: 40
+weight: 30
 url: /es/net/aspose.tasks/timephaseddatacollection/item/
 ---
 ## TimephasedDataCollection indexer
 
-Devuelve el elemento en el índice especificado. El descriptor de acceso establecido no es compatible. propiedad para establecer datos de fase temporal.
+Devuelve el elemento en el índice especificado. El accesor de establecimiento no es compatible. propiedad para establecer datos por fases de tiempo.
 
 ```csharp
 public TimephasedData this[int index] { get; set; }
@@ -16,9 +16,9 @@ public TimephasedData this[int index] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | El índice de base cero del elemento que se va a obtener. |
+| índice | El índice basado en cero del elemento a obtener. |
 
-### Valor_devuelto
+### Valor devuelto
 
 el elemento en el índice especificado.
 
@@ -26,7 +26,7 @@ el elemento en el índice especificado.
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* espacio de nombres [Aspose.Tasks](../../timephaseddatacollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

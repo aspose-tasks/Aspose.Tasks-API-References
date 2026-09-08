@@ -1,14 +1,14 @@
 ---
-title: Enum FillPattern
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Visualization.FillPattern enumeración. Patrón de relleno utilizado en la forma media de una barra de Gantt.
+title: "Enumeración FillPattern"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enumeración Aspose.Tasks.Visualization.FillPattern. Patrón de relleno usado en la forma central de una barra de gantt"
 type: docs
-weight: 2670
+weight: 3000
 url: /es/net/aspose.tasks.visualization/fillpattern/
 ---
 ## FillPattern enumeration
 
-Patrón de relleno utilizado en la forma media de una barra de Gantt.
+Patrón de relleno usado en la forma central de una barra de gantt.
 
 ```csharp
 public enum FillPattern
@@ -23,17 +23,17 @@ public enum FillPattern
 | LightFill | `2` | Patrón de relleno claro. |
 | MediumFill | `3` | Patrón de relleno medio. |
 | DarkFill | `4` | Patrón de relleno oscuro. |
-| DiagonalLeft | `5` | Patrón diagonal izquierda. |
+| DiagonalLeft | `5` | Patrón diagonal izquierdo. |
 | DiagonalRight | `6` | Patrón diagonal derecha. |
-| DiagonalCross | `7` | Patrón de cruz diagonal. |
-| LineVertical | `8` | Línea patrón vertical. |
-| LineHorizontal | `9` | Línea patrón horizontal. |
-| LineCross | `10` | Patrón de cruce de líneas. |
-| SolidFillWithDashedBorder | `11` | Sólido con patrón de borde discontinuo. |
+| DiagonalCross | `7` | Patrón diagonal cruzado. |
+| LineVertical | `8` | Patrón de línea vertical. |
+| LineHorizontal | `9` | Patrón de línea horizontal. |
+| LineCross | `10` | Patrón de línea cruzada. |
+| SolidFillWithDashedBorder | `11` | Patrón sólido con borde punteado. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

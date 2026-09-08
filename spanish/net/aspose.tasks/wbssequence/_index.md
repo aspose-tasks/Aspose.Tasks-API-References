@@ -1,9 +1,9 @@
 ---
-title: Enum WBSSequence
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.WBSSequence enumeración. Especifica la secuencia para WBSCodeMask
+title: "Enumeración WBSSequence"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Aspose.Tasks.WBSSequence enum. Especifica la secuencia para WBSCodeMask"
 type: docs
-weight: 3160
+weight: 3520
 url: /es/net/aspose.tasks/wbssequence/
 ---
 ## WBSSequence enumeration
@@ -19,13 +19,45 @@ public enum WBSSequence
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | OrderedNumbers | `0` | Indica la secuencia de números WBS. |
-| OrderedUppercaseLetters | `1` | Indica letras mayúsculas secuencia WBS. |
-| OrderedLowercaseLetters | `2` | Indica secuencia WBS en letras minúsculas. |
-| UnorderedCharacters | `3` | Indica caracteres desordenados Secuencia WBS. |
+| OrderedUppercaseLetters | `1` | Indica la secuencia de letras mayúsculas WBS. |
+| OrderedLowercaseLetters | `2` | Indica la secuencia de letras minúsculas WBS. |
+| UnorderedCharacters | `3` | Indica la secuencia de caracteres desordenados WBS. |
+
+## Ejemplos
+
+Muestra cómo establecer secuencias WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+var tsk = project.RootTask.Children.Add("Task 1");
+tsk.Children.Add("Task 2");
+
+project.Recalculate();
+
+project.Save(OutDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

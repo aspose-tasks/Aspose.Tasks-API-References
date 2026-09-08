@@ -1,0 +1,71 @@
+---
+title: "SimpleSaveOptions.TasksFilter"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad SimpleSaveOptions. Obtiene o establece la condición que se usa para filtrar tareas mostradas en la hoja de tareas Gantt y en los gráficos de uso de tareas"
+type: docs
+weight: 30
+url: /es/net/aspose.tasks.saving/simplesaveoptions/tasksfilter/
+---
+## SimpleSaveOptions.TasksFilter property
+
+Obtiene o establece la condición que se utiliza para filtrar las tareas renderizadas en los diagramas de Gantt, hoja de tareas y uso de tareas.
+
+```csharp
+public ICondition<Task> TasksFilter { get; set; }
+```
+
+## Observaciones
+
+Si no se especifica un valor, se utiliza el filtro predeterminado que elimina las tareas no visibles, es decir, las tareas descendientes de tareas colapsadas.
+
+## Ejemplos
+
+Muestra cómo usar un filtro de tareas personalizado al guardar un archivo MS Project.
+
+```csharp
+public void WorkWithTasksFilter()
+{
+    var project = new Project(DataDir + "CreateProject2.mpp");
+
+    var options = new PdfSaveOptions
+    {
+        PresentationFormat = PresentationFormat.GanttChart,
+        PageSize = PageSize.A3,
+        StartDate = new DateTime(2010, 7, 1),
+        EndDate = new DateTime(2010, 9, 1),
+
+        // establezca un filtro de tareas para omitir la tarea 'Task5' y 'Task3'
+        TasksFilter = new CustomTasksFilter()
+    };
+
+    // veamos el formato de guardado
+    Console.WriteLine("The save format: " + options.SaveFormat);
+
+    // ...
+
+    // guardar el proyecto como una imagen
+    project.Save(OutDir + "WorkWithTasksFilter_out.png", options);
+}
+
+/// <summary>
+/// Ejemplo de filtro de tareas personalizado que puede usarse al guardar un archivo MS Project (por ejemplo) en formato PDF.
+/// </summary>
+/// <inheritdoc />
+private class CustomTasksFilter : ICondition<Task>
+{
+    public bool Check(Task el)
+    {
+        return el.Get(Tsk.Name) != "Task5" && el.Get(Tsk.Name) != "Task3";
+    }
+}
+```
+
+### Ver también
+
+* interface [ICondition&lt;T&gt;](../../../aspose.tasks.util/icondition-1/)
+* class [Task](../../../aspose.tasks/task/)
+* class [SimpleSaveOptions](../)
+* namespace [Aspose.Tasks.Saving](../../simplesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
+
+

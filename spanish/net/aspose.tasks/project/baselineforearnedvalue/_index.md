@@ -1,9 +1,9 @@
 ---
-title: Project.BaselineForEarnedValue
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de BaselineForEarnedValue.
+title: "Project.BaselineForEarnedValue"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Project. Obtiene o establece un valor de BaselineForEarnedValue"
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.tasks/project/baselineforearnedvalue/
 ---
 ## Project.BaselineForEarnedValue property
@@ -18,7 +18,7 @@ public BaselineType BaselineForEarnedValue { get; set; }
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,40 +1,85 @@
 ---
-title: ExtendedAttributeDefinition.AddLookupValue
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ExtendedAttributeDefinition método. Agrega un valor a la lista de búsqueda interna. Esta es una forma preferible para las manipulaciones con elValueList .
+title: "ExtendedAttributeDefinition.AddLookupValue"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ExtendedAttributeDefinition. Añade un valor a la lista interna de búsqueda. Esta es la forma preferida para manipular la ValueList"
 type: docs
-weight: 290
+weight: 300
 url: /es/net/aspose.tasks/extendedattributedefinition/addlookupvalue/
 ---
 ## ExtendedAttributeDefinition.AddLookupValue method
 
-Agrega un valor a la lista de búsqueda interna. Esta es una forma preferible para las manipulaciones con el[`ValueList`](../valuelist/) .
+Añade un valor a la lista interna de búsqueda. Esta es la forma preferida para manipular el [`ValueList`](../valuelist/).
 
 ```csharp
 public void AddLookupValue(Value value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| value | Value | Valor para agregar en la búsqueda. |
+| value | Valor | Valor a añadir en la búsqueda. |
 
-### Observaciones
+## Observaciones
 
-Este método solo funciona para[`ExtendedAttributeDefinition`](../) instancias que tienen[`CalculationType`](../calculationtype/) igual aLookup .
+Este método funciona solo para instancias de [`ExtendedAttributeDefinition`](../) que tengan [`CalculationType`](../calculationtype/) igual a Lookup.
 
-### Ejemplos
+## Ejemplos
 
-Use este código para agregar un nuevo valor a la lista de búsqueda:
+Utilice este código para añadir un nuevo Valor a la lista de búsqueda:
 
 ```csharp
 taskTextAttr.AddLookupValue(new Value { Id = 1, Val = "Text value 1", Description = "Text value description 1" });
+```
+
+Muestra cómo agregar atributos extendidos con búsquedas para asignaciones.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// Asigne el recurso "1 TRG: Trade Group" a la "TASK 1" creando un objeto ResourceAssignment.
+var resource = project.Resources.GetById(1);
+var task = project.RootTask.Children.GetById(1);
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+// Cree una definición de atributo personalizado con búsqueda.
+var resExtendedAttributeDefinition = ExtendedAttributeDefinition.CreateLookupResourceDefinition(
+    CustomFieldType.Cost,
+    ExtendedAttributeResource.Cost5,
+    "My lookup resource cost");
+project.ExtendedAttributes.Add(resExtendedAttributeDefinition);
+
+var firstValue = new Value { NumericValue = 1500, Description = "Val 1", Id = 1, Val = "1500" };
+var secondValue = new Value { NumericValue = 2500, Description = "Val 2", Id = 2 };
+resExtendedAttributeDefinition.AddLookupValue(firstValue);
+resExtendedAttributeDefinition.AddLookupValue(secondValue);
+
+// Este valor se puede ver en la vista "Resource usage" de MS Project.
+var attributeValue = resExtendedAttributeDefinition.CreateExtendedAttribute(firstValue);
+assignment.ExtendedAttributes.Add(attributeValue);
+
+// Cree una definición de atributo personalizado con búsqueda.
+var taskCostAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(CustomFieldType.Cost, ExtendedAttributeTask.Cost4, "My lookup task cost");
+project.ExtendedAttributes.Add(taskCostAttr);
+var taskFirstValue = new Value { NumericValue = 18, Description = "Task val 1", Id = 3, Val = "18" };
+var resSecondValue = new Value { NumericValue = 30, Description = "Task val 2", Id = 4 };
+var taskWrongValue = new Value { NumericValue = 99, Description = "Task val Wrong", Id = 5, Val = "18" };
+
+taskCostAttr.AddLookupValue(taskFirstValue);
+resExtendedAttributeDefinition.AddLookupValue(resSecondValue);
+
+// Este valor se puede ver en la vista "Task usage" de MS Project.
+assignment.ExtendedAttributes.Add(taskCostAttr.CreateExtendedAttribute(taskFirstValue));
+
+// Los valores incorrectos pueden eliminarse más tarde.
+taskCostAttr.RemoveLookupValue(taskWrongValue);
+
+// Trabajando con el proyecto...
 ```
 
 ### Ver también
 
 * class [Value](../../value/)
 * class [ExtendedAttributeDefinition](../)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

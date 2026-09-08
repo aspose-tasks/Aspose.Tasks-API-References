@@ -1,9 +1,9 @@
 ---
-title: Project.SetBaseline
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project método. Guarda los campos de línea base en la línea base especificada para todo el proyecto.
+title: "Project.SetBaseline"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método de Project. Guarda los campos de línea base en la línea base especificada para todo el proyecto"
 type: docs
-weight: 1230
+weight: 1250
 url: /es/net/aspose.tasks/project/setbaseline/
 ---
 ## SetBaseline(BaselineType) {#setbaseline}
@@ -14,16 +14,31 @@ Guarda los campos de línea base en la línea base especificada para todo el pro
 public void SetBaseline(BaselineType baselineType)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| baselineType | BaselineType | El tipo de línea base en el que guardar los datos de línea base. |
+| baselineType | BaselineType | El tipo de línea base donde se guardarán los datos de línea base. |
+
+## Ejemplos
+
+Muestra cómo crear líneas base para todo un proyecto.
+
+```csharp
+var project = new Project();
+
+// Agregar tareas
+project.RootTask.Children.Add("Task");
+project.RootTask.Children.Add("Task2");
+
+// Establecer línea base para tareas especificadas
+project.SetBaseline(BaselineType.Baseline);
+```
 
 ### Ver también
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -35,17 +50,32 @@ Guarda los campos de línea base en la línea base especificada para las tareas 
 public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollection)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| baselineType | BaselineType | El tipo de línea base en el que guardar los datos de línea base. |
-| taskCollection | IEnumerable`1 | Lista de tareas para guardar datos de referencia. |
+| baselineType | BaselineType | El tipo de línea base donde se guardarán los datos de línea base. |
+| taskCollection | IEnumerable`1 | Lista de tareas para las que se guardarán los datos de línea base. |
+
+## Ejemplos
+
+Muestra cómo establecer líneas base para tareas específicas.
+
+```csharp
+var project = new Project();
+
+// Agregar tareas
+var task = project.RootTask.Children.Add("Task");
+var task2 = project.RootTask.Children.Add("Task2");
+
+// Establecer línea base para tareas especificadas
+project.SetBaseline(BaselineType.Baseline, new[] { task, task2 });
+```
 
 ### Ver también
 
 * enum [BaselineType](../../baselinetype/)
 * class [Task](../../task/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

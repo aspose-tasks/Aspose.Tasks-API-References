@@ -1,7 +1,7 @@
 ---
-title: Rsc.Name
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Rsc campo. El nombre de un recurso.
+title: "Rsc.Name"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Rsc campo. El nombre de un recurso"
 type: docs
 weight: 460
 url: /es/net/aspose.tasks/rsc/name/
@@ -14,12 +14,26 @@ El nombre de un recurso.
 public static readonly Key<string, RscKey> Name;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Rsc.Name.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espacio de nombres [Aspose.Tasks](../../rsc/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

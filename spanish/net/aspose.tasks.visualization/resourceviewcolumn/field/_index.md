@@ -1,24 +1,70 @@
 ---
-title: ResourceViewColumn.Field
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceViewColumn propiedad. Campo de columna. Field .
+title: "ResourceViewColumn.Field"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceViewColumn. Campo de columna. Campo"
 type: docs
 weight: 20
 url: /es/net/aspose.tasks.visualization/resourceviewcolumn/field/
 ---
 ## ResourceViewColumn.Field property
 
-Campo de columna. `Field` .
+Campo de columna. `Field`.
 
 ```csharp
 public override Field Field { get; set; }
+```
+
+## Ejemplos
+
+Muestra cómo agregar columnas de vista de recursos para exportar.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// iterar sobre columnas
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
 ```
 
 ### Ver también
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [ResourceViewColumn](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

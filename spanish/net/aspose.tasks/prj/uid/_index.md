@@ -1,17 +1,29 @@
 ---
-title: Prj.Uid
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. La identificación única de un proyecto.
+title: "Prj.Uid"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. El Id único de un proyecto"
 type: docs
-weight: 750
+weight: 760
 url: /es/net/aspose.tasks/prj/uid/
 ---
 ## Prj.Uid field
 
-La identificación única de un proyecto.
+El Id único de un proyecto.
 
 ```csharp
 public static readonly Key<string, PrjKey> Uid;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.Uid.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Uid, "1234");
+
+Console.WriteLine("Uid: " + project.Get(Prj.Uid));
 ```
 
 ### Ver también
@@ -19,7 +31,7 @@ public static readonly Key<string, PrjKey> Uid;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

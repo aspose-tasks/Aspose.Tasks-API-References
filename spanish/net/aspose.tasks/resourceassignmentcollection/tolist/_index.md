@@ -1,28 +1,79 @@
 ---
-title: ResourceAssignmentCollection.ToList
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignmentCollection método. Convierte el objeto ResourceAssignmentCollection en una lista deResourceAssignment objetos.
+title: "ResourceAssignmentCollection.ToList"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ResourceAssignmentCollection. Convierte el objeto ResourceAssignmentCollection en una lista de objetos ResourceAssignment"
 type: docs
 weight: 100
 url: /es/net/aspose.tasks/resourceassignmentcollection/tolist/
 ---
 ## ResourceAssignmentCollection.ToList method
 
-Convierte el objeto ResourceAssignmentCollection en una lista de[`ResourceAssignment`](../../resourceassignment/) objetos.
+Convierte el objeto ResourceAssignmentCollection en una lista de objetos [`ResourceAssignment`](../../resourceassignment/) .
 
 ```csharp
 public List<ResourceAssignment> ToList()
 ```
 
-### Valor_devuelto
+### Valor devuelto
 
-Lista de[`ResourceAssignment`](../../resourceassignment/) objetos.
+Lista de objetos [`ResourceAssignment`](../../resourceassignment/).
+
+## Ejemplos
+
+Muestra cómo trabajar con colecciones de asignaciones de recursos.
+
+```csharp
+var project = new Project(DataDir + "TemplateResource2010.mpp");
+
+var task = project.RootTask.Children.Add("Task 1");
+var resource = project.Resources.Add("Resource 1");
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignment.Set(Asn.Work, project.GetWork(40));
+assignment.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithUnits = project.ResourceAssignments.Add(task, resource, 1d);
+assignmentWithUnits.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithUnits.Set(Asn.Work, project.GetWork(40));
+assignmentWithUnits.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+var assignmentWithCost = project.ResourceAssignments.Add(task, resource);
+assignmentWithCost.Set(Asn.Start, new DateTime(2019, 9, 23, 9, 0, 0));
+assignmentWithCost.Set(Asn.Work, project.GetWork(40));
+assignmentWithCost.Set(Asn.Finish, new DateTime(2019, 9, 27, 18, 0, 0));
+
+Console.WriteLine("Print assignments for the project: " + project.ResourceAssignments.ParentProject.Get(Prj.Name));
+Console.WriteLine("Resource assignment count: " + project.ResourceAssignments.Count);
+foreach (var resourceAssignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Task Name: " + resourceAssignment.Get(Asn.Task).Get(Tsk.Name));
+    Console.WriteLine("Uid: " + resourceAssignment.Get(Asn.Uid));
+    Console.WriteLine("Start: " + resourceAssignment.Get(Asn.Start));
+    Console.WriteLine("Work: " + resourceAssignment.Get(Asn.Work));
+    Console.WriteLine("Finish: " + resourceAssignment.Get(Asn.Finish));
+}
+
+var assignmentByUid = project.ResourceAssignments.GetByUid(2);
+Console.WriteLine("Assignment By Uid Start: " + assignmentByUid.Get(Asn.Start));
+
+// trabajar con asignaciones...
+Console.WriteLine("Is resource assignment collection read-only?: " + project.ResourceAssignments.IsReadOnly);
+
+// convertir la colección en una lista
+List<ResourceAssignment> resourceAssignments = project.ResourceAssignments.ToList();
+
+// iterar sobre la lista
+foreach (var ra in resourceAssignments)
+{
+    Console.WriteLine(ra.ToString());
+}
+```
 
 ### Ver también
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [ResourceAssignmentCollection](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignmentcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

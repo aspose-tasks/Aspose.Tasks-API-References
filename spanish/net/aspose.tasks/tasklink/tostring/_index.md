@@ -1,27 +1,27 @@
 ---
-title: TaskLink.ToString
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TaskLink método. Devuelve la representación de cadena de un TaskLink. Los detalles exactos de la representación no se especifican y están sujetos a cambios.
+title: "TaskLink.ToString"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método TaskLink. Devuelve la representación en cadena de un TaskLink. Los detalles exactos de la representación no están especificados y pueden cambiar."
 type: docs
 weight: 110
 url: /es/net/aspose.tasks/tasklink/tostring/
 ---
 ## TaskLink.ToString method
 
-Devuelve la representación de cadena de un TaskLink. Los detalles exactos de la representación no se especifican y están sujetos a cambios.
+Devuelve la representación en cadena de un TaskLink. Los detalles exactos de la representación no están especificados y pueden cambiar.
 
 ```csharp
 public override string ToString()
 ```
 
-### Valor_devuelto
+### Valor devuelto
 
 cadena que representa el objeto TaskLink.
 
 ### Ver también
 
 * class [TaskLink](../)
-* espacio de nombres [Aspose.Tasks](../../tasklink/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

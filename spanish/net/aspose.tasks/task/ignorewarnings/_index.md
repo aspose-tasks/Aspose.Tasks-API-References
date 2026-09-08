@@ -1,7 +1,7 @@
 ---
-title: Task.IgnoreWarnings
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor que indica si IgnoreWarnings está establecido o no.
+title: "Task.IgnoreWarnings"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor que indica si IgnoreWarnings está configurado o no"
 type: docs
 weight: 580
 url: /es/net/aspose.tasks/task/ignorewarnings/
@@ -17,7 +17,7 @@ public bool IgnoreWarnings { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

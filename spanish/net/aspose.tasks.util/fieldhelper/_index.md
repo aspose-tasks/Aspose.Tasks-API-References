@@ -1,9 +1,9 @@
 ---
-title: Class FieldHelper
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Util.FieldHelper clase. Clase auxiliar que proporciona operaciones útiles con campos.
+title: "Clase FieldHelper"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Util.FieldHelper. Clase auxiliar que proporciona operaciones útiles con campos"
 type: docs
-weight: 2380
+weight: 2700
 url: /es/net/aspose.tasks.util/fieldhelper/
 ---
 ## FieldHelper class
@@ -18,11 +18,12 @@ public static class FieldHelper
 
 | Nombre | Descripción |
 | --- | --- |
+| static [GetDefaultFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaultfieldtitle/)(Field) | Devuelve un título predeterminado del campo específico. |
 | static [GetDefaultTaskFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/)(TaskKey) | Devuelve un título predeterminado del campo de tarea específico. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

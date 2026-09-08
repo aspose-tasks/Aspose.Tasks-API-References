@@ -1,7 +1,7 @@
 ---
-title: Task.FinishSlack
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de FinishSlack.
+title: "Task.FinishSlack"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor de FinishSlack"
 type: docs
 weight: 450
 url: /es/net/aspose.tasks/task/finishslack/
@@ -17,7 +17,7 @@ public TimeSpan FinishSlack { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

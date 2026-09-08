@@ -1,9 +1,9 @@
 ---
-title: Project.SaveVersion
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de SaveVersion.
+title: "Project.SaveVersion"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Project. Obtiene o establece un valor de SaveVersion"
 type: docs
-weight: 780
+weight: 810
 url: /es/net/aspose.tasks/project/saveversion/
 ---
 ## Project.SaveVersion property
@@ -17,7 +17,7 @@ public int SaveVersion { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

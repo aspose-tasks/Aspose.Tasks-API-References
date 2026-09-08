@@ -1,17 +1,31 @@
 ---
-title: Rsc.Finish
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Rsc campo. La fecha en que un recurso está programado para completar el trabajo en todas las tareas asignadas.
+title: "Rsc.Finish"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Rsc. La fecha en que se programa que un recurso complete el trabajo en todas las tareas asignadas"
 type: docs
 weight: 290
 url: /es/net/aspose.tasks/rsc/finish/
 ---
 ## Rsc.Finish field
 
-La fecha en que un recurso está programado para completar el trabajo en todas las tareas asignadas.
+La fecha en que se programa que un recurso complete el trabajo en todas las tareas asignadas.
 
 ```csharp
 public static readonly Key<DateTime, RscKey> Finish;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Rsc.Finish.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Finish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Finish: " + resource.Get(Rsc.Finish));
 ```
 
 ### Ver también
@@ -19,7 +33,7 @@ public static readonly Key<DateTime, RscKey> Finish;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espacio de nombres [Aspose.Tasks](../../rsc/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

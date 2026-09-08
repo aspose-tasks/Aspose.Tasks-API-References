@@ -1,113 +1,127 @@
 ---
-title: Enum RscKey
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.RscKey enumeración. Representa una lista de campos de recursos admitidos.
+title: "Enumeración RscKey"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enumeración Aspose.Tasks.RscKey. Representa una lista de campos de recurso compatibles"
 type: docs
-weight: 1710
+weight: 1970
 url: /es/net/aspose.tasks/rsckey/
 ---
 ## RscKey enumeration
 
-Representa una lista de campos de recursos admitidos.
+Representa una lista de campos de recursos compatibles.
 
 ```csharp
-public enum RscKey
+public enum RscKey : byte
 ```
 
 ### Valores
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Name | `0` | Representa el campo Nombre (Recurso). |
-| AccrueAt | `1` | Representa el campo Acumulado en (recurso). |
-| ActualCost | `2` | Representa el campo Costo real (recurso). |
-| ActualOvertimeCost | `3` | Representa el campo Costo real de horas extra (recurso). |
-| ActualOvertimeWork | `4` | Representa el campo Trabajo real de horas extra (Recurso). |
-| ActualOvertimeWorkProtected | `5` | Representa el campo Trabajo de horas extra real protegido (recurso). |
-| ActualWork | `6` | Representa el campo Trabajo real (Recurso). |
-| ActualWorkProtected | `7` | Representa el campo Trabajo real protegido (Recurso). |
-| ACWP | `8` | Representa el campo ACWP (Recurso). |
-| AssignmentOwner | `9` | Representa el campo Propietario de la asignación (Recurso). |
-| AssignmentOwnerGuid | `10` | Representa el campo Guid del propietario de la asignación (Recurso). |
-| AssignmentUnits | `11` | Representa el campo Unidades de asignación (Recurso). |
-| AvailableFrom | `12` | Representa el campo Disponible desde (Recurso). |
-| AvailableTo | `13` | Representa el campo Disponible hasta (Recurso). |
-| ActiveDirectoryGuid | `14` | Representa el campo Guid (recurso) de Active Directory. |
-| BaseCalendar | `15` | Representa el campo Calendario base (Recurso). |
-| BCWP | `16` | Representa el campo BCWP (Recurso). |
-| BCWS | `17` | Representa el campo BCWS (Recurso). |
-| BookingType | `18` | Representa el campo Tipo de reserva (Recurso). |
-| BudgetWork | `19` | Representa el campo Trabajo presupuestado (Recurso). |
-| BudgetCost | `20` | Representa el campo Costo presupuestario (Recurso). |
-| Calendar | `21` | Representa el campo GUID (recurso) del calendario. |
+| Name | `0` | Representa el nombre (Resource) campo. |
+| AccrueAt | `1` | Representa el campo Accrue At (Resource). |
+| ActualCost | `2` | Representa el campo Actual Cost (Resource). |
+| ActualOvertimeCost | `3` | Representa el campo Actual Overtime Cost (Resource). |
+| ActualOvertimeWork | `4` | Representa el campo Actual Overtime Work (Resource). |
+| ActualOvertimeWorkProtected | `5` | Representa el campo Actual Overtime Work Protected (Resource). |
+| ActualWork | `6` | Representa el campo Actual Work (Resource). |
+| ActualWorkProtected | `7` | Representa el campo Actual Work Protected (Resource). |
+| ACWP | `8` | Representa el campo ACWP (Resource). |
+| AssignmentOwner | `9` | Representa el campo Propietario de Asignación (Recurso). |
+| AssignmentOwnerGuid | `10` | Representa el campo Guid del Propietario de Asignación (Recurso). |
+| AssignmentUnits | `11` | Representa el campo Assignment Units (Resource). |
+| AvailableFrom | `12` | Representa el campo Available From (Resource). |
+| AvailableTo | `13` | Representa el campo Available To (Resource). |
+| ActiveDirectoryGuid | `14` | Representa el campo Guid de Active Directory (Recurso). |
+| BaseCalendar | `15` | Representa el Base Calendar (Resource) campo. |
+| BCWP | `16` | Representa el campo BCWP (Resource). |
+| BCWS | `17` | Representa el campo BCWS (Resource). |
+| BookingType | `18` | Representa el campo Booking Type (Resource). |
+| BudgetWork | `19` | Representa el campo Budget Work (Resource). |
+| BudgetCost | `20` | Representa el campo Budget Cost (Resource). |
+| Calendar | `21` | Representa el campo Calendar GUID (Resource). |
 | CanLevel | `22` | Representa el campo Can Level (Resource). |
-| Code | `23` | Representa el campo Código (Recurso). |
-| Confirmed | `24` | Representa el campo Confirmado (Recurso). |
-| Cost | `25` | Representa el campo Costo (Recurso). |
-| CostCenter | `26` | Representa el campo Centro de Costo (Recurso). |
-| CostPerUse | `27` | Representa el campo Costo por uso (recurso). |
-| CostRateTable | `28` | Representa el campo de la tabla de tasa de costo (recurso). |
-| CostVariance | `29` | Representa el campo Variación de costo (Recurso). |
-| Created | `30` | Representa el campo Creado (Recurso). |
-| CV | `31` | Representa el campo CV (Recurso). |
-| SV | `32` | Representa el campo SV (Recurso). |
-| EMailAddress | `33` | Representa el campo Dirección de correo electrónico (Recurso). |
-| IsBudget | `34` | Representa el campo Presupuesto (Recurso). |
+| Code | `23` | Representa el campo Code (Resource). |
+| Confirmed | `24` | Representa el Confirmed (Resource) campo. |
+| Cost | `25` | Representa el Cost (Resource) campo. |
+| CostCenter | `26` | Representa el Cost Center (Resource) campo. |
+| CostPerUse | `27` | Representa el Cost Per Use (Resource) campo. |
+| CostRateTable | `28` | Representa el Cost Rate Table (Resource) campo. |
+| CostVariance | `29` | Representa el Cost Variance (Resource) campo. |
+| Created | `30` | Representa el Created (Resource) campo. |
+| CV | `31` | Representa el CV (Resource) campo. |
+| SV | `32` | Representa el campo SV (Resource). |
+| EMailAddress | `33` | Representa el campo EMail Address (Resource). |
+| IsBudget | `34` | Representa el campo Budget (Resource). |
 | IsGeneric | `35` | Representa el campo Genérico (Recurso). |
-| IsEnterprise | `36` | Representa el campo Empresa (Recurso). |
-| IsCostResource | `37` | Representa el campo Es costo (recurso). |
+| IsEnterprise | `36` | Representa el campo Enterprise (Resource). |
+| IsCostResource | `37` | Representa el campo Es Costo (Recurso). |
 | Inactive | `38` | Representa el campo Inactivo (Recurso). |
-| Finish | `39` | Representa el campo Finalizar (Recurso). |
-| Group | `40` | Representa el campo Grupo (Recurso). |
-| GroupBySummary | `41` | Representa el campo Agrupar por resumen (recurso). |
+| Finish | `39` | Representa el campo Finish (Resource). |
+| Group | `40` | Representa el campo Group (Resource). |
+| GroupBySummary | `41` | Representa el campo Group by Summary (Resource). |
 | Guid | `42` | Representa el campo GUID (Recurso). |
-| Hyperlink | `43` | Representa el campo Hipervínculo (Recurso). |
-| HyperlinkAddress | `44` | Representa el campo Dirección de hipervínculo (recurso). |
-| HyperlinkHref | `45` | Representa el campo Hipervínculo HResource (Recurso). |
-| HyperlinkSubAddress | `46` | Representa el campo Subdirección de hipervínculo (recurso). |
-| Id | `47` | Representa el campo ID (Recurso). |
-| Initials | `48` | Representa el campo Iniciales (Recurso). |
-| IsAssignment | `49` | Representa el campo Es asignación (recurso). |
+| Hyperlink | `43` | Representa el hipervínculo (Resource) campo. |
+| HyperlinkAddress | `44` | Representa la dirección del hipervínculo (Resource) campo. |
+| HyperlinkHref | `45` | Representa el HRef del hipervínculo (Resource) campo. |
+| HyperlinkSubAddress | `46` | Representa la subdirección del hipervínculo (Resource) campo. |
+| Id | `47` | Representa el ID (Resource) campo. |
+| Initials | `48` | Representa las iniciales (Resource) campo. |
+| IsAssignment | `49` | Representa si es una asignación (Resource) campo. |
 | IsNull | `50` | Representa el campo IsNull. |
-| IsTeamAssignmentPool | `51` | Representa el campo Es equipo (recurso). |
-| LevelingDelay | `52` | Representa el campo Retraso de nivelación (Recurso). |
-| LinkedFields | `53` | Representa el campo Campos vinculados (Recurso). |
-| MaterialLabel | `54` | Representa el campo Etiqueta de material (Recurso). |
-| MaxUnits | `55` | Representa el campo Unidades máximas (Recurso). |
-| Notes | `56` | Representa el campo Notas (Recurso). |
-| NotesRTF | `57` | Representa el campo RTF (Recurso) de Notes. |
-| NotesText | `58` | Representa el campo de Texto de Notas (Recurso). |
-| Overallocated | `59` | Representa el campo (recurso) sobreasignado. |
-| OvertimeCost | `60` | Representa el campo Costo de horas extra (recurso). |
-| OvertimeRate | `61` | Representa el campo Tasa de horas extra (Recurso). |
-| OvertimeRateFormat | `62` | Representa el campo Formato de tasa de horas extra (Recurso). |
-| OvertimeWork | `63` | Representa el campo Trabajo de horas extra (Recurso). |
-| PeakUnits | `64` | Representa el campo Unidades pico (Recurso). |
-| PercentWorkComplete | `65` | Representa el campo Porcentaje de trabajo completado (Recurso). |
-| Phonetics | `66` | Representa el campo Fonética (Recurso). |
-| Project | `67` | Representa el campo Proyecto (Recurso). |
-| RegularWork | `68` | Representa el campo Trabajo normal (Recurso). |
-| RemainingCost | `69` | Representa el campo Costo restante (Recurso). |
-| RemainingOvertimeCost | `70` | Representa el campo Costo restante de horas extra (Recurso). |
-| RemainingOvertimeWork | `71` | Representa el campo Trabajo de horas extra restante (Recurso). |
-| RemainingWork | `72` | Representa el campo Trabajo restante (Recurso). |
-| ResponsePending | `73` | Representa el campo Respuesta pendiente (Recurso). |
-| StandardRate | `74` | Representa el campo Tarifa estándar (Recurso). |
-| StandardRateFormat | `75` | Representa el campo Formato de tasa estándar (Recurso). |
-| Start | `76` | Representa el campo Inicio (Recurso). |
-| Type | `77` | Representa el campo Tipo (Recurso). |
-| Uid | `78` | Representa el campo UniqueID (Recurso). |
-| VAC | `79` | Representa el campo VAC (Recurso). |
-| WBS | `80` | Representa el campo WBS (Recurso). |
-| WindowsUserAccount | `81` | Representa el campo Cuenta de usuario de Windows (Recurso). |
-| Work | `82` | Representa el campo Trabajo (Recurso). |
-| WorkContour | `83` | Representa el campo Contorno de trabajo (Recurso). |
-| Workgroup | `84` | Representa el campo Grupo de trabajo (Recurso). |
-| WorkVariance | `85` | Representa el campo Variación de trabajo (Recurso). |
+| IsTeamAssignmentPool | `51` | Representa si es un equipo (Resource) campo. |
+| LevelingDelay | `52` | Representa el retraso de nivelación (Resource) campo. |
+| LinkedFields | `53` | Representa los campos vinculados (Resource) campo. |
+| MaterialLabel | `54` | Representa la etiqueta de material (Resource) campo. |
+| MaxUnits | `55` | Representa las unidades máximas (Resource) campo. |
+| Notes | `56` | Representa las notas (Resource) campo. |
+| NotesRTF | `57` | Representa el campo Notas RTF (Recurso). |
+| NotesText | `58` | Representa el campo Texto de Notas (Recurso). |
+| Overallocated | `59` | Representa el campo Overallocated (Recurso). |
+| OvertimeCost | `60` | Representa el campo Overtime Cost (Resource). |
+| OvertimeRate | `61` | Representa el campo Overtime Rate (Resource). |
+| OvertimeRateFormat | `62` | Representa el campo Formato de Tarifa de Horas Extra (Recurso). |
+| OvertimeWork | `63` | Representa el campo Overtime Work (Resource). |
+| PeakUnits | `64` | Representa el campo Peak Units (Resource). |
+| PercentWorkComplete | `65` | Representa el campo Percent Work Complete (Resource). |
+| Phonetics | `66` | Representa el campo Phonetics (Resource). |
+| Project | `67` | Representa el campo Project (Resource). |
+| RegularWork | `68` | Representa el campo Regular Work (Resource). |
+| RemainingCost | `69` | Representa el campo Remaining Cost (Resource). |
+| RemainingOvertimeCost | `70` | Representa el campo Remaining Overtime Cost (Resource). |
+| RemainingOvertimeWork | `71` | Representa el campo Remaining Overtime Work (Resource). |
+| RemainingWork | `72` | Representa el campo Remaining Work (Resource). |
+| ResponsePending | `73` | Representa el campo Response Pending (Resource). |
+| StandardRate | `74` | Representa el campo Standard Rate (Resource). |
+| StandardRateFormat | `75` | Representa el campo Formato de Tarifa Estándar (Recurso). |
+| Start | `76` | Representa el campo Start (Resource). |
+| Type | `77` | Representa el campo Type (Resource). |
+| Uid | `78` | Representa el campo UniqueID (Resource). |
+| VAC | `79` | Representa el campo VAC (Resource). |
+| WBS | `80` | Representa el campo WBS (Resource). |
+| WindowsUserAccount | `81` | Representa el campo Windows User Account (Resource). |
+| Work | `82` | Representa el campo Work (Resource). |
+| WorkContour | `83` | Representa el campo Work Contour (Resource). |
+| Workgroup | `84` | Representa el campo Workgroup (Resource). |
+| WorkVariance | `85` | Representa el campo Work Variance (Resource). |
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Rsc.Name.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

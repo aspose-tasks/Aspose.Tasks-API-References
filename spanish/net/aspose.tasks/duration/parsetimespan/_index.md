@@ -1,31 +1,40 @@
 ---
-title: Duration.ParseTimeSpan
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Duration método. Analiza la cadena de duración en formato PTHMS.
+title: "Duration.ParseTimeSpan"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método Duration. Analiza la cadena de duración en formato PTHMS."
 type: docs
 weight: 130
 url: /es/net/aspose.tasks/duration/parsetimespan/
 ---
 ## Duration.ParseTimeSpan method
 
-Analiza la cadena de duración en formato "PT--H--M--S--".
+Analiza la cadena de duración en el formato "PT--H--M--S--".
 
 ```csharp
 public static TimeSpan ParseTimeSpan(string value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| value | String | la cadena especificada para analizar. |
+| value | Cadena | la cadena especificada para analizar. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve una instancia analizada del[`TimeSpan`](../timespan/) estructura
+devuelve una instancia analizada de la estructura [`TimeSpan`](../timespan/).
+
+## Ejemplos
+
+Muestra cómo convertir una cadena en un intervalo de tiempo.
+
+```csharp
+var timeSpan = Duration.ParseTimeSpan("PT1H10M30S");
+Console.WriteLine("The parsed time span: " + timeSpan);
+```
 
 ### Ver también
 
 * struct [Duration](../)
-* espacio de nombres [Aspose.Tasks](../../duration/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

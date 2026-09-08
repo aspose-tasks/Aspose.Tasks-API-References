@@ -1,17 +1,31 @@
 ---
-title: Tsk.LateFinish
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. La última fecha en la que una tarea puede finalizar sin retrasar la finalización del proyecto.
+title: "Tsk.LateFinish"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. La fecha más reciente en que una tarea puede terminar sin retrasar la finalización del proyecto"
 type: docs
-weight: 740
+weight: 730
 url: /es/net/aspose.tasks/tsk/latefinish/
 ---
 ## Tsk.LateFinish field
 
-La última fecha en la que una tarea puede finalizar sin retrasar la finalización del proyecto.
+La fecha más reciente en que una tarea puede finalizar sin retrasar la finalización del proyecto.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> LateFinish;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.LateFinish.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LateFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Late Finish: " + task.Get(Tsk.LateFinish));
 ```
 
 ### Ver también
@@ -19,7 +33,7 @@ public static readonly Key<DateTime, TaskKey> LateFinish;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

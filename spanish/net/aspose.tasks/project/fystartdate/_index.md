@@ -1,9 +1,9 @@
 ---
-title: Project.FyStartDate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de FyStartDate.
+title: "Project.FyStartDate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Project. Obtiene o establece un valor de FyStartDate"
 type: docs
-weight: 440
+weight: 450
 url: /es/net/aspose.tasks/project/fystartdate/
 ---
 ## Project.FyStartDate property
@@ -18,7 +18,7 @@ public Month FyStartDate { get; set; }
 
 * enum [Month](../../month/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

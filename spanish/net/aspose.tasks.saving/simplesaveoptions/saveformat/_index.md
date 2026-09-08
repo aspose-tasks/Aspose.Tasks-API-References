@@ -1,0 +1,66 @@
+---
+title: "SimpleSaveOptions.SaveFormat"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad SimpleSaveOptions. Obtiene o establece el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado"
+type: docs
+weight: 10
+url: /es/net/aspose.tasks.saving/simplesaveoptions/saveformat/
+---
+## SimpleSaveOptions.SaveFormat property
+
+Obtiene o establece el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado.
+
+```csharp
+public SaveFileFormat SaveFormat { get; }
+```
+
+## Ejemplos
+
+Muestra cómo usar un filtro de tareas personalizado al guardar un archivo MS Project.
+
+```csharp
+public void WorkWithTasksFilter()
+{
+    var project = new Project(DataDir + "CreateProject2.mpp");
+
+    var options = new PdfSaveOptions
+    {
+        PresentationFormat = PresentationFormat.GanttChart,
+        PageSize = PageSize.A3,
+        StartDate = new DateTime(2010, 7, 1),
+        EndDate = new DateTime(2010, 9, 1),
+
+        // establezca un filtro de tareas para omitir la tarea 'Task5' y 'Task3'
+        TasksFilter = new CustomTasksFilter()
+    };
+
+    // veamos el formato de guardado
+    Console.WriteLine("The save format: " + options.SaveFormat);
+
+    // ...
+
+    // guardar el proyecto como una imagen
+    project.Save(OutDir + "WorkWithTasksFilter_out.png", options);
+}
+
+/// <summary>
+/// Ejemplo de filtro de tareas personalizado que puede usarse al guardar un archivo MS Project (por ejemplo) en formato PDF.
+/// </summary>
+/// <inheritdoc />
+private class CustomTasksFilter : ICondition<Task>
+{
+    public bool Check(Task el)
+    {
+        return el.Get(Tsk.Name) != "Task5" && el.Get(Tsk.Name) != "Task3";
+    }
+}
+```
+
+### Ver también
+
+* enum [SaveFileFormat](../../savefileformat/)
+* class [SimpleSaveOptions](../)
+* namespace [Aspose.Tasks.Saving](../../simplesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
+
+

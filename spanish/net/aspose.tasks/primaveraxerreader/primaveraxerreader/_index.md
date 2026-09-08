@@ -1,47 +1,64 @@
 ---
-title: PrimaveraXerReader.PrimaveraXerReader
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraXerReader constructor. Inicializa una nueva instancia delPrimaveraXerReader clase.
+title: "PrimaveraXerReader.PrimaveraXerReader"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor de PrimaveraXerReader. Inicializa una nueva instancia de la clase PrimaveraXerReader"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/primaveraxerreader/primaveraxerreader/
 ---
 ## PrimaveraXerReader(string) {#constructor_1}
 
-Inicializa una nueva instancia del[`PrimaveraXerReader`](../) clase.
+Inicializa una nueva instancia de la clase [`PrimaveraXerReader`](../).
 
 ```csharp
 public PrimaveraXerReader(string xerFilePath)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| xerFilePath | String | Ruta al archivo .xer donde se encuentran el proyecto o proyectos de Primavera. |
+| xerFilePath | Cadena | Ruta al archivo .xer donde se encuentra el proyecto o los proyectos de Primavera. |
+
+## Ejemplos
+
+Muestra cómo examinar la información de proyectos cortos desde un archivo Primavera XER.
+
+```csharp
+var reader = new PrimaveraXerReader(DataDir + "MultiprojectWithExternal.xer");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+
+var project = reader.LoadProject(5494);
+
+Console.WriteLine("Loaded project '{0}' with Uid {1}", project.Name, project.Uid);
+```
 
 ### Ver también
 
 * class [PrimaveraXerReader](../)
-* espacio de nombres [Aspose.Tasks](../../primaveraxerreader/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxerreader/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## PrimaveraXerReader(Stream) {#constructor}
 
-Inicializa una nueva instancia del[`PrimaveraXerReader`](../) clase.
+Inicializa una nueva instancia de la clase [`PrimaveraXerReader`](../).
 
 ```csharp
 public PrimaveraXerReader(Stream stream)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| stream | Stream | Transmite con contenido Primavera XER. |
+| flujo | Flujo | Flujo con contenido XER de Primavera. |
 
 ### Ver también
 
 * class [PrimaveraXerReader](../)
-* espacio de nombres [Aspose.Tasks](../../primaveraxerreader/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxerreader/)
+* assembly [Aspose.Tasks](../../../)
 
 

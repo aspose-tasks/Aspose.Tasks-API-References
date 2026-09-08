@@ -1,14 +1,14 @@
 ---
-title: Task.Duration
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de Duración.
+title: "Task.Duration"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor de Duration"
 type: docs
 weight: 330
 url: /es/net/aspose.tasks/task/duration/
 ---
 ## Task.Duration property
 
-Obtiene o establece un valor de Duración.
+Obtiene o establece un valor de Duration.
 
 ```csharp
 public Duration Duration { get; set; }
@@ -18,7 +18,7 @@ public Duration Duration { get; set; }
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

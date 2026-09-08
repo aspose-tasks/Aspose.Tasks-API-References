@@ -1,7 +1,7 @@
 ---
-title: View.op_Inequality
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: View método. Devuelve un valor que indica si esta instancia no es igual a un objeto especificado.
+title: "View.op_Inequality"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método View. Devuelve un valor que indica si esta instancia no es igual a un objeto especificado."
 type: docs
 weight: 200
 url: /es/net/aspose.tasks/view/op_inequality/
@@ -14,19 +14,19 @@ Devuelve un valor que indica si esta instancia no es igual a un objeto especific
 public static bool operator !=(View a, View b)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | a | View | La primera vista. |
 | b | View | La segunda vista. |
 
-### Valor_devuelto
+### Valor devuelto
 
 un valor que indica si esta instancia no es igual a un objeto especificado
 
 ### Ver también
 
 * class [View](../)
-* espacio de nombres [Aspose.Tasks](../../view/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

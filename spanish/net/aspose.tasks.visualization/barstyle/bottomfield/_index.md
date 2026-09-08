@@ -1,14 +1,14 @@
 ---
-title: BarStyle.BottomField
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: BarStyle propiedad. Obtiene o establece un campo para que se muestre en la parte inferior de la barra.
+title: "BarStyle.BottomField"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad BarStyle. Obtiene o establece un campo que se mostrará en la parte inferior de la barra"
 type: docs
 weight: 50
 url: /es/net/aspose.tasks.visualization/barstyle/bottomfield/
 ---
 ## BarStyle.BottomField property
 
-Obtiene o establece un campo para que se muestre en la parte inferior de la barra.
+Obtiene o establece un campo que se mostrará en la parte inferior de la barra.
 
 ```csharp
 public Field BottomField { get; set; }
@@ -18,7 +18,7 @@ public Field BottomField { get; set; }
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../barstyle/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

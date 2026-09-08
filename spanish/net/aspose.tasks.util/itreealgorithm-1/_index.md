@@ -1,14 +1,14 @@
 ---
-title: Interface ITreeAlgorithmT
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Util.ITreeAlgorithm1T interfaz. Representa un algoritmo que se puede aplicar a un árbol de objetosT .
+title: "Interfaz ITreeAlgorithmT"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Interfaz Aspose.Tasks.Util.ITreeAlgorithm1T. Representa un algoritmo que puede aplicarse a un árbol de objetos T"
 type: docs
-weight: 2410
+weight: 2730
 url: /es/net/aspose.tasks.util/itreealgorithm-1/
 ---
 ## ITreeAlgorithm&lt;T&gt; interface
 
-Representa un algoritmo que se puede aplicar a un árbol de objetos*T* .
+Representa un algoritmo que puede aplicarse a un árbol de objetos *T*.
 
 ```csharp
 public interface ITreeAlgorithm<in T>
@@ -16,19 +16,82 @@ public interface ITreeAlgorithm<in T>
 
 | Parámetro | Descripción |
 | --- | --- |
-| T | El tipo de objeto al que aplicar la interfaz de método. |
+| T | El tipo de objeto al que aplicar la interfaz del método. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | [Alg](../../aspose.tasks.util/itreealgorithm-1/alg/)(T, int) | Procesa un nodo de un árbol. |
-| [PostAlg](../../aspose.tasks.util/itreealgorithm-1/postalg/)(T, int) | Llamado después de procesar un nodo de un árbol. |
-| [PreAlg](../../aspose.tasks.util/itreealgorithm-1/prealg/)(T, int) | Llamado antes de procesar un nodo de un árbol. |
+| [PostAlg](../../aspose.tasks.util/itreealgorithm-1/postalg/)(T, int) | Llamado después del procesamiento de un nodo de un árbol. |
+| [PreAlg](../../aspose.tasks.util/itreealgorithm-1/prealg/)(T, int) | Llamado antes del procesamiento de un nodo de un árbol. |
+
+## Ejemplos
+
+Muestra cómo usar el algoritmo basado en árbol &lt;see cref=\"Aspose.Tasks.Util.ITreeAlgorithm`1\" /&gt;.
+
+```csharp
+public void WorkWithITreeAlgorithm()
+{
+    var project = new Project(DataDir + "Project1.mpp");
+
+    var root = project.RootTask.Children.Add("Project Management");
+    var summary = root.Children.Add("Manage iteration");
+
+    var task = summary.Children.Add("Acquire staff");
+    task.Set(Tsk.Start, new DateTime(1999, 5, 3, 9, 0, 0));
+    task.Set(Tsk.Duration, project.GetDuration(8 * 14, TimeUnitType.Hour));
+    task.Set(Tsk.Finish, project.Get(Prj.Calendar).GetFinishDateByStartAndWork(task.Get(Tsk.Start), task.Get(Tsk.Duration)));
+
+    var resource = project.Resources.Add("Project Manager");
+    resource.Set(Rsc.Type, ResourceType.Work);
+
+    project.ResourceAssignments.Add(task, resource);
+
+    // utiliza el algoritmo de árbol para recopilar trabajo común y actualizar el trabajo
+    var acc = new WorkAccumulator();
+    TaskUtils.Apply(summary, acc, 0);
+
+    var summaryWork = acc.Work.ToDouble();
+    summary.Set(Tsk.Work, project.GetWork(summaryWork));
+    summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
+
+    // ...
+}
+
+private class WorkAccumulator : ITreeAlgorithm<Task>
+{
+    /// <summary>Inicializa una nueva instancia de la clase <see cref=\"WorkAccumulator\" />.</summary>
+    public WorkAccumulator()
+    {
+        this.Work = new Duration();
+    }
+
+    public Duration Work { get; private set; }
+
+    public void PreAlg(Task el, int level)
+    {
+        // no hay nada que hacer en los pasos previos del algoritmo
+    }
+
+    public void Alg(Task el, int level)
+    {
+        if (!el.Get(Tsk.IsSummary))
+        {
+            this.Work.Add(el.Get(Tsk.Work));
+        }
+    }
+
+    public void PostAlg(Task el, int level)
+    {
+        // no hay nada que hacer en los pasos posteriores del algoritmo
+    }
+}
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

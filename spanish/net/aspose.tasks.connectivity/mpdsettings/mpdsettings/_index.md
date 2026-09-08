@@ -1,28 +1,38 @@
 ---
-title: MpdSettings.MpdSettings
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: MpdSettings constructor. Inicializa una nueva instancia delMpdSettings clase.
+title: "MpdSettings.MpdSettings"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor de MpdSettings. Inicializa una nueva instancia de la clase MpdSettings"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks.connectivity/mpdsettings/mpdsettings/
 ---
 ## MpdSettings constructor
 
-Inicializa una nueva instancia del[`MpdSettings`](../) clase.
+Inicializa una nueva instancia de la clase [`MpdSettings`](../).
 
 ```csharp
 public MpdSettings(string connectionString, int projectId)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| connectionString | String | la cadena de conexión especificada. |
-| projectId | Int32 | la identificación especificada de un proyecto para leer. |
+| connectionString | Cadena | la cadena de conexión especificada. |
+| projectId | Int32 | el id especificado de un proyecto para leer. |
+
+## Ejemplos
+
+Muestra cómo leer un proyecto desde un archivo MPD.
+
+```csharp
+DbSettings settings = new MpdSettings("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + DataDir + "MpdFileToRead.mpd", 1);
+var project = new Project(settings);
+Console.WriteLine(project.Get(Prj.Name));
+```
 
 ### Ver también
 
 * class [MpdSettings](../)
-* espacio de nombres [Aspose.Tasks.Connectivity](../../mpdsettings/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Connectivity](../../mpdsettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

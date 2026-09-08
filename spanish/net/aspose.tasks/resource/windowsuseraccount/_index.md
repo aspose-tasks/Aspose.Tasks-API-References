@@ -1,9 +1,9 @@
 ---
-title: Resource.WindowsUserAccount
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de WindowsUserAccount.
+title: "Resource.WindowsUserAccount"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Resource. Obtiene o establece un valor de WindowsUserAccount"
 type: docs
-weight: 780
+weight: 770
 url: /es/net/aspose.tasks/resource/windowsuseraccount/
 ---
 ## Resource.WindowsUserAccount property
@@ -17,7 +17,7 @@ public string WindowsUserAccount { get; set; }
 ### Ver también
 
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Resource.CanLevel
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor que indica si CanLevel está establecido o no.
+title: "Resource.CanLevel"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del recurso. Obtiene o establece un valor que indica si CanLevel está configurado o no"
 type: docs
 weight: 230
 url: /es/net/aspose.tasks/resource/canlevel/
@@ -18,7 +18,7 @@ public NullableBool CanLevel { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

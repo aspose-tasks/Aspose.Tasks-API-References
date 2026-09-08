@@ -1,9 +1,9 @@
 ---
-title: Tsk.ExternalTaskProject
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. La ubicación de origen y el identificador de tarea de una tarea externa.
+title: "Tsk.ExternalTaskProject"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. La ubicación de origen y el identificador de tarea de una tarea externa"
 type: docs
-weight: 380
+weight: 370
 url: /es/net/aspose.tasks/tsk/externaltaskproject/
 ---
 ## Tsk.ExternalTaskProject field
@@ -19,7 +19,7 @@ public static readonly Key<string, TaskKey> ExternalTaskProject;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

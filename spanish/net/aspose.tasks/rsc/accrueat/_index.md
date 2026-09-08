@@ -1,17 +1,31 @@
 ---
-title: Rsc.AccrueAt
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Rsc campo. Determina cómo y cuándo se cargarán o acumularán los costos estándar de recursos y de horas extra al costo de una tarea.
+title: "Rsc.AccrueAt"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Rsc. Determina cómo y cuándo se deben cargar o acumular los costos estándar y de horas extra del recurso al costo de una tarea"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/rsc/accrueat/
 ---
 ## Rsc.AccrueAt field
 
-Determina cómo y cuándo se cargarán o acumularán los costos estándar de recursos y de horas extra al costo de una tarea.
+Determina cómo y cuándo se deben cargar, o acumular, los costos estándar y de horas extra de los recursos al costo de una tarea.
 
 ```csharp
 public static readonly Key<CostAccrualType, RscKey> AccrueAt;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Rsc.AccrueAt.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.AccrueAt, CostAccrualType.End);
+
+Console.WriteLine("Accrue At: " + resource.Get(Rsc.AccrueAt));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<CostAccrualType, RscKey> AccrueAt;
 * enum [CostAccrualType](../../costaccrualtype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espacio de nombres [Aspose.Tasks](../../rsc/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

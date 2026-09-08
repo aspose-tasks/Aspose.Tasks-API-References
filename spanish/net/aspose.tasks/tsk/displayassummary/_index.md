@@ -1,17 +1,31 @@
 ---
-title: Tsk.DisplayAsSummary
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. Determina si la tarea debe mostrarse como una tarea de resumen. Lectura admitida solo para formato XML.
+title: "Tsk.DisplayAsSummary"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. Determina si la tarea debe mostrarse como una tarea resumen. La lectura solo es compatible con el formato XML"
 type: docs
 weight: 280
 url: /es/net/aspose.tasks/tsk/displayassummary/
 ---
 ## Tsk.DisplayAsSummary field
 
-Determina si la tarea debe mostrarse como una tarea de resumen. Lectura admitida solo para formato XML.
+Determina si la tarea debe mostrarse como una tarea resumen. Lectura compatible solo con formato XML.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> DisplayAsSummary;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.DisplayAsSummary.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DisplayAsSummary, true);
+
+Console.WriteLine("Display As Summary: " + task.Get(Tsk.DisplayAsSummary));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<NullableBool, TaskKey> DisplayAsSummary;
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

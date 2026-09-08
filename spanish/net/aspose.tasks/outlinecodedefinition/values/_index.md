@@ -1,24 +1,78 @@
 ---
-title: OutlineCodeDefinition.Values
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: OutlineCodeDefinition propiedad. Obtiene el objeto OutlineValueCollection. Los valores de la tabla asociada con este código de esquema.
+title: "OutlineCodeDefinition.Values"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "OutlineCodeDefinition propiedad. Obtiene el objeto OutlineValueCollection. Los valores de la tabla asociada con este código de esquema"
 type: docs
 weight: 150
 url: /es/net/aspose.tasks/outlinecodedefinition/values/
 ---
 ## OutlineCodeDefinition.Values property
 
-Obtiene el objeto OutlineValueCollection. Los valores de la tabla asociada con este código de esquema.
+Obtiene el objeto OutlineValueCollection. Los valores de la tabla asociados con este código de esquema.
 
 ```csharp
 public OutlineValueCollection Values { get; }
+```
+
+## Ejemplos
+
+Muestra cómo crear nuevos códigos de esquema.
+
+```csharp
+var project = new Project(DataDir + "project.mpp");
+
+// Definir código de esquema y su máscara de esquema
+var code1 = new OutlineCodeDefinition();
+code1.Alias = "New task outline code1";
+code1.FieldId = ((int)ExtendedAttributeTask.OutlineCode1).ToString();
+code1.FieldName = "Outline Code1";
+var mask = new OutlineMask();
+mask.Separator = "+";
+mask.Level = 1;
+mask.Type = MaskType.Numbers;
+code1.Masks.Add(mask);
+
+// Agregar valor de esquema
+var value = new OutlineValue();
+value.Description = "Value description";
+value.ValueId = 1;
+value.Value = "123456";
+value.Type = OutlineValueType.Number;
+code1.Values.Add(value);
+
+// Agregar código de esquema al proyecto
+project.OutlineCodes.Add(code1);
+
+// Definir código de esquema y su máscara de esquema
+var code2 = new OutlineCodeDefinition();
+code2.Alias = "New rsc outline code2";
+code2.FieldId = ((int)ExtendedAttributeResource.OutlineCode2).ToString();
+code2.FieldName = "Outline Code2";
+var mask2 = new OutlineMask();
+mask2.Separator = "/";
+mask2.Level = 1;
+mask2.Type = MaskType.Numbers;
+code2.Masks.Add(mask2);
+
+// Agregar valor de esquema
+var value2 = new OutlineValue();
+value2.Description = "Value2 description";
+value2.ValueId = 2;
+value2.Value = "987654";
+value2.Type = OutlineValueType.Number;
+code2.Values.Add(value2);
+
+// Agregar código de esquema al proyecto
+project.OutlineCodes.Add(code2);
+
+project.Save(OutDir + "Updated_project_out.mpp", SaveFileFormat.Mpp);
 ```
 
 ### Ver también
 
 * class [OutlineValueCollection](../../outlinevaluecollection/)
 * class [OutlineCodeDefinition](../)
-* espacio de nombres [Aspose.Tasks](../../outlinecodedefinition/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecodedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

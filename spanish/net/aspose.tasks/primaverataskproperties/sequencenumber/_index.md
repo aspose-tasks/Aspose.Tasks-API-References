@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.SequenceNumber
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraTaskProperties propiedad. Obtiene o establece el número de secuencia del elemento WBS tareas de resumen. Se utiliza para ordenar las tareas de resumen en Primavera.
+title: "PrimaveraTaskProperties.SequenceNumber"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad PrimaveraTaskProperties. Obtiene o establece el número de secuencia de las tareas resumidas del elemento WBS. Se utiliza para ordenar las tareas resumidas en Primavera"
 type: docs
-weight: 160
+weight: 350
 url: /es/net/aspose.tasks/primaverataskproperties/sequencenumber/
 ---
 ## PrimaveraTaskProperties.SequenceNumber property
 
-Obtiene o establece el número de secuencia del elemento WBS (tareas de resumen). Se utiliza para ordenar las tareas de resumen en Primavera.
+Obtiene o establece el número de secuencia del elemento WBS (tareas resumen). Se utiliza para ordenar las tareas resumen en Primavera.
 
 ```csharp
 public int SequenceNumber { get; }
 ```
 
-### Observaciones
+## Observaciones
 
-Aplicable a elementos de la WBS (tareas de resumen).
+Aplicable a elementos WBS (tareas resumidas).
 
 ### Ver también
 
 * class [PrimaveraTaskProperties](../)
-* espacio de nombres [Aspose.Tasks](../../primaverataskproperties/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

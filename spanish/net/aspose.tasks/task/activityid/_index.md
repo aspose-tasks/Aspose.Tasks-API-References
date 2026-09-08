@@ -1,14 +1,14 @@
 ---
-title: Task.ActivityId
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Representa el campo de identificación de actividad el identificador único de una tarea utilizado por Primavera. solo aplicable a proyectos Primavera.
+title: "Task.ActivityId"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Representa el campo de id de actividad, un identificador único de la tarea utilizado por Primavera. Solo aplicable a proyectos Primavera."
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/task/activityid/
 ---
 ## Task.ActivityId property
 
-Representa el campo de identificación de actividad: el identificador único de una tarea utilizado por Primavera. (solo aplicable a proyectos Primavera).
+Representa el campo id de actividad - el identificador único de una tarea utilizado por Primavera. (solo aplicable a proyectos Primavera).
 
 ```csharp
 public string ActivityId { get; set; }
@@ -17,7 +17,7 @@ public string ActivityId { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: TaskLink.SuccTask
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TaskLink propiedad. Obtiene o establece la tarea sucesora.
+title: "TaskLink.SuccTask"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad TaskLink. Obtiene o establece la tarea sucesora"
 type: docs
 weight: 80
 url: /es/net/aspose.tasks/tasklink/succtask/
@@ -14,11 +14,29 @@ Obtiene o establece la tarea sucesora.
 public Task SuccTask { get; set; }
 ```
 
+## Ejemplos
+
+Muestra cómo leer los enlaces de tareas del proyecto.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+// Mostrar los nombres de las tareas predecesora y sucesora
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Predecessor: " + taskLink.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor: " + taskLink.SuccTask.Get(Tsk.Name));
+    Console.WriteLine("Lag Format: " + taskLink.LagFormat);
+    Console.WriteLine("Link Lag: " + taskLink.LinkLag);
+    Console.WriteLine();
+}
+```
+
 ### Ver también
 
 * class [Task](../../task/)
 * class [TaskLink](../)
-* espacio de nombres [Aspose.Tasks](../../tasklink/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

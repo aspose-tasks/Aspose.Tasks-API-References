@@ -1,17 +1,31 @@
 ---
-title: Rsc.Inactive
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Rsc campo. Determina si un recurso fue inactivo por un usuario que tiene derechos administrativos.
+title: "Rsc.Inactive"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Rsc campo. Determina si un recurso fue marcado como inactivo por un usuario con derechos administrativos"
 type: docs
 weight: 360
 url: /es/net/aspose.tasks/rsc/inactive/
 ---
 ## Rsc.Inactive field
 
-Determina si un recurso fue inactivo por un usuario que tiene derechos administrativos.
+Determina si un recurso fue inactivado por un usuario que tiene derechos administrativos.
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> Inactive;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Rsc.Inactive.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Inactive, true);
+
+Console.WriteLine("Inactive: " + resource.Get(Rsc.Inactive));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<NullableBool, RscKey> Inactive;
 * struct [NullableBool](../../nullablebool/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espacio de nombres [Aspose.Tasks](../../rsc/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,51 @@
 ---
-title: ParseErrorArgs.Exception
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ParseErrorArgs propiedad. Obtiene la excepción generada durante el análisis del valor de la cadena.
+title: "ParseErrorArgs.Exception"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ParseErrorArgs. Obtiene la excepción generada durante el análisis del valor de cadena"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/parseerrorargs/exception/
 ---
 ## ParseErrorArgs.Exception property
 
-Obtiene la excepción generada durante el análisis del valor de la cadena.
+Obtiene la excepción generada durante el análisis del valor de cadena.
 
 ```csharp
 public Exception Exception { get; }
 ```
 
+## Ejemplos
+
+Muestra cómo leer un proyecto desde un flujo con un archivo XML con caracteres no válidos.
+
+```csharp
+public static void LoadProjectFromFile(string pathToModifiedXml)
+{
+    // abre el archivo que contiene XML con intervalos de tiempo rotos
+    var project = new Project(pathToModifiedXml, CustomDurationHandlerForFile2);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+
+public static object CustomDurationHandlerForFile2(object sender, ParseErrorArgs args)
+{
+    var regex = new Regex("[*]{2}(\\d+)Hrs(\\d+)Mins(\\d+)Secs[*]{2}");
+    if (args.FieldType != typeof(TimeSpan))
+    {
+        throw args.Exception;
+    }
+
+    Console.WriteLine("Object field: {0}, Object field type: {1}, Invalid value: {2}", args.FieldName, args.FieldType, args.InvalidValue);
+    var duration = regex.Replace(args.InvalidValue, "PT$1H$2M$3S");
+    var newValue = Duration.ParseTimeSpan(duration);
+    Console.WriteLine("New value : {0}", newValue);
+    return newValue;
+}
+```
+
 ### Ver también
 
 * class [ParseErrorArgs](../)
-* espacio de nombres [Aspose.Tasks](../../parseerrorargs/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../parseerrorargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

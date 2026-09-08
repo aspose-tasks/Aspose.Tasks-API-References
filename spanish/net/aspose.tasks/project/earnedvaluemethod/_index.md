@@ -1,9 +1,9 @@
 ---
-title: Project.EarnedValueMethod
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de EarnedValueMethod.
+title: "Project.EarnedValueMethod"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor de EarnedValueMethod"
 type: docs
-weight: 390
+weight: 400
 url: /es/net/aspose.tasks/project/earnedvaluemethod/
 ---
 ## Project.EarnedValueMethod property
@@ -18,7 +18,7 @@ public EarnedValueMethodType EarnedValueMethod { get; set; }
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

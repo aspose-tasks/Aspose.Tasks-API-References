@@ -1,7 +1,7 @@
 ---
-title: Task.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task método. Devuelve un valor que indica si esta instancia es igual a una tarea especificada.
+title: "Task.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método de Task. Devuelve un valor que indica si esta instancia es igual a una tarea especificada"
 type: docs
 weight: 1330
 url: /es/net/aspose.tasks/task/equals/
@@ -14,19 +14,38 @@ Devuelve un valor que indica si esta instancia es igual a una tarea especificada
 public bool Equals(Task other)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| other | Task | La tarea especificada para comparar con esta instancia. |
+| otro | Tarea | La tarea especificada para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve verdadero si la tarea especificada y esta instancia tienen identificadores únicos iguales.
+devuelve true si la tarea especificada y esta instancia tienen identificadores únicos iguales.
+
+## Ejemplos
+
+Muestra cómo iterar sobre las asignaciones de la tarea.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // mostrar asignaciones de la tarea
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
 
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +57,37 @@ Devuelve un valor que indica si esta instancia es igual a un objeto especificado
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El objeto especificado para comparar con esta instancia. |
+| obj | Objeto | El objeto especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve verdadero si la tarea especificada y esta instancia tienen identificadores únicos iguales.
+devuelve true si la tarea especificada y esta instancia tienen identificadores únicos iguales.
+
+## Ejemplos
+
+Muestra cómo iterar sobre las asignaciones de la tarea.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // mostrar asignaciones de la tarea
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
 
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Struct KeyTK
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Key2TK estructura. Representa una clave de propiedad de una clase del tipo especificado. Se utiliza una instancia de esta clase al obtener o establecer la propiedad de un contenedor.
+title: "Estructura KeyTK"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Aspose.Tasks.Key2TK estructura. Representa una clave de propiedad de una clase del tipo especificado. Una instancia de esta clase se usa al obtener o establecer la propiedad de un contenedor."
 type: docs
-weight: 850
+weight: 930
 url: /es/net/aspose.tasks/key-2/
 ---
 ## Key&lt;T,K&gt; structure
 
-Representa una clave de propiedad de una clase del tipo especificado. Se utiliza una instancia de esta clase al obtener o establecer la propiedad de un contenedor.
+Representa una clave de propiedad de una clase del tipo especificado. Una instancia de esta clase se utiliza al obtener o establecer la propiedad de un contenedor.
 
 ```csharp
 public struct Key<T, K>
@@ -17,8 +17,8 @@ public struct Key<T, K>
 
 | Parámetro | Descripción |
 | --- | --- |
-| T | El tipo de valor de la propiedad. |
-| K | El tipo de clave de propiedad. |
+| T | El tipo del valor de la propiedad. |
+| K | El tipo de la clave de la propiedad. |
 
 ## Propiedades
 
@@ -26,9 +26,21 @@ public struct Key<T, K>
 | --- | --- |
 | [KeyType](../../aspose.tasks/key-2/keytype/) { get; } | Obtiene la clave de la propiedad. |
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.ActualsInSync.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ActualsInSync, true);
+
+Console.WriteLine("Actuals In Sync: " + project.Get(Prj.ActualsInSync));
+```
+
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

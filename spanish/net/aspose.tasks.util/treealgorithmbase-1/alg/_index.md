@@ -1,7 +1,7 @@
 ---
-title: TreeAlgorithmBase1.Alg
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TreeAlgorithmBase método. Procesa un nodo de un árbol.
+title: "TreeAlgorithmBase1.Alg"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método TreeAlgorithmBase. Procesa un nodo de un árbol"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks.util/treealgorithmbase-1/alg/
@@ -14,15 +14,34 @@ Procesa un nodo de un árbol.
 public abstract void Alg(T el, int level)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | el | T | Nodo a procesar. |
-| level | Int32 | Nivel de nodo de árbol. |
+| nivel | Int32 | Nivel del nodo del árbol. |
+
+## Ejemplos
+
+Muestra cómo detectar la estructura rota del proyecto.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// verificar la estructura del proyecto.
+// Se lanzará el <see cref="TasksException"> si la estructura del proyecto es incorrecta.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
 
 ### Ver también
 
 * class [TreeAlgorithmBase&lt;T&gt;](../)
-* espacio de nombres [Aspose.Tasks.Util](../../treealgorithmbase-1/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../treealgorithmbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

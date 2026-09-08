@@ -1,9 +1,9 @@
 ---
-title: Project.DurationFormat
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de DurationFormat.
+title: "Project.DurationFormat"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor de DurationFormat"
 type: docs
-weight: 380
+weight: 390
 url: /es/net/aspose.tasks/project/durationformat/
 ---
 ## Project.DurationFormat property
@@ -18,7 +18,7 @@ public TimeUnitType DurationFormat { get; set; }
 
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 
