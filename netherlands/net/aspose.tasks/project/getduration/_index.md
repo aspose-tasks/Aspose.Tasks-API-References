@@ -1,14 +1,14 @@
 ---
-title: GetDuration
-second_title: Aspose.Tasks voor .NET API-referentie
-description: KrijgtDurationaspose.tasks/duration/ object met het gespecificeerde aantal eenheden en standaardduurformaat dat is gedefinieerd in de projectinstellingenDurationFormataspose.tasks/prj/durationformat/ .
+title: "Project.GetDuration"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Project‑methode. Haalt een Duration‑object op met het opgegeven aantal eenheden en het standaardduurformaat dat is gedefinieerd in de projectinstellingen DurationFormat."
 type: docs
-weight: 1070
+weight: 1100
 url: /nl/net/aspose.tasks/project/getduration/
 ---
 ## GetDuration(double) {#getduration}
 
-Krijgt[`Duration`](../../duration/) object met het gespecificeerde aantal eenheden en standaardduurformaat dat is gedefinieerd in de projectinstellingen[`DurationFormat`](../../prj/durationformat/) .
+Haalt een [`Duration`](../../duration/)‑object op met het opgegeven aantal eenheden en het standaardduurformaat dat is gedefinieerd in de projectinstellingen [`DurationFormat`](../../prj/durationformat/).
 
 ```csharp
 public Duration GetDuration(double val)
@@ -16,24 +16,42 @@ public Duration GetDuration(double val)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| val | Double | opgegeven aantal eenheden. |
+| waarde | Double | opgegeven aantal eenheden. |
 
-### Winstwaarde
+### Retourwaarde
 
-Duur object.
+Duration-object.
+
+## Opmerkingen
+
+Deze methode moet zorgvuldig worden gebruikt omdat deze verschillende duurwaarden retourneert, afhankelijk van de instelling Project.DurationFormat. Bijvoorbeeld, GetWork(1.0) retourneert 1 uur wanneer Project.DurationFormat TimeUnitType.Hour is, of 1 dag als Project.DurationFormat TimeUnitType.Day is.
+
+## Voorbeelden
+
+Toont hoe u een &lt;see cref=\"Aspose.Tasks.Duration\" /&gt;‑instantie kunt maken met het standaardduurformaat van het project door project‑fabric‑methoden te gebruiken.
+
+```csharp
+var project = new Project();
+
+// haal een duur op met het standaardprojectformaat.
+var duration = project.GetDuration(1);
+
+Console.WriteLine("Default project duration time unit type: " + project.Get(Prj.DurationFormat));
+Console.WriteLine("Created duration time unit type: " + duration.TimeUnit);
+```
 
 ### Zie ook
 
 * struct [Duration](../../duration/)
 * class [Project](../)
-* naamruimte [Aspose.Tasks](../../project/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetDuration(double, TimeUnitType) {#getduration_1}
 
-Krijgt[`Duration`](../../duration/) object met het opgegeven aantal[`TimeUnitType`](../../timeunittype/) eenheden.
+Haalt een [`Duration`](../../duration/)‑object op met het opgegeven aantal [`TimeUnitType`](../../timeunittype/)‑eenheden.
 
 ```csharp
 public Duration GetDuration(double val, TimeUnitType timeUnit)
@@ -41,26 +59,39 @@ public Duration GetDuration(double val, TimeUnitType timeUnit)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| val | Double | opgegeven aantal eenheden. |
-| timeUnit | TimeUnitType | opgegeven TimeUnitType-waarde. |
+| waarde | Double | opgegeven aantal eenheden. |
+| timeUnit | TimeUnitType | opgegeven TimeUnitType‑waarde. |
 
-### Winstwaarde
+### Retourwaarde
 
-Duur object.
+Duration-object.
+
+## Voorbeelden
+
+Toont hoe u een &lt;see cref=\"Aspose.Tasks.Duration\" /&gt;‑instantie kunt maken door project‑fabric‑methoden te gebruiken.
+
+```csharp
+var project = new Project();
+
+// haal een duur op met het standaardprojectformaat.
+var duration = project.GetDuration(1, TimeUnitType.Minute);
+
+Console.WriteLine("Created duration: " + duration);
+```
 
 ### Zie ook
 
 * struct [Duration](../../duration/)
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* naamruimte [Aspose.Tasks](../../project/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetDuration(TimeSpan, TimeUnitType) {#getduration_2}
 
-Krijgt[`Duration`](../../duration/) object met het opgegevenTimeSpan waarde en opgegeven[`TimeUnitType`](../../timeunittype/) waarde.
+Haalt een [`Duration`](../../duration/)‑object op met de opgegeven TimeSpan‑waarde en de opgegeven [`TimeUnitType`](../../timeunittype/)‑waarde.
 
 ```csharp
 public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
@@ -68,19 +99,19 @@ public Duration GetDuration(TimeSpan timeSpan, TimeUnitType timeUnit)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| timeSpan | TimeSpan | opgegevenTimeSpan waarde. |
-| timeUnit | TimeUnitType | opgegeven TimeUnitType-waarde. |
+| timeSpan | TimeSpan | opgegeven TimeSpan‑waarde. |
+| timeUnit | TimeUnitType | opgegeven TimeUnitType‑waarde. |
 
-### Winstwaarde
+### Retourwaarde
 
-Duur object.
+Duration-object.
 
 ### Zie ook
 
 * struct [Duration](../../duration/)
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* naamruimte [Aspose.Tasks](../../project/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

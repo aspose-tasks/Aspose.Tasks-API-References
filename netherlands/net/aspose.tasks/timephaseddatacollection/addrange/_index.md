@@ -1,14 +1,14 @@
 ---
-title: AddRange
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Voegt een verzameling toe vanTimephasedDataaspose.tasks/timephaseddata/ instanties naar dit verzamelobject.
+title: "TimephasedDataCollection.AddRange"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "TimephasedDataCollection methode. Voegt een collectie van TimephasedData-instanties toe aan dit collectie‑object"
 type: docs
-weight: 60
+weight: 50
 url: /nl/net/aspose.tasks/timephaseddatacollection/addrange/
 ---
 ## TimephasedDataCollection.AddRange method
 
-Voegt een verzameling toe van[`TimephasedData`](../../timephaseddata/) instanties naar dit verzamelobject.
+Voegt een collectie van [`TimephasedData`](../../timephaseddata/) instanties toe aan dit collectie‑object.
 
 ```csharp
 public void AddRange(IEnumerable<TimephasedData> timephasedCollection)
@@ -16,13 +16,163 @@ public void AddRange(IEnumerable<TimephasedData> timephasedCollection)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| timephasedCollection | IEnumerable`1 | Een verzameling van[`TimephasedData`](../../timephaseddata/) objecten toe te voegen. |
+| timephasedCollection | IEnumerable`1 | Een collectie van [`TimephasedData`](../../timephaseddata/) objecten om toe te voegen. |
+
+## Voorbeelden
+
+Toont hoe te werken met tijdgephaseerde gegevensverzamelingen.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var resource2 = project.Resources.Add("Resource 2");
+resource2.Set(Rsc.Type, ResourceType.Work);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task2.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment2 = project.ResourceAssignments.Add(task2, resource2);
+assignment2.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment2.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment2.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+// stel contourwerkcontour in
+assignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+Console.WriteLine("Is timephased data collection read-only?: " + assignment.TimephasedData.IsReadOnly);
+
+// wis gegenereerde tds
+assignment.TimephasedData.Clear();
+
+var td = new TimephasedData
+             {
+                 Start = new DateTime(2019, 11, 11, 8, 0, 0),
+                 Finish = new DateTime(2019, 11, 11, 9, 0, 0),
+                 Uid = assignment.Get(Asn.Uid),
+                 Unit = TimeUnitType.Hour,
+                 Value = "PT1H0M0S",
+                 TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+             };
+assignment.TimephasedData.Add(td);
+
+var list = new List<TimephasedData>();
+var td2 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 12, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 12, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+var td3 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+
+list.Add(td2);
+list.Add(td3);
+assignment.TimephasedData.AddRange(list);
+
+// men kan de collectie filteren op type en datumbereik
+Console.WriteLine("Print filtered tds:");
+IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStartAndFinish(
+    TimephasedDataType.AssignmentRemainingWork,
+    new DateTime(2019, 11, 11, 0, 0, 0),
+    new DateTime(2019, 11, 13));
+foreach (var data in filteredTds)
+{
+    Console.WriteLine("Start: " + data.Start);
+    Console.WriteLine("Finish: " + data.Finish);
+    Console.WriteLine("Timephased Data Type: " + data.TimephasedDataType);
+    Console.WriteLine();
+}
+
+Console.WriteLine("--------------------------");
+Console.WriteLine();
+
+// ...
+// voeg een verkeerde td toe en verwijder deze vervolgens
+var td4 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT0H0M1S", // wrong value
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+assignment.TimephasedData.Add(td4);
+
+// ...
+
+// verwijder het verkeerde td-item
+if (assignment.TimephasedData.Contains(td4))
+{
+    assignment.TimephasedData.Remove(td4);
+}
+
+// ...
+assignment.TimephasedData.AddRange(list);
+
+// itereren over tijdgephaseerde items
+Console.WriteLine("Print all timephased items:");
+Console.WriteLine("Timephased data count: " + assignment.TimephasedData.Count);
+foreach (var item in assignment.TimephasedData)
+{
+    Console.WriteLine("Start: " + item.Start);
+    Console.WriteLine("Finish: " + item.Finish);
+    Console.WriteLine("Timephased Data Type: " + item.TimephasedDataType);
+    Console.WriteLine();
+}
+
+// kopieer tds naar een andere toewijzing
+var timephasedDatas = new TimephasedData[assignment.TimephasedData.Count];
+assignment.TimephasedData.CopyTo(timephasedDatas, 0);
+
+assignment2.TimephasedData.Clear();
+foreach (var data in timephasedDatas)
+{
+    assignment2.TimephasedData.Add(data);
+}
+
+// de collectie kan worden omgezet naar een eenvoudige lijst
+List<TimephasedData> tds = assignment.TimephasedData.ToList();
+
+// laten we tds één voor één verwijderen
+foreach (var timephasedData in tds)
+{
+    assignment.TimephasedData.Remove(timephasedData);
+}
+```
 
 ### Zie ook
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* naamruimte [Aspose.Tasks](../../timephaseddatacollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

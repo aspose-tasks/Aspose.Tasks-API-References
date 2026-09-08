@@ -1,40 +1,136 @@
 ---
-title: Group
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Vertegenwoordigt een groepsdefinitie. Een groepsobject is een lid van de ResourceGroupsverzameling of de TaskGroupsverzameling.
+title: "Klasse Group"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.Group‑klasse. Vertegenwoordigt een groepsdefinitie. Een Group‑object is lid van de ResourceGroups‑collectie of de TaskGroups‑collectie."
 type: docs
-weight: 710
+weight: 770
 url: /nl/net/aspose.tasks/group/
 ---
 ## Group class
 
-Vertegenwoordigt een groepsdefinitie. Een groepsobject is een lid van de ResourceGroups-verzameling of de TaskGroups-verzameling.
+Stelt een groepsdefinitie voor. Een Group‑object is lid van de ResourceGroups‑collectie of de TaskGroups‑collectie.
 
 ```csharp
 public class Group
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Group](group/)() | Initialiseert een nieuw exemplaar van het`Group` klasse. |
+| [Group](group/)() | Initialiseert een nieuw exemplaar van de `Group`‑klasse. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GroupCriteria](../../aspose.tasks/group/groupcriteria/) { get; set; } | Hiermee wordt een GroupCriteria-verzameling opgehaald of ingesteld die de velden in een groepsdefinitie vertegenwoordigt. |
-| [Index](../../aspose.tasks/group/index/) { get; } | Krijgt de index van een`Group` object in de groepen die object. bevatten |
-| [MaintainHierarchy](../../aspose.tasks/group/maintainhierarchy/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of alle niveaus van overzichtstaken voor subtaken binnen de groep moeten worden weergegeven. |
-| [Name](../../aspose.tasks/group/name/) { get; set; } | Haalt een naam van een groepsobject op of stelt deze in. |
-| [ShowInMenu](../../aspose.tasks/group/showinmenu/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of Project de groepsnaam weergeeft in de vervolgkeuzelijst Groep op het lint. |
-| [ShowSummary](../../aspose.tasks/group/showsummary/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of samenvattingsrijen worden weergegeven voor de groep. |
-| [Uid](../../aspose.tasks/group/uid/) { get; } | Krijgt een unieke identificatie van een groep. |
+| [GroupAssignments](../../aspose.tasks/group/groupassignments/) { get; set; } | Haalt op of stelt een waarde in die aangeeft of toewijzingen moeten worden gegroepeerd in plaats van taken. |
+| [GroupCriteria](../../aspose.tasks/group/groupcriteria/) { get; set; } | Haalt op of stelt een GroupCriteria‑collectie in die de velden in een groepsdefinitie weergeeft. |
+| [MaintainHierarchy](../../aspose.tasks/group/maintainhierarchy/) { get; set; } | Haalt op of stelt een waarde in die aangeeft of alle niveaus van samenvattingstaken moeten worden weergegeven voor subtaken binnen de groep. |
+| [Name](../../aspose.tasks/group/name/) { get; set; } | Haalt op of stelt een naam in van een Group‑object. |
+| [ShowInMenu](../../aspose.tasks/group/showinmenu/) { get; set; } | Haalt op of stelt een waarde in die aangeeft of Project de groepsnaam toont in de Group‑keuzelijst in het lint. |
+| [ShowSummary](../../aspose.tasks/group/showsummary/) { get; set; } | Haalt op of stelt een waarde in die aangeeft of samenvattingsrijen worden weergegeven voor de groep. |
+| [Uid](../../aspose.tasks/group/uid/) { get; } | Haalt een unieke identifier van een groep op. |
+
+## Voorbeelden
+
+Toont hoe te werken met groepen.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var group = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Uid: " + group.Uid);
+Console.WriteLine("Task Group Name: " + group.Name);
+Console.WriteLine("Is Task Group Maintain Hierarchy?: " + group.MaintainHierarchy);
+Console.WriteLine("Is Task Group Show In Menu?: " + group.ShowInMenu);
+Console.WriteLine("Is Task Group Show Summary?: " + group.ShowSummary);
+Console.WriteLine("Is Task Group should groups Assignments instead of Tasks?: " + group.GroupAssignments);
+Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+
+foreach (var criterion in group.GroupCriteria)
+{
+    Console.WriteLine("Task Criterion Field: " + criterion.Field);
+    Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
+    Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
+    Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
+
+    Console.WriteLine("Font Name: " + criterion.Font.FontFamily);
+    Console.WriteLine("Font Size: " + criterion.Font.Size);
+    Console.WriteLine("Font Style: " + criterion.Font.Style);
+    Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
+}
+```
+
+Toont hoe groepen aan een project toe te voegen.
+
+```csharp
+var p = new Project();
+
+{
+    var group = new Group();
+    group.Name = "My new task group";
+    group.MaintainHierarchy = true;
+    group.ShowSummary = true;
+
+    var criterion = new GroupCriterion();
+    criterion.Field = Field.TaskDuration1;
+    criterion.Font = new FontDescriptor("Comic Sans MS", 13F, FontStyles.Italic);
+    criterion.GroupOn = GroupOn.DurationMinutes;
+    criterion.StartAt = 5;
+    criterion.GroupInterval = 3D;
+    criterion.Pattern = BackgroundPattern.DarkDiagonalLeft;
+    group.GroupCriteria.Add(criterion);
+
+    var criterion2 = new GroupCriterion();
+    criterion2.Field = Field.TaskPercentComplete;
+    criterion2.Font = new FontDescriptor("Bodoni MT", 17, FontStyles.Italic | FontStyles.Bold);
+    criterion2.GroupOn = GroupOn.Pct199;
+    criterion2.Pattern = BackgroundPattern.LightDither;
+    criterion2.CellColor = Color.Green;
+    criterion2.FontColor = Color.Red;
+    group.GroupCriteria.Add(criterion2);
+    group.GroupAssignments = true;
+    p.TaskGroups.Add(group);
+}
+
+{
+    var group = new Group();
+    group.Name = "My new resource group";
+    group.MaintainHierarchy = true;
+    group.ShowSummary = true;
+
+    var criterion = new GroupCriterion();
+    criterion.Field = Field.ResourceDuration1;
+    criterion.Font = new FontDescriptor("Comic Sans MS", 11F, FontStyles.Bold);
+    criterion.GroupOn = GroupOn.DurationHours;
+    criterion.StartAt = 1;
+    criterion.GroupInterval = 2D;
+    criterion.Pattern = BackgroundPattern.DarkDiagonalLeft;
+    group.GroupCriteria.Add(criterion);
+
+    var criterion2 = new GroupCriterion();
+    criterion2.Field = Field.ResourceCost;
+    criterion2.Font = new FontDescriptor("Bodoni MT", 12, FontStyles.Italic | FontStyles.Bold);
+    criterion2.GroupOn = GroupOn.Interval;
+    criterion2.StartAt = 1D;
+    criterion2.GroupInterval = 10D;
+    criterion2.Pattern = BackgroundPattern.LightDither;
+    criterion2.CellColor = Color.Magenta;
+    criterion2.FontColor = Color.Red;
+    group.GroupCriteria.Add(criterion2);
+    group.GroupAssignments = true;
+    p.ResourceGroups.Add(group);
+}
+
+p.Save(OutDir + "output_CreateGroup.mpp", new MPPSaveOptions() { WriteGroups = true });
+```
 
 ### Zie ook
 
-* naamruimte [Aspose.Tasks](../../aspose.tasks/)
-* montage [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

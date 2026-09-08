@@ -1,113 +1,127 @@
 ---
-title: RscKey
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Vertegenwoordigt een lijst met ondersteunde bronvelden.
+title: "Enum RscKey"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.RscKey enum. Vertegenwoordigt een lijst van ondersteunde resourcevelden"
 type: docs
-weight: 1710
+weight: 1970
 url: /nl/net/aspose.tasks/rsckey/
 ---
 ## RscKey enumeration
 
-Vertegenwoordigt een lijst met ondersteunde bronvelden.
+Stelt een lijst van ondersteunde resourcevelden voor.
 
 ```csharp
-public enum RscKey
+public enum RscKey : byte
 ```
 
 ### Waarden
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Name | `0` | Vertegenwoordigt het veld Naam (Resource). |
-| AccrueAt | `1` | Vertegenwoordigt het veld Opbouwen bij (resource). |
-| ActualCost | `2` | Vertegenwoordigt het veld Werkelijke kosten (resource). |
-| ActualOvertimeCost | `3` | Vertegenwoordigt het veld Werkelijke overurenkosten (resource). |
-| ActualOvertimeWork | `4` | Vertegenwoordigt het veld Werkelijke overuren (Resource). |
-| ActualOvertimeWorkProtected | `5` | Vertegenwoordigt het veld Werkelijke bescherming tegen overwerk (resource). |
-| ActualWork | `6` | Vertegenwoordigt het veld Werkelijke hoeveelheid werk (Resource). |
-| ActualWorkProtected | `7` | Vertegenwoordigt het veld Werkelijk beschermd werk (resource). |
-| ACWP | `8` | Vertegenwoordigt het veld ACWP (Resource). |
-| AssignmentOwner | `9` | Vertegenwoordigt het veld Toewijzingseigenaar (resource). |
-| AssignmentOwnerGuid | `10` | Vertegenwoordigt het veld Toewijzing Eigenaar Guid (resource). |
-| AssignmentUnits | `11` | Vertegenwoordigt het veld Toewijzingseenheden (Resource). |
-| AvailableFrom | `12` | Vertegenwoordigt het veld Beschikbaar vanaf (Resource). |
-| AvailableTo | `13` | Vertegenwoordigt het veld Beschikbaar voor (resource). |
-| ActiveDirectoryGuid | `14` | Vertegenwoordigt het Active Directory Guid (Resource) veld. |
-| BaseCalendar | `15` | Vertegenwoordigt het veld Basiskalender (resource). |
-| BCWP | `16` | Vertegenwoordigt het veld GKUW (resource). |
-| BCWS | `17` | Vertegenwoordigt het BCWS-veld (resource). |
-| BookingType | `18` | Vertegenwoordigt het veld Boekingstype (resource). |
-| BudgetWork | `19` | Vertegenwoordigt het veld Begrotingswerk (Resource). |
-| BudgetCost | `20` | Vertegenwoordigt het veld Budgetkosten (resource). |
-| Calendar | `21` | Vertegenwoordigt het kalender-GUID-veld (resource). |
-| CanLevel | `22` | Vertegenwoordigt het veld Can Level (Resource). |
-| Code | `23` | Vertegenwoordigt het veld Code (Resource). |
-| Confirmed | `24` | Vertegenwoordigt het veld Bevestigd (Resource). |
-| Cost | `25` | Vertegenwoordigt het veld Kosten (Resource). |
-| CostCenter | `26` | Vertegenwoordigt het veld Kostenplaats (resource). |
-| CostPerUse | `27` | Vertegenwoordigt het veld Kosten per gebruik (resource). |
-| CostRateTable | `28` | Vertegenwoordigt het veld Tarieventabel (Resource). |
-| CostVariance | `29` | Vertegenwoordigt het veld Kostenafwijking (resource). |
-| Created | `30` | Vertegenwoordigt het veld Aangemaakt (Resource). |
-| CV | `31` | Vertegenwoordigt het veld CV (resource). |
-| SV | `32` | Vertegenwoordigt het veld SV (Resource). |
-| EMailAddress | `33` | Vertegenwoordigt het veld E-mailadres (resource). |
-| IsBudget | `34` | Vertegenwoordigt het veld Budget (resource). |
-| IsGeneric | `35` | Vertegenwoordigt het algemene veld (resource). |
-| IsEnterprise | `36` | Vertegenwoordigt het veld Enterprise (Resource). |
+| Name | `0` | Geeft het Name (Resource) veld weer. |
+| AccrueAt | `1` | Stelt het Accrue At (Resource)-veld voor. |
+| ActualCost | `2` | Stelt het Actual Cost (Resource)-veld voor. |
+| ActualOvertimeCost | `3` | Stelt het Actual Overtime Cost (Resource)-veld voor. |
+| ActualOvertimeWork | `4` | Stelt het Actual Overtime Work (Resource)-veld voor. |
+| ActualOvertimeWorkProtected | `5` | Stelt het Actual Overtime Work Protected (Resource)-veld voor. |
+| ActualWork | `6` | Stelt het Actual Work (Resource)-veld voor. |
+| ActualWorkProtected | `7` | Stelt het Actual Work Protected (Resource)-veld voor. |
+| ACWP | `8` | Stelt het ACWP (Resource)-veld voor. |
+| AssignmentOwner | `9` | Vertegenwoordigt het veld Assignment Owner (Resource). |
+| AssignmentOwnerGuid | `10` | Vertegenwoordigt het veld Assignment Owner Guid (Resource). |
+| AssignmentUnits | `11` | Stelt het Assignment Units (Resource)-veld voor. |
+| AvailableFrom | `12` | Stelt het Available From (Resource)-veld voor. |
+| AvailableTo | `13` | Stelt het Available To (Resource)-veld voor. |
+| ActiveDirectoryGuid | `14` | Vertegenwoordigt het veld Active Directory Guid (Resource). |
+| BaseCalendar | `15` | Geeft het Basisagenda (Resource) veld weer. |
+| BCWP | `16` | Geeft het BCWP (Resource) veld weer. |
+| BCWS | `17` | Geeft het BCWS (Resource) veld weer. |
+| BookingType | `18` | Geeft het Booking Type (Resource) veld weer. |
+| BudgetWork | `19` | Geeft het Budget Work (Resource) veld weer. |
+| BudgetCost | `20` | Geeft het Budget Cost (Resource) veld weer. |
+| Calendar | `21` | Geeft het Calendar GUID (Resource) veld weer. |
+| CanLevel | `22` | Geeft het Can Level (Resource) veld weer. |
+| Code | `23` | Geeft het Code (Resource) veld weer. |
+| Confirmed | `24` | Geeft het Confirmed (Resource) veld weer. |
+| Cost | `25` | Geeft het Cost (Resource) veld weer. |
+| CostCenter | `26` | Geeft het Cost Center (Resource) veld weer. |
+| CostPerUse | `27` | Geeft het Cost Per Use (Resource) veld weer. |
+| CostRateTable | `28` | Geeft het Cost Rate Table (Resource) veld weer. |
+| CostVariance | `29` | Geeft het Cost Variance (Resource) veld weer. |
+| Created | `30` | Geeft het Created (Resource) veld weer. |
+| CV | `31` | Geeft het CV (Resource) veld weer. |
+| SV | `32` | Stelt het SV (Resource) veld voor. |
+| EMailAddress | `33` | Stelt het EMail Address (Resource) veld voor. |
+| IsBudget | `34` | Geeft het Budget (Resource) veld weer. |
+| IsGeneric | `35` | Vertegenwoordigt het veld Generic (Resource). |
+| IsEnterprise | `36` | Stelt het Enterprise (Resource) veld voor. |
 | IsCostResource | `37` | Vertegenwoordigt het veld Is Cost (Resource). |
-| Inactive | `38` | Vertegenwoordigt het veld Inactief (Resource). |
-| Finish | `39` | Vertegenwoordigt het veld Finish (Resource). |
-| Group | `40` | Vertegenwoordigt het veld Groep (resource). |
-| GroupBySummary | `41` | Vertegenwoordigt het veld Groeperen op samenvatting (resource). |
+| Inactive | `38` | Vertegenwoordigt het veld Inactive (Resource). |
+| Finish | `39` | Stelt het Finish (Resource) veld voor. |
+| Group | `40` | Stelt het Group (Resource) veld voor. |
+| GroupBySummary | `41` | Stelt het Group by Summary (Resource) veld voor. |
 | Guid | `42` | Vertegenwoordigt het veld GUID (Resource). |
-| Hyperlink | `43` | Vertegenwoordigt het veld Hyperlink (Resource). |
-| HyperlinkAddress | `44` | Vertegenwoordigt het veld Hyperlinkadres (bron). |
-| HyperlinkHref | `45` | Vertegenwoordigt het veld Hyperlink HRef (Resource). |
-| HyperlinkSubAddress | `46` | Vertegenwoordigt het veld Hyperlink-subadres (bron). |
-| Id | `47` | Vertegenwoordigt het veld ID (Resource). |
-| Initials | `48` | Vertegenwoordigt het veld Initialen (Resource). |
-| IsAssignment | `49` | Vertegenwoordigt het veld Is toewijzing (resource). |
-| IsNull | `50` | Vertegenwoordigt IsNull-veld. |
-| IsTeamAssignmentPool | `51` | Vertegenwoordigt het veld Is Team (Resource). |
-| LevelingDelay | `52` | Vertegenwoordigt het veld Leveling Delay (Resource). |
-| LinkedFields | `53` | Vertegenwoordigt het veld Gekoppelde velden (Resource). |
-| MaterialLabel | `54` | Vertegenwoordigt het veld Materiaallabel (Resource). |
-| MaxUnits | `55` | Vertegenwoordigt het veld Max. eenheden (resource). |
-| Notes | `56` | Vertegenwoordigt het veld Notities (resource). |
-| NotesRTF | `57` | Vertegenwoordigt het Notes RTF (Resource)-veld. |
-| NotesText | `58` | Vertegenwoordigt het veld Opmerkingentekst (bron). |
-| Overallocated | `59` | Vertegenwoordigt het veld Overbezet (Resource). |
-| OvertimeCost | `60` | Vertegenwoordigt het veld Overurenkosten (resource). |
-| OvertimeRate | `61` | Vertegenwoordigt het veld Overurentarief (resource). |
-| OvertimeRateFormat | `62` | Vertegenwoordigt het veld Formaat overwerktarief (resource). |
-| OvertimeWork | `63` | Vertegenwoordigt het veld Overuren (resource). |
-| PeakUnits | `64` | Vertegenwoordigt het veld Piekeenheden (Resource). |
-| PercentWorkComplete | `65` | Vertegenwoordigt het veld Percentage voltooid werk (Resource). |
-| Phonetics | `66` | Vertegenwoordigt het veld Fonetiek (bron). |
-| Project | `67` | Vertegenwoordigt het veld Project (resource). |
-| RegularWork | `68` | Vertegenwoordigt het veld Regulier werk (resource). |
-| RemainingCost | `69` | Vertegenwoordigt het veld Resterende kosten (Resource). |
-| RemainingOvertimeCost | `70` | Vertegenwoordigt het veld Resterende overurenkosten (Resource). |
-| RemainingOvertimeWork | `71` | Vertegenwoordigt het veld Resterend overwerk (Resource). |
-| RemainingWork | `72` | Vertegenwoordigt het veld Resterend werk (resource). |
-| ResponsePending | `73` | Vertegenwoordigt het veld Antwoord in behandeling (Resource). |
-| StandardRate | `74` | Vertegenwoordigt het veld Standaardtarief (resource). |
+| Hyperlink | `43` | Geeft het Hyperlink (Resource) veld weer. |
+| HyperlinkAddress | `44` | Geeft het Hyperlink Address (Resource) veld weer. |
+| HyperlinkHref | `45` | Geeft het Hyperlink HRef (Resource) veld weer. |
+| HyperlinkSubAddress | `46` | Geeft het Hyperlink Sub Address (Resource) veld weer. |
+| Id | `47` | Geeft het ID (Resource) veld weer. |
+| Initials | `48` | Geeft het Initials (Resource) veld weer. |
+| IsAssignment | `49` | Geeft het Is Assignment (Resource) veld weer. |
+| IsNull | `50` | Vertegenwoordigt het veld IsNull. |
+| IsTeamAssignmentPool | `51` | Geeft het Is Team (Resource) veld weer. |
+| LevelingDelay | `52` | Geeft het Leveling Delay (Resource) veld weer. |
+| LinkedFields | `53` | Geeft het Linked Fields (Resource) veld weer. |
+| MaterialLabel | `54` | Geeft het Material Label (Resource) veld weer. |
+| MaxUnits | `55` | Geeft het Max Units (Resource) veld weer. |
+| Notes | `56` | Geeft het Notes (Resource) veld weer. |
+| NotesRTF | `57` | Vertegenwoordigt het veld Notes RTF (Resource). |
+| NotesText | `58` | Vertegenwoordigt het veld Notes Text (Resource). |
+| Overallocated | `59` | Geeft het Overallocated (Resource) veld weer. |
+| OvertimeCost | `60` | Geeft het Overtime Cost (Resource)-veld weer. |
+| OvertimeRate | `61` | Geeft het Overtime Rate (Resource)-veld weer. |
+| OvertimeRateFormat | `62` | Vertegenwoordigt het veld Overtime Rate Format (Resource). |
+| OvertimeWork | `63` | Geeft het Overtime Work (Resource)-veld weer. |
+| PeakUnits | `64` | Geeft het Peak Units (Resource)-veld weer. |
+| PercentWorkComplete | `65` | Geeft het Percent Work Complete (Resource)-veld weer. |
+| Phonetics | `66` | Geeft het Phonetics (Resource)-veld weer. |
+| Project | `67` | Geeft het Project (Resource)-veld weer. |
+| RegularWork | `68` | Geeft het Regular Work (Resource)-veld weer. |
+| RemainingCost | `69` | Geeft het Remaining Cost (Resource)-veld weer. |
+| RemainingOvertimeCost | `70` | Geeft het Remaining Overtime Cost (Resource)-veld weer. |
+| RemainingOvertimeWork | `71` | Geeft het Remaining Overtime Work (Resource)-veld weer. |
+| RemainingWork | `72` | Geeft het Remaining Work (Resource)-veld weer. |
+| ResponsePending | `73` | Geeft het Response Pending (Resource)-veld weer. |
+| StandardRate | `74` | Geeft het Standard Rate (Resource)-veld weer. |
 | StandardRateFormat | `75` | Vertegenwoordigt het veld Standard Rate Format (Resource). |
-| Start | `76` | Vertegenwoordigt het veld Start (resource). |
-| Type | `77` | Vertegenwoordigt het veld Type (Resource). |
-| Uid | `78` | Vertegenwoordigt het veld UniqueID (Resource). |
-| VAC | `79` | Vertegenwoordigt het veld VAC (Resource). |
-| WBS | `80` | Vertegenwoordigt het veld WBS (Resource). |
-| WindowsUserAccount | `81` | Vertegenwoordigt het veld Windows-gebruikersaccount (resource). |
-| Work | `82` | Vertegenwoordigt het veld Werk (resource). |
-| WorkContour | `83` | Vertegenwoordigt het veld Werkstukcontour (resource). |
-| Workgroup | `84` | Vertegenwoordigt het veld Werkgroep (resource). |
-| WorkVariance | `85` | Vertegenwoordigt het veld Werkafwijking (resource). |
+| Start | `76` | Geeft het Start (Resource)-veld weer. |
+| Type | `77` | Geeft het Type (Bron) veld weer. |
+| Uid | `78` | Geeft het UniqueID (Bron) veld weer. |
+| VAC | `79` | Geeft het VAC (Bron) veld weer. |
+| WBS | `80` | Geeft het WBS (Bron) veld weer. |
+| WindowsUserAccount | `81` | Geeft het Windows-gebruikersaccount (Bron) veld weer. |
+| Work | `82` | Geeft het Werk (Bron) veld weer. |
+| WorkContour | `83` | Geeft het Werkcontour (Bron) veld weer. |
+| Workgroup | `84` | Geeft het Werkgroep (Bron) veld weer. |
+| WorkVariance | `85` | Geeft het Werkvariantie (Bron) veld weer. |
+
+## Voorbeelden
+
+Toont hoe de eigenschap Rsc.Name te lezen/schrijven.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
 
 ### Zie ook
 
-* naamruimte [Aspose.Tasks](../../aspose.tasks/)
-* montage [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

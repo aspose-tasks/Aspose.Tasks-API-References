@@ -1,14 +1,14 @@
 ---
-title: GetTimephasedData
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Retourneert een exemplaar van hetTimephasedDataCollectionaspose.tasks/timephaseddatacollection/ class voor dit object met deTimephasedDataaspose.tasks/resource/timephaseddata/ waarden binnen bepaalde begin en einddatums van opgegevenTimephasedDataTypeaspose.tasks/timephaseddatatype/ .
+title: "Resource.GetTimephasedData"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Resource-methode. Retourneert een instantie van de TimephasedDataCollection-klasse voor dit object met de TimephasedData-waarden binnen de opgegeven start- en einddatums van het opgegeven TimephasedDataType"
 type: docs
-weight: 860
+weight: 850
 url: /nl/net/aspose.tasks/resource/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-Retourneert een exemplaar van het[`TimephasedDataCollection`](../../timephaseddatacollection/) class voor dit object met de[`TimephasedData`](../timephaseddata/) waarden binnen bepaalde begin- en einddatums van opgegeven[`TimephasedDataType`](../../timephaseddatatype/) .
+Retourneert een instantie van de [`TimephasedDataCollection`](../../timephaseddatacollection/) klasse voor dit object met de [`TimephasedData`](../timephaseddata/) waarden binnen de opgegeven start- en einddatums van het opgegeven [`TimephasedDataType`](../../timephaseddatatype/).
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -17,27 +17,54 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| start | DateTime | De begindatum voor de tijdgefaseerde gegevens. |
-| end | DateTime | De einddatum voor de tijdgefaseerde gegevens. |
-| timephasedType | TimephasedDataType | Het type tijdgefaseerde gegevens ([`TimephasedDataType`](../../timephaseddatatype/)). |
+| start | DateTime | De startdatum voor de tijdgephaseerde gegevens. |
+| einde | DateTime | De einddatum voor de tijdgephaseerde gegevens. |
+| timephasedType | TimephasedDataType | Het type tijdgephaseerde gegevens ([`TimephasedDataType`](../../timephaseddatatype/)). |
 
-### Winstwaarde
+### Retourwaarde
 
-Lijst van[`TimephasedData`](../timephaseddata/).
+Lijst van [`TimephasedData`](../timephaseddata/).
+
+## Voorbeelden
+
+Toont hoe tijdgephaseerde gegevens van werk-/kostenbronnen gelezen kunnen worden.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Haal de Resource op via zijn ID
+var resource = project.Resources.GetByUid(1);
+
+// Print tijdgephaseerde gegevens van ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Print tijdgephaseerde gegevens van ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
 
 ### Zie ook
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [Resource](../)
-* naamruimte [Aspose.Tasks](../../resource/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-Retourneert[`TimephasedDataCollection`](../../timephaseddatacollection/) voor dit object met[`TimephasedData`](../timephaseddata/) waarden binnen bepaalde begin- en einddatums.
+Retourneert [`TimephasedDataCollection`](../../timephaseddatacollection/) voor dit object met [`TimephasedData`](../timephaseddata/) waarden binnen de opgegeven start- en einddatums.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -45,18 +72,45 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| start | DateTime | De begindatum voor de tijdgefaseerde gegevens. |
-| end | DateTime | De einddatum voor de tijdgefaseerde gegevens. |
+| start | DateTime | De startdatum voor de tijdgephaseerde gegevens. |
+| einde | DateTime | De einddatum voor de tijdgephaseerde gegevens. |
 
-### Winstwaarde
+### Retourwaarde
 
-Lijst van[`TimephasedData`](../../timephaseddata/).
+Lijst van [`TimephasedData`](../../timephaseddata/).
+
+## Voorbeelden
+
+Toont hoe tijdgephaseerde gegevens van werk-/kostenbronnen gelezen kunnen worden.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Haal de Resource op via zijn ID
+var resource = project.Resources.GetByUid(1);
+
+// Print tijdgephaseerde gegevens van ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Print tijdgephaseerde gegevens van ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
 
 ### Zie ook
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Resource](../)
-* naamruimte [Aspose.Tasks](../../resource/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

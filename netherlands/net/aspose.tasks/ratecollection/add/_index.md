@@ -1,14 +1,14 @@
 ---
-title: Add
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Voegt een nieuwe toeRateaspose.tasks/rate/ instantie naar deze collectie.
+title: "RateCollection.Add"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "RateCollection methode. Voegt een nieuw Rate‑object toe aan deze collectie"
 type: docs
 weight: 50
 url: /nl/net/aspose.tasks/ratecollection/add/
 ---
 ## Add(DateTime) {#add}
 
-Voegt een nieuwe toe[`Rate`](../../rate/) instantie naar deze collectie.
+Voegt een nieuw [`Rate`](../../rate/) object toe aan deze collectie.
 
 ```csharp
 public Rate Add(DateTime ratesFrom)
@@ -16,24 +16,90 @@ public Rate Add(DateTime ratesFrom)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| ratesFrom | DateTime | De datum waarop het nieuwe tarief ingaat. |
+| ratesFrom | DateTime | De datum waarop het nieuwe tarief van kracht wordt. |
 
-### Winstwaarde
+### Retourwaarde
 
-Toegevoegd[`Rate`](../../rate/) voorbeeld.
+Toegevoegd [`Rate`](../../rate/) object.
+
+## Voorbeelden
+
+Toont hoe te werken met rate‑collecties.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Test Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0), RateType.B);
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+
+Console.WriteLine("Print rates of '{0}' resource: ", resource.Rates.ParentResource.Get(Rsc.Name));
+Console.WriteLine("Count of rates: {0}", resource.Rates.Count);
+Console.WriteLine("Is rate collection read-only: {0}", resource.Rates.IsReadOnly);
+foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Rates)
+{
+    foreach (KeyValuePair<DateTime, Rate> pair in sortedRates.Value)
+    {
+        var rate = pair.Value;
+        Console.WriteLine("Rates From: " + rate.RatesFrom);
+        Console.WriteLine("Rates To: " + rate.RatesTo);
+        Console.WriteLine("Rate Table: " + rate.RateTable);
+        Console.WriteLine();
+    }
+}
+
+// haal de nieuwste rate op via indextoegang
+var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
+rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
+Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
+Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
+
+// ...
+// werken met rates
+// ...
+
+// verwijder alle rates van type A
+List<Rate> rates = resource.Rates.ToList(RateType.A);
+for (var i = 0; i < rates.Count; i++)
+{
+    var rateToRemove = rates[i];
+    resource.Rates.Remove(rateToRemove);
+}
+
+// transformeer de rate‑collectie naar een platte lijst
+Console.WriteLine("Iterate over the rates after remove the A-typed values: ");
+List<Rate> list = resource.Rates.ToList();
+foreach (var rt in list)
+{
+    Console.WriteLine("Rates From: " + rt.RatesFrom);
+    Console.WriteLine("Rates To: " + rt.RatesTo);
+    Console.WriteLine("Rate Table: " + rt.RateTable);
+}
+```
 
 ### Zie ook
 
 * class [Rate](../../rate/)
 * class [RateCollection](../)
-* naamruimte [Aspose.Tasks](../../ratecollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ratecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(DateTime, RateType) {#add_1}
 
-Voegt een nieuwe toe[`Rate`](../../rate/) instantie naar deze collectie.
+Voegt een nieuw [`Rate`](../../rate/) object toe aan deze collectie.
 
 ```csharp
 public Rate Add(DateTime ratesFrom, RateType type)
@@ -41,19 +107,85 @@ public Rate Add(DateTime ratesFrom, RateType type)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| ratesFrom | DateTime | De datum waarop het nieuwe tarief ingaat. |
-| type | RateType | De tarieftabel waaraan moet worden toegevoegd. |
+| ratesFrom | DateTime | De datum waarop het nieuwe tarief van kracht wordt. |
+| type | RateType | De tarieftabel om aan toe te voegen. |
 
-### Winstwaarde
+### Retourwaarde
 
-Toegevoegd[`Rate`](../../rate/) voorbeeld.
+Toegevoegd [`Rate`](../../rate/) object.
+
+## Voorbeelden
+
+Toont hoe te werken met rate‑collecties.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Test Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+resource.Set(Rsc.StandardRate, 20m);
+
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0), RateType.B);
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+
+Console.WriteLine("Print rates of '{0}' resource: ", resource.Rates.ParentResource.Get(Rsc.Name));
+Console.WriteLine("Count of rates: {0}", resource.Rates.Count);
+Console.WriteLine("Is rate collection read-only: {0}", resource.Rates.IsReadOnly);
+foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Rates)
+{
+    foreach (KeyValuePair<DateTime, Rate> pair in sortedRates.Value)
+    {
+        var rate = pair.Value;
+        Console.WriteLine("Rates From: " + rate.RatesFrom);
+        Console.WriteLine("Rates To: " + rate.RatesTo);
+        Console.WriteLine("Rate Table: " + rate.RateTable);
+        Console.WriteLine();
+    }
+}
+
+// haal de nieuwste rate op via indextoegang
+var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
+rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
+Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
+Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
+
+// ...
+// werken met rates
+// ...
+
+// verwijder alle rates van type A
+List<Rate> rates = resource.Rates.ToList(RateType.A);
+for (var i = 0; i < rates.Count; i++)
+{
+    var rateToRemove = rates[i];
+    resource.Rates.Remove(rateToRemove);
+}
+
+// transformeer de rate‑collectie naar een platte lijst
+Console.WriteLine("Iterate over the rates after remove the A-typed values: ");
+List<Rate> list = resource.Rates.ToList();
+foreach (var rt in list)
+{
+    Console.WriteLine("Rates From: " + rt.RatesFrom);
+    Console.WriteLine("Rates To: " + rt.RatesTo);
+    Console.WriteLine("Rate Table: " + rt.RateTable);
+}
+```
 
 ### Zie ook
 
 * class [Rate](../../rate/)
 * enum [RateType](../../ratetype/)
 * class [RateCollection](../)
-* naamruimte [Aspose.Tasks](../../ratecollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ratecollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
