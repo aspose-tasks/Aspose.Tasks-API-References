@@ -1,38 +1,85 @@
 ---
-title: RiskPattern
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Vertegenwoordigt een risicopatroon voor een projecttaak.
+title: "Klasse RiskPattern"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.RiskAnalysis.RiskPattern klasse. Vertegenwoordigt een risicopatroon voor een projecttaak."
 type: docs
-weight: 1670
+weight: 1930
 url: /nl/net/aspose.tasks.riskanalysis/riskpattern/
 ---
 ## RiskPattern class
 
-Vertegenwoordigt een risicopatroon voor een projecttaak.
+Stelt een risicopatroon voor een projecttaak voor.
 
 ```csharp
 public class RiskPattern
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [RiskPattern](riskpattern/)(Task) | Initialiseert een nieuw exemplaar van het`RiskPattern` klasse. |
+| [RiskPattern](riskpattern/)(Task) | Initialiseert een nieuwe instantie van de `RiskPattern` klasse. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ConfidenceLevel](../../aspose.tasks.riskanalysis/riskpattern/confidencelevel/) { get; set; } | Hiermee wordt het betrouwbaarheidsniveau opgehaald of ingesteld dat overeenkomt met het percentage van de tijd dat de werkelijke gegenereerde waarden binnen optimistische en pessimistische schattingen zullen vallen. De standaardwaarde is CL99. |
+| [ConfidenceLevel](../../aspose.tasks.riskanalysis/riskpattern/confidencelevel/) { get; set; } | Haalt of stelt het betrouwbaarheidsniveau in dat overeenkomt met het percentage van de tijd dat de daadwerkelijk gegenereerde waarden binnen de optimistische en pessimistische schattingen zullen liggen. De standaardwaarde is CL99. |
 | [Distribution](../../aspose.tasks.riskanalysis/riskpattern/distribution/) { get; set; } | Haalt of stelt de kansverdeling in die wordt gebruikt in Monte Carlo-simulatie. De standaardwaarde is ProbabilityDistributionType.Normal. |
-| [Optimistic](../../aspose.tasks.riskanalysis/riskpattern/optimistic/) { get; set; } | Hiermee wordt het percentage van de meest waarschijnlijke taakduur opgehaald of ingesteld dat kan plaatsvinden in het best mogelijke projectscenario. De standaardwaarde is 75, wat betekent dat als de geschatte gespecificeerde taakduur 4 dagen is, de optimistische duur 3 dagen zal zijn. |
-| [Pessimistic](../../aspose.tasks.riskanalysis/riskpattern/pessimistic/) { get; set; } | Hiermee wordt het percentage van de meest waarschijnlijke taakduur opgehaald of ingesteld dat kan optreden in het slechtst mogelijke projectscenario. De standaardwaarde is 125, wat betekent dat als de geschatte gespecificeerde taakduur 4 dagen is, de pessimistische duur 5 dagen zal zijn. |
-| [Task](../../aspose.tasks.riskanalysis/riskpattern/task/) { get; } | Krijgt een projecttaak waarop dit risicopatroon wordt toegepast. |
+| [Optimistic](../../aspose.tasks.riskanalysis/riskpattern/optimistic/) { get; set; } | Haalt of stelt het percentage van de meest waarschijnlijke taakduur in dat kan voorkomen in het best mogelijke projectscenario. De standaardwaarde is 75, wat betekent dat als de geschatte opgegeven taakduur 4 dagen is, de optimistische duur 3 dagen zal zijn. |
+| [Pessimistic](../../aspose.tasks.riskanalysis/riskpattern/pessimistic/) { get; set; } | Haalt of stelt het percentage van de meest waarschijnlijke taakduur in dat kan voorkomen in het slechtst mogelijke projectscenario. De standaardwaarde is 125, wat betekent dat als de geschatte opgegeven taakduur 4 dagen is, de pessimistische duur 5 dagen zal zijn. |
+| [Task](../../aspose.tasks.riskanalysis/riskpattern/task/) { get; } | Haalt een projecttaak op waarop dit risicopatroon wordt toegepast. |
+
+## Voorbeelden
+
+Toont hoe risicosimulatie-instellingen te definiëren.
+
+```csharp
+var settings = new RiskAnalysisSettings();
+settings.IterationsCount = 200;
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// Initialiseer een risicopatroon
+var pattern = new RiskPattern(task);
+
+// Selecteer een distributietype voor de random‑getallengenerator om mogelijke waarden te genereren (momenteel worden slechts twee types ondersteund, namelijk normaal en uniform)            
+// Voor meer details zie hier: https://en.wikipedia.org/wiki/Normal_distribution)
+pattern.Distribution = ProbabilityDistributionType.Normal;
+
+// Stel het percentage in van de meest waarschijnlijke taakduur die kan optreden in het best mogelijke projectscenario 
+// De standaardwaarde is 75, wat betekent dat als de geschatte opgegeven taakduur 4 dagen is, de optimistische duur 3 dagen zal zijn.
+pattern.Optimistic = 70;
+
+// Stel het percentage in van de meest waarschijnlijke taakduur die kan optreden in het slechtst mogelijke projectscenario 
+// De standaardwaarde is 125, wat betekent dat als de geschatte opgegeven taakduur 4 dagen is, de pessimistische duur 5 dagen zal zijn.
+pattern.Pessimistic = 130;
+
+// Stel een betrouwbaarheidsniveau in dat overeenkomt met het percentage van de tijd dat de werkelijke waarden binnen de optimistische en pessimistische schattingen vallen. 
+// Je kunt het zien als een waarde van de standaarddeviatie: hoe onzekerder je bent over je schattingen, hoe hoger de waarde van de standaarddeviatie die in de random‑getallengenerator wordt gebruikt.
+pattern.ConfidenceLevel = ConfidenceLevel.CL75;
+
+settings.Patterns.Add(pattern);
+
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
+
+Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
+Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);
+Console.WriteLine("10% Percentile: {0}", earlyFinish.GetPercentile(10));
+Console.WriteLine("50% Percentile: {0}", earlyFinish.GetPercentile(50));
+Console.WriteLine("90% Percentile: {0}", earlyFinish.GetPercentile(90));
+Console.WriteLine("Minimum: {0}", earlyFinish.Minimum);
+Console.WriteLine("Maximum: {0}", earlyFinish.Maximum);
+
+analysisResult.SaveReport(OutDir + "AnalysisReport_out.pdf");
+```
 
 ### Zie ook
 
-* naamruimte [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
-* montage [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

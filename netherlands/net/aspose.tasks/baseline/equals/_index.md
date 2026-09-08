@@ -1,7 +1,7 @@
 ---
-title: Equals
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven object.
+title: "Baseline.Equals"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Baseline methode. Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven object."
 type: docs
 weight: 80
 url: /nl/net/aspose.tasks/baseline/equals/
@@ -18,15 +18,72 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | het opgegeven object om te vergelijken met deze instantie. |
 
-### Winstwaarde
+### Retourwaarde
 
-retourneert true als deze instantie gelijk is aan het opgegeven object; anders, vals.
+returnt true als deze instantie gelijk is aan het opgegeven object; anders false.
+
+## Voorbeelden
+
+Toont hoe te werken met baselines van toewijzingen.
+
+```csharp
+var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
+
+// toewijzingsbaselines worden ingesteld wanneer men de baseline voor het hele project instelt
+project.SetBaseline(BaselineType.Baseline);
+
+// lees toewijzingsbaseline‑informatie
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var baseline in assignment.Baselines)
+    {
+        Console.WriteLine("Baseline Start: " + baseline.Start);
+        Console.WriteLine("Baseline Finish: " + baseline.Finish);
+        Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+        if (baseline.TimephasedData != null)
+        {
+            foreach (var td in baseline.TimephasedData)
+            {
+                Console.WriteLine("TD Start: " + td.Start);
+                Console.WriteLine("TD Finish: " + td.Finish);
+                Console.WriteLine("TD Timephased Data Type: " + td.TimephasedDataType);
+                Console.WriteLine();
+            }
+        }
+
+        Console.WriteLine();
+    }
+
+    Console.WriteLine();
+}
+
+// controleer baseline‑gelijkheid
+var assn1 = project.ResourceAssignments.GetByUid(5);
+var assn2 = project.ResourceAssignments.GetByUid(7);
+
+var assignmentBaseline1 = assn1.Baselines.ToList()[0];
+var assignmentBaseline2 = assn2.Baselines.ToList()[0];
+
+// baselines kunnen worden vergeleken door gebruik te maken van 'Equals'-methodoverloads
+Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
+
+// of door gebruik te maken van overladen rekenkundige bewerkingen
+Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
+
+// de hashcode van de baseline is gebaseerd op het baselinenummer
+Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
+Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
+```
 
 ### Zie ook
 
 * class [Baseline](../)
-* naamruimte [Aspose.Tasks](../../baseline/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +97,73 @@ public bool Equals(Baseline other)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| other | Baseline | het opgegeven object om te vergelijken met deze instantie. |
+| anders | Baseline | het opgegeven object om te vergelijken met deze instantie. |
 
-### Winstwaarde
+### Retourwaarde
 
-retourneert true als deze instantie gelijk is aan het opgegeven object; anders, vals.
+returnt true als deze instantie gelijk is aan het opgegeven object; anders false.
+
+## Voorbeelden
+
+Toont hoe te werken met baselines van toewijzingen.
+
+```csharp
+var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
+
+// toewijzingsbaselines worden ingesteld wanneer men de baseline voor het hele project instelt
+project.SetBaseline(BaselineType.Baseline);
+
+// lees toewijzingsbaseline‑informatie
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var baseline in assignment.Baselines)
+    {
+        Console.WriteLine("Baseline Start: " + baseline.Start);
+        Console.WriteLine("Baseline Finish: " + baseline.Finish);
+        Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+        if (baseline.TimephasedData != null)
+        {
+            foreach (var td in baseline.TimephasedData)
+            {
+                Console.WriteLine("TD Start: " + td.Start);
+                Console.WriteLine("TD Finish: " + td.Finish);
+                Console.WriteLine("TD Timephased Data Type: " + td.TimephasedDataType);
+                Console.WriteLine();
+            }
+        }
+
+        Console.WriteLine();
+    }
+
+    Console.WriteLine();
+}
+
+// controleer baseline‑gelijkheid
+var assn1 = project.ResourceAssignments.GetByUid(5);
+var assn2 = project.ResourceAssignments.GetByUid(7);
+
+var assignmentBaseline1 = assn1.Baselines.ToList()[0];
+var assignmentBaseline2 = assn2.Baselines.ToList()[0];
+
+// baselines kunnen worden vergeleken door gebruik te maken van 'Equals'-methodoverloads
+Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
+
+// of door gebruik te maken van overladen rekenkundige bewerkingen
+Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
+
+// de hashcode van de baseline is gebaseerd op het baselinenummer
+Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
+Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
+```
 
 ### Zie ook
 
 * class [Baseline](../)
-* naamruimte [Aspose.Tasks](../../baseline/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

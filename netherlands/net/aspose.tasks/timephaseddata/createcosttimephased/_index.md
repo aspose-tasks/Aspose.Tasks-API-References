@@ -1,14 +1,14 @@
 ---
-title: CreateCostTimephased
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Creëert en initialiseert een nieuw exemplaar van hetTimephasedDataaspose.tasks/timephaseddata/ klasse voor op kosten gebaseerde tijdgefaseerde gegevens.
+title: "TimephasedData.CreateCostTimephased"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "TimephasedData methode. Maakt en initialiseert een nieuw exemplaar van de TimephasedData‑klasse voor kostengebaseerde tijdgephaseerde data"
 type: docs
 weight: 20
 url: /nl/net/aspose.tasks/timephaseddata/createcosttimephased/
 ---
-## TimephasedData.CreateCostTimephased method
+## CreateCostTimephased(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) {#createcosttimephased_1}
 
-Creëert en initialiseert een nieuw exemplaar van het[`TimephasedData`](../) klasse voor op kosten gebaseerde tijdgefaseerde gegevens.
+Maakt en initialiseert een nieuw exemplaar van de [`TimephasedData`](../)‑klasse voor kostengebaseerde tijdgephaseerde data.
 
 ```csharp
 public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateTime finish, 
@@ -18,28 +18,154 @@ public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateT
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | uid | Int32 | UID van de taak. |
-| start | DateTime | startdatum-tijd. |
-| finish | DateTime | Voltooi datum-tijd. |
-| value | Double | Kostprijs. |
-| timeUnit | TimeUnitType | Type tijdseenheid. |
-| type | TimephasedDataType | Tijdgefaseerd gegevenstype. |
+| start | DateTime | start datum‑tijd. |
+| einde | DateTime | Eind datum‑tijd. |
+| value | Double | Kostwaarde. |
+| timeUnit | TimeUnitType | Tijdseenheidstype. |
+| type | TimephasedDataType | Tijdgephaseerd gegevenstype. |
 
-### Winstwaarde
+### Retourwaarde
 
-Een voorbeeld van de[`TimephasedData`](../) klasse voor op kosten gebaseerde tijdgefaseerde gegevens.
+Een exemplaar van de [`TimephasedData`](../)‑klasse voor kostengebaseerde tijdgephaseerde data.
 
 ### Uitzonderingen
 
-| uitzondering | voorwaarde |
+| exceptie | conditie |
 | --- | --- |
-| ArgumentException | Als een negatieve kostprijswaarde is opgegeven. |
+| ArgumentException | Als een negatieve kostwaarde werd opgegeven. |
+
+## Voorbeelden
+
+Toont hoe te werken met aangepaste tijdgephaseerde gegevens.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp") { CalculationMode = CalculationMode.None };
+
+var workResource = project.Resources.Add("Work Resource");
+workResource.Set(Rsc.Type, ResourceType.Work);
+var costResource = project.Resources.Add("Cost Resource");
+costResource.Set(Rsc.Type, ResourceType.Cost);
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2018, 1, 1, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+var workAssignment = project.ResourceAssignments.Add(task, workResource);
+workAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+var costAssignment = project.ResourceAssignments.Add(task, costResource);
+costAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+// laten we aangepaste tijdgephaseerde tds toevoegen
+workAssignment.TimephasedData.Clear();
+
+// werkdagen toevoegen
+var td1 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    TimeSpan.FromHours(40),
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+// weekend toevoegen
+var td2 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    TimeSpan.Zero,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+workAssignment.TimephasedData.Add(td1);
+workAssignment.TimephasedData.Add(td2);
+
+costAssignment.TimephasedData.Clear();
+
+// werkdagen toevoegen
+var td11 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    1,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+// weekend toevoegen
+var td22 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    0,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+costAssignment.TimephasedData.Add(td11);
+costAssignment.TimephasedData.Add(td22);
+
+Console.WriteLine("Print assignment timephased data:");
+foreach (var assignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+    foreach (var tds in assignment.TimephasedData)
+    {
+        Console.WriteLine("  Uid: " + tds.Uid);
+        Console.WriteLine("  Start: " + tds.Start);
+        Console.WriteLine("  Finish: " + tds.Finish);
+        Console.WriteLine("  Type: " + tds.TimephasedDataType);
+        Console.WriteLine("  Unit: " + tds.Unit);
+        Console.WriteLine("  Value: " + tds.Value);
+        Console.WriteLine("  ValueToCost: " + tds.ValueToCost);
+        Console.WriteLine("  ValueToDuration: " + tds.ValueToDuration);
+        Console.WriteLine("  ValueToUnits: " + tds.ValueToUnits);
+        Console.WriteLine();
+    }
+}
+
+project.Recalculate();
+```
 
 ### Zie ook
 
 * enum [TimeUnitType](../../timeunittype/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [TimephasedData](../)
-* naamruimte [Aspose.Tasks](../../timephaseddata/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddata/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+---
+
+## CreateCostTimephased(int, DateTime, DateTime, double, TimephasedDataType) {#createcosttimephased}
+
+Maakt en initialiseert een nieuw exemplaar van de [`TimephasedData`](../)‑klasse voor kostengebaseerde tijdgephaseerde data.
+
+```csharp
+public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateTime finish, 
+    double value, TimephasedDataType type)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| uid | Int32 | UID van de taak. |
+| start | DateTime | start datum‑tijd. |
+| einde | DateTime | Eind datum‑tijd. |
+| value | Double | Kostwaarde. |
+| type | TimephasedDataType | Tijdgephaseerd gegevenstype. |
+
+### Retourwaarde
+
+Een exemplaar van de [`TimephasedData`](../)‑klasse voor kostengebaseerde tijdgephaseerde data.
+
+### Uitzonderingen
+
+| exceptie | conditie |
+| --- | --- |
+| ArgumentException | Als een negatieve kostwaarde werd opgegeven. |
+
+### Zie ook
+
+* enum [TimephasedDataType](../../timephaseddatatype/)
+* class [TimephasedData](../)
+* namespace [Aspose.Tasks](../../timephaseddata/)
+* assembly [Aspose.Tasks](../../../)
+
+
