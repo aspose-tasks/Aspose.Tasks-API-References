@@ -1,7 +1,7 @@
 ---
-title: AsnKey
-second_title: .NET API 참조용 Aspose.Tasks
-description: 지원되는 할당 필드 목록을 나타냅니다.
+title: "Enum AsnKey"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "Aspose.Tasks.AsnKey 열거형. 지원되는 할당 필드 목록을 나타냅니다."
 type: docs
 weight: 40
 url: /ko/net/aspose.tasks/asnkey/
@@ -11,82 +11,112 @@ url: /ko/net/aspose.tasks/asnkey/
 지원되는 할당 필드 목록을 나타냅니다.
 
 ```csharp
-public enum AsnKey
+public enum AsnKey : byte
 ```
 
-### 가치
+### 값들
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Guid | `0` | Guid(ResourceAssignment) 필드를 나타냅니다. |
-| Uid | `1` | UID(ResourceAssignment) 필드를 나타냅니다. |
-| Task | `2` | 작업(ResourceAssignment) 필드를 나타냅니다. |
-| Resource | `3` | 리소스(ResourceAssignment) 필드를 나타냅니다. |
-| PercentWorkComplete | `4` | PercentWorkComplete(ResourceAssignment) 필드를 나타냅니다. |
-| ActualCost | `5` | ActualCost(ResourceAssignment) 필드를 나타냅니다. |
-| ActualFinish | `6` | ActualFinish(ResourceAssignment) 필드를 나타냅니다. |
-| ActualOvertimeCost | `7` | ActualOvertimeCost(ResourceAssignment) 필드를 나타냅니다. |
-| ActualStart | `8` | ActualStart(ResourceAssignment) 필드를 나타냅니다. |
-| ActualWork | `9` | ActualWork(ResourceAssignment) 필드를 나타냅니다. |
-| ActualOvertimeWork | `10` | ActualOvertimeWork(ResourceAssignment) 필드를 나타냅니다. |
-| ACWP | `11` | ACWP(ResourceAssignment) 필드를 나타냅니다. |
-| Confirmed | `12` | 확인됨(ResourceAssignment) 필드를 나타냅니다. |
-| Cost | `13` | 비용(ResourceAssignment) 필드를 나타냅니다. |
-| CostRateTableType | `14` | CostRateTableType(ResourceAssignment) 필드를 나타냅니다. |
-| CostVariance | `15` | CostVariance(ResourceAssignment) 필드를 나타냅니다. |
-| CV | `16` | CV(ResourceAssignment) 필드를 나타냅니다. |
-| Delay | `17` | 지연(ResourceAssignment) 필드를 나타냅니다. |
-| Finish | `18` | 완료(ResourceAssignment) 필드를 나타냅니다. |
-| FinishVariance | `19` | FinishVariance(ResourceAssignment) 필드를 나타냅니다. |
-| Hyperlink | `20` | 하이퍼링크(ResourceAssignment) 필드를 나타냅니다. |
-| HyperlinkAddress | `21` | HyperlinkAddress(ResourceAssignment) 필드를 나타냅니다. |
-| HyperlinkSubAddress | `22` | HyperlinkSubAddress(ResourceAssignment) 필드를 나타냅니다. |
-| WorkVariance | `23` | WorkVariance(ResourceAssignment) 필드를 나타냅니다. |
-| HasFixedRateUnits | `24` | 는 HasFixedRateUnits(ResourceAssignment) 필드를 나타냅니다. |
-| FixedMaterial | `25` | 는 FixedMaterial(ResourceAssignment) 필드를 나타냅니다. |
-| LevelingDelay | `26` | LevelingDelay(ResourceAssignment) 필드를 나타냅니다. |
-| LevelingDelayFormat | `27` | LevelingDelayFormat(ResourceAssignment) 필드를 나타냅니다. |
-| LinkedFields | `28` | LinkedFields(ResourceAssignment) 필드를 나타냅니다. |
-| Milestone | `29` | 마일스톤(ResourceAssignment) 필드를 나타냅니다. |
-| Notes | `30` | 메모(ResourceAssignment) 필드를 나타냅니다. |
-| Overallocated | `31` | 초과 할당(ResourceAssignment) 필드를 나타냅니다. |
-| OvertimeCost | `32` | OvertimeCost(ResourceAssignment) 필드를 나타냅니다. |
-| OvertimeWork | `33` | OvertimeWork(ResourceAssignment) 필드를 나타냅니다. |
-| PeakUnits | `34` | PeakUnits(ResourceAssignment) 필드를 나타냅니다. |
-| RegularWork | `35` | RegularWork(ResourceAssignment) 필드를 나타냅니다. |
-| RemainingCost | `36` | RemainingCost(ResourceAssignment) 필드를 나타냅니다. |
-| RemainingOvertimeCost | `37` | RemainingOvertimeCost(ResourceAssignment) 필드를 나타냅니다. |
-| RemainingOvertimeWork | `38` | RemainingOvertimeWork(ResourceAssignment) 필드를 나타냅니다. |
-| RemainingWork | `39` | RemainingWork(ResourceAssignment) 필드를 나타냅니다. |
-| ResponsePending | `40` | ResponsePending(ResourceAssignment) 필드를 나타냅니다. |
-| Start | `41` | 시작(ResourceAssignment) 필드를 나타냅니다. |
-| Stop | `42` | 중지(ResourceAssignment) 필드를 나타냅니다. |
-| Resume | `43` | 이력서(ResourceAssignment) 필드를 나타냅니다. |
-| StartVariance | `44` | 는 StartVariance(ResourceAssignment) 필드를 나타냅니다. |
-| Summary | `45` | 요약(ResourceAssignment) 필드를 나타냅니다. |
-| SV | `46` | SV(ResourceAssignment) 필드를 나타냅니다. |
-| Units | `47` | 단위(ResourceAssignment) 필드를 나타냅니다. |
-| UpdateNeeded | `48` | UpdateNeeded(ResourceAssignment) 필드를 나타냅니다. |
-| VAC | `49` | VAC(ResourceAssignment) 필드를 나타냅니다. |
-| Work | `50` | 작업(ResourceAssignment) 필드를 나타냅니다. |
-| WorkContour | `51` | WorkContour(ResourceAssignment) 필드를 나타냅니다. |
-| BCWS | `52` | BCWS(ResourceAssignment) 필드를 나타냅니다. |
-| BCWP | `53` | BCWP(ResourceAssignment) 필드를 나타냅니다. |
-| BookingType | `54` | BookingType(ResourceAssignment) 필드를 나타냅니다. |
-| ActualWorkProtected | `55` | ActualWorkProtected(ResourceAssignment) 필드를 나타냅니다. |
-| ActualOvertimeWorkProtected | `56` | ActualOvertimeWorkProtected(ResourceAssignment) 필드를 나타냅니다. |
-| Created | `57` | 생성됨(ResourceAssignment) 필드를 나타냅니다. |
-| AssignmentOwner | `58` | AssignmentOwner(ResourceAssignment) 필드를 나타냅니다. |
-| AssignmentOwnerGuid | `59` | AssignmentOwnerGuid(ResourceAssignment) 필드를 나타냅니다. |
-| BudgetWork | `60` | BudgetWork(ResourceAssignment) 필드를 나타냅니다. |
-| BudgetCost | `61` | 는 BudgetCost(ResourceAssignment) 필드를 나타냅니다. |
-| RateScale | `62` | RateScale(ResourceAssignment) 필드를 나타냅니다. |
-| TaskUid | `63` | TaskUid(ResourceAssignment) 필드를 나타냅니다. |
-| ResourceUid | `64` | ResourceUid(ResourceAssignment) 필드를 나타냅니다. |
+| Guid | `0` | Guid (ResourceAssignment) 필드를 나타냅니다. |
+| Uid | `1` | UID (ResourceAssignment) 필드를 나타냅니다. |
+| Task | `2` | Task (ResourceAssignment) 필드를 나타냅니다. |
+| Resource | `3` | Resource (ResourceAssignment) 필드를 나타냅니다. |
+| PercentWorkComplete | `4` | PercentWorkComplete (ResourceAssignment) 필드를 나타냅니다. |
+| ActualCost | `5` | ActualCost (ResourceAssignment) 필드를 나타냅니다. |
+| ActualFinish | `6` | ActualFinish (ResourceAssignment) 필드를 나타냅니다. |
+| ActualOvertimeCost | `7` | ActualOvertimeCost (ResourceAssignment) 필드를 나타냅니다. |
+| ActualStart | `8` | ActualStart (ResourceAssignment) 필드를 나타냅니다. |
+| ActualWork | `9` | ActualWork (ResourceAssignment) 필드를 나타냅니다. |
+| ActualOvertimeWork | `10` | ActualOvertimeWork (ResourceAssignment) 필드를 나타냅니다. |
+| ACWP | `11` | ACWP (ResourceAssignment) 필드를 나타냅니다. |
+| Confirmed | `12` | Confirmed (ResourceAssignment) 필드를 나타냅니다. |
+| Cost | `13` | Cost (ResourceAssignment) 필드를 나타냅니다. |
+| CostRateTableType | `14` | CostRateTableType (ResourceAssignment) 필드를 나타냅니다. |
+| CostVariance | `15` | CostVariance (ResourceAssignment) 필드를 나타냅니다. |
+| CV | `16` | CV (ResourceAssignment) 필드를 나타냅니다. |
+| Delay | `17` | Delay (ResourceAssignment) 필드를 나타냅니다. |
+| Finish | `18` | Finish (ResourceAssignment) 필드를 나타냅니다. |
+| FinishVariance | `19` | FinishVariance (ResourceAssignment) 필드를 나타냅니다. |
+| Hyperlink | `20` | Hyperlink (ResourceAssignment) 필드를 나타냅니다. |
+| HyperlinkAddress | `21` | HyperlinkAddress (ResourceAssignment) 필드를 나타냅니다. |
+| HyperlinkSubAddress | `22` | HyperlinkSubAddress (ResourceAssignment) 필드를 나타냅니다. |
+| WorkVariance | `23` | WorkVariance (ResourceAssignment) 필드를 나타냅니다. |
+| HasFixedRateUnits | `24` | HasFixedRateUnits (ResourceAssignment) 필드를 나타냅니다. |
+| FixedMaterial | `25` | FixedMaterial (ResourceAssignment) 필드를 나타냅니다. |
+| LevelingDelay | `26` | LevelingDelay (ResourceAssignment) 필드를 나타냅니다. |
+| LinkedFields | `27` | LinkedFields (ResourceAssignment) 필드를 나타냅니다. |
+| Milestone | `28` | Milestone (ResourceAssignment) 필드를 나타냅니다. |
+| Notes | `29` | Notes (ResourceAssignment) 필드를 나타냅니다. |
+| NotesText | `30` | NotesText (ResourceAssignment) 필드를 나타냅니다. |
+| NotesRTF | `31` | NotesRTF (ResourceAssignment) 필드를 나타냅니다. |
+| Overallocated | `32` | Overallocated (ResourceAssignment) 필드를 나타냅니다. |
+| OvertimeCost | `33` | OvertimeCost (ResourceAssignment) 필드를 나타냅니다. |
+| OvertimeWork | `34` | OvertimeWork (ResourceAssignment) 필드를 나타냅니다. |
+| PeakUnits | `35` | PeakUnits (ResourceAssignment) 필드를 나타냅니다. |
+| RegularWork | `36` | RegularWork (ResourceAssignment) 필드를 나타냅니다. |
+| RemainingCost | `37` | RemainingCost (ResourceAssignment) 필드를 나타냅니다. |
+| RemainingOvertimeCost | `38` | RemainingOvertimeCost (ResourceAssignment) 필드를 나타냅니다. |
+| RemainingOvertimeWork | `39` | RemainingOvertimeWork (ResourceAssignment) 필드를 나타냅니다. |
+| RemainingWork | `40` | RemainingWork (ResourceAssignment) 필드를 나타냅니다. |
+| ResponsePending | `41` | ResponsePending (ResourceAssignment) 필드를 나타냅니다. |
+| Start | `42` | Start (ResourceAssignment) 필드를 나타냅니다. |
+| Stop | `43` | Stop (ResourceAssignment) 필드를 나타냅니다. |
+| Resume | `44` | Resume (ResourceAssignment) 필드를 나타냅니다. |
+| StartVariance | `45` | StartVariance (ResourceAssignment) 필드를 나타냅니다. |
+| Summary | `46` | Summary (ResourceAssignment) 필드를 나타냅니다. |
+| SV | `47` | SV (ResourceAssignment) 필드를 나타냅니다. |
+| Units | `48` | Units (ResourceAssignment) 필드를 나타냅니다. |
+| UpdateNeeded | `49` | UpdateNeeded (ResourceAssignment) 필드를 나타냅니다. |
+| VAC | `50` | VAC (ResourceAssignment) 필드를 나타냅니다. |
+| Work | `51` | Work (ResourceAssignment) 필드를 나타냅니다. |
+| WorkContour | `52` | WorkContour (ResourceAssignment) 필드를 나타냅니다. |
+| BCWS | `53` | BCWS (ResourceAssignment) 필드를 나타냅니다. |
+| BCWP | `54` | BCWP (ResourceAssignment) 필드를 나타냅니다. |
+| BookingType | `55` | BookingType (ResourceAssignment) 필드를 나타냅니다. |
+| ActualWorkProtected | `56` | ActualWorkProtected (ResourceAssignment) 필드를 나타냅니다. |
+| ActualOvertimeWorkProtected | `57` | ActualOvertimeWorkProtected (ResourceAssignment) 필드를 나타냅니다. |
+| Created | `58` | Created (ResourceAssignment) 필드를 나타냅니다. |
+| AssignmentOwner | `59` | AssignmentOwner (ResourceAssignment) 필드를 나타냅니다. |
+| AssignmentOwnerGuid | `60` | AssignmentOwnerGuid (ResourceAssignment) 필드를 나타냅니다. |
+| BudgetWork | `61` | BudgetWork (ResourceAssignment) 필드를 나타냅니다. |
+| BudgetCost | `62` | BudgetCost (ResourceAssignment) 필드를 나타냅니다. |
+| RateScale | `63` | RateScale (ResourceAssignment) 필드를 나타냅니다. |
+| TaskUid | `64` | TaskUid (ResourceAssignment) 필드를 나타냅니다. |
+| ResourceUid | `65` | ResourceUid (ResourceAssignment) 필드를 나타냅니다. |
 
-### 또한보십시오
+## 예제
 
-* 네임스페이스 [Aspose.Tasks](../../aspose.tasks/)
-* 집회 [Aspose.Tasks](../../)
+공통 속성을 읽고/쓰는 방법을 보여줍니다.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2020, 4, 9, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetWork(1));
+assignment.Set(Asn.Finish, new DateTime(2020, 4, 9, 17, 0, 0));
+assignment.Set(Asn.Units, 1);
+assignment.Set(Asn.PeakUnits, 1);
+
+Console.WriteLine("Start: " + assignment.Get(Asn.Start));
+Console.WriteLine("Work: " + assignment.Get(Asn.Work));
+Console.WriteLine("Finish: " + assignment.Get(Asn.Finish));
+Console.WriteLine("Units: " + assignment.Get(Asn.Units));
+Console.WriteLine("Peak Units: " + assignment.Get(Asn.PeakUnits));
+```
+
+### 또 보기
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+

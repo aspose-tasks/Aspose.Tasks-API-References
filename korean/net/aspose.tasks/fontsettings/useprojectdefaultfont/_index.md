@@ -1,0 +1,44 @@
+---
+title: "FontSettings.UseProjectDefaultFont"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "FontSettings 속성. 렌더링에 기본 글꼴을 사용해야 하는지 여부를 나타내는 값을 가져오거나 설정합니다."
+type: docs
+weight: 40
+url: /ko/net/aspose.tasks/fontsettings/useprojectdefaultfont/
+---
+## FontSettings.UseProjectDefaultFont property
+
+렌더링에 기본 글꼴을 사용해야 하는지 여부를 나타내는 값을 가져오거나 설정합니다.
+
+```csharp
+public bool UseProjectDefaultFont { get; set; }
+```
+
+## 비고
+
+값이 False이고 DefaultFontName이 지정된 경우, 렌더링 엔진은 기본 폰트로 DefaultFontName에 지정된 폰트를 사용합니다. 그렇지 않으면 설치된 경우 'Arial' 또는 'Generic Sans Serif' 폰트가 기본 폰트로 사용됩니다. 기본 폰트는 텍스트 스타일이 현재 운영 체제에 설치되지 않은 폰트를 참조할 때 프로젝트 보기 렌더링 중에 사용됩니다. 폰트 해석을 보다 세밀하게 제어하려면 [`FontResolveCallback`](../fontresolvecallback/) 콜백을 사용할 수 있습니다.
+
+## 예제
+
+출력 PDF 인쇄에 사용할 사용자 지정 글꼴을 설정하는 방법을 보여줍니다.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions
+                  {
+                      PresentationFormat = PresentationFormat.GanttChart, FitContent = true
+                  };
+
+options.FontSettings.UseProjectDefaultFont = false;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
+project.Save(OutDir + "CreateProject2_out.pdf", options);
+```
+
+### 또 보기
+
+* class [FontSettings](../)
+* namespace [Aspose.Tasks](../../fontsettings/)
+* assembly [Aspose.Tasks](../../../)
+
+

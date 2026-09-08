@@ -1,14 +1,14 @@
 ---
-title: RiskPatternCollection
-second_title: .NET API 참조용 Aspose.Tasks
-description: 의 인스턴스를 포함하는 컬렉션을 나타냅니다.RiskPattern./riskpattern/ 클래스.
+title: "클래스 RiskPatternCollection"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "Aspose.Tasks.RiskAnalysis.RiskPatternCollection 클래스. RiskPattern 클래스의 인스턴스를 포함하는 컬렉션을 나타냅니다."
 type: docs
-weight: 1680
+weight: 1940
 url: /ko/net/aspose.tasks.riskanalysis/riskpatterncollection/
 ---
 ## RiskPatternCollection class
 
-의 인스턴스를 포함하는 컬렉션을 나타냅니다.[`RiskPattern`](../riskpattern/) 클래스.
+[`RiskPattern`](../riskpattern/) 클래스의 인스턴스를 포함하는 컬렉션을 나타냅니다.
 
 ```csharp
 public class RiskPatternCollection : ICollection<RiskPattern>, IDictionary<Task, RiskPattern>
@@ -19,25 +19,111 @@ public class RiskPatternCollection : ICollection<RiskPattern>, IDictionary<Task,
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.tasks.riskanalysis/riskpatterncollection/count/) { get; } | 이 컬렉션에 포함된 요소 수를 가져옵니다. |
-| [IsReadOnly](../../aspose.tasks.riskanalysis/riskpatterncollection/isreadonly/) { get; } | 이 컬렉션이 읽기 전용인지 여부를 나타내는 값을 가져옵니다. 그렇지 않으면 false. |
-| [Item](../../aspose.tasks.riskanalysis/riskpatterncollection/item/) { get; } | 인스턴스를 가져옵니다.[`RiskPattern`](../riskpattern/) 지정된 task. 에 대한 클래스 |
+| [IsReadOnly](../../aspose.tasks.riskanalysis/riskpatterncollection/isreadonly/) { get; } | 이 컬렉션이 읽기 전용인지 여부를 나타내는 값을 가져옵니다; 그렇지 않으면 false. |
+| [Item](../../aspose.tasks.riskanalysis/riskpatterncollection/item/) { get; } | 지정된 작업에 대한 [`RiskPattern`](../riskpattern/) 클래스의 인스턴스를 가져옵니다. |
 
-## 행동 양식
+## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.tasks.riskanalysis/riskpatterncollection/add/)(RiskPattern) | 의 인스턴스를 추가합니다.[`RiskPattern`](../riskpattern/) 이 컬렉션에 대한 클래스. |
+| [Add](../../aspose.tasks.riskanalysis/riskpatterncollection/add/)(RiskPattern) | 이 컬렉션에 [`RiskPattern`](../riskpattern/) 클래스의 인스턴스를 추가합니다. |
 | [Clear](../../aspose.tasks.riskanalysis/riskpatterncollection/clear/)() | 이 컬렉션에서 모든 항목을 제거합니다. |
-| [Contains](../../aspose.tasks.riskanalysis/riskpatterncollection/contains/)(RiskPattern) | 지정된 항목이 이 컬렉션에서 발견되면 true를 반환합니다. 그렇지 않으면 false. |
-| [CopyTo](../../aspose.tasks.riskanalysis/riskpatterncollection/copyto/)(RiskPattern[], int) | 지정된 배열 인덱스에서 시작하여 이 컬렉션의 요소를 지정된 배열에 복사합니다. |
+| [Contains](../../aspose.tasks.riskanalysis/riskpatterncollection/contains/)(RiskPattern) | 지정된 항목이 이 컬렉션에 있으면 true를 반환하고, 그렇지 않으면 false를 반환합니다. |
+| [CopyTo](../../aspose.tasks.riskanalysis/riskpatterncollection/copyto/)(RiskPattern[], int) | 이 컬렉션의 요소를 지정된 배열에 복사하며, 지정된 배열 인덱스부터 시작합니다. |
 | [GetEnumerator](../../aspose.tasks.riskanalysis/riskpatterncollection/getenumerator/)() | 이 컬렉션에 대한 열거자를 반환합니다. |
-| [Remove](../../aspose.tasks.riskanalysis/riskpatterncollection/remove/)(RiskPattern) | 이 컬렉션에서 특정 개체의 첫 번째 항목을 제거합니다. |
+| [Remove](../../aspose.tasks.riskanalysis/riskpatterncollection/remove/)(RiskPattern) | 이 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다. |
 
-### 또한보십시오
+## 예제
+
+위험 패턴 컬렉션을 사용하는 방법을 보여줍니다.
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    // Monte Carlo 시뮬레이션의 반복 횟수를 설정합니다(기본값은 100입니다).
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task1 = project.RootTask.Children.GetById(17);
+var task2 = project.RootTask.Children.GetById(18);
+
+// RiskPatternCollection이 읽기 전용이 아니므로
+Console.WriteLine("Is pattern collection read-only?: " + settings.Patterns.IsReadOnly);
+
+// 새 패턴을 추가할 수 있습니다
+var pattern1 = new RiskPattern(task1)
+{
+    Distribution = ProbabilityDistributionType.Normal,
+    Optimistic = 60,
+    Pessimistic = 140,
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+var pattern2 = new RiskPattern(task2)
+{
+    Distribution = ProbabilityDistributionType.Normal,
+    Optimistic = 70,
+    Pessimistic = 130,
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+
+settings.Patterns.Add(pattern1);
+settings.Patterns.Add(pattern2);
+
+// 추가된 패턴을 순회합니다
+Console.WriteLine("Patterns count: " + settings.Patterns.Count);
+foreach (var pattern in settings.Patterns)
+{
+    Console.WriteLine("Task: " + pattern.Task);
+    Console.WriteLine("Distribution: " + pattern.Distribution);
+    Console.WriteLine("Optimistic: " + pattern.Optimistic);
+    Console.WriteLine("Pessimistic: " + pattern.Pessimistic);
+    Console.WriteLine("Confidence Level: " + pattern.ConfidenceLevel);
+    Console.WriteLine();
+}
+
+// 인덱스 접근을 사용하여 컬렉션의 패턴을 편집합니다.
+settings.Patterns[task1].Optimistic = 70;
+settings.Patterns[task1].Pessimistic = 140;
+
+// 편집 후 패턴을 확인합니다.
+Console.WriteLine("Print edited patterns: ");
+foreach (var pattern in settings.Patterns)
+{
+    Console.WriteLine("Task: " + pattern.Task);
+    Console.WriteLine("Distribution: " + pattern.Distribution);
+    Console.WriteLine("Optimistic: " + pattern.Optimistic);
+    Console.WriteLine("Pessimistic: " + pattern.Pessimistic);
+    Console.WriteLine("Confidence Level: " + pattern.ConfidenceLevel);
+    Console.WriteLine();
+}
+
+// 패턴을 제거할 수 있습니다.
+Console.WriteLine("Removing the first pattern...");
+settings.Patterns.Remove(pattern1);
+
+// 컬렉션에 해당 패턴이 없음을 확인합니다.
+Console.WriteLine("Is collection contains the first pattern?: " + settings.Patterns.Contains(pattern1));
+
+// 컬렉션을 두 가지 방법으로 정리할 수 있습니다
+
+// 패턴을 배열에 복사하고 하나씩 삭제합니다.
+var patterns = new RiskPattern[settings.Patterns.Count];
+settings.Patterns.CopyTo(patterns, 0);
+foreach (var pattern in patterns)
+{
+    settings.Patterns.Remove(pattern);
+}
+
+// 또는 패턴 컬렉션을 완전히 비울 수 있습니다.
+settings.Patterns.Clear();
+```
+
+### 또 보기
 
 * class [RiskPattern](../riskpattern/)
 * class [Task](../../aspose.tasks/task/)
-* 네임스페이스 [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
-* 집회 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
