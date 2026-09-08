@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ActualOvertimeWorkProtected
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение ActualOvertimeWorkProtected.
+title: "ResourceAssignment.ActualOvertimeWorkProtected"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение ActualOvertimeWorkProtected"
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/resourceassignment/actualovertimeworkprotected/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resourceassignment/actualovertimeworkprotected/
 public Duration ActualOvertimeWorkProtected { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

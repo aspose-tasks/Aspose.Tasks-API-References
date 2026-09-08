@@ -1,7 +1,7 @@
 ---
-title: VbaModuleAttribute.Value
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VbaModuleAttribute свойство. Получает значение атрибута модуля VBA.
+title: "VbaModuleAttribute.Value"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство VbaModuleAttribute. Получает значение атрибута модуля VBA."
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/vbamoduleattribute/value/
@@ -14,10 +14,28 @@ url: /ru/net/aspose.tasks/vbamoduleattribute/value/
 public string Value { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с атрибутами модуля VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
+
+### См. также
 
 * class [VbaModuleAttribute](../)
-* пространство имен [Aspose.Tasks](../../vbamoduleattribute/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

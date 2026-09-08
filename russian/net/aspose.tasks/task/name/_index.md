@@ -1,23 +1,23 @@
 ---
-title: Task.Name
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение Name.
+title: "Task.Name"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение Name"
 type: docs
-weight: 860
+weight: 850
 url: /ru/net/aspose.tasks/task/name/
 ---
 ## Task.Name property
 
-Получает или задает значение Name.
+Получает или задает значение свойства Name.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

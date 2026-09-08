@@ -1,7 +1,7 @@
 ---
-title: Baseline.Baseline
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Baseline строитель. Конструктор по умолчанию.
+title: "Baseline.Baseline"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Baseline конструктор. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/baseline/baseline/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/baseline/baseline/
 public Baseline()
 ```
 
-### Смотрите также
+### См. также
 
 * class [Baseline](../)
-* пространство имен [Aspose.Tasks](../../baseline/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

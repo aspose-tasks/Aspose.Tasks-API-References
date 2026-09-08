@@ -1,23 +1,23 @@
 ---
-title: Project.DefaultOvertimeRate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение DefaultOvertimeRate.
+title: "Project.DefaultOvertimeRate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Возвращает или задает значение DefaultOvertimeRate"
 type: docs
-weight: 300
+weight: 310
 url: /ru/net/aspose.tasks/project/defaultovertimerate/
 ---
 ## Project.DefaultOvertimeRate property
 
-Получает или задает значение DefaultOvertimeRate.
+Получает или задает значение свойства DefaultOvertimeRate.
 
 ```csharp
 public double DefaultOvertimeRate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

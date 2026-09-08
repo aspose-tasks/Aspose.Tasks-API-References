@@ -1,9 +1,9 @@
 ---
-title: Project.CurrentDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение CurrentDate.
+title: "Project.CurrentDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задаёт значение CurrentDate."
 type: docs
-weight: 230
+weight: 240
 url: /ru/net/aspose.tasks/project/currentdate/
 ---
 ## Project.CurrentDate property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/currentdate/
 public DateTime CurrentDate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

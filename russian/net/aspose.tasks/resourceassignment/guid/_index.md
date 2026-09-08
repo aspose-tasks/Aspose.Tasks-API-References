@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Guid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает уникальный идентификатор для этого назначения.
+title: "ResourceAssignment.Guid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает уникальный идентификатор для этого назначения"
 type: docs
 weight: 290
 url: /ru/net/aspose.tasks/resourceassignment/guid/
@@ -14,10 +14,23 @@ url: /ru/net/aspose.tasks/resourceassignment/guid/
 public Guid? Guid { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как прочитать GUID назначения ресурса.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Resource");
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+Console.WriteLine(assignment.Guid);
+```
+
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

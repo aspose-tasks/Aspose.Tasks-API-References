@@ -1,9 +1,9 @@
 ---
-title: Project.Set
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Сопоставляет указанное свойство с указанным значением в этом контейнере.
+title: "Project.Set"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Сопоставляет указанное свойство с указанным значением в этом контейнере"
 type: docs
-weight: 1220
+weight: 1240
 url: /ru/net/aspose.tasks/project/set/
 ---
 ## Set&lt;T&gt;(Key&lt;T, PrjKey&gt;, T) {#set_1}
@@ -16,17 +16,27 @@ public void Set<T>(Key<T, PrjKey> key, T val)
 
 | Параметр | Описание |
 | --- | --- |
-| T | тип отображаемого значения. |
-| key | указанный ключ свойства.[`Prj`](../../prj/) для получения ключа свойства. |
-| val | Значение. |
+| T | тип сопоставленного значения. |
+| key | указанный ключ свойства. [`Prj`](../../prj/) для получения ключа свойства. |
+| значение | значение. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как установить атрибуты задачи.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,15 +50,25 @@ public void Set(Key<DateTime, PrjKey> key, DateTime val)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | Key`2 | указанный ключ свойства.[`Prj`](../../prj/) для получения ключа свойства. |
-| val | DateTime | Значение. |
+| key | Key`2 | указанный ключ свойства. [`Prj`](../../prj/) для получения ключа свойства. |
+| значение | DateTime | значение. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как установить атрибуты задачи.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Resource.RemainingOvertimeWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение RemainingOvertimeWork.
+title: "Resource.RemainingOvertimeWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение RemainingOvertimeWork"
 type: docs
-weight: 690
+weight: 680
 url: /ru/net/aspose.tasks/resource/remainingovertimework/
 ---
 ## Resource.RemainingOvertimeWork property
 
-Получает или задает значение RemainingOvertimeWork.
+Получает или задает значение свойства RemainingOvertimeWork.
 
 ```csharp
 public Duration RemainingOvertimeWork { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

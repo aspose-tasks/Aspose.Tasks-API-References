@@ -1,25 +1,39 @@
 ---
-title: Tsk.Guid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Сгенерированные уникальные идентификационные коды для задачи.
+title: "Tsk.Guid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Сгенерированные уникальные идентификационные коды задачи"
 type: docs
-weight: 470
+weight: 460
 url: /ru/net/aspose.tasks/tsk/guid/
 ---
 ## Tsk.Guid field
 
-Сгенерированные уникальные идентификационные коды для задачи.
+Сгенерированные уникальные коды идентификации задачи.
 
 ```csharp
 public static readonly Key<string, TaskKey> Guid;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.Guid.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Guid, "60648d59-9c2b-4dc6-bfdb-bfd38f331d61");
+
+Console.WriteLine("Guid: " + task.Get(Tsk.Guid));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

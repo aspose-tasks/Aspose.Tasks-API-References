@@ -1,25 +1,25 @@
 ---
-title: Tsk.ExternalTaskProject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Исходное расположение и идентификатор задачи внешней задачи.
+title: "Tsk.ExternalTaskProject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Исходное расположение и идентификатор внешней задачи"
 type: docs
-weight: 380
+weight: 370
 url: /ru/net/aspose.tasks/tsk/externaltaskproject/
 ---
 ## Tsk.ExternalTaskProject field
 
-Исходное расположение и идентификатор задачи внешней задачи.
+Исходное местоположение и идентификатор задачи внешней задачи.
 
 ```csharp
 public static readonly Key<string, TaskKey> ExternalTaskProject;
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

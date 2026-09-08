@@ -1,9 +1,9 @@
 ---
-title: Class SplitPartCollection
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.SplitPartCollection сорт. Коллекция представляющая части задачи.
+title: "Класс SplitPartCollection"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.SplitPartCollection. Коллекция, представляющая части задачи."
 type: docs
-weight: 2010
+weight: 2300
 url: /ru/net/aspose.tasks/splitpartcollection/
 ---
 ## SplitPartCollection class
@@ -14,12 +14,12 @@ url: /ru/net/aspose.tasks/splitpartcollection/
 public class SplitPartCollection : IList<SplitPart>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.tasks/splitpartcollection/count/) { get; } | Получает количество частей в коллекции. |
-| [Item](../../aspose.tasks/splitpartcollection/item/) { get; set; } | Получает разделенную часть задачи по заданному индексу. |
+| [Item](../../aspose.tasks/splitpartcollection/item/) { get; set; } | Извлекает часть задачи по заданному индексу. |
 
 ## Методы
 
@@ -28,10 +28,35 @@ public class SplitPartCollection : IList<SplitPart>
 | [GetEnumerator](../../aspose.tasks/splitpartcollection/getenumerator/)() | Возвращает перечислитель для этой коллекции. |
 | [ToArray](../../aspose.tasks/splitpartcollection/toarray/)() | Копирует все части из коллекции в новый массив. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с коллекциями частей задачи.
+
+```csharp
+var project = new Project(DataDir + "Splits.mpp");
+
+var task = project.RootTask.Children.GetById(1);
+
+// итерация по частям задачи
+Console.WriteLine("Iterate over split parts");
+Console.WriteLine("Split parts count:" + task.SplitParts.Count);
+foreach (var splitPart in task.SplitParts)
+{
+    Console.WriteLine("Start: " + splitPart.Start);
+    Console.WriteLine("Finish: " + splitPart.Finish);
+}
+
+// получить часть по индексу
+var split = task.SplitParts[0];
+Console.WriteLine("Split start: " + split.Start);
+
+// выполнить некоторые действия с первой частью задачи
+```
+
+### См. также
 
 * class [SplitPart](../splitpart/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

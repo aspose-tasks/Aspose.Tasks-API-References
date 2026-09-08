@@ -1,14 +1,14 @@
 ---
-title: ResourceAssignment.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment метод. Возвращает значение указывающее равен ли этот экземпляр указанному экземпляруResourceAssignment класс.
+title: "ResourceAssignment.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ResourceAssignment. Возвращает значение, указывающее, равен ли данный экземпляр указанному экземпляру класса ResourceAssignment."
 type: docs
 weight: 690
 url: /ru/net/aspose.tasks/resourceassignment/equals/
 ---
 ## Equals(ResourceAssignment) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру[`ResourceAssignment`](../) класс.
+Возвращает значение, указывающее, равен ли данный экземпляр указанному экземпляру класса [`ResourceAssignment`](../).
 
 ```csharp
 public bool Equals(ResourceAssignment other)
@@ -16,17 +16,30 @@ public bool Equals(ResourceAssignment other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | ResourceAssignment | Указанный экземпляр[`ResourceAssignment`](../) класс для сравнения с этим экземпляром. |
+| other | ResourceAssignment | Указанный экземпляр класса [`ResourceAssignment`](../), с которым сравнивается данный экземпляр. |
 
 ### Возвращаемое значение
 
-**Истинный** если указанный экземпляр[`ResourceAssignment`](../) класс имеет то же значение UID, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+**True** if the specified instance of the [`ResourceAssignment`](../) class has the same UID value as this instance; otherwise, **false**.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство назначений ресурсов.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +53,29 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Объект | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинный** если o — это ResourceAssignment, который назначает тот же ресурс и задачу, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+**True** if o is a ResourceAssignment that assign the same resource and task as this instance; otherwise, **false**.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство назначений ресурсов.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

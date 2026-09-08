@@ -1,25 +1,39 @@
 ---
-title: Tsk.EarlyStart
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Самая ранняя дата возможного начала задачи основанная на датах раннего начала предшествующих и последующих задач и других ограничениях.
+title: "Tsk.EarlyStart"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Самая ранняя дата, когда задача может начаться, основываясь на датах раннего начала предшествующих и последующих задач и других ограничениях"
 type: docs
-weight: 350
+weight: 340
 url: /ru/net/aspose.tasks/tsk/earlystart/
 ---
 ## Tsk.EarlyStart field
 
-Самая ранняя дата возможного начала задачи, основанная на датах раннего начала предшествующих и последующих задач и других ограничениях.
+Самая ранняя дата, когда задача может начаться, исходя из ранних дат начала предшествующих и последующих задач и других ограничений.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> EarlyStart;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.EarlyStart.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.EarlyStart, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Early Start: " + task.Get(Tsk.EarlyStart));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

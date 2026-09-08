@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawStatus
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает необработанное текстовое представление как в исходном файле поля Статус действия.
+title: "PrimaveraTaskProperties.RawStatus"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PrimaveraTaskProperties. Получает необработанное текстовое представление поля Status активности, как в исходном файле"
 type: docs
-weight: 90
+weight: 250
 url: /ru/net/aspose.tasks/primaverataskproperties/rawstatus/
 ---
 ## PrimaveraTaskProperties.RawStatus property
 
-Получает необработанное текстовое представление (как в исходном файле) поля «Статус» действия.
+Получает необработанное текстовое представление (как в исходном файле) поля 'Status' активности.
 
 ```csharp
 public string RawStatus { get; }
 ```
 
-### Примечания
+## Примечания
 
-Применимо только к действиям (несуммарным задачам).
+Применимо только к активностям (не к сводным задачам).
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

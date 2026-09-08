@@ -1,9 +1,9 @@
 ---
-title: Project.CreationDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение CreationDate.
+title: "Project.CreationDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение CreationDate."
 type: docs
-weight: 160
+weight: 170
 url: /ru/net/aspose.tasks/project/creationdate/
 ---
 ## Project.CreationDate property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/creationdate/
 public DateTime CreationDate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

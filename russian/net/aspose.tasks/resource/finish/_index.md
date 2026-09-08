@@ -1,7 +1,7 @@
 ---
-title: Resource.Finish
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение Finish.
+title: "Resource.Finish"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение Finish"
 type: docs
 weight: 330
 url: /ru/net/aspose.tasks/resource/finish/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/finish/
 public DateTime Finish { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

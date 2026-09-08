@@ -1,9 +1,9 @@
 ---
-title: Prj.Uid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Уникальный идентификатор проекта.
+title: "Prj.Uid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Уникальный идентификатор проекта"
 type: docs
-weight: 750
+weight: 760
 url: /ru/net/aspose.tasks/prj/uid/
 ---
 ## Prj.Uid field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/prj/uid/
 public static readonly Key<string, PrjKey> Uid;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Uid.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Uid, "1234");
+
+Console.WriteLine("Uid: " + project.Get(Prj.Uid));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

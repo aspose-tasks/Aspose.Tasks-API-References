@@ -1,26 +1,40 @@
 ---
-title: Tsk.LevelingCanSplit
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Определяет может ли функция выравнивания ресурсов вызвать разделение оставшейся работы над этой задачей.
+title: "Tsk.LevelingCanSplit"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Tsk field. Определяет, может ли функция выравнивания ресурсов вызывать разбиения оставшейся работы по этой задаче"
 type: docs
-weight: 770
+weight: 760
 url: /ru/net/aspose.tasks/tsk/levelingcansplit/
 ---
 ## Tsk.LevelingCanSplit field
 
-Определяет, может ли функция выравнивания ресурсов вызвать разделение оставшейся работы над этой задачей.
+Определяет, может ли функция выравнивания ресурсов вызывать разбивку оставшейся работы по этой задаче.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> LevelingCanSplit;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.LevelingCanSplit.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingCanSplit, true);
+
+Console.WriteLine("Leveling Can Split: " + task.Get(Tsk.LevelingCanSplit));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

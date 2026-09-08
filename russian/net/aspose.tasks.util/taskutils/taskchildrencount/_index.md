@@ -1,7 +1,7 @@
 ---
-title: TaskUtils.TaskChildrenCount
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskUtils метод. Рекурсивно вычисляет количество дочерних задач задачи на всех уровнях.
+title: "TaskUtils.TaskChildrenCount"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод TaskUtils. Рекурсивно вычисляет количество дочерних задач на всех уровнях"
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.util/taskutils/taskchildrencount/
@@ -16,17 +16,30 @@ public static int TaskChildrenCount(Task task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | Задание, которое дети вычисляют. |
+| задача | Задача | Задача, для которой вычисляются дочерние задачи. |
 
 ### Возвращаемое значение
 
-Количество детей.
+Количество дочерних задач.
 
-### Смотрите также
+## Примеры
+
+Показывает, как использовать &lt;see cref="Aspose.Tasks.Util.TaskUtils.TaskChildrenCount" /&gt; метод.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// рекурсивно вычисляет количество дочерних задач на всех уровнях
+var count = TaskUtils.TaskChildrenCount(project.RootTask);
+
+Console.WriteLine("Number of tasks: " + count);
+```
+
+### См. также
 
 * class [Task](../../../aspose.tasks/task/)
 * class [TaskUtils](../)
-* пространство имен [Aspose.Tasks.Util](../../taskutils/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../taskutils/)
+* assembly [Aspose.Tasks](../../../)
 
 

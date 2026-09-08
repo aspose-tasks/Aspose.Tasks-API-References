@@ -1,26 +1,38 @@
 ---
-title: Prj.NewTasksAreManual
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет создаются ли новые задачи вручную.
+title: "Prj.NewTasksAreManual"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, создаются ли новые задачи как ручные"
 type: docs
-weight: 540
+weight: 550
 url: /ru/net/aspose.tasks/prj/newtasksaremanual/
 ---
 ## Prj.NewTasksAreManual field
 
-Определяет, создаются ли новые задачи вручную.
+Определяет, создаются ли новые задачи как ручные.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksAreManual;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.NewTasksAreManual.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksAreManual, true);
+
+Console.WriteLine("New Tasks Are Manual: " + project.Get(Prj.NewTasksAreManual));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

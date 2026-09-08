@@ -1,7 +1,7 @@
 ---
-title: Task.CV
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение CV.
+title: "Task.CV"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение CV"
 type: docs
 weight: 290
 url: /ru/net/aspose.tasks/task/cv/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/cv/
 public double CV { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

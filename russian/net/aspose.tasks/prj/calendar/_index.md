@@ -1,9 +1,9 @@
 ---
-title: Prj.Calendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Календарь проекта.
+title: "Prj.Calendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Календарь проекта"
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.tasks/prj/calendar/
 ---
 ## Prj.Calendar field
@@ -14,13 +14,32 @@ url: /ru/net/aspose.tasks/prj/calendar/
 public static readonly Key<Calendar, PrjKey> Calendar;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Calendar.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Standard");
+Calendar.MakeStandardCalendar(calendar);
+
+project.Set(Prj.Calendar, calendar);
+
+Console.WriteLine("Calendar: " + project.Get(Prj.Calendar).Name);
+foreach (var weekDay in calendar.WeekDays)
+{
+    Console.WriteLine(weekDay.FromDate);
+    Console.WriteLine(weekDay.ToDate);
+}
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * class [Calendar](../../calendar/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

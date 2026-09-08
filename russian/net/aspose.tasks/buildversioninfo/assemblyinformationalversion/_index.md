@@ -1,7 +1,7 @@
 ---
-title: BuildVersionInfo.AssemblyInformationalVersion
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BuildVersionInfo поле. Информационный номер версии сборки.
+title: "BuildVersionInfo.AssemblyInformationalVersion"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле BuildVersionInfo. Информационный номер версии сборки"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/buildversioninfo/assemblyinformationalversion/
@@ -14,10 +14,22 @@ url: /ru/net/aspose.tasks/buildversioninfo/assemblyinformationalversion/
 public static readonly string AssemblyInformationalVersion;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать информацию о версии сборки Aspose.Tasks.
+
+```csharp
+// чтение общей информации о текущей версии Aspose.Tasks
+Console.WriteLine("Product: " + BuildVersionInfo.Product);
+Console.WriteLine("File Version: " + BuildVersionInfo.FileVersion);
+Console.WriteLine("Assembly Version: " + BuildVersionInfo.AssemblyVersion);
+Console.WriteLine("Assembly Informational Version: " + BuildVersionInfo.AssemblyInformationalVersion);
+```
+
+### См. также
 
 * class [BuildVersionInfo](../)
-* пространство имен [Aspose.Tasks](../../buildversioninfo/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../buildversioninfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

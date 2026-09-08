@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.DurationPercentComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает процент завершения продолжительности.
+title: "PrimaveraTaskProperties.DurationPercentComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties свойство. Возвращает значение процента завершения длительности"
 type: docs
-weight: 40
+weight: 150
 url: /ru/net/aspose.tasks/primaverataskproperties/durationpercentcomplete/
 ---
 ## PrimaveraTaskProperties.DurationPercentComplete property
 
-Получает процент завершения продолжительности.
+Получает значение процента завершения длительности.
 
 ```csharp
 public double DurationPercentComplete { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

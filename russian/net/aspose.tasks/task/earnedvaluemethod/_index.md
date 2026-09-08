@@ -1,24 +1,24 @@
 ---
-title: Task.EarnedValueMethod
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение EarnedValueMethod.
+title: "Task.EarnedValueMethod"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение EarnedValueMethod"
 type: docs
 weight: 390
 url: /ru/net/aspose.tasks/task/earnedvaluemethod/
 ---
 ## Task.EarnedValueMethod property
 
-Получает или задает значение EarnedValueMethod.
+Получает или задает значение свойства EarnedValueMethod.
 
 ```csharp
 public EarnedValueMethodType EarnedValueMethod { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

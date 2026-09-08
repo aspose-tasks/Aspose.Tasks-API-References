@@ -1,23 +1,49 @@
 ---
-title: Filter.ShowRelatedSummaryRows
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Filter свойство. Получает или задает значение указывающее отображаются ли для фильтра связанные сводные строки.
+title: "Filter.ShowRelatedSummaryRows"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Filter. Получает или задает значение, указывающее, отображаются ли связанные строки сводки для фильтра"
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/filter/showrelatedsummaryrows/
 ---
 ## Filter.ShowRelatedSummaryRows property
 
-Получает или задает значение, указывающее, отображаются ли для фильтра связанные сводные строки.
+Получает или задает значение, указывающее, отображаются ли связанные строки сводки для фильтра.
 
 ```csharp
 public bool ShowRelatedSummaryRows { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с фильтрами.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+Console.WriteLine("Task filters count: " + filters.Count);
+foreach (var filter in filters)
+{
+    Console.WriteLine("Uid: " + filter.Uid);
+    Console.WriteLine("Index: " + filter.Index);
+    Console.WriteLine("Name: " + filter.Name);
+    Console.WriteLine("Type: " + filter.FilterType);
+    Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
+}
+
+// проверьте фильтры ресурсов
+List<Filter> resourceFilters = project.ResourceFilters.ToList();
+Console.WriteLine("Project.ResourceFilters count: " + resourceFilters.Count);
+Console.WriteLine("Resource Filter Item Type: Item.ResourceType: " + resourceFilters[0].FilterType);
+Console.WriteLine("Resource filter ShowInMenu" + resourceFilters[0].ShowInMenu);
+Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0].ShowRelatedSummaryRows);
+```
+
+### См. также
 
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

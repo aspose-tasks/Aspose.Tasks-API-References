@@ -1,14 +1,14 @@
 ---
-title: PdfEncryptionDetails.PdfEncryptionDetails
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PdfEncryptionDetails строитель. Инициализирует новый экземплярPdfEncryptionDetails класс.
+title: "PdfEncryptionDetails.PdfEncryptionDetails"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PdfEncryptionDetails. Инициализирует новый экземпляр класса PdfEncryptionDetails."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails constructor
 
-Инициализирует новый экземпляр[`PdfEncryptionDetails`](../) класс.
+Инициализирует новый экземпляр класса [`PdfEncryptionDetails`](../).
 
 ```csharp
 public PdfEncryptionDetails(string userPassword, string ownerPassword, 
@@ -17,15 +17,50 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| userPassword | String | Пароль пользователя, позволяющий открывать защищенные документы. |
-| ownerPassword | String | Пароль владельца, позволяющий открывать защищенные документы. |
-| encryptionAlgorithm | PdfEncryptionAlgorithm | [`PdfEncryptionAlgorithm`](../../pdfencryptionalgorithm/) instance, которые указывают алгоритм шифрования. |
+| userPassword | Строка | Пароль пользователя, позволяющий открыть защищённые документы. |
+| ownerPassword | Строка | Пароль владельца, позволяющий открыть защищённые документы. |
+| encryptionAlgorithm | PdfEncryptionAlgorithm | Экземпляр [`PdfEncryptionAlgorithm`](../../pdfencryptionalgorithm/), указывающий алгоритм шифрования. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как указать детали шифрования PDF при сохранении проекта в файл PDF.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+// указываем детали шифрования
+var encryptionDetails = new PdfEncryptionDetails(
+    // указать пароль пользователя
+    "userPassword", 
+    // указать пароль владельца
+    "ownerPassword", 
+    // указать алгоритм шифрования
+    PdfEncryptionAlgorithm.RC4_128);
+
+// указать разрешения
+encryptionDetails.Permissions = PdfPermissions.ModifyContents | PdfPermissions.ModifyAnnotations;
+
+// показать пароли пользователя и владельца
+Console.WriteLine("User Password: " + encryptionDetails.UserPassword);
+Console.WriteLine("Owner Password: " + encryptionDetails.OwnerPassword);
+// показать режим шифрования: RC4_40 или RC4_128
+Console.WriteLine("Encryption Algorithm: " + encryptionDetails.EncryptionAlgorithm);
+Console.WriteLine("Permissions: " + encryptionDetails.Permissions);
+
+var options = new PdfSaveOptions
+{
+    EncryptionDetails = encryptionDetails
+};
+
+// сохранить проект с указанными деталями шифрования
+project.Save(OutDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
+```
+
+### См. также
 
 * enum [PdfEncryptionAlgorithm](../../pdfencryptionalgorithm/)
 * class [PdfEncryptionDetails](../)
-* пространство имен [Aspose.Tasks.Saving](../../pdfencryptiondetails/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfencryptiondetails/)
+* assembly [Aspose.Tasks](../../../)
 
 

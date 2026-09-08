@@ -1,7 +1,7 @@
 ---
-title: VbaReference.VbaReference
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VbaReference строитель. Конструктор по умолчанию.
+title: "VbaReference.VbaReference"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор VbaReference. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/vbareference/vbareference/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/vbareference/vbareference/
 public VbaReference()
 ```
 
-### Смотрите также
+### См. также
 
 * class [VbaReference](../)
-* пространство имен [Aspose.Tasks](../../vbareference/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

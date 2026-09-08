@@ -1,23 +1,23 @@
 ---
-title: Project.Category
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение категории.
+title: "Project.Category"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задаёт значение Category."
 type: docs
-weight: 130
+weight: 140
 url: /ru/net/aspose.tasks/project/category/
 ---
 ## Project.Category property
 
-Получает или задает значение категории.
+Получает или задает значение Category.
 
 ```csharp
 public string Category { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

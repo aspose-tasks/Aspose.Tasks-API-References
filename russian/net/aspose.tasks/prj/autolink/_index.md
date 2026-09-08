@@ -1,26 +1,38 @@
 ---
-title: Prj.Autolink
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет автоматически связываются ли вставленные или перемещенные задачи.
+title: "Prj.Autolink"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, автоматически ли связываются вставленные или перемещённые задачи"
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.tasks/prj/autolink/
 ---
 ## Prj.Autolink field
 
-Определяет, автоматически связываются ли вставленные или перемещенные задачи.
+Определяет, автоматически связываются ли вставленные или перемещённые задачи.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> Autolink;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Autolink.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Autolink, true);
+
+Console.WriteLine("Autolink: " + project.Get(Prj.Autolink));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

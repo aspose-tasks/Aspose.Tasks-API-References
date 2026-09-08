@@ -1,9 +1,9 @@
 ---
-title: Prj.Template
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Шаблон проекта.
+title: "Prj.Template"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Шаблон проекта"
 type: docs
-weight: 710
+weight: 720
 url: /ru/net/aspose.tasks/prj/template/
 ---
 ## Prj.Template field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/prj/template/
 public static readonly Key<string, PrjKey> Template;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Template.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Template, "Custom Template");
+
+Console.WriteLine("Template: " + project.Get(Prj.Template));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

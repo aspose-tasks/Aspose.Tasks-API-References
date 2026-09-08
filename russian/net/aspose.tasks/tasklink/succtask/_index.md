@@ -1,7 +1,7 @@
 ---
-title: TaskLink.SuccTask
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskLink свойство. Получает или задает последующую задачу.
+title: "TaskLink.SuccTask"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство TaskLink. Возвращает или задает последующую задачу"
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/tasklink/succtask/
@@ -14,11 +14,29 @@ url: /ru/net/aspose.tasks/tasklink/succtask/
 public Task SuccTask { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать ссылки задач проекта.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+// Отобразить имена предшествующей и последующей задач.
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Predecessor: " + taskLink.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor: " + taskLink.SuccTask.Get(Tsk.Name));
+    Console.WriteLine("Lag Format: " + taskLink.LagFormat);
+    Console.WriteLine("Link Lag: " + taskLink.LinkLag);
+    Console.WriteLine();
+}
+```
+
+### См. также
 
 * class [Task](../../task/)
 * class [TaskLink](../)
-* пространство имен [Aspose.Tasks](../../tasklink/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,38 @@
 ---
-title: CalendarCollection.Count
-second_title: Справочник по Aspose.Tasks для .NET API
-description: CalendarCollection свойство. Получает количество объектов содержащихся в этомCalendarCollection объект.
+title: "CalendarCollection.Count"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство CalendarCollection. Возвращает количество объектов, содержащихся в этом объекте CalendarCollection"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/calendarcollection/count/
 ---
 ## CalendarCollection.Count property
 
-Получает количество объектов, содержащихся в этом[`CalendarCollection`](../) объект.
+Возвращает количество объектов, содержащихся в этом объекте [`CalendarCollection`](../).
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как перебрать коллекцию календарей.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
+List<Calendar> calendars = project.Calendars.ToList();
+foreach (var calendar in calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+### См. также
 
 * class [CalendarCollection](../)
-* пространство имен [Aspose.Tasks](../../calendarcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

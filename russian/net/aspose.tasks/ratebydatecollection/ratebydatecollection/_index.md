@@ -1,7 +1,7 @@
 ---
-title: RateByDateCollection.RateByDateCollection
-second_title: Справочник по Aspose.Tasks для .NET API
-description: RateByDateCollection строитель. Конструктор по умолчанию.
+title: "RateByDateCollection.RateByDateCollection"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор RateByDateCollection. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/ratebydatecollection/ratebydatecollection/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/ratebydatecollection/ratebydatecollection/
 public RateByDateCollection()
 ```
 
-### Смотрите также
+### См. также
 
 * class [RateByDateCollection](../)
-* пространство имен [Aspose.Tasks](../../ratebydatecollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ratebydatecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

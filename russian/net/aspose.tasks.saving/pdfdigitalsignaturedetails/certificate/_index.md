@@ -1,7 +1,7 @@
 ---
-title: PdfDigitalSignatureDetails.Certificate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PdfDigitalSignatureDetails свойство. Получает или задает сертификат для подписи.
+title: "PdfDigitalSignatureDetails.Certificate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PdfDigitalSignatureDetails. Получает или задает сертификат для подписи"
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.saving/pdfdigitalsignaturedetails/certificate/
@@ -14,10 +14,47 @@ url: /ru/net/aspose.tasks.saving/pdfdigitalsignaturedetails/certificate/
 public X509Certificate2 Certificate { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с деталями цифровой подписи PDF.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new PdfSaveOptions();
+
+var certificate = new X509Certificate2();
+
+// создать детали подписи PDF
+var signatureDetails = new PdfDigitalSignatureDetails(
+    // указать сертификат
+    certificate, 
+    // указать причину подписи
+    "reason",
+    // указать место подписи
+    "location", 
+    // указать дату подписи
+    new DateTime(2019, 1, 1), 
+    // указать хеш‑алгоритм подписи
+    PdfDigitalSignatureHashAlgorithm.Sha1);
+
+Console.WriteLine("Certificate: " + signatureDetails.Certificate);
+Console.WriteLine("Reason: " + signatureDetails.Reason);
+Console.WriteLine("Location: " + signatureDetails.Location);
+Console.WriteLine("Signature Date: " + signatureDetails.SignatureDate);
+Console.WriteLine("Hash Algorithm: " + signatureDetails.HashAlgorithm);
+
+// установить детали цифровой подписи
+options.DigitalSignatureDetails = signatureDetails;
+
+// сохранить проект с указанными деталями шифрования
+project.Save(OutDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
+```
+
+### См. также
 
 * class [PdfDigitalSignatureDetails](../)
-* пространство имен [Aspose.Tasks.Saving](../../pdfdigitalsignaturedetails/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfdigitalsignaturedetails/)
+* assembly [Aspose.Tasks](../../../)
 
 

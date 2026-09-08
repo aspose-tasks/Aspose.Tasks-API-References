@@ -1,23 +1,23 @@
 ---
-title: Project.DefaultStartTime
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение DefaultStartTime.
+title: "Project.DefaultStartTime"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Возвращает или задает значение DefaultStartTime"
 type: docs
-weight: 320
+weight: 330
 url: /ru/net/aspose.tasks/project/defaultstarttime/
 ---
 ## Project.DefaultStartTime property
 
-Получает или задает значение DefaultStartTime.
+Получает или задает значение свойства DefaultStartTime.
 
 ```csharp
 public DateTime DefaultStartTime { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

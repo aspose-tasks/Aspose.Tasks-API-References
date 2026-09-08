@@ -1,7 +1,7 @@
 ---
-title: Resource.BudgetWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение BudgetWork.
+title: "Resource.BudgetWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение BudgetWork"
 type: docs
 weight: 210
 url: /ru/net/aspose.tasks/resource/budgetwork/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resource/budgetwork/
 public Duration BudgetWork { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

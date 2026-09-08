@@ -1,26 +1,41 @@
 ---
-title: Tsk.RegularWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Общий объем не сверхурочных работ запланированных для выполнения ресурсами.
+title: "Tsk.RegularWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Общее количество работы без сверхурочных, запланированной для выполнения ресурсами"
 type: docs
-weight: 960
+weight: 940
 url: /ru/net/aspose.tasks/tsk/regularwork/
 ---
 ## Tsk.RegularWork field
 
-Общий объем не сверхурочных работ, запланированных для выполнения ресурсами.
+Общее количество работы без сверхурочных, запланированной для выполнения ресурсами.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> RegularWork;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.RegularWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Hour);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.RegularWork, project.GetWork(1));
+
+Console.WriteLine("Regular Work: " + task.Get(Tsk.RegularWork));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

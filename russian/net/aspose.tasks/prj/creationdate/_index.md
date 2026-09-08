@@ -1,9 +1,9 @@
 ---
-title: Prj.CreationDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Дата и время создания проекта.
+title: "Prj.CreationDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Дата и время создания проекта"
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.tasks/prj/creationdate/
 ---
 ## Prj.CreationDate field
@@ -14,16 +14,28 @@ url: /ru/net/aspose.tasks/prj/creationdate/
 public static readonly Key<DateTime, PrjKey> CreationDate;
 ```
 
-### Примечания
+## Примечания
 
-Сохранено в формате UTC в файлах mpp. DateTime тип.
+Сохранено в формате UTC в файлах mpp. Тип DateTime.
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.CreationDate.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CreationDate, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Creation Date: " + project.Get(Prj.CreationDate));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

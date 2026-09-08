@@ -1,14 +1,14 @@
 ---
-title: ProjectServerManager.CreateNewProject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectServerManager метод. Создает новый проект в экземпляре Project ServerProject Online используя параметры сохранения по умолчанию.
+title: "ProjectServerManager.CreateNewProject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ProjectServerManager. Создает новый проект в экземпляре Project ServerProject Online, используя параметры сохранения по умолчанию."
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/projectservermanager/createnewproject/
 ---
 ## CreateNewProject(Project) {#createnewproject}
 
-Создает новый проект в экземпляре Project Server\Project Online, используя параметры сохранения по умолчанию.
+Создаёт новый проект в экземпляре Project Server\Project Online, используя параметры сохранения по умолчанию.
 
 ```csharp
 public void CreateNewProject(Project project)
@@ -16,7 +16,7 @@ public void CreateNewProject(Project project)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| project | Project | Проект, который необходимо сохранить в экземпляре Project Server\Project Online. |
+| проект | Project | Проект для сохранения в экземпляр Project Server\Project Online. |
 
 ### Исключения
 
@@ -24,24 +24,46 @@ public void CreateNewProject(Project project)
 | --- | --- |
 | [ProjectOnlineException](../../projectonlineexception/) | В случае ошибки связи или ошибки, возвращенной сервером. |
 
-### Примеры
+## Примеры
 
-В этом примере проект загружается из файла .mpp и сохраняется в учетной записи Project Online.
+В этом примере проект загружается из файла .mpp и сохраняется в учетную запись Project Online.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "пароль");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project);
 ```
 
-### Смотрите также
+Показано, как использовать ProjectServerManager для создания нового проекта в Microsoft Project Online.
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### См. также
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* пространство имен [Aspose.Tasks](../../projectservermanager/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -55,8 +77,8 @@ public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| project | Project | Проект, который необходимо сохранить в экземпляре Project Server\Project Online. |
-| saveOptions | ProjectServerSaveOptions | Случай[`ProjectServerSaveOptions`](../../projectserversaveoptions/) сорт. |
+| проект | Project | Проект для сохранения в экземпляр Project Server\Project Online. |
+| saveOptions | ProjectServerSaveOptions | Экземпляр класса [`ProjectServerSaveOptions`](../../projectserversaveoptions/). |
 
 ### Исключения
 
@@ -64,13 +86,13 @@ public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptio
 | --- | --- |
 | [ProjectOnlineException](../../projectonlineexception/) | В случае ошибки связи или ошибки, возвращенной сервером. |
 
-### Примеры
+## Примеры
 
-В этом примере проект загружается из файла .mpp и сохраняется в учетной записи Project Online.
+В этом примере проект загружается из файла .mpp и сохраняется в учетную запись Project Online.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "пароль");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project, new ProjectServerSaveOptions
@@ -79,12 +101,38 @@ manager.CreateNewProject(project, new ProjectServerSaveOptions
 });
 ```
 
-### Смотрите также
+Показывает, как использовать менеджер Project Server для создания нового проекта с предопределенными параметрами сохранения в Microsoft Project Online.
+
+```csharp
+try
+{
+    const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    var options = new ProjectServerSaveOptions
+    {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### См. также
 
 * class [Project](../../project/)
 * class [ProjectServerSaveOptions](../../projectserversaveoptions/)
 * class [ProjectServerManager](../)
-* пространство имен [Aspose.Tasks](../../projectservermanager/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 

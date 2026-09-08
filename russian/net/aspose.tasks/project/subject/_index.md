@@ -1,9 +1,9 @@
 ---
-title: Project.Subject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение Subject.
+title: "Project.Subject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задаёт значение свойства Subject."
 type: docs
-weight: 860
+weight: 890
 url: /ru/net/aspose.tasks/project/subject/
 ---
 ## Project.Subject property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/subject/
 public string Subject { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: ResourceAssignmentCollection.RemoveAt
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignmentCollection метод. Удаляет присвоение по указанному индексу если коллекция не доступна только для чтения в противном случае генерирует исключение NotSupportedException.
+title: "ResourceAssignmentCollection.RemoveAt"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ResourceAssignmentCollection. Удаляет назначение по указанному индексу, если коллекция не только для чтения, иначе генерирует NotSupportedException"
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/resourceassignmentcollection/removeat/
 ---
 ## ResourceAssignmentCollection.RemoveAt method
 
-Удаляет присвоение по указанному индексу, если коллекция не доступна только для чтения, в противном случае генерирует исключение NotSupportedException.
+Удаляет назначение по указанному индексу, если коллекция не только для чтения, иначе генерирует NotSupportedException.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,12 +16,12 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с отсчетом от нуля. |
+| индекс | Int32 | Индекс, начинающийся с нуля. |
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignmentCollection](../)
-* пространство имен [Aspose.Tasks](../../resourceassignmentcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

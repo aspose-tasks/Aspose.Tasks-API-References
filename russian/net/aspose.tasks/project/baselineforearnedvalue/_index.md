@@ -1,9 +1,9 @@
 ---
-title: Project.BaselineForEarnedValue
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение BaselineForEarnedValue.
+title: "Project.BaselineForEarnedValue"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение BaselineForEarnedValue"
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.tasks/project/baselineforearnedvalue/
 ---
 ## Project.BaselineForEarnedValue property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/project/baselineforearnedvalue/
 public BaselineType BaselineForEarnedValue { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

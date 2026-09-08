@@ -1,9 +1,9 @@
 ---
-title: Prj.Company
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Компания в которой был создан проект.
+title: "Prj.Company"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Компания, в которой был создан проект"
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.tasks/prj/company/
 ---
 ## Prj.Company field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/prj/company/
 public static readonly Key<string, PrjKey> Company;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Company.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Company, "Aspose");
+
+Console.WriteLine("Company: " + project.Get(Prj.Company));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

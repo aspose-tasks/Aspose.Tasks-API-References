@@ -1,24 +1,24 @@
 ---
-title: BarStyle.LeftField
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BarStyle свойство. Получает или задает поле отображаемое слева от панели.
+title: "BarStyle.LeftField"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство BarStyle. Получает или задает поле, отображаемое слева от полосы"
 type: docs
-weight: 120
+weight: 140
 url: /ru/net/aspose.tasks.visualization/barstyle/leftfield/
 ---
 ## BarStyle.LeftField property
 
-Получает или задает поле, отображаемое слева от панели.
+Получает или задает поле, отображаемое слева от полосы.
 
 ```csharp
 public Field LeftField { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../barstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

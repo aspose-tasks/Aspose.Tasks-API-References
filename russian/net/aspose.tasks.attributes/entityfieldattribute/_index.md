@@ -1,14 +1,14 @@
 ---
-title: Class EntityFieldAttribute
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Attributes.EntityFieldAttribute сорт. Представляет атрибут для свойств объекта.
+title: "Класс EntityFieldAttribute"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Attributes.EntityFieldAttribute. Представляет атрибут для свойств сущности"
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks.attributes/entityfieldattribute/
 ---
 ## EntityFieldAttribute class
 
-Представляет атрибут для свойств объекта.
+Представляет атрибут для свойств сущности.
 
 ```csharp
 [AttributeUsage(AttributeTargets.Property)]
@@ -21,13 +21,13 @@ public class EntityFieldAttribute : Attribute
 | --- | --- |
 | [EntityFieldAttribute](entityfieldattribute/)() | Конструктор по умолчанию. |
 
-### Примечания
+## Примечания
 
-Атрибут, используемый для[`Task`](../../aspose.tasks/task/) ,[`Resource`](../../aspose.tasks/resource/) ,[`Project`](../../aspose.tasks/project/) и[`ResourceAssignment`](../../aspose.tasks/resourceassignment/) только свойства объекта и упрощает его перечисление.
+Атрибут, используемый только для свойств сущностей [`Task`](../../aspose.tasks/task/), [`Resource`](../../aspose.tasks/resource/), [`Project`](../../aspose.tasks/project/) и [`ResourceAssignment`](../../aspose.tasks/resourceassignment/), и упрощающий их перечисление.
 
-### Примеры
+## Примеры
 
-Как перечислить свойства с помощью **EntityField** атрибут:
+Как перечислять свойства с использованием атрибута **EntityField**:
 
 ```csharp
 [C#]
@@ -42,9 +42,9 @@ foreach (var task in project.SelectAllChildTasks())
 }
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
+* assembly [Aspose.Tasks](../../)
 
 

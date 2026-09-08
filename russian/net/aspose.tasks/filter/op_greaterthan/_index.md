@@ -1,14 +1,14 @@
 ---
-title: Filter.op_GreaterThan
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Filter метод. Возвращает значение указывающее больше ли этот экземпляр чем указанный объект.
+title: "Filter.op_GreaterThan"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Filter. Возвращает значение, указывающее, больше ли этот экземпляр указанного объекта"
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/filter/op_greaterthan/
 ---
 ## Filter GreaterThan operator
 
-Возвращает значение, указывающее, больше ли этот экземпляр, чем указанный объект.
+Возвращает значение, указывающее, больше ли этот экземпляр указанного объекта.
 
 ```csharp
 public static bool operator >(Filter a, Filter b)
@@ -21,12 +21,29 @@ public static bool operator >(Filter a, Filter b)
 
 ### Возвращаемое значение
 
-значение, указывающее, больше ли этот экземпляр, чем указанный объект
+значение, указывающее, больше ли этот экземпляр указанного объекта
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство фильтров.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// равенство фильтров проверяется по UID фильтра.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### См. также
 
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

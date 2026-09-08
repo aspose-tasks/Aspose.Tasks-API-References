@@ -1,9 +1,9 @@
 ---
-title: PrimaveraTaskProperties.PhysicalPercentComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает значение физического процента завершения.
+title: "PrimaveraTaskProperties.PhysicalPercentComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties свойство. Возвращает значение физического процента завершения"
 type: docs
-weight: 50
+weight: 180
 url: /ru/net/aspose.tasks/primaverataskproperties/physicalpercentcomplete/
 ---
 ## PrimaveraTaskProperties.PhysicalPercentComplete property
@@ -14,14 +14,14 @@ url: /ru/net/aspose.tasks/primaverataskproperties/physicalpercentcomplete/
 public double PhysicalPercentComplete { get; }
 ```
 
-### Примечания
+## Примечания
 
-Применимо только к действиям (несуммарным задачам).
+Применимо только к активностям (не к сводным задачам).
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

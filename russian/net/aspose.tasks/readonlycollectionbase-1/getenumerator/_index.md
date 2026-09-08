@@ -1,7 +1,7 @@
 ---
-title: ReadOnlyCollectionBase1.GetEnumerator
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ReadOnlyCollectionBase метод. Возвращает перечислитель для этой коллекции.
+title: "ReadOnlyCollectionBase1.GetEnumerator"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ReadOnlyCollectionBase. Возвращает перечислитель для этой коллекции."
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/readonlycollectionbase-1/getenumerator/
@@ -18,10 +18,10 @@ public IEnumerator<T> GetEnumerator()
 
 Перечислитель для этой коллекции.
 
-### Смотрите также
+### См. также
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* пространство имен [Aspose.Tasks](../../readonlycollectionbase-1/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

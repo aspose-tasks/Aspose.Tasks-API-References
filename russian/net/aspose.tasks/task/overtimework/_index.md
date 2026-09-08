@@ -1,24 +1,24 @@
 ---
-title: Task.OvertimeWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение OvertimeWork.
+title: "Task.OvertimeWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Возвращает или задает значение OvertimeWork"
 type: docs
-weight: 930
+weight: 920
 url: /ru/net/aspose.tasks/task/overtimework/
 ---
 ## Task.OvertimeWork property
 
-Получает или задает значение OvertimeWork.
+Получает или задает значение свойства OvertimeWork.
 
 ```csharp
 public Duration OvertimeWork { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

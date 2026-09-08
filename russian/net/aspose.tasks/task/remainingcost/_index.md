@@ -1,23 +1,23 @@
 ---
-title: Task.RemainingCost
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение RemainingCost.
+title: "Task.RemainingCost"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение RemainingCost"
 type: docs
-weight: 1060
+weight: 1050
 url: /ru/net/aspose.tasks/task/remainingcost/
 ---
 ## Task.RemainingCost property
 
-Получает или задает значение RemainingCost.
+Получает или задает значение свойства RemainingCost.
 
 ```csharp
 public decimal RemainingCost { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

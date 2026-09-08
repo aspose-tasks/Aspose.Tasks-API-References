@@ -1,7 +1,7 @@
 ---
-title: Filter.op_Inequality
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Filter метод. Возвращает значение указывающее не равен ли этот экземпляр указанному объекту.
+title: "Filter.op_Inequality"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Filter. Возвращает значение, указывающее, не равен ли этот экземпляр указанному объекту"
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/filter/op_inequality/
@@ -23,10 +23,27 @@ public static bool operator !=(Filter a, Filter b)
 
 значение, указывающее, не равен ли этот экземпляр указанному объекту
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство фильтров.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// равенство фильтров проверяется по UID фильтра.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### См. также
 
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

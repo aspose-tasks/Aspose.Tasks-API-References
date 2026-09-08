@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.LinkedFields
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение указывающее установлен ли LinkedFields или нет.
+title: "ResourceAssignment.LinkedFields"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение, указывающее, установлен ли LinkedFields."
 type: docs
-weight: 360
+weight: 350
 url: /ru/net/aspose.tasks/resourceassignment/linkedfields/
 ---
 ## ResourceAssignment.LinkedFields property
 
-Получает или задает значение, указывающее, установлен ли LinkedFields или нет.
+Получает или задает значение, указывающее, установлен ли LinkedFields.
 
 ```csharp
 public bool LinkedFields { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

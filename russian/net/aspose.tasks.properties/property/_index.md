@@ -1,9 +1,9 @@
 ---
-title: Class Property
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Properties.Property сорт. Представляет базовый класс свойства.
+title: "Класс Property"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Properties.Property. Представляет базовый класс свойства"
 type: docs
-weight: 1330
+weight: 1580
 url: /ru/net/aspose.tasks.properties/property/
 ---
 ## Property class
@@ -14,7 +14,7 @@ url: /ru/net/aspose.tasks.properties/property/
 public abstract class Property
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -27,9 +27,38 @@ public abstract class Property
 | --- | --- |
 | override [ToString](../../aspose.tasks.properties/property/tostring/)() | Возвращает значение свойства в виде строки. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как читать встроенные свойства проекта.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Author: " + project.BuiltInProps.Author);
+Console.WriteLine("Category: " + project.BuiltInProps.Category);
+Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
+Console.WriteLine("Company: " + project.BuiltInProps.Company);
+Console.WriteLine("HyperlinkBase: " + project.BuiltInProps.HyperlinkBase);
+Console.WriteLine("IsReadOnly: " + project.BuiltInProps.IsReadOnly);
+Console.WriteLine("Keywords: " + project.BuiltInProps.Keywords);
+Console.WriteLine("Manager: " + project.BuiltInProps.Manager);
+Console.WriteLine("Subject: " + project.BuiltInProps.Subject);
+Console.WriteLine("Title: " + project.BuiltInProps.Title);
+Console.WriteLine();
+
+// перебрать коллекцию встроенных свойств
+foreach (Property property in project.BuiltInProps)
+{
+    Console.WriteLine("Name: " + property.Name);
+    Console.WriteLine("Value: " + property.Value);
+    Console.WriteLine("Prop As String: " + property.ToString());
+    Console.WriteLine();
+}
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
+* assembly [Aspose.Tasks](../../)
 
 

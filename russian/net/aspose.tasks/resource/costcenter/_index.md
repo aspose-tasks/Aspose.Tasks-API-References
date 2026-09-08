@@ -1,7 +1,7 @@
 ---
-title: Resource.CostCenter
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение CostCenter.
+title: "Resource.CostCenter"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение CostCenter"
 type: docs
 weight: 260
 url: /ru/net/aspose.tasks/resource/costcenter/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/costcenter/
 public string CostCenter { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

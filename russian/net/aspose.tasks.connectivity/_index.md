@@ -1,7 +1,7 @@
 ---
-title: Aspose.Tasks.Connectivity
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Содержит классы для работы с базами данных.
+title: "Aspose.Tasks.Connectivity"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Содержит классы для работы с базами данных"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.connectivity/
@@ -10,11 +10,11 @@ url: /ru/net/aspose.tasks.connectivity/
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
 | [DbSettings](./dbsettings/) | Позволяет указать настройки для чтения из базы данных проекта. |
-| [MpdSettings](./mpdsettings/) | Позволяет установить необходимые параметры для чтения данных проекта из формата MPD (формат файла базы данных MS Access). |
-| [MspDbSettings](./mspdbsettings/) | Позволяет установить необходимые параметры для чтения данных проекта из базы данных MS Project Server. |
-| [PrimaveraDbSettings](./primaveradbsettings/) | Позволяет установить необходимые параметры для чтения данных проекта из базы данных Primavera. |
+| [MpdSettings](./mpdsettings/) | Позволяет задать необходимые параметры для чтения данных проекта из формата MPD (формат файлов базы данных MS Access). |
+| [MspDbSettings](./mspdbsettings/) | Позволяет задать необходимые параметры для чтения данных проекта из базы данных MS Project Server. |
+| [PrimaveraDbSettings](./primaveradbsettings/) | Позволяет задать необходимые параметры для чтения данных проекта из базы данных Primavera. |
 
 

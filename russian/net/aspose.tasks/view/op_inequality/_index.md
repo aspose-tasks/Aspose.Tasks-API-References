@@ -1,7 +1,7 @@
 ---
-title: View.op_Inequality
-second_title: Справочник по Aspose.Tasks для .NET API
-description: View метод. Возвращает значение указывающее не равен ли этот экземпляр указанному объекту.
+title: "View.op_Inequality"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод View. Возвращает значение, указывающее, не равен ли данный экземпляр указанному объекту"
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks/view/op_inequality/
@@ -16,17 +16,17 @@ public static bool operator !=(View a, View b)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| a | View | Первый взгляд. |
-| b | View | Второй вид. |
+| a | View | Первое представление. |
+| b | View | Второе представление. |
 
 ### Возвращаемое значение
 
 значение, указывающее, не равен ли этот экземпляр указанному объекту
 
-### Смотрите также
+### См. также
 
 * class [View](../)
-* пространство имен [Aspose.Tasks](../../view/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

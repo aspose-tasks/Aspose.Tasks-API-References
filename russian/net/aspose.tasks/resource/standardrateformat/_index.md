@@ -1,9 +1,9 @@
 ---
-title: Resource.StandardRateFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение StandardRateFormat.
+title: "Resource.StandardRateFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение StandardRateFormat"
 type: docs
-weight: 720
+weight: 710
 url: /ru/net/aspose.tasks/resource/standardrateformat/
 ---
 ## Resource.StandardRateFormat property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resource/standardrateformat/
 public RateFormatType StandardRateFormat { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [RateFormatType](../../rateformattype/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

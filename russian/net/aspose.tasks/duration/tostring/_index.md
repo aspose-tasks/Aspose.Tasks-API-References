@@ -1,7 +1,7 @@
 ---
-title: Duration.ToString
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Duration метод. Возвращает строковое представление этого экземпляра.
+title: "Duration.ToString"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Duration. Возвращает строковое представление этого экземпляра."
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/duration/tostring/
@@ -18,10 +18,23 @@ public override string ToString()
 
 строковое представление этого экземпляра.
 
-### Смотрите также
+## Примеры
+
+Показывает, как преобразовать длительность в строку.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// получить длительность задачи
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("The duration as a string: " + duration.ToString());
+```
+
+### См. также
 
 * struct [Duration](../)
-* пространство имен [Aspose.Tasks](../../duration/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

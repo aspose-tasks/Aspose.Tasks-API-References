@@ -1,7 +1,7 @@
 ---
-title: Task.CommitmentStart
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение CommitmentStart.
+title: "Task.CommitmentStart"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение CommitmentStart"
 type: docs
 weight: 210
 url: /ru/net/aspose.tasks/task/commitmentstart/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/commitmentstart/
 public DateTime CommitmentStart { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

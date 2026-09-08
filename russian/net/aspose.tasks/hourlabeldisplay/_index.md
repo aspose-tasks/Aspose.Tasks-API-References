@@ -1,9 +1,9 @@
 ---
-title: Enum HourLabelDisplay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.HourLabelDisplay перечисление. Указывает как отображается метка часа.
+title: "Перечисление HourLabelDisplay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.HourLabelDisplay перечисление. Указывает, как отображается метка часа"
 type: docs
-weight: 760
+weight: 820
 url: /ru/net/aspose.tasks/hourlabeldisplay/
 ---
 ## HourLabelDisplay enumeration
@@ -14,17 +14,31 @@ url: /ru/net/aspose.tasks/hourlabeldisplay/
 public enum HourLabelDisplay
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| H | `0` | Метка "h". |
-| Hr | `1` | Метка "час". |
-| Hour | `2` | Метка "час(ы)". |
+| H | `0` | \"h\" метка. |
+| Hr | `1` | \"hr\" метка. |
+| Hour | `2` | \"hour(s)\" метка. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как установить метку часа в параметрах отображения проекта (случай 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// установить, как отображается метка часа
+project.DisplayOptions.HourLabel = HourLabelDisplay.H;
+
+// ...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Resource.Cost
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение Cost.
+title: "Resource.Cost"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение Cost"
 type: docs
 weight: 250
 url: /ru/net/aspose.tasks/resource/cost/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/cost/
 public decimal Cost { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

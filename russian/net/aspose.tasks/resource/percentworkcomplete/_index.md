@@ -1,23 +1,23 @@
 ---
-title: Resource.PercentWorkComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение PercentWorkComplete.
+title: "Resource.PercentWorkComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение PercentWorkComplete"
 type: docs
-weight: 630
+weight: 620
 url: /ru/net/aspose.tasks/resource/percentworkcomplete/
 ---
 ## Resource.PercentWorkComplete property
 
-Получает или задает значение PercentWorkComplete.
+Получает или задает значение свойства PercentWorkComplete.
 
 ```csharp
 public int PercentWorkComplete { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

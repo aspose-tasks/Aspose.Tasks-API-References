@@ -1,14 +1,14 @@
 ---
-title: GroupCriterion.GetHashCode
-second_title: Справочник по Aspose.Tasks для .NET API
-description: GroupCriterion метод. Служит хэшфункцией для определенного типа.
+title: "GroupCriterion.GetHashCode"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "GroupCriterion метод. Служит хеш-функцией для определенного типа."
 type: docs
-weight: 140
+weight: 120
 url: /ru/net/aspose.tasks/groupcriterion/gethashcode/
 ---
 ## GroupCriterion.GetHashCode method
 
-Служит хэш-функцией для определенного типа.
+Служит хеш-функцией для определённого типа.
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хэш-код для текущегоObject.
+Хеш-код для текущего объекта.
 
-### Смотрите также
+### См. также
 
 * class [GroupCriterion](../)
-* пространство имен [Aspose.Tasks](../../groupcriterion/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

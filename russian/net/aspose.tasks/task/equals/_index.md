@@ -1,14 +1,14 @@
 ---
-title: Task.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task метод. Возвращает значение указывающее соответствует ли этот экземпляр заданной задаче.
+title: "Task.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Task. Возвращает значение, указывающее, равен ли данный экземпляр указанной задаче."
 type: docs
 weight: 1330
 url: /ru/net/aspose.tasks/task/equals/
 ---
 ## Equals(Task) {#equals}
 
-Возвращает значение, указывающее, соответствует ли этот экземпляр заданной задаче.
+Возвращает значение, указывающее, равен ли этот экземпляр указанной задаче.
 
 ```csharp
 public bool Equals(Task other)
@@ -16,17 +16,36 @@ public bool Equals(Task other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Task | Указанная задача для сравнения с этим экземпляром. |
+| другой | Задача | Указанная задача для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-возвращает true, если указанная задача и этот экземпляр имеют одинаковые уникальные идентификаторы.
+Возвращает true, если указанная задача и этот экземпляр имеют одинаковые уникальные идентификаторы.
 
-### Смотрите также
+## Примеры
+
+Показывает, как перебрать назначения задачи.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // отобразить назначения задачи
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +59,35 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Указанный объект для сравнения с этим экземпляром. |
+| obj | Объект | Указанный объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-возвращает true, если указанная задача и этот экземпляр имеют одинаковые уникальные идентификаторы.
+Возвращает true, если указанная задача и этот экземпляр имеют одинаковые уникальные идентификаторы.
 
-### Смотрите также
+## Примеры
+
+Показывает, как перебрать назначения задачи.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // отобразить назначения задачи
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,59 @@
 ---
-title: Table.Table
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Table строитель. Инициализирует новый экземплярTable сорт.
+title: "Table.Table"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор Table. Инициализирует новый экземпляр класса Table"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/table/table/
 ---
 ## Table constructor
 
-Инициализирует новый экземпляр[`Table`](../) сорт.
+Инициализирует новый экземпляр класса [`Table`](../).
 
 ```csharp
 public Table()
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как определить новую таблицу (используется для представлений).
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+// получить таблицу для редактирования
+var table = project.Tables.ToList()[0];
+Console.WriteLine("Uid of the table: " + table.Uid);
+Console.WriteLine("Name of the table: " + table.Name);
+Console.WriteLine("Type of the table: " + table.TableType);
+
+// настроить некоторые свойства
+// установить значение, указывающее, можно ли регулировать высоту строки заголовка таблицы
+table.AdjustHeaderRowHeight = true;
+
+// установить формат даты таблицы.
+table.DateFormat = DateFormat.DateDdMmYyyy;
+
+// установить значение, указывающее, заблокирован ли первый столбец таблицы или доступен для редактирования
+table.LockFirstColumn = true;
+
+// установить высоту строки в таблице, где высота строки определяется количеством строк текста
+table.RowHeight = 10;
+
+// устанавливает значение, указывающее, показывать ли интерфейс «Добавить новый столбец»
+table.ShowAddNewColumn = true;
+
+// установить значение, указывающее, отображает ли проект имя таблицы в раскрывающемся списке Таблицы на вкладке Вид ленты
+table.ShowInMenu = true;
+
+// позволяет сохранить обновлённую таблицу
+project.Save(OutDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
+```
+
+### См. также
 
 * class [Table](../)
-* пространство имен [Aspose.Tasks](../../table/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../table/)
+* assembly [Aspose.Tasks](../../../)
 
 

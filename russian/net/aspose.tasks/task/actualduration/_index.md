@@ -1,7 +1,7 @@
 ---
-title: Task.ActualDuration
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение ActualDuration.
+title: "Task.ActualDuration"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение ActualDuration"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/task/actualduration/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/actualduration/
 public Duration ActualDuration { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

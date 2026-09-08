@@ -1,23 +1,39 @@
 ---
-title: LoadOptions.Password
-second_title: Справочник по Aspose.Tasks для .NET API
-description: LoadOptions свойство. Получает или устанавливает пароль защиты.
+title: "LoadOptions.Password"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство LoadOptions. Получает или задает пароль защиты."
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.tasks/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-Получает или устанавливает пароль защиты.
+Получает или задает пароль защиты.
 
 ```csharp
 public string Password { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как загрузить проект, защищённый паролем, используя экземпляр &lt;see cref=\"Aspose.Tasks.LoadOptions\"/&gt;.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### См. также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Tasks](../../loadoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../loadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

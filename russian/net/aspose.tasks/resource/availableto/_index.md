@@ -1,7 +1,7 @@
 ---
-title: Resource.AvailableTo
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение AvailableTo.
+title: "Resource.AvailableTo"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение AvailableTo"
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/resource/availableto/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/availableto/
 public DateTime AvailableTo { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

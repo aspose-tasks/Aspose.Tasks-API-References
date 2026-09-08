@@ -1,24 +1,24 @@
 ---
-title: PdfSaveOptions.PageSavingCallback
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PdfSaveOptions свойство. Получает или задает определяемый пользователем обратный вызов который используется для получения выходного потока для каждой отображаемой страницы. Применяется когдаSaveToSeparateFiles используется опция .
+title: "PdfSaveOptions.PageSavingCallback"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PdfSaveOptions. Получает или задает пользовательский обратный вызов, который используется для получения выходного потока для каждой отрисованной страницы. Применяется, когда используется параметр SaveToSeparateFiles."
 type: docs
-weight: 80
+weight: 70
 url: /ru/net/aspose.tasks.saving/pdfsaveoptions/pagesavingcallback/
 ---
 ## PdfSaveOptions.PageSavingCallback property
 
-Получает или задает определяемый пользователем обратный вызов, который используется для получения выходного потока для каждой отображаемой страницы. Применяется, когда[`SaveToSeparateFiles`](../savetoseparatefiles/) используется опция .
+Получает или задает пользовательский обратный вызов, который используется для получения выходного потока для каждой отрисованной страницы. Применяется, когда используется параметр [`SaveToSeparateFiles`](../savetoseparatefiles/).
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

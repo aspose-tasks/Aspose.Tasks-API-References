@@ -1,9 +1,9 @@
 ---
-title: Prj.HyperlinkBase
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. База гиперссылок проекта.
+title: "Prj.HyperlinkBase"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. База гиперссылок проекта"
 type: docs
-weight: 370
+weight: 380
 url: /ru/net/aspose.tasks/prj/hyperlinkbase/
 ---
 ## Prj.HyperlinkBase field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/prj/hyperlinkbase/
 public static readonly Key<string, PrjKey> HyperlinkBase;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.HyperlinkBase.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.HyperlinkBase, "www.aspose.com");
+
+Console.WriteLine("Hyperlink Base: " + project.Get(Prj.HyperlinkBase));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: FieldHelper.GetDefaultTaskFieldTitle
-second_title: Справочник по Aspose.Tasks для .NET API
-description: FieldHelper метод. Возвращает заголовок по умолчанию для определенного поля задачи.
+title: "FieldHelper.GetDefaultTaskFieldTitle"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод FieldHelper. Возвращает заголовок по умолчанию для конкретного поля задачи"
 type: docs
-weight: 10
+weight: 20
 url: /ru/net/aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/
 ---
 ## FieldHelper.GetDefaultTaskFieldTitle method
 
-Возвращает заголовок по умолчанию для определенного поля задачи.
+Возвращает заголовок по умолчанию для конкретного поля задачи.
 
 ```csharp
 public static string GetDefaultTaskFieldTitle(TaskKey taskKey)
@@ -16,17 +16,26 @@ public static string GetDefaultTaskFieldTitle(TaskKey taskKey)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| taskKey | TaskKey | Поле задачи, чтобы получить заголовок по умолчанию. |
+| taskKey | TaskKey | Поле задачи для получения заголовка по умолчанию. |
 
 ### Возвращаемое значение
 
-Заголовок по умолчанию для определенного поля задачи, если поле может отображаться в представлении MS Project, в противном случае — null.
+Заголовок по умолчанию конкретного поля задачи, если поле может отображаться в представлении MS Project, иначе null.
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить заголовок поля по умолчанию для конкретного поля задачи.
+
+```csharp
+Console.WriteLine("Title for Tsk.ActualCost: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.ActualCost.KeyType));
+Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.PercentWorkComplete.KeyType));
+```
+
+### См. также
 
 * enum [TaskKey](../../../aspose.tasks/taskkey/)
 * class [FieldHelper](../)
-* пространство имен [Aspose.Tasks.Util](../../fieldhelper/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../fieldhelper/)
+* assembly [Aspose.Tasks](../../../)
 
 

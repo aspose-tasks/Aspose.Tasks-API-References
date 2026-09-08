@@ -1,7 +1,7 @@
 ---
-title: FontDescriptor.Style
-second_title: Справочник по Aspose.Tasks для .NET API
-description: FontDescriptor свойство. Получает стиль шрифта.
+title: "FontDescriptor.Style"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "FontDescriptor свойство. Получает стиль шрифта."
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.visualization/fontdescriptor/style/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks.visualization/fontdescriptor/style/
 public FontStyles Style { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* пространство имен [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

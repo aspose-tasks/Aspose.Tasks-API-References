@@ -1,9 +1,9 @@
 ---
-title: Enum Month
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Month перечисление. Указывает месяц.
+title: "Перечисление Month"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.Month. Указывает месяц."
 type: docs
-weight: 910
+weight: 1040
 url: /ru/net/aspose.tasks/month/
 ---
 ## Month enumeration
@@ -14,31 +14,56 @@ url: /ru/net/aspose.tasks/month/
 public enum Month
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Undefined | `-1` | Указывает, что значение не было определено в исходном файле проекта. |
-| January | `0` | Указывает месяц января. |
-| February | `1` | Указывает месяц февраля. |
-| March | `2` | Обозначает март месяц. |
-| April | `3` | Обозначает апрель месяц. |
-| May | `4` | Обозначает май месяц. |
-| June | `5` | Обозначает июнь месяц. |
-| July | `6` | Обозначает июль месяц. |
-| August | `7` | Указывает месяц августа. |
-| September | `8` | Обозначает сентябрь месяц. |
-| October | `9` | Обозначает месяц октябрь. |
-| November | `10` | Обозначает ноябрь. |
+| Undefined | `-1` | Указывает, что значение не было определено в оригинальном файле проекта. |
+| January | `0` | Указывает месяц январь. |
+| February | `1` | Указывает месяц февраль. |
+| March | `2` | Указывает месяц март. |
+| April | `3` | Указывает месяц апрель. |
+| May | `4` | Указывает месяц май. |
+| June | `5` | Указывает месяц июнь. |
+| July | `6` | Указывает месяц июль. |
+| August | `7` | Указывает месяц август. |
+| September | `8` | Указывает месяц сентябрь. |
+| October | `9` | Указывает месяц октябрь. |
+| November | `10` | Указывает месяц ноябрь. |
 | December | `11` | Указывает месяц декабрь. |
 
-### Примечания
+## Примечания
 
-При экспорте в XML неопределенные значения будут удалены из результирующего XML.
+При экспорте в XML неопределённые значения будут удалены из результирующего XML.
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как работать с повторениями по дню года при создании новых повторяющихся задач.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new YearlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByYearDayRepetition { DayPosition = 1, Month = Month.July },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2019, 7, 1, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

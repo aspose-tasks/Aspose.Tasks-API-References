@@ -1,23 +1,23 @@
 ---
-title: FontDescriptor.FontFamily
-second_title: Справочник по Aspose.Tasks для .NET API
-description: FontDescriptor свойство. Получает название семейства шрифтов.
+title: "FontDescriptor.FontFamily"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "FontDescriptor свойство. Получает название семейства шрифтов."
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/fontdescriptor/fontfamily/
 ---
 ## FontDescriptor.FontFamily property
 
-Получает название семейства шрифтов.
+Получает название семейства шрифта.
 
 ```csharp
 public string FontFamily { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [FontDescriptor](../)
-* пространство имен [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

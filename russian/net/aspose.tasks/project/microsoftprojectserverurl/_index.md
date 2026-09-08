@@ -1,24 +1,24 @@
 ---
-title: Project.MicrosoftProjectServerURL
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли MicrosoftProjectServerURL или нет.
+title: "Project.MicrosoftProjectServerURL"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, установлен ли MicrosoftProjectServerURL"
 type: docs
-weight: 550
+weight: 570
 url: /ru/net/aspose.tasks/project/microsoftprojectserverurl/
 ---
 ## Project.MicrosoftProjectServerURL property
 
-Получает или задает значение, указывающее, установлен ли MicrosoftProjectServerURL или нет.
+Получает или задает значение, указывающее, установлен ли MicrosoftProjectServerURL.
 
 ```csharp
 public NullableBool MicrosoftProjectServerURL { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

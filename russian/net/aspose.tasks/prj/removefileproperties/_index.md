@@ -1,26 +1,38 @@
 ---
-title: Prj.RemoveFileProperties
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет будут ли удалены все свойства файла при сохранении.
+title: "Prj.RemoveFileProperties"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, будут ли все свойства файлов удаляться при сохранении"
 type: docs
-weight: 590
+weight: 600
 url: /ru/net/aspose.tasks/prj/removefileproperties/
 ---
 ## Prj.RemoveFileProperties field
 
-Определяет, будут ли удалены все свойства файла при сохранении.
+Определяет, будут ли все свойства файла удалены при сохранении.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> RemoveFileProperties;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.RemoveFileProperties.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.RemoveFileProperties, true);
+
+Console.WriteLine("Remove File Properties: " + project.Get(Prj.RemoveFileProperties));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

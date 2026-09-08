@@ -1,7 +1,7 @@
 ---
-title: TreeAlgorithmBase1.Alg
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TreeAlgorithmBase метод. Обрабатывает узел дерева.
+title: "TreeAlgorithmBase1.Alg"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод TreeAlgorithmBase. Обрабатывает узел дерева."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.util/treealgorithmbase-1/alg/
@@ -17,12 +17,31 @@ public abstract void Alg(T el, int level)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | el | T | Узел для обработки. |
-| level | Int32 | Уровень узла дерева. |
+| уровень | Int32 | Уровень узла дерева. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как обнаружить повреждённую структуру проекта.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// проверьте структуру проекта.
+// Будет выброшено <see cref=\"TasksException\">, если структура проекта некорректна.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### См. также
 
 * class [TreeAlgorithmBase&lt;T&gt;](../)
-* пространство имен [Aspose.Tasks.Util](../../treealgorithmbase-1/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../treealgorithmbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

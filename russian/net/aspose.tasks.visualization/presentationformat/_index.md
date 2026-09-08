@@ -1,32 +1,46 @@
 ---
-title: Enum PresentationFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Visualization.PresentationFormat перечисление. Перечисление для формата презентации.
+title: "Перечисление PresentationFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.Visualization.PresentationFormat. Перечисление формата представления."
 type: docs
-weight: 2920
+weight: 3270
 url: /ru/net/aspose.tasks.visualization/presentationformat/
 ---
 ## PresentationFormat enumeration
 
-Перечисление для формата презентации.
+Перечисление формата представления.
 
 ```csharp
 public enum PresentationFormat
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | GanttChart | `0` | Формат представления диаграммы Ганта. |
-| TaskUsage | `1` | Формат представления использования задачи. |
+| TaskUsage | `1` | Формат представления использования задач. |
 | ResourceUsage | `2` | Формат представления использования ресурсов. |
 | ResourceSheet | `3` | Формат представления листа ресурсов. |
 | TaskSheet | `4` | Формат представления листа задач. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как отобразить представление листа ресурсов.
+
+```csharp
+var project = new Project(DataDir + "ResourceSheetView.mpp");
+
+SaveOptions options = new PdfSaveOptions();
+
+// Установите формат представления в лист ресурсов.
+options.PresentationFormat = PresentationFormat.ResourceSheet;
+project.Save(OutDir + "ResourceSheetView_out.pdf", options);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

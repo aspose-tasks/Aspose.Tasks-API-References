@@ -1,7 +1,7 @@
 ---
-title: PageSavingArgs.Stream
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PageSavingArgs свойство. Получает или задает поток для записи страницы.
+title: "PageSavingArgs.Stream"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PageSavingArgs. Возвращает или задает поток для записи страницы."
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.saving/pagesavingargs/stream/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.saving/pagesavingargs/stream/
 public Stream Stream { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PageSavingArgs](../)
-* пространство имен [Aspose.Tasks.Saving](../../pagesavingargs/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

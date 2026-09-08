@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.ActualLaborUnits
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает значение фактических единиц труда.
+title: "PrimaveraTaskProperties.ActualLaborUnits"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PrimaveraTaskProperties. Получает значение фактических единиц труда"
 type: docs
-weight: 20
+weight: 50
 url: /ru/net/aspose.tasks/primaverataskproperties/actuallaborunits/
 ---
 ## PrimaveraTaskProperties.ActualLaborUnits property
 
-Получает значение фактических единиц труда.
+Получает значение фактических трудовых единиц.
 
 ```csharp
 public double ActualLaborUnits { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

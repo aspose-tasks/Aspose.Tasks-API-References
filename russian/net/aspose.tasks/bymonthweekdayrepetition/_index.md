@@ -1,14 +1,14 @@
 ---
-title: Class ByMonthWeekDayRepetition
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.ByMonthWeekDayRepetition сорт. Представляет шаблон основанный на положении дня недели в месяце.
+title: "Класс ByMonthWeekDayRepetition"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.ByMonthWeekDayRepetition. Представляет шаблон, основанный на позиции дня недели в месяце"
 type: docs
 weight: 180
 url: /ru/net/aspose.tasks/bymonthweekdayrepetition/
 ---
 ## ByMonthWeekDayRepetition class
 
-Представляет шаблон, основанный на положении дня недели в месяце.
+Представляет шаблон, основанный на позиции дня недели в месяце.
 
 ```csharp
 public class ByMonthWeekDayRepetition : MonthlyRepetitionBase
@@ -18,20 +18,49 @@ public class ByMonthWeekDayRepetition : MonthlyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [ByMonthWeekDayRepetition](bymonthweekdayrepetition/)() | Инициализирует новый экземпляр`ByMonthWeekDayRepetition` сорт. |
+| [ByMonthWeekDayRepetition](bymonthweekdayrepetition/)() | Инициализирует новый экземпляр класса `ByMonthWeekDayRepetition`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Position](../../aspose.tasks/bymonthweekdayrepetition/position/) { get; set; } | Получает или задает положение дня недели в месяце, когда задача должна повторяться. |
-| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval/) { get; set; } | Получает или задает число месяцев, представляющее интервал в месяцах между вхождениями. |
+| [Position](../../aspose.tasks/bymonthweekdayrepetition/position/) { get; set; } | Получает или задает позицию дня недели в месяце, в который задача должна повторяться. |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval/) { get; set; } | Получает или задает количество месяцев, представляющее интервал в месяцах между появлениями. |
 | [WeekDay](../../aspose.tasks/bymonthweekdayrepetition/weekday/) { get; set; } | Получает или задает тип дня недели, в который задача должна повторяться. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с повторениями дней недели по месяцам при создании новых повторяющихся задач.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new MonthlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByMonthWeekDayRepetition
+                                                                      {
+                                                                          Position = OrdinalNumber.First,
+                                                                          WeekDay = DayOfWeek.Sunday,
+                                                                          RepetitionInterval = 2
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 9, 2, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+project.Save(OutDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
+### См. также
 
 * class [MonthlyRepetitionBase](../monthlyrepetitionbase/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

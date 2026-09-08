@@ -1,7 +1,7 @@
 ---
-title: Resource.CV
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение CV.
+title: "Resource.CV"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение CV"
 type: docs
 weight: 300
 url: /ru/net/aspose.tasks/resource/cv/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/cv/
 public double CV { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

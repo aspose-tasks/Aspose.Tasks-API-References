@@ -1,9 +1,9 @@
 ---
-title: Task.ParentProject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает родительский проект задачи.
+title: "Task.ParentProject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает родительский проект задачи"
 type: docs
-weight: 940
+weight: 930
 url: /ru/net/aspose.tasks/task/parentproject/
 ---
 ## Task.ParentProject property
@@ -14,15 +14,29 @@ url: /ru/net/aspose.tasks/task/parentproject/
 public Project ParentProject { get; }
 ```
 
-### Примечания
+## Примечания
 
-Вызовите Project.UpdateReferences для обновления этих свойств.
+Вызовите Project.UpdateReferences, чтобы обновить эти свойства.
 
-### Смотрите также
+## Примеры
+
+Показывает, как использовать родительский проект задачи.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Parent");
+
+// Установите длительность задачи, используя тип единицы времени проекта по умолчанию.
+task.Set(Tsk.Duration, task.ParentProject.GetDuration(1));
+
+Console.WriteLine(task.Get(Tsk.Duration));
+```
+
+### См. также
 
 * class [Project](../../project/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

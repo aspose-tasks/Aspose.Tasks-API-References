@@ -1,14 +1,14 @@
 ---
-title: Task.GetTimephasedData
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task метод. ВозвращаетTimephasedDataCollection объект сTimephasedData значения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами.
+title: "Task.GetTimephasedData"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Task. Возвращает объект TimephasedDataCollection со значениями TimephasedData в заданных начальной и конечной датах указанного типа timephased data."
 type: docs
 weight: 1360
 url: /ru/net/aspose.tasks/task/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-Возвращает[`TimephasedDataCollection`](../../timephaseddatacollection/) объект с[`TimephasedData`](../timephaseddata/) значения в пределах заданных дат начала и окончания указанного типа данных с временными интервалами.
+Возвращает объект [`TimephasedDataCollection`](../../timephaseddatacollection/) с значениями [`TimephasedData`](../timephaseddata/) в указанных начальной и конечной датах указанного типа time-phased data.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -17,27 +17,45 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| start | DateTime | Дата начала для поэтапных по времени данных. |
-| end | DateTime | Дата окончания для поэтапных по времени данных. |
-| timephasedType | TimephasedDataType | Тип поэтапных данных ([`TimephasedDataType`](../../timephaseddatatype/)). |
+| start | DateTime | Дата начала для данных с фазированием во времени. |
+| end | DateTime | Дата окончания для данных с фазированием во времени. |
+| timephasedType | TimephasedDataType | Тип данных с фазированием во времени ([`TimephasedDataType`](../../timephaseddatatype/)). |
 
 ### Возвращаемое значение
 
-А[`TimephasedDataCollection`](../../timephaseddatacollection/) объект с[`TimephasedData`](../timephaseddata/) значения в пределах заданных дат начала и окончания указанного повременного типа данных.
+Объект [`TimephasedDataCollection`](../../timephaseddatacollection/) с значениями [`TimephasedData`](../timephaseddata/) в указанных начальной и конечной датах указанного типа timephased data.
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить timephased data (с определённым типом) задачи.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate).AddDays(2), TimephasedDataType.TaskBaselineWork)
+    .ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
+### См. также
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-Возвращает[`TimephasedDataCollection`](../../timephaseddatacollection/) объект с[`TimephasedData`](../timephaseddata/) значения в пределах заданных дат начала и окончания.
+Возвращает объект [`TimephasedDataCollection`](../../timephaseddatacollection/) с значениями [`TimephasedData`](../timephaseddata/) в указанных начальной и конечной датах.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -45,18 +63,34 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| start | DateTime | Дата начала для поэтапных по времени данных. |
-| end | DateTime | Дата окончания для поэтапных по времени данных. |
+| start | DateTime | Дата начала для данных с фазированием во времени. |
+| end | DateTime | Дата окончания для данных с фазированием во времени. |
 
 ### Возвращаемое значение
 
-Список[`TimephasedData`](../../timephaseddata/) заполнить.
+Список [`TimephasedData`](../../timephaseddata/) для заполнения.
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить временно-фазовые данные (типа TaskWork) задачи.
+
+```csharp
+var task = project.RootTask.Children.GetById(1);
+
+List<TimephasedData> data = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)).ToList();
+foreach (var td in data)
+{
+    Console.WriteLine("Start: " + td.Start);
+    Console.WriteLine("Finish: " + td.Finish);
+    Console.WriteLine("Type: " + td.TimephasedDataType);
+}
+```
+
+### См. также
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

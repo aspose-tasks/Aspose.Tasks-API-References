@@ -1,36 +1,67 @@
 ---
-title: Enum WeekdayType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.WeekdayType перечисление. Представляет день недели проекта в экземпляреRecurringTaskInfo класс.
+title: "Перечисление WeekdayType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.WeekdayType. Представляет день недели проекта в экземпляре класса RecurringTaskInfo."
 type: docs
-weight: 3210
+weight: 3570
 url: /ru/net/aspose.tasks/weekdaytype/
 ---
 ## WeekdayType enumeration
 
-Представляет день недели проекта в экземпляре[`RecurringTaskInfo`](../recurringtaskinfo/) класс.
+Представляет день недели проекта в экземпляре класса [`RecurringTaskInfo`](../recurringtaskinfo/).
 
 ```csharp
 [Flags]
 public enum WeekdayType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| None | `0` | Указывает на отсутствие дня недели. |
-| Sunday | `1` | Указывает тип дня недели воскресенье. |
-| Monday | `2` | Указывает тип дня недели понедельник. |
-| Tuesday | `4` | Указывает тип дня недели вторник. |
-| Wednesday | `8` | Указывает тип дня недели среда. |
-| Thursday | `10` | Указывает тип дня недели четверг. |
-| Friday | `20` | Указывает тип дня недели пятница. |
-| Saturday | `40` | Указывает субботний день недели. |
+| None | `0` | Указывает тип дня недели None. |
+| Sunday | `1` | Указывает тип дня недели Sunday. |
+| Monday | `2` | Указывает тип дня недели Monday. |
+| Tuesday | `4` | Указывает тип дня недели Tuesday. |
+| Wednesday | `8` | Указывает тип дня недели Wednesday. |
+| Thursday | `10` | Указывает тип дня недели Thursday. |
+| Friday | `20` | Указывает тип дня недели Friday. |
+| Saturday | `40` | Указывает тип дня недели Saturday. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как создать повторяющуюся задачу.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

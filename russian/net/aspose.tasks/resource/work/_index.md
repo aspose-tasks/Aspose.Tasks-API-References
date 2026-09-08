@@ -1,9 +1,9 @@
 ---
-title: Resource.Work
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение Work.
+title: "Resource.Work"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение Work"
 type: docs
-weight: 790
+weight: 780
 url: /ru/net/aspose.tasks/resource/work/
 ---
 ## Resource.Work property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resource/work/
 public Duration Work { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

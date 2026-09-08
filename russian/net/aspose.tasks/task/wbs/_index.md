@@ -1,7 +1,7 @@
 ---
-title: Task.WBS
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение WBS.
+title: "Task.WBS"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение WBS"
 type: docs
 weight: 1270
 url: /ru/net/aspose.tasks/task/wbs/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/wbs/
 public string WBS { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Tsk.PreleveledStart
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Дата начала задачи которая была до выравнивания ресурсов.
+title: "Tsk.PreleveledStart"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Дата начала задачи, как она была до выполнения выравнивания ресурсов"
 type: docs
-weight: 940
+weight: 920
 url: /ru/net/aspose.tasks/tsk/preleveledstart/
 ---
 ## Tsk.PreleveledStart field
 
-Дата начала задачи, которая была до выравнивания ресурсов.
+Дата начала задачи до выполнения выравнивания ресурсов.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> PreleveledStart;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.PreleveledStart.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.PreleveledStart, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Preleveled Start: " + task.Get(Tsk.PreleveledStart));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

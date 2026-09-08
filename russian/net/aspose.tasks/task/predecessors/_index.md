@@ -1,14 +1,14 @@
 ---
-title: Task.Predecessors
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. ПолучаетTaskCollection объект который содержит всех предшественников этого объекта Task.
+title: "Task.Predecessors"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает объект TaskCollection, который содержит всех предшественников этого объекта Task"
 type: docs
-weight: 990
+weight: 980
 url: /ru/net/aspose.tasks/task/predecessors/
 ---
 ## Task.Predecessors property
 
-Получает[`TaskCollection`](../../taskcollection/) объект, который содержит всех предшественников этого объекта Task.
+Получает объект [`TaskCollection`](../../taskcollection/), который содержит всех предшественников этого объекта Task.
 
 ```csharp
 public TaskCollection Predecessors { get; }
@@ -16,13 +16,30 @@ public TaskCollection Predecessors { get; }
 
 ### Возвращаемое значение
 
-Доступный только для чтения экземпляр[`TaskCollection`](../../taskcollection/) сорт.
+Экземпляр только для чтения класса [`TaskCollection`](../../taskcollection/).
 
-### Смотрите также
+## Примеры
+
+Показывает, как прочитать предшественников задачи.
+
+```csharp
+var project = new Project();
+var pred = project.RootTask.Children.Add("Predecessor");
+var succ = project.RootTask.Children.Add("Successor");
+
+project.TaskLinks.Add(pred, succ);
+
+foreach (var predecessor in succ.Predecessors)
+{
+    Console.WriteLine("{0} {1}", predecessor.Get(Tsk.Id), predecessor.Get(Tsk.Name));
+}
+```
+
+### См. также
 
 * class [TaskCollection](../../taskcollection/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

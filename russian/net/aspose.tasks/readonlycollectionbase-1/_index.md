@@ -1,14 +1,14 @@
 ---
-title: Class ReadOnlyCollectionBaseT
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.ReadOnlyCollectionBase1T сорт. Представляет доступную только для чтения коллекцию объектов.
+title: "Класс ReadOnlyCollectionBaseT"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.ReadOnlyCollectionBase1T. Представляет коллекцию объектов только для чтения"
 type: docs
-weight: 1420
+weight: 1670
 url: /ru/net/aspose.tasks/readonlycollectionbase-1/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt; class
 
-Представляет доступную только для чтения коллекцию объектов.
+Представляет только для чтения коллекцию объектов.
 
 ```csharp
 public abstract class ReadOnlyCollectionBase<T> : IList<T>
@@ -16,9 +16,9 @@ public abstract class ReadOnlyCollectionBase<T> : IList<T>
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип коллекционных предметов. |
+| T | Тип элементов коллекции. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -29,13 +29,13 @@ public abstract class ReadOnlyCollectionBase<T> : IList<T>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException |
+| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | Это заглушка реализации метода Add интерфейса ICollection, который только бросает NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() | Возвращает перечислитель для этой коллекции. |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | Преобразует объект коллекции в список[`VbaModule`](../vbamodule/) объекты. |
+| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | Преобразует коллекцию в список объектов. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

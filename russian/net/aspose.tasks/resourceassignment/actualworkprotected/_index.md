@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ActualWorkProtected
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение ActualWorkProtected.
+title: "ResourceAssignment.ActualWorkProtected"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение ActualWorkProtected"
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/resourceassignment/actualworkprotected/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resourceassignment/actualworkprotected/
 public Duration ActualWorkProtected { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

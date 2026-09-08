@@ -1,38 +1,52 @@
 ---
-title: Enum CustomFieldType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.CustomFieldType перечисление. Определяет тип настраиваемого поля.
+title: "Перечисление CustomFieldType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.CustomFieldType. Указывает тип пользовательского поля"
 type: docs
 weight: 380
 url: /ru/net/aspose.tasks/customfieldtype/
 ---
 ## CustomFieldType enumeration
 
-Определяет тип настраиваемого поля.
+Указывает тип пользовательского поля.
 
 ```csharp
 public enum CustomFieldType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Null | `0` | Указывает нулевой тип настраиваемого поля. |
-| Cost | `1` | Указывает тип настраиваемого поля стоимости. |
-| Date | `2` | Указывает тип настраиваемого поля даты. |
-| Duration | `3` | Указывает тип настраиваемого поля продолжительности. |
-| Finish | `4` | Указывает тип настраиваемого поля Finish. |
-| Flag | `5` | Указывает тип настраиваемого поля флага. |
-| Number | `6` | Указывает числовой тип настраиваемого поля. |
-| Start | `7` | Указывает тип настраиваемого поля Start. |
-| Text | `8` | Указывает тип настраиваемого текстового поля. |
-| OutlineCode | `9` | Указывает тип настраиваемого поля Outline Code. |
-| RBS | `10` | Указывает тип настраиваемого поля RBS (структура разбивки ресурсов). |
+| Null | `0` | Указывает тип пользовательского поля Null. |
+| Cost | `1` | Указывает тип пользовательского поля Cost. |
+| Date | `2` | Указывает тип пользовательского поля Date. |
+| Duration | `3` | Указывает тип пользовательского поля Duration. |
+| Finish | `4` | Указывает тип пользовательского поля Finish. |
+| Flag | `5` | Указывает тип пользовательского поля Flag. |
+| Number | `6` | Указывает тип пользовательского поля Number. |
+| Start | `7` | Указывает тип пользовательского поля Start. |
+| Text | `8` | Указывает тип пользовательского поля Text. |
+| OutlineCode | `9` | Указывает тип пользовательского поля Outline Code. |
+| RBS | `10` | Указывает тип пользовательского поля RBS (Resource Breakdown Structure). |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как использовать &lt;see cref=\"CustomFieldType\" /&gt; (CustomFieldType.Text).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
+    CustomFieldType.Text,
+    ExtendedAttributeTask.Text1,
+    "MyText");
+project.ExtendedAttributes.Add(definition);
+// работа с определениями...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

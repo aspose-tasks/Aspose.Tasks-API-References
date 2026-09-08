@@ -1,9 +1,9 @@
 ---
-title: Task.ManualDuration
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение ManualDuration.
+title: "Task.ManualDuration"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение ManualDuration"
 type: docs
-weight: 830
+weight: 820
 url: /ru/net/aspose.tasks/task/manualduration/
 ---
 ## Task.ManualDuration property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/manualduration/
 public Duration ManualDuration { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

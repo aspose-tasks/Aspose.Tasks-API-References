@@ -1,9 +1,9 @@
 ---
-title: Task.StartText
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение StartText.
+title: "Task.StartText"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение StartText"
 type: docs
-weight: 1150
+weight: 1140
 url: /ru/net/aspose.tasks/task/starttext/
 ---
 ## Task.StartText property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/starttext/
 public string StartText { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

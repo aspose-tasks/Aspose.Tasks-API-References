@@ -1,14 +1,14 @@
 ---
-title: ViewCollection.GetByName
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ViewCollection метод. Ищет представление с именем и возвращает первое вхождение в коллекции.
+title: "ViewCollection.GetByName"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ViewCollection. Ищет View с указанным именем и возвращает первое вхождение в коллекции."
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/viewcollection/getbyname/
 ---
 ## ViewCollection.GetByName method
 
-Ищет представление с именем и возвращает первое вхождение в коллекции.
+Ищет View с указанным именем и возвращает первое вхождение в коллекции.
 
 ```csharp
 public View GetByName(string viewName)
@@ -16,17 +16,17 @@ public View GetByName(string viewName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| viewName | String | Имя представления для поиска. |
+| viewName | Строка | Имя View для поиска. |
 
 ### Возвращаемое значение
 
-Первое представление в коллекции с указанным именем, если оно найдено; в противном случае ноль.
+Первый View в коллекции с указанным именем, если найден; иначе null.
 
-### Смотрите также
+### См. также
 
 * class [View](../../view/)
 * class [ViewCollection](../)
-* пространство имен [Aspose.Tasks](../../viewcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../viewcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

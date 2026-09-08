@@ -1,9 +1,9 @@
 ---
-title: Project.SaveAsTemplate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Сохраняет проект как шаблон.
+title: "Project.SaveAsTemplate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Сохраняет проект как шаблон."
 type: docs
-weight: 1190
+weight: 1210
 url: /ru/net/aspose.tasks/project/saveastemplate/
 ---
 ## SaveAsTemplate(string, SaveTemplateOptions) {#saveastemplate_3}
@@ -16,21 +16,49 @@ public void SaveAsTemplate(string fileName, SaveTemplateOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла. |
-| options | SaveTemplateOptions | указанные параметры сохранения[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
+| fileName | Строка | Имя файла. |
+| options | SaveTemplateOptions | указанные параметры сохранения [`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект как шаблон.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### См. также
 
 * class [SaveTemplateOptions](../../../aspose.tasks.saving/savetemplateoptions/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveAsTemplate(string) {#saveastemplate_2}
 
-Сохраняет проект как шаблон по указанному пути к файлу.
+Сохраняет проект как шаблон в указанный путь к файлу.
 
 ```csharp
 public void SaveAsTemplate(string fileName)
@@ -38,13 +66,41 @@ public void SaveAsTemplate(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | указанное имя файла. |
+| fileName | Строка | указанное имя файла. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект как шаблон.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -58,13 +114,41 @@ public void SaveAsTemplate(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | указанный поток для сохранения проекта. |
+| поток | Поток | указанный поток, в который сохраняется проект. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект как шаблон.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -78,14 +162,42 @@ public void SaveAsTemplate(Stream stream, SaveTemplateOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Stream для сохранения шаблона проекта. |
-| options | SaveTemplateOptions | указанные параметры сохранения[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
+| поток | Поток | Поток, в который сохраняется шаблон проекта. |
+| options | SaveTemplateOptions | указанные параметры сохранения [`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект как шаблон.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### См. также
 
 * class [SaveTemplateOptions](../../../aspose.tasks.saving/savetemplateoptions/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

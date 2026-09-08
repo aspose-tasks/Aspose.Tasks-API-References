@@ -1,23 +1,41 @@
 ---
-title: Task.OutlineOutdent
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task метод. Продвигает задачу в структуре.
+title: "Task.OutlineOutdent"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Task. Перемещает задачу вверх в структуре"
 type: docs
 weight: 1390
 url: /ru/net/aspose.tasks/task/outlineoutdent/
 ---
 ## Task.OutlineOutdent method
 
-Продвигает задачу в структуре.
+Поднимает задачу в структуре.
 
 ```csharp
 public void OutlineOutdent()
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как уменьшить отступ задачи.
+
+```csharp
+var project = new Project();
+var task1 = project.RootTask.Children.Add("Parent");
+var task2 = task1.Children.Add("Task");
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+
+// уменьшить отступ задачи
+task2.OutlineOutdent();
+
+Console.WriteLine("Outline Level: " + task1.Get(Tsk.OutlineLevel));
+Console.WriteLine("Outline Level: " + task2.Get(Tsk.OutlineLevel));
+```
+
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

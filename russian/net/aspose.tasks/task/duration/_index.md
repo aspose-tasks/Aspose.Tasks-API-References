@@ -1,7 +1,7 @@
 ---
-title: Task.Duration
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение Duration.
+title: "Task.Duration"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение Duration"
 type: docs
 weight: 330
 url: /ru/net/aspose.tasks/task/duration/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/duration/
 public Duration Duration { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

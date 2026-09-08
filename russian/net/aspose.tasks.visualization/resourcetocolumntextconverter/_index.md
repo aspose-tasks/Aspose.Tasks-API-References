@@ -1,9 +1,9 @@
 ---
-title: Delegate ResourceToColumnTextConverter
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Преобразователь данных ресурса в строку столбца.
+title: "Делегат ResourceToColumnTextConverter"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конвертер строковых данных ресурсов в столбцы"
 type: docs
-weight: 2990
+weight: 3340
 url: /ru/net/aspose.tasks.visualization/resourcetocolumntextconverter/
 ---
 ## ResourceToColumnTextConverter delegate
@@ -16,16 +16,62 @@ public delegate string ResourceToColumnTextConverter(Resource resource);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| resource | Resource | Текущий ресурс. |
+| ресурс | Ресурс | Текущий ресурс. |
 
 ### Возвращаемое значение
 
 Строковые данные для столбца.
 
-### Смотрите также
+## Примеры
+
+Показывает, как добавить столбцы представления ресурсов для экспорта.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// итерация по столбцам
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### См. также
 
 * class [Resource](../../aspose.tasks/resource/)
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

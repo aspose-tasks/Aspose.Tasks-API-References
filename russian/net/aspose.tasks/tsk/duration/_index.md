@@ -1,26 +1,41 @@
 ---
-title: Tsk.Duration
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Общий период активного рабочего времени для задачи введенный или рассчитанный Microsoft Project на основе даты начала даты окончания календарей и других факторов планирования.
+title: "Tsk.Duration"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Общий промежуток активного рабочего времени задачи, введённый или рассчитанный Microsoft Project на основе даты начала, даты завершения, календарей и других факторов планирования"
 type: docs
 weight: 300
 url: /ru/net/aspose.tasks/tsk/duration/
 ---
 ## Tsk.Duration field
 
-Общий период активного рабочего времени для задачи, введенный или рассчитанный Microsoft Project на основе даты начала, даты окончания, календарей и других факторов планирования.
+Общий промежуток активного рабочего времени задачи, введённый или рассчитанный Microsoft Project на основе даты начала, даты завершения, календарей и других факторов планирования.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> Duration;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как установить длительность задачи.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task1");
+task.Set(Tsk.Start, new DateTime(2012, 8, 23, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.ActualStart, new DateTime(2012, 8, 23, 8, 0, 0));
+
+project.Save(OutDir + "AddTaskDuration_out.xml", SaveFileFormat.Xml);
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: FontSavingArgs.FontSavingArgs
-second_title: Справочник по Aspose.Tasks для .NET API
-description: FontSavingArgs строитель. Конструктор по умолчанию.
+title: "FontSavingArgs.FontSavingArgs"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор FontSavingArgs. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/fontsavingargs/fontsavingargs/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/fontsavingargs/fontsavingargs/
 public FontSavingArgs()
 ```
 
-### Смотрите также
+### См. также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Tasks](../../fontsavingargs/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontsavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

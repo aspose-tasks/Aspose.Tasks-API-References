@@ -1,23 +1,52 @@
 ---
-title: Calendar.IsBaseCalendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Calendar свойство. Получает значение указывающее является ли календарь базовым календарем.
+title: "Calendar.IsBaseCalendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Calendar. Возвращает значение, указывающее, является ли календарь базовым"
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.tasks/calendar/isbasecalendar/
 ---
 ## Calendar.IsBaseCalendar property
 
-Получает значение, указывающее, является ли календарь базовым календарем.
+Получает значение, указывающее, является ли календарь базовым.
 
 ```csharp
 public bool IsBaseCalendar { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать календари проекта и их свойства.
+
+```csharp
+var project = new Project(DataDir + "Project_GeneralCalendarProperties.xml");
+
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("UID : " + calendar.Uid + " Name: " + calendar.Name);
+
+    // Показывает, есть ли базовый календарь.
+    Console.Write("Base Calendar : ");
+    Console.WriteLine(calendar.IsBaseCalendar ? "Self" : calendar.BaseCalendar.Name);
+
+    // Получить время в часах за каждый рабочий день.
+    foreach (var wd in calendar.WeekDays)
+    {
+        var ts = wd.GetWorkingTime();
+        Console.WriteLine("Day Type: " + wd.DayType + " Hours: " + ts);
+    }
+}
+```
+
+### См. также
 
 * class [Calendar](../)
-* пространство имен [Aspose.Tasks](../../calendar/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

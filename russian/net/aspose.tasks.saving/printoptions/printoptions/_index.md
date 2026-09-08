@@ -1,23 +1,46 @@
 ---
-title: PrintOptions.PrintOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrintOptions строитель. Инициализирует новый экземплярPrintOptions класс который можно использовать для установки различных параметров печати проекта.
+title: "PrintOptions.PrintOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PrintOptions. Инициализирует новый экземпляр класса PrintOptions, который может использоваться для установки различных параметров печати проекта."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/printoptions/printoptions/
 ---
 ## PrintOptions constructor
 
-Инициализирует новый экземпляр[`PrintOptions`](../) класс, который можно использовать для установки различных параметров печати проекта.
+Инициализирует новый экземпляр класса [`PrintOptions`](../), который может использоваться для установки различных параметров печати проекта.
 
 ```csharp
 public PrintOptions()
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как использовать параметры печати.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Project2.mpp");
+    var options = new PrintOptions
+    {
+        Timescale = Timescale.ThirdsOfMonths
+    };
+    if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
+    {
+        project.Print(options);
+    }
+}
+catch (NoPrinterInstalledException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### См. также
 
 * class [PrintOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../printoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../printoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: Class WebRequestEventArgs
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.WebRequestEventArgs сорт. Предоставляет аргументы для события которое возникает когда клиент отправляет вебзапрос в вебAPI Project Server.
+title: "Класс WebRequestEventArgs"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.WebRequestEventArgs. Предоставляет аргументы для события, которое вызывается, когда клиент отправляет веб‑запрос к веб‑API сервера Project."
 type: docs
-weight: 3170
+weight: 3530
 url: /ru/net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class
 
-Предоставляет аргументы для события, которое возникает, когда клиент отправляет веб-запрос в веб-API Project Server.
+Предоставляет аргументы для события, которое вызывается, когда клиент отправляет веб‑запрос к веб‑API сервера Project.
 
 ```csharp
 public sealed class WebRequestEventArgs : EventArgs
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | Получает веб-запрос для отправки в веб-API Project Server. |
+| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | Получает веб‑запрос, отправляемый в веб‑API сервера Project. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

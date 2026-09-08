@@ -1,56 +1,44 @@
 ---
-title: Project.Save
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Сохраняет документ в файл формата mpp используя указанные параметры сохранения.
+title: "Project.Save"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Сохраняет документ в файл, используя указанные параметры сохранения"
 type: docs
-weight: 1180
+weight: 1200
 url: /ru/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
-
-Сохраняет документ в файл формата mpp, используя указанные параметры сохранения.
-
-```csharp
-public void Save(string filename, MPPSaveOptions options)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| filename | String | Имя файла. |
-| options | MPPSaveOptions | Варианты сохранения. |
-
-### Смотрите также
-
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
-* class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveOptions) {#save_6}
+## Save(string, SimpleSaveOptions) {#save_4}
 
 Сохраняет документ в файл, используя указанные параметры сохранения.
 
 ```csharp
-public void Save(string filename, SaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filename | String | Имя файла. |
-| options | SaveOptions | Варианты сохранения. |
+| имя файла | Строка | Имя файла. |
+| опции | SimpleSaveOptions | Параметры сохранения. |
 
-### Смотрите также
+## Примеры
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+Показывает, как сохранить проект в файл MPP.
+
+```csharp
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
+```
+
+### См. также
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
 Сохраняет данные проекта в файл.
 
@@ -60,19 +48,30 @@ public void Save(string filename, SaveFileFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filename | String | Имя файла. |
-| format | SaveFileFormat | Формат файла сохранения. |
+| имя файла | Строка | Имя файла. |
+| формат | SaveFileFormat | Формат файла сохранения. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как создать проект и сохранить его в формате MPP без использования шаблона MPP.
+
+```csharp
+var project = new Project();
+
+// Проект будет сохранён в формате MPP с использованием внутреннего шаблона MPP.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### См. также
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
 Сохраняет данные проекта в файл в формате mpp.
 
@@ -82,61 +81,68 @@ public void Save(string filename)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filename | String | Имя файла. |
+| имя файла | Строка | Имя файла. |
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
 Сохраняет проект в поток, используя указанные параметры сохранения.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток. |
-| options | SaveOptions | Варианты сохранения. |
+| поток | Поток | Поток. |
+| опции | SimpleSaveOptions | Параметры сохранения. |
 
-### Смотрите также
+## Примеры
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-Сохраняет проект в поток, используя указанные параметры сохранения.
+Показывает, как сохранить проект в поток в виде файла MPP, используя параметры сохранения MPP.
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // Используя MPPSaveOptions, мы сохраняем его в формате MPP.
+    project.Save(stream, options);
+}
 ```
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| stream | Stream | Поток. |
-| options | MPPSaveOptions | Варианты сохранения. |
+Показывает, как сохранить проект в поток в виде изображения и управлять параметрами изображения.
 
-### Смотрите также
+```csharp
+var project = new Project();
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // используя ImageSaveOptions, мы сохраняем проект в формате изображения
+    project.Save(stream, options);
+}
+```
+
+### См. также
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
 Сохраняет данные проекта в поток.
 
@@ -146,14 +152,28 @@ public void Save(Stream stream, SaveFileFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток. |
+| поток | Поток | Поток. |
 | format | SaveFileFormat | указанный формат файла сохранения.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект в поток в виде XML‑файла MS Project.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // Записать поток в формат XML
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
+
+### См. также
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

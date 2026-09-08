@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.CV
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение CV.
+title: "ResourceAssignment.CV"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Возвращает или задает значение CV"
 type: docs
 weight: 230
 url: /ru/net/aspose.tasks/resourceassignment/cv/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resourceassignment/cv/
 public double CV { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

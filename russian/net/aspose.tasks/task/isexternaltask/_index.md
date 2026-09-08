@@ -1,23 +1,23 @@
 ---
-title: Task.IsExternalTask
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение указывающее установлен ли IsExternalTask или нет.
+title: "Task.IsExternalTask"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Возвращает или задает значение, указывающее, установлен ли IsExternalTask"
 type: docs
 weight: 640
 url: /ru/net/aspose.tasks/task/isexternaltask/
 ---
 ## Task.IsExternalTask property
 
-Получает или задает значение, указывающее, установлен ли IsExternalTask или нет.
+Получает или задает значение, указывающее, установлен ли IsExternalTask.
 
 ```csharp
 public bool IsExternalTask { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

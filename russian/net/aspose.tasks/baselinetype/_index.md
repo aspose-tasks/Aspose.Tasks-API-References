@@ -1,43 +1,54 @@
 ---
-title: Enum BaselineType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.BaselineType перечисление. Задает базовый тип используемый для расчета значений отклонения.
+title: "Перечисление BaselineType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.BaselineType. Указывает тип базовой линии, используемый для расчёта значений отклонения"
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/baselinetype/
 ---
 ## BaselineType enumeration
 
-Задает базовый тип, используемый для расчета значений отклонения.
+Указывает тип базовой линии, используемый для расчёта значений отклонения.
 
 ```csharp
 public enum BaselineType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Undefined | `-1` | Указывает, что поле не было определено в исходном файле проекта. |
-| Baseline | `0` | Указывает базовый тип. |
-| Baseline1 | `1` | Указывает базовый тип1. |
+| Undefined | `-1` | Указывает, что поле не было определено в оригинальном файле проекта. |
+| Baseline | `0` | Указывает тип базовой линии. |
+| Baseline1 | `1` | Указывает тип Baseline1. |
 | Baseline2 | `2` | Указывает тип Baseline2. |
-| Baseline3 | `3` | Указывает базовый тип3. |
-| Baseline4 | `4` | Указывает базовый тип4. |
-| Baseline5 | `5` | Указывает базовый тип5. |
-| Baseline6 | `6` | Указывает базовый тип6. |
-| Baseline7 | `7` | Указывает базовый тип7. |
-| Baseline8 | `8` | Указывает базовый тип8. |
-| Baseline9 | `9` | Указывает базовый тип9. |
-| Baseline10 | `10` | Указывает базовый тип10. |
+| Baseline3 | `3` | Указывает тип Baseline3. |
+| Baseline4 | `4` | Указывает тип Baseline4. |
+| Baseline5 | `5` | Указывает тип Baseline5. |
+| Baseline6 | `6` | Указывает тип Baseline6. |
+| Baseline7 | `7` | Указывает тип Baseline7. |
+| Baseline8 | `8` | Указывает тип Baseline8. |
+| Baseline9 | `9` | Указывает тип Baseline9. |
+| Baseline10 | `10` | Указывает тип Baseline10. |
 
-### Примечания
+## Примечания
 
-При экспорте в XML неопределенные значения будут удалены из результирующего XML.
+При экспорте в XML неопределённые значения будут удалены из результирующего XML.
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как установить базовую линию для проекта (BaselineType.Baseline).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// Сохранить поля базовой линии в указанную базовую линию для всего проекта.
+project.SetBaseline(BaselineType.Baseline);
+// Работа с базовыми линиями проекта...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

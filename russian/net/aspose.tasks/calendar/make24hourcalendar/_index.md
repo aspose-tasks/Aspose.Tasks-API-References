@@ -1,14 +1,14 @@
 ---
-title: Calendar.Make24HourCalendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Calendar метод. Делает данный календарь 24часовым календарем. 24часовой календарь  это календарь в котором каждый день недели работает с круглосуточным рабочим временем.
+title: "Calendar.Make24HourCalendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Calendar. Преобразует заданный календарь в 24‑часовой календарь. 24‑часовой календарь — это календарь, в котором каждый день недели работает круглосуточно."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/calendar/make24hourcalendar/
 ---
 ## Calendar.Make24HourCalendar method
 
-Делает данный календарь 24-часовым календарем. 24-часовой календарь — это календарь, в котором каждый день недели работает с круглосуточным рабочим временем.
+Превращает заданный Calendar в 24‑часовой календарь. 24‑часовой календарь — это календарь, в котором каждый день недели работает круглосуточно.
 
 ```csharp
 public static Calendar Make24HourCalendar(Calendar calendar)
@@ -16,16 +16,45 @@ public static Calendar Make24HourCalendar(Calendar calendar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| calendar | Calendar | Календарь, из которого можно сделать 24-часовой календарь. |
+| календарь | Calendar | Календарь для создания 24‑часового календаря из. |
 
 ### Возвращаемое значение
 
-24-часовой календарь.
+Календарь 24‑часовой.
 
-### Смотрите также
+## Примеры
+
+Показывает, как создать 24‑часовой календарь.
+
+```csharp
+Project project = new Project();
+var calendar = project.Calendars.Add("New calendar");
+Calendar.Make24HourCalendar(calendar);
+
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// Будут выведены 24 часа
+Console.WriteLine("Hours: " + workingHours.TotalHours);
+```
+
+Показывает, как преобразовать новый календарь в 24‑часовой календарь.
+
+```csharp
+var project = new Project();
+
+var calendar = project.Calendars.Add("24 Hours");
+calendar = Calendar.Make24HourCalendar(calendar);
+
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// Будут выведены 24 часа
+Console.WriteLine("Hours: " + workingHours.TotalHours);
+```
+
+### См. также
 
 * class [Calendar](../)
-* пространство имен [Aspose.Tasks](../../calendar/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

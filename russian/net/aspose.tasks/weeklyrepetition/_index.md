@@ -1,9 +1,9 @@
 ---
-title: Class WeeklyRepetition
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.WeeklyRepetition сорт. Представляет шаблон основанный на днях недели.
+title: "Класс WeeklyRepetition"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.WeeklyRepetition. Представляет шаблон, основанный на будних днях"
 type: docs
-weight: 3230
+weight: 3590
 url: /ru/net/aspose.tasks/weeklyrepetition/
 ---
 ## WeeklyRepetition class
@@ -18,19 +18,50 @@ public class WeeklyRepetition : WeeklyRepetitionBase
 
 | Имя | Описание |
 | --- | --- |
-| [WeeklyRepetition](weeklyrepetition/)() | Инициализирует новый экземпляр`WeeklyRepetition` класс. |
+| [WeeklyRepetition](weeklyrepetition/)() | Инициализирует новый экземпляр класса `WeeklyRepetition`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval/) { get; set; } | Получает или задает число недель, представляющее интервал в неделях между событиями. |
-| [WeekDays](../../aspose.tasks/weeklyrepetition/weekdays/) { get; set; } | Получает или задает тип дней недели. |
+| [RepetitionInterval](../../aspose.tasks/weeklyrepetitionbase/repetitioninterval/) { get; set; } | Получает или задает количество недель, представляющее интервал в неделях между появлениями. |
+| [WeekDays](../../aspose.tasks/weeklyrepetition/weekdays/) { get; set; } | Получает или задает тип будних дней. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как создать повторяющуюся задачу.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### См. также
 
 * class [WeeklyRepetitionBase](../weeklyrepetitionbase/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

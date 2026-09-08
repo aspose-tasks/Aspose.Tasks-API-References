@@ -1,9 +1,9 @@
 ---
-title: Task.Start
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение Start.
+title: "Task.Start"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение Start"
 type: docs
-weight: 1130
+weight: 1120
 url: /ru/net/aspose.tasks/task/start/
 ---
 ## Task.Start property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/start/
 public DateTime Start { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

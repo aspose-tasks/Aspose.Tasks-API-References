@@ -1,7 +1,7 @@
 ---
-title: Resource.Guid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение Guid.
+title: "Resource.Guid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение Guid"
 type: docs
 weight: 350
 url: /ru/net/aspose.tasks/resource/guid/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/guid/
 public string Guid { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Tsk.DurationText
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Возвращает текст продолжительности задачи.
+title: "Tsk.DurationText"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Tsk field. Возвращает текст длительности задачи"
 type: docs
-weight: 320
+weight: 310
 url: /ru/net/aspose.tasks/tsk/durationtext/
 ---
 ## Tsk.DurationText field
@@ -14,12 +14,26 @@ url: /ru/net/aspose.tasks/tsk/durationtext/
 public static readonly Key<string, TaskKey> DurationText;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.DurationText.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DurationText, "Not A Duration");
+
+Console.WriteLine("Duration Text: " + task.Get(Tsk.DurationText));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,54 @@
 ---
-title: RecurringTaskParameters.RecurringTaskParameters
-second_title: Справочник по Aspose.Tasks для .NET API
-description: RecurringTaskParameters строитель. Инициализирует новый экземплярRecurringTaskParameters класс.
+title: "RecurringTaskParameters.RecurringTaskParameters"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор RecurringTaskParameters. Инициализирует новый экземпляр класса RecurringTaskParameters."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/recurringtaskparameters/recurringtaskparameters/
 ---
 ## RecurringTaskParameters constructor
 
-Инициализирует новый экземпляр[`RecurringTaskParameters`](../) класс.
+Инициализирует новый экземпляр класса [`RecurringTaskParameters`](../).
 
 ```csharp
 public RecurringTaskParameters()
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как создать повторяющуюся задачу.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### См. также
 
 * class [RecurringTaskParameters](../)
-* пространство имен [Aspose.Tasks](../../recurringtaskparameters/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../recurringtaskparameters/)
+* assembly [Aspose.Tasks](../../../)
 
 

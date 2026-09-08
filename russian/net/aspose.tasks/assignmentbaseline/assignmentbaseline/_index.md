@@ -1,7 +1,7 @@
 ---
-title: AssignmentBaseline.AssignmentBaseline
-second_title: Справочник по Aspose.Tasks для .NET API
-description: AssignmentBaseline строитель. Конструктор по умолчанию.
+title: "AssignmentBaseline.AssignmentBaseline"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор AssignmentBaseline. Конструктор по умолчанию."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/assignmentbaseline/assignmentbaseline/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/assignmentbaseline/assignmentbaseline/
 public AssignmentBaseline()
 ```
 
-### Смотрите также
+### См. также
 
 * class [AssignmentBaseline](../)
-* пространство имен [Aspose.Tasks](../../assignmentbaseline/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

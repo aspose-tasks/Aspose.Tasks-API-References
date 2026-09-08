@@ -1,14 +1,14 @@
 ---
-title: Class BuildVersionInfo
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.BuildVersionInfo сорт. Содержит версию сборки и информацию о продукте.
+title: "Класс BuildVersionInfo"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.BuildVersionInfo. Содержит информацию о версии сборки и продукте."
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/buildversioninfo/
 ---
 ## BuildVersionInfo class
 
-Содержит версию сборки и информацию о продукте.
+Содержит информацию о версии сборки и продукте.
 
 ```csharp
 public static class BuildVersionInfo
@@ -23,9 +23,21 @@ public static class BuildVersionInfo
 | static readonly [FileVersion](../../aspose.tasks/buildversioninfo/fileversion/) | Версия файла. |
 | static readonly [Product](../../aspose.tasks/buildversioninfo/product/) | Название продукта. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как читать информацию о версии сборки Aspose.Tasks.
+
+```csharp
+// чтение общей информации о текущей версии Aspose.Tasks
+Console.WriteLine("Product: " + BuildVersionInfo.Product);
+Console.WriteLine("File Version: " + BuildVersionInfo.FileVersion);
+Console.WriteLine("Assembly Version: " + BuildVersionInfo.AssemblyVersion);
+Console.WriteLine("Assembly Informational Version: " + BuildVersionInfo.AssemblyInformationalVersion);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 
