@@ -1,33 +1,49 @@
 ---
-title: Project.SetBaselineSaveTime
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project método. Establece el tiempo de ahorro de referencia.
+title: "Project.SetBaselineSaveTime"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método de Project. Establece la hora de guardado de la línea base."
 type: docs
-weight: 1240
+weight: 1260
 url: /es/net/aspose.tasks/project/setbaselinesavetime/
 ---
 ## Project.SetBaselineSaveTime method
 
-Establece el tiempo de ahorro de referencia.
+Establece la hora de guardado de la línea base.
 
 ```csharp
 public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| baselineNumber | BaselineType | El número de la línea de base[`BaselineType`](../../baselinetype/). |
-| value | DateTime | La última fecha y hora de guardado de la línea de base. |
+| baselineNumber | BaselineType | El número de la línea base [`BaselineType`](../../baselinetype/). |
+| value | DateTime | La última fecha y hora de guardado de la línea base. |
 
-### Observaciones
+## Observaciones
 
-Establezca el valor en DateTime.MinValue si no se guardó la línea base.
+Establezca el valor a DateTime.MinValue si la línea base no se guardó.
+
+## Ejemplos
+
+Muestra cómo leer/escribir el tiempo de guardado de la línea base del proyecto.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// establecer tiempo de guardado de la línea base
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
 
 ### Ver también
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

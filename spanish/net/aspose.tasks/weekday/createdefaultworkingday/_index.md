@@ -1,32 +1,88 @@
 ---
-title: WeekDay.CreateDefaultWorkingDay
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: WeekDay método. Crea jornada laboral por defecto.
+title: "WeekDay.CreateDefaultWorkingDay"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método WeekDay. Crea un día laborable predeterminado."
 type: docs
 weight: 20
 url: /es/net/aspose.tasks/weekday/createdefaultworkingday/
 ---
 ## WeekDay.CreateDefaultWorkingDay method
 
-Crea jornada laboral por defecto.
+Crea un día laborable predeterminado.
 
 ```csharp
 public static WeekDay CreateDefaultWorkingDay(DayType dayType)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| dayType | DayType | El tipo de día a partir del cual se creará el día laborable predeterminado. |
+| dayType | DayType | El tipo de día a partir del cual crear el día laborable predeterminado. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Un día laboral predeterminado con horarios laborales 8-12 y 13-17.
+Un día laborable predeterminado con horarios de trabajo 8-12 y 13-17.
+
+## Ejemplos
+
+Muestra cómo crear un nuevo calendario definiendo los días de la semana.
+
+```csharp
+var project = new Project();
+
+// Definir un calendar
+var calendar = project.Calendars.Add("Calendar1");
+
+// Agregar días laborables de lunes a jueves con horarios predeterminados
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(new WeekDay(DayType.Tuesday, new WorkingTime(9, 11), new WorkingTime(12, 18)));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+
+var exceptionDay = WeekDay.CreateDefaultWorkingDay(DayType.Exception);
+exceptionDay.FromDate = new DateTime(2020, 4, 27, 0, 0, 0);
+exceptionDay.ToDate = new DateTime(2020, 4, 30, 0, 0, 0);
+exceptionDay.DayWorking = false;
+calendar.WeekDays.Add(exceptionDay);
+
+// verifique las fechas de inicio y fin del día de excepción
+Console.WriteLine("The from date is: " + exceptionDay.FromDate);
+Console.WriteLine("The to date is: " + exceptionDay.ToDate);
+Console.WriteLine();
+
+calendar.WeekDays.Add(new WeekDay(DayType.Saturday));
+calendar.WeekDays.Add(new WeekDay(DayType.Sunday));
+
+// Establecer el viernes como día laborable corto
+
+// Establece el tiempo laborable.
+var workingTimes = new List<WorkingTime> { new WorkingTime(9, 12), new WorkingTime(13, 16) };
+
+// existe una forma de convertir <see cref=\"DayOfWeek\" /> a <see cref=\"Aspose.Tasks.DayType\" />.
+var dayType = WeekDay.CastToDayType(DayOfWeek.Friday);
+
+var weekDay = new WeekDay(dayType, workingTimes);
+weekDay.DayWorking = true;
+Console.WriteLine("The day type is: " + weekDay.DayType);
+Console.WriteLine("The from date is: " + weekDay.FromDate);
+Console.WriteLine("The to date is: " + weekDay.ToDate);
+
+calendar.WeekDays.Add(weekDay);
+
+// imprimamos todos los tiempos de trabajo
+foreach (var day in calendar.WeekDays)
+{
+    Console.WriteLine("Day Type: " + day.DayType); 
+    Console.WriteLine("Is working day: " + day.DayWorking); 
+    Console.WriteLine("Working Time (Hours): " + day.GetWorkingTime().TotalHours);
+    Console.WriteLine();
+}
+```
 
 ### Ver también
 
 * enum [DayType](../../daytype/)
 * class [WeekDay](../)
-* espacio de nombres [Aspose.Tasks](../../weekday/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weekday/)
+* assembly [Aspose.Tasks](../../../)
 
 

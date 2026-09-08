@@ -1,28 +1,90 @@
 ---
-title: GroupCollection.ToList
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: GroupCollection método. Convierte una colección de grupo en una lista deGroup objetos.
+title: "GroupCollection.ToList"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método GroupCollection. Convierte una colección de grupos en una lista de objetos Group."
 type: docs
 weight: 90
 url: /es/net/aspose.tasks/groupcollection/tolist/
 ---
 ## GroupCollection.ToList method
 
-Convierte una colección de grupo en una lista de[`Group`](../../group/) objetos.
+Convierte una colección de grupos en una lista de objetos [`Group`](../../group/).
 
 ```csharp
 public List<Group> ToList()
 ```
 
-### Valor_devuelto
+### Valor devuelto
 
-lista genérica de[`Group`](../../group/) objetos.
+Lista genérica de objetos [`Group`](../../group/).
+
+## Ejemplos
+
+Muestra cómo trabajar con una colección de grupos.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+// iterar sobre grupos de tareas
+Console.WriteLine("Print task groups of {0} project: ", project.Get(Prj.Name));
+Console.WriteLine("Task Group Count: " + project.TaskGroups.Count);
+foreach (var group in project.TaskGroups)
+{
+    Console.WriteLine("Name: " + group.Name);
+    Console.WriteLine("Show In Menu: " + group.ShowInMenu);
+    Console.WriteLine();
+}
+
+// iterar sobre grupos de recursos
+Console.WriteLine("Project resource group count: " + project.ResourceGroups.Count);
+foreach (var group in project.ResourceGroups)
+{
+    Console.WriteLine("Resource group Name: " + group.Name);
+    Console.WriteLine("Resource group ShowInMenu" + group.ShowInMenu);
+}
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// limpiar los grupos del otro proyecto
+otherProject.TaskGroups.Clear();
+
+// copiar grupos a otro proyecto
+var groups = new Group[project.TaskGroups.Count];
+project.TaskGroups.CopyTo(groups, 0);
+
+foreach (var group in groups)
+{
+    otherProject.TaskGroups.Add(group);
+}
+
+// agregar grupo de tareas personalizado
+var customGroup = new Group
+{
+    Name = "Custom Group",
+    ShowInMenu = true
+};
+
+if (!otherProject.TaskGroups.Contains(customGroup))
+{
+    if (!otherProject.TaskGroups.IsReadOnly)
+    {
+        otherProject.TaskGroups.Add(customGroup);
+    }
+}
+
+// eliminar todos los grupos
+List<Group> groupsToDelete = otherProject.TaskGroups.ToList();
+foreach (var group in groupsToDelete)
+{
+    otherProject.TaskGroups.Remove(group);
+}
+```
 
 ### Ver también
 
 * class [Group](../../group/)
 * class [GroupCollection](../)
-* espacio de nombres [Aspose.Tasks](../../groupcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

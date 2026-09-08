@@ -1,17 +1,31 @@
 ---
-title: Tsk.LevelAssignments
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. Determina si la función de nivelación puede retrasar y dividir asignaciones individuales para resolver asignaciones excesivas.
+title: "Tsk.LevelAssignments"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. Determina si la función de nivelación puede retrasar y dividir asignaciones individuales para resolver sobreasignaciones"
 type: docs
-weight: 760
+weight: 750
 url: /es/net/aspose.tasks/tsk/levelassignments/
 ---
 ## Tsk.LevelAssignments field
 
-Determina si la función de nivelación puede retrasar y dividir asignaciones individuales para resolver asignaciones excesivas.
+Determina si la función de nivelación puede retrasar y dividir asignaciones individuales para resolver sobreasignaciones.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> LevelAssignments;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.LevelAssignments.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelAssignments, true);
+
+Console.WriteLine("Level Assignments: " + task.Get(Tsk.LevelAssignments));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<NullableBool, TaskKey> LevelAssignments;
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

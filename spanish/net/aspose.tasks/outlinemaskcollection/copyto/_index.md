@@ -1,29 +1,90 @@
 ---
-title: OutlineMaskCollection.CopyTo
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: OutlineMaskCollection método. Copia los elementos de esta colección en la matriz especificada comenzando en el índice de matriz especificado.
+title: "OutlineMaskCollection.CopyTo"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método OutlineMaskCollection. Copia los elementos de esta colección al arreglo especificado comenzando en el índice de arreglo especificado"
 type: docs
 weight: 70
 url: /es/net/aspose.tasks/outlinemaskcollection/copyto/
 ---
 ## OutlineMaskCollection.CopyTo method
 
-Copia los elementos de esta colección en la matriz especificada, comenzando en el índice de matriz especificado.
+Copia los elementos de esta colección al array especificado, comenzando en el índice de array especificado.
 
 ```csharp
 public void CopyTo(OutlineMask[] array, int arrayIndex)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | OutlineMask[] | la matriz unidimensional especificada para copiar elementos a |
-| arrayIndex | Int32 | el índice de base cero de la matriz especificada en la que comienza la copia. |
+| arreglo | OutlineMask[] | el arreglo unidimensional especificado al que copiar los elementos |
+| arrayIndex | Int32 | el índice basado en cero del arreglo especificado en el que comienza la copia. |
+
+## Ejemplos
+
+Muestra cómo trabajar con colecciones de máscaras de contorno.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = project.OutlineCodes[0];
+
+// borrar máscaras de contorno
+if (outline.Masks.Count > 0)
+{
+    if (!outline.Masks.IsReadOnly)
+    {
+        outline.Masks.Clear();
+    }
+}
+
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+var maskWrong = new OutlineMask();
+maskWrong.Type = MaskType.Null;
+
+outline.Masks.Add(mask);
+
+// insertar una máscara incorrecta
+outline.Masks.Insert(0, maskWrong);
+
+// editar la máscara usando acceso por índice de la colección
+var idx = outline.Masks.IndexOf(mask);
+outline.Masks[idx].Length = 2;
+
+// eliminar una máscara incorrecta por índice
+var idxOfWrong = outline.Masks.IndexOf(maskWrong);
+outline.Masks.RemoveAt(idxOfWrong);
+
+// iterar sobre máscaras
+foreach (var outlineMask in outline.Masks)
+{
+    Console.WriteLine("Length: " + outlineMask.Length);
+    Console.WriteLine("Level: " + outlineMask.Level);
+    Console.WriteLine("Separator: " + outlineMask.Separator);
+    Console.WriteLine("Type: " + outlineMask.Type);
+}
+
+var otherProject = new Project(DataDir + "OutlineValues2010.mpp");
+
+var otherOutline = otherProject.OutlineCodes[0];
+
+var masks = new OutlineMask[outline.Masks.Count];
+outline.Masks.CopyTo(masks, 0);
+
+foreach (var maskToAdd in masks)
+{
+    if (!otherOutline.Masks.Contains(maskToAdd))
+    {
+        otherOutline.Masks.Add(maskToAdd);
+    }
+}
+```
 
 ### Ver también
 
 * class [OutlineMask](../../outlinemask/)
 * class [OutlineMaskCollection](../)
-* espacio de nombres [Aspose.Tasks](../../outlinemaskcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinemaskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

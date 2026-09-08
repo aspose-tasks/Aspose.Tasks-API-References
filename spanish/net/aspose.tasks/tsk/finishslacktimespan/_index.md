@@ -1,17 +1,29 @@
 ---
-title: Tsk.FinishSlackTimeSpan
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. La duración entre las fechas de finalización anticipada y finalización tardía.
+title: "Tsk.FinishSlackTimeSpan"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. La duración entre las fechas de Finalización Temprana y Finalización Tardía"
 type: docs
-weight: 410
+weight: 400
 url: /es/net/aspose.tasks/tsk/finishslacktimespan/
 ---
 ## Tsk.FinishSlackTimeSpan field
 
-La duración entre las fechas de finalización anticipada y finalización tardía.
+La duración entre las fechas de Finalización Temprana y Finalización Tardía.
 
 ```csharp
 public static readonly Key<TimeSpan, TaskKey> FinishSlackTimeSpan;
+```
+
+## Ejemplos
+
+Muestra cómo leer la propiedad Tsk.FinishSlackTimeSpan. La propiedad se calcula, por lo que normalmente no es necesario establecerla explícitamente.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Finish Slack: " + task.Get(Tsk.FinishSlackTimeSpan));
 ```
 
 ### Ver también
@@ -19,7 +31,7 @@ public static readonly Key<TimeSpan, TaskKey> FinishSlackTimeSpan;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

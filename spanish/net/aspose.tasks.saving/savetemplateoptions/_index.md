@@ -1,9 +1,9 @@
 ---
-title: Class SaveTemplateOptions
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Saving.SaveTemplateOptions clase. Permite especificar opciones adicionales al guardar un proyecto como plantilla.
+title: "Clase SaveTemplateOptions"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Saving.SaveTemplateOptions. Permite especificar opciones adicionales al guardar un proyecto como plantilla"
 type: docs
-weight: 1930
+weight: 2200
 url: /es/net/aspose.tasks.saving/savetemplateoptions/
 ---
 ## SaveTemplateOptions class
@@ -18,20 +18,53 @@ public class SaveTemplateOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [SaveTemplateOptions](savetemplateoptions/)() | Constructor predeterminado |
+| [SaveTemplateOptions](savetemplateoptions/)() | El constructor predeterminado. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
 | [RemoveActualValues](../../aspose.tasks.saving/savetemplateoptions/removeactualvalues/) { get; set; } | Obtiene o establece un valor que indica si se deben eliminar todos los valores reales de una plantilla de proyecto. |
-| [RemoveBaselineValues](../../aspose.tasks.saving/savetemplateoptions/removebaselinevalues/) { get; set; } | Obtiene o establece un valor que indica si se deben eliminar todos los valores de línea base de una plantilla de proyecto. |
+| [RemoveBaselineValues](../../aspose.tasks.saving/savetemplateoptions/removebaselinevalues/) { get; set; } | Obtiene o establece un valor que indica si se deben eliminar todos los valores de referencia de una plantilla de proyecto. |
 | [RemoveFixedCosts](../../aspose.tasks.saving/savetemplateoptions/removefixedcosts/) { get; set; } | Obtiene o establece un valor que indica si se deben eliminar todos los costos fijos de una plantilla de proyecto. |
-| [RemoveResourceRates](../../aspose.tasks.saving/savetemplateoptions/removeresourcerates/) { get; set; } | Obtiene o establece un valor que indica si se deben eliminar las tasas de recursos de una plantilla de proyecto. |
+| [RemoveResourceRates](../../aspose.tasks.saving/savetemplateoptions/removeresourcerates/) { get; set; } | Obtiene o establece un valor que indica si se deben eliminar las tarifas de recursos de una plantilla de proyecto. |
+
+## Ejemplos
+
+Muestra cómo guardar un proyecto como plantilla usando opciones.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "EstimatedMilestoneTasks.mpp");
+
+Console.WriteLine("Project File Format: " + projectFileInfo.ProjectFileFormat);
+
+// crear opciones de guardado de plantilla
+// y ajustar sus propiedades
+var options = new SaveTemplateOptions
+{
+    // establecer un valor que indique si se deben eliminar todos los costos fijos de una plantilla de proyecto
+    RemoveFixedCosts = true,
+
+    // establecer un valor que indique si se deben eliminar todos los valores reales de una plantilla de proyecto
+    RemoveActualValues = true,
+
+    // establecer un valor que indique si se deben eliminar las tarifas de recursos de una plantilla de proyecto
+    RemoveResourceRates = true,
+
+    // establecer un valor que indique si se deben eliminar todos los valores de referencia de una plantilla de proyecto
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(DataDir + "SaveProjectDataAsTemplate_out.mpt");
+Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

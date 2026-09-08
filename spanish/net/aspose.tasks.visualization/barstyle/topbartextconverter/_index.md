@@ -1,14 +1,14 @@
 ---
-title: BarStyle.TopBarTextConverter
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: BarStyle propiedad. Obtiene o establece un convertidor definido por el usuario para que el texto se represente en la parte superior de la barra de la tarea. Anula el valor deTopField propiedad.
+title: "BarStyle.TopBarTextConverter"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad BarStyle. Obtiene o establece el convertidor definido por el usuario para obtener el texto que se mostrará en la parte superior de la barra de tareas. Sobrescribe el valor de la propiedad TopField."
 type: docs
-weight: 180
+weight: 220
 url: /es/net/aspose.tasks.visualization/barstyle/topbartextconverter/
 ---
 ## BarStyle.TopBarTextConverter property
 
-Obtiene o establece un convertidor definido por el usuario para que el texto se represente en la parte superior de la barra de la tarea. Anula el valor de[`TopField`](../topfield/) propiedad.
+Obtiene o establece el convertidor definido por el usuario para obtener el texto que se mostrará en la parte superior de la barra de la tarea. Anula el valor de la propiedad [`TopField`](../topfield/).
 
 ```csharp
 public TaskBarTextConverter TopBarTextConverter { get; set; }
@@ -18,7 +18,7 @@ public TaskBarTextConverter TopBarTextConverter { get; set; }
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../barstyle/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

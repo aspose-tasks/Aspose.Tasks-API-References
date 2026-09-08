@@ -1,7 +1,7 @@
 ---
-title: GanttChartColumn.GanttChartColumn
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: GanttChartColumn constructor. Inicializa una nueva instancia de la clase GanttChartColumn.
+title: "GanttChartColumn.GanttChartColumn"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor de GanttChartColumn. Inicializa una nueva instancia de la clase GanttChartColumn"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks.visualization/ganttchartcolumn/ganttchartcolumn/
@@ -14,20 +14,72 @@ Inicializa una nueva instancia de la clase GanttChartColumn.
 public GanttChartColumn(string name, int width, TaskToColumnTextConverter converter, Field field)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la columna. |
-| width | Int32 | Ancho de la columna en píxeles. |
-| converter | TaskToColumnTextConverter | Conversor de datos de tareas a texto de columnas. |
-| field | Field | Campo de columna. |
+| nombre | Cadena | Nombre de la columna. |
+| ancho | Int32 | Ancho de la columna en píxeles. |
+| convertidor | TaskToColumnTextConverter | Convertidor de datos de tarea a texto de columna. |
+| campo | Campo | Campo de columna. |
+
+## Ejemplos
+
+Muestra cómo agregar columnas de vista de diagrama de Gantt para exportar.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+
+// iterar sobre columnas
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
+}
+
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+
+project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
+```
 
 ### Ver también
 
 * delegate [TaskToColumnTextConverter](../../tasktocolumntextconverter/)
 * enum [Field](../../../aspose.tasks/field/)
 * class [GanttChartColumn](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -39,18 +91,70 @@ Inicializa una nueva instancia de la clase GanttChartColumn.
 public GanttChartColumn(string name, int width, TaskToColumnTextConverter converter)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la columna. |
-| width | Int32 | Ancho de la columna en píxeles. |
-| converter | TaskToColumnTextConverter | Conversor de datos de tareas a texto de columnas. |
+| nombre | Cadena | Nombre de la columna. |
+| ancho | Int32 | Ancho de la columna en píxeles. |
+| convertidor | TaskToColumnTextConverter | Convertidor de datos de tarea a texto de columna. |
+
+## Ejemplos
+
+Muestra cómo agregar columnas de vista de diagrama de Gantt para exportar.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+
+// iterar sobre columnas
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
+}
+
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+
+project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
+```
 
 ### Ver también
 
 * delegate [TaskToColumnTextConverter](../../tasktocolumntextconverter/)
 * class [GanttChartColumn](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -62,17 +166,69 @@ Inicializa una nueva instancia de la clase GanttChartColumn.
 public GanttChartColumn(int width, Field field)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| width | Int32 | Ancho de columna en píxeles. |
-| field | Field | Campo de columna. |
+| ancho | Int32 | Ancho de columna en píxeles. |
+| campo | Campo | Campo de columna. |
+
+## Ejemplos
+
+Muestra cómo agregar columnas de vista de diagrama de Gantt para exportar.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+
+// iterar sobre columnas
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
+}
+
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+
+project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
+```
 
 ### Ver también
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [GanttChartColumn](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -84,17 +240,69 @@ Inicializa una nueva instancia de la clase GanttChartColumn.
 public GanttChartColumn(string name, int width, Field field)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la columna. |
-| width | Int32 | Ancho de columna en píxeles. |
-| field | Field | Campo de columna. |
+| nombre | Cadena | Nombre de la columna. |
+| ancho | Int32 | Ancho de columna en píxeles. |
+| campo | Campo | Campo de columna. |
+
+## Ejemplos
+
+Muestra cómo agregar columnas de vista de diagrama de Gantt para exportar.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+
+// iterar sobre columnas
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
+}
+
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+
+project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
+```
 
 ### Ver también
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [GanttChartColumn](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

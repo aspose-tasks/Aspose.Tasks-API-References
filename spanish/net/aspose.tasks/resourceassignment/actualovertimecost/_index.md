@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ActualOvertimeCost
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de ActualOvertimeCost.
+title: "ResourceAssignment.ActualOvertimeCost"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de ActualOvertimeCost"
 type: docs
 weight: 30
 url: /es/net/aspose.tasks/resourceassignment/actualovertimecost/
@@ -17,7 +17,7 @@ public decimal ActualOvertimeCost { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

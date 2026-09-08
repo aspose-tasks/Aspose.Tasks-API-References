@@ -1,17 +1,31 @@
 ---
-title: Tsk.FinishVariance
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. La hora que representa la diferencia entre la fecha de finalización de referencia de una tarea o asignación y su fecha de finalización actual.
+title: "Tsk.FinishVariance"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. El tiempo que representa la diferencia entre la fecha de finalización de la línea base de una tarea o asignación y su fecha de finalización actual"
 type: docs
-weight: 430
+weight: 420
 url: /es/net/aspose.tasks/tsk/finishvariance/
 ---
 ## Tsk.FinishVariance field
 
-La hora que representa la diferencia entre la fecha de finalización de referencia de una tarea o asignación y su fecha de finalización actual.
+El tiempo que representa la diferencia entre la fecha de finalización de referencia de una tarea o asignación y su fecha de finalización actual.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> FinishVariance;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.FinishVariance.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.FinishVariance, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Finish Variance: " + task.Get(Tsk.FinishVariance));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<Duration, TaskKey> FinishVariance;
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

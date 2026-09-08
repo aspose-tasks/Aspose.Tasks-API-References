@@ -1,9 +1,9 @@
 ---
-title: Enum WeekLabelDisplay
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.WeekLabelDisplay enumeración. Especifica cómo se muestra la etiqueta de la semana.
+title: "Enum WeekLabelDisplay"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Aspose.Tasks.WeekLabelDisplay enum. Especifica cómo se muestra la etiqueta de la semana"
 type: docs
-weight: 3200
+weight: 3560
 url: /es/net/aspose.tasks/weeklabeldisplay/
 ---
 ## WeekLabelDisplay enumeration
@@ -18,13 +18,27 @@ public enum WeekLabelDisplay
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| W | `0` | etiqueta "w". |
-| Wk | `1` | etiqueta "semana". |
-| Week | `2` | etiqueta "semana". |
+| W | `0` | "w" etiqueta. |
+| Wk | `1` | "wk" etiqueta. |
+| Week | `2` | "week" etiqueta. |
+
+## Ejemplos
+
+Muestra cómo establecer la etiqueta de semana de las opciones de visualización del proyecto (caso 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// establece cómo se muestra la etiqueta de la semana
+project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
+
+// ...
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

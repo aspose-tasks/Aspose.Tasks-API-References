@@ -1,14 +1,14 @@
 ---
-title: Project.InsertedProjectsLikeSummary
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor que indica si InsertedProjectsLikeSummary está establecido o no.
+title: "Project.InsertedProjectsLikeSummary"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor que indica si InsertedProjectsLikeSummary está establecido o no"
 type: docs
-weight: 480
+weight: 500
 url: /es/net/aspose.tasks/project/insertedprojectslikesummary/
 ---
 ## Project.InsertedProjectsLikeSummary property
 
-Obtiene o establece un valor que indica si InsertedProjectsLikeSummary está establecido o no.
+Obtiene o establece un valor que indica si InsertedProjectsLikeSummary está configurado o no.
 
 ```csharp
 public NullableBool InsertedProjectsLikeSummary { get; set; }
@@ -18,7 +18,7 @@ public NullableBool InsertedProjectsLikeSummary { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

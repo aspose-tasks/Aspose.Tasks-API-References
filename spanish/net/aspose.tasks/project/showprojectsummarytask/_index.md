@@ -1,9 +1,9 @@
 ---
-title: Project.ShowProjectSummaryTask
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor que indica si ShowProjectSummaryTask está configurado o no.
+title: "Project.ShowProjectSummaryTask"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Project. Obtiene o establece un valor que indica si ShowProjectSummaryTask está configurado o no."
 type: docs
-weight: 800
+weight: 830
 url: /es/net/aspose.tasks/project/showprojectsummarytask/
 ---
 ## Project.ShowProjectSummaryTask property
@@ -17,7 +17,7 @@ public bool ShowProjectSummaryTask { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

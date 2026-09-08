@@ -1,17 +1,39 @@
 ---
-title: Prj.CurrencySymbolPosition
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. La ubicación del símbolo de moneda.
+title: "Prj.CurrencySymbolPosition"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. La ubicación del símbolo de moneda"
 type: docs
-weight: 170
+weight: 180
 url: /es/net/aspose.tasks/prj/currencysymbolposition/
 ---
 ## Prj.CurrencySymbolPosition field
 
-La ubicación del símbolo de moneda.
+La posición del símbolo de moneda.
 
 ```csharp
 public static readonly Key<CurrencySymbolPositionType, PrjKey> CurrencySymbolPosition;
+```
+
+## Ejemplos
+
+Muestra cómo escribir las propiedades de moneda del proyecto.
+
+```csharp
+var project = new Project(DataDir + "WriteCurrencyProperties.mpp");
+
+// Establecer propiedades de moneda
+project.Set(Prj.CurrencyCode, "AUD");
+project.Set(Prj.CurrencyDigits, 2);
+project.Set(Prj.CurrencySymbol, "$");
+project.Set(Prj.CurrencySymbolPosition, CurrencySymbolPositionType.After);
+
+// Mostrar propiedades de moneda
+Console.WriteLine("Currency Code: " + project.Get(Prj.CurrencyCode));
+Console.WriteLine("Currency Digits: " + project.Get(Prj.CurrencyDigits));
+Console.WriteLine("Currency Symbol: " + project.Get(Prj.CurrencySymbol));
+Console.WriteLine("Currency Symbol Position: " + project.Get(Prj.CurrencySymbolPosition));
+
+project.Save(OutDir + "WriteCurrencyProperties_out.xml", SaveFileFormat.Xml);
 ```
 
 ### Ver también
@@ -20,7 +42,7 @@ public static readonly Key<CurrencySymbolPositionType, PrjKey> CurrencySymbolPos
 * enum [CurrencySymbolPositionType](../../currencysymbolpositiontype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

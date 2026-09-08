@@ -1,7 +1,7 @@
 ---
-title: Resource.IsCostResource
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor que indica si IsCostResource está establecido o no.
+title: "Resource.IsCostResource"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor que indica si IsCostResource está establecido o no"
 type: docs
 weight: 430
 url: /es/net/aspose.tasks/resource/iscostresource/
@@ -18,7 +18,7 @@ public NullableBool IsCostResource { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

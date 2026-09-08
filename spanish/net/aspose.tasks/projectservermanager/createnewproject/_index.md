@@ -1,22 +1,22 @@
 ---
-title: ProjectServerManager.CreateNewProject
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ProjectServerManager método. Crea un nuevo proyecto en la instancia de Project ServerProject Online usando las opciones de guardado predeterminadas.
+title: "ProjectServerManager.CreateNewProject"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ProjectServerManager. Crea un nuevo proyecto en la instancia de Project Server/Project Online usando las opciones de guardado predeterminadas."
 type: docs
 weight: 30
 url: /es/net/aspose.tasks/projectservermanager/createnewproject/
 ---
 ## CreateNewProject(Project) {#createnewproject}
 
-Crea un nuevo proyecto en la instancia de Project Server\Project Online usando las opciones de guardado predeterminadas.
+Crea un nuevo proyecto en la instancia Project Server\Project Online usando las opciones de guardado predeterminadas.
 
 ```csharp
 public void CreateNewProject(Project project)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| project | Project | El proyecto que se guardará en la instancia de Project Server\Project Online. |
+| project | Project | El proyecto a guardar en la instancia de Project Server\\Project Online. |
 
 ### Excepciones
 
@@ -24,39 +24,61 @@ public void CreateNewProject(Project project)
 | --- | --- |
 | [ProjectOnlineException](../../projectonlineexception/) | En caso de error de comunicación o error devuelto por un servidor. |
 
-### Ejemplos
+## Ejemplos
 
 En este ejemplo, el proyecto se carga desde un archivo .mpp y se guarda en la cuenta de Project Online.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "contraseña");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project);
+```
+
+Muestra cómo usar ProjectServerManager para crear un nuevo proyecto en Microsoft Project Online.
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
 ```
 
 ### Ver también
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* espacio de nombres [Aspose.Tasks](../../projectservermanager/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateNewProject(Project, ProjectServerSaveOptions) {#createnewproject_1}
 
-Crea un nuevo proyecto en la instancia de Project Server\Project Online usando las opciones de guardado especificadas.
+Crea un nuevo proyecto en la instancia de Project Server\\Project Online usando las opciones de guardado especificadas.
 
 ```csharp
 public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptions)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| project | Project | El proyecto que se guardará en la instancia de Project Server\Project Online. |
-| saveOptions | ProjectServerSaveOptions | En vez de[`ProjectServerSaveOptions`](../../projectserversaveoptions/) clase. |
+| project | Project | El proyecto a guardar en la instancia de Project Server\\Project Online. |
+| saveOptions | ProjectServerSaveOptions | Instancia de la clase [`ProjectServerSaveOptions`](../../projectserversaveoptions/). |
 
 ### Excepciones
 
@@ -64,13 +86,13 @@ public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptio
 | --- | --- |
 | [ProjectOnlineException](../../projectonlineexception/) | En caso de error de comunicación o error devuelto por un servidor. |
 
-### Ejemplos
+## Ejemplos
 
 En este ejemplo, el proyecto se carga desde un archivo .mpp y se guarda en la cuenta de Project Online.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "contraseña");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project, new ProjectServerSaveOptions
@@ -79,12 +101,38 @@ manager.CreateNewProject(project, new ProjectServerSaveOptions
 });
 ```
 
+Muestra cómo usar el administrador de Project Server para crear un nuevo proyecto con opciones de guardado predefinidas en Microsoft Project Online.
+
+```csharp
+try
+{
+    const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    var options = new ProjectServerSaveOptions
+    {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
 ### Ver también
 
 * class [Project](../../project/)
 * class [ProjectServerSaveOptions](../../projectserversaveoptions/)
 * class [ProjectServerManager](../)
-* espacio de nombres [Aspose.Tasks](../../projectservermanager/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 

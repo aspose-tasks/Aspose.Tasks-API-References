@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.BookingType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de BookingType.
+title: "ResourceAssignment.BookingType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de BookingType"
 type: docs
 weight: 150
 url: /es/net/aspose.tasks/resourceassignment/bookingtype/
@@ -18,7 +18,7 @@ public BookingType BookingType { get; set; }
 
 * enum [BookingType](../../bookingtype/)
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

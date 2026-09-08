@@ -1,23 +1,36 @@
 ---
-title: Duration.TimeSpan
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Duration propiedad. ObtieneTimeSpan instancia de este objeto Duration. La instancia TimeSpan de este objeto Duration.
+title: "Duration.TimeSpan"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Duration. Obtiene la instancia TimeSpan de este objeto Duration. La instancia TimeSpan de este objeto Duration"
 type: docs
 weight: 40
 url: /es/net/aspose.tasks/duration/timespan/
 ---
 ## Duration.TimeSpan property
 
-Obtiene`TimeSpan` instancia de este objeto Duration. La instancia TimeSpan de este objeto Duration.
+Obtiene la instancia `TimeSpan` de este objeto Duration. La instancia TimeSpan de este objeto Duration.
 
 ```csharp
 public TimeSpan TimeSpan { get; }
 ```
 
+## Ejemplos
+
+Muestra cómo convertir una duración a un TimeSpan.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// obtener la duración de la tarea
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("Time span of duration: " + duration.TimeSpan);
+```
+
 ### Ver también
 
 * struct [Duration](../)
-* espacio de nombres [Aspose.Tasks](../../duration/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

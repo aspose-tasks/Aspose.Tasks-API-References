@@ -1,17 +1,29 @@
 ---
-title: Prj.MultipleCriticalPaths
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si se calculan varias rutas críticas.
+title: "Prj.MultipleCriticalPaths"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si se calculan múltiples rutas críticas"
 type: docs
-weight: 520
+weight: 530
 url: /es/net/aspose.tasks/prj/multiplecriticalpaths/
 ---
 ## Prj.MultipleCriticalPaths field
 
-Determina si se calculan varias rutas críticas.
+Determina si se calculan múltiples rutas críticas.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MultipleCriticalPaths;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.MultipleCriticalPaths.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MultipleCriticalPaths, true);
+
+Console.WriteLine("Multiple Critical Paths: " + project.Get(Prj.MultipleCriticalPaths));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> MultipleCriticalPaths;
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

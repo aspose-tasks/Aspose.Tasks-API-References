@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Work
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de Work.
+title: "ResourceAssignment.Work"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de Work"
 type: docs
 weight: 650
 url: /es/net/aspose.tasks/resourceassignment/work/
@@ -18,7 +18,7 @@ public Duration Work { get; set; }
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

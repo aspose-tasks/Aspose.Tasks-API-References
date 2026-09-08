@@ -1,14 +1,14 @@
 ---
-title: BarStyle.InsideBarTextConverter
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: BarStyle propiedad. Obtiene o establece un convertidor definido por el usuario para obtener texto para representar dentro de la barra de la tarea. Anula el valor deInsideField propiedad.
+title: "BarStyle.InsideBarTextConverter"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad BarStyle. Obtiene o establece un convertidor definido por el usuario para obtener el texto que se renderizará dentro de la barra de tareas. Sobrescribe el valor de la propiedad InsideField"
 type: docs
-weight: 80
+weight: 100
 url: /es/net/aspose.tasks.visualization/barstyle/insidebartextconverter/
 ---
 ## BarStyle.InsideBarTextConverter property
 
-Obtiene o establece un convertidor definido por el usuario para obtener texto para representar dentro de la barra de la tarea. Anula el valor de[`InsideField`](../insidefield/) propiedad.
+Obtiene o establece un convertidor definido por el usuario para obtener el texto que se renderizará dentro de la barra de la tarea. Anula el valor de la propiedad [`InsideField`](../insidefield/).
 
 ```csharp
 public TaskBarTextConverter InsideBarTextConverter { get; set; }
@@ -18,7 +18,7 @@ public TaskBarTextConverter InsideBarTextConverter { get; set; }
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../barstyle/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

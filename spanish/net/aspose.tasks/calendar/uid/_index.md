@@ -1,9 +1,9 @@
 ---
-title: Calendar.Uid
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Calendar propiedad. Obtiene o establece el identificador único del calendario.
+title: "Calendar.Uid"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Calendar. Obtiene o establece el identificador único del calendario"
 type: docs
-weight: 90
+weight: 110
 url: /es/net/aspose.tasks/calendar/uid/
 ---
 ## Calendar.Uid property
@@ -14,10 +14,30 @@ Obtiene o establece el identificador único del calendario.
 public int Uid { get; set; }
 ```
 
+## Ejemplos
+
+Muestra cómo recuperar la información del calendario.
+
+```csharp
+var project = new Project(DataDir + "RetrieveCalendarInfo.mpp");
+
+// Recuperar información de los calendarios
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Calendar UID: " + calendar.Uid);
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
 ### Ver también
 
 * class [Calendar](../)
-* espacio de nombres [Aspose.Tasks](../../calendar/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

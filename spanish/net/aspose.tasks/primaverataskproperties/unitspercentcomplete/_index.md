@@ -1,14 +1,14 @@
 ---
-title: PrimaveraTaskProperties.UnitsPercentComplete
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraTaskProperties propiedad. Obtiene el valor de unidades por ciento completado.
+title: "PrimaveraTaskProperties.UnitsPercentComplete"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad PrimaveraTaskProperties. Obtiene el valor del porcentaje de unidades completado"
 type: docs
-weight: 170
+weight: 360
 url: /es/net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 ---
 ## PrimaveraTaskProperties.UnitsPercentComplete property
 
-Obtiene el valor de unidades por ciento completado.
+Obtiene el valor del porcentaje de unidades completadas.
 
 ```csharp
 public double UnitsPercentComplete { get; }
@@ -17,7 +17,7 @@ public double UnitsPercentComplete { get; }
 ### Ver también
 
 * class [PrimaveraTaskProperties](../)
-* espacio de nombres [Aspose.Tasks](../../primaverataskproperties/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

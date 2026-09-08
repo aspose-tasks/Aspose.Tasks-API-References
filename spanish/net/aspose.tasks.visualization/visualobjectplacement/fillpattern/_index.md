@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.FillPattern
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: VisualObjectPlacement propiedad. Obtiene o establece el patrón de relleno.
+title: "VisualObjectPlacement.FillPattern"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "propiedad VisualObjectPlacement. Obtiene o establece el patrón de relleno"
 type: docs
 weight: 60
 url: /es/net/aspose.tasks.visualization/visualobjectplacement/fillpattern/
@@ -18,7 +18,7 @@ public FillPattern FillPattern { get; set; }
 
 * enum [FillPattern](../../fillpattern/)
 * class [VisualObjectPlacement](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

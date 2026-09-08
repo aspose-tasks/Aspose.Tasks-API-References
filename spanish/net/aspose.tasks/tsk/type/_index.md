@@ -1,9 +1,9 @@
 ---
-title: Tsk.Type
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. El tipo de una tarea.
+title: "Tsk.Type"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. El tipo de una tarea"
 type: docs
-weight: 1120
+weight: 1100
 url: /es/net/aspose.tasks/tsk/type/
 ---
 ## Tsk.Type field
@@ -14,13 +14,27 @@ El tipo de una tarea.
 public static readonly Key<TaskType, TaskKey> Type;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.Type.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Type, TaskType.FixedDuration);
+
+Console.WriteLine("Type: " + task.Get(Tsk.Type));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskType](../../tasktype/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

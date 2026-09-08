@@ -1,17 +1,29 @@
 ---
-title: Prj.ActualsInSync
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si todos los trabajos reales se han sincronizado con el proyecto.
+title: "Prj.ActualsInSync"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si todo el trabajo real ha sido sincronizado con el proyecto"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/prj/actualsinsync/
 ---
 ## Prj.ActualsInSync field
 
-Determina si todos los trabajos reales se han sincronizado con el proyecto.
+Determina si todo el trabajo real ha sido sincronizado con el proyecto.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> ActualsInSync;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.ActualsInSync.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ActualsInSync, true);
+
+Console.WriteLine("Actuals In Sync: " + project.Get(Prj.ActualsInSync));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> ActualsInSync;
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

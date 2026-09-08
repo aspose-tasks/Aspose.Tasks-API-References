@@ -1,9 +1,9 @@
 ---
-title: Enum Month
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Month enumeración. Especifica el mes.
+title: "Enumeración Month"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enumeración Aspose.Tasks.Month. Especifica el mes"
 type: docs
-weight: 910
+weight: 1040
 url: /es/net/aspose.tasks/month/
 ---
 ## Month enumeration
@@ -18,7 +18,7 @@ public enum Month
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Undefined | `-1` | Indica que el valor no se definió en el archivo de proyecto original. |
+| Undefined | `-1` | Indica que el valor no estaba definido en el archivo de proyecto original. |
 | January | `0` | Indica el mes de enero. |
 | February | `1` | Indica el mes de febrero. |
 | March | `2` | Indica el mes de marzo. |
@@ -32,13 +32,38 @@ public enum Month
 | November | `10` | Indica el mes de noviembre. |
 | December | `11` | Indica el mes de diciembre. |
 
-### Observaciones
+## Observaciones
 
-Al exportar a XML, los valores no definidos se eliminarán del XML resultante.
+Al exportar a XML, los valores Undefined se eliminarán del XML resultante.
+
+## Ejemplos
+
+Muestra cómo trabajar con repeticiones de día del año al crear nuevas tareas recurrentes.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new YearlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByYearDayRepetition { DayPosition = 1, Month = Month.July },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2019, 7, 1, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

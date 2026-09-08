@@ -1,17 +1,31 @@
 ---
-title: Tsk.IsResumeValid
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. Determina si se puede reanudar una tarea.
+title: "Tsk.IsResumeValid"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. Determina si una tarea puede reanudarse"
 type: docs
-weight: 690
+weight: 680
 url: /es/net/aspose.tasks/tsk/isresumevalid/
 ---
 ## Tsk.IsResumeValid field
 
-Determina si se puede reanudar una tarea.
+Determina si una tarea puede reanudarse.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsResumeValid;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.IsResumeValid.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsResumeValid, true);
+
+Console.WriteLine("Is Resume Valid: " + task.Get(Tsk.IsResumeValid));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<NullableBool, TaskKey> IsResumeValid;
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

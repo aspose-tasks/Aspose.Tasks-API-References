@@ -1,7 +1,7 @@
 ---
-title: Resource.Id
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de Id.
+title: "Resource.Id"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del recurso. Obtiene o establece un valor de Id"
 type: docs
 weight: 390
 url: /es/net/aspose.tasks/resource/id/
@@ -17,7 +17,7 @@ public int Id { get; set; }
 ### Ver también
 
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

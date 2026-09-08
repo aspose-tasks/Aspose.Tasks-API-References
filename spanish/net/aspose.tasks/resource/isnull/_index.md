@@ -1,14 +1,14 @@
 ---
-title: Resource.IsNull
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor que indica si IsNull está establecido o no.
+title: "Resource.IsNull"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor que indica si IsNull está establecido o no"
 type: docs
 weight: 460
 url: /es/net/aspose.tasks/resource/isnull/
 ---
 ## Resource.IsNull property
 
-Obtiene o establece un valor que indica si IsNull está establecido o no.
+Obtiene o establece un valor que indica si IsNull está configurado o no.
 
 ```csharp
 public NullableBool IsNull { get; set; }
@@ -18,7 +18,7 @@ public NullableBool IsNull { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

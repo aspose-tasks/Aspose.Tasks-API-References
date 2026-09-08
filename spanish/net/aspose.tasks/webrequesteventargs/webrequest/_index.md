@@ -1,14 +1,14 @@
 ---
-title: WebRequestEventArgs.WebRequest
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: WebRequestEventArgs propiedad. Obtiene una solicitud web para enviarla a la API web de Project Server.
+title: "WebRequestEventArgs.WebRequest"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad WebRequestEventArgs. Obtiene una solicitud web para enviar a la API web de Project Servers"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/webrequesteventargs/webrequest/
 ---
 ## WebRequestEventArgs.WebRequest property
 
-Obtiene una solicitud web para enviarla a la API web de Project Server.
+Obtiene una solicitud web para enviar al API web del Project Server.
 
 ```csharp
 public HttpWebRequest WebRequest { get; }
@@ -17,7 +17,7 @@ public HttpWebRequest WebRequest { get; }
 ### Ver también
 
 * class [WebRequestEventArgs](../)
-* espacio de nombres [Aspose.Tasks](../../webrequesteventargs/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../webrequesteventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

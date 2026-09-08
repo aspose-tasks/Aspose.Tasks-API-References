@@ -1,14 +1,14 @@
 ---
-title: Project.Company
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de Empresa.
+title: "Project.Company"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Project. Obtiene o establece un valor de Company"
 type: docs
-weight: 150
+weight: 160
 url: /es/net/aspose.tasks/project/company/
 ---
 ## Project.Company property
 
-Obtiene o establece un valor de Empresa.
+Obtiene o establece un valor de Company.
 
 ```csharp
 public string Company { get; set; }
@@ -17,7 +17,7 @@ public string Company { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

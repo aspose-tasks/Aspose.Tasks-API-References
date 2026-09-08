@@ -1,27 +1,27 @@
 ---
-title: ReadOnlyCollectionBase1.Add
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ReadOnlyCollectionBase método. Esta es la implementación stub del método Add de ICollection que solo genera NotSupportedException
+title: "ReadOnlyCollectionBase1.Add"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ReadOnlyCollectionBase. Esta es la implementación de sustituto del método Add de ICollections que solo lanza NotSupportedException"
 type: docs
 weight: 30
 url: /es/net/aspose.tasks/readonlycollectionbase-1/add/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.Add method
 
-Esta es la implementación stub del método Add de ICollection, que solo genera NotSupportedException
+Esta es la implementación de referencia del método Add de ICollection, que solo lanza NotSupportedException
 
 ```csharp
 public void Add(T item)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| item | T | El elemento a agregar. |
+| elemento | T | El elemento a añadir. |
 
 ### Ver también
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* espacio de nombres [Aspose.Tasks](../../readonlycollectionbase-1/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

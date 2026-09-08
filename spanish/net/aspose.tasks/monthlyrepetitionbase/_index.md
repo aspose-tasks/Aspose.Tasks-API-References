@@ -1,9 +1,9 @@
 ---
-title: Class MonthlyRepetitionBase
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.MonthlyRepetitionBase clase. Representa un patrón base para la posición del día mensual.
+title: "Clase MonthlyRepetitionBase"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.MonthlyRepetitionBase. Representa un patrón base para la posición del día mensual."
 type: docs
-weight: 960
+weight: 1090
 url: /es/net/aspose.tasks/monthlyrepetitionbase/
 ---
 ## MonthlyRepetitionBase class
@@ -20,9 +20,34 @@ public abstract class MonthlyRepetitionBase
 | --- | --- |
 | [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval/) { get; set; } | Obtiene o establece un número de mes que representa el intervalo en meses entre ocurrencias. |
 
+## Ejemplos
+
+Muestra cómo trabajar con repeticiones de patrones de recurrencia mensual al crear tareas recurrentes.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new MonthlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByMonthDayRepetition { DayPosition = 1, RepetitionInterval = 2 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 9, 30, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

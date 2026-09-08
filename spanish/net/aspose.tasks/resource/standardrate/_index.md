@@ -1,9 +1,9 @@
 ---
-title: Resource.StandardRate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de StandardRate.
+title: "Resource.StandardRate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Resource. Obtiene o establece un valor de StandardRate"
 type: docs
-weight: 710
+weight: 700
 url: /es/net/aspose.tasks/resource/standardrate/
 ---
 ## Resource.StandardRate property
@@ -17,7 +17,7 @@ public decimal StandardRate { get; set; }
 ### Ver también
 
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

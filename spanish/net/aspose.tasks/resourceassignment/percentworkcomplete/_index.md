@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.PercentWorkComplete
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de PercentWorkComplete.
+title: "ResourceAssignment.PercentWorkComplete"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de PercentWorkComplete"
 type: docs
 weight: 440
 url: /es/net/aspose.tasks/resourceassignment/percentworkcomplete/
@@ -17,7 +17,7 @@ public int PercentWorkComplete { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

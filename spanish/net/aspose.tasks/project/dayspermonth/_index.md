@@ -1,9 +1,9 @@
 ---
-title: Project.DaysPerMonth
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de DaysPerMonth.
+title: "Project.DaysPerMonth"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor de DaysPerMonth"
 type: docs
-weight: 270
+weight: 280
 url: /es/net/aspose.tasks/project/dayspermonth/
 ---
 ## Project.DaysPerMonth property
@@ -17,7 +17,7 @@ public int DaysPerMonth { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

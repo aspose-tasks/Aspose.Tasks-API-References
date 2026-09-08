@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.FixedMaterial
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor que indica si FixedMaterial está establecido o no.
+title: "ResourceAssignment.FixedMaterial"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceAssignment. Obtiene o establece un valor que indica si FixedMaterial está configurado o no"
 type: docs
 weight: 280
 url: /es/net/aspose.tasks/resourceassignment/fixedmaterial/
@@ -17,7 +17,7 @@ public bool FixedMaterial { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

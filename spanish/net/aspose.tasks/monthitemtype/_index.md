@@ -1,14 +1,14 @@
 ---
-title: Enum MonthItemType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.MonthItemType enumeración. Especifica el elemento del mes para el que se programa una recurrencia de excepción.
+title: "Enum MonthItemType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enum Aspose.Tasks.MonthItemType. Especifica el elemento de mes para el cual se programa una recurrencia de excepción."
 type: docs
-weight: 920
+weight: 1050
 url: /es/net/aspose.tasks/monthitemtype/
 ---
 ## MonthItemType enumeration
 
-Especifica el elemento del mes para el que se programa una recurrencia de excepción.
+Especifica el elemento del mes para el cual se programa una recurrencia de excepción.
 
 ```csharp
 public enum MonthItemType
@@ -18,21 +18,49 @@ public enum MonthItemType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Undefined | `-1` | Indica un tipo de elemento de mes no definido. |
-| Day | `0` | Indica el tipo de elemento Día mes. |
-| Weekday | `1` | Indica el tipo de elemento del mes del día de la semana. |
-| WeekendDay | `2` | Indica el tipo de elemento del mes WeekendDay. |
-| Sunday | `3` | Indica el tipo de elemento del mes de domingo. |
-| Monday | `4` | Indica el tipo de elemento del mes del lunes. |
-| Tuesday | `5` | Indica el tipo de elemento del mes del martes. |
-| Wednesday | `6` | Indica el tipo de elemento del mes del miércoles. |
-| Thursday | `7` | Indica el tipo de elemento del mes del jueves. |
-| Friday | `8` | Indica el tipo de elemento del mes del viernes. |
-| Saturday | `9` | Indica el tipo de elemento del mes del sábado. |
+| Undefined | `-1` | Indica tipo de elemento de mes indefinido. |
+| Day | `0` | Indica tipo de elemento de mes día. |
+| Weekday | `1` | Indica tipo de elemento de mes día laborable. |
+| WeekendDay | `2` | Indica tipo de elemento de mes día de fin de semana. |
+| Sunday | `3` | Indica tipo de elemento de mes domingo. |
+| Monday | `4` | Indica tipo de elemento de mes lunes. |
+| Tuesday | `5` | Indica tipo de elemento de mes martes. |
+| Wednesday | `6` | Indica tipo de elemento de mes miércoles. |
+| Thursday | `7` | Indica tipo de elemento de mes jueves. |
+| Friday | `8` | Indica tipo de elemento de mes viernes. |
+| Saturday | `9` | Indica tipo de elemento de mes sábado. |
+
+## Ejemplos
+
+Muestra cómo definir una excepción de calendario por día del mes.
+
+```csharp
+var project = new Project(DataDir + "project_test.mpp");
+
+// crear un calendario
+var calendar = project.Calendars.Add("Calendar1");
+
+// crear excepción de calendario para cada viernes
+var exception = new CalendarException();
+exception.Type = CalendarExceptionType.MonthlyByDay;
+exception.FromDate = new DateTime(2010, 1, 1);
+exception.ToDate = new DateTime(2020, 12, 31);
+exception.Month = Month.December;
+exception.MonthDay = 1;
+exception.MonthItem = MonthItemType.Undefined;
+exception.MonthPosition = MonthPosition.Last;
+exception.Period = 5;
+
+// verificar que un viernes es excepcional
+Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2012, 12, 1)));
+
+// agrega la excepción al calendario
+calendar.Exceptions.Add(exception);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

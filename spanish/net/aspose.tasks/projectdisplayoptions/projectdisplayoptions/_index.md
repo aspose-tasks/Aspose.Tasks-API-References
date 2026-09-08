@@ -1,23 +1,67 @@
 ---
-title: ProjectDisplayOptions.ProjectDisplayOptions
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ProjectDisplayOptions constructor. Inicializa una nueva instancia delProjectDisplayOptions clase.
+title: "ProjectDisplayOptions.ProjectDisplayOptions"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor de ProjectDisplayOptions. Inicializa una nueva instancia de la clase ProjectDisplayOptions"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/projectdisplayoptions/projectdisplayoptions/
 ---
 ## ProjectDisplayOptions constructor
 
-Inicializa una nueva instancia del[`ProjectDisplayOptions`](../) clase.
+Inicializa una nueva instancia de la clase [`ProjectDisplayOptions`](../).
 
 ```csharp
 public ProjectDisplayOptions()
 ```
 
+## Ejemplos
+
+Muestra cómo usar las opciones de visualización del proyecto.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// Establece un valor que indica si se deben mostrar advertencias cuando Project identifica un posible conflicto de programación con una tarea programada manualmente.
+// Esta opción está disponible para la versión Project 2010 y posteriores.
+project.DisplayOptions.ShowTaskScheduleWarnings = false;
+
+// un valor que indica si se debe agregar un espacio antes del valor numérico y la abreviatura de tiempo (1 wk en lugar de 1wk)
+project.DisplayOptions.AddSpaceBeforeLabel = true;
+
+// establece cómo se muestra la etiqueta de minuto
+project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.Min;
+
+// establece cómo se muestra la etiqueta de hora
+project.DisplayOptions.HourLabel = HourLabelDisplay.Hr;
+
+// establece cómo se muestra la etiqueta del día
+project.DisplayOptions.DayLabel = DayLabelDisplay.Dy;
+
+// establece cómo se muestra la etiqueta de la semana
+project.DisplayOptions.WeekLabel = WeekLabelDisplay.Week;
+
+// establecer cómo se muestra la etiqueta del mes
+project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mon;
+
+// establece cómo se muestra la etiqueta del año
+project.DisplayOptions.YearLabel = YearLabelDisplay.Year;
+
+// establece un valor que indica si se debe mostrar información resumida de todo el proyecto en una sola fila con su propia barra de tarea resumida en la parte superior de la vista del diagrama de Gantt.
+project.DisplayOptions.ShowProjectSummaryTask = true;
+
+// establece un valor que indica si se deben mostrar sugerencias cuando Project identifica un posible conflicto de programación con una tarea programada manualmente.
+project.DisplayOptions.ShowTaskScheduleSuggestions = true;
+
+// establece un valor que indica si se deben subrayar los hipervínculos.
+project.DisplayOptions.UnderlineHyperlinks = true;
+
+project.Save(OutDir + "WorkWithProjectDisplayOptions.mpp", SaveFileFormat.Mpp);
+```
+
 ### Ver también
 
 * class [ProjectDisplayOptions](../)
-* espacio de nombres [Aspose.Tasks](../../projectdisplayoptions/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectdisplayoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

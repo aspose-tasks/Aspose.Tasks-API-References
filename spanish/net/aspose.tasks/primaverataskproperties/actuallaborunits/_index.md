@@ -1,14 +1,14 @@
 ---
-title: PrimaveraTaskProperties.ActualLaborUnits
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraTaskProperties propiedad. Obtiene el valor de las unidades de mano de obra reales.
+title: "PrimaveraTaskProperties.ActualLaborUnits"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad PrimaveraTaskProperties. Obtiene el valor de unidades reales de trabajo"
 type: docs
-weight: 20
+weight: 50
 url: /es/net/aspose.tasks/primaverataskproperties/actuallaborunits/
 ---
 ## PrimaveraTaskProperties.ActualLaborUnits property
 
-Obtiene el valor de las unidades de mano de obra reales.
+Obtiene el valor de unidades reales de mano de obra.
 
 ```csharp
 public double ActualLaborUnits { get; }
@@ -17,7 +17,7 @@ public double ActualLaborUnits { get; }
 ### Ver también
 
 * class [PrimaveraTaskProperties](../)
-* espacio de nombres [Aspose.Tasks](../../primaverataskproperties/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

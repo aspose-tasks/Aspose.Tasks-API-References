@@ -1,14 +1,14 @@
 ---
-title: PrimaveraTaskProperties.RemainingLaborUnits
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraTaskProperties propiedad. Obtiene el valor de las unidades de mano de obra restantes.
+title: "PrimaveraTaskProperties.RemainingLaborUnits"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad PrimaveraTaskProperties. Obtiene el valor de las unidades de trabajo restantes"
 type: docs
-weight: 120
+weight: 290
 url: /es/net/aspose.tasks/primaverataskproperties/remaininglaborunits/
 ---
 ## PrimaveraTaskProperties.RemainingLaborUnits property
 
-Obtiene el valor de las unidades de mano de obra restantes.
+Obtiene el valor de las unidades restantes de mano de obra.
 
 ```csharp
 public double RemainingLaborUnits { get; }
@@ -17,7 +17,7 @@ public double RemainingLaborUnits { get; }
 ### Ver también
 
 * class [PrimaveraTaskProperties](../)
-* espacio de nombres [Aspose.Tasks](../../primaverataskproperties/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Enum DayType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.DayType enumeración. Especifica el día de la semana.
+title: "Enumeración DayType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enumeración Aspose.Tasks.DayType. Especifica el día de la semana"
 type: docs
 weight: 450
 url: /es/net/aspose.tasks/daytype/
@@ -18,18 +18,50 @@ public enum DayType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Exception | `0` | Indica el tipo de día de excepción. |
-| Sunday | `1` | Indica tipo de día domingo. |
-| Monday | `2` | Indica tipo de día lunes. |
-| Tuesday | `3` | Indica tipo de día martes. |
-| Wednesday | `4` | Indica tipo de día miércoles. |
-| Thursday | `5` | Indica tipo de día jueves. |
-| Friday | `6` | Indica tipo de día viernes. |
-| Saturday | `7` | Indica el tipo de día sábado. |
+| Exception | `0` | Indica el tipo de día Excepción. |
+| Sunday | `1` | Indica el tipo de día Domingo. |
+| Monday | `2` | Indica el tipo de día Lunes. |
+| Tuesday | `3` | Indica el tipo de día Martes. |
+| Wednesday | `4` | Indica el tipo de día Miércoles. |
+| Thursday | `5` | Indica el tipo de día Jueves. |
+| Friday | `6` | Indica el tipo de día Viernes. |
+| Saturday | `7` | Indica el tipo de día Sábado. |
+
+## Ejemplos
+
+Muestra cómo definir un calendar nuevo, agregar días de la semana a él y definir los horarios de trabajo para los días.
+
+```csharp
+var project = new Project();
+
+// Definir un calendar
+var calendar = project.Calendars.Add("Calendar1");
+
+// Agregar días laborables de lunes a jueves con horarios predeterminados
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(new WeekDay(DayType.Saturday));
+calendar.WeekDays.Add(new WeekDay(DayType.Sunday));
+
+// Establecer el viernes como día laborable corto
+var weekDay = new WeekDay(DayType.Friday);
+
+// Establece el tiempo de trabajo. Solo la parte de hora de `DateTime` es importante
+var workingTime = new WorkingTime(9, 12);
+var workingTime2 = new WorkingTime(13, 16);
+weekDay.WorkingTimes.Add(workingTime);
+weekDay.WorkingTimes.Add(workingTime2);
+weekDay.DayWorking = true;
+calendar.WeekDays.Add(weekDay);
+
+// trabajando con el proyecto...
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

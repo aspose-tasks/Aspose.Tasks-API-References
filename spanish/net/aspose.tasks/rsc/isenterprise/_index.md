@@ -1,17 +1,31 @@
 ---
-title: Rsc.IsEnterprise
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Rsc campo. Muestra si un recurso es del grupo de recursos de la empresa verdadero o del grupo de recursos local falso.
+title: "Rsc.IsEnterprise"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Rsc. Muestra si un recurso proviene del grupo de recursos empresarial (true) o del grupo de recursos local (false)"
 type: docs
 weight: 400
 url: /es/net/aspose.tasks/rsc/isenterprise/
 ---
 ## Rsc.IsEnterprise field
 
-Muestra si un recurso es del grupo de recursos de la empresa (verdadero) o del grupo de recursos local (falso).
+Muestra si un recurso proviene del grupo de recursos empresarial (true) o del grupo de recursos local (false).
 
 ```csharp
 public static readonly Key<NullableBool, RscKey> IsEnterprise;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Rsc.IsEnterprise.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsEnterprise, true);
+
+Console.WriteLine("Is Enterprise: " + resource.Get(Rsc.IsEnterprise));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<NullableBool, RscKey> IsEnterprise;
 * struct [NullableBool](../../nullablebool/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espacio de nombres [Aspose.Tasks](../../rsc/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

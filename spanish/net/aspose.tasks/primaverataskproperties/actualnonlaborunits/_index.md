@@ -1,14 +1,14 @@
 ---
-title: PrimaveraTaskProperties.ActualNonLaborUnits
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraTaskProperties propiedad. Obtiene el valor de las unidades reales que no son de mano de obra.
+title: "PrimaveraTaskProperties.ActualNonLaborUnits"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad PrimaveraTaskProperties. Obtiene el valor de unidades reales no laborales"
 type: docs
-weight: 30
+weight: 80
 url: /es/net/aspose.tasks/primaverataskproperties/actualnonlaborunits/
 ---
 ## PrimaveraTaskProperties.ActualNonLaborUnits property
 
-Obtiene el valor de las unidades reales que no son de mano de obra.
+Obtiene el valor de las unidades reales no laborales.
 
 ```csharp
 public double ActualNonLaborUnits { get; }
@@ -17,7 +17,7 @@ public double ActualNonLaborUnits { get; }
 ### Ver también
 
 * class [PrimaveraTaskProperties](../)
-* espacio de nombres [Aspose.Tasks](../../primaverataskproperties/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

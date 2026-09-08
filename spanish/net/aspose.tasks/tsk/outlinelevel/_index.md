@@ -1,9 +1,9 @@
 ---
-title: Tsk.OutlineLevel
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. El nivel de esquema de una tarea.
+title: "Tsk.OutlineLevel"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. El nivel de esquema de una tarea"
 type: docs
-weight: 860
+weight: 840
 url: /es/net/aspose.tasks/tsk/outlinelevel/
 ---
 ## Tsk.OutlineLevel field
@@ -14,12 +14,30 @@ El nivel de esquema de una tarea.
 public static readonly Key<int, TaskKey> OutlineLevel;
 ```
 
+## Ejemplos
+
+Muestra cómo leer las propiedades del esquema de la tarea.
+
+```csharp
+var project = new Project(DataDir + "TaskOutlineProperties.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizar todas las tareas recopiladas
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name) + " - Outline Level : " + task.Get(Tsk.OutlineLevel));
+    Console.WriteLine(task.Get(Tsk.Name) + " - Outline Number : " + task.Get(Tsk.OutlineNumber));
+}
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

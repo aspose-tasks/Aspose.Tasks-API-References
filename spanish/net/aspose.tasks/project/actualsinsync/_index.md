@@ -1,7 +1,7 @@
 ---
-title: Project.ActualsInSync
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor que indica si ActualsInSync está configurado o no.
+title: "Project.ActualsInSync"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Project. Obtiene o establece un valor que indica si ActualsInSync está configurado o no."
 type: docs
 weight: 20
 url: /es/net/aspose.tasks/project/actualsinsync/
@@ -18,7 +18,7 @@ public NullableBool ActualsInSync { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

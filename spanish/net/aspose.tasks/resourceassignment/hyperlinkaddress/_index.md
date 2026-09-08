@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.HyperlinkAddress
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de HyperlinkAddress.
+title: "ResourceAssignment.HyperlinkAddress"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceAssignment. Obtiene o establece un valor de HyperlinkAddress"
 type: docs
 weight: 320
 url: /es/net/aspose.tasks/resourceassignment/hyperlinkaddress/
@@ -17,7 +17,7 @@ public string HyperlinkAddress { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

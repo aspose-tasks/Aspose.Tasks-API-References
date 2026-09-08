@@ -1,32 +1,93 @@
 ---
-title: ViewCollection.Contains
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ViewCollection método. Devuelve verdadero si el elemento especificado se encuentra en esta colección de lo contrario false.
+title: "ViewCollection.Contains"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ViewCollection. Devuelve true si el elemento especificado se encuentra en esta colección, de lo contrario false"
 type: docs
 weight: 60
 url: /es/net/aspose.tasks/viewcollection/contains/
 ---
 ## ViewCollection.Contains method
 
-Devuelve verdadero si el elemento especificado se encuentra en esta colección; de lo contrario, false.
+Devuelve true si el elemento especificado se encuentra en esta colección; de lo contrario, false.
 
 ```csharp
 public bool Contains(View item)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| item | View | el elemento especificado a buscar. |
+| elemento | View | el elemento especificado para buscar. |
 
-### Valor_devuelto
+### Valor devuelto
 
-true si el elemento especificado se encuentra en esta colección; en caso contrario, falso.
+true si el elemento especificado se encuentra en esta colección; de lo contrario, false.
+
+## Ejemplos
+
+Muestra cómo trabajar con colecciones de vistas.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+// convertir a una lista simple de vistas
+List<View> list = project.Views.ToList();
+for (var index = 0; index < list.Count; index++)
+{
+    var viewToChange = list[index];
+    viewToChange.PageInfo.Header.CenteredText = "Header " + index;
+}
+
+// agregar una nueva vista
+var view = new GanttChartView();
+if (!project.Views.IsReadOnly)
+{
+    project.Views.Add(view);
+}
+
+// iterar sobre vistas
+Console.WriteLine("Iterate over views of " + project.Views.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Project view count: " + project.Views.Count);
+Console.WriteLine();
+foreach (var projectView in project.Views)
+{
+    Console.WriteLine("Name: " + projectView.Name);
+}
+
+// eliminar todas las vistas de una vez
+project.Views.Clear();
+
+// o una por una
+{
+    // enfoque 1
+    List<View> listToDelete = project.Views.ToList();
+    foreach (var v in listToDelete)
+    {
+        if (project.Views.Contains(v))
+        {
+            project.Views.Remove(v);
+        }
+    }
+}
+
+{
+    // enfoque 2
+    var array = new View[project.Views.Count];
+    project.Views.CopyTo(array, 0);
+    foreach (var v in array)
+    {
+        if (project.Views.Contains(v))
+        {
+            project.Views.Remove(v);
+        }
+    }
+}
+```
 
 ### Ver también
 
 * class [View](../../view/)
 * class [ViewCollection](../)
-* espacio de nombres [Aspose.Tasks](../../viewcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../viewcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

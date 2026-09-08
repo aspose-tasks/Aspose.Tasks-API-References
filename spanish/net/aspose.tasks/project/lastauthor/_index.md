@@ -1,9 +1,9 @@
 ---
-title: Project.LastAuthor
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de LastAuthor.
+title: "Project.LastAuthor"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Project. Obtiene o establece un valor de LastAuthor"
 type: docs
-weight: 510
+weight: 530
 url: /es/net/aspose.tasks/project/lastauthor/
 ---
 ## Project.LastAuthor property
@@ -17,7 +17,7 @@ public string LastAuthor { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

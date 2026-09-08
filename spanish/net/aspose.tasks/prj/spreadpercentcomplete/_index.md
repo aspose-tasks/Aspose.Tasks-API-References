@@ -1,17 +1,29 @@
 ---
-title: Prj.SpreadPercentComplete
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si un porcentaje completado se extiende a la fecha de estado.
+title: "Prj.SpreadPercentComplete"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si un porcentaje completado se distribuye a la fecha de estado"
 type: docs
-weight: 660
+weight: 670
 url: /es/net/aspose.tasks/prj/spreadpercentcomplete/
 ---
 ## Prj.SpreadPercentComplete field
 
-Determina si un porcentaje completado se extiende a la fecha de estado.
+Determina si el porcentaje de completado se distribuye hasta la fecha de estado.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadPercentComplete;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.SpreadPercentComplete.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadPercentComplete, true);
+
+Console.WriteLine("Spread Percent Complete: " + project.Get(Prj.SpreadPercentComplete));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> SpreadPercentComplete;
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

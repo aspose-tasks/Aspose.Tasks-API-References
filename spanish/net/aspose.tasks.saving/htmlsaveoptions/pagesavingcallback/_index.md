@@ -1,14 +1,14 @@
 ---
-title: HtmlSaveOptions.PageSavingCallback
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: HtmlSaveOptions propiedad. Obtiene o establece una devolución de llamada definida por el usuario que se usa para obtener un flujo de salida para cada página renderizada.
+title: "HtmlSaveOptions.PageSavingCallback"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad HtmlSaveOptions. Obtiene o establece una devolución de llamada definida por el usuario que se usa para obtener un flujo de salida para cada página renderizada"
 type: docs
-weight: 150
+weight: 140
 url: /es/net/aspose.tasks.saving/htmlsaveoptions/pagesavingcallback/
 ---
 ## HtmlSaveOptions.PageSavingCallback property
 
-Obtiene o establece una devolución de llamada definida por el usuario que se usa para obtener un flujo de salida para cada página renderizada.
+Obtiene o establece una función de devolución de llamada definida por el usuario que se utiliza para obtener un flujo de salida para cada página renderizada.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IPageSavingCallback PageSavingCallback { get; set; }
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

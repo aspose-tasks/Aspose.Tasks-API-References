@@ -1,27 +1,45 @@
 ---
-title: ExtendedAttribute.ToString
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ExtendedAttribute método. Devuelve la representación de cadena corta de un atributo extendido.
+title: "ExtendedAttribute.ToString"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ExtendedAttribute. Devuelve una representación corta en cadena de un atributo extendido"
 type: docs
 weight: 110
 url: /es/net/aspose.tasks/extendedattribute/tostring/
 ---
 ## ExtendedAttribute.ToString method
 
-Devuelve la representación de cadena corta de un atributo extendido.
+Devuelve la representación corta en cadena de un atributo extendido.
 
 ```csharp
 public override string ToString()
 ```
 
-### Valor_devuelto
+### Valor devuelto
 
-La representación de cadena del atributo extendido.
+La representación en cadena del atributo extendido.
+
+## Ejemplos
+
+Muestra cómo leer atributos extendidos.
+
+```csharp
+var project = new Project(DataDir + "ReadTaskExtendedAttributes.mpp");
+
+// Leer atributos extendidos para tareas
+foreach (var task in project.RootTask.Children)
+{
+    foreach (var attribute in task.ExtendedAttributes)
+    {
+        // Leer información común sobre el atributo extendido
+        Console.WriteLine("Extended Attribute: " + attribute.ToString());
+    }
+}
+```
 
 ### Ver también
 
 * class [ExtendedAttribute](../)
-* espacio de nombres [Aspose.Tasks](../../extendedattribute/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

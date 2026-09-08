@@ -1,14 +1,14 @@
 ---
-title: Enum PrinterPaperSize
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Visualization.PrinterPaperSize enumeración. Especifica el tamaño de papel que se utiliza para imprimir.
+title: "Enum PrinterPaperSize"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enum Aspose.Tasks.Visualization.PrinterPaperSize. Especifica el tamaño de papel que se utiliza para imprimir"
 type: docs
-weight: 2930
+weight: 3280
 url: /es/net/aspose.tasks.visualization/printerpapersize/
 ---
 ## PrinterPaperSize enumeration
 
-Especifica el tamaño de papel que se utiliza para imprimir.
+Especifica el tamaño de papel que se usa para imprimir.
 
 ```csharp
 public enum PrinterPaperSize
@@ -18,38 +18,90 @@ public enum PrinterPaperSize
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Custom | `1` | Indica que el tamaño del papel lo define el usuario. |
-| PaperLetter | `1` | Indica el tamaño de papel de la impresora Sobre Carta (8,5 pulg. por 11 pulg.). |
-| PaperLetterSmall | `2` | Indica el tamaño de papel de la impresora Carta pequeña (8,5 pulg. por 11 pulg.). |
-| PaperTabloid | `3` | Indica el tamaño del papel de la impresora Tabloide (11 pulg. por 17 pulg.). |
-| PaperLedger | `4` | Indica el tamaño de papel de la impresora Ledger (17 pulg. por 11 pulg.). |
-| PaperLegal | `5` | Indica el tamaño de papel de impresora de sobre legal (8,5 pulg. por 14 pulg.). |
-| PaperStatement | `6` | Indica el tamaño del papel de la impresora de estados de cuenta (5,5 pulg. por 8,5 pulg.). |
-| PaperExecutive | `7` | Indica el tamaño de papel de la impresora ejecutiva de sobres (7,25 pulgadas por 10,5 pulgadas). |
-| PaperA3 | `8` | Indica el tamaño de papel de la impresora A3 (297 mm por 420 mm). |
-| PaperA4 | `9` | Indica el tamaño de papel de impresora A4 (210 mm por 297 mm). |
-| PaperA4Small | `10` | Indica tamaño de papel de impresora A4 pequeño (210 mm por 297 mm). |
-| PaperA5 | `11` | Indica el tamaño de papel de impresora A5 (148 mm por 210 mm). |
-| PaperB4 | `12` | Indica el tamaño de papel de la impresora B4 (250 mm por 353 mm). |
-| PaperB5 | `13` | Indica el tamaño de papel de la impresora B5 (176 mm por 250 mm). |
-| PaperFolio | `14` | Indica el tamaño del papel de la impresora Folio (8,5 x 13 pulgadas). |
-| PaperQuarto | `15` | Indica el tamaño de papel de la impresora Quarto (215 mm por 275 mm). |
-| PaperStandard10x14 | `16` | Indica el tamaño de papel de impresora estándar (10 pulg. por 14 pulg.). |
-| PaperStandard11x17 | `17` | Indica el tamaño de papel de impresora estándar (11 x 17 pulgadas). |
-| PaperNote | `18` | Indica el tamaño del papel de la impresora de notas (8,5 pulg. por 11 pulg.). |
-| PaperEnvelope10 | `20` | Indica el tamaño de papel de la impresora Envelope10 (4,125 pulg. por 9,5 pulg.). |
-| PaperCSheet | `24` | Indica el tamaño de papel de la impresora de papel C (17 pulg. por 22 pulg.). |
-| PaperDSheet | `25` | Indica el tamaño de papel de la impresora de papel D (22 pulg. por 34 pulg.). |
-| PaperESheet | `26` | Indica el tamaño de papel de la impresora de papel E (34 pulg. por 44 pulg.). |
-| PaperEnvelopeMonarch | `37` | Indica el tamaño del papel de la impresora Envelope Monarch (3,875 pulgadas por 7,5 pulgadas). |
-| PaperStandard9x11 | `44` | Indica el tamaño de papel de impresora estándar (9 x 11 pulgadas). |
-| PaperStandard10x11 | `45` | Indica el tamaño de papel de impresora estándar (10 pulg. por 11 pulg.). |
-| PaperStandard15x11 | `46` | Indica el tamaño de papel de impresora estándar (15 pulg. por 11 pulg.). |
-| PaperA2 | `66` | Indica tamaño de papel de impresora A2 (420 mm por 594 mm). |
+| Custom | `1` | Indica que el tamaño de papel es definido por el usuario. |
+| PaperLetter | `1` | Indica el tamaño de papel de impresora Envelope Letter (8.5 in. by 11 in.). |
+| PaperLetterSmall | `2` | Indica el tamaño de papel de impresora Small Letter (8.5 in. by 11 in.). |
+| PaperTabloid | `3` | Indica el tamaño de papel de impresora Tabloid (11 in. by 17 in.). |
+| PaperLedger | `4` | Indica el tamaño de papel de impresora Ledger (17 in. by 11 in.). |
+| PaperLegal | `5` | Indica el tamaño de papel de impresora Envelope legal (8.5 in. by 14 in.). |
+| PaperStatement | `6` | Indica el tamaño de papel de impresora Statement (5.5 in. by 8.5 in.). |
+| PaperExecutive | `7` | Indica el tamaño de papel de impresora Envelope executive (7.25 in. by 10.5 in.). |
+| PaperA3 | `8` | Indica el tamaño de papel de impresora A3 (297 mm by 420 mm). |
+| PaperA4 | `9` | Indica el tamaño de papel de impresora A4 (210 mm by 297 mm). |
+| PaperA4Small | `10` | Indica el tamaño de papel de impresora Small A4 (210 mm by 297 mm). |
+| PaperA5 | `11` | Indica el tamaño de papel de impresora A5 (148 mm by 210 mm). |
+| PaperB4 | `12` | Indica el tamaño de papel de impresora B4 (250 mm by 353 mm). |
+| PaperB5 | `13` | Indica el tamaño de papel de impresora B5 (176 mm by 250 mm). |
+| PaperFolio | `14` | Indica el tamaño de papel de impresora Folio (8.5 in. by 13 in.). |
+| PaperQuarto | `15` | Indica el tamaño de papel de impresora Quarto (215 mm by 275 mm). |
+| PaperStandard10x14 | `16` | Indica el tamaño de papel de impresora Standard (10 in. by 14 in.). |
+| PaperStandard11x17 | `17` | Indica el tamaño de papel de impresora Standard (11 in. by 17 in.). |
+| PaperNote | `18` | Indica el tamaño de papel de impresora Note (8.5 in. by 11 in.). |
+| PaperEnvelope10 | `20` | Indica el tamaño de papel de impresora Envelope10 (4.125 in. by 9.5 in.). |
+| PaperCSheet | `24` | Indica el tamaño de papel de impresora C (17 in. by 22 in.). |
+| PaperDSheet | `25` | Indica el tamaño de papel de impresora D (22 in. by 34 in.). |
+| PaperESheet | `26` | Indica el tamaño de papel de impresora E (34 in. by 44 in.). |
+| PaperEnvelopeMonarch | `37` | Indica el tamaño de papel de impresora Envelope Monarch (3.875 in. by 7.5 in.). |
+| PaperStandard9x11 | `44` | Indica el tamaño de papel de impresora Standard (9 in. by 11 in.). |
+| PaperStandard10x11 | `45` | Indica el tamaño de papel de impresora Standard (10 in. by 11 in.). |
+| PaperStandard15x11 | `46` | Indica el tamaño estándar de papel para impresora (15 pulg. por 11 pulg.). |
+| PaperA2 | `66` | Indica el tamaño de papel A2 para impresora (420 mm por 594 mm). |
+
+## Ejemplos
+
+Muestra cómo trabajar con la información de página de la vista de MS Project.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// permite modificar la vista predeterminada
+var info = project.DefaultView.PageInfo;
+
+Console.WriteLine("Modify Page Info: " + info.Name);
+
+// permite modificar los márgenes
+info.Margins.Left = 10d;
+info.Margins.Top = 10d;
+info.Margins.Right = 10d;
+info.Margins.Bottom = 10d;
+
+// modifiquemos la configuración de página
+info.PageSettings.IsPortrait = true;
+info.PageSettings.PaperSize = PrinterPaperSize.PaperA4;
+
+// modifiquemos la configuración de vista de página
+// establece un valor que indica si se imprimen notas.
+info.PageViewSettings.PrintNotes = true;
+
+var header = new HeaderFooterInfo
+{
+    LeftText = "Left header text",
+    CenteredText = "Centered header text",
+    RightText = "Right header text"
+};
+var legend = new PageLegend
+{
+    LeftText =  "Left legend text",
+    CenteredText = "Centered legend text",
+    RightText = "Right legend text"
+};
+var footer = new HeaderFooterInfo
+{
+    LeftText = "Left footer text",
+    CenteredText = "Centered footer text",
+    RightText = "Right footer text"
+};
+
+info.Header = header;
+info.Legend = legend;
+info.Footer = footer;
+
+// trabajar con el proyecto...
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

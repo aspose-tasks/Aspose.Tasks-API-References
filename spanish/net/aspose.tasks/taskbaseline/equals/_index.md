@@ -1,9 +1,9 @@
 ---
-title: TaskBaseline.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TaskBaseline método. Devuelve un valor que indica si esta instancia es igual al objeto TaskBaseline especificado.
+title: "TaskBaseline.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método TaskBaseline. Devuelve un valor que indica si esta instancia es igual al objeto TaskBaseline especificado."
 type: docs
-weight: 110
+weight: 100
 url: /es/net/aspose.tasks/taskbaseline/equals/
 ---
 ## Equals(TaskBaseline) {#equals_1}
@@ -14,19 +14,40 @@ Devuelve un valor que indica si esta instancia es igual al objeto TaskBaseline e
 public bool Equals(TaskBaseline other)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| other | TaskBaseline | el objeto AssignmentBaseline especificado para compararlo con esta instancia. |
+| otro | TaskBaseline | el objeto AssignmentBaseline especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve verdadero si esta instancia es igual al objeto TaskBaseline especificado; en caso contrario, falso.
+devuelve true si esta instancia es igual al objeto TaskBaseline especificado; de lo contrario, false.
+
+## Ejemplos
+
+Muestra cómo comprobar la igualdad de líneas base.
+
+```csharp
+var project = new Project();
+
+// creando TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// mostrar duración de la línea base de la tarea
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// la igualdad de líneas base se verifica contra los números de la línea base.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
 
 ### Ver también
 
 * class [TaskBaseline](../)
-* espacio de nombres [Aspose.Tasks](../../taskbaseline/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +59,39 @@ Devuelve un valor que indica si esta instancia es igual a un objeto especificado
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El objeto a comparar con esta instancia. |
+| obj | Objeto | El objeto para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-**Verdadero** si el objeto especificado es una TaskBaseline que tiene el mismo valor de UID que esta instancia; de lo contrario, **FALSO**.
+**True** if the specified object is a TaskBaseline that has the same UID value as this instance; otherwise, **false**.
+
+## Ejemplos
+
+Muestra cómo comprobar la igualdad de líneas base.
+
+```csharp
+var project = new Project();
+
+// creando TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// mostrar duración de la línea base de la tarea
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// la igualdad de líneas base se verifica contra los números de la línea base.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
 
 ### Ver también
 
 * class [TaskBaseline](../)
-* espacio de nombres [Aspose.Tasks](../../taskbaseline/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

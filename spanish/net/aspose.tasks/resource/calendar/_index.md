@@ -1,7 +1,7 @@
 ---
-title: Resource.Calendar
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de Calendar.
+title: "Resource.Calendar"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor de Calendar"
 type: docs
 weight: 220
 url: /es/net/aspose.tasks/resource/calendar/
@@ -18,7 +18,7 @@ public Calendar Calendar { get; set; }
 
 * class [Calendar](../../calendar/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

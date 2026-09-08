@@ -1,14 +1,14 @@
 ---
-title: Enum ConstraintType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.ConstraintType enumeración. Especifica la restricción en la fecha de inicio o finalización de una tarea.
+title: "Enumeración ConstraintType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enumeración Aspose.Tasks.ConstraintType. Especifica la restricción sobre la fecha de inicio o fin de una tarea"
 type: docs
 weight: 330
 url: /es/net/aspose.tasks/constrainttype/
 ---
 ## ConstraintType enumeration
 
-Especifica la restricción en la fecha de inicio o finalización de una tarea.
+Especifica la restricción sobre la fecha de inicio o fin de una tarea.
 
 ```csharp
 public enum ConstraintType
@@ -18,23 +18,40 @@ public enum ConstraintType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Undefined | `-1` | El valor no se definió en el archivo de proyecto original. |
-| AsSoonAsPossible | `0` | [`Start`](../tsk/start/) y[`Finish`](../tsk/finish/) fechas de[`Task`](../task/) están programados ASAP con respecto al padre[`Start`](../tsk/start/) y[`Finish`](../tsk/finish/)fechas y considerando[`TaskLinks`](../project/tasklinks/) . |
-| AsLateAsPossible | `1` | [`Start`](../tsk/start/) y[`Finish`](../tsk/finish/) fechas de[`Task`](../task/) están programados ALAP con respecto al padre[`Start`](../tsk/start/) y[`Finish`](../tsk/finish/)fechas y considerando[`TaskLinks`](../project/tasklinks/) . |
-| MustStartOn | `2` | Debe comenzar el |
-| MustFinishOn | `3` | Debe terminar el |
-| StartNoEarlierThan | `4` | Empezar no antes de |
-| StartNoLaterThan | `5` | Empezar a más tardar el |
-| FinishNoEarlierThan | `6` | Terminar no antes de |
-| FinishNoLaterThan | `7` | Finalizar antes de |
+| Undefined | `-1` | El valor no estaba definido en el archivo de proyecto original. |
+| AsSoonAsPossible | `0` | Las fechas [`Start`](../tsk/start/) y [`Finish`](../tsk/finish/) de [`Task`](../task/) se programan lo antes posible con respecto a las fechas padre [`Start`](../tsk/start/) y [`Finish`](../tsk/finish/) y considerando los [`TaskLinks`](../project/tasklinks/). |
+| AsLateAsPossible | `1` | Las fechas de [`Start`](../tsk/start/) y [`Finish`](../tsk/finish/) de [`Task`](../task/) se programan ALAP con respecto a las fechas de inicio y fin del padre y considerando [`TaskLinks`](../project/tasklinks/). |
+| MustStartOn | `2` | Debe iniciar el |
+| MustFinishOn | `3` | Debe finalizar el |
+| StartNoEarlierThan | `4` | Inicio no antes de |
+| StartNoLaterThan | `5` | Inicio no después de |
+| FinishNoEarlierThan | `6` | Fin no antes de |
+| FinishNoLaterThan | `7` | Fin no después de |
 
-### Observaciones
+## Observaciones
 
-Al exportar a XML, los valores no definidos se eliminarán del XML resultante.
+Al exportar a XML, los valores Undefined se eliminarán del XML resultante.
+
+## Ejemplos
+
+Muestra cómo establecer la restricción &lt;see cref="Aspose.Tasks.ConstraintType" /&gt; ConstraintType.AsSoonAsPossible para una tarea.
+
+```csharp
+var project = new Project(DataDir + "Constraints/ConstraintAsLateAsPossible.mpp");
+
+// Establecer la restricción As Soon As Possible para la tarea con Id 11
+var task = project.RootTask.Children.GetById(11);
+task.Set(Tsk.ConstraintType, ConstraintType.AsSoonAsPossible);
+
+SaveOptions options = new PdfSaveOptions();
+options.StartDate = project.Get(Prj.StartDate);
+options.Timescale = Timescale.ThirdsOfMonths;
+project.Save(OutDir + "AsSoonAsPossible_out.pdf", options);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

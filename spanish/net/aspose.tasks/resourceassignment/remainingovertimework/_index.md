@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.RemainingOvertimeWork
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de RemainingOvertimeWork.
+title: "ResourceAssignment.RemainingOvertimeWork"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceAssignment. Obtiene o establece un valor de RemainingOvertimeWork"
 type: docs
 weight: 490
 url: /es/net/aspose.tasks/resourceassignment/remainingovertimework/
@@ -18,7 +18,7 @@ public Duration RemainingOvertimeWork { get; set; }
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

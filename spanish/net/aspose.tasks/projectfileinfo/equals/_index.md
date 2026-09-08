@@ -1,7 +1,7 @@
 ---
-title: ProjectFileInfo.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ProjectFileInfo método. Devuelve un valor que indica si esta instancia es igual a un objeto especificado.
+title: "ProjectFileInfo.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ProjectFileInfo método. Devuelve un valor que indica si esta instancia es igual a un objeto especificado"
 type: docs
 weight: 50
 url: /es/net/aspose.tasks/projectfileinfo/equals/
@@ -14,19 +14,30 @@ Devuelve un valor que indica si esta instancia es igual a un objeto especificado
 public bool Equals(ProjectFileInfo other)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| other | ProjectFileInfo | El objeto especificado para comparar con esta instancia. |
+| otro | ProjectFileInfo | El objeto especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve verdadero si el ProjectFileInfo especificado y esta instancia tienen el mismo formato de archivo e información de la aplicación.
+Devuelve true si el ProjectFileInfo especificado y esta instancia tienen el mismo formato de archivo e información de aplicación.
+
+## Ejemplos
+
+Muestra cómo leer la información del archivo del proyecto.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### Ver también
 
 * class [ProjectFileInfo](../)
-* espacio de nombres [Aspose.Tasks](../../projectfileinfo/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +49,29 @@ Devuelve un valor que indica si esta instancia es igual a un objeto especificado
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El objeto especificado para comparar con esta instancia. |
+| obj | Objeto | El objeto especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve verdadero si el ProjectFileInfo especificado y esta instancia tienen el mismo formato de archivo e información de la aplicación.
+Devuelve true si el ProjectFileInfo especificado y esta instancia tienen el mismo formato de archivo e información de aplicación.
+
+## Ejemplos
+
+Muestra cómo leer la información del archivo del proyecto.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
 
 ### Ver también
 
 * class [ProjectFileInfo](../)
-* espacio de nombres [Aspose.Tasks](../../projectfileinfo/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

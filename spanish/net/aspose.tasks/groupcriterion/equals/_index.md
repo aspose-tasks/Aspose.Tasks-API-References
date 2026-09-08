@@ -1,9 +1,9 @@
 ---
-title: GroupCriterion.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: GroupCriterion método. Devuelve un valor que indica si esta instancia es igual a un objeto especificado.
+title: "GroupCriterion.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método GroupCriterion. Devuelve un valor que indica si esta instancia es igual a un objeto especificado"
 type: docs
-weight: 130
+weight: 110
 url: /es/net/aspose.tasks/groupcriterion/equals/
 ---
 ## GroupCriterion.Equals method
@@ -14,18 +14,18 @@ Devuelve un valor que indica si esta instancia es igual a un objeto especificado
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El objeto a comparar con esta instancia. |
+| obj | Objeto | El objeto para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-**Verdadero**si o es un GroupCriterion que tiene el mismo valor de UID que esta instancia; de lo contrario, **FALSO**.
+**True** if o is a GroupCriterion that has the same UID value as this instance; otherwise, **false**.
 
 ### Ver también
 
 * class [GroupCriterion](../)
-* espacio de nombres [Aspose.Tasks](../../groupcriterion/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

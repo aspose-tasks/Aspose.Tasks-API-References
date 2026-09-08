@@ -1,27 +1,42 @@
 ---
-title: ResourceAssignment.GetHashCode
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment método. Devuelve un valor de código hash para la instancia delResourceAssignment clase.
+title: "ResourceAssignment.GetHashCode"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ResourceAssignment. Devuelve un valor de código hash para la instancia de la clase ResourceAssignment"
 type: docs
 weight: 710
 url: /es/net/aspose.tasks/resourceassignment/gethashcode/
 ---
 ## ResourceAssignment.GetHashCode method
 
-Devuelve un valor de código hash para la instancia del[`ResourceAssignment`](../) clase.
+Devuelve un valor de código hash para la instancia de la clase [`ResourceAssignment`](../).
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Valor_devuelto
+### Valor devuelto
 
 devuelve un valor de código hash para este objeto.
+
+## Ejemplos
+
+Muestra cómo obtener un código hash de una asignación de recurso.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(2);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(3);
+
+// imprimir códigos hash de la asignación
+Console.WriteLine("Resource Assignment 1 Hash Code: {0}", resourceAssignment1.GetHashCode());
+Console.WriteLine("Resource Assignment 2 Hash Code: {0}", resourceAssignment2.GetHashCode());
+```
 
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

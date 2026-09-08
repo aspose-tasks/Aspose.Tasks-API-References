@@ -1,9 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Saving.SaveOptions clase. Esta es una clase base abstracta para clases que permiten al usuario especificar opciones adicionales al guardar un proyecto en un formato particular.
+title: "Clase SaveOptions"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Saving.SaveOptions. Esta es una clase base abstracta para clases que permiten al usuario especificar opciones adicionales al guardar un proyecto en un formato particular."
 type: docs
-weight: 1920
+weight: 2190
 url: /es/net/aspose.tasks.saving/saveoptions/
 ---
 ## SaveOptions class
@@ -11,45 +11,65 @@ url: /es/net/aspose.tasks.saving/saveoptions/
 Esta es una clase base abstracta para clases que permiten al usuario especificar opciones adicionales al guardar un proyecto en un formato particular.
 
 ```csharp
-public abstract class SaveOptions
+public abstract class SaveOptions : SimpleSaveOptions
 ```
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Obtiene o establece la lista de las instancias del[`BarStyle`](../../aspose.tasks.visualization/barstyle/) class que aparecen en la vista del proyecto. |
+| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Obtiene o establece la lista de instancias de la clase [`BarStyle`](../../aspose.tasks.visualization/barstyle/) que aparecen en la vista del proyecto. |
 | [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Obtiene o establece el tamaño de página personalizado en puntos (1 punto = 1/72 de pulgada). |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Obtiene o establece un valor que indica si se debe dibujar el tiempo no laborable (el valor predeterminado es VERDADERO). |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Obtiene o establece una fecha para terminar de renderizar. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Obtiene o establece un valor que indica si se debe aumentar el alto de la fila para que se ajuste a su contenido. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | Obtiene o establece si una sección de calendario de una vista debe representarse al final (lado derecho) de la última página. Si el valor es falso, la sección de calendario se representa exactamente en EndDate, incluso si hay un espacio vacío en una página. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Obtiene o establece una lista de[`Gridline`](../../aspose.tasks.visualization/gridline/) que aparecen en la vista del proyecto. |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | Obtiene o establece un valor que indica si la leyenda debe mostrarse en cada página (el valor predeterminado es VERDADERO). |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Obtiene o establece un valor que indica si las tareas críticas deben mostrarse en color rojo (el valor predeterminado es FALSO). |
+| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Obtiene o establece un valor que indica si el tiempo no laborable debe dibujarse (El valor predeterminado es TRUE). |
+| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Obtiene o establece una fecha para finalizar la renderización. |
+| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Obtiene o establece un valor que indica si la altura de la fila debe aumentarse para ajustarse a su contenido. |
+| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Obtiene o establece una lista de [`Gridline`](../../aspose.tasks.visualization/gridline/) que aparecen en la vista del proyecto. |
+| [IsPortrait](../../aspose.tasks.saving/saveoptions/isportrait/) { get; set; } | Obtiene o establece un valor que indica si la orientación de la página es vertical; devuelve false si la orientación de la página es horizontal. |
+| [LegendDrawingOptions](../../aspose.tasks.saving/saveoptions/legenddrawingoptions/) { get; set; } | Obtiene o establece un valor que define cómo renderizar una leyenda. El valor predeterminado es LegendDrawingOptions.OnEveryPage. |
+| [LegendItems](../../aspose.tasks.saving/saveoptions/legenditems/) { get; set; } | Obtiene o establece una matriz de PageLegendItem que define qué barras deben renderizarse en la leyenda de la página. Si es null, se renderizan los elementos predeterminados. |
+| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Obtiene o establece un valor que indica si las tareas críticas deben mostrarse en color rojo (El valor predeterminado es FALSE). |
 | [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | Obtiene o establece el color del tiempo no laborable. |
 | [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | Obtiene o establece el número de páginas del proyecto. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Obtiene o establece el tamaño de la página que se representará (el valor predeterminado es PageSize.A4). |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Obtiene o establece el[`PresentationFormat`](./presentationformat/) en el que se guardará el documento. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Obtiene o establece un valor que indica si un proyecto debe representarse en una sola página cuando el proyecto se guarda en formato gráfico. El tamaño de la página cambiará para que el proyecto representado pueda caber en una sola página. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Obtiene o establece un valor que indica si se deben marcar las subtareas en la barra de tareas de resumen. Para las subtareas, el campo Resumen indica si la información de las barras de Gantt de las subtareas se acumulará en la barra de tareas de resumen. Para las tareas de resumen, el campo Resumen El campo indica si la barra de tareas de resumen muestra barras acumuladas. Debe tener el campo Resumen para tareas de resumen establecido en Sí para que cualquier subtarea se acumule en ellas. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | Obtiene o establece el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Obtiene o establece la fecha desde la que se empieza a renderizar. |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | Obtiene o establece el comparador para ordenar tareas en diagramas de Gantt y hojas de tareas. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | Obtiene o establece la condición que se usa para filtrar tareas representadas en diagramas de Gantt, hoja de tareas y uso de tareas. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Obtiene o establece la lista de las instancias del[`TextStyle`](../../aspose.tasks.visualization/textstyle/) class que aparecen en la vista del proyecto. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Obtiene o establece el[`Timescale`](./timescale/) valor que se usa para controlar cómo se representa la escala de tiempo (si está presente) cuando el proyecto se guarda en formato gráfico. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Obtiene o establece un valor que indica si se debe usar el pincel de degradado al representar el diagrama de Gantt. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Obtiene o establece una lista de las columnas de vista para representar ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ). Si no se establece, solo se representan los ID de tarea, los nombres de tarea, el inicio y el final. Si tanto Ver como[`ViewSettings`](./viewsettings/)las propiedades están configuradas, las columnas de View reemplazan las columnas de ViewSettings. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Obtiene o establece una vista ([`View`](./view/) ) para renderizar. Puede usar estas opciones para especificar explícitamente qué vista debe guardarse en formato PDF, HTML o de imagen. Si se establece esta propiedad,[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) La propiedad se ignora cuando se guarda el proyecto. La vista debe ser desde una de las siguientes pantallas (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt, Hoja de tareas, Uso de tareas, Hoja de recursos, Uso de recursos) |
+| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Obtiene o establece el tamaño de la página a renderizar (El valor predeterminado es PageSize.A4). |
+| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Obtiene o establece el [`PresentationFormat`](./presentationformat/) en el que se guardará el documento. |
+| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Obtiene o establece un valor que indica si un proyecto debe renderizarse en una sola página cuando el proyecto se guarda en formato gráfico. El tamaño de la página se cambiará para que el proyecto renderizado quepa en una sola página. |
+| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Obtiene o establece un valor que indica si las subtareas en la barra de tarea resumida deben marcarse. Para las subtareas, el campo Rollup indica si la información de las barras Gantt de la subtarea se consolidará en la barra de tarea resumida. Para las tareas resumidas, el campo Rollup indica si la barra de tarea resumida muestra barras consolidadas. Debe tener el campo Rollup de las tareas resumidas configurado en Yes para que cualquier subtarea se consolide en ellas. |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Obtiene o establece el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. |
+| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Obtiene o establece la fecha a partir de la cual iniciar la renderización. |
+| [TaskLinkDrawingCallback](../../aspose.tasks.saving/saveoptions/tasklinkdrawingcallback/) { get; set; } | Obtiene o establece una devolución de llamada que puede usarse para personalizar algunos aspectos de la renderización de enlaces de tareas. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Obtiene o establece el comparador para ordenar tareas en el diagrama de Gantt y en el diagrama de hoja de tareas. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Obtiene o establece la condición que se utiliza para filtrar las tareas renderizadas en los diagramas de Gantt, hoja de tareas y uso de tareas. |
+| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Obtiene o establece la lista de estilos de texto que se aplican durante la renderización de una vista de proyecto. |
+| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Obtiene o establece el valor de [`Timescale`](./timescale/) que se usa para controlar cómo se renderiza la escala de tiempo (si está presente) cuando el proyecto se guarda en formato gráfico. |
+| [TimescaleFitBehavior](../../aspose.tasks.saving/saveoptions/timescalefitbehavior/) { get; set; } | Obtiene o establece un comportamiento que define cómo alinear el extremo derecho de la escala de tiempo con el final de la página. |
+| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Obtiene o establece un valor que indica si se debe usar un pincel degradado al renderizar el diagrama de Gantt. |
+| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Obtiene o establece una lista de las columnas de vista a renderizar ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)). Si no se establece, solo se renderizan los IDs de tareas, nombres de tareas, inicio y fin. Si ambas propiedades View y [`ViewSettings`](./viewsettings/) están establecidas, las columnas de View sobrescriben a las de ViewSettings. |
+| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Obtiene o establece una vista ([`View`](./view/)) para renderizar. Puede usar esta opción para especificar explícitamente qué vista debe guardarse en formatos PDF, HTML o Imagen. Si esta propiedad está establecida, la propiedad [`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) se ignora cuando se guarda el proyecto. La vista debe ser una de las siguientes pantallas (([`Screen`](../../aspose.tasks/view/screen/))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage). |
 
-### Observaciones
+## Observaciones
 
-Una instancia de cualquier clase derivada de la clase SaveOptions se pasa a la secuencia Guardar o cadena Guardar sobrecargas para que el usuario defina opciones personalizadas al guardar un documento.
+Una instancia de cualquier clase derivada de la clase SaveOptions se pasa a las sobrecargas de Save de flujo o de cadena para que el usuario defina opciones personalizadas al guardar un documento.
+
+## Ejemplos
+
+Muestra cómo establecer la opción de si la altura de la fila debe aumentarse para ajustarse a su contenido.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    // Establecer la opción ajustar contenido a true
+    FitContent = true,
+    Timescale = Timescale.Months,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+project.Save(OutDir + "FitContentsToCellSize_out.pdf", options);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* asamblea [Aspose.Tasks](../../)
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

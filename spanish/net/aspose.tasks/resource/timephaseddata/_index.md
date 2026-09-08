@@ -1,28 +1,45 @@
 ---
-title: Resource.TimephasedData
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece una instancia deTimephasedDataCollection clase para este objeto.
+title: "Resource.TimephasedData"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece una instancia de la clase TimephasedDataCollection para este objeto"
 type: docs
-weight: 750
+weight: 740
 url: /es/net/aspose.tasks/resource/timephaseddata/
 ---
 ## Resource.TimephasedData property
 
-Obtiene o establece una instancia de[`TimephasedDataCollection`](../../timephaseddatacollection/) clase para este objeto.
+Obtiene o establece una instancia de [`TimephasedDataCollection`](../../timephaseddatacollection/) para este objeto.
 
 ```csharp
 public TimephasedDataCollection TimephasedData { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
-Lectura admitida solo para formato XML.
+Lectura soportada solo para formato XML.
+
+## Ejemplos
+
+Muestra cómo leer los datos temporales del recurso.
+
+```csharp
+resource.Set(Rsc.Work, resource.ParentProject.GetWork(2));
+
+project.SetBaseline(BaselineType.Baseline);
+
+// Iterar sobre los datos temporales del recurso 
+foreach (var td in resource.TimephasedData)
+{
+    Console.WriteLine(td.Start);
+    Console.WriteLine(td.Finish);
+}
+```
 
 ### Ver también
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

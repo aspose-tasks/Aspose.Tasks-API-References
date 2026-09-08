@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Resume
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de Resume.
+title: "ResourceAssignment.Resume"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de Resume"
 type: docs
 weight: 530
 url: /es/net/aspose.tasks/resourceassignment/resume/
@@ -17,7 +17,7 @@ public DateTime Resume { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

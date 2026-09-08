@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultStartTime
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de DefaultStartTime.
+title: "Project.DefaultStartTime"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Project. Obtiene o establece un valor de DefaultStartTime"
 type: docs
-weight: 320
+weight: 330
 url: /es/net/aspose.tasks/project/defaultstarttime/
 ---
 ## Project.DefaultStartTime property
@@ -17,7 +17,7 @@ public DateTime DefaultStartTime { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

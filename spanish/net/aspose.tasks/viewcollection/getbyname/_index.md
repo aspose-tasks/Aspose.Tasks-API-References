@@ -1,32 +1,32 @@
 ---
-title: ViewCollection.GetByName
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ViewCollection método. Busca una vista con el nombre y devuelve la primera aparición dentro de la colección.
+title: "ViewCollection.GetByName"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ViewCollection. Busca una Vista con el nombre y devuelve la primera ocurrencia dentro de la colección"
 type: docs
 weight: 80
 url: /es/net/aspose.tasks/viewcollection/getbyname/
 ---
 ## ViewCollection.GetByName method
 
-Busca una vista con el nombre y devuelve la primera aparición dentro de la colección.
+Busca una View con el nombre y devuelve la primera aparición dentro de la colección.
 
 ```csharp
 public View GetByName(string viewName)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| viewName | String | Nombre de la Vista a buscar. |
+| viewName | Cadena | Nombre de la Vista a buscar. |
 
-### Valor_devuelto
+### Valor devuelto
 
-La primera Vista de la colección con el nombre especificado, si se encuentra; en caso contrario, nulo.
+La primera Vista en la colección con el nombre especificado, si se encuentra; de lo contrario, null.
 
 ### Ver también
 
 * class [View](../../view/)
 * class [ViewCollection](../)
-* espacio de nombres [Aspose.Tasks](../../viewcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../viewcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

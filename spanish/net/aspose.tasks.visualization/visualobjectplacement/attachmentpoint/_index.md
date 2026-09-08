@@ -1,14 +1,14 @@
 ---
-title: VisualObjectPlacement.AttachmentPoint
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: VisualObjectPlacement propiedad. Obtiene o establece la alineación del objeto visual en relación con una tarea cuando se selecciona la opción Adjuntar a la tarea.
+title: "VisualObjectPlacement.AttachmentPoint"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "propiedad VisualObjectPlacement. Obtiene o establece la alineación del objeto visual respecto a una tarea cuando se seleccionan las opciones Adjuntar a tarea"
 type: docs
 weight: 20
 url: /es/net/aspose.tasks.visualization/visualobjectplacement/attachmentpoint/
 ---
 ## VisualObjectPlacement.AttachmentPoint property
 
-Obtiene o establece la alineación del objeto visual en relación con una tarea cuando se selecciona la opción 'Adjuntar a la tarea'.
+Obtiene o establece la alineación del objeto visual respecto a una tarea cuando se selecciona la opción 'Attach to task'.
 
 ```csharp
 public HorizontalAlignment AttachmentPoint { get; set; }
@@ -18,7 +18,7 @@ public HorizontalAlignment AttachmentPoint { get; set; }
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [VisualObjectPlacement](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 
