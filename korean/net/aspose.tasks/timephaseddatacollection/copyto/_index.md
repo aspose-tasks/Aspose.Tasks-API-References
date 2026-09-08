@@ -1,37 +1,187 @@
 ---
-title: CopyTo
-second_title: .NET API 참조용 Aspose.Tasks
-description: 의 요소를 복사합니다.TimephasedDataCollectionaspose.tasks/timephaseddatacollection/ 에게Array  특정에서 시작Array 색인.
+title: "TimephasedDataCollection.CopyTo"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "TimephasedDataCollection 메서드. TimephasedDataCollection의 요소를 특정 배열 인덱스에서 시작하는 배열로 복사합니다."
 type: docs
-weight: 90
+weight: 80
 url: /ko/net/aspose.tasks/timephaseddatacollection/copyto/
 ---
 ## TimephasedDataCollection.CopyTo method
 
-의 요소를 복사합니다.[`TimephasedDataCollection`](../) 에게Array , 특정에서 시작Array 색인.
+[`TimephasedDataCollection`](../)의 요소를 특정 배열 인덱스에서 시작하는 배열로 복사합니다.
 
 ```csharp
 public void CopyTo(TimephasedData[] array, int arrayIndex)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| array | TimephasedData[] | 1차원적Array 그것은 복사된 요소의 대상입니다.[`TimephasedDataCollection`](../) . Array 0부터 시작하는 인덱싱이 있어야 합니다. |
-| arrayIndex | Int32 | 0부터 시작하는 인덱스는*array* 복사가 시작됩니다. |
+| array | TimephasedData[] | [`TimephasedDataCollection`](../)에서 복사된 요소들의 대상이 되는 1차원 배열입니다. 배열은 0부터 시작하는 인덱스를 가져야 합니다. |
+| arrayIndex | Int32 | 복사가 시작되는 *array*의 0 기반 인덱스입니다. |
 
 ### 예외
 
-| 예외 | 상태 |
+| 예외 | 조건 |
 | --- | --- |
-| ArgumentNullException | *array* null입니다. |
-| ArgumentOutOfRangeException | *arrayIndex* 0보다 작습니다. |
-| ArgumentException | 소스의 요소 수[`TimephasedDataCollection`](../) 는 사용 가능한 공간보다 큽니다.*arrayIndex* 목적지 끝까지*array* . |
+| ArgumentNullException | *array*가 null입니다. |
+| ArgumentOutOfRangeException | *arrayIndex*가 0보다 작습니다. |
+| ArgumentException | 소스 [`TimephasedDataCollection`](../)의 요소 수가 *arrayIndex*부터 대상 *array* 끝까지 사용 가능한 공간보다 큽니다. |
 
-### 또한보십시오
+## 예제
+
+timephased 데이터 컬렉션을 사용하는 방법을 보여줍니다.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var resource2 = project.Resources.Add("Resource 2");
+resource2.Set(Rsc.Type, ResourceType.Work);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task2.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment2 = project.ResourceAssignments.Add(task2, resource2);
+assignment2.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment2.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment2.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+// contoured 작업 윤곽을 설정합니다
+assignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+Console.WriteLine("Is timephased data collection read-only?: " + assignment.TimephasedData.IsReadOnly);
+
+// 생성된 tds를 지웁니다
+assignment.TimephasedData.Clear();
+
+var td = new TimephasedData
+             {
+                 Start = new DateTime(2019, 11, 11, 8, 0, 0),
+                 Finish = new DateTime(2019, 11, 11, 9, 0, 0),
+                 Uid = assignment.Get(Asn.Uid),
+                 Unit = TimeUnitType.Hour,
+                 Value = "PT1H0M0S",
+                 TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+             };
+assignment.TimephasedData.Add(td);
+
+var list = new List<TimephasedData>();
+var td2 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 12, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 12, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+var td3 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+
+list.Add(td2);
+list.Add(td3);
+assignment.TimephasedData.AddRange(list);
+
+// 컬렉션을 유형 및 날짜 범위별로 필터링할 수 있습니다
+Console.WriteLine("Print filtered tds:");
+IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStartAndFinish(
+    TimephasedDataType.AssignmentRemainingWork,
+    new DateTime(2019, 11, 11, 0, 0, 0),
+    new DateTime(2019, 11, 13));
+foreach (var data in filteredTds)
+{
+    Console.WriteLine("Start: " + data.Start);
+    Console.WriteLine("Finish: " + data.Finish);
+    Console.WriteLine("Timephased Data Type: " + data.TimephasedDataType);
+    Console.WriteLine();
+}
+
+Console.WriteLine("--------------------------");
+Console.WriteLine();
+
+// ...
+// 잘못된 td를 추가한 다음 삭제합니다
+var td4 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT0H0M1S", // wrong value
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+assignment.TimephasedData.Add(td4);
+
+// ...
+
+// 잘못된 td 항목을 삭제합니다
+if (assignment.TimephasedData.Contains(td4))
+{
+    assignment.TimephasedData.Remove(td4);
+}
+
+// ...
+assignment.TimephasedData.AddRange(list);
+
+// 시간 구간 항목을 반복합니다
+Console.WriteLine("Print all timephased items:");
+Console.WriteLine("Timephased data count: " + assignment.TimephasedData.Count);
+foreach (var item in assignment.TimephasedData)
+{
+    Console.WriteLine("Start: " + item.Start);
+    Console.WriteLine("Finish: " + item.Finish);
+    Console.WriteLine("Timephased Data Type: " + item.TimephasedDataType);
+    Console.WriteLine();
+}
+
+// td를 다른 할당으로 복사합니다
+var timephasedDatas = new TimephasedData[assignment.TimephasedData.Count];
+assignment.TimephasedData.CopyTo(timephasedDatas, 0);
+
+assignment2.TimephasedData.Clear();
+foreach (var data in timephasedDatas)
+{
+    assignment2.TimephasedData.Add(data);
+}
+
+// 컬렉션을 일반 목록으로 변환할 수 있습니다
+List<TimephasedData> tds = assignment.TimephasedData.ToList();
+
+// td를 하나씩 제거합니다
+foreach (var timephasedData in tds)
+{
+    assignment.TimephasedData.Remove(timephasedData);
+}
+```
+
+### 또 보기
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* 네임스페이스 [Aspose.Tasks](../../timephaseddatacollection/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

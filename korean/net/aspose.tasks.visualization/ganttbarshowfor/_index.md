@@ -1,129 +1,155 @@
 ---
-title: GanttBarShowFor
-second_title: .NET API 참조용 Aspose.Tasks
-description: Gantt 차트의 막대 스타일을 사용자 정의할 때 사용되는 작업 범주를 나타냅니다.
+title: "Enum GanttBarShowFor"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "Aspose.Tasks.Visualization.GanttBarShowFor 열거형. Gantt 차트의 막대 스타일을 사용자 지정할 때 사용되는 작업 카테고리를 나타냅니다."
 type: docs
-weight: 2730
+weight: 3060
 url: /ko/net/aspose.tasks.visualization/ganttbarshowfor/
 ---
 ## GanttBarShowFor enumeration
 
-Gantt 차트의 막대 스타일을 사용자 정의할 때 사용되는 작업 범주를 나타냅니다.
+간트 차트의 막대 스타일을 사용자 지정할 때 사용되는 작업 범주를 나타냅니다.
 
 ```csharp
 public enum GanttBarShowFor
 ```
 
-### 가치
+### 값들
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Normal | `0` | 일반 카테고리. |
 | Milestone | `1` | 마일스톤 카테고리. |
 | Summary | `2` | 요약 카테고리. |
-| Critical | `3` | 중요 범주. |
-| Noncritical | `4` | 중요하지 않은 범주. |
+| Critical | `3` | 중요 카테고리. |
+| Noncritical | `4` | 비중요 카테고리. |
 | Marked | `5` | 표시된 카테고리. |
 | Finished | `6` | 완료된 카테고리. |
-| InProgress | `7` | 진행 중인 범주. |
-| NotFinished | `8` | 완료되지 않은 카테고리. |
-| NotStarted | `9` | 시작되지 않은 범주. |
-| StartedLate | `10` | 늦게 시작했습니다. |
-| FinishedLate | `11` | 완료 늦은 카테고리. |
-| StartedEarly | `12` | 초기 범주를 시작했습니다. |
-| FinishedEarly | `13` | 초기 카테고리를 완료했습니다. |
-| StartedOnTime | `14` | 시작 시간 범주. |
-| FinishedOnTime | `15` | 완료 정시 범주. |
-| Flag1 | `16` | 플래그1 범주. |
-| Flag2 | `17` | 플래그2 범주. |
-| Flag3 | `18` | 플래그3 범주. |
-| Flag4 | `19` | 플래그4 범주. |
-| Flag5 | `20` | 플래그5 범주. |
-| Flag6 | `21` | 플래그6 카테고리. |
-| Flag7 | `22` | 플래그7 범주. |
-| Flag8 | `23` | 플래그8 카테고리. |
-| Flag9 | `24` | 플래그9 카테고리. |
-| Flag10 | `25` | 플래그10 범주. |
-| RolledUp | `26` | 롤업 카테고리. |
-| ProjectSummary | `27` | 프로젝트 요약 범주. |
-| Split | `28` | 범주 분할. |
-| ExternalTasks | `29` | 외부 작업 범주. |
-| Flag11 | `30` | 플래그11 범주. |
-| Flag12 | `31` | 플래그12 범주. |
-| Flag13 | `32` | 플래그13 범주. |
-| Flag14 | `33` | 플래그14 카테고리. |
-| Flag15 | `34` | 플래그15 범주. |
-| Flag16 | `35` | 플래그16 카테고리. |
-| Flag17 | `36` | 플래그17 범주. |
-| Flag18 | `37` | 플래그18 카테고리. |
-| Flag19 | `38` | 플래그19 범주. |
-| Flag20 | `39` | Flag20 범주. |
-| GroupBySummary | `40` | 요약 범주별 그룹화. |
-| Deliverable | `41` | 산출물 범주. |
-| Dependency | `42` | 종속성 범주. |
-| Active | `43` | 활성 카테고리. |
-| ManuallyScheduled | `44` | 수동으로 예약된 범주. |
-| Warning | `45` | 경고 범주. |
-| PlaceholderStart | `46` | 자리 표시자(시작) 범주. |
-| PlaceholderFinish | `47` | 자리 표시자(완료) 범주. |
-| PlaceholderDuration | `48` | 자리 표시자(기간) 범주. |
-| Placeholder | `49` | 자리 표시자 범주. |
-| Late | `50` | 늦은 카테고리. |
-| NotNormal | `64` | 정상이 아님 |
-| NotMilestone | `65` | 마일스톤 범주가 아닙니다. |
-| NotSummary | `66` | 요약 범주 아님. |
-| NotCritical | `67` | 중요하지 않은 범주. |
-| NotMarked | `69` | 표시되지 않음 = 69 category. |
-| NotInProgress | `71` | 진행 중 아님 = 71 category. |
-| NotStartedLate | `74` | 늦게 시작되지 않음 = 74 category. |
-| NotFinishedLate | `75` | 완료되지 않음 늦은 카테고리. |
-| NotStartedEarly | `76` | 시작되지 않음 조기 범주. |
-| NotFinishedEarly | `77` | 미완성 초기 카테고리. |
-| NotStartedOnTime | `78` | 시간 범주에서 시작되지 않음. |
-| NotFinishedOnTime | `79` | 정시에 완료되지 않음 범주. |
-| NotFlag1 | `80` | 플래그1 범주가 아닙니다. |
-| NotFlag2 | `81` | Flag2 범주가 아닙니다. |
-| NotFlag3 | `82` | Flag3 범주가 아닙니다. |
-| NotFlag4 | `83` | 플래그4 범주 아님. |
-| NotFlag5 | `84` | Flag5 범주가 아닙니다. |
-| NotFlag6 | `85` | 플래그6 범주 아님. |
-| NotFlag7 | `86` | 플래그7 범주 아님. |
-| NotFlag8 | `87` | Flag8 범주가 아닙니다. |
-| NotFlag9 | `88` | 플래그9 범주 아님. |
-| NotFlag10 | `89` | Flag10 범주가 아닙니다. |
-| NotRolledUp | `90` | 롤업되지 않은 범주. |
-| NotProjectSummary | `91` | 프로젝트 요약 범주가 아닙니다. |
-| NotSplit | `92` | 분할 범주가 아님. |
-| NotExternalTasks | `93` | 외부 작업 범주가 아닙니다. |
-| NotFlag11 | `94` | Flag11 범주가 아닙니다. |
-| NotFlag12 | `95` | Flag12 범주가 아닙니다. |
-| NotFlag13 | `96` | 플래그13 범주가 아닙니다. |
-| NotFlag14 | `97` | 플래그14 범주가 아닙니다. |
-| NotFlag15 | `98` | 플래그15 범주가 아닙니다. |
-| NotFlag16 | `99` | Flag16 범주가 아닙니다. |
-| NotFlag17 | `100` | Flag17 범주가 아닙니다. |
-| NotFlag18 | `101` | Flag18 범주가 아닙니다. |
-| NotFlag19 | `102` | Flag19 범주가 아닙니다. |
-| NotFlag20 | `103` | Flag20 범주가 아닙니다. |
-| NotGroupBySummary | `104` | 요약 범주로 그룹화하지 않음. |
-| NotDeliverable | `105` | 배송 불가 범주. |
-| NotDependency | `106` | 종속성 범주가 아닙니다. |
-| NotActive | `107` | 활성 범주가 아닙니다. |
-| NotManuallyScheduled | `108` | 수동으로 예약되지 않은 범주. |
-| NotWarning | `109` | 경고 범주 아님. |
-| NotPlaceholderStart | `110` | 자리 표시자(시작) 범주가 아닙니다. |
-| NotPlaceholderFinish | `111` | 자리 표시자(완료) 범주가 아닙니다. |
-| NotPlaceholderDuration | `112` | 자리 표시자(기간) 범주가 아닙니다. |
-| NotPlaceholder | `113` | 자리 표시자 범주가 아닙니다. |
-| NotLate | `114` | 늦지 않음 카테고리. |
+| InProgress | `7` | 진행 중 카테고리. |
+| NotFinished | `8` | 미완료 카테고리. |
+| NotStarted | `9` | 시작되지 않음 카테고리. |
+| StartedLate | `10` | 늦게 시작됨. |
+| FinishedLate | `11` | 늦게 완료된 카테고리. |
+| StartedEarly | `12` | 일찍 시작된 카테고리. |
+| FinishedEarly | `13` | 일찍 완료된 카테고리. |
+| StartedOnTime | `14` | 제시간에 시작된 카테고리. |
+| FinishedOnTime | `15` | 제시간에 완료된 카테고리. |
+| Flag1 | `16` | Flag1 카테고리. |
+| Flag2 | `17` | Flag2 카테고리. |
+| Flag3 | `18` | Flag3 카테고리. |
+| Flag4 | `19` | Flag4 카테고리. |
+| Flag5 | `20` | Flag5 카테고리. |
+| Flag6 | `21` | Flag6 카테고리. |
+| Flag7 | `22` | Flag7 카테고리. |
+| Flag8 | `23` | Flag8 카테고리. |
+| Flag9 | `24` | Flag9 카테고리. |
+| Flag10 | `25` | Flag10 카테고리. |
+| RolledUp | `26` | Rolled Up 카테고리. |
+| ProjectSummary | `27` | Project Summary 카테고리. |
+| Split | `28` | Split 카테고리. |
+| ExternalTasks | `29` | External Tasks 카테고리. |
+| Flag11 | `30` | Flag11 카테고리. |
+| Flag12 | `31` | Flag12 카테고리. |
+| Flag13 | `32` | Flag13 카테고리. |
+| Flag14 | `33` | Flag14 카테고리. |
+| Flag15 | `34` | Flag15 카테고리. |
+| Flag16 | `35` | Flag16 카테고리. |
+| Flag17 | `36` | Flag17 카테고리. |
+| Flag18 | `37` | Flag18 카테고리. |
+| Flag19 | `38` | Flag19 카테고리. |
+| Flag20 | `39` | Flag20 카테고리. |
+| GroupBySummary | `40` | Group By Summary 카테고리. |
+| Deliverable | `41` | Deliverable 카테고리. |
+| Dependency | `42` | Dependency 카테고리. |
+| Active | `43` | Active 카테고리. |
+| ManuallyScheduled | `44` | Manually Scheduled 카테고리. |
+| Warning | `45` | Warning 카테고리. |
+| PlaceholderStart | `46` | 플레이스홀더 (시작) 카테고리. |
+| PlaceholderFinish | `47` | 플레이스홀더 (완료) 카테고리. |
+| PlaceholderDuration | `48` | 플레이스홀더 (기간) 카테고리. |
+| Placeholder | `49` | 플레이스홀더 카테고리. |
+| Late | `50` | 지연 카테고리. |
+| NotNormal | `64` | 정상 아님 |
+| NotMilestone | `65` | 마일스톤 아님 카테고리. |
+| NotSummary | `66` | 요약 아님 카테고리. |
+| NotCritical | `67` | 중요 아님 카테고리. |
+| NotMarked | `69` | 표시 안 됨 = 69 카테고리. |
+| NotInProgress | `71` | 진행 중 아님 = 71 카테고리. |
+| NotStartedLate | `74` | 시작 지연 아님 = 74 카테고리. |
+| NotFinishedLate | `75` | 완료 지연 아님 카테고리. |
+| NotStartedEarly | `76` | 조기 시작 아님 카테고리. |
+| NotFinishedEarly | `77` | 조기 완료 아님 카테고리. |
+| NotStartedOnTime | `78` | 정시 시작 아님 카테고리. |
+| NotFinishedOnTime | `79` | 정시 완료 아님 카테고리. |
+| NotFlag1 | `80` | 플래그1 아님 카테고리. |
+| NotFlag2 | `81` | 플래그2 아님 카테고리. |
+| NotFlag3 | `82` | 플래그3 아님 카테고리. |
+| NotFlag4 | `83` | 플래그4 아님 카테고리. |
+| NotFlag5 | `84` | 플래그5 아님 카테고리. |
+| NotFlag6 | `85` | 플래그6 아님 카테고리. |
+| NotFlag7 | `86` | 플래그7 아님 카테고리. |
+| NotFlag8 | `87` | 플래그8 아님 카테고리. |
+| NotFlag9 | `88` | Flag9 카테고리가 아닙니다. |
+| NotFlag10 | `89` | Flag10 카테고리가 아닙니다. |
+| NotRolledUp | `90` | Rolled Up 카테고리가 아닙니다. |
+| NotProjectSummary | `91` | Project Summary 카테고리가 아닙니다. |
+| NotSplit | `92` | Split 카테고리가 아닙니다. |
+| NotExternalTasks | `93` | External Tasks 카테고리가 아닙니다. |
+| NotFlag11 | `94` | Flag11 카테고리가 아닙니다. |
+| NotFlag12 | `95` | Flag12 카테고리가 아닙니다. |
+| NotFlag13 | `96` | Flag13 카테고리가 아닙니다. |
+| NotFlag14 | `97` | Flag14 카테고리가 아닙니다. |
+| NotFlag15 | `98` | Flag15 카테고리가 아닙니다. |
+| NotFlag16 | `99` | Flag16 카테고리가 아닙니다. |
+| NotFlag17 | `100` | Flag17 카테고리가 아닙니다. |
+| NotFlag18 | `101` | Flag18 카테고리가 아닙니다. |
+| NotFlag19 | `102` | Flag19 카테고리가 아닙니다. |
+| NotFlag20 | `103` | Flag20 카테고리가 아닙니다. |
+| NotGroupBySummary | `104` | Group By Summary 카테고리가 아닙니다. |
+| NotDeliverable | `105` | Deliverable 카테고리가 아닙니다. |
+| NotDependency | `106` | Dependency 카테고리가 아닙니다. |
+| NotActive | `107` | Active 카테고리가 아닙니다. |
+| NotManuallyScheduled | `108` | Manually Scheduled 카테고리가 아닙니다. |
+| NotWarning | `109` | Warning 카테고리가 아닙니다. |
+| NotPlaceholderStart | `110` | Placeholder (Start) 카테고리가 아닙니다. |
+| NotPlaceholderFinish | `111` | Placeholder (Finish) 카테고리가 아닙니다. |
+| NotPlaceholderDuration | `112` | Placeholder (Duration) 카테고리가 아닙니다. |
+| NotPlaceholder | `113` | 플레이스홀더가 아닌 카테고리. |
+| NotLate | `114` | 늦지 않은 카테고리. |
 
-### 비고
+## 비고
 
-Gantt 차트의 '막대 스타일' 대화 상자, '표시 대상' 열을 참조하세요.
+Gantt 차트의 'Bar Styles' 대화 상자에서 'Show For' 열을 확인하십시오.
 
-### 또한보십시오
+## 예제
 
-* 네임스페이스 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 집회 [Aspose.Tasks](../../)
+ShowFor 카테고리를 사용하는 방법을 보여줍니다.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var view = (GanttChartView)project.DefaultView;
+
+var barStyle = this.GetCustomBarStyle();
+barStyle.ShowForTaskUid = null;
+
+var showForCategories = new[]
+{
+    GanttBarShowFor.Active,
+    GanttBarShowFor.NotSummary,
+    GanttBarShowFor.Milestone,
+    GanttBarShowFor.Finished
+};
+
+barStyle.ShowForCategories = new List<GanttBarShowFor>(showForCategories);
+barStyle.Name = "My common style";
+view.BarStyles.Add(barStyle);
+
+// 프로젝트 작업...
+```
+
+### 또 보기
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
+
+

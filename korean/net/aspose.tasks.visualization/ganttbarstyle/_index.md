@@ -1,14 +1,14 @@
 ---
-title: GanttBarStyle
-second_title: .NET API 참조용 Aspose.Tasks
-description: Gantt 차트 보기에서 MSP가 사용하는 막대 스타일을 나타냅니다.
+title: "GanttBarStyle 클래스"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "Aspose.Tasks.Visualization.GanttBarStyle 클래스. Gantt 차트 보기에서 MSP가 사용하는 막대 스타일을 나타냅니다"
 type: docs
-weight: 2740
+weight: 3070
 url: /ko/net/aspose.tasks.visualization/ganttbarstyle/
 ---
 ## GanttBarStyle class
 
-Gantt 차트 보기에서 MSP가 사용하는 막대 스타일을 나타냅니다.
+MSP에서 Gantt 차트 보기에서 사용되는 막대 스타일을 나타냅니다.
 
 ```csharp
 public class GanttBarStyle
@@ -18,42 +18,146 @@ public class GanttBarStyle
 
 | 이름 | 설명 |
 | --- | --- |
-| [GanttBarStyle](ganttbarstyle/)() | 의 새 인스턴스를 초기화합니다.`GanttBarStyle` 클래스. |
+| [GanttBarStyle](ganttbarstyle/)() | `GanttBarStyle` 클래스의 새 인스턴스를 초기화합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [BottomBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/bottombartextconverter/) { get; set; } | 사용자 정의 변환기를 가져오거나 설정하여 작업 표시줄 아래쪽에 렌더링할 텍스트를 가져옵니다. 다음 값을 재정의합니다.[`BottomField`](./bottomfield/) 속성. |
-| [BottomField](../../aspose.tasks.visualization/ganttbarstyle/bottomfield/) { get; set; } | 막대 하단에 표시할 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/) . |
+| [BottomBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/bottombartextconverter/) { get; set; } | 작업 막대의 하단에 표시할 텍스트를 가져오기 위한 사용자 정의 변환기를 가져오거나 설정합니다. [`BottomField`](./bottomfield/) 속성의 값을 재정의합니다. |
+| [BottomField](../../aspose.tasks.visualization/ganttbarstyle/bottomfield/) { get; set; } | 막대 하단에 표시될 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/). |
 | [EndShape](../../aspose.tasks.visualization/ganttbarstyle/endshape/) { get; set; } | 막대의 끝 모양을 가져오거나 설정합니다. |
 | [EndShapeColor](../../aspose.tasks.visualization/ganttbarstyle/endshapecolor/) { get; set; } | 끝 모양의 색상을 가져오거나 설정합니다. |
-| [EndShapeType](../../aspose.tasks.visualization/ganttbarstyle/endshapetype/) { get; set; } | 끝 모양의 유형을 가져오거나 설정합니다. [`GanttBarType`](../ganttbartype/) . |
-| [From](../../aspose.tasks.visualization/ganttbarstyle/from/) { get; set; } | 간트 바의 시작점 위치를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/) . |
-| [InsideBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/insidebartextconverter/) { get; set; } | 사용자 정의 변환기를 가져오거나 설정하여 작업 표시줄 내부에 렌더링할 텍스트를 가져옵니다. 다음 값을 재정의합니다.[`InsideField`](./insidefield/) 속성. |
-| [InsideField](../../aspose.tasks.visualization/ganttbarstyle/insidefield/) { get; set; } | 막대 안에 표시할 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/) . |
-| [LeftBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/leftbartextconverter/) { get; set; } | 작업 표시줄 왼쪽에 텍스트를 렌더링하도록 사용자 정의 변환기를 가져오거나 설정합니다. 다음 값을 재정의합니다.[`LeftField`](./leftfield/) 속성. MPP 형식으로 유지되지 않습니다. |
-| [LeftField](../../aspose.tasks.visualization/ganttbarstyle/leftfield/) { get; set; } | 막대 왼쪽에 표시할 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/) . |
-| [MiddleFillPattern](../../aspose.tasks.visualization/ganttbarstyle/middlefillpattern/) { get; set; } | Gantt 막대의 채우기 패턴을 가져오거나 설정합니다. |
+| [EndShapeType](../../aspose.tasks.visualization/ganttbarstyle/endshapetype/) { get; set; } | 끝 모양의 유형을 가져오거나 설정합니다. [`GanttBarType`](../ganttbartype/). |
+| [From](../../aspose.tasks.visualization/ganttbarstyle/from/) { get; set; } | 간트 막대의 시작 지점 위치를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/). |
+| [InsideBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/insidebartextconverter/) { get; set; } | 작업 막대 내부에 표시할 텍스트를 가져오기 위한 사용자 정의 변환기를 가져오거나 설정합니다. [`InsideField`](./insidefield/) 속성의 값을 재정의합니다. |
+| [InsideField](../../aspose.tasks.visualization/ganttbarstyle/insidefield/) { get; set; } | 막대 내부에 표시될 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/). |
+| [LeftBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/leftbartextconverter/) { get; set; } | 작업 막대 왼쪽에 표시할 텍스트를 가져오기 위한 사용자 정의 변환기를 가져오거나 설정합니다. [`LeftField`](./leftfield/) 속성의 값을 재정의합니다. MPP 형식에 저장되지 않습니다. |
+| [LeftField](../../aspose.tasks.visualization/ganttbarstyle/leftfield/) { get; set; } | 막대 왼쪽에 표시될 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/). |
+| [MiddleFillPattern](../../aspose.tasks.visualization/ganttbarstyle/middlefillpattern/) { get; set; } | 간트 막대의 채우기 패턴을 가져오거나 설정합니다. |
 | [MiddleShape](../../aspose.tasks.visualization/ganttbarstyle/middleshape/) { get; set; } | 막대의 중간 모양을 가져오거나 설정합니다. |
-| [MiddleShapeColor](../../aspose.tasks.visualization/ganttbarstyle/middleshapecolor/) { get; set; } | 가운데 모양의 색상을 가져오거나 설정합니다. |
+| [MiddleShapeColor](../../aspose.tasks.visualization/ganttbarstyle/middleshapecolor/) { get; set; } | 중간 모양의 색상을 가져오거나 설정합니다. |
 | [Name](../../aspose.tasks.visualization/ganttbarstyle/name/) { get; set; } | 스타일의 이름을 가져오거나 설정합니다. |
 | [ParentStyle](../../aspose.tasks.visualization/ganttbarstyle/parentstyle/) { get; set; } | 사용자 지정 작업별 스타일에 대한 상위(또는 공통) 스타일을 가져오거나 설정합니다. |
-| [RightBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/rightbartextconverter/) { get; set; } | 작업 표시줄 오른쪽에 텍스트를 렌더링하도록 사용자 정의 변환기를 가져오거나 설정합니다. 다음 값을 재정의합니다.[`RightField`](./rightfield/) 속성. |
-| [RightField](../../aspose.tasks.visualization/ganttbarstyle/rightfield/) { get; set; } | 막대 오른쪽에 표시할 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/) . |
-| [Row](../../aspose.tasks.visualization/ganttbarstyle/row/) { get; set; } | 행 번호를 가져오거나 설정합니다.  1에서 4까지 가능합니다(1이 기본값임). |
-| [ShowForCategories](../../aspose.tasks.visualization/ganttbarstyle/showforcategories/) { get; set; } | 스타일이 적용되는 작업 범주를 가져오거나 설정합니다. Gantt chart 의 상위(또는 공통) 막대 스타일에 적용할 수 있습니다(참조[`BarStyles`](../../aspose.tasks/ganttchartview/barstyles/) ). |
-| [ShowForTaskUid](../../aspose.tasks.visualization/ganttbarstyle/showfortaskuid/) { get; set; } | 스타일이 적용된 작업의 고유 ID를 가져오거나 설정합니다. Gantt 차트의 작업별 막대 스타일에 적용할 수 있습니다(참조:[`CustomBarStyles`](../../aspose.tasks/ganttchartview/custombarstyles/) ). |
+| [RightBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/rightbartextconverter/) { get; set; } | 작업 막대 오른쪽에 표시할 텍스트를 가져오기 위한 사용자 정의 변환기를 가져오거나 설정합니다. [`RightField`](./rightfield/) 속성의 값을 재정의합니다. |
+| [RightField](../../aspose.tasks.visualization/ganttbarstyle/rightfield/) { get; set; } | 막대 오른쪽에 표시될 데이터를 가져오거나 설정합니다. [`Field`](../../aspose.tasks/field/). |
+| [Row](../../aspose.tasks.visualization/ganttbarstyle/row/) { get; set; } | 행 번호를 가져오거나 설정합니다. 1에서 4 사이일 수 있으며(기본값은 1). |
+| [ShowForCategories](../../aspose.tasks.visualization/ganttbarstyle/showforcategories/) { get; set; } | 스타일이 적용되는 작업 범주를 가져오거나 설정합니다. 간트 차트의 막대에 대한 상위(또는 공통) 스타일에 적용됩니다([`BarStyles`](../../aspose.tasks/ganttchartview/barstyles/) 참조). |
+| [ShowForTaskUid](../../aspose.tasks.visualization/ganttbarstyle/showfortaskuid/) { get; set; } | 스타일이 적용되는 작업의 고유 ID를 가져오거나 설정합니다. 간트 차트의 막대에 대한 작업별 스타일에 적용됩니다([`CustomBarStyles`](../../aspose.tasks/ganttchartview/custombarstyles/) 참조). |
 | [StartShape](../../aspose.tasks.visualization/ganttbarstyle/startshape/) { get; set; } | 막대의 시작 모양을 가져오거나 설정합니다. |
 | [StartShapeColor](../../aspose.tasks.visualization/ganttbarstyle/startshapecolor/) { get; set; } | 시작 모양의 색상을 가져오거나 설정합니다. |
 | [StartShapeType](../../aspose.tasks.visualization/ganttbarstyle/startshapetype/) { get; set; } | 시작 모양의 유형을 가져오거나 설정합니다. |
-| [To](../../aspose.tasks.visualization/ganttbarstyle/to/) { get; set; } | Gantt 막대의 끝점 위치를 가져오거나 설정합니다. |
-| [TopBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/topbartextconverter/) { get; set; } | 작업 표시줄 맨 위에 렌더링할 텍스트를 가져오도록 사용자 정의 변환기를 가져오거나 설정합니다. 다음 값을 재정의합니다.[`TopField`](./topfield/) 속성. |
-| [TopField](../../aspose.tasks.visualization/ganttbarstyle/topfield/) { get; set; } | 막대 상단에 표시할 데이터를 가져오거나 설정합니다. |
+| [To](../../aspose.tasks.visualization/ganttbarstyle/to/) { get; set; } | 간트 막대의 종료 지점 위치를 가져오거나 설정합니다. |
+| [TopBarTextConverter](../../aspose.tasks.visualization/ganttbarstyle/topbartextconverter/) { get; set; } | 작업 막대의 상단에 표시할 텍스트를 가져오기 위한 사용자 정의 변환기를 가져오거나 설정합니다. [`TopField`](./topfield/) 속성의 값을 재정의합니다. |
+| [TopField](../../aspose.tasks.visualization/ganttbarstyle/topfield/) { get; set; } | 막대 상단에 표시될 데이터를 가져오거나 설정합니다. |
 
-### 또한보십시오
+## 예제
 
-* 네임스페이스 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 집회 [Aspose.Tasks](../../)
+Gantt 차트 보기에서 사용자 정의 막대 스타일을 사용하는 방법을 보여줍니다.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var ganttChartView = (GanttChartView)project.Views.First(v => v.Name == "Gantt &Chart");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.Timescale = Timescale.DefinedInView;
+saveOptions.ViewSettings = ganttChartView;
+
+// 막대 스타일은 작업별일 수 있으며 (GanttChartView.CustomBarStyles에 위치함)
+// 카테고리별 (GanttChartView.BarStyles에 위치함)
+foreach (GanttBarStyle ganttBarStyle in ganttChartView.CustomBarStyles)
+{
+    if (ganttBarStyle.ShowForTaskUid != 4)
+    {
+        continue;
+    }
+
+    // 시연을 위해 고유 ID = 4인 작업의 스타일을 수정하고 있습니다.
+    // 여기서는 필드 (TaskName)를 작업 막대 왼쪽에 표시하도록 설정합니다.
+    ganttBarStyle.LeftField = Field.TaskName;
+    // 여기서는 사용자 정의 변환기를 설정하여 작업 막대 내부에 표시될 텍스트를 제어합니다.
+    ganttBarStyle.InsideBarTextConverter = task => "Hours rem.: " + (int)task.Get(Tsk.RemainingWork).TimeSpan.TotalHours;
+
+    ganttBarStyle.MiddleShapeColor = Color.Green;
+    ganttBarStyle.MiddleShape = GanttBarMiddleShape.LineTop;
+    ganttBarStyle.StartShape = GanttBarEndShape.LeftBracket;
+    ganttBarStyle.StartShapeColor = Color.Aqua;
+    ganttBarStyle.EndShape = GanttBarEndShape.RightBracket;
+    ganttBarStyle.EndShapeColor = Color.Aquamarine;
+}
+
+foreach (GanttBarStyle ganttBarStyle in ganttChartView.BarStyles)
+{
+    if (!ganttBarStyle.ShowForCategories.Contains(GanttBarShowFor.Milestone))
+    {
+        continue;
+    }
+
+    // 시연을 위해 마일스톤 작업에 적용되는 스타일을 수정하고 있습니다.
+
+    ganttBarStyle.StartShape = GanttBarEndShape.Diamond;
+    ganttBarStyle.RightField = Field.TaskActualFinish;
+    ganttBarStyle.TopBarTextConverter = task => task.Get(Tsk.ActualStart).Day.ToString();
+}
+
+project.Save(OutDir + "WorkWithGanttChartViewBarStyles_out.pdf", saveOptions);
+```
+
+뷰의 사용자 정의 막대 스타일을 읽는 방법을 보여줍니다.
+
+```csharp
+var project = new Project(DataDir + "CustomBarStyle.mpp");
+
+var view = (GanttChartView)project.DefaultView;
+Console.WriteLine("Custom bar styles count: {0}", view.CustomBarStyles.Count);
+
+var style1 = view.CustomBarStyles[0];
+Console.WriteLine("Style1.ParentStyle Name: {0}", style1.ParentStyle.Name);
+Console.WriteLine("Style1.LeftField: {0}", style1.LeftField);
+Console.WriteLine("Style1.RightField: {0}", style1.RightField);
+Console.WriteLine("Style1.TopField: {0}", style1.TopField);
+Console.WriteLine("Style1.BottomField: {0}", style1.BottomField);
+Console.WriteLine("Style1.InsideField: {0}", style1.InsideField);
+Console.WriteLine("Style1.From: {0}", style1.From);
+Console.WriteLine("Style1.To: {0}", style1.To);
+Console.WriteLine("Style1.Row: {0}", style1.Row);
+
+var style2 = view.CustomBarStyles[1];
+Console.WriteLine("Style2.LeftField: {0}", style2.LeftField);
+Console.WriteLine("Style2.RightField: {0}", style2.RightField);
+Console.WriteLine("Style2.TopField: {0}", style2.TopField);
+Console.WriteLine("Style2.BottomField: {0}", style2.BottomField);
+Console.WriteLine("Style2.InsideField: {0}", style2.InsideField);
+Console.WriteLine("Style2.From: {0}", style2.From);
+Console.WriteLine("Style2.To: {0}", style2.To);
+Console.WriteLine("Style2.Row: {0}", style1.Row);
+
+var style3 = view.CustomBarStyles[2];
+Console.WriteLine("Style3.LeftField: {0}", style3.LeftField);
+Console.WriteLine("Style3.RightField: {0}", style3.RightField);
+Console.WriteLine("Style3.TopField: {0}", style3.TopField);
+Console.WriteLine("Style3.BottomField: {0}", style3.BottomField);
+Console.WriteLine("Style3.InsideField: {0}", style3.InsideField);
+
+Console.WriteLine("Style3.StartShape: {0}", style3.StartShape);
+Console.WriteLine("Style3.StartShapeType: {0}", style3.StartShapeType);
+Console.WriteLine("Style3.StartShapeColor: {0}", style3.StartShapeColor);
+
+Console.WriteLine("Style3.EndShape: {0}", style3.EndShape);
+Console.WriteLine("Style3.EndShapeType: {0}", style3.EndShapeType);
+Console.WriteLine("Style3.EndShapeColor: {0}", style3.EndShapeColor);
+
+Console.WriteLine("Style3.MiddleShape: {0}", style3.MiddleShape);
+Console.WriteLine("Style3.MiddleFillPattern: {0}", style3.MiddleFillPattern);
+Console.WriteLine("Style3.MiddleShapeColor: {0}", style3.MiddleShapeColor);
+Console.WriteLine("Style3.From: {0}", style3.From);
+Console.WriteLine("Style3.To: {0}", style3.To);
+Console.WriteLine("Style3.Row: {0}", style1.Row);
+```
+
+### 또 보기
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
+
+
