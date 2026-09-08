@@ -1,23 +1,23 @@
 ---
-title: Project.CriticalSlackLimit
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение CriticalSlackLimit.
+title: "Project.CriticalSlackLimit"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Задачи считаются критическими в MS Project, если общий резерв меньше или равен этому количеству дней"
 type: docs
-weight: 180
+weight: 190
 url: /ru/net/aspose.tasks/project/criticalslacklimit/
 ---
 ## Project.CriticalSlackLimit property
 
-Получает или задает значение CriticalSlackLimit.
+Задачи считаются критическими в MS Project, если общий резерв меньше или равен этому количеству дней.
 
 ```csharp
 public int CriticalSlackLimit { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

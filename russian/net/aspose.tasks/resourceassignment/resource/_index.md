@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Resource
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Ресурс назначенный задаче.
+title: "ResourceAssignment.Resource"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Ресурс, назначенный задаче"
 type: docs
 weight: 510
 url: /ru/net/aspose.tasks/resourceassignment/resource/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resourceassignment/resource/
 public Resource Resource { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../../resource/)
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

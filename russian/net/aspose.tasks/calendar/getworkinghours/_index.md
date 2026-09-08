@@ -1,14 +1,14 @@
 ---
-title: Calendar.GetWorkingHours
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Calendar метод. Возврат рабочего времени для указанных дат.
+title: "Calendar.GetWorkingHours"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Calendar. Возвращает WorkUnit, Start, Finish и Duration рабочих часов для указанного интервала даты и времени."
 type: docs
-weight: 200
+weight: 220
 url: /ru/net/aspose.tasks/calendar/getworkinghours/
 ---
 ## GetWorkingHours(DateTime, DateTime) {#getworkinghours}
 
-Возврат рабочего времени для указанных дат.
+Возвращает WorkUnit — начало, конец и продолжительность рабочих часов для указанного интервала даты и времени.
 
 ```csharp
 public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
@@ -16,25 +16,41 @@ public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| start | DateTime | Дата начала. |
-| finish | DateTime | Дата окончания. |
+| start | DateTime | Дата начала интервала. |
+| завершение | DateTime | Дата завершения интервала. |
 
 ### Возвращаемое значение
 
-Рабочее время.
+Экземпляр класса [`WorkUnit`](../../workunit/), содержащий начало, конец и продолжительность рабочих часов.
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить рабочие часы для конкретных дат.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// получить рабочие часы для конкретной даты
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+// Будет выведено 16 часов
+Console.WriteLine(workUnit.WorkingHours);
+```
+
+### См. также
 
 * class [WorkUnit](../../workunit/)
 * class [Calendar](../)
-* пространство имен [Aspose.Tasks](../../calendar/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetWorkingHours(DateTime) {#getworkinghours_1}
 
-Возвращает количество рабочих часов на дату.
+Возвращает количество рабочих часов на указанную дату.
 
 ```csharp
 public TimeSpan GetWorkingHours(DateTime dt)
@@ -42,16 +58,32 @@ public TimeSpan GetWorkingHours(DateTime dt)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dt | DateTime | Дата, на которую нужно получить рабочее время. |
+| dt | DateTime | Дата, для которой нужно получить рабочие часы. |
 
 ### Возвращаемое значение
 
-Рабочее время.
+Рабочие часы на указанную дату.
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить рабочие часы для конкретной даты.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// получить рабочие часы для конкретной даты
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 10));
+
+// Будут выведены 8 часов
+Console.WriteLine(workingHours.Hours);
+```
+
+### См. также
 
 * class [Calendar](../)
-* пространство имен [Aspose.Tasks](../../calendar/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

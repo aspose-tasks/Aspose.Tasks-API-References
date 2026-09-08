@@ -1,7 +1,7 @@
 ---
-title: Resource.Baselines
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает экземпляр BaselineCollection для этого объекта. Базовые значения для ресурса.
+title: "Resource.Baselines"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает экземпляр BaselineCollection для этого объекта. Базовые значения для ресурса"
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/resource/baselines/
@@ -14,11 +14,31 @@ url: /ru/net/aspose.tasks/resource/baselines/
 public BaselineCollection Baselines { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать базовые линии ресурса.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+foreach (var resource in project.Resources)
+{
+    foreach (var baseline in resource.Baselines)
+    {
+        Console.WriteLine("BaselineNumber: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+    }
+}
+```
+
+### См. также
 
 * class [BaselineCollection](../../baselinecollection/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

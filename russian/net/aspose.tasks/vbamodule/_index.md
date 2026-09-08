@@ -1,9 +1,9 @@
 ---
-title: Class VbaModule
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.VbaModule сорт. Представляет модуль VBA.
+title: "Класс VbaModule"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.VbaModule. Представляет модуль VBA"
 type: docs
-weight: 2490
+weight: 2810
 url: /ru/net/aspose.tasks/vbamodule/
 ---
 ## VbaModule class
@@ -11,21 +11,44 @@ url: /ru/net/aspose.tasks/vbamodule/
 Представляет модуль VBA.
 
 ```csharp
-public class VbaModule : IVbaModule
+public sealed class VbaModule
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Attributes](../../aspose.tasks/vbamodule/attributes/) { get; } |  |
-| [Name](../../aspose.tasks/vbamodule/name/) { get; } |  |
-| [SourceCode](../../aspose.tasks/vbamodule/sourcecode/) { get; } |  |
+| [Attributes](../../aspose.tasks/vbamodule/attributes/) { get; } | Получает коллекцию атрибутов модуля. |
+| [Name](../../aspose.tasks/vbamodule/name/) { get; set; } | Получает имя модуля VBA |
+| [SourceCode](../../aspose.tasks/vbamodule/sourcecode/) { get; set; } | Получает или задает исходный код модуля VBA |
+| [Type](../../aspose.tasks/vbamodule/type/) { get; } | Получает тип модуля. |
 
-### Смотрите также
+## Методы
 
-* interface [IVbaModule](../ivbamodule/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+| Имя | Описание |
+| --- | --- |
+| static [CreateClassModule](../../aspose.tasks/vbamodule/createclassmodule/)(string) | Создает экземпляр `VbaModule` с типом VbaModuleType.ClassModule. |
+| static [CreateProceduralModule](../../aspose.tasks/vbamodule/createproceduralmodule/)(string) | Создает экземпляр `VbaModule` с типом VbaModuleType.ProceduralModule. |
+
+## Примеры
+
+Показывает, как читать модули проекта VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: LoadOptions строитель. Инициализирует новый экземплярLoadOptions класс.
+title: "LoadOptions.LoadOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "LoadOptions конструктор. Инициализирует новый экземпляр класса LoadOptions"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/loadoptions/loadoptions/
 ---
 ## LoadOptions constructor
 
-Инициализирует новый экземпляр[`LoadOptions`](../) класс.
+Инициализирует новый экземпляр класса [`LoadOptions`](../).
 
 ```csharp
 public LoadOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Tasks](../../loadoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../loadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

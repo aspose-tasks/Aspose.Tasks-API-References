@@ -1,9 +1,9 @@
 ---
-title: Project.Guid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение Guid.
+title: "Project.Guid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение типа Guid"
 type: docs
-weight: 450
+weight: 470
 url: /ru/net/aspose.tasks/project/guid/
 ---
 ## Project.Guid property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/guid/
 public Guid Guid { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Prj.WeekStartDay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Первый день недели.
+title: "Prj.WeekStartDay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Первый день недели"
 type: docs
-weight: 770
+weight: 780
 url: /ru/net/aspose.tasks/prj/weekstartday/
 ---
 ## Prj.WeekStartDay field
@@ -14,13 +14,33 @@ url: /ru/net/aspose.tasks/prj/weekstartday/
 public static readonly Key<DayType, PrjKey> WeekStartDay;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойства будних дней проекта.
+
+```csharp
+var project = new Project(DataDir + "WriteWeekdayProperties.mpp");
+
+// Установить свойства будних дней
+project.Set(Prj.WeekStartDay, DayType.Monday);
+project.Set(Prj.DaysPerMonth, 24);
+project.Set(Prj.MinutesPerDay, 540);
+project.Set(Prj.MinutesPerWeek, 3240);
+
+// Отобразить свойства будних дней
+Console.WriteLine("Week Start Date: " + project.Get(Prj.WeekStartDay));
+Console.WriteLine("Days Per Month: " + project.Get(Prj.DaysPerMonth));
+Console.WriteLine("Minutes Per Day: " + project.Get(Prj.MinutesPerDay));
+Console.WriteLine("Minutes Per Week: " + project.Get(Prj.MinutesPerWeek));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [DayType](../../daytype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

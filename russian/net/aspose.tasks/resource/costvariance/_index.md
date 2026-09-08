@@ -1,7 +1,7 @@
 ---
-title: Resource.CostVariance
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение CostVariance.
+title: "Resource.CostVariance"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение CostVariance"
 type: docs
 weight: 280
 url: /ru/net/aspose.tasks/resource/costvariance/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/costvariance/
 public double CostVariance { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

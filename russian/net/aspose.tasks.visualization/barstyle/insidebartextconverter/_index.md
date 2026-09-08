@@ -1,24 +1,24 @@
 ---
-title: BarStyle.InsideBarTextConverter
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BarStyle свойство. Получает или задает определяемый пользователем преобразователь для отображения текста внутри панели задач. Переопределяет значениеInsideField свойство.
+title: "BarStyle.InsideBarTextConverter"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство BarStyle. Получает или задает пользовательский конвертер для получения текста, отображаемого внутри полосы задач. Переопределяет значение свойства InsideField."
 type: docs
-weight: 80
+weight: 100
 url: /ru/net/aspose.tasks.visualization/barstyle/insidebartextconverter/
 ---
 ## BarStyle.InsideBarTextConverter property
 
-Получает или задает определяемый пользователем преобразователь для отображения текста внутри панели задач. Переопределяет значение[`InsideField`](../insidefield/) свойство.
+Получает или задает пользовательский конвертер для получения текста, отображаемого внутри полосы задачи. Переопределяет значение свойства [`InsideField`](../insidefield/).
 
 ```csharp
 public TaskBarTextConverter InsideBarTextConverter { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../barstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

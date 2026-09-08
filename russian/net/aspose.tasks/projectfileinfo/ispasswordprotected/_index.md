@@ -1,23 +1,23 @@
 ---
-title: ProjectFileInfo.IsPasswordProtected
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectFileInfo свойство. Получает значение указывающее защищен ли проект паролем.
+title: "ProjectFileInfo.IsPasswordProtected"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ProjectFileInfo. Возвращает значение, указывающее, защищён ли проект паролем"
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/projectfileinfo/ispasswordprotected/
 ---
 ## ProjectFileInfo.IsPasswordProtected property
 
-Получает значение, указывающее, защищен ли проект паролем.
+Возвращает значение, указывающее, защищён ли проект паролем.
 
 ```csharp
 public bool IsPasswordProtected { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ProjectFileInfo](../)
-* пространство имен [Aspose.Tasks](../../projectfileinfo/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

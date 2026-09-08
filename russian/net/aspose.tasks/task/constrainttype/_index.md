@@ -1,7 +1,7 @@
 ---
-title: Task.ConstraintType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение ConstraintType.
+title: "Task.ConstraintType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение ConstraintType"
 type: docs
 weight: 240
 url: /ru/net/aspose.tasks/task/constrainttype/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/constrainttype/
 public ConstraintType ConstraintType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [ConstraintType](../../constrainttype/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

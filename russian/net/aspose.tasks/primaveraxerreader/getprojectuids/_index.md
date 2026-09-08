@@ -1,14 +1,14 @@
 ---
-title: PrimaveraXerReader.GetProjectUids
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraXerReader метод. Возвращает список уникальных идентификаторов проектов.
+title: "GetProjectUids"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Возвращает список уникальных идентификаторов проектов."
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/primaveraxerreader/getprojectuids/
 ---
 ## PrimaveraXerReader.GetProjectUids method
 
-Возвращает список уникальных идентификаторов проектов.
+Верните список уникальных идентификаторов проектов.
 
 ```csharp
 public List<int> GetProjectUids()
@@ -18,10 +18,10 @@ public List<int> GetProjectUids()
 
 Список уникальных идентификаторов проектов.
 
-### Смотрите также
+### См. также
 
-* class [PrimaveraXerReader](../)
-* пространство имен [Aspose.Tasks](../../primaveraxerreader/)
-* сборка [Aspose.Tasks](../../../)
+* class [PrimaveraXerReader](../../primaveraxerreader)
+* namespace [Aspose.Tasks](../../primaveraxerreader)
+* assembly [Aspose.Tasks](../../../)
 
-
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для Aspose.Tasks.dll -->

@@ -1,23 +1,23 @@
 ---
-title: FontResolveEventArgs.RequestedFontName
-second_title: Справочник по Aspose.Tasks для .NET API
-description: FontResolveEventArgs свойство. Получает имя запрошенного шрифта.
+title: "FontResolveEventArgs.RequestedFontName"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство FontResolveEventArgs. Получает имя запрошенного шрифта"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/fontresolveeventargs/requestedfontname/
 ---
 ## FontResolveEventArgs.RequestedFontName property
 
-Получает имя запрошенного шрифта.
+Возвращает имя запрошенного шрифта.
 
 ```csharp
 public string RequestedFontName { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [FontResolveEventArgs](../)
-* пространство имен [Aspose.Tasks](../../fontresolveeventargs/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontresolveeventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Task.FixedCost
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение FixedCost.
+title: "Task.FixedCost"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение FixedCost"
 type: docs
 weight: 480
 url: /ru/net/aspose.tasks/task/fixedcost/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/fixedcost/
 public double FixedCost { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

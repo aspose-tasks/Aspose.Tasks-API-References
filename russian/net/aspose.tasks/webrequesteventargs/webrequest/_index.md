@@ -1,23 +1,23 @@
 ---
-title: WebRequestEventArgs.WebRequest
-second_title: Справочник по Aspose.Tasks для .NET API
-description: WebRequestEventArgs свойство. Получает вебзапрос для отправки в вебAPI Project Server.
+title: "WebRequestEventArgs.WebRequest"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство WebRequestEventArgs. Получает веб‑запрос, отправляемый в веб‑API Project Servers"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/webrequesteventargs/webrequest/
 ---
 ## WebRequestEventArgs.WebRequest property
 
-Получает веб-запрос для отправки в веб-API Project Server.
+Получает веб‑запрос, отправляемый в веб‑API сервера Project.
 
 ```csharp
 public HttpWebRequest WebRequest { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WebRequestEventArgs](../)
-* пространство имен [Aspose.Tasks](../../webrequesteventargs/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../webrequesteventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PageSavingArgs.KeepStreamOpen
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PageSavingArgs свойство. Получает или задает значение указывающее должна ли процедура рендеринга сохранятьStream открывается после записи страницы.
+title: "PageSavingArgs.KeepStreamOpen"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PageSavingArgs. Возвращает или задает значение, указывающее, следует ли рендеринговой процедуре оставлять Stream открытым после записи страницы"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/pagesavingargs/keepstreamopen/
 ---
 ## PageSavingArgs.KeepStreamOpen property
 
-Получает или задает значение, указывающее, должна ли процедура рендеринга сохранять[`Stream`](../stream/) открывается после записи страницы.
+Возвращает или задает значение, указывающее, следует ли рендеринговой процедуре оставлять [`Stream`](../stream/) открытым после записи страницы.
 
 ```csharp
 public bool KeepStreamOpen { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PageSavingArgs](../)
-* пространство имен [Aspose.Tasks.Saving](../../pagesavingargs/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

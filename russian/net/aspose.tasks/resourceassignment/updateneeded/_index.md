@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.UpdateNeeded
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение указывающее установлен ли параметр UpdateNeeded.
+title: "ResourceAssignment.UpdateNeeded"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Возвращает или задает значение, указывающее, установлено ли UpdateNeeded"
 type: docs
 weight: 630
 url: /ru/net/aspose.tasks/resourceassignment/updateneeded/
 ---
 ## ResourceAssignment.UpdateNeeded property
 
-Получает или задает значение, указывающее, установлен ли параметр UpdateNeeded.
+Получает или задает значение, указывающее, установлен ли UpdateNeeded.
 
 ```csharp
 public bool UpdateNeeded { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

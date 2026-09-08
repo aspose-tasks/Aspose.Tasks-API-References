@@ -1,9 +1,9 @@
 ---
-title: Enum WorkGroupType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.WorkGroupType перечисление. Указывает тип рабочей группы.
+title: "Перечисление WorkGroupType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.WorkGroupType. Указывает тип рабочей группы"
 type: docs
-weight: 3260
+weight: 3620
 url: /ru/net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration
@@ -14,18 +14,32 @@ url: /ru/net/aspose.tasks/workgrouptype/
 public enum WorkGroupType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Default | `0` | Указывает тип рабочей группы по умолчанию. |
-| None | `1` | Указывает на тип рабочей группы "Нет". |
-| Email | `2` | Указывает тип рабочей группы электронной почты. |
-| Web | `3` | Указывает тип рабочей веб-группы. |
+| None | `1` | Указывает тип рабочей группы 'None'. |
+| Email | `2` | Указывает тип рабочей группы 'Email'. |
+| Web | `3` | Указывает тип рабочей группы 'Web'. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как установить рабочую группу ресурса.
+
+```csharp
+var project = new Project();
+
+// ...
+var resource = project.Resources.Add("Resource");
+resource.Set(Rsc.Workgroup, WorkGroupType.Web);
+
+// ...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

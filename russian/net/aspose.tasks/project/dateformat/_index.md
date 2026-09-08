@@ -1,24 +1,24 @@
 ---
-title: Project.DateFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение DateFormat.
+title: "Project.DateFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение DateFormat"
 type: docs
-weight: 260
+weight: 270
 url: /ru/net/aspose.tasks/project/dateformat/
 ---
 ## Project.DateFormat property
 
-Получает или задает значение DateFormat.
+Получает или задает значение свойства DateFormat.
 
 ```csharp
 public DateFormat DateFormat { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [DateFormat](../../dateformat/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Prj.Keywords
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Ключевые слова проекта.
+title: "Prj.Keywords"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Ключевые слова проекта"
 type: docs
-weight: 400
+weight: 410
 url: /ru/net/aspose.tasks/prj/keywords/
 ---
 ## Prj.Keywords field
@@ -14,12 +14,33 @@ url: /ru/net/aspose.tasks/prj/keywords/
 public static readonly Key<string, PrjKey> Keywords;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как установить метаданные проекта.
+
+```csharp
+var project = new Project(DataDir + "WriteProjectInfo.mpp");
+
+// Установить информацию о проекте
+project.Set(Prj.Author, "Author");
+project.Set(Prj.LastAuthor, "Last Author");
+project.Set(Prj.Revision, 15);
+project.Set(Prj.Keywords, "MSP Aspose");
+project.Set(Prj.Comments, "Comments");
+
+Console.WriteLine(project.Get(Prj.Author));
+Console.WriteLine(project.Get(Prj.LastAuthor));
+Console.WriteLine(project.Get(Prj.Revision));
+Console.WriteLine(project.Get(Prj.Keywords));
+Console.WriteLine(project.Get(Prj.Comments));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

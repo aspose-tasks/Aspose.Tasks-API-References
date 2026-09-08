@@ -1,9 +1,9 @@
 ---
-title: Tsk.IsSummary
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Определяет является ли задача сводной задачей.
+title: "Tsk.IsSummary"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Определяет, является ли задача сводной"
 type: docs
-weight: 730
+weight: 720
 url: /ru/net/aspose.tasks/tsk/issummary/
 ---
 ## Tsk.IsSummary field
@@ -14,12 +14,26 @@ url: /ru/net/aspose.tasks/tsk/issummary/
 public static readonly Key<bool, TaskKey> IsSummary;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.IsSummary.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSummary, true);
+
+Console.WriteLine("Is Summary: " + task.Get(Tsk.IsSummary));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

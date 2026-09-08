@@ -1,14 +1,14 @@
 ---
-title: Struct NullableBool
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.NullableBool структура. Класс для логических значений с возможностью проверки было ли значение определено или нет.
+title: "Структура NullableBool"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Структура Aspose.Tasks.NullableBool. Класс для булевых значений с возможностью проверить, было ли значение определено или нет."
 type: docs
-weight: 980
+weight: 1110
 url: /ru/net/aspose.tasks/nullablebool/
 ---
 ## NullableBool structure
 
-Класс для логических значений с возможностью проверки, было ли значение определено или нет.
+Класс для логических значений с возможностью проверить, было ли значение определено.
 
 ```csharp
 public struct NullableBool : IEquatable<NullableBool>
@@ -18,31 +18,60 @@ public struct NullableBool : IEquatable<NullableBool>
 
 | Имя | Описание |
 | --- | --- |
-| [NullableBool](nullablebool/#constructor)(bool) | Инициализирует новый экземпляр`NullableBool` структура с указанным логическим значением. |
-| [NullableBool](nullablebool/#constructor_1)(bool, bool) | Инициализирует новый экземпляр`NullableBool` структура. |
+| [NullableBool](nullablebool/#constructor)(bool) | Инициализирует новый экземпляр структуры `NullableBool` с указанным булевым значением. |
+| [NullableBool](nullablebool/#constructor_1)(bool, bool) | Инициализирует новый экземпляр структуры `NullableBool`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [IsDefined](../../aspose.tasks/nullablebool/isdefined/) { get; } | Получает значение, указывающее, было ли значение определено; в противном случае false. |
-| [Value](../../aspose.tasks/nullablebool/value/) { get; set; } | Получает или задает значение, указывающее, является ли текущее значение истинным или ложным. |
+| [IsDefined](../../aspose.tasks/nullablebool/isdefined/) { get; } | Возвращает значение, указывающее, было ли значение определено; в противном случае — false. |
+| [Value](../../aspose.tasks/nullablebool/value/) { get; set; } | Получает или задает значение, указывающее, является ли текущее значение true или false. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.tasks/nullablebool/equals/#equals)(NullableBool) | Возвращает флаг, указывающий, равен ли этот экземпляр указанному экземпляру`NullableBool` класс. |
+| [Equals](../../aspose.tasks/nullablebool/equals/#equals)(NullableBool) | Возвращает флаг, указывающий, равен ли этот экземпляр указанному экземпляру класса `NullableBool`. |
 | override [Equals](../../aspose.tasks/nullablebool/equals/#equals_1)(object) | Возвращает флаг, указывающий, равен ли этот экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.tasks/nullablebool/gethashcode/)() | Возвращает значение хеш-кода для экземпляра`NullableBool` класс. |
+| override [GetHashCode](../../aspose.tasks/nullablebool/gethashcode/)() | Возвращает значение хеш‑кода для экземпляра класса `NullableBool`. |
 | override [ToString](../../aspose.tasks/nullablebool/tostring/)() | Возвращает строку, представляющую текущий объект. |
 | [operator ==](../../aspose.tasks/nullablebool/op_equality/) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [implicit operator](../../aspose.tasks/nullablebool/op_implicit/#op_implicit_1) | Неявно преобразует`NullableBool` instance в логическое значение. Возвращает true, когда[`Value`](./value/) верно и[`IsDefined`](./isdefined/) верно. (2 operators) |
+| [implicit operator](../../aspose.tasks/nullablebool/op_implicit/#op_implicit_1) | Неявно преобразует экземпляр `NullableBool` в логическое значение. Возвращает true, когда [`Value`](./value/) равно true и [`IsDefined`](./isdefined/) равно true. (2 оператора) |
 | [operator !=](../../aspose.tasks/nullablebool/op_inequality/) | Возвращает значение, указывающее, не равен ли этот экземпляр указанному объекту. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как работать с классом &lt;see cref="NullableBool" /&gt;.
+
+```csharp
+var project = new Project();
+
+// Проверим, где используется класс <see cref="Aspose.Tasks.NullableBool" />.
+// Главное преимущество <see cref="Aspose.Tasks.NullableBool" /> заключается в том, что 
+// Можно установить его как неопределённый при создании.
+var actualsInSync = new NullableBool(false, false);
+Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
+Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
+
+// ...
+// использовать экземпляр nullable bool
+project.Set(Prj.ActualsInSync, actualsInSync);
+
+// ...
+var honorConstraints = new NullableBool(true);
+Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
+
+// ...
+// использовать экземпляр nullable bool
+project.Set(Prj.HonorConstraints, honorConstraints);
+
+// ...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: PageMargins.PageMargins
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PageMargins строитель. Конструктор по умолчанию.
+title: "PageMargins.PageMargins"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PageMargins. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/pagemargins/pagemargins/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/pagemargins/pagemargins/
 public PageMargins()
 ```
 
-### Смотрите также
+### См. также
 
 * class [PageMargins](../)
-* пространство имен [Aspose.Tasks.Visualization](../../pagemargins/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagemargins/)
+* assembly [Aspose.Tasks](../../../)
 
 

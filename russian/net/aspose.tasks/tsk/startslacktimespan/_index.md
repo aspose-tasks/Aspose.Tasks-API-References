@@ -1,9 +1,9 @@
 ---
-title: Tsk.StartSlackTimeSpan
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Продолжительность между датами раннего начала и позднего начала.
+title: "Tsk.StartSlackTimeSpan"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Продолжительность между датами раннего начала и позднего начала"
 type: docs
-weight: 1040
+weight: 1020
 url: /ru/net/aspose.tasks/tsk/startslacktimespan/
 ---
 ## Tsk.StartSlackTimeSpan field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/tsk/startslacktimespan/
 public static readonly Key<TimeSpan, TaskKey> StartSlackTimeSpan;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать свойство Tsk.StartSlackTimeSpan. Свойство вычисляется, поэтому обычно нет необходимости задавать его явно.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Start Slack: " + task.Get(Tsk.StartSlackTimeSpan));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

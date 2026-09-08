@@ -1,28 +1,45 @@
 ---
-title: Resource.TimephasedData
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает экземплярTimephasedDataCollection класс для этого объекта.
+title: "Resource.TimephasedData"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает экземпляр класса TimephasedDataCollection для этого объекта"
 type: docs
-weight: 750
+weight: 740
 url: /ru/net/aspose.tasks/resource/timephaseddata/
 ---
 ## Resource.TimephasedData property
 
-Получает или задает экземпляр[`TimephasedDataCollection`](../../timephaseddatacollection/) класс для этого объекта.
+Получает или задает экземпляр класса [`TimephasedDataCollection`](../../timephaseddatacollection/) для этого объекта.
 
 ```csharp
 public TimephasedDataCollection TimephasedData { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Чтение поддерживается только для формата XML.
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать timephased данные ресурса.
+
+```csharp
+resource.Set(Rsc.Work, resource.ParentProject.GetWork(2));
+
+project.SetBaseline(BaselineType.Baseline);
+
+// перебирайте timephased данные ресурса
+foreach (var td in resource.TimephasedData)
+{
+    Console.WriteLine(td.Start);
+    Console.WriteLine(td.Finish);
+}
+```
+
+### См. также
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

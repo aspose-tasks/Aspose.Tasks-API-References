@@ -1,7 +1,7 @@
 ---
-title: ResourceSavingArgs.ResourceSavingArgs
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceSavingArgs строитель. Конструктор по умолчанию.
+title: "ResourceSavingArgs.ResourceSavingArgs"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "ResourceSavingArgs конструктор. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/resourcesavingargs/resourcesavingargs/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resourcesavingargs/resourcesavingargs/
 public ResourceSavingArgs()
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceSavingArgs](../)
-* пространство имен [Aspose.Tasks](../../resourcesavingargs/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Calendar.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Calendar метод. Возвращает значение указывающее равен ли этот экземпляр указанному объекту.
+title: "Calendar.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Calendar. Возвращает значение, указывающее, равен ли данный экземпляр указанному объекту"
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/aspose.tasks/calendar/equals/
 ---
 ## Calendar.Equals method
@@ -16,16 +16,16 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Объект | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинный** если o — это календарь с тем же значением Uid, что и у этого экземпляра; в противном случае, **ЛОЖЬ**.
+**True** if o is a Calendar that has the same Uid value as this instance; otherwise, **false**.
 
-### Смотрите также
+### См. также
 
 * class [Calendar](../)
-* пространство имен [Aspose.Tasks](../../calendar/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

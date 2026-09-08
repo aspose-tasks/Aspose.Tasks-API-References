@@ -1,14 +1,14 @@
 ---
-title: View.op_GreaterThan
-second_title: Справочник по Aspose.Tasks для .NET API
-description: View метод. Возвращает значение указывающее больше ли этот экземпляр чем указанный объект.
+title: "View.op_GreaterThan"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод View. Возвращает значение, указывающее, больше ли данный экземпляр указанного объекта."
 type: docs
 weight: 180
 url: /ru/net/aspose.tasks/view/op_greaterthan/
 ---
 ## View GreaterThan operator
 
-Возвращает значение, указывающее, больше ли этот экземпляр, чем указанный объект.
+Возвращает значение, указывающее, больше ли этот экземпляр указанного объекта.
 
 ```csharp
 public static bool operator >(View a, View b)
@@ -16,17 +16,17 @@ public static bool operator >(View a, View b)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| a | View | Первый взгляд. |
-| b | View | Второй вид. |
+| a | View | Первое представление. |
+| b | View | Второе представление. |
 
 ### Возвращаемое значение
 
-значение, указывающее, больше ли этот экземпляр, чем указанный объект
+значение, указывающее, больше ли этот экземпляр указанного объекта
 
-### Смотрите также
+### См. также
 
 * class [View](../)
-* пространство имен [Aspose.Tasks](../../view/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

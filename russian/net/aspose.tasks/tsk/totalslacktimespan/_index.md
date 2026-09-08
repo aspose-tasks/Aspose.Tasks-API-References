@@ -1,25 +1,37 @@
 ---
-title: Tsk.TotalSlackTimeSpan
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Время когда дата окончания задачи может быть отложена без задержки даты окончания проекта.
+title: "Tsk.TotalSlackTimeSpan"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Время, на которое дата завершения задачи может быть отложена без задержки даты завершения проекта"
 type: docs
-weight: 1110
+weight: 1090
 url: /ru/net/aspose.tasks/tsk/totalslacktimespan/
 ---
 ## Tsk.TotalSlackTimeSpan field
 
-Время, когда дата окончания задачи может быть отложена без задержки даты окончания проекта.
+Время, на которое можно отложить дату завершения задачи, не откладывая дату завершения проекта.
 
 ```csharp
 public static readonly Key<TimeSpan, TaskKey> TotalSlackTimeSpan;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать свойство Tsk.TotalSlackTimeSpan. Свойство вычисляется, поэтому обычно нет необходимости задавать его явно.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Total Slack: " + task.Get(Tsk.TotalSlackTimeSpan));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

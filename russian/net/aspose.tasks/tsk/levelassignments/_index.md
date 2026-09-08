@@ -1,26 +1,40 @@
 ---
-title: Tsk.LevelAssignments
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Определяет может ли функция выравнивания задерживать и разделять отдельные назначения для разрешения перераспределения.
+title: "Tsk.LevelAssignments"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Определяет, может ли функция выравнивания задерживать и разбивать отдельные назначения для устранения переизбыточных распределений"
 type: docs
-weight: 760
+weight: 750
 url: /ru/net/aspose.tasks/tsk/levelassignments/
 ---
 ## Tsk.LevelAssignments field
 
-Определяет, может ли функция выравнивания задерживать и разделять отдельные назначения для разрешения перераспределения.
+Определяет, может ли функция выравнивания задерживать и разбивать отдельные назначения, чтобы решить проблему переизбыточных распределений.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> LevelAssignments;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.LevelAssignments.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelAssignments, true);
+
+Console.WriteLine("Level Assignments: " + task.Get(Tsk.LevelAssignments));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

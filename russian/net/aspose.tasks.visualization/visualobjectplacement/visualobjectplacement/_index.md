@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.VisualObjectPlacement
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VisualObjectPlacement строитель. Инициализирует новый экземплярVisualObjectPlacement класс.
+title: "VisualObjectPlacement.VisualObjectPlacement"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор VisualObjectPlacement. Инициализирует новый экземпляр класса VisualObjectPlacement"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/visualobjectplacement/
 ---
 ## VisualObjectPlacement constructor
 
-Инициализирует новый экземпляр[`VisualObjectPlacement`](../) класс.
+Инициализирует новый экземпляр класса [`VisualObjectPlacement`](../).
 
 ```csharp
 public VisualObjectPlacement()
 ```
 
-### Смотрите также
+### См. также
 
 * class [VisualObjectPlacement](../)
-* пространство имен [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

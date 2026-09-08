@@ -1,23 +1,23 @@
 ---
-title: Project.ShowProjectSummaryTask
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли ShowProjectSummaryTask или нет.
+title: "Project.ShowProjectSummaryTask"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задаёт значение, указывающее, установлен ли ShowProjectSummaryTask."
 type: docs
-weight: 800
+weight: 830
 url: /ru/net/aspose.tasks/project/showprojectsummarytask/
 ---
 ## Project.ShowProjectSummaryTask property
 
-Получает или задает значение, указывающее, установлен ли ShowProjectSummaryTask или нет.
+Получает или задает значение, указывающее, установлен ли ShowProjectSummaryTask.
 
 ```csharp
 public bool ShowProjectSummaryTask { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

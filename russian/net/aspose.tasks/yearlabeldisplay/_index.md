@@ -1,9 +1,9 @@
 ---
-title: Enum YearLabelDisplay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.YearLabelDisplay перечисление. Указывает как отображается метка года.
+title: "Перечисление YearLabelDisplay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.YearLabelDisplay. Указывает, как отображается метка года."
 type: docs
-weight: 3320
+weight: 3680
 url: /ru/net/aspose.tasks/yearlabeldisplay/
 ---
 ## YearLabelDisplay enumeration
@@ -14,17 +14,31 @@ url: /ru/net/aspose.tasks/yearlabeldisplay/
 public enum YearLabelDisplay
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Y | `0` | Устанавливает список лет в MS Project как mo. |
 | Yr | `1` | Устанавливает список лет в MS Project как mon. |
 | Year | `2` | Устанавливает список лет в MS Project как месяц. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как установить метку года в параметрах отображения проекта (случай 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// установить, как отображается метка года
+project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
+
+// ...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,26 +1,38 @@
 ---
-title: Prj.MoveRemainingStartsBack
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет следует ли перенести начало оставшихся частей задач запланированных на start после даты состояния но запущенных ранее обратно на дату состояния.
+title: "Prj.MoveRemainingStartsBack"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, следует ли перемещать начало оставшихся частей задач, запланированных на начало после даты статуса, но начатых ранее, обратно к дате статуса"
 type: docs
-weight: 500
+weight: 510
 url: /ru/net/aspose.tasks/prj/moveremainingstartsback/
 ---
 ## Prj.MoveRemainingStartsBack field
 
-Определяет, следует ли перенести начало оставшихся частей задач, запланированных на start после даты состояния, но запущенных ранее, обратно на дату состояния.
+Определяет, следует ли переместить начало оставшихся частей задач, запланированных на начало после даты статуса, но начавшихся ранее, обратно к дате статуса.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsBack;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.MoveRemainingStartsBack.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveRemainingStartsBack, true);
+
+Console.WriteLine("Move Remaining Starts Back: " + project.Get(Prj.MoveRemainingStartsBack));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

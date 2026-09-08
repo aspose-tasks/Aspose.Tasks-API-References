@@ -1,14 +1,14 @@
 ---
-title: CheckCircuit.Alg
-second_title: Справочник по Aspose.Tasks для .NET API
-description: CheckCircuit метод. Проверить был ли уже обработан указанный объект.
+title: "CheckCircuit.Alg"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод CheckCircuit. Проверяет, был ли указанный объект уже обработан"
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.util/checkcircuit/alg/
 ---
 ## CheckCircuit.Alg method
 
-Проверить, был ли уже обработан указанный объект.
+Проверьте, был ли указанный объект уже обработан.
 
 ```csharp
 public override void Alg(Task el, int level)
@@ -16,14 +16,33 @@ public override void Alg(Task el, int level)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| el | Task | Объект для обработки. |
-| level | Int32 | Уровень узла дерева. |
+| el | Задача | Объект для обработки. |
+| уровень | Int32 | Уровень узла дерева. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как обнаружить повреждённую структуру проекта.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// проверьте структуру проекта.
+// Будет выброшено <see cref=\"TasksException\">, если структура проекта некорректна.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### См. также
 
 * class [Task](../../../aspose.tasks/task/)
 * class [CheckCircuit](../)
-* пространство имен [Aspose.Tasks.Util](../../checkcircuit/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../checkcircuit/)
+* assembly [Aspose.Tasks](../../../)
 
 

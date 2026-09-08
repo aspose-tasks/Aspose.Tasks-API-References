@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.SequenceNumber
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает или задает порядковый номер элемента WBS суммарные задачи. Используется для сортировки сводных задач в Primavera.
+title: "PrimaveraTaskProperties.SequenceNumber"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PrimaveraTaskProperties. Получает или задает порядковый номер сводных задач элемента WBS. Он используется для сортировки сводных задач в Primavera"
 type: docs
-weight: 160
+weight: 350
 url: /ru/net/aspose.tasks/primaverataskproperties/sequencenumber/
 ---
 ## PrimaveraTaskProperties.SequenceNumber property
 
-Получает или задает порядковый номер элемента WBS (суммарные задачи). Используется для сортировки сводных задач в Primavera.
+Получает или задает порядковый номер элемента WBS (сводные задачи). Он используется для сортировки сводных задач в Primavera.
 
 ```csharp
 public int SequenceNumber { get; }
 ```
 
-### Примечания
+## Примечания
 
-Применимо к элементам WBS (суммарные задачи).
+Применяется к элементам WBS (сводным задачам).
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Task.PhysicalPercentComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение PhysicalPercentComplete.
+title: "Task.PhysicalPercentComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение PhysicalPercentComplete"
 type: docs
-weight: 980
+weight: 970
 url: /ru/net/aspose.tasks/task/physicalpercentcomplete/
 ---
 ## Task.PhysicalPercentComplete property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/physicalpercentcomplete/
 public int PhysicalPercentComplete { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

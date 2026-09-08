@@ -1,23 +1,39 @@
 ---
-title: IVbaModule.SourceCode
-second_title: Справочник по Aspose.Tasks для .NET API
-description: IVbaModule свойство. Получает исходный код модуля VBA
+title: "IVbaModule.SourceCode"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство IVbaModule. Возвращает исходный код VBA‑модуля"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/ivbamodule/sourcecode/
 ---
 ## IVbaModule.SourceCode property
 
-Получает исходный код модуля VBA
+Получает исходный код VBA-модуля
 
 ```csharp
 public string SourceCode { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать модули проекта VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### См. также
 
 * interface [IVbaModule](../)
-* пространство имен [Aspose.Tasks](../../ivbamodule/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ivbamodule/)
+* assembly [Aspose.Tasks](../../../)
 
 

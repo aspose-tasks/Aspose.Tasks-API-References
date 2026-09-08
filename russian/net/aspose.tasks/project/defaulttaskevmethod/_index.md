@@ -1,24 +1,24 @@
 ---
-title: Project.DefaultTaskEVMethod
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение DefaultTaskEVMethod.
+title: "Project.DefaultTaskEVMethod"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение DefaultTaskEVMethod."
 type: docs
-weight: 330
+weight: 340
 url: /ru/net/aspose.tasks/project/defaulttaskevmethod/
 ---
 ## Project.DefaultTaskEVMethod property
 
-Получает или задает значение DefaultTaskEVMethod.
+Получает или задает значение свойства DefaultTaskEVMethod.
 
 ```csharp
 public EarnedValueMethodType DefaultTaskEVMethod { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,26 +1,40 @@
 ---
-title: Tsk.IsExpanded
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Определяет развернута ли суммарная задача в представлении диаграммы Ганта.
+title: "Tsk.IsExpanded"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Определяет, развернута ли сводная задача в представлении GanttChart"
 type: docs
-weight: 600
+weight: 590
 url: /ru/net/aspose.tasks/tsk/isexpanded/
 ---
 ## Tsk.IsExpanded field
 
-Определяет, развернута ли суммарная задача в представлении диаграммы Ганта.
+Определяет, развернута ли сводная задача в представлении GanttChart.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsExpanded;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.IsExpanded.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsExpanded, true);
+
+Console.WriteLine("Is Expanded: " + task.Get(Tsk.IsExpanded));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,30 +1,55 @@
 ---
-title: TextStyle.TextStyle
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TextStyle строитель. Инициализирует новый экземплярTextStyle класс с настройками по умолчанию.
+title: "TextStyle.TextStyle"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор TextStyle. Инициализирует новый экземпляр класса TextStyle с настройками по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/textstyle/textstyle/
 ---
 ## TextStyle() {#constructor}
 
-Инициализирует новый экземпляр[`TextStyle`](../) класс с настройками по умолчанию.
+Инициализирует новый экземпляр класса [`TextStyle`](../) с настройками по умолчанию.
 
 ```csharp
 public TextStyle()
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как настраивать стили текста, которые используются для оформления различных текстовых элементов в проекте.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### См. также
 
 * class [TextStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../textstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(float, FontStyles) {#constructor_3}
 
-Инициализирует новый экземпляр[`TextStyle`](../) класс со шрифтом по умолчанию и указанным размером и стилем шрифта.
+Инициализирует новый экземпляр класса [`TextStyle`](../) с шрифтом по умолчанию и указанным размером и стилем шрифта.
 
 ```csharp
 public TextStyle(float fontSize, FontStyles fontStyle)
@@ -35,18 +60,18 @@ public TextStyle(float fontSize, FontStyles fontStyle)
 | fontSize | Single | Размер шрифта TextStyle. |
 | fontStyle | FontStyles | Стиль шрифта TextStyle. |
 
-### Смотрите также
+### См. также
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../textstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontStyles) {#constructor_2}
 
-Инициализирует новый экземпляр[`TextStyle`](../) класс со шрифтом по умолчанию и указанным стилем шрифта.
+Инициализирует новый экземпляр класса [`TextStyle`](../) с шрифтом по умолчанию и указанным стилем шрифта.
 
 ```csharp
 public TextStyle(FontStyles fontStyle)
@@ -56,18 +81,18 @@ public TextStyle(FontStyles fontStyle)
 | --- | --- | --- |
 | fontStyle | FontStyles | Стиль шрифта, применяемый к шрифту по умолчанию. |
 
-### Смотрите также
+### См. также
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../textstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontDescriptor) {#constructor_1}
 
-Инициализирует новый экземпляр[`TextStyle`](../) класс с указанными настройками шрифта.
+Инициализирует новый экземпляр класса [`TextStyle`](../) с указанными настройками шрифта.
 
 ```csharp
 public TextStyle(FontDescriptor font)
@@ -77,11 +102,11 @@ public TextStyle(FontDescriptor font)
 | --- | --- | --- |
 | font | FontDescriptor | Шрифт TextStyle. |
 
-### Смотрите также
+### См. также
 
 * class [FontDescriptor](../../fontdescriptor/)
 * class [TextStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../textstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

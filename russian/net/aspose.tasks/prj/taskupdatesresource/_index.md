@@ -1,26 +1,38 @@
 ---
-title: Prj.TaskUpdatesResource
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет будут ли обновления задач обновлять ресурсы.
+title: "Prj.TaskUpdatesResource"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, обновляются ли ресурсы при обновлении задач"
 type: docs
-weight: 700
+weight: 710
 url: /ru/net/aspose.tasks/prj/taskupdatesresource/
 ---
 ## Prj.TaskUpdatesResource field
 
-Определяет, будут ли обновления задач обновлять ресурсы.
+Определяет, обновляют ли изменения задач ресурсы.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> TaskUpdatesResource;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.TaskUpdatesResource.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.TaskUpdatesResource, true);
+
+Console.WriteLine("Task Updates Resource: " + project.Get(Prj.TaskUpdatesResource));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Prj.MicrosoftProjectServerURL
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет был ли проект создан пользователем Project Server а не пользователем NT.
+title: "Prj.MicrosoftProjectServerURL"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, был ли проект создан пользователем Project Server, а не пользователем NT"
 type: docs
-weight: 450
+weight: 460
 url: /ru/net/aspose.tasks/prj/microsoftprojectserverurl/
 ---
 ## Prj.MicrosoftProjectServerURL field
@@ -14,13 +14,25 @@ url: /ru/net/aspose.tasks/prj/microsoftprojectserverurl/
 public static readonly Key<NullableBool, PrjKey> MicrosoftProjectServerURL;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.MicrosoftProjectServerURL.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MicrosoftProjectServerURL, true);
+
+Console.WriteLine("Microsoft Project Server U R L: " + project.Get(Prj.MicrosoftProjectServerURL));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

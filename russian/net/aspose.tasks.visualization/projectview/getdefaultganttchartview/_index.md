@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultGanttChartView
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectView метод. Включает идентификатор индикаторы имя продолжительность столбцы начала и окончания задачи.
+title: "ProjectView.GetDefaultGanttChartView"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ProjectView. Включает столбцы задачи: id, индикаторы, имя, длительность, начало и завершение"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/projectview/getdefaultganttchartview/
 ---
 ## ProjectView.GetDefaultGanttChartView method
 
-Включает идентификатор, индикаторы, имя, продолжительность, столбцы начала и окончания задачи.
+Включает столбцы ID, индикаторы, имя, продолжительность, начало и завершение задачи.
 
 ```csharp
 public static ProjectView GetDefaultGanttChartView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultGanttChartView()
 
 ### Возвращаемое значение
 
-представление, содержащее список[`GanttChartColumn`](../../ganttchartcolumn/).
+представление, которое содержит список [`GanttChartColumn`](../../ganttchartcolumn/).
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект с представлением диаграммы Ганта.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultGanttChartView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_GanttChartView_out.pdf", options);
+```
+
+### См. также
 
 * class [ProjectView](../)
-* пространство имен [Aspose.Tasks.Visualization](../../projectview/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

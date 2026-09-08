@@ -1,39 +1,61 @@
 ---
-title: Class VbaModuleCollection
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.VbaModuleCollection сорт. Представляет наборVbaModule объекты.
+title: "Класс VbaModuleCollection"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.VbaModuleCollection. Представляет коллекцию объектов VbaModule."
 type: docs
-weight: 2520
+weight: 2840
 url: /ru/net/aspose.tasks/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Представляет набор[`VbaModule`](../vbamodule/) объекты.
+Представляет коллекцию объектов [`VbaModule`](../vbamodule/).
 
 ```csharp
-public class VbaModuleCollection : ReadOnlyCollectionBase<VbaModule>
+public class VbaModuleCollection : ICollection<VbaModule>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } |  |
+| [Count](../../aspose.tasks/vbamodulecollection/count/) { get; } |  |
+| [IsReadOnly](../../aspose.tasks/vbamodulecollection/isreadonly/) { get; } |  |
+| [Item](../../aspose.tasks/vbamodulecollection/item/) { get; } | Получает модуль по указанному индексу. (2 индексатора) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(VbaModule) |  |
-| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
+| [Add](../../aspose.tasks/vbamodulecollection/add/)(VbaModule) |  |
+| [Clear](../../aspose.tasks/vbamodulecollection/clear/)() |  |
+| [Contains](../../aspose.tasks/vbamodulecollection/contains/)(VbaModule) |  |
+| [CopyTo](../../aspose.tasks/vbamodulecollection/copyto/)(VbaModule[], int) |  |
+| [GetEnumerator](../../aspose.tasks/vbamodulecollection/getenumerator/)() |  |
+| [Remove](../../aspose.tasks/vbamodulecollection/remove/)(VbaModule) |  |
+| [ToList](../../aspose.tasks/vbamodulecollection/tolist/)() | Преобразует объект коллекции в список объектов [`VbaModule`](../vbamodule/). |
 
-### Смотрите также
+## Примеры
 
-* class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
+Показывает, как перебрать модули VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+var vbaProject = project.VbaProject;
+
+Console.WriteLine("Total Modules Count: " + vbaProject.Modules.Count);
+foreach (VbaModule module in vbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Module Type: " + module.Type);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+    Console.WriteLine();
+}
+```
+
+### См. также
+
 * class [VbaModule](../vbamodule/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

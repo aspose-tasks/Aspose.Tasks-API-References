@@ -1,9 +1,9 @@
 ---
-title: Project.StartDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение StartDate.
+title: "Project.StartDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение StartDate"
 type: docs
-weight: 840
+weight: 870
 url: /ru/net/aspose.tasks/project/startdate/
 ---
 ## Project.StartDate property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/startdate/
 public DateTime StartDate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

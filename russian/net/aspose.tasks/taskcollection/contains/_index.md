@@ -1,7 +1,7 @@
 ---
-title: TaskCollection.Contains
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskCollection метод. Проверяет содержит ли коллекция указанный элемент.
+title: "TaskCollection.Contains"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод TaskCollection. Проверяет, содержит ли коллекция указанный элемент."
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/taskcollection/contains/
@@ -16,17 +16,17 @@ public bool Contains(Task item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | Task | Элемент для проверки. |
+| элемент | Задача | Элемент для проверки. |
 
 ### Возвращаемое значение
 
-true, если коллекция содержит элемент, иначе false.
+true, если коллекция содержит элемент, false в противном случае.
 
-### Смотрите также
+### См. также
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* пространство имен [Aspose.Tasks](../../taskcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

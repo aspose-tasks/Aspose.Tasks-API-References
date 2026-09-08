@@ -1,9 +1,9 @@
 ---
-title: Resource.SV
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение SV.
+title: "Resource.SV"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение SV"
 type: docs
-weight: 740
+weight: 730
 url: /ru/net/aspose.tasks/resource/sv/
 ---
 ## Resource.SV property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/sv/
 public double SV { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

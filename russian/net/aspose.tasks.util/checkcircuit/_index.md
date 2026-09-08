@@ -1,14 +1,14 @@
 ---
-title: Class CheckCircuit
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Util.CheckCircuit сорт. Проверяет дерево задач на наличие цепи.
+title: "Класс CheckCircuit"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Util.CheckCircuit. Проверяет дерево задач на наличие цикла"
 type: docs
-weight: 2360
+weight: 2680
 url: /ru/net/aspose.tasks.util/checkcircuit/
 ---
 ## CheckCircuit class
 
-Проверяет дерево (задач) на наличие цепи.
+Проверяет дерево (задач) на наличие цикла.
 
 ```csharp
 public class CheckCircuit : TreeAlgorithmBase<Task>
@@ -18,21 +18,40 @@ public class CheckCircuit : TreeAlgorithmBase<Task>
 
 | Имя | Описание |
 | --- | --- |
-| [CheckCircuit](checkcircuit/)() | Инициализирует новый экземпляр`CheckCircuit` класс. |
+| [CheckCircuit](checkcircuit/)() | Инициализирует новый экземпляр класса `CheckCircuit`. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Alg](../../aspose.tasks.util/checkcircuit/alg/)(Task, int) | Проверить, был ли уже обработан указанный объект. |
+| override [Alg](../../aspose.tasks.util/checkcircuit/alg/)(Task, int) | Проверьте, был ли указанный объект уже обработан. |
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(Task, int) |  |
 
-### Смотрите также
+## Примеры
+
+Показывает, как обнаружить повреждённую структуру проекта.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// проверьте структуру проекта.
+// Будет выброшено <see cref=\"TasksException\">, если структура проекта некорректна.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### См. также
 
 * class [TreeAlgorithmBase&lt;T&gt;](../treealgorithmbase-1/)
 * class [Task](../../aspose.tasks/task/)
-* пространство имен [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

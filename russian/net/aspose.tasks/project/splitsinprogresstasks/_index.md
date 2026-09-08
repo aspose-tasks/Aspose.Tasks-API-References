@@ -1,24 +1,24 @@
 ---
-title: Project.SplitsInProgressTasks
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли параметр SplitsInProgressTasks.
+title: "Project.SplitsInProgressTasks"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Возвращает или задает значение, указывающее, установлен ли SplitsInProgressTasks"
 type: docs
-weight: 810
+weight: 840
 url: /ru/net/aspose.tasks/project/splitsinprogresstasks/
 ---
 ## Project.SplitsInProgressTasks property
 
-Получает или задает значение, указывающее, установлен ли параметр SplitsInProgressTasks.
+Получает или задает значение, указывающее, установлен ли SplitsInProgressTasks.
 
 ```csharp
 public NullableBool SplitsInProgressTasks { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

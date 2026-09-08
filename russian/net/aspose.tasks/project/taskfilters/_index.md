@@ -1,24 +1,56 @@
 ---
-title: Project.TaskFilters
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает все определения фильтров на основе задач. TaskFilters  это наборFilter объекты.
+title: "Project.TaskFilters"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает все определения фильтров, основанных на задачах. TaskFilters представляет собой коллекцию объектов Filter."
 type: docs
-weight: 880
+weight: 910
 url: /ru/net/aspose.tasks/project/taskfilters/
 ---
 ## Project.TaskFilters property
 
-Получает все определения фильтров на основе задач. TaskFilters — это набор[`Filter`](../../filter/) объекты.
+Получает все определения фильтров, основанных на задачах. TaskFilters представляет собой коллекцию объектов [`Filter`](../../filter/).
 
 ```csharp
 public FilterCollection TaskFilters { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать фильтры задач проекта.
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+
+var filter = project.TaskFilters.ToList()[1];
+Console.WriteLine(filter.Criteria.CriteriaRows.Count);
+Console.WriteLine(filter.Criteria.Operation.ToString());
+
+var criteria1 = filter.Criteria.CriteriaRows[0];
+Console.WriteLine(criteria1.Test.ToString());
+Console.WriteLine(criteria1.Field.ToString());
+Console.WriteLine(criteria1.Values[0].ToString());
+
+var criteria2 = filter.Criteria.CriteriaRows[1];
+Console.WriteLine(criteria2.Operation.ToString());
+Console.WriteLine(criteria2.CriteriaRows.Count);
+
+var criteria21 = criteria2.CriteriaRows[0];
+Console.WriteLine(criteria21.Test.ToString());
+Console.WriteLine(criteria21.Field.ToString());
+Console.WriteLine(criteria21.Values[0].ToString());
+
+var criteria22 = criteria2.CriteriaRows[1];
+Console.WriteLine(criteria22.Test.ToString());
+Console.WriteLine(criteria22.Field.ToString());
+Console.WriteLine(criteria22.Values[0].ToString());
+Console.WriteLine(filter.Criteria);
+```
+
+### См. также
 
 * class [FilterCollection](../../filtercollection/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

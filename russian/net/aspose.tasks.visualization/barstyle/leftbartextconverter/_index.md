@@ -1,24 +1,73 @@
 ---
-title: BarStyle.LeftBarTextConverter
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BarStyle свойство. Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значениеLeftField свойство.
+title: "BarStyle.LeftBarTextConverter"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство BarStyle. Получает или задает пользовательский конвертер для получения текста, отображаемого слева от полосы задач. Переопределяет значение свойства LeftField"
 type: docs
-weight: 110
+weight: 130
 url: /ru/net/aspose.tasks.visualization/barstyle/leftbartextconverter/
 ---
 ## BarStyle.LeftBarTextConverter property
 
-Получает или задает определяемый пользователем преобразователь для отображения текста в левой части панели задачи. Переопределяет значение[`LeftField`](../leftfield/) свойство.
+Получает или задает пользовательский конвертер для получения текста, отображаемого слева от полосы задачи. Переопределяет значение свойства [`LeftField`](../leftfield/)
 
 ```csharp
 public TaskBarTextConverter LeftBarTextConverter { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как использовать пользовательские стили полос.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    BarStyles = new List<BarStyle>()
+};
+
+// добавить стиль полосы для задач‑контрольных точек
+var style = new BarStyle();
+// установить <see cref="T:Aspose.Tasks.Visualization.BarItemType" /> стиля полосы
+style.ItemType = BarItemType.Milestone;
+// установить <see cref="T:System.Drawing.Color" /> стиля полосы.
+style.BarColor = Color.Green;
+// установить <see cref="P:Aspose.Tasks.Visualization.BarStyle.BarShape" /> стиля полосы
+style.BarShape = BarShape.HalfHeight;
+// установить <see cref=\"T:Aspose.Tasks.Visualization.Shape\" /> в начале полосы
+style.StartShape = Shape.LeftBracket;
+// установить <see cref=\"T:System.Drawing.Color\" /> формы в начале полосы
+style.StartShapeColor = Color.Aqua;
+// установить <see cref=\"T:Aspose.Tasks.Visualization.Shape\" /> в конце полосы
+style.EndShape = Shape.RightBracket;
+// установить <see cref=\"T:System.Drawing.Color\" /> формы в конце полосы
+style.EndShapeColor = Color.Aquamarine;
+// установить текст для отображения справа от полосы.
+style.TextStyle = new TextStyle();
+style.TextStyle.BackgroundColor = Color.Black;
+
+// существует функция, позволяющая преобразовать текст полосы.
+// установим конвертер, чтобы получить текст для отображения полосы.
+style.LeftBarTextConverter = task =>
+{
+    if (!task.Get(Tsk.Name).StartsWith("T"))
+    {
+        task.Set(Tsk.Name, "T" + task.Get(Tsk.Name));
+    }
+
+    return task.Get(Tsk.Name);
+};
+
+options.BarStyles.Add(style);
+
+// сохранить проект
+project.Save(OutDir + "WorkWithBarStyle_out.mpp", options);
+```
+
+### См. также
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../barstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

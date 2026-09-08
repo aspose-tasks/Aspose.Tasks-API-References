@@ -1,14 +1,14 @@
 ---
-title: BaselineCollection.Add
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BaselineCollection метод. Это заглушка реализации метода Add ICollection которая выдает только NotSupportedException
+title: "BaselineCollection.Add"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод BaselineCollection. Это заглушка реализации метода Add интерфейса ICollections, который только бросает NotSupportedException"
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/baselinecollection/add/
 ---
 ## BaselineCollection.Add method
 
-Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException
+Это заглушка реализации метода Add интерфейса ICollection, который только бросает NotSupportedException
 
 ```csharp
 public void Add(Baseline item)
@@ -16,13 +16,13 @@ public void Add(Baseline item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | Baseline | Элемент, который необходимо удалить. |
+| элемент | Baseline | Элемент для удаления. |
 
-### Смотрите также
+### См. также
 
 * class [Baseline](../../baseline/)
 * class [BaselineCollection](../)
-* пространство имен [Aspose.Tasks](../../baselinecollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

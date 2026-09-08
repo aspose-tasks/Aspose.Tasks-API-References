@@ -1,30 +1,71 @@
 ---
-title: Enum Interval
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Visualization.Interval перечисление. Указывает повторяющиеся интервалы для отображения строк прогресса в.
+title: "Перечисление Interval"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.Visualization.Interval. Указывает повторяющиеся интервалы для отображения линий прогресса"
 type: docs
-weight: 2830
+weight: 3170
 url: /ru/net/aspose.tasks.visualization/interval/
 ---
 ## Interval enumeration
 
-Указывает повторяющиеся интервалы для отображения строк прогресса в.
+Указывает повторяющиеся интервалы для отображения линий прогресса.
 
 ```csharp
 public enum Interval
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Daily | `0` | Указывает дневной интервал. |
+| Daily | `0` | Указывает ежедневный интервал. |
 | Weekly | `1` | Указывает недельный интервал. |
 | Monthly | `2` | Указывает месячный интервал. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как работать с повторяющимся интервалом линий прогресса.
+
+```csharp
+var project = new Project(DataDir + "Project2007.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.ToList()[1];
+
+// Позволяет читать линию прогресса
+var interval = view.ProgressLines.RecurringInterval;
+
+Console.WriteLine("Interval: " + interval.Interval);
+Console.WriteLine("Weekly Week Number: " + interval.WeeklyWeekNumber);
+foreach (var day in interval.WeeklyDays)
+{
+    Console.WriteLine("Week day: " + day);
+}
+
+// Позволяет переопределить повторяющийся интервал
+var newInterval = new RecurringInterval();
+
+// Устанавливает значение, указывающее, показывать ли месячные линии прогресса по дню.
+interval.MonthlyDay = true;
+// Устанавливает номер дня для месячных линий прогресса.
+interval.MonthlyDayDayNumber = 1;
+// Устанавливает номер месяца для месячных линий прогресса.
+interval.MonthlyDayMonthNumber = 1;
+// Устанавливает значение, указывающее, показывать ли линии прогресса по первому или последнему предопределённому дню.
+interval.MonthlyFirstLast = true;
+// Устанавливает тип первого или последнего дня для месячных линий прогресса.
+interval.MonthlyFirstLastDay = RecurringInterval.DayType.Day;
+// Устанавливает номер месяца для линий прогресса, которые отображаются по первому или последнему предопределённому дню.
+interval.MonthlyFirstLastMonthNumber = 1;
+
+view.ProgressLines.RecurringInterval = newInterval;
+
+project.Save(OutDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

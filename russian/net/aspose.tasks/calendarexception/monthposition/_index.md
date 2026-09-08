@@ -1,24 +1,52 @@
 ---
-title: CalendarException.MonthPosition
-second_title: Справочник по Aspose.Tasks для .NET API
-description: CalendarException свойство. Получает или задает позицию элемента месяца в месяце.
+title: "CalendarException.MonthPosition"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство CalendarException. Получает или задает позицию элемента месяца внутри месяца"
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/calendarexception/monthposition/
 ---
 ## CalendarException.MonthPosition property
 
-Получает или задает позицию элемента месяца в месяце.
+Получает или задает позицию элемента месяца внутри месяца.
 
 ```csharp
 public MonthPosition MonthPosition { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как определить исключение календаря по дню месяца.
+
+```csharp
+var project = new Project(DataDir + "project_test.mpp");
+
+// создать календарь
+var calendar = project.Calendars.Add("Calendar1");
+
+// создать исключение календаря для каждой пятницы
+var exception = new CalendarException();
+exception.Type = CalendarExceptionType.MonthlyByDay;
+exception.FromDate = new DateTime(2010, 1, 1);
+exception.ToDate = new DateTime(2020, 12, 31);
+exception.Month = Month.December;
+exception.MonthDay = 1;
+exception.MonthItem = MonthItemType.Undefined;
+exception.MonthPosition = MonthPosition.Last;
+exception.Period = 5;
+
+// проверьте, что пятница является исключительной
+Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2012, 12, 1)));
+
+// добавьте исключение в календарь
+calendar.Exceptions.Add(exception);
+```
+
+### См. также
 
 * enum [MonthPosition](../../monthposition/)
 * class [CalendarException](../)
-* пространство имен [Aspose.Tasks](../../calendarexception/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

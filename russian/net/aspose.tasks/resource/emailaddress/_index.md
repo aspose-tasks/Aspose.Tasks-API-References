@@ -1,7 +1,7 @@
 ---
-title: Resource.EMailAddress
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение EMailAddress.
+title: "Resource.EMailAddress"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение EMailAddress"
 type: docs
 weight: 310
 url: /ru/net/aspose.tasks/resource/emailaddress/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/emailaddress/
 public string EMailAddress { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

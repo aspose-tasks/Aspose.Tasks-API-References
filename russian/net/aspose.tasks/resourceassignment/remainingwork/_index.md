@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.RemainingWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение RemainingWork.
+title: "ResourceAssignment.RemainingWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение RemainingWork"
 type: docs
 weight: 500
 url: /ru/net/aspose.tasks/resourceassignment/remainingwork/
 ---
 ## ResourceAssignment.RemainingWork property
 
-Получает или задает значение RemainingWork.
+Получает или задает значение свойства RemainingWork.
 
 ```csharp
 public Duration RemainingWork { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

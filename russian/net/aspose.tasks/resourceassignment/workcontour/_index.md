@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.WorkContour
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение WorkContour.
+title: "ResourceAssignment.WorkContour"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "ResourceAssignment свойство. Получает или задает значение WorkContour"
 type: docs
 weight: 660
 url: /ru/net/aspose.tasks/resourceassignment/workcontour/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resourceassignment/workcontour/
 public WorkContourType WorkContour { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [WorkContourType](../../workcontourtype/)
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

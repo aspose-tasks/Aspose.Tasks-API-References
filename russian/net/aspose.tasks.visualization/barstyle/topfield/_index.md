@@ -1,24 +1,24 @@
 ---
-title: BarStyle.TopField
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BarStyle свойство. Получает или задает поле отображаемое в верхней части панели.
+title: "BarStyle.TopField"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство BarStyle. Получает или задает поле, отображаемое в верхней части полосы"
 type: docs
-weight: 190
+weight: 230
 url: /ru/net/aspose.tasks.visualization/barstyle/topfield/
 ---
 ## BarStyle.TopField property
 
-Получает или задает поле, отображаемое в верхней части панели.
+Получает или задает поле, отображаемое в верхней части полосы.
 
 ```csharp
 public Field TopField { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../barstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

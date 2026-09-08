@@ -1,14 +1,14 @@
 ---
-title: TaskCollection.Remove
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskCollection метод. Это заглушка метода Remove из ICollection которая выдает только NotSupportedException
+title: "TaskCollection.Remove"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод TaskCollection. Это заглушка реализации метода Remove интерфейса ICollections, который только бросает NotSupportedException"
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/taskcollection/remove/
 ---
 ## TaskCollection.Remove method
 
-Это заглушка метода Remove из ICollection, которая выдает только NotSupportedException
+Это заглушка реализации метода Remove интерфейса ICollection, который только бросает NotSupportedException.
 
 ```csharp
 public bool Remove(Task item)
@@ -16,17 +16,17 @@ public bool Remove(Task item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | Task | Элемент, который необходимо удалить. |
+| элемент | Задача | Элемент для удаления. |
 
 ### Возвращаемое значение
 
-`истинный` если предмет был удален;`ЛОЖЬ` в противном случае.
+`true`, если элемент был удалён; `false` в противном случае.
 
-### Смотрите также
+### См. также
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* пространство имен [Aspose.Tasks](../../taskcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: BarStyle.BottomBarTextConverter
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BarStyle свойство. Получает или задает определяемый пользователем преобразователь для отображения текста в нижней части панели задач. Переопределяет значениеBottomField свойство.
+title: "BarStyle.BottomBarTextConverter"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство BarStyle. Получает или задает пользовательский конвертер для получения текста, отображаемого в нижней части полосы задач. Переопределяет значение свойства BottomField."
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.visualization/barstyle/bottombartextconverter/
 ---
 ## BarStyle.BottomBarTextConverter property
 
-Получает или задает определяемый пользователем преобразователь для отображения текста в нижней части панели задач. Переопределяет значение[`BottomField`](../bottomfield/) свойство.
+Получает или задает пользовательский конвертер для получения текста, отображаемого в нижней части полосы задачи. Переопределяет значение свойства [`BottomField`](../bottomfield/).
 
 ```csharp
 public TaskBarTextConverter BottomBarTextConverter { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../barstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

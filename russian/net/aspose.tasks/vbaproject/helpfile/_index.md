@@ -1,7 +1,7 @@
 ---
-title: VbaProject.HelpFile
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VbaProject свойство. Получает имя файла справки
+title: "VbaProject.HelpFile"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство VbaProject. Возвращает имя файла справки."
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/vbaproject/helpfile/
@@ -14,10 +14,24 @@ url: /ru/net/aspose.tasks/vbaproject/helpfile/
 public string HelpFile { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать свойства проекта VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("VbaProject.Name " + project.VbaProject.Name);
+Console.WriteLine("VbaProject.Description " + project.VbaProject.Description);
+Console.WriteLine("VbaProject.CompilationArguments" + project.VbaProject.CompilationArguments);
+Console.WriteLine("VbaProject.HelpContextId" + project.VbaProject.HelpContextId);
+Console.WriteLine("VbaProject.HelpFile" + project.VbaProject.HelpFile);
+```
+
+### См. также
 
 * class [VbaProject](../)
-* пространство имен [Aspose.Tasks](../../vbaproject/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbaproject/)
+* assembly [Aspose.Tasks](../../../)
 
 

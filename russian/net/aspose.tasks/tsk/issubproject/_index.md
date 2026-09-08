@@ -1,9 +1,9 @@
 ---
-title: Tsk.IsSubproject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Определяет является ли задача вставленным проектом.
+title: "Tsk.IsSubproject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Определяет, является ли задача вставленным проектом"
 type: docs
-weight: 710
+weight: 700
 url: /ru/net/aspose.tasks/tsk/issubproject/
 ---
 ## Tsk.IsSubproject field
@@ -14,12 +14,26 @@ url: /ru/net/aspose.tasks/tsk/issubproject/
 public static readonly Key<bool, TaskKey> IsSubproject;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.IsSubproject.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSubproject, true);
+
+Console.WriteLine("Is Subproject: " + task.Get(Tsk.IsSubproject));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

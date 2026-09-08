@@ -1,25 +1,37 @@
 ---
-title: Prj.StatusDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. дата состояния для отображения прогресса или для расчета общего заработанного значения. Дата состояния совпадает с текущей датой сегодняшняя дата если не указана другая дата состояния.
+title: "Prj.StatusDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Дата статуса для отображения прогресса или расчёта сумм заработанной стоимости. Дата статуса совпадает с текущей датой, сегодняшним днём, если не указана другая дата статуса"
 type: docs
-weight: 680
+weight: 690
 url: /ru/net/aspose.tasks/prj/statusdate/
 ---
 ## Prj.StatusDate field
 
-дата состояния для отображения прогресса или для расчета общего заработанного значения. Дата состояния совпадает с текущей датой (сегодняшняя дата), если не указана другая дата состояния.
+Дата статуса для отображения прогресса или расчёта сумм заработанной стоимости. Дата статуса совпадает с текущей датой (датой сегодня), если не указана другая дата статуса.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> StatusDate;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.StatusDate.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.StatusDate, new DateTime(2020, 4, 19, 8, 0, 0));
+
+Console.WriteLine("Status Date: " + project.Get(Prj.StatusDate));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: SvgOptions.PageSavingCallback
-second_title: Справочник по Aspose.Tasks для .NET API
-description: SvgOptions свойство. Получает или задает определяемый пользователем обратный вызов реализации который используется для получения выходного потока для каждой отображаемой страницы.
+title: "SvgOptions.PageSavingCallback"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство SvgOptions. Возвращает или задает пользовательскую реализацию обратного вызова, используемую для получения выходного потока для каждой отрисованной страницы."
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.saving/svgoptions/pagesavingcallback/
 ---
 ## SvgOptions.PageSavingCallback property
 
-Получает или задает определяемый пользователем обратный вызов реализации, который используется для получения выходного потока для каждой отображаемой страницы.
+Получает или задает пользовательскую функцию обратного вызова, которая используется для получения выходного потока для каждой отрендеренной страницы.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [SvgOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../svgoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../svgoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: View.op_LessThan
-second_title: Справочник по Aspose.Tasks для .NET API
-description: View метод. Возвращает значение указывающее меньше ли данный экземпляр указанного объекта.
+title: "View.op_LessThan"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод View. Возвращает значение, указывающее, меньше ли данный экземпляр указанного объекта."
 type: docs
 weight: 210
 url: /ru/net/aspose.tasks/view/op_lessthan/
 ---
 ## View LessThan operator
 
-Возвращает значение, указывающее, меньше ли данный экземпляр указанного объекта.
+Возвращает значение, указывающее, меньше ли этот экземпляр указанного объекта.
 
 ```csharp
 public static bool operator <(View a, View b)
@@ -21,12 +21,12 @@ public static bool operator <(View a, View b)
 
 ### Возвращаемое значение
 
-значение, указывающее, меньше ли этот экземпляр, чем указанный объект
+значение, указывающее, меньше ли этот экземпляр указанного объекта
 
-### Смотрите также
+### См. также
 
 * class [View](../)
-* пространство имен [Aspose.Tasks](../../view/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

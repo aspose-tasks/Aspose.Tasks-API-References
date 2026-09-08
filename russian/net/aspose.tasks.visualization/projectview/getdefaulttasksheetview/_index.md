@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultTaskSheetView
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectView метод. Включает идентификатор индикаторы имя продолжительность начало окончание предшественники и столбцы задач с именами ресурсов.
+title: "ProjectView.GetDefaultTaskSheetView"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ProjectView. Включает столбцы задачи: id, индикаторы, имя, длительность, начало, завершение, предшественники и имена ресурсов."
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks.visualization/projectview/getdefaulttasksheetview/
 ---
 ## ProjectView.GetDefaultTaskSheetView method
 
-Включает идентификатор, индикаторы, имя, продолжительность, начало, окончание, предшественники и столбцы задач с именами ресурсов.
+Включает столбцы задачи id, indicators, name, duration, start, finish, predecessors и resource names.
 
 ```csharp
 public static ProjectView GetDefaultTaskSheetView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultTaskSheetView()
 
 ### Возвращаемое значение
 
-представление, содержащее список[`GanttChartColumn`](../../ganttchartcolumn/).
+представление, которое содержит список [`GanttChartColumn`](../../ganttchartcolumn/).
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект с представлением листа задач.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultTaskSheetView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_TaskSheetView_out.pdf", options);
+```
+
+### См. также
 
 * class [ProjectView](../)
-* пространство имен [Aspose.Tasks.Visualization](../../projectview/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

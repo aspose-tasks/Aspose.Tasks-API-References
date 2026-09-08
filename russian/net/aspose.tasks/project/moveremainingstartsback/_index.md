@@ -1,24 +1,24 @@
 ---
-title: Project.MoveRemainingStartsBack
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли параметр MoveRemainingStartsBack.
+title: "Project.MoveRemainingStartsBack"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, включена ли опция MoveRemainingStartsBack."
 type: docs
-weight: 600
+weight: 620
 url: /ru/net/aspose.tasks/project/moveremainingstartsback/
 ---
 ## Project.MoveRemainingStartsBack property
 
-Получает или задает значение, указывающее, установлен ли параметр MoveRemainingStartsBack.
+Получает или задает значение, указывающее, установлен ли MoveRemainingStartsBack.
 
 ```csharp
 public NullableBool MoveRemainingStartsBack { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

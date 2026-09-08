@@ -1,24 +1,24 @@
 ---
-title: Project.MultipleCriticalPaths
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли MultipleCriticalPaths или нет.
+title: "Project.MultipleCriticalPaths"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, установлен ли MultipleCriticalPaths."
 type: docs
-weight: 620
+weight: 640
 url: /ru/net/aspose.tasks/project/multiplecriticalpaths/
 ---
 ## Project.MultipleCriticalPaths property
 
-Получает или задает значение, указывающее, установлен ли MultipleCriticalPaths или нет.
+Получает или задает значение, указывающее, установлен ли MultipleCriticalPaths.
 
 ```csharp
 public NullableBool MultipleCriticalPaths { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

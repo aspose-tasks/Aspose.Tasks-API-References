@@ -1,7 +1,7 @@
 ---
-title: ProjectServerCredentials.ToString
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectServerCredentials метод. Возвращает строковое представление этого экземпляра.
+title: "ProjectServerCredentials.ToString"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ProjectServerCredentials. Возвращает строковое представление этого экземпляра"
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/projectservercredentials/tostring/
@@ -18,10 +18,10 @@ public override string ToString()
 
 строковое представление этого экземпляра.
 
-### Смотрите также
+### См. также
 
 * class [ProjectServerCredentials](../)
-* пространство имен [Aspose.Tasks](../../projectservercredentials/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 

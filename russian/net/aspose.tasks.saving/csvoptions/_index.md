@@ -1,9 +1,9 @@
 ---
-title: Class CsvOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Saving.CsvOptions сорт. Позволяет указать дополнительные параметры при сохранении проекта в CSV.
+title: "Класс CsvOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Saving.CsvOptions. Позволяет задавать дополнительные параметры при сохранении проекта в CSV"
 type: docs
-weight: 1720
+weight: 1980
 url: /ru/net/aspose.tasks.saving/csvoptions/
 ---
 ## CsvOptions class
@@ -11,52 +11,70 @@ url: /ru/net/aspose.tasks.saving/csvoptions/
 Позволяет указать дополнительные параметры при сохранении проекта в CSV.
 
 ```csharp
-public class CsvOptions : SaveOptions
+public class CsvOptions : SimpleSaveOptions
 ```
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [CsvOptions](csvoptions/)() | Инициализирует новый экземпляр`CsvOptions` class, который можно использовать для сохранения проекта в формате CSV. |
+| [CsvOptions](csvoptions/)() | Инициализирует новый экземпляр класса `CsvOptions`, который можно использовать для сохранения проекта в формате CSV. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Получает или задает список экземпляров[`BarStyle`](../../aspose.tasks.visualization/barstyle/) класс, который отображается в представлении проекта. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Получает или задает пользовательский размер страницы в пунктах (1 пункт = 1/72 дюйма). |
 | [DataCategory](../../aspose.tasks.saving/csvoptions/datacategory/) { get; set; } | Получает или задает категорию данных для сохранения. |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Получает или задает значение, указывающее, следует ли отображать нерабочее время (значение по умолчанию — TRUE). |
-| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | Получает или задает кодировку для сохранения CSV с помощью. |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Получает или задает дату завершения рендеринга. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Получает или задает значение, указывающее, следует ли увеличить высоту строки, чтобы она соответствовала ее содержимому. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | Получает или задает, должен ли раздел календаря представления отображаться до конца (справа) последней страницы. Если значение равно false, раздел календаря отображается точно до EndDate, даже если на странице есть пустое место. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Получает или задает список[`Gridline`](../../aspose.tasks.visualization/gridline/) которые отображаются в представлении проекта. |
-| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | Получает или задает значение, указывающее, включать ли заголовки или нет (значение по умолчанию — TRUE). |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | Получает или задает значение, указывающее, следует ли отображать легенду на каждой странице (значение по умолчанию — TRUE). |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Получает или задает значение, указывающее, должны ли критические задачи отображаться красным цветом (значение по умолчанию — FALSE). |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | Получает или задает цвет нерабочего времени. |
-| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | Получает или задает количество страниц проекта. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Получает или задает размер отображаемой страницы (значение по умолчанию — PageSize.A4). |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Получает или задает[`PresentationFormat`](../saveoptions/presentationformat/) в котором документ будет сохранен. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Получает или задает значение, указывающее, должен ли проект отображаться на одной странице при сохранении проекта в графическом формате. Размер страницы будет изменен, чтобы отображаемый проект мог уместиться на одной странице. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Получает или задает значение, указывающее, должны ли быть отмечены подзадачи на панели сводных задач. Поле указывает, отображаются ли на панели сводных задач свернутые столбцы. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | Получает или задает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Получает или задает дату начала рендеринга. |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | Получает или задает компаратор для сортировки задач на диаграмме Ганта и диаграмме листа задач. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | Получает или задает условие, которое используется для фильтрации задач, отображаемых на диаграммах Ганта, листе задач и диаграммах использования задач. |
+| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | Получает или задает кодировку, с которой сохраняется CSV. |
+| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | Получает или задает значение, указывающее, включать ли заголовки (значение по умолчанию — TRUE). |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Получает или задает формат, в котором будет сохраняться документ, если используется этот объект параметров сохранения. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Получает или задает компаратор для сортировки задач на диаграмме Ганта и листе задач. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Получает или задает условие, используемое для фильтрации задач, отрисованных на диаграммах Ганта, листе задач и использовании задач. |
 | [TextDelimiter](../../aspose.tasks.saving/csvoptions/textdelimiter/) { get; set; } | Получает или задает разделитель текста. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Получает или задает список экземпляров[`TextStyle`](../../aspose.tasks.visualization/textstyle/) класс, который отображается в представлении проекта. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Получает или задает[`Timescale`](../saveoptions/timescale/) значение, которое используется для управления визуализацией временной шкалы (если она присутствует) при сохранении проекта в графическом формате. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Получает или задает значение, указывающее, следует ли использовать градиентную кисть при визуализации диаграммы Ганта. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Получает или задает список столбцов представления для отображения ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ). Если не задано, то визуализируются только идентификаторы задач, имена задач, начало и конец.[`ViewSettings`](../saveoptions/viewsettings/)свойства установлены, столбцы из View переопределяют столбцы из ViewSettings. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Получает или задает представление ([`View`](../saveoptions/view/) ) для рендеринга. Вы можете использовать эти параметры, чтобы явно указать, какое представление должно быть сохранено в форматах PDF, HTML или Image. Если это свойство установлено,[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) свойство игнорируется при сохранении проекта. Вид должен быть на одном из следующих экранов (([`Screen`](../../aspose.tasks/view/screen/) )): (Ганта, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |
+| [View](../../aspose.tasks.saving/csvoptions/view/) { get; set; } | Получает или задает список столбцов представления ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)), которые сохраняются в формате XLSX. Если не задано, сохраняются столбцы по умолчанию. |
 
-### Смотрите также
+## Примеры
 
-* class [SaveOptions](../saveoptions/)
-* пространство имен [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как использовать &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; для сохранения проекта в виде CSV-файла.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+Показывает, как использовать &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; для получения столбцов диаграммы Ганта по умолчанию и
+
+```csharp
+// сохранить их в файл CSV.
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+CsvOptions options = new CsvOptions();
+options.TextDelimiter = CsvTextDelimiter.Tab;
+
+var view = project.DefaultView;
+options.View = ProjectView.GetDefaultGanttChartView();
+options.View.Columns.Clear();
+
+foreach (var t in view.Table.TableFields)
+{
+    var columnTitle = string.IsNullOrEmpty(t.Title) ? FieldHelper.GetDefaultFieldTitle(t.Field) : t.Title;
+    options.View.Columns.Add(new GanttChartColumn(columnTitle, 10, t.Field));
+}
+
+project.Save(OutDir + "CustomizeViewForCsvOptions_out.csv", options);
+```
+
+### См. также
+
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

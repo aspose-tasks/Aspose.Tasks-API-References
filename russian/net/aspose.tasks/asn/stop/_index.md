@@ -1,7 +1,7 @@
 ---
-title: Asn.Stop
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Asn поле. Дата остановки назначения.
+title: "Asn.Stop"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Asn. Дата, когда назначение остановлено"
 type: docs
 weight: 520
 url: /ru/net/aspose.tasks/asn/stop/
@@ -14,12 +14,27 @@ url: /ru/net/aspose.tasks/asn/stop/
 public static readonly Key<DateTime, AsnKey> Stop;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать даты остановки/возобновления назначения.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentStopResumeDates.mpp");
+
+// Печать дат остановки и возобновления назначения ресурса
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.Stop).ToShortDateString() == "1/1/2000" ? "NA" : ra.Get(Asn.Stop).ToShortDateString());
+    Console.WriteLine(ra.Get(Asn.Resume).ToShortDateString() == "1/1/2000" ? "NA" : ra.Get(Asn.Resume).ToShortDateString());
+}
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* пространство имен [Aspose.Tasks](../../asn/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

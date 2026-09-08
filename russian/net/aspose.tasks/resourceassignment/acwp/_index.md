@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ACWP
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение ACWP.
+title: "ResourceAssignment.ACWP"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение ACWP"
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/resourceassignment/acwp/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resourceassignment/acwp/
 public double ACWP { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

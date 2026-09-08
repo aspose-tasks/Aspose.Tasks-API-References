@@ -1,24 +1,24 @@
 ---
-title: Project.TaskUpdatesResource
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли TaskUpdatesResource или нет.
+title: "Project.TaskUpdatesResource"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, установлен ли TaskUpdatesResource"
 type: docs
-weight: 910
+weight: 940
 url: /ru/net/aspose.tasks/project/taskupdatesresource/
 ---
 ## Project.TaskUpdatesResource property
 
-Получает или задает значение, указывающее, установлен ли TaskUpdatesResource или нет.
+Получает или задает значение, указывающее, установлен ли TaskUpdatesResource.
 
 ```csharp
 public NullableBool TaskUpdatesResource { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Project.CurrencyDigits
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение CurrencyDigits.
+title: "Project.CurrencyDigits"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение CurrencyDigits"
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.tasks/project/currencydigits/
 ---
 ## Project.CurrencyDigits property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/currencydigits/
 public int CurrencyDigits { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

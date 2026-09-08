@@ -1,24 +1,24 @@
 ---
-title: HtmlSaveOptions.PageSavingCallback
-second_title: Справочник по Aspose.Tasks для .NET API
-description: HtmlSaveOptions свойство. Получает или задает определяемый пользователем обратный вызов который используется для получения выходного потока для каждой отображаемой страницы.
+title: "HtmlSaveOptions.PageSavingCallback"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство HtmlSaveOptions. Получает или задает пользовательский обратный вызов, который используется для получения выходного потока для каждой отрисованной страницы"
 type: docs
-weight: 150
+weight: 140
 url: /ru/net/aspose.tasks.saving/htmlsaveoptions/pagesavingcallback/
 ---
 ## HtmlSaveOptions.PageSavingCallback property
 
-Получает или задает определяемый пользователем обратный вызов, который используется для получения выходного потока для каждой отображаемой страницы.
+Получает или задает пользовательский обратный вызов, используемый для получения выходного потока для каждой отрисованной страницы.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

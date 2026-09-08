@@ -1,7 +1,7 @@
 ---
-title: Class FontResolveEventArgs
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.FontResolveEventArgs сорт. Предоставляет аргументы для обратного вызова который вызывается при разрешении шрифта.
+title: "Класс FontResolveEventArgs"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.FontResolveEventArgs. Предоставляет аргументы для обратного вызова, который вызывается при разрешении шрифта."
 type: docs
 weight: 670
 url: /ru/net/aspose.tasks/fontresolveeventargs/
@@ -14,16 +14,16 @@ url: /ru/net/aspose.tasks/fontresolveeventargs/
 public sealed class FontResolveEventArgs : EventArgs
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname/) { get; } | Получает имя запрошенного шрифта. |
-| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | Получает или задает имя разрешенного шрифта. Может быть установлен для управления шрифтами, используемыми для визуализации вида. |
+| [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname/) { get; } | Возвращает имя запрошенного шрифта. |
+| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | Возвращает или задает имя разрешённого шрифта. Может быть установлен для управления шрифтами, используемыми при рендеринге представления. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

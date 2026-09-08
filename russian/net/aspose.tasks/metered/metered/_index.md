@@ -1,7 +1,7 @@
 ---
-title: Metered.Metered
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Metered строитель. Конструктор по умолчанию.
+title: "Metered.Metered"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Metered constructor. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/metered/metered/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/metered/metered/
 public Metered()
 ```
 
-### Смотрите также
+### См. также
 
 * class [Metered](../)
-* пространство имен [Aspose.Tasks](../../metered/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../metered/)
+* assembly [Aspose.Tasks](../../../)
 
 

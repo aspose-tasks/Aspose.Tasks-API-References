@@ -1,26 +1,41 @@
 ---
-title: Tsk.Work
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Общее время запланированное для задачи для всех назначенных ресурсов.
+title: "Tsk.Work"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Общее время, запланированное для задачи для всех назначенных ресурсов"
 type: docs
-weight: 1170
+weight: 1150
 url: /ru/net/aspose.tasks/tsk/work/
 ---
 ## Tsk.Work field
 
-Общее время, запланированное для задачи для всех назначенных ресурсов.
+Общее запланированное время задачи для всех назначенных ресурсов.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> Work;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.Work.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Hour);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Work, project.GetWork(1));
+
+Console.WriteLine("Work: " + task.Get(Tsk.Work));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

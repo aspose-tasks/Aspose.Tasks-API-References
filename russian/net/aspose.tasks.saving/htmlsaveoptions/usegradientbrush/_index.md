@@ -1,23 +1,41 @@
 ---
-title: HtmlSaveOptions.UseGradientBrush
-second_title: Справочник по Aspose.Tasks для .NET API
-description: HtmlSaveOptions свойство. Получает или задает значение указывающее следует ли использовать градиентную кисть при отрисовке макета проекта. В настоящее время использование градиентной кисти не поддерживается при рендеринге в HTML.
+title: "HtmlSaveOptions.UseGradientBrush"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство HtmlSaveOptions. Получает или задает значение, указывающее, использовать ли градиентную кисть при рендеринге макета проекта. В настоящее время использование градиентной кисти не поддерживается при рендеринге в HTML."
 type: docs
-weight: 170
+weight: 160
 url: /ru/net/aspose.tasks.saving/htmlsaveoptions/usegradientbrush/
 ---
 ## HtmlSaveOptions.UseGradientBrush property
 
-Получает или задает значение, указывающее, следует ли использовать градиентную кисть при отрисовке макета проекта. В настоящее время использование градиентной кисти не поддерживается при рендеринге в HTML.
+Получает или задает значение, указывающее, использовать ли градиентную кисть при отрисовке макета проекта. В настоящее время использование градиентной кисти не поддерживается при отрисовке в HTML.
 
 ```csharp
 public override bool UseGradientBrush { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как задать пользовательский шрифт, который будет использоваться для экспорта проекта в HTML-файл.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new HtmlSaveOptions
+                  {
+                      PresentationFormat = PresentationFormat.GanttChart,
+                      FitContent = true
+                  };
+
+options.FontSettings.UseProjectDefaultFont = false;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
+project.Save(OutDir + "AddDefaultFontDuringSavingAsHtml_out.html", options);
+```
+
+### См. также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

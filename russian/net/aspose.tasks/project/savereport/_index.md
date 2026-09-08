@@ -1,14 +1,14 @@
 ---
-title: Project.SaveReport
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Сохраняет обзорный отчет проекта в поток.
+title: "Project.SaveReport"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Сохраняет обзорный отчёт проекта в поток."
 type: docs
-weight: 1200
+weight: 1220
 url: /ru/net/aspose.tasks/project/savereport/
 ---
 ## SaveReport(Stream) {#savereport}
 
-Сохраняет обзорный отчет проекта в поток.
+Сохраняет обзорный отчёт проекта в поток.
 
 ```csharp
 public void SaveReport(Stream stream)
@@ -16,19 +16,33 @@ public void SaveReport(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, в который нужно сохранить отчет по проекту. |
+| поток | Поток | Поток, в который сохраняется отчёт проекта. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить обзорный отчёт проекта в PDF‑файл.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// сохранить обзорный отчёт в PDF‑файл в указанный поток.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream);
+}
+```
+
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string) {#savereport_2}
 
-Сохраняет обзорный отчет проекта в файл PDF.
+Сохраняет обзорный отчёт проекта в PDF‑файл.
 
 ```csharp
 public void SaveReport(string fileName)
@@ -36,19 +50,30 @@ public void SaveReport(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла. |
+| fileName | Строка | Имя файла. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить обзорный отчёт проекта в PDF‑файл в поток.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// можно сохранить обзорный отчёт в PDF‑файл по указанному пути
+project.SaveReport(OutDir + "SaveProjectOverviewReport_out.pdf");
+```
+
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(Stream, ReportType) {#savereport_1}
 
-Сохраняет отчет о проекте указанного типа в указанный поток.
+Сохраняет отчёт проекта указанного типа в указанный поток.
 
 ```csharp
 public void SaveReport(Stream stream, ReportType reportType)
@@ -56,21 +81,35 @@ public void SaveReport(Stream stream, ReportType reportType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | указанный поток для сохранения отчета по проекту. |
-| reportType | ReportType | указанный тип отчета.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
+| поток | Поток | указанный поток, в который сохраняется отчёт проекта. |
+| reportType | ReportType | указанный тип отчёта.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить отчёт проекта в PDF‑файл для конкретного типа отчёта.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// сохранить обзорный отчёт в PDF‑файл в указанный поток.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### См. также
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string, ReportType) {#savereport_3}
 
-Сохраняет отчет о проекте указанного типа в формате PDF по указанному пути к файлу.
+Сохраняет отчёт проекта указанного типа в формате PDF в указанный путь к файлу.
 
 ```csharp
 public void SaveReport(string fileName, ReportType reportType)
@@ -78,14 +117,23 @@ public void SaveReport(string fileName, ReportType reportType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | указанное имя файла. |
-| reportType | ReportType | указанный тип отчета.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
+| fileName | Строка | указанное имя файла. |
+| reportType | ReportType | указанный тип отчёта.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить отчёт проекта в формате PDF.
+
+```csharp
+var project = new Project(DataDir + "OzBuild 16 Orig.mpp");
+project.SaveReport(OutDir + "CostOverview_out.pdf", ReportType.CostOverview);
+```
+
+### См. также
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

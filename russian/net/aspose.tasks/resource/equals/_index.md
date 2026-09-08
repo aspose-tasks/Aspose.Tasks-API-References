@@ -1,14 +1,14 @@
 ---
-title: Resource.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource метод. Возвращает значение указывающее равен ли этот экземпляр указанному экземпляруResource класс.
+title: "Resource.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Resource. Возвращает значение, указывающее, равен ли данный экземпляр указанному экземпляру класса Resource."
 type: docs
-weight: 830
+weight: 820
 url: /ru/net/aspose.tasks/resource/equals/
 ---
 ## Equals(Resource) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру[`Resource`](../) класс.
+Возвращает значение, указывающее, равен ли данный экземпляр указанному экземпляру класса [`Resource`](../).
 
 ```csharp
 public bool Equals(Resource other)
@@ -16,17 +16,30 @@ public bool Equals(Resource other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Resource | Указанный экземпляр[`Resource`](../) класс для сравнения с этим экземпляром. |
+| other | Resource | Указанный экземпляр класса [`Resource`](../), с которым сравнивается данный экземпляр. |
 
 ### Возвращаемое значение
 
-**Истинный** если указанный экземпляр[`Resource`](../) класс имеет то же значение Uid, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+**True** if the specified instance of the [`Resource`](../) class has the same Uid value as this instance; otherwise, **false**.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство ресурсов.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +53,29 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Объект | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинный** если указанный объект является Ресурсом, который имеет то же значение Uid, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+**True** if the specified object is a Resource that has the same Uid value as this instance; otherwise, **false**.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство ресурсов.
+
+```csharp
+var project = new Project(DataDir + "Baselines2010.mpp");
+
+var resource1 = project.Resources.GetById(1);
+var resource2 = project.Resources.GetById(1);
+
+Console.WriteLine("Are resources equal: " + resource1.Equals(resource2));
+```
+
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

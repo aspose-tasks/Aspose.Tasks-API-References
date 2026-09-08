@@ -1,26 +1,38 @@
 ---
-title: Prj.SplitsInProgressTasks
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет можно ли разделить выполняемые задачи.
+title: "Prj.SplitsInProgressTasks"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, можно ли разбивать задачи в процессе выполнения"
 type: docs
-weight: 640
+weight: 650
 url: /ru/net/aspose.tasks/prj/splitsinprogresstasks/
 ---
 ## Prj.SplitsInProgressTasks field
 
-Определяет, можно ли разделить выполняемые задачи.
+Определяет, можно ли разделять задачи в процессе выполнения.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SplitsInProgressTasks;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.SplitsInProgressTasks.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SplitsInProgressTasks, true);
+
+Console.WriteLine("Splits In Progress Tasks: " + project.Get(Prj.SplitsInProgressTasks));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

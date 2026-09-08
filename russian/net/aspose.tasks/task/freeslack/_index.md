@@ -1,7 +1,7 @@
 ---
-title: Task.FreeSlack
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение FreeSlack.
+title: "Task.FreeSlack"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение FreeSlack"
 type: docs
 weight: 500
 url: /ru/net/aspose.tasks/task/freeslack/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/freeslack/
 public TimeSpan FreeSlack { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

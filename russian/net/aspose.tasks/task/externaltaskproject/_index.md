@@ -1,7 +1,7 @@
 ---
-title: Task.ExternalTaskProject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение ExternalTaskProject.
+title: "Task.ExternalTaskProject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение ExternalTaskProject"
 type: docs
 weight: 420
 url: /ru/net/aspose.tasks/task/externaltaskproject/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/externaltaskproject/
 public string ExternalTaskProject { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

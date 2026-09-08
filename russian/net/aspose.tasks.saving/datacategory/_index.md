@@ -1,30 +1,46 @@
 ---
-title: Enum DataCategory
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Saving.DataCategory перечисление. Категория данных используемая при сохранении в CSV.
+title: "Перечисление DataCategory"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.Saving.DataCategory. Категория данных, используемых при сохранении в CSV."
 type: docs
-weight: 1740
+weight: 2000
 url: /ru/net/aspose.tasks.saving/datacategory/
 ---
 ## DataCategory enumeration
 
-Категория данных, используемая при сохранении в CSV.
+Категория данных, используемых при сохранении в CSV.
 
 ```csharp
 public enum DataCategory
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Tasks | `0` | Информация о задачах. |
 | Resources | `1` | Информация о ресурсах. |
-| Assignments | `2` | Информация о заданиях. |
+| Assignments | `2` | Информация о назначениях. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как использовать &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; для сохранения проекта в виде CSV-файла.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

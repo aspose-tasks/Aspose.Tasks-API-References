@@ -1,26 +1,41 @@
 ---
-title: Rsc.ActualWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Rsc поле. Объем работы уже выполненной ресурсом назначенным задачам.
+title: "Rsc.ActualWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Rsc. Объём работы, уже выполненной ресурсом, назначенным на задачи"
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/rsc/actualwork/
 ---
 ## Rsc.ActualWork field
 
-Объем работы, уже выполненной ресурсом, назначенным задачам.
+Объём работы, уже выполненной ресурсом, назначенным на задачи.
 
 ```csharp
 public static readonly Key<Duration, RscKey> ActualWork;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Rsc.ActualWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualWork, project.GetWork(1));
+
+Console.WriteLine("Actual Work: " + resource.Get(Rsc.ActualWork));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* пространство имен [Aspose.Tasks](../../rsc/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

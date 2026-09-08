@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ActualOvertimeCost
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение ActualOvertimeCost.
+title: "ResourceAssignment.ActualOvertimeCost"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "ResourceAssignment свойство. Получает или задает значение ActualOvertimeCost"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/resourceassignment/actualovertimecost/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resourceassignment/actualovertimecost/
 public decimal ActualOvertimeCost { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

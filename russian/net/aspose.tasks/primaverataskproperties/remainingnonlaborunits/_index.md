@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingNonLaborUnits
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает стоимость оставшихся нетрудовых единиц.
+title: "PrimaveraTaskProperties.RemainingNonLaborUnits"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties свойство. Возвращает значение оставшихся не трудовых единиц"
 type: docs
-weight: 150
+weight: 320
 url: /ru/net/aspose.tasks/primaverataskproperties/remainingnonlaborunits/
 ---
 ## PrimaveraTaskProperties.RemainingNonLaborUnits property
 
-Получает стоимость оставшихся нетрудовых единиц.
+Получает значение оставшихся единиц, не связанных с трудом.
 
 ```csharp
 public double RemainingNonLaborUnits { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 
