@@ -1,23 +1,23 @@
 ---
-title: Project.CriticalSlackLimit
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. CriticalSlackLimit. değerini alır veya ayarlar.
+title: "Project.CriticalSlackLimit"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. Toplam gecikme bu gün sayısına eşit veya daha az ise, MS Project görevi kritik olarak kabul eder"
 type: docs
-weight: 180
+weight: 190
 url: /tr/net/aspose.tasks/project/criticalslacklimit/
 ---
 ## Project.CriticalSlackLimit property
 
-CriticalSlackLimit. değerini alır veya ayarlar.
+Toplam gecikme süresi bu gün sayısına eşit veya daha az ise MS Project görevleri kritik olarak kabul eder.
 
 ```csharp
 public int CriticalSlackLimit { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

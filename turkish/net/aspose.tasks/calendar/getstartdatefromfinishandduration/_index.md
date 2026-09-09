@@ -1,58 +1,90 @@
 ---
-title: Calendar.GetStartDateFromFinishAndDuration
-second_title: Aspose.Tasks for .NET API Referansı
-description: Calendar yöntem. Belirtilen BitişTarihi ve Süreye göre BaşlangıçTarihini döndürür.
+title: "Calendar.GetStartDateFromFinishAndDuration"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Calendar yöntemi. Belirtilen bitiş tarihi ve süreye göre başlangıç tarihini döndürür."
 type: docs
-weight: 180
+weight: 200
 url: /tr/net/aspose.tasks/calendar/getstartdatefromfinishandduration/
 ---
 ## GetStartDateFromFinishAndDuration(DateTime, Duration) {#getstartdatefromfinishandduration}
 
-Belirtilen BitişTarihi ve Süreye göre BaşlangıçTarihi'ni döndürür.
+Belirtilen bitiş tarihi ve süreye dayanarak başlangıç tarihini döndürür.
 
 ```csharp
 public DateTime GetStartDateFromFinishAndDuration(DateTime finish, Duration duration)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| finish | DateTime | Belirtilen bitiş tarihi. |
-| duration | Duration | Belirtilen çalışma süresi. |
+| bitiş | DateTime | Belirtilen bitiş tarihi. |
+| süre | Süre | Belirtilen süre. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Hesaplanan Başlangıç Tarihi.
+Hesaplanan başlangıç tarihi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bitiş tarihi ve süreye göre bir başlangıç tarihinin nasıl alınacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// bitiş tarihi ve bir süreye göre başlangıç tarihini al
+var startDate = calendar.GetStartDateFromFinishAndDuration(new DateTime(2020, 4, 10, 9, 0, 0), project.GetDuration(16, TimeUnitType.Hour));
+
+// 8 Nisan 2020 9:00 AM yazdırılacak
+Console.WriteLine(startDate);
+```
+
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Calendar](../)
-* ad alanı [Aspose.Tasks](../../calendar/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetStartDateFromFinishAndDuration(DateTime, TimeSpan) {#getstartdatefromfinishandduration_1}
 
-Belirtilen BitişTarihi ve Süreye göre BaşlangıçTarihi'ni döndürür.
+Belirtilen bitiş tarihi ve süreye dayanarak başlangıç tarihini döndürür.
 
 ```csharp
 public DateTime GetStartDateFromFinishAndDuration(DateTime finish, TimeSpan duration)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| finish | DateTime | Belirtilen bitiş tarihi. |
-| duration | TimeSpan | Belirtilen çalışma süresi. |
+| bitiş | DateTime | Belirtilen bitiş tarihi. |
+| süre | TimeSpan | Belirtilen süre. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Hesaplanan Başlangıç Tarihi.
+Hesaplanan başlangıç tarihi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bitiş tarihi ve süreye (zaman aralığı olarak) göre bir başlangıç tarihinin nasıl alınacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// bitiş tarihi ve bir süreye göre başlangıç tarihini al
+var startDate = calendar.GetStartDateFromFinishAndDuration(new DateTime(2020, 4, 10, 9, 0, 0), TimeSpan.FromHours(16));
+
+// 8 Nisan 2020 9:00 AM yazdırılacak
+Console.WriteLine(startDate);
+```
+
+### Ayrıca Bakınız
 
 * class [Calendar](../)
-* ad alanı [Aspose.Tasks](../../calendar/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Rsc.Notes
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Bir kaynakla ilişkili metin notları.
+title: "Notlar"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Bir kaynakla ilişkili metin notları."
 type: docs
 weight: 470
 url: /tr/net/aspose.tasks/rsc/notes/
@@ -14,12 +14,26 @@ Bir kaynakla ilişkili metin notları.
 public static readonly Key<string, RscKey> Notes;
 ```
 
-### Ayrıca bakınız
+### Örnekler
 
-* struct [Key&lt;T,K&gt;](../../key-2/)
-* enum [RscKey](../../rsckey/)
-* class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+Rsc.Notes özelliğini nasıl okuma/yazma yapılacağını gösterir.
 
+```csharp
+var project = new Project();
 
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Notes, "Resource Notes");
+
+Console.WriteLine("Notes: " + resource.Get(Rsc.Notes));
+```
+
+### Ayrıca Bakınız
+
+* struct [Key&lt;T,K&gt;](../../key-2)
+* enum [RscKey](../../rsckey)
+* class [Rsc](../../rsc)
+* namespace [Aspose.Tasks](../../rsc)
+* assembly [Aspose.Tasks](../../../)
+
+<!-- DÜZENLEMEYİN: xmldocmd tarafından Aspose.Tasks.dll için oluşturuldu -->

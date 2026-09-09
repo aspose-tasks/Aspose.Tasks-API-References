@@ -1,23 +1,65 @@
 ---
-title: ExtendedAttribute.IsErrorValue
-second_title: Aspose.Tasks for .NET API Referansı
-description: ExtendedAttribute mülk. Genişletilmiş öznitelik değerinin hesaplanmasının bir hatayla sonuçlanıp sonuçlanmadığını alır.
+title: "ExtendedAttribute.IsErrorValue"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ExtendedAttribute özelliği. Genişletilmiş öznitelik değerinin hesaplamasının bir hatayla sonuçlanıp sonuçlanmadığını alır"
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks/extendedattribute/iserrorvalue/
 ---
 ## ExtendedAttribute.IsErrorValue property
 
-Genişletilmiş öznitelik değerinin hesaplanmasının bir hatayla sonuçlanıp sonuçlanmadığını alır.
+Genişletilmiş öznitelik değerinin hesaplamasının bir hatayla sonuçlanıp sonuçlanmadığını alır.
 
 ```csharp
 public bool IsErrorValue { get; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Kullanıcı tarafından belirtilen formül kullanılarak değeri hesaplanan özel alanın nasıl ekleneceğini gösterir.
+
+```csharp
+var project = new Project();
+
+// yeni görev genişletilmiş öznitelik tanımı oluştur
+var attribute = ExtendedAttributeDefinition.CreateTaskDefinition(CustomFieldType.Cost, ExtendedAttributeTask.Cost1, "Cost ratio");
+
+// Özniteliğe bir formül ekle.
+attribute.Formula = "[Cost] / [Actual Cost]";
+
+project.ExtendedAttributes.Add(attribute);
+
+var task = project.RootTask.Children.Add("Task");
+
+// Genişletilmiş öznitelik oluştur
+var extendedAttribute = attribute.CreateExtendedAttribute();
+task.ExtendedAttributes.Add(extendedAttribute);
+
+// Genişletilmiş öznitelik için Formülü ayarladık, böylece yalnızca okunur (değer formül kullanılarak hesaplanır).
+// Çıktı "Value is read only"
+Console.WriteLine(extendedAttribute.ValueReadOnly ? "Value is read only" : "Value is not read only");
+
+// Yalnızca okunur alanın değerini ayarlamayı deneyebilirsiniz, ancak bir etkisi olmayacaktır.
+extendedAttribute.NumericValue = -1000000M;
+
+Console.WriteLine("Cost is {0}, Actual Cost is {1}, Custom attribute's value is {2}",
+    task.Get(Tsk.Cost),
+    task.Get(Tsk.ActualCost),
+    extendedAttribute.IsErrorValue ? "#Error" : extendedAttribute.NumericValue.ToString());
+
+task.Set(Tsk.Cost, 100m);
+task.Set(Tsk.ActualCost, 120m);
+
+Console.WriteLine("Cost is {0}, Actual Cost is {1}, Custom attribute's value is {2}",
+    task.Get(Tsk.Cost), 
+    task.Get(Tsk.ActualCost),
+    extendedAttribute.IsErrorValue ? "#Error" : extendedAttribute.NumericValue.ToString());
+```
+
+### Ayrıca Bakınız
 
 * class [ExtendedAttribute](../)
-* ad alanı [Aspose.Tasks](../../extendedattribute/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

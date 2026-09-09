@@ -1,23 +1,23 @@
 ---
-title: Project.SaveVersion
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. SaveVersion. değerini alır veya ayarlar.
+title: "Project.SaveVersion"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. SaveVersion değerini alır veya ayarlar"
 type: docs
-weight: 780
+weight: 810
 url: /tr/net/aspose.tasks/project/saveversion/
 ---
 ## Project.SaveVersion property
 
-SaveVersion. değerini alır veya ayarlar.
+SaveVersion değerini alır veya ayarlar.
 
 ```csharp
 public int SaveVersion { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

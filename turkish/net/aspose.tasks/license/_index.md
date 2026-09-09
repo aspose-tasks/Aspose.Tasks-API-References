@@ -1,9 +1,9 @@
 ---
-title: Class License
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.License sınıf. Bileşeni lisanslamak için yöntemler sağlar.
+title: "Sınıf Lisans"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.License sınıfı. Bileşeni lisanslamak için yöntemler sağlar."
 type: docs
-weight: 860
+weight: 980
 url: /tr/net/aspose.tasks/license/
 ---
 ## License class
@@ -11,25 +11,25 @@ url: /tr/net/aspose.tasks/license/
 Bileşeni lisanslamak için yöntemler sağlar.
 
 ```csharp
-public class License
+public sealed class License
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [License](license/)() | Yeni bir örneğini başlatır.`License` sınıf. |
+| [License](license/)() | `License` sınıfının yeni bir örneğini başlatır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
 | [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | Bileşeni lisanslar. |
 | [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | Bileşeni lisanslar. |
 
-### Örnekler
+## Örnekler
 
-Bu örnekte, içeren klasörde MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır. bileşen, çağıran derlemeyi içeren klasörde, giriş derlemesinin klasöründe ve ardından çağıran derlemenin katıştırılmış kaynaklarında.
+Bu örnekte, bileşeni içeren klasörde, çağıran derlemenin bulunduğu klasörde, giriş derlemesinin klasöründe ve ardından çağıran derlemenin gömülü kaynaklarında MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
 
 ```csharp
 [C#]
@@ -51,9 +51,16 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Ayrıca bakınız
+Aspose.Tasks lisansının nasıl uygulanacağını gösterir.
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

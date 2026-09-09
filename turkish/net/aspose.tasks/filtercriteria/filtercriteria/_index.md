@@ -1,23 +1,23 @@
 ---
-title: FilterCriteria.FilterCriteria
-second_title: Aspose.Tasks for .NET API Referansı
-description: FilterCriteria inşaatçı. Default_Constructor
+title: "FilterCriteria.FilterCriteria"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "FilterCriteria yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/filtercriteria/filtercriteria/
 ---
 ## FilterCriteria constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public FilterCriteria()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [FilterCriteria](../)
-* ad alanı [Aspose.Tasks](../../filtercriteria/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filtercriteria/)
+* assembly [Aspose.Tasks](../../../)
 
 

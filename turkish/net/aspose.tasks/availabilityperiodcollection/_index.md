@@ -1,46 +1,140 @@
 ---
-title: Class AvailabilityPeriodCollection
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.AvailabilityPeriodCollection sınıf. içeren bir koleksiyonu temsil ederAvailabilityPeriod nesneler.
+title: "Sınıf AvailabilityPeriodCollection"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.AvailabilityPeriodCollection sınıfı. AvailabilityPeriod nesnelerini içeren bir koleksiyonu temsil eder"
 type: docs
 weight: 90
 url: /tr/net/aspose.tasks/availabilityperiodcollection/
 ---
 ## AvailabilityPeriodCollection class
 
-içeren bir koleksiyonu temsil eder[`AvailabilityPeriod`](../availabilityperiod/) nesneler.
+[`AvailabilityPeriod`](../availabilityperiod/) nesnelerini içeren bir koleksiyonu temsil eder.
 
 ```csharp
 public class AvailabilityPeriodCollection : IList<AvailabilityPeriod>
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | Bu koleksiyonda bulunan öğelerin sayısını alır. |
-| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | Bu koleksiyonun salt okunur olup olmadığını gösteren bir değer alır; aksi takdirde, false. |
-| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | Öğeyi belirtilen dizinde döndürür veya ayarlar. |
-| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | Ebeveyni alır[`Resource`](../resource/) bu nesne için.  ebeveyn[`Resource`](../resource/) bu koleksiyon için nesne. |
+| [Count](../../aspose.tasks/availabilityperiodcollection/count/) { get; } | Bu koleksiyonda bulunan öğe sayısını alır. |
+| [IsReadOnly](../../aspose.tasks/availabilityperiodcollection/isreadonly/) { get; } | Bu koleksiyonun yalnızca okunur olup olmadığını gösteren bir değer alır; aksi takdirde false. |
+| [Item](../../aspose.tasks/availabilityperiodcollection/item/) { get; set; } | Belirtilen indeksteki öğeyi döndürür veya ayarlar. |
+| [ParentResource](../../aspose.tasks/availabilityperiodcollection/parentresource/) { get; } | Bu nesne için üst [`Resource`](../resource/) öğesini alır. Bu koleksiyon için üst [`Resource`](../resource/) nesnesi. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.tasks/availabilityperiodcollection/add/)(AvailabilityPeriod) | Belirtilen öğeyi bu koleksiyona ekler. |
 | [Clear](../../aspose.tasks/availabilityperiodcollection/clear/)() | Bu koleksiyondaki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | Belirtilen öğe bu koleksiyonda bulunursa doğru döndürür; aksi takdirde, false. |
-| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | Belirtilen diziden başlayarak bu koleksiyonun öğelerini belirtilen diziye kopyalar index. |
-| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator/)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
+| [Contains](../../aspose.tasks/availabilityperiodcollection/contains/)(AvailabilityPeriod) | Belirtilen öğe bu koleksiyonda bulunursa true, aksi takdirde false döndürür. |
+| [CopyTo](../../aspose.tasks/availabilityperiodcollection/copyto/)(AvailabilityPeriod[], int) | Bu koleksiyonun öğelerini belirtilen diziye, belirtilen dizi indeksinden başlayarak kopyalar. |
+| [GetEnumerator](../../aspose.tasks/availabilityperiodcollection/getenumerator/)() | Bu koleksiyon için bir enumerator döndürür. |
 | [IndexOf](../../aspose.tasks/availabilityperiodcollection/indexof/)(AvailabilityPeriod) | Bu koleksiyondaki belirtilen öğenin dizinini belirler. |
 | [Insert](../../aspose.tasks/availabilityperiodcollection/insert/)(int, AvailabilityPeriod) | Belirtilen öğeyi belirtilen dizine ekler. |
-| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | Belirli bir nesnenin ilk örneğini bu koleksiyondan kaldırır. |
+| [Remove](../../aspose.tasks/availabilityperiodcollection/remove/)(AvailabilityPeriod) | Bu koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
 | [RemoveAt](../../aspose.tasks/availabilityperiodcollection/removeat/)(int) | Belirtilen dizindeki bir öğeyi kaldırır. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaynağın kullanılabilirlik dönemi koleksiyonu ile nasıl çalışılacağını gösterir.
+
+```csharp
+public void WorkWithAvailabilityPeriodCollection()
+{
+    var project = new Project(DataDir + "UpdateResourceData.mpp");
+    var resource = project.Resources.GetById(1);
+
+    resource.AvailabilityPeriods.Clear();
+
+    // Yeni kaynağa kullanılabilirlik dönemleri (2012 ve 2014 yılları) ekleyin
+    IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
+    foreach (var period in periods)
+    {
+        if (!resource.AvailabilityPeriods.IsReadOnly)
+        {
+            resource.AvailabilityPeriods.Add(period);
+        }
+    }
+
+    var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
+
+    if (!resource.AvailabilityPeriods.Contains(period2013))
+    {
+        resource.AvailabilityPeriods.Insert(1, period2013);
+    }
+
+    Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
+    foreach (var period in resource.AvailabilityPeriods)
+    {
+        Console.WriteLine("Available From: " + period.AvailableFrom);
+        Console.WriteLine("Available To: " + period.AvailableTo);
+        Console.WriteLine("Available Units: " + period.AvailableUnits);
+        Console.WriteLine();
+    }
+
+    var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
+    resource.AvailabilityPeriods.CopyTo(periodsToCopy, 0);
+
+    var otherResource = project.Resources.GetById(2);
+    otherResource.AvailabilityPeriods.Clear();
+    foreach (var period in periodsToCopy)
+    {
+        otherResource.AvailabilityPeriods.Add(period);
+    }
+
+    var period2015 = new AvailabilityPeriod { AvailableFrom = new DateTime(2015, 1, 1), AvailableTo = new DateTime(2015, 12, 12), AvailableUnits = 0.50 };
+
+    var period2016 = new AvailabilityPeriod { AvailableFrom = new DateTime(2016, 1, 1), AvailableTo = new DateTime(2016, 12, 12), AvailableUnits = 0.53 };
+
+    if (otherResource.AvailabilityPeriods.IndexOf(period2015) < 0)
+    {
+        otherResource.AvailabilityPeriods.Add(period2015);
+    }
+
+    if (otherResource.AvailabilityPeriods.IndexOf(period2016) < 0)
+    {
+        otherResource.AvailabilityPeriods.Add(period2016);
+    }
+
+    // 2014 yılı dönemi için kullanılabilir birimleri güncelleyin
+    otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
+
+    // 2013 dönemini kaldırın
+    otherResource.AvailabilityPeriods.Remove(period2013);
+
+    // 2011 dönemini kaldırın
+    otherResource.AvailabilityPeriods.RemoveAt(0);
+
+    Console.WriteLine("Print resource availability periods of the resource: " + otherResource.Get(Rsc.Name));
+    Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
+    foreach (var period in resource.AvailabilityPeriods)
+    {
+        Console.WriteLine("Available From: " + period.AvailableFrom);
+        Console.WriteLine("Available To: " + period.AvailableTo);
+        Console.WriteLine("Available Units: " + period.AvailableUnits);
+        Console.WriteLine();
+    }
+}
+
+private IEnumerable<AvailabilityPeriod> GetPeriods()
+{
+    var periods = new List<AvailabilityPeriod>();
+    var period = new AvailabilityPeriod { AvailableFrom = new DateTime(2012, 1, 1), AvailableTo = new DateTime(2012, 12, 12), AvailableUnits = 0.99 };
+    periods.Add(period);
+
+    var period2 = new AvailabilityPeriod { AvailableFrom = new DateTime(2014, 1, 1), AvailableTo = new DateTime(2014, 12, 12), AvailableUnits = 0.94 };
+    periods.Add(period2);
+    return periods;
+}
+```
+
+### Ayrıca Bakınız
 
 * class [AvailabilityPeriod](../availabilityperiod/)
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

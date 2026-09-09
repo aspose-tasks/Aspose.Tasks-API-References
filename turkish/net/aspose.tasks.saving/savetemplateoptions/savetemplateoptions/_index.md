@@ -1,23 +1,23 @@
 ---
-title: SaveTemplateOptions.SaveTemplateOptions
-second_title: Aspose.Tasks for .NET API Referansı
-description: SaveTemplateOptions inşaatçı. Default_Constructor
+title: "SaveTemplateOptions.SaveTemplateOptions"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "SaveTemplateOptions yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.saving/savetemplateoptions/savetemplateoptions/
 ---
 ## SaveTemplateOptions constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public SaveTemplateOptions()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [SaveTemplateOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../savetemplateoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../savetemplateoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

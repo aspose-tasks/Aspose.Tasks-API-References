@@ -1,56 +1,44 @@
 ---
-title: Project.Save
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Belirtilen kaydetme seçeneklerini kullanarak belgeyi mpp dosya biçiminde kaydeder.
+title: "Project.Save"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Belirtilen kaydetme seçeneklerini kullanarak belgeyi bir dosyaya kaydeder"
 type: docs
-weight: 1180
+weight: 1200
 url: /tr/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
+## Save(string, SimpleSaveOptions) {#save_4}
 
-Belirtilen kaydetme seçeneklerini kullanarak belgeyi mpp dosya biçiminde kaydeder.
+Belirtilen kaydetme seçeneklerini kullanarak belgeyi dosyaya kaydeder.
 
 ```csharp
-public void Save(string filename, MPPSaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| filename | String | Dosya adı. |
-| options | MPPSaveOptions | Kaydetme seçenekleri. |
+| dosya adı | Dize | Dosya adı. |
+| seçenekler | SimpleSaveOptions | Kaydetme seçenekleri. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+Projeyi MPP dosyası olarak nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
+```
+
+### Ayrıca Bakınız
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_6}
-
-Belirtilen kaydetme seçeneklerini kullanarak belgeyi bir dosyaya kaydeder.
-
-```csharp
-public void Save(string filename, SaveOptions options)
-```
-
-| Parametre | Tip | Tanım |
-| --- | --- | --- |
-| filename | String | Dosya adı. |
-| options | SaveOptions | Kaydetme seçenekleri. |
-
-### Ayrıca bakınız
-
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
 Proje verilerini dosyaya kaydeder.
 
@@ -58,21 +46,32 @@ Proje verilerini dosyaya kaydeder.
 public void Save(string filename, SaveFileFormat format)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| filename | String | Dosya adı. |
-| format | SaveFileFormat | Dosya kaydetme biçimi. |
+| dosya adı | Dize | Dosya adı. |
+| biçim | SaveFileFormat | Kaydetme dosya biçimi. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir proje oluşturmanın ve MPP şablon dosyası geçirmeden MPP formatında kaydetmenin nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+// Proje, dahili MPP şablonu kullanılarak MPP olarak kaydedilecektir.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Ayrıca Bakınız
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
 Proje verilerini mpp formatında dosyaya kaydeder.
 
@@ -80,63 +79,70 @@ Proje verilerini mpp formatında dosyaya kaydeder.
 public void Save(string filename)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| filename | String | Dosya adı. |
+| dosya adı | Dize | Dosya adı. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
-Belirtilen kaydetme seçeneklerini kullanarak projeyi bir akışa kaydeder.
+Belirtilen kaydetme seçeneklerini kullanarak projeyi akışa kaydeder.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Akış. |
-| options | SaveOptions | Kaydetme seçenekleri. |
+| akış | Akış | Akış. |
+| seçenekler | SimpleSaveOptions | Kaydetme seçenekleri. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-Belirtilen kaydetme seçeneklerini kullanarak projeyi bir akışa kaydeder.
+MPP kaydetme seçeneklerini kullanarak projeyi bir akışa MPP dosyası olarak nasıl kaydedeceğinizi gösterir.
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // MPPSaveOptions kullanarak onu MPP biçiminde kaydediyoruz
+    project.Save(stream, options);
+}
 ```
 
-| Parametre | Tip | Tanım |
-| --- | --- | --- |
-| stream | Stream | Akış. |
-| options | MPPSaveOptions | Kaydetme seçenekleri. |
+Projeyi bir akışa görüntü olarak ve görüntü seçeneklerini kontrol ederek nasıl kaydedeceğinizi gösterir.
 
-### Ayrıca bakınız
+```csharp
+var project = new Project();
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // ImageSaveOptions kullanarak projeyi görüntü formatında kaydederiz
+    project.Save(stream, options);
+}
+```
+
+### Ayrıca Bakınız
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
 Proje verilerini akışa kaydeder.
 
@@ -144,16 +150,30 @@ Proje verilerini akışa kaydeder.
 public void Save(Stream stream, SaveFileFormat format)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Akış. |
-| format | SaveFileFormat | belirtilen dosya kaydetme biçimi.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
+| akış | Akış | Akış. |
+| format | SaveFileFormat | belirtilen kaydetme dosya biçimi.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
 
-### Ayrıca bakınız
+## Örnekler
+
+Projeyi bir akışa XML MS Project dosyası olarak nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // Akışı XML biçimine yaz
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
+
+### Ayrıca Bakınız
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

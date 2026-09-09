@@ -1,23 +1,23 @@
 ---
-title: Project.LastAuthor
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. LastAuthor. değerini alır veya ayarlar
+title: "Project.LastAuthor"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. LastAuthor değerini alır veya ayarlar"
 type: docs
-weight: 510
+weight: 530
 url: /tr/net/aspose.tasks/project/lastauthor/
 ---
 ## Project.LastAuthor property
 
-LastAuthor. değerini alır veya ayarlar
+LastAuthor değerini alır veya ayarlar.
 
 ```csharp
 public string LastAuthor { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

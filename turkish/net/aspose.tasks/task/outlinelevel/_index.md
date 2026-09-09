@@ -1,23 +1,23 @@
 ---
-title: Task.OutlineLevel
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir OutlineLevel. değeri alır veya ayarlar.
+title: "Task.OutlineLevel"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. OutlineLevel değerini alır veya ayarlar"
 type: docs
-weight: 900
+weight: 890
 url: /tr/net/aspose.tasks/task/outlinelevel/
 ---
 ## Task.OutlineLevel property
 
-Bir OutlineLevel. değeri alır veya ayarlar.
+OutlineLevel değerini alır veya ayarlar.
 
 ```csharp
 public int OutlineLevel { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Resource.Overallocated
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Fazla Yüklenmişin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Resource.Overallocated"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Overallocated'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
-weight: 560
+weight: 550
 url: /tr/net/aspose.tasks/resource/overallocated/
 ---
 ## Resource.Overallocated property
 
-Fazla Yüklenmiş'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+Overallocated'ın ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool Overallocated { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

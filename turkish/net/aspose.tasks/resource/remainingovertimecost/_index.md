@@ -1,23 +1,23 @@
 ---
-title: Resource.RemainingOvertimeCost
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. RemainingOvertimeCost. değerini alır veya ayarlar
+title: "Resource.RemainingOvertimeCost"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. RemainingOvertimeCost değerini alır veya ayarlar"
 type: docs
-weight: 680
+weight: 670
 url: /tr/net/aspose.tasks/resource/remainingovertimecost/
 ---
 ## Resource.RemainingOvertimeCost property
 
-RemainingOvertimeCost. değerini alır veya ayarlar
+RemainingOvertimeCost değerini alır veya ayarlar.
 
 ```csharp
 public decimal RemainingOvertimeCost { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

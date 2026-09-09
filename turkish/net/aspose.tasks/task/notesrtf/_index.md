@@ -1,23 +1,23 @@
 ---
-title: Task.NotesRTF
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. NotesRTF. değerini alır veya ayarlar
+title: "Task.NotesRTF"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. NotesRTF değerini alır veya ayarlar."
 type: docs
-weight: 870
+weight: 860
 url: /tr/net/aspose.tasks/task/notesrtf/
 ---
 ## Task.NotesRTF property
 
-NotesRTF. değerini alır veya ayarlar
+NotesRTF değerini alır veya ayarlar.
 
 ```csharp
 public string NotesRTF { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

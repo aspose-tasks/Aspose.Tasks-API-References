@@ -1,23 +1,23 @@
 ---
-title: Project.DaysPerMonth
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. DaysPerMonth. değerini alır veya ayarlar.
+title: "Project.DaysPerMonth"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. DaysPerMonth değerini alır veya ayarlar"
 type: docs
-weight: 270
+weight: 280
 url: /tr/net/aspose.tasks/project/dayspermonth/
 ---
 ## Project.DaysPerMonth property
 
-DaysPerMonth. değerini alır veya ayarlar.
+DaysPerMonth'ın bir değerini alır veya ayarlar.
 
 ```csharp
 public int DaysPerMonth { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

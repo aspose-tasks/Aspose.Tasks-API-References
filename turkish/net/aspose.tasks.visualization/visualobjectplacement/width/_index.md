@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.Width
-second_title: Aspose.Tasks for .NET API Referansı
-description: VisualObjectPlacement mülk. Görsel nesnenin görüntülenen genişliğini alır veya ayarlar.
+title: "VisualObjectPlacement.Width"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VisualObjectPlacement özelliği. Görsel nesnenin görüntülenen genişliğini alır veya ayarlar"
 type: docs
 weight: 130
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/width/
@@ -14,10 +14,10 @@ Görsel nesnenin görüntülenen genişliğini alır veya ayarlar.
 public double Width { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [VisualObjectPlacement](../)
-* ad alanı [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

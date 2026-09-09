@@ -1,23 +1,23 @@
 ---
-title: Task.OutlineNumber
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir OutlineNumber. değeri alır veya ayarlar.
+title: "Task.OutlineNumber"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Değerini alır veya ayarlar OutlineNumber"
 type: docs
-weight: 910
+weight: 900
 url: /tr/net/aspose.tasks/task/outlinenumber/
 ---
 ## Task.OutlineNumber property
 
-Bir OutlineNumber. değeri alır veya ayarlar.
+OutlineNumber değerini alır veya ayarlar.
 
 ```csharp
 public string OutlineNumber { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,26 +1,40 @@
 ---
-title: Tsk.LevelingCanSplit
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Kaynak seviyelendirme işlevinin bu görevde kalan işlerde bölünmelere neden olup olmayacağını belirler.
+title: "Tsk.LevelingCanSplit"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Kaynak dengeleme işlevinin bu görevde kalan iş üzerinde bölünmelere neden olup olmayacağını belirler"
 type: docs
-weight: 770
+weight: 760
 url: /tr/net/aspose.tasks/tsk/levelingcansplit/
 ---
 ## Tsk.LevelingCanSplit field
 
-Kaynak seviyelendirme işlevinin bu görevde kalan işlerde bölünmelere neden olup olmayacağını belirler.
+Kaynak dengeleme işlevinin bu görevdeki kalan işi bölümlere ayırıp ayırmayacağını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> LevelingCanSplit;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.LevelingCanSplit özelliğini okuma/yazma yöntemini gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingCanSplit, true);
+
+Console.WriteLine("Leveling Can Split: " + task.Get(Tsk.LevelingCanSplit));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

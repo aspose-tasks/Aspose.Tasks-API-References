@@ -1,23 +1,23 @@
 ---
-title: Task.ActualStart
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. ActualStart. değerini alır veya ayarlar
+title: "Task.ActualStart"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. ActualStart değerini alır veya ayarlar"
 type: docs
 weight: 80
 url: /tr/net/aspose.tasks/task/actualstart/
 ---
 ## Task.ActualStart property
 
-ActualStart. değerini alır veya ayarlar
+ActualStart değerini alır veya ayarlar.
 
 ```csharp
 public DateTime ActualStart { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

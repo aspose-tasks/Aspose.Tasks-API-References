@@ -1,29 +1,29 @@
 ---
-title: Class FontResolveEventArgs
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.FontResolveEventArgs sınıf. Yazı tipi çözümlendiğinde çağrılan geri arama için bağımsız değişkenler sağlar.
+title: "Sınıf FontResolveEventArgs"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.FontResolveEventArgs sınıfı. Yazı tipi çözüldüğünde çağrılan geri arama için argümanlar sağlar."
 type: docs
 weight: 670
 url: /tr/net/aspose.tasks/fontresolveeventargs/
 ---
 ## FontResolveEventArgs class
 
-Yazı tipi çözümlendiğinde çağrılan geri arama için bağımsız değişkenler sağlar.
+Yazı tipi çözüldüğünde tetiklenen geri arama için argümanlar sağlar.
 
 ```csharp
 public sealed class FontResolveEventArgs : EventArgs
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
 | [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname/) { get; } | İstenen yazı tipinin adını alır. |
-| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | Çözülmüş yazı tipinin adını alır veya ayarlar. Görünüm oluşturmak için kullanılan yazı tiplerini kontrol edecek şekilde ayarlanabilir. |
+| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | Çözülen yazı tipinin adını alır veya ayarlar. Görünümün render edilmesinde kullanılan yazı tiplerini kontrol etmek için ayarlanabilir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

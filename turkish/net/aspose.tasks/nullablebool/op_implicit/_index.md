@@ -1,55 +1,145 @@
 ---
-title: NullableBool.op_Implicit
-second_title: Aspose.Tasks for .NET API Referansı
-description: NullableBool yöntem. dolaylı olarak dönüştürürNullableBool örneği bir boolean değere dönüştürür. Şu durumda true değerini döndürürValue doğrudur veIsDefined doğrudur.
+title: "NullableBool.op_Implicit"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "NullableBool yöntemi. Bir NullableBool örneğini örtük olarak bir boolean değere dönüştürür. Value true ve IsDefined true olduğunda true döndürür"
 type: docs
 weight: 80
 url: /tr/net/aspose.tasks/nullablebool/op_implicit/
 ---
 ## implicit operator {#op_implicit_1}
 
-dolaylı olarak dönüştürür[`NullableBool`](../) örneği bir boolean değere dönüştürür. Şu durumda true değerini döndürür:[`Value`](../value/) doğrudur ve[`IsDefined`](../isdefined/) doğrudur.
+Bir [`NullableBool`](../) örneğini örtük olarak bir boolean değere dönüştürür. [`Value`](../value/) true ve [`IsDefined`](../isdefined/) true olduğunda true döndürür.
 
 ```csharp
 public static implicit operator bool(NullableBool val)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | val | NullableBool | Dönüştürülecek değer. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bir boole değeri.
+bir boolean değer.
 
-### Ayrıca bakınız
+## Örnekler
+
+Nasıl karşılaştırılacağını gösterir &lt;see cref="Aspose.Tasks.NullableBool" /&gt; örneklerini.
+
+```csharp
+var bool1 = new NullableBool(true);
+var bool2 = new NullableBool(true, false);
+
+// bool'ların eşitliği 'IsDefined' ve 'Value' özelliklerine karşı kontrol edilir.
+Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
+Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
+
+// örtük dönüşümünü bool'a kontrol eder: bool1 tanımlı olduğu ve Value True olarak ayarlandığı için True'dır.
+if (bool1)
+{
+    Console.WriteLine("Nullable Bool 1 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 1 is False");
+}
+
+// örtük dönüşümünü bool'a kontrol eder: bool2 tanımlı olmadığı için False'tır.
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+
+Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
+
+// örtük dönüşümünü bool'a kontrol eder
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+```
+
+### Ayrıca Bakınız
 
 * struct [NullableBool](../)
-* ad alanı [Aspose.Tasks](../../nullablebool/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## implicit operator {#op_implicit}
 
-Örtülü olarak boole değerini şuna dönüştürür:[`NullableBool`](../) örnek.
+Boolean değeri [`NullableBool`](../) örneğine örtük olarak dönüştürür.
 
 ```csharp
 public static implicit operator NullableBool(bool val)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | val | Boolean | Dönüştürülecek değer. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-dönüştürüldü[`NullableBool`](../) misal.
+Dönüştürülmüş [`NullableBool`](../) örneği.
 
-### Ayrıca bakınız
+## Örnekler
+
+Nasıl karşılaştırılacağını gösterir &lt;see cref="Aspose.Tasks.NullableBool" /&gt; örneklerini.
+
+```csharp
+var bool1 = new NullableBool(true);
+var bool2 = new NullableBool(true, false);
+
+// bool'ların eşitliği 'IsDefined' ve 'Value' özelliklerine karşı kontrol edilir.
+Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
+Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
+
+// örtük dönüşümünü bool'a kontrol eder: bool1 tanımlı olduğu ve Value True olarak ayarlandığı için True'dır.
+if (bool1)
+{
+    Console.WriteLine("Nullable Bool 1 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 1 is False");
+}
+
+// örtük dönüşümünü bool'a kontrol eder: bool2 tanımlı olmadığı için False'tır.
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+
+Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
+
+// örtük dönüşümünü bool'a kontrol eder
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+```
+
+### Ayrıca Bakınız
 
 * struct [NullableBool](../)
-* ad alanı [Aspose.Tasks](../../nullablebool/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 

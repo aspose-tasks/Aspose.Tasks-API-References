@@ -1,41 +1,66 @@
 ---
-title: Class OutlineCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.OutlineCode sınıf. Anahat kodunun değerini temsil eder.
+title: "Sınıf OutlineCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.OutlineCode sınıfı. Bir outline kodunun değerini temsil eder"
 type: docs
-weight: 1020
+weight: 1150
 url: /tr/net/aspose.tasks/outlinecode/
 ---
 ## OutlineCode class
 
-Anahat kodunun değerini temsil eder.
+Bir ana hat kodunun değerini temsil eder.
 
 ```csharp
 public class OutlineCode
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [OutlineCode](outlinecode/#constructor)() | Yeni bir örneğini başlatır.`OutlineCode` sınıf. |
-| [OutlineCode](outlinecode/#constructor_1)(OutlineCodeDefinition, OutlineValue) | Yeni bir örneğini başlatır.`OutlineCode` belirtilen Anahat Kodunu ve değerlerinden birini kullanan sınıf. |
+| [OutlineCode](outlinecode/#constructor)() | `OutlineCode` sınıfının yeni bir örneğini başlatır. |
+| [OutlineCode](outlinecode/#constructor_1)(OutlineCodeDefinition, OutlineValue) | Belirtilen Outline Code ve onun değerlerinden birini kullanarak `OutlineCode` sınıfının yeni bir örneğini başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [FieldId](../../aspose.tasks/outlinecode/fieldid/) { get; set; } | Proje kimliği özel alanının sayı değerini alır veya ayarlar. |
-| [ValueGuid](../../aspose.tasks/outlinecode/valueguid/) { get; set; } | Değer listesindeki değerin GUID'sini alır veya ayarlar. ValueGuid, değer listesindeki FieldGuid ile eşleşir. |
-| [ValueId](../../aspose.tasks/outlinecode/valueid/) { get; set; } | Ana hat kodu koleksiyonundaki tanımla ilişkili değer listesindeki Kimliği alır veya ayarlar. |
+| [FieldId](../../aspose.tasks/outlinecode/fieldid/) { get; set; } | Proje Id özel alanının sayısal değerini alır veya ayarlar. |
+| [ValueGuid](../../aspose.tasks/outlinecode/valueguid/) { get; set; } | Değer listesindeki değerin GUID'ini alır veya ayarlar. ValueGuid, değer listesindeki FieldGuid ile eşleşir. |
+| [ValueId](../../aspose.tasks/outlinecode/valueid/) { get; set; } | Outline kod koleksiyonundaki tanımlama ile ilişkili değer listesindeki Id'yi alır veya ayarlar. |
 
-### Notlar
+## Açıklamalar
 
-İki parça veri gereklidir - FieldId tarafından belirtilen tablo anahat kodunun bir işaretçisi ve ValueId veya ValueGuid tarafından değer listesi işaretçisinin tarafından belirtilen değer.
+İki veri parçası gereklidir - FieldId tarafından belirtilen outline kod tablosuna bir işaretçi ve değer listesine ValueId veya ValueGuid işaretçisiyle belirtilen değer.
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Görevlerin outline kodlarını nasıl okuyacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// outline kodlarını oku
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

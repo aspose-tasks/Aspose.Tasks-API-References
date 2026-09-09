@@ -1,31 +1,31 @@
 ---
-title: ReadOnlyCollectionBase1.Item
-second_title: Aspose.Tasks for .NET API Referansı
-description: ReadOnlyCollectionBase mülk. Belirtilen dizindeki öğeyi döndürür.
+title: "ReadOnlyCollectionBase1.Item"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ReadOnlyCollectionBase özelliği. Belirtilen indeksteki öğeyi döndürür."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/readonlycollectionbase-1/item/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt; indexer
 
-Belirtilen dizindeki öğeyi döndürür.
+Belirtilen indeksteki öğeyi döndürür.
 
 ```csharp
 public T this[int index] { get; set; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| index | Alınacak öğenin sıfır tabanlı dizini. |
+| indeks | Alınacak öğenin sıfır tabanlı indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen dizindeki öğe.
+belirtilen indeksteki öğe.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* ad alanı [Aspose.Tasks](../../readonlycollectionbase-1/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,90 @@
 ---
-title: SaveOptions.TasksComparer
-second_title: Aspose.Tasks for .NET API Referansı
-description: SaveOptions mülk. Gantt grafiği ve Görev Sayfası grafiğindeki görevleri sıralamak için karşılaştırıcıyı alır veya ayarlar.
+title: "TasksComparer"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Gantt şeması ve Görev Sayfası şemasındaki görevleri sıralamak için karşılaştırıcıyı alır veya ayarlar."
 type: docs
 weight: 180
 url: /tr/net/aspose.tasks.saving/saveoptions/taskscomparer/
 ---
 ## SaveOptions.TasksComparer property
 
-Gantt grafiği ve Görev Sayfası grafiğindeki görevleri sıralamak için karşılaştırıcıyı alır veya ayarlar.
+Gantt şeması ve Görev Sayfası şemasındaki görevleri sıralamak için karşılaştırıcıyı alır veya ayarlar.
 
 ```csharp
 public IComparer<Task> TasksComparer { get; set; }
 ```
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [Task](../../../aspose.tasks/task/)
-* class [SaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../saveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+Gantt şemasında ve/veya Görev Sayfası şemasında görevleri sıralamak için bir karşılaştırıcı nasıl ayarlanır gösterir.
 
+```csharp
+public void SortTasksByColumnInGanttChartExample()
+{
+    var project = new Project(DataDir + "Project2.mpp");
+    SaveOptions options = new PdfSaveOptions
+    {
+        Timescale = Timescale.Months,
+        TasksComparer = new TasksNameComparer()
+    };
+    project.Save(OutDir + "SortedByNames_out.pdf", options);
 
+    options.TasksComparer = new TasksDurationComparer();
+    project.Save(OutDir + "SortedByDurations_out.pdf", options);
+}
+
+private class TasksNameComparer : IComparer<Task>
+{
+    public int Compare(Task x, Task y)
+    {
+        // ReSharper disable once ConvertIfStatementToSwitchStatement
+        // ReSharper disable once ConvertIfStatementToSwitchExpression
+        if (x == null && y == null)
+        {
+            return 0;
+        }
+
+        if (x == null)
+        {
+            return -1;
+        }
+
+        return y == null ? 1 : string.Compare(x.Get(Tsk.Name), y.Get(Tsk.Name), StringComparison.Ordinal);
+    }
+}
+
+private class TasksDurationComparer : IComparer<Task>
+{
+    public int Compare(Task x, Task y)
+    {
+        // ReSharper disable once ConvertIfStatementToSwitchStatement
+        if (x == null && y == null)
+        {
+            return 0;
+        }
+
+        if (x == null)
+        {
+            return -1;
+        }
+
+        if (y == null)
+        {
+            return 1;
+        }
+
+        var durX = x.Get(Tsk.Duration);
+        var durY = y.Get(Tsk.Duration);
+        return durX.TimeSpan.CompareTo(durY.TimeSpan);
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [Task](../../../aspose.tasks/task)
+* class [SaveOptions](../../saveoptions)
+* namespace [Aspose.Tasks.Saving](../../saveoptions)
+* assembly [Aspose.Tasks](../../../)
+
+<!-- DÜZENLEMEYİN: xmldocmd tarafından Aspose.Tasks.dll için oluşturuldu -->

@@ -1,24 +1,53 @@
 ---
-title: Project.OleObjects
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Örneklerini içeren bir koleksiyon alır.OleObject bu proje dosyasına bağlı veya katıştırılmış sınıf. Yalnızca mpp dosya biçimi için kullanılabilir. Bu koleksiyon Temizle işlemi dışında salt okunurdur.
+title: "Project.OleObjects"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. Bu proje dosyasına bağlı veya gömülü olan OleObject sınıfının örneklerini içeren bir koleksiyon alır. Yalnızca mpp dosya formatı için kullanılabilir. Bu koleksiyon, Clear işlemi dışında yalnızca okunur."
 type: docs
-weight: 680
+weight: 700
 url: /tr/net/aspose.tasks/project/oleobjects/
 ---
 ## Project.OleObjects property
 
-Örneklerini içeren bir koleksiyon alır.[`OleObject`](../../oleobject/) bu proje dosyasına bağlı veya katıştırılmış sınıf. Yalnızca mpp dosya biçimi için kullanılabilir. Bu koleksiyon, 'Temizle' işlemi dışında salt okunurdur.
+Bu proje dosyasına bağlı veya gömülü olan [`OleObject`](../../oleobject/) sınıfının örneklerini içeren bir koleksiyon alır. Yalnızca mpp dosya formatı için kullanılabilir. Bu koleksiyon, 'Clear' işlemi dışında yalnızca okunur.
 
 ```csharp
 public OleObjectCollection OleObjects { get; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Gömülü OLE nesnelerinin nasıl çıkarılacağını gösterir.
+
+```csharp
+IDictionary<string, string> formatExt = new Dictionary<string, string>
+{
+    { "RTF", "_rtfFile_out.rtf" },
+    { "MSWordDoc", "_wordFile_out.docx" },
+    { "ExcelML12", "_excelFile_out.xlsx" }
+};
+
+var project = new Project(DataDir + "Embedded.mpp");
+
+foreach (var oleObject in project.OleObjects)
+{
+    if (string.IsNullOrEmpty(oleObject.FileFormat) || !formatExt.ContainsKey(oleObject.FileFormat))
+    {
+        continue;
+    }
+
+    var path = OutDir + "EmbeddedContent_" + formatExt[oleObject.FileFormat];
+    using (var stream = new FileStream(path, FileMode.Create))
+    {
+        stream.Write(oleObject.Content, 0, oleObject.Content.Length);
+    }
+}
+```
+
+### Ayrıca Bakınız
 
 * class [OleObjectCollection](../../oleobjectcollection/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,55 +1,93 @@
 ---
-title: Task.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task yöntem. Bu örneğin belirtilen göreve eşit olup olmadığını gösteren bir değer döndürür.
+title: "Task.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task yöntemi. Bu örneğin belirtilen bir görevle eşit olup olmadığını gösteren bir değer döndürür."
 type: docs
 weight: 1330
 url: /tr/net/aspose.tasks/task/equals/
 ---
 ## Equals(Task) {#equals}
 
-Bu örneğin belirtilen göreve eşit olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen bir görevle eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public bool Equals(Task other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | Task | Bu örnekle karşılaştırılacak belirtilen görev. |
+| diğer | Görev | Bu örnek ile karşılaştırılacak belirtilen görev. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen görev ve bu örnek eşit benzersiz kimliklere sahipse true değerini döndürür.
+Belirtilen görev ve bu örnek eşit benzersiz kimliklere sahipse true döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Görevin atamalarında nasıl yineleme yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // görevin atamalarını göster
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| obj | Object | Bu örnekle karşılaştırılacak belirtilen nesne. |
+| obj | Object | Bu örnek ile karşılaştırılacak belirtilen nesne. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen görev ve bu örnek eşit benzersiz kimliklere sahipse true değerini döndürür.
+Belirtilen görev ve bu örnek eşit benzersiz kimliklere sahipse true döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Görevin atamalarında nasıl yineleme yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // görevin atamalarını göster
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

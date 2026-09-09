@@ -1,38 +1,56 @@
 ---
-title: CalendarCollection.Remove
-second_title: Aspose.Tasks for .NET API Referansı
-description: CalendarCollection yöntem. Takvimi Project CalendarCollectiondan kaldırır.
+title: "CalendarCollection.Remove"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "CalendarCollection yöntemi. Takvimi Project CalendarCollection'dan kaldırır"
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks/calendarcollection/remove/
 ---
 ## CalendarCollection.Remove method
 
-Takvimi Project CalendarCollection'dan kaldırır.
+Takvimi Proje CalendarCollection'dan kaldırır.
 
 ```csharp
 public bool Remove(Calendar item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | Calendar | Kaldırılacak takvim. |
+| öğe | Takvim | Kaldırılacak takvim. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 Kaldırılırsa true, aksi takdirde false döndürür.
 
-### istisnalar
+### İstisnalar
 
-| istisna | şart |
+| istisna | koşul |
 | --- | --- |
-| InvalidOperationException | Takvim kaldırılamadığında atılır. |
+| InvalidOperationException | Takvim kaldırılamadığında fırlatılır. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Koleksiyondaki bir takvimin nasıl değiştirileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendar = project.Calendars.GetByName("TestCalendar");
+if (calendar != null)
+{
+    project.Calendars.Remove(calendar);
+}
+
+// yeni takvim ekle
+project.Calendars.Add("New Calendar");
+project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Ayrıca Bakınız
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* ad alanı [Aspose.Tasks](../../calendarcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

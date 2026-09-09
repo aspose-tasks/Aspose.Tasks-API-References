@@ -1,37 +1,77 @@
 ---
-title: Class OutlineMask
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.OutlineMask sınıf. Ana hat kodu formatını tanımlayan bir maskenin dört öğesini temsil eder.
+title: "Sınıf OutlineMask"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.OutlineMask sınıfı. Bir taslak kod formatını tanımlayan maskenin dört öğesini temsil eder."
 type: docs
-weight: 1060
+weight: 1190
 url: /tr/net/aspose.tasks/outlinemask/
 ---
 ## OutlineMask class
 
-Ana hat kodu formatını tanımlayan bir maskenin dört öğesini temsil eder.
+Bir ana hat kodu biçimini tanımlayan maskenin dört öğesini temsil eder.
 
 ```csharp
 public class OutlineMask
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [OutlineMask](outlinemask/)() | Yeni bir örneğini başlatır.`OutlineMask` sınıf. |
+| [OutlineMask](outlinemask/)() | Yeni bir `OutlineMask` sınıfı örneği başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Length](../../aspose.tasks/outlinemask/length/) { get; set; } | Ana hat kodu değerlerinin maksimum uzunluğunu (karakter cinsinden) alır veya ayarlar. Uzunluk tanımlanmamışsa 0. |
+| [Length](../../aspose.tasks/outlinemask/length/) { get; set; } | Taslak kod değerlerinin maksimum uzunluğunu (karakter cinsinden) alır veya ayarlar. Uzunluk tanımlı değilse 0. |
 | [Level](../../aspose.tasks/outlinemask/level/) { get; set; } | Bir maskenin seviyesini alır veya ayarlar. |
-| [Separator](../../aspose.tasks/outlinemask/separator/) { get; set; } | Kod değerlerinin ayırıcısını alır veya ayarlar. |
-| [Type](../../aspose.tasks/outlinemask/type/) { get; set; } | Bir maskenin türünü alır veya ayarlar. |
+| [Separator](../../aspose.tasks/outlinemask/separator/) { get; set; } | Kod değerlerinin ayıracısını alır veya ayarlar. |
+| [Type](../../aspose.tasks/outlinemask/type/) { get; set; } | Maskenin türünü alır veya ayarlar. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Ana hat maskeleriyle nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+
+project.OutlineCodes.Add(outline);
+
+var mask = new OutlineMask();
+
+// maskenin türünü ayarla
+mask.Type = MaskType.Characters;
+
+// kod değerlerinin ayıracısını ayarla
+mask.Separator = "/";
+
+// maskenin seviyesini ayarla
+mask.Level = 1;
+
+// ana hat kod değerlerinin maksimum uzunluğunu (karakter cinsinden) ayarla. Uzunluk tanımlı değilse 0.
+mask.Length = 2;
+
+// maskeyi tanıma ekle
+outline.Masks.Add(mask);
+
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+
+// ...
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

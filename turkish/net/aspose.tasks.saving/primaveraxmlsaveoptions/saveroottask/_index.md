@@ -1,23 +1,35 @@
 ---
-title: PrimaveraXmlSaveOptions.SaveRootTask
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraXmlSaveOptions mülk. Bir kök görevinin kaydedilip kaydedilmeyeceğini belirten bir değer alır veya ayarlar.
+title: "PrimaveraXmlSaveOptions.SaveRootTask"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraXmlSaveOptions özelliği. Kök görevinin kaydedilip kaydedilmeyeceğini belirten bir değeri alır veya ayarlar."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks.saving/primaveraxmlsaveoptions/saveroottask/
 ---
 ## PrimaveraXmlSaveOptions.SaveRootTask property
 
-Bir kök görevinin kaydedilip kaydedilmeyeceğini belirten bir değer alır veya ayarlar.
+Kök görevin kaydedilip kaydedilmeyeceğini gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public bool SaveRootTask { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Primavera XML dosyasına nasıl dışa aktarılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "project.xml");
+
+var options = new PrimaveraXmlSaveOptions();
+options.SaveRootTask = false;
+project.Save(OutDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
+```
+
+### Ayrıca Bakınız
 
 * class [PrimaveraXmlSaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../primaveraxmlsaveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../primaveraxmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

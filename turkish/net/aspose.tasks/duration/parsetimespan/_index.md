@@ -1,31 +1,40 @@
 ---
-title: Duration.ParseTimeSpan
-second_title: Aspose.Tasks for .NET API Referansı
-description: Duration yöntem. Süre dizesini PTHMS biçiminde ayrıştırır.
+title: "Duration.ParseTimeSpan"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Duration yöntemi. PTHMS formatındaki süre dizesini ayrıştırır."
 type: docs
 weight: 130
 url: /tr/net/aspose.tasks/duration/parsetimespan/
 ---
 ## Duration.ParseTimeSpan method
 
-Süre dizesini "PT--H--M--S--" biçiminde ayrıştırır.
+\"PT--H--M--S--\" biçimindeki süre dizesini ayrıştırır.
 
 ```csharp
 public static TimeSpan ParseTimeSpan(string value)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| value | String | ayrıştırılacak belirtilen dize. |
+| value | Dize | ayrıştırılacak belirtilen dize. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-ayrıştırılmış örneğini döndürür[`TimeSpan`](../timespan/) yapı
+parçalanmış bir [`TimeSpan`](../timespan/) yapısının örneğini döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir dizeyi zaman aralığına nasıl dönüştüreceğinizi gösterir.
+
+```csharp
+var timeSpan = Duration.ParseTimeSpan("PT1H10M30S");
+Console.WriteLine("The parsed time span: " + timeSpan);
+```
+
+### Ayrıca Bakınız
 
 * struct [Duration](../)
-* ad alanı [Aspose.Tasks](../../duration/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,286 +1,523 @@
 ---
-title: Project.Project
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project inşaatçı. Yeni bir örneğini başlatır.Project sınıf.
+title: "Project.Project"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yapıcı. Project sınıfının yeni bir örneğini başlatır."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/project/project/
 ---
 ## Project() {#constructor}
 
-Yeni bir örneğini başlatır.[`Project`](../) sınıf.
+[`Project`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public Project()
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir proje oluşturmanın ve MPP şablon dosyası geçirmeden MPP formatında kaydetmenin nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+// Proje, dahili MPP şablonu kullanılarak MPP olarak kaydedilecektir.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, string) {#constructor_12}
 
-Yeni bir örneğini başlatır.[`Project`](../) sınıfı parola korumalı bir şablondan (mevcut mpp veya mpt dosyası).
+Şifre korumalı bir şablondan (mevcut mpp veya mpt dosyası) [`Project`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public Project(string projectTemplate, string protectionPassword)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| projectTemplate | String | Proje oluşturmak için şablonun yolu. |
-| protectionPassword | String | Koruma şifresi. |
+| projectTemplate | Dize | Projeyi oluşturmak için şablonun yolu. |
+| protectionPassword | Dize | Koruma şifresi. |
 
-### Notlar
+## Açıklamalar
 
-Şu anda yalnızca MSP 2003 dosya biçimi için desteklenen parola korumalı dosyaların okunması.
+Şifre korumalı dosyaların okunması şu anda yalnızca MSP 2003 dosya formatı için desteklenmektedir.
 
-### Ayrıca bakınız
+## Örnekler
+
+Şifre korumalı MPP dosyalarını okumanın nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "PasswordProtectedProject.mpp", "password");
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string) {#constructor_8}
 
-Yeni bir örneğini başlatır.[`Project`](../) bir şablondan sınıf (mevcut mpp veya mpt dosyası).
+Şablondan (mevcut mpp veya mpt dosyası) [`Project`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public Project(string projectTemplate)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| projectTemplate | String | Proje oluşturmak için şablonun yolu. |
+| projectTemplate | Dize | Projeyi oluşturmak için şablonun yolu. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir MPP dosyasını okumanın nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectFiles.mpp");
+project.Save(OutDir + "ReadProjectFiles_out.mpp", SaveFileFormat.Xml);
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, PrimaveraReadOptions) {#constructor_5}
 
-Yeni bir örneğini başlatır.[`Project`](../) belirtilen örneğiyle Stream sınıfından[`PrimaveraReadOptions`](../../primaverareadoptions/) sınıf.
+Belirtilen [`PrimaveraReadOptions`](../../primaverareadoptions/) sınıfı örneğiyle Stream'den [`Project`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public Project(Stream stream, PrimaveraReadOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Proje AkışıStreamsınıf |
-| options | PrimaveraReadOptions | belirtilen örneği[`PrimaveraReadOptions`](../../primaverareadoptions/)Primavera biçimlerinin (XER veya XML) okunmasını özelleştirmeye izin veren sınıf. |
+| akış | Akış | Project Streamclass'ın Akışı |
+| options | PrimaveraReadOptions | belirtilen [`PrimaveraReadOptions`](../../primaverareadoptions/) sınıfı örneği, Primavera formatlarını (XER veya XML) okuma özelleştirmesine izin verir. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir akıştan, birden çok proje içeren Primavera XML veya Primavera XER dosyasıyla bir proje nasıl okunacağını gösterir.
+
+```csharp
+var options = new PrimaveraReadOptions
+{
+    ProjectUid = 4557
+};
+using (var stream = new FileStream(DataDir + "Project.xml", FileMode.Open, FileAccess.Read))
+{
+    // Özel UID'ye sahip projeyi döndürür
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### Ayrıca Bakınız
 
 * class [PrimaveraReadOptions](../../primaverareadoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, ParseErrorCallback) {#constructor_10}
 
-Yeni bir örneğini başlatır.[`Project`](../) bir şablondan sınıf (mevcut mpp veya mpt dosyası).
+Şablondan (mevcut mpp veya mpt dosyası) [`Project`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public Project(string projectTemplate, ParseErrorCallback parseErrorHandler)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| projectTemplate | String | Proje oluşturmak için şablonun yolu. |
-| parseErrorHandler | ParseErrorCallback | xml ayrıştırma hatalarını işlemek için belirtilen geri arama yöntemi. |
+| projectTemplate | Dize | Projeyi oluşturmak için şablonun yolu. |
+| parseErrorHandler | ParseErrorCallback | xml ayrıştırma hatalarını işlemek için belirtilen geri çağırma yöntemi. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Geçersiz karakterler içeren XML dosyasıyla bir akıştan proje nasıl okunacağını gösterir.
+
+```csharp
+public static void LoadProjectFromFile(string pathToModifiedXml)
+{
+    // Bozuk zaman aralıkları içeren XML içeren dosyayı açın
+    var project = new Project(pathToModifiedXml, CustomDurationHandlerForFile2);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+
+public static object CustomDurationHandlerForFile2(object sender, ParseErrorArgs args)
+{
+    var regex = new Regex("[*]{2}(\\d+)Hrs(\\d+)Mins(\\d+)Secs[*]{2}");
+    if (args.FieldType != typeof(TimeSpan))
+    {
+        throw args.Exception;
+    }
+
+    Console.WriteLine("Object field: {0}, Object field type: {1}, Invalid value: {2}", args.FieldName, args.FieldType, args.InvalidValue);
+    var duration = regex.Replace(args.InvalidValue, "PT$1H$2M$3S");
+    var newValue = Duration.ParseTimeSpan(duration);
+    Console.WriteLine("New value : {0}", newValue);
+    return newValue;
+}
+```
+
+### Ayrıca Bakınız
 
 * delegate [ParseErrorCallback](../../parseerrorcallback/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream) {#constructor_2}
 
-Yeni bir örneğini başlatır.[`Project`](../) bir akıştan sınıf.
+Bir akıştan yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(Stream stream)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Bir şablon yüklemek için akış. |
+| akış | Akış | Şablonun yükleneceği akış. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir akıştan XML proje dosyasının nasıl okunacağını gösterir.
+
+```csharp
+using (Stream stream = new FileStream(DataDir + "Project.xml", FileMode.Open))
+{
+    var project = new Project(stream);
+    project.Save(OutDir + "ReadProjectFileFromStream_out.xml", SaveFileFormat.Xml);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(StreamReader) {#constructor_7}
 
-Yeni bir örneğini başlatır.[`Project`](../) bir StreamReader örneğinden sınıf.
+Bir StreamReader örneğinden yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(StreamReader reader)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| reader | StreamReader | Bir şablonun nereden yükleneceği akış okuyucusu. |
+| reader | StreamReader | Şablonun yükleneceği akış okuyucu. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli kodlamayla MPX dosyalarının nasıl okunacağını gösterir.
+
+```csharp
+using (var streamReader = new StreamReader(DataDir + "EUC-KR-encoding.mpx", System.Text.Encoding.GetEncoding("ISO-8859-1")))
+{
+    var project = new Project(streamReader);
+    Console.WriteLine(project.RootTask.Children.ToList()[0].Get(Tsk.Name));
+    project.Save(OutDir + "WorkingWithEncodings_out.mpx", SaveFileFormat.Mpx);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, PrimaveraReadOptions) {#constructor_11}
 
-Yeni bir örneğini başlatır.[`Project`](../) belirtilen örneğiyle bir şablondan (mevcut MPP veya MPT dosyası) sınıfı[`PrimaveraReadOptions`](../../primaverareadoptions/) sınıf.
+Mevcut bir MPP veya MPT dosyası (şablon) ve belirtilen [`PrimaveraReadOptions`](../../primaverareadoptions/) sınıfı örneği ile yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(string projectTemplate, PrimaveraReadOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| projectTemplate | String | Proje oluşturmak için şablonun yolu |
-| options | PrimaveraReadOptions | belirtilen örneği[`PrimaveraReadOptions`](../../primaverareadoptions/) sınıf. |
+| projectTemplate | Dize | Projeyi oluşturmak için şablon yolu |
+| options | PrimaveraReadOptions | belirtilen [`PrimaveraReadOptions`](../../primaverareadoptions/) sınıfı örneği. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Primavera okuma seçeneklerini kullanarak birden çok proje içeren Primavera XML veya Primavera XER dosyasından bir projenin nasıl okunacağını gösterir.
+
+```csharp
+var options = new PrimaveraReadOptions()
+{
+    ProjectUid = 4557
+};
+
+// Özel UID'ye sahip projeyi döndürür
+var project = new Project(DataDir + "Project.xml", options);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### Ayrıca Bakınız
 
 * class [PrimaveraReadOptions](../../primaverareadoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(DbSettings) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`Project`](../) örneği tarafından belirtilen bir veritabanından veri okumak için sınıf[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) sınıf.
+[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) sınıfı örneğiyle belirtilen bir veritabanından veri okumak için yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(DbSettings settings)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| settings | DbSettings | belirtilen örneği[`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) sınıf. |
+| settings | DbSettings | belirtilen [`DbSettings`](../../../aspose.tasks.connectivity/dbsettings/) sınıfı örneği. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Veritabanı ayarlarını kullanarak bir Primavera veritabanından proje nasıl içe aktarılacağını gösterir.
+
+```csharp
+var sb = new SqlConnectionStringBuilder
+{
+    DataSource = "192.168.56.3,1433",
+    Encrypt = true,
+    TrustServerCertificate = true,
+    InitialCatalog = "PrimaveraEDB",
+    NetworkLibrary = "DBMSSOCN",
+    UserID = "privuser",
+    Password = "***",
+};
+
+// Bağlantı dizesi ve proje kimliği ile PrimaveraDbSettings sınıfının yeni bir örneğini başlat
+var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
+
+// Project sınıfının yeni bir örneğini başlat
+var project = new Project(settings);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### Ayrıca Bakınız
 
 * class [DbSettings](../../../aspose.tasks.connectivity/dbsettings/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, ParseErrorCallback) {#constructor_4}
 
-Yeni bir örneğini başlatır.[`Project`](../)bir şablondan sınıf (mevcut mpp veya mpt dosyası).
+Şablondan (mevcut MPP veya MPT dosyası) yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(Stream stream, ParseErrorCallback parseErrorHandler)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Bir şablon yüklemek için akış. |
-| parseErrorHandler | ParseErrorCallback | xml ayrıştırma hatalarını işlemek için belirtilen geri arama yöntemi. |
+| akış | Akış | Şablonun yükleneceği akış. |
+| parseErrorHandler | ParseErrorCallback | xml ayrıştırma hatalarını işlemek için belirtilen geri çağırma yöntemi. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Geçersiz karakterler içeren bir XML dosyasından proje nasıl okunacağını gösterir.
+
+```csharp
+public static void LoadProjectFromStream(string brokenXmlData)
+{
+    // Bozuk zaman aralıkları içeren XML'i içeren akışı açın
+    byte[] bytes = Encoding.UTF8.GetBytes(brokenXmlData);
+    using (var stream = new MemoryStream(bytes))
+    {
+        var project = new Project(stream, CustomDurationHandlerForStream2);
+        Console.WriteLine(project.Get(Prj.Name));
+    }
+}
+
+public static object CustomDurationHandlerForStream2(object sender, ParseErrorArgs args)
+{
+    var regex = new Regex("[*]{2}(\\d+)Hrs(\\d+)Mins(\\d+)Secs[*]{2}");
+    if (args.FieldType != typeof(TimeSpan))
+    {
+        throw args.Exception;
+    }
+
+    Debug.Print("Object field : {0}, Invalid value : {1}", args.FieldName, args.InvalidValue);
+    var duration = regex.Replace(args.InvalidValue, "PT$1H$2M$3S");
+    var newValue = Duration.ParseTimeSpan(duration);
+    Debug.Print("New value : {0}", newValue);
+    return newValue;
+}
+```
+
+### Ayrıca Bakınız
 
 * delegate [ParseErrorCallback](../../parseerrorcallback/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, string) {#constructor_6}
 
-Yeni bir örneğini başlatır.[`Project`](../)bir şablondan sınıf (mevcut mpp veya mpt dosyası).
+Şablondan (mevcut MPP veya MPT dosyası) yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(Stream stream, string protectionPassword)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Bir şablon yüklemek için akış. |
-| protectionPassword | String | Koruma şifresi. |
+| akış | Akış | Şablonun yükleneceği akış. |
+| protectionPassword | Dize | Koruma şifresi. |
 
-### Notlar
+## Açıklamalar
 
-Şu anda yalnızca MSP 2003 dosya biçimi için desteklenen parola korumalı dosyaların okunması.
+Şifre korumalı dosyaların okunması şu anda yalnızca MSP 2003 dosya formatı için desteklenmektedir.
 
-### Ayrıca bakınız
+## Örnekler
+
+MPP'nin şifre korumalı olup olmadığını nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "PasswordProtected.mpp");
+Console.WriteLine("Is file password protected?:" + info.IsPasswordProtected);
+```
+
+Şifre korumalı MPP dosyalarını bir akıştan nasıl okuyacağınızı gösterir.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var project = new Project(stream, "password");
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(string, LoadOptions) {#constructor_9}
 
-Yeni bir örneğini başlatır.[`Project`](../) belirtilen örneğini içeren bir şablondan (mevcut mpp veya mpt dosyası) sınıfı[`LoadOptions`](../../loadoptions/) sınıf.
+Belirtilen [`LoadOptions`](../../loadoptions/) sınıfının örneğiyle bir şablondan (mevcut mpp veya mpt dosyası) yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(string projectTemplate, LoadOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| projectTemplate | String | Proje oluşturmak için şablonun yolu |
-| options | LoadOptions | belirtilen örneği[`LoadOptions`](../../loadoptions/) sınıf. |
+| projectTemplate | Dize | Projeyi oluşturmak için şablon yolu |
+| options | LoadOptions | Belirtilen [`LoadOptions`](../../loadoptions/) sınıfının örneği. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir dosyadan projeyi &lt;see cref=\"Aspose.Tasks.LoadOptions\"/&gt; örneği kullanarak nasıl yükleyeceğinizi gösterir.
+
+```csharp
+var options = new LoadOptions
+{
+    Password = "password"
+};
+var project = new Project(DataDir + "PasswordProtectedProject.mpp", options);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+Hata ayrıştırmasıyla bir Primavera XML dosyasından proje nasıl okunacağını gösterir.
+
+```csharp
+var options = new PrimaveraReadOptions
+{
+    ProjectUid = 4557
+};
+
+var loadOptions = new LoadOptions()
+{
+    PrimaveraReadOptions = options,
+    ErrorHandler = CustomDurationHandlerForFile
+};
+
+// Özel UID'ye sahip projeyi döndürür
+var project = new Project(OutDir + "IgnoreInvalidCharacters_out.xml", loadOptions);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### Ayrıca Bakınız
 
 * class [LoadOptions](../../loadoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Project(Stream, LoadOptions) {#constructor_3}
 
-Yeni bir örneğini başlatır.[`Project`](../) belirtilen örneğiyle Stream sınıfından[`LoadOptions`](../../loadoptions/) sınıf.
+Belirtilen [`LoadOptions`](../../loadoptions/) sınıfının örneğiyle Akıştan yeni bir [`Project`](../) sınıfı örneği başlatır.
 
 ```csharp
 public Project(Stream stream, LoadOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Proje AkışıStreamsınıf |
-| options | LoadOptions | belirtilen örneği[`LoadOptions`](../../loadoptions/)sınıf |
+| akış | Akış | Project Streamclass'ın Akışı |
+| options | LoadOptions | Belirtilen [`LoadOptions`](../../loadoptions/) sınıfının örneği. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir akıştan projeyi &lt;see cref=\"Aspose.Tasks.LoadOptions\"/&gt; örneği kullanarak nasıl yükleyeceğinizi gösterir.
+
+```csharp
+using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
+{
+    var options = new LoadOptions
+    {
+        Password = "password"
+    };
+    var project = new Project(stream, options);
+    Console.WriteLine(project.Get(Prj.Name));
+}
+```
+
+### Ayrıca Bakınız
 
 * class [LoadOptions](../../loadoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

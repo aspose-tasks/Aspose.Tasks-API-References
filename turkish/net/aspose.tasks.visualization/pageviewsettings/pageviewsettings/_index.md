@@ -1,23 +1,23 @@
 ---
-title: PageViewSettings.PageViewSettings
-second_title: Aspose.Tasks for .NET API Referansı
-description: PageViewSettings inşaatçı. Default_Constructor
+title: "PageViewSettings.PageViewSettings"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PageViewSettings yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.visualization/pageviewsettings/pageviewsettings/
 ---
 ## PageViewSettings constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public PageViewSettings()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PageViewSettings](../)
-* ad alanı [Aspose.Tasks.Visualization](../../pageviewsettings/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pageviewsettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

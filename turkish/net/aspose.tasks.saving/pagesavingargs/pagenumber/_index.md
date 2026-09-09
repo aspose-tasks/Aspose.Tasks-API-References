@@ -1,7 +1,7 @@
 ---
-title: PageSavingArgs.PageNumber
-second_title: Aspose.Tasks for .NET API Referansı
-description: PageSavingArgs mülk. Yazılacak sayfa sayısını alır.
+title: "PageSavingArgs.PageNumber"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PageSavingArgs özelliği. Yazılacak sayfanın numarasını alır."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks.saving/pagesavingargs/pagenumber/
@@ -14,10 +14,10 @@ Yazılacak sayfa sayısını alır.
 public int PageNumber { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PageSavingArgs](../)
-* ad alanı [Aspose.Tasks.Saving](../../pagesavingargs/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

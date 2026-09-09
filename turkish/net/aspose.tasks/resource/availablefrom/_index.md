@@ -1,23 +1,23 @@
 ---
-title: Resource.AvailableFrom
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. KullanılabilirFrom. değerini alır veya ayarlar
+title: "Resource.AvailableFrom"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. AvailableFrom değerini alır veya ayarlar"
 type: docs
 weight: 140
 url: /tr/net/aspose.tasks/resource/availablefrom/
 ---
 ## Resource.AvailableFrom property
 
-KullanılabilirFrom. değerini alır veya ayarlar
+AvailableFrom değerini alır veya ayarlar.
 
 ```csharp
 public DateTime AvailableFrom { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

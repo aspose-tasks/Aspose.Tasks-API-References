@@ -1,7 +1,7 @@
 ---
-title: Delegate FontResolveCallbackDelegate
-second_title: Aspose.Tasks for .NET API Referansı
-description: Yazı tipi çözümleme olayını işlemek için bir yöntem geri aramasını temsil eder.
+title: "Delegate FontResolveCallbackDelegate"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Yazı tipi çözümleme olayını işlemek için bir yöntem geri aramasını temsil eder"
 type: docs
 weight: 660
 url: /tr/net/aspose.tasks/fontresolvecallbackdelegate/
@@ -14,14 +14,14 @@ Yazı tipi çözümleme olayını işlemek için bir yöntem geri aramasını te
 public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| args | FontResolveEventArgs | örneği[`FontResolveEventArgs`](../fontresolveeventargs/) geri arama verilerini içeren sınıf. |
+| args | FontResolveEventArgs | geri arama verilerini içeren [`FontResolveEventArgs`](../fontresolveeventargs/) sınıfının örneği. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [FontResolveEventArgs](../fontresolveeventargs/)
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

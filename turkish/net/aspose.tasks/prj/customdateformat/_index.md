@@ -1,25 +1,37 @@
 ---
-title: Prj.CustomDateFormat
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Proje görünümü özel tarih biçimi. Tarihleri biçimlendirmek için kullanılırDateFormat özellik şu şekilde ayarlandıCustom .
+title: "Prj.CustomDateFormat"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Proje görünümü özel tarih biçimi. DateFormat özelliği Custom olarak ayarlandığında tarihleri biçimlendirmek için kullanılır."
 type: docs
-weight: 190
+weight: 200
 url: /tr/net/aspose.tasks/prj/customdateformat/
 ---
 ## Prj.CustomDateFormat field
 
-Proje görünümü özel tarih biçimi. Tarihleri biçimlendirmek için kullanılır[`DateFormat`](../dateformat/) özellik şu şekilde ayarlandı:Custom .
+Proje görünümü özel tarih biçimi. [`DateFormat`](../dateformat/) özelliği Custom olarak ayarlandığında tarihleri biçimlendirmek için kullanılır.
 
 ```csharp
 public static readonly Key<string, PrjKey> CustomDateFormat;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.CustomDateFormat özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CustomDateFormat, "dd MMMM yyyy H:mm");
+
+Console.WriteLine("Custom Date Format: " + project.Get(Prj.CustomDateFormat));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

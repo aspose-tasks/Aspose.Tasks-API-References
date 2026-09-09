@@ -1,23 +1,48 @@
 ---
-title: OutlineCode.FieldId
-second_title: Aspose.Tasks for .NET API Referansı
-description: OutlineCode mülk. Proje kimliği özel alanının sayı değerini alır veya ayarlar.
+title: "OutlineCode.FieldId"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "OutlineCode özelliği. Proje Id özel alanının sayısal değerini alır veya ayarlar"
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/outlinecode/fieldid/
 ---
 ## OutlineCode.FieldId property
 
-Proje kimliği özel alanının sayı değerini alır veya ayarlar.
+Proje Id özel alanının sayısal değerini alır veya ayarlar.
 
 ```csharp
 public string FieldId { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Görevlerin outline kodlarını nasıl okuyacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// outline kodlarını oku
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
+
+### Ayrıca Bakınız
 
 * class [OutlineCode](../)
-* ad alanı [Aspose.Tasks](../../outlinecode/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecode/)
+* assembly [Aspose.Tasks](../../../)
 
 

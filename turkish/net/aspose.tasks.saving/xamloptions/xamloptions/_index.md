@@ -1,23 +1,36 @@
 ---
-title: XamlOptions.XamlOptions
-second_title: Aspose.Tasks for .NET API Referansı
-description: XamlOptions inşaatçı. Yeni bir örneğini başlatır.XamlOptions projeyi XAML formatında kaydetmek için kullanılabilecek sınıf.
+title: "XamlOptions.XamlOptions"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "XamlOptions yapıcı. Projeyi XAML formatında kaydetmek için kullanılabilecek XamlOptions sınıfının yeni bir örneğini başlatır."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.saving/xamloptions/xamloptions/
 ---
 ## XamlOptions constructor
 
-Yeni bir örneğini başlatır.[`XamlOptions`](../) projeyi XAML formatında kaydetmek için kullanılabilecek sınıf.
+Projeyi XAML formatında kaydetmek için kullanılabilecek [`XamlOptions`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public XamlOptions()
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaydetme seçeneklerini kullanarak bir projeyi XAML formatında nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new XamlOptions();
+options.FitContent = true;
+options.LegendDrawingOptions = LegendDrawingOptions.NoLegend;
+options.Timescale = Timescale.ThirdsOfMonths;
+project.Save(OutDir + "RenderXAMLWithOptions_out.xaml", options);
+```
+
+### Ayrıca Bakınız
 
 * class [XamlOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../xamloptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xamloptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,42 @@
 ---
-title: Task.SplitParts
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir görevin bölümlerini temsil eden bir SplitPart koleksiyonu alır.
+title: "Task.SplitParts"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Bir görevin bölümlerini temsil eden bir SplitPart koleksiyonu alır"
 type: docs
-weight: 1120
+weight: 1110
 url: /tr/net/aspose.tasks/task/splitparts/
 ---
 ## Task.SplitParts property
 
-Bir görevin bölümlerini temsil eden bir SplitPart koleksiyonu alır.
+Bir görevin bölümlerini temsil eden SplitPart koleksiyonunu alır.
 
 ```csharp
 public SplitPartCollection SplitParts { get; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Görevin bölünmüş parçalarının nasıl görüntüleneceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "ViewSplitTasks.mpp");
+
+// Göreve eriş 
+var task = project.RootTask.Children.GetById(4);
+
+// Görevin bölünmüş parçalarını görüntüle
+var collection = task.SplitParts;
+foreach (var splitPart in collection)
+{
+    Console.WriteLine("Start: " + splitPart.Start + "\nFinish: " + splitPart.Finish + "\n");
+}
+```
+
+### Ayrıca Bakınız
 
 * class [SplitPartCollection](../../splitpartcollection/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

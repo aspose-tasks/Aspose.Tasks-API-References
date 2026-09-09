@@ -1,25 +1,46 @@
 ---
-title: Tsk.OvertimeCost
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görev atanan tüm görevlerdeki bir kaynak veya bir kaynak ataması için toplam fazla mesai maliyeti.
+title: "Tsk.OvertimeCost"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Bir kaynak için tüm atanan görevlerde veya bir kaynak atamasında bir görevin toplam fazla mesai maliyeti"
 type: docs
-weight: 880
+weight: 860
 url: /tr/net/aspose.tasks/tsk/overtimecost/
 ---
 ## Tsk.OvertimeCost field
 
-Bir görev, atanan tüm görevlerdeki bir kaynak veya bir kaynak ataması için toplam fazla mesai maliyeti.
+Bir görev için, bir kaynak için tüm atanan görevlerdeki veya bir kaynak ataması için toplam fazla mesai maliyeti.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> OvertimeCost;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Görev fazla mesailerini okuma nasıl yapılır gösterir.
+
+```csharp
+var project = new Project(DataDir + "TaskOvertimes.mpp");
+
+// Görevler için fazla mesai ve yüzde tamamlama değerlerini okuyun
+foreach (var task in project.RootTask.Children)
+{
+    Console.WriteLine(task.Get(Tsk.OvertimeCost));
+    Console.WriteLine(task.Get(Tsk.OvertimeWork));
+    Console.WriteLine(task.Get(Tsk.PercentComplete));
+    Console.WriteLine(task.Get(Tsk.PercentWorkComplete));
+    Console.WriteLine(task.Get(Tsk.PhysicalPercentComplete));
+
+    // Yüzde tamamlamayı ayarlayın
+    task.Set(Tsk.PercentComplete, 100);
+}
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

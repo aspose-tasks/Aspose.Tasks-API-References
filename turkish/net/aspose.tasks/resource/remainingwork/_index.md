@@ -1,24 +1,24 @@
 ---
-title: Resource.RemainingWork
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. RemainingWork. değerini alır veya ayarlar
+title: "Resource.RemainingWork"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. RemainingWork değerini alır veya ayarlar."
 type: docs
-weight: 700
+weight: 690
 url: /tr/net/aspose.tasks/resource/remainingwork/
 ---
 ## Resource.RemainingWork property
 
-RemainingWork. değerini alır veya ayarlar
+RemainingWork değerini alır veya ayarlar.
 
 ```csharp
 public Duration RemainingWork { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.SpreadPercentComplete
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. SpreadPercentCompletein ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.SpreadPercentComplete"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. SpreadPercentComplete ayarlı olup olmadığını gösteren bir değeri alır veya ayarlar."
 type: docs
-weight: 830
+weight: 860
 url: /tr/net/aspose.tasks/project/spreadpercentcomplete/
 ---
 ## Project.SpreadPercentComplete property
 
-SpreadPercentComplete'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+SpreadPercentComplete ayarlı olup olmadığını gösteren değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool SpreadPercentComplete { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

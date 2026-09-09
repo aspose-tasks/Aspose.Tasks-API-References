@@ -1,24 +1,24 @@
 ---
-title: Task.FixedCostAccrual
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. FixedCostAccrual. değerini alır veya ayarlar.
+title: "Task.FixedCostAccrual"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Değerini alır veya ayarlar FixedCostAccrual"
 type: docs
 weight: 490
 url: /tr/net/aspose.tasks/task/fixedcostaccrual/
 ---
 ## Task.FixedCostAccrual property
 
-FixedCostAccrual. değerini alır veya ayarlar.
+FixedCostAccrual değerini alır veya ayarlar.
 
 ```csharp
 public CostAccrualType FixedCostAccrual { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [CostAccrualType](../../costaccrualtype/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

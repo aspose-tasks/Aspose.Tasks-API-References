@@ -1,31 +1,31 @@
 ---
-title: WeekDay.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: WeekDay yöntem. Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+title: "WeekDay.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WeekDay yöntemi. Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür."
 type: docs
 weight: 90
 url: /tr/net/aspose.tasks/weekday/equals/
 ---
 ## WeekDay.Equals method
 
-Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | obj | Object | Bu örnekle karşılaştırılacak nesne. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**Doğru** belirtilen nesne, bu örnekle aynı FromDate, ToDate değerlerine ve WorkingTimes'a sahip bir WeekDay ise; aksi takdirde, **YANLIŞ**.
+**True** if the specified object is a WeekDay that has the same FromDate, ToDate values and WorkingTimes as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WeekDay](../)
-* ad alanı [Aspose.Tasks](../../weekday/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weekday/)
+* assembly [Aspose.Tasks](../../../)
 
 

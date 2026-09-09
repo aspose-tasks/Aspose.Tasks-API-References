@@ -1,31 +1,31 @@
 ---
-title: Calendar.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: Calendar yöntem. Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+title: "Calendar.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Calendar yöntemi. Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür"
 type: docs
-weight: 130
+weight: 150
 url: /tr/net/aspose.tasks/calendar/equals/
 ---
 ## Calendar.Equals method
 
-Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | obj | Object | Bu örnekle karşılaştırılacak nesne. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**Doğru** o, bu örnekle aynı Uid değerine sahip bir Calendar ise; aksi takdirde, **YANLIŞ**.
+**True** if o is a Calendar that has the same Uid value as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Calendar](../)
-* ad alanı [Aspose.Tasks](../../calendar/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: BarStyle.TopBarTextConverter
-second_title: Aspose.Tasks for .NET API Referansı
-description: BarStyle mülk. Metnin görev çubuğunun üstünde işlenmesi için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. değerini geçersiz kılarTopField özellik.
+title: "BarStyle.TopBarTextConverter"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "BarStyle özelliği. Görev çubuğunun üst kısmında görüntülenecek metni elde etmek için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. TopField özelliğinin değerini geçersiz kılar."
 type: docs
-weight: 180
+weight: 220
 url: /tr/net/aspose.tasks.visualization/barstyle/topbartextconverter/
 ---
 ## BarStyle.TopBarTextConverter property
 
-Metnin görev çubuğunun üstünde işlenmesi için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. değerini geçersiz kılar[`TopField`](../topfield/) özellik.
+Görev çubuğunun üstünde görüntülenecek metni almak için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. [`TopField`](../topfield/) özelliğinin değerini geçersiz kılar.
 
 ```csharp
 public TaskBarTextConverter TopBarTextConverter { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../barstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

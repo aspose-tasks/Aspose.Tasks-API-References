@@ -1,24 +1,24 @@
 ---
-title: Task.IsEffortDriven
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. IsEffortDrivenin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Task.IsEffortDriven"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. IsEffortDriven'ın ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
 weight: 610
 url: /tr/net/aspose.tasks/task/iseffortdriven/
 ---
 ## Task.IsEffortDriven property
 
-IsEffortDriven'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+IsEffortDriven'ın ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool IsEffortDriven { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

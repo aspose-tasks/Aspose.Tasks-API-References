@@ -1,7 +1,7 @@
 ---
-title: Enum ApplicationInfo
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.ApplicationInfo Sıralama. Dosyanın oluşturulduğu proje sürümünü belirtir.
+title: "Enum ApplicationInfo"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.ApplicationInfo enum. Dosyanın oluşturulduğu proje sürümünü belirtir."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/applicationinfo/
@@ -14,21 +14,32 @@ Dosyanın oluşturulduğu proje sürümünü belirtir.
 public enum ApplicationInfo
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Undefined | `0` | Tanımlanamaz. |
-| MSP2000 | `1` | Dosya Microsoft Project 2000/2002'de oluşturuldu. |
-| MSP2003 | `2` | Dosya Microsoft Project 2003. 'de oluşturuldu |
-| MSP2007 | `3` | Dosya Microsoft Project 2007'de oluşturuldu. |
-| MSP2010 | `4` | Dosya Microsoft Project 2010'da oluşturuldu. |
-| MSP2013 | `5` | Dosya Microsoft Project 2013'te oluşturuldu. |
-| MSP2016 | `6` | Dosya Microsoft Project 2016'da oluşturuldu. |
+| MSP2000 | `1` | Dosya Microsoft Project 2000/2002'de oluşturulmuş. |
+| MSP2003 | `2` | Dosya Microsoft Project 2003'te oluşturulmuş. |
+| MSP2007 | `3` | Dosya Microsoft Project 2007'de oluşturulmuş. |
+| MSP2010 | `4` | Dosya Microsoft Project 2010'da oluşturulmuş. |
+| MSP2013 | `5` | Dosya Microsoft Project 2013'te oluşturulmuş. |
+| MSP2016 | `6` | Dosya Microsoft Project 2016'da oluşturulmuş. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Proje uygulama bilgisini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

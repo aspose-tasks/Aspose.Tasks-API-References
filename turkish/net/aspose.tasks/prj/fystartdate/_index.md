@@ -1,9 +1,9 @@
 ---
-title: Prj.FyStartDate
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Mali yılın başladığı ay.
+title: "Prj.FyStartDate"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Mali yılın başladığı ay"
 type: docs
-weight: 340
+weight: 350
 url: /tr/net/aspose.tasks/prj/fystartdate/
 ---
 ## Prj.FyStartDate field
@@ -14,13 +14,29 @@ Mali yılın başladığı ay.
 public static readonly Key<Month, PrjKey> FyStartDate;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Mali yıl özelliklerinin nasıl yazılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "WriteFiscalYearProperties.mpp");
+
+// Mali yıl özelliklerini ayarla
+project.Set(Prj.FyStartDate, Month.July);
+project.Set(Prj.FiscalYearStart, true);
+
+// Mali yıl özelliklerini göster
+Console.WriteLine("Fiscal Year Start Date: " + project.Get(Prj.FyStartDate));
+Console.WriteLine("Fiscal Year Numbering: " + project.Get(Prj.FiscalYearStart));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [Month](../../month/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

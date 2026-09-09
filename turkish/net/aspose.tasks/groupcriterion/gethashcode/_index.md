@@ -1,27 +1,27 @@
 ---
-title: GroupCriterion.GetHashCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: GroupCriterion yöntem. Belirli bir tür için bir karma işlevi olarak hizmet eder.
+title: "GroupCriterion.GetHashCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "GroupCriterion yöntemi. Belirli bir tip için bir karma işlevi olarak hizmet eder"
 type: docs
-weight: 140
+weight: 120
 url: /tr/net/aspose.tasks/groupcriterion/gethashcode/
 ---
 ## GroupCriterion.GetHashCode method
 
-Belirli bir tür için bir karma işlevi olarak hizmet eder.
+Belirli bir tür için hash işlevi olarak hizmet verir.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Geçerli için bir karma kodObject.
+Geçerli nesne için bir karma kodu.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [GroupCriterion](../)
-* ad alanı [Aspose.Tasks](../../groupcriterion/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

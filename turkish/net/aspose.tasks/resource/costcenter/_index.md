@@ -1,23 +1,23 @@
 ---
-title: Resource.CostCenter
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir CostCenter. değeri alır veya ayarlar.
+title: "Resource.CostCenter"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. CostCenter değerini alır veya ayarlar."
 type: docs
 weight: 260
 url: /tr/net/aspose.tasks/resource/costcenter/
 ---
 ## Resource.CostCenter property
 
-Bir CostCenter. değeri alır veya ayarlar.
+CostCenter değerini alır veya ayarlar.
 
 ```csharp
 public string CostCenter { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

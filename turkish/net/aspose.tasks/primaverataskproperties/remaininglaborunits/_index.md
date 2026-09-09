@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingLaborUnits
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Kalan emek birimlerinin değerini alır.
+title: "PrimaveraTaskProperties.RemainingLaborUnits"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Kalan işçilik birimlerinin değerini alır"
 type: docs
-weight: 120
+weight: 290
 url: /tr/net/aspose.tasks/primaverataskproperties/remaininglaborunits/
 ---
 ## PrimaveraTaskProperties.RemainingLaborUnits property
 
-Kalan emek birimlerinin değerini alır.
+Kalan iş birimlerinin değerini alır.
 
 ```csharp
 public double RemainingLaborUnits { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

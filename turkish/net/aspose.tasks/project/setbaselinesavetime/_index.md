@@ -1,33 +1,49 @@
 ---
-title: Project.SetBaselineSaveTime
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Temel kaydetme süresini ayarlar.
+title: "Project.SetBaselineSaveTime"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Temel çizgi kaydetme zamanını ayarlar"
 type: docs
-weight: 1240
+weight: 1260
 url: /tr/net/aspose.tasks/project/setbaselinesavetime/
 ---
 ## Project.SetBaselineSaveTime method
 
-Temel kaydetme süresini ayarlar.
+Temel çizgi kaydetme zamanını ayarlar.
 
 ```csharp
 public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| baselineNumber | BaselineType | Taban çizgisi numarası[`BaselineType`](../../baselinetype/). |
-| value | DateTime | Temelin son kaydetme tarihi ve saati. |
+| baselineNumber | BaselineType | Temel çizginin numarası [`BaselineType`](../../baselinetype/). |
+| value | DateTime | Temel çizginin son kaydetme tarihi ve saati. |
 
-### Notlar
+## Açıklamalar
 
-Temel kaydedilmediyse değeri DateTime.MinValue olarak ayarlayın.
+Temel çizgi kaydedilmemişse değeri DateTime.MinValue olarak ayarla.
 
-### Ayrıca bakınız
+## Örnekler
+
+Projenin temel çizgi kaydetme zamanını okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// temel çizgi kaydetme zamanını ayarla
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
+
+### Ayrıca Bakınız
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

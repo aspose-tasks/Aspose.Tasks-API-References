@@ -1,23 +1,23 @@
 ---
-title: Resource.Phonetics
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir Fonetik değeri alır veya ayarlar.
+title: "Resource.Phonetics"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Phonetics değerini alır veya ayarlar"
 type: docs
-weight: 640
+weight: 630
 url: /tr/net/aspose.tasks/resource/phonetics/
 ---
 ## Resource.Phonetics property
 
-Bir Fonetik değeri alır veya ayarlar.
+Phonetics değerini alır veya ayarlar.
 
 ```csharp
 public string Phonetics { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

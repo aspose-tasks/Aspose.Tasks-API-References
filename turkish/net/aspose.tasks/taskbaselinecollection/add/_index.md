@@ -1,28 +1,28 @@
 ---
-title: TaskBaselineCollection.Add
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskBaselineCollection yöntem. Bu ICollectionın Add yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+title: "TaskBaselineCollection.Add"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskBaselineCollection yöntemi. Bu, yalnızca NotSupportedException fırlatan ICollections Add yönteminin taslak uygulamasıdır."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/taskbaselinecollection/add/
 ---
 ## TaskBaselineCollection.Add method
 
-Bu, ICollection'ın Add yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+Bu, ICollection'ın Add metodunun sadece NotSupportedException fırlatan taslak uygulamasıdır
 
 ```csharp
 public void Add(TaskBaseline item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | TaskBaseline | Eklenecek öğe. |
+| öğe | TaskBaseline | Eklenecek öğe. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [TaskBaseline](../../taskbaseline/)
 * class [TaskBaselineCollection](../)
-* ad alanı [Aspose.Tasks](../../taskbaselinecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

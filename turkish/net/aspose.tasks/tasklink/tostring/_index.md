@@ -1,27 +1,27 @@
 ---
-title: TaskLink.ToString
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskLink yöntem. Bir TaskLinkin dize gösterimini döndürür. Gösterimin kesin ayrıntıları belirtilmemiştir ve değişikliğe tabidir.
+title: "TaskLink.ToString"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskLink yöntemi. Bir TaskLink'in string temsilini döndürür. Temsilin kesin detayları belirtilmemiştir ve değişebilir."
 type: docs
 weight: 110
 url: /tr/net/aspose.tasks/tasklink/tostring/
 ---
 ## TaskLink.ToString method
 
-Bir TaskLink'in dize gösterimini döndürür. Gösterimin kesin ayrıntıları belirtilmemiştir ve değişikliğe tabidir.
+Bir TaskLink'in dize temsili döndürür. Temsilin tam detayları belirtilmemiştir ve değişebilir.
 
 ```csharp
 public override string ToString()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-TaskLink nesnesini temsil eden dize.
+TaskLink nesnesini temsil eden string.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [TaskLink](../)
-* ad alanı [Aspose.Tasks](../../tasklink/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

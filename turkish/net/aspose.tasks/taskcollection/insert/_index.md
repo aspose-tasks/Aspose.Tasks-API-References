@@ -1,29 +1,29 @@
 ---
-title: TaskCollection.Insert
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskCollection yöntem. Bu IListin Insert yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+title: "TaskCollection.Insert"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskCollection yöntemi. Bu, yalnızca NotSupportedException fırlatan ILists Insert yönteminin taslak uygulamasıdır"
 type: docs
 weight: 100
 url: /tr/net/aspose.tasks/taskcollection/insert/
 ---
 ## TaskCollection.Insert method
 
-Bu, IList'in Insert yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+Bu, IList'in Insert metodunun taslak (stub) uygulamasıdır ve yalnızca NotSupportedException fırlatır.
 
 ```csharp
 public void Insert(int index, Task item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| index | Int32 | Eklenecek dizin. |
-| item | Task | Eklenecek öğe. |
+| indeks | Int32 | Eklenecek indeks. |
+| öğe | Görev | Eklenecek öğe. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* ad alanı [Aspose.Tasks](../../taskcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

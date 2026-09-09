@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Resource
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. Bir göreve atanan kaynak.
+title: "ResourceAssignment.Resource"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. Bir göreve atanan kaynak"
 type: docs
 weight: 510
 url: /tr/net/aspose.tasks/resourceassignment/resource/
@@ -14,11 +14,11 @@ Bir göreve atanan kaynak.
 public Resource Resource { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../../resource/)
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

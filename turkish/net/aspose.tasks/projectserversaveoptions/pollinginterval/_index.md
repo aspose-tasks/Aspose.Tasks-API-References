@@ -1,7 +1,7 @@
 ---
-title: ProjectServerSaveOptions.PollingInterval
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProjectServerSaveOptions mülk. Kuyruk iş durumu istekleri arasındaki aralığı alır veya ayarlar. Varsayılan değer 2 saniyedir.
+title: "ProjectServerSaveOptions.PollingInterval"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProjectServerSaveOptions özelliği. Kuyruk iş durumu istekleri arasındaki aralığı alır veya ayarlar. Varsayılan değer 2 saniyedir."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/projectserversaveoptions/pollinginterval/
@@ -14,10 +14,43 @@ Kuyruk iş durumu istekleri arasındaki aralığı alır veya ayarlar. Varsayıl
 public TimeSpan PollingInterval { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Yerel (on-premise) Project Server örneğinde yeni bir proje oluşturmak için &lt;see cref=\"Aspose.Tasks.ProjectServerSaveOptions\" /&gt; seçeneklerinin nasıl kullanılacağını gösterir.
+
+```csharp
+try
+{
+    const string URL = "https://project_server.local/sites/pwa";
+    const string Domain = "CONTOSO.COM";
+    const string UserName = "Administrator";
+    const string Password = "MyPassword";
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+    var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+    var manager = new ProjectServerManager(projectServerCredentials);
+    var options = new ProjectServerSaveOptions
+                      {
+                          ProjectGuid = Guid.NewGuid(),
+                          ProjectName = "New project",
+                          Timeout = TimeSpan.FromMinutes(5),
+                          PollingInterval = TimeSpan.FromSeconds(3)
+                      };
+
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [ProjectServerSaveOptions](../)
-* ad alanı [Aspose.Tasks](../../projectserversaveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectserversaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

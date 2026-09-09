@@ -1,9 +1,9 @@
 ---
-title: Prj.LastAuthor
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Projenin son yazarı.
+title: "Prj.LastAuthor"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Projenin son yazarı"
 type: docs
-weight: 410
+weight: 420
 url: /tr/net/aspose.tasks/prj/lastauthor/
 ---
 ## Prj.LastAuthor field
@@ -14,12 +14,33 @@ Projenin son yazarı.
 public static readonly Key<string, PrjKey> LastAuthor;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Proje meta bilgilerini nasıl ayarlayacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "WriteProjectInfo.mpp");
+
+// Proje bilgilerini ayarla
+project.Set(Prj.Author, "Author");
+project.Set(Prj.LastAuthor, "Last Author");
+project.Set(Prj.Revision, 15);
+project.Set(Prj.Keywords, "MSP Aspose");
+project.Set(Prj.Comments, "Comments");
+
+Console.WriteLine(project.Get(Prj.Author));
+Console.WriteLine(project.Get(Prj.LastAuthor));
+Console.WriteLine(project.Get(Prj.Revision));
+Console.WriteLine(project.Get(Prj.Keywords));
+Console.WriteLine(project.Get(Prj.Comments));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

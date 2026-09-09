@@ -1,23 +1,23 @@
 ---
-title: Project.Uid
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Uid. değerini alır veya ayarlar
+title: "Project.Uid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. Uid değerini alır veya ayarlar."
 type: docs
-weight: 960
+weight: 990
 url: /tr/net/aspose.tasks/project/uid/
 ---
 ## Project.Uid property
 
-Uid. değerini alır veya ayarlar
+Uid değerini alır veya ayarlar.
 
 ```csharp
 public string Uid { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

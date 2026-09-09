@@ -1,22 +1,22 @@
 ---
-title: Enum PresentationFormat
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.PresentationFormat Sıralama. Sunum formatı için numaralandırma.
+title: "Enum PresentationFormat"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.PresentationFormat enum. Sunum formatı için bir enum"
 type: docs
-weight: 2920
+weight: 3270
 url: /tr/net/aspose.tasks.visualization/presentationformat/
 ---
 ## PresentationFormat enumeration
 
-Sunum formatı için numaralandırma.
+Sunum biçimi için numaralandırma.
 
 ```csharp
 public enum PresentationFormat
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | GanttChart | `0` | Gantt Şeması sunum formatı. |
 | TaskUsage | `1` | Görev kullanımı sunum formatı. |
@@ -24,9 +24,23 @@ public enum PresentationFormat
 | ResourceSheet | `3` | Kaynak sayfası sunum formatı. |
 | TaskSheet | `4` | Görev sayfası sunum formatı. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+Kaynak sayfası görünümünün nasıl oluşturulacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ResourceSheetView.mpp");
+
+SaveOptions options = new PdfSaveOptions();
+
+// Sunum Formatını Kaynak Sayfası olarak ayarla
+options.PresentationFormat = PresentationFormat.ResourceSheet;
+project.Save(OutDir + "ResourceSheetView_out.pdf", options);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

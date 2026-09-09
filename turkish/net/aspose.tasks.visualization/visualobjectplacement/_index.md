@@ -1,45 +1,45 @@
 ---
-title: Class VisualObjectPlacement
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.VisualObjectPlacement sınıf. Yerleşimi ve görünümünü temsil ederOleObject bir görünümde.
+title: "Sınıf VisualObjectPlacement"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.VisualObjectPlacement sınıfı. Bir görünümdeki OleObject'in konumunu ve görünümünü temsil eder."
 type: docs
-weight: 3120
+weight: 3480
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/
 ---
 ## VisualObjectPlacement class
 
-Yerleşimi ve görünümünü temsil eder[`OleObject`](../../aspose.tasks/oleobject/) bir görünümde.
+[`OleObject`](../../aspose.tasks/oleobject/) bir görünümdeki konumunu ve görünümünü temsil eder.
 
 ```csharp
 public sealed class VisualObjectPlacement
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [VisualObjectPlacement](visualobjectplacement/)() | Yeni bir örneğini başlatır.`VisualObjectPlacement` sınıf. |
+| [VisualObjectPlacement](visualobjectplacement/)() | `VisualObjectPlacement` sınıfının yeni bir örneğini başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint/) { get; set; } | 'Göreve ekle' seçenekleri seçildiğinde görsel nesnenin bir göreve göre hizalamasını alır veya ayarlar. |
-| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor/) { get; set; } | Sınır çizgisi rengini alır veya ayarlar. |
-| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness/) { get; set; } | Sınır çizgisi kalınlığını alır veya ayarlar (izin verilen değerler 0 - 5'tir). |
+| [AttachmentPoint](../../aspose.tasks.visualization/visualobjectplacement/attachmentpoint/) { get; set; } | 'Göreve bağla' seçeneği seçildiğinde görsel nesnenin bir görevle ilişkili hizalamasını alır veya ayarlar. |
+| [BorderLineColor](../../aspose.tasks.visualization/visualobjectplacement/borderlinecolor/) { get; set; } | Kenarlık çizgi rengini alır veya ayarlar. |
+| [BorderLineThickness](../../aspose.tasks.visualization/visualobjectplacement/borderlinethickness/) { get; set; } | Kenarlık çizgi kalınlığını alır veya ayarlar (izin verilen değerler 0 - 5). |
 | [FillColor](../../aspose.tasks.visualization/visualobjectplacement/fillcolor/) { get; set; } | Dolgu rengini alır veya ayarlar. |
-| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern/) { get; set; } | Dolgu modelini alır veya ayarlar. |
+| [FillPattern](../../aspose.tasks.visualization/visualobjectplacement/fillpattern/) { get; set; } | Dolgu desenini alır veya ayarlar. |
 | [Height](../../aspose.tasks.visualization/visualobjectplacement/height/) { get; set; } | Görsel nesnenin görüntülenen yüksekliğini alır veya ayarlar. |
-| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset/) { get; set; } | Görsel nesnenin yatay kaymasını alır veya ayarlar. |
-| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid/) { get; set; } | Kimliğini alır veya ayarlar[`OleObject`](../../aspose.tasks/oleobject/) nesne. |
-| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid/) { get; set; } | 'Göreve ekle' seçenekleri seçiliyse, görev kimliğini alır veya ayarlar, aksi takdirde -1. |
-| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate/) { get; set; } | 'Zaman ölçeğine ekle' seçenekleri seçildiğinde görsel nesnenin tarih yerleşimini alır veya ayarlar. |
-| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset/) { get; set; } | Görsel nesnenin dikey kaymasını alır veya ayarlar. |
+| [HorizontalOffset](../../aspose.tasks.visualization/visualobjectplacement/horizontaloffset/) { get; set; } | Görsel nesnenin yatay ofsetini alır veya ayarlar. |
+| [OleObjectId](../../aspose.tasks.visualization/visualobjectplacement/oleobjectid/) { get; set; } | [`OleObject`](../../aspose.tasks/oleobject/) nesnesinin kimliğini (Id) alır veya ayarlar. |
+| [TaskId](../../aspose.tasks.visualization/visualobjectplacement/taskid/) { get; set; } | 'Göreve bağla' seçeneği seçildiyse görev kimliğini (Id) alır veya ayarlar, aksi takdirde -1. |
+| [TimescaleDate](../../aspose.tasks.visualization/visualobjectplacement/timescaledate/) { get; set; } | 'Zaman ölçeğine bağla' seçeneği seçildiğinde görsel nesnenin tarih konumunu alır veya ayarlar. |
+| [VerticalOffset](../../aspose.tasks.visualization/visualobjectplacement/verticaloffset/) { get; set; } | Görsel nesnenin dikey ofsetini alır veya ayarlar. |
 | [Width](../../aspose.tasks.visualization/visualobjectplacement/width/) { get; set; } | Görsel nesnenin görüntülenen genişliğini alır veya ayarlar. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

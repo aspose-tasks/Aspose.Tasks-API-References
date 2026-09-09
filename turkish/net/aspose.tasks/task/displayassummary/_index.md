@@ -1,24 +1,24 @@
 ---
-title: Task.DisplayAsSummary
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. DisplayAsSummarynin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Task.DisplayAsSummary"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. DisplayAsSummary'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar"
 type: docs
 weight: 310
 url: /tr/net/aspose.tasks/task/displayassummary/
 ---
 ## Task.DisplayAsSummary property
 
-DisplayAsSummary'nin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+DisplayAsSummary ayarının yapılıp yapılmadığını gösteren değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool DisplayAsSummary { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

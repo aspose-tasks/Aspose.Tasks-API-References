@@ -1,32 +1,32 @@
 ---
-title: TaskCollection.Item
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskCollection mülk. Belirtilen dizindeki öğeyi döndürür.
+title: "TaskCollection.Item"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskCollection özelliği. Belirtilen indeksteki öğeyi döndürür."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/taskcollection/item/
 ---
 ## TaskCollection indexer
 
-Belirtilen dizindeki öğeyi döndürür.
+Belirtilen indeksteki öğeyi döndürür.
 
 ```csharp
 public Task this[int index] { get; set; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| index | Alınacak öğenin sıfır tabanlı dizini. |
+| indeks | Alınacak öğenin sıfır tabanlı indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen dizindeki öğe.
+belirtilen indeksteki öğe.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* ad alanı [Aspose.Tasks](../../taskcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

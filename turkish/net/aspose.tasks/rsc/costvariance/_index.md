@@ -1,25 +1,39 @@
 ---
-title: Rsc.CostVariance
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Bir kaynağın temel maliyeti ile toplam maliyeti arasındaki fark.
+title: "Rsc.CostVariance"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Bir kaynak için temel maliyet ile toplam maliyet arasındaki fark"
 type: docs
 weight: 250
 url: /tr/net/aspose.tasks/rsc/costvariance/
 ---
 ## Rsc.CostVariance field
 
-Bir kaynağın temel maliyeti ile toplam maliyeti arasındaki fark.
+Bir kaynak için temel maliyet ile toplam maliyet arasındaki fark.
 
 ```csharp
 public static readonly Key<double, RscKey> CostVariance;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Rsc.CostVariance özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostVariance, 10);
+
+Console.WriteLine("Cost Variance: " + resource.Get(Rsc.CostVariance));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

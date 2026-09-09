@@ -1,23 +1,23 @@
 ---
-title: Project.StartDate
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Bir StartDate. değeri alır veya ayarlar.
+title: "Project.StartDate"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. StartDate değerini alır veya ayarlar"
 type: docs
-weight: 840
+weight: 870
 url: /tr/net/aspose.tasks/project/startdate/
 ---
 ## Project.StartDate property
 
-Bir StartDate. değeri alır veya ayarlar.
+StartDate değerini alır veya ayarlar.
 
 ```csharp
 public DateTime StartDate { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

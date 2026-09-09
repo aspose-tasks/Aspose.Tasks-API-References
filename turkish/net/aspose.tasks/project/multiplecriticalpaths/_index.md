@@ -1,9 +1,9 @@
 ---
-title: Project.MultipleCriticalPaths
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. MultipleCriticalPathsin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.MultipleCriticalPaths"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. MultipleCriticalPaths'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
-weight: 620
+weight: 640
 url: /tr/net/aspose.tasks/project/multiplecriticalpaths/
 ---
 ## Project.MultipleCriticalPaths property
@@ -14,11 +14,11 @@ MultipleCriticalPaths'in ayarlanıp ayarlanmadığını gösteren bir değer al�
 public NullableBool MultipleCriticalPaths { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: HtmlSaveOptions.PageSavingCallback
-second_title: Aspose.Tasks for .NET API Referansı
-description: HtmlSaveOptions mülk. Oluşturulan her sayfa için bir çıktı akışı almak için kullanılan kullanıcı tanımlı bir geri çağırma alır veya ayarlar.
+title: "HtmlSaveOptions.PageSavingCallback"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "HtmlSaveOptions özelliği. Her render edilen sayfa için bir çıktı akışı elde etmek üzere kullanılan kullanıcı tanımlı geri aramayı alır veya ayarlar."
 type: docs
-weight: 150
+weight: 140
 url: /tr/net/aspose.tasks.saving/htmlsaveoptions/pagesavingcallback/
 ---
 ## HtmlSaveOptions.PageSavingCallback property
 
-Oluşturulan her sayfa için bir çıktı akışı almak için kullanılan, kullanıcı tanımlı bir geri çağırma alır veya ayarlar.
+Her render edilen sayfa için bir çıktı akışı almakta kullanılan kullanıcı tanımlı geri çağırmayı alır veya ayarlar.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

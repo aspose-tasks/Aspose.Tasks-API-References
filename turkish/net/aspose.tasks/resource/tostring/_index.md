@@ -1,27 +1,39 @@
 ---
-title: Resource.ToString
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource yöntem. örneğinin kısa dize gösterimini döndürürResource class. Gösterimin kesin ayrıntıları belirtilmemiştir ve değişikliğe tabidir.
+title: "Resource.ToString"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource yöntemi. Resource sınıfının örneğinin kısa string temsilini döndürür. Temsilin kesin detayları belirtilmemiştir ve değişebilir."
 type: docs
-weight: 880
+weight: 870
 url: /tr/net/aspose.tasks/resource/tostring/
 ---
 ## Resource.ToString method
 
-örneğinin kısa dize gösterimini döndürür[`Resource`](../) class. Gösterimin kesin ayrıntıları belirtilmemiştir ve değişikliğe tabidir.
+[`Resource`](../) sınıfının örneğinin kısa string temsilini döndürür. Temsilin kesin detayları belirtilmemiştir ve değişebilir.
 
 ```csharp
 public override string ToString()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-kaynak nesnesini temsil eden kısa dize.
+kaynak nesnesini temsil eden kısa string.
 
-### Ayrıca bakınız
+## Örnekler
+
+resource ToString yönteminin nasıl kullanılacağını gösterir.
+
+```csharp
+var project = new Project();
+var resource = project.Resources.Add("Resource");
+
+// kaynak ortak bilgilerini yazdır
+Console.WriteLine(resource.ToString());
+```
+
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: FieldHelper.GetDefaultTaskFieldTitle
-second_title: Aspose.Tasks for .NET API Referansı
-description: FieldHelper yöntem. Belirli görev alanının varsayılan başlığını döndürür.
+title: "FieldHelper.GetDefaultTaskFieldTitle"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "FieldHelper yöntemi. Belirli görev alanının varsayılan başlığını döndürür."
 type: docs
-weight: 10
+weight: 20
 url: /tr/net/aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/
 ---
 ## FieldHelper.GetDefaultTaskFieldTitle method
@@ -14,19 +14,28 @@ Belirli görev alanının varsayılan başlığını döndürür.
 public static string GetDefaultTaskFieldTitle(TaskKey taskKey)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | taskKey | TaskKey | Varsayılan bir başlık almak için görev alanı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Belirli bir görev alanının varsayılan başlığı, eğer alan MS Project'in görünümünde görüntülenebiliyorsa, aksi halde null.
+Alan MS Project görünümünde görüntülenebiliyorsa, belirli görev alanının varsayılan başlığı; aksi takdirde null.
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli görevin alanı için varsayılan alan başlığının nasıl alınacağını gösterir.
+
+```csharp
+Console.WriteLine("Title for Tsk.ActualCost: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.ActualCost.KeyType));
+Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.PercentWorkComplete.KeyType));
+```
+
+### Ayrıca Bakınız
 
 * enum [TaskKey](../../../aspose.tasks/taskkey/)
 * class [FieldHelper](../)
-* ad alanı [Aspose.Tasks.Util](../../fieldhelper/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../fieldhelper/)
+* assembly [Aspose.Tasks](../../../)
 
 

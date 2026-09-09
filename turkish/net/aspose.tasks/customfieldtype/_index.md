@@ -1,38 +1,52 @@
 ---
-title: Enum CustomFieldType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.CustomFieldType Sıralama. Özel alanın türünü belirtir.
+title: "Enum CustomFieldType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.CustomFieldType enum. Özel bir alanın türünü belirtir."
 type: docs
 weight: 380
 url: /tr/net/aspose.tasks/customfieldtype/
 ---
 ## CustomFieldType enumeration
 
-Özel alanın türünü belirtir.
+Özel alanın tipini belirtir.
 
 ```csharp
 public enum CustomFieldType
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Null | `0` | Boş özel alan türünü belirtir. |
-| Cost | `1` | Maliyet özel alan türünü belirtir. |
-| Date | `2` | Tarih özel alan türünü belirtir. |
-| Duration | `3` | Süre özel alan türünü belirtir. |
-| Finish | `4` | Son özel alan türünü belirtir. |
-| Flag | `5` | İşaretli özel alan türünü belirtir. |
-| Number | `6` | Sayı özel alan türünü belirtir. |
-| Start | `7` | Başlangıç özel alan türünü belirtir. |
-| Text | `8` | Metin özel alan türünü belirtir. |
-| OutlineCode | `9` | Anahat Kodu özel alan türünü belirtir. |
-| RBS | `10` | RBS (Kaynak Döküm Yapısı) özel alan türünü belirtir. |
+| Null | `0` | Null özel alan türünü gösterir. |
+| Cost | `1` | Maliyet özel alan türünü gösterir. |
+| Date | `2` | Tarih özel alan türünü gösterir. |
+| Duration | `3` | Süre özel alan türünü gösterir. |
+| Finish | `4` | Bitiş özel alan türünü gösterir. |
+| Flag | `5` | Bayrak özel alan türünü gösterir. |
+| Number | `6` | Numara özel alan türünü gösterir. |
+| Start | `7` | Başlangıç özel alan türünü gösterir. |
+| Text | `8` | Metin özel alan türünü gösterir. |
+| OutlineCode | `9` | Anahat Kodu özel alan türünü gösterir. |
+| RBS | `10` | RBS (Kaynak Ayrıntı Yapısı) özel alan türünü gösterir. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+&lt;see cref=\"CustomFieldType\" /&gt; (CustomFieldType.Text) nasıl kullanılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
+    CustomFieldType.Text,
+    ExtendedAttributeTask.Text1,
+    "MyText");
+project.ExtendedAttributes.Add(definition);
+// tanımlarla çalış...
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

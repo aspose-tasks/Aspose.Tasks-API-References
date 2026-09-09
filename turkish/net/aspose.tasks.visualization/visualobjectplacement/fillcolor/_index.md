@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.FillColor
-second_title: Aspose.Tasks for .NET API Referansı
-description: VisualObjectPlacement mülk. Dolgu rengini alır veya ayarlar.
+title: "VisualObjectPlacement.FillColor"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VisualObjectPlacement özelliği. Doldurma rengini alır veya ayarlar"
 type: docs
 weight: 50
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/fillcolor/
@@ -14,10 +14,10 @@ Dolgu rengini alır veya ayarlar.
 public Color FillColor { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [VisualObjectPlacement](../)
-* ad alanı [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

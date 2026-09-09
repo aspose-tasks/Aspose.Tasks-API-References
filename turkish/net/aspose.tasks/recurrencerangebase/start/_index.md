@@ -1,23 +1,51 @@
 ---
-title: RecurrenceRangeBase.Start
-second_title: Aspose.Tasks for .NET API Referansı
-description: RecurrenceRangeBase mülk. Yinelenen görevin yineleme aralığının başlangıç tarihini alır veya ayarlar.
+title: "RecurrenceRangeBase.Start"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "RecurrenceRangeBase özelliği. Yinelenen görevin tekrar aralığının başlangıç tarihini alır veya ayarlar."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/recurrencerangebase/start/
 ---
 ## RecurrenceRangeBase.Start property
 
-Yinelenen görevin yineleme aralığının başlangıç tarihini alır veya ayarlar.
+Tekrarlayan görevin tekrarlama aralığının başlangıç tarihini alır veya ayarlar.
 
 ```csharp
 public DateTime Start { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Yinelenen görevler oluştururken günlük iş tekrar desenindeki tekrarlarla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "New recurrent task",
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     RecurrenceRange = new EndAfterRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 1, 1, 8, 0, 0), OccurrenceNumber = 9
+                                                                           },
+                                                     Repetition = new DailyWorkRepetition { RepetitionInterval = 1 }
+                                                 },
+                         Duration = project.GetDuration(1, TimeUnitType.Hour)
+                     };
+parameters.SetCalendar(project, "Standard");
+
+var task = project.RootTask.Children.Add(parameters);
+task.Set(Tsk.Start, new DateTime(2020, 4, 27, 8, 0, 0));
+
+// projeyle daha fazla çalış...
+// ...
+```
+
+### Ayrıca Bakınız
 
 * class [RecurrenceRangeBase](../)
-* ad alanı [Aspose.Tasks](../../recurrencerangebase/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../recurrencerangebase/)
+* assembly [Aspose.Tasks](../../../)
 
 

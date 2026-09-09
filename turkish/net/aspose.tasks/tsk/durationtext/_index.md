@@ -1,9 +1,9 @@
 ---
-title: Tsk.DurationText
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Görevin süre metnini döndürür.
+title: "Tsk.DurationText"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Görevin süre metnini döndürür"
 type: docs
-weight: 320
+weight: 310
 url: /tr/net/aspose.tasks/tsk/durationtext/
 ---
 ## Tsk.DurationText field
@@ -14,12 +14,26 @@ Görevin süre metnini döndürür.
 public static readonly Key<string, TaskKey> DurationText;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.DurationText özelliğini okuma/yazma nasıl yapılır gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DurationText, "Not A Duration");
+
+Console.WriteLine("Duration Text: " + task.Get(Tsk.DurationText));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

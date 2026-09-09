@@ -1,23 +1,23 @@
 ---
-title: Project.Category
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Category. değerini alır veya ayarlar.
+title: "Project.Category"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. Category değerini alır veya ayarlar"
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/aspose.tasks/project/category/
 ---
 ## Project.Category property
 
-Category. değerini alır veya ayarlar.
+Category değerini alır veya ayarlar.
 
 ```csharp
 public string Category { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 
