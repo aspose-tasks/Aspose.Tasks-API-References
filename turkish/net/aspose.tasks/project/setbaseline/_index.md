@@ -1,51 +1,81 @@
 ---
-title: Project.SetBaseline
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Tüm proje için temel alanları belirtilen temele kaydeder.
+title: "Project.SetBaseline"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Tüm proje için belirtilen baseline'e baseline alanlarını kaydeder"
 type: docs
-weight: 1230
+weight: 1250
 url: /tr/net/aspose.tasks/project/setbaseline/
 ---
 ## SetBaseline(BaselineType) {#setbaseline}
 
-Tüm proje için temel alanları belirtilen temele kaydeder.
+Tüm proje için belirtilen temel çizgiye temel alan alanlarını kaydeder.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| baselineType | BaselineType | Temel verilerinin kaydedileceği temel tip. |
+| baselineType | BaselineType | Baseline verilerini kaydetmek için baseline türü. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir bütün proje için baseline'lar oluşturmayı gösterir.
+
+```csharp
+var project = new Project();
+
+// Görev ekleme
+project.RootTask.Children.Add("Task");
+project.RootTask.Children.Add("Task2");
+
+// Belirtilen görevler için baseline ayarla
+project.SetBaseline(BaselineType.Baseline);
+```
+
+### Ayrıca Bakınız
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SetBaseline(BaselineType, IEnumerable&lt;Task&gt;) {#setbaseline_1}
 
-Seçilen görevler için temel alanları belirtilen temele kaydeder.
+Seçilen görevler için belirtilen temel çizgiye temel alan alanlarını kaydeder.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollection)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| baselineType | BaselineType | Temel verilerinin kaydedileceği temel tip. |
-| taskCollection | IEnumerable`1 | Temel verilerinin kaydedileceği görevlerin listesi. |
+| baselineType | BaselineType | Baseline verilerini kaydetmek için baseline türü. |
+| taskCollection | IEnumerable`1 | Baseline verilerini kaydetmek için görevlerin listesi. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli görevler için set baseline'ları oluşturmayı gösterir.
+
+```csharp
+var project = new Project();
+
+// Görev ekleme
+var task = project.RootTask.Children.Add("Task");
+var task2 = project.RootTask.Children.Add("Task2");
+
+// Belirtilen görevler için baseline ayarla
+project.SetBaseline(BaselineType.Baseline, new[] { task, task2 });
+```
+
+### Ayrıca Bakınız
 
 * enum [BaselineType](../../baselinetype/)
 * class [Task](../../task/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

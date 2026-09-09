@@ -1,23 +1,23 @@
 ---
-title: Resource.WorkVariance
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. WorkVariance. değerini alır veya ayarlar.
+title: "Resource.WorkVariance"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. WorkVariance değerini alır veya ayarlar."
 type: docs
-weight: 810
+weight: 800
 url: /tr/net/aspose.tasks/resource/workvariance/
 ---
 ## Resource.WorkVariance property
 
-WorkVariance. değerini alır veya ayarlar.
+WorkVariance değerini alır veya ayarlar.
 
 ```csharp
 public double WorkVariance { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

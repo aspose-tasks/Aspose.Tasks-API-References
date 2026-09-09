@@ -1,23 +1,23 @@
 ---
-title: ProgressLines.ProgressLines
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProgressLines inşaatçı. Default_Constructor
+title: "ProgressLines.ProgressLines"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProgressLines yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.visualization/progresslines/progresslines/
 ---
 ## ProgressLines constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public ProgressLines()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ProgressLines](../)
-* ad alanı [Aspose.Tasks.Visualization](../../progresslines/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../progresslines/)
+* assembly [Aspose.Tasks](../../../)
 
 

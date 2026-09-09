@@ -1,23 +1,23 @@
 ---
-title: WorkingTimeCollection.Clear
-second_title: Aspose.Tasks for .NET API Referansı
-description: WorkingTimeCollection yöntem. Tümünü kaldırırWorkingTime koleksiyondaki öğeler.
+title: "WorkingTimeCollection.Clear"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WorkingTimeCollection yöntemi. Koleksiyondaki tüm WorkingTime öğelerini kaldırır"
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks/workingtimecollection/clear/
 ---
 ## WorkingTimeCollection.Clear method
 
-Tümünü kaldırır[`WorkingTime`](../../workingtime/) koleksiyondaki öğeler.
+Koleksiyondan tüm [`WorkingTime`](../../workingtime/) öğelerini kaldırır.
 
 ```csharp
 public void Clear()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WorkingTimeCollection](../)
-* ad alanı [Aspose.Tasks](../../workingtimecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

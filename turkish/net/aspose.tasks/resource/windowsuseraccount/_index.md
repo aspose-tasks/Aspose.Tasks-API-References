@@ -1,23 +1,23 @@
 ---
-title: Resource.WindowsUserAccount
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. WindowsUserAccount. değerini alır veya ayarlar
+title: "Resource.WindowsUserAccount"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. WindowsUserAccount değerini alır veya ayarlar."
 type: docs
-weight: 780
+weight: 770
 url: /tr/net/aspose.tasks/resource/windowsuseraccount/
 ---
 ## Resource.WindowsUserAccount property
 
-WindowsUserAccount. değerini alır veya ayarlar
+WindowsUserAccount değerini alır veya ayarlar.
 
 ```csharp
 public string WindowsUserAccount { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,28 +1,63 @@
 ---
-title: Resource.OutlineCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir OutlineCodeCollection nesnesi alır. Bir anahat kodunun değeri.
+title: "Resource.OutlineCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Bir OutlineCodeCollection nesnesi alır. Bir outline kodunun değeri"
 type: docs
-weight: 550
+weight: 540
 url: /tr/net/aspose.tasks/resource/outlinecode/
 ---
 ## Resource.OutlineCode property
 
-Bir OutlineCodeCollection nesnesi alır. Bir anahat kodunun değeri.
+OutlineCodeCollection nesnesini alır. Bir taslak kodunun değerini.
 
 ```csharp
 public OutlineCodeCollection OutlineCode { get; }
 ```
 
-### Notlar
+## Açıklamalar
 
-İki parça veri gereklidir - FieldID tarafından belirtilen anahat kod tablosuna yönelik bir işaretçi ve değer listesi için ValueID veya ValueGUID tarafından tarafından belirtilen değer.
+İki veri parçası gereklidir - FieldID tarafından belirtilen outline kod tablosuna bir işaretçi ve değerin ValueID veya ValueGUID işaretçisiyle belirtilen değer listesi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaynak outline değerleriyle nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "OutlineCodes2003.mpp");
+
+var res = project.Resources.GetById(2);
+Assert.AreEqual(2, res.OutlineCode.Count);
+foreach (var code in res.OutlineCode)
+{
+    object val = null;
+    foreach (var def in project.OutlineCodes)
+    {
+        if (def.FieldId != code.FieldId)
+        {
+            continue;
+        }
+
+        foreach (var value in def.Values)
+        {
+            if (value.ValueId != code.ValueId)
+            {
+                continue;
+            }
+
+            val = value.Value;
+            break;
+        }
+    }
+
+    Console.WriteLine(val.ToString());
+}
+```
+
+### Ayrıca Bakınız
 
 * class [OutlineCodeCollection](../../outlinecodecollection/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

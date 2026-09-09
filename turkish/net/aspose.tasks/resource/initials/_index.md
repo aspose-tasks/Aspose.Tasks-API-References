@@ -1,23 +1,23 @@
 ---
-title: Resource.Initials
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir Başlangıç değeri alır veya ayarlar.
+title: "Resource.Initials"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Initials değerini alır veya ayarlar"
 type: docs
 weight: 410
 url: /tr/net/aspose.tasks/resource/initials/
 ---
 ## Resource.Initials property
 
-Bir Başlangıç değeri alır veya ayarlar.
+Initials değerini alır veya ayarlar.
 
 ```csharp
 public string Initials { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

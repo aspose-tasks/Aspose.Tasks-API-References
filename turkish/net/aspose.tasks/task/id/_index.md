@@ -1,23 +1,23 @@
 ---
-title: Task.Id
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir Id. değeri alır veya ayarlar
+title: "Task.Id"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Id değerini alır veya ayarlar"
 type: docs
 weight: 560
 url: /tr/net/aspose.tasks/task/id/
 ---
 ## Task.Id property
 
-Bir Id. değeri alır veya ayarlar
+Id değerini alır veya ayarlar.
 
 ```csharp
 public int Id { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

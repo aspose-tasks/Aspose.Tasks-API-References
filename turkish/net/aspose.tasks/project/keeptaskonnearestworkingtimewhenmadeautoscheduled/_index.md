@@ -1,24 +1,24 @@
 ---
-title: Project.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduledin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
-weight: 490
+weight: 510
 url: /tr/net/aspose.tasks/project/keeptaskonnearestworkingtimewhenmadeautoscheduled/
 ---
 ## Project.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled property
 
-KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled'ın ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

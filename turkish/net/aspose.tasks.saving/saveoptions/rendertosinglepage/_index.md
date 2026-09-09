@@ -1,23 +1,98 @@
 ---
-title: SaveOptions.RenderToSinglePage
-second_title: Aspose.Tasks for .NET API Referansı
-description: SaveOptions mülk. Proje grafik biçiminde kaydedildiğinde bir projenin tek bir sayfaya dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar . İşlenen projenin bir sayfaya sığabilmesi için sayfa boyutu değiştirilecektir.
+title: "SaveOptions.RenderToSinglePage"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "SaveOptions özelliği. Proje grafik formatında kaydedildiğinde tek bir sayfaya render edilip edilmemesini belirten bir değeri alır veya ayarlar. Sayfa boyutu, render edilen projenin tek bir sayfaya sığacak şekilde değiştirilecektir."
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/aspose.tasks.saving/saveoptions/rendertosinglepage/
 ---
 ## SaveOptions.RenderToSinglePage property
 
-Proje grafik biçiminde kaydedildiğinde, bir projenin tek bir sayfaya dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar . İşlenen projenin bir sayfaya sığabilmesi için sayfa boyutu değiştirilecektir.
+Proje grafik formatında kaydedildiğinde tek bir sayfaya render edilip edilmeyeceğini gösteren bir değeri alır veya ayarlar. Sayfa boyutu, render edilen projenin tek bir sayfaya sığacak şekilde değiştirilecektir.
 
 ```csharp
 public bool RenderToSinglePage { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir projenin seçilen sayfalarını PDF dosyasına nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Software Development Plan.mpp");
+var options = new PdfSaveOptions();
+options.RenderToSinglePage = false;
+options.Pages = new List<int>();
+
+// dışa aktarılabilecek sayfa sayısını kontrol edelim
+Console.WriteLine("Page Count: " + options.PageCount);
+
+options.Pages.Add(1);
+options.Pages.Add(4);
+project.Save(OutDir + "SaveToMultiplePDFFiles_out.pdf", options);
+```
+
+Projenin 1 sayfalık PDF olarak kaydedilmesini belirtmek için RenderToSinglePage özelliğinin nasıl kullanılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions();
+options.PresentationFormat = PresentationFormat.TaskUsage;
+options.Timescale = Timescale.DefinedInView;
+options.RenderToSinglePage = true;
+options.StartDate = new DateTime(2012, 12, 22);
+options.EndDate = new DateTime(2013, 05, 10);
+
+project.Save(OutDir + "WorkWithRenderToSinglePage_out.pdf", options);
+```
+
+Seçilen sayfaları görüntü olarak kaydetmenin nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
+                  {
+                      RenderToSinglePage = false,
+                      StartDate = project.Get(Prj.StartDate),
+                      EndDate = project.Get(Prj.FinishDate),
+                      PageSize = PageSize.Letter
+                  };
+options.Pages.Add(2);
+
+project.Save(OutDir + "SaveSelectedPagesImageSaveOptions_page2_out.jpeg", options);
+```
+
+Düzeni ayrı dosyalara kaydetmenin nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Homemoveplan.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Png);
+options.StartDate = project.Get(Prj.StartDate).AddDays(-3);
+options.EndDate = project.Get(Prj.FinishDate);
+options.MarkCriticalTasks = true;
+options.LegendDrawingOptions = LegendDrawingOptions.NoLegend;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
+options.FontSettings.UseProjectDefaultFont = false;
+options.PageSize = PageSize.Letter;
+
+options.Gridlines = new List<Gridline>();
+
+var gridline = new Gridline { GridlineType = GridlineType.GanttRow, Color = Color.CornflowerBlue, Pattern = LinePattern.Dashed };
+options.Gridlines.Add(gridline);
+
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles1_out.png", options);
+
+// Proje düzenini ayrı dosyalara kaydet
+options.RenderToSinglePage = false;
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles2_out.png", options);
+```
+
+### Ayrıca Bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../saveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: CalendarException.ParentCalendar
-second_title: Aspose.Tasks for .NET API Referansı
-description: CalendarException mülk. Bu nesne için ana takvimi alır.
+title: "CalendarException.ParentCalendar"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "CalendarException özelliği. Bu nesnenin üst takvimini alır."
 type: docs
 weight: 120
 url: /tr/net/aspose.tasks/calendarexception/parentcalendar/
 ---
 ## CalendarException.ParentCalendar property
 
-Bu nesne için ana takvimi alır.
+Bu nesne için üst takvimi alır.
 
 ```csharp
 public Calendar ParentCalendar { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Calendar](../../calendar/)
 * class [CalendarException](../)
-* ad alanı [Aspose.Tasks](../../calendarexception/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.UnitsPercentComplete
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Tamamlanan yüzde birimlerinin değerini alır.
+title: "PrimaveraTaskProperties.UnitsPercentComplete"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Birimlerin yüzde tamamlanma değerini alır"
 type: docs
-weight: 170
+weight: 360
 url: /tr/net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 ---
 ## PrimaveraTaskProperties.UnitsPercentComplete property
 
-Tamamlanan yüzde birimlerinin değerini alır.
+Birimlerin yüzde tamamlanma değerini alır.
 
 ```csharp
 public double UnitsPercentComplete { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

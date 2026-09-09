@@ -1,23 +1,23 @@
 ---
-title: Resource.Hyperlink
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir Köprü değeri alır veya ayarlar.
+title: "Resource.Hyperlink"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Bir kaynakla ilişkili bir köprü için başlığı veya açıklama metnini alır veya ayarlar"
 type: docs
 weight: 360
 url: /tr/net/aspose.tasks/resource/hyperlink/
 ---
 ## Resource.Hyperlink property
 
-Bir Köprü değeri alır veya ayarlar.
+Kaynakla ilişkili bir köprünün başlığını veya açıklama metnini alır veya ayarlar.
 
 ```csharp
 public string Hyperlink { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

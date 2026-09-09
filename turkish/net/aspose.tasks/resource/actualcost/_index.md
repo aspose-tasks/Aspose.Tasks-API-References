@@ -1,23 +1,23 @@
 ---
-title: Resource.ActualCost
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir Gerçek Maliyet değeri alır veya ayarlar.
+title: "Resource.ActualCost"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. ActualCost değerini alır veya ayarlar"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/resource/actualcost/
 ---
 ## Resource.ActualCost property
 
-Bir Gerçek Maliyet değeri alır veya ayarlar.
+ActualCost değerini alır veya ayarlar.
 
 ```csharp
 public decimal ActualCost { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

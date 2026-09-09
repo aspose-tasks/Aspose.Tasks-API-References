@@ -1,9 +1,9 @@
 ---
-title: Prj.Uid
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Bir projenin benzersiz kimliği.
+title: "Prj.Uid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Bir projenin benzersiz kimliği"
 type: docs
-weight: 750
+weight: 760
 url: /tr/net/aspose.tasks/prj/uid/
 ---
 ## Prj.Uid field
@@ -14,12 +14,24 @@ Bir projenin benzersiz kimliği.
 public static readonly Key<string, PrjKey> Uid;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.Uid özelliğini okuma/yazma nasıl yapılır gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Uid, "1234");
+
+Console.WriteLine("Uid: " + project.Get(Prj.Uid));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

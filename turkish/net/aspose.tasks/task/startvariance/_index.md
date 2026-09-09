@@ -1,24 +1,24 @@
 ---
-title: Task.StartVariance
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir StartVariance. değeri alır veya ayarlar.
+title: "Task.StartVariance"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. StartVariance değerini alır veya ayarlar"
 type: docs
-weight: 1160
+weight: 1150
 url: /tr/net/aspose.tasks/task/startvariance/
 ---
 ## Task.StartVariance property
 
-Bir StartVariance. değeri alır veya ayarlar.
+StartVariance değerini alır veya ayarlar.
 
 ```csharp
 public Duration StartVariance { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

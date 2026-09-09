@@ -1,46 +1,55 @@
 ---
-title: Enum SaveFileFormat
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Saving.SaveFileFormat Sıralama. Proje biçimi seçimini kaydetmek için numaralandırma.
+title: "Enum SaveFileFormat"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Saving.SaveFileFormat enum. Proje formatı seçimi için kaydetme enumerasyonu"
 type: docs
-weight: 1910
+weight: 2180
 url: /tr/net/aspose.tasks.saving/savefileformat/
 ---
 ## SaveFileFormat enumeration
 
-Proje biçimi seçimini kaydetmek için numaralandırma.
+Proje formatı seçiminin kaydedilmesi için enum.
 
 ```csharp
 public enum SaveFileFormat
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Mpp | `0` | MPP biçimi. |
-| Xml | `1` | XML biçimi. |
-| Html | `2` | HTML biçimi. |
-| Bmp | `3` | BMP biçimi. |
+| Mpp | `0` | MPP formatı. |
+| Xml | `1` | XML formatı. |
+| Html | `2` | HTML formatı. |
+| Bmp | `3` | BMP formatı. |
 | Png | `4` | PNG formatı. |
-| Jpeg | `5` | JPEG biçimi. |
-| Pdf | `6` | PDF biçimi. |
-| Tiff | `7` | TIFF biçimi. |
-| Xps | `8` | XPS biçimi. |
-| Xaml | `9` | XAML biçimi. |
-| Svg | `10` | SVG biçimi. |
-| Csv | `11` | CSV biçimi. |
-| Txt | `12` | Metin biçimi (sekmeyle ayrılmış). |
-| Spreadsheet2003 | `13` | Elektronik Tablo XML'si (Excel 2003). |
-| Xlsx | `14` | OOXML (Office Açık XML, Excel 2007+). |
-| PrimaveraP6Xml | `15` | Primavera P6 Xml biçimi. |
-| PrimaveraXer | `16` | Primavera PM XER biçimi. |
-| Mpx | `17` | MPX biçimi. |
-| GdHtml | `18` | Proje verilerini bir dizi html tablosuna kaydetmek için Html formatı. |
+| Jpeg | `5` | JPEG formatı. |
+| Pdf | `6` | PDF formatı. |
+| Tiff | `7` | TIFF formatı. |
+| Xps | `8` | XPS formatı. |
+| Xaml | `9` | XAML formatı. |
+| Svg | `10` | SVG formatı. |
+| Csv | `11` | CSV formatı. |
+| Txt | `12` | Metin formatı (sekme ile ayrılmış). |
+| Spreadsheet2003 | `13` | Elektronik tablo XML (Excel 2003). |
+| Xlsx | `14` | OOXML (Office Open XML, Excel 2007+). |
+| PrimaveraP6Xml | `15` | Primavera P6 Xml formatı. |
+| PrimaveraXer | `16` | Primavera PM XER formatı. |
+| Mpx | `17` | MPX formatı. |
+| GdHtml | `18` | Proje verilerini bir dizi HTML tablosunda kaydetmek için HTML formatı. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* toplantı [Aspose.Tasks](../../)
+Bir projeyi CSV formatında nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+project.Save(OutDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

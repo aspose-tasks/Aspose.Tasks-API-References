@@ -1,25 +1,37 @@
 ---
-title: Prj.ShowProjectSummaryTask
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Gantt Grafiği görünümünün en üstünde kendi özet görev çubuğuyla tüm bir proje hakkında özet bilgilerin tek bir satırda görüntülenip görüntülenmeyeceğini belirler.
+title: "Prj.ShowProjectSummaryTask"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Tüm proje hakkında özet bilgilerin Gantt Şeması görünümünün üst kısmında kendi özet görev çubuğuyla tek bir satırda gösterilip gösterilmeyeceğini belirler"
 type: docs
-weight: 630
+weight: 640
 url: /tr/net/aspose.tasks/prj/showprojectsummarytask/
 ---
 ## Prj.ShowProjectSummaryTask field
 
-Gantt Grafiği görünümünün en üstünde kendi özet görev çubuğuyla tüm bir proje hakkında özet bilgilerin tek bir satırda görüntülenip görüntülenmeyeceğini belirler.
+Tüm proje hakkında özet bilgileri, Gantt Şeması görünümünün üst kısmında kendi özet görev çubuğuyla tek bir satırda gösterilip gösterilmeyeceğini belirler.
 
 ```csharp
 public static readonly Key<bool, PrjKey> ShowProjectSummaryTask;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.ShowProjectSummaryTask özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ShowProjectSummaryTask, true);
+
+Console.WriteLine("Show Project Summary Task: " + project.Get(Prj.ShowProjectSummaryTask));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

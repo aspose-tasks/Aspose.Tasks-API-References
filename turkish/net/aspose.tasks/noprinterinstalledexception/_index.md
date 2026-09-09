@@ -1,22 +1,45 @@
 ---
-title: Class NoPrinterInstalledException
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.NoPrinterInstalledException sınıf. OS. de yüklü yazıcı olmadığında atılan bir istisnayı temsil eder.
+title: "Sınıf NoPrinterInstalledException"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.NoPrinterInstalledException sınıfı. İşletim sisteminde yüklü bir yazıcı olmadığında fırlatılan bir istisnayı temsil eder"
 type: docs
-weight: 970
+weight: 1100
 url: /tr/net/aspose.tasks/noprinterinstalledexception/
 ---
 ## NoPrinterInstalledException class
 
-OS. 'de yüklü yazıcı olmadığında atılan bir istisnayı temsil eder.
+İşletim sisteminde yüklü bir yazıcı olmadığında atılan bir istisnayı temsil eder.
 
 ```csharp
 public class NoPrinterInstalledException : Exception
 ```
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Yazdırma seçeneklerini nasıl kullanacağınızı gösterir.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Project2.mpp");
+    var options = new PrintOptions
+    {
+        Timescale = Timescale.ThirdsOfMonths
+    };
+    if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
+    {
+        project.Print(options);
+    }
+}
+catch (NoPrinterInstalledException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

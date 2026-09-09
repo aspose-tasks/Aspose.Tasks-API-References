@@ -1,32 +1,32 @@
 ---
-title: Project.EnumerateAllChildTasks
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Kök görev de dahil olmak üzere projenin tüm görevlerini tekrar tekrar sıralar.
+title: "Project.EnumerateAllChildTasks"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project method. Kök görev dahil olmak üzere tüm proje görevlerini özyinelemeli olarak listeler"
 type: docs
-weight: 1040
+weight: 1070
 url: /tr/net/aspose.tasks/project/enumerateallchildtasks/
 ---
 ## Project.EnumerateAllChildTasks method
 
-Kök görev de dahil olmak üzere projenin tüm görevlerini tekrar tekrar sıralar.
+Kök görevi dahil olmak üzere projenin tüm görevlerini yinelemeli olarak listeler.
 
 ```csharp
 public IEnumerable<Task> EnumerateAllChildTasks()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Tüm proje görevlerini yinelemek için kullanılabilen IEnumerable.
+Tüm proje görevleri üzerinde yineleme yapmak için kullanılabilecek IEnumerable.
 
-### Notlar
+## Açıklamalar
 
-göre görevleri yinelemek için daha hafif bir yol sağlar.[`SelectAllChildTasks`](../selectallchildtasks/) yöntemi, tüm görevler için bellek ayırmaz.
+Tüm görevler için bellek tahsis etmediği için [`SelectAllChildTasks`](../selectallchildtasks/) yöntemine kıyasla görevler üzerinde yinelemeyi daha hafif bir şekilde sağlar.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../../task/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

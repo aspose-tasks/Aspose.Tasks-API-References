@@ -1,23 +1,54 @@
 ---
-title: PageSettings.FirstPageNumber
-second_title: Aspose.Tasks for .NET API Referansı
-description: PageSettings mülk. Yazdırma için bir ilk sayfa numarası alır veya ayarlar.
+title: "PageSettings.FirstPageNumber"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PageSettings özelliği. Yazdırma için birinci sayfa numarasını alır veya ayarlar."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.visualization/pagesettings/firstpagenumber/
 ---
 ## PageSettings.FirstPageNumber property
 
-Yazdırma için bir ilk sayfa numarası alır veya ayarlar.
+Yazdırma için ilk sayfa numarasını alır veya ayarlar.
 
 ```csharp
 public short FirstPageNumber { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+&lt;see cref="Aspose.Tasks.Visualization.PageSettings" /&gt; ile nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// ayarları al
+var settings = project.DefaultView.PageInfo.PageSettings;
+// bazı özellikleri ayarlayalım
+// Sayfa yönünün portre olup olmadığını gösteren bir değeri ayarlar; sayfa yönü yataysa false döndürür.
+settings.IsPortrait = true;
+// Yazdırılacak genişlik sayfa sayısını ayarlar.
+settings.PagesInWidth = 5;
+// Yazdırılacak yükseklik sayfa sayısını ayarlar.
+settings.PagesInHeight = 7;
+// Yazdırmayı ayarlamak için normal boyutun yüzdesini ayarlar.
+settings.PercentOfNormalSize = 200;
+// kağıt boyutunu ayarlar. <see cref="T:Aspose.Tasks.Visualization.PrinterPaperSize" /> enum değerlerinden biri olabilir.
+settings.PaperSize = PrinterPaperSize.PaperB4;
+// Yazdırma için ilk sayfa numarasını ayarlar.
+settings.FirstPageNumber = 3;
+
+SimpleSaveOptions options = new MPPSaveOptions
+{
+    WriteViewData = true
+};
+
+project.Save(OutDir + "TestCanWritePageSettings.mpp", options);
+```
+
+### Ayrıca Bakınız
 
 * class [PageSettings](../)
-* ad alanı [Aspose.Tasks.Visualization](../../pagesettings/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagesettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

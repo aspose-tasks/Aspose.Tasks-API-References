@@ -1,24 +1,24 @@
 ---
-title: Resource.Work
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Çalışma değerini alır veya ayarlar.
+title: "Kaynak.Work"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Kaynak özelliği. Work için bir değeri alır veya ayarlar."
 type: docs
-weight: 790
+weight: 780
 url: /tr/net/aspose.tasks/resource/work/
 ---
 ## Resource.Work property
 
-Çalışma değerini alır veya ayarlar.
+Work değerini alır veya ayarlar.
 
 ```csharp
 public Duration Work { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

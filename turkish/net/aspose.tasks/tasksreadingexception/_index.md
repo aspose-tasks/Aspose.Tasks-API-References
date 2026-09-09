@@ -1,30 +1,54 @@
 ---
-title: Class TasksReadingException
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.TasksReadingException sınıf. Standart dahili okuma özel durum türünü temsil eder.
+title: "Sınıf TasksReadingException"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.TasksReadingException sınıfı. Standart iç okuma istisna tipini temsil eder"
 type: docs
-weight: 2230
+weight: 2540
 url: /tr/net/aspose.tasks/tasksreadingexception/
 ---
 ## TasksReadingException class
 
-Standart dahili okuma özel durum türünü temsil eder.
+Standart iç okuma istisna tipini temsil eder.
 
 ```csharp
 public class TasksReadingException : TasksLoggedException
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [LogText](../../aspose.tasks/tasksloggedexception/logtext/) { get; } | İstisna günlük bilgilerini alır. |
+| [LogText](../../aspose.tasks/tasksloggedexception/logtext/) { get; } | İstisna günlükleme bilgilerini alır. |
 | [Operation](../../aspose.tasks/tasksloggedexception/operation/) { get; } | İstisna işlem bilgilerini alır. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Projenin okuma/yazma istisnalarını nasıl ele alacağınızı gösterir.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "project.mpp");
+    project.Save(OutDir + "HandleExceptions_out.mpp", SaveFileFormat.Mpp);
+}
+catch (TasksReadingException ex)
+{
+    Console.WriteLine("Message: ");
+    Console.WriteLine(ex.Message);
+    Console.WriteLine("Log: ");
+    Console.WriteLine(ex.LogText);
+    if (ex.InnerException != null)
+    {
+        Console.WriteLine("Inner exception message: ");
+        Console.WriteLine(ex.InnerException.Message);
+    }
+}
+```
+
+### Ayrıca Bakınız
 
 * class [TasksLoggedException](../tasksloggedexception/)
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

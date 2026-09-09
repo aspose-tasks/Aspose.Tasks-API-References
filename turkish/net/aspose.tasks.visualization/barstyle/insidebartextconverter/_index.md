@@ -1,24 +1,24 @@
 ---
-title: BarStyle.InsideBarTextConverter
-second_title: Aspose.Tasks for .NET API Referansı
-description: BarStyle mülk. Görev çubuğunun içinde işlenecek metni almak için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. değerini geçersiz kılarInsideField özellik.
+title: "BarStyle.InsideBarTextConverter"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "BarStyle özelliği. Görev çubuğunun içinde render edilecek metni almak için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. InsideField özelliğinin değerini geçersiz kılar"
 type: docs
-weight: 80
+weight: 100
 url: /tr/net/aspose.tasks.visualization/barstyle/insidebartextconverter/
 ---
 ## BarStyle.InsideBarTextConverter property
 
-Görev çubuğunun içinde işlenecek metni almak için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. değerini geçersiz kılar[`InsideField`](../insidefield/) özellik.
+Görev çubuğunun içinde render edilecek metni elde etmek için kullanıcı tanımlı dönüştürücüyü alır veya ayarlar. [`InsideField`](../insidefield/) özelliğinin değerini geçersiz kılar.
 
 ```csharp
 public TaskBarTextConverter InsideBarTextConverter { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../barstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

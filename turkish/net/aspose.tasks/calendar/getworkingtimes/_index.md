@@ -1,32 +1,52 @@
 ---
-title: Calendar.GetWorkingTimes
-second_title: Aspose.Tasks for .NET API Referansı
-description: Calendar yöntem. İadeWorkingTimeCollection belirtilen tarih için çalışma saatleri.
+title: "Calendar.GetWorkingTimes"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Calendar yöntemi. Belirtilen tarih için çalışma zamanlarının WorkingTimeCollection'ını döndürür"
 type: docs
-weight: 210
+weight: 240
 url: /tr/net/aspose.tasks/calendar/getworkingtimes/
 ---
 ## Calendar.GetWorkingTimes method
 
-İade[`WorkingTimeCollection`](../../workingtimecollection/) belirtilen tarih için çalışma saatleri.
+Belirtilen tarih için çalışma zamanlarının [`WorkingTimeCollection`](../../workingtimecollection/) koleksiyonunu döndürür.
 
 ```csharp
 public WorkingTimeCollection GetWorkingTimes(DateTime dt)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| dt | DateTime | Çalışma sürelerinin alınacağı tarih. |
+| dt | DateTime | Çalışma saatlerini almak için tarih. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Listesi[`WorkingTime`](../../workingtime/).
+[`WorkingTime`](../../workingtime/) örneklerinin koleksiyonu.
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli bir tarih için çalışma zamanlarını nasıl alacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// belirli tarih için çalışma zamanlarını al
+var workingTimes = calendar.GetWorkingTimes(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// 16 saat yazdırılacak
+foreach (var workingTime in workingTimes)
+{
+    Console.WriteLine("From: " + workingTime.From);
+    Console.WriteLine("To: " + workingTime.To);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [WorkingTimeCollection](../../workingtimecollection/)
 * class [Calendar](../)
-* ad alanı [Aspose.Tasks](../../calendar/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

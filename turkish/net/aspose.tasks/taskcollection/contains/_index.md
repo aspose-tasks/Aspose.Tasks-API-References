@@ -1,7 +1,7 @@
 ---
-title: TaskCollection.Contains
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskCollection yöntem. Koleksiyonun belirtilen öğeyi içerip içermediğini kontrol eder.
+title: "TaskCollection.Contains"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskCollection yöntemi. Koleksiyonun belirtilen öğeyi içerip içermediğini kontrol eder."
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks/taskcollection/contains/
@@ -14,19 +14,19 @@ Koleksiyonun belirtilen öğeyi içerip içermediğini kontrol eder.
 public bool Contains(Task item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | Task | Kontrol edilecek öğe. |
+| öğe | Görev | Kontrol edilecek öğe. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-true, koleksiyon bir öğe içeriyorsa, aksi takdirde false.
+true, koleksiyon bir öğe içeriyorsa; false, aksi takdirde.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* ad alanı [Aspose.Tasks](../../taskcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

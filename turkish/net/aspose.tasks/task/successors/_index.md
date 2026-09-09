@@ -1,28 +1,45 @@
 ---
-title: Task.Successors
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir alırTaskCollection bu Görev nesnesinin tüm ardıllarını içeren nesne.
+title: "Task.Successors"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Bu Task nesnesinin tüm ardılılarını içeren bir TaskCollection nesnesi alır"
 type: docs
 weight: 1200
 url: /tr/net/aspose.tasks/task/successors/
 ---
 ## Task.Successors property
 
-Bir alır[`TaskCollection`](../../taskcollection/) bu Görev nesnesinin tüm ardıllarını içeren nesne.
+Bu Task nesnesinin tüm ardılılarını içeren bir [`TaskCollection`](../../taskcollection/) nesnesi alır.
 
 ```csharp
 public TaskCollection Successors { get; }
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Salt okunur örneği[`TaskCollection`](../../taskcollection/) sınıf.
+Salt okunur bir [`TaskCollection`](../../taskcollection/) sınıf örneği.
 
-### Ayrıca bakınız
+## Örnekler
+
+Görev ardıllarını nasıl okuyacağınızı gösterir.
+
+```csharp
+var project = new Project();
+var pred = project.RootTask.Children.Add("Predecessor");
+var succ = project.RootTask.Children.Add("Successor");
+
+project.TaskLinks.Add(pred, succ);
+
+foreach (var successor in pred.Successors)
+{
+    Console.WriteLine("{0} {1}", successor.Get(Tsk.Id), successor.Get(Tsk.Name));
+}
+```
+
+### Ayrıca Bakınız
 
 * class [TaskCollection](../../taskcollection/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

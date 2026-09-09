@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawDurationType
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Etkinliğin Süre Türü alanının ham metin gösterimini kaynak dosyadaki gibi alır.
+title: "PrimaveraTaskProperties.RawDurationType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Aktivitenin Süre Tipi alanının kaynak dosyadaki ham metin temsilini alır"
 type: docs
-weight: 80
+weight: 240
 url: /tr/net/aspose.tasks/primaverataskproperties/rawdurationtype/
 ---
 ## PrimaveraTaskProperties.RawDurationType property
 
-Etkinliğin 'Süre Türü' alanının ham metin gösterimini (kaynak dosyadaki gibi) alır.
+Etkinliğin 'Duration Type' alanının ham metin temsilini (kaynak dosyada olduğu gibi) alır.
 
 ```csharp
 public string RawDurationType { get; }
 ```
 
-### Notlar
+## Açıklamalar
 
-Yalnızca faaliyetler için geçerlidir (özet olmayan görevler).
+Yalnızca aktiviteler (özet olmayan görevler) için geçerlidir.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

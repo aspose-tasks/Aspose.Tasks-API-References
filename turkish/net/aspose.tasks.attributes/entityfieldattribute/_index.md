@@ -1,7 +1,7 @@
 ---
-title: Class EntityFieldAttribute
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Attributes.EntityFieldAttribute sınıf. Varlık özellikleri için bir özniteliği temsil eder.
+title: "Sınıf EntityFieldAttribute"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Attributes.EntityFieldAttribute sınıfı. Varlık özellikleri için bir özniteliği temsil eder"
 type: docs
 weight: 70
 url: /tr/net/aspose.tasks.attributes/entityfieldattribute/
@@ -15,19 +15,19 @@ Varlık özellikleri için bir özniteliği temsil eder.
 public class EntityFieldAttribute : Attribute
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [EntityFieldAttribute](entityfieldattribute/)() | Default_Constructor |
+| [EntityFieldAttribute](entityfieldattribute/)() | Varsayılan yapıcı. |
 
-### Notlar
+## Açıklamalar
 
-için kullanılan öznitelik[`Task`](../../aspose.tasks/task/) ,[`Resource`](../../aspose.tasks/resource/) ,[`Project`](../../aspose.tasks/project/) ve[`ResourceAssignment`](../../aspose.tasks/resourceassignment/) yalnızca varlık özellikleri ve numaralandırmasını basitleştirir.
+[`Task`](../../aspose.tasks/task/), [`Resource`](../../aspose.tasks/resource/), [`Project`](../../aspose.tasks/project/) ve [`ResourceAssignment`](../../aspose.tasks/resourceassignment/) varlık özellikleri için yalnızca kullanılan bir öznitelik ve bunların sayımını basitleştirir.
 
-### Örnekler
+## Örnekler
 
-Kullanarak özellikler nasıl numaralandırılır? **varlık alanı** öznitelik:
+**EntityField** özniteliği kullanarak özellikleri nasıl sayımlarsınız:
 
 ```csharp
 [C#]
@@ -42,9 +42,9 @@ foreach (var task in project.SelectAllChildTasks())
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
+* assembly [Aspose.Tasks](../../)
 
 

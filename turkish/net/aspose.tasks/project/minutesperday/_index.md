@@ -1,23 +1,23 @@
 ---
-title: Project.MinutesPerDay
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. MinutesPerDay. değerini alır veya ayarlar
+title: "Project.MinutesPerDay"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. MinutesPerDay değerini alır veya ayarlar"
 type: docs
-weight: 560
+weight: 580
 url: /tr/net/aspose.tasks/project/minutesperday/
 ---
 ## Project.MinutesPerDay property
 
-MinutesPerDay. değerini alır veya ayarlar
+MinutesPerDay değerini alır veya ayarlar.
 
 ```csharp
 public int MinutesPerDay { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

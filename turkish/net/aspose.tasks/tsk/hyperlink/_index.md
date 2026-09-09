@@ -1,25 +1,43 @@
 ---
-title: Tsk.Hyperlink
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görevle ilişkili köprü için başlık veya açıklayıcı metin.
+title: "Tsk.Hyperlink"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Bir görevle ilişkili bir köprü için başlık veya açıklayıcı metin."
 type: docs
-weight: 500
+weight: 490
 url: /tr/net/aspose.tasks/tsk/hyperlink/
 ---
 ## Tsk.Hyperlink field
 
-Bir görevle ilişkili köprü için başlık veya açıklayıcı metin.
+Görevle ilişkili bir köprü için başlık veya açıklayıcı metin.
 
 ```csharp
 public static readonly Key<string, TaskKey> Hyperlink;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.Hyperlink özelliklerini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Hyperlink, "Click here to visit our site");
+task.Set(Tsk.HyperlinkAddress, "https://products.aspose.com");
+task.Set(Tsk.HyperlinkSubAddress, "/total/net");
+
+Console.WriteLine("Hyperlink: " + task.Get(Tsk.Hyperlink));
+Console.WriteLine("Hyperlink Address: " + task.Get(Tsk.HyperlinkAddress));
+Console.WriteLine("Hyperlink Sub Address: " + task.Get(Tsk.HyperlinkSubAddress));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

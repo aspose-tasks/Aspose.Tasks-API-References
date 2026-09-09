@@ -1,32 +1,32 @@
 ---
-title: WorkingTimeCollection.Item
-second_title: Aspose.Tasks for .NET API Referansı
-description: WorkingTimeCollection mülk. Belirtilen dizindeki öğeyi döndürür.
+title: "WorkingTimeCollection.Item"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WorkingTimeCollection özelliği. Belirtilen indeksteki öğeyi döndürür."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/workingtimecollection/item/
 ---
 ## WorkingTimeCollection indexer
 
-Belirtilen dizindeki öğeyi döndürür.
+Belirtilen indeksteki öğeyi döndürür.
 
 ```csharp
 public WorkingTime this[int index] { get; set; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| index | Alınacak öğenin sıfır tabanlı dizini. |
+| indeks | Alınacak öğenin sıfır tabanlı indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen dizindeki öğe.
+belirtilen indeksteki öğe.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* ad alanı [Aspose.Tasks](../../workingtimecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

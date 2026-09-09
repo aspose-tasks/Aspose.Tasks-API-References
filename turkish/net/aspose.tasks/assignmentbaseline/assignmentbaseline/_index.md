@@ -1,23 +1,23 @@
 ---
-title: AssignmentBaseline.AssignmentBaseline
-second_title: Aspose.Tasks for .NET API Referansı
-description: AssignmentBaseline inşaatçı. Default_Constructor
+title: "AssignmentBaseline.AssignmentBaseline"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "AssignmentBaseline yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/assignmentbaseline/assignmentbaseline/
 ---
 ## AssignmentBaseline constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public AssignmentBaseline()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [AssignmentBaseline](../)
-* ad alanı [Aspose.Tasks](../../assignmentbaseline/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

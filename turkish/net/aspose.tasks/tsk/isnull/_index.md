@@ -1,26 +1,40 @@
 ---
-title: Tsk.IsNull
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görevin boş bir görev olup olmadığını belirler.
+title: "Tsk.IsNull"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk field. Bir görevin null görev olup olmadığını belirler"
 type: docs
-weight: 650
+weight: 640
 url: /tr/net/aspose.tasks/tsk/isnull/
 ---
 ## Tsk.IsNull field
 
-Bir görevin boş bir görev olup olmadığını belirler.
+Bir görevin boş (null) görev olup olmadığını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsNull;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.IsNull özelliğini okuma/yazma nasıl gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsNull, true);
+
+Console.WriteLine("Is Null: " + task.Get(Tsk.IsNull));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

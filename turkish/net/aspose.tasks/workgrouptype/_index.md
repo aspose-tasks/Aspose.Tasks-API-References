@@ -1,31 +1,45 @@
 ---
-title: Enum WorkGroupType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.WorkGroupType Sıralama. Bir çalışma grubunun türünü belirtir.
+title: "Enum WorkGroupType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.WorkGroupType enum. Bir iş grubunun tipini belirtir"
 type: docs
-weight: 3260
+weight: 3620
 url: /tr/net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration
 
-Bir çalışma grubunun türünü belirtir.
+Bir iş grubunun türünü belirtir.
 
 ```csharp
 public enum WorkGroupType
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Default | `0` | Varsayılan çalışma grubu türünü belirtir. |
-| None | `1` | Hiçbiri çalışma grubu türünü belirtir. |
-| Email | `2` | E-posta çalışma grubu türünü belirtir. |
-| Web | `3` | Web çalışma grubu türünü belirtir. |
+| Default | `0` | Varsayılan iş grubu tipini gösterir. |
+| None | `1` | Hiçbiri iş grubu tipini gösterir. |
+| Email | `2` | E-posta iş grubu tipini gösterir. |
+| Web | `3` | Web iş grubu tipini gösterir. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Bir kaynağın iş grubunun nasıl ayarlanacağını gösterir.
+
+```csharp
+var project = new Project();
+
+// ...
+var resource = project.Resources.Add("Resource");
+resource.Set(Rsc.Workgroup, WorkGroupType.Web);
+
+// ...
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Rsc.MaterialLabel
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Malzeme kaynağı için ölçü birimi.
+title: "Rsc.MaterialLabel"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Malzeme kaynağı için ölçü birimi"
 type: docs
 weight: 440
 url: /tr/net/aspose.tasks/rsc/materiallabel/
@@ -14,12 +14,26 @@ Malzeme kaynağı için ölçü birimi.
 public static readonly Key<string, RscKey> MaterialLabel;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Rsc.MaterialLabel özelliğini okuma/yazma yöntemini gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.MaterialLabel, "kg");
+
+Console.WriteLine("Material Label: " + resource.Get(Rsc.MaterialLabel));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

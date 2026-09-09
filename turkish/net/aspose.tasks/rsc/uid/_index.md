@@ -1,9 +1,9 @@
 ---
-title: Rsc.Uid
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Bir kaynağın benzersiz tanımlayıcısı.
+title: "Rsc.Uid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Bir kaynağın benzersiz tanımlayıcısı"
 type: docs
-weight: 680
+weight: 670
 url: /tr/net/aspose.tasks/rsc/uid/
 ---
 ## Rsc.Uid field
@@ -14,12 +14,26 @@ Bir kaynağın benzersiz tanımlayıcısı.
 public static readonly Key<int, RscKey> Uid;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Rsc.Uid özelliğini nasıl okuma/yazma yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Uid, 99);
+
+Console.WriteLine("Uid: " + resource.Get(Rsc.Uid));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

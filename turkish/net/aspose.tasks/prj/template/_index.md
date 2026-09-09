@@ -1,25 +1,37 @@
 ---
-title: Prj.Template
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Proje şablonu.
+title: "Prj.Template"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Proje şablonu"
 type: docs
-weight: 710
+weight: 720
 url: /tr/net/aspose.tasks/prj/template/
 ---
 ## Prj.Template field
 
-Proje şablonu.
+Projenin şablonu.
 
 ```csharp
 public static readonly Key<string, PrjKey> Template;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.Template özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Template, "Custom Template");
+
+Console.WriteLine("Template: " + project.Get(Prj.Template));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

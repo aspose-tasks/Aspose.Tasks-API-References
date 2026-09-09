@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Created
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. Created. değerini alır veya ayarlar.
+title: "ResourceAssignment.Created"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. Created değerini alır veya ayarlar."
 type: docs
 weight: 220
 url: /tr/net/aspose.tasks/resourceassignment/created/
 ---
 ## ResourceAssignment.Created property
 
-Created. değerini alır veya ayarlar.
+Created değerini alır veya ayarlar.
 
 ```csharp
 public DateTime Created { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

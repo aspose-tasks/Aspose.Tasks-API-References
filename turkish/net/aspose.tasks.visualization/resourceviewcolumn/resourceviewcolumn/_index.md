@@ -1,78 +1,216 @@
 ---
-title: ResourceViewColumn.ResourceViewColumn
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceViewColumn inşaatçı. Yeni bir örneğini başlatır.ResourceViewColumn sınıf.
+title: "ResourceViewColumn.ResourceViewColumn"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceViewColumn yapıcı. ResourceViewColumn sınıfının yeni bir örneğini başlatır"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.visualization/resourceviewcolumn/resourceviewcolumn/
 ---
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter, Field) {#constructor_2}
 
-Yeni bir örneğini başlatır.[`ResourceViewColumn`](../) sınıf.
+[`ResourceViewColumn`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter, 
     Field field)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Sütunun adı. |
-| width | Int32 | Sütunun piksel cinsinden genişliği. |
-| converter | ResourceToColumnTextConverter | Sütun metin dönüştürücüsüne kaynak verileri. |
-| field | Field | Sütun alanı. |
+| name | Dize | Sütunun adı. |
+| genişlik | Int32 | Sütunun piksel cinsinden genişliği. |
+| dönüştürücü | ResourceToColumnTextConverter | Kaynak verilerini sütun metnine dönüştüren dönüştürücü. |
+| alan | Alan | Sütun alanı. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Dışa aktarılacak kaynak görünüm sütunlarını nasıl ekleyeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// sütunlar üzerinde yinele
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * delegate [ResourceToColumnTextConverter](../../resourcetocolumntextconverter/)
 * enum [Field](../../../aspose.tasks/field/)
 * class [ResourceViewColumn](../)
-* ad alanı [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`ResourceViewColumn`](../) sınıf.
+[`ResourceViewColumn`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Sütunun adı. |
-| width | Int32 | Sütunun piksel cinsinden genişliği. |
-| converter | ResourceToColumnTextConverter | Sütun metin dönüştürücüsüne kaynak verileri. |
+| name | Dize | Sütunun adı. |
+| genişlik | Int32 | Sütunun piksel cinsinden genişliği. |
+| dönüştürücü | ResourceToColumnTextConverter | Kaynak verilerini sütun metnine dönüştüren dönüştürücü. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Dışa aktarılacak kaynak görünüm sütunlarını nasıl ekleyeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// sütunlar üzerinde yinele
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * delegate [ResourceToColumnTextConverter](../../resourcetocolumntextconverter/)
 * class [ResourceViewColumn](../)
-* ad alanı [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ResourceViewColumn(int, Field) {#constructor}
 
-Yeni bir örneğini başlatır.[`ResourceViewColumn`](../) sınıf.
+[`ResourceViewColumn`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public ResourceViewColumn(int width, Field field)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| width | Int32 | Piksel cinsinden sütun genişliği. |
-| field | Field | Sütun alanı. |
+| genişlik | Int32 | Sütun genişliği piksel cinsinden. |
+| alan | Alan | Sütun alanı. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Dışa aktarılacak kaynak görünüm sütunlarını nasıl ekleyeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// sütunlar üzerinde yinele
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [ResourceViewColumn](../)
-* ad alanı [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

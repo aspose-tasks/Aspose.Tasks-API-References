@@ -1,32 +1,32 @@
 ---
-title: ResourceCollection.Item
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceCollection mülk. Belirtilen dizindeki öğeyi döndürür.
+title: "ResourceCollection.Item"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceCollection özelliği. Belirtilen indeksteki öğeyi döndürür."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/resourcecollection/item/
 ---
 ## ResourceCollection indexer
 
-Belirtilen dizindeki öğeyi döndürür.
+Belirtilen indeksteki öğeyi döndürür.
 
 ```csharp
 public Resource this[int index] { get; set; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| index | Alınacak öğenin sıfır tabanlı dizini. |
+| indeks | Alınacak öğenin sıfır tabanlı indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen dizindeki öğe.
+belirtilen indeksteki öğe.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* ad alanı [Aspose.Tasks](../../resourcecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

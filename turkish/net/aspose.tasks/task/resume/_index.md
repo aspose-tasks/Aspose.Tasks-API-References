@@ -1,23 +1,23 @@
 ---
-title: Task.Resume
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir Devam değeri alır veya ayarlar.
+title: "Task.Resume"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Resume değerini alır veya ayarlar"
 type: docs
-weight: 1110
+weight: 1100
 url: /tr/net/aspose.tasks/task/resume/
 ---
 ## Task.Resume property
 
-Bir Devam değeri alır veya ayarlar.
+Resume değerini alır veya ayarlar.
 
 ```csharp
 public DateTime Resume { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.DurationPercentComplete
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Tamamlanan süre yüzdesi değerini alır.
+title: "PrimaveraTaskProperties.DurationPercentComplete"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Süre yüzde tamamlanma değerini alır"
 type: docs
-weight: 40
+weight: 150
 url: /tr/net/aspose.tasks/primaverataskproperties/durationpercentcomplete/
 ---
 ## PrimaveraTaskProperties.DurationPercentComplete property
 
-Tamamlanan süre yüzdesi değerini alır.
+Süre yüzde tamamlanma değerini alır.
 
 ```csharp
 public double DurationPercentComplete { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

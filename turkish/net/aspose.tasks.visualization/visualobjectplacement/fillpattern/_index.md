@@ -1,24 +1,24 @@
 ---
-title: VisualObjectPlacement.FillPattern
-second_title: Aspose.Tasks for .NET API Referansı
-description: VisualObjectPlacement mülk. Dolgu modelini alır veya ayarlar.
+title: "VisualObjectPlacement.FillPattern"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VisualObjectPlacement özelliği. Doldurma desenini alır veya ayarlar"
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/fillpattern/
 ---
 ## VisualObjectPlacement.FillPattern property
 
-Dolgu modelini alır veya ayarlar.
+Dolgu desenini alır veya ayarlar.
 
 ```csharp
 public FillPattern FillPattern { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [FillPattern](../../fillpattern/)
 * class [VisualObjectPlacement](../)
-* ad alanı [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

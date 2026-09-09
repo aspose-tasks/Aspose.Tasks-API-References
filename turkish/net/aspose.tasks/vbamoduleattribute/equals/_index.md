@@ -1,55 +1,85 @@
 ---
-title: VbaModuleAttribute.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: VbaModuleAttribute yöntem. Bu örneğin belirtilene eşit olup olmadığını gösteren bir değer döndürürVbaModuleAttribute nesne.
+title: "VbaModuleAttribute.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VbaModuleAttribute yöntemi. Bu örneğin belirtilen VbaModuleAttribute nesnesine eşit olup olmadığını gösteren bir değer döndürür"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/vbamoduleattribute/equals/
 ---
 ## Equals(VbaModuleAttribute) {#equals}
 
-Bu örneğin belirtilene eşit olup olmadığını gösteren bir değer döndürür[`VbaModuleAttribute`](../) nesne.
+Bu örneğin belirtilen [`VbaModuleAttribute`](../) nesnesine eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public bool Equals(VbaModuleAttribute other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | VbaModuleAttribute | Belirtilen[`VbaModuleAttribute`](../) bu örnekle karşılaştırılacak nesne. |
+| other | VbaModuleAttribute | Bu örnek ile karşılaştırılacak belirtilen [`VbaModuleAttribute`](../) nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Bu örnek belirtilene eşitse true döndürür[`VbaModuleAttribute`](../) nesne; Aksi takdirde, yanlış.
+Bu örnek belirtilen [`VbaModuleAttribute`](../) nesnesine eşitse true, aksi takdirde false döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+VBA modül özniteliklerinin eşitliğini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+var module = project.VbaProject.Modules.ToList()[0];
+
+var attribute1 = module.Attributes.ToList()[0];
+var attribute2 = module.Attributes.ToList()[0];
+Console.WriteLine("Module attribute 1 Key: {0}, Value: {1}", attribute1.Key, attribute1.Value);
+Console.WriteLine("Module attribute 2 Key: {0}, Value: {1}", attribute2.Key, attribute2.Value);
+Console.WriteLine("Are module attributes equal: " + attribute1.Equals(attribute2));
+```
+
+### Ayrıca Bakınız
 
 * class [VbaModuleAttribute](../)
-* ad alanı [Aspose.Tasks](../../vbamoduleattribute/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-Bu örneğin belirtilene eşit olup olmadığını gösteren bir değer döndürür[`VbaModuleAttribute`](../) nesne.
+Bu örneğin belirtilen [`VbaModuleAttribute`](../) nesnesine eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| obj | Object | Belirtilen[`VbaModuleAttribute`](../) bu örnekle karşılaştırılacak nesne. |
+| obj | Object | Bu örnek ile karşılaştırılacak belirtilen [`VbaModuleAttribute`](../) nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Bu örnek belirtilene eşitse true döndürür[`VbaModuleAttribute`](../) nesne; Aksi takdirde, yanlış.
+Bu örnek belirtilen [`VbaModuleAttribute`](../) nesnesine eşitse true, aksi takdirde false döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+VBA modül özniteliklerinin eşitliğini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+var module = project.VbaProject.Modules.ToList()[0];
+
+var attribute1 = module.Attributes.ToList()[0];
+var attribute2 = module.Attributes.ToList()[0];
+Console.WriteLine("Module attribute 1 Key: {0}, Value: {1}", attribute1.Key, attribute1.Value);
+Console.WriteLine("Module attribute 2 Key: {0}, Value: {1}", attribute2.Key, attribute2.Value);
+Console.WriteLine("Are module attributes equal: " + attribute1.Equals(attribute2));
+```
+
+### Ayrıca Bakınız
 
 * class [VbaModuleAttribute](../)
-* ad alanı [Aspose.Tasks](../../vbamoduleattribute/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

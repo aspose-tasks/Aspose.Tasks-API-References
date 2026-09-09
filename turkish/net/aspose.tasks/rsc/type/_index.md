@@ -1,9 +1,9 @@
 ---
-title: Rsc.Type
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Bir kaynağın türü.
+title: "Rsc.Type"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Bir kaynağın türü."
 type: docs
-weight: 670
+weight: 660
 url: /tr/net/aspose.tasks/rsc/type/
 ---
 ## Rsc.Type field
@@ -14,13 +14,27 @@ Bir kaynağın türü.
 public static readonly Key<ResourceType, RscKey> Type;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Rsc.Type özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Type, ResourceType.Work);
+
+Console.WriteLine("Type: " + resource.Get(Rsc.Type));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [ResourceType](../../resourcetype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

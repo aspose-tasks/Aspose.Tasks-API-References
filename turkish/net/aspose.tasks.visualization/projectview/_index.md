@@ -1,44 +1,59 @@
 ---
-title: Class ProjectView
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.ProjectView sınıf. Projenin görünümü class
+title: "Sınıf ProjectView"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.ProjectView sınıfı. Projeler görünüm sınıfı"
 type: docs
-weight: 2950
+weight: 3300
 url: /tr/net/aspose.tasks.visualization/projectview/
 ---
 ## ProjectView class
 
-Projenin görünümü class
+Projenin görünüm sınıfı
 
 ```csharp
 public class ProjectView
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | Yeni bir örneğini başlatır.`ProjectView` sınıf. |
+| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | Yeni bir `ProjectView` sınıfı örneği başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Columns](../../aspose.tasks.visualization/projectview/columns/) { get; } | Proje görünümü sütunlarını alır. |
+| [Columns](../../aspose.tasks.visualization/projectview/columns/) { get; } | Proje görünüm sütunlarını alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
 | static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview/)() | Uid, görev adı, kaynak adı, iş ve süre atama sütunlarını içerir. |
-| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | Kimlik, göstergeler, ad, süre, başlangıç ve bitiş görev sütunlarını içerir. |
-| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | Uid, kaynak adı, tür, malzeme etiketi, baş harfler, grup, maksimum birimler, standart ücret, fazla mesai ücreti, kullanım başına maliyet, tahakkuk tarihi, temel takvim ve kod kaynak sütunlarını içerir. |
-| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | Uid, ad, başlangıç, bitiş ve çalışma kaynağı sütunlarını içerir. |
-| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | Kimlik, göstergeler, ad, süre, başlangıç, bitiş, öncüller ve kaynak adları görev sütunlarını içerir. |
+| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | id, göstergeler, ad, süre, başlangıç ve bitiş görev sütunlarını içerir. |
+| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | Uid, kaynak adı, tip, malzeme etiketi, baş harfler, grup, maksimum birimler, standart oran, fazla mesai oranı, kullanım başına maliyet, birikim zamanı, temel takvim ve kod kaynak sütunlarını içerir. |
+| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | Uid, ad, başlangıç, bitiş ve iş kaynağı sütunlarını içerir. |
+| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | id, göstergeler, ad, süre, başlangıç, bitiş, öncüller ve kaynak adları görev sütunlarını içerir. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+Atama görünümüyle bir projenin nasıl kaydedileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

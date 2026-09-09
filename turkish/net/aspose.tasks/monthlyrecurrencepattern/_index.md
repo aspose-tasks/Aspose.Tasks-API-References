@@ -1,36 +1,61 @@
 ---
-title: Class MonthlyRecurrencePattern
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.MonthlyRecurrencePattern sınıf. Bir projede aylık yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder.
+title: "Sınıf MonthlyRecurrencePattern"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.MonthlyRecurrencePattern sınıfı. Bir projede aylık yinelenen görev oluşturmak için kullanılan parametre kümesini temsil eder."
 type: docs
-weight: 950
+weight: 1080
 url: /tr/net/aspose.tasks/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern class
 
-Bir projede aylık yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder.
+Bir projede aylık yinelenen görev oluşturmak için kullanılan parametre kümesini temsil eder.
 
 ```csharp
 public class MonthlyRecurrencePattern : RecurrencePatternBase
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern/)() | Yeni bir örneğini başlatır.`MonthlyRecurrencePattern` sınıf. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern/)() | `MonthlyRecurrencePattern` sınıfının yeni bir örneğini başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [RecurrenceRange](../../aspose.tasks/recurrencepatternbase/recurrencerange/) { get; set; } | Yinelenme aralığını alır veya ayarlar. |
-| [Repetition](../../aspose.tasks/monthlyrecurrencepattern/repetition/) { get; set; } | Yinelenen yineleme modelini alır veya ayarlar. |
+| [RecurrenceRange](../../aspose.tasks/recurrencepatternbase/recurrencerange/) { get; set; } | Yineleme aralığını alır veya ayarlar. |
+| [Repetition](../../aspose.tasks/monthlyrecurrencepattern/repetition/) { get; set; } | Tekrarlayan tekrar desenini alır veya ayarlar. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Tekrarlayan görevler oluştururken aylık yinelenme deseni tekrarlarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new MonthlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByMonthDayRepetition { DayPosition = 1, RepetitionInterval = 2 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 9, 30, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Ayrıca Bakınız
 
 * class [RecurrencePatternBase](../recurrencepatternbase/)
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

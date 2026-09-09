@@ -1,9 +1,9 @@
 ---
-title: Class RiskAnalysisSettings
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.RiskAnalysis.RiskAnalysisSettings sınıf. Risk analizi gerçekleştirmek için ayarları belirtir.
+title: "Sınıf RiskAnalysisSettings"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.RiskAnalysis.RiskAnalysisSettings sınıfı. Risk analizi gerçekleştirmek için ayarları belirtir"
 type: docs
-weight: 1620
+weight: 1880
 url: /tr/net/aspose.tasks.riskanalysis/riskanalysissettings/
 ---
 ## RiskAnalysisSettings class
@@ -14,22 +14,71 @@ Risk analizi gerçekleştirmek için ayarları belirtir.
 public class RiskAnalysisSettings
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [RiskAnalysisSettings](riskanalysissettings/)() | Yeni bir örneğini başlatır`RiskAnalysisSettings` sınıf. |
+| [RiskAnalysisSettings](riskanalysissettings/)() | `RiskAnalysisSettings` sınıfının yeni bir örneğini başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [IterationsCount](../../aspose.tasks.riskanalysis/riskanalysissettings/iterationscount/) { get; set; } | Monte Carlo simülasyonunda kullanılacak yineleme sayısını alır veya ayarlar. Varsayılan değer 100. 'dir. |
-| [Patterns](../../aspose.tasks.riskanalysis/riskanalysissettings/patterns/) { get; } | Örneklerini içeren bir koleksiyon alır.[`RiskPattern`](../riskpattern/) sınıf. |
+| [IterationsCount](../../aspose.tasks.riskanalysis/riskanalysissettings/iterationscount/) { get; set; } | Monte Carlo simülasyonunda kullanılacak yineleme sayısını alır veya ayarlar. Varsayılan değer 100'dür. |
+| [Patterns](../../aspose.tasks.riskanalysis/riskanalysissettings/patterns/) { get; } | [`RiskPattern`](../riskpattern/) sınıfının örneklerini içeren bir koleksiyon alır. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
-* toplantı [Aspose.Tasks](../../)
+Monte-Carlo simülasyonları için risk analizi ayarlarının nasıl hazırlanacağını gösterir.
+
+```csharp
+var riskAnalysisSettings = new RiskAnalysisSettings();
+
+// Monte Carlo simülasyonu için yineleme sayısını ayarlayın (varsayılan değer 100'dür).
+riskAnalysisSettings.IterationsCount = 200;
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// Risk desenini başlat
+var pattern = new RiskPattern(task);
+
+// Rastgele sayı üreteci için olası değerleri oluşturacak dağılım tipini seçin (şu anda yalnızca iki tip desteklenmektedir: normal ve uniform)
+// Daha fazla ayrıntı için buraya bakın: https://en.wikipedia.org/wiki/Normal_distribution)
+pattern.Distribution = ProbabilityDistributionType.Normal;
+
+// En olası görev süresinin, en iyi proje senaryosunda gerçekleşebilecek yüzde oranını ayarlayın
+// Varsayılan değer 75'tir, bu da tahmini belirtilen görev süresi 4 gün ise iyimser sürenin 3 gün olacağı anlamına gelir
+pattern.Optimistic = 70;
+
+// En olası görev süresinin, en kötü proje senaryosunda gerçekleşebilecek yüzde oranını ayarlayın
+// Varsayılan değer 125'tir, bu da tahmini belirtilen görev süresi 4 gün ise kötümser sürenin 5 gün olacağı anlamına gelir
+pattern.Pessimistic = 130;
+
+// İyimser ve kötümser tahminler arasında gerçek değerlerin bulunacağı zaman yüzdesine karşılık gelen bir güven düzeyi ayarlayın
+// Bunu standart sapma değeri olarak düşünebilirsiniz: tahminleriniz ne kadar belirsizse, rastgele sayı üretecinde kullanılan standart sapma değeri de o kadar yüksek olur
+pattern.ConfidenceLevel = ConfidenceLevel.CL75;
+
+riskAnalysisSettings.Patterns.Add(pattern);
+
+var analyzer = new RiskAnalyzer(riskAnalysisSettings);
+var analysisResult = analyzer.Analyze(project);
+var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
+
+Console.WriteLine("Expected value: {0}", rootEarlyFinish.ExpectedValue);
+Console.WriteLine("StandardDeviation: {0}", rootEarlyFinish.StandardDeviation);
+Console.WriteLine("10% Percentile: {0}", rootEarlyFinish.GetPercentile(10));
+Console.WriteLine("50% Percentile: {0}", rootEarlyFinish.GetPercentile(50));
+Console.WriteLine("90% Percentile: {0}", rootEarlyFinish.GetPercentile(90));
+Console.WriteLine("Minimum: {0}", rootEarlyFinish.Minimum);
+Console.WriteLine("Maximum: {0}", rootEarlyFinish.Maximum);
+
+analysisResult.SaveReport(OutDir + "AnalysisReport_out.pdf");
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
+* assembly [Aspose.Tasks](../../)
 
 

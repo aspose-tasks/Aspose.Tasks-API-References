@@ -1,23 +1,23 @@
 ---
-title: Project.Comments
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Comments. değerini alır veya ayarlar.
+title: "Project.Comments"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. Yorumlar değerini alır veya ayarlar"
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/aspose.tasks/project/comments/
 ---
 ## Project.Comments property
 
-Comments. değerini alır veya ayarlar.
+Comments değerini alır veya ayarlar.
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

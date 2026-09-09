@@ -1,24 +1,24 @@
 ---
-title: Project.NewTasksEstimated
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. NewTasksEstimatedın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.NewTasksEstimated"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project property. NewTasksEstimated ayarlanıp ayarlanmadığını gösteren değeri alır veya ayarlar"
 type: docs
-weight: 660
+weight: 680
 url: /tr/net/aspose.tasks/project/newtasksestimated/
 ---
 ## Project.NewTasksEstimated property
 
-NewTasksEstimated'ın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+NewTasksEstimated'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
 
 ```csharp
 public NullableBool NewTasksEstimated { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

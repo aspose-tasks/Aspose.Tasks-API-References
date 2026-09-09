@@ -1,23 +1,23 @@
 ---
-title: Task.PreleveledStart
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. PreleveledStart. değerini alır veya ayarlar.
+title: "Task.PreleveledStart"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. PreleveledStart değerini alır veya ayarlar."
 type: docs
-weight: 1010
+weight: 1000
 url: /tr/net/aspose.tasks/task/preleveledstart/
 ---
 ## Task.PreleveledStart property
 
-PreleveledStart. değerini alır veya ayarlar.
+PreleveledStart değerini alır veya ayarlar.
 
 ```csharp
 public DateTime PreleveledStart { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

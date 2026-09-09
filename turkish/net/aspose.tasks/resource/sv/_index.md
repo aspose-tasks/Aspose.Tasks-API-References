@@ -1,23 +1,23 @@
 ---
-title: Resource.SV
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. SV. değerini alır veya ayarlar
+title: "Resource.SV"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. SV değerini alır veya ayarlar"
 type: docs
-weight: 740
+weight: 730
 url: /tr/net/aspose.tasks/resource/sv/
 ---
 ## Resource.SV property
 
-SV. değerini alır veya ayarlar
+SV değerini alır veya ayarlar.
 
 ```csharp
 public double SV { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

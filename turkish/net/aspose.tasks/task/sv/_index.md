@@ -1,23 +1,23 @@
 ---
-title: Task.SV
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Proje durumu tarihi aracılığıyla kazanılan değer program farkı. Program farkı SV GÇBM ile ZÇBM arasındaki farktır.
+title: "Task.SV"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Proje durum tarihine kadar kazanılmış değer zaman planı sapması. Zaman planı sapması SV, BCWP ile BCWS arasındaki farktır."
 type: docs
 weight: 1210
 url: /tr/net/aspose.tasks/task/sv/
 ---
 ## Task.SV property
 
-Proje durumu tarihi aracılığıyla kazanılan değer program farkı. Program farkı (SV), GÇBM ile ZÇBM arasındaki farktır.
+Proje durum tarihine kadar kazanılmış değer zaman planı sapması. Zaman planı sapması (SV), BCWP ile BCWS arasındaki farktır.
 
 ```csharp
 public double SV { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

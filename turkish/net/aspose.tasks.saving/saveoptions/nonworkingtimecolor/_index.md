@@ -1,9 +1,9 @@
 ---
-title: SaveOptions.NonWorkingTimeColor
-second_title: Aspose.Tasks for .NET API Referansı
-description: SaveOptions mülk. Çalışma dışı zaman rengini alır veya ayarlar.
+title: "SaveOptions.NonWorkingTimeColor"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "SaveOptions özelliği. Çalışma dışı zaman rengini alır veya ayarlar."
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.tasks.saving/saveoptions/nonworkingtimecolor/
 ---
 ## SaveOptions.NonWorkingTimeColor property
@@ -14,10 +14,20 @@ url: /tr/net/aspose.tasks.saving/saveoptions/nonworkingtimecolor/
 public Color NonWorkingTimeColor { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Çalışma dışı zaman için özel renk ayarlamanın nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadCurrencyProperties.mpp");
+SaveOptions options = new PdfSaveOptions { NonWorkingTimeColor = Color.LightGray };
+project.Save(OutDir + "ReadCurrencyProperties_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../saveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

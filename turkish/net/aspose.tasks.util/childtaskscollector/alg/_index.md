@@ -1,7 +1,7 @@
 ---
-title: ChildTasksCollector.Alg
-second_title: Aspose.Tasks for .NET API Referansı
-description: ChildTasksCollector yöntem. Belirtilen nesneyi işler.
+title: "ChildTasksCollector.Alg"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ChildTasksCollector yöntemi. Belirtilen nesneyi işler"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.util/childtaskscollector/alg/
@@ -14,16 +14,33 @@ Belirtilen nesneyi işler.
 public override void Alg(Task el, int level)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| el | Task | İşlenecek itiraz. |
-| level | Int32 | Ağaç düğümü seviyesi. |
+| el | Görev | İşlenecek nesne. |
+| seviye | Int32 | Ağaç düğüm seviyesi. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir projedeki tüm görevler üzerinde düz bir liste olarak nasıl yineleme yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Toplanan tüm görevleri ayrıştır
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Task](../../../aspose.tasks/task/)
 * class [ChildTasksCollector](../)
-* ad alanı [Aspose.Tasks.Util](../../childtaskscollector/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../childtaskscollector/)
+* assembly [Aspose.Tasks](../../../)
 
 

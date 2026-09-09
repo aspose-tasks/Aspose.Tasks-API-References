@@ -1,41 +1,41 @@
 ---
-title: Class ReadOnlyCollectionBaseT
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.ReadOnlyCollectionBase1T sınıf. Nesnelerin salt okunur koleksiyonunu temsil eder.
+title: "ReadOnlyCollectionBaseT sınıfı"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.ReadOnlyCollectionBase1T sınıfı. Nesnelerin yalnızca okunur bir koleksiyonunu temsil eder"
 type: docs
-weight: 1420
+weight: 1670
 url: /tr/net/aspose.tasks/readonlycollectionbase-1/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt; class
 
-Nesnelerin salt okunur koleksiyonunu temsil eder.
+Nesnelerin yalnızca okunabilir bir koleksiyonunu temsil eder.
 
 ```csharp
 public abstract class ReadOnlyCollectionBase<T> : IList<T>
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
 | T | Koleksiyon öğelerinin türü. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } | Nesnede bulunan nesnelerin sayısını alır. |
-| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } | Belirtilen dizindeki öğeyi döndürür. |
+| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } | Nesne içinde bulunan nesne sayısını alır. |
+| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } | Belirtilen indeksteki öğeyi döndürür. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | Bu, ICollection'ın Add yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar. |
-| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | Koleksiyon nesnesini bir listeye dönüştürür[`VbaModule`](../vbamodule/) nesneler. |
+| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | Bu, ICollection'ın Add metodunun sadece NotSupportedException fırlatan taslak uygulamasıdır |
+| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() | Bu koleksiyon için bir enumerator döndürür. |
+| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | Koleksiyonu nesne listesine dönüştürür. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

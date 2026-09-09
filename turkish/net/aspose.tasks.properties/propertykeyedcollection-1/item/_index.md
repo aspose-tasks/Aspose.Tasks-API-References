@@ -1,31 +1,77 @@
 ---
-title: PropertyKeyedCollection1.Item
-second_title: Aspose.Tasks for .NET API Referansı
-description: PropertyKeyedCollection mülk. Belirtilen anahtarla ilişkili Özelliği alır.
+title: "PropertyKeyedCollection1.Item"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PropertyKeyedCollection özelliği. Belirtilen anahtarla ilişkili Property'yi alır"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.properties/propertykeyedcollection-1/item/
 ---
 ## PropertyKeyedCollection&lt;T&gt; indexer
 
-Belirtilen anahtarla ilişkili Özelliği alır.
+Belirtilen anahtarla ilişkili özelliği alır.
 
 ```csharp
 public T this[string name] { get; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| name | Alınacak Mülkün adı. |
+| name | Alınacak Property'nin adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Belirtilen adla ilişkili Özellik.
+Belirtilen adla ilişkili Property.
 
-### Ayrıca bakınız
+## Örnekler
+
+Özel proje özelliği koleksiyonlarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Yeni özel özellikler ekleyelim.
+// Koleksiyon Boolean, DateTime, Double, String türlerini destekler.
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Özel özellikler tiplenmiş koleksiyon aracılığıyla kullanılabilir.
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Bir özel özellik değerini al.
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Özel özelliklerin adları üzerinde yinele.
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Bir değer, string anahtar ile silinebilir.
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// veya koleksiyonu tamamen temizleyebilir
+project.CustomProps.Clear();
+```
+
+### Ayrıca Bakınız
 
 * class [PropertyKeyedCollection&lt;T&gt;](../)
-* ad alanı [Aspose.Tasks.Properties](../../propertykeyedcollection-1/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../propertykeyedcollection-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

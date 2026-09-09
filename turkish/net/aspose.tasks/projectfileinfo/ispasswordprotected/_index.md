@@ -1,23 +1,23 @@
 ---
-title: ProjectFileInfo.IsPasswordProtected
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProjectFileInfo mülk. Bir projenin parola korumalı olup olmadığını gösteren bir değer alır.
+title: "ProjectFileInfo.IsPasswordProtected"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProjectFileInfo özelliği. Bir projenin şifre korumalı olup olmadığını gösteren bir değer alır."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/projectfileinfo/ispasswordprotected/
 ---
 ## ProjectFileInfo.IsPasswordProtected property
 
-Bir projenin parola korumalı olup olmadığını gösteren bir değer alır.
+Bir projenin şifre korumalı olup olmadığını gösteren bir değeri alır.
 
 ```csharp
 public bool IsPasswordProtected { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ProjectFileInfo](../)
-* ad alanı [Aspose.Tasks](../../projectfileinfo/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

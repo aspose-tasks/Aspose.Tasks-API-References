@@ -1,45 +1,171 @@
 ---
-title: TimephasedData.CreateCostTimephased
-second_title: Aspose.Tasks for .NET API Referansı
-description: TimephasedData yöntem. Yeni bir örnek oluşturur ve başlatır.TimephasedData maliyete dayalı zaman aşamalı veriler için sınıf.
+title: "TimephasedData.CreateCostTimephased"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TimephasedData yöntemi. Maliyet temelli zaman aşamalı veri için TimephasedData sınıfının yeni bir örneğini oluşturur ve başlatır"
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/timephaseddata/createcosttimephased/
 ---
-## TimephasedData.CreateCostTimephased method
+## CreateCostTimephased(int, DateTime, DateTime, double, TimeUnitType, TimephasedDataType) {#createcosttimephased_1}
 
-Yeni bir örnek oluşturur ve başlatır.[`TimephasedData`](../) maliyete dayalı zaman aşamalı veriler için sınıf.
+Maliyet temelli zaman aşamalı veri için [`TimephasedData`](../) sınıfının yeni bir örneğini oluşturur ve başlatır.
 
 ```csharp
 public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateTime finish, 
     double value, TimeUnitType timeUnit, TimephasedDataType type)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | uid | Int32 | Görevin UID'si. |
-| start | DateTime | tarih-zamanı başlat. |
-| finish | DateTime | Tarih-zamanı bitir. |
+| başlangıç | DateTime | başlangıç tarih-saat. |
+| bitiş | DateTime | bitiş tarih-saat. |
 | value | Double | Maliyet değeri. |
 | timeUnit | TimeUnitType | Zaman birimi türü. |
-| type | TimephasedDataType | Zaman aşamalı veri türü. |
+| tür | TimephasedDataType | Zaman aşamalı veri türü. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bir örneği[`TimephasedData`](../) maliyete dayalı zaman aşamalı veriler için sınıf.
+Maliyet temelli zaman aşamalı veri için [`TimephasedData`](../) sınıfının bir örneği.
 
-### istisnalar
+### İstisnalar
 
-| istisna | şart |
+| istisna | koşul |
 | --- | --- |
 | ArgumentException | Negatif maliyet değeri belirtilmişse. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Özel zaman aşamalı verilerle nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp") { CalculationMode = CalculationMode.None };
+
+var workResource = project.Resources.Add("Work Resource");
+workResource.Set(Rsc.Type, ResourceType.Work);
+var costResource = project.Resources.Add("Cost Resource");
+costResource.Set(Rsc.Type, ResourceType.Cost);
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2018, 1, 1, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+var workAssignment = project.ResourceAssignments.Add(task, workResource);
+workAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+var costAssignment = project.ResourceAssignments.Add(task, costResource);
+costAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+// özel zaman aşamalı tds ekleyelim
+workAssignment.TimephasedData.Clear();
+
+// çalışma günleri ekle
+var td1 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    TimeSpan.FromHours(40),
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+// hafta sonu ekle
+var td2 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    TimeSpan.Zero,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+workAssignment.TimephasedData.Add(td1);
+workAssignment.TimephasedData.Add(td2);
+
+costAssignment.TimephasedData.Clear();
+
+// çalışma günleri ekle
+var td11 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    1,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+// hafta sonu ekle
+var td22 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    0,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+costAssignment.TimephasedData.Add(td11);
+costAssignment.TimephasedData.Add(td22);
+
+Console.WriteLine("Print assignment timephased data:");
+foreach (var assignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+    foreach (var tds in assignment.TimephasedData)
+    {
+        Console.WriteLine("  Uid: " + tds.Uid);
+        Console.WriteLine("  Start: " + tds.Start);
+        Console.WriteLine("  Finish: " + tds.Finish);
+        Console.WriteLine("  Type: " + tds.TimephasedDataType);
+        Console.WriteLine("  Unit: " + tds.Unit);
+        Console.WriteLine("  Value: " + tds.Value);
+        Console.WriteLine("  ValueToCost: " + tds.ValueToCost);
+        Console.WriteLine("  ValueToDuration: " + tds.ValueToDuration);
+        Console.WriteLine("  ValueToUnits: " + tds.ValueToUnits);
+        Console.WriteLine();
+    }
+}
+
+project.Recalculate();
+```
+
+### Ayrıca Bakınız
 
 * enum [TimeUnitType](../../timeunittype/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [TimephasedData](../)
-* ad alanı [Aspose.Tasks](../../timephaseddata/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddata/)
+* assembly [Aspose.Tasks](../../../)
+
+---
+
+## CreateCostTimephased(int, DateTime, DateTime, double, TimephasedDataType) {#createcosttimephased}
+
+Maliyet temelli zaman aşamalı veri için [`TimephasedData`](../) sınıfının yeni bir örneğini oluşturur ve başlatır.
+
+```csharp
+public static TimephasedData CreateCostTimephased(int uid, DateTime start, DateTime finish, 
+    double value, TimephasedDataType type)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| uid | Int32 | Görevin UID'si. |
+| başlangıç | DateTime | başlangıç tarih-saat. |
+| bitiş | DateTime | bitiş tarih-saat. |
+| value | Double | Maliyet değeri. |
+| tür | TimephasedDataType | Zaman aşamalı veri türü. |
+
+### Dönüş Değeri
+
+Maliyet temelli zaman aşamalı veri için [`TimephasedData`](../) sınıfının bir örneği.
+
+### İstisnalar
+
+| istisna | koşul |
+| --- | --- |
+| ArgumentException | Negatif maliyet değeri belirtilmişse. |
+
+### Ayrıca Bakınız
+
+* enum [TimephasedDataType](../../timephaseddatatype/)
+* class [TimephasedData](../)
+* namespace [Aspose.Tasks](../../timephaseddata/)
+* assembly [Aspose.Tasks](../../../)
 
 

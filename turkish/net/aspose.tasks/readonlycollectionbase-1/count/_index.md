@@ -1,23 +1,23 @@
 ---
-title: ReadOnlyCollectionBase1.Count
-second_title: Aspose.Tasks for .NET API Referansı
-description: ReadOnlyCollectionBase mülk. Nesnede bulunan nesnelerin sayısını alır.
+title: "ReadOnlyCollectionBase1.Count"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ReadOnlyCollectionBase özelliği. Nesne içinde bulunan nesne sayısını alır."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/readonlycollectionbase-1/count/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.Count property
 
-Nesnede bulunan nesnelerin sayısını alır.
+Nesne içinde bulunan nesne sayısını alır.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* ad alanı [Aspose.Tasks](../../readonlycollectionbase-1/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

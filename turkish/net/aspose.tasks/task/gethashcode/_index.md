@@ -1,7 +1,7 @@
 ---
-title: Task.GetHashCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task yöntem. Bu Görev için bir karma kod değeri döndürür.
+title: "Task.GetHashCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task yöntemi. Bu Task için bir hash kodu değeri döndürür."
 type: docs
 weight: 1350
 url: /tr/net/aspose.tasks/task/gethashcode/
@@ -14,14 +14,31 @@ Bu Görev için bir karma kod değeri döndürür.
 public override int GetHashCode()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 bu nesne için bir karma kod değeri döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir görevin hash kodunun nasıl alınacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+// bir görevin karma kodu, görevin uid'si ve adına dayanır
+Console.WriteLine("Hash code of the task: " + task.GetHashCode());
+
+task.Set(Tsk.Name, "Task 1");
+
+Console.WriteLine("Hash code of the task: " + task.GetHashCode());
+```
+
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

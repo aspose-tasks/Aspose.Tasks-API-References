@@ -1,53 +1,53 @@
 ---
-title: Enum GanttBarShowFor
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.GanttBarShowFor Sıralama. Gantt grafiğinin Çubuk Stillerini özelleştirirken kullanılan görev kategorilerini temsil eder.
+title: "Enum GanttBarShowFor"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.GanttBarShowFor enum. Gantt şemasının Çubuk Stilleri özelleştirilirken kullanılan görev kategorilerini temsil eder."
 type: docs
-weight: 2730
+weight: 3060
 url: /tr/net/aspose.tasks.visualization/ganttbarshowfor/
 ---
 ## GanttBarShowFor enumeration
 
-Gantt grafiğinin Çubuk Stillerini özelleştirirken kullanılan görev kategorilerini temsil eder.
+Gantt şemasının Çubuk Stillerini özelleştirirken kullanılan görev kategorilerini temsil eder.
 
 ```csharp
 public enum GanttBarShowFor
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Normal | `0` | Normal kategori. |
-| Milestone | `1` | Kilometre Taşı kategorisi. |
-| Summary | `2` | Özet kategorisi. |
+| Milestone | `1` | Kilometre taşı kategorisi. |
+| Summary | `2` | Özet kategori. |
 | Critical | `3` | Kritik kategori. |
 | Noncritical | `4` | Kritik olmayan kategori. |
 | Marked | `5` | İşaretli kategori. |
-| Finished | `6` | Biten kategori. |
-| InProgress | `7` | Devam Eden kategori. |
-| NotFinished | `8` | Bitmedi kategorisi. |
-| NotStarted | `9` | Başlamadı kategorisi. |
+| Finished | `6` | Tamamlanmış kategori. |
+| InProgress | `7` | Devam eden kategori. |
+| NotFinished | `8` | Tamamlanmamış kategori. |
+| NotStarted | `9` | Başlatılmamış kategori. |
 | StartedLate | `10` | Geç Başladı. |
-| FinishedLate | `11` | Geç Bitirdi kategorisi. |
-| StartedEarly | `12` | Erken Başladı kategorisi. |
-| FinishedEarly | `13` | Erken Bitirdi kategorisi. |
-| StartedOnTime | `14` | Zamanında Başladı kategorisi. |
-| FinishedOnTime | `15` | Zamanında Bitirildi kategorisi. |
-| Flag1 | `16` | Bayrak1 kategorisi. |
-| Flag2 | `17` | Bayrak2 kategorisi. |
-| Flag3 | `18` | Flag3 kategorisi. |
-| Flag4 | `19` | Flag4 kategorisi. |
-| Flag5 | `20` | Flag5 kategorisi. |
+| FinishedLate | `11` | Geç Tamamlanan kategori. |
+| StartedEarly | `12` | Erken Başlayan kategori. |
+| FinishedEarly | `13` | Erken Tamamlanan kategori. |
+| StartedOnTime | `14` | Zamanında Başlayan kategori. |
+| FinishedOnTime | `15` | Zamanında Tamamlanan kategori. |
+| Flag1 | `16` | Flag1 kategori. |
+| Flag2 | `17` | Flag2 kategori. |
+| Flag3 | `18` | Flag3 kategori. |
+| Flag4 | `19` | Flag4 kategori. |
+| Flag5 | `20` | Flag5 kategori. |
 | Flag6 | `21` | Flag6 kategorisi. |
 | Flag7 | `22` | Flag7 kategorisi. |
 | Flag8 | `23` | Flag8 kategorisi. |
 | Flag9 | `24` | Flag9 kategorisi. |
 | Flag10 | `25` | Flag10 kategorisi. |
-| RolledUp | `26` | Toplama kategorisi. |
-| ProjectSummary | `27` | Proje Özeti kategorisi. |
-| Split | `28` | Kategoriyi ayır. |
-| ExternalTasks | `29` | Harici Görevler kategorisi. |
+| RolledUp | `26` | Rolled Up kategorisi. |
+| ProjectSummary | `27` | Project Summary kategorisi. |
+| Split | `28` | Split kategorisi. |
+| ExternalTasks | `29` | External Tasks kategorisi. |
 | Flag11 | `30` | Flag11 kategorisi. |
 | Flag12 | `31` | Flag12 kategorisi. |
 | Flag13 | `32` | Flag13 kategorisi. |
@@ -58,72 +58,98 @@ public enum GanttBarShowFor
 | Flag18 | `37` | Flag18 kategorisi. |
 | Flag19 | `38` | Flag19 kategorisi. |
 | Flag20 | `39` | Flag20 kategorisi. |
-| GroupBySummary | `40` | Özete Göre Gruplandır kategori. |
-| Deliverable | `41` | Verilebilir kategori. |
-| Dependency | `42` | Bağımlılık kategorisi. |
-| Active | `43` | Aktif kategori. |
-| ManuallyScheduled | `44` | Manuel Olarak Zamanlanmış kategori. |
-| Warning | `45` | Uyarı kategorisi. |
-| PlaceholderStart | `46` | Yer Tutucu (Başlat) kategorisi. |
-| PlaceholderFinish | `47` | Yer Tutucu (Bitiş) kategorisi. |
-| PlaceholderDuration | `48` | Yer Tutucu (Süre) kategorisi. |
-| Placeholder | `49` | Yer tutucu kategorisi. |
+| GroupBySummary | `40` | Group By Summary kategorisi. |
+| Deliverable | `41` | Deliverable kategorisi. |
+| Dependency | `42` | Dependency kategorisi. |
+| Active | `43` | Active kategorisi. |
+| ManuallyScheduled | `44` | Manually Scheduled kategorisi. |
+| Warning | `45` | Warning kategorisi. |
+| PlaceholderStart | `46` | Yer tutucu (Başlangıç) kategori. |
+| PlaceholderFinish | `47` | Yer tutucu (Bitiş) kategori. |
+| PlaceholderDuration | `48` | Yer tutucu (Süre) kategori. |
+| Placeholder | `49` | Yer tutucu kategori. |
 | Late | `50` | Geç kategori. |
-| NotNormal | `64` | Normal Değil |
-| NotMilestone | `65` | Kilometre Taşı kategorisi değil. |
-| NotSummary | `66` | Özet Değil kategorisi. |
-| NotCritical | `67` | Kritik Değil kategorisi. |
-| NotMarked | `69` | İşaretlenmemiş = 69 kategori. |
-| NotInProgress | `71` | Devam Etmiyor = 71 kategori. |
-| NotStartedLate | `74` | Geç Başlamadı = 74 kategori. |
-| NotFinishedLate | `75` | Bitmedi Geç kategori. |
-| NotStartedEarly | `76` | Erken Başlamadı kategorisi. |
-| NotFinishedEarly | `77` | Erken Bitmedi kategorisi. |
-| NotStartedOnTime | `78` | Zamanında Başlamadı kategorisi. |
-| NotFinishedOnTime | `79` | Zamanında Bitirilmedi kategorisi. |
-| NotFlag1 | `80` | Bayrak1 kategorisi değil. |
-| NotFlag2 | `81` | Bayrak2 kategorisi değil. |
-| NotFlag3 | `82` | Bayrak 3 kategorisi değil. |
-| NotFlag4 | `83` | Bayrak 4 kategorisi değil. |
-| NotFlag5 | `84` | Bayraklı Değil5 kategorisi. |
-| NotFlag6 | `85` | Bayrak 6 kategorisi değil. |
-| NotFlag7 | `86` | İşaretsiz7 kategorisi. |
-| NotFlag8 | `87` | Bayrak 8 kategorisi değil. |
-| NotFlag9 | `88` | Bayrak9 kategorisi değil. |
+| NotNormal | `64` | Normal değil |
+| NotMilestone | `65` | Kilometre taşı olmayan kategori. |
+| NotSummary | `66` | Özet olmayan kategori. |
+| NotCritical | `67` | Kritik olmayan kategori. |
+| NotMarked | `69` | İşaretli değil = 69 kategori. |
+| NotInProgress | `71` | Devam ediyor değil = 71 kategori. |
+| NotStartedLate | `74` | Başlatılmadı Geç = 74 kategori. |
+| NotFinishedLate | `75` | Tamamlanmadı Geç kategori. |
+| NotStartedEarly | `76` | Başlamamış Erken kategori. |
+| NotFinishedEarly | `77` | Tamamlanmadı Erken kategori. |
+| NotStartedOnTime | `78` | Zamanında Başlamamış kategori. |
+| NotFinishedOnTime | `79` | Zamanında Tamamlanmadı kategori. |
+| NotFlag1 | `80` | Flag1 olmayan kategori. |
+| NotFlag2 | `81` | Flag2 olmayan kategori. |
+| NotFlag3 | `82` | Flag3 olmayan kategori. |
+| NotFlag4 | `83` | Flag4 olmayan kategori. |
+| NotFlag5 | `84` | Flag5 olmayan kategori. |
+| NotFlag6 | `85` | Flag6 olmayan kategori. |
+| NotFlag7 | `86` | Flag7 olmayan kategori. |
+| NotFlag8 | `87` | Flag8 olmayan kategori. |
+| NotFlag9 | `88` | Flag9 kategorisi değil. |
 | NotFlag10 | `89` | Flag10 kategorisi değil. |
-| NotRolledUp | `90` | Toplanmamış kategorisi. |
-| NotProjectSummary | `91` | Proje Özeti değil kategorisi. |
-| NotSplit | `92` | Bölünmemiş kategori. |
-| NotExternalTasks | `93` | Harici Görevler Değil kategorisi. |
+| NotRolledUp | `90` | Toplanmış kategori değil. |
+| NotProjectSummary | `91` | Proje Özeti kategorisi değil. |
+| NotSplit | `92` | Bölünmüş kategori değil. |
+| NotExternalTasks | `93` | Harici Görevler kategorisi değil. |
 | NotFlag11 | `94` | Flag11 kategorisi değil. |
 | NotFlag12 | `95` | Flag12 kategorisi değil. |
 | NotFlag13 | `96` | Flag13 kategorisi değil. |
 | NotFlag14 | `97` | Flag14 kategorisi değil. |
-| NotFlag15 | `98` | Bayrak 15 kategorisi değil. |
-| NotFlag16 | `99` | Bayrak 16 kategorisi değil. |
+| NotFlag15 | `98` | Flag15 kategorisi değil. |
+| NotFlag16 | `99` | Flag16 kategorisi değil. |
 | NotFlag17 | `100` | Flag17 kategorisi değil. |
-| NotFlag18 | `101` | Bayrak 18 kategorisi değil. |
+| NotFlag18 | `101` | Flag18 kategorisi değil. |
 | NotFlag19 | `102` | Flag19 kategorisi değil. |
 | NotFlag20 | `103` | Flag20 kategorisi değil. |
-| NotGroupBySummary | `104` | Özet kategorisine göre gruplanmaz. |
-| NotDeliverable | `105` | Teslim Edilemez kategorisi. |
-| NotDependency | `106` | Bağımlı Değil kategorisi. |
-| NotActive | `107` | Etkin Değil kategorisi. |
-| NotManuallyScheduled | `108` | Manuel Olarak Zamanlanmamış kategorisi. |
-| NotWarning | `109` | Uyarı Değil kategorisi. |
-| NotPlaceholderStart | `110` | Yer Tutucu Değil (Başlangıç) kategorisi. |
-| NotPlaceholderFinish | `111` | Yer Tutucu Değil (Bitiş) kategorisi. |
-| NotPlaceholderDuration | `112` | Yer Tutucu Değil (Süre) kategorisi. |
-| NotPlaceholder | `113` | Yer Tutucu değil kategorisi. |
-| NotLate | `114` | Geç Değil kategorisi. |
+| NotGroupBySummary | `104` | Group By Summary kategorisi değil. |
+| NotDeliverable | `105` | Teslim Edilebilir kategori değil. |
+| NotDependency | `106` | Bağımlılık kategorisi değil. |
+| NotActive | `107` | Aktif kategori değil. |
+| NotManuallyScheduled | `108` | Manuel Olarak Planlanmış kategori değil. |
+| NotWarning | `109` | Uyarı kategorisi değil. |
+| NotPlaceholderStart | `110` | Yer Tutucu (Başlangıç) kategorisi değil. |
+| NotPlaceholderFinish | `111` | Yer Tutucu (Bitiş) kategorisi değil. |
+| NotPlaceholderDuration | `112` | Yer Tutucu (Süre) kategorisi değil. |
+| NotPlaceholder | `113` | Yer tutucu olmayan kategori. |
+| NotLate | `114` | Geçikme olmayan kategori. |
 
-### Notlar
+## Açıklamalar
 
-Gantt grafiğinin 'Çubuk Stilleri' iletişim kutusu, 'Şunun İçin Göster' sütununa bakın.
+Gantt şemasının 'Bar Styles' iletişim kutusuna, 'Show For' sütununa bakın.
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+ShowFor kategorilerinin nasıl kullanılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var view = (GanttChartView)project.DefaultView;
+
+var barStyle = this.GetCustomBarStyle();
+barStyle.ShowForTaskUid = null;
+
+var showForCategories = new[]
+{
+    GanttBarShowFor.Active,
+    GanttBarShowFor.NotSummary,
+    GanttBarShowFor.Milestone,
+    GanttBarShowFor.Finished
+};
+
+barStyle.ShowForCategories = new List<GanttBarShowFor>(showForCategories);
+barStyle.Name = "My common style";
+view.BarStyles.Add(barStyle);
+
+// projeyle çalış...
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

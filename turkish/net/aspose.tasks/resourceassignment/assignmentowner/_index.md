@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.AssignmentOwner
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. AssignmentOwner. değerini alır veya ayarlar.
+title: "ResourceAssignment.AssignmentOwner"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. AssignmentOwner değerini alır veya ayarlar"
 type: docs
 weight: 100
 url: /tr/net/aspose.tasks/resourceassignment/assignmentowner/
 ---
 ## ResourceAssignment.AssignmentOwner property
 
-AssignmentOwner. değerini alır veya ayarlar.
+AssignmentOwner değerini alır veya ayarlar.
 
 ```csharp
 public string AssignmentOwner { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,41 +1,66 @@
 ---
-title: Enum BackgroundPattern
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.BackgroundPattern Sıralama. Arka plan modelini belirtir.
+title: "Enum BackgroundPattern"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.BackgroundPattern enum. Arka plan desenini belirtir"
 type: docs
 weight: 100
 url: /tr/net/aspose.tasks/backgroundpattern/
 ---
 ## BackgroundPattern enumeration
 
-Arka plan modelini belirtir.
+Arka plan desenini belirtir.
 
 ```csharp
 public enum BackgroundPattern
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| DarkDiagonalLeft | `7` | Koyu çapraz sol arka plan desenini belirtir. |
-| DarkDiagonalRight | `8` | Koyu çapraz sağ arka plan desenini belirtir. |
-| DarkDither | `13` | Koyu renk taklidi arka plan desenini belirtir. |
-| DarkFill | `4` | Koyu dolgu arka plan desenini belirtir. |
-| DiagonalLeft | `5` | Çapraz sol arka plan desenini belirtir. |
-| DiagonalRight | `6` | Çapraz sağ arka plan desenini belirtir. |
-| Hollow | `0` | İçi boş arka plan desenini gösterir. |
-| LightDither | `11` | Açık renk titremesi arka plan desenini gösterir. |
-| LightFill | `2` | Açık dolgu arka plan desenini belirtir. |
-| MediumDither | `12` | Orta renk titremesi arka plan modelini gösterir. |
-| MediumFill | `3` | Orta dolgulu arka plan desenini gösterir. |
-| MediumVerticalStripe | `10` | Orta dikey çizgili arka plan desenini belirtir. |
-| SolidFill | `1` | Düz dolgu arka plan desenini gösterir. |
-| ThinVerticalStripe | `9` | İnce dikey çizgili arka plan desenini belirtir. |
+| DarkDiagonalLeft | `7` | Koyu sol çapraz arka plan desenini gösterir. |
+| DarkDiagonalRight | `8` | Koyu sağ çapraz arka plan desenini gösterir. |
+| DarkDither | `13` | Koyu benekli arka plan desenini gösterir. |
+| DarkFill | `4` | Koyu doldurulmuş arka plan desenini gösterir. |
+| DiagonalLeft | `5` | Sol çapraz arka plan desenini gösterir. |
+| DiagonalRight | `6` | Sağ çapraz arka plan desenini gösterir. |
+| Hollow | `0` | Boş arka plan desenini gösterir. |
+| LightDither | `11` | Açık titreme arka plan desenini gösterir. |
+| LightFill | `2` | Açık dolgu arka plan desenini gösterir. |
+| MediumDither | `12` | Orta titreme arka plan desenini gösterir. |
+| MediumFill | `3` | Orta dolgu arka plan desenini gösterir. |
+| MediumVerticalStripe | `10` | Orta dikey şerit arka plan desenini gösterir. |
+| SolidFill | `1` | Katı dolgu arka plan desenini gösterir. |
+| ThinVerticalStripe | `9` | İnce dikey şerit arka plan desenini gösterir. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Bir projedeki farklı metin öğelerini biçimlendirmek için kullanılan metin stillerinin nasıl özelleştirileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

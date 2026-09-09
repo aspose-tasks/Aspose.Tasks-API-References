@@ -1,7 +1,7 @@
 ---
-title: Filter.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: Filter yöntem. Bu örneğin belirtilen AssignmentBaseline nesnesine eşit olup olmadığını gösteren bir değer döndürür.
+title: "Filter.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Filter yöntemi. Bu örneğin belirtilen AssignmentBaseline nesnesine eşit olup olmadığını gösteren bir değer döndürür"
 type: docs
 weight: 100
 url: /tr/net/aspose.tasks/filter/equals/
@@ -14,19 +14,36 @@ Bu örneğin belirtilen AssignmentBaseline nesnesine eşit olup olmadığını g
 public bool Equals(Filter other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | Filter | bu örnekle karşılaştırmak için belirtilen AssignmentBaseline nesnesi. |
+| diğer | Filter | bu örnekle karşılaştırmak için belirtilen AssignmentBaseline nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu örnek belirtilen AssignmentBaseline nesnesine eşitse true değerini döndürür; Aksi takdirde, yanlış.
+bu örnek belirtilen AssignmentBaseline nesnesine eşitse true, aksi takdirde false döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Filtre eşitliğini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// Filtrelerin eşitliği, filtrenin UID'sine karşı kontrol edilir.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### Ayrıca Bakınız
 
 * class [Filter](../)
-* ad alanı [Aspose.Tasks](../../filter/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +55,35 @@ Bu örneğin belirtilen AssignmentBaseline nesnesine eşit olup olmadığını g
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | obj | Object | bu örnekle karşılaştırmak için belirtilen AssignmentBaseline nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu örnek belirtilen AssignmentBaseline nesnesine eşitse true değerini döndürür; Aksi takdirde, yanlış.
+bu örnek belirtilen AssignmentBaseline nesnesine eşitse true, aksi takdirde false döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Filtre eşitliğini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// Filtrelerin eşitliği, filtrenin UID'sine karşı kontrol edilir.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### Ayrıca Bakınız
 
 * class [Filter](../)
-* ad alanı [Aspose.Tasks](../../filter/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

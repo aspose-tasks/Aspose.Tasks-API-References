@@ -1,23 +1,23 @@
 ---
-title: Resource.Uid
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Uid. değerini alır veya ayarlar
+title: "Kaynak.Uid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Kaynak özelliği. Uid için bir değeri alır veya ayarlar."
 type: docs
-weight: 770
+weight: 760
 url: /tr/net/aspose.tasks/resource/uid/
 ---
 ## Resource.Uid property
 
-Uid. değerini alır veya ayarlar
+Uid değerini alır veya ayarlar.
 
 ```csharp
 public int Uid { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Project.Subject
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Konu değerini alır veya ayarlar.
+title: "Project.Subject"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. Subject değerini alır veya ayarlar."
 type: docs
-weight: 860
+weight: 890
 url: /tr/net/aspose.tasks/project/subject/
 ---
 ## Project.Subject property
 
-Konu değerini alır veya ayarlar.
+Subject değerini alır veya ayarlar.
 
 ```csharp
 public string Subject { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

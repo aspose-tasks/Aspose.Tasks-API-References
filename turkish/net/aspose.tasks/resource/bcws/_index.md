@@ -1,23 +1,23 @@
 ---
-title: Resource.BCWS
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir ZÇBM değeri alır veya ayarlar.
+title: "Resource.BCWS"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. BCWS değerini alır veya ayarlar"
 type: docs
 weight: 180
 url: /tr/net/aspose.tasks/resource/bcws/
 ---
 ## Resource.BCWS property
 
-Bir ZÇBM değeri alır veya ayarlar.
+BCWS değerini alır veya ayarlar.
 
 ```csharp
 public double BCWS { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

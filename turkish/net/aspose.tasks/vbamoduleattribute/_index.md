@@ -1,37 +1,55 @@
 ---
-title: Class VbaModuleAttribute
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.VbaModuleAttribute sınıf. ÖzniteliğiVbaModule nesne
+title: "Class VbaModuleAttribute"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.VbaModuleAttribute sınıfı. VbaModule nesnesinin özelliği"
 type: docs
-weight: 2500
+weight: 2820
 url: /tr/net/aspose.tasks/vbamoduleattribute/
 ---
 ## VbaModuleAttribute class
 
-Özniteliği[`VbaModule`](../vbamodule/) nesne
+[`VbaModule`](../vbamodule/) nesnesinin özelliği
 
 ```csharp
-public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
+public sealed class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Key](../../aspose.tasks/vbamoduleattribute/key/) { get; } | VBA modülü özniteliğinin anahtarını alır. |
-| [Value](../../aspose.tasks/vbamoduleattribute/value/) { get; } | VBA modülü özniteliğinin değerini alır. |
+| [Key](../../aspose.tasks/vbamoduleattribute/key/) { get; } | VBA modül özelliğinin anahtarını alır. |
+| [Value](../../aspose.tasks/vbamoduleattribute/value/) { get; } | VBA modül özelliğinin değerini alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals_1)(object) | Bu örneğin belirtilene eşit olup olmadığını gösteren bir değer döndürür`VbaModuleAttribute` nesne. |
-| [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals)(VbaModuleAttribute) | Bu örneğin belirtilene eşit olup olmadığını gösteren bir değer döndürür`VbaModuleAttribute` nesne. |
-| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode/)() | Bunun için bir karma kod değeri döndürür`VbaModuleAttribute` . |
+| override [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals_1)(object) | Belirtilen `VbaModuleAttribute` nesnesine eşit olup olmadığını gösteren bir değer döndürür. |
+| [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals)(VbaModuleAttribute) | Belirtilen `VbaModuleAttribute` nesnesine eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode/)() | Bu `VbaModuleAttribute` için bir karma kod değeri döndürür. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+VBA modül öznitelikleriyle nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

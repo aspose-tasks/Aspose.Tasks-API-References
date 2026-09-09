@@ -1,26 +1,38 @@
 ---
-title: Prj.MoveCompletedEndsBack
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Durum tarihinden sonra start olarak planlanan ancak daha önce başlatılan görevlerin tamamlanmış bölümlerinin sonunun durum tarihine geri taşınması gerekip gerekmediğini belirler.
+title: "Prj.MoveCompletedEndsBack"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Durum tarihinden sonra başlaması planlanan ancak daha erken başlayan görevlerin tamamlanmış bölümlerinin sonunun durum tarihine geri taşınıp taşınmayacağını belirler"
 type: docs
-weight: 480
+weight: 490
 url: /tr/net/aspose.tasks/prj/movecompletedendsback/
 ---
 ## Prj.MoveCompletedEndsBack field
 
-Durum tarihinden sonra start olarak planlanan ancak daha önce başlatılan görevlerin tamamlanmış bölümlerinin sonunun durum tarihine geri taşınması gerekip gerekmediğini belirler.
+Durum tarihinden sonra başlaması planlanan ancak daha erken başlayan görevlerin tamamlanmış bölümlerinin sonunun durum tarihine geri taşınıp taşınmayacağını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveCompletedEndsBack;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.MoveCompletedEndsBack özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveCompletedEndsBack, true);
+
+Console.WriteLine("Move Completed Ends Back: " + project.Get(Prj.MoveCompletedEndsBack));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

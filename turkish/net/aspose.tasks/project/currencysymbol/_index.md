@@ -1,23 +1,23 @@
 ---
-title: Project.CurrencySymbol
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. CurrencySymbol. değerini alır veya ayarlar
+title: "Project.CurrencySymbol"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. CurrencySymbol değerini alır veya ayarlar"
 type: docs
-weight: 210
+weight: 220
 url: /tr/net/aspose.tasks/project/currencysymbol/
 ---
 ## Project.CurrencySymbol property
 
-CurrencySymbol. değerini alır veya ayarlar
+CurrencySymbol değerini alır veya ayarlar.
 
 ```csharp
 public string CurrencySymbol { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

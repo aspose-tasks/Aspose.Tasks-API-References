@@ -1,23 +1,23 @@
 ---
-title: RecurringInterval.RecurringInterval
-second_title: Aspose.Tasks for .NET API Referansı
-description: RecurringInterval inşaatçı. Default_Constructor
+title: "RecurringInterval.RecurringInterval"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "RecurringInterval yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.visualization/recurringinterval/recurringinterval/
 ---
 ## RecurringInterval constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public RecurringInterval()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [RecurringInterval](../)
-* ad alanı [Aspose.Tasks.Visualization](../../recurringinterval/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../recurringinterval/)
+* assembly [Aspose.Tasks](../../../)
 
 

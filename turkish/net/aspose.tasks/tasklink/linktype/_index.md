@@ -1,7 +1,7 @@
 ---
-title: TaskLink.LinkType
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskLink mülk. Bir bağlantının türünü alır veya ayarlar.
+title: "TaskLink.LinkType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskLink özelliği. Bağlantının tipini alır veya ayarlar"
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks/tasklink/linktype/
@@ -14,11 +14,32 @@ Bir bağlantının türünü alır veya ayarlar.
 public TaskLinkType LinkType { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir görev bağlantısının bağlantı türünü nasıl alıp/ayarlayacağınızı gösterir.
+
+```csharp
+var project = new Project();
+
+// Yeni görevler ekle
+var pred = project.RootTask.Children.Add("Task 1");
+var succ = project.RootTask.Children.Add("Task 2");
+
+// Görevleri Bağlantı türü Başlangıç‑Başlangıç olarak ayarlayarak bağla
+var newLink = project.TaskLinks.Add(pred, succ);
+newLink.LinkType = TaskLinkType.StartToStart;
+
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("Task Link Type: " + link.LinkType.ToString());
+}
+```
+
+### Ayrıca Bakınız
 
 * enum [TaskLinkType](../../tasklinktype/)
 * class [TaskLink](../)
-* ad alanı [Aspose.Tasks](../../tasklink/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

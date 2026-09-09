@@ -1,42 +1,113 @@
 ---
-title: Class WorkingTimeCollection
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.WorkingTimeCollection sınıf. Bir koleksiyonu temsil ederWorkingTimeCollection nesneler.
+title: "WorkingTimeCollection sınıfı"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.WorkingTimeCollection sınıfı. WorkingTimeCollection nesnelerinin bir koleksiyonunu temsil eder"
 type: docs
-weight: 3310
+weight: 3670
 url: /tr/net/aspose.tasks/workingtimecollection/
 ---
 ## WorkingTimeCollection class
 
-Bir koleksiyonu temsil eder`WorkingTimeCollection` nesneler.
+`WorkingTimeCollection` nesnelerinin bir koleksiyonunu temsil eder.
 
 ```csharp
 public class WorkingTimeCollection : IList<WorkingTime>
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.tasks/workingtimecollection/count/) { get; } | Bu dosyada bulunan nesnelerin sayısını alır.`WorkingTimeCollection` nesne. |
-| [Item](../../aspose.tasks/workingtimecollection/item/) { get; set; } | Belirtilen dizindeki öğeyi döndürür. |
+| [Count](../../aspose.tasks/workingtimecollection/count/) { get; } | Bu `WorkingTimeCollection` nesnesinde bulunan nesne sayısını alır. |
+| [Item](../../aspose.tasks/workingtimecollection/item/) { get; set; } | Belirtilen indeksteki öğeyi döndürür. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.tasks/workingtimecollection/add/)(WorkingTime) | Bu koleksiyona yeni bir WorkingTime örneği ekler. |
-| [Clear](../../aspose.tasks/workingtimecollection/clear/)() | Tümünü kaldırır[`WorkingTime`](../workingtime/) koleksiyondaki öğeler. |
-| [Contains](../../aspose.tasks/workingtimecollection/contains/)(WorkingTime) | Belirtilen öğenin Listede olup olmadığını kontrol eder. Doğrusal bir O(n) araması gerçekleştirir. |
-| [CopyTo](../../aspose.tasks/workingtimecollection/copyto/)(WorkingTime[], int) | , belirli bir dizinden başlayarak bir koleksiyon içeriğini bir Diziye kopyalar |
-| [GetEnumerator](../../aspose.tasks/workingtimecollection/getenumerator/)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
-| [Remove](../../aspose.tasks/workingtimecollection/remove/)(WorkingTime) | Kaldırır[`WorkingTime`](../workingtime/) bu koleksiyondan örnek. |
-| [ToList](../../aspose.tasks/workingtimecollection/tolist/)() | WorkingTimeCollection nesnesini bir listeye dönüştürür[`WorkingTime`](../workingtime/) nesneler. |
+| [Clear](../../aspose.tasks/workingtimecollection/clear/)() | Koleksiyondan tüm [`WorkingTime`](../workingtime/) öğelerini kaldırır. |
+| [Contains](../../aspose.tasks/workingtimecollection/contains/)(WorkingTime) | Belirtilen öğenin Listede olup olmadığını kontrol eder. Doğrusal O(n) arama gerçekleştirir. |
+| [CopyTo](../../aspose.tasks/workingtimecollection/copyto/)(WorkingTime[], int) | Bir koleksiyon içeriğini belirli bir indeksten başlayarak bir Array'e kopyalar |
+| [GetEnumerator](../../aspose.tasks/workingtimecollection/getenumerator/)() | Bu koleksiyon için bir enumerator döndürür. |
+| [Remove](../../aspose.tasks/workingtimecollection/remove/)(WorkingTime) | Bu koleksiyondan [`WorkingTime`](../workingtime/) örneğini kaldırır. |
+| [ToList](../../aspose.tasks/workingtimecollection/tolist/)() | WorkingTimeCollection nesnesini [`WorkingTime`](../workingtime/) nesnelerinin bir listesine dönüştürür. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Working time koleksiyonuyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Custom Calendar");
+
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday));
+
+var saturdayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(8, 12),
+    new WorkingTime(13, 15)
+};
+var saturday = new WeekDay(DayType.Saturday);
+foreach (var time in saturdayWorkingTimes)
+{
+    saturday.WorkingTimes.Add(time);
+}
+
+// Cumartesi çalışma zamanlarını yazdır
+Console.WriteLine("Saturday working period number: " + saturday.WorkingTimes.Count);
+foreach (var time in saturday.WorkingTimes)
+{
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+var sundayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(10, 15)
+};
+var sunday = new WeekDay(DayType.Sunday, sundayWorkingTimes);
+
+// Pazar çalışma zamanlarını yazdır
+List<WorkingTime> workingTimes = sunday.WorkingTimes.ToList();
+Console.WriteLine("Sunday working period number: " + workingTimes.Count);
+for (var index = 0; index < workingTimes.Count; index++)
+{
+    var time = workingTimes[index];
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+calendar.WeekDays.Add(saturday);
+calendar.WeekDays.Add(sunday);
+
+foreach (var day in calendar.WeekDays)
+{
+    Console.WriteLine(day.DayType + ": ");
+
+    // Çalışma zamanları arasında daha fazla dolaşabilir ve bunları görüntüleyebilirsiniz.
+    foreach (var workingTime in day.WorkingTimes)
+    {
+        Console.WriteLine(workingTime.From);
+        Console.WriteLine(workingTime.To);
+    }
+
+    Console.WriteLine();
+}
+```
+
+### Ayrıca Bakınız
 
 * class [WorkingTime](../workingtime/)
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 
