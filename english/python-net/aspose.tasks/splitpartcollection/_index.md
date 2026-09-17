@@ -3,7 +3,7 @@ title: SplitPartCollection
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1060
+weight: 1080
 url: /python-net/aspose.tasks/splitpartcollection/
 ---
 
