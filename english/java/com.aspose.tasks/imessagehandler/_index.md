@@ -3,7 +3,7 @@ title: IMessageHandler
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback the results of resource leveling.
 type: docs
-weight: 381
+weight: 382
 url: /java/com.aspose.tasks/imessagehandler/
 ---
 ```

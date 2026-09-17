@@ -3,7 +3,7 @@ title: RiskPattern
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a risk pattern for a project task.
 type: docs
-weight: 268
+weight: 269
 url: /java/com.aspose.tasks/riskpattern/
 ---
 

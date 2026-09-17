@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a task in a project.
 type: docs
-weight: 289
+weight: 290
 url: /java/com.aspose.tasks/task/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/task/
 java.lang.Object, com.aspose.tasks.IContainer
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, java.lang.Cloneable
+com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, java.lang.Cloneable, com.aspose.tasks.ITimephasedDataProvider
 ```
-public class Task extends IContainer<Byte> implements System.IEquatable<Task>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, Cloneable
+public class Task extends IContainer<Byte> implements System.IEquatable<Task>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, Cloneable, ITimephasedDataProvider
 ```
 
 Represents a task in a project.

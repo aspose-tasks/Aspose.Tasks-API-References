@@ -3,7 +3,7 @@ title: Resource
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource in a project.
 type: docs
-weight: 248
+weight: 249
 url: /java/com.aspose.tasks/resource/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/resource/
 java.lang.Object, com.aspose.tasks.IContainer
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink
+com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, com.aspose.tasks.ITimephasedDataProvider
 ```
-public class Resource extends IContainer<Byte> implements System.IEquatable<Resource>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
+public class Resource extends IContainer<Byte> implements System.IEquatable<Resource>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, ITimephasedDataProvider
 ```
 
 Represents a resource in a project.
