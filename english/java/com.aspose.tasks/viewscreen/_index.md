@@ -3,7 +3,7 @@ title: ViewScreen
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the screen type for a view.
 type: docs
-weight: 345
+weight: 346
 url: /java/com.aspose.tasks/viewscreen/
 ---
 

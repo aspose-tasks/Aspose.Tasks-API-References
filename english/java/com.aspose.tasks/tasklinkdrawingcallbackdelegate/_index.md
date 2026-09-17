@@ -3,7 +3,7 @@ title: TaskLinkDrawingCallbackDelegate
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback that is called when a task link is rendered in a Gantt chart view.
 type: docs
-weight: 298
+weight: 299
 url: /java/com.aspose.tasks/tasklinkdrawingcallbackdelegate/
 ---
 
