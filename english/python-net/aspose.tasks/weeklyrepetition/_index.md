@@ -3,7 +3,7 @@ title: WeeklyRepetition
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1490
+weight: 1510
 url: /python-net/aspose.tasks/weeklyrepetition/
 ---
 
