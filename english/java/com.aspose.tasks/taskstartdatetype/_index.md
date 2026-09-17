@@ -3,7 +3,7 @@ title: TaskStartDateType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the type of a tasks start date.
 type: docs
-weight: 300
+weight: 301
 url: /java/com.aspose.tasks/taskstartdatetype/
 ---
 

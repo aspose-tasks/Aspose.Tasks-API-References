@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 249
+weight: 250
 url: /java/com.aspose.tasks/resourceassignment/
 ---
 

@@ -28,11 +28,13 @@ Allows to specify additional load parameters when loading a project from file or
 | [getErrorHandler()](#getErrorHandler--) | Gets a callback method to handle xml parse errors. |
 | [getPassword()](#getPassword--) | Gets a protection password. |
 | [getPrimaveraReadOptions()](#getPrimaveraReadOptions--) | Gets a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml). |
+| [getProjectLoadingCallback()](#getProjectLoadingCallback--) | Gets the callback to be invoked during project loading operations. |
 | [setCancellationToken(CancellationToken value)](#setCancellationToken-com.aspose.tasks.CancellationToken-) | Sets a token which can be used to cancel a project loading operation. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets encoding which is used to read a project from HTML, MPX, XER and Primavera XML formats. |
 | [setErrorHandler(ParseErrorCallback value)](#setErrorHandler-com.aspose.tasks.ParseErrorCallback-) | Sets a callback method to handle xml parse errors. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets a protection password. |
 | [setPrimaveraReadOptions(PrimaveraReadOptions value)](#setPrimaveraReadOptions-com.aspose.tasks.PrimaveraReadOptions-) | Sets a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml). |
+| [setProjectLoadingCallback(IProgressNotificationCallback value)](#setProjectLoadingCallback-com.aspose.tasks.IProgressNotificationCallback-) | Sets the callback to be invoked during project loading operations. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -91,6 +93,16 @@ Gets a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/p
 
 **Returns:**
 [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) - a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml).
+### getProjectLoadingCallback() {#getProjectLoadingCallback--}
+```
+public final IProgressNotificationCallback getProjectLoadingCallback()
+```
+
+
+Gets the callback to be invoked during project loading operations. Currently supported for MPP format.
+
+**Returns:**
+[IProgressNotificationCallback](../../com.aspose.tasks/iprogressnotificationcallback) - the callback to be invoked during project loading operations.
 ### setCancellationToken(CancellationToken value) {#setCancellationToken-com.aspose.tasks.CancellationToken-}
 ```
 public final void setCancellationToken(CancellationToken value)
@@ -155,4 +167,17 @@ Sets a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/p
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) | a specified instance of the [PrimaveraReadOptions](../../com.aspose.tasks/primaverareadoptions) class which can be used to customize the behavior of loading Primavera formats (Primavera P6 XER or Primavera P6 Xml). |
+
+### setProjectLoadingCallback(IProgressNotificationCallback value) {#setProjectLoadingCallback-com.aspose.tasks.IProgressNotificationCallback-}
+```
+public final void setProjectLoadingCallback(IProgressNotificationCallback value)
+```
+
+
+Sets the callback to be invoked during project loading operations. Currently supported for MPP format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IProgressNotificationCallback](../../com.aspose.tasks/iprogressnotificationcallback) | the callback to be invoked during project loading operations. |
 

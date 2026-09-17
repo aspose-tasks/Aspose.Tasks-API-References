@@ -222,6 +222,7 @@ url: /java/com.aspose.tasks/
 | [PrjKey](../com.aspose.tasks/prjkey) | Represents a list of supported project fields. |
 | [ProbabilityDistributionType](../com.aspose.tasks/probabilitydistributiontype) | Specifies types of supported probability distributions. |
 | [ProgressLines](../com.aspose.tasks/progresslines) | Represents progress lines in a Gantt Chart view. |
+| [ProgressNotificationArgs](../com.aspose.tasks/progressnotificationargs) | Provides progress information for [IProgressNotificationCallback.\#notify(ProgressNotificationArgs)](../com.aspose.tasks/iprogressnotificationcallback\#notify-ProgressNotificationArgs-). |
 | [Project](../com.aspose.tasks/project) | Represents a project. |
 | [ProjectDisplayOptions](../com.aspose.tasks/projectdisplayoptions) | Represents the display options for a project instance. |
 | [ProjectFileInfo](../com.aspose.tasks/projectfileinfo) | The class instance contains information about project file format and version of Microsoft Project where the file was created. |
@@ -391,6 +392,7 @@ url: /java/com.aspose.tasks/
 | [IImageSavingCallback](../com.aspose.tasks/iimagesavingcallback) | Represents a callback that is called to create resource to store images. |
 | [IMessageHandler](../com.aspose.tasks/imessagehandler) | Represents a callback the results of resource leveling. |
 | [IPageSavingCallback](../com.aspose.tasks/ipagesavingcallback) | Represents a callback that is called when each page in multi page document is saved to a separate stream. |
+| [IProgressNotificationCallback](../com.aspose.tasks/iprogressnotificationcallback) | Represents a callback for receiving notifications during long-running project operations. |
 | [ITextStyleModificationCallback](../com.aspose.tasks/itextstylemodificationcallback) | Represents a callback that is called before TextStyle is applied to a table cell. |
 | [ITreeAlgorithm&lt;T&gt;](../com.aspose.tasks/itreealgorithm) | Represents an algorithm that can be applied to a tree of objects `T`. |
 | [IVbaModule](../com.aspose.tasks/ivbamodule) | Represents a module with VBA code. |

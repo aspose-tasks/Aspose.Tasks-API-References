@@ -3,7 +3,7 @@ title: TaskBaseline
 second_title: Aspose.Tasks for Java API Reference
 description: Represents Baseline of a Task.
 type: docs
-weight: 291
+weight: 292
 url: /java/com.aspose.tasks/taskbaseline/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/taskbaseline/
 java.lang.Object, [com.aspose.tasks.Baseline](../../com.aspose.tasks/baseline)
 
 **All Implemented Interfaces:**
-java.lang.Comparable
+java.lang.Comparable, com.aspose.tasks.ITimephasedDataProvider
 ```
-public class TaskBaseline extends Baseline implements Comparable<Baseline>
+public class TaskBaseline extends Baseline implements Comparable<Baseline>, ITimephasedDataProvider
 ```
 
 Represents Baseline of a Task.

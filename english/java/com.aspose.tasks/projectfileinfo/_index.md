@@ -3,7 +3,7 @@ title: ProjectFileInfo
 second_title: Aspose.Tasks for Java API Reference
 description: The class instance contains information about project file format and version of Microsoft Project where the file was created.
 type: docs
-weight: 222
+weight: 223
 url: /java/com.aspose.tasks/projectfileinfo/
 ---
 
