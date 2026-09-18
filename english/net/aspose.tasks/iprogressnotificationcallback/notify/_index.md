@@ -18,6 +18,23 @@ public void Notify(ProgressNotificationArgs args)
 | --- | --- | --- |
 | args | ProgressNotificationArgs | A [`ProgressNotificationArgs`](../../progressnotificationargs/) object containing progress information for the current operation. |
 
+## Examples
+
+Shows how to use progress notification callback when loading a project.
+
+```csharp
+var loadOptions = new LoadOptions
+{
+    // Set the callback to receive progress updates
+    ProjectLoadingCallback = new ProgressNotificationCallbackImplementation()
+};
+
+// Load the project with progress notification
+var project = new Project(DataDir + "Project.mpp", loadOptions);
+
+Console.WriteLine("Project loaded successfully.");
+```
+
 ### See Also
 
 * class [ProgressNotificationArgs](../../progressnotificationargs/)

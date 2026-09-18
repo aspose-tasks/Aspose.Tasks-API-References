@@ -31,7 +31,7 @@ public class AssignmentBaseline : Baseline, IComparable<AssignmentBaseline>,
 | [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
 | [Finish](../../aspose.tasks/assignmentbaseline/finish/) { get; set; } | Gets or sets the scheduled finish date of the resource assignment when the baseline was saved. The finish date of the resource assignment when this baseline was saved. |
 | [Start](../../aspose.tasks/assignmentbaseline/start/) { get; set; } | Gets or sets the scheduled start date of the resource assignment when the baseline was saved. The start date of the resource assignment when this baseline was saved. |
-| [TimephasedData](../../aspose.tasks/assignmentbaseline/timephaseddata/) { get; set; } | Gets or sets the [`TimephasedDataCollection`](../timephaseddatacollection/) instance for this object. The time phased data associated with the resource assignment baseline. returns [`TimephasedDataCollection`](../timephaseddatacollection/) instance for this object.The collection of Time phased data associated with this baseline. |
+| [TimephasedData](../../aspose.tasks/baseline/timephaseddata/) { get; set; } | Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the baseline. |
 | [Work](../../aspose.tasks/baseline/work/) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods

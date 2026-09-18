@@ -3,7 +3,7 @@ title: AssignmentBaseline.CompareTo
 second_title: Aspose.Tasks for .NET API Reference
 description: AssignmentBaseline method. IComparable interface implementation. Compares this instance to the specified Baseline object
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.tasks/assignmentbaseline/compareto/
 ---
 ## AssignmentBaseline.CompareTo method

@@ -3,7 +3,7 @@ title: Baseline.op_GreaterThanOrEqual
 second_title: Aspose.Tasks for .NET API Reference
 description: Baseline method. Returns a value indicating whether this instance is greater than or equal to a specified object
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.tasks/baseline/op_greaterthanorequal/
 ---
 ## Baseline GreaterThanOrEqual operator

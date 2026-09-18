@@ -3,7 +3,7 @@ title: ProgressNotificationArgs.CurrentStepName
 second_title: Aspose.Tasks for .NET API Reference
 description: ProgressNotificationArgs property. Gets the name of the current step part of the operation being executed
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.tasks/progressnotificationargs/currentstepname/
 ---
 ## ProgressNotificationArgs.CurrentStepName property

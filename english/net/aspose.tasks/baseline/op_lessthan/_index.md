@@ -3,7 +3,7 @@ title: Baseline.op_LessThan
 second_title: Aspose.Tasks for .NET API Reference
 description: Baseline method. Returns a value indicating whether this instance is less than a specified object
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.tasks/baseline/op_lessthan/
 ---
 ## Baseline LessThan operator

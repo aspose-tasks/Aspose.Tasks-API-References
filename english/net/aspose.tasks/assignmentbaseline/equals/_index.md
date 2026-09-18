@@ -3,7 +3,7 @@ title: AssignmentBaseline.Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: AssignmentBaseline method. Returns a value indicating whether this instance is equal to a specified object
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.tasks/assignmentbaseline/equals/
 ---
 ## Equals(object) {#equals_2}

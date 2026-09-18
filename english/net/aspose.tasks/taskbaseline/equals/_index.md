@@ -3,7 +3,7 @@ title: TaskBaseline.Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: TaskBaseline method. Returns a value indicating whether this instance is equal to the specified TaskBaseline object
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.tasks/taskbaseline/equals/
 ---
 ## Equals(TaskBaseline) {#equals_1}

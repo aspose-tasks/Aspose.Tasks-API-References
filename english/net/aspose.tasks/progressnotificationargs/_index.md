@@ -14,12 +14,6 @@ Provides data for the [`Notify`](../iprogressnotificationcallback/notify/) metho
 public sealed class ProgressNotificationArgs : EventArgs
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [ProgressNotificationArgs](progressnotificationargs/)() | Initializes a new instance of the `ProgressNotificationArgs` class. |
-
 ## Properties
 
 | Name | Description |
@@ -31,6 +25,23 @@ public sealed class ProgressNotificationArgs : EventArgs
 ## Remarks
 
 This class contains progress information about the operation.
+
+## Examples
+
+Shows how to use progress notification callback when loading a project.
+
+```csharp
+var loadOptions = new LoadOptions
+{
+    // Set the callback to receive progress updates
+    ProjectLoadingCallback = new ProgressNotificationCallbackImplementation()
+};
+
+// Load the project with progress notification
+var project = new Project(DataDir + "Project.mpp", loadOptions);
+
+Console.WriteLine("Project loaded successfully.");
+```
 
 ### See Also
 

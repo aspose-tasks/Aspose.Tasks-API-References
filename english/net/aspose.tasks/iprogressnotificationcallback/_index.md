@@ -24,6 +24,23 @@ public interface IProgressNotificationCallback
 
 This interface allows clients to receive progress updates. Implement this interface to track the operation progress.
 
+## Examples
+
+Shows how to use progress notification callback when loading a project.
+
+```csharp
+var loadOptions = new LoadOptions
+{
+    // Set the callback to receive progress updates
+    ProjectLoadingCallback = new ProgressNotificationCallbackImplementation()
+};
+
+// Load the project with progress notification
+var project = new Project(DataDir + "Project.mpp", loadOptions);
+
+Console.WriteLine("Project loaded successfully.");
+```
+
 ### See Also
 
 * namespace [Aspose.Tasks](../../aspose.tasks/)
