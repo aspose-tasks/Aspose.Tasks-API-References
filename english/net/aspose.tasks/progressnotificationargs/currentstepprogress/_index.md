@@ -3,7 +3,7 @@ title: ProgressNotificationArgs.CurrentStepProgress
 second_title: Aspose.Tasks for .NET API Reference
 description: ProgressNotificationArgs property. Gets the estimated progress percentage completed for the current step part of the operation 0100
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.tasks/progressnotificationargs/currentstepprogress/
 ---
 ## ProgressNotificationArgs.CurrentStepProgress property

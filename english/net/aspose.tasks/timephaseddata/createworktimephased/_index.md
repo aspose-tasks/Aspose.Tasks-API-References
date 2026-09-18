@@ -26,7 +26,7 @@ public static TimephasedData CreateWorkTimephased(int uid, DateTime start, DateT
 
 ### Return Value
 
-A instance of the [`TimephasedData`](../) class for work-based time phased data.
+An instance of the [`TimephasedData`](../) class for work-based time phased data.
 
 ### Exceptions
 

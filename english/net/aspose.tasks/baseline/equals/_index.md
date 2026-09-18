@@ -3,7 +3,7 @@ title: Baseline.Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: Baseline method. Returns a value indicating whether this instance is equal to a specified object
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.tasks/baseline/equals/
 ---
 ## Equals(object) {#equals_1}

@@ -28,6 +28,7 @@ public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 | [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | Gets or sets the budgeted cost of a work performed by a resource for a project to-date. |
 | [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | Gets or sets the budget cost of a work scheduled for a resource. |
 | [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | Gets or sets the projected cost of a resource when the baseline is saved. |
+| [TimephasedData](../../aspose.tasks/baseline/timephaseddata/) { get; set; } | Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the baseline. |
 | [Work](../../aspose.tasks/baseline/work/) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods

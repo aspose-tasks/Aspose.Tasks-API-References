@@ -34,7 +34,7 @@ public sealed class TaskBaseline : Baseline, IComparable<TaskBaseline>, IEquatab
 | [FixedCost](../../aspose.tasks/taskbaseline/fixedcost/) { get; set; } | Gets or sets a fixed cost of the task when the baseline was saved. |
 | [Interim](../../aspose.tasks/taskbaseline/interim/) { get; set; } | Gets or sets a value indicating whether this is an Interim Baseline. |
 | [Start](../../aspose.tasks/taskbaseline/start/) { get; set; } | Gets or sets the scheduled start date of the task when the baseline was saved. |
-| [TimephasedData](../../aspose.tasks/taskbaseline/timephaseddata/) { get; set; } | Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the task baseline. |
+| [TimephasedData](../../aspose.tasks/baseline/timephaseddata/) { get; set; } | Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the baseline. |
 | [Work](../../aspose.tasks/baseline/work/) { get; set; } | Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved. |
 
 ## Methods

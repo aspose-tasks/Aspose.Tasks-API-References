@@ -1,14 +1,14 @@
 ---
 title: Resource.Rates
 second_title: Aspose.Tasks for .NET API Reference
-description: Resource property. Gets a the instance of the RateCollection class for this object. The collection of periods and rates associated with each one
+description: Resource property. Gets the instance of the RateCollection class for this object. The collection of periods and rates associated with each one
 type: docs
 weight: 640
 url: /net/aspose.tasks/resource/rates/
 ---
 ## Resource.Rates property
 
-Gets a the instance of the [`RateCollection`](../../ratecollection/) class for this object. The collection of periods and rates associated with each one.
+Gets the instance of the [`RateCollection`](../../ratecollection/) class for this object. The collection of periods and rates associated with each one.
 
 ```csharp
 public RateCollection Rates { get; }

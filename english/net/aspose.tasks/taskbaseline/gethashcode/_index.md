@@ -3,7 +3,7 @@ title: TaskBaseline.GetHashCode
 second_title: Aspose.Tasks for .NET API Reference
 description: TaskBaseline method. Returns a hash code value for the instance of the TaskBaseline class
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.tasks/taskbaseline/gethashcode/
 ---
 ## TaskBaseline.GetHashCode method

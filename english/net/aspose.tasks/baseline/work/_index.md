@@ -3,7 +3,7 @@ title: Baseline.Work
 second_title: Aspose.Tasks for .NET API Reference
 description: Baseline property. Gets or sets the work assigned to a resource when the baseline is saved. The amount of assigned work to a resource when the baseline was saved
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.tasks/baseline/work/
 ---
 ## Baseline.Work property

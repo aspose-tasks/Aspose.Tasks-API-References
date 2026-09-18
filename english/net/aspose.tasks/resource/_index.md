@@ -30,7 +30,7 @@ public class Resource : IEquatable<Resource>
 | [AssignmentOwner](../../aspose.tasks/resource/assignmentowner/) { get; set; } | Gets or sets a value of AssignmentOwner. |
 | [AssignmentOwnerGuid](../../aspose.tasks/resource/assignmentownerguid/) { get; set; } | Gets or sets a value of AssignmentOwnerGuid. |
 | [Assignments](../../aspose.tasks/resource/assignments/) { get; } | Gets a collection of resource assignments for this object. |
-| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods/) { get; } | Gets a the instance of the [`AvailabilityPeriodCollection`](../availabilityperiodcollection/) class. The collection of periods during which a resource is available. |
+| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods/) { get; } | Gets the instance of the [`AvailabilityPeriodCollection`](../availabilityperiodcollection/) class. The collection of periods during which a resource is available. |
 | [AvailableFrom](../../aspose.tasks/resource/availablefrom/) { get; set; } | Gets or sets a value of AvailableFrom. |
 | [AvailableTo](../../aspose.tasks/resource/availableto/) { get; set; } | Gets or sets a value of AvailableTo. |
 | [Baselines](../../aspose.tasks/resource/baselines/) { get; } | Gets a BaselineCollection instance for this object. The baseline values for a resource. |
@@ -81,7 +81,7 @@ public class Resource : IEquatable<Resource>
 | [PeakUnits](../../aspose.tasks/resource/peakunits/) { get; set; } | Gets or sets a value of PeakUnits. |
 | [PercentWorkComplete](../../aspose.tasks/resource/percentworkcomplete/) { get; set; } | Gets or sets a value of PercentWorkComplete. |
 | [Phonetics](../../aspose.tasks/resource/phonetics/) { get; set; } | Gets or sets a value of Phonetics. |
-| [Rates](../../aspose.tasks/resource/rates/) { get; } | Gets a the instance of the [`RateCollection`](../ratecollection/) class for this object. The collection of periods and rates associated with each one. |
+| [Rates](../../aspose.tasks/resource/rates/) { get; } | Gets the instance of the [`RateCollection`](../ratecollection/) class for this object. The collection of periods and rates associated with each one. |
 | [RegularWork](../../aspose.tasks/resource/regularwork/) { get; set; } | Gets or sets a value of RegularWork. |
 | [RemainingCost](../../aspose.tasks/resource/remainingcost/) { get; set; } | Gets or sets a value of RemainingCost. |
 | [RemainingOvertimeCost](../../aspose.tasks/resource/remainingovertimecost/) { get; set; } | Gets or sets a value of RemainingOvertimeCost. |

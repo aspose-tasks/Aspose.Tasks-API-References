@@ -3,7 +3,7 @@ title: Baseline.op_Inequality
 second_title: Aspose.Tasks for .NET API Reference
 description: Baseline method. Returns a value indicating whether this instance is not equal to a specified object
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.tasks/baseline/op_inequality/
 ---
 ## Baseline Inequality operator

@@ -1,22 +1,18 @@
 ---
-title: Baseline.GetHashCode
+title: Baseline.TimephasedData
 second_title: Aspose.Tasks for .NET API Reference
-description: Baseline method. Returns a hash code value for the baseline
+description: Baseline property. Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the baseline
 type: docs
-weight: 100
-url: /net/aspose.tasks/baseline/gethashcode/
+weight: 60
+url: /net/aspose.tasks/baseline/timephaseddata/
 ---
-## Baseline.GetHashCode method
+## Baseline.TimephasedData property
 
-Returns a hash code value for the baseline.
+Gets or sets a TimephasedDataCollection instance for this object. The time phased data associated with the baseline.
 
 ```csharp
-public override int GetHashCode()
+public TimephasedDataCollection TimephasedData { get; set; }
 ```
-
-### Return Value
-
-returns a hash code value for this object.
 
 ## Examples
 
@@ -77,6 +73,7 @@ Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHa
 
 ### See Also
 
+* class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Baseline](../)
 * namespace [Aspose.Tasks](../../baseline/)
 * assembly [Aspose.Tasks](../../../)

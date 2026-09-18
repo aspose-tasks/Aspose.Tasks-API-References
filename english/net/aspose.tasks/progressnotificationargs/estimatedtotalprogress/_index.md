@@ -3,7 +3,7 @@ title: ProgressNotificationArgs.EstimatedTotalProgress
 second_title: Aspose.Tasks for .NET API Reference
 description: ProgressNotificationArgs property. Gets the estimated total progress of the entire operation 0100
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.tasks/progressnotificationargs/estimatedtotalprogress/
 ---
 ## ProgressNotificationArgs.EstimatedTotalProgress property

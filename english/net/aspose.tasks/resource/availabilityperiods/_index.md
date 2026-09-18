@@ -1,14 +1,14 @@
 ---
 title: Resource.AvailabilityPeriods
 second_title: Aspose.Tasks for .NET API Reference
-description: Resource property. Gets a the instance of the AvailabilityPeriodCollection class. The collection of periods during which a resource is available
+description: Resource property. Gets the instance of the AvailabilityPeriodCollection class. The collection of periods during which a resource is available
 type: docs
 weight: 130
 url: /net/aspose.tasks/resource/availabilityperiods/
 ---
 ## Resource.AvailabilityPeriods property
 
-Gets a the instance of the [`AvailabilityPeriodCollection`](../../availabilityperiodcollection/) class. The collection of periods during which a resource is available.
+Gets the instance of the [`AvailabilityPeriodCollection`](../../availabilityperiodcollection/) class. The collection of periods during which a resource is available.
 
 ```csharp
 public AvailabilityPeriodCollection AvailabilityPeriods { get; }
