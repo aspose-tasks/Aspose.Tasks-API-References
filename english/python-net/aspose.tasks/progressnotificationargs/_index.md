@@ -12,10 +12,6 @@ url: /python-net/aspose.tasks/progressnotificationargs/
 Provides data for the
 
 The ProgressNotificationArgs type exposes the following members:
-## Constructors
-| Name | Description |
-| :- | :- |
-|ProgressNotificationArgs()|Initializes a new instance of the [ProgressNotificationArgs](/tasks/python-net/aspose.tasks/progressnotificationargs/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

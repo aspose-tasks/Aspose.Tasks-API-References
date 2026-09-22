@@ -90,8 +90,8 @@ The Resource type exposes the following members:
 |extended_attributes|Gets the values of an extended attribute.|
 |baselines|Gets a BaselineCollection instance for this object.<br/>            The baseline values for a resource.|
 |outline_code|Gets an OutlineCodeCollection object.<br/>            The value of an outline code.|
-|availability_periods|Gets a the instance of the [AvailabilityPeriodCollection](/tasks/python-net/aspose.tasks/availabilityperiodcollection/) class.<br/>            The collection of periods during which a resource is available.|
-|rates|Gets a the instance of the [RateCollection](/tasks/python-net/aspose.tasks/ratecollection/) class for this object.<br/>            The collection of periods and rates associated with each one.|
+|availability_periods|Gets the instance of the [AvailabilityPeriodCollection](/tasks/python-net/aspose.tasks/availabilityperiodcollection/) class.<br/>            The collection of periods during which a resource is available.|
+|rates|Gets the instance of the [RateCollection](/tasks/python-net/aspose.tasks/ratecollection/) class for this object.<br/>            The collection of periods and rates associated with each one.|
 |assignments|Gets a collection of resource assignments for this object.|
 |timephased_data|Gets or sets an instance of [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class for this object.|
 |is_root|Gets the flag indicating whether resource is a root resource.<br/>            Root resource is a special resource which is intended to support internals of<br/>            MS Project's formats and is not intended to be used directly from the user's code.|
