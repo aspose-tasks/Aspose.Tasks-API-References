@@ -24,6 +24,7 @@ The Baseline type exposes the following members:
 |cost|Gets or sets the projected cost of a resource when the baseline is saved.|
 |bcws|Gets or sets the budget cost of a work scheduled for a resource.|
 |bcwp|Gets or sets the budgeted cost of a work performed by a resource for a project to-date.|
+|timephased_data|Gets or sets a TimephasedDataCollection instance for this object.<br/>            The time phased data associated with the baseline.|
 ## Methods
 | Name | Description |
 | :- | :- |
