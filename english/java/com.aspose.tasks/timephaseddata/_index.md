@@ -128,7 +128,7 @@ Creates and initializes a new instance of the [TimephasedData](../../com.aspose.
 | type | byte | Time-phased data type. |
 
 **Returns:**
-[TimephasedData](../../com.aspose.tasks/timephaseddata) - A instance of the [TimephasedData](../../com.aspose.tasks/timephaseddata) class for work-based time phased data.
+[TimephasedData](../../com.aspose.tasks/timephaseddata) - An instance of the [TimephasedData](../../com.aspose.tasks/timephaseddata) class for work-based time phased data.
 ### getFinish() {#getFinish--}
 ```
 public final Date getFinish()

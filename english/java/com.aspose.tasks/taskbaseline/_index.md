@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/taskbaseline/
 java.lang.Object, [com.aspose.tasks.Baseline](../../com.aspose.tasks/baseline)
 
 **All Implemented Interfaces:**
-java.lang.Comparable, com.aspose.tasks.ITimephasedDataProvider
+java.lang.Comparable
 ```
-public class TaskBaseline extends Baseline implements Comparable<Baseline>, ITimephasedDataProvider
+public class TaskBaseline extends Baseline implements Comparable<Baseline>
 ```
 
 Represents Baseline of a Task.
@@ -35,7 +35,6 @@ Represents Baseline of a Task.
 | [getFixedCost()](#getFixedCost--) | Gets a fixed cost of the task when the baseline was saved. |
 | [getInterim()](#getInterim--) | Gets a value indicating whether this is an Interim Baseline. |
 | [getStart()](#getStart--) | Gets the scheduled start date of the task when the baseline was saved. |
-| [getTimephasedData()](#getTimephasedData--) | Gets a TimephasedDataCollection instance for this object. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the instance of the [TaskBaseline](../../com.aspose.tasks/taskbaseline) class. |
 | [setDuration(Duration value)](#setDuration-com.aspose.tasks.Duration-) | Sets the scheduled duration of the task when the baseline was saved. |
 | [setEstimatedDuration(boolean value)](#setEstimatedDuration-boolean-) | Sets a value indicating whether the baseline duration of the task was estimated. |
@@ -43,7 +42,6 @@ Represents Baseline of a Task.
 | [setFixedCost(double value)](#setFixedCost-double-) | Sets a fixed cost of the task when the baseline was saved. |
 | [setInterim(boolean value)](#setInterim-boolean-) | Sets a value indicating whether this is an Interim Baseline. |
 | [setStart(Date value)](#setStart-java.util.Date-) | Sets the scheduled start date of the task when the baseline was saved. |
-| [setTimephasedData(TimephasedDataCollection value)](#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-) | Sets a TimephasedDataCollection instance for this object. |
 ### TaskBaseline(Task task) {#TaskBaseline-com.aspose.tasks.Task-}
 ```
 public TaskBaseline(Task task)
@@ -162,16 +160,6 @@ Gets the scheduled start date of the task when the baseline was saved.
 
 **Returns:**
 java.util.Date - the scheduled start date of the task when the baseline was saved.
-### getTimephasedData() {#getTimephasedData--}
-```
-public final TimephasedDataCollection getTimephasedData()
-```
-
-
-Gets a TimephasedDataCollection instance for this object. The time phased data associated with the task baseline.
-
-**Returns:**
-[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - a TimephasedDataCollection instance for this object.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -259,17 +247,4 @@ Sets the scheduled start date of the task when the baseline was saved.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | the scheduled start date of the task when the baseline was saved. |
-
-### setTimephasedData(TimephasedDataCollection value) {#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-}
-```
-public final void setTimephasedData(TimephasedDataCollection value)
-```
-
-
-Sets a TimephasedDataCollection instance for this object. The time phased data associated with the task baseline.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) | a TimephasedDataCollection instance for this object. |
 
