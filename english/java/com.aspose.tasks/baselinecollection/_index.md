@@ -9,8 +9,11 @@ url: /java/com.aspose.tasks/baselinecollection/
 
 **Inheritance:**
 java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspose.tasks.AbstractList
+
+**All Implemented Interfaces:**
+com.aspose.tasks.IBaselineCollection
 ```
-public class BaselineCollection extends AbstractList<Baseline>
+public class BaselineCollection extends AbstractList<Baseline> implements IBaselineCollection
 ```
 
 Represents a collection of [Baseline](../../com.aspose.tasks/baseline) objects.
@@ -20,6 +23,7 @@ Represents a collection of [Baseline](../../com.aspose.tasks/baseline) objects.
 | --- | --- |
 | [add(Baseline item)](#add-com.aspose.tasks.Baseline-) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
 | [get(int index)](#get-int-) | Returns the baseline at the specified position. |
+| [getByType(int baselineType)](#getByType-int-) | Gets the resource baseline with the specified type. |
 | [getParentResource()](#getParentResource--) | Gets the parent [Resource](../../com.aspose.tasks/resource) for this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes baseline from this collection. |
@@ -55,6 +59,21 @@ Returns the baseline at the specified position.
 
 **Returns:**
 [Baseline](../../com.aspose.tasks/baseline) - the baseline at the specified position.
+### getByType(int baselineType) {#getByType-int-}
+```
+public final Baseline getByType(int baselineType)
+```
+
+
+Gets the resource baseline with the specified type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baselineType | int | the specified baseline type. |
+
+**Returns:**
+[Baseline](../../com.aspose.tasks/baseline) - the resource baseline with the specified type, or `null` if no matching baseline is found.
 ### getParentResource() {#getParentResource--}
 ```
 public final Resource getParentResource()

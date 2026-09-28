@@ -9,8 +9,11 @@ url: /java/com.aspose.tasks/assignmentbaselinecollection/
 
 **Inheritance:**
 java.lang.Object, java.util.AbstractCollection, java.util.AbstractList, com.aspose.tasks.AbstractList
+
+**All Implemented Interfaces:**
+com.aspose.tasks.IBaselineCollection
 ```
-public class AssignmentBaselineCollection extends AbstractList<AssignmentBaseline>
+public class AssignmentBaselineCollection extends AbstractList<AssignmentBaseline> implements IBaselineCollection
 ```
 
 Represents a collection of [AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) objects.
@@ -23,6 +26,7 @@ Represents a collection of [AssignmentBaseline](../../com.aspose.tasks/assignmen
 | [contains(Object item)](#contains-java.lang.Object-) |  |
 | [copyTo(AssignmentBaseline[] array, int arrayIndex)](#copyTo-com.aspose.tasks.AssignmentBaseline---int-) | \{@inheritDoc\} |
 | [get(int index)](#get-int-) | (@inheritDoc\} |
+| [getByType(int baselineType)](#getByType-int-) | Gets the assignment baseline with the specified type. |
 | [getParentAssignment()](#getParentAssignment--) | Gets the parent [ResourceAssignment](../../com.aspose.tasks/resourceassignment) for this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
 | [remove(Object item)](#remove-java.lang.Object-) | Removes baseline from this collection. |
@@ -95,6 +99,21 @@ public AssignmentBaseline get(int index)
 
 **Returns:**
 [AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) - \{@inheritDoc\}
+### getByType(int baselineType) {#getByType-int-}
+```
+public final AssignmentBaseline getByType(int baselineType)
+```
+
+
+Gets the assignment baseline with the specified type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baselineType | int | the specified baseline type. |
+
+**Returns:**
+[AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) - the assignment baseline with the specified type, or `null` if no matching baseline is found.
 ### getParentAssignment() {#getParentAssignment--}
 ```
 public final ResourceAssignment getParentAssignment()

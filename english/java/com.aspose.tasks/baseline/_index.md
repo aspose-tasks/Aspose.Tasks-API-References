@@ -33,6 +33,7 @@ Represents baseline values of a resource.
 | [getBcwp()](#getBcwp--) | Gets the budgeted cost of a work performed by a resource for a project to-date. |
 | [getBcws()](#getBcws--) | Gets the budget cost of a work scheduled for a resource. |
 | [getCost()](#getCost--) | Gets the projected cost of a resource when the baseline is saved. |
+| [getTimephasedData()](#getTimephasedData--) | Gets a [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. |
 | [getWork()](#getWork--) | Gets the work assigned to a resource when the baseline is saved. |
 | [hashCode()](#hashCode--) | Returns a hash code value for the baseline. |
 | [op_Equality(Baseline a, Baseline b)](#op-Equality-com.aspose.tasks.Baseline-com.aspose.tasks.Baseline-) | Returns a value indicating whether this instance is equal to a specified object. |
@@ -45,6 +46,7 @@ Represents baseline values of a resource.
 | [setBcwp(double value)](#setBcwp-double-) | Sets the budgeted cost of a work performed by a resource for a project to-date. |
 | [setBcws(double value)](#setBcws-double-) | Sets the budget cost of a work scheduled for a resource. |
 | [setCost(BigDecimal value)](#setCost-java.math.BigDecimal-) | Sets the projected cost of a resource when the baseline is saved. |
+| [setTimephasedData(TimephasedDataCollection value)](#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-) | Sets the time phased data associated with the baseline. |
 | [setWork(Duration value)](#setWork-com.aspose.tasks.Duration-) | Sets the work assigned to a resource when the baseline is saved. |
 ### Baseline() {#Baseline--}
 ```
@@ -137,6 +139,16 @@ Gets the projected cost of a resource when the baseline is saved.
 
 **Returns:**
 java.math.BigDecimal - the projected cost of a resource when the baseline is saved.
+### getTimephasedData() {#getTimephasedData--}
+```
+public final TimephasedDataCollection getTimephasedData()
+```
+
+
+Gets a [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) instance for this object. The time phased data associated with the baseline.
+
+**Returns:**
+[TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) - the time phased data associated with the baseline.
 ### getWork() {#getWork--}
 ```
 public final Duration getWork()
@@ -306,6 +318,19 @@ Sets the projected cost of a resource when the baseline is saved.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.math.BigDecimal | the projected cost of a resource when the baseline is saved. |
+
+### setTimephasedData(TimephasedDataCollection value) {#setTimephasedData-com.aspose.tasks.TimephasedDataCollection-}
+```
+public final void setTimephasedData(TimephasedDataCollection value)
+```
+
+
+Sets the time phased data associated with the baseline.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimephasedDataCollection](../../com.aspose.tasks/timephaseddatacollection) | the time phased data associated with the baseline. |
 
 ### setWork(Duration value) {#setWork-com.aspose.tasks.Duration-}
 ```

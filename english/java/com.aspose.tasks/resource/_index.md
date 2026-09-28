@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/resource/
 java.lang.Object, com.aspose.tasks.IContainer
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, com.aspose.tasks.ITimephasedDataProvider
+com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink
 ```
-public class Resource extends IContainer<Byte> implements System.IEquatable<Resource>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, ITimephasedDataProvider
+public class Resource extends IContainer<Byte> implements System.IEquatable<Resource>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink
 ```
 
 Represents a resource in a project.
