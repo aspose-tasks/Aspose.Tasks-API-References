@@ -11,9 +11,9 @@ url: /java/com.aspose.tasks/task/
 java.lang.Object, com.aspose.tasks.IContainer
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, java.lang.Cloneable, com.aspose.tasks.ITimephasedDataProvider
+com.aspose.ms.System.IEquatable, com.aspose.tasks.IExtendedAttributeParent, com.aspose.tasks.IEntityWithNotes, com.aspose.tasks.IEntityWithHyperlink, java.lang.Cloneable
 ```
-public class Task extends IContainer<Byte> implements System.IEquatable<Task>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, Cloneable, ITimephasedDataProvider
+public class Task extends IContainer<Byte> implements System.IEquatable<Task>, IExtendedAttributeParent, IEntityWithNotes, IEntityWithHyperlink, Cloneable
 ```
 
 Represents a task in a project.
