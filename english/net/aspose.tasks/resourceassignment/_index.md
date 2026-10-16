@@ -3,7 +3,7 @@ title: Class ResourceAssignment
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ResourceAssignment class. Represents a resource assignment in a project
 type: docs
-weight: 1750
+weight: 1760
 url: /net/aspose.tasks/resourceassignment/
 ---
 ## ResourceAssignment class
@@ -62,6 +62,7 @@ public class ResourceAssignment : IEquatable<ResourceAssignment>
 | [ParentProject](../../aspose.tasks/resourceassignment/parentproject/) { get; } | Gets parent project for this assignment. |
 | [PeakUnits](../../aspose.tasks/resourceassignment/peakunits/) { get; set; } | Gets or sets a value of PeakUnits. |
 | [PercentWorkComplete](../../aspose.tasks/resourceassignment/percentworkcomplete/) { get; set; } | Gets or sets a value of PercentWorkComplete. |
+| [PrimaveraProperties](../../aspose.tasks/resourceassignment/primaveraproperties/) { get; } | Gets an object containing Primavera-specific properties for the assignment read from Primavera file. |
 | [RateScale](../../aspose.tasks/resourceassignment/ratescale/) { get; set; } | Gets or sets a value of RateScale. |
 | [RegularWork](../../aspose.tasks/resourceassignment/regularwork/) { get; set; } | Gets or sets a value of RegularWork. |
 | [RemainingCost](../../aspose.tasks/resourceassignment/remainingcost/) { get; set; } | Gets or sets a value of RemainingCost. |

@@ -3,7 +3,7 @@ title: Class ProgressNotificationArgs
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ProgressNotificationArgs class. Provides data for the Notify method
 type: docs
-weight: 1430
+weight: 1440
 url: /net/aspose.tasks/progressnotificationargs/
 ---
 ## ProgressNotificationArgs class

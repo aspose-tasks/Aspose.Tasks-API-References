@@ -3,7 +3,7 @@ title: Class VbaModule
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.VbaModule class. Represents a VBA module
 type: docs
-weight: 2810
+weight: 2820
 url: /net/aspose.tasks/vbamodule/
 ---
 ## VbaModule class

@@ -3,7 +3,7 @@ title: ResourceAssignment.Delete
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment method. Deletes resource assignment from project assignments collection
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.tasks/resourceassignment/delete/
 ---
 ## ResourceAssignment.Delete method

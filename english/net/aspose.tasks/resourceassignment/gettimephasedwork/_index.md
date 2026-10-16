@@ -3,7 +3,7 @@ title: ResourceAssignment.GetTimephasedWork
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment method. Gets amount of timephased work for the specified date time interval
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.tasks/resourceassignment/gettimephasedwork/
 ---
 ## GetTimephasedWork(DateTime, DateTime, TimephasedDataType) {#gettimephasedwork_1}

@@ -3,7 +3,7 @@ title: Enum VbaModuleType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.VbaModuleType enum. Specifies the type of a module in a VBA project
 type: docs
-weight: 2850
+weight: 2860
 url: /net/aspose.tasks/vbamoduletype/
 ---
 ## VbaModuleType enumeration

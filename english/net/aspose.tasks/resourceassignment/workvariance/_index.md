@@ -3,7 +3,7 @@ title: ResourceAssignment.WorkVariance
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment property. Gets or sets a value of WorkVariance
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.tasks/resourceassignment/workvariance/
 ---
 ## ResourceAssignment.WorkVariance property

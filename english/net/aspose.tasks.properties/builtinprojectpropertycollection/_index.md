@@ -3,7 +3,7 @@ title: Class BuiltInProjectPropertyCollection
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.Properties.BuiltInProjectPropertyCollection class. Represents a collection of builtin project properties
 type: docs
-weight: 1530
+weight: 1540
 url: /net/aspose.tasks.properties/builtinprojectpropertycollection/
 ---
 ## BuiltInProjectPropertyCollection class

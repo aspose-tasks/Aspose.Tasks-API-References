@@ -3,7 +3,7 @@ title: ResourceAssignment.SplitTask
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment method. Splits task into two parts
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.tasks/resourceassignment/splittask/
 ---
 ## ResourceAssignment.SplitTask method

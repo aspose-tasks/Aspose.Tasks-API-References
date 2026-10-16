@@ -27,11 +27,23 @@ resource.Set(Rsc.Work, resource.ParentProject.GetWork(2));
 
 project.SetBaseline(BaselineType.Baseline);
 
-// iterate over timephased data of the resource 
-foreach (var td in resource.TimephasedData)
+// iterate over timephased data of the resource
+Console.WriteLine("Regular work timephased data: ");
+foreach (var td in resource.GetTimephasedData(task.Start, task.Finish, TimephasedDataType.ResourceWork))
 {
-    Console.WriteLine(td.Start);
-    Console.WriteLine(td.Finish);
+    Console.WriteLine("[{0}] {1} - {2}, {3}", td.TimephasedDataType, td.Start, td.Finish, td.Value);
+}
+
+Console.WriteLine("Regular cost timephased data: ");
+foreach (var td in resource.GetTimephasedData(task.Start, task.Finish, TimephasedDataType.ResourceCost))
+{
+    Console.WriteLine("[{0}] {1} - {2}, {3}", td.TimephasedDataType, td.Start, td.Finish, td.Value);
+}
+
+Console.WriteLine("Baseline timephased data: ");
+foreach (var td in resource.Baselines[0].TimephasedData)
+{
+    Console.WriteLine("[{0}] {1} - {2}, {3}", td.TimephasedDataType, td.Start, td.Finish, td.Value);
 }
 ```
 

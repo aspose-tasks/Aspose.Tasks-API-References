@@ -3,7 +3,7 @@ title: ResourceAssignment.Resume
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment property. Gets or sets a value of Resume
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.tasks/resourceassignment/resume/
 ---
 ## ResourceAssignment.Resume property
