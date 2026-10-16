@@ -3,7 +3,7 @@ title: ResourceAssignment.MakeTPs
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment method. Generates a list of time phased data
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.tasks/resourceassignment/maketps/
 ---
 ## ResourceAssignment.MakeTPs method

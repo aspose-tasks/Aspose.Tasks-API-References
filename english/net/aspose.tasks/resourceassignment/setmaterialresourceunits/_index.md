@@ -3,7 +3,7 @@ title: ResourceAssignment.SetMaterialResourceUnits
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment method. Sets units for assignment of a material resource with variable material consumption. The variable material consumption means that as the assignment duration changes the quantity of materials used changes proportionally
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.tasks/resourceassignment/setmaterialresourceunits/
 ---
 ## ResourceAssignment.SetMaterialResourceUnits method

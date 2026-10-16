@@ -80,6 +80,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 | [OutlineValueCollection](./outlinevaluecollection/) | Represents a collection of [`OutlineValue`](../aspose.tasks/outlinevalue/) objects. |
 | [ParseErrorArgs](./parseerrorargs/) | Provides data for the [`ParseErrorCallback`](../aspose.tasks/parseerrorcallback/) delegate. |
 | [ParseErrorCallback](./parseerrorcallback/) | Represents a method callback to handle parse errors that can happen when reading xml data. |
+| [PrimaveraAssignmentProperties](./primaveraassignmentproperties/) | Represents Primavera-specific properties for a resource assignment read from Primavera files (XER of P6XML). |
 | [PrimaveraBaseReader](./primaverabasereader/) | Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files. |
 | [PrimaveraCalendarProperties](./primaveracalendarproperties/) | Represents Primavera-specific properties for a calendar read from Primavera files (XER of P6XML). Can be used to perform calendar-specific time units conversion. |
 | [PrimaveraDbReader](./primaveradbreader/) | Represents a reader to read Project Info from Primavera DB |

@@ -37,13 +37,30 @@ While exporting into XML the Undefined values will be eliminated from resulting 
 
 ## Examples
 
-Shows how to set baseline for the project (BaselineType.Baseline).
+Shows how to create baselines for a whole project.
 
 ```csharp
-var project = new Project(DataDir + "Project2.mpp");
-// save baseline fields to the specified baseline for the entire project.
+var project = new Project();
+
+// Adding tasks
+var task = project.RootTask.Children.Add("Task");
+task.Work = project.GetDuration(TimeSpan.FromHours(8), TimeUnitType.Day);
+var task2 = project.RootTask.Children.Add("Task2");
+
+// Set project's baseline with type 'Baseline'
 project.SetBaseline(BaselineType.Baseline);
-// work with project's baselines...
+
+var baseline = task.Baselines[0];
+
+Console.WriteLine("Baseline start: {0}", baseline.Start);
+Console.WriteLine("Baseline finish: {0}", baseline.Finish);
+Console.WriteLine("Baseline duration: {0}", baseline.Duration);
+Console.WriteLine("Baseline timephased data:");
+
+foreach (var td in baseline.TimephasedData)
+{
+    Console.WriteLine("[{0}] {1} - {2}, {3}", td.TimephasedDataType, td.Start, td.Finish, td.Value);
+}
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: ResourceAssignment.RegularWork
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment property. Gets or sets a value of RegularWork
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.tasks/resourceassignment/regularwork/
 ---
 ## ResourceAssignment.RegularWork property

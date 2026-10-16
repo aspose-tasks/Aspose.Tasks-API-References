@@ -3,7 +3,7 @@ title: Enum ResourceExportType
 second_title: Aspose.Tasks for .NET API Reference
 description: Aspose.Tasks.ResourceExportType enum. Specifies the resource export type for HTML format
 type: docs
-weight: 1780
+weight: 1790
 url: /net/aspose.tasks/resourceexporttype/
 ---
 ## ResourceExportType enumeration

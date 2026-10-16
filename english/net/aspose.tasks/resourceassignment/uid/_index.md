@@ -3,7 +3,7 @@ title: ResourceAssignment.Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment property. Gets or sets a value of Uid
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.tasks/resourceassignment/uid/
 ---
 ## ResourceAssignment.Uid property

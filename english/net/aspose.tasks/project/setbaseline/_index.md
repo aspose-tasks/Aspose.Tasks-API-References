@@ -26,11 +26,24 @@ Shows how to create baselines for a whole project.
 var project = new Project();
 
 // Adding tasks
-project.RootTask.Children.Add("Task");
-project.RootTask.Children.Add("Task2");
+var task = project.RootTask.Children.Add("Task");
+task.Work = project.GetDuration(TimeSpan.FromHours(8), TimeUnitType.Day);
+var task2 = project.RootTask.Children.Add("Task2");
 
-// Set baseline for specified tasks
+// Set project's baseline with type 'Baseline'
 project.SetBaseline(BaselineType.Baseline);
+
+var baseline = task.Baselines[0];
+
+Console.WriteLine("Baseline start: {0}", baseline.Start);
+Console.WriteLine("Baseline finish: {0}", baseline.Finish);
+Console.WriteLine("Baseline duration: {0}", baseline.Duration);
+Console.WriteLine("Baseline timephased data:");
+
+foreach (var td in baseline.TimephasedData)
+{
+    Console.WriteLine("[{0}] {1} - {2}, {3}", td.TimephasedDataType, td.Start, td.Finish, td.Value);
+}
 ```
 
 ### See Also

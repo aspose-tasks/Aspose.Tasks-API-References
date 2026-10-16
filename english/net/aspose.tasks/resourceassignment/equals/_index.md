@@ -3,7 +3,7 @@ title: ResourceAssignment.Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment method. Returns a value indicating whether this instance is equal to a specified instance of the ResourceAssignment class
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.tasks/resourceassignment/equals/
 ---
 ## Equals(ResourceAssignment) {#equals}

@@ -3,7 +3,7 @@ title: ResourceAssignment.RateScale
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment property. Gets or sets a value of RateScale
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.tasks/resourceassignment/ratescale/
 ---
 ## ResourceAssignment.RateScale property

@@ -3,7 +3,7 @@ title: ResourceAssignment.Set
 second_title: Aspose.Tasks for .NET API Reference
 description: ResourceAssignment method. Maps the specified property to the specified value in this container
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.tasks/resourceassignment/set/
 ---
 ## ResourceAssignment.Set&lt;T&gt; method
