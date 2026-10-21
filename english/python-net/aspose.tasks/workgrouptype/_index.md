@@ -3,7 +3,7 @@ title: WorkGroupType
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 2940
+weight: 2950
 url: /python-net/aspose.tasks/workgrouptype/
 ---
 

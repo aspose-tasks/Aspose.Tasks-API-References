@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 1000
+weight: 1010
 url: /python-net/aspose.tasks/resourceassignment/
 ---
 
@@ -82,6 +82,7 @@ The ResourceAssignment type exposes the following members:
 |baselines|Gets AssignmentBaselineCollection object.<br/>            The collection of baseline values associated with an assignment.|
 |extended_attributes|Gets or sets an instance of the ExtendedAttributeCollection class for this object.|
 |timephased_data|Gets or sets the instance of [TimephasedDataCollection](/tasks/python-net/aspose.tasks/timephaseddatacollection/) class containing elements of [timephased_data](/tasks/python-net/aspose.tasks/resourceassignment/) class.|
+|primavera_properties|Gets an object containing Primavera-specific properties for the assignment read from Primavera file.|
 ## Methods
 | Name | Description |
 | :- | :- |
