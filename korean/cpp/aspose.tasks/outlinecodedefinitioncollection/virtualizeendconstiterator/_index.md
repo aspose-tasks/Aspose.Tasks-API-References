@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::OutlineCodeDefinitionCollection::virtualizeEndConstIterator method"
+linktitle: "virtualizeEndConstIterator"
+articleTitle: "virtualizeEndConstIterator"
+second_title: "C++용 Aspose.Tasks"
+description: "컬렉션의 const 한정 인스턴스에서 마지막 요소(있는 경우) 바로 다음을 가리키는 반복자를 가져옵니다."
+type: docs
+weight: 210
+url: /ko/cpp/aspose.tasks/outlinecodedefinitioncollection/virtualizeendconstiterator/
+---
+
+## virtualizeEndConstIterator {#virtualizeendconstiterator}
+
+컬렉션의 const 한정 인스턴스에서 마지막 요소(있는 경우) 바로 다음을 가리키는 반복자를 가져옵니다.
+
+**Returns:** An iterator pointing right after the last element (if any)of the const-qualified instance of the collection Provides const iterator implementation to container's end.
+
+```cpp
+virtualizeEndConstIterator()
+```
+

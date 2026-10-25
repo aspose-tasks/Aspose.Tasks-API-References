@@ -1,0 +1,63 @@
+---
+title: "Aspose::Tasks::Visualization::ResourceViewColumn::ResourceViewColumn 생성자"
+linktitle: "ResourceViewColumn"
+articleTitle: "ResourceViewColumn"
+second_title: "C++용 Aspose.Tasks"
+description: "ResourceViewColumn 클래스의 새 인스턴스를 초기화합니다."
+type: docs
+weight: 10
+url: /ko/cpp/aspose.tasks.visualization/resourceviewcolumn/resourceviewcolumn/
+---
+
+## ResourceViewColumn (1 of 3) {#resourceviewcolumn_1}
+
+ResourceViewColumn 클래스의 새 인스턴스를 초기화합니다.
+
+**Returns:** Aspose::Tasks::Visualization::
+
+```cpp
+ResourceViewColumn(const System::String & name, int32_t width, ResourceToColumnTextConverter converter, Aspose::Tasks::Field field)
+```
+
+| 매개변수 | 설명 |
+| --- | --- |
+| 이름 | 열 이름. |
+| 너비 | 열의 너비(픽셀 단위). |
+| 컨버터 | 리소스 데이터를 열 텍스트로 변환하는 변환기. |
+| 필드 | 열 필드. |
+
+---
+
+## ResourceViewColumn (2 of 3) {#resourceviewcolumn_2}
+
+ResourceViewColumn 클래스의 새 인스턴스를 초기화합니다.
+
+**Returns:** Aspose::Tasks::Visualization::
+
+```cpp
+ResourceViewColumn(const System::String & name, int32_t width, ResourceToColumnTextConverter converter)
+```
+
+| 매개변수 | 설명 |
+| --- | --- |
+| 이름 | 열 이름. |
+| 너비 | 열의 너비(픽셀 단위). |
+| 컨버터 | 리소스 데이터를 열 텍스트로 변환하는 변환기. |
+
+---
+
+## ResourceViewColumn (3 of 3) {#resourceviewcolumn_3}
+
+ResourceViewColumn 클래스의 새 인스턴스를 초기화합니다.
+
+**Returns:** Aspose::Tasks::Visualization::
+
+```cpp
+ResourceViewColumn(int32_t width, Aspose::Tasks::Field field)
+```
+
+| 매개변수 | 설명 |
+| --- | --- |
+| 너비 | 열 너비(픽셀). |
+| 필드 | 열 필드. |
+
