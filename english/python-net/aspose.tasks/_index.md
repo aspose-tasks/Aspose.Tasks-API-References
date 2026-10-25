@@ -86,6 +86,7 @@ Contains classes for work with Microsoft Project documents without utilizing Mic
 |[OutlineValue](/tasks/python-net/aspose.tasks/outlinevalue/)|Represents an outline value.|
 |[OutlineValueCollection](/tasks/python-net/aspose.tasks/outlinevaluecollection/)|Represents a collection of [OutlineValue](/tasks/python-net/aspose.tasks/outlinevalue/) objects.|
 |[ParseErrorArgs](/tasks/python-net/aspose.tasks/parseerrorargs/)|Provides data for the [ParseErrorCallback](/tasks/python-net/aspose.tasks/parseerrorcallback/) delegate.|
+|[PrimaveraAssignmentProperties](/tasks/python-net/aspose.tasks/primaveraassignmentproperties/)|Represents Primavera-specific properties for a resource assignment read from Primavera files (XER of P6XML).|
 |[PrimaveraBaseReader](/tasks/python-net/aspose.tasks/primaverabasereader/)|Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files.|
 |[PrimaveraCalendarProperties](/tasks/python-net/aspose.tasks/primaveracalendarproperties/)|Represents Primavera-specific properties for a calendar read from Primavera files (XER of P6XML).<br/>            Can be used to perform calendar-specific time units conversion.|
 |[PrimaveraDbReader](/tasks/python-net/aspose.tasks/primaveradbreader/)|Represents a reader to read Project Info from Primavera DB|
