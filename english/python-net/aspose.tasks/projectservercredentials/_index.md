@@ -3,7 +3,7 @@ title: ProjectServerCredentials
 second_title: Aspose.Tasks for Python via .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.tasks/projectservercredentials/
 ---
 
