@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::ExtendedAttributeCollection::virtualizeBeginConstIterator メソッド"
+linktitle: "virtualizeBeginConstIterator"
+articleTitle: "virtualizeBeginConstIterator"
+second_title: "Aspose.Tasks for C++"
+description: "コレクションの const 修飾インスタンスの最初の要素（存在する場合）を指すイテレータを取得します。"
+type: docs
+weight: 180
+url: /ja/cpp/aspose.tasks/extendedattributecollection/virtualizebeginconstiterator/
+---
+
+## virtualizeBeginConstIterator {#virtualizebeginconstiterator}
+
+コレクションの const 修飾インスタンスの最初の要素（存在する場合）を指すイテレータを取得します。
+
+**Returns:** An iterator pointing to the first element (if any)of the const-qualified instance of the collection Provides const iterator implementation to container's first element.
+
+```cpp
+virtualizeBeginConstIterator()
+```
+
