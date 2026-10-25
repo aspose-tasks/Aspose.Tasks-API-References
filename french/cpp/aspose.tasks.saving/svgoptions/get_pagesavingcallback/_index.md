@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::Saving::SvgOptions::get_PageSavingCallback méthode"
+linktitle: "get_PageSavingCallback"
+articleTitle: "get_PageSavingCallback"
+second_title: "Aspose.Tasks pour C++"
+description: "Obtient un rappel d'implémentation défini par l'utilisateur qui est utilisé pour obtenir un flux de sortie pour chaque page rendue."
+type: docs
+weight: 10
+url: /fr/cpp/aspose.tasks.saving/svgoptions/get_pagesavingcallback/
+---
+
+## get_PageSavingCallback {#get_pagesavingcallback}
+
+Obtient un rappel d'implémentation défini par l'utilisateur qui est utilisé pour obtenir un flux de sortie pour chaque page rendue.
+
+**Returns:** const System::SharedPtr< IPageSavingCallback >& Aspose::Tasks::Saving::
+
+```cpp
+get_PageSavingCallback()
+```
+
