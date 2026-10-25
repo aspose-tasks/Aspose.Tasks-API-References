@@ -1,52 +1,55 @@
 ---
-title: Aspose.Tasks.Saving
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Bevat klassen voor het opslaan van een project in verschillende indelingen.
+title: "Aspose.Tasks.Saving"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Bevat klassen voor het opslaan van een project in verschillende formaten."
 type: docs
-weight: 60
+weight: 80
 url: /nl/net/aspose.tasks.saving/
 ---
-Bevat klassen voor het opslaan van een project in verschillende indelingen.
+Bevat klassen voor het opslaan van een project in verschillende formaten.
 
 ## Klassen
 
-| Klas | Beschrijving |
+| Klasse | Beschrijving |
 | --- | --- |
-| [CsvOptions](./csvoptions/) | Maakt het mogelijk om extra opties te specificeren bij het opslaan van projecten naar CSV. |
-| [HtmlSaveOptions](./htmlsaveoptions/) | Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar HTML. |
-| [ImageSaveOptions](./imagesaveoptions/) | Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar afbeeldingen. |
-| [MPPSaveOptions](./mppsaveoptions/) | Maakt het mogelijk om extra opties te specificeren bij het opslaan van projectgegevens naar MPP. |
-| [PageSavingArgs](./pagesavingargs/) | Deze klasse vertegenwoordigt een set gegevens die betrekking hebben op het opslaan van de documentpagina in een stream. |
-| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | Bevat details voor een digitale PDF-handtekening. |
-| [PdfEncryptionDetails](./pdfencryptiondetails/) | Bevat details voor een PDF-encryptie. |
-| [PdfSaveOptions](./pdfsaveoptions/) | Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar PDF. |
-| [PrimaveraSaveOptions](./primaverasaveoptions/) | Maakt het mogelijk om extra opties te specificeren bij het opslaan van projecten in Primavera XER-formaat. |
-| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions/) | Maakt het mogelijk om extra opties te specificeren bij het opslaan van een project in Primavera xml-formaat. |
-| [PrintOptions](./printoptions/) | Maakt het mogelijk om extra opties op te geven bij het afdrukken van een project. |
-| [SaveOptions](./saveoptions/) | Dit is een abstracte basisklasse voor klassen waarmee de gebruiker extra opties kan specificeren bij het opslaan van een project in een bepaald formaat. |
-| [SaveTemplateOptions](./savetemplateoptions/) | Maakt het mogelijk om extra opties te specificeren bij het opslaan van een project als een sjabloon. |
-| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar Spreadsheet2003. |
-| [SvgOptions](./svgoptions/) | Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar SVG. |
-| [XamlOptions](./xamloptions/) | /// Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar XAML. |
-| [XlsxOptions](./xlsxoptions/) | Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar XLSX. |
-| [XpsOptions](./xpsoptions/) | Maakt het mogelijk om extra opties te specificeren bij het renderen van projectpagina's naar XPS. |
+| [CsvOptions](./csvoptions/) | Staat toe extra opties op te geven bij het opslaan van een project naar CSV. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Staat toe extra opties op te geven bij het renderen van projectpagina's naar HTML. |
+| [ImageSaveOptions](./imagesaveoptions/) | Staat toe extra opties op te geven bij het renderen van projectpagina's naar afbeeldingen. |
+| [MPPSaveOptions](./mppsaveoptions/) | Staat toe extra opties op te geven bij het opslaan van projectgegevens naar MPP. |
+| [PageSavingArgs](./pagesavingargs/) | Deze klasse stelt een set gegevens voor die verband houdt met het opslaan van een documentpagina naar een stream. |
+| [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/) | Bevat details voor een digitale PDF‑handtekening. |
+| [PdfEncryptionDetails](./pdfencryptiondetails/) | Bevat details voor een PDF‑versleuteling. |
+| [PdfSaveOptions](./pdfsaveoptions/) | Staat toe extra opties op te geven bij het renderen van projectpagina's naar PDF. |
+| [PrimaveraSaveOptions](./primaverasaveoptions/) | Staat toe extra opties op te geven bij het opslaan van een project naar het Primavera XER‑formaat. |
+| [PrimaveraXmlSaveOptions](./primaveraxmlsaveoptions/) | Staat toe extra opties op te geven bij het opslaan van een project naar het Primavera XML‑formaat. |
+| [PrintOptions](./printoptions/) | Staat toe extra opties op te geven bij het afdrukken van een project. |
+| [SaveOptions](./saveoptions/) | Dit is een abstracte basisklasse voor klassen die de gebruiker toestaan extra opties op te geven bij het opslaan van een project in een bepaald formaat. |
+| [SaveTemplateOptions](./savetemplateoptions/) | Staat toe extra opties op te geven bij het opslaan van een project als sjabloon. |
+| [SimpleSaveOptions](./simplesaveoptions/) | Dit is een abstracte basisklasse die de gebruiker toestaat basisopties op te geven bij het opslaan van een project in een bepaald formaat. |
+| [Spreadsheet2003SaveOptions](./spreadsheet2003saveoptions/) | Staat toe extra opties op te geven bij het renderen van projectpagina's naar Spreadsheet2003. |
+| [SvgOptions](./svgoptions/) | Staat toe extra opties op te geven bij het renderen van projectpagina's naar SVG. |
+| [TaskLinkDrawingCallbackDelegate](./tasklinkdrawingcallbackdelegate/) | Stelt een callback voor die wordt aangeroepen wanneer een taaklink wordt gerenderd in een Gantt-diagramweergave. |
+| [XamlOptions](./xamloptions/) | /// Stelt toe extra opties op te geven bij het renderen van projectpagina's naar XAML. |
+| [XlsxOptions](./xlsxoptions/) | Staat toe extra opties op te geven bij het renderen van projectpagina's naar XLSX. |
+| [XpsOptions](./xpsoptions/) | Staat toe extra opties op te geven bij het renderen van projectpagina's naar XPS. |
 ## Interfaces
 
-| Koppel | Beschrijving |
+| Interface | Beschrijving |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback/) | Vertegenwoordigt een callback die wordt aangeroepen wanneer elke pagina in een document met meerdere pagina's wordt opgeslagen in een afzonderlijke stream. |
-## Opsomming
+| [IPageSavingCallback](./ipagesavingcallback/) | Stelt een callback voor die wordt aangeroepen wanneer elke pagina in een meerpagina-document wordt opgeslagen naar een aparte stream. |
+## Enumeratie
 
-| Opsomming | Beschrijving |
+| Enumeratie | Beschrijving |
 | --- | --- |
 | [CsvTextDelimiter](./csvtextdelimiter/) | Tekstscheidingsteken voor CSV-indeling. |
-| [DataCategory](./datacategory/) | De gegevenscategorie die wordt gebruikt bij het opslaan naar CSV. |
-| [PdfCompliance](./pdfcompliance/) | Specificeert het PDF-nalevingsniveau voor uitvoerbestand. |
-| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | Specificeert het digitale hash-algoritme dat wordt gebruikt door digitale handtekening. |
-| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm/) | Specificeert het coderingsalgoritme dat moet worden gebruikt voor het coderen van een PDF-document. |
-| [PdfPermissions](./pdfpermissions/) | Specificeert machtigingen die moeten worden gebruikt voor toegang tot een PDF-document. |
-| [PdfTextCompression](./pdftextcompression/) | Specificeert een type compressie dat wordt toegepast op alle inhoud in het PDF-bestand behalve afbeeldingen. |
-| [SaveFileFormat](./savefileformat/) | Opsomming voor het opslaan van projectformaatselectie. |
-| [TiffCompression](./tiffcompression/) | Geeft aan welk type compressie moet worden toegepast bij het opslaan van pagina's in de TIFF-indeling. |
+| [DataCategory](./datacategory/) | De categorie van gegevens die wordt gebruikt bij het opslaan naar CSV. |
+| [LegendDrawingOptions](./legenddrawingoptions/) | Bepaalt de mogelijke opties die worden gebruikt bij het renderen van de legenda van de weergave. |
+| [PdfCompliance](./pdfcompliance/) | Bepaalt het PDF-conformiteitsniveau voor het uitvoerbestand. |
+| [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm/) | Bepaalt het digitale hash-algoritme dat wordt gebruikt door digitale handtekening. |
+| [PdfEncryptionAlgorithm](./pdfencryptionalgorithm/) | Bepaalt het encryptie-algoritme dat moet worden gebruikt voor het versleutelen van een PDF-document. |
+| [PdfPermissions](./pdfpermissions/) | Bepaalt de machtigingen die moeten worden gebruikt voor het openen van een PDF-document. |
+| [PdfTextCompression](./pdftextcompression/) | Bepaalt een type compressie dat wordt toegepast op alle inhoud in het PDF-bestand, behalve afbeeldingen. |
+| [SaveFileFormat](./savefileformat/) | Enumeratie voor het opslaan van projectformaatselectie. |
+| [TiffCompression](./tiffcompression/) | Bepaalt welk type compressie moet worden toegepast bij het opslaan van pagina's naar het TIFF-formaat. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

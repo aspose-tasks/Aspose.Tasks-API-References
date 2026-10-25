@@ -1,14 +1,14 @@
 ---
-title: CopyTo
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Kopieert de elementen van hetTimephasedDataCollectionaspose.tasks/timephaseddatacollection/ aan eenArray  beginnend bij een bepaaldArray index.
+title: "TimephasedDataCollection.CopyTo"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "TimephasedDataCollection methode. Kopieert de elementen van de TimephasedDataCollection naar een Array die start op een bepaalde Array-index"
 type: docs
-weight: 90
+weight: 80
 url: /nl/net/aspose.tasks/timephaseddatacollection/copyto/
 ---
 ## TimephasedDataCollection.CopyTo method
 
-Kopieert de elementen van het[`TimephasedDataCollection`](../) aan eenArray , beginnend bij een bepaaldArray index.
+Kopieert de elementen van de [`TimephasedDataCollection`](../) naar een Array, beginnend bij een bepaalde Array-index.
 
 ```csharp
 public void CopyTo(TimephasedData[] array, int arrayIndex)
@@ -16,22 +16,172 @@ public void CopyTo(TimephasedData[] array, int arrayIndex)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| array | TimephasedData[] | De eendimensionaleArray dat is de bestemming van de gekopieerde elementen[`TimephasedDataCollection`](../) . DeArray moet op nul gebaseerde indexering hebben. |
-| arrayIndex | Int32 | De op nul gebaseerde index in*array* waarop het kopiëren begint. |
+| array | TimephasedData[] | De eendimensionale Array die de bestemming is van de elementen gekopieerd van [`TimephasedDataCollection`](../). De Array moet nul-gebaseerde indexering hebben. |
+| arrayIndex | Int32 | De nul-gebaseerde index in *array* waarop het kopiëren begint. |
 
 ### Uitzonderingen
 
-| uitzondering | voorwaarde |
+| exceptie | conditie |
 | --- | --- |
-| ArgumentNullException | *array* is niets. |
-| ArgumentOutOfRangeException | *arrayIndex* kleiner is dan 0. |
-| ArgumentException | Het aantal elementen in de bron[`TimephasedDataCollection`](../) is groter dan de beschikbare ruimte vanaf*arrayIndex* tot het einde van de bestemming*array* . |
+| ArgumentNullException | *array* is null. |
+| ArgumentOutOfRangeException | *arrayIndex* is kleiner dan 0. |
+| ArgumentException | Het aantal elementen in de bron [`TimephasedDataCollection`](../) is groter dan de beschikbare ruimte vanaf *arrayIndex* tot het einde van de bestemming *array*. |
+
+## Voorbeelden
+
+Toont hoe te werken met tijdgephaseerde gegevensverzamelingen.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var resource2 = project.Resources.Add("Resource 2");
+resource2.Set(Rsc.Type, ResourceType.Work);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task2.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment2 = project.ResourceAssignments.Add(task2, resource2);
+assignment2.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment2.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment2.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+// stel contourwerkcontour in
+assignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+Console.WriteLine("Is timephased data collection read-only?: " + assignment.TimephasedData.IsReadOnly);
+
+// wis gegenereerde tds
+assignment.TimephasedData.Clear();
+
+var td = new TimephasedData
+             {
+                 Start = new DateTime(2019, 11, 11, 8, 0, 0),
+                 Finish = new DateTime(2019, 11, 11, 9, 0, 0),
+                 Uid = assignment.Get(Asn.Uid),
+                 Unit = TimeUnitType.Hour,
+                 Value = "PT1H0M0S",
+                 TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+             };
+assignment.TimephasedData.Add(td);
+
+var list = new List<TimephasedData>();
+var td2 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 12, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 12, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+var td3 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+
+list.Add(td2);
+list.Add(td3);
+assignment.TimephasedData.AddRange(list);
+
+// men kan de collectie filteren op type en datumbereik
+Console.WriteLine("Print filtered tds:");
+IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStartAndFinish(
+    TimephasedDataType.AssignmentRemainingWork,
+    new DateTime(2019, 11, 11, 0, 0, 0),
+    new DateTime(2019, 11, 13));
+foreach (var data in filteredTds)
+{
+    Console.WriteLine("Start: " + data.Start);
+    Console.WriteLine("Finish: " + data.Finish);
+    Console.WriteLine("Timephased Data Type: " + data.TimephasedDataType);
+    Console.WriteLine();
+}
+
+Console.WriteLine("--------------------------");
+Console.WriteLine();
+
+// ...
+// voeg een verkeerde td toe en verwijder deze vervolgens
+var td4 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT0H0M1S", // wrong value
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+assignment.TimephasedData.Add(td4);
+
+// ...
+
+// verwijder het verkeerde td-item
+if (assignment.TimephasedData.Contains(td4))
+{
+    assignment.TimephasedData.Remove(td4);
+}
+
+// ...
+assignment.TimephasedData.AddRange(list);
+
+// itereren over tijdgephaseerde items
+Console.WriteLine("Print all timephased items:");
+Console.WriteLine("Timephased data count: " + assignment.TimephasedData.Count);
+foreach (var item in assignment.TimephasedData)
+{
+    Console.WriteLine("Start: " + item.Start);
+    Console.WriteLine("Finish: " + item.Finish);
+    Console.WriteLine("Timephased Data Type: " + item.TimephasedDataType);
+    Console.WriteLine();
+}
+
+// kopieer tds naar een andere toewijzing
+var timephasedDatas = new TimephasedData[assignment.TimephasedData.Count];
+assignment.TimephasedData.CopyTo(timephasedDatas, 0);
+
+assignment2.TimephasedData.Clear();
+foreach (var data in timephasedDatas)
+{
+    assignment2.TimephasedData.Add(data);
+}
+
+// de collectie kan worden omgezet naar een eenvoudige lijst
+List<TimephasedData> tds = assignment.TimephasedData.ToList();
+
+// laten we tds één voor één verwijderen
+foreach (var timephasedData in tds)
+{
+    assignment.TimephasedData.Remove(timephasedData);
+}
+```
 
 ### Zie ook
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* naamruimte [Aspose.Tasks](../../timephaseddatacollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

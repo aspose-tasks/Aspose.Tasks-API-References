@@ -1,62 +1,80 @@
 ---
-title: CsvOptions
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Maakt het mogelijk om extra opties te specificeren bij het opslaan van projecten naar CSV.
+title: "Klasse CsvOptions"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.Saving.CsvOptions klasse. Stelt u in staat om extra opties op te geven bij het opslaan van een project naar CSV."
 type: docs
-weight: 1720
+weight: 1980
 url: /nl/net/aspose.tasks.saving/csvoptions/
 ---
 ## CsvOptions class
 
-Maakt het mogelijk om extra opties te specificeren bij het opslaan van projecten naar CSV.
+Staat toe extra opties op te geven bij het opslaan van een project naar CSV.
 
 ```csharp
-public class CsvOptions : SaveOptions
+public class CsvOptions : SimpleSaveOptions
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CsvOptions](csvoptions/)() | Initialiseert een nieuw exemplaar van het`CsvOptions` klasse die kan worden gebruikt om projecten op te slaan in CSV-indeling. |
+| [CsvOptions](csvoptions/)() | Initialiseert een nieuw exemplaar van de `CsvOptions` klasse die kan worden gebruikt om een project op te slaan in CSV-formaat. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Haalt of stelt de lijst met instanties van het[`BarStyle`](../../aspose.tasks.visualization/barstyle/) klasse die in de projectweergave verschijnen. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Hiermee wordt het aangepaste paginaformaat in punten opgehaald of ingesteld (1 punt = 1/72 inch). |
-| [DataCategory](../../aspose.tasks.saving/csvoptions/datacategory/) { get; set; } | Haalt een gegevenscategorie op of stelt deze in om op te slaan. |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Haalt of stelt een waarde in die aangeeft of niet-werktijd moet worden getekend (standaardwaarde is TRUE). |
-| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | Haalt of stelt een codering in om CSV op te slaan met. |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Haalt een datum op of stelt deze in om het renderen te voltooien naar. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of de rijhoogte moet worden verhoogd om in de inhoud te passen. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | Bepaalt of stelt in of een kalendersectie van een weergave moet worden weergegeven aan het einde (rechterkant) van de laatste pagina. Als de waarde onwaar is, wordt de kalendersectie precies weergegeven op EndDate, zelfs als er een lege ruimte op een pagina is. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Haalt of stelt een lijst van[`Gridline`](../../aspose.tasks.visualization/gridline/) die verschijnen in projectweergave. |
-| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | Haalt of stelt een waarde in die aangeeft of er al dan niet headers moeten worden opgenomen (standaardwaarde is TRUE). |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of de legenda op elke pagina moet worden weergegeven (standaardwaarde is TRUE). |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Haalt of stelt een waarde in die aangeeft of kritieke taken in rood moeten worden weergegeven (standaardwaarde is FALSE). |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | Krijgt of stelt de niet-werktijdkleur in. |
-| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | Haalt het aantal pagina's van het project op of stelt het in. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Hiermee wordt de grootte van de weer te geven pagina opgehaald of ingesteld (standaardwaarde is PageSize.A4). |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Haalt of stelt de[`PresentationFormat`](../saveoptions/presentationformat/) waarin het document wordt opgeslagen. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of een project op één pagina moet worden weergegeven wanneer het project in grafische indeling wordt opgeslagen. Het paginaformaat wordt gewijzigd zodat het gerenderde project op één pagina past. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of subtaken op de overzichtstaakbalk moeten worden gemarkeerd. Voor subtaken geeft het veld Rollup aan of informatie over de Gantt-balken van de subtaak wordt opgerold naar de samenvattingstaakbalk. Voor overzichtstaken, de Rollup veld geeft aan of de overzichtstaakbalk opgerolde balken weergeeft. U moet het veld Samenvouwen voor overzichtstaken hebben ingesteld op Ja om subtaken te kunnen samenvoegen. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | Hiermee wordt de indeling waarin het document wordt opgeslagen als dit object voor opslagopties wordt gebruikt, opgehaald of ingesteld. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Haalt of stelt de datum in om te beginnen met renderen vanaf. |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | Haalt of stelt de vergelijker in om taken te sorteren op Gantt-diagram en Taakblad-diagram. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | Hiermee wordt de voorwaarde opgehaald of ingesteld die wordt gebruikt om taken te filteren die worden weergegeven op Gantt-, taakblad- en taakgebruiksdiagrammen. |
-| [TextDelimiter](../../aspose.tasks.saving/csvoptions/textdelimiter/) { get; set; } | Haalt of stelt een tekstscheidingsteken in. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Haalt of stelt de lijst met instanties van het[`TextStyle`](../../aspose.tasks.visualization/textstyle/) klasse die in de projectweergave verschijnen. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Haalt of stelt de[`Timescale`](../saveoptions/timescale/) waarde die wordt gebruikt om te bepalen hoe tijdschaal (indien aanwezig) wordt weergegeven wanneer het project wordt opgeslagen in grafisch formaat. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of het verlooppenseel moet worden gebruikt bij het renderen van een Gantt-diagram. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Haalt of stelt een lijst in van de te renderen weergavekolommen ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ). Indien niet ingesteld, worden alleen taak-id's, taaknamen, begin en einde weergegeven. Als zowel Bekijken als[`ViewSettings`](../saveoptions/viewsettings/)eigenschappen zijn ingesteld, kolommen uit View overschrijven kolommen uit ViewSettings. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Krijgt of stelt een weergave in ([`View`](../saveoptions/view/) ) renderen. U kunt deze opties gebruiken om expliciet te specificeren welke weergave moet worden opgeslagen in PDF-, HTML- of afbeeldingsindeling. Als deze eigenschap is ingesteld,[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) eigenschap wordt genegeerd wanneer het project wordt opgeslagen. De weergave moet afkomstig zijn uit een van de volgende schermen (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |
+| [DataCategory](../../aspose.tasks.saving/csvoptions/datacategory/) { get; set; } | Haalt op of stelt een gegevenscategorie in die moet worden opgeslagen. |
+| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | Haalt op of stelt een codering in waarmee CSV moet worden opgeslagen. |
+| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | Haalt op of stelt een waarde in die aangeeft of kopteksten al dan niet moeten worden opgenomen (standaardwaarde is TRUE). |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Haalt op of stelt het formaat in waarin het document wordt opgeslagen als dit opslaanopties‑object wordt gebruikt. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Haalt op of stelt de comparer in om taken te sorteren op het Gantt‑diagram en het Task‑Sheet‑diagram. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Haalt op of stelt de voorwaarde in die wordt gebruikt om taken te filteren die worden gerenderd op Gantt‑, Task‑Sheet‑ en Task‑Usage‑diagrammen. |
+| [TextDelimiter](../../aspose.tasks.saving/csvoptions/textdelimiter/) { get; set; } | Haalt een tekstscheidingsteken op of stelt het in. |
+| [View](../../aspose.tasks.saving/csvoptions/view/) { get; set; } | Haalt een lijst op van de weergavekolommen ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)) om op te slaan in XLSX-indeling. Indien niet ingesteld, worden de standaardkolommen opgeslagen. |
+
+## Voorbeelden
+
+Toont hoe &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; te gebruiken om een project op te slaan als CSV-bestand.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+Toont hoe &lt;see cref="Aspose.Tasks.Saving.CsvOptions" /&gt; te gebruiken om de kolommen van de standaard Gantt-diagram te nemen en
+
+```csharp
+// sla ze op in een CSV-bestand.
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+CsvOptions options = new CsvOptions();
+options.TextDelimiter = CsvTextDelimiter.Tab;
+
+var view = project.DefaultView;
+options.View = ProjectView.GetDefaultGanttChartView();
+options.View.Columns.Clear();
+
+foreach (var t in view.Table.TableFields)
+{
+    var columnTitle = string.IsNullOrEmpty(t.Title) ? FieldHelper.GetDefaultFieldTitle(t.Field) : t.Title;
+    options.View.Columns.Add(new GanttChartColumn(columnTitle, 10, t.Field));
+}
+
+project.Save(OutDir + "CustomizeViewForCsvOptions_out.csv", options);
+```
 
 ### Zie ook
 
-* class [SaveOptions](../saveoptions/)
-* naamruimte [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* montage [Aspose.Tasks](../../)
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

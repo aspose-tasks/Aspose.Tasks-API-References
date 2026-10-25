@@ -1,30 +1,79 @@
 ---
-title: TimescaleTier
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Initialiseert een nieuw exemplaar van hetTimescaleTieraspose.tasks.visualization/timescaletier/ klasse.
+title: "TimescaleTier.TimescaleTier"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "TimescaleTier constructor. Initialiseert een nieuw exemplaar van de TimescaleTier-klasse"
 type: docs
 weight: 10
 url: /nl/net/aspose.tasks.visualization/timescaletier/timescaletier/
 ---
 ## TimescaleTier() {#constructor}
 
-Initialiseert een nieuw exemplaar van het[`TimescaleTier`](../) klasse.
+Initialiseert een nieuw exemplaar van de [`TimescaleTier`](../) klasse.
 
 ```csharp
 public TimescaleTier()
 ```
 
+## Voorbeelden
+
+Toont hoe tijdsschaallaaglabels aangepast kunnen worden.
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+
+// Taakkoppelingen toevoegen
+project.TaskLinks.Add(project.RootTask.Children.Add("Task 1"), project.RootTask.Children.Add("Task 2"));
+
+var view = (GanttChartView)project.DefaultView;
+
+// tijdsschaallaag aanpassen
+
+// de bovenste laag afstemmen
+// stel de bovenste tijdsschaallaag van de Gantt-diagramweergave in.
+view.MiddleTimescaleTier = new TimescaleTier();
+// stel tijdsschaaleenheid <see cref="T:Aspose.Tasks.Visualization.TimescaleUnit" /> in voor de tijdsschaallaag.
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+// stel het tijdseenheid-interval in waarin labels voor de laag worden weergegeven.
+view.MiddleTimescaleTier.Count = 1;
+// stel datumlabel <see cref="T:Aspose.Tasks.Visualization.DateLabel" /> in voor de tijdsschaallaag.
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddDd;
+// stel in hoe labels binnen elke tijdsperiode van de laag worden uitgelijnd (<see cref="T:System.Drawing.StringAlignment" />).
+view.MiddleTimescaleTier.Alignment = HorizontalStringAlignment.Center;
+// stel een waarde in die aangeeft of tickmarks die tijdsperioden in de tier scheiden moeten worden weergegeven.
+view.MiddleTimescaleTier.ShowTicks = true;
+// stel een waarde in die aangeeft of de tier‑labels gebaseerd moeten worden op het fiscale jaar.
+view.MiddleTimescaleTier.UsesFiscalYear = true;
+
+// toegevoegd voor betere visualisatie
+view.TopTimescaleTier = new TimescaleTier(TimescaleUnit.Months, 1);
+
+// pas de datums van de middelste tier aan
+view.TopTimescaleTier.DateTimeConverter = date =>
+    new[] { "Янв.", "Фев.", "Мар.", "Апр.", "Май", "Июнь", "Июль", "Авг.", "Сен.", "Окт.", "Ноя.", "Дек." }[date.Month - 1];
+
+project.Set(Prj.TimescaleStart, new DateTime(2012, 7, 30));
+project.Set(Prj.TimescaleFinish, new DateTime(2012, 10, 6));
+
+// Gebruik de optie 'Timescale.DefinedInView' om tijdschalen te renderen met tijdschaalinstellingen die in de weergave zijn gedefinieerd (view.TopTimescaleTier, view.MiddleTimescaleTier, view.BottomTimescaleTier).
+var pdfSaveOptions = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView
+};
+
+project.Save(OutDir + "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
+```
+
 ### Zie ook
 
 * class [TimescaleTier](../)
-* naamruimte [Aspose.Tasks.Visualization](../../timescaletier/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../timescaletier/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TimescaleTier(TimescaleUnit, int) {#constructor_1}
 
-Initialiseert een nieuw exemplaar van het[`TimescaleTier`](../) klasse.
+Initialiseert een nieuw exemplaar van de [`TimescaleTier`](../) klasse.
 
 ```csharp
 public TimescaleTier(TimescaleUnit unit, int count)
@@ -32,14 +81,63 @@ public TimescaleTier(TimescaleUnit unit, int count)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| unit | TimescaleUnit | De tijdschaaleenheid[`TimescaleUnit`](../../timescaleunit/) . |
-| count | Int32 | De telling van[`TimescaleUnit`](../../timescaleunit/) eenheden. |
+| unit | TimescaleUnit | De tijdschaal-eenheid [`TimescaleUnit`](../../timescaleunit/). |
+| count | Int32 | Het aantal [`TimescaleUnit`](../../timescaleunit/) eenheden. |
+
+## Voorbeelden
+
+Toont hoe tijdsschaallaaglabels aangepast kunnen worden.
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+
+// Taakkoppelingen toevoegen
+project.TaskLinks.Add(project.RootTask.Children.Add("Task 1"), project.RootTask.Children.Add("Task 2"));
+
+var view = (GanttChartView)project.DefaultView;
+
+// tijdsschaallaag aanpassen
+
+// de bovenste laag afstemmen
+// stel de bovenste tijdsschaallaag van de Gantt-diagramweergave in.
+view.MiddleTimescaleTier = new TimescaleTier();
+// stel tijdsschaaleenheid <see cref="T:Aspose.Tasks.Visualization.TimescaleUnit" /> in voor de tijdsschaallaag.
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+// stel het tijdseenheid-interval in waarin labels voor de laag worden weergegeven.
+view.MiddleTimescaleTier.Count = 1;
+// stel datumlabel <see cref="T:Aspose.Tasks.Visualization.DateLabel" /> in voor de tijdsschaallaag.
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddDd;
+// stel in hoe labels binnen elke tijdsperiode van de laag worden uitgelijnd (<see cref="T:System.Drawing.StringAlignment" />).
+view.MiddleTimescaleTier.Alignment = HorizontalStringAlignment.Center;
+// stel een waarde in die aangeeft of tickmarks die tijdsperioden in de tier scheiden moeten worden weergegeven.
+view.MiddleTimescaleTier.ShowTicks = true;
+// stel een waarde in die aangeeft of de tier‑labels gebaseerd moeten worden op het fiscale jaar.
+view.MiddleTimescaleTier.UsesFiscalYear = true;
+
+// toegevoegd voor betere visualisatie
+view.TopTimescaleTier = new TimescaleTier(TimescaleUnit.Months, 1);
+
+// pas de datums van de middelste tier aan
+view.TopTimescaleTier.DateTimeConverter = date =>
+    new[] { "Янв.", "Фев.", "Мар.", "Апр.", "Май", "Июнь", "Июль", "Авг.", "Сен.", "Окт.", "Ноя.", "Дек." }[date.Month - 1];
+
+project.Set(Prj.TimescaleStart, new DateTime(2012, 7, 30));
+project.Set(Prj.TimescaleFinish, new DateTime(2012, 10, 6));
+
+// Gebruik de optie 'Timescale.DefinedInView' om tijdschalen te renderen met tijdschaalinstellingen die in de weergave zijn gedefinieerd (view.TopTimescaleTier, view.MiddleTimescaleTier, view.BottomTimescaleTier).
+var pdfSaveOptions = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView
+};
+
+project.Save(OutDir + "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
+```
 
 ### Zie ook
 
 * enum [TimescaleUnit](../../timescaleunit/)
 * class [TimescaleTier](../)
-* naamruimte [Aspose.Tasks.Visualization](../../timescaletier/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../timescaletier/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

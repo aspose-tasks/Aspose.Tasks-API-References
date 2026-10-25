@@ -1,43 +1,74 @@
 ---
-title: RecurringTaskParameters
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Vertegenwoordigt de set parameters die wordt gebruikt om een terugkerende taak in een project te maken.
+title: "Klasse RecurringTaskParameters"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.RecurringTaskParameters klasse. Vertegenwoordigt de set parameters die worden gebruikt om een terugkerende taak in een project te maken"
 type: docs
-weight: 1480
+weight: 1730
 url: /nl/net/aspose.tasks/recurringtaskparameters/
 ---
 ## RecurringTaskParameters class
 
-Vertegenwoordigt de set parameters die wordt gebruikt om een terugkerende taak in een project te maken.
+Stelt de set parameters voor die worden gebruikt om een terugkerende taak in een project te maken.
 
 ```csharp
 public class RecurringTaskParameters
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [RecurringTaskParameters](recurringtaskparameters/)() | Initialiseert een nieuw exemplaar van het`RecurringTaskParameters` klasse. |
+| [RecurringTaskParameters](recurringtaskparameters/)() | Initialiseert een nieuw exemplaar van de `RecurringTaskParameters` klasse. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Duration](../../aspose.tasks/recurringtaskparameters/duration/) { get; set; } | Haalt of stelt de duur in voor één exemplaar van de terugkerende taak.  Het exemplaar van[`Duration`](./duration/) klas. |
-| [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar/) { get; set; } | Haalt een waarde op of stelt een waarde in die aangeeft of de terugkerende taak moet worden gepland, zelfs als dit niet gebeurt wanneer er bronnen beschikbaar zijn om eraan te werken. |
-| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern/) { get; set; } | Haalt of stelt het herhalingspatroon van de terugkerende taak in.  Kan een van de waarden zijn van[`RecurrencePattern`](./recurrencepattern/) opsomming. |
-| [TaskName](../../aspose.tasks/recurringtaskparameters/taskname/) { get; set; } | Haalt de naam van de terugkerende taak op of stelt deze in. |
+| [Duration](../../aspose.tasks/recurringtaskparameters/duration/) { get; set; } | Haalt op of stelt de duur in voor één voorkomen van de terugkerende taak. Het exemplaar van de [`Duration`](./duration/) klasse. |
+| [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar/) { get; set; } | Haalt op of stelt een waarde in die aangeeft of de terugkerende taak gepland moet worden, zelfs als deze niet plaatsvindt wanneer er geen middelen beschikbaar zijn om eraan te werken. |
+| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern/) { get; set; } | Haalt op of stelt het terugkeerpatroon van de terugkerende taak in. Kan een van de waarden van de [`RecurrencePattern`](./recurrencepattern/) enumeratie zijn. |
+| [TaskName](../../aspose.tasks/recurringtaskparameters/taskname/) { get; set; } | Haalt op of stelt de naam van de terugkerende taak in. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetCalendar](../../aspose.tasks/recurringtaskparameters/setcalendar/)(Project, string) | Stel een kalender in voor terugkerende taken. De kalender wordt geselecteerd uit de verzameling projectkalenders. |
+| [SetCalendar](../../aspose.tasks/recurringtaskparameters/setcalendar/)(Project, string) | Stel een agenda in voor de terugkerende taak. De agenda wordt geselecteerd uit de projectagendacollectie. |
+
+## Voorbeelden
+
+Toont hoe een terugkerende taak te maken.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
 
 ### Zie ook
 
-* naamruimte [Aspose.Tasks](../../aspose.tasks/)
-* montage [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

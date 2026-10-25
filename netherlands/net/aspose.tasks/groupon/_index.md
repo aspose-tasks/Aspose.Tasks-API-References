@@ -1,9 +1,9 @@
 ---
-title: GroupOn
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Specificeert het type groepering.
+title: "Enum GroupOn"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.GroupOn enum. Geeft het type groepering aan"
 type: docs
-weight: 750
+weight: 810
 url: /nl/net/aspose.tasks/groupon/
 ---
 ## GroupOn enumeration
@@ -18,37 +18,68 @@ public enum GroupOn
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| DateDay | `13` | Groepeer op datum per dag. |
-| DateEachValue | `10` | Groepeer op datum voor elke waarde. |
-| DateHour | `12` | Groepeer op datum per uur. |
-| DateMinute | `11` | Groepeer op datum per minuut. |
-| DateMonth | `16` | Groepeer op datum per maand. |
-| DateQtr | `17` | Groepeer op datum per kwartaal. |
-| DateThirdOfMonth | `15` | Groepeer op datum per derde van een maand. |
-| DateWeek | `14` | Groepeer op datum per week. |
-| DateYear | `18` | Groepeer op datum op jaar. |
-| DurationDays | `23` | Groepeer op duur op dagen. |
-| DurationEachValue | `20` | Groepeer op duur voor elke waarde. |
-| DurationHours | `22` | Groepeer op duur per uur. |
-| DurationMinutes | `21` | Groepeer op duur in minuten. |
-| DurationMonths | `25` | Groepeer op duur per maand. |
-| DurationWeeks | `24` | Groepeer op duur per week. |
-| EachValue | `0` | Groeperen op elke waarde. |
-| Interval | `1` | Groeperen op interval. |
-| OutlineEachValue | `30` | Groepeer op elke omtrekwaarde. |
-| OutlineLevel | `31` | Groeperen op overzichtsniveau. |
-| Pct110 | `45` | Groeperen met voltooiingsstappen van 10 procent. |
-| Pct125 | `44` | Groeperen met voltooiingsstappen van 25 procent. |
-| Pct150 | `43` | Groeperen met voltooiingsstappen van 50 procent. |
-| Pct199 | `42` | Groeperen op voltooiing van 99 procent. |
-| PctEachValue | `40` | Groeperen op percentage van elke waarde. |
-| PctInterval | `41` | Groeperen op het interval percentage. |
-| TextEachValue | `50` | Groepeer op elke tekstwaarde. |
+| DateDay | `13` | Groeperen op datum per dag. |
+| DateEachValue | `10` | Groeperen op datum voor elke waarde. |
+| DateHour | `12` | Groeperen op datum per uur. |
+| DateMinute | `11` | Groeperen op datum per minuut. |
+| DateMonth | `16` | Groeperen op datum per maand. |
+| DateQtr | `17` | Groeperen op datum per kwartaal. |
+| DateThirdOfMonth | `15` | Groeperen op datum per elk derde van een maand. |
+| DateWeek | `14` | Groeperen op datum per week. |
+| DateYear | `18` | Groeperen op datum per jaar. |
+| DurationDays | `23` | Groeperen op duur per dagen. |
+| DurationEachValue | `20` | Groeperen op duur voor elke waarde. |
+| DurationHours | `22` | Groeperen op duur per uren. |
+| DurationMinutes | `21` | Groeperen op duur per minuten. |
+| DurationMonths | `25` | Groeperen op duur per maanden. |
+| DurationWeeks | `24` | Groeperen op duur per weken. |
+| EachValue | `0` | Groeperen per elke waarde. |
+| Interval | `1` | Groeperen per het interval. |
+| OutlineEachValue | `30` | Groeperen op elke outline-waarde. |
+| OutlineLevel | `31` | Groeperen op het outline-niveau. |
+| Pct110 | `45` | Groeperen per 10 procent voltooiingsstappen. |
+| Pct125 | `44` | Groeperen per 25 procent voltooiingsstappen. |
+| Pct150 | `43` | Groeperen per 50 procent voltooiingsstappen. |
+| Pct199 | `42` | Groeperen per 99 procent voltooiing. |
+| PctEachValue | `40` | Groeperen op procent van elke waarde. |
+| PctInterval | `41` | Groeperen op het intervalpercentage. |
+| TextEachValue | `50` | Groeperen op elke tekstwaarde. |
 | TextPrefix | `51` | Groeperen op het tekstvoorvoegsel. |
+
+## Voorbeelden
+
+Toont hoe de eigenschappen van een groepscriterium gelezen kunnen worden.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var group = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Name: " + group.Name);
+Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
+
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+var criterion = group.GroupCriteria.ToList()[0];
+Console.WriteLine("Task Criterion Field: " + criterion.Field);
+Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
+Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
+Console.WriteLine("Task Criterion Font Color: " + criterion.FontColor);
+Console.WriteLine("Task Criterion Group Interval: " + criterion.GroupInterval);
+Console.WriteLine("Task Criterion Start At: " + criterion.StartAt);
+
+// lees het achtergrondpatroon van het criterium
+Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
+
+Console.WriteLine("\n*********** Retrieving Criterion's Font Information ***********");
+Console.WriteLine("Font Name: " + criterion.Font.FontFamily);
+Console.WriteLine("Font Size: " + criterion.Font.Size);
+Console.WriteLine("Font Style: " + criterion.Font.Style);
+Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
+```
 
 ### Zie ook
 
-* naamruimte [Aspose.Tasks](../../aspose.tasks/)
-* montage [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

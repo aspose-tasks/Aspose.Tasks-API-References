@@ -1,108 +1,120 @@
 ---
-title: PrjKey
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Vertegenwoordigt een lijst met ondersteunde projectvelden.
+title: "Enum PrjKey"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.PrjKey enum. Vertegenwoordigt een lijst van ondersteunde projectvelden"
 type: docs
-weight: 1180
+weight: 1420
 url: /nl/net/aspose.tasks/prjkey/
 ---
 ## PrjKey enumeration
 
-Vertegenwoordigt een lijst met ondersteunde projectvelden.
+Stelt een lijst van ondersteunde projectvelden voor.
 
 ```csharp
-public enum PrjKey
+public enum PrjKey : byte
 ```
 
 ### Waarden
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| ShowProjectSummaryTask | `0` | Vertegenwoordigt het veld ShowProjectSummaryTask (project). |
-| SaveVersion | `1` | Vertegenwoordigt het veld SaveVersion (Project). |
-| Uid | `2` | Vertegenwoordigt het veld Uid (project). |
-| Title | `3` | Vertegenwoordigt het veld Titel (project). |
-| Subject | `4` | Vertegenwoordigt het veld Onderwerp (project). |
-| Category | `5` | Vertegenwoordigt het veld Categorie (project). |
-| Company | `6` | Vertegenwoordigt het veld Bedrijf (project). |
-| Manager | `7` | Vertegenwoordigt het veld Manager (project). |
-| Author | `8` | Vertegenwoordigt het veld Auteur (project). |
-| CreationDate | `9` | Vertegenwoordigt het veld Aanmaakdatum (project). |
-| Revision | `10` | Vertegenwoordigt het veld Revisie (project). |
-| LastSaved | `11` | Vertegenwoordigt het veld Laatst opgeslagen (project). |
-| ScheduleFromStart | `12` | Vertegenwoordigt het veld ScheduleFromStart (Project). |
-| StartDate | `13` | Vertegenwoordigt het veld Begindatum (project). |
-| FinishDate | `14` | Vertegenwoordigt het veld Einddatum (project). |
-| FyStartDate | `15` | Vertegenwoordigt de (Project)veld. |
-| CriticalSlackLimit | `16` | Vertegenwoordigt het veld CriticalSlackLimit (Project). |
-| CurrencyDigits | `17` | Vertegenwoordigt het veld CurrencyDigits (Project). |
-| CurrencySymbol | `18` | Vertegenwoordigt het veld CurrencySymbol (Project). |
-| CurrencyCode | `19` | Vertegenwoordigt het veld CurrencyCode (Project). |
-| CurrencySymbolPosition | `20` | Vertegenwoordigt het veld CurrencySymbolPosition (Project). |
-| Calendar | `21` | Vertegenwoordigt het kalenderveld (project). |
-| DateFormat | `22` | Vertegenwoordigt het veld DateFormat (Project). |
-| DefaultStartTime | `23` | Vertegenwoordigt het veld DefaultStartTime (Project). |
-| DefaultFinishTime | `24` | Vertegenwoordigt het veld DefaultFinishTime (Project). |
-| MinutesPerDay | `25` | Vertegenwoordigt het veld MinutenPerDag (project). |
-| MinutesPerWeek | `26` | Vertegenwoordigt het veld MinutenPerWeek (Project). |
-| DaysPerMonth | `27` | Vertegenwoordigt het veld DaysPerMonth (Project). |
-| DefaultTaskType | `28` | Vertegenwoordigt het veld DefaultTaskType (Project). |
-| DefaultFixedCostAccrual | `29` | Vertegenwoordigt het veld DefaultFixedCostAccrual (Project). |
-| DefaultStandardRate | `30` | Vertegenwoordigt het veld DefaultStandardRate (Project). |
-| DefaultOvertimeRate | `31` | Vertegenwoordigt het veld DefaultOvertimeRate (Project). |
-| DurationFormat | `32` | Vertegenwoordigt het veld DurationFormat (Project). |
-| WorkFormat | `33` | Vertegenwoordigt het veld WorkFormat (Project). |
-| AreEditableActualCosts | `34` | Vertegenwoordigt het veld AreEditableActualCosts (Project). |
-| HonorConstraints | `35` | Vertegenwoordigt het veld HonorConstraints (Project). |
-| EarnedValueMethod | `36` | Vertegenwoordigt het veld EarnedValueMethod (Project). |
-| InsertedProjectsLikeSummary | `37` | Vertegenwoordigt het veld InsertedProjectsLikeSummary (Project). |
-| MultipleCriticalPaths | `38` | Vertegenwoordigt het veld MultipleCriticalPaths (Project). |
-| NewTasksEffortDriven | `39` | Vertegenwoordigt het veld NewTasksEffortDriven (Project). |
-| NewTasksEstimated | `40` | Vertegenwoordigt het veld NewTasksEstimated (Project). |
-| SplitsInProgressTasks | `41` | Vertegenwoordigt het veld SplitsInProgressTasks (Project). |
-| SpreadActualCosts | `42` | Vertegenwoordigt het veld SpreadActualCosts (Project). |
-| SpreadPercentComplete | `43` | Vertegenwoordigt het veld SpreadPercentComplete (Project). |
-| TaskUpdatesResource | `44` | Vertegenwoordigt het veld TaskUpdatesResource (Project). |
-| FiscalYearStart | `45` | Vertegenwoordigt het veld FiscalYearStart (Project). |
-| WeekStartDay | `46` | Vertegenwoordigt het veld WeekStartDay (Project). |
-| MoveCompletedEndsBack | `47` | Vertegenwoordigt het veld MoveCompletedEndsBack (Project). |
-| MoveRemainingStartsBack | `48` | Vertegenwoordigt het veld MoveRemainingStartsBack (Project). |
-| MoveRemainingStartsForward | `49` | Vertegenwoordigt het veld MoveRemainingStartsForward (Project). |
-| MoveCompletedEndsForward | `50` | Vertegenwoordigt het veld MoveCompletedEndsForward (Project). |
-| BaselineForEarnedValue | `51` | Vertegenwoordigt het veld BaselineForEarnedValue (Project). |
-| AutoAddNewResourcesAndTasks | `52` | Vertegenwoordigt het veld AutoAddNewResourcesAndTasks (Project). |
-| StatusDate | `53` | Vertegenwoordigt het veld StatusDatum (Project). |
-| CurrentDate | `54` | Vertegenwoordigt het veld CurrentDate (Project). |
-| MicrosoftProjectServerURL | `55` | Vertegenwoordigt het veld MicrosoftProjectServerURL (Project). |
-| Autolink | `56` | Vertegenwoordigt het veld Autolink (project). |
-| NewTaskStartDate | `57` | Vertegenwoordigt het veld NewTaskStartDate (Project). |
-| DefaultTaskEVMethod | `58` | Vertegenwoordigt het veld DefaultTaskEVMethod (Project). |
-| ExtendedCreationDate | `59` | Vertegenwoordigt het veld ExtendedCreationDate (Project). |
-| ActualsInSync | `60` | Vertegenwoordigt het veld ActualsInSync (project). |
-| ProjectExternallyEdited | `61` | Vertegenwoordigt het veld ProjectExtern bewerkt (Project). |
-| RemoveFileProperties | `62` | Vertegenwoordigt het veld RemoveFileProperties (Project). |
-| AdminProject | `63` | Vertegenwoordigt het veld AdminProject (Project). |
-| Name | `64` | Vertegenwoordigt het veld Naam (Project). |
-| TimescaleStart | `65` | Vertegenwoordigt het veld TimescaleStart (Project). |
-| TimescaleFinish | `66` | Vertegenwoordigt het veld TimescaleFinish (Project). |
-| Comments | `67` | Vertegenwoordigt het veld Opmerkingen (project). |
-| Keywords | `68` | Vertegenwoordigt het veld Trefwoorden (project). |
-| Template | `69` | Vertegenwoordigt het veld Sjabloon (project). |
-| LastAuthor | `70` | Vertegenwoordigt het veld LastAuthor (Project). |
-| LastPrinted | `71` | Vertegenwoordigt het veld LastPrinted (Project). |
-| HyperlinkBase | `72` | Vertegenwoordigt het veld HyperlinkBase (Project). |
-| NewTasksAreManual | `73` | Vertegenwoordigt het veld NewTasksAreManual (Project). |
-| UpdateManuallyScheduledTasksWhenEditingLinks | `74` | Vertegenwoordigt het veld UpdateManuallyScheduledTasksWhenEditingLinks (Project). |
-| KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled | `75` | Vertegenwoordigt het veld KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled (Project). |
-| DefaultCalendarGuid | `76` | Standaard kalendergids. |
-| DefaultCalendarUid | `77` | Standaard kalender-uid. |
-| Guid | `78` | Vertegenwoordigt de GUID van een project. |
-| CustomDateFormat | `79` | Vertegenwoordigt door de gebruiker gedefinieerd datumformaat. |
-| TemplateFullPath | `80` | Vertegenwoordigt de volledige bestandsnaam van de sjabloon (project). |
+| ShowProjectSummaryTask | `0` | Vertegenwoordigt het ShowProjectSummaryTask (Project)-veld. |
+| SaveVersion | `1` | Vertegenwoordigt het SaveVersion (Project)-veld. |
+| Uid | `2` | Vertegenwoordigt het Uid (Project)-veld. |
+| Title | `3` | Vertegenwoordigt het Title (Project)-veld. |
+| Subject | `4` | Geeft het onderwerp (Project) veld weer. |
+| Category | `5` | Geeft de categorie (Project) veld weer. |
+| Company | `6` | Geeft het bedrijf (Project) veld weer. |
+| Manager | `7` | Geeft de manager (Project) veld weer. |
+| Author | `8` | Geeft de auteur (Project) veld weer. |
+| CreationDate | `9` | Geeft het creatiedatum (Project) veld weer. |
+| Revision | `10` | Geeft het revisie (Project) veld weer. |
+| LastSaved | `11` | Geeft het laatst opgeslagen (Project) veld weer. |
+| ScheduleFromStart | `12` | Geeft de planning vanaf start (Project) veld weer. |
+| StartDate | `13` | Geeft het startdatum (Project) veld weer. |
+| FinishDate | `14` | Geeft het einddatum (Project) veld weer. |
+| FyStartDate | `15` | Geeft weer |
+| CriticalSlackLimit | `16` | Geeft het kritieke slacklimiet (Project) veld weer. |
+| CurrencyDigits | `17` | Geeft het valuta cijfers (Project) veld weer. |
+| CurrencySymbol | `18` | Geeft het valutasymbool (Project) veld weer. |
+| CurrencyCode | `19` | Geeft het valutacode (Project) veld weer. |
+| CurrencySymbolPosition | `20` | Geeft het valutasymboolpositie (Project) veld weer. |
+| Calendar | `21` | Geeft het kalender (Project) veld weer. |
+| DateFormat | `22` | Geeft het datumnotatie (Project) veld weer. |
+| DefaultStartTime | `23` | Geeft het standaard starttijd (Project) veld weer. |
+| DefaultFinishTime | `24` | Geeft het standaard eindtijd (Project) veld weer. |
+| MinutesPerDay | `25` | Geeft het minuten per dag (Project) veld weer. |
+| MinutesPerWeek | `26` | Geeft het minuten per week (Project) veld weer. |
+| DaysPerMonth | `27` | Geeft het dagen per maand (Project) veld weer. |
+| DefaultTaskType | `28` | Geeft het standaard taaktype (Project) veld weer. |
+| DefaultFixedCostAccrual | `29` | Stelt het DefaultFixedCostAccrual (Project) veld voor. |
+| DefaultStandardRate | `30` | Stelt het DefaultStandardRate (Project) veld voor. |
+| DefaultOvertimeRate | `31` | Stelt het DefaultOvertimeRate (Project) veld voor. |
+| DurationFormat | `32` | Stelt het DurationFormat (Project) veld voor. |
+| WorkFormat | `33` | Stelt het WorkFormat (Project) veld voor. |
+| AreEditableActualCosts | `34` | Stelt het AreEditableActualCosts (Project) veld voor. |
+| HonorConstraints | `35` | Stelt het HonorConstraints (Project) veld voor. |
+| EarnedValueMethod | `36` | Stelt het EarnedValueMethod (Project) veld voor. |
+| InsertedProjectsLikeSummary | `37` | Stelt het InsertedProjectsLikeSummary (Project) veld voor. |
+| MultipleCriticalPaths | `38` | Stelt het MultipleCriticalPaths (Project) veld voor. |
+| NewTasksEffortDriven | `39` | Stelt het NewTasksEffortDriven (Project) veld voor. |
+| NewTasksEstimated | `40` | Stelt het NewTasksEstimated (Project) veld voor. |
+| SplitsInProgressTasks | `41` | Stelt het SplitsInProgressTasks (Project) veld voor. |
+| SpreadActualCosts | `42` | Stelt het SpreadActualCosts (Project) veld voor. |
+| SpreadPercentComplete | `43` | Stelt het SpreadPercentComplete (Project) veld voor. |
+| TaskUpdatesResource | `44` | Stelt het TaskUpdatesResource (Project) veld voor. |
+| FiscalYearStart | `45` | Stelt het FiscalYearStart (Project) veld voor. |
+| WeekStartDay | `46` | Stelt het WeekStartDay (Project) veld voor. |
+| MoveCompletedEndsBack | `47` | Stelt het MoveCompletedEndsBack (Project) veld voor. |
+| MoveRemainingStartsBack | `48` | Stelt het MoveRemainingStartsBack (Project) veld voor. |
+| MoveRemainingStartsForward | `49` | Stelt het MoveRemainingStartsForward (Project) veld voor. |
+| MoveCompletedEndsForward | `50` | Stelt het MoveCompletedEndsForward (Project) veld voor. |
+| BaselineForEarnedValue | `51` | Stelt het BaselineForEarnedValue (Project) veld voor. |
+| AutoAddNewResourcesAndTasks | `52` | Stelt het AutoAddNewResourcesAndTasks (Project) veld voor. |
+| StatusDate | `53` | Stelt het StatusDate (Project) veld voor. |
+| CurrentDate | `54` | Geeft het CurrentDate (Project) veld weer. |
+| MicrosoftProjectServerURL | `55` | Geeft het MicrosoftProjectServerURL (Project) veld weer. |
+| Autolink | `56` | Geeft het Autolink (Project) veld weer. |
+| NewTaskStartDate | `57` | Geeft het NewTaskStartDate (Project) veld weer. |
+| DefaultTaskEVMethod | `58` | Geeft het DefaultTaskEVMethod (Project) veld weer. |
+| ExtendedCreationDate | `59` | Geeft het ExtendedCreationDate (Project) veld weer. |
+| ActualsInSync | `60` | Geeft het ActualsInSync (Project) veld weer. |
+| ProjectExternallyEdited | `61` | Geeft het ProjectExternallyEdited (Project) veld weer. |
+| RemoveFileProperties | `62` | Geeft het RemoveFileProperties (Project) veld weer. |
+| AdminProject | `63` | Geeft het AdminProject (Project) veld weer. |
+| Name | `64` | Geeft het Name (Project) veld weer. |
+| TimescaleStart | `65` | Geeft het TimescaleStart (Project) veld weer. |
+| TimescaleFinish | `66` | Geeft het TimescaleFinish (Project) veld weer. |
+| Comments | `67` | Geeft het Comments (Project) veld weer. |
+| Keywords | `68` | Geeft het Keywords (Project) veld weer. |
+| Template | `69` | Geeft het Template (Project) veld weer. |
+| LastAuthor | `70` | Geeft het LastAuthor (Project) veld weer. |
+| LastPrinted | `71` | Geeft het LastPrinted (Project) veld weer. |
+| HyperlinkBase | `72` | Geeft het HyperlinkBase (Project) veld weer. |
+| NewTasksAreManual | `73` | Geeft het NewTasksAreManual (Project) veld weer. |
+| UpdateManuallyScheduledTasksWhenEditingLinks | `74` | Geeft het UpdateManuallyScheduledTasksWhenEditingLinks (Project) veld weer. |
+| KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled | `75` | Geeft het KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled (Project) veld weer. |
+| DefaultCalendarGuid | `76` | Standaard kalender guid. |
+| DefaultCalendarUid | `77` | Standaard kalender uid. |
+| Guid | `78` | Geeft de guid van een project weer. |
+| AutoCalculateAssignmentCosts | `79` | Bepaalt of toewijzingskosten en resterende kosten automatisch moeten worden berekend met behulp van het werk en de resource-tarieven van de toewijzing. |
+| CustomDateFormat | `80` | Stelt een door de gebruiker gedefinieerd datumnotatie voor. |
+| TemplateFullPath | `81` | Stelt de volledige bestandsnaam van de sjabloon (project) voor. |
+
+## Voorbeelden
+
+Toont hoe attributen voor nieuwe taken ingesteld worden.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
 
 ### Zie ook
 
-* naamruimte [Aspose.Tasks](../../aspose.tasks/)
-* montage [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

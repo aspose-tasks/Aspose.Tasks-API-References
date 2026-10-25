@@ -1,14 +1,14 @@
 ---
-title: TableFieldCollection
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Bevat een lijst vanTableField./tablefield/ objects. Implementeert IListltTableFieldgt interface.
+title: "Klasse TableFieldCollection"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "Aspose.Tasks.TableFieldCollection klasse. Bevat een lijst met TableField-objecten. Implementeert de IListTableField interface."
 type: docs
-weight: 2060
+weight: 2350
 url: /nl/net/aspose.tasks/tablefieldcollection/
 ---
 ## TableFieldCollection class
 
-Bevat een lijst van[`TableField`](../tablefield/) objects. Implementeert IList&lt;TableField&gt; interface.
+Bevat een lijst met [`TableField`](../tablefield/) objecten. Implementeert de IList&lt;TableField&gt; interface.
 
 ```csharp
 public class TableFieldCollection : IList<TableField>
@@ -18,28 +18,90 @@ public class TableFieldCollection : IList<TableField>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.tasks/tablefieldcollection/count/) { get; } | Krijgt het aantal elementen in deze verzameling. |
-| [IsReadOnly](../../aspose.tasks/tablefieldcollection/isreadonly/) { get; } | Krijgt een waarde die aangeeft of deze verzameling alleen-lezen is; anders, false. |
+| [Count](../../aspose.tasks/tablefieldcollection/count/) { get; } | Haalt het aantal elementen op dat in deze collectie zit. |
+| [IsReadOnly](../../aspose.tasks/tablefieldcollection/isreadonly/) { get; } | Haalt een waarde op die aangeeft of deze collectie alleen-lezen is; anders, false. |
 | [Item](../../aspose.tasks/tablefieldcollection/item/) { get; set; } | Retourneert of stelt het element in op de opgegeven index. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.tasks/tablefieldcollection/add/)(TableField) | Voegt het opgegeven item toe aan deze collectie. |
 | [Clear](../../aspose.tasks/tablefieldcollection/clear/)() | Verwijdert alle items uit deze collectie. |
-| [Contains](../../aspose.tasks/tablefieldcollection/contains/)(TableField) | Retourneert waar als het opgegeven item in deze verzameling is gevonden; anders, false. |
-| [CopyTo](../../aspose.tasks/tablefieldcollection/copyto/)(TableField[], int) | Kopieert de elementen van deze verzameling naar de gespecificeerde array, beginnend bij de gespecificeerde array-index. |
-| [GetEnumerator](../../aspose.tasks/tablefieldcollection/getenumerator/)() | Retourneert een teller voor deze collectie. |
+| [Contains](../../aspose.tasks/tablefieldcollection/contains/)(TableField) | Retourneert true als het opgegeven item in deze collectie wordt gevonden; anders false. |
+| [CopyTo](../../aspose.tasks/tablefieldcollection/copyto/)(TableField[], int) | Kopieert de elementen van deze collectie naar de opgegeven array, beginnend bij de opgegeven array-index. |
+| [GetEnumerator](../../aspose.tasks/tablefieldcollection/getenumerator/)() | Retourneert een enumerator voor deze collectie. |
 | [IndexOf](../../aspose.tasks/tablefieldcollection/indexof/)(TableField) | Bepaalt de index van het opgegeven item in deze collectie. |
 | [Insert](../../aspose.tasks/tablefieldcollection/insert/)(int, TableField) | Voegt het opgegeven item in op de opgegeven index. |
-| [Remove](../../aspose.tasks/tablefieldcollection/remove/)(TableField) | Verwijdert het eerste exemplaar van een specifiek object uit deze collectie. |
+| [Remove](../../aspose.tasks/tablefieldcollection/remove/)(TableField) | Verwijdert de eerste instantie van een specifiek object uit deze collectie. |
 | [RemoveAt](../../aspose.tasks/tablefieldcollection/removeat/)(int) | Verwijdert een item op de opgegeven index. |
+
+## Voorbeelden
+
+Toont hoe te werken met tabelveldcollecties.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+foreach (var tbl in project.Tables)
+{
+    Console.WriteLine("Table name: " + tbl.Name);
+    Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
+
+    // itereren over tabelvelden
+    Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
+    Console.WriteLine("Table count: " + tbl.TableFields.Count);
+    foreach (var fld in tbl.TableFields)
+    {
+        Console.WriteLine("Field Title: " + fld.Title);
+        Console.WriteLine("Field Field: " + fld.Field);
+        Console.WriteLine();
+    }
+}
+
+// voeg een nieuw tabelveld toe
+var table = project.Tables.ToList()[0];
+var field = new TableField();
+field.Title = "New Table Field";
+table.TableFields.Add(field);
+
+var field2 = new TableField();
+field2.Title = "New Table Field 2";
+
+// voeg een nieuw veld in op de positie
+var idx = table.TableFields.IndexOf(field);
+table.TableFields.Insert(idx, field2);
+
+// laat ons het nieuwe tabelveld bewerken door indextoegang te gebruiken
+table.TableFields[idx].WrapHeader = true;
+
+Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
+
+// recentelijk kunnen we het veld verwijderen
+table.TableFields.RemoveAt(idx);
+
+// men kan de collectie op twee manieren wissen
+if (deleteOneByOne)
+{
+    // kopieer tabelvelden naar de array en verwijder ze één voor één
+    var tableFields = new TableField[table.TableFields.Count];
+    table.TableFields.CopyTo(tableFields, 0);
+    foreach (var fld in tableFields)
+    {
+        table.TableFields.Remove(fld);
+    }
+}
+else
+{
+    // of men kan een tabelveldcollectie volledig wissen
+    table.TableFields.Clear();
+}
+```
 
 ### Zie ook
 
 * class [TableField](../tablefield/)
-* naamruimte [Aspose.Tasks](../../aspose.tasks/)
-* montage [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

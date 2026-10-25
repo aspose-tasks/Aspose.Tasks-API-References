@@ -1,14 +1,14 @@
 ---
-title: Add
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Retourneert een exemplaar van FinishStartTaskLinkaspose.tasks/tasklink/ die is toegevoegd aan het TaskLinkCollectionobject.
+title: "TaskLinkCollection.Add"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "TaskLinkCollection methode. Retourneert een exemplaar van FinishStart TaskLink dat is toegevoegd aan het TaskLinkCollection‑object."
 type: docs
 weight: 40
 url: /nl/net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-Retourneert een exemplaar van Finish-Start[`TaskLink`](../../tasklink/) die is toegevoegd aan het TaskLinkCollection-object.
+Retourneert een instantie van Finish-Start [`TaskLink`](../../tasklink/) die is toegevoegd aan het TaskLinkCollection object.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
@@ -16,32 +16,73 @@ public TaskLink Add(Task pred, Task succ)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| pred | Task | Voorganger taak. |
-| succ | Task | Opvolger taak. |
+| pred | Taak | Voorgaande taak. |
+| succ | Taak | Opvolgende taak. |
 
-### Winstwaarde
+### Retourwaarde
 
-een taakkoppelingsinstantie die aan dit object is toegevoegd.
+een task link‑instantie die aan dit object is toegevoegd.
 
 ### Uitzonderingen
 
-| uitzondering | voorwaarde |
+| exceptie | conditie |
 | --- | --- |
-| ArgumentNullException | Als een van de invoertaken gelijk is aan null, danArgumentNullException zal worden gegooid. |
+| ArgumentNullException | Als een van de invoertaken gelijk is aan null, wordt ArgumentNullException gegooid. |
+
+## Voorbeelden
+
+Toont hoe te werken met taakkoppelingscollecties.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// haal taken op
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// koppel de taken
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// print koppelingen tussen de taken
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// bewerk koppeling via indextoegang
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// verwijder alle taakkoppelingen
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
 
 ### Zie ook
 
 * class [TaskLink](../../tasklink/)
 * class [Task](../../task/)
 * class [TaskLinkCollection](../)
-* naamruimte [Aspose.Tasks](../../tasklinkcollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-Retourneert een exemplaar van[`TaskLink`](../../tasklink/) die is toegevoegd aan het TaskLinkCollection-object.
+Retourneert een instantie van [`TaskLink`](../../tasklink/) die is toegevoegd aan het TaskLinkCollection object.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
@@ -49,19 +90,60 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| pred | Task | Voorganger taak. |
-| succ | Task | Opvolger taak. |
-| linkType | TaskLinkType | Koppelingstype[`TaskLinkType`](../../tasklinktype/) |
+| pred | Taak | Voorgaande taak. |
+| succ | Taak | Opvolgende taak. |
+| linkType | TaskLinkType | Linktype [`TaskLinkType`](../../tasklinktype/) |
 
-### Winstwaarde
+### Retourwaarde
 
-een taakkoppelingsinstantie die aan dit object is toegevoegd.
+een task link‑instantie die aan dit object is toegevoegd.
 
 ### Uitzonderingen
 
-| uitzondering | voorwaarde |
+| exceptie | conditie |
 | --- | --- |
-| ArgumentNullException | Als een van de invoertaken gelijk is aan null, danArgumentNullException zal worden gegooid. |
+| ArgumentNullException | Als een van de invoertaken gelijk is aan null, wordt ArgumentNullException gegooid. |
+
+## Voorbeelden
+
+Toont hoe te werken met taakkoppelingscollecties.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// haal taken op
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// koppel de taken
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// print koppelingen tussen de taken
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// bewerk koppeling via indextoegang
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// verwijder alle taakkoppelingen
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
 
 ### Zie ook
 
@@ -69,14 +151,14 @@ een taakkoppelingsinstantie die aan dit object is toegevoegd.
 * class [Task](../../task/)
 * enum [TaskLinkType](../../tasklinktype/)
 * class [TaskLinkCollection](../)
-* naamruimte [Aspose.Tasks](../../tasklinkcollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-Retourneert een exemplaar van[`TaskLink`](../../tasklink/) die is toegevoegd aan het TaskLinkCollection-object.
+Retourneert een instantie van [`TaskLink`](../../tasklink/) die is toegevoegd aan het TaskLinkCollection object.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
@@ -84,20 +166,61 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| pred | Task | Voorganger taak. |
-| succ | Task | Opvolger taak. |
-| linkType | TaskLinkType | Koppelingstype[`TaskLinkType`](../../tasklinktype/) |
-| lag | Duration | Link vertraging[`Duration`](../../duration/). |
+| pred | Taak | Voorgaande taak. |
+| succ | Taak | Opvolgende taak. |
+| linkType | TaskLinkType | Linktype [`TaskLinkType`](../../tasklinktype/) |
+| lag | Duration | Linkvertraging [`Duration`](../../duration/). |
 
-### Winstwaarde
+### Retourwaarde
 
-een taakkoppeling die aan dit object is toegevoegd.
+een task link die aan dit object is toegevoegd.
 
 ### Uitzonderingen
 
-| uitzondering | voorwaarde |
+| exceptie | conditie |
 | --- | --- |
-| ArgumentNullException | Als een van de invoertaken gelijk is aan null, danArgumentNullException zal worden gegooid. |
+| ArgumentNullException | Als een van de invoertaken gelijk is aan null, wordt ArgumentNullException gegooid. |
+
+## Voorbeelden
+
+Toont hoe te werken met taakkoppelingscollecties.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// haal taken op
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// koppel de taken
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// print koppelingen tussen de taken
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// bewerk koppeling via indextoegang
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// verwijder alle taakkoppelingen
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
 
 ### Zie ook
 
@@ -106,14 +229,14 @@ een taakkoppeling die aan dit object is toegevoegd.
 * enum [TaskLinkType](../../tasklinktype/)
 * struct [Duration](../../duration/)
 * class [TaskLinkCollection](../)
-* naamruimte [Aspose.Tasks](../../tasklinkcollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(TaskLink) {#add_3}
 
-Dit is de stub-implementatie van ICollection's Add-methode, die alleen NotSupportedException genereert
+Dit is de stub-implementatie van de Add-methode van ICollection, die alleen NotSupportedException gooit.
 
 ```csharp
 public void Add(TaskLink item)
@@ -121,13 +244,13 @@ public void Add(TaskLink item)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| item | TaskLink | Het item dat moet worden toegevoegd. |
+| item | TaskLink | Het item om toe te voegen. |
 
 ### Zie ook
 
 * class [TaskLink](../../tasklink/)
 * class [TaskLinkCollection](../)
-* naamruimte [Aspose.Tasks](../../tasklinkcollection/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

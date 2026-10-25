@@ -1,14 +1,14 @@
 ---
-title: CreateNewProject
-second_title: Aspose.Tasks voor .NET API-referentie
-description: Maakt nieuw project in Project ServerProject Onlineinstantie met standaard opslagopties.
+title: "ProjectServerManager.CreateNewProject"
+second_title: "Aspose.Tasks for .NET API-referentie"
+description: "ProjectServerManager-methode. Maakt een nieuw project in een Project Server/Project Online‑instantie met de standaard opslagopties."
 type: docs
 weight: 30
 url: /nl/net/aspose.tasks/projectservermanager/createnewproject/
 ---
 ## CreateNewProject(Project) {#createnewproject}
 
-Maakt nieuw project in Project Server\Project Online-instantie met standaard opslagopties.
+Maakt een nieuw project aan in een Project Server\Project Online‑instantie met behulp van de standaard opslagopties.
 
 ```csharp
 public void CreateNewProject(Project project)
@@ -16,38 +16,60 @@ public void CreateNewProject(Project project)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| project | Project | Het project dat moet worden opgeslagen in de Project Server\Project Online-instantie. |
+| project | Project | Het project om op te slaan naar de Project Server\Project Online‑instantie. |
 
 ### Uitzonderingen
 
-| uitzondering | voorwaarde |
+| exceptie | conditie |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | In geval van communicatiefout of fout geretourneerd door een server. |
+| [ProjectOnlineException](../../projectonlineexception/) | In geval van een communicatiefout of een fout die door een server wordt geretourneerd. |
 
-### Voorbeelden
+## Voorbeelden
 
-In dit voorbeeld wordt het project geladen vanuit het .mpp-bestand en opgeslagen in het Project Online-account.
+In dit voorbeeld wordt het project geladen uit een .mpp‑bestand en opgeslagen in een Project Online‑account.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "jjjjj@xxxxxxx.onmicrosoft.com", "wachtwoord");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project);
+```
+
+Toont hoe ProjectServerManager te gebruiken om een nieuw project te maken op Microsoft Project Online.
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
 ```
 
 ### Zie ook
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* naamruimte [Aspose.Tasks](../../projectservermanager/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateNewProject(Project, ProjectServerSaveOptions) {#createnewproject_1}
 
-Maakt een nieuw project in de Project Server\Project Online-instantie met behulp van de opgegeven opslagopties.
+Maakt een nieuw project aan in Project Server\Project Online‑instantie met de opgegeven opslagopties.
 
 ```csharp
 public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptions)
@@ -55,22 +77,22 @@ public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptio
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| project | Project | Het project dat moet worden opgeslagen in de Project Server\Project Online-instantie. |
-| saveOptions | ProjectServerSaveOptions | Instantie van[`ProjectServerSaveOptions`](../../projectserversaveoptions/) klas. |
+| project | Project | Het project om op te slaan naar de Project Server\Project Online‑instantie. |
+| saveOptions | ProjectServerSaveOptions | Instantie van de [`ProjectServerSaveOptions`](../../projectserversaveoptions/)‑klasse. |
 
 ### Uitzonderingen
 
-| uitzondering | voorwaarde |
+| exceptie | conditie |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | In geval van communicatiefout of fout geretourneerd door een server. |
+| [ProjectOnlineException](../../projectonlineexception/) | In geval van een communicatiefout of een fout die door een server wordt geretourneerd. |
 
-### Voorbeelden
+## Voorbeelden
 
-In dit voorbeeld wordt het project geladen vanuit het .mpp-bestand en opgeslagen in het Project Online-account.
+In dit voorbeeld wordt het project geladen uit een .mpp‑bestand en opgeslagen in een Project Online‑account.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "jjjjj@xxxxxxx.onmicrosoft.com", "wachtwoord");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project, new ProjectServerSaveOptions
@@ -79,12 +101,38 @@ manager.CreateNewProject(project, new ProjectServerSaveOptions
 });
 ```
 
+Toont hoe de Project Server‑manager te gebruiken om een nieuw project te maken met vooraf gedefinieerde opslagopties op Microsoft Project Online.
+
+```csharp
+try
+{
+    const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    var options = new ProjectServerSaveOptions
+    {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
 ### Zie ook
 
 * class [Project](../../project/)
 * class [ProjectServerSaveOptions](../../projectserversaveoptions/)
 * class [ProjectServerManager](../)
-* naamruimte [Aspose.Tasks](../../projectservermanager/)
-* montage [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
