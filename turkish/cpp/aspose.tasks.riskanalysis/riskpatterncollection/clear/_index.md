@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::RiskAnalysis::RiskPatternCollection::Clear yöntemi"
+linktitle: "Temizle"
+articleTitle: "Temizle"
+second_title: "C++ için Aspose.Tasks"
+description: "Bu koleksiyondaki tüm öğeleri kaldırır."
+type: docs
+weight: 20
+url: /tr/cpp/aspose.tasks.riskanalysis/riskpatterncollection/clear/
+---
+
+## Clear {#clear}
+
+Bu koleksiyondaki tüm öğeleri kaldırır.
+
+**Returns:** void Aspose::Tasks::RiskAnalysis::
+
+```cpp
+Clear()
+```
+
