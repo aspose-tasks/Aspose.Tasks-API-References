@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultFixedCostAccrual
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de DefaultFixedCostAccrual.
+title: "Project.DefaultFixedCostAccrual"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de DefaultFixedCostAccrual"
 type: docs
-weight: 290
+weight: 300
 url: /fr/net/aspose.tasks/project/defaultfixedcostaccrual/
 ---
 ## Project.DefaultFixedCostAccrual property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de DefaultFixedCostAccrual.
 public CostAccrualType DefaultFixedCostAccrual { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [CostAccrualType](../../costaccrualtype/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

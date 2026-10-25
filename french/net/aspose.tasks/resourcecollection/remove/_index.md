@@ -1,32 +1,32 @@
 ---
-title: ResourceCollection.Remove
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceCollection méthode. Il sagit de limplémentation stub de la méthode Remove dICollection qui ne lève que NotSupportedException
+title: "ResourceCollection.Remove"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode ResourceCollection. Il s'agit de l'implémentation factice de la méthode Remove de ICollections qui ne fait que lever NotSupportedException"
 type: docs
 weight: 90
 url: /fr/net/aspose.tasks/resourcecollection/remove/
 ---
 ## ResourceCollection.Remove method
 
-Il s'agit de l'implémentation stub de la méthode Remove d'ICollection, qui ne lève que NotSupportedException
+Ceci est l'implémentation factice de la méthode Remove de ICollection, qui ne lance que NotSupportedException
 
 ```csharp
 public bool Remove(Resource item)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| item | Resource | l'élément à supprimer. |
+| élément | Ressource | l'élément à supprimer. |
 
-### Return_Value
+### Valeur de retour
 
-`vrai` si l'article a été supprimé ;`FAUX` sinon.
+`true` si l'élément a été supprimé ; `false` sinon.
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* espace de noms [Aspose.Tasks](../../resourcecollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

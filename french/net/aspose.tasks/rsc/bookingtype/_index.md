@@ -1,7 +1,7 @@
 ---
-title: Rsc.BookingType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Rsc champ. Le type de réservation dune ressource.
+title: "Rsc.BookingType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Rsc. Le type de réservation d'une ressource"
 type: docs
 weight: 160
 url: /fr/net/aspose.tasks/rsc/bookingtype/
@@ -14,13 +14,27 @@ Le type de réservation d'une ressource.
 public static readonly Key<BookingType, RscKey> BookingType;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Rsc.BookingType.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.BookingType, BookingType.Committed);
+
+Console.WriteLine("Booking Type: " + resource.Get(Rsc.BookingType));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [BookingType](../../bookingtype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espace de noms [Aspose.Tasks](../../rsc/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

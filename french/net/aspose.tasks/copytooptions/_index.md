@@ -1,7 +1,7 @@
 ---
-title: Class CopyToOptions
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.CopyToOptions classe. Permet de spécifier des options supplémentaires lors de la copie des données du projet.
+title: "Classe CopyToOptions"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.CopyToOptions. Permet de spécifier des options supplémentaires lors de la copie des données du projet"
 type: docs
 weight: 340
 url: /fr/net/aspose.tasks/copytooptions/
@@ -16,19 +16,35 @@ public class CopyToOptions
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CopyToOptions](copytooptions/)() | Initialise une nouvelle instance du`CopyToOptions` classe. |
+| [CopyToOptions](copytooptions/)() | Initialise une nouvelle instance de la classe `CopyToOptions`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut copier les données de la vue lors de la copie des données du projet. La valeur par défaut est true. |
+| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata/) { get; set; } | Obtient ou définit une valeur indiquant s'il faut copier les données de vue lors de la copie des données du projet. La valeur par défaut est true. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment utiliser les options de copie du projet.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// ignorer la copie des données de vue lors de la copie des données communes du projet.
+var copyToOptions = new CopyToOptions();
+copyToOptions.CopyViewData = false;
+project.CopyTo(mppProject, copyToOptions);
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

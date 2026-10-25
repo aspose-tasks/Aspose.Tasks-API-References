@@ -1,87 +1,112 @@
 ---
-title: TextStyle.TextStyle
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TextStyle constructeur. Initialise une nouvelle instance duTextStyle classe avec les paramètres par défaut.
+title: "TextStyle.TextStyle"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur TextStyle. Initialise une nouvelle instance de la classe TextStyle avec les paramètres par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.visualization/textstyle/textstyle/
 ---
 ## TextStyle() {#constructor}
 
-Initialise une nouvelle instance du[`TextStyle`](../) classe avec les paramètres par défaut.
+Initialise une nouvelle instance de la classe [`TextStyle`](../) avec les paramètres par défaut.
 
 ```csharp
 public TextStyle()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment personnaliser les styles de texte qui sont utilisés pour styliser différents éléments de texte dans un projet.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### Voir aussi
 
 * class [TextStyle](../)
-* espace de noms [Aspose.Tasks.Visualization](../../textstyle/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(float, FontStyles) {#constructor_3}
 
-Initialise une nouvelle instance du[`TextStyle`](../) classe avec la police par défaut et la taille et le style de police spécifiés.
+Initialise une nouvelle instance de la classe [`TextStyle`](../) avec la police par défaut et la taille et le style de police spécifiés.
 
 ```csharp
 public TextStyle(float fontSize, FontStyles fontStyle)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| fontSize | Single | Taille de la police de TextStyle. |
-| fontStyle | FontStyles | Style de police de TextStyle. |
+| fontSize | Single | Taille de la police du TextStyle. |
+| fontStyle | FontStyles | Style de la police du TextStyle. |
 
-### Voir également
+### Voir aussi
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* espace de noms [Aspose.Tasks.Visualization](../../textstyle/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontStyles) {#constructor_2}
 
-Initialise une nouvelle instance du[`TextStyle`](../) classe avec la police par défaut et le style de police spécifié.
+Initialise une nouvelle instance de la classe [`TextStyle`](../) avec la police par défaut et le style de police spécifié.
 
 ```csharp
 public TextStyle(FontStyles fontStyle)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | fontStyle | FontStyles | Style de police à appliquer à la police par défaut. |
 
-### Voir également
+### Voir aussi
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* espace de noms [Aspose.Tasks.Visualization](../../textstyle/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontDescriptor) {#constructor_1}
 
-Initialise une nouvelle instance du[`TextStyle`](../) classe avec les paramètres de police spécifiés.
+Initialise une nouvelle instance de la classe [`TextStyle`](../) avec les paramètres de police spécifiés.
 
 ```csharp
 public TextStyle(FontDescriptor font)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | font | FontDescriptor | Police du TextStyle. |
 
-### Voir également
+### Voir aussi
 
 * class [FontDescriptor](../../fontdescriptor/)
 * class [TextStyle](../)
-* espace de noms [Aspose.Tasks.Visualization](../../textstyle/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Task.ActivityId
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Représente le champ didentifiant dactivité  lidentifiant unique dune tâche utilisé par Primavera. uniquement applicable aux projets Primavera.
+title: "Task.ActivityId"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Représente le champ d'identifiant d'activité, un identifiant unique de tâche utilisé par Primavera. uniquement applicable aux projets Primavera"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/task/activityid/
@@ -14,10 +14,10 @@ Représente le champ d'identifiant d'activité - l'identifiant unique d'une tâc
 public string ActivityId { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

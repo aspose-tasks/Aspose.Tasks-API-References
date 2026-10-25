@@ -1,7 +1,7 @@
 ---
-title: ReadOnlyCollectionBase1.Count
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ReadOnlyCollectionBase propriété. Obtient le nombre dobjets contenus dans lobjet.
+title: "ReadOnlyCollectionBase1.Count"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ReadOnlyCollectionBase. Obtient le nombre d'objets contenus dans l'objet"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/readonlycollectionbase-1/count/
@@ -14,10 +14,10 @@ Obtient le nombre d'objets contenus dans l'objet.
 public int Count { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* espace de noms [Aspose.Tasks](../../readonlycollectionbase-1/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

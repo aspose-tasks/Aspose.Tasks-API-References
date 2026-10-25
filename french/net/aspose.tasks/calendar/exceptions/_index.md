@@ -1,7 +1,7 @@
 ---
-title: Calendar.Exceptions
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Calendar propriété. Obtient lobjet CalendarExceptionCollection. La collection dexceptions associée au calendrier.
+title: "Calendar.Exceptions"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Calendar. Obtient l'objet CalendarExceptionCollection. La collection d'exceptions associée au calendrier"
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/calendar/exceptions/
@@ -14,11 +14,30 @@ Obtient l'objet CalendarExceptionCollection. La collection d'exceptions associé
 public CalendarExceptionCollection Exceptions { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment récupérer les informations sur les exceptions du calendrier.
+
+```csharp
+var project = new Project(DataDir + "project_RetrieveExceptions_test.mpp");
+
+// Itérer sur les calendriers
+foreach (var calendar in project.Calendars)
+{
+    // Accéder aux exceptions du calendrier
+    foreach (var exception in calendar.Exceptions)
+    {
+        Console.WriteLine("From: " + exception.FromDate.ToShortDateString());
+        Console.WriteLine("To: " + exception.ToDate.ToShortDateString());
+    }
+}
+```
+
+### Voir aussi
 
 * class [CalendarExceptionCollection](../../calendarexceptioncollection/)
 * class [Calendar](../)
-* espace de noms [Aspose.Tasks](../../calendar/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,54 @@
 ---
-title: Asn.Start
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Asn champ. La date de début prévue dun devoir.
+title: "Asn.Start"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Asn. La date de début prévue d'une affectation"
 type: docs
 weight: 500
 url: /fr/net/aspose.tasks/asn/start/
 ---
 ## Asn.Start field
 
-La date de début prévue d'un devoir.
+La date de début prévue d'une affectation.
 
 ```csharp
 public static readonly Key<DateTime, AsnKey> Start;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire les propriétés communes.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2020, 4, 9, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetWork(1));
+assignment.Set(Asn.Finish, new DateTime(2020, 4, 9, 17, 0, 0));
+assignment.Set(Asn.Units, 1);
+assignment.Set(Asn.PeakUnits, 1);
+
+Console.WriteLine("Start: " + assignment.Get(Asn.Start));
+Console.WriteLine("Work: " + assignment.Get(Asn.Work));
+Console.WriteLine("Finish: " + assignment.Get(Asn.Finish));
+Console.WriteLine("Units: " + assignment.Get(Asn.Units));
+Console.WriteLine("Peak Units: " + assignment.Get(Asn.PeakUnits));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* espace de noms [Aspose.Tasks](../../asn/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

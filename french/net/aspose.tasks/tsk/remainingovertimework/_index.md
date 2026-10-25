@@ -1,26 +1,41 @@
 ---
-title: Tsk.RemainingOvertimeWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Le nombre dheures supplémentaires planifiées restantes.
+title: "Tsk.RemainingOvertimeWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Le montant du temps supplémentaire programmé restant."
 type: docs
-weight: 1000
+weight: 980
 url: /fr/net/aspose.tasks/tsk/remainingovertimework/
 ---
 ## Tsk.RemainingOvertimeWork field
 
-Le nombre d'heures supplémentaires planifiées restantes.
+Le montant du temps d’heures supplémentaires prévu restant.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> RemainingOvertimeWork;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.RemainingOvertimeWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Hour);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.RemainingOvertimeWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Overtime Work: " + task.Get(Tsk.RemainingOvertimeWork));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

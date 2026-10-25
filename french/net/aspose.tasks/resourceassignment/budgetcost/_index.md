@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.BudgetCost
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur de BudgetCost.
+title: "ResourceAssignment.BudgetCost"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "ResourceAssignment property. Obtient ou définit une valeur de BudgetCost"
 type: docs
 weight: 160
 url: /fr/net/aspose.tasks/resourceassignment/budgetcost/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de BudgetCost.
 public decimal BudgetCost { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

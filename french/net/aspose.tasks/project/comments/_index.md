@@ -1,23 +1,23 @@
 ---
-title: Project.Comments
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de Commentaires.
+title: "Project.Comments"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de Comments"
 type: docs
-weight: 140
+weight: 150
 url: /fr/net/aspose.tasks/project/comments/
 ---
 ## Project.Comments property
 
-Obtient ou définit une valeur de Commentaires.
+Obtient ou définit une valeur de Comments.
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

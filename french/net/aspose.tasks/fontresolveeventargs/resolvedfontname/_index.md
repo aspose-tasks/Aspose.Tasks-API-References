@@ -1,7 +1,7 @@
 ---
-title: FontResolveEventArgs.ResolvedFontName
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: FontResolveEventArgs propriété. Obtient ou définit le nom de la police résolue. Peut être défini pour contrôler les polices utilisées pour rendre une vue.
+title: "FontResolveEventArgs.ResolvedFontName"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété FontResolveEventArgs. Obtient ou définit le nom de la police résolue. Peut être définie pour contrôler les polices utilisées pour rendre une vue"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/fontresolveeventargs/resolvedfontname/
@@ -14,14 +14,14 @@ Obtient ou définit le nom de la police résolue. Peut être défini pour contr�
 public string ResolvedFontName { get; set; }
 ```
 
-### Return_Value
+### Valeur de retour
 
-Nom de la police demandée si la police est trouvée ou nom de la police de secours ou null si la police est introuvable.
+Nom de la police demandée si la police est trouvée ou nom de la police de secours ou null si la police ne peut pas être trouvée.
 
-### Voir également
+### Voir aussi
 
 * class [FontResolveEventArgs](../)
-* espace de noms [Aspose.Tasks](../../fontresolveeventargs/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontresolveeventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

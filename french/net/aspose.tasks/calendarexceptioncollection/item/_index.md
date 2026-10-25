@@ -1,7 +1,7 @@
 ---
-title: CalendarExceptionCollection.Item
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CalendarExceptionCollection propriété. Renvoie lélément à lindex spécifié.
+title: "CalendarExceptionCollection.Item"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété CalendarExceptionCollection. Retourne l'élément à l'index spécifié"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/calendarexceptioncollection/item/
@@ -14,19 +14,19 @@ Renvoie l'élément à l'index spécifié.
 public CalendarException this[int index] { get; set; }
 ```
 
-| Paramètre | La description |
+| Paramètre | Description |
 | --- | --- |
-| index | Index de base zéro de l'élément à obtenir. |
+| index | L'index basé sur zéro de l'élément à obtenir. |
 
-### Return_Value
+### Valeur de retour
 
 l'élément à l'index spécifié.
 
-### Voir également
+### Voir aussi
 
 * class [CalendarException](../../calendarexception/)
 * class [CalendarExceptionCollection](../)
-* espace de noms [Aspose.Tasks](../../calendarexceptioncollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexceptioncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

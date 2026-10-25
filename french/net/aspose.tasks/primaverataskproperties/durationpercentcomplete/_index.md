@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.DurationPercentComplete
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PrimaveraTaskProperties propriété. Obtient la valeur du pourcentage de durée achevée.
+title: "PrimaveraTaskProperties.DurationPercentComplete"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties property. Obtient la valeur du pourcentage d’avancement de la durée"
 type: docs
-weight: 40
+weight: 150
 url: /fr/net/aspose.tasks/primaverataskproperties/durationpercentcomplete/
 ---
 ## PrimaveraTaskProperties.DurationPercentComplete property
 
-Obtient la valeur du pourcentage de durée achevée.
+Obtient la valeur du pourcentage d'avancement de la durée.
 
 ```csharp
 public double DurationPercentComplete { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [PrimaveraTaskProperties](../)
-* espace de noms [Aspose.Tasks](../../primaverataskproperties/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

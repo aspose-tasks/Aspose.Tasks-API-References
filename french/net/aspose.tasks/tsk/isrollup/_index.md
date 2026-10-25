@@ -1,26 +1,40 @@
 ---
-title: Tsk.IsRollup
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Détermine si les informations sur les barres du Gantt des soustâches seront reportées dans la barre des tâches récapitulatives.
+title: "Tsk.IsRollup"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Détermine si les informations sur les barres Gantt des sous‑tâches seront agrégées dans la barre de tâche récapitulative."
 type: docs
-weight: 700
+weight: 690
 url: /fr/net/aspose.tasks/tsk/isrollup/
 ---
 ## Tsk.IsRollup field
 
-Détermine si les informations sur les barres du Gantt des sous-tâches seront reportées dans la barre des tâches récapitulatives.
+Détermine si les informations sur les barres Gantt des sous‑tâches seront agrégées à la barre de la tâche récapitulative.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsRollup;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.IsRollup.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsRollup, true);
+
+Console.WriteLine("Is Rollup: " + task.Get(Tsk.IsRollup));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

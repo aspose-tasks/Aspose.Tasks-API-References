@@ -1,9 +1,9 @@
 ---
-title: Task.OvertimeWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de OvertimeWork.
+title: "Task.OvertimeWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de OvertimeWork"
 type: docs
-weight: 930
+weight: 920
 url: /fr/net/aspose.tasks/task/overtimework/
 ---
 ## Task.OvertimeWork property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de OvertimeWork.
 public Duration OvertimeWork { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

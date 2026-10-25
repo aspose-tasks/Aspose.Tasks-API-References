@@ -1,23 +1,23 @@
 ---
-title: PageSavingArgs.PageNumber
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PageSavingArgs propriété. Obtient un numéro de page à écrire.
+title: "PageSavingArgs.PageNumber"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété PageSavingArgs. Obtient le numéro de la page à écrire"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks.saving/pagesavingargs/pagenumber/
 ---
 ## PageSavingArgs.PageNumber property
 
-Obtient un numéro de page à écrire.
+Obtient le numéro de la page à écrire.
 
 ```csharp
 public int PageNumber { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [PageSavingArgs](../)
-* espace de noms [Aspose.Tasks.Saving](../../pagesavingargs/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: TaskLink.LinkLagTimeSpan
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskLink propriété. Obtient ou définit la durée du décalage en fonction de LagFormat.
+title: "TaskLink.LinkLagTimeSpan"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété TaskLink. Obtient ou définit la durée du retard en fonction de LagFormat"
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/tasklink/linklagtimespan/
 ---
 ## TaskLink.LinkLagTimeSpan property
 
-Obtient ou définit la durée du décalage, en fonction de LagFormat.
+Obtient ou définit la durée du retard, selon le LagFormat.
 
 ```csharp
 public TimeSpan LinkLagTimeSpan { get; set; }
@@ -18,16 +18,16 @@ public TimeSpan LinkLagTimeSpan { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lorsque vous essayez de définir la valeur pour TaskLinks où LagFormat est TimeUnitType.Percent. |
+| ArgumentException | Lors de la tentative de définition de la valeur pour les TaskLinks où LagFormat est TimeUnitType.Percent. |
 
-### Remarques
+## Remarques
 
-Le décalage de lien peut être une valeur en pourcentage (LagFormat est TimeUnitType.Percent). Dans ce cas, la durée est calculée en pourcentage de la durée de PredTask. Sinon, la méthode renvoie la valeur TimeSpan représentant le décalage de TaskLink.
+Le retard de lien peut être une valeur en pourcentage (LagFormat est TimeUnitType.Percent). Dans ce cas, la durée est calculée comme un pourcentage de la durée de PredTask. Sinon, la méthode renvoie une valeur TimeSpan représentant le retard du TaskLink.
 
-### Voir également
+### Voir aussi
 
 * class [TaskLink](../)
-* espace de noms [Aspose.Tasks](../../tasklink/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

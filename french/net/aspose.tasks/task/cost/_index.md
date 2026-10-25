@@ -1,7 +1,7 @@
 ---
-title: Task.Cost
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de Cost.
+title: "Task.Cost"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de Cost"
 type: docs
 weight: 260
 url: /fr/net/aspose.tasks/task/cost/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Cost.
 public decimal Cost { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

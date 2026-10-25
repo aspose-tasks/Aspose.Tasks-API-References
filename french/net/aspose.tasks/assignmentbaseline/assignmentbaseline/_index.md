@@ -1,23 +1,23 @@
 ---
-title: AssignmentBaseline.AssignmentBaseline
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: AssignmentBaseline constructeur. Default_Constructor
+title: "AssignmentBaseline.AssignmentBaseline"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur AssignmentBaseline. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/assignmentbaseline/assignmentbaseline/
 ---
 ## AssignmentBaseline constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public AssignmentBaseline()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [AssignmentBaseline](../)
-* espace de noms [Aspose.Tasks](../../assignmentbaseline/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

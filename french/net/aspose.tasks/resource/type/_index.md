@@ -1,9 +1,9 @@
 ---
-title: Resource.Type
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de Type.
+title: "Resource.Type"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de Type"
 type: docs
-weight: 760
+weight: 750
 url: /fr/net/aspose.tasks/resource/type/
 ---
 ## Resource.Type property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de Type.
 public ResourceType Type { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [ResourceType](../../resourcetype/)
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,37 @@
 ---
-title: Tsk.StartSlackTimeSpan
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. La durée entre les dates de début anticipé et de début tardif.
+title: "Tsk.StartSlackTimeSpan"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. La durée entre les dates de début précoce et de début tardif"
 type: docs
-weight: 1040
+weight: 1020
 url: /fr/net/aspose.tasks/tsk/startslacktimespan/
 ---
 ## Tsk.StartSlackTimeSpan field
 
-La durée entre les dates de début anticipé et de début tardif.
+La durée entre les dates de début précoce et de début tardif.
 
 ```csharp
 public static readonly Key<TimeSpan, TaskKey> StartSlackTimeSpan;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire la propriété Tsk.StartSlackTimeSpan. La propriété est calculée, il n'est généralement pas nécessaire de la définir explicitement.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Start Slack: " + task.Get(Tsk.StartSlackTimeSpan));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

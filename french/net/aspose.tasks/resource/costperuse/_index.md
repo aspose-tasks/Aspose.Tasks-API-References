@@ -1,7 +1,7 @@
 ---
-title: Resource.CostPerUse
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de CostPerUse.
+title: "Resource.CostPerUse"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de CostPerUse"
 type: docs
 weight: 270
 url: /fr/net/aspose.tasks/resource/costperuse/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de CostPerUse.
 public decimal CostPerUse { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

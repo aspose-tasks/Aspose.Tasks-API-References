@@ -1,7 +1,7 @@
 ---
-title: Prj.AreEditableActualCosts
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Détermine si les coûts réels sont modifiables.
+title: "Prj.AreEditableActualCosts"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Détermine si les coûts réels sont modifiables"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks/prj/areeditableactualcosts/
@@ -14,13 +14,25 @@ Détermine si les coûts réels sont modifiables.
 public static readonly Key<NullableBool, PrjKey> AreEditableActualCosts;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.AreEditableActualCosts.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AreEditableActualCosts, true);
+
+Console.WriteLine("Are Editable Actual Costs: " + project.Get(Prj.AreEditableActualCosts));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,39 +1,61 @@
 ---
-title: Class VbaModuleCollection
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.VbaModuleCollection classe. Représente une collection deVbaModule objets.
+title: "Classe VbaModuleCollection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.VbaModuleCollection. Représente une collection d'objets VbaModule."
 type: docs
-weight: 2520
+weight: 2840
 url: /fr/net/aspose.tasks/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Représente une collection de[`VbaModule`](../vbamodule/) objets.
+Représente une collection d'objets [`VbaModule`](../vbamodule/).
 
 ```csharp
-public class VbaModuleCollection : ReadOnlyCollectionBase<VbaModule>
+public class VbaModuleCollection : ICollection<VbaModule>
 ```
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } |  |
+| [Count](../../aspose.tasks/vbamodulecollection/count/) { get; } |  |
+| [IsReadOnly](../../aspose.tasks/vbamodulecollection/isreadonly/) { get; } |  |
+| [Item](../../aspose.tasks/vbamodulecollection/item/) { get; } | Obtient le module à l'index spécifié. (2 indexeurs) |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(VbaModule) |  |
-| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
+| [Add](../../aspose.tasks/vbamodulecollection/add/)(VbaModule) |  |
+| [Clear](../../aspose.tasks/vbamodulecollection/clear/)() |  |
+| [Contains](../../aspose.tasks/vbamodulecollection/contains/)(VbaModule) |  |
+| [CopyTo](../../aspose.tasks/vbamodulecollection/copyto/)(VbaModule[], int) |  |
+| [GetEnumerator](../../aspose.tasks/vbamodulecollection/getenumerator/)() |  |
+| [Remove](../../aspose.tasks/vbamodulecollection/remove/)(VbaModule) |  |
+| [ToList](../../aspose.tasks/vbamodulecollection/tolist/)() | Convertit l'objet collection en une liste d'objets [`VbaModule`](../vbamodule/). |
 
-### Voir également
+## Exemples
 
-* class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
+Montre comment itérer sur les modules VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+var vbaProject = project.VbaProject;
+
+Console.WriteLine("Total Modules Count: " + vbaProject.Modules.Count);
+foreach (VbaModule module in vbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Module Type: " + module.Type);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+    Console.WriteLine();
+}
+```
+
+### Voir aussi
+
 * class [VbaModule](../vbamodule/)
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

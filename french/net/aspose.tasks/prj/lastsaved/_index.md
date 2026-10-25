@@ -1,25 +1,37 @@
 ---
-title: Prj.LastSaved
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. La date à laquelle un projet a été enregistré la dernière fois.  Enregistré au format UTC dans les fichiers mpp. DateTime tapez.
+title: "Prj.LastSaved"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. La date à laquelle le projet a été enregistré pour la dernière fois. Enregistré au format UTC dans les fichiers mpp. Type DateTime."
 type: docs
-weight: 430
+weight: 440
 url: /fr/net/aspose.tasks/prj/lastsaved/
 ---
 ## Prj.LastSaved field
 
-La date à laquelle un projet a été enregistré la dernière fois.  Enregistré au format UTC dans les fichiers mpp. DateTime tapez.
+La date à laquelle un projet a été enregistré pour la dernière fois. Enregistrée au format UTC dans les fichiers mpp. Type DateTime.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> LastSaved;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment vérifier la version d'enregistrement du projet et la date d'enregistrement.
+
+```csharp
+var project = new Project(DataDir + "DetermineProjectVersion.mpp");
+
+// Afficher la version du projet
+Console.WriteLine("Project Version : " + project.Get(Prj.SaveVersion));
+Console.WriteLine("Last Saved : " + project.Get(Prj.LastSaved).ToShortDateString());
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

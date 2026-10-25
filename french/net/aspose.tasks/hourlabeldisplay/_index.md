@@ -1,14 +1,14 @@
 ---
-title: Enum HourLabelDisplay
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.HourLabelDisplay énumération. Spécifie comment létiquette dheure saffiche.
+title: "Enum HourLabelDisplay"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Enum Aspose.Tasks.HourLabelDisplay. Spécifie comment l'étiquette d'heure s'affiche"
 type: docs
-weight: 760
+weight: 820
 url: /fr/net/aspose.tasks/hourlabeldisplay/
 ---
 ## HourLabelDisplay enumeration
 
-Spécifie comment l'étiquette d'heure s'affiche.
+Spécifie comment l'étiquette de l'heure s'affiche.
 
 ```csharp
 public enum HourLabelDisplay
@@ -16,15 +16,29 @@ public enum HourLabelDisplay
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| H | `0` | Étiquette "h". |
-| Hr | `1` | Libellé "hr". |
-| Hour | `2` | Libellé "heure(s)". |
+| H | `0` | "h" étiquette. |
+| Hr | `1` | "hr" étiquette. |
+| Hour | `2` | "hour(s)" étiquette. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment définir l'étiquette d'heure des options d'affichage du projet (cas 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// définir comment l'étiquette d'heure est affichée
+project.DisplayOptions.HourLabel = HourLabelDisplay.H;
+
+// ...
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

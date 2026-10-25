@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.BCWS
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur de BCWS.
+title: "ResourceAssignment.BCWS"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ResourceAssignment. Obtient ou définit une valeur de BCWS"
 type: docs
 weight: 140
 url: /fr/net/aspose.tasks/resourceassignment/bcws/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de BCWS.
 public double BCWS { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

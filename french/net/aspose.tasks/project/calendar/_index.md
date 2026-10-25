@@ -1,9 +1,9 @@
 ---
-title: Project.Calendar
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de Calendar.
+title: "Project.Calendar"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de Calendar"
 type: docs
-weight: 110
+weight: 120
 url: /fr/net/aspose.tasks/project/calendar/
 ---
 ## Project.Calendar property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de Calendar.
 public Calendar Calendar { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Calendar](../../calendar/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

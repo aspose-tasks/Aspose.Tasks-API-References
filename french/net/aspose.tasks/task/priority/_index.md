@@ -1,9 +1,9 @@
 ---
-title: Task.Priority
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de Priority.
+title: "Task.Priority"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de Priority"
 type: docs
-weight: 1030
+weight: 1020
 url: /fr/net/aspose.tasks/task/priority/
 ---
 ## Task.Priority property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Priority.
 public int Priority { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

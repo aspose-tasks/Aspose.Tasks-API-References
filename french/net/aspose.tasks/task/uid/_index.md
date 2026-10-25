@@ -1,7 +1,7 @@
 ---
-title: Task.Uid
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de Uid.
+title: "Task.Uid"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de Uid"
 type: docs
 weight: 1250
 url: /fr/net/aspose.tasks/task/uid/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Uid.
 public int Uid { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

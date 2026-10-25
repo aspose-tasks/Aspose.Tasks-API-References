@@ -1,7 +1,7 @@
 ---
-title: CalendarException.ParentCalendar
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CalendarException propriété. Obtient le calendrier parent de cet objet.
+title: "CalendarException.ParentCalendar"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "CalendarException propriété. Obtient le calendrier parent pour cet objet"
 type: docs
 weight: 120
 url: /fr/net/aspose.tasks/calendarexception/parentcalendar/
@@ -14,11 +14,11 @@ Obtient le calendrier parent de cet objet.
 public Calendar ParentCalendar { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Calendar](../../calendar/)
 * class [CalendarException](../)
-* espace de noms [Aspose.Tasks](../../calendarexception/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

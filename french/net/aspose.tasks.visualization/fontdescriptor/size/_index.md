@@ -1,7 +1,7 @@
 ---
-title: FontDescriptor.Size
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: FontDescriptor propriété. Obtient la taille de la police.
+title: "FontDescriptor.Size"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété FontDescriptor. Obtient la taille de la police."
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks.visualization/fontdescriptor/size/
@@ -14,10 +14,10 @@ Obtient la taille de la police.
 public float Size { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [FontDescriptor](../)
-* espace de noms [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

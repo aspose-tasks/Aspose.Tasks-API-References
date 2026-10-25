@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.Height
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VisualObjectPlacement propriété. Obtient ou définit la hauteur affichée de lobjet visuel.
+title: "VisualObjectPlacement.Height"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété VisualObjectPlacement. Obtient ou définit la hauteur affichée de l'objet visuel"
 type: docs
 weight: 70
 url: /fr/net/aspose.tasks.visualization/visualobjectplacement/height/
@@ -14,10 +14,10 @@ Obtient ou définit la hauteur affichée de l'objet visuel.
 public double Height { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [VisualObjectPlacement](../)
-* espace de noms [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

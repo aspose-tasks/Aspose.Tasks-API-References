@@ -1,23 +1,51 @@
 ---
-title: EndAfterRecurrenceRange.EndAfterRecurrenceRange
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: EndAfterRecurrenceRange constructeur. Initialise une nouvelle instance duEndAfterRecurrenceRange classe.
+title: "EndAfterRecurrenceRange.EndAfterRecurrenceRange"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "EndAfterRecurrenceRange constructeur. Initialise une nouvelle instance de la classe EndAfterRecurrenceRange"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/endafterrecurrencerange/endafterrecurrencerange/
 ---
 ## EndAfterRecurrenceRange constructor
 
-Initialise une nouvelle instance du[`EndAfterRecurrenceRange`](../) classe.
+Initialise une nouvelle instance de la classe [`EndAfterRecurrenceRange`](../).
 
 ```csharp
 public EndAfterRecurrenceRange()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les répétitions du modèle de répétition quotidienne lors de la création de tâches récurrentes.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "New recurrent task",
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     RecurrenceRange = new EndAfterRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 1, 1, 8, 0, 0), OccurrenceNumber = 9
+                                                                           },
+                                                     Repetition = new DailyWorkRepetition { RepetitionInterval = 1 }
+                                                 },
+                         Duration = project.GetDuration(1, TimeUnitType.Hour)
+                     };
+parameters.SetCalendar(project, "Standard");
+
+var task = project.RootTask.Children.Add(parameters);
+task.Set(Tsk.Start, new DateTime(2020, 4, 27, 8, 0, 0));
+
+// continuer à travailler avec le projet...
+// ...
+```
+
+### Voir aussi
 
 * class [EndAfterRecurrenceRange](../)
-* espace de noms [Aspose.Tasks](../../endafterrecurrencerange/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../endafterrecurrencerange/)
+* assembly [Aspose.Tasks](../../../)
 
 

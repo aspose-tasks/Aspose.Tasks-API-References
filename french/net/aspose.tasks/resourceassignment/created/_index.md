@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Created
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur de Créé.
+title: "ResourceAssignment.Created"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ResourceAssignment. Obtient ou définit une valeur de Created"
 type: docs
 weight: 220
 url: /fr/net/aspose.tasks/resourceassignment/created/
 ---
 ## ResourceAssignment.Created property
 
-Obtient ou définit une valeur de Créé.
+Obtient ou définit une valeur de Created.
 
 ```csharp
 public DateTime Created { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

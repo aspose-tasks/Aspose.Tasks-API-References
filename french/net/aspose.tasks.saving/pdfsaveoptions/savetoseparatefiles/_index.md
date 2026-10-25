@@ -1,9 +1,9 @@
 ---
-title: PdfSaveOptions.SaveToSeparateFiles
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PdfSaveOptions propriété. Obtient ou définit une valeur indiquant sil faut enregistrer les pages du projet dans des fichiers séparés.
+title: "PdfSaveOptions.SaveToSeparateFiles"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété PdfSaveOptions. Obtient ou définit une valeur indiquant s'il faut enregistrer les pages du projet dans des fichiers séparés"
 type: docs
-weight: 100
+weight: 90
 url: /fr/net/aspose.tasks.saving/pdfsaveoptions/savetoseparatefiles/
 ---
 ## PdfSaveOptions.SaveToSeparateFiles property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur indiquant s'il faut enregistrer les pages du proj
 public bool SaveToSeparateFiles { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

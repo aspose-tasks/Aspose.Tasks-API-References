@@ -1,9 +1,9 @@
 ---
-title: Task.PreleveledStart
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de PreleveledStart.
+title: "Task.PreleveledStart"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de PreleveledStart"
 type: docs
-weight: 1010
+weight: 1000
 url: /fr/net/aspose.tasks/task/preleveledstart/
 ---
 ## Task.PreleveledStart property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de PreleveledStart.
 public DateTime PreleveledStart { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

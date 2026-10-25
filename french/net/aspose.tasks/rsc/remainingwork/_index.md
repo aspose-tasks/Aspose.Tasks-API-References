@@ -1,9 +1,9 @@
 ---
-title: Rsc.RemainingWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Rsc champ. Le temps encore nécessaire pour terminer une tâche ou un ensemble de tâches.
+title: "Rsc.RemainingWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Rsc. Le temps encore nécessaire pour terminer une tâche ou un ensemble de tâches"
 type: docs
-weight: 620
+weight: 610
 url: /fr/net/aspose.tasks/rsc/remainingwork/
 ---
 ## Rsc.RemainingWork field
@@ -14,13 +14,28 @@ Le temps encore nécessaire pour terminer une tâche ou un ensemble de tâches.
 public static readonly Key<Duration, RscKey> RemainingWork;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Rsc.RemainingWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Work: " + resource.Get(Rsc.RemainingWork));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espace de noms [Aspose.Tasks](../../rsc/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class VbaModuleAttributeCollection
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.VbaModuleAttributeCollection classe. Représente une collection deVbaModuleAttribute objets.
+title: "Classe VbaModuleAttributeCollection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.VbaModuleAttributeCollection. Représente une collection d'objets VbaModuleAttribute"
 type: docs
-weight: 2510
+weight: 2830
 url: /fr/net/aspose.tasks/vbamoduleattributecollection/
 ---
 ## VbaModuleAttributeCollection class
 
-Représente une collection de[`VbaModuleAttribute`](../vbamoduleattribute/) objets.
+Représente une collection d'objets [`VbaModuleAttribute`](../vbamoduleattribute/).
 
 ```csharp
 public class VbaModuleAttributeCollection : ReadOnlyCollectionBase<VbaModuleAttribute>
@@ -16,24 +16,42 @@ public class VbaModuleAttributeCollection : ReadOnlyCollectionBase<VbaModuleAttr
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } |  |
 | [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } |  |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(VbaModuleAttribute) |  |
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
 | [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
 
-### Voir également
+## Exemples
+
+Montre comment itérer sur la collection d'attributs du module VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("Attribute Name: " + attribute.Key);
+        Console.WriteLine("Attribute Value: " + attribute.Value);
+    }
+}
+```
+
+### Voir aussi
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
 * class [VbaModuleAttribute](../vbamoduleattribute/)
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

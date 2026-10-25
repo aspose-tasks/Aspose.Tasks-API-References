@@ -1,27 +1,40 @@
 ---
-title: Task.Clone
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task méthode. Crée une copie complète dune tâche sans soustâches.
+title: "Task.Clone"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Task. Crée une copie complète d'un task sans sous‑tâches"
 type: docs
 weight: 1310
 url: /fr/net/aspose.tasks/task/clone/
 ---
 ## Task.Clone method
 
-Crée une copie complète d'une tâche sans sous-tâches.
+Crée une copie complète d'une tâche sans sous‑tâches.
 
 ```csharp
 public object Clone()
 ```
 
-### Return_Value
+### Valeur de retour
 
-Copie créée d'une tâche.
+Copie d'une tâche créée.
 
-### Voir également
+## Exemples
+
+Montre comment cloner une tâche.
+
+```csharp
+var project = new Project();
+
+var originalTask = project.RootTask.Children.Add("Task");
+var cloneTask = (Task)originalTask.Clone();
+
+Console.WriteLine("Are tasks equal: " + cloneTask.Equals(originalTask));
+```
+
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Enum WorkGroupType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.WorkGroupType énumération. Spécifie le type dun groupe de travail.
+title: "Enum WorkGroupType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.WorkGroupType enum. Spécifie le type d'un groupe de travail"
 type: docs
-weight: 3260
+weight: 3620
 url: /fr/net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration
@@ -16,16 +16,30 @@ public enum WorkGroupType
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
 | Default | `0` | Indique le type de groupe de travail par défaut. |
-| None | `1` | Indique Aucun type de groupe de travail. |
-| Email | `2` | Indique le type de groupe de travail E-mail. |
+| None | `1` | Indique le type de groupe de travail Aucun. |
+| Email | `2` | Indique le type de groupe de travail Email. |
 | Web | `3` | Indique le type de groupe de travail Web. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment définir le groupe de travail d'une ressource.
+
+```csharp
+var project = new Project();
+
+// ...
+var resource = project.Resources.Add("Resource");
+resource.Set(Rsc.Workgroup, WorkGroupType.Web);
+
+// ...
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,22 +1,48 @@
 ---
-title: Class BitmapInvalidSizeException
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.BitmapInvalidSizeException classe. Représente une exception qui se produit lorsquil ny a pas assez de mémoire pour créer une instance bitmap.
+title: "Class BitmapInvalidSizeException"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.BitmapInvalidSizeException. Représente l'exception qui se produit lorsqu'il n'y a pas suffisamment de mémoire pour créer une instance de bitmap."
 type: docs
 weight: 140
 url: /fr/net/aspose.tasks/bitmapinvalidsizeexception/
 ---
 ## BitmapInvalidSizeException class
 
-Représente une exception qui se produit lorsqu'il n'y a pas assez de mémoire pour créer une instance bitmap.
+Représente l'exception qui se produit lorsqu'il n'y a pas suffisamment de mémoire pour créer une instance bitmap.
 
 ```csharp
 public class BitmapInvalidSizeException : Exception
 ```
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment enregistrer le projet en tant qu'image et intercepter l'exception de taille invalide.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Blank2010.mpp");
+
+    GanttChartView view = (GanttChartView) project.Views.ToList()[0];
+    var options = new ImageSaveOptions(SaveFileFormat.Png)
+    {
+        Timescale = Timescale.DefinedInView
+    };
+
+    view.MiddleTimescaleTier.Unit = TimescaleUnit.Minutes;
+    view.MiddleTimescaleTier.Count = 1;
+
+    project.Save(OutDir + "SaveToStreamAndCatchException_out.mpp", options);
+}
+catch (BitmapInvalidSizeException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

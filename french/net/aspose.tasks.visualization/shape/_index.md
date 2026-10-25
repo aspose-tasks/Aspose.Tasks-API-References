@@ -1,14 +1,14 @@
 ---
-title: Enum Shape
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.Visualization.Shape énumération. Forme dun marqueur au début ou à la fin du style de barre à rendre lors de lenregistrement des données de vue dans certains deSaveFileFormat .
+title: "Enum Shape"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Enum Aspose.Tasks.Visualization.Shape. Forme d'un marqueur au début ou à la fin du style de barre à rendre lors de l'enregistrement des données de vue dans certains de SaveFileFormat."
 type: docs
-weight: 3010
+weight: 3360
 url: /fr/net/aspose.tasks.visualization/shape/
 ---
 ## Shape enumeration
 
-Forme d'un marqueur au début ou à la fin du style de barre à rendre lors de l'enregistrement des données de vue dans certains de[`SaveFileFormat`](../../aspose.tasks.saving/savefileformat/) .
+Forme d'un marqueur au début ou à la fin du style de barre à rendre lors de l'enregistrement des données de vue dans certains de [`SaveFileFormat`](../../aspose.tasks.saving/savefileformat/).
 
 ```csharp
 public enum Shape
@@ -16,22 +16,72 @@ public enum Shape
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| None | `0` | Indique aucune forme. |
-| VerticalLine | `1` | Indique la forme de la ligne verticale. |
-| Pentagon | `2` | Indique la forme du Pentagone. |
-| Triangle | `3` | Indique la forme triangulaire. |
-| LeftBracket | `4` | Indique la forme du crochet gauche. |
-| RightBracket | `5` | Indique la forme du crochet droit. |
-| ArrowDown | `6` | Indique la forme Flèche vers le bas. |
-| LeftFade | `7` | Indique la forme du fondu gauche. |
-| RightFade | `8` | Indique la forme du fondu droit. |
-| Diamond | `9` | Indique la forme du diamant. |
+| None | `0` | Indique la forme Aucun. |
+| VerticalLine | `1` | Indique la forme de ligne verticale. |
+| Pentagon | `2` | Indique la forme Pentagone. |
+| Triangle | `3` | Indique la forme Triangle. |
+| LeftBracket | `4` | Indique la forme de crochet gauche. |
+| RightBracket | `5` | Indique la forme de crochet droit. |
+| ArrowDown | `6` | Indique la forme ArrowDown. |
+| LeftFade | `7` | Indique la forme de fondu gauche. |
+| RightFade | `8` | Indique la forme de fondu droit. |
+| Diamond | `9` | Indique la forme Diamant. |
+| Circle | `10` | Indique la forme Cercle. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment utiliser des styles de barre personnalisés.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    BarStyles = new List<BarStyle>()
+};
+
+// ajoutez un style de barre pour les tâches jalon
+var style = new BarStyle();
+// définissez <see cref="T:Aspose.Tasks.Visualization.BarItemType" /> du style de barre
+style.ItemType = BarItemType.Milestone;
+// définissez <see cref="T:System.Drawing.Color" /> du style de barre.
+style.BarColor = Color.Green;
+// définissez <see cref="P:Aspose.Tasks.Visualization.BarStyle.BarShape" /> du style de barre
+style.BarShape = BarShape.HalfHeight;
+// définir <see cref="T:Aspose.Tasks.Visualization.Shape" /> au début de la barre
+style.StartShape = Shape.LeftBracket;
+// définir <see cref="T:System.Drawing.Color" /> de la forme au début de la barre
+style.StartShapeColor = Color.Aqua;
+// définir <see cref="T:Aspose.Tasks.Visualization.Shape" /> à la fin de la barre
+style.EndShape = Shape.RightBracket;
+// définir <see cref="T:System.Drawing.Color" /> de la forme à la fin de la barre
+style.EndShapeColor = Color.Aquamarine;
+// définir le texte à afficher à droite de la barre.
+style.TextStyle = new TextStyle();
+style.TextStyle.BackgroundColor = Color.Black;
+
+// il existe une fonctionnalité qui permet de convertir le texte de la barre
+// définissons le convertisseur pour obtenir le texte de la barre à afficher.
+style.LeftBarTextConverter = task =>
+{
+    if (!task.Get(Tsk.Name).StartsWith("T"))
+    {
+        task.Set(Tsk.Name, "T" + task.Get(Tsk.Name));
+    }
+
+    return task.Get(Tsk.Name);
+};
+
+options.BarStyles.Add(style);
+
+// enregistrer le projet
+project.Save(OutDir + "WorkWithBarStyle_out.mpp", options);
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

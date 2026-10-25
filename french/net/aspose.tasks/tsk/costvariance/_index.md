@@ -1,25 +1,46 @@
 ---
-title: Tsk.CostVariance
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Différence entre le coût de référence et le coût total dune tâche dune ressource ou dune affectation.
+title: "Tsk.CostVariance"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. La différence entre le coût de référence et le coût total d'une ressource ou d'une affectation de tâche."
 type: docs
 weight: 240
 url: /fr/net/aspose.tasks/tsk/costvariance/
 ---
 ## Tsk.CostVariance field
 
-Différence entre le coût de référence et le coût total d'une tâche, d'une ressource ou d'une affectation.
+La différence entre le coût de référence et le coût total pour une tâche, une ressource ou une affectation.
 
 ```csharp
 public static readonly Key<double, TaskKey> CostVariance;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les coûts des tâches.
+
+```csharp
+var project = new Project();
+
+// Ajouter une tâche et définir le coût
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Cost, 800);
+
+// Afficher les propriétés liées au coût de la tâche
+Console.WriteLine(task.Get(Tsk.RemainingCost));
+Console.WriteLine(task.Get(Tsk.FixedCost));
+Console.WriteLine(task.Get(Tsk.CostVariance));
+Console.WriteLine(project.RootTask.Get(Tsk.Cost));
+Console.WriteLine(project.RootTask.Get(Tsk.FixedCost));
+Console.WriteLine(project.RootTask.Get(Tsk.RemainingCost));
+Console.WriteLine(project.RootTask.Get(Tsk.CostVariance));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

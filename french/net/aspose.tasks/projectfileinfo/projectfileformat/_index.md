@@ -1,24 +1,35 @@
 ---
-title: ProjectFileInfo.ProjectFileFormat
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ProjectFileInfo propriété. Obtient le format de fichier du projet.
+title: "ProjectFileInfo.ProjectFileFormat"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ProjectFileInfo. Obtient le format du fichier de projet"
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks/projectfileinfo/projectfileformat/
 ---
 ## ProjectFileInfo.ProjectFileFormat property
 
-Obtient le format de fichier du projet.
+Obtient le format du fichier de projet.
 
 ```csharp
 public FileFormat ProjectFileFormat { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les informations du fichier de projet.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### Voir aussi
 
 * enum [FileFormat](../../fileformat/)
 * class [ProjectFileInfo](../)
-* espace de noms [Aspose.Tasks](../../projectfileinfo/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

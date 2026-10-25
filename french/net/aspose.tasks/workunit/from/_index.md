@@ -1,23 +1,40 @@
 ---
-title: WorkUnit.From
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: WorkUnit propriété. Obtient ou définit la date De.
+title: "WorkUnit.From"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété WorkUnit. Obtient ou définit la date From"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/workunit/from/
 ---
 ## WorkUnit.From property
 
-Obtient ou définit la date De.
+Obtient ou définit la date From.
 
 ```csharp
 public DateTime From { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les informations d'unité de travail.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// obtenez les heures de travail pour une date spécifique
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+Console.WriteLine("From: " + workUnit.From);
+Console.WriteLine("To: " + workUnit.To);
+Console.WriteLine("Working hours: " + workUnit.WorkingHours);
+```
+
+### Voir aussi
 
 * class [WorkUnit](../)
-* espace de noms [Aspose.Tasks](../../workunit/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workunit/)
+* assembly [Aspose.Tasks](../../../)
 
 

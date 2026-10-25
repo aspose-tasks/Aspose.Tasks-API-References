@@ -1,23 +1,45 @@
 ---
-title: PrimaveraSaveOptions.ActivityIdIncrement
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PrimaveraSaveOptions propriété. Obtient ou définit lincrément utilisé dans la renumérotation des ID dactivité.
+title: "PrimaveraSaveOptions.ActivityIdIncrement"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété PrimaveraSaveOptions. Obtient ou définit l'incrément utilisé lors du renumérotage des ID d'activité"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks.saving/primaverasaveoptions/activityidincrement/
 ---
 ## PrimaveraSaveOptions.ActivityIdIncrement property
 
-Obtient ou définit l'incrément utilisé dans la renumérotation des ID d'activité.
+Obtient ou définit l'incrément utilisé lors du renumérotage des ID d'activité.
 
 ```csharp
 public int ActivityIdIncrement { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec &lt;see cref=\"Aspose.Tasks.Saving.PrimaveraSaveOptions\" /&gt;.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// créez les options d'enregistrement Primavera et ajustez-les
+var options = new PrimaveraSaveOptions
+                  {
+                      // définissez le préfixe et le suffixe d'une activité
+                      ActivityIdPrefix = "TEST",
+                      ActivityIdSuffix = 10000,
+
+                      // contrôlez le renumérotage des activités
+                      ActivityIdIncrement = 5,
+                      RenumberActivityIds = true
+                  };
+
+project.Save(OutDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
+```
+
+### Voir aussi
 
 * class [PrimaveraSaveOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../primaverasaveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../primaverasaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

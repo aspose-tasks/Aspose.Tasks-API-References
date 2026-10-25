@@ -1,32 +1,52 @@
 ---
-title: Calendar.GetWorkingTimes
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Calendar méthode. RetoursWorkingTimeCollection des temps de travail pour la date spécifiée.
+title: "Calendar.GetWorkingTimes"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Calendar. Retourne WorkingTimeCollection des heures de travail pour la date spécifiée"
 type: docs
-weight: 210
+weight: 240
 url: /fr/net/aspose.tasks/calendar/getworkingtimes/
 ---
 ## Calendar.GetWorkingTimes method
 
-Retours[`WorkingTimeCollection`](../../workingtimecollection/) des temps de travail pour la date spécifiée.
+Retourne [`WorkingTimeCollection`](../../workingtimecollection/) des créneaux de travail pour la date spécifiée.
 
 ```csharp
 public WorkingTimeCollection GetWorkingTimes(DateTime dt)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| dt | DateTime | La date pour laquelle obtenir les temps de travail. |
+| dt | DateTime | La date pour laquelle obtenir les heures de travail. |
 
-### Return_Value
+### Valeur de retour
 
-Liste de[`WorkingTime`](../../workingtime/).
+Collection d'instances de [`WorkingTime`](../../workingtime/).
 
-### Voir également
+## Exemples
+
+Montre comment obtenir les heures de travail pour une date spécifique.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// obtenir les heures de travail pour une date spécifique
+var workingTimes = calendar.GetWorkingTimes(new DateTime(2020, 4, 8, 8, 0, 0));
+
+// 16 heures seront affichées
+foreach (var workingTime in workingTimes)
+{
+    Console.WriteLine("From: " + workingTime.From);
+    Console.WriteLine("To: " + workingTime.To);
+}
+```
+
+### Voir aussi
 
 * class [WorkingTimeCollection](../../workingtimecollection/)
 * class [Calendar](../)
-* espace de noms [Aspose.Tasks](../../calendar/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

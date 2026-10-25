@@ -1,32 +1,47 @@
 ---
-title: Project.DefaultWeekWorkingDays
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient linstance deWeekDayCollection classe qui représente une collection de jours ouvrables et dheures de travail par défaut du projet.
+title: "Project.DefaultWeekWorkingDays"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Project. Obtient l'instance de la classe WeekDayCollection qui représente une collection des jours ouvrables hebdomadaires par défaut du projet et des horaires de travail"
 type: docs
-weight: 360
+weight: 370
 url: /fr/net/aspose.tasks/project/defaultweekworkingdays/
 ---
 ## Project.DefaultWeekWorkingDays property
 
-Obtient l'instance de[`WeekDayCollection`](../../weekdaycollection/) classe qui représente une collection de jours ouvrables et d'heures de travail par défaut du projet.
+Obtient l'instance de la classe [`WeekDayCollection`](../../weekdaycollection/) qui représente une collection des jours ouvrables hebdomadaires par défaut du projet et des horaires de travail.
 
 ```csharp
 public WeekDayCollection DefaultWeekWorkingDays { get; }
 ```
 
-### Return_Value
+### Valeur de retour
 
-L'exemple de[`WeekDayCollection`](../../weekdaycollection/) classe qui contient une liste de[`WeekDay`](../../weekday/) objets.
+L'instance de la classe [`WeekDayCollection`](../../weekdaycollection/) qui contient une liste d'objets [`WeekDay`](../../weekday/).
 
-### Remarques
+## Remarques
 
-Les données ne contiennent que des fichiers mpp (pas en xml).
+Les données ne se trouvent que dans les fichiers mpp (pas dans xml).
 
-### Voir également
+## Exemples
+
+Montre comment obtenir le jour ouvrable hebdomadaire par défaut.
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+foreach (var weekDay in project.DefaultWeekWorkingDays)
+{
+    Console.WriteLine("From: " + weekDay.FromDate);
+    Console.WriteLine("From: " + weekDay.ToDate);
+    Console.WriteLine("Day type: " + weekDay.DayType);
+    Console.WriteLine("Is day working: " + weekDay.DayWorking);
+}
+```
+
+### Voir aussi
 
 * class [WeekDayCollection](../../weekdaycollection/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

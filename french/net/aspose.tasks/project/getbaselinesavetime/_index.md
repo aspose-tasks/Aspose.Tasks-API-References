@@ -1,36 +1,52 @@
 ---
-title: Project.GetBaselineSaveTime
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project méthode. Renvoie la durée de sauvegarde de référence.
+title: "Project.GetBaselineSaveTime"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Project. Retourne l'heure d'enregistrement de la ligne de base"
 type: docs
-weight: 1060
+weight: 1090
 url: /fr/net/aspose.tasks/project/getbaselinesavetime/
 ---
 ## Project.GetBaselineSaveTime method
 
-Renvoie la durée de sauvegarde de référence.
+Renvoie le temps d’enregistrement de la ligne de base.
 
 ```csharp
 public DateTime GetBaselineSaveTime(BaselineType baselineNumber)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| baselineNumber | BaselineType | Le numéro de la ligne de base[`BaselineType`](../../baselinetype/). |
+| baselineNumber | BaselineType | Le numéro de la ligne de base [`BaselineType`](../../baselinetype/). |
 
-### Return_Value
+### Valeur de retour
 
-Date et heure du dernier enregistrement de la ligne de base.
+La dernière date et heure de sauvegarde de la ligne de base.
 
-### Remarques
+## Remarques
 
-Renvoie DateTime.MinValue si la ligne de base n'a pas été enregistrée.
+Retourne DateTime.MinValue si la ligne de base n'a pas été enregistrée.
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire l'heure de sauvegarde de la ligne de base du projet.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// définir l'heure de sauvegarde de la ligne de base
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
+
+### Voir aussi
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

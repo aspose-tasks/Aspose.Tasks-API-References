@@ -1,14 +1,14 @@
 ---
-title: Enum ReportType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.Visualization.ReportType énumération. Type de rapport graphique du projet.
+title: "Enum ReportType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Enum Aspose.Tasks.Visualization.ReportType. Type du rapport graphique du projet"
 type: docs
-weight: 2980
+weight: 3330
 url: /fr/net/aspose.tasks.visualization/reporttype/
 ---
 ## ReportType enumeration
 
-Type de rapport graphique du projet.
+Type du rapport graphique du projet.
 
 ```csharp
 public enum ReportType
@@ -16,28 +16,40 @@ public enum ReportType
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| ProjectOverview | `0` | Affiche la date de début et de fin du projet, le pourcentage de durée achevée, le pourcentage achevé pour les tâches de niveau supérieur et les jalons à venir. |
-| CostOverview | `1` | Affiche les dates de début et de fin du projet, le coût actuel prévu et restant, le % achevé et les valeurs de coût pour les tâches de niveau supérieur. |
-| WorkOverview | `2` | Affiche le travail de référence, réel et restant pour chaque tâche de niveau supérieur et le travail pour les ressources de travail. |
-| ResourceOverview | `3` | Affiche le travail de référence, réel et restant par ressource. |
-| ResourceCostOverview | `4` | Affiche le coût de référence, réel et restant par ressource. |
-| CriticalTasks | `5` | Affiche les tâches de projet critiques. |
-| LateTasks | `6` | Affiche les tâches de projet en retard. |
-| Milestones | `7` | Affiche les jalons en retard, à venir et terminés. |
-| UpcomingTask | `8` | Affiche les tâches dues pendant la semaine en cours et les tâches commençant pendant la semaine en cours. |
-| CostOverruns | `9` | Affiche l'écart de coût par tâche et ressource. |
-| TaskCostOverview | `10` | Affiche le coût de référence, réel et restant de toutes les tâches de niveau supérieur. |
-| OverallocatedResources | `11` | Affiche le nombre d'heures de travail restantes pour les ressources surallouées. |
+| ProjectOverview | `0` | Affiche la date de début et de fin du projet, le pourcentage de durée terminé, le pourcentage d'achèvement des tâches de niveau supérieur et des jalons à venir. |
+| CostOverview | `1` | Affiche les dates de début et de fin du projet, le coût prévu actuel et restant, le % d'achèvement et les valeurs de coût pour les tâches de niveau supérieur. |
+| WorkOverview | `2` | Affiche le travail de référence (baseline), réel et restant pour chaque tâche de niveau supérieur ainsi que le travail des ressources. |
+| ResourceOverview | `3` | Affiche le travail baseline, réel et restant par ressource. |
+| ResourceCostOverview | `4` | Affiche le coût baseline, réel et restant par ressource. |
+| CriticalTasks | `5` | Affiche les tâches du projet qui sont critiques. |
+| LateTasks | `6` | Affiche les tâches du projet qui sont en retard. |
+| Milestones | `7` | Affiche les jalons qui sont en retard, à venir et terminés. |
+| UpcomingTask | `8` | Affiche les tâches prévues pendant la semaine en cours et les tâches commençant pendant la semaine en cours. |
+| CostOverruns | `9` | Affiche la variance de coût par tâche et par ressource. |
+| TaskCostOverview | `10` | Affiche le coût baseline, réel et restant de toutes les tâches de niveau supérieur. |
+| OverallocatedResources | `11` | Affiche le nombre d'heures de travail restantes pour les ressources sur-allouées. |
 | SlippingTasks | `12` | Affiche les tâches qui doivent se terminer après leurs dates de fin de référence (la référence doit être définie). |
-| BestPracticeAnalyzer | `13` | Affiche les tâches sans travail réel, les tâches non affectées, les tâches d'une durée inférieure à 8 heures et les résumés affectés avec les ressources. |
-| Burndown | `14` | Comprend des graphiques d'avancement du travail et d'avancement des tâches. Le tableau d'avancement du travail indique la quantité de travail que les personnes ont terminée, la quantité qui doit être terminée avant la date de fin du projet, et l'estimation de base de la quantité de travail qui serait achevée à ce stade dans le projet. Le tableau d'avancement des tâches indique le nombre de tâches terminées, le nombre restant, et l'estimation de base du nombre de tâches qui seraient terminées à ce stade du projet. |
-| CashFlow | `15` | Affiche les coûts et les coûts cumulés par trimestre pour toutes les tâches de niveau supérieur. |
+| BestPracticeAnalyzer | `13` | Affiche les tâches sans travail réel, les tâches non assignées, les tâches d'une durée inférieure à 8 heures et les résumés assignés aux ressources. |
+| Burndown | `14` | Inclut les graphiques d'épuisement du travail et d'épuisement des tâches. Le graphique d'épuisement du travail montre la quantité de travail terminée par les personnes, la quantité prévue à terminer avant la date de fin du projet, ainsi que l'estimation de référence de la quantité de travail qui serait achevée à ce stade du projet. Le graphique d'épuisement des tâches montre le nombre de tâches terminées, le nombre restant, et l'estimation de référence du nombre de tâches qui seraient terminées à ce stade du projet. |
+| CashFlow | `15` | Affiche les coûts et les coûts cumulatifs par trimestre pour toutes les tâches de niveau supérieur. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment enregistrer le rapport d'avancement du projet au format PDF dans le flux spécifié.
+
+```csharp
+var project = new Project(DataDir + @"Homemoveplan.mpp");
+using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

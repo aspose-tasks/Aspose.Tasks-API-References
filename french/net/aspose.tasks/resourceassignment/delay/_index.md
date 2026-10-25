@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Delay
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur de Delay.
+title: "ResourceAssignment.Delay"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "ResourceAssignment propriété. Obtient ou définit une valeur de Delay"
 type: docs
 weight: 240
 url: /fr/net/aspose.tasks/resourceassignment/delay/
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de Delay.
 public Duration Delay { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

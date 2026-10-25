@@ -1,7 +1,7 @@
 ---
-title: Filter.GetHashCode
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Filter méthode. Renvoie une valeur de code de hachage pour le filtre.
+title: "Filter.GetHashCode"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Filter. Retourne une valeur de code de hachage pour le filtre"
 type: docs
 weight: 110
 url: /fr/net/aspose.tasks/filter/gethashcode/
@@ -14,14 +14,14 @@ Renvoie une valeur de code de hachage pour le filtre.
 public override int GetHashCode()
 ```
 
-### Return_Value
+### Valeur de retour
 
-renvoie une valeur de code de hachage pour cet objet.
+retourne une valeur de code de hachage pour cet objet.
 
-### Voir également
+### Voir aussi
 
 * class [Filter](../)
-* espace de noms [Aspose.Tasks](../../filter/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

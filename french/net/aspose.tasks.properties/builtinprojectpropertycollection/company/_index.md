@@ -1,23 +1,52 @@
 ---
-title: BuiltInProjectPropertyCollection.Company
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: BuiltInProjectPropertyCollection propriété. Obtient ou définit la société dun projet.
+title: "BuiltInProjectPropertyCollection.Company"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété BuiltInProjectPropertyCollection. Obtient ou définit l'entreprise d'un projet"
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks.properties/builtinprojectpropertycollection/company/
 ---
 ## BuiltInProjectPropertyCollection.Company property
 
-Obtient ou définit la société d'un projet.
+Obtient ou définit l'entreprise d'un projet.
 
 ```csharp
 public string Company { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les propriétés intégrées du projet.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Author: " + project.BuiltInProps.Author);
+Console.WriteLine("Category: " + project.BuiltInProps.Category);
+Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
+Console.WriteLine("Company: " + project.BuiltInProps.Company);
+Console.WriteLine("HyperlinkBase: " + project.BuiltInProps.HyperlinkBase);
+Console.WriteLine("IsReadOnly: " + project.BuiltInProps.IsReadOnly);
+Console.WriteLine("Keywords: " + project.BuiltInProps.Keywords);
+Console.WriteLine("Manager: " + project.BuiltInProps.Manager);
+Console.WriteLine("Subject: " + project.BuiltInProps.Subject);
+Console.WriteLine("Title: " + project.BuiltInProps.Title);
+Console.WriteLine();
+
+// itérer sur la collection de propriétés intégrées
+foreach (Property property in project.BuiltInProps)
+{
+    Console.WriteLine("Name: " + property.Name);
+    Console.WriteLine("Value: " + property.Value);
+    Console.WriteLine("Prop As String: " + property.ToString());
+    Console.WriteLine();
+}
+```
+
+### Voir aussi
 
 * class [BuiltInProjectPropertyCollection](../)
-* espace de noms [Aspose.Tasks.Properties](../../builtinprojectpropertycollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../builtinprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

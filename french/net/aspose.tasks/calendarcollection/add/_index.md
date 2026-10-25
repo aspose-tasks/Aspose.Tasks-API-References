@@ -1,7 +1,7 @@
 ---
-title: CalendarCollection.Add
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CalendarCollection méthode. Ajoute un nouveau calendrier de base à cet objet CalendarCollection et renvoie le calendrier ajouté.
+title: "CalendarCollection.Add"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode CalendarCollection. Ajoute un nouveau calendrier de base à cet objet CalendarCollection et retourne le calendrier ajouté."
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/calendarcollection/add/
@@ -14,26 +14,40 @@ Ajoute un nouveau calendrier de base à cet objet CalendarCollection et renvoie 
 public Calendar Add(string name)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| name | String | Nom du calendrier. |
+| name | Chaîne | Nom du calendrier. |
 
-### Return_Value
+### Valeur de retour
 
-Ajoutée[`Calendar`](../../calendar/) objet.
+Objet [`Calendar`](../../calendar/) ajouté.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Levé lorsque le nom du calendrier est nul. |
+| ArgumentException | Lancé lorsque le nom du calendrier est nul. |
 
-### Voir également
+## Exemples
+
+Montre comment créer un calendrier standard.
+
+```csharp
+var project = new Project();
+
+// Définissez un calendrier et rendez-le standard
+var calendar = project.Calendars.Add("New Standard Calendar");
+Calendar.MakeStandardCalendar(calendar);
+
+project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
+```
+
+### Voir aussi
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* espace de noms [Aspose.Tasks](../../calendarcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -45,20 +59,38 @@ Ajoute un nouveau calendrier avec le calendrier de base spécifié à cet objet 
 public Calendar Add(string name, Calendar baseCalendar)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| name | String | Nom spécifié. |
+| name | Chaîne | Nom spécifié. |
 | baseCalendar | Calendar | Calendrier de base spécifié. |
 
-### Return_Value
+### Valeur de retour
 
-Ajoutée[`Calendar`](../../calendar/) objet.
+Objet [`Calendar`](../../calendar/) ajouté.
 
-### Voir également
+## Exemples
+
+Montre comment ajouter de nouveaux calendriers.
+
+```csharp
+var project = new Project();
+
+// De nouveaux calendriers peuvent être ajoutés à la collection de calendriers d'un projet en utilisant les surcharges de la méthode Add de la collection.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+### Voir aussi
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* espace de noms [Aspose.Tasks](../../calendarcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

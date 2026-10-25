@@ -1,9 +1,9 @@
 ---
-title: Project.CurrencyDigits
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de CurrencyDigits.
+title: "Project.CurrencyDigits"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de CurrencyDigits"
 type: docs
-weight: 200
+weight: 210
 url: /fr/net/aspose.tasks/project/currencydigits/
 ---
 ## Project.CurrencyDigits property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de CurrencyDigits.
 public int CurrencyDigits { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

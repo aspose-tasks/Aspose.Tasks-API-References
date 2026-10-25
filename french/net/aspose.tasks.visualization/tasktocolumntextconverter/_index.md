@@ -1,31 +1,83 @@
 ---
-title: Delegate TaskToColumnTextConverter
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Conversion des données de la tâche en chaîne de colonne.
+title: "Délégué TaskToColumnTextConverter"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Convertisseur de données de tâches en chaîne de colonnes"
 type: docs
-weight: 3050
+weight: 3400
 url: /fr/net/aspose.tasks.visualization/tasktocolumntextconverter/
 ---
 ## TaskToColumnTextConverter delegate
 
-Conversion des données de la tâche en chaîne de colonne.
+Convertisseur de données de tâche en chaîne de colonne.
 
 ```csharp
 public delegate string TaskToColumnTextConverter(Task task);
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| task | Task | Tâche courante. |
+| tâche | Tâche | Tâche actuelle. |
 
-### Return_Value
+### Valeur de retour
 
 Données de chaîne pour la colonne.
 
-### Voir également
+## Exemples
+
+Montre comment ajouter des colonnes de vue du diagramme de Gantt à exporter.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+
+// itérer sur les colonnes
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
+}
+
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+
+project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
+```
+
+### Voir aussi
 
 * class [Task](../../aspose.tasks/task/)
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

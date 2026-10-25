@@ -1,7 +1,7 @@
 ---
-title: Task.FixedCost
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de FixedCost.
+title: "Task.FixedCost"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de FixedCost"
 type: docs
 weight: 480
 url: /fr/net/aspose.tasks/task/fixedcost/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de FixedCost.
 public double FixedCost { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

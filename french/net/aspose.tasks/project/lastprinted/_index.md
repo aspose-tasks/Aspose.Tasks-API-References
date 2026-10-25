@@ -1,9 +1,9 @@
 ---
-title: Project.LastPrinted
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de LastPrinted.
+title: "Project.LastPrinted"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de LastPrinted"
 type: docs
-weight: 520
+weight: 540
 url: /fr/net/aspose.tasks/project/lastprinted/
 ---
 ## Project.LastPrinted property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de LastPrinted.
 public DateTime LastPrinted { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

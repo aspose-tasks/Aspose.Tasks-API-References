@@ -1,9 +1,9 @@
 ---
-title: Project.NewTasksAreManual
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur indiquant si NewTasksAreManual est défini ou non.
+title: "Project.NewTasksAreManual"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur indiquant si NewTasksAreManual est défini ou non"
 type: docs
-weight: 640
+weight: 660
 url: /fr/net/aspose.tasks/project/newtasksaremanual/
 ---
 ## Project.NewTasksAreManual property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur indiquant si NewTasksAreManual est défini ou non
 public NullableBool NewTasksAreManual { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

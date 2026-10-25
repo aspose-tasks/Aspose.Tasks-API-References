@@ -1,14 +1,14 @@
 ---
-title: Class CheckCircuit
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.Util.CheckCircuit classe. Vérifie un arbre de tâches sil contient un circuit.
+title: "Classe CheckCircuit"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.Util.CheckCircuit. Vérifie un arbre de tâches pour savoir s'il contient un circuit"
 type: docs
-weight: 2360
+weight: 2680
 url: /fr/net/aspose.tasks.util/checkcircuit/
 ---
 ## CheckCircuit class
 
-Vérifie un arbre (de tâches) s'il contient un circuit.
+Vérifie si un arbre (de tâches) contient un circuit.
 
 ```csharp
 public class CheckCircuit : TreeAlgorithmBase<Task>
@@ -16,23 +16,42 @@ public class CheckCircuit : TreeAlgorithmBase<Task>
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CheckCircuit](checkcircuit/)() | Initialise une nouvelle instance du`CheckCircuit` classe. |
+| [CheckCircuit](checkcircuit/)() | Initialise une nouvelle instance de la classe `CheckCircuit`. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| override [Alg](../../aspose.tasks.util/checkcircuit/alg/)(Task, int) | Vérifie si l'objet spécifié a déjà été traité. |
+| override [Alg](../../aspose.tasks.util/checkcircuit/alg/)(Task, int) | Vérifiez si l'objet spécifié a déjà été traité. |
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(Task, int) |  |
 
-### Voir également
+## Exemples
+
+Montre comment détecter la structure du projet cassée.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// vérifier la structure du projet.
+// Le <see cref="TasksException"> sera levé si la structure du projet est incorrecte.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### Voir aussi
 
 * class [TreeAlgorithmBase&lt;T&gt;](../treealgorithmbase-1/)
 * class [Task](../../aspose.tasks/task/)
-* espace de noms [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

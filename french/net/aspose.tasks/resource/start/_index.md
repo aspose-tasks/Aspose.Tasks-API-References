@@ -1,9 +1,9 @@
 ---
-title: Resource.Start
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de Start.
+title: "Resource.Start"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de Start"
 type: docs
-weight: 730
+weight: 720
 url: /fr/net/aspose.tasks/resource/start/
 ---
 ## Resource.Start property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Start.
 public DateTime Start { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,41 @@
 ---
-title: Resource.IsRoot
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient lindicateur indiquant si la ressource est une ressource racine. La ressource racine est une ressource spéciale destinée à prendre en charge les internes des formats de MS Project et nest pas destinée à être utilisée directement à partir du code de lutilisateur.
+title: "Resource.IsRoot"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient le drapeau indiquant si la ressource est une ressource racine. Une ressource racine est une ressource spéciale destinée à prendre en charge les internes des formats MS Projects et n’est pas destinée à être utilisée directement dans le code des utilisateurs."
 type: docs
 weight: 470
 url: /fr/net/aspose.tasks/resource/isroot/
 ---
 ## Resource.IsRoot property
 
-Obtient l'indicateur indiquant si la ressource est une ressource racine. La ressource racine est une ressource spéciale destinée à prendre en charge les internes des formats de MS Project et n'est pas destinée à être utilisée directement à partir du code de l'utilisateur.
+Obtient le drapeau indiquant si la ressource est une ressource racine. La ressource racine est une ressource spéciale destinée à prendre en charge les internes des formats de MS Project et n'est pas destinée à être utilisée directement dans le code de l'utilisateur.
 
 ```csharp
 public virtual bool IsRoot { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment utiliser la propriété IsRoot pour ignorer la ressource racine.
+
+```csharp
+var project = new Project(DataDir + "ResourceCosts.mpp");
+
+foreach (var resource in project.Resources)
+{
+    if (resource.IsRoot)
+    {
+        continue;
+    }
+
+    Console.WriteLine(resource.Get(Rsc.Name));
+}
+```
+
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

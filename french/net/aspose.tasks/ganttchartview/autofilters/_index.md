@@ -1,24 +1,48 @@
 ---
-title: GanttChartView.AutoFilters
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: GanttChartView propriété. Obtient une liste des filtres automatiques dune vue Diagramme de Gantt.
+title: "GanttChartView.AutoFilters"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété GanttChartView. Obtient une liste de filtres automatiques d’une vue Gantt Chart"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/ganttchartview/autofilters/
 ---
 ## GanttChartView.AutoFilters property
 
-Obtient une liste des filtres automatiques d'une vue Diagramme de Gantt.
+Obtient une liste de filtres automatiques d'une vue Gantt Chart.
 
 ```csharp
 public FilterCollection AutoFilters { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les filtres automatiques d'une vue de diagramme de Gantt.
+
+```csharp
+var project = new Project(DataDir + "AutoFilterOnFinishColumn.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.First(v => v.Screen == ViewScreen.Gantt);
+
+// Permet d'itérer sur les filtres automatiques de la vue de diagramme de Gantt
+foreach (var filter in view.AutoFilters)
+{
+    Console.WriteLine("Criteria: " + filter.Criteria);
+
+    Console.WriteLine("Criteria field: " + filter.Criteria.Field);
+    Console.WriteLine("Criteria test condition: " + filter.Criteria.Test);
+    Console.WriteLine("Criteria values: " + string.Join(", ", filter.Criteria.Values.Where(c => c != null)));
+    Console.WriteLine();
+}
+
+// travailler avec le projet...
+```
+
+### Voir aussi
 
 * class [FilterCollection](../../filtercollection/)
 * class [GanttChartView](../)
-* espace de noms [Aspose.Tasks](../../ganttchartview/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ganttchartview/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: TaskLink.PredTask
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskLink propriété. Obtient ou définit la tâche prédécesseur.
+title: "TaskLink.PredTask"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété TaskLink. Obtient ou définit la tâche prédécesseur"
 type: docs
 weight: 70
 url: /fr/net/aspose.tasks/tasklink/predtask/
@@ -14,11 +14,29 @@ Obtient ou définit la tâche prédécesseur.
 public Task PredTask { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les liens de tâches du projet.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+// Afficher les noms des tâches prédécesseur et successeur
+foreach (var taskLink in project.TaskLinks)
+{
+    Console.WriteLine("Predecessor: " + taskLink.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor: " + taskLink.SuccTask.Get(Tsk.Name));
+    Console.WriteLine("Lag Format: " + taskLink.LagFormat);
+    Console.WriteLine("Link Lag: " + taskLink.LinkLag);
+    Console.WriteLine();
+}
+```
+
+### Voir aussi
 
 * class [Task](../../task/)
 * class [TaskLink](../)
-* espace de noms [Aspose.Tasks](../../tasklink/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

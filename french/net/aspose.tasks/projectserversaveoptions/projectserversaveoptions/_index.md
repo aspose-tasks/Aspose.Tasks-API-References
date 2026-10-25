@@ -1,23 +1,56 @@
 ---
-title: ProjectServerSaveOptions.ProjectServerSaveOptions
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ProjectServerSaveOptions constructeur. Initialise une nouvelle instance duProjectServerSaveOptions classe.
+title: "ProjectServerSaveOptions.ProjectServerSaveOptions"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur ProjectServerSaveOptions. Initialise une nouvelle instance de la classe ProjectServerSaveOptions"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/projectserversaveoptions/projectserversaveoptions/
 ---
 ## ProjectServerSaveOptions constructor
 
-Initialise une nouvelle instance du[`ProjectServerSaveOptions`](../) classe.
+Initialise une nouvelle instance de la classe [`ProjectServerSaveOptions`](../).
 
 ```csharp
 public ProjectServerSaveOptions()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment utiliser les options &lt;see cref="Aspose.Tasks.ProjectServerSaveOptions" /&gt; pour créer un nouveau projet dans une instance sur site de Project Server.
+
+```csharp
+try
+{
+    const string URL = "https://project_server.local/sites/pwa";
+    const string Domain = "CONTOSO.COM";
+    const string UserName = "Administrator";
+    const string Password = "MyPassword";
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+    var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+    var manager = new ProjectServerManager(projectServerCredentials);
+    var options = new ProjectServerSaveOptions
+                      {
+                          ProjectGuid = Guid.NewGuid(),
+                          ProjectName = "New project",
+                          Timeout = TimeSpan.FromMinutes(5),
+                          PollingInterval = TimeSpan.FromSeconds(3)
+                      };
+
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### Voir aussi
 
 * class [ProjectServerSaveOptions](../)
-* espace de noms [Aspose.Tasks](../../projectserversaveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectserversaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

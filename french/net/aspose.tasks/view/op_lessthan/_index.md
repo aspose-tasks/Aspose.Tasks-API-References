@@ -1,7 +1,7 @@
 ---
-title: View.op_LessThan
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: View méthode. Renvoie une valeur indiquant si cette instance est inférieure à un objet spécifié.
+title: "View.op_LessThan"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode View. Retourne une valeur indiquant si cette instance est inférieure à un objet spécifié"
 type: docs
 weight: 210
 url: /fr/net/aspose.tasks/view/op_lessthan/
@@ -14,19 +14,19 @@ Renvoie une valeur indiquant si cette instance est inférieure à un objet spéc
 public static bool operator <(View a, View b)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | a | View | Le premier filtre. |
 | b | View | Le deuxième filtre. |
 
-### Return_Value
+### Valeur de retour
 
-une valeur indiquant si cette instance est inférieure à un objet spécifié
+une valeur indiquant si cette instance est inférieure à un objet spécifié.
 
-### Voir également
+### Voir aussi
 
 * class [View](../)
-* espace de noms [Aspose.Tasks](../../view/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ChildTasksCollector.Alg
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ChildTasksCollector méthode. Traite lobjet spécifié.
+title: "ChildTasksCollector.Alg"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode ChildTasksCollector. Traite l'objet spécifié"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks.util/childtaskscollector/alg/
@@ -14,16 +14,33 @@ Traite l'objet spécifié.
 public override void Alg(Task el, int level)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| el | Task | Objet à traiter. |
-| level | Int32 | Niveau nœud de l'arborescence. |
+| el | Tâche | Objet à traiter. |
+| niveau | Int32 | Niveau du nœud d'arbre. |
 
-### Voir également
+## Exemples
+
+Montre comment itérer sur toutes les tâches d'un projet sous forme de liste simple.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analyser toutes les tâches collectées
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### Voir aussi
 
 * class [Task](../../../aspose.tasks/task/)
 * class [ChildTasksCollector](../)
-* espace de noms [Aspose.Tasks.Util](../../childtaskscollector/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../childtaskscollector/)
+* assembly [Aspose.Tasks](../../../)
 
 

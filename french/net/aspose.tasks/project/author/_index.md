@@ -1,23 +1,23 @@
 ---
-title: Project.Author
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de Auteur.
+title: "Project.Author"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Project property. Obtient ou définit une valeur de Author"
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/project/author/
 ---
 ## Project.Author property
 
-Obtient ou définit une valeur de Auteur.
+Obtient ou définit une valeur de Author.
 
 ```csharp
 public string Author { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

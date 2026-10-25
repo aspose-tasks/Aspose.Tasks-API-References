@@ -1,23 +1,23 @@
 ---
-title: PageViewSettings.PageViewSettings
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PageViewSettings constructeur. Default_Constructor
+title: "PageViewSettings.PageViewSettings"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur PageViewSettings. Le constructeur par défaut"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.visualization/pageviewsettings/pageviewsettings/
 ---
 ## PageViewSettings constructor
 
-Default_Constructor
+Le constructeur par défaut.
 
 ```csharp
 public PageViewSettings()
 ```
 
-### Voir également
+### Voir aussi
 
 * class [PageViewSettings](../)
-* espace de noms [Aspose.Tasks.Visualization](../../pageviewsettings/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pageviewsettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

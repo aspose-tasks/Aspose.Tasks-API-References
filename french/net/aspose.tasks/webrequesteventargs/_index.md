@@ -1,14 +1,14 @@
 ---
-title: Class WebRequestEventArgs
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.WebRequestEventArgs classe. Fournit des arguments pour lévénement déclenché lorsque le client envoie une requête Web à lAPI Web de Project Server.
+title: "Class WebRequestEventArgs"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.WebRequestEventArgs class. Fournit les arguments pour l'événement qui est déclenché lorsque le client envoie une requête web à l'API web de Project Server"
 type: docs
-weight: 3170
+weight: 3530
 url: /fr/net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class
 
-Fournit des arguments pour l'événement déclenché lorsque le client envoie une requête Web à l'API Web de Project Server.
+Fournit les arguments pour l'événement déclenché lorsque le client envoie une requête web à l'API web du Project Server.
 
 ```csharp
 public sealed class WebRequestEventArgs : EventArgs
@@ -16,13 +16,13 @@ public sealed class WebRequestEventArgs : EventArgs
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | Obtient une demande Web à envoyer à l'API Web de Project Server. |
+| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | Obtient une requête web à envoyer à l'API web de Project Server. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

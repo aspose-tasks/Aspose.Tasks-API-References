@@ -1,9 +1,9 @@
 ---
-title: ImageSaveOptions.TiffCompression
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit le type de compression à appliquer lors de lenregistrement des images générées au format TIFF.
+title: "ImageSaveOptions.TiffCompression"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété ImageSaveOptions. Obtient ou définit le type de compression à appliquer lors de l'enregistrement des images générées au format TIFF"
 type: docs
-weight: 100
+weight: 90
 url: /fr/net/aspose.tasks.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
@@ -14,15 +14,31 @@ Obtient ou définit le type de compression à appliquer lors de l'enregistrement
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### Remarques
+## Remarques
 
-N'a d'effet que lors de l'enregistrement au format TIFF. La valeur par défaut est`LZW` .
+N'a d'effet que lors de l'enregistrement au format TIFF. La valeur par défaut est `LZW`.
 
-### Voir également
+## Exemples
+
+Montre comment définir la compression TIFF des fichiers TIFF de sortie.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// Afin de manipuler la compression TIFF, nous pouvons utiliser la propriété ImageSaveOptions.TiffCompression.
+var options = new ImageSaveOptions(SaveFileFormat.Tiff)
+{
+    TiffCompression = TiffCompression.Lzw
+};
+
+project.Save(OutDir + "SaveProjectAsTiff_out.tif", options);
+```
+
+### Voir aussi
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

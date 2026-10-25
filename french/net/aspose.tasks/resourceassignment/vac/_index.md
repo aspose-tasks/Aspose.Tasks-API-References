@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.VAC
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur de VAC.
+title: "ResourceAssignment.VAC"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "ResourceAssignment propriété. Obtient ou définit une valeur de VAC"
 type: docs
 weight: 640
 url: /fr/net/aspose.tasks/resourceassignment/vac/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de VAC.
 public double VAC { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,44 @@
 ---
-title: Spreadsheet2003SaveOptions.AssignmentView
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Spreadsheet2003SaveOptions propriété. Obtient ou définit une liste des colonnes de la vue des affectations à afficher AssignmentViewColumn .
+title: "Spreadsheet2003SaveOptions.AssignmentView"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Spreadsheet2003SaveOptions. Obtient ou définit une liste des colonnes de la vue des affectations à rendre AssignmentViewColumn."
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks.saving/spreadsheet2003saveoptions/assignmentview/
 ---
 ## Spreadsheet2003SaveOptions.AssignmentView property
 
-Obtient ou définit une liste des colonnes de la vue des affectations à afficher ([`AssignmentViewColumn`](../../../aspose.tasks.visualization/assignmentviewcolumn/) ).
+Obtient ou définit une liste des colonnes de la vue des affectations à rendre ([`AssignmentViewColumn`](../../../aspose.tasks.visualization/assignmentviewcolumn/)).
 
 ```csharp
 public ProjectView AssignmentView { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment ajouter des colonnes à exporter lors de l'exportation d'un projet au format Spreadsheet2003.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+var ganttChartColumn = new GanttChartColumn("WBS", 100, delegate(Task task) { return task.Get(Tsk.WBS); });
+options.View.Columns.Add(ganttChartColumn);
+
+var resourceViewColumn = new ResourceViewColumn("Cost center", 100, delegate(Resource resource) { return resource.Get(Rsc.CostCenter); });
+options.ResourceView.Columns.Add(resourceViewColumn);
+
+var assignmentViewColumn = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(assignmentViewColumn);
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### Voir aussi
 
 * class [ProjectView](../../../aspose.tasks.visualization/projectview/)
 * class [Spreadsheet2003SaveOptions](../)
-* espace de noms [Aspose.Tasks.Saving](../../spreadsheet2003saveoptions/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../spreadsheet2003saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Tsk.IgnoreWarnings
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Indique sil faut masquer lindicateur davertissement de conflit de planification dans Microsoft Project.
+title: "Tsk.IgnoreWarnings"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Indique s'il faut masquer l'indicateur d'avertissement de conflit d'horaire dans Microsoft Project"
 type: docs
-weight: 550
+weight: 540
 url: /fr/net/aspose.tasks/tsk/ignorewarnings/
 ---
 ## Tsk.IgnoreWarnings field
 
-Indique s'il faut masquer l'indicateur d'avertissement de conflit de planification dans Microsoft Project.
+Indique s’il faut masquer l’indicateur d’avertissement de conflit d’horaire dans Microsoft Project.
 
 ```csharp
 public static readonly Key<bool, TaskKey> IgnoreWarnings;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.IgnoreWarnings.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IgnoreWarnings, true);
+
+Console.WriteLine("Ignore Warnings: " + task.Get(Tsk.IgnoreWarnings));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

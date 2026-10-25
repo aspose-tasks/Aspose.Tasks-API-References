@@ -1,7 +1,7 @@
 ---
-title: Class ByYearDayRepetition
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.ByYearDayRepetition classe. Représente un modèle basé sur la position absolue dun jour dans un mois.
+title: "Classe ByYearDayRepetition"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.ByYearDayRepetition. Représente un modèle basé sur la position absolue d'un jour dans un mois"
 type: docs
 weight: 190
 url: /fr/net/aspose.tasks/byyeardayrepetition/
@@ -16,21 +16,46 @@ public class ByYearDayRepetition : YearlyRepetitionBase
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ByYearDayRepetition](byyeardayrepetition/)() | Initialise une nouvelle instance du`ByYearDayRepetition` classe. |
+| [ByYearDayRepetition](byyeardayrepetition/)() | Initialise une nouvelle instance de la classe `ByYearDayRepetition`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [DayPosition](../../aspose.tasks/byyeardayrepetition/dayposition/) { get; set; } | Obtient ou définit une position de jour dans un mois sur lequel la tâche doit être récurrente. |
-| [Month](../../aspose.tasks/byyeardayrepetition/month/) { get; set; } | Obtient ou définit un mois pendant lequel la tâche doit être récurrente. |
+| [DayPosition](../../aspose.tasks/byyeardayrepetition/dayposition/) { get; set; } | Obtient ou définit une position du jour dans un mois à laquelle la tâche doit être récurrente. |
+| [Month](../../aspose.tasks/byyeardayrepetition/month/) { get; set; } | Obtient ou définit le mois pendant lequel la tâche doit être récurrente. |
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les répétitions de jour de l'année lors de la création de nouvelles tâches récurrentes.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new YearlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByYearDayRepetition { DayPosition = 1, Month = Month.July },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2019, 7, 1, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+```
+
+### Voir aussi
 
 * class [YearlyRepetitionBase](../yearlyrepetitionbase/)
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

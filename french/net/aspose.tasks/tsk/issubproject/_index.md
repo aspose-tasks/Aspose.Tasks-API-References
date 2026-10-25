@@ -1,9 +1,9 @@
 ---
-title: Tsk.IsSubproject
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Détermine si une tâche est un projet inséré.
+title: "Tsk.IsSubproject"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Détermine si une tâche est un projet inséré"
 type: docs
-weight: 710
+weight: 700
 url: /fr/net/aspose.tasks/tsk/issubproject/
 ---
 ## Tsk.IsSubproject field
@@ -14,12 +14,26 @@ Détermine si une tâche est un projet inséré.
 public static readonly Key<bool, TaskKey> IsSubproject;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.IsSubproject.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSubproject, true);
+
+Console.WriteLine("Is Subproject: " + task.Get(Tsk.IsSubproject));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

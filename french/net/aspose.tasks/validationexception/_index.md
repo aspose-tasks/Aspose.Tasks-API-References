@@ -1,9 +1,9 @@
 ---
-title: Class ValidationException
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.ValidationException classe. Représente une exception qui est levée lorsque des erreurs sont détectées lors de la validation de lentité.
+title: "Classe ValidationException"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.ValidationException. Représente une exception qui est levée lorsque des erreurs sont détectées lors de la validation de l'entité."
 type: docs
-weight: 2470
+weight: 2790
 url: /fr/net/aspose.tasks/validationexception/
 ---
 ## ValidationException class
@@ -14,9 +14,32 @@ Représente une exception qui est levée lorsque des erreurs sont détectées lo
 public class ValidationException : ApplicationException
 ```
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment gérer &lt;see cref="ValidationException"/&gt; lors du travail avec des tâches récurrentes.
+
+```csharp
+try
+{
+    var project = new Project();
+    var parameters = new RecurringTaskParameters { TaskName = "t1", Duration = project.GetDuration(1, TimeUnitType.Day), RecurrencePattern = null };
+    project.RootTask.Children.Add(parameters);
+}
+catch (ValidationException ex)
+{
+    Console.WriteLine("Message: ");
+    Console.WriteLine(ex.Message);
+    if (ex.InnerException != null)
+    {
+        Console.WriteLine("Inner exception message: ");
+        Console.WriteLine(ex.InnerException.Message);
+    }
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

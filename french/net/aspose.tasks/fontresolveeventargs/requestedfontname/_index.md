@@ -1,7 +1,7 @@
 ---
-title: FontResolveEventArgs.RequestedFontName
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: FontResolveEventArgs propriété. Obtient le nom de la police demandée.
+title: "FontResolveEventArgs.RequestedFontName"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété FontResolveEventArgs. Obtient le nom de la police demandée"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/fontresolveeventargs/requestedfontname/
@@ -14,10 +14,10 @@ Obtient le nom de la police demandée.
 public string RequestedFontName { get; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [FontResolveEventArgs](../)
-* espace de noms [Aspose.Tasks](../../fontresolveeventargs/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontresolveeventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

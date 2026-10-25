@@ -1,7 +1,7 @@
 ---
-title: TaskLink.Equals
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskLink méthode. Renvoie une valeur indiquant si cette instance est égale à un objet spécifié.
+title: "TaskLink.Equals"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode TaskLink. Retourne une valeur indiquant si cette instance est égale à un objet spécifié"
 type: docs
 weight: 90
 url: /fr/net/aspose.tasks/tasklink/equals/
@@ -14,19 +14,37 @@ Renvoie une valeur indiquant si cette instance est égale à un objet spécifié
 public bool Equals(TaskLink other)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| other | TaskLink | L'instance spécifiée du[`TaskLink`](../) classe à comparer avec cette instance. |
+| other | TaskLink | L'instance spécifiée de la classe [`TaskLink`](../) à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-**Vrai** si l'instance spécifiée du[`TaskLink`](../) la classe a les mêmes tâches prédécesseur et successeur que cette instance ; sinon, **FAUX**.
+**True** if the specified instance of the [`TaskLink`](../) class has the same predecessor and successor tasks as this instance; otherwise, **false**.
 
-### Voir également
+## Exemples
+
+Montre comment vérifier l'égalité des liens de tâches.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// L'égalité des liens de tâches est basée sur les tâches pred et succ.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### Voir aussi
 
 * class [TaskLink](../)
-* espace de noms [Aspose.Tasks](../../tasklink/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +56,36 @@ Renvoie une valeur indiquant si cette instance est égale à un objet spécifié
 public override bool Equals(object obj)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | Objet à comparer avec cette instance. |
+| obj | Objet | L'objet à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-**Vrai** si l'objet spécifié est un TaskLink qui a le même prédécesseur et successeur que cette instance ; sinon, **FAUX**.
+**True** if the specified object is a TaskLink that has the same predecessor and successor as this instance; otherwise, **false**.
 
-### Voir également
+## Exemples
+
+Montre comment vérifier l'égalité des liens de tâches.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// L'égalité des liens de tâches est basée sur les tâches pred et succ.
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### Voir aussi
 
 * class [TaskLink](../)
-* espace de noms [Aspose.Tasks](../../tasklink/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

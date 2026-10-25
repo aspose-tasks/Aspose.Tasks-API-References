@@ -1,41 +1,41 @@
 ---
-title: Class ReadOnlyCollectionBaseT
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.ReadOnlyCollectionBase1T classe. Représente une collection dobjets en lecture seule.
+title: "Classe ReadOnlyCollectionBaseT"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.ReadOnlyCollectionBase1T. Représente une collection en lecture seule d'objets"
 type: docs
-weight: 1420
+weight: 1670
 url: /fr/net/aspose.tasks/readonlycollectionbase-1/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt; class
 
-Représente une collection d'objets en lecture seule.
+Représente une collection en lecture seule d'objets.
 
 ```csharp
 public abstract class ReadOnlyCollectionBase<T> : IList<T>
 ```
 
-| Paramètre | La description |
+| Paramètre | Description |
 | --- | --- |
-| T | Type d'éléments de collection. |
+| T | Type des éléments de la collection. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } | Obtient le nombre d'objets contenus dans l'objet. |
 | [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } | Renvoie l'élément à l'index spécifié. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | Il s'agit de l'implémentation stub de la méthode Add d'ICollection, qui ne lève que NotSupportedException |
+| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | Ceci est l'implémentation factice de la méthode Add de ICollection, qui ne lance que NotSupportedException |
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() | Renvoie un énumérateur pour cette collection. |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | Convertit l'objet collection en une liste de[`VbaModule`](../vbamodule/) objets. |
+| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | Convertit la collection en une liste d'objets. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

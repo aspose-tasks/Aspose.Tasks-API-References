@@ -1,7 +1,7 @@
 ---
-title: Resource.Finish
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de Finish.
+title: "Resource.Finish"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de Finish"
 type: docs
 weight: 330
 url: /fr/net/aspose.tasks/resource/finish/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de Finish.
 public DateTime Finish { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

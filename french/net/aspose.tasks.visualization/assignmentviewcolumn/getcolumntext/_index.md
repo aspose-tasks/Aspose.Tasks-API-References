@@ -1,7 +1,7 @@
 ---
-title: AssignmentViewColumn.GetColumnText
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: AssignmentViewColumn méthode. Convertit laffectation de ressource actuelle en texte de colonne.
+title: "AssignmentViewColumn.GetColumnText"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode AssignmentViewColumn. Convertit l'affectation de ressource actuelle en texte de colonne"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/
@@ -14,19 +14,45 @@ Convertit l'affectation de ressource actuelle en texte de colonne.
 public string GetColumnText(ResourceAssignment assignment)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| assignment | ResourceAssignment | Affectation en cours. |
+| affectation | ResourceAssignment | Affectation actuelle. |
 
-### Return_Value
+### Valeur de retour
 
 Le texte de la colonne.
 
-### Voir également
+## Exemples
+
+Montre comment ajouter des colonnes pour les vues d'affectation.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### Voir aussi
 
 * class [ResourceAssignment](../../../aspose.tasks/resourceassignment/)
 * class [AssignmentViewColumn](../)
-* espace de noms [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

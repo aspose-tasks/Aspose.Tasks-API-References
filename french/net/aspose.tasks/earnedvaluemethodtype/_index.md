@@ -1,7 +1,7 @@
 ---
-title: Enum EarnedValueMethodType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.EarnedValueMethodType énumération. Spécifie la méthode utilisée pour calculer la valeur acquise.
+title: "Enum EarnedValueMethodType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.EarnedValueMethodType enum. Spécifie la méthode utilisée pour calculer la valeur acquise"
 type: docs
 weight: 480
 url: /fr/net/aspose.tasks/earnedvaluemethodtype/
@@ -16,19 +16,30 @@ public enum EarnedValueMethodType
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| Undefined | `-1` | Le champ n'a pas été défini dans le fichier de projet d'origine. |
+| Undefined | `-1` | Le champ n'était pas défini dans le fichier de projet original. |
 | PercentComplete | `0` | Pourcentage achevé |
 | PhysicalPercentComplete | `1` | Pourcentage physique achevé |
 
-### Remarques
+## Remarques
 
-Lors de l'exportation en XML, les valeurs non définies seront éliminées du XML résultant.
+Lors de l'exportation vers XML, les valeurs Undefined seront éliminées du XML résultant.
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment spécifier la méthode utilisée pour calculer la valeur acquise (EarnedValueMethodType.PercentComplete).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// définir le type de méthode de valeur acquise sur 'PercentComplete'
+project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
+// travailler avec le projet...
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

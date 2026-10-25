@@ -1,26 +1,38 @@
 ---
-title: Prj.SpreadActualCost
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Détermine si les coûts réels sont répartis sur la date détat.
+title: "Prj.SpreadActualCost"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Détermine si les coûts réels sont répartis jusqu'à la date d'état"
 type: docs
-weight: 650
+weight: 660
 url: /fr/net/aspose.tasks/prj/spreadactualcost/
 ---
 ## Prj.SpreadActualCost field
 
-Détermine si les coûts réels sont répartis sur la date d'état.
+Détermine si les coûts réels sont répartis jusqu'à la date d'état.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadActualCost;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Prj.SpreadActualCost.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadActualCost, true);
+
+Console.WriteLine("Spread Actual Cost: " + project.Get(Prj.SpreadActualCost));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

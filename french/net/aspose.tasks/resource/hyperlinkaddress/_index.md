@@ -1,23 +1,27 @@
 ---
-title: Resource.HyperlinkAddress
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de HyperlinkAddress.
+title: "Resource.HyperlinkAddress"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit l’adresse d’un hyperlien associé à une ressource."
 type: docs
 weight: 370
 url: /fr/net/aspose.tasks/resource/hyperlinkaddress/
 ---
 ## Resource.HyperlinkAddress property
 
-Obtient ou définit une valeur de HyperlinkAddress.
+Obtient ou définit l'adresse d'un hyperlien associé à une ressource.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
 ```
 
-### Voir également
+## Remarques
+
+L’adresse complète (Hyperlink Href dans Microsoft Project) de l’hyperlien est une concaténation de HyperlinkAddress et HyperlinkSubAddress.
+
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

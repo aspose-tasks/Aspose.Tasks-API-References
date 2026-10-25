@@ -1,14 +1,14 @@
 ---
-title: Class FontDescriptor
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.Visualization.FontDescriptor classe. Représente les informations sur la police.
+title: "Classe FontDescriptor"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Classe Aspose.Tasks.Visualization.FontDescriptor. Représente les informations de police"
 type: docs
-weight: 2680
+weight: 3010
 url: /fr/net/aspose.tasks.visualization/fontdescriptor/
 ---
 ## FontDescriptor class
 
-Représente les informations sur la police.
+Représente les informations de police.
 
 ```csharp
 public sealed class FontDescriptor
@@ -16,23 +16,23 @@ public sealed class FontDescriptor
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | Initialise une nouvelle instance du`FontDescriptor` classe avec la police et le style spécifiés. |
-| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | Initialise une nouvelle instance du`FontDescriptor` classe avec la famille et la taille de police spécifiées. |
-| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | Initialise une nouvelle instance du`FontDescriptor` classe avec la famille, la taille et le style de police spécifiés. |
+| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | Initialise une nouvelle instance de la classe `FontDescriptor` avec la police et le style spécifiés. |
+| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | Initialise une nouvelle instance de la classe `FontDescriptor` avec la famille de police et la taille spécifiées. |
+| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | Initialise une nouvelle instance de la classe `FontDescriptor` avec la famille de police, la taille et le style spécifiés. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | Obtient le nom de la famille de polices. |
+| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | Obtient le nom de la famille de la police. |
 | [Size](../../aspose.tasks.visualization/fontdescriptor/size/) { get; } | Obtient la taille de la police. |
 | [Style](../../aspose.tasks.visualization/fontdescriptor/style/) { get; } | Obtient le style de la police. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* Assemblée [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

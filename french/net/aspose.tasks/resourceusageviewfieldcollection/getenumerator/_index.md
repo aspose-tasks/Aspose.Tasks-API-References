@@ -1,7 +1,7 @@
 ---
-title: ResourceUsageViewFieldCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceUsageViewFieldCollection méthode. Renvoie un énumérateur pour cette collection.
+title: "ResourceUsageViewFieldCollection.GetEnumerator"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode ResourceUsageViewFieldCollection. Retourne un énumérateur pour cette collection"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/resourceusageviewfieldcollection/getenumerator/
@@ -14,15 +14,36 @@ Renvoie un énumérateur pour cette collection.
 public IEnumerator<ResourceUsageViewField> GetEnumerator()
 ```
 
-### Return_Value
+### Valeur de retour
 
-un recenseur pour cette collection.
+un énumérateur pour cette collection.
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec la collection de champs d'une instance ResourceUsageView.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// on peut transformer la collection en une liste de ResourceUsageViewField
+IList<ResourceUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### Voir aussi
 
 * enum [ResourceUsageViewField](../../resourceusageviewfield/)
 * class [ResourceUsageViewFieldCollection](../)
-* espace de noms [Aspose.Tasks](../../resourceusageviewfieldcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceusageviewfieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

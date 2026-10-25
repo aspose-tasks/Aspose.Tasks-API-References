@@ -1,9 +1,9 @@
 ---
-title: Class ProjectView
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.Visualization.ProjectView classe. Classe de vue du projet
+title: "Classe ProjectView"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.Visualization.ProjectView class. Classe de vue des projets"
 type: docs
-weight: 2950
+weight: 3300
 url: /fr/net/aspose.tasks.visualization/projectview/
 ---
 ## ProjectView class
@@ -16,29 +16,44 @@ public class ProjectView
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | Initialise une nouvelle instance du`ProjectView` classe. |
+| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | Initialise une nouvelle instance de la classe `ProjectView`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Columns](../../aspose.tasks.visualization/projectview/columns/) { get; } | Obtient les colonnes de la vue du projet. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview/)() | Inclut les colonnes d'UID, de nom de tâche, de nom de ressource, de travail et d'affectation de durée. |
-| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | Inclut les colonnes d'identifiant, d'indicateurs, de nom, de durée, de début et de fin de tâche. |
-| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | Inclut l'UID, le nom de la ressource, le type, l'étiquette du matériau, les initiales, le groupe, les unités maximales, le taux standard , le taux des heures supplémentaires, le coût par utilisation, l'accumulation, le calendrier de base et les colonnes de ressource de code. |
-| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | Inclut les colonnes Uid, name, start, finish et work resource. |
-| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | Comprend les colonnes de tâche ID, indicateurs, nom, durée, début, fin, prédécesseurs et noms de ressource. |
+| static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview/)() | Inclut les colonnes Uid, nom de tâche, nom de ressource, travail et durée d'affectation. |
+| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | Inclut les colonnes id, indicateurs, nom, durée, début et fin de tâche. |
+| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | Inclut les colonnes Uid, nom de ressource, type, libellé du matériau, initiales, groupe, unités max, tarif standard, tarif des heures supplémentaires, coût par utilisation, accumulé à, calendrier de base et code ressource. |
+| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | Inclut les colonnes Uid, nom, début, fin et ressource de travail. |
+| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | Inclut les colonnes de tâche id, indicateurs, nom, durée, début, fin, prédécesseurs et noms de ressources. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment enregistrer un projet avec la vue d'affectation.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

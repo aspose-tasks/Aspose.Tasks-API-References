@@ -1,9 +1,9 @@
 ---
-title: Enum MaskType
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.MaskType énumération. Spécifie le type dun masque.
+title: "Enum MaskType"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.MaskType enum. Spécifie le type d'un masque"
 type: docs
-weight: 880
+weight: 1000
 url: /fr/net/aspose.tasks/masktype/
 ---
 ## MaskType enumeration
@@ -16,23 +16,84 @@ public enum MaskType
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| Null | `0` | Indique le type de masque nul. |
-| Numbers | `1` | Indique le type de masque de nombres. |
+| Null | `0` | Indique le type de masque Null. |
+| Numbers | `1` | Indique le type de masque Numbers. |
 | UpperCaseLetters | `2` | Indique le type de masque UpperCaseLetters. |
 | LowerCaseLetters | `3` | Indique le type de masque LowerCaseLetters. |
-| Characters | `4` | Indique le type de masque de caractères. |
-| Val4 | `5` | Indique la recherche pour le type de masque de coût. |
-| Val5 | `6` | Indique le type de masque de recherche pour les dates. |
-| Val6 | `7` | Indique le type de masque de recherche pour les durées. |
-| Val7 | `8` | Indique le type de masque Recherche de numéros. |
-| Val8 | `9` | Indique la recherche pour le type de masque Flags. |
-| Val9 | `10` | Indique la recherche pour le type de masque FinishDate. |
+| Characters | `4` | Indique le type de masque Characters. |
+| Val4 | `5` | Indique le type de masque Lookup for Cost. |
+| Val5 | `6` | Indique le type de masque Lookup for Dates. |
+| Val6 | `7` | Indique le type de masque Lookup for Durations. |
+| Val7 | `8` | Indique le type de masque Lookup for Numbers. |
+| Val8 | `9` | Indique le type de masque Lookup for Flags. |
+| Val9 | `10` | Indique le type de masque Lookup for FinishDate. |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment travailler avec des collections de masques de contour.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = project.OutlineCodes[0];
+
+// effacer les masques de contour
+if (outline.Masks.Count > 0)
+{
+    if (!outline.Masks.IsReadOnly)
+    {
+        outline.Masks.Clear();
+    }
+}
+
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+var maskWrong = new OutlineMask();
+maskWrong.Type = MaskType.Null;
+
+outline.Masks.Add(mask);
+
+// insérer un masque incorrect
+outline.Masks.Insert(0, maskWrong);
+
+// modifier le masque en utilisant l'accès par index de la collection
+var idx = outline.Masks.IndexOf(mask);
+outline.Masks[idx].Length = 2;
+
+// supprimer un masque incorrect par index
+var idxOfWrong = outline.Masks.IndexOf(maskWrong);
+outline.Masks.RemoveAt(idxOfWrong);
+
+// itérer sur les masques
+foreach (var outlineMask in outline.Masks)
+{
+    Console.WriteLine("Length: " + outlineMask.Length);
+    Console.WriteLine("Level: " + outlineMask.Level);
+    Console.WriteLine("Separator: " + outlineMask.Separator);
+    Console.WriteLine("Type: " + outlineMask.Type);
+}
+
+var otherProject = new Project(DataDir + "OutlineValues2010.mpp");
+
+var otherOutline = otherProject.OutlineCodes[0];
+
+var masks = new OutlineMask[outline.Masks.Count];
+outline.Masks.CopyTo(masks, 0);
+
+foreach (var maskToAdd in masks)
+{
+    if (!otherOutline.Masks.Contains(maskToAdd))
+    {
+        otherOutline.Masks.Add(maskToAdd);
+    }
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

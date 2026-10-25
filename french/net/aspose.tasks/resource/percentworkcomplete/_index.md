@@ -1,9 +1,9 @@
 ---
-title: Resource.PercentWorkComplete
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de PercentWorkComplete.
+title: "Resource.PercentWorkComplete"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de PercentWorkComplete"
 type: docs
-weight: 630
+weight: 620
 url: /fr/net/aspose.tasks/resource/percentworkcomplete/
 ---
 ## Resource.PercentWorkComplete property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur de PercentWorkComplete.
 public int PercentWorkComplete { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: TaskBaseline.TaskBaseline
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskBaseline constructeur. Initialise une nouvelle instance duTaskBaseline classe.
+title: "TaskBaseline.TaskBaseline"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur TaskBaseline. Initialise une nouvelle instance de la classe TaskBaseline"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/taskbaseline/taskbaseline/
 ---
 ## TaskBaseline constructor
 
-Initialise une nouvelle instance du[`TaskBaseline`](../) classe.
+Initialise une nouvelle instance de la classe [`TaskBaseline`](../).
 
 ```csharp
 public TaskBaseline(Task task)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| task | Task | Tâche parent de la ligne de base. |
+| tâche | Tâche | Tâche parente de la ligne de base. |
 
-### Voir également
+### Voir aussi
 
 * class [Task](../../task/)
 * class [TaskBaseline](../)
-* espace de noms [Aspose.Tasks](../../taskbaseline/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

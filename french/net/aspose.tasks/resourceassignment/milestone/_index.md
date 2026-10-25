@@ -1,9 +1,9 @@
 ---
-title: ResourceAssignment.Milestone
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ResourceAssignment propriété. Obtient ou définit une valeur indiquant si Milestone est défini ou non.
+title: "ResourceAssignment.Milestone"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "ResourceAssignment property. Obtient ou définit une valeur indiquant si Milestone est défini ou non"
 type: docs
-weight: 370
+weight: 360
 url: /fr/net/aspose.tasks/resourceassignment/milestone/
 ---
 ## ResourceAssignment.Milestone property
@@ -14,10 +14,10 @@ Obtient ou définit une valeur indiquant si Milestone est défini ou non.
 public bool Milestone { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [ResourceAssignment](../)
-* espace de noms [Aspose.Tasks](../../resourceassignment/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

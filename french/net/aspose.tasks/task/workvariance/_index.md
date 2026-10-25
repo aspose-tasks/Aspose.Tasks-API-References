@@ -1,7 +1,7 @@
 ---
-title: Task.WorkVariance
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur de WorkVariance.
+title: "Task.WorkVariance"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur de WorkVariance"
 type: docs
 weight: 1300
 url: /fr/net/aspose.tasks/task/workvariance/
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de WorkVariance.
 public Duration WorkVariance { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,26 +1,41 @@
 ---
-title: Tsk.ActualWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. La quantité de travail qui a déjà été effectuée par les ressources affectées aux tâches.
+title: "Tsk.ActualWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. La quantité de travail déjà effectuée par les ressources assignées aux tâches"
 type: docs
 weight: 90
 url: /fr/net/aspose.tasks/tsk/actualwork/
 ---
 ## Tsk.ActualWork field
 
-La quantité de travail qui a déjà été effectuée par les ressources affectées aux tâches.
+Le montant de travail déjà effectué par les ressources affectées aux tâches.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualWork;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.ActualWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ActualWork, project.GetWork(1));
+
+Console.WriteLine("Actual Work: " + task.Get(Tsk.ActualWork));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

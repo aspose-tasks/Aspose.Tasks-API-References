@@ -1,25 +1,47 @@
 ---
-title: Prj.CurrencyDigits
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Prj champ. Le nombre de chiffres après un symbole décimal.
+title: "Prj.CurrencyDigits"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Prj. Le nombre de chiffres après le symbole décimal"
 type: docs
-weight: 150
+weight: 160
 url: /fr/net/aspose.tasks/prj/currencydigits/
 ---
 ## Prj.CurrencyDigits field
 
-Le nombre de chiffres après un symbole décimal.
+Le nombre de chiffres après le séparateur décimal.
 
 ```csharp
 public static readonly Key<int, PrjKey> CurrencyDigits;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment écrire les propriétés monétaires du projet.
+
+```csharp
+var project = new Project(DataDir + "WriteCurrencyProperties.mpp");
+
+// Définir les propriétés monétaires
+project.Set(Prj.CurrencyCode, "AUD");
+project.Set(Prj.CurrencyDigits, 2);
+project.Set(Prj.CurrencySymbol, "$");
+project.Set(Prj.CurrencySymbolPosition, CurrencySymbolPositionType.After);
+
+// Afficher les propriétés monétaires
+Console.WriteLine("Currency Code: " + project.Get(Prj.CurrencyCode));
+Console.WriteLine("Currency Digits: " + project.Get(Prj.CurrencyDigits));
+Console.WriteLine("Currency Symbol: " + project.Get(Prj.CurrencySymbol));
+Console.WriteLine("Currency Symbol Position: " + project.Get(Prj.CurrencySymbolPosition));
+
+project.Save(OutDir + "WriteCurrencyProperties_out.xml", SaveFileFormat.Xml);
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espace de noms [Aspose.Tasks](../../prj/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Tsk.ActualOvertimeCost
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Coûts encourus pour les heures supplémentaires déjà effectuées sur des tâches par les ressources affectées.
+title: "Tsk.ActualOvertimeCost"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Coûts engagés pour les heures supplémentaires déjà effectuées sur les tâches par les ressources assignées"
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/tsk/actualovertimecost/
 ---
 ## Tsk.ActualOvertimeCost field
 
-Coûts encourus pour les heures supplémentaires déjà effectuées sur des tâches par les ressources affectées.
+Coûts engagés pour le travail supplémentaire déjà effectué sur les tâches par les ressources assignées.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> ActualOvertimeCost;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.ActualOvertimeCost.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ActualOvertimeCost, 10m);
+
+Console.WriteLine("Actual Overtime Cost: " + task.Get(Tsk.ActualOvertimeCost));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

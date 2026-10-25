@@ -1,23 +1,43 @@
 ---
-title: PageMargins.Right
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PageMargins propriété. Obtient ou définit la taille de la marge de droite en pouces ou en centimètres.
+title: "PageMargins.Right"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété PageMargins. Obtient ou définit la taille de la marge droite en centimètres"
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks.visualization/pagemargins/right/
 ---
 ## PageMargins.Right property
 
-Obtient ou définit la taille de la marge de droite en pouces ou en centimètres.
+Obtient ou définit la taille de la marge droite en centimètres.
 
 ```csharp
 public double Right { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les marges de page.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// modifions la vue par défaut
+var margins = project.DefaultView.PageInfo.Margins;
+
+// modifions les marges
+margins.Left = 10d;
+margins.Top = 10d;
+margins.Right = 10d;
+margins.Bottom = 10d;
+margins.Borders = Border.OutsidePages;
+
+project.Save(OutDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Voir aussi
 
 * class [PageMargins](../)
-* espace de noms [Aspose.Tasks.Visualization](../../pagemargins/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagemargins/)
+* assembly [Aspose.Tasks](../../../)
 
 

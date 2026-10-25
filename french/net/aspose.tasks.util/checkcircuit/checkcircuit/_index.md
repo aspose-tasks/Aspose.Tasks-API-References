@@ -1,23 +1,42 @@
 ---
-title: CheckCircuit.CheckCircuit
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: CheckCircuit constructeur. Initialise une nouvelle instance duCheckCircuit classe.
+title: "CheckCircuit.CheckCircuit"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Constructeur de CheckCircuit. Initialise une nouvelle instance de la classe CheckCircuit"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.util/checkcircuit/checkcircuit/
 ---
 ## CheckCircuit constructor
 
-Initialise une nouvelle instance du[`CheckCircuit`](../) classe.
+Initialise une nouvelle instance de la classe [`CheckCircuit`](../).
 
 ```csharp
 public CheckCircuit()
 ```
 
-### Voir également
+## Exemples
+
+Montre comment détecter la structure du projet cassée.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// vérifier la structure du projet.
+// Le <see cref="TasksException"> sera levé si la structure du projet est incorrecte.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### Voir aussi
 
 * class [CheckCircuit](../)
-* espace de noms [Aspose.Tasks.Util](../../checkcircuit/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../checkcircuit/)
+* assembly [Aspose.Tasks](../../../)
 
 

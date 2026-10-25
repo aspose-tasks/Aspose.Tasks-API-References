@@ -1,7 +1,7 @@
 ---
-title: WBSCodeDefinition.CodeMaskCollection
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: WBSCodeDefinition propriété. Obtient la collection dobjets WBSCodeMask.
+title: "WBSCodeDefinition.CodeMaskCollection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété WBSCodeDefinition. Obtient la collection d'objets WBSCodeMask"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/wbscodedefinition/codemaskcollection/
@@ -14,11 +14,43 @@ Obtient la collection d'objets WBSCodeMask.
 public WBSCodeMaskCollection CodeMaskCollection { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment ajouter des masques de code WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+var tsk = project.RootTask.Children.Add("Task 1");
+tsk.Children.Add("Task 2");
+
+project.Recalculate();
+
+project.Save(OutDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
+
+### Voir aussi
 
 * class [WBSCodeMaskCollection](../../wbscodemaskcollection/)
 * class [WBSCodeDefinition](../)
-* espace de noms [Aspose.Tasks](../../wbscodedefinition/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../wbscodedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

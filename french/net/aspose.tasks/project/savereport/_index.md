@@ -1,91 +1,139 @@
 ---
-title: Project.SaveReport
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project méthode. Enregistre le rapport de présentation du projet dans le flux.
+title: "Project.SaveReport"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Project. Enregistre le rapport d'aperçu du projet dans le flux."
 type: docs
-weight: 1200
+weight: 1220
 url: /fr/net/aspose.tasks/project/savereport/
 ---
 ## SaveReport(Stream) {#savereport}
 
-Enregistre le rapport de présentation du projet dans le flux.
+Enregistre le rapport d’aperçu du projet dans le flux.
 
 ```csharp
 public void SaveReport(Stream stream)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Flux dans lequel enregistrer le rapport de projet. |
+| flux | Flux | Le flux où enregistrer le rapport du projet. |
 
-### Voir également
+## Exemples
+
+Montre comment enregistrer le rapport d'aperçu du projet au format PDF.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// Enregistrez le rapport d'aperçu au format PDF dans le flux spécifié.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream);
+}
+```
+
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string) {#savereport_2}
 
-Enregistre le rapport de synthèse du projet dans un fichier PDF.
+Enregistre le rapport d’aperçu du projet dans un fichier PDF.
 
 ```csharp
 public void SaveReport(string fileName)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| fileName | String | Le nom du fichier. |
+| fileName | Chaîne | Le nom du fichier. |
 
-### Voir également
+## Exemples
+
+Montre comment enregistrer le rapport d'aperçu du projet au format PDF dans un flux.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// On peut enregistrer le rapport d'aperçu au format PDF dans le chemin spécifié
+project.SaveReport(OutDir + "SaveProjectOverviewReport_out.pdf");
+```
+
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(Stream, ReportType) {#savereport_1}
 
-Enregistre le rapport de projet du type spécifié dans le flux spécifié.
+Enregistre le rapport du projet du type spécifié dans le flux spécifié.
 
 ```csharp
 public void SaveReport(Stream stream, ReportType reportType)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | le flux spécifié dans lequel enregistrer le rapport de projet. |
-| reportType | ReportType | le type de rapport spécifié.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
+| flux | Flux | Le flux spécifié où enregistrer le rapport du projet. |
+| reportType | ReportType | Le type de rapport spécifié.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### Voir également
+## Exemples
+
+Montre comment enregistrer le rapport du projet au format PDF pour un type de rapport spécifique.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// Enregistrez le rapport d'aperçu au format PDF dans le flux spécifié.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### Voir aussi
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string, ReportType) {#savereport_3}
 
-Enregistre le rapport de projet du type spécifié au format PDF dans le chemin de fichier spécifié.
+Enregistre le rapport du projet du type spécifié au format PDF dans le chemin de fichier spécifié.
 
 ```csharp
 public void SaveReport(string fileName, ReportType reportType)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| fileName | String | le nom de fichier spécifié. |
-| reportType | ReportType | le type de rapport spécifié.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
+| fileName | Chaîne | le nom de fichier spécifié. |
+| reportType | ReportType | Le type de rapport spécifié.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### Voir également
+## Exemples
+
+Montre comment enregistrer le rapport du projet projet au format PDF.
+
+```csharp
+var project = new Project(DataDir + "OzBuild 16 Orig.mpp");
+project.SaveReport(OutDir + "CostOverview_out.pdf", ReportType.CostOverview);
+```
+
+### Voir aussi
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Duration.ToString
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Duration méthode. Renvoie une représentation sous forme de chaîne de cette instance.
+title: "Duration.ToString"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Duration. Renvoie une représentation sous forme de chaîne de cette instance"
 type: docs
 weight: 120
 url: /fr/net/aspose.tasks/duration/tostring/
@@ -14,14 +14,27 @@ Renvoie une représentation sous forme de chaîne de cette instance.
 public override string ToString()
 ```
 
-### Return_Value
+### Valeur de retour
 
 une représentation sous forme de chaîne de cette instance.
 
-### Voir également
+## Exemples
+
+Montre comment convertir une durée en chaîne.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// obtenir la durée de la tâche
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("The duration as a string: " + duration.ToString());
+```
+
+### Voir aussi
 
 * struct [Duration](../)
-* espace de noms [Aspose.Tasks](../../duration/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

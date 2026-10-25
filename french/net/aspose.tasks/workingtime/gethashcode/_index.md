@@ -1,27 +1,27 @@
 ---
-title: WorkingTime.GetHashCode
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: WorkingTime méthode. Renvoie une valeur de code de hachage pour linstance duWorkingTime classe.
+title: "WorkingTime.GetHashCode"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode WorkingTime. Retourne une valeur de code de hachage pour l'instance de la classe WorkingTime"
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/workingtime/gethashcode/
 ---
 ## WorkingTime.GetHashCode method
 
-Renvoie une valeur de code de hachage pour l'instance du[`WorkingTime`](../) classe.
+Retourne une valeur de code de hachage pour l'instance de la classe [`WorkingTime`](../).
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Return_Value
+### Valeur de retour
 
-renvoie une valeur de code de hachage pour cet objet.
+retourne une valeur de code de hachage pour cet objet.
 
-### Voir également
+### Voir aussi
 
 * class [WorkingTime](../)
-* espace de noms [Aspose.Tasks](../../workingtime/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtime/)
+* assembly [Aspose.Tasks](../../../)
 
 

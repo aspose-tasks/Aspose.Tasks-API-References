@@ -1,7 +1,7 @@
 ---
-title: TaskCollection.Contains
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskCollection méthode. Vérifie si la collection contient lélément spécifié.
+title: "TaskCollection.Contains"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode TaskCollection. Vérifie si la collection contient l'élément spécifié"
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/taskcollection/contains/
@@ -14,19 +14,19 @@ Vérifie si la collection contient l'élément spécifié.
 public bool Contains(Task item)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| item | Task | L'élément à vérifier. |
+| élément | Tâche | L'élément à vérifier. |
 
-### Return_Value
+### Valeur de retour
 
 true, si la collection contient un élément, false sinon.
 
-### Voir également
+### Voir aussi
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* espace de noms [Aspose.Tasks](../../taskcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

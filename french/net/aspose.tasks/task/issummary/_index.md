@@ -1,7 +1,7 @@
 ---
-title: Task.IsSummary
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur indiquant si IsSummary est défini ou non.
+title: "Task.IsSummary"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur indiquant si IsSummary est défini ou non"
 type: docs
 weight: 760
 url: /fr/net/aspose.tasks/task/issummary/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur indiquant si IsSummary est défini ou non.
 public bool IsSummary { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

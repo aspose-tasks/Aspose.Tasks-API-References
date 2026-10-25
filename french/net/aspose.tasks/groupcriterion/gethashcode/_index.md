@@ -1,27 +1,27 @@
 ---
-title: GroupCriterion.GetHashCode
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: GroupCriterion méthode. Sert de fonction de hachage pour un type particulier.
+title: "GroupCriterion.GetHashCode"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode GroupCriterion. Sert de fonction de hachage pour un type particulier"
 type: docs
-weight: 140
+weight: 120
 url: /fr/net/aspose.tasks/groupcriterion/gethashcode/
 ---
 ## GroupCriterion.GetHashCode method
 
-Sert de fonction de hachage pour un type particulier.
+Servit de fonction de hachage pour un type particulier.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Return_Value
+### Valeur de retour
 
-Un code de hachage pour le courantObject.
+Un code de hachage pour l'objet actuel Object.
 
-### Voir également
+### Voir aussi
 
 * class [GroupCriterion](../)
-* espace de noms [Aspose.Tasks](../../groupcriterion/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

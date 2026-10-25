@@ -1,23 +1,50 @@
 ---
-title: Gridlines.Interval
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Gridlines propriété. Obtient ou définit le nombre de 0 à 99 qui spécifie lintervalle entre les quadrillages.
+title: "Gridlines.Interval"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Gridlines. Obtient ou définit le nombre de 0 à 99 qui spécifie l'intervalle entre les lignes de grille"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks.visualization/gridlines/interval/
 ---
 ## Gridlines.Interval property
 
-Obtient ou définit le nombre de 0 à 99 qui spécifie l'intervalle entre les quadrillages.
+Obtient ou définit le nombre de 0 à 99 qui spécifie l'intervalle entre les lignes de grille.
 
 ```csharp
 public int Interval { get; set; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec les quadrillages.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// Permet d'ajuster le premier quadrillage de la vue
+var gridlines = view.Gridlines[0];
+// définit le nombre de 0 à 99 qui spécifie l'intervalle entre les quadrillages.
+gridlines.Interval = 2;
+// définit la couleur des quadrillages secondaires.
+gridlines.IntervalColor = Color.Red;
+// définit le motif de ligne pour les quadrillages secondaires
+gridlines.IntervalPattern = LinePattern.Solid;
+// définit la couleur des quadrillages normaux
+gridlines.NormalColor = Color.Blue;
+// définit le motif de ligne pour les quadrillages normaux
+gridlines.NormalPattern = LinePattern.CloseDot;
+// définit le type de quadrillage
+gridlines.Type = GridlineType.GanttRow;
+
+project.Save(OutDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Voir aussi
 
 * class [Gridlines](../)
-* espace de noms [Aspose.Tasks.Visualization](../../gridlines/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridlines/)
+* assembly [Aspose.Tasks](../../../)
 
 

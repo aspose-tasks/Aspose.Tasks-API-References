@@ -1,9 +1,9 @@
 ---
-title: Enum PrjKey
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Aspose.Tasks.PrjKey énumération. Représente une liste des champs de projet pris en charge.
+title: "Enum PrjKey"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.PrjKey enum. Représente une liste de champs de projet pris en charge"
 type: docs
-weight: 1180
+weight: 1420
 url: /fr/net/aspose.tasks/prjkey/
 ---
 ## PrjKey enumeration
@@ -11,36 +11,36 @@ url: /fr/net/aspose.tasks/prjkey/
 Représente une liste des champs de projet pris en charge.
 
 ```csharp
-public enum PrjKey
+public enum PrjKey : byte
 ```
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| ShowProjectSummaryTask | `0` | Représente le champ ShowProjectSummaryTask (Projet). |
+| ShowProjectSummaryTask | `0` | Représente le champ ShowProjectSummaryTask (Project). |
 | SaveVersion | `1` | Représente le champ SaveVersion (Project). |
-| Uid | `2` | Représente le champ Uid (Projet). |
-| Title | `3` | Représente le champ Titre (Projet). |
-| Subject | `4` | Représente le champ Objet (Projet). |
-| Category | `5` | Représente le champ Catégorie (Projet). |
-| Company | `6` | Représente le champ Société (Projet). |
-| Manager | `7` | Représente le champ Responsable (Projet). |
-| Author | `8` | Représente le champ Auteur (Projet). |
-| CreationDate | `9` | Représente le champ Date de création (projet). |
-| Revision | `10` | Représente le champ Révision (Projet). |
+| Uid | `2` | Représente le champ Uid (Project). |
+| Title | `3` | Représente le champ Title (Project). |
+| Subject | `4` | Représente le champ Subject (Project). |
+| Category | `5` | Représente le champ Category (Project). |
+| Company | `6` | Représente le champ Company (Project). |
+| Manager | `7` | Représente le champ Manager (Project). |
+| Author | `8` | Représente le champ Author (Project). |
+| CreationDate | `9` | Représente le champ CreationDate (Project). |
+| Revision | `10` | Représente le champ Revision (Project). |
 | LastSaved | `11` | Représente le champ LastSaved (Project). |
 | ScheduleFromStart | `12` | Représente le champ ScheduleFromStart (Project). |
-| StartDate | `13` | Représente le champ Date de début (projet). |
-| FinishDate | `14` | Représente le champ Date de fin (projet). |
-| FyStartDate | `15` | Représente le Champ (Projet). |
-| CriticalSlackLimit | `16` | Représente le champ CriticalSlackLimit (Projet). |
+| StartDate | `13` | Représente le champ StartDate (Project). |
+| FinishDate | `14` | Représente le champ FinishDate (Project). |
+| FyStartDate | `15` | Représente le |
+| CriticalSlackLimit | `16` | Représente le champ CriticalSlackLimit (Project). |
 | CurrencyDigits | `17` | Représente le champ CurrencyDigits (Project). |
-| CurrencySymbol | `18` | Représente le champ CurrencySymbol (Projet). |
-| CurrencyCode | `19` | Représente le champ CurrencyCode (Projet). |
-| CurrencySymbolPosition | `20` | Représente le champ CurrencySymbolPosition (Projet). |
-| Calendar | `21` | Représente le champ Calendrier (Projet). |
-| DateFormat | `22` | Représente le champ DateFormat (Projet). |
+| CurrencySymbol | `18` | Représente le champ CurrencySymbol (Project). |
+| CurrencyCode | `19` | Représente le champ CurrencyCode (Project). |
+| CurrencySymbolPosition | `20` | Représente le champ CurrencySymbolPosition (Project). |
+| Calendar | `21` | Représente le champ Calendar (Project). |
+| DateFormat | `22` | Représente le champ DateFormat (Project). |
 | DefaultStartTime | `23` | Représente le champ DefaultStartTime (Project). |
 | DefaultFinishTime | `24` | Représente le champ DefaultFinishTime (Project). |
 | MinutesPerDay | `25` | Représente le champ MinutesPerDay (Project). |
@@ -50,12 +50,12 @@ public enum PrjKey
 | DefaultFixedCostAccrual | `29` | Représente le champ DefaultFixedCostAccrual (Project). |
 | DefaultStandardRate | `30` | Représente le champ DefaultStandardRate (Project). |
 | DefaultOvertimeRate | `31` | Représente le champ DefaultOvertimeRate (Project). |
-| DurationFormat | `32` | Représente le champ DurationFormat (Projet). |
-| WorkFormat | `33` | Représente le champ WorkFormat (Projet). |
+| DurationFormat | `32` | Représente le champ DurationFormat (Project). |
+| WorkFormat | `33` | Représente le champ WorkFormat (Project). |
 | AreEditableActualCosts | `34` | Représente le champ AreEditableActualCosts (Project). |
 | HonorConstraints | `35` | Représente le champ HonorConstraints (Project). |
 | EarnedValueMethod | `36` | Représente le champ EarnedValueMethod (Project). |
-| InsertedProjectsLikeSummary | `37` | Représente le champ InsertedProjectsLikeSummary (Projet). |
+| InsertedProjectsLikeSummary | `37` | Représente le champ InsertedProjectsLikeSummary (Project). |
 | MultipleCriticalPaths | `38` | Représente le champ MultipleCriticalPaths (Project). |
 | NewTasksEffortDriven | `39` | Représente le champ NewTasksEffortDriven (Project). |
 | NewTasksEstimated | `40` | Représente le champ NewTasksEstimated (Project). |
@@ -65,44 +65,56 @@ public enum PrjKey
 | TaskUpdatesResource | `44` | Représente le champ TaskUpdatesResource (Project). |
 | FiscalYearStart | `45` | Représente le champ FiscalYearStart (Project). |
 | WeekStartDay | `46` | Représente le champ WeekStartDay (Project). |
-| MoveCompletedEndsBack | `47` | Représente le champ MoveCompletedEndsBack (Projet). |
-| MoveRemainingStartsBack | `48` | Représente le champ MoveRemainingStartsBack (Projet). |
-| MoveRemainingStartsForward | `49` | Représente le champ MoveRemainingStartsForward (Projet). |
-| MoveCompletedEndsForward | `50` | Représente le champ MoveCompletedEndsForward (Projet). |
+| MoveCompletedEndsBack | `47` | Représente le champ MoveCompletedEndsBack (Project). |
+| MoveRemainingStartsBack | `48` | Représente le champ MoveRemainingStartsBack (Project). |
+| MoveRemainingStartsForward | `49` | Représente le champ MoveRemainingStartsForward (Project). |
+| MoveCompletedEndsForward | `50` | Représente le champ MoveCompletedEndsForward (Project). |
 | BaselineForEarnedValue | `51` | Représente le champ BaselineForEarnedValue (Project). |
 | AutoAddNewResourcesAndTasks | `52` | Représente le champ AutoAddNewResourcesAndTasks (Project). |
-| StatusDate | `53` | Représente le champ StatusDate (Projet). |
-| CurrentDate | `54` | Représente le champ CurrentDate (Projet). |
+| StatusDate | `53` | Représente le champ StatusDate (Project). |
+| CurrentDate | `54` | Représente le champ CurrentDate (Project). |
 | MicrosoftProjectServerURL | `55` | Représente le champ MicrosoftProjectServerURL (Project). |
 | Autolink | `56` | Représente le champ Autolink (Project). |
 | NewTaskStartDate | `57` | Représente le champ NewTaskStartDate (Project). |
-| DefaultTaskEVMethod | `58` | Représente le champ DefaultTaskEVMethod (Projet). |
-| ExtendedCreationDate | `59` | Représente le champ ExtendedCreationDate (Projet). |
-| ActualsInSync | `60` | Représente le champ ActualsInSync (Projet). |
+| DefaultTaskEVMethod | `58` | Représente le champ DefaultTaskEVMethod (Project). |
+| ExtendedCreationDate | `59` | Représente le champ ExtendedCreationDate (Project). |
+| ActualsInSync | `60` | Représente le champ ActualsInSync (Project). |
 | ProjectExternallyEdited | `61` | Représente le champ ProjectExternallyEdited (Project). |
-| RemoveFileProperties | `62` | Représente le champ RemoveFileProperties (Projet). |
-| AdminProject | `63` | Représente le champ AdminProject (Projet). |
-| Name | `64` | Représente le champ Nom (Projet). |
+| RemoveFileProperties | `62` | Représente le champ RemoveFileProperties (Project). |
+| AdminProject | `63` | Représente le champ AdminProject (Project). |
+| Name | `64` | Représente le champ Name (Project). |
 | TimescaleStart | `65` | Représente le champ TimescaleStart (Project). |
 | TimescaleFinish | `66` | Représente le champ TimescaleFinish (Project). |
-| Comments | `67` | Représente le champ Commentaires (Projet). |
-| Keywords | `68` | Représente le champ Mots clés (Projet). |
-| Template | `69` | Représente le champ Modèle (Projet). |
+| Comments | `67` | Représente le champ Comments (Project). |
+| Keywords | `68` | Représente le champ Keywords (Project). |
+| Template | `69` | Représente le champ Template (Project). |
 | LastAuthor | `70` | Représente le champ LastAuthor (Project). |
 | LastPrinted | `71` | Représente le champ LastPrinted (Project). |
-| HyperlinkBase | `72` | Représente le champ HyperlinkBase (Projet). |
+| HyperlinkBase | `72` | Représente le champ HyperlinkBase (Project). |
 | NewTasksAreManual | `73` | Représente le champ NewTasksAreManual (Project). |
 | UpdateManuallyScheduledTasksWhenEditingLinks | `74` | Représente le champ UpdateManuallyScheduledTasksWhenEditingLinks (Project). |
-| KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled | `75` | Représente le champ KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled (Projet). |
-| DefaultCalendarGuid | `76` | Guid du calendrier par défaut. |
-| DefaultCalendarUid | `77` | uid du calendrier par défaut. |
+| KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled | `75` | Représente le champ KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled (Project). |
+| DefaultCalendarGuid | `76` | GUID du calendrier par défaut. |
+| DefaultCalendarUid | `77` | UID du calendrier par défaut. |
 | Guid | `78` | Représente le GUID d'un projet. |
-| CustomDateFormat | `79` | Représente le format de date défini par l'utilisateur. |
-| TemplateFullPath | `80` | Représente le nom complet du fichier de modèle (projet). |
+| AutoCalculateAssignmentCosts | `79` | Détermine si le coût d'affectation et le coût restant doivent être calculés automatiquement en utilisant le travail de l'affectation et les taux des ressources. |
+| CustomDateFormat | `80` | Représente le format de date défini par l'utilisateur. |
+| TemplateFullPath | `81` | Représente le nom complet du fichier du modèle (Projet). |
 
-### Voir également
+## Exemples
 
-* espace de noms [Aspose.Tasks](../../aspose.tasks/)
-* Assemblée [Aspose.Tasks](../../)
+Montre comment définir les attributs pour les nouvelles tâches.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+
+Console.WriteLine("New Task Start Date: " + project.Get(Prj.NewTaskStartDate));
+```
+
+### Voir aussi
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

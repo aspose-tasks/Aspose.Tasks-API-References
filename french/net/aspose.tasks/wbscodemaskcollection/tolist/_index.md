@@ -1,28 +1,125 @@
 ---
-title: WBSCodeMaskCollection.ToList
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: WBSCodeMaskCollection méthode. Convertit une WBSCodeMaskCollection en une liste deWBSCodeMask objets.
+title: "WBSCodeMaskCollection.ToList"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode WBSCodeMaskCollection. Convertit une WBSCodeMaskCollection en une liste d'objets WBSCodeMask"
 type: docs
 weight: 90
 url: /fr/net/aspose.tasks/wbscodemaskcollection/tolist/
 ---
 ## WBSCodeMaskCollection.ToList method
 
-Convertit une WBSCodeMaskCollection en une liste de[`WBSCodeMask`](../../wbscodemask/) objets.
+Convertit une WBSCodeMaskCollection en une liste d'objets [`WBSCodeMask`](../../wbscodemask/).
 
 ```csharp
 public List<WBSCodeMask> ToList()
 ```
 
-### Return_Value
+### Valeur de retour
 
-Liste générique de[`WBSCodeMask`](../../wbscodemask/) objets.
+Liste générique d'objets [`WBSCodeMask`](../../wbscodemask/).
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec la collection de masques de code WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+project.WBSCodeDefinition.CodeMaskCollection.Clear();
+
+var mask1 = new WBSCodeMask();
+mask1.Length = 2;
+mask1.Separator = "-";
+mask1.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask1);
+
+var mask2 = new WBSCodeMask();
+mask2.Length = 1;
+mask2.Separator = "-";
+mask2.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask2);
+
+Console.WriteLine("WBS Code mask's count: " + project.WBSCodeDefinition.CodeMaskCollection.Count);
+Console.WriteLine("Is WBS Code mask collection read-only?: " + project.WBSCodeDefinition.CodeMaskCollection.IsReadOnly);
+Console.WriteLine("Masks: ");
+Console.WriteLine();
+foreach (var wbsMask in project.WBSCodeDefinition.CodeMaskCollection)
+{
+    Console.WriteLine("Length: " + wbsMask.Length);
+    Console.WriteLine("Level: " + wbsMask.Level);
+    Console.WriteLine("Separator: " + wbsMask.Separator);
+    Console.WriteLine("Sequence: " + wbsMask.Sequence);
+    Console.WriteLine();
+}
+
+var task1 = project.RootTask.Children.Add("Task 1");
+task1.Children.Add("Task 2");
+
+project.Recalculate();
+
+IEnumerable<Task> childTasks = project.RootTask.SelectAllChildTasks();
+foreach (var childTask in childTasks)
+{
+    Console.WriteLine("Task name: " + childTask.Get(Tsk.Name));
+    Console.WriteLine("Task WBS code: " + childTask.Get(Tsk.WBS));
+}
+
+project.WBSCodeDefinition.CodeMaskCollection.Remove(mask2);
+
+if (project.WBSCodeDefinition.CodeMaskCollection.Contains(mask2))
+{
+    throw new InvalidOperationException("WBS code mask wasn't removed.");
+}
+
+var otherProject = new Project();
+otherProject.WBSCodeDefinition = new WBSCodeDefinition();
+otherProject.WBSCodeDefinition.GenerateWBSCode = true;
+otherProject.WBSCodeDefinition.VerifyUniqueness = true;
+otherProject.WBSCodeDefinition.CodePrefix = "CRS-";
+
+// copier les masques de code vers un autre projet
+var masks = new WBSCodeMask[project.WBSCodeDefinition.CodeMaskCollection.Count];
+project.WBSCodeDefinition.CodeMaskCollection.CopyTo(masks, 0);
+
+foreach (var mask in masks)
+{
+    otherProject.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+}
+
+List<WBSCodeMask> wbsMasks = otherProject.WBSCodeDefinition.CodeMaskCollection.ToList();
+foreach (var wbsMask in wbsMasks)
+{
+    Console.WriteLine("Length: " + wbsMask.Length);
+    Console.WriteLine("Level: " + wbsMask.Level);
+    Console.WriteLine("Separator: " + wbsMask.Separator);
+    Console.WriteLine("Sequence: " + wbsMask.Sequence);
+    Console.WriteLine();
+}
+
+var otherTask1 = project.RootTask.Children.Add("Other task 1");
+otherTask1.Children.Add("Other task 2");
+
+otherProject.Recalculate();
+
+Console.WriteLine("Print WBS codes of the other project: ");
+IEnumerable<Task> otherChildTasks = otherProject.RootTask.SelectAllChildTasks();
+foreach (var childTask in otherChildTasks)
+{
+    Console.WriteLine("Task name: " + childTask.Get(Tsk.Name));
+    Console.WriteLine("Task WBS code: " + childTask.Get(Tsk.WBS));
+}
+```
+
+### Voir aussi
 
 * class [WBSCodeMask](../../wbscodemask/)
 * class [WBSCodeMaskCollection](../)
-* espace de noms [Aspose.Tasks](../../wbscodemaskcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../wbscodemaskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

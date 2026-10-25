@@ -1,7 +1,7 @@
 ---
-title: ProjectServerCredentials.ToString
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: ProjectServerCredentials méthode. Renvoie une représentation sous forme de chaîne de cette instance.
+title: "ProjectServerCredentials.ToString"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "ProjectServerCredentials méthode. Retourne une représentation sous forme de chaîne de cette instance"
 type: docs
 weight: 50
 url: /fr/net/aspose.tasks/projectservercredentials/tostring/
@@ -14,14 +14,14 @@ Renvoie une représentation sous forme de chaîne de cette instance.
 public override string ToString()
 ```
 
-### Return_Value
+### Valeur de retour
 
 une représentation sous forme de chaîne de cette instance.
 
-### Voir également
+### Voir aussi
 
 * class [ProjectServerCredentials](../)
-* espace de noms [Aspose.Tasks](../../projectservercredentials/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 

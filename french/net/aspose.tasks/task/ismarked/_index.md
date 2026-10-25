@@ -1,7 +1,7 @@
 ---
-title: Task.IsMarked
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task propriété. Obtient ou définit une valeur indiquant si IsMarked est défini ou non.
+title: "Task.IsMarked"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Task. Obtient ou définit une valeur indiquant si IsMarked est activé ou non"
 type: docs
 weight: 660
 url: /fr/net/aspose.tasks/task/ismarked/
@@ -14,10 +14,10 @@ Obtient ou définit une valeur indiquant si IsMarked est défini ou non.
 public bool IsMarked { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

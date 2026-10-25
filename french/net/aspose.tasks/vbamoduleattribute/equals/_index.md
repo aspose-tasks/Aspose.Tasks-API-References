@@ -1,55 +1,85 @@
 ---
-title: VbaModuleAttribute.Equals
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VbaModuleAttribute méthode. Renvoie une valeur indiquant si cette instance est égale à la valeur spécifiéeVbaModuleAttribute objet.
+title: "VbaModuleAttribute.Equals"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode VbaModuleAttribute. Retourne une valeur indiquant si cette instance est égale à l'objet VbaModuleAttribute spécifié"
 type: docs
 weight: 30
 url: /fr/net/aspose.tasks/vbamoduleattribute/equals/
 ---
 ## Equals(VbaModuleAttribute) {#equals}
 
-Renvoie une valeur indiquant si cette instance est égale à la valeur spécifiée[`VbaModuleAttribute`](../) objet.
+Retourne une valeur indiquant si cette instance est égale à l'objet [`VbaModuleAttribute`](../) spécifié.
 
 ```csharp
 public bool Equals(VbaModuleAttribute other)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| other | VbaModuleAttribute | Le spécifié[`VbaModuleAttribute`](../) objet à comparer avec cette instance. |
+| other | VbaModuleAttribute | L'objet [`VbaModuleAttribute`](../) spécifié à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie vrai si cette instance est égale à la valeur spécifiée[`VbaModuleAttribute`](../) objet; sinon, faux.
+Retourne true si cette instance est égale à l'objet [`VbaModuleAttribute`](../) spécifié ; sinon, false.
 
-### Voir également
+## Exemples
+
+Montre comment vérifier l'égalité des attributs de module VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+var module = project.VbaProject.Modules.ToList()[0];
+
+var attribute1 = module.Attributes.ToList()[0];
+var attribute2 = module.Attributes.ToList()[0];
+Console.WriteLine("Module attribute 1 Key: {0}, Value: {1}", attribute1.Key, attribute1.Value);
+Console.WriteLine("Module attribute 2 Key: {0}, Value: {1}", attribute2.Key, attribute2.Value);
+Console.WriteLine("Are module attributes equal: " + attribute1.Equals(attribute2));
+```
+
+### Voir aussi
 
 * class [VbaModuleAttribute](../)
-* espace de noms [Aspose.Tasks](../../vbamoduleattribute/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-Renvoie une valeur indiquant si cette instance est égale à la valeur spécifiée[`VbaModuleAttribute`](../) objet.
+Retourne une valeur indiquant si cette instance est égale à l'objet [`VbaModuleAttribute`](../) spécifié.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | Le spécifié[`VbaModuleAttribute`](../) objet à comparer avec cette instance. |
+| obj | Object | L'objet [`VbaModuleAttribute`](../) spécifié à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie vrai si cette instance est égale à la valeur spécifiée[`VbaModuleAttribute`](../) objet; sinon, faux.
+Retourne true si cette instance est égale à l'objet [`VbaModuleAttribute`](../) spécifié ; sinon, false.
 
-### Voir également
+## Exemples
+
+Montre comment vérifier l'égalité des attributs de module VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+var module = project.VbaProject.Modules.ToList()[0];
+
+var attribute1 = module.Attributes.ToList()[0];
+var attribute2 = module.Attributes.ToList()[0];
+Console.WriteLine("Module attribute 1 Key: {0}, Value: {1}", attribute1.Key, attribute1.Value);
+Console.WriteLine("Module attribute 2 Key: {0}, Value: {1}", attribute2.Key, attribute2.Value);
+Console.WriteLine("Are module attributes equal: " + attribute1.Equals(attribute2));
+```
+
+### Voir aussi
 
 * class [VbaModuleAttribute](../)
-* espace de noms [Aspose.Tasks](../../vbamoduleattribute/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

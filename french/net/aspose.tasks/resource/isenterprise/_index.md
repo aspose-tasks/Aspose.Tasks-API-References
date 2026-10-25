@@ -1,7 +1,7 @@
 ---
-title: Resource.IsEnterprise
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur indiquant si IsEnterprise est défini ou non.
+title: "Resource.IsEnterprise"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur indiquant si IsEnterprise est défini ou non"
 type: docs
 weight: 440
 url: /fr/net/aspose.tasks/resource/isenterprise/
@@ -14,11 +14,11 @@ Obtient ou définit une valeur indiquant si IsEnterprise est défini ou non.
 public NullableBool IsEnterprise { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

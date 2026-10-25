@@ -1,9 +1,9 @@
 ---
-title: Tsk.IsEstimated
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. Détermine si une tâche est estimée.
+title: "Tsk.IsEstimated"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Tsk field. Détermine si une tâche est estimée"
 type: docs
-weight: 590
+weight: 580
 url: /fr/net/aspose.tasks/tsk/isestimated/
 ---
 ## Tsk.IsEstimated field
@@ -14,13 +14,33 @@ Détermine si une tâche est estimée.
 public static readonly Key<NullableBool, TaskKey> IsEstimated;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment trouver les tâches estimées et/ou les jalons.
+
+```csharp
+var prj = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(prj.RootTask, collector, 0);
+
+// Itérer sur les tâches collectées
+foreach (var task in collector.Tasks)
+{
+    var estimated = task.Get(Tsk.IsEstimated).Value ? "Estimated" : "Non-Estimated";
+    var milestone = task.Get(Tsk.IsMilestone).Value ? "Milestone" : "Non-Milestone";
+    Console.WriteLine(task.Get(Tsk.Name) + " : " + estimated);
+    Console.WriteLine(task.Get(Tsk.Name) + " : " + milestone);
+}
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

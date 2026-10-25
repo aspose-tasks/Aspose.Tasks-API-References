@@ -1,24 +1,38 @@
 ---
-title: TaskUsageView.FieldCollection
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskUsageView propriété. ObtientTaskUsageViewFieldCollection objet de cette TaskUsageView.
+title: "TaskUsageView.FieldCollection"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété TaskUsageView. Obtient l'objet TaskUsageViewFieldCollection de ce TaskUsageView"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks/taskusageview/fieldcollection/
 ---
 ## TaskUsageView.FieldCollection property
 
-Obtient[`TaskUsageViewFieldCollection`](../../taskusageviewfieldcollection/) objet de cette TaskUsageView.
+Obtient l'objet [`TaskUsageViewFieldCollection`](../../taskusageviewfieldcollection/) de ce TaskUsageView.
 
 ```csharp
 public TaskUsageViewFieldCollection FieldCollection { get; }
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire les champs de la vue d'utilisation des tâches.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = (TaskUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+
+### Voir aussi
 
 * class [TaskUsageViewFieldCollection](../../taskusageviewfieldcollection/)
 * class [TaskUsageView](../)
-* espace de noms [Aspose.Tasks](../../taskusageview/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskusageview/)
+* assembly [Aspose.Tasks](../../../)
 
 

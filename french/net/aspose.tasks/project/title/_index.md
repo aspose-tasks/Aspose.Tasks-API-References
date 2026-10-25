@@ -1,23 +1,23 @@
 ---
-title: Project.Title
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Project propriété. Obtient ou définit une valeur de Titre.
+title: "Project.Title"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété du projet. Obtient ou définit une valeur de Title"
 type: docs
-weight: 950
+weight: 980
 url: /fr/net/aspose.tasks/project/title/
 ---
 ## Project.Title property
 
-Obtient ou définit une valeur de Titre.
+Obtient ou définit une valeur de Title.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [Project](../)
-* espace de noms [Aspose.Tasks](../../project/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

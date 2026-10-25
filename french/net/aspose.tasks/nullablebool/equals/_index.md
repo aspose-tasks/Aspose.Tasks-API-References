@@ -1,32 +1,77 @@
 ---
-title: NullableBool.Equals
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: NullableBool méthode. Renvoie un indicateur indiquant si cette instance est égale à linstance spécifiée duNullableBool classe.
+title: "NullableBool.Equals"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode NullableBool. Retourne un indicateur indiquant si cette instance est égale à l'instance spécifiée de la classe NullableBool"
 type: docs
 weight: 40
 url: /fr/net/aspose.tasks/nullablebool/equals/
 ---
 ## Equals(NullableBool) {#equals}
 
-Renvoie un indicateur indiquant si cette instance est égale à l'instance spécifiée du[`NullableBool`](../) classe.
+Retourne un indicateur indiquant si cette instance est égale à l'instance spécifiée de la classe [`NullableBool`](../).
 
 ```csharp
 public bool Equals(NullableBool other)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| other | NullableBool | l'objet spécifié à comparer à cette instance. |
+| autre | NullableBool | l'objet spécifié à comparer à cette instance. |
 
-### Return_Value
+### Valeur de retour
 
-un indicateur indiquant si cette instance est égale à l'instance spécifiée du[`NullableBool`](../) classe.
+un indicateur indiquant si cette instance est égale à l'instance spécifiée de la classe [`NullableBool`](../).
 
-### Voir également
+## Exemples
+
+Montre comment comparer les instances &lt;see cref="Aspose.Tasks.NullableBool" /&gt;.
+
+```csharp
+var bool1 = new NullableBool(true);
+var bool2 = new NullableBool(true, false);
+
+// L'égalité des booléens est vérifiée par rapport aux propriétés 'IsDefined' et 'Value'.
+Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
+Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
+
+// vérifie la conversion implicite en booléen : bool1 est True car il est défini et Value est défini sur True.
+if (bool1)
+{
+    Console.WriteLine("Nullable Bool 1 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 1 is False");
+}
+
+// vérifie la conversion implicite en booléen : bool2 est False car il n'est pas défini.
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+
+Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
+
+// vérifie la conversion implicite en booléen
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+```
+
+### Voir aussi
 
 * struct [NullableBool](../)
-* espace de noms [Aspose.Tasks](../../nullablebool/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +83,63 @@ Renvoie un indicateur indiquant si cette instance est égale à l'objet spécifi
 public override bool Equals(object obj)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | l'objet spécifié à comparer à cette instance. |
+| obj | Objet | l'objet spécifié à comparer à cette instance. |
 
-### Return_Value
+### Valeur de retour
 
 un indicateur indiquant si cette instance est égale à l'objet spécifié.
 
-### Voir également
+## Exemples
+
+Montre comment comparer les instances &lt;see cref="Aspose.Tasks.NullableBool" /&gt;.
+
+```csharp
+var bool1 = new NullableBool(true);
+var bool2 = new NullableBool(true, false);
+
+// L'égalité des booléens est vérifiée par rapport aux propriétés 'IsDefined' et 'Value'.
+Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
+Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
+
+// vérifie la conversion implicite en booléen : bool1 est True car il est défini et Value est défini sur True.
+if (bool1)
+{
+    Console.WriteLine("Nullable Bool 1 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 1 is False");
+}
+
+// vérifie la conversion implicite en booléen : bool2 est False car il n'est pas défini.
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+
+Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
+
+// vérifie la conversion implicite en booléen
+if (bool2)
+{
+    Console.WriteLine("Nullable Bool 2 is True");
+}
+else
+{
+    Console.WriteLine("Nullable Bool 2 is False");
+}
+```
+
+### Voir aussi
 
 * struct [NullableBool](../)
-* espace de noms [Aspose.Tasks](../../nullablebool/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../nullablebool/)
+* assembly [Aspose.Tasks](../../../)
 
 

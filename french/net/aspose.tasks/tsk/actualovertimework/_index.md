@@ -1,26 +1,41 @@
 ---
-title: Tsk.ActualOvertimeWork
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Tsk champ. La quantité réelle dheures supplémentaires déjà effectuées par les ressources affectées aux tâches.
+title: "Tsk.ActualOvertimeWork"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Champ Tsk. Le montant réel de travail supplémentaire déjà effectué par les ressources affectées aux tâches."
 type: docs
 weight: 60
 url: /fr/net/aspose.tasks/tsk/actualovertimework/
 ---
 ## Tsk.ActualOvertimeWork field
 
-La quantité réelle d'heures supplémentaires déjà effectuées par les ressources affectées aux tâches.
+Le montant réel du travail supplémentaire déjà effectué par les ressources affectées aux tâches.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualOvertimeWork;
 ```
 
-### Voir également
+## Exemples
+
+Montre comment lire/écrire la propriété Tsk.ActualOvertimeWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ActualOvertimeWork, project.GetWork(1));
+
+Console.WriteLine("Actual Overtime Work: " + task.Get(Tsk.ActualOvertimeWork));
+```
+
+### Voir aussi
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espace de noms [Aspose.Tasks](../../tsk/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

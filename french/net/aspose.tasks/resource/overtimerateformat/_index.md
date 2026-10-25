@@ -1,9 +1,9 @@
 ---
-title: Resource.OvertimeRateFormat
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Resource propriété. Obtient ou définit une valeur de OvertimeRateFormat.
+title: "Resource.OvertimeRateFormat"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété Resource. Obtient ou définit une valeur de OvertimeRateFormat"
 type: docs
-weight: 590
+weight: 580
 url: /fr/net/aspose.tasks/resource/overtimerateformat/
 ---
 ## Resource.OvertimeRateFormat property
@@ -14,11 +14,11 @@ Obtient ou définit une valeur de OvertimeRateFormat.
 public RateFormatType OvertimeRateFormat { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [RateFormatType](../../rateformattype/)
 * class [Resource](../)
-* espace de noms [Aspose.Tasks](../../resource/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

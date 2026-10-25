@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.Width
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: VisualObjectPlacement propriété. Obtient ou définit la largeur affichée de lobjet visuel.
+title: "VisualObjectPlacement.Width"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété VisualObjectPlacement. Obtient ou définit la largeur affichée de l'objet visuel"
 type: docs
 weight: 130
 url: /fr/net/aspose.tasks.visualization/visualobjectplacement/width/
@@ -14,10 +14,10 @@ Obtient ou définit la largeur affichée de l'objet visuel.
 public double Width { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [VisualObjectPlacement](../)
-* espace de noms [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PageSavingArgs.KeepStreamOpen
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: PageSavingArgs propriété. Obtient ou définit une valeur indiquant si la routine de rendu doit conserverStream ouvert après lécriture dune page.
+title: "PageSavingArgs.KeepStreamOpen"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Propriété PageSavingArgs. Obtient ou définit une valeur indiquant si la routine de rendu doit garder le Stream ouvert après l'écriture d'une page"
 type: docs
 weight: 10
 url: /fr/net/aspose.tasks.saving/pagesavingargs/keepstreamopen/
 ---
 ## PageSavingArgs.KeepStreamOpen property
 
-Obtient ou définit une valeur indiquant si la routine de rendu doit conserver[`Stream`](../stream/) ouvert après l'écriture d'une page.
+Obtient ou définit une valeur indiquant si la routine de rendu doit garder le [`Stream`](../stream/) ouvert après l'écriture d'une page.
 
 ```csharp
 public bool KeepStreamOpen { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * class [PageSavingArgs](../)
-* espace de noms [Aspose.Tasks.Saving](../../pagesavingargs/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

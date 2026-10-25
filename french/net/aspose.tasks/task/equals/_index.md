@@ -1,7 +1,7 @@
 ---
-title: Task.Equals
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: Task méthode. Renvoie une valeur indiquant si cette instance est égale à une tâche spécifiée.
+title: "Task.Equals"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode Task. Retourne une valeur indiquant si cette instance est égale à une tâche spécifiée"
 type: docs
 weight: 1330
 url: /fr/net/aspose.tasks/task/equals/
@@ -14,19 +14,38 @@ Renvoie une valeur indiquant si cette instance est égale à une tâche spécifi
 public bool Equals(Task other)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| other | Task | La tâche spécifiée à comparer avec cette instance. |
+| autre | Tâche | La tâche spécifiée à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
 renvoie true si la tâche spécifiée et cette instance ont des identifiants uniques égaux.
 
-### Voir également
+## Exemples
+
+Montre comment parcourir les affectations d'une tâche.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // afficher les affectations de la tâche
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +57,37 @@ Renvoie une valeur indiquant si cette instance est égale à un objet spécifié
 public override bool Equals(object obj)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | L'objet spécifié à comparer avec cette instance. |
+| obj | Objet | L'objet spécifié à comparer avec cette instance. |
 
-### Return_Value
+### Valeur de retour
 
 renvoie true si la tâche spécifiée et cette instance ont des identifiants uniques égaux.
 
-### Voir également
+## Exemples
+
+Montre comment parcourir les affectations d'une tâche.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // afficher les affectations de la tâche
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### Voir aussi
 
 * class [Task](../)
-* espace de noms [Aspose.Tasks](../../task/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

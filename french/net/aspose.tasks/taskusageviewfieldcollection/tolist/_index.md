@@ -1,28 +1,49 @@
 ---
-title: TaskUsageViewFieldCollection.ToList
-second_title: Référence de l'API Aspose.Tasks pour .NET
-description: TaskUsageViewFieldCollection méthode. Renvoie une liste contenant tous les éléments de cette collection.
+title: "TaskUsageViewFieldCollection.ToList"
+second_title: "Référence de l'API Aspose.Tasks for .NET"
+description: "Méthode TaskUsageViewFieldCollection. Retourne une liste qui contient tous les éléments de cette collection"
 type: docs
 weight: 20
 url: /fr/net/aspose.tasks/taskusageviewfieldcollection/tolist/
 ---
 ## TaskUsageViewFieldCollection.ToList method
 
-Renvoie une liste contenant tous les éléments de cette collection.
+Renvoie une liste qui contient tous les éléments de cette collection.
 
 ```csharp
 public IList<TaskUsageViewField> ToList()
 ```
 
-### Return_Value
+### Valeur de retour
 
-renvoie une liste qui contient tous les éléments de cette collection.
+retourne une liste qui contient tous les éléments de cette collection.
 
-### Voir également
+## Exemples
+
+Montre comment travailler avec la collection de champs d'une instance TaskUsageView.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = (TaskUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// On peut transformer la collection en une liste de TaskUsageViewField.
+IList<TaskUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### Voir aussi
 
 * enum [TaskUsageViewField](../../taskusageviewfield/)
 * class [TaskUsageViewFieldCollection](../)
-* espace de noms [Aspose.Tasks](../../taskusageviewfieldcollection/)
-* Assemblée [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskusageviewfieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 
