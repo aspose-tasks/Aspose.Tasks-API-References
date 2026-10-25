@@ -1,17 +1,29 @@
 ---
-title: Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si las tareas manuales deben mantenerse en el horario de trabajo más cercano cuando se realizan según la programación automática.
+title: "Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si las tareas manuales deben mantenerse en el horario laboral más cercano cuando se convierten en programadas automáticamente."
 type: docs
-weight: 390
+weight: 400
 url: /es/net/aspose.tasks/prj/keeptaskonnearestworkingtimewhenmadeautoscheduled/
 ---
 ## Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled field
 
-Determina si las tareas manuales deben mantenerse en el horario de trabajo más cercano cuando se realizan según la programación automática.
+Determina si las tareas manuales deben mantenerse en el horario laboral más cercano cuando se convierten en programadas automáticamente.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled, true);
+
+Console.WriteLine("Keep Task On Nearest Working Time When Made Auto Scheduled: " + project.Get(Prj.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> KeepTaskOnNearestWorkingTimeWhe
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Resource.ActualWork
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de ActualWork.
+title: "Resource.ActualWork"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor de ActualWork"
 type: docs
 weight: 70
 url: /es/net/aspose.tasks/resource/actualwork/
@@ -18,7 +18,7 @@ public Duration ActualWork { get; set; }
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

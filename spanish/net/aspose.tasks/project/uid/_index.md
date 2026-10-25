@@ -1,9 +1,9 @@
 ---
-title: Project.Uid
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de Uid.
+title: "Project.Uid"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Project. Obtiene o establece un valor de Uid."
 type: docs
-weight: 960
+weight: 990
 url: /es/net/aspose.tasks/project/uid/
 ---
 ## Project.Uid property
@@ -17,7 +17,7 @@ public string Uid { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

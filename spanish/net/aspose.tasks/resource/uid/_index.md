@@ -1,9 +1,9 @@
 ---
-title: Resource.Uid
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de Uid.
+title: "Resource.Uid"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Resource. Obtiene o establece un valor de Uid"
 type: docs
-weight: 770
+weight: 760
 url: /es/net/aspose.tasks/resource/uid/
 ---
 ## Resource.Uid property
@@ -17,7 +17,7 @@ public int Uid { get; set; }
 ### Ver también
 
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

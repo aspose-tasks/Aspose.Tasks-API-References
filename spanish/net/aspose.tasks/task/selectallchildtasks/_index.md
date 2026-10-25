@@ -1,27 +1,42 @@
 ---
-title: Task.SelectAllChildTasks
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task método. Recopila recursivamente todas las tareas secundarias de esta tarea.
+title: "Task.SelectAllChildTasks"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método Task. Recopila recursivamente todas las subtareas de esta tarea"
 type: docs
 weight: 1400
 url: /es/net/aspose.tasks/task/selectallchildtasks/
 ---
 ## Task.SelectAllChildTasks method
 
-Recopila recursivamente todas las tareas secundarias de esta tarea.
+Recopila recursivamente todas las tareas hijas de esta tarea.
 
 ```csharp
 public IEnumerable<Task> SelectAllChildTasks()
 ```
 
-### Valor_devuelto
+### Valor devuelto
 
-Una lista de tareas secundarias de esta tarea.
+Una lista de subtareas de esta tarea.
+
+## Ejemplos
+
+Muestra cómo iterar sobre subtareas.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task 1");
+task.Children.Add("Task 2");
+
+foreach (var tsk in project.RootTask.SelectAllChildTasks())
+{
+    Console.WriteLine("{0} {1}", tsk.Get(Tsk.Id), tsk.Get(Tsk.Name));
+}
+```
 
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

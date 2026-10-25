@@ -1,31 +1,68 @@
 ---
-title: Calendar.MakeNightShiftCalendar
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Calendar método. Convierte un Calendario determinado en Turno Nocturno.
+title: "Calendar.MakeNightShiftCalendar"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método Calendar. Convierte un Calendar dado en Night Shift Calendar"
 type: docs
 weight: 20
 url: /es/net/aspose.tasks/calendar/makenightshiftcalendar/
 ---
 ## Calendar.MakeNightShiftCalendar method
 
-Convierte un Calendario determinado en Turno Nocturno.
+Convierte un Calendar dado en un Calendar de turno nocturno.
 
 ```csharp
 public static Calendar MakeNightShiftCalendar(Calendar calendar)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| calendar | Calendar | Calendario para hacer el Calendario del Turno Nocturno. |
+| calendario | Calendar | Calendar para crear Night Shift Calendar. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Calendario del turno de noche.
+Night Shift Calendar.
+
+## Ejemplos
+
+Muestra cómo crear un Night Shift Calendar.
+
+```csharp
+Project project = new Project();
+var calendar = project.Calendars.Add("New calendar");
+Calendar.MakeNightShiftCalendar(calendar);
+
+var workingHours = calendar.GetWorkingTimes(new DateTime(2020, 4, 8));
+
+// mostrar horas de trabajo
+foreach (var wh in workingHours)
+{
+    Console.WriteLine("From: " + wh.From);
+    Console.WriteLine("To: " + wh.To);
+}
+```
+
+Muestra cómo transformar un calendario en un Night Shift Calendar.
+
+```csharp
+var project = new Project();
+
+var calendar = project.Calendars.Add("Night Shift");
+calendar = Calendar.MakeNightShiftCalendar(calendar);
+
+var workingHours = calendar.GetWorkingTimes(new DateTime(2020, 4, 8));
+
+// mostrar horas de trabajo
+foreach (var wh in workingHours)
+{
+    Console.WriteLine("From: " + wh.From);
+    Console.WriteLine("To: " + wh.To);
+}
+```
 
 ### Ver también
 
 * class [Calendar](../)
-* espacio de nombres [Aspose.Tasks](../../calendar/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

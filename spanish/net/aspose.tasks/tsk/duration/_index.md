@@ -1,17 +1,32 @@
 ---
-title: Tsk.Duration
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. El intervalo total de tiempo de trabajo activo para una tarea tal como se ingresa o calcula Microsoft Project según la fecha de inicio la fecha de finalización los calendarios y otros factores de programación.
+title: "Tsk.Duration"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. El período total de tiempo de trabajo activo para una tarea, según se ingrese o según lo calcule Microsoft Project basándose en la fecha de inicio, fecha de fin, calendarios y otros factores de programación."
 type: docs
 weight: 300
 url: /es/net/aspose.tasks/tsk/duration/
 ---
 ## Tsk.Duration field
 
-El intervalo total de tiempo de trabajo activo para una tarea tal como se ingresa o calcula Microsoft Project según la fecha de inicio, la fecha de finalización, los calendarios y otros factores de programación.
+El período total de tiempo de trabajo activo para una tarea según se ingresó o según lo calcule Microsoft Project basándose en la fecha de inicio, fecha de finalización, calendarios y otros factores de programación.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> Duration;
+```
+
+## Ejemplos
+
+Muestra cómo establecer la duración de la tarea.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task1");
+task.Set(Tsk.Start, new DateTime(2012, 8, 23, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.ActualStart, new DateTime(2012, 8, 23, 8, 0, 0));
+
+project.Save(OutDir + "AddTaskDuration_out.xml", SaveFileFormat.Xml);
 ```
 
 ### Ver también
@@ -20,7 +35,7 @@ public static readonly Key<Duration, TaskKey> Duration;
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,31 +1,83 @@
 ---
-title: Delegate TaskBarTextConverter
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Conversor personalizado de datos de tareas a texto de barra.
+title: "Delegado TaskBarTextConverter"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Convertidor personalizado de datos de tareas a texto de barra"
 type: docs
-weight: 3030
+weight: 3380
 url: /es/net/aspose.tasks.visualization/taskbartextconverter/
 ---
 ## TaskBarTextConverter delegate
 
-Conversor personalizado de datos de tareas a texto de barra.
+Convertidor personalizado de datos de tarea a texto de barra.
 
 ```csharp
 public delegate string TaskBarTextConverter(Task task);
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| task | Task | Tarea para la que se representará el texto de la barra de tareas. |
+| tarea | Tarea | Tarea para la cual se renderizará el texto de la barra de tareas. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Texto a representar para una barra correspondiente a la tarea especificada.
+Texto a renderizar para una barra correspondiente a la tarea especificada.
+
+## Ejemplos
+
+Muestra cómo usar estilos de barra personalizados en la vista del diagrama de Gantt.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var ganttChartView = (GanttChartView)project.Views.First(v => v.Name == "Gantt &Chart");
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.Timescale = Timescale.DefinedInView;
+saveOptions.ViewSettings = ganttChartView;
+
+// Los estilos de barra pueden ser específicos de tarea (ubicados en GanttChartView.CustomBarStyles).
+// o específicos de categoría (ubicados en GanttChartView.BarStyles).
+foreach (GanttBarStyle ganttBarStyle in ganttChartView.CustomBarStyles)
+{
+    if (ganttBarStyle.ShowForTaskUid != 4)
+    {
+        continue;
+    }
+
+    // Para fines de demostración, estamos modificando el estilo de la tarea con ID único = 4.
+    // Aquí establecemos el campo (TaskName) para que se muestre a la izquierda de la barra de la tarea.
+    ganttBarStyle.LeftField = Field.TaskName;
+    // Aquí establecemos un convertidor personalizado para controlar qué texto se debe renderizar dentro de la barra de la tarea.
+    ganttBarStyle.InsideBarTextConverter = task => "Hours rem.: " + (int)task.Get(Tsk.RemainingWork).TimeSpan.TotalHours;
+
+    ganttBarStyle.MiddleShapeColor = Color.Green;
+    ganttBarStyle.MiddleShape = GanttBarMiddleShape.LineTop;
+    ganttBarStyle.StartShape = GanttBarEndShape.LeftBracket;
+    ganttBarStyle.StartShapeColor = Color.Aqua;
+    ganttBarStyle.EndShape = GanttBarEndShape.RightBracket;
+    ganttBarStyle.EndShapeColor = Color.Aquamarine;
+}
+
+foreach (GanttBarStyle ganttBarStyle in ganttChartView.BarStyles)
+{
+    if (!ganttBarStyle.ShowForCategories.Contains(GanttBarShowFor.Milestone))
+    {
+        continue;
+    }
+
+    // Para fines de demostración, estamos modificando los estilos aplicables a tareas de hito.
+
+    ganttBarStyle.StartShape = GanttBarEndShape.Diamond;
+    ganttBarStyle.RightField = Field.TaskActualFinish;
+    ganttBarStyle.TopBarTextConverter = task => task.Get(Tsk.ActualStart).Day.ToString();
+}
+
+project.Save(OutDir + "WorkWithGanttChartViewBarStyles_out.pdf", saveOptions);
+```
 
 ### Ver también
 
 * class [Task](../../aspose.tasks/task/)
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

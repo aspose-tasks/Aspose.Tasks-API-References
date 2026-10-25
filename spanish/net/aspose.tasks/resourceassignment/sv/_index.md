@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.SV
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de SV.
+title: "ResourceAssignment.SV"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceAssignment. Obtiene o establece un valor de SV"
 type: docs
 weight: 580
 url: /es/net/aspose.tasks/resourceassignment/sv/
@@ -17,7 +17,7 @@ public double SV { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

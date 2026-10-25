@@ -1,9 +1,9 @@
 ---
-title: Class Resource
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Resource clase. Representa un recurso en un proyecto.
+title: "Clase Resource"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Resource. Representa un recurso en un proyecto"
 type: docs
-weight: 1490
+weight: 1740
 url: /es/net/aspose.tasks/resource/
 ---
 ## Resource class
@@ -18,7 +18,7 @@ public class Resource : IEquatable<Resource>
 
 | Nombre | Descripción |
 | --- | --- |
-| [AccrueAt](../../aspose.tasks/resource/accrueat/) { get; set; } | Obtiene o establece un valor de AccueAt. |
+| [AccrueAt](../../aspose.tasks/resource/accrueat/) { get; set; } | Obtiene o establece un valor de AccrueAt. |
 | [ActiveDirectoryGuid](../../aspose.tasks/resource/activedirectoryguid/) { get; set; } | Obtiene o establece un valor de ActiveDirectoryGuid. |
 | [ActualCost](../../aspose.tasks/resource/actualcost/) { get; set; } | Obtiene o establece un valor de ActualCost. |
 | [ActualOvertimeCost](../../aspose.tasks/resource/actualovertimecost/) { get; set; } | Obtiene o establece un valor de ActualOvertimeCost. |
@@ -30,10 +30,10 @@ public class Resource : IEquatable<Resource>
 | [AssignmentOwner](../../aspose.tasks/resource/assignmentowner/) { get; set; } | Obtiene o establece un valor de AssignmentOwner. |
 | [AssignmentOwnerGuid](../../aspose.tasks/resource/assignmentownerguid/) { get; set; } | Obtiene o establece un valor de AssignmentOwnerGuid. |
 | [Assignments](../../aspose.tasks/resource/assignments/) { get; } | Obtiene una colección de asignaciones de recursos para este objeto. |
-| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods/) { get; } | Obtiene una instancia del[`AvailabilityPeriodCollection`](../availabilityperiodcollection/) class. La colección de períodos durante los cuales un recurso está disponible. |
+| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods/) { get; } | Obtiene la instancia de la clase [`AvailabilityPeriodCollection`](../availabilityperiodcollection/). La colección de períodos durante los cuales un recurso está disponible. |
 | [AvailableFrom](../../aspose.tasks/resource/availablefrom/) { get; set; } | Obtiene o establece un valor de AvailableFrom. |
 | [AvailableTo](../../aspose.tasks/resource/availableto/) { get; set; } | Obtiene o establece un valor de AvailableTo. |
-| [Baselines](../../aspose.tasks/resource/baselines/) { get; } | Obtiene una instancia de BaselineCollection para este objeto. Los valores de referencia para un recurso. |
+| [Baselines](../../aspose.tasks/resource/baselines/) { get; } | Obtiene una instancia de BaselineCollection para este objeto. Los valores de línea base para un recurso. |
 | [BCWP](../../aspose.tasks/resource/bcwp/) { get; set; } | Obtiene o establece un valor de BCWP. |
 | [BCWS](../../aspose.tasks/resource/bcws/) { get; set; } | Obtiene o establece un valor de BCWS. |
 | [BookingType](../../aspose.tasks/resource/bookingtype/) { get; set; } | Obtiene o establece un valor de BookingType. |
@@ -42,47 +42,46 @@ public class Resource : IEquatable<Resource>
 | [Calendar](../../aspose.tasks/resource/calendar/) { get; set; } | Obtiene o establece un valor de Calendar. |
 | [CanLevel](../../aspose.tasks/resource/canlevel/) { get; set; } | Obtiene o establece un valor que indica si CanLevel está establecido o no. |
 | [Code](../../aspose.tasks/resource/code/) { get; set; } | Obtiene o establece un valor de Code. |
-| [Cost](../../aspose.tasks/resource/cost/) { get; set; } | Obtiene o establece un valor de Costo. |
+| [Cost](../../aspose.tasks/resource/cost/) { get; set; } | Obtiene o establece un valor de Cost. |
 | [CostCenter](../../aspose.tasks/resource/costcenter/) { get; set; } | Obtiene o establece un valor de CostCenter. |
 | [CostPerUse](../../aspose.tasks/resource/costperuse/) { get; set; } | Obtiene o establece un valor de CostPerUse. |
 | [CostVariance](../../aspose.tasks/resource/costvariance/) { get; set; } | Obtiene o establece un valor de CostVariance. |
-| [Created](../../aspose.tasks/resource/created/) { get; set; } | Obtiene o establece un valor de Creado. |
+| [Created](../../aspose.tasks/resource/created/) { get; set; } | Obtiene o establece un valor de Created. |
 | [CV](../../aspose.tasks/resource/cv/) { get; set; } | Obtiene o establece un valor de CV. |
 | [EMailAddress](../../aspose.tasks/resource/emailaddress/) { get; set; } | Obtiene o establece un valor de EMailAddress. |
 | [ExtendedAttributes](../../aspose.tasks/resource/extendedattributes/) { get; } | Obtiene los valores de un atributo extendido. |
-| [Finish](../../aspose.tasks/resource/finish/) { get; set; } | Obtiene o establece un valor de Finalizar. |
+| [Finish](../../aspose.tasks/resource/finish/) { get; set; } | Obtiene o establece un valor de Finish. |
 | [Group](../../aspose.tasks/resource/group/) { get; set; } | Obtiene o establece un valor de Group. |
 | [Guid](../../aspose.tasks/resource/guid/) { get; set; } | Obtiene o establece un valor de Guid. |
-| [Hyperlink](../../aspose.tasks/resource/hyperlink/) { get; set; } | Obtiene o establece un valor de Hipervínculo. |
-| [HyperlinkAddress](../../aspose.tasks/resource/hyperlinkaddress/) { get; set; } | Obtiene o establece un valor de HyperlinkAddress. |
-| [HyperlinkSubAddress](../../aspose.tasks/resource/hyperlinksubaddress/) { get; set; } | Obtiene o establece un valor de HyperlinkSubAddress. |
+| [Hyperlink](../../aspose.tasks/resource/hyperlink/) { get; set; } | Obtiene o establece el título o texto explicativo de un hipervínculo asociado a un recurso. |
+| [HyperlinkAddress](../../aspose.tasks/resource/hyperlinkaddress/) { get; set; } | Obtiene o establece la dirección de un hipervínculo asociado a un recurso. |
+| [HyperlinkSubAddress](../../aspose.tasks/resource/hyperlinksubaddress/) { get; set; } | Obtiene o establece la ubicación específica en un documento en un hipervínculo asociado a un recurso. |
 | [Id](../../aspose.tasks/resource/id/) { get; set; } | Obtiene o establece un valor de Id. |
-| [Inactive](../../aspose.tasks/resource/inactive/) { get; set; } | Obtiene o establece un valor que indica si Inactivo está establecido o no. |
-| [Initials](../../aspose.tasks/resource/initials/) { get; set; } | Obtiene o establece un valor de Iniciales. |
-| [IsBudget](../../aspose.tasks/resource/isbudget/) { get; set; } | Obtiene o establece un valor que indica si IsBudget está configurado o no. |
+| [Inactive](../../aspose.tasks/resource/inactive/) { get; set; } | Obtiene o establece un valor que indica si Inactive está establecido o no. |
+| [Initials](../../aspose.tasks/resource/initials/) { get; set; } | Obtiene o establece un valor de Initials. |
+| [IsBudget](../../aspose.tasks/resource/isbudget/) { get; set; } | Obtiene o establece un valor que indica si IsBudget está establecido o no. |
 | [IsCostResource](../../aspose.tasks/resource/iscostresource/) { get; set; } | Obtiene o establece un valor que indica si IsCostResource está establecido o no. |
-| [IsEnterprise](../../aspose.tasks/resource/isenterprise/) { get; set; } | Obtiene o establece un valor que indica si IsEnterprise está configurado o no. |
+| [IsEnterprise](../../aspose.tasks/resource/isenterprise/) { get; set; } | Obtiene o establece un valor que indica si IsEnterprise está establecido o no. |
 | [IsGeneric](../../aspose.tasks/resource/isgeneric/) { get; set; } | Obtiene o establece un valor que indica si IsGeneric está establecido o no. |
-| [IsNull](../../aspose.tasks/resource/isnull/) { get; set; } | Obtiene o establece un valor que indica si IsNull está establecido o no. |
-| virtual [IsRoot](../../aspose.tasks/resource/isroot/) { get; } | Obtiene el indicador que indica si el recurso es un recurso raíz. El recurso raíz es un recurso especial que está destinado a admitir los formatos internos de MS Project y no está destinado a ser utilizado directamente desde el código del usuario. |
+| [IsNull](../../aspose.tasks/resource/isnull/) { get; set; } | Obtiene o establece un valor que indica si IsNull está configurado o no. |
+| virtual [IsRoot](../../aspose.tasks/resource/isroot/) { get; } | Obtiene la bandera que indica si el recurso es un recurso raíz. El recurso raíz es un recurso especial que está destinado a soportar los internos de los formatos de MS Project y no está destinado a ser usado directamente desde el código del usuario. |
 | [IsTeamAssignmentPool](../../aspose.tasks/resource/isteamassignmentpool/) { get; set; } | Obtiene o establece un valor que indica si IsTeamAssignmentPool está configurado o no. |
 | [MaterialLabel](../../aspose.tasks/resource/materiallabel/) { get; set; } | Obtiene o establece un valor de MaterialLabel. |
 | [MaxUnits](../../aspose.tasks/resource/maxunits/) { get; set; } | Obtiene o establece un valor de MaxUnits. |
-| [Name](../../aspose.tasks/resource/name/) { get; set; } | Obtiene o establece un valor de Nombre. |
-| [Notes](../../aspose.tasks/resource/notes/) { get; set; } | Obtiene o establece un valor de Notes. |
+| [Name](../../aspose.tasks/resource/name/) { get; set; } | Obtiene o establece un valor de Name. |
 | [NotesRTF](../../aspose.tasks/resource/notesrtf/) { get; set; } | Obtiene o establece un valor de NotesRTF. |
 | [NotesText](../../aspose.tasks/resource/notestext/) { get; set; } | Obtiene o establece un valor de NotesText. |
 | [OutlineCode](../../aspose.tasks/resource/outlinecode/) { get; } | Obtiene un objeto OutlineCodeCollection. El valor de un código de esquema. |
-| [Overallocated](../../aspose.tasks/resource/overallocated/) { get; set; } | Obtiene o establece un valor que indica si Sobreasignado está establecido o no. |
+| [Overallocated](../../aspose.tasks/resource/overallocated/) { get; set; } | Obtiene o establece un valor que indica si Overallocated está configurado o no. |
 | [OvertimeCost](../../aspose.tasks/resource/overtimecost/) { get; set; } | Obtiene o establece un valor de OvertimeCost. |
 | [OvertimeRate](../../aspose.tasks/resource/overtimerate/) { get; set; } | Obtiene o establece un valor de OvertimeRate. |
 | [OvertimeRateFormat](../../aspose.tasks/resource/overtimerateformat/) { get; set; } | Obtiene o establece un valor de OvertimeRateFormat. |
 | [OvertimeWork](../../aspose.tasks/resource/overtimework/) { get; set; } | Obtiene o establece un valor de OvertimeWork. |
-| [ParentProject](../../aspose.tasks/resource/parentproject/) { get; } | Obtiene el proyecto principal para este contenedor. |
+| [ParentProject](../../aspose.tasks/resource/parentproject/) { get; } | Obtiene el proyecto padre para este contenedor. |
 | [PeakUnits](../../aspose.tasks/resource/peakunits/) { get; set; } | Obtiene o establece un valor de PeakUnits. |
 | [PercentWorkComplete](../../aspose.tasks/resource/percentworkcomplete/) { get; set; } | Obtiene o establece un valor de PercentWorkComplete. |
-| [Phonetics](../../aspose.tasks/resource/phonetics/) { get; set; } | Obtiene o establece un valor de Fonética. |
-| [Rates](../../aspose.tasks/resource/rates/) { get; } | Obtiene una instancia del[`RateCollection`](../ratecollection/) clase para este objeto. La colección de períodos y tasas asociadas a cada uno. |
+| [Phonetics](../../aspose.tasks/resource/phonetics/) { get; set; } | Obtiene o establece un valor de Phonetics. |
+| [Rates](../../aspose.tasks/resource/rates/) { get; } | Obtiene la instancia de la clase [`RateCollection`](../ratecollection/) para este objeto. La colección de períodos y tarifas asociadas a cada una. |
 | [RegularWork](../../aspose.tasks/resource/regularwork/) { get; set; } | Obtiene o establece un valor de RegularWork. |
 | [RemainingCost](../../aspose.tasks/resource/remainingcost/) { get; set; } | Obtiene o establece un valor de RemainingCost. |
 | [RemainingOvertimeCost](../../aspose.tasks/resource/remainingovertimecost/) { get; set; } | Obtiene o establece un valor de RemainingOvertimeCost. |
@@ -90,10 +89,10 @@ public class Resource : IEquatable<Resource>
 | [RemainingWork](../../aspose.tasks/resource/remainingwork/) { get; set; } | Obtiene o establece un valor de RemainingWork. |
 | [StandardRate](../../aspose.tasks/resource/standardrate/) { get; set; } | Obtiene o establece un valor de StandardRate. |
 | [StandardRateFormat](../../aspose.tasks/resource/standardrateformat/) { get; set; } | Obtiene o establece un valor de StandardRateFormat. |
-| [Start](../../aspose.tasks/resource/start/) { get; set; } | Obtiene o establece un valor de Inicio. |
+| [Start](../../aspose.tasks/resource/start/) { get; set; } | Obtiene o establece un valor de Start. |
 | [SV](../../aspose.tasks/resource/sv/) { get; set; } | Obtiene o establece un valor de SV. |
-| [TimephasedData](../../aspose.tasks/resource/timephaseddata/) { get; set; } | Obtiene o establece una instancia de[`TimephasedDataCollection`](../timephaseddatacollection/) clase para este objeto. |
-| [Type](../../aspose.tasks/resource/type/) { get; set; } | Obtiene o establece un valor de Tipo. |
+| [TimephasedData](../../aspose.tasks/resource/timephaseddata/) { get; set; } | Obtiene o establece una instancia de la clase [`TimephasedDataCollection`](../timephaseddatacollection/) para este objeto. |
+| [Type](../../aspose.tasks/resource/type/) { get; set; } | Obtiene o establece un valor de Type. |
 | [Uid](../../aspose.tasks/resource/uid/) { get; set; } | Obtiene o establece un valor de Uid. |
 | [WindowsUserAccount](../../aspose.tasks/resource/windowsuseraccount/) { get; set; } | Obtiene o establece un valor de WindowsUserAccount. |
 | [Work](../../aspose.tasks/resource/work/) { get; set; } | Obtiene o establece un valor de Work. |
@@ -106,18 +105,31 @@ public class Resource : IEquatable<Resource>
 | --- | --- |
 | [Delete](../../aspose.tasks/resource/delete/)() | Elimina un recurso y sus asignaciones del proyecto. |
 | override [Equals](../../aspose.tasks/resource/equals/#equals_1)(object) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
-| [Equals](../../aspose.tasks/resource/equals/#equals)(Resource) | Devuelve un valor que indica si esta instancia es igual a una instancia especificada del`Resource` clase. |
-| [Get&lt;T&gt;](../../aspose.tasks/resource/get/)(Key&lt;T, RscKey&gt;) | Devuelve el valor al que se asigna la propiedad en este contenedor. |
-| override [GetHashCode](../../aspose.tasks/resource/gethashcode/)() | Devuelve un valor de código hash para la instancia del`Resource` clase. |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata)(DateTime, DateTime) | Devoluciones[`TimephasedDataCollection`](../timephaseddatacollection/) para este objeto con[`TimephasedData`](./timephaseddata/) valores dentro de las fechas de inicio y finalización dadas. |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Devuelve una instancia del[`TimephasedDataCollection`](../timephaseddatacollection/) clase para este objeto con el[`TimephasedData`](./timephaseddata/) valores dentro de las fechas de inicio y finalización dadas de[`TimephasedDataType`](../timephaseddatatype/) . |
-| [Set](../../aspose.tasks/resource/set/#set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Asigna la propiedad especificada al valor especificado en este contenedor. |
-| [Set&lt;T&gt;](../../aspose.tasks/resource/set/#set_1)(Key&lt;T, RscKey&gt;, T) | Asigna la propiedad especificada al valor especificado en este contenedor. |
-| override [ToString](../../aspose.tasks/resource/tostring/)() | Devuelve una representación de cadena corta de la instancia del`Resource` class. Los detalles exactos de la representación no se especifican y están sujetos a cambios. |
+| [Equals](../../aspose.tasks/resource/equals/#equals)(Resource) | Devuelve un valor que indica si esta instancia es igual a una instancia especificada de la clase `Resource`. |
+| [Get&lt;T&gt;](../../aspose.tasks/resource/get/)(Key&lt;T, RscKey&gt;) | Devuelve el valor al que la propiedad está asignada en este contenedor. |
+| override [GetHashCode](../../aspose.tasks/resource/gethashcode/)() | Devuelve un valor de código hash para la instancia de la clase `Resource`. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata)(DateTime, DateTime) | Devuelve [`TimephasedDataCollection`](../timephaseddatacollection/) para este objeto con valores de [`TimephasedData`](./timephaseddata/) dentro de las fechas de inicio y fin proporcionadas. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Devuelve una instancia de la clase [`TimephasedDataCollection`](../timephaseddatacollection/) para este objeto con los valores de [`TimephasedData`](./timephaseddata/) dentro de las fechas de inicio y fin dadas del [`TimephasedDataType`](../timephaseddatatype/) especificado. |
+| [Set](../../aspose.tasks/resource/set/#set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Mapea la propiedad especificada al valor especificado en este contenedor. |
+| [Set&lt;T&gt;](../../aspose.tasks/resource/set/#set_1)(Key&lt;T, RscKey&gt;, T) | Mapea la propiedad especificada al valor especificado en este contenedor. |
+| override [ToString](../../aspose.tasks/resource/tostring/)() | Devuelve una representación corta en forma de cadena de la instancia de la clase `Resource`. Los detalles exactos de la representación no están especificados y pueden cambiar. |
+
+## Ejemplos
+
+Muestra cómo agregar recursos al proyecto.
+
+```csharp
+var project = new Project();
+
+// Agregar recursos
+project.Resources.Add("Resource");
+
+project.Save(OutDir + "CreateResources_out.xml", SaveFileFormat.Xml);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

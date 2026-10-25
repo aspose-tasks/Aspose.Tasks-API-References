@@ -1,14 +1,14 @@
 ---
-title: GroupCriterion.GroupCriterion
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: GroupCriterion constructor. Constructor predeterminado
+title: "GroupCriterion.GroupCriterion"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor GroupCriterion. El constructor predeterminado"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/groupcriterion/groupcriterion/
 ---
 ## GroupCriterion constructor
 
-Constructor predeterminado
+El constructor predeterminado.
 
 ```csharp
 public GroupCriterion()
@@ -17,7 +17,7 @@ public GroupCriterion()
 ### Ver también
 
 * class [GroupCriterion](../)
-* espacio de nombres [Aspose.Tasks](../../groupcriterion/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,54 @@
 ---
-title: WeeklyRepetition.WeeklyRepetition
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: WeeklyRepetition constructor. Inicializa una nueva instancia delWeeklyRepetition clase.
+title: "WeeklyRepetition.WeeklyRepetition"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor WeeklyRepetition. Inicializa una nueva instancia de la clase WeeklyRepetition"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/weeklyrepetition/weeklyrepetition/
 ---
 ## WeeklyRepetition constructor
 
-Inicializa una nueva instancia del[`WeeklyRepetition`](../) clase.
+Inicializa una nueva instancia de la clase [`WeeklyRepetition`](../).
 
 ```csharp
 public WeeklyRepetition()
 ```
 
+## Ejemplos
+
+Muestra cómo crear una tarea recurrente.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
 ### Ver también
 
 * class [WeeklyRepetition](../)
-* espacio de nombres [Aspose.Tasks](../../weeklyrepetition/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weeklyrepetition/)
+* assembly [Aspose.Tasks](../../../)
 
 

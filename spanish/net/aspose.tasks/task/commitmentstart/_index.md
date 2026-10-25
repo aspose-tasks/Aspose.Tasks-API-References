@@ -1,7 +1,7 @@
 ---
-title: Task.CommitmentStart
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de CommitmentStart.
+title: "Task.CommitmentStart"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de CommitmentStart"
 type: docs
 weight: 210
 url: /es/net/aspose.tasks/task/commitmentstart/
@@ -17,7 +17,7 @@ public DateTime CommitmentStart { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,17 +1,31 @@
 ---
-title: Asn.PercentWorkComplete
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Asn campo. La cantidad de un trabajo completado en una tarea.
+title: "Asn.PercentWorkComplete"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Asn. La cantidad de trabajo completado en una asignación"
 type: docs
 weight: 400
 url: /es/net/aspose.tasks/asn/percentworkcomplete/
 ---
 ## Asn.PercentWorkComplete field
 
-La cantidad de un trabajo completado en una tarea.
+La cantidad de trabajo completado en una asignación.
 
 ```csharp
 public static readonly Key<int, AsnKey> PercentWorkComplete;
+```
+
+## Ejemplos
+
+Muestra cómo leer el porcentaje de trabajo completado de una asignación.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentPercentWorkComplete.mpp");
+
+// Imprimir porcentaje de finalización de la asignación
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.PercentWorkComplete).ToString());
+}
 ```
 
 ### Ver también
@@ -19,7 +33,7 @@ public static readonly Key<int, AsnKey> PercentWorkComplete;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* espacio de nombres [Aspose.Tasks](../../asn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

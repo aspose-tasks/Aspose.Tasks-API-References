@@ -1,7 +1,7 @@
 ---
-title: Resource.MaterialLabel
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de MaterialLabel.
+title: "Resource.MaterialLabel"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor de MaterialLabel"
 type: docs
 weight: 490
 url: /es/net/aspose.tasks/resource/materiallabel/
@@ -17,7 +17,7 @@ public string MaterialLabel { get; set; }
 ### Ver también
 
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

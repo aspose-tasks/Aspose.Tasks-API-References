@@ -1,7 +1,7 @@
 ---
-title: Task.IsEstimated
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor que indica si IsEstimated está establecido o no.
+title: "Task.IsEstimated"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor que indica si IsEstimated está configurado o no"
 type: docs
 weight: 620
 url: /es/net/aspose.tasks/task/isestimated/
@@ -18,7 +18,7 @@ public NullableBool IsEstimated { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

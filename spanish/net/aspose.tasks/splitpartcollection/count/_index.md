@@ -1,23 +1,48 @@
 ---
-title: SplitPartCollection.Count
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: SplitPartCollection propiedad. Obtiene el número de piezas de la colección.
+title: "SplitPartCollection.Count"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad SplitPartCollection. Obtiene el número de partes en la colección"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/splitpartcollection/count/
 ---
 ## SplitPartCollection.Count property
 
-Obtiene el número de piezas de la colección.
+Obtiene el número de partes en la colección.
 
 ```csharp
 public int Count { get; }
 ```
 
+## Ejemplos
+
+Muestra cómo trabajar con colecciones de partes divididas.
+
+```csharp
+var project = new Project(DataDir + "Splits.mpp");
+
+var task = project.RootTask.Children.GetById(1);
+
+// iterar sobre partes divididas
+Console.WriteLine("Iterate over split parts");
+Console.WriteLine("Split parts count:" + task.SplitParts.Count);
+foreach (var splitPart in task.SplitParts)
+{
+    Console.WriteLine("Start: " + splitPart.Start);
+    Console.WriteLine("Finish: " + splitPart.Finish);
+}
+
+// obtener la parte por índice
+var split = task.SplitParts[0];
+Console.WriteLine("Split start: " + split.Start);
+
+// realizar alguna operación con la primera parte dividida de la tarea
+```
+
 ### Ver también
 
 * class [SplitPartCollection](../)
-* espacio de nombres [Aspose.Tasks](../../splitpartcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../splitpartcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

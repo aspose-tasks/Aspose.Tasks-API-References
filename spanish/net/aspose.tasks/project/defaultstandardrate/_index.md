@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultStandardRate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de DefaultStandardRate.
+title: "Project.DefaultStandardRate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Project. Obtiene o establece un valor de DefaultStandardRate."
 type: docs
-weight: 310
+weight: 320
 url: /es/net/aspose.tasks/project/defaultstandardrate/
 ---
 ## Project.DefaultStandardRate property
@@ -17,7 +17,7 @@ public double DefaultStandardRate { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

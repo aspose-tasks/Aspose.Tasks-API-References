@@ -1,29 +1,93 @@
 ---
-title: FilterCollection.CopyTo
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: FilterCollection método. Copia los elementos de esta colección en la matriz especificada comenzando en el índice de matriz especificado.
+title: "FilterCollection.CopyTo"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método FilterCollection. Copia los elementos de esta colección al arreglo especificado comenzando en el índice de arreglo especificado"
 type: docs
 weight: 60
 url: /es/net/aspose.tasks/filtercollection/copyto/
 ---
 ## FilterCollection.CopyTo method
 
-Copia los elementos de esta colección en la matriz especificada, comenzando en el índice de matriz especificado.
+Copia los elementos de esta colección al array especificado, comenzando en el índice de array especificado.
 
 ```csharp
 public void CopyTo(Filter[] array, int arrayIndex)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Filter[] | la matriz unidimensional especificada para copiar elementos a |
-| arrayIndex | Int32 | el índice de base cero de la matriz especificada en la que comienza la copia. |
+| arreglo | Filter[] | el arreglo unidimensional especificado al que copiar los elementos |
+| arrayIndex | Int32 | el índice basado en cero del arreglo especificado en el que comienza la copia. |
+
+## Ejemplos
+
+Muestra cómo trabajar con colecciones de filtros.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+
+// iterar sobre filtros de tareas
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
+Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
+foreach (var filter in project.TaskFilters)
+{
+    Console.WriteLine("All Tasks: " + filter.Name);
+    Console.WriteLine("Task Item: " + filter.FilterType);
+    Console.WriteLine("Task Filters Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Task filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+    Console.WriteLine();
+}
+
+// iterar sobre filtros de recursos
+Console.WriteLine("Project.ResourceFilters count: " + project.ResourceFilters.Count);
+foreach (var filter in project.ResourceFilters)
+{
+    Console.WriteLine("Resource Filter Item Type: Item.ResourceType: " + filter.FilterType);
+    Console.WriteLine("Resource filter ShowInMenu" + filter.ShowInMenu);
+    Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+}
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// limpiar los filtros del proyecto de otro
+otherProject.TaskFilters.Clear();
+
+// copiar filtros a otro proyecto
+var filters = new Filter[project.TaskFilters.Count];
+project.TaskFilters.CopyTo(filters, 0);
+
+foreach (var filter in filters)
+{
+    otherProject.TaskFilters.Add(filter);
+}
+
+// agregar filtro de tarea personalizado
+var customFilter = new Filter();
+customFilter.Name = "Custom Filter";
+customFilter.ShowInMenu = true;
+customFilter.ShowRelatedSummaryRows = true;
+
+if (!otherProject.TaskFilters.Contains(customFilter))
+{
+    if (!otherProject.TaskFilters.IsReadOnly)
+    {
+        otherProject.TaskFilters.Add(customFilter);
+    }
+}
+
+// eliminar todos los filtros
+List<Filter> filtersToDelete = otherProject.TaskFilters.ToList();
+foreach (var filter in filtersToDelete)
+{
+    otherProject.TaskFilters.Remove(filter);
+}
+```
 
 ### Ver también
 
 * class [Filter](../../filter/)
 * class [FilterCollection](../)
-* espacio de nombres [Aspose.Tasks](../../filtercollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filtercollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

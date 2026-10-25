@@ -1,7 +1,7 @@
 ---
-title: CalendarCollection.GetByName
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: CalendarCollection método. Devuelve un calendario con el nombre especificado.
+title: "CalendarCollection.GetByName"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método CalendarCollection. Devuelve un calendario con el nombre especificado."
 type: docs
 weight: 30
 url: /es/net/aspose.tasks/calendarcollection/getbyname/
@@ -14,19 +14,34 @@ Devuelve un calendario con el nombre especificado.
 public Calendar GetByName(string name)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de un calendario. |
+| nombre | Cadena | Nombre de un calendario. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Si se encuentra, devuelve el calendario con un nombre específico; de lo contrario, devuelve nulo.
+Si se encuentra, devuelve el calendario con un nombre especificado; de lo contrario, devuelve null.
+
+## Ejemplos
+
+Muestra cómo obtener calendarios por nombre o por id.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendarByName = project.Calendars.GetByName("TestCalendar");
+var calendarByUid = project.Calendars.GetByUid(4);
+
+Console.WriteLine("Calendar Name: " + calendarByName.Name);
+Console.WriteLine("Calendar Name: " + calendarByUid.Name);
+Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
+```
 
 ### Ver también
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* espacio de nombres [Aspose.Tasks](../../calendarcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

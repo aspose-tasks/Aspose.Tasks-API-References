@@ -1,28 +1,28 @@
 ---
-title: BaselineCollection.Add
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: BaselineCollection método. Esta es la implementación stub del método Add de ICollection que solo genera NotSupportedException
+title: "BaselineCollection.Add"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método de BaselineCollection. Esta es la implementación de sustituto del método Add de ICollections que solo lanza NotSupportedException"
 type: docs
 weight: 40
 url: /es/net/aspose.tasks/baselinecollection/add/
 ---
 ## BaselineCollection.Add method
 
-Esta es la implementación stub del método Add de ICollection, que solo genera NotSupportedException
+Esta es la implementación de referencia del método Add de ICollection, que solo lanza NotSupportedException
 
 ```csharp
 public void Add(Baseline item)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| item | Baseline | El elemento a eliminar. |
+| elemento | Baseline | El elemento a eliminar. |
 
 ### Ver también
 
 * class [Baseline](../../baseline/)
 * class [BaselineCollection](../)
-* espacio de nombres [Aspose.Tasks](../../baselinecollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

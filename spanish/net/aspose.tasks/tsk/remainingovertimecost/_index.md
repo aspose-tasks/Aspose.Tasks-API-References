@@ -1,17 +1,31 @@
 ---
-title: Tsk.RemainingOvertimeCost
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. El gasto restante de horas extra programadas para una tarea.
+title: "Tsk.RemainingOvertimeCost"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. El gasto de horas extra programado restante para una tarea."
 type: docs
-weight: 990
+weight: 970
 url: /es/net/aspose.tasks/tsk/remainingovertimecost/
 ---
 ## Tsk.RemainingOvertimeCost field
 
-El gasto restante de horas extra programadas para una tarea.
+El gasto restante programado de horas extra para una tarea.
 
 ```csharp
 public static readonly Key<decimal, TaskKey> RemainingOvertimeCost;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.RemainingOvertimeCost.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.RemainingOvertimeCost, 2m);
+
+Console.WriteLine("Remaining Overtime Cost: " + task.Get(Tsk.RemainingOvertimeCost));
 ```
 
 ### Ver también
@@ -19,7 +33,7 @@ public static readonly Key<decimal, TaskKey> RemainingOvertimeCost;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

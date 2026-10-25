@@ -1,7 +1,7 @@
 ---
-title: CalendarExceptionCollection.Item
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: CalendarExceptionCollection propiedad. Devuelve el elemento en el índice especificado.
+title: "CalendarExceptionCollection.Item"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad CalendarExceptionCollection. Devuelve el elemento en el índice especificado"
 type: docs
 weight: 20
 url: /es/net/aspose.tasks/calendarexceptioncollection/item/
@@ -16,9 +16,9 @@ public CalendarException this[int index] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | El índice de base cero del elemento que se va a obtener. |
+| índice | El índice basado en cero del elemento a obtener. |
 
-### Valor_devuelto
+### Valor devuelto
 
 el elemento en el índice especificado.
 
@@ -26,7 +26,7 @@ el elemento en el índice especificado.
 
 * class [CalendarException](../../calendarexception/)
 * class [CalendarExceptionCollection](../)
-* espacio de nombres [Aspose.Tasks](../../calendarexceptioncollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexceptioncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

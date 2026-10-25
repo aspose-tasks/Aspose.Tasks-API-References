@@ -1,14 +1,14 @@
 ---
-title: Resource.Overallocated
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor que indica si Sobreasignado está establecido o no.
+title: "Resource.Overallocated"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del recurso. Obtiene o establece un valor que indica si Overallocated está configurado o no"
 type: docs
-weight: 560
+weight: 550
 url: /es/net/aspose.tasks/resource/overallocated/
 ---
 ## Resource.Overallocated property
 
-Obtiene o establece un valor que indica si Sobreasignado está establecido o no.
+Obtiene o establece un valor que indica si Overallocated está configurado o no.
 
 ```csharp
 public NullableBool Overallocated { get; set; }
@@ -18,7 +18,7 @@ public NullableBool Overallocated { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

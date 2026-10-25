@@ -1,14 +1,14 @@
 ---
-title: ResourceAssignment.Start
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de Inicio.
+title: "ResourceAssignment.Start"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceAssignment. Obtiene o establece un valor de Start"
 type: docs
 weight: 540
 url: /es/net/aspose.tasks/resourceassignment/start/
 ---
 ## ResourceAssignment.Start property
 
-Obtiene o establece un valor de Inicio.
+Obtiene o establece un valor de Start.
 
 ```csharp
 public DateTime Start { get; set; }
@@ -17,7 +17,7 @@ public DateTime Start { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

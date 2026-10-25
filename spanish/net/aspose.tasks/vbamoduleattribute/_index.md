@@ -1,17 +1,17 @@
 ---
-title: Class VbaModuleAttribute
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.VbaModuleAttribute clase. El atributo de laVbaModule objeto
+title: "Clase VbaModuleAttribute"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.VbaModuleAttribute. El atributo del objeto VbaModule"
 type: docs
-weight: 2500
+weight: 2820
 url: /es/net/aspose.tasks/vbamoduleattribute/
 ---
 ## VbaModuleAttribute class
 
-El atributo de la[`VbaModule`](../vbamodule/) objeto
+El atributo del objeto [`VbaModule`](../vbamodule/)
 
 ```csharp
-public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
+public sealed class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 ```
 
 ## Propiedades
@@ -25,13 +25,31 @@ public class VbaModuleAttribute : IEquatable<VbaModuleAttribute>
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals_1)(object) | Devuelve un valor que indica si esta instancia es igual a la especificada`VbaModuleAttribute` objeto. |
-| [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals)(VbaModuleAttribute) | Devuelve un valor que indica si esta instancia es igual a la especificada`VbaModuleAttribute` objeto. |
-| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode/)() | Devuelve un valor de código hash para este`VbaModuleAttribute` . |
+| override [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals_1)(object) | Devuelve un valor que indica si esta instancia es igual al objeto `VbaModuleAttribute` especificado. |
+| [Equals](../../aspose.tasks/vbamoduleattribute/equals/#equals)(VbaModuleAttribute) | Devuelve un valor que indica si esta instancia es igual al objeto `VbaModuleAttribute` especificado. |
+| override [GetHashCode](../../aspose.tasks/vbamoduleattribute/gethashcode/)() | Devuelve un valor de código hash para este `VbaModuleAttribute`. |
+
+## Ejemplos
+
+Muestra cómo trabajar con atributos de módulo VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

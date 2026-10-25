@@ -1,7 +1,7 @@
 ---
-title: Task.Work
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de Work.
+title: "Task.Work"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de Work"
 type: docs
 weight: 1290
 url: /es/net/aspose.tasks/task/work/
@@ -18,7 +18,7 @@ public Duration Work { get; set; }
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

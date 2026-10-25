@@ -1,33 +1,33 @@
 ---
-title: ViewCollection.GetByViewScreen
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ViewCollection método. Busca una vista con la propiedad de pantalla especificada y devuelve la primera aparición dentro de la colección.
+title: "ViewCollection.GetByViewScreen"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ViewCollection. Busca una Vista con la propiedad Screen especificada y devuelve la primera ocurrencia dentro de la colección"
 type: docs
 weight: 90
 url: /es/net/aspose.tasks/viewcollection/getbyviewscreen/
 ---
 ## ViewCollection.GetByViewScreen method
 
-Busca una vista con la propiedad de pantalla especificada y devuelve la primera aparición dentro de la colección.
+Busca una View con la propiedad Screen especificada y devuelve la primera aparición dentro de la colección.
 
 ```csharp
 public View GetByViewScreen(ViewScreen screen)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | screen | ViewScreen | [`ViewScreen`](../../viewscreen/) valor de enumeración. |
 
-### Valor_devuelto
+### Valor devuelto
 
-La primera vista de la colección cuya propiedad de pantalla coincide con el argumento de pantalla especificado, si se encuentra; en caso contrario, nulo.
+La primera Vista en la colección cuya propiedad Screen coincide con el argumento de pantalla especificado, si se encuentra; de lo contrario, null.
 
 ### Ver también
 
 * class [View](../../view/)
 * enum [ViewScreen](../../viewscreen/)
 * class [ViewCollection](../)
-* espacio de nombres [Aspose.Tasks](../../viewcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../viewcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

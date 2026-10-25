@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultTaskType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de DefaultTaskType.
+title: "Project.DefaultTaskType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor de DefaultTaskType"
 type: docs
-weight: 340
+weight: 350
 url: /es/net/aspose.tasks/project/defaulttasktype/
 ---
 ## Project.DefaultTaskType property
@@ -18,7 +18,7 @@ public TaskType DefaultTaskType { get; set; }
 
 * enum [TaskType](../../tasktype/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

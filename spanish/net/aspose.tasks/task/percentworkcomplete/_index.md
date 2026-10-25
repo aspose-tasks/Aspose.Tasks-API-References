@@ -1,9 +1,9 @@
 ---
-title: Task.PercentWorkComplete
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de PercentWorkComplete.
+title: "Task.PercentWorkComplete"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor de PercentWorkComplete"
 type: docs
-weight: 970
+weight: 960
 url: /es/net/aspose.tasks/task/percentworkcomplete/
 ---
 ## Task.PercentWorkComplete property
@@ -17,7 +17,7 @@ public int PercentWorkComplete { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

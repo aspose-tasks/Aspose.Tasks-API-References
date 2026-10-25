@@ -1,55 +1,87 @@
 ---
-title: VbaReference.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: VbaReference método. Devuelve un valor que indica si esta instancia es igual a la especificadaVbaReference objeto.
+title: "VbaReference.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método VbaReference. Devuelve un valor que indica si esta instancia es igual al objeto VbaReference especificado"
 type: docs
 weight: 40
 url: /es/net/aspose.tasks/vbareference/equals/
 ---
 ## Equals(VbaReference) {#equals}
 
-Devuelve un valor que indica si esta instancia es igual a la especificada[`VbaReference`](../) objeto.
+Devuelve un valor que indica si esta instancia es igual al objeto [`VbaReference`](../) especificado.
 
 ```csharp
 public bool Equals(VbaReference other)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| other | VbaReference | El especificado[`VbaReference`](../) objeto para comparar con esta instancia. |
+| other | VbaReference | El objeto [`VbaReference`](../) especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Devuelve verdadero si esta instancia es igual a la especificada[`VbaReference`](../) objeto; en caso contrario, falso.
+Devuelve true si esta instancia es igual al objeto [`VbaReference`](../) especificado; de lo contrario, false.
+
+## Ejemplos
+
+Muestra cómo comprobar la igualdad de referencias VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// La igualdad de referencias se verifica contra el nombre de la referencia.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
 
 ### Ver también
 
 * class [VbaReference](../)
-* espacio de nombres [Aspose.Tasks](../../vbareference/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-Devuelve un valor que indica si esta instancia es igual a la especificada[`VbaReference`](../) objeto.
+Devuelve un valor que indica si esta instancia es igual al objeto [`VbaReference`](../) especificado.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El especificado[`VbaReference`](../) objeto para comparar con esta instancia. |
+| obj | Object | El objeto [`VbaReference`](../) especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Devuelve verdadero si esta instancia es igual a la especificada[`VbaReference`](../) objeto; en caso contrario, falso.
+Devuelve true si esta instancia es igual al objeto [`VbaReference`](../) especificado; de lo contrario, false.
+
+## Ejemplos
+
+Muestra cómo comprobar la igualdad de referencias VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// La igualdad de referencias se verifica contra el nombre de la referencia.
+Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
+Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
+Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
+```
 
 ### Ver también
 
 * class [VbaReference](../)
-* espacio de nombres [Aspose.Tasks](../../vbareference/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

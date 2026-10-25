@@ -1,9 +1,9 @@
 ---
-title: Tsk.Id
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. El identificador de posición de una tarea dentro de la lista de tareas.
+title: "Tsk.Id"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. El identificador de posición de una tarea dentro de la lista de tareas"
 type: docs
-weight: 530
+weight: 520
 url: /es/net/aspose.tasks/tsk/id/
 ---
 ## Tsk.Id field
@@ -14,12 +14,39 @@ El identificador de posición de una tarea dentro de la lista de tareas.
 public static readonly Key<int, TaskKey> Id;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir propiedades de tareas.
+
+```csharp
+var project = new Project();
+
+// Agregar tarea y establecer propiedades de la tarea
+var task = project.RootTask.Children.Add();
+task.Set(Tsk.Name, "Task1");
+task.Set(Tsk.Start, new DateTime(2020, 3, 31, 8, 0, 0));
+task.Set(Tsk.Finish, new DateTime(2020, 3, 31, 17, 0, 0));
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizar todas las tareas recopiladas
+foreach (var tsk in collector.Tasks)
+{
+    Console.WriteLine("Task Id: {0}", tsk.Get(Tsk.Id));
+    Console.WriteLine("Task Uid: {0}", tsk.Get(Tsk.Uid));
+    Console.WriteLine("Task Name: {0}", tsk.Get(Tsk.Name));
+    Console.WriteLine("Task Start: {0}", tsk.Get(Tsk.Start));
+    Console.WriteLine("Task Finish: {0}", tsk.Get(Tsk.Finish));
+}
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

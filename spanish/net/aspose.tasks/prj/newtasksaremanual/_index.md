@@ -1,17 +1,29 @@
 ---
-title: Prj.NewTasksAreManual
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si se crearon nuevas tareas como manual.
+title: "Prj.NewTasksAreManual"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si las nuevas tareas se crean como manuales"
 type: docs
-weight: 540
+weight: 550
 url: /es/net/aspose.tasks/prj/newtasksaremanual/
 ---
 ## Prj.NewTasksAreManual field
 
-Determina si se crearon nuevas tareas como manual.
+Determina si las nuevas tareas se crean como manuales.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksAreManual;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.NewTasksAreManual.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksAreManual, true);
+
+Console.WriteLine("New Tasks Are Manual: " + project.Get(Prj.NewTasksAreManual));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> NewTasksAreManual;
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

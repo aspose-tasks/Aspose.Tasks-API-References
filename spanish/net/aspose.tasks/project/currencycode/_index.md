@@ -1,9 +1,9 @@
 ---
-title: Project.CurrencyCode
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de CurrencyCode.
+title: "Project.CurrencyCode"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor de CurrencyCode."
 type: docs
-weight: 190
+weight: 200
 url: /es/net/aspose.tasks/project/currencycode/
 ---
 ## Project.CurrencyCode property
@@ -17,7 +17,7 @@ public string CurrencyCode { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

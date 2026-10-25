@@ -1,9 +1,9 @@
 ---
-title: Enum PresentationFormat
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Visualization.PresentationFormat enumeración. Enumeración para formato de presentación.
+title: "Enumeración PresentationFormat"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Aspose.Tasks.Visualization.PresentationFormat enum. Enumeración para el formato de presentación"
 type: docs
-weight: 2920
+weight: 3270
 url: /es/net/aspose.tasks.visualization/presentationformat/
 ---
 ## PresentationFormat enumeration
@@ -19,14 +19,28 @@ public enum PresentationFormat
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | GanttChart | `0` | Formato de presentación del diagrama de Gantt. |
-| TaskUsage | `1` | Formato de presentación de uso de tareas. |
-| ResourceUsage | `2` | Formato de presentación de uso de recursos. |
-| ResourceSheet | `3` | Formato de presentación de hoja de recursos. |
+| TaskUsage | `1` | Formato de presentación del uso de tareas. |
+| ResourceUsage | `2` | Formato de presentación del uso de recursos. |
+| ResourceSheet | `3` | Formato de presentación de la hoja de recursos. |
 | TaskSheet | `4` | Formato de presentación de la hoja de tareas. |
+
+## Ejemplos
+
+Muestra cómo renderizar la vista de hoja de recursos.
+
+```csharp
+var project = new Project(DataDir + "ResourceSheetView.mpp");
+
+SaveOptions options = new PdfSaveOptions();
+
+// Establezca el formato de presentación a Hoja de recursos
+options.PresentationFormat = PresentationFormat.ResourceSheet;
+project.Save(OutDir + "ResourceSheetView_out.pdf", options);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

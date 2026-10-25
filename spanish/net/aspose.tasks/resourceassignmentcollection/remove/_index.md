@@ -1,32 +1,32 @@
 ---
-title: ResourceAssignmentCollection.Remove
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignmentCollection método. Elimina la asignación especificada de la colección si no es de solo lectura de lo contrario lanza NotSupportedException.
+title: "ResourceAssignmentCollection.Remove"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ResourceAssignmentCollection. Elimina la asignación especificada de la colección si no es de solo lectura; de lo contrario, lanza NotSupportedException"
 type: docs
 weight: 80
 url: /es/net/aspose.tasks/resourceassignmentcollection/remove/
 ---
 ## ResourceAssignmentCollection.Remove method
 
-Elimina la asignación especificada de la colección, si no es de solo lectura, de lo contrario lanza NotSupportedException.
+Elimina la asignación especificada de la colección, si no es de solo lectura; de lo contrario, lanza NotSupportedException.
 
 ```csharp
 public bool Remove(ResourceAssignment item)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| item | ResourceAssignment | La tarea a eliminar. |
+| elemento | ResourceAssignment | La asignación a eliminar. |
 
-### Valor_devuelto
+### Valor devuelto
 
-verdadero, si se eliminó el elemento especificado; de lo contrario, falso.
+true, si el elemento especificado fue eliminado, false de lo contrario.
 
 ### Ver también
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [ResourceAssignmentCollection](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignmentcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

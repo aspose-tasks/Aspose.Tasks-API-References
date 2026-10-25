@@ -1,14 +1,14 @@
 ---
-title: BarStyle.RightField
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: BarStyle propiedad. Obtiene o establece un campo para que se muestre a la derecha de la barra.
+title: "BarStyle.RightField"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad BarStyle. Obtiene o establece un campo que se mostrará a la derecha de la barra"
 type: docs
-weight: 140
+weight: 160
 url: /es/net/aspose.tasks.visualization/barstyle/rightfield/
 ---
 ## BarStyle.RightField property
 
-Obtiene o establece un campo para que se muestre a la derecha de la barra.
+Obtiene o establece un campo que se mostrará a la derecha de la barra.
 
 ```csharp
 public Field RightField { get; set; }
@@ -18,7 +18,7 @@ public Field RightField { get; set; }
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* espacio de nombres [Aspose.Tasks.Visualization](../../barstyle/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

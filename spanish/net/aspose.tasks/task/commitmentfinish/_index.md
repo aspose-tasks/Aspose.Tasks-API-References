@@ -1,7 +1,7 @@
 ---
-title: Task.CommitmentFinish
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de CommitmentFinish.
+title: "Task.CommitmentFinish"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de CommitmentFinish"
 type: docs
 weight: 200
 url: /es/net/aspose.tasks/task/commitmentfinish/
@@ -17,7 +17,7 @@ public DateTime CommitmentFinish { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

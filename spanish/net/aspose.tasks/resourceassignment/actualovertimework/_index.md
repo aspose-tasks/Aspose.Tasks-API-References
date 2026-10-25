@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ActualOvertimeWork
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de ActualOvertimeWork.
+title: "ResourceAssignment.ActualOvertimeWork"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceAssignment. Obtiene o establece un valor de ActualOvertimeWork"
 type: docs
 weight: 40
 url: /es/net/aspose.tasks/resourceassignment/actualovertimework/
@@ -18,7 +18,7 @@ public Duration ActualOvertimeWork { get; set; }
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

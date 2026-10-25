@@ -1,9 +1,9 @@
 ---
-title: Project.CustomDateFormat
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de CustomDateFormat.
+title: "Project.CustomDateFormat"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor de CustomDateFormat"
 type: docs
-weight: 240
+weight: 250
 url: /es/net/aspose.tasks/project/customdateformat/
 ---
 ## Project.CustomDateFormat property
@@ -17,7 +17,7 @@ public string CustomDateFormat { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Task.HideBar
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor que indica si HideBar está configurado o no.
+title: "Task.HideBar"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor que indica si HideBar está configurado o no"
 type: docs
 weight: 520
 url: /es/net/aspose.tasks/task/hidebar/
 ---
 ## Task.HideBar property
 
-Obtiene o establece un valor que indica si HideBar está configurado o no.
+Obtiene o establece un valor que indica si HideBar está establecido o no.
 
 ```csharp
 public NullableBool HideBar { get; set; }
@@ -18,7 +18,7 @@ public NullableBool HideBar { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

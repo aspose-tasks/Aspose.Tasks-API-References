@@ -1,9 +1,9 @@
 ---
-title: Prj.Title
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. El título de un proyecto.
+title: "Prj.Title"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. El título de un proyecto"
 type: docs
-weight: 740
+weight: 750
 url: /es/net/aspose.tasks/prj/title/
 ---
 ## Prj.Title field
@@ -14,12 +14,24 @@ El título de un proyecto.
 public static readonly Key<string, PrjKey> Title;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.Title.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Title, "MS Project");
+
+Console.WriteLine("Title: " + project.Get(Prj.Title));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

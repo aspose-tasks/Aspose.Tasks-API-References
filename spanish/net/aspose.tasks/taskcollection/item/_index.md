@@ -1,7 +1,7 @@
 ---
-title: TaskCollection.Item
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TaskCollection propiedad. Devuelve el elemento en el índice especificado.
+title: "TaskCollection.Item"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad TaskCollection. Devuelve el elemento en el índice especificado."
 type: docs
 weight: 30
 url: /es/net/aspose.tasks/taskcollection/item/
@@ -16,9 +16,9 @@ public Task this[int index] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | El índice de base cero del elemento que se va a obtener. |
+| índice | El índice basado en cero del elemento a obtener. |
 
-### Valor_devuelto
+### Valor devuelto
 
 el elemento en el índice especificado.
 
@@ -26,7 +26,7 @@ el elemento en el índice especificado.
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* espacio de nombres [Aspose.Tasks](../../taskcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

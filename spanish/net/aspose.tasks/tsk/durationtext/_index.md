@@ -1,9 +1,9 @@
 ---
-title: Tsk.DurationText
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. Devuelve el texto de duración de la tarea.
+title: "Tsk.DurationText"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. Devuelve el texto de duración de la tarea"
 type: docs
-weight: 320
+weight: 310
 url: /es/net/aspose.tasks/tsk/durationtext/
 ---
 ## Tsk.DurationText field
@@ -14,12 +14,26 @@ Devuelve el texto de duración de la tarea.
 public static readonly Key<string, TaskKey> DurationText;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.DurationText.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.DurationText, "Not A Duration");
+
+Console.WriteLine("Duration Text: " + task.Get(Tsk.DurationText));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

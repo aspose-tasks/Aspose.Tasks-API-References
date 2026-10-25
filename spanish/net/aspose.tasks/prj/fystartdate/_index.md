@@ -1,9 +1,9 @@
 ---
-title: Prj.FyStartDate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. El mes en que comienza el año fiscal.
+title: "Prj.FyStartDate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. El mes en que comienza el año fiscal"
 type: docs
-weight: 340
+weight: 350
 url: /es/net/aspose.tasks/prj/fystartdate/
 ---
 ## Prj.FyStartDate field
@@ -14,13 +14,29 @@ El mes en que comienza el año fiscal.
 public static readonly Key<Month, PrjKey> FyStartDate;
 ```
 
+## Ejemplos
+
+Muestra cómo escribir las propiedades del año fiscal.
+
+```csharp
+var project = new Project(DataDir + "WriteFiscalYearProperties.mpp");
+
+// Establecer propiedades del año fiscal
+project.Set(Prj.FyStartDate, Month.July);
+project.Set(Prj.FiscalYearStart, true);
+
+// Mostrar propiedades del año fiscal
+Console.WriteLine("Fiscal Year Start Date: " + project.Get(Prj.FyStartDate));
+Console.WriteLine("Fiscal Year Numbering: " + project.Get(Prj.FiscalYearStart));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [Month](../../month/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Calendar.Name
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Calendar propiedad. Obtiene o establece el nombre del calendario.
+title: "Calendar.Name"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Calendar. Obtiene o establece el nombre del calendario"
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.tasks/calendar/name/
 ---
 ## Calendar.Name property
@@ -14,10 +14,30 @@ Obtiene o establece el nombre del calendario.
 public string Name { get; set; }
 ```
 
+## Ejemplos
+
+Muestra cómo recuperar la información del calendario.
+
+```csharp
+var project = new Project(DataDir + "RetrieveCalendarInfo.mpp");
+
+// Recuperar información de los calendarios
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Calendar UID: " + calendar.Uid);
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
 ### Ver también
 
 * class [Calendar](../)
-* espacio de nombres [Aspose.Tasks](../../calendar/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

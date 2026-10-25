@@ -1,9 +1,9 @@
 ---
-title: Class TasksException
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.TasksException clase. Representa el tipo de excepción interna estándar.
+title: "Clase TasksException"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.TasksException. Representa el tipo de excepción interno estándar"
 type: docs
-weight: 2210
+weight: 2520
 url: /es/net/aspose.tasks/tasksexception/
 ---
 ## TasksException class
@@ -14,9 +14,28 @@ Representa el tipo de excepción interna estándar.
 public class TasksException : ApplicationException
 ```
 
+## Ejemplos
+
+Muestra cómo detectar la estructura rota del proyecto.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// verificar la estructura del proyecto.
+// Se lanzará el <see cref="TasksException"> si la estructura del proyecto es incorrecta.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

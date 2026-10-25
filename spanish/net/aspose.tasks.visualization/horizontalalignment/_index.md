@@ -1,14 +1,14 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Visualization.HorizontalAlignment enumeración. Especifica cómo se alinea horizontalmente un objeto o texto en relación con otro objeto.
+title: "Enumeración HorizontalAlignment"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enumeración Aspose.Tasks.Visualization.HorizontalAlignment. Especifica cómo se alinea horizontalmente un objeto o texto respecto a otro objeto."
 type: docs
-weight: 2810
+weight: 3140
 url: /es/net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-Especifica cómo se alinea horizontalmente un objeto o texto en relación con otro objeto.
+Especifica cómo se alinea horizontalmente un objeto o texto respecto a otro objeto.
 
 ```csharp
 public enum HorizontalAlignment
@@ -18,12 +18,12 @@ public enum HorizontalAlignment
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Left | `0` | El objeto se alinea a la izquierda del elemento de destino. |
-| Right | `1` | El objeto se alinea a la derecha del elemento de destino. |
+| Left | `0` | El objeto está alineado a la izquierda del elemento objetivo. |
+| Right | `1` | El objeto está alineado a la derecha del elemento objetivo. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

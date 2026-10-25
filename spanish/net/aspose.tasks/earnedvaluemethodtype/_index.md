@@ -1,7 +1,7 @@
 ---
-title: Enum EarnedValueMethodType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.EarnedValueMethodType enumeración. Especifica el método utilizado para calcular el valor ganado.
+title: "Enum EarnedValueMethodType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Aspose.Tasks.EarnedValueMethodType enum. Especifica el método utilizado para calcular el valor ganado"
 type: docs
 weight: 480
 url: /es/net/aspose.tasks/earnedvaluemethodtype/
@@ -22,13 +22,24 @@ public enum EarnedValueMethodType
 | PercentComplete | `0` | Porcentaje completado |
 | PhysicalPercentComplete | `1` | Porcentaje físico completado |
 
-### Observaciones
+## Observaciones
 
-Al exportar a XML, los valores no definidos se eliminarán del XML resultante.
+Al exportar a XML, los valores Undefined se eliminarán del XML resultante.
+
+## Ejemplos
+
+Muestra cómo especificar el método utilizado para calcular el valor ganado (EarnedValueMethodType.PercentComplete).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// establecer el tipo de método de valor ganado a 'PercentComplete'
+project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
+// trabajar con el proyecto...
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

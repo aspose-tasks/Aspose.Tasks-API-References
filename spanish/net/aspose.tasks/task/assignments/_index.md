@@ -1,7 +1,7 @@
 ---
-title: Task.Assignments
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene una colección de asignaciones de recursos para este objeto.
+title: "Task.Assignments"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene una colección de asignaciones de recursos para este objeto"
 type: docs
 weight: 120
 url: /es/net/aspose.tasks/task/assignments/
@@ -14,11 +14,30 @@ Obtiene una colección de asignaciones de recursos para este objeto.
 public ResourceAssignmentCollection Assignments { get; }
 ```
 
+## Ejemplos
+
+Muestra cómo iterar sobre las asignaciones de la tarea.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // mostrar asignaciones de la tarea
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
 ### Ver también
 
 * class [ResourceAssignmentCollection](../../resourceassignmentcollection/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

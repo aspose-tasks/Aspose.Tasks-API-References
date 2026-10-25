@@ -1,17 +1,31 @@
 ---
-title: Tsk.CommitmentFinish
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. La fecha de finalización de una entrega.  Lectura admitida solo para formato XML.
+title: "Tsk.CommitmentFinish"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. La fecha de finalización de una entrega.  Lectura compatible solo con formato XML"
 type: docs
 weight: 170
 url: /es/net/aspose.tasks/tsk/commitmentfinish/
 ---
 ## Tsk.CommitmentFinish field
 
-La fecha de finalización de una entrega.  Lectura admitida solo para formato XML.
+La fecha de finalización de una entrega. Lectura compatible solo con formato XML.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> CommitmentFinish;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.CommitmentFinish.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.CommitmentFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Commitment Finish: " + task.Get(Tsk.CommitmentFinish));
 ```
 
 ### Ver también
@@ -19,7 +33,7 @@ public static readonly Key<DateTime, TaskKey> CommitmentFinish;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

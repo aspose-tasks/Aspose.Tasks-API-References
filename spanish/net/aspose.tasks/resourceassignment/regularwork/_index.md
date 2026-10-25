@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.RegularWork
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de RegularWork.
+title: "ResourceAssignment.RegularWork"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de RegularWork"
 type: docs
 weight: 460
 url: /es/net/aspose.tasks/resourceassignment/regularwork/
@@ -18,7 +18,7 @@ public Duration RegularWork { get; set; }
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

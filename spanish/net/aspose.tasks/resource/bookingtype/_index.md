@@ -1,7 +1,7 @@
 ---
-title: Resource.BookingType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de BookingType.
+title: "Resource.BookingType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor de BookingType"
 type: docs
 weight: 190
 url: /es/net/aspose.tasks/resource/bookingtype/
@@ -18,7 +18,7 @@ public BookingType BookingType { get; set; }
 
 * enum [BookingType](../../bookingtype/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,17 +1,34 @@
 ---
-title: Asn.WorkVariance
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Asn campo. La diferencia entre el trabajo de referencia de una tarea y el trabajo programado actualmente.
+title: "Asn.WorkVariance"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Asn. La diferencia entre el trabajo de referencia de una tarea y el trabajo actualmente programado"
 type: docs
 weight: 620
 url: /es/net/aspose.tasks/asn/workvariance/
 ---
 ## Asn.WorkVariance field
 
-La diferencia entre el trabajo de referencia de una tarea y el trabajo programado actualmente.
+La diferencia entre el trabajo de línea base de una tarea y el trabajo programado actualmente.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> WorkVariance;
+```
+
+## Ejemplos
+
+Muestra cómo leer las variaciones de la asignación.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentVariance.mpp");
+
+// Imprimir variaciones de la asignación
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.WorkVariance));
+    Console.WriteLine(ra.Get(Asn.CostVariance));
+    Console.WriteLine(ra.Get(Asn.StartVariance));
+    Console.WriteLine(ra.Get(Asn.FinishVariance));
+}
 ```
 
 ### Ver también
@@ -20,7 +37,7 @@ public static readonly Key<Duration, AsnKey> WorkVariance;
 * struct [Duration](../../duration/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* espacio de nombres [Aspose.Tasks](../../asn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

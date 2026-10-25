@@ -1,9 +1,9 @@
 ---
-title: Task.PreleveledFinish
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de PreleveledFinish.
+title: "Task.PreleveledFinish"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de PreleveledFinish"
 type: docs
-weight: 1000
+weight: 990
 url: /es/net/aspose.tasks/task/preleveledfinish/
 ---
 ## Task.PreleveledFinish property
@@ -17,7 +17,7 @@ public DateTime PreleveledFinish { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

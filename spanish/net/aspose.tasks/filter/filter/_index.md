@@ -1,14 +1,14 @@
 ---
-title: Filter.Filter
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Filter constructor. Constructor predeterminado
+title: "Filter.Filter"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor Filter. El constructor predeterminado."
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/filter/filter/
 ---
 ## Filter constructor
 
-Constructor predeterminado
+El constructor predeterminado.
 
 ```csharp
 public Filter()
@@ -17,7 +17,7 @@ public Filter()
 ### Ver también
 
 * class [Filter](../)
-* espacio de nombres [Aspose.Tasks](../../filter/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

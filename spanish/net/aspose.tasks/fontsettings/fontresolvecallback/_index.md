@@ -1,0 +1,55 @@
+---
+title: "FontSettings.FontResolveCallback"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad FontSettings. Obtiene o establece una devolución de llamada que puede usarse para personalizar las fuentes resueltas."
+type: docs
+weight: 30
+url: /es/net/aspose.tasks/fontsettings/fontresolvecallback/
+---
+## FontSettings.FontResolveCallback property
+
+Obtiene o establece una devolución de llamada que puede usarse para personalizar las fuentes resueltas.
+
+```csharp
+public FontResolveCallbackDelegate FontResolveCallback { get; set; }
+```
+
+## Ejemplos
+
+Muestra cómo establecer una devolución de llamada de resolución de fuentes personalizada para ejecutar código definido por el usuario y establecer una fuente de respaldo o sustituir la fuente específica.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.GanttChart,
+};
+
+options.FontSettings.FontResolveCallback = delegate(FontResolveEventArgs args)
+{
+    if (args.RequestedFontName != args.ResolvedFontName)
+    {
+        // Parece que no se pudo encontrar la fuente exacta y se estableció la fuente de respaldo.
+        // Podemos sobrescribir la fuente de respaldo.
+        args.ResolvedFontName = "Arial";
+    }
+
+    // O simplemente sustituir la fuente específica:
+    if (args.RequestedFontName == "Comic Sans MS")
+    {
+        args.ResolvedFontName = "Arial";
+    }
+};
+
+project.Save(OutDir + "EstimatedMilestoneTasks_out3.pdf", options);
+```
+
+### Ver también
+
+* delegate [FontResolveCallbackDelegate](../../fontresolvecallbackdelegate/)
+* class [FontSettings](../)
+* namespace [Aspose.Tasks](../../fontsettings/)
+* assembly [Aspose.Tasks](../../../)
+
+

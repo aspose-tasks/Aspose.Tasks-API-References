@@ -1,14 +1,14 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.ICssSavingCallback interfaz. Representa una devolución de llamada que se llama para crear un recurso para almacenar CSS.
+title: "Interfaz ICssSavingCallback"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Interfaz Aspose.Tasks.ICssSavingCallback. Representa una devolución de llamada que se invoca para crear un recurso donde almacenar CSS"
 type: docs
-weight: 780
+weight: 850
 url: /es/net/aspose.tasks/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
 
-Representa una devolución de llamada que se llama para crear un recurso para almacenar CSS.
+Representa una devolución de llamada que se invoca para crear un recurso que almacene CSS.
 
 ```csharp
 public interface ICssSavingCallback
@@ -20,9 +20,128 @@ public interface ICssSavingCallback
 | --- | --- |
 | [CssSaving](../../aspose.tasks/icsssavingcallback/csssaving/)(CssSavingArgs) | El método que se llamará al guardar CSS. |
 
+## Ejemplos
+
+Muestra cómo configurar el uso de devoluciones de llamada de guardado de CSS.
+
+```csharp
+public void ResourcePrefixForNestedResourcesExample()
+{
+    var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+    var options = ResourcePrefixForNestedResources.GetSaveOptions(1);
+    project.Save(OutDir + "document_out.html", options);
+}
+
+private class ResourcePrefixForNestedResources : ICssSavingCallback, IFontSavingCallback, IImageSavingCallback
+{
+    public void CssSaving(CssSavingArgs args)
+    {
+        if (!Directory.Exists(OutDir + "css/"))
+        {
+            Directory.CreateDirectory(OutDir + "css/");
+        }
+
+        var stream = new FileStream(OutDir + "css/" + args.FileName, FileMode.Create);
+        args.Stream = stream;
+        args.KeepStreamOpen = false;
+        args.Uri = OutDir + "css/" + args.FileName;
+    }
+
+    public void FontSaving(FontSavingArgs args)
+    {
+        if (!Directory.Exists(OutDir + "fonts/"))
+        {
+            Directory.CreateDirectory(OutDir + "fonts/");
+        }
+
+        var stream = new FileStream(OutDir + "fonts/" + args.FileName, FileMode.Create);
+        args.Stream = stream;
+        args.KeepStreamOpen = false;
+        args.Uri = OutDir + "fonts/" + args.FileName;
+    }
+
+    public void ImageSaving(ImageSavingArgs args)
+    {
+        if (!Directory.Exists(OutDir + "resources/"))
+        {
+            Directory.CreateDirectory(OutDir + "resources/");
+        }
+
+        if (!Directory.Exists(OutDir + "resources/nestedResources/"))
+        {
+            Directory.CreateDirectory(OutDir + "resources/nestedResources/");
+        }
+
+        if (args.FileName.EndsWith("png"))
+        {
+            var stream1 = new FileStream(OutDir + "resources/nestedResources/" + args.FileName, FileMode.Create);
+            args.Stream = stream1;
+            args.KeepStreamOpen = false;
+            args.Uri = OutDir + "resources/" + args.FileName;
+
+            // args.NestedUri = dataDir + \"nestedResources/\" + args.FileName;
+        }
+        else
+        {
+            var stream2 = new FileStream(OutDir + "resources/" + args.FileName, FileMode.Create);
+            args.Stream = stream2;
+            args.KeepStreamOpen = false;
+            args.Uri = OutDir + "resources/" + args.FileName;
+        }
+    }
+
+    public static HtmlSaveOptions GetSaveOptions(int pageNumber)
+    {
+        var options = new HtmlSaveOptions
+                          {
+                              Pages = new List<int>(),
+                              IncludeProjectNameInPageHeader = false,
+                              IncludeProjectNameInTitle = false,
+                              PageSize = PageSize.A3,
+                              Timescale = Timescale.ThirdsOfMonths,
+                              ReduceFooterGap = true,
+                              FontFaceTypes = FontFaceType.Ttf,
+                              ExportCss = ResourceExportType.AsFile,
+                              ExportFonts = ResourceExportType.AsFile,
+                              ExportImages = ResourceExportType.AsFile
+                          };
+
+        var program = new ResourcePrefixForNestedResources();
+        options.FontSavingCallback = program;
+        options.CssSavingCallback = program;
+        options.ImageSavingCallback = program;
+
+        options.Pages.Clear();
+        options.Pages.Add(pageNumber);
+
+        if (!Directory.Exists(DataDir + "fonts"))
+        {
+            Directory.CreateDirectory(DataDir + "fonts");
+        }
+
+        if (!Directory.Exists(DataDir + "resources"))
+        {
+            Directory.CreateDirectory(DataDir + "resources");
+        }
+
+        if (!Directory.Exists(DataDir + "nestedResources"))
+        {
+            Directory.CreateDirectory(DataDir + "resources/nestedResources");
+        }
+
+        if (!Directory.Exists(DataDir + "css"))
+        {
+            Directory.CreateDirectory(DataDir + "css");
+        }
+
+        return options;
+    }
+}
+```
+
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

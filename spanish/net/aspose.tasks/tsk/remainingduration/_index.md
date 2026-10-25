@@ -1,17 +1,31 @@
 ---
-title: Tsk.RemainingDuration
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. El tiempo que se requiere para completar la parte inconclusa de una tarea.
+title: "Tsk.RemainingDuration"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. El tiempo necesario para completar la parte no terminada de una tarea."
 type: docs
-weight: 980
+weight: 960
 url: /es/net/aspose.tasks/tsk/remainingduration/
 ---
 ## Tsk.RemainingDuration field
 
-El tiempo que se requiere para completar la parte inconclusa de una tarea.
+El tiempo necesario para completar la parte no terminada de una tarea.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> RemainingDuration;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.RemainingDuration.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.RemainingDuration, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Remaining Duration: " + task.Get(Tsk.RemainingDuration));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<Duration, TaskKey> RemainingDuration;
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

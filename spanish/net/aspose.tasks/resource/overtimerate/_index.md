@@ -1,9 +1,9 @@
 ---
-title: Resource.OvertimeRate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de OvertimeRate.
+title: "Resource.OvertimeRate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Resource. Obtiene o establece un valor de OvertimeRate"
 type: docs
-weight: 580
+weight: 570
 url: /es/net/aspose.tasks/resource/overtimerate/
 ---
 ## Resource.OvertimeRate property
@@ -17,7 +17,7 @@ public decimal OvertimeRate { get; set; }
 ### Ver también
 
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

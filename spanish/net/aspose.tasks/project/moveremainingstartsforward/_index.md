@@ -1,14 +1,14 @@
 ---
-title: Project.MoveRemainingStartsForward
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor que indica si MoveRemainingStartsForward está establecido o no.
+title: "Project.MoveRemainingStartsForward"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor que indica si MoveRemainingStartsForward está configurado o no"
 type: docs
-weight: 610
+weight: 630
 url: /es/net/aspose.tasks/project/moveremainingstartsforward/
 ---
 ## Project.MoveRemainingStartsForward property
 
-Obtiene o establece un valor que indica si MoveRemainingStartsForward está establecido o no.
+Obtiene o establece un valor que indica si MoveRemainingStartsForward está configurado o no.
 
 ```csharp
 public NullableBool MoveRemainingStartsForward { get; set; }
@@ -18,7 +18,7 @@ public NullableBool MoveRemainingStartsForward { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

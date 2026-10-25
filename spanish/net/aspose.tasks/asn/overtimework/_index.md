@@ -1,17 +1,36 @@
 ---
-title: Asn.OvertimeWork
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Asn campo. El trabajo de horas extra programado de una asignación.
+title: "Asn.OvertimeWork"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Asn. El trabajo extra programado de una asignación"
 type: docs
 weight: 380
 url: /es/net/aspose.tasks/asn/overtimework/
 ---
 ## Asn.OvertimeWork field
 
-El trabajo de horas extra programado de una asignación.
+El trabajo programado de horas extra de una asignación.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> OvertimeWork;
+```
+
+## Ejemplos
+
+Muestra cómo leer las horas extra/trabajos/costes restantes de una asignación.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentOvertimes.mpp");
+
+// Imprimir horas extra de la asignación
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.OvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.OvertimeCost));
+    Console.WriteLine(ra.Get(Asn.RemainingWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingCost));
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeCost));
+}
 ```
 
 ### Ver también
@@ -20,7 +39,7 @@ public static readonly Key<Duration, AsnKey> OvertimeWork;
 * struct [Duration](../../duration/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* espacio de nombres [Aspose.Tasks](../../asn/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

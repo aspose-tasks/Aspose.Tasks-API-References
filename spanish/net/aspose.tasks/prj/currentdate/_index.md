@@ -1,9 +1,9 @@
 ---
-title: Prj.CurrentDate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. La fecha del sistema.
+title: "Prj.CurrentDate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. La fecha del sistema"
 type: docs
-weight: 180
+weight: 190
 url: /es/net/aspose.tasks/prj/currentdate/
 ---
 ## Prj.CurrentDate field
@@ -14,12 +14,24 @@ La fecha del sistema.
 public static readonly Key<DateTime, PrjKey> CurrentDate;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.CurrentDate.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CurrentDate, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Current Date: " + project.Get(Prj.CurrentDate));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

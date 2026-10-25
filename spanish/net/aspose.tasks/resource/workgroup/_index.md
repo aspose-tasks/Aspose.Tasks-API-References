@@ -1,9 +1,9 @@
 ---
-title: Resource.Workgroup
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de Workgroup.
+title: "Resource.Workgroup"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor de Workgroup"
 type: docs
-weight: 800
+weight: 790
 url: /es/net/aspose.tasks/resource/workgroup/
 ---
 ## Resource.Workgroup property
@@ -18,7 +18,7 @@ public WorkGroupType Workgroup { get; set; }
 
 * enum [WorkGroupType](../../workgrouptype/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

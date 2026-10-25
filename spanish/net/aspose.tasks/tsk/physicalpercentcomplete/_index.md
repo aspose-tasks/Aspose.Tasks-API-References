@@ -1,17 +1,31 @@
 ---
-title: Tsk.PhysicalPercentComplete
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. Porcentaje de valor completo que se puede usar como alternativa para calcular el costo presupuestado del trabajo realizado BCWP.
+title: "Tsk.PhysicalPercentComplete"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. Valor de porcentaje completado que puede usarse como alternativa para calcular el costo presupuestado del trabajo realizado (BCWP)"
 type: docs
-weight: 920
+weight: 900
 url: /es/net/aspose.tasks/tsk/physicalpercentcomplete/
 ---
 ## Tsk.PhysicalPercentComplete field
 
-Porcentaje de valor completo que se puede usar como alternativa para calcular el costo presupuestado del trabajo realizado (BCWP).
+Valor de porcentaje completado que puede usarse como alternativa para calcular el costo presupuestado del trabajo realizado (BCWP).
 
 ```csharp
 public static readonly Key<int, TaskKey> PhysicalPercentComplete;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.PhysicalPercentComplete.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.PhysicalPercentComplete, 10);
+
+Console.WriteLine("Physical Percent Complete: " + task.Get(Tsk.PhysicalPercentComplete));
 ```
 
 ### Ver también
@@ -19,7 +33,7 @@ public static readonly Key<int, TaskKey> PhysicalPercentComplete;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,17 +1,29 @@
 ---
-title: Prj.ExtendedCreationDate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Fecha utilizada para cálculo y generación de informes.
+title: "Prj.ExtendedCreationDate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Fecha utilizada para cálculo e informes"
 type: docs
-weight: 310
+weight: 320
 url: /es/net/aspose.tasks/prj/extendedcreationdate/
 ---
 ## Prj.ExtendedCreationDate field
 
-Fecha utilizada para cálculo y generación de informes.
+Fecha utilizada para el cálculo y la generación de informes.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> ExtendedCreationDate;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.ExtendedCreationDate.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ExtendedCreationDate, new DateTime(2020, 4, 10, 9, 0, 0));
+
+Console.WriteLine("Extended Creation Date: " + project.Get(Prj.ExtendedCreationDate));
 ```
 
 ### Ver también
@@ -19,7 +31,7 @@ public static readonly Key<DateTime, PrjKey> ExtendedCreationDate;
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

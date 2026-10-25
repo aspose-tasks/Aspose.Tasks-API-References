@@ -1,9 +1,9 @@
 ---
-title: Tsk.StartText
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. Devuelve el texto de inicio de la tarea.
+title: "Tsk.StartText"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. Devuelve el texto de inicio de la tarea"
 type: docs
-weight: 1050
+weight: 1030
 url: /es/net/aspose.tasks/tsk/starttext/
 ---
 ## Tsk.StartText field
@@ -14,12 +14,26 @@ Devuelve el texto de inicio de la tarea.
 public static readonly Key<string, TaskKey> StartText;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.StartText.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StartText, "Start Task Text");
+
+Console.WriteLine("Start Text: " + task.Get(Tsk.StartText));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

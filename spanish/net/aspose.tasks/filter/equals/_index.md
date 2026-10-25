@@ -1,7 +1,7 @@
 ---
-title: Filter.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Filter método. Devuelve un valor que indica si esta instancia es igual al objeto AssignmentBaseline especificado.
+title: "Filter.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método Filter. Devuelve un valor que indica si esta instancia es igual al objeto AssignmentBaseline especificado."
 type: docs
 weight: 100
 url: /es/net/aspose.tasks/filter/equals/
@@ -14,19 +14,36 @@ Devuelve un valor que indica si esta instancia es igual al objeto AssignmentBase
 public bool Equals(Filter other)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| other | Filter | el objeto AssignmentBaseline especificado para compararlo con esta instancia. |
+| otro | Filter | el objeto AssignmentBaseline especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve verdadero si esta instancia es igual al objeto AssignmentBaseline especificado; en caso contrario, falso.
+devuelve true si esta instancia es igual al objeto AssignmentBaseline especificado; de lo contrario, false.
+
+## Ejemplos
+
+Muestra cómo comprobar la igualdad del filtro.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// la igualdad de los filtros se verifica contra el UID del filtro.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
 
 ### Ver también
 
 * class [Filter](../)
-* espacio de nombres [Aspose.Tasks](../../filter/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,18 +55,35 @@ Devuelve un valor que indica si esta instancia es igual al objeto AssignmentBase
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | el objeto AssignmentBaseline especificado para compararlo con esta instancia. |
+| obj | Objeto | el objeto AssignmentBaseline especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-devuelve verdadero si esta instancia es igual al objeto AssignmentBaseline especificado; en caso contrario, falso.
+devuelve true si esta instancia es igual al objeto AssignmentBaseline especificado; de lo contrario, false.
+
+## Ejemplos
+
+Muestra cómo comprobar la igualdad del filtro.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// la igualdad de los filtros se verifica contra el UID del filtro.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
 
 ### Ver también
 
 * class [Filter](../)
-* espacio de nombres [Aspose.Tasks](../../filter/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

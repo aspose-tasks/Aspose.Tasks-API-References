@@ -1,7 +1,7 @@
 ---
-title: FontResolveEventArgs.RequestedFontName
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: FontResolveEventArgs propiedad. Obtiene el nombre de la fuente solicitada.
+title: "FontResolveEventArgs.RequestedFontName"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad FontResolveEventArgs. Obtiene el nombre de la fuente solicitada"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/fontresolveeventargs/requestedfontname/
@@ -17,7 +17,7 @@ public string RequestedFontName { get; }
 ### Ver también
 
 * class [FontResolveEventArgs](../)
-* espacio de nombres [Aspose.Tasks](../../fontresolveeventargs/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontresolveeventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

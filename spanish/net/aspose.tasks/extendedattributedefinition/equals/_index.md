@@ -1,31 +1,47 @@
 ---
-title: ExtendedAttributeDefinition.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ExtendedAttributeDefinition método. Devuelve un indicador que indica si esta instancia es igual al objeto especificado.
+title: "ExtendedAttributeDefinition.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ExtendedAttributeDefinition. Devuelve una bandera que indica si esta instancia es igual al objeto especificado."
 type: docs
-weight: 310
+weight: 320
 url: /es/net/aspose.tasks/extendedattributedefinition/equals/
 ---
 ## ExtendedAttributeDefinition.Equals method
 
-Devuelve un indicador que indica si esta instancia es igual al objeto especificado.
+Devuelve una bandera que indica si esta instancia es igual al objeto especificado.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | el objeto especificado para compararlo con esta instancia. |
+| obj | Objeto | el objeto especificado para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
 una bandera que indica si esta instancia es igual al objeto especificado.
+
+## Ejemplos
+
+Muestra cómo comprobar la igualdad de la definición de atributo extendido.
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+var attributeDefinition1 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Start3);
+var attributeDefinition2 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Duration2);
+
+// la igualdad de los calendarios se verifica contra los IDs de campo de la definición de atributo.
+Console.WriteLine("ExtendedAttribute 1 Field Id: " + attributeDefinition1.FieldId);
+Console.WriteLine("ExtendedAttribute 2 Field Id: " + attributeDefinition2.FieldId);
+Console.WriteLine("Are extended attributes equal: " + attributeDefinition1.Equals(attributeDefinition2));
+```
 
 ### Ver también
 
 * class [ExtendedAttributeDefinition](../)
-* espacio de nombres [Aspose.Tasks](../../extendedattributedefinition/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

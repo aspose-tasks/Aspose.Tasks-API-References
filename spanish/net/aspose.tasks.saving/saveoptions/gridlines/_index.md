@@ -1,24 +1,51 @@
 ---
-title: SaveOptions.Gridlines
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: SaveOptions propiedad. Obtiene o establece una lista deGridline que aparecen en la vista del proyecto.
+title: "SaveOptions.Gridlines"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad SaveOptions. Obtiene o establece una lista de Gridline que aparecen en la vista del proyecto."
 type: docs
-weight: 70
+weight: 60
 url: /es/net/aspose.tasks.saving/saveoptions/gridlines/
 ---
 ## SaveOptions.Gridlines property
 
-Obtiene o establece una lista de[`Gridline`](../../../aspose.tasks.visualization/gridline/) que aparecen en la vista del proyecto.
+Obtiene o establece una lista de [`Gridline`](../../../aspose.tasks.visualization/gridline/) que aparecen en la vista del proyecto.
 
 ```csharp
 public List<Gridline> Gridlines { get; set; }
+```
+
+## Ejemplos
+
+Muestra cómo guardar el diseño en archivos separados.
+
+```csharp
+var project = new Project(DataDir + "Homemoveplan.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Png);
+options.StartDate = project.Get(Prj.StartDate).AddDays(-3);
+options.EndDate = project.Get(Prj.FinishDate);
+options.MarkCriticalTasks = true;
+options.LegendDrawingOptions = LegendDrawingOptions.NoLegend;
+options.FontSettings.DefaultFontName = "Segoe UI Black";
+options.FontSettings.UseProjectDefaultFont = false;
+options.PageSize = PageSize.Letter;
+
+options.Gridlines = new List<Gridline>();
+
+var gridline = new Gridline { GridlineType = GridlineType.GanttRow, Color = Color.CornflowerBlue, Pattern = LinePattern.Dashed };
+options.Gridlines.Add(gridline);
+
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles1_out.png", options);
+
+// Guardar el diseño del proyecto en archivos separados
+options.RenderToSinglePage = false;
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles2_out.png", options);
 ```
 
 ### Ver también
 
 * class [Gridline](../../../aspose.tasks.visualization/gridline/)
 * class [SaveOptions](../)
-* espacio de nombres [Aspose.Tasks.Saving](../../saveoptions/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

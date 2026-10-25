@@ -1,31 +1,57 @@
 ---
-title: Delegate AssignmentToColumnTextConverter
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Datos de asignación de recursos al convertidor de cadena de la columna.
+title: "Delegado AssignmentToColumnTextConverter"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Convertidor de cadena de datos ResourceAssignment a columnas"
 type: docs
-weight: 2590
+weight: 2920
 url: /es/net/aspose.tasks.visualization/assignmenttocolumntextconverter/
 ---
 ## AssignmentToColumnTextConverter delegate
 
-Datos de asignación de recursos al convertidor de cadena de la columna.
+Convertidor de datos ResourceAssignment a cadena de columna.
 
 ```csharp
 public delegate string AssignmentToColumnTextConverter(ResourceAssignment assignment);
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| assignment | ResourceAssignment | La tarea de convertir. |
+| asignación | ResourceAssignment | La asignación a convertir. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Cadena de datos para la columna.
+Datos de cadena para la columna.
+
+## Ejemplos
+
+Muestra cómo agregar columnas para vistas de asignación.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
 
 ### Ver también
 
 * class [ResourceAssignment](../../aspose.tasks/resourceassignment/)
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

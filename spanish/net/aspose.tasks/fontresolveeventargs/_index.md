@@ -1,7 +1,7 @@
 ---
-title: Class FontResolveEventArgs
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.FontResolveEventArgs clase. Proporciona argumentos para la devolución de llamada que se invoca cuando se resuelve la fuente.
+title: "Clase FontResolveEventArgs"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.FontResolveEventArgs. Proporciona argumentos para la devolución de llamada que se invoca cuando se resuelve la fuente"
 type: docs
 weight: 670
 url: /es/net/aspose.tasks/fontresolveeventargs/
@@ -19,11 +19,11 @@ public sealed class FontResolveEventArgs : EventArgs
 | Nombre | Descripción |
 | --- | --- |
 | [RequestedFontName](../../aspose.tasks/fontresolveeventargs/requestedfontname/) { get; } | Obtiene el nombre de la fuente solicitada. |
-| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | Obtiene o establece el nombre de la fuente resuelta. Se puede configurar para controlar las fuentes utilizadas para representar una vista. |
+| [ResolvedFontName](../../aspose.tasks/fontresolveeventargs/resolvedfontname/) { get; set; } | Obtiene o establece el nombre de la fuente resuelta. Puede establecerse para controlar las fuentes usadas al renderizar una vista. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

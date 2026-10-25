@@ -1,9 +1,9 @@
 ---
-title: Project.FinishDate
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de FinishDate.
+title: "Project.FinishDate"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Project. Obtiene o establece un valor de FinishDate"
 type: docs
-weight: 420
+weight: 430
 url: /es/net/aspose.tasks/project/finishdate/
 ---
 ## Project.FinishDate property
@@ -17,7 +17,7 @@ public DateTime FinishDate { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

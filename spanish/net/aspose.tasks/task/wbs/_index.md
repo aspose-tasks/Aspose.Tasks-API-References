@@ -1,7 +1,7 @@
 ---
-title: Task.WBS
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de WBS.
+title: "Task.WBS"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor de WBS"
 type: docs
 weight: 1270
 url: /es/net/aspose.tasks/task/wbs/
@@ -17,7 +17,7 @@ public string WBS { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

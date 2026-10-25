@@ -1,17 +1,31 @@
 ---
-title: Tsk.IsExpanded
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Tsk campo. Determina si una tarea de resumen se expande o no en la vista GanttChart.
+title: "Tsk.IsExpanded"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Tsk. Determina si una tarea resumen está expandida o no en la vista GanttChart"
 type: docs
-weight: 600
+weight: 590
 url: /es/net/aspose.tasks/tsk/isexpanded/
 ---
 ## Tsk.IsExpanded field
 
-Determina si una tarea de resumen se expande o no en la vista GanttChart.
+Determina si una tarea de resumen está expandida o no en la vista de GanttChart.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsExpanded;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Tsk.IsExpanded.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsExpanded, true);
+
+Console.WriteLine("Is Expanded: " + task.Get(Tsk.IsExpanded));
 ```
 
 ### Ver también
@@ -20,7 +34,7 @@ public static readonly Key<NullableBool, TaskKey> IsExpanded;
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* espacio de nombres [Aspose.Tasks](../../tsk/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: TaskUtils.Apply
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TaskUtils método. Aplica el algoritmo especificado a cada tarea de un árbol.
+title: "TaskUtils.Apply"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método TaskUtils. Aplica el algoritmo especificado a cada tarea de un árbol"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks.util/taskutils/apply/
@@ -14,18 +14,36 @@ Aplica el algoritmo especificado a cada tarea de un árbol.
 public static void Apply(Task root, ITreeAlgorithm<Task> alg, int level)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| root | Task | raíz del árbol |
+| root | Tarea | Raíz del árbol |
 | alg | ITreeAlgorithm`1 | Algoritmo aplicado. |
-| level | Int32 | Nivel de la tarea raíz. |
+| nivel | Int32 | Nivel de la tarea raíz. |
+
+## Ejemplos
+
+Muestra cómo trabajar con un algoritmo de árbol.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// recopila todas las tareas del proyecto
+var coll = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, coll, 0);
+
+// trabaja con tareas como con una lista simple
+foreach (var task in coll.Tasks)
+{
+    Console.WriteLine("Task Name: " + task.Get(Tsk.Name));
+}
+```
 
 ### Ver también
 
 * class [Task](../../../aspose.tasks/task/)
 * interface [ITreeAlgorithm&lt;T&gt;](../../itreealgorithm-1/)
 * class [TaskUtils](../)
-* espacio de nombres [Aspose.Tasks.Util](../../taskutils/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../taskutils/)
+* assembly [Aspose.Tasks](../../../)
 
 

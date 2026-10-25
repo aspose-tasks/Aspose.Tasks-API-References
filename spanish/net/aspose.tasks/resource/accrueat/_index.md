@@ -1,14 +1,14 @@
 ---
-title: Resource.AccrueAt
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Resource propiedad. Obtiene o establece un valor de AccueAt.
+title: "Resource.AccrueAt"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Resource. Obtiene o establece un valor de AccrueAt"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/resource/accrueat/
 ---
 ## Resource.AccrueAt property
 
-Obtiene o establece un valor de AccueAt.
+Obtiene o establece un valor de AccrueAt.
 
 ```csharp
 public CostAccrualType AccrueAt { get; set; }
@@ -18,7 +18,7 @@ public CostAccrualType AccrueAt { get; set; }
 
 * enum [CostAccrualType](../../costaccrualtype/)
 * class [Resource](../)
-* espacio de nombres [Aspose.Tasks](../../resource/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

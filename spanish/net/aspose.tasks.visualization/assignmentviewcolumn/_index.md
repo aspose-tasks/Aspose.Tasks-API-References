@@ -1,9 +1,9 @@
 ---
-title: Class AssignmentViewColumn
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Visualization.AssignmentViewColumn clase. Clase de vista del proyecto.
+title: "Clase AssignmentViewColumn"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Visualization.AssignmentViewColumn. Clase de vista de proyectos"
 type: docs
-weight: 2600
+weight: 2930
 url: /es/net/aspose.tasks.visualization/assignmentviewcolumn/
 ---
 ## AssignmentViewColumn class
@@ -24,22 +24,48 @@ public class AssignmentViewColumn : ViewColumn
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field/) { get; set; } | Campo de columna. [`Field`](./field/) . |
+| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field/) { get; set; } | Campo de columna. [`Field`](./field/). |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name/) { get; } | Obtiene el nombre de la columna. |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | Obtiene o establece la alineación del texto (puede ser uno de los valores de la[`StringAlignment`](../viewcolumn/stringalignment/) enumeración). |
-| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | Obtiene o establece la devolución de llamada que se puede usar para personalizar la apariencia de las celdas de la columna. |
-| [Width](../../aspose.tasks.visualization/viewcolumn/width/) { get; } | Obtiene el ancho de columna. |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | Obtiene o establece la alineación del texto (puede ser uno de los valores de la enumeración [`HorizontalStringAlignment`](../horizontalstringalignment/)). |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | Obtiene o establece la devolución de llamada que puede usarse para personalizar la apariencia de las celdas de la columna. |
+| [Width](../../aspose.tasks.visualization/viewcolumn/width/) { get; } | Obtiene el ancho de la columna. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetColumnText](../../aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/)(ResourceAssignment) | Convierte la asignación de recursos actual al texto de la columna. |
+| [GetColumnText](../../aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/)(ResourceAssignment) | Convierte la asignación de recurso actual al texto de la columna. |
+
+## Ejemplos
+
+Muestra cómo agregar columnas para vistas de asignación.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
 
 ### Ver también
 
 * class [ViewColumn](../viewcolumn/)
-* espacio de nombres [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

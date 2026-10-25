@@ -1,7 +1,7 @@
 ---
-title: PageSavingArgs.Stream
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PageSavingArgs propiedad. Obtiene o establece un flujo para escribir una página.
+title: "PageSavingArgs.Stream"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad PageSavingArgs. Obtiene o establece un stream para escribir una página"
 type: docs
 weight: 30
 url: /es/net/aspose.tasks.saving/pagesavingargs/stream/
@@ -17,7 +17,7 @@ public Stream Stream { get; set; }
 ### Ver también
 
 * class [PageSavingArgs](../)
-* espacio de nombres [Aspose.Tasks.Saving](../../pagesavingargs/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

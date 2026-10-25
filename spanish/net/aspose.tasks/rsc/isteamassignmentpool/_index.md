@@ -1,7 +1,7 @@
 ---
-title: Rsc.IsTeamAssignmentPool
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Rsc campo. Muestra si el recurso actual es un recurso de equipo.
+title: "Rsc.IsTeamAssignmentPool"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Rsc. Muestra si el recurso actual es un recurso de equipo"
 type: docs
 weight: 430
 url: /es/net/aspose.tasks/rsc/isteamassignmentpool/
@@ -14,12 +14,26 @@ Muestra si el recurso actual es un recurso de equipo.
 public static readonly Key<bool, RscKey> IsTeamAssignmentPool;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Rsc.IsTeamAssignmentPool.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.IsTeamAssignmentPool, true);
+
+Console.WriteLine("Is Team Assignment Pool: " + resource.Get(Rsc.IsTeamAssignmentPool));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* espacio de nombres [Aspose.Tasks](../../rsc/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

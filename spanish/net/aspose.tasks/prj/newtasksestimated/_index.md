@@ -1,17 +1,29 @@
 ---
-title: Prj.NewTasksEstimated
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si se muestra una duración estimada por defecto.
+title: "Prj.NewTasksEstimated"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si una duración estimada se muestra por defecto"
 type: docs
-weight: 560
+weight: 570
 url: /es/net/aspose.tasks/prj/newtasksestimated/
 ---
 ## Prj.NewTasksEstimated field
 
-Determina si se muestra una duración estimada por defecto.
+Determina si una duración estimada se muestra por defecto.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksEstimated;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.NewTasksEstimated.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksEstimated, true);
+
+Console.WriteLine("New Tasks Estimated: " + project.Get(Prj.NewTasksEstimated));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> NewTasksEstimated;
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

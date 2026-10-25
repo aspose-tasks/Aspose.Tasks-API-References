@@ -1,9 +1,9 @@
 ---
-title: Project.LastSaved
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de LastSaved.
+title: "Project.LastSaved"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Project. Obtiene o establece un valor de LastSaved."
 type: docs
-weight: 530
+weight: 550
 url: /es/net/aspose.tasks/project/lastsaved/
 ---
 ## Project.LastSaved property
@@ -17,7 +17,7 @@ public DateTime LastSaved { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

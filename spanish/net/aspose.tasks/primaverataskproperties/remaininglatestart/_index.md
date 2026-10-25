@@ -1,14 +1,14 @@
 ---
-title: PrimaveraTaskProperties.RemainingLateStart
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraTaskProperties propiedad. Obtiene la fecha de inicio tardía restante.
+title: "PrimaveraTaskProperties.RemainingLateStart"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad PrimaveraTaskProperties. Obtiene la fecha de inicio tardío restante"
 type: docs
-weight: 140
+weight: 310
 url: /es/net/aspose.tasks/primaverataskproperties/remaininglatestart/
 ---
 ## PrimaveraTaskProperties.RemainingLateStart property
 
-Obtiene la fecha de inicio tardía restante.
+Obtiene la fecha de inicio tardío restante.
 
 ```csharp
 public DateTime RemainingLateStart { get; }
@@ -17,7 +17,7 @@ public DateTime RemainingLateStart { get; }
 ### Ver también
 
 * class [PrimaveraTaskProperties](../)
-* espacio de nombres [Aspose.Tasks](../../primaverataskproperties/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

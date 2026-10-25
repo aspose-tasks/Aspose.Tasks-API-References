@@ -1,14 +1,14 @@
 ---
-title: Enum ApplicationInfo
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.ApplicationInfo enumeración. Especifica la versión del proyecto donde se creó el archivo.
+title: "Enumeración ApplicationInfo"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Enumeración Aspose.Tasks.ApplicationInfo. Especifica la versión del proyecto en la que se creó el archivo"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/applicationinfo/
 ---
 ## ApplicationInfo enumeration
 
-Especifica la versión del proyecto donde se creó el archivo.
+Especifica la versión del proyecto en la que se creó el archivo.
 
 ```csharp
 public enum ApplicationInfo
@@ -26,9 +26,20 @@ public enum ApplicationInfo
 | MSP2013 | `5` | El archivo se creó en Microsoft Project 2013. |
 | MSP2016 | `6` | El archivo se creó en Microsoft Project 2016. |
 
+## Ejemplos
+
+Muestra cómo comprobar la información de la aplicación del proyecto.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

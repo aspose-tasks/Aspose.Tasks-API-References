@@ -1,7 +1,7 @@
 ---
-title: WeekDay.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: WeekDay método. Devuelve un valor que indica si esta instancia es igual a un objeto especificado.
+title: "WeekDay.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método WeekDay. Devuelve un valor que indica si esta instancia es igual a un objeto especificado"
 type: docs
 weight: 90
 url: /es/net/aspose.tasks/weekday/equals/
@@ -14,18 +14,18 @@ Devuelve un valor que indica si esta instancia es igual a un objeto especificado
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El objeto a comparar con esta instancia. |
+| obj | Objeto | El objeto para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-**Verdadero** si el objeto especificado es un WeekDay que tiene los mismos valores FromDate, ToDate y WorkingTimes que esta instancia; de lo contrario, **FALSO**.
+**True** if the specified object is a WeekDay that has the same FromDate, ToDate values and WorkingTimes as this instance; otherwise, **false**.
 
 ### Ver también
 
 * class [WeekDay](../)
-* espacio de nombres [Aspose.Tasks](../../weekday/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weekday/)
+* assembly [Aspose.Tasks](../../../)
 
 

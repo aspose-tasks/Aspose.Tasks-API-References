@@ -1,7 +1,7 @@
 ---
-title: Prj.AdminProject
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si un proyecto es un proyecto administrativo.
+title: "Prj.AdminProject"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si un proyecto es un proyecto administrativo"
 type: docs
 weight: 20
 url: /es/net/aspose.tasks/prj/adminproject/
@@ -14,13 +14,25 @@ Determina si un proyecto es un proyecto administrativo.
 public static readonly Key<NullableBool, PrjKey> AdminProject;
 ```
 
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.AdminProject.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AdminProject, true);
+
+Console.WriteLine("Admin Project: " + project.Get(Prj.AdminProject));
+```
+
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

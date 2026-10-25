@@ -1,9 +1,9 @@
 ---
-title: Calendar.Equals
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Calendar método. Devuelve un valor que indica si esta instancia es igual a un objeto especificado.
+title: "Calendar.Equals"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método Calendar. Devuelve un valor que indica si esta instancia es igual a un objeto especificado"
 type: docs
-weight: 130
+weight: 150
 url: /es/net/aspose.tasks/calendar/equals/
 ---
 ## Calendar.Equals method
@@ -14,18 +14,18 @@ Devuelve un valor que indica si esta instancia es igual a un objeto especificado
 public override bool Equals(object obj)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El objeto a comparar con esta instancia. |
+| obj | Objeto | El objeto para comparar con esta instancia. |
 
-### Valor_devuelto
+### Valor devuelto
 
-**Verdadero** si o es un calendario que tiene el mismo valor de Uid que esta instancia; de lo contrario, **FALSO**.
+**True** if o is a Calendar that has the same Uid value as this instance; otherwise, **false**.
 
 ### Ver también
 
 * class [Calendar](../)
-* espacio de nombres [Aspose.Tasks](../../calendar/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

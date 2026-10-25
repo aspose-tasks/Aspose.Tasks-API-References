@@ -1,9 +1,9 @@
 ---
-title: Class WorkWeek
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.WorkWeek clase. Representa la clase WorkWeek
+title: "Clase WorkWeek"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.WorkWeek. Representa la clase WorkWeek"
 type: docs
-weight: 3280
+weight: 3640
 url: /es/net/aspose.tasks/workweek/
 ---
 ## WorkWeek class
@@ -18,20 +18,70 @@ public class WorkWeek
 
 | Nombre | Descripción |
 | --- | --- |
-| [WorkWeek](workweek/)() | Inicializa una nueva instancia del`WorkWeek` clase. |
+| [WorkWeek](workweek/)() | Inicializa una nueva instancia de la clase `WorkWeek`. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [FromDate](../../aspose.tasks/workweek/fromdate/) { get; set; } | Obtiene o establece la fecha y hora de inicio de la semana laboral |
-| [Name](../../aspose.tasks/workweek/name/) { get; set; } | Obtiene o establece Nombre de la semana laboral |
-| [ToDate](../../aspose.tasks/workweek/todate/) { get; set; } | Obtiene o establece la fecha y hora de finalización de la semana laboral |
+| [FromDate](../../aspose.tasks/workweek/fromdate/) { get; set; } | Obtiene o establece la DateTime de inicio de la semana de trabajo. |
+| [Name](../../aspose.tasks/workweek/name/) { get; set; } | Obtiene o establece el Name de la semana de trabajo. |
+| [ToDate](../../aspose.tasks/workweek/todate/) { get; set; } | Obtiene o establece la Finish DateTime de la semana de trabajo. |
 | [WeekDays](../../aspose.tasks/workweek/weekdays/) { get; } | Obtiene los días de la semana. |
+
+## Ejemplos
+
+Muestra cómo leer la información de la semana de trabajo del proyecto.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Standard");
+Calendar.MakeStandardCalendar(calendar);
+
+var item = new WorkWeek();
+item.Name = "My Work Week";
+item.FromDate = new DateTime(2020, 4, 13, 8, 0, 0);
+item.ToDate = new DateTime(2020, 4, 17, 17, 0, 0);
+item.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+item.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+item.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+item.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+item.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday));
+item.WeekDays.Add(new WeekDay(DayType.Saturday));
+item.WeekDays.Add(new WeekDay(DayType.Sunday));
+calendar.WorkWeeks.Add(item);
+
+Console.WriteLine("Work Week Number: " + calendar.WeekDays.Count);
+foreach (var workWeek in calendar.WorkWeeks)
+{
+    // Muestra el nombre de la semana de trabajo, el nombre del calendario padre, y las fechas de inicio y fin.
+    Console.WriteLine("Name: " + workWeek.Name);
+    Console.WriteLine("Parent calendar name: " + calendar.Name);
+    Console.WriteLine("From Date: " + workWeek.FromDate);
+    Console.WriteLine("To Date: " + workWeek.ToDate);
+    Console.WriteLine();
+
+    // Estos datos tratan sobre el botón "Detalles." puedes establecer tiempos de trabajo especiales para un WeekDay especial o incluso marcarlo como no laborable.
+    List<WeekDay> weekDays = workWeek.WeekDays.ToList();
+    foreach (var day in weekDays)
+    {
+        Console.WriteLine(day.DayType.ToString());
+
+        // Puedes recorrer más a fondo los tiempos de trabajo y mostrarlos.
+        foreach (var workingTime in day.WorkingTimes)
+        {
+            Console.WriteLine(workingTime.From);
+            Console.WriteLine(workingTime.To);
+        }
+    }
+
+    Console.WriteLine();
+}
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

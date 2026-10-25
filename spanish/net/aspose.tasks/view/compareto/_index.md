@@ -1,31 +1,31 @@
 ---
-title: View.CompareTo
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: View método. Compara la instancia actual con otro objeto del mismo tipo y devuelve un número entero que indica si la instancia actual precede sigue u ocurre en la misma posición en el orden de clasificación que el otro objeto.
+title: "View.CompareTo"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método View. Compara la instancia actual con otro objeto del mismo tipo y devuelve un entero que indica si la instancia actual precede, sigue o se encuentra en la misma posición en el orden de clasificación que el otro objeto."
 type: docs
 weight: 140
 url: /es/net/aspose.tasks/view/compareto/
 ---
 ## View.CompareTo method
 
-Compara la instancia actual con otro objeto del mismo tipo y devuelve un número entero que indica si la instancia actual precede, sigue u ocurre en la misma posición en el orden de clasificación que el otro objeto.
+Compara la instancia actual con otro objeto del mismo tipo y devuelve un entero que indica si la instancia actual precede, sigue o se encuentra en la misma posición en el orden de clasificación que el otro objeto.
 
 ```csharp
 public int CompareTo(View other)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| other | View | el objeto View especificado para comparar esta instancia. |
+| otro | View | el objeto View especificado para comparar esta instancia con él. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Un entero de 32 bits con signo que indica el orden relativo de los objetos que se comparan. El valor de retorno tiene estos significados: Valor Significado Menos que cero Esta instancia precede*other* en el orden de clasificación. Cero Esta instancia se encuentra en la misma posición en el orden de clasificación que*other* . Mayor que cero Esta instancia sigue*other* en el orden de clasificación.
+Un entero con signo de 32 bits que indica el orden relativo de los objetos que se comparan. El valor devuelto tiene los siguientes significados: Valor Significado Menor que cero Esta instancia precede a *other* en el orden de clasificación. Cero Esta instancia se encuentra en la misma posición en el orden de clasificación que *other*. Mayor que cero Esta instancia sigue a *other* en el orden de clasificación.
 
 ### Ver también
 
 * class [View](../)
-* espacio de nombres [Aspose.Tasks](../../view/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

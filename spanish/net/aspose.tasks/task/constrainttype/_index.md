@@ -1,7 +1,7 @@
 ---
-title: Task.ConstraintType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de ConstraintType.
+title: "Task.ConstraintType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de ConstraintType"
 type: docs
 weight: 240
 url: /es/net/aspose.tasks/task/constrainttype/
@@ -18,7 +18,7 @@ public ConstraintType ConstraintType { get; set; }
 
 * enum [ConstraintType](../../constrainttype/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

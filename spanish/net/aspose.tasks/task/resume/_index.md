@@ -1,9 +1,9 @@
 ---
-title: Task.Resume
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de Resume.
+title: "Task.Resume"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de Resume"
 type: docs
-weight: 1110
+weight: 1100
 url: /es/net/aspose.tasks/task/resume/
 ---
 ## Task.Resume property
@@ -17,7 +17,7 @@ public DateTime Resume { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

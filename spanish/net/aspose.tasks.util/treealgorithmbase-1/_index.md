@@ -1,14 +1,14 @@
 ---
-title: Class TreeAlgorithmBaseT
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Util.TreeAlgorithmBase1T clase. Una clase base para implementaciones deITreeAlgorithm
+title: "Clase TreeAlgorithmBaseT"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Util.TreeAlgorithmBase1T. Una clase base para implementaciones de ITreeAlgorithm"
 type: docs
-weight: 2460
+weight: 2780
 url: /es/net/aspose.tasks.util/treealgorithmbase-1/
 ---
 ## TreeAlgorithmBase&lt;T&gt; class
 
-Una clase base para implementaciones de[`ITreeAlgorithm`](../itreealgorithm-1/)
+Una clase base para implementaciones de [`ITreeAlgorithm`](../itreealgorithm-1/)
 
 ```csharp
 public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
@@ -23,13 +23,13 @@ public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
 | Nombre | Descripción |
 | --- | --- |
 | abstract [Alg](../../aspose.tasks.util/treealgorithmbase-1/alg/)(T, int) | Procesa un nodo de un árbol. |
-| virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(T, int) | Llamado después de procesar un nodo de un árbol. |
-| virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(T, int) | Llamado antes de procesar un nodo de un árbol. |
+| virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(T, int) | Llamado después del procesamiento de un nodo de un árbol. |
+| virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(T, int) | Llamado antes del procesamiento de un nodo de un árbol. |
 
 ### Ver también
 
 * interface [ITreeAlgorithm&lt;T&gt;](../itreealgorithm-1/)
-* espacio de nombres [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

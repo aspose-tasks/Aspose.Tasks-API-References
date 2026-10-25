@@ -1,7 +1,7 @@
 ---
-title: Task.ActualOvertimeWork
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de ActualOvertimeWork.
+title: "Task.ActualOvertimeWork"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de ActualOvertimeWork"
 type: docs
 weight: 60
 url: /es/net/aspose.tasks/task/actualovertimework/
@@ -18,7 +18,7 @@ public Duration ActualOvertimeWork { get; set; }
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

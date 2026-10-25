@@ -1,14 +1,14 @@
 ---
-title: Project.ProjectExternallyEdited
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor que indica si ProjectExternallyEdited está establecido o no.
+title: "Project.ProjectExternallyEdited"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor que indica si ProjectExternallyEdited está establecido o no"
 type: docs
-weight: 700
+weight: 730
 url: /es/net/aspose.tasks/project/projectexternallyedited/
 ---
 ## Project.ProjectExternallyEdited property
 
-Obtiene o establece un valor que indica si ProjectExternallyEdited está establecido o no.
+Obtiene o establece un valor que indica si ProjectExternallyEdited está configurado o no.
 
 ```csharp
 public NullableBool ProjectExternallyEdited { get; set; }
@@ -18,7 +18,7 @@ public NullableBool ProjectExternallyEdited { get; set; }
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

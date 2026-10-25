@@ -1,14 +1,14 @@
 ---
-title: Class CalendarCollection
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.CalendarCollection clase. Representa una colección deCalendar objetos.
+title: "Clase CalendarCollection"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.CalendarCollection. Representa una colección de objetos Calendar"
 type: docs
 weight: 240
 url: /es/net/aspose.tasks/calendarcollection/
 ---
 ## CalendarCollection class
 
-Representa una colección de[`Calendar`](../calendar/) objetos.
+Representa una colección de objetos [`Calendar`](../calendar/).
 
 ```csharp
 public class CalendarCollection : IList<Calendar>
@@ -18,7 +18,7 @@ public class CalendarCollection : IList<Calendar>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.tasks/calendarcollection/count/) { get; } | Obtiene el número de objetos contenidos en este`CalendarCollection` objeto. |
+| [Count](../../aspose.tasks/calendarcollection/count/) { get; } | Obtiene el número de objetos contenidos en este objeto `CalendarCollection`. |
 
 ## Métodos
 
@@ -29,13 +29,31 @@ public class CalendarCollection : IList<Calendar>
 | [GetByName](../../aspose.tasks/calendarcollection/getbyname/)(string) | Devuelve un calendario con el nombre especificado. |
 | [GetByUid](../../aspose.tasks/calendarcollection/getbyuid/)(int) | Devuelve un calendario con el UID especificado. |
 | [GetEnumerator](../../aspose.tasks/calendarcollection/getenumerator/)() | Devuelve un enumerador para esta colección. |
-| [Remove](../../aspose.tasks/calendarcollection/remove/)(Calendar) | Elimina Calendario de Project CalendarCollection. |
-| [ToList](../../aspose.tasks/calendarcollection/tolist/)() | Convierte el objeto CalendarCollection en una lista de[`Calendar`](../calendar/) objetos. |
+| [Remove](../../aspose.tasks/calendarcollection/remove/)(Calendar) | Elimina Calendar de la CalendarCollection del proyecto. |
+| [ToList](../../aspose.tasks/calendarcollection/tolist/)() | Convierte el objeto CalendarCollection en una lista de objetos [`Calendar`](../calendar/). |
+
+## Ejemplos
+
+Muestra cómo agregar nuevos calendarios.
+
+```csharp
+var project = new Project();
+
+// Se pueden agregar nuevos calendarios a la colección de calendarios de un proyecto usando las sobrecargas del método Add de la colección.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
 
 ### Ver también
 
 * class [Calendar](../calendar/)
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

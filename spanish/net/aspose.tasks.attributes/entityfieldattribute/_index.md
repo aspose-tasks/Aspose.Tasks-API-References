@@ -1,7 +1,7 @@
 ---
-title: Class EntityFieldAttribute
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.Attributes.EntityFieldAttribute clase. Representa un atributo para las propiedades de la entidad.
+title: "Clase EntityFieldAttribute"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.Attributes.EntityFieldAttribute. Representa un atributo para propiedades de entidad"
 type: docs
 weight: 70
 url: /es/net/aspose.tasks.attributes/entityfieldattribute/
@@ -19,15 +19,15 @@ public class EntityFieldAttribute : Attribute
 
 | Nombre | Descripción |
 | --- | --- |
-| [EntityFieldAttribute](entityfieldattribute/)() | Constructor predeterminado |
+| [EntityFieldAttribute](entityfieldattribute/)() | El constructor predeterminado. |
 
-### Observaciones
+## Observaciones
 
-Atributo utilizado para[`Task`](../../aspose.tasks/task/) ,[`Resource`](../../aspose.tasks/resource/) ,[`Project`](../../aspose.tasks/project/) y[`ResourceAssignment`](../../aspose.tasks/resourceassignment/) propiedades de entidad solamente, y simplifica su enumeración.
+Atributo usado solo para propiedades de entidad de [`Task`](../../aspose.tasks/task/), [`Resource`](../../aspose.tasks/resource/), [`Project`](../../aspose.tasks/project/) y [`ResourceAssignment`](../../aspose.tasks/resourceassignment/), y simplifica su enumeración.
 
-### Ejemplos
+## Ejemplos
 
-Cómo enumerar propiedades usando **EntityField** atributo:
+Cómo enumerar propiedades usando el atributo **EntityField**:
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ foreach (var task in project.SelectAllChildTasks())
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
+* assembly [Aspose.Tasks](../../)
 
 

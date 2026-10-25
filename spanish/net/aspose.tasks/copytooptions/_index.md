@@ -1,7 +1,7 @@
 ---
-title: Class CopyToOptions
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.CopyToOptions clase. Permite especificar opciones adicionales al copiar datos del proyecto.
+title: "Clase CopyToOptions"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Clase Aspose.Tasks.CopyToOptions. Permite especificar opciones adicionales al copiar datos del proyecto"
 type: docs
 weight: 340
 url: /es/net/aspose.tasks/copytooptions/
@@ -18,17 +18,33 @@ public class CopyToOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyToOptions](copytooptions/)() | Inicializa una nueva instancia del`CopyToOptions` clase. |
+| [CopyToOptions](copytooptions/)() | Inicializa una nueva instancia de la clase `CopyToOptions`. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata/) { get; set; } | Obtiene o establece un valor que indica si se copian los datos de la vista mientras se copian los datos del proyecto. El valor predeterminado es verdadero. |
+| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata/) { get; set; } | Obtiene o establece un valor que indica si se deben copiar los datos de vista al copiar los datos del proyecto. El valor predeterminado es true. |
+
+## Ejemplos
+
+Muestra cómo usar las opciones de copia del proyecto.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// omitir la copia de datos de vista al copiar datos comunes del proyecto.
+var copyToOptions = new CopyToOptions();
+copyToOptions.CopyViewData = false;
+project.CopyTo(mppProject, copyToOptions);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

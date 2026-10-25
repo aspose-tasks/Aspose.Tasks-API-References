@@ -1,17 +1,29 @@
 ---
-title: Prj.Autolink
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Prj campo. Determina si las tareas insertadas o movidas se vinculan automáticamente.
+title: "Prj.Autolink"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Campo Prj. Determina si las tareas insertadas o movidas se enlazan automáticamente"
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.tasks/prj/autolink/
 ---
 ## Prj.Autolink field
 
-Determina si las tareas insertadas o movidas se vinculan automáticamente.
+Determina si las tareas insertadas o movidas se enlazan automáticamente.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> Autolink;
+```
+
+## Ejemplos
+
+Muestra cómo leer/escribir la propiedad Prj.Autolink.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Autolink, true);
+
+Console.WriteLine("Autolink: " + project.Get(Prj.Autolink));
 ```
 
 ### Ver también
@@ -20,7 +32,7 @@ public static readonly Key<NullableBool, PrjKey> Autolink;
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* espacio de nombres [Aspose.Tasks](../../prj/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

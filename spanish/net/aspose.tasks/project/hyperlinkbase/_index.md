@@ -1,9 +1,9 @@
 ---
-title: Project.HyperlinkBase
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Project propiedad. Obtiene o establece un valor de HyperlinkBase.
+title: "Project.HyperlinkBase"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad del proyecto. Obtiene o establece un valor de HyperlinkBase"
 type: docs
-weight: 470
+weight: 490
 url: /es/net/aspose.tasks/project/hyperlinkbase/
 ---
 ## Project.HyperlinkBase property
@@ -17,7 +17,7 @@ public string HyperlinkBase { get; set; }
 ### Ver también
 
 * class [Project](../)
-* espacio de nombres [Aspose.Tasks](../../project/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

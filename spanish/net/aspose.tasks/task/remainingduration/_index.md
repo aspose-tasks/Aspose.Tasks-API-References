@@ -1,9 +1,9 @@
 ---
-title: Task.RemainingDuration
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de RemainingDuration.
+title: "Task.RemainingDuration"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor de RemainingDuration"
 type: docs
-weight: 1070
+weight: 1060
 url: /es/net/aspose.tasks/task/remainingduration/
 ---
 ## Task.RemainingDuration property
@@ -18,7 +18,7 @@ public Duration RemainingDuration { get; set; }
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

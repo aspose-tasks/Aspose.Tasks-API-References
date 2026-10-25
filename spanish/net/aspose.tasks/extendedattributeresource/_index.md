@@ -1,7 +1,7 @@
 ---
-title: Enum ExtendedAttributeResource
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Aspose.Tasks.ExtendedAttributeResource enumeración. Especifica los atributos extendidos FieldId utilizados en un recurso.
+title: "Enum ExtendedAttributeResource"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Aspose.Tasks.ExtendedAttributeResource enum. Especifica los atributos extendidos FieldId utilizados en un recurso"
 type: docs
 weight: 560
 url: /es/net/aspose.tasks/extendedattributeresource/
@@ -18,99 +18,99 @@ public enum ExtendedAttributeResource
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Cost1 | `205521019` | Costo1 (Recurso) campo personalizado. |
-| Cost2 | `205521020` | Campo personalizado Cost2 (Recurso). |
-| Cost3 | `205521021` | Campo personalizado Cost3 (Recurso). |
-| Cost4 | `205521062` | Campo personalizado Cost4 (Recurso). |
-| Cost5 | `205521063` | Campo personalizado Cost5 (Recurso). |
-| Cost6 | `205521064` | Costo6 (Recurso) campo personalizado. |
-| Cost7 | `205521065` | Campo personalizado Cost7 (Recurso). |
-| Cost8 | `205521066` | Campo personalizado Cost8 (Recurso). |
-| Cost9 | `205521067` | Campo personalizado Cost9 (Recurso). |
-| Cost10 | `205521068` | Costo10 (Recurso) campo personalizado. |
-| Date1 | `205521069` | Fecha1 (Recurso) campo personalizado. |
-| Date2 | `205521070` | Fecha2 (Recurso) campo personalizado. |
-| Date3 | `205521071` | Fecha3 (Recurso) campo personalizado. |
-| Date4 | `205521072` | Fecha4 (Recurso) campo personalizado. |
-| Date5 | `205521073` | Fecha5 (Recurso) campo personalizado. |
-| Date6 | `205521074` | Fecha6 (Recurso) campo personalizado. |
-| Date7 | `205521075` | Fecha7 (Recurso) campo personalizado. |
-| Date8 | `205521076` | Fecha8 (Recurso) campo personalizado. |
-| Date9 | `205521077` | Fecha9 (Recurso) campo personalizado. |
-| Date10 | `205521078` | Fecha10 (Recurso) campo personalizado. |
-| Duration1 | `205521013` | Campo personalizado Duración1 (Recurso). |
-| Duration2 | `205521014` | Campo personalizado Duración2 (Recurso). |
-| Duration3 | `205521015` | Campo personalizado Duración3 (Recurso). |
-| Duration4 | `205521079` | Campo personalizado Duración4 (Recurso). |
-| Duration5 | `205521080` | Campo personalizado Duración5 (Recurso). |
-| Duration6 | `205521081` | Campo personalizado Duración6 (Recurso). |
-| Duration7 | `205521082` | Campo personalizado Duración7 (Recurso). |
-| Duration8 | `205521083` | Campo personalizado Duración8 (Recurso). |
-| Duration9 | `205521084` | Campo personalizado Duración9 (Recurso). |
-| Duration10 | `205521085` | Campo personalizado Duración10 (Recurso). |
-| Finish1 | `205521003` | Finalizar1 (Recurso) campo personalizado. |
-| Finish2 | `205521004` | Finalizar2 (Recurso) campo personalizado. |
-| Finish3 | `205521005` | Finalizar3 (Recurso) campo personalizado. |
-| Finish4 | `205521006` | Finalizar4 (Recurso) campo personalizado. |
-| Finish5 | `205521007` | Finalizar5 (Recurso) campo personalizado. |
-| Finish6 | `205521086` | Finalizar6 (Recurso) campo personalizado. |
-| Finish7 | `205521087` | Finalizar7 (Recurso) campo personalizado. |
-| Finish8 | `205521088` | Finalizar8 (Recurso) campo personalizado. |
-| Finish9 | `205521089` | Finalizar9 (Recurso) campo personalizado. |
-| Finish10 | `205521090` | Finalizar10 (Recurso) campo personalizado. |
-| Flag1 | `205521023` | Flag1 (Recurso) campo personalizado. |
-| Flag2 | `205521024` | Flag2 (Recurso) campo personalizado. |
-| Flag3 | `205521025` | Flag3 (Recurso) campo personalizado. |
-| Flag4 | `205521026` | Flag4 (Recurso) campo personalizado. |
-| Flag5 | `205521027` | Flag5 (Recurso) campo personalizado. |
-| Flag6 | `205521028` | Flag6 (Recurso) campo personalizado. |
-| Flag7 | `205521029` | Flag7 (Recurso) campo personalizado. |
-| Flag8 | `205521030` | Flag8 (Recurso) campo personalizado. |
-| Flag9 | `205521031` | Flag9 (Recurso) campo personalizado. |
-| Flag10 | `205521022` | Flag10 (Recurso) campo personalizado. |
-| Flag11 | `205521091` | Flag11 (Recurso) campo personalizado. |
-| Flag12 | `205521092` | Flag12 (Recurso) campo personalizado. |
-| Flag13 | `205521093` | Flag13 (Recurso) campo personalizado. |
-| Flag14 | `205521094` | Flag14 (Recurso) campo personalizado. |
-| Flag15 | `205521095` | Flag15 (Recurso) campo personalizado. |
-| Flag16 | `205521096` | Flag16 (Recurso) campo personalizado. |
-| Flag17 | `205521097` | Flag17 (Recurso) campo personalizado. |
-| Flag18 | `205521098` | Flag18 (Recurso) campo personalizado. |
-| Flag19 | `205521099` | Bandera19 (Recurso) campo personalizado. |
-| Flag20 | `205521100` | Flag20 (Recurso) campo personalizado. |
-| Number1 | `205521008` | Número1 (recurso) campo personalizado. |
-| Number2 | `205521009` | Número2 (Recurso) campo personalizado. |
-| Number3 | `205521010` | Número3 (Recurso) campo personalizado. |
-| Number4 | `205521011` | Número4 (Recurso) campo personalizado. |
-| Number5 | `205521012` | Número5 (Recurso) campo personalizado. |
-| Number6 | `205521101` | Número6 (recurso) campo personalizado. |
-| Number7 | `205521102` | Número 7 (Recurso) campo personalizado. |
-| Number8 | `205521103` | Número8 (Recurso) campo personalizado. |
-| Number9 | `205521104` | Número 9 (Recurso) campo personalizado. |
-| Number10 | `205521105` | Número10 (Recurso) campo personalizado. |
-| Number11 | `205521106` | Número11 (Recurso) campo personalizado. |
-| Number12 | `205521107` | Número12 (Recurso) campo personalizado. |
-| Number13 | `205521108` | Número13 (Recurso) campo personalizado. |
-| Number14 | `205521109` | Número14 (Recurso) campo personalizado. |
-| Number15 | `205521110` | Número15 (Recurso) campo personalizado. |
-| Number16 | `205521111` | Número16 (Recurso) campo personalizado. |
-| Number17 | `205521112` | Número17 (Recurso) campo personalizado. |
-| Number18 | `205521113` | Número18 (Recurso) campo personalizado. |
-| Number19 | `205521114` | Número19 (Recurso) campo personalizado. |
-| Number20 | `205521115` | Número20 (Recurso) campo personalizado. |
-| Start1 | `205520998` | Campo personalizado Inicio1 (Recurso). |
-| Start2 | `205520999` | Campo personalizado Inicio2 (Recurso). |
-| Start3 | `205521000` | Campo personalizado Inicio3 (Recurso). |
-| Start4 | `205521001` | Campo personalizado Inicio4 (Recurso). |
-| Start5 | `205521002` | Campo personalizado Start5 (Recurso). |
-| Start6 | `205521116` | Campo personalizado Start6 (Recurso). |
-| Start7 | `205521117` | Campo personalizado Start7 (Recurso). |
-| Start8 | `205521118` | Campo personalizado Start8 (Recurso). |
-| Start9 | `205521119` | Campo personalizado Start9 (Recurso). |
+| Cost1 | `205521019` | Cost1 (Resource) campo personalizado. |
+| Cost2 | `205521020` | Cost2 (Resource) campo personalizado. |
+| Cost3 | `205521021` | Cost3 (Resource) campo personalizado. |
+| Cost4 | `205521062` | Cost4 (Resource) campo personalizado. |
+| Cost5 | `205521063` | Cost5 (Resource) campo personalizado. |
+| Cost6 | `205521064` | Cost6 (Resource) campo personalizado. |
+| Cost7 | `205521065` | Cost7 (Resource) campo personalizado. |
+| Cost8 | `205521066` | Cost8 (Resource) campo personalizado. |
+| Cost9 | `205521067` | Cost9 (Resource) campo personalizado. |
+| Cost10 | `205521068` | Cost10 (Resource) campo personalizado. |
+| Date1 | `205521069` | Date1 (Resource) campo personalizado. |
+| Date2 | `205521070` | Date2 (Resource) campo personalizado. |
+| Date3 | `205521071` | Date3 (Resource) campo personalizado. |
+| Date4 | `205521072` | Date4 (Resource) campo personalizado. |
+| Date5 | `205521073` | Date5 (Resource) campo personalizado. |
+| Date6 | `205521074` | Date6 (Resource) campo personalizado. |
+| Date7 | `205521075` | Date7 (Resource) campo personalizado. |
+| Date8 | `205521076` | Date8 (Resource) campo personalizado. |
+| Date9 | `205521077` | Date9 (Resource) campo personalizado. |
+| Date10 | `205521078` | Date10 (Resource) campo personalizado. |
+| Duration1 | `205521013` | Duration1 (Resource) campo personalizado. |
+| Duration2 | `205521014` | Duration2 (Resource) campo personalizado. |
+| Duration3 | `205521015` | Duration3 (Resource) campo personalizado. |
+| Duration4 | `205521079` | Duration4 (Resource) campo personalizado. |
+| Duration5 | `205521080` | Duration5 (Resource) campo personalizado. |
+| Duration6 | `205521081` | Duration6 (Resource) campo personalizado. |
+| Duration7 | `205521082` | Duration7 (Resource) campo personalizado. |
+| Duration8 | `205521083` | Duration8 (Resource) campo personalizado. |
+| Duration9 | `205521084` | Duration9 (Resource) campo personalizado. |
+| Duration10 | `205521085` | Duration10 (Resource) campo personalizado. |
+| Finish1 | `205521003` | Finish1 (Resource) campo personalizado. |
+| Finish2 | `205521004` | Finish2 (Resource) campo personalizado. |
+| Finish3 | `205521005` | Finish3 (Resource) campo personalizado. |
+| Finish4 | `205521006` | Finish4 (Resource) campo personalizado. |
+| Finish5 | `205521007` | Finish5 (Resource) campo personalizado. |
+| Finish6 | `205521086` | Finish6 (Resource) campo personalizado. |
+| Finish7 | `205521087` | Finish7 (Resource) campo personalizado. |
+| Finish8 | `205521088` | Finish8 (Resource) campo personalizado. |
+| Finish9 | `205521089` | Finish9 (Resource) campo personalizado. |
+| Finish10 | `205521090` | Finish10 (Resource) campo personalizado. |
+| Flag1 | `205521023` | Flag1 (Resource) campo personalizado. |
+| Flag2 | `205521024` | Flag2 (Resource) campo personalizado. |
+| Flag3 | `205521025` | Flag3 (Resource) campo personalizado. |
+| Flag4 | `205521026` | Flag4 (Resource) campo personalizado. |
+| Flag5 | `205521027` | Flag5 (Resource) campo personalizado. |
+| Flag6 | `205521028` | Flag6 (Resource) campo personalizado. |
+| Flag7 | `205521029` | Flag7 (Resource) campo personalizado. |
+| Flag8 | `205521030` | Flag8 (Resource) campo personalizado. |
+| Flag9 | `205521031` | Flag9 (Resource) campo personalizado. |
+| Flag10 | `205521022` | Flag10 (Resource) campo personalizado. |
+| Flag11 | `205521091` | Flag11 (Resource) campo personalizado. |
+| Flag12 | `205521092` | Flag12 (Resource) campo personalizado. |
+| Flag13 | `205521093` | Flag13 (Resource) campo personalizado. |
+| Flag14 | `205521094` | Flag14 (Resource) campo personalizado. |
+| Flag15 | `205521095` | Flag15 (Resource) campo personalizado. |
+| Flag16 | `205521096` | Flag16 (Resource) campo personalizado. |
+| Flag17 | `205521097` | Flag17 (Resource) campo personalizado. |
+| Flag18 | `205521098` | Flag18 (Resource) campo personalizado. |
+| Flag19 | `205521099` | Flag19 (Resource) campo personalizado. |
+| Flag20 | `205521100` | Flag20 (Resource) campo personalizado. |
+| Number1 | `205521008` | Number1 (Resource) campo personalizado. |
+| Number2 | `205521009` | Number2 (Resource) campo personalizado. |
+| Number3 | `205521010` | Number3 (Resource) campo personalizado. |
+| Number4 | `205521011` | Number4 (Resource) campo personalizado. |
+| Number5 | `205521012` | Number5 (Resource) campo personalizado. |
+| Number6 | `205521101` | Number6 (Resource) campo personalizado. |
+| Number7 | `205521102` | Number7 (Resource) campo personalizado. |
+| Number8 | `205521103` | Number8 (Resource) campo personalizado. |
+| Number9 | `205521104` | Number9 (Resource) campo personalizado. |
+| Number10 | `205521105` | Number10 (Resource) campo personalizado. |
+| Number11 | `205521106` | Number11 (Resource) campo personalizado. |
+| Number12 | `205521107` | Number12 (Resource) campo personalizado. |
+| Number13 | `205521108` | Number13 (Resource) campo personalizado. |
+| Number14 | `205521109` | Number14 (Resource) campo personalizado. |
+| Number15 | `205521110` | Number15 (Recurso) campo personalizado. |
+| Number16 | `205521111` | Number16 (Recurso) campo personalizado. |
+| Number17 | `205521112` | Number17 (Recurso) campo personalizado. |
+| Number18 | `205521113` | Number18 (Recurso) campo personalizado. |
+| Number19 | `205521114` | Number19 (Recurso) campo personalizado. |
+| Number20 | `205521115` | Number20 (Recurso) campo personalizado. |
+| Start1 | `205520998` | Start1 (Recurso) campo personalizado. |
+| Start2 | `205520999` | Start2 (Recurso) campo personalizado. |
+| Start3 | `205521000` | Start3 (Recurso) campo personalizado. |
+| Start4 | `205521001` | Start4 (Recurso) campo personalizado. |
+| Start5 | `205521002` | Start5 (Recurso) campo personalizado. |
+| Start6 | `205521116` | Start6 (Recurso) campo personalizado. |
+| Start7 | `205521117` | Start7 (Recurso) campo personalizado. |
+| Start8 | `205521118` | Start8 (Recurso) campo personalizado. |
+| Start9 | `205521119` | Start9 (Recurso) campo personalizado. |
 | Start10 | `205521120` | Start10 (Recurso) campo personalizado. |
-| Text1 | `205520904` | Texto1 (Recurso) campo personalizado. |
-| Text2 | `205520905` | Texto2 (Recurso) campo personalizado. |
-| Text3 | `205520926` | Texto3 (Recurso) campo personalizado. |
+| Text1 | `205520904` | Text1 (Recurso) campo personalizado. |
+| Text2 | `205520905` | Text2 (Recurso) campo personalizado. |
+| Text3 | `205520926` | Text3 (Recurso) campo personalizado. |
 | Text4 | `205520927` | Text4 (Recurso) campo personalizado. |
 | Text5 | `205520928` | Text5 (Recurso) campo personalizado. |
 | Text6 | `205520993` | Text6 (Recurso) campo personalizado. |
@@ -122,7 +122,7 @@ public enum ExtendedAttributeResource
 | Text12 | `205521122` | Text12 (Recurso) campo personalizado. |
 | Text13 | `205521123` | Text13 (Recurso) campo personalizado. |
 | Text14 | `205521124` | Text14 (Recurso) campo personalizado. |
-| Text15 | `205521125` | Texto15 (Recurso) campo personalizado. |
+| Text15 | `205521125` | Text15 (Recurso) campo personalizado. |
 | Text16 | `205521126` | Text16 (Recurso) campo personalizado. |
 | Text17 | `205521127` | Text17 (Recurso) campo personalizado. |
 | Text18 | `205521128` | Text18 (Recurso) campo personalizado. |
@@ -138,20 +138,38 @@ public enum ExtendedAttributeResource
 | Text28 | `205521138` | Text28 (Recurso) campo personalizado. |
 | Text29 | `205521139` | Text29 (Recurso) campo personalizado. |
 | Text30 | `205521140` | Text30 (Recurso) campo personalizado. |
-| OutlineCode1 | `205521174` | Campo personalizado de OutlineCode1 (recurso). |
-| OutlineCode2 | `205521176` | Campo personalizado de OutlineCode2 (recurso). |
-| OutlineCode3 | `205521178` | Campo personalizado de OutlineCode3 (recurso). |
-| OutlineCode4 | `205521180` | Campo personalizado de OutlineCode4 (recurso). |
-| OutlineCode5 | `205521182` | Campo personalizado de OutlineCode5 (recurso). |
-| OutlineCode6 | `205521184` | Campo personalizado de OutlineCode6 (recurso). |
-| OutlineCode7 | `205521186` | Campo personalizado de OutlineCode7 (recurso). |
-| OutlineCode8 | `205521188` | Campo personalizado de OutlineCode8 (recurso). |
-| OutlineCode9 | `205521190` | Campo personalizado de OutlineCode9 (recurso). |
-| OutlineCode10 | `205521192` | Campo personalizado de OutlineCode10 (recurso). |
+| OutlineCode1 | `205521174` | OutlineCode1 (Recurso) campo personalizado. |
+| OutlineCode2 | `205521176` | OutlineCode2 (Recurso) campo personalizado. |
+| OutlineCode3 | `205521178` | OutlineCode3 (Recurso) campo personalizado. |
+| OutlineCode4 | `205521180` | OutlineCode4 (Recurso) campo personalizado. |
+| OutlineCode5 | `205521182` | Campo personalizado OutlineCode5 (Resource). |
+| OutlineCode6 | `205521184` | Campo personalizado OutlineCode6 (Resource). |
+| OutlineCode7 | `205521186` | Campo personalizado OutlineCode7 (Resource). |
+| OutlineCode8 | `205521188` | Campo personalizado OutlineCode8 (Resource). |
+| OutlineCode9 | `205521190` | Campo personalizado OutlineCode9 (Resource). |
+| OutlineCode10 | `205521192` | Campo personalizado OutlineCode10 (Resource). |
+
+## Ejemplos
+
+Muestra cómo crear una definición de atributo extendido y establecer un valor de una bandera mientras se está construyendo.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Cost);
+
+// crear una definición para un campo personalizado booleano
+var definition = ExtendedAttributeDefinition.CreateResourceDefinition(ExtendedAttributeResource.Flag7, "My Custom Flag");
+
+// crear un atributo y establecer el valor inicial a 'true'
+var attribute = definition.CreateExtendedAttribute(true);
+resource.ExtendedAttributes.Add(attribute);
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Tasks](../../aspose.tasks/)
-* asamblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

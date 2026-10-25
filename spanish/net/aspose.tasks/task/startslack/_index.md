@@ -1,9 +1,9 @@
 ---
-title: Task.StartSlack
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de StartSlack.
+title: "Task.StartSlack"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de StartSlack"
 type: docs
-weight: 1140
+weight: 1130
 url: /es/net/aspose.tasks/task/startslack/
 ---
 ## Task.StartSlack property
@@ -17,7 +17,7 @@ public TimeSpan StartSlack { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

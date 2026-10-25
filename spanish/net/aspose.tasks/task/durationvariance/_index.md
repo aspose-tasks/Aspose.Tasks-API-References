@@ -1,7 +1,7 @@
 ---
-title: Task.DurationVariance
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de DurationVariance.
+title: "Task.DurationVariance"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene o establece un valor de DurationVariance"
 type: docs
 weight: 360
 url: /es/net/aspose.tasks/task/durationvariance/
@@ -18,7 +18,7 @@ public Duration DurationVariance { get; set; }
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

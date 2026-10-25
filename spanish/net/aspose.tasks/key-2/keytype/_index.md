@@ -1,7 +1,7 @@
 ---
-title: Key2.KeyType
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Key propiedad. Obtiene la clave de la propiedad.
+title: "Key2.KeyType"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Key. Obtiene la clave de la propiedad"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/key-2/keytype/
@@ -17,7 +17,7 @@ public K KeyType { get; }
 ### Ver también
 
 * struct [Key&lt;T,K&gt;](../)
-* espacio de nombres [Aspose.Tasks](../../key-2/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../key-2/)
+* assembly [Aspose.Tasks](../../../)
 
 

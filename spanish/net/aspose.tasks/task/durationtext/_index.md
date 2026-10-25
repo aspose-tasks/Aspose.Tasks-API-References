@@ -1,7 +1,7 @@
 ---
-title: Task.DurationText
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene o establece un valor de DurationText.
+title: "Task.DurationText"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad de Task. Obtiene o establece un valor de DurationText"
 type: docs
 weight: 350
 url: /es/net/aspose.tasks/task/durationtext/
@@ -17,7 +17,7 @@ public string DurationText { get; set; }
 ### Ver también
 
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

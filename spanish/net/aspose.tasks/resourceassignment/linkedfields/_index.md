@@ -1,9 +1,9 @@
 ---
-title: ResourceAssignment.LinkedFields
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor que indica si LinkedFields está establecido o no.
+title: "ResourceAssignment.LinkedFields"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad ResourceAssignment. Obtiene o establece un valor que indica si LinkedFields está configurado o no"
 type: docs
-weight: 360
+weight: 350
 url: /es/net/aspose.tasks/resourceassignment/linkedfields/
 ---
 ## ResourceAssignment.LinkedFields property
@@ -17,7 +17,7 @@ public bool LinkedFields { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

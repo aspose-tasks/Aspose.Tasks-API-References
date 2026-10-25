@@ -1,47 +1,76 @@
 ---
-title: PrimaveraXmlReader.PrimaveraXmlReader
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: PrimaveraXmlReader constructor. Inicializa una nueva instancia delPrimaveraXmlReader clase.
+title: "PrimaveraXmlReader.PrimaveraXmlReader"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Constructor PrimaveraXmlReader. Inicializa una nueva instancia de la clase PrimaveraXmlReader"
 type: docs
 weight: 10
 url: /es/net/aspose.tasks/primaveraxmlreader/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader(string) {#constructor_1}
 
-Inicializa una nueva instancia del[`PrimaveraXmlReader`](../) clase.
+Inicializa una nueva instancia de la clase [`PrimaveraXmlReader`](../).
 
 ```csharp
 public PrimaveraXmlReader(string templatePath)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| templatePath | String | Ruta a la plantilla donde se encuentra el proyecto Primavera Xml |
+| templatePath | Cadena | Ruta a la plantilla donde se encuentran los proyectos Primavera Xml |
+
+## Ejemplos
+
+Muestra cómo examinar la información de proyectos cortos desde un archivo XML de Primavera.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "MultiprojectWithExternal.xml");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+```
 
 ### Ver también
 
 * class [PrimaveraXmlReader](../)
-* espacio de nombres [Aspose.Tasks](../../primaveraxmlreader/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxmlreader/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## PrimaveraXmlReader(Stream) {#constructor}
 
-Inicializa una nueva instancia del[`PrimaveraXmlReader`](../) clase.
+Inicializa una nueva instancia de la clase [`PrimaveraXmlReader`](../).
 
 ```csharp
 public PrimaveraXmlReader(Stream stream)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| stream | Stream | Secuencia con contenido Primavera Xml. |
+| flujo | Flujo | Flujo que contiene el contenido de Primavera Xml. |
+
+## Ejemplos
+
+Muestra cómo importar un proyecto desde una secuencia Primavera XML.
+
+```csharp
+using (var stream = new FileStream(DataDir + "primavera.xml", FileMode.Open))
+{
+    var reader = new PrimaveraXmlReader(stream);
+    List<int> projectUids = reader.GetProjectUids();
+    foreach (var projectUid in projectUids)
+    {
+        Console.WriteLine("Project UID: " + projectUid);
+    }
+}
+```
 
 ### Ver también
 
 * class [PrimaveraXmlReader](../)
-* espacio de nombres [Aspose.Tasks](../../primaveraxmlreader/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxmlreader/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.AssignmentOwner
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceAssignment propiedad. Obtiene o establece un valor de AssignmentOwner.
+title: "ResourceAssignment.AssignmentOwner"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "ResourceAssignment propiedad. Obtiene o establece un valor de AssignmentOwner"
 type: docs
 weight: 100
 url: /es/net/aspose.tasks/resourceassignment/assignmentowner/
@@ -17,7 +17,7 @@ public string AssignmentOwner { get; set; }
 ### Ver también
 
 * class [ResourceAssignment](../)
-* espacio de nombres [Aspose.Tasks](../../resourceassignment/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

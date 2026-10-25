@@ -1,24 +1,82 @@
 ---
-title: Task.PrimaveraProperties
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: Task propiedad. Obtiene un objeto que contiene propiedades específicas de Primavera para una tarea leída en formato Primavera.
+title: "Task.PrimaveraProperties"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Propiedad Task. Obtiene un objeto que contiene propiedades específicas de Primavera para una tarea leída de un archivo Primavera"
 type: docs
-weight: 1020
+weight: 1010
 url: /es/net/aspose.tasks/task/primaveraproperties/
 ---
 ## Task.PrimaveraProperties property
 
-Obtiene un objeto que contiene propiedades específicas de Primavera para una tarea leída en formato Primavera.
+Obtiene un objeto que contiene propiedades específicas de Primavera para una tarea leída del archivo Primavera.
 
 ```csharp
 public PrimaveraTaskProperties PrimaveraProperties { get; }
+```
+
+## Ejemplos
+
+Muestra cómo leer un proyecto desde un XML de Primavera y examinar las propiedades específicas de Primavera de las tareas.
+
+```csharp
+var options = new PrimaveraReadOptions();
+options.ProjectUid = 3883;
+
+// Devuelve el proyecto con UID especial.
+var project = new Project(DataDir + "PrimaveraProject.xml", options);
+
+foreach (Task task in project.EnumerateAllChildTasks())
+{
+    Console.WriteLine("Task '{0}'", task.Name);
+
+    if (task.IsSummary)
+    {
+        Console.WriteLine("WBS Sequence number: {0}", task.PrimaveraProperties.SequenceNumber);
+    }
+    else
+    {
+        Console.WriteLine("Task ActivityId: {0}", task.PrimaveraProperties.ActivityId);
+    }
+
+    Console.WriteLine("Activity Type: {0}", task.PrimaveraProperties.ActivityType);
+    Console.WriteLine("Duration Type: {0}", task.PrimaveraProperties.DurationType);
+    Console.WriteLine("Percent Complete Type: {0}", task.PrimaveraProperties.PercentCompleteType);
+    Console.WriteLine("Original Duration: {0:N2}", task.Duration.TimeSpan.TotalHours);
+    Console.WriteLine("At Complete Duration: {0:N2}", task.ActualDuration.TimeSpan.TotalHours + task.RemainingDuration.TimeSpan.TotalHours);
+    Console.WriteLine("Duration % Complete: {0}", task.PrimaveraProperties.DurationPercentComplete);
+    Console.WriteLine("Physical % Complete: {0}", task.PrimaveraProperties.PhysicalPercentComplete);
+
+    Console.WriteLine("Task RemainingEarlyStart: {0}", task.PrimaveraProperties.RemainingEarlyStart);
+    Console.WriteLine("Task RemainingEarlyFinish: {0}", task.PrimaveraProperties.RemainingEarlyFinish);
+
+    Console.WriteLine("Labor Units:");
+    Console.WriteLine("{0}, {1}, {2}, {3}", 
+        task.PrimaveraProperties.ActualLaborUnits,
+        task.PrimaveraProperties.ActualNonLaborUnits,
+        task.PrimaveraProperties.RemainingLaborUnits,
+        task.PrimaveraProperties.RemainingNonLaborUnits);
+
+    Console.WriteLine("Actual costs:");
+    Console.WriteLine("{0}, {1}, {2}, {3}, Total: {4}",
+        task.PrimaveraProperties.ActualExpenseCost,
+        task.PrimaveraProperties.ActualLaborCost,
+        task.PrimaveraProperties.ActualMaterialCost,
+        task.PrimaveraProperties.ActualNonlaborCost,
+        task.PrimaveraProperties.ActualTotalCost);
+
+    Console.WriteLine("Constraints:");
+    Console.WriteLine("Primary: {0}, {1}", task.PrimaveraProperties.PrimaryConstraintType, task.PrimaveraProperties.PrimaryConstraintDate);
+    Console.WriteLine("Secondary: {0}, {1}", task.PrimaveraProperties.SecondaryConstraintType, task.PrimaveraProperties.SecondaryConstraintDate);
+
+    Console.WriteLine("Units % Complete: {0}", task.PrimaveraProperties.UnitsPercentComplete);
+}
 ```
 
 ### Ver también
 
 * class [PrimaveraTaskProperties](../../primaverataskproperties/)
 * class [Task](../)
-* espacio de nombres [Aspose.Tasks](../../task/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

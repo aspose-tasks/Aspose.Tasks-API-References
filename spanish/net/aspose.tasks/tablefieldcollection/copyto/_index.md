@@ -1,29 +1,91 @@
 ---
-title: TableFieldCollection.CopyTo
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: TableFieldCollection método. Copia los elementos de esta colección en la matriz especificada comenzando en el índice de matriz especificado.
+title: "TableFieldCollection.CopyTo"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "TableFieldCollection método. Copia los elementos de esta colección al arreglo especificado comenzando en el índice de arreglo especificado"
 type: docs
 weight: 70
 url: /es/net/aspose.tasks/tablefieldcollection/copyto/
 ---
 ## TableFieldCollection.CopyTo method
 
-Copia los elementos de esta colección en la matriz especificada, comenzando en el índice de matriz especificado.
+Copia los elementos de esta colección al array especificado, comenzando en el índice de array especificado.
 
 ```csharp
 public void CopyTo(TableField[] array, int arrayIndex)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | TableField[] | la matriz unidimensional especificada para copiar elementos a |
-| arrayIndex | Int32 | el índice de base cero de la matriz especificada en la que comienza la copia. |
+| arreglo | TableField[] | el arreglo unidimensional especificado al que copiar los elementos |
+| arrayIndex | Int32 | el índice basado en cero del arreglo especificado en el que comienza la copia. |
+
+## Ejemplos
+
+Muestra cómo trabajar con colecciones de campos de tabla.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+foreach (var tbl in project.Tables)
+{
+    Console.WriteLine("Table name: " + tbl.Name);
+    Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
+
+    // iterar sobre los campos de tabla
+    Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
+    Console.WriteLine("Table count: " + tbl.TableFields.Count);
+    foreach (var fld in tbl.TableFields)
+    {
+        Console.WriteLine("Field Title: " + fld.Title);
+        Console.WriteLine("Field Field: " + fld.Field);
+        Console.WriteLine();
+    }
+}
+
+// agregar un nuevo campo de tabla
+var table = project.Tables.ToList()[0];
+var field = new TableField();
+field.Title = "New Table Field";
+table.TableFields.Add(field);
+
+var field2 = new TableField();
+field2.Title = "New Table Field 2";
+
+// insertar un nuevo campo en la posición
+var idx = table.TableFields.IndexOf(field);
+table.TableFields.Insert(idx, field2);
+
+// permite editar el nuevo campo de tabla usando acceso por índice
+table.TableFields[idx].WrapHeader = true;
+
+Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
+
+// recientemente podemos eliminar el campo
+table.TableFields.RemoveAt(idx);
+
+// se puede limpiar la colección de dos maneras
+if (deleteOneByOne)
+{
+    // copiar los campos de tabla en el arreglo y eliminarlos uno por uno
+    var tableFields = new TableField[table.TableFields.Count];
+    table.TableFields.CopyTo(tableFields, 0);
+    foreach (var fld in tableFields)
+    {
+        table.TableFields.Remove(fld);
+    }
+}
+else
+{
+    // o se puede vaciar una colección de campos de tabla completamente
+    table.TableFields.Clear();
+}
+```
 
 ### Ver también
 
 * class [TableField](../../tablefield/)
 * class [TableFieldCollection](../)
-* espacio de nombres [Aspose.Tasks](../../tablefieldcollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tablefieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

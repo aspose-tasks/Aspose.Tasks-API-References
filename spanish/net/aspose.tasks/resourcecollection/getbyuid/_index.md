@@ -1,7 +1,7 @@
 ---
-title: ResourceCollection.GetByUid
-second_title: Referencia de Aspose.Tasks para la API de .NET
-description: ResourceCollection método. Devuelve un recurso con el Uid especificado.
+title: "ResourceCollection.GetByUid"
+second_title: "Referencia de API de Aspose.Tasks para .NET"
+description: "Método ResourceCollection. Devuelve un recurso con el Uid especificado"
 type: docs
 weight: 70
 url: /es/net/aspose.tasks/resourcecollection/getbyuid/
@@ -14,23 +14,70 @@ Devuelve un recurso con el Uid especificado.
 public Resource GetByUid(int uid)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | uid | Int32 | El uid especificado. |
 
-### Valor_devuelto
+### Valor devuelto
 
-Recurso con el uid especificado si está presente; en caso contrario, nulo.
+Recurso con el uid especificado si está presente; de lo contrario, null.
 
-### Observaciones
+## Observaciones
 
-O(1) complejidad.
+Complejidad O(1).
+
+## Ejemplos
+
+Muestra cómo trabajar con colecciones de recursos.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// agregar recurso vacío
+var resource = project.Resources.Add();
+resource.Set(Rsc.Type, ResourceType.Work);
+
+// agregar recurso con un nombre
+var developer = project.Resources.Add("Developer");
+developer.Set(Rsc.Type, ResourceType.Work);
+
+// agregar recurso antes del recurso con ID especificado
+var manager = project.Resources.Add("Manager", developer.Get(Rsc.Id));
+manager.Set(Rsc.Type, ResourceType.Work);
+
+var devResource = project.Resources.GetById(4);
+devResource.Set(Rsc.Code, "12345");
+
+var manResource = project.Resources.GetByUid(4);
+manResource.Set(Rsc.Code, "54321");
+
+// obtener recurso por id
+project.Resources.GetById(1);
+
+Console.WriteLine("Print the resources of " + project.Resources.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Count of resources: " + project.Resources.Count);
+foreach (var rsc in project.Resources)
+{
+    Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
+}
+
+Console.WriteLine();
+
+// las colecciones de recursos no soportan la operación Clear
+// project.Resources.Clear();
+// utilice el siguiente ejemplo de código en su lugar
+List<Resource> list = project.Resources.ToList();
+foreach (var rsc in list)
+{
+    rsc.Delete();
+}
+```
 
 ### Ver también
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* espacio de nombres [Aspose.Tasks](../../resourcecollection/)
-* asamblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 
