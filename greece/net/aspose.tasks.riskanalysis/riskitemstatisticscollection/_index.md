@@ -1,14 +1,14 @@
 ---
-title: RiskItemStatisticsCollection
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Αντιπροσωπεύει μια συλλογή που περιέχει τις εμφανίσεις τουRiskItemStatistics./riskitemstatistics/ τάξη.
+title: "Κλάση RiskItemStatisticsCollection"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Aspose.Tasks.RiskAnalysis.RiskItemStatisticsCollection κλάση. Αντιπροσωπεύει μια συλλογή που περιέχει τις παρουσίες της κλάσης RiskItemStatistics"
 type: docs
-weight: 1650
+weight: 1910
 url: /el/net/aspose.tasks.riskanalysis/riskitemstatisticscollection/
 ---
 ## RiskItemStatisticsCollection class
 
-Αντιπροσωπεύει μια συλλογή που περιέχει τις εμφανίσεις του[`RiskItemStatistics`](../riskitemstatistics/) τάξη.
+Αντιπροσωπεύει μια συλλογή που περιέχει τις παρουσίες της κλάσης [`RiskItemStatistics`](../riskitemstatistics/).
 
 ```csharp
 public class RiskItemStatisticsCollection : IDictionary<Task, RiskItemStatistics>, 
@@ -17,16 +17,84 @@ public class RiskItemStatisticsCollection : IDictionary<Task, RiskItemStatistics
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Get](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/get/)(Task) | Επιστρέφει μια παρουσία του[`RiskItemStatistics`](../riskitemstatistics/) κλάση που περιέχει σε αυτήν τη συλλογή η οποία σχετίζεται με το καθορισμένο αντικείμενο Task. null αν δεν βρεθεί το αντικείμενο. |
-| [GetEnumerator](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/getenumerator/)() | Επιστρέφει έναν απαριθμητή για αυτήν τη συλλογή. |
+| [Get](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/get/)(Task) | Επιστρέφει μια παρουσία της κλάσης [`RiskItemStatistics`](../riskitemstatistics/) που περιέχεται σε αυτή τη συλλογή και είναι συσχετισμένη με το καθορισμένο αντικείμενο Task· null εάν δεν βρεθεί το στοιχείο. |
+| [GetEnumerator](../../aspose.tasks.riskanalysis/riskitemstatisticscollection/getenumerator/)() | Επιστρέφει έναν απαριθμητή για αυτή τη συλλογή. |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με μια συλλογή στατιστικών κινδύνου.
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// Αρχικοποιήστε ένα πρότυπο κινδύνου
+var pattern = new RiskPattern(task)
+{
+    // Επιλέξτε τύπο κατανομής για τη γεννήτρια τυχαίων αριθμών ώστε να δημιουργεί πιθανές τιμές (προς το παρόν υποστηρίζονται μόνο δύο τύποι, δηλαδή κανονική και ομοιόμορφη)
+    // Για περισσότερες λεπτομέρειες δείτε εδώ: https://en.wikipedia.org/wiki/Normal_distribution)
+    Distribution = ProbabilityDistributionType.Normal,
+
+    // Ορίστε το ποσοστό της πιο πιθανής διάρκειας εργασίας που μπορεί να συμβεί στο καλύτερο δυνατό σενάριο έργου 
+    // Η προεπιλεγμένη τιμή είναι 75, που σημαίνει ότι εάν η εκτιμώμενη καθορισμένη διάρκεια εργασίας είναι 4 ημέρες, τότε η αισιόδοξη διάρκεια θα είναι 3 ημέρες
+    Optimistic = 70,
+
+    // Ορίστε το ποσοστό της πιο πιθανής διάρκειας εργασίας που μπορεί να συμβεί στο χειρότερο δυνατό σενάριο έργου 
+    // Η προεπιλεγμένη τιμή είναι 125, που σημαίνει ότι εάν η εκτιμώμενη καθορισμένη διάρκεια εργασίας είναι 4 ημέρες, τότε η απαισιόδοξη διάρκεια θα είναι 5 ημέρες.
+    Pessimistic = 130,
+
+    // Ορίστε ένα επίπεδο εμπιστοσύνης που αντιστοιχεί στο ποσοστό του χρόνου που οι πραγματικές τιμές θα βρίσκονται μεταξύ των αισιόδοξων και απαισιόδοξων εκτιμήσεων. 
+    // Μπορείτε να το θεωρήσετε ως μια τιμή τυπικής απόκλισης: όσο πιο αβέβαιοι είστε για τις εκτιμήσεις σας, τόσο μεγαλύτερη είναι η τιμή τυπικής απόκλισης που χρησιμοποιείται στη γεννήτρια τυχαίων αριθμών.
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+settings.Patterns.Add(pattern);
+
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+
+// επανάληψη σε όλα τα στοιχεία στατιστικών
+var statistics = analysisResult.GetRiskItems(RiskItemType.EarlyFinish);
+
+foreach (var statistic in statistics)
+{
+    Console.WriteLine("Short statistic: " + statistic);
+    Console.WriteLine();
+    Console.WriteLine("Statistic details: ");
+    Console.WriteLine("Item Type: {0}", statistic.ItemType);
+    Console.WriteLine("Expected value: {0}", statistic.ExpectedValue);
+    Console.WriteLine("StandardDeviation: {0}", statistic.StandardDeviation);
+    Console.WriteLine("10% Percentile: {0}", statistic.GetPercentile(10));
+    Console.WriteLine("50% Percentile: {0}", statistic.GetPercentile(50));
+    Console.WriteLine("90% Percentile: {0}", statistic.GetPercentile(90));
+    Console.WriteLine("Minimum: {0}", statistic.Minimum);
+    Console.WriteLine("Maximum: {0}", statistic.Maximum);
+}
+
+// ή λάβετε συγκεκριμένα στατιστικά
+var itemStatistics = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
+
+Console.WriteLine("Print the specific statistic: ");
+Console.WriteLine("Expected value: {0}", itemStatistics.ExpectedValue);
+Console.WriteLine("StandardDeviation: {0}", itemStatistics.StandardDeviation);
+Console.WriteLine("10% Percentile: {0}", itemStatistics.GetPercentile(10));
+Console.WriteLine("50% Percentile: {0}", itemStatistics.GetPercentile(50));
+Console.WriteLine("90% Percentile: {0}", itemStatistics.GetPercentile(90));
+Console.WriteLine("Minimum: {0}", itemStatistics.Minimum);
+Console.WriteLine("Maximum: {0}", itemStatistics.Maximum);
+```
 
 ### Δείτε επίσης
 
 * class [Task](../../aspose.tasks/task/)
 * class [RiskItemStatistics](../riskitemstatistics/)
-* χώρος ονομάτων [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
-* συνέλευση [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

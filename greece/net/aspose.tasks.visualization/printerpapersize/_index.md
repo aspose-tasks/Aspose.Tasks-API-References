@@ -1,9 +1,9 @@
 ---
-title: PrinterPaperSize
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Καθορίζει το μέγεθος χαρτιού που χρησιμοποιείται για εκτύπωση.
+title: "Απαρίθμηση PrinterPaperSize"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Απαρίθμηση Aspose.Tasks.Visualization.PrinterPaperSize. Καθορίζει το μέγεθος χαρτιού που χρησιμοποιείται για εκτύπωση"
 type: docs
-weight: 2930
+weight: 3280
 url: /el/net/aspose.tasks.visualization/printerpapersize/
 ---
 ## PrinterPaperSize enumeration
@@ -14,42 +14,94 @@ url: /el/net/aspose.tasks.visualization/printerpapersize/
 public enum PrinterPaperSize
 ```
 
-### Αξίες
+### Τιμές
 
-| Ονομα | αξία | Περιγραφή |
+| Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| Custom | `1` | Υποδεικνύει ότι το μέγεθος χαρτιού καθορίζεται από τον χρήστη. |
-| PaperLetter | `1` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Envelope Letter (8,5 ίντσες επί 11 ίντσες). |
-| PaperLetterSmall | `2` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Small Letter (8,5 ίντσες επί 11 ίντσες). |
-| PaperTabloid | `3` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή ταμπλόιντ (11 ίντσες επί 17 ίντσες). |
-| PaperLedger | `4` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Ledger (17 in. x 11 in.). |
-| PaperLegal | `5` | Υποδεικνύει μέγεθος χαρτιού νόμιμο εκτυπωτή φακέλου (8,5 ίντσες επί 14 ίντσες). |
-| PaperStatement | `6` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή δήλωσης (5,5 ίντσες επί 8,5 ίντσες). |
-| PaperExecutive | `7` | Υποδεικνύει μέγεθος χαρτιού εκτελεστικού εκτυπωτή φακέλου (7,25 ίντσες επί 10,5 ίντσες). |
-| PaperA3 | `8` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή A3 (297 mm επί 420 mm). |
-| PaperA4 | `9` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή A4 (210 mm επί 297 mm). |
-| PaperA4Small | `10` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή μικρού μεγέθους A4 (210 mm επί 297 mm). |
-| PaperA5 | `11` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή A5 (148 mm επί 210 mm). |
-| PaperB4 | `12` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή B4 (250 mm επί 353 mm). |
-| PaperB5 | `13` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή B5 (176 mm επί 250 mm). |
-| PaperFolio | `14` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Folio (8,5 ίντσες επί 13 ίντσες). |
-| PaperQuarto | `15` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Quarto (215 mm επί 275 mm). |
-| PaperStandard10x14 | `16` | Υποδεικνύει τυπικό μέγεθος χαρτιού εκτυπωτή (10 ίντσες επί 14 ίντσες). |
-| PaperStandard11x17 | `17` | Υποδεικνύει τυπικό μέγεθος χαρτιού εκτυπωτή (11 ίντσες επί 17 ίντσες). |
-| PaperNote | `18` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Note (8,5 ίντσες επί 11 ίντσες). |
-| PaperEnvelope10 | `20` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Envelope10 (4,125 in. επί 9,5 in.). |
-| PaperCSheet | `24` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή χαρτιού C (17 ίντσες επί 22 ίντσες). |
-| PaperDSheet | `25` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή χαρτιού D (22 ίντσες επί 34 ίντσες). |
-| PaperESheet | `26` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή χαρτιού Ε (34 ίντσες επί 44 ίντσες). |
-| PaperEnvelopeMonarch | `37` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή Envelope Monarch (3,875 ίντσες επί 7,5 ίντσες). |
-| PaperStandard9x11 | `44` | Υποδεικνύει τυπικό μέγεθος χαρτιού εκτυπωτή (9 ίντσες επί 11 ίντσες). |
-| PaperStandard10x11 | `45` | Υποδεικνύει τυπικό μέγεθος χαρτιού εκτυπωτή (10 ίντσες επί 11 ίντσες). |
-| PaperStandard15x11 | `46` | Υποδεικνύει τυπικό μέγεθος χαρτιού εκτυπωτή (15 ίντσες επί 11 ίντσες). |
-| PaperA2 | `66` | Υποδεικνύει μέγεθος χαρτιού εκτυπωτή A2 (420 mm επί 594 mm). |
+| Custom | `1` | Δηλώνει ότι το μέγεθος χαρτιού ορίζεται από τον χρήστη. |
+| PaperLetter | `1` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Envelope Letter (8.5 ίν. x 11 ίν.). |
+| PaperLetterSmall | `2` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Small Letter (8.5 ίν. x 11 ίν.). |
+| PaperTabloid | `3` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Tabloid (11 ίν. x 17 ίν.). |
+| PaperLedger | `4` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Ledger (17 ίν. x 11 ίν.). |
+| PaperLegal | `5` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Envelope legal (8.5 ίν. x 14 ίν.). |
+| PaperStatement | `6` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Statement (5.5 ίν. x 8.5 ίν.). |
+| PaperExecutive | `7` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Envelope executive (7.25 ίν. x 10.5 ίν.). |
+| PaperA3 | `8` | Δείχνει το μέγεθος χαρτιού εκτυπωτή A3 (297 χλμ x 420 χλμ). |
+| PaperA4 | `9` | Δείχνει το μέγεθος χαρτιού εκτυπωτή A4 (210 χλμ x 297 χλμ). |
+| PaperA4Small | `10` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Small A4 (210 χλμ x 297 χλμ). |
+| PaperA5 | `11` | Δείχνει το μέγεθος χαρτιού εκτυπωτή A5 (148 χλμ x 210 χλμ). |
+| PaperB4 | `12` | Δείχνει το μέγεθος χαρτιού εκτυπωτή B4 (250 χλμ x 353 χλμ). |
+| PaperB5 | `13` | Δείχνει το μέγεθος χαρτιού εκτυπωτή B5 (176 χλμ x 250 χλμ). |
+| PaperFolio | `14` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Folio (8.5 ίν. x 13 ίν.). |
+| PaperQuarto | `15` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Quarto (215 χλμ x 275 χλμ). |
+| PaperStandard10x14 | `16` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Standard (10 ίν. x 14 ίν.). |
+| PaperStandard11x17 | `17` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Standard (11 ίν. x 17 ίν.). |
+| PaperNote | `18` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Note (8.5 ίν. x 11 ίν.). |
+| PaperEnvelope10 | `20` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Envelope10 (4.125 ίν. x 9.5 ίν.). |
+| PaperCSheet | `24` | Δείχνει το μέγεθος χαρτιού εκτυπωτή C paper (17 ίν. x 22 ίν.). |
+| PaperDSheet | `25` | Δείχνει το μέγεθος χαρτιού εκτυπωτή D paper (22 ίν. x 34 ίν.). |
+| PaperESheet | `26` | Δείχνει το μέγεθος χαρτιού εκτυπωτή E paper (34 ίν. x 44 ίν.). |
+| PaperEnvelopeMonarch | `37` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Envelope Monarch (3.875 ίν. x 7.5 ίν.). |
+| PaperStandard9x11 | `44` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Standard (9 ίν. x 11 ίν.). |
+| PaperStandard10x11 | `45` | Δείχνει το μέγεθος χαρτιού εκτυπωτή Standard (10 ίν. x 11 ίν.). |
+| PaperStandard15x11 | `46` | Δείχνει το τυπικό μέγεθος χαρτιού εκτυπωτή (15 ίντσες επί 11 ίντσες). |
+| PaperA2 | `66` | Δείχνει το μέγεθος χαρτιού εκτυπωτή A2 (420 χλμ επί 594 χλμ). |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με τις πληροφορίες σελίδας της προβολής MS Project.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// επιτρέπει την τροποποίηση της προεπιλεγμένης προβολής
+var info = project.DefaultView.PageInfo;
+
+Console.WriteLine("Modify Page Info: " + info.Name);
+
+// επιτρέπει την τροποποίηση των περιθωρίων
+info.Margins.Left = 10d;
+info.Margins.Top = 10d;
+info.Margins.Right = 10d;
+info.Margins.Bottom = 10d;
+
+// Ας τροποποιήσουμε τις ρυθμίσεις σελίδας.
+info.PageSettings.IsPortrait = true;
+info.PageSettings.PaperSize = PrinterPaperSize.PaperA4;
+
+// Ας τροποποιήσουμε τις ρυθμίσεις προβολής σελίδας.
+// ορίστε μια τιμή που υποδεικνύει εάν θα εκτυπωθούν σημειώσεις.
+info.PageViewSettings.PrintNotes = true;
+
+var header = new HeaderFooterInfo
+{
+    LeftText = "Left header text",
+    CenteredText = "Centered header text",
+    RightText = "Right header text"
+};
+var legend = new PageLegend
+{
+    LeftText =  "Left legend text",
+    CenteredText = "Centered legend text",
+    RightText = "Right legend text"
+};
+var footer = new HeaderFooterInfo
+{
+    LeftText = "Left footer text",
+    CenteredText = "Centered footer text",
+    RightText = "Right footer text"
+};
+
+info.Header = header;
+info.Legend = legend;
+info.Footer = footer;
+
+// εργαστείτε με το έργο...
+```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* συνέλευση [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

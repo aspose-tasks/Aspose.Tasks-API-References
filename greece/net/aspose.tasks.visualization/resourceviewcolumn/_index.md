@@ -1,14 +1,14 @@
 ---
-title: ResourceViewColumn
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Η κλάση προβολής του έργου χρησιμοποιείται στην προβολή ResourceUsage και στην προβολή ResourceSheet.
+title: "Κλάση ResourceViewColumn"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Aspose.Tasks.Visualization.ResourceViewColumn κλάση. Κλάση προβολής έργων που χρησιμοποιείται στην προβολή ResourceUsage και στην προβολή ResourceSheet."
 type: docs
-weight: 3000
+weight: 3350
 url: /el/net/aspose.tasks.visualization/resourceviewcolumn/
 ---
 ## ResourceViewColumn class
 
-Η κλάση προβολής του έργου χρησιμοποιείται στην προβολή ResourceUsage και στην προβολή ResourceSheet.
+Κλάση προβολής του έργου που χρησιμοποιείται στην προβολή ResourceUsage και στην προβολή ResourceSheet.
 
 ```csharp
 public sealed class ResourceViewColumn : ViewColumn
@@ -16,32 +16,78 @@ public sealed class ResourceViewColumn : ViewColumn
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ResourceViewColumn](resourceviewcolumn/#constructor)(int, Field) | Αρχικοποιεί μια νέα παρουσία του`ResourceViewColumn` τάξη. |
-| [ResourceViewColumn](resourceviewcolumn/#constructor_1)(string, int, ResourceToColumnTextConverter) | Αρχικοποιεί μια νέα παρουσία του`ResourceViewColumn` τάξη. |
-| [ResourceViewColumn](resourceviewcolumn/#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | Αρχικοποιεί μια νέα παρουσία του`ResourceViewColumn` τάξη. |
+| [ResourceViewColumn](resourceviewcolumn/#constructor)(int, Field) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `ResourceViewColumn`. |
+| [ResourceViewColumn](resourceviewcolumn/#constructor_1)(string, int, ResourceToColumnTextConverter) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `ResourceViewColumn`. |
+| [ResourceViewColumn](resourceviewcolumn/#constructor_2)(string, int, ResourceToColumnTextConverter, Field) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `ResourceViewColumn`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field/) { get; set; } | Πεδίο στήλης. [`Field`](./field/) . |
+| override [Field](../../aspose.tasks.visualization/resourceviewcolumn/field/) { get; set; } | Πεδίο στήλης. [`Field`](./field/). |
 | [Name](../../aspose.tasks.visualization/viewcolumn/name/) { get; } | Λαμβάνει το όνομα της στήλης. |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | Λαμβάνει ή ορίζει τη στοίχιση του κειμένου (μπορεί να είναι μία από τις τιμές του[`StringAlignment`](../viewcolumn/stringalignment/) απαρίθμηση). |
-| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | Λαμβάνει ή ορίζει την επανάκληση που μπορεί να χρησιμοποιηθεί για την προσαρμογή της εμφάνισης των κελιών της στήλης. |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | Λαμβάνει ή ορίζει την ευθυγράμμιση του κειμένου (μπορεί να είναι μία από τις τιμές της απαρίθμησης [`HorizontalStringAlignment`](../horizontalstringalignment/)). |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | Λαμβάνει ή ορίζει την κλήση επιστροφής (callback) που μπορεί να χρησιμοποιηθεί για την προσαρμογή της εμφάνισης των κελιών της στήλης. |
 | [Width](../../aspose.tasks.visualization/viewcolumn/width/) { get; } | Λαμβάνει το πλάτος της στήλης. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [GetColumnText](../../aspose.tasks.visualization/resourceviewcolumn/getcolumntext/)(Resource) | Μετατρέπει τον τρέχοντα πόρο στο κείμενο της στήλης. |
+| [GetColumnText](../../aspose.tasks.visualization/resourceviewcolumn/getcolumntext/)(Resource) | Μετατρέπει τον τρέχοντα πόρο σε κείμενο στήλης. |
+
+## Παραδείγματα
+
+Δείχνει πώς να προσθέσετε στήλες προβολής πόρων για εξαγωγή.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// επανάληψη στις στήλες
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
 
 ### Δείτε επίσης
 
 * class [ViewColumn](../viewcolumn/)
-* χώρος ονομάτων [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* συνέλευση [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: ProjectDisplayOptions
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Αντιπροσωπεύει τις επιλογές εμφάνισης για ένα παράδειγμα έργου.
+title: "Κλάση ProjectDisplayOptions"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Κλάση Aspose.Tasks.ProjectDisplayOptions. Αντιπροσωπεύει τις επιλογές εμφάνισης για μια παρουσία έργου"
 type: docs
-weight: 1200
+weight: 1450
 url: /el/net/aspose.tasks/projectdisplayoptions/
 ---
 ## ProjectDisplayOptions class
 
-Αντιπροσωπεύει τις επιλογές εμφάνισης για ένα παράδειγμα έργου.
+Αντιπροσωπεύει τις επιλογές εμφάνισης για μια παρουσία έργου.
 
 ```csharp
 public class ProjectDisplayOptions
@@ -16,29 +16,73 @@ public class ProjectDisplayOptions
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ProjectDisplayOptions](projectdisplayoptions/)() | Αρχικοποιεί μια νέα παρουσία του`ProjectDisplayOptions` τάξη. |
+| [ProjectDisplayOptions](projectdisplayoptions/)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `ProjectDisplayOptions`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν πρέπει να προστεθεί ένα διάστημα πριν από την τιμή του αριθμού και τη συντομογραφία του χρόνου (1 εβδομάδα σε αντίθεση με 1 εβδομάδα). |
-| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel/) { get; set; } | Λαμβάνει ή ρυθμίζει τον τρόπο εμφάνισης της ετικέτας ημέρας. |
-| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel/) { get; set; } | Λαμβάνει ή ρυθμίζει τον τρόπο εμφάνισης της ετικέτας ώρας. |
-| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel/) { get; set; } | Λαμβάνει ή ρυθμίζει τον τρόπο εμφάνισης της ετικέτας λεπτών. |
-| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel/) { get; set; } | Λαμβάνει ή ρυθμίζει τον τρόπο εμφάνισης της ετικέτας μήνα. |
-| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα εμφανιστούν συνοπτικές πληροφορίες για ένα ολόκληρο έργο σε μία μόνο σειρά με τη δική της γραμμή εργασιών σύνοψης στο επάνω μέρος της προβολής του γραφήματος Gantt. |
-| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα εμφανίζονται προτάσεις όταν το Project εντοπίζει μια πιθανή διένεξη προγραμματισμού με μια μη αυτόματα προγραμματισμένη εργασία. Αυτή η επιλογή είναι διαθέσιμη για την έκδοση Project 2010 και μεταγενέστερη. |
-| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα εμφανίζονται προειδοποιήσεις όταν το Project εντοπίζει μια πιθανή διένεξη προγραμματισμού με μια μη αυτόματα προγραμματισμένη εργασία. Αυτή η επιλογή είναι διαθέσιμη για την έκδοση Project 2010 και μεταγενέστερη. |
-| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν πρέπει να υπογραμμιστούν οι υπερσυνδέσεις. |
-| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel/) { get; set; } | Λαμβάνει ή ρυθμίζει τον τρόπο εμφάνισης της ετικέτας εβδομάδας. |
-| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel/) { get; set; } | Λαμβάνει ή ρυθμίζει τον τρόπο εμφάνισης της ετικέτας έτους. |
+| [AddSpaceBeforeLabel](../../aspose.tasks/projectdisplayoptions/addspacebeforelabel/) { get; set; } | Αποκτά ή ορίζει μια τιμή που υποδεικνύει αν θα προστεθεί κενό πριν από την αριθμητική τιμή και τη συντομογραφία χρόνου (1 wk αντί για 1wk). |
+| [DayLabel](../../aspose.tasks/projectdisplayoptions/daylabel/) { get; set; } | Αποκτά ή ορίζει πώς εμφανίζεται η ετικέτα ημέρας. |
+| [HourLabel](../../aspose.tasks/projectdisplayoptions/hourlabel/) { get; set; } | Αποκτά ή ορίζει πώς εμφανίζεται η ετικέτα ώρας. |
+| [MinuteLabel](../../aspose.tasks/projectdisplayoptions/minutelabel/) { get; set; } | Αποκτά ή ορίζει πώς εμφανίζεται η ετικέτα λεπτού. |
+| [MonthLabel](../../aspose.tasks/projectdisplayoptions/monthlabel/) { get; set; } | Αποκτά ή ορίζει πώς εμφανίζεται η ετικέτα μήνα. |
+| [ShowProjectSummaryTask](../../aspose.tasks/projectdisplayoptions/showprojectsummarytask/) { get; set; } | Αποκτά ή ορίζει μια τιμή που υποδεικνύει αν θα εμφανίζεται συνοπτική πληροφορία για ολόκληρο το έργο σε μία γραμμή με τη δική του γραμμή περίληψης εργασίας στην κορυφή της προβολής Gantt Chart. |
+| [ShowTaskScheduleSuggestions](../../aspose.tasks/projectdisplayoptions/showtaskschedulesuggestions/) { get; set; } | Αποκτά ή ορίζει μια τιμή που υποδεικνύει αν θα εμφανίζονται προτάσεις όταν το Project εντοπίζει πιθανή σύγκρουση χρονοπρογραμματισμού με μια χειροκίνητα προγραμματισμένη εργασία. Αυτή η επιλογή είναι διαθέσιμη για την έκδοση Project 2010 και μεταγενέστερες. |
+| [ShowTaskScheduleWarnings](../../aspose.tasks/projectdisplayoptions/showtaskschedulewarnings/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα εμφανίζονται προειδοποιήσεις όταν το Project εντοπίζει πιθανή σύγκρουση χρονοπρογραμματισμού με μια χειροκίνητα προγραμματισμένη εργασία. Αυτή η επιλογή είναι διαθέσιμη για την έκδοση Project 2010 και μεταγενέστερες. |
+| [UnderlineHyperlinks](../../aspose.tasks/projectdisplayoptions/underlinehyperlinks/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα υπογραμμίζονται οι υπερσυνδέσεις. |
+| [WeekLabel](../../aspose.tasks/projectdisplayoptions/weeklabel/) { get; set; } | Λαμβάνει ή ορίζει πώς εμφανίζεται η ετικέτα εβδομάδας. |
+| [YearLabel](../../aspose.tasks/projectdisplayoptions/yearlabel/) { get; set; } | Λαμβάνει ή ορίζει πώς εμφανίζεται η ετικέτα έτους. |
+
+## Παραδείγματα
+
+Εμφανίζει πώς να χρησιμοποιήσετε τις επιλογές εμφάνισης του έργου.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// Ορίστε μια τιμή που υποδεικνύει εάν θα εμφανίζονται προειδοποιήσεις όταν το Project εντοπίζει πιθανή σύγκρουση χρονοπρογραμματισμού με μια χειροκίνητα προγραμματισμένη εργασία.
+// Αυτή η επιλογή είναι διαθέσιμη για την έκδοση Project 2010 και μεταγενέστερες.
+project.DisplayOptions.ShowTaskScheduleWarnings = false;
+
+// μια τιμή που υποδεικνύει εάν θα προστεθεί κενό πριν από την αριθμητική τιμή και τη συντομογραφία χρόνου (1 wk αντί για 1wk)
+project.DisplayOptions.AddSpaceBeforeLabel = true;
+
+// ορίστε πώς εμφανίζεται η ετικέτα λεπτών
+project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.Min;
+
+// ορίστε πώς εμφανίζεται η ετικέτα ώρας
+project.DisplayOptions.HourLabel = HourLabelDisplay.Hr;
+
+// ορίστε πώς εμφανίζεται η ετικέτα ημέρας
+project.DisplayOptions.DayLabel = DayLabelDisplay.Dy;
+
+// ορίστε πώς εμφανίζεται η ετικέτα εβδομάδας
+project.DisplayOptions.WeekLabel = WeekLabelDisplay.Week;
+
+// ορίστε πώς εμφανίζεται η ετικέτα του μήνα
+project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mon;
+
+// ορίστε πώς εμφανίζεται η ετικέτα έτους
+project.DisplayOptions.YearLabel = YearLabelDisplay.Year;
+
+// ορίστε μια τιμή που υποδεικνύει εάν θα εμφανίζεται συνοπτική πληροφορία για ολόκληρο το έργο σε μία γραμμή με τη δική της γραμμή σύνοψης εργασιών στην κορυφή της προβολής Gantt Chart.
+project.DisplayOptions.ShowProjectSummaryTask = true;
+
+// ορίστε μια τιμή που υποδεικνύει εάν θα εμφανίζονται προτάσεις όταν το Project εντοπίζει πιθανή σύγκρουση χρονοπρογραμματισμού με μια χειροκίνητα προγραμματισμένη εργασία.
+project.DisplayOptions.ShowTaskScheduleSuggestions = true;
+
+// ορίστε μια τιμή που υποδεικνύει εάν θα υπογραμμίζονται οι υπερσυνδέσεις.
+project.DisplayOptions.UnderlineHyperlinks = true;
+
+project.Save(OutDir + "WorkWithProjectDisplayOptions.mpp", SaveFileFormat.Mpp);
+```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Tasks](../../aspose.tasks/)
-* συνέλευση [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

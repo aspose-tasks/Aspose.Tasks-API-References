@@ -1,14 +1,14 @@
 ---
-title: Add
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Επιστρέφει μια παρουσία του FinishStartTaskLinkaspose.tasks/tasklink/ που έχει προστεθεί στο αντικείμενο TaskLinkCollection.
+title: "TaskLinkCollection.Add"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Μέθοδος TaskLinkCollection. Επιστρέφει ένα στιγμιότυπο του FinishStart TaskLink που έχει προστεθεί στο αντικείμενο TaskLinkCollection."
 type: docs
 weight: 40
 url: /el/net/aspose.tasks/tasklinkcollection/add/
 ---
 ## Add(Task, Task) {#add}
 
-Επιστρέφει μια παρουσία του Finish-Start[`TaskLink`](../../tasklink/) που έχει προστεθεί στο αντικείμενο TaskLinkCollection.
+Επιστρέφει ένα στιγμιότυπο του Finish-Start [`TaskLink`](../../tasklink/) που έχει προστεθεί στο αντικείμενο TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ)
@@ -16,32 +16,73 @@ public TaskLink Add(Task pred, Task succ)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| pred | Task | Προγενέστερη εργασία. |
-| succ | Task | Έργο διαδόχου. |
+| pred | Εργασία | Προηγούμενη εργασία. |
+| succ | Εργασία | Επόμενη εργασία. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-μια παρουσία σύνδεσης εργασιών που έχει προστεθεί σε αυτό το αντικείμενο.
+ένα στιγμιότυπο συνδέσμου εργασίας που έχει προστεθεί σε αυτό το αντικείμενο.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | Εάν κάποια από τις εργασίες εισαγωγής είναι ίση με μηδενική, τότεArgumentNullException θα πεταχτεί. |
+| ArgumentNullException | Εάν κάποιο από τα εισερχόμενα tasks είναι ίσο με null, τότε θα εξαπολυθεί ArgumentNullException. |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με συλλογές συνδέσεων εργασίας.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// λάβετε εργασίες
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// συνδέστε τις εργασίες
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// εκτυπώστε τις συνδέσεις μεταξύ των εργασιών
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// επεξεργαστείτε τη σύνδεση με πρόσβαση κατά δείκτη
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// αφαιρέστε όλες τις συνδέσεις εργασίας
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
 
 ### Δείτε επίσης
 
 * class [TaskLink](../../tasklink/)
 * class [Task](../../task/)
 * class [TaskLinkCollection](../)
-* χώρος ονομάτων [Aspose.Tasks](../../tasklinkcollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType) {#add_1}
 
-Επιστρέφει μια παρουσία του[`TaskLink`](../../tasklink/) που έχει προστεθεί στο αντικείμενο TaskLinkCollection.
+Επιστρέφει ένα στιγμιότυπο του [`TaskLink`](../../tasklink/) που έχει προστεθεί στο αντικείμενο TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
@@ -49,19 +90,60 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| pred | Task | Προγενέστερη εργασία. |
-| succ | Task | Έργο διαδόχου. |
-| linkType | TaskLinkType | Τύπος συνδέσμου[`TaskLinkType`](../../tasklinktype/) |
+| pred | Εργασία | Προηγούμενη εργασία. |
+| succ | Εργασία | Επόμενη εργασία. |
+| linkType | TaskLinkType | Τύπος συνδέσμου [`TaskLinkType`](../../tasklinktype/) |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-μια παρουσία σύνδεσης εργασιών που έχει προστεθεί σε αυτό το αντικείμενο.
+ένα στιγμιότυπο συνδέσμου εργασίας που έχει προστεθεί σε αυτό το αντικείμενο.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | Εάν κάποια από τις εργασίες εισαγωγής είναι ίση με μηδενική, τότεArgumentNullException θα πεταχτεί. |
+| ArgumentNullException | Εάν κάποιο από τα εισερχόμενα tasks είναι ίσο με null, τότε θα εξαπολυθεί ArgumentNullException. |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με συλλογές συνδέσεων εργασίας.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// λάβετε εργασίες
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// συνδέστε τις εργασίες
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// εκτυπώστε τις συνδέσεις μεταξύ των εργασιών
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// επεξεργαστείτε τη σύνδεση με πρόσβαση κατά δείκτη
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// αφαιρέστε όλες τις συνδέσεις εργασίας
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
 
 ### Δείτε επίσης
 
@@ -69,14 +151,14 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType)
 * class [Task](../../task/)
 * enum [TaskLinkType](../../tasklinktype/)
 * class [TaskLinkCollection](../)
-* χώρος ονομάτων [Aspose.Tasks](../../tasklinkcollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(Task, Task, TaskLinkType, Duration) {#add_2}
 
-Επιστρέφει μια παρουσία του[`TaskLink`](../../tasklink/) που έχει προστεθεί στο αντικείμενο TaskLinkCollection.
+Επιστρέφει ένα στιγμιότυπο του [`TaskLink`](../../tasklink/) που έχει προστεθεί στο αντικείμενο TaskLinkCollection.
 
 ```csharp
 public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
@@ -84,20 +166,61 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| pred | Task | Προγενέστερη εργασία. |
-| succ | Task | Έργο διαδόχου. |
-| linkType | TaskLinkType | Τύπος συνδέσμου[`TaskLinkType`](../../tasklinktype/) |
-| lag | Duration | Καθυστέρηση συνδέσμου[`Duration`](../../duration/). |
+| pred | Εργασία | Προηγούμενη εργασία. |
+| succ | Εργασία | Επόμενη εργασία. |
+| linkType | TaskLinkType | Τύπος συνδέσμου [`TaskLinkType`](../../tasklinktype/) |
+| lag | Duration | Καθυστέρηση συνδέσμου [`Duration`](../../duration/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-ένας σύνδεσμος εργασιών που έχει προστεθεί σε αυτό το αντικείμενο.
+ένας σύνδεσμος εργασίας που έχει προστεθεί σε αυτό το αντικείμενο.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | Εάν κάποια από τις εργασίες εισαγωγής είναι ίση με μηδενική, τότεArgumentNullException θα πεταχτεί. |
+| ArgumentNullException | Εάν κάποιο από τα εισερχόμενα tasks είναι ίσο με null, τότε θα εξαπολυθεί ArgumentNullException. |
+
+## Παραδείγματα
+
+Δείχνει πώς να εργαστείτε με συλλογές συνδέσεων εργασίας.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// λάβετε εργασίες
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// συνδέστε τις εργασίες
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// εκτυπώστε τις συνδέσεις μεταξύ των εργασιών
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// επεξεργαστείτε τη σύνδεση με πρόσβαση κατά δείκτη
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// αφαιρέστε όλες τις συνδέσεις εργασίας
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
 
 ### Δείτε επίσης
 
@@ -106,14 +229,14 @@ public TaskLink Add(Task pred, Task succ, TaskLinkType linkType, Duration lag)
 * enum [TaskLinkType](../../tasklinktype/)
 * struct [Duration](../../duration/)
 * class [TaskLinkCollection](../)
-* χώρος ονομάτων [Aspose.Tasks](../../tasklinkcollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(TaskLink) {#add_3}
 
-Αυτή είναι η υλοποίηση απόκομμα της μεθόδου Προσθήκης της ICollection, η οποία ρίχνει μόνο το NotSupportedException
+Αυτή είναι η ψευδοεφαρμογή της μεθόδου Add του ICollection, η οποία μόνο ρίχνει NotSupportedException
 
 ```csharp
 public void Add(TaskLink item)
@@ -121,13 +244,13 @@ public void Add(TaskLink item)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| item | TaskLink | Το στοιχείο για προσθήκη. |
+| item | TaskLink | Το στοιχείο προς προσθήκη. |
 
 ### Δείτε επίσης
 
 * class [TaskLink](../../tasklink/)
 * class [TaskLinkCollection](../)
-* χώρος ονομάτων [Aspose.Tasks](../../tasklinkcollection/)
-* συνέλευση [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

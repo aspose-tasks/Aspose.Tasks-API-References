@@ -1,7 +1,7 @@
 ---
-title: Calendar
-second_title: Aspose.Tasks για Αναφορά API .NET
-description: Αντιπροσωπεύει ένα ημερολόγιο που χρησιμοποιείται σε ένα έργο.
+title: "Κλάση Calendar"
+second_title: "Aspose.Tasks for .NET Αναφορά API"
+description: "Κλάση Aspose.Tasks.Calendar. Αντιπροσωπεύει ένα ημερολόγιο που χρησιμοποιείται σε ένα έργο."
 type: docs
 weight: 230
 url: /el/net/aspose.tasks/calendar/
@@ -11,63 +11,69 @@ url: /el/net/aspose.tasks/calendar/
 Αντιπροσωπεύει ένα ημερολόγιο που χρησιμοποιείται σε ένα έργο.
 
 ```csharp
-public class Calendar
+public class Calendar : ICalendar
 ```
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [BaseCalendar](../../aspose.tasks/calendar/basecalendar/) { get; set; } | Λαμβάνει ή ορίζει το βασικό ημερολόγιο από το οποίο εξαρτάται αυτό το ημερολόγιο. Ισχύει μόνο εάν το ημερολόγιο δεν είναι βασικό ημερολόγιο. |
-| [Exceptions](../../aspose.tasks/calendar/exceptions/) { get; } | Λαμβάνει αντικείμενο CalendarExceptionCollection. Η συλλογή εξαιρέσεων που σχετίζεται με το ημερολόγιο. |
+| [Exceptions](../../aspose.tasks/calendar/exceptions/) { get; } | Λαμβάνει το αντικείμενο CalendarExceptionCollection. Η συλλογή των εξαιρέσεων που σχετίζονται με το ημερολόγιο. |
+| [Guid](../../aspose.tasks/calendar/guid/) { get; } | Λαμβάνει το Guid του ημερολογίου. |
 | [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το ημερολόγιο είναι βασικό ημερολόγιο. |
 | [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το ημερολόγιο είναι ημερολόγιο βάσης. |
 | [Name](../../aspose.tasks/calendar/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα του ημερολογίου. |
+| [PrimaveraProperties](../../aspose.tasks/calendar/primaveraproperties/) { get; } | Λαμβάνει ένα αντικείμενο που περιέχει ιδιότητες ειδικές για Primavera για ένα ημερολόγιο που διαβάζεται από μορφές Primavera. |
 | [Uid](../../aspose.tasks/calendar/uid/) { get; set; } | Λαμβάνει ή ορίζει το μοναδικό αναγνωριστικό του ημερολογίου. |
-| [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Λήψη WeekDaysCollection για αυτό το ημερολόγιο. Η συλλογή των καθημερινών που καθορίζει το ημερολόγιο. |
-| [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Λαμβάνει αντικείμενο WorkWeekCollections. Η συλλογή των εβδομάδων εργασίας που σχετίζεται με το ημερολόγιο. |
+| [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Λαμβάνει το WeekDaysCollection για αυτό το ημερολόγιο. Η συλλογή των εργάσιμων ημερών που ορίζει το ημερολόγιο. |
+| [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Λαμβάνει το αντικείμενο WorkWeekCollections. Η συλλογή των εβδομάδων εργασίας που σχετίζονται με το ημερολόγιο. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar/)(Calendar) | Καθιστά ένα δεδομένο Ημερολόγιο ως 24ωρο Ημερολόγιο. Το Ημερολόγιο 24 ωρών είναι ένα Ημερολόγιο στο οποίο κάθε μέρα της εβδομάδας λειτουργεί με 24ωρες ώρες εργασίας. |
-| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar/)(Calendar) | Δημιουργεί ένα δεδομένο Ημερολόγιο ως Ημερολόγιο Νυχτερινής Βάρδιας. |
+| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar/)(Calendar) | Κάνει ένα δεδομένο Calendar να είναι ένα 24Ωρο Calendar. Το 24Ωρο Calendar είναι ένα ημερολόγιο στο οποίο κάθε ημέρα της εβδομάδας λειτουργεί με αδιάλειπτες ώρες εργασίας. |
+| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar/)(Calendar) | Μετατρέπει ένα δεδομένο Ημερολόγιο σε Ημερολόγιο Νυχτερινής Βάρδιας. |
 | static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar/)(Calendar) | Δημιουργεί προεπιλεγμένο τυπικό ημερολόγιο. |
 | [Delete](../../aspose.tasks/calendar/delete/)() | Αφαιρεί το ημερολόγιο από το έργο. |
 | override [Equals](../../aspose.tasks/calendar/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με ένα καθορισμένο αντικείμενο. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork)(DateTime, Duration) | Υπολογίζει την ημερομηνία κατά την οποία θα περάσει ο καθορισμένος χρόνος εργασίας σύμφωνα με το ημερολόγιο. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Υπολογίζει την ημερομηνία κατά την οποία θα περάσει ο καθορισμένος χρόνος εργασίας σύμφωνα με το ημερολόγιο. |
-| override [GetHashCode](../../aspose.tasks/calendar/gethashcode/)() | Επιστρέφει έναν κωδικό κατακερματισμού για την παρουσία της κλάσης. |
-| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart/)(DateTime) | Υπολογίζει την έναρξη της επόμενης εργάσιμης ημέρας από την ημερομηνία. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork)(DateTime, Duration) | Υπολογίζει την ημερομηνία κατά την οποία θα περάσει η καθορισμένη ποσότητα χρόνου εργασίας σύμφωνα με το ημερολόγιο. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Υπολογίζει την ημερομηνία κατά την οποία θα περάσει η καθορισμένη ποσότητα χρόνου εργασίας σύμφωνα με το ημερολόγιο. |
+| override [GetHashCode](../../aspose.tasks/calendar/gethashcode/)() | Επιστρέφει έναν κωδικό κατακερματισμού για το στιγμιότυπο της κλάσης. |
+| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart/)(DateTime) | Υπολογίζει την έναρξη της επόμενης εργάσιμης ημέρας για την καθορισμένη ημερομηνία. |
 | [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend/)(DateTime) | Υπολογίζει το τέλος της προηγούμενης εργάσιμης ημερομηνίας από την καθορισμένη ημερομηνία. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration)(DateTime, Duration) | Επιστρέφει Ημερομηνία Έναρξης με βάση την καθορισμένη Ημερομηνία λήξης και Διάρκεια. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Επιστρέφει Ημερομηνία Έναρξης με βάση την καθορισμένη Ημερομηνία λήξης και Διάρκεια. |
-| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Υπολογίζει την ημερομηνία και την ώρα λήξης της εργασίας από την ημερομηνία έναρξης, τα χωριστά μέρη και τη διάρκεια. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Επιστρέφει το ποσό των ωρών εργασίας κατά την ημερομηνία. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Ώρες εργασίας επιστροφής για τις καθορισμένες ημερομηνίες. |
-| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Επιστρέφει[`WorkingTimeCollection`](../workingtimecollection/) των ωρών εργασίας για την καθορισμένη ημερομηνία. |
-| [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Καθορίζει εάν η ημέρα είναι εργάσιμη. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration)(DateTime, Duration) | Επιστρέφει την ημερομηνία έναρξης βάσει της καθορισμένης ημερομηνίας λήξης και διάρκειας. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Επιστρέφει την ημερομηνία έναρξης βάσει της καθορισμένης ημερομηνίας λήξης και διάρκειας. |
+| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Υπολογίζει την ημερομηνία και ώρα λήξης της εργασίας από την ημερομηνία έναρξής της, τα διαχωρισμένα μέρη και τη διάρκεια εργασίας. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Επιστρέφει την ποσότητα των εργάσιμων ωρών στην καθορισμένη ημερομηνία. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Επιστρέφει WorkUnit - Έναρξη, Λήξη και Διάρκεια των ωρών εργασίας για το καθορισμένο χρονικό διάστημα. |
+| [GetWorkingHoursTimeSpan](../../aspose.tasks/calendar/getworkinghourstimespan/)(DateTime, DateTime) | Επιστρέφει την ποσότητα των εργάσιμων ωρών μεταξύ των καθορισμένων ημερομηνιών. |
+| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Επιστρέφει το [`WorkingTimeCollection`](../workingtimecollection/) των ωρών εργασίας για την καθορισμένη ημερομηνία. |
+| [GetWorkStart](../../aspose.tasks/calendar/getworkstart/)(DateTime) | Υπολογίζει την έναρξη του επόμενου εργάσιμου χρόνου ξεκινώντας από την καθορισμένη ημερομηνία και ώρα. |
+| [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Καθορίζει εάν η καθορισμένη ημέρα είναι εργάσιμη ημέρα σύμφωνα με το ημερολόγιο. |
+| virtual [IsEmpty](../../aspose.tasks/calendar/isempty/)() | Επιστρέφει εάν το ημερολόγιο δεν έχει ορισμένες εργάσιμες ώρες. |
+| static [GetIntersectionCalendar](../../aspose.tasks/calendar/getintersectioncalendar/)(Calendar, Calendar) | Λαμβάνει το στιγμιότυπο [`ICalendar`](../icalendar/) που μπορεί να χρησιμοποιηθεί για εκτέλεση υπολογισμών στην τομή των προγραμμάτων εργασίας δύο ημερολογίων. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Τα Τα ημερολόγια χρησιμοποιούνται για τον καθορισμό τυπικών ωρών εργασίας και μη. Τα έργα πρέπει να έχουν ένα βασικό ημερολόγιο. Οι εργασίες και οι πόροι μπορούν να έχουν τα δικά τους μη βασικά ημερολόγια που βασίζονται σε ένα βασικό ημερολόγιο.
+Τα ημερολόγια χρησιμοποιούνται για τον ορισμό τυπικών ωρών εργασίας και μη εργασίας. Τα έργα πρέπει να έχουν ένα βασικό ημερολόγιο. Οι εργασίες και οι πόροι μπορούν να έχουν τα δικά τους μη-βασικά ημερολόγια που βασίζονται σε ένα βασικό ημερολόγιο.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Πώς να δημιουργήσετε απλό ημερολόγιο από την αρχή.
+Πώς να δημιουργήσετε ένα απλό ημερολόγιο από το μηδέν.
 
 ```csharp
 [C#]
-// δημιουργία κενού ημερολογίου
+// δημιουργήστε κενό ημερολόγιο
 Calendar calendar = new Calendar("New calendar");
-// προσθέτει προεπιλεγμένες εργάσιμες ημέρες (8 εργάσιμες ώρες από τις 9:00 έως τις 17:00)
+// προσθέτει προεπιλεγμένες εργάσιμες ημέρες (8 ώρες εργασίας από 9:00 έως 17:00)
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
-// δημιουργία νέας νέας εργάσιμης ημέρας
+// δημιουργήστε νέα εργάσιμη ημέρα
 WeekDay myWeekDay = new WeekDay(DayType.Thursday);
-// Ρυθμίζει το χρόνο εργασίας. Σημαντικό είναι μόνο μέρος του χρόνου του DateTime
+// Ορίζει χρόνο εργασίας. Μόνο το τμήμα ώρας του DateTime είναι σημαντικό.
     WorkingTime wt1 = new WorkingTime();
     wt1.FromTime = new DateTime(1, 1, 1, 6, 0, 0, 0);
     wt1.ToTime = new DateTime(1, 1, 1, 12, 0, 0, 0);
@@ -86,15 +92,15 @@ calendar.Days.Add(new WeekDay(DayType.Sunday));
 
 ```csharp
 [VB]
-' δημιουργία κενού ημερολογίου
+' create empty calendar
 Dim calendar As Calendar =  New Calendar("New calendar")
-' προσθέτει προεπιλεγμένες εργάσιμες ημέρες (8 εργάσιμες ώρες από τις 9:00 έως τις 17:00)
+' adds default working days (8 working hours from 9:00 to 17:00)
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday))
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday))
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday))
-' δημιουργία νέας νέας εργάσιμης ημέρας
+' create new new working day
 Dim myWeekDay As WeekDay =  New WeekDay(DayType.Thursday)
-' Ρυθμίζει το χρόνο εργασίας. Σημαντικό είναι μόνο μέρος του χρόνου του DateTime
+' Sets working time. Only time part of DateTime is important
     Dim wt1 As WorkingTime =  New WorkingTime()
     wt1.FromTime = New DateTime(1, 1, 1, 6, 0, 0, 0)
     wt1.ToTime = New DateTime(1, 1, 1, 12, 0, 0, 0)
@@ -106,14 +112,45 @@ Dim myWeekDay As WeekDay =  New WeekDay(DayType.Thursday)
     myWeekDay.DayWorking = True
 calendar.Days.Add(myWeekDay)
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday))
-' προσθέτει το Σαββατοκύριακο
+' adds weekend
 calendar.Days.Add(New WeekDay(DayType.Saturday))
 calendar.Days.Add(New WeekDay(DayType.Sunday))
 ```
 
+Δείχνει πώς να ορίσετε ένα νέο ημερολόγιο, να προσθέσετε ημέρες της εβδομάδας σε αυτό και να ορίσετε ώρες εργασίας για τις ημέρες.
+
+```csharp
+var project = new Project();
+
+// Ορίστε ένα ημερολόγιο
+var calendar = project.Calendars.Add("Calendar1");
+
+// Προσθέστε εργάσιμες ημέρες από τη Δευτέρα έως την Πέμπτη με προεπιλεγμένα ωράρια
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(new WeekDay(DayType.Saturday));
+calendar.WeekDays.Add(new WeekDay(DayType.Sunday));
+
+// Ορίστε την Παρασκευή ως σύντομη εργάσιμη ημέρα
+var weekDay = new WeekDay(DayType.Friday);
+
+// Ορίζει χρόνο εργασίας. Μόνο το τμήμα ώρας του DateTime είναι σημαντικό.
+var workingTime = new WorkingTime(9, 12);
+var workingTime2 = new WorkingTime(13, 16);
+weekDay.WorkingTimes.Add(workingTime);
+weekDay.WorkingTimes.Add(workingTime2);
+weekDay.DayWorking = true;
+calendar.WeekDays.Add(weekDay);
+
+// εργασία με το έργο...
+```
+
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Tasks](../../aspose.tasks/)
-* συνέλευση [Aspose.Tasks](../../)
+* interface [ICalendar](../icalendar/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
