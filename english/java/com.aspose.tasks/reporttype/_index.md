@@ -3,7 +3,7 @@ title: ReportType
 second_title: Aspose.Tasks for Java API Reference
 description: Type of the projects graphical report.
 type: docs
-weight: 248
+weight: 249
 url: /java/com.aspose.tasks/reporttype/
 ---
 
