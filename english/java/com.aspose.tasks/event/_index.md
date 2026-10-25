@@ -3,7 +3,7 @@ title: Event
 second_title: Aspose.Tasks for Java API Reference
 description: An event.
 type: docs
-weight: 375
+weight: 376
 url: /java/com.aspose.tasks/event/
 ---
 ```

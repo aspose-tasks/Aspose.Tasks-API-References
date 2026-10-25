@@ -3,7 +3,7 @@ title: TaskBaselineCollection
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 293
+weight: 294
 url: /java/com.aspose.tasks/taskbaselinecollection/
 ---
 
@@ -24,6 +24,7 @@ Represents a collection of [TaskBaseline](../../com.aspose.tasks/taskbaseline) o
 | [add(TaskBaseline e)](#add-com.aspose.tasks.TaskBaseline-) | This is the stub implementation of ICollection's Add method, that only throws UnsupportedOperationException |
 | [clear()](#clear--) | \{@inheritDoc\} |
 | [get(int index)](#get-int-) | (@inheritDoc\} |
+| [getBaselineByType(int baselineType)](#getBaselineByType-int-) | Gets the task baseline with the specified type. |
 | [getByType(int baselineType)](#getByType-int-) | Gets the task baseline with the specified type. |
 | [iterator()](#iterator--) | Returns an enumerator for this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this collection and returns the element that was removed from the collection. |
@@ -68,6 +69,21 @@ public final TaskBaseline get(int index)
 
 **Returns:**
 [TaskBaseline](../../com.aspose.tasks/taskbaseline) - \{@inheritDoc\}
+### getBaselineByType(int baselineType) {#getBaselineByType-int-}
+```
+public final TaskBaseline getBaselineByType(int baselineType)
+```
+
+
+Gets the task baseline with the specified type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baselineType | int | the specified baseline type. |
+
+**Returns:**
+[TaskBaseline](../../com.aspose.tasks/taskbaseline) - the task baseline with the specified type, or `null` if no matching baseline is found.
 ### getByType(int baselineType) {#getByType-int-}
 ```
 public final TaskBaseline getByType(int baselineType)

@@ -3,7 +3,7 @@ title: ResourceAssignment
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a resource assignment in a project.
 type: docs
-weight: 250
+weight: 251
 url: /java/com.aspose.tasks/resourceassignment/
 ---
 
@@ -70,6 +70,7 @@ Represents a resource assignment in a project.
 | [getParentProject()](#getParentProject--) | Gets parent project for this assignment. |
 | [getPeakUnits()](#getPeakUnits--) | Gets a value of PeakUnits. |
 | [getPercentWorkComplete()](#getPercentWorkComplete--) | Gets a value of PercentWorkComplete. |
+| [getPrimaveraProperties()](#getPrimaveraProperties--) | Gets an object containing Primavera-specific properties for the assignment read from Primavera file. |
 | [getRateScale()](#getRateScale--) | Gets a value of RateScale. |
 | [getRegularWork()](#getRegularWork--) | Gets a value of RegularWork. |
 | [getRemainingCost()](#getRemainingCost--) | Gets a value of RemainingCost. |
@@ -685,6 +686,16 @@ Gets a value of PercentWorkComplete.
 
 **Returns:**
 int - a value of PercentWorkComplete.
+### getPrimaveraProperties() {#getPrimaveraProperties--}
+```
+public final PrimaveraAssignmentProperties getPrimaveraProperties()
+```
+
+
+Gets an object containing Primavera-specific properties for the assignment read from Primavera file.
+
+**Returns:**
+[PrimaveraAssignmentProperties](../../com.aspose.tasks/primaveraassignmentproperties) - an object containing Primavera-specific properties for the assignment read from Primavera file.
 ### getRateScale() {#getRateScale--}
 ```
 public final int getRateScale()

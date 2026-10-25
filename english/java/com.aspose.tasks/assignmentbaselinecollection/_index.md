@@ -26,6 +26,7 @@ Represents a collection of [AssignmentBaseline](../../com.aspose.tasks/assignmen
 | [contains(Object item)](#contains-java.lang.Object-) |  |
 | [copyTo(AssignmentBaseline[] array, int arrayIndex)](#copyTo-com.aspose.tasks.AssignmentBaseline---int-) | \{@inheritDoc\} |
 | [get(int index)](#get-int-) | (@inheritDoc\} |
+| [getBaselineByType(int baselineType)](#getBaselineByType-int-) | Gets the assignment baseline with the specified type. |
 | [getByType(int baselineType)](#getByType-int-) | Gets the assignment baseline with the specified type. |
 | [getParentAssignment()](#getParentAssignment--) | Gets the parent [ResourceAssignment](../../com.aspose.tasks/resourceassignment) for this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
@@ -99,6 +100,21 @@ public AssignmentBaseline get(int index)
 
 **Returns:**
 [AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) - \{@inheritDoc\}
+### getBaselineByType(int baselineType) {#getBaselineByType-int-}
+```
+public final AssignmentBaseline getBaselineByType(int baselineType)
+```
+
+
+Gets the assignment baseline with the specified type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baselineType | int | the specified baseline type. |
+
+**Returns:**
+[AssignmentBaseline](../../com.aspose.tasks/assignmentbaseline) - the assignment baseline with the specified type, or `null` if no matching baseline is found.
 ### getByType(int baselineType) {#getByType-int-}
 ```
 public final AssignmentBaseline getByType(int baselineType)

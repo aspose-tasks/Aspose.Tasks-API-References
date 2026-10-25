@@ -23,6 +23,7 @@ Represents a collection of [Baseline](../../com.aspose.tasks/baseline) objects.
 | --- | --- |
 | [add(Baseline item)](#add-com.aspose.tasks.Baseline-) | This is the stub implementation of ICollection's Add method, that only throws NotSupportedException |
 | [get(int index)](#get-int-) | Returns the baseline at the specified position. |
+| [getBaselineByType(int baselineType)](#getBaselineByType-int-) | Gets the resource baseline with the specified type. |
 | [getByType(int baselineType)](#getByType-int-) | Gets the resource baseline with the specified type. |
 | [getParentResource()](#getParentResource--) | Gets the parent [Resource](../../com.aspose.tasks/resource) for this collection. |
 | [remove(int index)](#remove-int-) | Removes the element at the specified position in this list. |
@@ -59,6 +60,21 @@ Returns the baseline at the specified position.
 
 **Returns:**
 [Baseline](../../com.aspose.tasks/baseline) - the baseline at the specified position.
+### getBaselineByType(int baselineType) {#getBaselineByType-int-}
+```
+public final Baseline getBaselineByType(int baselineType)
+```
+
+
+Gets the resource baseline with the specified type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baselineType | int | the specified baseline type. |
+
+**Returns:**
+[Baseline](../../com.aspose.tasks/baseline) - the resource baseline with the specified type, or `null` if no matching baseline is found.
 ### getByType(int baselineType) {#getByType-int-}
 ```
 public final Baseline getByType(int baselineType)

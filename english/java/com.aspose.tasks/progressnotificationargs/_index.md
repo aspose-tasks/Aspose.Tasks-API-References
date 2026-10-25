@@ -3,7 +3,7 @@ title: ProgressNotificationArgs
 second_title: Aspose.Tasks for Java API Reference
 description: Provides progress information for .
 type: docs
-weight: 220
+weight: 221
 url: /java/com.aspose.tasks/progressnotificationargs/
 ---
 
