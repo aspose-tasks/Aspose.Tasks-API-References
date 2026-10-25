@@ -1,92 +1,122 @@
 ---
-title: AsnKey
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mewakili daftar bidang tugas yang didukung.
+title: "Enum AsnKey"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Enum Aspose.Tasks.AsnKey. Mewakili daftar bidang penugasan yang didukung"
 type: docs
 weight: 40
 url: /id/net/aspose.tasks/asnkey/
 ---
 ## AsnKey enumeration
 
-Mewakili daftar bidang tugas yang didukung.
+Mewakili daftar bidang penugasan yang didukung.
 
 ```csharp
-public enum AsnKey
+public enum AsnKey : byte
 ```
 
 ### Nilai
 
-| Nama | Nilai | Keterangan |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Guid | `0` | Mewakili bidang Panduan (Penugasan Sumber Daya). |
-| Uid | `1` | Mewakili bidang UID (Penugasan Sumber Daya). |
-| Task | `2` | Mewakili bidang Tugas (Penugasan Sumber Daya). |
-| Resource | `3` | Mewakili bidang Sumber Daya (Penugasan Sumber Daya). |
+| Guid | `0` | Mewakili bidang Guid (ResourceAssignment). |
+| Uid | `1` | Mewakili bidang UID (ResourceAssignment). |
+| Task | `2` | Mewakili bidang Task (ResourceAssignment). |
+| Resource | `3` | Mewakili bidang Resource (ResourceAssignment). |
 | PercentWorkComplete | `4` | Mewakili bidang PercentWorkComplete (ResourceAssignment). |
-| ActualCost | `5` | Mewakili bidang Biaya Aktual (Penugasan Sumber Daya). |
+| ActualCost | `5` | Mewakili bidang ActualCost (ResourceAssignment). |
 | ActualFinish | `6` | Mewakili bidang ActualFinish (ResourceAssignment). |
-| ActualOvertimeCost | `7` | Merupakan kolom ActualOvertimeCost (ResourceAssignment). |
+| ActualOvertimeCost | `7` | Mewakili bidang ActualOvertimeCost (ResourceAssignment). |
 | ActualStart | `8` | Mewakili bidang ActualStart (ResourceAssignment). |
 | ActualWork | `9` | Mewakili bidang ActualWork (ResourceAssignment). |
 | ActualOvertimeWork | `10` | Mewakili bidang ActualOvertimeWork (ResourceAssignment). |
-| ACWP | `11` | Mewakili bidang ACWP (Penugasan Sumber Daya). |
-| Confirmed | `12` | Merupakan bidang Dikonfirmasi (Penugasan Sumber Daya). |
-| Cost | `13` | Mewakili bidang Biaya (Penugasan Sumber Daya). |
+| ACWP | `11` | Mewakili bidang ACWP (ResourceAssignment). |
+| Confirmed | `12` | Mewakili bidang Confirmed (ResourceAssignment). |
+| Cost | `13` | Mewakili bidang Cost (ResourceAssignment). |
 | CostRateTableType | `14` | Mewakili bidang CostRateTableType (ResourceAssignment). |
 | CostVariance | `15` | Mewakili bidang CostVariance (ResourceAssignment). |
-| CV | `16` | Mewakili bidang CV (Penugasan Sumber Daya). |
-| Delay | `17` | Mewakili bidang Penundaan (Penugasan Sumber Daya). |
-| Finish | `18` | Mewakili bidang Selesai (Penugasan Sumber Daya). |
-| FinishVariance | `19` | Merupakan bidang FinishVariance (ResourceAssignment). |
-| Hyperlink | `20` | Mewakili bidang Hyperlink (Penugasan Sumber Daya). |
-| HyperlinkAddress | `21` | Merupakan bidang HyperlinkAddress (ResourceAssignment). |
-| HyperlinkSubAddress | `22` | Merupakan bidang HyperlinkSubAddress (ResourceAssignment). |
+| CV | `16` | Mewakili bidang CV (ResourceAssignment). |
+| Delay | `17` | Mewakili bidang Delay (ResourceAssignment). |
+| Finish | `18` | Mewakili bidang Finish (ResourceAssignment). |
+| FinishVariance | `19` | Mewakili bidang FinishVariance (ResourceAssignment). |
+| Hyperlink | `20` | Mewakili bidang Hyperlink (ResourceAssignment). |
+| HyperlinkAddress | `21` | Mewakili bidang HyperlinkAddress (ResourceAssignment). |
+| HyperlinkSubAddress | `22` | Mewakili bidang HyperlinkSubAddress (ResourceAssignment). |
 | WorkVariance | `23` | Mewakili bidang WorkVariance (ResourceAssignment). |
 | HasFixedRateUnits | `24` | Mewakili bidang HasFixedRateUnits (ResourceAssignment). |
 | FixedMaterial | `25` | Mewakili bidang FixedMaterial (ResourceAssignment). |
-| LevelingDelay | `26` | Mewakili bidang LevelingDelay (Penugasan Sumber Daya). |
-| LevelingDelayFormat | `27` | Mewakili bidang LevelingDelayFormat (Penugasan Sumber Daya). |
-| LinkedFields | `28` | Mewakili bidang LinkedFields (ResourceAssignment). |
-| Milestone | `29` | Mewakili bidang Pencapaian (Penugasan Sumber Daya). |
-| Notes | `30` | Mewakili bidang Notes (ResourceAssignment). |
-| Overallocated | `31` | Mewakili bidang Overlocated (ResourceAssignment). |
-| OvertimeCost | `32` | Mewakili bidang OvertimeCost (ResourceAssignment). |
-| OvertimeWork | `33` | Mewakili bidang Kerja Lembur (Penugasan Sumber Daya). |
-| PeakUnits | `34` | Mewakili bidang PeakUnits (ResourceAssignment). |
-| RegularWork | `35` | Mewakili bidang RegularWork (ResourceAssignment). |
-| RemainingCost | `36` | Mewakili kolom RemainingCost (ResourceAssignment). |
-| RemainingOvertimeCost | `37` | Mewakili kolom RemainingOvertimeCost (ResourceAssignment). |
-| RemainingOvertimeWork | `38` | Mewakili bidang RemainingOvertimeWork (ResourceAssignment). |
-| RemainingWork | `39` | Mewakili bidang RemainingWork (ResourceAssignment). |
-| ResponsePending | `40` | Mewakili bidang ResponsePending (ResourceAssignment). |
-| Start | `41` | Mewakili bidang Mulai (Penugasan Sumber Daya). |
-| Stop | `42` | Mewakili bidang Berhenti (Penugasan Sumber Daya). |
-| Resume | `43` | Mewakili bidang Lanjutkan (Penugasan Sumber Daya). |
-| StartVariance | `44` | Mewakili bidang StartVariance (ResourceAssignment). |
-| Summary | `45` | Mewakili bidang Ringkasan (Penugasan Sumber Daya). |
-| SV | `46` | Mewakili bidang SV (ResourceAssignment). |
-| Units | `47` | Mewakili bidang Unit (Penugasan Sumber Daya). |
-| UpdateNeeded | `48` | Mewakili bidang UpdateNeeded (ResourceAssignment). |
-| VAC | `49` | Mewakili bidang VAC (Penugasan Sumber Daya). |
-| Work | `50` | Mewakili bidang Pekerjaan (Penugasan Sumber Daya). |
-| WorkContour | `51` | Mewakili bidang WorkContour (ResourceAssignment). |
-| BCWS | `52` | Mewakili bidang BCWS (Penugasan Sumber Daya). |
-| BCWP | `53` | Mewakili bidang BCWP (Penugasan Sumber Daya). |
-| BookingType | `54` | Mewakili kolom BookingType (ResourceAssignment). |
-| ActualWorkProtected | `55` | Mewakili bidang ActualWorkProtected (ResourceAssignment). |
-| ActualOvertimeWorkProtected | `56` | Mewakili bidang ActualOvertimeWorkProtected (ResourceAssignment). |
-| Created | `57` | Mewakili bidang Created (ResourceAssignment). |
-| AssignmentOwner | `58` | Mewakili bidang AssignmentOwner (ResourceAssignment). |
-| AssignmentOwnerGuid | `59` | Mewakili bidang AssignmentOwnerGuid (ResourceAssignment). |
-| BudgetWork | `60` | Mewakili bidang Pekerjaan Anggaran (Penugasan Sumber Daya). |
-| BudgetCost | `61` | Merupakan kolom BudgetCost (ResourceAssignment). |
-| RateScale | `62` | Merupakan kolom RateScale (ResourceAssignment). |
-| TaskUid | `63` | Mewakili bidang TaskUid (ResourceAssignment). |
-| ResourceUid | `64` | Mewakili bidang ResourceUid (ResourceAssignment). |
+| LevelingDelay | `26` | Mewakili bidang LevelingDelay (ResourceAssignment). |
+| LinkedFields | `27` | Mewakili bidang LinkedFields (ResourceAssignment). |
+| Milestone | `28` | Mewakili bidang Milestone (ResourceAssignment). |
+| Notes | `29` | Mewakili bidang Notes (ResourceAssignment). |
+| NotesText | `30` | Mewakili bidang NotesText (ResourceAssignment). |
+| NotesRTF | `31` | Mewakili bidang NotesRTF (ResourceAssignment). |
+| Overallocated | `32` | Mewakili bidang Overallocated (ResourceAssignment). |
+| OvertimeCost | `33` | Mewakili bidang OvertimeCost (ResourceAssignment). |
+| OvertimeWork | `34` | Mewakili bidang OvertimeWork (ResourceAssignment). |
+| PeakUnits | `35` | Mewakili bidang PeakUnits (ResourceAssignment). |
+| RegularWork | `36` | Mewakili bidang RegularWork (ResourceAssignment). |
+| RemainingCost | `37` | Mewakili bidang RemainingCost (ResourceAssignment). |
+| RemainingOvertimeCost | `38` | Mewakili bidang RemainingOvertimeCost (ResourceAssignment). |
+| RemainingOvertimeWork | `39` | Mewakili bidang RemainingOvertimeWork (ResourceAssignment). |
+| RemainingWork | `40` | Mewakili bidang RemainingWork (ResourceAssignment). |
+| ResponsePending | `41` | Mewakili bidang ResponsePending (ResourceAssignment). |
+| Start | `42` | Mewakili bidang Start (ResourceAssignment). |
+| Stop | `43` | Mewakili bidang Stop (ResourceAssignment). |
+| Resume | `44` | Mewakili bidang Resume (ResourceAssignment). |
+| StartVariance | `45` | Mewakili bidang StartVariance (ResourceAssignment). |
+| Summary | `46` | Mewakili bidang Summary (ResourceAssignment). |
+| SV | `47` | Mewakili bidang SV (ResourceAssignment). |
+| Units | `48` | Mewakili bidang Units (ResourceAssignment). |
+| UpdateNeeded | `49` | Mewakili bidang UpdateNeeded (ResourceAssignment). |
+| VAC | `50` | Mewakili bidang VAC (ResourceAssignment). |
+| Work | `51` | Mewakili bidang Work (ResourceAssignment). |
+| WorkContour | `52` | Mewakili bidang WorkContour (ResourceAssignment). |
+| BCWS | `53` | Mewakili bidang BCWS (ResourceAssignment). |
+| BCWP | `54` | Mewakili bidang BCWP (ResourceAssignment). |
+| BookingType | `55` | Mewakili bidang BookingType (ResourceAssignment). |
+| ActualWorkProtected | `56` | Mewakili bidang ActualWorkProtected (ResourceAssignment). |
+| ActualOvertimeWorkProtected | `57` | Mewakili bidang ActualOvertimeWorkProtected (ResourceAssignment). |
+| Created | `58` | Mewakili bidang Created (ResourceAssignment). |
+| AssignmentOwner | `59` | Mewakili bidang AssignmentOwner (ResourceAssignment). |
+| AssignmentOwnerGuid | `60` | Mewakili bidang AssignmentOwnerGuid (ResourceAssignment). |
+| BudgetWork | `61` | Mewakili bidang BudgetWork (ResourceAssignment). |
+| BudgetCost | `62` | Mewakili bidang BudgetCost (ResourceAssignment). |
+| RateScale | `63` | Mewakili bidang RateScale (ResourceAssignment). |
+| TaskUid | `64` | Mewakili bidang TaskUid (ResourceAssignment). |
+| ResourceUid | `65` | Mewakili bidang ResourceUid (ResourceAssignment). |
 
-### Lihat juga
+## Contoh
 
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+Menampilkan cara membaca/menulis properti umum.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2020, 4, 9, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetWork(1));
+assignment.Set(Asn.Finish, new DateTime(2020, 4, 9, 17, 0, 0));
+assignment.Set(Asn.Units, 1);
+assignment.Set(Asn.PeakUnits, 1);
+
+Console.WriteLine("Start: " + assignment.Get(Asn.Start));
+Console.WriteLine("Work: " + assignment.Get(Asn.Work));
+Console.WriteLine("Finish: " + assignment.Get(Asn.Finish));
+Console.WriteLine("Units: " + assignment.Get(Asn.Units));
+Console.WriteLine("Peak Units: " + assignment.Get(Asn.PeakUnits));
+```
+
+### Lihat Juga
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+

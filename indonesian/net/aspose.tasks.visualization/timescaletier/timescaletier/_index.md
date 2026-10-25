@@ -1,45 +1,143 @@
 ---
-title: TimescaleTier
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Menginisialisasi instance baru dariTimescaleTieraspose.tasks.visualization/timescaletier/ kelas.
+title: "TimescaleTier.TimescaleTier"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Konstruktor TimescaleTier. Menginisialisasi sebuah instance baru dari kelas TimescaleTier"
 type: docs
 weight: 10
 url: /id/net/aspose.tasks.visualization/timescaletier/timescaletier/
 ---
 ## TimescaleTier() {#constructor}
 
-Menginisialisasi instance baru dari[`TimescaleTier`](../) kelas.
+Menginisialisasi sebuah instance baru dari kelas [`TimescaleTier`](../).
 
 ```csharp
 public TimescaleTier()
 ```
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menyesuaikan label tingkat skala waktu.
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+
+// Tambahkan tautan tugas
+project.TaskLinks.Add(project.RootTask.Children.Add("Task 1"), project.RootTask.Children.Add("Task 2"));
+
+var view = (GanttChartView)project.DefaultView;
+
+// sesuaikan tingkat skala waktu
+
+// sesuaikan tingkat atas
+// atur tingkat skala waktu atas pada tampilan Diagram Gantt.
+view.MiddleTimescaleTier = new TimescaleTier();
+// atur satuan skala waktu <see cref=\"T:Aspose.Tasks.Visualization.TimescaleUnit\" /> untuk tingkat skala waktu.
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+// atur interval satuan waktu di mana label ditampilkan untuk tingkat.
+view.MiddleTimescaleTier.Count = 1;
+// atur label tanggal <see cref=\"T:Aspose.Tasks.Visualization.DateLabel\" /> untuk tingkat skala waktu.
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddDd;
+// atur cara menyejajarkan label dalam setiap periode waktu tingkat (<see cref=\"T:System.Drawing.StringAlignment\" />).
+view.MiddleTimescaleTier.Alignment = HorizontalStringAlignment.Center;
+// atur nilai yang menunjukkan apakah menampilkan tanda centang yang memisahkan periode waktu dalam tingkat.
+view.MiddleTimescaleTier.ShowTicks = true;
+// atur nilai yang menunjukkan apakah mendasarkan label tingkat pada tahun fiskal.
+view.MiddleTimescaleTier.UsesFiscalYear = true;
+
+// ditambahkan untuk visualisasi yang lebih baik
+view.TopTimescaleTier = new TimescaleTier(TimescaleUnit.Months, 1);
+
+// sesuaikan tanggal tingkat tengah
+view.TopTimescaleTier.DateTimeConverter = date =>
+    new[] { "Янв.", "Фев.", "Мар.", "Апр.", "Май", "Июнь", "Июль", "Авг.", "Сен.", "Окт.", "Ноя.", "Дек." }[date.Month - 1];
+
+project.Set(Prj.TimescaleStart, new DateTime(2012, 7, 30));
+project.Set(Prj.TimescaleFinish, new DateTime(2012, 10, 6));
+
+// Gunakan opsi 'Timescale.DefinedInView' untuk merender skala waktu menggunakan pengaturan skala waktu yang didefinisikan dalam tampilan (view.TopTimescaleTier, view.MiddleTimescaleTier, view.BottomTimescaleTier).
+var pdfSaveOptions = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView
+};
+
+project.Save(OutDir + "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
+```
+
+### Lihat Juga
 
 * class [TimescaleTier](../)
-* ruang nama [Aspose.Tasks.Visualization](../../timescaletier/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../timescaletier/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TimescaleTier(TimescaleUnit, int) {#constructor_1}
 
-Menginisialisasi instance baru dari[`TimescaleTier`](../) kelas.
+Menginisialisasi sebuah instance baru dari kelas [`TimescaleTier`](../).
 
 ```csharp
 public TimescaleTier(TimescaleUnit unit, int count)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| unit | TimescaleUnit | Satuan skala waktu[`TimescaleUnit`](../../timescaleunit/) . |
-| count | Int32 | Hitungan[`TimescaleUnit`](../../timescaleunit/) unit. |
+| unit | TimescaleUnit | Unit skala waktu [`TimescaleUnit`](../../timescaleunit/). |
+| count | Int32 | Jumlah unit [`TimescaleUnit`](../../timescaleunit/). |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menyesuaikan label tingkat skala waktu.
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+
+// Tambahkan tautan tugas
+project.TaskLinks.Add(project.RootTask.Children.Add("Task 1"), project.RootTask.Children.Add("Task 2"));
+
+var view = (GanttChartView)project.DefaultView;
+
+// sesuaikan tingkat skala waktu
+
+// sesuaikan tingkat atas
+// atur tingkat skala waktu atas pada tampilan Diagram Gantt.
+view.MiddleTimescaleTier = new TimescaleTier();
+// atur satuan skala waktu <see cref=\"T:Aspose.Tasks.Visualization.TimescaleUnit\" /> untuk tingkat skala waktu.
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+// atur interval satuan waktu di mana label ditampilkan untuk tingkat.
+view.MiddleTimescaleTier.Count = 1;
+// atur label tanggal <see cref=\"T:Aspose.Tasks.Visualization.DateLabel\" /> untuk tingkat skala waktu.
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddDd;
+// atur cara menyejajarkan label dalam setiap periode waktu tingkat (<see cref=\"T:System.Drawing.StringAlignment\" />).
+view.MiddleTimescaleTier.Alignment = HorizontalStringAlignment.Center;
+// atur nilai yang menunjukkan apakah menampilkan tanda centang yang memisahkan periode waktu dalam tingkat.
+view.MiddleTimescaleTier.ShowTicks = true;
+// atur nilai yang menunjukkan apakah mendasarkan label tingkat pada tahun fiskal.
+view.MiddleTimescaleTier.UsesFiscalYear = true;
+
+// ditambahkan untuk visualisasi yang lebih baik
+view.TopTimescaleTier = new TimescaleTier(TimescaleUnit.Months, 1);
+
+// sesuaikan tanggal tingkat tengah
+view.TopTimescaleTier.DateTimeConverter = date =>
+    new[] { "Янв.", "Фев.", "Мар.", "Апр.", "Май", "Июнь", "Июль", "Авг.", "Сен.", "Окт.", "Ноя.", "Дек." }[date.Month - 1];
+
+project.Set(Prj.TimescaleStart, new DateTime(2012, 7, 30));
+project.Set(Prj.TimescaleFinish, new DateTime(2012, 10, 6));
+
+// Gunakan opsi 'Timescale.DefinedInView' untuk merender skala waktu menggunakan pengaturan skala waktu yang didefinisikan dalam tampilan (view.TopTimescaleTier, view.MiddleTimescaleTier, view.BottomTimescaleTier).
+var pdfSaveOptions = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView
+};
+
+project.Save(OutDir + "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
+```
+
+### Lihat Juga
 
 * enum [TimescaleUnit](../../timescaleunit/)
 * class [TimescaleTier](../)
-* ruang nama [Aspose.Tasks.Visualization](../../timescaletier/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../timescaletier/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

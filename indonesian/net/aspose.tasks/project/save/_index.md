@@ -1,56 +1,44 @@
 ---
-title: Save
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Menyimpan dokumen ke format file mpp menggunakan opsi penyimpanan yang ditentukan.
+title: "Project.Save"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Project method. Menyimpan dokumen ke file menggunakan opsi penyimpanan yang ditentukan"
 type: docs
-weight: 1180
+weight: 1200
 url: /id/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
-
-Menyimpan dokumen ke format file mpp menggunakan opsi penyimpanan yang ditentukan.
-
-```csharp
-public void Save(string filename, MPPSaveOptions options)
-```
-
-| Parameter | Jenis | Keterangan |
-| --- | --- | --- |
-| filename | String | Nama file. |
-| options | MPPSaveOptions | Opsi simpan. |
-
-### Lihat juga
-
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
-* class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveOptions) {#save_6}
+## Save(string, SimpleSaveOptions) {#save_4}
 
 Menyimpan dokumen ke file menggunakan opsi penyimpanan yang ditentukan.
 
 ```csharp
-public void Save(string filename, SaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| filename | String | Nama file. |
-| options | SaveOptions | Opsi simpan. |
+| nama file | String | Nama file. |
+| opsi | SimpleSaveOptions | Opsi penyimpanan. |
 
-### Lihat juga
+## Contoh
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
+Menampilkan cara menyimpan proyek sebagai file MPP.
+
+```csharp
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
+```
+
+### Lihat Juga
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
 Menyimpan data proyek ke file.
 
@@ -58,21 +46,32 @@ Menyimpan data proyek ke file.
 public void Save(string filename, SaveFileFormat format)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| filename | String | Nama file. |
-| format | SaveFileFormat | Format file simpan. |
+| nama file | String | Nama file. |
+| format | SaveFileFormat | Format file penyimpanan. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara membuat proyek dan menyimpannya dalam format MPP tanpa menggunakan file templat MPP.
+
+```csharp
+var project = new Project();
+
+// Proyek akan disimpan ke dalam MPP dengan menggunakan templat MPP internal.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Lihat Juga
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
 Menyimpan data proyek ke file dalam format mpp.
 
@@ -80,63 +79,70 @@ Menyimpan data proyek ke file dalam format mpp.
 public void Save(string filename)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| filename | String | Nama file. |
+| nama file | String | Nama file. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
 Menyimpan proyek ke aliran menggunakan opsi penyimpanan yang ditentukan.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | Stream | Aliran. |
-| options | SaveOptions | Opsi simpan. |
+| opsi | SimpleSaveOptions | Opsi penyimpanan. |
 
-### Lihat juga
+## Contoh
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-Menyimpan proyek ke aliran menggunakan opsi penyimpanan yang ditentukan.
+Menampilkan cara menyimpan proyek ke dalam stream sebagai file MPP dengan menggunakan opsi penyimpanan MPP.
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // Dengan menggunakan MPPSaveOptions kami menyimpannya dalam format MPP
+    project.Save(stream, options);
+}
 ```
 
-| Parameter | Jenis | Keterangan |
-| --- | --- | --- |
-| stream | Stream | Aliran. |
-| options | MPPSaveOptions | Opsi simpan. |
+Menampilkan cara menyimpan proyek ke dalam stream sebagai gambar dan mengontrol opsi gambar.
 
-### Lihat juga
+```csharp
+var project = new Project();
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // dengan menggunakan ImageSaveOptions kami menyimpan proyek ke dalam format gambar
+    project.Save(stream, options);
+}
+```
+
+### Lihat Juga
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
 Menyimpan data proyek ke aliran.
 
@@ -144,16 +150,30 @@ Menyimpan data proyek ke aliran.
 public void Save(Stream stream, SaveFileFormat format)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | Stream | Aliran. |
 | format | SaveFileFormat | format file penyimpanan yang ditentukan.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menyimpan proyek ke dalam stream sebagai file XML MS Project.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // Tulis stream ke dalam format XML
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
+
+### Lihat Juga
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

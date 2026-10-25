@@ -1,9 +1,9 @@
 ---
-title: XlsxOptions
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Memungkinkan untuk menentukan opsi tambahan saat merender halaman proyek ke XLSX.
+title: "Kelas XlsxOptions"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.Saving.XlsxOptions. Memungkinkan untuk menentukan opsi tambahan saat merender halaman proyek ke XLSX."
 type: docs
-weight: 1980
+weight: 2270
 url: /id/net/aspose.tasks.saving/xlsxoptions/
 ---
 ## XlsxOptions class
@@ -11,51 +11,58 @@ url: /id/net/aspose.tasks.saving/xlsxoptions/
 Memungkinkan untuk menentukan opsi tambahan saat merender halaman proyek ke XLSX.
 
 ```csharp
-public class XlsxOptions : SaveOptions
+public class XlsxOptions : SimpleSaveOptions
 ```
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [XlsxOptions](xlsxoptions/)() | Menginisialisasi instance baru dari`XlsxOptions`kelas yang dapat digunakan untuk menyimpan proyek dalam format XLSX. |
+| [XlsxOptions](xlsxoptions/)() | Menginisialisasi instance baru dari kelas `XlsxOptions` yang dapat digunakan untuk menyimpan proyek dalam format XLSX. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [AssignmentView](../../aspose.tasks.saving/xlsxoptions/assignmentview/) { get; set; } | Mendapat atau menyetel daftar kolom tampilan tugas untuk dirender ([`AssignmentViewColumn`](../../aspose.tasks.visualization/assignmentviewcolumn/) ). |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Mendapat atau mengatur daftar instance dari[`BarStyle`](../../aspose.tasks.visualization/barstyle/) kelas yang muncul di tampilan proyek. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Mendapat atau menetapkan ukuran halaman khusus dalam poin (1 poin = 1/72 inci). |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah waktu non-kerja harus diambil (Nilai defaultnya adalah TRUE). |
-| [Encoding](../../aspose.tasks.saving/xlsxoptions/encoding/) { get; set; } | Mendapat atau mengatur penyandian file XLSX yang dihasilkan. Nilai standarnya adalahUTF8 . |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Mendapat atau menetapkan tanggal untuk menyelesaikan rendering. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah tinggi baris harus ditambah agar sesuai dengan kontennya. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | Mendapat atau menyetel apakah bagian kalender dari tampilan harus dirender ke akhir (sisi kanan) halaman terakhir. Jika nilainya false, bagian kalender dirender tepat ke EndDate, meskipun ada ruang kosong di halaman. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Mendapat atau menetapkan daftar[`Gridline`](../../aspose.tasks.visualization/gridline/) yang muncul di tampilan proyek. |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah legenda harus ditampilkan pada setiap halaman (Nilai defaultnya adalah BENAR). |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah tugas penting harus ditampilkan dalam warna merah (Nilai default adalah FALSE). |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | Mendapat atau menyetel warna waktu tidak bekerja. |
-| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | Mendapat atau menetapkan jumlah halaman proyek. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Mendapat atau mengatur ukuran halaman yang akan dirender (Nilai defaultnya adalah PageSize.A4). |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Mendapat atau menyetel[`PresentationFormat`](../saveoptions/presentationformat/) di mana dokumen akan disimpan. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah suatu proyek harus dirender ke satu halaman saat proyek disimpan dalam format grafis. Ukuran halaman akan diubah sehingga proyek yang dirender dapat muat di satu halaman. |
-| [ResourceView](../../aspose.tasks.saving/xlsxoptions/resourceview/) { get; set; } | Mendapat atau menyetel daftar kolom tampilan sumber daya untuk dirender ([`ResourceViewColumn`](../../aspose.tasks.visualization/resourceviewcolumn/) ). |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah subtugas pada bilah tugas ringkasan harus ditandai. Untuk subtugas, bidang Rollup menunjukkan apakah informasi pada bilah Gantt subtugas akan digulung ke bilah tugas ringkasan. Untuk tugas ringkasan, Rollup bidang menunjukkan apakah bilah tugas ringkasan menampilkan bar yang digulung. Anda harus menyetel bidang Batal untuk tugas ringkasan ke Ya agar subtugas apa pun dapat digulung ke sana. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | Mendapat atau mengatur format penyimpanan dokumen jika objek opsi penyimpanan ini digunakan. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Mendapat atau menyetel tanggal mulai rendering. |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | Mendapat atau menyetel pembanding untuk mengurutkan tugas di bagan Gantt dan bagan Lembar Tugas. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | Mendapat atau menyetel kondisi yang digunakan untuk memfilter tugas yang diberikan pada bagan Gantt, Lembar Tugas, dan Penggunaan Tugas. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Mendapat atau mengatur daftar instance dari[`TextStyle`](../../aspose.tasks.visualization/textstyle/) kelas yang muncul di tampilan proyek. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Mendapat atau menyetel[`Timescale`](../saveoptions/timescale/) nilai yang digunakan untuk mengontrol bagaimana skala waktu (jika ada) ditampilkan saat proyek disimpan ke format grafis. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah sikat gradien harus digunakan saat merender Gantt Chart. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Mendapat atau menyetel daftar kolom tampilan untuk dirender ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) . Jika tidak disetel maka id tugas, nama tugas, mulai dan selesai hanya akan dirender. Jika keduanya Lihat dan[`ViewSettings`](../saveoptions/viewsettings/)properti disetel, kolom dari View menimpa kolom dari ViewSettings. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Mendapat atau menyetel tampilan ([`View`](../saveoptions/view/) ) untuk merender. Anda dapat menggunakan opsi ini untuk secara eksplisit menentukan tampilan mana yang harus disimpan ke format PDF, HTML, atau Gambar. Jika properti ini disetel,[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) properti diabaikan saat proyek disimpan. Tampilan harus dari salah satu layar berikut (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt, Lembar Tugas, Penggunaan Tugas, Lembar Sumber Daya, Penggunaan Sumber Daya) |
+| [AssignmentView](../../aspose.tasks.saving/xlsxoptions/assignmentview/) { get; set; } | Mendapatkan atau mengatur daftar kolom tampilan penugasan yang akan dirender ([`AssignmentViewColumn`](../../aspose.tasks.visualization/assignmentviewcolumn/)). |
+| [Encoding](../../aspose.tasks.saving/xlsxoptions/encoding/) { get; set; } | Mendapatkan atau mengatur enkoding file XLSX yang dihasilkan. Nilai default adalah UTF8. |
+| [ResourceView](../../aspose.tasks.saving/xlsxoptions/resourceview/) { get; set; } | Mendapatkan atau mengatur daftar kolom tampilan sumber daya yang akan dirender ([`ResourceViewColumn`](../../aspose.tasks.visualization/resourceviewcolumn/)). |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Mendapatkan atau mengatur format di mana dokumen akan disimpan jika objek opsi penyimpanan ini digunakan. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Mendapatkan atau mengatur pembanding untuk mengurutkan tugas pada diagram Gantt dan diagram Lembar Tugas. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Mendapatkan atau mengatur kondisi yang digunakan untuk memfilter tugas yang dirender pada diagram Gantt, Lembar Tugas, dan Penggunaan Tugas. |
+| [View](../../aspose.tasks.saving/xlsxoptions/view/) { get; set; } | Mendapatkan atau mengatur daftar kolom tampilan ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)) untuk disimpan dalam format XLSX. Jika tidak diatur, maka kolom default akan disimpan. |
 
-### Lihat juga
+## Contoh
 
-* class [SaveOptions](../saveoptions/)
-* ruang nama [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* perakitan [Aspose.Tasks](../../)
+Menampilkan cara menyimpan proyek ke file XLSX dengan menggunakan opsi &lt;see cref=\"P:Aspose.Tasks.Saving.XlsxOptions\"&gt;Days&lt;/see&gt;.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new XlsxOptions();
+
+// Tambahkan kolom Gantt Chart yang diinginkan
+var col = new GanttChartColumn("WBS", 100, delegate(Task task) { return task.Get(Tsk.WBS); });
+options.View.Columns.Add(col);
+
+// Tambahkan kolom tampilan sumber daya yang diinginkan
+var rscCol = new ResourceViewColumn("Cost center", 100, delegate(Resource resource) { return resource.Get(Rsc.CostCenter); });
+options.ResourceView.Columns.Add(rscCol);
+
+// Tambahkan kolom tampilan penugasan yang diinginkan
+var assnCol = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(assnCol);
+
+// atur enkoding
+options.Encoding = Encoding.Unicode;
+
+project.Save(OutDir + "UsingXlsxOptions_out.xlsx", options);
+```
+
+### Lihat Juga
+
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
+
+

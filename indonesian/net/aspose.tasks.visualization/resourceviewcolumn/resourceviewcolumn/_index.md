@@ -1,78 +1,216 @@
 ---
-title: ResourceViewColumn
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Menginisialisasi instance baru dariResourceViewColumnaspose.tasks.visualization/resourceviewcolumn/ kelas.
+title: "ResourceViewColumn.ResourceViewColumn"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Konstruktor ResourceViewColumn. Menginisialisasi instance baru dari kelas ResourceViewColumn"
 type: docs
 weight: 10
 url: /id/net/aspose.tasks.visualization/resourceviewcolumn/resourceviewcolumn/
 ---
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter, Field) {#constructor_2}
 
-Menginisialisasi instance baru dari[`ResourceViewColumn`](../) kelas.
+Menginisialisasi instance baru dari kelas [`ResourceViewColumn`](../).
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter, 
     Field field)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| name | String | Nama kolom. |
-| width | Int32 | Lebar kolom dalam piksel. |
-| converter | ResourceToColumnTextConverter | Data sumber daya ke konverter teks kolom. |
-| field | Field | Bidang kolom. |
+| nama | String | Nama kolom. |
+| lebar | Int32 | Lebar kolom dalam piksel. |
+| konverter | ResourceToColumnTextConverter | Konverter data sumber daya ke teks kolom. |
+| bidang | Bidang | Kolom field. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menambahkan kolom tampilan sumber daya yang akan diekspor.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// iterasi melalui kolom
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### Lihat Juga
 
 * delegate [ResourceToColumnTextConverter](../../resourcetocolumntextconverter/)
 * enum [Field](../../../aspose.tasks/field/)
 * class [ResourceViewColumn](../)
-* ruang nama [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ResourceViewColumn(string, int, ResourceToColumnTextConverter) {#constructor_1}
 
-Menginisialisasi instance baru dari[`ResourceViewColumn`](../) kelas.
+Menginisialisasi instance baru dari kelas [`ResourceViewColumn`](../).
 
 ```csharp
 public ResourceViewColumn(string name, int width, ResourceToColumnTextConverter converter)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| name | String | Nama kolom. |
-| width | Int32 | Lebar kolom dalam piksel. |
-| converter | ResourceToColumnTextConverter | Data sumber daya ke konverter teks kolom. |
+| nama | String | Nama kolom. |
+| lebar | Int32 | Lebar kolom dalam piksel. |
+| konverter | ResourceToColumnTextConverter | Konverter data sumber daya ke teks kolom. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menambahkan kolom tampilan sumber daya yang akan diekspor.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// iterasi melalui kolom
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### Lihat Juga
 
 * delegate [ResourceToColumnTextConverter](../../resourcetocolumntextconverter/)
 * class [ResourceViewColumn](../)
-* ruang nama [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## ResourceViewColumn(int, Field) {#constructor}
 
-Menginisialisasi instance baru dari[`ResourceViewColumn`](../) kelas.
+Menginisialisasi instance baru dari kelas [`ResourceViewColumn`](../).
 
 ```csharp
 public ResourceViewColumn(int width, Field field)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| width | Int32 | Lebar kolom dalam piksel. |
-| field | Field | Bidang kolom. |
+| lebar | Int32 | Lebar kolom dalam piksel. |
+| bidang | Bidang | Kolom field. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menambahkan kolom tampilan sumber daya yang akan diekspor.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+
+var options = new PdfSaveOptions();
+var columns = new List<ViewColumn>
+{
+    new ResourceViewColumn(100, Field.ResourceName),
+    new ResourceViewColumn(100, Field.ResourceActualWork),
+    new ResourceViewColumn(100, Field.ResourceCost),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new ResourceViewColumn(
+        "Resource Cost2", 
+        80,
+        delegate(Resource res)
+        {
+            return res.Get(Rsc.Cost).ToString(CultureInfo.InvariantCulture);
+        }, 
+        Field.ResourceCost2)
+};
+
+// iterasi melalui kolom
+foreach (var column in columns)
+{
+    var col = (ResourceViewColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(resource));
+    Console.WriteLine();
+}
+
+options.View = new ProjectView(columns);
+options.PresentationFormat = PresentationFormat.ResourceUsage;
+project.Save(OutDir + "WorkWithAssignmentViewColumn_out.pdf", options);
+```
+
+### Lihat Juga
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [ResourceViewColumn](../)
-* ruang nama [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../resourceviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

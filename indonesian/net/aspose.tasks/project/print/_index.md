@@ -1,150 +1,277 @@
 ---
-title: Print
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mencetak proyek ke printer default dengan pengaturan printer default menggunakan pengontrol cetak standar tanpa Antarmuka Pengguna.
+title: "Project.Print"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Project method. Mencetak proyek ke printer default dengan pengaturan printer default menggunakan kontroler cetak standar tanpa Antarmuka Pengguna"
 type: docs
-weight: 1110
+weight: 1140
 url: /id/net/aspose.tasks/project/print/
 ---
 ## Print() {#print}
 
-Mencetak proyek ke printer default dengan pengaturan printer default menggunakan pengontrol cetak standar (tanpa Antarmuka Pengguna).
+Mencetak proyek ke printer default dengan pengaturan printer default menggunakan kontroler cetak standar (tanpa Antarmuka Pengguna).
 
 ```csharp
 public void Print()
 ```
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara mencetak proyek.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Print();
+```
+
+### Lihat Juga
 
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrintOptions) {#print_1}
 
-Mencetak proyek ke printer default dengan pengaturan printer default dan opsi penyimpanan khusus menggunakan pengontrol cetak standar (tanpa Antarmuka Pengguna).
+Mencetak proyek ke printer default dengan pengaturan printer default dan opsi penyimpanan khusus menggunakan kontroler cetak standar (tanpa Antarmuka Pengguna).
 
 ```csharp
 public void Print(PrintOptions options)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| options | PrintOptions | contoh yang ditentukan dari[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) kelas. |
+| options | PrintOptions | instance yang ditentukan dari kelas [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara mencetak proyek dengan menggunakan opsi cetak.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var options = new PrintOptions
+{
+    Timescale = Timescale.ThirdsOfMonths
+};
+if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
+{
+    project.Print(options);
+}
+```
+
+### Lihat Juga
 
 * class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(string) {#print_6}
 
-Mencetak proyek ke printer yang ditentukan dengan pengaturan printer default menggunakan pengontrol cetak standar (tanpa Antarmuka Pengguna).
+Mencetak proyek ke printer yang ditentukan dengan pengaturan printer default menggunakan kontroler cetak standar (tanpa Antarmuka Pengguna).
 
 ```csharp
 public void Print(string printerName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| printerName | String | Nama pencetak yang ditentukan. |
+| printerName | String | Nama printer yang ditentukan. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara mencetak proyek pada printer yang dipilih.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+foreach (string printer in PrinterSettings.InstalledPrinters)
+{
+    if (!printer.ToUpperInvariant().Contains("Microsoft Print to PDF".ToUpperInvariant()))
+    {
+        continue;
+    }
+
+    project.Print(printer);
+    break;
+}
+```
+
+### Lihat Juga
 
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings) {#print_2}
 
-Mencetak proyek sesuai dengan pengaturan printer yang ditentukan menggunakan pengontrol cetak standar (tanpa Antarmuka Pengguna).
+Mencetak proyek sesuai dengan pengaturan printer yang ditentukan menggunakan kontroler cetak standar (tanpa Antarmuka Pengguna).
 
 ```csharp
 public void Print(PrinterSettings printerSettings)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | contoh yang ditentukan dariPrinterSettings kelas. |
+| printerSettings | PrinterSettings | instance yang ditentukan dari kelas PrinterSettings. |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menggunakan pengaturan printer untuk mencetak proyek.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// Cetak dua halaman pertama
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings);
+```
+
+### Lihat Juga
 
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, string) {#print_5}
 
-Mencetak proyek sesuai dengan pengaturan printer yang ditentukan menggunakan pengontrol cetak standar (tanpa Antarmuka Pengguna).
+Mencetak proyek sesuai dengan pengaturan printer yang ditentukan menggunakan kontroler cetak standar (tanpa Antarmuka Pengguna).
 
 ```csharp
 public void Print(PrinterSettings printerSettings, string documentName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | contoh yang ditentukan dariPrinterSettings kelas. |
+| printerSettings | PrinterSettings | instance yang ditentukan dari kelas PrinterSettings. |
 | documentName | String | nama dokumen yang akan ditampilkan (misalnya, dalam kotak dialog status cetak atau antrian printer). |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menggunakan pengaturan printer dan nama dokumen untuk mencetak proyek.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// Cetak dua halaman pertama
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings, "Document #1");
+```
+
+### Lihat Juga
 
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, PrintOptions) {#print_3}
 
-Mencetak proyek sesuai dengan pengaturan printer yang ditentukan dan opsi penyimpanan khusus menggunakan pengontrol cetak standar (tanpa Antarmuka Pengguna).
+Mencetak proyek sesuai dengan pengaturan printer yang ditentukan dan opsi penyimpanan khusus menggunakan kontroler cetak standar (tanpa Antarmuka Pengguna).
 
 ```csharp
 public void Print(PrinterSettings printerSettings, PrintOptions options)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | contoh yang ditentukan dariPrinterSettings kelas. |
-| options | PrintOptions | contoh yang ditentukan dari[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) kelas. |
+| printerSettings | PrinterSettings | instance yang ditentukan dari kelas PrinterSettings. |
+| options | PrintOptions | instance yang ditentukan dari kelas [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menggunakan opsi printer dan pengaturan untuk mencetak proyek.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var options = new PrintOptions
+{
+    Timescale = Timescale.Months
+};
+
+// Cetak dua halaman pertama
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings, options);
+```
+
+### Lihat Juga
 
 * class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, PrintOptions, string) {#print_4}
 
-Mencetak proyek sesuai dengan pengaturan printer yang ditentukan, opsi penyimpanan khusus, dan nama dokumen yang ditentukan menggunakan pengontrol cetak standar (tanpa Antarmuka Pengguna).
+Mencetak proyek sesuai dengan pengaturan printer yang ditentukan, opsi penyimpanan khusus, dan nama dokumen yang ditentukan menggunakan kontroler cetak standar (tanpa Antarmuka Pengguna).
 
 ```csharp
 public void Print(PrinterSettings printerSettings, PrintOptions options, string documentName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | contoh yang ditentukan dariPrinterSettings kelas. |
-| options | PrintOptions | contoh yang ditentukan dari[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) kelas. |
+| printerSettings | PrinterSettings | instance yang ditentukan dari kelas PrinterSettings. |
+| options | PrintOptions | instance yang ditentukan dari kelas [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) |
 | documentName | String | nama dokumen yang akan ditampilkan (misalnya, dalam kotak dialog status cetak atau antrian printer). |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara menggunakan opsi printer, pengaturan printer, dan nama dokumen untuk mencetak proyek.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var options = new PrintOptions
+{
+    Timescale = Timescale.Months
+};
+
+// Cetak dua halaman pertama
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings, options, "My project name");
+```
+
+### Lihat Juga
 
 * class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

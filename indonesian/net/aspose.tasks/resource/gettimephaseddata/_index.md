@@ -1,62 +1,116 @@
 ---
-title: GetTimephasedData
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Mengembalikan instance dariTimephasedDataCollectionaspose.tasks/timephaseddatacollection/ kelas untuk objek ini denganTimephasedDataaspose.tasks/resource/timephaseddata/ nilainilai dalam tanggal mulai dan akhir tertentu yang ditentukanTimephasedDataTypeaspose.tasks/timephaseddatatype/ .
+title: "Resource.GetTimephasedData"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Metode Resource. Mengembalikan sebuah instance dari kelas TimephasedDataCollection untuk objek ini dengan nilai TimephasedData dalam rentang tanggal mulai dan akhir yang diberikan untuk TimephasedDataType yang ditentukan"
 type: docs
-weight: 860
+weight: 850
 url: /id/net/aspose.tasks/resource/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-Mengembalikan instance dari[`TimephasedDataCollection`](../../timephaseddatacollection/) kelas untuk objek ini dengan[`TimephasedData`](../timephaseddata/) nilai-nilai dalam tanggal mulai dan akhir tertentu yang ditentukan[`TimephasedDataType`](../../timephaseddatatype/) .
+Mengembalikan sebuah instance dari kelas [`TimephasedDataCollection`](../../timephaseddatacollection/) untuk objek ini dengan nilai [`TimephasedData`](../timephaseddata/) dalam rentang tanggal mulai dan akhir yang diberikan untuk [`TimephasedDataType`](../../timephaseddatatype/) yang ditentukan.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
     TimephasedDataType timephasedType)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| start | DateTime | Tanggal mulai untuk data bertahap waktu. |
-| end | DateTime | Tanggal akhir untuk data bertahap waktu. |
-| timephasedType | TimephasedDataType | Jenis data bertahap waktu ([`TimephasedDataType`](../../timephaseddatatype/)). |
+| mulai | DateTime | Tanggal mulai untuk data berjangka waktu. |
+| akhir | DateTime | Tanggal akhir untuk data berjangka waktu. |
+| timephasedType | TimephasedDataType | Tipe data berjangka waktu ([`TimephasedDataType`](../../timephaseddatatype/)). |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-Daftar[`TimephasedData`](../timephaseddata/).
+Daftar [`TimephasedData`](../timephaseddata/).
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara membaca data berjangka waktu dari sumber daya kerja/biaya.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Dapatkan Resource berdasarkan ID-nya
+var resource = project.Resources.GetByUid(1);
+
+// Cetak data berjangka waktu dari ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Cetak data berjangka waktu dari ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
+
+### Lihat Juga
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [Resource](../)
-* ruang nama [Aspose.Tasks](../../resource/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-Pengembalian[`TimephasedDataCollection`](../../timephaseddatacollection/) untuk objek ini dengan[`TimephasedData`](../timephaseddata/) nilai dalam tanggal mulai dan akhir tertentu.
+Mengembalikan [`TimephasedDataCollection`](../../timephaseddatacollection/) untuk objek ini dengan nilai [`TimephasedData`](../timephaseddata/) dalam rentang tanggal mulai dan akhir yang diberikan.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| start | DateTime | Tanggal mulai untuk data bertahap waktu. |
-| end | DateTime | Tanggal akhir untuk data bertahap waktu. |
+| mulai | DateTime | Tanggal mulai untuk data berjangka waktu. |
+| akhir | DateTime | Tanggal akhir untuk data berjangka waktu. |
 
-### Nilai Pengembalian
+### Nilai Kembali
 
-Daftar[`TimephasedData`](../../timephaseddata/).
+Daftar [`TimephasedData`](../../timephaseddata/).
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara membaca data berjangka waktu dari sumber daya kerja/biaya.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Dapatkan Resource berdasarkan ID-nya
+var resource = project.Resources.GetByUid(1);
+
+// Cetak data berjangka waktu dari ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Cetak data berjangka waktu dari ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
+
+### Lihat Juga
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Resource](../)
-* ruang nama [Aspose.Tasks](../../resource/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

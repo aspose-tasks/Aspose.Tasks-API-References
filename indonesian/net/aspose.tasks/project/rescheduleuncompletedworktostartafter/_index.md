@@ -1,57 +1,187 @@
 ---
-title: RescheduleUncompletedWorkToStartAfter
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Menjadwal ulang pekerjaan proyek yang belum selesai untuk dimulai setelah tanggal yang ditentukan.
+title: "Project.RescheduleUncompletedWorkToStartAfter"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Metode Project. Menjadwalkan ulang pekerjaan proyek yang belum selesai untuk dimulai setelah tanggal yang ditentukan."
 type: docs
-weight: 1170
+weight: 1190
 url: /id/net/aspose.tasks/project/rescheduleuncompletedworktostartafter/
 ---
 ## RescheduleUncompletedWorkToStartAfter(DateTime) {#rescheduleuncompletedworktostartafter}
 
-Menjadwal ulang pekerjaan proyek yang belum selesai untuk dimulai setelah tanggal yang ditentukan.
+Menjadwalkan ulang pekerjaan proyek yang belum selesai untuk mulai setelah tanggal yang ditentukan.
 
 ```csharp
 public void RescheduleUncompletedWorkToStartAfter(DateTime after)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| after | DateTime | Tanggal untuk menjadwal ulang pekerjaan yang belum selesai setelahnya. |
+| setelah | DateTime | Tanggal untuk menjadwalkan ulang pekerjaan yang belum selesai setelahnya. |
 
-### Perkataan
+## Contoh
 
-Pastikan bendera Project.CanSplitsInProgressTasks disetel ke true sebelum menggunakan metode ini.
+Menampilkan cara memperbarui proyek dan menjadwalkan ulang pekerjaan yang belum selesai.
 
-### Lihat juga
+```csharp
+var project = new Project();
+project.Set(Prj.StartDate, new DateTime(2014, 1, 27, 8, 0, 0));
+
+// Tambahkan tugas baru
+var task1 = project.RootTask.Children.Add("Task 1");
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task3 = project.RootTask.Children.Add("Task 3");
+task3.Set(Tsk.Duration, task2.ParentProject.GetDuration(24, TimeUnitType.Hour));
+var task4 = project.RootTask.Children.Add("Task 4");
+task4.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task5 = project.RootTask.Children.Add("Task 5");
+task5.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+
+// Tambahkan tautan antar tugas
+project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
+var link23 = project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+
+// Penundaan satu hari
+link23.LinkLag = 4800;
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart);
+
+// Tambahkan tugas baru
+var task6 = project.RootTask.Children.Add("Task 6");
+var task7 = project.RootTask.Children.Add("Task 7");
+task7.Set(Tsk.Duration, task7.ParentProject.GetDuration(24, TimeUnitType.Hour));
+var task8 = project.RootTask.Children.Add("Task 8");
+task8.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task9 = project.RootTask.Children.Add("Task 9");
+task9.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task10 = project.RootTask.Children.Add("Task 10");
+
+// Tambahkan tautan antar tugas
+project.TaskLinks.Add(task6, task7, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task7, task8, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task8, task9, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task9, task10, TaskLinkType.FinishToStart);
+task6.Set(Tsk.IsManual, true);
+task7.Set(Tsk.IsManual, true);
+task8.Set(Tsk.IsManual, true);
+task9.Set(Tsk.IsManual, true);
+task10.Set(Tsk.IsManual, true);
+
+// Simpan proyek sebelum dan sesudah memperbarui pekerjaan sebagai selesai
+project.Save(OutDir + "RescheduleUncompletedWork_not updated_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah memperbarui pekerjaan proyek menjadi selesai hanya untuk tugas yang ditentukan
+project.UpdateProjectWorkAsComplete(new DateTime(2014, 1, 28, 17, 0, 0), false, new List<Task> { task10 });
+project.Save(OutDir + "RescheduleUncompletedWork_specific_updated_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah memperbarui semua pekerjaan proyek menjadi selesai
+project.UpdateProjectWorkAsComplete(new DateTime(2014, 1, 28, 17, 0, 0), false);
+project.Save(OutDir + "RescheduleUncompletedWork_updated_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah menjadwal ulang pekerjaan yang belum selesai hanya untuk tugas yang ditentukan
+project.RescheduleUncompletedWorkToStartAfter(new DateTime(2014, 2, 8, 8, 0, 0), new List<Task> { task10 });
+project.Save(OutDir + "RescheduleUncompletedWork_specific_rescheduled_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah menjadwal ulang pekerjaan yang belum selesai
+project.RescheduleUncompletedWorkToStartAfter(new DateTime(2014, 2, 7, 8, 0, 0));
+project.Save(OutDir + "RescheduleUncompletedWork_rescheduled_out.xml", SaveFileFormat.Xml);
+```
+
+### Lihat Juga
 
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## RescheduleUncompletedWorkToStartAfter(DateTime, List&lt;Task&gt;) {#rescheduleuncompletedworktostartafter_1}
 
-Menjadwal ulang pekerjaan yang belum selesai untuk daftar tugas tertentu agar dimulai setelah tanggal yang ditentukan.
+Menjadwalkan ulang pekerjaan yang belum selesai untuk daftar tugas tertentu agar mulai setelah tanggal yang ditentukan.
 
 ```csharp
 public void RescheduleUncompletedWorkToStartAfter(DateTime after, List<Task> taskCollection)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| after | DateTime | Tanggal untuk menjadwal ulang pekerjaan yang belum selesai setelahnya. |
-| taskCollection | List`1 | Daftar&lt;Tugas&gt; tugas untuk menjadwal ulang pekerjaan yang belum selesai. |
+| setelah | DateTime | Tanggal untuk menjadwalkan ulang pekerjaan yang belum selesai setelahnya. |
+| taskCollection | List`1 | List&lt;Task&gt; dari tugas untuk menjadwal ulang pekerjaan yang belum selesai. |
 
-### Perkataan
+## Contoh
 
-Pastikan bendera Project.CanSplitsInProgressTasks disetel ke true sebelum menggunakan metode ini.
+Menampilkan cara memperbarui proyek dan menjadwalkan ulang pekerjaan yang belum selesai.
 
-### Lihat juga
+```csharp
+var project = new Project();
+project.Set(Prj.StartDate, new DateTime(2014, 1, 27, 8, 0, 0));
+
+// Tambahkan tugas baru
+var task1 = project.RootTask.Children.Add("Task 1");
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task3 = project.RootTask.Children.Add("Task 3");
+task3.Set(Tsk.Duration, task2.ParentProject.GetDuration(24, TimeUnitType.Hour));
+var task4 = project.RootTask.Children.Add("Task 4");
+task4.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task5 = project.RootTask.Children.Add("Task 5");
+task5.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+
+// Tambahkan tautan antar tugas
+project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
+var link23 = project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+
+// Penundaan satu hari
+link23.LinkLag = 4800;
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart);
+
+// Tambahkan tugas baru
+var task6 = project.RootTask.Children.Add("Task 6");
+var task7 = project.RootTask.Children.Add("Task 7");
+task7.Set(Tsk.Duration, task7.ParentProject.GetDuration(24, TimeUnitType.Hour));
+var task8 = project.RootTask.Children.Add("Task 8");
+task8.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task9 = project.RootTask.Children.Add("Task 9");
+task9.Set(Tsk.Duration, task2.ParentProject.GetDuration(16, TimeUnitType.Hour));
+var task10 = project.RootTask.Children.Add("Task 10");
+
+// Tambahkan tautan antar tugas
+project.TaskLinks.Add(task6, task7, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task7, task8, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task8, task9, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task9, task10, TaskLinkType.FinishToStart);
+task6.Set(Tsk.IsManual, true);
+task7.Set(Tsk.IsManual, true);
+task8.Set(Tsk.IsManual, true);
+task9.Set(Tsk.IsManual, true);
+task10.Set(Tsk.IsManual, true);
+
+// Simpan proyek sebelum dan sesudah memperbarui pekerjaan sebagai selesai
+project.Save(OutDir + "RescheduleUncompletedWork_not updated_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah memperbarui pekerjaan proyek menjadi selesai hanya untuk tugas yang ditentukan
+project.UpdateProjectWorkAsComplete(new DateTime(2014, 1, 28, 17, 0, 0), false, new List<Task> { task10 });
+project.Save(OutDir + "RescheduleUncompletedWork_specific_updated_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah memperbarui semua pekerjaan proyek menjadi selesai
+project.UpdateProjectWorkAsComplete(new DateTime(2014, 1, 28, 17, 0, 0), false);
+project.Save(OutDir + "RescheduleUncompletedWork_updated_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah menjadwal ulang pekerjaan yang belum selesai hanya untuk tugas yang ditentukan
+project.RescheduleUncompletedWorkToStartAfter(new DateTime(2014, 2, 8, 8, 0, 0), new List<Task> { task10 });
+project.Save(OutDir + "RescheduleUncompletedWork_specific_rescheduled_out.xml", SaveFileFormat.Xml);
+
+// Simpan proyek setelah menjadwal ulang pekerjaan yang belum selesai
+project.RescheduleUncompletedWorkToStartAfter(new DateTime(2014, 2, 7, 8, 0, 0));
+project.Save(OutDir + "RescheduleUncompletedWork_rescheduled_out.xml", SaveFileFormat.Xml);
+```
+
+### Lihat Juga
 
 * class [Task](../../task/)
 * class [Project](../)
-* ruang nama [Aspose.Tasks](../../project/)
-* perakitan [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

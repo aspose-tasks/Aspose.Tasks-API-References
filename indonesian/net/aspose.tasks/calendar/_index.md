@@ -1,61 +1,67 @@
 ---
-title: Calendar
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Merupakan kalender yang digunakan dalam proyek.
+title: "Kelas Calendar"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.Calendar. Mewakili kalender yang digunakan dalam sebuah proyek."
 type: docs
 weight: 230
 url: /id/net/aspose.tasks/calendar/
 ---
 ## Calendar class
 
-Merupakan kalender yang digunakan dalam proyek.
+Mewakili kalender yang digunakan dalam sebuah proyek.
 
 ```csharp
-public class Calendar
+public class Calendar : ICalendar
 ```
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [BaseCalendar](../../aspose.tasks/calendar/basecalendar/) { get; set; } | Mendapat atau menyetel kalender dasar tempat kalender ini bergantung. Hanya berlaku jika kalender tersebut bukan kalender dasar. |
-| [Exceptions](../../aspose.tasks/calendar/exceptions/) { get; } | Mendapat objek CalendarExceptionCollection. Kumpulan pengecualian yang terkait dengan kalender. |
-| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar/) { get; } | Mendapat nilai yang menunjukkan apakah kalender tersebut adalah kalender dasar. |
-| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar/) { get; set; } | Mendapat atau menyetel nilai yang menunjukkan apakah kalender adalah kalender garis dasar. |
-| [Name](../../aspose.tasks/calendar/name/) { get; set; } | Mendapat atau menyetel nama kalender. |
-| [Uid](../../aspose.tasks/calendar/uid/) { get; set; } | Mendapat atau menyetel pengenal unik kalender. |
-| [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Mendapat Koleksi Hari Kerja untuk kalender ini. Kumpulan hari kerja yang menentukan kalender. |
-| [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Mendapat objek WorkWeekCollections. Kumpulan minggu kerja yang terkait dengan kalender. |
+| [BaseCalendar](../../aspose.tasks/calendar/basecalendar/) { get; set; } | Mendapatkan atau mengatur kalender dasar yang menjadi dependensi kalender ini. Hanya berlaku jika kalender bukan kalender dasar. |
+| [Exceptions](../../aspose.tasks/calendar/exceptions/) { get; } | Mendapatkan objek CalendarExceptionCollection. Kumpulan pengecualian yang terkait dengan kalender. |
+| [Guid](../../aspose.tasks/calendar/guid/) { get; } | Mendapatkan Guid kalender. |
+| [IsBaseCalendar](../../aspose.tasks/calendar/isbasecalendar/) { get; } | Mendapatkan nilai yang menunjukkan apakah kalender adalah kalender dasar. |
+| [IsBaselineCalendar](../../aspose.tasks/calendar/isbaselinecalendar/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah kalender adalah kalender baseline. |
+| [Name](../../aspose.tasks/calendar/name/) { get; set; } | Mendapatkan atau mengatur nama kalender. |
+| [PrimaveraProperties](../../aspose.tasks/calendar/primaveraproperties/) { get; } | Mendapatkan objek yang berisi properti khusus Primavera untuk kalender yang dibaca dari format Primavera. |
+| [Uid](../../aspose.tasks/calendar/uid/) { get; set; } | Mendapatkan atau mengatur pengidentifikasi unik kalender. |
+| [WeekDays](../../aspose.tasks/calendar/weekdays/) { get; } | Mendapatkan WeekDaysCollection untuk kalender ini. Kumpulan hari kerja yang mendefinisikan kalender. |
+| [WorkWeeks](../../aspose.tasks/calendar/workweeks/) { get; } | Mendapatkan objek WorkWeekCollections. Kumpulan minggu kerja yang terkait dengan kalender. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar/)(Calendar) | Membuat Kalender tertentu menjadi Kalender 24 Jam. Kalender 24 Jam adalah Kalender di mana setiap hari dalam seminggu bekerja dengan jam kerja sepanjang waktu. |
-| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar/)(Calendar) | Menjadikan Kalender tertentu sebagai Kalender Shift Malam. |
+| static [Make24HourCalendar](../../aspose.tasks/calendar/make24hourcalendar/)(Calendar) | Membuat Calendar tertentu menjadi Calendar 24Jam. Calendar 24Jam adalah Calendar di mana setiap hari dalam seminggu bekerja dengan jam kerja 24/7. |
+| static [MakeNightShiftCalendar](../../aspose.tasks/calendar/makenightshiftcalendar/)(Calendar) | Membuat Kalender yang diberikan menjadi Kalender Shift Malam. |
 | static [MakeStandardCalendar](../../aspose.tasks/calendar/makestandardcalendar/)(Calendar) | Membuat kalender standar default. |
 | [Delete](../../aspose.tasks/calendar/delete/)() | Menghapus kalender dari proyek. |
-| override [Equals](../../aspose.tasks/calendar/equals/)(object) | Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan objek tertentu. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork)(DateTime, Duration) | Menghitung tanggal saat jumlah waktu kerja yang ditentukan akan berlalu menurut kalender. |
-| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Menghitung tanggal saat jumlah waktu kerja yang ditentukan akan berlalu menurut kalender. |
+| override [Equals](../../aspose.tasks/calendar/equals/)(object) | Kembalikan nilai yang menunjukkan apakah instance ini sama dengan objek yang ditentukan. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork)(DateTime, Duration) | Menghitung tanggal ketika jumlah waktu kerja yang ditentukan akan berlalu menurut kalender. |
+| [GetFinishDateByStartAndWork](../../aspose.tasks/calendar/getfinishdatebystartandwork/#getfinishdatebystartandwork_1)(DateTime, TimeSpan) | Menghitung tanggal ketika jumlah waktu kerja yang ditentukan akan berlalu menurut kalender. |
 | override [GetHashCode](../../aspose.tasks/calendar/gethashcode/)() | Mengembalikan kode hash untuk instance kelas. |
-| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart/)(DateTime) | Menghitung hari kerja berikutnya mulai dari tanggal. |
+| [GetNextWorkingDayStart](../../aspose.tasks/calendar/getnextworkingdaystart/)(DateTime) | Menghitung awal hari kerja berikutnya untuk tanggal yang ditentukan. |
 | [GetPreviousWorkingDayEnd](../../aspose.tasks/calendar/getpreviousworkingdayend/)(DateTime) | Menghitung akhir tanggal kerja sebelumnya dari tanggal yang ditentukan. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration)(DateTime, Duration) | Mengembalikan Tanggal Mulai berdasarkan Tanggal Selesai dan Durasi yang ditentukan. |
-| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Mengembalikan Tanggal Mulai berdasarkan Tanggal Selesai dan Durasi yang ditentukan. |
-| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Menghitung tanggal dan waktu penyelesaian tugas dari tanggal mulai, membagi bagian, dan durasi. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Mengembalikan jumlah jam kerja pada tanggal tersebut. |
-| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Kembali jam kerja untuk tanggal yang ditentukan. |
-| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Pengembalian[`WorkingTimeCollection`](../workingtimecollection/) waktu kerja untuk tanggal yang ditentukan. |
-| [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Menentukan apakah hari tersebut adalah hari kerja. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration)(DateTime, Duration) | Mengembalikan tanggal mulai berdasarkan tanggal selesai dan durasi yang ditentukan. |
+| [GetStartDateFromFinishAndDuration](../../aspose.tasks/calendar/getstartdatefromfinishandduration/#getstartdatefromfinishandduration_1)(DateTime, TimeSpan) | Mengembalikan tanggal mulai berdasarkan tanggal selesai dan durasi yang ditentukan. |
+| [GetTaskFinishDateFromDuration](../../aspose.tasks/calendar/gettaskfinishdatefromduration/)(Task, TimeSpan) | Menghitung tanggal dan waktu selesai tugas dari tanggal mulainya, bagian-bagian terpisah, dan durasi kerja. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours_1)(DateTime) | Mengembalikan jumlah jam kerja pada tanggal yang ditentukan. |
+| [GetWorkingHours](../../aspose.tasks/calendar/getworkinghours/#getworkinghours)(DateTime, DateTime) | Kembalikan WorkUnit - Mulai, Selesai, dan Durasi jam kerja untuk interval tanggal dan waktu yang ditentukan. |
+| [GetWorkingHoursTimeSpan](../../aspose.tasks/calendar/getworkinghourstimespan/)(DateTime, DateTime) | Mengembalikan jumlah jam kerja antara tanggal yang ditentukan. |
+| [GetWorkingTimes](../../aspose.tasks/calendar/getworkingtimes/)(DateTime) | Mengembalikan [`WorkingTimeCollection`](../workingtimecollection/) dari waktu kerja untuk tanggal yang ditentukan. |
+| [GetWorkStart](../../aspose.tasks/calendar/getworkstart/)(DateTime) | Menghitung awal waktu kerja berikutnya mulai dari tanggal dan waktu yang ditentukan. |
+| [IsDayWorking](../../aspose.tasks/calendar/isdayworking/)(DateTime) | Menentukan apakah hari yang ditentukan adalah hari kerja menurut kalender. |
+| virtual [IsEmpty](../../aspose.tasks/calendar/isempty/)() | Mengembalikan apakah kalender tidak memiliki jam kerja yang didefinisikan. |
+| static [GetIntersectionCalendar](../../aspose.tasks/calendar/getintersectioncalendar/)(Calendar, Calendar) | Mendapatkan instance [`ICalendar`](../icalendar/) yang dapat digunakan untuk melakukan perhitungan pada irisan jadwal kerja dari 2 kalender. |
 
-### Perkataan
+## Catatan
 
-Kalender digunakan untuk menentukan waktu kerja dan tidak kerja standar. Proyek harus memiliki satu kalender dasar. Tugas dan sumber daya dapat memiliki kalender non-dasarnya sendiri yang didasarkan pada kalender dasar.
+Kalender digunakan untuk mendefinisikan waktu kerja dan non-kerja standar. Proyek harus memiliki satu kalender dasar. Tugas dan sumber daya dapat memiliki kalender non-dasar mereka sendiri yang didasarkan pada kalender dasar.
 
-### Contoh
+## Contoh
 
-Cara membuat kalender sederhana dari nol.
+Cara membuat kalender sederhana dari awal.
 
 ```csharp
 [C#]
@@ -65,7 +71,7 @@ Calendar calendar = new Calendar("New calendar");
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
-// buat hari kerja baru yang baru
+// buat hari kerja baru baru
 WeekDay myWeekDay = new WeekDay(DayType.Thursday);
 // Mengatur waktu kerja. Hanya bagian waktu dari DateTime yang penting
     WorkingTime wt1 = new WorkingTime();
@@ -86,15 +92,15 @@ calendar.Days.Add(new WeekDay(DayType.Sunday));
 
 ```csharp
 [VB]
-' buat kalender kosong
+' create empty calendar
 Dim calendar As Calendar =  New Calendar("New calendar")
-' menambahkan hari kerja default (8 jam kerja dari 9:00 hingga 17:00)
+' adds default working days (8 working hours from 9:00 to 17:00)
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday))
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday))
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday))
-' buat hari kerja baru yang baru
+' create new new working day
 Dim myWeekDay As WeekDay =  New WeekDay(DayType.Thursday)
-' Mengatur waktu kerja. Hanya bagian waktu dari DateTime yang penting
+' Sets working time. Only time part of DateTime is important
     Dim wt1 As WorkingTime =  New WorkingTime()
     wt1.FromTime = New DateTime(1, 1, 1, 6, 0, 0, 0)
     wt1.ToTime = New DateTime(1, 1, 1, 12, 0, 0, 0)
@@ -106,14 +112,45 @@ Dim myWeekDay As WeekDay =  New WeekDay(DayType.Thursday)
     myWeekDay.DayWorking = True
 calendar.Days.Add(myWeekDay)
 calendar.Days.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday))
-' menambahkan akhir pekan
+' adds weekend
 calendar.Days.Add(New WeekDay(DayType.Saturday))
 calendar.Days.Add(New WeekDay(DayType.Sunday))
 ```
 
-### Lihat juga
+Menampilkan cara mendefinisikan kalender baru, menambahkan hari kerja ke dalamnya, dan mendefinisikan waktu kerja untuk hari-hari.
 
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+```csharp
+var project = new Project();
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+// Definisikan sebuah kalender
+var calendar = project.Calendars.Add("Calendar1");
+
+// Tambahkan hari kerja Senin hingga Kamis dengan jadwal default
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(new WeekDay(DayType.Saturday));
+calendar.WeekDays.Add(new WeekDay(DayType.Sunday));
+
+// Setel Jumat sebagai hari kerja pendek
+var weekDay = new WeekDay(DayType.Friday);
+
+// Mengatur waktu kerja. Hanya bagian waktu dari DateTime yang penting
+var workingTime = new WorkingTime(9, 12);
+var workingTime2 = new WorkingTime(13, 16);
+weekDay.WorkingTimes.Add(workingTime);
+weekDay.WorkingTimes.Add(workingTime2);
+weekDay.DayWorking = true;
+calendar.WeekDays.Add(weekDay);
+
+// bekerja dengan proyek...
+```
+
+### Lihat Juga
+
+* interface [ICalendar](../icalendar/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+

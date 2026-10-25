@@ -1,14 +1,14 @@
 ---
-title: GanttChartView
-second_title: Aspose.Tasks untuk Referensi .NET API
-description: Merupakan tampilan GanttChart.
+title: "Kelas GanttChartView"
+second_title: "Referensi API Aspose.Tasks untuk .NET"
+description: "Kelas Aspose.Tasks.GanttChartView. Mewakili tampilan GanttChart"
 type: docs
-weight: 700
+weight: 710
 url: /id/net/aspose.tasks/ganttchartview/
 ---
 ## GanttChartView class
 
-Merupakan tampilan GanttChart.
+Mewakili tampilan GanttChart.
 
 ```csharp
 public class GanttChartView : View
@@ -16,57 +16,108 @@ public class GanttChartView : View
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [GanttChartView](ganttchartview/)() | Menginisialisasi instance baru dari`GanttChartView` kelas. |
+| [GanttChartView](ganttchartview/)() | Menginisialisasi instance baru dari kelas `GanttChartView`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [AutoFilters](../../aspose.tasks/ganttchartview/autofilters/) { get; } | Mendapat daftar filter otomatis dari tampilan Gantt Chart. |
-| [BarRounding](../../aspose.tasks/ganttchartview/barrounding/) { get; set; } | Mendapat atau menyetel nilai yang menunjukkan apakah bilah membulat ke hari terdekat. Nilai defaultnya adalah True. |
-| [BarSize](../../aspose.tasks/ganttchartview/barsize/) { get; set; } | Mendapat atau mengatur ketinggian, dalam poin, dari batang Gantt di Bagan Gantt. |
-| [BarStyles](../../aspose.tasks/ganttchartview/barstyles/) { get; } | Mendapat daftar gaya batang induk (umum) dari tampilan Gantt Chart. [`GanttBarStyle`](../../aspose.tasks.visualization/ganttbarstyle/) . |
-| [BottomTimescaleTier](../../aspose.tasks/ganttchartview/bottomtimescaletier/) { get; set; } | Mendapat atau menyetel pengaturan tingkat skala waktu bawah tampilan. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) |
-| [CustomBarStyles](../../aspose.tasks/ganttchartview/custombarstyles/) { get; } | Mendapat daftar gaya bilah khusus tugas khusus dari tampilan Gantt Chart. [`GanttBarStyle`](../../aspose.tasks.visualization/ganttbarstyle/) . |
-| [Filter](../../aspose.tasks/view/filter/) { get; set; } | Mendapatkan atau menyetel filter yang digunakan dalam satu tampilan. |
-| [Gridlines](../../aspose.tasks/ganttchartview/gridlines/) { get; set; } | Mendapat atau menetapkan daftar[`Gridlines`](./gridlines/) dari tampilan Gantt Chart. |
-| [Group](../../aspose.tasks/view/group/) { get; set; } | Mendapat atau menyetel grup tampilan tunggal. |
-| [HideRollupBarsWhenSummaryExpanded](../../aspose.tasks/ganttchartview/hiderollupbarswhensummaryexpanded/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah rollup bar akan disembunyikan saat memperluas tugas ringkasan. |
-| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah Microsoft Project menyorot filter untuk satu tampilan. |
-| [MiddleTimescaleTier](../../aspose.tasks/ganttchartview/middletimescaletier/) { get; set; } | Mendapat atau menyetel pengaturan tingkat skala waktu tengah tampilan. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) . |
-| [Name](../../aspose.tasks/view/name/) { get; set; } | Mendapat atau menetapkan nama objek View. |
-| [NonWorkingTimeColor](../../aspose.tasks/ganttchartview/nonworkingtimecolor/) { get; set; } | Mendapat atau menyetel warna waktu tidak bekerja. |
-| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | Mendapat instance dari[`PageInfo`](../view/pageinfo/)kelas. Merupakan data pengaturan halaman yang hadir dalam format file mpp. |
-| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | Mendapatkan induk dari objek Tampilan. Hanya-baca[`Project`](../project/) . |
-| [ProgressLines](../../aspose.tasks/ganttchartview/progresslines/) { get; set; } | Mendapat atau menyetel garis progres untuk tampilan Gantt Chart. [`ProgressLines`](./progresslines/) . |
-| [RollUpGanttBars](../../aspose.tasks/ganttchartview/rollupganttbars/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah bar di Gantt Chart harus digulung. |
-| [Screen](../../aspose.tasks/view/screen/) { get; } | Mendapatkan jenis layar untuk tampilan tunggal. Hanya-baca[`ViewScreen`](../viewscreen/) . |
-| [ShowBarSplits](../../aspose.tasks/ganttchartview/showbarsplits/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah pembagian tugas pada Bagan Gantt harus ditampilkan. |
-| [ShowDrawings](../../aspose.tasks/ganttchartview/showdrawings/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah gambar pada Bagan Gantt harus ditampilkan. |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah Microsoft Project menampilkan nama tampilan tunggal di Tampilan atau daftar drop-down Tampilan Lain di Pita. |
-| [Table](../../aspose.tasks/view/table/) { get; set; } | Mendapat atau menyetel tabel tampilan tunggal. |
-| [TableTextStyles](../../aspose.tasks/ganttchartview/tabletextstyles/) { get; } | Mendapat daftar gaya teks tabel dari tampilan Gantt Chart. [`TableTextStyle`](../../aspose.tasks.visualization/tabletextstyle/) . |
-| [TextStyles](../../aspose.tasks/ganttchartview/textstyles/) { get; set; } | Mendapat atau menetapkan daftar[`TextStyle`](../../aspose.tasks.visualization/textstyle/) dari tampilan Gantt Chart. |
+| [AutoFilters](../../aspose.tasks/ganttchartview/autofilters/) { get; } | Mendapatkan daftar filter otomatis dari tampilan Gantt Chart. |
+| [BarRounding](../../aspose.tasks/ganttchartview/barrounding/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah batang dibulatkan ke hari terdekat. Nilai default adalah True. |
+| [BarSize](../../aspose.tasks/ganttchartview/barsize/) { get; set; } | Mendapatkan atau mengatur tinggi, dalam poin, dari batang Gantt dalam Gantt Chart. |
+| [BarStyles](../../aspose.tasks/ganttchartview/barstyles/) { get; } | Mendapatkan daftar gaya batang induk (umum) dari tampilan Gantt Chart. [`GanttBarStyle`](../../aspose.tasks.visualization/ganttbarstyle/). |
+| [BottomTimescaleTier](../../aspose.tasks/ganttchartview/bottomtimescaletier/) { get; set; } | Mendapatkan atau mengatur pengaturan tingkat timescale bawah tampilan. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) |
+| [CustomBarStyles](../../aspose.tasks/ganttchartview/custombarstyles/) { get; } | Mendapatkan daftar gaya batang khusus per tugas dari tampilan Gantt Chart. [`GanttBarStyle`](../../aspose.tasks.visualization/ganttbarstyle/). |
+| [Filter](../../aspose.tasks/view/filter/) { get; set; } | Mendapatkan atau mengatur filter yang digunakan dalam tampilan tunggal. |
+| [Gridlines](../../aspose.tasks/ganttchartview/gridlines/) { get; set; } | Mendapatkan atau mengatur daftar [`Gridlines`](./gridlines/) dari tampilan Gantt Chart. |
+| [Group](../../aspose.tasks/view/group/) { get; set; } | Mendapatkan atau mengatur grup dari tampilan tunggal. |
+| [HideRollupBarsWhenSummaryExpanded](../../aspose.tasks/ganttchartview/hiderollupbarswhensummaryexpanded/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah batang rollup akan disembunyikan saat memperluas tugas ringkasan. |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah Microsoft Project menyorot filter untuk tampilan tunggal. |
+| [MiddleTimescaleTier](../../aspose.tasks/ganttchartview/middletimescaletier/) { get; set; } | Mendapatkan atau mengatur pengaturan tingkat timescale tengah tampilan. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
+| [Name](../../aspose.tasks/view/name/) { get; set; } | Mendapatkan atau mengatur nama objek View. |
+| [NonWorkingTimeColor](../../aspose.tasks/ganttchartview/nonworkingtimecolor/) { get; set; } | Mendapatkan atau mengatur warna waktu non-kerja. |
+| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | Mendapatkan sebuah instance dari kelas [`PageInfo`](../view/pageinfo/). Mewakili data pengaturan halaman yang terdapat dalam format file mpp. |
+| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | Mendapatkan induk dari objek View. Hanya-baca [`Project`](../project/). |
+| [ProgressLines](../../aspose.tasks/ganttchartview/progresslines/) { get; set; } | Mendapatkan atau mengatur garis kemajuan untuk tampilan Gantt Chart. [`ProgressLines`](./progresslines/). |
+| [RollUpGanttBars](../../aspose.tasks/ganttchartview/rollupganttbars/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah batang pada Gantt Chart harus digulung. |
+| [Screen](../../aspose.tasks/view/screen/) { get; } | Mendapatkan tipe layar untuk tampilan tunggal. Hanya-baca [`ViewScreen`](../viewscreen/). |
+| [ShowBarSplits](../../aspose.tasks/ganttchartview/showbarsplits/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah pemisahan tugas pada Gantt Chart harus ditampilkan. |
+| [ShowDrawings](../../aspose.tasks/ganttchartview/showdrawings/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah gambar pada Gantt Chart harus ditampilkan. |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah Microsoft Project menampilkan nama tampilan tunggal di daftar drop-down View atau Other Views pada Ribbon. |
+| [Table](../../aspose.tasks/view/table/) { get; set; } | Mendapatkan atau mengatur tabel dari tampilan tunggal. |
+| [TableTextStyles](../../aspose.tasks/ganttchartview/tabletextstyles/) { get; } | Mendapatkan daftar gaya teks tabel dari tampilan Gantt Chart. [`TableTextStyle`](../../aspose.tasks.visualization/tabletextstyle/). |
+| [TextStyles](../../aspose.tasks/ganttchartview/textstyles/) { get; set; } | Mendapatkan atau mengatur daftar [`TextStyle`](../../aspose.tasks.visualization/textstyle/) dari tampilan Gantt Chart. |
 | [TimescaleSizePercentage](../../aspose.tasks/ganttchartview/timescalesizepercentage/) { get; set; } |  |
-| [TopTimescaleTier](../../aspose.tasks/ganttchartview/toptimescaletier/) { get; set; } | Mendapatkan atau menyetel pengaturan tingkat skala waktu teratas tampilan. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) . |
-| [Type](../../aspose.tasks/view/type/) { get; } | Mendapat jenis item dalam tampilan tunggal, seperti tugas atau sumber daya. Hanya baca[`ItemType`](../itemtype/) . |
-| [Uid](../../aspose.tasks/view/uid/) { get; } | Mendapatkan pengidentifikasi unik dari suatu tampilan. |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | Mendapat kumpulan objek yang mewakili penempatan dan tampilan[`OleObject`](../oleobject/) dalam tampilan. |
+| [TopTimescaleTier](../../aspose.tasks/ganttchartview/toptimescaletier/) { get; set; } | Mendapatkan atau mengatur pengaturan tingkat timescale atas tampilan. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
+| [Type](../../aspose.tasks/view/type/) { get; } | Mendapatkan tipe item dalam tampilan tunggal, seperti tugas atau sumber daya. Hanya-baca [`ItemType`](../itemtype/). |
+| [Uid](../../aspose.tasks/view/uid/) { get; } | Mendapatkan pengenal unik dari sebuah tampilan. |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | Mendapatkan koleksi objek yang mewakili penempatan dan tampilan [`OleObject`](../oleobject/) dalam tampilan. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto/)(View) | Membandingkan instance saat ini dengan objek lain dari jenis yang sama dan mengembalikan bilangan bulat yang menunjukkan apakah instance saat ini mendahului, mengikuti, atau terjadi di posisi yang sama dalam urutan seperti objek lainnya. |
-| override [Equals](../../aspose.tasks/view/equals/)(object) | Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan objek tertentu. |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | Mengembalikan nilai kode hash untuk instance dari[`Resource`](../resource/) kelas. |
+| [CompareTo](../../aspose.tasks/view/compareto/)(View) | Membandingkan instance saat ini dengan objek lain dengan tipe yang sama dan mengembalikan integer yang menunjukkan apakah instance saat ini mendahului, mengikuti, atau berada pada posisi yang sama dalam urutan penyortiran dibandingkan objek lainnya. |
+| override [Equals](../../aspose.tasks/view/equals/)(object) | Kembalikan nilai yang menunjukkan apakah instance ini sama dengan objek yang ditentukan. |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | Mengembalikan nilai kode hash untuk instance dari kelas [`Resource`](../resource/). |
 
-### Lihat juga
+## Contoh
+
+Menampilkan cara memodifikasi tingkat skala waktu.
+
+```csharp
+var project = new Project();
+
+// Inisialisasi Tampilan Gantt Chart
+var view = new GanttChartView
+{
+    TopTimescaleTier = new TimescaleTier(),
+    MiddleTimescaleTier = new TimescaleTier(),
+    BottomTimescaleTier = new TimescaleTier()
+};
+
+// atur jumlah Skala Waktu
+view.TopTimescaleTier.Count = 2;
+view.TopTimescaleTier.Unit = TimescaleUnit.Quarters;
+view.TopTimescaleTier.Label = DateLabel.QuarterQQyy;
+view.TopTimescaleTier.ShowTicks = false;
+
+view.MiddleTimescaleTier.Count = 2;
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddDd;
+view.MiddleTimescaleTier.ShowTicks = false;
+
+view.BottomTimescaleTier.Unit = TimescaleUnit.Days;
+view.BottomTimescaleTier.Label = DateLabel.DayDdd;
+view.BottomTimescaleTier.Count = 2;
+view.BottomTimescaleTier.ShowTicks = false;
+
+// tambahkan Tampilan Gantt Chart ke proyek
+project.Views.Add(view);
+
+// tambahkan beberapa data uji ke proyek
+var task1 = project.RootTask.Children.Add("Task 1");
+var task2 = project.RootTask.Children.Add("Task 2");
+task1.Set(Tsk.Duration, task1.ParentProject.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Duration, task1.ParentProject.GetDuration(40, TimeUnitType.Hour));
+
+// Gunakan opsi 'Timescale.DefinedInView' untuk merender skala waktu menggunakan pengaturan skala waktu yang telah kami atur (view.TopTimescaleTier, view.MiddleTimescaleTier, view.BottomTimescaleTier).
+var pdfSaveOptions = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView,
+    StartDate = DateTime.Now.AddDays(-30),
+    EndDate = DateTime.Now.AddDays(30)
+};
+
+project.Save(OutDir + "WorkWithTimescaleTier_out.pdf", pdfSaveOptions);
+```
+
+### Lihat Juga
 
 * class [View](../view/)
-* ruang nama [Aspose.Tasks](../../aspose.tasks/)
-* perakitan [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
