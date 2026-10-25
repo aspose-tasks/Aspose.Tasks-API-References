@@ -1,27 +1,40 @@
 ---
-title: Task.Clone
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task yöntem. Alt görevler olmadan bir görevin tam kopyasını oluşturur.
+title: "Task.Clone"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task yöntemi. Alt görevler olmadan bir görevin tam bir kopyasını oluşturur"
 type: docs
 weight: 1310
 url: /tr/net/aspose.tasks/task/clone/
 ---
 ## Task.Clone method
 
-Alt görevler olmadan bir görevin tam kopyasını oluşturur.
+Alt görevler olmadan bir görevin tam bir kopyasını oluşturur.
 
 ```csharp
 public object Clone()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 Bir görevin kopyası oluşturuldu.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir görevi nasıl klonlayacağınızı gösterir.
+
+```csharp
+var project = new Project();
+
+var originalTask = project.RootTask.Children.Add("Task");
+var cloneTask = (Task)originalTask.Clone();
+
+Console.WriteLine("Are tasks equal: " + cloneTask.Equals(originalTask));
+```
+
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

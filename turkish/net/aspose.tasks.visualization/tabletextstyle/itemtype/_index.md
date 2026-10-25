@@ -1,24 +1,58 @@
 ---
-title: TableTextStyle.ItemType
-second_title: Aspose.Tasks for .NET API Referansı
-description: TableTextStyle mülk. Bir değer döndürürTextItemType numaralandırma.
+title: "TableTextStyle.ItemType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TableTextStyle özelliği. TextItemType enum'ının bir değerini döndürür"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.visualization/tabletextstyle/itemtype/
 ---
 ## TableTextStyle.ItemType property
 
-Bir değer döndürür[`TextItemType`](../../textitemtype/) numaralandırma.
+[`TextItemType`](../../textitemtype/) enum'ının bir değerini döndürür.
 
 ```csharp
 public override TextItemType ItemType { get; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir projedeki farklı metin öğelerini biçimlendirmek için kullanılan tablo metin stillerinin nasıl özelleştirileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.NewTasksAreManual, false);
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// ilk görev adı metin stilini ayarla
+var style1 = new TableTextStyle(1);
+// stilin uygulanacağı bir alan ayarla.
+style1.Field = Field.TaskName;
+// metin stilinin <see cref="P:Aspose.Tasks.Visualization.TextStyle.Font" /> ayarla.
+style1.Font = new FontDescriptor("Impact", 12F, FontStyles.Bold | FontStyles.Italic);
+// metin stili yazı tipinin punto cinsinden boyutunu ayarla.
+
+// ikinci görev süresi metin stilini ayarla
+var style2 = new TableTextStyle(2);
+style2.Field = Field.TaskDurationText;
+style2.Font = new FontDescriptor("Impact", 16F, FontStyles.Underline);
+
+view.TableTextStyles.Add(style1);
+view.TableTextStyles.Add(style2);
+
+SimpleSaveOptions options = new MPPSaveOptions
+{
+    // görünüm verisinin yazılması gerektiğini gösteren bir bayrak ayarla
+    WriteViewData = true
+};
+project.Save(OutDir + "WorkWithTableTextStyle_out.mpp", options);
+```
+
+### Ayrıca Bakınız
 
 * enum [TextItemType](../../textitemtype/)
 * class [TableTextStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../tabletextstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../tabletextstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

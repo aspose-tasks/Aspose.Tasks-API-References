@@ -1,31 +1,31 @@
 ---
-title: View.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: View yöntem. Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+title: "View.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "View yöntemi. Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür"
 type: docs
 weight: 150
 url: /tr/net/aspose.tasks/view/equals/
 ---
 ## View.Equals method
 
-Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | obj | Object | Bu örnekle karşılaştırılacak nesne. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**Doğru** belirtilen nesne, bu örnekle aynı Uid değerine sahip bir Görünüm ise; aksi takdirde, **YANLIŞ**.
+**True** if the specified object is a View that has the same Uid value as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [View](../)
-* ad alanı [Aspose.Tasks](../../view/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

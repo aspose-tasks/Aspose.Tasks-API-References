@@ -1,28 +1,28 @@
 ---
-title: Class WebRequestEventArgs
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.WebRequestEventArgs sınıf. İstemci Proje Sunucusunun web APIsine bir web isteği gönderdiğinde ortaya çıkan olay için bağımsız değişkenler sağlar.
+title: "Class WebRequestEventArgs"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.WebRequestEventArgs sınıfı. İstemcinin Project Servers web API'sine bir web isteği gönderdiğinde tetiklenen olay için argümanlar sağlar."
 type: docs
-weight: 3170
+weight: 3530
 url: /tr/net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class
 
-İstemci Proje Sunucusunun web API'sine bir web isteği gönderdiğinde ortaya çıkan olay için bağımsız değişkenler sağlar.
+İstemci, Project Server'ın web API'sine bir web isteği gönderdiğinde tetiklenen olay için argümanlar sağlar.
 
 ```csharp
 public sealed class WebRequestEventArgs : EventArgs
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | Proje Sunucusunun web API'sine gönderilmek üzere bir web isteği alır. |
+| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | Project Server'ın web API'sine gönderilecek bir web isteği alır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

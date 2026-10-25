@@ -1,23 +1,23 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Aspose.Tasks for .NET API Referansı
-description: LoadOptions inşaatçı. Yeni bir örneğini başlatır.LoadOptions sınıf.
+title: "LoadOptions.LoadOptions"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "LoadOptions yapıcı. LoadOptions sınıfının yeni bir örneğini başlatır"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/loadoptions/loadoptions/
 ---
 ## LoadOptions constructor
 
-Yeni bir örneğini başlatır.[`LoadOptions`](../) sınıf.
+Yeni bir [`LoadOptions`](../) sınıfının örneğini başlatır.
 
 ```csharp
 public LoadOptions()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Tasks](../../loadoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../loadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

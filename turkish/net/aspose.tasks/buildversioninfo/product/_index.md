@@ -1,7 +1,7 @@
 ---
-title: BuildVersionInfo.Product
-second_title: Aspose.Tasks for .NET API Referansı
-description: BuildVersionInfo alan. Ürün adı.
+title: "BuildVersionInfo.Product"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "BuildVersionInfo alanı. Ürün adı"
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks/buildversioninfo/product/
@@ -14,10 +14,22 @@ url: /tr/net/aspose.tasks/buildversioninfo/product/
 public static readonly string Product;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Aspose.Tasks'ın derleme sürüm bilgilerini nasıl okuyacağınızı gösterir.
+
+```csharp
+// geçerli Aspose.Tasks sürümü hakkında ortak bilgileri oku
+Console.WriteLine("Product: " + BuildVersionInfo.Product);
+Console.WriteLine("File Version: " + BuildVersionInfo.FileVersion);
+Console.WriteLine("Assembly Version: " + BuildVersionInfo.AssemblyVersion);
+Console.WriteLine("Assembly Informational Version: " + BuildVersionInfo.AssemblyInformationalVersion);
+```
+
+### Ayrıca Bakınız
 
 * class [BuildVersionInfo](../)
-* ad alanı [Aspose.Tasks](../../buildversioninfo/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../buildversioninfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

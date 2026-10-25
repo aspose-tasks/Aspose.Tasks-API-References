@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.ResponsePending
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. ResponsePendingin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "ResourceAssignment.ResponsePending"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. ResponsePending'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar."
 type: docs
 weight: 520
 url: /tr/net/aspose.tasks/resourceassignment/responsepending/
 ---
 ## ResourceAssignment.ResponsePending property
 
-ResponsePending'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+ResponsePending'in ayarlanıp ayarlanmadığını gösteren değeri alır veya ayarlar.
 
 ```csharp
 public bool ResponsePending { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

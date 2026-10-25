@@ -1,26 +1,40 @@
 ---
-title: Tsk.IsResumeValid
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görevin sürdürülüp sürdürülemeyeceğini belirler.
+title: "Tsk.IsResumeValid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Bir görevin devam ettirilebilip getirilemeyeceğini belirler"
 type: docs
-weight: 690
+weight: 680
 url: /tr/net/aspose.tasks/tsk/isresumevalid/
 ---
 ## Tsk.IsResumeValid field
 
-Bir görevin sürdürülüp sürdürülemeyeceğini belirler.
+Bir görevin yeniden başlatılıp başlatılamayacağını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsResumeValid;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.IsResumeValid özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsResumeValid, true);
+
+Console.WriteLine("Is Resume Valid: " + task.Get(Tsk.IsResumeValid));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.OleObjectId
-second_title: Aspose.Tasks for .NET API Referansı
-description: VisualObjectPlacement mülk. Kimliğini alır veya ayarlarOleObject nesne.
+title: "VisualObjectPlacement.OleObjectId"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VisualObjectPlacement özelliği. OleObject nesnesinin Id'sini alır veya ayarlar"
 type: docs
 weight: 90
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/oleobjectid/
 ---
 ## VisualObjectPlacement.OleObjectId property
 
-Kimliğini alır veya ayarlar[`OleObject`](../../../aspose.tasks/oleobject/) nesne.
+Id'sini alır veya ayarlar [`OleObject`](../../../aspose.tasks/oleobject/) nesnesinin.
 
 ```csharp
 public int OleObjectId { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [VisualObjectPlacement](../)
-* ad alanı [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

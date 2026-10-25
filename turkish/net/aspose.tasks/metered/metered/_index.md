@@ -1,23 +1,23 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Tasks for .NET API Referansı
-description: Metered inşaatçı. Default_Constructor
+title: "Metered.Metered"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Metered yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/metered/metered/
 ---
 ## Metered constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public Metered()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Metered](../)
-* ad alanı [Aspose.Tasks](../../metered/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../metered/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: ExtendedAttributeDefinition.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: ExtendedAttributeDefinition yöntem. Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir bayrak döndürür.
+title: "ExtendedAttributeDefinition.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ExtendedAttributeDefinition yöntemi. Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir bayrak döndürür"
 type: docs
-weight: 310
+weight: 320
 url: /tr/net/aspose.tasks/extendedattributedefinition/equals/
 ---
 ## ExtendedAttributeDefinition.Equals method
@@ -14,18 +14,34 @@ Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir bayrak d
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| obj | Object | bu örnekle karşılaştırılacak belirtilen nesne. |
+| obj | Object | bu örnek ile karşılaştırılacak belirtilen nesne. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir bayrak.
 
-### Ayrıca bakınız
+## Örnekler
+
+Genişletilmiş öznitelik tanımının eşitliğini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+var attributeDefinition1 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Start3);
+var attributeDefinition2 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Duration2);
+
+// Takvimlerin eşitliği, öznitelik tanımı alan kimliklerine karşı kontrol edilir.
+Console.WriteLine("ExtendedAttribute 1 Field Id: " + attributeDefinition1.FieldId);
+Console.WriteLine("ExtendedAttribute 2 Field Id: " + attributeDefinition2.FieldId);
+Console.WriteLine("Are extended attributes equal: " + attributeDefinition1.Equals(attributeDefinition2));
+```
+
+### Ayrıca Bakınız
 
 * class [ExtendedAttributeDefinition](../)
-* ad alanı [Aspose.Tasks](../../extendedattributedefinition/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

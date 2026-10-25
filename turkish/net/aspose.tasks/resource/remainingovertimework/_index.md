@@ -1,24 +1,24 @@
 ---
-title: Resource.RemainingOvertimeWork
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. RemainingOvertimeWork. değerini alır veya ayarlar
+title: "Resource.RemainingOvertimeWork"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. RemainingOvertimeWork değerini alır veya ayarlar"
 type: docs
-weight: 690
+weight: 680
 url: /tr/net/aspose.tasks/resource/remainingovertimework/
 ---
 ## Resource.RemainingOvertimeWork property
 
-RemainingOvertimeWork. değerini alır veya ayarlar
+RemainingOvertimeWork değerini alır veya ayarlar.
 
 ```csharp
 public Duration RemainingOvertimeWork { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

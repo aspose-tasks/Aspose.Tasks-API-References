@@ -1,57 +1,89 @@
 ---
-title: Calendar.GetWorkingHours
-second_title: Aspose.Tasks for .NET API Referansı
-description: Calendar yöntem. Belirtilen tarihler için çalışma saatlerini iade edin.
+title: "Calendar.GetWorkingHours"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Calendar yöntemi. Belirtilen tarih zaman aralığı için çalışma saatlerinin WorkUnit, Başlangıç, Bitiş ve Süresini döndürür."
 type: docs
-weight: 200
+weight: 220
 url: /tr/net/aspose.tasks/calendar/getworkinghours/
 ---
 ## GetWorkingHours(DateTime, DateTime) {#getworkinghours}
 
-Belirtilen tarihler için çalışma saatlerini iade edin.
+WorkUnit'i döndürür - Belirtilen tarih saat aralığı için çalışma saatlerinin Başlangıç, Bitiş ve Süresi.
 
 ```csharp
 public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| start | DateTime | Başlangıç tarihi. |
-| finish | DateTime | Bitiş tarihi. |
+| başlangıç | DateTime | Aralığın başlangıç tarihi. |
+| bitiş | DateTime | Aralığın bitiş tarihi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Çalışma saatleri.
+[`WorkUnit`](../../workunit/) sınıfının, çalışma saatlerinin Başlangıç, Bitiş ve Süresini içeren örneği.
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli tarihler için çalışma saatlerini almanın nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// Belirli bir tarih için çalışma saatlerini al.
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+// 16 saat yazdırılacak
+Console.WriteLine(workUnit.WorkingHours);
+```
+
+### Ayrıca Bakınız
 
 * class [WorkUnit](../../workunit/)
 * class [Calendar](../)
-* ad alanı [Aspose.Tasks](../../calendar/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetWorkingHours(DateTime) {#getworkinghours_1}
 
-Tarihteki çalışma saatlerinin miktarını döndürür.
+Belirtilen tarihteki çalışma saatlerinin miktarını döndürür.
 
 ```csharp
 public TimeSpan GetWorkingHours(DateTime dt)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| dt | DateTime | Çalışma saatlerinin alınacağı tarih. |
+| dt | DateTime | Çalışma saatlerini almak için tarih. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Çalışma saatleri.
+Belirtilen tarihteki çalışma saatleri.
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli bir tarih için çalışma saatlerini almanın nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// Belirli bir tarih için çalışma saatlerini al.
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 10));
+
+// 8 saat yazdırılacak
+Console.WriteLine(workingHours.Hours);
+```
+
+### Ayrıca Bakınız
 
 * class [Calendar](../)
-* ad alanı [Aspose.Tasks](../../calendar/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

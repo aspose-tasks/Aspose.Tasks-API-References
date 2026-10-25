@@ -1,7 +1,7 @@
 ---
-title: Task.Duration
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Süre değerini alır veya ayarlar.
+title: "Task.Duration"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Süre değerini alır veya ayarlar"
 type: docs
 weight: 330
 url: /tr/net/aspose.tasks/task/duration/
@@ -14,11 +14,11 @@ Süre değerini alır veya ayarlar.
 public Duration Duration { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.ActualLaborUnits
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Fiili emek birimlerinin değerini alır.
+title: "PrimaveraTaskProperties.ActualLaborUnits"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Gerçek iş birimlerinin değerini alır"
 type: docs
-weight: 20
+weight: 50
 url: /tr/net/aspose.tasks/primaverataskproperties/actuallaborunits/
 ---
 ## PrimaveraTaskProperties.ActualLaborUnits property
 
-Fiili emek birimlerinin değerini alır.
+Gerçek işçilik birimlerinin değerini alır.
 
 ```csharp
 public double ActualLaborUnits { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

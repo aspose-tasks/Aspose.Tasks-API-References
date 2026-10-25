@@ -1,25 +1,39 @@
 ---
-title: Rsc.MaxUnits
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Geçerli zaman diliminde herhangi bir görevi gerçekleştirmek için bir kaynağın kullanılabilir olduğu maksimum kapasiteyi temsil eden maksimum birim sayısı.
+title: "Rsc.MaxUnits"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Bir kaynağın mevcut olduğu ve mevcut zaman diliminde herhangi bir görevi yerine getirebileceği maksimum kapasiteyi temsil eden birimlerin maksimum sayısı"
 type: docs
 weight: 450
 url: /tr/net/aspose.tasks/rsc/maxunits/
 ---
 ## Rsc.MaxUnits field
 
-Geçerli zaman diliminde herhangi bir görevi gerçekleştirmek için bir kaynağın kullanılabilir olduğu maksimum kapasiteyi temsil eden maksimum birim sayısı.
+Kaynağın mevcut zaman diliminde herhangi bir görevi yerine getirebilmesi için mevcut olduğu maksimum kapasiteyi temsil eden birimlerin en fazla sayısı.
 
 ```csharp
 public static readonly Key<double, RscKey> MaxUnits;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Rsc.MaxUnits özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.MaxUnits, 2);
+
+Console.WriteLine("Max Units: " + resource.Get(Rsc.MaxUnits));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

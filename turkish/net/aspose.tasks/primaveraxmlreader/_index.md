@@ -1,35 +1,51 @@
 ---
-title: Class PrimaveraXmlReader
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.PrimaveraXmlReader sınıf. Primavera Xml dosyasından Proje UIDlerini almaya izin veren bir okuyucuyu temsil eder.
+title: "PrimaveraXmlReader sınıfı"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.PrimaveraXmlReader sınıfı. Primavera Xml dosyasından Proje UID'lerini almayı sağlayan bir okuyucu temsil eder"
 type: docs
-weight: 1160
+weight: 1400
 url: /tr/net/aspose.tasks/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader class
 
-Primavera Xml dosyasından Proje UID'lerini almaya izin veren bir okuyucuyu temsil eder.
+Primavera Xml dosyasından Proje UID'lerini almayı sağlayan bir okuyucuyu temsil eder.
 
 ```csharp
-public class PrimaveraXmlReader
+public class PrimaveraXmlReader : PrimaveraBaseReader
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [PrimaveraXmlReader](primaveraxmlreader/#constructor)(Stream) | Yeni bir örneğini başlatır.`PrimaveraXmlReader` sınıf. |
-| [PrimaveraXmlReader](primaveraxmlreader/#constructor_1)(string) | Yeni bir örneğini başlatır.`PrimaveraXmlReader` sınıf. |
+| [PrimaveraXmlReader](primaveraxmlreader/#constructor)(Stream) | `PrimaveraXmlReader` sınıfının yeni bir örneğini başlatır. |
+| [PrimaveraXmlReader](primaveraxmlreader/#constructor_1)(string) | `PrimaveraXmlReader` sınıfının yeni bir örneğini başlatır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [GetProjectUids](../../aspose.tasks/primaveraxmlreader/getprojectuids/)() | Projelerin benzersiz tanımlayıcılarının bir listesini döndürür. |
+| [GetProjectInfos](../../aspose.tasks/primaverabasereader/getprojectinfos/)() | Projenin kısa bilgi nesnelerinin bir listesini döndür. |
+| [GetProjectUids](../../aspose.tasks/primaverabasereader/getprojectuids/)() | Projelerin benzersiz tanımlayıcılarının bir listesini döndür. |
+| virtual [LoadProject](../../aspose.tasks/primaverabasereader/loadproject/)(int) | Belirtilen benzersiz tanımlayıcıya sahip projeyi yükler. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Bir Primavera XML dosyasından kısa projelerin bilgilerini nasıl inceleyeceğinizi gösterir.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "MultiprojectWithExternal.xml");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+```
+
+### Ayrıca Bakınız
+
+* class [PrimaveraBaseReader](../primaverabasereader/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

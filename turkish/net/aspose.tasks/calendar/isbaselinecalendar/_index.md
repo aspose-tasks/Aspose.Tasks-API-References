@@ -1,23 +1,35 @@
 ---
-title: Calendar.IsBaselineCalendar
-second_title: Aspose.Tasks for .NET API Referansı
-description: Calendar mülk. Takvimin temel bir takvim olup olmadığını gösteren bir değer alır veya ayarlar.
+title: "Calendar.IsBaselineCalendar"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Calendar özelliği. Takvimin temel takvim (baseline) olup olmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.tasks/calendar/isbaselinecalendar/
 ---
 ## Calendar.IsBaselineCalendar property
 
-Takvimin temel bir takvim olup olmadığını gösteren bir değer alır veya ayarlar.
+Takvimin temel çizgi takvimi olup olmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public bool IsBaselineCalendar { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir takvimin temel takvim olup olmadığını kontrol etmenin nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "IsBaselineCalendar.mpp");
+
+var calendar = project.Calendars.GetByUid(3);
+
+Console.WriteLine("Is baseline calendar: " + calendar.IsBaselineCalendar);
+```
+
+### Ayrıca Bakınız
 
 * class [Calendar](../)
-* ad alanı [Aspose.Tasks](../../calendar/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Project.Guid
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Bir Guid. değeri alır veya ayarlar.
+title: "Project.Guid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. Guid değerini alır veya ayarlar"
 type: docs
-weight: 450
+weight: 470
 url: /tr/net/aspose.tasks/project/guid/
 ---
 ## Project.Guid property
 
-Bir Guid. değeri alır veya ayarlar.
+Guid değerini alır veya ayarlar.
 
 ```csharp
 public Guid Guid { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

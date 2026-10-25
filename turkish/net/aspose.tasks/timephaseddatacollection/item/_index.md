@@ -1,32 +1,32 @@
 ---
-title: TimephasedDataCollection.Item
-second_title: Aspose.Tasks for .NET API Referansı
-description: TimephasedDataCollection mülk. Belirtilen dizindeki öğeyi döndürür. Ayarlanan erişimci desteklenmiyor. Zaman aşamalı verileri ayarlamak için özelliği.
+title: "TimephasedDataCollection.Item"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TimephasedDataCollection özelliği. Belirtilen indeksteki öğeyi döndürür. Ayarlama erişimcisi desteklenmez. zaman aşamalı veri ayarlamak için özellik"
 type: docs
-weight: 40
+weight: 30
 url: /tr/net/aspose.tasks/timephaseddatacollection/item/
 ---
 ## TimephasedDataCollection indexer
 
-Belirtilen dizindeki öğeyi döndürür. Ayarlanan erişimci desteklenmiyor. Zaman aşamalı verileri ayarlamak için özelliği.
+Belirtilen indeksteki öğeyi döndürür. set erişicisi desteklenmez. timephased veriyi ayarlamak için özellik.
 
 ```csharp
 public TimephasedData this[int index] { get; set; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| index | Alınacak öğenin sıfır tabanlı dizini. |
+| indeks | Alınacak öğenin sıfır tabanlı indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen dizindeki öğe.
+belirtilen indeksteki öğe.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* ad alanı [Aspose.Tasks](../../timephaseddatacollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

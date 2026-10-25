@@ -1,24 +1,24 @@
 ---
-title: Project.HonorConstraints
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. HonorConstraintsin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.HonorConstraints"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. HonorConstraints'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
-weight: 460
+weight: 480
 url: /tr/net/aspose.tasks/project/honorconstraints/
 ---
 ## Project.HonorConstraints property
 
-HonorConstraints'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+HonorConstraints'ın ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool HonorConstraints { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

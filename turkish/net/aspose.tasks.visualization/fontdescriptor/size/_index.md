@@ -1,7 +1,7 @@
 ---
-title: FontDescriptor.Size
-second_title: Aspose.Tasks for .NET API Referansı
-description: FontDescriptor mülk. Yazı tipinin boyutunu alır.
+title: "FontDescriptor.Size"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "FontDescriptor özelliği. Yazı tipinin boyutunu alır."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.visualization/fontdescriptor/size/
@@ -14,10 +14,10 @@ Yazı tipinin boyutunu alır.
 public float Size { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [FontDescriptor](../)
-* ad alanı [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

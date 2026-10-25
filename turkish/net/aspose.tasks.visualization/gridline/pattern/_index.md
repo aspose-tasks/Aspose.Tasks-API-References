@@ -1,24 +1,46 @@
 ---
-title: Gridline.Pattern
-second_title: Aspose.Tasks for .NET API Referansı
-description: Gridline mülk. Şunu alır veya ayarlarLinePattern bir kılavuz çizgisinin.
+title: "Gridline.Pattern"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Gridline özelliği. Bir ızgara çizgisinin LinePattern'ını alır veya ayarlar."
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks.visualization/gridline/pattern/
 ---
 ## Gridline.Pattern property
 
-Şunu alır veya ayarlar:[`LinePattern`](../../linepattern/) bir kılavuz çizgisinin.
+Bir ızgara çizgisinin [`LinePattern`](../../linepattern/) değerini alır veya ayarlar.
 
 ```csharp
 public LinePattern Pattern { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Izgara çizgileriyle çalışmayı görsel formatlarda kaydederken nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+var gridline = new Gridline
+{
+    // ızgara çizgi tipini ayarla (<see cref=\"P:Aspose.Tasks.Visualization.Gridline.GridlineType\" />).
+    GridlineType = GridlineType.GanttRow, 
+    // <see cref=\"T:Aspose.Tasks.Visualization.LinePattern\" /> bir ızgara çizgi için ayarla.
+    Pattern = LinePattern.Dashed
+};
+
+options.Gridlines = new List<Gridline>();
+options.Gridlines.Add(gridline);
+
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles_out.png", options);
+```
+
+### Ayrıca Bakınız
 
 * enum [LinePattern](../../linepattern/)
 * class [Gridline](../)
-* ad alanı [Aspose.Tasks.Visualization](../../gridline/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridline/)
+* assembly [Aspose.Tasks](../../../)
 
 

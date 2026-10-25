@@ -1,23 +1,23 @@
 ---
-title: Resource.RemainingCost
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. RemainingCost. değerini alır veya ayarlar.
+title: "Resource.RemainingCost"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Değer alır veya ayarlar, RemainingCost değerini"
 type: docs
-weight: 670
+weight: 660
 url: /tr/net/aspose.tasks/resource/remainingcost/
 ---
 ## Resource.RemainingCost property
 
-RemainingCost. değerini alır veya ayarlar.
+RemainingCost değerini alır veya ayarlar.
 
 ```csharp
 public decimal RemainingCost { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

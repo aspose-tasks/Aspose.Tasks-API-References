@@ -1,54 +1,85 @@
 ---
-title: Enum GroupOn
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.GroupOn Sıralama. Gruplama türünü belirtir.
+title: "Enum GroupOn"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.GroupOn enum. Gruplandırma türünü belirtir"
 type: docs
-weight: 750
+weight: 810
 url: /tr/net/aspose.tasks/groupon/
 ---
 ## GroupOn enumeration
 
-Gruplama türünü belirtir.
+Gruplamanın türünü belirtir.
 
 ```csharp
 public enum GroupOn
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| DateDay | `13` | Tarihe ve güne göre grup. |
-| DateEachValue | `10` | Her değer için tarihteki grup. |
-| DateHour | `12` | Tarihte saate göre gruplandırın. |
-| DateMinute | `11` | Tarihte dakikaya göre gruplandırın. |
-| DateMonth | `16` | Tarihte aya göre gruplandırın. |
-| DateQtr | `17` | Çeyreğe göre tarihte grup. |
-| DateThirdOfMonth | `15` | Her ayın üçte birine kadar tarihte gruplandırın. |
-| DateWeek | `14` | Tarihe göre haftaya göre gruplandırın. |
-| DateYear | `18` | Yıla göre tarihte grup. |
-| DurationDays | `23` | Günlere göre süreye göre gruplandırın. |
-| DurationEachValue | `20` | Her değer için süre üzerinde grup. |
-| DurationHours | `22` | Süreye göre gruplandır. |
-| DurationMinutes | `21` | Dakikaya göre gruplandır. |
-| DurationMonths | `25` | Süreye göre gruplandırın. |
-| DurationWeeks | `24` | Süreye göre grup haftalara göre. |
-| EachValue | `0` | Her bir değere göre gruplayın. |
-| Interval | `1` | Aralığa göre gruplandırın. |
-| OutlineEachValue | `30` | Her anahat değerinde grup. |
-| OutlineLevel | `31` | Ana hat düzeyinde grup. |
-| Pct110 | `45` | Yüzde 10'luk tamamlama artışlarıyla gruplayın. |
-| Pct125 | `44` | Yüzde 25'lik tamamlama artışlarıyla gruplayın. |
-| Pct150 | `43` | Yüzde 50 tamamlama artışına göre gruplayın. |
-| Pct199 | `42` | Yüzde 99 tamamlanma oranıyla gruplayın. |
-| PctEachValue | `40` | Her değerin yüzdesi üzerinden grup. |
-| PctInterval | `41` | Yüzde. aralığında grup |
-| TextEachValue | `50` | Her metin değerinde grup. |
-| TextPrefix | `51` | Metin öneki üzerinde grup. |
+| DateDay | `13` | Tarihe göre günü grupla. |
+| DateEachValue | `10` | Tarihe göre her değer için grupla. |
+| DateHour | `12` | Tarihi saate göre grupla. |
+| DateMinute | `11` | Tarihi dakikaya göre grupla. |
+| DateMonth | `16` | Tarihi aya göre grupla. |
+| DateQtr | `17` | Tarihi çeyreğe göre grupla. |
+| DateThirdOfMonth | `15` | Tarihi ayın her üçte birine göre grupla. |
+| DateWeek | `14` | Tarihi haftaya göre grupla. |
+| DateYear | `18` | Tarihi yıla göre grupla. |
+| DurationDays | `23` | Süreyi günlere göre grupla. |
+| DurationEachValue | `20` | Süreyi her değer için grupla. |
+| DurationHours | `22` | Süreyi saatlere göre grupla. |
+| DurationMinutes | `21` | Süreyi dakikalara göre grupla. |
+| DurationMonths | `25` | Süreyi aylara göre grupla. |
+| DurationWeeks | `24` | Süreyi haftalara göre grupla. |
+| EachValue | `0` | Her değere göre grupla. |
+| Interval | `1` | Aralığa göre grupla. |
+| OutlineEachValue | `30` | Her anahat değerine göre grupla. |
+| OutlineLevel | `31` | Anahat seviyesine göre grupla. |
+| Pct110 | `45` | %10 tamamlama artışına göre grupla. |
+| Pct125 | `44` | %25 tamamlama artışına göre grupla. |
+| Pct150 | `43` | %50 tamamlama artışına göre grupla. |
+| Pct199 | `42` | %99 tamamlama oranına göre grupla. |
+| PctEachValue | `40` | Her değerin yüzdesine göre grupla. |
+| PctInterval | `41` | Aralık yüzdesine göre grupla. |
+| TextEachValue | `50` | Her metin değerine göre grupla. |
+| TextPrefix | `51` | Metin önekine göre grupla. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Bir grup kriterinin özelliklerini nasıl okuyacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var group = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Name: " + group.Name);
+Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
+
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+var criterion = group.GroupCriteria.ToList()[0];
+Console.WriteLine("Task Criterion Field: " + criterion.Field);
+Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
+Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
+Console.WriteLine("Task Criterion Font Color: " + criterion.FontColor);
+Console.WriteLine("Task Criterion Group Interval: " + criterion.GroupInterval);
+Console.WriteLine("Task Criterion Start At: " + criterion.StartAt);
+
+// Kriterin arka plan desenini okuyun.
+Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
+
+Console.WriteLine("\n*********** Retrieving Criterion's Font Information ***********");
+Console.WriteLine("Font Name: " + criterion.Font.FontFamily);
+Console.WriteLine("Font Size: " + criterion.Font.Size);
+Console.WriteLine("Font Style: " + criterion.Font.Style);
+Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

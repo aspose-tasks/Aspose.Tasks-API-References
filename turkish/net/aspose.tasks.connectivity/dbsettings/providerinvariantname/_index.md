@@ -1,23 +1,41 @@
 ---
-title: DbSettings.ProviderInvariantName
-second_title: Aspose.Tasks for .NET API Referansı
-description: DbSettings mülk. Bir örneğini almak için kullanılan sağlayıcı değişmez adını alır veya ayarlar.DbProviderFactory sınıf.  Varsayılan değerSqlClient.
+title: "DbSettings.ProviderInvariantName"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "DbSettings özelliği. DbProviderFactory sınıfının bir örneğini almak için kullanılan sağlayıcı sabit adı alır veya ayarlar. Varsayılan değer SqlClient."
 type: docs
-weight: 20
+weight: 40
 url: /tr/net/aspose.tasks.connectivity/dbsettings/providerinvariantname/
 ---
 ## DbSettings.ProviderInvariantName property
 
-Bir örneğini almak için kullanılan sağlayıcı değişmez adını alır veya ayarlar.DbProviderFactory sınıf.  Varsayılan değer:SqlClient.
+DbProviderFactory sınıfının bir örneğini elde etmek için kullanılan sağlayıcı sabit adını alır veya ayarlar. Varsayılan değer SqlClient'tır.
 
 ```csharp
 public string ProviderInvariantName { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir sağlayıcı adı kullanarak birden fazla proje içeren Primavera XML dosyasından proje nasıl okunur gösterir.
+
+```csharp
+var connectionString = "Data Source=" + DataDir + "\\PPMDBSQLite.db";
+
+// Bağlantı dizesi ve proje kimliği kullanarak Primavera DB Ayarları oluştur
+var settings = new PrimaveraDbSettings(connectionString, 4502);
+settings.ProviderInvariantName = "System.Data.SQLite";
+
+Console.WriteLine("Connection String: " + settings.ConnectionString);
+Console.WriteLine("Provider Name: " + settings.ProviderInvariantName);
+
+var project = new Project(settings);
+project.Save(OutDir + "SupportForSQLiteDatabase_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Ayrıca Bakınız
 
 * class [DbSettings](../)
-* ad alanı [Aspose.Tasks.Connectivity](../../dbsettings/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Connectivity](../../dbsettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

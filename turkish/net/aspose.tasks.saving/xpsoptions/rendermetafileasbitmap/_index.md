@@ -1,23 +1,39 @@
 ---
-title: XpsOptions.RenderMetafileAsBitmap
-second_title: Aspose.Tasks for .NET API Referansı
-description: XpsOptions mülk. Bir meta dosyasının bitmap olarak işlenip işlenmeyeceğini belirten bir değer alır veya ayarlar.
+title: "XpsOptions.RenderMetafileAsBitmap"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "XpsOptions özelliği. Bir metafilenin bitmap olarak render edilip edilmemesi gerektiğini gösteren bir değeri alır veya ayarlar."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks.saving/xpsoptions/rendermetafileasbitmap/
 ---
 ## XpsOptions.RenderMetafileAsBitmap property
 
-Bir meta dosyasının bitmap olarak işlenip işlenmeyeceğini belirten bir değer alır veya ayarlar.
+Bir metafilenin bitmap olarak render edilip edilmemesi gerektiğini gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public bool RenderMetafileAsBitmap { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Projeyi XPS dosyası olarak nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// XPS kaydetme seçenekleri oluştur ve parametreleri ayarla
+var options = new XpsOptions
+{
+    RenderMetafileAsBitmap = true
+};
+
+project.Save(OutDir + "UseSvgOptions_out.xps", options);
+```
+
+### Ayrıca Bakınız
 
 * class [XpsOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../xpsoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xpsoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

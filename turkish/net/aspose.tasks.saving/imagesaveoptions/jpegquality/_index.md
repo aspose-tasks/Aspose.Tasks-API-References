@@ -1,23 +1,40 @@
 ---
-title: ImageSaveOptions.JpegQuality
-second_title: Aspose.Tasks for .NET API Referansı
-description: ImageSaveOptions mülk. Bir JPEG kalitesi alır veya ayarlar. İzin verilen değer aralığı 0..100.
+title: "ImageSaveOptions.JpegQuality"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ImageSaveOptions özelliği. JPEG kalitesini alır veya ayarlar. İzin verilen değer aralığı 0..100'tür."
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/aspose.tasks.saving/imagesaveoptions/jpegquality/
 ---
 ## ImageSaveOptions.JpegQuality property
 
-Bir JPEG kalitesi alır veya ayarlar. İzin verilen değer aralığı 0..100.
+JPEG kalitesini alır veya ayarlar. İzin verilen değer aralığı 0..100'dür.
 
 ```csharp
 public int JpegQuality { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Çıktı JPEG dosyalarının JPEG kalitesini nasıl ayarlayacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+// JPEG kalitesini değiştirmek için ImageSaveOptions.JpegQuality özelliğini kullanabilirsiniz.
+// İzin verilen değer aralığı 0..100'tür.
+var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
+{
+    JpegQuality = 50
+};
+
+project.Save(OutDir + "SaveProjectAsJPEG_out.jpeg", options);
+```
+
+### Ayrıca Bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

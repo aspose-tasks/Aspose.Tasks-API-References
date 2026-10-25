@@ -1,23 +1,60 @@
 ---
-title: PdfDigitalSignatureDetails.Reason
-second_title: Aspose.Tasks for .NET API Referansı
-description: PdfDigitalSignatureDetails mülk. İmzalama nedenini alır veya ayarlar.
+title: "PdfDigitalSignatureDetails.Reason"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PdfDigitalSignatureDetails özelliği. İmza nedenini alır veya ayarlar"
 type: docs
 weight: 50
 url: /tr/net/aspose.tasks.saving/pdfdigitalsignaturedetails/reason/
 ---
 ## PdfDigitalSignatureDetails.Reason property
 
-İmzalama nedenini alır veya ayarlar.
+İmza nedenini alır veya ayarlar.
 
 ```csharp
 public string Reason { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+PDF dijital imza detaylarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new PdfSaveOptions();
+
+var certificate = new X509Certificate2();
+
+// PDF imza detaylarını oluştur
+var signatureDetails = new PdfDigitalSignatureDetails(
+    // sertifikayı belirt
+    certificate, 
+    // imzalama nedenini belirt
+    "reason",
+    // imzalama konumunu belirt
+    "location", 
+    // imzalama tarihini belirt
+    new DateTime(2019, 1, 1), 
+    // imzalama için bir hash algoritması belirt
+    PdfDigitalSignatureHashAlgorithm.Sha1);
+
+Console.WriteLine("Certificate: " + signatureDetails.Certificate);
+Console.WriteLine("Reason: " + signatureDetails.Reason);
+Console.WriteLine("Location: " + signatureDetails.Location);
+Console.WriteLine("Signature Date: " + signatureDetails.SignatureDate);
+Console.WriteLine("Hash Algorithm: " + signatureDetails.HashAlgorithm);
+
+// dijital imza detaylarını ayarla
+options.DigitalSignatureDetails = signatureDetails;
+
+// belirtilen şifreleme ayrıntılarıyla projeyi kaydet
+project.Save(OutDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Tasks.Saving](../../pdfdigitalsignaturedetails/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfdigitalsignaturedetails/)
+* assembly [Aspose.Tasks](../../../)
 
 

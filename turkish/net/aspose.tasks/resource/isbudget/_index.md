@@ -1,24 +1,24 @@
 ---
-title: Resource.IsBudget
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. IsBudgetın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Resource.IsBudget"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. IsBudget'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
 weight: 420
 url: /tr/net/aspose.tasks/resource/isbudget/
 ---
 ## Resource.IsBudget property
 
-IsBudget'ın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+IsBudget'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool IsBudget { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

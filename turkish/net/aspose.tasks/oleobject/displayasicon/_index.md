@@ -1,23 +1,66 @@
 ---
-title: OleObject.DisplayAsIcon
-second_title: Aspose.Tasks for .NET API Referansı
-description: OleObject mülk. OLE nesnesinin bir simge veya onun normal resmi olarak gösterilmesi gerektiğini belirten bir bayrak alır veya ayarlar.
+title: "OleObject.DisplayAsIcon"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "OleObject özelliği. OLE nesnesinin bir simge olarak mı yoksa normal resmi olarak mı gösterileceğini belirten bir bayrağı alır veya ayarlar."
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks/oleobject/displayasicon/
 ---
 ## OleObject.DisplayAsIcon property
 
-OLE nesnesinin bir simge veya onun normal resmi olarak gösterilmesi gerektiğini belirten bir bayrak alır veya ayarlar.
+OLE nesnesinin bir simge olarak mı yoksa normal resmi olarak mı gösterileceğini belirten bayrağı alır veya ayarlar.
 
 ```csharp
 public bool DisplayAsIcon { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+OLE nesneleri hakkında bilgi okumanın nasıl yapılacağını gösterir.
+
+```csharp
+[Test]
+public void WorkWithOleObject()
+{
+    var images = new Project(DataDir + "TaskImage2010.mpp");
+    List<OleObject> oleObjects = images.OleObjects.ToList();
+
+    Console.WriteLine("Ole Objects Count: " + oleObjects.Count);
+    foreach (var oleObject in oleObjects)
+    {
+        Console.WriteLine(" Id: " + oleObject.Id);
+        Console.WriteLine(" Name: " + oleObject.Name);
+        Console.WriteLine(" DisplayAsIcon: " + oleObject.DisplayAsIcon);
+        Console.WriteLine(" Application Name: " + oleObject.ApplicationName);
+        Console.WriteLine(" File Format: " + oleObject.FileFormat);
+        Console.WriteLine(" Label: " + oleObject.Label);
+        Console.WriteLine(" Full Path: " + oleObject.FullPath);
+        Console.WriteLine(" Is Linked: " + oleObject.Linked);
+        Console.WriteLine(" View Name: " + oleObject.View.Name);
+        Console.WriteLine(" Content (first 10 bytes): " + this.Get10Bytes(oleObject));
+    }
+}
+
+private string Get10Bytes(OleObject oleObject)
+{
+    byte[] bytes = oleObject.Content;
+    var chunk = new byte[10];
+    Array.Copy(bytes, chunk, 10);
+    var builder = new StringBuilder();
+    foreach (var b in chunk)
+    {
+        builder.Append(b + ", ");
+    }
+
+    builder.Remove(builder.Length - 3, 1);
+    return builder.ToString();
+}
+```
+
+### Ayrıca Bakınız
 
 * class [OleObject](../)
-* ad alanı [Aspose.Tasks](../../oleobject/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../oleobject/)
+* assembly [Aspose.Tasks](../../../)
 
 

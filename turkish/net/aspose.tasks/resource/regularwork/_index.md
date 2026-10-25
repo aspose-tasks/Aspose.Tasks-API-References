@@ -1,24 +1,24 @@
 ---
-title: Resource.RegularWork
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. RegularWork. değerini alır veya ayarlar.
+title: "Kaynak.RegularWork"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Kaynak özelliği. RegularWork için bir değeri alır veya ayarlar."
 type: docs
-weight: 660
+weight: 650
 url: /tr/net/aspose.tasks/resource/regularwork/
 ---
 ## Resource.RegularWork property
 
-RegularWork. değerini alır veya ayarlar.
+RegularWork değerini alır veya ayarlar.
 
 ```csharp
 public Duration RegularWork { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

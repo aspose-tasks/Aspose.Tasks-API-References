@@ -1,27 +1,85 @@
 ---
-title: OutlineValue.IsCollapsed
-second_title: Aspose.Tasks for .NET API Referansı
-description: OutlineValue mülk. Ana hat değerinin daraltılıp daraltılmadığını gösteren bir değer alır veya ayarlar.
+title: "OutlineValue.IsCollapsed"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "OutlineValue özelliği. Outline değerinin daraltılmış olup olmadığını gösteren bir değeri alır veya ayarlar."
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks/outlinevalue/iscollapsed/
 ---
 ## OutlineValue.IsCollapsed property
 
-Ana hat değerinin daraltılıp daraltılmadığını gösteren bir değer alır veya ayarlar.
+Taslak değerinin daraltılmış olup olmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public bool IsCollapsed { get; set; }
 ```
 
-### Notlar
+## Açıklamalar
 
 Bu, MS Project 2010 özelliği için yenidir.
 
-### Ayrıca bakınız
+## Örnekler
+
+Taslak değerlerle nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+var outline2 = new OutlineCodeDefinition();
+outline2.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline2.Alias = "My Outline Code 2";
+
+project.OutlineCodes.Add(outline);
+
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+outline.Masks.Add(mask);
+
+// bir taslak değer oluştur
+var value = new OutlineValue();
+
+// gerçek değeri ayarla
+value.Value = "Text value 1";
+
+// bir proje içinde taslak kod değerinin benzersiz kimliğini ayarla
+value.ValueId = 1;
+
+// tüm projedeki diğer değerler arasında bu değeri tanımlayan bir GUID al
+Console.WriteLine("Check value GUID: " + value.ValueGuid);
+
+// taslak kod türünü ayarla
+value.Type = OutlineValueType.Text;
+
+// taslak değerin açıklamasını ayarla
+value.Description = "Text value descr 1";
+
+// taslak değerin daraltılmış olup olmadığını gösteren bir değer ayarla
+value.IsCollapsed = false;
+
+// üst değer kimliğini kontrol et
+Console.WriteLine("Check parent value id: " + value.ParentValueId);
+outline.Values.Add(value);
+
+// süre ile bir taslak değer oluştur
+var value2 = new OutlineValue();
+
+// süre değerini ayarla
+value2.DurationValue = project.GetDuration(1, TimeUnitType.Hour);
+
+// bir proje içinde taslak kod değerinin benzersiz kimliğini ayarla
+value2.ValueId = 2;
+outline2.Values.Add(value2);
+
+// ...
+```
+
+### Ayrıca Bakınız
 
 * class [OutlineValue](../)
-* ad alanı [Aspose.Tasks](../../outlinevalue/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinevalue/)
+* assembly [Aspose.Tasks](../../../)
 
 

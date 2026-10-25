@@ -1,29 +1,29 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.HorizontalAlignment Sıralama. Bir nesnenin veya metnin başka bir nesneye göre yatay olarak nasıl hizalanacağını belirtir.
+title: "Enum HorizontalAlignment"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.HorizontalAlignment enum. Bir nesnenin veya metnin başka bir nesneye göre yatay olarak nasıl hizalandığını belirtir."
 type: docs
-weight: 2810
+weight: 3140
 url: /tr/net/aspose.tasks.visualization/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-Bir nesnenin veya metnin başka bir nesneye göre yatay olarak nasıl hizalanacağını belirtir.
+Bir nesnenin veya metnin başka bir nesneye göre yatay olarak nasıl hizalandığını belirtir.
 
 ```csharp
 public enum HorizontalAlignment
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Left | `0` | Nesne, hedef öğenin solunda hizalanır. |
-| Right | `1` | Nesne, hedef öğenin sağına hizalanmıştır. |
+| Left | `0` | Nesne, hedef öğenin solunda hizalanmıştır. |
+| Right | `1` | Nesne, hedef öğenin sağında hizalanmıştır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

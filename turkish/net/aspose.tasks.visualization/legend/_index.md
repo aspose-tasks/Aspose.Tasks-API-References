@@ -1,30 +1,30 @@
 ---
-title: Enum Legend
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.Legend Sıralama. Göstergenin göründüğü sayfaları belirtir.
+title: "Enum Legend"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.Legend enum. Görünümler efsanesini oluştururken kullanılan olası seçenekleri belirtir."
 type: docs
-weight: 2840
+weight: 3180
 url: /tr/net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration
 
-Göstergenin göründüğü sayfaları belirtir.
+Görünümün lejandını oluştururken kullanılan olası seçenekleri belirtir.
 
 ```csharp
 public enum Legend
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| NoLegend | `0` | Açıklama yok. |
-| AfterLastPage | `1` | Açıklama son sayfadan sonra görünür. |
-| OnEveryPage | `2` | Açıklama her sayfada görünür. |
+| NoLegend | `0` | Hiçbir başlık render edilmez. |
+| AfterLastPage | `1` | Başlık, projenin sayfalarının son sayfasından sonra ayrı bir sayfada render edilir. |
+| OnEveryPage | `2` | Başlık her sayfada render edilir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

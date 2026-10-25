@@ -1,26 +1,40 @@
 ---
-title: Tsk.IsPublished
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Geçerli görevin projenin geri kalanıyla birlikte Project Serverda yayımlanıp yayınlanmayacağını belirler.
+title: "Tsk.IsPublished"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Mevcut görevin, projenin geri kalanıyla birlikte Project Server'a yayınlanıp yayınlanmayacağını belirler"
 type: docs
-weight: 670
+weight: 660
 url: /tr/net/aspose.tasks/tsk/ispublished/
 ---
 ## Tsk.IsPublished field
 
-Geçerli görevin, projenin geri kalanıyla birlikte Project Server'da yayımlanıp yayınlanmayacağını belirler.
+Mevcut görevin, projenin geri kalanıyla birlikte Project Server'a yayınlanıp yayınlanmayacağını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsPublished;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.IsPublished özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsPublished, true);
+
+Console.WriteLine("Is Published: " + task.Get(Tsk.IsPublished));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

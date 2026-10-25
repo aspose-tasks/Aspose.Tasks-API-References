@@ -1,27 +1,40 @@
 ---
-title: Gridline.GetHashCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: Gridline yöntem. Örneği için bir karma kod değeri döndürürGridline sınıf.
+title: "Gridline.GetHashCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Gridline yöntemi. Gridline sınıfının örneği için bir hash kodu değeri döndürür."
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks.visualization/gridline/gethashcode/
 ---
 ## Gridline.GetHashCode method
 
-Örneği için bir karma kod değeri döndürür[`Gridline`](../) sınıf.
+Bir [`Gridline`](../) sınıfının örneği için bir karma kod değeri döndürür.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 bu nesne için bir karma kod değeri döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir gridline'ın karma kodunun nasıl alınacağını gösterir.
+
+```csharp
+var gridline1 = new Gridline();
+var gridline2 = new Gridline();
+
+// Bir gridline'ın karma kodu iç dahili GUID alanına dayanır. 
+Console.WriteLine("Gridline 1 Hash Code: {0}", gridline1.GetHashCode());
+Console.WriteLine("Gridline 2 Hash Code: {0}", gridline2.GetHashCode());
+```
+
+### Ayrıca Bakınız
 
 * class [Gridline](../)
-* ad alanı [Aspose.Tasks.Visualization](../../gridline/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridline/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,113 +1,127 @@
 ---
-title: Enum RscKey
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.RscKey Sıralama. Desteklenen kaynak alanlarının listesini temsil eder.
+title: "RscKey enumı"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.RscKey enum. Desteklenen kaynak alanlarının bir listesini temsil eder"
 type: docs
-weight: 1710
+weight: 1970
 url: /tr/net/aspose.tasks/rsckey/
 ---
 ## RscKey enumeration
 
-Desteklenen kaynak alanlarının listesini temsil eder.
+Desteklenen kaynak alanlarının bir listesini temsil eder.
 
 ```csharp
-public enum RscKey
+public enum RscKey : byte
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Name | `0` | Ad (Kaynak) alanını temsil eder. |
-| AccrueAt | `1` | (Kaynak) Yerinde Birikme alanını temsil eder. |
-| ActualCost | `2` | Fiili Maliyet (Kaynak) alanını temsil eder. |
-| ActualOvertimeCost | `3` | Fiili Fazla Mesai Maliyeti (Kaynak) alanını temsil eder. |
-| ActualOvertimeWork | `4` | Fiili Fazla Mesai (Kaynak) alanını temsil eder. |
-| ActualOvertimeWorkProtected | `5` | Korunan Fiili Fazla Mesai (Kaynak) alanını temsil eder. |
-| ActualWork | `6` | Fiili Çalışma (Kaynak) alanını temsil eder. |
-| ActualWorkProtected | `7` | Korunan Fiili Çalışma (Kaynak) alanını temsil eder. |
-| ACWP | `8` | ACWP (Kaynak) alanını temsil eder. |
+| Name | `0` | Ad (Resource) alanını temsil eder. |
+| AccrueAt | `1` | Accrue At (Resource) alanını temsil eder. |
+| ActualCost | `2` | Actual Cost (Resource) alanını temsil eder. |
+| ActualOvertimeCost | `3` | Actual Overtime Cost (Resource) alanını temsil eder. |
+| ActualOvertimeWork | `4` | Actual Overtime Work (Resource) alanını temsil eder. |
+| ActualOvertimeWorkProtected | `5` | Actual Overtime Work Protected (Resource) alanını temsil eder. |
+| ActualWork | `6` | Actual Work (Resource) alanını temsil eder. |
+| ActualWorkProtected | `7` | Actual Work Protected (Resource) alanını temsil eder. |
+| ACWP | `8` | ACWP (Resource) alanını temsil eder. |
 | AssignmentOwner | `9` | Atama Sahibi (Kaynak) alanını temsil eder. |
-| AssignmentOwnerGuid | `10` | Atama Sahibi Kılavuzu (Kaynak) alanını temsil eder. |
-| AssignmentUnits | `11` | Atama Birimleri (Kaynak) alanını temsil eder. |
-| AvailableFrom | `12` | Şuradan Kullanılabilir (Kaynak) alanını temsil eder. |
-| AvailableTo | `13` | Kullanılabilir (Kaynak) alanını temsil eder. |
-| ActiveDirectoryGuid | `14` | Active Directory Kılavuzu (Kaynak) alanını temsil eder. |
+| AssignmentOwnerGuid | `10` | Atama Sahibi Guid (Kaynak) alanını temsil eder. |
+| AssignmentUnits | `11` | Assignment Units (Resource) alanını temsil eder. |
+| AvailableFrom | `12` | Available From (Resource) alanını temsil eder. |
+| AvailableTo | `13` | Available To (Resource) alanını temsil eder. |
+| ActiveDirectoryGuid | `14` | Active Directory Guid (Kaynak) alanını temsil eder. |
 | BaseCalendar | `15` | Temel Takvim (Kaynak) alanını temsil eder. |
-| BCWP | `16` | GÇBM (Kaynak) alanını temsil eder. |
-| BCWS | `17` | ZÇBM (Kaynak) alanını temsil eder. |
-| BookingType | `18` | Ayırma Türü (Kaynak) alanını temsil eder. |
-| BudgetWork | `19` | Bütçe Çalışması (Kaynak) alanını temsil eder. |
-| BudgetCost | `20` | Bütçe Maliyeti (Kaynak) alanını temsil eder. |
-| Calendar | `21` | Takvim GUID (Kaynak) alanını temsil eder. |
-| CanLevel | `22` | Yapabilir Düzey (Kaynak) alanını temsil eder. |
-| Code | `23` | Kod (Kaynak) alanını temsil eder. |
-| Confirmed | `24` | Onaylanmış (Kaynak) alanını temsil eder. |
+| BCWP | `16` | BCWP (Resource) alanını temsil eder. |
+| BCWS | `17` | BCWS (Resource) alanını temsil eder. |
+| BookingType | `18` | Booking Type (Resource) alanını temsil eder. |
+| BudgetWork | `19` | Budget Work (Resource) alanını temsil eder. |
+| BudgetCost | `20` | Budget Cost (Resource) alanını temsil eder. |
+| Calendar | `21` | Calendar GUID (Resource) alanını temsil eder. |
+| CanLevel | `22` | Can Level (Resource) alanını temsil eder. |
+| Code | `23` | Code (Resource) alanını temsil eder. |
+| Confirmed | `24` | Onaylanan (Kaynak) alanını temsil eder. |
 | Cost | `25` | Maliyet (Kaynak) alanını temsil eder. |
 | CostCenter | `26` | Maliyet Merkezi (Kaynak) alanını temsil eder. |
 | CostPerUse | `27` | Kullanım Başına Maliyet (Kaynak) alanını temsil eder. |
-| CostRateTable | `28` | Maliyet Oranı Tablosu (Kaynak) alanını temsil eder. |
-| CostVariance | `29` | Maliyet Farkı (Kaynak) alanını temsil eder. |
+| CostRateTable | `28` | Maliyet Oran Tablosu (Kaynak) alanını temsil eder. |
+| CostVariance | `29` | Maliyet Varyansı (Kaynak) alanını temsil eder. |
 | Created | `30` | Oluşturulan (Kaynak) alanını temsil eder. |
 | CV | `31` | CV (Kaynak) alanını temsil eder. |
-| SV | `32` | SV (Kaynak) alanını temsil eder. |
+| SV | `32` | SV (Resource) alanını temsil eder. |
 | EMailAddress | `33` | E-posta Adresi (Kaynak) alanını temsil eder. |
-| IsBudget | `34` | Bütçe (Kaynak) alanını temsil eder. |
+| IsBudget | `34` | Budget (Resource) alanını temsil eder. |
 | IsGeneric | `35` | Genel (Kaynak) alanını temsil eder. |
-| IsEnterprise | `36` | Kuruluş (Kaynak) alanını temsil eder. |
-| IsCostResource | `37` | Maliyet (Kaynak) alanını temsil eder. |
-| Inactive | `38` | Etkin Olmayan (Kaynak) alanını temsil eder. |
-| Finish | `39` | Bitiş (Kaynak) alanını temsil eder. |
-| Group | `40` | Grup (Kaynak) alanını temsil eder. |
-| GroupBySummary | `41` | Özete Göre Gruplandır (Kaynak) alanını temsil eder. |
+| IsEnterprise | `36` | Kurumsal (Kaynak) alanını temsil eder. |
+| IsCostResource | `37` | Is Cost (Kaynak) alanını temsil eder. |
+| Inactive | `38` | Inactive (Kaynak) alanını temsil eder. |
+| Finish | `39` | Finish (Resource) alanını temsil eder. |
+| Group | `40` | Group (Resource) alanını temsil eder. |
+| GroupBySummary | `41` | Group by Summary (Resource) alanını temsil eder. |
 | Guid | `42` | GUID (Kaynak) alanını temsil eder. |
-| Hyperlink | `43` | Köprü (Kaynak) alanını temsil eder. |
-| HyperlinkAddress | `44` | Köprü Adresi (Kaynak) alanını temsil eder. |
-| HyperlinkHref | `45` | Köprü HRef (Kaynak) alanını temsil eder. |
-| HyperlinkSubAddress | `46` | Köprü Alt Adresi (Kaynak) alanını temsil eder. |
-| Id | `47` | Kimlik (Kaynak) alanını temsil eder. |
-| Initials | `48` | Baş Harfler (Kaynak) alanını temsil eder. |
-| IsAssignment | `49` | Atama (Kaynak) alanını temsil eder. |
+| Hyperlink | `43` | Hyperlink (Resource) alanını temsil eder. |
+| HyperlinkAddress | `44` | Hyperlink Adresi (Resource) alanını temsil eder. |
+| HyperlinkHref | `45` | Hyperlink HRef (Resource) alanını temsil eder. |
+| HyperlinkSubAddress | `46` | Hyperlink Alt Adresi (Resource) alanını temsil eder. |
+| Id | `47` | ID (Resource) alanını temsil eder. |
+| Initials | `48` | İlk harfler (Resource) alanını temsil eder. |
+| IsAssignment | `49` | Is Assignment (Resource) alanını temsil eder. |
 | IsNull | `50` | IsNull alanını temsil eder. |
-| IsTeamAssignmentPool | `51` | Takım (Kaynak) alanını temsil eder. |
-| LevelingDelay | `52` | Seviyelendirme Gecikmesi (Kaynak) alanını temsil eder. |
-| LinkedFields | `53` | Bağlantılı Alanlar (Kaynak) alanını temsil eder. |
-| MaterialLabel | `54` | Malzeme Etiketi (Kaynak) alanını temsil eder. |
-| MaxUnits | `55` | Maksimum Birim (Kaynak) alanını temsil eder. |
-| Notes | `56` | Notlar (Kaynak) alanını temsil eder. |
-| NotesRTF | `57` | Notlar RTF (Kaynak) alanını temsil eder. |
-| NotesText | `58` | Notlar Metni (Kaynak) alanını temsil eder. |
-| Overallocated | `59` | Fazla Yüklenmiş (Kaynak) alanını temsil eder. |
-| OvertimeCost | `60` | Fazla Mesai Maliyeti (Kaynak) alanını temsil eder. |
-| OvertimeRate | `61` | Fazla Mesai Ücreti (Kaynak) alanını temsil eder. |
-| OvertimeRateFormat | `62` | Fazla Mesai Ücret Biçimi (Kaynak) alanını temsil eder. |
-| OvertimeWork | `63` | Fazla Mesai (Kaynak) alanını temsil eder. |
-| PeakUnits | `64` | Tepe Birimleri (Kaynak) alanını temsil eder. |
-| PercentWorkComplete | `65` | Tamamlanan Çalışma Yüzdesi (Kaynak) alanını temsil eder. |
-| Phonetics | `66` | Fonetik (Kaynak) alanını temsil eder. |
-| Project | `67` | Proje (Kaynak) alanını temsil eder. |
-| RegularWork | `68` | Normal Çalışma (Kaynak) alanını temsil eder. |
-| RemainingCost | `69` | Kalan Maliyet (Kaynak) alanını temsil eder. |
-| RemainingOvertimeCost | `70` | Kalan Fazla Mesai Maliyeti (Kaynak) alanını temsil eder. |
-| RemainingOvertimeWork | `71` | Kalan Fazla Mesai (Kaynak) alanını temsil eder. |
-| RemainingWork | `72` | Kalan Çalışma (Kaynak) alanını temsil eder. |
-| ResponsePending | `73` | Yanıt Bekliyor (Kaynak) alanını temsil eder. |
-| StandardRate | `74` | Standart Hız (Kaynak) alanını temsil eder. |
-| StandardRateFormat | `75` | Standart Hız Biçimi (Kaynak) alanını temsil eder. |
-| Start | `76` | Başlangıç (Kaynak) alanını temsil eder. |
-| Type | `77` | Tür (Kaynak) alanını temsil eder. |
-| Uid | `78` | UniqueID (Kaynak) alanını temsil eder. |
-| VAC | `79` | VAC (Kaynak) alanını temsil eder. |
-| WBS | `80` | ÇÇY (Kaynak) alanını temsil eder. |
-| WindowsUserAccount | `81` | Windows Kullanıcı Hesabı (Kaynak) alanını temsil eder. |
-| Work | `82` | Çalışma (Kaynak) alanını temsil eder. |
-| WorkContour | `83` | Çalışma Dağılımı (Kaynak) alanını temsil eder. |
-| Workgroup | `84` | Çalışma Grubu (Kaynak) alanını temsil eder. |
-| WorkVariance | `85` | Çalışma Varyansı (Kaynak) alanını temsil eder. |
+| IsTeamAssignmentPool | `51` | Is Team (Resource) alanını temsil eder. |
+| LevelingDelay | `52` | Seviye Gecikmesi (Resource) alanını temsil eder. |
+| LinkedFields | `53` | Bağlantılı Alanlar (Resource) alanını temsil eder. |
+| MaterialLabel | `54` | Malzeme Etiketi (Resource) alanını temsil eder. |
+| MaxUnits | `55` | Maksimum Birimler (Resource) alanını temsil eder. |
+| Notes | `56` | Notlar (Resource) alanını temsil eder. |
+| NotesRTF | `57` | Notes RTF (Kaynak) alanını temsil eder. |
+| NotesText | `58` | Notes Text (Kaynak) alanını temsil eder. |
+| Overallocated | `59` | Overallocated (Resource) alanını temsil eder. |
+| OvertimeCost | `60` | Overtime Cost (Resource) alanını temsil eder. |
+| OvertimeRate | `61` | Overtime Rate (Resource) alanını temsil eder. |
+| OvertimeRateFormat | `62` | Fazla Mesai Oranı Biçimi (Kaynak) alanını temsil eder. |
+| OvertimeWork | `63` | Overtime Work (Resource) alanını temsil eder. |
+| PeakUnits | `64` | Peak Units (Resource) alanını temsil eder. |
+| PercentWorkComplete | `65` | Percent Work Complete (Resource) alanını temsil eder. |
+| Phonetics | `66` | Phonetics (Resource) alanını temsil eder. |
+| Project | `67` | Project (Resource) alanını temsil eder. |
+| RegularWork | `68` | Regular Work (Resource) alanını temsil eder. |
+| RemainingCost | `69` | Remaining Cost (Resource) alanını temsil eder. |
+| RemainingOvertimeCost | `70` | Remaining Overtime Cost (Resource) alanını temsil eder. |
+| RemainingOvertimeWork | `71` | Remaining Overtime Work (Resource) alanını temsil eder. |
+| RemainingWork | `72` | Remaining Work (Resource) alanını temsil eder. |
+| ResponsePending | `73` | Response Pending (Resource) alanını temsil eder. |
+| StandardRate | `74` | Standard Rate (Resource) alanını temsil eder. |
+| StandardRateFormat | `75` | Standart Oran Biçimi (Kaynak) alanını temsil eder. |
+| Start | `76` | Start (Resource) alanını temsil eder. |
+| Type | `77` | Type (Resource) alanını temsil eder. |
+| Uid | `78` | UniqueID (Resource) alanını temsil eder. |
+| VAC | `79` | VAC (Resource) alanını temsil eder. |
+| WBS | `80` | WBS (Resource) alanını temsil eder. |
+| WindowsUserAccount | `81` | Windows User Account (Resource) alanını temsil eder. |
+| Work | `82` | Work (Resource) alanını temsil eder. |
+| WorkContour | `83` | Work Contour (Resource) alanını temsil eder. |
+| Workgroup | `84` | Workgroup (Resource) alanını temsil eder. |
+| WorkVariance | `85` | Work Variance (Resource) alanını temsil eder. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Rsc.Name özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

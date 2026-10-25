@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingLateStart
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Kalan geç başlangıç tarihini alır.
+title: "PrimaveraTaskProperties.RemainingLateStart"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Kalan geç başlangıç tarihini alır"
 type: docs
-weight: 140
+weight: 310
 url: /tr/net/aspose.tasks/primaverataskproperties/remaininglatestart/
 ---
 ## PrimaveraTaskProperties.RemainingLateStart property
 
-Kalan geç başlangıç tarihini alır.
+Kalan geç başlama tarihini alır.
 
 ```csharp
 public DateTime RemainingLateStart { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

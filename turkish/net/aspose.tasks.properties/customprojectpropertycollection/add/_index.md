@@ -1,7 +1,7 @@
 ---
-title: CustomProjectPropertyCollection.Add
-second_title: Aspose.Tasks for .NET API Referansı
-description: CustomProjectPropertyCollection yöntem. Yeni bir özel özellik oluşturur.
+title: "CustomProjectPropertyCollection.Add"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "CustomProjectPropertyCollection yöntemi. Yeni bir özel property oluşturur"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.properties/customprojectpropertycollection/add/
@@ -14,21 +14,67 @@ Yeni bir özel özellik oluşturur.
 public CustomProjectProperty Add(string name, string value)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Mülkün adı. |
-| value | String | Yeni oluşturulan özellik nesne değeri. |
+| name | Dize | Özelliğin adı. |
+| value | Dize | Yeni oluşturulan property nesnesinin değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni oluşturulan özellik nesnesi.
+Yeni oluşturulan property nesnesi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Özel proje özelliği koleksiyonlarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Yeni özel özellikler ekleyelim.
+// Koleksiyon Boolean, DateTime, Double, String türlerini destekler.
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Özel özellikler tiplenmiş koleksiyon aracılığıyla kullanılabilir.
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Bir özel özellik değerini al.
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Özel özelliklerin adları üzerinde yinele.
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Bir değer, string anahtar ile silinebilir.
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// veya koleksiyonu tamamen temizleyebilir
+project.CustomProps.Clear();
+```
+
+### Ayrıca Bakınız
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* ad alanı [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,21 +86,67 @@ Yeni bir özel özellik oluşturur.
 public CustomProjectProperty Add(string name, bool value)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Mülkün adı. |
-| value | Boolean | Yeni oluşturulan özellik nesne değeri. |
+| name | Dize | Özelliğin adı. |
+| value | Boolean | Yeni oluşturulan property nesnesinin değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni oluşturulan özellik nesnesi.
+Yeni oluşturulan property nesnesi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Özel proje özelliği koleksiyonlarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Yeni özel özellikler ekleyelim.
+// Koleksiyon Boolean, DateTime, Double, String türlerini destekler.
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Özel özellikler tiplenmiş koleksiyon aracılığıyla kullanılabilir.
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Bir özel özellik değerini al.
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Özel özelliklerin adları üzerinde yinele.
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Bir değer, string anahtar ile silinebilir.
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// veya koleksiyonu tamamen temizleyebilir
+project.CustomProps.Clear();
+```
+
+### Ayrıca Bakınız
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* ad alanı [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -66,21 +158,67 @@ Yeni bir özel özellik oluşturur.
 public CustomProjectProperty Add(string name, double value)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Mülkün adı. |
-| value | Double | Yeni oluşturulan özellik nesne değeri. |
+| name | Dize | Özelliğin adı. |
+| value | Double | Yeni oluşturulan property nesnesinin değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni oluşturulan özellik nesnesi.
+Yeni oluşturulan property nesnesi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Özel proje özelliği koleksiyonlarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Yeni özel özellikler ekleyelim.
+// Koleksiyon Boolean, DateTime, Double, String türlerini destekler.
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Özel özellikler tiplenmiş koleksiyon aracılığıyla kullanılabilir.
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Bir özel özellik değerini al.
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Özel özelliklerin adları üzerinde yinele.
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Bir değer, string anahtar ile silinebilir.
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// veya koleksiyonu tamamen temizleyebilir
+project.CustomProps.Clear();
+```
+
+### Ayrıca Bakınız
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* ad alanı [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -92,20 +230,66 @@ Yeni bir özel özellik oluşturur.
 public CustomProjectProperty Add(string name, DateTime value)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Mülkün adı. |
-| value | DateTime | Yeni oluşturulan özellik nesne değeri. |
+| name | Dize | Özelliğin adı. |
+| value | DateTime | Yeni oluşturulan property nesnesinin değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni oluşturulan özellik nesnesi.
+Yeni oluşturulan property nesnesi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Özel proje özelliği koleksiyonlarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// Yeni özel özellikler ekleyelim.
+// Koleksiyon Boolean, DateTime, Double, String türlerini destekler.
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// Özel özellikler tiplenmiş koleksiyon aracılığıyla kullanılabilir.
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// Bir özel özellik değerini al.
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// Özel özelliklerin adları üzerinde yinele.
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// Bir değer, string anahtar ile silinebilir.
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// veya koleksiyonu tamamen temizleyebilir
+project.CustomProps.Clear();
+```
+
+### Ayrıca Bakınız
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* ad alanı [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

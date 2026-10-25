@@ -1,28 +1,88 @@
 ---
-title: CalendarExceptionCollection.ToList
-second_title: Aspose.Tasks for .NET API Referansı
-description: CalendarExceptionCollection yöntem. CalendarExceptionCollection nesnesini şu listeye dönüştürürCalendarException nesneler.
+title: "CalendarExceptionCollection.ToList"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "CalendarExceptionCollection metodu. CalendarExceptionCollection nesnesini CalendarException nesnelerinin bir listesine dönüştürür."
 type: docs
 weight: 90
 url: /tr/net/aspose.tasks/calendarexceptioncollection/tolist/
 ---
 ## CalendarExceptionCollection.ToList method
 
-CalendarExceptionCollection nesnesini şu listeye dönüştürür:[`CalendarException`](../../calendarexception/) nesneler.
+CalendarExceptionCollection nesnesini [`CalendarException`](../../calendarexception/) nesnelerinin bir listesine dönüştürür.
 
 ```csharp
 public List<CalendarException> ToList()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Listesi[`CalendarException`](../../calendarexception/) nesneler.
+[`CalendarException`](../../calendarexception/) nesnelerinin listesi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Takvim istisna koleksiyonunu kullanarak takvim istisnalarını tanımlamayı gösterir.
+
+```csharp
+var project = new Project(DataDir + "project_update_test.mpp");
+var calendar = project.Calendars.GetByUid(3);
+
+calendar.Exceptions.Clear();
+Calendar.MakeStandardCalendar(calendar);
+
+var exception = new CalendarException();
+exception.FromDate = new DateTime(2020, 3, 30, 8, 0, 0);
+exception.ToDate = new DateTime(2020, 4, 3, 17, 0, 0);
+exception.DayWorking = true;
+exception.Name = "Exception 1";
+
+var wt1 = new WorkingTime(9, 13);
+var wt2 = new WorkingTime(14, 19);
+
+exception.WorkingTimes.Add(wt1);
+exception.WorkingTimes.Add(wt2);
+calendar.Exceptions.Add(exception);
+
+var nonWorkingExceptions = new CalendarException[2];
+nonWorkingExceptions[0] = new CalendarException();
+nonWorkingExceptions[0].FromDate = new DateTime(2020, 4, 13, 8, 0, 0);
+nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
+nonWorkingExceptions[0].DayWorking = false;
+nonWorkingExceptions[0].Name = "Exception 2";
+nonWorkingExceptions[1] = new CalendarException();
+nonWorkingExceptions[1].FromDate = new DateTime(2020, 4, 6, 8, 0, 0);
+nonWorkingExceptions[1].ToDate = new DateTime(2020, 4, 10, 17, 0, 0);
+nonWorkingExceptions[1].DayWorking = false;
+nonWorkingExceptions[1].Name = "Exception 3";
+calendar.Exceptions.AddRange(nonWorkingExceptions);
+
+Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
+Console.WriteLine("Exceptions count: {0}", calendar.Exceptions.Count);
+Console.WriteLine();
+foreach (var calendarException in calendar.Exceptions)
+{
+    Console.WriteLine("Name: " + calendarException.Name);
+    Console.WriteLine("From Date: " + calendarException.FromDate);
+    Console.WriteLine("To Date: " + calendarException.ToDate);
+    Console.WriteLine("Is day working: " + calendarException.DayWorking);
+    Console.WriteLine();
+}
+
+// tüm istisnaları kaldır
+Console.WriteLine("Remove calendar exceptions...");
+List<CalendarException> exceptions = calendar.Exceptions.ToList();
+foreach (var calendarException in exceptions)
+{
+    Console.WriteLine("Remove exception: " + calendarException.Name);
+    Console.WriteLine();
+    calendar.Exceptions.Remove(calendarException);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [CalendarException](../../calendarexception/)
 * class [CalendarExceptionCollection](../)
-* ad alanı [Aspose.Tasks](../../calendarexceptioncollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexceptioncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

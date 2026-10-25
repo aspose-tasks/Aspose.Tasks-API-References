@@ -1,7 +1,7 @@
 ---
-title: TaskLink.LinkLagTimeSpan
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskLink mülk. LagFormata bağlı olarak gecikme süresini alır veya ayarlar.
+title: "TaskLink.LinkLagTimeSpan"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskLink özelliği. LagFormat'a bağlı olarak gecikme süresini alır veya ayarlar"
 type: docs
 weight: 50
 url: /tr/net/aspose.tasks/tasklink/linklagtimespan/
@@ -14,20 +14,20 @@ LagFormat'a bağlı olarak gecikme süresini alır veya ayarlar.
 public TimeSpan LinkLagTimeSpan { get; set; }
 ```
 
-### istisnalar
+### İstisnalar
 
-| istisna | şart |
+| istisna | koşul |
 | --- | --- |
-| ArgumentException | LagFormat'ın TimeUnitType.Percent olduğu TaskLinks değerini ayarlamaya çalışırken. |
+| ArgumentException | LagFormat'ın TimeUnitType.Percent olduğu TaskLink'ler için değeri ayarlamaya çalışırken. |
 
-### Notlar
+## Açıklamalar
 
-Bağlantı gecikmesi bir yüzde değeri olabilir (LagFormat, TimeUnitType.Percent). Bu durumda süre, PredTask süresinin yüzdesi olarak hesaplanır. Aksi takdirde, yöntem, TaskLink'in gecikmesini temsil eden TimeSpan değerini döndürür.
+Bağlantı gecikmesi yüzde değeri olabilir (LagFormat TimeUnitType.Percent'tir). Bu durumda süre, PredTask'ın süresinin yüzde olarak hesaplanır. Aksi takdirde yöntem, TaskLink'in gecikmesini temsil eden TimeSpan değerini döndürür.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [TaskLink](../)
-* ad alanı [Aspose.Tasks](../../tasklink/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

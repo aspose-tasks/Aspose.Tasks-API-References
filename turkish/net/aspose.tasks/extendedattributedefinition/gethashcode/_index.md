@@ -1,27 +1,42 @@
 ---
-title: ExtendedAttributeDefinition.GetHashCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: ExtendedAttributeDefinition yöntem. Örneği için bir karma kod döndürürExtendedAttributeDefinition sınıf.
+title: "ExtendedAttributeDefinition.GetHashCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ExtendedAttributeDefinition yöntemi. ExtendedAttributeDefinition sınıfının örneği için bir karma kodu döndürür."
 type: docs
-weight: 320
+weight: 330
 url: /tr/net/aspose.tasks/extendedattributedefinition/gethashcode/
 ---
 ## ExtendedAttributeDefinition.GetHashCode method
 
-Örneği için bir karma kod döndürür[`ExtendedAttributeDefinition`](../) sınıf.
+[`ExtendedAttributeDefinition`](../) sınıfının örneği için bir karma kodu döndürür.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu nesne için bir karma kod.
+bu nesne için bir karma kodu.
 
-### Ayrıca bakınız
+## Örnekler
+
+Genişletilmiş bir öznitelik tanımının karma kodunu nasıl alacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+var attributeDefinition1 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Start3);
+var attributeDefinition2 = project.ExtendedAttributes.GetById((int)ExtendedAttributeTask.Duration2);
+
+// Genişletilmiş bir öznitelik tanımının karma kodu bir alan kimliğine eşittir.
+Console.WriteLine("Extended Attribute Field Id: {0} Hash Code: {1}", attributeDefinition1.FieldId, attributeDefinition1.GetHashCode());
+Console.WriteLine("Extended Attribute Field Id: {0} Hash Code: {1}", attributeDefinition2.FieldId, attributeDefinition2.GetHashCode());
+```
+
+### Ayrıca Bakınız
 
 * class [ExtendedAttributeDefinition](../)
-* ad alanı [Aspose.Tasks](../../extendedattributedefinition/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

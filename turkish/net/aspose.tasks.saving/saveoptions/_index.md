@@ -1,55 +1,75 @@
 ---
-title: Class SaveOptions
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Saving.SaveOptions sınıf. Bu kullanıcının bir projeyi belirli bir biçime kaydederken ek seçenekler belirtmesine izin veren sınıflar için soyut bir temel sınıftır.
+title: "Sınıf SaveOptions"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Saving.SaveOptions sınıfı. Bu, bir projeyi belirli bir formata kaydederken kullanıcının ek seçenekler belirtmesine izin veren sınıflar için soyut bir temel sınıftır."
 type: docs
-weight: 1920
+weight: 2190
 url: /tr/net/aspose.tasks.saving/saveoptions/
 ---
 ## SaveOptions class
 
-Bu, kullanıcının bir projeyi belirli bir biçime kaydederken ek seçenekler belirtmesine izin veren sınıflar için soyut bir temel sınıftır.
+Bu, bir projeyi belirli bir formata kaydederken kullanıcının ek seçenekleri belirtmesine izin veren sınıflar için soyut bir temel sınıftır.
 
 ```csharp
-public abstract class SaveOptions
+public abstract class SaveOptions : SimpleSaveOptions
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Örneklerin listesini alır veya ayarlar.[`BarStyle`](../../aspose.tasks.visualization/barstyle/) proje görünümünde görünen sınıf. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Nokta cinsinden özel sayfa boyutunu alır veya ayarlar (1 punto = 1/72 inç). |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Çalışma dışı zamanın çekilip çekilmeyeceğini gösteren bir değer alır veya ayarlar (Varsayılan değer DOĞRU'dur). |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | İşlemeyi bitirmek için bir tarih alır veya ayarlar. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Satır yüksekliğinin içeriğine sığması için artırılıp artırılmayacağını belirten bir değer alır veya ayarlar. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | Bir görünümün takvim bölümünün son sayfanın sonuna (sağ tarafa) işlenmesi gerekip gerekmediğini alır veya ayarlar. Değer yanlışsa, sayfada boş bir alan olsa bile takvim bölümü tam olarak EndDate'e dönüştürülür. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Bir liste alır veya ayarlar[`Gridline`](../../aspose.tasks.visualization/gridline/) proje görünümünde görünen. |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | Açıklamanın her sayfada gösterilip gösterilmeyeceğini gösteren bir değer alır veya ayarlar (Varsayılan değer DOĞRU'dur). |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Kritik görevlerin kırmızı renkte görüntülenip görüntülenmeyeceğini belirten bir değer alır veya ayarlar (Varsayılan değer FALSE'dir). |
+| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | Proje görünümünde görünen [`BarStyle`](../../aspose.tasks.visualization/barstyle/) sınıfının örneklerinin listesini alır veya ayarlar. |
+| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | Özel sayfa boyutunu nokta cinsinden alır veya ayarlar (1 nokta = inçin 1/72'si). |
+| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | Çalışma dışı zamanın çizilip çizilmeyeceğini gösteren bir değeri alır veya ayarlar (Varsayılan değer TRUE'dır). |
+| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | Render işleminin tamamlanacağı tarihi alır veya ayarlar. |
+| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | Satır yüksekliğinin içeriğe sığacak şekilde artırılıp artırılmayacağını gösteren bir değeri alır veya ayarlar. |
+| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | Proje görünümünde görünen bir [`Gridline`](../../aspose.tasks.visualization/gridline/) listesini alır veya ayarlar. |
+| [IsPortrait](../../aspose.tasks.saving/saveoptions/isportrait/) { get; set; } | Sayfa yönünün dikey olup olmadığını gösteren bir değeri alır veya ayarlar; sayfa yönü yataysa false döndürür. |
+| [LegendDrawingOptions](../../aspose.tasks.saving/saveoptions/legenddrawingoptions/) { get; set; } | Bir lejantın nasıl render edileceğini tanımlayan bir değeri alır veya ayarlar. Varsayılan değer LegendDrawingOptions.OnEveryPage'dir. |
+| [LegendItems](../../aspose.tasks.saving/saveoptions/legenditems/) { get; set; } | Sayfa lejantında hangi çubukların render edileceğini tanımlayan bir PageLegendItem dizisini alır veya ayarlar. Null ise, varsayılan öğeler render edilir. |
+| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | Kritik görevlerin kırmızı renkte gösterilip gösterilmeyeceğini belirten bir değeri alır veya ayarlar (Varsayılan değer FALSE'tır). |
 | [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | Çalışma dışı zaman rengini alır veya ayarlar. |
 | [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | Projenin sayfa sayısını alır veya ayarlar. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | İşlenecek sayfanın boyutunu alır veya ayarlar (Varsayılan değer, PageSize.A4'tür). |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Şunu alır veya ayarlar:[`PresentationFormat`](./presentationformat/) belgenin kaydedileceği yer. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Proje grafik biçiminde kaydedildiğinde, bir projenin tek bir sayfaya dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar . İşlenen projenin bir sayfaya sığabilmesi için sayfa boyutu değiştirilecektir. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Özet görev çubuğundaki alt görevlerin işaretlenip işaretlenmeyeceğini gösteren bir değer alır veya ayarlar. Alt görevler için Toplama alanı, alt görev Gantt çubuklarıyla ilgili bilgilerin özet görev çubuğuna toplanıp toplanmayacağını belirtir. Özet görevler için Toplama alanı, özet görev çubuğunun toplanmış çubukları gösterip göstermediğini belirtir. Herhangi bir alt görevin özetlenmesi için Özet görevler için Toplama alanının Evet olarak ayarlanmış olması gerekir. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi alır veya ayarlar. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | İşlemenin başlayacağı tarihi alır veya ayarlar. |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | Gantt grafiği ve Görev Sayfası grafiğindeki görevleri sıralamak için karşılaştırıcıyı alır veya ayarlar. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | Gantt, Görev Sayfası ve Görev Kullanımı çizelgelerinde işlenen görevleri filtrelemek için kullanılan koşulu alır veya ayarlar. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Örneklerin listesini alır veya ayarlar.[`TextStyle`](../../aspose.tasks.visualization/textstyle/) proje görünümünde görünen sınıf. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Şunu alır veya ayarlar:[`Timescale`](./timescale/) proje grafik biçiminde kaydedildiğinde zaman ölçeğinin (varsa) nasıl işlendiğini kontrol etmek için kullanılan değer. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Gantt Chart. oluşturulurken degrade fırçasının kullanılması gerekip gerekmediğini belirten bir değer alır veya ayarlar. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | İşlenecek görünüm sütunlarının bir listesini alır veya ayarlar ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ). Ayarlanmazsa görev kimlikleri, görev adları, başlangıç ve bitiş yalnızca işlenir. Hem Görünüm hem de[`ViewSettings`](./viewsettings/)özellikler ayarlandığında, Görünüm'deki sütunlar, ViewSettings. 'deki sütunları geçersiz kılar |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Bir görünüm alır veya ayarlar ([`View`](./view/) ) işlemek için. Hangi görünümün PDF, HTML veya Resim formatlarına kaydedileceğini açıkça belirtmek için bu seçenekleri kullanabilirsiniz. Bu özellik ayarlanırsa,[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) proje kaydedildiğinde özellik göz ardı edilir. Görünüm aşağıdaki ekranlardan birinden olmalıdır (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |
+| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | Render edilecek sayfanın boyutunu alır veya ayarlar (Varsayılan değer PageSize.A4'tür). |
+| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | Belgenin kaydedileceği [`PresentationFormat`](./presentationformat/) değerini alır veya ayarlar. |
+| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | Proje grafik formatında kaydedildiğinde tek bir sayfaya render edilip edilmeyeceğini gösteren bir değeri alır veya ayarlar. Sayfa boyutu, render edilen projenin tek bir sayfaya sığacak şekilde değiştirilecektir. |
+| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | Özet görev çubuğundaki alt görevlerin işaretlenip işaretlenmeyeceğini gösteren bir değeri alır veya ayarlar. Alt görevler için Rollup alanı, alt görev Gantt çubuklarındaki bilgilerin özet görev çubuğuna toplanıp toplanmayacağını gösterir. Özet görevler için Rollup alanı, özet görev çubuğunun toplanmış çubukları gösterip göstermediğini belirtir. Alt görevlere toplanabilmesi için özet görevlerin Rollup alanının Evet olarak ayarlanmış olması gerekir. |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi alır veya ayarlar. |
+| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | Renderlamaya başlanacak tarihi alır veya ayarlar. |
+| [TaskLinkDrawingCallback](../../aspose.tasks.saving/saveoptions/tasklinkdrawingcallback/) { get; set; } | Görev bağlantılarının renderlanmasının bazı yönlerini özelleştirmek için kullanılabilecek bir geri çağırma işlevini alır veya ayarlar. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | Gantt şeması ve Görev Sayfası şemasındaki görevleri sıralamak için karşılaştırıcıyı alır veya ayarlar. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | Gantt, Görev Sayfası ve Görev Kullanımı şemalarında renderlanan görevleri filtrelemek için kullanılan koşulu alır veya ayarlar. |
+| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | Bir proje görünümünün renderlanması sırasında uygulanan metin stillerinin listesini alır veya ayarlar. |
+| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | Proje grafik formatına kaydedildiğinde zaman ölçeğinin (varsa) nasıl render edileceğini kontrol etmek için kullanılan [`Timescale`](./timescale/) değerini alır veya ayarlar. |
+| [TimescaleFitBehavior](../../aspose.tasks.saving/saveoptions/timescalefitbehavior/) { get; set; } | Zaman ölçeğinin sağ ucunun sayfa sonu ile nasıl hizalanacağını tanımlayan davranışı alır veya ayarlar. |
+| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | Gantt Şeması render edilirken degrade fırçasının kullanılıp kullanılmayacağını belirten bir değeri alır veya ayarlar. |
+| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | Renderlenecek görünüm sütunlarının ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)) listesini alır veya ayarlar. Ayarlanmamışsa yalnızca görev kimlikleri, görev adları, başlangıç ve bitiş render edilir. Hem View hem de [`ViewSettings`](./viewsettings/) özellikleri ayarlanmışsa, View'den gelen sütunlar ViewSettings'ten gelenleri geçersiz kılar. |
+| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | Renderlenecek bir görünümü ([`View`](./view/)) alır veya ayarlar. Bu seçeneği, hangi görünümün PDF, HTML veya Image formatlarında kaydedileceğini açıkça belirtmek için kullanabilirsiniz. Bu özellik ayarlanırsa, proje kaydedildiğinde [`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) özelliği yok sayılır. Görünüm, aşağıdaki ekranlardan birine ait olmalıdır (([`Screen`](../../aspose.tasks/view/screen/))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |
 
-### Notlar
+## Açıklamalar
 
-SaveOptions sınıfından türetilmiş herhangi bir sınıfın bir örneği, kullanıcının bir belgeyi kaydederken özel seçenekler tanımlaması için Kaydet akışına veya Kaydet aşırı yüklemeleri dizesine geçirilir.
+SaveOptions sınıfından türetilen herhangi bir sınıfın bir örneği, bir belgeyi kaydederken kullanıcının özel seçenekler tanımlaması için stream Save veya string Save aşırı yüklemelerine geçirilir.
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* toplantı [Aspose.Tasks](../../)
+Satır yüksekliğinin içeriğine uyacak şekilde artırılıp artırılmayacağını ayarlama seçeneğinin nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    // İçeriği sığdırma seçeneğini true olarak ayarla
+    FitContent = true,
+    Timescale = Timescale.Months,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+project.Save(OutDir + "FitContentsToCellSize_out.pdf", options);
+```
+
+### Ayrıca Bakınız
+
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

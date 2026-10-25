@@ -1,26 +1,40 @@
 ---
-title: Rsc.AccrueAt
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Kaynak standardı ve fazla mesai maliyetlerinin bir görevin maliyetine nasıl ve ne zaman yansıtılacağını veya tahakkuk ettirileceğini belirler.
+title: "Rsc.AccrueAt"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Kaynak standart ve fazla mesai maliyetlerinin bir görevin maliyetine ne zaman ve nasıl yansıtılacağını veya tahakkuk ettirileceğini belirler"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/rsc/accrueat/
 ---
 ## Rsc.AccrueAt field
 
-Kaynak standardı ve fazla mesai maliyetlerinin bir görevin maliyetine nasıl ve ne zaman yansıtılacağını veya tahakkuk ettirileceğini belirler.
+Kaynak standart ve fazla mesai maliyetlerinin bir görevin maliyetine ne zaman ve nasıl yansıtılacağını veya birikeceğini belirler.
 
 ```csharp
 public static readonly Key<CostAccrualType, RscKey> AccrueAt;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Rsc.AccrueAt özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.AccrueAt, CostAccrualType.End);
+
+Console.WriteLine("Accrue At: " + resource.Get(Rsc.AccrueAt));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [CostAccrualType](../../costaccrualtype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

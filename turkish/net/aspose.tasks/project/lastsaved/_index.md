@@ -1,23 +1,23 @@
 ---
-title: Project.LastSaved
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. LastSaved. değerini alır veya ayarlar.
+title: "Project.LastSaved"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. LastSaved değerini alır veya ayarlar"
 type: docs
-weight: 530
+weight: 550
 url: /tr/net/aspose.tasks/project/lastsaved/
 ---
 ## Project.LastSaved property
 
-LastSaved. değerini alır veya ayarlar.
+LastSaved değerini alır veya ayarlar.
 
 ```csharp
 public DateTime LastSaved { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

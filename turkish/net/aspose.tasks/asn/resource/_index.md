@@ -1,7 +1,7 @@
 ---
-title: Asn.Resource
-second_title: Aspose.Tasks for .NET API Referansı
-description: Asn alan. Bir göreve atanan kaynak.
+title: "Asn.Resource"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Asn alanı. Bir göreve atanan kaynak"
 type: docs
 weight: 470
 url: /tr/net/aspose.tasks/asn/resource/
@@ -14,13 +14,32 @@ Bir göreve atanan kaynak.
 public static readonly Key<Resource, AsnKey> Resource;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Asn.Task ve Asn.Resource özelliklerini okuma nasıl gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+Console.WriteLine("Assigned Task Name: " + assignment.Get(Asn.Task).Get(Tsk.Name));
+Console.WriteLine("Assigned Resource Name: " + assignment.Get(Asn.Resource).Get(Rsc.Name));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * class [Resource](../../resource/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* ad alanı [Aspose.Tasks](../../asn/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

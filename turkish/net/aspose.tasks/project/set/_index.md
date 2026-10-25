@@ -1,54 +1,74 @@
 ---
-title: Project.Set
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Belirtilen özelliği bu kapsayıcıdaki belirtilen değerle eşler.
+title: "Project.Set"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Belirtilen özelliği bu konteynerde belirtilen değere eşler"
 type: docs
-weight: 1220
+weight: 1240
 url: /tr/net/aspose.tasks/project/set/
 ---
 ## Set&lt;T&gt;(Key&lt;T, PrjKey&gt;, T) {#set_1}
 
-Belirtilen özelliği, bu kapsayıcıdaki belirtilen değerle eşler.
+Belirtilen özelliği bu kapsayıcıda belirtilen değere eşler.
 
 ```csharp
 public void Set<T>(Key<T, PrjKey> key, T val)
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| T | eşlenen değerin türü. |
-| key | belirtilen özellik anahtarı.[`Prj`](../../prj/) özellik anahtarını almak için. |
+| T | eşlenen değerin tipi. |
+| key | belirtilen özellik anahtarı. Özellik anahtarını almak için [`Prj`](../../prj/). |
 | val | değer. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Görev niteliklerinin nasıl ayarlanacağını gösterir.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Set(Key&lt;DateTime, PrjKey&gt;, DateTime) {#set}
 
-Belirtilen özelliği, bu kapsayıcıdaki belirtilen değerle eşler.
+Belirtilen özelliği bu kapsayıcıda belirtilen değere eşler.
 
 ```csharp
 public void Set(Key<DateTime, PrjKey> key, DateTime val)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| key | Key`2 | belirtilen özellik anahtarı.[`Prj`](../../prj/) özellik anahtarını almak için. |
+| key | Key`2 | belirtilen özellik anahtarı. Özellik anahtarını almak için [`Prj`](../../prj/). |
 | val | DateTime | değer. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Görev niteliklerinin nasıl ayarlanacağını gösterir.
+
+```csharp
+var project = new Project();
+project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

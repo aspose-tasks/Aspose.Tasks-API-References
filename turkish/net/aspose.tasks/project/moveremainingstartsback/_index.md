@@ -1,9 +1,9 @@
 ---
-title: Project.MoveRemainingStartsBack
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. MoveRemainingStartsBackin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.MoveRemainingStartsBack"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. MoveRemainingStartsBack'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
-weight: 600
+weight: 620
 url: /tr/net/aspose.tasks/project/moveremainingstartsback/
 ---
 ## Project.MoveRemainingStartsBack property
@@ -14,11 +14,11 @@ MoveRemainingStartsBack'in ayarlanıp ayarlanmadığını gösteren bir değer a
 public NullableBool MoveRemainingStartsBack { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

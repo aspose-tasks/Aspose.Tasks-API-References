@@ -1,27 +1,42 @@
 ---
-title: ProjectView.GetDefaultGanttChartView
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProjectView yöntem. Kimlik göstergeler ad süre başlangıç ve bitiş görev sütunlarını içerir.
+title: "ProjectView.GetDefaultGanttChartView"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProjectView yöntemi. id göstergeleri, ad, süre, başlangıç ve bitiş görev sütunlarını içerir."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.visualization/projectview/getdefaultganttchartview/
 ---
 ## ProjectView.GetDefaultGanttChartView method
 
-Kimlik, göstergeler, ad, süre, başlangıç ve bitiş görev sütunlarını içerir.
+id, göstergeler, ad, süre, başlangıç ve bitiş görev sütunlarını içerir.
 
 ```csharp
 public static ProjectView GetDefaultGanttChartView()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-listesini içeren bir görünüm[`GanttChartColumn`](../../ganttchartcolumn/).
+bir görünüm, [`GanttChartColumn`](../../ganttchartcolumn/) listesini içerir.
 
-### Ayrıca bakınız
+## Örnekler
+
+Gantt şeması görünümüyle bir projenin nasıl kaydedileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultGanttChartView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_GanttChartView_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * class [ProjectView](../)
-* ad alanı [Aspose.Tasks.Visualization](../../projectview/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

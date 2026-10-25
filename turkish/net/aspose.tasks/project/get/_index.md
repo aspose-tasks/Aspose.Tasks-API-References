@@ -1,34 +1,46 @@
 ---
-title: Project.Get
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Özelliğin bu kapsayıcıda eşlendiği değeri döndürür.
+title: "Project.Get"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Bu konteynerde özelliğin eşlendiği değeri döndürür"
 type: docs
-weight: 1050
+weight: 1080
 url: /tr/net/aspose.tasks/project/get/
 ---
 ## Project.Get&lt;T&gt; method
 
-Özelliğin bu kapsayıcıda eşlendiği değeri döndürür.
+Bu kapsayıcıda özelliğin eşlendiği değeri döndürür.
 
 ```csharp
 public T Get<T>(Key<T, PrjKey> key)
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| T | eşlenen değerin türü. |
-| key | belirtilen özellik anahtarı.[`Prj`](../../prj/) özellik anahtarını almak için. |
+| T | eşlenen değerin tipi. |
+| key | belirtilen özellik anahtarı. Özellik anahtarını almak için [`Prj`](../../prj/). |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-özelliğin bu kapsayıcıda eşlendiği değer.
+özelliğin bu konteynerde eşlendiği değer.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir proje sürümünün nasıl kontrol edileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "DetermineProjectVersion.mpp");
+
+// Proje sürümünü göster
+Console.WriteLine("Project Version : " + project.Get(Prj.SaveVersion));
+Console.WriteLine("Last Saved : " + project.Get(Prj.LastSaved).ToShortDateString());
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

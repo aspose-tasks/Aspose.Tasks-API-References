@@ -1,29 +1,29 @@
 ---
-title: WorkingTimeCollection.CopyTo
-second_title: Aspose.Tasks for .NET API Referansı
-description: WorkingTimeCollection yöntem.  belirli bir dizinden başlayarak bir koleksiyon içeriğini bir Diziye kopyalar
+title: "WorkingTimeCollection.CopyTo"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WorkingTimeCollection yöntemi. Bir koleksiyon içeriğini belirli bir indeks'ten başlayarak bir Array'e kopyalar"
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks/workingtimecollection/copyto/
 ---
 ## WorkingTimeCollection.CopyTo method
 
-, belirli bir dizinden başlayarak bir koleksiyon içeriğini bir Diziye kopyalar
+Bir koleksiyon içeriğini belirli bir indeksten başlayarak bir Array'e kopyalar
 
 ```csharp
 public void CopyTo(WorkingTime[] array, int arrayIndex)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| array | WorkingTime[] | kopyalanacak bir dizi. |
-| arrayIndex | Int32 | başlangıç dizini |
+| dizi | WorkingTime[] | kopyalanacak bir dizi. |
+| arrayIndex | Int32 | başlangıç dizi indeksi |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* ad alanı [Aspose.Tasks](../../workingtimecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

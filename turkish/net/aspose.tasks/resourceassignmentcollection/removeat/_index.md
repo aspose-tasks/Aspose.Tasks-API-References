@@ -1,27 +1,27 @@
 ---
-title: ResourceAssignmentCollection.RemoveAt
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignmentCollection yöntem. Koleksiyon salt okunur değilse belirtilen dizindeki atamayı kaldırır aksi takdirde NotSupportedException. öğesini atar.
+title: "ResourceAssignmentCollection.RemoveAt"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignmentCollection yöntemi. Koleksiyon yalnızca okunur değilse belirtilen indeksteki atamayı kaldırır, aksi takdirde NotSupportedException fırlatır"
 type: docs
 weight: 90
 url: /tr/net/aspose.tasks/resourceassignmentcollection/removeat/
 ---
 ## ResourceAssignmentCollection.RemoveAt method
 
-Koleksiyon salt okunur değilse, belirtilen dizindeki atamayı kaldırır, aksi takdirde NotSupportedException. öğesini atar.
+Belirtilen indeksteki atamayı koleksiyondan kaldırır; koleksiyon yalnızca okunabilir değilse, aksi takdirde NotSupportedException fırlatır.
 
 ```csharp
 public void RemoveAt(int index)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| index | Int32 | Sıfır tabanlı dizin. |
+| indeks | Int32 | Sıfır tabanlı indeks. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ResourceAssignmentCollection](../)
-* ad alanı [Aspose.Tasks](../../resourceassignmentcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

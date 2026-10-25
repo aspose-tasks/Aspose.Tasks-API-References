@@ -1,7 +1,7 @@
 ---
-title: Rsc.AssignmentOwner
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Bir atama sahibinin adı.
+title: "Rsc.AssignmentOwner"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Bir atama sahibinin adı."
 type: docs
 weight: 100
 url: /tr/net/aspose.tasks/rsc/assignmentowner/
@@ -14,12 +14,26 @@ Bir atama sahibinin adı.
 public static readonly Key<string, RscKey> AssignmentOwner;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Rsc.AssignmentOwner özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.AssignmentOwner, "John");
+
+Console.WriteLine("Assignment Owner: " + resource.Get(Rsc.AssignmentOwner));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,32 +1,32 @@
 ---
-title: ResourceAssignmentCollection.Item
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignmentCollection mülk. Belirtilen dizindeki öğeyi döndürür.
+title: "ResourceAssignmentCollection.Item"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignmentCollection özelliği. Belirtilen indeksteki öğeyi döndürür."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/resourceassignmentcollection/item/
 ---
 ## ResourceAssignmentCollection indexer
 
-Belirtilen dizindeki öğeyi döndürür.
+Belirtilen indeksteki öğeyi döndürür.
 
 ```csharp
 public ResourceAssignment this[int index] { get; set; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| index | Alınacak öğenin sıfır tabanlı dizini. |
+| indeks | Alınacak öğenin sıfır tabanlı indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-belirtilen dizindeki öğe.
+belirtilen indeksteki öğe.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [ResourceAssignmentCollection](../)
-* ad alanı [Aspose.Tasks](../../resourceassignmentcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

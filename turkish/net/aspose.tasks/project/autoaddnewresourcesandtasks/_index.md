@@ -1,24 +1,24 @@
 ---
-title: Project.AutoAddNewResourcesAndTasks
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. AutoAddNewResourcesAndTasksın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.AutoAddNewResourcesAndTasks"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. AutoAddNewResourcesAndTasks'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
 weight: 60
 url: /tr/net/aspose.tasks/project/autoaddnewresourcesandtasks/
 ---
 ## Project.AutoAddNewResourcesAndTasks property
 
-AutoAddNewResourcesAndTasks'ın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+AutoAddNewResourcesAndTasks'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool AutoAddNewResourcesAndTasks { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

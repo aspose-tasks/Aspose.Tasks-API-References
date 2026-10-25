@@ -1,55 +1,81 @@
 ---
-title: ResourceAssignment.Equals
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment yöntem. Bu örneğin belirtilen bir örneğine eşit olup olmadığını gösteren bir değer döndürür.ResourceAssignment sınıf.
+title: "ResourceAssignment.Equals"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment yöntemi. Bu örneğin ResourceAssignment sınıfının belirtilen bir örneğiyle eşit olup olmadığını gösteren bir değer döndürür."
 type: docs
 weight: 690
 url: /tr/net/aspose.tasks/resourceassignment/equals/
 ---
 ## Equals(ResourceAssignment) {#equals}
 
-Bu örneğin belirtilen bir örneğine eşit olup olmadığını gösteren bir değer döndürür.[`ResourceAssignment`](../) sınıf.
+Bu örneğin [`ResourceAssignment`](../) sınıfının belirtilen bir örneğiyle eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public bool Equals(ResourceAssignment other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | ResourceAssignment | belirtilen örneği[`ResourceAssignment`](../) Bu örnekle karşılaştırmak için sınıf. |
+| other | ResourceAssignment | Bu örnek ile karşılaştırılacak [`ResourceAssignment`](../) sınıfının belirtilen örneği. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**Doğru** belirtilen örneği ise[`ResourceAssignment`](../) class, bu örnekle aynı UID değerine sahiptir; aksi takdirde, **YANLIŞ**.
+**True** if the specified instance of the [`ResourceAssignment`](../) class has the same UID value as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaynak ataması eşitliğini nasıl kontrol edeceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | obj | Object | Bu örnekle karşılaştırılacak nesne. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**Doğru** o, bu örnekle aynı kaynağı ve görevi atayan bir ResourceAssignment ise; aksi takdirde, **YANLIŞ**.
+**True** if o is a ResourceAssignment that assign the same resource and task as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaynak ataması eşitliğini nasıl kontrol edeceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

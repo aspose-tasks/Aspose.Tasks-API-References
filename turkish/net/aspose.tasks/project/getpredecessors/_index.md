@@ -1,9 +1,9 @@
 ---
-title: Project.GetPredecessors
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Belirtilen görevin öncülleri olan görev bağlantılarının bir koleksiyonunu döndürür.
+title: "Project.GetPredecessors"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Belirtilen görevin öncülleri olan görev bağlantılarının bir koleksiyonunu döndürür."
 type: docs
-weight: 1090
+weight: 1120
 url: /tr/net/aspose.tasks/project/getpredecessors/
 ---
 ## Project.GetPredecessors method
@@ -14,20 +14,38 @@ Belirtilen görevin öncülleri olan görev bağlantılarının bir koleksiyonun
 public TaskLinkCollection GetPredecessors(Task task)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| task | Task | Öncülleri almak için görev. |
+| görev | Görev | Öncülleri alınacak görev. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-öncüllerin listesi[`TaskLink`](../../tasklink/).
+Öncüllerin listesi [`TaskLink`](../../tasklink/).
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli bir görev için öncüllerin nasıl alınacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+var task = project.RootTask.Children.GetById(10);
+
+var predecessors = project.GetPredecessors(task);
+
+// Öncül ve sonraki görevlerin adlarını göster
+foreach (var predecessor in predecessors)
+{
+    Console.WriteLine("Predecessor " + predecessor.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor " + predecessor.SuccTask.Get(Tsk.Name));
+}
+```
+
+### Ayrıca Bakınız
 
 * class [TaskLinkCollection](../../tasklinkcollection/)
 * class [Task](../../task/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Project.CreationDate
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. CreationDate. değerini alır veya ayarlar.
+title: "Project.CreationDate"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. CreationDate değerini alır veya ayarlar"
 type: docs
-weight: 160
+weight: 170
 url: /tr/net/aspose.tasks/project/creationdate/
 ---
 ## Project.CreationDate property
 
-CreationDate. değerini alır veya ayarlar.
+CreationDate değerini alır veya ayarlar.
 
 ```csharp
 public DateTime CreationDate { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

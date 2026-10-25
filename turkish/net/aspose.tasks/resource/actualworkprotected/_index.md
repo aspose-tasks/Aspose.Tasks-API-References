@@ -1,24 +1,24 @@
 ---
-title: Resource.ActualWorkProtected
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir ActualWorkProtected. değeri alır veya ayarlar.
+title: "Resource.ActualWorkProtected"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. ActualWorkProtected değerini alır veya ayarlar"
 type: docs
 weight: 80
 url: /tr/net/aspose.tasks/resource/actualworkprotected/
 ---
 ## Resource.ActualWorkProtected property
 
-Bir ActualWorkProtected. değeri alır veya ayarlar.
+ActualWorkProtected değerini alır veya ayarlar.
 
 ```csharp
 public Duration ActualWorkProtected { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

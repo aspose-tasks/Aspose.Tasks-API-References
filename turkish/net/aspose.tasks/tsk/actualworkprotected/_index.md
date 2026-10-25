@@ -1,26 +1,41 @@
 ---
-title: Tsk.ActualWorkProtected
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Fiili çalışmanın korunduğu süre. Okuma yalnızca XML biçimi için desteklenir.
+title: "Tsk.ActualWorkProtected"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Gerçek işin korunduğu süre. Okuma yalnızca XML formatı için desteklenir."
 type: docs
 weight: 100
 url: /tr/net/aspose.tasks/tsk/actualworkprotected/
 ---
 ## Tsk.ActualWorkProtected field
 
-Fiili çalışmanın korunduğu süre. Okuma yalnızca XML biçimi için desteklenir.
+Gerçek işin korunduğu süre. Okuma yalnızca XML formatı için desteklenir.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualWorkProtected;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.ActualWorkProtected özelliğini nasıl okuyup/yazacağınızı gösterir.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ActualWorkProtected, project.GetWork(1));
+
+Console.WriteLine("Actual Work Protected: " + task.Get(Tsk.ActualWorkProtected));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

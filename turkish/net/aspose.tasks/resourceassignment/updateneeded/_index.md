@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.UpdateNeeded
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. UpdateNeededin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "ResourceAssignment.UpdateNeeded"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. UpdateNeeded'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
 weight: 630
 url: /tr/net/aspose.tasks/resourceassignment/updateneeded/
 ---
 ## ResourceAssignment.UpdateNeeded property
 
-UpdateNeeded'in ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+UpdateNeeded'in ayarlanıp ayarlanmadığını gösteren değeri alır veya ayarlar.
 
 ```csharp
 public bool UpdateNeeded { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

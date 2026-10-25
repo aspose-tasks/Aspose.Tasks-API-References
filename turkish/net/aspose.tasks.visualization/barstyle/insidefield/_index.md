@@ -1,9 +1,9 @@
 ---
-title: BarStyle.InsideField
-second_title: Aspose.Tasks for .NET API Referansı
-description: BarStyle mülk. Çubuğun içinde görüntülenecek bir alanı alır veya ayarlar.
+title: "BarStyle.InsideField"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "BarStyle özelliği. Çubuğun içinde görüntülenecek bir alanı alır veya ayarlar"
 type: docs
-weight: 90
+weight: 110
 url: /tr/net/aspose.tasks.visualization/barstyle/insidefield/
 ---
 ## BarStyle.InsideField property
@@ -14,11 +14,11 @@ url: /tr/net/aspose.tasks.visualization/barstyle/insidefield/
 public Field InsideField { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../barstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

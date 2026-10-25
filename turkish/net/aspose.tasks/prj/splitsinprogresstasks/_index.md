@@ -1,26 +1,38 @@
 ---
-title: Prj.SplitsInProgressTasks
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Sürmekte olan görevlerin bölünüp bölünemeyeceğini belirler.
+title: "Prj.SplitsInProgressTasks"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Devam eden görevlerin bölünebilir olup olmadığını belirler"
 type: docs
-weight: 640
+weight: 650
 url: /tr/net/aspose.tasks/prj/splitsinprogresstasks/
 ---
 ## Prj.SplitsInProgressTasks field
 
-Sürmekte olan görevlerin bölünüp bölünemeyeceğini belirler.
+Devam eden görevlerin bölünebilir olup olmadığını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SplitsInProgressTasks;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.SplitsInProgressTasks özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SplitsInProgressTasks, true);
+
+Console.WriteLine("Splits In Progress Tasks: " + project.Get(Prj.SplitsInProgressTasks));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

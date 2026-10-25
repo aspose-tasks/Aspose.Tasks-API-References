@@ -1,38 +1,38 @@
 ---
-title: Class FontDescriptor
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.FontDescriptor sınıf. Yazı tipi bilgisini temsil eder.
+title: "Class FontDescriptor"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.FontDescriptor class. Yazı tipi bilgilerini temsil eder"
 type: docs
-weight: 2680
+weight: 3010
 url: /tr/net/aspose.tasks.visualization/fontdescriptor/
 ---
 ## FontDescriptor class
 
-Yazı tipi bilgisini temsil eder.
+Yazı tipi bilgilerini temsil eder.
 
 ```csharp
 public sealed class FontDescriptor
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | Yeni bir örneğini başlatır.`FontDescriptor` belirtilen yazı tipi ve stille sınıf. |
-| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | Yeni bir örneğini başlatır.`FontDescriptor` belirtilen yazı tipi ailesi ve boyutuna sahip sınıf. |
-| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | Yeni bir örneğini başlatır.`FontDescriptor` belirtilen yazı tipi ailesi, boyutu ve stili ile sınıf. |
+| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | Belirtilen yazı tipi ve stil ile `FontDescriptor` sınıfının yeni bir örneğini başlatır. |
+| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | Belirtilen yazı tipi ailesi ve boyut ile `FontDescriptor` sınıfının yeni bir örneğini başlatır. |
+| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | Belirtilen yazı tipi ailesi, boyut ve stil ile `FontDescriptor` sınıfının yeni bir örneğini başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | Font ailesinin adını alır. |
+| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | Yazı tipinin ailesinin adını alır. |
 | [Size](../../aspose.tasks.visualization/fontdescriptor/size/) { get; } | Yazı tipinin boyutunu alır. |
-| [Style](../../aspose.tasks.visualization/fontdescriptor/style/) { get; } | Font stilini alır. |
+| [Style](../../aspose.tasks.visualization/fontdescriptor/style/) { get; } | Yazı tipinin stilini alır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

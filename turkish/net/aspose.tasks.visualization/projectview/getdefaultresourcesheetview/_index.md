@@ -1,27 +1,42 @@
 ---
-title: ProjectView.GetDefaultResourceSheetView
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProjectView yöntem. Uid kaynak adı tür malzeme etiketi baş harfler grup maksimum birimler standart ücret fazla mesai ücreti kullanım başına maliyet tahakkuk tarihi temel takvim ve kod kaynak sütunlarını içerir.
+title: "ProjectView.GetDefaultResourceSheetView"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProjectView yöntemi. Uid, kaynak adı, tür, malzeme, etiket, baş harfler, grup, maksimum birimler, standart oran, fazla mesai oranı, kullanım başına maliyet, birikim, temel takvim ve kod kaynak sütunlarını içerir"
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks.visualization/projectview/getdefaultresourcesheetview/
 ---
 ## ProjectView.GetDefaultResourceSheetView method
 
-Uid, kaynak adı, tür, malzeme etiketi, baş harfler, grup, maksimum birimler, standart ücret, fazla mesai ücreti, kullanım başına maliyet, tahakkuk tarihi, temel takvim ve kod kaynak sütunlarını içerir.
+Uid, kaynak adı, tip, malzeme etiketi, baş harfler, grup, maksimum birimler, standart oran, fazla mesai oranı, kullanım başına maliyet, birikim zamanı, temel takvim ve kod kaynak sütunlarını içerir.
 
 ```csharp
 public static ProjectView GetDefaultResourceSheetView()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-listesini içeren bir görünüm[`ResourceViewColumn`](../../resourceviewcolumn/).
+[`ResourceViewColumn`](../../resourceviewcolumn/) listesini içeren bir görünüm
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaynak sayfası görünümüyle bir projeyi nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultResourceSheetView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_ResourceSheetView_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * class [ProjectView](../)
-* ad alanı [Aspose.Tasks.Visualization](../../projectview/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

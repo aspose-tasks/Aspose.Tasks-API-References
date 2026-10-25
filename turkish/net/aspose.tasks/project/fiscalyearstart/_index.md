@@ -1,24 +1,24 @@
 ---
-title: Project.FiscalYearStart
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. FiscalYearStartın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Project.FiscalYearStart"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. FiscalYearStart'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
-weight: 430
+weight: 440
 url: /tr/net/aspose.tasks/project/fiscalyearstart/
 ---
 ## Project.FiscalYearStart property
 
-FiscalYearStart'ın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+FiscalYearStart'ın ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool FiscalYearStart { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

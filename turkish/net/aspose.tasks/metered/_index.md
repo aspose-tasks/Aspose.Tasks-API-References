@@ -1,37 +1,38 @@
 ---
-title: Class Metered
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Metered sınıf. Ölçülen anahtarı ayarlamak için yöntemler sağlar.
+title: "Sınıf Metered"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Metered sınıfı. Ölçülen anahtarı ayarlamak için yöntemler sağlar"
 type: docs
-weight: 890
+weight: 1020
 url: /tr/net/aspose.tasks/metered/
 ---
 ## Metered class
 
-Ölçülen anahtarı ayarlamak için yöntemler sağlar.
+Ölçülü anahtarı ayarlamak için yöntemler sağlar.
 
 ```csharp
 public class Metered
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Metered](metered/)() | Default_Constructor |
+| [Metered](metered/)() | Varsayılan yapıcı. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ResetMeteredKey](../../aspose.tasks/metered/resetmeteredkey/)() | Önceki kurulum lisansını kaldırır. |
-| [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey/)(string, string) | Tarifeli genel ve özel anahtarları ayarlar. |
-| static [GetConsumptionCredit](../../aspose.tasks/metered/getconsumptioncredit/)() | Tüketim kredisi alır. |
-| static [GetConsumptionQuantity](../../aspose.tasks/metered/getconsumptionquantity/)() | Tüketim dosyası boyutunu alır. |
+| [IsLicensed](../../aspose.tasks/metered/islicensed/)() | Ürünün Ölçülen lisans kullanılarak başarılı bir şekilde lisanslanıp lisanslanmadığını kontrol eder. |
+| [ResetMeteredKey](../../aspose.tasks/metered/resetmeteredkey/)() | Daha önce ayarlanmış lisansı kaldırır. |
+| [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey/)(string, string) | Ölçülen genel ve özel anahtarları ayarlar. |
+| static [GetConsumptionCredit](../../aspose.tasks/metered/getconsumptioncredit/)() | Tüketim kredisini alır. |
+| static [GetConsumptionQuantity](../../aspose.tasks/metered/getconsumptionquantity/)() | Tüketim dosya boyutunu alır. |
 
-### Örnekler
+## Örnekler
 
-Bu örnekte, ölçülü genel ve özel anahtar ayarlanmaya çalışılacaktır.
+Bu örnekte, ölçülen genel ve özel anahtarı ayarlamaya çalışılacak
 
 ```csharp
 [C#]
@@ -53,9 +54,40 @@ Metered metered = new Metered();
 metered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
-### Ayrıca bakınız
+Aspose.Tasks ile &lt;see cref=\"Aspose.Tasks.Metered\" /&gt; lisans türünün nasıl kullanılacağını gösterir.
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+```csharp
+// Ölçümlü lisansı kullanalım (bkz. https://purchase.aspose.com/faqs/licensing/metered)
+// ölçümlü lisansı ayarla
+var metered = new Metered();
+metered.SetMeteredKey("<public key>", "<private key>");
+
+var project = new Project(DataDir + "Project2.mpp");
+Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+
+// ...
+// projeyle çalış...
+// ...
+
+// Mevcut kredileri ve bayt tüketimini alabiliriz.
+
+try
+{
+    Console.WriteLine("Credits spent: {0}", Metered.GetConsumptionCredit());
+    Console.WriteLine("Bytes consumed: {0}", Metered.GetConsumptionQuantity());
+}
+catch (WebException)
+{
+    // istisna kaydet
+}
+
+// son zamanlarda kullanıcı bir ölçümlüyü sıfırlayabilir ve bayt sayımını durdurabilir
+metered.ResetMeteredKey();
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

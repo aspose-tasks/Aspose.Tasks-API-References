@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Summary
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. Özetin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "ResourceAssignment.Summary"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. Summary'nin ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
 weight: 570
 url: /tr/net/aspose.tasks/resourceassignment/summary/
 ---
 ## ResourceAssignment.Summary property
 
-Özetin ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+Summary'in ayarlanıp ayarlanmadığını gösteren değeri alır veya ayarlar.
 
 ```csharp
 public bool Summary { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

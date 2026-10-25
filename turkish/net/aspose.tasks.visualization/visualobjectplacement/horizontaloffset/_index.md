@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.HorizontalOffset
-second_title: Aspose.Tasks for .NET API Referansı
-description: VisualObjectPlacement mülk. Görsel nesnenin yatay kaymasını alır veya ayarlar.
+title: "VisualObjectPlacement.HorizontalOffset"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VisualObjectPlacement özelliği. Görsel nesnenin yatay ofsetini alır veya ayarlar"
 type: docs
 weight: 80
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/horizontaloffset/
 ---
 ## VisualObjectPlacement.HorizontalOffset property
 
-Görsel nesnenin yatay kaymasını alır veya ayarlar.
+Görsel nesnenin yatay ofsetini alır veya ayarlar.
 
 ```csharp
 public double HorizontalOffset { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [VisualObjectPlacement](../)
-* ad alanı [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Resource.MaterialLabel
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. MaterialLabel. değerini alır veya ayarlar
+title: "Resource.MaterialLabel"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Değer alır veya ayarlar, MaterialLabel değerini"
 type: docs
 weight: 490
 url: /tr/net/aspose.tasks/resource/materiallabel/
 ---
 ## Resource.MaterialLabel property
 
-MaterialLabel. değerini alır veya ayarlar
+MaterialLabel değerini alır veya ayarlar.
 
 ```csharp
 public string MaterialLabel { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

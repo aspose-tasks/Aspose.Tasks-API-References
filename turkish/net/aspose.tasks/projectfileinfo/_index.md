@@ -1,43 +1,54 @@
 ---
-title: Class ProjectFileInfo
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.ProjectFileInfo sınıf. Sınıf örneği dosyanın oluşturulduğu Microsoft Projectin proje dosyası formatı ve sürümü hakkında bilgi içerir.
+title: "Sınıf ProjectFileInfo"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.ProjectFileInfo sınıfı. Sınıf örneği, proje dosyasının formatı ve dosyanın oluşturulduğu Microsoft Project sürümü hakkında bilgi içerir."
 type: docs
-weight: 1210
+weight: 1460
 url: /tr/net/aspose.tasks/projectfileinfo/
 ---
 ## ProjectFileInfo class
 
-Sınıf örneği, dosyanın oluşturulduğu Microsoft Project'in proje dosyası formatı ve sürümü hakkında bilgi içerir.
+Sınıf örneği, dosyanın oluşturulduğu Microsoft Project sürümü ve proje dosya biçimi hakkında bilgi içerir.
 
 ```csharp
 public sealed class ProjectFileInfo : IEquatable<ProjectFileInfo>
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CanRead](../../aspose.tasks/projectfileinfo/canread/) { get; } | Tanımların Aspose.Tasks'ın proje dosyasını işleyip işlemediğini gösteren bir değer alır. |
-| [IsPasswordProtected](../../aspose.tasks/projectfileinfo/ispasswordprotected/) { get; } | Bir projenin parola korumalı olup olmadığını gösteren bir değer alır. |
-| [ProjectApplicationInfo](../../aspose.tasks/projectfileinfo/projectapplicationinfo/) { get; } | Proje dosyası uygulama bilgilerini alır. |
+| [CanRead](../../aspose.tasks/projectfileinfo/canread/) { get; } | Aspose.Tasks'in proje dosyasını işleyip işleyemeyeceğini gösteren bir değeri alır. |
+| [IsPasswordProtected](../../aspose.tasks/projectfileinfo/ispasswordprotected/) { get; } | Bir projenin şifre korumalı olup olmadığını gösteren bir değeri alır. |
+| [ProjectApplicationInfo](../../aspose.tasks/projectfileinfo/projectapplicationinfo/) { get; } | Proje dosyası uygulama bilgisini alır. |
 | [ProjectFileFormat](../../aspose.tasks/projectfileinfo/projectfileformat/) { get; } | Proje dosyası formatını alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.tasks/projectfileinfo/equals/#equals_1)(object) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| [Equals](../../aspose.tasks/projectfileinfo/equals/#equals)(ProjectFileInfo) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode/)() | Örneği için bir karma kod değeri döndürür`ProjectFileInfo` sınıf. |
+| override [Equals](../../aspose.tasks/projectfileinfo/equals/#equals_1)(object) | Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| [Equals](../../aspose.tasks/projectfileinfo/equals/#equals)(ProjectFileInfo) | Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.tasks/projectfileinfo/gethashcode/)() | `ProjectFileInfo` sınıfının örneği için bir karma kod değeri döndürür. |
 
-### Notlar
+## Açıklamalar
 
-Kitaplığın proje dosyasını işleyebileceğini tanımlamak için CanRead özelliğini kullanın.
+Kütüphanenin proje dosyasını işleyebileceğini tanımlamak için CanRead özelliğini kullanın.
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Proje dosyası bilgilerini nasıl okuyacağınızı gösterir.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

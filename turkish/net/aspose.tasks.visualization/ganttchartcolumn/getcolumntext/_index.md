@@ -1,7 +1,7 @@
 ---
-title: GanttChartColumn.GetColumnText
-second_title: Aspose.Tasks for .NET API Referansı
-description: GanttChartColumn yöntem. Geçerli görevi sütun metnine dönüştürür.
+title: "GanttChartColumn.GetColumnText"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "GanttChartColumn yöntemi. Mevcut görevi sütun metnine dönüştürür."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks.visualization/ganttchartcolumn/getcolumntext/
@@ -14,19 +14,71 @@ Geçerli görevi sütun metnine dönüştürür.
 public string GetColumnText(Task task)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| task | Task | Mevcut görev. |
+| görev | Görev | Geçerli görev. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 Sütun metni.
 
-### Ayrıca bakınız
+## Örnekler
+
+Dışa aktarılacak Gantt şeması görünüm sütunlarının nasıl ekleneceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
+        {
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+
+// sütunlar üzerinde yinele
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
+}
+
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+
+project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
+```
+
+### Ayrıca Bakınız
 
 * class [Task](../../../aspose.tasks/task/)
 * class [GanttChartColumn](../)
-* ad alanı [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../ganttchartcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.DefaultTaskType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Bir DefaultTaskType. değeri alır veya ayarlar
+title: "Project.DefaultTaskType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. DefaultTaskType değerini alır veya ayarlar"
 type: docs
-weight: 340
+weight: 350
 url: /tr/net/aspose.tasks/project/defaulttasktype/
 ---
 ## Project.DefaultTaskType property
 
-Bir DefaultTaskType. değeri alır veya ayarlar
+DefaultTaskType'ın bir değerini alır veya ayarlar.
 
 ```csharp
 public TaskType DefaultTaskType { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [TaskType](../../tasktype/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

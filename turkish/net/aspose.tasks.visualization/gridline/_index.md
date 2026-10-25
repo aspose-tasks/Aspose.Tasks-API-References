@@ -1,9 +1,9 @@
 ---
-title: Class Gridline
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.Gridline sınıf. Proje görünümünde görünen yatay veya dikey çizgi.
+title: "Sınıf Gridline"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.Gridline sınıfı. Proje görünümünde görünen yatay veya dikey çizgi"
 type: docs
-weight: 2770
+weight: 3100
 url: /tr/net/aspose.tasks.visualization/gridline/
 ---
 ## Gridline class
@@ -14,30 +14,52 @@ Proje görünümünde görünen yatay veya dikey çizgi.
 public class Gridline
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Gridline](gridline/)() | Yeni bir örneğini başlatır.`Gridline` sınıf. |
+| [Gridline](gridline/)() | Yeni bir `Gridline` sınıfı örneği başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.tasks.visualization/gridline/color/) { get; set; } | Şunu alır veya ayarlar:[`Color`](./color/) bir kılavuz çizgisinin. |
-| [GridlineType](../../aspose.tasks.visualization/gridline/gridlinetype/) { get; set; } | Kılavuz çizgisinin türünü alır veya ayarlar ([`GridlineType`](./gridlinetype/) ). |
-| [Pattern](../../aspose.tasks.visualization/gridline/pattern/) { get; set; } | Şunu alır veya ayarlar:[`LinePattern`](../linepattern/) bir kılavuz çizgisinin. |
+| [Color](../../aspose.tasks.visualization/gridline/color/) { get; set; } | Alır veya ayarlar [`Color`](./color/) bir ızgara çizgisinin. |
+| [GridlineType](../../aspose.tasks.visualization/gridline/gridlinetype/) { get; set; } | Alır veya ayarlar ızgara çizgisinin tipini ([`GridlineType`](./gridlinetype/)). |
+| [Pattern](../../aspose.tasks.visualization/gridline/pattern/) { get; set; } | Alır veya ayarlar [`LinePattern`](../linepattern/) bir ızgara çizgisinin. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.tasks.visualization/gridline/equals/)(object) | Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir bayrak döndürür. |
-| override [GetHashCode](../../aspose.tasks.visualization/gridline/gethashcode/)() | Örneği için bir karma kod değeri döndürür`Gridline` sınıf. |
+| override [GetHashCode](../../aspose.tasks.visualization/gridline/gethashcode/)() | `Gridline` sınıfının örneği için bir karma kod değeri döndürür. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+Izgara çizgileriyle çalışmayı görsel formatlarda kaydederken nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+var gridline = new Gridline
+{
+    // ızgara çizgi tipini ayarla (<see cref=\"P:Aspose.Tasks.Visualization.Gridline.GridlineType\" />).
+    GridlineType = GridlineType.GanttRow, 
+    // <see cref=\"T:Aspose.Tasks.Visualization.LinePattern\" /> bir ızgara çizgi için ayarla.
+    Pattern = LinePattern.Dashed
+};
+
+options.Gridlines = new List<Gridline>();
+options.Gridlines.Add(gridline);
+
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles_out.png", options);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

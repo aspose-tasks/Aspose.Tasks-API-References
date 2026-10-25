@@ -1,32 +1,32 @@
 ---
-title: View.op_Inequality
-second_title: Aspose.Tasks for .NET API Referansı
-description: View yöntem. Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+title: "View.op_Inequality"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "View yöntemi. Bu örneğin belirtilen bir nesneye eşit olmama durumunu gösteren bir değer döndürür."
 type: docs
 weight: 200
 url: /tr/net/aspose.tasks/view/op_inequality/
 ---
 ## View Inequality operator
 
-Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen nesneye eşit olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public static bool operator !=(View a, View b)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| a | View | İlk görüş. |
-| b | View | İkinci görüş. |
+| bir | View | İlk görünüm. |
+| b | View | İkinci görünüm. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer
+Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [View](../)
-* ad alanı [Aspose.Tasks](../../view/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

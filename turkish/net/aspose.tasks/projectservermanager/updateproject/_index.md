@@ -1,40 +1,40 @@
 ---
-title: ProjectServerManager.UpdateProject
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProjectServerManager yöntem. Varsayılan kaydetme seçeneklerini kullanarak Project ServerProject Online örneğindeki mevcut projeyi günceller. Mevcut projenin üzerine yazılacak.
+title: "ProjectServerManager.UpdateProject"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProjectServerManager yöntemi. Varsayılan kaydetme seçeneklerini kullanarak Project ServerProject Online örneğinde mevcut projeyi günceller. Mevcut proje üzerine yazılacak."
 type: docs
 weight: 70
 url: /tr/net/aspose.tasks/projectservermanager/updateproject/
 ---
 ## UpdateProject(Project) {#updateproject}
 
-Varsayılan kaydetme seçeneklerini kullanarak Project Server\Project Online örneğindeki mevcut projeyi günceller. Mevcut projenin üzerine yazılacak.
+Varsayılan kaydetme seçeneklerini kullanarak Project Server\\Project Online örneğindeki mevcut projeyi günceller. Mevcut proje üzerine yazılacak.
 
 ```csharp
 public void UpdateProject(Project project)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| project | Project | Project Server\Project Online örneğine kaydedilecek proje. |
+| project | Project | Project Server\\Project Online örneğine kaydedilecek proje. |
 
-### istisnalar
+### İstisnalar
 
-| istisna | şart |
+| istisna | koşul |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | İletişim hatası veya bir sunucu tarafından döndürülen hata durumunda. |
+| [ProjectOnlineException](../../projectonlineexception/) | İletişim hatası veya sunucu tarafından döndürülen hata durumunda. |
 
-### Notlar
+## Açıklamalar
 
-Proje özelliği 'project.Get(Prj.Guid)', Project Server hesabı \ Project Online örneğinde bulunan bir projenin geçerli bir kılavuzu olmalıdır.
+Projenin 'project.Get(Prj.Guid)' özelliği, Project Server hesabı \\ Project Online örneğinde mevcut olan bir projenin geçerli guid'i olmalıdır.
 
-### Örnekler
+## Örnekler
 
-Bu örnekte, proje Project Online hesabından yüklenir, değiştirilir ve Project Online hesabına geri kaydedilir.
+Bu örnekte proje, Project Online hesabından yüklenir, değiştirilir ve tekrar Project Online hesabına kaydedilir.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "şifre");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 var projectList = manager.GetProjectList();
 var projectGuid = projectList.First().Id;
@@ -43,45 +43,89 @@ var task = project.RootTask.Children.Add("New task");
 manager.UpdateProject(project);
 ```
 
-### Ayrıca bakınız
+Microsoft Project Online'da projenin nasıl güncelleneceğini gösterir.
+
+```csharp
+const string URL = "https://contoso.sharepoint.com/sites/pwa";
+const string Domain = "CONTOSO.COM";
+const string UserName = "Administrator";
+const string Password = "MyPassword";
+
+var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
+var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
+try
+{
+    var manager = new ProjectServerManager(projectServerCredentials);
+
+    ProjectInfo projectInfo = null;
+    foreach (var info in manager.GetProjectList())
+    {
+        if (info.Name == "My project")
+        {
+            projectInfo = info;
+        }
+    }
+
+    if (projectInfo == null)
+    {
+        Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
+        return;
+    }
+
+    var project = manager.GetProject(projectInfo.Id);
+    project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
+
+    var task = project.RootTask.Children.Add("New task");
+    task.Set(Tsk.Start, new DateTime(2020, 02, 26));
+    task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
+
+    manager.UpdateProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine("Failed to update the project. Error: " + ex);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* ad alanı [Aspose.Tasks](../../projectservermanager/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## UpdateProject(Project, ProjectServerSaveOptions) {#updateproject_1}
 
-Belirtilen kaydetme seçeneklerini kullanarak Project Server\Project Online örneğindeki mevcut projeyi günceller. Mevcut projenin üzerine yazılacak.
+Belirtilen kaydetme seçeneklerini kullanarak Project Server\\Project Online örneğindeki mevcut projeyi günceller. Mevcut proje üzerine yazılacak.
 
 ```csharp
 public void UpdateProject(Project project, ProjectServerSaveOptions saveOptions)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| project | Project | Project Server\Project Online örneğine kaydedilecek proje. |
-| saveOptions | ProjectServerSaveOptions | Örneği[`ProjectServerSaveOptions`](../../projectserversaveoptions/) sınıf. |
+| project | Project | Project Server\\Project Online örneğine kaydedilecek proje. |
+| saveOptions | ProjectServerSaveOptions | Sınıfının bir örneği [`ProjectServerSaveOptions`](../../projectserversaveoptions/). |
 
-### istisnalar
+### İstisnalar
 
-| istisna | şart |
+| istisna | koşul |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | İletişim hatası veya bir sunucu tarafından döndürülen hata durumunda. |
+| [ProjectOnlineException](../../projectonlineexception/) | İletişim hatası veya sunucu tarafından döndürülen hata durumunda. |
 
-### Notlar
+## Açıklamalar
 
-saveOptions.ProjectGuid, Project Server\ Project Online örneğinde bulunan bir projenin kılavuzuna ayarlanmalıdır.
+saveOptions.ProjectGuid, Project Server\\ Project Online örneğinde mevcut olan bir projenin guid'ine ayarlanmalıdır.
 
-### Örnekler
+## Örnekler
 
-Bu örnekte, proje Project Online hesabından yüklenir, değiştirilir ve Project Online hesabına geri kaydedilir.
+Bu örnekte proje, Project Online hesabından yüklenir, değiştirilir ve tekrar Project Online hesabına kaydedilir.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "şifre");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 var projectList = manager.GetProjectList();
 var projectGuid = projectList.First().Id;
@@ -93,12 +137,57 @@ manager.UpdateProject(project, new ProjectServerSaveOptions
 });
 ```
 
-### Ayrıca bakınız
+Project Server kaydetme seçeneklerinin kullanımıyla Microsoft Project Online'da projenin nasıl güncelleneceğini gösterir.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+try
+{
+    var manager = new ProjectServerManager(credentials);
+
+    ProjectInfo projectInfo = null;
+    foreach (var info in manager.GetProjectList())
+    {
+        if (info.Name == "My project")
+        {
+            projectInfo = info;
+        }
+    }
+
+    if (projectInfo == null)
+    {
+        Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
+        return;
+    }
+
+    var project = manager.GetProject(projectInfo.Id);
+    project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
+
+    var task = project.RootTask.Children.Add("New task");
+    task.Set(Tsk.Start, new DateTime(2020, 02, 26));
+    task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
+
+    var options = new ProjectServerSaveOptions { Timeout = TimeSpan.FromMinutes(5) };
+
+    manager.UpdateProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine("Failed to update the project. Error: " + ex);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../../project/)
 * class [ProjectServerSaveOptions](../../projectserversaveoptions/)
 * class [ProjectServerManager](../)
-* ad alanı [Aspose.Tasks](../../projectservermanager/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 

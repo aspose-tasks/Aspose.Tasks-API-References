@@ -1,23 +1,23 @@
 ---
-title: PageSavingArgs.KeepStreamOpen
-second_title: Aspose.Tasks for .NET API Referansı
-description: PageSavingArgs mülk. İşleme rutininin devam edip etmeyeceğini belirten bir değer alır veya ayarlarStream bir sayfa yazıldıktan sonra açılır.
+title: "PageSavingArgs.KeepStreamOpen"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PageSavingArgs özelliği. Render rutininin Stream'i sayfa yazıldıktan sonra açık tutup tutmayacağını belirten bir değeri alır veya ayarlar."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.saving/pagesavingargs/keepstreamopen/
 ---
 ## PageSavingArgs.KeepStreamOpen property
 
-İşleme rutininin devam edip etmeyeceğini belirten bir değer alır veya ayarlar[`Stream`](../stream/) bir sayfa yazıldıktan sonra açılır.
+Bir değeri alır veya ayarlar; bu değer, render rutininin [`Stream`](../stream/) sayfa yazıldıktan sonra açık tutup tutmayacağını gösterir.
 
 ```csharp
 public bool KeepStreamOpen { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PageSavingArgs](../)
-* ad alanı [Aspose.Tasks.Saving](../../pagesavingargs/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,243 +1,263 @@
 ---
-title: Aspose.Tasks
-second_title: Aspose.Tasks for .NET API Referansı
-description: Microsoft Projecti kullanmadan Microsoft Project belgeleriyle çalışmak için sınıflar içerir.
+title: "Aspose.Tasks"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Microsoft Project'i kullanmadan Microsoft Project belgeleriyle çalışmak için sınıflar içerir."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/
 ---
 Microsoft Project'i kullanmadan Microsoft Project belgeleriyle çalışmak için sınıflar içerir.
 
-## sınıflar
+## Sınıflar
 
-| Sınıf | Tanım |
+| Sınıf | Açıklama |
 | --- | --- |
-| [ApsLayoutBuilderOutOfMemoryException](./apslayoutbuilderoutofmemoryexception/) | Görüntü düzeni oluşturmaya devam etmek için yeterli bellek olmadığında oluşan istisnayı temsil eder. |
-| [Asn](./asn/) | özelliklerini temsil eder[`ResourceAssignment`](../aspose.tasks/resourceassignment/) nesne. |
-| [AssignmentBaseline](./assignmentbaseline/) | Bir kaynak atamasının Temelini temsil eder. |
-| [AssignmentBaselineCollection](./assignmentbaselinecollection/) | Bir koleksiyonu temsil eder[`AssignmentBaseline`](../aspose.tasks/assignmentbaseline/) nesneler. |
-| [AvailabilityPeriod](./availabilityperiod/) | Bir kaynağın kullanılabilir olduğu bir dönemi temsil eder. |
-| [AvailabilityPeriodCollection](./availabilityperiodcollection/) | içeren bir koleksiyonu temsil eder[`AvailabilityPeriod`](../aspose.tasks/availabilityperiod/) nesneler. |
+| [ApsLayoutBuilderOutOfMemoryException](./apslayoutbuilderoutofmemoryexception/) | Görüntü düzeni oluşturulmasına devam etmek için yeterli bellek olmadığında oluşan istisnayı temsil eder. |
+| [Asn](./asn/) | [`ResourceAssignment`](../aspose.tasks/resourceassignment/) nesnesinin özelliklerini temsil eder. |
+| [AssignmentBaseline](./assignmentbaseline/) | Bir kaynak atamasının Temel Çizgisini temsil eder. |
+| [AssignmentBaselineCollection](./assignmentbaselinecollection/) | [`AssignmentBaseline`](../aspose.tasks/assignmentbaseline/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [AvailabilityPeriod](./availabilityperiod/) | Bir kaynağın mevcut olduğu bir dönemi temsil eder. |
+| [AvailabilityPeriodCollection](./availabilityperiodcollection/) | [`AvailabilityPeriod`](../aspose.tasks/availabilityperiod/) nesnelerini içeren bir koleksiyonu temsil eder. |
 | [Baseline](./baseline/) | Bir kaynağın temel değerlerini temsil eder. |
-| [BaselineCollection](./baselinecollection/) | Bir koleksiyonu temsil eder[`Baseline`](../aspose.tasks/baseline/) nesneler. |
-| [BitmapInvalidSizeException](./bitmapinvalidsizeexception/) | Bir bitmap örneği oluşturmak için yeterli bellek olmadığında oluşan istisnayı temsil eder. |
-| [BuildVersionInfo](./buildversioninfo/) | Yapı sürümünü ve ürün bilgilerini içerir. |
-| [ByMonthDayRepetition](./bymonthdayrepetition/) | Bir aydaki bir günün mutlak konumunu temel alan bir modeli temsil eder. |
-| [ByMonthWeekDayRepetition](./bymonthweekdayrepetition/) | Haftanın bir aydaki konumuna dayalı bir modeli temsil eder. |
-| [ByYearDayRepetition](./byyeardayrepetition/) | Bir aydaki bir günün mutlak konumunu temel alan bir modeli temsil eder. |
-| [ByYearWeekDayRepetition](./byyearweekdayrepetition/) | Haftanın bir gününün bir ay içindeki konumunu temel alan bir modeli temsil eder. |
-| [Calendar](./calendar/) | Bir projede kullanılan bir takvimi temsil eder. |
-| [CalendarCollection](./calendarcollection/) | Bir koleksiyonu temsil eder[`Calendar`](../aspose.tasks/calendar/) nesneler. |
-| [CalendarException](./calendarexception/) | Bir takvimdeki istisnai zaman dilimlerini temsil eder. |
-| [CalendarExceptionCollection](./calendarexceptioncollection/) | Bir koleksiyonu temsil eder[`CalendarException`](../aspose.tasks/calendarexception/) nesneler. |
+| [BaselineCollection](./baselinecollection/) | [`Baseline`](../aspose.tasks/baseline/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [BitmapInvalidSizeException](./bitmapinvalidsizeexception/) | Bitmap örneği oluşturmak için yeterli bellek olmadığında oluşan istisnayı temsil eder. |
+| [BuildVersionInfo](./buildversioninfo/) | Derleme sürümünü ve ürün bilgilerini içerir. |
+| [ByMonthDayRepetition](./bymonthdayrepetition/) | Ay içinde bir günün mutlak konumuna dayalı bir deseni temsil eder. |
+| [ByMonthWeekDayRepetition](./bymonthweekdayrepetition/) | Ay içinde haftanın gününün konumuna dayalı bir deseni temsil eder. |
+| [ByYearDayRepetition](./byyeardayrepetition/) | Ay içinde bir günün mutlak konumuna dayalı bir deseni temsil eder. |
+| [ByYearWeekDayRepetition](./byyearweekdayrepetition/) | Ay içinde bir haftanın gününün konumuna dayalı bir deseni temsil eder. |
+| [Calendar](./calendar/) | Bir projede kullanılan takvimi temsil eder. |
+| [CalendarCollection](./calendarcollection/) | [`Calendar`](../aspose.tasks/calendar/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [CalendarException](./calendarexception/) | Takvimdeki olağanüstü zaman dilimlerini temsil eder. |
+| [CalendarExceptionCollection](./calendarexceptioncollection/) | [`CalendarException`](../aspose.tasks/calendarexception/) nesnelerinin bir koleksiyonunu temsil eder. |
 | [CompoundDocumentHeaderException](./compounddocumentheaderexception/) | MPP dosyasının başlığı bozulduğunda atılan bir istisnayı temsil eder. |
-| [CopyToOptions](./copytooptions/) | Proje verileri kopyalanırken ek seçeneklerin belirtilmesine izin verir. |
-| [CssSavingArgs](./csssavingargs/) | Bu sınıf, harici CSS dosyasının kaydedilmesiyle ilgili veri kümesini temsil eder; bu , HTML biçimine dönüştürülürken oluşur. |
-| [DailyCalendarRepetition](./dailycalendarrepetition/) | Takvim günlerine dayalı olarak günlük tekrar modelindeki tekrarlar için bir sınıfı temsil eder. |
+| [CopyToOptions](./copytooptions/) | Proje verilerini kopyalarken ek seçenekleri belirtmeye olanak tanır. |
+| [CssSavingArgs](./csssavingargs/) | Bu sınıf, HTML formatına dönüştürme sırasında gerçekleşen harici CSS dosyasının kaydedilmesiyle ilgili veri kümesini temsil eder. |
+| [DailyCalendarRepetition](./dailycalendarrepetition/) | Takvim günlerine dayalı günlük yineleme desenindeki tekrarlar için bir sınıfı temsil eder. |
 | [DailyRecurrencePattern](./dailyrecurrencepattern/) | Bir projede günlük yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder. |
-| [DailyRepetitionBase](./dailyrepetitionbase/) | Günlük yineleme modelindeki tekrarlar için bir temel sınıfı temsil eder. |
-| [DailyWorkRepetition](./dailyworkrepetition/) | İş günlerine dayalı günlük yineleme modelindeki tekrarlar için bir sınıfı temsil eder. |
-| [DayTypeCollection](./daytypecollection/) | Bir koleksiyonu temsil eder[`DayType`](../aspose.tasks/daytype/) nesneler. |
-| [EndAfterRecurrenceRange](./endafterrecurrencerange/) | Yinelenen görevin yinelenme sayısıyla sınırlanan yineleme aralığını temsil eder. |
-| [EndByRecurrenceRange](./endbyrecurrencerange/) | Bitiş günüyle sınırlı yinelenen görevin yinelenme aralığını temsil eder. |
+| [DailyRepetitionBase](./dailyrepetitionbase/) | Günlük yineleme desenindeki tekrarlar için temel bir sınıfı temsil eder. |
+| [DailyWorkRepetition](./dailyworkrepetition/) | Çalışma günlerine dayalı günlük yineleme desenindeki tekrarlar için bir sınıfı temsil eder. |
+| [DayTypeCollection](./daytypecollection/) | [`DayType`](../aspose.tasks/daytype/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [EndAfterRecurrenceRange](./endafterrecurrencerange/) | Oluşum sayısı ile sınırlı yinelenen görevin yineleme aralığını temsil eder. |
+| [EndByRecurrenceRange](./endbyrecurrencerange/) | Bitiş günü ile sınırlı yinelenen görevin yineleme aralığını temsil eder. |
 | [ExtendedAttribute](./extendedattribute/) | Genişletilmiş öznitelikleri temsil eder. |
-| [ExtendedAttributeCollection](./extendedattributecollection/) | Bir koleksiyonu temsil eder[`ExtendedAttribute`](../aspose.tasks/extendedattribute/) nesneler. |
+| [ExtendedAttributeCollection](./extendedattributecollection/) | [`ExtendedAttribute`](../aspose.tasks/extendedattribute/) nesnelerinin bir koleksiyonunu temsil eder. |
 | [ExtendedAttributeDefinition](./extendedattributedefinition/) | Bir projeyle ilişkili genişletilmiş öznitelik tanımını temsil eder. |
-| [ExtendedAttributeDefinitionCollection](./extendedattributedefinitioncollection/) | Bir koleksiyonu temsil eder[`ExtendedAttributeDefinition`](../aspose.tasks/extendedattributedefinition/) nesneler. |
-| [Filter](./filter/) | Project. içindeki bir filtreyi temsil eder |
-| [FilterCollection](./filtercollection/) | Bir liste içerir[`Filter`](../aspose.tasks/filter/) object. ICollection&lt;Filter&gt; arabirimini uygular. |
-| [FilterCriteria](./filtercriteria/) | Görevlerin veya kaynakların MSP görünümünde görüntülenmesi için karşılaması gereken ölçütleri tanımlar. |
+| [ExtendedAttributeDefinitionCollection](./extendedattributedefinitioncollection/) | [`ExtendedAttributeDefinition`](../aspose.tasks/extendedattributedefinition/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [Filter](./filter/) | Project içinde bir filtreyi temsil eder. |
+| [FilterCollection](./filtercollection/) | [`Filter`](../aspose.tasks/filter/) nesnelerinin bir listesini içerir. ICollection&lt;Filter&gt; arayüzünü uygular. |
+| [FilterCriteria](./filtercriteria/) | Görevlerin veya kaynakların MSP görünümünde görüntülenmesi için karşılaması gereken kriterleri tanımlar. |
 | [FontResolveCallbackDelegate](./fontresolvecallbackdelegate/) | Yazı tipi çözümleme olayını işlemek için bir yöntem geri aramasını temsil eder. |
-| [FontResolveEventArgs](./fontresolveeventargs/) | Yazı tipi çözümlendiğinde çağrılan geri arama için bağımsız değişkenler sağlar. |
-| [FontSavingArgs](./fontsavingargs/) | Bu sınıf, HTML formatına dönüştürme sırasında meydana gelen harici yazı tipi dosyasının kaydedilmesiyle ilgili veri kümesini temsil eder. |
+| [FontResolveEventArgs](./fontresolveeventargs/) | Yazı tipi çözüldüğünde tetiklenen geri arama için argümanlar sağlar. |
+| [FontSavingArgs](./fontsavingargs/) | Bu sınıf, HTML formatına dönüştürme sırasında gerçekleşen harici yazı tipleri dosyasının kaydedilmesiyle ilgili veri kümesini temsil eder. |
+| [FontSettings](./fontsettings/) | Projenin görünümü render edilirken kullanılan yazı tipi ayarlarını belirtir. |
 | [GanttChartView](./ganttchartview/) | Bir GanttChart görünümünü temsil eder. |
-| [Group](./group/) | Bir grup tanımını temsil eder. Bir Grup nesnesi, ResourceGroups koleksiyonunun veya TaskGroups koleksiyonunun bir üyesidir. |
-| [GroupCollection](./groupcollection/) | Bir liste içerir[`Group`](../aspose.tasks/group/) object. ICollection&lt;Group&gt; arayüzünü uygular. |
-| [GroupCriterion](./groupcriterion/) | Grup tanımındaki bir ölçütü temsil eder. GroupCriterion nesnesi,[`GroupCriterionCollection`](../aspose.tasks/groupcriterioncollection/) koleksiyon. |
-| [GroupCriterionCollection](./groupcriterioncollection/) | Bir koleksiyon içerir[`GroupCriterion`](../aspose.tasks/groupcriterion/) object. ICollection&lt;GroupCriterion&gt; arabirimini uygular. |
-| [ImageSavingArgs](./imagesavingargs/) | Bu sınıf, harici resim dosyasının HTML biçimine dönüştürülmesi sırasında 'nin kaydedilmesiyle ilgili veri kümesini temsil eder. |
-| [InvalidPasswordException](./invalidpasswordexception/) | Parola korumalı dosya yanlış parola ile açıldığında atılan istisna türünü temsil eder. |
+| [GlobalizationSettings](./globalizationsettings/) | Projenin küreselleştirme ayarlarını temsil eder. |
+| [GraphicalIndicatorCriteria](./graphicalindicatorcriteria/) | Genişletilmiş bir öznitelikle ilişkili bir grafik gösterge kriterini temsil eder. |
+| [GraphicalIndicatorCriteriaValue](./graphicalindicatorcriteriavalue/) | Grafik göstergeler kriterinin koşul kontrolünde kullanılan bir değeri temsil eder. |
+| [GraphicalIndicatorsInfo](./graphicalindicatorsinfo/) | Genişletilmiş bir öznitelikle ilişkili bir grafik gösterge tanımını temsil eder. |
+| [Group](./group/) | Bir grup tanımını temsil eder. Group nesnesi ResourceGroups koleksiyonunun veya TaskGroups koleksiyonunun bir üyesidir. |
+| [GroupCollection](./groupcollection/) | [`Group`](../aspose.tasks/group/) nesnelerinin bir listesini içerir. ICollection&lt;Group&gt; arayüzünü uygular. |
+| [GroupCriterion](./groupcriterion/) | Bir grup tanımındaki bir kriteri temsil eder. GroupCriterion nesnesi [`GroupCriterionCollection`](../aspose.tasks/groupcriterioncollection/) koleksiyonunun bir üyesidir. |
+| [GroupCriterionCollection](./groupcriterioncollection/) | [`GroupCriterion`](../aspose.tasks/groupcriterion/) nesnelerinin bir koleksiyonunu içerir. ICollection&lt;GroupCriterion&gt; arayüzünü uygular. |
+| [ImageSavingArgs](./imagesavingargs/) | Bu sınıf, HTML formatına dönüştürme sırasında gerçekleşen harici görüntü dosyasının kaydedilmesiyle ilgili veri kümesini temsil eder. |
+| [InvalidPasswordException](./invalidpasswordexception/) | Yanlış şifreyle şifre korumalı dosya açıldığında atılan istisna tipini temsil eder. |
 | [License](./license/) | Bileşeni lisanslamak için yöntemler sağlar. |
-| [LoadOptions](./loadoptions/) | Bir projeyi dosyadan veya akıştan yüklerken ek yükleme parametreleri belirlemeye izin verir. |
-| [Metered](./metered/) | Ölçülen anahtarı ayarlamak için yöntemler sağlar. |
-| [MonthlyRecurrencePattern](./monthlyrecurrencepattern/) | Bir projede aylık yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder. |
-| [MonthlyRepetitionBase](./monthlyrepetitionbase/) | Aylık gün konumu için bir temel modeli temsil eder. |
-| [NoPrinterInstalledException](./noprinterinstalledexception/) | OS. 'de yüklü yazıcı olmadığında atılan bir istisnayı temsil eder. |
-| [OleObject](./oleobject/) | Bir MPP dosyasının Gantt Grafik Görünümüne yerleştirilebilir bir OLE nesnesini temsil eder. |
-| [OleObjectCollection](./oleobjectcollection/) | Örneklerini içeren bir koleksiyonu temsil eder.[`OleObject`](../aspose.tasks/oleobject/) sınıf. |
-| [OutlineCode](./outlinecode/) | Anahat kodunun değerini temsil eder. |
-| [OutlineCodeCollection](./outlinecodecollection/) | Bir koleksiyonu temsil eder[`OutlineCode`](../aspose.tasks/outlinecode/) nesneler. |
+| [LoadOptions](./loadoptions/) | Bir projeyi dosyadan veya akıştan yüklerken ek yükleme parametreleri belirtmeye izin verir. |
+| [Metered](./metered/) | Ölçülü anahtarı ayarlamak için yöntemler sağlar. |
+| [MonthlyRecurrencePattern](./monthlyrecurrencepattern/) | Bir projede aylık yinelenen görev oluşturmak için kullanılan parametre kümesini temsil eder. |
+| [MonthlyRepetitionBase](./monthlyrepetitionbase/) | Aylık gün konumu için temel bir deseni temsil eder. |
+| [NoPrinterInstalledException](./noprinterinstalledexception/) | İşletim sisteminde yüklü bir yazıcı olmadığında atılan bir istisnayı temsil eder. |
+| [OleObject](./oleobject/) | Bir MPP dosyasının Gantt Chart View'ına eklenebilen bir OLE nesnesini temsil eder. |
+| [OleObjectCollection](./oleobjectcollection/) | Bir koleksiyon temsil eder ve içinde [`OleObject`](../aspose.tasks/oleobject/) sınıfının örneklerini barındırır. |
+| [OutlineCode](./outlinecode/) | Bir ana hat kodunun değerini temsil eder. |
+| [OutlineCodeCollection](./outlinecodecollection/) | Bir [`OutlineCode`](../aspose.tasks/outlinecode/) nesnelerinden oluşan koleksiyonu temsil eder. |
 | [OutlineCodeDefinition](./outlinecodedefinition/) | Bir ana hat kodu tanımını temsil eder. |
-| [OutlineCodeDefinitionCollection](./outlinecodedefinitioncollection/) | Bir koleksiyonu temsil eder[`OutlineCodeDefinition`](../aspose.tasks/outlinecodedefinition/) nesneler. |
-| [OutlineMask](./outlinemask/) | Ana hat kodu formatını tanımlayan bir maskenin dört öğesini temsil eder. |
-| [OutlineMaskCollection](./outlinemaskcollection/) | Bir koleksiyonu temsil eder[`OutlineMask`](../aspose.tasks/outlinemask/) nesneler. |
-| [OutlineValue](./outlinevalue/) | Bir anahat değerini temsil eder. |
-| [OutlineValueCollection](./outlinevaluecollection/) | Bir koleksiyonu temsil eder[`OutlineValue`](../aspose.tasks/outlinevalue/) nesneler. |
-| [ParseErrorArgs](./parseerrorargs/) | Şunun için veri sağlar:[`ParseErrorCallback`](../aspose.tasks/parseerrorcallback/) temsilci. |
-| [ParseErrorCallback](./parseerrorcallback/) | xml verilerini okurken meydana gelebilecek ayrıştırma hatalarını işlemek için bir yöntem geri aramasını temsil eder. |
-| [PrimaveraReadOptions](./primaverareadoptions/) | Primavera Xml veya Primavera Xer dosyalarını okurken ek seçenekleri belirlemeye izin verir. |
-| [PrimaveraTaskProperties](./primaverataskproperties/) | Primavera biçiminden (P6XML'nin XER'si) okunan bir görev için Primavera'ya özgü özellikleri temsil eder. |
-| [PrimaveraXerReader](./primaveraxerreader/) | Primavera XER dosyasından Proje UID'lerini okumak için bir okuyucuyu temsil eder |
-| [PrimaveraXmlReader](./primaveraxmlreader/) | Primavera Xml dosyasından Proje UID'lerini almaya izin veren bir okuyucuyu temsil eder. |
-| [Prj](./prj/) | Şunun desteklenen özelliklerini temsil eder:[`Project`](../aspose.tasks/project/) nesne. |
+| [OutlineCodeDefinitionCollection](./outlinecodedefinitioncollection/) | Bir [`OutlineCodeDefinition`](../aspose.tasks/outlinecodedefinition/) nesnelerinden oluşan koleksiyonu temsil eder. |
+| [OutlineMask](./outlinemask/) | Bir ana hat kodu biçimini tanımlayan maskenin dört öğesini temsil eder. |
+| [OutlineMaskCollection](./outlinemaskcollection/) | Bir [`OutlineMask`](../aspose.tasks/outlinemask/) nesnelerinden oluşan koleksiyonu temsil eder. |
+| [OutlineValue](./outlinevalue/) | Bir ana hat değerini temsil eder. |
+| [OutlineValueCollection](./outlinevaluecollection/) | Bir [`OutlineValue`](../aspose.tasks/outlinevalue/) nesnelerinden oluşan koleksiyonu temsil eder. |
+| [ParseErrorArgs](./parseerrorargs/) | [`ParseErrorCallback`](../aspose.tasks/parseerrorcallback/) temsilcisi için veri sağlar. |
+| [ParseErrorCallback](./parseerrorcallback/) | XML verisi okunurken oluşabilecek ayrıştırma hatalarını ele almak için bir yöntem geri çağrısını temsil eder. |
+| [PrimaveraBaseReader](./primaverabasereader/) | Çoklu proje Primavera XER veya XML dosyalarından Proje UID'lerini okumak için kullanılabilecek bir temel okuyucuyu temsil eder. |
+| [PrimaveraCalendarProperties](./primaveracalendarproperties/) | Primavera dosyalarından (P6XML'in XER'i) okunan bir takvim için Primavera'ya özgü özellikleri temsil eder. Takvim‑özel zaman birimi dönüşümlerini gerçekleştirmek için kullanılabilir. |
+| [PrimaveraDbReader](./primaveradbreader/) | Primavera DB'den Proje Bilgisi okumak için bir okuyucuyu temsil eder. |
+| [PrimaveraProjectProperties](./primaveraprojectproperties/) | Primavera dosyalarından (P6XML'in XER'i) okunan bir proje için Primavera'ya özgü özellikleri temsil eder. |
+| [PrimaveraReadOptions](./primaverareadoptions/) | Primavera Xml veya Primavera Xer dosyaları okunurken ek seçenekler belirtmeye olanak tanır. |
+| [PrimaveraTaskProperties](./primaverataskproperties/) | Primavera dosyalarından (P6XML'in XER'i) okunan bir görev için Primavera'ya özgü özellikleri temsil eder. |
+| [PrimaveraXerReader](./primaveraxerreader/) | Primavera XER dosyasından Proje UID'lerini okumak için bir okuyucuyu temsil eder. |
+| [PrimaveraXmlReader](./primaveraxmlreader/) | Primavera Xml dosyasından Proje UID'lerini almayı sağlayan bir okuyucuyu temsil eder. |
+| [Prj](./prj/) | [`Project`](../aspose.tasks/project/) nesnesinin desteklenen özelliklerini temsil eder. |
+| [ProgressNotificationArgs](./progressnotificationargs/) | [`Notify`](../aspose.tasks/iprogressnotificationcallback/notify/) yöntemi için veri sağlar. |
 | [Project](./project/) | Bir projeyi temsil eder. |
 | [ProjectDisplayOptions](./projectdisplayoptions/) | Bir proje örneği için görüntüleme seçeneklerini temsil eder. |
-| [ProjectFileInfo](./projectfileinfo/) | Sınıf örneği, dosyanın oluşturulduğu Microsoft Project'in proje dosyası formatı ve sürümü hakkında bilgi içerir. |
-| [ProjectInfo](./projectinfo/) | Project Online'da bulunan yayınlanan proje hakkında kısa bilgi. |
-| [ProjectOnlineException](./projectonlineexception/) | Project Online veya Project Server örneğiyle etkileşim sırasında hatalar bulunduğunda atılan bir istisnayı temsil eder. |
-| [ProjectServerCredentials](./projectservercredentials/) | Project Online'a veya şirket içi Project Server örneğine bağlanmak için kullanılan kimlik bilgileri. |
-| [ProjectServerManager](./projectservermanager/) | Belirtilen Project Online hesabındaki veya belirtilen şirket içi Project Server örneğindeki projeleri okumak ve projeler üzerinde işlem gerçekleştirmek için yöntemler sağlayan sınıf (Project Server'ın 2016 ve 2019 sürümleri desteklenir). |
-| [ProjectServerSaveOptions](./projectserversaveoptions/) | Proje, Project Server'a veya Project Online'a kaydedildiğinde ek seçeneklerin belirtilmesine izin verir. |
-| [Rate](./rate/) | Bir zaman periyodunun tanımını ve o periyot boyunca bir kaynak için geçerli oranları temsil eder. |
-| [RateByDateCollection](./ratebydatecollection/) | Eşlemeleri olan bir koleksiyonu temsil eder.DateTime ile[`Rate`](../aspose.tasks/rate/) nesneler. |
-| [RateCollection](./ratecollection/) | içeren bir koleksiyonu temsil eder[`Rate`](../aspose.tasks/rate/) nesneler. |
-| [ReadOnlyCollectionBase&lt;T&gt;](./readonlycollectionbase-1/) | Nesnelerin salt okunur koleksiyonunu temsil eder. |
-| [RecalculationValidationException](./recalculationvalidationexception/) | Yeniden hesaplamadan sonra projede hatalar bulunduğunda atılan bir istisnayı temsil eder. |
-| [RecurrencePatternBase](./recurrencepatternbase/) | Yineleme modelinin temel sınıfını temsil eder. |
-| [RecurrenceRangeBase](./recurrencerangebase/) | Yinelenen görevin yinelenme aralığını temsil eder. |
-| [RecurringTaskInfo](./recurringtaskinfo/) | Bir projede yinelenen bir görevin ayrıntılarını temsil eder. |
-| [RecurringTaskParameters](./recurringtaskparameters/) | Bir projede yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder. |
-| [Resource](./resource/) | Bir projedeki bir kaynağı temsil eder. |
+| [ProjectFileInfo](./projectfileinfo/) | Sınıf örneği, dosyanın oluşturulduğu Microsoft Project sürümü ve proje dosya biçimi hakkında bilgi içerir. |
+| [ProjectInfo](./projectinfo/) | Project Online'da bulunan yayınlanmış proje hakkında kısa bilgi. |
+| [ProjectOnlineException](./projectonlineexception/) | Project Online veya Project Server örneğiyle etkileşim sırasında hatalar bulunduğunda atılan bir istisna temsil eder. |
+| [ProjectServerCredentials](./projectservercredentials/) | Project Online veya yerel Project Server örneğine bağlanmak için kullanılan kimlik bilgileri. |
+| [ProjectServerManager](./projectservermanager/) | Belirtilen Project Online hesabındaki veya belirtilen yerel Project Server örneğindeki projeleri okumak ve işlemler gerçekleştirmek için yöntemler sağlayan sınıf (Project Server'ın 2016 ve 2019 sürümleri desteklenir). |
+| [ProjectServerSaveOptions](./projectserversaveoptions/) | Proje Project Server veya Project Online'a kaydedildiğinde ek seçenekler belirtmeye olanak tanır. |
+| [Rate](./rate/) | Bir zaman diliminin tanımını ve bu süre içinde bir kaynak için geçerli olan oranları temsil eder. |
+| [RateByDateCollection](./ratebydatecollection/) | DateTime ile [`Rate`](../aspose.tasks/rate/) nesneleri arasındaki eşlemeleri içeren bir koleksiyonu temsil eder. |
+| [RateCollection](./ratecollection/) | [`Rate`](../aspose.tasks/rate/) nesnelerini içeren bir koleksiyonu temsil eder. |
+| [ReadOnlyCollectionBase&lt;T&gt;](./readonlycollectionbase-1/) | Nesnelerin yalnızca okunabilir bir koleksiyonunu temsil eder. |
+| [RecalculationValidationException](./recalculationvalidationexception/) | Proje yeniden hesaplandıktan sonra hatalar bulunduğunda atılan bir istisna temsil eder. |
+| [RecurrencePatternBase](./recurrencepatternbase/) | Yineleme deseninin temel sınıfını temsil eder. |
+| [RecurrenceRangeBase](./recurrencerangebase/) | Yineleyen görevin yineleme aralığını temsil eder. |
+| [RecurringTaskInfo](./recurringtaskinfo/) | Bir projedeki yineleyen bir görevin ayrıntılarını temsil eder. |
+| [RecurringTaskParameters](./recurringtaskparameters/) | Bir projede yineleyen bir görev oluşturmak için kullanılan parametre setini temsil eder. |
+| [Resource](./resource/) | Bir projedeki kaynağı temsil eder. |
 | [ResourceAssignment](./resourceassignment/) | Bir projedeki kaynak atamasını temsil eder. |
-| [ResourceAssignmentCollection](./resourceassignmentcollection/) | Bir koleksiyonu temsil eder[`ResourceAssignment`](../aspose.tasks/resourceassignment/) nesneler. |
-| [ResourceCollection](./resourcecollection/) | Bir koleksiyonu temsil eder[`Resource`](../aspose.tasks/resource/) nesneler. |
-| [ResourceSavingArgs](./resourcesavingargs/) | Bu sınıf, harici kaynak dosyasının HTML formatına dönüştürülmesi sırasında oluşan kaydıyla ilgili veri kümesini temsil eder. |
-| [ResourceUsageView](./resourceusageview/) | Bir projede kaynak kullanım görünümünü temsil eder. |
-| [ResourceUsageViewFieldCollection](./resourceusageviewfieldcollection/) | Bir koleksiyonu temsil eder[`ResourceUsageViewField`](../aspose.tasks/resourceusageviewfield/) değerler. |
-| [Rsc](./rsc/) | Şunun desteklenen özelliklerini temsil eder:[`Resource`](../aspose.tasks/resource/) nesne. |
+| [ResourceAssignmentCollection](./resourceassignmentcollection/) | [`ResourceAssignment`](../aspose.tasks/resourceassignment/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [ResourceCollection](./resourcecollection/) | [`Resource`](../aspose.tasks/resource/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [ResourceSavingArgs](./resourcesavingargs/) | Bu sınıf, HTML formatına dönüştürme sırasında gerçekleşen dış kaynak dosyasının kaydedilmesiyle ilgili veri kümesini temsil eder. |
+| [ResourceUsageView](./resourceusageview/) | Bir projedeki kaynak kullanım görünümünü temsil eder. |
+| [ResourceUsageViewFieldCollection](./resourceusageviewfieldcollection/) | [`ResourceUsageViewField`](../aspose.tasks/resourceusageviewfield/) değerlerinin bir koleksiyonunu temsil eder. |
+| [ResourceValidationException](./resourcevalidationexception/) | Kaynağın özelliklerinde hatalar bulunduğunda atılan bir istisna temsil eder. |
+| [Rsc](./rsc/) | [`Resource`](../aspose.tasks/resource/) nesnesinin desteklenen özelliklerini temsil eder. |
 | [SplitPart](./splitpart/) | Bir görev bölümünü temsil eder. SplitPart, görevin SplitParts koleksiyonunun bir üyesidir. |
 | [SplitPartCollection](./splitpartcollection/) | Bir görevin bölümlerini temsil eden koleksiyon. |
-| [Table](./table/) | Project içindeki bir tabloyu temsil eder |
-| [TableCollection](./tablecollection/) | Bir liste içerir[`Table`](../aspose.tasks/table/) object. ICollection&lt;Table&gt; arayüzünü uygular. |
-| [TableField](./tablefield/) | Bir projedeki bir tablonun alanını temsil eder. |
-| [TableFieldCollection](./tablefieldcollection/) | Bir liste içerir[`TableField`](../aspose.tasks/tablefield/) object. IList&lt;TableField&gt; arabirimini uygular. |
+| [Table](./table/) | Project içinde bir tabloyu temsil eder. |
+| [TableCollection](./tablecollection/) | Bir [`Table`](../aspose.tasks/table/) nesnesi listesi içerir. ICollection&lt;Table&gt; arayüzünü uygular. |
+| [TableField](./tablefield/) | Bir projedeki tablonun bir alanını temsil eder. |
+| [TableFieldCollection](./tablefieldcollection/) | Bir [`TableField`](../aspose.tasks/tablefield/) nesnesi listesi içerir. IList&lt;TableField&gt; arayüzünü uygular. |
 | [Task](./task/) | Bir projedeki görevi temsil eder. |
-| [TaskBaseline](./taskbaseline/) | Bir Görevin Temelini Temsil Eder. |
-| [TaskBaselineCollection](./taskbaselinecollection/) | Bir koleksiyonu temsil eder[`TaskBaseline`](../aspose.tasks/taskbaseline/) nesneler. |
-| [TaskCollection](./taskcollection/) | Bir koleksiyonu temsil eder[`Task`](../aspose.tasks/task/) nesneler. |
-| [TaskLink](./tasklink/) | Önceki bağlantıyı temsil eder. |
-| [TaskLinkCollection](./tasklinkcollection/) | Bir koleksiyonu temsil eder[`Task`](../aspose.tasks/task/) nesneler. |
-| [TasksException](./tasksexception/) | Standart dahili özel durum türünü temsil eder. |
-| [TasksLoggedException](./tasksloggedexception/) | Standart dahili özel durum türünü temsil eder. |
-| [TasksReadingException](./tasksreadingexception/) | Standart dahili okuma özel durum türünü temsil eder. |
-| [TasksRenderingException](./tasksrenderingexception/) | Bir projenin görünümünü grafik formata dönüştürürken oluşabilecek istisnayı temsil eder. |
-| [TasksWritingException](./taskswritingexception/) | Standart dahili yazma özel durum türünü temsil eder. |
-| [TaskUsageView](./taskusageview/) | Bir projede görev kullanım görünümünü temsil eder. |
-| [TaskUsageViewFieldCollection](./taskusageviewfieldcollection/) | Bir koleksiyonu temsil eder[`TaskUsageViewField`](../aspose.tasks/taskusageviewfield/) değerler. |
-| [TaskValidationException](./taskvalidationexception/) | Yeniden hesaplamadan sonra proje görevlerinde hatalar bulunduğunda atılan bir istisnayı temsil eder. |
+| [TaskBaseline](./taskbaseline/) | Bir Görevin Temel Çizgisini temsil eder. |
+| [TaskBaselineCollection](./taskbaselinecollection/) | Bir [`TaskBaseline`](../aspose.tasks/taskbaseline/) nesnesi koleksiyonunu temsil eder. |
+| [TaskCollection](./taskcollection/) | Bir [`Task`](../aspose.tasks/task/) nesnesi koleksiyonunu temsil eder. |
+| [TaskLink](./tasklink/) | Bir önceki görev bağlantısını temsil eder. |
+| [TaskLinkCollection](./tasklinkcollection/) | Bir [`Task`](../aspose.tasks/task/) nesnesi koleksiyonunu temsil eder. |
+| [TaskLinkDrawingArgs](./tasklinkdrawingargs/) | Görev bağlantısı oluşturulduğunda çağrılan geri arama için argümanlar sağlar. |
+| [TasksException](./tasksexception/) | Standart iç istisna tipini temsil eder. |
+| [TasksLoggedException](./tasksloggedexception/) | Standart iç istisna tipini temsil eder. |
+| [TasksReadingException](./tasksreadingexception/) | Standart iç okuma istisna tipini temsil eder. |
+| [TasksRenderingException](./tasksrenderingexception/) | Bir projenin görünümünü grafik bir formata oluştururken ortaya çıkabilecek istisnayı temsil eder. |
+| [TasksWritingException](./taskswritingexception/) | Standart iç yazma istisna tipini temsil eder. |
+| [TaskUsageView](./taskusageview/) | Bir projedeki görev kullanım görünümünü temsil eder. |
+| [TaskUsageViewFieldCollection](./taskusageviewfieldcollection/) | Bir [`TaskUsageViewField`](../aspose.tasks/taskusageviewfield/) değer koleksiyonunu temsil eder. |
+| [TaskValidationException](./taskvalidationexception/) | Yeniden hesaplamadan sonra projenin görevlerinde hatalar bulunduğunda fırlatılan bir istisnayı temsil eder. |
 | [TimelineView](./timelineview/) | Bir projenin zaman çizelgesi görünümünü temsil eder. |
 | [TimephasedData](./timephaseddata/) | Zaman aşamalı bir veriyi temsil eder. |
-| [TimephasedDataCollection](./timephaseddatacollection/) | Bir koleksiyonu temsil eder[`TimephasedData`](../aspose.tasks/timephaseddata/) nesneler. |
-| [Tsk](./tsk/) | özelliklerini temsil eder[`Task`](../aspose.tasks/task/) nesne. |
-| [UsageView](./usageview/) | Bir projedeki kullanım görünümünü temsil eder. |
-| [ValidationException](./validationexception/) | Varlığın doğrulanması sırasında hatalar bulunduğunda atılan bir istisnayı temsil eder. |
-| [Value](./value/) | Değer listesindeki bir değeri temsil eder. |
+| [TimephasedDataCollection](./timephaseddatacollection/) | Bir [`TimephasedData`](../aspose.tasks/timephaseddata/) nesnesi koleksiyonunu temsil eder. |
+| [Tsk](./tsk/) | Bir [`Task`](../aspose.tasks/task/) nesnesinin özelliklerini temsil eder. |
+| [UnexpectedFileFormatException](./unexpectedfileformatexception/) | Dosya formatı beklenmedik bir biçime veya yapıya sahip olduğunda fırlatılan bir istisnayı temsil eder. |
+| [UsageView](./usageview/) | Bir projede kullanım görünümünü temsil eder. |
+| [ValidationException](./validationexception/) | Varlığın doğrulaması sırasında hatalar bulunduğunda fırlatılan bir istisnayı temsil eder. |
+| [Value](./value/) | Bir değer listesindeki bir değeri temsil eder. |
 | [VbaModule](./vbamodule/) | Bir VBA modülünü temsil eder. |
-| [VbaModuleAttribute](./vbamoduleattribute/) | Özniteliği[`VbaModule`](../aspose.tasks/vbamodule/) nesne |
-| [VbaModuleAttributeCollection](./vbamoduleattributecollection/) | Bir koleksiyonu temsil eder[`VbaModuleAttribute`](../aspose.tasks/vbamoduleattribute/) nesneler. |
-| [VbaModuleCollection](./vbamodulecollection/) | Bir koleksiyonu temsil eder[`VbaModule`](../aspose.tasks/vbamodule/) nesneler. |
-| [VbaProject](./vbaproject/) | Temsil eder[`VbaProject`](../aspose.tasks/vbaproject/) . |
-| [VbaReference](./vbareference/) | Şunun bir başvurusunu temsil eder:[`VbaProject`](../aspose.tasks/vbaproject/) . |
-| [VbaReferenceCollection](./vbareferencecollection/) | Bir koleksiyonu temsil eder[`VbaReference`](../aspose.tasks/vbareference/) nesneler. |
-| [View](./view/) | Project. 'deki bir görünümü temsil eder |
-| [ViewCollection](./viewcollection/) | Bir liste içerir[`View`](../aspose.tasks/view/) object. ICollection&lt;Görünüm&gt; arayüzünü uygular. |
-| [WBSCodeDefinition](./wbscodedefinition/) | Bir ÇÇY Kodu Tanımını Temsil Eder. |
-| [WBSCodeMask](./wbscodemask/) | ÇÇY Kodu maskesini temsil eder. |
-| [WBSCodeMaskCollection](./wbscodemaskcollection/) | WBSCodeMask nesneleri koleksiyonunu temsil eder. |
-| [WebRequestEventArgs](./webrequesteventargs/) | İstemci Proje Sunucusunun web API'sine bir web isteği gönderdiğinde ortaya çıkan olay için bağımsız değişkenler sağlar. |
-| [WeekDay](./weekday/) | Bir takvimde haftanın normal günlerini veya istisna günlerini tanımlayan bir hafta içi günü temsil eder. |
-| [WeekDayCollection](./weekdaycollection/) | Bir koleksiyonu temsil eder[`WeekDay`](../aspose.tasks/weekday/) nesneler. |
-| [WeeklyRecurrencePattern](./weeklyrecurrencepattern/) | Bir projede haftalık yinelenen görev oluşturmak için kullanılan parametre kümesini temsil eder. |
-| [WeeklyRepetition](./weeklyrepetition/) | Hafta içi günleri temel alan bir modeli temsil eder. |
-| [WeeklyRepetitionBase](./weeklyrepetitionbase/) | Haftalık yineleme düzeninde tekrarlar için bir temel sınıfı temsil eder. |
-| [WorkingTime](./workingtime/) | Hafta içi bir çalışma süresini temsil eder. |
-| [WorkingTimeCollection](./workingtimecollection/) | Bir koleksiyonu temsil eder[`WorkingTimeCollection`](../aspose.tasks/workingtimecollection/) nesneler. |
+| [VbaModuleAttribute](./vbamoduleattribute/) | [`VbaModule`](../aspose.tasks/vbamodule/) nesnesinin özelliği |
+| [VbaModuleAttributeCollection](./vbamoduleattributecollection/) | [`VbaModuleAttribute`](../aspose.tasks/vbamoduleattribute/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [VbaModuleCollection](./vbamodulecollection/) | [`VbaModule`](../aspose.tasks/vbamodule/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [VbaProject](./vbaproject/) | [`VbaProject`](../aspose.tasks/vbaproject/) nesnesini temsil eder. |
+| [VbaReference](./vbareference/) | [`VbaProject`](../aspose.tasks/vbaproject/) referansını temsil eder. |
+| [VbaReferenceCollection](./vbareferencecollection/) | [`VbaReference`](../aspose.tasks/vbareference/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [View](./view/) | Project içinde bir görünümü temsil eder. |
+| [ViewCollection](./viewcollection/) | [`View`](../aspose.tasks/view/) nesnelerinin bir listesini içerir. ICollection&lt;View&gt; arayüzünü uygular. |
+| [WBSCodeDefinition](./wbscodedefinition/) | Bir WBS Kod Tanımını temsil eder. |
+| [WBSCodeMask](./wbscodemask/) | WBS Kod maskesini temsil eder. |
+| [WBSCodeMaskCollection](./wbscodemaskcollection/) | WBSCodeMask nesnelerinin bir koleksiyonunu temsil eder. |
+| [WebRequestEventArgs](./webrequesteventargs/) | İstemci, Project Server'ın web API'sine bir web isteği gönderdiğinde tetiklenen olay için argümanlar sağlar. |
+| [WeekDay](./weekday/) | Bir takvimde haftanın normal günlerini veya istisna günlerini tanımlayan bir hafta gününü temsil eder. |
+| [WeekDayCollection](./weekdaycollection/) | [`WeekDay`](../aspose.tasks/weekday/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [WeeklyRecurrencePattern](./weeklyrecurrencepattern/) | Projede haftalık yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder. |
+| [WeeklyRepetition](./weeklyrepetition/) | Hafta günlerine dayalı bir deseni temsil eder. |
+| [WeeklyRepetitionBase](./weeklyrepetitionbase/) | Haftalık yinelenme desenindeki tekrarlar için temel bir sınıfı temsil eder. |
+| [WorkingTime](./workingtime/) | Bir hafta günü içindeki çalışma zamanını temsil eder. |
+| [WorkingTimeCollection](./workingtimecollection/) | [`WorkingTimeCollection`](../aspose.tasks/workingtimecollection/) nesnelerinin bir koleksiyonunu temsil eder. |
 | [WorkUnit](./workunit/) | Çalışma saatlerini temsil eder. |
-| [WorkWeek](./workweek/) | WorkWeek class 'yi temsil eder |
-| [WorkWeekCollection](./workweekcollection/) | Bir koleksiyonu temsil eder[`WorkWeek`](../aspose.tasks/workweek/) nesneler. |
-| [YearlyRecurrencePattern](./yearlyrecurrencepattern/) | Bir projede yıllık yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder. |
-| [YearlyRepetitionBase](./yearlyrepetitionbase/) | Yıllık gün konumu için bir temel modeli temsil eder. |
-## Yapılar
+| [WorkWeek](./workweek/) | WorkWeek sınıfını temsil eder. |
+| [WorkWeekCollection](./workweekcollection/) | [`WorkWeek`](../aspose.tasks/workweek/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [YearlyRecurrencePattern](./yearlyrecurrencepattern/) | Projede yıllık yinelenen bir görev oluşturmak için kullanılan parametre kümesini temsil eder. |
+| [YearlyRepetitionBase](./yearlyrepetitionbase/) | Yıllık gün konumu için temel bir deseni temsil eder. |
+## Structures
 
-| Yapı | Tanım |
+| Yapı | Açıklama |
 | --- | --- |
 | [Duration](./duration/) | Bir projedeki süreyi temsil eder. |
-| [Key&lt;T,K&gt;](./key-2/) | Belirtilen türden bir sınıfın özellik anahtarını temsil eder. Bu sınıfın bir örneği, bir kapsayıcı özelliği alınırken veya ayarlanırken kullanılır. |
-| [NullableBool](./nullablebool/) | Boole değerleri için değerin tanımlanıp tanımlanmadığını kontrol etme imkanı olan bir sınıf. |
+| [Key&lt;T,K&gt;](./key-2/) | Belirtilen türde bir sınıfın özellik anahtarını temsil eder. Bu sınıfın bir örneği, bir kapsayıcının özelliğini alırken veya ayarlarken kullanılır. |
+| [NullableBool](./nullablebool/) | Değerin tanımlanıp tanımlanmadığını kontrol etme imkanı sunan boolean değerler için bir sınıf. |
 ## Arayüzler
 
-| Arayüz | Tanım |
+| Arayüz | Açıklama |
 | --- | --- |
-| [ICssSavingCallback](./icsssavingcallback/) | CSS'yi depolamak için kaynak oluşturmak üzere çağrılan bir geri aramayı temsil eder. |
+| [ICalendar](./icalendar/) | Tarih ve sürelerin çeşitli hesaplamaları için kullanılabilecek bir takvim soyutlamasını temsil eder. |
+| [ICssSavingCallback](./icsssavingcallback/) | CSS depolamak için kaynak oluşturmak üzere çağrılan bir geri aramayı temsil eder. |
 | [IFontSavingCallback](./ifontsavingcallback/) | Yazı tiplerini depolamak için kaynak oluşturmak üzere çağrılan bir geri aramayı temsil eder. |
 | [IImageSavingCallback](./iimagesavingcallback/) | Görüntüleri depolamak için kaynak oluşturmak üzere çağrılan bir geri aramayı temsil eder. |
-| [IVbaModule](./ivbamodule/) | VBA koduna sahip bir modülü temsil eder. |
-## numaralandırma
+| [IMessageHandler](./imessagehandler/) | Kaynak dengelemenin sonuçlarını sağlayan bir geri aramayı temsil eder. |
+| [IProgressNotificationCallback](./iprogressnotificationcallback/) | Uzun süren proje işlemleri sırasında bildirimleri almak için bir geri arama arayüzünü temsil eder. |
+## Numaralandırma
 
-| numaralandırma | Tanım |
+| Numaralandırma | Açıklama |
 | --- | --- |
 | [ApplicationInfo](./applicationinfo/) | Dosyanın oluşturulduğu proje sürümünü belirtir. |
-| [AsnKey](./asnkey/) | Desteklenen atama alanlarının listesini temsil eder. |
-| [BackgroundPattern](./backgroundpattern/) | Arka plan modelini belirtir. |
-| [BaselineType](./baselinetype/) | Varyans değerlerini hesaplamak için kullanılan taban tipini belirtir. |
-| [BookingType](./bookingtype/) | Bir kaynağın ayırma türünü belirtir. |
+| [AsnKey](./asnkey/) | Desteklenen atama alanlarının bir listesini temsil eder. |
+| [BackgroundPattern](./backgroundpattern/) | Arka plan desenini belirtir. |
+| [BaselineType](./baselinetype/) | Varyans değerlerini hesaplamak için kullanılan temel çizgi tipini belirtir. |
+| [BookingType](./bookingtype/) | Bir kaynağın rezervasyon tipini belirtir. |
 | [CalculationMode](./calculationmode/) | Proje hesaplama modunu belirtir. |
-| [CalculationType](./calculationtype/) | Özel öznitelik değerinin hesaplama türünü belirtir. |
-| [CalendarExceptionType](./calendarexceptiontype/) | Takvim istisna türünü belirtir. |
-| [ConstraintType](./constrainttype/) | Bir görevin başlangıç veya bitiş tarihindeki kısıtlamayı belirtir. |
-| [CostAccrualType](./costaccrualtype/) | Bir tahakkuk maliyetinin türünü belirtir. |
-| [CurrencySymbolPositionType](./currencysymbolpositiontype/) | Bir para birimi sembolünün konumunu belirtir. |
-| [CustomFieldType](./customfieldtype/) | Özel alanın türünü belirtir. |
+| [CalculationType](./calculationtype/) | Özel öznitelik değerinin hesaplama tipini belirtir. |
+| [CalendarExceptionType](./calendarexceptiontype/) | Takvim istisna tipini belirtir. |
+| [ConstraintType](./constrainttype/) | Bir görevin başlangıç veya bitiş tarihine ilişkin kısıtlamayı belirtir. |
+| [CostAccrualType](./costaccrualtype/) | Tahakkuk maliyetinin tipini belirtir. |
+| [CurrencySymbolPositionType](./currencysymbolpositiontype/) | Para birimi simgesinin konumunu belirtir. |
+| [CustomFieldType](./customfieldtype/) | Özel alanın tipini belirtir. |
 | [DateFormat](./dateformat/) | Tarih biçimini belirtir. |
 | [DayLabelDisplay](./daylabeldisplay/) | Gün etiketinin nasıl görüntüleneceğini belirtir. |
-| [DayType](./daytype/) | Haftanın gününü belirtir. |
-| [EarnedValueMethodType](./earnedvaluemethodtype/) | Kazanılan değeri hesaplamak için kullanılan yöntemi belirtir. |
+| [DayType](./daytype/) | Bir haftanın gününü belirtir. |
+| [EarnedValueMethodType](./earnedvaluemethodtype/) | Kazanılan değerin hesaplanmasında kullanılan yöntemi belirtir. |
 | [ElementType](./elementtype/) | Bir öğenin türünü belirtir. |
-| [ExtendedAttributeResource](./extendedattributeresource/) | FieldId'nin bir kaynakta kullanılan genişletilmiş özniteliklerini belirtir. |
+| [ExtendedAttributeResource](./extendedattributeresource/) | Bir kaynağın kullandığı genişletilmiş FieldId özniteliklerini belirtir. |
 | [ExtendedAttributeTask](./extendedattributetask/) | Bir görevde kullanılan genişletilmiş FieldId özniteliklerini belirtir. |
 | [Field](./field/) | Microsoft Office Project'te bir alanı belirtir. |
-| [FileFormat](./fileformat/) | Projenin dosya formatını belirtir. |
-| [FilterComparisonType](./filtercomparisontype/) | Filtre için seçim ölçütü görevi gören AlanAdı ve Değer arasında yapılan karşılaştırma türü. |
-| [FilterOperation](./filteroperation/) | FieldName, FilterComparisonType ve Value ile oluşturulan ölçütün filter. 'deki diğer ölçütlerle nasıl ilişkili olduğunu belirtir. |
-| [FontFaceType](./fontfacetype/) | Yazı tipi yüzü tiplerini numaralandırır |
-| [GanttBarSize](./ganttbarsize/) | Nokta cinsinden bir çubuğun yüksekliğini belirtir. |
-| [GroupOn](./groupon/) | Gruplama türünü belirtir. |
+| [FileFormat](./fileformat/) | Projenin dosya biçimini belirtir. |
+| [FilterComparisonType](./filtercomparisontype/) | Filtre veya grafik gösterge için seçim kriteri olarak işlev gören FieldName ve Value arasında yapılan karşılaştırma türü. |
+| [FilterOperation](./filteroperation/) | FieldName, FilterComparisonType ve Value ile oluşturulan kriterin filtredeki diğer kriterlerle nasıl ilişkili olduğunu belirtir. |
+| [FontFaceType](./fontfacetype/) | Yazı tipi yüzü türlerini sıralar |
+| [GanttBarSize](./ganttbarsize/) | Bir çubuğun yüksekliğini puan cinsinden belirtir. |
+| [GraphicalIndicatorCriteriaType](./graphicalindicatorcriteriatype/) | Grafik gösterge kriterlerinin yerleşimini temsil eder. |
+| [GroupOn](./groupon/) | Gruplamanın türünü belirtir. |
 | [HourLabelDisplay](./hourlabeldisplay/) | Saat etiketinin nasıl görüntüleneceğini belirtir. |
 | [HtmlImageType](./htmlimagetype/) | HTML görüntü türünü temsil eder. |
 | [ItemType](./itemtype/) | Bir öğenin türünü belirtir. |
 | [MaskType](./masktype/) | Bir maskenin türünü belirtir. |
+| [MessageLevel](./messagelevel/) | Olası mesaj ayrıntı seviyelerini tanımlar. |
 | [MinuteLabelDisplay](./minutelabeldisplay/) | Dakika etiketinin nasıl görüntüleneceğini belirtir. |
 | [Month](./month/) | Ayı belirtir. |
-| [MonthItemType](./monthitemtype/) | İstisna tekrarının planlandığı ay öğesini belirtir. |
-| [MonthLabelDisplay](./monthlabeldisplay/) | Ay etiketinin nasıl görüntülendiğini belirtir. |
-| [MonthPosition](./monthposition/) | Bir ay öğesinin bir ay içindeki konumunu belirtir. |
-| [OrdinalNumber](./ordinalnumber/) | örneğinde sıralı bir sayıyı temsil eder[`RecurringTaskInfo`](../aspose.tasks/recurringtaskinfo/) sınıf. |
-| [OutlineValueType](./outlinevaluetype/) | Ana hat değerinin türünü belirtir. |
-| [PrjKey](./prjkey/) | Desteklenen proje alanlarının listesini temsil eder. |
-| [RateFormatType](./rateformattype/) | Bir oranı görüntülemek için Microsoft Project tarafından kullanılan birimleri belirtir. |
+| [MonthItemType](./monthitemtype/) | İstisna tekrarı planlanan ay öğesini belirtir. |
+| [MonthLabelDisplay](./monthlabeldisplay/) | Ay etiketinin nasıl görüntüleneceğini belirtir. |
+| [MonthPosition](./monthposition/) | Bir ay içinde ay öğesinin konumunu belirtir. |
+| [OrdinalNumber](./ordinalnumber/) | [`RecurringTaskInfo`](../aspose.tasks/recurringtaskinfo/) sınıfının örneğinde bir sıra sayısını temsil eder. |
+| [OutlineValueType](./outlinevaluetype/) | Bir taslak değerinin türünü belirtir. |
+| [PrimaveraCriticalActivitiesDefiningMethod](./primaveracriticalactivitiesdefiningmethod/) | Primavera'da kritik aktiviteleri tanımlama yöntemini belirtir. |
+| [PrjKey](./prjkey/) | Desteklenen proje alanlarının bir listesini temsil eder. |
+| [RateFormatType](./rateformattype/) | Microsoft Project'in bir oranı görüntülemek için kullandığı birimleri belirtir. |
 | [RateScaleType](./ratescaletype/) | Oran ölçeği türünü belirtir. |
-| [RateType](./ratetype/) | Bir ücret tablosunun benzersiz tanımlayıcılarını belirtir. |
-| [RecurrencePattern](./recurrencepattern/) | Yinelenen bir görevin yineleme modelini temsil eder. |
-| [ResourceExportType](./resourceexporttype/) | HTML biçimi için kaynak dışa aktarma türünü belirtir. |
+| [RateType](./ratetype/) | Bir oran tablosunun benzersiz tanımlayıcılarını belirtir. |
+| [RecurrencePattern](./recurrencepattern/) | Tekrarlayan bir görevin yineleme deseninin bir türünü temsil eder. |
+| [ResourceExportType](./resourceexporttype/) | HTML formatı için kaynak dışa aktarma türünü belirtir. |
 | [ResourceType](./resourcetype/) | Bir kaynağın türünü belirtir. |
-| [ResourceUsageViewField](./resourceusageviewfield/) | içindeki olası alanları temsil eder[`ResourceUsageView`](../aspose.tasks/resourceusageview/) nesne kaynağı kullanımı görüntüleme alanı. |
-| [RollupType](./rolluptype/) | Toplama türünü belirtir. |
-| [RscKey](./rsckey/) | Desteklenen kaynak alanlarının listesini temsil eder. |
-| [SummaryRowsCalculationType](./summaryrowscalculationtype/) | Özet satırları için özel öznitelik değerinin hesaplama türünü belirtir. |
-| [TaskKey](./taskkey/) | Desteklenen görev alanlarının listesini temsil eder. |
-| [TaskLinkType](./tasklinktype/) | Bağımlılık görevlerinin türünü belirtir. |
+| [ResourceUsageViewField](./resourceusageviewfield/) | [`ResourceUsageView`](../aspose.tasks/resourceusageview/) nesnesindeki kaynak kullanım görünümü alanındaki olası alanları temsil eder. |
+| [RollupType](./rolluptype/) | Toplama (rollup) türünü belirtir. |
+| [RscKey](./rsckey/) | Desteklenen kaynak alanlarının bir listesini temsil eder. |
+| [SummaryRowsCalculationType](./summaryrowscalculationtype/) | Özet satırlar için özel öznitelik değerinin hesaplama türünü belirtir. |
+| [TaskKey](./taskkey/) | Desteklenen görev alanlarının bir listesini temsil eder. |
+| [TaskLinkType](./tasklinktype/) | Görev bağımlılıklarının türünü belirtir. |
 | [TaskStartDateType](./taskstartdatetype/) | Bir görevin başlangıç tarihinin türünü belirtir. |
+| [TaskStatus](./taskstatus/) | Bir görevin durumunu belirtir. |
 | [TaskType](./tasktype/) | Bir görevin türünü belirtir. |
-| [TaskUsageViewField](./taskusageviewfield/) | içindeki olası alanları temsil eder[`TaskUsageView`](../aspose.tasks/taskusageview/) nesne. |
-| [TimephasedDataType](./timephaseddatatype/) | Zaman aşamalı verilerin türünü belirtir. |
+| [TaskUsageViewField](./taskusageviewfield/) | [`TaskUsageView`](../aspose.tasks/taskusageview/) nesnesindeki olası alanları temsil eder. |
+| [TimephasedDataType](./timephaseddatatype/) | Zaman aşamalı verinin türünü belirtir. |
 | [TimeUnitType](./timeunittype/) | Bir zaman biriminin türünü belirtir. |
-| [UndefinedConstraintHandlingBehavior](./undefinedconstrainthandlingbehavior/) | Tanımlanmamış kısıtlamalara sahip görevleri işlemek için kullanılan davranışı belirtir. |
-| [ViewScreen](./viewscreen/) | Bir görünüm için ekran tipini belirtir. |
-| [WBSSequence](./wbssequence/) | WBSCodeMask için sırayı belirtir |
-| [WeekdayType](./weekdaytype/) | örneğinde bir projenin hafta içi bir gününü temsil eder[`RecurringTaskInfo`](../aspose.tasks/recurringtaskinfo/) sınıf. |
-| [WeekLabelDisplay](./weeklabeldisplay/) | Hafta etiketinin nasıl görüntülendiğini belirtir. |
-| [WorkContourType](./workcontourtype/) | Bir eserin konturunu belirtir. |
-| [WorkGroupType](./workgrouptype/) | Bir çalışma grubunun türünü belirtir. |
-| [YearLabelDisplay](./yearlabeldisplay/) | Yıl etiketinin nasıl görüntülendiğini belirtir. |
+| [UndefinedConstraintHandlingBehavior](./undefinedconstrainthandlingbehavior/) | Tanımsız kısıtlamalara sahip görevleri işlemek için kullanılan davranışı belirtir. |
+| [VbaModuleType](./vbamoduletype/) | VBA projesindeki bir modülün türünü belirtir. |
+| [ViewScreen](./viewscreen/) | Bir görünüm için ekran türünü belirtir. |
+| [WBSSequence](./wbssequence/) | WBSCodeMask için sıralamayı belirtir. |
+| [WeekdayType](./weekdaytype/) | Bir projenin hafta gününü, [`RecurringTaskInfo`](../aspose.tasks/recurringtaskinfo/) sınıfının örneğinde temsil eder. |
+| [WeekLabelDisplay](./weeklabeldisplay/) | Hafta etiketinin nasıl görüntüleneceğini belirtir. |
+| [WorkContourType](./workcontourtype/) | Bir işin konturunu belirtir. |
+| [WorkGroupType](./workgrouptype/) | Bir iş grubunun türünü belirtir. |
+| [YearLabelDisplay](./yearlabeldisplay/) | Yıl etiketinin nasıl görüntüleneceğini belirtir. |
 
 

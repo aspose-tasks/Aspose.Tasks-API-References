@@ -1,23 +1,23 @@
 ---
-title: Resource.CostPerUse
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. CostPerUse. değerini alır veya ayarlar
+title: "Resource.CostPerUse"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. CostPerUse değerini alır veya ayarlar."
 type: docs
 weight: 270
 url: /tr/net/aspose.tasks/resource/costperuse/
 ---
 ## Resource.CostPerUse property
 
-CostPerUse. değerini alır veya ayarlar
+CostPerUse değerini alır veya ayarlar.
 
 ```csharp
 public decimal CostPerUse { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

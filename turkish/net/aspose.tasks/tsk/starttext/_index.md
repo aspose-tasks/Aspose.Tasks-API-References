@@ -1,9 +1,9 @@
 ---
-title: Tsk.StartText
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Görevin başlangıç metnini döndürür.
+title: "Tsk.StartText"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Görevin başlangıç metnini döndürür."
 type: docs
-weight: 1050
+weight: 1030
 url: /tr/net/aspose.tasks/tsk/starttext/
 ---
 ## Tsk.StartText field
@@ -14,12 +14,26 @@ Görevin başlangıç metnini döndürür.
 public static readonly Key<string, TaskKey> StartText;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.StartText özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StartText, "Start Task Text");
+
+Console.WriteLine("Start Text: " + task.Get(Tsk.StartText));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

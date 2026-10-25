@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.VisualObjectPlacement
-second_title: Aspose.Tasks for .NET API Referansı
-description: VisualObjectPlacement inşaatçı. Yeni bir örneğini başlatır.VisualObjectPlacement sınıf.
+title: "VisualObjectPlacement.VisualObjectPlacement"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VisualObjectPlacement yapıcı. VisualObjectPlacement sınıfının yeni bir örneğini başlatır."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/visualobjectplacement/
 ---
 ## VisualObjectPlacement constructor
 
-Yeni bir örneğini başlatır.[`VisualObjectPlacement`](../) sınıf.
+[`VisualObjectPlacement`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public VisualObjectPlacement()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [VisualObjectPlacement](../)
-* ad alanı [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

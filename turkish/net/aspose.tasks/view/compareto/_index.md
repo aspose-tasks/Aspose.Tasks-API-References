@@ -1,31 +1,31 @@
 ---
-title: View.CompareTo
-second_title: Aspose.Tasks for .NET API Referansı
-description: View yöntem. Geçerli örneği aynı türden başka bir nesneyle karşılaştırır ve geçerli örneğin diğer nesneyle sıralama düzeninde aynı konumda olup olmadığını gösteren bir tamsayı döndürür.
+title: "View.CompareTo"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "View yöntemi. Mevcut örneği aynı türdeki başka bir nesneyle karşılaştırır ve mevcut örneğin diğer nesneye göre sıralama düzeninde önce mi, sonra mı yoksa aynı konumda mı olduğunu belirten bir tam sayı döndürür."
 type: docs
 weight: 140
 url: /tr/net/aspose.tasks/view/compareto/
 ---
 ## View.CompareTo method
 
-Geçerli örneği aynı türden başka bir nesneyle karşılaştırır ve geçerli örneğin diğer nesneyle sıralama düzeninde aynı konumda olup olmadığını gösteren bir tamsayı döndürür.
+Mevcut örneği aynı türdeki başka bir nesneyle karşılaştırır ve mevcut örneğin diğer nesneye göre sıralama düzeninde önce mi, sonra mı yoksa aynı konumda mı olduğunu belirten bir tam sayı döndürür.
 
 ```csharp
 public int CompareTo(View other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | View | bu örneği karşılaştırmak için belirtilen View nesnesi. |
+| diğer | View | bu örneği karşılaştırmak için belirtilen View nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Karşılaştırılan nesnelerin göreli sırasını gösteren 32 bit işaretli bir tamsayı. Dönüş değeri şu anlamlara sahiptir: Değer Anlamı Sıfırdan küçük Bu örnek önce gelir*other* sıralama düzeninde. Sıfır Bu örnek, sıralama düzeninde şu şekilde aynı konumda gerçekleşir:*other* . Sıfırdan büyük Bu örnek aşağıdaki gibidir*other* sıralama düzeninde.
+Karşılaştırılan nesnelerin göreceli sırasını belirten 32 bit işaretli bir tam sayı. Döndürülen değer aşağıdaki anlamlara sahiptir: Değer Anlamı Sıfırdan küçük Bu örnek sıralama düzeninde *other* nesnesinden önce gelir. Sıfır Bu örnek sıralama düzeninde *other* nesnesiyle aynı konumda yer alır. Sıfırdan büyük Bu örnek sıralama düzeninde *other* nesnesinden sonra gelir.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [View](../)
-* ad alanı [Aspose.Tasks](../../view/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

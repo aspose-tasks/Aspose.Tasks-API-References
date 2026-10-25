@@ -1,27 +1,40 @@
 ---
-title: Duration.ToString
-second_title: Aspose.Tasks for .NET API Referansı
-description: Duration yöntem. Bu örneğin dize gösterimini döndürür.
+title: "Duration.ToString"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Duration yöntemi. Bu örneğin string temsili döndürür"
 type: docs
 weight: 120
 url: /tr/net/aspose.tasks/duration/tostring/
 ---
 ## Duration.ToString method
 
-Bu örneğin dize gösterimini döndürür.
+Bu örneğin dize temsili döndürür.
 
 ```csharp
 public override string ToString()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu örneğin bir dize temsili.
+Bu örneğin string temsili.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir süreyi stringe nasıl dönüştüreceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// görev süresini al
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("The duration as a string: " + duration.ToString());
+```
+
+### Ayrıca Bakınız
 
 * struct [Duration](../)
-* ad alanı [Aspose.Tasks](../../duration/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

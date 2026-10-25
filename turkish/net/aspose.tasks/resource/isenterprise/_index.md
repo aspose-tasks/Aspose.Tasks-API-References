@@ -1,24 +1,24 @@
 ---
-title: Resource.IsEnterprise
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. IsEnterpriseın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+title: "Resource.IsEnterprise"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. IsEnterprise'in ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar"
 type: docs
 weight: 440
 url: /tr/net/aspose.tasks/resource/isenterprise/
 ---
 ## Resource.IsEnterprise property
 
-IsEnterprise'ın ayarlanıp ayarlanmadığını gösteren bir değer alır veya ayarlar.
+IsEnterprise'ın ayarlanıp ayarlanmadığını gösteren bir değeri alır veya ayarlar.
 
 ```csharp
 public NullableBool IsEnterprise { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

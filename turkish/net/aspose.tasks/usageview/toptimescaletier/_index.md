@@ -1,24 +1,53 @@
 ---
-title: UsageView.TopTimescaleTier
-second_title: Aspose.Tasks for .NET API Referansı
-description: UsageView mülk. Görünümün en üst zaman ölçeği katmanının ayarlarını alır veya ayarlar. TimescaleTier .
+title: "UsageView.TopTimescaleTier"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "UsageView özelliği. Görünümlerin üst zaman ölçeği katmanının ayarlarını alır veya ayarlar. TimescaleTier"
 type: docs
 weight: 80
 url: /tr/net/aspose.tasks/usageview/toptimescaletier/
 ---
 ## UsageView.TopTimescaleTier property
 
-Görünümün en üst zaman ölçeği katmanının ayarlarını alır veya ayarlar. [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier/) .
+Görünümün üst zaman ölçeği katmanının ayarlarını alır veya ayarlar. [`TimescaleTier`](../../../aspose.tasks.visualization/timescaletier/).
 
 ```csharp
 public TimescaleTier TopTimescaleTier { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Görünüm ayarlarında tanımlanan zaman ölçeği ayarlarıyla görev kullanım görünümünün nasıl oluşturulacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = project.Views.ToList()[2] as TaskUsageView;
+
+view.TopTimescaleTier.Unit = TimescaleUnit.None;
+
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddMDd;
+view.MiddleTimescaleTier.Count = 1;
+
+view.BottomTimescaleTier.Unit = TimescaleUnit.Days;
+view.BottomTimescaleTier.Label = DateLabel.DayMmDd;
+view.BottomTimescaleTier.Count = 1;
+
+// SaveOptions'ı tanımlayın ve TaskUsageView zaman ölçeği ayarlarının kullanılmasını belirtin.
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+
+project.Save(OutDir + "TaskUsageView_CustomTimescale_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * class [TimescaleTier](../../../aspose.tasks.visualization/timescaletier/)
 * class [UsageView](../)
-* ad alanı [Aspose.Tasks](../../usageview/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../usageview/)
+* assembly [Aspose.Tasks](../../../)
 
 

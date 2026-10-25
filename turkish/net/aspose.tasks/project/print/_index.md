@@ -1,150 +1,277 @@
 ---
-title: Project.Print
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Standart Kullanıcı Arayüzü yok yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarlarıyla varsayılan yazıcıya yazdırır.
+title: "Project.Print"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Standart kullanıcı arayüzü olmayan yazdırma denetleyicisini kullanarak varsayılan yazıcı ayarlarıyla projeyi varsayılan yazıcıya yazdırır"
 type: docs
-weight: 1110
+weight: 1140
 url: /tr/net/aspose.tasks/project/print/
 ---
 ## Print() {#print}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarlarıyla varsayılan yazıcıya yazdırır.
+Standart (kullanıcı arayüzü olmadan) yazdırma denetleyicisini kullanarak projenin varsayılan yazıcıya, varsayılan yazıcı ayarlarıyla yazdırır.
 
 ```csharp
 public void Print()
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir projeyi nasıl yazdıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Print();
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrintOptions) {#print_1}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarları ve özel kaydetme seçenekleriyle varsayılan yazıcıya yazdırır.
+Standart (kullanıcı arayüzü olmadan) yazdırma denetleyicisini kullanarak projenin varsayılan yazıcıya, varsayılan yazıcı ayarları ve özel kaydetme seçenekleriyle yazdırır.
 
 ```csharp
 public void Print(PrintOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıf. |
+| options | PrintOptions | belirtilen [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıfının örneği. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Yazdırma seçeneklerini kullanarak bir projeyi nasıl yazdıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var options = new PrintOptions
+{
+    Timescale = Timescale.ThirdsOfMonths
+};
+if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
+{
+    project.Print(options);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(string) {#print_6}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi varsayılan yazıcı ayarlarıyla belirtilen yazıcıya yazdırır.
+Standart (kullanıcı arayüzü olmadan) yazdırma denetleyicisini kullanarak projenin belirtilen yazıcıya, varsayılan yazıcı ayarlarıyla yazdırır.
 
 ```csharp
 public void Print(string printerName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| printerName | String | Belirtilen yazıcı adı. |
+| printerName | Dize | Belirtilen yazıcı adı. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Seçilen yazıcıda projeyi nasıl yazdıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+foreach (string printer in PrinterSettings.InstalledPrinters)
+{
+    if (!printer.ToUpperInvariant().Contains("Microsoft Print to PDF".ToUpperInvariant()))
+    {
+        continue;
+    }
+
+    project.Print(printer);
+    break;
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings) {#print_2}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi belirtilen yazıcı ayarlarına göre yazdırır.
+Standart (kullanıcı arayüzü olmadan) yazdırma denetleyicisini kullanarak projenin belirtilen yazıcı ayarlarına göre yazdırır.
 
 ```csharp
 public void Print(PrinterSettings printerSettings)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | belirtilen örneğiPrinterSettings sınıf. |
+| printerSettings | PrinterSettings | PrinterSettings sınıfının belirtilen örneği. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Yazıcı ayarlarını kullanarak projeyi nasıl yazdıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// İlk iki sayfayı yazdır
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings);
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, string) {#print_5}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi belirtilen yazıcı ayarlarına göre yazdırır.
+Standart (kullanıcı arayüzü olmadan) yazdırma denetleyicisini kullanarak projenin belirtilen yazıcı ayarlarına göre yazdırır.
 
 ```csharp
 public void Print(PrinterSettings printerSettings, string documentName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | belirtilen örneğiPrinterSettings sınıf. |
-| documentName | String | görüntülenecek belge adı (örneğin, bir yazdırma durumu iletişim kutusunda veya yazıcı kuyruğunda). |
+| printerSettings | PrinterSettings | PrinterSettings sınıfının belirtilen örneği. |
+| documentName | Dize | gösterilecek belge adı (örneğin, bir yazdırma durumu ileti kutusunda veya yazıcı kuyruğunda). |
 
-### Ayrıca bakınız
+## Örnekler
+
+Yazıcı ayarlarını ve bir belge adını kullanarak projeyi nasıl yazdıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// İlk iki sayfayı yazdır
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings, "Document #1");
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, PrintOptions) {#print_3}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi belirtilen yazıcı ayarlarına ve özel kaydetme seçeneklerine göre yazdırır.
+Standart (kullanıcı arayüzü olmadan) yazdırma denetleyicisini kullanarak projenin belirtilen yazıcı ayarları ve özel kaydetme seçeneklerine göre yazdırır.
 
 ```csharp
 public void Print(PrinterSettings printerSettings, PrintOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | belirtilen örneğiPrinterSettings sınıf. |
-| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıf. |
+| printerSettings | PrinterSettings | PrinterSettings sınıfının belirtilen örneği. |
+| options | PrintOptions | belirtilen [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıfının örneği. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Yazıcı seçeneklerini ve ayarlarını kullanarak projeyi nasıl yazdıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var options = new PrintOptions
+{
+    Timescale = Timescale.Months
+};
+
+// İlk iki sayfayı yazdır
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings, options);
+```
+
+### Ayrıca Bakınız
 
 * class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Print(PrinterSettings, PrintOptions, string) {#print_4}
 
-Standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak projeyi belirtilen yazıcı ayarlarına, özel kaydetme seçeneklerine ve belirtilen belge adına göre yazdırır.
+Standart (kullanıcı arayüzü olmadan) yazdırma denetleyicisini kullanarak projenin belirtilen yazıcı ayarları, özel kaydetme seçenekleri ve belirtilen belge adıyla yazdırır.
 
 ```csharp
 public void Print(PrinterSettings printerSettings, PrintOptions options, string documentName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | belirtilen örneğiPrinterSettings sınıf. |
-| options | PrintOptions | belirtilen örneği[`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıf. |
-| documentName | String | görüntülenecek belge adı (örneğin, bir yazdırma durumu iletişim kutusunda veya yazıcı kuyruğunda). |
+| printerSettings | PrinterSettings | PrinterSettings sınıfının belirtilen örneği. |
+| options | PrintOptions | belirtilen [`PrintOptions`](../../../aspose.tasks.saving/printoptions/) sınıfının örneği. |
+| documentName | Dize | gösterilecek belge adı (örneğin, bir yazdırma durumu ileti kutusunda veya yazıcı kuyruğunda). |
 
-### Ayrıca bakınız
+## Örnekler
+
+Yazıcı seçeneklerini, yazıcı ayarlarını ve belge adını kullanarak projeyi nasıl yazdıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var options = new PrintOptions
+{
+    Timescale = Timescale.Months
+};
+
+// İlk iki sayfayı yazdır
+var settings = new PrinterSettings
+{
+    PrintRange = PrintRange.SomePages,
+    FromPage = 1,
+    ToPage = 2
+};
+
+project.Print(settings, options, "My project name");
+```
+
+### Ayrıca Bakınız
 
 * class [PrintOptions](../../../aspose.tasks.saving/printoptions/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

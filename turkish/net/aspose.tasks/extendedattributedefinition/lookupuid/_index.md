@@ -1,27 +1,74 @@
 ---
-title: ExtendedAttributeDefinition.LookupUid
-second_title: Aspose.Tasks for .NET API Referansı
-description: ExtendedAttributeDefinition mülk. Özel bir alanla ilişkili arama tablosunun bir Kılavuzunu alır.
+title: "ExtendedAttributeDefinition.LookupUid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ExtendedAttributeDefinition özelliği. Özel bir alana bağlı arama tablosunun Guid'ini alır."
 type: docs
-weight: 170
+weight: 180
 url: /tr/net/aspose.tasks/extendedattributedefinition/lookupuid/
 ---
 ## ExtendedAttributeDefinition.LookupUid property
 
-Özel bir alanla ilişkili arama tablosunun bir Kılavuzunu alır.
+Özel bir alanla ilişkili arama tablosunun GUID'sini alır.
 
 ```csharp
 public string LookupUid { get; }
 ```
 
-### Notlar
+## Açıklamalar
 
-Arama ile özel bir alan oluşturmak için fabrika yöntemlerinden birini kullanın:[`CreateLookupTaskDefinition`](../createlookuptaskdefinition/) veya[`CreateLookupResourceDefinition`](../createlookupresourcedefinition/) .
+Arama ile bir özel alan oluşturmak için, fabrikadan bir yöntemi kullanın: [`CreateLookupTaskDefinition`](../createlookuptaskdefinition/) veya [`CreateLookupResourceDefinition`](../createlookupresourcedefinition/).
 
-### Ayrıca bakınız
+## Örnekler
+
+Genişletilmiş öznitelik tanımının ortak bilgilerini nasıl okuyacağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "MultipleOutlineValues2016.mpp");
+
+// genişletilmiş öznitelik tanımı bilgilerini oku
+foreach (var definition in project.ExtendedAttributes)
+{
+    Console.WriteLine("Guid:" + definition.Guid);
+    Console.WriteLine("Secondary Guid:" + definition.SecondaryGuid);
+    Console.WriteLine("Secondary Pid:" + definition.SecondaryPid);
+    Console.WriteLine("Alias:" + definition.Alias);
+    Console.WriteLine("Phonetics Alias:" + definition.PhoneticsAlias);
+    Console.WriteLine("Field Id:" + definition.FieldId);
+    Console.WriteLine("Project Name:" + definition.ParentProject.Get(Prj.Name));
+
+    Console.WriteLine("Append New Values:" + definition.AppendNewValues);
+    Console.WriteLine("Auto RollDown:" + definition.AutoRollDown);
+    Console.WriteLine("Calculation Type:" + definition.CalculationType);
+    Console.WriteLine("Field Name" + definition.FieldName);
+    Console.WriteLine("Is User Defined Custom Field:" + definition.UserDef);
+    Console.WriteLine("Rollup Type:" + definition.RollupType);
+
+    if (definition.CalculationType == CalculationType.Lookup)
+    {
+        Console.WriteLine("  Next properties are used only for lookups:");
+        Console.WriteLine("  Default Guid:" + definition.DefaultGuid);
+        Console.WriteLine("  Element Type:" + definition.ElementType);
+        Console.WriteLine("  Lookup Uid:" + definition.LookupUid);
+        Console.WriteLine("  Restrict Values:" + definition.RestrictValues);
+        Console.WriteLine("  Max Multi Values:" + definition.MaxMultiValues);
+        Console.WriteLine("  Valuelist Sort Order:" + definition.ValuelistSortOrder);
+        Console.WriteLine("  Default Value:" + definition.Default);
+        Console.WriteLine("  Print values from value list:");
+        foreach (var value in definition.ValueList)
+        {
+            Console.WriteLine("    Description: " + value.Description);
+            Console.WriteLine("    Value: " + value.Val);
+        }
+    }
+
+    Console.WriteLine();
+}
+```
+
+### Ayrıca Bakınız
 
 * class [ExtendedAttributeDefinition](../)
-* ad alanı [Aspose.Tasks](../../extendedattributedefinition/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

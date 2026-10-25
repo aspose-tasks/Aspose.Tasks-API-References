@@ -1,24 +1,24 @@
 ---
-title: Resource.BookingType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. BookingType. değerini alır veya ayarlar
+title: "Resource.BookingType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Değer alır veya ayarlar, BookingType değerini"
 type: docs
 weight: 190
 url: /tr/net/aspose.tasks/resource/bookingtype/
 ---
 ## Resource.BookingType property
 
-BookingType. değerini alır veya ayarlar
+BookingType değerini alır veya ayarlar.
 
 ```csharp
 public BookingType BookingType { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [BookingType](../../bookingtype/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Resource.Id
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir Id. değeri alır veya ayarlar
+title: "Resource.Id"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Id değerini alır veya ayarlar"
 type: docs
 weight: 390
 url: /tr/net/aspose.tasks/resource/id/
 ---
 ## Resource.Id property
 
-Bir Id. değeri alır veya ayarlar
+Id değerini alır veya ayarlar.
 
 ```csharp
 public int Id { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

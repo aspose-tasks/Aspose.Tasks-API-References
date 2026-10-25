@@ -1,25 +1,53 @@
 ---
-title: Rsc.SV
-second_title: Aspose.Tasks for .NET API Referansı
-description: Rsc alan. Proje durumu tarihi aracılığıyla kazanılan değer çizelgesi farkı. SV gerçekleştirilen işin bütçelenmiş maliyeti GÇBM ile planlanan işin bütçelenmiş maliyeti ZÇBM arasındaki farktır.
+title: "Rsc.SV"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Rsc alanı. Proje durum tarihine kadar kazanılmış değer zaman çizelgesi sapması. SV, gerçekleşen işin bütçelenen maliyeti (BCWP) ile planlanan işin bütçelenen maliyeti (BCWS) arasındaki farktır."
 type: docs
-weight: 660
+weight: 650
 url: /tr/net/aspose.tasks/rsc/sv/
 ---
 ## Rsc.SV field
 
-Proje durumu tarihi aracılığıyla kazanılan değer çizelgesi farkı. SV, gerçekleştirilen işin bütçelenmiş maliyeti (GÇBM) ile planlanan işin bütçelenmiş maliyeti (ZÇBM) arasındaki farktır.
+Proje durum tarihine kadar kazanılan değer zaman sapması. SV, gerçekleştirilen işin bütçelenen maliyeti (BCWP) ile planlanan işin bütçelenen maliyeti (BCWS) arasındaki farktır.
 
 ```csharp
 public static readonly Key<double, RscKey> SV;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaynak maliyetlerini nasıl okuyacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ResourceCosts.mpp");
+
+// Tüm kaynak maliyetlerini göster
+foreach (var res in project.Resources)
+{
+    if (res.Get(Rsc.Name) == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine(res.Get(Rsc.Cost));
+    Console.WriteLine(res.Get(Rsc.ACWP));
+    Console.WriteLine(res.Get(Rsc.BCWS));
+    Console.WriteLine(res.Get(Rsc.BCWP));
+
+    // CV = BCWP - ACWP
+    Console.WriteLine(res.Get(Rsc.CV));
+
+    // SV = BCWP - BCWS
+    Console.WriteLine(res.Get(Rsc.SV));
+}
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* ad alanı [Aspose.Tasks](../../rsc/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

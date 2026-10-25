@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Guid
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. Bu atama için benzersiz tanımlayıcıyı alır veya ayarlar.
+title: "ResourceAssignment.Guid"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. Bu atama için benzersiz tanımlayıcıyı alır veya ayarlar"
 type: docs
 weight: 290
 url: /tr/net/aspose.tasks/resourceassignment/guid/
@@ -14,10 +14,23 @@ Bu atama için benzersiz tanımlayıcıyı alır veya ayarlar.
 public Guid? Guid { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir kaynak atama GUID'sinin nasıl okunacağını gösterir.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Resource");
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+Console.WriteLine(assignment.Guid);
+```
+
+### Ayrıca Bakınız
 
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

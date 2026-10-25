@@ -1,28 +1,49 @@
 ---
-title: ResourceUsageViewFieldCollection.GetEnumerator
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceUsageViewFieldCollection yöntem. Bu koleksiyon için bir numaralandırıcı döndürür.
+title: "ResourceUsageViewFieldCollection.GetEnumerator"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceUsageViewFieldCollection yöntemi. Bu koleksiyon için bir enumerator döndürür"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/resourceusageviewfieldcollection/getenumerator/
 ---
 ## ResourceUsageViewFieldCollection.GetEnumerator method
 
-Bu koleksiyon için bir numaralandırıcı döndürür.
+Bu koleksiyon için bir enumerator döndürür.
 
 ```csharp
 public IEnumerator<ResourceUsageViewField> GetEnumerator()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu koleksiyon için bir numaralandırıcı.
+bu koleksiyon için bir yineleyici.
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir ResourceUsageView örneğinin alan koleksiyonuyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// Koleksiyon bir ResourceUsageViewField listesine dönüştürülebilir.
+IList<ResourceUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### Ayrıca Bakınız
 
 * enum [ResourceUsageViewField](../../resourceusageviewfield/)
 * class [ResourceUsageViewFieldCollection](../)
-* ad alanı [Aspose.Tasks](../../resourceusageviewfieldcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceusageviewfieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

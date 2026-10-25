@@ -1,27 +1,45 @@
 ---
-title: ExtendedAttribute.ToString
-second_title: Aspose.Tasks for .NET API Referansı
-description: ExtendedAttribute yöntem. Genişletilmiş özniteliğin kısa dize gösterimini döndürür.
+title: "ExtendedAttribute.ToString"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ExtendedAttribute yöntemi. Genişletilmiş bir özniteliğin kısa dize temsilini döndürür"
 type: docs
 weight: 110
 url: /tr/net/aspose.tasks/extendedattribute/tostring/
 ---
 ## ExtendedAttribute.ToString method
 
-Genişletilmiş özniteliğin kısa dize gösterimini döndürür.
+Bir genişletilmiş özniteliğin kısa dize temsilini döndürür.
 
 ```csharp
 public override string ToString()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Genişletilmiş özniteliğin dize gösterimi.
+Genişletilmiş özniteliğin dize temsili.
 
-### Ayrıca bakınız
+## Örnekler
+
+Genişletilmiş öznitelikleri okumanın nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadTaskExtendedAttributes.mpp");
+
+// Görevler için genişletilmiş öznitelikleri okuyun
+foreach (var task in project.RootTask.Children)
+{
+    foreach (var attribute in task.ExtendedAttributes)
+    {
+        // genişletilmiş öznitelik hakkında ortak bilgileri oku
+        Console.WriteLine("Extended Attribute: " + attribute.ToString());
+    }
+}
+```
+
+### Ayrıca Bakınız
 
 * class [ExtendedAttribute](../)
-* ad alanı [Aspose.Tasks](../../extendedattribute/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

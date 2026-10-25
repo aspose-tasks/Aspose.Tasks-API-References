@@ -1,31 +1,49 @@
 ---
-title: TaskUtils.Apply
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskUtils yöntem. Bir ağacın her görevine belirtilen algoritmayı uygular.
+title: "TaskUtils.Apply"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskUtils yöntemi. Belirtilen algoritmayı bir ağacın her görevine uygular."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.util/taskutils/apply/
 ---
 ## TaskUtils.Apply method
 
-Bir ağacın her görevine belirtilen algoritmayı uygular.
+Belirtilen algoritmayı bir ağacın her görevine uygular.
 
 ```csharp
 public static void Apply(Task root, ITreeAlgorithm<Task> alg, int level)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| root | Task | ağacın kökü |
+| root | Görev | Ağacın kökü |
 | alg | ITreeAlgorithm`1 | Uygulanan algoritma. |
-| level | Int32 | Kök görevin düzeyi. |
+| seviye | Int32 | Kök görevin seviyesi. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Ağaç algoritmasıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// tüm proje görevlerini topla
+var coll = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, coll, 0);
+
+// görevleri düz bir liste gibi işle
+foreach (var task in coll.Tasks)
+{
+    Console.WriteLine("Task Name: " + task.Get(Tsk.Name));
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Task](../../../aspose.tasks/task/)
 * interface [ITreeAlgorithm&lt;T&gt;](../../itreealgorithm-1/)
 * class [TaskUtils](../)
-* ad alanı [Aspose.Tasks.Util](../../taskutils/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../taskutils/)
+* assembly [Aspose.Tasks](../../../)
 
 

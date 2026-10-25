@@ -1,23 +1,23 @@
 ---
-title: Resource.Name
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Bir Ad değeri alır veya ayarlar.
+title: "Resource.Name"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Değer alır veya ayarlar, Name değerini"
 type: docs
 weight: 510
 url: /tr/net/aspose.tasks/resource/name/
 ---
 ## Resource.Name property
 
-Bir Ad değeri alır veya ayarlar.
+Name değerini alır veya ayarlar.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

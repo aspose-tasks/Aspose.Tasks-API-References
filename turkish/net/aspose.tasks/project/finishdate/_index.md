@@ -1,23 +1,23 @@
 ---
-title: Project.FinishDate
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. FinishDate. değerini alır veya ayarlar
+title: "Project.FinishDate"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. FinishDate değerini alır veya ayarlar"
 type: docs
-weight: 420
+weight: 430
 url: /tr/net/aspose.tasks/project/finishdate/
 ---
 ## Project.FinishDate property
 
-FinishDate. değerini alır veya ayarlar
+FinishDate'in bir değerini alır veya ayarlar.
 
 ```csharp
 public DateTime FinishDate { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

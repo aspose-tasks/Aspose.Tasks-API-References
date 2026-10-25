@@ -1,159 +1,183 @@
 ---
-title: Enum TaskKey
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.TaskKey Sıralama. Desteklenen görev alanlarının listesini temsil eder.
+title: "Enum TaskKey"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.TaskKey enum. Desteklenen görev alanlarının bir listesini temsil eder"
 type: docs
-weight: 2110
+weight: 2400
 url: /tr/net/aspose.tasks/taskkey/
 ---
 ## TaskKey enumeration
 
-Desteklenen görev alanlarının listesini temsil eder.
+Desteklenen görev alanlarının bir listesini temsil eder.
 
 ```csharp
-public enum TaskKey
+public enum TaskKey : byte
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Uid | `0` | Benzersiz Kimlik (Görev) alanını temsil eder. |
-| Id | `1` | Kimlik (Görev) alanını temsil eder. |
-| Name | `2` | Ad (Görev) alanını temsil eder. |
-| Type | `3` | Tür (Görev) alanını temsil eder. |
-| IsNull | `4` | IsNull (Görev) alanını temsil eder. |
-| Created | `5` | Oluşturulan (Görev) alanını temsil eder. |
-| Contact | `6` | Kişi (Görev) alanını temsil eder. |
-| WBS | `7` | WBS (Görev) alanını temsil eder. |
-| WBSLevel | `8` | WBSLevel (Görev) alanını temsil eder. |
-| OutlineNumber | `9` | AnahatNumarası (Görev) alanını temsil eder. |
-| OutlineLevel | `10` | Anahat Düzeyi (Görev) alanını temsil eder. |
-| Priority | `11` | Öncelik (Görev) alanını temsil eder. |
-| Start | `12` | Başlat (Görev) alanını temsil eder. |
-| Finish | `13` | Bitir (Görev) alanını temsil eder. |
-| Duration | `14` | Süre (Görev) alanını temsil eder. |
-| DurationVariance | `15` | DurationVariance (Görev) alanını temsil eder. |
-| DurationFormat | `16` | DurationFormat (Görev) alanını temsil eder. |
-| Work | `17` | İş (Görev) alanını temsil eder. |
-| Stop | `18` | Durdur (Görev) alanını temsil eder. |
-| Resume | `19` | Sürdür (Görev) alanını temsil eder. |
-| IsResumeValid | `20` | IsResumeValid (Görev) alanını temsil eder. |
-| IsEffortDriven | `21` | IsEffortDriven (Görev) alanını temsil eder. |
-| IsRecurring | `22` | IsRecurring (Görev) alanını temsil eder. |
-| IsOverallocated | `23` | IsOverallocated (Görev) alanını temsil eder. |
-| HasOverallocatedResource | `24` | HasOverallocatedResource (Görev) alanını temsil eder. |
-| IsEstimated | `25` | Tahmin Edilen (Görev) alanını temsil eder. |
-| IsMilestone | `26` | IsMilestone (Görev) alanını temsil eder. |
-| IsCritical | `27` | IsCritical (Görev) alanını temsil eder. |
-| IsSubproject | `28` | IsSubproject (Görev) alanını temsil eder. |
-| IsSubprojectReadOnly | `29` | IsSubprojectReadOnly (Görev) alanını temsil eder. |
-| IsMarked | `30` | IsMarked (Görev) alanını temsil eder. |
-| IgnoreWarnings | `31` | Uyarıları Yoksay (Görev) alanını temsil eder. |
-| SubprojectName | `32` | Alt ProjeAdı (Görev) alanını temsil eder. |
-| IsExternalTask | `33` | IsExternalTask (Görev) alanını temsil eder. |
-| IsSummary | `34` | Özet (Görev) alanını temsil eder. |
-| ExternalTaskProject | `35` | ExternalTaskProject (Görev) alanını temsil eder. |
-| ExternalId | `36` | ExternalId (Görev) alanını temsil eder. |
-| ExternalKey | `37` | ExternalKey (Görev) alanını temsil eder. |
-| EarlyStart | `38` | EarlyStart (Görev) alanını temsil eder. |
-| EarlyFinish | `39` | EarlyFinish (Görev) alanını temsil eder. |
-| LateStart | `40` | Geç Başlatma (Görev) alanını temsil eder. |
-| LateFinish | `41` | Geç Bitir (Görev) alanını temsil eder. |
-| StartVariance | `42` | StartVariance (Görev) alanını temsil eder. |
-| FinishVariance | `43` | FinishVariance (Görev) alanını temsil eder. |
-| WorkVariance | `44` | WorkVariance (Görev) alanını temsil eder. |
-| CostVariance | `45` | Maliyet Varyansı (Görev) alanını temsil eder. |
-| FreeSlack | `46` | FreeSlack (Görev) alanını temsil eder. |
-| TotalSlack | `47` | Toplam Bolluk (Görev) alanını temsil eder. |
-| StartSlack | `48` | StartSlack (Görev) alanını temsil eder. |
-| FinishSlack | `49` | FinishSlack (Görev) alanını temsil eder. |
-| FixedCost | `50` | Sabit Maliyet (Görev) alanını temsil eder. |
-| FixedCostAccrual | `51` | SabitMaliyet Tahakkuku (Görev) alanını temsil eder. |
-| PercentComplete | `52` | Yüzde Tamamlanma (Görev) alanını temsil eder. |
-| PercentWorkComplete | `53` | PercentWorkComplete (Görev) alanını temsil eder. |
-| Cost | `54` | Maliyet (Görev) alanını temsil eder. |
-| OvertimeCost | `55` | Fazla MesaiMaliyeti (Görev) alanını temsil eder. |
-| ActualStart | `56` | Gerçek Başlangıç (Görev) alanını temsil eder. |
-| ActualFinish | `57` | Gerçek Bitiş (Görev) alanını temsil eder. |
-| ActualDuration | `58` | Gerçek Süre (Görev) alanını temsil eder. |
-| ActualCost | `59` | Gerçek Maliyet (Görev) alanını temsil eder. |
-| ActualOvertimeCost | `60` | Fiili Fazla MesaiMaliyeti (Görev) alanını temsil eder. |
-| ActualWork | `61` | ActualWork (Görev) alanını temsil eder. |
-| ActualOvertimeWork | `62` | Fiili Fazla Mesai (Görev) alanını temsil eder. |
-| OvertimeWork | `63` | Fazla Mesai (Görev) alanını temsil eder. |
-| RegularWork | `64` | RegularWork (Görev) alanını temsil eder. |
-| RemainingDuration | `65` | Kalan Süre (Görev) alanını temsil eder. |
-| RemainingCost | `66` | Kalan Maliyet (Görev) alanını temsil eder. |
-| RemainingWork | `67` | Kalan Çalışma (Görev) alanını temsil eder. |
-| RemainingOvertimeWork | `68` | Kalan Fazla Mesai (Görev) alanını temsil eder. |
-| RemainingOvertimeCost | `69` | Kalan FazlaMesaiMaliyeti (Görev) alanını temsil eder. |
-| ACWP | `70` | ACWP (Görev) alanını temsil eder. |
-| CV | `71` | CV (Görev) alanını temsil eder. |
-| SV | `72` | SV (Görev) alanını temsil eder. |
-| ConstraintType | `73` | Kısıtlama Türü (Görev) alanını temsil eder. |
-| Calendar | `74` | Takvim (Görev) alanını temsil eder. |
-| ConstraintDate | `75` | Kısıtlama Tarihi (Görev) alanını temsil eder. |
-| Deadline | `76` | Son Tarih (Görev) alanını temsil eder. |
-| LevelAssignments | `77` | Düzey Atamaları (Görev) alanını temsil eder. |
-| LevelingCanSplit | `78` | LevelingCanSplit (Görev) alanını temsil eder. |
-| LevelingDelay | `79` | Düzey Gecikmesi (Görev) alanını temsil eder. |
-| LevelingDelayFormat | `80` | LevelingDelayFormat (Görev) alanını temsil eder. |
-| PreleveledStart | `81` | Ön Düzeyli Başlatma (Görev) alanını temsil eder. |
-| PreleveledFinish | `82` | Ön Düzeyli Bitiş (Görev) alanını temsil eder. |
-| Hyperlink | `83` | Köprü (Görev) alanını temsil eder. |
-| HyperlinkAddress | `84` | HyperlinkAddress (Görev) alanını temsil eder. |
-| HyperlinkSubAddress | `85` | HyperlinkSubAddress (Görev) alanını temsil eder. |
-| IgnoreResourceCalendar | `86` | IgnoreResourceCalendar (Görev) alanını temsil eder. |
-| HideBar | `87` | HideBar (Görev) alanını temsil eder. |
-| IsRollup | `88` | IsRollup (Görev) alanını temsil eder. |
-| BCWS | `89` | ZÇBM (Görev) alanını temsil eder. |
-| BCWP | `90` | GÇBM (Görev) alanını temsil eder. |
-| PhysicalPercentComplete | `91` | PhysicalPercentComplete (Görev) alanını temsil eder. |
-| EarnedValueMethod | `92` | KazanılanDeğerMetodu (Görev) alanını temsil eder. |
-| ActualWorkProtected | `93` | ActualWorkProtected (Görev) alanını temsil eder. |
-| ActualOvertimeWorkProtected | `94` | Fiili FazlaMesaiKorumalı (Görev) alanını temsil eder. |
-| IsPublished | `95` | IsPublished (Görev) alanını temsil eder. |
-| IsScheduled | `96` | IsScheduled (Görev) alanını temsil eder. |
-| StatusManager | `97` | StatusManager (Görev) alanını temsil eder. |
-| CommitmentStart | `98` | Taahhüt Başlatma (Görev) alanını temsil eder. |
-| CommitmentFinish | `99` | TaahhütBitti (Görev) alanını temsil eder. |
-| CommitmentType | `100` | TaahhütTürü (Görev) alanını temsil eder. |
-| IsManual | `101` | IsManual (Görev) alanını temsil eder. |
-| IsExpanded | `102` | IsExpanded (Görev) alanını temsil eder. |
-| Guid | `103` | Kılavuz (Görev) alanını temsil eder. |
-| NotesText | `104` | NotesText (Görev) alanını temsil eder. |
-| NotesRTF | `105` | NotesRTF (Görev) alanını temsil eder. |
-| ManualStart | `106` | ManualStart (Görev) alanını temsil eder. |
-| ManualFinish | `107` | ManualFinish (Görev) alanını temsil eder. |
-| ManualDuration | `108` | ManuelSüre (Görev) alanını temsil eder. |
-| BudgetWork | `109` | BudgetWork (Görev) alanını temsil eder. |
-| BudgetCost | `110` | BudgetCost (Görev) alanını temsil eder. |
-| DisplayAsSummary | `111` | DisplayAsSummary (Görev) alanını temsil eder. |
-| SummaryProgress | `112` | Özet İlerleme (Görev) alanını temsil eder. |
-| IsActive | `113` | Etkin (Görev) alanını temsil eder. |
-| StartText | `114` | Metni Başlat (Görev) alanını temsil eder. |
-| FinishText | `115` | FinishText (Görev) alanını temsil eder. |
-| DurationText | `116` | DurationText (Görev) alanını temsil eder. |
-| CalendarUid | `117` | CalendarUid (Görev) alanını temsil eder. |
-| ParentTaskUid | `118` | ParentTaskUid (Görev) alanını temsil eder. |
-| DisplayOnTimeline | `119` | DisplayOnTimeline (Görev) alanını temsil eder. |
-| TaskIsAssigned | `120` | TaskIsAssigned (Görev) alanını temsil eder. |
-| TaskOriginalStart | `121` | Orijinal başlangıç (Görev) alanını temsil eder. |
-| TaskOriginalFinish | `122` | Orijinal bitiş (Görev) alanını temsil eder. |
-| IsShowBeforeProjectStartDateWarning | `123` | MSP'nin bir görevin proje başlangıç tarihinden önce başladığı uyarısını göstermesini sağlayan bayrağı temsil eder. |
-| Warning | `124` | Görevin zamanlama tutarsızlıkları olduğunu gösteren bayrağı temsil eder. |
-| ParentTaskGuid | `125` | ParentTaskGuid (Görev) alanını temsil eder. |
-| ActivityId | `126` | ActivityId alanını temsil eder (yalnızca Primavera projeleri için geçerlidir). |
-| FreeSlackTimeSpan | `127` | FreeSlack (Görev) alanını temsil eder. |
-| TotalSlackTimeSpan | `128` | Toplam Bolluk (Görev) alanını temsil eder. |
-| StartSlackTimeSpan | `129` | StartSlack (Görev) alanını temsil eder. |
-| FinishSlackTimeSpan | `130` | FinishSlack (Görev) alanını temsil eder. |
-| ExternalUid | `131` | Harici görevin Benzersiz Kimliğini temsil eder. |
+| Uid | `0` | Unique ID (Task) alanını temsil eder. |
+| Id | `1` | Id (Task) alanını temsil eder. |
+| Name | `2` | Name (Task) alanını temsil eder. |
+| Type | `3` | Type (Task) alanını temsil eder. |
+| IsNull | `4` | IsNull (Task) alanını temsil eder. |
+| Created | `5` | Created (Task) alanını temsil eder. |
+| Contact | `6` | Contact (Task) alanını temsil eder. |
+| WBS | `7` | WBS (Task) alanını temsil eder. |
+| WBSLevel | `8` | WBSLevel (Task) alanını temsil eder. |
+| OutlineNumber | `9` | OutlineNumber (Task) alanını temsil eder. |
+| OutlineLevel | `10` | OutlineLevel (Task) alanını temsil eder. |
+| Priority | `11` | Priority (Task) alanını temsil eder. |
+| Start | `12` | Start (Task) alanını temsil eder. |
+| Finish | `13` | Finish (Task) alanını temsil eder. |
+| Duration | `14` | Duration (Task) alanını temsil eder. |
+| DurationVariance | `15` | DurationVariance (Task) alanını temsil eder. |
+| Work | `16` | Work (Task) alanını temsil eder. |
+| Stop | `17` | Stop (Task) alanını temsil eder. |
+| Resume | `18` | Resume (Task) alanını temsil eder. |
+| IsResumeValid | `19` | IsResumeValid (Task) alanını temsil eder. |
+| IsEffortDriven | `20` | IsEffortDriven (Task) alanını temsil eder. |
+| IsRecurring | `21` | IsRecurring (Task) alanını temsil eder. |
+| IsOverallocated | `22` | IsOverallocated (Task) alanını temsil eder. |
+| HasOverallocatedResource | `23` | HasOverallocatedResource (Task) alanını temsil eder. |
+| IsEstimated | `24` | IsEstimated (Task) alanını temsil eder. |
+| IsMilestone | `25` | IsMilestone (Task) alanını temsil eder. |
+| IsCritical | `26` | IsCritical (Task) alanını temsil eder. |
+| IsSubproject | `27` | IsSubproject (Task) alanını temsil eder. |
+| IsSubprojectReadOnly | `28` | IsSubprojectReadOnly (Task) alanını temsil eder. |
+| IsMarked | `29` | IsMarked (Task) alanını temsil eder. |
+| IgnoreWarnings | `30` | IgnoreWarnings (Task) alanını temsil eder. |
+| SubprojectName | `31` | SubprojectName (Task) alanını temsil eder. |
+| IsExternalTask | `32` | IsExternalTask (Task) alanını temsil eder. |
+| IsSummary | `33` | IsSummary (Task) alanını temsil eder. |
+| ExternalTaskProject | `34` | ExternalTaskProject (Task) alanını temsil eder. |
+| ExternalId | `35` | ExternalId (Task) alanını temsil eder. |
+| EarlyStart | `36` | EarlyStart (Task) alanını temsil eder. |
+| EarlyFinish | `37` | EarlyFinish (Task) alanını temsil eder. |
+| LateStart | `38` | LateStart (Task) alanını temsil eder. |
+| LateFinish | `39` | LateFinish (Task) alanını temsil eder. |
+| StartVariance | `40` | StartVariance (Task) alanını temsil eder. |
+| FinishVariance | `41` | FinishVariance (Task) alanını temsil eder. |
+| WorkVariance | `42` | WorkVariance (Task) alanını temsil eder. |
+| CostVariance | `43` | CostVariance (Task) alanını temsil eder. |
+| FreeSlack | `44` | FreeSlack (Task) alanını temsil eder. |
+| TotalSlack | `45` | TotalSlack (Task) alanını temsil eder. |
+| StartSlack | `46` | StartSlack (Task) alanını temsil eder. |
+| FinishSlack | `47` | FinishSlack (Task) alanını temsil eder. |
+| FixedCost | `48` | FixedCost (Task) alanını temsil eder. |
+| FixedCostAccrual | `49` | FixedCostAccrual (Task) alanını temsil eder. |
+| PercentComplete | `50` | PercentComplete (Task) alanını temsil eder. |
+| PercentWorkComplete | `51` | PercentWorkComplete (Task) alanını temsil eder. |
+| Cost | `52` | Cost (Task) alanını temsil eder. |
+| OvertimeCost | `53` | OvertimeCost (Task) alanını temsil eder. |
+| ActualStart | `54` | ActualStart (Task) alanını temsil eder. |
+| ActualFinish | `55` | ActualFinish (Task) alanını temsil eder. |
+| ActualDuration | `56` | ActualDuration (Task) alanını temsil eder. |
+| ActualCost | `57` | ActualCost (Task) alanını temsil eder. |
+| ActualOvertimeCost | `58` | ActualOvertimeCost (Task) alanını temsil eder. |
+| ActualWork | `59` | ActualWork (Task) alanını temsil eder. |
+| ActualOvertimeWork | `60` | ActualOvertimeWork (Task) alanını temsil eder. |
+| OvertimeWork | `61` | OvertimeWork (Task) alanını temsil eder. |
+| RegularWork | `62` | RegularWork (Task) alanını temsil eder. |
+| RemainingDuration | `63` | RemainingDuration (Task) alanını temsil eder. |
+| RemainingCost | `64` | RemainingCost (Task) alanını temsil eder. |
+| RemainingWork | `65` | RemainingWork (Task) alanını temsil eder. |
+| RemainingOvertimeWork | `66` | RemainingOvertimeWork (Task) alanını temsil eder. |
+| RemainingOvertimeCost | `67` | RemainingOvertimeCost (Task) alanını temsil eder. |
+| ACWP | `68` | ACWP (Task) alanını temsil eder. |
+| CV | `69` | CV (Task) alanını temsil eder. |
+| SV | `70` | SV (Task) alanını temsil eder. |
+| ConstraintType | `71` | ConstraintType (Task) alanını temsil eder. |
+| Calendar | `72` | Calendar (Task) alanını temsil eder. |
+| ConstraintDate | `73` | ConstraintDate (Task) alanını temsil eder. |
+| Deadline | `74` | Deadline (Task) alanını temsil eder. |
+| LevelAssignments | `75` | LevelAssignments (Task) alanını temsil eder. |
+| LevelingCanSplit | `76` | LevelingCanSplit (Task) alanını temsil eder. |
+| LevelingDelay | `77` | LevelingDelay (Task) alanını temsil eder. |
+| PreleveledStart | `78` | PreleveledStart (Task) alanını temsil eder. |
+| PreleveledFinish | `79` | PreleveledFinish (Task) alanını temsil eder. |
+| Hyperlink | `80` | Hyperlink (Task) alanını temsil eder. |
+| HyperlinkAddress | `81` | HyperlinkAddress (Task) alanını temsil eder. |
+| HyperlinkSubAddress | `82` | HyperlinkSubAddress (Task) alanını temsil eder. |
+| IgnoreResourceCalendar | `83` | IgnoreResourceCalendar (Task) alanını temsil eder. |
+| HideBar | `84` | HideBar (Task) alanını temsil eder. |
+| IsRollup | `85` | IsRollup (Task) alanını temsil eder. |
+| BCWS | `86` | BCWS (Task) alanını temsil eder. |
+| BCWP | `87` | BCWP (Task) alanını temsil eder. |
+| PhysicalPercentComplete | `88` | PhysicalPercentComplete (Task) alanını temsil eder. |
+| EarnedValueMethod | `89` | EarnedValueMethod (Task) alanını temsil eder. |
+| ActualWorkProtected | `90` | ActualWorkProtected (Task) alanını temsil eder. |
+| ActualOvertimeWorkProtected | `91` | ActualOvertimeWorkProtected (Task) alanını temsil eder. |
+| IsPublished | `92` | IsPublished (Task) alanını temsil eder. |
+| IsScheduled | `93` | IsScheduled (Task) alanını temsil eder. |
+| StatusManager | `94` | StatusManager (Task) alanını temsil eder. |
+| CommitmentStart | `95` | CommitmentStart (Task) alanını temsil eder. |
+| CommitmentFinish | `96` | CommitmentFinish (Task) alanını temsil eder. |
+| CommitmentType | `97` | CommitmentType (Task) alanını temsil eder. |
+| IsManual | `98` | IsManual (Task) alanını temsil eder. |
+| IsExpanded | `99` | IsExpanded (Task) alanını temsil eder. |
+| Guid | `100` | Guid (Task) alanını temsil eder. |
+| NotesText | `101` | NotesText (Task) alanını temsil eder. |
+| NotesRTF | `102` | NotesRTF (Task) alanını temsil eder. |
+| ManualStart | `103` | ManualStart (Task) alanını temsil eder. |
+| ManualFinish | `104` | ManualFinish (Task) alanını temsil eder. |
+| ManualDuration | `105` | ManualDuration (Task) alanını temsil eder. |
+| BudgetWork | `106` | BudgetWork (Task) alanını temsil eder. |
+| BudgetCost | `107` | BudgetCost (Task) alanını temsil eder. |
+| DisplayAsSummary | `108` | DisplayAsSummary (Task) alanını temsil eder. |
+| SummaryProgress | `109` | Summary Progress (Task) alanını temsil eder. |
+| IsActive | `110` | IsActive (Task) alanını temsil eder. |
+| StartText | `111` | StartText (Task) alanını temsil eder. |
+| FinishText | `112` | FinishText (Task) alanını temsil eder. |
+| DurationText | `113` | DurationText (Task) alanını temsil eder. |
+| CalendarUid | `114` | CalendarUid (Task) alanını temsil eder. |
+| ParentTaskUid | `115` | ParentTaskUid (Task) alanını temsil eder. |
+| DisplayOnTimeline | `116` | DisplayOnTimeline (Task) alanını temsil eder. |
+| TaskIsAssigned | `117` | TaskIsAssigned (Task) alanını temsil eder. |
+| TaskOriginalStart | `118` | orijinal başlangıç (Task) alanını temsil eder. |
+| TaskOriginalFinish | `119` | orijinal bitiş (Task) alanını temsil eder. |
+| IsShowBeforeProjectStartDateWarning | `120` | MSP'nin bir görevin proje başlangıç tarihinden önce başladığını gösteren uyarıyı göstermesini sağlayan bayrağı temsil eder. |
+| Warning | `121` | Görevin zamanlama tutarsızlıkları olduğunu gösteren bayrağı temsil eder. |
+| ParentTaskGuid | `122` | ParentTaskGuid (Task) alanını temsil eder. |
+| ActivityId | `123` | ActivityId alanını temsil eder (yalnızca Primavera projeleri için geçerlidir). |
+| FreeSlackTimeSpan | `124` | FreeSlack (Task) alanını temsil eder. |
+| TotalSlackTimeSpan | `125` | TotalSlack (Task) alanını temsil eder. |
+| StartSlackTimeSpan | `126` | StartSlack (Task) alanını temsil eder. |
+| FinishSlackTimeSpan | `127` | FinishSlack (Task) alanını temsil eder. |
+| ExternalUid | `128` | Harici görevin benzersiz kimliğini temsil eder. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Görev özelliklerini okuma/yazma yöntemini gösterir.
+
+```csharp
+var project = new Project();
+
+// Görev ekle ve görev özelliklerini ayarla
+var task = project.RootTask.Children.Add();
+task.Set(Tsk.Name, "Task1");
+task.Set(Tsk.Start, new DateTime(2020, 3, 31, 8, 0, 0));
+task.Set(Tsk.Finish, new DateTime(2020, 3, 31, 17, 0, 0));
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Toplanan tüm görevleri ayrıştır
+foreach (var tsk in collector.Tasks)
+{
+    Console.WriteLine("Task Id: {0}", tsk.Get(Tsk.Id));
+    Console.WriteLine("Task Uid: {0}", tsk.Get(Tsk.Uid));
+    Console.WriteLine("Task Name: {0}", tsk.Get(Tsk.Name));
+    Console.WriteLine("Task Start: {0}", tsk.Get(Tsk.Start));
+    Console.WriteLine("Task Finish: {0}", tsk.Get(Tsk.Finish));
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

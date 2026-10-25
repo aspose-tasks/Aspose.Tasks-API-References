@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.OvertimeWork
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceAssignment mülk. OvertimeWork. değerini alır veya ayarlar.
+title: "ResourceAssignment.OvertimeWork"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceAssignment özelliği. OvertimeWork değerini alır veya ayarlar"
 type: docs
 weight: 410
 url: /tr/net/aspose.tasks/resourceassignment/overtimework/
 ---
 ## ResourceAssignment.OvertimeWork property
 
-OvertimeWork. değerini alır veya ayarlar.
+OvertimeWork değerini alır veya ayarlar.
 
 ```csharp
 public Duration OvertimeWork { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* ad alanı [Aspose.Tasks](../../resourceassignment/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

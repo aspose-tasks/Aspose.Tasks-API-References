@@ -1,9 +1,9 @@
 ---
-title: Tsk.Name
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görevin adı.
+title: "Tsk.Name"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Bir görev adı"
 type: docs
-weight: 830
+weight: 810
 url: /tr/net/aspose.tasks/tsk/name/
 ---
 ## Tsk.Name field
@@ -14,12 +14,39 @@ Bir görevin adı.
 public static readonly Key<string, TaskKey> Name;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Görev özelliklerini okuma/yazma yöntemini gösterir.
+
+```csharp
+var project = new Project();
+
+// Görev ekle ve görev özelliklerini ayarla
+var task = project.RootTask.Children.Add();
+task.Set(Tsk.Name, "Task1");
+task.Set(Tsk.Start, new DateTime(2020, 3, 31, 8, 0, 0));
+task.Set(Tsk.Finish, new DateTime(2020, 3, 31, 17, 0, 0));
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Toplanan tüm görevleri ayrıştır
+foreach (var tsk in collector.Tasks)
+{
+    Console.WriteLine("Task Id: {0}", tsk.Get(Tsk.Id));
+    Console.WriteLine("Task Uid: {0}", tsk.Get(Tsk.Uid));
+    Console.WriteLine("Task Name: {0}", tsk.Get(Tsk.Name));
+    Console.WriteLine("Task Start: {0}", tsk.Get(Tsk.Start));
+    Console.WriteLine("Task Finish: {0}", tsk.Get(Tsk.Finish));
+}
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

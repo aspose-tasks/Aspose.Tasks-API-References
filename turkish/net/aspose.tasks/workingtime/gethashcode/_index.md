@@ -1,27 +1,27 @@
 ---
-title: WorkingTime.GetHashCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: WorkingTime yöntem. Örneği için bir karma kod değeri döndürürWorkingTime sınıf.
+title: "WorkingTime.GetHashCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WorkingTime yöntemi. WorkingTime sınıfının örneği için bir hash kod değeri döndürür"
 type: docs
 weight: 50
 url: /tr/net/aspose.tasks/workingtime/gethashcode/
 ---
 ## WorkingTime.GetHashCode method
 
-Örneği için bir karma kod değeri döndürür[`WorkingTime`](../) sınıf.
+[`WorkingTime`](../) sınıfının örneği için bir hash kod değeri döndürür.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 bu nesne için bir karma kod değeri döndürür.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WorkingTime](../)
-* ad alanı [Aspose.Tasks](../../workingtime/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtime/)
+* assembly [Aspose.Tasks](../../../)
 
 

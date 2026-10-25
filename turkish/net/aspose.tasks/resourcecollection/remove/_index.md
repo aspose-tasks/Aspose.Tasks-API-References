@@ -1,32 +1,32 @@
 ---
-title: ResourceCollection.Remove
-second_title: Aspose.Tasks for .NET API Referansı
-description: ResourceCollection yöntem. Bu ICollectionın Remove yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+title: "ResourceCollection.Remove"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ResourceCollection yöntemi. Bu, sadece NotSupportedException fırlatan ICollections Remove yönteminin taslak uygulamasıdır."
 type: docs
 weight: 90
 url: /tr/net/aspose.tasks/resourcecollection/remove/
 ---
 ## ResourceCollection.Remove method
 
-Bu, ICollection'ın Remove yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+Bu, ICollection'ın Remove metodunun taslak (stub) uygulamasıdır ve yalnızca NotSupportedException fırlatır.
 
 ```csharp
 public bool Remove(Resource item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | Resource | kaldırılacak öğe. |
+| öğe | Kaynak | kaldırılacak öğe. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-`doğru` öğe kaldırılmışsa;`YANLIŞ` aksi takdirde.
+`true` öğe kaldırıldıysa; `false` aksi takdirde.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* ad alanı [Aspose.Tasks](../../resourcecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

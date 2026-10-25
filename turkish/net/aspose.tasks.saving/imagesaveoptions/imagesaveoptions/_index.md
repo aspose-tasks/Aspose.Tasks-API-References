@@ -1,34 +1,50 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Aspose.Tasks for .NET API Referansı
-description: ImageSaveOptions inşaatçı. Yeni bir örneğini başlatır.ImageSaveOptions işlenmiş görüntüleri TIFF PNG BMP veya JPEG formatlarında kaydetmek için kullanılabilen sınıf.
+title: "ImageSaveOptions.ImageSaveOptions"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ImageSaveOptions yapıcı. Render edilen görüntüleri TIFF, PNG, BMP veya JPEG formatlarında kaydetmek için kullanılabilecek ImageSaveOptions sınıfının yeni bir örneğini başlatır."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-Yeni bir örneğini başlatır.[`ImageSaveOptions`](../) işlenmiş görüntüleri TIFF, PNG, BMP veya JPEG formatlarında kaydetmek için kullanılabilen sınıf.
+Render edilen görüntüleri TIFF, PNG, BMP veya JPEG formatlarında kaydetmek için kullanılabilecek [`ImageSaveOptions`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public ImageSaveOptions(SaveFileFormat saveFormat)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| saveFormat | SaveFileFormat | TIFF, PNG, BMP veya JPEG olabilir[`SaveFileFormat`](../../savefileformat/). |
+| saveFormat | SaveFileFormat | TIFF, PNG, BMP veya JPEG[`SaveFileFormat`](../../savefileformat/) olabilir. |
 
-### istisnalar
+### İstisnalar
 
-| istisna | şart |
+| istisna | koşul |
 | --- | --- |
-| ArgumentException | atılmış*saveFormat* geçerli bir resim formatı değil. Geçerli değerler TIFF, PNG, BMP veya JPEG'dir. |
+| ArgumentException | *saveFormat* geçerli bir görüntü formatı değilse fırlatılır. Geçerli değerler TIFF, PNG, BMP veya JPEG'dir. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Projeyi bir akışa görüntü olarak nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // ImageSaveOptions kullanarak projeyi görüntü formatında kaydederiz
+    project.Save(stream, options);
+}
+```
+
+### Ayrıca Bakınız
 
 * enum [SaveFileFormat](../../savefileformat/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,51 +1,195 @@
 ---
-title: Class TimephasedDataCollection
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.TimephasedDataCollection sınıf. Bir koleksiyonu temsil ederTimephasedData nesneler.
+title: "Class TimephasedDataCollection"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.TimephasedDataCollection sınıfı. TimephasedData nesnelerinin bir koleksiyonunu temsil eder."
 type: docs
-weight: 2290
+weight: 2600
 url: /tr/net/aspose.tasks/timephaseddatacollection/
 ---
 ## TimephasedDataCollection class
 
-Bir koleksiyonu temsil eder[`TimephasedData`](../timephaseddata/) nesneler.
+[`TimephasedData`](../timephaseddata/) nesnelerinin bir koleksiyonunu temsil eder.
 
 ```csharp
 public abstract class TimephasedDataCollection : IList<TimephasedData>
 ```
 
-## yapıcılar
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [TimephasedDataCollection](timephaseddatacollection/)() | Yeni bir örneğini başlatır`TimephasedDataCollection` sınıf. |
+| [Count](../../aspose.tasks/timephaseddatacollection/count/) { get; } | `TimephasedDataCollection` nesnesinde bulunan nesne sayısını alır. |
+| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly/) { get; } | ICollection'ın yalnızca okunur olup olmadığını gösteren bir değeri alır. |
+| [Item](../../aspose.tasks/timephaseddatacollection/item/) { get; set; } | Belirtilen indeksteki öğeyi döndürür. set erişicisi desteklenmez. timephased veriyi ayarlamak için özellik. |
 
-## Özellikleri
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.tasks/timephaseddatacollection/count/) { get; } | Bu dosyada bulunan nesnelerin sayısını alır.`TimephasedDataCollection` nesne. |
-| [IsReadOnly](../../aspose.tasks/timephaseddatacollection/isreadonly/) { get; } | olup olmadığını gösteren bir değer alır.ICollection salt okunurdur. |
-| [Item](../../aspose.tasks/timephaseddatacollection/item/) { get; set; } | Belirtilen dizindeki öğeyi döndürür. Ayarlanan erişimci desteklenmiyor. Zaman aşamalı verileri ayarlamak için özelliği. |
+| [Add](../../aspose.tasks/timephaseddatacollection/add/)(TimephasedData) | Bu koleksiyon nesnesine [`TimephasedData`](../timephaseddata/) örneği ekler. |
+| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange/)(IEnumerable&lt;TimephasedData&gt;) | Bu koleksiyon nesnesine [`TimephasedData`](../timephaseddata/) örneklerinin bir koleksiyonunu ekler. |
+| [Clear](../../aspose.tasks/timephaseddatacollection/clear/)() | `TimephasedDataCollection` içindeki tüm öğeleri kaldırır. |
+| [Contains](../../aspose.tasks/timephaseddatacollection/contains/)(TimephasedData) | `TimephasedDataCollection`'ın belirli bir değeri içerip içermediğini belirler. |
+| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto/)(TimephasedData[], int) | `TimephasedDataCollection` öğelerini bir Array'e, belirli bir Array indeksinden başlayarak kopyalar. |
+| [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator/)() | Bu koleksiyon için bir enumerator döndürür. |
+| [Remove](../../aspose.tasks/timephaseddatacollection/remove/)(TimephasedData) | Bu koleksiyon nesnesinden [`TimephasedData`](../timephaseddata/) örneğini kaldırır. |
+| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish/)(TimephasedDataType, DateTime, DateTime) | *startTime* ve *finishTime* arasındaki tüm zaman aşamalarını seçer. Ortalama durumda O(log n) karmaşıklığa sahiptir. |
+| [ToList](../../aspose.tasks/timephaseddatacollection/tolist/)() | `TimephasedDataCollection` nesnesini [`TimephasedData`](../timephaseddata/) nesnelerinin bir listesine dönüştürür. |
 
-## yöntemler
+## Örnekler
 
-| İsim | Tanım |
-| --- | --- |
-| [Add](../../aspose.tasks/timephaseddatacollection/add/)(TimephasedData) | ekler[`TimephasedData`](../timephaseddata/) bu koleksiyon nesnesine örnek. |
-| [AddRange](../../aspose.tasks/timephaseddatacollection/addrange/)(IEnumerable&lt;TimephasedData&gt;) | Bir koleksiyon ekler[`TimephasedData`](../timephaseddata/) bu koleksiyon nesnesine örnekler. |
-| [Clear](../../aspose.tasks/timephaseddatacollection/clear/)() | Tüm öğeleri kaldırır.`TimephasedDataCollection` . |
-| [Contains](../../aspose.tasks/timephaseddatacollection/contains/)(TimephasedData) | olup olmadığını belirler.`TimephasedDataCollection` belirli bir değer içerir. |
-| [CopyTo](../../aspose.tasks/timephaseddatacollection/copyto/)(TimephasedData[], int) | öğesinin öğelerini kopyalar.`TimephasedDataCollection` birArray , belirli bir noktadan başlayarakArray dizin. |
-| [GetEnumerator](../../aspose.tasks/timephaseddatacollection/getenumerator/)() | Bu koleksiyon için bir numaralandırıcı döndürür. |
-| [Remove](../../aspose.tasks/timephaseddatacollection/remove/)(TimephasedData) | Kaldırır[`TimephasedData`](../timephaseddata/) bu koleksiyon nesnesinden örnek. |
-| [SelectBetweenStartAndFinish](../../aspose.tasks/timephaseddatacollection/selectbetweenstartandfinish/)(TimephasedDataType, DateTime, DateTime) | Arasındaki tüm zaman aşamalarını seçer*startTime* Ve*finishTime* . Ortalama durumda O(log n) karmaşıklığına sahiptir. |
-| [ToList](../../aspose.tasks/timephaseddatacollection/tolist/)() | dönüştürür`TimephasedDataCollection` listesine itiraz[`TimephasedData`](../timephaseddata/) nesneler. |
+timephased veri koleksiyonlarıyla nasıl çalışılacağını gösterir.
 
-### Ayrıca bakınız
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var resource2 = project.Resources.Add("Resource 2");
+resource2.Set(Rsc.Type, ResourceType.Work);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task2.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment2 = project.ResourceAssignments.Add(task2, resource2);
+assignment2.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment2.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment2.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+// contoured iş konturunu ayarla
+assignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+Console.WriteLine("Is timephased data collection read-only?: " + assignment.TimephasedData.IsReadOnly);
+
+// oluşturulan tds'leri temizle
+assignment.TimephasedData.Clear();
+
+var td = new TimephasedData
+             {
+                 Start = new DateTime(2019, 11, 11, 8, 0, 0),
+                 Finish = new DateTime(2019, 11, 11, 9, 0, 0),
+                 Uid = assignment.Get(Asn.Uid),
+                 Unit = TimeUnitType.Hour,
+                 Value = "PT1H0M0S",
+                 TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+             };
+assignment.TimephasedData.Add(td);
+
+var list = new List<TimephasedData>();
+var td2 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 12, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 12, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+var td3 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+
+list.Add(td2);
+list.Add(td3);
+assignment.TimephasedData.AddRange(list);
+
+// Koleksiyonu tür ve tarih aralığına göre filtreleyebilirsiniz.
+Console.WriteLine("Print filtered tds:");
+IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStartAndFinish(
+    TimephasedDataType.AssignmentRemainingWork,
+    new DateTime(2019, 11, 11, 0, 0, 0),
+    new DateTime(2019, 11, 13));
+foreach (var data in filteredTds)
+{
+    Console.WriteLine("Start: " + data.Start);
+    Console.WriteLine("Finish: " + data.Finish);
+    Console.WriteLine("Timephased Data Type: " + data.TimephasedDataType);
+    Console.WriteLine();
+}
+
+Console.WriteLine("--------------------------");
+Console.WriteLine();
+
+// ...
+// yanlış bir td ekle ve ardından sil
+var td4 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT0H0M1S", // wrong value
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+assignment.TimephasedData.Add(td4);
+
+// ...
+
+// yanlış td öğesini sil
+if (assignment.TimephasedData.Contains(td4))
+{
+    assignment.TimephasedData.Remove(td4);
+}
+
+// ...
+assignment.TimephasedData.AddRange(list);
+
+// zaman aşamalı öğeler üzerinde yinele
+Console.WriteLine("Print all timephased items:");
+Console.WriteLine("Timephased data count: " + assignment.TimephasedData.Count);
+foreach (var item in assignment.TimephasedData)
+{
+    Console.WriteLine("Start: " + item.Start);
+    Console.WriteLine("Finish: " + item.Finish);
+    Console.WriteLine("Timephased Data Type: " + item.TimephasedDataType);
+    Console.WriteLine();
+}
+
+// td'leri başka bir atamaya kopyala
+var timephasedDatas = new TimephasedData[assignment.TimephasedData.Count];
+assignment.TimephasedData.CopyTo(timephasedDatas, 0);
+
+assignment2.TimephasedData.Clear();
+foreach (var data in timephasedDatas)
+{
+    assignment2.TimephasedData.Add(data);
+}
+
+// koleksiyon düz bir listeye dönüştürülebilir
+List<TimephasedData> tds = assignment.TimephasedData.ToList();
+
+// td'leri tek tek kaldıralım
+foreach (var timephasedData in tds)
+{
+    assignment.TimephasedData.Remove(timephasedData);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [TimephasedData](../timephaseddata/)
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

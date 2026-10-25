@@ -1,31 +1,52 @@
 ---
-title: TaskBaseline.CompareTo
-second_title: Aspose.Tasks for .NET API Referansı
-description: TaskBaseline yöntem. IKarşılaştırılabilir arabirim uygulaması. Bu örneği belirtilen Temel nesneyle karşılaştırır.
+title: "TaskBaseline.CompareTo"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TaskBaseline yöntemi. IComparable arayüzü uygulaması. Bu örneği belirtilen Baseline nesnesiyle karşılaştırır"
 type: docs
-weight: 100
+weight: 90
 url: /tr/net/aspose.tasks/taskbaseline/compareto/
 ---
 ## TaskBaseline.CompareTo method
 
-IKarşılaştırılabilir arabirim uygulaması. Bu örneği belirtilen Temel nesneyle karşılaştırır.
+IComparable arabirimi uygulaması. Bu örneği belirtilen Baseline nesnesiyle karşılaştırır.
 
 ```csharp
 public int CompareTo(TaskBaseline other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | TaskBaseline | bu örneği karşılaştırmak için belirtilen Baseline nesnesi. |
+| diğer | TaskBaseline | bu örneğin karşılaştırılacağı belirtilen Baseline nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu örnek belirtilen nesneden küçükse -1, bu örnek belirtilen nesneden büyükse 1 döndürür; aksi takdirde 0 döndürür
+belirtilen nesneden daha küçükse -1, daha büyükse 1 döndürür; aksi takdirde 0 döndürür
 
-### Ayrıca bakınız
+## Örnekler
+
+Baseline'ların eşitliğini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var project = new Project();
+
+// TaskBaseline oluşturma
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// görev baseline süresini görüntüle
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// Baseline'ların eşitliği, baseline sayılarına karşı kontrol edilir.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
+
+### Ayrıca Bakınız
 
 * class [TaskBaseline](../)
-* ad alanı [Aspose.Tasks](../../taskbaseline/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

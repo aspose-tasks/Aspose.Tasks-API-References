@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.Height
-second_title: Aspose.Tasks for .NET API Referansı
-description: VisualObjectPlacement mülk. Görsel nesnenin görüntülenen yüksekliğini alır veya ayarlar.
+title: "VisualObjectPlacement.Height"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VisualObjectPlacement özelliği. Görsel nesnenin görüntülenen yüksekliğini alır veya ayarlar"
 type: docs
 weight: 70
 url: /tr/net/aspose.tasks.visualization/visualobjectplacement/height/
@@ -14,10 +14,10 @@ Görsel nesnenin görüntülenen yüksekliğini alır veya ayarlar.
 public double Height { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [VisualObjectPlacement](../)
-* ad alanı [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

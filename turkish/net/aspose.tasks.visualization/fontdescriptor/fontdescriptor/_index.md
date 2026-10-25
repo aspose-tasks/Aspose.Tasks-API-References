@@ -1,73 +1,73 @@
 ---
-title: FontDescriptor.FontDescriptor
-second_title: Aspose.Tasks for .NET API Referansı
-description: FontDescriptor inşaatçı. Yeni bir örneğini başlatır.FontDescriptor belirtilen yazı tipi ailesi ve boyutuna sahip sınıf.
+title: "FontDescriptor.FontDescriptor"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "FontDescriptor yapıcı. Belirtilen yazı tipi ailesi ve boyutu ile yeni bir FontDescriptor sınıfı örneği başlatır."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.visualization/fontdescriptor/fontdescriptor/
 ---
 ## FontDescriptor(string, float) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`FontDescriptor`](../) belirtilen yazı tipi ailesi ve boyutuna sahip sınıf.
+Belirtilen yazı tipi ailesi ve boyutu ile yeni bir [`FontDescriptor`](../) sınıfı örneği başlatır.
 
 ```csharp
 public FontDescriptor(string fontFamily, float size)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fontFamily | String | Yazı tipi ailesinin adı. |
+| fontFamily | Dize | Yazı tipi ailesinin adı. |
 | size | Single | Yazı tipinin boyutu. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [FontDescriptor](../)
-* ad alanı [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## FontDescriptor(string, float, FontStyles) {#constructor_2}
 
-Yeni bir örneğini başlatır.[`FontDescriptor`](../) belirtilen yazı tipi ailesi, boyutu ve stili ile sınıf.
+Belirtilen yazı tipi ailesi, boyutu ve stili ile yeni bir [`FontDescriptor`](../) sınıfı örneği başlatır.
 
 ```csharp
 public FontDescriptor(string fontFamily, float size, FontStyles style)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fontFamily | String | Yazı tipi ailesinin adı. |
+| fontFamily | Dize | Yazı tipi ailesinin adı. |
 | size | Single | Yazı tipinin boyutu. |
-| style | FontStyles | Yazı tipi stili. |
+| style | FontStyles | Yazı tipinin stili. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* ad alanı [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## FontDescriptor(FontDescriptor, FontStyles) {#constructor}
 
-Yeni bir örneğini başlatır.[`FontDescriptor`](../) belirtilen yazı tipi ve stille sınıf.
+Belirtilen yazı tipi ve stili ile yeni bir [`FontDescriptor`](../) sınıfı örneği başlatır.
 
 ```csharp
 public FontDescriptor(FontDescriptor font, FontStyles style)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| font | FontDescriptor | Örneği[`FontDescriptor`](../) kopyalamak. |
-| style | FontStyles | Yazı tipi stili. |
+| font | FontDescriptor | Kopyalanacak [`FontDescriptor`](../) örneği. |
+| style | FontStyles | Yazı tipinin stili. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* ad alanı [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

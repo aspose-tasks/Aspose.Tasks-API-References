@@ -1,33 +1,70 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Aspose.Tasks for .NET API Referansı
-description: PdfDigitalSignatureDetails inşaatçı. Yeni bir örneğini başlatır.PdfDigitalSignatureDetails sınıf.
+title: "PdfDigitalSignatureDetails.PdfDigitalSignatureDetails"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PdfDigitalSignatureDetails yapıcı. PdfDigitalSignatureDetails sınıfının yeni bir örneğini başlatır"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails constructor
 
-Yeni bir örneğini başlatır.[`PdfDigitalSignatureDetails`](../) sınıf.
+[`PdfDigitalSignatureDetails`](../) sınıfının yeni bir örneğini başlatır.
 
 ```csharp
 public PdfDigitalSignatureDetails(X509Certificate2 certificate, string reason, string location, 
     DateTime signatureDate, PdfDigitalSignatureHashAlgorithm hashAlgorithm)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| certificate | X509Certificate2 | buX509Certificate2 imzalamak için örnek. |
-| reason | String | İmzalama nedeni. |
-| location | String | İmza yeri. |
-| signatureDate | DateTime | İmza tarihi. |
-| hashAlgorithm | PdfDigitalSignatureHashAlgorithm | İmzalamanın karma algoritması. |
+| sertifika | X509Certificate2 | İmzalamak için kullanılacak X509Certificate2 örneği. |
+| reason | Dize | İmzalamanın nedeni. |
+| location | Dize | İmzalamanın konumu. |
+| signatureDate | DateTime | İmzalamanın tarihi. |
+| hashAlgorithm | PdfDigitalSignatureHashAlgorithm | İmzalamanın hash algoritması. |
 
-### Ayrıca bakınız
+## Örnekler
+
+PDF dijital imza detaylarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new PdfSaveOptions();
+
+var certificate = new X509Certificate2();
+
+// PDF imza detaylarını oluştur
+var signatureDetails = new PdfDigitalSignatureDetails(
+    // sertifikayı belirt
+    certificate, 
+    // imzalama nedenini belirt
+    "reason",
+    // imzalama konumunu belirt
+    "location", 
+    // imzalama tarihini belirt
+    new DateTime(2019, 1, 1), 
+    // imzalama için bir hash algoritması belirt
+    PdfDigitalSignatureHashAlgorithm.Sha1);
+
+Console.WriteLine("Certificate: " + signatureDetails.Certificate);
+Console.WriteLine("Reason: " + signatureDetails.Reason);
+Console.WriteLine("Location: " + signatureDetails.Location);
+Console.WriteLine("Signature Date: " + signatureDetails.SignatureDate);
+Console.WriteLine("Hash Algorithm: " + signatureDetails.HashAlgorithm);
+
+// dijital imza detaylarını ayarla
+options.DigitalSignatureDetails = signatureDetails;
+
+// belirtilen şifreleme ayrıntılarıyla projeyi kaydet
+project.Save(OutDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * enum [PdfDigitalSignatureHashAlgorithm](../../pdfdigitalsignaturehashalgorithm/)
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Tasks.Saving](../../pdfdigitalsignaturedetails/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfdigitalsignaturedetails/)
+* assembly [Aspose.Tasks](../../../)
 
 

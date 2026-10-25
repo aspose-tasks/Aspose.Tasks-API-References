@@ -1,27 +1,52 @@
 ---
-title: Project.RemoveInvalidResourceAssignments
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Proje kaynak atamaları listesinden geçersiz kaynak atamalarını kaldırır.
+title: "Project.RemoveInvalidResourceAssignments"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Proje kaynak atama listesinden geçersiz kaynak atamalarını ortadan kaldırır."
 type: docs
-weight: 1150
+weight: 1170
 url: /tr/net/aspose.tasks/project/removeinvalidresourceassignments/
 ---
 ## Project.RemoveInvalidResourceAssignments method
 
-Proje kaynak atamaları listesinden geçersiz kaynak atamalarını kaldırır.
+Proje kaynak atamaları listesinden geçersiz kaynak atamalarını ortadan kaldırır.
 
 ```csharp
 public void RemoveInvalidResourceAssignments()
 ```
 
-### Notlar
+## Açıklamalar
 
-MS Project, her görev için boş bir kaynak ataması oluşturur. Bunları kaldırmak için yöntemi çağırın.
+MS Project her görev için boş bir kaynak ataması oluşturur. Bunları kaldırmak için yöntemi çağırın.
 
-### Ayrıca bakınız
+## Örnekler
+
+Geçersiz atamaları nasıl kaldıracağınızı gösterir.
+
+```csharp
+var project = new Project(DataDir + "InvalidResourceAssignments.mpp");
+var invalid = 0;
+
+// ReSharper disable once LoopCanBeConvertedToQuery //ExSkip
+foreach (var ra in project.ResourceAssignments)
+{
+    if (ra.Get(Asn.Resource) == null)
+    {
+        invalid++;
+    }
+}
+
+Console.WriteLine("Count of invalid assignments (before): " + invalid);
+
+// geçersiz atamaları kaldır
+project.RemoveInvalidResourceAssignments();
+
+Console.WriteLine("Count of invalid assignments (after): " + invalid);
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

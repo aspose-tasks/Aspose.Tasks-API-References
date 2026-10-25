@@ -1,43 +1,65 @@
 ---
-title: Enum GridlineType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.GridlineType Sıralama. Kılavuz çizgisi türü.
+title: "Enum GridlineType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.GridlineType enum. Gridline türü"
 type: docs
-weight: 2780
+weight: 3110
 url: /tr/net/aspose.tasks.visualization/gridlinetype/
 ---
 ## GridlineType enumeration
 
-Kılavuz çizgisi türü.
+Kılavuz çizgi türü.
 
 ```csharp
 public enum GridlineType
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| GanttRow | `0` | Bir gantt satırı ızgara çizgisi türünün Kılavuz Çizgisini belirtir. |
-| TopTierColumn | `1` | Üst katman sütun ızgara çizgisi türünün kılavuz çizgisini belirtir. |
-| BottomTierColumn | `2` | Alt katman sütun ızgara çizgisi tipinin kılavuz çizgisini belirtir. |
-| SheetRow | `3` | Bir sayfa satırının kılavuz çizgi tipini belirtir. |
-| SheetColumn | `4` | Bir sayfa sütun ızgara çizgisi türünün kılavuz çizgisini belirtir. |
-| UsageRow | `5` | Kullanım satırı kılavuz çizgisi türünün kılavuz çizgisini belirtir. |
-| UsageColumn | `6` | Bir kullanım sütunu ızgara çizgisi türünün Kılavuz Çizgisini belirtir. |
-| GanttTitleVertical | `7` | Gantt başlığı dikey ızgara çizgisi türünü belirtir. |
-| GanttTitleHorizontal | `8` | Gantt başlığı yatay ızgara çizgisi türünü belirtir. |
-| BarRows | `9` | Çubuk satırları kılavuz çizgisi türünü belirtir. |
-| GanttProjectStart | `10` | Gantt projesi başlangıç kılavuz çizgisi türünü belirtir. |
-| GanttProjectFinish | `11` | Gantt projesi bitiş kılavuz çizgisi türünü belirtir. |
-| GanttStatusDate | `12` | Gantt durum tarihi kılavuz çizgisi türünü belirtir. |
-| GanttCurrentDate | `13` | Gantt'ın geçerli tarih kılavuz çizgisi türünü belirtir. |
-| GanttPageBreaks | `14` | Gantt sayfasının kılavuz çizgisi türünü kestiğini belirtir. |
-| MiddleTierColumn | `15` | Orta katman sütun ızgara çizgisi türünün kılavuz çizgisini belirtir. |
+| GanttRow | `0` | Gantt satırı ızgara çizgi türünün ızgara çizgisini gösterir. |
+| TopTierColumn | `1` | Üst seviye sütun ızgara çizgi türünün ızgara çizgisini gösterir. |
+| BottomTierColumn | `2` | Alt seviye sütun ızgara çizgi türünün ızgara çizgisini gösterir. |
+| SheetRow | `3` | Sayfa satırı ızgara çizgi türünün ızgara çizgisini gösterir. |
+| SheetColumn | `4` | Sayfa sütunu ızgara çizgi türünün ızgara çizgisini gösterir. |
+| UsageRow | `5` | Kullanım satırı ızgara çizgi türünün ızgara çizgisini gösterir. |
+| UsageColumn | `6` | Kullanım sütunu ızgara çizgi türünün ızgara çizgisini gösterir. |
+| GanttTitleVertical | `7` | Gantt başlığı dikey ızgara çizgi türünü gösterir. |
+| GanttTitleHorizontal | `8` | Gantt başlığı yatay ızgara çizgi türünü gösterir. |
+| BarRows | `9` | Çubuk satırları ızgara çizgi türünü gösterir. |
+| GanttProjectStart | `10` | Gantt proje başlangıç ızgara çizgi türünü gösterir. |
+| GanttProjectFinish | `11` | Gantt proje bitiş ızgara çizgi türünü gösterir. |
+| GanttStatusDate | `12` | Gantt durum tarihi ızgara çizgi tipini gösterir. |
+| GanttCurrentDate | `13` | Gantt geçerli tarih ızgara çizgi tipini gösterir. |
+| GanttPageBreaks | `14` | Gantt sayfa sonları ızgara çizgi tipini gösterir. |
+| MiddleTierColumn | `15` | Orta katman sütun ızgara çizgi tipinin ızgara çizgisini gösterir. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+Izgara çizgileriyle çalışmayı görsel formatlarda kaydederken nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+var gridline = new Gridline
+{
+    // ızgara çizgi tipini ayarla (<see cref=\"P:Aspose.Tasks.Visualization.Gridline.GridlineType\" />).
+    GridlineType = GridlineType.GanttRow, 
+    // <see cref=\"T:Aspose.Tasks.Visualization.LinePattern\" /> bir ızgara çizgi için ayarla.
+    Pattern = LinePattern.Dashed
+};
+
+options.Gridlines = new List<Gridline>();
+options.Gridlines.Add(gridline);
+
+project.Save(OutDir + "PrintProjectPagesToSeparateFiles_out.png", options);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

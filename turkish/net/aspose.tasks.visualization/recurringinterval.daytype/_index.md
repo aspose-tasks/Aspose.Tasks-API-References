@@ -1,38 +1,79 @@
 ---
-title: Enum RecurringInterval.DayType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Visualization.RecurringIntervalDayType Sıralama. İlerleme satırlarında kullanılan bir gün tipini temsil eder.
+title: "Enum RecurringInterval.DayType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Visualization.RecurringIntervalDayType enum. İlerleme çizgilerinde kullanılan bir gün türünü temsil eder."
 type: docs
-weight: 2970
+weight: 3320
 url: /tr/net/aspose.tasks.visualization/recurringinterval.daytype/
 ---
 ## RecurringInterval.DayType enumeration
 
-İlerleme satırlarında kullanılan bir gün tipini temsil eder.
+İlerleme çizgilerinde kullanılan bir gün türünü temsil eder.
 
 ```csharp
 public enum DayType
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Sunday | `1` | Pazar gününü gösterir. |
-| Monday | `2` | Pazartesiyi belirtir. |
-| Tuesday | `3` | Salı'yı belirtir. |
-| Wednesday | `4` | Çarşambayı belirtir. |
-| Thursday | `5` | Perşembe'yi belirtir. |
-| Friday | `6` | Cuma'yı belirtir. |
-| Saturday | `7` | Cumartesiyi belirtir. |
-| Day | `8` | Günü belirtir. |
+| Sunday | `1` | Pazar'ı gösterir. |
+| Monday | `2` | Pazartesi'yi gösterir. |
+| Tuesday | `3` | Salı'yı gösterir. |
+| Wednesday | `4` | Çarşamba'yı gösterir. |
+| Thursday | `5` | Perşembe'yi gösterir. |
+| Friday | `6` | Cuma'yı gösterir. |
+| Saturday | `7` | Cumartesi'yi gösterir. |
+| Day | `8` | Günü gösterir. |
 | Workday | `9` | Çalışma gününü gösterir. |
-| NonworkingDay | `10` | Çalışılmayan günü belirtir. |
+| NonworkingDay | `10` | Çalışma olmayan günü gösterir. |
 
-### Ayrıca bakınız
+## Örnekler
+
+İlerleme çizgilerinin yinelenen aralığıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2007.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.ToList()[1];
+
+// ilerleme çizgisini okuyalım
+var interval = view.ProgressLines.RecurringInterval;
+
+Console.WriteLine("Interval: " + interval.Interval);
+Console.WriteLine("Weekly Week Number: " + interval.WeeklyWeekNumber);
+foreach (var day in interval.WeeklyDays)
+{
+    Console.WriteLine("Week day: " + day);
+}
+
+// yinelenen aralığı yeniden tanımlayalım
+var newInterval = new RecurringInterval();
+
+// Aylık ilerleme çizgilerini gün bazında gösterip göstermeyeceğini belirten bir değer ayarlayın.
+interval.MonthlyDay = true;
+// Aylık ilerleme çizgilerinin gün numarasını ayarlayın.
+interval.MonthlyDayDayNumber = 1;
+// Aylık ilerleme çizgilerinin ay numarasını ayarlayın.
+interval.MonthlyDayMonthNumber = 1;
+// İlerleme çizgilerini ilk ya da son önceden tanımlı günle gösterip göstermeyeceğini belirten bir değer ayarlayın.
+interval.MonthlyFirstLast = true;
+// Aylık ilerleme çizgilerinin ilk ya da son gün tipini ayarlayın.
+interval.MonthlyFirstLastDay = RecurringInterval.DayType.Day;
+// İlk ya da son önceden tanımlı günle gösterilen ilerleme çizgilerinin ay numarasını ayarlayın.
+interval.MonthlyFirstLastMonthNumber = 1;
+
+view.ProgressLines.RecurringInterval = newInterval;
+
+project.Save(OutDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
+```
+
+### Ayrıca Bakınız
 
 * class [RecurringInterval](../recurringinterval/)
-* ad alanı [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* toplantı [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

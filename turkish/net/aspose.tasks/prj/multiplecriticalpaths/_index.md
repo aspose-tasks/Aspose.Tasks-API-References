@@ -1,26 +1,38 @@
 ---
-title: Prj.MultipleCriticalPaths
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Birden çok kritik yolun hesaplanıp hesaplanmadığını belirler.
+title: "Prj.MultipleCriticalPaths"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Birden fazla kritik yolun hesaplanıp hesaplanmayacağını belirler"
 type: docs
-weight: 520
+weight: 530
 url: /tr/net/aspose.tasks/prj/multiplecriticalpaths/
 ---
 ## Prj.MultipleCriticalPaths field
 
-Birden çok kritik yolun hesaplanıp hesaplanmadığını belirler.
+Birden fazla kritik yolun hesaplanıp hesaplanmayacağını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MultipleCriticalPaths;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.MultipleCriticalPaths özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MultipleCriticalPaths, true);
+
+Console.WriteLine("Multiple Critical Paths: " + project.Get(Prj.MultipleCriticalPaths));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Tsk.Created
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görevin oluşturulduğu tarih.
+title: "Tsk.Created"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Bir görevin oluşturulduğu tarih."
 type: docs
 weight: 250
 url: /tr/net/aspose.tasks/tsk/created/
@@ -14,12 +14,26 @@ Bir görevin oluşturulduğu tarih.
 public static readonly Key<DateTime, TaskKey> Created;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.Created özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Created, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Created: " + task.Get(Tsk.Created));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

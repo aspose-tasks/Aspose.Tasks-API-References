@@ -1,23 +1,23 @@
 ---
-title: Task.ActivityId
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Etkinlik kimliği alanını temsil eder  bir görevin Primavera tarafından kullanılan benzersiz tanımlayıcısı. yalnızca Primavera projeleri için geçerlidir.
+title: "Task.ActivityId"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Primavera tarafından kullanılan bir görevin benzersiz tanımlayıcısı olan activity id alanını temsil eder. Yalnızca Primavera projeleri için geçerlidir."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/task/activityid/
 ---
 ## Task.ActivityId property
 
-Etkinlik kimliği alanını temsil eder - bir görevin Primavera tarafından kullanılan benzersiz tanımlayıcısı. (yalnızca Primavera projeleri için geçerlidir).
+Aktivite kimliği alanını temsil eder - Primavera tarafından kullanılan bir görevin benzersiz tanımlayıcısı. (yalnızca Primavera projeleri için geçerlidir).
 
 ```csharp
 public string ActivityId { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

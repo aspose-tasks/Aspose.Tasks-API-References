@@ -1,7 +1,7 @@
 ---
-title: CalendarCollection.Add
-second_title: Aspose.Tasks for .NET API Referansı
-description: CalendarCollection yöntem. Bu CalendarCollection nesnesine yeni bir temel takvim ekler ve eklenen takvimi döndürür.
+title: "CalendarCollection.Add"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "CalendarCollection yöntemi. Bu CalendarCollection nesnesine yeni bir temel takvim ekler ve eklenen takvimi döndürür."
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks/calendarcollection/add/
@@ -14,51 +14,83 @@ Bu CalendarCollection nesnesine yeni bir temel takvim ekler ve eklenen takvimi d
 public Calendar Add(string name)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Takvim adı. |
+| name | Dize | Takvim adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Katma[`Calendar`](../../calendar/) nesne.
+Eklenen [`Calendar`](../../calendar/) nesnesi.
 
-### istisnalar
+### İstisnalar
 
-| istisna | şart |
+| istisna | koşul |
 | --- | --- |
-| ArgumentException | Takvim adı boş olduğunda atılır. |
+| ArgumentException | Takvim adı null olduğunda fırlatılır. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Standart bir takvim nasıl oluşturulur gösterir.
+
+```csharp
+var project = new Project();
+
+// Bir takvim tanımlayın ve onu standart yapın
+var calendar = project.Calendars.Add("New Standard Calendar");
+Calendar.MakeStandardCalendar(calendar);
+
+project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
+```
+
+### Ayrıca Bakınız
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* ad alanı [Aspose.Tasks](../../calendarcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(string, Calendar) {#add_1}
 
-Belirtilen temel takvime sahip yeni bir takvimi bu CalendarCollection nesnesine ekler ve eklenen takvimi döndürür.
+Bu CalendarCollection nesnesine belirtilen temel takvimle yeni bir takvim ekler ve eklenen takvimi döndürür.
 
 ```csharp
 public Calendar Add(string name, Calendar baseCalendar)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Belirtilen isim |
-| baseCalendar | Calendar | Belirtilen temel takvim. |
+| name | Dize | Belirtilen ad. |
+| baseCalendar | Takvim | Belirtilen temel takvim. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Katma[`Calendar`](../../calendar/) nesne.
+Eklenen [`Calendar`](../../calendar/) nesnesi.
 
-### Ayrıca bakınız
+## Örnekler
+
+Yeni takvimlerin nasıl ekleneceğini gösterir.
+
+```csharp
+var project = new Project();
+
+// Yeni takvimler, bir projenin takvim koleksiyonuna koleksiyonun Add aşırı yüklemeleri kullanılarak eklenebilir.
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+
+foreach (var calendar in project.Calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* ad alanı [Aspose.Tasks](../../calendarcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

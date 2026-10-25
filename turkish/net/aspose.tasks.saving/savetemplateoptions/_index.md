@@ -1,37 +1,70 @@
 ---
-title: Class SaveTemplateOptions
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.Saving.SaveTemplateOptions sınıf. Bir projeyi şablon olarak kaydederken ek seçenekler belirlemeye izin verir.
+title: "Class SaveTemplateOptions"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.Saving.SaveTemplateOptions sınıfı. Bir projeyi şablon olarak kaydederken ek seçenekler belirtmeye olanak tanır"
 type: docs
-weight: 1930
+weight: 2200
 url: /tr/net/aspose.tasks.saving/savetemplateoptions/
 ---
 ## SaveTemplateOptions class
 
-Bir projeyi şablon olarak kaydederken ek seçenekler belirlemeye izin verir.
+Projeyi şablon olarak kaydederken ek seçenekleri belirtmeye izin verir.
 
 ```csharp
 public class SaveTemplateOptions
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [SaveTemplateOptions](savetemplateoptions/)() | Default_Constructor |
+| [SaveTemplateOptions](savetemplateoptions/)() | Varsayılan yapıcı. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [RemoveActualValues](../../aspose.tasks.saving/savetemplateoptions/removeactualvalues/) { get; set; } | Bir proje şablonundaki tüm gerçek değerlerin kaldırılması gerekip gerekmediğini gösteren bir değer alır veya ayarlar. |
-| [RemoveBaselineValues](../../aspose.tasks.saving/savetemplateoptions/removebaselinevalues/) { get; set; } | Bir proje şablonundaki tüm temel değerlerin kaldırılması gerekip gerekmediğini gösteren bir değer alır veya ayarlar. |
-| [RemoveFixedCosts](../../aspose.tasks.saving/savetemplateoptions/removefixedcosts/) { get; set; } | Bir proje şablonundaki tüm sabit maliyetlerin kaldırılması gerekip gerekmediğini gösteren bir değer alır veya ayarlar. |
-| [RemoveResourceRates](../../aspose.tasks.saving/savetemplateoptions/removeresourcerates/) { get; set; } | Bir proje şablonundan kaynak oranlarının kaldırılması gerekip gerekmediğini gösteren bir değer alır veya ayarlar. |
+| [RemoveActualValues](../../aspose.tasks.saving/savetemplateoptions/removeactualvalues/) { get; set; } | Bir proje şablonundaki tüm gerçek değerlerin kaldırılıp kaldırılmayacağını gösteren bir değeri alır veya ayarlar. |
+| [RemoveBaselineValues](../../aspose.tasks.saving/savetemplateoptions/removebaselinevalues/) { get; set; } | Bir proje şablonundaki tüm temel değerlerin kaldırılıp kaldırılmayacağını gösteren bir değeri alır veya ayarlar. |
+| [RemoveFixedCosts](../../aspose.tasks.saving/savetemplateoptions/removefixedcosts/) { get; set; } | Bir proje şablonundaki tüm sabit maliyetlerin kaldırılıp kaldırılmayacağını gösteren bir değeri alır veya ayarlar. |
+| [RemoveResourceRates](../../aspose.tasks.saving/savetemplateoptions/removeresourcerates/) { get; set; } | Bir proje şablonundaki kaynak oranlarının kaldırılıp kaldırılmayacağını gösteren bir değeri alır veya ayarlar. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* toplantı [Aspose.Tasks](../../)
+Seçenekleri kullanarak projeyi şablon olarak nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "EstimatedMilestoneTasks.mpp");
+
+Console.WriteLine("Project File Format: " + projectFileInfo.ProjectFileFormat);
+
+// şablon kaydetme seçenekleri oluştur
+// ve özelliklerini ayarla
+var options = new SaveTemplateOptions
+{
+    // bir proje şablonundaki tüm sabit maliyetlerin kaldırılıp kaldırılmayacağını gösteren bir değeri ayarla
+    RemoveFixedCosts = true,
+
+    // bir proje şablonundaki tüm gerçek değerlerin kaldırılıp kaldırılmayacağını gösteren bir değeri ayarla
+    RemoveActualValues = true,
+
+    // bir proje şablonundaki kaynak oranlarının kaldırılıp kaldırılmayacağını gösteren bir değeri ayarla
+    RemoveResourceRates = true,
+
+    // bir proje şablonundaki tüm temel değerlerin kaldırılıp kaldırılmayacağını gösteren bir değeri ayarla
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(DataDir + "SaveProjectDataAsTemplate_out.mpt");
+Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

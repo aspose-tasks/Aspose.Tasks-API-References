@@ -1,7 +1,7 @@
 ---
-title: ProjectView.GetDefaultAssignmentView
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProjectView yöntem. Uid görev adı kaynak adı iş ve süre atama sütunlarını içerir.
+title: "ProjectView.GetDefaultAssignmentView"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProjectView yöntemi. Uid, görev adı, kaynak adı, iş ve süre atama sütunlarını içerir"
 type: docs
 weight: 20
 url: /tr/net/aspose.tasks.visualization/projectview/getdefaultassignmentview/
@@ -14,14 +14,29 @@ Uid, görev adı, kaynak adı, iş ve süre atama sütunlarını içerir.
 public static ProjectView GetDefaultAssignmentView()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-listesini içeren bir görünüm[`AssignmentViewColumn`](../../assignmentviewcolumn/).
+[`AssignmentViewColumn`](../../assignmentviewcolumn/) listesini içeren bir görünüm
 
-### Ayrıca bakınız
+## Örnekler
+
+Atama görünümüyle bir projenin nasıl kaydedileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * class [ProjectView](../)
-* ad alanı [Aspose.Tasks.Visualization](../../projectview/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

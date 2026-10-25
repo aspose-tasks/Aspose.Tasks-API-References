@@ -1,23 +1,23 @@
 ---
-title: Resource.StandardRate
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. StandardRate. değerini alır veya ayarlar.
+title: "Resource.StandardRate"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. StandardRate değerini alır veya ayarlar"
 type: docs
-weight: 710
+weight: 700
 url: /tr/net/aspose.tasks/resource/standardrate/
 ---
 ## Resource.StandardRate property
 
-StandardRate. değerini alır veya ayarlar.
+StandardRate değerini alır veya ayarlar.
 
 ```csharp
 public decimal StandardRate { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

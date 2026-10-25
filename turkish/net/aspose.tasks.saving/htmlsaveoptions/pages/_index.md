@@ -1,23 +1,46 @@
 ---
-title: HtmlSaveOptions.Pages
-second_title: Aspose.Tasks for .NET API Referansı
-description: HtmlSaveOptions mülk. Proje düzenini işlerken kaydedilecek sayfa numaralarının bir listesini alır veya ayarlar. Bu liste boşsa tüm proje sayfaları kaydedilecektir.
+title: "HtmlSaveOptions.Pages"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "HtmlSaveOptions özelliği. Proje düzeni render edilirken kaydedilecek sayfa numaralarının bir listesini alır veya ayarlar. Bu liste boş ise tüm proje sayfaları kaydedilir."
 type: docs
-weight: 140
+weight: 130
 url: /tr/net/aspose.tasks.saving/htmlsaveoptions/pages/
 ---
 ## HtmlSaveOptions.Pages property
 
-Proje düzenini işlerken kaydedilecek sayfa numaralarının bir listesini alır veya ayarlar. Bu liste boşsa, tüm proje sayfaları kaydedilecektir.
+Proje düzeni render edilirken kaydedilecek sayfa numaralarının bir listesini alır veya ayarlar. Liste boşsa tüm proje sayfaları kaydedilir.
 
 ```csharp
 public List<int> Pages { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+HTML sayfa başlığı/başlığını &lt;see cref="P:Aspose.Tasks.Saving.HtmlSaveOptions" /&gt; seçeneklerini kullanarak ayarlamanın nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var options = new HtmlSaveOptions
+{
+    // Proje adının HTML başlığında dahil edilip edilmeyeceğini belirler (varsayılan olarak true)
+    IncludeProjectNameInTitle = false,
+
+    // Proje adının HTML sayfa başlığında dahil edilip edilmeyeceğini belirler  (varsayılan olarak true)
+    IncludeProjectNameInPageHeader = false,
+
+    // dışa aktarılacak sayfaları ayarla
+    Pages = new List<int>
+            {
+                1
+            }
+};
+project.Save(OutDir + "ControlHeaderNameDuringHTMLExport_out.html", options);
+```
+
+### Ayrıca Bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Resource.Calendar
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. Calendar. değerini alır veya ayarlar.
+title: "Resource.Calendar"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Değer alır veya ayarlar, Calendar değerini"
 type: docs
 weight: 220
 url: /tr/net/aspose.tasks/resource/calendar/
 ---
 ## Resource.Calendar property
 
-Calendar. değerini alır veya ayarlar.
+Calendar değerini alır veya ayarlar.
 
 ```csharp
 public Calendar Calendar { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Calendar](../../calendar/)
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

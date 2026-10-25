@@ -1,7 +1,7 @@
 ---
-title: AvailabilityPeriod.AvailableTo
-second_title: Aspose.Tasks for .NET API Referansı
-description: AvailabilityPeriod mülk. Belirtilen dönem için bir kaynağın kullanılabilir olduğu son tarihi alır veya ayarlar.
+title: "AvailabilityPeriod.AvailableTo"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "AvailabilityPeriod özelliği. Belirtilen dönem için bir kaynağın mevcut olduğu son tarihi alır veya ayarlar"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/availabilityperiod/availableto/
@@ -14,10 +14,59 @@ Belirtilen dönem için bir kaynağın kullanılabilir olduğu son tarihi alır 
 public DateTime AvailableTo { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir kaynak için kullanılabilirlik dönemlerinin nasıl oluşturulacağını gösterir.
+
+```csharp
+public void WorkWithAvailabilityPeriod()
+{
+    var project = new Project();
+    var resource = project.Resources.Add("Work Resource");
+
+    // Yeni kaynağa kullanılabilirlik dönemleri ekle
+    IEnumerable<AvailabilityPeriod> periods = GetPeriods();
+    foreach (var period in periods)
+    {
+        resource.AvailabilityPeriods.Add(period);
+    }
+
+    foreach (var period in resource.AvailabilityPeriods)
+    {
+        Console.WriteLine("Available From: " + period.AvailableFrom);
+        Console.WriteLine("Available To: " + period.AvailableTo);
+        Console.WriteLine("Available Units: " + period.AvailableUnits);
+        Console.WriteLine();
+    }
+}
+
+private static IEnumerable<AvailabilityPeriod> GetPeriods()
+{
+    var periods = new List<AvailabilityPeriod>(2);
+    var period = new AvailabilityPeriod
+    {
+        AvailableFrom = new DateTime(2011, 12, 12),
+        AvailableTo = new DateTime(2013, 12, 12),
+        AvailableUnits = 0.99
+    };
+
+    periods.Add(period);
+
+    var period2 = new AvailabilityPeriod
+    {
+        AvailableFrom = new DateTime(2013, 12, 12),
+        AvailableTo = new DateTime(2015, 12, 12),
+        AvailableUnits = 0.94
+    };
+    periods.Add(period2);
+    return periods;
+}
+```
+
+### Ayrıca Bakınız
 
 * class [AvailabilityPeriod](../)
-* ad alanı [Aspose.Tasks](../../availabilityperiod/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../availabilityperiod/)
+* assembly [Aspose.Tasks](../../../)
 
 

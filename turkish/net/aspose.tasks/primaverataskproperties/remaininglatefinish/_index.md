@@ -1,9 +1,9 @@
 ---
-title: PrimaveraTaskProperties.RemainingLateFinish
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Kalan geç bitiş tarihini alır.
+title: "PrimaveraTaskProperties.RemainingLateFinish"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Kalan geç bitiş tarihini alır"
 type: docs
-weight: 130
+weight: 300
 url: /tr/net/aspose.tasks/primaverataskproperties/remaininglatefinish/
 ---
 ## PrimaveraTaskProperties.RemainingLateFinish property
@@ -14,10 +14,10 @@ Kalan geç bitiş tarihini alır.
 public DateTime RemainingLateFinish { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

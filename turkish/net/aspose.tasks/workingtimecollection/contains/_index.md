@@ -1,32 +1,32 @@
 ---
-title: WorkingTimeCollection.Contains
-second_title: Aspose.Tasks for .NET API Referansı
-description: WorkingTimeCollection yöntem. Belirtilen öğenin Listede olup olmadığını kontrol eder. Doğrusal bir On araması gerçekleştirir.
+title: "WorkingTimeCollection.Contains"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WorkingTimeCollection yöntemi. Belirtilen öğenin Listede olup olmadığını kontrol eder. Doğrusal bir arama gerçekleştirir."
 type: docs
 weight: 50
 url: /tr/net/aspose.tasks/workingtimecollection/contains/
 ---
 ## WorkingTimeCollection.Contains method
 
-Belirtilen öğenin Listede olup olmadığını kontrol eder. Doğrusal bir O(n) araması gerçekleştirir.
+Belirtilen öğenin Listede olup olmadığını kontrol eder. Doğrusal O(n) arama gerçekleştirir.
 
 ```csharp
 public bool Contains(WorkingTime item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | WorkingTime | belirtilen öğe |
+| öğe | WorkingTime | belirtilen öğe. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Doğru, belirtilen öğe listede bulunursa, aksi takdirde yanlış.
+True, eğer belirtilen öğe listede bulunursa, aksi takdirde false.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* ad alanı [Aspose.Tasks](../../workingtimecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

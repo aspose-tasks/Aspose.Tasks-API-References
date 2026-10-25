@@ -1,23 +1,23 @@
 ---
-title: Task.PreleveledFinish
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. PreleveledFinish. değerini alır veya ayarlar.
+title: "Task.PreleveledFinish"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. PreleveledFinish değerini alır veya ayarlar"
 type: docs
-weight: 1000
+weight: 990
 url: /tr/net/aspose.tasks/task/preleveledfinish/
 ---
 ## Task.PreleveledFinish property
 
-PreleveledFinish. değerini alır veya ayarlar.
+PreleveledFinish değerini alır veya ayarlar.
 
 ```csharp
 public DateTime PreleveledFinish { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

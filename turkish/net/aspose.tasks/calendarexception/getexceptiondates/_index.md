@@ -1,7 +1,7 @@
 ---
-title: CalendarException.GetExceptionDates
-second_title: Aspose.Tasks for .NET API Referansı
-description: CalendarException yöntem. Takvim istisnasının geçerli olduğu tarihleri döndürür.
+title: "CalendarException.GetExceptionDates"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "CalendarException yöntemi. Takvim istisnasının geçerli olduğu tarihleri döndürür."
 type: docs
 weight: 190
 url: /tr/net/aspose.tasks/calendarexception/getexceptiondates/
@@ -14,14 +14,29 @@ Takvim istisnasının geçerli olduğu tarihleri döndürür.
 public IEnumerable<DateTime> GetExceptionDates()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 Takvim istisnasının geçerli olduğu istisna tarihlerinin bir koleksiyonunu döndürür.
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli bir takvim istisnasının geçerli olduğu tarihleri nasıl alacağınızı gösterir.
+
+```csharp
+Project project = new Project(DataDir + "CalendarExceptions.mpp");
+Calendar calendar = project.Calendars.GetByUid(1);
+CalendarException calendarException = calendar.Exceptions[0];
+
+foreach (var date in calendarException.GetExceptionDates())
+{
+    Console.WriteLine(date);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [CalendarException](../)
-* ad alanı [Aspose.Tasks](../../calendarexception/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

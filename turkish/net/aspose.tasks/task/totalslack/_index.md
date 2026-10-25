@@ -1,23 +1,23 @@
 ---
-title: Task.TotalSlack
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir TotalSlack değeri alır veya ayarlar.
+title: "Task.TotalSlack"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. TotalSlack değerini alır veya ayarlar"
 type: docs
 weight: 1230
 url: /tr/net/aspose.tasks/task/totalslack/
 ---
 ## Task.TotalSlack property
 
-Bir TotalSlack değeri alır veya ayarlar.
+TotalSlack değerini alır veya ayarlar.
 
 ```csharp
 public TimeSpan TotalSlack { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

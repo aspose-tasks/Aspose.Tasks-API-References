@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawStatus
-second_title: Aspose.Tasks for .NET API Referansı
-description: PrimaveraTaskProperties mülk. Etkinliğin Durum alanının ham metin gösterimini kaynak dosyadaki gibi alır.
+title: "PrimaveraTaskProperties.RawStatus"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "PrimaveraTaskProperties özelliği. Etkinliğin Durum alanının kaynak dosyadaki ham metin temsili alır"
 type: docs
-weight: 90
+weight: 250
 url: /tr/net/aspose.tasks/primaverataskproperties/rawstatus/
 ---
 ## PrimaveraTaskProperties.RawStatus property
 
-Etkinliğin 'Durum' alanının ham metin gösterimini (kaynak dosyadaki gibi) alır.
+Etkinliğin 'Status' alanının ham metin temsilini (kaynak dosyada olduğu gibi) alır.
 
 ```csharp
 public string RawStatus { get; }
 ```
 
-### Notlar
+## Açıklamalar
 
-Yalnızca faaliyetler için geçerlidir (özet olmayan görevler).
+Yalnızca aktiviteler (özet olmayan görevler) için geçerlidir.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [PrimaveraTaskProperties](../)
-* ad alanı [Aspose.Tasks](../../primaverataskproperties/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

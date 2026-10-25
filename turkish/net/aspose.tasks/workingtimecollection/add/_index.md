@@ -1,7 +1,7 @@
 ---
-title: WorkingTimeCollection.Add
-second_title: Aspose.Tasks for .NET API Referansı
-description: WorkingTimeCollection yöntem. Bu koleksiyona yeni bir WorkingTime örneği ekler.
+title: "WorkingTimeCollection.Add"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WorkingTimeCollection yöntemi. Bu koleksiyona yeni bir WorkingTime örneği ekler"
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/workingtimecollection/add/
@@ -14,19 +14,90 @@ Bu koleksiyona yeni bir WorkingTime örneği ekler.
 public bool Add(WorkingTime item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | WorkingTime | Eklenecek öğe. |
+| öğe | WorkingTime | Eklenecek öğe. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-true WorkingTime nesnesi başarıyla eklendiyse; Aksi takdirde, yanlış.
+WorkingTime nesnesi başarıyla eklendiyse true; aksi takdirde false.
 
-### Ayrıca bakınız
+## Örnekler
+
+Working time koleksiyonuyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Custom Calendar");
+
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday));
+
+var saturdayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(8, 12),
+    new WorkingTime(13, 15)
+};
+var saturday = new WeekDay(DayType.Saturday);
+foreach (var time in saturdayWorkingTimes)
+{
+    saturday.WorkingTimes.Add(time);
+}
+
+// Cumartesi çalışma zamanlarını yazdır
+Console.WriteLine("Saturday working period number: " + saturday.WorkingTimes.Count);
+foreach (var time in saturday.WorkingTimes)
+{
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+var sundayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(10, 15)
+};
+var sunday = new WeekDay(DayType.Sunday, sundayWorkingTimes);
+
+// Pazar çalışma zamanlarını yazdır
+List<WorkingTime> workingTimes = sunday.WorkingTimes.ToList();
+Console.WriteLine("Sunday working period number: " + workingTimes.Count);
+for (var index = 0; index < workingTimes.Count; index++)
+{
+    var time = workingTimes[index];
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+calendar.WeekDays.Add(saturday);
+calendar.WeekDays.Add(sunday);
+
+foreach (var day in calendar.WeekDays)
+{
+    Console.WriteLine(day.DayType + ": ");
+
+    // Çalışma zamanları arasında daha fazla dolaşabilir ve bunları görüntüleyebilirsiniz.
+    foreach (var workingTime in day.WorkingTimes)
+    {
+        Console.WriteLine(workingTime.From);
+        Console.WriteLine(workingTime.To);
+    }
+
+    Console.WriteLine();
+}
+```
+
+### Ayrıca Bakınız
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* ad alanı [Aspose.Tasks](../../workingtimecollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

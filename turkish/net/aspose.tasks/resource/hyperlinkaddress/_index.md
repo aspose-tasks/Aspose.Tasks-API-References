@@ -1,23 +1,27 @@
 ---
-title: Resource.HyperlinkAddress
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. HyperlinkAddress. değerini alır veya ayarlar
+title: "Resource.HyperlinkAddress"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Bir kaynakla ilişkili bir köprü için adresi alır veya ayarlar"
 type: docs
 weight: 370
 url: /tr/net/aspose.tasks/resource/hyperlinkaddress/
 ---
 ## Resource.HyperlinkAddress property
 
-HyperlinkAddress. değerini alır veya ayarlar
+Kaynakla ilişkili bir köprünün adresini alır veya ayarlar.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
 ```
 
-### Ayrıca bakınız
+## Açıklamalar
+
+Köprünün tam adresi (Microsoft Project'teki Hyperlink Href), HyperlinkAddress ve HyperlinkSubAddress'in birleştirilmesidir.
+
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

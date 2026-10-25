@@ -1,44 +1,87 @@
 ---
-title: Class OleObject
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.OleObject sınıf. Bir MPP dosyasının Gantt Grafik Görünümüne yerleştirilebilir bir OLE nesnesini temsil eder.
+title: "Sınıf OleObject"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.OleObject sınıfı. Gantt Şeması Görünümü'ne bir MPP dosyasında eklenebilen bir OLE nesnesini temsil eder."
 type: docs
-weight: 990
+weight: 1120
 url: /tr/net/aspose.tasks/oleobject/
 ---
 ## OleObject class
 
-Bir MPP dosyasının Gantt Grafik Görünümüne yerleştirilebilir bir OLE nesnesini temsil eder.
+Bir MPP dosyasının Gantt Chart View'ına eklenebilen bir OLE nesnesini temsil eder.
 
 ```csharp
 public class OleObject
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [OleObject](oleobject/)() | Yeni bir örneğini başlatır.`OleObject` sınıf. |
+| [OleObject](oleobject/)() | `OleObject` sınıfının yeni bir örneğini başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ApplicationName](../../aspose.tasks/oleobject/applicationname/) { get; set; } | Katıştırılmış nesneyi. ile açmak için uygulama adını alır veya ayarlar |
-| [Content](../../aspose.tasks/oleobject/content/) { get; set; } | Gömülü dosyanın verilerini alır veya ayarlar; gömülü veri yoksa null. |
-| [DisplayAsIcon](../../aspose.tasks/oleobject/displayasicon/) { get; set; } | OLE nesnesinin bir simge veya onun normal resmi olarak gösterilmesi gerektiğini belirten bir bayrak alır veya ayarlar. |
-| [FileFormat](../../aspose.tasks/oleobject/fileformat/) { get; set; } | Katıştırılmış nesnenin dosya biçimini alır veya ayarlar. |
-| [FullPath](../../aspose.tasks/oleobject/fullpath/) { get; set; } | Eklenen nesnenin tam yolunu alır veya ayarlar. |
+| [ApplicationName](../../aspose.tasks/oleobject/applicationname/) { get; set; } | Gömülü nesneyi açmak için kullanılacak uygulama adını alır veya ayarlar. |
+| [Content](../../aspose.tasks/oleobject/content/) { get; set; } | Gömülü dosyanın verilerini alır veya ayarlar; veri gömülmemişse null döner. |
+| [DisplayAsIcon](../../aspose.tasks/oleobject/displayasicon/) { get; set; } | OLE nesnesinin bir simge olarak mı yoksa normal resmi olarak mı gösterileceğini belirten bayrağı alır veya ayarlar. |
+| [FileFormat](../../aspose.tasks/oleobject/fileformat/) { get; set; } | Gömülü nesnenin dosya formatını alır veya ayarlar. |
+| [FullPath](../../aspose.tasks/oleobject/fullpath/) { get; set; } | Eklelen nesnenin tam yolunu alır veya ayarlar. |
 | [Id](../../aspose.tasks/oleobject/id/) { get; set; } | Nesne kimliğini alır veya ayarlar. |
-| [Label](../../aspose.tasks/oleobject/label/) { get; set; } | Eklenen nesnenin etiketini alır veya ayarlar. |
-| [Linked](../../aspose.tasks/oleobject/linked/) { get; } | Proje dosyasının yalnızca bağlantı kaynağında depolanan gerçek verilere bir bağlantı içerip içermediğini gösteren bir değer alır. |
+| [Label](../../aspose.tasks/oleobject/label/) { get; set; } | Eklelen nesnenin etiketini alır veya ayarlar. |
+| [Linked](../../aspose.tasks/oleobject/linked/) { get; } | Proje dosyasının yalnızca bağlantı kaynağında depolanan gerçek veriye bir bağlantı içerip içermediğini gösteren bir değeri alır. |
 | [Name](../../aspose.tasks/oleobject/name/) { get; set; } | OLE nesnesinin örneğinin adını alır veya ayarlar. |
-| [TemporaryFile](../../aspose.tasks/oleobject/temporaryfile/) { get; set; } | Eklenen nesnenin geçici dosyasının yolunu alır veya ayarlar. |
-| [View](../../aspose.tasks/oleobject/view/) { get; set; } | örneğini alır veya ayarlar[`View`](./view/) eklenen nesnenin ait olduğu sınıf. |
+| [TemporaryFile](../../aspose.tasks/oleobject/temporaryfile/) { get; set; } | Eklelen nesnenin geçici dosyasının yolunu alır veya ayarlar. |
+| [View](../../aspose.tasks/oleobject/view/) { get; set; } | Eklelen nesnenin ait olduğu [`View`](./view/) sınıfının örneğini alır veya ayarlar. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+OLE nesneleri hakkında bilgi okumanın nasıl yapılacağını gösterir.
+
+```csharp
+[Test]
+public void WorkWithOleObject()
+{
+    var images = new Project(DataDir + "TaskImage2010.mpp");
+    List<OleObject> oleObjects = images.OleObjects.ToList();
+
+    Console.WriteLine("Ole Objects Count: " + oleObjects.Count);
+    foreach (var oleObject in oleObjects)
+    {
+        Console.WriteLine(" Id: " + oleObject.Id);
+        Console.WriteLine(" Name: " + oleObject.Name);
+        Console.WriteLine(" DisplayAsIcon: " + oleObject.DisplayAsIcon);
+        Console.WriteLine(" Application Name: " + oleObject.ApplicationName);
+        Console.WriteLine(" File Format: " + oleObject.FileFormat);
+        Console.WriteLine(" Label: " + oleObject.Label);
+        Console.WriteLine(" Full Path: " + oleObject.FullPath);
+        Console.WriteLine(" Is Linked: " + oleObject.Linked);
+        Console.WriteLine(" View Name: " + oleObject.View.Name);
+        Console.WriteLine(" Content (first 10 bytes): " + this.Get10Bytes(oleObject));
+    }
+}
+
+private string Get10Bytes(OleObject oleObject)
+{
+    byte[] bytes = oleObject.Content;
+    var chunk = new byte[10];
+    Array.Copy(bytes, chunk, 10);
+    var builder = new StringBuilder();
+    foreach (var b in chunk)
+    {
+        builder.Append(b + ", ");
+    }
+
+    builder.Remove(builder.Length - 3, 1);
+    return builder.ToString();
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

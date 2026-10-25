@@ -1,7 +1,7 @@
 ---
-title: Key2.KeyType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Key mülk. Özelliğin anahtarını alır.
+title: "Key2.KeyType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Key özelliği. Özelliğin anahtarını alır"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/key-2/keytype/
@@ -14,10 +14,10 @@ url: /tr/net/aspose.tasks/key-2/keytype/
 public K KeyType { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../)
-* ad alanı [Aspose.Tasks](../../key-2/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../key-2/)
+* assembly [Aspose.Tasks](../../../)
 
 

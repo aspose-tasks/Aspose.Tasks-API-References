@@ -1,23 +1,23 @@
 ---
-title: Task.Name
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir Ad değeri alır veya ayarlar.
+title: "Task.Name"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Name değerini alır veya ayarlar"
 type: docs
-weight: 860
+weight: 850
 url: /tr/net/aspose.tasks/task/name/
 ---
 ## Task.Name property
 
-Bir Ad değeri alır veya ayarlar.
+Name değerini alır veya ayarlar.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

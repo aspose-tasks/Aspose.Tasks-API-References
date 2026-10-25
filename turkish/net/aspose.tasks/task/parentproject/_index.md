@@ -1,28 +1,42 @@
 ---
-title: Task.ParentProject
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir görevin ana projesini alır.
+title: "Task.ParentProject"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. Bir görevin üst projesini alır."
 type: docs
-weight: 940
+weight: 930
 url: /tr/net/aspose.tasks/task/parentproject/
 ---
 ## Task.ParentProject property
 
-Bir görevin ana projesini alır.
+Bir görevin üst projesini alır.
 
 ```csharp
 public Project ParentProject { get; }
 ```
 
-### Notlar
+## Açıklamalar
 
-Bu özellikleri güncellemek için Project.UpdateReferences'ı arayın.
+Bu özellikleri güncellemek için Project.UpdateReferences metodunu çağırın.
 
-### Ayrıca bakınız
+## Örnekler
+
+Görevin üst projesinin nasıl kullanılacağını gösterir.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("Parent");
+
+// Görev için varsayılan proje zaman birimi türünü kullanarak bir süre ayarlayın.
+task.Set(Tsk.Duration, task.ParentProject.GetDuration(1));
+
+Console.WriteLine(task.Get(Tsk.Duration));
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../../project/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

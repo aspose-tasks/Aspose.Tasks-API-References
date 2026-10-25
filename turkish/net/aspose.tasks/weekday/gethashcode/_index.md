@@ -1,27 +1,27 @@
 ---
-title: WeekDay.GetHashCode
-second_title: Aspose.Tasks for .NET API Referansı
-description: WeekDay yöntem. Örneği için bir karma kod değeri döndürürWeekDay sınıf.
+title: "WeekDay.GetHashCode"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WeekDay yöntemi. WeekDay sınıfının bir örneği için bir karma kod değeri döndürür."
 type: docs
 weight: 100
 url: /tr/net/aspose.tasks/weekday/gethashcode/
 ---
 ## WeekDay.GetHashCode method
 
-Örneği için bir karma kod değeri döndürür[`WeekDay`](../) sınıf.
+[`WeekDay`](../) sınıfının bir örneği için bir karma kod değeri döndürür.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
 bu nesne için bir karma kod değeri döndürür.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WeekDay](../)
-* ad alanı [Aspose.Tasks](../../weekday/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weekday/)
+* assembly [Aspose.Tasks](../../../)
 
 

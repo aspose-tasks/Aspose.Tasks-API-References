@@ -1,24 +1,24 @@
 ---
-title: FontDescriptor.Style
-second_title: Aspose.Tasks for .NET API Referansı
-description: FontDescriptor mülk. Font stilini alır.
+title: "FontDescriptor.Style"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "FontDescriptor özelliği. Yazı tipinin stilini alır."
 type: docs
 weight: 40
 url: /tr/net/aspose.tasks.visualization/fontdescriptor/style/
 ---
 ## FontDescriptor.Style property
 
-Font stilini alır.
+Yazı tipinin stilini alır.
 
 ```csharp
 public FontStyles Style { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* ad alanı [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: VbaReference.VbaReference
-second_title: Aspose.Tasks for .NET API Referansı
-description: VbaReference inşaatçı. Default_Constructor
+title: "VbaReference.VbaReference"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "VbaReference yapıcı. Varsayılan yapıcı"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/vbareference/vbareference/
 ---
 ## VbaReference constructor
 
-Default_Constructor
+Varsayılan yapıcı.
 
 ```csharp
 public VbaReference()
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [VbaReference](../)
-* ad alanı [Aspose.Tasks](../../vbareference/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,26 +1,38 @@
 ---
-title: Prj.NewTasksAreManual
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Yeni görevlerin manuel olarak oluşturulup oluşturulmadığını belirler.
+title: "Prj.NewTasksAreManual"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Yeni görevlerin manuel olarak oluşturulup oluşturulmayacağını belirler"
 type: docs
-weight: 540
+weight: 550
 url: /tr/net/aspose.tasks/prj/newtasksaremanual/
 ---
 ## Prj.NewTasksAreManual field
 
-Yeni görevlerin manuel olarak oluşturulup oluşturulmadığını belirler.
+Yeni görevlerin manuel olarak oluşturulup oluşturulmayacağını belirler.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> NewTasksAreManual;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.NewTasksAreManual özelliğini okuma/yazma yöntemini gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.NewTasksAreManual, true);
+
+Console.WriteLine("New Tasks Are Manual: " + project.Get(Prj.NewTasksAreManual));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

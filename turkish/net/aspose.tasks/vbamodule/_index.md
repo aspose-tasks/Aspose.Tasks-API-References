@@ -1,9 +1,9 @@
 ---
-title: Class VbaModule
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.VbaModule sınıf. Bir VBA modülünü temsil eder.
+title: "Sınıf VbaModule"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.VbaModule sınıfı. Bir VBA modülünü temsil eder"
 type: docs
-weight: 2490
+weight: 2810
 url: /tr/net/aspose.tasks/vbamodule/
 ---
 ## VbaModule class
@@ -11,21 +11,44 @@ url: /tr/net/aspose.tasks/vbamodule/
 Bir VBA modülünü temsil eder.
 
 ```csharp
-public class VbaModule : IVbaModule
+public sealed class VbaModule
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Attributes](../../aspose.tasks/vbamodule/attributes/) { get; } |  |
-| [Name](../../aspose.tasks/vbamodule/name/) { get; } |  |
-| [SourceCode](../../aspose.tasks/vbamodule/sourcecode/) { get; } |  |
+| [Attributes](../../aspose.tasks/vbamodule/attributes/) { get; } | Modülün özniteliklerinin bir koleksiyonunu alır. |
+| [Name](../../aspose.tasks/vbamodule/name/) { get; set; } | VBA modülünün adını alır |
+| [SourceCode](../../aspose.tasks/vbamodule/sourcecode/) { get; set; } | VBA modülünün kaynak kodunu alır veya ayarlar |
+| [Type](../../aspose.tasks/vbamodule/type/) { get; } | Modülün tipini alır. |
 
-### Ayrıca bakınız
+## Yöntemler
 
-* interface [IVbaModule](../ivbamodule/)
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+| Ad | Açıklama |
+| --- | --- |
+| static [CreateClassModule](../../aspose.tasks/vbamodule/createclassmodule/)(string) | `VbaModule` sınıfının VbaModuleType.ClassModule türüyle bir örneğini oluşturur. |
+| static [CreateProceduralModule](../../aspose.tasks/vbamodule/createproceduralmodule/)(string) | `VbaModule` sınıfının VbaModuleType.ProceduralModule türüyle bir örneğini oluşturur. |
+
+## Örnekler
+
+VBA projesinin modüllerinin nasıl okunacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

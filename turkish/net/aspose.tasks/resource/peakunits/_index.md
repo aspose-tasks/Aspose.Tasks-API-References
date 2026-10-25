@@ -1,9 +1,9 @@
 ---
-title: Resource.PeakUnits
-second_title: Aspose.Tasks for .NET API Referansı
-description: Resource mülk. PeakUnits değerini alır veya ayarlar.
+title: "Resource.PeakUnits"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Resource özelliği. Değer alır veya ayarlar, PeakUnits değerini"
 type: docs
-weight: 620
+weight: 610
 url: /tr/net/aspose.tasks/resource/peakunits/
 ---
 ## Resource.PeakUnits property
@@ -14,10 +14,10 @@ PeakUnits değerini alır veya ayarlar.
 public double PeakUnits { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Resource](../)
-* ad alanı [Aspose.Tasks](../../resource/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

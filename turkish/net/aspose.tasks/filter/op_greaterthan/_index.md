@@ -1,32 +1,49 @@
 ---
-title: Filter.op_GreaterThan
-second_title: Aspose.Tasks for .NET API Referansı
-description: Filter yöntem. Bu örneğin belirtilen bir nesneden daha büyük olup olmadığını gösteren bir değer döndürür.
+title: "Filter.op_GreaterThan"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Filter yöntemi. Bu örneğin belirtilen bir nesneden daha büyük olup olmadığını gösteren bir değer döndürür."
 type: docs
 weight: 130
 url: /tr/net/aspose.tasks/filter/op_greaterthan/
 ---
 ## Filter GreaterThan operator
 
-Bu örneğin belirtilen bir nesneden daha büyük olup olmadığını gösteren bir değer döndürür.
+Bu örneğin belirtilen nesneden büyük olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public static bool operator >(Filter a, Filter b)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| a | Filter | İlk filtre. |
+| bir | Filter | İlk filtre. |
 | b | Filter | İkinci filtre. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu örneğin belirtilen bir nesneden daha büyük olup olmadığını gösteren bir değer
+Bu örneğin belirtilen bir nesneden daha büyük olup olmadığını gösteren bir değer
 
-### Ayrıca bakınız
+## Örnekler
+
+Filtre eşitliğini nasıl kontrol edeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// Filtrelerin eşitliği, filtrenin UID'sine karşı kontrol edilir.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### Ayrıca Bakınız
 
 * class [Filter](../)
-* ad alanı [Aspose.Tasks](../../filter/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

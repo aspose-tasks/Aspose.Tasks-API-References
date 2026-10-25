@@ -1,48 +1,73 @@
 ---
-title: Project.SaveReport
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project yöntem. Projeye genel bakış raporunu akışa kaydeder.
+title: "Project.SaveReport"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project yöntemi. Proje özet raporunu akışa kaydeder."
 type: docs
-weight: 1200
+weight: 1220
 url: /tr/net/aspose.tasks/project/savereport/
 ---
 ## SaveReport(Stream) {#savereport}
 
-Projeye genel bakış raporunu akışa kaydeder.
+Proje genel bakış raporunu akışa kaydeder.
 
 ```csharp
 public void SaveReport(Stream stream)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | Proje raporunun kaydedileceği akış. |
+| akış | Akış | Proje raporunun kaydedileceği akış. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Proje özet raporunu PDF dosyasına nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// Özet raporu belirtilen akışa PDF dosyası olarak kaydedin.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveReport(string) {#savereport_2}
 
-Projeye genel bakış raporunu PDF dosyasına kaydeder.
+Proje genel bakış raporunu PDF dosyasına kaydeder.
 
 ```csharp
 public void SaveReport(string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | Dosya adı. |
+| fileName | Dize | Dosya adı. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Proje özet raporunu bir akışa PDF dosyası olarak nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// Özet raporu belirtilen yola PDF dosyası olarak kaydedebilirsiniz.
+project.SaveReport(OutDir + "SaveProjectOverviewReport_out.pdf");
+```
+
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -54,17 +79,31 @@ Belirtilen türdeki proje raporunu belirtilen akışa kaydeder.
 public void SaveReport(Stream stream, ReportType reportType)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | proje raporunun kaydedileceği belirtilen akış. |
+| akış | Akış | Proje raporunun kaydedileceği belirtilen akış. |
 | reportType | ReportType | belirtilen rapor türü.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### Ayrıca bakınız
+## Örnekler
+
+Belirli rapor türü için proje raporunu PDF dosyasına nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "Cyclic structure.mpp");
+
+// Özet raporu belirtilen akışa PDF dosyası olarak kaydedin.
+using (var stream = new FileStream(OutDir + "SaveProjectOverviewReport_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### Ayrıca Bakınız
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -76,16 +115,25 @@ Belirtilen türdeki proje raporunu PDF formatında belirtilen dosya yoluna kayde
 public void SaveReport(string fileName, ReportType reportType)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | belirtilen dosya adı. |
+| fileName | Dize | Belirtilen dosya adı. |
 | reportType | ReportType | belirtilen rapor türü.[`ReportType`](../../../aspose.tasks.visualization/reporttype/) |
 
-### Ayrıca bakınız
+## Örnekler
+
+Proje raporunu PDF formatında nasıl kaydedeceğinizi gösterir.
+
+```csharp
+var project = new Project(DataDir + "OzBuild 16 Orig.mpp");
+project.SaveReport(OutDir + "CostOverview_out.pdf", ReportType.CostOverview);
+```
+
+### Ayrıca Bakınız
 
 * enum [ReportType](../../../aspose.tasks.visualization/reporttype/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

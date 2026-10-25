@@ -1,24 +1,24 @@
 ---
-title: Project.EarnedValueMethod
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Bir EarnedValueMethod. değeri alır veya ayarlar.
+title: "Project.EarnedValueMethod"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. EarnedValueMethod değerini alır veya ayarlar."
 type: docs
-weight: 390
+weight: 400
 url: /tr/net/aspose.tasks/project/earnedvaluemethod/
 ---
 ## Project.EarnedValueMethod property
 
-Bir EarnedValueMethod. değeri alır veya ayarlar.
+EarnedValueMethod'ın bir değerini alır veya ayarlar.
 
 ```csharp
 public EarnedValueMethodType EarnedValueMethod { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

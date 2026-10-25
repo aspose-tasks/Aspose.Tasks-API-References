@@ -1,23 +1,23 @@
 ---
-title: Project.Name
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. Bir Ad değeri alır veya ayarlar.
+title: "Project.Name"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project property. Name değerini alır veya ayarlar"
 type: docs
-weight: 630
+weight: 650
 url: /tr/net/aspose.tasks/project/name/
 ---
 ## Project.Name property
 
-Bir Ad değeri alır veya ayarlar.
+Name değerini alır veya ayarlar.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

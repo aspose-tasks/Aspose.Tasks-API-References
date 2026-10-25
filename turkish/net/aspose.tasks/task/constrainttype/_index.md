@@ -1,24 +1,24 @@
 ---
-title: Task.ConstraintType
-second_title: Aspose.Tasks for .NET API Referansı
-description: Task mülk. Bir ConstraintType. değeri alır veya ayarlar.
+title: "Task.ConstraintType"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Task özelliği. ConstraintType değerini alır veya ayarlar"
 type: docs
 weight: 240
 url: /tr/net/aspose.tasks/task/constrainttype/
 ---
 ## Task.ConstraintType property
 
-Bir ConstraintType. değeri alır veya ayarlar.
+ConstraintType değerini alır veya ayarlar.
 
 ```csharp
 public ConstraintType ConstraintType { get; set; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [ConstraintType](../../constrainttype/)
 * class [Task](../)
-* ad alanı [Aspose.Tasks](../../task/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

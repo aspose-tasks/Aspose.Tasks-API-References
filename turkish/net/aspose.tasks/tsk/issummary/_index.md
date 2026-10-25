@@ -1,9 +1,9 @@
 ---
-title: Tsk.IsSummary
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görevin özet görev olup olmadığını belirler.
+title: "Tsk.IsSummary"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Bir görevin özet görev olup olmadığını belirler"
 type: docs
-weight: 730
+weight: 720
 url: /tr/net/aspose.tasks/tsk/issummary/
 ---
 ## Tsk.IsSummary field
@@ -14,12 +14,26 @@ Bir görevin özet görev olup olmadığını belirler.
 public static readonly Key<bool, TaskKey> IsSummary;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.IsSummary özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSummary, true);
+
+Console.WriteLine("Is Summary: " + task.Get(Tsk.IsSummary));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

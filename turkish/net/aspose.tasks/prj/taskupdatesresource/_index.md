@@ -1,26 +1,38 @@
 ---
-title: Prj.TaskUpdatesResource
-second_title: Aspose.Tasks for .NET API Referansı
-description: Prj alan. Görev güncellemelerinin kaynakları güncelleyip güncellemediğini belirler.
+title: "Prj.TaskUpdatesResource"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Prj alanı. Görev güncellemelerinin kaynakları güncelleyip güncellemeyeceğini belirler"
 type: docs
-weight: 700
+weight: 710
 url: /tr/net/aspose.tasks/prj/taskupdatesresource/
 ---
 ## Prj.TaskUpdatesResource field
 
-Görev güncellemelerinin kaynakları güncelleyip güncellemediğini belirler.
+Görev güncellemelerinin kaynakları güncelleyip güncellemeyeceğini belirler.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> TaskUpdatesResource;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Prj.TaskUpdatesResource özelliğinin nasıl okunup yazılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.TaskUpdatesResource, true);
+
+Console.WriteLine("Task Updates Resource: " + project.Get(Prj.TaskUpdatesResource));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* ad alanı [Aspose.Tasks](../../prj/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

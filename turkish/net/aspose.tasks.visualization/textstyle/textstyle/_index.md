@@ -1,87 +1,112 @@
 ---
-title: TextStyle.TextStyle
-second_title: Aspose.Tasks for .NET API Referansı
-description: TextStyle inşaatçı. Yeni bir örneğini başlatır.TextStyle varsayılan ayarlara sahip sınıf.
+title: "TextStyle.TextStyle"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "TextStyle yapıcı. TextStyle sınıfının yeni bir örneğini varsayılan ayarlarla başlatır"
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks.visualization/textstyle/textstyle/
 ---
 ## TextStyle() {#constructor}
 
-Yeni bir örneğini başlatır.[`TextStyle`](../) varsayılan ayarlara sahip sınıf.
+Yeni bir örnek oluşturur [`TextStyle`](../) sınıfını varsayılan ayarlarla.
 
 ```csharp
 public TextStyle()
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Bir projedeki farklı metin öğelerini biçimlendirmek için kullanılan metin stillerinin nasıl özelleştirileceğini gösterir.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### Ayrıca Bakınız
 
 * class [TextStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../textstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(float, FontStyles) {#constructor_3}
 
-Yeni bir örneğini başlatır.[`TextStyle`](../) varsayılan yazı tipi ve belirtilen yazı tipi boyutu ve stili ile sınıf.
+Yeni bir örnek oluşturur [`TextStyle`](../) sınıfını varsayılan yazı tipi ve belirtilen yazı tipi boyutu ve stiliyle.
 
 ```csharp
 public TextStyle(float fontSize, FontStyles fontStyle)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | fontSize | Single | TextStyle yazı tipinin boyutu. |
-| fontStyle | FontStyles | TextStyle yazı tipi stili. |
+| fontStyle | FontStyles | TextStyle yazı tipinin stili. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../textstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontStyles) {#constructor_2}
 
-Yeni bir örneğini başlatır.[`TextStyle`](../) varsayılan yazı tipi ve belirtilen yazı tipi stili ile sınıf.
+Yeni bir örnek oluşturur [`TextStyle`](../) sınıfını varsayılan yazı tipi ve belirtilen yazı tipi stiliyle.
 
 ```csharp
 public TextStyle(FontStyles fontStyle)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | fontStyle | FontStyles | Varsayılan yazı tipine uygulanacak yazı tipi stili. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../textstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontDescriptor) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`TextStyle`](../) belirtilen yazı tipi ayarlarına sahip sınıf.
+Yeni bir örnek oluşturur [`TextStyle`](../) sınıfını belirtilen yazı tipi ayarlarıyla.
 
 ```csharp
 public TextStyle(FontDescriptor font)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| font | FontDescriptor | TextStyle'ın yazı tipi. |
+| font | FontDescriptor | TextStyle yazı tipi. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [FontDescriptor](../../fontdescriptor/)
 * class [TextStyle](../)
-* ad alanı [Aspose.Tasks.Visualization](../../textstyle/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

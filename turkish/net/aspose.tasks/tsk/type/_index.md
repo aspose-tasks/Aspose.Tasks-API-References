@@ -1,9 +1,9 @@
 ---
-title: Tsk.Type
-second_title: Aspose.Tasks for .NET API Referansı
-description: Tsk alan. Bir görevin türü.
+title: "Tsk.Type"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Tsk alanı. Bir görevin türü."
 type: docs
-weight: 1120
+weight: 1100
 url: /tr/net/aspose.tasks/tsk/type/
 ---
 ## Tsk.Type field
@@ -14,13 +14,27 @@ Bir görevin türü.
 public static readonly Key<TaskType, TaskKey> Type;
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Tsk.Type özelliğini okuma/yazma nasıl yapılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.Type, TaskType.FixedDuration);
+
+Console.WriteLine("Type: " + task.Get(Tsk.Type));
+```
+
+### Ayrıca Bakınız
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskType](../../tasktype/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* ad alanı [Aspose.Tasks](../../tsk/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

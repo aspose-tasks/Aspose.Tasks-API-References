@@ -1,27 +1,27 @@
 ---
-title: ReadOnlyCollectionBase1.Add
-second_title: Aspose.Tasks for .NET API Referansı
-description: ReadOnlyCollectionBase yöntem. Bu ICollectionın Add yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+title: "ReadOnlyCollectionBase1.Add"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ReadOnlyCollectionBase yöntemi. Bu, yalnızca NotSupportedException fırlatan ICollections Add metodunun taslak uygulamasıdır."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/readonlycollectionbase-1/add/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.Add method
 
-Bu, ICollection'ın Add yönteminin saplama uygulamasıdır ve yalnızca NotSupportedException öğesini atar.
+Bu, ICollection'ın Add metodunun sadece NotSupportedException fırlatan taslak uygulamasıdır
 
 ```csharp
 public void Add(T item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | T | Eklenecek öğe. |
+| öğe | T | Eklenecek öğe. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* ad alanı [Aspose.Tasks](../../readonlycollectionbase-1/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

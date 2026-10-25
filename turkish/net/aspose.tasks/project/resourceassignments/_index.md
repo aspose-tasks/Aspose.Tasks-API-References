@@ -1,9 +1,9 @@
 ---
-title: Project.ResourceAssignments
-second_title: Aspose.Tasks for .NET API Referansı
-description: Project mülk. ResourceAssignmentCollection nesnesini alır.
+title: "Project.ResourceAssignments"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Project özelliği. ResourceAssignmentCollection nesnesini alır"
 type: docs
-weight: 720
+weight: 750
 url: /tr/net/aspose.tasks/project/resourceassignments/
 ---
 ## Project.ResourceAssignments property
@@ -14,11 +14,26 @@ ResourceAssignmentCollection nesnesini alır.
 public ResourceAssignmentCollection ResourceAssignments { get; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Kaynak atamalarıyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project();
+
+// Yeni görev ve kaynak ekle
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Rsc");
+
+// Kaynağı istenen göreve atayın
+project.ResourceAssignments.Add(task, resource);
+```
+
+### Ayrıca Bakınız
 
 * class [ResourceAssignmentCollection](../../resourceassignmentcollection/)
 * class [Project](../)
-* ad alanı [Aspose.Tasks](../../project/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,27 +1,27 @@
 ---
-title: ProjectServerCredentials.ToString
-second_title: Aspose.Tasks for .NET API Referansı
-description: ProjectServerCredentials yöntem. Bu örneğin dize gösterimini döndürür.
+title: "ProjectServerCredentials.ToString"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "ProjectServerCredentials yöntemi. Bu örneğin string temsilini döndürür"
 type: docs
 weight: 50
 url: /tr/net/aspose.tasks/projectservercredentials/tostring/
 ---
 ## ProjectServerCredentials.ToString method
 
-Bu örneğin dize gösterimini döndürür.
+Bu örneğin dize temsili döndürür.
 
 ```csharp
 public override string ToString()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu örneğin bir dize temsili.
+Bu örneğin string temsili.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [ProjectServerCredentials](../)
-* ad alanı [Aspose.Tasks](../../projectservercredentials/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservercredentials/)
+* assembly [Aspose.Tasks](../../../)
 
 

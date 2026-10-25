@@ -1,23 +1,23 @@
 ---
-title: WebRequestEventArgs.WebRequest
-second_title: Aspose.Tasks for .NET API Referansı
-description: WebRequestEventArgs mülk. Proje Sunucusunun web APIsine gönderilmek üzere bir web isteği alır.
+title: "WebRequestEventArgs.WebRequest"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "WebRequestEventArgs özelliği. Project Servers web API'sine gönderilecek bir web isteği alır."
 type: docs
 weight: 10
 url: /tr/net/aspose.tasks/webrequesteventargs/webrequest/
 ---
 ## WebRequestEventArgs.WebRequest property
 
-Proje Sunucusunun web API'sine gönderilmek üzere bir web isteği alır.
+Project Server'ın web API'sine gönderilecek bir web isteği alır.
 
 ```csharp
 public HttpWebRequest WebRequest { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * class [WebRequestEventArgs](../)
-* ad alanı [Aspose.Tasks](../../webrequesteventargs/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../webrequesteventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

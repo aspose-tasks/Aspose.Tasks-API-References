@@ -1,24 +1,43 @@
 ---
-title: GanttChartView.TextStyles
-second_title: Aspose.Tasks for .NET API Referansı
-description: GanttChartView mülk. Bir liste alır veya ayarlarTextStyle Gantt Grafiği görünümünün.
+title: "GanttChartView.TextStyles"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "GanttChartView özelliği. Gantt Şeması görünümünün TextStyle listesini alır veya ayarlar"
 type: docs
 weight: 170
 url: /tr/net/aspose.tasks/ganttchartview/textstyles/
 ---
 ## GanttChartView.TextStyles property
 
-Bir liste alır veya ayarlar[`TextStyle`](../../../aspose.tasks.visualization/textstyle/) Gantt Grafiği görünümünün.
+Gantt Şeması görünümünün [`TextStyle`](../../../aspose.tasks.visualization/textstyle/) listesini alır veya ayarlar.
 
 ```csharp
 public List<TextStyle> TextStyles { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Gantt şeması metin stillerinin nasıl okunacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// Gantt şeması görünümünün metin stilleri üzerinde yineleme yapın
+foreach (var style in view.TextStyles)
+{
+    Console.WriteLine("Style Item Type: " + style.ItemType);
+    Console.WriteLine("Style Font name: " + style.Font.FontFamily);
+    Console.WriteLine();
+}
+```
+
+### Ayrıca Bakınız
 
 * class [TextStyle](../../../aspose.tasks.visualization/textstyle/)
 * class [GanttChartView](../)
-* ad alanı [Aspose.Tasks](../../ganttchartview/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ganttchartview/)
+* assembly [Aspose.Tasks](../../../)
 
 

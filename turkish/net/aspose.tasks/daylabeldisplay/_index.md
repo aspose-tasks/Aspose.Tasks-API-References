@@ -1,7 +1,7 @@
 ---
-title: Enum DayLabelDisplay
-second_title: Aspose.Tasks for .NET API Referansı
-description: Aspose.Tasks.DayLabelDisplay Sıralama. Gün etiketinin nasıl görüntüleneceğini belirtir.
+title: "Enum DayLabelDisplay"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "Aspose.Tasks.DayLabelDisplay enum. Gün etiketinin nasıl görüntüleneceğini belirtir"
 type: docs
 weight: 440
 url: /tr/net/aspose.tasks/daylabeldisplay/
@@ -14,17 +14,31 @@ Gün etiketinin nasıl görüntüleneceğini belirtir.
 public enum DayLabelDisplay
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| D | `0` | MS Project'teki Günler listesini d. olarak ayarlar |
-| Dy | `1` | MS Project'teki Günler listesini dy. olarak ayarlar |
-| Day | `2` | MS Project'teki Günler listesini day. olarak ayarlar. |
+| D | `0` | MS Project'teki Günler listesini d olarak ayarlar. |
+| Dy | `1` | MS Project'teki Günler listesini dy olarak ayarlar. |
+| Day | `2` | MS Project'teki Günler listesini day olarak ayarlar. |
 
-### Ayrıca bakınız
+## Örnekler
 
-* ad alanı [Aspose.Tasks](../../aspose.tasks/)
-* toplantı [Aspose.Tasks](../../)
+Projenin görüntüleme seçeneklerinde gün etiketini nasıl ayarlayacağınızı gösterir (durum 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// Gün etiketinin nasıl görüntüleneceğini ayarla
+project.DisplayOptions.DayLabel = DayLabelDisplay.D;
+
+// ...
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

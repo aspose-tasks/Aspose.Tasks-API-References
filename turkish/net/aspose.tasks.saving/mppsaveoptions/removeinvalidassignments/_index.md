@@ -1,23 +1,44 @@
 ---
-title: MPPSaveOptions.RemoveInvalidAssignments
-second_title: Aspose.Tasks for .NET API Referansı
-description: MPPSaveOptions mülk. MPPye kaydederken geçersiz kaynak atamalarının kaldırılıp kaldırılmayacağını belirten bir değer alır veya ayarlar. MS Project her görev için boş bir kaynak ataması oluşturur. Kaydedildiklerinde kaldırmak için bu bayrağı true olarak ayarlayın.
+title: "MPPSaveOptions.RemoveInvalidAssignments"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "MPPSaveOptions özelliği. MPP'ye kaydederken geçersiz kaynak atamalarının kaldırılıp kaldırılmayacağını gösteren bir değeri alır veya ayarlar. MS Project her görev için boş bir kaynak ataması oluşturur. Bu bayrağı true olarak ayarlayarak kaydetme sırasında bunları kaldırın."
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/aspose.tasks.saving/mppsaveoptions/removeinvalidassignments/
 ---
 ## MPPSaveOptions.RemoveInvalidAssignments property
 
-MPP'ye kaydederken geçersiz kaynak atamalarının kaldırılıp kaldırılmayacağını belirten bir değer alır veya ayarlar. MS Project, her görev için boş bir kaynak ataması oluşturur. Kaydedildiklerinde kaldırmak için bu bayrağı true olarak ayarlayın.
+MPP'ye kaydederken geçersiz kaynak atamalarını kaldırıp kaldırmayacağını gösteren bir değeri alır veya ayarlar. MS Project her görev için boş bir kaynak ataması oluşturur. Kaydetme sırasında bunları kaldırmak için bu bayrağı true olarak ayarlayın.
 
 ```csharp
 public bool RemoveInvalidAssignments { get; set; }
 ```
 
-### Ayrıca bakınız
+## Örnekler
+
+Projeyi bir akışa MPP dosyası olarak nasıl kaydedeceğinizi gösterir.
+
+```csharp
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+    // kaydetme seçenekleri oluştur
+    SimpleSaveOptions options = new MPPSaveOptions
+    {
+        // MPP'ye kaydederken geçersiz kaynak atamalarını kaldırıp kaldırmayacağını gösteren bir değeri ayarlar
+        RemoveInvalidAssignments = true
+    };
+
+    // seçeneklerle MPP kaydet
+    project.Save(stream, options);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [MPPSaveOptions](../)
-* ad alanı [Aspose.Tasks.Saving](../../mppsaveoptions/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../mppsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

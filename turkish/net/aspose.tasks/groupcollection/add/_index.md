@@ -1,7 +1,7 @@
 ---
-title: GroupCollection.Add
-second_title: Aspose.Tasks for .NET API Referansı
-description: GroupCollection yöntem. Belirtilen öğeyi bu koleksiyona ekler.
+title: "GroupCollection.Add"
+second_title: "Aspose.Tasks for .NET API Referansı"
+description: "GroupCollection yöntemi. Belirtilen öğeyi bu koleksiyona ekler."
 type: docs
 weight: 30
 url: /tr/net/aspose.tasks/groupcollection/add/
@@ -14,15 +14,77 @@ Belirtilen öğeyi bu koleksiyona ekler.
 public void Add(Group item)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| item | Group | bu koleksiyona eklenecek belirtilen öğe. |
+| öğe | Group | Bu koleksiyona eklenmesi gereken belirtilen öğe. |
 
-### Ayrıca bakınız
+## Örnekler
+
+Grupların koleksiyonuyla nasıl çalışılacağını gösterir.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+// görev grupları üzerinde yinele
+Console.WriteLine("Print task groups of {0} project: ", project.Get(Prj.Name));
+Console.WriteLine("Task Group Count: " + project.TaskGroups.Count);
+foreach (var group in project.TaskGroups)
+{
+    Console.WriteLine("Name: " + group.Name);
+    Console.WriteLine("Show In Menu: " + group.ShowInMenu);
+    Console.WriteLine();
+}
+
+// kaynak grupları üzerinde yinele
+Console.WriteLine("Project resource group count: " + project.ResourceGroups.Count);
+foreach (var group in project.ResourceGroups)
+{
+    Console.WriteLine("Resource group Name: " + group.Name);
+    Console.WriteLine("Resource group ShowInMenu" + group.ShowInMenu);
+}
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// diğer projenin gruplarını temizle
+otherProject.TaskGroups.Clear();
+
+// grupları diğer projeye kopyala
+var groups = new Group[project.TaskGroups.Count];
+project.TaskGroups.CopyTo(groups, 0);
+
+foreach (var group in groups)
+{
+    otherProject.TaskGroups.Add(group);
+}
+
+// özel görev grubu ekle
+var customGroup = new Group
+{
+    Name = "Custom Group",
+    ShowInMenu = true
+};
+
+if (!otherProject.TaskGroups.Contains(customGroup))
+{
+    if (!otherProject.TaskGroups.IsReadOnly)
+    {
+        otherProject.TaskGroups.Add(customGroup);
+    }
+}
+
+// tüm grupları kaldır
+List<Group> groupsToDelete = otherProject.TaskGroups.ToList();
+foreach (var group in groupsToDelete)
+{
+    otherProject.TaskGroups.Remove(group);
+}
+```
+
+### Ayrıca Bakınız
 
 * class [Group](../../group/)
 * class [GroupCollection](../)
-* ad alanı [Aspose.Tasks](../../groupcollection/)
-* toplantı [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 
