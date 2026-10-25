@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::ReadOnlyCollectionBase< T >::GetEnumerator طريقة"
+linktitle: "GetEnumerator"
+articleTitle: "GetEnumerator"
+second_title: "Aspose.Tasks لـ C++"
+description: "يرجع مُعدِّدًا لهذه المجموعة."
+type: docs
+weight: 30
+url: /ar/cpp/aspose.tasks/readonlycollectionbase/getenumerator/
+---
+
+## GetEnumerator {#getenumerator}
+
+يرجع مُعدِّدًا لهذه المجموعة.
+
+**Returns:** An enumerator for this collection.
+
+```cpp
+GetEnumerator()
+```
+
