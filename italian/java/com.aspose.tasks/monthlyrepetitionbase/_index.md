@@ -1,0 +1,81 @@
+---
+title: "MonthlyRepetitionBase"
+second_title: "Aspose.Tasks for Java API Reference"
+description: "Rappresenta un modello di base per la posizione del giorno mensile."
+type: docs
+weight: 159
+url: /it/java/com.aspose.tasks/monthlyrepetitionbase/
+---
+
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+com.aspose.tasks.IValidatorCreator, com.aspose.tasks.ICalculatorCreator
+```
+public abstract class MonthlyRepetitionBase implements IValidatorCreator, ICalculatorCreator
+```
+
+Rappresenta un modello di base per la posizione del giorno mensile.
+## Metodi
+
+| Metodo | Descrizione |
+| --- | --- |
+| [getCalculator(Calendar calendar, Duration duration)](#getCalculator-com.aspose.tasks.Calendar-com.aspose.tasks.Duration-) | \{@inheritDoc\} |
+| [getRepetitionInterval()](#getRepetitionInterval--) | Ottiene un numero di mesi che rappresenta l'intervallo in mesi tra le occorrenze. |
+| [getValidator(Calendar calendar)](#getValidator-com.aspose.tasks.Calendar-) | \{@inheritDoc\} |
+| [setRepetitionInterval(int value)](#setRepetitionInterval-int-) | Imposta un numero di mesi che rappresenta l'intervallo in mesi tra le occorrenze. |
+### getCalculator(Calendar calendar, Duration duration) {#getCalculator-com.aspose.tasks.Calendar-com.aspose.tasks.Duration-}
+```
+public final RecurrenceDateCalculatorBase getCalculator(Calendar calendar, Duration duration)
+```
+
+
+Ottiene un calcolatore utilizzato per calcolare una ripetizione.
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| calendar | [Calendar](../../com.aspose.tasks/calendar) | \{@inheritDoc\} |
+| duration | [Duration](../../com.aspose.tasks/duration) | \{@inheritDoc\} |
+
+**Returns:**
+com.aspose.tasks.RecurrenceDateCalculatorBase - \{@inheritDoc\}
+### getRepetitionInterval() {#getRepetitionInterval--}
+```
+public final int getRepetitionInterval()
+```
+
+
+Ottiene un numero di mesi che rappresenta l'intervallo in mesi tra le occorrenze.
+
+**Returns:**
+int - un numero di mesi che rappresenta l'intervallo in mesi tra le occorrenze.
+### getValidator(Calendar calendar) {#getValidator-com.aspose.tasks.Calendar-}
+```
+public final RecurrencePatternValidatorBase getValidator(Calendar calendar)
+```
+
+
+Ottiene un validatore per il modello di ricorrenza.
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| calendar | [Calendar](../../com.aspose.tasks/calendar) | \{@inheritDoc\} |
+
+**Returns:**
+com.aspose.tasks.RecurrencePatternValidatorBase - \{@inheritDoc\}
+### setRepetitionInterval(int value) {#setRepetitionInterval-int-}
+```
+public final void setRepetitionInterval(int value)
+```
+
+
+Imposta un numero di mesi che rappresenta l'intervallo in mesi tra le occorrenze.
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| valore | int | un numero di mesi che rappresenta l'intervallo in mesi tra le occorrenze. |
+
