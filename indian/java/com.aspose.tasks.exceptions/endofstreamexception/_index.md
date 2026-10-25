@@ -1,0 +1,16 @@
+---
+title: "EndOfStreamException"
+second_title: "Aspose.Tasks के लिए Java API Reference"
+description: "जब स्ट्रीम के अंत के बाद पढ़ने का प्रयास किया जाता है, तब फेंका जाने वाला अपवाद।"
+type: docs
+weight: 26
+url: /hi/java/com.aspose.tasks.exceptions/endofstreamexception/
+---
+
+**Inheritance:**
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, [com.aspose.tasks.exceptions.Exception](../../com.aspose.tasks.exceptions/exception), [com.aspose.tasks.exceptions.SystemException](../../com.aspose.tasks.exceptions/systemexception), [com.aspose.tasks.exceptions.IOException](../../com.aspose.tasks.exceptions/ioexception)
+```
+public class EndOfStreamException extends IOException
+```
+
+जब स्ट्रीम के अंत के बाद पढ़ने का प्रयास किया जाता है, तब फेंका जाने वाला अपवाद।
