@@ -1,9 +1,9 @@
 ---
-title: Task.Resume
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取或设置 Resume 的值
+title: "Task.Resume"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取或设置 Resume 的值"
 type: docs
-weight: 1110
+weight: 1100
 url: /zh/net/aspose.tasks/task/resume/
 ---
 ## Task.Resume property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/task/resume/
 public DateTime Resume { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

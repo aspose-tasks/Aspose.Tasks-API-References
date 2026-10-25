@@ -1,29 +1,41 @@
 ---
-title: Prj.CreationDate
-second_title: Aspose.Tasks for .NET API 参考
-description: Prj 场地. 创建项目的日期和时间
+title: "Prj.CreationDate"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Prj 字段。项目创建的日期和时间"
 type: docs
-weight: 120
+weight: 130
 url: /zh/net/aspose.tasks/prj/creationdate/
 ---
 ## Prj.CreationDate field
 
-创建项目的日期和时间。
+项目创建的日期和时间。
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> CreationDate;
 ```
 
-### 评论
+## 备注
 
-以 UTC 格式保存在 mpp 文件中. DateTime类型.
+以 UTC 格式保存在 mpp 文件中。DateTime 类型。
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Prj.CreationDate 属性。
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.CreationDate, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Creation Date: " + project.Get(Prj.CreationDate));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* 命名空间 [Aspose.Tasks](../../prj/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

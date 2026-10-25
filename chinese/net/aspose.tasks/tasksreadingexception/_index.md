@@ -1,9 +1,9 @@
 ---
-title: Class TasksReadingException
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.TasksReadingException 班级. 表示标准内部读取异常类型
+title: "类 TasksReadingException"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.TasksReadingException 类。表示标准内部读取异常类型"
 type: docs
-weight: 2230
+weight: 2540
 url: /zh/net/aspose.tasks/tasksreadingexception/
 ---
 ## TasksReadingException class
@@ -14,17 +14,41 @@ url: /zh/net/aspose.tasks/tasksreadingexception/
 public class TasksReadingException : TasksLoggedException
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [LogText](../../aspose.tasks/tasksloggedexception/logtext/) { get; } | 获取异常日志信息。 |
 | [Operation](../../aspose.tasks/tasksloggedexception/operation/) { get; } | 获取异常操作信息。 |
 
-### 也可以看看
+## 示例
+
+展示如何处理项目的读取/写入异常。
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "project.mpp");
+    project.Save(OutDir + "HandleExceptions_out.mpp", SaveFileFormat.Mpp);
+}
+catch (TasksReadingException ex)
+{
+    Console.WriteLine("Message: ");
+    Console.WriteLine(ex.Message);
+    Console.WriteLine("Log: ");
+    Console.WriteLine(ex.LogText);
+    if (ex.InnerException != null)
+    {
+        Console.WriteLine("Inner exception message: ");
+        Console.WriteLine(ex.InnerException.Message);
+    }
+}
+```
+
+### 另见
 
 * class [TasksLoggedException](../tasksloggedexception/)
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

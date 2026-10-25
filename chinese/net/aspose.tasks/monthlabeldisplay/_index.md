@@ -1,9 +1,9 @@
 ---
-title: Enum MonthLabelDisplay
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.MonthLabelDisplay 枚举. 指定月份标签的显示方式
+title: "枚举 MonthLabelDisplay"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.MonthLabelDisplay 枚举。指定月份标签的显示方式"
 type: docs
-weight: 930
+weight: 1060
 url: /zh/net/aspose.tasks/monthlabeldisplay/
 ---
 ## MonthLabelDisplay enumeration
@@ -14,17 +14,31 @@ url: /zh/net/aspose.tasks/monthlabeldisplay/
 public enum MonthLabelDisplay
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Mo | `0` | 将 MS Project 中的月份列表设置为 mo. |
-| Mon | `1` | 将 MS Project 中的月份列表设置为 mon. |
-| Month | `2` | 将 MS Project 中的月份列表设置为月份。 |
+| Mo | `0` | 将 MS Project 中的月份列表设置为 mo。 |
+| Mon | `1` | 将 MS Project 中的月份列表设置为 mon。 |
+| Month | `2` | 将 MS Project 中的月份列表设置为 month。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何设置项目显示选项的月份标签（案例 1）。
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// 设置月份标签的显示方式
+project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
+
+// ...
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

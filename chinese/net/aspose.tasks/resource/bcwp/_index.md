@@ -1,7 +1,7 @@
 ---
-title: Resource.BCWP
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 财产. 获取或设置 BCWP 的值
+title: "Resource.BCWP"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "资源属性。获取或设置 BCWP 的值"
 type: docs
 weight: 170
 url: /zh/net/aspose.tasks/resource/bcwp/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/resource/bcwp/
 public double BCWP { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

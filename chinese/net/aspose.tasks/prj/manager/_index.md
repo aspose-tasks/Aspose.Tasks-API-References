@@ -1,25 +1,37 @@
 ---
-title: Prj.Manager
-second_title: Aspose.Tasks for .NET API 参考
-description: Prj 场地. 项目经理.
+title: "Prj.Manager"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Prj 字段。项目的经理"
 type: docs
-weight: 440
+weight: 450
 url: /zh/net/aspose.tasks/prj/manager/
 ---
 ## Prj.Manager field
 
-项目经理.
+项目的经理。
 
 ```csharp
 public static readonly Key<string, PrjKey> Manager;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Prj.Manager 属性。
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Manager, "Steve");
+
+Console.WriteLine("Manager: " + project.Get(Prj.Manager));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* 命名空间 [Aspose.Tasks](../../prj/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

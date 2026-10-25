@@ -1,9 +1,9 @@
 ---
-title: Enum Month
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Month 枚举. 指定月份
+title: "枚举 Month"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Month 枚举。指定月份。"
 type: docs
-weight: 910
+weight: 1040
 url: /zh/net/aspose.tasks/month/
 ---
 ## Month enumeration
@@ -14,31 +14,56 @@ url: /zh/net/aspose.tasks/month/
 public enum Month
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 表示该值未在原始项目文件中定义。 |
-| January | `0` | 表示一月份。 |
-| February | `1` | 表示二月份。 |
-| March | `2` | 表示三月份。 |
-| April | `3` | 表示四月份。 |
-| May | `4` | 表示五月。 |
-| June | `5` | 表示六月份。 |
-| July | `6` | 表示七月份。 |
-| August | `7` | 表示八月。 |
-| September | `8` | 表示九月。 |
-| October | `9` | 表示十月份。 |
-| November | `10` | 表示十一月份。 |
-| December | `11` | 表示十二月份。 |
+| Undefined | `-1` | 指示该值未在原始项目文件中定义。 |
+| January | `0` | 指示一月。 |
+| February | `1` | 指示二月。 |
+| March | `2` | 指示三月。 |
+| April | `3` | 指示四月。 |
+| May | `4` | 指示五月。 |
+| June | `5` | 指示六月。 |
+| July | `6` | 指示七月。 |
+| August | `7` | 指示八月。 |
+| September | `8` | 指示九月。 |
+| October | `9` | 指示十月。 |
+| November | `10` | 指示十一月。 |
+| December | `11` | 指示十二月。 |
 
-### 评论
+## 备注
 
-导出到 XML 时，未定义的值将从生成的 XML 中消除。
+在导出为 XML 时，未定义的值将从生成的 XML 中删除。
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示在创建新循环任务时如何使用年度天重复。
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new YearlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByYearDayRepetition { DayPosition = 1, Month = Month.July },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2019, 7, 1, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ProjectFileInfo.ProjectFileFormat
-second_title: Aspose.Tasks for .NET API 参考
-description: ProjectFileInfo 财产. 获取项目文件格式
+title: "ProjectFileInfo.ProjectFileFormat"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ProjectFileInfo 属性。获取项目文件格式"
 type: docs
 weight: 40
 url: /zh/net/aspose.tasks/projectfileinfo/projectfileformat/
@@ -14,11 +14,22 @@ url: /zh/net/aspose.tasks/projectfileinfo/projectfileformat/
 public FileFormat ProjectFileFormat { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取项目文件信息。
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### 另见
 
 * enum [FileFormat](../../fileformat/)
 * class [ProjectFileInfo](../)
-* 命名空间 [Aspose.Tasks](../../projectfileinfo/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

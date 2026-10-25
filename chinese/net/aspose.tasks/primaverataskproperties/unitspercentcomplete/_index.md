@@ -1,9 +1,9 @@
 ---
-title: PrimaveraTaskProperties.UnitsPercentComplete
-second_title: Aspose.Tasks for .NET API 参考
-description: PrimaveraTaskProperties 财产. 获取单位完成百分比的值
+title: "PrimaveraTaskProperties.UnitsPercentComplete"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PrimaveraTaskProperties 属性。获取单位完成百分比的值"
 type: docs
-weight: 170
+weight: 360
 url: /zh/net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 ---
 ## PrimaveraTaskProperties.UnitsPercentComplete property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 public double UnitsPercentComplete { get; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [PrimaveraTaskProperties](../)
-* 命名空间 [Aspose.Tasks](../../primaverataskproperties/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

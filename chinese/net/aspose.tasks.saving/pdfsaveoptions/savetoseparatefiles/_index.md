@@ -1,23 +1,23 @@
 ---
-title: PdfSaveOptions.SaveToSeparateFiles
-second_title: Aspose.Tasks for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值该值指示是否将项目页面保存到单独的文件中
+title: "PdfSaveOptions.SaveToSeparateFiles"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PdfSaveOptions 属性。获取或设置指示是否将项目页面保存为单独文件的值。"
 type: docs
-weight: 100
+weight: 90
 url: /zh/net/aspose.tasks.saving/pdfsaveoptions/savetoseparatefiles/
 ---
 ## PdfSaveOptions.SaveToSeparateFiles property
 
-获取或设置一个值，该值指示是否将项目页面保存到单独的文件中。
+获取或设置指示是否将项目页面保存为单独文件的值。
 
 ```csharp
 public bool SaveToSeparateFiles { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

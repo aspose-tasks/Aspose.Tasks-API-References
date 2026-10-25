@@ -1,24 +1,38 @@
 ---
-title: ResourceUsageView.FieldCollection
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceUsageView 财产. 获取ResourceUsageViewFieldCollection此 ResourceUsageView. 的对象
+title: "ResourceUsageView.FieldCollection"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceUsageView 属性。获取此 ResourceUsageView 的 ResourceUsageViewFieldCollection 对象。"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/resourceusageview/fieldcollection/
 ---
 ## ResourceUsageView.FieldCollection property
 
-获取[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection/)此 ResourceUsageView. 的对象
+获取此 ResourceUsageView 的 [`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection/) 对象。
 
 ```csharp
 public ResourceUsageViewFieldCollection FieldCollection { get; }
 ```
 
-### 也可以看看
+## 示例
+
+显示如何读取资源使用视图字段。
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+
+### 另见
 
 * class [ResourceUsageViewFieldCollection](../../resourceusageviewfieldcollection/)
 * class [ResourceUsageView](../)
-* 命名空间 [Aspose.Tasks](../../resourceusageview/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceusageview/)
+* assembly [Aspose.Tasks](../../../)
 
 

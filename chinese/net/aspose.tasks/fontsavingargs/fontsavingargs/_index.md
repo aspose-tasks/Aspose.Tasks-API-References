@@ -1,7 +1,7 @@
 ---
-title: FontSavingArgs.FontSavingArgs
-second_title: Aspose.Tasks for .NET API 参考
-description: FontSavingArgs 构造函数. 默认构造函数
+title: "FontSavingArgs.FontSavingArgs"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "FontSavingArgs 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/fontsavingargs/fontsavingargs/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/fontsavingargs/fontsavingargs/
 public FontSavingArgs()
 ```
 
-### 也可以看看
+### 另见
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Tasks](../../fontsavingargs/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontsavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

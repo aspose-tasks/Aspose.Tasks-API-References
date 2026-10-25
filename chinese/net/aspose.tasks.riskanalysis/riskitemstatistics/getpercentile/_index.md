@@ -1,31 +1,83 @@
 ---
-title: RiskItemStatistics.GetPercentile
-second_title: Aspose.Tasks for .NET API 参考
-description: RiskItemStatistics 方法. 获取一个值生成的样本的指定百分比低于该值
+title: "RiskItemStatistics.GetPercentile"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "RiskItemStatistics 方法。获取一个值，使生成的样本中有指定百分比低于该值"
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks.riskanalysis/riskitemstatistics/getpercentile/
 ---
 ## RiskItemStatistics.GetPercentile method
 
-获取一个值，生成的样本的指定百分比低于该值。
+获取一个阈值，低于该值的生成样本占指定百分比。
 
 ```csharp
 public DateTime GetPercentile(int percent)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| percent | Int32 | 0 到 100 之间的指定百分比。 |
+| 百分比 | Int32 | 指定的百分比，范围在 0 到 100 之间。 |
 
 ### 返回值
 
-一个值，低于该值的生成样本的指定百分比下降。
+一个值，使指定百分比的生成样本低于该值。
 
-### 也可以看看
+## 示例
+
+展示如何计算风险统计。
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// 初始化风险模式
+var pattern = new RiskPattern(task)
+{
+    // 为随机数生成器选择一种分布类型以生成可能的值（当前仅支持两种类型，即正态分布和均匀分布）            
+    // 更多详情请参见此处：https://en.wikipedia.org/wiki/Normal_distribution)
+    Distribution = ProbabilityDistributionType.Normal,
+
+    // 设置在最佳项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 75，这意味着如果估计的任务持续时间为 4 天，则乐观持续时间将为 3 天
+    Optimistic = 70,
+
+    // 设置在最差项目情景下最可能的任务持续时间的百分比 
+    // 默认值为 125，这意味着如果估计的任务持续时间为 4 天，则悲观持续时间将为 5 天。
+    Pessimistic = 130,
+
+    // 设置一个置信水平，对应实际值在乐观和悲观估计范围内出现的时间百分比。 
+    // 可以将其视为标准差的数值：对估计越不确定，随机数生成器使用的标准差值就越大
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+settings.Patterns.Add(pattern);
+
+// 分析项目风险
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+var statistics = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
+
+Console.WriteLine("Short statistic: " + statistics);
+Console.WriteLine();
+Console.WriteLine("Statistic details: ");
+Console.WriteLine("Item Type: {0}", statistics.ItemType);
+Console.WriteLine("Expected value: {0}", statistics.ExpectedValue);
+Console.WriteLine("StandardDeviation: {0}", statistics.StandardDeviation);
+Console.WriteLine("10% Percentile: {0}", statistics.GetPercentile(10));
+Console.WriteLine("50% Percentile: {0}", statistics.GetPercentile(50));
+Console.WriteLine("90% Percentile: {0}", statistics.GetPercentile(90));
+Console.WriteLine("Minimum: {0}", statistics.Minimum);
+Console.WriteLine("Maximum: {0}", statistics.Maximum);
+```
+
+### 另见
 
 * class [RiskItemStatistics](../)
-* 命名空间 [Aspose.Tasks.RiskAnalysis](../../riskitemstatistics/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.RiskAnalysis](../../riskitemstatistics/)
+* assembly [Aspose.Tasks](../../../)
 
 

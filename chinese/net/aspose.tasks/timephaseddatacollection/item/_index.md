@@ -1,32 +1,32 @@
 ---
-title: TimephasedDataCollection.Item
-second_title: Aspose.Tasks for .NET API 参考
-description: TimephasedDataCollection 财产. 返回指定索引处的元素不支持设置访问器 属性设置时间分段数据
+title: "TimephasedDataCollection.Item"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TimephasedDataCollection 属性。返回指定索引处的元素。不支持 set 访问器。用于设置 timephased 数据的属性"
 type: docs
-weight: 40
+weight: 30
 url: /zh/net/aspose.tasks/timephaseddatacollection/item/
 ---
 ## TimephasedDataCollection indexer
 
-返回指定索引处的元素。不支持设置访问器。 属性设置时间分段数据。
+返回指定索引处的元素。不支持 set 访问器。属性用于设置分阶段数据。
 
 ```csharp
 public TimephasedData this[int index] { get; set; }
 ```
 
-| 范围 | 描述 |
+| 参数 | 描述 |
 | --- | --- |
-| index | 要获取的元素的从零开始的索引。 |
+| index | 要获取的元素的零基索引。 |
 
 ### 返回值
 
 指定索引处的元素。
 
-### 也可以看看
+### 另见
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* 命名空间 [Aspose.Tasks](../../timephaseddatacollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

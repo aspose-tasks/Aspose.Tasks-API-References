@@ -1,39 +1,53 @@
 ---
-title: Enum RateFormatType
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.RateFormatType 枚举. 指定 Microsoft Project 用来显示比率的单位
+title: "枚举 RateFormatType"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.RateFormatType 枚举。指定 Microsoft Project 用于显示费率的单位"
 type: docs
-weight: 1390
+weight: 1640
 url: /zh/net/aspose.tasks/rateformattype/
 ---
 ## RateFormatType enumeration
 
-指定 Microsoft Project 用来显示比率的单位。
+指定 Microsoft Project 用于显示费率的单位。
 
 ```csharp
 public enum RateFormatType
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Undefined | `-1` | 该值未在原始项目文件中定义。 |
 | Minute | `0` | 分钟 ("min") |
 | Hour | `1` | 小时 ("hr") |
-| Day | `2` | 天（“天”） |
+| Day | `2` | 天 ("day") |
 | Week | `3` | 周 ("wk") |
 | Month | `4` | 月 ("mo") |
-| Year | `5` | 年（“年”） |
-| MaterialResourceRate | `6` | 材料资源率（空） |
+| Year | `5` | 年 ("yr") |
+| MaterialResourceRate | `6` | 材料资源费率（空） |
 
-### 评论
+## 备注
 
-导出到 XML 时，未定义的值将从生成的 XML 中消除。
+在导出为 XML 时，未定义的值将从生成的 XML 中删除。
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何读取/写入 Rsc.StandardRateFormat 属性。
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.StandardRateFormat, RateFormatType.Hour);
+
+Console.WriteLine("Standard Rate Format: " + resource.Get(Rsc.StandardRateFormat));
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

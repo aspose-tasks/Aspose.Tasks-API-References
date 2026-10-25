@@ -1,23 +1,54 @@
 ---
-title: EndByRecurrenceRange.EndByRecurrenceRange
-second_title: Aspose.Tasks for .NET API 参考
-description: EndByRecurrenceRange 构造函数. 初始化一个新的实例EndByRecurrenceRange类.
+title: "EndByRecurrenceRange.EndByRecurrenceRange"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "EndByRecurrenceRange 构造函数。初始化 EndByRecurrenceRange 类的新实例"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/endbyrecurrencerange/endbyrecurrencerange/
 ---
 ## EndByRecurrenceRange constructor
 
-初始化一个新的实例[`EndByRecurrenceRange`](../)类.
+初始化 [`EndByRecurrenceRange`](../) 类的新实例。
 
 ```csharp
 public EndByRecurrenceRange()
 ```
 
-### 也可以看看
+## 示例
+
+展示如何创建循环任务。
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### 另见
 
 * class [EndByRecurrenceRange](../)
-* 命名空间 [Aspose.Tasks](../../endbyrecurrencerange/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../endbyrecurrencerange/)
+* assembly [Aspose.Tasks](../../../)
 
 

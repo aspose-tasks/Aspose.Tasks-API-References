@@ -1,30 +1,30 @@
 ---
-title: Enum Legend
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Visualization.Legend 枚举. 指定图例出现的页面
+title: "枚举 Legend"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Visualization.Legend 枚举。指定在呈现场景图例时使用的可能选项。"
 type: docs
-weight: 2840
+weight: 3180
 url: /zh/net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration
 
-指定图例出现的页面。
+指定在渲染视图图例时使用的可能选项。
 
 ```csharp
 public enum Legend
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NoLegend | `0` | 无图例。 |
-| AfterLastPage | `1` | 图例出现在最后一页之后。 |
-| OnEveryPage | `2` | 每页都有图例。 |
+| NoLegend | `0` | 未渲染图例。 |
+| AfterLastPage | `1` | 图例在项目页面的最后一页之后的单独页面上渲染。 |
+| OnEveryPage | `2` | 图例在每页上渲染。 |
 
-### 也可以看看
+### 另见
 
-* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

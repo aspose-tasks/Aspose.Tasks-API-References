@@ -1,28 +1,47 @@
 ---
-title: TreeAlgorithmBase1.PostAlg
-second_title: Aspose.Tasks for .NET API 参考
-description: TreeAlgorithmBase 方法. 在处理树的节点后调用
+title: "TreeAlgorithmBase1.PostAlg"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TreeAlgorithmBase 方法。在处理树节点之后调用。"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks.util/treealgorithmbase-1/postalg/
 ---
 ## TreeAlgorithmBase&lt;T&gt;.PostAlg method
 
-在处理树的节点后调用。
+在处理树的节点之后调用。
 
 ```csharp
 public virtual void PostAlg(T el, int level)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | el | T | 要处理的节点。 |
-| level | Int32 | 树节点级别。 |
+| 级别 | Int32 | 树节点层级。 |
 
-### 也可以看看
+## 示例
+
+展示如何检测损坏的项目结构。
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// 检查项目结构。
+// 如果项目结构不正确，将抛出 <see cref=\"TasksException\">。
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### 另见
 
 * class [TreeAlgorithmBase&lt;T&gt;](../)
-* 命名空间 [Aspose.Tasks.Util](../../treealgorithmbase-1/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../treealgorithmbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

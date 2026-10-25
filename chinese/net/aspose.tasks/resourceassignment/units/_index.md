@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Units
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignment 财产. 获取或设置单位值
+title: "ResourceAssignment.Units"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignment 属性。获取或设置 Units 的值"
 type: docs
 weight: 620
 url: /zh/net/aspose.tasks/resourceassignment/units/
 ---
 ## ResourceAssignment.Units property
 
-获取或设置单位值。
+获取或设置 Units 的值。
 
 ```csharp
 public double Units { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

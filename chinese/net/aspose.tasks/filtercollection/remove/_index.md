@@ -1,32 +1,96 @@
 ---
-title: FilterCollection.Remove
-second_title: Aspose.Tasks for .NET API 参考
-description: FilterCollection 方法. 从此集合中删除第一次出现的特定对象
+title: "FilterCollection.Remove"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "FilterCollection 方法。 从此集合中移除特定对象的第一次出现"
 type: docs
 weight: 80
 url: /zh/net/aspose.tasks/filtercollection/remove/
 ---
 ## FilterCollection.Remove method
 
-从此集合中删除第一次出现的特定对象。
+从此集合中移除特定对象的第一次出现。
 
 ```csharp
 public bool Remove(Filter item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | item | Filter | 要删除的指定对象。 |
 
 ### 返回值
 
-如果指定的对象已成功从此集合中删除，则为 true；否则为 true。否则，假的。
+如果成功从此集合中删除指定对象则返回 true；否则返回 false。
 
-### 也可以看看
+## 示例
+
+展示如何使用过滤器集合。
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+
+// 遍历任务过滤器
+Console.WriteLine("Print task filters of {0} project: ", project.Get(Prj.Name));
+Console.WriteLine("Task Filters Count: " + project.TaskFilters.Count);
+foreach (var filter in project.TaskFilters)
+{
+    Console.WriteLine("All Tasks: " + filter.Name);
+    Console.WriteLine("Task Item: " + filter.FilterType);
+    Console.WriteLine("Task Filters Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Task filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+    Console.WriteLine();
+}
+
+// 遍历资源过滤器
+Console.WriteLine("Project.ResourceFilters count: " + project.ResourceFilters.Count);
+foreach (var filter in project.ResourceFilters)
+{
+    Console.WriteLine("Resource Filter Item Type: Item.ResourceType: " + filter.FilterType);
+    Console.WriteLine("Resource filter ShowInMenu" + filter.ShowInMenu);
+    Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
+}
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// 清除其他项目的过滤器
+otherProject.TaskFilters.Clear();
+
+// 将过滤器复制到其他项目
+var filters = new Filter[project.TaskFilters.Count];
+project.TaskFilters.CopyTo(filters, 0);
+
+foreach (var filter in filters)
+{
+    otherProject.TaskFilters.Add(filter);
+}
+
+// 添加自定义任务过滤器
+var customFilter = new Filter();
+customFilter.Name = "Custom Filter";
+customFilter.ShowInMenu = true;
+customFilter.ShowRelatedSummaryRows = true;
+
+if (!otherProject.TaskFilters.Contains(customFilter))
+{
+    if (!otherProject.TaskFilters.IsReadOnly)
+    {
+        otherProject.TaskFilters.Add(customFilter);
+    }
+}
+
+// 删除所有过滤器
+List<Filter> filtersToDelete = otherProject.TaskFilters.ToList();
+foreach (var filter in filtersToDelete)
+{
+    otherProject.TaskFilters.Remove(filter);
+}
+```
+
+### 另见
 
 * class [Filter](../../filter/)
 * class [FilterCollection](../)
-* 命名空间 [Aspose.Tasks](../../filtercollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filtercollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

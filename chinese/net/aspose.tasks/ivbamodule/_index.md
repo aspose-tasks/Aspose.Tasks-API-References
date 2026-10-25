@@ -1,30 +1,46 @@
 ---
-title: Interface IVbaModule
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.IVbaModule 界面. 代表一个模块有VBA代码
+title: "接口 IVbaModule"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.IVbaModule 接口。表示包含 VBA 代码的模块"
 type: docs
-weight: 810
+weight: 880
 url: /zh/net/aspose.tasks/ivbamodule/
 ---
 ## IVbaModule interface
 
-代表一个模块，有VBA代码。
+表示包含 VBA 代码的模块。
 
 ```csharp
 public interface IVbaModule
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | 获取一个集合[`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) |
+| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | 获取 [`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) 的集合 |
 | [Name](../../aspose.tasks/ivbamodule/name/) { get; } | 获取 VBA 模块的名称 |
 | [SourceCode](../../aspose.tasks/ivbamodule/sourcecode/) { get; } | 获取 VBA 模块的源代码 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何读取 VBA 项目的模块。
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

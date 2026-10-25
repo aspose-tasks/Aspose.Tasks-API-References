@@ -1,43 +1,133 @@
 ---
-title: TimephasedData.CreateUnitTimephased
-second_title: Aspose.Tasks for .NET API 参考
-description: TimephasedData 方法. 创建并初始化一个新的实例TimephasedData材料资源分配的基于单位的时间分段数据的类
+title: "TimephasedData.CreateUnitTimephased"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TimephasedData 方法。创建并初始化一个新的 TimephasedData 类实例，用于材料资源分配的基于单位的时间分段数据"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/timephaseddata/createunittimephased/
 ---
 ## TimephasedData.CreateUnitTimephased method
 
-创建并初始化一个新的实例[`TimephasedData`](../)材料资源分配的基于单位的时间分段数据的类。
+创建并初始化一个新的 [`TimephasedData`](../) 类实例，用于材料资源分配的基于单位的时间分段数据。
 
 ```csharp
 public static TimephasedData CreateUnitTimephased(int uid, DateTime start, DateTime finish, 
     double units, TimephasedDataType type)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| uid | Int32 | 任务的 UID。 |
-| start | DateTime | 开始日期时间。 |
-| finish | DateTime | 完成日期时间。 |
-| units | Double | 单位数。 |
-| type | TimephasedDataType | 时间分段数据类型。 |
+| uid | Int32 | 任务的唯一标识符。 |
+| 开始 | DateTime | 开始日期时间。 |
+| 结束 | DateTime | 完成日期时间。 |
+| 单位 | Double | 单位数量。 |
+| 类型 | TimephasedDataType | 时间分段数据类型。 |
 
 ### 返回值
 
-的一个实例[`TimephasedData`](../)基于成本的时间分段数据的类。
+一个用于成本基时间分段数据的 [`TimephasedData`](../) 类的实例。
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 如果指定了负数量的单位。 |
+| ArgumentException | 如果指定了负数单位数量。 |
 
-### 也可以看看
+## 示例
+
+展示如何使用自定义时间分段数据。
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp") { CalculationMode = CalculationMode.None };
+
+var workResource = project.Resources.Add("Work Resource");
+workResource.Set(Rsc.Type, ResourceType.Work);
+var costResource = project.Resources.Add("Cost Resource");
+costResource.Set(Rsc.Type, ResourceType.Cost);
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2018, 1, 1, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+var workAssignment = project.ResourceAssignments.Add(task, workResource);
+workAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+var costAssignment = project.ResourceAssignments.Add(task, costResource);
+costAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+// 让我们添加自定义时间分段 tds
+workAssignment.TimephasedData.Clear();
+
+// 添加工作日
+var td1 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    TimeSpan.FromHours(40),
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+// 添加周末
+var td2 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    TimeSpan.Zero,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+workAssignment.TimephasedData.Add(td1);
+workAssignment.TimephasedData.Add(td2);
+
+costAssignment.TimephasedData.Clear();
+
+// 添加工作日
+var td11 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    1,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+// 添加周末
+var td22 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    0,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+costAssignment.TimephasedData.Add(td11);
+costAssignment.TimephasedData.Add(td22);
+
+Console.WriteLine("Print assignment timephased data:");
+foreach (var assignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+    foreach (var tds in assignment.TimephasedData)
+    {
+        Console.WriteLine("  Uid: " + tds.Uid);
+        Console.WriteLine("  Start: " + tds.Start);
+        Console.WriteLine("  Finish: " + tds.Finish);
+        Console.WriteLine("  Type: " + tds.TimephasedDataType);
+        Console.WriteLine("  Unit: " + tds.Unit);
+        Console.WriteLine("  Value: " + tds.Value);
+        Console.WriteLine("  ValueToCost: " + tds.ValueToCost);
+        Console.WriteLine("  ValueToDuration: " + tds.ValueToDuration);
+        Console.WriteLine("  ValueToUnits: " + tds.ValueToUnits);
+        Console.WriteLine();
+    }
+}
+
+project.Recalculate();
+```
+
+### 另见
 
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [TimephasedData](../)
-* 命名空间 [Aspose.Tasks](../../timephaseddata/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddata/)
+* assembly [Aspose.Tasks](../../../)
 
 

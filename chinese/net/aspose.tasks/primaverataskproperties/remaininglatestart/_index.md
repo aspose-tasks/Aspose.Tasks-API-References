@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingLateStart
-second_title: Aspose.Tasks for .NET API 参考
-description: PrimaveraTaskProperties 财产. 获取剩余的最晚开始日期
+title: "PrimaveraTaskProperties.RemainingLateStart"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PrimaveraTaskProperties 属性。获取剩余的最迟开始日期"
 type: docs
-weight: 140
+weight: 310
 url: /zh/net/aspose.tasks/primaverataskproperties/remaininglatestart/
 ---
 ## PrimaveraTaskProperties.RemainingLateStart property
 
-获取剩余的最晚开始日期。
+获取剩余的最迟开始日期。
 
 ```csharp
 public DateTime RemainingLateStart { get; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [PrimaveraTaskProperties](../)
-* 命名空间 [Aspose.Tasks](../../primaverataskproperties/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

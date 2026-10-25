@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.VisualObjectPlacement
-second_title: Aspose.Tasks for .NET API 参考
-description: VisualObjectPlacement 构造函数. 初始化一个新的实例VisualObjectPlacement类.
+title: "VisualObjectPlacement.VisualObjectPlacement"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "VisualObjectPlacement 构造函数。初始化 VisualObjectPlacement 类的新实例"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/visualobjectplacement/
 ---
 ## VisualObjectPlacement constructor
 
-初始化一个新的实例[`VisualObjectPlacement`](../)类.
+初始化 [`VisualObjectPlacement`](../) 类的新实例。
 
 ```csharp
 public VisualObjectPlacement()
 ```
 
-### 也可以看看
+### 另见
 
 * class [VisualObjectPlacement](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

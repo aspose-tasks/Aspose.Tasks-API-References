@@ -1,9 +1,9 @@
 ---
-title: Enum HourLabelDisplay
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.HourLabelDisplay 枚举. 指定小时标签的显示方式
+title: "枚举 HourLabelDisplay"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.HourLabelDisplay 枚举。指定小时标签的显示方式。"
 type: docs
-weight: 760
+weight: 820
 url: /zh/net/aspose.tasks/hourlabeldisplay/
 ---
 ## HourLabelDisplay enumeration
@@ -14,17 +14,31 @@ url: /zh/net/aspose.tasks/hourlabeldisplay/
 public enum HourLabelDisplay
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| H | `0` | "h" 标签. |
-| Hr | `1` | “小时”标签。 |
-| Hour | `2` | “小时”标签。 |
+| H | `0` | “h” 标签。 |
+| Hr | `1` | “hr” 标签。 |
+| Hour | `2` | “hour(s)” 标签。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何设置项目显示选项的小时标签（案例 1）。
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// 设置小时标签的显示方式
+project.DisplayOptions.HourLabel = HourLabelDisplay.H;
+
+// ...
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

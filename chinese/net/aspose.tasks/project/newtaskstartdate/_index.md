@@ -1,9 +1,9 @@
 ---
-title: Project.NewTaskStartDate
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置 NewTaskStartDate 的值
+title: "Project.NewTaskStartDate"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置 NewTaskStartDate 的值。"
 type: docs
-weight: 670
+weight: 690
 url: /zh/net/aspose.tasks/project/newtaskstartdate/
 ---
 ## Project.NewTaskStartDate property
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/project/newtaskstartdate/
 public TaskStartDateType NewTaskStartDate { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * enum [TaskStartDateType](../../taskstartdatetype/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

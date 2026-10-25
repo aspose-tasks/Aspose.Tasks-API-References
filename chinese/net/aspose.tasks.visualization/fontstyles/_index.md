@@ -1,9 +1,9 @@
 ---
-title: Enum FontStyles
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Visualization.FontStyles 枚举. 指定应用于文本的样式信息
+title: "枚举 FontStyles"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Visualization.FontStyles 枚举。指定应用于文本的样式信息。"
 type: docs
-weight: 2690
+weight: 3020
 url: /zh/net/aspose.tasks.visualization/fontstyles/
 ---
 ## FontStyles enumeration
@@ -15,19 +15,19 @@ url: /zh/net/aspose.tasks.visualization/fontstyles/
 public enum FontStyles
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Regular | `0` | 普通文本. |
-| Bold | `1` | 粗体文本. |
-| Italic | `2` | 斜体文本. |
+| Regular | `0` | 普通文本。 |
+| Bold | `1` | 粗体文本。 |
+| Italic | `2` | 斜体文本。 |
 | Underline | `4` | 带下划线的文本。 |
-| Strikeout | `8` | 中间有一条线的文本。 |
+| Strikeout | `8` | 带中划线的文本。 |
 
-### 也可以看看
+### 另见
 
-* 命名空间 [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

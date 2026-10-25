@@ -1,7 +1,7 @@
 ---
-title: ProgressLines.ProgressLines
-second_title: Aspose.Tasks for .NET API 参考
-description: ProgressLines 构造函数. 默认构造函数
+title: "ProgressLines.ProgressLines"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ProgressLines 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.visualization/progresslines/progresslines/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks.visualization/progresslines/progresslines/
 public ProgressLines()
 ```
 
-### 也可以看看
+### 另见
 
 * class [ProgressLines](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../progresslines/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../progresslines/)
+* assembly [Aspose.Tasks](../../../)
 
 

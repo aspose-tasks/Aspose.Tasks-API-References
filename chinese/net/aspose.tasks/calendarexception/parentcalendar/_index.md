@@ -1,7 +1,7 @@
 ---
-title: CalendarException.ParentCalendar
-second_title: Aspose.Tasks for .NET API 参考
-description: CalendarException 财产. 获取此对象的父日历
+title: "CalendarException.ParentCalendar"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "CalendarException 属性。获取此对象的父日历"
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/calendarexception/parentcalendar/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/calendarexception/parentcalendar/
 public Calendar ParentCalendar { get; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Calendar](../../calendar/)
 * class [CalendarException](../)
-* 命名空间 [Aspose.Tasks](../../calendarexception/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

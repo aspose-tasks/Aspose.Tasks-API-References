@@ -1,24 +1,24 @@
 ---
-title: Task.IsMilestone
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取或设置一个值指示是否设置了 IsMilestone
+title: "Task.IsMilestone"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取或设置指示 IsMilestone 是否已设置的值"
 type: docs
 weight: 670
 url: /zh/net/aspose.tasks/task/ismilestone/
 ---
 ## Task.IsMilestone property
 
-获取或设置一个值，指示是否设置了 IsMilestone。
+获取或设置一个值，指示 IsMilestone 是否已设置。
 
 ```csharp
 public NullableBool IsMilestone { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

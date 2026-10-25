@@ -1,55 +1,91 @@
 ---
-title: TaskLink.Equals
-second_title: Aspose.Tasks for .NET API 参考
-description: TaskLink 方法. 返回一个值指示此实例是否等于指定对象
+title: "TaskLink.Equals"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TaskLink 方法。返回一个值，指示此实例是否等于指定的对象"
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/tasklink/equals/
 ---
 ## Equals(TaskLink) {#equals}
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，指示此实例是否等于指定的对象。
 
 ```csharp
 public bool Equals(TaskLink other)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| other | TaskLink | 的指定实例[`TaskLink`](../)类与此实例进行比较。 |
+| other | TaskLink | 要与此实例比较的指定的 [`TaskLink`](../) 类实例。 |
 
 ### 返回值
 
-**真的**如果指定的实例[`TaskLink`](../)类具有与此实例相同的前置任务和后继任务；否则， **错误的**.
+**True** if the specified instance of the [`TaskLink`](../) class has the same predecessor and successor tasks as this instance; otherwise, **false**.
 
-### 也可以看看
+## 示例
+
+展示如何检查任务链接的相等性。
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// 任务链接的相等性基于前置任务和后续任务。
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### 另见
 
 * class [TaskLink](../)
-* 命名空间 [Aspose.Tasks](../../tasklink/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与此实例进行比较的对象。 |
+| obj | 对象 | 与此实例比较的对象。 |
 
 ### 返回值
 
-**真的**如果指定的对象是一个 TaskLink，它与此实例具有相同的前驱和 successor ；否则， **错误的**.
+**True** if the specified object is a TaskLink that has the same predecessor and successor as this instance; otherwise, **false**.
 
-### 也可以看看
+## 示例
+
+展示如何检查任务链接的相等性。
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+
+var link1 = project.TaskLinks[0];
+var link2 = project.TaskLinks[1];
+
+// 任务链接的相等性基于前置任务和后续任务。
+Console.Write("Link 1 Pred: " + link1.PredTask.ToString());
+Console.Write("Link 1 Succ: " + link1.SuccTask.ToString());
+Console.Write("Link 2 Pred: " + link2.PredTask.ToString());
+Console.Write("Link 2 Succ: " + link2.SuccTask.ToString());
+Console.Write("Are task links equal: " + link1.Equals(link2));
+```
+
+### 另见
 
 * class [TaskLink](../)
-* 命名空间 [Aspose.Tasks](../../tasklink/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

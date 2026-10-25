@@ -1,28 +1,28 @@
 ---
-title: Class WebRequestEventArgs
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.WebRequestEventArgs 班级. 为客户端向 Project Server 的 Web API 发送 Web 请求时引发的事件提供参数
+title: "类 WebRequestEventArgs"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.WebRequestEventArgs 类。提供当客户端向 Project Servers Web API 发送网络请求时触发的事件参数"
 type: docs
-weight: 3170
+weight: 3530
 url: /zh/net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class
 
-为客户端向 Project Server 的 Web API 发送 Web 请求时引发的事件提供参数。
+提供在客户端向 Project Server 的 Web API 发送网络请求时触发的事件参数。
 
 ```csharp
 public sealed class WebRequestEventArgs : EventArgs
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | 获取要发送到 Project Server 的 Web API 的 Web 请求。 |
+| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | 获取要发送到 Project Server 的 Web API 的网络请求。 |
 
-### 也可以看看
+### 另见
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

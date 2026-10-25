@@ -1,32 +1,129 @@
 ---
-title: WBSCodeMaskCollection.Contains
-second_title: Aspose.Tasks for .NET API 参考
-description: WBSCodeMaskCollection 方法. 如果在此集合中找到指定项则返回真否则为 false.
+title: "WBSCodeMaskCollection.Contains"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "WBSCodeMaskCollection 方法。若在此集合中找到指定项则返回 true，否则返回 false"
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/wbscodemaskcollection/contains/
 ---
 ## WBSCodeMaskCollection.Contains method
 
-如果在此集合中找到指定项，则返回真；否则为 false.
+如果在此集合中找到指定项则返回 true；否则返回 false。
 
 ```csharp
 public bool Contains(WBSCodeMask item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | WBSCodeMask | 要查找的指定项目。 |
+| item | WBSCodeMask | 要查找的指定项。 |
 
 ### 返回值
 
-如果在此集合中找到指定的项，则为真；否则为真。否则，假的。
+如果在此集合中找到指定项则返回 true；否则返回 false。
 
-### 也可以看看
+## 示例
+
+展示如何使用 WBS 代码掩码集合。
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+project.WBSCodeDefinition.CodeMaskCollection.Clear();
+
+var mask1 = new WBSCodeMask();
+mask1.Length = 2;
+mask1.Separator = "-";
+mask1.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask1);
+
+var mask2 = new WBSCodeMask();
+mask2.Length = 1;
+mask2.Separator = "-";
+mask2.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask2);
+
+Console.WriteLine("WBS Code mask's count: " + project.WBSCodeDefinition.CodeMaskCollection.Count);
+Console.WriteLine("Is WBS Code mask collection read-only?: " + project.WBSCodeDefinition.CodeMaskCollection.IsReadOnly);
+Console.WriteLine("Masks: ");
+Console.WriteLine();
+foreach (var wbsMask in project.WBSCodeDefinition.CodeMaskCollection)
+{
+    Console.WriteLine("Length: " + wbsMask.Length);
+    Console.WriteLine("Level: " + wbsMask.Level);
+    Console.WriteLine("Separator: " + wbsMask.Separator);
+    Console.WriteLine("Sequence: " + wbsMask.Sequence);
+    Console.WriteLine();
+}
+
+var task1 = project.RootTask.Children.Add("Task 1");
+task1.Children.Add("Task 2");
+
+project.Recalculate();
+
+IEnumerable<Task> childTasks = project.RootTask.SelectAllChildTasks();
+foreach (var childTask in childTasks)
+{
+    Console.WriteLine("Task name: " + childTask.Get(Tsk.Name));
+    Console.WriteLine("Task WBS code: " + childTask.Get(Tsk.WBS));
+}
+
+project.WBSCodeDefinition.CodeMaskCollection.Remove(mask2);
+
+if (project.WBSCodeDefinition.CodeMaskCollection.Contains(mask2))
+{
+    throw new InvalidOperationException("WBS code mask wasn't removed.");
+}
+
+var otherProject = new Project();
+otherProject.WBSCodeDefinition = new WBSCodeDefinition();
+otherProject.WBSCodeDefinition.GenerateWBSCode = true;
+otherProject.WBSCodeDefinition.VerifyUniqueness = true;
+otherProject.WBSCodeDefinition.CodePrefix = "CRS-";
+
+// 复制代码掩码到其他项目
+var masks = new WBSCodeMask[project.WBSCodeDefinition.CodeMaskCollection.Count];
+project.WBSCodeDefinition.CodeMaskCollection.CopyTo(masks, 0);
+
+foreach (var mask in masks)
+{
+    otherProject.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+}
+
+List<WBSCodeMask> wbsMasks = otherProject.WBSCodeDefinition.CodeMaskCollection.ToList();
+foreach (var wbsMask in wbsMasks)
+{
+    Console.WriteLine("Length: " + wbsMask.Length);
+    Console.WriteLine("Level: " + wbsMask.Level);
+    Console.WriteLine("Separator: " + wbsMask.Separator);
+    Console.WriteLine("Sequence: " + wbsMask.Sequence);
+    Console.WriteLine();
+}
+
+var otherTask1 = project.RootTask.Children.Add("Other task 1");
+otherTask1.Children.Add("Other task 2");
+
+otherProject.Recalculate();
+
+Console.WriteLine("Print WBS codes of the other project: ");
+IEnumerable<Task> otherChildTasks = otherProject.RootTask.SelectAllChildTasks();
+foreach (var childTask in otherChildTasks)
+{
+    Console.WriteLine("Task name: " + childTask.Get(Tsk.Name));
+    Console.WriteLine("Task WBS code: " + childTask.Get(Tsk.WBS));
+}
+```
+
+### 另见
 
 * class [WBSCodeMask](../../wbscodemask/)
 * class [WBSCodeMaskCollection](../)
-* 命名空间 [Aspose.Tasks](../../wbscodemaskcollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../wbscodemaskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

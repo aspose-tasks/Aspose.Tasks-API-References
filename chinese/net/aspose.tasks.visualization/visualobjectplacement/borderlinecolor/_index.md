@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.BorderLineColor
-second_title: Aspose.Tasks for .NET API 参考
-description: VisualObjectPlacement 财产. 获取或设置边框线颜色
+title: "VisualObjectPlacement.BorderLineColor"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "VisualObjectPlacement 属性。获取或设置边框线颜色"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/visualobjectplacement/borderlinecolor/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks.visualization/visualobjectplacement/borderlinecolor/
 public Color BorderLineColor { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [VisualObjectPlacement](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class EndByRecurrenceRange
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.EndByRecurrenceRange 班级. 表示重复任务的重复范围以完成日为限
+title: "类 EndByRecurrenceRange"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.EndByRecurrenceRange 类。表示受完成日期限制的循环任务的重复范围。"
 type: docs
 weight: 510
 url: /zh/net/aspose.tasks/endbyrecurrencerange/
 ---
 ## EndByRecurrenceRange class
 
-表示重复任务的重复范围，以完成日为限。
+表示受完成日期限制的循环任务的重复范围。
 
 ```csharp
 public class EndByRecurrenceRange : RecurrenceRangeBase
@@ -16,21 +16,52 @@ public class EndByRecurrenceRange : RecurrenceRangeBase
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [EndByRecurrenceRange](endbyrecurrencerange/)() | 初始化一个新的实例`EndByRecurrenceRange`类. |
+| [EndByRecurrenceRange](endbyrecurrencerange/)() | 初始化 `EndByRecurrenceRange` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Finish](../../aspose.tasks/endbyrecurrencerange/finish/) { get; set; } | 获取或设置限制循环任务循环范围的日期。 |
-| [Start](../../aspose.tasks/recurrencerangebase/start/) { get; set; } | 获取或设置周期性任务的周期范围的开始日期。 |
+| [Finish](../../aspose.tasks/endbyrecurrencerange/finish/) { get; set; } | 获取或设置限制循环任务重复范围的日期。 |
+| [Start](../../aspose.tasks/recurrencerangebase/start/) { get; set; } | 获取或设置循环任务重复范围的开始日期。 |
 
-### 也可以看看
+## 示例
+
+展示如何创建循环任务。
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### 另见
 
 * class [RecurrenceRangeBase](../recurrencerangebase/)
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

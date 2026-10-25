@@ -1,7 +1,7 @@
 ---
-title: EntityFieldAttribute.EntityFieldAttribute
-second_title: Aspose.Tasks for .NET API 参考
-description: EntityFieldAttribute 构造函数. 默认构造函数
+title: "EntityFieldAttribute.EntityFieldAttribute"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "EntityFieldAttribute 构造函数。默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks.attributes/entityfieldattribute/entityfieldattribute/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks.attributes/entityfieldattribute/entityfieldattribute/
 public EntityFieldAttribute()
 ```
 
-### 也可以看看
+### 另见
 
 * class [EntityFieldAttribute](../)
-* 命名空间 [Aspose.Tasks.Attributes](../../entityfieldattribute/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Attributes](../../entityfieldattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

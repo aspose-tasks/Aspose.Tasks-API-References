@@ -1,55 +1,81 @@
 ---
-title: ResourceAssignment.Equals
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignment 方法. 返回一个值指示此实例是否等于指定的实例ResourceAssignment类.
+title: "ResourceAssignment.Equals"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignment 方法。返回一个值，指示此实例是否等于指定的 ResourceAssignment 类实例"
 type: docs
 weight: 690
 url: /zh/net/aspose.tasks/resourceassignment/equals/
 ---
 ## Equals(ResourceAssignment) {#equals}
 
-返回一个值，指示此实例是否等于指定的实例[`ResourceAssignment`](../)类.
+返回一个值，指示此实例是否等于 [`ResourceAssignment`](../) 类的指定实例。
 
 ```csharp
 public bool Equals(ResourceAssignment other)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| other | ResourceAssignment | 的指定实例[`ResourceAssignment`](../)类与此实例进行比较。 |
+| other | ResourceAssignment | 用于与此实例比较的 [`ResourceAssignment`](../) 类的指定实例。 |
 
 ### 返回值
 
-**真的**如果指定的实例[`ResourceAssignment`](../)类具有与此实例相同的 UID 值；否则， **错误的**.
+**True** if the specified instance of the [`ResourceAssignment`](../) class has the same UID value as this instance; otherwise, **false**.
 
-### 也可以看看
+## 示例
+
+展示如何检查资源分配的相等性。
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### 另见
 
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-返回一个值，指示此实例是否等于指定对象。
+返回一个值，指示此实例是否等于指定的对象。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与此实例进行比较的对象。 |
+| obj | 对象 | 与此实例比较的对象。 |
 
 ### 返回值
 
-**真的**如果 o 是分配与此实例相同的资源和任务的 ResourceAssignment；否则， **错误的**.
+**True** if o is a ResourceAssignment that assign the same resource and task as this instance; otherwise, **false**.
 
-### 也可以看看
+## 示例
+
+展示如何检查资源分配的相等性。
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(1);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(1);
+
+Console.WriteLine("Are resource assignments equal: " + resourceAssignment1.Equals(resourceAssignment2));
+```
+
+### 另见
 
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

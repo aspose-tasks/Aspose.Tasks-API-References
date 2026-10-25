@@ -1,0 +1,90 @@
+---
+title: "SimpleSaveOptions.TasksComparer"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "SimpleSaveOptions 属性。获取或设置用于在甘特图和任务表图上排序任务的比较器"
+type: docs
+weight: 20
+url: /zh/net/aspose.tasks.saving/simplesaveoptions/taskscomparer/
+---
+## SimpleSaveOptions.TasksComparer property
+
+获取或设置用于在甘特图和任务表图上排序任务的比较器。
+
+```csharp
+public IComparer<Task> TasksComparer { get; set; }
+```
+
+## 示例
+
+展示如何设置比较器以对 Gantt chart 和/或 Task Sheet chart 中的任务进行排序。
+
+```csharp
+public void SortTasksByColumnInGanttChartExample()
+{
+    var project = new Project(DataDir + "Project2.mpp");
+    SaveOptions options = new PdfSaveOptions
+    {
+        Timescale = Timescale.Months,
+        TasksComparer = new TasksNameComparer()
+    };
+    project.Save(OutDir + "SortedByNames_out.pdf", options);
+
+    options.TasksComparer = new TasksDurationComparer();
+    project.Save(OutDir + "SortedByDurations_out.pdf", options);
+}
+
+private class TasksNameComparer : IComparer<Task>
+{
+    public int Compare(Task x, Task y)
+    {
+        // ReSharper disable once ConvertIfStatementToSwitchStatement
+        // ReSharper disable once ConvertIfStatementToSwitchExpression
+        if (x == null && y == null)
+        {
+            return 0;
+        }
+
+        if (x == null)
+        {
+            return -1;
+        }
+
+        return y == null ? 1 : string.Compare(x.Get(Tsk.Name), y.Get(Tsk.Name), StringComparison.Ordinal);
+    }
+}
+
+private class TasksDurationComparer : IComparer<Task>
+{
+    public int Compare(Task x, Task y)
+    {
+        // ReSharper disable once ConvertIfStatementToSwitchStatement
+        if (x == null && y == null)
+        {
+            return 0;
+        }
+
+        if (x == null)
+        {
+            return -1;
+        }
+
+        if (y == null)
+        {
+            return 1;
+        }
+
+        var durX = x.Get(Tsk.Duration);
+        var durY = y.Get(Tsk.Duration);
+        return durX.TimeSpan.CompareTo(durY.TimeSpan);
+    }
+}
+```
+
+### 另见
+
+* class [Task](../../../aspose.tasks/task/)
+* class [SimpleSaveOptions](../)
+* namespace [Aspose.Tasks.Saving](../../simplesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
+
+

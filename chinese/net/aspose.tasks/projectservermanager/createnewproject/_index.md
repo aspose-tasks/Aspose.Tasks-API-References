@@ -1,47 +1,69 @@
 ---
-title: ProjectServerManager.CreateNewProject
-second_title: Aspose.Tasks for .NET API 参考
-description: ProjectServerManager 方法. 使用默认保存选项在 Project ServerProject Online 实例中创建新项目
+title: "ProjectServerManager.CreateNewProject"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ProjectServerManager 方法。使用默认保存选项在 Project ServerProject Online 实例中创建新项目。"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/projectservermanager/createnewproject/
 ---
 ## CreateNewProject(Project) {#createnewproject}
 
-使用默认保存选项在 Project Server\Project Online 实例中创建新项目。
+使用默认保存选项在 Project Server\\Project Online 实例中创建新项目。
 
 ```csharp
 public void CreateNewProject(Project project)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| project | Project | 要保存到 Project Server\Project Online 实例的项目。 |
+| project | Project | 要保存到 Project Server\\Project Online 实例的项目。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | 在通信错误或服务器返回错误的情况下。 |
+| [ProjectOnlineException](../../projectonlineexception/) | 如果出现通信错误或服务器返回的错误。 |
 
-### 例子
+## 示例
 
-在此示例中，项目从 .mpp 文件加载并保存到 Project Online 帐户。
+在此示例中，项目从 .mpp 文件加载并保存到 Project Online 账户。
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "密码");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project);
 ```
 
-### 也可以看看
+展示如何使用 ProjectServerManager 在 Microsoft Project Online 上创建新项目。
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### 另见
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* 命名空间 [Aspose.Tasks](../../projectservermanager/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -53,24 +75,24 @@ manager.CreateNewProject(project);
 public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptions)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| project | Project | 要保存到 Project Server\Project Online 实例的项目。 |
-| saveOptions | ProjectServerSaveOptions | 的实例[`ProjectServerSaveOptions`](../../projectserversaveoptions/)班级。 |
+| project | Project | 要保存到 Project Server\\Project Online 实例的项目。 |
+| saveOptions | ProjectServerSaveOptions | [`ProjectServerSaveOptions`](../../projectserversaveoptions/) 类的实例。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | 在通信错误或服务器返回错误的情况下。 |
+| [ProjectOnlineException](../../projectonlineexception/) | 如果出现通信错误或服务器返回的错误。 |
 
-### 例子
+## 示例
 
-在此示例中，项目从 .mpp 文件加载并保存到 Project Online 帐户。
+在此示例中，项目从 .mpp 文件加载并保存到 Project Online 账户。
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "密码");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project, new ProjectServerSaveOptions
@@ -79,12 +101,38 @@ manager.CreateNewProject(project, new ProjectServerSaveOptions
 });
 ```
 
-### 也可以看看
+展示如何使用 Project Server 管理器在 Microsoft Project Online 上使用预定义的保存选项创建新项目。
+
+```csharp
+try
+{
+    const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    var options = new ProjectServerSaveOptions
+    {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### 另见
 
 * class [Project](../../project/)
 * class [ProjectServerSaveOptions](../../projectserversaveoptions/)
 * class [ProjectServerManager](../)
-* 命名空间 [Aspose.Tasks](../../projectservermanager/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Project.SetBaselineSaveTime
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 方法. 设置基线保存时间
+title: "Project.SetBaselineSaveTime"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 方法。设置基线保存时间"
 type: docs
-weight: 1240
+weight: 1260
 url: /zh/net/aspose.tasks/project/setbaselinesavetime/
 ---
 ## Project.SetBaselineSaveTime method
@@ -14,20 +14,36 @@ url: /zh/net/aspose.tasks/project/setbaselinesavetime/
 public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| baselineNumber | BaselineType | 基线数[`BaselineType`](../../baselinetype/). |
-| value | DateTime | 基线的上次保存日期和时间。 |
+| baselineNumber | BaselineType | 基线的编号 [`BaselineType`](../../baselinetype/)。 |
+| value | DateTime | 基线的最后保存日期和时间。 |
 
-### 评论
+## 备注
 
-如果未保存基线，则将值设置为 DateTime.MinValue。
+如果基线未保存，则将值设为 DateTime.MinValue。
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入项目的基线保存时间。
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// 设置基线保存时间
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
+
+### 另见
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

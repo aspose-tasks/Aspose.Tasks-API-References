@@ -1,14 +1,14 @@
 ---
-title: ReadOnlyCollectionBase1.ToList
-second_title: Aspose.Tasks for .NET API 参考
-description: ReadOnlyCollectionBase 方法. 将集合对象转换为列表VbaModule对象.
+title: "ReadOnlyCollectionBase1.ToList"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ReadOnlyCollectionBase 方法。将集合转换为对象列表。"
 type: docs
 weight: 50
 url: /zh/net/aspose.tasks/readonlycollectionbase-1/tolist/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.ToList method
 
-将集合对象转换为列表[`VbaModule`](../../vbamodule/)对象.
+将集合转换为对象列表。
 
 ```csharp
 public List<T> ToList()
@@ -16,12 +16,12 @@ public List<T> ToList()
 
 ### 返回值
 
-对象列表。
+对象的通用列表。
 
-### 也可以看看
+### 另见
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* 命名空间 [Aspose.Tasks](../../readonlycollectionbase-1/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

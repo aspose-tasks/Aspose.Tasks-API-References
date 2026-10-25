@@ -1,26 +1,38 @@
 ---
-title: Prj.MoveRemainingStartsForward
-second_title: Aspose.Tasks for .NET API 参考
-description: Prj 场地. 确定计划稍后开始的 tasks 剩余部分的开始是否应移至状态日期
+title: "Prj.MoveRemainingStartsForward"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Prj 字段。确定是否应将计划稍后开始的任务剩余部分的起始时间提前至状态日期"
 type: docs
-weight: 510
+weight: 520
 url: /zh/net/aspose.tasks/prj/moveremainingstartsforward/
 ---
 ## Prj.MoveRemainingStartsForward field
 
-确定计划稍后开始的 tasks 剩余部分的开始是否应移至状态日期。
+确定是否应将计划稍后开始的任务剩余部分的开始时间提前至状态日期。
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsForward;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Prj.MoveRemainingStartsForward 属性。
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveRemainingStartsForward, true);
+
+Console.WriteLine("Move Remaining Starts Forward: " + project.Get(Prj.MoveRemainingStartsForward));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* 命名空间 [Aspose.Tasks](../../prj/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

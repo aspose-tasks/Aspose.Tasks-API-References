@@ -1,24 +1,55 @@
 ---
-title: GroupCriterion.Pattern
-second_title: Aspose.Tasks for .NET API 参考
-description: GroupCriterion 财产. 获取或设置用作组定义标准的字段的单元格模式
+title: "GroupCriterion.Pattern"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "GroupCriterion 属性。获取或设置在分组定义中用作准则的字段的单元格模式。"
 type: docs
-weight: 110
+weight: 90
 url: /zh/net/aspose.tasks/groupcriterion/pattern/
 ---
 ## GroupCriterion.Pattern property
 
-获取或设置用作组定义标准的字段的单元格模式。
+获取或设置用于组定义中作为条件的字段的单元格模式。
 
 ```csharp
 public BackgroundPattern Pattern { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取组准则的属性。
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+Console.WriteLine("Task Groups Count: " + project.TaskGroups.Count);
+var group = project.TaskGroups.ToList()[1];
+Console.WriteLine("Task Group Name: " + group.Name);
+Console.WriteLine("Task Group Criteria count: " + group.GroupCriteria.Count);
+
+Console.WriteLine("\n************* Retrieving Task Group's Criterion information *************");
+var criterion = group.GroupCriteria.ToList()[0];
+Console.WriteLine("Task Criterion Field: " + criterion.Field);
+Console.WriteLine("Task Criterion GroupOn: " + criterion.GroupOn);
+Console.WriteLine("Task Criterion Cell Color: " + criterion.CellColor);
+Console.WriteLine("Task Criterion Font Color: " + criterion.FontColor);
+Console.WriteLine("Task Criterion Group Interval: " + criterion.GroupInterval);
+Console.WriteLine("Task Criterion Start At: " + criterion.StartAt);
+
+// 读取准则的背景模式。
+Console.WriteLine("Task Criterion Pattern: " + criterion.Pattern);
+
+Console.WriteLine("\n*********** Retrieving Criterion's Font Information ***********");
+Console.WriteLine("Font Name: " + criterion.Font.FontFamily);
+Console.WriteLine("Font Size: " + criterion.Font.Size);
+Console.WriteLine("Font Style: " + criterion.Font.Style);
+Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
+```
+
+### 另见
 
 * enum [BackgroundPattern](../../backgroundpattern/)
 * class [GroupCriterion](../)
-* 命名空间 [Aspose.Tasks](../../groupcriterion/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

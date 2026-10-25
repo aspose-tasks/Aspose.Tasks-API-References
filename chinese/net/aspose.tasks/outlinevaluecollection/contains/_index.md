@@ -1,32 +1,113 @@
 ---
-title: OutlineValueCollection.Contains
-second_title: Aspose.Tasks for .NET API 参考
-description: OutlineValueCollection 方法. 如果在此集合中找到指定项则返回真否则为 false.
+title: "OutlineValueCollection.Contains"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "OutlineValueCollection 方法。如果在此集合中找到指定项则返回 true，否则返回 false"
 type: docs
 weight: 60
 url: /zh/net/aspose.tasks/outlinevaluecollection/contains/
 ---
 ## OutlineValueCollection.Contains method
 
-如果在此集合中找到指定项，则返回真；否则为 false.
+如果在此集合中找到指定项则返回 true；否则返回 false。
 
 ```csharp
 public bool Contains(OutlineValue item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | OutlineValue | 要查找的指定项目。 |
+| item | OutlineValue | 要查找的指定项。 |
 
 ### 返回值
 
-如果在此集合中找到指定的项，则为真；否则为真。否则，假的。
+如果在此集合中找到指定项则返回 true；否则返回 false。
 
-### 也可以看看
+## 示例
+
+展示如何使用大纲值集合。
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+// 清除值集合
+foreach (var outlineCode in project.OutlineCodes)
+{
+    // 清除大纲掩码
+    if (outlineCode.Values.Count <= 0)
+    {
+        continue;
+    }
+
+    if (!outlineCode.Values.IsReadOnly)
+    {
+        outlineCode.Values.Clear();
+    }
+}
+
+var codeDefinition = new OutlineCodeDefinition
+                         {
+                             Alias = "New task outline code1", FieldId = ((int)ExtendedAttributeTask.OutlineCode1).ToString(), FieldName = "Outline Code1"
+                         };
+var value = new OutlineValue { Description = "Value description", ValueId = 1, Value = "123456", Type = OutlineValueType.Number };
+codeDefinition.Values.Add(value);
+project.OutlineCodes.Add(codeDefinition);
+
+// 通过索引访问更新值
+codeDefinition.Values[0].Value = "654321";
+
+// 遍历大纲值
+foreach (var definitionValue in codeDefinition.Values)
+{
+    Console.WriteLine("Value: " + definitionValue.Value);
+    Console.WriteLine("Value Id: " + definitionValue.ValueId);
+    Console.WriteLine("Value Guid: " + definitionValue.ValueGuid);
+    Console.WriteLine();
+}
+
+// ...
+// 使用大纲值
+// ...
+
+// 在需要时移除值
+if (codeDefinition.Values.Contains(value))
+{
+    codeDefinition.Values.Remove(value);
+}
+
+// 在起始位置插入值
+codeDefinition.Values.Insert(0, value);
+
+// 检查已插入值的位置
+Console.WriteLine("Index of inserted value: " + codeDefinition.Values.IndexOf(value));
+
+// ...
+// 使用大纲值
+// ...
+
+// 从集合中移除最后一个值
+codeDefinition.Values.RemoveAt(codeDefinition.Values.Count - 1);
+
+// 可以创建另一个大纲代码定义
+var codeDefinition2 = new OutlineCodeDefinition
+                          {
+                              Alias = "New outline code 2", FieldId = ((int)ExtendedAttributeTask.OutlineCode2).ToString(), FieldName = "Outline Code2"
+                          };
+
+// 然后复制大纲值
+var outlineValues = new OutlineValue[codeDefinition.Values.Count];
+codeDefinition.Values.CopyTo(outlineValues, 0);
+
+foreach (var outlineValue in outlineValues)
+{
+    codeDefinition2.Values.Add(outlineValue);
+}
+```
+
+### 另见
 
 * class [OutlineValue](../../outlinevalue/)
 * class [OutlineValueCollection](../)
-* 命名空间 [Aspose.Tasks](../../outlinevaluecollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinevaluecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

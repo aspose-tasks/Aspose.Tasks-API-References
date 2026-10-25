@@ -1,7 +1,7 @@
 ---
-title: Class EntityFieldAttribute
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Attributes.EntityFieldAttribute 班级. 表示实体属性的属性
+title: "类 EntityFieldAttribute"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Attributes.EntityFieldAttribute 类。表示实体属性的特性"
 type: docs
 weight: 70
 url: /zh/net/aspose.tasks.attributes/entityfieldattribute/
@@ -17,17 +17,17 @@ public class EntityFieldAttribute : Attribute
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [EntityFieldAttribute](entityfieldattribute/)() | 默认构造函数。 |
 
-### 评论
+## 备注
 
-属性用于[`Task`](../../aspose.tasks/task/),[`Resource`](../../aspose.tasks/resource/),[`Project`](../../aspose.tasks/project/) 和[`ResourceAssignment`](../../aspose.tasks/resourceassignment/)仅限实体属性，并简化其枚举。
+此特性仅用于 [`Task`](../../aspose.tasks/task/)、[`Resource`](../../aspose.tasks/resource/)、[`Project`](../../aspose.tasks/project/) 和 [`ResourceAssignment`](../../aspose.tasks/resourceassignment/) 实体属性，并简化其枚举。
 
-### 例子
+## 示例
 
-如何枚举属性使用 **实体字段**属性：
+如何使用 **EntityField** 特性枚举属性：
 
 ```csharp
 [C#]
@@ -42,9 +42,9 @@ foreach (var task in project.SelectAllChildTasks())
 }
 ```
 
-### 也可以看看
+### 另见
 
-* 命名空间 [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Attributes](../../aspose.tasks.attributes/)
+* assembly [Aspose.Tasks](../../)
 
 

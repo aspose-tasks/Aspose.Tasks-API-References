@@ -1,9 +1,9 @@
 ---
-title: Task.RemainingOvertimeCost
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取或设置 RemainingOvertimeCost 的值
+title: "Task.RemainingOvertimeCost"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取或设置 RemainingOvertimeCost 的值"
 type: docs
-weight: 1080
+weight: 1070
 url: /zh/net/aspose.tasks/task/remainingovertimecost/
 ---
 ## Task.RemainingOvertimeCost property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/task/remainingovertimecost/
 public decimal RemainingOvertimeCost { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

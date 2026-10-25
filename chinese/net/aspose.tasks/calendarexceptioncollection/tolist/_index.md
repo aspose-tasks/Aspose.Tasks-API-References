@@ -1,14 +1,14 @@
 ---
-title: CalendarExceptionCollection.ToList
-second_title: Aspose.Tasks for .NET API 参考
-description: CalendarExceptionCollection 方法. 将 CalendarExceptionCollection 对象转换为列表CalendarException对象.
+title: "CalendarExceptionCollection.ToList"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "CalendarExceptionCollection 方法。将 CalendarExceptionCollection 对象转换为 CalendarException 对象的列表。"
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/calendarexceptioncollection/tolist/
 ---
 ## CalendarExceptionCollection.ToList method
 
-将 CalendarExceptionCollection 对象转换为列表[`CalendarException`](../../calendarexception/)对象.
+将 CalendarExceptionCollection 对象转换为 [`CalendarException`](../../calendarexception/) 对象的列表。
 
 ```csharp
 public List<CalendarException> ToList()
@@ -16,13 +16,73 @@ public List<CalendarException> ToList()
 
 ### 返回值
 
-列表[`CalendarException`](../../calendarexception/)对象。
+[`CalendarException`](../../calendarexception/) 对象的列表。
 
-### 也可以看看
+## 示例
+
+展示如何使用日历异常集合来定义日历异常。
+
+```csharp
+var project = new Project(DataDir + "project_update_test.mpp");
+var calendar = project.Calendars.GetByUid(3);
+
+calendar.Exceptions.Clear();
+Calendar.MakeStandardCalendar(calendar);
+
+var exception = new CalendarException();
+exception.FromDate = new DateTime(2020, 3, 30, 8, 0, 0);
+exception.ToDate = new DateTime(2020, 4, 3, 17, 0, 0);
+exception.DayWorking = true;
+exception.Name = "Exception 1";
+
+var wt1 = new WorkingTime(9, 13);
+var wt2 = new WorkingTime(14, 19);
+
+exception.WorkingTimes.Add(wt1);
+exception.WorkingTimes.Add(wt2);
+calendar.Exceptions.Add(exception);
+
+var nonWorkingExceptions = new CalendarException[2];
+nonWorkingExceptions[0] = new CalendarException();
+nonWorkingExceptions[0].FromDate = new DateTime(2020, 4, 13, 8, 0, 0);
+nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
+nonWorkingExceptions[0].DayWorking = false;
+nonWorkingExceptions[0].Name = "Exception 2";
+nonWorkingExceptions[1] = new CalendarException();
+nonWorkingExceptions[1].FromDate = new DateTime(2020, 4, 6, 8, 0, 0);
+nonWorkingExceptions[1].ToDate = new DateTime(2020, 4, 10, 17, 0, 0);
+nonWorkingExceptions[1].DayWorking = false;
+nonWorkingExceptions[1].Name = "Exception 3";
+calendar.Exceptions.AddRange(nonWorkingExceptions);
+
+Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
+Console.WriteLine("Exceptions count: {0}", calendar.Exceptions.Count);
+Console.WriteLine();
+foreach (var calendarException in calendar.Exceptions)
+{
+    Console.WriteLine("Name: " + calendarException.Name);
+    Console.WriteLine("From Date: " + calendarException.FromDate);
+    Console.WriteLine("To Date: " + calendarException.ToDate);
+    Console.WriteLine("Is day working: " + calendarException.DayWorking);
+    Console.WriteLine();
+}
+
+// 移除所有异常
+Console.WriteLine("Remove calendar exceptions...");
+List<CalendarException> exceptions = calendar.Exceptions.ToList();
+foreach (var calendarException in exceptions)
+{
+    Console.WriteLine("Remove exception: " + calendarException.Name);
+    Console.WriteLine();
+    calendar.Exceptions.Remove(calendarException);
+}
+```
+
+### 另见
 
 * class [CalendarException](../../calendarexception/)
 * class [CalendarExceptionCollection](../)
-* 命名空间 [Aspose.Tasks](../../calendarexceptioncollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexceptioncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

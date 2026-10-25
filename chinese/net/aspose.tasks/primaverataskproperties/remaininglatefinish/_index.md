@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingLateFinish
-second_title: Aspose.Tasks for .NET API 参考
-description: PrimaveraTaskProperties 财产. 获取剩余的最晚完成日期
+title: "PrimaveraTaskProperties.RemainingLateFinish"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PrimaveraTaskProperties 属性。获取剩余延迟完成日期"
 type: docs
-weight: 130
+weight: 300
 url: /zh/net/aspose.tasks/primaverataskproperties/remaininglatefinish/
 ---
 ## PrimaveraTaskProperties.RemainingLateFinish property
 
-获取剩余的最晚完成日期。
+获取剩余的延后完成日期。
 
 ```csharp
 public DateTime RemainingLateFinish { get; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [PrimaveraTaskProperties](../)
-* 命名空间 [Aspose.Tasks](../../primaverataskproperties/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

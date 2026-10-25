@@ -1,33 +1,44 @@
 ---
-title: Project.GetProjectFileInfo
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 方法. 从文件中读取项目文件信息
+title: "Project.GetProjectFileInfo"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 方法。读取项目文件信息"
 type: docs
-weight: 1260
+weight: 1280
 url: /zh/net/aspose.tasks/project/getprojectfileinfo/
 ---
 ## GetProjectFileInfo(string) {#getprojectfileinfo_1}
 
-从文件中读取项目文件信息。
+从文件读取项目文件信息。
 
 ```csharp
 public static ProjectFileInfo GetProjectFileInfo(string filename)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| filename | String | 项目文件名。 |
+| 文件名 | 字符串 | 项目文件名。 |
 
 ### 返回值
 
-项目文件信息[`ProjectFileInfo`](../../projectfileinfo/).
+项目文件信息 [`ProjectFileInfo`](../../projectfileinfo/)。
 
-### 也可以看看
+## 示例
+
+展示如何从 XML 文件读取项目文件信息。
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### 另见
 
 * class [ProjectFileInfo](../../projectfileinfo/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -39,19 +50,33 @@ public static ProjectFileInfo GetProjectFileInfo(string filename)
 public static ProjectFileInfo GetProjectFileInfo(Stream stream)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 数据流。 |
+| 流 | 流 | 数据流。 |
 
 ### 返回值
 
-项目文件信息[`ProjectFileInfo`](../../projectfileinfo/).
+项目文件信息 [`ProjectFileInfo`](../../projectfileinfo/)。
 
-### 也可以看看
+## 示例
+
+展示如何从流中读取 XML 文件的项目文件信息。
+
+```csharp
+using (var stream = new FileStream(DataDir + "Project.xml", FileMode.Open))
+{
+    var info = Project.GetProjectFileInfo(stream);
+    Console.WriteLine("CanRead: " + info.CanRead);
+    Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+    Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+}
+```
+
+### 另见
 
 * class [ProjectFileInfo](../../projectfileinfo/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.BookingType
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignment 财产. 获取或设置 BookingType 的值
+title: "ResourceAssignment.BookingType"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignment 属性。获取或设置 BookingType 的值"
 type: docs
 weight: 150
 url: /zh/net/aspose.tasks/resourceassignment/bookingtype/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/resourceassignment/bookingtype/
 public BookingType BookingType { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * enum [BookingType](../../bookingtype/)
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

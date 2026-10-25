@@ -1,23 +1,40 @@
 ---
-title: WorkUnit.To
-second_title: Aspose.Tasks for .NET API 参考
-description: WorkUnit 财产. 获取或设置截止日期
+title: "WorkUnit.To"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "WorkUnit 属性。获取或设置 To 日期"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks/workunit/to/
 ---
 ## WorkUnit.To property
 
-获取或设置截止日期。
+获取或设置 To 日期。
 
 ```csharp
 public DateTime To { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何使用工作单元信息。
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// 获取特定日期的工作时间
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+Console.WriteLine("From: " + workUnit.From);
+Console.WriteLine("To: " + workUnit.To);
+Console.WriteLine("Working hours: " + workUnit.WorkingHours);
+```
+
+### 另见
 
 * class [WorkUnit](../)
-* 命名空间 [Aspose.Tasks](../../workunit/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workunit/)
+* assembly [Aspose.Tasks](../../../)
 
 

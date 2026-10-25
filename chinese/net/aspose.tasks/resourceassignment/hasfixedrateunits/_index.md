@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.HasFixedRateUnits
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignment 财产. 获取或设置一个值该值指示是否设置了 HasFixedRateUnits
+title: "ResourceAssignment.HasFixedRateUnits"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignment 属性。获取或设置一个值，指示是否已设置 HasFixedRateUnits。"
 type: docs
 weight: 300
 url: /zh/net/aspose.tasks/resourceassignment/hasfixedrateunits/
 ---
 ## ResourceAssignment.HasFixedRateUnits property
 
-获取或设置一个值，该值指示是否设置了 HasFixedRateUnits。
+获取或设置指示 HasFixedRateUnits 是否已设置的值。
 
 ```csharp
 public bool HasFixedRateUnits { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

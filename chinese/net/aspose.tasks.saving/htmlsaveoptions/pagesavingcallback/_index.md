@@ -1,9 +1,9 @@
 ---
-title: HtmlSaveOptions.PageSavingCallback
-second_title: Aspose.Tasks for .NET API 参考
-description: HtmlSaveOptions 财产. 获取或设置用户定义的回调用于获取每个渲染页面的输出流
+title: "HtmlSaveOptions.PageSavingCallback"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "HtmlSaveOptions 属性。获取或设置用于为每个渲染页面获取输出流的用户自定义回调。"
 type: docs
-weight: 150
+weight: 140
 url: /zh/net/aspose.tasks.saving/htmlsaveoptions/pagesavingcallback/
 ---
 ## HtmlSaveOptions.PageSavingCallback property
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks.saving/htmlsaveoptions/pagesavingcallback/
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

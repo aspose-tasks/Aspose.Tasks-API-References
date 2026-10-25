@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.ActualFinish
-second_title: Aspose.Tasks for .NET API 参考
-description: ResourceAssignment 财产. 获取或设置 ActualFinish 的值
+title: "ResourceAssignment.ActualFinish"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "ResourceAssignment 属性。获取或设置 ActualFinish 的值"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/resourceassignment/actualfinish/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/resourceassignment/actualfinish/
 public DateTime ActualFinish { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [ResourceAssignment](../)
-* 命名空间 [Aspose.Tasks](../../resourceassignment/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

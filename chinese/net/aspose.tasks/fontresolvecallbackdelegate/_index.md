@@ -1,27 +1,27 @@
 ---
-title: Delegate FontResolveCallbackDelegate
-second_title: Aspose.Tasks for .NET API 参考
-description: 表示处理字体解析事件的方法回调
+title: "委托 FontResolveCallbackDelegate"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "表示用于处理字体解析事件的方法回调"
 type: docs
 weight: 660
 url: /zh/net/aspose.tasks/fontresolvecallbackdelegate/
 ---
 ## FontResolveCallbackDelegate delegate
 
-表示处理字体解析事件的方法回调。
+表示用于处理字体解析事件的方法回调。
 
 ```csharp
 public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| args | FontResolveEventArgs | 的实例[`FontResolveEventArgs`](../fontresolveeventargs/)包含回调数据的类。 |
+| args | FontResolveEventArgs | 包含回调数据的 [`FontResolveEventArgs`](../fontresolveeventargs/) 类的实例。 |
 
-### 也可以看看
+### 另见
 
 * class [FontResolveEventArgs](../fontresolveeventargs/)
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

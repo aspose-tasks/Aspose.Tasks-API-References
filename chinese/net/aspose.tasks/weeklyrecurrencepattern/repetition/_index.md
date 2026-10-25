@@ -1,7 +1,7 @@
 ---
-title: WeeklyRecurrencePattern.Repetition
-second_title: Aspose.Tasks for .NET API 参考
-description: WeeklyRecurrencePattern 财产. 获取或设置循环重复模式
+title: "WeeklyRecurrencePattern.Repetition"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "WeeklyRecurrencePattern 属性。获取或设置循环重复模式"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/weeklyrecurrencepattern/repetition/
@@ -14,11 +14,42 @@ url: /zh/net/aspose.tasks/weeklyrecurrencepattern/repetition/
 public WeeklyRepetitionBase Repetition { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何创建循环任务。
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### 另见
 
 * class [WeeklyRepetitionBase](../../weeklyrepetitionbase/)
 * class [WeeklyRecurrencePattern](../)
-* 命名空间 [Aspose.Tasks](../../weeklyrecurrencepattern/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weeklyrecurrencepattern/)
+* assembly [Aspose.Tasks](../../../)
 
 

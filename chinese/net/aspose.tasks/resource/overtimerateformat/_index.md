@@ -1,9 +1,9 @@
 ---
-title: Resource.OvertimeRateFormat
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 财产. 获取或设置 OvertimeRateFormat 的值
+title: "Resource.OvertimeRateFormat"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Resource 属性。获取或设置 OvertimeRateFormat 的值"
 type: docs
-weight: 590
+weight: 580
 url: /zh/net/aspose.tasks/resource/overtimerateformat/
 ---
 ## Resource.OvertimeRateFormat property
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/resource/overtimerateformat/
 public RateFormatType OvertimeRateFormat { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * enum [RateFormatType](../../rateformattype/)
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

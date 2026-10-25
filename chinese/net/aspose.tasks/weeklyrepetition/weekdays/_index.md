@@ -1,7 +1,7 @@
 ---
-title: WeeklyRepetition.WeekDays
-second_title: Aspose.Tasks for .NET API 参考
-description: WeeklyRepetition 财产. 获取或设置工作日的类型
+title: "WeeklyRepetition.WeekDays"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "WeeklyRepetition 属性。获取或设置工作日的类型"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/weeklyrepetition/weekdays/
@@ -14,11 +14,42 @@ url: /zh/net/aspose.tasks/weeklyrepetition/weekdays/
 public WeekdayType WeekDays { get; set; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何创建循环任务。
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### 另见
 
 * enum [WeekdayType](../../weekdaytype/)
 * class [WeeklyRepetition](../)
-* 命名空间 [Aspose.Tasks](../../weeklyrepetition/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weeklyrepetition/)
+* assembly [Aspose.Tasks](../../../)
 
 

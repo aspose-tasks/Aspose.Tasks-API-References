@@ -1,9 +1,9 @@
 ---
-title: Rsc.Type
-second_title: Aspose.Tasks for .NET API 参考
-description: Rsc 场地. 资源的类型
+title: "Rsc.Type"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Rsc 字段。资源的类型"
 type: docs
-weight: 670
+weight: 660
 url: /zh/net/aspose.tasks/rsc/type/
 ---
 ## Rsc.Type field
@@ -14,13 +14,27 @@ url: /zh/net/aspose.tasks/rsc/type/
 public static readonly Key<ResourceType, RscKey> Type;
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取/写入 Rsc.Type 属性。
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Type, ResourceType.Work);
+
+Console.WriteLine("Type: " + resource.Get(Rsc.Type));
+```
+
+### 另见
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [ResourceType](../../resourcetype/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* 命名空间 [Aspose.Tasks](../../rsc/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

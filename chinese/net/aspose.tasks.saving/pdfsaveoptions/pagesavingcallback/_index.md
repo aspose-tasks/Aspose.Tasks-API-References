@@ -1,24 +1,24 @@
 ---
-title: PdfSaveOptions.PageSavingCallback
-second_title: Aspose.Tasks for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置用户定义的回调用于为每个呈现的页面获取输出流 适用于SaveToSeparateFiles使用选项.
+title: "PdfSaveOptions.PageSavingCallback"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PdfSaveOptions 属性。获取或设置用于为每个渲染页面获取输出流的用户定义回调。当使用 SaveToSeparateFiles 选项时适用。"
 type: docs
-weight: 80
+weight: 70
 url: /zh/net/aspose.tasks.saving/pdfsaveoptions/pagesavingcallback/
 ---
 ## PdfSaveOptions.PageSavingCallback property
 
-获取或设置用户定义的回调，用于为每个呈现的页面获取输出流。 适用于[`SaveToSeparateFiles`](../savetoseparatefiles/)使用选项.
+获取或设置用于为每个渲染页面获取输出流的用户定义回调。当使用 [`SaveToSeparateFiles`](../savetoseparatefiles/) 选项时适用。
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

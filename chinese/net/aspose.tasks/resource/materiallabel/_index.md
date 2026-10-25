@@ -1,7 +1,7 @@
 ---
-title: Resource.MaterialLabel
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 财产. 获取或设置 MaterialLabel 的值
+title: "Resource.MaterialLabel"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Resource 属性。获取或设置 MaterialLabel 的值。"
 type: docs
 weight: 490
 url: /zh/net/aspose.tasks/resource/materiallabel/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/resource/materiallabel/
 public string MaterialLabel { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

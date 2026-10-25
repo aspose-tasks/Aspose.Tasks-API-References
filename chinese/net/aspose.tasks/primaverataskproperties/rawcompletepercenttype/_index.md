@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawCompletePercentType
-second_title: Aspose.Tasks for .NET API 参考
-description: PrimaveraTaskProperties 财产. 获取活动的 Complete Type字段的原始文本表示如在源文件中
+title: "PrimaveraTaskProperties.RawCompletePercentType"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "PrimaveraTaskProperties 属性。获取活动的完成类型字段在源文件中的原始文本表示"
 type: docs
-weight: 70
+weight: 230
 url: /zh/net/aspose.tasks/primaverataskproperties/rawcompletepercenttype/
 ---
 ## PrimaveraTaskProperties.RawCompletePercentType property
 
-获取活动的“% Complete Type”字段的原始文本表示（如在源文件中）。
+获取活动的 '% Complete Type' 字段的原始文本表示（如源文件中所示）。
 
 ```csharp
 public string RawCompletePercentType { get; }
 ```
 
-### 评论
+## 备注
 
-仅适用于活动（非摘要任务）。
+仅适用于活动（非汇总任务）。
 
-### 也可以看看
+### 另见
 
 * class [PrimaveraTaskProperties](../)
-* 命名空间 [Aspose.Tasks](../../primaverataskproperties/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.MoveCompletedEndsBack
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置一个值指示是否设置了 MoveCompletedEndsBack
+title: "Project.MoveCompletedEndsBack"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置一个值，指示 MoveCompletedEndsBack 是否已设置"
 type: docs
-weight: 580
+weight: 600
 url: /zh/net/aspose.tasks/project/movecompletedendsback/
 ---
 ## Project.MoveCompletedEndsBack property
 
-获取或设置一个值，指示是否设置了 MoveCompletedEndsBack。
+获取或设置一个值，指示是否已设置 MoveCompletedEndsBack。
 
 ```csharp
 public NullableBool MoveCompletedEndsBack { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

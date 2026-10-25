@@ -1,24 +1,56 @@
 ---
-title: Project.TaskFilters
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取所有基于任务的过滤器定义 TaskFilters 是一个集合Filter对象.
+title: "Project.TaskFilters"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取所有基于任务的过滤器定义。TaskFilters 是 Filter 对象的集合"
 type: docs
-weight: 880
+weight: 910
 url: /zh/net/aspose.tasks/project/taskfilters/
 ---
 ## Project.TaskFilters property
 
-获取所有基于任务的过滤器定义。 TaskFilters 是一个集合[`Filter`](../../filter/)对象.
+获取所有基于任务的过滤器定义。TaskFilters 是一个包含 [`Filter`](../../filter/) 对象的集合。
 
 ```csharp
 public FilterCollection TaskFilters { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取项目任务过滤器。
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+
+var filter = project.TaskFilters.ToList()[1];
+Console.WriteLine(filter.Criteria.CriteriaRows.Count);
+Console.WriteLine(filter.Criteria.Operation.ToString());
+
+var criteria1 = filter.Criteria.CriteriaRows[0];
+Console.WriteLine(criteria1.Test.ToString());
+Console.WriteLine(criteria1.Field.ToString());
+Console.WriteLine(criteria1.Values[0].ToString());
+
+var criteria2 = filter.Criteria.CriteriaRows[1];
+Console.WriteLine(criteria2.Operation.ToString());
+Console.WriteLine(criteria2.CriteriaRows.Count);
+
+var criteria21 = criteria2.CriteriaRows[0];
+Console.WriteLine(criteria21.Test.ToString());
+Console.WriteLine(criteria21.Field.ToString());
+Console.WriteLine(criteria21.Values[0].ToString());
+
+var criteria22 = criteria2.CriteriaRows[1];
+Console.WriteLine(criteria22.Test.ToString());
+Console.WriteLine(criteria22.Field.ToString());
+Console.WriteLine(criteria22.Values[0].ToString());
+Console.WriteLine(filter.Criteria);
+```
+
+### 另见
 
 * class [FilterCollection](../../filtercollection/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

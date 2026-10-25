@@ -1,7 +1,7 @@
 ---
-title: AssignmentBaselineCollection.Item
-second_title: Aspose.Tasks for .NET API 参考
-description: AssignmentBaselineCollection 财产. 返回指定索引处的元素
+title: "AssignmentBaselineCollection.Item"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "AssignmentBaselineCollection 属性。 返回指定索引处的元素"
 type: docs
 weight: 20
 url: /zh/net/aspose.tasks/assignmentbaselinecollection/item/
@@ -14,19 +14,19 @@ url: /zh/net/aspose.tasks/assignmentbaselinecollection/item/
 public AssignmentBaseline this[int index] { get; set; }
 ```
 
-| 范围 | 描述 |
+| 参数 | 描述 |
 | --- | --- |
-| index | 要获取的元素的从零开始的索引。 |
+| index | 要获取的元素的零基索引。 |
 
 ### 返回值
 
 指定索引处的元素。
 
-### 也可以看看
+### 另见
 
 * class [AssignmentBaseline](../../assignmentbaseline/)
 * class [AssignmentBaselineCollection](../)
-* 命名空间 [Aspose.Tasks](../../assignmentbaselinecollection/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Project.EnumerateAllChildTasks
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 方法. 递归枚举所有项目的任务包括根任务
+title: "Project.EnumerateAllChildTasks"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 方法。递归枚举所有项目任务，包括根任务"
 type: docs
-weight: 1040
+weight: 1070
 url: /zh/net/aspose.tasks/project/enumerateallchildtasks/
 ---
 ## Project.EnumerateAllChildTasks method
 
-递归枚举所有项目的任务，包括根任务。
+递归枚举项目的所有任务，包括根任务。
 
 ```csharp
 public IEnumerable<Task> EnumerateAllChildTasks()
@@ -16,17 +16,17 @@ public IEnumerable<Task> EnumerateAllChildTasks()
 
 ### 返回值
 
-IEnumerable 可用于迭代所有项目的任务。
+IEnumerable，可用于遍历所有项目的任务。
 
-### 评论
+## 备注
 
-提供了一种更轻量级的方式来迭代任务[`SelectAllChildTasks`](../selectallchildtasks/)方法，因为它不会为所有任务分配内存。
+提供一种比 [`SelectAllChildTasks`](../selectallchildtasks/) 方法更轻量的任务遍历方式，因为它不会为所有任务分配内存。
 
-### 也可以看看
+### 另见
 
 * class [Task](../../task/)
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

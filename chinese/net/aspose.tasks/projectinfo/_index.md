@@ -1,14 +1,14 @@
 ---
-title: Class ProjectInfo
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.ProjectInfo 班级. Project Online 上提供的有关已发布项目的简要信息
+title: "类 ProjectInfo"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.ProjectInfo 类。关于在 Project Online 上可用的已发布项目的简要信息"
 type: docs
-weight: 1220
+weight: 1470
 url: /zh/net/aspose.tasks/projectinfo/
 ---
 ## ProjectInfo class
 
-Project Online 上提供的有关已发布项目的简要信息。
+关于在 Project Online 上可用的已发布项目的简要信息。
 
 ```csharp
 public sealed class ProjectInfo
@@ -16,25 +16,53 @@ public sealed class ProjectInfo
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [ProjectInfo](projectinfo/)() | 初始化一个新的实例`ProjectInfo`班级。 |
+| [ProjectInfo](projectinfo/)() | 初始化 `ProjectInfo` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [CreatedDate](../../aspose.tasks/projectinfo/createddate/) { get; } | 获取创建项目的日期和时间。 |
+| [CreatedDate](../../aspose.tasks/projectinfo/createddate/) { get; } | 获取项目创建的日期和时间。 |
 | [Description](../../aspose.tasks/projectinfo/description/) { get; } | 获取项目的描述。 |
-| [Id](../../aspose.tasks/projectinfo/id/) { get; } | 获取项目的唯一标识。 |
-| [IsCheckedOut](../../aspose.tasks/projectinfo/ischeckedout/) { get; } | 获取一个值，该值指示项目是否已签出。 |
-| [LastPublishedDate](../../aspose.tasks/projectinfo/lastpublisheddate/) { get; } | 获取项目发布的最新日期。 |
-| [LastSavedDate](../../aspose.tasks/projectinfo/lastsaveddate/) { get; } | 获取项目保存的最新日期。 |
+| [Id](../../aspose.tasks/projectinfo/id/) { get; } | 获取项目的唯一标识符。 |
+| [IsCheckedOut](../../aspose.tasks/projectinfo/ischeckedout/) { get; } | 获取一个值，指示项目是否已签出。 |
+| [LastPublishedDate](../../aspose.tasks/projectinfo/lastpublisheddate/) { get; } | 获取项目最近一次发布的日期。 |
+| [LastSavedDate](../../aspose.tasks/projectinfo/lastsaveddate/) { get; } | 获取项目最近一次保存的日期。 |
 | [Name](../../aspose.tasks/projectinfo/name/) { get; } | 获取项目的名称。 |
 
-### 也可以看看
+## 示例
 
-* 命名空间 [Aspose.Tasks](../../aspose.tasks/)
-* 部件 [Aspose.Tasks](../../)
+展示如何从 Project Online 读取项目信息。
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+var reader = new ProjectServerManager(credentials);
+IEnumerable<ProjectInfo> list = reader.GetProjectList();
+
+// 读取项目信息
+Console.WriteLine("Print information about projects:");
+foreach (var info in list)
+{
+    Console.WriteLine("Id: " + info.Id);
+    Console.WriteLine("Name: " + info.Name);
+    Console.WriteLine("Description: " + info.Description);
+    Console.WriteLine("Created Date: " + info.CreatedDate);
+    Console.WriteLine("Last Saved Date: " + info.LastSavedDate);
+    Console.WriteLine("Last Published Date: " + info.LastPublishedDate);
+    Console.WriteLine("Is Checked Out: " + info.IsCheckedOut);
+}
+```
+
+### 另见
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

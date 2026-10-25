@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultOvertimeRate
-second_title: Aspose.Tasks for .NET API 参考
-description: Project 财产. 获取或设置 DefaultOvertimeRate 的值
+title: "Project.DefaultOvertimeRate"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Project 属性。获取或设置 DefaultOvertimeRate 的值"
 type: docs
-weight: 300
+weight: 310
 url: /zh/net/aspose.tasks/project/defaultovertimerate/
 ---
 ## Project.DefaultOvertimeRate property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.tasks/project/defaultovertimerate/
 public double DefaultOvertimeRate { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * class [Project](../)
-* 命名空间 [Aspose.Tasks](../../project/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class ImageSaveOptions
-second_title: Aspose.Tasks for .NET API 参考
-description: Aspose.Tasks.Saving.ImageSaveOptions 班级. 允许在将项目页面呈现为图像时指定其他选项
+title: "类 ImageSaveOptions"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Aspose.Tasks.Saving.ImageSaveOptions 类。允许在将项目页面渲染为图像时指定其他选项"
 type: docs
-weight: 1770
+weight: 2030
 url: /zh/net/aspose.tasks.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
 
-允许在将项目页面呈现为图像时指定其他选项。
+允许在将项目页面渲染为图像时指定附加选项。
 
 ```csharp
 public class ImageSaveOptions : SaveOptions
@@ -16,54 +16,71 @@ public class ImageSaveOptions : SaveOptions
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(SaveFileFormat) | 初始化一个新的实例`ImageSaveOptions`可用于以 TIFF、PNG、BMP 或 JPEG 格式保存渲染图像的类。 |
+| [ImageSaveOptions](imagesaveoptions/)(SaveFileFormat) | 初始化 `ImageSaveOptions` 类的新实例，可用于将渲染的图像保存为 TIFF、PNG、BMP 或 JPEG 格式。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | 获取或设置实例的列表[`BarStyle`](../../aspose.tasks.visualization/barstyle/)出现在项目视图中的类。 |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | 获取或设置以磅为单位的自定义页面大小（1 磅 = 1/72 英寸）。 |
-| [DefaultFontName](../../aspose.tasks.saving/imagesaveoptions/defaultfontname/) { get; set; } | 获取或设置渲染的默认字体。 |
+| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | 获取或设置出现在项目视图中的 [`BarStyle`](../../aspose.tasks.visualization/barstyle/) 类实例的列表。 |
+| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | 获取或设置自定义页面大小（单位为点，1 点 = 1/72 英寸）。 |
 | [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | 获取或设置一个值，指示是否应绘制非工作时间（默认值为 TRUE）。 |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | 获取或设置完成渲染的日期。 |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | 获取或设置一个值，该值指示是否应增加行高以适合其内容。 |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | 获取或设置视图的日历部分是否应呈现到最后一页的末尾（右侧）。 如果值为 false，日历部分将呈现到 EndDate，即使页面上有空白区域。 |
-| [FontResolveCallback](../../aspose.tasks.saving/imagesaveoptions/fontresolvecallback/) { get; set; } | 获取或设置可用于自定义解析字体的回调。 |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | 获取或设置列表[`Gridline`](../../aspose.tasks.visualization/gridline/)出现在项目视图中. |
-| [HorizontalResolution](../../aspose.tasks.saving/imagesaveoptions/horizontalresolution/) { get; set; } | 获取或设置以 dpi 为单位的水平分辨率。 |
-| [JpegQuality](../../aspose.tasks.saving/imagesaveoptions/jpegquality/) { get; set; } | 获取或设置 JPEG 质量。允许的值范围是 0..100. |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | 获取或设置一个值，指示是否应在每个页面上显示图例（默认值为 TRUE）。 |
+| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | 获取或设置渲染结束的日期。 |
+| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | 获取或设置一个值，指示是否应增加行高以适应其内容。 |
+| [FontSettings](../../aspose.tasks.saving/imagesaveoptions/fontsettings/) { get; } | 指定在渲染项目视图时使用的字体设置。 |
+| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | 获取或设置出现在项目视图中的 [`Gridline`](../../aspose.tasks.visualization/gridline/) 列表。 |
+| [HorizontalResolution](../../aspose.tasks.saving/imagesaveoptions/horizontalresolution/) { get; set; } | 获取或设置水平分辨率（dpi）。 |
+| [IsPortrait](../../aspose.tasks.saving/saveoptions/isportrait/) { get; set; } | 获取或设置一个值，指示页面方向是否为纵向；如果页面方向为横向，则返回 false。 |
+| [JpegQuality](../../aspose.tasks.saving/imagesaveoptions/jpegquality/) { get; set; } | 获取或设置 JPEG 质量。允许的取值范围是 0..100。 |
+| [LegendDrawingOptions](../../aspose.tasks.saving/saveoptions/legenddrawingoptions/) { get; set; } | 获取或设置一个值，定义图例的渲染方式。默认值为 LegendDrawingOptions.OnEveryPage。 |
+| [LegendItems](../../aspose.tasks.saving/saveoptions/legenditems/) { get; set; } | 获取或设置 PageLegendItem 数组，定义哪些条形应在页面图例中渲染。如果为 null，则渲染默认项。 |
 | [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | 获取或设置一个值，指示关键任务是否应以红色显示（默认值为 FALSE）。 |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | 获取或设置非工作时间颜色。 |
+| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | 获取或设置非工作时间的颜色。 |
 | [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | 获取或设置项目的页数。 |
-| [Pages](../../aspose.tasks.saving/imagesaveoptions/pages/) { get; set; } | 获取或设置将项目布局保存到单独文件时要保存的页码列表。 如果此列表为空，将保存所有页面。 |
+| [Pages](../../aspose.tasks.saving/imagesaveoptions/pages/) { get; set; } | 获取或设置在将项目布局保存为单独文件时要保存的页码列表。如果此列表为空，则会保存所有页面。 |
 | [PageSavingCallback](../../aspose.tasks.saving/imagesaveoptions/pagesavingcallback/) { get; set; } | 获取或设置用户定义的回调，用于获取每个渲染页面的输出流。 |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | 获取或设置要渲染的页面大小（默认值为PageSize.A4）。 |
+| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | 获取或设置要渲染的页面大小（默认值为 PageSize.A4）。 |
 | [PixelFormat](../../aspose.tasks.saving/imagesaveoptions/pixelformat/) { get; set; } | 获取或设置图像中每个像素的颜色数据格式。 |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | 获取或设置[`PresentationFormat`](../saveoptions/presentationformat/)文档将保存在其中。 |
-| [ReduceFooterGap](../../aspose.tasks.saving/imagesaveoptions/reducefootergap/) { get; set; } | 获取或设置一个值，该值指示是否必须减少最后一个任务和页脚之间的间隙。 |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | 获取或设置一个值，该值指示当项目以图形格式保存时是否应将项目呈现到单个页面 。 页面大小将更改，以便呈现的项目适合一页。 |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | 获取或设置一个值，指示是否应标记摘要任务栏上的子任务。 对于子任务，Rollup 字段指示是否将子任务甘特图栏上的信息汇总到摘要任务栏。 对于摘要任务，Rollup字段指示摘要任务栏是否显示汇总条。 您必须将摘要任务的汇总字段设置为是，以便任何子任务汇总到它们。 |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | 获取或设置如果使用此保存选项对象将保存文档的格式。 |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | 获取或设置开始渲染的日期。 |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | 获取或设置比较器以对甘特图和任务表图表上的任务进行排序。 |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | 获取或设置用于过滤呈现在甘特图、任务表和任务使用情况图表上的任务的条件。 |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | 获取或设置实例的列表[`TextStyle`](../../aspose.tasks.visualization/textstyle/)出现在项目视图中的类。 |
-| [TiffCompression](../../aspose.tasks.saving/imagesaveoptions/tiffcompression/) { get; set; } | 获取或设置将生成的图像保存为 TIFF 格式时应用的压缩类型。 |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | 获取或设置[`Timescale`](../saveoptions/timescale/)用于控制在项目保存为图形格式时如何呈现时间刻度（如果存在）的值。 |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | 获取或设置一个值，该值指示在呈现甘特图时是否应使用渐变画笔。 |
-| [UseProjectDefaultFont](../../aspose.tasks.saving/imagesaveoptions/useprojectdefaultfont/) { get; set; } | 获取或设置一个值，该值指示是否必须使用默认字体进行渲染。 |
-| [VerticalResolution](../../aspose.tasks.saving/imagesaveoptions/verticalresolution/) { get; set; } | 获取或设置以 dpi 为单位的垂直分辨率。 |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | 获取或设置要呈现的视图列的列表（[`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ). 如果未设置，则仅呈现任务 ID、任务名称、开始和完成。 如果视图和[`ViewSettings`](../saveoptions/viewsettings/)属性已设置，View 中的列会覆盖 ViewSettings. 中的列 |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | 获取或设置视图（[`View`](../saveoptions/view/) ） 渲染。您可以使用此选项明确指定应将哪个视图保存为 PDF、HTML 或图像格式。 如果设置了此属性，[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/)保存项目时忽略属性。 视图应来自以下屏幕之一（（[`Screen`](../../aspose.tasks/view/screen/) )): (甘特图, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage) |
+| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | 获取或设置文档将保存的 [`PresentationFormat`](../saveoptions/presentationformat/)。 |
+| [ReduceFooterGap](../../aspose.tasks.saving/imagesaveoptions/reducefootergap/) { get; set; } | 获取或设置一个值，指示是否必须缩小最后任务与页脚之间的间距。 |
+| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | 获取或设置一个值，指示在项目以图形格式保存时是否应渲染为单页。页面大小将被更改，以便渲染的项目能够适配在一页上。 |
+| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | 获取或设置一个值，指示是否应在汇总任务条上标记子任务。对于子任务，Rollup 字段指示子任务甘特条的信息是否会汇总到汇总任务条。对于汇总任务，Rollup 字段指示汇总任务条是否显示已汇总的条形。必须将汇总任务的 Rollup 字段设置为 Yes，子任务才能汇总到它们上。 |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | 获取或设置如果使用此保存选项对象，文档将被保存的格式。 |
+| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | 获取或设置渲染开始的日期。 |
+| [TaskLinkDrawingCallback](../../aspose.tasks.saving/saveoptions/tasklinkdrawingcallback/) { get; set; } | 获取或设置可用于自定义任务链接渲染某些方面的回调。 |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | 获取或设置用于在甘特图和任务表图上排序任务的比较器。 |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | 获取或设置用于过滤在甘特图、任务表和任务使用图上渲染的任务的条件。 |
+| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | 获取或设置在项目视图渲染期间应用的文本样式列表。 |
+| [TiffCompression](../../aspose.tasks.saving/imagesaveoptions/tiffcompression/) { get; set; } | 获取或设置将生成的图像保存为 TIFF 格式时使用的压缩类型。 |
+| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | 获取或设置[`Timescale`](../saveoptions/timescale/)值，该值用于控制项目保存为图形格式时时间刻度（如果存在）如何渲染。 |
+| [TimescaleFitBehavior](../../aspose.tasks.saving/saveoptions/timescalefitbehavior/) { get; set; } | 获取或设置定义如何将时间刻度的右端与页面末端对齐的行为。 |
+| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | 获取或设置指示在渲染甘特图时是否应使用渐变画刷的值。 |
+| [VerticalResolution](../../aspose.tasks.saving/imagesaveoptions/verticalresolution/) { get; set; } | 获取或设置垂直分辨率（dpi）。 |
+| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | 获取或设置要渲染的视图列列表（[`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)）。如果未设置，则仅渲染任务 ID、任务名称、开始和结束。如果同时设置了 View 和 [`ViewSettings`](../saveoptions/viewsettings/) 属性，则 View 中的列会覆盖 ViewSettings 中的列。 |
+| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | 获取或设置要渲染的视图（[`View`](../saveoptions/view/)）。您可以使用此选项显式指定应保存为 PDF、HTML 或图像格式的视图。如果设置了此属性，保存项目时会忽略[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/)属性。视图应来自以下其中一个屏幕（([`Screen`](../../aspose.tasks/view/screen/))）：（Gantt、TaskSheet、TaskUsage、ResourceSheet、ResourceUsage） |
 
-### 也可以看看
+## 示例
+
+展示如何将项目保存为流中的图像。
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // 通过使用 ImageSaveOptions，我们将项目保存为图像格式
+    project.Save(stream, options);
+}
+```
+
+### 另见
 
 * class [SaveOptions](../saveoptions/)
-* 命名空间 [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* 部件 [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: AssignmentViewColumn.GetColumnText
-second_title: Aspose.Tasks for .NET API 参考
-description: AssignmentViewColumn 方法. 将当前资源分配转换为列文本
+title: "AssignmentViewColumn.GetColumnText"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "AssignmentViewColumn 方法。将当前资源分配转换为列文本"
 type: docs
 weight: 30
 url: /zh/net/aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/
@@ -14,19 +14,45 @@ url: /zh/net/aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/
 public string GetColumnText(ResourceAssignment assignment)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| assignment | ResourceAssignment | 当前分配。 |
+| 分配 | ResourceAssignment | 当前分配。 |
 
 ### 返回值
 
 列文本。
 
-### 也可以看看
+## 示例
+
+展示如何为分配视图添加列。
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### 另见
 
 * class [ResourceAssignment](../../../aspose.tasks/resourceassignment/)
 * class [AssignmentViewColumn](../)
-* 命名空间 [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

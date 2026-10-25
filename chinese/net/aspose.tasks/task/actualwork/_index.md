@@ -1,7 +1,7 @@
 ---
-title: Task.ActualWork
-second_title: Aspose.Tasks for .NET API 参考
-description: Task 财产. 获取或设置 ActualWork 的值
+title: "Task.ActualWork"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Task 属性。获取或设置 ActualWork 的值"
 type: docs
 weight: 90
 url: /zh/net/aspose.tasks/task/actualwork/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.tasks/task/actualwork/
 public Duration ActualWork { get; set; }
 ```
 
-### 也可以看看
+### 另见
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* 命名空间 [Aspose.Tasks](../../task/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

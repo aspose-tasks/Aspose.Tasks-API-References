@@ -1,7 +1,7 @@
 ---
-title: Resource.Assignments
-second_title: Aspose.Tasks for .NET API 参考
-description: Resource 财产. 获取此对象的资源分配集合
+title: "Resource.Assignments"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "Resource 属性。获取此对象的资源分配集合"
 type: docs
 weight: 120
 url: /zh/net/aspose.tasks/resource/assignments/
@@ -14,11 +14,28 @@ url: /zh/net/aspose.tasks/resource/assignments/
 public ResourceAssignmentCollection Assignments { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取资源的分配。
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+foreach (var resource in project.Resources)
+{
+    foreach (var assignment in resource.Assignments)
+    {
+        Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+        Console.WriteLine("Assignment's task name: " + assignment.Get(Asn.Task).Get(Tsk.Name));
+    }
+}
+```
+
+### 另见
 
 * class [ResourceAssignmentCollection](../../resourceassignmentcollection/)
 * class [Resource](../)
-* 命名空间 [Aspose.Tasks](../../resource/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

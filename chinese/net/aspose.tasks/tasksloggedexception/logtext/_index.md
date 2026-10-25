@@ -1,7 +1,7 @@
 ---
-title: TasksLoggedException.LogText
-second_title: Aspose.Tasks for .NET API 参考
-description: TasksLoggedException 财产. 获取异常日志信息
+title: "TasksLoggedException.LogText"
+second_title: "Aspose.Tasks for .NET API 参考"
+description: "TasksLoggedException 属性。获取异常日志信息。"
 type: docs
 weight: 10
 url: /zh/net/aspose.tasks/tasksloggedexception/logtext/
@@ -14,10 +14,30 @@ url: /zh/net/aspose.tasks/tasksloggedexception/logtext/
 public string LogText { get; }
 ```
 
-### 也可以看看
+## 示例
+
+展示如何读取日志文本和异常类型以检查 MPP 导出的问题。
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "PrintTaskWritingException.mpp");
+
+    // 将项目导出为 MPP 文件
+    project.Save(OutDir + "PrintTaskWritingException_out.MPP", SaveFileFormat.Mpp);
+}
+catch (TasksWritingException ex)
+{
+    Console.WriteLine("Exception Operation: " + ex.Operation);
+    Console.WriteLine("Exception Log Text: ");
+    Console.WriteLine(ex.LogText);
+}
+```
+
+### 另见
 
 * class [TasksLoggedException](../)
-* 命名空间 [Aspose.Tasks](../../tasksloggedexception/)
-* 部件 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasksloggedexception/)
+* assembly [Aspose.Tasks](../../../)
 
 
