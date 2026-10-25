@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::Visualization::VisualObjectPlacement::get_Height विधि"
+linktitle: "get_Height"
+articleTitle: "get_Height"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "विज़ुअल ऑब्जेक्ट की प्रदर्शित ऊँचाई प्राप्त करता है।"
+type: docs
+weight: 60
+url: /hi/cpp/aspose.tasks.visualization/visualobjectplacement/get_height/
+---
+
+## get_Height {#get_height}
+
+विज़ुअल ऑब्जेक्ट की प्रदर्शित ऊँचाई प्राप्त करता है।
+
+**Returns:** double Aspose::Tasks::Visualization::
+
+```cpp
+get_Height()
+```
+

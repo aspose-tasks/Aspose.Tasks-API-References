@@ -1,0 +1,26 @@
+---
+title: "Aspose::Tasks::Connectivity::PrimaveraDbSettings::PrimaveraDbSettings कन्स्ट्रक्टर"
+linktitle: "PrimaveraDbSettings"
+articleTitle: "PrimaveraDbSettings"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "PrimaveraDbSettings क्लास का नया उदाहरण प्रारंभ करता है।"
+type: docs
+weight: 10
+url: /hi/cpp/aspose.tasks.connectivity/primaveradbsettings/primaveradbsettings/
+---
+
+## PrimaveraDbSettings {#primaveradbsettings}
+
+PrimaveraDbSettings क्लास का नया उदाहरण प्रारंभ करता है।
+
+**Returns:** Aspose::Tasks::Connectivity::
+
+```cpp
+PrimaveraDbSettings(const System::String & connectionString, int32_t projectId)
+```
+
+| पैरामीटर | विवरण |
+| --- | --- |
+| connectionString | निर्दिष्ट कनेक्शन स्ट्रिंग। |
+| projectId | पढ़ने के लिए प्रोजेक्ट का निर्दिष्ट ID। |
+

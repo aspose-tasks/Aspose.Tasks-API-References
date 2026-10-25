@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::TableField::set_Title विधि"
+linktitle: "set_Title"
+articleTitle: "set_Title"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "टेबल में फ़ील्ड का शीर्षक सेट करता है।"
+type: docs
+weight: 110
+url: /hi/cpp/aspose.tasks/tablefield/set_title/
+---
+
+## set_Title {#set_title}
+
+टेबल में फ़ील्ड का शीर्षक सेट करता है।
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_Title(const System::String & value)
+```
+
+| पैरामीटर | विवरण |
+| --- | --- |
+| मान |  |
+

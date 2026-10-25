@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::Tsk::BudgetWork मेथड"
+linktitle: "BudgetWork"
+articleTitle: "BudgetWork"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "बजट कार्य बजट कार्य और सामग्री संसाधनों के लिए।"
+type: docs
+weight: 150
+url: /hi/cpp/aspose.tasks/tsk/budgetwork/
+---
+
+## BudgetWork {#budgetwork}
+
+बजट कार्य बजट कार्य और सामग्री संसाधनों के लिए। बजट संसाधनों को केवल प्रोजेक्ट सारांश कार्य को सौंपा जाता है।
+
+**Returns:** static Key < Aspose::Tasks::Duration , TaskKey>& Aspose::Tasks::
+
+```cpp
+BudgetWork()
+```
+

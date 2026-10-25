@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::Saving::SaveOptions::set_ViewSettings विधि"
+linktitle: "set_ViewSettings"
+articleTitle: "set_ViewSettings"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "रेंडर करने के लिए एक व्यू ( View ) सेट करता है।"
+type: docs
+weight: 470
+url: /hi/cpp/aspose.tasks.saving/saveoptions/set_viewsettings/
+---
+
+## set_ViewSettings {#set_viewsettings}
+
+रेंडर करने के लिए एक दृश्य ( View ) प्राप्त करता है। आप इस विकल्प का उपयोग करके स्पष्ट रूप से निर्दिष्ट कर सकते हैं कि कौन सा दृश्य PDF, HTML या Image फ़ॉर्मेट में सहेजा जाना चाहिए। यदि यह प्रॉपर्टी सेट है, तो प्रोजेक्ट सहेजे जाने पर Visualization::PresentationFormat प्रॉपर्टी को अनदेखा किया जाता है। दृश्य निम्नलिखित स्क्रीन (( Aspose::Tasks::View::Screen )) में से किसी एक का होना चाहिए: (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
+
+**Returns:** void Aspose::Tasks::Saving::
+
+```cpp
+set_ViewSettings(const System::SharedPtr< Aspose::Tasks::View > & value)
+```
+
+| पैरामीटर | विवरण |
+| --- | --- |
+| मान |  |
+

@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::ResourceAssignment::get_BCWS विधि"
+linktitle: "get_BCWS"
+articleTitle: "get_BCWS"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "एक मान प्राप्त करता है BCWS।"
+type: docs
+weight: 170
+url: /hi/cpp/aspose.tasks/resourceassignment/get_bcws/
+---
+
+## get_BCWS {#get_bcws}
+
+एक मान प्राप्त करता है BCWS।
+
+**Returns:** double Aspose::Tasks::
+
+```cpp
+get_BCWS()
+```
+

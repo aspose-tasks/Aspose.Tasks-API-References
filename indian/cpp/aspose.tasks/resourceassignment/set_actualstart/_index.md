@@ -1,0 +1,25 @@
+---
+title: "Aspose::Tasks::ResourceAssignment::set_ActualStart विधि"
+linktitle: "set_ActualStart"
+articleTitle: "set_ActualStart"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "ActualStart का मान सेट करता है।"
+type: docs
+weight: 810
+url: /hi/cpp/aspose.tasks/resourceassignment/set_actualstart/
+---
+
+## set_ActualStart {#set_actualstart}
+
+ActualStart का मान सेट करता है।
+
+**Returns:** void Aspose::Tasks::
+
+```cpp
+set_ActualStart(System::DateTime value)
+```
+
+| पैरामीटर | विवरण |
+| --- | --- |
+| मान |  |
+

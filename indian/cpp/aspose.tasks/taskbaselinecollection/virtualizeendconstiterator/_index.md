@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::TaskBaselineCollection::virtualizeEndConstIterator मेथड"
+linktitle: "virtualizeEndConstIterator"
+articleTitle: "virtualizeEndConstIterator"
+second_title: "Aspose.Tasks C++ के लिए"
+description: "संग्रह के const-योग्य इंस्टेंस के अंतिम तत्व (यदि कोई हो) के तुरंत बाद की ओर इशारा करने वाला इटररेटर प्राप्त करता है।"
+type: docs
+weight: 140
+url: /hi/cpp/aspose.tasks/taskbaselinecollection/virtualizeendconstiterator/
+---
+
+## virtualizeEndConstIterator {#virtualizeendconstiterator}
+
+संग्रह के const-योग्य इंस्टेंस के अंतिम तत्व (यदि कोई हो) के तुरंत बाद की ओर इशारा करने वाला इटररेटर प्राप्त करता है।
+
+**Returns:** An iterator pointing right after the last element (if any)of the const-qualified instance of the collection Provides const iterator implementation to container's end.
+
+```cpp
+virtualizeEndConstIterator()
+```
+
